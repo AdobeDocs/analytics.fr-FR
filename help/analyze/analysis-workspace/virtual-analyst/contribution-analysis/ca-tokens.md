@@ -5,7 +5,7 @@ seo-title: Présentation de l'analyse des contributions
 title: Présentation de l'analyse des contributions
 uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
 translation-type: tm+mt
-source-git-commit: ca632da6b6181298af4b313fbd232926fbbfa125
+source-git-commit: 10050f2021e1e78e4e258255d356d119aba960c1
 
 ---
 
@@ -50,7 +50,7 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment puis-je restreindre l’accès à l’analyse des contributions ?</b> </p> </td> 
-   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. Vous devez accorder l'autorisation d'utiliser l'analyse des contributions uniquement pour les utilisateurs qui ont une raison légitime de l'utiliser et qui sont approuvés pour n'avoir pas accès à leur accès. </p> <p>L’autorisation est appelée « Analyse des contributions » sous <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gestion utilisateur</span> &gt; <span class="uicontrol">Modifier les groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils de suites de rapports</span> &gt; <span class="uicontrol">Outils et rapports</span></span>. </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. Vous devez accorder l'autorisation d'utiliser l'analyse des contributions uniquement pour les utilisateurs qui ont une raison légitime de l'utiliser et qui sont approuvés pour n'avoir pas accès à leur accès. </p> <p>L’autorisation est appelée « Analyse des contributions » sous <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gestion utilisateur</span> &gt; <span class="uicontrol">Modifier les groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils de suites de rapports</span> &gt; <span class="uicontrol">Outils et rapports</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment puis-je connaître le nombre de jetons auxquels ma société a droit par mois et combien de jetons avons-nous utilisés durant le mois en cours ?</b> </p> </td> 
