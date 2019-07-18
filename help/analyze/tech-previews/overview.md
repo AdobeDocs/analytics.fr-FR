@@ -4,13 +4,15 @@ seo-title: Laboratoires pour Adobe Analytics
 description: Aperçu de projets prototype pour Adobe Analytics
 seo-description: Aperçu des prototypes pour Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 0337fa82484d760f90758a72df8b08a0915112d7
+source-git-commit: a5f1527d899b65d9c2e0c05a72bd4b4e6614ad75
 
 ---
 
 
 
 # Guide de l'utilisateur Labs
+
+Remarque : Labs est actuellement disponible en tant qu'accès anticipé à un nombre limité de clients, mais sera largement publié ultérieurement.
 
 Labs permet un prototypage plus rapide des idées précoces. Il s'agit d'une combinaison d'outils et de processus qui accélère le développement de manière transparente, avec une cible d'action du client. Il permet aux utilisateurs d'interagir avec les technologies émergentes, de découvrir des informations précieuses et d'influencer le développement et les priorités des fonctionnalités futures. Vous pouvez utiliser Labs pour accéder rapidement aux innovations Analytics et évaluer les fonctionnalités à venir dans le contexte de vos propres cas d'utilisation et de vos données.
 
@@ -66,8 +68,6 @@ Pour lancer et évaluer un prototype :
 1. Click **Submit** to return to the main Previews portal.
 
 ## Informations supplémentaires
-
-* Labs est actuellement disponible en tant qu'accès anticipé à un nombre limité de clients, mais sera largement publié ultérieurement.
 
 * Certains prototypes des laboratoires deviennent des fonctionnalités Analytics, d'autres pas. Vos commentaires guident la décision. Ainsi, passez en revue les prototypes et indiquez à Adobe combien vous les recherchez.
 
