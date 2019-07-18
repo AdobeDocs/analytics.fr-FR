@@ -5,7 +5,7 @@ seo-title: Modèles
 title: Modèles
 uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
 translation-type: tm+mt
-source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -92,14 +92,6 @@ Utilisez ces modèles prérenseignés tels quels ou adaptez-les en fonction de v
 [Modèles standard dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 Voici les modèles disponibles et les questions que chaque modèle apporte :
-
-### Publicité
-
-* **Moteurs de recherche**: Ce modèle ventile les tendances de publicité, les totaux des plateformes publicitaires, les mots-clés, etc. **Remarque :** La suite de rapports choisie doit être activée pour que l'option Publier le cloud affiche ce modèle de projet.
-
-## Commerce
-
-* **Magento : Marketing et commerce**: Ce modèle ventile votre conversion de commerce électronique par attribution de canal marketing et fournit des informations statistiques par mot-clé de recherche, page d'entrée, emplacement géographique, etc.
 
 ### Média
 
