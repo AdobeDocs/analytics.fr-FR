@@ -4,7 +4,7 @@ audience: utilisateur final
 user-guide-title: Analytics Analyser le guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 148e463fe171a444cf9705d60d761b791d53e5fe
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -324,8 +324,8 @@ source-git-commit: 148e463fe171a444cf9705d60d761b791d53e5fe
    + [Gestionnaire de planification](ad-hoc-analysis/c-schedule.md)
    + [Générateur de tableau](ad-hoc-analysis/c-tablebuilder.md)
    + [Heure](ad-hoc-analysis/c-time.md)
-+ Analytics Labs {#tech-previews}
-   + [Labs](tech-previews/overview.md)
++ Technology Previews {#tech-previews}
+   + [Aperçu de la technologie Aperçu](tech-previews/overview.md)
 + API de création de rapports dans Analytics {#analytics-reporting-api}
    + [Présentation de l'API de création de rapports Analytics](c-reporting-api/c-reporting-api.md)
    + [Comparaison des API de création de rapports dans Analytics](c-reporting-api/api-comparison.md)
