@@ -1,0 +1,83 @@
+---
+description: valeur nulle
+seo-description: valeur nulle
+seo-title: Segments
+title: Segments
+uuid: 677 f 6030-5 b 3 e -4 dfa-bb 79-9 f 27 f 3382 fb 1
+translation-type: tm+mt
+source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+
+---
+
+
+# Segments {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
+
+## Segment rail {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
+
+Le rail des segments sous le menu Composants affiche les segments, ainsi que les modèles de segments, comme représenté par ces icônes :
+
+![](assets/segment_icons.png)
+
+[Utilisation de segments dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46)
+
+## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
+
+Vous pouvez créer des segments instantanés en déposant un type de composants (dimension, élément de dimension, événement, mesure, segment, modèle de segments, plage de dates) dans la zone de dépôt des segments en haut d’un panneau.
+
+Les types de composants sont automatiquement transformés en segments. Sinon, vous pouvez cliquer sur le signe « + » dans la zone de dépôt Ajouter un segment.
+
+Gardez à l’esprit que :
+
+* Vous **ne pouvez pas** déposer les types de composants suivants dans une zone de segment : les mesures calculées et les dimensions/mesures à partir desquelles vous ne pouvez pas créer de segments.
+* Pour l’intégralité des dimensions et événements, Analysis Workspace crée des segments de chute « existe ». Exemples : « Déposer où eVar1 existe » ou « Déposer où event1 existe ».
+* Si « non spécifié » ou « Aucun » est déposé dans la zone de dépôt du segment, il est automatiquement converti en segment « n'existe pas » afin qu'il soit traité correctement dans la segmentation.
+
+![](assets/segment-dropzone.png)
+
+>[!NOTE]
+>
+>Les segments créés ainsi sont internes au projet.
+
+Pour rendre ces segments publics (globaux), procédez comme suit :
+
+1. Pointez sur le segment de la zone de dépôt, puis cliquez sur l’icône « i ».
+1. Dans le panneau Informations qui s’affiche, cliquez sur **[!UICONTROL Rendre public]**.
+
+   ![](assets/segment-info.png)
+
+## Other methods for applying segments {#section_10FF2E309BA84618990EA5B473015894}
+
+Plusieurs autres méthodes permettent d’appliquer des segments à un projet d’analyse à structure libre.
+
+<table id="table_45B3839D70674430AF3AC5AA3134F825"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Action </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Création d’un segment d’après une sélection </p> </td> 
+   <td colname="col2"> <p>Créez un segment incorporé. Sélectionnez des lignes, cliquez avec le bouton droit de la souris sur la sélection, puis créez un segment incorporé. Ce segment s’applique uniquement au projet ouvert et n’est pas enregistré comme un segment Analytics. </p> <p> 
+     <ol id="ol_1D1E661387354EBF992CC150915F642E"> 
+      <li id="li_B96666FD426F4AEE8EAB61B2C00A07FB">Sélectionnez des lignes. </li> 
+      <li id="li_C2245B3EA81F4FAC88A33647922535AF">Cliquez avec le bouton de la souris sur la sélection. </li> 
+      <li id="li_AB4F8988B9A84920ABA06A91094625F6">Cliquez sur <span class="uicontrol">Créer un segment d’après la sélection</span>. </li> 
+     </ol> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="uicontrol"> Composants</span> &gt; <span class="uicontrol">Nouveau segment</span> </td> 
+   <td colname="col2"> <p>Ouvre le <span class="wintitle">créateur de segments</span>. Voir <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html" format="https" scope="external">Création de segments</a> pour en savoir plus sur la segmentation. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="ignoretag"><span class="uicontrol"> Partager</span> &gt; <span class="uicontrol">Partager le projet</span></span> ou </p> <p> <span class="ignoretag"><span class="uicontrol">Partager</span> &gt; <span class="uicontrol">Traiter les données du projet</span></span> </p> </td> 
+   <td colname="col2"> <p>Dans l’outil <a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local">Traiter et partager</a>, les segments que vous appliquez au projet sont disponibles dans l’analyse partagée avec le destinataire. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Utilisation de segments comme des dimensions </p> </td> 
+   <td colname="col2"> <p>Vidéo : <a href="https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39" format="https" scope="external">Utilisation de segments comme dimensions dans Analysis Workspace</a> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
