@@ -14,15 +14,15 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 ---
 
 
-# Connecter les utilisateurs à l&#39;ensemble des périphériques
+# Connecter les utilisateurs à l'ensemble des périphériques
 
 >[!IMPORTANT]
 >
->Cette méthode d&#39;identification des visiteurs sur l&#39;ensemble des périphériques n&#39;est plus recommandée. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Cette méthode d'identification des visiteurs sur l'ensemble des périphériques n'est plus recommandée. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
 L’identification des visiteurs sur plusieurs appareils vous aide à connecter des visiteurs sur plusieurs appareils. La fonction d’identification des visiteurs sur plusieurs périphériques utilise la variable d’identifiant visiteur, s.visitorID, pour associer des visiteurs. 
 
-Lorsque vous fournissez une telle variable avec un accès, le système recherche d’autres profils du visiteur ayant un [!UICONTROL identifiant visiteur] correspondant.[!UICONTROL  ] Le cas échéant, le profil du visiteur qui figure déjà dans le système est utilisé à partir de ce moment et le profil précédent est abandonné.
+Lorsque vous fournissez une telle variable avec un accès, le système recherche d’autres profils du visiteur ayant un [!UICONTROL identifiant visiteur] correspondant. Le cas échéant, le profil du visiteur qui figure déjà dans le système est utilisé à partir de ce moment et le profil précédent est abandonné.
 
 [!UICONTROL En règle générale, l’identifiant visiteur est défini après l’authentification ou après qu’un visiteur a effectué une autre action vous permettant de l’identifier de manière unique, indépendamment du périphérique utilisé.] Il est conseillé de créer un hachage du nom d’utilisateur ou un ID interne ne contenant aucune information d’identification personnelle.
 
