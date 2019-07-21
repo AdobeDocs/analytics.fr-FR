@@ -1,0 +1,60 @@
+---
+description: Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages Web. Une suite de rapports correspond habituellement à un site Web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez aux rapports marketing, aux Ad Hoc Analysis et au Report Builder, vous sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports).
+keywords: Implémentation d'Analytics ; rapports ; suite de rapports ; rapport d'analyse ; global segment ; cumul ; cumuls ; combiner des suites de rapports ; trafic ; conversion ; chemin
+seo-description: Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages Web. Une suite de rapports correspond habituellement à un site Web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez aux rapports marketing, aux Ad Hoc Analysis et au Report Builder, vous sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports).
+seo-title: Rapports et suites de rapports
+solution: Analytics
+title: Rapports et suites de rapports
+topic: Développeur et mise en œuvre
+uuid: 288203 f 6-cd 13-4 e 01-9950-2 c 7 e 5 cfb 8 a 17
+translation-type: tm+mt
+source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
+
+---
+
+
+# Rapports et suites de rapports
+
+Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages Web. Une suite de rapports correspond habituellement à un site Web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez aux rapports marketing, aux Ad Hoc Analysis et au Report Builder, vous sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports).
+
+![](assets/how-data-is-collected-6.png)
+
+Les rapports fournissent des informations sur les données collectées par Analytics, selon des paramètres spécifiques.
+
+Vous pouvez exécuter un *rapport Analytics* après la mise en œuvre d’Adobe Analytics. Les rapports fournissent des informations sur vos canaux web classiques, ainsi que sur l’évolution des canaux tels que les réseaux mobiles, vidéo et sociaux. Voici quelques exemples de rapports marketing :
+
+* Nombre de visiteurs sur votre site
+* Nombre de ces visiteurs qui sont uniques (comptabilisés une seule fois)
+* Leur acheminement vers le site (s’ils ont suivi un lien ou se sont rendus directement dessus)
+* Mots-clés utilisés par les visiteurs pour rechercher le contenu du site
+* Leur durée passée sur une page donnée ou sur le site entier
+* Liens sur lesquels les visiteurs ont cliqué et le moment où ils ont quitté le site
+* Les canaux marketing les plus efficaces pour générer des recettes ou des événements de conversion
+* Le temps passé à regarder une vidéo
+* Les navigateurs et périphériques utilisés pour consulter votre site
+
+Les types de rapports généraux comprennent :
+
+* [Trafic :](https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html) donne un aperçu détaillé de la façon dont les visiteurs interagissent avec votre site web et affichent des informations sur vos statistiques de trafic personnalisées.
+* [Conversion :](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) affiche des informations sur les indicateurs de succès définis.
+* [Chemins :](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html) permet de suivre et d’enregistrer les chemins complets de navigation des visiteurs.
+
+Vous pouvez utiliser [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) afin de supprimer les limites habituelles d’un rapport Analytics unique. Il offre un canevas robuste et souple permettant de créer des projets d’analyses personnalisés. Faites glisser des tableaux de données, des visualisations et des composants (dimensions, mesures, segments et granularités temporelles) sur un projet. Créez instantanément des ventilations et des segments, des cohortes pour analyse, ainsi que des alertes et des segments et traitez les rapports pour les partager avec n’importe qui dans votre entreprise.
+
+<p class="head"> <b>Voir aussi</b> </p>
+
+* [Aide d’Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
+* Aide de [Reports and Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/)
+* [Rapports Temps réel](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
+* Aide du [Report Builder d’Adobe](https://marketing.adobe.com/resources/help/en_US/arb/)
+* [Extraction de données](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
+* [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
+* [Gestionnaire de suites de rapports](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
+* [Configuration requise et comparaison des produits Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
+* [Descriptions des rapports](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
+* [Tableaux de bord et mini-rapports](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
+* [Signets](https://marketing.adobe.com/resources/help/en_US/insight/client/c_bookmark_about.html)
+* [Suites de rapports virtuelles](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
+* [Détection des anomalies](https://marketing.adobe.com/resources/help/en_US/arb/anomaly_detection.html)
+* [Analyse des contributions](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)
+
