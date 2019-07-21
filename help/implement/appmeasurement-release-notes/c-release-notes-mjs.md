@@ -36,14 +36,14 @@ Date de publication : **15 juillet 2019**
 
 Date de publication : **21 mai 2019**
 
-* Correction de problèmes liés à la gestion de l'état des paramètres de suivi lorsque plusieurs accès sont en attente. (AN -176931, AN -176629, DTM -12758)
-* Appmeasurement mis à jour pour inclure Visitor. js 4.3.0 (AN -180049)
+* Correction de problèmes liés à la gestion de l’état des paramètres de suivi lorsque plusieurs accès sont en attente. (AN-176931, AN-176629, DTM-12758)
+* Mise à jour d’AppMeasurement pour inclure Visitor.js 4.3.0 (AN-180049)
 
 ## Version 2.13.0
 
 Date de publication : **10 avril 2019**
 
-Correction de nombreux problèmes signalés avec clearvars. Le problème survient lorsque des accès sont envoyés avant que le suivi ne soit prêt. Lorsque le suivi est prêt, la bibliothèque peut définir des variables qui ont déjà été effacées ou modifiées. (AN -176931, AN -176629, DTM -12758).
+Correction de nombreux problèmes signalés avec clearvars. Le problème survient lorsque des accès sont envoyés avant que le suivi ne soit prêt. Lorsque le suivi est prêt, la bibliothèque peut définir des variables qui ont déjà été effacées ou modifiées. (AN-176931, AN-176629, DTM-12758).
 
 ## Version 2.12.0
 
@@ -61,7 +61,7 @@ Release Date: **02/11/2019**
 * Ajout de la prise en charge du stockage des données de suivi des liens pour le stockage de session. (AN-162272)
 * Ajout de la prise en charge du type de flux multimédia pour Audio Analytics. (AN-173265)
 
-## Version 2.10.0 {#section_0788526EF23049C9AEB1EE5E8FC985DD}
+## Version 2.10.0 {#section_0788526EF23049C9AEB1EE5E8FC985DD}
 
 Release Date: **09/20/2018**
 
@@ -72,19 +72,19 @@ This release ensures that the [!DNL AppMeasurement] library submits cookies corr
 * Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. (AN-158572)
 * Remove the Media Module from the Code Manager ( [!DNL AppMeasurement]) (AN-166590)
 
-## Version 2.9.0 {#section_E973B8A628F348AA9A1A1599CFE37DB9}
+## Version 2.9.0 {#section_E973B8A628F348AA9A1A1599CFE37DB9}
 
 Date de publication : **24/05/2018**
 
 >[!NOTE]
 >
->Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommends upgrading to the latest Visitor API version whenever associated code libraries are updated ( [!DNL at.js], [!DNL AppMeasurement.js], and so forth.)
+>Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommande d’effectuer une mise à niveau vers la dernière version de l’API visiteur à chaque fois que des bibliothèques de code associées sont mises à jour ([!DNL at.js], etc.).[!DNL AppMeasurement.js]
 
 * Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483)
 * Correction d’un problème en raison duquel le cookie de suivi des liens continue à s’écrire alors que le suivi des liens est désactivé. (AN-156332)
 * Correction d’un problème en raison duquel `registerPreTrackCallback` et `registerPostTrackCallback` interrompent la signature de la fonction de rappel lorsqu’elles sont appelées plusieurs fois. (AN-158566)
 
-## Version 2.8.2 {#section_B70EAEDAB087464482DB04EC4187200D}
+## Version 2.8.2 {#section_B70EAEDAB087464482DB04EC4187200D}
 
 Date de publication : **12/04/2018**
 
@@ -92,13 +92,13 @@ Date de publication : **12/04/2018**
 * Le cookie de suivi des liens continue à être écrit une fois que le suivi des liens est désactivé. (AN-156332)
 * Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. (AN-158572)
 
-## Version 2.8.1 {#section_6C1C4091F2EE4C90B6F3D7EE783DD884}
+## Version 2.8.1 {#section_6C1C4091F2EE4C90B6F3D7EE783DD884}
 
 Date de publication : **29/03/2018**
 
 Recompilation de l’API visiteur 3.1.0 (AN-159524) avec les correctifs suivants : (CORE-11390, CORE-10634)
 
-## Version 2.8.0 {#section_A23AD604D34C497C9318D3EB211B7927}
+## Version 2.8.0 {#section_A23AD604D34C497C9318D3EB211B7927}
 
 Date de publication : **15/03/2018**
 
@@ -108,7 +108,7 @@ Recompilation de l’API visiteur 3.1.0 (AN-159524) avec les correctifs suivant
 * Refactorisation de la création du point de terminaison de la collecte de données afin de faciliter le partage. (AN-156647)
 * Ajout des mesures de minutage en boucle des demandes dans [!DNL AppMeasurement]. (AN-158343)
 
-## Version 2.7.0 {#section_2C047D410B614CEE950DBBC75F035033}
+## Version 2.7.0 {#section_2C047D410B614CEE950DBBC75F035033}
 
 Date de publication : **18/01/2018**
 
@@ -116,13 +116,13 @@ Date de publication : **18/01/2018**
 * Inclusion de l’API visiteur version 3.0.0
 * Inclusion de DIL v7.00
 
-## Version 2.6.0 {#section_229356205EAB4D05890A00B39C42A650}
+## Version 2.6.0 {#section_229356205EAB4D05890A00B39C42A650}
 
 Date de publication : **09/11/2017**
 
 Fixed an issue where [!DNL AppMeasurement] library does not always set the correct account combination when s_gl is called. (AN-152153)
 
-## Version 2.5.0 {#section_3C0006D526CA405FA0C47E2D991012BA}
+## Version 2.5.0 {#section_3C0006D526CA405FA0C47E2D991012BA}
 
 Date de publication : **21/09/2017**
 
@@ -130,28 +130,28 @@ Date de publication : **21/09/2017**
 
 * Inclusion de l’API visiteur version 2.5.0.
 
-## Version 2.4.0 {#section_60D01A128AEE4A97AC492DF8FBE1E7A3}
+## Version 2.4.0 {#section_60D01A128AEE4A97AC492DF8FBE1E7A3}
 
 Date de publication : **17/08/2017**
 
 * dil.js v6.11 inclus
 * API Visiteur 2.4.0 inclus
 
-## Version 2.3.0 {#section_D8F9BFF0D4E44E0F876840360D56E815}
+## Version 2.3.0 {#section_D8F9BFF0D4E44E0F876840360D56E815}
 
 Date de publication : **20/07/2017**
 
 * Correction d’un problème en raison duquel [!DNL s.Util.getQueryParam] capturait #
 * Added v6.10 of [!DNL dil.js] (AN-145701)
 
-## Version 2.2.0 {#section_5E23F21413B1443B9A3021CCC9578C4B}
+## Version 2.2.0 {#section_5E23F21413B1443B9A3021CCC9578C4B}
 
 Date de publication : **08/06/2017**
 
 * Added support for multiple [!DNL AppMeasurement] instantiation order. (AN-138237)
 * Inclusion de l’API visiteur version 2.2.0. (AN-144042)
 
-## Version 2.1.0 {#section_5FE53738F9124C86811DFA08923B6F7B}
+## Version 2.1.0 {#section_5FE53738F9124C86811DFA08923B6F7B}
 
 * Comprend la dernière version de [!DNL dil.js] (AN-140396)
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
@@ -159,14 +159,14 @@ Date de publication : **08/06/2017**
 * Added `mcorgid` parameter. (AN-139586)
 * Paramètre cp (customerPerspective) ajouté. (AN-140897)
 
-## Version 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
+## Version 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
 
 Date de publication : **09/03/2017**
 
 * Migration vers un nouveau processus de compilation qui nécessite une mise à jour vers la version 2.0.0. (AN-137878)
 * Déplacement du traitement de mboxMCSDID à l’emplacement de section correct où est effectué l’appel de suivi. (AN-138483)
 
-## Version 1.8.0 {#section_617B2F09F3494C04901E364ACEDE17E1}
+## Version 1.8.0 {#section_617B2F09F3494C04901E364ACEDE17E1}
 
 Date de publication : **19/01/2017**
 
@@ -190,20 +190,20 @@ Date de publication : **19/01/2017**
 
    Le rappel est appelé avec `requestUrl` et les paramètres transmis lorsque le rappel est enregistré. Cela se produit avant ou après l’appel de suivi, selon la méthode utilisée pour enregistrer le rappel. L’ordre dans lequel ces rappels sont appelés n’est pas garanti. Les rappels enregistrés dans la préfonction sont appelés après la création de l’URL de suivi finale. Les post-rappels sont appelés lors d’un appel de suivi réussi (si l’appel de suivi échoue, ces fonctions ne sont pas appelées). Les rappels enregistrés avec `registerPreTrackCallback` n’ont aucun impact sur l’appel de suivi. De plus, l’appel de ces méthodes de suivi dans un rappel enregistré n’est pas recommandé et peut entraîner une boucle sans fin.
 
-## Version 1.7.0 {#section_A93F24391B1043F4A435D1AA76D9E4F0}
+## Version 1.7.0 {#section_A93F24391B1043F4A435D1AA76D9E4F0}
 
 Mise à jour : **10/11/2016**
 
 * API Visiteur 1.10.1 inclus.
 
-## Version 1.7.0 {#section_107CDB8468AE4B06B900DCDEE5AD2F0A}
+## Version 1.7.0 {#section_107CDB8468AE4B06B900DCDEE5AD2F0A}
 
 Mise à jour : **20/10/2016**
 
 * Update [!DNL Audience Manager] module with Demdex Integration Library (DIL) 6.6. (AN-132065)
 * Inclusion de l’API visiteur version 1.9.0. (AN-132072)
 
-## Version 1.7.0 {#section_945311938EE2480A9A697BFE1E5B2AA7}
+## Version 1.7.0 {#section_945311938EE2480A9A697BFE1E5B2AA7}
 
 Mise à jour : **15/09/2016**
 
@@ -211,7 +211,7 @@ Mise à jour : **15/09/2016**
 
 * Inclusion de l’API visiteur version 1.8.0 (AN-129887)
 
-## Version 1.6.4 {#section_7C40FE01EA5B43E486098FCAC8FA5EC3}
+## Version 1.6.4 {#section_7C40FE01EA5B43E486098FCAC8FA5EC3}
 
 Mise à jour : **18/08/2016**
 
@@ -222,7 +222,7 @@ Mise à jour : **18/08/2016**
 >
 >Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Marketing Cloud ID service.
 
-## Version 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
+## Version 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
 Mise à jour : **04/08/2016**
 
@@ -232,7 +232,7 @@ Mise à jour : **04/08/2016**
 >
 >Version 1.6.0 of the [!DNL Marketing Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Marketing Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
 
-## Version 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
+## Version 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
 
 Date de publication : **21 juillet 2016**
 
@@ -248,13 +248,13 @@ Date de publication : **21 juillet 2016**
 
  -->
 
-## Version 1.6.1 {#section_E69F5883F84F4D2CAE25D385F56C6AF6}
+## Version 1.6.1 {#section_E69F5883F84F4D2CAE25D385F56C6AF6}
 
 Date de publication : **16 juin 2016**
 
 Inclusion de l’API visiteur version 1.5.7.
 
-## Version 1.6.1 {#section_5927689A57164EC99BA501B4FDF0AE8F}
+## Version 1.6.1 {#section_5927689A57164EC99BA501B4FDF0AE8F}
 
 Date de mise à jour : **19 mai 2016**
 
@@ -263,7 +263,7 @@ Date de mise à jour : **19 mai 2016**
 * Inclusion de l’API visiteur version 1.5.6
 * Correction de la prise en charge du suivi des clics publicitaires dans Firefox, qui ne couvrait pas l’événement complet.
 
-## Version 1.6 {#section_B132B272FC2E43E9A24198F459E29403}
+## Version 1.6 {#section_B132B272FC2E43E9A24198F459E29403}
 
 Date de publication : **21 avril 2016**
 
@@ -271,21 +271,21 @@ Date de publication : **21 avril 2016**
 
 * Fixed a truncation issue occurring with the order of query-string variables in [!DNL AppMeasurement], so that *`pageURLRest`* is last. (AN-114647)
 
-## Version 1.5.4 {#section_A230E5F656734ABD9917388790A37B5D}
+## Version 1.5.4 {#section_A230E5F656734ABD9917388790A37B5D}
 
 Date de publication : **17 mars 2016**
 
 * Inclusion de l’API visiteur version 1.5.4
 * Prise en charge de l’exclusion de l’API visiteur version 1.5.4+
 
-## Version 1.5.3 {#section_796927A1BBF74DF6A1A4B9477E0BD20E}
+## Version 1.5.3 {#section_796927A1BBF74DF6A1A4B9477E0BD20E}
 
 Date de publication : **21 janvier 2016**
 
 * Fixed handling of [!DNL Audience Manager] module when POSTs are used for tracking calls. (AN-115381)
 * Déplacement du reste de l’URL de la page ("-g") à la fin de la chaîne de requête de demande de suivi. (AN-114647)
 
-## Version 1.5.2 {#section_17CFD0BBC8744447BDFCC833883BC93E}
+## Version 1.5.2 {#section_17CFD0BBC8744447BDFCC833883BC93E}
 
 Date de publication : **5 novembre 2015**
 
@@ -310,15 +310,15 @@ Date de publication : **16 juillet 2015**
 
 * Updated [!DNL Audience Manager] module to use AAM DIL 6.2 - getCustomer IDs from VisitorAPI.js and pass them in /event call to AAM. (AN-104978)
 
-## Version 1.5 {#section_8809DBD822E440C6B5B7FF41E5DF3015}
+## Version 1.5 {#section_8809DBD822E440C6B5B7FF41E5DF3015}
 
 Date de publication : **18 juin 2015**
 
-* Support for Visitor API 1.5, which uses the *`getCustomerIDs`* method to gather Customer IDs and authenticated state, and sends the IDs in with data collection requests.
+* Prise en charge de l’API visiteur version 1.5 qui utilise la méthode *`getCustomerIDs`* pour rassembler les ID de client et l’état authentifié et envoyer les ID avec les demandes de collecte de données.
 * Fixed the creation of duplicate destinationing iframe in **[!UICONTROL AudienceManagement]** module (DIL 6.1)
 * Correction du problème connu décrit dans la version 1.4.5.
 
-## Version 1.4.5 {#section_FA2E94DF78614ACE9944660E14EF3A75}
+## Version 1.4.5 {#section_FA2E94DF78614ACE9944660E14EF3A75}
 
 Date de mise à jour : **21 mai 2015**
 
@@ -348,7 +348,7 @@ Date de mise à jour : **21 mai 2015**
 
 In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
 
-## Version 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
+## Version 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
 Date de publication : **16 avril 2015**
 
@@ -373,7 +373,7 @@ Date de publication : **16 avril 2015**
 
 Correction mineure afin d’effacer l’identifiant de profil d’appel au serveur léger après l’appel de `trackLight`.
 
-## Version 1.4.3 {#section_C307052BA42248ADB1969AE7A2593177}
+## Version 1.4.3 {#section_C307052BA42248ADB1969AE7A2593177}
 
 Date de publication : **19 février 2015**
 
@@ -381,14 +381,14 @@ Date de publication : **19 février 2015**
 * Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
 * Le fichier compressé de distribution a été mis à jour pour inclure l’API visiteur 1.3.5.
 
-## Version 1.4.2 {#section_0A0BE40D32144A338231022F97B0E72B}
+## Version 1.4.2 {#section_0A0BE40D32144A338231022F97B0E72B}
 
 Date de publication : **15 janvier 2015**
 
 * Correction d’un problème lors de la gestion du prérendu WebKit afin d’empêcher le suivi des pages prérendues qui ne sont pas consultées.
 * The distribution zip was updated to include Visitor API 1.3.4 and an updated **[!UICONTROL AudienceManagement]** module that includes DIL version 5.5.
 
-## Version 1.4.1 {#section_616FF936062F44E8B70032D18AAAFC5F}
+## Version 1.4.1 {#section_616FF936062F44E8B70032D18AAAFC5F}
 
 Date de publication : **18 septembre 2014**
 
@@ -428,76 +428,76 @@ Ajout de la prise en charge des [eVars (76 à 250) et événements (101 à 1000)
 
 [!DNL JavaScript]
 
-## Version 1.3.2 {#section_402A4142C4B846DE945FD59DAD9D9298}
+## Version 1.3.2 {#section_402A4142C4B846DE945FD59DAD9D9298}
 
 Date de publication : **19 juin 2014**
 
 * Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
 * Prise en charge de nouvelles fonctionnalités du service d’identification des visiteurs version 1.3.
 
-## Version 1.3.1 {#section_5E65422B9C1E4437A2473B119A14163E}
+## Version 1.3.1 {#section_5E65422B9C1E4437A2473B119A14163E}
 
 Date de publication : **22 mai 2014**
 
 * [!DNL AppMeasurement] pour [!DNL JavaScript]`s_gi` la fonction ne recherchait pas correctement les instances créées à l'aide du code `s_gi`H. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
 
-## Version 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
+## Version 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
 Date de publication : **17 avril 2014**
 
 * Prise en charge du [service d’identification des visiteurs de Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
-## Version 1.2.4 {#section_94D9521FDBAB4224994B1671A9BD036B}
+## Version 1.2.4 {#section_94D9521FDBAB4224994B1671A9BD036B}
 
 Date de publication : **13 mars 2014**
 
 * Correctifs de bogues pour la vidéo Pulsation.
 
-## Version 1.2.3 {#section_7ED201192D05463DA9B1990EC281B142}
+## Version 1.2.3 {#section_7ED201192D05463DA9B1990EC281B142}
 
 Date de publication : **20 février 2014**
 
 * Correctifs de bogues pour la vidéo Pulsation.
 
-## Version 1.2.2 {#section_E6CDDDB8EE214ADCBF3047EC42711F13}
+## Version 1.2.2 {#section_E6CDDDB8EE214ADCBF3047EC42711F13}
 
 Date de publication : **6 février 2014**
 
 * Fixed a compatibility issue with the [!DNL Audience Manager] DIL module. [!DNL Audience Manager] Les clients doivent également effectuer la mise à jour vers la version 4.8 du module DIL.
 
-## Version 1.2.1 {#section_6DA9384BC2C84698952D51FFB3732019}
+## Version 1.2.1 {#section_6DA9384BC2C84698952D51FFB3732019}
 
 Date de publication : **15 novembre 2013**
 
 * Correction des événements de page utilisés par la [mesure vidéo Pulsation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
 
-## Version 1.2 {#section_BDBE0C3D15F04856ABC6F111DDE6C8DB}
+## Version 1.2 {#section_BDBE0C3D15F04856ABC6F111DDE6C8DB}
 
 Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure Vidéo - Pulsation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
 * [!DNL VisitorAPI.js] a été ajouté à la prise en charge du [service d’identification des visiteurs](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#).
 
-## Version 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
+## Version 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
 * Un appel de suivi de liens ne pouvait pas être envoyé à partir des navigateurs Opera pour les liens commençant par « opera: » (« opera: » est semblable à « about: » et « chrome: » dans d’autres navigateurs).
 * Added `alt=""` to all Image objects to comply with Accessible Video and Communications Act.
 
-## Version 1.1 {#section_4508FF0A14AE46DF96A08B5C6703E123}
+## Version 1.1 {#section_4508FF0A14AE46DF96A08B5C6703E123}
 
 Date de publication : **18 septembre 2013**
 
 * Correction de la prise en charge du positionnement du code de bibliothèque et de page dans la balise `head`.
 * Added missing module `onLoad` support.
 
-## Version 1.0.3 {#section_A74A78C30067480AB36C54A06706DF89}
+## Version 1.0.3 {#section_A74A78C30067480AB36C54A06706DF89}
 
 Date de publication : **15 août 2013**
 
 * Ajout de la prise en charge du déploiement dans la gestion des balises Adobe.
 * Fixed an issue that prevented hierarchy variables from being set on the [!DNL AppMeasurement] object.
 
-## Version 1.0.2 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
+## Version 1.0.2 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
 
 Date de publication : **18 juillet 2013**
 
@@ -509,7 +509,7 @@ Date de publication : **18 juillet 2013**
 
    Désormais, le hachage/fragment est ignoré de sorte que le lien est suivi uniquement lorsque le nom de fichier se termine par une extension qui correspond.
 
-## Version 1.0.1 {#section_3758B0C47171436ABB4B29F5924BE893}
+## Version 1.0.1 {#section_3758B0C47171436ABB4B29F5924BE893}
 
 Date de publication : **23 mai 2013**
 
