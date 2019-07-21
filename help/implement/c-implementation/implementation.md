@@ -1,0 +1,90 @@
+---
+description: valeur nulle
+seo-description: valeur nulle
+seo-title: Feuille de route de mise en œuvre
+title: Feuille de route de mise en œuvre
+uuid: 988 bcca 5-67 ae -4 e 3 f -97 e 6-6 a 42030 b 1962
+translation-type: tm+mt
+source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+
+---
+
+
+# Feuille de route de mise en œuvre
+
+## Nouveaux utilisateurs {#section_77433E4FC5ED4C6BAFC1E72EB61C4503}
+
+Si vous êtes un nouvel utilisateur d’Adobe Analytics, vous pouvez créer rapidement votre première suite de rapports Analytics (référentiel de données) en utilisant le guide [Prise en main d’Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/). Then, you can deploy Analytics code using [Experience Platform Launch](https://docs.adobelaunch.com/).
+
+## Feuille de route de mise en œuvre {#section_E3DD8D199B744FFB9E9B386A44220206}
+
+<table id="table_1683413EA0E34DBC9291832647B68E96"> 
+ <thead> 
+  <tr> 
+   <th colname="col01" class="entry"> Étape </th> 
+   <th colname="col1" class="entry"> Tâche </th> 
+   <th colname="col2" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col01"> <img  src="assets/step1_icon.png" id="image_21F30BBFC0A249F8B0E1A50EBBEED77D" /> </td> 
+   <td colname="col1"> Choisissez une méthode de mise en œuvre. </td> 
+   <td colname="col2"> <p>Les méthodes de mise en œuvre d’Analytics les plus utilisées incluent : </p> <p> 
+     <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
+      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Lancement de plateforme d'expérience </a> (recommandé) <p>Ce guide vous explique tout ce que vous devez savoir concernant l’utilisation des fonctionnalités de gestion de SDK mobile et des balises de site web d’Adobe, et leur mise en œuvre. </p> </li> 
+      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/dtm-implementation-overview.md" format="dita" scope="local">Dynamic Tag Management</a> <p>Ce guide contient des informations spécifiques à Analytics afin de vous guider dans la mise en œuvre de Dynamic Tag Management. </p> </li> 
+      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>Ce guide contient une description des variables de collecte de données et des informations détaillées sur la mise en œuvre du code de collecte de données dans JavaScript, y compris <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/?f=video_js" format="https" scope="external">video </a>. </p> </li> 
+      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="html" scope="external"> SDK d’Analytics </a> <p>Utilisez les SDK d’Analytics pour gérer : </p> <p> 
+        <ul id="ul_F67F2E1964724800A84445A36DFB8E86"> 
+         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html" format="html" scope="external"> Applications mobiles sur iOS </a> </li> 
+         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html" format="html" scope="external"> Applications mobiles sur Android </a> </li> 
+        </ul> </p> </li> 
+     </ul> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
+   <td colname="col1"> Configuration du service d'identité. </td> 
+   <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
+    <draft-comment> 
+     <p>Ajoutez le code d’initialisation d’identifiant visiteur suivant au début du fichier <code>VisitorAPI.js</code> : </p> 
+     <code class="syntax javascript">var visitor = Visitor. getinstance (« INSERT-MCORG-ID-HERE ») ; 
+ visitor. trackingserver = « INSERT-TRACKING-SERVER-HERE » ; // identique à s. trackingserver 
+ visitor. trackingserversecure = « INSERT-SECURE-TRACKING-SERVER-HERE » ; //same as s. trackingserversecure 
+ /* 
+ = = = = = = = = = = = = = = = NE MODIFIEZ RIEN SOUS CETTE LIGNE ! = = = = = = = = = = = = = </code>
+  
+     <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
+      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> « INSERT-MCORG-ID-HERE » </code> - (Obligatoire) Cet ID d'organisation Adobe Experience Cloud est envoyé à votre administrateur lorsque votre société est configurée pour Adobe Experience Cloud. </li> 
+      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE"</code> – (requis) Votre serveur de suivi Analytics. </li> 
+      <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE"</code> – (Obligatoire si ssl est activé) Votre serveur de suivi Analytics sécurisé. </li> 
+     </ul> 
+    </draft-comment> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col01"> <img  src="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
+   <td colname="col1"> Utilisez la méthode de mise en œuvre sélectionnée pour mettre à jour le code de page et le déployer. </td> 
+   <td colname="col2"> <p>Placez le code de page juste après la balise <code>&lt;body&gt;</code> d’ouverture sur chaque page dont vous souhaitez effectuer le suivi. Vous devez, au minimum, mettre à jour les variables suivantes : </p> 
+    <ul id="ul_29200A6E8DA14386BDA242AD8B270FEB"> 
+     <li id="li_FB24D2CB9241401A83BD13EE342A7810"> <code> var s=s_gi("INSERT-RSID-HERE") </code> </li> 
+     <li id="li_463A35BA06CC4618B4AF17CD7E83AED5"> <code> s.pageName="INSERT-NAME-HERE" // par exemple, s.pageName=document.title </code> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
+   <td colname="col1"> Validez la mise en œuvre. </td> 
+   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation/impl-validation.md" format="dita" scope="local"> Test et validation</a> Fournit des informations concernant la validation de votre mise en œuvre. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col1"> Utilisez le débogueur Adobe Experience Cloud pour vérifier que l’envoi des données est en cours. </td> 
+   <td colname="col2"> <p>Install the <a href="../../implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188" format="dita" scope="local"> Experience Cloud Debugger </a>. Une fois cet outil installé, chargez une page dans laquelle vous avez déployé le code de page, puis ouvrez le débogueur. Le débogueur affiche des informations détaillées sur les données de collecte qui ont été envoyées : </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Plus d’informations {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
+
+For information about the differences between [!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management], and JavaScript methods, see [Choose an Implementation Method](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B).
+
+Pour obtenir un aperçu rapide du processus de prise en main et configurer rapidement votre première suite de rapports Analytics, voir [Prise en main de la mise en œuvre d’Analytics](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) dans le guide Prise en main d’Analytics.
