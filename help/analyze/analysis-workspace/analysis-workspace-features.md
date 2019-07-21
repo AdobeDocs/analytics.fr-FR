@@ -11,7 +11,7 @@ source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
 ---
 
 
-# Présentation de l&#39;espace de travail d&#39;analyse
+# Présentation de l'espace de travail d'analyse
 
 Analysis Workspace élimine toutes les limites courantes d’un rapport Analytics unique. Il offre un canevas robuste et souple permettant de créer des projets d’analyses personnalisés. Faites glisser des tableaux de données, des visualisations et des composants (dimensions, mesures, segments et granularités temporelles) sur un projet. Créez instantanément des ventilations et des segments, des cohortes pour analyse, ainsi que des alertes, comparez des segments, analysez les flux et les abandons, et traitez et planifiez les rapports pour les partager avec n’importe qui dans votre entreprise.
 
@@ -25,7 +25,7 @@ Vous trouverez [ici](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOt
 
 >[!NOTE]
 >
->See [What&#39;s New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+>See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +53,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project&#39;s table of contents. Ces liens peuvent être partagés comme n’importe quel lien de projet, afin de rediriger un utilisateur vers une visualisation ou un panneau spécifique au sein d’un projet. De nouvelles options contextuelles, nommées Obtenir un lien vers le panneau et Obtenir un lien vers la visualisation, ont été ajoutées. Pour ajouter des intra-liens à votre projet, procédez comme suit :
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Ces liens peuvent être partagés comme n’importe quel lien de projet, afin de rediriger un utilisateur vers une visualisation ou un panneau spécifique au sein d’un projet. De nouvelles options contextuelles, nommées Obtenir un lien vers le panneau et Obtenir un lien vers la visualisation, ont été ajoutées. Pour ajouter des intra-liens à votre projet, procédez comme suit :
 
 1. Faites glisser une visualisation de texte dans un projet, par exemple près d’une visualisation ou d’un tableau auquel il convient d’ajouter davantage de contexte.
 1. Renseignez la zone de texte avec, par exemple, une table des matières, puis surlignez un élément à lier à un panneau ou à une visualisation, par exemple les mesures de succès.
@@ -105,7 +105,7 @@ Les sélections de tendances sont maintenant **liées** au tableau ci-dessous, d
 
 En tant que détaillant, vous pouvez approfondir davantage encore l’analyse de vos campagnes afin de comprendre comment mieux mobiliser vos clients. Ventilez vos données de différentes manières en fonction de vos besoins ; créez des requêtes à l’aide de mesures, de dimensions, de segments, de chronologies pertinentes et autres valeurs de ventilation d’analyse.
 
-![Résultat de l&#39;étape](assets/fa_data_table_actions.png)
+![Résultat de l’étape](assets/fa_data_table_actions.png)
 
 See [Break down dimensions](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4).
 
