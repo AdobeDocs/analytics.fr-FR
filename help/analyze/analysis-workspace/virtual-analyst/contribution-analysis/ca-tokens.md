@@ -10,13 +10,13 @@ source-git-commit: 10050f2021e1e78e4e258255d356d119aba960c1
 ---
 
 
-# Présentation de l&#39;analyse des contributions
+# Présentation de l'analyse des contributions
 
 ## Contribution Analysis Tokens - overview {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
 >[!IMPORTANT]
 >
->L&#39;analyse des contributions a été supprimée du jeu de fonctionnalités des rapports et analyses et n&#39;est désormais disponible que via Analysis Workspace.
+>L'analyse des contributions a été supprimée du jeu de fonctionnalités des rapports et analyses et n'est désormais disponible que via Analysis Workspace.
 
 Tous les clients autorisés à utiliser l’analyse des contributions peuvent exécuter une analyse complète un nombre limité de fois par mois dans Analysis Workspace. Cela **exclut** les clients (SiteCatalyst 15) du produit, les clients d’Analytics Foundation et les clients d’Analytics Select, qui n’obtiennent aucune analyse de contributions.
 
