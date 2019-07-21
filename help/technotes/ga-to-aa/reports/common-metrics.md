@@ -7,15 +7,15 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 ---
 
 
-# Mesures couramment utilisées sur d&#39;autres plateformes Guide de traduction
+# Mesures couramment utilisées sur d'autres plateformes Guide de traduction
 
-Sur d&#39;autres plateformes, telles que Google Analytics, de nombreux rapports partagent un nombre commun de mesures. Utilisez cette page pour comprendre comment recréer les mesures utilisées dans de nombreux rapports.
+Sur d'autres plateformes, telles que Google Analytics, de nombreux rapports partagent un nombre commun de mesures. Utilisez cette page pour comprendre comment recréer les mesures utilisées dans de nombreux rapports.
 
-Pour ajouter plusieurs mesures à un tableau à structure libre d&#39;espace de travail, faites glisser la mesure à partir de la zone des composants située en regard de l&#39;en-tête de mesure dans l&#39;espace de travail :
+Pour ajouter plusieurs mesures à un tableau à structure libre d'espace de travail, faites glisser la mesure à partir de la zone des composants située en regard de l'en-tête de mesure dans l'espace de travail :
 
 ![Mesure supplémentaire](../assets/new_metric.png)
 
-## Mesures d&#39;acquisition
+## Mesures d'acquisition
 
 **Les utilisateurs** sont approximativement égaux aux **visiteurs uniques** dans Workspace. See the [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) metric in the Components user guide for additional details.
 
@@ -28,7 +28,7 @@ Pour ajouter plusieurs mesures à un tableau à structure libre d&#39;espace de 
 
 **Les sessions** sont approximativement égales **aux Visites** dans Analysis Workspace. See the [Visits](../../../components/c-variables/c-metrics/metrics-visit.md) metric in the Components user guide for additional details.
 
-![Mesures d&#39;acquisition](../assets/acquisition_metrics.png)
+![Mesures d'acquisition](../assets/acquisition_metrics.png)
 
 ## Mesures de comportement
 
@@ -36,7 +36,7 @@ Pour ajouter plusieurs mesures à un tableau à structure libre d&#39;espace de 
 
 **Pages/Session** est une mesure calculée. Il peut être obtenu par :
 
-1. Si vous avez déjà créé cette mesure calculée, localisez-la sous Mesures et faites-la glisser sur l&#39;espace de travail.
+1. Si vous avez déjà créé cette mesure calculée, localisez-la sous Mesures et faites-la glisser sur l'espace de travail.
 2. If you have not yet created this calculated metric, click the **+** icon near the metric list to open the Calculated Metric Builder.
 3. Attribuez-lui un titre de « Pages vues par visite » et une description si vous le souhaitez.
 4. Définissez le format sur Decimal et définissez le nombre de décimales sur 2.
@@ -46,7 +46,7 @@ Pour ajouter plusieurs mesures à un tableau à structure libre d&#39;espace de 
    ![Pages vues par visite](../assets/page_views_per_visit.png)
 
 7. Cliquez sur Enregistrer pour revenir à votre espace de travail.
-8. Faites glisser la mesure calculée nouvellement définie sur l&#39;espace de travail.
+8. Faites glisser la mesure calculée nouvellement définie sur l'espace de travail.
 
    Learn more about [Calculated Metrics](../../../components/c-variables/c-metrics/calculated-metric.md) in the Components user guide.
 
@@ -54,12 +54,12 @@ Pour ajouter plusieurs mesures à un tableau à structure libre d&#39;espace de 
 
 ## Mesures de conversions
 
-**Le taux de conversion d&#39;objectif**, **les remplissages** d&#39;objectif et **la valeur d&#39;objectif** nécessitent une implémentation supplémentaire sur les deux plateformes. Si votre implémentation prend déjà en charge la dimension et l&#39;événement d&#39;achat des produits, tenez compte des étapes suivantes :
+**Le taux de conversion d'objectif**, **les remplissages** d'objectif et **la valeur d'objectif** nécessitent une implémentation supplémentaire sur les deux plateformes. Si votre implémentation prend déjà en charge la dimension et l'événement d'achat des produits, tenez compte des étapes suivantes :
 
 1. Drag the **Orders** metric, **Revenue** metric, and **Visits** metric onto the workspace.
-1. Create a calculated metric of **Orders per Visit**. Utilisez ctrl + clic (Windows) ou cmd + clic (Mac) sur les deux en-têtes de mesure pour les mettre en évidence. Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. Cette nouvelle mesure est similaire à un taux de conversion d&#39;objectif.
-1. Si des décimales sont nécessaires, modifiez la mesure calculée. Cliquez sur le bouton Informations dans l&#39;en-tête de mesure, puis sur l&#39;icône représentant un crayon. Ajoutez 1 ou 2 décimales dans la fenêtre Créateur de mesures calculées, puis cliquez sur Enregistrer.
+1. Create a calculated metric of **Orders per Visit**. Utilisez ctrl + clic (Windows) ou cmd + clic (Mac) sur les deux en-têtes de mesure pour les mettre en évidence. Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. Cette nouvelle mesure est similaire à un taux de conversion d'objectif.
+1. Si des décimales sont nécessaires, modifiez la mesure calculée. Cliquez sur le bouton Informations dans l'en-tête de mesure, puis sur l'icône représentant un crayon. Ajoutez 1 ou 2 décimales dans la fenêtre Créateur de mesures calculées, puis cliquez sur Enregistrer.
 
    ![Commandes par visite](../assets/orders_per_visit.png)
 
-Si votre mise en œuvre ne tient pas encore compte des données de produit ou de conversion, Adobe conseille de travailler avec un conseiller en implémentation afin de garantir la qualité et l&#39;intégrité des données.
+Si votre mise en œuvre ne tient pas encore compte des données de produit ou de conversion, Adobe conseille de travailler avec un conseiller en implémentation afin de garantir la qualité et l'intégrité des données.
