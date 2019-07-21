@@ -32,7 +32,7 @@ Si nécessaire, il est possible de suivre manuellement ces types de liens en uti
 
 Le premier argument doit toujours être défini sur « this » (par défaut) ou sur « true ». L’argument fait référence à l’objet sur lequel l’utilisateur clique ; lorsqu’il est défini sur « this », il fait référence à la propriété HREF du lien.
 
-Si vous implémentez le suivi des liens sur un objet qui n&#39;a pas de propriété HREF, vous devez toujours définir cet argument sur « this.  » »
+Si vous implémentez le suivi des liens sur un objet qui n'a pas de propriété HREF, vous devez toujours définir cet argument sur « this.  » »
 
 Puisque le fait de cliquer sur un lien conduit souvent un visiteur hors de la page active, un délai de 500 ms permet de garantir que la demande d’image est envoyée à Adobe avant que ceci ne se produise. Ce délai n’est nécessaire que lors de la sortie de la page, mais il est généralement présent lors de l’appel de la fonction s.tl(). Si vous souhaitez désactiver le délai, transmettez le mot-clé « true » comme premier paramètre lors de l’appel de la fonction s.tl().
 
@@ -44,9 +44,9 @@ Trois valeurs sont possibles pour linkType, suivant le type de lien que vous sou
 
 | Type | Valeur de linkType |
 |--- |--- |
-| Téléchargements de fichiers | &#39;d&#39; |
-| Liens de sortie | &#39;e&#39; |
-| Liens personnalisés | &#39;o&#39; |
+| Téléchargements de fichiers | 'd' |
+| Liens de sortie | 'e' |
+| Liens personnalisés | 'o' |
 
 **linkName**
 
@@ -141,7 +141,7 @@ Le code de base pour suivre un lien à l’aide du code de lien personnalisé es
 
 >[!NOTE]
 >
->Si le paramètre du nom de lien n&#39;est pas défini, l&#39;URL du lien (déterminé à partir de l&#39;objet « this ») est utilisée comme nom de lien.
+>Si le paramètre du nom de lien n'est pas défini, l'URL du lien (déterminé à partir de l'objet « this ») est utilisée comme nom de lien.
 
 Les variables [!DNL Analytics] peuvent être définies comme une partie du code de lien personnalisé.
 
@@ -250,7 +250,7 @@ Dans JavaScript H.25.4 (publié en février 2013), les limites de portée ci-apr
 
 * `<A>` et `<AREA>` des balises.
 * La balise doit avoir un attribut `HREF`.
-* The `HREF` can&#39;t start with `#`, `about:`, or `javascript:`.
+* The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
 ## Suivi des liens à l’aide d’une demande d’image {#concept_FF31C8D1B3DF483D853BF0A9D637F02F}
@@ -313,7 +313,7 @@ s.linkTrackVars="None"
 s.linkTrackEvents="None"
 ```
 
-Le paramètre *`linkTrackVars`*doit inclure chaque variable dont vous souhaitez effectuer le suivi avec chaque téléchargement de fichier, lien de sortie et lien personnalisé. The *`linkTrackEvents`* parameter should include each event you want to track with every file download, exit link, and custom link. Lorsque l’un de ces types de liens se présente, la valeur actuelle de chaque variable identifiée est suivie.
+Le paramètre *`linkTrackVars`* doit inclure chaque variable dont vous souhaitez effectuer le suivi avec chaque téléchargement de fichier, lien de sortie et lien personnalisé. The *`linkTrackEvents`* parameter should include each event you want to track with every file download, exit link, and custom link. Lorsque l’un de ces types de liens se présente, la valeur actuelle de chaque variable identifiée est suivie.
 
 Par exemple, pour suivre « prop1 », « eVar1 » et « event1 » avec chaque téléchargement de fichier, lien de sortie et lien personnalisé, utilisez les paramètres suivants dans le fichier JS global :
 
@@ -354,7 +354,7 @@ The values of *`linkTrackVars`* and *`linkTrackEvents`* override the settings in
 
 >[!NOTE]
 >
->Dans l&#39;exemple ci-dessus, la valeur de prop 1 est définie dans le code de lien personnalisé lui-même. La valeur de prop2 provient de la valeur actuelle de la variable, telle qu’elle est définie sur la page.
+>Dans l'exemple ci-dessus, la valeur de prop 1 est définie dans le code de lien personnalisé lui-même. La valeur de prop2 provient de la valeur actuelle de la variable, telle qu’elle est définie sur la page.
 
 ## Utilisation des appels de fonction avec un code de lien personnalisé {#concept_DB662C93B3ED415DB72C80270502BE5D}
 
