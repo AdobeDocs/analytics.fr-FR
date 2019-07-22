@@ -5,12 +5,32 @@ seo-title: Présentation de l'analyse des contributions
 title: Présentation de l'analyse des contributions
 uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
 translation-type: tm+mt
-source-git-commit: 10050f2021e1e78e4e258255d356d119aba960c1
+source-git-commit: d3aecc01bc490018c3878f0f6c4dbd621ad35a01
 
 ---
 
 
 # Présentation de l'analyse des contributions
+
+L’analyse des contributions détecte les comportements latents au sein de vos données qui expliquent les anomalies statistiques et identifie les corrélations sous-jacentes aux actions inattendues des clients, aux valeurs hors limites et aux pics et creux soudains de certaines mesures à l’échelle des segments d’audience convergents.
+
+Quelque chose s'est produit. Pourquoi ? Votre rapport Détection des anomalies présente un pic inhabituel des commandes. Vous souhaitez en connaître la raison. Que s’est-il passé ? Qui réagit à cette campagne ou à cette référence ? Quelque chose est-il devenu viral ? Quels facteurs spécifiques ont contribué à cette anomalie ? Et plus important peut-être : comment récupérer les informations importantes au sujet de mon client et répéter cette performance ? (Ou, en cas de creux dans une mesure ou de hausse d'une mesure négative, comment puis-je l'éviter à l'avenir ?)
+
+L’analyse des contributions permet d’évaluer immédiatement les données afin de déterminer la cause d’une anomalie. Elle ventile en quelques secondes les contributions à une anomalie, là où il fallait autrefois plusieurs semaines, isole des schémas pour les segments d’audience et aide à élaborer une narration relative aux interactions des clients. Appliquez l’analyse des contributions de manière stratégique afin de détecter et de capturer des associations significatives pour élaborer de nouveaux segments d’audience ou avec tact pour identifier les activités extraordinaires ou frauduleuses qui ont déclenché une alerte.
+
+La [détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifie les pics de données et les creux statistiques extrêmes d’après les mesures et les segments d’audience sélectionnés. Elle établit une norme historique d’après une période de formation, puis trace les décalages extrêmes en corrélation avec les événements spécifiques. Elle peut repérer une hausse soudaine d’une mesure positive de commandes ou d’une mesure négative de rebonds, ou les creux dans les deux cas, afin de capturer les points de données statistiquement pertinents qui seront évalués par l’analyse des contributions. Une fois une anomalie statistique identifiée, l’analyse des contributions permet d’analyser davantage et d’évaluer les variables de campagne et de marketing pertinentes à l’échelle de tous les points de données irréguliers. Elle exécute des algorithmes et des processus d’apprentissage automatiques élaborés afin d’évaluer les associations qui ont contribué à un pic ou à un creux significatif. Ces Les calculs sont ensuite affichés dans des visualisations interactives conçues pour vous donner diverses perspectives afin de vous aider à comprendre pourquoi quelque chose se produit et que vous pouvez le faire.
+
+L’analyse des contributions permet d’élaborer une narration afin de décrire la raison d’une anomalie et la manière d’y réagir, en capturant les mesures pertinentes et en repérant les points latents qui présentent une raison globale aux interactions des audiences et aux tendances des intérêts des clients. Il est parfois aisé de repérer et de corriger une anomalie, par exemple une commande ponctuelle de 2 000 kayaks. Cela peut aussi être complexe, par exemple en identifiant une tendance émergente sur une période donnée dans une région donnée, qui réagit uniquement à une campagne ciblée spécifique. L’assemblage d’éléments de contribution à l’échelle de mesures pour diverses dimensions et de leurs associations vous donne une idée générale des interactions de votre audience et vous aide à préciser un contexte pour les points de données irréguliers.
+
+Voici quelques idées :
+
+* Identifiez le potentiel de remarketing en surveillant les changements en termes de demande d’un produit.
+* Améliorez les conditions d’utilisation des clients en réagissant à des intérêts spécifiques de l’audience.
+* Repérez les commandes frauduleuses rapidement au moyen d’un rapport sur les hors limites.
+* Protégez-vous contre l’espionnage industriel en détectant les taux élevés d’utilisation et de téléchargements.
+* Surveillez les opérations, par exemple à l’aide de rapports où il manque des balises JavaScript.
+
+Après une analyse exhaustive d’une anomalie, un résumé des contributions est généré pour les principaux éléments classés en fonction du nombre total d’occurrences et du pourcentage des valeurs de contribution des éléments. Une note de contribution normalisée permet de facilement comparer, contraster et associer les éléments à d’autres éléments de dimension significatifs.
 
 ## Contribution Analysis Tokens - overview {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
