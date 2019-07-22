@@ -5,7 +5,7 @@ seo-title: Modèles
 title: Modèles
 uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ---
 
@@ -93,9 +93,21 @@ Utilisez ces modèles prérenseignés tels quels ou adaptez-les en fonction de v
 
 Voici les modèles disponibles et les questions que chaque modèle apporte :
 
+### Publicité
+
+>[!IMPORTANT]
+>
+>Les modèles de publication sont disponibles uniquement si votre suite de rapports est activée pour la publicité Cloud.
+
+* **Moteurs de recherche**: Ce modèle ventile les tendances de publicité, les plateformes publicitaires, les mots-clés, les comptes, les campagnes, etc.
+
+### Commerce
+
+* **Magento : Marketing et commerce**: Ce modèle ventile votre conversion de commerce électronique par attribution de canal marketing et fournit des informations statistiques par mot-clé de recherche, page d'entrée, emplacement géographique, etc. For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+
 ### Média
 
-* **Consommation de contenu**: Quel contenu est le plus consommé et attire les utilisateurs ?
+* **Consommation audio**: Quel contenu est le plus consommé et attire les utilisateurs ?
 * **Récence - Fréquence - Fidélité**: Qui sont mes fidèles lecteurs ?
 
 ### Mobile
