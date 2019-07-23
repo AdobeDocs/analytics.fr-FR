@@ -76,9 +76,9 @@ Avant d’ajouter un rapport (comme mini-rapport) à un tableau de bord, vous de
 
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Manage Dashboards]**.
 1. Click **[!UICONTROL Add Dashboard]**.
-1.  Nommez le tableau de bord.
+1. Nommez le tableau de bord.
 1. Click **[!UICONTROL 3 x 2]** or **[!UICONTROL 2 x 2]** to specify how many reportlets you want on the dashboard page.
-1.  Configurez la présentation de la page du tableau de bord :
+1. Configurez la présentation de la page du tableau de bord :
 
    * **[!UICONTROL Ajouter une page]** : ajoute une page vierge au tableau de bord, sur laquelle vous pouvez faire glisser le contenu pour créer des mini-rapports.
    * **[!UICONTROL Papier]** : permet de préciser un format de papier (paysage, portrait et A4, par exemple).

@@ -26,12 +26,10 @@ Au lieu d’affecter de façon explicite des valeurs aux props et eVars dans vot
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->
-```>
+>```>
 >and 
 >
->
-```>
+>```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 

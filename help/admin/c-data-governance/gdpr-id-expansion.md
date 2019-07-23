@@ -10,8 +10,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 ---
 
 
-# Extension d’ID
-#
+# Extension d’ID #
 
 Les ID que vous soumettez ne couvrent pas toujours toutes les données d’accès qu’Analytics peut associer au sujet des données. Analytics peut créer un ensemble étendu d’ID pour inclure ces données associées aux demandes en vertu du RGPD. Vous pouvez utiliser cette option avec un paramètre facultatif pour chaque demande que vous soumettez en vertu du RGPD, ajoutée à la demande JSON :
 
@@ -46,8 +45,7 @@ Pour une demande de suppression dans laquelle l’extension d’ID n’est pas u
 
 Lorsqu’Adobe effectue une extension d’ID, celle-ci peut nécessiter une nouvelle analyse complète des données, ce qui augmente la durée requise par Adobe pour terminer la requête, souvent de l’ordre d’une semaine.
 
-## Autres indicateurs de requête GDPR
-##
+## Autres indicateurs de requête GDPR ##
 
 En plus de l’indicateur « expandIDs », Analytics prend en charge deux autres indicateurs qui peuvent être transmis dans le cadre d’une demande en vertu du RGPD. Ces indicateurs avec leurs valeurs par défaut sont :
 
