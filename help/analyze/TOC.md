@@ -117,7 +117,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + [Comparaison entre Analysis Workspace et Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Limites de l'espace de travail d'analyse](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
-   + Aide du [Report Builder d’Adobe](report-builder/home.md)
+   + [Aide du Report Builder d’Adobe](report-builder/home.md)
    + [Nouveautés du créateur de rapports](report-builder/whats-new-arb.md)
    + Report Builder setup {#report-builder-setup}
       + [Système requis](report-builder/setup/system-requirements.md)
