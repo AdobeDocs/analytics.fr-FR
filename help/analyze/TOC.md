@@ -20,7 +20,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + Build a Workspace project {#build-workspace-project}
       + [Création d'un projet - Présentation](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Création d'un projet Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Modèles](analysis-workspace/build-workspace-project/starter-projects.md) de projet
+      + [Modèles](analysis-workspace/build-workspace-project/starter-projects.md)
       + Column and row settings {#column-row-settings}
          + [Paramètres de colonne](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Paramètres de ligne](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
