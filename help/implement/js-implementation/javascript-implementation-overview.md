@@ -49,8 +49,8 @@ Les étapes suivantes vous invitent à parcourir une mise en œuvre de base d’
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
     <draft-comment> 
      <p>Ajoutez le code d’initialisation d’identifiant visiteur suivant au début du fichier <code>VisitorAPI.js</code> : </p> 
-     <code class="syntax javascript">var visitor = Visitor. getinstance (« INSERT-MCORG-ID-HERE ») ; visitor. trackingserver = « INSERT-TRACKING-SERVER-HERE » ; // identique à s. trackingserver visitor. trackingserversecure = « INSERT-SECURE-TRACKING-SERVER-HERE » ; //same as s. trackingserversecure/* = = DO NOT ALTER ANYTHING BELOW THIS LINE = = </code>
-  
+     <code class="syntax javascript">var visitor = Visitor. getinstance (« INSERT-MCORG-ID-HERE ») ; visitor. trackingserver = « INSERT-TRACKING-SERVER-HERE » ; // identique à s. trackingserver visitor. trackingserversecure = « INSERT-SECURE-TRACKING-SERVER-HERE » ; //same as s. trackingserversecure/* = = DO NOT ALTER ANYTHING BELOW THIS LINE = = 
+     </code>  
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> « INSERT-MCORG-ID-HERE » </code> - (Obligatoire) Cet ID d'organisation Adobe Experience Cloud est envoyé à votre administrateur lorsque votre société est configurée pour Adobe Experience Cloud. </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE"</code> – (requis) Votre serveur de suivi Analytics. </li> 
