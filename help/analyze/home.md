@@ -4,7 +4,7 @@ seo-title: Analytics Analytics
 description: valeur nulle
 seo-description: valeur nulle
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 Ce guide présente tous les outils d'analyse que vous pouvez utiliser dans Adobe Analytics. Tout d'abord, elle fournit une documentation approfondie sur Analysis Workspace, l'outil d'analyse et de visualisation idéal pour Analytics.
 
-## Clé Analyse des articles
+## Articles sur les outils Analytics clés
 
 * [Prise en main de l'espace de travail d'analyse](analysis-workspace/home.md)
 * [Prise en main du créateur de rapports](report-builder/home.md)
