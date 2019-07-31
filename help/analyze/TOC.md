@@ -117,7 +117,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Comparaison entre Analysis Workspace et Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Limites de l'espace de travail d'analyse](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
-   + Aide du [Report Builder d’Adobe](report-builder/home.md)
+   + [Aide du Report Builder d’Adobe](report-builder/home.md)
    + [Nouveautés du créateur de rapports](report-builder/whats-new-arb.md)
    + Report Builder setup {#report-builder-setup}
       + [Système requis](report-builder/setup/system-requirements.md)
@@ -294,7 +294,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Événements calendrier](reports-analytics/t-calendar-event.md)
    + [Demandes d'entrepôt de données](reports-analytics/data-warehouse.md)
    + [Questions fréquentes](reports-analytics/frequently-asked-questions.md)
-+ Ad Hoc Analysis  {#ad-hoc-analysis}
++ Ad Hoc Analysis {#ad-hoc-analysis}
    + Convertisseur de projets d’Ad Hoc Analysis {#aha-project-converter}
       + [Présentation - Présentation du convertisseur de projets d'analyses hoc](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Conversion de vos projets en analyses ad hoc](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
