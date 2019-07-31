@@ -9,22 +9,17 @@ title: Présentation des variables
 topic: Développeur et mise en œuvre
 uuid: 067 d 0135-572 a -4 a 44-af 9 e -445 d 3 c 4 e 9271
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
 
 # Présentation des variables
 
-Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Ainsi, la valeur de la variable pageName est le nom de la page Web qui fait l’objet d’un rapport. Cette section répertorie les variables prises en charge par AppMeasurement.
+Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Ainsi, la valeur de la variable pageName est le nom de la page Web qui fait l’objet d’un rapport. Cette section répertorie les variables prises en charge par appmeasurement.
 
-Pour obtenir la liste de toutes les variables qui apparaissent dans les rapports Adobe Analytics, reportez-vous à la section [Variables – Utilisation dans le cadre de la génération de rapports](https://marketing.adobe.com/resources/help/en_US/reference/?f=variable_definitions).
-
-<!-- 
-
-<p>The following is for a client issue reported by Gundy on 1/22/16 in an email "Documentation and JavaScript Update Request". This may be a KB issue. Awaiting word from Russ. - Blake </p>
-
- -->
+For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## Comment définir les variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
