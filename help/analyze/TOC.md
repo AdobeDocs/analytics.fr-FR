@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: utilisateur final
+audience: end-user
 user-guide-title: Analytics Analyser le guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -117,7 +117,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + [Comparaison entre Analysis Workspace et Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Limites de l'espace de travail d'analyse](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
-   + [Aide du Report Builder d’Adobe](report-builder/home.md)
+   + Aide du [Report Builder d’Adobe](report-builder/home.md)
    + [Nouveautés du créateur de rapports](report-builder/whats-new-arb.md)
    + Report Builder setup {#report-builder-setup}
       + [Système requis](report-builder/setup/system-requirements.md)
@@ -213,7 +213,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [Mode hors ligne pour la création et la modification de requêtes](report-builder/manage-requests/offline-mode.md)
    + [Options du créateur de rapports](report-builder/options.md)
    + [Planification des demandes de rapport](report-builder/schedule-report-requests.md)
-   + [Planification d'une requête de données](report-builder/t-schedule-a-data-request.md)
+   + [Planification d'un classeur](report-builder/t-schedule-a-data-request.md)
    + [Gestionnaires des tâches planifiées](report-builder/r-arb-scheduled-reports.md)
    + Bibliothèque des classeurs {#workbook-library}
       + [Téléchargement d'un classeur](report-builder/workbook-library/t-upload-a-workbook.md)
@@ -225,7 +225,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [Limites et spécifications](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importation manuelle de données dans Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [Extraire les fichiers publiés dans Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [Meilleures pratiques](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [Bonnes pratiques](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Résolution des problèmes d'intégration de Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Packs de contenu Adobe Analytics pour Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Dépannage et bonnes pratiques pour le créateur de rapports](report-builder/troubleshoot.md)
@@ -294,7 +294,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + [Événements calendrier](reports-analytics/t-calendar-event.md)
    + [Demandes d'entrepôt de données](reports-analytics/data-warehouse.md)
    + [Questions fréquentes](reports-analytics/frequently-asked-questions.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
++ Ad Hoc Analysis  {#ad-hoc-analysis}
    + Convertisseur de projets d’Ad Hoc Analysis {#aha-project-converter}
       + [Présentation - Présentation du convertisseur de projets d'analyses hoc](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Conversion de vos projets en analyses ad hoc](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
