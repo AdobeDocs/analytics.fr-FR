@@ -7,18 +7,26 @@ title: Planification d'une requête de données
 topic: Créateur de rapports
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
-# Planification d'une requête de données
+# Planification d'un classeur
 
-Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du format de fichier définis.
+Vous pouvez planifier des classeurs, définir des options de remise avancées, définir des destinataires et afficher l'historique de planification. Les options de remise avancées vous permettent de configurer des classeurs à envoyer à un moment ou à des intervalles spécifiques. Vous pouvez également spécifier le format de fichier dans lequel envoyer le classeur.
 
-**Pour planifier une requête de données**
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. La taille du fichier est limitée à 5 Mo pour l’envoi d’un rapport.
 
-1. Générez un rapport et enregistrez-le.
+Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (Voir [Planification et distribution de rapports](/help/analyze/reports-analytics/scheduling.md) dans l’aide de Rapports et analyses.)
+
+>[!NOTE]
+>
+>Pour pouvoir planifier un classeur, Excel 2007 ou le pack de compatibilité doit être installé. La licence du créateur de rapports peut contenir au maximum 10 classeurs planifiés. Néanmoins, vous pouvez augmenter ce nombre en utilisant des classeurs d’autres licences. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Un classeur planifié (ou téléchargé dans la Bibliothèque des classeurs) et qui n'a pas été modifié (mis à jour, remplacé) depuis plus de 28 mois sera supprimé.
+
+**Pour planifier un classeur**
+
+1. Générez et enregistrez un classeur.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    L’onglet [!UICONTROL Rapports programmés] affiche un récapitulatif de toutes les tâches que vous avez créées, ainsi que le nombre de tâches restantes.
@@ -29,7 +37,7 @@ Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du form
 
 1. Dans [!UICONTROL l’Assistant de planification - Options de base], configurez les options suivantes :
 
-* **Sélectionner un rapport**: Nom du rapport. Dans le cas des nouveaux rapports programmés, ce champ contient le nom du classeur actif.
+* **Sélectionner un rapport**: Nom du classeur. Pour les nouveaux classeurs planifiés, ce champ est renseigné avec le nom du classeur actif.
 
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
@@ -57,7 +65,7 @@ Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du form
   </tr> 
   <tr> 
    <td colname="col1"> <p>Envoyer à : Courriel </p> </td> 
-   <td colname="col2"> <p>Adresse électronique du destinataire du rapport. </p> </td> 
+   <td colname="col2"> <p>Destinataire électronique du classeur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Envoyer à : Liste de publication </p> </td> 
@@ -73,7 +81,7 @@ Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du form
   </tr> 
   <tr> 
    <td colname="col1"> <p>Planification </p> </td> 
-   <td colname="col2"> <p> Vous permet d’indiquer le moment où le rapport doit être envoyé (Immédiatement, Horaire, Quotidiennement, Hebdomadairement, Mensuellement et Annuellement). </p> </td> 
+   <td colname="col2"> <p> Vous permet de spécifier le moment auquel envoyer le classeur. (Immédiatement, Horaire, Quotidiennement, Hebdomadairement, Mensuellement et Annuellement). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +102,15 @@ Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du form
   </tr> 
   <tr> 
    <td colname="col1"> <p>Heure de remise </p> </td> 
-   <td colname="col2"> <p>Cette option permet d’envoyer immédiatement le rapport ou de planifier une remise différée. L’heure indiquée est fonction du fuseau horaire défini sur votre ordinateur. </p> </td> 
+   <td colname="col2"> <p>Vous permet de planifier le classeur immédiatement ou pour une date ultérieure. L’heure indiquée est fonction du fuseau horaire défini sur votre ordinateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modèle de répétition </p> </td> 
-   <td colname="col2"> <p>Le rapport est envoyé sur la base des options sélectionnées. </p> </td> 
+   <td colname="col2"> <p>Envoie le classeur en fonction de vos sélections. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plage de répétition </p> </td> 
-   <td colname="col2"> <p>Vous permet d’indiquer les heures de début et de fin de réception du rapport. </p> <p> <p>Remarque : si vous planifiez un rapport le premier jour d’une période en cours (semaine, mois, trimestre ou année), le système renverra uniquement les données relatives à ce jour. </p> </p> </td> 
+   <td colname="col2"> <p>Vous permet de spécifier le moment de début et d'arrêt de la réception du classeur. </p> <p> <p>Remarque : La planification d'un classeur le premier jour d'une période en cours (semaine, mois, trimestre ou année) renvoie uniquement les données du premier jour. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Onglet <b>Options de fichier</b> </p> </td> 
@@ -118,7 +126,7 @@ Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du form
   </tr> 
   <tr> 
    <td colname="col1"> <p>Liste de publication </p> </td> 
-   <td colname="col2"> <p> Si vous envoyez le rapport planifié à plusieurs listes de publication, il s’exécute une fois pour chaque liste. Les suites de rapports variables sont remplacées par celle qui est affectée à la liste de publication. </p> </td> 
+   <td colname="col2"> <p> Si vous envoyez le classeur planifié à plusieurs listes de publication, le classeur s'exécute une fois pour chaque liste. Les suites de rapports variables sont remplacées par celle qui est affectée à la liste de publication. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Langue du contenu du fichier </p> </td> 
@@ -146,4 +154,5 @@ Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du form
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   Le Créateur de rapports affiche le rapport planifié dans le [Gestionnaire de tâches planifiées](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+
