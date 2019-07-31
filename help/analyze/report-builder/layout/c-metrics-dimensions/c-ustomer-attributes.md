@@ -5,7 +5,7 @@ seo-title: Attributs du client
 title: Attributs du client
 uuid: a 8340 b 83-d 7 ba -46 fe-bb 20-b 546 cdf 375 b 8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Les attributs du client sont stockés dans un nouveau type d’élément appelé VisAttr, qui peut être configuré comme une dimension ou une mesure.
 
-Pour obtenir des informations plus détaillées sur le transfert des attributs du client, reportez-vous à l’[aide d’Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
+Pour obtenir des informations plus détaillées sur le transfert des attributs du client, reportez-vous à l’[aide d’Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html).
 
 * S’il est configuré comme une mesure, VisAttr est présenté comme dimension et comme mesure.
 
