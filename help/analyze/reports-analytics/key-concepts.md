@@ -5,7 +5,7 @@ seo-title: Adobe Analytics - concepts clés
 title: Adobe Analytics - concepts clés
 uuid: ef 5701 c 5-2 d 3 e -4847-851 f -9312 d 55 db 1 a 8
 translation-type: tm+mt
-source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
+source-git-commit: d3819975bb65ccf345d60474e268ed9d1b1606a7
 
 ---
 
@@ -19,15 +19,15 @@ Cette section présente des concepts clés liés à Adobe Analytics, une brève
 | Produit | Description | Lien vers la documentation |
 |--- |--- |--- |
 | Analysis Workspace | Solution de navigateur pour créer des projets d'analyse personnalisés et fiables et démocratiser les statistiques. Offre plus de flexibilité que les rapports et analyses | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
-| Rapports et analyses (anciennement SiteCatalyst) | Solution de navigateur pour la création de rapports et l'analyse. Outil de démarrage de la solution Analytics. | [https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
-| Report Builder | Module complémentaire Excel qui vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics et de les visualiser à l'aide de Microsoft Excel. | [https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Analyses ad hoc (anciennement Discover) | Outil Java pour une analyse numérique avancée. Slated for end-of-life au 3 2019. | [https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
-| Outils de données (anciennement Insight) | Permettent de collecter, de traiter, d’analyser et de visualiser des données issues d’interactions d’utilisateurs en ligne et hors ligne sur plusieurs canaux. | [https://marketing.adobe.com/resources/help/en_US/insight/client/](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
-| Entrepôt de données | Données brutes non traitées pour le stockage et les rapports personnalisés, que vous pouvez traiter en filtrant les données. Aucun niveau d’accès. | [https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
-| Adobe Mobile Services | Réunit l’ensemble des fonctionnalités de marketing mobile pour les applications mobiles d’Adobe Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications.  Accessible à l’adresse : https://mobilemarketing.adobe.com/ | [https://docs.adobe.com/content/help/en/mobile-services/using/home.html](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
-| Connecteurs de données Adobe Exchange (anciennement Genesis) | Importez des données de suivi à partir d'applications tierces dans Analytics pour donner une visibilité de bout en bout aux performances dans un seul et même emplacement. | [https://marketing.adobe.com/developer/fr/documentation/genesis/c-overview-how-it-works](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
-| Gestion dynamique des balises | Permet de gérer les balises Analytics, Target et autres sur tous vos sites, quel que soit le nombre de domaines. | [https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
-| Adobe Launch | Génération suivante de balises de site Web et de fonctionnalités de gestion du SDK mobile d'Adobe. | [https://docs.adobe.com/content/help/en/launch/using/overview.html](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
+| Rapports et analyses (anciennement SiteCatalyst) | Solution de navigateur pour la création de rapports et l'analyse. Outil de démarrage de la solution Analytics. | [Accueil des rapports et analyses](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
+| Report Builder | Module complémentaire Excel qui vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics et de les visualiser à l'aide de Microsoft Excel. | [Accueil du créateur de rapports](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
+| Analyses ad hoc (anciennement Discover) | Outil Java pour une analyse numérique avancée. Slated for end-of-life au 3 2019. | [Publicité - Accueil des analyses ad hoc](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Outils de données (anciennement Insight) | Permettent de collecter, de traiter, d’analyser et de visualiser des données issues d’interactions d’utilisateurs en ligne et hors ligne sur plusieurs canaux. | [Client Outils de données](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
+| Entrepôt de données | Données brutes non traitées pour le stockage et les rapports personnalisés, que vous pouvez traiter en filtrant les données. Aucun niveau d’accès. | [Accueil de l'entrepôt de données](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
+| Adobe Mobile Services | Réunit l’ensemble des fonctionnalités de marketing mobile pour les applications mobiles d’Adobe Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications. | [Accueil des services mobiles](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Connecteurs de données Adobe Exchange (anciennement Genesis) | Importez des données de suivi à partir d'applications tierces dans Analytics pour donner une visibilité de bout en bout aux performances dans un seul et même emplacement. | [Accueil des connecteurs de données](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
+| Gestion dynamique des balises | Permet de gérer les balises Analytics, Target et autres sur tous vos sites, quel que soit le nombre de domaines. | [Accueil de la gestion dynamique des balises](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
+| Adobe Launch | Génération suivante de balises de site Web et de fonctionnalités de gestion du SDK mobile d'Adobe. | [Accueil d'Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -35,19 +35,17 @@ Cliquez [ici](https://docs.adobe.com/content/help/en/analytics/technotes/terms.h
 
 | Terme | Description | Lien vers la documentation |
 |--- |--- |--- |
-| Props (trafic personnalisé) | Dimensions utilisées pour effectuer le suivi de l'activité page par page du trafic. Les props ne persistent pas entre les pages. Applications clés des variables de trafic : <ul><li>Comptage simple pour trouver « le plus populaire » d'une valeur spécifique</li><li>Visibilité de la cheminement des utilisateurs sur votre site </li></ul><br>Exemples de variables de trafic : nom de page, sections du site, navigateurs</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
-| Evar (Conversion personnalisée) | Dimensions qui persistent pendant une période que vous personnalisez. Options d’expiration : expiration de l’événement, expiration de la visite ou expiration après x jours ; dépendent du type d’analyse qui sera exécuté sur cette variable.<br>Différences clés entre les evars et les props :</br><ul><li>Les props sont souvent utilisées pour l'analyse du cheminement, car la persistance est supprimée.</li><li>Les evars sont souvent utilisées pour l'analyse de conversion.</li></ul><br>Exemples de variables de conversion : termes de recherche interne, promotions internes, campagnes externes (s.campaign)</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
-| Événements/mesures (s. events) | Mesures mesurant les principales actions que les visiteurs doivent entreprendre sur notre site. Il existe trois types d’événements : compteur, numérique et devise. Les événements sont plus utiles s’ils sont ajoutés aux rapports de variable de conversion (eVar). L’eVar fournit des informations qualitatives sur ce qui s’est produit, tandis que l’événement fournit des informations quantitatives. <br>Différences clés entre evars et événements :</br><ul><li>Les evars indiquent qui, quoi ou qui a affecté la conversion</li><li>Les événements mesurent le nombre de conversions ayant eu lieu</li></ul><br>Exemples d’événements de conversion : commandes, débuts d’application, pistes et recettes.</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
-| Composants | Dimensions, mesures, segments et granularités temporelles (plages de dates) que vous pouvez faire glisser sur un projet. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
-| Dimensions | Collecte des evars, props, classifications et valeurs collectées par Adobe standard. | [https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
-| Mesures | Collection d'événements implémentés et de mesures calculées. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
-| Mesures calculées | Capacité à dériver des mesures personnalisées provenant de mesures existantes capturées par l'intermédiaire de votre implémentation. | [https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
-| Segments | Capacité de compiler, de gérer, de partager et d’appliquer des segments d’audience puissants et cadrés pour vos rapports Analytics. Les segments sont partagés à l’échelle des produits Analytics et peuvent aussi l’être à l’échelle d’Experience Cloud. | [https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
-| Heure (plages de dates) | Capacité à filtrer la date à une période donnée et à créer des plages de dates personnalisées qui peuvent être réutilisées dans votre analyse. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
-| Visualisations | Des visuels riches qui peuvent vous aider à donner vie à vos projets. | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
+| Props (trafic personnalisé) | Dimensions utilisées pour effectuer le suivi de l'activité page par page du trafic. Les props ne persistent pas entre les pages. Applications clés des variables de trafic : <ul><li>Comptage simple pour trouver « le plus populaire » d'une valeur spécifique</li><li>Visibilité de la cheminement des utilisateurs sur votre site </li></ul><br>Exemples de variables de trafic : nom de page, sections du site, navigateurs</br> | [Props](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| Evar (Conversion personnalisée) | Dimensions qui persistent pendant une période que vous personnalisez. Options d’expiration : expiration de l’événement, expiration de la visite ou expiration après x jours ; dépendent du type d’analyse qui sera exécuté sur cette variable.<br>Différences clés entre les evars et les props :</br><ul><li>Les props sont souvent utilisées pour l'analyse du cheminement, car la persistance est supprimée.</li><li>Les evars sont souvent utilisées pour l'analyse de conversion.</li></ul><br>Exemples de variables de conversion : termes de recherche interne, promotions internes, campagnes externes (s.campaign)</br> | [eVars](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| Événements/mesures (s. events) | Mesures mesurant les principales actions que les visiteurs doivent entreprendre sur notre site. Il existe trois types d’événements : compteur, numérique et devise. Les événements sont plus utiles s’ils sont ajoutés aux rapports de variable de conversion (eVar). L’eVar fournit des informations qualitatives sur ce qui s’est produit, tandis que l’événement fournit des informations quantitatives. <br>Différences clés entre evars et événements :</br><ul><li>Les evars indiquent qui, quoi ou qui a affecté la conversion</li><li>Les événements mesurent le nombre de conversions ayant eu lieu</li></ul><br>Exemples d’événements de conversion : commandes, débuts d’application, pistes et recettes.</br> | [Evénements](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
+| Composants | Dimensions, mesures, segments et granularités temporelles (plages de dates) que vous pouvez faire glisser sur un projet. | [Composants](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
+| Dimensions | Collecte des evars, props, classifications et valeurs collectées par Adobe standard. | [Dimensions](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
+| Mesures | Collection d'événements implémentés et de mesures calculées. | [Mesures](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
+| Mesures calculées | Capacité à dériver des mesures personnalisées provenant de mesures existantes capturées par l'intermédiaire de votre implémentation. | [Mesures calculées](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
+| Segments | Capacité de compiler, de gérer, de partager et d’appliquer des segments d’audience puissants et cadrés pour vos rapports Analytics. Les segments sont partagés à l’échelle des produits Analytics et peuvent aussi l’être à l’échelle d’Experience Cloud. | [Segmentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
+| Heure (plages de dates) | Capacité à filtrer la date à une période donnée et à créer des plages de dates personnalisées qui peuvent être réutilisées dans votre analyse. | [Plages de dates](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
+| Visualisations | Des visuels riches qui peuvent vous aider à donner vie à vos projets. | [Visualisations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | Traitement | Possibilité de limiter les composants accessibles dans un projet ou une suite de rapports virtuelle. | [Curationcomparaison des courbes de projet](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
-
-
 
 ## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
@@ -148,12 +146,6 @@ Cliquez [ici](https://docs.adobe.com/content/help/en/analytics/technotes/terms.h
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
-<!-- 
-
-key_metrics.xml
-
- -->
-
 | Nom de la mesure | Définition | Lien vers la documentation |
 |---|---|---|
 | Liste complète des mesures | Définition de toutes les mesures dans Adobe Analytics. | [https://marketing.adobe.com/resources/help/fr_FR/reference/metrics.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) |
@@ -165,12 +157,6 @@ key_metrics.xml
 
 ## Options d'importation {#concept_7C6DF03B5F9149E2A77F36C739432059}
 
-<!-- 
-
-import_options.xml
-
- -->
-
 | Option | Description | Lien vers la documentation |
 |---|---|---|
 | Importateur de classifications | Importez par navigateur ou transfert FTP des métadonnées par rapport aux dimensions capturées. Méthode manuelle comparée au créateur de règles. | [https://marketing.adobe.com/resources/help/fr_FR/reference/c_working_with_saint.html](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
@@ -180,11 +166,6 @@ import_options.xml
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-<!-- 
-
-export_options.xml
-
- -->
 
 <table id="table_99867D82082D4756872FC3ABD83A33A1"> 
  <thead> 
@@ -229,12 +210,6 @@ export_options.xml
 </table>
 
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
-
-<!-- 
-
-data_collection_and_validation.xml
-
- -->
 
 <table id="table_53039DCCAC1D47F7A1E3485609D13E4D"> 
  <thead> 
