@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: e80e921e03331a2762ebbffade0fa4dfc1206e8a
 
 ---
 
@@ -18,6 +18,6 @@ source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
 Consultez les informations suivantes sur cette intégration des connecteurs de données concernant Datran :
 
 * **Compte Datran valide :** Pour pouvoir utiliser l'intégration de courrier électronique des Connecteurs de données, un client doit disposer d'un compte Datran valide.
-* ** Client actuel de Datran : ** Cette intégration nécessite que vous soyez client d'Adobe et de Datran. Si vous n'êtes pas actuellement client de Datran, vous ne disposez pas des informations nécessaires pour terminer l'assistant d'intégration. Si vous êtes actuellement client de Datran, vous aurez besoin de votre ID de compte Datran ou de l'identifiant unique attribué à votre organisation pour terminer l'assistant d'intégration.
+* **Client actuel de Datran :** Cette intégration nécessite que vous soyez client d'Adobe et de Datran. Si vous n'êtes pas actuellement client de Datran, vous ne disposez pas des informations nécessaires pour terminer l'assistant d'intégration. Si vous êtes actuellement client de Datran, vous aurez besoin de votre ID de compte Datran ou de l'identifiant unique attribué à votre organisation pour terminer l'assistant d'intégration.
 * Veuillez contacter votre gestionnaire de compte pour connaître les instructions de configuration de stormpost.
 
