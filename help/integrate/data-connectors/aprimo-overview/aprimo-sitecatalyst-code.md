@@ -8,12 +8,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: 191c2add5b6762181ff669fddea3e4aa559a5044
 
 ---
 
 
-# Adobe Analytics Plug-In Code{#adobe-analytics-plug-in-code}
+# Adobe Analytics Plug-In Code {#adobe-analytics-plug-in-code}
 
 Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
 
