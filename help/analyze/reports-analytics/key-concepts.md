@@ -5,7 +5,7 @@ seo-title: Adobe Analytics - concepts clés
 title: Adobe Analytics - concepts clés
 uuid: ef 5701 c 5-2 d 3 e -4847-851 f -9312 d 55 db 1 a 8
 translation-type: tm+mt
-source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
+source-git-commit: 998699eb14d40b955cb6ae73ecf1940c8aed15ab
 
 ---
 
@@ -47,7 +47,7 @@ Cliquez [ici](https://docs.adobe.com/content/help/en/analytics/technotes/terms.h
 | Visualisations | Des visuels riches qui peuvent vous aider à donner vie à vos projets. | [Visualisations](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | Traitement | Possibilité de limiter les composants accessibles dans un projet ou une suite de rapports virtuelle. | [Curationcomparaison des courbes de projet](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## Rapports clés
 
 | Rapport | Description | Lien vers la documentation |
 |--- |--- |--- |
@@ -61,14 +61,13 @@ Cliquez [ici](https://docs.adobe.com/content/help/en/analytics/technotes/terms.h
 | Rapports Parcours client | Affiche des informations sur le chemin emprunté par vos utilisateurs sur votre site ou votre application. La prop, evars et événements peuvent être utilisés dans cette analyse dans Analysis Workspace. | [Cheminement Analysis Workspace Analysis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[Workspace workflows](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[et cheminement Analytics](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) |
 | Canaux marketing | Ces rapports permettent de comprendre quels canaux externes orientent les utilisateurs vers votre site et lesquels sont plus efficaces pour engendrer une conversion. Les vues d’attribution Première touche et Dernière touche sont fournies. C’est le rapport de source de trafic externe privilégié dans Adobe Analytics (plutôt que les campagnes ou les sources de trafic), car il fournit la présentation la plus complète au niveau des canaux payants et organiques. | [Canaux marketing](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
 | Mobile | Présente des informations au sujet des sites web accessibles sur un appareil mobile ou une tablette. | [Rapport Mobile | (https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html) |
-| Applications mobiles | Présentent des informations d’utilisation de base liées à vos applications mobiles. Ces rapports sont disponibles une fois notre SDK mis en œuvre et la création de rapports activée.  En outre, Adobe Mobile Services a créé une interface distincte d’application mobile qui fournit des données d’application plus complètes, ce qui vous permet de comprendre et d’améliorer l’interaction des utilisateurs avec vos applications.  Access the interface [here](https://mobilemarketing.adobe.com). | [Services mobiles Adobe](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Produits | Identifient la manière dont les produits individuels et groupes de produits (catégories) influencent vos différentes mesures de conversion, comme les recettes ou les passages en caisse. | [Rapport Produits](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
+| Applications mobiles | Présentent des informations d’utilisation de base liées à vos applications mobiles. Ces rapports sont disponibles une fois notre SDK mis en œuvre et la création de rapports activée.  En outre, Adobe Mobile Services a créé une interface distincte d’application mobile qui fournit des données d’application plus complètes, ce qui vous permet de comprendre et d’améliorer l’interaction des utilisateurs avec vos applications.  Accédez à l'interface [ici](https://mobilemarketing.adobe.com). | [Services mobiles Adobe](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Produits | Identifient la manière dont les produits individuels et groupes de produits (catégories) influencent vos différentes mesures de conversion, comme les recettes ou les passages en caisse. | [Rapport Produits](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
 | Comparaison des segments | Détecte les différences les plus importantes sur le plan statistique entre les segments grâce à une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès. | [Comparaison de segments](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) |
 | Rapport Contenu du site | Présente des informations sur les pages et les sections les plus actives de votre site et sur les serveurs les plus sollicités. | [Rapport Contenu du site](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-content.html) |
 | Rapport Mesures du site | Présentent les informations quantitatives au sujet de votre site web : visiteurs uniques, commandes, recettes, etc. Chaque mesure peut être placée dans d’autres rapports dépendant des éléments. | [Rapport Mesures du site](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-metrics.html) |
 | Profil du visiteur | Ces rapports vous aident à identifier des modèles d’achat de clients à partir de catégories variées de profils ; par exemple, des pays, états, codes postaux et domaines. | [Profil du visiteur](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-profile.html) |
 | Rétention des visiteurs | Présente des informations liées à la fidélité de vos clients, par exemple combien de visiteurs sont revenus sur votre site et à quelle fréquence. | [Rétention des visiteurs](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-retention.html) |
 | Lien du projet, partage et planification | Méthodes permettant d’enregistrer ou de partager votre projet avec d’autres personnes dans l’interface Analytics. | [Envoi et planification de fichiers](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) |
-
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
@@ -89,17 +88,17 @@ Cliquez [ici](https://docs.adobe.com/content/help/en/analytics/technotes/terms.h
 | Créateur de règles | Créez automatiquement des classifications de métadonnées des dimensions d’après les règles définies par l’utilisateur. | [Créateur de règles de classification](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
 | Attributs du client | Données de gestion de la relation client transférées dans Experience Cloud à utiliser dans Adobe Analytics et Adobe Target. | [Attributs du client](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) |
 | Sources de données | Les mesures hors ligne Impor dans Analytics par rapport aux dimensions ou simplement par jour. | [Sources de données](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
-| Connecteurs de données Adobe Exchange | See [Adobe Analytics Tools](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
+| Connecteurs de données Adobe Exchange | Voir [Outils Adobe Analytics](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
 | Intégrations natives | Analyses d'audience et publication Analytics. | Voir la section « Rapports clés ». |
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-| Options | Description |  |
-|--- |--- |--- |
-| Téléchargements et planification de l'interface utilisateur | Exportation de données d'Analysis Workspace au format CSV ou PDF | [Téléchargement de fichiers PDF ou CSV](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
-| Report Builder | Voir Outils Analytics. | - |
+| Option | Description | Lien vers la documentation |
+|---|---|---|
+| Téléchargements et planification de l'interface utilisateur | Exportation de données d'Analysis Workspace au format CSV ou PDF | [Téléchargement de fichiers PDF ou CSV](/help/analyze/analysis-workspace/curate-share/download-send.md) |
+| Report Builder | Voir Outils Analytics. |
 | API Analytics | Créez vos propres requêtes personnalisées des données Analytics. | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
-| Data Warehouse | Voir Outils Analytics. | - |
+| Data Warehouse | Voir Outils Analytics. |  |
 | Flux de données Analytics | Manière la plus granulaire de récupérer des données dans Analytics. Configurez un flux au niveau des accès en dehors d’Analytics. | [Flux de données Analytics](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html) |
 
 
