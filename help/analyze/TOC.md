@@ -4,12 +4,12 @@ audience: end-user
 user-guide-title: Analytics Analyser le guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
 
 ---
 
 
-# Analytics Tools Guide {#analyze}
+# Guide des outils Analytics {#analyze}
 
 + [Guide des outils Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
@@ -17,7 +17,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Fonctionnalités d’Analysis Workspace](analysis-workspace/analysis-workspace-features.md)
    + [Cas d'utilisation d'Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Nouveautés d’Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)      
-   + Build a Workspace project {#build-workspace-project}
+   + Création d'un projet Workspace {#build-workspace-project}
       + [Création d'un projet - Présentation](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Création d'un projet Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [Modèles](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -117,7 +117,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Comparaison entre Analysis Workspace et Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Limites de l'espace de travail d'analyse](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
-   + [Aide du Report Builder d’Adobe](report-builder/home.md)
+   + Aide du [Report Builder d’Adobe](report-builder/home.md)
    + [Nouveautés du créateur de rapports](report-builder/whats-new-arb.md)
    + Report Builder setup {#report-builder-setup}
       + [Système requis](report-builder/setup/system-requirements.md)
@@ -294,7 +294,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Événements calendrier](reports-analytics/t-calendar-event.md)
    + [Demandes d'entrepôt de données](reports-analytics/data-warehouse.md)
    + [Questions fréquentes](reports-analytics/frequently-asked-questions.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
++ Ad Hoc Analysis  {#ad-hoc-analysis}
    + Convertisseur de projets d’Ad Hoc Analysis {#aha-project-converter}
       + [Présentation - Présentation du convertisseur de projets d'analyses hoc](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Conversion de vos projets en analyses ad hoc](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
@@ -324,8 +324,8 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Gestionnaire de planification](ad-hoc-analysis/c-schedule.md)
    + [Générateur de tableau](ad-hoc-analysis/c-tablebuilder.md)
    + [Heure](ad-hoc-analysis/c-time.md)
-+ Technology Previews {#tech-previews}
-   + [Aperçu de la technologie Aperçu](tech-previews/overview.md)
++ Labs {#tech-previews}
+   + [Présentation des laboratoires](tech-previews/overview.md)
 + API de création de rapports dans Analytics {#analytics-reporting-api}
    + [Présentation de l'API de création de rapports Analytics](c-reporting-api/c-reporting-api.md)
    + [Comparaison des API de création de rapports dans Analytics](c-reporting-api/api-comparison.md)
