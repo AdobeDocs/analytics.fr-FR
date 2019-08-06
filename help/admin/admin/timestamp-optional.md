@@ -7,7 +7,7 @@ title: Horodatages facultatifs
 topic: Outils d’administration
 uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 ---
 
@@ -22,7 +22,7 @@ Avec les horodatages facultatifs, vous pouvez faire ce qui suit :
 * Envoyez des données horodatées d’une application mobile vers une suite de rapports globale.
 * Mettez à niveau les applications afin d’utiliser le suivi hors ligne sans avoir à créer une suite de rapports.
 
-Voir [Utilisation du paramètre Horodatages (facultatif)](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=timestamps-overview) pour connaître les bonnes pratiques en termes d’utilisation des horodatages dans une suite de rapports.
+Voir [Utilisation du paramètre Horodatages (facultatif)](/help/implement/js-implementation/timestamps-overview.md) pour connaître les bonnes pratiques en termes d’utilisation des horodatages dans une suite de rapports.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Voir [Utilisation du paramètre Horodatages (facultatif)](https://marketing.adob
 
 >[!NOTE]
 >
->Les données de la session avec horodatage sont conservées pendant 92 jours au maximum.
+>Les données de la session avec horodatage sont conservées pendant 92 jours au maximum. Cela signifie qu'une visite/session sera « ouverte » pendant 92 jours pendant 92 jours alors qu'un accès supplémentaire (qui n'est pas 30 minutes après l'accès précédent (dans l'heure de l'accès) peut être inclus dans la même visite/session. Les accès « anciens » reçus sans ordre produisent des résultats « inconnus », puisque plusieurs facteurs (segmentation, attribution, expiration, etc.) déterminent si ces accès seront inclus dans les rapports ou non.
 
 ## Nouvelles suites de rapports {#section_095A7CFBD280494593B9BEC1592B73A6}
 
