@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide des composants Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -63,6 +63,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Référence : fonctions avancées](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Compatibilité des mesures](c-calcmetrics/cm-compatibility.md)
       + [Mesures calculées : droits basés sur un rôle](c-calcmetrics/cm-role-based-rights.md)
+      + [Totaux des mesures calculées](c-calcmetrics/cm-totals.md)
 + Suites de rapports virtuelles {#virtual-report-suites}
    + [Présentation des suites de rapports virtuelles](vrs/vrs-about.md)
    + [Traitement des composants des suites de rapports virtuelles](vrs/vrs-components.md)
@@ -71,7 +72,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + [Traitement du temps passé sur le rapport](vrs/vrs-report-time-processing.md)
    + [Questions fréquentes sur les suites de rapports virtuelles](vrs/vrs-faq.md)
    + [Considérations sur le balisage global des suites de rapports virtuelles et de balisage global/multi-suite](vrs/vrs-considerations.md)
-   + VRS Workflow {#vrs-workflow}
+   + Flux de travaux de la suite de rapports virtuelle {#vrs-workflow}
       + [Flux de travaux des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Création de suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestion des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-manage.md)
@@ -112,7 +113,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
 + [Événements calendrier](t-calendar-event.md)
 + Variables {#variables}
    + [Présentation des variables](c-variables/c-variables.md)
-   + Dimensions/Reports {#dimensions-reports}
+   + Dimensions/Rapports {#dimensions-reports}
       + [Descriptions des dimensions](c-variables/dimensionslist/reports-descriptions.md)
       + [Compatibilité des dimensions](c-variables/dimensionslist/dimension-compatibility.md)
       + [Bonnes pratiques et dépannage](c-variables/dimensionslist/report-troubleshooting.md)
