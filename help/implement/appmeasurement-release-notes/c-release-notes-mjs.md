@@ -8,7 +8,7 @@ title: AppMeasurement pour JavaScript
 topic: Développeur et mise en œuvre
 uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
 translation-type: tm+mt
-source-git-commit: 12f8d0017acfad36f3445cd31a629725dd737686
+source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
 
 ---
 
@@ -24,6 +24,18 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## Version 2.16.0
+
+Date de publication : **8 août 2019**
+
+| Fonctionnalité | Description |
+| -----------| ---------- |
+| Prise en charge `sendBeacon` des liens de sortie | Mise en œuvre de la prise en charge `sendBeacon` des liens de sortie dans [!UICONTROL AppMeasurement]. Cela permettra d’améliorer le suivi des liens de sortie et entraînera probablement par une augmentation du trafic. `SendBeacon` ne s'exécute pas dans le contexte d'une page, mais dans le contexte du navigateur. En d'autres termes, si une page est chargée, `sendBeacon`la demande est toujours terminée. Cela s'avère très utile pour les liens de sortie, car il sera beaucoup plus probable que la demande de lien de sortie soit terminée. |
+| Valeurs ECID/fid | Les valeurs ECID/fid sont maintenant mises en cache au premier accès, même si les paramètres OptIn changent. |
+| DIL 9.3 | Mise à jour du module Gestion de l’audience vers DIL 9.3 |
+| Suivi de la portée de défilement | Bouton exposé dans s.ActivityMap.trackScrollReach permettant d’activer ou de désactiver le suivi de la portée de défilement. |
+| Service d’identification des visiteurs 4.4.0 | Mise à niveau d’AppMeasurement pour utiliser le service d’identification des visiteurs 4.4.0. |
 
 ## Version 2.15.0
 
@@ -156,7 +168,7 @@ Date de publication : **08/06/2017**
 * Comprend la dernière version de [!DNL dil.js] (AN-140396)
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
 * API Visiteur 2.1.0. de nouveau inclus. (AN-140873)
-* Added `mcorgid` parameter. (AN-139586)
+* Ajout `mcorgid` du paramètre. (AN-139586)
 * Paramètre cp (customerPerspective) ajouté. (AN-140897)
 
 ## Version 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -207,7 +219,7 @@ Mise à jour : **20/10/2016**
 
 Mise à jour : **15/09/2016**
 
-* Update [!DNL AppMeasurement] [!DNL Audience Manager] Module with DIL 6.5 and Additional Configurations (AN-129411)
+* Mise à jour [!DNL AppMeasurement][!DNL Audience Manager] du module avec DIL 6.5 et des configurations supplémentaires (AN -129411)
 
 * Inclusion de l’API visiteur version 1.8.0 (AN-129887)
 
@@ -267,7 +279,7 @@ Date de mise à jour : **19 mai 2016**
 
 Date de publication : **21 avril 2016**
 
-* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Additionally, [!DNL Activity Map] tracking is activated by default. (AN-112689)
+* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. De plus [!DNL Activity Map] , le suivi est activé par défaut. (AN-112689)
 
 * Fixed a truncation issue occurring with the order of query-string variables in [!DNL AppMeasurement], so that *`pageURLRest`* is last. (AN-114647)
 
@@ -346,7 +358,7 @@ Date de mise à jour : **21 mai 2015**
 
 **Problème connu**
 
-In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
+Dans les intégrations API/ [!DNL AppMeasurement][!DNL Audience Manager] module visiteur, il existe deux demandes d'iframe de publication de destination effectuées dans IE 6-9 : `//fast.<subdomain>.demdex.net/dest5.html` et `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
