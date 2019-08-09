@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Flux de travaux GDPR Adobe Analytics
-title: Flux de travaux GDPR Adobe Analytics
+seo-title: Workflow d’Adobe Analytics relatif au règlement général sur la protection des données (RGPD)
+title: Workflow d’Adobe Analytics relatif au règlement général sur la protection des données (RGPD)
 uuid: f 24 e 8 be 3-8 b 5 c -409 b-ad 6 b -770198 ae 2549
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
 
 ---
 
 
-# Flux de travaux GDPR Adobe Analytics
+# Workflow d’Adobe Analytics relatif au règlement général sur la protection des données (RGPD)
 
 Bienvenue dans Adobe Analytics et la préparation au RGPD ! Ce workflow décrit les étapes à suivre pour que votre mise en œuvre d’Adobe Analytics soit en mesure de prendre en charge les droits d’accès et de suppression en vertu du règlement général sur la protection des données (RGPD) pour vos sujets des données.
 
@@ -41,7 +41,7 @@ Bienvenue dans Adobe Analytics et la préparation au RGPD ! Ce workflow décri
   </tr> 
   <tr> 
    <td colname="col2"> <p><img  src="assets/step4_icon.png" id="image_FE2039B8345248BCA303B44C10B68EA1" placement="break" /> Attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports. </p> <p>Remarque : Souvenez-vous que l’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes. </p> </td> 
-   <td colname="col3"> <p> Follow the instructions in <a href="../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731" format="dita" scope="local"> Label Report Suite Data</a>. </p> </td> 
+   <td colname="col3"> <p> Suivez les instructions de <a href="../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731" format="dita" scope="local"> la section Données de la suite de rapports d'étiquettes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step5_icon.png" id="image_E9BEF83BF30F4528A030F23F71E5E5D8" /> Connectez-vous à l’API relative au RGPD d’Adobe et soumettez les demandes d’accès et de suppression. </p> </td> 
@@ -49,7 +49,16 @@ Bienvenue dans Adobe Analytics et la préparation au RGPD ! Ce workflow décri
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step6_icon.png" id="image_5CF03706FECD4F8BBAE0D0C19F98B8BB" /> Afficher et gérer les paramètres relatifs au RGPD pour votre suite de rapports. </p> </td> 
-   <td colname="col3"> <p>Follow the instructions in <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> View Report Suite's Data Governance Settings</a>. </p> </td> 
+   <td colname="col3"> <p>Suivez les instructions de <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> la section Affichage des paramètres de gestion des données de la suite de rapports</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+| Description de tâche | Liens vers les instructions et informations supplémentaires |
+|--- |--- |
+| **Étape 1**: Assurez-vous que l'une de vos suites de rapports qui peut contenir des données pertinentes GDDP est mappée à votre organisation Experience Cloud (ou IMS). Les demandes en vertu du RGPD sont soumises à l’aide d’une organisation Experience Cloud et seront appliquées à toutes les suites de rapports revendiquées par cette organisation. Les demandes ne s’appliqueront pas aux suites de rapports non mappées à cette organisation, même si elles font partie de votre société de connexion. | Reportez-vous à [Mapper les suites de rapports à une organisation](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html). |
+| **Etape 2**- Définition de votre politique de rétention des données. | Une politique de conservation des données doit être mise en place afin qu’Adobe puisse traiter les demandes d’accès/de suppression de données en vertu du RGPD.  Pour plus d’informations, voir la [FAQ sur la conservation des données Analytics](/help/technotes/data-retention.md). |
+| **Étape 3**: Familiarisez-vous avec les libellés DULE/GDPR, les identifiants Adobe Analytics, les namespaces de noms et l'extension d'ID. | Lisez ces rubriques contenues dans ces documents :<ul><li>[Étiquettes RGPD pour les variables Analytics](/help/admin/c-data-governance/gdpr-labels.md)</li><li>[Bonnes pratiques en matière d’étiquetage](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E)</li></ul> |
+| **Étape 4**: Attribuez des étiquettes d'identité, de sensibilité et de gouvernance de données à chaque variable d'une suite de rapports. Remarque : Souvenez-vous que l’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes. | Suivez les instructions de [la section Données de la suite de rapports d'étiquettes](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-setup-reportsuite.html#concept_FAA948AD8CEA4BC38CB482EAF3648731). |
+| **Étape 5**: Connectez-vous à l'API Adobe GDPR et envoyez les requêtes Access et Delete. | En tant que client Adobe Analytics, vous pouvez soumettre des demandes individuelles pour accéder et supprimer des données clients en vertu du RGPD, en appelant l’[API relative au RGPD d’Adobe Experience Cloud](https://www.adobe.io/apis/experienceplatform/gdpr.html).  Vous pouvez soumettre tous les identifiants Analytics (comme décrit dans la section [Bonnes pratiques en matière d’étiquetage](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E)) dans les demandes, ainsi que leurs ID d’espace de noms respectifs (ID de source de données). |
+| **Étape 6**: Affichez et gérez les paramètres GDPR de votre suite de rapports. | Suivez les instructions de [la section Affichage des paramètres de gestion des données de la suite de rapports](/help/admin/c-data-governance/gdpr-view-settings.md). |
