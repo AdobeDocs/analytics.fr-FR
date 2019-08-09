@@ -5,7 +5,7 @@ seo-title: Exemple d’étiquetage
 title: Exemple d’étiquetage
 uuid: a 9 a 5 b 937-dbde -4 f 0 f-a 171-005 ef 4 c 79 df 9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: fe1d2eb0bae02ee9eeb59e1689519836f8acf8db
 
 ---
 
@@ -22,33 +22,33 @@ Supposons que vous avez les données d’accès suivantes :
 
 <!-- Meike, I converted html tables for fix elusive validation error. Bob -->
 
-| Étiquettes | I2<br>ID-PERSONDEL<br>-PERSONACC<br>-PERSONNE | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| Variable Name<br>(Namespace) | MyProp1<br>(user) | Visitor ID<br>(AAID) | MyEvar1 | MyEvar2 | MyEvar3<br>(xyz) |
+| Étiquettes | I2<br>ID-PERSONDEL<br>-PERSONACC<br>-PERSONNE | I 2<br>ID-DEVICEDEL<br>-DEVICEACC<br>-ALL | I 2<br>DEL-PERSONACC<br>-PERSONNE | I 2<br>DEL-DEVICEDEL<br>-PERSONACC<br>-ALL | I 2<br>ID-DEVICEDEL<br>-DEVICEACC<br>-ALL |
+|---|---|---|---|---|---|
+| Nom de variable<br>(espace de nommage) | Myprop 1<br>(utilisateur) | Identifiant visiteur<br>(AAID) | MyEvar1 | MyEvar2 | Myevar 3<br>(xyz) |
 | Données d’accès | Mary | 77 | A | M | X |
-| Mary | 88 | B | N | Y |
-| Mary | 99 | C | O | Z |
-| John | 77 | D | P | W |
-| John | 88 | E | N | U |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | A | N | Z |
+|  | Mary | 88 | B | N | Y |
+|  | Mary | 99 | C | O | Z |
+|  | John | 77 | D | P | W |
+|  | John | 88 | E | N | U |
+|  | John | 44 | F | Q | V |
+|  | John | 55 | G | R | X |
+|  | Alice | 66 | A | N | Z |
 
 
 ## Exemple de demande d’accès {#section_BDA817FD2415420DAAC835825484BA9D}
 
 Si je soumets une demande d’accès, le fichier récapitulatif contiendra les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et que « expandIDs » a la valeur « true ».
 
-| Valeurs de l’API | Type de fichier renvoyé | Données du fichier d’accès récapitulatif |
-|--- |--- |--- |
-| Espace de noms/ID | expandIDs |  | MyProp1 | Visitor ID | MyEvar1 | MyEvar2 | MyEvar3 |
+| Valeurs de l’API | Valeurs de l’API | Type de fichier renvoyé | Data in <br>Summary Access File </br> | Data in <br>Summary Access File</br> | Data in <br>Summary Access File</br> | Data in <br>Summary Access File</br> | Data in <br>Summary Access File</br> |
+|--- |--- |--- |---|---|---|---|---|
+| Espace de noms/ID | expandIDs |  | MyProp1 | Identifiant visiteur | MyEvar1 | MyEvar2 | MyEvar3 |
 | AAID=77 | false | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
-| AAID=77 | true | périphérique | 77 | M, P | X, W |
+| AAID=77 | true | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
 | user=Mary | false | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| périphérique | non présente | 77, 88 | non présente | N, P | U, W |
+| user=Mary | true | périphérique | non présente | 77, 88 | non présente | N, P | U, W |
 | user=Mary AAID=66 | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| périphérique | non présente | 66, 77, 88 | non présente | N, P | U, W, Z |
+| user=Mary AAID=66 | true | périphérique | non présente | 66, 77, 88 | non présente | N, P | U, W, Z |
 | xyz=X | false | périphérique | non présente | 55, 77 | non présente | M, R | X |
 | xyz=X | true | périphérique | non présente | 55, 77 | non présente | M, P, R | W, X |
 
@@ -58,8 +58,8 @@ Notez que le paramètre des expandIDs n’influence pas le résultat lorsqu’un
 
 Avec une demande de suppression qui utilise les valeurs de l’API de la première ligne du tableau, le tableau d’accès sera mis à jour comme suit :
 
-| AAID = 77 La valeur expandids n'a pas d'importance |
-|--- |
+| AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> | AAID=77 expandIDs value<br>does not matter</br> |
+|---|---|---|---|---|
 | MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
 | Mary | 42 | A | GDPR-7398 | GDPR-9152 |
 | Mary | 88 | B | N | Y |
@@ -74,8 +74,8 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 >
 >Seules les cellules des lignes contenant AAID = 77 et une étiquette DEL-DEVICE sont affectées.
 
-| user = Mary expandids = false |
-|--- |
+| user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> | user = maryexpandids<br>= false</br> |
+|--- |---|---|---|---|
 | MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
 | GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
 | GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | Y |
@@ -90,8 +90,8 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 >
 >Seules les cellules sur les lignes contenant un libellé user = Mary et un libellé DEL-PERSON sont affectées. Dans la pratique, la variable contenant A_ID serait probablement une prop ou une eVar, et sa valeur de remplacement serait une chaîne commençant par « GDPR- » suivi d’un numéro aléatoire (GUID), plutôt que de remplacer la valeur numérique par une valeur numérique aléatoire différente.
 
-| user=Mary expandIDs=true |
-|--- |
+| user=Mary<br>expandIDs=true</br> | user = maryexpandids<br>= true</br> | user = maryexpandids<br>= true</br> | user = maryexpandids<br>= true</br> | user = maryexpandids<br>= true</br> |
+|--- |---|---|---|---|
 | MyProp1 | AAID | MyEvar1 | MyEvar2 | MyEvar3 |
 | GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
 | GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
