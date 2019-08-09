@@ -5,7 +5,7 @@ seo-title: Lignes statiques/dynamiques
 title: Lignes statiques/dynamiques
 uuid: caf 033 ef-d 252-4 f 8 a -802 e -7 edbbac 5 c 8 c 0
 translation-type: tm+mt
-source-git-commit: fc29562a342c9d1721e250f5e3abc4d3fced926f
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -33,6 +33,6 @@ En outre, (uniquement) lorsque vous êtes en mode de ligne statique, vous pouvez
 
 | Option | Description |
 |---|---|
-| Calculez les totaux en totalisant les valeurs actuellement dans chaque colonne. | Cette option calcule seulement les lignes figurant actuellement dans le tableau. (Calcul côté client) |
+| (Par défaut) Calculez les totaux en additionnant les valeurs actuellement dans chaque colonne. | Cette option calcule seulement les lignes figurant actuellement dans le tableau. (Calcul côté client) |
 | Calculez les totaux d’après toutes les lignes pour chaque mesure. | Cette option comprend tous les éléments de cette dimension, même ceux qui ne sont pas répertoriés dans le tableau. (Calcul côté serveur) |
 
