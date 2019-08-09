@@ -1,26 +1,26 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Guide d'administration Analytics
-user-guide-url: /content/help/en/analytics/admin/home.html
-translation-type: tm+mt
+user-guide-title: Guide d’administration Analytics
+user-guide-url: /content/help/fr-FR/analytics/admin/home.html
+translation-type: ht
 source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
 
 ---
 
 
-# Analytics Admin Guide {#admin}
+# Guide d’administration Analytics {#admin}
 
-+ [Aide d'administration Analytics](home.md)
-+ Analytics Admin overview {#admin-overview}
-   + [Quel outil Adobe Analytics dois-je utiliser ?](c-analytics-product-comparison/which-analytics-tool.md)
++ [Aide sur l’administration d’Analytics](home.md)
++ Administration d’Analytics - Aperçu {#admin-overview}
+   + [Quel outil Adobe Analytics dois-je utiliser ?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Configuration requise et comparaison des produits Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [Système requis](c-system-requirements/sys-reqs.md)
++ [Configuration requise](c-system-requirements/sys-reqs.md)
 + Outils d’administration {#admin-tools}
    + [Outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
-   + Règles de bots {#bot-rules}
-      + [Présentation des règles de robots](admin/bot-rules/bot-rules.md)
+   + Règles de robots {#bot-rules}
+      + [Règles de robots - Aperçu](admin/bot-rules/bot-rules.md)
       + [Télécharger des règles de robots](admin/bot-rules/t-upload-bot-rules.md)
       + [Créer une règle de robot personnalisée](admin/bot-rules/t-create-bot-rules.md)
    + [Gestionnaire de code](admin/code-manager-admin.md)
@@ -44,15 +44,15 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [Visibilité des mesures](admin/metric-visibility.md)
    + [Gestion mobile](admin/mobile-management.md)
    + Détection de recherche payante {#paid-search-detection}
-      + [Présentation de la détection de recherche payante](admin/paid-search-detection/paid-search-detection.md)
+      + [Détection de recherche payante - Aperçu](admin/paid-search-detection/paid-search-detection.md)
       + [Configuration de la détection de recherche payante](admin/paid-search-detection/t-paid-search-detection.md)
    + [Listes de publication](admin/publishing-list.md)
    + [Widget de publication](admin/publishing-widgets-admin.md)
    + [Gestionnaire de préférences](admin/preferences-manager.md)
    + [Paramètres de confidentialité](admin/privacy-settings.md)
    + Règles de traitement {#processing-rules}
-      + [Présentation des règles de traitement](admin/c-processing-rules/processing-rules.md)
-      + Processing rules configuration {#processing-rules-configuration}
+      + [Règles de traitement - Aperçu](admin/c-processing-rules/processing-rules.md)
+      + Configuration des règles de traitement {#processing-rules-configuration}
          + [Fonctionnement des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
          + [Ordre de traitement](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [Créer des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
@@ -61,128 +61,128 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
          + [Restaurer des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
          + [Copier des règles de traitement dans une autre suite de rapports](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
       + [Dimensions disponibles pour les règles de traitement](admin/c-processing-rules/processing-rule-dimensions.md)
-      + Processing rules examples {#processing-rules-examples}
+      + Exemples de règles de traitement {#processing-rules-examples}
          + [Exemples de règles de traitement](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [Renseigner un identifiant de campagne à partir d'un paramètre de chaîne de requête](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-         + [Définir l'événement d'affichage du produit à partir de la page d'aperçu du produit](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-         + [Ajouter une sous-catégorie en concaténant la catégorie et le nom de la page](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-         + [Détermination d'un chemin en copiant une valeur evar dans une prop](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
-         + [Nettoyer les valeurs d'un rapport](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [Renseigner les termes de recherche interne à l'aide d'un paramètre de chaîne de requête](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-         + [Copie d'une variable de données contextuelles dans une evar](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-         + [Définition d'un événement à l'aide d'une variable de données contextuelles](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-         + [Suppression d'un événement d'un accès](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-      + [Conseils et astuces concernant les règles de traitement](admin/c-processing-rules/processing-rules-tips.md)
+         + [Renseigner un ID de campagne à partir d’un paramètre de chaîne de requête](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+         + [Définir l’événement d’affichage de produit à partir de la page d’aperçu des produits](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
+         + [Ajouter une sous-catégorie en concaténant le nom de page et de catégorie](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
+         + [Déterminer un chemin en copiant une valeur eVar sur une valeur prop](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
+         + [Nettoyer les valeurs d’un rapport](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
+         + [Renseigner les termes de recherche interne à l’aide d’un paramètre de chaîne de requête](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+         + [Copier une variable de données contextuelles dans une eVar](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
+         + [Définir un événement à l’aide d’une variable de données contextuelles](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
+         + [Supprimer un événement d’un accès](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
+      + [Astuces et conseils concernant les règles de traitement](admin/c-processing-rules/processing-rules-tips.md)
    + Rapports en temps réel{#real-time-reports}
-      + [Présentation des rapports en temps réel](admin/realtime/realtime.md)
+      + [Rapports en temps réel - Aperçu](admin/realtime/realtime.md)
       + [Configuration des rapports en temps réel](admin/realtime/t-realtime-admin.md)
       + [Mesures et dimensions en temps réel prises en charge](admin/realtime/realtime-metrics.md)
-   + [File d'attente des rapports planifiés](admin/scheduled-reports-admin.md)
-   + Server-side forwarding {#server-side-forwarding}
-      + [Présentation du transfert côté serveur](admin/c-server-side-forwarding/ssf.md)
+   + [File d’attente des rapports planifiés](admin/scheduled-reports-admin.md)
+   + Transfert côté serveur {#server-side-forwarding}
+      + [Transfert côté serveur - Aperçu](admin/c-server-side-forwarding/ssf.md)
       + [Conditions requises pour le transfert côté serveur](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [Transfert de données et de référence côté serveur](admin/c-server-side-forwarding/ssf-reference.md)
-      + [Vérification de la mise en œuvre du transfert côté serveur](admin/c-server-side-forwarding/ssf-verify.md)
-      + [FAQ sur le transfert côté serveur](admin/c-server-side-forwarding/ssf-faq.md)
-   + [Menu Rapports simplifié](admin/t-simplified-menu.md)
+      + [Données et référence de code du transfert côté serveur](admin/c-server-side-forwarding/ssf-reference.md)
+      + [Comment vérifier l’implémentation du transfert côté serveur](admin/c-server-side-forwarding/ssf-verify.md)
+      + [Questions fréquentes relatives au transfert côté serveur](admin/c-server-side-forwarding/ssf-faq.md)
+   + [Menu des rapports simplifié](admin/t-simplified-menu.md)
    + [Gestion des réseaux sociaux](admin/social-management.md)
    + Événements de succès {#success-events}
-      + [Présentation des événements de réussite](admin/c-success-events/success-event.md)
+      + [Événements de succès - Aperçu](admin/c-success-events/success-event.md)
       + [Configurer des événements de succès](admin/c-success-events/t-success-events.md)
-      + [A propos de la modification du type d'événement](admin/c-success-events/event-type.md)
+      + [À propos du changement de type d’événement](admin/c-success-events/event-type.md)
    + [Horodatages facultatifs](admin/timestamp-optional.md)
-   + Traffic variables {#traffic-variables}
-      + [Présentation de variable de trafic (prop)](admin/c-traffic-variables/traffic-var.md)
+   + Variables de trafic {#traffic-variables}
+      + [Variable de trafic (prop) - Aperçu](admin/c-traffic-variables/traffic-var.md)
       + [Activer les rapports de variables de trafic](admin/c-traffic-variables/t-traffic-variable.md)
-      + [Classifications du trafic](admin/c-traffic-variables/traffic-classifications.md)
-   + Unique Visitor variable {#unique-visitor-variable}
+      + [Classifications de trafic](admin/c-traffic-variables/traffic-classifications.md)
+   + Variable de visiteur unique {#unique-visitor-variable}
       + [Définition de la variable Visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Scénario d’utilisation - Extraction d’ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestion des vidéos](admin/video-management.md)
-+ Experience Cloud Admin Console {#admin-console}
-   + [Aide de la console d'administration d'Experience Cloud](admin-console/home.md)
++ Admin Console pour Experience Cloud {#admin-console}
+   + [Aide d’Admin Console pour Experience Cloud ](admin-console/home.md)
    + Autorisations {#permissions}
       + [Aide sur le profil du produit](admin-console/permissions/product-profile.md)
-      + [Éléments d'autorisation des outils de Report Suite](admin-console/permissions/report-suite-tools.md)
-      + [Eléments d'autorisation d'outils Analytics](admin-console/permissions/analytics-tools.md)
-   + [Guide d'administration d'Adobe Analytics First Admin](admin-console/first-admin-guide.md)
+      + [Éléments d’autorisation liés aux outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
+      + [Éléments d’autorisation liés aux outils Analytics](admin-console/permissions/analytics-tools.md)
+   + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
    + [Création d’une suite de rapports](admin-console/create-report-suite.md)
 + Paramètres de l’entreprise {#company-settings}
-   + [Présentation des paramètres de l'entreprise](company/c-company-settings.md)
-   + [Niveaux d'accès aux fonctionnalités](company/feature-access-levels.md)
-   + [Services Web](company/web-services-admin.md)
-   + [Rapports du créateur de rapports](company/report-builder-reports-admin.md)
+   + [Paramètres d’entreprise - Aperçu](company/c-company-settings.md)
+   + [Niveaux d’accès aux fonctions](company/feature-access-levels.md)
+   + [Services web](company/web-services-admin.md)
+   + [Rapports du Report Builder](company/report-builder-reports-admin.md)
    + [Authentification unique](company/single-signon-admin.md)
-   + [Actions en cours](company/pending-actions-admin.md)
+   + [Actions en attente](company/pending-actions-admin.md)
    + [Alliance de marques](company/co-branding-admin.md)
-   + [Masquer les suites de rapports](company/c-hide-report-suites.md)
+   + [Masquage des suites de rapports](company/c-hide-report-suites.md)
    + [Gestionnaire de sécurité](company/security-manager.md)
-+ Manage report suites {#manage-report-suites}
++ Gestion des suites de rapports {#manage-report-suites}
    + [Gestionnaire de suites de rapports](c-manage-report-suites/report-suites-admin.md)
    + [Suites de rapports globales et de cumul](c-manage-report-suites/rollup-report-suite.md)
    + [Création d’une suite de rapports de cumul](c-manage-report-suites/t-rollups.md)
-   + Report suite templates {#report-suite-templates}
-      + [Présentation des modèles de Report Suite](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [Portail d'agrégation](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+   + Modèles de suite de rapports {#report-suite-templates}
+      + [Modèles de suite de rapports - Aperçu](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+      + [Portail d’agrégation](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
       + [Commerce](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
       + [Contenu et média](c-manage-report-suites/c-report-suite-templates/content-media.md)
       + [Modèle par défaut](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
       + [Services financiers](c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [Portail de tâches](c-manage-report-suites/c-report-suite-templates/job-portal.md)
+      + [Portail d’emploi](c-manage-report-suites/c-report-suite-templates/job-portal.md)
       + [Génération de pistes](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
       + [Média d’assistance](c-manage-report-suites/c-report-suite-templates/support-media.md)
    + [Enregistrer une recherche de suite de rapports](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [Paramètres d'une suite de rapports spécifique](c-manage-report-suites/individual-rs-settings.md)
+   + [Paramètres d’une suite de rapports spécifique](c-manage-report-suites/individual-rs-settings.md)
    + [Télécharger les paramètres d’une suite de rapports](c-manage-report-suites/t-download-rs-settings.md)
-   + New report suite {#new-report-suite}
+   + Nouvelle suite de rapports {#new-report-suite}
       + [Création d’une suite de rapports](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [Nouvelle suite de rapports - paramètres](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+      + [Paramètres d’une nouvelle suite de rapports](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [Paramètres non copiés depuis une suite de rapports source](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [Création d’un groupe de suites de rapports](c-manage-report-suites/t-create-rs-group.md)
-+ User and Product Management (Legacy) {#user-product-management}
++ Gestion des utilisateurs et des produits (héritée) {#user-product-management}
    + [Gestion des utilisateurs et des produits](user-management2/user-management.md)
    + [Affecter des groupes d’utilisateurs à une suite de rapports](user-management2/t-group-access-report-suite.md)
    + Gestion des utilisateurs {#user-management}
-      + [Présentation de la gestion des utilisateurs](user-management2/c-user-management/users.md)
+      + [Gestion des utilisateurs - Aperçu](user-management2/c-user-management/users.md)
       + [Ajout d’un compte d’utilisateur](user-management2/c-user-management/t-add-user-account.md)
-      + [Modifications des autorisations d'utilisateur et de groupe](user-management2/c-user-management/permissions-changes.md)
+      + [Modifications des autorisations d’utilisateur et des droits d’accès de groupe](user-management2/c-user-management/permissions-changes.md)
       + [Transfert des éléments d’un compte d’utilisateur](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [Ajout d’un utilisateur à un groupe](user-management2/c-user-management/t-add-user-to-group.md)
       + [Gérer des utilisateurs des Ad Hoc Analysis](user-management2/c-user-management/t-manage-dsc-users-admin.md)
-   + User groups {#user-groups}
+   + Groupes d’utilisateurs {#user-groups}
       + [Ajout d’un groupe d’utilisateurs](user-management2/c-user-groups/t-user-group.md)
-      + [Paramètres des groupes d'utilisateurs](user-management2/c-user-groups/groups.md)
-   + Customize report access {#customize-report-access}
-      + [Personnalisation de l'accès aux rapports - présentation](user-management2/c-customize-report-access/groups-customize-report-access.md)
-      + [Personnalisation des autorisations des outils Analytics](user-management2/c-customize-report-access/groups-analytics-tools.md)
-      + [Personnalisation des autorisations d'outils de suite de rapports](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-      + [Personnalisation des autorisations de mesure](user-management2/c-customize-report-access/groups-metrics.md)
-      + [Personnalisation des autorisations de dimension](user-management2/c-customize-report-access/groups-dimensions.md)
-   + [Envoyer un courriel aux utilisateurs](user-management2/t-email-users.md)
+      + [Paramètres des groupes d’utilisateurs](user-management2/c-user-groups/groups.md)
+   + Personnalisation de l’accès aux rapports {#customize-report-access}
+      + [Personnalisation de l’accès aux rapports - Aperçu](user-management2/c-customize-report-access/groups-customize-report-access.md)
+      + [Personnalisation des autorisations liées aux outils Analytics](user-management2/c-customize-report-access/groups-analytics-tools.md)
+      + [Personnalisation des autorisations liées aux outils de suites de rapports](user-management2/c-customize-report-access/groups-report-suite-tools.md)
+      + [Personnalisation des autorisations liées aux mesures](user-management2/c-customize-report-access/groups-metrics.md)
+      + [Personnalisation des autorisations liées aux dimensions](user-management2/c-customize-report-access/groups-dimensions.md)
+   + [Envoyer un courrier électronique aux utilisateurs](user-management2/t-email-users.md)
 + Gouvernance des données {#data-governance}
    + [Adobe Analytics et le Règlement général sur la protection des données (RGPD)](c-data-governance/an-gdpr-overview.md)
    + [Questions fréquentes](c-data-governance/gdpr-faq.md)
-   + [Flux de travaux GDPR Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Afficher/gérer les paramètres de gouvernance des données de la suite de rapports](c-data-governance/gdpr-view-settings.md)
-   + [Libellé des données d'une suite de rapports](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Envoi et suppression de requêtes](c-data-governance/gdpr-submit-access-delete.md)
-   + [Libellés GDPR pour les variables Analytics](c-data-governance/gdpr-labels.md)
+   + [Workflow d’Adobe Analytics relatif au règlement général sur la protection des données (RGPD)](c-data-governance/an-gdpr-workflow.md)
+   + [Affichage/Gestion des paramètres de gouvernance des données de la suite de rapports](c-data-governance/gdpr-view-settings.md)
+   + [Étiquetage des données d’une suite de rapports](c-data-governance/gdpr-setup-reportsuite.md)
+   + [Demandes d’accès et de suppression](c-data-governance/gdpr-submit-access-delete.md)
+   + [Étiquettes RGPD pour les variables Analytics](c-data-governance/gdpr-labels.md)
    + [Espaces de noms](c-data-governance/gdpr-namespaces.md)
-   + [Extension d'ID](c-data-governance/gdpr-id-expansion.md)
-   + [Étiquetage des bonnes pratiques](c-data-governance/gdpr-analytics-ids.md)
-   + [Exemple d'étiquetage](c-data-governance/gdpr-labeling-example.md)
+   + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
+   + [Bonnes pratiques en matière d’étiquetage](c-data-governance/gdpr-analytics-ids.md)
+   + [Exemple d’étiquetage](c-data-governance/gdpr-labeling-example.md)
    + [RGPD et Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Terminologie GDPR](c-data-governance/gdpr-terminology.md)
-+ Utilisation de l’appel au serveur {#server-call-usage}
-   + [Présentation de l'utilisation des appels au serveur](c-server-call-usage/overage-overview.md)
-   + [Affichage de l'utilisation actuelle des appels au serveur](c-server-call-usage/server-call-usage-dashboard.md)
-   + [Affichage de l'utilisation des suites de rapports](c-server-call-usage/report-suite-usage.md)
-   + [Alertes d'utilisation des appels au serveur](c-server-call-usage/scu-alerts.md)
-   + [FAQ sur l'utilisation des appels au serveur](c-server-call-usage/overage-faq.md)
+   + [Terminologie relative au règlement général sur la protection des données (RGPD)](c-data-governance/gdpr-terminology.md)
++ Utilisation des appels au serveur {#server-call-usage}
+   + [Utilisation des appels au serveur - Aperçu](c-server-call-usage/overage-overview.md)
+   + [Affichage de l’utilisation actuelle des appels au serveur](c-server-call-usage/server-call-usage-dashboard.md)
+   + [Affichage de l’utilisation des suites de rapports](c-server-call-usage/report-suite-usage.md)
+   + [Alertes d’utilisation des appels au serveur](c-server-call-usage/scu-alerts.md)
+   + [FAQ sur l’utilisation des appels au serveur](c-server-call-usage/overage-faq.md)
 + Gestion du trafic {#traffic-management}
    + [Gestion du trafic](c-traffic-management/traffic-management.md)
    + [Prévision d’un pic de trafic](c-traffic-management/t-traffic-schedule-spike.md)
    + [Estimation des appels au serveur précédents et planification d’un pic de trafic](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
    + [Indication d’une augmentation permanente du trafic](c-traffic-management/t-traffic-permanent.md)
-   + [Délai d'avance requis pour les augmentations de trafic](c-traffic-management/traffic-lead-time.md)
+   + [Délai d’avance requis pour les augmentations de trafic](c-traffic-management/traffic-lead-time.md)
 + [API d’administration](c-admin-api/c-admin-api.md)
