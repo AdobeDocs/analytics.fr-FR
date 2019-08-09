@@ -1,6 +1,6 @@
 ---
 product: analytics
-audience: all
+audience: tous
 user-guide-title: Documentation Analytics
 user-guide-url: /content/help/fr-FR/analytics/landing/home.html
 translation-type: ht
