@@ -2,7 +2,7 @@
 title: Prise en charge des composants dans l'entrepôt de données
 description: Découvrez les dimensions et mesures supplémentaires disponibles dans Data Warehouse et ce qui n'est pas pris en charge.
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
 
 ---
 
@@ -17,10 +17,9 @@ Certaines dimensions et mesures peuvent être utilisées dans l'entrepôt de don
 
 ### Dimensions prises en charge exclusivement
 
-* Identifiant visiteur Experience Cloud:
-* IP:
-* URL de la page:
-* Identifiants d'achat:
+* Identifiant visiteur Experience Cloud : Pour les implémentations qui utilisent le service d'ID d'expérience (ECID), un nombre 128 bits composé de deux nombres 64 bits concaténés ajoutés à 19 chiffres.
+* URL de la page : URL de la page sur laquelle l'accès a eu lieu.
+* ID d'achat : Identifiant unique d'un achat, défini à l'aide de la variable purchaseid.
 * Identifiant visiteur : Fournit l'identifiant unique du visiteur. Cette valeur est identique à la valeur concaténée des `visid_high` colonnes et `visid_low` des flux de données. Pour [plus d'informations, voir Référence](../analytics-data-feed/c-df-contents/datafeeds-reference.md) de colonne de données sous Flux de données.
 
 ### Mesures prises en charge exclusivement
@@ -59,7 +58,7 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
 * Classement de toutes les pages de recherche
 * Variables de hiérarchie
 * Type d’accès
-* Pages introuvables (segments uniquement)
+* Pages introuvables (disponibles sous forme de dimension ; non pris en charge pour la segmentation)
 * Recherche payante
 * Visites sur une seule page
 * Suivi du motif d’exclusion
