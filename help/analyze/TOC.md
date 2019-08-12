@@ -164,7 +164,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
          + [Calendrier personnalisé ](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [Contrôles interactifs](report-builder/data-requests/interactive-controls.md)
    + Disposition - Assistant Requête : Étape 2 {#layout}
-      + [Mise en page - Aperçu ](report-builder/layout/layout.md)
+      + [Mise en page - Aperçu](report-builder/layout/layout.md)
       + Mesures et dimensions {#metrics-dimension}
          + [Mesures et dimensions - Aperçu](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [Ajout de mesures et de dimensions](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
@@ -212,7 +212,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [Définition d’une mise en forme conditionnelle](report-builder/manage-requests/specify-conditional-formatting.md)
       + [Mode hors ligne pour la création et la modification de requêtes](report-builder/manage-requests/offline-mode.md)
    + [Options de Report Builder](report-builder/options.md)
-   + [Planification de requêtes de rapport](report-builder/schedule-report-requests.md).
+   + [Planification de requêtes de rapport](report-builder/schedule-report-requests.md)
    + [Planification d’un classeur](report-builder/t-schedule-a-data-request.md)
    + [Gestionnaires des tâches planifiées](report-builder/r-arb-scheduled-reports.md)
    + Bibliothèque des classeurs {#workbook-library}
