@@ -83,7 +83,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
          + [Comparaison des segments](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [Cas d’utilisation de Segment IQ](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Traitement et partage de projets {#curate-share}.
+   + Traitement et partage de projets {#curate-share}
       + [Traitements et partages - Aperçu](analysis-workspace/curate-share/curate.md)
       + [Traitement des suites de rapports virtuelles et des projets](analysis-workspace/curate-share/curate-projects-vrs.md)
       + [Téléchargement de fichiers PDF ou CSV](analysis-workspace/curate-share/download-send.md)
