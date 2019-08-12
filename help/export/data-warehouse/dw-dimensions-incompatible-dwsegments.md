@@ -1,41 +1,17 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Dimensions incompatibles avec les segments de Data Warehouse
-title: Dimensions incompatibles avec les segments de Data Warehouse
+seo-title: Dimensions incompatibles avec les segments d’Data Warehouse
+title: Dimensions incompatibles avec les segments d’Data Warehouse
 uuid: ce 772 b 7 a -6 a 30-454 a-a 38 f-d 2 bb 2521 f 0 fb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: b732e31da8d144cd0074c2b91c400ceacc84b991
 
 ---
 
 
-# Dimensions incompatibles avec les segments de Data Warehouse
+# Page temporaire
 
-Il n’est pas possible d’utiliser les dimensions ci-après dans les segments de Data Warehouse :
+<!-- This page is a duplicate of dimension-support.md. Once internal redirects are in place, we can remove this page and point it to dimension-support.md. -->
 
-* Classement de toutes les pages de recherche
-* Matin/après-midi
-* Jour du mois
-* Jour de la semaine
-* Jour de l’année
-* Unité opérationnelle d’entrée
-* Entrée (toutes les dimensions commençant avec l’entrée, à l’exception de la page d’accès)
-* Sortie (toutes les dimensions commençant avec la sortie, à l’exception de Lien de sortie et Page de sortie)
-* Hiérarchie (toutes les dimensions commençant avec la hiérarchie)
-* Détail des accès
-* Type d’accès
-* Heure de la journée
-* Mois de l’année
-* Pages introuvables
-* Recherche payante
-* Trimestre de l’année
-* Fréquence des retours
-* Visites sur une seule page
-* Durée avant événement
-* Durée de consultation de la page – Regroupement
-* Durée par visite – Regroupement
-* Suivi du motif d’exclusion
-* États américains
-* Jour ouvrable/week-end
-
+Il s'agit d'une page temporaire. Voir [Prise en charge des composants](component-support.md).
