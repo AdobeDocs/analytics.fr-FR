@@ -2,19 +2,19 @@
 description: Tableau décrivant les colonnes du flux de données.
 keywords: Flux de données ; colonnes
 seo-description: Tableau décrivant les colonnes du flux de données.
-seo-title: Référence de colonne de données
+seo-title: Référence des colonnes de données
 solution: Analytics
 subtopic: flux de données
-title: Référence de colonne de données
+title: Référence des colonnes de données
 topic: Reports and Analytics
 uuid: 9042 a 274-7124-4323-8 cd 6-5 c 84 ab 3 eef 6 d
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 
 ---
 
 
-# Référence de colonne de données
+# Référence des colonnes de données
 
 Utilisez cette page pour connaître les données contenues dans chaque colonne. La plupart des implémentations n'utilisent pas toutes les colonnes. Par conséquent, cette page peut être référencée lors de la détermination des colonnes à inclure dans une exportation de flux de données.
 
@@ -67,7 +67,7 @@ Utilisez cette page pour connaître les données contenues dans chaque colonne. 
 | ef_id | ef_id utilisée dans les intégrations Adobe Advertising Cloud. | varchar(255) |
 | evar1-evar250 | Variables personnalisées 1-250. Chaque organisation utilise les eVars différemment. Le meilleur outil pour obtenir plus d’informations sur la façon dont votre organisation renseigne les eVars respectifs serait un document de conception de solution spécifique à votre organisation. | varchar(255) |
 | event_list | Liste séparée par des virgules d’identifiants numériques représentant les événements déclenchés lors de l’accès. Comprend à la fois les événements par défaut et les événements personnalisés 1-1000. Utilise la recherche d’event.tsv. | text |
-| exclude_hit | Indicateur signifiant que l’accès est exclu de la création de rapports. La colonne visit_ num n'est pas incrémentée pour les accès exclus.<br>1 : Inutilisée. Partie d'une fonction désélectionnée.<br>2 : Inutilisée. Partie d'une fonction désélectionnée.<br>3 : Plus utilisé. User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as page_url, pagename, page_event, or event_list<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. Autre exclusion spécifique au compte.<br>9 : Inutilisée. Partie d'une fonction désélectionnée.<br>10 : Code de devise non valide<br>11 : L'accès a manqué un horodatage sur une suite de rapports horodatée uniquement, ou un accès contenait un horodatage sur une suite de rapports non horodatée<br>12 : Non utilisé. Partie d'une fonction désélectionnée.<br>13 : Inutilisée. Partie d'une fonction désélectionnée.<br>14 : Accès Target qui ne correspondait pas à un accès Analytics<br>15 : Actuellement utilisé.<br>16 : Correspondance de publicité qui ne correspondait pas à un accès Analytics | tinyint sans signe |
+| exclude_hit | Indicateur signifiant que l’accès est exclu de la création de rapports. La colonne visit_ num n'est pas incrémentée pour les accès exclus.<br>1 : Inutilisée. Partie d'une fonction désélectionnée.<br>2 : Inutilisée. Partie d'une fonction désélectionnée.<br>3 : Plus utilisé. Exclusion de l'agent utilisateur<br>4 : Exclusion basée sur l'adresse IP<br>5 : Informations d'accès vitales manquantes, telles que page_ url, pagename, page_ event ou event_ list<br>6 : JavaScript n'a pas correctement traité l'accès<br>7 : Exclusion spécifique au compte, par exemple dans les règles VISTA<br>8 : Non utilisé. Autre exclusion spécifique au compte.<br>9 : Inutilisée. Partie d'une fonction désélectionnée.<br>10 : Code de devise non valide<br>11 : L'accès a manqué un horodatage sur une suite de rapports horodatée uniquement, ou un accès contenait un horodatage sur une suite de rapports non horodatée<br>12 : Non utilisé. Partie d'une fonction désélectionnée.<br>13 : Inutilisée. Partie d'une fonction désélectionnée.<br>14 : Accès Target qui ne correspondait pas à un accès Analytics<br>15 : Actuellement utilisé.<br>16 : Correspondance de publicité qui ne correspondait pas à un accès Analytics | tinyint sans signe |
 | first_hit_page_url | La toute première URL du visiteur. | varchar(255) |
 | first_hit_pagename | Variable utilisée dans la dimension Page d’accès d’origine. Le nom de la page d’entrée d’origine du visiteur. | varchar(100) |
 | first_hit_ref_domain | Variable utilisée dans la dimension Domaine référent initial. Basée sur first_hit_referrer. Le tout premier domaine référent du visiteur. | varchar(100) |
@@ -119,14 +119,14 @@ Utilisez cette page pour connaître les données contenues dans chaque colonne. 
 | mobiledayssincefirstuse | Nombre de jours depuis que l’application a été lancée pour la première fois. | varchar(255) |
 | mobiledayssincelastupgrade | Collecté à partir de la variable de données contextuelles a. dayssincelastupgrade. Nombre de jours écoulés depuis la session précédente. | varchar(255) |
 | mobiledayssincelastuse | Nombre de jours depuis la dernière exécution de l’application. | varchar(255) |
-| mobiledeeplinkid | Collected from the context data variable a.<span>deeplink</span>.id. Utilisé dans les rapports d'acquisition comme identificateur pour le lien d'acquisition mobile. | varchar(255) |
+| mobiledeeplinkid | Collecté à partir de la variable de données contextuelles a.<span>deeplink</span>. id. Utilisé dans les rapports d'acquisition comme identificateur pour le lien d'acquisition mobile. | varchar(255) |
 | mobiledevice | Nom du périphérique mobile. Sous iOS, il est stocké sous la forme d’une chaîne de 2 chiffres séparés par des virgules. Le premier chiffre représente la génération de l’appareil, le second la famille d’appareils. | varchar(255) |
 | mobilehourofday | Définit l’heure du jour où l’application a été lancée. Suit un format numérique de 24 heures. | varchar(255) |
 | mobileinstalldate | Date de l’installation mobile. Indique la date de la première ouverture d’une application mobile par un utilisateur. | varchar(255) |
 | mobilelaunchessincelastupgrade | Collecté à partir de la variable de données contextuelles a. launchessinceupgrade. Indique le nombre de lancements depuis la dernière mise à niveau. | varchar(255) |
 | mobilelaunchnumber | Est incrémentée d’une unité chaque fois que l’application mobile est lancée. | varchar(255) |
 | mobileltv | N’est plus utilisée. Renseignée par les méthodes trackLifetimeValue. | varchar(255) |
-| mobilemessagebuttonname | Collected from the context data variable a.<span>message</span>.button.id. Utilisé pour la messagerie in-app pour identifier le bouton qui a fermé le message. | varchar(100) |
+| mobilemessagebuttonname | Collecté à partir de la variable de données contextuelles a.<span>message</span>. button. id. Utilisé pour la messagerie in-app pour identifier le bouton qui a fermé le message. | varchar(100) |
 | mobilemessageid | ID de message in-app | varchar(255) |
 | mobilemessageonline | Message in-app en ligne | varchar(255) |
 | mobilemessagepushoptin | Collecté à partir de la variable de données contextuelles a. push. optin. Définissez cette valeur sur true lorsque l'utilisateur choisit de transmettre la messagerie push ; sinon, la valeur est « false ». | varchar(255) |
@@ -135,7 +135,7 @@ Utilisez cette page pour connaître les données contenues dans chaque colonne. 
 | mobileosversion | Version du système d'exploitation Mobile Services | varchar(255) |
 | mobileplaceaccuracy | Collecté à partir de la variable de données contextuelles a. loc. acc. Indique la précision du GPS en mètres au moment de la collecte. | varchar(255) |
 | mobileplacecategory | Collecté à partir de la variable de données contextuelles a. loc. category. Décrit la catégorie d'un endroit spécifique. | varchar(255) |
-| mobileplaceid | Collected from the context data variable a.<span>loc</span>.id. Identifiant d'un point ciblé donné. | varchar(255) |
+| mobileplaceid | Collecté à partir de la variable de données contextuelles a.<span>loc</span>. id. Identifiant d'un point ciblé donné. | varchar(255) |
 | mobilerelaunchcampaigncontent | Mobile Services lance le contenu | varchar(255) |
 | mobilerelaunchcampaignmedium | Mobile Services lancement medium | varchar(255) |
 | mobilerelaunchcampaignsource | Source de lancement de Mobile Services | varchar(255) |
@@ -277,3 +277,109 @@ Utilisez cette page pour connaître les données contenues dans chaque colonne. 
 | weekly_visitor | Indicateur qui détermine si l’accès est un nouveau visiteur hebdomadaire. | tinyint sans signe |
 | yearly_visitor | Indicateur qui détermine si l’accès est un nouveau visiteur annuel. | tinyint sans signe |
 | zip | Utilisée pour indiquer la dimension Code postal. | varchar(50) |
+
+## Colonnes vides
+
+La liste de colonnes suivante est inutilisée et ne contient aucune donnée :
+
+* mobileider itionclicks
+* mobileactioninapptime
+* mobileactiontotaltime
+* mobileappperformanceaffectedusers
+* mobileappperformanceappid<span>.</span>app-perf-app-name
+* mobileappperformanceappid<span>.</span>app-perf-platform
+* mobileappperformancecrashes
+* mobileappperformancecrashid<span>.</span>app-perf-crash-name
+* mobileappperformanceloads
+* mobileappstoreavgrating
+* mobileappstoredownloads
+* mobileappstoreinapprevenue
+* mobileappstoreinexyscenes
+* mobileappstoreobjectid<span>.</span>app-store-user
+* mobileappstoreobjectid<span>.</span>application-name
+* mobileappstoreobjectid<span>.</span>application-version
+* mobileappstoreobjectid<span>.</span>appstore-name
+* mobileappstoreobjectid<span>.</span>category-name
+* mobileappstoreobjectid<span>.</span>country-name
+* mobileappstoreobjectid<span>.</span>device-manufacturer
+* mobileappstoreobjectid<span>.</span>device-name
+* mobileappstoreobjectid<span>.</span>in-app-name
+* mobileappstoreobjectid<span>.</span>platform-name-version
+* mobileappstoreobjectid<span>.</span>rank-category-type
+* mobileappstoreobjectid<span>.</span>region-name
+* mobileappstoreobjectid<span>.</span>révision-commentaire
+* mobileappstoreobjectid<span>.</span>révision-titre
+* mobileappstoreoneoffrevenue
+* mobileappstoreoneoffroyalties
+* mobileappstorepurchases
+* mobileappstorerank
+* mobileappstorerankdior
+* mobileappstorerating
+* mobileappstoreratingdior
+* mobileavgprevsessionlength
+* mobilecrashes
+* mobilecrashrate
+* mobiledailyengagedusers
+* mobiledeeplinkid<span>.</span>name
+* mobileinstalls
+* mobilelaunches
+* mobileltvtotal
+* mobilemessageclicks
+* mobilemessageid<span>.</span>dest
+* mobilemessageid<span>.</span>name
+* mobilemessageid<span>.</span>type
+* mobilemessageimpressions
+* mobilemessagepushpayloadid<span><span>.</span></span>name
+* mobilemessageviews
+* mobilemonthlyengagement
+* mobileplacedwelltime
+* mobileplaceentry
+* mobileplaceexit
+* mobileprevsessionlength
+* mobilerelaunchcampaigntrackingcode<span><span>.</span></span>name
+* mobileupgrades
+* socialaveragesentiment
+* socialaveragesentiment (désapprouvée)
+* socialfbstories
+* socialfbstorytellers
+* socialinteractioncount
+* sociallikeadds
+* sociallink
+* sociallink (désapprouvée)
+* socialmentions
+* socialpageviews
+* socialpostviews
+* socialproperty
+* socialproperty (désapprouvée)
+* socialpubcomments
+* socialpubposts
+* socialpubrecommends
+* socialpubsubscribers
+* socialterm
+* socialtermslist
+* socialtermslist (désapprouvée)
+* socialtotalsentiment
+* sourceid
+* videoauthorized
+* videoaverageminuteaudience
+* videochaptercomplete
+* videochapterstart
+* videochaptertime
+* videopause
+* videopausecount
+* videopausetime
+* videoplay
+* videoprogress10
+* videoprogress25
+* videoprogress50
+* videoprogress75
+* videoprogress96
+* videoqoebitrateaverage
+* videoqoebitratechange
+* videoqoebuffer
+* videoqoedropbeforestart
+* videoqoedroppedframes
+* videoqoeerror
+* videoresume
+* videototaltime
+* videouniquetimeplayed
