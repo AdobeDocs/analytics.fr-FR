@@ -8,7 +8,7 @@ title: AppMeasurement pour JavaScript
 topic: Développeur et mise en œuvre
 uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
 translation-type: tm+mt
-source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
+source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
 
 ---
 
@@ -27,7 +27,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## Version 2.16.0
 
-Date de publication : **8 août 2019**
+Date de publication : **15 août 2019**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
