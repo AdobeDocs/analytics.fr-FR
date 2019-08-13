@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Guide d’administration Analytics
 user-guide-url: /content/help/fr-FR/analytics/admin/home.html
-translation-type: ht
-source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
+translation-type: tm+mt
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
@@ -20,20 +20,20 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [Outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
    + Règles de robots {#bot-rules}
-      + [Règles de robots - Aperçu](admin/bot-rules/bot-rules.md)
+      + [Présentation des règles de robots](admin/bot-rules/bot-rules.md)
       + [Télécharger des règles de robots](admin/bot-rules/t-upload-bot-rules.md)
       + [Créer une règle de robot personnalisée](admin/bot-rules/t-create-bot-rules.md)
    + [Gestionnaire de code](admin/code-manager-admin.md)
-   + Variables de conversion {#conversion-variables}
-      + [Variables de conversion (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
+   + Conversion variables {#conversion-variables}
+      + [Variables de conversion (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Modification des variables de conversion](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classifications des conversions](admin/conversion-var-admin/conversion-classifications.md)
    + [Codes de devise](admin/currency.md)
    + [Descriptions des rapports personnalisés](admin/custom-desc-admin.md)
-   + [Personnalisation du calendrier](admin/custom-calendar.md)
+   + [Personnaliser le calendrier](admin/custom-calendar.md)
    + [Sources de données](admin/data-sources.md)
    + [Mesures par défaut](admin/default-metrics.md)
-   + [Exclure par adresse IP](admin/exclude-ip.md)
+   + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Méthodes de recherche](admin/finding-methods.md)
    + [Paramètres du compte général](admin/general-acct-settings-admin.md)
    + [Gestion des groupes](admin/group.md)
@@ -41,14 +41,14 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [Journaux](admin/logs.md)
    + [Canaux marketing](admin/marketing-channels-admin.md)
    + [Personnalisation des menus](admin/customize-menus.md)
-   + [Visibilité des mesures](admin/metric-visibility.md)
+   + [Cision des mesures](admin/metric-visibility.md)
    + [Gestion mobile](admin/mobile-management.md)
-   + Détection de recherche payante {#paid-search-detection}
+   + Paid search detection {#paid-search-detection}
       + [Détection de recherche payante - Aperçu](admin/paid-search-detection/paid-search-detection.md)
       + [Configuration de la détection de recherche payante](admin/paid-search-detection/t-paid-search-detection.md)
    + [Listes de publication](admin/publishing-list.md)
    + [Widget de publication](admin/publishing-widgets-admin.md)
-   + [Gestionnaire de préférences](admin/preferences-manager.md)
+   + [Gestionnaire des préférences](admin/preferences-manager.md)
    + [Paramètres de confidentialité](admin/privacy-settings.md)
    + Règles de traitement {#processing-rules}
       + [Règles de traitement - Aperçu](admin/c-processing-rules/processing-rules.md)
@@ -97,10 +97,10 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Classifications de trafic](admin/c-traffic-variables/traffic-classifications.md)
    + Variable de visiteur unique {#unique-visitor-variable}
       + [Définition de la variable Visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Scénario d’utilisation - Extraction d’ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Cas d'utilisation - Extraction d'ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestion des vidéos](admin/video-management.md)
 + Admin Console pour Experience Cloud {#admin-console}
-   + [Aide d’Admin Console pour Experience Cloud ](admin-console/home.md)
+   + [Aide de la console d'administration d'Experience Cloud](admin-console/home.md)
    + Autorisations {#permissions}
       + [Aide sur le profil du produit](admin-console/permissions/product-profile.md)
       + [Éléments d’autorisation liés aux outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
