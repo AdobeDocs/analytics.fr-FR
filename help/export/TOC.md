@@ -3,8 +3,8 @@ product: analytics
 audience: utilisateur final
 user-guide-title: Guide d’exportation Analytics
 user-guide-url: /content/help/fr-FR/analytics/export/home.html
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
 
 ---
 
@@ -61,6 +61,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Tri par mesure](data-warehouse/sorting-by-metric.md)
    + [Planifier une requête récurrente](data-warehouse/dw-schedule-recurring.md)
    + [Gérer les demandes d’Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
+   + [Composants pris en charge dans l'entrepôt de données](data-warehouse/component-support.md)
    + [Dimensions incompatibles avec les segments d’Data Warehouse](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Bonnes pratiques relatives à l’Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP et SFTP {#ftp-and-sftp}
