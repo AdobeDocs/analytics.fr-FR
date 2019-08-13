@@ -1,16 +1,16 @@
 ---
 description: Le traitement du temps de rapport est un paramètre de suite de rapports virtuelle qui permet le traitement des données d'une manière non destructive et rétroactive.
 seo-description: Le traitement du temps de rapport est un paramètre de suite de rapports virtuelle qui permet le traitement des données d'une manière non destructive et rétroactive.
-seo-title: Traitement du temps passé sur le rapport
-title: Traitement du temps passé sur le rapport
+seo-title: Traitement de la période de rapport
+title: Traitement de la période de rapport
 uuid: 1 a 1 d 82 ea -8 c 93-43 cc -8689-cdcf 59 c 309 b 1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1e8d5af54ab22311e1c3967979c8bdc982a66d5b
 
 ---
 
 
-# Traitement du temps passé sur le rapport
+# Traitement de la période de rapport
 
 Le traitement du temps de rapport est un paramètre de suite de rapports virtuelle qui permet le traitement des données d'une manière non destructive et rétroactive.
 
@@ -84,7 +84,7 @@ Vous trouverez ci-dessous une liste de mesures et de dimensions qui ne sont actu
    <td colname="col2"> <p> Non prise en charge actuellement. Une prise en charge est prévue à l’avenir. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Mesures/dimensions réservées à AMO </p> </td> 
+   <td colname="col1"> <p> Analyses pour les mesures/dimensions réservées à la publicité Cloud </p> </td> 
    <td colname="col2"> <p> Non prise en charge actuellement. Une prise en charge est prévue à l’avenir. </p> </td> 
   </tr> 
   <tr> 
@@ -170,19 +170,19 @@ Vous trouverez ci-dessous une liste des dimensions et des mesures affectées en 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Rebonds/Taux de rebond </p> </td> 
-   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, les accès en arrière-plan qui ne sont pas suivis par un accès de premier plan ne sont pas considérés comme un rebond et ne contribuent pas au taux de rebond. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, les accès en arrière-plan qui ne sont pas suivis par un accès de premier plan ne sont pas considérés comme un rebond et ne contribuent pas au taux de rebond. Pour <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> plus d'informations, voir la section Sessionation</a> de contexte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Durée de la visite - Secondes par visite </p> </td> 
-   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, seules les visites incluant des accès de premier plan contribuent à cette mesure. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, seules les visites incluant des accès de premier plan contribuent à cette mesure. Pour <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> plus d'informations, voir la section Sessionation</a> de contexte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Durée de la visite </p> </td> 
-   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, seules les visites incluant des accès de premier plan contribuent à cette mesure. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, seules les visites incluant des accès de premier plan contribuent à cette mesure. Pour <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> plus d'informations, voir la section Sessionation</a> de contexte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Entrées </p> </td> 
-   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, seules les entrées provenant de visites contenant un accès de premier plan sont prises en compte. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, seules les entrées provenant de visites contenant un accès de premier plan sont prises en compte. Pour <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> plus d'informations, voir la section Sessionation</a> de contexte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> eVars sans marchandisage/eVars réservées </p> </td> 
@@ -194,7 +194,7 @@ Vous trouverez ci-dessous une liste des dimensions et des mesures affectées en 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Dimensions de l’entrée et de la sortie </p> </td> 
-   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, seules les entrées et les sorties des visites avec des accès de premier plan apparaissent dans cette dimension. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, seules les entrées et les sorties des visites avec des accès de premier plan apparaissent dans cette dimension. Pour <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> plus d'informations, voir la section Sessionation</a> de contexte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Type d’accès </p> </td> 
