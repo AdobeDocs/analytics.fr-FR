@@ -4,18 +4,18 @@ seo-description: Les règles de robots vous permettent de supprimer de votre sui
 seo-title: Règles de robots
 solution: Analytics
 subtopic: Règles de robots
-title: Règles de bots
+title: Règles de robots
 topic: Outils d’administration
 uuid: 3 cb 9 e 29 d -1 c 37-43 de-b 7 ac -34441093 a 60 e
 translation-type: tm+mt
-source-git-commit: d663329df871800195c7308ea4260018b2c8840b
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
 
 # Règles de robots
 
-Les règles de robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web.
+Les règles de robots vous permettent de supprimer le trafic de votre suite de rapports générée par des araignées et des robots connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web.
 
 Une fois les règles de robots définies, elles servent de critères de comparaison pour tout le trafic entrant. Le trafic qui correspond à l’une de ces règles n’est ni collecté dans la suite de rapports, ni inclus dans les mesures de trafic.
 
@@ -23,13 +23,13 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 En règle générale, la suppression du trafic de robots réduit le volume des mesures de trafic et de conversion. Pour de nombreux utilisateurs, la suppression du trafic de robots se traduit par une augmentation des taux de conversion et d’autres mesures d’utilisation. Avant de supprimer le trafic de robots, contactez les parties intéressées afin de vous assurer qu’elles sont en mesure d’apporter les modifications nécessaires aux indicateurs de performance clés à la suite de ce changement. Si possible, nous vous conseillons d’abord de supprimer le trafic de robots d’une petite suite de rapports afin d’évaluer l’impact potentiel.
 
-Il est recommandé de ne pas définir plus de 500 règles de bots par suite de rapports. Il est possible de définir manuellement 500 règles dans l’interface utilisateur. Une fois cette limite atteinte, les règles doivent être gérées en vrac par l’intermédiaire des options [Importer un fichier](../../../admin/admin/bot-rules/t-upload-bot-rules.md#task_95868D8564564E6A996163335C119806) et Exporter des règles de bots.
+>[!NOTE] Il est recommandé de ne pas définir plus de 500 règles de bots par suite de rapports. Il est possible de définir manuellement 500 règles dans l’interface utilisateur. Une fois cette limite atteinte, les règles doivent être gérées en vrac par l’intermédiaire des options [Importer un fichier](../../../admin/admin/bot-rules/t-upload-bot-rules.md#task_95868D8564564E6A996163335C119806) et Exporter des règles de bots.
 
 Les données de trafic de robots sont stockées dans un référentiel distinct en vue d’être affichées dans les rapports [!UICONTROL Robots] et [!UICONTROL Pages de robots].
 
 | Type de règle | Description |
 |--- |--- |
-| IAB | Si vous sélectionnez [!UICONTROL Inclure IAB], la liste internationale des robots fournie par l’IAB/ABCe (International Spiders &amp; Robots List) est utilisée pour supprimer le trafic de robots. Cette liste est mise à jour tous les mois par l’IAB. <br>Pour envoyer un robot à la liste IAB, rendez-vous sur [la page IAB](https://www.iab.net/sites/spiders/form.php). <br>Adobe n’est pas en mesure de fournir la liste des robots IAB détaillée aux clients. Vous pouvez cependant utiliser le rapport Robots pour consulter la liste des robots qui ont accédé à votre site. |
+| IAB | Selecting [!UICONTROL Include IAB] uses the IAB's (International Advertising Bureau's) International Spiders &amp; Bots List to remove bot traffic. Cette liste est mise à jour tous les mois par l’IAB. <br>Pour envoyer un robot à la liste IAB, rendez-vous sur [la page IAB](https://www.iab.net/sites/spiders/form.php). <br>Adobe n’est pas en mesure de fournir la liste des robots IAB détaillée aux clients. Vous pouvez cependant utiliser le rapport Robots pour consulter la liste des robots qui ont accédé à votre site. |
 | Règles de robots personnalisées | Voir [Créer une règle de robot personnalisée](../../../admin/admin/bot-rules/t-create-bot-rules.md). |
 
 ## Incidence des règles de robots sur la collecte de données {#section_F01A3130E7A04A9993371CF26F6586F2}
@@ -42,11 +42,11 @@ VISTA rules are applied after Bot Rules (see [Processing Order](../../../admin/a
 
 >[!NOTE]
 >
->Hits marked as *`bots`* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>Accès marqués comme *`bots`* étant facturés comme [appels au serveur](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/overage-overview.html).
 
 ## Impact de l’obscurcissement des adresses IP sur le filtrage des robots {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
-La liste des robots IAB est basée uniquement sur l’agent-utilisateur. De ce fait, le filtrage basé sur cette liste n’est pas affecté par les paramètres d’obscurcissement d’IP. Pour le filtrage des robots non IAB (règles personnalisées), l’IP peut faire partie des critères de filtrage. Si vous filtrez des robots à l’aide de l’IP, le filtrage se produit une fois que le dernier octet a été supprimé, si ce paramètre est activé, mais avant les autres options d’obscurcissement d’IP, par exemple la suppression de l’ensemble de l’IP ou son remplacement par un identifiant unique.?
+La liste des robots IAB est basée uniquement sur l’agent-utilisateur. De ce fait, le filtrage basé sur cette liste n’est pas affecté par les paramètres d’obscurcissement d’IP. Pour le filtrage des robots non IAB (règles personnalisées), l’IP peut faire partie des critères de filtrage. Si vous filtrez des robots à l’aide de l’IP, le filtrage se produit une fois que le dernier octet a été supprimé, si ce paramètre est activé, mais avant les autres options d’obscurcissement d’IP, par exemple la suppression de l’ensemble de l’IP ou son remplacement par un identifiant unique.
 
 Si l’obscurcissement d’IP est activé, l’exclusion de l’adresse IP survient avant l’obscurcissement ; ainsi, les clients n’ont rien à changer lorsqu’ils activent cette option.
 
