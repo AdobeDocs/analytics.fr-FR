@@ -8,7 +8,7 @@ title: Télécharger des règles de robots
 topic: Outils d’administration
 uuid: bd 70 c 199-5817-437 e -980 d -6 d 8 f 95 f 95 f 2 c
 translation-type: tm+mt
-source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
+source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 
 ---
 
@@ -17,20 +17,11 @@ source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
 
 Pour importer des règles de robots en vrac, vous pouvez télécharger un fichier CSV qui les définit.
 
-Créez un fichier CSV avec les colonnes suivantes, en respectant l’ordre indiqué :
+Créez un fichier CSV contenant les colonnes suivantes, dans l'ordre présenté :
 
-<table id="table_770891EF9E4A49F695977BB6446736B5"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> Nom du robot</code> </p> </td> 
-   <td colname="col2"> <p> <code>Début IP</code> </p> </td> 
-   <td colname="col3"> <p> <code>Fin IP</code> </p> </td> 
-   <td colname="col4"> <p> <code> Règle de correspondance de l’agent (contient ou commence par)</code> </p> </td> 
-   <td colname="col5"> <p> <code>Agent - Inclure (100 caractères max.)</code> </p> </td> 
-   <td colname="col6"> <p> <code>Agent - Exclure (255 caractères max.)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Colonne 1 | Colonne 2 | Colonne 3 | Colonne 4 | Colonne 5 |
+|---|---|---|---|---|
+| Nom du robot | Début IP | Fin IP | Règle de correspondance de l'agent<br>(`contains` ou `starts with`) | Agent Exclude<br>(255 char limit) |
 
 Vous pouvez définir trois types de règles de robots :
 
