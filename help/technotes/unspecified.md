@@ -5,7 +5,7 @@ seo-title: Non spécifié, Autre et Inconnu dans les rapports
 solution: Analytics
 title: Non spécifié, Autre et Inconnu dans les rapports
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: 5776b478580fea10a3a954f2e53048c3f0e1f9da
 
 ---
 
@@ -20,7 +20,7 @@ Divers rapports dans Adobe Analytics peuvent afficher Non spécifié, Autre ou I
 
 * **Un événement se déclenche sans variable de conversion :** Par exemple, un utilisateur se rend sur votre site et effectue un achat sans valeur evar 1. Si vous affichez les commandes à l'aide de la dimension evar 1, il n'y a aucune valeur pour attribuer cette commande. Par conséquent, il est automatiquement attribué à « Non spécifié ».
 * **Données non classifiées dans les rapports de classification :** lors de la consultation des données de classification, les valeurs dont les données ne sont pas associées à cette classification donnée renvoient la valeur Non spécifié. Pour résoudre ce problème, classez la valeur de la variable parent.
-* **Rapports de ventilation où seule une variable a été déclenchée :** Lorsque vous appliquez une ventilation à une variable, chaque instance de cette variable doit être prise en compte. Si la seconde variable n'a pas été vue, la valeur de dimension est « Non spécifié ».
+* **Rapports de ventilation où seule une variable a été déclenchée :** Lorsque vous appliquez une ventilation à une variable, chaque instance de cette variable doit être prise en compte. Si la seconde variable n'a pas été vue ou qu'elle persiste d'un accès précédent, la valeur de dimension est Non spécifié.
 * **Accès non mobiles dans les rapports mobiles :** Tous les accès non mobiles dans les rapports mobiles sont répertoriés « Non spécifié » (« Non mobile » dans les rapports et analyses).
 
 ## « Autre » dans les rapports
