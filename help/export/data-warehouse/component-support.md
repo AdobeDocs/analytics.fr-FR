@@ -2,7 +2,7 @@
 title: Prise en charge des composants dans l'entrepôt de données
 description: Découvrez les dimensions et mesures supplémentaires disponibles dans Data Warehouse et ce qui n'est pas pris en charge.
 translation-type: tm+mt
-source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -31,7 +31,7 @@ Certaines dimensions et mesures peuvent être utilisées dans l'entrepôt de don
 
 Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse.
 
-> [!IMPORTANT] Si une dimension ou une mesure n'est pas prise en charge dans l'entrepôt de données, les segments utilisant ces composants ne sont pas non plus pris en charge. Vérifiez toujours la compatibilité des produits lors de la création ou de la modification d'un segment.
+> [!NOTE] Si une dimension ou une mesure n'est pas prise en charge dans l'entrepôt de données, les segments utilisant ces composants ne sont pas non plus pris en charge. Vérifiez toujours la compatibilité des produits lors de la création ou de la modification d'un segment.
 
 ### Dimensions non prises en charge
 
