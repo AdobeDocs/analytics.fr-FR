@@ -4,7 +4,7 @@ seo-title: Laboratoires pour Adobe Analytics
 description: Aperçu de projets prototype pour Adobe Analytics
 seo-description: Aperçu des prototypes pour Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
 
 # Guide de l'utilisateur Labs
 
-Remarque : Labs est actuellement disponible en tant qu'accès anticipé à un nombre limité de clients, mais sera largement publié ultérieurement.
+>[!NOTE] Labs est actuellement disponible en tant qu'accès anticipé à un nombre limité de clients, mais sera largement publié ultérieurement.
 
 Labs permet un prototypage plus rapide des idées précoces. Il s'agit d'une combinaison d'outils et de processus qui accélère le développement de manière transparente, avec une cible d'action du client. Il permet aux utilisateurs d'interagir avec les technologies émergentes, de découvrir des informations précieuses et d'influencer le développement et les priorités des fonctionnalités futures. Vous pouvez utiliser Labs pour accéder rapidement aux innovations Analytics et évaluer les fonctionnalités à venir dans le contexte de vos propres cas d'utilisation et de vos données.
 
@@ -30,20 +30,19 @@ Pour accéder aux laboratoires :
 
 1. Click the **Labs** tab.
 
-
 ## Evaluation d'un prototype
 
 Pour lancer et évaluer un prototype :
 
-1. On the Labs screen, click the **Launch** button of the prototype you want to see. Une fois le prototype lancé, son nom s'affiche dans l'angle supérieur gauche de l'environnement prototype.
+1. Dans l'écran Labs, cliquez sur le **bouton Lancer** du prototype à afficher. Une fois le prototype lancé, son nom s'affiche dans l'angle supérieur gauche de l'environnement prototype.
 
    ![nom du prototype](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Watch a video that highlights the prototype by clicking on **Watch Video** in the upper right of the screen. Click the **Close** button when the video is completed.
+1. Regardez une vidéo qui met en évidence le prototype en cliquant **sur Regarder la vidéo** dans l'angle supérieur droit de l'écran. Cliquez sur le **bouton Fermer** lorsque la vidéo est terminée.
 
    ![options d'aperçu](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. Travaillez avec le prototype. Lorsque vous travaillez dans l'environnement protype :
+1. Travaillez avec le prototype. Lorsque vous travaillez dans l'environnement prototype :
 
 * Les projets créés dans l'environnement prototype ne peuvent pas être enregistrés ni partagés.
 
@@ -55,20 +54,19 @@ Pour lancer et évaluer un prototype :
 
 ## Conservez les commentaires
 
-1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
+1. Cliquez sur le bouton **Donner des commentaires** pour commenter la zone de message à tout moment lorsque vous travaillez avec le prototype.
 
    ![feedback_ box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
-1. Click **Submit** to send your feedback.
+1. Cliquez **sur Envoyer** pour envoyer vos commentaires.
 
-1. To try a different prototype, or to exit the prototype environment, click the **Leave Prototype** button in the upper right of the screen and complete the short survey for the prototype. Toutes les modifications apportées à un projet prototype sont perdues lors de la fermeture de l'environnement prototype.
+1. Pour tester un prototype différent ou quitter l'environnement prototype, cliquez sur le **bouton Quitter prototype** dans l'angle supérieur droit de l'écran et complétez la courte enquête du prototype. Toutes les modifications apportées à un projet prototype sont perdues lors de la fermeture de l'environnement prototype.
 
    ![nouvelle zone de commentaires](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
-1. Click **Submit** to return to the main Previews portal.
+1. Cliquez **sur Envoyer** pour revenir au portail des aperçus principaux.
 
 ## Informations supplémentaires
 
 * Certains prototypes des laboratoires deviennent des fonctionnalités Analytics, d'autres pas. Vos commentaires guident la décision. Ainsi, passez en revue les prototypes et indiquez à Adobe combien vous les recherchez.
 * Labs est disponible pour tous les droits SKU.
-
