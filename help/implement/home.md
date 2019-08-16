@@ -1,10 +1,10 @@
 ---
-title: Aide de mise en œuvre d'Analytics
-seo-title: Aide de mise en œuvre d'Analytics
+title: Aide pour la mise en œuvre d’Analytics
+seo-title: Aide pour la mise en œuvre d’Analytics
 description: valeur nulle
 seo-description: valeur nulle
 translation-type: tm+mt
-source-git-commit: 800d4ed34a816bd331b339295dc3acd2a03a2cd5
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,14 +13,18 @@ source-git-commit: 800d4ed34a816bd331b339295dc3acd2a03a2cd5
 
 ![Bannière](../../assets/doc_banner_implement.png)
 
-This guide walks you through different Adobe Analytics implementation methods, from JavaScript to [!UICONTROL Adobe Experience Platform Launch].
+Ce guide vous guide tout au long des différentes méthodes d'implémentation d'Adobe Analytics.
+
+* **Lancement d'Adobe Experience Platform :** Méthode normalisée et recommandée pour implémenter Adobe Analytics. Placez une balise chargeur sur chaque page et utilisez l'interface du lancement pour déterminer la définition de chaque variable.
+* **Gestion dynamique des balises :** Prédécesseur à lancer. DTM utilise une interface similaire pour implémenter Analytics, mais n'est plus mise à jour et n'est pas aussi souple. Adobe recommande d'utiliser Launch pour implémenter Adobe Analytics.
+* **Code JavaScript hérité :** Méthode manuelle historique pour implémenter Adobe Analytics. Décrit les variables et les paramètres utilisés dans une implémentation, ce qui peut s'avérer utile pour les implémentations de lancement utilisant des règles avec du code personnalisé.
 
 ## Analyses clés Importation des articles
 
+* [Adobe Debugger](impl-testing/debugger.md)
 * [Création d'une propriété dans le lancement de Platform Platform](implement-with-launch/create-analytics-property.md)
 * [Choix d’une méthode de mise en œuvre](c-implementation-methods/choose-implementation-method.md)
 * [Notes de mise à jour de la bibliothèque appmeasurement](appmeasurement-release-notes/appmeasurement-release-notes.md)
-* [Adobe Debugger](impl-testing/debugger.md)
 
 ## Plus de guides d'utilisateur Analytics
 
@@ -28,11 +32,7 @@ This guide walks you through different Adobe Analytics implementation methods, f
 
 ## Ressources Analytics clés
 
-* [Prise en main](https://helpx.adobe.com/analytics/get-started.html)
-* [Vidéos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Développeur](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Formation et assistance pour Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Assistance pour les contacts](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contacter le service d'assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formations et didacticiels Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
