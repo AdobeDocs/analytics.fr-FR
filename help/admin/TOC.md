@@ -3,7 +3,7 @@ product: analytics
 audience: admin
 user-guide-title: Guide d’administration Analytics
 user-guide-url: /content/help/fr-FR/analytics/admin/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
@@ -20,11 +20,11 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
    + Suppression de robots {#bot-removal}
-      + [Présentation des règles de robots](admin/bot-removal/bot-rules.md)
+      + [Règles de robots - Aperçu](admin/bot-removal/bot-rules.md)
       + [Télécharger des règles de robots](admin/bot-removal/t-upload-bot-rules.md)
       + [Créer une règle de robot personnalisée](admin/bot-removal/t-create-bot-rules.md)
    + [Gestionnaire de code](admin/code-manager-admin.md)
-   + Conversion variables {#conversion-variables}
+   + Variables de conversion {#conversion-variables}
       + [Variables de conversion (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Modification des variables de conversion](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classifications des conversions](admin/conversion-var-admin/conversion-classifications.md)
@@ -33,7 +33,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Personnaliser le calendrier](admin/custom-calendar.md)
    + [Sources de données](admin/data-sources.md)
    + [Mesures par défaut](admin/default-metrics.md)
-   + [Exclure par adresse IP](admin/exclude-ip.md)
+   + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Méthodes de recherche](admin/finding-methods.md)
    + [Paramètres du compte général](admin/general-acct-settings-admin.md)
    + [Gestion des groupes](admin/group.md)
@@ -41,14 +41,14 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Journaux](admin/logs.md)
    + [Canaux marketing](admin/marketing-channels-admin.md)
    + [Personnalisation des menus](admin/customize-menus.md)
-   + [Cision des mesures](admin/metric-visibility.md)
+   + [Visibilité des mesures](admin/metric-visibility.md)
    + [Gestion mobile](admin/mobile-management.md)
-   + Paid search detection {#paid-search-detection}
+   + Détection de recherche payante {#paid-search-detection}
       + [Détection de recherche payante - Aperçu](admin/paid-search-detection/paid-search-detection.md)
       + [Configuration de la détection de recherche payante](admin/paid-search-detection/t-paid-search-detection.md)
    + [Listes de publication](admin/publishing-list.md)
    + [Widget de publication](admin/publishing-widgets-admin.md)
-   + [Gestionnaire des préférences](admin/preferences-manager.md)
+   + [Gestionnaire de préférences](admin/preferences-manager.md)
    + [Paramètres de confidentialité](admin/privacy-settings.md)
    + Règles de traitement {#processing-rules}
       + [Règles de traitement - Aperçu](admin/c-processing-rules/processing-rules.md)
@@ -97,10 +97,10 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
       + [Classifications de trafic](admin/c-traffic-variables/traffic-classifications.md)
    + Variable de visiteur unique {#unique-visitor-variable}
       + [Définition de la variable Visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Cas d'utilisation - Extraction d'ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Scénario d’utilisation - Extraction d’ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestion des vidéos](admin/video-management.md)
 + Admin Console pour Experience Cloud {#admin-console}
-   + [Aide de la console d'administration d'Experience Cloud](admin-console/home.md)
+   + [Aide d’Admin Console pour Experience Cloud](admin-console/home.md)
    + Autorisations {#permissions}
       + [Aide sur le profil du produit](admin-console/permissions/product-profile.md)
       + [Éléments d’autorisation liés aux outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
