@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Optimisation des performances de Workspace
-title: Optimisation des performances de Workspace
+seo-title: Optimisation des performances de l'espace de travail d'analyse
+title: Optimisation des performances de l'espace de travail d'analyse
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
+source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 ---
 
 
-# Optimisation des performances de Workspace
+# Optimisation des performances de l'espace de travail d'analyse
 
 Certains facteurs peuvent influencer les performances d’un projet dans Analysis Workspace. Il convient de savoir quels sont ces facteurs avant de démarrer un projet, afin de planifier et d’élaborer le projet d’une manière optimale. Vous trouverez ci-dessous une liste des facteurs influençant les performances, ainsi que des bonnes pratiques pour optimiser vos projets. Adobe accorde une importance particulière aux performances d’Analysis Workspace et s’efforce continuellement de les améliorer.
 
@@ -23,9 +23,9 @@ Des segments complexes peuvent avoir un impact significatif sur la performance d
 * Le nombre d’éléments de dimensions uniques dans les dimensions utilisées dans le segment (par exemple, Page = 'A' lorsque Page comporte 10 éléments uniques sera plus rapide que Page = 'A' lorsque la page a 100 000 éléments uniques)
 * Le nombre de dimensions différentes utilisées (par exemple, Page = 'Home' et Page = 'Search results' seront plus rapides que eVar 1 = 'red' et eVar 2 = 'blue')
 * Beaucoup d’opérateurs OR (au lieu de AND)
-* Des contenants imbriqués dont la portée varie (p. Ex., « Hit inside of Visit inside of Visitor »)
+* Les conteneurs imbriqués qui varient selon la portée (ex. : Accès au sein de la « Visite » à l'intérieur de « Visiteur »).
 
-### Bonne pratique
+**Meilleure pratique pour la complexité logique**
 
 Bien qu’il soit impossible d’éviter certains facteurs de complexité, pensez aux possibilités de réduire la complexité de vos segments. En général, plus vous pouvez être précis dans vos critères de segment, mieux c’est. Par exemple :
 
@@ -39,7 +39,7 @@ En outre, l’utilisation de [classifications](/help/components/c-classification
 
 La plage de données demandée lors d’un projet influence les performances d’Analysis Workspace.
 
-### Bonne pratique
+**Meilleure pratique pour la plage de données**
 
 Si possible, n’extrayez que les données dont vous avez besoin.
 
@@ -51,7 +51,7 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 Le nombre de visualisations graphiques contenues dans un projet affecte la réactivité globale d’Analysis Workspace.
 
-### Bonne pratique
+**Meilleure pratique pour le nombre de visualisations**
 
 Réduisez le nombre de visualisations dans votre projet. Pour chaque visuel que vous ajoutez, Analysis Workspace exécute un traitement conséquent en arrière-plan. Par conséquent, donnez la priorité aux visuels les plus importants pour l’utilisateur du rapport et, si nécessaire, répartissez les visuels connexes dans un projet distinct plus détaillé.
 
@@ -66,7 +66,7 @@ Le type de visualisation (abandons ou tableau à structure libre) ajouté à un 
 * Filtres appliqués aux lignes des tableaux à structure libre
 * Nombre de mesures incluses, en particulier les mesures calculées qui utilisent des segments
 
-### Bonne pratique
+**Meilleure pratique pour la complexité de visualisation**
 
 Si vos projets ne se chargent pas aussi rapidement que prévu, remplacez si possible certains segments par des eVars et des filtres.
 
@@ -76,11 +76,11 @@ Si vous utilisez constamment des segments et des mesures calculées pour les poi
 
 Un panneau peut contenir de nombreuses visualisations. Par conséquent, le nombre de panneaux peut également influencer la réactivité globale d'Analysis Workspace.
 
-### Bonne pratique
+**Meilleure pratique pour le nombre de panneaux**
 
 N’ajoutez rien à un projet. Créez plutôt des projets distincts ayant un objectif ou un groupe de participants spécifique. À l’aide des balises, classez les projets par thèmes clés et partagez avec les groupes de participants les projets connexes. 
 
-Si vous devez classer davantage les projets, vous pouvez [lier directement](https://www.youtube.com/watch?v=6IOEewflG2U) votre projet. Créez un index interne des projets, de sorte que les participants puissent facilement trouver ce qu’ils recherchent. Par ailleurs, Adobe s’efforce d’ajouter davantage d’options de classement dans Analysis Workspace.
+Si vous devez classer davantage les projets, vous pouvez [lier directement](https://www.youtube.com/watch?v=6IOEewflG2U) votre projet. Créez un index interne des projets, de sorte que les participants puissent facilement trouver ce qu’ils recherchent.
 
 Si vous devez ajouter de nombreux panneaux dans un espace de travail, réduisez-les avant d’enregistrer et de partager le projet. Quand un projet est chargé, Analysis Workspace charge seulement le contenu correspondant aux panneaux développés. Les panneaux réduits ne sont pas chargés tant que l’utilisateur ne les développe pas. Cette approche présente deux avantages :
 
@@ -91,6 +91,14 @@ Si vous devez ajouter de nombreux panneaux dans un espace de travail, réduisez-
 
 Même si la taille de la suite de rapports peut sembler être un facteur capital, son rôle en matière de performances du projet est en réalité mineur, en raison de la façon dont Adobe traite les données.
 
-## Nombre de personnes qui accèdent en même temps à Analysis Workspace
+## Nombre d'utilisateurs accédant simultanément à Analysis Workspace
 
-Le nombre de personnes ayant accédé à Analysis Workspace ou à des projets spécifiques en même temps n'a pas d'incidence substantielle sur les performances de l'espace de travail d'analyse.
+Le nombre d'utilisateurs accédant à Analysis Workspace ou à des projets spécifiques ne joue pas un rôle important sur les performances d'Analysis Workspace, si les utilisateurs accèdent à différentes suites de rapports. Si les utilisateurs simultanés accèdent à la même suite de rapports, les performances seront affectées.
+
+## Résoudre les erreurs courantes
+
+| Message d’erreur | Pourquoi cela se produit-il ? |
+|---|---|
+| `The report suite is experiencing unusually heavy reporting. Please try again later.` | Votre entreprise essaie d'exécuter trop de requêtes simultanées par rapport à une suite de rapports spécifique. Les contributeurs à cette erreur sont les demandes d'API, les projets planifiés, les rapports planifiés, les alertes planifiées et les utilisateurs simultanés qui génèrent des requêtes de rapport. Nous vous recommandons de répartir les requêtes et les planifications de la suite de rapports de manière plus uniforme tout au long de la journée. |
+| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe rencontre un problème qui doit être résolu. Nous vous recommandons d'envoyer le code d'erreur par le biais d'une demande d'assistance clientèle. |
+| `The request is too complex.` | Votre requête de rapport est trop volumineuse et ne peut pas être exécutée. Les contributeurs à cette erreur sont des dépassements de délai dus à la taille de la requête, trop d'éléments correspondants dans un segment ou un filtre de recherche, trop de mesures incluses, des combinaisons de dimension et de mesure incompatibles, etc. Nous vous recommandons de simplifier votre requête. |
