@@ -8,7 +8,7 @@ title: Télécharger des règles de robots
 topic: Outils d’administration
 uuid: bd 70 c 199-5817-437 e -980 d -6 d 8 f 95 f 95 f 2 c
 translation-type: tm+mt
-source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
+source-git-commit: d0bd48684764a60b488d1e39c968ad70c743f1db
 
 ---
 
@@ -20,8 +20,8 @@ Pour importer des règles de robots en vrac, vous pouvez télécharger un fichie
 Créez un fichier CSV contenant les colonnes suivantes, dans l'ordre présenté :
 
 | Colonne 1 | Colonne 2 | Colonne 3 | Colonne 4 | Colonne 5 |
-|---|---|---|---|---|
-| Nom du robot | Début IP | Fin IP | Règle de correspondance de l'agent<br>(`contains` ou `starts with`) | Agent Exclude<br>(255 char limit) |
+|--- |--- |---|---|---|
+| Nom du robot | Début IP | Fin IP | Agent Match Rule<br>(contains or starts with)</br> | Agent Exclure<br>(limite de 255 caractères)</br> |
 
 Vous pouvez définir trois types de règles de robots :
 
