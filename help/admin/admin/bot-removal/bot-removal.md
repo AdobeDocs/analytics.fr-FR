@@ -4,7 +4,7 @@ seo-title: Suppression de robots dans Adobe Analytics
 description: 3 méthodes de suppression des robots dans Adobe Analytics
 seo-description: 3 méthodes de suppression des robots dans Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
+source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 ---
 
@@ -47,12 +47,13 @@ Pensez à utiliser l'identifiant visiteur Experience Cloud comme dimension et ap
 
 ## Étape 4 : Renvoi de cette liste à Adobe en tant qu'attribut du client
 
-Une fois le rapport Entrepôt de données arrivé, vous disposez d'une liste des identifiants électroniques qui doivent être filtrés à partir des données historiques. Copiez et collez ces ecid dans un fichier CSV vierge avec uniquement deux colonnes, ECID et Flag Flag :
+Une fois le rapport Entrepôt de données arrivé, vous disposez d'une liste des identifiants électroniques qui doivent être filtrés à partir des données historiques. Copiez et collez ces ecid dans un fichier. CSV vide avec uniquement deux colonnes, ECID et Flag Flag :
 
-
+![](assets/bot-csv-4.png)
 
 Assurez-vous que le premier en-tête de colonne correspond au nom que vous avez attribué au nouvel identifiant déclaré ci-dessus. Utilisez ce fichier. CSV comme fichier d'importation d'attributs du client, puis abonnez-vous à votre ou vos suites de rapports à l'attribut du client comme décrit dans cette publication [de blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ## Étape 5 : Création d'un segment qui exploite le nouvel attribut du client
 
 Une fois votre jeu de données traité et intégré à Analysis Workspace, créez un segment supplémentaire qui exploite votre nouvelle dimension d'attribut « Indicateur de robot » :
+
