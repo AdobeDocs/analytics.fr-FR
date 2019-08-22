@@ -4,7 +4,7 @@ seo-title: Totaux des mesures calculées
 description: Découvrez comment les totaux des mesures calculées diffèrent dans les outils Analytics
 seo-description: Calcul des totaux des mesures calculées
 translation-type: tm+mt
-source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
+source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 ---
 
@@ -35,6 +35,6 @@ Puisqu'il n'existe pas de méthode logique et concrète pour déterminer si une 
 
 Dans Analysis Workspace, dans certains cas, les mesures calculées sont additionnées pour afficher un total :
 
-* Lorsqu'il existe des lignes [statiques](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) et Calculer **[!UICONTROL les totaux en additionnant les valeurs figurant actuellement dans chaque option de colonne]** (par défaut), est sélectionné.
+* Lorsqu'il existe des lignes [statiques](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) dans les tableaux à structure libre et *[!UICONTROL que les totaux de calcul totalisent les valeurs figurant actuellement dans chaque option de colonne]* (par défaut), l'option est sélectionnée.
 * Dans la visualisation [des anneaux](/help/analyze/analysis-workspace/visualizations/donut.md).
 * Dans la [visualisation Synthèse des changements](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
