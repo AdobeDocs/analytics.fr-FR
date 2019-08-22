@@ -5,7 +5,7 @@ seo-title: Optimisation des performances de l'espace de travail d'analyse
 title: Optimisation des performances de l'espace de travail d'analyse
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 Certains facteurs peuvent influencer les performances d’un projet dans Analysis Workspace. Il convient de savoir quels sont ces facteurs avant de démarrer un projet, afin de planifier et d’élaborer le projet d’une manière optimale. Vous trouverez ci-dessous une liste des facteurs influençant les performances, ainsi que des bonnes pratiques pour optimiser vos projets. Adobe accorde une importance particulière aux performances d’Analysis Workspace et s’efforce continuellement de les améliorer.
 
-## Complexité de la logique de segment
+## Complexité de la logique du segment
 
 Des segments complexes peuvent avoir un impact significatif sur la performance des projets. Les facteurs qui ajoutent une complexité à un segment (dans l'ordre décroissant de l'impact) incluent :
 
@@ -25,7 +25,7 @@ Des segments complexes peuvent avoir un impact significatif sur la performance d
 * Beaucoup d’opérateurs OR (au lieu de AND)
 * Les conteneurs imbriqués qui varient selon la portée (ex. : Accès au sein de la « Visite » à l'intérieur de « Visiteur »).
 
-**Meilleure pratique pour la complexité logique**
+**Recommandations relatives à la complexité logique**
 
 Bien qu’il soit impossible d’éviter certains facteurs de complexité, pensez aux possibilités de réduire la complexité de vos segments. En général, plus vous pouvez être précis dans vos critères de segment, mieux c’est. Par exemple :
 
@@ -39,7 +39,7 @@ En outre, l’utilisation de [classifications](/help/components/c-classification
 
 La plage de données demandée lors d’un projet influence les performances d’Analysis Workspace.
 
-**Meilleure pratique pour la plage de données**
+**Recommandations relatives à la plage de données**
 
 Si possible, n’extrayez que les données dont vous avez besoin.
 
@@ -95,9 +95,11 @@ Même si la taille de la suite de rapports peut sembler être un facteur capital
 
 Le nombre d'utilisateurs accédant à Analysis Workspace ou à des projets spécifiques ne joue pas un rôle important sur les performances d'Analysis Workspace, si les utilisateurs accèdent à différentes suites de rapports. Si les utilisateurs simultanés accèdent à la même suite de rapports, les performances seront affectées.
 
-## Résoudre les erreurs courantes
+## Messages d'erreur courants dans Analysis Workspace
 
-| Message d’erreur | Pourquoi cela se produit-il ? |
+Vous pouvez rencontrer des erreurs lors de l'interaction avec Analysis Workspace. Des erreurs peuvent se produire pour plusieurs raisons et énumérées ci-dessous sont les plus courantes.
+
+| Message d'erreur | Pourquoi cela se produit-il ? |
 |---|---|
 | `The report suite is experiencing unusually heavy reporting. Please try again later.` | Votre entreprise essaie d'exécuter trop de requêtes simultanées par rapport à une suite de rapports spécifique. Les contributeurs à cette erreur sont les demandes d'API, les projets planifiés, les rapports planifiés, les alertes planifiées et les utilisateurs simultanés qui génèrent des requêtes de rapport. Nous vous recommandons de répartir les requêtes et les planifications de la suite de rapports de manière plus uniforme tout au long de la journée. |
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe rencontre un problème qui doit être résolu. Nous vous recommandons d'envoyer le code d'erreur par le biais d'une demande d'assistance clientèle. |
