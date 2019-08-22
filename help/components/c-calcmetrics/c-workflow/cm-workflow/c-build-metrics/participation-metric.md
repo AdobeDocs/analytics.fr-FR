@@ -5,14 +5,14 @@ seo-title: Mesure de participation
 title: Mesure de participation
 uuid: 7 cb 191 be-bc 4 e -46 ef -8 a 20-ccba 5355 e 253
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc0adf08d2b68c314c38f0484addbff567147e88
 
 ---
 
 
 # Mesure de participation
 
-Voici un cas d'utilisation simple : Vous êtes propriétaire du contenu et souhaitez savoir quelles pages ont contribué aux visites qui ont contenu une commande. Procédez comme suit :
+Voici un cas d'utilisation simple : Vous êtes propriétaire du contenu et souhaitez savoir quelles pages ont contribué à (c.-à-d. aux visites) qui contiennent une commande. Procédez comme suit :
 
 >[!NOTE]
 >
@@ -22,12 +22,12 @@ Voici un cas d’utilisation simple : vous êtes propriétaire de contenu et so
 
 1. Créez une mesure dans le créateur de mesures calculées.
 1. Faites glisser l'événement de réussite « Commandes » dans le canevas Définition.
-1. Change the [attribution model](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. Select **[!UICONTROL Visit]** lookback. La définition doit ressembler à celle-ci :
+1. Remplacez le modèle [d'attribution](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) de cet événement par **[!UICONTROL Participation]** sous l'engrenage **[!UICONTROL Paramètres]** . Sélectionnez **[!UICONTROL la]** recherche de visites. La définition doit ressembler à celle-ci :
 
    ![](assets/participation.png)
 
 1. Enregistrez la mesure.
-1. Use the calculated metric in a **[!UICONTROL Pages]** report.
+1. Utilisez la mesure calculée dans un **[!UICONTROL rapport Pages]** .
 
    ![](assets/participation-pages.png)
 
