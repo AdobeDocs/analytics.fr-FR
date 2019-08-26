@@ -1,6 +1,6 @@
 ---
 title: Accueil des notes techniques
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -8,19 +8,19 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 # Accueil des notes techniques
 
-Ce guide fournit des informations utiles sur les rubriques qui n'appartiennent pas à un outil ou composant d'analyses spécifique.
+Ce guide fournit des informations utiles sur les rubriques qui n’appartiennent pas à un outil ou composant d’analyses spécifique.
 
-## Articles sur les notes techniques clés
+## Principaux articles sur les notes techniques
 
-* [Transition d'une plateforme d'analyse tierce vers Adobe Analytics](ga-to-aa/home.md)
+* [Transition d’une plateforme d’analyse tierce vers Adobe Analytics](ga-to-aa/home.md)
 
-## Plus de guides d'utilisateur Analytics
+## Plus de guides de l’utilisateur Analytics
 
-[Guides de l'utilisateur Analytics](../landing/home.md)
+[Guides de l’utilisateur Analytics](../landing/home.md)
 
-## Ressources Analytics clés
+## Principales ressources Analytics
 
-* [Contacter le service d'assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Forum Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Contacter l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
+* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://experienceleague.adobe.com/?lang=fr#recommended/solutions/analytics)
