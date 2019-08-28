@@ -4,7 +4,7 @@ seo-title: Suppression de robots dans Adobe Analytics
 description: 3 méthodes de suppression des robots dans Adobe Analytics
 seo-description: 3 méthodes de suppression des robots dans Adobe Analytics
 translation-type: tm+mt
-source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
+source-git-commit: 0e882f4908dababaf96cf225c62f7ab3bb35860e
 
 ---
 
@@ -56,4 +56,18 @@ Assurez-vous que le premier en-tête de colonne correspond au nom que vous avez 
 ## Étape 5 : Création d'un segment qui exploite le nouvel attribut du client
 
 Une fois votre jeu de données traité et intégré à Analysis Workspace, créez un segment supplémentaire qui exploite votre nouvelle dimension d'attribut « Indicateur de robot » :
+
+![](assets/bot-filter-seg2.png)
+
+## Étape 6 : Utiliser ce segment comme filtre de suite de rapports virtuelle
+
+Enfin, vous devez créer une suite de rapports virtuelle qui utilise ce segment pour filtrer les robots identifiés :
+
+![](assets/bot-vrs.png)
+
+Cette suite de rapports virtuelle nouvellement segmentée va maintenant déboucher sur un ensemble de données nettement plus restreint avec les robots identifiés complètement supprimés.
+
+## Étape 7 : Répétez les étapes 2, 3 et 4 régulièrement.
+
+Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux robots, avant d'effectuer une analyse régulière.
 
