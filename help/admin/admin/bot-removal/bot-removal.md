@@ -4,14 +4,14 @@ seo-title: Suppression de robots dans Adobe Analytics
 description: 3 méthodes de suppression des robots dans Adobe Analytics
 seo-description: 3 méthodes de suppression des robots dans Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
+source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
 
 ---
 
 
 # Suppression de robots dans Adobe Analytics
 
-Dans Adobe Analytics, vous disposez de trois options principales pour supprimer le trafic de robots des rapports :
+Dans Adobe Analytics, vous disposez de plusieurs options pour supprimer le trafic de robots des rapports :
 
 1. La méthode de filtrage des robots par défaut d'Adobe Analytics consiste à [créer des règles](/help/admin/admin/bot-removal/bot-rules.md) de robots basées sur la liste des robots IAB. Cette liste est mise à jour tous les mois et compile sa liste à partir de nombreuses sources, notamment les CDN et les principales propriétés Internet. Il comprend des milliers de robots connus, dont tous vos favoris : Google, Bing, Mozilla, etc. Cette liste couvre la plupart des cas d'utilisation et besoins liés à la filtration des robots.
 
@@ -25,7 +25,7 @@ Pour commencer, vous souhaitez créer un identifiant déclaré dans le service p
 
 capture d'écran ici
 
-Voici une capture d'écran de la manière dont cet ID peut être capturé via l'élément de données. Veillez à renseigner correctement votre ID Adobe mcorg dans l'élément de données.
+Voici comment cet ID peut être capturé via l'élément de données. Veillez à renseigner correctement votre ID Adobe ecorg dans l'élément de données.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
