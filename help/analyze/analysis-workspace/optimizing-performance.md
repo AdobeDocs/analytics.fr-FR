@@ -5,7 +5,7 @@ seo-title: Optimisation des performances de l'espace de travail d'analyse
 title: Optimisation des performances de l'espace de travail d'analyse
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
+source-git-commit: 9cd6a17db45c139765bea70fa27f37526334bcd0
 
 ---
 
@@ -104,3 +104,6 @@ Vous pouvez rencontrer des erreurs lors de l'interaction avec Analysis Workspace
 | `The report suite is experiencing unusually heavy reporting. Please try again later.` | Votre entreprise essaie d'exécuter trop de requêtes simultanées par rapport à une suite de rapports spécifique. Les contributeurs à cette erreur sont les demandes d'API, les projets planifiés, les rapports planifiés, les alertes planifiées et les utilisateurs simultanés qui génèrent des requêtes de rapport. Nous vous recommandons de répartir les requêtes et les planifications de la suite de rapports de manière plus uniforme tout au long de la journée. |
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe rencontre un problème qui doit être résolu. Nous vous recommandons d'envoyer le code d'erreur par le biais d'une demande d'assistance clientèle. |
 | `The request is too complex.` | Votre requête de rapport est trop volumineuse et ne peut pas être exécutée. Les contributeurs à cette erreur sont des dépassements de délai dus à la taille de la requête, trop d'éléments correspondants dans un segment ou un filtre de recherche, trop de mesures incluses, des combinaisons de dimension et de mesure incompatibles, etc. Nous vous recommandons de simplifier votre requête. |
+| `One of the segments or the search in this visualization contains a text search that returned too many results.` | Nous vous recommandons de limiter les critères de texte de recherche et d'essayer de nouveau la requête. |
+| `This dimension does not currently support non-default attribution models.` | Il est recommandé de remplacer la dimension dans votre tableau par celle qui est compatible avec [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html). |
+| `Your request failed as a result of too many columns or pre-configured rows.` | Il est recommandé de supprimer certaines des colonnes ou des lignes ou de les diviser en visualisations distinctes. |
