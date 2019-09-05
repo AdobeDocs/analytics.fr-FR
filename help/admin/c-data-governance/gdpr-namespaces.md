@@ -5,7 +5,7 @@ seo-title: Espaces de noms
 title: Espaces de noms
 uuid: cab 61844-3209-4980-b 14 c -6859 de 777606
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 9362a59afb6a51bd91d8a94ae5750c4d138fc2f7
 
 ---
 
@@ -38,7 +38,7 @@ Cookie de suivi Analytics hérité, également connu sous le nom d’ID Adobe A
 
 La valeur doit être spécifiée sous la forme de deux nombres hexadécimaux séparés par un tiret. Tous les caractères hexadécimaux étant des caractères alphabétiques doivent être spécifiés en utilisant des majuscules. Les valeurs hexadécimales ne doivent pas commencer par un zéro (notez la différence entre les mêmes valeurs spécifiées dans le formulaire obsolète, qui nécessitait d’ajouter des zéros).
 
-It is also acceptable to use `“namespaceId”: 10` instead of or in addition to `“namespace”: “AAID”` and you may see some other Adobe products use that form.
+Il est également possible d'utiliser `“namespaceId”: 10` plutôt que ou en plus `“namespace”: “AAID”` et certains autres produits Adobe utilisent ce formulaire.
 
 ## Cookie de suivi Analytics hérité : formulaire obsolète
 
@@ -66,7 +66,7 @@ La valeur doit être spécifiée sous la forme de deux nombres hexadécimaux à 
 
 La valeur doit être spécifiée sous forme d’un nombre décimal à 38 chiffres. Si vous extrayez ce nombre à partir des deux colonnes mcvisid\_ high/low ou post\_ msvisid\_ high/low à partir d'un flux de données ou d'un rapport Entrepôt de données, vous devez renvoyer un zéro à chacun des deux nombres à 19 chiffres, puis les concaténer avec la valeur élevée d'abord.
 
-It is also acceptable to use: `“namespaceId”: 4` instead of or in addition to `“namespace”: “ECID”` and you may see some other Adobe products use that form.
+Il est également acceptable d'utiliser : `“namespaceId”: 4` au lieu ou en outre `“namespace”: “ECID”` , certains autres produits Adobe utilisent ce formulaire.
 
 >[!NOTE]
 >
@@ -106,15 +106,12 @@ L’espace de noms est également prédéfini pour l’identifiant visiteur pers
 }
 ```
 
-Pour les ID dans les variables de trafic ou de conversion personnalisées (props ou eVars), vous devez étiqueter la variable avec une étiquette ID-DEVICE ou ID-PERSON, puis attribuer votre propre nom d’espace de noms à ce type d’ID. Voir [Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7).
+Pour les ID dans les variables de trafic ou de conversion personnalisées (props ou evars), étiquetez la variable avec un libellé ID-DEVICE ou ID-PERSONNE, puis attribuez votre propre nom de namespace de noms à ce type d'ID. Voir [Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON](gdpr-labels.md).
 
 Vous pouvez également voir les espaces de noms que vous avez précédemment définis pour d’autres variables ou suites de rapports et réutiliser l’un d’entre eux afin que le même espace de noms puisse facilement être utilisé pour toutes vos suites de rapports stockant ce type d’ID. Il est également possible d’attribuer le même espace de noms à plusieurs variables dans une suite de rapports. Par exemple, certains clients stockent un ID de gestion de la relation client dans une variable de trafic et une variable de conversion (selon la page, c’est parfois dans l’un ou l’autre ou les deux) et peuvent attribuer l’espace de noms « ID de gestion de la relation client » aux deux variables.
 
->[!NOTE]
->
->Vous ne pouvez pas utiliser le nom convivial d'une variable (le nom affiché dans l'interface utilisateur de création de rapports) ou le numéro de variable (comme evar 12) lorsque vous spécifiez l'namespace de noms à l'API GDPR, sauf s'il s'agit également de l'namespace de noms que vous avez spécifié lors de l'application du libellé ID-DEVICE ou ID-PERSONNE à cette variable. L’utilisation de l’espace de noms au lieu du nom convivial permet au bloc d’identité du même utilisateur de spécifier la variable correcte pour plusieurs suites de rapports dans les cas suivants :
+> [!TIP] Evitez d'utiliser le nom convivial d'une variable (le nom affiché dans l'interface utilisateur de création de rapports) ou le numéro de variable (comme evar 12) lorsque vous spécifiez l'namespace de noms à l'API GDPR, sauf s'il s'agit de l'namespace de noms spécifié lors de l'application de l'ID ID-DEVICE ou ID-PERSONNE. L'utilisation d'un espace de noms plutôt qu'un nom convivial permet au même bloc d'identité utilisateur de spécifier la variable correcte pour plusieurs suites de rapports. Par exemple, si l'ID figure dans des evars différentes dans certaines suites de rapports ou si les noms conviviaux ne correspondent pas (par exemple, lorsque le nom convivial a été localisé pour une suite de rapports spécifique).
 
-* l’ID se trouve dans différentes eVars dans certaines des suites de rapports, ou
-* les noms conviviaux ne correspondent pas (notamment si le nom convivial a été localisé pour une suite de rapports spécifique).
+> [!CAUTION] Les namespaces de noms « visitorid » et « customvisitorid » sont réservés à l'identification du cookie de suivi hérité Analytics et de l'identifiant visiteur du client Analytics. N'utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
 Pour plus d’informations, voir [Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7).
