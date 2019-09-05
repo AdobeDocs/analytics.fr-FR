@@ -4,7 +4,7 @@ description: Le module externe Trafic interne identifie dynamiquement les visite
 seo-description: Internal Traffic Plugin
 seo-title: Internal Traffic Plugin
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
 
@@ -30,23 +30,24 @@ Le module externe tente de charger un fichier qui ne serait disponible que dans 
 1. Ajoutez votre pixel Intranet : Vous pouvez ajouter n'importe quel type de fichier sur votre intranet que le module externe tente d'accéder. Il est recommandé d'utiliser un pixel transparent 1 x 1. Elle doit être placée à un emplacement de votre Intranet accessible à partir de vos réseaux internes.
 1. Configuration d'une evar : Une evar doit être ajoutée au sein de votre suite de rapports de destination. Il doit avoir une expiration de « Visite » et une attribution de « Valeur d'origine (première) ».
 1. Définissez l'URL interne : Dans les variables de configuration appmeasurement et avant l'instanciation de doplugins, définissez la variable URL interne (s. inturl) pour le pixel ou l'autre fichier peut être utilisée pour la vérification du trafic. Par exemple : `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to “internal” or “external”.
+1. Modifiez doplugins et définissez l'evar : Le module externe peut alors être initialisé en incluant cette ligne de code dans la section doplugins du code de la bibliothèque appmeasurement, en utilisant l'evar définie à l'étape 1 : `s.eVarXX = s.intCheck();`
+La valeur de la variable est définie sur « interne » ou « externe ».
 1. Ajoutez le code source du module externe : Incluez le code du module externe sous la section doplugins de votre fichier appmeasurement.
 
 ## Code source du module externe
 
 Ajoutez ce code sous la section doplugins de votre bibliothèque appmeasurement.
 
-```s.intCheck=new Function("",""
+```JavaScript
+s.intCheck=new Function("",""
 +"var s=this;if(document.cookie.indexOf('intChk=')==-1){try{document."
 +"cookie='intChk=1';var x=new XMLHttpRequest(),y;x.open('GET',s.intUr"
 +"l,false);x.send();if(x.status===200&&x.statusText==='OK'){y='intern"
-+"al';}}catch(e){y='external'}finally{return y}}");```
++"al';}}catch(e){y='external'}finally{return y}}");
+```
 
-## Other Notes
+## Autres remarques
 
-* Always test plug-in installations to ensure that data collection happens as expected before deploying them in a production environment.
-* Your implementation might be using a different object name than the default Adobe Analytics "s" object. If so, please update the object name accordingly.
-* If you employ a Tag Management System, please follow its steps to update doPlugins and the other custom plugins.
-
+* Testez toujours les installations de plug-in pour vous assurer que la collecte de données se produit comme prévu avant de les déployer dans un environnement de production.
+* Votre implémentation peut utiliser un autre nom d'objet que l'objet Adobe Analytics par défaut. Si tel est le cas, veuillez mettre à jour le nom de l’objet en conséquence.
+* Si vous utilisez un système de gestion des balises, procédez comme suit pour mettre à jour doplugins et les autres modules externes personnalisés.
