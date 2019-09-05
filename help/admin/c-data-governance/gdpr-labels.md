@@ -5,7 +5,7 @@ seo-title: Étiquettes RGPD pour les variables Analytics
 title: Étiquettes RGPD pour les variables Analytics
 uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
 
 ---
 
@@ -244,6 +244,8 @@ Le même espace de noms peut être utilisé pour différentes variables d’une 
 
 Autre exemple, vous pouvez avoir un ID de gestion de la relation client qui est parfois envoyé via eVar1, parfois via prop7. Vous avez ensuite une règle de traitement qui copie la valeur d’eVar1, le cas échéant, dans eVar3. Sinon, la valeur est copiée de prop7 dans eVar3. Dans ce scénario, eVar3 contiendra toujours l’ID de gestion de la relation client s’il est connu. Dès lors, seule eVar3 nécessite une étiquette ID-PERSON.
 
+> [!WARNING] Les namespaces de noms « visitorid » et « customvisitorid » sont réservés à l'identification du cookie de suivi hérité Analytics et de l'identifiant visiteur du client Analytics. N'utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
+
 ## Les types de variables et les étiquettes RGPD/DULE pris en charge {#section_CE7C3EDE1344466A98BC45E394B40762}
 
 L’étiquetage RGPD/DULE affecte quatre grandes catégories de variables Analytics. Toutes les variables ne prennent pas en charge toutes les étiquettes. Ce tableau montre quelles variables prennent en charge ou non telles ou telles étiquettes.
@@ -376,7 +378,7 @@ Le tableau suivant décrit comment différentes variables sont « supprimées 
    <td colname="col2"> <p>La valeur existante est remplacée par une nouvelle valeur du formulaire « G-7588FCD8642718EC50 », dans laquelle les 18 caractères hexadécimaux suivant le préfixe « G- » sont les 18 caractères qui composent un nombre pseudo-aléatoire de 128 octets au chiffrement fort. Tous les commentaires qui s’appliquent à la suppression de variables de trafic et de commerce s’appliquent également ici. </p> <p>L’identifiant d’achat est un identifiant de transaction dont le principal objectif est de s’assurer qu’un achat n’est pas crédité deux fois, par exemple quand quelqu’un rafraîchit la page de confirmation d’achat. L’identifiant en lui-même peut associer l’achat à une ligne de votre propre base de données, où l’achat est enregistré. Dans la plupart des cas, il n’est pas nécessaire de supprimer cet identifiant, il n’est donc pas supprimé par défaut. Si vous êtes toujours en mesure de lier un achat à un utilisateur après la demande de suppression en vertu du RGPD de vos propres données, vous pourriez avoir à supprimer ce champ pour que les données Analytics concernant ce visiteur ne puissent pas être reliées à l’acheteur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visitor ID </p> </td> 
+   <td colname="col1"> <p>Identifiant visiteur </p> </td> 
    <td colname="col2"> <p>La valeur est un entier relatif de 128 octets et est remplacée par une valeur pseudo-aléatoire de 128 octets au chiffrement fort. </p> </td> 
   </tr> 
   <tr> 
@@ -431,7 +433,7 @@ Cette section vise à clarifier les informations concernant les variables Analyt
    <td colname="col2"> <p> Spécifie le nom de la suite de rapports Analytics contenant les données. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visitor ID </p> <p>MCID / ECID </p> </td> 
+   <td colname="col1"> <p>Identifiant visiteur </p> <p>MCID / ECID </p> </td> 
    <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez <a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
   </tr> 
   <tr> 
