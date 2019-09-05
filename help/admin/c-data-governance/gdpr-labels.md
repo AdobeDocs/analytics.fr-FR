@@ -5,7 +5,7 @@ seo-title: Étiquettes RGPD pour les variables Analytics
 title: Étiquettes RGPD pour les variables Analytics
 uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
 translation-type: tm+mt
-source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
+source-git-commit: 0df187fd7ebc359d54e4fb14a3d69e3b5eb7ce05
 
 ---
 
@@ -244,7 +244,7 @@ Le même espace de noms peut être utilisé pour différentes variables d’une 
 
 Autre exemple, vous pouvez avoir un ID de gestion de la relation client qui est parfois envoyé via eVar1, parfois via prop7. Vous avez ensuite une règle de traitement qui copie la valeur d’eVar1, le cas échéant, dans eVar3. Sinon, la valeur est copiée de prop7 dans eVar3. Dans ce scénario, eVar3 contiendra toujours l’ID de gestion de la relation client s’il est connu. Dès lors, seule eVar3 nécessite une étiquette ID-PERSON.
 
-> [!WARNING] Les namespaces de noms « visitorid » et « customvisitorid » sont réservés à l'identification du cookie de suivi hérité Analytics et de l'identifiant visiteur du client Analytics. N'utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
+> [!CAUTION] Les namespaces de noms « visitorid » et « customvisitorid » sont réservés à l'identification du cookie de suivi hérité Analytics et de l'identifiant visiteur du client Analytics. N'utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
 ## Les types de variables et les étiquettes RGPD/DULE pris en charge {#section_CE7C3EDE1344466A98BC45E394B40762}
 
