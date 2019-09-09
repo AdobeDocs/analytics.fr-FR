@@ -5,16 +5,12 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d 9091 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
 translation-type: tm+mt
-source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
+source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
 
 
 # hitGovernor
-
-Le module externe s.hitGovernor effectue le suivi du nombre total de demandes d’images Analytics envoyées au cours d’une période récurrente prédéfinie et peut réaliser une logique supplémentaire en cas de besoin si le nombre total dépasse un certain seuil.
-
-## hitGovernor {#topic_56B636A42A624B38A0A446C607ACD700}
 
 Le module externe s.hitGovernor effectue le suivi du nombre total de demandes d’images Analytics envoyées au cours d’une période récurrente prédéfinie et peut réaliser une logique supplémentaire en cas de besoin si le nombre total dépasse un certain seuil.
 
@@ -32,7 +28,7 @@ Si vous le souhaitez, à partir de ce point, la collecte du trafic de ce visiteu
 
 Aucune variable ni événement par défaut ne doit être configuré. Toutefois, nous recommandons fortement de configurer une logique de règles de traitement pour définir des variables et des événements en conséquence. Ces variables et événements personnalisés peuvent inclure :
 
-* [!DNL Experience Cloud] Visitor ID
+* [!DNL Experience Cloud] Identifiant visiteur
 * Adresse IP
 * Agent utilisateur
 * Événement d’exception avec indicateur
