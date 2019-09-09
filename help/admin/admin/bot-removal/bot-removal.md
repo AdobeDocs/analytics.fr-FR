@@ -4,7 +4,7 @@ seo-title: Suppression de robots dans Adobe Analytics
 description: 3 méthodes de suppression des robots dans Adobe Analytics
 seo-description: 3 méthodes de suppression des robots dans Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
+source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
 
 ---
 
@@ -15,7 +15,14 @@ Dans Adobe Analytics, vous disposez de plusieurs options pour supprimer le trafi
 
 ## Utiliser des règles de robots
 
-La méthode de filtrage des robots par défaut d'Adobe Analytics consiste à [créer des règles](/help/admin/admin/bot-removal/bot-rules.md) de robots basées sur la liste des robots IAB. Cette liste est mise à jour tous les mois et compile sa liste à partir de nombreuses sources, notamment les CDN et les principales propriétés Internet. Il comprend des milliers de robots connus, dont tous vos favoris : Google, Bing, Mozilla, etc. Cette liste couvre la plupart des cas d'utilisation et besoins liés à la filtration des robots.
+Les méthodes de filtrage des robots standard et personnalisés sont prises en charge dans !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]:
+
+| Type de règle | Description |
+|--- |--- |
+| Règles de robots IAB standard | La sélection de « Activer les règles de filtrage des robots IAB » utilise la [liste internationale des robots et robots de robots IAB](https://www.iab.com/) (International Advertizing Desktop) pour supprimer le trafic de robots. La plupart des clients sélectionnent cette option au minimum. |
+| Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateur, des adresses IP ou des plages d'adresses IP. |
+
+Pour plus d'informations, voir [Présentation des règles de robots](/help/admin/admin/bot-removal/bot-rules.md).
 
 ## Utilisation du module `hitGovernor` d'implémentation
 
@@ -27,11 +34,11 @@ De plus, comme les robots avancent rapidement, Adobe propose plusieurs autres fo
 
 ### Étape 1 : Transmettez l'identifiant d'expérience de vos visiteurs dans un nouvel identifiant déclaré.
 
-Pour commencer, vous souhaitez créer un identifiant déclaré dans le service principal [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html). Vous devez transmettre l'identifiant d'expérience du visiteur à ce nouvel identifiant déclaré, ce qui peut être effectué rapidement et facilement avec [le lancement d'Adobe Experience Platform. ](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) Utilisons le nom « ECID » pour l'identifiant déclaré.
+Pour commencer, vous souhaitez créer un identifiant déclaré dans [le service principal Personnes](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html). Vous devez transmettre l'identifiant d'expérience du visiteur à ce nouvel identifiant déclaré, ce qui peut être effectué rapidement et facilement avec [le lancement d'Adobe Experience Platform. ](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) Utilisons le nom « ECID » pour l'identifiant déclaré.
 
-capture d'écran ici
+![](assets/bot-cust-attr-setup.png)
 
-Voici comment cet ID peut être capturé via l'élément de données. Veillez à renseigner correctement votre ID Adobe ecorg dans l'élément de données.
+Voici comment cet ID peut être capturé via l'élément de données. Veillez à renseigner correctement votre invitation Experience Cloud orgid dans l'élément de données.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -53,15 +60,18 @@ Pensez à utiliser l'identifiant visiteur Experience Cloud comme dimension et ap
 
 ### Étape 4 : Renvoi de cette liste à Adobe en tant qu'attribut du client
 
-Une fois le rapport Entrepôt de données arrivé, vous disposez d'une liste des identifiants électroniques qui doivent être filtrés à partir des données historiques. Copiez et collez ces ecid dans un fichier. CSV vide avec uniquement deux colonnes, ECID et Flag Flag :
+Une fois le rapport Entrepôt de données arrivé, vous disposez d'une liste des identifiants électroniques qui doivent être filtrés à partir des données historiques. Copiez et collez ces ecid dans un fichier. CSV vide avec uniquement deux colonnes, ECID et indicateur de robots.
+
+* **ECID**: Assurez-vous que cet en-tête de colonne correspond au nom que vous avez attribué au nouvel identifiant déclaré ci-dessus.
+* **Indicateur de robot**: Ajoutez cette valeur en tant que dimension de schéma Attributs du client.
+
+Utilisez ce fichier. CSV comme fichier d'importation d'attributs du client, puis abonnez-vous à votre ou vos suites de rapports à l'attribut du client comme décrit dans cette publication [de blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](assets/bot-csv-4.png)
 
-Assurez-vous que le premier en-tête de colonne correspond au nom que vous avez attribué au nouvel identifiant déclaré ci-dessus. Utilisez ce fichier. CSV comme fichier d'importation d'attributs du client, puis abonnez-vous à votre ou vos suites de rapports à l'attribut du client comme décrit dans cette publication [de blog](https://theblog.adobe.com/link-digital-behavior-customers).
-
 ### Étape 5 : Création d'un segment qui exploite le nouvel attribut du client
 
-Une fois votre jeu de données traité et intégré à Analysis Workspace, créez un segment supplémentaire qui exploite votre nouvelle dimension d'attribut « Indicateur de robot » :
+Une fois votre jeu de données traité et intégré à Analysis Workspace, créez un segment supplémentaire qui exploite votre nouvelle dimension d'attribut de client « Indicateur de robot » et un !![UICONTROL Exclude] conteneur :
 
 ![](assets/bot-filter-seg2.png)
 
@@ -76,4 +86,3 @@ Cette suite de rapports virtuelle nouvellement segmentée va maintenant génére
 ### Étape 7 : Répétez les étapes 2, 3 et 4 régulièrement.
 
 Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux robots, avant d'effectuer une analyse régulière.
-
