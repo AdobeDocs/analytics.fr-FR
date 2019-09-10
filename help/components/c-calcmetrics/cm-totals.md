@@ -15,9 +15,9 @@ L'affichage des totaux des mesures calculées varie entre [!DNL Reports & Analyt
 
 ## Totaux des mesures calculées dans [!DNL Reports & Analytics]
 
-Lorsque vous affichez les rapports dans [!DNL Reports & Analytics]les mesures calculées, les mesures calculées s'affichent `n/a` toujours sous le total. Comme toutes les mesures calculées sont définies par l'utilisateur, il existe de nombreuses circonstances dans lesquelles ce total n'a aucun sens. Examinez l’exemple suivant :
+Lorsque vous affichez les rapports dans [!DNL Reports & Analytics] les mesures calculées, les mesures calculées s'affichent `n/a` toujours sous le total. Comme toutes les mesures calculées sont définies par l'utilisateur, il existe de nombreuses circonstances dans lesquelles ce total n'a aucun sens. Examinez l’exemple suivant :
 
-Votre entreprise a créé la mesure `orders` calculée/ `visits` pour déterminer le pourcentage de visites ayant acheté un article sur votre site. Si vous avez apporté cette mesure dans un rapport de produits, plusieurs produits sont attribués à une seule commande. De plus, plusieurs produits sont attribués à une seule visite. Si le total des mesures calculées était inclus dans ce rapport, les questions suivantes se produisaient :
+Votre entreprise a créé la mesure calculée `orders` / `visits` pour déterminer le pourcentage de visites ayant acheté un article sur votre site. Si vous avez apporté cette mesure dans un rapport de produits, plusieurs produits sont attribués à une seule commande. De plus, plusieurs produits sont attribués à une seule visite. Si le total des mesures calculées était inclus dans ce rapport, les questions suivantes se produisaient :
 
 | Question | Réponse |
 |---|---|
