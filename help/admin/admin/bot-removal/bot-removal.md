@@ -4,7 +4,7 @@ seo-title: Suppression de robots dans Adobe Analytics
 description: 3 méthodes de suppression des robots dans Adobe Analytics
 seo-description: 3 méthodes de suppression des robots dans Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
+source-git-commit: 711d58d139abcff344e43e1484f0ba2f2d3407cf
 
 ---
 
@@ -15,7 +15,7 @@ Dans Adobe Analytics, vous disposez de plusieurs options pour supprimer le trafi
 
 ## Utiliser des règles de robots
 
-Les méthodes de filtrage des robots standard et personnalisés sont prises en charge dans !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]:
+Les méthodes de filtrage des robots standard et personnalisées sont prises en charge dans **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Général]** &gt; **[!UICONTROL Règles de bots]**:
 
 | Type de règle | Description |
 |--- |--- |
