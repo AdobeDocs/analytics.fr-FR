@@ -2,20 +2,22 @@
 title: Analyses multiterminaux
 description: Analytics de plusieurs périphériques convertit vos données de manière à cibler les personnes en assemblant les données de périphériques.
 translation-type: tm+mt
-source-git-commit: 47cde7b12b78e9394aac531d068634688c635ec1
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Analyses multiterminaux
 
-Analytics inter-périphériques est une fonctionnalité qui transforme Analytics d'une vue orientée périphérique vers une vue axée sur la personne. Cette fonctionnalité utilise Adobe Experience Platform Identity Service Co-op Graph ou Private Graph pour identifier les périphériques qui appartiennent à des individus et les assembler. Par conséquent, les analystes peuvent comprendre le comportement des utilisateurs qui franchissent les navigateurs, les appareils ou les applications. Grâce à CDA, vous pouvez répondre à des questions telles que :
+> [!NOTE] La documentation sur les analyses inter-périphériques peut faire l'objet de modifications lorsque la fonctionnalité est développée. Vérifiez régulièrement les mises à jour.
 
-* Combien de personnes interagissent avec ma marque ? Combien de dispositifs utilisent-ils ? Comment se chevaucher ?
-* À quelle fréquence les utilisateurs commencent-ils une tâche sur un périphérique mobile, puis passent-ils ensuite à un PC de bureau pour terminer la tâche ? Les clics publicitaires de campagne qui atterrissent sur un périphérique conduisent-ils à une conversion autre qu'un autre ?
-* Comment ma compréhension de l'efficacité de la campagne change-t-elle si je prends en compte les voyages entre plusieurs périphériques ? Comment ma analyse de l'entonnoir change-t-elle ?
-* Quels sont les chemins les plus courants empruntés par les utilisateurs d'un périphérique à l'autre ? Où abandonner ? Où réussissent-ils ?
-* En quoi le comportement des utilisateurs ayant plusieurs périphériques diffère-t-il des utilisateurs disposant d'un seul périphérique ?
+Analytics inter-périphériques est une fonctionnalité qui transforme Analytics d'une vue orientée périphérique vers une vue axée sur la personne. Cette fonctionnalité utilise Adobe Experience Platform Identity Service Co-op Graph ou Private Graph pour identifier les périphériques qui appartiennent à des individus et les assembler. Par conséquent, les analystes peuvent comprendre le comportement des utilisateurs qui franchissent les navigateurs, les appareils ou les applications. Grâce à CDA, vous pouvez répondre à des questions telles que :
+
+* Combien de personnes interagissent avec ma marque ? Combien de types de périphériques utilisent-elles ? Comment se superposent-elles ?
+* À quelle fréquence les utilisateurs commencent-ils une tâche sur un périphérique mobile, puis passent-ils ensuite à un PC de bureau pour terminer la tâche ? Les clics publicitaires de campagne amenant à un périphérique conduisent-ils à une conversion ailleurs ?
+* Comment ma compréhension de l’efficacité de la campagne change-t-elle si je prends en compte les trajets entre plusieurs périphériques ? Comment mon analyse d’entonnoir change-t-elle ?
+* Quels sont les chemins les plus courants empruntés par les utilisateurs d’un périphérique à l’autre ? Où abandonnent-ils ? Où réussissent-ils ?
+* En quoi le comportement des utilisateurs ayant plusieurs périphériques diffère-t-il de celui des utilisateurs disposant d’un seul périphérique ?
 
 Lorsque les périphériques sont assemblés, la persistance de variable est reportée sur les périphériques. Par exemple, un utilisateur visite votre site pour la première fois via une publicité sur son ordinateur de bureau. Cet utilisateur trouve votre application mobile, l'installe et effectue finalement un achat sur son périphérique mobile. Avec Analytics sur plusieurs périphériques, les recettes peuvent être attribuées à la publicité sur laquelle les utilisateurs cliquent sur leur ordinateur de bureau.
 
