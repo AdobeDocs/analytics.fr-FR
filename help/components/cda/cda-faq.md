@@ -2,12 +2,14 @@
 title: FAQ sur les analyses inter-périphériques
 description: Questions fréquentes sur les analyses inter-périphériques
 translation-type: tm+mt
-source-git-commit: c104fbda3dc4a6be6b596c60c6e1973407d94f80
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Questions fréquentes
+
+> [!NOTE] La documentation sur les analyses inter-périphériques peut faire l'objet de modifications lorsque la fonctionnalité est développée. Vérifiez régulièrement les mises à jour.
 
 **Comment utiliser CDA pour voir comment les visiteurs passent d'un type de périphérique à un autre ?**
 
