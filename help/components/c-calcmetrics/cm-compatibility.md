@@ -5,7 +5,7 @@ seo-title: Compatibilité des mesures
 title: Compatibilité des mesures
 uuid: f 2706 e 2 b-c 0 cc -4 af 2-bcb 4-1318796 e 9845
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 6661e99d6b1289242e6c7ce3833b56e2f9990acc
 
 ---
 
@@ -26,7 +26,7 @@ Lorsque vous créez une mesure calculée ou calculée avancée dans le créateur
  <tbody> 
   <tr> 
    <td colname="col1"> Données actives </td> 
-   <td colname="col2"> <p>L'option Inclure les données actives dans [! DNL Analytics] vous permet d'afficher la dernière [! Données DNL Analytics], souvent avant que les données ne soient entièrement traitées et finalisées.  Les <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">données actives</a> présentent la plupart des mesures en quelques minutes, ce qui vous permet de disposer d’informations exploitables pour une prise de décisions rapide. </p> <p>Les données actives prennent en charge les mesures calculées uniquement (celles incluant la multiplication, la division, l’addition et la soustraction). Les données actives ne prennent pas en charge les mesures calculées avancées (comportant des segments ou des fonctions). </p> </td> 
+   <td colname="col2"> <p>Grâce à l’option Inclure les données actives d’Analytics, vous pouvez afficher les données d’Analytics les plus récentes, souvent avant même qu’elles ne soient entièrement traitées et finalisées.  Les <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">données actives</a> présentent la plupart des mesures en quelques minutes, ce qui vous permet de disposer d’informations exploitables pour une prise de décisions rapide. </p> <p>Les données actives prennent en charge les mesures calculées uniquement (celles incluant la multiplication, la division, l’addition et la soustraction). Les données actives ne prennent pas en charge les mesures calculées avancées (comportant des segments ou des fonctions). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Données entièrement traitées </td> 
