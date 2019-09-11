@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Guide d’administration Analytics
 user-guide-url: /content/help/fr-FR/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
+translation-type: tm+mt
+source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
 
 ---
 
@@ -22,8 +22,6 @@ source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
    + Suppression de robots {#bot-removal}
       + [Suppression de robots](admin/bot-removal/bot-removal.md)
       + [Règles de robots - Aperçu](admin/bot-removal/bot-rules.md)
-      + [Télécharger des règles de robots](admin/bot-removal/t-upload-bot-rules.md)
-      + [Créer une règle de robot personnalisée](admin/bot-removal/t-create-bot-rules.md)
    + [Gestionnaire de code](admin/code-manager-admin.md)
    + Variables de conversion {#conversion-variables}
       + [Variables de conversion (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
