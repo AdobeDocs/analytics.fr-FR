@@ -2,16 +2,18 @@
 title: Définition - Analytics sur plusieurs périphériques
 description: Découvrez comment configurer Analytics sur plusieurs périphériques après avoir satisfait aux conditions préalables.
 translation-type: tm+mt
-source-git-commit: 1ab4c27d6635167be475b6669ff6ed1913adc455
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Définition - Analytics sur plusieurs périphériques
 
-> [!IMPORTANT] Toutes les conditions préalables doivent être remplies avant de suivre ces étapes. Si toutes les conditions préalables ne sont pas remplies, la fonction n'est pas disponible ou ne fonctionne pas. Pour [plus d'informations sur les conditions préalables et les limites, reportez-vous à la](cda-home.md) section Analyses inter-périphériques.
+> [!NOTE] La documentation sur les analyses inter-périphériques peut faire l'objet de modifications lorsque la fonctionnalité est développée. Vérifiez régulièrement les mises à jour.
 
 Une fois toutes les conditions préalables satisfaites, suivez les étapes ci-après pour activer les analyses inter-périphériques. Vous devez appartenir à un groupe d'administrateurs de profil de produit ou disposer des droits d'administrateur dans Adobe Analytics pour suivre ces étapes.
+
+> [!IMPORTANT] Toutes les conditions préalables doivent être remplies avant de suivre ces étapes. Si toutes les conditions préalables ne sont pas remplies, la fonction n'est pas disponible ou ne fonctionne pas. Pour [plus d'informations sur les conditions préalables et les limites, reportez-vous à la](cda-home.md) section Analyses inter-périphériques.
 
 ## Choisir la suite de rapports sur plusieurs périphériques qui sera activée pour CDA
 
