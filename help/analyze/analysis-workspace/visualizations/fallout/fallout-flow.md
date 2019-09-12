@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Présentation des abandons
-title: Présentation des abandons
+seo-title: Abandon - Aperçu
+title: Abandon - Aperçu
 uuid: 2 d 98899 e-e 401-4 d 7 a -8 af 0-de 0002 f 84178
 translation-type: tm+mt
-source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
+source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 
 ---
 
 
-# Présentation des abandons
+# Abandon - Aperçu
 
 Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution).
 
@@ -44,7 +44,7 @@ Prenons l’exemple d’un abandon avec deux étapes :
 
 Si vous appliquez un segment au niveau du panneau Espace de travail, il est combiné avec l’abandon comme suit :
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 En revanche, quand le segment est calculé par les Reports &amp; Analytics et Ad Hoc Analysis, il est combiné comme suit :
 
