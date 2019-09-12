@@ -3,7 +3,7 @@ product: analytics
 audience: utilisateur final
 user-guide-title: Guide des composants d’Analytics
 user-guide-url: /content/help/fr-FR/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
 
 ---
@@ -77,10 +77,10 @@ source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
       + [Création des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestion des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-manage.md)
       + [Affichage des informations relatives à une suite de rapports virtuelle](vrs/c-workflow-vrs/vrs-view.md)
-+ Cross-Device Analytics {#cda}
-   + [Présentation des analyses multiterminaux](cda/cda-home.md)
-   + [Définition - Analytics sur plusieurs périphériques](cda/cda-setup.md)
-   + [FAQ sur les analyses inter-périphériques](cda/cda-faq.md)
++ Analyses entre appareils {#cda}
+   + [Présentation des analyses entre appareils](cda/cda-home.md)
+   + [Configuration des analyses entre appareils](cda/cda-setup.md)
+   + [FAQ sur les analyses entre appareils](cda/cda-faq.md)
 + Alertes {#alerts}
    + [Alertes intelligentes](c-alerts/intellligent-alerts.md)
    + [Générateur d’alertes](c-alerts/alert-builder.md)
