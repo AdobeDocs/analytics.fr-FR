@@ -1,18 +1,18 @@
 ---
 description: Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes, en affichant le filtre « Inclure tout le monde ». Les segments séquentiels peuvent être filtrés davantage pour obtenir un sous-ensemble d’accès correspondants en utilisant les options « Seulement avant la séquence » et « Seulement après la séquence ».
 seo-description: Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes, en affichant le filtre « Inclure tout le monde ». Les segments séquentiels peuvent être filtrés davantage pour obtenir un sous-ensemble d’accès correspondants en utilisant les options « Seulement avant la séquence » et « Seulement après la séquence ».
-seo-title: Création de segments séquentiels
+seo-title: Création des segments séquentiels
 solution: Analytics
-title: Création de segments séquentiels
+title: Création des segments séquentiels
 topic: Segments
 uuid: 7 fb 9 f 1 c 7-a 738-416 a-aaa 2-d 77 e 40 fa 7 e 61 e
 translation-type: tm+mt
-source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
+source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 ---
 
 
-# Création de segments séquentiels
+# Création des segments séquentiels
 
 Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes, en affichant le filtre « Inclure tout le monde ». Les segments séquentiels peuvent être filtrés davantage pour obtenir un sous-ensemble d’accès correspondants en utilisant les options « Seulement avant la séquence » et « Seulement après la séquence ».
 
@@ -28,7 +28,7 @@ Lors de la création d’un segment pour lequel « Inclure tout le monde » es
 
 | Si le résultat… | Séquence |
 |--- |--- |
-| Correspond à | A then B<br>A then (in a different visit) B<br>A then D then B |
+| Correspond à | A puis BA<br>puis (lors d'une autre visite) BA<br>puis D puis B |
 | Ne correspond pas à | B puis A |
 
 ## Seulement avant la séquence et Seulement après la séquence {#section_736E255C8CFF43C2A2CAAA6D312ED574}
@@ -73,7 +73,7 @@ Définir une clause « Dans la dimension » entre des règles permet à un seg
 | Si le résultat… | Séquence |
 |--- |--- |
 | Correspond à | A puis B |
-| Ne correspond pas à | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
+| Ne correspond pas à | A puis C puis B (car B n'était pas dans 1 page de A)<br>**Remarque :** Si la restriction de dimension est levée, « A puis B » et « A puis C puis B » correspondent tous deux. |
 
 ## Séquence Simple Page vue
 
@@ -185,7 +185,7 @@ Par exemple :
 
 L’opérateur [!UICONTROL Exclure] peut être utilisé pour identifier une séquence dans laquelle des visites ou des accès spécifiques ne sont pas effectués par le visiteur. Les [!UICONTROL points de contrôle d’exclusion] peuvent également être inclus dans un conteneur [Groupe logique](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-## Exclure entre les points de contrôle
+### Exclure entre les points de contrôle
 
 Impose la logique de segmentation des visiteurs lorsqu’un point de contrôle ne s’est pas produit explicitement entre deux autres.
 
@@ -204,7 +204,7 @@ Créez un segment comme vous le feriez pour un segment  segment séquentiel simp
 
 ![](assets/exclude_between_checkpoints.png)
 
-## Exclure au début de la séquence
+### Exclure au début de la séquence
 
 Si le point de contrôle d’exclusion se situe au début d’un segment séquentiel, cette option s’assure qu’une page exclue n’a pas été vue avant le premier accès non exclu.
 
@@ -223,7 +223,7 @@ Créez deux conteneurs d’accès distincts au sein d’un conteneur de visiteur
 
 ![](assets/exclude_beginning_sequence.png)
 
-## Exclure à la fin de la séquence
+### Exclure à la fin de la séquence
 
 Si le point de contrôle d’exclusion se situe à la fin d’une séquence, cette option s’assure que le point de contrôle ne s’est pas produit entre le dernier point non exclu et la fin de la séquence du visiteur.
 
@@ -244,7 +244,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Conteneurs Groupe logique
 
-Dans le cadre d’une segmentation séquentielle, les conteneurs doivent être classés selon un ordre strict au sein de la [hiérarchie](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). Le conteneur [!UICONTROL Groupe logique] est conçu pour être utilisé lorsque des conteneurs de niveau supérieur sont nécessaires dans des segments séquentiels, dans le but d’optimiser le filtrage des visiteurs et de fournir des contraintes complexes, imbriquées et au niveau du visiteur afin d’affiner la segmentation.
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). Le conteneur [!UICONTROL Groupe] logique a été conçu pour traiter *plusieurs points de contrôle comme un groupe**, sans ordre* parmi les points de contrôle groupés. En d'autres termes, nous nous préoccupons de l'ordre des points de contrôle de ce groupe. Par exemple, vous ne pouvez pas imbriquer un conteneur [!UICONTROL Visiteur] dans un conteneur du même type. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 | Hiérarchie des conteneurs standard |
 |---|
@@ -253,16 +253,14 @@ Dans le cadre d’une segmentation séquentielle, les conteneurs doivent être c
 
 >[!NOTE]
 >
->A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
-
-Un conteneur [!UICONTROL Groupe logique] considère plusieurs points de contrôle comme un groupe sans classement. Par exemple, vous ne pouvez pas imbriquer un conteneur [!UICONTROL Visiteur] dans un conteneur du même type. En revanche, vous pouvez imbriquer un conteneur [!UICONTROL Groupe logique] dans un conteneur [!UICONTROL Visiteur] avec des points de contrôle de niveaux [!UICONTROL Visite] et [!UICONTROL Accès] spécifiques.
+>Un [!UICONTROL groupe logique] peut uniquement être défini dans un segment séquentiel, ce qui signifie que l'opérateur [!UICONTROL ALORS] est utilisé dans l'expression.
 
 | Hiérarchie de conteneurs logiques non standard |
 |---|
 | ![](assets/logic_group_hierarchy.png) |
 | La hiérarchie de conteneurs standard est également requise en dehors du conteneur [!UICONTROL Groupe logique]. Cependant, à l’intérieur du conteneur [!UICONTROL Groupe logique], les points de contrôle ne doivent pas respecter un ordre ou une hiérarchie spécifique ; ils doivent simplement être atteints par le visiteur dans n’importe quel ordre. |
 
-## Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
+### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
 À l’instar des autres conteneurs, il est possible de créer le [!UICONTROL Groupe logique] selon différentes  méthodes dans l’outil [!UICONTROL Créateur de segments]. Voici la méthode recommandée pour imbriquer des conteneurs [!UICONTROL Groupe logique] :
 
@@ -273,7 +271,7 @@ Un conteneur [!UICONTROL Groupe logique] considère plusieurs points de contrôl
 1. Cliquez sur l’icône du conteneur et sélectionnez **[!UICONTROL Groupe logique]**.  ![](assets/logic_group_checkpoints.png)
 1. Vous pouvez à présent définir le conteneur [!UICONTROL Accès] dans [!UICONTROL Groupe logique] sans tenir compte de la hiérarchie.
 
-## Points de contrôle du groupe logique dans n'importe quel ordre
+### Points de contrôle du groupe logique dans n'importe quel ordre
 
 L’utilisation du [!UICONTROL Groupe logique] vous permet de respecter, au sein de ce groupe, des conditions qui résident en dehors de la séquence. Cela vous permet de créer des segments dans lesquels on trouve un conteneur [!UICONTROL Visite] ou [!UICONTROL Accès], quelle que soit la hiérarchie normale.****
 
@@ -285,7 +283,7 @@ Les pages B et C sont imbriquées dans un conteneur [!UICONTROL Groupe logique]
 
 ![](assets/logic_group_any_order2.png)
 
-## Première correspondance Groupe logique
+### Première correspondance Groupe logique
 
 L’utilisation du [!UICONTROL Groupe logique] vous permet de respecter, au sein de ce groupe, des conditions qui résident en dehors de la séquence. Dans ce segment de première correspondance non ordonné, les règles du [!UICONTROL Groupe logique] sont d’abord identifiées comme étant une page vue de la page B ou C, puis comme la vue requise de la page A.
 
@@ -297,7 +295,7 @@ Les dimensions des pages B et C sont regroupées dans un conteneur [!UICONTROL 
 
 ![](assets/logic_group_1st_match.png)
 
-## Groupe logique excluant ET
+### Groupe logique excluant ET
 
 Créez des segments à l’aide du [!UICONTROL Groupe logique], dans lesquels plusieurs pages vues sont agrégées afin de définir les pages auxquelles l’accès était nécessaire, alors que d’autres pages ont été spécifiquement ignorées. ****
 
@@ -311,7 +309,7 @@ Après avoir imbriqué les valeurs dans le [!UICONTROL Groupe logique], cliquez 
 
 ![](assets/logic_exclude_and.png)
 
-## Groupe logique excluant OU
+### Groupe logique excluant OU
 
 Créez des segments à l’aide du [!UICONTROL Groupe logique], dans lesquels plusieurs pages vues sont agrégées afin de définir les pages auxquelles l’accès était nécessaire, alors que d’autres pages ont été spécifiquement ignorées.
 
@@ -335,7 +333,7 @@ Utilisez les opérateurs [!UICONTROL Dans] et [!UICONTROL Après] intégrés dan
 
 Vous pouvez limiter la correspondance à une durée spécifique en utilisant les conteneurs [!UICONTROL Dans] et [!UICONTROL Après], et en indiquant une granularité et un nombre. L’opérateur [!UICONTROL Dans] est utilisé pour spécifier une limite de temps maximale entre deux points de contrôle. L’opérateur [!UICONTROL Après] est, pour sa part, utilisé pour spécifier une limite de temps minimale entre deux points de contrôle.
 
-## Opérateurs Après et Dans {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### Opérateurs Après et Dans {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 La durée est spécifiée par une seule lettre majuscule représentant la granularité, suivie d’un nombre indiquant le nombre de répétitions de la granularité.
 
@@ -349,7 +347,7 @@ La durée est spécifiée par une seule lettre majuscule représentant la granul
 | DANS | L’opérateur Dans est utilisé pour spécifier une limite de temps maximale entre deux points de contrôle. Par exemple, si l'opérateur Dans est défini sur un conteneur pour identifier les visiteurs qui visitent la page A puis reviennent sur la page B dans un jour, ce jour commence lorsque le visiteur quitte la page A. Pour être inclus dans le segment, le visiteur a une durée maximale d'un jour avant d'ouvrir la page B. Pour que le visiteur soit inclus dans le segment, la visite de la page B doit se produire dans un délai allant jusqu'à 1 440 minutes (un jour) après avoir quitté la page A pour afficher la page B. |
 | APRÈS/DANS | Lorsque vous utilisez les opérateurs Après et Dans, il importe de comprendre que tous les deux commencent et se terminent en parallèle, et non de manière séquentielle.   For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. Les deux conditions sont appliquées à compter du premier accès à la page. |
 
-## Utilisation de l'opérateur Après
+### Utilisation de l'opérateur Après
 
 * « Temps après » vous permet d’effectuer un suivi par année, mois, jour, heure et minute pour établir des correspondances avec des visites.
 * Cet opérateur ne peut être appliqué qu’à un conteneur [!UICONTROL Accès], car il s’agit du seul niveau pour lequel une granularité aussi fine est définie.
@@ -371,7 +369,7 @@ Lorsque « Après 2 semaines » est spécifié, si un accès à la page A a 
 | Accès **A** : 1er juin 2019 00:01 | Accès **B** : 15 juin 2019 00:01 | **Correspond à :** Cette contrainte temporelle correspond car elle intervient après le 1 er juin 2019 (deux semaines). |
 | Accès **A** : 1er juin 2019 00:01 | **Accès B** : Accès au 8 juin 2019 00:01 B : 15 juin 2019 00:01 | **Ne correspond pas à :** Le premier accès à la page B n'est pas considéré comme une correspondance, car il entre en conflit avec la contrainte qui l'exige après deux semaines. |
 
-## Utilisation de l'opérateur Dans
+### Utilisation de l'opérateur Dans
 
 * [!UICONTROL Dans] vous permet d’effectuer un suivi par année, mois, jour, heure et minute pour établir des correspondances avec des visites.
 * [!UICONTROL Dans] ne peut être appliqué qu’à un conteneur [!UICONTROL Accès], car il s’agit du seul niveau pour lequel une granularité aussi fine est définie.
@@ -392,7 +390,7 @@ Lorsque « Après 2 semaines » est spécifié, si un accès à la page A a 
 
 Les correspondances doivent se produire dans la limite temporelle définie. Pour l'expression, si un visiteur accède à la page A à 00:01, un accès ultérieur à la page B sera considéré comme une correspondance, à condition qu'il se produise à 00:06 (soit cinq minutes plus tard, y compris la même minute). Les accès effectués dans la même minute sont également considérés comme des correspondances.
 
-## Opérateurs Dans et Après
+### Opérateurs Dans et Après
 
 Utilisez les opérateurs [!UICONTROL Dans] et [!UICONTROL Après] pour fournir un point de terminaison maximum et minimum aux deux extrémités d’un segment.
 
