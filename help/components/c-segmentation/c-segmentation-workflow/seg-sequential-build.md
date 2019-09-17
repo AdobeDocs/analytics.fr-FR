@@ -7,7 +7,7 @@ title: Création des segments séquentiels
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: fe1ded2ff3226ca5f5243225d351b51315b92dae
+source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
 
 ---
 
@@ -244,25 +244,22 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Conteneurs Groupe logique
 
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). En revanche, le conteneur Groupe  logique a été conçu pour traiter *plusieurs points de contrôle comme un groupe*, *sans aucun ordre* parmi les points de contrôle regroupés. En d'autres termes, nous ne nous soucions pas de l'ordre des points de contrôle dans ce groupe. Par exemple, vous ne pouvez pas imbriquer un conteneur [!UICONTROL Visiteur] dans un conteneur du même type. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+Les conteneurs Groupe logique sont nécessaires pour regrouper les conditions dans un point de contrôle de segment séquentiel unique. Les conteneurs non séquentiels (accès, visite, visiteur) ne nécessitent pas que leurs conditions soient remplies dans la séquence globale, produisant des résultats non intuitifs s’ils sont utilisés à côté d’un opérateur ALORS. Le conteneur Groupe logique spécial n’est disponible que dans le cadre de la segmentation séquentielle, afin de garantir que ses conditions sont remplies après tout point de contrôle séquentiel précédent et avant tout point de contrôle séquentiel suivant. Les conditions du point de contrôle du Groupe logique lui-même peuvent être remplies dans n’importe quel ordre.
 
-| Hiérarchie des conteneurs standard |
-|---|
-| ![](assets/nesting_container.png) |
-| Les conteneurs [!UICONTROL Visite] et [!UICONTROL Accès] sont imbriqués de manière séquentielle dans le conteneur [!UICONTROL Visiteur] afin d’extraire les segments en fonction des accès, du nombre de visites et du visiteur. |
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). En revanche, le conteneur Groupe  logique a été conçu pour traiter *plusieurs points de contrôle comme un groupe*, *sans aucun ordre* parmi les points de contrôle regroupés. En d'autres termes, nous ne nous soucions pas de l'ordre des points de contrôle dans ce groupe. Par exemple, vous ne pouvez pas imbriquer un conteneur [!UICONTROL Visiteur] dans un conteneur du même type. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
 >Un groupe  logique ne peut être défini que dans un segment séquentiel, ce qui signifie que l’opérateur [!UICONTROL ALORS] est utilisé dans l’expression.
 
-| Hiérarchie de conteneurs logiques non standard |
-|---|
-| ![](assets/logic_group_hierarchy.png) |
-| La hiérarchie de conteneurs standard est également requise en dehors du conteneur [!UICONTROL Groupe logique]. Cependant, à l’intérieur du conteneur [!UICONTROL Groupe logique], les points de contrôle ne doivent pas respecter un ordre ou une hiérarchie spécifique ; ils doivent simplement être atteints par le visiteur dans n’importe quel ordre. |
+| Hiérarchie des conteneurs | Illustration | Définition |
+|---|---|---|
+| Hiérarchie des conteneurs standard | ![](assets/nesting_container.png) | Les conteneurs [!UICONTROL Visite] et [!UICONTROL Accès] sont imbriqués de manière séquentielle dans le conteneur [!UICONTROL Visiteur] afin d’extraire les segments en fonction des accès, du nombre de visites et du visiteur. |
+| Hiérarchie du conteneur logique | ![](assets/logic_group_hierarchy.png) | La hiérarchie de conteneurs standard est également requise en dehors du conteneur [!UICONTROL Groupe logique]. Cependant, à l’intérieur du conteneur [!UICONTROL Groupe logique], les points de contrôle ne doivent pas respecter un ordre ou une hiérarchie spécifique ; ils doivent simplement être atteints par le visiteur dans n’importe quel ordre. |
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-À l’instar des autres conteneurs, il est possible de créer le [!UICONTROL Groupe logique] selon différentes  méthodes dans l’outil [!UICONTROL Créateur de segments]. Voici la méthode recommandée pour imbriquer des conteneurs [!UICONTROL Groupe logique] :
+Comme les autres conteneurs, les conteneurs Groupe  logique peuvent être créés de plusieurs manières dans le créateur de [!UICONTROL segments]. Voici la méthode recommandée pour imbriquer des conteneurs [!UICONTROL Groupe logique] :
 
 1. Faites glisser les dimensions, les événements ou les segments depuis les panneaux de gauche.
 1. Définissez le conteneur supérieur sur un conteneur [!UICONTROL Visiteur].
