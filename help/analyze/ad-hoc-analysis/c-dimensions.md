@@ -5,9 +5,9 @@ seo-title: Dimensions
 solution: Analytics
 title: Dimensions
 topic: Ad Hoc Analysis
-uuid: a 843 d 3 ae -093 b -438 e -89 a 9-73312 a 2 ea 6 f 2
+uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -28,7 +28,7 @@ Exemples de dimensions :
 * Résolution de l’écran
 * eVar personnalisées et valeurs s.prop
 
-** [!UICONTROL Volet Dimensions**]
+**Volet[!UICONTROL Dimensions]**
 
 Le volet [!UICONTROL Dimension] répertorie et organise toutes les dimensions de produits provenant de l’implémentation de vos Reports and Analytics marketing. Vous pouvez axer les rapports sur n’importe quel élément de dimension. Vous pouvez ventiler les dimensions en fonction d’autres dimensions afin d’analyser et de comparer pratiquement tout élément existant.
 
@@ -36,7 +36,7 @@ Le volet [!UICONTROL Dimensions] vous permet de rechercher des dimensions et de 
 
 Vous pouvez les trier en fonction des catégories suivantes :
 
-| Catégorie Dimension | Description |
+| Catégorie de dimension | Description |
 |--- |--- |
 | Trafic | Inclut des éléments du navigateur, des campagnes Target, la zone géographique, des liens personnalisés, des propriétés de trafic personnalisées, des domaines, des téléchargements, des référents, des domaines référents, etc. |
 | Conversion | Inclut des campagnes, des catégories, des eVar personnalisées, des produits, des codes de suivi, etc. |
