@@ -4,10 +4,10 @@ seo-description: Indique le nombre de visiteurs uniques ayant accédé à votre 
 seo-title: Visiteurs uniques
 solution: Analytics
 title: Visiteurs uniques
-topic: Présentation
-uuid: e 70 e 1 a 14-b 3 b 9-4 d 1 a-a 8 a 5-a 247 a 443 c 752
+topic: Rapports
+uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -59,7 +59,7 @@ Pour consulter des exemples de cette page, reportez-vous au tableau suivant. Le 
 
 ## Rapport Visiteurs uniques - Mesure avec tendance {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL Les rapports Visiteurs] uniques se comportent de la même façon dans les analyses ad hoc. Pour chaque accès donnant lieu à une visite, le visiteur est comptabilisé. Chaque page reçoit du crédit pour le visiteur.
+[!UICONTROL Les rapports Visiteurs] uniques se comportent de la même manière dans les analyses ad hoc. Pour chaque accès donnant lieu à une visite, le visiteur est comptabilisé. Chaque page reçoit du crédit pour le visiteur.
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -129,7 +129,7 @@ Chaque date reçoit également du crédit pour ce visiteur.
  </tbody> 
 </table>
 
-** [!UICONTROL Rapport Visiteurs uniques] ventilé par *`Page`*.**
+**[!UICONTROL Rapport Visiteurs uniques]ventilé par *`Page`*.**
 
 Vous pouvez également sélectionner une page pour le [!UICONTROL Rapport Visiteurs uniques]. Dans le rapport suivant, on constate que le visiteur a consulté la page A aux dates indiquées :
 
@@ -263,7 +263,7 @@ Le total des mesures peut varier en fonction de la période du rapport. Les rapp
 
 La segmentation vous permet de modifier la période de manière à inclure des dates ultérieures au lieu de dates antérieures. Supposons, par exemple, que la période s’étende toujours du 2 au 3 janvier (comme illustré dans le tableau précédent). Si vous appliquez un segment où Page = C, la date du 2 janvier ne transmettra pas le segment et le premier accès du visiteur hebdomadaire unique surviendra le 3 janvier. Si vous aviez appliqué un segment où Page = D, les dates du 2 janvier et du 3 janvier auraient été exclues. Aucun résultat ne serait affiché pour le visiteur hebdomadaire unique et les résultats seraient exclus du total.
 
-** Rapports Visiteurs uniques périodiques**
+**Rapports Visiteurs uniques périodiques **
 
 Ces rapports utilisent une page, une prop et un attribut spécifiques (exemple : où Page = A).
 
@@ -420,7 +420,7 @@ Une mesure Visiteurs uniques par jour sur un [!UICONTROL rapport Pages] se prés
  </tbody> 
 </table>
 
-Pour ventiler un attribut par un autre (comme par exemple *`page`* par *`eVar`*), Analytics alloue un visiteur unique périodique pour chaque instance unique de la période et de la page (ou de l'attribut en cours de corrélation).
+Pour ventiler un attribut par un autre (comme par exemple *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
 
 Si vous ventilez la page A selon les eVars T, U, la date du 2 janvier est exclue, car la page A a été consultée le 1er janvier. Les résultats suivants s’affichent pour les visiteurs uniques par semaine :
 
