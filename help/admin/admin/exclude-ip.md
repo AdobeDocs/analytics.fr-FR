@@ -5,9 +5,9 @@ seo-title: Exclure par adresse IP
 solution: Analytics
 title: Exclure par adresse IP
 topic: Outils d’administration
-uuid: 1 ed 6105 f-e 7 c 5-4 c 4 f-b 8 f 4-e 5 f 66 d 0824 bb
+uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). L’élimination de données améliore la précision du rapport en excluant des données d’adresse IP. De plus, vous pouvez supprimer les données des attaques par déni de service ou autres événements malveillants susceptibles de biaiser les résultats de vos rapports. Vous pouvez configurer l’exclusion en utilisant votre pare-feu.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Exclure par adresse IP]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Exclure par IP]**
 
 >[!NOTE]
 >
->Hits marked as *bots* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>Les accès exclus par l’adresse IP sont facturés en tant qu’appels [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)serveur.
 
 ## Exclure par cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -34,7 +34,7 @@ Cette fonction vous permet (à vous ainsi qu’à vos collègues) de visiter vot
 
 >[!NOTE]
 >
->L'exclusion par ordinateur fonctionne uniquement si :
+>L’exclusion par ordinateur fonctionne uniquement si :
 >
 >* Vous accédez au site web à partir du même poste de travail.
 >* Les cookies sont activés dans le navigateur que vous utilisez.
