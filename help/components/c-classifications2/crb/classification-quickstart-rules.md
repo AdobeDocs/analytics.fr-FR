@@ -3,12 +3,12 @@ description: Les règles de classification recherchent régulièrement des terme
 seo-description: Les règles de classification recherchent régulièrement des termes non classés. Si une correspondance de règle est trouvée, les règles ajoutent automatiquement les termes aux tableaux de données de classification. Vous pouvez également utiliser des règles de classification pour remplacer des clés existantes.
 seo-title: Règles de classification
 solution: Analytics
-subtopic: Gestionnaire
+subtopic: Classifications
 title: Règles de classification
 topic: Outils d’administration
-uuid: 08685919-216 d -448 b-b 886-3 adf 5 ff 5405 e
+uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -17,20 +17,20 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
 
 Les règles de classification recherchent régulièrement des termes non classés. Si une correspondance de règle est trouvée, les règles ajoutent automatiquement les termes aux tableaux de données de classification. Vous pouvez également utiliser des règles de classification pour remplacer des clés existantes.
 
-## Classification rules {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
+## Règles de classification {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
 
 Les règles de classification recherchent régulièrement des termes non classés. Si une correspondance de règle est trouvée, les règles ajoutent automatiquement les termes aux tableaux de données de classification. Vous pouvez également utiliser des règles de classification pour remplacer des clés existantes.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Créateur de règles de classification]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Créateur de règles de **[!UICONTROL classification]**
 
-The Rule Builder lets you create a *`classification rule set`*, which is a list of *`classification rules`*. Une règle établit une correspondance avec les critères spécifiés, puis exécute une action.
+Le Créateur de règles vous permet de créer une *`classification rule set`*, qui est une liste de *`classification rules`*. Une règle établit une correspondance avec les critères spécifiés, puis exécute une action.
 
 Les règles de classification conviennent dans les cas suivants :
 
 * **Courriel** et **Publicités affichées** : créez des règles de classification pour regrouper les campagnes d’affichage individuelles, de sorte que vous puissiez comparer les performances des campagnes d’affichage et des campagnes par courriel.
 
 * **Codes de suivi** : créez des règles de classification pour catégoriser les valeurs de clé provenant de chaînes dans des codes de suivi et les faire correspondre à des critères spécifiques que vous avez définis.
-* **Termes de recherche** : utilisez des [expressions régulières](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) et des caractères génériques pour simplifier la classification de termes de recherche. For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.
+* **Termes de recherche** : utilisez des [expressions régulières](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) et des caractères génériques pour simplifier la classification de termes de recherche. Par exemple, si un terme de recherche contient *`baseball`*, vous pouvez définir une *`Sports League`* classification sur *`MLB`*.
 
 Supposons, par exemple, que le code de suivi d’un identifiant de campagne par courriel soit :
 
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
 
-* **Expressions régulières**: L'aide est disponible sous [Expressions régulières dans les règles de classification](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+* **Expressions** régulières : L’aide est disponible sous Expressions [régulières dans les règles](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)de classification.
 
 * **Suites de rapports** : pour choisir une classification, il faut qu’au moins une suite de rapports soit sélectionnée. Vous ne pouvez pas appliquer la suite de rapports tant que vous n’avez pas créé le jeu de règles et affecté une variable.
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
    Les règles actives sont traitées toutes les quatre heures ; elles examinent les données de classification remontant généralement à un mois. Les règles recherchent automatiquement les nouvelles valeurs et téléchargent les classifications à l’aide de l’importateur.
 
-* **Remplacement des classifications existantes** : reportez-vous à la section [Dans quels cas les règles ne classent-elles pas les clés ?](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) Si nécessaire, vous pouvez supprimer ou supprimer des classifications existantes à l'aide de l'importateur.
+* **Remplacement des classifications existantes** : reportez-vous à la section [Dans quels cas les règles ne classent-elles pas les clés ?](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_4481E88CA28246B6B19EA16E2D83A3A8) Si nécessaire, vous pouvez supprimer des classifications existantes à l’aide de l’importateur.
 
 ## Dans quels cas les règles ne classent-elles pas les clés ?{#section_4481E88CA28246B6B19EA16E2D83A3A8}
 
@@ -94,7 +94,7 @@ Lorsque vous activez des règles, vous pouvez écraser des classifications exist
 
    >[!NOTE]
    >
-   >Dans les rapports, les classifications s'appliquent à toute période spécifiée lorsqu'il existe une clé. La période d’un rapport n’a pas d’incidence sur la création de rapports.
+   >Dans les rapports, les classifications s’appliquent à toute période spécifiée, dès qu’une clé existe. La période d’un rapport n’a pas d’incidence sur la création de rapports.
 
 ![](assets/overwrite_keys.png)
 
@@ -116,7 +116,7 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->En règle générale, les expressions régulières sont mieux adaptées aux codes de suivi qui utilisent des délimiteurs.
+>En règle générale, les expressions régulières conviennent mieux aux codes de suivi qui utilisent des délimiteurs.
 
 ## Expression régulière – Exemple de code de suivi {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
@@ -146,20 +146,20 @@ Corrélation entre l’expression régulière et l’identifiant de campagne :
 
 This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
 
-** [!UICONTROL Créateur de règles] **
+**[!UICONTROL Créateur de règles]**
 
 Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 
 | Sélectionner le type de règle | Entrer les critères de recherche | Définir la classification | Sur |
 |---|---|---|---|
-| Expression régulière | &amp; amp ; Chapeau ; (.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
+| Expression régulière | &amp;Hat;(.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
 
 **Syntaxe**
 
 | Expression régulière | Résultat de la chaîne ou de la correspondance | Groupes correspondants |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em : Junesale : 20130601 `$1`: em `$2`: Junesale `$3`: 20130601 |
-| Création de la syntaxe | `^` = commence la ligne () = regroupe les caractères et vous permet d'extraire les caractères correspondants entre parenthèses. `(.+)` = Capture un caractère ( . ) et (+) tout autre\ = début d'une chaîne. `$` = Indique que le caractère (ou groupe de caractères) précédent est le dernier de la ligne. |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601 `$1`: em `$2`: JuneSale `$3`: 20130601 |
+| Création de la syntaxe | `^` = commence la ligne () = groupe les caractères et vous permet d’extraire les caractères correspondants entre parenthèses.  `(.+)` = Capture un caractère ( . ) et ( + ) plus \ = début d’une chaîne.  `$` = Indique que le caractère (ou groupe de caractères) précédent est le dernier de la ligne. |
 
 Pour en savoir plus sur la signification des caractères d’une expression régulière, reportez-vous à la section [Expressions régulières – Tableau de références](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).
 
@@ -174,7 +174,7 @@ Pour utiliser une expression régulière, une méthode consiste à classer un ca
 
 ![](assets/regex_char_position.png)
 
-** [!UICONTROL Créateur de règles] **
+**[!UICONTROL Créateur de règles]**
 
 Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 
@@ -199,18 +199,18 @@ Exemples de clés :
 
 ![](assets/regex_varying_length.png)
 
-** [!UICONTROL Créateur de règles] **
+**[!UICONTROL Créateur de règles]**
 
 Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 
 | Sélectionner le type de règle | Entrer les critères de recherche | Définir la classification | Sur |
 |--- |--- |--- |--- |
-| Expression régulière pour la chaîne correspondante a : b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expression régulière pour la chaîne correspondante a : b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expression régulière pour la chaîne correspondante a : b : c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expression régulière pour la chaîne correspondante a : b : c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expression régulière pour la chaîne correspondante a : b : c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Expression régulière pour la chaîne correspondante a : b : c : d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Expression régulière pour la chaîne correspondante a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expression régulière pour la chaîne correspondante a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expression régulière pour la chaîne correspondante a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expression régulière pour la chaîne correspondante a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expression régulière pour la chaîne correspondante a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Expression régulière pour la chaîne correspondante a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Expressions régulières – Exemple « Ne contient pas »{#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -270,7 +270,7 @@ In this result, `a:b:1313` does not indicate a match.
 | `a{3,}` | 3 ou plus de : a |
 | `a{3,6}` | Entre 3 et 6 de : a |
 
-Une ressource intéressante pour tester la validité d'expression régulière est https://rubular.com/.
+Une bonne ressource pour tester la validité de l’expression régulière est https://rubular.com/.
 
 ## À propos de la priorité des règles {#concept_93527FEB3C9B48FB96FB7DF857E5F980}
 
@@ -292,7 +292,7 @@ L’exemple de terme de recherche ci-dessous classe les types de recherche pour 
 | 2 | Contient | Fantasy | Type de recherche | Fantasy |
 | 3 | Contient | Romo | Type de recherche | Player |
 
-Si un utilisateur recherche *`Cowboys fantasy Tony Romo`*, le terme *`Player`* est classé car il correspond à la dernière classification donnée affichée dans la colonne Définir la classification.
+Si un utilisateur recherche *`Cowboys fantasy Tony Romo`*, the term *`Player`* is classified, because it matches the last given classification shown in the Set Classification column.
 
 De même, supposons que vous configuriez deux règles d’un jeu pour les termes de recherche suivants :
 
@@ -317,9 +317,9 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
 
 >[!NOTE]
 >
->Au cours de cette procédure, vous devez appliquer les règles à une ou plusieurs suites de rapports. Le nombre recommandé de règles par jeu de règles est compris entre 500 et 1000, bien qu’il n’y ait pas de limites. Si le nombre de règles est supérieur à 100, pensez à simplifier votre jeu de règles en utilisant des [sous-classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
+>Dans cette procédure, vous devez appliquer les règles à une ou plusieurs suites de rapports. Le nombre recommandé de règles par jeu de règles est compris entre 500 et 1000, bien qu’il n’y ait pas de limites. Si le nombre de règles est supérieur à 100, pensez à simplifier votre jeu de règles en utilisant des [sous-classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
 
-1. [Création d'un jeu de règles de classification](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Créez un jeu](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de règles de classification.
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
 
    ![](assets/add_rule.png)
@@ -329,12 +329,12 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
    La page **[!UICONTROL Sélectionner une suite de rapports]s’affiche.**
 
    >[!NOTE]
-   Report suites display on this page *`only`* when the following conditions are met:        &gt;
+   Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont remplies :        &gt;
 
    * Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
-   (Voir *`Variable`* dans [les jeux de règles de classification](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) pour obtenir une explication de cette condition préalable.)
+   (Voir *`Variable`* dans Jeux [de règles de](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) classification pour obtenir une explication sur ce prérequis.)
 
-   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
+   * Vous avez sélectionné la suite de rapports sur la page Report Suites **** disponibles, qui s’affiche après avoir cliqué sur [Ajouter un jeu](/help/components/c-classifications2/crb/classification-rule-set.md) de règles pour créer le jeu de règles.
 
 
 1. Spécifiez s’il convient de remplacer les valeurs existantes :
@@ -347,7 +347,7 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
 
    ![Résultat de l’étape](assets/classification_rules_page.png)
 
-   For examples of building rules, see [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) and [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+   Pour des exemples de création de règles, voir Créateur [de règles de](/help/components/c-classifications2/crb/classification-rule-builder.md) classifications et Expressions [régulières dans les règles](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)de classification.
 
    >[!NOTE]
    >
@@ -370,7 +370,7 @@ t_classifications_test_rule.xml
 
 Description de la procédure de test d’une règle ou d’un jeu de règles de classification. Lors de l’exécution d’un test, toutes les règles d’un jeu sont vérifiées.
 
-1. [Création d'un jeu de règles de classification](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Créez un jeu](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de règles de classification.
 1. Sur la page [!UICONTROL Créateur de règles de classifications], cliquez sur le nom du jeu de règles.
 1. Assurez-vous que le jeu de règles est associé à une suite de rapports.
 1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
@@ -389,7 +389,7 @@ Description de la procédure de test d’une règle ou d’un jeu de règles de 
    Les règles correspondantes sont affichées dans le tableau [!UICONTROL Résultats].
 1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
 
-   Voir pour plus d'informations sur l'utilisation de règles pour remplacer les classifications existantes.
+   Voir pour plus d’informations sur l’utilisation de règles pour remplacer des classifications existantes.
 
 ## Validate and Activate Classification Rules {#task_2B4FA41F1EE64F4AAC6170C5EFC066AC}
 
@@ -401,7 +401,7 @@ t_validate_rules.xml
 
 Ces étapes décrivent la validation et l’activation de règles de classification.
 
-1. [Créez un jeu](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de règles de classification, puis [ajoutez des règles de classification](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) à la visionneuse.
+1. [Créez un jeu](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de règles de classification, puis [ajoutez des règles](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) de classification au jeu.
 1. On the rule editor, click **[!UICONTROL Activate]**.
 
    ![](assets/overwrite_keys.png)
