@@ -1,22 +1,22 @@
 ---
 description: Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
 seo-description: Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
-seo-title: Rapports Mesures du site
+seo-title: Rapports sur les mesures du site
 solution: Analytics
-title: Rapports Mesures du site
+title: Rapports sur les mesures du site
 topic: Ad Hoc Analysis
-uuid: 0730747 a -216 f -4 a 58-b 62 b-a 9812968 cde 5
+uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# Rapports Mesures du site
+# Rapports sur les mesures du site
 
 Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
 
-## Site Metrics reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## Rapports sur les mesures du site {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
 
@@ -92,7 +92,7 @@ Utilisez ce rapport pour :
 
 ## Rapport Achats {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-Affiche des données récapitulatives pour les mesures Recettes, Commandes et Unités. You can also view the [!DNL Purchase Conversion Funnel] report.
+Affiche des données récapitulatives pour les mesures Recettes, Commandes et Unités. Vous pouvez également afficher le [!DNL Purchase Conversion Funnel] rapport.
 
 <!-- 
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **Recettes** : vous permet d’afficher les recettes brutes pour les périodes sélectionnées. Vous pouvez consulter, par exemple, les recettes générées au mois de mars, les commandes passées la semaine dernière ou encore les recettes d’aujourd’hui.
 * **Commandes** : indique le nombre de commandes passées sur votre site web lors d’une période spécifiée. Plusieurs produits peuvent faire l’objet d’une commande unique.
 * **Unités** : indique le nombre total d’unités commandées lors d’une période spécifiée.
-* ** Entonnoir de conversion d'achat** : Idéal pour afficher les événements de conversion sur votre site s'ils se produisent dans un ordre spécifique, par exemple dans un paramètre de vente au détail. Un rapport Entonnoir présente la mesure de conversion pour chaque étape du processus de conversion, ainsi que les commandes, les recettes et les unités.
+* ** Entonnoir de conversion d'achat** : Idéal pour afficher les événements de conversion sur votre site s’ils se produisent dans un ordre spécifique, par exemple dans un paramètre de vente au détail. Un rapport Entonnoir présente la mesure de conversion pour chaque étape du processus de conversion, ainsi que les commandes, les recettes et les unités.
 
 ## Rapport Panier {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
@@ -162,8 +162,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-** [!UICONTROL First or Last Touch Channel Report] **: Displays metrics showing data about a specific first-touch or last-touch channel. Dans ces rapports, vous pouvez séparer un canal et en afficher les détails. Si AdLens est activé, les classifications apparaîtront dans les rapports de canal des Reports and Analytics marketing. 
+**[!UICONTROL Rapport Canal Première touche ou Dernière touche]** : affiche les mesures qui présentent les données d’un canal Première touche ou Dernière touche spécifique. Dans ces rapports, vous pouvez séparer un canal et en afficher les détails. Si AdLens est activé, les classifications apparaîtront dans les rapports de canal des Reports and Analytics marketing. 
 
-** [!UICONTROL First or Last Touch Channel Detail Reports] **: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. Les rapports Canal détaillés vous permettent de mieux examiner les valeurs détaillées de canal du rapport Présentation.
+**[!UICONTROL Rapports détaillés Canal Première touche ou Dernière touche]** : affichent des informations comme le nom et le référent des pages, repris des valeurs de canal figurant dans l’option [!UICONTROL Définir la valeur du canal comme] lors de la configuration des règles. Les rapports Canal détaillés vous permettent de mieux examiner les valeurs détaillées de canal du rapport Présentation.
 
 Pour des informations plus détaillées concernant la configuration du canal marketing dans les rapports et analyses marketing, voir le système d’aide [Canal marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html).
