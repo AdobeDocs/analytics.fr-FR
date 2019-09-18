@@ -1,20 +1,20 @@
 ---
-description: Affiche des informations sur les visiteurs, notamment le nombre de visiteurs, la fidélité des clients et les caractéristiques du visiteur.
-seo-description: Affiche des informations sur les visiteurs, notamment le nombre de visiteurs, la fidélité des clients et les caractéristiques du visiteur.
-seo-title: Rapports Visiteur
+description: Affiche des informations concernant les visiteurs, notamment le nombre de visiteurs, la fidélité des clients et les caractéristiques des visiteurs.
+seo-description: Affiche des informations concernant les visiteurs, notamment le nombre de visiteurs, la fidélité des clients et les caractéristiques des visiteurs.
+seo-title: Rapports sur les visiteurs
 solution: Analytics
-title: Rapports Visiteur
+title: Rapports sur les visiteurs
 topic: Ad Hoc Analysis
-uuid: 3 e 9 b 41 d 1-d 6 ff -47 a 8-aa 6 b -829 df 1040 c 34
+uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# Rapports Visiteur
+# Rapports sur les visiteurs
 
-Affiche des informations sur les visiteurs, notamment le nombre de visiteurs, la fidélité des clients et les caractéristiques du visiteur.
+Affiche des informations concernant les visiteurs, notamment le nombre de visiteurs, la fidélité des clients et les caractéristiques des visiteurs.
 
 ## Fréquence des retours {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
@@ -65,7 +65,7 @@ Vous pouvez ventiler ce rapport selon tout autre rapport ou variable afin de dé
 
 >[!NOTE]
 >
->Si un même visiteur visite votre site Web plusieurs fois au cours de la même période, chaque nombre de visites spécifié est incrémenté pour chaque visite.
+>Si le même visiteur consulte votre site Web plusieurs fois au cours de la même période, chaque nombre de visites spécifié est incrémenté pour chaque visite.
 
 Ce rapport s’articule autour des données d’identifiant des visiteurs transmises à Adobe lors chaque accès à votre site. A la réception de ces données, Adobe les compare aux identifiants des visiteurs historiques afin de déterminer si l’accès correspond à :
 
@@ -77,7 +77,7 @@ Ce rapport s’articule autour des données d’identifiant des visiteurs transm
 >
 >Chaque identifiant visiteur Analytics est associé à un profil visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
 
-## Fidélisation des clients {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
+## Fidélité de la clientèle {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
 Utilisez ce rapport pour déterminer si vos recettes sont davantage influencées par les nouveaux clients ou par les clients réguliers.
 
@@ -96,11 +96,11 @@ Le rapport [!UICONTROL Fidélité de la clientèle] affiche des schémas de clie
 
 >[!NOTE]
 >
->Lors de l'utilisation de ces mesures, toutes les visites de l'utilisateur (ou tous les visiteurs) sont représentées dans ce rapport, que la visite (ou le visiteur) comprenait un achat ou non.
+>Lors de l’utilisation de ces mesures, toutes les visites des utilisateurs (ou tous les visiteurs) sont représentées dans ce rapport, que la visite (ou le visiteur) ait inclus un achat ou non.
 
 L’état de fidélité change à la fin de la visite au cours de laquelle s’est produit un événement d’achat. Par exemple, un nouveau client (1 achat) effectue un achat, puis s’inscrit ensuite au bulletin d’information, au cours de la même visite. L’événement d’inscription au bulletin d’information est toujours considéré comme une interaction Nouveau client, car l’état de fidélité du client ne changera pas avant la prochaine visite.
 
-## Profil du visiteur{#concept_4D829198CD144DCDA667E0651F93AFC7}    
+## Profil du visiteur {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
 Affichent des informations sur le type de visiteurs qui se rendent sur votre site. Ils présentent des renseignements tels que l’emplacement des visiteurs, le type de navigateur et de matériel informatique utilisés, la langue employée, ainsi que des informations sur leurs fournisseurs de services Internet.
 
@@ -110,13 +110,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-** [!UICONTROL Languages] **: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+**[!UICONTROL Langues]** : indique les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues les plus utilisées par les visiteurs du site.
 
-** [!UICONTROL Domains] **: Lists the organizations and ISPs your visitors use to access your site. Ce rapport diffère du rapport [!UICONTROL Domaines complets], en ce sens qu’il répertorie le domaine secondaire. Le rapport des domaines complets, lui, enregistre le domaine complet des fournisseurs d’accès Internet.
+**[!UICONTROL Domaines]** : répertorie les organisations et les fournisseurs de services Internet que les visiteurs utilisent pour accéder à votre site. Ce rapport diffère du rapport [!UICONTROL Domaines complets], en ce sens qu’il répertorie le domaine secondaire. Le rapport des domaines complets, lui, enregistre le domaine complet des fournisseurs d’accès Internet.
 
-** [!UICONTROL Top Level Domains] **: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. Les domaines finissant par Commercial (.com), Network (.net), Education (.edu), Government (.gov) et Organization (.org) sont généralement basés aux États-Unis et sont répertoriés différemment des autres domaines.
+**[!UICONTROL Domaines de haut niveau]** : présente les régions du monde d’où viennent les visiteurs sur la base de l’extension de leur domaine d’origine et indique combien de visiteurs viennent de ces pays. Les domaines finissant par Commercial (.com), Network (.net), Education (.edu), Government (.gov) et Organization (.org) sont généralement basés aux États-Unis et sont répertoriés différemment des autres domaines.
 
-** [!UICONTROL Visitor ZIP/Postal Code] **: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics.
+**[!UICONTROL Code postal du visiteur]** : indique les codes postaux des visiteurs qui ont le plus influencé les mesures de succès d’achats.
 
 ## Géosegmentation {#concept_7C1B930F90F945B49205D3855CAE1813}
 
