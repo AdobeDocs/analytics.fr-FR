@@ -7,7 +7,7 @@ title: Création des segments séquentiels
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
+source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
 
 ---
 
@@ -244,9 +244,8 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Conteneurs Groupe logique
 
-Les conteneurs Groupe logique sont nécessaires pour regrouper les conditions dans un point de contrôle de segment séquentiel unique. Les conteneurs non séquentiels (accès, visite, visiteur) ne nécessitent pas que leurs conditions soient remplies dans la séquence globale, produisant des résultats non intuitifs s’ils sont utilisés à côté d’un opérateur ALORS. Le conteneur Groupe logique spécial n’est disponible que dans le cadre de la segmentation séquentielle, afin de garantir que ses conditions sont remplies après tout point de contrôle séquentiel précédent et avant tout point de contrôle séquentiel suivant. Les conditions du point de contrôle du Groupe logique lui-même peuvent être remplies dans n’importe quel ordre.
-
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). En revanche, le conteneur Groupe  logique a été conçu pour traiter *plusieurs points de contrôle comme un groupe*, *sans aucun ordre* parmi les points de contrôle regroupés. En d'autres termes, nous ne nous soucions pas de l'ordre des points de contrôle dans ce groupe. Par exemple, vous ne pouvez pas imbriquer un conteneur [!UICONTROL Visiteur] dans un conteneur du même type. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+Les conteneurs Groupe logique sont nécessaires pour regrouper les conditions dans un point de contrôle de segment séquentiel unique. Le conteneur Groupe logique spécial n’est disponible que dans le cadre de la segmentation séquentielle, afin de garantir que ses conditions sont remplies après tout point de contrôle séquentiel précédent et avant tout point de contrôle séquentiel suivant. Les conditions du point de contrôle du Groupe logique lui-même peuvent être remplies dans n’importe quel ordre. En revanche, les conteneurs non séquentiels (accès, visite, visiteur) ne nécessitent pas que leurs conditions soient remplies dans la séquence globale, produisant des résultats non intuitifs s’ils sont utilisés avec un opérateur ALORS.
+Le conteneur Groupe  logique a été conçu pour traiter *plusieurs points de contrôle comme un groupe*, *sans aucun ordre* parmi les points de contrôle regroupés. En d'autres termes, nous ne nous soucions pas de l'ordre des points de contrôle dans ce groupe. Par exemple, vous ne pouvez pas imbriquer un conteneur [!UICONTROL Visiteur] dans un conteneur du même type. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
@@ -256,6 +255,20 @@ Within sequential segmentation, it is required that containers are ordered stric
 |---|---|---|
 | Hiérarchie des conteneurs standard | ![](assets/nesting_container.png) | Les conteneurs [!UICONTROL Visite] et [!UICONTROL Accès] sont imbriqués de manière séquentielle dans le conteneur [!UICONTROL Visiteur] afin d’extraire les segments en fonction des accès, du nombre de visites et du visiteur. |
 | Hiérarchie du conteneur logique | ![](assets/logic_group_hierarchy.png) | La hiérarchie de conteneurs standard est également requise en dehors du conteneur [!UICONTROL Groupe logique]. Cependant, à l’intérieur du conteneur [!UICONTROL Groupe logique], les points de contrôle ne doivent pas respecter un ordre ou une hiérarchie spécifique ; ils doivent simplement être atteints par le visiteur dans n’importe quel ordre. |
+
+Les groupes logiques peuvent sembler décourageants - voici quelques bonnes pratiques pour les utiliser :
+
+**Groupe logique ou conteneur Accès/Visite ?**
+Si vous souhaitez regrouper des points de contrôle séquentiels, votre "conteneur" est Groupe logique. Toutefois, si ces points de contrôle séquentiels doivent se produire dans une portée d’accès ou de visite unique, un accès ou un conteneur "visite" sont requis. (Bien sûr, "accès" n'a aucun sens pour un groupe de points de contrôle séquentiels, lorsqu'un accès ne peut pas créditer plus d'un point de contrôle).
+
+**Les groupes logiques simplifient-ils la création de segments séquentiels ?**
+Oui, ils le peuvent. Supposons que vous essayiez de répondre à cette question : Un visiteur a-t-il consulté les pages B, C ou D après la page A ? Vous pouvez créer ce segment sans conteneur Groupe logique, mais il est complexe et laborieux :
+Page du conteneur de visiteurs A [Page A PUIS Page B PUIS Page C PUIS Page D] OU [Page du conteneur de visiteurs A PUIS Page B PUIS Page D ENSUITE Page C] OU [Page du conteneur de visiteurs A PUIS Page C PUIS Page B PUIS Page D] Ou [Page du conteneur de visiteurs A PUIS Page C PUIS Page D, Page B ou Conteneur de visiteurs Page A, PUIS Page D, PUIS Page B, PUIS Page C Ou Page Conteneur De Visiteurs A, PUIS Page D, PUIS Page C, PUIS Page B][][]
+
+Un conteneur Groupe logique simplifie considérablement le segment, comme illustré ici :
+
+![](assets/logic-grp-example.png)
+
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -276,9 +289,15 @@ L’utilisation du [!UICONTROL Groupe logique] vous permet de respecter, au sein
 
 **Créer ce segment**
 
-Les pages B et C sont imbriquées dans un conteneur [!UICONTROL Groupe logique] dans un conteneur [!UICONTROL Visiteur] extérieur. Le conteneur [!UICONTROL Page vue] pour A est ensuite suivi du conteneur [!UICONTROL Groupe logique], les pages B et C étant identifiées à l’aide de l’opérateur [!UICONTROL ET]. Étant donné que la séquence se trouve dans le conteneur [!UICONTROL Groupe logique], elle n’est pas définie. L’accès à la page B ou C définit l’argument sur « vrai ».
+Les pages B et C sont imbriquées dans un conteneur [!UICONTROL Groupe logique] dans un conteneur [!UICONTROL Visiteur] extérieur. Le conteneur [!UICONTROL Page vue] pour A est ensuite suivi du conteneur [!UICONTROL Groupe logique], les pages B et C étant identifiées à l’aide de l’opérateur [!UICONTROL ET]. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
+
+**Autre exemple**: Visiteurs qui ont consulté la page B ou C, puis la page A :
+
+![](assets/logic_group_any_order3.png)
+
+Le segment doit correspondre au moins à l’un des points de contrôle du groupe logique (B ou C). En outre, les conditions du groupe logique peuvent être remplies dans le même accès ou sur plusieurs accès. &#x200B;
 
 ### Première correspondance du groupe logique
 
