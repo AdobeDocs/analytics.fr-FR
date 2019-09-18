@@ -1,22 +1,22 @@
 ---
 description: Les rapports de source de trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site Web.
 seo-description: Les rapports de source de trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site Web.
-seo-title: Rapports de source de trafic
+seo-title: Rapports sur les sources de trafic
 solution: Analytics
-title: Rapports de source de trafic
+title: Rapports sur les sources de trafic
 topic: Ad Hoc Analysis
-uuid: 246 afbdc -9 f 7 b -4956-a 44 a-b 7 aad 948 f 392
+uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# Rapports de source de trafic
+# Rapports sur les sources de trafic
 
 Les rapports de source de trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site Web.
 
-## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+## Rapports sur les sources de trafic {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
 Les rapports de source de trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site Web.
 
@@ -41,11 +41,11 @@ c_reports_search_keyword.xml
 
  -->
 
-** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
+**[!UICONTROL Mots-clés de recherche - Tous]** : ce rapport répertorie chaque mot-clé de recherche qui a été utilisé pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
 
-** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
+**[!UICONTROL Mots-clés de recherche - Payée]** : répertorie les mots-clés de recherche payante qui ont été utilisés pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
 
-** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
+**[!UICONTROL Mots-clés de recherche - Naturelle]** : répertorie les mots-clés de recherche naturelle qui ont été utilisés pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
 
 ## Moteurs de recherche {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,11 +57,11 @@ c_reports_search_engines.xml
 
  -->
 
-** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
+**[!UICONTROL Moteurs de recherche - Tous]** : répertorie les moteurs de recherche que les visiteurs utilisent pour trouver votre page Web. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
 
-** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
+**[!UICONTROL Moteurs de recherche - Payés]** : répertorie les moteurs de recherche avec mots-clés payés que les visiteurs utilisent pour trouver votre page Web. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
 
-** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
+**[!UICONTROL Moteurs de recherche - Naturelle]** : affiche les moteurs de recherche avec mots-clés naturels que les visiteurs utilisent pour trouver votre page Web. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
 
 ## Domaines référents {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -130,9 +130,9 @@ Les options suivantes peuvent s’afficher lors de l’exécution de ce rapport�
 
 **Dans votre site** : ces éléments sont des URL balisées par les filtres URL internes. Ces éléments ne sont pas comptabilisés comme  instances de référent mais ils sont visibles lors de la génération de rapports sur d’autres mesures.
 
-** Pas de script Java** : Il n'y avait pas de code JavaScript pour ne pas identifier le type (inconnu). Cela signifie que le client n’a fourni aucune information de référence sur un navigateur, lequel ne fait pas état de son aptitude à prendre en charge JavaScript. Ces instances ne sont pas comptabilisées comme « instances de référence », mais elles sont visibles lors de la génération de rapports sur d’autres mesures.
+** Aucun script Java** : Il n’y avait pas de code JavaScript, le type n’était donc pas identifiable (inconnu). Cela signifie que le client n’a fourni aucune information de référence sur un navigateur, lequel ne fait pas état de son aptitude à prendre en charge JavaScript. Ces instances ne sont pas comptabilisées comme « instances de référence », mais elles sont visibles lors de la génération de rapports sur d’autres mesures.
 
-**USENET (groupes de discussion)** : cela signifie que l’URL d’un référent commençait par [!DNL news://]. Dès lors, le lien de référence a été publié sur un groupe de discussion Usenet plutôt que sur une page Web.
+**USENET (groupes de discussion)** : cela signifie que l’URL d’un référent commençait par `news://`. Dès lors, le lien de référence a été publié sur un groupe de discussion Usenet plutôt que sur une page Web.
 
 >[!NOTE]
 >
