@@ -9,7 +9,7 @@ title: Variables de configuration
 topic: Développeur et mise en œuvre
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
+source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
 
 ---
 
@@ -381,6 +381,8 @@ Adobe [!DNL Customer Care] peut modifier le paramètre de devise par défaut de 
 * The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
 * Les événements monétaires doivent uniquement être utilisés pour les devises. Si vous devez comptabiliser des valeurs arbitraires ou dynamiques qui ne sont pas des devises, utilisez le type d’événement [!UICONTROL numeric].
 * Lorsque la variable *`currencyCode`* est vide, aucune conversion n’est appliquée.
+
+Pour plus d’informations, voir Codes [de](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html)devise.
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
