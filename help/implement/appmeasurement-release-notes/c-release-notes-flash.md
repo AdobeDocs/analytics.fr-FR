@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Notes de mise à jour
 title: Flash-Flex
 topic: Développeur et mise en œuvre
-uuid: 2 ee 7 fb 92-9 b 62-44 d 4-bd 93-6 dff 26764 b 7 f
+uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Notes de mise à jour cumulées pour Flash. Les applications Flash qui utilisent
 
 >[!NOTE]
 >
->Pour trouver la version de la bibliothèque actuelle, activez la journalisation du débogage.
+>Pour trouver la version actuelle de la bibliothèque, activez la journalisation du débogage.
 
 <!-- 
 
@@ -60,13 +60,13 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-Les versions affectées sont [!DNL AppMeasurement] pour Flash version 4.0 et versions antérieures sur toutes les plateformes.
+Les versions affectées sont pour Flash version 4.0 ou antérieure [!DNL AppMeasurement] sur toutes les plates-formes.
 
 >[!NOTE]
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. La prise en charge de la collecte de données des projets existants basés sur la version AS2 est maintenue. Nous recommandons cependant fortement aux clients de mettre à niveau leurs mises en œuvre à AS3 et d’incorporer les dernières fonctionnalités de sécurité d’[!DNL AppMeasurement] pour Flash.
 
-[!DNL AppMeasurement] pour les clients Flash affectés par ce problème doivent recréer des projets avec la bibliothèque mise à jour disponible pour téléchargement depuis [!DNL Analytics] la Console [Plus…](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN -121780)
+[!DNL AppMeasurement] pour les clients Flash affectés par ce problème, vous devez recréer les projets avec la bibliothèque mise à jour disponible au téléchargement depuis la [!DNL Analytics] Console [Plus...](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
@@ -74,7 +74,7 @@ Version 4.0 - Mise à jour :
 
 * Inclusion de l’API visiteur version 1.5.3.
 
-## 17 septembre 2015 {#section_319911C0F080452981F8C8BEA2880463}
+## September 17, 2015 {#section_319911C0F080452981F8C8BEA2880463}
 
 Version 4.0 - Mise à jour :
 
@@ -86,7 +86,7 @@ Version 4.0 - Mise à jour :
 
 * Inclusion de l’API visiteur version 1.5.1.
 
-## 18 juin 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
+## June 18, 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
 Version 4.0 - Mise à jour
 
@@ -132,7 +132,7 @@ Date de publication : **19 juin 2014**
 
 Date de publication : **17 avril 2014**
 
-* Prise en charge du [service d’identification des visiteurs de Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Prise en charge du service [d’identification des visiteurs](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud.
 
 ## Version 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
