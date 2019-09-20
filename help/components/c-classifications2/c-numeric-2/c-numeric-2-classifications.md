@@ -1,21 +1,21 @@
 ---
-description: Les classifications numériques 2 disposent de mesures souples et personnalisées que vous pouvez importer dans Adobe Marketing Cloud via l’importateur.
-seo-description: Les classifications numériques 2 disposent de mesures souples et personnalisées que vous pouvez importer dans Adobe Marketing Cloud via l’importateur.
-seo-title: Présentation des classifications numériques 2
+description: Les classifications numériques 2 disposent de mesures souples et personnalisées que vous pouvez importer dans Adobe Experience Cloud via l’importateur.
+seo-description: Les classifications numériques 2 disposent de mesures souples et personnalisées que vous pouvez importer dans Adobe Experience Cloud via l’importateur.
+seo-title: Classifications numériques 2 - Aperçu
 solution: Analytics
-subtopic: Gestionnaire
-title: Présentation des classifications numériques 2
+subtopic: Classifications
+title: Classifications numériques 2 - Aperçu
 topic: Outils d’administration
-uuid: cbea 7 cd 1-3 a 92-4 e 9 d-b 671-646 e 9 add 1 ee 6
+uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Présentation des classifications numériques 2
+# Classifications numériques 2 - Aperçu
 
-Les classifications numériques 2 disposent de mesures souples et personnalisées que vous pouvez importer dans Adobe Marketing Cloud via l’importateur.
+Les classifications numériques 2 disposent de mesures souples et personnalisées que vous pouvez importer dans Adobe Experience Cloud via l’importateur.
 
 >[!IMPORTANT]
 >
@@ -23,13 +23,13 @@ Les classifications numériques 2 disposent de mesures souples et personnalisé
 
 >[!NOTE]
 >
->Dans la version de maintenance du 10 mai 2018, Adobe a commencé à limiter la fonctionnalité des classifications de date et d'activation numérique. Ces types de classifications ont été supprimés des interfaces Administration et Importateur de classifications. Il n’est plus possible d’ajouter de nouvelles classifications numériques et activées par date. Il sera possible de continuer à gérer les classifications actuelles (les transférer, les supprimer) par l’intermédiaire des processus de classification standard et elles resteront disponibles dans le reporting.
+>Dans la version de maintenance d’Analytics du 10 mai 2018, Adobe a commencé à limiter la fonctionnalité des classifications numériques et par date d’activation. Ces types de classifications ont été supprimés des interfaces Administration et Importateur de classifications. Il n’est plus possible d’ajouter de nouvelles classifications numériques et activées par date. Il sera possible de continuer à gérer les classifications actuelles (les transférer, les supprimer) par l’intermédiaire des processus de classification standard et elles resteront disponibles dans le reporting.
 
 Elles sont couramment utilisées lorsque les variables numériques de différents articles changent de temps à autre, comme les valeurs de coût des marchandises vendues. L’administration vous permet de créer des classifications sur la page [!UICONTROL Classification des conversions], puis d’utiliser l’importateur pour exporter un fichier, apporter des modifications et procéder à la réimportation dans Adobe. Une fois les données importées, vous pouvez utiliser les classifications numériques lors de la création des mesures calculées.
 
 >[!IMPORTANT]
 >
->Analysis Workspace et Ad - Analyses ad hoc ne prennent pas en charge les classifications Numérique 2.
+>Analysis Workspace et les analyses ad hoc ne prennent pas en charge les classifications numériques 2.
 
 Le tableau suivant montre les différences entre les types de classifications :
 
