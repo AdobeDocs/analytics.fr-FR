@@ -1,18 +1,18 @@
 ---
 description: Si vous utilisez la distribution FTP ou le téléchargement de bibliothèque, ou si vous ne disposez pas d’environnement de test, vous pouvez utiliser un outil de réécriture tel que Charles pour tester les règles non publiées. Ce besoin varie selon votre implémentation spécifique.
-keywords: Gestion dynamique des balises ; rule ; switcher plugin ; téléchargement de bibliothèque ; ftp ; réécrire l'outil ; tester les règles non publiées ; tester les règles ; règle de débogage ; charles
+keywords: Gestion dynamique des balises;règle;module externe de commutation;téléchargement de bibliothèque;ftp;outil de réécriture;tester les règles non publiées;règles de test;règle de débogage;caractères
 seo-description: Si vous utilisez la distribution FTP ou le téléchargement de bibliothèque, ou si vous ne disposez pas d’environnement de test, vous pouvez utiliser un outil de réécriture tel que Charles pour tester les règles non publiées. Ce besoin varie selon votre implémentation spécifique.
-seo-title: Tester les règles pour le téléchargement de bibliothèque ou FTP
-solution: Marketing Cloud, Analytics, Target, gestion dynamique des balises
-title: Tester les règles pour le téléchargement de bibliothèque ou FTP
-uuid: b 6 ac 09 c 7-f 590-4710-bcb 0-eb 2 bab 9 e 6296
+seo-title: Test de règles pour le téléchargement de bibliothèque ou FTP
+solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
+title: Test de règles pour le téléchargement de bibliothèque ou FTP
+uuid: b6ac09c7-f590-4710-bcb0-eb2bab9e6296
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Tester les règles pour le téléchargement de bibliothèque ou FTP
+# Test de règles pour le téléchargement de bibliothèque ou FTP
 
 Si vous utilisez la distribution FTP ou le téléchargement de bibliothèque, ou si vous ne disposez pas d’environnement de test, vous pouvez utiliser un outil de réécriture tel que Charles pour tester les règles non publiées. Ce besoin varie selon votre implémentation spécifique.
 
