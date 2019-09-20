@@ -1,13 +1,13 @@
 ---
 description: Les conditions déterminent à quel moment une règle basée sur un événement est déclenchée.
-keywords: Gestion dynamique des balises ; rule ; créer une règle ; nouvelle règle ; règle basée sur un événement ; différer l'activation du lien ; apply event handler directly to element ; bubbling ; propagation d'événements
+keywords: Gestion dynamique des balises;règle;créer une règle;nouvelle règle;règle basée sur un événement;activation du lien de retard;appliquer le gestionnaire d’événements directement à l’élément;propagation;propagation d’événements
 seo-description: Les conditions déterminent à quel moment une règle basée sur un événement est déclenchée.
 seo-title: Création de conditions pour les règles basées sur un événement
-solution: Marketing Cloud, Analytics, Target, gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
 title: Création de conditions pour les règles basées sur un événement
-uuid: a 847391 c -5 aec -4 d 64-8 a 35-388587731598
+uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
