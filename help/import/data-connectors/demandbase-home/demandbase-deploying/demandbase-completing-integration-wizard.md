@@ -1,25 +1,25 @@
 ---
-description: Pour activer l'intégration, vous devez terminer l'assistant de configuration dans l'interface des Connecteurs de données.
-seo-description: Pour activer l'intégration, vous devez terminer l'assistant de configuration dans l'interface des Connecteurs de données.
-seo-title: Exécution de l'assistant d'intégration Adobe
-title: Exécution de l'assistant d'intégration Adobe
-uuid: 75260 b 92-a 6 f 5-44 b 6-b 3 ea-d 5945 fdd 1 ecb
+description: Pour activer l’intégration, vous devez exécuter l’assistant de configuration dans l’interface des connecteurs de données.
+seo-description: Pour activer l’intégration, vous devez exécuter l’assistant de configuration dans l’interface des connecteurs de données.
+seo-title: Fin de l’assistant d’intégration Adobe
+title: Fin de l’assistant d’intégration Adobe
+uuid: 75260b92-a6f5-44b6-b3ea-d5945fdd1ecb
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Exécution de l'assistant d'intégration Adobe{#completing-the-adobe-integration-wizard}
+# Fin de l’assistant d’intégration Adobe{#completing-the-adobe-integration-wizard}
 
-Pour activer l'intégration, vous devez terminer l'assistant de configuration dans l'interface des Connecteurs de données.
+Pour activer l’intégration, vous devez exécuter l’assistant de configuration dans l’interface des connecteurs de données.
 
-1. Accédez à la zone Connecteurs de données (anciennement Genesis) dans Adobe Marketing Cloud.
-1. Lancez l'assistant d'intégration Demandbase 2.0.
-1. Choisissez la suite de rapports souhaitée et attribuez un nom à l'intégration.
+1. Accédez à la zone Connecteurs de données (anciennement Genesis) dans Adobe Experience Cloud.
+1. Lancez l’assistant d’intégration Demandbase 2.0.
+1. Choisissez une suite de rapports et nommez l’intégration.
 1. Configurez les éléments suivants :
 
 <table id="table_8D60DC7C48C144DC9934749E7F9F65FF"> 
@@ -36,35 +36,35 @@ Pour activer l'intégration, vous devez terminer l'assistant de configuration da
   </tr> 
   <tr> 
    <td colname="col1"> Description </td> 
-   <td colname="col2"> (Facultatif) Description de cette configuration de l'intégration. </td> 
+   <td colname="col2"> (Facultatif) Description de cette configuration d’intégration. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Clé de l'API Demandbase </td> 
-   <td colname="col2"> Vous pouvez obtenir ce résultat auprès de votre représentant Demandbase. </td> 
+   <td colname="col1"> Clé d'API Demandbase </td> 
+   <td colname="col2"> Vous pouvez obtenir cette information auprès de votre représentant Demandbase. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Dimension Demandbase personnalisée N ° N </td> 
-   <td colname="col2"> Il s'agit des ID des 8 dimensions facultatives. Pour plus d'informations, voir Demandbase Custom Dimensions. </td> 
+   <td colname="col1"> Dimension de base de demande personnalisée #N </td> 
+   <td colname="col2"> Il s’agit des ID des 8 dimensions facultatives. Pour plus d’informations, voir Demandbase Custom Dimensions. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Envoyer à Adobe Target </td> 
-   <td colname="col2">Si « true », les dimensions Demandbase sont également envoyées à Adobe Target à l'aide d'une mbox masquée. <p>Remarque : Un fichier mbox. js configuré doit être implémenté sur la page Web pour que les dimensions soient collectées. </p> </td> 
+   <td colname="col2">Si la valeur est "true", les dimensions Demandbase sont également envoyées à Adobe Target à l’aide d’une mbox masquée. <p>Remarque :  Un fichier mbox.js configuré doit être implémenté sur la page Web pour que les dimensions soient collectées. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Configurez les éléments Mappages de variables suivants :
+1. Configurez les éléments suivants de mappage des variables :
 
    | Élément | Description |
    |---|---|
-   | Demandbase Dimensions | Choisissez une variable evar disponible dans votre suite de rapports. |
-   | Demandbase Custom Dimensions (facultatif) | Choisissez une variable evar disponible dans votre suite de rapports. |
+   | Dimensions Demandbase | Choisissez une variable eVar disponible dans votre suite de rapports. |
+   | Demandbase Custom Dimensions (facultatif) | Choisissez une variable eVar disponible dans votre suite de rapports. |
 
 1. Configurez les noms de la dimension personnalisée (le cas échéant).
 
-   1. Si vous avez choisi d'inclure des dimensions personnalisées à l'étape 4 et mappé l'evar facultative à l'étape 5, vous devez fournir des noms conviviaux pour ces dimensions. Par exemple, si vous choisissez de saisir « stock_ ticker » comme Dimension personnalisée 1, vous devez remplacer la case « Dimension 1 » par « Stock Ticker ».
-   1. Ne **modifiez PAS** les noms des dimensions standard 8 (c.-à-d. Demandbase SID, Nom de société, Industrie, etc.).
+   1. Si vous avez choisi d’inclure des dimensions personnalisées à l’étape 4 et d’associer l’eVar facultative à l’étape 5, vous devez fournir des noms conviviaux pour ces dimensions. Par exemple, si vous avez choisi de saisir "stock_ticker" comme dimension personnalisée 1, vous devez modifier la zone contenant "Dimension 1" en "Stock Ticker".
+   1. Ne modifiez **PAS** les noms des dimensions standard 8 (SID de base de la demande, nom de la société, industrie, etc.).
 
-1. Cochez la case pour que le tableau de bord Demandbase Integration soit automatiquement créé pour vous (recommandé).
-1. Vérifiez tous les éléments de configuration et cliquez **[!UICONTROL sur Activer maintenant]**.
+1. Cochez la case pour que le tableau de bord d’intégration Demandbase soit automatiquement créé (recommandé).
+1. Vérifiez tous les éléments de configuration et cliquez sur **[!UICONTROL Activer maintenant]**.
 
