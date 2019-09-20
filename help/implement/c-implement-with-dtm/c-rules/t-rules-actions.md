@@ -1,13 +1,13 @@
 ---
 description: Configuration des actions que la condition doit déclencher.
-keywords: Gestion dynamique des balises ; rule ; créer une règle ; nouvelle règle ; balises javascript/tierces ; configuration des actions pour la condition ; ajouter un nouveau script ; non-séquentiel javascript ; séquentiel javascript ; html non séquentiel
+keywords: Gestion dynamique des balises;règle;créer une règle;nouvelle règle;balises JavaScript/tierces;configurer des actions pour la condition;ajouter un nouveau script;javascript non séquentiel;javascript séquentiel;html non séquentiel
 seo-description: Configuration des actions que la condition doit déclencher.
 seo-title: Configuration des actions que la condition doit déclencher
-solution: Marketing Cloud, Analytics, Target, gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
 title: Configuration des actions que la condition doit déclencher
-uuid: 2 e 892 f 0 b -7261-41 ee-b 849-6 e 3054 a 38 de 0
+uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
