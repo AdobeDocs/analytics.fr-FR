@@ -6,12 +6,12 @@ seo-title: Rapports Analytics utilisant des données DFA
 solution: Analytics
 title: Rapports Analytics utilisant des données DFA
 topic: Connecteurs de données
-uuid: a 4 fe 4 a 6 c-f 4 a 4-431 d-bce 9-9 eedbcafedd 6
+uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -36,7 +36,7 @@ Les rapports DFA prédéfinis comprennent ce qui suit :
 
 Pour générer un rapport DFA, procédez comme suit :
 
-1. Connectez-vous à Adobe Marketing Cloud.
+1. Connectez-vous à Adobe Experience Cloud.
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. Vérifiez que vous avez sélectionné la suite de rapports où vous avez installé l’intégration DFA.
 
 1. Dans le volet de navigation de gauche, sélectionnez la variable de conversion qui capture les données de clic publicitaire DFA, puis sélectionnez le rapport DFA souhaité.
