@@ -1,25 +1,25 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: WinRT pour Windows 8
-solution: Analytics, Marketing Cloud
+seo-title: WinRT pour Windows 8
+solution: Analytics,Experience Cloud
 subtopic: Notes de mise à jour
-title: WinRT pour Windows 8
+title: WinRT pour Windows 8
 topic: Développeur et mise en œuvre
-uuid: cec 19 d 63-114 c -4 ef 6-a 55 e-db 6 aad 4 e 948 b
+uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# WinRT pour Windows 8{#winrt-for-windows}
+# WinRT pour Windows 8{#winrt-for-windows}
 
 >[!NOTE]
 >
->Pour trouver la version de la bibliothèque actuelle, activez la journalisation du débogage.
+>Pour trouver la version actuelle de la bibliothèque, activez la journalisation du débogage.
 
-[Les téléchargements](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) de bibliothèque mobile sont disponibles [!DNL Developer Connection].
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Date de publication : **18 avril 2013**
 
 Date de publication : **21 mars 2013**
 
-* `ADMS_Measurement.visitorID` est désormais prérenseignée avec la valeur par défaut.
+* `ADMS_Measurement.visitorID` est maintenant prérenseigné avec la valeur par défaut.
 * Correction d’un problème lors de la récupération des informations sur le périphérique.
 
 ## Version 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
