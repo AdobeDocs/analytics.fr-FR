@@ -2,13 +2,13 @@
 description: valeur nulle
 seo-description: valeur nulle
 seo-title: Mac OS X
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notes de mise à jour
 title: Mac OS X
 topic: Développeur et mise en œuvre
-uuid: d 5 e 46 c 86-2 d 00-4 a 18-8 eee-dcon 082761 af
+uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->Ces SDK ont été bloqués et ne sont plus pris en charge ou distribués par Adobe.
+>Ces kits SDK ont été supprimés et ne sont plus pris en charge ni distribués par Adobe.
 
 >[!NOTE]
 >
->Pour trouver la version de la bibliothèque actuelle, activez la journalisation du débogage.
+>Pour trouver la version actuelle de la bibliothèque, activez la journalisation du débogage.
 
-[Les téléchargements](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) de bibliothèque mobile sont disponibles [!DNL Developer Connection].
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 ## Version 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
@@ -61,7 +61,7 @@ Date de publication : **18 avril 2013**
 
 Date de publication : **21 mars 2013**
 
-* `ADMS_Measurement.visitorID` est désormais prérenseignée avec la valeur par défaut.
+* `ADMS_Measurement.visitorID` est maintenant prérenseigné avec la valeur par défaut.
 
 ## Version 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
