@@ -2,11 +2,11 @@
 description: Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience Analytics.
 seo-description: Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience Analytics.
 seo-title: Questions fréquentes
-solution: Marketing Cloud
+solution: 'Activation '
 title: Questions fréquentes
-uuid: 9 dfc 8 f 19-f 9 b 2-4 c 2 e-bff 9-3 d 91 cfe 01 bca
+uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -47,7 +47,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q : Comment créer une destination Analytics dans Audience Manager ?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> Voir <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configuration d’une destination Analytics dans AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Une fois une destination Analytics créée et enregistrée, combien de temps faut-il pour que les données apparaissent dans mes suites de rapports sélectionnées ?</b> </p> </td> 
@@ -58,7 +58,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
    <td colname="col2"> <p>Une destination Analytics disparaît de la section Mises en correspondance de destinations d’un segment lorsque vous sélectionnez l’option <span class="uicontrol">Mapper automatiquement tous les segments actuels et futurs</span> dans <span class="uicontrol">Mappages des segments </span>. </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>Pour éviter ceci, sélectionnez <span class="uicontrol">Mapper les segments manuellement</span> au lieu de l’option de mappage automatique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Q : Est-ce que cela me donne toutes les informations d'AAM, dans Analytics ?</b> </p> </td> 
+   <td colname="col1"> <p> <b>Q : Cela me donnera-t-il toutes les informations d’AAM, dans Analytics ?</b> </p> </td> 
    <td colname="col2"> <p>Non, seules les données relatives aux personnes qui consultent votre site pendant ou après l’activation d’audiences Audience Manager et pendant/après la qualification des segments sont incluses. </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Q : En quoi cette fonctionnalité diffère-t-elle de la destination des cookies hérités dans Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Les segments sont qualifiés et renvoyés en réel - temps - sur le même accès. </p> <p>Les noms conviviaux sont affichés automatiquement. </p> </td> 
+   <td colname="col2"> <p>Les segments sont qualifiés pour et sont renvoyés en temps réel - sur le même accès. </p> <p>Les noms conviviaux sont affichés automatiquement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Que se passe-t-il si certaines de mes suites de rapports contiennent des données personnelles et d’autres pas ?</b> </p> </td> 
@@ -101,7 +101,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q : Pourquoi est-ce que je vois « Limite d'audience atteinte » dans mon rapport Analytics ? (Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>Q : Pourquoi la limite d’audience est-elle atteinte dans mon rapport Analytics ? (Remarque : ceci sera également représenté sous les noms d’ID d’audience = -1 et "::max_audiences_beyond::" dans Data Warehouse).</b> </p> </td> 
    <td colname="col2"> <p>Par défaut, l’intégration Audience Analytics pour AAM envoie à Analytics tous les segments pour lesquels un visiteur est admissible, accès par accès. Si un visiteur appartient à plus de 150 segments AAM au cours d’un même accès, les <b>150 segments les plus récemment qualifiés</b> sont envoyés à Analytics, tandis que la liste des segments restants est tronquée. </p> <p>Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience. </p> <p>Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un accès particulier, mais cela peut se produire dans un nombre réduit de cas. Si la mention « Limite d’audience atteinte » apparaît dans vos rapports, vous avez deux possibilités : </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b> : Continuez de laisser l’intégration fonctionner dans sa version prête à l’emploi, qui envoie les 150 segments les plus récemment qualifiés pour un visiteur particulier. </li> 
@@ -125,12 +125,12 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Pourquoi ne puis-je pas activer la redirection côté serveur pour certaines suites de rapports dans les paramètres d’administration d’Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Seules les suites associées à votre organisation Experience Cloud peuvent être activées. </p> </td> 
+   <td colname="col2"> <p>Seules les suites mappées à votre organisation Experience Cloud peuvent être activées. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+Pour plus de questions fréquentes sur cette rubrique, consultez FAQ [sur le transfert côté](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)serveur.
 
 ## Questions fréquentes d’ordre général {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -142,7 +142,7 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Quelle est la différence entre « audiences » dans AAM et « segments » dans Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Voir <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Comprendre les segments dans Analytics et Audience Manager </a>. </p> <p>Les audiences AAM sont envoyées et partagées en tant que composants « Dimension » pour une utilisation dans Analytics. Elles n’apparaîtront pas en tant que segments dans le Créateur de segments, mais en tant que dimensions que vous pouvez utiliser pour créer des segments. </p> </td> 
+   <td colname="col2"> <p>Voir <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>Les audiences AAM sont envoyées et partagées en tant que composants « Dimension » pour une utilisation dans Analytics. Elles n’apparaîtront pas en tant que segments dans le Créateur de segments, mais en tant que dimensions que vous pouvez utiliser pour créer des segments. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Quelle est la différence entre les attributs du client et les données de clients intégrées à partir d’AAM ?</b> </p> </td> 
