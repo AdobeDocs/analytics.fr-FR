@@ -2,13 +2,13 @@
 description: Notes de mise à jour cumulées pour iOS.
 seo-description: Notes de mise à jour cumulées pour iOS.
 seo-title: iOS
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notes de mise à jour
 title: iOS
 topic: Développeur et mise en œuvre
-uuid: cc 98 f 8 f 2-f 619-4 b 31-abf 9-e 43 f 4 deac 64 f
+uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Notes de mise à jour cumulées pour iOS.
 
 >[!NOTE]
 >
->Pour trouver la version de la bibliothèque actuelle, activez la journalisation du débogage.
+>Pour trouver la version actuelle de la bibliothèque, activez la journalisation du débogage.
 
 Les téléchargements de bibliothèque mobile sont disponibles sur [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) et sur [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
 
@@ -67,7 +67,7 @@ The [!DNL iOS] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
    <td colname="2"> <p> Vous pouvez désormais désactiver les messages plein écran lorsque VoiceOver est en cours d’exécution. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> <span class="keyword">Analytics</span> </p> </td> 
+   <td colname="1"> <p><span class="keyword"> Analytics</span> </p> </td> 
    <td colname="2"> <p> Gestion améliorée de l’accès aux bases de données en lecture seule. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -91,7 +91,7 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Service d’identification des visiteurs </p> </td> 
-   <td colname="2"> <p> Ajout d’un horodatage et de l’ID d’organisation de Marketing Cloud au paramètre <code>adobe_mc</code>.  </p> </td> 
+   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configuration </p> </td> 
@@ -316,7 +316,7 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Nouvelles méthodes d’identification des visiteurs de Marketing Cloud </td> 
+   <td colname="1"> Nouvelles méthodes du service d’identification des visiteurs Experience Cloud </td> 
    <td colname="2"> <p>Ajout des nouvelles méthodes suivantes : </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -444,7 +444,7 @@ The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following chang
 
 ## Version 4.5 {#section_53DFAF8CFD614F69B3168014EF84DE9F}
 
-[!DNL iOS] Le SDK version 4.5 comprend les modifications suivantes :
+The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_A69D0B8DA45348B8A5D6A014126F97C2"> 
  <thead> 
@@ -486,7 +486,7 @@ The [!DNL iOS] SDK version 4.6 (September 17, 2015) includes the following chang
 
 Date de publication : **24 novembre 2014**
 
-* Nouveau – Intégration d’Adobe Marketing Cloud ID
+* Nouveau - Intégration d’Adobe Experience Cloud ID
 * Journaux de débogage améliorés pour plus de clarté
 
 ## Version 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
@@ -547,7 +547,7 @@ Date de publication : **30 janvier 2014**
 
 Date de publication : **27 septembre 2013**
 
-[!DNL iOS] SDK 4.x pour les Solutions Marketing Cloud propose maintenant les nouvelles fonctionnalités suivantes :
+[!DNL iOS] SDK 4.x pour les solutions Experience Cloud est désormais disponible, avec les nouvelles fonctionnalités suivantes :
 
 * Améliorations significatives des performances. Tout le traitement est accompli dans les threads en arrière-plan ; le SDK est « thread-safe ».
 * Géolocalisation et points ciblés
@@ -600,7 +600,7 @@ Date de publication : **18 avril 2013**
 
 Date de publication : **21 mars 2013**
 
-* `ADMS_Measurement.visitorID` est désormais prérenseignée avec la valeur par défaut.
+* `ADMS_Measurement.visitorID` est maintenant prérenseigné avec la valeur par défaut.
 
 ## Version 3.1.4 {#section_B04D1A4858A84A19AA65A57609C9F53F}
 
@@ -741,7 +741,7 @@ Date de publication : **janvier 2012**
 Date de publication : **novembre 2011**
 
 * Added support for [!DNL iOS] 5.
-* [!DNL AppMeasurement] for [!DNL iOS] a été mis à jour afin de ne plus utiliser la valeur UDID obsolète comme valeur par défaut pour visitorid. Si vous définissez un ID visiteur personnalisé dans votre application (`s.visitorID = @12345`, par exemple), cette modification ne vous concerne pas. Si vous ne définissez pas de visitorID personnalisé, au lieu d’utiliser la valeur UDID pour le visitor ID, un ID aléatoire est généré lors du lancement initial et il est ensuite stocké dans une clé Paramètres par défaut de l’utilisateur. This key is used by [!DNL AppMeasurement] from that point forward. Elle sera également sauvegardée et restaurée au cours du processus de sauvegarde d’application standard.
+* [!DNL AppMeasurement] pour [!DNL iOS] a été mis à jour afin de ne plus utiliser la valeur UDID obsolète comme valeur par défaut pour visitorID. Si vous définissez un ID visiteur personnalisé dans votre application (`s.visitorID = @12345`, par exemple), cette modification ne vous concerne pas. Si vous ne définissez pas de visitorID personnalisé, au lieu d’utiliser la valeur UDID pour le visitor ID, un ID aléatoire est généré lors du lancement initial et il est ensuite stocké dans une clé Paramètres par défaut de l’utilisateur. This key is used by [!DNL AppMeasurement] from that point forward. Elle sera également sauvegardée et restaurée au cours du processus de sauvegarde d’application standard.
 
 * Updated calls from the [!DNL iOS] Best Practices plug-in that are not associated with a page view to send hits using trackLink. Cela permet d’éviter que ces accès n’enregistrent des pages vues avec la valeur par défaut du nom « nom de l’application/version ».
 
