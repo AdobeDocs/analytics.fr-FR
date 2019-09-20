@@ -1,13 +1,13 @@
 ---
-description: Créez des conditions pour les règles d’appel direct.
-keywords: Gestion dynamique des balises ; rule ; créer une règle ; nouvelle règle ; règle d'appel direct
-seo-description: Créez des conditions pour les règles d’appel direct.
+description: Création de conditions pour les règles d’appel direct.
+keywords: Gestion dynamique des balises;règle;créer une règle;nouvelle règle;règle d’appel direct
+seo-description: Création de conditions pour les règles d’appel direct.
 seo-title: Création de conditions pour les règles d’appel direct
-solution: Marketing Cloud, Analytics, Target, gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
 title: Création de conditions pour les règles d’appel direct
-uuid: bab 0 e 058-a 5 b 8-4039-8333-5 e 8 f 3 d 06 ade 4
+uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
