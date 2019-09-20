@@ -1,31 +1,31 @@
 ---
-description: Répertorie les conditions préalables pour les clients Adobe et Dynamic Signal.
-seo-description: Répertorie les conditions préalables pour les clients Adobe et Dynamic Signal.
-seo-title: Conditions préalables à l'intégration
+description: Répertorie les conditions préalables requises pour les clients Adobe et Dynamic Signal.
+seo-description: Répertorie les conditions préalables requises pour les clients Adobe et Dynamic Signal.
+seo-title: Conditions préalables à l’intégration
 solution: Analytics
-title: Conditions préalables à l'intégration
-uuid: 3092 cbb 2-6 f 69-479 a-a 7 b 4-3 c 7108 ffcd 03
+title: Conditions préalables à l’intégration
+uuid: 3092cbb2-6f69-479a-a7b4-3c7108ffcd03
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Conditions préalables à l'intégration{#integration-prerequisites}
+# Conditions préalables à l’intégration{#integration-prerequisites}
 
-Répertorie les conditions préalables pour les clients Adobe et Dynamic Signal.
+Répertorie les conditions préalables requises pour les clients Adobe et Dynamic Signal.
 
-## Conditions préalables pour les clients Adobe {#section-b8a0b4f9b41649a68513f80397fb10e0}
+## Conditions préalables requises pour les clients Adobe {#section-b8a0b4f9b41649a68513f80397fb10e0}
 
-* Doit être un client Adobe Analytics actuel.
-* Il doit s'agir d'un utilisateur administrateur Adobe Marketing Cloud disposant d'autorisations pour activer les connecteurs de données.
-* Doit comporter au moins 1 variable evar disponible et activée dans votre suite de rapports.
+* Doit être un client actuel d’Adobe Analytics.
+* Doit être un utilisateur administrateur Adobe Experience Cloud disposant des autorisations nécessaires pour activer les connecteurs de données.
+* Vous devez avoir au moins 1 variable eVar disponible et activée dans votre suite de rapports.
 
-## Conditions préalables pour les clients Signal dynamique {#section-468ccc1d532e4e738c9e610650ad3fff}
+## Conditions préalables requises pour les clients de signaux dynamiques {#section-468ccc1d532e4e738c9e610650ad3fff}
 
-* Doit être un client voicestorm actuel.
-* Doit avoir un ID de communauté voicestorm valide.
+* Doit être un client VoiceStorm actuel.
+* Doit posséder un ID de communauté VoiceStorm valide.
 
