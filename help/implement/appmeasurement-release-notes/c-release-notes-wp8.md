@@ -1,25 +1,25 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Windows Phone 8
-solution: Analytics, Marketing Cloud
+seo-title: Windows Phone 8
+solution: Analytics,Experience Cloud
 subtopic: Notes de mise à jour
-title: Windows Phone 8
+title: Windows Phone 8
 topic: Développeur et mise en œuvre
-uuid: 7378969 a-d 219-42 bf -9750 0-141 acc 9 e 4 b 7 d
+uuid: 7378969a-d219-42bf-9750-141ac9e4b7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Windows Phone 8{#windows-phone}
+# Windows Phone 8{#windows-phone}
 
 >[!NOTE]
 >
->Pour trouver la version de la bibliothèque actuelle, activez la journalisation du débogage.
+>Pour trouver la version actuelle de la bibliothèque, activez la journalisation du débogage.
 
-[Les téléchargements](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) de bibliothèque mobile sont disponibles [!DNL Developer Connection].
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Date de publication : **21 mars 2013**
 
 Date de publication : **26 février 2013**
 
-* `ADMS_Measurement.visitorID` est désormais prérenseignée avec la valeur par défaut.
+* `ADMS_Measurement.visitorID` est maintenant prérenseigné avec la valeur par défaut.
 * Correction d’un problème en raison duquel des réponses automatiques étaient parfois envoyées à partir de la mémoire cache.
 
 ## Version 3.0.1 {#section_5865E881249441ADBB03A9637548650F}
