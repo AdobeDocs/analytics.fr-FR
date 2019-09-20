@@ -1,17 +1,17 @@
 ---
 description: Adobe Audience Manager (AAM) est une puissante plateforme de gestion de données qui permet de créer des profils d’audience uniques à partir d’intégrations de données de première partie, deuxième partie/partenaire et tierce partie. Ces profils d’audience permettent aux annonceurs de définir les segments à plus forte valeur dans n’importe quel canal numérique.
 seo-description: Adobe Audience Manager (AAM) est une puissante plateforme de gestion de données qui permet de créer des profils d’audience uniques à partir d’intégrations de données de première partie, deuxième partie/partenaire et tierce partie. Ces profils d’audience permettent aux annonceurs de définir les segments à plus forte valeur dans n’importe quel canal numérique.
-seo-title: Présentation de l'audience Analytics
-solution: Marketing Cloud
-title: Présentation de l'audience Analytics
-uuid: 86 ef 9391-dd 6 a -495 f-a 10 e-e 98 bc 069 dde 4
+seo-title: Audience Analytics - Aperçu
+solution: 'Activation '
+title: Audience Analytics - Aperçu
+uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Présentation de l'audience Analytics
+# Audience Analytics - Aperçu
 
 Adobe Audience Manager (AAM) est une puissante plateforme de gestion de données qui permet de créer des profils d’audience uniques à partir d’intégrations de données de première partie, deuxième partie/partenaire et tierce partie. Ces profils d’audience permettent aux annonceurs de définir les segments à plus forte valeur dans n’importe quel canal numérique.
 
@@ -45,8 +45,8 @@ Assurez-vous que les conditions préalables suivantes sont réunies :
 
 * Vous êtes à la fois client d’Audience Manager et d’Adobe Analytics.
 * Vous êtes un administrateur d’Audience Manager.
-* Vous utilisez Identity Service v 1.5 ou une version ultérieure.
+* Vous utilisez Identity Service version 1.5 ou ultérieure.
 * Les suites de rapports AAM et Adobe Analytics sont [mappées sur la même organisation Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
 * You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
 
-These prerequisites are described in the [Audience Analytics Workflow](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83).
+Ces conditions préalables sont décrites dans le flux de travail [Analyses d’](../../integrate/c-audience-analytics/c-workflow/audiences-workflow.md#concept_A5F067D14C794B759A1D92526DE27F83)audience.
