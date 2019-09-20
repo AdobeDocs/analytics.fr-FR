@@ -1,18 +1,18 @@
 ---
 description: Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. La méthode de configuration automatique gère le code AppMeasurement pour vous.
-keywords: Gestion dynamique des balises ; modules externes ; évaluation ; effet sur les paramètres actuels ; historique des révisions ; pièges potentiels ; identifiant de suite de rapports ; code de devise ; serveur de suivi ; serveur de suivi SSL ; code personnalisé ; gestion des bibliothèques
+keywords: Gestion dynamique des balises;modules externes;test;effet sur les paramètres actuels;historique des révisions;risques potentiels;ID de suite de rapports;code de devise;serveur de suivi;serveur de suivi ssl;code personnalisé;gestion de bibliothèque
 seo-description: Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. La méthode de configuration automatique gère le code AppMeasurement pour vous.
-seo-title: FAQ sur l'outil Adobe Analytics
-solution: Marketing Cloud, Analytics, Target, gestion dynamique des balises
-title: FAQ sur l'outil Adobe Analytics
-uuid: 8 fcef 893-e 305-4 a 95-a 033-9066 a 56 b 09 cd
+seo-title: FAQ sur l’outil Adobe Analytics
+solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
+title: FAQ sur l’outil Adobe Analytics
+uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# FAQ sur l'outil Adobe Analytics
+# FAQ sur l’outil Adobe Analytics
 
 Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. The automatic configuration method manages the [!DNL AppMeasurement] code for you.
 
@@ -26,7 +26,7 @@ Des FAQ relatives à la configuration automatique du déploiement d’Adobe Ana
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Où placer mes modules logiciels enfichables lors de l’implémentation d’Adobe Analytics via la gestion dynamique des balises ? </p> </td> 
-   <td colname="col2"> <p> Si vous utilisez la gestion dynamique des balises pour héberger manuellement la variable <code>s_code</code>, vous pouvez ajouter des modules logiciels enfichables dans le même éditeur que la variable <code>s_code</code> hébergée, simplement comme vous le feriez dans une implémentation d’Adobe Analytics classique. </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. Les deux méthodes d’implémentation doivent être d’efficacité égale. </p> </td> 
+   <td colname="col2"> <p> Si vous utilisez la gestion dynamique des balises pour héberger manuellement la variable <code>s_code</code>, vous pouvez ajouter des modules logiciels enfichables dans le même éditeur que la variable <code>s_code</code> hébergée, simplement comme vous le feriez dans une implémentation d’Adobe Analytics classique. </p> <p>Cependant, vous pouvez également placer les modules externes dans l’éditeur dans la section <span class="term"> Personnaliser le code</span> de page des paramètres de l’outil. Les deux méthodes d’implémentation doivent être d’efficacité égale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si j’apporte des modifications de configuration dans la nouvelle version de l’outil, puis-je le tester lors de l’évaluation avant de le publier pour production ? </p> </td> 
@@ -58,5 +58,5 @@ Pour éviter ces problèmes, assurez-vous que :
 * Les identifiants de suites de rapports sont correctement saisis dans l’outil.
 * Les identifiants de suites de rapports dans l’outil correspondent aux identifiants du code [!DNL AppMeasurement].
 * Les champs de configuration du code de devise, du jeu de caractères, du serveur de suivi et du serveur de suivi SSL sont correctement définis avec des valeurs prises en charge.
-* Custom code is defined in [!DNL Library Management].
+* Le code personnalisé est défini dans [!DNL Library Management].
 
