@@ -1,50 +1,50 @@
 ---
-description: Procédure d'utilisation de l'assistant d'intégration.
-seo-description: Procédure d'utilisation de l'assistant d'intégration.
-seo-title: Exécution de l'assistant d'intégration
+description: Procédure d’utilisation de l’assistant d’intégration.
+seo-description: Procédure d’utilisation de l’assistant d’intégration.
+seo-title: Fin de l'Assistant d'intégration
 solution: Analytics
-title: Exécution de l'assistant d'intégration
-uuid: 7 d 82 b 7 fa -0 d 14-4 b 30-b 96 d -7 e 2 e 7 d 8 a 5 eb 0
+title: Fin de l'Assistant d'intégration
+uuid: 7d82b7fa-0d14-4b30-b96d-7e2e7d8a5eb0
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Exécution de l'assistant d'intégration{#completing-the-integration-wizard}
+# Fin de l'Assistant d'intégration{#completing-the-integration-wizard}
 
-Procédure d'utilisation de l'assistant d'intégration.
+Procédure d’utilisation de l’assistant d’intégration.
 
-Pour activer l'intégration, vous devez exécuter l'assistant d'intégration Lyris dans l'interface des Connecteurs de données.
+Pour activer l’intégration, vous devez exécuter l’assistant d’intégration de Lyris dans l’interface des connecteurs de données.
 
-1. Accédez à la zone Connecteurs de données (anciennement Genesis) dans Adobe Marketing Cloud.
+1. Accédez à la zone Connecteurs de données (anciennement Genesis) dans Adobe Experience Cloud.
 
    ![](assets/data_connectors.png)
 
-1. Sous **[!UICONTROL Ajouter une intégration]**, faites glisser le module Lyris dans Adobe Marketing Cloud. Cette opération ouvre l'intégration du connecteur de données Lyris.
+1. Sous **[!UICONTROL Ajouter une intégration]**, faites glisser et déposez le module externe Lyris dans Adobe Experience Cloud. Cela ouvre l’intégration du connecteur de données Lyris.
 
    ![](assets/add_integration.png)
 
-1. Sous **[!UICONTROL Paramètres généraux]**, sélectionnez une suite de rapports et attribuez un nom à l'intégration.
-1. Renseignez toutes vos informations liées au compte Lyplastique sous Valeurs **[!UICONTROL personnalisées]**.
+1. Sous Paramètres **** généraux, sélectionnez une suite de rapports et attribuez un nom à l’intégration.
+1. Renseignez toutes les informations relatives à votre compte Lyris sous Valeurs **** personnalisées.
 
    ![](assets/general_settings.png)
 
-1. Sélectionnez les evars et événements réservés dans les menus déroulants.
+1. Sélectionnez les eVars et événements réservés appropriés dans les menus déroulants.
 
    ![](assets/variable_mapping.png)
 
-1. Vous pouvez choisir vos propres segments sous **[!UICONTROL Vos segments]** , indépendamment des 3 segments Partenaires automatisés.
-1. Cette intégration peut nécessiter de télécharger quelques points de données vers votre compte Lyris. Vous pouvez choisir d'accorder l'accès à cette action sous **[!UICONTROL Demande d'accès]**.
-1. Sous **[!UICONTROL Collecte de données]**, vous pouvez choisir d'utiliser une solution automatisée ou manuelle (plug-in JavaScript) pour collecter les paramètres de chaîne de requête à partir de l'URL de la page d'entrée. Si vous choisissez d'avoir une solution automatisée, entrez votre paramètre de chaîne de requête pour l'ID de message et l'ID de destinataire. Pour un module JavaScript, contactez votre consultant Adobe.
+1. Vous pouvez choisir vos propres segments sous **[!UICONTROL Vos segments]** , à l’exception des trois segments de partenaire automatisés.
+1. Cette intégration peut nécessiter le téléchargement de quelques points de données vers votre compte Lyris. Vous pouvez choisir d’autoriser cet accès sous Demande **[!UICONTROL d’]** accès.
+1. Sous Collecte **[!UICONTROL de]** données, vous pouvez choisir une solution automatisée ou manuelle (module externe JavaScript) pour collecter les paramètres de chaîne de requête à partir de l’URL de la page d’entrée. Si vous optez pour une solution automatisée, saisissez le paramètre de chaîne de requête pour l’ID de message et l’ID de destinataire. Pour un module externe JavaScript, contactez votre consultant Adobe.
 
    ![](assets/data_collection.png)
 
-1. Vous pouvez choisir que le tableau de bord Lyris et les signets soient automatiquement générés.
+1. Vous pouvez choisir de générer automatiquement le tableau de bord et les signets Lyris.
 
    ![](assets/dashboard_generation.png)
 
-1. Examinez le résumé de l'intégration et cliquez **[!UICONTROL sur Activer]**.
+1. Passez en revue le résumé de l’intégration et cliquez sur **[!UICONTROL Activer]**.
