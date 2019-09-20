@@ -1,13 +1,13 @@
 ---
 description: Cette section contient la description des champs des paramètres généraux des cookies utilisés pour le déploiement de Dynamic Tag Management dans Adobe Analytics.
-keywords: Gestion dynamique des balises ; cookies ; identifiant visiteur ; espace de noms du visiteur ; périodes de domaine ; fp domain points ; transaction id ; durée de vie du cookie
+keywords: Gestion dynamique des balises;cookies;id visiteur;espace de noms du visiteur;périodes du domaine;périodes du domaine fp;ID de transaction;durée de vie du cookie
 seo-description: Cette section contient la description des champs des paramètres généraux des cookies utilisés pour le déploiement de Dynamic Tag Management dans Adobe Analytics.
 seo-title: Cookies
-solution: Marketing Cloud, Analytics, gestion dynamique des balises
+solution: Experience Cloud,Analytics,Gestion dynamique des balises
 title: Cookies
-uuid: 9 c 81 ecbb -0 f 02-4 c 1 a-a 5 a 5-426 cdea 57 f 38
+uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
 
-**[!UICONTROL *`Property`*]** &gt;** [! UICONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
 
 Edit Tool]** &gt; **[!UICONTROL Cookies]**
 
@@ -42,7 +42,7 @@ Edit Tool]** &gt; **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> Nombre de points du domaine FP </td> 
-   <td colname="col2"> <p>La variable <span class="term"> Fpcookiedomainperiods</span> concerne les cookies définis par JavaScript (<code> s_ sq</code>, <code> s_ cc</code>, plug-ins) qui sont intrinsèquement des cookies propriétaires, même si votre implémentation utilise les domaines tiers <span class="filepath"> 2 o 7. net</span> ou <span class="filepath"> omtrdc. net</span> . </p> <p>See <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>La variable <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>Voir <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ID de transaction </td> 
