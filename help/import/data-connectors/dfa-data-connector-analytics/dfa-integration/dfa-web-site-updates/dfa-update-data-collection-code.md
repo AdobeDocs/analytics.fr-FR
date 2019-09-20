@@ -6,12 +6,12 @@ seo-title: Mise à jour du code de collecte de données de votre site web
 solution: Analytics
 title: Mise à jour du code de collecte de données de votre site web
 topic: Connecteurs de données
-uuid: a 97 d 1 b 62-f 883-48 b 1-9516-4 f 889 e 701901
+uuid: a97d1b62-f883-48b1-9516-4f889e701901
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -31,7 +31,7 @@ Pour activer l’intégration DFA sur votre site Web, vous devez mettre à jour 
 
 ## Module Integrate pour DFA {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-L’intégration DFA met à profit le module Integrate d’Adobe Marketing Cloud, qui ajoute la fonctionnalité à votre code de collecte de données JavaScript ( `s_code.js`). Le module Integrate fait partie du fichier.zip lorsque vous téléchargez le code appmeasurement pour Javascript à partir du Gestionnaire [de code](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). Contactez votre conseiller Adobe uniquement si vous avez besoin d'aide supplémentaire pour le trouver.
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). Le module Integrate fait partie du fichier .zip lorsque vous téléchargez le code AppMeasurement pour JavaScript depuis le Gestionnaire de [code](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). Contactez votre consultant Adobe uniquement si vous avez besoin d’aide supplémentaire pour le trouver.
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 
@@ -101,5 +101,5 @@ L’ajout du code de collecte incorpore les modules externes supplémentaires qu
 
 >[!CAUTION]
 >
->L'un des mécanismes utilisés par le module externe pour éliminer les requêtes DFA superflues est un cookie de visite basé sur un domaine. Une suite de rapports d’intégration qui s’étend sur plusieurs domaines gonfle les données de clics et affichages publicitaires quand les visiteurs traversent les domaines après un affichage ou clic publicitaire influencé par DFA.
+>L’un des mécanismes utilisés par le module externe pour éliminer les requêtes DFA superflues est un cookie de visite basé sur un domaine. Une suite de rapports d’intégration qui s’étend sur plusieurs domaines gonfle les données de clics et affichages publicitaires quand les visiteurs traversent les domaines après un affichage ou clic publicitaire influencé par DFA.
 
