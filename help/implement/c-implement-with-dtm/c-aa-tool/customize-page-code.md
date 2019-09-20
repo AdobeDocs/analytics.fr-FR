@@ -1,13 +1,13 @@
 ---
 description: Utilisez la description des champs de Dynamic Tag Management pour personnaliser le code de page lors du déploiement d’Analytics.
-keywords: Gestion dynamique des balises ; personnaliser le code de page ; open editor ; execute
+keywords: Gestion dynamique des balises;personnaliser le code de page;ouvrir l’éditeur;exécuter
 seo-description: Utilisez la description des champs de Dynamic Tag Management pour personnaliser le code de page lors du déploiement d’Analytics.
 seo-title: Personnalisation du code de page
-solution: Marketing Cloud, Analytics, Target, gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
 title: Personnalisation du code de page
-uuid: b 7 cad 069-3 eb 8-4388-b 0 b 0-34 f 54001 e 05 f
+uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -18,7 +18,7 @@ Utilisez la description des champs de Dynamic Tag Management pour personnaliser 
 
 Ajoutez des modules externes pour veiller à ce que le code s’exécute en même temps que l’outil Analytics. Pour plus d’informations sur les modules externes d’Analytics, voir  [Modules externes de mise en œuvre](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-**[!UICONTROL *`Property`*]** &gt;** [! UICONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL ![](assets/settings_gear.png)
 
 Edit Tool]** &gt; **[!UICONTROL Customize Page Code]**
 
