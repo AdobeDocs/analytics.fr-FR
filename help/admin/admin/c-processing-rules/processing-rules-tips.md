@@ -1,23 +1,23 @@
 ---
 description: Cette section contient des instructions relatives au test des règles de traitement, ainsi qu’une liste des erreurs courantes à éviter.
 seo-description: Cette section contient des instructions relatives au test des règles de traitement, ainsi qu’une liste des erreurs courantes à éviter.
-seo-title: Conseils et astuces concernant les règles de traitement
+seo-title: Astuces et conseils concernant les règles de traitement
 solution: Analytics
 subtopic: Règles de traitement
-title: Conseils et astuces concernant les règles de traitement
+title: Astuces et conseils concernant les règles de traitement
 topic: Outils d’administration
-uuid: e 3 a 9 ff 8 a-b 81 a -41 c 9-9 f 61-e 40 cb 4 bf 7 d 99
+uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 ---
 
 
-# Conseils et astuces concernant les règles de traitement
+# Astuces et conseils concernant les règles de traitement
 
 Cette section contient des instructions relatives au test des règles de traitement, ainsi qu’une liste des erreurs courantes à éviter.
 
-## Test des règles de traitement {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
+## Tester les règles de traitement {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
 Cette section contient des instructions relatives au test des règles de traitement avant leur déploiement en production.
 
@@ -39,7 +39,7 @@ Lors de la création d’une règle, veuillez tenir compte d’une éventuelle v
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-Il importe également de tenir compte de l’ordre de traitement. Dans l’exemple suivant, il s’avère que l’eVar personnalisée Nom de page précédent va être définie sur l’URL si Nom de page n’est pas présent. Cependant, l’URL est placée dans le nom de la page après l’application de règles de traitement. Dans ce cas, le nom de page est donc vide s’il n’est pas défini sur la page.
+Il importe également de tenir compte de l’ordre de traitement. Dans l'exemple suivant, il apparaît que l'eVar personnalisée Nom de page précédente sera définie sur l'URL si le Nom de page n'est pas présent. Cependant, l’URL est placée dans le nom de la page après l’application de règles de traitement. Dans ce cas, le nom de page est donc vide s’il n’est pas défini sur la page.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
