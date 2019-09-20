@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Notes de mise à jour
 title: Code H JavaScript (hérité)
 topic: Développeur et mise en œuvre
-uuid: 4586 b 250-0 f 1 b -45 b 8-829 c -18 dc 1201956 f
+uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -126,7 +126,7 @@ Date de publication : **11 juin 2014**
 
 Date de publication : **22 mai 2014**
 
-* Prise en charge du [service d’identification des visiteurs de Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Prise en charge du service [d’identification des visiteurs](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud.
 * Prise en charge de l’[intégration de Target à Analytics](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -273,25 +273,22 @@ Le tableau ci-dessous répertorie les variables de configuration et les mises à
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>Cet indicateur est utilisé pour désactiver le suivi des liens forcé pour les navigateurs WebKit. Le suivi des liens forcé est activé par défaut pour les navigateurs WebKit et est ignoré par les autres navigateurs. </p> <p> <b>Valeur par défaut</b> </p> <p> <code> true </code> </p> <p> <b>Exemple</b> </p> 
-    <code class="syntax javascript">s. useforcedlinktracking &amp; amp ; nbsp ; = &amp; amp ; nbsp ; false </code>
-  </td> 
+    <code class="syntax javascript">
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p>Nombre maximal de millisecondes d’attente pour la fin du suivi avant d’exécuter <code>doneAction</code> transmis dans <code>s.tl </code>. Cette valeur spécifie la durée d’attente maximale. Si l’appel de suivi des liens est effectué avant ce délai d’expiration, <code>doneAction</code> est exécuté immédiatement. Si vous remarquez que les appels de suivi de liens ne sont pas effectués, vous devez augmenter ce délai d’expiration. </p> <p> <b>Valeur par défaut</b> </p> <p>250 </p> <p> <b>Exemple</b> </p> 
-    <code class="syntax javascript">s. forcedlinktrackingtimeout &amp; amp ; nbsp ; = &amp; amp ; nbsp ; 500 </code>
-  </td> 
+    <code class="syntax javascript">
+      s.mandatoryLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink (<code>s.tl </code>) </td> 
    <td colname="col2"> <p>Effectue le suivi des liens personnalisés, de téléchargement et de sortie. Fournit un paramètre facultatif pour spécifier une action de navigation à exécuter une fois l’appel de suivi des liens effectué sur les navigateurs WebKit. </p> <p> <b>Syntaxe</b> </p> 
-    <code class="syntax javascript">s. tl (linkobject, linktype, linkname, variableoverrides, doneaction) </code>
-  <p> <b>doneAction</b> : (facultatif) spécifie l’action à exécuter une fois que l’appel de suivi des liens est envoyé ou a expiré (selon la valeur spécifiée par <code>s.forcedLinkTrackingTimeout </code>). <code>doneAction</code> peut être la chaîne 'navigate', ce qui entraîne la méthode à définir <code>document.location</code> sur l’attribut <code>href</code> de <code>linkObject </code>. <code>doneAction</code> peut être également une fonction permettant une personnalisation avancée. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>Exemples</b> </p> 
-    <code class="syntax javascript">&lt; a &amp; amp ; nbsp ; href = »… " &amp; amp ; nbsp ; onclick = » s. tl (this,'o ','mylink ', null,'navigate ') ; return &amp; amp ; nbsp ; false " &gt; Click &amp; amp ; nbsp ; Ici &lt;/a &gt; </code><code class="syntax javascript">
- 
- 
- &lt; a &amp; amp ; nbsp ; href = " #" &amp; amp ; nbsp ; onclick = "s. tl (this,'o ','mylink ', null, function () {if (confirmer ? '))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </code> </td> 
+    <code class="syntax javascript">
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b> : (facultatif) spécifie l’action à exécuter une fois que l’appel de suivi des liens est envoyé ou a expiré (selon la valeur spécifiée par <code>s.forcedLinkTrackingTimeout </code>). <code>doneAction</code> peut être la chaîne 'navigate', ce qui entraîne la méthode à définir <code>document.location</code> sur l’attribut <code>href</code> de <code>linkObject </code>. <code>doneAction</code> peut être également une fonction permettant une personnalisation avancée. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>Exemples</b> </p> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; </code> <code class="syntax javascript">&lt;a&amp;nbsp;href="#"&amp;nbsp;nbsp click="s.tl(this,'o','MyLink',null,function(){if(verify('Continuer?')))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; </code> </td> 
   </tr> 
  </tbody> 
 </table>
