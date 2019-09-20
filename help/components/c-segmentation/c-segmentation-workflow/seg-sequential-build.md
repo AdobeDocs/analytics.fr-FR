@@ -7,7 +7,7 @@ title: Création des segments séquentiels
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
+source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ---
 
@@ -262,10 +262,17 @@ Les groupes logiques peuvent sembler décourageants - voici quelques bonnes prat
 Si vous souhaitez regrouper des points de contrôle séquentiels, votre "conteneur" est Groupe logique. Toutefois, si ces points de contrôle séquentiels doivent se produire dans une portée d’accès ou de visite unique, un accès ou un conteneur "visite" sont requis. (Bien sûr, "accès" n'a aucun sens pour un groupe de points de contrôle séquentiels, lorsqu'un accès ne peut pas créditer plus d'un point de contrôle).
 
 **Les groupes logiques simplifient-ils la création de segments séquentiels ?**
-Oui, ils le peuvent. Supposons que vous essayiez de répondre à cette question : Un visiteur a-t-il consulté les pages B, C ou D après la page A ? Vous pouvez créer ce segment sans conteneur Groupe logique, mais il est complexe et laborieux :
-Page du conteneur de visiteurs A [Page A PUIS Page B PUIS Page C PUIS Page D] OU [Page du conteneur de visiteurs A PUIS Page B PUIS Page D ENSUITE Page C] OU [Page du conteneur de visiteurs A PUIS Page C PUIS Page B PUIS Page D] Ou [Page du conteneur de visiteurs A PUIS Page C PUIS Page D, Page B ou Conteneur de visiteurs Page A, PUIS Page D, PUIS Page B, PUIS Page C Ou Page Conteneur De Visiteurs A, PUIS Page D, PUIS Page C, PUIS Page B][][]
+Oui, ils le peuvent. Supposons que vous essayiez de répondre à cette question : Un visiteur **a-t-il consulté la page B, la page C ou la page D après la page A ?**
 
-Un conteneur Groupe logique simplifie considérablement le segment, comme illustré ici :
+Vous pouvez créer ce segment sans conteneur Groupe logique, mais il est complexe et laborieux :
+* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
+* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
+* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
+* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
+* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
+* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
+
+Un conteneur Groupe logique simplifie considérablement la création de ce segment, comme illustré ici :
 
 ![](assets/logic-grp-example.png)
 
