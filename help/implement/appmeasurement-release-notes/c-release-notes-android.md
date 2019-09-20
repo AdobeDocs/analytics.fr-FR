@@ -1,14 +1,14 @@
 ---
 description: Notes de mise à jour cumulées pour la bibliothèque mobile Android.
 seo-description: Notes de mise à jour cumulées pour la bibliothèque mobile Android.
-seo-title: 'Android   '
-solution: Analytics, Marketing Cloud
+seo-title: Android
+solution: Analytics,Experience Cloud
 subtopic: Notes de mise à jour
-title: 'Android   '
+title: Android
 topic: Développeur et mise en œuvre
-uuid: 32232 d 28-3459-4 f 78-bb 00-ca 3163 c 63461
+uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Notes de mise à jour cumulées pour la bibliothèque mobile Android.
 
 >[!NOTE]
 >
->Pour trouver la version de la bibliothèque actuelle, activez la journalisation du débogage.
+>Pour trouver la version actuelle de la bibliothèque, activez la journalisation du débogage.
 
 Les téléchargements de bibliothèque mobile sont disponibles sur [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) et sur [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1).
 
@@ -67,7 +67,7 @@ The [!DNL Android] SDK version 4.13.3 (Jan 19, 2017) includes the following chan
    <td colname="2"> <p> Résolution d’un problème empêchant l’affichage des messages d’alerte sans bouton Clic publicitaire. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> <span class="keyword">Analytics</span> </p> </td> 
+   <td colname="1"> <p><span class="keyword"> Analytics</span> </p> </td> 
    <td colname="2"> <p> Gestion améliorée de l’accès aux bases de données en lecture seule. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -91,7 +91,7 @@ The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Service d’identification des visiteurs </p> </td> 
-   <td colname="2"> <p>Ajout d’un horodatage et de l’ID d’organisation de Marketing Cloud au paramètre <code>adobe_mc</code>.  </p> </td> 
+   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Lien profond </p> </td> 
@@ -272,7 +272,7 @@ The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following c
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Nouvelles méthodes d’identification des visiteurs de Marketing Cloud </td> 
+   <td colname="1"> Nouvelles méthodes du service d’identification des visiteurs Experience Cloud </td> 
    <td colname="2"> <p>Ajout des méthodes suivantes : </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
      <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
@@ -374,7 +374,7 @@ The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following c
 
 ## Version 4.5 {#section_6E7614D4AEA24B7E81C4FC094882F062}
 
-[!DNL Android] Le SDK version 4.5 comprend les modifications suivantes :
+The [!DNL Android] SDK version 4.5 includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_BF98A1E904EB4314828AC58A2A6E7016"> 
  <thead> 
@@ -393,7 +393,7 @@ The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following c
 
 ## Version 4.4 {#section_8D7FC183081E4BCFA8ADC33FB55E057C}
 
-[!DNL Android] Le SDK version 4.4 comprend les modifications suivantes :
+The [!DNL Android] SDK version 4.4 includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_E8628F3806E24A0FB7157847D97C7B7A"> 
  <thead> 
@@ -418,7 +418,7 @@ The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following c
 
 Date de publication : **24 novembre 2014**
 
-* Nouveau – Intégration d’Adobe Marketing Cloud ID
+* Nouveau - Intégration d’Adobe Experience Cloud ID
 * Journaux de débogage améliorés pour plus de clarté
 * Résolution des blocages potentiels en cas de vérification des messages in-app
 
@@ -459,12 +459,12 @@ Date de publication : **23 avril 2014**
 Date de publication : **17 avril 2014**
 
 * Nouveau - Suivi des balises Bluetooth.
-* Nouveau - Les applications horodatées activées, les blocages sont antidatés vers la session correcte.
-* Nouveau - Les applications horodatées activées, la session précédente est envoyée dans un accès antidaté vers la session correcte. (et plus dans la session précédente).
+* Nouveau - Les applications dont l’horodatage est activé, les accès en cas de blocage sont antidatés à la session correcte.
+* Nouveau - Dans les applications pour lesquelles l’horodatage est activé, la session précédente est envoyée dans un accès antidaté vers la session correcte. (et plus dans la session précédente).
 * Nouveau - Traitement par lot des accès.
-* Correction du suivi des référents Google Play avec un délai configurable afin de permettre des données de référent Google différées.
-* Résolution des avertissements strictmode qui pouvaient se produire dans des scénarios spécifiques.
-* Correction d'un problème qui entraînait très rarement le verrouillage de la bibliothèque si certaines méthodes étaient invoquées dans un ordre spécifique.
+* Correction du suivi du référent Google Play avec un délai d’attente configurable pour permettre le report des données du référent Google.
+* Correction des avertissements StrictMode susceptibles de se produire dans des scénarios spécifiques.
+* Correction d’un problème en raison duquel la bibliothèque pouvait très rarement se verrouiller si certaines méthodes étaient appelées dans un ordre spécifique.
 
 ## Version 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
@@ -503,7 +503,7 @@ Date de publication : **14 novembre 2013**
 
 Date de publication : **27 septembre 2013**
 
-[!DNL Android] SDK 4.x pour les Solutions Marketing Cloud propose maintenant les nouvelles fonctionnalités suivantes :
+[!DNL Android] SDK 4.x pour les solutions Experience Cloud est désormais disponible, avec les nouvelles fonctionnalités suivantes :
 
 * Améliorations significatives des performances. Tout le traitement est accompli dans les threads en arrière-plan ; le SDK est « thread-safe ».
 * Géolocalisation et points ciblés
