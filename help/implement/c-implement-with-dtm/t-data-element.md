@@ -1,13 +1,13 @@
 ---
 description: Création d’un élément de données dans Dynamic Tag Management.
-keywords: Gestion dynamique des balises ; data element ; créer un élément de données ; name ; type ; valeur par défaut ; forcer la valeur en minuscules ; mémoriser cette valeur pour
+keywords: Gestion dynamique des balises;élément de données;créer un élément de données;nom;type;valeur par défaut;forcer la minuscule valeur;mémoriser cette valeur pour
 seo-description: Création d’un élément de données dans Dynamic Tag Management.
 seo-title: Création d’un élément de données
-solution: Marketing Cloud, Analytics, Target, gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
 title: Création d’un élément de données
-uuid: eacd 5 c 60-6197-4129-a 9 e 1-a 39 e 9 a 58 b 38 a
+uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
