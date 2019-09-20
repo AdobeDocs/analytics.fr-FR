@@ -1,33 +1,33 @@
 ---
-description: Procédure de vérification de l'efficacité de l'intégration Lyris/Adobe Analytics.
-seo-description: Procédure de vérification de l'efficacité de l'intégration Lyris/Adobe Analytics.
-seo-title: Vérification de l'intégration
+description: Cette section décrit la procédure à suivre pour vérifier que l’intégration de Lyris/Adobe Analytics a réussi.
+seo-description: Cette section décrit la procédure à suivre pour vérifier que l’intégration de Lyris/Adobe Analytics a réussi.
+seo-title: Vérification de l’intégration
 solution: Analytics
-title: Vérification de l'intégration
-uuid: ae 233342-167 c -4 eb 9-8 b 1 b -8999 e 4 ac 3863
+title: Vérification de l’intégration
+uuid: ae233342-167c-4eb9-8b1b-8999e4ac3863
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Vérification de l'intégration{#verifying-the-integration}
+# Vérification de l’intégration{#verifying-the-integration}
 
-Procédure de vérification de l'efficacité de l'intégration Lyris/Adobe Analytics.
+Cette section décrit la procédure à suivre pour vérifier que l’intégration de Lyris/Adobe Analytics a réussi.
 
-Une fois toutes les étapes de déploiement terminées, vous pouvez vérifier que l'intégration transfère correctement les données.
+Une fois toutes les étapes du déploiement terminées, vous pouvez vérifier que l’intégration réussit à transférer des données.
 
 >[!NOTE]
 >
->Le démarrage de l'échange de données prend quelques jours. Veuillez contacter Lyris après avoir activé l'intégration.
+>Il faut quelques jours pour que l'échange de données commence. Assurez-vous de contacter Lyris après avoir activé l’intégration.
 
-1. Accédez à votre intégration Lyris dans Connecteurs de données. Sous l'onglet **[!UICONTROL Assistance]** &gt; **[!UICONTROL Journal d'activité d'intégration]**, voir les événements tels que **[!UICONTROL les données de mesure importées avec succès]** et/ou **[!UICONTROL les données de classification importées avec succès]**:
+1. Accédez à votre intégration Lyris dans Connecteurs de données. Sous l’onglet **[!UICONTROL Prise en charge]** &gt; Journal **[!UICONTROL d’activité]** d’intégration, vous devriez voir des événements tels que les données de **[!UICONTROL mesure importées avec succès]** et/ou les données de **[!UICONTROL classification importées avec succès :]**
 
    ![](assets/integration_info.png)
 
-1. Affichez maintenant vos rapports Lyris avec les mesures appropriées. Dans Adobe Marketing Cloud, sélectionnez **[!UICONTROL Rapports et analyses]**.
+1. Affichez maintenant vos rapports de messages Lyris avec les mesures appropriées. Dans Adobe Experience Cloud, sélectionnez **[!UICONTROL Rapports et analyses]**.
 1. Sélectionnez la suite de rapports appropriée.
-1. Sous **[!UICONTROL Conversions personnalisées]**, sélectionnez les **[!UICONTROL rapports ID de message]** et choisissez **[!UICONTROL ID de message/Nom du message]**.
+1. Sous Conversions **** personnalisées, sélectionnez les rapports **[!UICONTROL d’ID de]** message et choisissez ID de **[!UICONTROL message/Nom]** du message.
