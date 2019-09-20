@@ -1,13 +1,13 @@
 ---
 description: Testez les règles Annuler la publication depuis votre console si vous utilisez l’hébergement Akamai.
-keywords: Gestion dynamique des balises ; rule ; switcher plugin ; akamai ; test akamai ; règles non publiées ; tester les règles non publiées ; règle de débogage
+keywords: Gestion dynamique des balises;règle;module externe de commutation;akamai;test akamai;règles non publiées;test des règles non publiées;règle de débogage
 seo-description: Testez les règles Annuler la publication depuis votre console si vous utilisez l’hébergement Akamai.
 seo-title: Test des règles non publiées pour l’hébergement Akamai
-solution: Marketing Cloud, Analytics, Target, gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
 title: Test des règles non publiées pour l’hébergement Akamai
-uuid: 979 e 3 d 74-8 d 96-47 d 0-b 581-cf 5371248434
+uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,10 +22,10 @@ Les étapes suivantes indiquent comment tester sans utiliser le module externe d
 
 1. Accédez à la console web sur votre site, puis tapez `localStorage.setItem('sdsat_stagingLibrary', true)`.
 1. Press **[!UICONTROL Enter]**.
-1. Type `_satellite.setDebug(true)`, then press **[!UICONTROL Enter]**.
+1. Saisissez `_satellite.setDebug(true)`, puis appuyez sur **[!UICONTROL Entrée]**.
 1. Actualisez la page.
 
    Cette action permet de charger la bibliothèque d’évaluation et de définir le débogueur pour que vous puissiez afficher toutes les informations de toutes les règles (publiées / non publiées) se déclenchant sur la page.
-1. When finished, run `localStorage.setItem('sdsat_stagingLibrary', false)`, then press **[!UICONTROL Enter]**.
+1. Une fois terminé, exécutez `localStorage.setItem('sdsat_stagingLibrary', false)`, puis appuyez sur **[!UICONTROL Entrée]**.
 
    Résultat de l’étape
