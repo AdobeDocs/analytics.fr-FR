@@ -4,7 +4,7 @@ audience: utilisateur final
 user-guide-title: Guide de mise en œuvre Analytics
 user-guide-url: /content/help/fr-FR/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 755909e0d3c3be60f911fe80acad7baaff248c13
 
 ---
 
@@ -116,7 +116,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
       + [Mesure de liens personnalisés sur des protocoles mobiles](js-implementation/c-additional-libraries/mobile-link-tracking.md)
    + Variables pour la mise en œuvre et le compte rendu des performances Analytics{#variables-analytics-reporting}
       + [Variables - Aperçu](js-implementation/c-variables/sc-variables.md)
-      + [Variables de configuration](js-implementation/c-variables/configuration-variables.md)
+      + [Liste des variables de configuration](js-implementation/c-variables/configuration-variables.md)
+      + Variables de configuration {#config-var}
+         + [s.account](js-implementation/c-variables/config-vars/s-account.md)
       + [Variables de données contextuelles](js-implementation/c-variables/context-data-variables.md)
       + [Variables dynamiques](js-implementation/c-variables/dynvars-overview.md)
       + [Variables de page](js-implementation/c-variables/page-variables.md)
