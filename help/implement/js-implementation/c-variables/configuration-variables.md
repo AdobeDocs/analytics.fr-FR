@@ -1,7 +1,7 @@
 ---
 description: Variables de configuration définies dans AppMeasurement.js.
 keywords: Mise en œuvre d’Analytics
-seo-description: Variables de configuration définies dans AppMeasurement.js pour Adobe Analytics
+seo-description: Configuration variables set in AppMeasurement.js for Adobe Analytics
 seo-title: Variables de configuration
 solution: Analytics
 subtopic: Variables
@@ -9,12 +9,12 @@ title: Variables de configuration
 topic: Développeur et mise en œuvre
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: 9212d70ab8fd7bc0ccfb7e781a92b1731f0a40bd
 
 ---
 
 
-# Présentation des variables de configuration
+# Configuration variables overview
 
 Les variables de configuration contrôlent le mode de collecte et de traitement des données dans les rapports. Variables de configuration les plus courantes généralement définies dans le fichier principal (global JavaScript AppMeasurement.js). Ces variables peuvent être définies dans le code de niveau page et les liens Analytics, le cas échéant.
 
@@ -30,33 +30,33 @@ Ces variables de configuration peuvent être utilisées aux fins suivantes :
 
 >[!NOTE]
 >
->[!DNL AppMeasurement] exige que toutes les variables de configuration soient définies avant l’appel initial à la fonction track `t()`. Si des variables de configuration sont définies après l’appel à `t()`, des résultats inattendus peuvent se produire. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+>[!DNL AppMeasurement] exige que toutes les variables de configuration soient définies avant l’appel initial à la fonction track `t()`. If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
-Pour obtenir de l’aide sur des variables de configuration spécifiques, consultez les liens suivants :
+For help with specific configuration variables, click any of the following links:
 
-* [s_account](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Spécifiez la suite de rapports dans laquelle les données sont stockées et signalées.
+* [s.account](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Spécifiez la suite de rapports dans laquelle les données sont stockées et signalées.
 
 * [s.dynamicAccountSelection](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Sélectionnez dynamiquement la suite de rapports en fonction de l’URL de chaque page.
 
-* [s.dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Spécifiez les règles utilisées pour déterminer la suite de rapports de destination.
+* [s.dynamicAccountList: Specify the rules used for determining the destination report suite.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 
-* [s.dynamicAccountMatch](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Use the DOM object to retrieve the section of the URL to which all rules are applied.
+* [s.dynamicAccountMatch](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Utilisez l’objet DOM pour récupérer la section de l’URL à laquelle s’appliquent toutes les règles.
 
-* [s.dynamicVariablePrefix](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Déployez le marquage pour les variables renseignées de manière dynamique.
+* [s.dynamicVariablePrefix](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Deploy flagging for dynamically-populated variables.
 
-* [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Convertissez les données entrantes au format UTF-8 pour le stockage et la création de rapports par Analytics.
+* [s.charSet: Convert incoming data to UTF-8 for storage and reporting by Analytics.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 
-* [s.currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Déterminez le taux de conversion à appliquer aux recettes.
+* [s.currencyCode: Determine the conversion rate to apply to revenue.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 
-* [s.cookieDomain](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Détermine le domaine dans lequel les `s_cc` cookies et `s_sq` les cookies sont définis.
+* [s.cookieDomain](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Determines which domain the `s_cc` and `s_sq` cookies are set.
 
-* [s.cookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Déterminez le domaine pour `s_cc` et les `s_sq` cookies en spécifiant le nombre de points contenus dans le domaine de l’URL de la page.
+* [s.cookieDomainPeriods: Determine the domain for  and  cookies by specifying the number of periods in the domain of the page URL.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)`s_cc``s_sq`
 
-* [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Spécifiez les cookies définis par JavaScript (`s_sq`, `s_cc`, plug-ins) qui sont intrinsèquement des cookies propriétaires, même avec des domaines tiers `2o7.net` ou `omtrdc.net` .
+* [s.fpCookieDomainPeriods: Specify cookies set by JavaScript (, , plug-ins) that are inherently first-party cookies, even with third-party  or  domains.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)`s_sq``s_cc``2o7.net``omtrdc.net`
 
-* [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Déterminer la durée de vie d’un cookie tel qu’il est traité par les serveurs de collecte de données et JavaScript.
+* [s.cookieLifetime: Determine lifespan of a cookie as processed by both JavaScript and data collection servers.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 
-* [s.doPlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Référez-vous à la fonction et autorisez-la à être appelée à l’emplacement approprié dans le fichier JavaScript.
+* [s.doPlugins: Refer and allow the function to be called at the appropriate location within the JavaScript file.](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 
 * [s.registerPreTrackCallback](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Fonction permettant de prendre comme paramètres à la fois le rappel (une fonction) et les paramètres de cette fonction.
 
@@ -66,13 +66,13 @@ Pour obtenir de l’aide sur des variables de configuration spécifiques, consul
 
 * [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Déterminez si un lien sur lequel l’utilisateur a cliqué est un lien de sortie.
 
-* [strackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Déterminez si les données ClickMap sont collectées.
+* [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Déterminez si les données ClickMap sont collectées.
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Incluez une liste d’extensions de fichiers séparées par des virgules.
 
 * [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Inclut une liste de filtres séparés par des virgules qui représentent les liens qui font partie du site.
 
-* [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Determine whether or not the query string should be included in the Exit Links and File Download reports.
+* [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Déterminez si la chaîne de requête doit être incluse dans les rapports Liens de sortie et Téléchargements de fichiers.
 
 * [s.linkTrackVars](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html): Incluez une liste de variables séparées par des virgules qui sont envoyées avec des liens personnalisés, de sortie et de téléchargement.
 
