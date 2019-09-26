@@ -1,25 +1,25 @@
 ---
-description: Déployez Adobe Analytics à l'aide de la gestion dynamique des balises en créant l'outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
-keywords: Implémentation d'Analytics ; implementation method ; gestion dynamique des balises ; dtm ; outil d'analyse ; propriété ; type d'outil ; nom de l'outil ; méthode de configuration ; analytics premium ; evars ; events
-seo-description: Déployez Adobe Analytics à l'aide de la gestion dynamique des balises en créant l'outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
-seo-title: Ajout de l'outil Adobe Analytics
+description: Déployez Adobe Analytics à l’aide de la gestion dynamique des balises en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
+keywords: Implémentation d’Analytics;méthode d’implémentation;gestion dynamique des balises;dtm;outil d’analyse;propriété;type d’outil;nom de l’outil;méthode de configuration;prime d’analyse;evars;événements
+seo-description: Déployez Adobe Analytics à l’aide de la gestion dynamique des balises en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
+seo-title: Ajout de l’outil Adobe Analytics
 solution: Analytics
-title: Ajout de l'outil Adobe Analytics
+title: Ajout de l’outil Adobe Analytics
 topic: Développeur et mise en œuvre
-uuid: 1 c 54331 e-de 03-4 f 44-8002-a 19723 c 585 b 0
+uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
 
-# Ajout de l'outil Adobe Analytics
+# Ajout de l’outil Adobe Analytics
 
-Déployez Adobe Analytics à l'aide de la gestion dynamique des balises en créant l'outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
+Déployez Adobe Analytics à l’aide de la gestion dynamique des balises en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
 
 >[!NOTE]
 >
->For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>Pour améliorer le suivi des visiteurs, nous vous recommandons vivement d’activer le service [d’identité](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Ajout d’un outil Adobe Analytics {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -50,11 +50,11 @@ Déployez Adobe Analytics à l'aide de la gestion dynamique des balises en créa
    <td colname="col2"> <p> <b>Automatique</b> (recommandé) : utilisez Dynamic Tag Management pour gérer la configuration. This method enables automatic synchronization of <span class="keyword"> Adobe Analytics</span> report suites via a <span class="keyword"> Experience Cloud</span> login or Web Services ID, and manages the [!DNL AppMeasurement] code. </p> <p>Une fois les comptes connectés, Dynamic Tag Management exporte les identifiants et noms des suites de rapports <span class="keyword">Adobe Analytics</span> dans l’interface de configuration de l’outil, permettant une vitesse accrue de déploiement de l’outil avec moins de risques d’erreurs de l’utilisateur. </p> <p> <p>Remarque : Vous devez choisir l’option <span class="wintitle">Automatique</span> si vous êtes un client <span class="keyword">Adobe Analytics Premium</span>. Voir la section <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local">Activation d’Adobe Analytics Premium</a> ci-dessous. </p> </p> <p>Renseignez les champs spécifiques à la configuration automatique : </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
      <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b> : (valeur par défaut) utilise la connexion unique de <span class="keyword">Experience Cloud</span>. Indiquez votre Experience Cloud ID et votre mot de passe. </p> </li> 
-     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Services web</b> : indiquez le nom d’utilisateur et le secret partagé. </p> <p>Les informations d’identification du secret partagé sont situées dans <span class="uicontrol">Outils d’administration</span> &gt; <span class="uicontrol">Paramètres de la société</span> &gt; <a href="https://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html" format="html" scope="external">Services web</a>. </p> <p>Développeurs, voir <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">Obtention de l’accès aux services web pour l’API d’entreprise</a> pour de l’aide sur l’obtention des informations d’identification des services web. </p> </li> 
+     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>Services web</b> : indiquez le nom d’utilisateur et le secret partagé. </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html" format="html" scope="external"> Web Services</a>. </p> <p>Développeurs, voir <a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">Obtention de l’accès aux services web pour l’API d’entreprise</a> pour de l’aide sur l’obtention des informations d’identification des services web. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manuel</b>: Gestion manuelle du [! Code DNL appmeasurement]. Vous pouvez télécharger le code <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span> depuis <span class="ignoretag"><span class="uicontrol">Outils d’administration</span> &gt; <span class="uicontrol">Gestionnaire de code</span></span>. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>Renseignez les champs spécifiques à une configuration manuelle : </p> 
+   <td colname="col2"> <p> <b>Manuel</b>: Gérez manuellement le code [!DNL AppMeasurement]. Vous pouvez télécharger le code <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span> depuis <span class="ignoretag"><span class="uicontrol">Outils d’administration</span> &gt; <span class="uicontrol">Gestionnaire de code</span></span>. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>Renseignez les champs spécifiques à une configuration manuelle : </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID du compte de production :</b> (obligatoire) compte de production pour la collecte des données. Pour Analytics, il s’agit de l’identifiant de votre suite de rapports. Dynamic Tag Management installe automatiquement le compte correct dans l’environnement de production et d’évaluation. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID du compte d’évaluation :</b> (obligatoire) utilisé dans l’environnement de développement ou de test. Pour Analytics, il s’agit de l’identifiant de votre suite de rapports. Un compte d’évaluation permet de séparer vos données de test de l’environnement de production. </p> </li> 
@@ -92,7 +92,7 @@ Vous pouvez modifier un outil Adobe Analytics existant afin de changer ses param
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Activer la configuration automatique </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>Cette option permet à Dynamic Tag Management de récupérer automatiquement la configuration de votre compte <span class="keyword">Adobe Analytics</span>. </p> <p>La dernière [! disponibleLe code DNL appmeasurement] est utilisé et les notifications de mise à niveau s'affichent pour sélection lorsque de nouvelles versions deviennent disponibles. Vous pouvez également restaurer le précédent [! versions DNL appmeasurement si nécessaire, par exemple pour des raisons de compatibilité. Un maximum de cinq versions antérieures s’affiche. </p> </td> 
+   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>Cette option permet à Dynamic Tag Management de récupérer automatiquement la configuration de votre compte <span class="keyword">Adobe Analytics</span>. </p> <p>The latest available [!DNL AppMeasurement] code is used and upgrade notifications are displayed for selection as new versions become available. You can also roll back to previous [!DNL AppMeasurement] versions as necessary, such as for compatibility reasons. Un maximum de cinq versions antérieures s’affiche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mettre à jour les informations d’identification </p> </td> 
