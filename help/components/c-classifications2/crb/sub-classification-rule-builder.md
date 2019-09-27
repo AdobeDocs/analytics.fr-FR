@@ -1,23 +1,23 @@
 ---
 description: Vous pouvez associer le Créateur de règles de classifications à des sous-classifications afin de simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
 seo-description: Vous pouvez associer le Créateur de règles de classifications à des sous-classifications afin de simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
-seo-title: Sous-classifications et Créateur de règles - cas d'utilisation
+seo-title: Sous-classifications et Créateur de règles – Cas d’utilisation
 solution: Analytics
-subtopic: Gestionnaire
-title: Sous-classifications et Créateur de règles - cas d'utilisation
+subtopic: Classifications
+title: Sous-classifications et Créateur de règles – Cas d’utilisation
 topic: Outils d’administration
-uuid: 6 db 6 a 4 a 9-b 93 c -413 b -8049-1 e 6 cc 1 ba 4 a 38
+uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Sous-classifications et Créateur de règles - cas d'utilisation
+# Sous-classifications et Créateur de règles – Cas d’utilisation
 
 Vous pouvez associer le Créateur de règles de classifications à des sous-classifications afin de simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
 
-## Sub-classifications and the Rule Builder - use case {#concept_6C8672C242544D7487E82886BBFABE6E}
+## Sous-classifications et Créateur de règles – Cas d’utilisation {#concept_6C8672C242544D7487E82886BBFABE6E}
 
 Vous pouvez associer le Créateur de règles de classifications à des sous-classifications afin de simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
 
@@ -49,13 +49,13 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
 >[!NOTE]
 >
->These steps describe how to accomplish the use case described in [Sub-Classifications and the Rule Builder](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
+>Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
 
-1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications).
+1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
    Exemple :
 
-   ![Informations sur les étapes](assets/sub_class_create.png)
+   ![Infos étape](assets/sub_class_create.png)
 
 1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
 
@@ -72,17 +72,17 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
 1. Téléchargez un fichier de classification contenant uniquement les sous-classifications spécifiées.
 
-   See [Multiple-Level Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A).
+   Voir Classifications [à](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)plusieurs niveaux.
 
    Exemple :
 
-   | Clé | Canal | Code de campagne large | Code de campagne large et amp ; Chapeau ; Type de campagne | Code de campagne large et amp ; Chapeau ; Directeur de campagne | ... |
+   | Clé | Canal | Code de campagne large | Code de campagne large&amp;Chapeau;Type de campagne | Code de campagne large&amp;Chapeau;Directeur de campagne | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Marque | Suzanne |  |
    | * |  | 222 | Marque | Frank |  |
 
 1. Pour gérer les tables de recherche, téléchargez un petit fichier (comme illustré ci-dessus).
 
-   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. Ce fichier s’appliquera aux valeurs classées précédemment. De même, si vous créez une sous-classification (telle que *`Creative Theme`* sous la forme d'une sous-classification de *`Creative code`*), vous téléchargez uniquement le fichier de sous-classification, plutôt que le fichier de classification entier.
+   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. Ce fichier s’appliquera aux valeurs classées précédemment. De même, si vous créez une sous-classification (telle que *`Creative Theme`* en tant que sous-classification de *`Creative code`*), vous téléchargez uniquement le fichier de sous-classification, plutôt que l’ensemble du fichier de classification.
 
    Dans le cadre de la création de rapports, ces sous-classifications se comportent exactement comme des classifications de niveau supérieur. Cela a pour effet d’alléger la charge de gestion associée à leur utilisation.
