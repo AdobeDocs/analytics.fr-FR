@@ -1,22 +1,22 @@
 ---
 description: Les rapports standard affichent des données relatives à l’activité du site Web et des visiteurs, des schémas de trafic, des données de référence, des campagnes publicitaires, des données sur la fidélisation des visiteurs, des données de produit, etc. Vous pouvez exécuter des rapports et accéder ensuite à des outils pour configurer des segments, des mesures et des comparaisons de rapport.
 seo-description: Les rapports standard affichent des données relatives à l’activité du site web et des visiteurs, des schémas de trafic, des données de référence, des campagnes publicitaires, des données sur la fidélisation des visiteurs, des données de produit, etc. Vous pouvez exécuter des rapports et accéder ensuite à des outils pour configurer des segments, des mesures et des comparaisons de rapport.
-seo-title: Présentation des rapports
+seo-title: Rapports - Aperçu
 solution: Analytics
-title: Présentation des rapports
+title: Rapports - Aperçu
 topic: Ad Hoc Analysis
-uuid: 36722 dcd -5 dc 9-4047-8 a 17-16 de 876193 bf
+uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Présentation des rapports
+# Rapports - Aperçu
 
 Les rapports standard affichent des données relatives à l’activité du site Web et des visiteurs, des schémas de trafic, des données de référence, des campagnes publicitaires, des données sur la fidélisation des visiteurs, des données de produit, etc. Vous pouvez exécuter des rapports et accéder ensuite à des outils pour configurer des segments, des mesures et des comparaisons de rapport.
 
-## Reports overview {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
+## Rapports - Aperçu {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
 
 Les rapports standard affichent des données relatives à l’activité du site Web et des visiteurs, des schémas de trafic, des données de référence, des campagnes publicitaires, des données sur la fidélisation des visiteurs, des données de produit, etc. Vous pouvez exécuter des rapports et accéder ensuite à des outils pour configurer des segments, des mesures et des comparaisons de rapport.
 
@@ -61,7 +61,7 @@ c_reports_campaigns.xml
 
  -->
 
-Ces rapports sont généralement personnalisés et diffèrent par conséquent d’un analyste à l’autre. Pour plus d’informations, voir [Gestionnaire de campagnes](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=campaign_manager_admin) dans l’aide d’[!DNL Admin Console].
+Ces rapports sont généralement personnalisés et diffèrent par conséquent d’un analyste à l’autre. Pour plus d’informations, voir [Gestionnaire de campagnes](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) dans l’aide d’[!DNL Admin Console].
 
 ## Calculs statistiques {#concept_83FF70DB7895435E985699FE9012D585}
 
