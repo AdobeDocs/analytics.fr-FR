@@ -1,19 +1,19 @@
 ---
 description: Procédure de préparation à l’utilisation des sources de données
 seo-description: Procédure de préparation à l’utilisation des sources de données
-seo-title: Préparation à l'utilisation des sources de données
+seo-title: Préparation à l’utilisation des sources de données
 solution: Analytics
-subtopic: Sources de données
-title: Préparation à l'utilisation des sources de données
+subtopic: Data sources
+title: Préparation à l’utilisation des sources de données
 topic: Développeur et mise en œuvre
-uuid: 876 ea 069-574 b -4 e 23-93 b 7-e 3828 bfd 90 f 5
+uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Préparation à l'utilisation des sources de données
+# Préparation à l’utilisation des sources de données
 
 Procédure de préparation à l’utilisation des sources de données
 
@@ -29,11 +29,11 @@ It is important to understand the metrics or measurements that are contained in 
 
 Une fois les associations appropriées de mesure/événement déterminées pour les données des sources de données, renommez les événements à l’aide de noms explicites correspondant à la mesure concernée.
 
-Voir [Événements de succès](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) dans l’aide des outils d’administration.
+Voir [Événements de succès](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) dans l’aide des outils d’administration.
 
 >[!NOTE]
 >
->Adobe recommande vivement d'utiliser de nouveaux événements vides avec les données de sources de données, mais dans de rares cas, il est logique d'utiliser un événement préexistant.
+>Adobe recommande vivement d’utiliser de nouveaux événements vides avec des données de source de données, mais dans de rares cas, il peut s’avérer judicieux d’utiliser un événement préexistant.
 
 ## Identification de la portée des données {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -41,17 +41,17 @@ Identifiez et rassemblez les données (rapports) que vous souhaitez utiliser pou
 
 Si, par exemple, une mesure de source de donnée évalue les impressions de publicité, votre portée de données est sans doute le code de suivi de campagne. Si vous mesurez les ventes hors ligne, vous pouvez utiliser le code de produit (unité de gestion des stocks) comme portée de données.
 
-Vous pouvez définir plusieurs portées de données pour une mesure ; toutefois, chaque mesure doit fournir une valeur ou combinaison de valeurs appropriée, pour chaque portée de données associée. Si, par exemple, vous importez une mesure Ventes hors ligne et l’associez aux portées de données *`Product`* et *`Partner`* les portées de données, la mesure Ventes hors ligne doit être adaptée à chaque combinaison de produit et partenaire (par exemple, Recettes totales).
+Vous pouvez définir plusieurs portées de données pour une mesure ; toutefois, chaque mesure doit fournir une valeur ou combinaison de valeurs appropriée, pour chaque portée de données associée. Si, par exemple, vous importez une mesure Ventes hors ligne et l’associez aux portées de données *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
 >[!NOTE]
 >
->Il est possible d'importer des mesures totales qui ne peuvent pas être ventilées par portée de données.
+>Il est possible d’importer les mesures totales qui ne peuvent pas être ventilées par dimension de données.
 
 Après avoir défini les portées de données à utiliser avec une source de données, intégrez les données des portées aux rapports marketing en les faisant correspondre à une variable. Utilisez les rapports standard (par exemple, Produit, Code de suivi, Mot-clé de recherche) ou les variables de conversion Trafic (eVars).
 
 Lors de l’utilisation d’eVar, vous pouvez utiliser comme portées de données des eVar existantes ou nouvelles. Après avoir sélectionné une eVar pour recevoir une portée de données à partir des sources de données, veillez à la nommer de façon appropriée.
 
-Voir [Événements de succès](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) dans l’aide d’Analytics.
+Voir [Événements de succès](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) dans l’aide d’Analytics.
 
 ## Code de suivi de campagne {#section_468222796FF449ABAA90D88EB3264CB1}
 
