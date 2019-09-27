@@ -7,7 +7,7 @@ title: Rapports sur les sources de trafic
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -97,7 +97,7 @@ Si, par exemple, un visiteur clique sur un lien du Site A et arrive sur votre s
 
 Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont considérés comme des référents. Par exemple, les pages Web A et Web B sont ajoutées au filtre URL interne, mais la page web C ne l’est pas. Dans ce cas, la page web C est considérée comme un référent.
 
-Pour plus d’informations, voir la rubrique [Filtres URL internes](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) dans l’aide d’[!DNL Admin Console].
+Pour plus d’informations, voir la rubrique [Filtres URL internes](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) dans l’aide d’[!DNL Admin Console].
 
 >[!NOTE]
 >
