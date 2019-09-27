@@ -4,10 +4,10 @@ seo-description: Permet d’identifier les pages qui contiennent des liens rompu
 seo-title: Pages introuvables
 solution: Analytics
 title: Pages introuvables
-topic: Présentation
-uuid: a 1 f 5 f 3 d 1-1 c 4 e -486 c -8913-24 da 573 ad 015
+topic: Rapports
+uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ Permet d’identifier les pages qui contiennent des liens rompus et de mesurer l
 
 **Propriétés**
 
-* Ce rapport fait directement référence à des données de la variable [pageType](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagetype) implémentée sur votre site web.
+* Ce rapport fait directement référence à des données de la variable [pageType](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagetype.html) implémentée sur votre site web.
 * Ce rapport peut être visualisé sous la forme d’un rapport de tendance ou avec classement.
 * Vous pouvez cliquer sur l’icône représentant une loupe pour afficher les principaux référents vers cette page spécifique.
 
