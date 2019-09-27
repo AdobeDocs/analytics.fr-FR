@@ -3,12 +3,12 @@ description: Ajoutez des données hors ligne aux rapports Canal marketing.
 seo-description: Ajoutez des données hors ligne aux rapports Canal marketing.
 seo-title: Ajout de données hors ligne
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: Ajout de données hors ligne
-topic: Reports and Analytics
-uuid: bbf 4661 a-b 6 b 1-4 a 89-a 3 cf-ae 8 dd 785 d 37 d
+topic: Reports & Analytics
+uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -21,9 +21,9 @@ Les canaux en ligne vous permettent de classer les données des visiteurs qui pr
 
 **Intégration des sources de données dans les rapports Canal marketing**
 
-Si vous souhaitez intégrer des [données de sources de données](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_faq) dans les rapports Canal marketing, prenez en compte les points suivants :
+Si vous souhaitez intégrer des [données de sources de données](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html) dans les rapports Canal marketing, prenez en compte les points suivants :
 
-* Les accès standard transmis dans les rapports d’analyse avec un [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID) sont traités normalement par le biais des règles de traitement des canaux marketing.
+* Les accès standard transmis dans les rapports d’analyse avec un [transactionID](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html) sont traités normalement par le biais des règles de traitement des canaux marketing.
 * Les sources de données `transactionID` transmises dans les analyses sont automatiquement associées au canal marketing sur lequel l’accès standard a été traité.
 * Les autres données de sources de données ne passent pas par les règles de traitement des canaux marketing.
 
