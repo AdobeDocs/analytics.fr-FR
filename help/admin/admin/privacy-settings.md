@@ -5,9 +5,9 @@ seo-title: Paramètres de confidentialité
 solution: Analytics
 title: Paramètres de confidentialité
 topic: Outils d’administration
-uuid: 517 b 1 d 9 c-d 36 e -43 c 1-a 796-1787785 a 8747
+uuid: 517b1d9c-d36e-43c1-a796-1787785a8747
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,4 +16,4 @@ source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
 
 Activez les paramètres de confidentialité pour les cookies de navigateur.
 
-Voir [Activation des paramètres de confidentialité pour les cookies de navigateur](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings) (en anglais).
+Voir [Activation des paramètres de confidentialité pour les cookies de navigateur](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html) (en anglais).
