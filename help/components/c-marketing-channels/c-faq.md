@@ -3,12 +3,12 @@ description: Découvrez les bonnes pratiques et les exemples utilisables pour re
 seo-description: Découvrez les bonnes pratiques et les exemples utilisables pour renseigner les différentes règles que vous pouvez configurer pour vos canaux marketing.
 seo-title: Questions fréquentes et exemples
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: Questions fréquentes et exemples
-topic: Reports and Analytics
-uuid: 1 c 63 a 1 b 5-a 191-4855-aa 65-fac 19 ab 1037 a
+topic: Reports & Analytics
+uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -28,7 +28,7 @@ Découvrez les bonnes pratiques et les exemples utilisables pour renseigner les 
 * [Courriel](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
 * [Direct](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 
-Reportez-vous à la section [Création de règles de traitement des canaux marketing](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) pour connaître la définition des champs affichés sur [!UICONTROL la page Règles] de traitement des canaux marketing.
+Reportez-vous à la section [Create Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
 ## Questions fréquentes {#section_E490CEAF0E76422C91D34D8A80A0C573}
 
@@ -37,7 +37,7 @@ Chaque implémentation des règles de traitement des canaux marketing peut être
 **Question** : Mes codes de suivi ne suivent pas de schéma et j’en ai des milliers à spécifier pour mon canal Affilié.
 
 *  Procédez par élimination. Si les canaux Courriel et Affilié utilisent le même paramètre de chaîne de requête, mais que vous n’avez que quelques codes de suivi, vous pouvez spécifier les codes de suivi par courriel dans un ensemble de règles définissant le courriel. Vous classez ensuite tous les autres codes de suivi avec *`affiliates.`*
-* Dans votre système de messagerie, ajoutez un paramètre de chaîne de requête à toutes les URL de page d’accueil, comme par exemple *`&ch=eml`*. Créez un ensemble de règles qui détectera si le paramètre de requête ch est égal à *`eml`*. If it does not contain *`eml`*, then it is an affiliate.
+* Dans votre système de messagerie, ajoutez un paramètre de chaîne de requête à toutes les URL de page d’accueil, comme par exemple *`&ch=eml`*. Créez un ensemble de règles qui détectera si le paramètre de requête ch est égal à *`eml`*. If it does not contain , then it is an affiliate.*`eml`*
 
 **Question** : Les domaines référents contiennent plus de données que prévu.
 
@@ -83,7 +83,7 @@ Ce type de règle « fourre-tout » permet de s’assurer que le trafic des ca
 
 >[!NOTE]
 >
->Il peut y avoir encore un trafic de canal qui peut tomber dans la catégorie Aucun canal identifié. Par exemple : un visiteur sur le site marque une page comme favori puis, au cours de la même visite, revient sur cette page en passant par les favoris. Puisqu’il ne s’agit pas de la première page de la visite, le trafic ne sera pas inclus dans la catégorie des canaux directs ni dans celle des autres canaux, puisqu’il n’y a aucun domaine référent.
+>Il se peut qu'il y ait encore du trafic de canal qui puisse entrer dans la catégorie Aucun canal identifié. Par exemple : un visiteur sur le site marque une page comme favori puis, au cours de la même visite, revient sur cette page en passant par les favoris. Puisqu’il ne s’agit pas de la première page de la visite, le trafic ne sera pas inclus dans la catégorie des canaux directs ni dans celle des autres canaux, puisqu’il n’y a aucun domaine référent.
 
 ## Recherche payante {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -93,7 +93,7 @@ Pour la règle du canal marketing, les paramètres de la [!UICONTROL recherche p
 
 ![](assets/example_paid_search.png)
 
-Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection) dans l’aide destinée à l’administration.
+Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) dans l’aide destinée à l’administration.
 
 ## Recherche naturelle {#section_A4C6B8F0360449BE94F0128FF7C71386}
 
@@ -105,7 +105,7 @@ Pour la règle du canal marketing, les paramètres de la recherche naturelle son
 
 ![](assets/example_natural_search.png)
 
-Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection) dans l’aide destinée à l’administration.
+Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) dans l’aide destinée à l’administration.
 
 ## Affilié {#section_8D142C7074CD4DEC87DF55B691107622}
 
