@@ -1,18 +1,18 @@
 ---
 description: Une fois un rapport exécuté, vous pouvez le personnaliser de manière à afficher et à analyser les données en fonction de vos besoins. Vous pouvez filtrer les données du rapport, modifier la manière dont elles sont présentées graphiquement, modifier leur granularité, etc.
 seo-description: Une fois un rapport exécuté, vous pouvez le personnaliser de manière à afficher et à analyser les données en fonction de vos besoins. Vous pouvez filtrer les données du rapport, modifier la manière dont elles sont présentées graphiquement, modifier leur granularité, etc.
-seo-title: Personnalisation de l'aperçu des rapports
+seo-title: Personnalisation des rapports - Aperçu
 solution: Analytics
-title: Personnalisation de l'aperçu des rapports
-topic: Reports and Analytics
-uuid: 37 d 221 b 7-50 fd -4425-b 2 ba-f 40911 b 72 a 2 f
+title: Personnalisation des rapports - Aperçu
+topic: Reports & Analytics
+uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Personnalisation de l'aperçu des rapports
+# Personnalisation des rapports - Aperçu
 
 Une fois un rapport exécuté, vous pouvez le personnaliser de manière à afficher et à analyser les données en fonction de vos besoins. Vous pouvez filtrer les données du rapport, modifier la manière dont elles sont présentées graphiquement, modifier leur granularité, etc.
 
@@ -38,7 +38,7 @@ Seuls les administrateurs peuvent créer un rapport personnalisé. Lorsque vous 
 
 >[!MORE_LIKE_THIS]
 >
->* [Personnalisation des menus](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [Personnalisation des menus](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
 
 ## Sélection d’une date ou d’une période {#task_9BEF7D4D839A4748B76E8500D1406C34}
