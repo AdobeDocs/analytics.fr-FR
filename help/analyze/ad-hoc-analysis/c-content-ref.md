@@ -1,63 +1,63 @@
 ---
-description: L'analyse ad hoc s'intègre à l'environnement de segmentation Analytics, ce qui vous permet de créer, partager, gérer et appliquer des segments de visiteurs à l'échelle des produits Adobe. Ad - Analyses ad hoc fournit une interface utilisateur basée sur Java pour son créateur de segments et le gestionnaire de segments, identiques aux outils Web utilisés par d'autres outils Analytics, correspondant aux appels serveur et fournissant les mêmes fonctionnalités et fonctionnalités à partir d'une console basée sur Java.
-seo-description: L'analyse ad hoc s'intègre à l'environnement de segmentation Analytics, ce qui vous permet de créer, partager, gérer et appliquer des segments de visiteurs à l'échelle des produits Adobe. Ad - Analyses ad hoc fournit une interface utilisateur basée sur Java pour son créateur de segments et le gestionnaire de segments, identiques aux outils Web utilisés par d'autres outils Analytics, correspondant aux appels serveur et fournissant les mêmes fonctionnalités et fonctionnalités à partir d'une console basée sur Java.
+description: Les analyses ad hoc s’intègrent à l’environnement de segmentation d’Analytics, ce qui vous permet de créer, de partager, de gérer et d’appliquer des segments de visiteurs dans les produits Adobe. Les analyses ad hoc fournissent une interface utilisateur basée sur Java pour le créateur de segments et le gestionnaire de segments, identiques aux outils Web utilisés par d’autres outils Analytics, qui correspondent aux appels serveur et fournissent les mêmes fonctionnalités et fonctionnalités à partir d’une console basée sur Java.
+seo-description: Les analyses ad hoc s’intègrent à l’environnement de segmentation d’Analytics, ce qui vous permet de créer, de partager, de gérer et d’appliquer des segments de visiteurs dans les produits Adobe. Les analyses ad hoc fournissent une interface utilisateur basée sur Java pour le créateur de segments et le gestionnaire de segments, identiques aux outils Web utilisés par d’autres outils Analytics, qui correspondent aux appels serveur et fournissent les mêmes fonctionnalités et fonctionnalités à partir d’une console basée sur Java.
 seo-title: Création de segments
 solution: Analytics
 title: Création de segments
 topic: Ad Hoc Analysis
-uuid: e 14 fb 777-900 a -4700-8 dc 7-56 a 45 c 678 d 29
+uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
 # Création de segments
 
-L'analyse ad hoc s'intègre à l'environnement de segmentation Analytics, ce qui vous permet de créer, partager, gérer et appliquer des segments de visiteurs à l'échelle des produits Adobe. Ad - Analyses ad hoc fournit une interface utilisateur basée sur Java pour son créateur de segments et le gestionnaire de segments, identiques aux outils Web utilisés par d'autres outils Analytics, correspondant aux appels serveur et fournissant les mêmes fonctionnalités et fonctionnalités à partir d'une console basée sur Java.
+Les analyses ad hoc s’intègrent à l’environnement de segmentation d’Analytics, ce qui vous permet de créer, de partager, de gérer et d’appliquer des segments de visiteurs dans les produits Adobe. Les analyses ad hoc fournissent une interface utilisateur basée sur Java pour le créateur de segments et le gestionnaire de segments, identiques aux outils Web utilisés par d’autres outils Analytics, qui correspondent aux appels serveur et fournissent les mêmes fonctionnalités et fonctionnalités à partir d’une console basée sur Java.
 
-Les Ad Hoc Analysis contiennent les anciennes fonctionnalités pour créer des segments et de nouvelles fonctionnalités telles que le [gestionnaire de segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_manage) qui permet de configurer un [processus](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_workflow) de gestion des segments. Comme toujours, vous pouvez créer et enregistrer des segments dans le [créateur de segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build) ou [générer des segments à partir d’un rapport sur les abandons](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=t_seg_fallout) depuis la console des Ad Hoc Analysis, puis les enregistrer dans la bibliothèque d’audiences pour un accès et une application généraux. ![](assets/seg__overview_ad_hoc.png)
+Les Ad Hoc Analysis contiennent les anciennes fonctionnalités pour créer des segments et de nouvelles fonctionnalités telles que le [gestionnaire de segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) qui permet de configurer un [processus](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) de gestion des segments. Comme toujours, vous pouvez créer et enregistrer des segments dans le [créateur de segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html) ou [générer des segments à partir d’un rapport sur les abandons](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_fallout.html) depuis la console des Ad Hoc Analysis, puis les enregistrer dans la bibliothèque d’audiences pour un accès et une application généraux. ![](assets/seg__overview_ad_hoc.png)
 
 ## Segmentation unifiée dans les Ad Hoc Analysis {#section_5FA03A06DE054448AD519CE30C39E294}
 
-Pour obtenir des informations et des instructions pour la création et la gestion de segments dans l’environnement de la segmentation unifiée, notamment les fonctionnalités des analyses ad hoc, reportez-vous à la documentation sur la [segmentation unifiée](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=index).
+Pour obtenir des informations et des instructions pour la création et la gestion de segments dans l’environnement de la segmentation unifiée, notamment les fonctionnalités des analyses ad hoc, reportez-vous à la documentation sur la [segmentation unifiée](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html).
 
 * [Nouvelles fonctionnalités](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
-* [Modifications des définitions de segment](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_definition)
+* [Modifications des définitions de segment](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
 * [Que sont devenus mes segments existants ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
 * [Que sont devenus mes dossiers de segments existants ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
 * [Puis-je gérer tous les segments d’Analytics dans le gestionnaire de segments ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
 * [Qu’est-ce qu’un conteneur Accès ? Est-ce différent d’un conteneur Page vue ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
 * [De quels droits et privilèges ai-je besoin pour utiliser, créer et gérer les segments ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [Que dois-je faire avec les segments en double qui ont le…](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [Que dois-je faire avec les segments en double qui ont le...](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
 * [Quelles sont les recommandations d’Adobe en termes de nettoyage de segments ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
 * [Pourquoi ne puis-je pas supprimer ce segment ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
 * [Informations supplémentaires sur vos segments existants](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## Fonctionnalités {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* Les [segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_overview) fonctionnent dans toutes les suites de rapports. Auparavant, ils étaient propres à une suite de rapports.
-* Le [gestionnaire de segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_manage) permet de configurer des [processus](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_workflow) pour le partage, le marquage, la vérification et l’approbation des segments.
+* Les [segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_overview.html) fonctionnent dans toutes les suites de rapports. Auparavant, ils étaient propres à une suite de rapports.
+* Le [gestionnaire de segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) permet de configurer des [processus](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) pour le partage, le marquage, la vérification et l’approbation des segments.
 
-* Le [créateur de segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_build_ui) a été mis à jour pour simplifier la création de segments.
-* Vous pouvez [marquer les segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_tag) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
+* Le [créateur de segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html) a été mis à jour pour simplifier la création de segments.
+* Vous pouvez [marquer les segments](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers. Previously, you used folders (in [!DNL ad hoc analysis]) to organize your segments.
 
-* Vous pouvez créer des [segments séquentiels](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_sequential) en dehors des Ad Hoc Analysis.
+* Vous pouvez créer des [segments séquentiels](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_sequential.html) en dehors des Ad Hoc Analysis.
 * 
 
 >[!NOTE]
 >
->Dans les analyses ad hoc, vous ne pouvez pas ajouter de plages de dates aux segments. Cette fonctionnalité est disponible dans Analysis Workspace. Vous ne pouvez pas non plus utiliser le séquencement Seulement avant/Seulement après dans les Ad Hoc Analysis.
+>In Ad Hoc Analysis, you cannot add date ranges to segments. Cette fonctionnalité est disponible dans Analysis Workspace. Vous ne pouvez pas non plus utiliser le séquencement Seulement avant/Seulement après dans les Ad Hoc Analysis.
 
 ## Qu’est-il advenu de mes segments existants ? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 Les segments existants continuent à fonctionner de la même manière qu’avant l’introduction de la segmentation Analytics. Les rapports auxquels sont appliqués ces segments continuent de fonctionner correctement.
 
-La plupart des segments prédéfinis et de suite précédents seront migrés sous forme de [modèles de segment](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_templates) dans le créateur de segments. Les modèles de segment servent à créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
+La plupart des segments prédéfinis et de suite précédents seront migrés sous forme de [modèles de segment](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html) dans le créateur de segments. Les modèles de segment servent à créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
 ## Que sont devenus mes dossiers de segments existants ? {#section_FB04DCF775694E69B761DCA53F301C30}
 
-Le gestionnaire de segments utilise des [balises](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_tag) à la place de dossiers (Ad Hoc Analysis). Les noms de vos dossiers sont automatiquement convertis en balises qui sont appliquées aux segments respectifs.
+Le gestionnaire de segments utilise des [balises](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_tag.html) à la place de dossiers (Ad Hoc Analysis). Les noms de vos dossiers sont automatiquement convertis en balises qui sont appliquées aux segments respectifs.
 
 ## Puis-je gérer tous les segments d’Analytics dans le gestionnaire de segments ? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
@@ -73,7 +73,7 @@ Notez qu’aucune modification n’a été apportée au fonctionnement de ce con
 
 Tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Ces segments peuvent être directement partagés avec tout autre utilisateur d’Analytics.
 
-Les administrateurs peuvent modifier les segments, [les partager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=t_seg_share) avec des groupes et [définir des droits](https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_rights) d’accès aux segments pour l’entreprise.
+Les administrateurs peuvent modifier les segments, [les partager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_share.html) avec des groupes et [définir des droits](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html) d’accès aux segments pour l’entreprise.
 
 ## Que dois-je faire des segments en double portant le même nom mais ayant des définitions différentes ? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -92,7 +92,7 @@ Comme les segments fonctionnent dans plusieurs suites de rapports, il est possib
 
 ## Pourquoi ne puis-je pas supprimer ce segment ? {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
-Si le segment a été [publié sur Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=t_publish_audience_segment), vous ne pouvez pas le supprimer ni le modifier. Vous pouvez toutefois le copier et modifier la version copiée.
+Si le segment a été [publié sur Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html), vous ne pouvez pas le supprimer ni le modifier. Vous pouvez toutefois le copier et modifier la version copiée.
 
 ## Informations supplémentaires sur vos segments existants {#section_83ACAB256F394DCD8B424D8920BDD853}
 
@@ -117,7 +117,7 @@ Si le segment a été [publié sur Experience Cloud](https://marketing.adobe.co
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visites d’une recherche payante </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visites avec cookie d’identifiant visiteur </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Ces segments seront migrés en tant que  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_templates" format="http" scope="external">modèles de segments dans le Créateur de segments.</a> </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
+   <td colname="col2"> <p>Ces segments seront migrés en tant que  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">modèles de segments dans le Créateur de segments.</a> </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segments Experience Cloud (Suite) : 
@@ -130,7 +130,7 @@ Si le segment a été [publié sur Experience Cloud](https://marketing.adobe.co
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visites avec 5+ visites précédentes* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visites depuis Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/?f=seg_templates" format="http" scope="external">modèles de segments dans le Créateur de segments.</a> En outre, plusieurs nouveaux modèles de segments ont été ajoutés. </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
+   <td colname="col2"> <p> La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">modèles de segments dans le Créateur de segments.</a> En outre, plusieurs nouveaux modèles de segments ont été ajoutés. </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segments d’administrateur <p>(également appelés segments « globaux ») </p> </td> 
