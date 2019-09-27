@@ -4,10 +4,10 @@ seo-description: Indique les zones de votre site qui sont les plus consultées p
 seo-title: Sections du site
 solution: Analytics
 title: Sections du site
-topic: Présentation
-uuid: 6839 c 566-f 88 f -4979-9 cf 5-52 a 77 c 0 b 0416
+topic: Rapports
+uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Indique les zones de votre site qui sont les plus consultées par les utilisateurs. Les sections du site peuvent inclure des groupes de produits, similaires aux catégories que vous définissez. Vous pouvez, par exemple, définir un groupe de pages Caméras, un groupe Ordinateurs, etc. Les données relatives au rapport Sections du site de conversion sont importées du rapport Section du site dans le groupe Trafic, lequel reçoit ses informations de la variable de canal dans le code de suivi. Utilisez ce rapport pour identifier le plus grand impact sur les statistiques du site des éléments de différentes sections.
 
-* Ce rapport fait directement référence à des données de la variable [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_channel) implémentée sur votre site web.
+* Ce rapport fait directement référence à des données de la variable [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) implémentée sur votre site web.
 * Ce rapport peut être visualisé sous la forme d’un rapport de tendance ou avec classement.
 * Ce rapport peut utiliser un filtre de recherche afin de localiser des éléments spécifiques.
 * Vous pouvez utiliser des classifications dans ce rapport afin de renommer et de consolider des éléments.
 * Vous pouvez créer des corrélations avec n’importe quelle autre variable de trafic au moyen des outils d’administration.
 * Ce rapport peut utiliser les mesures suivantes :
 
-   * **Pages vues** : nombre de fois où la variable [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) ou l’URL a été définie (configurée comme mesure par défaut).
+   * **Pages vues** : nombre de fois où la variable [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) ou l’URL a été définie (configurée comme mesure par défaut).
 
    * **Toutes les mesures de cheminement** : Visites, Profondeur moyenne de page, Durée de consultation moyenne de la page, Entrées, Sorties, Actualisations et Accès unique.
    * En fonction des paramètres de votre suite de rapports et de votre entreprise : les mesures Visiteurs uniques par jour, par semaine, par mois et par trimestre peuvent être activées sur ce rapport.
