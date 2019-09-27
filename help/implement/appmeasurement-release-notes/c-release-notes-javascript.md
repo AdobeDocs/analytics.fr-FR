@@ -8,7 +8,7 @@ title: Code H JavaScript (hérité)
 topic: Développeur et mise en œuvre
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ Notes de mise à jour cumulées pour le code H JavaScript hérité.
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -151,7 +151,7 @@ Désormais, le hachage/fragment est ignoré de sorte que le lien est suivi uniqu
 
 Date de publication : **29 avril 2013**
 
-* L’indicateur `useForcedLinkTracking` décrit dans la section [Suivi manuel de liens en utilisant le code de lien personnalisé](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) s’applique désormais à Firefox 20+ (il ne s’appliquait auparavant qu’aux navigateurs WebKit).
+* L’indicateur `useForcedLinkTracking` décrit dans la section [Suivi manuel de liens en utilisant le code de lien personnalisé](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) s’applique désormais à Firefox 20+ (il ne s’appliquait auparavant qu’aux navigateurs WebKit).
 
 * La génération d’ID d’objet image est désormais unique entre instances. Cela empêche les collisions lorsque plusieurs instances figurent dans une même page.
 
@@ -187,7 +187,7 @@ Date de publication : **janvier 2013**
 * Correction de la gestion du décodage des URL pour les chaînes codées à la fois avec les composants `escape` et `encodeURIComponent`.
 
 * Correction d’un problème des navigateurs WebKit, en raison duquel le suivi des liens échouait si le premier appel au serveur sur les pages expirait.
-* Ajout d’une nouvelle méthode d’identification des visiteurs de secours. Voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
+* Ajout d’une nouvelle méthode d’identification des visiteurs de secours. Voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Ajout d’un nouvel indicateur `abort` qui peut être défini dans `doPlugins`. Si ce paramètre est défini sur vrai, la bibliothèque [!DNL AppMeasurement] ne poursuit pas cet appel de suivi. L’indicateur abort est réinitialisé à chaque appel de suivi, de sorte que si un appel de suivi consécutif doit également être abandonné, l’indicateur devra être redéfini dans `doPlugins`.
 
 ```js
