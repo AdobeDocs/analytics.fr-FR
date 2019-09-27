@@ -1,23 +1,23 @@
 ---
 description: Liste des bibliothèques de mesures disponibles.
-keywords: Implémentation d'Analytics ; collecter ; data ; collection
+keywords: Analytics Implementation;collect;data;collection
 seo-description: Liste des bibliothèques de mesures disponibles.
-seo-title: Présentation des bibliothèques supplémentaires
+seo-title: Bibliothèques supplémentaires - Aperçu
 solution: Analytics
-title: Présentation des bibliothèques supplémentaires
+title: Bibliothèques supplémentaires - Aperçu
 topic: Développeur et mise en œuvre
-uuid: 1 ec 291 f 6-073 f -49 d 1-b 6 ab -044 b 1069 db 4 e
+uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Présentation des bibliothèques supplémentaires
+# Bibliothèques supplémentaires - Aperçu
 
 Liste des bibliothèques de mesures disponibles.
 
-Le tableau suivant comprend les bibliothèques disponibles pour collecter des données Adobe Analytics sur toutes les plates-formes disponibles. Pour plus d’informations, reportez-vous à la section [Collecte de données dans Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/?f=usecase_sending_data_to_sc).
+Le tableau suivant comprend les bibliothèques disponibles pour collecter des données Adobe Analytics sur toutes les plates-formes disponibles. Pour plus d’informations, reportez-vous à la section [Collecte de données dans Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
 
 <table id="table_B01E5B7E5DEB42A28AB851E640A6F08E"> 
  <thead> 
@@ -80,6 +80,6 @@ Le tableau suivant comprend les bibliothèques disponibles pour collecter des do
 
 <p class="- topic/p head"> <b class="+ topic/ph hi-d/b ">Services Web REST et SOAP</b> (sur <a href="https://marketing.adobe.com/developer/" format="https" scope="external">Developer Connection</a>) </p>
 
-* [Démarrage](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)
+* [Prise en main](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)
 * [Page d’accueil de la documentation des API](https://marketing.adobe.com/developer/documentation)
 
