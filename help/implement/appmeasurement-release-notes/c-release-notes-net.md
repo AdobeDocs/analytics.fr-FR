@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Notes de mise à jour
 title: Windows Silverlight, NET, IIS, XBOX
 topic: Développeur et mise en œuvre
-uuid: 15 c 20 bca -4886-4 d 57-9957-fe 99743851 ea
+uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,17 +17,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->Ces SDK ont été bloqués et ne sont plus pris en charge ou distribués par Adobe.
+>Ces kits SDK ont été supprimés et ne sont plus pris en charge ni distribués par Adobe.
 
 >[!NOTE]
 >
->Pour trouver la version de la bibliothèque actuelle, activez la journalisation du débogage.
+>Pour trouver la version actuelle de la bibliothèque, activez la journalisation du débogage.
 
 ## Version 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 Date de publication : **août 2014**
 
-* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Suppression de la prise en charge de la [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
 
 * Changements internes pour la prise en charge des fonctions à venir.
 
@@ -43,7 +43,7 @@ Date de publication : **février 2013**
 
 * Prise en charge de l’envoi d’URL de plus de 255 octets pour gérer l’extension du champ URL de page dans les serveurs de collecte de données Adobe. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Ceci permet d’éviter que les longues URL ne prévalent sur d’autres données en cas de troncation de navigateur, tout en permettant la saisie de longues URL.
 
-* Ajout d’une nouvelle méthode d’identification des visiteurs de secours. Voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
+* Ajout d’une nouvelle méthode d’identification des visiteurs de secours. Voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Ajout d’un nouvel indicateur `abort` qui peut être défini dans `doPlugins`. Si ce paramètre est défini sur vrai, la bibliothèque [!DNL AppMeasurement] ne poursuit pas cet appel de suivi. L’indicateur abort est réinitialisé à chaque appel de suivi, de sorte que si un appel de suivi consécutif doit également être abandonné, l’indicateur devra être redéfini dans `doPlugins`.
 
    ```js
