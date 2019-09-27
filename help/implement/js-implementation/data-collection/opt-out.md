@@ -6,9 +6,9 @@ seo-title: Implémentation des droits d’opposition Adobe
 solution: Analytics
 title: Implémentation des droits d’opposition Adobe
 topic: Développeur et mise en œuvre
-uuid: fc 3 a 411 c -8476-409 d -99 de -05 b 34 ace 5019
+uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -34,7 +34,7 @@ Pour en savoir plus sur l’utilisation faite généralement par Adobe des infor
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* Si vous implémentez des produits Adobe Analytics avec votre propre cookie propriétaire, vous devez [développer votre propre lien d'exclusion personnalisé](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) pour les visiteurs de votre site Web.
-* Vos clients peuvent activer l’option d’exclusion dans les paramètres de cookies du navigateur. Voir [Activation des paramètres de confidentialité pour les cookies de navigateur](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings) (en anglais).
+* If you implement Adobe Analytics products with your own first-party cookie, you need to develop your own customized opt-out link for your website visitors.[](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9)
+* Vos clients peuvent activer l’option d’exclusion dans les paramètres de cookies du navigateur. Voir [Activation des paramètres de confidentialité pour les cookies de navigateur](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html) (en anglais).
 
 Quel que soit le mécanisme d’exclusion choisi, Adobe conseille d’en décrire clairement la disponibilité dans votre politique de confidentialité, ou au titre d’autres exigences prévues par la loi ou selon les recommandations des bonnes pratiques en cours.
