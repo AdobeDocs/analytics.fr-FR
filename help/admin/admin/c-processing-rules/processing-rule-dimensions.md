@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Règles de traitement
 title: Dimensions disponibles pour les règles de traitement
 topic: Outils d’administration
-uuid: ba 73 ab 59-a 8 cf -491 c -8757-5 fb 03 d 6 b 0745
+uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -41,7 +41,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de données contextuelles </p> </td> 
-   <td colname="col2"> <p>Variables nommées envoyées avec un accès. </p> <p>Remarque : Pour figurer dans un rapport, une donnée contenue dans une variable Données contextuelles doit être copiée dans une variable de création de rapports. Les variables Données contextuelles ne sont visibles dans aucune interface de création de rapports, y compris Flux de données de parcours de navigation. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copier une variable Données contextuelles dans une eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Définir un événement à l’aide d’une variable Données contextuelles </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables" format="http" scope="external"> Variables de données contextuelles</a> </p> </td> 
+   <td colname="col2"> <p>Variables nommées envoyées avec un accès. </p> <p>Remarque : Pour figurer dans un rapport, une donnée contenue dans une variable Données contextuelles doit être copiée dans une variable de création de rapports. Les variables Données contextuelles ne sont visibles dans aucune interface de création de rapports, y compris Flux de données de parcours de navigation. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copier une variable Données contextuelles dans une eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Définir un événement à l’aide d’une variable Données contextuelles </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variables de données contextuelles</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,7 +115,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chaîne de requête de page </p> </td> 
-   <td colname="col2"> <p>Chaîne de requête complète de l’URL. https://en.main.example.co.uk/index.jsp ?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>Chaîne de requête complète de l’URL. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Référent* (lecture seule) </p> </td> 
@@ -135,7 +135,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chaîne de requête de référent (lecture seule) </p> </td> 
-   <td colname="col2"> <p>Paramètres de chaîne de requête contenus dans l’URL de référence. https://en.main.example.co.uk/index.jsp ?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>Paramètres de chaîne de requête contenus dans l’URL de référence. https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adresse IP (lecture seule) </p> </td> 
@@ -183,7 +183,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
    <td colname="col2"> <p> <code> s.purchaseID</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>L’ID de transaction </p> </td> 
+   <td colname="col1"> <p>ID de transaction </p> </td> 
    <td colname="col2"> <p> <code> s.transactionID </code> </p> </td> 
   </tr> 
   <tr> 
