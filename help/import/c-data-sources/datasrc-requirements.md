@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Sources de données
 title: Conditions requises et limites de transfert
 topic: Développeur et mise en œuvre
-uuid: d 79 fca 77-fa 0 e -4171-b 978-cdee 5 c 67 d 9 df
+uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -21,7 +21,7 @@ Les sections suivantes répertorient les contraintes qui s’appliquent aux sour
 
 * [Limites de taille](../../import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
 * [Dates](../../import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
-* [Généralités](../../import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
+* [Général](../../import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
 * [Prise en charge multioctet](../../import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
 * [Transfert de fichiers journaux Web](../../import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
@@ -35,15 +35,15 @@ Les sections suivantes répertorient les contraintes qui s’appliquent aux sour
 * Seules les données avec des dates en cours ou passées peuvent être importées. Ne tentez pas d’utiliser des dates futures dans vos données de sources de données.
 * Pour chaque ligne, une date doit être spécifiée afin d’avoir accès aux fonctionnalités de représentation des rapports. Si une ligne ne comprend pas de date, la fonctionnalité Sources de données génère une erreur et rejette le fichier. Le format de date et d’heure varie en fonction du type de source de données :
 
-   * **Sources de données à traitement complet**: Utilisez le format de date ISO 8601 ( `YYYY-MM-DDThh:mm:ss±UTC_offset` par exemple, `2013-09-01T12:00:00-07:00`) ou le format d'heure Unix (nombre de secondes écoulées depuis le 1 er janvier 1970).
+   * **Full Processing Data Sources**: Use the ISO 8601 date format of `YYYY-MM-DDThh:mm:ss±UTC_offset` (for example, `2013-09-01T12:00:00-07:00`), or Unix Time Format (the number of seconds elapsed since January 1, 1970).
 
-   * **Sources de données standard et d'intégration**: Utilisez le format de date suivant : `MM/DD/YYYY/HH/mm/SS` (par `01/01/2013/06/00/00`exemple)
+   * **Sources** de données standard et d’intégration : Utilisez le format de date suivant : `MM/DD/YYYY/HH/mm/SS` (par exemple, `01/01/2013/06/00/00`)
 
 ## Général {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
 * Lorsque vous transférez un fichier de source de données, la fonctionnalité Sources de données exécute une validation de données de base afin de s’assurer que le fichier ne contient aucune erreur de mise en forme. En cas d’erreur, un message d’avertissement est envoyé et le traitement s’arrête.
 * Les champs de données ne peuvent pas contenir de points-virgules. La fonctionnalité Sources de données ignore les enregistrements qui contiennent un point-virgule.
-* Les données issues du journal Web, du trafic et de certains regroupements de sources de données génériques ne sont pas disponibles dans entrepôt de données ni dans Discover. For more information, see [Data Types and Categories](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105).
+* Les données issues du journal Web, du trafic et de certains regroupements de sources de données génériques ne sont pas disponibles dans entrepôt de données ni dans Discover. Pour plus d’informations, voir Types [de données et Catégories](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105).
 * Les sources de données ne prennent pas en charge les événements sérialisés.
 
 ## Prise en charge multioctet {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,7 +60,7 @@ La fonctionnalité Sources de données prend en charge le codage multioctet. Ell
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Pris en charge. La suite de rapports utilisée avec la fonctionnalité Sources de données doit prendre en charge les caractères multioctets. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=new_report_suite" format="https" scope="external">Nouvelle suite de rapports</a> dans l’Aide. </p> </td> 
+   <td colname="col2"> <p>Pris en charge. La suite de rapports utilisée avec la fonctionnalité Sources de données doit prendre en charge les caractères multioctets. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">Nouvelle suite de rapports</a> dans l’Aide. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 avec marque d’ordre d’octet (EF BB BF) </td> 
