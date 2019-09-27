@@ -4,10 +4,10 @@ seo-description: Mesure l’incidence de divers codes de suivi publicitaire sur 
 seo-title: Codes de suivi
 solution: Analytics
 title: Codes de suivi
-topic: Présentation
-uuid: c 893 d 592-10 fd -4 b 40-84 b 3-8 c 8949 a 67 b 25
+topic: Rapports
+uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -48,7 +48,7 @@ Mesure l’incidence de divers codes de suivi publicitaire sur différents évé
 
 * Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
 
-* Ce rapport peut également être ventilé selon toutes les [Variables de liste](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=list_var).
+* Ce rapport peut également être ventilé selon toutes les [Variables de liste](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html).
 * Pages vues, Visites et Visiteurs uniques sont disponibles en tant que mesures.
 * Ce rapport peut faire usage de segments.
 
