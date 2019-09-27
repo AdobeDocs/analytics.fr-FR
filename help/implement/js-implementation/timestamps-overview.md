@@ -6,9 +6,9 @@ seo-title: Utilisation du paramètre Horodatages (facultatif)
 solution: Analytics
 title: Utilisation du paramètre Horodatages (facultatif)
 topic: Développeur et mise en œuvre
-uuid: 956 aaa 16-6 ffa -4 b 63-b 022-a 659 f 5143 e 00
+uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -62,7 +62,7 @@ Vous pouvez combiner les données dans une suite de rapports globale de plusieur
 
 >[!IMPORTANT]
 >
->Planifiez soigneusement la conception pour chaque jeu de données de composant afin que la combinaison soit logique dans une suite de rapports globale.
+>Planifiez soigneusement la conception de chaque jeu de données de composant afin que la combinaison soit logique dans une suite de rapports globale.
 
 ## Bonnes pratiques lors du recours aux horodatages {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -74,7 +74,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques et autres exigences et restr
 
    ![](assets/timestamp_v_non8.png)
 
-* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) est défini. Ceci risque de désordonner les données.
+* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) est défini. Ceci risque de désordonner les données.
 
 * Il est préférable de ne pas avoir recours aux horodatages dans les applications hybrides composées d’une application (données hors ligne horodatées) ouvrant un navigateur Web (données en direct non horodatées). Il en résulterait des rapports de session inexacts.
 
