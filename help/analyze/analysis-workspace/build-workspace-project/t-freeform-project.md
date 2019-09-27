@@ -1,29 +1,29 @@
 ---
 description: Créez un projet et ajoutez des composants (dimensions, mesures, segments et plages de dates) au panneau à structure libre.
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 seo-description: Créez un projet et ajoutez des composants (dimensions, mesures, segments et plages de dates) au panneau à structure libre.
-seo-title: Création d'un projet Workspace
+seo-title: Création d’un projet Workspace
 solution: Analytics
-title: Création d'un projet Workspace
-topic: Reports and Analytics
-uuid: c 1 def 77 a-a 76 e -4699-9 fév fév -1 ede 5 b 70 b 7 ba
+title: Création d’un projet Workspace
+topic: Reports & Analytics
+uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Création d'un projet Workspace
+# Création d’un projet Workspace
 
 Créez un projet et ajoutez des composants (dimensions, mesures, segments et plages de dates) au panneau à structure libre.
 
-Cet article présente les éléments d’Analysis Workspace et explique comment créer un projet. For specific use cases, see [Use Cases for Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
+Cet article présente les éléments d’Analysis Workspace et explique comment créer un projet. Pour des cas d’utilisation spécifiques, voir Cas [d’utilisation d’Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
 
 ## Créez un projet
 
 1. Spécifiez les autorisations de création et de traitement des projets de l’utilisateur.
 
-   Avant de créer ou de traiter un projet Analysis Workspace, les administrateurs doivent vous ajouter à un groupe avec l’autorisation **[!UICONTROL Créer / Traiter les projets dans Analysis Workspace]** activée ou au groupe d’utilisateurs **Accès à tous les rapports** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)).
+   Avant de créer ou de traiter un projet Analysis Workspace, les administrateurs doivent vous ajouter à un groupe avec l’autorisation **[!UICONTROL Créer / Traiter les projets dans Analysis Workspace]** activée ou au groupe d’utilisateurs **Accès à tous les rapports** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
@@ -53,7 +53,7 @@ Cet article présente les éléments d’Analysis Workspace et explique comment
 
    >[!NOTE]
    >
-   >Parfois, un message « Suite de rapports incompatible » s'affiche lors du chargement d'un projet (ou passage à une suite de rapports) où tous les composants (mesures/dimensions) inclus dans le projet sont inclus dans la suite de rapports. Vous pouvez consulter la liste des composants non compatibles et ainsi savoir pour quelle raison ce message s’affiche.
+   >Il arrive qu’un message "Suite de rapports incompatible" s’affiche lors du chargement d’un projet (ou lors du passage à une suite de rapports) lorsque tous les composants (mesures/dimensions) inclus dans le projet ne sont pas inclus dans la suite de rapports. Vous pouvez consulter la liste des composants non compatibles et ainsi savoir pour quelle raison ce message s’affiche.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -88,11 +88,11 @@ Cet article présente les éléments d’Analysis Workspace et explique comment
 
    >[!NOTE]
    >
-   >Après avoir copié/enregistré, les liens intra-liens sont maintenant relatifs au projet qu'ils ont actif, et non au projet d'origine où ils ont été copiés.
+   >Après avoir copié/enregistré en tant que, les liens internes sont désormais relatifs au projet dans lequel ils résident, et non au projet d’origine à partir duquel ils ont été copiés.
 
 ## Ajout de composants et de visualisations {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Build your project by dragging *`components`* and *`visualizations`* to the project.
+1. Créez votre projet en faisant glisser *`components`* et *`visualizations`* vers le projet.
 
    **Composants**
 
@@ -116,7 +116,7 @@ Cet article présente les éléments d’Analysis Workspace et explique comment
   </tr> 
   <tr> 
    <td colname="col1"> Segments (bleu) </td> 
-   <td colname="col2"> <p>Vous pouvez les faire glisser uniquement au niveau du panneau, mais vous pouvez créer des segments incorporés dans le tableau de données. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Use Cases for Analysis Workspace</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Vous pouvez les faire glisser uniquement au niveau du panneau, mais vous pouvez créer des segments incorporés dans le tableau de données. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See  Use Cases for Analysis Workspace for more information.<a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"></a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Plages de dates et granularités (violet) </td> 
