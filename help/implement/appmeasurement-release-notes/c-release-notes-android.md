@@ -8,7 +8,7 @@ title: Android
 topic: Développeur et mise en œuvre
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -463,8 +463,8 @@ Date de publication : **17 avril 2014**
 * Nouveau - Dans les applications pour lesquelles l’horodatage est activé, la session précédente est envoyée dans un accès antidaté vers la session correcte. (et plus dans la session précédente).
 * Nouveau - Traitement par lot des accès.
 * Correction du suivi du référent Google Play avec un délai d’attente configurable pour permettre le report des données du référent Google.
-* Correction des avertissements StrictMode susceptibles de se produire dans des scénarios spécifiques.
-* Correction d’un problème en raison duquel la bibliothèque pouvait très rarement se verrouiller si certaines méthodes étaient appelées dans un ordre spécifique.
+* Resolved StrictMode warnings that could occur in specific scenarios.
+* Resloved an issue that could very rarely cause the library to lock if certain methods were called in a specific order.
 
 ## Version 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
@@ -597,7 +597,7 @@ Date de publication : **novembre 2012**
 
 Date de publication : **octobre 2012**
 
-* Prise en charge du [suivi des campagnes Google Play](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer).
+* Prise en charge du [suivi des campagnes Google Play](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html).
 
 ## Version 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
