@@ -4,10 +4,10 @@ seo-description: Rapport de tendance qui affiche le nombre de fois où les pages
 seo-title: Pages vues
 solution: Analytics
 title: Pages vues
-topic: Présentation
-uuid: c 78260 c 6-9 ad 4-4 b 85-84 fd -763627392 e 44
+topic: Rapports
+uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,8 +20,8 @@ A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#con
 
 **Propriétés des rapports**
 
-* Ce rapport désigne le nombre d’appels de la fonction [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_the_s.t()function) sur votre site.
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linktracking) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* Ce rapport désigne le nombre d’appels de la fonction [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) sur votre site.
+* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
 
 * Des demandes d’image sont envoyées lorsque l’utilisateur actualise la page ou clique sur le bouton Précédent. Par conséquent, ces actions sont également reprises dans le rapport.
 * Les ventilations horaires sont basées sur le fuseau horaire de la suite de rapports.
