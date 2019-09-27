@@ -1,19 +1,19 @@
 ---
 description: Définition des éléments d’interface sur les pages du créateur de règles de classification.
 seo-description: Définition des éléments d’interface sur les pages du créateur de règles de classification.
-seo-title: Règles de classification - définitions
+seo-title: Règles de classification – Définitions
 solution: Analytics
-subtopic: Gestionnaire
-title: Règles de classification - définitions
+subtopic: Classifications
+title: Règles de classification – Définitions
 topic: Outils d’administration
-uuid: 77 af 8669-6 e 11-435 c -9 cc 3-b 03 eb 627 c 855
+uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# Règles de classification - définitions
+# Règles de classification – Définitions
 
 Définition des éléments d’interface sur les pages du créateur de règles de classification.
 
@@ -35,7 +35,7 @@ Cette page affiche les règles d’un jeu.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Sélection de suites de rapports et de variables </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Suites de rapports auxquelles s’applique le jeu de règles. </p> <p><b>Variable</b> </p> <p>Vous ne pouvez appliquer qu’une seule variable lors de la création d’un jeu de règles de classification. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports. </p> <p>Remarque : Vous ne pouvez utiliser que les variables auxquels vous avez accès dans vos suites de rapports. Les variables s’affichent dans le panneau <span class="wintitle">Nouveau jeu de règles</span> uniquement une fois qu’au moins une classification est définie pour la variable. </p> <p>For example, to make <span class="term"> Pages</span> available as a variable to the rule set, ensure that the report suite has <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> traffic classifications</a> implemented for <span class="term"> Page</span>. </p> <p> Vous pouvez créer des classifications sur une variable dans <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Trafic</span> &gt; <span class="uicontrol">Classifications de trafic</span> (ou <span class="uicontrol">Conversion</span> &gt; <span class="uicontrol">Classifications des conversions</span>). Sélectionnez ensuite la variable et cliquez sur <span class="uicontrol">Ajouter une classification</span>. </p> <p>Reportez-vous aux rubriques <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=traffic_classification_admin" format="https" scope="external">Classifications de trafic</a> et <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=conversion_classifications" format="https" scope="external">Classifications des conversions</a> dans l’Aide de l’administration. </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Suites de rapports auxquelles s’applique le jeu de règles. </p> <p><b>Variable</b> </p> <p>Vous ne pouvez appliquer qu’une seule variable lors de la création d’un jeu de règles de classification. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports. </p> <p>Remarque : Vous ne pouvez utiliser que les variables auxquels vous avez accès dans vos suites de rapports. Les variables s’affichent dans le panneau <span class="wintitle">Nouveau jeu de règles</span> uniquement une fois qu’au moins une classification est définie pour la variable. </p> <p>Par exemple, pour rendre <span class="term"> Pages</span> disponibles en tant que variable dans le jeu de règles, assurez-vous que les classifications <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> de</a> trafic de la suite de rapports sont implémentées pour <span class="term"> Page</span>. </p> <p> Vous pouvez créer des classifications sur une variable dans <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Trafic</span> &gt; <span class="uicontrol">Classifications de trafic</span> (ou <span class="uicontrol">Conversion</span> &gt; <span class="uicontrol">Classifications des conversions</span>). Sélectionnez ensuite la variable et cliquez sur <span class="uicontrol">Ajouter une classification</span>. </p> <p>Reportez-vous aux rubriques <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html" format="https" scope="external">Classifications de trafic</a> et <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html" format="https" scope="external">Classifications des conversions</a> dans l’Aide de l’administration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activer</span> </p> </td> 
@@ -47,7 +47,7 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configuration des suites de rapports et des variables </p> </td> 
-   <td colname="col2"> <p>Affiche la page <span class="wintitle">Suites de rapports disponibles</span> dans laquelle vous pouvez sélectionner une ou plusieurs suites de rapports disponibles à utiliser pour tous vos jeux de règles. (Cette page s’affiche également lorsque vous exécutez le <span class="wintitle">Créateur de règles de classification</span> pour la première fois.) </p> <p>Cette fonctionnalité a pour objectif de réduire le temps de chargement des suites de rapports, dans le cas où vous avez des centaines de suites de rapports disponibles. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Note: A report suite becomes available <span class="term"> only</span> when the report suites have at least one classification defined for the variable in <span class="wintitle"> Admin Tools</span>. <p>(See <span class="term"> Variable</span> in <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> Classification Rule Sets</a> for an explanation about this prerequisite.) </p> </p> </td> 
+   <td colname="col2"> <p>Affiche la page <span class="wintitle">Suites de rapports disponibles</span> dans laquelle vous pouvez sélectionner une ou plusieurs suites de rapports disponibles à utiliser pour tous vos jeux de règles. (Cette page s’affiche également lorsque vous exécutez le <span class="wintitle">Créateur de règles de classification</span> pour la première fois.) </p> <p>Cette fonctionnalité a pour objectif de réduire le temps de chargement des suites de rapports, dans le cas où vous avez des centaines de suites de rapports disponibles. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Remarque : Une suite de rapports devient disponible <span class="term"> uniquement</span> si au moins une classification est définie pour la variable dans les outils <span class="wintitle"> d’</span>administration des suites de rapports. <p>(Voir <span class="term"> Variable</span> dans les jeux <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"></a> de règles de classification pour en savoir plus sur ce prérequis.) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles remplacent toutes les valeurs existantes. </p> </td> 
