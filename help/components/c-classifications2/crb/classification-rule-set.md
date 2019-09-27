@@ -3,12 +3,12 @@ description: Un jeu de règles est un groupe de règles de classification relati
 seo-description: Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. Vous appliquez une variable au jeu de règles. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports.
 seo-title: Jeux de règles de classification
 solution: Analytics
-subtopic: Gestionnaire
+subtopic: Classifications
 title: Jeux de règles de classification
 topic: Outils d’administration
-uuid: c 4 d 7 b 77 c-fa 98-44 be -955 f -9 aee 7 f 73480 b
+uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. Vous appliquez une variable au jeu de règles. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports.
 
-## Classification rule sets {#concept_CD3D510F5070486584F3BB535AE41524}
+## Jeux de règles de classification {#concept_CD3D510F5070486584F3BB535AE41524}
 
 Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. Vous appliquez une variable au jeu de règles. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports.
 
 ## Page du créateur de règles de classification {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Créateur de règles de classification]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]**
 
 Les champs et options ci-dessous sont disponibles sur la page [!UICONTROL Créateur de règles de classifications].
 
@@ -70,7 +70,7 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-   (Voir [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) dans l’aide des outils d’administration à propos de l’ajout de classifications.)
+   (Voir [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) dans l’aide des outils d’administration à propos de l’ajout de classifications.)
 
    Les variables s’affichent dans le panneau [!UICONTROL Nouveau jeu de règles] uniquement une fois qu’au moins une classification est définie pour la variable.
 
