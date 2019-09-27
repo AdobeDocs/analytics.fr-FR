@@ -4,10 +4,10 @@ seo-description: Fournit une analyse exhaustive, précise et détaillée de l’
 seo-title: Conversion
 solution: Analytics
 title: Conversion
-topic: Présentation
-uuid: 457 d 3033-6562-4 fba -8 c 2 e -0 e 7 a 9 be 44 bfd
+topic: Rapports
+uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,13 +24,13 @@ Certains des rapports prêts à l’emploi contiennent des mesures de trafic et 
 
 * Les rapports [!UICONTROL Conversion personnalisée] sont basés sur des eVars (variables de conversion).
 * Les variables de conversion peuvent persister au-delà de la consultation de page et être associées à des mesures dans l’intervalle spécifié.
-* Par défaut, les mesures du rapport portent sur les recettes. Pour modifier les mesures par défaut, reportez-vous à la section [Sélection des mesures de rapport par défaut](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_metrics_set_default).
+* Par défaut, les mesures du rapport portent sur les recettes. Pour modifier les mesures par défaut, reportez-vous à la section [Sélection des mesures de rapport par défaut](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html).
 * Vous pouvez consulter ces rapports sous la forme de rapports de tendance et classés.
 * Vous pouvez utiliser des classifications dans ces rapports afin de renommer et de consolider des éléments.
 * Ces rapports peuvent être ventilés en fonction des éléments suivants si des sous-relations de base sont activées :
 
    * Campagnes et Produits, avec toutes les classifications connexes
-   * Fidélisation des clients
+   * Fidélité de la clientèle
    * Toutes les eVars complètement sous-liées
 
 * D’autres rapports sont disponibles pour effectuer une ventilation lorsque les sous-relations complètes sont activées :
