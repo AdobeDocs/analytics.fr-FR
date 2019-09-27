@@ -1,60 +1,60 @@
 ---
 description: Les informations suivantes peuvent vous aider à résoudre les problèmes de latence des suites de rapports dans les données Analytics.
-keywords: données manquantes ; lent
-seo-description: Les informations suivantes peuvent vous aider à résoudre les problèmes de latence des suites de rapports dans les données Analytics.
-seo-title: Disponibilité et latence des données
+keywords: données manquantes;lent
+seo-description: The following information can help troubleshoot report suite latency issues in Analytics data.
+seo-title: Data availability and latency
 solution: Analytics
 subtopic: Données actives
-title: Disponibilité et latence des données
-topic: Présentation
-uuid: 1 f 0 e 67 e 3-6 cea -4 af 8-8 b 18-7 ae 9223 df 7 c 8
+title: Data availability and latency
+topic: Rapports
+uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Disponibilité et latence des données dans Adobe Analytics
+# Data availability and latency in Adobe Analytics
 
-En règle générale, vous pouvez voir des données complètes dans les rapports 2 heures après la collecte des données. Les informations suivantes peuvent vous aider à résoudre les problèmes de latence des suites de rapports dans les données Analytics.
+Vous pouvez généralement vous attendre à voir des données complètes dans les rapports 2 heures après la collecte des données. The following information can help troubleshoot report suite latency issues in Analytics data.
 
-## Présentation du traitement des données par lots
+## Présentation du traitement par lots des données
 
-Chaque serveur de collecte de données capture et traite des données d’analyse brutes, puis charge les données mises en lots toutes les heures en vue de la création de rapports. Le processus de transfert prend généralement 30 minutes. Dès lors, une latence normale pour le trafic qui se produit directement après la fin du processus de chargement est d’environ 90 minutes (60 minutes jusqu’au chargement par lots suivant, puis 30 minutes pour le transfert et l’affichage du fichier). Pour le trafic qui se produit directement avant un transfert, la latence des données peut être aussi courte que 30 minutes (0 minute jusqu'au chargement par lots suivant, puis 30 minutes pour le transfert et l'affichage des fichiers).
+Chaque serveur de collecte de données capture et traite des données d’analyse brutes, puis charge les données mises en lots toutes les heures en vue de la création de rapports. Le processus de transfert prend généralement 30 minutes. Dès lors, une latence normale pour le trafic qui se produit directement après la fin du processus de chargement est d’environ 90 minutes (60 minutes jusqu’au chargement par lots suivant, puis 30 minutes pour le transfert et l’affichage du fichier). Pour le trafic qui survient directement avant un transfert, la latence des données peut être de 30 minutes (0 minute jusqu’au prochain transfert par lot, puis 30 minutes pour le transfert et l’affichage des fichiers).
 
-Au besoin, le service à la clientèle Adobe peut activer des téléchargements de données par lots de 30 minutes (plutôt que toutes les heures) pour vos suites de rapports les plus utilisées.
+Si nécessaire, le service à la clientèle d’Adobe peut activer des téléchargements de données par lots de 30 minutes (au lieu d’une heure) pour les suites de rapports les plus utilisées.
 
 ## Contributeurs à la latence
 
-La latence est un délai plus long que les 2 heures habituelles de traitement des données par les serveurs de collecte de données. Elle n'affecte pas la collecte de données ; les données sont toujours collectées pour une implémentation opérationnelle, quelle que soit la latence d'une suite de rapports. Sa gravité (en fonction de la taille des données) et de la longueur (temps de résolution) peut varier considérablement. Elle est généralement limitée à une seule suite de rapports.
+La latence est un délai plus long que les deux heures habituelles nécessaires aux serveurs de collecte de données pour traiter complètement les données. Elle n'affecte pas la collecte de données ; les données sont toujours collectées pour une implémentation opérationnelle, quelle que soit la latence d’une suite de rapports. Sa gravité (à quel point les données sont à jour) et sa durée (le temps nécessaire pour les résoudre) peuvent varier considérablement. It is usually limited to a single report suite.
 
 On distingue plusieurs catégories de latence :
 
-* **Pic de trafic inattendu :** Ce type de latence survient lorsque d'autres données sont envoyées à une suite de rapports qu'une suite de rapports ne l'a pas été. Il s’agit de la cause de latence la plus courante.
-* **Problèmes matériels normaux :** Adobe utilise des stratégies de pointe pour la gestion et la surveillance des centres de données, la redondance des données et la fiabilité du matériel. Le matériel est mis à jour régulièrement et conjointement avec les fenêtres de maintenance publiées. La maintenance d'urgence d'un matériel défectueux peut nécessiter un arrêt temporaire et temporaire des données : le traitement (et non la collecte de données) en tant que matériel de remplacement est mis en ligne. Cela peut se traduire par une latence importante.
-* **Données anormales :** Les schémas de données anormaux, tels que les visites inhabituellement longues générées par un robot ou un moteur de recherche, peuvent temporairement accroître certaines charges de traitement qui entraînent une latence.
+* **** Pic de trafic inattendu : Ce type de latence survient lorsque plus de données sont envoyées à une suite de rapports que ce qui était prévu ou validé par contrat. Il s’agit de la cause de latence la plus courante.
+* **** Problèmes matériels normaux : Adobe applique les meilleures stratégies de gestion et de surveillance des centres de données, de redondance des données et de fiabilité matérielle. Le matériel est mis à jour régulièrement et conjointement avec les fenêtres de maintenance publiées. Emergency maintenance of failing hardware can require a necessary and temporary halt in data processing (not in data collection) as replacement hardware is brought online. Cela peut se traduire par une latence importante.
+* **** Abnormal data: Unnatural data patterns, such as unusually long visits caused by a bot or crawler, can temporarily increase certain processing loads that result in latency.
 
-## Fonctionnalités dépendant de la latence
+## Fonctions qui dépendent de la latence
 
-Certaines fonctionnalités d'Adobe Experience Cloud sont accompagnées d'un temps de latence inné au-dessus du temps de traitement standard.
+Certaines fonctionnalités d’Adobe Experience Cloud s’accompagnent d’une latence innée en plus du temps de traitement standard.
 
-* Analytics pour Target (A 4 T) nécessite 5 à 10 minutes supplémentaires de latence pour que les données collectées des deux plateformes soient stockées dans le même accès.
-* Les données horodatées nécessitent une durée supplémentaire due aux différents serveurs sur lesquels ces données sont traitées. Les accès horodatés reçus pendant ou presque en temps réel peuvent prendre jusqu'à 15 minutes. Les accès reçus avec un horodatage d'hier peuvent prendre jusqu'à 2 heures. Les anciens accès peuvent prendre plus de temps, ce qui augmente chaque jour jusqu'à 24 heures environ.
+* Analytics pour Target (A4T) nécessite 5 à 10 minutes de latence supplémentaires pour permettre le stockage des données collectées des deux plateformes dans le même accès.
+* Les données horodatées nécessitent un temps supplémentaire en raison des différents serveurs sur lesquels ces données sont traitées. Les accès horodatés reçus en temps réel ou presque peuvent prendre jusqu’à 15 minutes. Les accès reçus avec un horodatage d’hier peuvent prendre jusqu’à 2 heures. Les accès plus anciens peuvent prendre plus de temps, augmentant chaque jour jusqu’à un plafond d’environ 24 heures.
 
-## Méthodes permettant d'atténuer ou d'éviter la latence
+## Moyens d’atténuer ou d’éviter la latence
 
 Il existe plusieurs stratégies visant à prévenir la latence ou à réduire le temps de récupération à la suite d’une latence :
 
-* **Avertir Adobe des pics de trafic attendus :** Bien qu'il soit impossible d'anticiper chaque pic de trafic sur votre site, il se peut que vous attendiez une augmentation importante du trafic. Par exemple, une période de vacances particulièrement réussie ou peu après une longue campagne Push. Dans ce cas, nous offrons à votre entreprise le moyen de nous avertir d’une hausse prévue du trafic, de sorte que nous puissions allouer davantage de ressources de traitement à votre suite de rapports. See [Schedule a traffic spike](../admin/c-traffic-management/t-traffic-schedule-spike.md) in the Admin user guide to learn how to notify Adobe of increased traffic.
-* **Envisagez la charge de traitement lors de l'activation de nouvelles fonctionnalités :** Certaines fonctionnalités consomment plus de ressources de traitement que d'autres. Plus il y a de fonctionnalités activées dans une suite de rapports, plus il est difficile de récupérer à la suite d’une latence. Lors de l’activation de fonctionnalités sur une suite de rapports, veuillez tenir compte du fait que les fonctionnalités suivantes augmentent la quantité de données à traiter :
+* **** Avertissez Adobe des pics de trafic prévus : Bien qu’il soit impossible d’anticiper chaque pic de trafic sur votre site, il peut arriver que vous attendiez une augmentation significative du trafic. Par exemple, une période de vacances particulièrement réussie ou peu après une campagne de grande envergure. Dans ce cas, nous offrons à votre entreprise le moyen de nous avertir d’une hausse prévue du trafic, de sorte que nous puissions allouer davantage de ressources de traitement à votre suite de rapports. Voir [Planifier un pic](../admin/c-traffic-management/t-traffic-schedule-spike.md) de trafic dans le guide de l’utilisateur Admin pour savoir comment avertir Adobe d’un accroissement du trafic.
+* **** Consider processing load when activating new features: Some features are more processing intensive than others. Plus il y a de fonctionnalités activées dans une suite de rapports, plus il est difficile de récupérer à la suite d’une latence. Lors de l’activation de fonctionnalités sur une suite de rapports, veuillez tenir compte du fait que les fonctionnalités suivantes augmentent la quantité de données à traiter :
 
    * Implémentation de plus de 20 événements sur la même page
    * Règles VISTA complexes
    * Plus de 20 valeurs dans la variable « products »
    * Sérialisation d’événements
 
-* Enable IAB Bot filtering: [Bot filtering](https://marketing.adobe.com/resources/help/en_US/admin/index.html?f=c_bot_rules) can greatly reduce latency if your report suite is frequented by bots or crawlers. Il est conseillé d’utiliser la liste de robots IAB, dans la mesure où elle est mise à jour et gérée par l’[Interactive Advertising Bureau](https://www.iab.net/about_the_iab) (IAB). Un utilisateur peut personnaliser ses propres règles de robots pour compléter celles de l'IAB.
+* Enable IAB Bot filtering: [Bot filtering](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html) can greatly reduce latency if your report suite is frequented by bots or crawlers. Il est conseillé d’utiliser la liste de robots IAB, dans la mesure où elle est mise à jour et gérée par l’[Interactive Advertising Bureau](https://www.iab.net/about_the_iab) (IAB). Un utilisateur peut personnaliser ses propres règles de robots pour compléter celles de l’IAB.
 
 ## Que faire en cas de latence ?
 
-Dans les cas où la latence se produit, assurez-vous qu'Adobe contrôle de manière proactive le pipeline de traitement et qu'il effectue tout ce qui est possible pour rétablir le temps de traitement normalement. De nombreux problèmes de latence sont résolus en quelques heures. Si une suite de rapports spécifique vous préoccupe, l’un des utilisateurs de votre société ayant souscrit un plan d’assistance peut contacter le service d’assistance pour communiquer l’identifiant de la suite qui présente un problème de latence. L’agent Adobe peut confirmer la latence et vous tenir informé de l’évolution du dossier de résolution.
+Dans les cas de latence, assurez-vous qu’Adobe surveille de manière proactive le pipeline de traitement et fait tout ce qui est possible pour ramener le temps de traitement à la normale le plus rapidement possible. De nombreux problèmes de latence sont résolus en quelques heures. Si une suite de rapports spécifique vous préoccupe, l’un des utilisateurs de votre société ayant souscrit un plan d’assistance peut contacter le service d’assistance pour communiquer l’identifiant de la suite qui présente un problème de latence. L’agent Adobe peut confirmer la latence et vous tenir informé de l’évolution du dossier de résolution.
