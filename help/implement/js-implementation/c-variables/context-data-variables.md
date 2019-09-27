@@ -1,15 +1,15 @@
 ---
 description: Les variables de données contextuelles permettent de définir, sur chaque page, des variables personnalisées lisibles par les règles de traitement.
-keywords: Implémentation d'Analytics ; contextdata ; s. contextdata
+keywords: Implémentation d’Analytics;contextdata;s.contextdata
 seo-description: Les variables de données contextuelles permettent de définir, sur chaque page, des variables personnalisées lisibles par les règles de traitement.
 seo-title: Variables de données contextuelles
 solution: Analytics
 subtopic: Variables
 title: Variables de données contextuelles
 topic: Développeur et mise en œuvre
-uuid: 4 b 215803-99 d 4-46 f 2-b 3 c 1-e 78558987764
+uuid: 4b215803-99d4-46f2-b3c1-e7858987764
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -22,14 +22,16 @@ Au lieu d’affecter de façon explicite des valeurs aux props et eVars dans vot
 
 >[!NOTE]
 >
->Les variables de données contextuelles ne sont pas sensibles à la casse. Par exemple, les deux variables suivantes sont effectivement identiques : &gt;
+>Context data variables are not case sensitive. Par exemple, les deux variables suivantes sont effectivement identiques : &gt;
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->```>
+>
+```>
 >and 
 >
->```>
+>
+```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 
@@ -37,7 +39,7 @@ Au lieu d’affecter de façon explicite des valeurs aux props et eVars dans vot
 
 L’utilisation de données contextuelles vous évite de mettre à jour le code pour prendre en charge différentes configurations de suite de rapports.
 
-Vous pouvez par exemple définir la variable *`s.contextData`* :
+Vous pouvez par exemple définir la variable *`s.contextData`* variable:
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -68,7 +70,7 @@ Etant donné que les règles de traitement ne sont appliquées qu’au moment de
    <td colname="col2"> <p>Il est conseillé de faire précéder vos variables du nom de la société, du nom du site ou d’une valeur semblable afin de vous assurer que le nom est unique dans toute la suite de rapports. </p> <p>Les variables de données contextuelles peuvent être nommées de la même manière que d’autres variables JavaScript. Nous attirons votre attention sur le fait que l’utilisation de l’espace de nom <code>a.*</code> est réservée aux produits Adobe dans les noms de variables contextuelles. Par exemple, la bibliothèque AppMeasurement pour iOS utilise <code>a.InstallEvent</code> pour mesurer les installations d’application. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Limites d'URL pour Internet Explorer </p> </td> 
+   <td colname="col1"> <p>Limites d’URL pour Internet Explorer </p> </td> 
    <td colname="col2"> <p>Dans Internet Explorer 6 et 7, les URL sont tronquées à 2 000 octets. Vous pouvez utiliser le débogueur <span class="keyword">DigitalPulse</span> pour déterminer la taille d’une chaîne d’URL. </p> <p>Suite aux mises à jour récentes apportées à AppMeasurement (septembre 2014), HTTP POST est utilisé avec Internet Explorer 8+, ce qui permet d’éliminer les problèmes de troncation. </p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +92,7 @@ s.tl(true,"o","Link Name");
 
 ## Exemples {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Possible ways to replace implementation of the *`s.pageName`* variable, assuming that processing rules are set up correctly for each:
+Méthodes possibles pour remplacer l’implémentation de la *`s.pageName`* variable, en supposant que les règles de traitement sont correctement configurées pour chacune d’elles :
 
 ```
 s.contextData['page'] = "Home Page" 
@@ -106,4 +108,4 @@ s.contextData['campaign'] = "Campaign A"
 s.contextData['author'] = "Sheridan Andrius"
 ```
 
-Pour obtenir un exemple, reportez-vous à la section [Copier une variable de données contextuelles dans une variable eVar](https://marketing.adobe.com/resources/help/en_US/reference/?f=processing_rules_copy_context_data) de la Référence Analytics.
+Pour obtenir un exemple, reportez-vous à la section [Copier une variable de données contextuelles dans une variable eVar](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html) de la Référence Analytics.
