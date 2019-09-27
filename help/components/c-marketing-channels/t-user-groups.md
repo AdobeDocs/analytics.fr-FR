@@ -3,12 +3,12 @@ description: Configurez l’accès des groupes d’utilisateurs aux canaux marke
 seo-description: Configurez l’accès des groupes d’utilisateurs aux canaux marketing.
 seo-title: Configuration de l’accès des groupes d’utilisateurs
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: Configuration de l’accès des groupes d’utilisateurs
-topic: Reports and Analytics
-uuid: b 85661 af -5 e 33-4 a 92-a 756-3589 afb 2 f 457
+topic: Reports & Analytics
+uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,7 +20,7 @@ Configurez l’accès des groupes d’utilisateurs aux canaux marketing.
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Groups]** from the [!UICONTROL User Management] home page.
 
-   Reportez-vous à la section [Gestion des utilisateurs](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=user_management) dans l’*aide sur l’administration*.
+   Reportez-vous à la section [Gestion des utilisateurs](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) dans l’*aide sur l’administration*.
 
 1. Cliquez sur le nom d’un groupe personnalisé, ou cliquez sur **Ajouter un nouveau groupe d’utilisateur** pour créer un groupe d’utilisateurs.
 1. Sous « Accès aux rapports », activez **Accès complet** ou **[!UICONTROL Accès interdit]**.
