@@ -5,9 +5,9 @@ seo-title: Horodatages facultatifs
 solution: Analytics
 title: Horodatages facultatifs
 topic: Outils d’administration
-uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
+uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,11 +26,11 @@ Voir [Utilisation du paramètre Horodatages (facultatif)](/help/implement/js-imp
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) on data that is already timestamped. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de cheminement.
+>If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de cheminement.
 
 >[!NOTE]
 >
->Les données de la session avec horodatage sont conservées pendant 92 jours au maximum. Cela signifie qu'une visite/session sera « ouverte » pendant 92 jours pendant 92 jours alors qu'un accès supplémentaire (qui n'est pas 30 minutes après l'accès précédent (dans l'heure de l'accès) peut être inclus dans la même visite/session. Les accès « anciens » reçus sans ordre produisent des résultats « inconnus », puisque plusieurs facteurs (segmentation, attribution, expiration, etc.) déterminent si ces accès seront inclus dans les rapports ou non.
+>Les données de la session avec horodatage sont conservées pendant 92 jours au maximum. Cela signifie qu’une visite/session sera "ouverte" pendant 92 jours, tandis que tout accès supplémentaire (qui n’est pas 30 minutes après l’accès précédent (dans le temps d’accès), peut toujours être inclus dans la même visite/session. Tout "ancien" accès qui est reçu hors service produira des résultats "inconnus", car plusieurs facteurs (segmentation, attribution, expiration, etc.) influencent l’inclusion ou non de ces accès dans les rapports.
 
 ## Nouvelles suites de rapports {#section_095A7CFBD280494593B9BEC1592B73A6}
 
