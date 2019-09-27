@@ -5,9 +5,9 @@ seo-title: Paramètres du compte général
 solution: Analytics
 title: Paramètres du compte général
 topic: Outils d’administration
-uuid: c 1 ab 5 c 34-2 c 41-4 d 12-a 706-0 e 760 dff 8 a 95
+uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 Description des champs Paramètres du compte général d’une suite de rapports dans Admin.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Général]** &gt; **[!UICONTROL Paramètres du compte général]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites **[!UICONTROL de]** rapports &gt; **[!UICONTROL Modifier les paramètres]** &gt; Général &gt; Paramètres du compte  général ********
 
 Ces paramètres contiennent des options d’édition pour les fonctionnalités de base des suites de rapports, ainsi que le nom et le fuseau horaire.
 
@@ -50,15 +50,15 @@ Ces paramètres contiennent des options d’édition pour les fonctionnalités d
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Remplacer le dernier octet des adresses IP par 0 </span> </td> 
-   <td colname="col2"> <p>Le dernier octet est remplacé avant le filtrage IP. Par conséquent, le dernier octet est remplacé par un 0 et les règles d’exclusion IP doivent être mises à jour afin de correspondre aux adresses IP avec un zéro à la fin. Le * correspondant doit correspondre à 0. </p> <p>Si cette option est activée, l’adresse IP est altérée avant d’être traitée. Par exemple, l’adresse IP 134.123.567.780 est remplacée par 134.123.567.0. Les données de géosegmentation ne sont pas aussi exactes que lorsque l’adresse IP complète est utilisée. Plus précisément, la précision de la ville sera plus affectée que la précision du pays ou de la région. Les règles de robot et les règles VISTA sont affectées puisqu’elles n’ont pas accès à l’adresse IP complète. En outre, les règles de traitement basées sur les adresses IP (y compris les règles de canaux marketing et les règles de traitement des suites de rapports) sont affectées par ce paramètre. </p> <p>Remarque : Ce paramètre est activé par défaut pour toutes les suites de rapports créées dans le centre de données de Londres après janvier 2019, mais seulement si les paramètres de ces suites de rapports sont copiés à partir d’un modèle répertorié dans Admin Console. Les suites de rapports dont les paramètres sont copiés depuis d’autres suites de rapports hériteront de tous les paramètres de la suite de rapports sélectionnée. </p></td> 
+   <td colname="col2"> <p>Le dernier octet est remplacé avant le filtrage IP. Par conséquent, le dernier octet est remplacé par un 0 et les règles d’exclusion IP doivent être mises à jour afin de correspondre aux adresses IP avec un zéro à la fin. Le * correspondant doit correspondre à 0. </p> <p>Si cette option est activée, l’adresse IP est altérée avant d’être traitée. Par exemple, l’adresse IP 134.123.567.780 est remplacée par 134.123.567.0. Les données de géosegmentation ne sont pas aussi exactes que lorsque l’adresse IP complète est utilisée. Plus précisément, la précision des villes sera plus affectée que la précision des pays ou des régions. Les règles de robot et les règles VISTA sont affectées puisqu’elles n’ont pas accès à l’adresse IP complète. En outre, les règles de traitement basées sur les adresses IP (y compris les règles de canaux marketing et les règles de traitement des suites de rapports) sont affectées par ce paramètre. </p> <p>Remarque : Ce paramètre est activé par défaut pour toutes les suites de rapports créées dans le centre de données de Londres après janvier 2019, mais seulement si les paramètres de ces suites de rapports sont copiés à partir d’un modèle répertorié dans Admin Console. Les suites de rapports dont les paramètres sont copiés depuis d’autres suites de rapports hériteront de tous les paramètres de la suite de rapports sélectionnée. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Obscurcissement d’IP</span> </td> 
-   <td colname="col2"> <p>Transforme les adresses IP en chaînes impossibles à reconnaître, en les supprimant essentiellement des entrepôts de données d’Adobe. Lorsque l’option Obscurcissement d’IP est activée, les adresses IP d’origine sont définitivement perdues. </p> <p>Remarque : Les adresses IP sont obscurcies partout dans Analytics, y compris dans Data Warehouse. Toutefois, le paramètre IP dans Target est contrôlé individuellement, de sorte que ce paramètre n’a aucune incidence sur Target. </p> <p>Si l’obscurcissement d’IP est activé, l’exclusion de l’adresse IP survient avant l’obscurcissement ; ainsi, les clients n’ont rien à changer lorsqu’ils activent cette option. </p> <p>Si <span class="uicontrol">Désactivé</span> est coché, l’adresse IP est conservée dans les données. </p> <p>Cochez l’option <span class="uicontrol">Obscurcir les adresses IP</span> pour remplacer l’adresse IP par une valeur de hachage (par ex., 234abc6493872038). </p> <p>Cochez l’option <span class="uicontrol">Supprimer les adresses IP</span> pour remplacer l’adresse IP par x.x.x.x dans les données, après la recherche géographique. </p> <p>Remarque : Ce paramètre peut nécessiter des modifications concernant les règles <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> de robots ou</a> les exclusions<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP personnalisées</a>. </p> </td> 
+   <td colname="col2"> <p>Transforme les adresses IP en chaînes impossibles à reconnaître, en les supprimant essentiellement des entrepôts de données d’Adobe. Lorsque l’option Obscurcissement d’IP est activée, les adresses IP d’origine sont définitivement perdues. </p> <p>Remarque : Les adresses IP sont obscurcies partout dans Analytics, y compris dans Data Warehouse. Toutefois, le paramètre IP dans Target est contrôlé individuellement, de sorte que ce paramètre n’a aucune incidence sur Target. </p> <p>Si l’obscurcissement d’IP est activé, l’exclusion de l’adresse IP survient avant l’obscurcissement ; ainsi, les clients n’ont rien à changer lorsqu’ils activent cette option. </p> <p>Si <span class="uicontrol">Désactivé</span> est coché, l’adresse IP est conservée dans les données. </p> <p>Cochez l’option <span class="uicontrol">Obscurcir les adresses IP</span> pour remplacer l’adresse IP par une valeur de hachage (par ex., 234abc6493872038). </p> <p>Cochez l’option <span class="uicontrol">Supprimer les adresses IP</span> pour remplacer l’adresse IP par x.x.x.x dans les données, après la recherche géographique. </p> <p>Note: This setting might require changes to custom <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot rules</a> or<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Stockage de l’ID de transaction</span> </td> 
-   <td colname="col2"> <p>Permet d’utiliser des sources de données <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html?f=c_Transaction_ID" format="https" scope="external">ID de transaction</a>. </p> </td> 
+   <td colname="col2"> <p>Permet d’utiliser des sources de données <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_Transaction_ID.html" format="https" scope="external">ID de transaction</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Activer les Ad Hoc Analysis</span> </td> 
