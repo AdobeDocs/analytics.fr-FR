@@ -4,10 +4,10 @@ seo-description: Les rapports Trafic personnalisé permettent à chaque sociét�
 seo-title: Trafic personnalisé
 solution: Analytics
 title: Trafic personnalisé
-topic: Présentation
-uuid: 627 e 8 f 34-e 8 f 7-4 f 79-919 b-f 6237 f 85685 d
+topic: Rapports
+uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,8 +18,8 @@ Les rapports Trafic personnalisé permettent à chaque société de générer de
 
 ## Propriétés des rapports Trafic personnalisé {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
-* Les rapports Trafic personnalisé sont établis uniquement sur la base de [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_propn) (variables de trafic).
-* Les pages vues (ou les instances dans la version 15) constituent la mesure par défaut des rapports. Les pages vues de la version 14 et les instances de la version 15 sont identiques, en ce sens qu’elles comptabilisent le nombre total de fois où la variable a été définie. Les instances de la version 15 comptabilisent le nombre de *`s.t()`* demandes d'image (à l'exclusion *`s.tl()`* des requêtes).
+* Les rapports Trafic personnalisé sont établis uniquement sur la base de [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) (variables de trafic).
+* Les pages vues (ou les instances dans la version 15) constituent la mesure par défaut des rapports. Les pages vues de la version 14 et les instances de la version 15 sont identiques, en ce sens qu’elles comptabilisent le nombre total de fois où la variable a été définie. Les instances de la version 15 comptabilisent le nombre de  image requests (excluding  requests).*`s.t()`**`s.tl()`*
 
 * Le cheminement peut être activé s’il est inclus dans le contrat de votre société et si un utilisateur ayant souscrit un contrat dédié en fait la demande. Lorsque le cheminement est activé pour une variable de trafic, les mesures suivantes sont disponibles :
 * 
