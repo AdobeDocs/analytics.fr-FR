@@ -1,14 +1,14 @@
 ---
 description: Découvrez de quelle façon les visites sur votre site web deviennent un rapport dans Adobe Analytics.
-keywords: Implémentation d'Analytics ; collecte de données
+keywords: Implémentation d’Analytics;collecte de données
 seo-description: Découvrez de quelle façon les visites sur votre site web deviennent un rapport dans Adobe Analytics.
 seo-title: Collecte de données
 solution: Analytics
 title: Collecte de données
 topic: Développeur et mise en œuvre
-uuid: d 0 d 6098 d -113 e -4 cf 5-bb 89-e 435 f 7 b 6 b 1 af
+uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -61,7 +61,7 @@ Adobe a élaboré plusieurs méthodes d’envoi de données dans Analytics. Ces 
 
    >[!NOTE]
    >
-   >Chaque demande d'image contient une chaîne de nombres aléatoire afin d'éviter la mise en cache du navigateur et de garantir que les demandes d'image suivantes sont effectuées par le navigateur.
+   >Chaque demande d’image contient une chaîne numérique aléatoire afin d’empêcher la mise en cache du navigateur et de s’assurer que les demandes d’image suivantes sont effectuées par le navigateur.
 
 1. Adobe renvoie une image pixel transparente.
 
@@ -69,11 +69,11 @@ Adobe a élaboré plusieurs méthodes d’envoi de données dans Analytics. Ces 
 
    Le code collecte automatiquement les détails supplémentaires (système d’exploitation, type de navigateur, hauteur et largeur du navigateur, adresse IP et langue du navigateur).
 
-1. Adobe servers store web analysis data in *`report suites`* (your data repository).
+1. Adobe servers store web analysis data in  (your data repository).*`report suites`*
 
    ![](assets/how-data-is-collected-5.png)
 
-   Une [suite de rapports](https://marketing.adobe.com/resources/help/en_US/reference/?f=report_suites_admin) définit les rapports indépendants et complets d’un site web donné, d’un ensemble de sites web ou d’un sous-ensemble de pages web.
+   Une [suite de rapports](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html) définit les rapports indépendants et complets d’un site web donné, d’un ensemble de sites web ou d’un sous-ensemble de pages web.
 
 1. Les données de la suite de rapports renseignent les rapports auxquels vous avez accès dans un navigateur web.
 
