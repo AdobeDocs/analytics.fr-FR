@@ -3,14 +3,14 @@ description: Une présentation du menu Rapports dans Reports & Analytics.
 seo-description: Une présentation du menu Rapports dans Reports & Analytics.
 seo-title: Menu Rapports
 title: Menu Rapports
-uuid: 562 cb 6 bf -9396-42 a 3-adf 4-9651 af 8341 cb
+uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# menu Rapports{#reports-menu}
+# Menu Rapports{#reports-menu}
 
 Une présentation du menu Rapports dans Reports &amp; Analytics.
 
@@ -27,9 +27,9 @@ Les options Mes favoris, Fréquemment affichés et Historique des rapports sont 
 
 Vous pouvez naviguer dans les rapports en utilisant une colonne hiérarchique. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Appuyez sur la touche Échap pour fermer le menu sans changer le rapport actif ou appuyez sur Entrée pour charger le rapport sélectionné.
 
-![](assets/reports-landing.png){width = « 672 px »}
+![](assets/reports-landing.png){width="672px"}
 
-Pour obtenir plus de détails sur les rapports, voir [Description des rapports](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions).
+Pour obtenir plus de détails sur les rapports, voir [Description des rapports](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html).
 
 ## Recherche de rapports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -41,7 +41,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
 
 >[!NOTE]
 >
->Vous pouvez également effectuer des recherches dans la liste des rapports par numéro de prop, evar et numéro d'événement. Dans la barre de recherche, entrez le numéro de prop, d’eVar ou d’événement.
+>Vous pouvez également rechercher la liste des rapports par prop, eVar et numéro d’événement. Dans la barre de recherche, entrez le numéro de prop, d’eVar ou d’événement.
 
 ## Aperçu de la navigation {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +55,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
  <tbody> 
   <tr> 
    <td colname="col1">Menu des solutions Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Cliquez sur cette icône pour développer le menu Experience Cloud afin d'accéder à d'autres solutions Marketing Cloud. </td> 
+   <td colname="col2"> Cliquez sur cette icône pour développer le menu d’Experience Cloud et accéder ainsi à d’autres solutions Marketing Cloud. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Activer/désactiver le menu Rapports <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -99,7 +99,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Signet...</span> </td> 
-   <td colname="col2">Lets you <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> bookmark</a> the report. </td> 
+   <td colname="col2">Lets you  bookmark the report.<a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"></a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Tableau de bord</span>... </td> 
@@ -122,4 +122,4 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
 
 ## Personnalisation du menu Tous les rapports {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus) dans l’aide destinée aux administrateurs.
+Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) dans l’aide destinée aux administrateurs.
