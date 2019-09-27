@@ -1,22 +1,22 @@
 ---
 description: Affiche les liens préférés des visiteurs de votre site. La page d’accueil, par exemple, comporte probablement plusieurs liens qui permettent d’afficher la même page, notamment un lien graphique et un lien texte. Ce rapport indique le pourcentage des visiteurs qui utilisent le lien graphique plutôt que le lien texte.
 seo-description: Affiche les liens préférés des visiteurs de votre site. La page d’accueil, par exemple, comporte probablement plusieurs liens qui permettent d’afficher la même page, notamment un lien graphique et un lien texte. Ce rapport indique le pourcentage des visiteurs qui utilisent le lien graphique plutôt que le lien texte.
-seo-title: Syntaxe
+seo-title: Lien personnalisé
 solution: Analytics
-title: Syntaxe
-topic: Présentation
-uuid: 2 e 0 d 0175-d 5 e 4-4919-b 601-3 f 488 ef 3 e 090
+title: Lien personnalisé
+topic: Rapports
+uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Syntaxe
+# Lien personnalisé
 
 Affiche les liens préférés des visiteurs de votre site. La page d’accueil, par exemple, comporte probablement plusieurs liens qui permettent d’afficher la même page, notamment un lien graphique et un lien texte. Ce rapport indique le pourcentage des visiteurs qui utilisent le lien graphique plutôt que le lien texte.
 
-Les liens spécifiques dont vous souhaitez effectuer le suivi doivent être modifiés à l’aide de balises spéciales ; voir [Suivi des liens](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=c_linktracking).
+Les liens spécifiques dont vous souhaitez effectuer le suivi doivent être modifiés à l’aide de balises spéciales ; voir [Suivi des liens](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html).
 
 Vous pouvez utiliser le rapport [!UICONTROL Liens personnalisés] pour :
 
