@@ -4,10 +4,10 @@ seo-description: Les Téléchargements de fichiers vous permettent de comprendre
 seo-title: Téléchargements de fichiers
 solution: Analytics
 title: Téléchargements de fichiers
-topic: Présentation
-uuid: 897 fc 221-aa 30-4 eac-aca 6-bccb 76 adaf 71
+topic: Rapports
+uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ Les Téléchargements de fichiers vous permettent de comprendre la fréquence à
 
 **Navigation**
 
-**[!UICONTROL Rapports]** &gt; **[!UICONTROL Contenu du site]** &gt; **[!UICONTROL Liens]** &gt; Téléchargements **[!UICONTROL de fichiers]**
+**[!UICONTROL Rapports]** &gt; Contenu **[!UICONTROL du]** site &gt; **[!UICONTROL Liens]** &gt; Téléchargements de **[!UICONTROL fichiers]**
 
 Si ce rapport n’est pas disponible à l’emplacement par défaut, contactez vos administrateurs. Ils ont peut-être modifié la structure de menus par défaut pour mieux l’adapter aux besoins de votre entreprise.
 
@@ -30,14 +30,14 @@ Utilisez ce rapport pour :
 
    Par exemple, vous êtes peut-être en train de traduire vos manuels d’utilisation en douze langues pour les rendre disponibles sur votre site web. Grâce aux rapports de téléchargement de fichiers, vous connaissez la fréquence de téléchargement de chaque version des manuels d’utilisation et vous savez s’il est utile de continuer à traduire les manuels d’utilisation dans les douze langues.
 
-**Résolution des incidents**
+**Résolution des problèmes**
 
 Les rapports marketing capturent des informations sur les fichiers téléchargés depuis toute page de votre site qui contient du code JavaScript. Cependant, certaines variables doivent être présentes et définies correctement pour qu’il soit possible de générer des rapports sur les téléchargements de fichiers. Si ce rapport ne contient aucune donnée, ou ne présente pas les valeurs attendues, procédez comme suit pour valider votre implémentation.
 
-1. Recherchez le fichier JavaScript global sur votre site. Il se nomme généralement [!DNL s_code.js], à moins qu’il n’ait été renommé. If it has been renamed, you can search the JavaScript files on your site for the value *`s.account`*, which is a part of the JavaScript code.
+1. Recherchez le fichier JavaScript global sur votre site. Il se nomme généralement [!DNL s_code.js], à moins qu’il n’ait été renommé. S’il a été renommé, vous pouvez rechercher dans les fichiers JavaScript de votre site la valeur *`s.account`*, qui fait partie du code JavaScript.
 
-1. Recherchez ensuite la variable [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_trackdownllinks) dans le fichier. Assurez-vous qu’elle est définie sur *true*.
+1. Recherchez ensuite la variable [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) dans le fichier. Assurez-vous qu’elle est définie sur *true*.
 
-1. Recherchez la variable [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkdownfiletypes). Assurez-vous que la liste contient toutes les extensions de fichier souhaitées. If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
+1. Recherchez la variable [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Assurez-vous que la liste contient toutes les extensions de fichier souhaitées. If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
 
 Si le rapport [!UICONTROL Téléchargements de fichiers] ne reçoit toujours pas de données, alors que les variables vous semblent correctement configurées, invitez les utilisateurs de votre société ayant souscrit un contrat dédié à contacter le service d’assistance clientèle.
