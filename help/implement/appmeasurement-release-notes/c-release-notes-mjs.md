@@ -8,7 +8,7 @@ title: AppMeasurement pour JavaScript
 topic: Développeur et mise en œuvre
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -40,7 +40,7 @@ Date de publication : **15 août 2019**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Prise en charge `sendBeacon` des liens de sortie | Mise en œuvre de la prise en charge `sendBeacon` des liens de sortie dans [!UICONTROL AppMeasurement]. Cela permettra d’améliorer le suivi des liens de sortie et entraînera probablement par une augmentation du trafic. `SendBeacon` ne s’exécute pas dans le contexte d’une page, mais dans le contexte du navigateur. En d’autres termes, si une page est déchargée avec `sendBeacon`, la requête est toujours terminée. Cela s’avère très utile pour les liens de sortie, car il est plus probable que la demande de lien de sortie soit terminée. |
+| Prise en charge `sendBeacon` des liens de sortie | Mise en œuvre de la prise en charge `sendBeacon` des liens de sortie dans [!UICONTROL AppMeasurement]. Cela permettra d’améliorer le suivi des liens de sortie et entraînera probablement par une augmentation du trafic. `SendBeacon` doesn't execute in the context of a page but in the context of the browser. En d’autres termes, si une page est déchargée avec `sendBeacon`, la requête est toujours terminée. This is very useful for exit links because it will make it much more likely that the exit link request will be completed. |
 | Valeurs ECID/fid | Les valeurs ECID/fid sont maintenant mises en cache au premier accès, même si les paramètres OptIn changent. |
 | DIL 9.3 | Mise à jour du module Gestion de l’audience vers DIL 9.3 |
 | Suivi de la portée de défilement | Bouton exposé dans s.ActivityMap.trackScrollReach permettant d’activer ou de désactiver le suivi de la portée de défilement. |
@@ -50,7 +50,7 @@ Date de publication : **15 août 2019**
 
 Date de publication : **15 juillet 2019**
 
-* Ajout du suivi des accès de défilement d’ActivityMap à l’extension de Carte d’activités (AN-172949)
+* Added ActivityMap scroll reach tracking to the Activity Map extension (AN-172949)
 * Ajout de DIL 9.2 à AppMeasurement (AN-182472)
 
 ## Version 2.14.0
@@ -353,11 +353,11 @@ Date de mise à jour : **21 mai 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extension iOS</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external">Mise en œuvre de l’extension iOS </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">Mise en œuvre de l’extension iOS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extension Android Wearable</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external">Extension Android Wearable </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Extension Android Wearable </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,7 +432,7 @@ Date de publication : **18 septembre 2014**
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_implement.html) implementation for Experience Cloud.
 
 ## Version 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -441,11 +441,11 @@ Date de publication : **21 août 2014**
 * La suppression du suivi des modules externes de navigateur (paramètre de requête `p`) en tant que modules externes n’est plus reportée dans la version 15.
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-Ajout de la prise en charge des [eVars (76 à 250) et événements (101 à 1000) supplémentaires](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=evars_events).
+Ajout de la prise en charge des [eVars (76 à 250) et événements (101 à 1000) supplémentaires](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html).
 
 >[!NOTE]
 >
->Le code H ne prend pas en charge les eVars et événements supplémentaires.
+>H-Code does not support the additional eVars and events.
 
 [!DNL JavaScript]
 
@@ -497,7 +497,7 @@ Date de publication : **15 novembre 2013**
 Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure Vidéo - Pulsation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
-* [!DNL VisitorAPI.js] a été ajouté à la prise en charge du [service d’identification des visiteurs](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#).
+* [!DNL VisitorAPI.js] a été ajouté à la prise en charge du [service d’identification des visiteurs](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html).
 
 ## Version 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
@@ -541,8 +541,8 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 * Prise en charge native pour l’obtention des paramètres de requête, la lecture et l’écriture de cookies et le suivi avancé des liens.
 * Suffisamment petite et rapide pour être utilisée sur les sites pour mobiles et suffisamment robuste pour être utilisée sur les sites pour Bureau, ce qui vous permet d’exploiter une seule et même bibliothèque dans tous les environnements web.
 
-Voir [AppMeasurement pour Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=appmeasure_mjs) dans le Guide de mise en œuvre [!DNL Analytics]
+Voir [AppMeasurement pour Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) dans le Guide de mise en œuvre [!DNL Analytics]
 
 >[!NOTE]
 >
->Certains modules externes ne sont pas pris en charge dans cette nouvelle version. Voir [Prise en charge des modules externes](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support) pour obtenir des informations détaillées.
+>Certains modules externes ne sont pas pris en charge dans cette nouvelle version. Voir [Prise en charge des modules externes](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) pour obtenir des informations détaillées.
