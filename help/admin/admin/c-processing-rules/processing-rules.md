@@ -1,19 +1,19 @@
 ---
 description: Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports.
 seo-description: Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports.
-seo-title: Présentation des règles de traitement
+seo-title: Règles de traitement - Aperçu
 solution: Analytics
 subtopic: Règles de traitement
-title: Présentation des règles de traitement
+title: Règles de traitement - Aperçu
 topic: Outils d’administration
-uuid: 6 b 4 ee 7 c 9-2 b 86-47 a 6-b 64 c-c 8 d 644 fff 67 d
+uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Présentation des règles de traitement
+# Règles de traitement - Aperçu
 
 Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports. Ces règles fournissent une interface pour effectuer les opérations suivantes, ce qui se traduit par une interaction plus aisée avec les groupes informatiques et les développeurs Web :
 
@@ -43,7 +43,7 @@ Désormais, les administrateurs disposent des droits d’utiliser les règles de
 
 >[!IMPORTANT]
 >
->Les règles de traitement affectant de manière permanente les données Analytics, nous recommandons vivement que les administrateurs des règles de traitement reçoivent une formation certifiée dans Adobe Analytics et connaissent toutes les sources de données pour vos suites de rapports (sites Web standard, sites mobiles, applications mobiles, API d'insertion de données, etc.). La connaissance des variables de données contextuelles et des variables standard renseignées sur différentes plateformes permettra de prévenir la suppression ou la modification accidentelle des données.
+>Etant donné que les règles de traitement affectent de manière permanente les données Analytics, nous recommandons vivement aux administrateurs de règles de traitement de recevoir une formation de certification dans Adobe Analytics et de connaître toutes les sources de données pour vos suites de rapports (sites Web standard, sites mobiles, applications mobiles, API d’insertion de données, etc.). La connaissance des variables de données contextuelles et des variables standard renseignées sur différentes plateformes permettra de prévenir la suppression ou la modification accidentelle des données.
 
 ## Utilisation de données contextuelles afin de simplifier la collecte des données {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -51,7 +51,7 @@ Les variables de données contextuelles sont un nouveau type de variable, dispon
 
 ![](assets/evar-context-map.png)
 
-Reportez-vous à la rubrique [Variables Données contextuelles](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) dans l’aide d’implémentation.
+Reportez-vous à la rubrique [Variables Données contextuelles](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) dans l’aide d’implémentation.
 
 ## Utiliser des règles de traitement pour transformer des données d’accès et des événements de déclenchement {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -61,4 +61,4 @@ Les règles de traitement peuvent contrôler les valeurs entrantes afin de trans
 
 Lorsque les variables de données contextuelles ont été définies dans votre implémentation, elles doivent être copiées dans des variables telles que des eVar pour être utilisées dans les rapports.
 
-Pour plus d’informations, accédez [ici](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) et [ici](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682).
+Pour plus d’informations, accédez here and here.[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7)[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)
