@@ -4,10 +4,10 @@ seo-description: Ces rapports fournissent des renseignements sur les campagnes o
 seo-title: Détails des canaux marketing – Première touche et Dernière touche
 solution: Analytics
 title: Détails des canaux marketing – Première touche et Dernière touche
-topic: Présentation
-uuid: 669152 df -90 b 3-4 a 39-b 8 c 0-aea 0 f 5 dd 8323
+topic: Rapports
+uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,17 +18,17 @@ Ces rapports fournissent des renseignements sur les campagnes ou mots-clés qui 
 
 **Propriétés des rapports**
 
-* Ce rapport s’exécute sur la base de règles définies dans des canaux marketing. Reportez-vous à la section [Canaux et règles](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_channels_rules).
+* Ce rapport s’exécute sur la base de règles définies dans des canaux marketing. Reportez-vous à la section [Canaux et règles](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html).
 
-   Pour être plus précis, le rapport utilise la partie **[!UICONTROL Définir la valeur pour le canal]de chaque règle.** Si vous modifiez ces règles ou la définition de la valeur du canal, le mode de calcul des données de ce rapport est également modifié. Pour plus d’informations, consultez la section [Questions-réponses](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_faq) des règles de traitement du canal marketing.
+   Pour être plus précis, le rapport utilise la partie **[!UICONTROL Définir la valeur pour le canal]de chaque règle.** Si vous modifiez ces règles ou la définition de la valeur du canal, le mode de calcul des données de ce rapport est également modifié. Pour plus d’informations, consultez la section [Questions-réponses](https://marketing.adobe.com/resources/help/en_US/mchannel/c_faq.html) des règles de traitement du canal marketing.
 
-* Les différences entre *Première touche* et *Dernière touche* sont visibles dans la section [À propos des rapports Canal marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview).
+* Les différences entre *Première touche* et *Dernière touche* sont visibles dans la section [À propos des rapports Canal marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview.html).
 
 * L’ordre des règles de traitement est essentiel pour le fonctionnement des canaux marketing. Chaque accès vérifie d’abord les critères au sommet de vos règles de traitement, puis effectue un filtrage vers le bas.
 * Ce rapport peut être visualisé sous la forme d’un rapport de tendance ou avec classement.
 * Ce rapport peut utiliser un filtre de recherche afin de localiser des éléments spécifiques.
-* Outre les divers canaux collectés par les méthodes standard, il est possible d’utiliser des [sources de données hors ligne](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview_online_offline).
-* Vous pouvez utiliser des [classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) dans ce rapport afin de renommer et de consolider des éléments. Pour plus d’informations sur les canaux marketing, cliquez [ici](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_classifications).
+* Outre les divers canaux collectés par les méthodes standard, il est possible d’utiliser des [sources de données hors ligne](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_online_offline.html).
+* Vous pouvez utiliser des [classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) dans ce rapport afin de renommer et de consolider des éléments. Pour plus d’informations sur les canaux marketing, cliquez [ici](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html).
 
 * Ce rapport peut être ventilé en fonction de tous les autres rapports Canal marketing.
 * Vous pouvez activer des ventilations supplémentaires pour ce rapport à l’aide de sous-relations personnalisées. Pour de plus amples informations, invitez l’un des utilisateurs de votre société ayant souscrit un plan d’assistance dédié à contacter le service d’assistance clientèle pour demander l’activation de variables spécifiques.
@@ -40,9 +40,9 @@ Ces rapports fournissent des renseignements sur les campagnes ou mots-clés qui 
    * Toutes les variables de commerce électronique standard : Recettes, Commandes, Unités, Paniers, Consultations du panier, Passages en caisse, Ajouts au panier, Retraits du panier.
    * Tous les événements personnalisés : Événements 1-80, et Événements 81-100 si le code est H22 ou supérieur.
    * Visites et Visiteurs : la disponibilité dépend de la société et de la suite de rapports. Pour plus d’informations, contactez votre gestionnaire de compte.
-   Reportez-vous à la rubrique [Mesures](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview_metrics) dans l’aide de [!UICONTROL Canal marketing].
+   Reportez-vous à la rubrique [Mesures](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) dans l’aide de [!UICONTROL Canal marketing].
 
 >[!NOTE]
 >
->[!UICONTROL La création de rapports Canal] marketing n'est pas disponible dans la version 13.5.
+>[!UICONTROL Marketing Channel] reporting is not available in version 13.5.
 
