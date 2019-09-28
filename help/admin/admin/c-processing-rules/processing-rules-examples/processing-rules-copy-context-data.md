@@ -1,19 +1,19 @@
 ---
 description: Les règles de traitement servent à déplacer des valeurs des variables Données contextuelles vers des props et des eVars.
 seo-description: Les règles de traitement servent à déplacer des valeurs des variables Données contextuelles vers des props et des eVars.
-seo-title: Copie d'une variable de données contextuelles dans une evar
+seo-title: Copier une variable de données contextuelles dans une eVar
 solution: Analytics
 subtopic: Règles de traitement
-title: Copie d'une variable de données contextuelles dans une evar
+title: Copier une variable de données contextuelles dans une eVar
 topic: Outils d’administration
-uuid: 1 beaec 4 c -71 e 9-49 ce-b 154-78408 cc 532 a 3
+uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Copie d'une variable de données contextuelles dans une evar
+# Copier une variable de données contextuelles dans une eVar
 
 Les règles de traitement servent à déplacer des valeurs des variables Données contextuelles vers des props et des eVars.
 
@@ -38,4 +38,4 @@ Par exemple :
 
 ![](assets/set-context-data.png)
 
-Reportez-vous à la rubrique [Variables Données contextuelles](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) dans l’aide d’implémentation.
+Reportez-vous à la rubrique [Variables Données contextuelles](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) dans l’aide d’implémentation.
