@@ -6,9 +6,9 @@ seo-title: Variables de conversion (eVar)
 solution: Analytics
 title: Variables de conversion (eVar)
 topic: Outils d’administration
-uuid: 1 eed 0 cb 1-0735-4142-be 21-43 f 264216 b 50
+uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -29,11 +29,11 @@ Il est conseillé d’utiliser des variables de trafic si vous souhaitez procéd
 
 >[!NOTE]
 >
->Une seule valeur peut être stockée dans une evar dans une demande d'image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
+>Only a single value can be stored in an eVar in an image request. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
 
 ## Variables de conversion - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descriptions of fields used when [editing conversion variables](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97).
+Descriptions of fields used when editing conversion variables.[](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97)
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 
@@ -49,11 +49,11 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">Type</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Type de valeur de la variable : </p> <p> <b>Chaîne de texte</b>:</span> Capture les valeurs textuelles utilisées sur votre site. Il s’agit du type d’eVar le plus courant et du paramètre par défaut. Cette chaîne se comporte comme les autres variables, la valeur qu’elle contient étant une chaîne de texte statique. Si vous effectuez le suivi d’éléments tels que des campagnes internes ou des mots-clés de recherche interne, ce paramètre est recommandé. </p> <p> <b>Compteur</b>:</span> Compte le nombre d'occurrences d'une action avant l'événement de réussite. Si, par exemple, vous utilisez une eVar pour suivre les recherches internes sur votre site, définissez cette valeur sur <span class="uicontrol">Chaîne de texte</span> pour suivre l’utilisation des termes de recherche. Définissez cette valeur sur <span class="uicontrol">Compteur</span> pour compter le nombre de recherches effectuées, quels que soient les termes recherchés. Vous pouvez, par exemple, utiliser une eVar de compteur pour suivre le nombre de fois où une personne a utilisé votre recherche interne avant d’effectuer un achat. </p> </td> 
+   <td colname="col2"> <p>Type de valeur de la variable : </p> <p> <b></b> Chaîne</span>de texte : Capture les valeurs textuelles utilisées sur votre site. Il s’agit du type d’eVar le plus courant et du paramètre par défaut. Cette chaîne se comporte comme les autres variables, la valeur qu’elle contient étant une chaîne de texte statique. Si vous effectuez le suivi d’éléments tels que des campagnes internes ou des mots-clés de recherche interne, ce paramètre est recommandé. </p> <p> <b></b> Compteur</span>: Compte le nombre de fois où une action se produit avant l’événement de réussite. Si, par exemple, vous utilisez une eVar pour suivre les recherches internes sur votre site, définissez cette valeur sur <span class="uicontrol">Chaîne de texte</span> pour suivre l’utilisation des termes de recherche. Définissez cette valeur sur <span class="uicontrol">Compteur</span> pour compter le nombre de recherches effectuées, quels que soient les termes recherchés. Vous pouvez, par exemple, utiliser une eVar de compteur pour suivre le nombre de fois où une personne a utilisé votre recherche interne avant d’effectuer un achat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">Affectation</span> </p> </td> 
-   <td colname="col2"> <p>Détermine la manière dont Analytics attribue le crédit d’un événement de succès si une variable reçoit plusieurs valeurs avant l’événement. Les valeurs acceptables sont : </p> <p> <b>Le plus récent</b>: La dernière valeur evar reçoit toujours le crédit des événements de réussite jusqu'à ce que l'evar expire. </p> <p> <b>Valeur d'origine</b>: La première evar reçoit toujours le crédit des événements de réussite jusqu'à l'expiration de l'evar. </p> <p> <b> Linéaire</b>: Attribue les événements de réussite à égalité entre toutes les valeurs evar. Puisque l’attribution linéaire ne répartit précisément les valeurs que dans une visite, utilisez-la avec une expiration d’eVar de visite. </p> <p>Remarque : L’activation ou la désactivation d’une attribution de type Linéaire empêche l’affichage des données historiques. Mélanger divers types d’attribution dans l’interface de création de rapports peut se traduire par des données erronées dans les rapports. Il se peut, par exemple, qu’une attribution linéaire divise les recettes entre plusieurs valeurs eVar différentes. Après avoir rétabli le type d’attribution sur « Le plus récent », 100 % des recettes seront associées à la valeur unique la plus récente. Cette association peut mener à des conclusions incorrectes de la part des utilisateurs. </p> <p>Pour éviter tout risque de confusion dans les rapports, les données historiques ne sont pas mises à la disposition des utilisateurs dans l’interface. Elles peuvent être visualisées si vous décidez de redéfinir l’eVar sur le paramètre d’attribution initial, même s’il est déconseillé de modifier les paramètres d’attribution de l’eVar aux seules fins d’accéder aux données historiques. Adobe recommande d’utiliser une nouvelle eVar lorsque de nouveaux paramètres d’attribution sont souhaités pour des données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution sur une eVar qui a déjà accumulé une certaine quantité de données historiques. </p> </td> 
+   <td colname="col2"> <p>Détermine la manière dont Analytics attribue le crédit d’un événement de succès si une variable reçoit plusieurs valeurs avant l’événement. Les valeurs acceptables sont : </p> <p> <b>Le plus récent</b>: La dernière valeur d'eVar reçoit toujours le crédit des événements de réussite jusqu'à ce que l'eVar arrive à expiration. </p> <p> <b>Original Value: The first eVar always receives credit for success events until that eVar expires.</b> </p> <p> <b> Linéaire</b>: attribue les événements de réussite de manière égale à toutes les valeurs d’eVar. Puisque l’attribution linéaire ne répartit précisément les valeurs que dans une visite, utilisez-la avec une expiration d’eVar de visite. </p> <p>Remarque : L’activation ou la désactivation d’une attribution de type Linéaire empêche l’affichage des données historiques. Mélanger divers types d’attribution dans l’interface de création de rapports peut se traduire par des données erronées dans les rapports. Il se peut, par exemple, qu’une attribution linéaire divise les recettes entre plusieurs valeurs eVar différentes. Après avoir rétabli le type d’attribution sur « Le plus récent », 100 % des recettes seront associées à la valeur unique la plus récente. Cette association peut mener à des conclusions incorrectes de la part des utilisateurs. </p> <p>Pour éviter tout risque de confusion dans les rapports, les données historiques ne sont pas mises à la disposition des utilisateurs dans l’interface. Elles peuvent être visualisées si vous décidez de redéfinir l’eVar sur le paramètre d’attribution initial, même s’il est déconseillé de modifier les paramètres d’attribution de l’eVar aux seules fins d’accéder aux données historiques. Adobe recommande d’utiliser une nouvelle eVar lorsque de nouveaux paramètres d’attribution sont souhaités pour des données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution sur une eVar qui a déjà accumulé une certaine quantité de données historiques. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Expire après</span> </p> </td> 
@@ -76,12 +76,12 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">Expiration - mois : l’eVar expire 31 jours à compter du lundi à 7:15. </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Evénements de conversion spécifiques.</b> Tout autre événement de conversion qui est déclenché après l’événement spécifique désigné est associé à l’eVar. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Jamais.</b> Tant que le cookie <span class="varname"> Le cookie visitorid</span> est intact, une durée indéfinie peut s'écouler entre evar et event. </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Jamais.</b> Tant que le cookie <span class="varname"> visitorID</span> cookie is intact, any amount of time can pass between eVar and event. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> État</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Définit l’état de la variable eVar : </p> <p><b>Désactivé</b>:</span> Désactive l'evar. Supprime l’eVar de la liste des variables de conversion. </p> <p> <b>Aucune sous-relation</b>:</span> Vous empêche de ventiler l'evar avec une sous-subrelation. </p> <p> <b>Sous-relations de base</b>: </span>Permet de ventiler une evar en fonction de n'importe quel rapport avec des sous-subrelations complètes (Produits ou Campagne, par exemple). </p> </td> 
+   <td colname="col2"> <p>Définit l’état de la variable eVar : </p> <p><b></b> Désactivé</span>: Désactive l’eVar. Supprime l’eVar de la liste des variables de conversion. </p> <p> <b></b> Aucune sous-relation</span>: Vous empêche de ventiler l’eVar avec une sous-relation. </p> <p> <b>Sous-relations</b>de base : Vous </span>permet de ventiler une eVar en fonction de n’importe quel rapport avec des sous-relations complètes (par exemple, Produits ou Campagne). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">Réinitialiser</span> </p> </td> 
@@ -89,7 +89,7 @@ Descriptions of fields used when [editing conversion variables](../../../admin/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes : </p> <p> <b>Syntaxe Produits</b>:</span> Associe la valeur evar à un produit. Remarque : Si Syntaxe Produits est sélectionné, la section Événement de liaison de marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les événements de liaison ne sont pas applicables. </p> </p> <p> <b>Syntaxe de la variable de conversion</b>:</span> Associe l'evar à un produit uniquement si un événement de liaison se produit. Dans ce cas, sélectionnez les événements qui se comportent comme des événements de liaison. </p> <p>Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=var_merchandising" format="http" scope="external">Variables de marchandisage</a>. </p> </td> 
+   <td colname="col2"> <p>Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes : </p> <p> <b>Products Syntax</b>:</span> Associates the eVar value to a product. Remarque : Si Syntaxe Produits est sélectionné, la section Événement de liaison de marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les événements de liaison ne sont pas applicables. </p> </p> <p> <b></b> Syntaxe</span>de la variable de conversion : Associe l’eVar à un produit uniquement si un événement de liaison se produit. Dans ce cas, sélectionnez les événements qui se comportent comme des événements de liaison. </p> <p>Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">Variables de marchandisage</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Événement de liaison de marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
