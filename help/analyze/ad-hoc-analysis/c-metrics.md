@@ -3,9 +3,9 @@ description: Les mesures sont des informations quantitatives sur l’activité d
 seo-description: Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations (ou rechargements), la durée moyenne de consultation, les dates, les unités, les commandes, les recettes, etc. Les mesures et les données associées s’affichent dans les colonnes des rapports.
 seo-title: Mesures
 title: Mesures
-uuid: ab 9 d 8 a 45-0297-4757-b 0 f 0-d 8 b 0 e 0 db 8 d 67
+uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ Les mesures standard incluent :
 * **Conversion** : affiche des données sur les événements de succès de votre site Web. Ces événements de succès peuvent inclure les achats, les téléchargements ou toute autre action que vous voulez amener les utilisateurs à effectuer.
 * **Calculé** : mesures personnalisables créées en combinant d’autres mesures. Par exemple, vous pouvez créer une mesure qui soustrait le coût par mot-clé et le coût des produits des recettes pour obtenir les recettes nettes. Vous pouvez ensuite diviser ce montant par le nombre total de commandes pour calculer les recettes nettes moyennes par commande.
 
-Voir les [définitions des mesures](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics) dans la *référence sur les analyses* pour en savoir plus sur la manière dont sont utilisées les mesures dans les produits [!DNL Experience Cloud].
+Voir les [définitions des mesures](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) dans la *référence sur les analyses* pour en savoir plus sur la manière dont sont utilisées les mesures dans les produits [!DNL Experience Cloud].
 
 Utilisez l’outil [!UICONTROL Organiser les mesures] pour créer des dossiers pour vos mesures. Vous pouvez ensuite grouper les mesures à votre gré. L’outil d’organisation vous permet de copier les mesures existantes dans vos dossiers personnalisés par simple glisser-déposer.
 
@@ -50,7 +50,7 @@ t_organize_metrics.xml
 
    >[!NOTE]
    >
-   >Lorsque vous supprimez un dossier, toutes les mesures du dossier sont supprimées du projet actuellement sélectionné.
+   >When you delete a folder, all of the metrics in the folder are deleted from your currently selected project.
 
 ## Ajout de mesures à un rapport {#task_747DD1718B3F4776B83A115D0BE8754C}
 
