@@ -1,20 +1,20 @@
 ---
-description: Etapes d'exécution des différents types de rapport.
-seo-description: Etapes d'exécution des différents types de rapport.
+description: Cette section décrit la procédure à suivre pour exécuter les différents types de rapports.
+seo-description: Cette section décrit la procédure à suivre pour exécuter les différents types de rapports.
 seo-title: Exécution de différents types de rapports
 solution: Analytics
 title: Exécution de différents types de rapports
 topic: Rapports,Reports & Analytics
-uuid: f 59 ab 2 a 1-e 916-46 e 8-bb 5 b-e 6361 ba 00 dda
+uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
 # Exécution de différents types de rapports
 
-Etapes d'exécution des différents types de rapport.
+Cette section décrit la procédure à suivre pour exécuter les différents types de rapports.
 
 
 ## Exécution d’un rapport de classement {#task_C570BA4A213F4F2EB7B30E012934BE7D}
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
 
-Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion).
+Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html).
 
 ## Exécution d’un rapport sur les abandons {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ Découvrez le nouveau panneau [Analyse des abandons](https://marketing.adobe.com
 
 >[!MORE_LIKE_THIS]
 >
->* [Description du rapport sur les abandons](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_fallout)
+>* [Description du rapport sur les abandons](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
 
 
 ## Exécution d’un rapport de flux de page {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -103,7 +103,7 @@ t_reports_page_flow.xml
 
 Découvrez la nouvelle [visualisation Flux](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) dans Analysis Workspace.
 
-Exécutez un rapport [Chemins](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_paths).
+Exécutez un rapport [Chemins](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html).
 
 For example, click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
 
@@ -129,7 +129,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion_funnel).
+1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## Exécution d’un rapport Canal marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -155,11 +155,11 @@ t_anomaly_view.xml
 
 Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse des contributions](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) d’Analysis Workspace.
 
-**[!UICONTROL Rapports]** &gt; **[!UICONTROL Mesures du site]** &gt; **[!UICONTROL Détection]** des anomalies.
+**[!UICONTROL Rapports]** &gt; Mesures **[!UICONTROL du]** site &gt; Détection **[!UICONTROL des anomalies]** .
 
 >[!NOTE]
 >
->Vous pouvez également exécuter la détection des anomalies à partir des projets Analysis Workspace. [Plus...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>Vous pouvez également exécuter la détection des anomalies dans les projets Analysis Workspace. [Plus...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Pour plus d’informations sur la configuration de la détection des anomalies, voir le [Guide de référence](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
@@ -184,9 +184,9 @@ La détection des anomalies présente deux types de graphiques : un graphique s
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">Les valeurs du pourcentage d’écart (à gauche du graphique) sont calculées comme suit : 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">Si les limites supérieures et la valeur attendue sont les mêmes, le % d’écart est de 100 % </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">Sinon, l'écart % est ((valeur réelle - valeur limite supérieure)/(valeur limite supérieure - valeur attendue)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si les limites inférieures et la valeur attendue sont identiques, l'écart % est -100 % </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Sinon, l'écart % est ((valeur limite inférieure - valeur réelle)/(valeur attendue - valeur limite inférieure)) * -100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">Sinon, le % d’écart est ((valeur réelle - valeur limite supérieure) / (valeur limite supérieure - valeur attendue)) * 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si les limites inférieures et la valeur attendue sont identiques, le % d’écart est de -100 %. </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Sinon, le % d’écart est ((valeur limite inférieure - valeur réelle) / (valeur attendue - valeur limite inférieure)) * -100 </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C">Cliquez sur <span class="uicontrol">Afficher Segments</span> pour afficher le rail des segments à partir duquel vous pouvez appliquer des segments à un rapport de détection des anomalies. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> Plus d’informations</a> sur la segmentation. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Cliquez sur <span class="uicontrol">Modifier des mesures</span> pour sélectionner et désélectionner des mesures pour lesquelles vous souhaitez détecter des anomalies. </li> 
@@ -243,7 +243,7 @@ Configurez la détection des anomalies indépendamment pour chaque suite de rapp
 
    Voir le [guide de segmentation d’Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) pour en savoir plus sur la création et la gestion des segments. 1. (Facultatif) Définissez le rapport comme favori ou signet.
 1. (Facultatif) Modifiez la date de fin de la période d’affichage. La valeur par défaut est « hier ». 
-1. Vous pouvez à présent commencer à interpréter le rapport [Affichage des graphiques de détection des anomalies](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+1. Vous pouvez à présent commencer à interpréter le rapport [Affichage des graphiques](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de détection des anomalies.
 
 ## Exécution d’un rapport en temps réel {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -270,7 +270,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Sélectionner une suite de rapports</strong></td> 
-   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=t_realtime_admin" format="http" scope="external">Configuration de rapports en temps réel </a>. </td> 
+   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">Configuration de rapports en temps réel </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Basculer entre les rapports</strong></td> 
