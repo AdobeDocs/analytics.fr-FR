@@ -3,12 +3,12 @@ description: Créez un groupe qui accorde des droits d’administration limités
 seo-description: Créez un groupe qui accorde des droits d’administration limités aux utilisateurs du rapport Canal marketing, puis affectez des utilisateurs à ce groupe. Par exemple, vous souhaitez peut-être créer un groupe qui permette aux utilisateurs non administrateurs de saisir le montant des coûts ou du budget.
 seo-title: Octroi de droits d’administration limités
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: Octroi de droits d’administration limités
-topic: Reports and Analytics
-uuid: 439 fe 486-78 d 5-4 d 58-8 b 4 f -8 b 6 a 4 b 98 b 00 d
+topic: Reports & Analytics
+uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -21,7 +21,7 @@ Créez un groupe qui accorde des droits d’administration limités aux utilisat
 1. Click **[!UICONTROL Groups.]**
 1. Cliquez sur le nom d’un groupe personnalisé, ou cliquez sur **Ajouter un nouveau groupe d’utilisateur** pour créer un groupe d’utilisateurs.
 
-   Reportez-vous à la section [Gestion des utilisateurs](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=user_management) dans l’*aide sur l’administration*.
+   Reportez-vous à la section [Gestion des utilisateurs](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) dans l’*aide sur l’administration*.
 
 1. Under Report Access, locate Admin, then click **[!UICONTROL Customize.]**
 1. Activez les options **Canaux** et **[!UICONTROL Coûts.]**
