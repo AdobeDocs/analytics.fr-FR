@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Règles de traitement
 title: Ordre de traitement
 topic: Outils d’administration
-uuid: cea 01 d 13-dfd 5-40 f 7-8 b 2 f-b 6 e 2 fe 8354 df
+uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -36,8 +36,8 @@ Les tableaux suivants répertorient les données qui sont généralement disponi
 |--- |--- |
 | Données ajoutées par VISTA | Les règles de traitement sont appliquées avant VISTA. |
 | Numéro de page de la visite | Généralement, les règles de traitement ne sont informées que des données contenues dans l’accès actuel. Le numéro de page de la visite est compilé après l’application des règles de traitement. |
-| Une URL propre est ajoutée comme nom de page si aucun nom n’est défini | Après l’application des règles de traitement et VISTA, l’URL propre est ajoutée comme nom de page si aucun nom n’est défini. Dans la mesure où cela se produit après l’application des règles, il est conseillé d’ajouter une condition afin de vérifier si le nom de page est vide.  Si vous exécutez le rapport Contenu du site &gt; Rapport Pages et que vous voyez https:// des valeurs pour les noms de page, il est probable que le nom de la page soit vide et que l'URL soit utilisée. Vous pouvez configurer une condition afin de rechercher un nom de page vide ou de vérifier si le nom de page ou l’URL de la page contient une valeur spécifique. Le nom de la page peut alors être défini selon vos besoins. |
-| Règles de traitement des canaux marketing | Vous pouvez utiliser des règles de traitement afin de préparer les données en vue de leur traitement par des [règles Canaux marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_rules). |
+| Une URL propre est ajoutée comme nom de page si aucun nom n’est défini | Après l’application des règles de traitement et VISTA, l’URL propre est ajoutée comme nom de page si aucun nom n’est défini. Dans la mesure où cela se produit après l’application des règles, il est conseillé d’ajouter une condition afin de vérifier si le nom de page est vide.  If you run the  Site Content &gt;  Pages Report and you see  https:// values for page names, it is likely the page name is blank and the URL is being used.  Vous pouvez configurer une condition afin de rechercher un nom de page vide ou de vérifier si le nom de page ou l’URL de la page contient une valeur spécifique. Le nom de la page peut alors être défini selon vos besoins. |
+| Règles de traitement des canaux marketing | Vous pouvez utiliser des règles de traitement afin de préparer les données en vue de leur traitement par des [règles Canaux marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/c_rules.html). |
 | Recherche GEO | Inclut les valeurs État du visiteur et Code postal du visiteur. |
 | Persistance des variables eVar | Les variables eVar qui étaient contenues dans un accès précédent ne sont pas conservées dans chacun des accès au cours du traitement des règles. Seules les variables eVar qui sont définies sur l’accès en cours de traitement sont disponibles. |
 
