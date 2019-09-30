@@ -1,23 +1,23 @@
 ---
-keywords: Analysis Workspace
-seo-title: Qu'est-ce que l'analyse des cohortes ?
+keywords: Analysis Workspace
+seo-title: Qu’est-ce que l’analyse des cohortes ?
 solution: Analytics
-title: Qu'est-ce que l'analyse des cohortes ?
-topic: Reports and Analytics
-uuid: 39 a 83 f 3 a -15 d 1-41 d 7-bcdd -50 c 22 aed 8 f 1 c
+title: Qu’est-ce que l’analyse des cohortes ?
+topic: Reports & Analytics
+uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
 
 ---
 
 
 # Qu’est-ce que l’analyse des cohortes ?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. L'analyse des cohortes est utile, par exemple, lorsque vous souhaitez savoir comment une cohorte s'engage avec une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+A *`cohort`* is a group of people sharing common characteristics over a specified period. L’analyse des cohortes est utile, par exemple, lorsque vous souhaitez savoir comment une cohorte interagit avec une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants (dimensions, mesures et segments spécifiques), puis partager le rapport avec les personnes de votre choix. Voir [Traitement et partage](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
+Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants (dimensions, mesures et segments spécifiques), puis partager le rapport avec les personnes de votre choix. Voir [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
 
-Exemples de ce que vous pouvez faire avec Cohort Analysis :
+Exemples de ce que vous pouvez faire avec l’analyse des cohortes :
 
 * Lancez des campagnes conçues pour déclencher une action spécifique.
 * Ajustez le budget marketing exactement au bon moment au cours du cycle de vie des clients.
@@ -31,19 +31,23 @@ L’analyse des cohortes est disponible pour tous les clients Analytics avec des
 
 [Analyse des cohortes sur YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
-## Fonctionnalités d'analyse des cohortes
+>[!IMPORTANT]
+>
+>Cohort Analysis does not support calculated metrics.
 
-En janvier 2019, Adobe a publié une nouvelle version de Cohort Analysis améliorée. Celle-ci offre un contrôle plus affiné sur les cohortes que vous créez. Voici les améliorations présentées :
+## Fonctionnalités d’analyse des cohortes
+
+In January 2019, Adobe released a new and significantly enhanced version of Cohort Analysis. Celle-ci offre un contrôle plus affiné sur les cohortes que vous créez. Voici les améliorations présentées :
 
 ### Tableau de rétention
 
-Un rapport de cohorte de rétention renvoie les visiteurs : chaque cellule de données indique le nombre brut et le pourcentage de visiteurs de la cohorte qui ont effectué l'action durant cette période. Vous pouvez inclure jusqu’à 3 mesures et 10 segments.
+Un rapport de cohorte de rétention renvoie les visiteurs : chaque cellule de données affiche le nombre brut et le pourcentage de visiteurs de la cohorte qui ont effectué l’action au cours de cette période. Vous pouvez inclure jusqu’à 3 mesures et 10 segments.
 
 ![](assets/retention-report.png)
 
 ### Tableau de perte de clientèle
 
-Une cohorte Churn est l'inverse d'une table de rétention et indique les visiteurs qui ont abandonné ou n'ont jamais satisfait aux critères de retour pour votre cohorte au fil du temps. Vous pouvez inclure jusqu’à 3 mesures et 10 segments.
+Une cohorte Churn est l’inverse d’un tableau de rétention et affiche les visiteurs qui ont échoué ou n’ont jamais satisfait aux critères de retour de votre cohorte au fil du temps. Vous pouvez inclure jusqu’à 3 mesures et 10 segments.
 
 ![](assets/churn-report.png)
 
