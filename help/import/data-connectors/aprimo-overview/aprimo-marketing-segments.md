@@ -1,24 +1,13 @@
 ---
-description: 'Cette intégration présente les segments marketing dynamiques suivants '
-seo-description: 'Cette intégration présente les segments marketing dynamiques suivants '
-seo-title: Segments marketing dynamiques
-title: Segments marketing dynamiques
-uuid: 0090 b 356-aced -423 e-aefe -61 ce 23 d 5 a 86 f
-index: y
-internal: n
-snippet: y
+description: 'Cette intégration comprend les segments de marketing dynamique suivants : '
+seo-description: 'Cette intégration comprend les segments de marketing dynamique suivants : '
+seo-title: Segments de marketing dynamique
+title: Segments de marketing dynamique
+uuid: 0090b356-aced-423e-aefe-61ce23d5a86f
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Segments marketing dynamiques{#dynamic-marketing-segments}
-
-Cette intégration présente les segments marketing dynamiques suivants :
-
-* **Profils d'achat :** Augmentez les commandes de répétition et la valeur moyenne de commande par le biais de campagnes ciblées par les modèles d'achat des visiteurs.
-* **Profil comportemental de la vue Produit/Contenu :** Portée des clients potentiels par le biais de segments marketing basés sur les consultations de produit et le profilage d'accès au contenu.
-* **Profil d'abandon de panier :** Aider les visiteurs à se convertir en clients par le biais de campagnes affinées spécialement conçues pour ceux qui hésitent à effectuer des paniers.
-* Les clients peuvent également créer et programmer des segments de remarketing personnalisés spécifiques aux besoins de leurs utilisateurs.
 
