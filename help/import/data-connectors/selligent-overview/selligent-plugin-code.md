@@ -1,24 +1,21 @@
 ---
-description: Réservez les evars nécessaires dans l'outil d'administration d'Adobe Analytics avant de travailler avec le code ci-dessous.
-seo-description: Réservez les evars nécessaires dans l'outil d'administration d'Adobe Analytics avant de travailler avec le code ci-dessous.
-seo-title: Code du plug-in de chaîne de requête
+description: Réservez les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant d’utiliser le code ci-dessous.
+seo-description: Réservez les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant d’utiliser le code ci-dessous.
+seo-title: Code du module complémentaire de paramètre de chaîne de requête
 solution: Analytics
-title: Code du plug-in de chaîne de requête
-uuid: a 71 e 7774-bc 7 a -414 e-a 116-739770 b 900 bf
-index: y
-internal: n
-snippet: y
+title: Code du module complémentaire de paramètre de chaîne de requête
+uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Code du plug-in de chaîne de requête{#query-string-param-plug-in-code}
+# Code du module complémentaire de paramètre de chaîne de requête{#query-string-param-plug-in-code}
 
-Réservez les evars nécessaires dans l'outil d'administration d'Adobe Analytics avant de travailler avec le code ci-dessous.
+Réservez les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant d’utiliser le code ci-dessous.
 
-Une fois que vous connaissez les [evars que vous avez réservées](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238), remplacez evarn par l'evar appropriée, par exemple evar 10.
+Une fois que vous connaissez les eVars que vous avez réservées, remplacez eVarN par l’eVar appropriée, par exemple eVar10.
 
 ```
 /* 
