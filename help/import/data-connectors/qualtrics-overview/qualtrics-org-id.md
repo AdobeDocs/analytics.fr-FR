@@ -1,35 +1,32 @@
 ---
-description: L'ID d'organisation est requis pour terminer l'assistant d'intégration. Pour trouver cet ID, vous devez effectuer les opérations suivantes.
-seo-description: L'ID d'organisation est requis pour terminer l'assistant d'intégration. Pour trouver cet ID, vous devez effectuer les opérations suivantes.
-seo-title: Recherche de votre ID d'organisation Qualtrics
+description: L’ID d’organisation est requis pour terminer l’assistant d’intégration. Pour trouver cet identifiant, vous devez effectuer les opérations suivantes.
+seo-description: L’ID d’organisation est requis pour terminer l’assistant d’intégration. Pour trouver cet identifiant, vous devez effectuer les opérations suivantes.
+seo-title: Recherche de votre ID d’organisation Qualtrics
 solution: Analytics
 subtopic: Qualtrics
-title: Recherche de votre ID d'organisation Qualtrics
+title: Recherche de votre ID d’organisation Qualtrics
 topic: Connecteurs de données
-uuid: ed 27 becd -7364-423 b -8 a 49-35 bf 7217 f 4 b 3
-index: y
-internal: n
-snippet: y
+uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Recherche de votre ID d'organisation Qualtrics{#looking-up-your-qualtrics-organization-id}
+# Looking up your Qualtrics Organization ID{#looking-up-your-qualtrics-organization-id}
 
-L'ID d'organisation est requis pour terminer l'assistant d'intégration. Pour trouver cet ID, vous devez effectuer les opérations suivantes.
+The Organization ID is required to complete the integration wizard. Pour trouver cet identifiant, vous devez effectuer les opérations suivantes.
 
-1. Connectez-vous à Qualtrics Research Suite.
-1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans votre menu utilisateur.
+1. Log in to the Qualtrics Research Suite.
+1. Cliquez sur Paramètres **[!UICONTROL du]** compte dans le menu utilisateur.
 
    ![](assets/qualtrics-org-id-1.png)
 
-1. Cliquez sur **[!UICONTROL les identifiants Qualtrics.]**
+1. Click on **[!UICONTROL Qualtrics IDs]**.
 
    ![](assets/qualtrics-org-id-2.png)
 
-1. Recherchez et enregistrez l'ID **[!UICONTROL d'organisation]** dans la section **[!UICONTROL Utilisateur]** .
+1. Recherchez et enregistrez l’ID **[!UICONTROL d’organisation]** dans la section **[!UICONTROL Utilisateur]** .
 
    ![](assets/qualtrics-org-id-3.png)
 
