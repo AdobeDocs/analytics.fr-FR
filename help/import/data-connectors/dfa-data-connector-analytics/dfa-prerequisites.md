@@ -6,12 +6,9 @@ seo-title: Conditions préalables
 solution: Analytics
 title: Conditions préalables
 topic: Connecteurs de données
-uuid: b 5 f 5 e 30 c-e 269-41 a 4-9236-5 ddc 404 bfd 94
-index: y
-internal: n
-snippet: y
+uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -20,7 +17,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 Avant de commencer l’intégration des Connecteurs de données Adobe pour DFA, procédez comme suit :
 
-* Décidez de procéder à l’intégration de la version 1.5 ou d’attendre la version 2.0. Cette décision dépend des fonctions utilisées dans votre compte DFA et du délai imparti pour réaliser l’intégration. Voir la section [Version 2.0](../dfa-data-connector-analytics/dfa-version-differences.md#concept-2c7d6a6ab8524dccad96ea0c17228664) pour en savoir plus.
+* Décidez de procéder à l’intégration de la version 1.5 ou d’attendre la version 2.0. Cette décision dépend des fonctions utilisées dans votre compte DFA et du délai imparti pour réaliser l’intégration.
 * Décidez de la façon dont DFA Advertisers va mapper les suites de rapports Adobe Analytics. Par exemple, en présence de plusieurs instances de DFA Advertisers et de plusieurs suites de rapports, vous devez choisir les paires Advertisers/suites de rapports.
 * Mettez en œuvre le code de collecte de données Adobe sur toutes les pages à suivre, à l’aide du code de collecte version H.22 ou ultérieure.
 * Vous devez connaître l’identifiant publicitaire d’un compte DFA qui fait partie de la configuration Floodlight à intégrer. L’intégration importe automatiquement toutes les instances Advertisers incluses dans la configuration de Floodlight.
