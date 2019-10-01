@@ -1,22 +1,19 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Avantages et fonctionnalités clés
+seo-title: Principaux avantages et fonctionnalités
 solution: Analytics
-title: Avantages et fonctionnalités clés
-uuid: 3 e 865 f 89-a 786-44 d 1-877 d -36 cb 58 cb 3 f 74
-index: y
-internal: n
-snippet: y
+title: Principaux avantages et fonctionnalités
+uuid: 3e865f89-a786-44d1-877d-36cb58cb3f74
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Avantages et fonctionnalités clés{#key-benefits-and-features}
+# Principaux avantages et fonctionnalités{#key-benefits-and-features}
 
-* Synchronisation quotidienne automatisée des dimensions et mesures de commentaires entre Kampyle et Adobe Analytics.
-* Création de rapports de trafic et de conversion autour du nombre de commentaires, des évaluations et d'autres commentaires.
-* Nouvelles dimensions de commentaires qui peuvent être utilisées pour créer des segments pour analyser les rapports Adobe Analytics.
+* Synchronisation quotidienne automatisée des dimensions et des mesures des commentaires entre Kampyle et Adobe Analytics.
+* Nouveaux rapports de trafic et de conversion autour du nombre de commentaires, des évaluations et d’autres commentaires.
+* Nouvelles dimensions de commentaire qui peuvent être utilisées pour créer des segments en vue de l’exploration dans n’importe quel rapport Adobe Analytics.
 
