@@ -1,28 +1,25 @@
 ---
-description: Tâches et informations que vous devez avoir avant d'exécuter l'assistant d'intégration des Connecteurs de données pour implémenter l'intégration des connecteurs de données.
-seo-description: Tâches et informations que vous devez avoir avant d'exécuter l'assistant d'intégration des Connecteurs de données pour implémenter l'intégration des connecteurs de données.
-seo-title: Préparation de l'intégration de courrier électronique des connecteurs de données
-title: Préparation de l'intégration de courrier électronique des connecteurs de données
-uuid: 3 cedc 6 ec -1453-4 b 1 f -879 c -972 b 0238 d 124
-index: y
-internal: n
-snippet: y
+description: Tâches et informations dont vous devez disposer avant d’exécuter l’assistant d’intégration des connecteurs de données pour mettre en oeuvre l’intégration des connecteurs de données.
+seo-description: Tâches et informations dont vous devez disposer avant d’exécuter l’assistant d’intégration des connecteurs de données pour mettre en oeuvre l’intégration des connecteurs de données.
+seo-title: Préparation de l’intégration des courriers électroniques des connecteurs de données
+title: Préparation de l’intégration des courriers électroniques des connecteurs de données
+uuid: 3cedc6ec-1453-4b1f-879c-972b0238d124
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Préparation de l'intégration de courrier électronique des connecteurs de données{#preparing-for-the-data-connectors-email-integration}
+# Préparation de l’intégration des courriers électroniques des connecteurs de données{#preparing-for-the-data-connectors-email-integration}
 
-Tâches et informations que vous devez avoir avant d'exécuter l'assistant d'intégration des Connecteurs de données pour implémenter l'intégration des connecteurs de données.
+Tâches et informations dont vous devez disposer avant d’exécuter l’assistant d’intégration des connecteurs de données pour mettre en oeuvre l’intégration des connecteurs de données.
 
-Adobe Analytics® fournit aux entreprises des renseignements pratiques en temps réel concernant leurs stratégies en ligne et leurs initiatives marketing. Combiné à Datran, Adobe Analytics fournit le remarketing en fonction du ciblage comportemental. Améliorer le marketing target et comprendre l'efficacité des campagnes grâce à l'intégration transparente des données d'analyse Web Datran et Adobe Analytics.
+Adobe Analytics® fournit aux entreprises des informations exploitables en temps réel sur leurs stratégies en ligne et leurs initiatives marketing. Associé à Datran, Adobe Analytics propose un remarketing basé sur le ciblage comportemental. Améliorer le marketing ciblé et comprendre l’efficacité des campagnes grâce à l’intégration transparente des données d’analyse Web de Datran et d’Adobe Analytics.
 
-Avant de pouvoir configurer l'intégration pour votre compte de messagerie, vous devez disposer des éléments suivants :
+Avant de pouvoir configurer l’intégration de votre compte de messagerie, vous devez disposer des éléments suivants :
 
-* Indiquez l'adresse électronique à utiliser pour recevoir la notification concernant les opérations intégrées.
-* Identifiez votre ID de compte (identifiant unique attribué à votre organisation par Datran).
-* Identifiez ou créez la variable personnalisée que vous utiliserez pour capturer l'ID de destinataire/identifiant visiteur.
-* Identifiez ou créez la variable personnalisée que vous utiliserez pour capturer l'ID de message (il s'agit souvent de la variable campaign).
+* connaître l’adresse électronique que vous souhaitez utiliser pour recevoir une notification concernant les opérations intégrées.
+* Connaissez votre ID de compte (l’identifiant unique attribué à votre organisation par Datran).
+* Identifiez ou créez la variable personnalisée que vous utiliserez pour capturer l’ID du destinataire/ID du visiteur.
+* Identifiez ou créez la variable personnalisée que vous utiliserez pour capturer l’ID de message (il s’agit souvent de la variable de campagne).
 
