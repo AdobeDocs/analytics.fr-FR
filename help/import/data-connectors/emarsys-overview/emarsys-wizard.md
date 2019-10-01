@@ -4,11 +4,8 @@ seo-description: L’assistant d’intégration des connecteurs de données vous
 seo-title: Exécution de l’assistant d’intégration des connecteurs de données
 title: Exécution de l’assistant d’intégration des connecteurs de données
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -29,4 +26,4 @@ L’assistant d’intégration des connecteurs de données vous guide tout au lo
 1. Dans la page d’intégration **[!UICONTROL des connecteurs de données]** d’emarsys, passez en revue le texte, cochez la case pour accepter les frais associés à l’intégration, puis cliquez sur **[!UICONTROL Suivant]**.
 
    Cette page présente un aperçu de l’intégration, ainsi que des liens utiles conduisant vers davantage d’informations. Cette intégration implique des frais Adobe et emarsys. Contactez votre représentant commercial au sujet des deux organisations et veillez à comprendre la structure des frais.
-1. Exécutez l’assistant [d’intégration des connecteurs de]données (https://microsite.omniture.com/t2/help/en_US/Data Connectors/index.html).
+1. Exécutez l’assistant d’intégration des connecteurs de données.
