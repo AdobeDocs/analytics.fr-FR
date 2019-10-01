@@ -1,37 +1,34 @@
 ---
 description: Une fois le déploiement terminé, vous pouvez commencer à utiliser les fonctionnalités supplémentaires fournies par cette intégration.
 seo-description: Une fois le déploiement terminé, vous pouvez commencer à utiliser les fonctionnalités supplémentaires fournies par cette intégration.
-seo-title: Utilisation de l'intégration
+seo-title: Utilisation de l’intégration
 solution: Analytics
 subtopic: Qualtrics
-title: Utilisation de l'intégration
+title: Utilisation de l’intégration
 topic: Connecteurs de données
-uuid: a 1 d 5045 b -4 c 38-4984-8 c 71-27 e 86 ebe 8 b 23
-index: y
-internal: n
-snippet: y
+uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# Utilisation de l'intégration{#using-the-integration}
+# Utilisation de l’intégration{#using-the-integration}
 
 Une fois le déploiement terminé, vous pouvez commencer à utiliser les fonctionnalités supplémentaires fournies par cette intégration.
 
 >[!NOTE]
 >
->Vous pouvez prendre 24 à 48 heures pour voir les données de réponse Qualtrics dans vos rapports Adobe Analytics.
+>Il peut s’écouler entre 24 et 48 heures pour commencer à voir les données de réponse Qualtrics dans vos rapports Adobe Analytics.
 
-Voici les actions à entreprendre pour obtenir la valeur de cette intégration à partir d'Adobe Analytics.
+Vous trouverez ci-dessous les actions à entreprendre pour tirer parti de cette intégration dans Adobe Analytics.
 
-1. Création d'un segment à l'aide des données de réponse à une enquête (voir [Création d'un segment](http://microsite.omniture.com/t2/help/en_US/sc/user/index.html?f=t_segment.html)).
+1. Créez un segment à l'aide des données de réponse à l'enquête (voir [Création d'un segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)).
 1. Appliquez le segment aux rapports clés.
 
 ## Exemple {#section-07051d0d60a44408a4e108034586c42f}
 
-ce qui suit illustre comment un analyste peut définir un segment Adobe Analytics à l'aide des données de réponse de l'enquête. Ce cas suppose une question sur la satisfaction de votre visite aujourd'hui ?  » » Grâce à cette question, nous pouvons créer un segment pour identifier les visiteurs « insatisfaits ». Ce segment peut être utilisé pour analyser les rapports Adobe Analytics, tels que l'entonnoir de conversion d'achat, comme illustré ci-dessous.
+voici comment un analyste peut définir un segment Adobe Analytics à l’aide des données de réponse à une enquête. Dans ce cas, une question d'enquête du type "Êtes-vous satisfait de votre visite aujourd'hui ?" est posée. Cette question permet de créer un segment afin d’identifier les visiteurs "insatisfaits". Un tel segment peut être utilisé pour analyser n’importe quel rapport Adobe Analytics, tel que l’entonnoir de conversion d’achat, comme illustré ci-dessous.
 
 ![](assets/using-1.png) ![](assets/using-2.png)
 
