@@ -7,11 +7,8 @@ solution: Analytics
 title: Rapports Analytics utilisant des données DFA
 topic: Connecteurs de données
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -57,4 +54,3 @@ Ce rapport a les particularités suivantes :
 * Sélectionnez un nom de publicité DFA spécifique pour ouvrir un menu des options permettant d’obtenir davantage d’informations sur cette publicité DFA particulière.
 * Chaque colonne de mesures comprend un code de couleur correspondant à la couleur de la mesure dans le graphique.
 * Le rapport est classé selon la mesure Recettes, en commençant par la publicité générant le plus de recettes. Vous pouvez modifier l’ordre du rapport en cliquant sur un autre libellé de colonne (mesure).
-
