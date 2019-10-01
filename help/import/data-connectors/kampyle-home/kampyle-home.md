@@ -4,18 +4,45 @@ seo-description: valeur nulle
 seo-title: Connecteur de données Kampyle pour Adobe Analytics
 solution: Analytics
 title: Connecteur de données Kampyle pour Adobe Analytics
-uuid: f 7733 c 81-93 f 5-4 c 50-b 83 a -721 a 6 fbd 4 e 8 e
-index: y
-internal: n
-snippet: y
+uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Kampyle Data Connector for Adobe Analytics{#kampyle-data-connector-for-adobe-analytics}
 
-Le Connecteur de données de Kampyle pour Adobe Analytics combine le système de commentaires intégrés de Kampyle et les rapports comportementaux d'Adobe Analytics® pour offrir des opportunités d'analyse et d'optimisation puissantes à votre organisation.
+Le connecteur de données Kampyle pour Adobe Analytics combine le système de commentaires intégré de Kampyle et les rapports comportementaux d’Adobe Analytics® pour créer de puissantes opportunités d’analyse et d’optimisation pour votre entreprise.
 
-Les spécialistes du marketing en ligne réalisent de plus en plus la pertinence des commentaires des clients dans la création de marque et la génération de résultats commerciaux. Le connecteur de données Kampyle pour Adobe Analytics® ajoute des mesures et des dimensions de commentaires des visiteurs à Adobe Analytics. Il vous permet d'analyser le comportement des visiteurs dans le contexte de leurs attitudes et opinions. Cela vous permet d'optimiser en fonction des commentaires et d'améliorer les taux de conversion.
+Les spécialistes du marketing en ligne se rendent de plus en plus compte de la pertinence des commentaires des clients dans la création de marque et l'obtention de résultats commerciaux. Le connecteur de données Kampyle pour Adobe Analytics® ajoute des mesures et des dimensions de commentaire des visiteurs à Adobe Analytics. Il vous permet d’analyser le comportement des visiteurs dans le contexte de leurs attitudes et opinions. Vous pouvez ainsi optimiser en fonction des commentaires et améliorer les taux de conversion.
+
+## Conditions préalables à l’intégration{#integration-prerequisites}
+
+Conditions préalables à prendre en compte avant de pouvoir activer le connecteur de données.
+
+### Conditions préalables requises pour les clients Adobe : {#section-d9c2e266931249e596de5f4406b5b6f0}
+
+* Vous devez être un client actuel d’Adobe Analytics.
+* Vous devez être un utilisateur administrateur.
+* Vous devez avoir 1 variable eVar disponible et activée dans votre suite de rapports.
+* 3 événements personnalisés doivent être disponibles et activés dans votre suite de rapports (type : compteur).
+
+### Conditions préalables requises pour les clients Kampyle : {#section-4bbbca50e74d4f218414ae0cc535b8e9}
+
+* Vous devez être un client actuel de Kampyle pour les sites Web.
+* Vous devez être un utilisateur administrateur d’Adobe Experience Cloud disposant des autorisations nécessaires pour activer les connecteurs de données.
+* Vous devez être en mesure de récupérer la clé privée Kampyle à partir de l’interface utilisateur de gestion des formulaires de commentaires Kampyle.
+
+## Récupérer la clé privée Kampyle{#retrieve-the-kampyle-private-key}
+
+Procédure de récupération de la clé dans l’interface Kampyle.
+
+1. Connectez-vous à votre compte Kampyle à l’adresse [https://www.kampyle.com/login](https://www.kampyle.com/login).
+1. Dans le volet de navigation de gauche, accédez à Formulaire **[!UICONTROL de]** commentaires &gt; Personnalisation **[!UICONTROL du formulaire de]** commentaires.
+
+   ![](assets/retrieve_key1.png)
+
+1. Recherchez la clé privée dans la partie inférieure du volet de contenu principal.
+
+   ![](assets/retrieve_key2.png)
