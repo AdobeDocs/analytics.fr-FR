@@ -1,39 +1,36 @@
 ---
-description: Un jeton est nécessaire pour terminer l'assistant d'intégration. Pour trouver cet ID, procédez comme suit.
-seo-description: Un jeton est nécessaire pour terminer l'assistant d'intégration. Pour trouver cet ID, procédez comme suit.
+description: Un jeton est nécessaire pour terminer l’assistant d’intégration. Pour rechercher cet identifiant, procédez comme suit.
+seo-description: Un jeton est nécessaire pour terminer l’assistant d’intégration. Pour rechercher cet identifiant, procédez comme suit.
 seo-title: Génération de votre jeton Qualtrics Adobe Analytics
 solution: Analytics
 subtopic: Qualtrics
 title: Génération de votre jeton Qualtrics Adobe Analytics
 topic: Connecteurs de données
-uuid: 6038279 e-c 399-4 e 10-9 afc -9 c 4305 dc 36 d 5
-index: y
-internal: n
-snippet: y
+uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Génération de votre jeton Qualtrics Adobe Analytics{#generating-your-qualtrics-adobe-analytics-token}
 
-Un jeton est nécessaire pour terminer l'assistant d'intégration. Pour trouver cet ID, procédez comme suit.
+Un jeton est nécessaire pour terminer l’assistant d’intégration. Pour rechercher cet identifiant, procédez comme suit.
 
 1. Connectez-vous à Qualtrics Research Suite.
-1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans votre menu utilisateur.
+1. Cliquez sur Paramètres **[!UICONTROL du]** compte dans le menu utilisateur.
 
    ![](assets/qualtrics-token-1.png)
 
-1. Cliquez sur **[!UICONTROL Qualtrics ID]**.
+1. Cliquez sur Identifiants **[!UICONTROL Qualtrics]**.
 
    ![](assets/qualtrics-token-2.png)
 
-1. Cliquez **[!UICONTROL sur Générer un jeton]** dans la section **[!UICONTROL Adobe sitecatalyst]** et enregistrez le jeton.
+1. Cliquez sur **[!UICONTROL Générer un jeton]** dans la section **[!UICONTROL Adobe SiteCatalyst]** et enregistrez le jeton.
 
    ![](assets/qualtrics-token-3.png)
 
    >[!NOTE]
    >
-   >Si vous ne voyez pas l'option de génération d'un jeton Adobe Analytics, contactez l'administrateur de votre compte Qualtrics pour activer les autorisations appropriées pour votre compte.
+   >Si vous ne voyez pas l’option permettant de générer un jeton Adobe Analytics, contactez l’administrateur de votre compte Qualtrics pour activer les autorisations appropriées pour votre compte.
 
