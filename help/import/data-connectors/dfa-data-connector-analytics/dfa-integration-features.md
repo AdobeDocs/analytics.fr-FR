@@ -1,17 +1,14 @@
 ---
-description: 'Une fois activé, l''intégration DFA Connecteurs de données fournit les mesures suivantes pour vos rapports Adobe Analytics '
+description: 'Une fois activée, l’intégration DFA des connecteurs de données fournit les mesures suivantes pour vos rapports Adobe Analytics : '
 keywords: DFA
-seo-description: 'Une fois activé, l''intégration DFA Connecteurs de données fournit les mesures suivantes pour vos rapports Adobe Analytics '
+seo-description: 'Une fois activée, l’intégration DFA des connecteurs de données fournit les mesures suivantes pour vos rapports Adobe Analytics : '
 seo-title: Fonctions d’intégration
 solution: Analytics
 title: Fonctions d’intégration
 topic: Connecteurs de données
-uuid: 4 ad 8 e 6 e 8-3449-498 a -8596-37 c 0 ac 1657 cd
-index: y
-internal: n
-snippet: y
+uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -28,7 +25,7 @@ Une fois activée, l’intégration DFA des connecteurs de données fournit les 
 
 >[!NOTE]
 >
->Cette intégration ne prend pas en charge les outils de suivi de clics (anciennement les commandes de clic). Les outils de suivi de clics servent à enregistrer le nombre de clics sur les liens de texte, les liens dans les messages électroniques ou d’autres éléments codés en dur sur un site Web.
+>Cette intégration ne prend pas en charge les outils de suivi des clics (anciennement les commandes de clic). Les outils de suivi de clics servent à enregistrer le nombre de clics sur les liens de texte, les liens dans les messages électroniques ou d’autres éléments codés en dur sur un site Web.
 
 L’intégration DFA Connecteurs de données construit automatiquement les codes de suivi DFA à partir des données renvoyées par DFA. Ces codes de suivi sont construits de façon à identifier de manière unique une publicité ainsi que son référencement et son créatif associés. L’illustration ci-après décrit la structure du code de suivi, selon la version de l’intégration. Version 1.5 :
 
@@ -65,5 +62,5 @@ If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is sele
 
 >[!NOTE]
 >
->Si searchcenter &gt; Déduplication DFA est activé et que le paramètre de chaîne de requête searchcenter est défini, la visite n'est pas prise en compte pour le traitement DFA. Ceci signifie que le paramètre de chaîne de requête SearchCenter doit différer du paramètre de clic publicitaire DFA et qu’aucune publicité affichée ne doit définir le paramètre de chaîne de requête SearchCenter.
+>Si SearchCenter &gt; Déduplication DFA est activé et que le paramètre de chaîne de requête SearchCenter est défini, la visite ne sera pas prise en compte pour le traitement DFA. Ceci signifie que le paramètre de chaîne de requête SearchCenter doit différer du paramètre de clic publicitaire DFA et qu’aucune publicité affichée ne doit définir le paramètre de chaîne de requête SearchCenter.
 
