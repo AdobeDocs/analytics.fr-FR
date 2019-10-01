@@ -4,11 +4,8 @@ seo-description: L’assistant d’intégration des connecteurs de données vous
 seo-title: Exécution de l’assistant d’intégration des connecteurs de données
 title: Exécution de l’assistant d’intégration des connecteurs de données
 uuid: 714417f7-c1df-4e61-a07f-d319f6581c9c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -77,37 +74,37 @@ Pour configurer l’intégration :
   <tr valign="top"> 
    <td colname="col1"> <p>4 </p> </td> 
    <td colname="col2"> <p>Segments définis par le client au niveau de la suite de rapports </p> </td> 
-   <td colname="col3"> <p>Cette intégration crée les segments définis par les partenaires affichés sur le côté gauche de la page Segments d’intégration de l’assistant d’intégration. </p> <p>De plus, vous pouvez sélectionner des segments existants au niveau de la suite de rapports à inclure dans l’intégration. </p> <p>Sélectionnez les segments de votre choix sur le côté droit de la page, puis cliquez sur <b>Suivant</b> pour passer à l’étape 5 de l’Assistant. </p> </td> 
+   <td colname="col3"> <p>Cette intégration crée les segments définis par les partenaires affichés sur le côté gauche de la page Segments d’intégration de l’assistant d’intégration. </p> <p>Additionally, you can select existing Report Suite-Level segments to include in the integration. </p> <p>Select the desired segments on the right side of the page, then click Next to proceed to Step 5 of the Wizard.<b></b> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col2"> <p>Cliqué </p> </td> 
-   <td colname="col3"> <p>Spécifiez l’événement Adobe Analytics qui stocke les données de clic par courrier électronique importées du système de messagerie. </p> <p>L’événement Cliqué vous permet d’afficher le nombre de visiteurs qui ont cliqué sur le message électronique. </p> </td> 
+   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Clicked data imported from the email system. </p> <p>The Clicked event lets you see the number of visitors who clicked the email message. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col2"> <p>Ouvert </p> </td> 
-   <td colname="col3"> <p>Spécifiez l’événement Adobe Analytics qui stocke les données de courrier électronique ouvertes importées à partir du système de courrier électronique. </p> <p>L’événement Ouvert vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique. </p> </td> 
+   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Opened data imported from the email system. </p> <p>The Opened event lets you see the number of visitors who opened the email message. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col2"> <p>Envoyé </p> </td> 
-   <td colname="col3"> <p>Spécifiez l’événement Adobe Analytics qui stocke les données d’envoi de courrier électronique importées du système de messagerie. </p> <p>L’événement Cliqué vous permet de voir le nombre de messages électroniques envoyés. </p> </td> 
+   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Sent data imported from the email system. </p> <p>The Clicked event lets you see the number of email messages that were sent. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col2"> <p>Rebonds totaux </p> </td> 
-   <td colname="col3"> <p>Spécifiez l’événement Adobe Analytics qui stocke les données de rebonds totaux du courrier électronique importées du système de messagerie. </p> <p>L’événement Total-Rebonds vous permet de voir le nombre de messages électroniques qui n’ont pas été remis aux destinataires en raison d’un problème de remise. </p> </td> 
+   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Total Bounces data imported from the email system. </p> <p>The Total-Bounces event lets you see the number of email messages that were not delivered to recipients due to a delivery problem. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col2"> <p>Non abonné </p> </td> 
-   <td colname="col3"> <p>Spécifiez l’événement Adobe Analytics qui stocke les données de désabonnement par courrier électronique importées du système de messagerie. </p> <p>L’événement Désabonné vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique, puis cliqué sur le lien Désabonner pour exclure les futurs messages électroniques de votre organisation. </p> <p>Cliquez sur Suivant pour passer à l’étape 6 de l’Assistant. </p> </td> 
+   <td colname="col2"> <p>Unsubscribed </p> </td> 
+   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Unsubscribe data imported from the email system. </p> <p>L’événement Désabonné vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique, puis cliqué sur le lien Désabonner pour exclure les futurs messages électroniques de votre organisation. </p> <p>Click Next to proceed to Step 6 of the Wizard. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
    <td colname="col2"> <p>Collecte de données : Module externe JavaScript </p> </td> 
-   <td colname="col3"> <p>Sélectionnez Module externe <b>JavaScript</b> si vous souhaitez utiliser le module externe comme modèle de collecte pour cette intégration, puis cliquez sur <b>Suivant</b> pour passer à l’étape 7 de l’Assistant. </p> <p> <p>Remarque :  La solution automatisée est la sélection par défaut. </p> </p> <p>Contactez votre consultant Adobe pour obtenir une copie du module externe JavaScript utilisé pour cette intégration. </p> </td> 
+   <td colname="col3"> <p>Select JavaScript Plug-in if you want to use the plug-in as the collection model for this integration, then click Next to proceed to Step 7 of the Wizard.<b></b><b></b> </p> <p> <p>Remarque :  The Automated Solution is the default selection. </p> </p> <p>Contactez votre consultant Adobe pour obtenir une copie du module externe JavaScript utilisé pour cette intégration. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
@@ -126,4 +123,3 @@ Pour configurer l’intégration :
   </tr> 
  </tbody> 
 </table>
-
