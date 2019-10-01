@@ -1,20 +1,20 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Présentation de l'IQ d'attribution
-title: Présentation de l'IQ d'attribution
-uuid: bb 345642-4 f 45-4 fb 8-82 d 0-803248 dd 52 ea
+seo-title: Attribution IQ - Aperçu
+title: Attribution IQ - Aperçu
+uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 54f85d1e9a94f137666864158869b6cccf02cc13
 
 ---
 
 
-# Présentation de l'IQ d'attribution
+# Attribution IQ - Aperçu
 
 >[!IMPORTANT]
 >
->Attribution IQ est disponible pour tous les clients sur les SKU Adobe Analytics Ultimate, Prime, Select et Foundation.
+>L’ID d’attribution est disponible pour tous les clients sur les SKU Adobe Analytics Ultimate, Prime, Select et Foundation.
 
 ## Valeur ajoutée de l’Attribution IQ {#section_E82B97114E1641A8AE911F57AEB3240A}
 
@@ -68,19 +68,19 @@ Pour illustrer l’impact des intervalles de recherche en amont de l’attributi
 
 Lorsque vous utilisez **l’intervalle de recherche en amont des attributions des visites**, la conversion de chaque visite est distribuée indépendamment :
 
-* Le/$ 10 de la première visite serait fractionné uniformément entre Search, Display, Social et Email, chacun recevant/$ 2,50.
-* Lors de la deuxième visite, la recherche et le courrier électronique reçoivent chacune la moitié de la conversion/$ 5. Par conséquent, Courriel et Recherche reçoivent chacun un autre/2,50 $.
-* Enfin, lors de la dernière visite, Email recevra tout le crédit pour la conversion/$ 2.
+* Le /$10 de la première visite serait réparti uniformément entre Recherche, Affichage, Social et Courriel, chacun recevant /$2.50.
+* Lors de la deuxième visite, la recherche et le courriel recevraient chacun la moitié de la conversion /$5, de sorte que le courriel et la recherche recevraient chacun une autre /$2.50.
+* Enfin, lors de la dernière visite, Email recevra tout le crédit de la conversion /$2.
 
 Dans **l’intervalle de recherche en amont des visiteurs**, toutes les conversions sont traitées ensemble, mais le calcul est légèrement plus complexe en raison du fait qu’il y a plusieurs conversions.
 
-* La conversion initiale/$ 10 serait divisée uniformément entre Search, Display, Social et Email.
-* La conversion deuxième/$ 5 serait ensuite divisée entre les canaux présents dans cette visite ainsi que les canaux précédents de la visite précédente : Search = (2/6) */$ 5 =/$ 1.67, Display = (1/6) */$ 5 =/$ 0.83, Social = (1/6) */$ 5 =/$ 0.83, Email = (2/6) */$ 5 =/$ 1.67.
-* Enfin, la dernière conversion serait fractionnée sur tous les canaux du visiteur : Search = (2/2/) */$ 2 =/$ 0.57, Display = (1/7) */$ 2 =/$ 0.29, Social = (1/7) */$ 2 =/$ 0.29, Email = (3/7) */$ 2 =/$ 0.86.
+* La première conversion /$10 serait divisée à égalité entre la recherche, l’affichage, Social et le courrier électronique.
+* The second /$5 conversion would then be split among the channels present in that visit as well as the previous channels from the previous visit: Search = (2/6) * /$5 = /$1.67, Display = (1/6) * /$5 = /$0.83, Social = (1/6) * /$5 = /$0.83, Email = (2/6) * /$5 = /$1.67.
+* Finally, the last conversion would be split across all the channels for the visitor: Search = (2/7) * /$2 = /$0.57, Display = (1/7) * /$2 = /$0.29, Social = (1/7) * /$2 = /$0.29, Email = (3/7) * /$2 = /$0.86.
 
 Voici un résumé des résultats sous forme de tableau :
 
-| Canal | Recettes (linéaire/visite) | Recettes (Linéaire/Visiteur) |
+| Canal | Recettes (Linéaire / Visite) | Recettes (Linéaire / Visiteur) |
 |---|---|---|
 | Outils | /$5.00 | /$4.74 |
 | Display | /$2.50 | /$3.62 |
@@ -205,7 +205,7 @@ Dans ce cas, A, B et C étaient tous définis au même moment sur l’accès 1,
 
 L’Attribution IQ donne l’intégralité du crédit de pourcentage pour l’accès à toute valeur présente sur cet accès. Dans notre exemple précédent, A, B et C recevront 40 % ou 0,4 conversion, D recevra 20 % ou 0,2 conversion, alors que E et F recevront chacun 40 % des conversions ou 0,4. Un rapport utilisant l’attribution En forme de U sur les accès ci-dessus ressemblerait à celui ci-dessous :
 
-| Variable à plusieurs valeurs | Conversions (forme U/Visite) |
+| Variable à plusieurs valeurs | Conversions (en forme de U/Visite) |
 |--- |---|
 | A | .4 |
 | B | .4 |
@@ -216,4 +216,12 @@ L’Attribution IQ donne l’intégralité du crédit de pourcentage pour l’a
 | Total | 1 |
 
 >[!NOTE]
->En raison de l'allocation au niveau de l'accès des modèles d'attribution, la somme de chaque élément de ligne de votre rapport peut ne pas être égale au total dû à chaque valeur recevant le crédit total du crédit appartenant à l'accès dans lequel il était contenu.
+>En raison de l’attribution au niveau de l’accès des modèles d’attribution, la somme de chaque ligne de votre rapport peut ne pas être égale au total, car chaque valeur reçoit le pourcentage total de crédit appartenant à l’accès dans lequel elle a été contenue.
+
+## Attribution avec segmentation
+
+L’attribution s’exécute toujours avant la segmentation et la segmentation s’exécute avant l’application des filtres de rapport. Ces principes s’appliquent également aux suites de rapports virtuelles auxquelles sont appliqués des segments.
+
+Par exemple, si vous créez une suite de rapports virtuelle avec un segment "Accès à l’affichage" appliqué, vous pouvez voir d’autres canaux marketing renvoyés dans un tableau lorsque l’attribution est activée. This occurs because attribution runs across an unsegmented dataset.
+
+![](assets/vrs-aiq-example.png)
