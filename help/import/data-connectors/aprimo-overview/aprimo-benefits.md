@@ -1,23 +1,12 @@
 ---
-description: 'Cette intégration inclut les principaux avantages suivants : '
-seo-description: 'Cette intégration inclut les principaux avantages suivants : '
-seo-title: Avantages et fonctionnalités clés
-title: Avantages et fonctionnalités clés
-uuid: 1140 d 0 d 1-5 e 4 a -4 cf 6-b 5 b 7-dc 47270 b 4 ca 5
-index: y
-internal: n
-snippet: y
+description: 'Cette intégration comprend les principaux avantages suivants : '
+seo-description: 'Cette intégration comprend les principaux avantages suivants : '
+seo-title: Principaux avantages et fonctionnalités
+title: Principaux avantages et fonctionnalités
+uuid: 1140d0d1-5e4a-4cf6-b5b7-dc47270b4ca5
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
-
-# Avantages et fonctionnalités clés{#key-benefits-and-features}
-
-Cette intégration inclut les principaux avantages suivants :
-
-* Regroupez les données de marketing par courriel et d'analyse dans une seule interface de création de rapports.
-* Optimisez les campagnes par courriel par conversion et contribution aux recettes et au succès du site.
-* Recommercialisation vers les visiteurs clés et segments de marché basés sur des segments marketing dynamiques.
 
