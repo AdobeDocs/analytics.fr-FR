@@ -1,21 +1,18 @@
 ---
-description: Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
-seo-description: Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
+description: Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
+seo-description: Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
 seo-title: Code du module externe Adobe Analytics
 title: Code du module externe Adobe Analytics
-uuid: b 10345 ba -1 e 80-4 e 5 c-af 87-6 e 6 a 9 dc 87 c 00
-index: y
-internal: n
-snippet: y
+uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Code du module externe Adobe Analytics{#adobe-analytics-plug-in-code}
 
-Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
+Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
 
 `/*`
 
@@ -29,5 +26,5 @@ Si vous avez sélectionné la méthode de collecte de données du plug-in JavaSc
 
 >[!NOTE]
 >
->Le module externe ci-dessus suppose que certaines variables de commerce (evars) sont disponibles. Si les variables spécifiées dans le module externe ci-dessus ne sont pas disponibles dans votre déploiement Adobe Analytics, remplacez-les simplement par celles disponibles.
+>Le plug-in ci-dessus suppose que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le module externe ci-dessus ne sont pas disponibles dans votre déploiement Adobe Analytics, remplacez-les simplement par celles qui sont disponibles.
 
