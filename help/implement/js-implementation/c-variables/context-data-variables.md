@@ -22,20 +22,14 @@ Au lieu d’affecter de façon explicite des valeurs aux props et eVars dans vot
 
 >[!NOTE]
 >
->Context data variables are not case sensitive. Par exemple, les deux variables suivantes sont effectivement identiques : &gt;
->```>
->s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
->
-```>
->and 
->
->
-```>
+>Context data variables are not case sensitive. Par exemple, les deux variables suivantes sont effectivement identiques :
+>```
+>s.contextData['article_title'] = 'Weekend Concert Controversy';
+>```
+>and
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```>
-
-
+>```
 
 L’utilisation de données contextuelles vous évite de mettre à jour le code pour prendre en charge différentes configurations de suite de rapports.
 
