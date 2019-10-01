@@ -1,13 +1,13 @@
 ---
-description: Permet d’utiliser le segment pour l’activité marketing dans la bibliothèque d’audiences, Target et Audience Manager.
-seo-description: Permet d’utiliser le segment pour l’activité marketing dans la bibliothèque d’audiences, Target et Audience Manager.
+description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
+seo-description: Lets you use the segment for marketing activity in the Audience Library, Target, and Audience Manager.
 seo-title: Publication de segments dans Experience Cloud
 solution: Analytics
 title: Publication de segments dans Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a900832fa09717295cb45c9dda6d453873641012
+source-git-commit: d65a7582546a96856790dcbe481757ad3f5500a4
 
 ---
 
@@ -16,19 +16,19 @@ source-git-commit: a900832fa09717295cb45c9dda6d453873641012
 
 >[!IMPORTANT]
 >
->Les améliorations de latence concernant la publication de segments et l’interface utilisateur décrites sur cette page ne sont pas encore appliquées à tous les clients. L’environnement de production actuel est décrit [ici](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html).
+>The latency improvements regarding segment publishing and the user interface that are described on this page are not rolled out to all customers yet. The current production environment is described [here](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html).
 
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. Les mises à jour récentes ont considérablement optimisé le processus de publication. Auparavant, la publication d’un segment utilisable prenait environ 48 heures.
+Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. Recent updates have significantly optimized the publishing workflow. Previously, publishing a usable segment took approximately 48 hours.
 
-Désormais, le traitement peut prendre jusqu’à 8 heures, mais en fonction du trafic et de la taille du segment, le traitement peut être encore plus rapide. (Toutefois, nous n’avons pas actuellement le moyen de vous informer lorsque le segment est disponible. Vous devrez donc le vérifier manuellement.) Nous avons également porté le nombre maximum de segments publiables à 75 (contre 20). Vous pouvez afficher les segments publiés dans Composants &gt; Segments.
+Now, processing can take up to 8 hours, but depending on other traffic and on the segment size, processing may be even faster. (However, we currently do not have a way to inform you when the segment is available, so you will have to check manually.) We have also increased the maximum number of publishable segments to 75 (from 20). You can view published segments in Components &gt; Segments.
 
 
 ## Conditions préalables
 
-* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Sinon, vous ne pouvez pas le publier dans Experience Cloud.
-* Vérifiez que vous travaillez dans une suite de rapports [mappée à votre organisation](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)Experience Cloud.
-* Assurez-vous que votre entreprise utilise des ID Experience Cloud.
-* Avant de pouvoir publier des segments, votre administrateur doit affecter l’autorisation Publication [!UICONTROL de] segments à un profil de produit dans la console [d’](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)administration et vous ajouter au profil de produit.
+* Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Otherwise you cannot publish it to the Experience Cloud.
+* Make sure you are working in a report suite that is mapped to your Experience Cloud organization.[](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)
+* Ensure that your organization is using Experience Cloud IDs.
+* Before you can publish segments, your Admin needs to assign the Segment Publishing permission to a product profile in the Admin Console, and add you to the product profile.[](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
 
 
 ## Considérations
@@ -43,8 +43,8 @@ Désormais, le traitement peut prendre jusqu’à 8 heures, mais en fonction du 
 | Ce qui est disponible | Lorsqu'il est disponible | Où il est disponible |
 |---|---|---|
 | Métadonnées (titre et définition du segment) | Immédiatement après la publication | [!DNL Audience Manager], Bibliothèque [!UICONTROL d’audiences]Experience Cloud, [!DNL Target] |
-| Segment utilisable avec abonnement | ~ 8 hours after publishing | Visionneuse de profil du visiteur dans [!DNL Audience Manager] |
-| Caractéristique et population membre | Dans les 24 heures | [!DNL Audience Manager] |
+| Segment utilisable avec abonnement | ~ 8 heures après la publication | Visionneuse de profil du visiteur dans [!DNL Audience Manager] |
+| Caractéristique et population membre | Dans les 24 à 48 heures | [!DNL Audience Manager] |
 
 ## Publication de segments dans le créateur de [!UICONTROL segments]
 
@@ -67,9 +67,9 @@ Désormais, le traitement peut prendre jusqu’à 8 heures, mais en fonction du 
 | **[!UICONTROL Fenêtre de création d’audiences]** | La période sélectionnée sert à créer l’audience selon un calendrier variable. Par exemple, "30 derniers jours" (par défaut) inclut les visiteurs qui se sont qualifiés pour l’audience au cours des 30 derniers jours à compter de la date d’aujourd’hui (PAS à partir de la date d’origine de la création du segment). |
 | **[!UICONTROL Créer dans la bibliothèque d’audiences]** | Les segments que vous créez et publiez peuvent être rendus disponibles sans latence dans la bibliothèque d’audiences d’Experience Cloud. Elles ne dépendent pas des mises à jour Analytics. Ces segments ne sont pas pris en compte par rapport à votre limite de 75 segments publiés. |
 | **[!UICONTROL x sur 75 publié]** | Indique le nombre de segments que vous avez publiés dans Experience Cloud. Cliquez sur le lien pour afficher la liste des segments publiés, ainsi que la suite de rapports et le propriétaire associés. |
-| **[!UICONTROL Enregistrer]** | Enregistre ce segment. |
+| **[!UICONTROL Enregistrer]** | Saves this segment. |
 
-## Annulation de la publication ou suppression de segments
+## Unpublish or delete segments
 
 Pour supprimer un segment qui a été publié dans Experience Cloud, vous devez tout d’abord en annuler la publication. Pour annuler la publication d’un segment, il vous suffit **de désactiver la case à cocher** que vous avez cochée pour le publier.
 
@@ -77,32 +77,32 @@ Pour supprimer un segment qui a été publié dans Experience Cloud, vous devez
 >
 >Vous **ne pouvez pas** annuler la publication d’un segment qui est actuellement utilisé par l’une des solutions Adobe suivantes : [!DNL Analytics] (dans [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (pour les utilisateurs de [!DNL Core Service] et d’[!DNL Audience Manager]) et tous les autres partenaires externes (pour les utilisateurs de [!DNL Audience Manager]). Vous **pouvez** annuler la publication d’un segment utilisé par [!DNL Target].
 
-## Affichage de l’état de publication des segments dans le Gestionnaire de [!UICONTROL segments]
+## View segment publishing status in the Segment Manager
 
-1. Accédez à [!UICONTROL Analytics &gt; Composants &gt; Segments].
-1. Notez la nouvelle colonne [!UICONTROL Publié] . Oui/Non indique si le segment a été publié dans Experience Cloud ou non.
+1. Navigate to Analytics &gt; Components &gt; Segments.
+1. Notice the new Published column.  Yes/No refers to whether the segment has been published to the Experience Cloud or not.
 
 ![](assets/publish-status.png)
 
-## Récupération de l’ [!DNL Audience Manager] UID
+## Retrieve the  UUID[!DNL Audience Manager]
 
-Il existe deux manières de capturer l’UUID AAM actuellement associé au navigateur :
+There are two ways to capture the AAM UUID currently associated with the browser:
 
 * Débogueur Adobe Experience Cloud
-* Outil de développement natif dans les navigateurs (par exemple, Outils de développement Chrome)
+* Native developer tool in browsers (e.g., Chrome Developer Tools)
 
-Les captures d’écran suivantes montrent comment récupérer l’UUID AAM dans votre navigateur et l’utiliser dans la visionneuse de profil du visiteur d’Audience Manager pour valider la caractéristique et l’appartenance à un segment.
+The following screenshots show you how to retrieve the AAM UUID on your browser and use it in Audience Manager Visitor Profile Viewer to validate trait &amp; segment membership.
 
-**Méthode 1 : Utilisation du débogueur Adobe Experience Cloud**
+**Method 1: Use Adobe Experience CLoud Debugger**
 
-1. Téléchargez et installez [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) dans Chrome Web Store.
-1. Lancez le débogueur lors du chargement d’une page.
+1. Download and install Adobe Experience Cloud Debugger in the Chrome Web Store.[](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)
+1. Launch the debugger when loading a page.
 1. Scroll to the Audience Manager section and find the AAM UUID set on the current browser page
 ( in the example below)`50814298273775797762943354787774730612`
 
 ![](assets/debugger.jpg)
 
-**Méthode 2 : Utilisation des outils de développement Chrome (ou d’autres outils de développement de navigateur)**
+**Method 2: Use Chrome Developer Tools (or other browser developer tools)**
 
 1. Lancement des outils de développement Chrome avant le chargement d’une page
 1. Chargez la page et cochez Applications &gt; Cookies. L’UUID AAM doit être défini dans le cookie tiers-partyDemdex ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) dans l’exemple ci-dessous). Le champ demdex est la section UUID AAM du navigateur (`50814298273775797762943354787774730612` dans l’exemple ci-dessous).
