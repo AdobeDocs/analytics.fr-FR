@@ -7,9 +7,9 @@ solution: Analytics
 subtopic: Variables
 title: Variables de données contextuelles
 topic: Développeur et mise en œuvre
-uuid: 4b215803-99d4-46f2-b3c1-e7858987764
+uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
 
 ---
 
@@ -22,11 +22,11 @@ Au lieu d’affecter de façon explicite des valeurs aux props et eVars dans vot
 
 >[!NOTE]
 >
->Context data variables are not case sensitive. Par exemple, les deux variables suivantes sont effectivement identiques :
+>Les variables de données contextuelles ne sont pas sensibles à la casse. Par exemple, les deux variables suivantes sont effectivement identiques :
 >```
->s.contextData['article_title'] = 'Weekend Concert Controversy';
+>s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
->and
+>et
 >```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
