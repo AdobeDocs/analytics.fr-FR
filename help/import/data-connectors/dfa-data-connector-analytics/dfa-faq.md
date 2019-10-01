@@ -6,12 +6,9 @@ seo-title: Questions fréquentes
 solution: Analytics
 title: Questions fréquentes
 topic: Connecteurs de données
-uuid: 59 d 187 e 9-1 ec 1-4 cf 3-8831-b 981 f 87 c 9372
-index: y
-internal: n
-snippet: y
+uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -32,7 +29,7 @@ Par exemple, supposons qu’il existe une intégration dans la suite de rapports
 
 >[!NOTE]
 >
->Les CSID ne sont pas utilisés dans la version 2.0 de l'intégration ; le processus de négociation CSID ne s'applique donc pas.
+>Les CSID ne sont pas utilisés dans la version 2.0 de l’intégration et le processus de négociation du CSID ne s’applique donc pas.
 
 ## J’utilise la version 2.0 de l’intégration et les mesures de coûts ne s’affichent pas pour mes publicités DFA. Pourquoi ? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -48,7 +45,8 @@ Il peut y avoir plusieurs explications.
 
 Commencez par vérifier que l’URL de la page d’entrée de la publicité en question (a) est balisée avec le code Adobe pour la même suite de rapports que celle pour laquelle vous constatez une incohérence et (b) contient le paramètre de chaîne de requête *`clickThroughParam`*.
 
-Ensuite, vérifiez que vous disposez d'une intégration opérationnelle en suivant les étapes de [Confirmation d'une intégration DFA réussie](../dfa-data-connector-analytics/dfa-integration/dfa-confirm-integration.md#concept-c1c869d2a6fa46b09fe41fc286e407c6). Si un code de suivi DFA apparaît avec l’accès Adobe sur la page d’entrée, le clic publicitaire doit apparaître dans le rapport des campagnes DFA. Sinon, vérifiez que les suites de rapports correspondent entre la variable *`s.account`* de la page d’entrée et la suite de rapports affichée dans les rapports et analyses. Si elles correspondent, vérifiez les codes de suivi dans le rapport des eVar d’affichage publicitaire du type DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
+Ensuite, vérifiez que vous disposez d’une intégration fonctionnelle en suivant les étapes décrites dans [Confirmation d’une intégration](../dfa-data-connector-analytics/dfa-integration.md)DFA réussie. Si un code de suivi DFA apparaît avec l’accès Adobe sur la page d’entrée, le clic publicitaire doit apparaître dans le rapport des campagnes DFA. Sinon, vérifiez que les suites de rapports correspondent entre la variable *`s.account`* de la page d’entrée et la suite de rapports affichée dans les rapports et analyses. Si elles correspondent, vérifiez les codes de suivi dans le rapport des eVar d’affichage publicitaire du type DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
 
 Ces codes indiquent que la règle VISTA DFA n’a pas réussi à digérer les données brutes de DFA. Ce problème peut être résolu en ouvrant un ticket d’assistance auprès de votre représentant de compte Adobe.
-Si aucune des solutions ci-dessus n'explique le problème, voir [Rapprochement des écarts de mesures](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md#concept-8c31ebe761ca4b3fab1e3a18ef5d098f) pour explorer d'autres possibilités.
+
+Si aucune des solutions ci-dessus n’explique le problème, voir [Reconciling Metric Discrepancies](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) to explore other possibilities.
