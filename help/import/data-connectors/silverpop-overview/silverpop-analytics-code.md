@@ -1,21 +1,18 @@
 ---
-description: 'Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Analytics de vos pages. '
-seo-description: 'Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Analytics de vos pages. '
+description: 'Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Analytics sur vos pages. '
+seo-description: 'Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Analytics sur vos pages. '
 seo-title: Code du module externe Analytics
 title: Code du module externe Analytics
-uuid: 534874 bd -49 d 9-4 b 15-8019-b 503 dfcf 3182
-index: y
-internal: n
-snippet: y
+uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Code du module externe Analytics{#analytics-plug-in-code}
 
-Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Analytics de vos pages :
+Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Analytics sur vos pages :
 
 `/*`
 
@@ -29,5 +26,4 @@ Si vous avez sélectionné la méthode de collecte de données du plug-in JavaSc
 
 >[!NOTE]
 >
->Le module externe ci-dessus suppose que certaines variables de commerce (evars) sont disponibles. Si les variables spécifiées dans le module externe ci-dessus ne sont pas disponibles dans votre déploiement Analytics, remplacez-les simplement par celles disponibles.
-
+>Le plug-in ci-dessus suppose que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le module externe ci-dessus ne sont pas disponibles dans votre déploiement Analytics, remplacez-les simplement par celles qui sont disponibles.
