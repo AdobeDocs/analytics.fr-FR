@@ -5,68 +5,53 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 ---
 
 
 # s.dynamicAccountList
 
-[!DNL AppMeasurement] pour JavaScript peut sélectionner, de manière dynamique, la suite de rapports à laquelle envoyer les données. La variable contient les règles utilisées pour déterminer la suite de rapports de destination.
+> [!NOTE] The  variable is not supported in Current AppMeasurement libraries. `s.dynamicAccountList`[](../../c-appmeasurement-js/appmeasure-mjs.md) It is only used in legacy AppMeasurement, such as H Code.
 
-| Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
-|---|---|---|---|
-| N/D | N/D | N/D | "" |
-
-Cette variable est utilisée conjointement avec les variables *`dynamicAccountSelection`* and *`dynamicAccountMatch`* variables. The rules in  are applied if  is set to 'true,' and they apply to the section of the URL specified in .*`dynamicAccountList`**`dynamicAccountSelection`**`dynamicAccountMatch`*
-
-If none of the rules in  matches the URL of the page, the report suite identified in  is used. *`dynamicAccountList`*`s_account` Les règles répertoriées dans cette variable sont appliquées de gauche à droite. Si l’URL de la page correspond à plusieurs règles, celle qui est située le plus à gauche est utilisée pour déterminer la suite de rapports. Par conséquent, vos règles plus génériques doivent être déplacées vers la droite de la liste.
-
-In the following examples, the page URL is  and  is set to true and  is set to `www.mycompany.com/path1/?prod_id=12345``dynamicAccountSelection`**`s_account``mysuitecom.`
-
-| Valeur DynamicAccountList | Valeur DynamicAccountMatch | Suite de rapports qui recevra les données |
-|---|---|---|
-| `mysuite2=www2.mycompany.com;mysuite1=mycompany.com` | window.location.host | mysuite1 |
-| "mysuite1=path4,path1;mysuite2=path2" | window.location.pathname | mysuite1, mysuite2 |
-| "mysuite1=path5" | window.location.pathname | mysuitecom, mysuite1 |
-| "myprodsuite=prod_id" | window.location.search?window.location.search:"?") | myprodsuite |
+The `s.dynamicAccountList` variable is used to help dynamically determine a report suite to send data to. Il est utilisé conjointement avec les `dynamicAccountSelection` variables et `dynamicAccountMatch` . Les règles dans `dynamicAccountList` sont appliquées si `dynamicAccountSelection` est définie sur `true`, et elles s’appliquent à la section de l’URL spécifiée dans `dynamicAccountMatch`.
 
 ## Syntaxe et valeurs possibles
 
-La syntaxe de la variable `dynamicAccountList`est une liste de paires nom=valeurs (règles) séparées par des virgules. Chaque entrée de la liste doit contenir les éléments suivants :
-
-* Un ou plusieurs identifiants de suite de rapports (séparés par des virgules)
-* Un signe égal (=)
-* Un ou plusieurs filtres URL (séparés par des virgules)
-
-```js
-s.dynamicAccountList=rs1[,rs2]=domain1.com[,domain2.com/path][;...]
+```JavaScript
+s.dynamicAccountList="rs1[,rs2]=domain1.com[,domain2.com/path][;...]";
 ```
+
+Une entrée valide est une liste de paires nom=valeur (règles) séparées par des points-virgules. Chaque liste contient les éléments suivants :
+
+* One or more report suite ID's (separated by commas)
+* Un signe égal
+* Un ou plusieurs filtres d’URL (séparés par des virgules)
 
 La chaîne accepte uniquement les caractères ASCII standard (pas d’espaces).
 
 ## Exemples
 
-```js
-s.dynamicAccountList="mysuite2=www2.mycompany.com;mysuite1=mycompany.com"
-```
+Pour tous les exemples suivants, l’URL de la page est `https://example.com/path2/?prod_id=12345`, la `dynamicAccountSelection` variable est définie sur `true`et la `s_account` variable sur `examplersid`.
 
 ```js
-s.dynamicAccountList="ms1,ms2=site1.com;ms1,ms3=site3.com"
+// In this example, the report suite that receives data is examplersid1.
+s.dynamicAccountMatch = "window.location.hostname";
+s.dynamicAccountList = "examplersid2=www2.example.com;examplersid1=example.com";
+
+// In this example, the report suite that receives data is examplersid2.
+s.dynamicAccountMatch = "window.location.pathname";
+s.dynamicAccountList = "examplersid2=path2;examplersid3=path3";
+
+// In this example, no rules match so it resorts to the default rsid in s_account, examplersid.
+s.dynamicAccountMatch = "window.location.pathname";
+s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 ```
-
-## Paramètres de configuration
-
-Aucun
 
 ## Pièges, questions et conseils
 
-* La sélection de comptes dynamique n’est pas prise en charge par [AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
-
-* Si l’URL de la page correspond à plusieurs règles, celle qui est située le plus à gauche est utilisée.
-* Si aucune correspondance n’est trouvée, la suite de rapports par défaut est utilisée.
-* Si votre page est enregistrée sur le disque dur d’un utilisateur ou traduite au moyen d’un moteur de traduction Web (c’est le cas des pages traduites par Google, par exemple), il y a de fortes chances que la sélection de comptes dynamique ne fonctionne pas. Pour effectuer un suivi plus précis, renseignez la variable `s_account` côté serveur.
+* Les règles répertoriées dans cette variable sont appliquées de gauche à droite. If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. As a result, place more generic rules to the right of the list.
+* If no rules match, the default report suite in `s_account` is used.
+* If your page is saved to someone's hard drive or translated via a web-based translation engine (such as Google's translated pages), the dynamic account selection likely won't work.
 * The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
-
-* When using dynamic account selection, be sure to update  every time you obtain a new domain.*`dynamicAccountList`*
-* Utilisez le [!DNL DigitalPulse Debugger] pour tenter d’identifier la suite de rapports de destination. The `dynamicAccountSelection` variable always overrides the value of `s_account`.
+* Utilisez le [!DNL Adobe Experience Cloud Debugger] pour tester la suite de rapports de destination.
