@@ -1,71 +1,71 @@
 ---
-title: Définition - Analytics sur plusieurs périphériques
-description: Découvrez comment configurer Analytics sur plusieurs périphériques après avoir satisfait aux conditions préalables.
+title: Configuration des analyses entre appareils
+description: Découvrez comment configurer Analytics sur plusieurs périphériques une fois que vous avez satisfait aux conditions préalables.
 translation-type: tm+mt
-source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
+source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 ---
 
 
-# Définition - Analytics sur plusieurs périphériques
+# Configuration des analyses entre appareils
 
-> [!NOTE] La documentation sur les analyses inter-périphériques peut faire l'objet de modifications lorsque la fonctionnalité est développée. Vérifiez régulièrement les mises à jour.
+> [!NOTE] La documentation d’Analytics sur plusieurs périphériques peut être modifiée au fur et à mesure que la fonctionnalité est développée. Consultez régulièrement les mises à jour.
 
-Une fois toutes les conditions préalables satisfaites, suivez les étapes ci-après pour activer les analyses inter-périphériques. Vous devez appartenir à un groupe d'administrateurs de profil de produit ou disposer des droits d'administrateur dans Adobe Analytics pour suivre ces étapes.
+Une fois toutes les conditions préalables remplies, procédez comme suit pour activer Analytics sur plusieurs périphériques. Vous devez appartenir à un groupe d’administrateurs de profil de produit ou disposer de droits d’administrateur dans Adobe Analytics pour suivre ces étapes.
 
-> [!IMPORTANT] Toutes les conditions préalables doivent être remplies avant de suivre ces étapes. Si toutes les conditions préalables ne sont pas remplies, la fonction n'est pas disponible ou ne fonctionne pas. Pour [plus d'informations sur les conditions préalables et les limites, reportez-vous à la](cda-home.md) section Analyses inter-périphériques.
+> [!IMPORTANT] Toutes les conditions préalables doivent être remplies avant de suivre ces étapes. Si toutes les conditions préalables ne sont pas remplies, la fonction n’est pas disponible ou ne fonctionne pas. Pour connaître les conditions préalables et les limites, reportez-vous à la section Analyses [](cda-home.md) sur plusieurs périphériques.
 
-## Choisir la suite de rapports sur plusieurs périphériques qui sera activée pour CDA
+## Choisissez la suite de rapports multipériphériques qui sera activée pour CDA
 
-Lorsque votre organisation est configurée pour utiliser CDA, vous choisissez la suite de rapports à utiliser. Ce choix peut être communiqué via votre gestionnaire de compte Adobe. Adobe active ensuite la suite de rapports choisie pour le traitement CDA.
+When your organization is provisioned to use CDA, you choose which report suite to use. Ce choix peut être communiqué par l’intermédiaire de votre gestionnaire de compte Adobe. Adobe then enables your chosen report suite for CDA processing.
 
-## Création d'une suite de rapports virtuelle sur plusieurs périphériques pour afficher la vue sur plusieurs périphériques
+## Create a cross-device virtual report suite to see the cross-device view
 
-Les administrateurs ayant accès à la création de suites de rapports virtuelles peuvent créer des suites de rapports virtuelles CDA comme suit :
+Administrators with access to create virtual report suites can create CDA virtual report suites as follows:
 
-1. Accédez à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) et connectez-vous à l'aide de vos informations d'identification adobeid.
-2. Cliquez sur l'icône en 9 grille dans la partie supérieure, puis cliquez sur Analytics.
+1. Navigate to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) and log in using your AdobeID credentials.
+2. Cliquez sur l’icône de la grille 9 en haut, puis sur Analytics.
 3. Passez la souris sur Composants en haut, puis cliquez sur Suites de rapports virtuelles.
 4. Cliquez sur Ajouter.
-5. Saisissez un nom pour votre suite de rapports virtuelle et assurez-vous que la suite de rapports activée pour CDA est sélectionnée.
-6. Cochez la case Activer le traitement du temps de rapport, qui active plusieurs autres options, y compris les analyses inter-périphériques.
-7. Cochez la case « Visites de l'utilisateur sur plusieurs périphériques ».
+5. Entrez un nom pour votre suite de rapports virtuelle et assurez-vous que la suite de rapports CDA est sélectionnée.
+6. Click the checkbox 'Enable Report Time Processing', which enables several more options including Cross-Device Analytics.
+7. Cochez la case "Effectuer des visites de l’utilisateur sur plusieurs périphériques".
 8. Cliquez sur Continuer, terminez la configuration de la suite de rapports virtuelle, puis cliquez sur Enregistrer.
 
 ![Case à cocher CDA](assets/cda-checkbox.png)
 
-## Ajouts et modifications des suites de rapports virtuelles sur plusieurs périphériques
+## Ajouts et modifications aux suites de rapports virtuelles sur plusieurs périphériques
 
-Lorsque l'option Analyses croisées est activée sur une suite de rapports virtuelle, tenez compte des modifications suivantes :
+Si Analytics sur plusieurs périphériques est activé sur une suite de rapports virtuelle, notez les modifications suivantes :
 
-* Une nouvelle icône sur plusieurs périphériques apparaît en regard du nom de la suite de rapports virtuelle. Cette icône est exclusive aux suites de rapports virtuelles inter-périphériques.
-* De nouvelles mesures intitulées « Personnes » et « Périphériques uniques » sont disponibles.
-* La mesure Visiteurs uniques n'est pas disponible, car elle est remplacée par des personnes et des périphériques uniques.
-* Lors de la création de segments, le conteneur de segments du visiteur est remplacé par un conteneur Personne.
+* A new cross-device icon appears next to the virtual report suite name. This icon is exclusive to cross-device virtual report suites.
+* De nouvelles mesures intitulées "Personnes" et "Périphériques uniques" sont disponibles.
+* La mesure Visiteurs uniques n’est pas disponible, car elle est remplacée par Personnes et Dispositifs uniques.
+* Lors de la création de segments, le conteneur de segments Visiteur est remplacé par un conteneur Personne.
 
 ## Mesure calculée Compression
 
-La possibilité de regrouper les périphériques sur plusieurs périphériques dépend d'un large éventail de facteurs. L'efficacité de la fonctionnalité de raccordement des données peut être mesurée avec une mesure calculée appelée compression. Les facteurs qui contribuent à la compression sont les suivants :
+La possibilité pour Analytics sur plusieurs périphériques de réunir les périphériques dépend d’un large éventail de facteurs. The effectiveness of the feature's ability to stitch data can be measured with a calculated metric called compression. Factors that contribute to compression include:
 
-* Utilisation du graphique Co-op ou du graphique privé : En général, les organisations qui utilisent le périphérique co-op ont tendance à voir de meilleurs taux de compression que les organisations utilisant le graphique privé.
-* Taux de connexion : Plus les utilisateurs se connectent sur votre site, plus Adobe peut identifier et réunir les visiteurs sur l'ensemble des périphériques. Les sites dont le taux de connexion est faible ont également un faible taux de compression.
-* Couverture d'identifiant Experience Cloud : Seuls les visiteurs ayant un ECID peuvent être assemblés. Un pourcentage inférieur de visiteurs sur votre site utilisant un ID d'ECID est en corrélation avec des taux de compression plus faibles.
-* Utilisation de plusieurs périphériques : Si les visiteurs de votre site n'utilisent pas de périphériques multiples, les taux de compression sont faibles.
-* Granularité des rapports : La compression par jour est généralement plus petite que la compression par mois ou par année. La probabilité qu'une personne d'utiliser plusieurs périphériques soit plus petite qu'un mois entier. La segmentation, le filtrage ou l'utilisation des dimensions de ventilation peuvent également afficher un taux de compression plus faible.
+* Utilisation du graphique Co-op ou du graphique Privé : En général, les organisations qui utilisent la coopérative de l'appareil ont tendance à voir de meilleurs taux de compression que les organisations qui utilisent le graphique privé.
+* Taux de connexion : Plus les utilisateurs se connectent sur votre site, plus Adobe est en mesure d’identifier et de rassembler les visiteurs sur plusieurs périphériques. Sites with a low log in rate also have low compression rates.
+* Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
+* Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.
+* Reporting granularity: Compression by day is typically smaller than compression by month or year. Les chances qu’une personne utilise plusieurs périphériques sont moindres en un seul jour que pendant tout un mois. La segmentation, le filtrage ou l’utilisation de dimensions de ventilation peuvent également indiquer un taux de compression plus faible.
 
-Pour connaître la compression de votre entreprise pour une période donnée :
+Pour afficher la compression de votre entreprise pour une période donnée :
 
-1. Cliquez sur Espace de travail en haut, puis sur Créer un projet.
+1. Cliquez sur Espace de travail dans la partie supérieure, puis sur Créer un projet.
 2. Commencez par un projet vierge, puis cliquez sur Créer.
-3. Faites glisser la mesure Périphériques uniques sur la zone de travail intitulée « Déposer une mesure ici ».
-4. Faites glisser la mesure Personnes sur la trame directement à droite de l'en-tête de mesure Périphériques uniques, de sorte que les deux mesures soient côte à côte.
-5. Cliquez sur le symbole « + » en regard des mesures disponibles sur la gauche pour ouvrir le créateur de mesures calculées.
+3. Faites glisser la mesure Périphériques uniques sur la zone de travail intitulée "Déposer une mesure ici".
+4. Faites glisser la mesure Personnes sur le canevas directement à droite de l’en-tête de mesure Périphériques uniques. Les deux mesures sont donc côte à côte.
+5. Cliquez sur le symbole "`+`" en regard des mesures disponibles sur la gauche pour ouvrir le créateur de mesures calculées.
 6. Attribuez à cette mesure calculée les paramètres suivants :
-   * Nom : Compression entre plusieurs périphériques
+   * Nom : Compression sur plusieurs périphériques
    * Format : Pourcentage
    * Nombre de décimales : 2
    * Définition: `[Static Number: 1] minus [People] divided by [Unique Devices]`
-      > [!NOTE] Cliquez sur Ajouter dans le coin supérieur droit de la zone de définition pour ajouter un numéro statique. Faites glisser les personnes et les périphériques uniques à partir de la liste des mesures disponibles à gauche.
+      > [!TIP] Cliquez sur Ajouter dans le coin supérieur droit de la zone de définition pour ajouter un nombre statique. Faites glisser Personnes et Dispositifs uniques dans la liste des mesures disponibles à gauche.
 7. Cliquez sur Enregistrer.
-8. Faites glisser la nouvelle mesure calculée sur la trame directement à droite de l'en-tête de mesure Personnes, de sorte que les trois mesures soient côte à côte.
-9. Facultatif : L'espace de travail charge la dimension Jour par défaut. Faites glisser une autre dimension de date, telle que semaine ou mois, sur la dimension Jour si une granularité temporelle différente est souhaitée.
+8. Faites glisser la nouvelle mesure calculée sur le canevas directement à droite de l’en-tête de mesure Personnes, de sorte que les trois mesures soient côte à côte.
+9. Facultatif : L’espace de travail charge la dimension Jour par défaut. Drag an alternate date dimension, such as week or month, on top of the Day dimension if a different time granularity is desired.
