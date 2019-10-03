@@ -1,40 +1,40 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Déploiement de l’intégration
+seo-title: Deploying the Integration
 solution: Analytics
-title: Déploiement de l’intégration
+title: Deploying the Integration
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
 
-# Déploiement de l’intégration{#deploying-the-integration}
+# Deploying the Integration{#deploying-the-integration}
 
-Le déploiement de cette intégration est un processus simple qui nécessite les actions suivantes :
+Deploying this integration is a simple process that requires the following actions:
 
-## Fin de l’assistant d’intégration Adobe{#completing-the-adobe-integration-wizard}
+## Complete the Adobe Integration Wizard{#completing-the-adobe-integration-wizard}
 
-Cette section décrit la procédure à suivre pour exécuter l’assistant d’intégration dans l’interface des connecteurs de données.
+Steps to complete the integration wizard in the Data Connectors interface.
 
-1. Accédez à la zone Connecteurs de données (anciennement Genesis) dans Adobe Experience Cloud.
-1. Lancez l'assistant d'intégration ContactLab.
-1. Choisissez une suite de rapports et nommez l’intégration.
-1. Configurez les éléments suivants :
+1. Navigate to the Data Connectors (formerly Genesis) area within the Adobe Experience Cloud.
+1. Launch the ContactLab integration wizard.
+1. Choose the desired Report Suite and provide a name for the integration.
+1. Configure the following items:
 
    | Élément | Description |
    |---|---|
    | Adresse électronique | Adresse électronique du contact principal |
-   | Description | (Facultatif) Description de cette configuration d’intégration |
+   | Description | (Optional) Description for this integration setup |
 
 1. Configurez les éléments **[!UICONTROL de mappage]** de variables suivants :
 
    | Élément | Description |
    |---|---|
    | ID de lien | Sélectionnez une eVar pour la collecte des ID de lien en temps réel. |
-   | ID du message | Sélectionnez une eVar pour la collecte des ID de message en temps réel. |
+   | Message ID | Sélectionnez une eVar pour la collecte des ID de message en temps réel. |
    | Recipient ID | Sélectionnez une eVar pour la collecte des ID de destinataire en temps réel. |
    | Retours | Sélectionnez un événement numérique pour recevoir les rebonds quotidiens de ContactLab. |
    | Envoyé | Sélectionnez un événement numérique pour recevoir des envois quotidiens de ContactLab. |
@@ -43,29 +43,27 @@ Cette section décrit la procédure à suivre pour exécuter l’assistant d’i
    | Non abonné | Sélectionnez un événement numérique pour recevoir les désabonnements quotidiens de ContactLab. |
 
 1. Activez l’accès aux données et configurez la collecte de données.
-   1. Renommez les classifications selon vos besoins.
+   1. Rename classifications as needed.
    1. **[!UICONTROL Les segments]** partenaires sont des segments de remarketing standard inclus dans votre intégration.
    1. Sous **[!UICONTROL Vos segments]**, sélectionnez les segments personnalisés que vous souhaitez inclure dans cette intégration. Vous pouvez créer d’autres segments personnalisés sous le panneau d’administration.
    1. Sous Demandes **[!UICONTROL d’]** accès, cochez la case pour autoriser l’exportation des informations sur les produits vers ContactLab dans les segments de remarketing quotidien.
    1. Renommez les mesures calculées selon vos besoins.
-   1. Configurez si vous collecterez des ID en mettant manuellement à jour votre code de collecte Analytics ou en utilisant la solution automatisée. If you select Automated Solution, you must include the parameters that are used in email links to pass ID’s.****
-1. Review all configuration items and click Activate Now.****
+   1. Configurez si vous collecterez des ID en mettant manuellement à jour votre code de collecte Analytics ou en utilisant la solution automatisée. Si vous sélectionnez Solution **** automatisée, vous devez inclure les paramètres utilisés dans les liens de courrier électronique pour transmettre les ID.
+1. Vérifiez tous les éléments de configuration et cliquez sur **[!UICONTROL Activer maintenant]**.
 
-## Verify the Integration{#verifying-the-integration}
+## Vérification de l’intégration{#verifying-the-integration}
 
-View your ContactLab integration setup within the Adobe Experience Cloud
+Afficher votre configuration de l’intégration ContactLab dans Adobe Experience Cloud
 
-1. View the integration activity log.
-
-   1. In the Adobe Experience Cloud, navigate to Support &gt; Integration Activity Log.********
+1. Affichez le journal des activités d’intégration.
+   1. Dans Adobe Experience Cloud, accédez à **[!UICONTROL Support]** &gt; Journal **[!UICONTROL d’activité]** d’intégration.
 
       ![](assets/integration_activity_log.png)
 
-   1. Look for entries like Classification Data imported successfully, Metrics Data imported successfully, and Metric Data exported successfully. ************ These entries should appear within 1 day of successful deployment.
-1. View your reporting data within Adobe Analytics.
-
-   1. Navigate to Custom Conversion &gt; Custom Conversion 1-10 &gt; Message ID Reports.************
+   1. Recherchez les entrées telles que Données **[!UICONTROL de classification importées avec succès]**, Données **[!UICONTROL de mesures importées avec succès]** et Données de **[!UICONTROL mesures exportées avec succès]**. Ces entrées doivent apparaître dans le délai d’un jour suivant le déploiement.
+1. Affichez vos données de création de rapports dans Adobe Analytics.
+   1. Accédez à Conversion **** personnalisée &gt; Conversion **[!UICONTROL personnalisée 1-10]** &gt; Rapports **[!UICONTROL d’ID de]** message.
 
       ![](assets/reporting.png)
 
-   1. Look for ContactLab reporting. This data should appear within 24-48 hours of successful deployment.
+   1. Recherchez la création de rapports ContactLab.  Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
