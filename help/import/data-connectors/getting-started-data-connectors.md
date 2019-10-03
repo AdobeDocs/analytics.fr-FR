@@ -4,7 +4,7 @@ seo-description: Connexion aux connecteurs de données ; importez les données d
 seo-title: Connecteurs de données Analytics
 title: Prise en main des connecteurs de données Analytics
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -49,15 +49,15 @@ Vous devez disposer d’un compte actif pour accéder à la page d’entrée Con
 
    Selon l’intégration du produit individuel, il vous faudra peut-être fournir des informations spécifiques sur la configuration, dans le cadre du processus d’intégration.
 
-   Une fois l’intégration terminée, l’icône du produit partenaire s’affiche sur la page Réseau des connecteurs de données et est disponible dans les menus.
+   When the integration completes, the partner product icon displays on the Data Connectors Network page and is available in menus.
 
 ## Console des connecteurs de données
 
-Une fois une intégration activée, elle s’affiche sur la page Connecteurs [!UICONTROL de] données. Vous pouvez afficher les détails et modifier la configuration sur la console. Vous pouvez afficher les intégrations actives et celles liées à toutes les suites de rapports de votre société. Vous pouvez également afficher un rapport des activités, définir une intégration comme tableau de bord, configurer une intégration et demander de l’aide.
+Une fois une intégration activée, elle s’affiche sur la page Connecteurs [!UICONTROL de] données. You can view details and make configuration changes on the console. Vous pouvez afficher les intégrations actives et celles liées à toutes les suites de rapports de votre société. Vous pouvez également afficher un rapport des activités, définir une intégration comme tableau de bord, configurer une intégration et demander de l’aide.
 
-![Console Connecteurs de données](assets/data-connectors-console.png)
+![Data Connectors console](assets/data-connectors-console.png)
 
-## Remarketing de segments dans les connecteurs de données
+## Remarketing segments in data connectors
 
 Les segments de remarketing sont des fichiers de données crées selon les variables utilisées dans une intégration des connecteurs de données.
 
@@ -75,11 +75,11 @@ Pour mettre correctement en œuvre les segments de remarketing, les conditions s
 
 * Un contrat concernant les connecteurs de données a été établi et votre entreprise a terminé la phase de mise en œuvre avec un consultant Adobe.
 * L’événement correspond est déclenché au même moment que la variable des produits :
-   * Abandon du panier : `scAdd` événement
-   * Achats : `purchase` événement
+   * Cart Abandonment: `scAdd` event
+   * Purchases:  event`purchase`
    * Product Views: `prodView` event
 
-**** Remarque : Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement.
+**** Remarque : If the product is defined without an associated event, the prodView event automatically fires.
 Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
 
 [!UICONTROL Abandon de panier] : se déclenche après l’ajout par l’utilisateur d’un produit au panier :
@@ -102,9 +102,8 @@ s.events="purchase";
 
 | Problème | Description |
 | -----------| ---------- |  
-| Le fichier de segment de remarketing ne contient aucune information d’ID de produit. | Se produit lorsque l’événement correct se déclenche, mais qu’aucune variable de produit n’est présente dans la même demande d’image. Pour corriger ce problème, vérifiez que la variable de produits et l’événement correspondant se déclenchent sur la même page, comme illustré dans les exemples de mise en œuvre ci-dessus. |
+| Le fichier de segment de remarketing ne contient aucune information d’ID de produit. | Occurs when the correct event fires, but no product variable is present on the same image request. Pour corriger ce problème, vérifiez que la variable de produits et l’événement correspondant se déclenchent sur la même page, comme illustré dans les exemples de mise en œuvre ci-dessus. |
 | Les fichiers de segment de remarketing n’ont pas été reçus. | Si vous ne recevez pas les fichiers, demandez à l’un des membre de l’assistance utilisateurs de contacter ClientCare pour rechercher la cause du problème. |
 
-> [!IMPORTANT]
->
-> Il est courant que les consultants configurent également une demande d’entrepôt de données en tant que rapport planifié quotidien en plus de votre fichier de segment de remarketing d’intégration des connecteurs de données standard. Cette demande d’entrepôt de données contient les variables des connecteurs de données ainsi que des variables de connecteurs autres que de données. La demande peut être planifiée selon les besoins spécifiques de votre entreprise. Pour éviter toute confusion lors du dépannage, indiquez si le fichier en question est un fichier de segment de remarketing ou une demande d’entrepôt de données contenant des variables autres que Genesis.
+
+> [!IMPORTANT] It is common for consultants to also set up a data warehouse request as a daily scheduled report in addition to your standard data connectors integration remarketing segment file. Cette demande d’entrepôt de données contient les variables des connecteurs de données ainsi que des variables de connecteurs autres que de données. La demande peut être planifiée selon les besoins spécifiques de votre entreprise. Pour éviter toute confusion lors du dépannage, indiquez si le fichier en question est un fichier de segment de remarketing ou une demande d’entrepôt de données contenant des variables autres que Genesis.
