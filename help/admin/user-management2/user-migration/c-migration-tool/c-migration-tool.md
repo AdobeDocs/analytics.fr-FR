@@ -4,11 +4,8 @@ seo-description: Ce que vous devez savoir sur la migration des ID utilisateur d�
 seo-title: Migration des utilisateurs d’Analytics vers l’Admin Console
 title: Migration des utilisateurs d’Analytics vers l’Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
