@@ -1,64 +1,82 @@
 ---
-description: Installez le débogueur Adobe Experience Cloud. Le débogueur inspecte les balises pour Analytics Cloud, Adobe Target, Advertizing Cloud, Identity Service, Dynamic Tag Management et Launch Platform Launch.
-seo-description: Installez le débogueur Adobe Experience Cloud. Le débogueur inspecte les balises pour Analytics Cloud, Adobe Target, Advertizing Cloud, Identity Service, Dynamic Tag Management et Launch Platform Launch.
-seo-title: Débogueur Experience Cloud
-title: Débogueur Experience Cloud
-uuid: e 4 b 35 a 89-a 41 f -44 a 8-9 e 3 f -6 e 872 c 4487 c 1
+description: Installez l’ancien débogueur Adobe Experience Cloud. Ce débogueur examine les balises pour Analytics, Target, Advertising Cloud, Identity Service, DTM et Launch.
+seo-description: Installez l’ancien débogueur Adobe Experience Cloud. Ce débogueur examine les balises pour Analytics, Target, Advertising Cloud, Identity Service, DTM et Launch.
+seo-title: Débogueur hérité d’Adobe Experience Cloud
+title: Débogueur hérité d’Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
-# Débogueur Experience Cloud
+# Débogueur hérité d’Adobe Experience Cloud
 
-Install the Adobe # [!DNL Experience Cloud] [!UICONTROL Debugger]. [!UICONTROL Le débogueur] inspecte les balises pour le [!DNL Analytics Cloud]service, Adobe [!DNL Target][!DNL Advertising Cloud], [!DNL Experience Cloud] le service d'ID, [!UICONTROL la gestion dynamique des balises]et le lancement d' [!UICONTROL Adobe Experience Platform].
+> [!IMPORTANT] Cet outil de débogage n’est plus conservé. Adobe recommande plutôt d’utiliser l’extension [Chrome du débogueur](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)Adobe Experience Cloud.
 
-## Débogueur Experience Cloud {#topic_E05CEAF0682E483A9AB147D774CF2188}
+Le débogueur [!UICONTROL hérité] examine les balises pour la plupart des services Adobe Experience Cloud. L’utilisation du débogueur vous permet de voir quelles données sont envoyées à Adobe sur une page donnée de votre site. Vous pouvez utiliser ces informations pour dépanner ou valider l’implémentation de votre entreprise.
 
-Install the Adobe Experience Cloud [!UICONTROL Debugger]. [!UICONTROL Le débogueur] inspecte les balises pour Analytics Cloud, Adobe Target, Advertizing Cloud, Identity Service, Dynamic Tag Management et Launch Platform Launch.
+## Installation du débogueur hérité
 
->[!IMPORTANT]
->
->Adobe recommande d’utiliser l’extension [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) pour Chrome.
+Créez un signet d’applet JavaScript pour installer le débogueur.
 
-Lorsque le débogueur est exécuté dans un navigateur, il affiche les demandes d’image qui ont transmis les données de cette page dans les solutions Experience Cloud, avec les valeurs de variable ou les paramètres enregistrés. Cela vous permet, à vous et aux développeurs, de vérifier la validité de la mise en œuvre dans une page d’un site.
+### Étape 1 : Copie du code du signet d’applet
 
-Le [!UICONTROL DigitalPulse Debugger] est officiellement pris en charge pour être utilisé dans toutes les versions récentes de Mozilla Firefox, Google Chrome, Microsoft Internet Explorer et Safari.
+Copiez le code suivant dans le Presse-papiers :
 
->[!NOTE]
->
->Because the [!UICONTROL Debugger] functions by creating a pop-up window when you access a special bookmark in your web browser, certain ad-blocking plug-ins and pop-up blockers might interfere with the loading of the [!UICONTROL Debugger].
+```JavaScript
+javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
+```
 
-## Installation du débogueur dans Chrome {#task_0CEF858083B64F7DB9790567282F7248}
+### Étape 2 : Coller le code du signet d’applet dans un signet
 
-Installez l’extension Experience Cloud Debugger dans le navigateur Chrome.
+Chaque navigateur gère les signets de différentes manières, mais le concept est le même. Un signet est créé avec le nom souhaité et le code du signet d’applet comme URL.
 
-1. Accédez à [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).
-1. Suivez les instructions pour ajouter l’extension à Chrome.
+#### Chrome
 
-## Install the Debugger in Firefox (not supported) {#task_D3DD0A300B4B4F5EBF2D139E8FF5A724}
+Si vous insistez pour ne pas utiliser l’extension [](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)chrome, le signet d’applet du débogueur hérité peut être utilisé à la place.
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Mozilla Firefox.
+1. Cliquez sur les trois points en haut à droite, puis sélectionnez Signets &gt; Gestionnaire de signets. Vous pouvez également appuyer sur `Ctrl` + `Shift` + `O` (Windows) ou `Cmd` + `Shift` + `O` (Mac).
+2. Dans le coin supérieur droit du gestionnaire de signets, cliquez sur les trois points, puis cliquez sur Ajouter un nouveau signet.
+3. Dans le champ Nom, étiquetez-le comme "Débogueur Adobe Experience Cloud", puis collez le fragment de code dans le champ URL.
+4. Utilisez le gestionnaire de signets pour placer votre nouveau signet d’applet à l’emplacement souhaité.
 
-1. Cliquez avec le bouton droit sur la barre latérale des signets, puis cliquez sur **[!UICONTROL Nouveau signet]**.
-1. In the **[!UICONTROL Name]** field, specify **Adobe[!UICONTROL Debugger]** as the name for the new bookmark.
-1. In the **[!UICONTROL Location]** field, paste the code that you copied to your clipboard.
-1. Select **[!UICONTROL Load the Bookmark in the Sidebar]**, if desired.
-1. Cliquez sur **[!UICONTROL Ajouter]**.
+#### Firefox
 
-## Install the Debugger in Internet Explorer (not supported) {#task_D60F6BBFE7314A6882D13F8A0DFF0F6C}
+1. Cliquez sur les trois lignes en haut à droite, puis sélectionnez Bibliothèque &gt; Signets &gt; Afficher tous les signets. Vous pouvez également appuyer sur `Ctrl` + `Shift` + `B` (Windows) ou `Cmd` + `Shift` + `B` (Mac).
+2. Cliquez sur Organiser &gt; Nouveau signet.
+3. Dans le champ Nom, étiquetez-le comme "Débogueur Adobe Experience Cloud", puis collez le fragment de code dans le champ Emplacement. Les champs Balises et Mot-clé ne sont pas obligatoires.
+4. Utilisez la fenêtre de la bibliothèque pour placer votre nouveau signet d’applet à l’emplacement souhaité.
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Internet explorer.
+#### Edge
 
-1. In the [!UICONTROL Favorites Bar], click the **[!UICONTROL Add to Favorites Bar]** icon ![Image](assets/icon_add_to_favorites_bar.png).
+Edge ne permet pas de créer manuellement un signet d’applet, mais il est possible de modifier une URL de signet.
 
-   Si la [!UICONTROL barre d’outils Favoris] est masquée, cliquez avec le bouton droit sur l’en-tête du navigateur, puis cliquez sur la [!UICONTROL barre d’outils Favoris].
+1. Cliquez sur l’icône en forme d’étoile sur le côté droit du champ URL pour mettre en signet la page active.
+2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
+3. Click the star icon with lines to open the Favorites bar.
+4. Right click the newly created bookmark, the select 'Edit URL'.
+5. Paste the code snippet in the text field, then hit Enter.
 
-   Un nouveau signet est créé.
+#### Safari
 
-1. Right-click the bookmark, then click **[!UICONTROL Rename]**.
-1. In the **[!UICONTROL New Name]** field, specify **Adobe[!UICONTROL Debugger]** as the name, then click **[!UICONTROL OK]**.
-1. Cliquez de nouveau avec le bouton droit sur le signet que vous venez de créer, puis cliquez sur **[!UICONTROL Propriétés]**.
-1. In the **[!UICONTROL URL]** field, paste the code that you copied to your clipboard.
-1. Cliquez sur **[!UICONTROL OK]**.
+Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+
+1. Click the Share icon in the top right, which opens a bookmark modal window.
+2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
+3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
+4. Right click &gt; Edit Address, then paste the code snippet into text field.
+
+## Using the legacy debugger
+
+To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+
+> [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+
+Le débogueur dispose de plusieurs options, qui personnalisent toutes le mode d’affichage des données. Aucune de ces options n’affecte la collecte de données.
+
+* **** Displayed Experience Cloud products: Shows or hides image requests for each respective Experience Cloud product.
+* **** Décodage d’URL : L’URL décode la demande d’image afin de correspondre à ce qui est affiché dans les rapports. Adobe recommande de laisser cette case cochée.
+* **** Actualisation automatique : Actualise automatiquement la fenêtre contextuelle toutes les quelques secondes pour rechercher d’autres demandes d’image sur la page. Si vous devez copier/coller du contenu dans le débogueur, désactivez l’actualisation automatique afin que votre sélection reste.
+* **** Format convivial : Active/désactive le format d’affichage entre les libellés utiles et les chaînes de requête brutes dans une demande d’image. Voir Paramètres [de requête de collecte de](../js-implementation/data-collection/query-parameters.md) données pour plus d’informations.
+
+Pour enregistrer les options d’affichage par défaut du débogueur, cliquez avec le bouton droit sur le lien "Adobe Debugger" dans le coin supérieur droit, puis copiez l’adresse du lien. Modifiez le signet d’applet du débogueur actuel et collez le fragment de code mis à jour dans le champ URL.
