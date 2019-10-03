@@ -6,7 +6,7 @@ solution: Analytics
 title: Déploiement de l’intégration
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
@@ -21,21 +21,19 @@ Pour activer l’intégration, vous devez exécuter l’assistant de configurati
 
 1. Connectez-vous à Adobe Experience Cloud.
 1. Accédez à Connecteurs **[!UICONTROL de]** données (anciennement Genesis).
-1. Lancez l’assistant d’intégration Kampyle.
+1. Launch the Kampyle integration wizard.
 1. Sélectionnez une suite de rapports et attribuez un nom à l’intégration.
-1. Configure the following items:
-
-   1. **[!UICONTROL Adresse]** électronique : adresse électronique du contact principal.
-   1. **[!UICONTROL Description]** - Description (facultative) pour cette configuration d'intégration.
-   1. **[!UICONTROL Clé]** Kampyle - Trouvez cette clé dans l'application Kampyle sous Formulaire **[!UICONTROL de]** rétroaction &gt; Personnalisation **[!UICONTROL du formulaire de]** rétroaction.
-   1. **[!UICONTROL Serveur]** de suivi : paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics.
-   1. **[!UICONTROL Serveur de suivi sécurisé]** : si votre serveur de suivi est différent pour le trafic sécurisé/https, indiquez ce paramètre ici.
-1. Configurez les éléments **[!UICONTROL de mappage]** de variables suivants :
-
+1. Configurez les éléments suivants :
+   1. **[!UICONTROL Email address - the primary contact's email address.]**
+   1. **[!UICONTROL Description - (optional) description for this integration setup.]**
+   1. **[!UICONTROL Kampyle Key - Find this key in the Kampyle application under Feedback Form &gt; Feedback Form Customization.]**********
+   1. **[!UICONTROL Tracking Server - the tracking server (domain) setting that you use to track Adobe Analytics data.]**
+   1. **[!UICONTROL Tracking Server Secure - if your tracking server is different for secure/https traffic, then provide that setting here.]**
+1. Configure the following Variable Mappings items:****
    1. **[!UICONTROL Identifiant]** de commentaires Kampyle : sélectionnez une variable eVar disponible dans votre suite de rapports.
-   1. **[!UICONTROL Note]** de commentaire : sélectionnez un événement de réussite disponible (type "compteur") dans votre suite de rapports.
-   1. **[!UICONTROL Commentaires]** : sélectionnez un événement de réussite disponible (type "compteur") dans votre suite de rapports.
-   1. **[!UICONTROL Commentaires avec note]** : sélectionnez un événement de réussite disponible (type "compteur") dans votre suite de rapports.
+   1. **[!UICONTROL Feedback Grade - Select an available success event (type “counter”) from your report suite.]**
+   1. **[!UICONTROL Feedback Items - Select an available success event (type “counter”) from your report suite.]**
+   1. **[!UICONTROL Feedback with Grade - Select an available success event (type “counter”) from your report suite.]**
 1. Cochez la case pour que le tableau de bord d'intégration Kampyle soit automatiquement créé (recommandé).
 1. Vérifiez tous les éléments de configuration et cliquez sur **[!UICONTROL Activer maintenant]**.
 
@@ -45,9 +43,7 @@ Après avoir exécuté l’assistant d’intégration, vous devez déployer l’
 
 Dans de nombreux cas, le moyen le plus simple de déployer l’objet de configuration de l’intégration consiste à l’inclure dans votre code de déploiement Adobe Analytics.
 
->[!NOTE]
->
->Si vous utilisez Adobe TagManager ou la gestion dynamique des balises pour déployer Adobe Analytics, vous pouvez facilement ajouter l’objet de configuration d’intégration via cet outil.
+> [!NOTE] Si vous utilisez Adobe TagManager ou la gestion dynamique des balises pour déployer Adobe Analytics, vous pouvez facilement ajouter l’objet de configuration d’intégration via cet outil.
 
 1. Accédez à l’onglet **[!UICONTROL Ressources]** &gt; **[!UICONTROL Assistance]** de l’intégration.
 1. Téléchargez et enregistrez la ressource Code d’intégration **[!UICONTROL Kampyle (JS)]** . Le code ressemble à ceci :
@@ -58,12 +54,9 @@ Dans de nombreux cas, le moyen le plus simple de déployer l’objet de configur
    ```
 
 1. Déployez le code à l’aide de l’une des méthodes suivantes :
+| **Utilisez Adobe TagManager ou la gestion dynamique des balises.** | Utilisez l’interface de gestion des balises pour ajouter le code. ||—|—|| **Dans tous les autres cas** | Envoyez le code à la ressource d’organisation responsable de la mise à jour de votre code de déploiement Adobe Analytics.  |
 
-   | **Vous utilisez Adobe TagManager ou la gestion dynamique des balises.** | Utilisez l’interface de gestion des balises pour ajouter le code. |
-   |---|---|
-   | **Dans tous les autres cas** | Remettez le code à la ressource d’organisation responsable de la mise à jour de votre code de déploiement Adobe Analytics. |
-
-## Verify the Integration{#verify-the-integration}
+## Vérification de l’intégration{#verify-the-integration}
 
 Vérifiez que l’intégration transfère correctement les données en effectuant quelques vérifications.
 
@@ -71,9 +64,7 @@ Vérifiez que l’intégration transfère correctement les données en effectuan
 
 Affichez votre configuration de l’intégration Kampyle dans Adobe Experience Cloud en accédant à **[!UICONTROL Support]** &gt; Journal **[!UICONTROL d’activité]** d’intégration. Sous l’onglet **[!UICONTROL Données dans]** , des entrées indiquent que les données de classification ont bien été importées.
 
->[!NOTE]
->
->Les entrées de journal doivent apparaître dans les 24 heures suivant le déploiement.
+> [!NOTE] Les entrées de journal doivent apparaître dans les 24 heures suivant le déploiement.
 
 ![](assets/integration_activity_log.png)
 
@@ -81,9 +72,7 @@ Affichez votre configuration de l’intégration Kampyle dans Adobe Experience C
 
 Affichez vos rapports de commentaires Kampyle avec Adobe Analytics en accédant aux rapports Kampyle dans la structure de menus appropriée.
 
->[!NOTE]
->
->Les données de création de rapports doivent apparaître dans les 24 à 48 heures suivant le déploiement réussi, en supposant que les formulaires de rétroaction intégrés reçoivent activement des soumissions.
+> [!NOTE] Les données de création de rapports doivent apparaître dans les 24 à 48 heures suivant le déploiement réussi, en supposant que les formulaires de rétroaction intégrés reçoivent activement des soumissions.
 
 ![](assets/adobe_reporting_data.png)
 
