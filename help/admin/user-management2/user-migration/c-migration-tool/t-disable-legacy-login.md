@@ -3,12 +3,9 @@ description: Comment désactiver les comptes hérités pour les utilisateurs Ana
 seo-description: Comment désactiver les comptes hérités pour les utilisateurs Analytics.
 seo-title: Désactivation des comptes hérités
 title: Désactivation des comptes hérités
-uuid: 085874 b 2-10 bf -4 a 56-a 337-f 3104428 d 71 e
-index: y
-internal: n
-snippet: y
+uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -25,7 +22,7 @@ Une fois que vos utilisateurs ont migré du système de gestion des utilisateurs
 
    ![](assets/user-info.png)
 
-   The users that are eligible will have a status of *`Migrated`* under the Migration Status column. Vous ne pouvez pas désactiver le compte hérité d’un utilisateur tant qu’il n’a pas été migré.
+   Les utilisateurs éligibles ont un état de sous *`Migrated`* la colonne Statut de migration. Vous ne pouvez pas désactiver le compte hérité d’un utilisateur tant qu’il n’a pas été migré.
 1. Click **[!UICONTROL Disable Legacy Login]**, then click **[!UICONTROL Done]**.
 
    Désactiver le compte hérité indique lequel de vos utilisateurs peut continuer à utiliser ses nom d’utilisateur et mot de passe [!DNL my.omniture.com] hérités.
