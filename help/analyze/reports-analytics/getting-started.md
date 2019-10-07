@@ -1,23 +1,23 @@
 ---
 description: Avant d’utiliser Reports & Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 seo-description: Avant d’utiliser Reports & Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
-seo-title: Prise en main des rapports et analyses
+seo-title: Prise en main de Reports and Analytics
 solution: Analytics
-subtopic: Démarrage
-title: Prise en main des rapports et analyses
-topic: Reports and Analytics
-uuid: ea 76 ec 40-6025-4 ee 5-8 f 75-855 b 5 b 823737
+subtopic: Prise en main
+title: Prise en main de Reports and Analytics
+topic: Reports & Analytics
+uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
 
 ---
 
 
 # Prise en main des rapports et analyses
 
-Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
+Avant d’utiliser les rapports et analyses, vous devez comprendre ces tâches de base de connexion et de configuration et comment accéder aux informations du compte.
 
-## Getting started with Reports and Analytics {#concept_8C531D94965743BFBED7A87FE5473FF0}
+## Prise en main des rapports et analyses
 
 Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 
@@ -33,15 +33,9 @@ Les rapports fournissent des informations sur vos canaux web classiques, ainsi q
 * Le temps passé à regarder une vidéo
 * Les navigateurs et périphériques utilisés pour consulter votre site
 
-## Browser and system requirements {#concept_7E987A1E578940B1859D89CA14FAFF34}
+## Configuration requise pour le navigateur et le système
 
 Configuration requise du navigateur et du système pour se connecter à l’interface de Reports &amp; Analytics.
-
-<!-- 
-
-requirements.xml
-
- -->
 
 * Navigateurs :
 
@@ -55,22 +49,16 @@ requirements.xml
 * Les cookies et JavaScript doivent être activés.
 * Résolution d’écran 1024 x 768 avec codage des couleurs 16 bits (ou supérieure).
 
-## Log in to Reports and Analytics {#concept_27B0A630D26D497E98F6A4AFA579BA9A}
+## Connexion aux rapports et analyses
 
 Avant d’accéder à l’interface, demandez à votre gestionnaire de compte ou à l’assistance clientèle de configurer le compte de votre société.
 
-## Log in using the Experience Cloud {#task_BDC7532F7CBF4689A2079BB2CCD64F01}
+## Connexion à l’aide d’Experience Cloud
 
-Description de la procédure de connexion à Adobe Experience Cloud.
-
-<!-- 
-
-t_login_sso.xml
-
- -->
+Cette section décrit la procédure à suivre pour se connecter via Adobe Experience Cloud.
 
 1. Ouvrez un navigateur sur un ordinateur connecté à Internet.
-1. Go to [!DNL https://login.experiencecloud.adobe.com/].
+1. Accédez à [!DNL https://login.experiencecloud.adobe.com/].
 1. Sur la page [!UICONTROL Se connecter]**, cliquez sur[!UICONTROL Connexion unique]**.
 1. Renseignez les informations suivantes, puis cliquez sur **[!UICONTROL Se connecter]**.
 
@@ -79,23 +67,17 @@ t_login_sso.xml
    **[!UICONTROL Nom d’utilisateur]** : précisez votre identifiant de compte. 
 
    **[!UICONTROL Mot de passe]** : précisez le mot de passe de votre compte. 
-1. From the Experience Cloud home page, go to **Analytics &gt; Reports**.
+1. Dans la page d’accueil d’Experience Cloud, accédez à **Analytics &gt; Rapports**.
 
    Experience Cloud vous déconnecte automatiquement après 30 minutes d’inactivité.
 
-## Exécutez un rapport {#task_C6772791AFD642CFB9C51ADB9E5932A5}
+## Exécution d’un rapport
 
 Cette section décrit la procédure à suivre pour générer un rapport.
 
-<!-- 
-
-t_running_report.xml
-
- -->
-
 1. Ouvrez une session dans [!UICONTROL Reports &amp; Analytics].
 
-   The Reports menu displays, or a [dashboard](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) displays, if you have set one up.
+   Le menu Rapports s’affiche, ou un [tableau de bord](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) s’affiche, si vous en avez configuré un.
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
@@ -103,19 +85,13 @@ t_running_report.xml
 
    See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
 
-## Modification des paramètres du compte d’utilisateur {#concept_7FAF5B923B984426B7F64E026EA2DCAA}
+## Modification des paramètres du compte d’utilisateur
 
 Informations concernant la modification des comptes utilisateur, la réinitialisation des mots de passe utilisateur et la modification des coordonnées.
 
-<!-- 
-
-t_acct_info.xml
-
- -->
-
 Vous pouvez afficher et modifier les coordonnées, définir un mot de passe, afficher les informations sur les services web et exclure cet ordinateur de la collecte de données.
 
-Click the Account icon  ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
 
 Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte]. Les informations suivantes peuvent être modifiées ou affichées :
 
@@ -153,27 +129,11 @@ Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte].
  </tbody> 
 </table>
 
-## Modification de la langue de l’interface {#task_E20F9C7713C444998C883CFF93DC848A}
+## Modification de la langue de l’interface
 
 Cette section décrit la procédure à suivre pour modifier la langue de l’interface. Vous pouvez afficher l’interface de Reports &amp; Analytics dans la langue de votre choix.
 
-<!-- 
+1. Connectez-vous à Analytics et sélectionnez l’onglet **[!UICONTROL Rapports]** .
+1. Dans le pied de page, cliquez sur la langue active dans le menu **[!UICONTROL Langue]** , puis sélectionnez votre langue préférée.
 
-t_changing_language.xml
-
- -->
-
-1. Connectez-vous.
-1.  Cliquez sur le menu **Afficher en**, puis cliquez sur une langue :  
-
-* Anglais
-* Français
-* Chinois traditionnel
-* Chinois simplifié
-* Allemand
-* Japonais
-* Coréen
-* Espagnol
-* Portugais
-
-   La documentation la plus récente est généralement en anglais. Vous pouvez y accéder, ainsi qu’à la page d’accueil, depuis Adobe Experience Cloud. ( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
+Vous pouvez y accéder, ainsi qu’à la page d’accueil, depuis Adobe Experience Cloud. ( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
