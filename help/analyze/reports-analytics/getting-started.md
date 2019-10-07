@@ -8,7 +8,7 @@ title: Prise en main de Reports and Analytics
 topic: Reports & Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
+source-git-commit: cc76128ac4aad2a78a70e84cadf0198d18809498
 
 ---
 
@@ -51,7 +51,7 @@ Configuration requise du navigateur et du système pour se connecter à l’inte
 
 ## Connexion aux rapports et analyses
 
-Avant d’accéder à l’interface, demandez à votre gestionnaire de compte ou à l’assistance clientèle de configurer le compte de votre société.
+Avant d’accéder à l’interface, demandez à votre gestionnaire de compte ou au service à la clientèle Adobe de configurer le compte de votre entreprise.
 
 ## Connexion à l’aide d’Experience Cloud
 
