@@ -1,26 +1,26 @@
 ---
 description: Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
 seo-description: Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
-seo-title: RGPD et Data Connectors (Genesis)
-title: RGPD et Data Connectors (Genesis)
-uuid: d 3 a 32 c 09-d 3 c 5-452 c -8302-8 da 28 e 62 ead 3
+seo-title: Confidentialité des données et connecteurs de données (Genesis)
+title: Confidentialité des données et connecteurs de données (Genesis)
+uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 ---
 
 
-# RGPD et Data Connectors (Genesis)
+# Confidentialité des données et connecteurs de données (Genesis)
 
 Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
 
-Ces informations vous permettent d’identifier toute donnée directement ou indirectement identifiable importée via nos connecteurs lors de la réception d’une demande en vertu du RGPD.
+Ces informations vous permettent d'identifier toute donnée directement identifiable ou toute donnée indirectement identifiable importée via nos connecteurs, lorsqu'ils reçoivent une demande de confidentialité de données.
 
 Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous suffit de vérifier quelles variables/classifications partenaires de votre intégration peuvent potentiellement contenir des données directement ou indirectement identifiables.
 
 >[!NOTE]
 >
->This information is provided to help you identify variables that must be [labeled](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [GDPR readiness](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) (updating classifications, etc.).
+>Ces informations vous aident à identifier les variables qui doivent être [étiquetées](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), mais il vous incombe, en tant que contrôleur de données, d’appliquer les étiquettes appropriées ou d’exécuter d’autres actions pour vous assurer que les données sont prêtes [](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) à être protégées (mise à jour des classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
@@ -33,7 +33,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Alset</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>CheetahMail</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>eDialog Precision Central</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exact Target</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
@@ -150,12 +150,12 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar  </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
@@ -184,17 +184,17 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>ThinData EMS</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>WhatCounts Email</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Yesmail Enterprise</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>Identifiant visiteur </p> </td> 
    <td colname="col4"> <p>eVar  </p> </td> 
   </tr> 
  </tbody> 
