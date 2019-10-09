@@ -1,32 +1,32 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Étiquettes RGPD pour les variables Analytics
-title: Étiquettes RGPD pour les variables Analytics
-uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
+seo-title: Étiquettes de confidentialité des données pour les variables Analytics
+title: Étiquettes de confidentialité des données pour les variables Analytics
+uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 0df187fd7ebc359d54e4fb14a3d69e3b5eb7ce05
+source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 ---
 
 
-# Étiquettes RGPD pour les variables Analytics
+# Étiquettes de confidentialité des données pour les variables Analytics
 
 ## Pourquoi étiqueter vos données ?{#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
 
-De nombreux clients Adobe disposent d’équipes juridiques qui ont examiné le règlement général sur la protection des données (RGPD) et qui ont tiré leurs propres conclusions sur la façon dont les données doivent être traitées afin de se conformer à cette loi. Les interprétations juridiques peuvent différer d’une entreprise à l’autre et les paramètres de traitement des données souhaités peuvent également varier selon les clients. Les clients ayant des préférences pour le traitement des données en vertu du RGPD et des ensembles de données différents, Adobe permet à ses clients, en tant que contrôleur des données, de personnaliser les paramètres pour le traitement des données en vertu du RGPD de leurs données uniques. Cela permet à chaque client unique de traiter les demandes en vertu du RGPD de la façon qui convient le mieux à sa marque et à son ensemble de données unique.
+De nombreux clients Adobe ont des équipes juridiques qui ont examiné les lois sur la confidentialité des données (RDDC, CCPA, etc.) et qui ont tiré leurs propres conclusions sur la façon dont les données doivent être traitées afin de se conformer aux lois sur la confidentialité des données. Les interprétations juridiques peuvent différer d’une entreprise à l’autre et les paramètres de traitement des données souhaités peuvent également varier selon les clients. Etant donné que les clients ont des préférences différentes pour le traitement des données confidentielles et des jeux de données différents, Adobe permet aux clients Adobe, en tant que contrôleur de données, de personnaliser les paramètres souhaités pour le traitement des données personnelles des données pour leurs données uniques. Cela permet à chaque client unique de traiter les demandes de confidentialité des données de la manière la plus logique pour sa marque et son jeu de données unique.
 
 Adobe Analytics offre des outils d’étiquetage des données en fonction de leur confidentialité et des restrictions contractuelles. Les étiquettes sont essentielles et utiles pour aider : (1) à identifier les sujets des données, (2) à déterminer quelles données restituer dans le cadre d’une demande d’accès, et (3) à identifier les champs de données qui doivent être supprimés dans le cadre des demandes de suppression.
 
-Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à tel ou tel champ/variable, vous devez [comprendre les ID](../../admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) que vous capturez dans vos données Analytics et définir ceux qui seront utilisés pour les demandes en vertu du RGPD.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
-La mise en œuvre du règlement général sur la protection des données (RGPD) pour Adobe Analytics prend en charge les étiquettes suivantes pour les données d’identification, les données sensibles et la gouvernance des données.
+La mise en oeuvre de la confidentialité des données d’Adobe Analytics prend en charge les libellés suivants pour les données d’identité, les données sensibles et la gouvernance des données.
 
 ## Étiquettes DULE {#section_B2E78130957647338495EF37DE21D6BC}
 
 >[!NOTE]
 >
->La structure d'étiquetage et d'application des données (INCRUSTATION) est conçue pour offrir une manière uniforme à toutes les solutions/services/plateformes Adobe de capturer, communiquer et utiliser des métadonnées sur les données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données. Dans cette version initiale, Analytics révèle uniquement les étiquettes DULE pertinentes pour le RGPD. Les étiquettes DULE étant prises en charge par d’autres produits Adobe, les versions futures introduiront des étiquettes de données sensibles supplémentaires, ainsi que des étiquettes contractuelles, qui aideront à garantir que les données partagées entre les produits sont exclusivement utilisées de manière légalement admissible.
+>La structure DULE (Data Usage Labeling &amp; Enforcement) est conçue pour fournir une manière uniforme à toutes les solutions, services et plates-formes Adobe afin de capturer, communiquer et utiliser des métadonnées sur les données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données. Dans cette première version, Analytics expose uniquement les étiquettes DULE qui sont pertinentes pour la confidentialité des données. Les étiquettes DULE étant prises en charge par d’autres produits Adobe, les versions futures introduiront des étiquettes de données sensibles supplémentaires, ainsi que des étiquettes contractuelles, qui aideront à garantir que les données partagées entre les produits sont exclusivement utilisées de manière légalement admissible.
 
 ## Étiquettes de données d’identification (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
 
@@ -85,11 +85,11 @@ Les étiquettes « S » pour les données sensibles sont utilisées pour caté
  </tbody> 
 </table>
 
-## Étiquettes de gouvernance des données (RGPD) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## Étiquettes de gouvernance des données (confidentialité des données) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
 
 Les étiquettes de gouvernance des données permettent aux utilisateurs de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise.
 
-**Étiquettes d’accès en vertu du RGPD**
+**Étiquettes d’accès à la confidentialité des données**
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -102,17 +102,17 @@ Les étiquettes de gouvernance des données permettent aux utilisateurs de class
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Aucune </p> </td> 
-   <td colname="col2"> <p>Sélectionnez cette option si cette variable ne contient aucune donnée qui doit être incluse dans les données renvoyées au sujet de données dans le cadre d’une demande d’accès en vertu du RGPD. </p> </td> 
+   <td colname="col2"> <p>Sélectionnez cette option si cette variable ne contient pas de données qui doivent être incluses dans les données renvoyées à la personne concernée dans le cadre d’une demande d’accès à la confidentialité des données. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ACC-ALL </p> </td> 
-   <td colname="col2"> <p>Les valeurs dans ce champ doivent être incluses dans <u>toutes</u> les demandes d’accès en vertu du RGPD. </p> <p>Si cet accès provient d’un appareil partagé par plusieurs individus, en appliquant cette étiquette, vous indiquez, en tant que contrôleur de données, qu’il est acceptable de partager les données dans ce champ avec tout individu ayant accès à l’appareil partagé. </p> </td> 
-   <td colname="col3"> <p>Les champs ayant cette étiquette seront renvoyés pour toutes les demandes en vertu du RGPD. </p> </td> 
+   <td colname="col2"> <p>Values in this field should be included in <u>all</u> Data Privacy access requests. </p> <p>Si cet accès provient d’un appareil partagé par plusieurs individus, en appliquant cette étiquette, vous indiquez, en tant que contrôleur de données, qu’il est acceptable de partager les données dans ce champ avec tout individu ayant accès à l’appareil partagé. </p> </td> 
+   <td colname="col3"> <p>Les champs avec cette étiquette seront renvoyés pour toutes les requêtes de confidentialité des données. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ACC-PERSON </p> </td> 
-   <td colname="col2"> <p> Les valeurs dans ce champ doivent être incluses uniquement pour les demandes d’accès en vertu du RGPD lorsque nous sommes pratiquement certains que l’accès provient du sujet des données, tel que déterminé par un ID de demande en vertu du RGPD correspondant à la valeur d’un champ ID-PERSON. </p> </td> 
+   <td colname="col2"> <p> Les valeurs de ce champ ne doivent être incluses que pour les demandes d’accès à la confidentialité des données lorsque nous sommes raisonnablement sûrs que l’accès provient de la personne concernée, comme déterminé par un ID de demande de confidentialité des données correspondant à la valeur d’un champ ID-PERSON. </p> </td> 
    <td colname="col3"> <p>Vous devez également définir une étiquette ID-PERSON sur certaines variables de cette suite de rapports et soumettre les demandes utilisant cet ID, ou cette étiquette ne sera jamais appliquée. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,7 +120,7 @@ Les étiquettes de gouvernance des données permettent aux utilisateurs de class
 
 Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre à ce que les étiquettes d’accès soient appliquées à la plupart de vos variables. Vous pouvez, cependant, en consultation avec votre équipe juridique, décider quelles données collectées doivent être partagées avec les sujets de données.
 
-**Étiquettes de suppression en vertu du RGPD**
+**Libellés de suppression de la confidentialité des données**
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -138,7 +138,7 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
   </tr> 
   <tr> 
    <td colname="col1"> <p>DEL-DEVICE </p> </td> 
-   <td colname="col2"> <p>Pour les demandes de suppression en vertu du RGPD, les valeurs de ce champ ne doivent être rendues anonymes que pour les demandes où l’accès présente un ID-DEVICE spécifié. </p> <p>Si la même valeur apparaît dans d’autres accès qui ne sont pas supprimés, alors ces autres instances ne seront pas modifiées. Cela aura pour effet de modifier les chiffres pour les rapports qui calculent des chiffres uniques dans ce champ. Sur les appareils partagés, cela peut supprimer les identifiants d’autres personnes, au-delà du sujet des données. </p> <p>Les chiffres ne changent pas si ce champ détient également une étiquette ID-DEVICE et si la valeur de ce champ a été utilisée comme ID pour la demande en vertu du RGPD. </p> </td> 
+   <td colname="col2"> <p>Pour les requêtes de suppression de la confidentialité des données, les valeurs de ce champ doivent être anonymisées uniquement pour les requêtes pour lesquelles un ID-DEVICE spécifié est présent dans l’accès. </p> <p>Si la même valeur apparaît dans d’autres accès qui ne sont pas supprimés, alors ces autres instances ne seront pas modifiées. Cela aura pour effet de modifier les chiffres pour les rapports qui calculent des chiffres uniques dans ce champ. Sur les appareils partagés, cela peut supprimer les identifiants d’autres personnes, au-delà du sujet des données. </p> <p>Les décomptes ne changent pas si ce champ a également une étiquette ID-PÉRIPHÉRIQUE et que la valeur de ce champ a été utilisée comme ID pour la demande de confidentialité des données. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_45C3A09E1F05492B97C3F3DEA7C78FBC"> 
      <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">Nécessite également une étiquette I1, I2 ou S1 </li> 
@@ -150,7 +150,7 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
   </tr> 
   <tr> 
    <td colname="col1"> <p>DEL-PERSON </p> </td> 
-   <td colname="col2"> <p>Pour les demandes de suppression en vertu du RGPD, les valeurs de ce champ ne doivent être rendues anonymes que pour les demandes où un ID-PERSON spécifié est présent au niveau de l’accès. </p> <p>Si la même valeur apparaît dans d’autres accès qui ne sont pas supprimés, alors ces autres valeurs ne seront pas modifiées. Cela aura pour effet de modifier les chiffres pour les rapports qui calculent des chiffres uniques dans ce champ. Les chiffres ne changeront pas si ce champ détient également une étiquette ID-PERSON et si la valeur de ce champ a été utilisée comme ID pour la demande en vertu du RGPD. </p> </td> 
+   <td colname="col2"> <p>Pour les requêtes de suppression de la confidentialité des données, les valeurs de ce champ doivent être anonymisées uniquement pour les requêtes pour lesquelles une ID-PERSONNE spécifique est présente dans l’accès. </p> <p>Si la même valeur apparaît dans d’autres accès qui ne sont pas supprimés, alors ces autres valeurs ne seront pas modifiées. Cela aura pour effet de modifier les chiffres pour les rapports qui calculent des chiffres uniques dans ce champ. Les décomptes ne changeront pas si ce champ a également une étiquette ID-PERSONNE et que la valeur de ce champ a été utilisée comme ID pour la demande de confidentialité des données. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_6722E42E036E47B4B5E17DC213636D51"> 
      <li id="li_6C1A64FF68AF428A827D8C6C33E22970">Nécessite également une étiquette I1, I2 ou S1 </li> 
@@ -163,7 +163,7 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
  </tbody> 
 </table>
 
-**Étiquettes d’identification en vertu du RGPD**
+**Étiquettes d’identité de confidentialité des données**
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -176,12 +176,12 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Aucune </p> </td> 
-   <td colname="col2"> <p>Cette variable ne contient pas d’ID utilisé pour les demandes en vertu du RGPD. </p> </td> 
-   <td colname="col3"> <p>Vous ne devez définir l’une des autres étiquettes que si ce champ contient un ID que vous utiliserez pour soumettre des demandes d’accès ou de suppression via l’API relative au RGPD ou l’interface utilisateur RGPD. </p> </td> 
+   <td colname="col2"> <p>Cette variable ne contient pas d’ID qui sera utilisé pour les demandes de confidentialité des données. </p> </td> 
+   <td colname="col3"> <p>Vous devez définir l’un de ces autres libellés uniquement si ce champ contient un ID que vous utiliserez lors de l’envoi de requêtes d’accès ou de suppression via l’API de confidentialité des données ou l’interface utilisateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
-   <td colname="col2"> <p>Ce champ contient un ID qui peut être utilisé afin d’identifier un appareil pour une demande en vertu du RGPD, mais ne peut pas distinguer les différents utilisateurs d’un appareil partagé. </p> <p>Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes en vertu du RGPD qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. </p> </td> 
+   <td colname="col2"> <p>Ce champ contient un identifiant qui peut être utilisé pour identifier un périphérique pour une demande de confidentialité des données, mais qui ne peut pas distinguer les différents utilisateurs d’un périphérique partagé. </p> <p>Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous envoyez des requêtes de confidentialité des données à l’aide d’identifiants stockés dans cette variable et souhaitez rechercher l’identifiant spécifié dans cette variable. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_618019CB8FCA4A5C94C47636240197B2"> 
      <li id="li_0E5ADED36FF24A348FDD434E2CC8C8EE">Nécessite également une étiquette I1 ou I2 </li> 
@@ -192,7 +192,7 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-PERSON </p> </td> 
-   <td colname="col2"> <p>Ce champ contient un ID qui peut être utilisé pour identifier un utilisateur authentifié (une personne spécifique) pour une demande en vertu du RGPD. </p> <p>Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes en vertu du RGPD qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. </p> </td> 
+   <td colname="col2"> <p>Ce champ contient un identifiant qui peut être utilisé pour identifier un utilisateur authentifié (une personne spécifique) pour une demande de confidentialité des données. </p> <p>Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous envoyez des demandes de confidentialité des données à l’aide d’identifiants stockés dans cette variable et souhaitez rechercher l’identifiant spécifié dans cette variable. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_0C7EEC8FCB5C4BCDA5D48F3C98770A67"> 
      <li id="li_2E781AE8D7A046A7996C7300CA854B86">Nécessite également une étiquette I1 ou I2 </li> 
@@ -228,9 +228,9 @@ Vous pouvez également définir un nouvel espace de noms. Nous vous recommandons
 1. Appuyez sur **[!UICONTROL Entrée]pour ajouter cet espace de noms.** Le bouton Appliquer devient alors actif.
 1. Cliquez sur **[!UICONTROL Appliquer]**.
 
-La chaîne que vous spécifiez comme espace de noms est la même que celle que vous devez utiliser pour soumettre des demandes via l’API relative au RGPD comme valeur du paramètre « espace de noms ». Suite à cette demande, Adobe Analytics recherchera toutes les variables de toutes vos suites de rapports qui partagent cet espace de noms pour l’identifiant spécifié avec la demande.
+La chaîne que vous spécifiez en tant qu’espace de noms est la même chaîne que celle que vous devez utiliser lors de l’envoi de requêtes via l’API de confidentialité des données en tant que valeur du paramètre "namespace". Suite à cette demande, Adobe Analytics recherchera toutes les variables de toutes vos suites de rapports qui partagent cet espace de noms pour l’identifiant spécifié avec la demande.
 
-Vous ne devez pas spécifier l’étiquette ID-DEVICE ou ID-PERSON sur toutes les variables contenant des ID (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous devez soumettre des demandes en vertu du RGPD qui utilisent des ID stockés dans cette variable et que vous voulez rechercher cette variable pour l’ID spécifié. Par exemple, si eVar1 peut contenir une adresse électronique, et eVar2 un nom d’utilisateur de connexion, mais que vous soumettrez uniquement des demandes avec le nom d’utilisateur, vous pouvez alors étiqueter eVar1 comme I1, ACC-PERSON, DEL-PERSON, et eVar2 comme I2, ACC-PERSON, DEL-PERSON, ID-PERSON avec l’espace de noms « nom d’utilisateur ». Vous pouvez ensuite soumettre une demande avec un bloc JSON de section utilisateur comme suit :
+Vous ne devez pas spécifier l’étiquette ID-DEVICE ou ID-PERSON sur toutes les variables contenant des ID (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous envoyez des demandes de confidentialité des données à l’aide d’identifiants stockés dans cette variable et souhaitez rechercher l’identifiant spécifié dans cette variable. Par exemple, si eVar1 peut contenir une adresse électronique et eVar2 un nom d’utilisateur de connexion, mais que vous n’envoyez jamais de requêtes à l’aide du nom d’utilisateur, vous pouvez attribuer à eVar1 le nom I1, ACC-PERSON, DEL-PERSON, mais eVar2 le nom I2, ACC-PERSON, DEL-PERSON avec l’espace de noms "nom d’utilisateur". Vous pouvez ensuite soumettre une demande avec un bloc JSON de section utilisateur comme suit :
 
 ```
 {
@@ -240,15 +240,15 @@ Vous ne devez pas spécifier l’étiquette ID-DEVICE ou ID-PERSON sur toutes le
 }
 ```
 
-Le même espace de noms peut être utilisé pour différentes variables d’une même suite de rapports. Par exemple, certaines implémentations personnalisées stockent un ID de gestion de la relation client dans une prop et une eVar. Si l’ID de gestion de la relation client apparaît toujours dans l’un des deux (l’eVar, par exemple) et seulement occasionnellement dans l’autre (la prop), et qu’il n’apparaît jamais dans la prop sans apparaître également dans l’eVar, alors seule l’eVar nécessite une étiquette d’identification et un espace de noms, car Adobe ne peut rechercher l’ID que dans celle-ci. Toutefois, si l’ID de gestion de la relation client apparaît tantôt dans une variable, tantôt dans l’autre, les deux doivent alors avoir le même espace de noms. Adobe recherchera dans les deux variables les occurrences de l’ID spécifié dans une demande en vertu du RGPD avec cet espace de noms. Vous devez toujours attribuer des étiquettes DEL à toutes ces variables pour que la valeur soit rendue anonyme quel que soit son emplacement.
+Le même espace de noms peut être utilisé pour différentes variables d’une même suite de rapports. Par exemple, certaines implémentations personnalisées stockent un ID de gestion de la relation client dans une prop et une eVar. Si l’ID de gestion de la relation client apparaît toujours dans l’un des deux (l’eVar, par exemple) et seulement occasionnellement dans l’autre (la prop), et qu’il n’apparaît jamais dans la prop sans apparaître également dans l’eVar, alors seule l’eVar nécessite une étiquette d’identification et un espace de noms, car Adobe ne peut rechercher l’ID que dans celle-ci. Si, toutefois, l’ID de gestion de la relation client se produit parfois dans une variable et parfois dans l’autre, les deux doivent avoir le même espace de noms et Adobe recherche les occurrences de l’ID spécifié dans le cadre d’une demande de confidentialité des données avec cet espace de noms. Vous devez toujours attribuer des étiquettes DEL à toutes ces variables pour que la valeur soit rendue anonyme quel que soit son emplacement.
 
 Autre exemple, vous pouvez avoir un ID de gestion de la relation client qui est parfois envoyé via eVar1, parfois via prop7. Vous avez ensuite une règle de traitement qui copie la valeur d’eVar1, le cas échéant, dans eVar3. Sinon, la valeur est copiée de prop7 dans eVar3. Dans ce scénario, eVar3 contiendra toujours l’ID de gestion de la relation client s’il est connu. Dès lors, seule eVar3 nécessite une étiquette ID-PERSON.
 
-> [!CAUTION] Les namespaces de noms « visitorid » et « customvisitorid » sont réservés à l'identification du cookie de suivi hérité Analytics et de l'identifiant visiteur du client Analytics. N'utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
+> [!CAUTION] Les espaces de noms "visitorId" et "customVisitorId" sont réservés à l’identification du cookie de suivi hérité Analytics et de l’identifiant visiteur client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
-## Les types de variables et les étiquettes RGPD/DULE pris en charge {#section_CE7C3EDE1344466A98BC45E394B40762}
+## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
-L’étiquetage RGPD/DULE affecte quatre grandes catégories de variables Analytics. Toutes les variables ne prennent pas en charge toutes les étiquettes. Ce tableau montre quelles variables prennent en charge ou non telles ou telles étiquettes.
+L’étiquetage Confidentialité des données/DULE affecte quatre grandes classes de variables Analytics. Toutes les variables ne prennent pas en charge toutes les étiquettes. Ce tableau montre quelles variables prennent en charge ou non telles ou telles étiquettes.
 
 <table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
  <thead> 
@@ -329,13 +329,13 @@ L’étiquetage RGPD/DULE affecte quatre grandes catégories de variables Analy
    <td colname="col1"> <p>Dimensions et événements relatifs aux solutions </p> </td> 
    <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Page  Activity Map </p> </td> 
    <td colname="col3"> <p>Aucune/I1/I2 </p> <p>Aucune/DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre mise en œuvre ne collecte pas de données directement ou indirectement identifiables dans ces variables, alors elles n’ont pas besoin d’étiquettes d’identité ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
+   <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre implémentation ne collecte pas de données identifiables directement ou indirectement dans ces variables, elles n’ont pas besoin de libellés d’identité ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensions de traitement des données </p> </td> 
    <td colname="col2"> <p>Identifiant visiteur personnalisé </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Vous ne pouvez pas supprimer les étiquettes ID ou DEL (définies sur Aucun), mais vous pouvez les modifier comme des variantes DEVICE ou PERSON, selon votre implémentation d'ID personnalisée. </p> <p>Si vous n’utilisez pas l’ID visiteur personnalisé, alors le paramètre n’a pas d’importance. </p> </td> 
+   <td colname="col4"> <p>Vous ne pouvez pas supprimer les libellés d’ID ou de DEL (définis sur Aucun), mais vous pouvez les modifier en variantes PÉRIPHÉRIQUE ou PERSON, selon votre implémentation d’ID personnalisée. </p> <p>Si vous n’utilisez pas l’identifiant visiteur personnalisé, le paramètre n’a aucune importance. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -350,16 +350,16 @@ L’étiquetage RGPD/DULE affecte quatre grandes catégories de variables Analy
   <tr> 
    <td colname="col2"> <p>Action ClickMap (héritée), </p> <p>Contexte ClickMap (hérité), </p> <p>Activity Map, </p> <p>URL de la page, </p> <p>URL de la page d’accès originale, </p> <p>Referrer, </p> <p>URL de la page de début de la visite </p> </td> 
    <td colname="col3"> <p>Aucune/I1/I2 </p> <p>Aucune/DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre mise en œuvre ne collecte pas de données directement ou indirectement identifiables dans ces variables, alors elles n’ont pas besoin d’étiquettes d’identité ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
+   <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre implémentation ne collecte pas de données identifiables directement ou indirectement dans ces variables, elles n’ont pas besoin de libellés d’identité ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Gestion des suppressions {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
-La prise en charge par Adobe Analytics des demandes de suppression en vertu du RGPD est conçue pour minimiser l’impact sur la génération de rapports. Dans la plupart des cas, les mesures qui apparaissent dans les rapports ne devraient pas changer. Ainsi, un rapport antérieur exécuté avant la suppression relative au RGPD restera le même une fois la suppression effectuée. En effet, les données supprimées sont complètement dissociées du sujet des données et les données non identifiables restent en place pour que les valeurs rapportées soient toujours cohérentes.
+La prise en charge par Adobe Analytics des demandes de suppression de la confidentialité des données est conçue pour minimiser les impacts sur la création de rapports. Dans la plupart des cas, les mesures qui apparaissent dans les rapports ne devraient pas changer. Un rapport historique exécuté avant la suppression de la confidentialité des données correspondra au même rapport exécuté après suppression. En effet, les données supprimées sont complètement dissociées du sujet des données et les données non identifiables restent en place pour que les valeurs rapportées soient toujours cohérentes.
 
-Le tableau suivant décrit comment différentes variables sont « supprimées ». Il ne s’agit pas d’une liste exhaustive.
+Le tableau suivant décrit la manière dont différentes variables sont "supprimées". Il ne s’agit pas d’une liste exhaustive.
 
 <table id="table_A329C2E2645F4685BC208826D070A5F6"> 
  <thead> 
@@ -371,11 +371,11 @@ Le tableau suivant décrit comment différentes variables sont « supprimées 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>• Variables de trafic (props) </p> <p>• Variables de commerce (eVars) </p> </td> 
-   <td colname="col2"> <p>La valeur existante est remplacée par une nouvelle valeur du formulaire « GDPR-356396D55C4F9C7AB3FBB2F2FA223482 », dans laquelle la valeur hexadécimale de 32 chiffres suivant le préfixe « GPDR » est un nombre pseudo-aléatoire de 128 octets au chiffrement fort. Puisqu’elle est remplacée par une chaîne aléatoire, la valeur d’origine ne peut pas être retrouvée à partir de cette nouvelle valeur, tout comme il n’est pas possible d’obtenir la nouvelle valeur en connaissant la valeur d’origine. </p> <p>Pour une variable donnée, si la valeur identique à la valeur remplacée apparaît dans d’autres accès qui sont également supprimés dans le cadre de la même demande en vertu du RGPD, toutes les instances de cette valeur sont remplacées par la même nouvelle valeur. </p> <p>Si certaines instances d’une valeur sont remplacées par une demande de suppression et qu’une demande ultérieure supprime d’autres (nouvelles) instances de la valeur d’origine, la nouvelle valeur de remplacement sera différente de la valeur de remplacement d’origine. </p> </td> 
+   <td colname="col2"> <p>La valeur existante est remplacée par une nouvelle valeur du formulaire "Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482", où la valeur hexadécimale de 32 chiffres après le préfixe "Data Privacy-" est un pseudo-chiffre de 128 bits cryptographiquement fort. Puisqu’elle est remplacée par une chaîne aléatoire, la valeur d’origine ne peut pas être retrouvée à partir de cette nouvelle valeur, tout comme il n’est pas possible d’obtenir la nouvelle valeur en connaissant la valeur d’origine. </p> <p>Pour une variable donnée, si la valeur identique à celle qui est remplacée se produit dans d’autres accès qui sont également supprimés dans le cadre de la même demande de confidentialité des données, toutes les instances de cette valeur sont remplacées par la même nouvelle valeur. </p> <p>Si certaines instances d’une valeur sont remplacées par une demande de suppression et qu’une demande ultérieure supprime d’autres (nouvelles) instances de la valeur d’origine, la nouvelle valeur de remplacement sera différente de la valeur de remplacement d’origine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identifiant d’achat </p> </td> 
-   <td colname="col2"> <p>La valeur existante est remplacée par une nouvelle valeur du formulaire « G-7588FCD8642718EC50 », dans laquelle les 18 caractères hexadécimaux suivant le préfixe « G- » sont les 18 caractères qui composent un nombre pseudo-aléatoire de 128 octets au chiffrement fort. Tous les commentaires qui s’appliquent à la suppression de variables de trafic et de commerce s’appliquent également ici. </p> <p>L’identifiant d’achat est un identifiant de transaction dont le principal objectif est de s’assurer qu’un achat n’est pas crédité deux fois, par exemple quand quelqu’un rafraîchit la page de confirmation d’achat. L’identifiant en lui-même peut associer l’achat à une ligne de votre propre base de données, où l’achat est enregistré. Dans la plupart des cas, il n’est pas nécessaire de supprimer cet identifiant, il n’est donc pas supprimé par défaut. Si vous êtes toujours en mesure de lier un achat à un utilisateur après la demande de suppression en vertu du RGPD de vos propres données, vous pourriez avoir à supprimer ce champ pour que les données Analytics concernant ce visiteur ne puissent pas être reliées à l’acheteur. </p> </td> 
+   <td colname="col2"> <p>La valeur existante est remplacée par une nouvelle valeur du formulaire "G-7588FCD8642718EC50", où les 18 chiffres hexadécimaux après le préfixe "G-" sont les 18 premiers chiffres d’un pseudo-chiffre 128 bits de forte cryptographie. Tous les commentaires qui s’appliquent à la suppression de variables de trafic et de commerce s’appliquent également ici. </p> <p>L’identifiant d’achat est un identifiant de transaction dont le principal objectif est de s’assurer qu’un achat n’est pas crédité deux fois, par exemple quand quelqu’un rafraîchit la page de confirmation d’achat. L’identifiant en lui-même peut associer l’achat à une ligne de votre propre base de données, où l’achat est enregistré. Dans la plupart des cas, il n’est pas nécessaire de supprimer cet identifiant, il n’est donc pas supprimé par défaut. Si vous êtes toujours en mesure de lier l’achat à un utilisateur après la demande de suppression de la confidentialité des données de vos propres données, vous devrez peut-être supprimer ce champ afin que les données Analytics de ce visiteur ne puissent pas être liées à l’acheteur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identifiant visiteur </p> </td> 
@@ -383,7 +383,7 @@ Le tableau suivant décrit comment différentes variables sont « supprimées 
   </tr> 
   <tr> 
    <td colname="col1"> <p>• MCID </p> <p>• Identifiant visiteur personnalisé </p> <p>• Adresse IP </p> <p>• Adresse IP 2 </p> </td> 
-   <td colname="col2"> <p>La valeur est effacée (définie sur une chaîne vide ou 0 selon le type de variable). </p> </td> 
+   <td colname="col2"> <p>La valeur est effacée (définie sur la chaîne vide ou sur 0 selon le type de la variable). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>• Action ClickMap (héritée) </p> <p>• Contexte ClickMap (hérité) </p> <p>• Page </p> <p>• URL de la page </p> <p>• URL de la page d’accès originale </p> <p>• Referrer </p> <p>• URL de la page de début de la visite </p> </td> 
@@ -396,9 +396,9 @@ Le tableau suivant décrit comment différentes variables sont « supprimées 
  </tbody> 
 </table>
 
-## Variables qui ne prennent pas en charge les étiquettes de suppression prévues {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variables that Don't Support the Expected Delete Labels {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
-Cette section vise à clarifier les informations concernant les variables Analytics ne prenant pas en charge la suppression. Parfois, ces variables sont supprimées par des utilisateurs externes à Analytics (par exemple par l’équipe juridique) qui ne connaissent pas le type de données contenu dans la variable et font des hypothèses incorrectes à partir du nom de la variable. Voici une liste de certaines de ces variables, et des raisons pour lesquelles elles ne demandent pas de suppression ou ne nécessitent pas d’étiquette spécifique de suppression.
+Cette section vise à clarifier les informations sur les variables Analytics qui ne prennent pas en charge la suppression. Parfois, ces variables sont supprimées par des utilisateurs externes à Analytics (par exemple par l’équipe juridique) qui ne connaissent pas le type de données contenu dans la variable et font des hypothèses incorrectes à partir du nom de la variable. Voici une liste de certaines de ces variables et pourquoi elles ne nécessitent pas de suppression, ou pourquoi elles ne nécessitent pas de libellé de suppression spécifique.
 
 <table id="table_6FECF3D654514862912D371E6BE4143B"> 
  <thead> 
@@ -438,7 +438,7 @@ Cette section vise à clarifier les informations concernant les variables Analyt
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID AMO </p> </td> 
-   <td colname="col2"> <p> L'ID de cloud Adobe de publication est une variable de solution qui comporte une étiquette DEL-DEVICE non modifiable. Il est renseigné à partir d’un cookie, comme le sont l’identifiant visiteur et le MCID. Il doit être supprimé des accès dès que ces autres identifiants sont supprimés. Consultez la description de ces variables pour de plus amples détails. </p> </td> 
+   <td colname="col2"> <p> L’ID Adobe Advertising Cloud est une variable de solution qui possède un libellé DEL-DEVICE non modifiable. Il est renseigné à partir d’un cookie, comme le sont l’identifiant visiteur et le MCID. Il doit être supprimé des accès dès que ces autres identifiants sont supprimés. Consultez la description de ces variables pour de plus amples détails. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -478,6 +478,6 @@ Il existe cinq variables standard qui contiennent des horodatages :
  </tbody> 
 </table>
 
-Le code permettant de générer les fichiers renvoyés lors des demandes d’accès en vertu du RGPD nécessite qu’au moins l’une des trois premières variables d’horodatage soit incluse dans la demande d’accès (et dispose d’une étiquette ACC s’appliquant au type de demande). Si aucune d’elles n’est incluse, l’heure d’accès personnalisée UTC sera traitée comme si elle possédait une étiquette ACC-ALL.
+Le code de génération des fichiers renvoyés pour les demandes d’accès à la confidentialité des données exige qu’au moins une des trois premières variables d’horodatage soit incluse dans la demande d’accès (disposer d’un libellé ACC qui s’applique au type de requête). Si aucune d’elles n’est incluse, l’heure d’accès personnalisée UTC sera traitée comme si elle possédait une étiquette ACC-ALL.
 
-Le fichier CSV d’accès renvoyé lors des demandes d’accès en vertu du RGPD convertira les valeurs de ces champs pour passer d’horodatages uniques en champs date/heure au format AAAA-MM-JJ HH:MM:SS (par exemple, 2018-05-01 13:49:22). Dans le fichier de résumé HTML, ces valeurs d’horodatage seront tronquées pour n’inclure que la date (AAAA-MM-JJ), afin de réduire le nombre de valeurs uniques possibles pour ces champs.
+Le fichier CSV de niveau accès renvoyé pour les demandes d’accès à la confidentialité des données convertit les valeurs de ces champs d’horodatages unix en champs Date/Heure au format AAAA-MM-JJ HH:MM:SS (par exemple, 2018-05-01 13:49:22). Dans le fichier de résumé HTML, ces valeurs d’horodatage seront tronquées pour n’inclure que la date (AAAA-MM-JJ), afin de réduire le nombre de valeurs uniques possibles pour ces champs.
