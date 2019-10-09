@@ -3,9 +3,9 @@ description: valeur nulle
 seo-description: valeur nulle
 seo-title: Exemple d’étiquetage
 title: Exemple d’étiquetage
-uuid: a 9 a 5 b 937-dbde -4 f 0 f-a 171-005 ef 4 c 79 df 9
+uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: edafa9ca8dc34bd1f3af8c56b4f23c4a983aa677
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -20,9 +20,9 @@ Supposons que vous avez les données d’accès suivantes :
 * La deuxième ligne correspond au nom de la variable. Si elle comporte une étiquette d’identification, elle contient l’espace de noms attribué entre parenthèses.
 * Les données d’accès commencent à partir de la troisième ligne.
 
-| Étiquettes | I2<br>ID-PERSONDEL<br>-PERSONACC<br>-PERSONNE | I 2<br>ID-DEVICEDEL<br>-DEVICEACC<br>-ALL | I 2<br>DEL-PERSONACC<br>-PERSONNE | I 2<br>DEL-DEVICEDEL<br>-PERSONACC<br>-ALL | I 2<br>ID-DEVICEDEL<br>-DEVICEACC<br>-ALL |
+| Étiquettes | I2<br>ID-<br>PERSONDEL-<br>PERSONACC-PERSONNE | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL | I2<br>DEL-<br>PERSONACC-PERSON | I2<br>DEL-<br>DEVICEDEL-<br>PERSONACC-ALL | I2<br>ID-<br>DEVICEDEL-<br>DEVICEACC-ALL |
 |---|---|---|---|---|---|
-| **Nom de variable**<br>**(espace de nommage)** | **Myprop 1**<br>**(utilisateur)** | **Identifiant visiteur**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nom**<br>**de variable (espace de noms)** | **MyProp1**<br>**(utilisateur)** | **Identifiant**<br>**visiteur (AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Données d’accès | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -58,44 +58,44 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | GDPR-7398 | GDPR-9152 |
+| Mary | 42 | A | Privacy-7398 | Privacy-9152 |
 | Mary | 88 | B | N | Y |
 | Mary | 99 | C | O | Z |
-| John | 42 | D | GDPR-1866 | GDPR-8216 |
+| John | 42 | D | Privacy-1866 | Privacy-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Seules les cellules des lignes contenant AAID = 77 et une étiquette DEL-DEVICE sont affectées.
+>[!NOTE] Seules les cellules sur les lignes contenant AAID = 77 et une étiquette DEL-DEVICE sont affectées.
 
-| user = maryexpandids<br>= false | user = maryexpandids<br>= false | user = maryexpandids<br>= false | user = maryexpandids<br>= false | user = maryexpandids<br>= false |
+| user=<br>MaryexpandedIDs=false | user=<br>MaryexpandedIDs=false | user=<br>MaryexpandedIDs=false | user=<br>MaryexpandedIDs=false | user=<br>MaryexpandedIDs=false |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-0523 | 77 | GDPR-1866 | GDPR-3681 | X |
-| GDPR-0523 | 88 | GDPR-2178 | GDPR-1975 | Y |
-| GDPR-0523 | 99 | GDPR-9045 | GDPR-2864 | Z |
+| Confidentialité-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
+| Confidentialité-0523 | 88 | Privacy-2178 | Privacy-1975 | O |
+| Confidentialité-0523 | 99 | Privacy-9045 | Confidentialité-2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Seules les cellules sur les lignes contenant un libellé user = Mary et un libellé DEL-PERSON sont affectées. Dans la pratique, la variable contenant A_ID serait probablement une prop ou une eVar, et sa valeur de remplacement serait une chaîne commençant par « GDPR- » suivi d’un numéro aléatoire (GUID), plutôt que de remplacer la valeur numérique par une valeur numérique aléatoire différente.
+>[!NOTE] Seules les cellules sur les lignes contenant user=Mary et une étiquette DEL-PERSON sont affectées. En outre, dans la pratique, la variable contenant A_ID serait probablement une prop ou une eVar et sa valeur de remplacement serait une chaîne commençant par "Privacy-", suivie d’un nombre aléatoire (GUID), plutôt que de remplacer la valeur numérique par une autre valeur numérique aléatoire.
 
-| user=Mary<br>expandIDs=true | user = maryexpandids<br>= true | user = maryexpandids<br>= true | user = maryexpandids<br>= true | user = maryexpandids<br>= true |
+| user=<br>MaryexpandedIDs=true | user=<br>MaryexpandedIDs=true | user=<br>MaryexpandedIDs=true | user=<br>MaryexpandedIDs=true | user=<br>MaryexpandedIDs=true |
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| GDPR-5782 | 09 | GDPR-0859 | GDPR-8183 | GDPR-9152 |
-| GDPR-5782 | 16 | GDPR-6104 | GDPR-2911 | GDPR-6821 |
-| GDPR-5782 | 83 | GDPR-2714 | GDPR-0219 | GDPR-4395 |
-| John | 09 | D | GDPR-8454 | GDPR-8216 |
-| John | 16 | E | GDPR-2911 | GDPR-2930 |
+| Privacy-5782 | 09 | Confidentialité-0859 | Privacy-8183 | Privacy-9152 |
+| Privacy-5782 | 16 | Confidentialité-6104 | Privacy-2911 | Privacy-6821 |
+| Privacy-5782 | 83 | Privacy-2714 | Confidentialité-0219 | Privacy-4395 |
+| John | 09 | D | Privacy-8454 | Privacy-8216 |
+| John | 16 | E | Privacy-2911 | Privacy-2930 |
 | John | 44 | F | Q | V |
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
-Tenez compte des points suivants :
+Notez les points suivants :
 
 * Cells on rows containing `user=Mary` and a `DEL-DEVICE` or `DEL-PERSON` label are impacted, as well as cells with a `DEL-DEVICE` label on rows containing any Visitor ID that occurred on a row containing `user=Mary`.
 * `MyEvar2` est mis à jour dans les quatrième et cinquième lignes, car celles-ci contiennent les mêmes valeurs d’identifiant visiteur que les première et deuxième lignes. Dès lors, l’extension d’ID les inclut pour les suppressions de niveau appareil.
