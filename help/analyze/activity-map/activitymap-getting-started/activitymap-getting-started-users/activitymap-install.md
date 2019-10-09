@@ -7,7 +7,7 @@ title: Installation des modules de navigateur d’Activity Map
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
+source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
 
 ---
 
@@ -22,7 +22,7 @@ Les modules de navigateur d’Activity Map :
 * sont lancés à l’aide d’un bouton ou d’un élément de menu dans la barre d’outils du navigateur ;
 * sont uniquement compatibles avec les dernières versions des navigateurs de bureau suivants : Internet Explorer, Firefox, Chrome et Safari ;
 * prennent en charge la fonctionnalité **[!UICONTROL Mémoriser mes informations de connexion] ;**
-* **peuvent** injecter la barre d’outils d’Activity Map sur des pages web qui ne contiennent pas de code de page Analytics. Afficheront un message d’erreur si la page ne contient pas de code de page Analytics ;
+* **** peuvent injecter la barre d’outils d’Activity Map sur des pages web qui ne contiennent pas de code de page Analytics. Afficheront un message d’erreur si la page ne contient pas de code de page Analytics ;
 * nécessitent que vous passiez par le processus d’installation du module de navigateur.
 
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}
