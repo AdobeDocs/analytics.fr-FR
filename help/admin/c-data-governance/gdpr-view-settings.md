@@ -3,9 +3,9 @@ description: La boîte de dialogue Gouvernance des données dans les Outils d’
 seo-description: La boîte de dialogue Gouvernance des données dans les Outils d’administration offre un aperçu des suites de rapports configurées pour la gouvernance des données, indique si elles ont été mappées à une organisation Experience Cloud et si une politique de conservation des données est mise en place pour cette suite de rapports.
 seo-title: Afficher/Gérer les paramètres de gouvernance des données de la suite de rapports
 title: Afficher/Gérer les paramètres de gouvernance des données de la suite de rapports
-uuid: f 3 b 83 e 8 e -00 af -4 a 60-a 5 de -29 b 5 c 43 f 6788
+uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -19,7 +19,7 @@ La boîte de dialogue Gouvernance des données dans les Outils d’administratio
 
    Vous verrez toutes les suites de rapports faisant partie de votre société de connexion :
 
-   ![](assets/gdpr_setup_an.png)
+   ![](assets/privacy_setup_an.png)
 
 <table id="table_448292730FF0475E9DCB731882F9A29B"> 
  <thead> 
@@ -38,17 +38,17 @@ La boîte de dialogue Gouvernance des données dans les Outils d’administratio
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mappé</b> : cette suite de rapports a déjà été mappée à la même organisation Experience Cloud que la société de connexion Analytics à laquelle vous êtes connecté. Seules les suites de rapports possédant ce paramètre peuvent être étiquetées. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapper la suite de rapports</b> : en cliquant sur ce lien, vous pouvez <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mapper une suite de rapports</a> à une organisation Experience Cloud. <p>Cela signifie que vous serez redirigé vers la page Organisation d'Experience Cloud - Mappage de mappage des suites de rapports dans laquelle vous devez trouver la suite de rapports et l'affecter à l'organisation appropriée. Une fois cette étape franchie, revenez à cette interface utilisateur de gouvernance des données. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapper la suite de rapports</b> : en cliquant sur ce lien, vous pouvez <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mapper une suite de rapports</a> à une organisation Experience Cloud. <p>Cela signifie que vous serez redirigé vers la page d’administration de l’organisation Experience Cloud - Mappage de suites de rapports où vous devez trouver la suite de rapports et l’affecter à l’organisation appropriée. Une fois cette étape franchie, revenez à cette interface utilisateur de gouvernance des données. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mappé à une autre organisation</b> : une autre organisation Experience Cloud a déjà mappé cette suite de rapports à son organisation. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Politique de conservation des données </p> </td> 
-   <td colname="col2"> <p>La mise en œuvre du règlement général sur la protection des données (RGPD) pour Analytics nécessite la mise en place d’une politique de conservation des données. </p> <p>Ce paramètre indique : </p> 
+   <td colname="col2"> <p>La mise en oeuvre de la confidentialité des données d’Analytics requiert la mise en place d’une stratégie de rétention des données. </p> <p>Ce paramètre indique : </p> 
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">si une politique de conservation des données est en place pour cette suite de rapports ; </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">combien de temps les données sont conservées par Adobe avant d’être supprimées. Par défaut, la période de conservation des données est de 25 mois. </li> 
-    </ul> <p>Remarque : Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative au règlement général sur la protection des données (RGPD), c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie. Veuillez contacter votre gestionnaire du succès client pour définir votre période de conservation des données. </p> </td> 
+    </ul> <p>Remarque :  Adobe Analytics ne peut pas vous aider dans le traitement des requêtes de l’API de confidentialité des données, c’est-à-dire le traitement des demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de rétention des données n’a pas été définie. Veuillez contacter votre gestionnaire du succès client pour définir votre période de conservation des données. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Groupes </p> </td> 
