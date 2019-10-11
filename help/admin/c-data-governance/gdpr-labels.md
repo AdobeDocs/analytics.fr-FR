@@ -5,7 +5,7 @@ seo-title: Étiquettes de confidentialité des données pour les variables Analy
 title: Étiquettes de confidentialité des données pour les variables Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -18,7 +18,7 @@ De nombreux clients Adobe ont des équipes juridiques qui ont examiné les lois 
 
 Adobe Analytics offre des outils d’étiquetage des données en fonction de leur confidentialité et des restrictions contractuelles. Les étiquettes sont essentielles et utiles pour aider : (1) à identifier les sujets des données, (2) à déterminer quelles données restituer dans le cadre d’une demande d’accès, et (3) à identifier les champs de données qui doivent être supprimés dans le cadre des demandes de suppression.
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 La mise en oeuvre de la confidentialité des données d’Adobe Analytics prend en charge les libellés suivants pour les données d’identité, les données sensibles et la gouvernance des données.
 
@@ -26,7 +26,7 @@ La mise en oeuvre de la confidentialité des données d’Adobe Analytics prend 
 
 >[!NOTE]
 >
->La structure DULE (Data Usage Labeling &amp; Enforcement) est conçue pour fournir une manière uniforme à toutes les solutions, services et plates-formes Adobe afin de capturer, communiquer et utiliser des métadonnées sur les données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données. Dans cette première version, Analytics expose uniquement les étiquettes DULE qui sont pertinentes pour la confidentialité des données. Les étiquettes DULE étant prises en charge par d’autres produits Adobe, les versions futures introduiront des étiquettes de données sensibles supplémentaires, ainsi que des étiquettes contractuelles, qui aideront à garantir que les données partagées entre les produits sont exclusivement utilisées de manière légalement admissible.
+>Le cadre DULE (Data Usage Labeling &amp; Enforcement) est conçu pour fournir un moyen uniforme au sein de l’ensemble des Solutions/Services/Plateformes Adobe pour capturer, communiquer et utiliser les métadonnées relatives aux données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données. Dans cette première version, Analytics expose uniquement les étiquettes DULE qui sont pertinentes pour la confidentialité des données. Les étiquettes DULE étant prises en charge par d’autres produits Adobe, les versions futures introduiront des étiquettes de données sensibles supplémentaires, ainsi que des étiquettes contractuelles, qui aideront à garantir que les données partagées entre les produits sont exclusivement utilisées de manière légalement admissible.
 
 ## Étiquettes de données d’identification (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
 
@@ -85,7 +85,7 @@ Les étiquettes « S » pour les données sensibles sont utilisées pour caté
  </tbody> 
 </table>
 
-## Étiquettes de gouvernance des données (confidentialité des données) {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## Étiquettes de gouvernance des données (confidentialité des données) {#data-governance-labels}
 
 Les étiquettes de gouvernance des données permettent aux utilisateurs de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise.
 
@@ -212,7 +212,7 @@ Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes in
 
 Si vous aviez précédemment défini une étiquette d’identification pour d’autres variables dans des suites de rapports de votre société de connexion, vous pouvez sélectionner un espace de noms existant. Vous devez réutiliser l’espace de noms si cette variable contient le même type d’ID que les autres variables déjà étiquetées avec cet espace de noms et que vous souhaitez toutes les rechercher lorsque vous soumettez une demande.
 
-1. Cliquez sur **[!UICONTROL Sélectionner un espace de noms], puis sélectionnez un espace de noms existant.**
+1. Cliquez sur **[!UICONTROL Sélectionner un espace de noms]**, puis sélectionnez un espace de noms existant.
 1. Cliquez sur **[!UICONTROL Appliquer]**.
 
 ![](assets/namespace.png)
@@ -221,11 +221,11 @@ Si vous aviez précédemment défini une étiquette d’identification pour d’
 
 Vous pouvez également définir un nouvel espace de noms. Nous vous recommandons de limiter les chaînes d’espace de noms à des caractères alphanumériques, plus le trait de soulignement, la barre oblique et l’espace. Ceux-ci seront tous convertis en minuscules.
 
-1. Cliquez sur **[!UICONTROL Sélectionner un espace de noms], puis tapez le titre de l’espace de noms.**
+1. Cliquez sur **[!UICONTROL Sélectionner un espace de noms]**, puis tapez le titre de l’espace de noms.
 
    ![](assets/namespace2.png)
 
-1. Appuyez sur **[!UICONTROL Entrée]pour ajouter cet espace de noms.** Le bouton Appliquer devient alors actif.
+1. Appuyez sur **[!UICONTROL Entrée]** pour ajouter cet espace de noms. Le bouton Appliquer devient alors actif.
 1. Cliquez sur **[!UICONTROL Appliquer]**.
 
 La chaîne que vous spécifiez en tant qu’espace de noms est la même chaîne que celle que vous devez utiliser lors de l’envoi de requêtes via l’API de confidentialité des données en tant que valeur du paramètre "namespace". Suite à cette demande, Adobe Analytics recherchera toutes les variables de toutes vos suites de rapports qui partagent cet espace de noms pour l’identifiant spécifié avec la demande.
@@ -244,7 +244,7 @@ Le même espace de noms peut être utilisé pour différentes variables d’une 
 
 Autre exemple, vous pouvez avoir un ID de gestion de la relation client qui est parfois envoyé via eVar1, parfois via prop7. Vous avez ensuite une règle de traitement qui copie la valeur d’eVar1, le cas échéant, dans eVar3. Sinon, la valeur est copiée de prop7 dans eVar3. Dans ce scénario, eVar3 contiendra toujours l’ID de gestion de la relation client s’il est connu. Dès lors, seule eVar3 nécessite une étiquette ID-PERSON.
 
-> [!CAUTION] Les espaces de noms "visitorId" et "customVisitorId" sont réservés à l’identification du cookie de suivi hérité Analytics et de l’identifiant visiteur client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
+> [!CAUTION] Les espaces de noms « visitorId » et « customVisitorId » sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant visiteur du client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
 ## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -327,7 +327,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes classe
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensions et événements relatifs aux solutions </p> </td> 
-   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Page  Activity Map </p> </td> 
+   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Activity Map Activity Map </p> </td> 
    <td colname="col3"> <p>Aucune/I1/I2 </p> <p>Aucune/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre implémentation ne collecte pas de données identifiables directement ou indirectement dans ces variables, elles n’ont pas besoin de libellés d’identité ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
   </tr> 
@@ -335,7 +335,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes classe
    <td colname="col1"> <p>Dimensions de traitement des données </p> </td> 
    <td colname="col2"> <p>Identifiant visiteur personnalisé </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>Vous ne pouvez pas supprimer les libellés d’ID ou de DEL (définis sur Aucun), mais vous pouvez les modifier en variantes PÉRIPHÉRIQUE ou PERSON, selon votre implémentation d’ID personnalisée. </p> <p>Si vous n’utilisez pas l’identifiant visiteur personnalisé, le paramètre n’a aucune importance. </p> </td> 
+   <td colname="col4"> <p>Vous ne pouvez pas supprimer les étiquettes d’ID ou DEL (définies sur Aucune), mais vous pouvez les modifier en variantes DEVICE ou PERSON en fonction de votre implémentation d’identification personnalisée. </p> <p>Si vous n’utilisez pas l’identifiant visiteur personnalisé, le paramètre n’a aucune importance. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -386,7 +386,7 @@ Le tableau suivant décrit la manière dont différentes variables sont "supprim
    <td colname="col2"> <p>La valeur est effacée (définie sur la chaîne vide ou sur 0 selon le type de la variable). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• Action ClickMap (héritée) </p> <p>• Contexte ClickMap (hérité) </p> <p>• Page </p> <p>• URL de la page </p> <p>• URL de la page d’accès originale </p> <p>• Referrer </p> <p>• URL de la page de début de la visite </p> </td> 
+   <td colname="col1"> <p>• Action ClickMap (héritée) </p> <p>• Contexte ClickMap (hérité) </p> <p>• Activity Map </p> <p>• URL de la page </p> <p>• URL de la page d’accès originale </p> <p>• Referrer </p> <p>• URL de la page de début de la visite </p> </td> 
    <td colname="col2"> <p>Les paramètres d’URL sont effacés/supprimés. Si la valeur ne ressemble pas à une URL, elle est effacée (définie sur une chaîne vide). </p> </td> 
   </tr> 
   <tr> 
@@ -434,11 +434,11 @@ Cette section vise à clarifier les informations sur les variables Analytics qui
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identifiant visiteur </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez <a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
+   <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID AMO </p> </td> 
-   <td colname="col2"> <p> L’ID Adobe Advertising Cloud est une variable de solution qui possède un libellé DEL-DEVICE non modifiable. Il est renseigné à partir d’un cookie, comme le sont l’identifiant visiteur et le MCID. Il doit être supprimé des accès dès que ces autres identifiants sont supprimés. Consultez la description de ces variables pour de plus amples détails. </p> </td> 
+   <td colname="col2"> <p> L’identifiant Adobe Advertising Cloud est une variable de solution qui possède une étiquette DEL-DEVICE non modifiable. Il est renseigné à partir d’un cookie, comme le sont l’identifiant visiteur et le MCID. Il doit être supprimé des accès dès que ces autres identifiants sont supprimés. Consultez la description de ces variables pour de plus amples détails. </p> </td> 
   </tr> 
  </tbody> 
 </table>
