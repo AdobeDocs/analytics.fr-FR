@@ -5,7 +5,7 @@ seo-title: Soumettre des demandes d’accès et de suppression
 title: Soumettre des demandes d’accès et de suppression
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -31,7 +31,7 @@ Cela inclut la révision des données renvoyées par Adobe Analytics dans le cad
 
 Chaque fichier combine les données de toutes vos suites de rapports, supprimant automatiquement les copies supplémentaires des accès répliqués. Vous pouvez décider parmi ces fichiers lequel renvoyer au sujet des données. Ou vous pouvez extraire certaines de ces données et les combiner à des données provenant d’autres systèmes avant de les renvoyer au sujet des données.
 
-## Soumettre des demandes {#section_F70F4D91B7FF4242876338A66D2125C3}
+## Soumettre des demandes {#submit-requests}
 
 Vous pouvez soumettre des demandes d’accès à la confidentialité des données et de suppression de celles-ci par l’intermédiaire de notre portail [de confidentialité des](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) données ou de notre API de confidentialité des [données.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
@@ -110,7 +110,7 @@ Remarquez que la section relative à l’utilisateur comporte trois blocs, repr�
 Gardez à l’esprit que :
 
 * La valeur « 5D7236525AA6D9580A495C6C@AdobeOrg » de la section « companyContexts » doit être mise à jour avec la valeur de votre organisation Experience Cloud.
-* Les champs « Type » et « Espace de noms » sont décrits plus en détail à la section [Espace de noms](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D).
+* Les champs « Type » et « Espace de noms » sont décrits plus en détail à la section [Espaces de noms](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D).
 * Les champs « Description » sont ignorés.
 * Les champs « Clé » peuvent contenir la valeur de votre choix. Si vous disposez d’un ID interne que vous utilisez pour le suivi des demandes de confidentialité des données, vous pouvez placer cette valeur ici afin de faciliter la correspondance entre les demandes du système Adobe et celles de vos propres systèmes.
 
@@ -122,12 +122,12 @@ Cette section contient des détails relatifs aux réponses d’accès et de supp
 
 En tant que contrôleur des données, les données renvoyées pour une demande d’accès vous fournissent une URL que vous pouvez utiliser pour télécharger un fichier ZIP contenant un répertoire pour chaque produit Adobe que vous possédez. Dans le dossier Analytics, il peut y avoir :
 
-* Fichiers de personne : dérivés des accès contenant une étiquette ID-PERSON correspondante
+* Fichiers de personne : dérivés des accès contenant une étiquette ID-PERSON correspondante
 
    * Un fichier CSV avec une ligne pour chaque accès correspondant et une colonne pour chaque champ avec une étiquette ACC-ALL ou ACC-PERSON, triées par horodatage.
    * Un fichier récapitulatif en HTML avec une entrée pour chaque étiquette ACC-ALL ou ACC-PERSON. Chaque entrée énumère toutes les valeurs uniques pour ce champ et le nombre de fois où chacune d’entre elles est apparue. Les champs contenant des horodatages sont arrondis afin de spécifier uniquement des jours uniques.
 
-* Fichiers de périphérique - Dérivé des accès où l'un des champs correspondait à un ID-PÉRIPHÉRIQUE spécifié mais aucun ne correspondait à un ID-PERSONNE spécifié
+* Fichiers d’appareil : dérivés des accès où l’un des champs correspondait à un ID-DEVICE spécifié, mais pas à un ID-PERSON spécifié
 
    * Un fichier CSV avec une ligne pour chaque accès correspondant et une colonne pour chaque champ avec une étiquette ACC-ALL, triées par horodatage.
    * Fichier récapitulatif en HTML avec une entrée pour chaque étiquette ACC-ALL. Chaque entrée va énumérer toutes les valeurs uniques pour ce champ et le nombre de fois où chacune d’entre elles est apparue. Les champs contenant des horodatages sont arrondis afin de spécifier uniquement des jours uniques.
