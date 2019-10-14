@@ -3,9 +3,9 @@ description: Le nouveau système d’alertes intelligentes permet de contrôler 
 seo-description: Le nouveau système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 seo-title: Alertes intelligentes
 title: Alertes intelligentes
-uuid: ac 8 c 9710-d 245-46 e 9-b 906-32 d 3 bb 0013 c 0
+uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -20,7 +20,7 @@ Le nouveau système d’alertes intelligentes permet de contrôler plus précis�
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. Grâce aux alertes intelligentes, vous pouvez :
+Les nouveaux Générateur d’alertes et Gestionnaire d’alertes remplacent la fonctionnalité d’alerte existante dans Adobe [!DNL Analytics]. Grâce aux alertes intelligentes, vous pouvez :
 
 * Créer des alertes d’après les anomalies (seuils de 90 %, 95 %, 99 %, 99,75 % et 99,90 % ; % de changement ; au-dessus/au-dessous).
 * Prévisualiser le nombre de fois où une alerte sera déclenchée.
@@ -57,7 +57,7 @@ Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts type
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q : Jusqu’où remonte la détection des anomalies de l’alerte pour déterminer les anomalies de données ?</b> </p> </td> 
-   <td colname="col2"> <p>La période de formation varie selon la granularité sélectionnée. Pour plus d'informations, voir [Techniques statistiques utilisées dans la détection des anomalies] (/help/analyze/analysis-workspace/virtual-analyst/c-anomalies-detection/statistics-anomalies-detection. md). Résumé : </p> 
+   <td colname="col2"> <p>La période de formation varie selon la granularité sélectionnée. Voir Techniques statistiques utilisées dans la détection des <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">anomalies</a> pour en savoir plus. Résumé : </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Mensuel = 15 mois + même période l’an dernier </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Hebdomadaire = 15 semaines + même période l’an dernier </li> 
@@ -75,7 +75,7 @@ Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts type
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Puis-je obtenir un tableau des « valeurs attendues » incluant la ligne pointillée ou un résultat quelconque indiquant à quoi correspondent ces valeurs ?</b> </p> </td> 
-   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> [!UICONTROL Reports &amp; Analytics] anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Il applique une période de formation fixe de 30 jours, un intervalle fixe de 95 % et est semblable à la <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>détection des anomalies des Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
