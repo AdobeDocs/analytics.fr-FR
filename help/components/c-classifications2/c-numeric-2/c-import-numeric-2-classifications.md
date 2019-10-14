@@ -1,19 +1,19 @@
 ---
 description: Le fichier d’importation et d’exportation comporte six colonnes pour chaque classification numérique 2.
 seo-description: Le fichier d’importation et d’exportation comporte six colonnes pour chaque classification numérique 2.
-seo-title: Importation de classifications numériques 2
+seo-title: Importation de classifications numériques 2
 solution: Analytics
-subtopic: Gestionnaire
-title: Importation de classifications numériques 2
+subtopic: Classifications
+title: Importation de classifications numériques 2
 topic: Outils d’administration
-uuid: 82 a 3034 c-e 002-4991-900 f -22 dd 45 d 54910
+uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Importation de classifications numériques 2
+# Importation de classifications numériques 2
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,15 @@ Les définitions suivantes supposent que le nom de la classification numérique 
 
 **~MyCost :** nom explicite de la ligne.
 
-**~ Moncoût ^~id~:** ID de modification d'une ligne existante. Lorsque vous ajoutez une ligne, cette entrée doit être vide Un ID est automatiquement attribué lorsque vous effectuez une exportation depuis le gestionnaire de classifications.
+**~~MonCoût^~ID**: ID de modification d’une ligne existante. Lorsque vous ajoutez une ligne, cette entrée doit être vide Un ID est automatiquement attribué lorsque vous effectuez une exportation depuis le gestionnaire de classifications.
 
-**~MyCost^~value~: **The value for the row. Si la colonne de taux est fixe, il s’agit alors d’une valeur fixe répartie sur toute la période. Si la colonne de taux est un événement, il s’agit alors du multiplicateur de cet événement. Cette entrée ne doit pas contenir de virgules.
+**~~MonCoût^~valeur**: Valeur de la ligne. Si la colonne de taux est fixe, il s’agit alors d’une valeur fixe répartie sur toute la période. Si la colonne de taux est un événement, il s’agit alors du multiplicateur de cet événement. Cette entrée ne doit pas contenir de virgules.
 
-**~ Moncoût ^~period~:** Période à laquelle cette ligne correspond. Cette entrée doit contenir une date de début et une date de fin, séparées par un tiret. Le tiret doit être entouré d’espaces. Les définitions doivent respecter le format suivant :
+**~~MonCoût^~période**: Période à laquelle cette ligne correspond. Cette entrée doit contenir une date de début et une date de fin, séparées par un tiret. Le tiret doit être entouré d’espaces. Les définitions doivent respecter le format suivant :
 
 AAAA/MM/JJ - AAAA/MM/JJ
 
-**~ Moncoût ^~rate~:** Evénement à multiplier par la colonne [!UICONTROL Valeur] . Les valeurs valides sont :
+**~~MonCoût^~Taux**: Evénement à multiplier par la colonne [!UICONTROL Valeur] . Les valeurs valides sont :
 
 * fixed - utilisée pour indiquer que cette valeur est une valeur fixe à répartir sur la période.
 * revenue
@@ -50,4 +50,4 @@ AAAA/MM/JJ - AAAA/MM/JJ
 * event2
 * etc
 
-**~ Moncoût ^~hinge~:** Evénement à utiliser pour répartir la valeur lors d'une ventilation. This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none].
+**~~MonCoût^~charnière**: Evénement à utiliser pour distribuer la valeur lors d’une ventilation. This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none].
