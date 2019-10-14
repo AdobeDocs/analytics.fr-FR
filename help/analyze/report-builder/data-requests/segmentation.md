@@ -5,9 +5,9 @@ seo-title: Gestion des segments
 solution: Analytics
 title: Gestion des segments
 topic: Créateur de rapports
-uuid: 4 e 4 edc 39-ed 93-498 f -913 d -7 b 231 b 10 e 7 a 0
+uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -24,7 +24,7 @@ Le Créateur de rapports inclut un panneau de segmentation à l’étape 1 de l
 
 >[!NOTE]
 >
->Pour ajouter ou modifier des segments, l'interface de segmentation du créateur de rapports lance le créateur de segments Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
+>Pour ajouter ou modifier des segments, l’interface de segments du créateur de rapports lance le créateur de segments Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
 
 1. Dans le panneau des segments de l’étape 1 de l’Assistant Requête, cliquez sur **[!UICONTROL Ajouter]**.
 1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, consultez la page [https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
@@ -33,7 +33,7 @@ Le Créateur de rapports inclut un panneau de segmentation à l’étape 1 de l
 
 >[!IMPORTANT]
 >
->Cette liste est mise en cache et votre segment nouvellement créé n'apparaîtra pas à moins que vous n'ayez effectué une actualisation.
+>Cette liste est mise en cache et le segment que vous venez de créer n’apparaîtra que si vous effectuez une actualisation.
 
 ## Créer des segments dans le contexte {#section_6DD2C663B2854469AA1075438F907678}
 
@@ -57,7 +57,7 @@ Chaque segment créé dans les Rapports et analyses, dans les Analyses ad hoc, 
 
 Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela inclut les segments séquentiels.
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]**box to display all the segments.
+1. Accédez à la liste déroulante **[!UICONTROL Segment]** et cliquez sur la petite flèche vers le bas dans la zone **Rechercher des segments]afin d’afficher tous les segments.[!UICONTROL **
 
    ![](assets/seg_list.png)
 
@@ -65,9 +65,9 @@ Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela i
 
 >[!NOTE]
 >
->Que vous soyez administrateur ou non administrateur, dans le créateur de rapports, vous ne pouvez afficher que les segments que vous possédez et ceux qui ont été partagés avec vous. (Dans l’interface utilisateur de Rapports et analyses marketing, l’administrateur peut consulter tous les segments de l’entreprise.)
+>Que vous soyez administrateur ou non, dans le créateur de rapports, vous ne pouvez afficher que les segments que vous possédez et ceux qui ont été partagés avec vous. (Dans l’interface utilisateur de Rapports et analyses marketing, l’administrateur peut consulter tous les segments de l’entreprise.)
 
-## Filtrer des segments{#section_376E986D3E684999A7CDB08E53854159}
+## Filtrage des segments {#section_376E986D3E684999A7CDB08E53854159}
 
 **Filtrez** les segments en cliquant sur l’icône Filtrer : ![](assets/segment_filter.png)
 
