@@ -7,7 +7,7 @@ title: Sources de trafic
 topic: Rapports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a15d51f41462ce2689849c6b998097ae56497e33
 
 ---
 
@@ -72,7 +72,7 @@ Les rapports dans ce menu sont répartis en trois catégories de base :
   </tr> 
   <tr> 
    <td colname="col1"> Référents </td> 
-   <td colname="col2"> <p> Affiche le domaine ou l’URL de provenance des visiteurs avant qu’ils arrivent sur votre site, les méthodes utilisées par les visiteurs pour trouver votre site web et le nombre de visites sur votre site qui proviennent de ces référents. </p> <p>Si, par exemple, un visiteur clique sur un lien du Site A et arrive sur votre site, le Site A est le référent s’il n’est pas défini comme faisant partie de votre domaine. Lors de l’implémentation, votre conseiller peut vous aider à définir les domaines et les URL qui font partie de votre site web (cette procédure peut également s’effectuer après l’implémentation). Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont considérés comme des référents. </p> <p>Si, par exemple, les pages Web A et B sont ajoutées au filtre URL interne, mais que la page web C ne l’est pas, cette dernière est considérée comme un référent. </p> <p>See <a href="/help/admin/admin/internal-URL-filter-admin.md">Internal URL Filters</a></p> <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Les courriels en provenance d’Outlook sont signalés dans la ligne <span class="wintitle">Tapé/Marqué</span>, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne <span class="wintitle">Moteur de recherche</span>. </p> </td> 
+   <td colname="col2"> <p> Affiche le domaine ou l’URL de provenance des visiteurs avant qu’ils arrivent sur votre site, les méthodes utilisées par les visiteurs pour trouver votre site web et le nombre de visites sur votre site qui proviennent de ces référents. </p> <p>Si, par exemple, un visiteur clique sur un lien du Site A et arrive sur votre site, le Site A est le référent s’il n’est pas défini comme faisant partie de votre domaine. Lors de l’implémentation, votre conseiller peut vous aider à définir les domaines et les URL qui font partie de votre site web (cette procédure peut également s’effectuer après l’implémentation). Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont considérés comme des référents. </p> <p>Si, par exemple, les pages Web A et B sont ajoutées au filtre URL interne, mais que la page web C ne l’est pas, cette dernière est considérée comme un référent. </p> <p>See <a href="/help/admin/admin/internal-URL-filter-admin.md"> Internal URL Filters</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Les courriels en provenance d’Outlook sont signalés dans la ligne <span class="wintitle">Tapé/Marqué</span>, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne <span class="wintitle">Moteur de recherche</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Types de référents </td> 
@@ -86,4 +86,3 @@ Les rapports dans ce menu sont répartis en trois catégories de base :
   </tr> 
  </tbody> 
 </table>
-
