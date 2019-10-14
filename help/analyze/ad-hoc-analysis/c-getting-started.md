@@ -1,19 +1,19 @@
 ---
-description: Commencez avec la publicité - Analyses ad hoc.
-seo-description: Commencez avec la publicité - Analyses ad hoc.
+description: Commencez avec les analyses ad hoc.
+seo-description: Commencez avec les analyses ad hoc.
 seo-title: Prise en main
 title: Prise en main
-uuid: 6 a 698 e 18-4 e 62-405 e-b 020-b 973 c 9 c 4008 b
+uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Commencer avec les analyses ad hoc{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Important]
->Le 6 août 2018, Adobe a annoncé la prochaine fin de vie d’Ad Hoc Analysis, dont la date sera communiquée dès que possible. For more information, including which versions of Java will be compatible during this period, visit [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>[!Iimportant]
+>Le 6 août 2018, Adobe a annoncé la prochaine fin de vie d’Ad Hoc Analysis, dont la date sera communiquée dès que possible. Pour plus d’informations, notamment sur les versions de Java compatibles durant cette période, voir [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 Vous pouvez effectuer une analyse avancée instantanée de l’activité d’un site Web. Vous pouvez consulter plusieurs rapports simultanément et appliquer des segments sur plusieurs dimensions. Vous pouvez analyser les données du point de vue micro et macro afin de mesurer leur impact sur les mesures importantes d’un point de vue commercial.
 
@@ -49,7 +49,7 @@ Grâce à ces fonctionnalités, vous pouvez répondre aux questions sur le trafi
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Créer des segments afin d’effectuer une analyse plus approfondie des données </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Ajouter des mesures, des dimensions et des segments au <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> Générateur de tableau</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuring <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> date ranges</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuration des <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> plages de dates</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> Planifier</a> l’envoi des rapports </li> 
     </ul> <p>Parcourez ce système d’aide à la recherche des informations dont vous avez besoin. </p> </td> 
   </tr> 
@@ -68,7 +68,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d'exécuter Ad - Analyses ad hoc sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prend plus en charge la mise en œuvre de votre analyses ad hoc.
+>À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter les analyses ad hoc sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre implémentation des analyses ad hoc.
 
 * Carte vidéo compatible avec OpenGL 2.0
 * Cookies : obligatoires
@@ -83,7 +83,7 @@ c_sys_reqs.xml
 
 ## Instructions de mise à niveau de Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d'exécuter Ad - Analyses ad hoc sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prend plus en charge la mise en œuvre de votre analyses ad hoc.
+À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter les analyses ad hoc sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre implémentation des analyses ad hoc.
 
 Nos fichiers .jar sont protégés par un chiffrement sécurisé de 256 bits qui n’est pas pris en charge par les versions de Java antérieures à 1.7.0_76. Ce certificat 256 bits nous permet de vous offrir une sécurité optimale.
 
@@ -91,7 +91,7 @@ Si vous disposez toujours de Java 7, vous devez le mettre à niveau avant la ve
 
 * Si vous êtes autorisé à installer des programmes sur votre machine :
 
-   1. Accédez à https://www.java.com.
+   1. Rendez-vous sur https://www.java.com.
    1. Cliquez sur **[!UICONTROL Téléchargement gratuit de Java]**.
    1. Cliquez sur **[!UICONTROL Accepter et lancer le téléchargement gratuit]**.
    1. Installez la dernière version de Java correspondant à votre système d’exploitation.
@@ -126,7 +126,7 @@ t_login_suite.xml
 
    Si vous ne voyez pas le bouton **Lancer Ad Hoc Analysis** sur cette page, assurez-vous que l’administrateur vous a ajouté au groupe *Utilisateurs de la licence Ad Hoc Analysis* dans les outils d’administration.
 1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. Save the [!DNL discover.jnlp] file locally.
+1. Enregistrez le [!DNL discover.jnlp] fichier localement.
 
    Vous pouvez exécuter ce fichier enregistré lorsque vous souhaitez lancer les Ad Hoc Analysis.
 
@@ -187,7 +187,7 @@ t_share_projects.xml
  -->
 
 1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. Select **[!UICONTROL Shared Projects]** from the **[!UICONTROL Save in:]**drop-down.
+1. **[!UICONTROL Sélectionnez Projets]****[!UICONTROL partagés dans]** Enregistrer dans : liste déroulante.
 
    ![](assets/shared_projects.png)
 
@@ -197,7 +197,7 @@ t_share_projects.xml
 
    >[!NOTE]
    >
-   >Vous pouvez supprimer vos propres projets partagés dans la même boîte de dialogue pour partager des projets en sélectionnant un ou plusieurs projets.
+   >Vous pouvez supprimer vos propres projets partagés dans la même boîte de dialogue pour le partage de projets en sélectionnant un ou plusieurs projets.
 
 ## Rename a Workspace {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
