@@ -7,7 +7,7 @@ title: Rapports sur les mesures du site
 topic: Ad Hoc Analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **Recettes** : vous permet d’afficher les recettes brutes pour les périodes sélectionnées. Vous pouvez consulter, par exemple, les recettes générées au mois de mars, les commandes passées la semaine dernière ou encore les recettes d’aujourd’hui.
 * **Commandes** : indique le nombre de commandes passées sur votre site web lors d’une période spécifiée. Plusieurs produits peuvent faire l’objet d’une commande unique.
 * **Unités** : indique le nombre total d’unités commandées lors d’une période spécifiée.
-* ** Entonnoir de conversion d'achat** : Idéal pour afficher les événements de conversion sur votre site s’ils se produisent dans un ordre spécifique, par exemple dans un paramètre de vente au détail. Un rapport Entonnoir présente la mesure de conversion pour chaque étape du processus de conversion, ainsi que les commandes, les recettes et les unités.
+* **Entonnoir de conversion d’achat** : idéal pour présenter les événements de conversion sur votre site, s’ils se produisent dans un ordre spécifique, par exemple dans le cas d’une vente au détail. Un rapport Entonnoir présente la mesure de conversion pour chaque étape du processus de conversion, ainsi que les commandes, les recettes et les unités.
 
 ## Rapport Panier {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
