@@ -1,18 +1,18 @@
 ---
 description: Classement et filtres conditionnels pouvant être configurés à l’aide d’une logique booléenne et d’expressions de recherche ET/OU.
 seo-description: Classement et filtres conditionnels pouvant être configurés à l’aide d’une logique booléenne et d’expressions de recherche ET/OU.
-seo-title: Filtrage le plus populaire
+seo-title: Filtrage le plus apprécié
 solution: Analytics
-title: Filtrage le plus populaire
+title: Filtrage le plus apprécié
 topic: Créateur de rapports
-uuid: 558 fa 592-41 be -4 e 66-8705-81262 afe 1 fc 7
+uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Filtrage le plus populaire
+# Filtrage le plus apprécié
 
 Classement et filtres conditionnels pouvant être configurés à l’aide d’une logique booléenne et d’expressions de recherche ET/OU.
 
@@ -22,7 +22,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Créez ou modifiez une requête, puis passez au formulaire [!UICONTROL Assistant Requête : Étape 2].
 
-   ![Informations sur les étapes](assets/dimension_filter.png)
+   ![Infos étape](assets/dimension_filter.png)
 
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 2]**, cliquez sur le lien en regard de la dimension dans la grille, puis sélectionnez[!UICONTROL Filtrer]**.
 1.  Activez l’option [!UICONTROL Le plus populaire]**dans le formulaire[!UICONTROL Sélectionner les pages]**, puis configurez les options suivantes :
@@ -35,21 +35,21 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >L'application de filtres aux requêtes existantes entraîne des modifications dans les données présentées. Supposons que vous ayez mappé les dix [!UICONTROL Pages] principales sur les cellules $A$1 à $A$10, avec les valeurs 1 pour [!UICONTROL Ordre de classement] et 10 pour [!UICONTROL Nombre d’entrées]. Si vous définissez, à présent, les champs [!UICONTROL Ordre de classement] et [!UICONTROL Nombre d’entrées] sur 1 et 3, respectivement, les données indiquées précédemment dans les cellules $A$4 à $A$10 ne seront plus affichées.
+   >L’application de filtres à des requêtes existantes entraîne des modifications dans les données présentées. Supposons que vous ayez mappé les dix [!UICONTROL Pages] principales sur les cellules $A$1 à $A$10, avec les valeurs 1 pour [!UICONTROL Ordre de classement] et 10 pour [!UICONTROL Nombre d’entrées]. Si vous définissez, à présent, les champs [!UICONTROL Ordre de classement] et [!UICONTROL Nombre d’entrées] sur 1 et 3, respectivement, les données indiquées précédemment dans les cellules $A$4 à $A$10 ne seront plus affichées.
 
 1. Pour créer une expression de recherche, cliquez sur **[!UICONTROL Ajouter]**.
 
-   ![Informations sur les étapes](assets/expressions_define_filter.png)
+   ![Infos étape](assets/expressions_define_filter.png)
 
 1. Dans le formulaire [!UICONTROL Définir un filtre], configurez les conditions adaptées à vos besoins.
 
    ![select_cell_icon.png](assets/select_cell_icon.png) : vous permet de localiser une condition définie dans la valeur d’une cellule.
 
-   ** Ajouter une condition : ** Ajoute une condition à l'expression. Le nombre de conditions qu’il est possible d’ajouter est illimité.
+   **Ajouter une condition** : ajoute une condition à l’expression. Le nombre de conditions qu’il est possible d’ajouter est illimité.
 
 1. Cliquez sur **[!UICONTROL OK]**.
 
-   ![Informations sur les étapes](assets/choose_page_02.png)
+   ![Infos étape](assets/choose_page_02.png)
 
 1. Dans le formulaire [!UICONTROL Sélectionner les pages]**, cliquez sur[!UICONTROL Enregistrer]** pour enregistrer l’expression.
 1. Cliquez sur **[!UICONTROL OK]**.
