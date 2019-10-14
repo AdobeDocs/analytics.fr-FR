@@ -1,18 +1,18 @@
 ---
 description: Avant de commencer le mappage des éléments sur la feuille de calcul, assurez-vous que cette dernière n’est pas protégée. Si le schéma de protection de votre feuille de calcul empêche toute opération de l’utilisateur, il vous sera impossible d’y sélectionner des cellules. Commencez par annuler la protection de la feuille, puis ajoutez des mappages de cellules.
 seo-description: Avant de commencer le mappage des éléments sur la feuille de calcul, assurez-vous que cette dernière n’est pas protégée. Si le schéma de protection de votre feuille de calcul empêche toute opération de l’utilisateur, il vous sera impossible d’y sélectionner des cellules. Commencez par annuler la protection de la feuille, puis ajoutez des mappages de cellules.
-seo-title: Mapper des mesures et des dimensions aux cellules
+seo-title: Mappage de mesures et de dimensions avec des cellules
 solution: Analytics
-title: Mapper des mesures et des dimensions aux cellules
+title: Mappage de mesures et de dimensions avec des cellules
 topic: Créateur de rapports
-uuid: 50893 e 1 c -5 f 2 c -4558-8001-41 e 70 d 74 d 6 e 7
+uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Mapper des mesures et des dimensions aux cellules
+# Mappage de mesures et de dimensions avec des cellules
 
 Avant de commencer le mappage des éléments sur la feuille de calcul, assurez-vous que cette dernière n’est pas protégée. Si le schéma de protection de votre feuille de calcul empêche toute opération de l’utilisateur, il vous sera impossible d’y sélectionner des cellules. Commencez par annuler la protection de la feuille, puis ajoutez des mappages de cellules.
 
@@ -30,15 +30,13 @@ Pour plus d’informations, reportez-vous aux sections suivantes :
 
 Sur le formulaire [!UICONTROL Assistant Requête : Étape 2], lorsque vous activez [!UICONTROL Disposition personnalisée] pour une requête de tendance, vous pouvez la mapper sur une plage de cellules.
 
-Click the **[!UICONTROL Range Selector]** ![select_cell_icon.png](assets/select_cell_icon.png)
+Cliquez sur le sélecteur de **[!UICONTROL plage]** ![select_cell_icon.png](assets/select_cell_icon.png)
 
-en regard de l'élément que vous souhaitez mapper.
+en regard de l’élément à mapper.
 
-* ** All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request.
-
-* ** First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). Utilisez cette option si vous souhaitez que le Créateur de rapports sélectionne les cellules à votre place.
-
-* ** Orientation de plage : ** Vous permet d'orienter les plages de cellules sous forme de colonnes ou de lignes.
+* **Toutes les cellules dans la plage** : cette option exige que vous sélectionniez un groupe de cellules pour une requête de type [!UICONTROL Disposition personnalisée].
+* **Première cellule de la plage** : cette option permet de sélectionner la cellule supérieure gauche de la plage. Elle affiche également l’orientation [!UICONTROL Plage] afin d’indiquer l’orientation horizontale ou verticale des cellules d’entrée et de sortie (colonne ou ligne). Utilisez cette option si vous souhaitez que le Créateur de rapports sélectionne les cellules à votre place.
+* **Orientation de plage** : cette option permet d’orienter les plages de cellules sous la forme de colonnes ou de lignes.
 * **Sélectionnez l’emplacement de la cellule supérieure de la plage** : affiche les références de cellule.
 
 ## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
@@ -74,6 +72,4 @@ Pour tester les zones présentant des requêtes incorporées, vous pouvez procé
 
 * Lancez le [!UICONTROL Gestionnaire de requêtes] et cliquez sur les différentes requêtes répertoriées dans le tableau. Si vous cliquez sur une requête, les cellules de la feuille de calcul où elle est mappée sont mises en surbrillance.
 * Sélectionnez des cellules dans la feuille de calcul que vous avez l’intention d’utiliser pour un nouveau mappage, puis cliquez sur [!UICONTROL De la feuille]. Le [!UICONTROL Gestionnaire de requêtes] sélectionne, dans la liste, la requête dont un élément de sortie chevauche la cellule sélectionnée. Si aucune requête n’est sélectionnée, la cellule est disponible.
-
 * Sélectionnez des cellules dans la feuille de calcul, cliquez avec le bouton droit dans le menu contextuel et vérifiez si l’option [!UICONTROL Modifier la requête] est disponible. Si elle l’est, cela signifie qu’une requête est associée à ces cellules.
-
