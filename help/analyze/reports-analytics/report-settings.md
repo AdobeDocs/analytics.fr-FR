@@ -1,24 +1,24 @@
 ---
-description: Paramètres définissant l'affichage de tous les rapports et les informations qui corrigent les options de menu par défaut à leur emplacement dans le menu simplifié.
-seo-description: Paramètres définissant l'affichage de tous les rapports et les informations qui corrigent les options de menu par défaut à leur emplacement dans le menu simplifié.
-seo-title: Paramètres d'affichage des rapports et navigation
+description: Paramètres qui définissent l’affichage de tous les rapports et informations qui permettent d’appliquer les options de menu par défaut à leur emplacement dans le menu simplifié.
+seo-description: Paramètres qui définissent l’affichage de tous les rapports et informations qui permettent d’appliquer les options de menu par défaut à leur emplacement dans le menu simplifié.
+seo-title: Paramètres d’affichage des rapports et navigation
 solution: Analytics
-title: Paramètres d'affichage des rapports et navigation
+title: Paramètres d’affichage des rapports et navigation
 topic: Rapports,Reports & Analytics
-uuid: e 7 e 571 ce-a 1 cf -4714-b 400-9571805 ceeac
+uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 612cbb694f16b5b4fcbf2d9cae55bc52103cc0b9
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Paramètres d'affichage des rapports et navigation
+# Paramètres d’affichage des rapports et navigation
 
-Paramètres qui définissent l'affichage de tous les rapports et les informations qui mappent les options de menu par défaut à leur emplacement dans le menu simplifié.
+Paramètres qui définissent l’apparence de tous les rapports et informations qui mappent les options de menu par défaut à leur emplacement dans le menu simplifié.
 
-## Report display settings and navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
+## Paramètres d’affichage des rapports et navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Paramètres des rapports]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; Paramètres des **[!UICONTROL rapports]**
 
 <!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
@@ -38,12 +38,12 @@ Paramètres qui définissent l'affichage de tous les rapports et les information
 | Afficher les données « Aucun », « Non spécifié » et « Tapé/Marqué » dans les graphiques du rapport | Affiche les mesures qui ne reçoivent aucun crédit pour la mesure spécifiée. |
 | Afficher les graphiques sparkline sur les rapports de classement | Affiche un graphique sparkline dans le champ des totaux des rapports de classement. Vous bénéficiez ainsi d’un aperçu rapide de la tendance générale sans générer un rapport distinct. |
 | **Accélération** |  |
-| Permettre à l’Accélérateur de rapports de visionner les rapports plus rapidement | Active l'accélérateur de rapports qui utilise un algorithme temporel pour mettre en cache les rapports récemment demandés et examine uniquement les éléments uniques survenant fréquemment, ce qui se traduit par une remise encore plus rapide des rapports. En mettant en cache les rapports demandés pendant 15 minutes, l’accélérateur de rapports peut extraire presque instantanément ces rapports lors de demandes ultérieures. Ce paramètre est utile si vous naviguez entre plusieurs rapports, si vous imprimez des rapports ou si vous accédez fréquemment aux mêmes rapports. Lorsque cette option est désactivée, le système régénère les rapports chaque fois que vous en faites la demande. |
+| Permettre à l’Accélérateur de rapports de visionner les rapports plus rapidement | Active l’accélérateur de rapports, qui utilise un algorithme temporel pour mettre en cache les rapports récemment demandés et examine uniquement les éléments uniques survenant le plus fréquemment, ce qui entraîne une remise encore plus rapide des rapports. En mettant en cache les rapports demandés pendant 15 minutes, l’accélérateur de rapports peut extraire presque instantanément ces rapports lors de demandes ultérieures. Ce paramètre est utile si vous naviguez entre plusieurs rapports, si vous imprimez des rapports ou si vous accédez fréquemment aux mêmes rapports. Lorsque cette option est désactivée, le système régénère les rapports chaque fois que vous en faites la demande. |
 | Activer l’accélérateur de tableau de bord et afficher les versions en cache disponibles | Cette option active l’accélérateur de tableau de bord, qui stocke une version de votre tableau de bord mise en cache pour que vous puissiez la consulter ultérieurement. En mettant en mémoire cache une vue de votre tableau de bord pendant 24 heures, l’accélérateur de tableau de bord pourra récupérer cette vue pratiquement instantanément, car l’interrogation et le traitement intensifs des bases de données sont faits à l’avance. Si la version mise en cache remonte à plus de 24 heures, un nouveau tableau de bord est généré et une nouvelle version est créée et mise en cache. De même, une nouvelle version est créée et mise en cache dès que vous mettez à jour le tableau de bord (ou n’importe quel mini-rapport affiché dans le tableau de bord). La mémoire cache dépend de l’utilisateur. Les autres utilisateurs qui consultent un tableau de bord partagé voient une version fondée sur leur propre utilisation de l’accélérateur de tableau de bord et sur la mise à jour de leur tableau de bord. |
 | Activer l’accélération de réseau pour de meilleures performances de rapports | Cette option accélère la remise des données à votre emplacement en optimisant le chemin entre l’infrastructure Adobe et votre environnement. |
 |  Activer l’accélération régionale pour rendre l’expérience client plus rapide en Chine | L’accélérateur régional utilise des domaines accélérés spécifiques à une région afin d’offrir une expérience utilisateur plus rapide dans une région donnée. Actuellement, l’accélération régionale est prise en charge uniquement pour la Chine. L’activation de cette fonction pour les utilisateurs qui ne se trouvent pas en Chine entraîne une expérience utilisateur plus lente. Après avoir activé l’accélération régionale, vous devez vous reconnecter pour que le paramètre s’applique. Si vous souhaitez désactiver l’accélérateur régional, désactivez cette case à cocher. |
 | **Langue/Devise/Encodage** |  |
-| Séparateur de milliers | Permet de sélectionner un séparateur pour chaque des milliers (décimal ou virgule). De nombreux pays utilisent un point pour séparer les milliers (ce séparateur s’applique à tous les nombres du système et pas seulement aux devises). |
+| Séparateur de milliers | Permet de sélectionner un séparateur pour chaque milliers (décimal ou virgule). De nombreux pays utilisent un point pour séparer les milliers (ce séparateur s’applique à tous les nombres du système et pas seulement aux devises). |
 | Utiliser la devise par défaut de la suite de rapports | Indique s’il convient d’utiliser la devise par défaut de la suite de rapports. |
 | Devise | Devise dans laquelle vous souhaitez convertir vos données. Lorsqu’une valeur est sélectionnée dans ce paramètre, les données stockées dans la base de données ne sont pas affectées, mais la valeur est présentée comme une valeur convertie selon le taux de change du jour de la devise. Si aucune option de devise n’est configurée (valeurs par défaut utilisées), aucune conversion de devise n’a lieu et toutes les valeurs sont stockées et affichées en dollars américains (USD). Pour convertir la devise lorsque les données sont traitées (avant qu’elles ne s’affichent), contactez votre gestionnaire de compte. |
 | Encodage d’un rapport planifié | Maj-JIS pour le codage des caractères japonais. EUC-JP pour le code Unix étendu, principalement pour le japonais, le coréen et le chinois simplifié. |
@@ -135,9 +135,9 @@ Si vous êtes habitué au menu par défaut, le tableau suivant facilite la reche
 | **Conversion personnalisée** |  |  |
 |  | Conversion personnalisée 1-10 | Conversion &gt; Conversion personnalisée &gt; Conversion personnalisée 1-10 |
 |  | Conversion personnalisée 11-20 | Conversion &gt; Conversion personnalisée &gt; Conversion personnalisée 11-20 |
-| **Trafic personnalisé ** |  |  |
+| **Trafic personnalisé** |  |  |
 |  | Trafic personnalisé 1-10 | Contenu &gt; Trafic personnalisé &gt; Trafic personnalisé 1-10 |
-| **Test&amp;Target ** |  | Conversion &gt; Test&amp;Target |
+| **Test&amp;Target** |  | Conversion &gt; Test&amp;Target |
 | **Survey** |  | Audience &gt; Survey |
 | **Canaux marketing** |  |  |
 |  | Rapport Aperçu d’un canal | Sources de trafic &gt; Canaux marketing &gt; Rapport Aperçu d’un canal |
@@ -148,7 +148,7 @@ Si vous êtes habitué au menu par défaut, le tableau suivant facilite la reche
 | **Applications mobiles** |  |  |
 |  | Présentation des applications mobiles | Contenu &gt; Application mobile &gt; Présentation des applications mobiles |
 |  | Rapports du cycle de vie | Contenu &gt; Application mobile &gt; Rapports du cycle de vie |
-| **Rapports personnalisés ** |  |  |
+| **Rapports personnalisés** |  |  |
 |  | Les rapports personnalisés n’affichent que ce que vous avez configuré. | Rapports personnalisés |
 |  |  |  |
 
