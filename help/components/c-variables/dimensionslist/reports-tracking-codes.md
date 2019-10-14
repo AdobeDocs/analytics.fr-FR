@@ -7,7 +7,7 @@ title: Codes de suivi
 topic: Rapports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ Mesure l’incidence de divers codes de suivi publicitaire sur différents évé
 * Pages vues, Visites et Visiteurs uniques sont disponibles en tant que mesures.
 * Ce rapport peut faire usage de segments.
 
-** Propriétés d’Ad Hoc Analysis**
+**Propriétés d’Ad Hoc Analysis**
 
 * Outre la plupart des variables de conversion prêtes à l’emploi, vous pouvez ventiler le rapport Code de suivi selon tous les autres rapports de l’interface de création de rapports.
 * Outre les événements de commerce électronique et personnalisés, vous pouvez utiliser l’ensemble des mesures de conversion et de trafic, ainsi qu’une affectation différente pour toutes les mesures de conversion.
