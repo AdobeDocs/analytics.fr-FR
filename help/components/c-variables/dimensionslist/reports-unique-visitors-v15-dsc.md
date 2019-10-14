@@ -7,7 +7,7 @@ title: Visiteurs uniques
 topic: Rapports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -35,7 +35,7 @@ Pour consulter des exemples de cette page, reportez-vous au tableau suivant. Le 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Page </p> </td> 
+   <td colname="col1"> <p>Activity Map </p> </td> 
    <td colname="col2"> <p>A </p> </td> 
    <td colname="col3"> <p>C </p> </td> 
    <td colname="col4"> <p>A </p> </td> 
@@ -64,7 +64,7 @@ Pour consulter des exemples de cette page, reportez-vous au tableau suivant. Le 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Page </th> 
+   <th colname="col1" class="entry"> Activity Map </th> 
    <th colname="col2" class="entry"> Visiteurs uniques </th> 
   </tr> 
  </thead>
@@ -263,7 +263,7 @@ Le total des mesures peut varier en fonction de la période du rapport. Les rapp
 
 La segmentation vous permet de modifier la période de manière à inclure des dates ultérieures au lieu de dates antérieures. Supposons, par exemple, que la période s’étende toujours du 2 au 3 janvier (comme illustré dans le tableau précédent). Si vous appliquez un segment où Page = C, la date du 2 janvier ne transmettra pas le segment et le premier accès du visiteur hebdomadaire unique surviendra le 3 janvier. Si vous aviez appliqué un segment où Page = D, les dates du 2 janvier et du 3 janvier auraient été exclues. Aucun résultat ne serait affiché pour le visiteur hebdomadaire unique et les résultats seraient exclus du total.
 
-**Rapports Visiteurs uniques périodiques **
+**Rapports sur les visiteurs uniques périodiques**
 
 Ces rapports utilisent une page, une prop et un attribut spécifiques (exemple : où Page = A).
 
@@ -342,7 +342,7 @@ Vous pouvez ajouter des mesures Visiteur unique périodiques sur des rapports n�
 <table id="table_8651A42696B0404CAEAE0FC5522CC1C9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Page </th> 
+   <th colname="col1" class="entry"> Activity Map </th> 
    <th colname="col02" class="entry"> Date de la visite </th> 
    <th colname="col2" class="entry"> Visites - Visiteurs hebdomadaires uniques </th> 
   </tr> 
@@ -386,7 +386,7 @@ Une mesure Visiteurs uniques par jour sur un [!UICONTROL rapport Pages] se prés
 <table id="table_04C7C305C2B945D6A79A6B80F48A4BF5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Page </th> 
+   <th colname="col1" class="entry"> Activity Map </th> 
    <th colname="col02" class="entry"> Date de la visite </th> 
    <th colname="col2" class="entry"> Visites </th> 
   </tr> 
