@@ -7,7 +7,7 @@ title: Abandon
 topic: Rapports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -26,11 +26,11 @@ Ce rapport se révèle particulièrement utile pour analyser les éléments suiv
 
 Voir [Itinéraires des internautes – Abandons](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
 
-** Reports and Analytics **
+**Reports and Analytics**
 
 Pour en savoir plus sur la configuration, consultez la rubrique [Exécution d’un rapport d’abandons](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html).
 
-** Ad Hoc Analysis **
+**Ad Hoc Analysis**
 
 Analysez les données d’abandon au niveau de la visite ou du visiteur. Ce rapport affiche également un chemin avec tendance sous la forme d’un graphique indiquant les abandons survenus au cours d’une période déterminée. Vous pouvez définir une seule page ou un groupe de pages en tant que points de contrôle du rapport, ou encore ajouter toute dimension ou mesure dans une combinaison ou séquence. Vous pouvez également utiliser des catégories configurées dans les rapports marketing comme points de contrôle dans ce rapport.
 
