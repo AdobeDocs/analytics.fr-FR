@@ -1,23 +1,23 @@
 ---
 description: Un tableau de bord est une série de rapports miniatures nommés mini-rapports. Il s’avère particulièrement utile s’il contient des mini-rapports connexes, qui fournissent des vues d’ensemble complètes de certains aspects de votre site (méthodes de recherche, profils du visiteur, etc.).
 seo-description: Un tableau de bord est une série de rapports miniatures nommés mini-rapports. Il s’avère particulièrement utile s’il contient des mini-rapports connexes, qui fournissent des vues d’ensemble complètes de certains aspects de votre site (méthodes de recherche, profils du visiteur, etc.).
-seo-title: Tableaux de bord et petits rapports
+seo-title: Tableaux de bord et mini-rapports
 solution: Analytics
 subtopic: Tableaux de bord
-title: Tableaux de bord et petits rapports
-topic: Reports and Analytics
-uuid: 7 a 7 b 3 bc 9-0 a 3 c -49 b 0-9168-e 2878 ae 67 b 97
+title: Tableaux de bord et mini-rapports
+topic: Reports & Analytics
+uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Tableaux de bord et petits rapports
+# Tableaux de bord et mini-rapports
 
 Un tableau de bord est une série de rapports miniatures nommés mini-rapports. Il s’avère particulièrement utile s’il contient des mini-rapports connexes, qui fournissent des vues d’ensemble complètes de certains aspects de votre site (méthodes de recherche, profils du visiteur, etc.).
 
-## Dashboards and reportlets {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
+## Tableaux de bord et mini-rapports {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
 
 Un tableau de bord est une série de rapports miniatures nommés *`reportlets`*. Il s’avère particulièrement utile s’il contient des mini-rapports connexes, qui fournissent des vues d’ensemble complètes de certains aspects de votre site (méthodes de recherche, profils du visiteur, etc.).
 
@@ -36,7 +36,7 @@ Remarque : Certains rapports fréquemment consultés ne peuvent pas être inclu
 
 >[!NOTE]
 >
->The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports &amp; Analytics. Toutefois, certains ou tous les mini-rapports afférents peuvent encore s’afficher, dans certains cas.
+>The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. Toutefois, certains ou tous les mini-rapports afférents peuvent encore s’afficher, dans certains cas.
 
 * Si, par exemple, vous avez uniquement trois rapports fréquemment consultés, Reports &amp; Analytics récupère deux rapports du tableau de bord Aperçu du site pour remplir le tableau de bord **[!UICONTROL Mes rapports recommandés].**
 * Par ailleurs, les nouvelles suites de rapports présentent initialement uniquement les mini-rapports Aperçu du site, jusqu’à ce qu’ils soient remplacés par vos rapports fréquemment consultés. Néanmoins, le tableau de bord sera intitulé **[!UICONTROL Mes rapports recommandés]**.
@@ -53,7 +53,7 @@ Ce tableau de bord présente un aperçu des mesures clés liées aux opérations
 
 * Pages de sortie
 * Pages les plus populaires
-* Sections sites les plus populaires
+* Sections du site les plus populaires
 * IPC/Mini-rapport de jauge
 * Mini-rapport texte
 * Mini-rapport récapitulatif pour la société
@@ -76,7 +76,7 @@ Avant d’ajouter un rapport (comme mini-rapport) à un tableau de bord, vous de
 
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Manage Dashboards]**.
 1. Click **[!UICONTROL Add Dashboard]**.
-1. Nommez le tableau de bord.
+1.  Nommez le tableau de bord.
 1. Click **[!UICONTROL 3 x 2]** or **[!UICONTROL 2 x 2]** to specify how many reportlets you want on the dashboard page.
 1. Configurez la présentation de la page du tableau de bord :
 
@@ -86,10 +86,10 @@ Avant d’ajouter un rapport (comme mini-rapport) à un tableau de bord, vous de
 
 1. Ajoutez le contenu disponible au tableau de bord en faisant glisser les éléments sur le canevas du mini-rapport.
 
-   See [Creating a Reportlet](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) and [Editing Dashboard Settings](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   Voir [Création d'un petit rapport](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) et [Modification des paramètres](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)du tableau de bord.
 1. Cliquez sur **[!UICONTROL Enregistrer.]**
 
-   Quand vous enregistrez un tableau de bord, il s’affiche dans le menu **[!UICONTROL Tableau de bord].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (See [Managing Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   Quand vous enregistrez un tableau de bord, il s’affiche dans le menu **[!UICONTROL Tableau de bord].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Voir [Gestion des tableaux de bord](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
 
 1. (Facultatif) Pour définir le tableau de bord comme page d’entrée, cliquez sur **Autres options** &gt; **[!UICONTROL Définir comme page d’entrée]**.
 
@@ -136,7 +136,7 @@ t_dashboard_content.xml
 
    >[!NOTE]
    >
-   >La limite actuelle du nombre de pages d'un tableau de bord est 30.
+   >La limite actuelle du nombre de pages dans un tableau de bord est de 30.
 
    **Petits rapports personnalisés**
 
@@ -214,7 +214,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Paramètres de la société]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Paramètres **** de l’entreprise.
 1. Sur la page [!UICONTROL Paramètres de la société]**, cliquez sur[!UICONTROL Co-marquer la suite Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. Sélectionnez l’image à télécharger, puis cliquez sur **[!UICONTROL Enregistrer.]**
@@ -233,5 +233,5 @@ segments_dashboards.xml
 
 Les segments peuvent être appliqués à deux niveaux : à l’ensemble d’un tableau de bord ou à un petit rapport spécifique.
 
-* **Niveau de petit rapport**: Cliquez **[!UICONTROL sur Mise en page]**, puis sur la suite de rapports du petit rapport que vous souhaitez segmenter. Une fenêtre modale s’affiche ; elle vous permet d’ajouter ou de modifier le ou les segments que le petit rapport utilise.
+* **Niveau** du petit rapport : Cliquez sur **[!UICONTROL Disposition]**, puis sur la suite de rapports du petit rapport que vous souhaitez segmenter. Une fenêtre modale s’affiche ; elle vous permet d’ajouter ou de modifier le ou les segments que le petit rapport utilise.
 * **Au niveau d’un tableau de bord** : cliquez sur l’icône Segment dans le menu de navigation de gauche, sélectionnez le ou les segments que vous souhaitez utiliser, puis cliquez sur Appliquer. Les segments sélectionnés remplacent tout segment appliqué au niveau d’un petit rapport.
