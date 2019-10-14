@@ -7,9 +7,9 @@ solution: Analytics
 subtopic: Variables
 title: Variables de page
 topic: Développeur et mise en œuvre
-uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
+uuid: 2578edd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -94,7 +94,7 @@ Vous pouvez lire ces valeurs et les copier dans props/eVars, mais vous ne pouvez
 
 ## campaign {#concept_C7BF7B8A69D048A6AB482052A98A91F8}
 
-La variable identifie les campagnes marketing utilisées pour amener les visiteurs sur votre site. The value of  is usually taken from a query string parameter.
+La variable identifie les campagnes marketing utilisées pour amener les visiteurs sur votre site. La valeur de est généralement extraite d’un paramètre de chaîne de requête.
 
 <!-- 
 
@@ -129,9 +129,9 @@ There are two main ways to populate the *`campaign`* variable:
 
 * Le module externe [!UICONTROL getQueryParam], utilisé dans le fichier JavaScript, récupère un paramètre de chaîne de requête de l’URL. Pour plus d’informations sur le module externe [!UICONTROL getQueryParam], reportez-vous à la section [Modules externes de mise en œuvre](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-* Assign a value to the  variable in the HTML on the Web page.*`campaign`*
+* Attribuez une valeur à la *`campaign`* variable dans le code HTML de la page Web.
 
-With either method of populating the  variable, the Back button traffic may inflate the actual number of click-throughs from a campaign element.*`campaign`*
+Quelle que soit la méthode utilisée pour renseigner la *`campaign`* variable, le trafic du bouton Retour peut gonfler le nombre réel de clics publicitaires à partir d’un élément de campagne.
 
 Par exemple, un visiteur parvient sur votre site en cliquant sur un mot-clé de recherche payante. Lorsqu’il arrive sur la page d’entrée, l’URL contient un paramètre de chaîne de requête qui identifie le code de suivi du mot-clé. Il clique ensuite sur un lien pointant vers une autre page, puis il clique immédiatement sur le bouton Précédent pour revenir sur la page d’entrée. Lors de sa deuxième visite sur la page d’entrée, l’URL contenant le paramètre de chaîne de requête identifie à nouveau le code de suivi. Un deuxième clic publicitaire est alors enregistré, ce qui a pour effet de gonfler artificiellement le nombre des clics.
 
@@ -248,7 +248,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Cette variable ne doit être lue que et jamais définie.
 
 Vous pouvez lire ces valeurs et les copier dans `props/eVars`, mais vous ne pouvez, en aucun cas, les modifier. Cette variable est apparue avec la version H.11 du fichier JavaScript.
 
@@ -270,7 +270,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Cette variable ne doit être lue que et jamais définie.
 
 Vous pouvez lire ces valeurs et les copier dans `props/eVars`, mais vous ne pouvez, en aucun cas, les modifier. Cette variable est apparue avec la version H.11 du fichier JavaScript.
 
@@ -312,7 +312,7 @@ Lorsqu’une variable eVar est définie sur une valeur pour un visiteur, la vale
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
-| 255 octets | V1-v75 ( or v100 or v250)[](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28) | Conversion personnalisée | "" |
+| 255 octets | V1-v75 ( [ou v100 ou v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | Conversion personnalisée | "" |
 
 **Expiration**{#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -359,7 +359,7 @@ s.eVar23="internal spring promo 4"
 
 **Paramètres de configuration** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
 
-eVars can be configured in [!UICONTROL Analytics &gt; Admin &gt; Report Suites &gt; Edit Settings &gt; Conversion &gt; Conversion Variables]. Toutes peuvent être configurées avec un [!UICONTROL Nom], un [!UICONTROL Type], une [!UICONTROL Affectation], un paramètre [!UICONTROL Expire après ]ou [!UICONTROL Réintialiser]. Chaque paramètre de configuration est décrit séparément
+Les eVars peuvent être configurées dans [!UICONTROL Analytics &gt; Admin &gt; Report Suites &gt; Modifier les paramètres &gt; Conversion &gt; Variables]de conversion. Toutes peuvent être configurées avec un [!UICONTROL Nom], un [!UICONTROL Type], une [!UICONTROL Affectation], un paramètre [!UICONTROL Expire après ]ou [!UICONTROL Réintialiser]. Chaque paramètre de configuration est décrit séparément
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -727,7 +727,7 @@ The *`linkType`* variable is not normally needed because the second parameter in
 
 Les liens personnalisés envoient des données à Analytics. The *`linkType`* variable (or the second parameter in the *`tl()`* function) is used to identify the report in which the link name or URL appears ( [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report).
 
-Pour les liens de sortie et de téléchargement, la *`linkType`* variable est automatiquement renseignée selon que le lien sur lequel l’utilisateur a cliqué est un lien de sortie ou de téléchargement. A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. By setting  to 'o,' 'e,' or 'd,' the  or link URL is sent to the Custom Links, Exit Links, or File Downloads report respectively.*`linkType`**`linkName`*
+Pour les liens de sortie et de téléchargement, la *`linkType`* variable est automatiquement renseignée selon que le lien sur lequel l’utilisateur a cliqué est un lien de sortie ou de téléchargement. A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. En définissant *`linkType`* sur "o", "e" ou "d", l’URL *`linkName`* ou du lien est envoyée respectivement au rapport Liens personnalisés, Liens [!UICONTROL de]sortie ou Téléchargements de [!UICONTROL fichiers.]
 
 **Syntaxe et valeurs possibles** {#section_18DB3A8083FB4F75B970055ED336DA4E}
 
@@ -903,7 +903,7 @@ Ce résultat présente trois éléments avec, pour chacun d’eux, des recettes 
 <table id="table_09E1879B44624A858555449E2DC74E69"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Page </th> 
+   <th colname="col1" class="entry"> Activity Map </th> 
    <th colname="col2" class="entry"> s.list1 </th> 
    <th colname="col3" class="entry"> s.events/s.products </th> 
   </tr> 
@@ -956,7 +956,7 @@ s.maxDelay="750";
 
 >[!NOTE]
 >
->Adobe does not have control over DFA's response time. Si vous rencontrez des problèmes même après avoir augmenté le délai de la variable, contactez l’administrateur de compte DFA de votre société.
+>Adobe ne contrôle pas le temps de réponse de DFA. Si vous rencontrez des problèmes même après avoir augmenté le délai de la variable, contactez l’administrateur de compte DFA de votre société.
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
@@ -989,7 +989,7 @@ mediaLength.xml
 
 **Syntaxe et valeurs possibles** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** Méthode autoTrack : **
+**Méthode autoTrack :**
 
 Si vous utilisez [!UICONTROL s.Media.autoTrack], la variable [!UICONTROL mediaLength] ne doit pas être implémentée explicitement. Elle est déterminée automatiquement par le code AppMeasurement pour JavaScript.
 
@@ -1699,7 +1699,7 @@ Dans les rapports sur les événements monétaires, le total correspond au total
    <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping|evar2=3 Stars" </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
+   <td colname="col1"> <code> s.events=”event1,event2” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping, ;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping" </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> s.events=”event1,event2,event3” </code> <p> <code> s.products="Category;ABC123;1;10;event1=1.99|event2=25;evar1=2 Day Shipping,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
@@ -1850,7 +1850,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>Cette variable ne doit être lue que et jamais définie.
 
 Vous pouvez lire ces valeurs et les copier dans props/eVars, mais vous ne pouvez, en aucun cas, les modifier. Cette variable est apparue avec la version H.11 du fichier JavaScript.
 
@@ -1890,9 +1890,9 @@ Si votre site est très dynamique et que les liens de certaines pages changent t
 
 **Séparation de clics combinés** {#section_1AE91FB8A2D3423CBE064ACF02FEEA47}
 
-If the  variable on your site is used to show the section or template a visitor is viewing, rather than the specific page the visitor is viewing, you may want to use  to separate links that appear on multiple versions of that page template. *`pageName`**`s_objectID`* Supposons, par exemple, que votre site comporte une page de modèle pour l’ensemble des produits qui y sont proposés. Dans ce cas, il est probable qu’il existe, sur toutes les pages, un lien pointant vers votre page d’accueil et vers une zone de recherche. Si vous souhaitez visualiser le mode d’utilisation des liens en fonction de chaque produit (plutôt que sur la base du modèle), vous pouvez renseigner, dans la variable *`s_objectID`* une valeur spécifique telle que « prod 123789 home page » ou « prod 123789 search ». Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
+Si la *`pageName`* variable de votre site est utilisée pour afficher la section ou le modèle qu’un visiteur consulte, plutôt que la page spécifique qu’il consulte, vous pouvez utiliser *`s_objectID`* pour séparer les liens qui apparaissent sur plusieurs versions de ce modèle de page. Supposons, par exemple, que votre site comporte une page de modèle pour l’ensemble des produits qui y sont proposés. Dans ce cas, il est probable qu’il existe, sur toutes les pages, un lien pointant vers votre page d’accueil et vers une zone de recherche. Si vous souhaitez visualiser le mode d’utilisation des liens en fonction de chaque produit (plutôt que sur la base du modèle), vous pouvez renseigner, dans la variable *`s_objectID`* une valeur spécifique telle que « prod 123789 home page » ou « prod 123789 search ». Once completed, [!UICONTROL Activity Map] reports on those links at an individual product basis.
 
-**Improve Activity Map Accuracy**{#section_08B3406821294DCCABEEB99C90CF5C52}
+**Améliorer la précision[!UICONTROL de Carte]** d’activités {#section_08B3406821294DCCABEEB99C90CF5C52}
 
 Dans certains cas, les navigateurs autres que Firefox, Internet Explorer, Netscape, Opera et Safari ne figurent pas dans les rapports. Bien qu’il s’agisse d’un pourcentage minime, il fait une différence pour les clics et d’autres mesures. Use *`s_objectID`* within links to uniquely identify the addresses the browser reporting issue. Voici un exemple de mise à jour de vos liens afin d’utiliser *`s_objectID`*:
 
@@ -2056,7 +2056,7 @@ The *`timestamp`* variable must be in the format explained in the next section.
 Les horodatages doivent être au format UNIX (secondes depuis le 1er janvier 1970) ou ISO-8601, avec les restrictions suivantes pour le format ISO-8601 pris en charge :
 
 * La date et l’heure doivent être précisées, séparées par « T ».
-* La date doit être une date civile complète (année, mois et jour). . Les dates de semaine et les dates ordinales ne sont pas prises en charge.
+* La date doit être une date civile complète (année, mois et jour).  . Les dates de semaine et les dates ordinales ne sont pas prises en charge.
 * The date can be in standard or extended format ( `YYYY-MM-DD` or `YYYYMMDD`), but they must include the hour and minute. Les secondes sont facultatives ( `HH:MM`, `HH:MM:SS`, `HHMM`ou `HHMMSS`). Les minutes et secondes fractionnaires peuvent être précisées, mais la partie fractionnaire est ignorée.
 
 * An optional time zone can be specified in standard or extended format ( `±HH`, `±HH:MM`, `±HH`, `±HHMM`, or Z)
@@ -2187,7 +2187,7 @@ s.transactionID=s.purchaseID
 
 * Si *`transactionID`* l’enregistrement n’est pas activé, *`transactionID`* les valeurs sont ignorées et ne peuvent pas être utilisées avec les sources [!UICONTROL de données d’]intégration. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Dans le cas contraire, aucune donnée ne sera enregistrée pour *`transactionID`*.
 
-* If you are recording transactionIDs for multiple systems, such as purchases and leads, make sure the value in  is always unique. *`transactionID`* Pour ce faire, il vous suffit d’ajouter un préfixe à l’identifiant ; par exemple prospect_1234 et achat_1234. [!UICONTROL Les sources] de données d’intégration ne fonctionnent pas comme prévu (les données de la source [!UICONTROL de] données sont liées à des données incorrectes) si une valeur unique *`transactionID`* est vue deux fois.
+* Si vous enregistrez [!UICONTROL transactionIDs] pour plusieurs systèmes, tels que des achats et des pistes, assurez-vous que la valeur *`transactionID`* est toujours unique. Pour ce faire, il vous suffit d’ajouter un préfixe à l’identifiant ; par exemple prospect_1234 et achat_1234. [!UICONTROL Les sources] de données d’intégration ne fonctionnent pas comme prévu (les données de la source [!UICONTROL de] données sont liées à des données incorrectes) si une valeur unique *`transactionID`* est vue deux fois.
 
 * Par défaut, *`transactionID`* les valeurs sont mémorisées pendant 90 jours. Si votre processus d’interaction hors ligne dépasse 90 jours, demandez à un agent du service clientèle d’étendre cette limite.
 
@@ -2283,7 +2283,7 @@ Aucune
 
 ## zip {#concept_C1DF93083553410DA36EAB61FBFDF69A}
 
-The  and  variables are conversion variables.
+Les variables et sont des variables de conversion.
 
 <!-- 
 
