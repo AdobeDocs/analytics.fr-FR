@@ -1,58 +1,58 @@
 ---
 description: Affichent des informations sur l’ordre de consultation des pages de votre site web. Vous pouvez recueillir des informations sur le chemin qu’emprunte un visiteur avant et après la consultation d’une page de votre site.
 seo-description: Affichent des informations sur l’ordre de consultation des pages de votre site web. Vous pouvez recueillir des informations sur le chemin qu’emprunte un visiteur avant et après la consultation d’une page de votre site.
-seo-title: Rapports Chemin
+seo-title: Rapports sur les chemins
 solution: Analytics
-title: Rapports Chemin
+title: Rapports sur les chemins
 topic: Ad Hoc Analysis
-uuid: 5881 cb 1 c -6 d 66-49 fe-ac 84-70 b 82662 acd 2
+uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Rapports Chemin
+# Rapports sur les chemins
 
 Affichent des informations sur l’ordre de consultation des pages de votre site web. Vous pouvez recueillir des informations sur le chemin qu’emprunte un visiteur avant et après la consultation d’une page de votre site.
 
-## Paths reports {#concept_CB32E270FB9E4D929C91FDFE428CB224}
+## Rapports sur les chemins {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
 Affichent des informations sur l’ordre de consultation des pages de votre site web. Vous pouvez recueillir des informations sur le chemin qu’emprunte un visiteur avant et après la consultation d’une page de votre site.
 
 Les rapports de chemins comprennent des rapports détaillés standard et des rapports d’analyse avancés facultatif qui révèlent le parcours des pages consultées. Vous pouvez révéler les chemins complets, les plus longs et les plus populaires ; expliquer graphiquement le flux des pages, les abandons et les pertes ; présenter les nouveaux modèles et les modèles en évolution au fil du temps ; et analyser les chemins d’entrée et de sortie.
 
-** [!UICONTROL Next Page Flow] ** or ** [!UICONTROL Next Site Flow]**: Displays a two-level-deep branching graphic of a selected page (or section, department, and so on), that your visitors view after moving away from the selected page. Utilisez ce rapport pour analyser et identifier les étapes le plus souvent empruntées par vos visiteurs après l’affichage d’une page sélectionnée. Vous pouvez :
+**[!UICONTROL Flux page suivante]** ou **[!UICONTROL Flux au site suivant]** : affiche un graphique d’embranchement à deux niveaux d’une page sélectionnée (ou section, département, etc.) pour les visiteurs une fois qu’ils quittent la page sélectionnée. Utilisez ce rapport pour analyser et identifier les étapes le plus souvent empruntées par vos visiteurs après l’affichage d’une page sélectionnée. Vous pouvez :
 
 * Déterminer les étapes effectuées le plus souvent après la consultation d’une page sélectionnée.
 * Optimiser la conception de vos chemins de site pour acheminer le trafic vers la page cible souhaitée.
 * Identifier les pages que les visiteurs consultent au lieu de consulter vos pages cibles.
 
-** [!UICONTROL Next Page] ** (or next categories): Provides detailed site path analysis by showing you the pages on your site that visitors viewed after seeing a selected page. Par exemple, lorsque vous sélectionnez votre site entier et créez des rapports, le rapport indique les dix premières pages d’entrée avec les cinq pages suivantes les plus populaires, répertoriées en dessous de chaque page d’entrée. Ces données vous aident à identifier le contenu, les caractéristiques et autres données qui incitent le plus souvent les visiteurs à naviguer sur votre site..
+**[!UICONTROL Page suivante]** (ou catégories suivantes) : offre une analyse détaillée du chemin du site en vous indiquant les pages consultées par les visiteurs après avoir accédé à une page donnée. Par exemple, lorsque vous sélectionnez votre site entier et créez des rapports, le rapport indique les dix premières pages d’entrée avec les cinq pages suivantes les plus populaires, répertoriées en dessous de chaque page d’entrée. Ces données vous aident à identifier le contenu, les caractéristiques et autres données qui incitent le plus souvent les visiteurs à naviguer sur votre site..
 
-** [!UICONTROL Previous Page Flow] ** (or other previous categories flow): Displays two levels of the most popular pages that your visitors view before the selected page. Le rapport indique également quand les visiteurs accèdent au site.
+**[!UICONTROL Flux page précédente]** (ou autre flux de catégories précédentes) : affiche deux niveaux des pages les plus populaires affichées par vos visiteurs avant la page sélectionnée. Le rapport indique également quand les visiteurs accèdent au site.
 
-** [!UICONTROL Previous Page] ** (or other previous categories): Provides detailed site path analysis by showing you the pages on your site that visitors viewed before seeing a selected page on your site.
+**[!UICONTROL Page précédente]** (ou autres catégories précédentes) : fournit une analyse détaillée de chemins de site en présentant les pages de votre site consultées par les visiteurs avant la page sélectionnée sur votre site.
 
-** [!UICONTROL Fallout] **: Displays the visit attrition and conversion rates between each checkpoint you define. Les étapes sont organisées de haut en bas avec les chiffres et pourcentages bruts sur la gauche et les pourcentages de conversion et d’abandons sur la droite.
+**[!UICONTROL Abandons]** : affiche les taux d’attrition des visites et de conversion entre chaque point de contrôle que vous définissez. Les étapes sont organisées de haut en bas avec les chiffres et pourcentages bruts sur la gauche et les pourcentages de conversion et d’abandons sur la droite.
 
 Reportez-vous à la section [Rapport d’abandons](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) pour en savoir plus.
 
-** [!UICONTROL Path Length] **: Shows how deep visitors browse into your site (both by percentage and by total count). En d’autres termes, le rapport indique le nombre de pages que le visiteur moyen consulte avant de quitter votre site.
+**[!UICONTROL Longueur de chemin]** : indique la profondeur du parcours des visiteurs sur votre site (par pourcentage ainsi que par compte total). En d’autres termes, le rapport indique le nombre de pages que le visiteur moyen consulte avant de quitter votre site.
 
-** [!UICONTROL Page Analysis] **: Contains a subset of reports that let you analyze the following:
+**[!UICONTROL Analyse des pages]** : contient un sous-ensemble de rapports qui vous permet d’analyser les éléments suivants :
 
-* ** [!UICONTROL Page Summary / Site Category Summary] **: Tells you everything you need to know about the page report. Il collecte et organise des informations spécifiques à une page et les présente dans un seul rapport.
-* ** [!UICONTROL Reloads] **: Shows the number of times individual pages were reloaded by visitors.
-* ** [!UICONTROL Time Spent on Page / Site Category] **: Displays the length of time that visitors browse individual pages in your site. Le temps passé est fractionné en dix catégories : moins de 15 secondes, 15-30 secondes, 30-60 secondes, 1-3 minutes, 3-5 minutes, 5-10 minutes, 10-15 minutes, 15-20 minutes, 20-30 minutes et plus de 30 minutes.
-* ** [!UICONTROL Clicks to Page] **: Identifies the number of clicks visitors used to access each page in your site. La profondeur d’une page est mesurée par le décompte des pages consultées avant cette page.
+* **[!UICONTROL Résumé de la page / Résumé des catégories du site]** : vous indique tout ce que vous devez savoir sur le rapport sur les pages. Il collecte et organise des informations spécifiques à une page et les présente dans un seul rapport.
+* **[!UICONTROL Actualisations]** : indique le nombre d’actualisations de pages individuelles par les visiteurs.
+* **[!UICONTROL Durée de consultation de la page / Catégories du site]** : affiche le temps passé par les visiteurs sur des pages individuelles de votre site. Le temps passé est fractionné en dix catégories : moins de 15 secondes, 15-30 secondes, 30-60 secondes, 1-3 minutes, 3-5 minutes, 5-10 minutes, 10-15 minutes, 15-20 minutes, 20-30 minutes et plus de 30 minutes.
+* **[!UICONTROL Clics jusqu’à la page]** : indique le nombre de clics des visiteurs pour accéder à chaque page de votre site. La profondeur d’une page est mesurée par le décompte des pages consultées avant cette page.
 
-** [!UICONTROL Entries &amp; Exits] **: The [!UICONTROL Entry Page] report shows you, by percentage and by total visits, which pages on your site are the first ones seen by new visitors. Vous pouvez voir :
+**[!UICONTROL Entrées et sorties]** : le rapport [!UICONTROL Pages d’entrée] vous indique, en pourcentage ou en visites totales, les pages de votre site qui sont les premières à être vues par les nouveaux venus. Vous pouvez voir :
 
-* ** [!UICONTROL Entry Pages] ** (or sections): Displays, by percentage and by total visits, which pages on your site are the first pages seen by a new visitor. Utilisez ce rapport pour identifier les pages web qui sont les points d’entrée les plus fréquents, optimiser les points d’entrée principaux de votre site et diriger le trafic d’entrée vers vos messages clés.
-* ** [!UICONTROL Original Entry Pages] **: Shows the first page viewed for first-time visitors to your site. Les utilisateurs ne sont comptabilisés qu’une seule fois, à moins qu’ils ne suppriment leurs cookies ou que les cookies ne soient pas activés.
-* ** [!UICONTROL Single Page Visits] **: Shows pages that are most often both the entry and exit pages for visitor browsing sessions.
-* ** [!UICONTROL Exit Pages] **: Displays, by percentage and by total visits, the pages on your site that were the last pages visitors viewed before leaving your site.
+* **[!UICONTROL Pages d’entrée]** (ou sections) : affiche, en pourcentage ou en visites totales, les pages de votre site qui sont les premières à être vues par un nouveau venu. Utilisez ce rapport pour identifier les pages web qui sont les points d’entrée les plus fréquents, optimiser les points d’entrée principaux de votre site et diriger le trafic d’entrée vers vos messages clés.
+* **[!UICONTROL Pages d’entrée d’origine]** : indique la première page affichée par les nouveaux visiteurs de votre site. Les utilisateurs ne sont comptabilisés qu’une seule fois, à moins qu’ils ne suppriment leurs cookies ou que les cookies ne soient pas activés.
+* **[!UICONTROL Visites mono-page]** : indique les pages qui sont le plus souvent à la fois la page d’entrée et la page de sortie pour les sessions de navigation des visiteurs.
+* **[!UICONTROL Pages de sortie]** : indique, en pourcentage et en visites totales, les pages de votre site qui étaient les dernières à être consultées avant que les visiteurs ne quittent votre site.
 
 ## Rapport d’abandons {#concept_0ED452F3B1D04A19A59DD04D76D20347}
 
@@ -121,5 +121,5 @@ r_dsc_fallout.xml
 | Succès total % | Total cumulé du pourcentage de visiteurs qui arrivent à chaque point de contrôle. |
 | Point de contrôle % | Pourcentage de succès entre les points de contrôle. (Non cumulatif.) |
 | Inclure toutes les visites | Ajoute toutes les visites en tant que point de contrôle initial. |
-| Abandons | Permet d’afficher les pages consultées par le visiteur après l’abandon du chemin de points de contrôle spécifié. |
+| Abandon | Permet d’afficher les pages consultées par le visiteur après l’abandon du chemin de points de contrôle spécifié. |
 | Diminution | Permet d’afficher les pages consultées au cours de l’étape suivante du chemin de points de contrôle spécifié. |
