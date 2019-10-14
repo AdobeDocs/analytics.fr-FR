@@ -1,18 +1,18 @@
 ---
 description: L’entrepôt de données fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports qui présentent un niveau avancé de relations entre les données brutes, en fonction de vos questions. Les rapports d’entrepôt de données sont envoyés par courriel ou par FTP. Leur traitement peut prendre jusqu’à 72 heures. La durée de traitement dépend de la complexité de la requête et de la quantité des données demandées.
 seo-description: L’entrepôt de données fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports qui présentent un niveau avancé de relations entre les données brutes, en fonction de vos questions. Les rapports d’entrepôt de données sont envoyés par courriel ou par FTP. Leur traitement peut prendre jusqu’à 72 heures. La durée de traitement dépend de la complexité de la requête et de la quantité des données demandées.
-seo-title: Présentation de l'entrepôt de données
+seo-title: Data Warehouse - Aperçu
 solution: Analytics
-title: Présentation de l'entrepôt de données
+title: Data Warehouse - Aperçu
 topic: Data Warehouse
-uuid: 768557 dd -1644-4 ce 6-bfc 2-8 c 46 dd 6 e 1 cd 1
+uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Présentation de l'entrepôt de données
+# Data Warehouse - Aperçu
 
 Data Warehouse fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports qui présentent un niveau avancé de relations entre les données brutes, en fonction de vos questions. Les rapports d’entrepôt de données sont envoyés par courriel ou par FTP. Leur traitement peut prendre jusqu’à 72 heures. La durée de traitement dépend de la complexité de la requête et de la quantité de données demandée.
 
@@ -24,11 +24,11 @@ Data Warehouse peut traiter un nombre illimité de lignes dans une seule demand
 
 >[!NOTE]
 >
->L'entrepôt de données signale la première valeur rencontrée dans la période du rapport.
+>L’entrepôt de données signale la première valeur rencontrée dans la période du rapport.
 
 >[!IMPORTANT]
 >
->Lorsque vous segmentez des valeurs classées, Analysis Workspace et Data Warehouse traitent différemment les valeurs non spécifiées. Dans Workspace, « Non spécifié » fait référence à des valeurs qui ne sont pas classées, tandis que dans Data Warehouse, cela fait référence à des valeurs que vous avez classées comme « Non spécifiées ».
+>Lors de la segmentation sur des valeurs classées, Analysis Workspace et Data Warehouse traitent différemment les valeurs "non spécifiées". Dans Workspace, « Non spécifié » fait référence à des valeurs qui ne sont pas classées, tandis que dans Data Warehouse, cela fait référence à des valeurs que vous avez classées comme « Non spécifiées ».
 
 ## Description des demandes de Data Warehouse {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -57,7 +57,7 @@ Ce tableau décrit les champs et options de l’onglet [!UICONTROL Demande Data 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Segments disponibles</span> </td> 
-   <td colname="col2"> <p>Permet de sélectionner la population de visiteurs que vous souhaitez étudier et de générer des segments complexes. Vous pouvez charger des segments préconfigurés, créer des segments et stocker les composants de segments dans une bibliothèque afin de les utiliser pour générer des segments supplémentaires. </p> <p>Vous pouvez désormais empiler les segments. Lors de la sélection de plusieurs segments, la zone d’aperçu, le Gestionnaire de requêtes et la fenêtre contextuelle Détail de la demande affichent une liste des noms séparés par des virgules (Segment1, Segment2, par exemple). </p> <p>Pour plus d'informations, consultez le [Guide de segmentation] (/help/components/c-segmentation/seg-home. md). </p> <p>Remarque : Vous ne pouvez pas inclure un filtre de segment et une ventilation sur un même segment dans un même rapport Data Warehouse. Sinon, une erreur se produira. </p> </td> 
+   <td colname="col2"> <p>Permet de sélectionner la population de visiteurs que vous souhaitez étudier et de générer des segments complexes. Vous pouvez charger des segments préconfigurés, créer des segments et stocker les composants de segments dans une bibliothèque afin de les utiliser pour générer des segments supplémentaires. </p> <p>Vous pouvez désormais empiler les segments. Lors de la sélection de plusieurs segments, la zone d’aperçu, le Gestionnaire de requêtes et la fenêtre contextuelle Détail de la demande affichent une liste des noms séparés par des virgules (Segment1, Segment2, par exemple). </p> <p>See the <a href="/help/components/c-segmentation/seg-home.md"> Segmentation Guide</a> for more information. </p> <p>Remarque : Vous ne pouvez pas inclure un filtre de segment et une ventilation sur un même segment dans un même rapport Data Warehouse. Sinon, une erreur se produira. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ventilations</span> </td> 
@@ -65,7 +65,7 @@ Ce tableau décrit les champs et options de l’onglet [!UICONTROL Demande Data 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Mesures</span> </td> 
-   <td colname="col2">Vous permet d'ajouter des mesures sur lesquelles vous souhaitez créer des rapports. </td> 
+   <td colname="col2">Vous permet d’ajouter des mesures sur lesquelles vous souhaitez créer des rapports. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Tri des mesures</span> </td> 
