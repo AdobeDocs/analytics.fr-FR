@@ -5,7 +5,7 @@ seo-title: Migration des utilisateurs d’Analytics vers l’Admin Console
 title: Migration des utilisateurs d’Analytics vers l’Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -338,11 +338,11 @@ To email all users, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ad
 
 **Objet :** Très bientôt - Nouveau mode de connexion à Adobe Analytics et Adobe Experience Cloud.
 
-** Corps :** Bonjour aux utilisateurs d’Adobe Analytics !
+**Corps :** Chers utilisateurs Adobe Analytics,
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). Avec cette migration, votre compte Adobe Analytics sera mis à niveau pour permettre l’accès à Analytics via l’environnement Adobe Experience Cloud. Bien que la méthode pour accéder à Analytics change, toutes vos autorisations existantes pour les suites de rapports et les outils seront quant à elles conservées.
 
-** Etapes suivantes :** Nous allons commencer à migrer les utilisateurs à partir de <INSERT DATE>. Surveillez votre messagerie : un message de bienvenue comportant vos nouveaux identifiants de connexion vous sera adressé à l’ID de message électronique répertorié dans votre compte Analytics. Si vous n’avez pas défini d’[Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) lié à votre adresse électronique, vous serez invité à configurer un compte.
+**** Étapes suivantes : Nous allons commencer à migrer les utilisateurs à partir de <INSERT DATE>. Surveillez votre messagerie : un message de bienvenue comportant vos nouveaux identifiants de connexion vous sera adressé à l’ID de message électronique répertorié dans votre compte Analytics. Si vous n’avez pas défini d’[Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html) lié à votre adresse électronique, vous serez invité à configurer un compte.
 
 **Ressources utiles :**
 
