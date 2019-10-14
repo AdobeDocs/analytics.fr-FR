@@ -1,24 +1,24 @@
 ---
 description: Ajoutez ou gérez toutes les alertes d’utilisation du serveur. Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
 seo-description: Ajoutez ou gérez toutes les alertes d’utilisation du serveur. Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
-seo-title: Alertes d'utilisation des appels au serveur
-title: Alertes d'utilisation des appels au serveur
-uuid: 701 fd 542-5 b 24-42 df -97 a 0-08 e 10929 fa 48
+seo-title: Alertes d’utilisation des appels serveur
+title: Alertes d’utilisation des appels serveur
+uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Alertes d'utilisation des appels au serveur
+# Alertes d’utilisation des appels serveur
 
 Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
 
 ## Aperçu
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Ces alertes déclenchent une notification adressée à tous les administrateurs de la société de connexion si l'un des critères suivants est satisfait :
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Cette alerte déclenche une notification adressée à tous les administrateurs de la société de connexion si l’un des critères suivants est satisfait :
 
 * "toute" utilisation de l’appel au serveur qui "est supérieure ou égale" à 100 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, OU
 * "toute" utilisation de l’appel au serveur qui "est supérieure ou égale" à 90 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, OU
@@ -43,18 +43,16 @@ Pour créer des alertes supplémentaires :
 
    ![](assets/sc_alert.png)
 
-   * **Titre**: Attribuez un nom explicite. Vous ne pouvez pas enregistrer une alerte sans nom.
-   * **Granularité** temporelle : Fait référence à la fréquence de vérification de l'alerte. *Pour l’instant, nous ne prenons en charge que la granularité hebdomadaire.* Cela signifie que l’alerte sera vérifiée de façon hebdomadaire et analysera les données de la période d’utilisation actuelle.
-   * **Destinataires**: Indiquez n'importe quelle personne de l'organisation qui doit recevoir un courriel lorsque l'alerte déclenche le seuil spécifié.
-   * **Date d'expiration**: Par défaut, la date d'expiration est d'une année à compter de la date de création d'alerte.
+   * **Titre**: Indiquez un nom descriptif. Vous ne pouvez pas enregistrer une alerte sans nom.
+   * **Granularité** du temps : Fait référence à la fréquence de vérification de l’alerte. *Pour l’instant, nous ne prenons en charge que la granularité hebdomadaire.* Cela signifie que l’alerte sera vérifiée de façon hebdomadaire et analysera les données de la période d’utilisation actuelle.
+   * **Destinataires**: Indiquez les personnes de l’organisation qui doivent recevoir un courrier électronique lorsque l’alerte déclenche le seuil spécifié.
+   * **Date** d'expiration : Par défaut, la date d’expiration est d’un an à compter de la date de création de l’alerte.
    * **Envoyer une alerte lorsque**:
 
-      * L'une de ces mesures Déclencheur
-Ajoute le type d'appel du serveur sous forme de mesure et spécifiez le seuil d'alerte en sélectionnant le modificateur et le seuil :
+      * Déclencheur de l’une de ces mesures Ajoutez le type d’appel au serveur en tant que mesure et spécifiez le seuil d’alerte en sélectionnant le modificateur et le seuil :
          * est supérieur ou égal
          * est inférieur ou égal
-      * Avec
-spécification du seuil et de la condition (est supérieur ou égal ou est inférieur ou égal à) pour la période d'utilisation.
+      * AvecSpécifiez le seuil et la condition (est supérieur ou égal à ou inférieur ou égal à) pour la période d'utilisation passée.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
