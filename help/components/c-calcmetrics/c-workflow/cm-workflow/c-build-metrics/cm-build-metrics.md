@@ -1,16 +1,16 @@
 ---
 description: Le créateur de mesures calculées fournit un canevas où faire glisser et déposer des dimensions, des mesures, des segments et des fonctions permettant de créer des mesures personnalisées en fonction de la logique de hiérarchie des conteneurs, des règles et des opérateurs. Grâce à cet outil de développement intégré, vous pouvez créer et enregistrer des mesures calculées simples ou des mesures calculées avancées complexes.
 seo-description: Le créateur de mesures calculées fournit un canevas où faire glisser et déposer des dimensions, des mesures, des segments et des fonctions permettant de créer des mesures personnalisées en fonction de la logique de hiérarchie des conteneurs, des règles et des opérateurs. Grâce à cet outil de développement intégré, vous pouvez créer et enregistrer des mesures calculées simples ou des mesures calculées avancées complexes.
-seo-title: Créer des mesures
-title: Créer des mesures
-uuid: 3 f 51 e 911-cafa -4 af 4-90 dd -5 a 4 cb 42 bf 0 a 7
+seo-title: Création de mesures
+title: Création de mesures
+uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Créer des mesures
+# Création de mesures
 
 Le créateur de mesures calculées fournit un canevas où faire glisser et déposer des dimensions, des mesures, des segments et des fonctions permettant de créer des mesures personnalisées en fonction de la logique de hiérarchie des conteneurs, des règles et des opérateurs. Grâce à cet outil de développement intégré, vous pouvez créer et enregistrer des mesures calculées simples ou des mesures calculées avancées complexes.
 
@@ -53,7 +53,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Tendance à la hausse affichée... </span> </td> 
-   <td colname="col3"> <p>Ce paramètre de polarité de mesure indique si [! DNL Analytics] doit considérer une tendance à la hausse dans la mesure comme positive (verte) ou mauvaise (rouge). En conséquence, le graphique du rapport s’affiche en vert ou rouge lorsque la tendance est à la hausse. </p> </td> 
+   <td colname="col3"> <p>Ce paramètre de polarité des mesures indique si Analytics doit considérer une tendance à la hausse dans la mesure comme un événement positif (vert) ou négatif (rouge). En conséquence, le graphique du rapport s’affiche en vert ou rouge lorsque la tendance est à la hausse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Balises </span> </td> 
@@ -87,7 +87,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Compatibilité des produits </span> </td> 
-   <td colname="col3"> <p>La compatibilité des produits montre si la mesure est compatible avec les <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">données actives</a>, avec les données entièrement traitées, ou uniquement avec les rapports Canaux marketing (allocation de première touche). <p>Remarque : Les données actives ne prennent pas en charge toutes les mesures. Les mesures qui comportent des segments ou des fonctions ne sont pas compatibles avec les données actives. <a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local">Plus...</a> </p> </p> </td> 
+   <td colname="col3"> <p>La compatibilité des produits montre si la mesure est compatible avec les <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">données actives</a>, avec les données entièrement traitées, ou uniquement avec les rapports Canaux marketing (allocation de première touche). <p>Remarque : Les données actives ne prennent pas en charge toutes les mesures. Les mesures qui comportent des segments ou des fonctions ne sont pas compatibles avec les données actives. <a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> Plus... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Ajouter </span> </td> 
@@ -130,11 +130,11 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste des segments </p> </td> 
-   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Si vous êtes l’administrateur, cette liste affiche tous les segments créés dans votre société utilisée pour la connexion. Si vous êtes un utilisateur non administrateur, cette liste affiche les segments que vous possédez et ceux que vous partagez. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external">Plus...</a> </p> </td> 
+   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Si vous êtes l’administrateur, cette liste affiche tous les segments créés dans votre société utilisée pour la connexion. Si vous êtes un utilisateur non administrateur, cette liste affiche les segments que vous possédez et ceux que vous partagez. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_rights.html" format="https" scope="external"> Plus... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste des fonctions </p> </td> 
-   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Les fonctions sont divisées en deux listes : <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> De base </a> (utilisé le plus souvent) et <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Avancé </a>. </p> </td> 
+   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Les fonctions sont divisées en deux listes : <a href="../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2" format="dita" scope="local"> Basic </a> (used most often) and <a href="../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174" format="dita" scope="local"> Advanced </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Sélecteur de suite de rapports </p> </td> 
