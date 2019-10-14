@@ -3,9 +3,9 @@ description: valeur nulle
 seo-description: valeur nulle
 seo-title: Questions fréquentes
 title: Questions fréquentes
-uuid: 05724 f 56-cf 98-4 ad 8-ad 0 d -83 a 5 a 4 b 1944 a
+uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -99,7 +99,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Les mesures Advertising Analytics peuvent-elles être reportées dans un rapport de <b>canaux marketing</b> ? </p> </td> 
-   <td colname="col2"> <p>R. : Non, elles ne sont pas incluses dans le rapport de canaux marketing. </p> </td> 
+   <td colname="col2"> <p>A : Non, ils ne sont pas inclus dans le rapport Canaux marketing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : <b>Quand</b> les données de recherche sont-elles transférées dans Analytics ? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Est-ce que nous capturons uniquement google.com ou également les <b>versions par pays</b> (comme google.co.uk, google.it, google.fr ou google.de) ? </p> </td> 
-   <td colname="col2"> <p>A : La classification de plateforme publicitaire capture ces valeurs : « Google Adwords » et « Publicités Bing ». </p> <p>Il est recommandé d’inclure le code de pays dans le nom des campagnes. Vous pouvez ensuite filtrer ou segmenter (par exemple, si toutes les campagnes commencent par codepays_, la création d’un segment où Campagnes (AMO ID) commence par « FR_ » vous fournirait uniquement des données pour la France). </p> </td> 
+   <td colname="col2"> <p>A : La classification de la plateforme publicitaire capture les valeurs suivantes : "Google Adwords" et "Bing Publicités". </p> <p>Il est recommandé d’inclure le code de pays dans le nom des campagnes. Vous pouvez ensuite filtrer ou segmenter (par exemple, si toutes les campagnes commencent par codepays_, la création d’un segment où Campagnes (AMO ID) commence par « FR_ » vous fournirait uniquement des données pour la France). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : La mesure « Coût AMO » correspond au coût payé pour chaque mot-clé/annonce publicitaire comme rapporté par le moteur de recherche. S’agit-il du coût net ou du coût brut ? </p> </td> 
