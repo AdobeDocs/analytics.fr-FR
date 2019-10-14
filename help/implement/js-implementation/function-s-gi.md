@@ -6,9 +6,9 @@ seo-title: Fonction s_gi()
 solution: Analytics
 title: Fonction s_gi()
 topic: Développeur et mise en œuvre
-uuid: a 77 de 90 e-c 60 e -4946-90 cf-deaf 8 aa 3 d 755
+uuid: a77de90e-c60e-4946-90cf-sourd8aa3d755
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -29,10 +29,9 @@ var s=s_gi('rsid1,rsid2')
 
 Le tableau ci-dessous indique les objets renvoyés par les appels suivants :
 
-| ** Appel suivant vers la fonction s_gi** | ** Description de l’objet renvoyé** |
+| **Appel suivant vers la fonction s_gi** | **Description de l’objet renvoyé** |
 |---|---|
 | `s=s_gi('rsid1,rsid2')` | Même objet référencé précédemment. |
 | `s=s_gi('rsid1')` | Copie de l’objet créé précédemment, mais pas l’original. |
 | `s=s_gi('rsid1,rsid3')` | Copie de l’objet créé précédemment, mais pas l’original. |
 | `s=s_gi('rsid3')` | Nouvel objet vide, sans variables de configuration définies (par exemple, linkTrackVars est vide, au même titre que linkDownloadFileTypes). |
-
