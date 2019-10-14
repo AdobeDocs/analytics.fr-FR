@@ -6,9 +6,9 @@ seo-title: getPageVisibility
 solution: Analytics
 title: getPageVisibility
 topic: Développeur et mise en œuvre
-uuid: 3891 e 2 aa-d 5 c 1-4 a 2 b -8522-eb 2 bae 39 ea 2 e
+uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,9 +19,9 @@ Consigne la durée en secondes pendant laquelle votre page a été l’onglet ac
 
 >[!NOTE]
 >
->Il s'agit d'une version bêta du module externe et des mises à jour supplémentaires peuvent être publiées.
+>Il s'agit d'une version bêta du module externe, et d'autres mises à jour pourraient être publiées.
 
-This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Ce module externe requiert [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
 Ce module externe consigne également la durée totale en secondes pendant laquelle la page s’est trouvée dans le navigateur (durée d’affichage active et passive). Vous devez utiliser le module externe getPreviousValue pour effectuer le suivi du nom de page précédent associé aux événements de visibilité de la page. Le suivi de ces valeurs permet de mieux comprendre l’engagement des visiteurs et d’effectuer un suivi plus précis sur le comportement des visiteurs sur vos sites.
 
@@ -29,7 +29,7 @@ Utilisez le module externe getPreviousValue pour effectuer le suivi du nom de pa
 
 >[!NOTE]
 >
->Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collection des données sur votre site. Aussi, cette opération doit-elle être réalisée par un développeur maîtrisant l’utilisation et l’implémentation d’Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+>Les instructions suivantes vous demandent de modifier le code de collecte de données de votre site. Cela peut avoir une incidence sur la collection des données sur votre site. Aussi, cette opération doit-elle être réalisée par un développeur maîtrisant l’utilisation et l’implémentation d’Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 ## Modules externes de prise en charge requis {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -108,11 +108,11 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 * Un très petit pourcentage d’utilisateurs ne transmettra pas le pourcentage des données affichées sur la page en raison des limitations du navigateur et la logique est contenue dans le module externe afin de s’assurer que les données ne sont pas biaisées. Toutefois, ce module externe a été testé avec succès dans IE, Firefox, Chrome et Safari.
 * En raison de la façon dont le module externe mesure le total des secondes et associe cette valeur au nom de page précédente, il y aura des différences entre les mesures de durée par défaut passée sur la page et les mesures de total des secondes.
-* [!UICONTROL Il est possible de créer des mesures] calculées afin de mieux récapituler et comprendre le comportement des visiteurs associé à ces mesures :
+* [!UICONTROL Il est possible de créer des mesures] calculées afin de mieux résumer et comprendre le comportement des visiteurs associé à ces mesures :
 
-   * ** Rapport de visibilité de la page** (Total des secondes de visibilité de la page/Total des secondes de la page)
-   * ** Total des secondes masquées** (Total des secondes de la page - Total des secondes de visibilité de la page)
-   * ** Moyenne des secondes de visibilité de la page** (Total des secondes de visibilité de la page/Total des instances de visibilité de la page)
+   * **Quotient de visibilité de la page**(Total des secondes de visibilité de la page / Total des secondes de la page)
+   * **Total des secondes** masquées (Total des secondes de la page - Total des secondes de visibilité de la page)
+   * **Moyenne des secondes de visibilité de la page**(Total des secondes de visibilité de la page / Total des instances de visibilité de la page)
    * **Moyenne des secondes masquées de la page**((Total des secondes de la page - Total des secondes de visibilité de la page) / Total des instances de visibilité de la page)
 
 * En raison de la façon dont le module externe arrondit les secondes, il se peut qu’il y ait 1 ou 2 secondes de différence entre le total des secondes de visibilité de la page et le total des secondes, le total des secondes étant plus élevé. (A résoudre dans une prochaine mise à jour)
@@ -120,15 +120,15 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 ## Questions fréquentes {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-** Ce plug-in effectue-t-il d'autres appels au serveur ? **
+**Ce module externe lancera-t-il des appels de serveur supplémentaires ?**
 
 Le module externe consignera uniquement les valeurs de visibilité de la page lors des prochains appels de serveur de page vue. Aucun appel de serveur supplémentaire ne sera utilisé conjointement à ce module externe.
 
-** Si je ne souhaite pas capturer le total des secondes de la page ou le total des instances de visibilité de la page, puis-je laisser ces éléments hors de la liste d'événements ? **
+**Si je ne souhaite pas capturer le total des secondes de la page ou le total des instances de visibilité de la page, puis-je laisser ces valeurs en dehors de la liste d’événements ?**
 
 Oui, le total des secondes de la page et le total des instances de visibilité sont des événements facultatifs et peuvent être laissés hors de la liste si nécessaire.
 
-** Les événements capturés seront-ils logiques si je les utilise dans des rapports autres que le nom de page précédente ? **
+**Les événements capturés seront-ils utiles si je les utilise dans des rapports autres que le nom de la page précédente ?**
 
 Puisque le module externe consigne les valeurs à la demande d’image suivante, seules les autres eVars qui ont été capturées dans un contexte de page précédente peuvent être appliquées, c.-à-d. l’URL de page précédente.
 
