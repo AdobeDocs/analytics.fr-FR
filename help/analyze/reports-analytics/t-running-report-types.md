@@ -7,7 +7,7 @@ title: Exécution de différents types de rapports
 topic: Rapports,Reports & Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -224,9 +224,9 @@ Configurez la détection des anomalies indépendamment pour chaque suite de rapp
 
 1. Accédez à **[!UICONTROL Analytics &gt; Rapports &gt; Mesures du site&gt; Détection des anomalies]** .
 1. Sélectionnez la suite de rapports pour laquelle vous souhaitez suivre quotidiennement la détection des anomalies. Pour afficher une liste des suites de rapports, cliquez sur le menu déroulant du sélecteur de suite de rapports.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
 
-   Vous pouvez sélectionner des mesures dans la liste (y compris des mesures calculées) de toutes les mesures ou dans une liste de mesures suivies. Vous pouvez également filtrer des termes spécifiques afin de préciser les résultats. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the **[!UICONTROL View Period]** for anomaly detection. (Considérez la période de formation en tant que « période d’apprentissage » pour l’algorithme). 
+   Vous pouvez sélectionner des mesures dans la liste (y compris des mesures calculées) de toutes les mesures ou dans une liste de mesures suivies. Vous pouvez également filtrer des termes spécifiques afin de préciser les résultats. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (Considérez la période de formation en tant que « période d’apprentissage » pour l’algorithme). 
 
    ![](assets/view_training_periods.png)
 
