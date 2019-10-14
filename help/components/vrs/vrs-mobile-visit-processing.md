@@ -1,18 +1,18 @@
 ---
-description: Les sessions contextuelles dans les suites de rapports virtuelles changent la manière dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
-seo-description: Les sessions contextuelles dans les suites de rapports virtuelles changent la manière dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
+description: Les sessions contextuelles dans les suites de rapports virtuelles modifient la manière dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
+seo-description: Les sessions contextuelles dans les suites de rapports virtuelles modifient la manière dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
 seo-title: Sessions contextuelles
 title: Sessions contextuelles
-uuid: d 354864 a -9163-4970-a 3 a 0-f 2 e 9729 bdbe 3
+uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # Sessions contextuelles
 
-Les sessions contextuelles dans les suites de rapports virtuelles changent la manière dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
+Les sessions contextuelles dans les suites de rapports virtuelles modifient la manière dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
 
 Vous pouvez définir une visite comme vous le souhaitez sans modifier les données sous-jacentes, afin de correspondre à la façon dont vos visiteurs interagissent avec vos applications mobiles.
 
@@ -29,7 +29,7 @@ Un accès en arrière-plan est un type d’accès envoyé à Analytics depuis le
 
 Les exemples suivants décrivent la logique utilisée pour déterminer quand une visite commence et se termine pour un visiteur lorsque le paramètre « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est ou n’est pas activé pour une suite de rapports virtuelle.
 
-** Si « Empêcher les accès en arrière-plan du démarrage d'une nouvelle visite » n'est pas activé : **
+**Si le paramètre « Empêcher les accès en arrière-plan de commencer une nouvelle visite » n’est pas activé :**
 
 Si cette fonctionnalité n’est pas activée pour une suite de rapports virtuelle, les accès en arrière-plan sont traités de la même manière que les autres accès, ce qui signifie qu’ils démarrent de nouvelles visites et agissent exactement de la même manière que les accès de premier plan. Par exemple, si un accès en arrière-plan se produit moins de 30 minutes (délai d’attente d’une session standard pour une suite de rapports) avant un jeu d’accès de premier plan, l’accès en arrière-plan fait partie de la session.
 
@@ -39,7 +39,7 @@ Si l’accès en arrière-plan se produit plus de 30 minutes avant les accès d
 
 ![](assets/nogood2.jpg)
 
-** Si « Empêcher les accès en arrière-plan du démarrage d'une nouvelle visite » est activé : **
+**Si le paramètre « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activé :**
 
 Les exemples suivants illustrent le comportement des accès en arrière-plan lorsque ce paramètre est activé.
 
