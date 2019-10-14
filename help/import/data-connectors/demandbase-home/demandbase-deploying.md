@@ -5,7 +5,7 @@ seo-title: Déploiement de l’intégration
 title: Déploiement de l’intégration
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -192,8 +192,7 @@ Utilisez l’outil de débogage DigitalPulse pour vérifier que les données de 
 
 ![](assets/debugger1.png)
 
-**La mbox Target inclut les paramètres de profil Demandbase : **
-
+****La mbox Target inclut les paramètres de profil Demandbase :
 Vous ne verrez cela que si Target est implémenté sur la page ET que cette intégration est configurée pour Adobe Target - voir Étape 4 de l’assistant d’intégration Adobe.
 
 ![](assets/debugger2.png)
@@ -206,7 +205,7 @@ Vous pouvez également accéder aux rapports Demandbase dans la structure de men
 
 >[!NOTE]
 >
-> Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
+>Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
 
 ![](assets/reporting1.png)
 
