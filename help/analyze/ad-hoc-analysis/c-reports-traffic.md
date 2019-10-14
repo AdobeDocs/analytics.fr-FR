@@ -7,7 +7,7 @@ title: Rapports sur les sources de trafic
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -130,7 +130,7 @@ Les options suivantes peuvent s’afficher lors de l’exécution de ce rapport�
 
 **Dans votre site** : ces éléments sont des URL balisées par les filtres URL internes. Ces éléments ne sont pas comptabilisés comme  instances de référent mais ils sont visibles lors de la génération de rapports sur d’autres mesures.
 
-** Aucun script Java** : Il n’y avait pas de code JavaScript, le type n’était donc pas identifiable (inconnu). Cela signifie que le client n’a fourni aucune information de référence sur un navigateur, lequel ne fait pas état de son aptitude à prendre en charge JavaScript. Ces instances ne sont pas comptabilisées comme « instances de référence », mais elles sont visibles lors de la génération de rapports sur d’autres mesures.
+**Pas de JavaScript** : le type n’était pas identifiable (connu) en l’absence de code JavaScript. Cela signifie que le client n’a fourni aucune information de référence sur un navigateur, lequel ne fait pas état de son aptitude à prendre en charge JavaScript. Ces instances ne sont pas comptabilisées comme « instances de référence », mais elles sont visibles lors de la génération de rapports sur d’autres mesures.
 
 **USENET (groupes de discussion)** : cela signifie que l’URL d’un référent commençait par `news://`. Dès lors, le lien de référence a été publié sur un groupe de discussion Usenet plutôt que sur une page Web.
 
