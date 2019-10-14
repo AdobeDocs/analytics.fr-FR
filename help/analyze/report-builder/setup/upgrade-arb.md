@@ -1,18 +1,18 @@
 ---
 description: Procédure de mise à niveau du Créateur de rapports et considérations à prendre en compte.
 seo-description: Procédure de mise à niveau du Créateur de rapports et considérations à prendre en compte.
-seo-title: Mise à niveau du Créateur de rapports
+seo-title: Mise à niveau de Report Builder
 solution: Analytics
-title: Mise à niveau du Créateur de rapports
+title: Mise à niveau de Report Builder
 topic: Créateur de rapports
-uuid: 19 cfae 11-0 b 40-498 b -89 ca -5 e 854 e 7 b 164 f
+uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Mise à niveau du Créateur de rapports
+# Mise à niveau de Report Builder
 
 Procédure de mise à niveau du Créateur de rapports et considérations à prendre en compte.
 
@@ -37,13 +37,13 @@ R : Non, tous vos paramètres, y compris les paramètres d’authentification, 
 
    ![](assets/upgrade.png)
 
-1. If a new version is available, click **[!UICONTROL Update...]**. Le bouton présentera la version de la mise à jour, par exemple « Mettre à jour vers la version 5.0.50 ».
+1. **[!UICONTROL Si une nouvelle version est disponible, cliquez sur]** Mettre à jour... . Le bouton présentera la version de la mise à jour, par exemple « Mettre à jour vers la version 5.0.50 ».
 
    >[!NOTE]
    >
-   >Si ce bouton est grisé, aucune nouvelle version du créateur de rapports n'est disponible.
+   >Si ce bouton est grisé, aucune nouvelle version du créateur de rapports n’est disponible.
 
-1. Optionally select the **[!UICONTROL Update when a new version is available]**checkbox. À l’avenir, le processus de mise à jour commencera automatiquement à chaque fois qu’une nouvelle version est disponible.
+1. Vous pouvez également cocher la case **[!UICONTROL Mettre à jour lorsqu’une nouvelle version est disponible].** À l’avenir, le processus de mise à jour commencera automatiquement à chaque fois qu’une nouvelle version est disponible.
 1. When the setup screen appears, click **[!UICONTROL Next &gt;]**.
 
    ![](assets/setup.png)
