@@ -6,8 +6,8 @@ solution: Analytics
 title: Événements du calendrier
 topic: Reports & Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -33,7 +33,7 @@ Pour les rapports de tendances au fil du temps, vous pouvez afficher les événe
 1. (Facultatif) Les événements de calendrier sont spécifiques à l’utilisateur, sauf s’ils sont partagés. Pour partager cet événement, sélectionnez **[!UICONTROL Partager]**.
 1. (Facultatif) Poussez l’événement de calendrier vers les utilisateurs. Les événements de calendrier marqués comme partagés sont maintenant dotés d’une option permettant de les transmettre (pousser) à d’autres utilisateurs. Ce faisant, les événements concernés s’afficheront sur les graphiques de tendances et d’heures supplémentaires des destinataires.
    1. Cliquez sur **[!UICONTROL Envoyer aux utilisateurs]**.
-   1. **Cliquez sur [!UICONTROL Cocher tout]** ou cochez un ou plusieurs noms d’utilisateur.
+   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. Cliquez sur **[!UICONTROL Enregistrer]**.
    Ainsi, les événements de calendrier sont beaucoup plus faciles à utiliser. Les analystes peuvent maintenant forcer un recouvrement sur les rapports des utilisateurs afin de donner plus de contexte.
 1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Événements de calendrier]**.
