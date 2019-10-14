@@ -1,21 +1,21 @@
 ---
 description: valeur nulle
-keywords: segmentation ; segments
+keywords: segmentation;segments
 seo-description: valeur nulle
 seo-title: Questions fréquentes
 solution: Analytics
 title: Questions fréquentes
 topic: Segments
-uuid: f 49 dc 829-1 d 53-4183-9 add -1 aeaa 5219 d 89
+uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # Questions fréquentes
 
-Répond fréquemment aux questions fréquentes sur les fonctionnalités de segmentation, l'accès, les autorisations, les bonnes pratiques et la gestion des segments hérités.
+Répond fréquemment aux questions sur les fonctionnalités de segmentation, l’accès, les autorisations, les bonnes pratiques et la gestion des segments hérités.
 
 ## Fonctionnalités {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -37,7 +37,7 @@ Répond fréquemment aux questions fréquentes sur les fonctionnalités de segme
 
 Voir l’article [Amélioration de la segmentation dans Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) sur le blog de Digital Marketing pour en savoir plus.
 
-## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## Accès aux outils de segmentation {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **Comment puis-je accéder au Créateur de segments ?**
 
@@ -63,9 +63,9 @@ Accédez au Gestionnaire de segments en procédant comme suit :
 
 **Vers quel emplacement le menu déroulant des segments existants a-t-il été déplacé ?**
 
-The segment drop-down in Reports &amp; Analytics has been replaced by a much more feature rich [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) interface that lets you to create "universal" segments usable across report suites and across Adobe Analytics solutions. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+La liste déroulante des segments dans les rapports et analyses a été remplacée par une interface du créateur [de](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) segments riche en fonctionnalités qui vous permet de créer des segments "universels" utilisables dans les suites de rapports et dans les solutions Adobe Analytics. Pour afficher la liste des segments existants, cliquez sur l’icône Segments ![](assets/segment_icon.png)
 
-dans la navigation de gauche et le rail de segments s'affiche.
+dans le volet de navigation de gauche et le rail de segments s’affiche.
 
 **Vers quel emplacement le menu déroulant des suites de rapports existantes a-t-il été déplacé ?**
 
@@ -79,7 +79,7 @@ Le menu déroulant des suites de rapports a été déplacé en regard du sélect
 
 Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
 
-Les administrateurs peuvent modifier n’importe quel segment et partager les segments avec des groupes et toute personne de l’entreprise. [Plus…](../../components/c-segmentation/seg-reference/seg-rights.md)
+Les administrateurs peuvent modifier n’importe quel segment et partager les segments avec des groupes et toute personne de l’entreprise. [Plus...](../../components/c-segmentation/seg-reference/seg-rights.md)
 
 **Puis-je consulter tous les segments de mon entreprise ?**
 
@@ -144,7 +144,7 @@ Vous êtes doté d’un signet qui référence le segment pour la suite de rappo
 
 **Qu’advient-il des segments d’entrepôt de données ?**
 
-Tous les segments d’entrepôt de données existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments d'entrepôt de données fonctionneront aussi dans d'autres composants tels que Analysis Workspace, Ad - Analyses ad hoc et Rapports et analyses.
+Tous les segments d’entrepôt de données existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments de l’entrepôt de données fonctionneront également dans d’autres composants tels que Analysis Workspace, les analyses ad hoc et les rapports et analyses.
 
 Vous pouvez créer ou modifier de nouveaux segments d’entrepôt de données depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du Créateur de segments détermine automatiquement si un segment est compatible avec l’entrepôt de données.
 
@@ -166,7 +166,7 @@ Ces segments seront migrés sous forme de modèles de segments dans le Créateur
 
 Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
 
-** Qu'advient-il des segments d'Experience Cloud (Suite) : **
+**Qu’advient-il des segments Experience Cloud (Suite) ?**
 
 * Non-acheteurs
 * Acheteurs
@@ -200,13 +200,13 @@ Les segments existants qui utilisent une logique qui a été modifiée comme ind
 
 Les conseils suivants vous aideront à migrer les dimensions courantes :
 
-* Ville géo/région/pays : recherchez et sélectionnez des villes, régions ou pays spécifiques au lieu d'utiliser une correspondance partielle.
-* Navigateurs : utilisez la dimension Types de navigateur pour obtenir tous les navigateurs dans un type, par exemple Google Chrome.
-* Systèmes d'exploitation : utilisez les dimensions du système d'exploitation pour obtenir tous les systèmes d'exploitation sous un type, par exemple Microsoft Windows.
+* Géo-ville/région/pays : recherchez et sélectionnez des villes, des régions ou des pays spécifiques au lieu d’utiliser une correspondance partielle.
+* Navigateurs : utilisez la dimension Types de navigateur pour obtenir tous les navigateurs d’un type, par exemple Google Chrome.
+* Systèmes d'exploitation : utilisez les dimensions Types de système d'exploitation pour obtenir tous les systèmes d'exploitation d'un type, par exemple Microsoft Windows.
 
 * [Dimensions nouvelles et renommées](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Modifications apportées à](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Modifications apportées à plus petit et plus grand que](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Modifications apportées aux conteneurs](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [Modifications de Inférieur à et Supérieur à](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Dimensions nouvelles et renommées {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -252,7 +252,7 @@ Le tableau suivant contient une liste de dimensions renommées dans le Créateur
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Intensité de couleur </td> 
+   <td colname="col1"> Profondeur de couleur </td> 
    <td colname="col2"> Intensité de couleur de l’écran </td> 
    <td colname="col3"> - </td> 
   </tr> 
