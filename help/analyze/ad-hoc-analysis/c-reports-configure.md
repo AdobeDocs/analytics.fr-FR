@@ -3,9 +3,9 @@ description: Cette section présente les différentes opérations que vous pouve
 seo-description: Cette section présente les différentes opérations que vous pouvez effectuer sur un rapport, comme par exemple configurer des graphiques, diagrammes et ventilations, ou encore extraire des données.
 seo-title: Configuration des rapports existants
 title: Configuration des rapports existants
-uuid: 5 c 7 bb 66 a-a 9 a 2-49 fe-ba 98-1 a 99 a 922 f 6 b 1
+uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ Cliquez sur la liste déroulante **[!UICONTROL Actions de rapport]** ![ dans un 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Options de distribution </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Delivery Options</a>. </p> </td> 
+   <td colname="col2"> <p> Voir Options <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"></a>de remise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Imprimer </p> </td> 
@@ -64,7 +64,7 @@ Cliquez sur la liste déroulante **[!UICONTROL Actions de rapport]** ![ dans un 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sources de données </p> </td> 
-   <td colname="col2"> <p>Pour plus d’informations, voir <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local">Onglet Paramètres généraux - Définitions</a> </p> </td> 
+   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Affichage </p> </td> 
@@ -162,7 +162,7 @@ Certains rapports vous permettent de ventiler les données tabulaires afin d’a
 
    >[!NOTE]
    >
-   >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. Après avoir ouvert un rapport enregistré ou planifié avec des ventilations, il vous faudra peut-être cliquer sur **[!UICONTROL Remplacer le tableau]pour actualiser une ventilation des données dynamiques du rapport.** Vous pouvez, par exemple, actualiser un rapport planifié contenant des ventilations d’éléments de ligne qui peuvent changer en fonction de la période ou de l’activité des visiteurs.
+   >Pour plus de flexibilité, utilisez le Générateur de [tableau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) pour configurer un rapport avec des ventilations. Après avoir ouvert un rapport enregistré ou planifié avec des ventilations, il vous faudra peut-être cliquer sur **[!UICONTROL Remplacer le tableau]pour actualiser une ventilation des données dynamiques du rapport.** Vous pouvez, par exemple, actualiser un rapport planifié contenant des ventilations d’éléments de ligne qui peuvent changer en fonction de la période ou de l’activité des visiteurs.
 
 >[!MORE_LIKE_THIS]
 >
@@ -207,7 +207,7 @@ t_reports_extract_ID.xml
 
  -->
 
-Dans les rapports et analyses, vous pouvez définir un champ pour qu'il contienne des données user - id. Si vous avez configuré cette option, l’option [!UICONTROL Extraire les ID des visiteurs] devient accessible. Si vous n’activez pas cette option et décidez de l’activer plus tard, vous pouvez revenir en arrière pour extraire l’historique des identifiants (ID) des visiteurs.
+Dans les rapports et analyses, vous pouvez définir un champ pour qu’il contienne des données d’ID utilisateur. Si vous avez configuré cette option, l’option [!UICONTROL Extraire les ID des visiteurs] devient accessible. Si vous n’activez pas cette option et décidez de l’activer plus tard, vous pouvez revenir en arrière pour extraire l’historique des identifiants (ID) des visiteurs.
 
 **Pour extraire les identifiants des visiteurs**
 
@@ -228,7 +228,7 @@ t_reports_trending_row.xml
 
 Lors de l’affichage d’un rapport de classement, tel qu’un rapport de produits, vous pouvez identifier les données de tendance d’une valeur. Par exemple, vous pouvez déterminer qu’un produit a généré pour 10 000 euros de recettes brutes pendant la période sélectionnée. Si vous voulez connaître le montant des recettes générées par ce produit chaque jour de cette période, vous pouvez afficher un graphique de tendance pour le produit ou ouvrir un rapport de tendances distinct.
 
-** Pour afficher la tendance d’une ligne**
+**Pour afficher la tendance d’une ligne**
 
 1. Exécution d’un rapport de classement.
 1. Cliquez sur l’icône [!UICONTROL Tendance] ![. ](assets/TrendInspector_Buttcon.png)
