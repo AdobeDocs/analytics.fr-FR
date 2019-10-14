@@ -3,9 +3,9 @@ description: Dans le calendrier, vous pouvez soit indiquer des dates ou des plag
 seo-description: Dans le calendrier, vous pouvez soit indiquer des dates ou des plages de dates, soit sélectionner un paramètre prédéfini. Vous pouvez effectuer des sélections dans le calendrier aux niveaux du projet, de l’espace de travail et du rapport. La période d’un projet correspond à la date par défaut. Cependant, la période d’un espace de travail remplace celle du projet. De même, la période d’un projet remplace les paramètres de date d’un espace de travail et d’un projet. Vous ne pouvez pas sélectionner une période en dehors de la plage de disponibilité de vos données.
 seo-title: Dates et plages de dates
 title: Dates et plages de dates
-uuid: 8 f 099 db 7-e 74 b -4384-ac 46-61 a 545 f 1 dd 62
+uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Dans le calendrier, vous pouvez soit indiquer des dates ou des plages de dates, soit sélectionner un paramètre prédéfini. Vous pouvez effectuer des sélections dans le calendrier aux niveaux du projet, de l’espace de travail et du rapport. La période d’un projet correspond à la date par défaut. Cependant, la période d’un espace de travail remplace celle du projet. De même, la période d’un projet remplace les paramètres de date d’un espace de travail et d’un projet. Vous ne pouvez pas sélectionner une période en dehors de la plage de disponibilité de vos données.
 
-## Dates and date ranges {#concept_AB32765013F449908B5964AB622C75FF}
+## Dates et plages de dates {#concept_AB32765013F449908B5964AB622C75FF}
 
 Dans le calendrier, vous pouvez soit indiquer des dates ou des plages de dates, soit sélectionner un paramètre prédéfini. Vous pouvez effectuer des sélections dans le calendrier aux niveaux du projet, de l’espace de travail et du rapport. La période d’un projet correspond à la date par défaut. Cependant, la période d’un espace de travail remplace celle du projet. De même, la période d’un projet remplace les paramètres de date d’un espace de travail et d’un projet. Vous ne pouvez pas sélectionner une période en dehors de la plage de disponibilité de vos données.
 
@@ -28,7 +28,7 @@ Lors de la sélection d’une période au cours de la création d’un projet, l
 
 >[!NOTE]
 >
->Si vous avez besoin d'aide pour exécuter des rapports existants, contactez votre gestionnaire de compte.
+>Si vous avez besoin d’aide pour exécuter des rapports hérités, contactez votre gestionnaire de compte.
 
 ## Tranches de dates héritées {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -40,12 +40,12 @@ c_legacy_data.xml
 
  -->
 
-** Pour accéder à des tranches de dates historiques**
+**Pour accéder à des tranches de dates historiques**
 
 1. [Créez ou ouvrez un projet.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Open the [calendar](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
+1. Ouvrez le [calendrier](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), puis sélectionnez **[!UICONTROL Trimestre]** ou **[!UICONTROL Année]**.
 
 >[!NOTE]
 >
->Les tranches de dates historiques se limitent aux contraintes de trimestre et d'année. Vous ne pouvez pas afficher les données chevauchant la limite entre les tranches de dates héritées et la nouvelle plateforme de traitement. Ceci entraînerait une erreur. En outre, les périodes s’appliquent uniquement au calendrier grégorien, et non aux calendriers personnalisés.
+>Les tranches de dates historiques se situent dans les limites des trimestres et des années. Vous ne pouvez pas afficher les données chevauchant la limite entre les tranches de dates héritées et la nouvelle plateforme de traitement. Ceci entraînerait une erreur. En outre, les périodes s’appliquent uniquement au calendrier grégorien, et non aux calendriers personnalisés.
 
