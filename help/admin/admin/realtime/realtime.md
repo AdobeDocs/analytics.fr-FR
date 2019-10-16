@@ -4,10 +4,10 @@ seo-description: Affiche le trafic des pages web et classe les pages vues en tem
 seo-title: Rapports en temps réel
 solution: Analytics
 title: Rapports en temps réel
-topic: Présentation
-uuid: c 09 cc 605-0 b 3 b -41 ab -9 b 46-8 c 2 a 26 f 579 a 3
+topic: Rapports
+uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -18,9 +18,9 @@ Affiche le trafic des pages web et classe les pages vues en temps réel. Fournit
 
 >[!NOTE]
 >
->Le rapport Réel - Le rapport temporel ne nécessite aucune mise en œuvre ou aucun balisage supplémentaire. Elle repose sur le déploiement existant d’Adobe Analytics. Pour configurer les rapports en temps réel, voir [Configuration des rapports en temps réel](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+>Le rapport en temps réel ne nécessite aucune mise en oeuvre ni aucun balisage supplémentaire. Elle repose sur le déploiement existant d’Adobe Analytics. Pour configurer les rapports en temps réel, voir [Configuration des rapports en temps réel](/help/admin/admin/realtime/t-realtime-admin.md).
 
-**[!UICONTROL Mesures du site]** &gt; **[!UICONTROL Réel - Temps]**
+**[!UICONTROL Mesures]** du site &gt; **[!UICONTROL Temps réel]**
 
 Le rapport Temps réel répond aux questions suivantes : qu’est-ce qui est tendance sur mon site et pourquoi ? Il vous permet, en tant que marketeur, de réagir rapidement et de gérer de manière active les performances de vos contenus et campagnes marketing. Les données sont reportées en temps réel en moins de deux minutes et se mettent automatiquement à jour minute par minute.
 
@@ -44,7 +44,7 @@ En tant qu’administrateur, vous pouvez :
 
 * Comparer par exemple les valeurs de la semaine dernière à celles de l’année dernière (ainsi qu’au total d’aujourd’hui).
 
-N’oubliez pas que les eVars (mesures de conversion) ne sont pas prises en charge, puisqu’il n’y a aucun concept de permanence. Même si vous pouvez sélectionner des mesures de conversion, elles fonctionnent uniquement si elles sont définies sur la même page que la ou les dimensions. Pour en savoir plus, voir le message d’avertissement capturé dans la [Définition - Up Real - Time Reports](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+N’oubliez pas que les eVars (mesures de conversion) ne sont pas prises en charge, puisqu’il n’y a aucun concept de permanence. Même si vous pouvez sélectionner des mesures de conversion, elles fonctionnent uniquement si elles sont définies sur la même page que la ou les dimensions. Pour en savoir plus, voir le message d’avertissement capturé dans la [Configuration des rapports](/help/admin/admin/realtime/t-realtime-admin.md)en temps réel.
 
 Seuls les administrateurs ou les utilisateurs des groupes d’autorisations Accès à tous les rapports et Création de rapports avancés peuvent configurer et afficher les rapports Temps réel. Toutefois, cette fonction respecte les autorisations. Si, par exemple, vous n’avez pas les droits permettant de consulter le revenu, vous ne pourrez pas consulter un rapport en temps réel qui inclut les données de revenu.
 
@@ -57,4 +57,4 @@ Cette augmentation se reflète dans tous les services et outils d’Adobe Analyt
 * Pour la diffusion en continu active, les rapports en temps réel, les requêtes d’API et les données actives pour les variables de trafic, seuls les accès avec un ID supplémentaire sont retardés.
 * Pour les données actives sur les mesures de conversion, les données finalisées et les flux de données, tous les accès sont retardés de 5 à 7 minutes supplémentaires.
 
-Notez que l'augmentation de latence commence après la mise en œuvre du service d'identité, même si vous n'avez pas entièrement implémenté cette intégration.
+Gardez à l’esprit que l’augmentation de la latence commence une fois que vous avez mis en oeuvre Identity Service, même si vous n’avez pas complètement implémenté cette intégration.
