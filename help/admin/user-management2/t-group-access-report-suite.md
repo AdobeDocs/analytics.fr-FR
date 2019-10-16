@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Utilisateurs et groupes
 title: Affecter des groupes d’utilisateurs à une suite de rapports
 topic: Outils d’administration
-uuid: 67173113-2 fca -483 e -9038-8423 e 6 d 4 de 6 e
+uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 Description de la procédure d’affectation de groupes d’utilisateurs à une suite de rapports.
 
-La page [!UICONTROL Report Suites] vous permet de visualiser et de configurer les suites de rapports de l’entreprise. Analytics gère l’accès aux suites de rapports au moyen de l’inscription à un groupe. Lors de la configuration initiale, créez les groupes dont vous avez besoin (en attribuant des suites de rapports à chacun d’eux), puis attribuez des comptes d’utilisateurs aux [groupes](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F) appropriés.
+La page [!UICONTROL Report Suites] vous permet de visualiser et de configurer les suites de rapports de l’entreprise. Analytics gère l’accès aux suites de rapports au moyen de l’inscription à un groupe. Lors de la configuration initiale, créez les groupes dont vous avez besoin (en attribuant des suites de rapports à chacun d’eux), puis attribuez des comptes d’utilisateurs aux [groupes](/help/admin/user-management2/c-user-groups/groups.md) appropriés.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Report Suites]**.
