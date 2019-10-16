@@ -5,7 +5,7 @@ seo-title: Migration de comptes utilisateurs Analytics sous la forme d’Enterpr
 title: Migration de comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 Comment migrer des comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID vers l’Admin Console.
 
-## Conditions préalables {#concept-e60d8deb3fc54a1a81f1f47a26658de3}
+## Conditions préalables {#prereqs}
 
 Conditions préalables à la gestion des utilisateurs dans l’Admin Console.
 
@@ -50,7 +50,7 @@ Si vous devez migrer des comptes utilisateurs Adobe ID déjà existants vers un
 
       Le lien de téléchargement du rapport n’est visible que pour les clients n’ayant pas encore migré d’utilisateurs.
 
-   1. *If you already migrated users,* navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Analytics users and Assets]**.
+   1. *Si vous avez déjà migré des utilisateurs,* accédez à **[!UICONTROL Analytics]** &gt; Utilisateurs **[!UICONTROL Analytics et Ressources]**.
 
       ![Infos étape](assets/admin-analytics-users-assets.png)
 
@@ -125,7 +125,7 @@ Si vous devez migrer des comptes utilisateurs Adobe ID déjà existants vers un
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domaine </p> </td> 
-   <td colname="col2"> <p>Assurez-vous que les domaines dans les colonnes Les colonnes <span class="term"> Domaine</span> et <span class="term"> Courriel</span> correspondent au(x) domaine(s) défini(s) dans les <a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"> conditions préalables</a>. </p> </td> 
+   <td colname="col2"> <p>Assurez-vous que les domaines dans les colonnes Les colonnes <span class="term"> Domaine</span> et <span class="term"> Courriel</span> correspondent au(x) domaine(s) défini(s) dans les <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"> conditions préalables</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code de pays </p> </td> 
@@ -140,8 +140,8 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 >
 >D’autres colonnes, telles que *`Product Configurations`* et *`Admin Roles`* peuvent être vides.
 
-1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in [Step 3](../c-migration-tool/migrate-enterprise.md#step-190321c6025947e38b195daed122c063).).
-1. Dans Analytics, exécutez l’outil de migration (comme décrit dans [Migration des comptes](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)utilisateur Analytics).
+1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
+1. Dans Analytics, exécutez l’outil de migration (comme décrit dans [Migration des comptes](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)utilisateur Analytics).
 1. Click **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![Infos étape](assets/migrate-as-enterprise.png)
