@@ -1,19 +1,19 @@
 ---
 description: Descriptions des éléments de la page Définir un groupe d’utilisateurs.
 seo-description: Descriptions des éléments de la page Définir un groupe d’utilisateurs.
-seo-title: Paramètres des groupes d'utilisateurs
+seo-title: Paramètres des groupes d’utilisateurs
 solution: Analytics
 subtopic: Utilisateurs et groupes
-title: Paramètres des groupes d'utilisateurs
+title: Paramètres des groupes d’utilisateurs
 topic: Outils d’administration
-uuid: b 411032 a -7 d 56-44 fd-b 676-abee 4 af 756 f 9
+uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Paramètres du groupe d'utilisateurs (hérité)
+# Paramètres du groupe d’utilisateurs (hérités)
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
 
 Descriptions des éléments de la page Définir un groupe d’utilisateurs.
 
-**[!UICONTROL Admin]** &gt; Gestion **[!UICONTROL utilisateur]** &gt; **[!UICONTROL Groupes]** &gt; **[!UICONTROL Ajouter un nouveau groupe d'utilisateurs]**
+**[!UICONTROL Admin]** &gt; Gestion des **** utilisateurs &gt; **[!UICONTROL Groupes]** &gt; **[!UICONTROL Ajouter un nouveau groupe d’utilisateurs]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -63,7 +63,7 @@ Descriptions des éléments de la page Définir un groupe d’utilisateurs.
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Rapports sur le trafic</b>: Accorde l'accès à tous les rapports en fonction du trafic, tels que les pages vues, les visites et les visiteurs uniques. </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Rapports</b>sur le trafic : Accorde l’accès à tous les rapports en fonction du trafic, tels que les pages vues, les visites et les visiteurs uniques. </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>Outils</b> (Accorde l’accès aux outils utilisés dans les rapports et analyses tels que Exclure par IP, Classifications et ClickMap hérité.) </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>Rapports vidéo et mobiles</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Rapports Chemin</b> (Accorde l’accès aux rapports de cheminement tels que Page suivante, Abandons et Durée de consultation de la page.) </li> 
@@ -95,10 +95,10 @@ Descriptions des éléments de la page Définir un groupe d’utilisateurs.
      </ul> </p> </td> 
    <td colname="col2"> <p>Les membres du groupe peuvent accéder à un sous-ensemble des rapports du groupe. Cliquez sur <span class="uicontrol">Personnaliser</span> pour ouvrir une page permettant de sélectionner les rapports spécifiques auxquels les membres peuvent accéder. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local"> Outils Analytics</a> : activez les autorisations d’utilisateurs pour les éléments généraux (facturation, journaux, etc.), la gestion des entreprises, l’accès aux services web, le Report Builder et l’intégration des Data Connectors. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF" format="dita" scope="local"> Outils de génération de rapports</a> : activez les autorisations d’utilisateurs pour l’accès aux API, la gestion des suites de rapports, les outils et les rapports et les éléments de tableau de bord. </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="../../../admin/user-management2/c-customize-report-access/groups-metrics.md#concept_05D54436430E4320A48C7C685D337FBE" format="dita" scope="local"> Mesures</a> : activez les autorisations pour les événements de trafic, de conversion, personnalisés, de solution, la reconnaissance de contenu, etc. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local"> Dimensions</a> : personnalisez l’accès des utilisateurs à un niveau plus détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de cheminement. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Outils Analytics</a> : activez les autorisations d’utilisateurs pour les éléments généraux (facturation, journaux, etc.), la gestion des entreprises, l’accès aux services web, le Report Builder et l’intégration des Data Connectors. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> Outils de génération de rapports</a> : activez les autorisations d’utilisateurs pour l’accès aux API, la gestion des suites de rapports, les outils et les rapports et les éléments de tableau de bord. </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> Mesures</a> : activez les autorisations pour les événements de trafic, de conversion, personnalisés, de solution, la reconnaissance de contenu, etc. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Dimensions</a> : personnalisez l’accès des utilisateurs à un niveau plus détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de cheminement. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
