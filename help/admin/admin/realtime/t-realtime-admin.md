@@ -5,9 +5,9 @@ seo-title: Configuration des rapports en temps réel
 solution: Analytics
 title: Configuration des rapports en temps réel
 topic: Outils d’administration
-uuid: f 48692 a 0-77 c 0-4 ee 4-b 3 ec-eaa 842 d 06 ac 8
+uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -37,7 +37,7 @@ La configuration des rapports en temps réel dans les Reports &amp; Analytics co
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../../admin/admin/realtime/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   Pour plus d’informations sur les mesures et dimensions en temps réel prises en charge, voir Mesures et dimensions [prises en charge](/help/admin/admin/realtime/realtime-metrics.md).
 
    Si vous avez créé des classifications, elles apparaissent en retrait sous la dimension pour laquelle elles ont été définies :
 
@@ -45,13 +45,13 @@ La configuration des rapports en temps réel dans les Reports &amp; Analytics co
 
    >[!NOTE]
    >
-   >Pour un seul rapport Real - Time, nous ne prenons actuellement pas en charge l'activation de dimensions en double, même si une autre classification est sélectionnée pour chaque dimension.
+   >Pour un rapport en temps réel unique, nous ne prenons pas actuellement en charge l’activation de dimensions en double, même si une classification différente est sélectionnée pour chaque dimension.
 
-   For more information about classifications, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
+   Pour plus d’informations sur les classifications, voir [A propos des classifications](/help/components/c-classifications2/c-classifications.md).
 
    >[!NOTE]
    >
-   >Certaines dimensions, telles que « Mot-clé de recherche » ou « Produit », ne persistent pas en Réel, comme elles le font ailleurs dans Adobe Analytics. Lorsque vous sélectionnez une mesure non permanente, cet avertissement s’affiche :
+   >Certaines dimensions, telles que "Mot-clé de recherche" ou "Produit", ne sont pas conservées en temps réel comme c’est le cas ailleurs dans Adobe Analytics. Lorsque vous sélectionnez une mesure non permanente, cet avertissement s’affiche :
 
    ![](assets/warning_dimensions.png)
 
