@@ -5,7 +5,7 @@ seo-title: Afficher/Gérer les paramètres de gouvernance des données de la sui
 title: Afficher/Gérer les paramètres de gouvernance des données de la suite de rapports
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 La boîte de dialogue Gouvernance des données dans les Outils d’administration offre un aperçu des suites de rapports configurées pour la gouvernance des données, indique si elles ont été mappées à une organisation Experience Cloud et si une politique de conservation des données est mise en place pour cette suite de rapports.
 
 1. Connectez-vous à Adobe Experience Cloud.
-1. Navigate to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** .
+1. Sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Gouvernance des données.]**
 
    Vous verrez toutes les suites de rapports faisant partie de votre société de connexion :
 
@@ -38,7 +38,7 @@ La boîte de dialogue Gouvernance des données dans les Outils d’administratio
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mappé</b> : cette suite de rapports a déjà été mappée à la même organisation Experience Cloud que la société de connexion Analytics à laquelle vous êtes connecté. Seules les suites de rapports possédant ce paramètre peuvent être étiquetées. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapper la suite de rapports</b> : en cliquant sur ce lien, vous pouvez <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mapper une suite de rapports</a> à une organisation Experience Cloud. <p>Cela signifie que vous serez redirigé vers la page d’administration de l’organisation Experience Cloud - Mappage de suites de rapports où vous devez trouver la suite de rapports et l’affecter à l’organisation appropriée. Une fois cette étape franchie, revenez à cette interface utilisateur de gouvernance des données. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapper la suite de rapports</b> : en cliquant sur ce lien, vous pouvez <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">mapper une suite de rapports</a> à une organisation Experience Cloud. <p>Cela signifie que vous serez redirigé vers la page d’administration du mappage de la suite de rapports pour l’organisation Experience Cloud où vous devez trouver la suite de rapports et lui attribuer sa propre organisation. Une fois cette étape franchie, revenez à cette interface utilisateur de gouvernance des données. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mappé à une autre organisation</b> : une autre organisation Experience Cloud a déjà mappé cette suite de rapports à son organisation. </li> 
     </ul> </td> 
   </tr> 
