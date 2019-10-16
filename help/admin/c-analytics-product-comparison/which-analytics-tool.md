@@ -5,7 +5,7 @@ seo-title: Quel outil Adobe Analytics dois-je utiliser ?
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
 
 Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
+
 ## Interfaces utilisateurs de la création de rapports Adobe Analytics {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** devrait être l’interface utilisateur de référence pour tous vos besoins en matière de création de rapports et d’analyse. Adobe continue d’investir dans ce produit et publie des mises à jour mensuelles. S’il y a une tâche que vous ne pouvez pas faire dans Analysis Workspace, considérez les autres interfaces ci-dessous.**
