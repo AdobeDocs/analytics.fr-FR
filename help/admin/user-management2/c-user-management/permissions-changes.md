@@ -9,7 +9,7 @@ title: Modifications des autorisations d’utilisateur et des droits d’accès 
 topic: Outils d’administration
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 ---
 
@@ -59,7 +59,7 @@ Comme l’API et l’interface utilisent le même système d’autorisation, que
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Rapport Détection des anomalies </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Rapport Temps réel </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Accès à Analysis Workspace </li> 
-    </ul> <p>Les administrateurs peuvent supprimer des groupes personnalisés et créer leurs propres groupes, puisque tous les paramètres qui étaient auparavant disponibles dans les groupes prédéfinis peuvent maintenant être personnalisés dans les paramètres <span class="wintitle">Accès aux rapports</span> sur la page <a href="help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">Définition des groupes d’utilisateurs</a>. </p> </td> 
+    </ul> <p>Les administrateurs peuvent supprimer des groupes personnalisés et créer leurs propres groupes, puisque tous les paramètres qui étaient auparavant disponibles dans les groupes prédéfinis peuvent maintenant être personnalisés dans les paramètres <span class="wintitle">Accès aux rapports</span> sur la page <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">Définition des groupes d’utilisateurs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Autorisations au niveau des dimensions </p> </td> 
