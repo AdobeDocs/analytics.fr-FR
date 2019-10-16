@@ -1,21 +1,20 @@
 ---
 description: Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
 seo-description: Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
-seo-title: Quel outil Adobe Analytics dois-je utiliser ?
-title: Quel outil Adobe Analytics dois-je utiliser ?
-uuid: 1179 e 49 d -3 cfc -4 abd-a 8 eb -35 c 5 ae 380 c 16
+seo-title: Quel outil Adobe Analytics dois-je utiliser ?
+title: Quel outil Adobe Analytics dois-je utiliser ?
+uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Quel outil Adobe Analytics dois-je utiliser ?
+# Quel outil Adobe Analytics dois-je utiliser ?
 
 Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
 
-Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](../../admin/c-analytics-product-comparison/analytics-product-comparison.md#concept_D9DB9FA42CA04F4C97765B6B31A0005D).
-
+Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 ## Interfaces utilisateurs de la création de rapports Adobe Analytics {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** devrait être l’interface utilisateur de référence pour tous vos besoins en matière de création de rapports et d’analyse. Adobe continue d’investir dans ce produit et publie des mises à jour mensuelles. S’il y a une tâche que vous ne pouvez pas faire dans Analysis Workspace, considérez les autres interfaces ci-dessous.**
@@ -100,20 +99,20 @@ L’**[API d’insertion de données](https://marketing.adobe.com/developer/docu
 Le **[Report Builder](/help/analyze/report-builder/home.md)** doit être utilisé :
 
 * Si les options de disposition personnalisées de Workspace sont limitées (tout est possible dans le Report Builder, dans les limites d’Excel).
-* Pour lier vaguement des entrées utilisateur ou des sources de données hors ligne (impressions, coût) à des données Adobe. L’option Sources de données constitue une solution plus permanente pour lier les données (voir Importation de données dans Analytics).
+* Pour lier vaguement des entrées utilisateur ou des sources de données hors ligne (impressions, coût) à des données Adobe. L’option Sources de données constitue une solution plus permanente pour lier les données (voir Importation de données dans Analytics) .
 * Pour fusionner des données depuis différents rapports dimensionnels (par exemple un rapport d’impressions promo joint à un rapport clic jusqu’à la conversion promo).
 * Pour les affichages de suite de rapports croisés.
 * Si l’automatisation par l’intermédiaire de la planification est souhaitée (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** doit être utilisé :
 
-* Pour accéder à des variables autrement masquées dans l'interface utilisateur - adresse IP, identifiant d'expérience, identifiant visiteur Analytics, URL de page)
+* Pour accéder à des variables autrement masquées dans l’interface utilisateur (adresse IP, ID d’expérience, identifiant visiteur Analytics, URL de page)
 * Pour accéder à des données plus granulaires que l’interface utilisateur (affichage de tableau dénormalisé)
 * Pour télécharger des données dans un format approprié à une entrée de tableau croisé dynamique (pivot)
 * Si le client souhaite saisir des données Adobe dans un outil de visualisation de données tiers (légèrement résumées et pas au niveau de l’accès)
 * Pour accéder à toutes les valeurs de dimension uniques si vous rencontrez un « faible trafic » dans Adobe Analytics
 
-**[Le flux de données Analytics](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** doit être utilisé :
+**[Le flux](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** de données Analytics doit être utilisé :
 
 * Pour utiliser les flux de données les plus granulaires que nous pouvons fournir (identifiant visiteur, accès).
 * Si le client souhaite que les données Adobe soient stockées dans une base de données côté client, au niveau le plus granulaire que nous pouvons envoyer.
