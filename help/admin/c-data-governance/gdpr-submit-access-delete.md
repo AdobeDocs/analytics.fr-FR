@@ -5,7 +5,7 @@ seo-title: Soumettre des demandes d’accès et de suppression
 title: Soumettre des demandes d’accès et de suppression
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -25,9 +25,9 @@ En tant que contrôleur des données, c’est à vous qu’il revient d’obteni
 
 ## Valider les utilisateurs et leurs données {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-En tant que contrôleur des données, vous êtes chargé de vérifier que le sujet des données est bien qui il prétend être et qu’il a le droit d’accéder aux données demandées. En outre, il vous incombe de veiller à ce que les données correctes soient renvoyées au sujet des données et à ce qu’il ne reçoive pas par inadvertance des données concernant d’autres sujets des données.
+En tant que contrôleur des données, vous êtes chargé de vérifier que le sujet des données est bien qui il prétend être et qu’il a le droit d’accéder aux données demandées. En outre, il vous incombe de veiller à ce que les données correctes soient retournées à la personne concernée et à ce qu'elle ne reçoive pas par inadvertance des données concernant d'autres personnes concernées.
 
-Cela inclut la révision des données renvoyées par Adobe Analytics dans le cadre d’une demande d’accès à la confidentialité des données avant de les envoyer à l’utilisateur. Une attention particulière doit être accordée si vous utilisez des ID de personne et si vous renvoyez non seulement des données là où cet identifiant est présent, mais également des données pour d’autres accès sur un appareil partagé où cet ID était parfois présent ([Extension d’ID](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
+Cela inclut la révision des données renvoyées par Adobe Analytics dans le cadre d’une demande d’accès à la confidentialité des données avant de les envoyer à l’utilisateur. Une attention particulière doit être portée si vous utilisez des ID de personne et que vous renvoyez non seulement des données là où cet ID est présent, mais également des données pour d’autres accès sur un périphérique partagé où cet ID était parfois présent. Voir Extension [d’ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
 Chaque fichier combine les données de toutes vos suites de rapports, supprimant automatiquement les copies supplémentaires des accès répliqués. Vous pouvez décider parmi ces fichiers lequel renvoyer au sujet des données. Ou vous pouvez extraire certaines de ces données et les combiner à des données provenant d’autres systèmes avant de les renvoyer au sujet des données.
 
@@ -39,7 +39,7 @@ Vous pouvez soumettre des demandes d’accès à la confidentialité des donnée
 >
 >L’API de confidentialité des données prend en charge les envois par lots pour plusieurs utilisateurs dans une même requête. La limite actuelle est de 1 000 utilisateurs individuels (il peut y avoir plusieurs ID par utilisateur) par fichier de demande JSON.
 
-## Exemple de demande JSON {#section_DB9DE6492FE740918F91D413E7BAB88F}
+## Exemple de demande JSON {#sample-json-request}
 
 Voici le fichier JSON qui peut être envoyé par l’intermédiaire de l’interface utilisateur ou de l’API de confidentialité des données, ce qui demande que trois utilisateurs soient traités pour la confidentialité des données.
 
@@ -101,7 +101,7 @@ Voici le fichier JSON qui peut être envoyé par l’intermédiaire de l’inter
 } 
 ```
 
-Remarquez que la section relative à l’utilisateur comporte trois blocs, représentant trois demandes distinctes, probablement pour trois sujets de données différents.
+Notez qu’il existe trois blocs dans la section de l’utilisateur, représentant trois requêtes distinctes, probablement pour trois sujets de données distincts.
 
 * La première demande est une demande d’accès qui utilise un ID de cookie Adobe Analytics classique (AAID).
 * La deuxième demande est également une demande d’accès, mais qui utilise un cookie MCID/ECID.
@@ -109,10 +109,10 @@ Remarquez que la section relative à l’utilisateur comporte trois blocs, repr�
 
 Gardez à l’esprit que :
 
-* La valeur « 5D7236525AA6D9580A495C6C@AdobeOrg » de la section « companyContexts » doit être mise à jour avec la valeur de votre organisation Experience Cloud.
-* Les champs « Type » et « Espace de noms » sont décrits plus en détail à la section [Espaces de noms](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D).
-* Les champs « Description » sont ignorés.
-* Les champs « Clé » peuvent contenir la valeur de votre choix. Si vous disposez d’un ID interne que vous utilisez pour le suivi des demandes de confidentialité des données, vous pouvez placer cette valeur ici afin de faciliter la correspondance entre les demandes du système Adobe et celles de vos propres systèmes.
+* La valeur "5D7236525AA6D9580A495C6C@AdobeOrg" dans la section "companyContextes" doit être mise à jour avec la valeur de votre propre organisation Experience Cloud.
+* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
+* Les champs "description" sont ignorés.
+* Les champs "clé" peuvent contenir toute valeur que vous souhaitez. Si vous disposez d’un ID interne que vous utilisez pour le suivi des demandes de confidentialité des données, vous pouvez placer cette valeur ici afin de faciliter la correspondance entre les demandes du système Adobe et celles de vos propres systèmes.
 
 ## Détails sur la réponse {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -151,4 +151,4 @@ Vous pouvez toujours tester votre traitement de confidentialité des données de
 * Vous pouvez par exemple configurer une organisation Experience Cloud séparée contenant uniquement les suites de rapports de test. Utilisez ensuite cette organisation Experience Cloud pour vos tests de confidentialité des données et votre organisation Experience Cloud normale pour le traitement réel de la confidentialité des données.
 * Une autre option consiste à attribuer des espaces de noms différents aux ID dans vos suites de rapports de test par rapport à ceux qui figurent dans vos suites de rapports de production.
 
-   Par exemple, vous pouvez ajouter le préfixe « qa- » à chaque espace de noms dans vos suites de rapports de test. Lorsque vous envoyez des requêtes de confidentialité de données avec des espaces de noms uniquement avec le préfixe qa, ces requêtes s’exécuteront uniquement par rapport à vos suites de rapports de test. Ensuite, lorsque vous soumettez vos demandes sans le préfixe qa, elles seront appliquées à vos suites de rapports de production. **C’est l’approche que nous vous recommandons, à moins que vous n’utilisiez les espaces de noms visitorId, AAID, ECID ou customVisitorId, car ils sont codés en dur et vous ne pouvez pas spécifier d’autres noms dans vos suites de rapports de test**.
+   Par exemple, vous pouvez ajouter un préfixe à chaque espace de noms avec "qa-" dans vos suites de rapports de test. Lorsque vous envoyez des requêtes de confidentialité de données avec des espaces de noms uniquement avec le préfixe qa, ces requêtes s’exécuteront uniquement par rapport à vos suites de rapports de test. Ensuite, lorsque vous soumettez vos demandes sans le préfixe qa, elles seront appliquées à vos suites de rapports de production. **C’est l’approche que nous vous recommandons, à moins que vous n’utilisiez les espaces de noms visitorId, AAID, ECID ou customVisitorId, car ils sont codés en dur et vous ne pouvez pas spécifier d’autres noms dans vos suites de rapports de test**.
