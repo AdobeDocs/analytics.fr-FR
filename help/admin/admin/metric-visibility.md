@@ -4,9 +4,9 @@ seo-description: Vous pouvez masquer les mesures (intégrées) standard, les év
 seo-title: Visibilité des mesures
 solution: Analytics
 title: Visibilité des mesures
-uuid: fa 2 d 6 cba -8 e 03-422 d -9 f 7 d -4 f 35021 fa 9 b 4
+uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Vous pouvez masquer les mesures (intégrées) standard, les événements personnalisés et les événements intégrés dans le menu, les sélecteurs de mesure, le créateur de mesures calculées et le créateur de segments.
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [Plus…](../../admin/admin/c-success-events/t-success-events.md#task_AC29770C973A43C5BE67DABA3BF1795C)
+1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [Plus...](/help/admin/admin/c-success-events/t-success-events.md)
 1. Set the Visibility column to either **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, or **[!UICONTROL Hidden Everywhere]**.
 
 Ce paramètre n’a aucun impact sur la collecte des données pour cette mesure ; il affecte uniquement sa visibilité dans l’interface utilisateur. Voici l’impact des paramètres sur la visibilité des mesures dans l’interface utilisateur :
