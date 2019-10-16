@@ -6,16 +6,16 @@ solution: Analytics
 subtopic: Règles de robots
 title: Règles de robots - Aperçu
 topic: Outils d’administration
-uuid: 3 cb 9 e 29 d -1 c 37-43 de-b 7 ac -34441093 a 60 e
+uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 5574b9e37e68971f7ecaa05056a30dab0b3d5d47
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
 # Règles de robots - Aperçu
 
-Les règles de robots vous permettent de supprimer le trafic de votre suite de rapports générée par des araignées et des robots connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web.
+Les règles de robots vous permettent de supprimer du trafic de votre suite de rapports généré par des araignées et des robots connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web.
 
 Une fois les règles de robots définies, elles servent de critères de comparaison pour tout le trafic entrant. Le trafic qui correspond à l’une de ces règles n’est ni collecté dans la suite de rapports, ni inclus dans les mesures de trafic.
 
@@ -27,20 +27,20 @@ Les données de trafic de robots sont stockées dans un référentiel distinct e
 
 | Type de règle | Description |
 |--- |--- |
-| Règles de robots IAB standard | La sélection [!UICONTROL de l'option Activer les règles] de filtrage des robots IAB utilise la [liste internationale des robots et robots de robots IAB](https://www.iab.com) (International Advertizing Bureau) pour supprimer le trafic de robots. La plupart des clients sélectionnent cette option au minimum. |
-| Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateur, des adresses IP ou des plages d'adresses IP. |
+| Règles de robots IAB standard | La sélection de l’option [!UICONTROL Activer les règles] de filtrage des robots IAB utilise la liste internationale des moteurs de balayage et des robots de l’ [](https://www.iab.com) IAB (Bureau international de la publicité) pour supprimer le trafic de robots. La plupart des clients sélectionnent cette option au minimum. |
+| Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateur, des adresses IP ou des plages d’adresses IP. |
 
 ## Règles de robots IAB standard
 
-Les règles de robots IAB standard peuvent être activées en cochant la case [!UICONTROL Activer les règles] de filtrage des robots IAB. Cette sélection va supprimer les robots dans la liste internationale des robots et robots de l'IAB (International Advertizing Desktop) pour supprimer le trafic de robots. L'IAB met à jour cette liste chaque mois.
+Les règles de robots IAB standard peuvent être activées en cochant la case [!UICONTROL Activer les règles] de filtrage des robots IAB. Cette sélection supprimera les robots de la liste internationale des araignées et des robots de l'IAB (Bureau international de la publicité) pour supprimer le trafic de robots. Le CCI met à jour cette liste tous les mois.
 
 ![](assets/bot-iab-checkbox.png)
 
-Adobe n’est pas en mesure de fournir la liste des robots IAB détaillée aux clients. Vous pouvez cependant utiliser le rapport Robots pour consulter la liste des robots qui ont accédé à votre site. Pour envoyer un robot à la liste IAB, rendez-vous sur [la page IAB](https://www.iab.com).
+Adobe n’est pas en mesure de fournir la liste des robots IAB détaillée aux clients. Vous pouvez cependant utiliser le rapport Robots pour consulter la liste des robots qui ont accédé à votre site. Pour soumettre un robot à la liste du CCI, visitez le [CCI](https://www.iab.com).
 
 ## Règles de robots personnalisées
 
->[!Note]
+>[!Nnote]
 >Il est possible de définir manuellement 500 règles dans l’interface utilisateur. Au-delà de cette limite, les règles doivent être gérées en bloc au moyen des options Importer un fichier et Exporter des règles de bots.
 
 Les règles de robots personnalisées vous permettent de filtrer le trafic sur la base des conditions que vous avez définies.
@@ -74,7 +74,7 @@ Le champ **[!UICONTROL contient]est limité à 100 caractères.** La liste « 
 
 Indiquez les plages de début et de fin des adresses IP avec lesquelles vous souhaitez établir une correspondance. Remplacez par * toute valeur que vous souhaitez faire correspondre à l’aide d’un caractère générique.
 
-### Définir une règle de robot personnalisée
+### Définir une règle de robots personnalisée
 
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]**, select one or more report suites and click **[!UICONTROL General]** &gt; **[!UICONTROL Bot Rules]**.
 1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
@@ -84,7 +84,7 @@ Indiquez les plages de début et de fin des adresses IP avec lesquelles vous so
 
 Pour importer des règles de robots en vrac, vous pouvez télécharger un fichier CSV qui les définit.
 
-Créez un fichier CSV contenant les colonnes suivantes, dans l'ordre présenté :
+Créez un fichier CSV avec les colonnes suivantes, dans l’ordre indiqué :
 
 | Colonne 1 | Colonne 2 | Colonne 3 | Colonne 4 | Colonne 5 |
 |--- |--- |---|---|---|
@@ -100,7 +100,7 @@ Chaque ligne du fichier d’importation ne peut contenir que l’une des défini
 
 * **L’agent utilisateur contient ou commence par** : indiquez une seule chaîne d’agent utilisateur avec laquelle établir une correspondance dans la colonne Agent - Inclure. Indiquez le type de correspondance à effectuer en indiquant *contient* ou *commence par* dans le champ Règle de correspondance de l’agent. An optional value can be included in the Agent Exclude column that defines one or more pipe-delimited ( `|` ) strings that the Agent does not contain. Les correspondances de chaînes ne sont pas sensibles à la casse. Les colonnes Début IP et Fin IP doivent, toutes deux, être vides.
 
-* **Correspondance d'adresse IP ou de caractère générique unique**: Pour faire correspondre une seule adresse IP ( `10.10.10.1`) ou adresse IP générique ( `10.10.*.*`), placez la même valeur dans les colonnes Début IP et Fin IP. Règle de correspondance de l’agent, Agent - Inclure et Agent - Exclure doivent être vides.
+* **Correspondance** d’adresse IP unique ou de caractère générique : Pour faire correspondre une adresse IP unique ( `10.10.10.1`) ou une adresse IP générique ( `10.10.*.*`), placez la même valeur dans les colonnes Début IP et Fin IP. Règle de correspondance de l’agent, Agent - Inclure et Agent - Exclure doivent être vides.
 
 * **Correspondance de plage IP** : définissez une plage d’adresses IP à l’aide des colonnes Début IP et Fin IP. Wildcards can be used to match IP ranges, for example `10.10.10.*` to `10.10.20.*`. Règle de correspondance de l’agent, Agent - Inclure et Agent - Exclure doivent être vides.
 
@@ -121,13 +121,13 @@ Le bouton **[!UICONTROL Exporter le fichier de robot téléchargé]exporte toute
 
 Les règles de robots s’appliquent à toutes les données d’analyse. Les données supprimées par les règles de robots ne sont visibles que dans les rapports Robots et Pages de robots.
 
-VISTA rules are applied after Bot Rules (see [Processing Order](../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E)).
+VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
 
 **Traitement de visites enregistrant de nombreux accès** : si plus de 100 accès se produisent au cours d’une visite, la fonction de création de rapports détermine si la durée de la visite (en secondes) est inférieure ou égale au nombre d’accès. Dans ce cas, compte tenu des coûts de traitement des visites longues et intensives, la création de rapports recommence avec une nouvelle visite. Les visites qui enregistrent de nombreux accès sont généralement causées par des attaques de robots et ne sont pas considérées comme ses sessions de navigation normales effectuées par des visiteurs.
 
 >[!NOTE]
 >
->Accès marqués comme *`bots`* étant facturés comme [appels au serveur](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/overage-overview.html).
+>Les accès marqués comme *`bots`* sont facturés comme des appels [serveur.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
