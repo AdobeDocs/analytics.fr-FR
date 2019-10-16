@@ -1,26 +1,26 @@
 ---
 description: Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages Web. Une suite de rapports correspond habituellement à un site web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports). Une suite de rapports peut également être plus petite qu’un site web si vous souhaitez générer des rapports pour une partie seulement de votre site. Les solutions d’Analytics combinent des données et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
 seo-description: Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages web. Une suite de rapports correspond habituellement à un site web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports). Une suite de rapports peut également être plus petite qu’un site web si vous souhaitez générer des rapports pour une partie seulement de votre site. Les solutions d’Analytics combinent des données et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
-seo-title: Gestionnaire de Report Suites
+seo-title: Gestionnaire de suites de rapports
 solution: Analytics
-title: Gestionnaire de Report Suites
+title: Gestionnaire de suites de rapports
 topic: Outils d’administration
-uuid: 018 c 4 f 63-4 d 87-4 a 2 e -8 c 71-1 ba 7 f 5 dd 9446
+uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Gestionnaire de Report Suites
+# Gestionnaire de suites de rapports
 
 Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages web. Une suite de rapports correspond habituellement à un site web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports). Une suite de rapports peut également être plus petite qu’un site web si vous souhaitez générer des rapports pour une partie seulement de votre site. Les solutions d’Analytics combinent des données et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites de **[!UICONTROL rapports]**
 
 >[!NOTE]
 >
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Please refer to the [Virtual Report Suite documentation](/help/components/vrs/vrs-about.md).
+>Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Reportez-vous à la documentation [de la suite de rapports](/help/components/vrs/vrs-about.md)virtuelle.
 
 ## Descriptions du Gestionnaire de Report Suites {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -56,7 +56,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Cumuls</span> </td> 
-   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites. </p> <p>Voir <a href="../../admin/c-manage-report-suites/rollup-report-suite.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Suites de rapports de cumul</a>. </p> </td> 
+   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> Suites de rapports de cumul</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifier les paramètres</span> </td> 
@@ -64,7 +64,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Créer</span> </td> 
-   <td colname="col2">Voir <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#concept_3CBBE252279C43069030EFBBD7D26376" format="dita" scope="local">Nouvelle suite de rapports</a>. </td> 
+   <td colname="col2">Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nouvelle suite de rapports</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Personnaliser les colonnes</span> </td> 
@@ -72,15 +72,15 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Identifiant de Report Suite</span> </td> 
-   <td colname="col2">Voir <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">Nouvelle suite de rapports</a>. </td> 
+   <td colname="col2">Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nouvelle suite de rapports</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Titre du site</span> </td> 
-   <td colname="col2"> <p>Identifie les suites de rapports dans les outils d’administration, ainsi que dans la liste déroulante des suites de rapports dans l’en-tête du rapport marketing. </p> <p>Voir <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">Nouvelle suite de rapports</a>. </p> </td> 
+   <td colname="col2"> <p>Identifie les suites de rapports dans les outils d’administration, ainsi que dans la liste déroulante des suites de rapports dans l’en-tête du rapport marketing. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nouvelle suite de rapports</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> URL de base</span> </td> 
-   <td colname="col2"> <p>Définit le domaine de base de la suite de rapports. </p> <p>Voir <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">Nouvelle suite de rapports</a>. </p> </td> 
+   <td colname="col2"> <p>Définit le domaine de base de la suite de rapports. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nouvelle suite de rapports</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
