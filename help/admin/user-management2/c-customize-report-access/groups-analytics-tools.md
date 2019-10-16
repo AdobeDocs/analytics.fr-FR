@@ -9,7 +9,7 @@ title: Personnalisation des autorisations liées aux outils Analytics
 topic: Outils d’administration
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -26,7 +26,7 @@ Activez les autorisations d’utilisateurs pour les éléments généraux (factu
 
 >[!NOTE]
 >
->La version de l’automne 2016 (20 octobre) a apporté des modifications à la gestion des groupes. See [Administrative Changes - Fall 2016](../../../admin/user-management2/c-user-management/permissions-changes.md#concept_86581595B86B47D5B8F90282FC3E31EF) for a summary of changes.
+> La version de l’automne 2016 (20 octobre) a apporté des modifications à la gestion des groupes. See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
 
 ## Accès aux rapports – Outils Analytics
 
