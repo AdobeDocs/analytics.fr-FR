@@ -8,7 +8,7 @@ title: Dimensions disponibles pour les règles de traitement
 topic: Outils d’administration
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -41,7 +41,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de données contextuelles </p> </td> 
-   <td colname="col2"> <p>Variables nommées envoyées avec un accès. </p> <p>Remarque : Pour figurer dans un rapport, une donnée contenue dans une variable Données contextuelles doit être copiée dans une variable de création de rapports. Les variables Données contextuelles ne sont visibles dans aucune interface de création de rapports, y compris Flux de données de parcours de navigation. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copier une variable Données contextuelles dans une eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Définir un événement à l’aide d’une variable Données contextuelles </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variables de données contextuelles</a> </p> </td> 
+   <td colname="col2"> <p>Variables nommées envoyées avec un accès. </p> <p>Remarque : Pour figurer dans un rapport, une donnée contenue dans une variable Données contextuelles doit être copiée dans une variable de création de rapports. Les variables Données contextuelles ne sont visibles dans aucune interface de création de rapports, y compris Flux de données de parcours de navigation. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copier une variable Données contextuelles dans une eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> Définir un événement à l’aide d’une variable Données contextuelles </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variables de données contextuelles</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,12 +65,12 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
    <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Section du site </p> </td> 
-   <td colname="col2"> <p> <code>s.channel</code> </p> </td> 
+   <td colname="col1"> <p>Section Site </p> </td> 
+   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serveur </p> </td> 
-   <td colname="col2"> <p> <code>s.server</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL de la page </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> ou URL de la page en cours si <code>s.pageURL</code> n’est pas spécifié. </td> 
+   <td colname="col2"> <code> s.pageURL</code> ou URL de la page en cours si <code> s.pageURL</code> n’est pas spécifié. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paramètre de chaîne de requête </p> </td> 
@@ -164,7 +164,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
  <tbody> 
   <tr> 
    <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code>evarN</code> </p> </td> 
+   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code de suivi de campagne </p> </td> 
@@ -176,7 +176,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de liste 1 à 3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code>s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identifiant d’achat </p> </td> 
@@ -211,7 +211,7 @@ Les règles de traitement peuvent définir des événements, mais elles ne peuve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Événement 1-1000 </p> <p>(Pour les utilisateurs de SiteCatalyst 15, événement 1 à 100.) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code>event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase, scView, scAdd et autres événements de panier </p> </td> 
