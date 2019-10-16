@@ -7,7 +7,7 @@ title: Paramètres du compte général
 topic: Outils d’administration
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -34,7 +34,7 @@ Ces paramètres contiennent des options d’édition pour les fonctionnalités d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> URL de base</span> </td> 
-   <td colname="col2"> <p>Indique le site web principal de la suite de rapports. L’URL de base n’affecte pas le filtrage par référent. Utilisez plutôt des <a href="../../admin/admin/internal-url-filter-admin.md#concept_D6BB8358DB7643F0B13E5DC9B7607998" format="dita" scope="local"> filtres URL internes</a>. </p> </td> 
+   <td colname="col2"> <p>Indique le site web principal de la suite de rapports. L’URL de base n’affecte pas le filtrage par référent. Utilisez plutôt des <a href="/help/admin/admin/internal-url-filter-admin.md" format="dita" scope="local"> filtres URL internes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Fuseau horaire</span> </td> 
@@ -54,7 +54,7 @@ Ces paramètres contiennent des options d’édition pour les fonctionnalités d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Obscurcissement d’IP</span> </td> 
-   <td colname="col2"> <p>Transforme les adresses IP en chaînes impossibles à reconnaître, en les supprimant essentiellement des entrepôts de données d’Adobe. Lorsque l’option Obscurcissement d’IP est activée, les adresses IP d’origine sont définitivement perdues. </p> <p>Remarque : Les adresses IP sont obscurcies partout dans Analytics, y compris dans Data Warehouse. Toutefois, le paramètre IP dans Target est contrôlé individuellement, de sorte que ce paramètre n’a aucune incidence sur Target. </p> <p>Si l’obscurcissement d’IP est activé, l’exclusion de l’adresse IP survient avant l’obscurcissement ; ainsi, les clients n’ont rien à changer lorsqu’ils activent cette option. </p> <p>Si <span class="uicontrol">Désactivé</span> est coché, l’adresse IP est conservée dans les données. </p> <p>Cochez l’option <span class="uicontrol">Obscurcir les adresses IP</span> pour remplacer l’adresse IP par une valeur de hachage (par ex., 234abc6493872038). </p> <p>Cochez l’option <span class="uicontrol">Supprimer les adresses IP</span> pour remplacer l’adresse IP par x.x.x.x dans les données, après la recherche géographique. </p> <p>Note: This setting might require changes to custom <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot rules</a> or<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
+   <td colname="col2"> <p>Transforme les adresses IP en chaînes impossibles à reconnaître, en les supprimant essentiellement des entrepôts de données d’Adobe. Lorsque l’option Obscurcissement d’IP est activée, les adresses IP d’origine sont définitivement perdues. </p> <p>Remarque : Les adresses IP sont obscurcies partout dans Analytics, y compris dans Data Warehouse. Toutefois, le paramètre IP dans Target est contrôlé individuellement, de sorte que ce paramètre n’a aucune incidence sur Target. </p> <p>Si l’obscurcissement d’IP est activé, l’exclusion de l’adresse IP survient avant l’obscurcissement ; ainsi, les clients n’ont rien à changer lorsqu’ils activent cette option. </p> <p>Si <span class="uicontrol">Désactivé</span> est coché, l’adresse IP est conservée dans les données. </p> <p>Cochez l’option <span class="uicontrol">Obscurcir les adresses IP</span> pour remplacer l’adresse IP par une valeur de hachage (par ex., 234abc6493872038). </p> <p>Cochez l’option <span class="uicontrol">Supprimer les adresses IP</span> pour remplacer l’adresse IP par x.x.x.x dans les données, après la recherche géographique. </p> <p>Remarque : Ce paramètre peut nécessiter des modifications des règles <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> de robots personnalisées ou des</a> exclusions<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"></a>d’IP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Stockage de l’ID de transaction</span> </td> 
