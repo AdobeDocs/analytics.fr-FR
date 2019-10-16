@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Règles de traitement
 title: Fonctionnement des règles de traitement
 topic: Outils d’administration
-uuid: 19 c 31 f 94-c 8 d 8-47 b 1-97 fa -29 ed 98 c 94 e 87
+uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -33,7 +33,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Les règles s’appliquent à une seule suite de rapports. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md#task_6E4B82FCA687409B88F17EAFC353755D" type="task" format="dita" scope="local"> Copier des règles de traitement dans une autre suite de rapports </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Copier des règles de traitement dans une autre suite de rapports </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées dans l’ordre indiqué. </p> </td> 
@@ -41,15 +41,15 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées immédiatement à la suite de rapports dès qu’elles sont enregistrées. </p> </td> 
-   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous recommandons de configurer le <a href="../../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40" format="dita" scope="local"> rapports en temps réel</a> dans votre suite de rapports de test afin de pouvoir voir rapidement les résultats d'une règle de traitement. </p> </td> 
+   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous recommandons de configurer le <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement constituent la seule méthode d’accès aux variables de données contextuelles. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copier une variable Données contextuelles dans une eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copier une variable Données contextuelles dans une eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées avant les règles VISTA et les règles Canal marketing. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E" type="concept" format="dita" scope="local"> Ordre de traitement </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Ordre de traitement </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Il est impossible d’exclure les accès. </p> </td> 
@@ -64,7 +64,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
    <td colname="col2"> <p>La recherche de dispositif portable s’effectue avant les règles de traitement, mais les attributs ne sont pas disponibles dans les règles de traitement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Si vous exécutez JavaScript AppMeasurement H.25.2 ou version antérieure, la lecture des paramètres de chaîne de requête s’avère impossible au-delà des 255 premiers caractères d’une URL. JavaScript appmeasurement H .25 .3 et versions ultérieures fournissent l'URL complète, y compris tous les paramètres de chaîne de requête aux règles de traitement. </p> </td> 
+   <td colname="col1"> <p>Si vous exécutez JavaScript AppMeasurement H.25.2 ou version antérieure, la lecture des paramètres de chaîne de requête s’avère impossible au-delà des 255 premiers caractères d’une URL. JavaScript AppMeasurement H.25.3 et versions ultérieures fournissent l’URL complète, y compris tous les paramètres de chaîne de requête, aux règles de traitement. </p> </td> 
    <td colname="col2"> <p>Effectuez une mise à jour vers la version H.25.3 ou ultérieure, ou procédez à la lecture des paramètres de chaîne de requête d’URL longues côté client et stockez les valeurs dans des variables Données contextuelles. </p> </td> 
   </tr> 
   <tr> 
@@ -81,11 +81,11 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les comparaisons de valeurs dans l’interface utilisateur ne sont pas sensibles à la casse. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md#concept_958E924BCCBB4BBA91CE91C977FE5151" type="concept" format="dita" scope="local"> Nettoyer les valeurs d’un rapport </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Nettoyer les valeurs d’un rapport </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les noms des variables de données contextuelles peuvent contenir des caractères alphanumériques, des caractères de soulignement et des points. Tout caractère supplémentaire est supprimé. </p> </td> 
-   <td colname="col2"> <p>Par exemple, la variable de données contextuelles <code>login_page-home</code> devient automatiquement <code>login_pagehome</code>. Toutes les données envoyées à la variable <code>login_page-home</code> sont allouées sous <code>login_pagehome</code>. </p> <p>Seules les variables de données contextuelles qui contiennent des caractères pris en charge peuvent être ajoutées dans l’interface Règles de traitement. </p> </td> 
+   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>Seules les variables de données contextuelles qui contiennent des caractères pris en charge peuvent être ajoutées dans l’interface Règles de traitement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le caret (^) est un caractère spécial dans le système des règles de traitement. </p> </td> 
