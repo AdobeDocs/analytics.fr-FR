@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Règles de traitement
 title: Créer des règles de traitement
 topic: Outils d’administration
-uuid: fd 92 e 6 c 9-8 ef 0-4604-8 fd 4-4225527 b 4 fa 9
+uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -30,4 +30,4 @@ Les règles de traitement sont définies sur les suites de rapports.
 
    S’il existe plusieurs règles, faites-les glisser sur la page pour modifier l’ordre de traitement.
 
-   Voir [Exemples de règles de traitement](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md#concept_92527719A66849058108300DAE8A506B) pour plus d’informations sur les types de règles que vous pouvez créer.
+   Voir [Exemples de règles de traitement](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md) pour plus d’informations sur les types de règles que vous pouvez créer.
