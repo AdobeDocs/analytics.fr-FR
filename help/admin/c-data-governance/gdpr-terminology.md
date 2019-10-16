@@ -4,8 +4,8 @@ seo-description: valeur nulle
 seo-title: Terminologie relative au règlement général sur la protection des données (RGPD)
 title: Terminologie relative au règlement général sur la protection des données (RGPD)
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -52,13 +52,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **Groupe d’entreprises** : une entreprise qui exerce le contrôle et ses entreprises contrôlées
 
-**Identity Management Services (IMS, Services de gestion des identités)** : mise en œuvre de Federated ID et d’OAuth 2.0 par Adobe pour l’authentification des utilisateurs Adobe ID et l’autorisation des ressources Adobe. Vous devez intégrer l’IMS à votre application ou service Adobe pour permettre à vos utilisateurs de se connecter et d’accéder aux services Adobe. Les utilisateurs peuvent se connecter directement avec Renga (fournisseur de services d’identité d’Adobe) ou se connecter via un domaine d’authentification tiers sécurisé (tel que Google, Facebook ou le Protocole léger d’accès à un répertoire (LDAP) d’une entreprise/organisation).
+**Identity Management Services (IMS)** - Implémentation par Adobe de Federated ID et OAuth 2.0 pour l’authentification des utilisateurs d’ID Adobe et l’autorisation des ressources Adobe. Vous devez intégrer l’IMS à votre application ou service Adobe pour permettre à vos utilisateurs de se connecter et d’accéder aux services Adobe. Les utilisateurs peuvent se connecter directement avec Renga (fournisseur de services d’identité d’Adobe) ou se connecter via un domaine d’authentification tiers approuvé (tel que Google, Facebook ou un LDAP d’entreprise/organisation).
 
-**ID d’organisation Experience Cloud** : fait référence à un jeton d’autorisation Adobe pour l’authentification entre services, qui ne nécessite pas d’identification d’utilisateur. Il est attribué à un client IMS et n’a pas d’utilisateur associé. Un client IMS a besoin d’un jeton de service pour autoriser les demandes rétroactives entre les services. (Le terme « jeton système » est parfois utilisé pour désigner un jeton de service.)
+**ID d’organisation Experience Cloud** : fait référence à un jeton d’autorisation Adobe pour l’authentification entre services, qui ne nécessite pas d’identification d’utilisateur. Il est attribué à un client IMS et n’a pas d’utilisateur associé. Un client IMS a besoin d’un jeton de service pour autoriser les demandes rétroactives entre les services. (Le terme "jeton système" est parfois utilisé pour désigner le jeton de service.)
 
 **Siège principal** : lieu au sein de l’Union où les principales décisions concernant le traitement des données sont prises ; à l’égard de l’entité de traitement des données
 
-**Données personnelles** : toute information relative à une personne physique ou à un « sujet des données », qui peut être utilisée pour identifier directement ou indirectement la personne
+**Données** personnelles - toute information relative à une personne physique ou à un "sujet de données" qui peut être utilisée pour identifier directement ou indirectement la personne
 
 **Violation des données à caractère personnel** : violation de la sécurité entraînant l’accès accidentel ou illégal, la destruction, l’abus, etc. de données personnelles
 
