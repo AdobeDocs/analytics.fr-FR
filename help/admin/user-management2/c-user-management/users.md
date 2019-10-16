@@ -1,19 +1,19 @@
 ---
 description: La gestion des groupes et des utilisateurs de rapports sur la page Gestion utilisateur vous permet de gérer des utilisateurs et des groupes, ainsi que de contrôler l’accès aux rapports, outils et suites de rapports.
 seo-description: La gestion des groupes et des utilisateurs de rapports sur la page Gestion utilisateur vous permet de gérer des utilisateurs et des groupes, ainsi que de contrôler l’accès aux rapports, outils et suites de rapports.
-seo-title: Présentation de la gestion des utilisateurs
+seo-title: Gestion des utilisateurs - Aperçu
 solution: Analytics
 subtopic: Utilisateurs et groupes
-title: Présentation de la gestion des utilisateurs
+title: Gestion des utilisateurs - Aperçu
 topic: Outils d’administration
-uuid: 6 f 1 d 67 cd-e 169-461 b -9 f 08-eec 2 c 6 b 4 e 4 df
+uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Présentation de la gestion des utilisateurs
+# Gestion des utilisateurs - Aperçu
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 
 La gestion des groupes et des utilisateurs de rapports sur la page Gestion utilisateur vous permet de gérer des utilisateurs et des groupes, ainsi que de contrôler l’accès aux rapports, outils et suites de rapports.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Gestion **[!UICONTROL utilisateur]** &gt; **[!UICONTROL Modifier les utilisateurs]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Gestion des **** utilisateurs &gt; **[!UICONTROL Modifier les utilisateurs]**
 
 ## Descriptions des comptes d’utilisateurs {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -82,7 +82,7 @@ Crée un tableau de bord par défaut pour une suite de données spécifique.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Utilisateur</span> </td> 
-   <td colname="col2"> <p> N’accorde à l’utilisateur que les autorisations de groupe sélectionnées. Sélectionnez les groupes de votre choix dans le champ <span class="uicontrol">Groupes disponibles</span> (à gauche), puis cliquez sur <span class="uicontrol">Ajouter</span>. Les groupes affectés apparaissent dans le champ <span class="uicontrol">Groupes affectés</span> (à droite). For information about creating and managing groups, see <a href="../../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> N’accorde à l’utilisateur que les autorisations de groupe sélectionnées. Sélectionnez les groupes de votre choix dans le champ <span class="uicontrol">Groupes disponibles</span> (à gauche), puis cliquez sur <span class="uicontrol">Ajouter</span>. Les groupes affectés apparaissent dans le champ <span class="uicontrol">Groupes affectés</span> (à droite). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
