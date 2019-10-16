@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Utilisateurs et groupes
 title: Gestion des utilisateurs et des produits
 topic: Outils d’administration
-uuid: 891 a 8 cb 3-b 77 d -46 f 6-ab 23-cbed 49 f 215 b 5
+uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -68,7 +68,7 @@ Le tableau suivant décrit les éléments de l’onglet [!UICONTROL Utilisateurs
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ajouter un nouvel utilisateur</span> </td> 
-   <td colname="col2"> <p>Permet d’ajouter un compte d’utilisateur à la société. Ce lien est disponible uniquement si la valeur Nombre d’identifications d’utilisateur restantes est supérieure à 0. </p> <p>Voir <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Utilisateurs</a>. </p> </td> 
+   <td colname="col2"> <p>Permet d’ajouter un compte d’utilisateur à la société. Ce lien est disponible uniquement si la valeur Nombre d’identifications d’utilisateur restantes est supérieure à 0. </p> <p>Voir Utilisateurs <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Télécharger le rapport</span> </td> 
@@ -76,7 +76,7 @@ Le tableau suivant décrit les éléments de l’onglet [!UICONTROL Utilisateurs
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Connexion</span> </td> 
-   <td colname="col2"> <p>Nom de l’utilisateur. Vous pouvez cliquer sur le nom de l’utilisateur pour modifier les propriétés du compte. </p> <p>Voir <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Utilisateurs</a>. </p> </td> 
+   <td colname="col2"> <p>Nom de l’utilisateur. Vous pouvez cliquer sur le nom de l’utilisateur pour modifier les propriétés du compte. </p> <p>Voir Utilisateurs <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Prénom</span> </td> 
@@ -112,7 +112,7 @@ Le tableau suivant décrit les éléments de l’onglet [!UICONTROL Utilisateurs
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifier</span> </td> 
-   <td colname="col2"> <p>Permet de modifier les paramètres du compte d’utilisateur. </p> <p>Voir <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Utilisateurs</a>. </p> </td> 
+   <td colname="col2"> <p>Permet de modifier les paramètres du compte d’utilisateur. </p> <p>Voir Utilisateurs <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Supprimer</span> </td> 
@@ -120,7 +120,7 @@ Le tableau suivant décrit les éléments de l’onglet [!UICONTROL Utilisateurs
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transférer</span> </td> 
-   <td colname="col2">Vous pouvez affecter les privilèges (autorisations et accès aux ressources) d’un compte d’utilisateur à un autre. <p>Voir <a href="../../admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md#task_A17A57DB5B114E869ABB1768F7910092" format="dita" scope="local"> Transfert des privilèges d’un compte d’utilisateur</a>. </p> </td> 
+   <td colname="col2">Vous pouvez affecter les privilèges (autorisations et accès aux ressources) d’un compte d’utilisateur à un autre. <p>Voir <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> Transfert des privilèges d’un compte d’utilisateur</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Se connecter en tant que cet utilisateur</span> </td> 
