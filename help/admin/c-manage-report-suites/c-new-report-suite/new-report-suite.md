@@ -1,22 +1,22 @@
 ---
 description: Vous pouvez créer une suite de rapports en sélectionnant un modèle prédéfini ou en utilisant l’une de vos suites de rapports existantes pour servir de modèle.
 seo-description: Vous pouvez créer une suite de rapports en sélectionnant un modèle prédéfini ou en utilisant l’une de vos suites de rapports existantes pour servir de modèle.
-seo-title: Nouvelle suite de rapports - paramètres
+seo-title: Paramètres d’une nouvelle suite de rapports
 solution: Analytics
-title: Nouvelle suite de rapports - paramètres
+title: Paramètres d’une nouvelle suite de rapports
 topic: Outils d’administration
-uuid: 3508 f 684-11 a 3-4 c 8 f-a 233-bea 6 bafd 57 c 0
+uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Nouvelle suite de rapports - paramètres
+# Paramètres d’une nouvelle suite de rapports
 
 Vous pouvez créer une suite de rapports en sélectionnant un modèle prédéfini ou en utilisant l’une de vos suites de rapports existantes pour servir de modèle.
 
-Descriptions des éléments utilisés lors de la [création d’une suite de rapports](../../../admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md#task_67033B9710CB49F9B71A4DE374A538A0).
+Descriptions des éléments utilisés lors de la [création d’une suite de rapports](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
   </tr> 
   <tr> 
    <td colname="col1"> <p>Date d’activation </p> </td> 
-   <td colname="col2">Informe Adobe de la date prévue pour l’activation de cette suite de rapports. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">Informe Adobe de la date prévue pour l’activation de cette suite de rapports. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Estimation du nombre de pages vues par jour</span> </td> 
@@ -60,11 +60,11 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Devise de base</span> </td> 
-   <td colname="col2"> <p>Indique la devise par défaut utilisée pour stocker toutes les données monétaires. La fonction de création de rapports d’Analytics convertit, dans la devise de base, les transactions effectuées dans d’autres devises en utilisant le taux de conversion en vigueur à la réception des données. </p> <p> La fonction de création de rapports d’Analytics utilise la variable JavaScript <span class="varname"> Variable</span> JavaScript currencycode pour identifier la devise d'une transaction donnée. </p> </td> 
+   <td colname="col2"> <p>Indique la devise par défaut utilisée pour stocker toutes les données monétaires. La fonction de création de rapports d’Analytics convertit, dans la devise de base, les transactions effectuées dans d’autres devises en utilisant le taux de conversion en vigueur à la réception des données. </p> <p> La fonction de création de rapports d’Analytics utilise la variable JavaScript <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">Désactiver la prise en charge de caractères complexes</span> </td> 
-   <td colname="col2"> <p>Désactive la prise en charge des caractères complexes pour la suite de rapports. Si vous désactivez cette prise en charge, le système suppose que ces données sont au format ISO-8859-1. Les pages Web doivent spécifier leur jeu de caractères dans la variable JavaScript <span class="varname"> Variable</span> JavaScript charset. </p> <p>La prise en charge des caractères complexes stocke les caractères dans la suite de rapports à l’aide du codage UTF-8. À la réception des données, le système les convertit depuis le jeu de caractères de la page web au format UTF-8, de sorte que vous puissiez utiliser n’importe quelle langue dans vos rapports marketing. </p> <p>Contactez votre gestionnaire de compte ou le service d’assistance clientèle pour modifier la prise en charge de caractères complexes (multi-octets) d’une suite de rapports existante. </p> </td> 
+   <td colname="col2"> <p>Désactive la prise en charge des caractères complexes pour la suite de rapports. Si vous désactivez cette prise en charge, le système suppose que ces données sont au format ISO-8859-1. Les pages Web doivent spécifier leur jeu de caractères dans la variable JavaScript <span class="varname"> charSet</span> , variable JavaScript. </p> <p>La prise en charge des caractères complexes stocke les caractères dans la suite de rapports à l’aide du codage UTF-8. À la réception des données, le système les convertit depuis le jeu de caractères de la page web au format UTF-8, de sorte que vous puissiez utiliser n’importe quelle langue dans vos rapports marketing. </p> <p>Contactez votre gestionnaire de compte ou le service d’assistance clientèle pour modifier la prise en charge de caractères complexes (multi-octets) d’une suite de rapports existante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Activer l’Ad Hoc Analysis pour cette suite</span> </td> 
