@@ -1,18 +1,18 @@
 ---
 description: Gérez les licences attribuées aux utilisateurs du Report Builder.
 seo-description: Gérez les licences attribuées aux utilisateurs du Report Builder.
-seo-title: Rapports du créateur de rapports
+seo-title: Rapports du Report Builder
 solution: Analytics
-title: Rapports du créateur de rapports
+title: Rapports du Report Builder
 topic: Outils d’administration
-uuid: 41 f 98 b 99-9 a 78-430 a -8 a 42-101 eddd 3 d 2 ef
+uuid: 41f98b99-9a78-430a-8a42-101edd3d2ef
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Rapports du créateur de rapports
+# Rapports du Report Builder
 
 Gérez les licences attribuées aux utilisateurs du Report Builder.
 
@@ -22,4 +22,4 @@ You can grant report builder access to any [!DNL Analytics] user by adding them 
 
 Le tableau d’informations [!UICONTROL Usage des tâches planifiées] répertorie tous les utilisateurs avec des privilèges d’accès au Report Builder.
 
-Voir [Groupes](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F).
+Voir [Groupes](/help/admin/user-management2/c-user-groups/groups.md).
