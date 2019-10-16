@@ -5,9 +5,9 @@ seo-title: Prévision d’un pic de trafic
 solution: Analytics
 title: Prévision d’un pic de trafic
 topic: Outils d’administration
-uuid: 350 bebc 0-0593-4 ee 7-b 7 e 2-7848 d 9 f 5726 b
+uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La section Prévoir les pics vous permet de signaler des pics de trafic temporaires à Adobe, de telle sorte que des ressources suffisantes puissent être allouées pour leur traitement.
 
-Lisez les informations relatives à l’ [Délai d’avance requis pour les augmentations de trafic](../../admin/c-traffic-management/traffic-lead-time.md#concept_29FA0D270651429D9D068F93CC43F667) avant de spécifier une hausse importante du trafic.
+Lisez les informations relatives à l’ [Délai d’avance requis pour les augmentations de trafic](/help/admin/c-traffic-management/traffic-lead-time.md) avant de spécifier une hausse importante du trafic.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Sélectionnez une suite de rapports.
@@ -29,5 +29,5 @@ Lisez les informations relatives à l’ [Délai d’avance requis pour les augm
 
    >[!NOTE]
    >
-   >Pour planifier un pic de trafic, ajoutez un numéro de téléphone dans vos coordonnées de contact afin qu'Adobe puisse vous contacter pour toute question, si nécessaire.
+   >Pour planifier un pic de trafic, indiquez un numéro de téléphone dans vos coordonnées utilisateur afin qu’Adobe puisse vous contacter si nécessaire.
 
