@@ -5,9 +5,9 @@ seo-title: Indication d’une augmentation permanente du trafic
 solution: Analytics
 title: Indication d’une augmentation permanente du trafic
 topic: Outils d’administration
-uuid: 53 acbe 97-7 f 63-4608-b 2 f 3-bd 885 eae 7 e 6 d
+uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Les sections Trafic permanent vous permettent de modifier vos prévisions en termes de volume de trafic, de telle sorte qu’Adobe puisse réaffecter des ressources en conséquence.
 
-Lisez les informations relatives à l’ [Délai d’avance requis pour les augmentations de trafic](../../admin/c-traffic-management/traffic-lead-time.md#concept_29FA0D270651429D9D068F93CC43F667) avant de spécifier une hausse importante du trafic.
+Lisez les informations relatives à l’ [Délai d’avance requis pour les augmentations de trafic](/help/admin/c-traffic-management/traffic-lead-time.md) avant de spécifier une hausse importante du trafic.
 
 1. Open the Report Suite Manager by clicking **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. Sélectionnez une suite de rapports.
@@ -28,5 +28,5 @@ Lisez les informations relatives à l’ [Délai d’avance requis pour les augm
 
    >[!NOTE]
    >
-   >Pour programmer une augmentation permanente du trafic, incluez un numéro de téléphone dans vos coordonnées de contact afin qu'Adobe puisse vous contacter si nécessaire.
+   >Pour planifier une augmentation permanente du trafic, indiquez un numéro de téléphone dans vos coordonnées d’utilisateur afin qu’Adobe puisse vous contacter si nécessaire.
 
