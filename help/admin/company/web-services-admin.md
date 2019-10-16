@@ -5,26 +5,26 @@ seo-title: Services web
 solution: Analytics
 title: Services web
 topic: Outils d’administration
-uuid: ccae 04 cf-f 58 c -490 e-baaa-ee 04 c 534 b 28 d
+uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Services Web
+# Services web
 
 Les API de services Web offrent un accès par programmation à des rapports marketing et à d’autres services de la suite, qui permettent de dupliquer et d’améliorer les fonctionnalités disponibles dans l’interface d’Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Paramètres de la société]** &gt; **[!UICONTROL Services Web]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Paramètres **[!UICONTROL de]** la société &gt; Services **[!UICONTROL Web]**
 
 ## Gérer les services Web
 
-Dans Gestion utilisateur &gt; [Groupes](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F), vous pouvez mettre à jour le groupe Accès aux services Web afin d’inclure les utilisateurs qui doivent accéder aux API de services Web.
+Dans Gestion utilisateur &gt; [Groupes](/help/admin/user-management2/c-user-groups/groups.md), vous pouvez mettre à jour le groupe Accès aux services Web afin d’inclure les utilisateurs qui doivent accéder aux API de services Web.
 
 ## WSDL : téléchargez le fichier WSDL de l’API des services Web pour les développeurs de services.
 
-Visit [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), which provides documentation, sample code, and forums related to the Web Services APIs. Pour plus d’informations, cliquez sur Aperçu des API de services Web.
+Visitez [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), qui fournit de la documentation, des exemples de code et des forums relatifs aux API de services Web. Pour plus d’informations, cliquez sur Aperçu des API de services Web.
 
 ## Options de filtrage
 
