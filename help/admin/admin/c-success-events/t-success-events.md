@@ -5,9 +5,9 @@ seo-title: Configurer des événements de succès
 solution: Analytics
 title: Configurer des événements de succès
 topic: Outils d’administration
-uuid: ca 3 d 3 f 46-5 fad -4481-aef 6-04 cad 6 bc 6 e 2 d
+uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -27,16 +27,17 @@ Cette procédure décrit la configuration d’événements de succès.
 
    >[!NOTE]
    >
-   >Before you change an event type, see [Change event type](../../../admin/admin/c-success-events/event-type.md#concept_2A6FCC19E7FC429DBDFA65BC640BD448).
+   >Avant de modifier un type d’événement, voir [Modification du type](/help/admin/admin/c-success-events/event-type.md)d’événement.
 
-   Pour plus d’informations sur ces éléments, reportez-vous à la section [Page Événements de succès – Descriptions](../../../admin/admin/c-success-events/success-event.md#section_681ECEC981694CABBDBF00E18165B447).
+   Pour plus d’informations sur ces éléments, reportez-vous à la section [Page Événements de succès – Descriptions](/help/admin/admin/c-success-events/success-event.md).
 
 1. In the **[!UICONTROL Polarity]** column, specify whether an upward trend for this metric is good or bad.
 1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.
 
-   Ce paramètre n’a aucun impact sur la collecte des données pour cette mesure ou cet événement ; il affecte uniquement sa visibilité dans l’interface utilisateur. [Plus...](../../../admin/admin/metric-visibility.md#concept_A85EB68D27534C4581AF1DCF5702DDE5) 1. Fournissez une description.
+   Ce paramètre n’a aucun impact sur la collecte des données pour cette mesure ou cet événement ; il affecte uniquement sa visibilité dans l’interface utilisateur. [Plus...](/help/admin/admin/metric-visibility.md)
+1. Fournissez une description.
 1. Vérifiez si l’événement doit être toujours enregistré.
-1. Enable or disable [participation metrics](/help/components/c-variables/c-metrics/metrics-participation.md).
+1. Activez ou désactivez [les mesures](/help/components/c-variables/c-metrics/metrics-participation.md)de participation.
 
    >[!NOTE]
    >
