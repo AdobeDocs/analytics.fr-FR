@@ -1,20 +1,20 @@
 ---
-description: Variables de gestion du consentement dans la confidentialité des données.
-seo-description: Variables de gestion du consentement dans la confidentialité des données.
-seo-title: Variables de gestion du contenu
+description: Variables pour la création de rapports de confidentialité dans la confidentialité des données.
+seo-description: Variables pour la création de rapports de confidentialité dans la confidentialité des données.
+seo-title: Variables de création de rapports de confidentialité
 solution: Analytics
-title: Variables de gestion du contenu
+title: Variables de création de rapports de confidentialité
 topic: Outils d’administration
 translation-type: tm+mt
-source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
+source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ---
 
 
-# Variables de gestion du contenu
+# Variables de création de rapports de confidentialité
 
 Pour faciliter la gestion des données de confidentialité, un ensemble de variables réservées peut être utilisé conjointement avec des variables de données contextuelles spécifiques.
-Ces variables de gestion du consentement fournissent un cadre convivial pour capturer l’état du consentement sur chaque accès d’analyse.
+Ces variables de rapports de confidentialité fournissent un cadre convivial pour la capture de l’état de confidentialité sur chaque accès Analytics.
 
 ## Variables
 
@@ -35,7 +35,7 @@ Ces variables de gestion du consentement fournissent un cadre convivial pour cap
 
 ## Création de rapports  
 
-Vous pouvez activer les variables de gestion du consentement via un nouveau paramètre de confidentialité disponible dans la console d’administration Analytics.
+Vous pouvez activer les variables de création de rapports de confidentialité à l’aide d’un nouveau paramètre de confidentialité disponible dans la console d’administration Analytics.
 
 Chaque suite de rapports peut être configurée comme suit :
 1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
@@ -57,7 +57,7 @@ Chaque suite de rapports peut être configurée comme suit :
 
 ## Mise en œuvre
 
-Trois variables de données contextuelles ont été prédéfinies pour fonctionner avec les variables réservées de la gestion du consentement.  Il appartient à chaque ingénieur de l’implémentation de déterminer comment gérer et conserver le paramètre de ces variables.
+Trois variables de données contextuelles ont été prédéfinies pour fonctionner avec les variables réservées de la gestion des rapports de confidentialité.  Il appartient à chaque ingénieur de l’implémentation de déterminer comment gérer et conserver le paramètre de ces variables.
 
 Voir Variables [de données](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) contextuelles pour obtenir des instructions générales sur l’implémentation des variables de données contextuelles.
 
