@@ -1,20 +1,20 @@
 ---
-description: Répertorie les paramètres de navigateur qui ne sont pas compatibles avec l’utilisation d’Activity Map. Désactivez ces paramètres.
-seo-description: Répertorie les paramètres de navigateur qui ne sont pas compatibles avec l’utilisation d’Activity Map. Désactivez ces paramètres.
-seo-title: Dépannage des extensions du navigateur
+description: Répertorie les paramètres du navigateur qui ne sont pas compatibles avec l’utilisation de [!Carte d’activités DNL]. Désactivez ces paramètres.
+seo-description: Répertorie les paramètres du navigateur qui ne sont pas compatibles avec l’utilisation de [!Carte d’activités DNL]. Désactivez ces paramètres.
+seo-title: Dépannage des extensions de navigateur
 solution: Analytics
-title: Dépannage des extensions du navigateur
+title: Dépannage des extensions de navigateur
 topic: Activity Map
-uuid: ae 7 acb 98-4728-45 af -8 cb 4-62 a 1 e 9622543
+uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Dépannage des extensions du navigateur
+# Résolution des problèmes liés aux extensions du navigateur
 
-Affiche les paramètres du navigateur qui ne sont pas compatibles avec l'utilisation de Carte d'activités. Désactivez ces paramètres.
+Shows the browser parameters that are not compatible with the use of [!DNL Activity Map]. Désactivez ces paramètres.
 
 ## Chrome
 
