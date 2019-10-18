@@ -1,20 +1,20 @@
 ---
-description: Étapes pour commencer le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
-seo-description: Étapes pour commencer le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
-seo-title: Commencer le suivi des liens
+description: Etapes de démarrage du suivi des liens dans [!Carte d’activités DNL] ou ClickMap hérité.
+seo-description: Etapes de démarrage du suivi des liens dans [!Carte d’activités DNL] ou ClickMap hérité.
+seo-title: Démarrage du suivi des liens
 solution: Analytics
-title: Commencer le suivi des liens
+title: Démarrage du suivi des liens
 topic: Activity Map
-uuid: 425 cb 287-f 76 e -4430-802 f -288499711 ba 9
+uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Commencer le suivi des liens
+# Démarrage du suivi des liens
 
-Étapes pour commencer le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
+Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,15 +25,20 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> Ajoutez le contenu suivant au fichier Appmeasurement.js : 
-    <code>/* START Activity Map MODULE Le module suivant active le suivi de Carte d'activités dans Adobe Analytics.Carte d'activités vous permet d'afficher des incrustations de données sur vos liens et contenus afin de comprendre comment les utilisateurs interagissent avec votre site Web.Si vous n'envisagez pas d'utiliser Carte d'activités, vous pouvez supprimer le bloc de code suivant de votre fichier appmeasurement. js.
-  Additional documentation on how to configure Activity Map is available at:
-      https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
+   <td colname="col1"> [!Carte d’activités DNL] </td> 
+   <td colname="col2"> Add the following content from the Appmeasurement.js file: 
+    <code>
+     /*
+     &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
+     &nbsp;allows&nbsp;you&nbsp;to&nbsp;view&nbsp;data&nbsp;overlays&nbsp;on&nbsp;your&nbsp;links&nbsp;and&nbsp;content&nbsp;to&nbsp;understand&nbsp;how
+     &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
+     &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
+     &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
+     &nbsp;https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
      */
-     function AppMeasurement_Module_Activity Map(g){func
+     function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
-     /* END Activity Map MODULE */
+     /*&nbsp;END&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;*/
     </code> </td> 
   </tr> 
   <tr> 
