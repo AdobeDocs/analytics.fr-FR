@@ -1,20 +1,20 @@
 ---
-description: Vous permet d’appliquer un filtre de segments multiples dans Activity Map.
-seo-description: Vous permet d’appliquer un filtre de segments multiples dans Activity Map.
+description: Vous permet d’appliquer un filtre à plusieurs segments dans [!Carte d’activités DNL].
+seo-description: Vous permet d’appliquer un filtre à plusieurs segments dans [!Carte d’activités DNL].
 seo-title: Segmentation des clients
 solution: Analytics
 title: Segmentation des clients
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Segmentation des clients
 
-Vous permet d’appliquer un filtre de segments multiples dans Activity Map.
+Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
 >[!NOTE]
 >
@@ -30,4 +30,4 @@ Lorsque plusieurs segments sont sélectionnés, le libellé de sélection de seg
 
 ![](assets/two_segments.png)
 
-Les segments sélectionnés seront appliqués à tous les rapports Analytics présentés dans Activity Map, c’est-à-dire les superpositions et les rapports **[!UICONTROL Liens sur la page]** et **Détails de la page[!UICONTROL .]**
+The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
