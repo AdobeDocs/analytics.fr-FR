@@ -1,30 +1,30 @@
 ---
-description: Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
-seo-description: Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Carte d’activités.
-seo-title: Questions fréquentes sur Carte d’activités
+description: Questions fréquentes sur la configuration, la configuration et l’utilisation des fonctionnalités dans [!Carte d’activités DNL].
+seo-description: Questions fréquentes sur la configuration, la configuration et l’utilisation des fonctionnalités dans [!Carte d’activités DNL].
+seo-title: FAQ sur [!Carte d’activités DNL]
 solution: Analytics
-title: Questions fréquentes sur Activity Map
+title: FAQ sur [!Carte d’activités DNL]
 topic: Activity Map
-uuid: e 4 f 6 d 4 e 2-55 d 1-4 e 32-bf 70-a 334178 af 370
+uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 8f72f8cf086be0eade5616b074123a9f22e33347
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Questions fréquentes sur Activity Map
+# [!DNL Activity Map] FAQ
 
-Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
+Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans [!DNL Activity Map].
 
 ## Mise en œuvre et AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
 
-**Q : Quelles sont les étapes de mise en œuvre nécessaires pour activer la nouvelle version d’Activity Map ?**
+**Q : Quelles sont les étapes de mise en oeuvre pour activer la nouvelle[!DNL Activity Map]?**
 
-A: Please review [Enable Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+A : Veuillez consulter [Activer [!Carte d’activités DNL]](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 
 **Q : Tous les clients Analytics ont-ils accès à la page d’activation d’Activity Map dans les outils d’administration ?**
 
-R : Les clients Adobe SiteCatalyst n’ont pas accès à la page d’activation d’Activity Map dans Admin Console. Seules les entreprises sous contrat Adobe Analytics Standard et Adobe Analytics Premium ont accès à cette page de configuration.
+A: Adobe SiteCatalyst customers do not have access to the Admin Console’s [!DNL Activity Map] Enablement page. Seules les entreprises sous contrat Adobe Analytics Standard et Adobe Analytics Premium ont accès à cette page de configuration.
 
 **Q : Le nouveau code AppMeasurement peut-il être configuré à l’aide de la Dynamic Tag Management ?**
 
@@ -32,29 +32,29 @@ R : Oui, vous pouvez [mettre en œuvre manuellement](https://marketing.adobe.co
 
 **Q : Quels sont les principaux changements apportés à la bibliothèque AppMeasurement version 1.6 ?**
 
-R : Le seul changement apporté à AppMeasurement version 1.6 est la méthodologie du processus de suivi des liens d’Activity Map qui nécessite la collecte du nom de la page, de l’ID de lien et de l’ID de région.
+A: The only change in AppMeasurement v1.6 is in the [!DNL Activity Map] link tracking process methodology that requires the collection of Page name, Link ID and RegionID.
 
 **Q : AppMeasurement sera-t-il déployé au niveau du domaine plutôt que sur des pages spécifiques ?**
 
 R : AppMeasurement est déployé au niveau des suites de rapports. Celui-ci est généralement associé à un niveau de domaine, mais cela varie pour chaque mise en œuvre.
 
-**Q : La gestion dynamique des balises charge automatiquement une version (1.3.4) de l’API visiteur plus ancienne que celle requise par Activity Map (1.5.1). Est-ce un problème ?**
+**[!DNL Activity Map]Q : La gestion dynamique des balises charge automatiquement une version (1.3.4) de l’API visiteur plus ancienne que celle requise par  (1.5.1). Est-ce un problème ?**
 
-R : Non. La fonctionnalité d’Activity Map ne dépend pas de l’API visiteur.
+R : Non. [!DNL Activity Map] ne dépend pas de VisitorAPI.
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## [!DNL Activity Map] application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
-**Q : Puis-je utiliser Activity Map si je n’utilisais pas la carte des clics des visiteurs auparavant sur mon site web ?**
+**[!DNL Activity Map]Q : Puis-je utiliser si je n’utilisais pas la carte des clics des visiteurs auparavant sur mon site web ?**
 
 R : La version héritée (désormais simplement appelée ClickMap) n’a pas besoin d’être préalablement installée pour mettre en œuvre la nouvelle version. Adobe continuera à prendre en charge la version héritée pour une période limitée.
 
-**Q : Quels navigateurs et versions sont pris en charge par Activity Map ?**
+**Q : Quels navigateurs et versions sont pris en charge par[!DNL Activity Map]?**
 
 R : Seule la dernière version des quatre navigateurs principaux (Chrome, Firefox, Safari et IE) est prise en charge.
 
 **Q : Quels sont les paramètres de superposition par défaut ?**
 
-R : Par défaut, Activity Map affiche TOUS les liens qui ont collecté des données.
+A: By default, [!DNL Activity Map] shows ALL links that have collected data.
 
 Lorsque des panneaux contextuels s’affichent au-dessus des pages web des clients, les superpositions appartenant aux liens situés en dessous du panneau contextuel peuvent s’afficher au-dessus de celui-ci.
 
@@ -67,37 +67,37 @@ R : Certains liens avec classement peuvent être masqués sur la page (par exem
 * En mode **dégradé** et **bulle**, le classement est déterminé par la colonne de mesures. Pour les liens disposant de la même valeur de mesure, le classement est déterminé selon l’ordre alphabétique des ID de lien.
 * En mode **gagnant et perdant**, le classement est principalement déterminé par la colonne de % de gain. Pour les liens disposant du même gain, le classement est déterminé selon l’ordre alphabétique des ID de lien.
 
-**Q : Pourquoi les données de clic sur les liens ne sont-elles pas collectées lors de l’exécution d’Activity Map ?**
+**Q : Pourquoi les données de clic sur les liens ne sont-elles pas collectées lors de l’[!DNL Activity Map]exécution ?**
 
-R : Lors de l’utilisation d’Activity Map, les données de clic sur les liens ne sont pas collectées par la balise Analytics. Ce comportement est identique à celui du module Carte des clics.
+A: While [!DNL Activity Map] is in use, link click data is not collected by the Analytics tag. Ce comportement est identique à celui du module Carte des clics.
 
 **Q : Pourquoi le menu déroulant des mesures répertorie-t-il la même mesure plusieurs fois ?**
 
-R : Activity Map répertorie les mesures pour toutes les suites de rapports. Par conséquent, vous pouvez vous attendre à voir des mesures en double si l’entreprise n’est pas passée par un [processus de consolidation des mesures](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
+A: [!DNL Activity Map] lists metrics for all report suites. Par conséquent, vous pouvez vous attendre à voir des mesures en double si l’entreprise n’est pas passée par un [processus de consolidation des mesures](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
 
 Le menu déroulant des mesures vous permet de limiter la liste des mesures calculées à celles qui sont affectées à la suite de rapports de la page visitée.
 
-**Q : Comment le rapport Tous les liens d’Activity Map se compare-t-il à la création de rapports d’Activity Map de Reports &amp; Analytics ?**
+**Q : Comment le rapport[!DNL Activity Map]Tous les liens se compare-t-il aux[!DNL Activity Map]rapports Rapports et analyses ?**
 
-A: To pull the All Links Report in Activity Map, we create a breakdown request as follows: Activity Map Page = “visitedpage”, broken down by Activity Map Link&amp;Region in `<list of link&regions present in the page at rendering time>`.
+A : Pour extraire le rapport Tous les liens dans [!DNL Activity Map], nous créons une demande de ventilation comme suit : [!DNL Activity Map] Page = "visitedpage", ventilée par [!DNL Activity Map] &amp;région dans `<list of link&regions present in the page at rendering time>`.
 
-Pour obtenir un rapport équivalent dans Reports &amp; Analytics, vous devez d’abord naviguer vers le rapport Page d’Activity Map. Vous pouvez appliquer un filtre pour le nom de la page visitée dans Activity Map. Celui-ci s’affiche dans la colonne gauche du panneau inférieur des détails de la page d’Activity Map. Une fois la page trouvée, vous pouvez ventiler à partir de cette page et choisir les liens et régions d’Activity Map comme dimension secondaire.
+To get an equivalent report in Reports &amp; Analytics, you would need to first navigate to the [!DNL Activity Map] Page report. Vous pouvez appliquer un filtre pour le nom de la page visitée dans [!DNL Activity Map]. The visited Pagename is shown in the left column in the [!DNL Activity Map] Page Details Bottom Panel. Once the page has been found, you can break down from that page and choose [!DNL Activity Map] Links &amp; Regions as a secondary dimension.
 
-Cependant, il est important de noter que le rapport obtenu dans Rapports et analyses répertoriera tous les liens et régions collectés pour cette page. Les rapports d’Activity Map tiennent uniquement compte des liens et régions figurant actuellement sur la page web. Si vous possédez un site d’actualités, seules les données pour l’actualité figurant sur la page à ce moment-là s’afficheront, et non les actualités qui y figuraient plus tôt dans la journée.
+Cependant, il est important de noter que le rapport obtenu dans Rapports et analyses répertoriera tous les liens et régions collectés pour cette page. But [!DNL Activity Map] only reports on Links&amp;Regions that are currently present in the webpage. Si vous possédez un site d’actualités, seules les données pour l’actualité figurant sur la page à ce moment-là s’afficheront, et non les actualités qui y figuraient plus tôt dans la journée.
 
-**Q : Comment Activity Map fonctionne-t-elle avec les pages contenant plusieurs balises répertoriant plusieurs suites de rapports ?**
+**[!DNL Activity Map]Q : Comment fonctionne-t-elle avec les pages contenant plusieurs balises répertoriant plusieurs suites de rapports ?**
 
-R : Par défaut, Activity Map utilise la suite de rapports associée à la première balise envoyée par la page.
+A: By default, [!DNL Activity Map] uses the report suite that is associated with the first tag that is sent by the page.
 
-Vous pouvez sélectionner une suite de rapports balisée différente dans l’onglet Paramètres d’Activity Map &gt; Autres.
+You can select a different tagged report suite through the [!DNL Activity Map] Settings &gt; Others tab.
 
-**Q : Pendant combien de temps Activity Map analyse-t-elle la balise Analytics ?**
+**[!DNL Activity Map]Q : Pendant combien de temps analyse-t-elle la balise Analytics ?**
 
 R : Nous analysons la balise Analytics jusqu’à 20 secondes après un événement de page.
 
-**Q : Comment Activity Map gère-t-elle le contenu dynamique ?**
+**Q : Comment gère-t-on[!DNL Activity Map]le contenu dynamique ?**
 
-R : Activity Map vérifie toutes les 2 secondes si des changements ont été apportés à l’état de la page web, par exemple :
+A: [!DNL Activity Map] checks every 2 seconds to see if it has found changes in the state of the web page such as:
 
 * le contenu HTML devenu visible ;
 * le contenu HTML masqué ;
@@ -111,7 +111,7 @@ Si du nouveau contenu a été injecté, l’application récupère les liens ass
 
 R : Toutes les données affichées se basent sur les pages vues.
 
-**Q : Pouvez-vous décrire le comportement d’Activity Map avec différents types de pages ?**
+**Q : Pouvez-vous expliquer[!DNL Activity Map]le comportement avec différents types de pages ?**
 
 *Page web sans balise Analytics*
 
@@ -119,28 +119,28 @@ Un message d’avertissement s’affiche sous la barre d’outils et indique qu�
 
 *Page web avec balise Analytics incompatible (AppMeasurement version 1.5 ou antérieure)*
 
-Un message d'avertissement s'affiche indiquant que vous devez (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable. md) mettre à niveau le code de page vers la version 1.6.
+Un message d’avertissement s’affiche indiquant que vous devez (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) mettre à niveau le code de page vers la version 1.6.
 
-*Page web avec balise Analytics compatible (AppMeasurement version 1.6 ou ultérieure), mais la création de rapports d’Activity Map n’a pas été activée dans les outils d’administration*
+*Page Web avec balise Analytics compatible (AppMeasurement version 1.6 ou ultérieure), mais la création de[!DNL Activity Map]rapports n’était pas activée dans les outils d’administration*
 
-Un message d'avertissement s'affiche indiquant que vous devez demander à votre administrateur\ [Activer le rapport Carte d'activités\] (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable. md).
+Un message d'avertissement s'affiche, indiquant que vous devez demander à votre administrateur de \[Activer le [!DNL Activity Map] rapport\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
 
-**Q : Puis-je exporter les données d’Activity Map (contextData) par l’intermédiaire du[flux de données Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) ?**
+**Q : Puis-je exporter[!DNL Activity Map]des données (contextData) via le flux[de données](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)Analytics ?**
 
 R : Non.
 
-## Segmentation dans Activity Map {#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
+## Segmentation dans [!DNL Activity Map]{#section_44D6C5F59B8542DC8A3AF38BD8078DCA}
 
-**Q : Les segments sont-ils liés aux segments utilisateurs individuels ? Les segments partagés au niveau administrateur sont-ils disponibles dans Activity Map ?**
+**Q : Les segments sont-ils liés aux segments utilisateurs individuels ? Or are shared Admin-level segments available in[!DNL Activity Map]?**
 
-A : Carte d'activités hérite de vos segments de niveau administrateur (segments de création de rapports) à partir d'Analytics.
+A: [!DNL Activity Map] inherits your Admin-level segments (reporting segments) from Analytics.
 
 **Q : Les segments fonctionnent-ils en mode réel ?**
 
 R : Non, les segments ne fonctionnent pas en mode réel. La fonctionnalité est similaire à celle de la création de rapports en temps réel dans Reports &amp; Analytics.
 
-## Virtual report suites {#section_BDB0CA9E732F478EAC349A79753A78DB}
+## Suites de rapports virtuelles{#section_BDB0CA9E732F478EAC349A79753A78DB}
 
-**Q : Activity Map est-elle compatible avec les suites de rapports virtuelles ?**
+**Q : Est-il[!DNL Activity Map]compatible avec les suites de rapports virtuelles ?**
 
-R : Oui. Cependant, en raison des limitations des suites de rapports virtuelles, le mode réel d’Activity Map n’est pas compatible avec celles-ci.
+R : Oui. However, due to virtual report suite limitations, [!DNL Activity Map]'s Live Mode is not compatible with virtual report suites.
