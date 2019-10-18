@@ -1,20 +1,20 @@
 ---
-description: Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
-seo-description: Carte d’activités propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
+description: '[!Carte d’activités DNL] fournit deux modes de base pour fournir des rapports complémentaires sur l’activité des pages.'
+seo-description: '[!Carte d’activités DNL] fournit deux modes de base pour fournir des rapports complémentaires sur l’activité des pages.'
 seo-title: Mode standard et mode réel
 solution: Analytics
 title: Mode standard et mode réel
 topic: Activity Map
-uuid: 8 b 97 b 56 e-ff 20-4 a 8 b -8 c 37-7 f 7 b 45 c 9 a 86 b
+uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Mode standard et mode réel
 
-Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
+[!DNL Activity Map] propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
 
 * Le mode standard, dans lequel le rapport [Liens sur la page](/help/analyze/activity-map/activitymap-links-report.md) affiche les données des liens allant d’un seul jour à plusieurs jours, regroupées sur toute la période.
 * Le mode réel, qui affiche les tendances d’activité en temps réel.
@@ -31,7 +31,7 @@ Dans ce mode, les mesures de Commerce pour lesquelles « Participation » n’
 
 Q : Que se passe-t-il si une page contient des liens ayant le même nom dans des régions différentes ? Est-ce que les deux liens sont crédités séparément étant donné qu’ils sont associés à des régions différentes mais qu’ils ont le même nom de lien sur une page ?
 
-R : Cela dépend de la façon dont vous agrégez les données des liens. Dans Activity Map, nous tenons compte des informations ID de lien|Région pour une page donnée, de telle sorte que les données affectées s’appliquent à la combinaison « ID lien|Région ». Dans cette situation, étant donné que les régions sont distinctes, la combinaison lien|région sera différente et, par conséquent, toute recette affectée à la première combinaison lien|région sera différente de toute recette affectée pour le second lien. Mais dans l’interface utilisateur d’Adobe Analytics, vous pouvez simplement consulter le rapport sur l’ID de lien (au lieu du rapport Lien|Région) pour une page donnée (page ventilée par Lien). Dans ce cas, les recettes seront agrégées sur les deux régions.
+R : Cela dépend de la façon dont vous agrégez les données des liens. In [!DNL Activity Map], we look at Link ID|Region for a given page, so the allocated data would be for the "Link ID|Region" combination. Dans cette situation, étant donné que les régions sont distinctes, la combinaison lien|région sera différente et, par conséquent, toute recette affectée à la première combinaison lien|région sera différente de toute recette affectée pour le second lien. Mais dans l’interface utilisateur d’Adobe Analytics, vous pouvez simplement consulter le rapport sur l’ID de lien (au lieu du rapport Lien|Région) pour une page donnée (page ventilée par Lien). Dans ce cas, les recettes seront agrégées sur les deux régions.
 
 ## Mode réel {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
@@ -41,7 +41,7 @@ Le mode réel répond aux besoins des organisations d’édition. Ces organisati
 
 >[!IMPORTANT]
 >
->Les suites de rapports virtuelles ne sont pas compatibles avec le mode réel, uniquement avec le mode standard.
+>Les suites de rapports virtuelles ne sont pas compatibles avec le mode réel, mais uniquement avec le mode standard.
 
 ![](assets/live_mode.png)
 
