@@ -6,7 +6,7 @@ solution: Analytics
 title: Variables de création de rapports de confidentialité
 topic: Outils d’administration
 translation-type: tm+mt
-source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -63,21 +63,21 @@ Voir Variables [de données](https://docs.adobe.com/help/en/analytics/implementa
 
 ### SSF
 
-* Données contextuelles : contextData.['cm.ssf']
+* Données contextuelles: `contextData.['cm.ssf']`
 * Valeurs acceptées :
    * 1 - Lorsque vous envoyez la valeur "1", cela indique que le transfert côté serveur est dans un état d’exclusion. La valeur "1" associée à cette variable bloquera le partage de cet accès avec Adobe Audience Manager. Voir Conformité [AAM à la confidentialité en ligne.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * Aucune autre valeur n’est acceptée pour ce paramètre.
 
 ### DMP
 
-* Données contextuelles : contextData.['opt.dmp']
+* Données contextuelles: `contextData.['opt.dmp']`
 * Valeurs acceptées :
    * N - Lorsque vous envoyez la valeur "N", cela indique que le client choisit de ne pas partager sur les plateformes de gestion de données. **** Remarque : La définition de cette variable sur "N" ne bloque pas le partage sur AAM pour l’instant. Toutefois, le blocage des appels à la fonctionnalité AAM sera ajouté début 2020. Pour l’instant, Adobe recommande de définir `c.cm.ssf=1` et `c.opt.dmp=N` de bloquer l’envoi des accès à AAM.
    * Y - Lors de l’envoi de la valeur "Y", cela indique que le consommateur opte pour le partage sur les plateformes de gestion de données.
 
 ### VENDRE
 
-* Données contextuelles : contextData.['opt.sell']
+* Données contextuelles: `contextData.['opt.sell']`
 * Valeurs acceptées :
    * N - Lorsque la valeur "N" est envoyée, cela indique que le consommateur choisit de ne pas partager ou vendre les données à des tiers.
    * Y - Lorsque vous envoyez la valeur "Y", cela indique que le consommateur opte pour le partage ou la vente des données à des tiers.
