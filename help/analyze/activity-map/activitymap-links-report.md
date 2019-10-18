@@ -1,24 +1,24 @@
 ---
 description: Le rapport Liens tient compte des liens trouvés sur la page actuelle. Il ne tient pas compte de tous les liens collectés pour cette page.
 seo-description: Le rapport Liens tient compte des liens trouvés sur la page actuelle. Il ne tient pas compte de tous les liens collectés pour cette page.
-seo-title: Rapport Liens
+seo-title: Rapport sur les liens
 solution: Analytics
-title: Rapport Liens
+title: Rapport sur les liens
 topic: Activity Map
-uuid: 1 e 7 ca 5 d 8-d 144-4 a 21-a 2 f 9-e 05 bd 3232 c 59
+uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Rapport Liens
+# Rapport sur les liens
 
 Le rapport Liens tient compte des liens trouvés sur la page actuelle. Il ne tient pas compte de tous les liens collectés pour cette page.
 
-Le rapport Liens sur la page offre une vue tabulaire de tous les liens. Il peut arriver que vous souhaitiez afficher les clics sur les liens (ou d’autres mesures) avec classement d’un seul coup d’œil. Cela vous permet de comparer un lien par rapport à un autre plus facilement. Créez le rapport Liens sur la page en incluant une liste de classement de tous les liens de la page (par ID de lien), les informations de clic (n° et %) ainsi que la région dans la page. Cliquez sur le bouton du rapport Liens sur la page dans la barre d’outils d’Activity Map.
+Le rapport Liens sur la page offre une vue tabulaire de tous les liens. Il peut arriver que vous souhaitiez afficher les clics sur les liens (ou d’autres mesures) avec classement d’un seul coup d’œil. Cela vous permet de comparer un lien par rapport à un autre plus facilement. Créez le rapport Liens sur la page en incluant une liste de classement de tous les liens de la page (par ID de lien), les informations de clic (n° et %) ainsi que la région dans la page. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
 
-Le rapport **[!UICONTROL Liens sur la page]s’ouvre en dessous du cadre du navigateur dans le tableau de bord d’Activity Map.**
+The **[!UICONTROL Links On Page]** report opens below the browser frame in the [!DNL Activity Map] dashboard.
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -40,7 +40,7 @@ En mode standard, le rapport Liens sur la page répertorie les données des lien
   </tr> 
   <tr> 
    <td colname="col1"> ID de lien </td> 
-   <td colname="col2">L'ID principal du lien (pour plus d'informations sur la façon dont l'ID principal est défini par la nouvelle méthodologie de suivi des liens] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-méthodologie. md) </td> 
+   <td colname="col2">ID principal du lien (pour plus d’informations sur la manière dont l’ID principal est défini par la [Nouvelle méthodologie de suivi des liens] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics </td> 
@@ -63,11 +63,11 @@ En mode standard, le rapport Liens sur la page répertorie les données des lien
 
 **Filtrage des données**
 
-Si vous souhaitez vous concentrer sur un lien spécifique, vous pouvez rechercher un terme associé dans le champ **[!UICONTROL Filtrer les données].** Seuls les liens correspondant à la recherche disposeront de superpositions. Si aucun filtre n’est appliqué, les superpositions spécifiées dans [Paramètres d’Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) s’afficheront.
+Si vous souhaitez vous concentrer sur un lien spécifique, vous pouvez rechercher un terme associé dans le champ **[!UICONTROL Filtrer les données].** Seuls les liens correspondant à la recherche disposeront de superpositions. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
-En mode réel, le rapport Liens de la page affiche les données de tendances couvrant plusieurs minutes.
+En mode réel, le rapport Liens de la page affiche les données de tendance sur plusieurs minutes.
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ En mode réel, le rapport Liens de la page affiche les données de tendances cou
   </tr> 
   <tr> 
    <td colname="col1"> ID de lien </td> 
-   <td colname="col2">L’ID principal du lien. Pour plus d'informations sur la définition de l'ID principal par la nouvelle méthode [Méthodologie de suivi des liens] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)-tracking-tracking-method. md). </td> 
+   <td colname="col2">L’ID principal du lien. Pour plus d’informations sur la manière dont l’ID principal est défini par la nouvelle [méthodologie de suivi des liens] (/help/analysis/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methods.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics sur les liens </td> 
