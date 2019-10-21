@@ -7,11 +7,11 @@ solution-image: assets/analytics-icon-24.png
 getting-started-title: Prise en main
 getting-started-url: https://helpx.adobe.com/fr/analytics/get-started.html
 tutorials-title: Tutoriels
-tutorials-url: https://helpx.adobe.com/fr/analytics/kt/index/analytics-videos.html
+tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
 translation-type: tm+mt
-source-git-commit: dac6b19bef475d9e61142babc893a4c9e9ffc37a
+source-git-commit: e483f984cbd80ada0713c0e30a60f22280665d36
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: dac6b19bef475d9e61142babc893a4c9e9ffc37a
 
 Le fichier metadata.md comprend des métadonnées de niveau référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier métadata.md pour un guide de l’utilisateur, faites-le dans le fichier TOC.md.
 
-| metadonnées | utilisation |
+| métadonnées | utilisation |
 |--- |--- |
 | solution-title | Utilisé comme lien dans l’en-tête d’article. |
 | solution-hub-url | Ouvre la page hub helpx. |
