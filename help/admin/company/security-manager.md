@@ -5,9 +5,9 @@ seo-title: Gestionnaire de sécurité
 solution: Analytics
 title: Gestionnaire de sécurité
 topic: Outils d’administration
-uuid: b 3 fbdba 0-e 2 bf -4 d 67-92 e 3-ef 05711141 d 4
+uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Permet de contrôler l’accès aux données de création de rapports. Les options incluent les mots de passe difficiles à deviner, l’expiration du mot de passe, ainsi que les restrictions d’adresses IP et de domaines de courriel.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Paramètres de la société]** &gt; **[!UICONTROL Sécurité]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Paramètres **** de la société &gt; **[!UICONTROL Sécurité]**
 
 <table id="table_F1AD9DE5094A4FC2B9DA8D01198F944B"> 
  <thead> 
@@ -44,8 +44,7 @@ Permet de contrôler l’accès aux données de création de rapports. Les optio
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Exiger des restrictions d’identification par IP</span> </td> 
-   <td colname="col2"> <p>Limite l’accès aux rapports à des adresse IP ou à des plages d’adresses spécifiques. </p> <p>Vous pouvez ajouter jusqu’à 100 entrées dans la liste Filtre d’adresses IP ; chaque entrée peut être une adresse spécifique ou une plage d’adresses. </p> <p>  L’option <span class="wintitle">Exiger des restrictions d’identification par IP</span> n’est pas appliquée tant que la liste Filtre d’adresses IP ne comporte pas au moins une entrée. </p> <p> <span class="uicontrol"> Adresse IP acceptée</span>: Pour spécifier une plage d'adresses IP, placez la plage entre crochets (par exemple, 
-     <code>
+   <td colname="col2"> <p>(Notez que cette fonctionnalité ne sera plus disponible en janvier 2020.) Limite l’accès aux rapports à des adresse IP ou à des plages d’adresses spécifiques. </p> <p>Vous pouvez ajouter jusqu’à 100 entrées dans la liste Filtre d’adresses IP ; chaque entrée peut être une adresse spécifique ou une plage d’adresses. </p> <p>  L’option <span class="wintitle">Exiger des restrictions d’identification par IP</span> n’est pas appliquée tant que la liste Filtre d’adresses IP ne comporte pas au moins une entrée. </p> <p> <span class="uicontrol"> Adresse</span>IP acceptée : Pour spécifier une plage d’adresses IP, placez-la entre crochets (par exemple, <code>
        192.168.10.[20-240]
      </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
@@ -54,9 +53,8 @@ Permet de contrôler l’accès aux données de création de rapports. Les optio
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Mettre en place les restrictions de domaine de courriel</span> </td> 
-   <td colname="col2"> <p>Filtre les adresses et domaines de courriel auxquels Analytics envoie des signets, des rapports téléchargeables et des alertes. </p> <p>La liste Filtre de courriel prend en charge jusqu’à 100 entrées ; chacune d’elles pouvant être une adresse ou un domaine de courriel complet. </p> <p>Si un rapport planifié contient une destination de courriel non approuvée, Analytics envoie une notification par courriel du problème, ainsi qu’un lien pour annuler la planification du rapport. </p> <p>  L’option <span class="wintitle">Mettre en place les restrictions de domaine de courriel</span> n’est pas appliquée tant que la liste <span class="wintitle">Filtre de domaine de courriel accepté</span> ne comporte pas au moins une entrée. </p> <p> <span class="uicontrol"> Adresses et domaines de courriel acceptés</span>: Pour spécifier une plage d'adresses IP, placez la plage entre crochets (par exemple, 
-     <code>
-       192.168.1 0.[20-240]
+   <td colname="col2"> <p>Filtre les adresses et domaines de courriel auxquels Analytics envoie des signets, des rapports téléchargeables et des alertes. </p> <p>La liste Filtre de courriel prend en charge jusqu’à 100 entrées ; chacune d’elles pouvant être une adresse ou un domaine de courriel complet. </p> <p>Si un rapport planifié contient une destination de courriel non approuvée, Analytics envoie une notification par courriel du problème, ainsi qu’un lien pour annuler la planification du rapport. </p> <p>  L’option <span class="wintitle">Mettre en place les restrictions de domaine de courriel</span> n’est pas appliquée tant que la liste <span class="wintitle">Filtre de domaine de courriel accepté</span> ne comporte pas au moins une entrée. </p> <p> <span class="uicontrol"> Adresse électronique et domaines</span>acceptés : Pour spécifier une plage d’adresses IP, placez-la entre crochets (par exemple, <code>
+       192.168.10.[20-240]
      </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
        192.168.[10-14].*
