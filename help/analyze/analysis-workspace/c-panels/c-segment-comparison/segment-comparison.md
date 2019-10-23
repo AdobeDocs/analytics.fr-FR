@@ -1,94 +1,118 @@
 ---
-description: L’outil de comparaison des segments (Segment IQ) détecte les différences les plus importantes sur le plan statistique parmi un nombre illimité de segments par l’intermédiaire d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès. Les principales caractéristiques des segments d’audience qui stimulent les indicateurs clés de performances de votre entreprise sont ainsi détectées et vous pouvez savoir de cette façon à quel point des segments se chevauchent.
-keywords: Analysis Workspace ; Segment IQ
-seo-description: L’outil de comparaison des segments (Segment IQ) détecte les différences les plus importantes sur le plan statistique parmi un nombre illimité de segments par l’intermédiaire d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès. Les principales caractéristiques des segments d’audience qui stimulent les indicateurs clés de performances de votre entreprise sont ainsi détectées et vous pouvez savoir de cette façon à quel point des segments se chevauchent.
-seo-title: Présentation de l'IQ Segment
+title: Présentation du panneau de comparaison de segments
+description: Découvrez comment utiliser le panneau de comparaison de segments, composant de la QI de segment dans Analysis Workspace.
+keywords: Espace de travail d’analyse;QI du segment
 solution: Analytics
-title: Présentation de l'IQ Segment
-topic: Reports and Analytics
-uuid: 80 b 8343 a -8 e 09-4234-9510-1 eecce 18567 f
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Présentation de l'IQ Segment
+# Présentation du panneau de comparaison de segments
 
-L’outil de comparaison des segments (Segment IQ) détecte les différences les plus importantes sur le plan statistique parmi un nombre illimité de segments par l’intermédiaire d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès. Les principales caractéristiques des segments d’audience qui stimulent les indicateurs clés de performances de votre entreprise sont ainsi détectées et vous pouvez savoir de cette façon à quel point des segments se chevauchent.
+Le panneau de comparaison de segments est un composant d’outil de la QI [du](../../segment-iq.md) segment qui détecte les différences les plus significatives sur le plan statistique entre un nombre illimité de segments. La fonction effectue une itération au moyen d’une analyse automatisée de toutes les dimensions et mesures auxquelles vous avez accès. Il détecte automatiquement les caractéristiques clés des segments d’audience qui génèrent les indicateurs clés de performance de votre entreprise et vous permet de voir combien de segments se chevauchent.
 
-Il arrive que les analystes passent des heures, voire des jours, à rechercher des différences significatives entre des segments à l’échelle de vastes portions de mesures et de dimensions de l’entreprise. Cette analyse est fastidieuse et chronophage. En outre, il n’est pas impossible qu’une différence clé pour un segment soit omise, ce qui pourrait avoir de fortes répercussions sur vos efforts de marketing ciblé.
+## Création d’un panneau de comparaison de segments
 
-[Comparaison des segments sur YouTube](https://www.youtube.com/watch?v=fO3PNB93U_w&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=38) (4:46)
+1. Connectez-vous à [experience.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe.
+1. Cliquez sur l’icône de 9 carrés dans l’angle supérieur droit, puis sur le logo Analytics coloré.
+1. Dans la barre de navigation supérieure, cliquez sur Espace de travail.
+1. Cliquez sur le bouton Créer un projet.
+1. Dans la fenêtre contextuelle modale, assurez-vous que l’option "Projet vierge" est sélectionnée, puis cliquez sur Créer.
+1. Cliquez sur le bouton Panneaux sur la gauche, puis faites glisser le panneau Comparaison des segments au-dessus ou au-dessous du panneau du tableau à structure libre créé automatiquement.
 
-Voici quelques-uns des principaux nouveaux concepts, visualisations et tableaux introduits avec l’outil Comparaison des segments :
+   ![Panneau Comparaison](assets/seg-compare-panel.png)
 
-## “Everyone else” segment {#section_30AEE8181E5D46D9AB27F7CA3815D0CD}
+1. Sélectionnez les segments à comparer et faites-les glisser dans le panneau.
 
-Pour plus de commodité, nous avons ajouté le segment « tous les autres » afin que vous n'ayez pas à le créer manuellement. Par exemple, prenez l'audience Acheteurs. Il n'est pas nécessaire de créer un segment Non-acheteurs, puisqu'il est déjà inclus dans le segment « tous les autres » et qu'il peut être rapidement supprimé si vous préférez ajouter un autre segment à comparer.
+   ![Comparaison des audiences](assets/compare-audiences.png)
 
-## Size and overlap {#section_885A71EE458C43189A77B8F552CA346A}
+   Une fois que vous avez fait glisser un segment dans le panneau, Analytics crée automatiquement un [!UICONTROL ’segment Tous les autres] qui inclut les personnes NE figurant PAS dans le segment choisi. Il s’agit d’un segment fréquemment utilisé dans le panneau de comparaison, mais vous êtes libre de le supprimer et de comparer un autre segment de choix.
 
-La visualisation Taille et chevauchement illustre les tailles comparatives de chaque segment sélectionné et la façon dont ils se chevauchent les uns les autres. Pointez sur le visuel pour savoir combien de visiteurs se trouvent dans chaque section en intersection ou non. Cliquez avec le bouton droit de la souris sur l’intersection afin de créer un nouveau segment pour une analyse plus approfondie. Si deux segments ne se chevauchent pas (par exemple si vous utilisez le segment « tous les autres »), cela s'affiche également dans ce visuel.
+   ![Tous les autres](assets/everyone-else.png)
 
-![](assets/size-overlap.png)
+1. Une fois que vous avez déterminé les deux segments à comparer, cliquez sur [!UICONTROL Créer].
 
-## Population summaries {#section_21F2B66C60184A71B89E2982A6FB945D}
+   Cette action lance un processus principal qui recherche les différences statistiques entre les deux segments sélectionnés et toutes les dimensions, mesures et autres segments. Une barre de progression en haut du panneau indique le temps restant jusqu’à ce que chaque mesure et dimension soit analysée. Les mesures, dimensions et segments les plus fréquemment utilisés sont prioritaires pour s’exécuter en premier afin que les résultats les plus pertinents soient renvoyés en temps voulu.
 
-À droite du visuel Taille et croisement, l’outil Comparaison des segments présente le nombre total de visiteurs uniques dans chaque segment et la population dans l’intersection.
+## Exclure les composants de la comparaison
 
-![](assets/population_summaries.png)
+Il est parfois souhaitable d’exclure certaines dimensions, mesures ou segments des comparaisons de segments. Par exemple, vous souhaitez comparer le segment Utilisateurs mobiles américains à Utilisateurs mobiles allemands. L’inclusion de dimensions liées à la géographie n’aurait aucun sens puisque ces segments impliquent déjà ces différences.
 
-## Top metrics {#section_E4A38516424949B79A559DC8793071F2}
+1. Une fois les deux segments souhaités présents dans le panneau, cliquez sur [!UICONTROL 'Afficher les options avancées'].
+1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
 
->[!NOTE]
->
->Les éléments de ligne appliqués après la comparaison des segments ne reçoivent pas de note de différence ; le tableau chargera uniquement les données de mesure pour les deux segments comparés.
+   ![Composants exclus](assets/excluded-components.png)
 
-Le tableau des mesures principales répertorie les mesures qui présentent statistiquement le plus de différences entre les deux segments que vous avez sélectionnés. Chaque ligne de ce tableau représente une mesure de différenciation, classée selon le degré de différence entre chaque segment. Les mesures sont également présentées par visiteur, ce qui signifie que si les visites sont présentées dans le tableau, les chiffres correspondants dans le tableau représentent le nombre moyen de visites par visiteur dans chaque segment. Nous proposons également un score de différence indiquant le degré de différence entre ces deux segments pour cette mesure. Un score de 1 représente une différence statistique élevée ; un score de 0 indique qu’il n’y a aucune différence statistique.
+Cliquez sur [!UICONTROL "Définir comme valeur par défaut"] pour exclure automatiquement vos composants actuels dans toutes les futures comparaisons de segments. Si vous souhaitez modifier des composants exclus, cliquez sur un type de composant, puis cliquez sur le X en regard d’un composant pour le réinclure dans votre analyse. Cliquez sur Effacer tout pour réinclure tous les composants dans la comparaison de segments.
 
-Pour en savoir plus sur le calcul des scores de différence de chaque tableau, voir [Tests statistiques utilisés dans la comparaison de segments](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md#concept_0B6AC754EAED460283D4626983F838F4).
+![Dimensions exclues](assets/excluded-dimensions.png)
 
-Le tableau Mesures principales fonctionne comme les autres tableaux d’Analysis Workspace. Vous pouvez faire glisser les mesures de votre choix dans le tableau pour les comparer.
+## Affichage d’un rapport de comparaison de segments
 
-Vous pouvez personnaliser le tableau à votre gré. Nous avons également ajouté une nouvelle icône Créer un visuel à chaque ligne du tableau. Cliquez sur cette icône pour créer un nouveau tableau et visuel au-dessus de l’outil Comparaison des segments, de sorte que le tableau des mesures principales ne soit pas trop chargé et que vous puissiez approfondir l’analyse dans un nouveau tableau. Si cette mesure n’est pas pertinente, cliquez sur la croix (X) pour la supprimer du tableau. Enfin, de même que dans les tableaux à structure libre, vous pouvez paginer la liste des mesures affichées ou afficher les 10, 20, 50, etc. principales mesures pour voir davantage que les cinq lignes par défaut.
+Une fois l’analyse des deux segments souhaités terminée, Adobe affiche ses résultats au moyen de plusieurs visualisations :
 
-![](assets/top-metrics.png)
+![Visualisations 1](assets/new-viz.png)
 
-Une visualisation liée se trouve à droite du tableau de mesures. Par défaut, l’outil Comparaison des segments présente les mesures principales dans le tableau par tendances au cours des 30 derniers jours de chaque segment. Pour visualiser une autre mesure trouvée dans le tableau Mesures principales, cliquez dessus pour la sélectionner ; la visualisation à droite se met à jour pour présenter la mesure sélectionnée.
+![Visualisations 2](assets/new-viz2.png)
 
-![](assets/linked-viz.png)
+### Taille et chevauchement
 
-## Top dimension items {#section_439C1782B153427CB4FB85E177146EC0}
+Illustre les tailles comparatives de chaque segment sélectionné et leur chevauchement à l’aide d’un diagramme de Venn. Pointez sur le visuel pour savoir combien de visiteurs se trouvent dans chaque section en intersection ou non. Cliquez avec le bouton droit de la souris sur l’intersection afin de créer un nouveau segment pour une analyse plus approfondie. Si les deux segments s’excluent mutuellement, aucun chevauchement n’est affiché entre les deux cercles (généralement avec des segments utilisant un conteneur d’accès).
 
->[!NOTE]
->
->Les éléments de ligne appliqués après la comparaison des segments ne reçoivent pas de note de différence ; le tableau chargera uniquement les données de mesure pour les deux segments comparés.
+![Taille et chevauchement](assets/size-overlap.png)
 
-De même que le tableau des mesures principales, l’outil Comparaison des segments propose un tableau des principaux éléments de dimension qui illustre les éléments de dimensions les plus notables dans la différenciation par rapport à toutes vos dimensions. Chaque ligne présente le pourcentage de chaque segment exposant cet élément de dimension.
+### Résumés démographiques
 
-Si, par exemple, vous comparez le segment A au segment B, le tableau Principaux éléments de dimension peut indiquer que 100 % des visiteurs du segment A ont l’élément de dimension Type de navigateur : Google, tandis que 19,6 % du segment B seulement ont cet élément de dimension.
+À droite de la visualisation Taille et chevauchement, le nombre total de visiteurs uniques dans chaque segment et chevauchement s’affiche.
 
-![](assets/top-dimension-item1.png)
+![Résumés démographiques](assets/population_summaries.png)
 
-À droite du tableau Principaux éléments de dimension, l’outil Comparaison des segments surligne le principal élément de dimension sélectionné, ainsi que les autres principaux éléments de dimension à partir de cette dimension utilisée pour la comparaison :
+### Principales mesures
 
-![](assets/top-dimension-item.png)
+Affiche les mesures les plus significatives sur le plan statistique entre les deux segments. Chaque ligne de ce tableau représente une mesure de différenciation, classée selon le degré de différence entre chaque segment. Un score de différence de 1 signifie qu’il est statistiquement significatif, tandis qu’un score de différence de 0 signifie qu’il n’y a aucune signification statistique.
 
-## Top segments table {#section_6A0C39F930564240AF7A157005C7A80B}
+Cette visualisation est similaire aux tableaux à structure libre dans Analysis Workspace. Si vous souhaitez approfondir l’analyse d’une mesure spécifique, passez la souris sur une ligne et cliquez sur "Créer un visuel". Un nouveau tableau est créé pour analyser cette mesure spécifique. Si une mesure n’est pas pertinente pour votre analyse, passez la souris sur l’élément de ligne et cliquez sur le X pour le supprimer.
 
->[!NOTE]
->
->Les éléments de ligne appliqués après la comparaison des segments ne reçoivent pas de note de différence ; le tableau chargera uniquement les données de mesure pour les deux segments comparés.
+> [!NOTE] Les mesures ajoutées à ce tableau une fois la comparaison de segments terminée ne reçoivent pas de note de différence.
 
-Le tableau Principaux segments indique quels segments (autres que les deux segments sélectionnés pour la comparaison) chevauchent très distinctement les deux segments sélectionnés. Si, par exemple, vous comparez le segment A au segment B, le tableau Principaux segments peut présenter un troisième segment, Visiteurs récurrents, qui chevauche nettement le segment A mais pas le segment B.
+![Principales mesures](assets/top-metrics.png)
 
-![](assets/top-segments.png)
+### Mesure dans le temps par segment
 
-En outre, le segment supplémentaire qui se différencie le plus s’affiche dans un visuel de l’intersection à droite du tableau :
+Une visualisation liée se trouve à droite du tableau de mesures. Vous pouvez cliquer sur une ligne du tableau de gauche et cette visualisation se met à jour pour afficher les tendances de cette mesure au fil du temps.
 
-![](assets/segment-overlap.png)
+![Ligne des principales mesures](assets/linked-viz.png)
 
-Le visuel de l’intersection indique de manière graphique la différence de l’intersection entre les trois segments. De même que les autres visuels liés, cliquez sur chaque segment supplémentaire du tableau pour mettre à jour le visuel afin qu’il corresponde au segment sélectionné.
+### Principales dimensions
 
-Cliquez ici pour en savoir plus sur les [tests statistiques](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md#concept_0B6AC754EAED460283D4626983F838F4) utilisés dans la comparaison des segments.
+Affiche les valeurs de dimension les plus significatives sur le plan statistique dans toutes vos dimensions. Chaque ligne affiche le pourcentage de chaque segment présentant cette valeur de dimension. Par exemple, ce tableau peut indiquer que 100 % des visiteurs du segment A possédaient l’élément de dimension "Type de navigateur : Google", alors que seulement 19,6 % du segment B possédaient cet élément de dimension. Un score de différence de 1 signifie qu’il est statistiquement significatif, tandis qu’un score de différence de 0 signifie qu’il n’y a aucune signification statistique.
+
+Cette visualisation est similaire aux tableaux à structure libre dans Analysis Workspace. Si une analyse plus approfondie d’une valeur de dimension spécifique est souhaitée, passez la souris sur une ligne et cliquez sur "Créer un visuel". Un nouveau tableau est créé pour analyser cette valeur de dimension spécifique. Si une valeur de dimension n’est pas pertinente pour votre analyse, passez la souris sur l’élément de ligne et cliquez sur le X pour le supprimer.
+
+> [!NOTE] Les valeurs de dimension ajoutées à ce tableau une fois la comparaison de segments terminée ne reçoivent pas de note de différence.
+
+![Principales dimensions](assets/top-dimension-item1.png)
+
+### Eléments de dimension par segment
+
+À droite du tableau des dimensions se trouve une visualisation en graphique à barres liées. Il affiche toutes les valeurs de dimension affichées dans un graphique à barres. Le fait de cliquer sur une ligne dans le tableau de gauche met à jour la visualisation sur la droite.
+
+![Graphique à barres des principales dimensions](assets/top-dimension-item.png)
+
+### Principaux segments
+
+Indique quels autres segments (autres que les deux segments sélectionnés pour la comparaison) présentent un chevauchement statistiquement significatif. Par exemple, ce tableau peut montrer qu’un troisième segment, "Visiteurs récurrents", chevauche fortement le segment A, mais ne chevauche pas le segment B. Un score de différence de 1 signifie qu’il est statistiquement significatif, tandis qu’un score de différence de 0 signifie qu’il n’y a aucune signification statistique.
+
+Cette visualisation est similaire aux tableaux à structure libre dans Analysis Workspace. Si vous souhaitez effectuer une analyse plus approfondie sur un segment spécifique, passez la souris sur une ligne et cliquez sur "Créer un visuel". Un nouveau tableau est créé pour analyser ce segment spécifique. Si un segment n’est pas pertinent pour votre analyse, passez la souris sur l’élément de ligne et cliquez sur le X pour le supprimer.
+
+> [!NOTE] Les segments ajoutés à ce tableau une fois la comparaison de segments terminée ne reçoivent pas de note de différence.
+
+![Principaux segments](assets/top-segments.png)
+
+### Chevauchement de segment
+
+À droite du tableau des segments se trouve une visualisation de diagramme de Venn liée. Il montre le segment le plus significatif statistiquement appliqué à vos segments comparés. Par exemple, "Segment A" + "Segment statistiquement significatif" ou 'Segment B' + 'Segment statistiquement significatif'. Le fait de cliquer sur une ligne de segment dans le tableau de gauche met à jour le diagramme de Venn sur la droite.
+
+![Diagramme VN des segments principaux](assets/segment-overlap.png)
