@@ -1,26 +1,24 @@
 ---
 description: Dans Analysis Workspace, vous pouvez afficher et analyser les anomalies de données de manière contextuelle.
 seo-description: Dans Analysis Workspace, vous pouvez afficher et analyser les anomalies de données de manière contextuelle.
-seo-title: Présentation de la détection des anomalies
-title: Présentation de la détection des anomalies
-uuid: 991 fde 08-198 c -4410-9606-d 5 a 4 f 3 dd 8339
+seo-title: Détection des anomalies - Aperçu
+title: Détection des anomalies - Aperçu
+uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Présentation de la détection des anomalies
+# Détection des anomalies - Aperçu
 
-Dans Analysis Workspace, vous pouvez afficher et analyser les anomalies de données de manière contextuelle.
+Vous pouvez afficher et analyser les anomalies de données de manière contextuelle dans Analysis Workspace.
 
 [Détection des anomalies sur YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
 [Analyse des contributions sur YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
->[!IMPORTANT]
->
->La détection des anomalies a été supprimée du jeu de fonctionnalités Rapports et analyses et n'est désormais disponible que via Analysis Workspace. Remarque : Les clients Adobe Analytics Select et Adobe Analytics Foundation ne profitent que d’une détection des anomalies « à granularité journalière » dans Workspace. Pour plus d’informations, voir [Autorisations pour la détection des anomalies et l’analyse des contributions](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
+> [!IMPORTANT] La détection des anomalies n’est disponible que dans Analysis Workspace. Les clients Adobe Analytics Select et Foundation n’ont accès qu’à la détection des anomalies quotidienne de granularité dans Workspace. Pour plus d’informations, voir [Autorisations pour la détection des anomalies et l’analyse des contributions](../contribution-analysis/ca-tokens.md).
 
 La détection des anomalies met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures.
 
