@@ -9,14 +9,14 @@ title: Fonction s.tl() – Suivi des liens
 topic: Développeur et mise en œuvre
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 1ed1c6cd3fd6d29fa156cd4b2c4bdfe9120b3c61
+source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
 
 
 # Fonction s.tl() – Suivi des liens
 
-Si votre entreprise préfère avoir plus de contrôle sur les liens à suivre et sur leur comportement, il est recommandé d’effectuer un suivi manuel des liens. Utilisez la fonction s.tl() pour envoyer manuellement les demandes d’image de suivi des liens avec le contenu exact souhaité. Si le suivi des liens de base est tout ce qui est nécessaire, voir `s.trackDownloadLinks` et sous Variables `s.trackExitLinks` de [configuration](c-variables/configuration-variables.md). Il est impossible de suivre automatiquement les liens personnalisés.
+Si votre entreprise préfère avoir plus de contrôle sur les liens à suivre et sur leur comportement, il est recommandé d’effectuer un suivi manuel des liens. Utilisez la fonction s.tl() pour envoyer manuellement les demandes d’image de suivi des liens avec le contenu exact souhaité. Si le suivi des liens de base est tout ce qui est nécessaire, voir `s.trackDownloadLinks` et sous Variables `s.trackExternalLinks` de [configuration](c-variables/configuration-variables.md). Il est impossible de suivre automatiquement les liens personnalisés.
 
 > [!NOTE] Le code de suivi des liens est souvent très spécifique à votre site et aux besoins de création de rapports. Adobe conseille d’effectuer une mise en oeuvre préalable ou d’avoir recours à un conseiller en implémentation pour comprendre comment utiliser cette fonctionnalité en fonction des besoins de votre entreprise.
 
