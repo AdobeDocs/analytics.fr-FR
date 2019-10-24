@@ -7,7 +7,7 @@ title: Gestionnaire de sécurité
 topic: Outils d’administration
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -44,7 +44,7 @@ Permet de contrôler l’accès aux données de création de rapports. Les optio
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Exiger des restrictions d’identification par IP</span> </td> 
-   <td colname="col2"> <p>(Notez que cette fonctionnalité ne sera plus disponible en janvier 2020.) Limite l’accès aux rapports à des adresse IP ou à des plages d’adresses spécifiques. </p> <p>Vous pouvez ajouter jusqu’à 100 entrées dans la liste Filtre d’adresses IP ; chaque entrée peut être une adresse spécifique ou une plage d’adresses. </p> <p>  L’option <span class="wintitle">Exiger des restrictions d’identification par IP</span> n’est pas appliquée tant que la liste Filtre d’adresses IP ne comporte pas au moins une entrée. </p> <p> <span class="uicontrol"> Adresse</span>IP acceptée : Pour spécifier une plage d’adresses IP, placez-la entre crochets (par exemple, <code>
+   <td colname="col2"> <p>(Cette fonctionnalité ne peut pas être utilisée conjointement avec la connexion à Experience Cloud. Notez que cette fonctionnalité ne sera plus disponible à partir de janvier 2020.) Limite l’accès aux rapports à des adresse IP ou à des plages d’adresses spécifiques. </p> <p>Vous pouvez ajouter jusqu’à 100 entrées dans la liste Filtre d’adresses IP ; chaque entrée peut être une adresse spécifique ou une plage d’adresses. </p> <p>  L’option <span class="wintitle">Exiger des restrictions d’identification par IP</span> n’est pas appliquée tant que la liste Filtre d’adresses IP ne comporte pas au moins une entrée. </p> <p> <span class="uicontrol"> Adresse</span>IP acceptée : Pour spécifier une plage d’adresses IP, placez-la entre crochets (par exemple, <code>
        192.168.10.[20-240]
      </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
