@@ -3,8 +3,8 @@ title: Aide pour la mise en œuvre d’Analytics
 seo-title: Aide pour la mise en œuvre d’Analytics
 description: valeur nulle
 seo-description: valeur nulle
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -24,7 +24,7 @@ Ce guide vous guide tout au long des différentes méthodes d’implémentation 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Création d’une propriété dans Experience Platform Launch](implement-with-launch/create-analytics-property.md)
 * [Choix d’une méthode de mise en œuvre](c-implementation-methods/choose-implementation-method.md)
-* [Notes de mise à jour de la bibliothèque AppMeasurement](appmeasurement-release-notes/appmeasurement-release-notes.md)
+* [Notes de mise à jour de la bibliothèque AppMeasurement](appmeasurement-release-notes/c-release-notes-mjs.md)
 
 ## Plus de guides de l’utilisateur Analytics
 
@@ -32,7 +32,7 @@ Ce guide vous guide tout au long des différentes méthodes d’implémentation 
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
-* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://experienceleague.adobe.com/?lang=fr#recommended/solutions/analytics)
+* [Contacter l’assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Forum Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
