@@ -8,7 +8,7 @@ title: AppMeasurement pour JavaScript
 topic: Développeur et mise en œuvre
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -27,7 +27,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## Versions 2.17.0
 
-Date de publication : **23 août 201**
+Date de publication : **23 août 2019**
 
 | Fonctionnalité/correctif | Description |
 | -----------| ---------- |
@@ -40,7 +40,7 @@ Date de publication : **15 août 2019**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Prise en charge `sendBeacon` des liens de sortie | Mise en œuvre de la prise en charge `sendBeacon` des liens de sortie dans [!UICONTROL AppMeasurement]. Cela permettra d’améliorer le suivi des liens de sortie et entraînera probablement par une augmentation du trafic. `SendBeacon` doesn't execute in the context of a page but in the context of the browser. En d’autres termes, si une page est déchargée avec `sendBeacon`, la requête est toujours terminée. This is very useful for exit links because it will make it much more likely that the exit link request will be completed. |
+| Prise en charge `sendBeacon` des liens de sortie | Mise en œuvre de la prise en charge `sendBeacon` des liens de sortie dans [!UICONTROL AppMeasurement]. Cela permettra d’améliorer le suivi des liens de sortie et entraînera probablement par une augmentation du trafic. `SendBeacon` ne s’exécute pas dans le contexte d’une page, mais dans le contexte du navigateur. En d’autres termes, si une page est déchargée avec `sendBeacon`, la requête est toujours terminée. Cela s’avère très utile pour les liens de sortie, car il est plus probable que la demande de lien de sortie soit terminée. |
 | Valeurs ECID/fid | Les valeurs ECID/fid sont maintenant mises en cache au premier accès, même si les paramètres OptIn changent. |
 | DIL 9.3 | Mise à jour du module Gestion de l’audience vers DIL 9.3 |
 | Suivi de la portée de défilement | Bouton exposé dans s.ActivityMap.trackScrollReach permettant d’activer ou de désactiver le suivi de la portée de défilement. |
@@ -50,7 +50,7 @@ Date de publication : **15 août 2019**
 
 Date de publication : **15 juillet 2019**
 
-* Added ActivityMap scroll reach tracking to the Activity Map extension (AN-172949)
+* Ajout du suivi des accès de défilement d’ActivityMap à l’extension de Carte d’activités (AN-172949)
 * Ajout de DIL 9.2 à AppMeasurement (AN-182472)
 
 ## Version 2.14.0
@@ -387,7 +387,7 @@ Date de publication : **16 avril 2015**
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap </span> </p> </td> 
-   <td colname="2"> <p>Les appels <code>trackBeacon</code> et <code>clearCurrentBeacon</code><span class="keyword"> sont maintenant disponibles dans PhoneGap </span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon </code> and <code> clearCurrentBeacon </code> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -445,7 +445,7 @@ Ajout de la prise en charge des [eVars (76 à 250) et événements (101 à 1000)
 
 >[!NOTE]
 >
->H-Code does not support the additional eVars and events.
+>Le code H ne prend pas en charge les eVars et événements supplémentaires.
 
 [!DNL JavaScript]
 
