@@ -1,60 +1,60 @@
 ---
-title: Création d'un document de conception de solution
-seo-title: Création d'un document de conception de solution
-description: Découvrez ce qu'est un document de conception de solution et comment vous pouvez l'utiliser dans votre organisation.
-seo-description: Découvrez ce qu'est un document de conception de solution et comment vous pouvez l'utiliser dans votre organisation.
-translation-type: tm+mt
+title: Création d’un document de conception de solution
+seo-title: Création d’un document de conception de solution
+description: Découvrez ce qu’est un document de conception de solution et comment l’utiliser dans votre entreprise.
+seo-description: Découvrez ce qu’est un document de conception de solution et comment l’utiliser dans votre entreprise.
+translation-type: ht
 source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
 
 ---
 
 
-# Création d'un document de conception de solution
+# Création d’un document de conception de solution
 
-Un document de conception de solution (également appelé référence de conception de solution ou document de configuration de la solution) est essentiellement le plan directeur de votre implémentation Analytics. Il définit les critères identifiés par les parties prenantes dans toute votre organisation et les traduit en variables dans Adobe Analytics. Sans aucune, les organisations ont un temps difficile de coordonner les rapports et tendent à ne pas collecter de données importantes.
+Un document de conception de solution (également connu sous le nom de document de référence de conception de solution ou de document d’exigences opérationnelles) est essentiellement le plan directeur de votre mise en œuvre d’Analytics. Il définit les critères identifiés par les parties prenantes à l’échelle de votre organisation et les traduit en variables dans Adobe Analytics. Sans lui, les organisations ont du mal à coordonner les besoins en matière de rapports et ont tendance à ne pas collecter certaines données importantes.
 
 ## Conditions préalables
 
-[Validation de la mise en œuvre et de la publication d'Analytics en production](../implement-with-launch/validate-publish-prod.md) : bien qu'elles ne soient pas directement requises, Adobe conseille de mettre en place une implémentation de base afin que les données critiques soient collectées alors que des besoins d'entreprise supplémentaires sont établis et implémentés.
+[Validez votre mise en œuvre Analytics et publiez-la en production](../implement-with-launch/validate-publish-prod.md) - Bien qu’elle ne soit pas directement requise, Adobe conseille de mettre en place une mise en œuvre de base afin de collecter des données importantes, tout en définissant et en implémentant d’autres besoins opérationnels.
 
 ## Propriété et emplacement du document de conception
 
-* **Déterminez qui dans votre organisation sera responsable de la maintenance du document de conception de la solution.** Ce rôle peut être une personne ou une équipe. Veiller à ce que la conservation de la conception de la solution soit préservée, même par le biais de modifications de rôles ou de restructurations d'organisations. Il s'agit d'un document vivant qui doit être correctement conservé.
-* **Déterminez où réside votre document de solution.** Il n'y a pas de meilleur emplacement pour que les documents de conception de solution résident, mais ils restent généralement dans un emplacement interne largement accessible. Par exemple, une feuille de calcul partagée ou un espace de travail collaboratif tel que sharepoint ou un wiki interne. Il n'est pas nécessaire d'être modifiable pour tous, mais il est intéressant que ceux qui ont accès à la création de rapports puissent au moins l'afficher.
+* **Déterminez qui, au sein de votre organisation, sera responsable de la gestion du document de conception de solution.** Ce rôle peut être confié à une personne ou à une équipe. Assurez-vous que la gestion de la conception de solution est préservée, même après des changements de fonction ou des restructurations de l’organisation. Il s’agit d’un document évolutif qui doit être correctement géré.
+* **Déterminez où résidera votre document de solution.** Il n’existe pas de meilleur emplacement indiqué pour les documents de conception de solution, mais on les place généralement en un lieu interne facilement accessible. Par exemple, une feuille de calcul partagée ou un espace de travail collaboratif comme SharePoint ou un wiki interne. Il n’est pas nécessaire qu’il soit modifiable par tout le monde, mais il est préférable que les personnes qui peuvent accéder à la création de rapports soient au moins autorisées à le consulter.
 
-## Définition des besoins commerciaux
+## Définition des besoins opérationnels
 
-Lorsque vous déterminez les données à collecter, il est facile de dire « tout », mais cela peut rapidement devenir difficile à gérer et même fournir moins de valeur que de collecter des quantités de données plus concises.
+Lors de la détermination des données à collecter, il est facile de dire « tout ». Cependant, cela peut rapidement devenir difficile à gérer, et même être moins bénéfique que de collecter des quantités de données plus raisonnables.
 
-1. **Déterminez vos indicateurs de performances clés.** Que souhaitez-vous finalement faire aux visiteurs ? La réponse à cette question varie selon le secteur industriel et verticalement et peut être plusieurs éléments. Par exemple les achats, les abonnements ou les clics publicitaires.
-1. **Déterminez les données les plus importantes à collecter.** Posez vos questions professionnelles à des réponses spécifiques. Les réponses à ces questions fournissent des informations sur la manière d'améliorer vos indicateurs clés de performance.
-1. **Répondez à ces questions et déterminez les besoins de votre suivi.** Regroupez-les en dimensions et mesures.
-   * Les dimensions sont des variables qui contiennent du texte. Les exemples incluent le terme de recherche interne, la catégorie de produit ou le nom d'une zone sur laquelle un visiteur a cliqué.
-   * Les mesures sont des événements spécifiques que vous souhaitez qu'un visiteur effectue : lorsqu'il effectue une action de votre choix, le nombre augmente d'une unité. Voici quelques exemples : envoi d'une commande, abonnement à un bulletin d'information ou envoi d'une réponse à une enquête.
-1. **Faites correspondre les dimensions et les mesures dans une page ou une feuille de calcul.** Cette page ou ce tableau devient finalement votre document de conception de solution. Certaines colonnes ou puces utiles à inclure :
-   * Etat de mise en œuvre : Planifié, Actif, Inactif, Problèmes, etc. Cela informe les lecteurs du document de l'état de la variable, s'il est implémenté ou s'il existe des problèmes avec la collecte de données.
-   * Nom de variable : Par exemple, « Termes de recherche interne ». Il s'agira de ce que les analystes voient lorsqu'ils travaillent dans Analytics.
-   * Variable Analytics associée à : Variable Analytics par défaut ou personnalisée dont vous choisissez d'affecter des valeurs. Les dimensions appartiennent généralement aux evars, tandis que les mesures tombent sous des événements.
-   * Logique : Description de la définition de la variable et de ce qui détermine sa valeur. Par exemple, « Uniquement défini sur les pages de recherche interne ». Prend la valeur du paramètre de chaîne de requête q.  » »
-   * Toute autre note que vous souhaitez inclure à la variable
+1. **Déterminez vos indicateurs de performances clés.** Que voulez-vous que les visiteurs fassent en fin de compte ? La réponse à cette question varie en fonction du secteur d’activité vertical et peut comporter divers éléments. À titre d’exemple, citons les achats, les enregistrements ou les clics publicitaires.
+1. **Déterminez les données les plus importantes à collecter.** Posez des questions auxquelles vous souhaitez des réponses spécifiques. Les réponses à ces questions vous donneraient des informations sur la manière d’améliorer vos indicateurs de performances clés.
+1. **Considérez ces questions et déterminez vos besoins en matière de suivi.** Regroupez-les en dimensions et en mesures.
+   * Les dimensions sont des variables qui contiennent du texte. À titre d’exemple, citons un terme pour la recherche interne, une catégorie de produit ou le nom d’une section sur laquelle a cliqué un visiteur.
+   * Les mesures sont des événements spécifiques que vous souhaitez voir réalisés par un visiteur. Par exemple, lorsqu’il effectue l’action que vous souhaitez, le nombre augmente de un. À titre d’exemple, citons l’envoi d’une commande, l’inscription à un bulletin d’information ou l’envoi d’une réponse à une enquête.
+1. **Mappez les dimensions et les mesures dans une page ou une feuille de calcul.** Cette page ou ce tableau deviendra à terme votre document de conception de solution. Certaines colonnes ou puces utiles à inclure :
+   * Statut de la mise en œuvre : planifiée, active, inactive, problèmes, etc. Cela permet d’informer les utilisateurs du document du statut de la variable, si elle a été implémentée ou s’il existe des problèmes liés à la collecte de données.
+   * Nom de la variable : par exemple, « Termes pour la recherche interne ». Cette valeur correspond à ce que voient les analystes lorsqu’ils travaillent dans Analytics.
+   * Variable Analytics associée à : à quelle variable Analytics par défaut ou personnalisée vous choisissez d’affecter des valeurs. Les dimensions dépendent généralement des eVars, tandis que les mesures dépendant des événements.
+   * Logique : description de la définition de la variable et de ce qui détermine sa valeur. Par exemple, « Définir uniquement sur des pages de recherche interne. Prend la valeur du paramètre de chaîne de requête q. »
+   * Toute autre remarque que vous souhaitez inclure au sujet de la variable.
 
 ## Ressources supplémentaires
 
-La définition d'un document de conception de solution est un projet relativement complexe, en particulier pour les organisations qui n'en ont pas encore créé un. Si vous avez besoin d'aide supplémentaire, Adobe propose des consultants spécialisés pour aider votre organisation à utiliser Adobe Analytics. Contactez votre gestionnaire de compte si vous souhaitez inscrire les services professionnels d'Adobe. A [Technical pre-implementation questionnaire](assets/technical-pre-implementation-questionnaire.pdf) can be filled out so Adobe knows exactly how to help based on your organization's needs.
+La définition d’un document de conception de solution est un projet assez complexe, surtout pour les organisations qui n’en avaient pas encore créé. Si vous avez besoin d’une assistance supplémentaire, Adobe fournit des services de conseil spécialisés pour aider votre organisation à exécuter Adobe Analytics. Contactez votre gestionnaire de compte si vous souhaitez bénéficier des services professionnels d’Adobe. Vous pouvez remplir un [questionnaire technique préalable à l’implémentation](assets/technical-pre-implementation-questionnaire.pdf) afin qu’Adobe sache exactement comment vous aider en fonction des besoins de votre organisation.
 
-Il existe aussi plusieurs partenaires Adobe spécialisés dans la création d'un document de conception de solution et la mise en œuvre d'Adobe Analytics sur votre site.
+Plusieurs partenaires Adobe se spécialisent également dans la création d’un document de conception de solution, ainsi que dans la mise en œuvre d’Adobe Analytics sur votre site.
 
-> [!NOTE] Bien que les membres de la communauté Analytics trouvent les liens suivants utiles, ils ne sont pas détenus par Adobe. Tenez compte de cette remarque lorsque vous consultez leur contenu.
+> [!NOTE] Bien que les membres de la communauté Analytics aient trouvé les liens suivants utiles, ils ne sont pas la propriété d’Adobe. Tenez compte de cette remarque lorsque vous affichez leur contenu.
 
-* [7 Étapes de configuration de votre conception de solution Analytics Web](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) par point d'observation
-* [Une structure pour le processus d'analyse numérique](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) par Analytics Demystified
-* [La référence de conception de la solution est en fait votre BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) par Analyses numériques
-* [Comment faire le balisage d'Adobe Analytics par](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) Antti Koski ?
-* [Importance du document de conception de la solution](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) par Ebiquity
+* [7 Steps to Set Up Your Web Analytics Solution Design](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) par ObservePoint (en anglais)
+* [A Framework for Digital Analytics Process](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) par Analytics Demystified (en anglais)
+* [The Solution Design Reference is actually your BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) par Numeric Analytics (en anglais)
+* [How to make Adobe Analytics tagging map](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) par Antti Koski (en anglais)
+* [The Importance of the Solution Design Document](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) par Ebiquity (en anglais)
 
 ## Étapes suivantes
 
-Implémentez les variables dans votre document de conception de solution.
+Mettez en œuvre les variables dans votre document de conception de solution.
 
-* Introduction aux evars : Découvrez ce qu'est une evar, comment elle fonctionne et comment l'utiliser dans votre implémentation
-* Introduction aux événements : Découvrez ce qu'est un événement de réussite, comment son fonctionnement et comment l'utiliser dans votre implémentation
+* Présentation des eVars : découvrez ce qu’est une eVar, son fonctionnement et comment l’utiliser dans votre implémentation
+* Présentation des événements : découvrez ce qu’est un événement de succès, son fonctionnement et comment en utiliser un dans votre implémentation
