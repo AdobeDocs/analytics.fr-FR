@@ -2,19 +2,19 @@
 description: La variable pageType n’est utilisée que pour désigner une page « Erreur 404 - Page introuvable ».
 keywords: Mise en œuvre d’Analytics
 seo-description: La variable pageType n’est utilisée que pour désigner une page « Erreur 404 - Page introuvable ».
-seo-title: Définition incorrecte de la variable pagetype
+seo-title: Mauvaise définition de la variable PageType
 solution: Analytics
 subtopic: Résolution des problèmes
-title: Définition incorrecte de la variable pagetype
+title: Mauvaise définition de la variable PageType
 topic: Développeur et mise en œuvre
-uuid: eafaf 58 e-ba 07-416 f -89 b 9-694687 cc 4802
-translation-type: tm+mt
+uuid: eafaf58e-ba07-416f-89b9-694687cc4802
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Définition incorrecte de la variable pagetype
+# Mauvaise définition de la variable PageType
 
 La variable pageType n’est utilisée que pour désigner une page « Erreur 404 - Page introuvable ».
 
@@ -24,7 +24,7 @@ Une seule valeur est possible pour cette variable, à savoir : « errorPage �
 pageType="errorPage"
 ```
 
-Sur une page d’erreur 404, la variable *`pageName`* ne doit pas être renseignée sur une page « Erreur 404 ». The *`pageType`* variable should be set only on a designated 404 error page. Any page containing content should never have a value in the *`pageType`* variable. Pour les pages comportant du contenu, vous pouvez définir la variable, comme illustré ci-dessous.
+Sur une page d’erreur 404, la variable *`pageName`* ne doit pas être renseignée sur une page « Erreur 404 ». La variable *`pageType`* ne doit être définie que sur une page d’erreur 404 désignée. Les pages qui comportent du contenu ne doivent jamais avoir de valeur dans la variable *`pageType`*. Pour les pages comportant du contenu, vous pouvez définir la variable, comme illustré ci-dessous.
 
 ```js
 pageType=""
