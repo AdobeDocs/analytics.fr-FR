@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Modules externes
 title: getDaysSinceLastVisit
 topic: Développeur et mise en œuvre
-uuid: cad 95882-3 bd 0-4 f 94-a 0 c 3-4 e 7 b 6058 d 246
-translation-type: tm+mt
+uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ Détermine le nombre de jours depuis la dernière visite de l’utilisateur sur 
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) inclut désormais une **[!UICONTROL dimension Jours depuis la dernière visite]** hors de la zone, ce qui annule la nécessité de ce plug-in.
+>[Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/) comprend désormais une dimension **[!UICONTROL Jours depuis la dernière visite]** prête à l’emploi, ce qui rend ce module externe inutile.
 
 Ces données relatives à la fréquence des retours peuvent être utilisées pour répondre aux questions suivantes :
 
@@ -42,14 +42,13 @@ Aucune modification n’est requise.
 
 **Config du module**
 
-Place the following code within the `s_doPlugins()` function, which is located in the area of the [!DNL s_code.js] file labeled *Plugin Config*. Sélectionnez une variable Trafic personnalisé (s.prop) et/ou une variable Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données sur la fréquence des retours. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Le code suivant est donné à titre indicatif. Il doit être adapté en fonction de vos besoins.
+Placez le code suivant dans la fonction `s_doPlugins()` située dans la section du fichier [!DNL s_code.js] intitulée *Plugin Config*. Sélectionnez une variable Trafic personnalisé (s.prop) et/ou une variable Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données sur la fréquence des retours. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Le code suivant est donné à titre indicatif. Il doit être adapté en fonction de vos besoins.
 
 ```js
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
 ```
 
-**SECTION PLUGINS**
-Ajoutez le code suivant à la section du fichier [!DNL s_code.js] intitulée *PLUGINS SECTION*. N’effectuez aucune modification dans cette partie du code du module externe.
+**SECTION PLUGINS** Ajoutez le code suivant à la section du fichier [!DNL s_code.js] intitulée *PLUGINS SECTION*. N’effectuez aucune modification dans cette partie du code du module externe.
 
 ```js
 /* 
