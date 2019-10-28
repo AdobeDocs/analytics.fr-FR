@@ -1,19 +1,19 @@
 ---
 description: Procéder à une implémentation à l’aide d’AJAX est tout comme déployer du code sur une page HTML standard.
 keywords: Mise en œuvre d’Analytics
-seo-description: Procéder à une implémentation à l'aide d'AJAX est tout comme déployer du code sur une page HTML standard.
-seo-title: Implémentation à l'aide d'AJAX
+seo-description: Procéder à une implémentation à l’aide d'AJAX est tout comme déployer du code sur une page HTML standard.
+seo-title: Mise en œuvre à l’aide d’AJAX
 solution: Analytics
-title: Implémentation à l’aide d’AJAX
+title: Mise en œuvre à l’aide d’AJAX
 topic: Développeur et mise en œuvre
-uuid: 9 e 3477 ef -7 dea -4 c 76-ab 61-36 a 188222 be 7
-translation-type: tm+mt
+uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Implémentation à l’aide d’AJAX
+# Mise en œuvre à l’aide d’AJAX
 
 Procéder à une implémentation à l’aide d’AJAX est tout comme déployer du code sur une page HTML standard.
 
@@ -26,11 +26,11 @@ L’entreprise souhaite obtenir des réponses à ses questions. Les besoins sont
 ## Déploiement du code {#section_F3FC6F07A3E148D89A4C9ABC442920C3}
 
 Le code JavaScript contient deux fonctions qui permettent d’envoyer des données. Vous devez suivre des instructions distinctes pour déterminer quelle méthode doit être utilisée pour envoyer des données.
-Si une demande d’image a été précédemment effectuée sur la même page, vous devez d’abord effacer les valeurs des variables précédemment définies. Use the `clearVars()` funtion in [!DNL AppMeasurement] for JavaScript, or write a simple JavaScript function to clear the variables if you are using H code. Set the values appropriate for the changed content, namely the *`pageName`* variable. After the variables are set call the *`t()`* function.
+Si une demande d’image a été précédemment effectuée sur la même page, vous devez d’abord effacer les valeurs des variables précédemment définies. Utilisez la fonction `clearVars()` d’[!DNL AppMeasurement] pour JavaScript ou écrivez une fonction JavaScript simple pour effacer les variables si vous utilisez le code H. Définissez les valeurs appropriées pour le contenu modifié, à savoir la variable *`pageName`*. Une fois les variables définies, appelez la fonction *`t()`*.
 
 >[!NOTE]
 >
->Before you call `s.t()`, you must clear any values on the s object that you do not want to persist. if you are using [!DNL AppMeasurement] for JavaScript, you can call `s.clearVars()`. Si vous utilisez du code H, écrivez une routine simple afin de définir les variables sur une chaîne vide.
+>Avant d’appeler `s.t()`, vous devez effacer toute valeur de l’objet s qui ne doit pas persister. Si vous utilisez [!DNL AppMeasurement] pour JavaScript, vous pouvez appeler `s.clearVars()`. Si vous utilisez du code H, écrivez une routine simple afin de définir les variables sur une chaîne vide.
 
 ```js
 s.clearVars(); 
@@ -39,7 +39,7 @@ s.prop1="some value"
 void(s.t());
 ```
 
-The following example shows a tracking call in the `done` callback of the JQuery `.ajax` function:
+L’exemple suivant illustre un appel de suivi dans le rappel `done` de la fonction `.ajax` de JQuery :
 
 ```
 $.ajax({ 
@@ -57,10 +57,10 @@ $.ajax({
 Si une demande d’image a été précédemment effectuée sur la même page, effacez les valeurs des variables précédemment définies. Pour ce faire :
 
 * Ecrivez une fonction JavaScript simple pour effacer les variables Adobe.
-* Définissez les variables *`linkTrackVars`* et *`linkTrackEvents`* les variables si vous ne l'avez pas déjà fait dans [!DNL s_code.js] le fichier.
+* Définissez les variables *`linkTrackVars`* et *`linkTrackEvents`* dans le fichier [!DNL s_code.js], le cas échéant.
 
-* Set the values appropriate for the changed content, namely the *`pageName`* variable.
-* After the variables are set, call the *`tl()`* function.
+* Définissez les valeurs appropriées pour le contenu modifié, à savoir la variable *`pageName`*.
+* Une fois les variables définies, appelez la fonction *`tl()`*.
 
 ```js
 //set linkTrackVars and linkTrackEvents> (if applicable) 
