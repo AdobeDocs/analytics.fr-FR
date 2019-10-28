@@ -2,19 +2,19 @@
 description: Pour de nombreux clients, les variables sont déclarées, mais aucune valeur ne leur est affectée.
 keywords: Mise en œuvre d’Analytics
 seo-description: Pour de nombreux clients, les variables sont déclarées, mais aucune valeur ne leur est affectée.
-seo-title: Extrait de code HTML
+seo-title: Fragment de code HTML
 solution: Analytics
 subtopic: Résolution des problèmes
-title: Extrait de code HTML
+title: Fragment de code HTML
 topic: Développeur et mise en œuvre
-uuid: 3 f 57 da 82-4 d 41-47 a 2-9 fcb -74 b 9 b 08068 ba
-translation-type: tm+mt
+uuid: 3f57da82-4d41-47a2-9fcb-74b9b08068ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Extrait de code HTML
+# Fragment de code HTML
 
 Pour de nombreux clients, les variables sont déclarées, mais aucune valeur ne leur est affectée.
 
