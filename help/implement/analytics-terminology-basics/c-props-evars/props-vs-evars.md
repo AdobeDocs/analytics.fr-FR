@@ -1,13 +1,13 @@
 ---
 description: Plusieurs types de variables sont disponibles dans Experience Cloud. Les deux types les plus populaires, propriétés et eVars, permettent à votre entreprise de générer des rapports sur des dimensions personnalisées de votre site, une fonctionnalité que les rapports standard ne proposent pas.
-keywords: Implémentation d'Analytics ; prop ; evar ; props vs evars ; convention d'affectation de nom ; variables de trafic ; persistence ; événement de réussite ; cheminement
+keywords: Mise en œuvre d’Analytics;propriété;evar;propriétés et evars;convention d’affectation de nom;variables de trafic;persistance;événement de succès;cheminement
 seo-description: Plusieurs types de variables sont disponibles dans Experience Cloud. Les deux types les plus populaires, propriétés et eVars, permettent à votre entreprise de générer des rapports sur des dimensions personnalisées de votre site, une fonctionnalité que les rapports standard ne proposent pas.
-seo-title: Comparaison des props et des eVars
+seo-title: Comparaison des propriétés et des eVars
 solution: Analytics
 title: Comparaison des propriétés et des eVars
 topic: Développeur et mise en œuvre
-uuid: 0 f 02760 f-ff 69-481 c-a 817-799 f 02 dafe 8 e
-translation-type: tm+mt
+uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Plusieurs types de variables sont disponibles dans Experience Cloud. Les deux types les plus populaires, propriétés et eVars, permettent à votre entreprise de générer des rapports sur des dimensions personnalisées de votre site, une fonctionnalité que les rapports standard ne proposent pas.
 
-Lorsque vous déterminez l’emplacement d’affectation des différentes variables, il importe de faire clairement la distinction entre les fonctionnalités Prop et eVar. Etre en mesure d’identifier ces différences permet à votre entreprise de déterminer le type de variable idéal à utiliser. 
+Lorsque vous déterminez l’emplacement d’affectation des différentes variables, il importe de faire clairement la distinction entre les fonctionnalités Prop et eVar. Etre en mesure d’identifier ces différences permet à votre entreprise de déterminer le type de variable idéal à utiliser.
 
 **Props / eVars**
 
@@ -54,12 +54,12 @@ Vous trouverez, ci-dessous, une description des principales différences entre l
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_09D486144CEA4293A505DCA3F90B82EC" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rebonds </p> </td> 
+   <td colname="col1"> <p>Retours </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_471A02B78FD842BB97ED3FF4A5908B03" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_D2F11B5687484D9EBF6D1DEB3F303A20" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mesures calculées  </p> </td> 
+   <td colname="col1"> <p>Mesures calculées </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_7FAB1CF2ACC44D9198C648D3FC9E52D9" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_8BCC2EE92CC04778809D1BD48D2623D7" /> </p> </td> 
   </tr> 
@@ -140,7 +140,7 @@ Les différences propres aux props ou aux eVars sont beaucoup plus ténues dans 
 Les props présentent certains avantages par rapport aux eVars, dont quelques-uns peuvent être contournés :
 
 * Les données de prop sont collectées et disponibles presque instantanément lors de la création de rapports. Il peut falloir jusqu’à 30 minutes avant que les eVars n’apparaissent dans les données de la suite de rapports.
-* Des rapports du type organigramme peuvent être activés pour toutes les props, ce qui permet de vérifier quel chemin ont emprunté les visiteurs pour accéder à votre site. These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis].
+* Des rapports du type organigramme peuvent être activés pour toutes les props, ce qui permet de vérifier quel chemin ont emprunté les visiteurs pour accéder à votre site. [!UICONTROL Dans les analyses ad hoc], ces rapports de flux de cheminement sont disponibles pour les props comme pour les eVars.
 * Les props peuvent être corrélées à plusieurs niveaux, tandis que les eVars peuvent être sous-liées une seule fois. Vous pouvez contourner cette restriction à l’aide d’une segmentation, qui génère des données identiques aux corrélations.
 * Les mesures de participation permettent de déterminer quelles valeurs de prop ont contribué à un événement de succès.
 
@@ -159,5 +159,5 @@ Les mesures de cheminement, du type Durée totale, Entrées et Sorties, n’éta
 
 >[!TIP]
 >
->Si vous ne souhaitez pas qu'une evar persiste, vous pouvez définir son expiration sur « accès » afin qu'elle ne conserve aucune donnée au-delà de l'accès.
+>Si vous ne souhaitez pas utiliser de variables persistantes, vous pouvez définir l’expiration de la variable sur « accès » afin qu’elle ne conserve aucune donnée en aval de l’accès.
 
