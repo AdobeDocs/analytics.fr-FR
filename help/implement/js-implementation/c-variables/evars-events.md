@@ -1,25 +1,25 @@
 ---
-description: 'Si vous souhaitez effectuer le suivi d''autres informations, mais ne disposez pas de suffisamment de variables, vous avez maintenant accès à d''autres evars et événements de réussite. '
-keywords: Implémentation d'Analytics ; evars ; events ; evars number ; nombre d'evars ; nombre d'événements
-seo-description: 'Si vous souhaitez effectuer le suivi d''autres informations, mais ne disposez pas de suffisamment de variables, vous avez maintenant accès à d''autres evars et événements de réussite. '
-seo-title: Evars et événements supplémentaires
+description: 'Si vous souhaitez effectuer le suivi d’autres informations, alors que vous n’avez pas suffisamment de variables, vous avez maintenant accès à d’autres eVar et événements de succès. '
+keywords: Mise en œuvre d’Analytics;evars;événements;combien d’evars;combien d’événements
+seo-description: 'Si vous souhaitez effectuer le suivi d’autres informations, alors que vous n’avez pas suffisamment de variables, vous avez maintenant accès à d’autres eVar et événements de succès. '
+seo-title: eVars et événements supplémentaires
 solution: Analytics
-title: Evars et événements supplémentaires
+title: eVars et événements supplémentaires
 topic: Développeur et mise en œuvre
-uuid: 6 f 53069 b -6941-40 f 1-9 db 6-2 d 1839822 b 8 f
-translation-type: tm+mt
+uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# Evars et événements supplémentaires
+# eVars et événements supplémentaires
 
 Si vous souhaitez effectuer le suivi d’autres informations, alors que vous n’avez pas suffisamment de variables, vous avez maintenant accès à d’autres eVar et événements de succès :
 
 >[!NOTE]
 >
->Le code H JavaScript ne prend pas en charge ces evars et événements supplémentaires.
+>Le code H JavaScript ne prend pas en charge ces eVars et événements supplémentaires.
 
 ## Droits en matière de dimensions et d’événements personnalisés {#section_869EC3D8A5614036A9C586F2B74FA7DC}
 
@@ -32,7 +32,7 @@ Si vous souhaitez effectuer le suivi d’autres informations, alors que vous n�
 
 ## Spécification des variables et événements {#section_DEA51A22BCBB4B92BDD25814AAD296E4}
 
-* Variables can be populated in the data collection library if you are using these versions of [!DNL AppMeasurement]:
+* Si vous utilisez ces versions d’[!DNL AppMeasurement], les variables peuvent être renseignées dans la bibliothèque de collection des données :
 
    * AppMeasurement pour JavaScript version 1.4+
    * AppMeasurement pour Flash version 3.9+
@@ -46,11 +46,11 @@ Si vous souhaitez effectuer le suivi d’autres informations, alors que vous n�
 
 ## Questions fréquentes {#section_E915B03236BD47DCA065F1FC5A6E30C6}
 
-* **Toutes les interfaces Adobe Analytics auront-elles un accès immédiat à ces nouvelles variables ?** Ces interfaces bénéficieront d'un accès immédiat : [!UICONTROL Analysis Workspace], [!UICONTROL Rapports et analyses], Créateur [!UICONTROL de rapports], [!UICONTROL Publicité - Analyses ad hoc], API et Outils [!UICONTROL de données].
+* **Toutes les interfaces Adobe Analytics auront-elles un accès immédiat à ces nouvelles variables ?** Les interfaces suivantes ont un accès immédiat : [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Ad Hoc Analysis], API et [!UICONTROL Data Workbench].
 
 * **Ces eVars et événements supplémentaires s’afficheront-ils automatiquement dans mes flux de données ?** Les flux de données auront accès aux nouvelles variables et aux nouveaux événements une fois qu’ils seront activés. Les nouvelles colonnes d’eVars n’apparaîtront pas tant que vous n’aurez pas choisi de les inclure. Toutefois, les nouveaux événements apparaîtront dans la colonne event_list dès qu’ils seront activés ; la table de recherche des événements contient les noms d’événement pour ces identifiants d’événement. N’activez pas les nouveaux événements si vous n’êtes pas prêt à les consommer dans les flux de données.
 
-* **Comment demander de nouvelles colonnes de flux de données ?** Pour demander de nouvelles colonnes, reportez-vous à la section [Configuration des flux de données](https://marketing.adobe.com/resources/help/en_US/sc/clickstream/datafeeds_configure.html).
+* **Comment demander de nouvelles colonnes de flux de données ?** Pour demander de nouvelles colonnes, consultez [Configuration de flux de données](https://marketing.adobe.com/resources/help/fr_FR/sc/clickstream/datafeeds_configure.html).
 
 * **Comment procéder si je suis actuellement un client Analytics Ultimate, mais que je souhaite revenir à Analytics Prime alors que j’ai actuellement 200 eVars activées ?** Adobe ne désactivera pas vos eVars existantes, mais vous ne pourrez pas en activer davantage. Si vous désactivez des eVars, vous ne pouvez pas les réactiver tant que vous dépassez la limite d’Analytics Prime de 200 eVars activées.
 
