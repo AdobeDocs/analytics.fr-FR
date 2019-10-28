@@ -1,31 +1,31 @@
 ---
 description: Une propriété web peut être n’importe quel regroupement d’un ou de plusieurs domaines et sous-domaines avec une bibliothèque de règles, inclus dans un code intégré.
-keywords: Implémentation d'Analytics ; implementation method ; gestion dynamique des balises ; dtm ; propriété web ; property
+keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;propriété web;propriété
 seo-description: Une propriété web peut être n’importe quel regroupement d’un ou de plusieurs domaines et sous-domaines avec une bibliothèque de règles, inclus dans un code intégré.
-seo-title: Créer une propriété Web
+seo-title: Création d’une propriété web
 solution: Analytics
-title: Créer une propriété Web
+title: Création d’une propriété web
 topic: Développeur et mise en œuvre
-uuid: f 19 d 5504-eb 44-4 d 93-a 387-7470 ab 4 b 3 a 3 a
-translation-type: tm+mt
+uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
 
 
-# Créer une propriété Web
+# Création d’une propriété web
 
 Une propriété web peut être n’importe quel regroupement d’un ou de plusieurs domaines et sous-domaines avec une bibliothèque de règles, inclus dans un code intégré.
 
 >[!NOTE]
 >
->Seul un utilisateur disposant des droits d'administrateur peut créer une propriété. For more information about roles, see [Create and Manage Groups in DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) in the Dynamic Tag Management Product Documentation.
+>Seul un utilisateur disposant des droits d’administrateur peut créer une propriété. Pour plus d’informations sur les rôles, voir [Créer et gérer des groupes dans DTM](https://marketing.adobe.com/resources/help/fr_FR/dtm/groups.html) dans la documentation du produit Dynamic Tag Management.
 
 Vous pouvez gérer ces ressources et en effectuer le suivi au moyen de la gestion dynamique des balises. Par exemple, supposons que vous disposez de plusieurs sites web reposant sur un modèle et que vous souhaitez effectuer le suivi des mêmes ressources sur tous les sites. Vous pouvez appliquer une propriété web à plusieurs domaines.
 
-Pour obtenir des informations générales sur les propriétés web et les bonnes pratiques, voir [Propriétés Web](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) dans la documentation du produit Gestion dynamique des balises.
+Pour obtenir des informations générales sur les propriétés web et les bonnes pratiques, voir [Propriétés web](https://marketing.adobe.com/resources/help/fr_FR/dtm/web_property.html) dans la documentation du produit Dynamic Tag Management.
 
-1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
+1. Accédez à la page Entreprises, puis cliquez sur **[!UICONTROL Ajouter une propriété]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -49,7 +49,7 @@ Pour obtenir des informations générales sur les propriétés web et les bonnes
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Ce site englobe plusieurs domaines </span> </td> 
-    <td colname="col2"> <p>Vous pouvez ajouter ou supprimer des domaines si vous voulez que les données de visiteur persistent entre les domaines. Si cette option est sélectionnée, les données associées à la visite persistent à travers les sous-domaines. </p> <p>Ce paramètre permet de spécifier le mode de suivi du trafic entre vos sous-domaines ou domaines associés. Les liens vers les sous-domaines sont traités comme des liens sortants. Le suivi des visites des sous-domaines s’effectue de manière séparée.  </p> </td> 
+    <td colname="col2"> <p>Vous pouvez ajouter ou supprimer des domaines si vous voulez que les données de visiteur persistent entre les domaines. Si cette option est sélectionnée, les données associées à la visite persistent à travers les sous-domaines. </p> <p>Ce paramètre permet de spécifier le mode de suivi du trafic entre vos sous-domaines ou domaines associés. Les liens vers les sous-domaines sont traités comme des liens sortants. Le suivi des visites des sous-domaines s’effectue de manière séparée. </p> </td> 
     </tr> 
     </tbody> 
     </table>
