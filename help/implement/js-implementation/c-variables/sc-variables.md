@@ -1,31 +1,31 @@
 ---
 description: Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Ainsi, la valeur de la variable pageName est le nom de la page Web qui fait l’objet d’un rapport. Cette section répertorie les variables prises en charge par AppMeasurement.
-keywords: Implémentation d'Analytics ; variables appmeasurement
+keywords: Mise en œuvre d’Analytics;variables appmeasurement
 seo-description: Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Ainsi, la valeur de la variable pageName est le nom de la page Web qui fait l’objet d’un rapport. Cette section répertorie les variables prises en charge par AppMeasurement.
-seo-title: Présentation des variables
+seo-title: Variables - Aperçu
 solution: Analytics
 subtopic: Variables
-title: Présentation des variables
+title: Variables - Aperçu
 topic: Développeur et mise en œuvre
-uuid: 067 d 0135-572 a -4 a 44-af 9 e -445 d 3 c 4 e 9271
-translation-type: tm+mt
+uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
+translation-type: ht
 source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
 
-# Présentation des variables
+# Variables - Aperçu
 
-Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Ainsi, la valeur de la variable pageName est le nom de la page Web qui fait l’objet d’un rapport. Cette section répertorie les variables prises en charge par appmeasurement.
+Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Ainsi, la valeur de la variable pageName est le nom de la page Web qui fait l’objet d’un rapport. Cette section répertorie les variables prises en charge par AppMeasurement.
 
-For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
-For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
+Pour plus d’informations sur les variables de page, utilisez [ce lien](/help/implement/js-implementation/c-variables/page-variables.md).
+Pour plus d’informations sur les variables de configuration, utilisez [ce lien](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## Comment définir les variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
-AppMeasurement exige que toutes les variables de configuration soient définies avant l’appel initial vers la fonction de suivi, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
+AppMeasurement exige que toutes les variables de configuration soient définies avant l’appel initial vers la fonction de suivi, *`t()`*. Si des variables de configuration sont définies après l’appel à *`t()`*, des résultats inattendus peuvent se produire.
 
-Configuration variables are set inside the *`doPlugins`* function, which is called during the execution of the track function. The specific configuration variable causing this issue is *`trackInlineStats`*, which enables ClickMap data collection. Ceci laisse le module ClickMap dans un état indéterminé, en raison de quoi le premier appel de suivi annexe la chaîne « undefined » à la balise Adobe Analytics, ce qui affecte le code de devise.
+Les variables de configuration sont définies dans la fonction *`doPlugins`*, qui est appelée pendant l’exécution de la fonction de suivi. La variable de configuration spécifique à l’origine de ce problème est *`trackInlineStats`*, ce qui active la collecte de données ClickMap. Ceci laisse le module ClickMap dans un état indéterminé, en raison de quoi le premier appel de suivi annexe la chaîne « undefined » à la balise Adobe Analytics, ce qui affecte le code de devise.
 
 Pour résoudre ce problème, déplacez toutes les variables de configuration au-dessus de la fonction doPlugins.
 
