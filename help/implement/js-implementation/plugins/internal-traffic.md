@@ -1,9 +1,9 @@
 ---
 title: Trafic interne
-description: Le module externe Trafic interne identifie dynamiquement les visiteurs provenant d'un réseau interne.
-seo-description: Internal Traffic Plugin
-seo-title: Internal Traffic Plugin
-translation-type: tm+mt
+description: Le module Trafic interne identifie dynamiquement les visiteurs provenant d’un réseau interne.
+seo-description: Module Trafic interne
+seo-title: Module Trafic interne
+translation-type: ht
 source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
@@ -11,32 +11,32 @@ source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 # Trafic interne
 
-Le module externe Trafic interne identifie dynamiquement les visiteurs provenant d'un réseau interne.
+Le module Trafic interne identifie dynamiquement les visiteurs provenant d’un réseau interne.
 
-L'identification du trafic interne et externe favorise la précision de tous les types de rapport en fournissant un mécanisme qui filtre et segmente les données collectées. Implémenté correctement, cela élimine également la nécessité d'une règle VISTA ou de règles de traitement qui sont des approches classiques pour identifier ce trafic.
+L’identification du trafic interne et externe permet d’obtenir une plus grande précision dans tous les types de rapports, en fournissant un mécanisme qui filtre et segmente les données collectées. S’il est mis en œuvre correctement, il peut également éliminer la nécessité d’une règle VISTA ou d’une règle de traitement, qui sont des approches classiques pour identifier ce trafic.
 
-## Comment le module externe Trafic interne fonctionne-t-il ?
+## Comment fonctionne le module Trafic interne ?
 
-Le module externe tente de charger un fichier qui ne serait disponible que dans votre réseau interne/intranet, c'est-à-dire un pixel transparent 1 x 1. S'il est chargé correctement, le trafic pour ce visiteur est identifié comme interne. Tout autre élément serait un trafic externe.
+Le module externe tente de charger un fichier qui ne serait disponible que dans votre réseau interne/intranet, c’est-à-dire un pixel transparent 1x1. S’il est correctement chargé, le trafic de ce visiteur est considéré comme interne. Toute autre chose serait alors considérée comme du trafic externe.
 
 ## Considérations
 
-* Le seul inconvénient de cette approche est qu'une erreur 404 est affichée dans la console du navigateur pour les visiteurs externes sur la première page de leur visite. Cela n'a aucune incidence sur l'expérience de l'utilisateur.
-* Nous suggérons vivement que vous obteniez une approbation auprès de votre équipe réseau ou infosec avant de tenter de charger un pixel hébergé en interne.
-* Bien que le module externe ne déplacera pas le trafic vers une autre suite de rapports ou l'exclut des rapports (comme il peut s'effectuer avec une règle VISTA), la logique personnalisée peut être incluse avec son implémentation, de sorte que cette fonctionnalité puisse avoir lieu côté client.
+* Le seul inconvénient de cette approche est qu’une erreur 404 s’affiche dans la console du navigateur pour les visiteurs externes sur la première page de leur visite. Cela n’affectera pas l’expérience client.
+* Nous vous conseillons vivement d’obtenir l’approbation de votre équipe Network ou InfoSec avant d’essayer de charger un pixel hébergé en interne.
+* Bien que le module externe ne déplace pas le trafic vers une autre suite de rapports ou ne l’exclue pas de la création de rapports (comme cela peut être le cas avec une règle VISTA), la logique personnalisée peut être incluse avec son implémentation, de sorte que cette fonctionnalité puisse avoir lieu côté client.
 
 ## Mise en œuvre
 
-1. Ajoutez votre pixel Intranet : Vous pouvez ajouter n'importe quel type de fichier sur votre intranet que le module externe tente d'accéder. Il est recommandé d'utiliser un pixel transparent 1 x 1. Elle doit être placée à un emplacement de votre Intranet accessible à partir de vos réseaux internes.
-1. Configuration d'une evar : Une evar doit être ajoutée au sein de votre suite de rapports de destination. Il doit avoir une expiration de « Visite » et une attribution de « Valeur d'origine (première) ».
-1. Définissez l'URL interne : Dans les variables de configuration appmeasurement et avant l'instanciation de doplugins, définissez la variable URL interne (s. inturl) pour le pixel ou l'autre fichier peut être utilisée pour la vérification du trafic. Par exemple : `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modifiez doplugins et définissez l'evar : Le module externe peut alors être initialisé en incluant cette ligne de code dans la section doplugins du code de la bibliothèque appmeasurement, en utilisant l'evar définie à l'étape 1 : `s.eVarXX = s.intCheck();`
-La valeur de la variable est définie sur « interne » ou « externe ».
-1. Ajoutez le code source du module externe : Incluez le code du module externe sous la section doplugins de votre fichier appmeasurement.
+1. Ajouter votre pixel intranet : vous pouvez ajouter sur votre intranet n’importe quel type de fichier auquel le module externe tenterait d’accéder. Un pixel transparent 1x1 est recommandé. Il doit être placé dans un emplacement de votre Intranet qui est facilement accessible depuis votre ou vos réseaux internes.
+1. Configurer une eVar : une eVar doit être ajoutée dans votre suite de rapports de destination. Elle doit avoir une expiration de « Visite » et une attribution de « Valeur d’origine (première) ».
+1. Définir l’URL interne : dans les variables de configuration AppMeasurement et avant l’instanciation de doPlugins, définissez la variable d’URL interne (s.intURL) du pixel ou d’un autre fichier pouvant être utilisée pour la vérification du trafic. Par exemple : `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
+1. Modifier doPlugins et définir l’eVar : le module externe peut ensuite être initialisé en incluant cette ligne de code dans la section doPlugins du code de votre bibliothèque AppMeasurement, à l’aide de l’eVar définie à l’étape 1 : `s.eVarXX = s.intCheck();`
+la valeur de la variable sera définie sur « interne » ou « externe ».
+1. Ajouter le code source du module externe : ajoutez le code du module externe sous la section doPlugins de votre fichier AppMeasurement.
 
 ## Code source du module externe
 
-Ajoutez ce code sous la section doplugins de votre bibliothèque appmeasurement.
+Ajoutez ce code sous la section doPlugins de votre bibliothèque AppMeasurement.
 
 ```JavaScript
 s.intCheck=new Function("",""
@@ -46,8 +46,8 @@ s.intCheck=new Function("",""
 +"al';}}catch(e){y='external'}finally{return y}}");
 ```
 
-## Autres remarques
+## Autres notes
 
-* Testez toujours les installations de plug-in pour vous assurer que la collecte de données se produit comme prévu avant de les déployer dans un environnement de production.
-* Votre implémentation peut utiliser un autre nom d'objet que l'objet Adobe Analytics par défaut. Si tel est le cas, veuillez mettre à jour le nom de l’objet en conséquence.
-* Si vous utilisez un système de gestion des balises, procédez comme suit pour mettre à jour doplugins et les autres modules externes personnalisés.
+* Les installations de module externe doivent toujours faire l’objet de tests afin de s’assurer que la collecte des données fonctionne comme prévu avant son déploiement dans un environnement de production.
+* Votre mise en œuvre peut utiliser un nom d’objet différent de celui de l’objet « s » par défaut d’Adobe Analytics. Si tel est le cas, veuillez mettre à jour le nom de l’objet en conséquence.
+* Si vous utilisez un système de gestion des balises, procédez comme suit pour mettre à jour doPlugins et les autres modules externes personnalisés.
