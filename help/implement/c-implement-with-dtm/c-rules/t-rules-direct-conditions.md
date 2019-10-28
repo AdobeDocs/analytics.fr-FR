@@ -1,12 +1,12 @@
 ---
 description: Création de conditions pour les règles d’appel direct.
-keywords: Gestion dynamique des balises;règle;créer une règle;nouvelle règle;règle d’appel direct
+keywords: Dynamic Tag Management;règle;créer une règle;nouvelle règle;règle d’appel direct
 seo-description: Création de conditions pour les règles d’appel direct.
 seo-title: Création de conditions pour les règles d’appel direct
-solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création de conditions pour les règles d’appel direct
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Création de conditions pour les règles d’appel direct.
 
-1. In the **[!UICONTROL Conditions]** dialog, specify the string that will be passed to `_satellite.track()` in your direct call, without quotes.
+1. Dans la boîte de dialogue **[!UICONTROL Conditions]**, spécifiez la chaîne à transmettre à `_satellite.track()` dans l’appel direct, sans guillemets.
 
    ![](assets/conditions-direct-call.png)
 
    >[!NOTE]
    >
-   >If you specify the string that will be passed to `_satellite.track()` in your direct call using the UI, as described above, do not use quotation marks. If you insert [customized page code](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) using the editor, you must use quotation marks.
+   >Si vous indiquez la chaîne qui sera transmise à `_satellite.track()` dans l’appel direct à l’aide de l’interface utilisateur, comme cela a été décrit plus haut, n’utilisez pas de guillemets. Si vous insérez du [code de page personnalisé](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) à l’aide de l’éditeur, vous devez utiliser des guillemets.
 
