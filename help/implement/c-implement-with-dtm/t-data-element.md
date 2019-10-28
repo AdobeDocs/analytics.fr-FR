@@ -1,12 +1,12 @@
 ---
 description: Création d’un élément de données dans Dynamic Tag Management.
-keywords: Gestion dynamique des balises;élément de données;créer un élément de données;nom;type;valeur par défaut;forcer la minuscule valeur;mémoriser cette valeur pour
+keywords: Dynamic Tag Management;élément de données;créer un élément de données;nom;type;valeur par défaut;forcer l’utilisation de minuscules pour la valeur;mémoriser cette valeur pour
 seo-description: Création d’un élément de données dans Dynamic Tag Management.
 seo-title: Création d’un élément de données
-solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création d’un élément de données
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 Création d’un élément de données dans Dynamic Tag Management.
 
 1. [Créez une propriété web](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123), si ce n’est pas déjà fait.
-1. Dans la propriété web, cliquez sur **Règles** &gt; **[!UICONTROL Eléments de données]**.
+1. Dans la propriété web, cliquez sur **[!UICONTROL Règles]** &gt; **[!UICONTROL Eléments de données]**.
 1. Cliquez sur **[!UICONTROL Créer un élément de données]**.
 1. Renseignez les champs et options suivants :
 
@@ -28,21 +28,20 @@ Création d’un élément de données dans Dynamic Tag Management.
     </thead> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Nom</strong></td> 
-      <td class="chdesc stentry"> <p>Nom convivial de l’élément de données qu’un spécialiste du marketing peut facilement identifier. Par exemple : 
-        <code>
+      <td class="chdesc stentry"> <p>Nom convivial de l’élément de données qu’un spécialiste du marketing peut facilement identifier. Par exemple :          <code>
           ID de produit
-        </code>. </p> <p> <p>Remarque : Le nom est référencé par le créateur de règles, et non par un ID. Si vous modifiez le nom de l’élément de données, vous devez changer sa référence dans chaque règle qui l’utilise. </p> </p> </td> 
+          </code>. </p> <p> <p>Remarque : Le nom est référencé par le créateur de règles, et non par un ID. Si vous modifiez le nom de l’élément de données, vous devez changer sa référence dans chaque règle qui l’utilise. </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Type</strong></td> 
-      <td class="chdesc stentry"> <p> Indique d’où sont extraites les données : objet JS Object, sélecteur CSS, cookie, paramètres d’URL ou script personnalisé. </p> <p>Selon le type que vous avez sélectionné, différentes options s’affichent. Voir <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html" format="html" scope="external">Types d’éléments de données</a> dans la documentation du produit Dynamic Tag Management pour obtenir plus d’informations ainsi que des exemples. </p> </td> 
+      <td class="chdesc stentry"> <p> Indique d’où sont extraites les données : objet JS Object, sélecteur CSS, cookie, paramètres d’URL ou script personnalisé. </p> <p>Selon le type que vous avez sélectionné, différentes options s’affichent. Voir <a href="https://marketing.adobe.com/resources/help/fr_FR/dtm/data_elements.html" format="html" scope="external">Types d’éléments de données</a> dans la documentation du produit Dynamic Tag Management pour obtenir plus d’informations ainsi que des exemples. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Valeur par défaut</strong></td> 
       <td class="chdesc stentry"> <p>Élément par défaut. Cette valeur permet de s’assurer que l’élément de données possède toujours une valeur, même si un paramètre d’URL n’existe pas ou est introuvable. </p> <p> <p>Remarque : S’il n’existe pas de valeur ni de valeur pas défaut, rien n’est renvoyé. Les variables référençant cet élément de données ne sont pas définies. Le champ de valeur par défaut est également ignoré s’il s’agit d’un élément de données « code personnalisé ». </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
-      <td class="choption"><strong>Forcer l’utilisation de minuscules pour la valeur</strong> </td> 
+      <td class="choption"><strong>Forcer l’utilisation de minuscules pour la valeur</strong></td> 
       <td class="chdesc stentry"> <p>Dynamic Tag Management met automatiquement la valeur en minuscules. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
@@ -56,5 +55,5 @@ Création d’un élément de données dans Dynamic Tag Management.
     </tr> 
    </table>
 
-   Voir [Éléments de données](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html) dans la documentation du produit Tag Management d’Adobe pour plus d’informations sur l’utilisation des éléments de données.
+   Voir [Eléments de données](https://marketing.adobe.com/resources/help/fr_FR/dtm/data_elements.html) dans la documentation du produit Adobe Tag Management pour plus d’informations sur l’utilisation des éléments de données.
 1. Cliquez sur **[!UICONTROL Enregistrer l’élément de données]**.
