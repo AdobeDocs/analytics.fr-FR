@@ -1,14 +1,14 @@
 ---
-description: 'AppMeasurement pour JavaScript est une nouvelle bibliothèque qui fournit les mêmes fonctionnalités de base que le fichier s_code.js ; elle est toutefois plus légère et plus rapide sur les sites pour mobiles comme sur les sites pour Bureau. '
-keywords: appmeasurement ; Implémentation d'Analytics ; javascript ; appmeasurement for javascript ; initialisation ; récupérer l'instance appmeasurement ; clear vars ; clearvars ; utilitaires d'appmeasurement ; appmeasurement instance ; avantages d'appmeasurement
-seo-description: 'AppMeasurement pour JavaScript est une nouvelle bibliothèque qui fournit les mêmes fonctionnalités de base que le fichier s_code.js ; elle est toutefois plus légère et plus rapide sur les sites pour mobiles comme sur les sites pour Bureau. '
+description: AppMeasurement pour JavaScript est une nouvelle bibliothèque qui fournit les mêmes fonctionnalités de base que le fichier s_code.js ; elle est toutefois plus légère et plus rapide sur les sites pour mobiles comme sur les sites pour Bureau.
+keywords: appmeasurement;mise en œuvre d’Analytics;javascript;appmeasurement pour javascript;initialisation;récupérer l’instance appmeasurement;effacer les variables;clearvars;utilitaires appmeasurement;instance appmeasurement;avantages d’appmeasurement
+seo-description: AppMeasurement pour JavaScript est une nouvelle bibliothèque qui fournit les mêmes fonctionnalités de base que le fichier s_code.js ; elle est toutefois plus légère et plus rapide sur les sites pour mobiles comme sur les sites pour Bureau.
 seo-title: AppMeasurement pour JavaScript
 solution: Analytics
 subtopic: AppMeasurement pour JavaScript
 title: AppMeasurement pour JavaScript
 topic: Développeur et mise en œuvre
-uuid: dc 71 ad 7 a -92 bd -40 cd -8 fab -707 f 6 f 8472 e 2
-translation-type: tm+mt
+uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
@@ -20,38 +20,38 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ## Informations à connaître avant la migration {#section_B8E7B39E8469468883BA0B41234F21C4}
 
-The following list contains changes you need to understand before switching to this new [!DNL AppMeasurement] version:
+La liste suivante contient les modifications que vous devez connaître avant de passer à cette nouvelle version d’[!DNL AppMeasurement] :
 
-* Certains modules externes ne sont plus pris en charge. See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
-* The library does not support dynamic account selection ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md), and [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)).
+* Certains modules externes ne sont plus pris en charge. Reportez-vous à la section [Prise en charge des modules externes dans AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+* La bibliothèque ne prend pas en charge la sélection de comptes dynamique ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md) et [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)).
 
-* The library and page code can be deployed inside the `<head>` tag.
-* The Media and Integrate modules are supported using updated module code that is in the JavaScript [!DNL AppMeasurement] download package. Le module Survey n’est pas pris en charge.
+* La bibliothèque et le code de page peuvent être déployés dans la balise `<head>`.
+* Les modules Media et Integrate sont pris en charge à l’aide du code de module mis à jour qui se trouve dans le package de téléchargement d’[!DNL AppMeasurement] pour JavaScript. Le module Survey n’est pas pris en charge.
 * Le code de page existant est compatible avec la nouvelle version.
 * La bibliothèque fournit des utilitaires natifs pour obtenir des paramètres de requête, lire et écrire des cookies et effectuer le suivi avancé des liens.
 
 ## Questions fréquentes {#section_9BD41B08F7B54197B230937714B9357A}
 
-See the [FAQ](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3) for information about performance, video tracking, mobile, and more.
+Reportez-vous à la section [Questions fréquentes](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3) pour en savoir plus sur les performances, le suivi vidéo, les services mobiles, etc.
 
 ## Processus d’initialisation {#section_F6D5680F6D134B6AB1F01C6235860635}
 
-Call `s_gi()`, passing the report suite ID to initialize an [!DNL AppMeasurement] instance:
+Appel de `s_gi()`, transmission de l’identifiant de suite de rapports pour initialiser une instance [!DNL AppMeasurement] :
 
 ```js
 var s_account="INSERT-RSID-HERE"
 var s=s_gi(s_account)
 ```
 
-When `s_gi` is called, if an [!DNL AppMeasurement] instance does not exist for the specified `s_account`, a new instance is created. Sinon, l’instance existante est renvoyée. Ceci permet d’éviter la création d’objets en double pour le même compte.
+Si `s_gi` est appelé, si une instance [!DNL AppMeasurement] n’existe pas pour l’attribut `s_account` spécifié, une nouvelle instance est créée. Sinon, l’instance existante est renvoyée. Ceci permet d’éviter la création d’objets en double pour le même compte.
 
 ## Récupération d’une instance AppMeasurement {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
 
-Throughout your code, call the global [s_gi() function](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD) to retrieve an existing [!DNL AppMeasurement] instance.
+Dans votre code, appelez la fonction [globale s_gi()](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD) pour récupérer une instance [!DNL AppMeasurement] existante.
 
 ## Utilitaires {#section_0F47694DD0214645A24C94AB6A4142A0}
 
-JavaScript [!DNL AppMeasurement] provides the following built-in utilities:
+JavaScript [!DNL AppMeasurement] fournit les utilitaires intégrés suivants :
 
 * [Util.cookieRead](../../../implement/js-implementation/util-cookieread.md#concept_33BD774A90504F2C8094DDC16D47440D)
 * [Util.cookieWrite](../../../implement/js-implementation/util-cookiewrite.md#concept_9BE4F7D9CDAE4445B9AF3212BC7E61F2)
