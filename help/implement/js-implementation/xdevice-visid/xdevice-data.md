@@ -2,23 +2,23 @@
 description: Cette section vous explique en quoi l’activation de la fonction d’identification des visiteurs sur plusieurs périphériques affecte les données affichées dans les rapports.
 keywords: Mise en œuvre d’Analytics
 seo-description: Cette section vous explique en quoi l’activation de la fonction d’identification des visiteurs sur plusieurs périphériques affecte les données affichées dans les rapports.
-seo-title: Impact des données sur l'identification des visiteurs sur plusieurs périphériques
+seo-title: Incidence sur les données de l’identification des visiteurs sur plusieurs appareils
 solution: Analytics
 subtopic: Visiteurs
-title: Impact des données sur l'identification des visiteurs sur plusieurs périphériques
+title: Incidence sur les données de l’identification des visiteurs sur plusieurs appareils
 topic: Développeur et mise en œuvre
-uuid: 1 db 4 d 149-cd 50-4 b 41-a 850-988901 f 25051
-translation-type: tm+mt
+uuid: 1db4d149-cd50-4b41-a850-988901f25051
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# Impact des données sur l'identification des visiteurs sur plusieurs périphériques
+# Incidence sur les données de l’identification des visiteurs sur plusieurs appareils
 
 >[!IMPORTANT]
 >
->Cette méthode d'identification des visiteurs sur l'ensemble des périphériques n'est plus recommandée. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la [documentation d’Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/fr_FR/mcdc/).
 
 Cette section vous explique en quoi l’activation de la fonction d’identification des visiteurs sur plusieurs périphériques affecte les données affichées dans les rapports.
 
