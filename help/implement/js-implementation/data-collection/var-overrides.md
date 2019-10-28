@@ -1,24 +1,24 @@
 ---
-description: 'Les remplacements de variables permettent de modifier une valeur de variable pour un seul suivi ou un appel de lien de suivi. '
+description: Les remplacements de variables permettent de modifier une valeur de variable pour un seul suivi ou un appel de lien de suivi.
 keywords: Mise en œuvre d’Analytics
-seo-description: 'Les remplacements de variables permettent de modifier une valeur de variable pour un seul suivi ou un appel de lien de suivi. '
-seo-title: Remplacement de variable
+seo-description: Les remplacements de variables permettent de modifier une valeur de variable pour un seul suivi ou un appel de lien de suivi.
+seo-title: Remplacements de variables
 solution: Analytics
 subtopic: Variables
-title: Remplacement de variable
+title: Remplacements de variables
 topic: Développeur et mise en œuvre
-uuid: 3 ec 09 ae 8-b 9 df -426 f -8065-42 b 4518 e 6 c 5 f
-translation-type: tm+mt
+uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Remplacement de variable
+# Remplacements de variables
 
-Les remplacements de variables permettent de modifier une valeur de variable pour un seul suivi ou un appel de lien de suivi. 
+Les remplacements de variables permettent de modifier une valeur de variable pour un seul suivi ou un appel de lien de suivi.
 
-To override variables, create a new object, assign variable values, and pass this object as the first parameter to `s.t()`, or as the fourth parameter to `s.tl()`:
+Pour remplacer des variables, créez un objet, attribuez des valeurs de variable et transmettez cet objet comme premier paramètre à la fonction `s.t()` ou comme quatrième paramètre à la fonction `s.tl()` :
 
 ```js
 s.eVar1="one"; 
