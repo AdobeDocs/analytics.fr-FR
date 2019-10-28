@@ -6,8 +6,8 @@ seo-title: Instructions relatives à la mise en œuvre
 solution: Analytics
 title: Instructions relatives à la mise en œuvre
 topic: Développeur et mise en œuvre
-uuid: 2917 f 4 af -19 bd -4666-ae 4 b -056 e 7 e 33 f 642
-translation-type: tm+mt
+uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
@@ -19,7 +19,7 @@ Si vous suivez ces instructions, les mêmes domaines de cookie sont utilisés, c
 
 * **RSID** : [!UICONTROL identifiant de la suite de rapports]
 * **VNS** : espace de noms du visiteur, sous-domaine de [!DNL 2o7.net] ou [!DNL omtrdc.net] utilisé pour stocker le cookie [!UICONTROL identifiant visiteur]
-* **COOKIEDOMAIN :** votre VNS + trackingServer. Ces domaines peuvent varier sensiblement en fonction de la configuration RDC et du centre de données. [Contactez le service d'assistance](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) clientèle si vous n'êtes pas sûr de votre domaine de collecte de données.
+* **COOKIEDOMAIN :** votre VNS + trackingServer. Ces domaines peuvent varier sensiblement en fonction de la configuration RDC et du centre de données. [Contactez l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html#analytics) si vous n’êtes pas sûr de votre domaine de collecte de données.
 
 ## Javascript
 
@@ -37,7 +37,7 @@ s.visitorNamespace="VNS"
 s.trackingServer="VNS.COOKIEDOMAIN.net" 
 ```
 
-## Demande d'image codée en dur
+## Demande d’image codée en dur
 
 ```javascript
 <img border="0" alt="" src="https://VNS.COOKIEDOMAIN.net/b/ss/RSID/5?ns=VNS" width="1" height="1" /> 
