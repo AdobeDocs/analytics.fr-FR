@@ -1,19 +1,19 @@
 ---
 description: Mise en œuvre d’Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur).
-keywords: Implémentation d'Analytics ; html image tag ; demande d'image codée en dur
+keywords: Mise en œuvre d’Analytics;balise d’image html;demande d’image codée en dur
 seo-description: Mise en œuvre d’Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur).
-seo-title: Mise en œuvre d'Analytics à l'aide de balises d'image HTML
+seo-title: Mise en œuvre d’Analytics à l’aide de balises d’image HTML
 solution: Analytics
-title: Mise en œuvre d'Analytics à l'aide de balises d'image HTML
+title: Mise en œuvre d’Analytics à l’aide de balises d’image HTML
 topic: Développeur et mise en œuvre
-uuid: 0 c 098 a 57-7 c 71-4362-812 c -36 e 37848 a 5 ae
-translation-type: tm+mt
+uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Mise en œuvre d'Analytics à l'aide de balises d'image HTML
+# Mise en œuvre d’Analytics à l’aide de balises d’image HTML
 
 Mise en œuvre d’Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur).
 
@@ -44,9 +44,9 @@ JavaScript peut détecter les paramètres du navigateur qui ne sont pas accessib
 
 * JavaScript est particulièrement précis (de 98 à 100 %). Il arrive qu’un niveau de précision extrême soit souhaité, même dans le cas où un utilisateur clique rapidement vers une autre page avant l’exécution du code JavaScript. La création de la balise d’image côté serveur augmente le degré de précision de plusieurs points de pourcentage.
 * Suivi des événements de conversion, tels que les achats, où la précision revêt une importance capitale.
-* Cette stratégie peut également être utilisée pour renseigner complètement la demande d'image dans la variable <noscript> pour le suivi des utilisateurs sans JavaScript ou avec JavaScript désactivé.
+* Cette stratégie peut également être utilisée pour renseigner complètement la demande d’image dans la <noscript> balise pour le suivi des utilisateurs sans JavaScript ou avec JavaScript désactivé.
 
 >[!NOTE]
 >
->L'utilisation de balises d'image générées par le serveur nécessite une durée de mise en œuvre supplémentaire et est plus difficile à déboguer, déployer et gérer. Adobe conseille vivement à ses clients d’utiliser la collecte de données JavaScript sur chaque page lorsque cela s’avère possible. Notez cependant que cette méthode d’implémentation ne permet pas la collecte ou la prise en charge de certains rapports ou fonctionnalités, dont la mise en correspondance des clics des visiteurs, les liens de téléchargement, les liens de sortie et les variables de navigateur (largeur/hauteur du navigateur, etc.).
+>S’agissant de l’utilisation de balises d’image générées par le serveur, l’implémentation nécessite davantage de temps. Elle se révèle, en outre, plus difficile à déboguer, à déployer et à gérer. Adobe conseille vivement à ses clients d’utiliser la collecte de données JavaScript sur chaque page lorsque cela s’avère possible. Notez cependant que cette méthode d’implémentation ne permet pas la collecte ou la prise en charge de certains rapports ou fonctionnalités, dont la mise en correspondance des clics des visiteurs, les liens de téléchargement, les liens de sortie et les variables de navigateur (largeur/hauteur du navigateur, etc.).
 
