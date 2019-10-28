@@ -1,13 +1,13 @@
 ---
 description: Décrit ce qu’est une collision de hachage et de quelle façon elle se manifeste.
-keywords: Implémentation d'Analytics ; hachage ; collision ; prop ; evar ; hachage
+keywords: Implémentation d’Analytics;hachage;collision;prop;evar;hash
 seo-description: Décrit ce qu’est une collision de hachage et de quelle façon elle se manifeste.
 seo-title: Collisions de hachage
 solution: Analytics
 title: Collisions de hachage
 topic: Développeur et mise en œuvre
-uuid: 7 dfd 6 e 64-4 a 62-4087-bc 28-fb 867 ec 2 b 1 b 6
-translation-type: tm+mt
+uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
