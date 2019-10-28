@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Résolution des problèmes
 title: Erreurs courantes
 topic: Développeur et mise en œuvre
-uuid: 04345355-60 cc -4678-81 c 3-390 c 86752 df 1
-translation-type: tm+mt
+uuid: 04345355-60cc-4678-81c3-390c86752df1
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -28,11 +28,11 @@ REMOVE: s.dynamicAccountSelection=true
 REMOVE: s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com" 
 ```
 
-Dans le cas ci-dessus, defaultreportsuiteid est toujours utilisé après la suppression des deux autres lignes. 
+Dans le cas ci-dessus, defaultreportsuiteid est toujours utilisé après la suppression des deux autres lignes.
 
 ## Placement du code {#section_05375CB2EF5A414794BC8209C906AEEB}
 
-Defining *`s_account`* after the lines of code does not override the dynamic account selection, as shown below.
+La définition de *`s_account`* après les lignes de code n’entraîne pas le remplacement de la sélection de compte dynamique, comme illustré ci-dessous.
 
 ```js
 var s_account="defaultreportsuiteid" 
@@ -56,7 +56,7 @@ s.dynamicAccountList="suiteid1,suiteid2=client.com"
 
 Ne placez pas les variables de [!UICONTROL correspondance de comptes dynamiques] entre guillemets. Ces options sont affichées ci-dessous.
 
-| Nom de domaine/hôte | Aucune |
+| Nom de domaine/hôte | Aucun |
 |---|---|
 | Chaîne de requête | s.dynamicAccountMatch=(window.location.search?window.location.search:"?") |
 | Hôte/domaine et chemin d’accès | s.dynamicAccountMatch=window.location.host+window.lcation.pathname |
