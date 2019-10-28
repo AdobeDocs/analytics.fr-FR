@@ -6,8 +6,8 @@ seo-title: Attribution et persistance
 solution: Analytics
 title: Attribution et persistance
 topic: Développeur et mise en œuvre
-uuid: 5 dd 706 be -83 f 6-498 a-a 856-e 3 c 5 af 995348
-translation-type: tm+mt
+uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Cette méthode d'identification des visiteurs sur l'ensemble des périphériques n'est plus recommandée. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la [documentation d’Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/fr_FR/mcdc/).
 
 Lorsque des profils du visiteur sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
 
@@ -31,12 +31,12 @@ Lorsqu’un client non authentifié arrive pour la première fois sur votre site
 
 L’exemple ci-dessous explique comment les données sont envoyées à Adobe Analytics lorsqu’un client s’authentifie pour la première fois, sur le premier périphérique :
 
-* `eVar16` a une expiration de 1 jour et `evar17` expire à la visite.
+* `eVar16` expire au bout d’1 jour et `evar17` expire à la fin de la visite.
 
-* The `post_visitor_id` column represents the profile maintained by Adobe Analytics.
-* The `post_evar16` and `post_evar17` columns show shows the persistence of eVars.
+* La colonne `post_visitor_id` représente le profil stocké par Adobe Analytics.
+* Les colonnes `post_evar16` et `post_evar17` affichent la persistance des eVars.
 
-* `cust_visid` représente une valeur dans `s.visitorID`.
+* `cust_visid` représente un jeu de valeurs dans `s.visitorID`.
 
 * Chaque ligne correspond à un « accès », une seule demande envoyée aux serveurs de collecte de données d’Adobe Analytics.
 
