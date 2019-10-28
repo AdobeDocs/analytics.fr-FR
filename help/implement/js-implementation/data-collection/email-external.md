@@ -2,18 +2,18 @@
 description: Les sociétés utilisent Analytics pour déterminer le succès d’une campagne par courrier électronique.
 keywords: Mise en œuvre d’Analytics
 seo-description: Les sociétés utilisent Analytics pour déterminer le succès d’une campagne par courrier électronique.
-seo-title: Suivi par courrier électronique externe
+seo-title: Suivi des courriers électroniques externes
 solution: Analytics
-title: Suivi par courrier électronique externe
+title: Suivi des courriers électroniques externes
 topic: Développeur et mise en œuvre
-uuid: fa 450 f 45-14 cf -4 d 0 d-a 87 c -14 a 946512 a 9 b
-translation-type: tm+mt
+uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Suivi par courrier électronique externe
+# Suivi des courriers électroniques externes
 
 Les sociétés utilisent Analytics pour déterminer le succès d’une campagne par courrier électronique.
 
@@ -25,11 +25,11 @@ Les sociétés utilisent Analytics pour déterminer le succès d’une campagne 
 | Achats et/ou succès | Affiche le nombre d’achats suite au courrier électronique. |
 | Commandes | Affiche le nombre de commandes effectuées suite au courrier électronique. |
 | Recettes | Affiche le montant en dollars par visite généré à partir du courrier électronique. |
-| Conversion | Affiche le nombre de pistes, d’inscriptions ou de tout autre événement de succès généré à partir du courrier électronique.  |
+| Conversion | Affiche le nombre de pistes, d’inscriptions ou de tout autre événement de succès généré à partir du courrier électronique. |
 
-Des modifications dans le corps du courrier électronique HTML et la bibliothèque JavaScript sont nécessaires pour capturer les mesures clés affichées ci-dessus. 
+Des modifications dans le corps du courrier électronique HTML et la bibliothèque JavaScript sont nécessaires pour capturer les mesures clés affichées ci-dessus.
 
-## Implémentation {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
+## Mise en œuvre {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
 
 Plusieurs étapes successives permettent d’afficher les données d’analyse des campagnes par courrier électronique. Ces étapes sont décrites ci-dessous :
 
@@ -60,9 +60,9 @@ Plusieurs étapes successives permettent d’afficher les données d’analyse d
 
    La modification du code dans le fichier JavaScript, [!DNL s_code.js], permet de capturer le nombre (et la qualité) des utilisateurs qui ont cliqué sur le lien publicitaire du courrier électronique et ont participé aux événements de succès consécutifs. La mise à jour de la bibliothèque JavaScript comporte deux étapes.
 
-   1. Customize [!DNL s_code.js] by calling [!UICONTROL getQueryParam].
+   1. Personnalisez [!DNL s_code.js] en appelant [!UICONTROL getQueryParam].
 
-      Le fichier [!DNL s_code.js] doit être placé à un emplacement du serveur Web accessible par chaque page Web. *`doPlugins`* La fonction contenue dans ce fichier doit être modifiée afin de capturer les paramètres de chaîne de requête des liens de courrier électronique. Par exemple :
+      Le fichier [!DNL s_code.js] doit être placé à un emplacement du serveur Web accessible par chaque page Web. La fonction *`doPlugins`* de ce fichier doit être modifiée afin de lui permettre de capturer les paramètres de chaîne de requête des liens du courrier électronique. Par exemple :
 
       ```js
       /* Plugin Config */ 
