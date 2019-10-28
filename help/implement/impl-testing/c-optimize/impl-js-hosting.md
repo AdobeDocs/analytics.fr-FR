@@ -2,19 +2,19 @@
 description: En plaçant l’appel vers le fichier de bibliothèque JavaScript en haut de la page, vous avez la garantie que l’image fait partie des premiers éléments à être téléchargés.
 keywords: Mise en œuvre d’Analytics
 seo-description: En plaçant l’appel vers le fichier de bibliothèque JavaScript en haut de la page, vous avez la garantie que l’image fait partie des premiers éléments à être téléchargés.
-seo-title: Emplacement et approbation du fichier JavaScript
+seo-title: Emplacement des fichiers JavaScript et accès simultané
 solution: Analytics
 subtopic: Résolution des problèmes
-title: Emplacement et approbation du fichier JavaScript
+title: Emplacement des fichiers JavaScript et accès simultané
 topic: Développeur et mise en œuvre
-uuid: ed 5118 a 8-b 142-4 fab -8 aa 1-92 d 931 cc 1439
-translation-type: tm+mt
+uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Emplacement et approbation du fichier JavaScript
+# Emplacement des fichiers JavaScript et accès simultané
 
 En plaçant l’appel vers le fichier de bibliothèque JavaScript en haut de la page, vous avez la garantie que l’image fait partie des premiers éléments à être téléchargés.
 
@@ -24,5 +24,5 @@ En raison de cette simultanéité des téléchargements, la barre d’état de n
 
 >[!NOTE]
 >
->Comme les fournisseurs tiers d'audit de performances Internet (tels que Keynote Systems) téléchargent des éléments d'image de page de manière séquentielle, et non simultanément, ils ne reproduisent pas l'expérience utilisateur habituelle.
+>Dans la mesure où les fournisseurs d’audits de performances Internet tiers (tels que Keynote Systems) téléchargent les éléments d’image de page de manière séquentielle, et non simultanée, ils ne reproduisent pas véritablement l’expérience utilisateur.
 
