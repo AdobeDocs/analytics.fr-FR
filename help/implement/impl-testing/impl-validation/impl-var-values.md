@@ -6,8 +6,8 @@ seo-title: Variables et valeurs
 solution: Analytics
 title: Variables et valeurs
 topic: Développeur et mise en œuvre
-uuid: 2 ff 4857 a -9451-4794-9146-f 417 abd 1 d 1 ba
-translation-type: tm+mt
+uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -28,7 +28,7 @@ Assurez-vous que la taille des valeurs des variables est conforme aux limites sp
 
 Les caractères $, ™, ®, © et les virgules ne sont pas autorisés dans la variable « products ». En règle générale, ces caractères ne sont utiles dans aucune variable [!DNL Analytics] et ils risquent d’affecter la capacité à interpréter ou exporter des champs. La bonne pratique consiste à limiter les caractères aux 127 premiers caractères ASCII.
 
-Ensure that the events variable is populated with an appropriate value ( [!UICONTROL prodView], [!UICONTROL purchase], [!UICONTROL scAdd], [!UICONTROL scRemove], [!UICONTROL scOpen], or event1-event5) whenever *`products`* is populated. Veillez au respect de la casse de toutes les variables et fonctions d’[!DNL Analytics], comme illustré ci-dessous.
+Assurez-vous que la variable « events » contient une valeur appropriée ([!UICONTROL prodView], [!UICONTROL purchase], [!UICONTROL scAdd], [!UICONTROL scRemove], [!UICONTROL scOpen] ou event1-event5) lorsque la variable *`products`* est renseignée. Veillez au respect de la casse de toutes les variables et fonctions d’[!DNL Analytics], comme illustré ci-dessous.
 
 ```js
 s.pageName 
@@ -50,6 +50,6 @@ Les noms de pages sont sensibles à la casse. Toute différence crée des enregi
 
 >[!NOTE]
 >
->Il est impossible de combiner plusieurs enregistrements de page dans des rapports.
+>Vous ne pouvez pas combiner plusieurs enregistrements de page dans des rapports.
 
 Validez les liens signalés dans le rapport [!UICONTROL Liens personnalisés]. Assurez-vous que les paramètres corrects sont transmis à la fonction [!UICONTROL tl]. Pour plus d’informations sur les [!UICONTROL liens personnalisés], reportez-vous à la section [Suivi de liens](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
