@@ -2,27 +2,27 @@
 description: Le fichier .js peut être configuré pour sélectionner automatiquement l’identifiant (ID) d’une suite de rapports.
 keywords: Mise en œuvre d’Analytics
 seo-description: Le fichier .js peut être configuré pour sélectionner automatiquement l’identifiant (ID) d’une suite de rapports.
-seo-title: ID de suite de rapports - comptes dynamiques
+seo-title: 'Identifiants de suite de rapports : comptes dynamiques'
 solution: Analytics
-title: ID de suite de rapports - comptes dynamiques
+title: 'Identifiants de suite de rapports : comptes dynamiques'
 topic: Développeur et mise en œuvre
-uuid: 763 a 9741-309 d -4795-8819-6543866047 d 5
-translation-type: tm+mt
+uuid: 763a9741-309d-4795-8819-6543866047d5
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# ID de suite de rapports - comptes dynamiques
+# Identifiants de suite de rapports : comptes dynamiques
 
 Le fichier .js peut être configuré pour sélectionner automatiquement l’identifiant (ID) d’une suite de rapports. Le fichier .js envoie automatiquement la demande d’image à la suite de rapports en fonction de l’URL. Par exemple, si l’URL est `www.mysite.com`, la demande d’image est automatiquement envoyée à la suite de rapports A. Si l’URL est `www.mysite1.com`, la demande d’image est automatiquement envoyée à la suite de rapports B.
 
 Ces chaînes peuvent être trouvées dans les éléments suivants :
 
 * Hôte/domaine (paramètre par défaut)
-* Chemin
+* Chemin d’accès
 * Chaîne de requête
-* Hôte/domaine et chemin
+* Hôte/domaine et chemin d’accès
 * Chemin et chaîne de requête
 * URL complète
 
@@ -31,21 +31,21 @@ Pour plus d’informations sur la configuration d’[!DNL Analytics] afin de sé
 ## Définition du segment d’URL à faire correspondre {#section_8099162F75F641CFBE46FD814450EF36}
 
 Selon l’exemple d’URL donné ci-après, les parties de l’URL sont indiquées ci-dessous, avec la variable `s.dynamicAccountMatch` qui doit être définie. (Si la variable `s.dynamicAccountMatch` n’est pas définie, vous devez rechercher par défaut uniquement le nom de domaine/hôte).
-Sample URL: `https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321`
+Exemple d’URL : `https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321`
 
 | Partie | Exemple (à partir de l’exemple ci-dessus) |
 |---|---|
 | Nom de domaine/hôte | `www.client.com` |
-| Chemin | `directory1/directory2/filename.html` |
+| Chemin d’accès | `directory1/directory2/filename.html` |
 | Chaîne de requête | `param1=1234&param2=4321` |
-| Hôte/domaine et chemin | `www.client.com/directory1/directory2/filename.html` |
+| Hôte/domaine et chemin d’accès | `www.client.com/directory1/directory2/filename.html` |
 | Chemin et chaîne de requête | `directory1/directory2/filename.html?param1=1234&param2=4321` |
 | URL | `https://www.client.com/directory1/directory2/filename.html?param1=1234&param2=4321` |
 | Partie | `s.dynamicAccountmatch` |
 | Nom de domaine/hôte | Non défini |
-| Chemin | `window.location.pathname` |
+| Chemin d’accès | `window.location.pathname` |
 | Chaîne de requête | `(window.location.search?window.location.search:"?")` |
-| Hôte/domaine et chemin | `window.location.host+window.location.pathname` |
+| Hôte/domaine et chemin d’accès | `window.location.host+window.location.pathname` |
 | Chemin et chaîne de requête | `window.location.pathname+(window.location.search?window.location.search:"?")` |
 | URL | `window.location.href` |
 
@@ -62,11 +62,11 @@ Si plusieurs règles sont sélectionnées (voir l’exemple ci-dessus), elles so
 * `s.dynamicAccountSelection=true`
 * `s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com"`
 
-The code first checks to determine if `qa.client.com` exists within the Host/Domain Name. If so, the report suite `devreportsuite1` is selected, and the match stops. Vous devez séparer les règles à l’aide d’un point-virgule.
+Le code vérifie d’abord si `qa.client.com` se trouve dans le nom de domaine/hôte. Si c’est le cas, la suite de rapports `devreportsuite1` est sélectionnée, et la recherche s’interrompt. Vous devez séparer les règles à l’aide d’un point-virgule.
 
 ## Suite de rapports par défaut {#section_0360D724929348B0B211708B5BA15647}
 
-The `s_account` variable can be set first, and acts as a default value in case any of the specified strings cannot be found. Voici un exemple :
+La variable `s_account` peut être définie en premier. Elle joue le rôle de valeur par défaut si les chaînes spécifiées sont introuvables. Voici un exemple :
 
 ```javascript
 var s_account="defaultreportsuiteid" 
@@ -74,4 +74,4 @@ s.dynamicAccountSelection=true
 s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com" 
 ```
 
-In the case above, if the host/domain name did not contain either `qa.client.com` or `client.com`, the report suite *defaultreportsuiteid* would be used.
+Dans l’exemple ci-dessus, si le nom du domaine/hôte ne contient pas `qa.client.com`, ni `client.com`, la suite de rapports *defaultreportsuiteid* est utilisée.
