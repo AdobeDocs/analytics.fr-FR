@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: AppMeasurement pour JavaScript
 title: Util.cookieWrite
 topic: Développeur et mise en œuvre
-uuid: 8 d 526 e 4 c -6 d 7 a -4119-9434-d 7 ce 4 fbb 7577
-translation-type: tm+mt
+uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -34,7 +34,7 @@ s.Util.cookieWrite(key, value [,expire])
 
 **Retours :**
 
-**Exemple  :**
+**Exemple :**
 
 ```js
 //set a cookie with an expiration 6 months from now 
