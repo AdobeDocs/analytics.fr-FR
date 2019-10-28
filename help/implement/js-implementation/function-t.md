@@ -1,20 +1,20 @@
 ---
 description: La fonction s.t() compile toutes les variables définies sur la page dans une demande d’image et l’envoie aux serveurs Adobe.
-keywords: track ; Implémentation d'Analytics ; suivi des pages ; track, page
+keywords: suivre;mise en œuvre d’Analytics;suivi des pages;suivre une page
 seo-description: La fonction s.t() compile toutes les variables définies sur la page dans une demande d’image et l’envoie aux serveurs Adobe.
-seo-title: Fonction s.t() – Suivi de pages
+seo-title: Fonction s.t() – Suivi des pages
 solution: Analytics
 subtopic: Fonctions
-title: Fonction s.t() – Suivi de pages
+title: Fonction s.t() – Suivi des pages
 topic: Développeur et mise en œuvre
-uuid: 67696 e 46-1 e 0 d -4200-bfad -4217 d 1023948
-translation-type: tm+mt
+uuid: 67696e46-1e0d-4200-bfad-4217d1023948
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Fonction s.t() – Suivi de pages
+# Fonction s.t() – Suivi des pages
 
 La fonction s.t() compile toutes les variables définies sur la page dans une demande d’image et l’envoie aux serveurs Adobe.
 
@@ -25,7 +25,7 @@ La fonction s.t() compile toutes les variables définies sur la page dans une de
 * Si vous souhaitez déclencher plusieurs demandes d’image lors d’un seul chargement de page, il est conseillé d’utiliser la fonction [!UICONTROL s.tl()].
 * Le déclenchement de cette fonction augmente toujours les [!UICONTROL pageviews] et inclut systématiquement la variable [!UICONTROL s.pageName].
 
-## Implémentation {#section_F75C7BD4A8954CD5BE066C6B88A4A01C}
+## Mise en œuvre {#section_F75C7BD4A8954CD5BE066C6B88A4A01C}
 
 Lors de la génération du code dans le [!UICONTROL gestionnaire de code], les lignes de code suivantes sont fournies dans la partie inférieure du code de page :
 
