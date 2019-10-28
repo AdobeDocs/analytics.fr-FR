@@ -1,14 +1,14 @@
 ---
-description: Renvoie la valeur du paramètre de chaîne de requête spécifié, s’il figure dans l’URL de la page en cours. Des données importantes (codes de suivi de campagne, mots-clés de recherche interne, etc.) sont disponibles dans la chaîne de requête d’une page. Aussi,  getQueryParam vous aide-t-il à les capturer dans des variables Analytics.
+description: Renvoie la valeur du paramètre de chaîne de requête spécifié, s’il figure dans l’URL de la page en cours. Des données importantes (codes de suivi de campagne, mots-clés de recherche interne, etc.) sont disponibles dans la chaîne de requête d’une page. Aussi, getQueryParam vous aide-t-il à les capturer dans des variables Analytics.
 keywords: Mise en œuvre d’Analytics
-seo-description: Renvoie la valeur du paramètre de chaîne de requête spécifié, s’il figure dans l’URL de la page en cours. Des données importantes (codes de suivi de campagne, mots-clés de recherche interne, etc.) sont disponibles dans la chaîne de requête d’une page. Aussi,  getQueryParam vous aide-t-il à les capturer dans des variables Analytics.
+seo-description: Renvoie la valeur du paramètre de chaîne de requête spécifié, s’il figure dans l’URL de la page en cours. Des données importantes (codes de suivi de campagne, mots-clés de recherche interne, etc.) sont disponibles dans la chaîne de requête d’une page. Aussi, getQueryParam vous aide-t-il à les capturer dans des variables Analytics.
 seo-title: getQueryParam
 solution: Analytics
 subtopic: Modules externes
 title: getQueryParam
 topic: Développeur et mise en œuvre
-uuid: ba 202756-c 728-4 ebc -8 fd 9-5 bc 29 a 9 f 673 b
-translation-type: tm+mt
+uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -16,27 +16,27 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 # getQueryParam
 
-Renvoie la valeur du paramètre de chaîne de requête spécifié, s’il figure dans l’URL de la page en cours. Des données importantes (codes de suivi de campagne, mots-clés de recherche interne, etc.) sont disponibles dans la chaîne de requête d’une page. Aussi,  getQueryParam vous aide-t-il à les capturer dans des variables Analytics.
+Renvoie la valeur du paramètre de chaîne de requête spécifié, s’il figure dans l’URL de la page en cours. Des données importantes (codes de suivi de campagne, mots-clés de recherche interne, etc.) sont disponibles dans la chaîne de requête d’une page. Aussi, getQueryParam vous aide-t-il à les capturer dans des variables Analytics.
 
 >[!IMPORTANT]
 >
->Ce plug-in est utilisé par le code H uniquement. [Appmeasurement pour JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) fournit cette fonctionnalité nativement à l'aide [d'Util. getqueryparam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Ce module externe est utilisé par le code H uniquement. [AppMeasurement pour JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) fournit cette fonctionnalité de manière native en utilisant [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
 
-Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. Le module externe détecte la chaîne de requête spécifiée, le cas échéant, et renseigne sa valeur dans la variable choisie. Si aucun paramètre de chaîne de requête n’est détecté avec cette valeur, une chaîne vide est renvoyée. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+Une fois l’installation effectuée dans votre code [!DNL AppMeasurement] pour JavaScript, le module externe est configuré en sélectionnant une variable [!DNL Analytics] à renseigner à l’aide des données figurant dans la chaîne de requête et en indiquant les valeurs de chaîne de requête à capturer. Le module externe détecte la chaîne de requête spécifiée, le cas échéant, et renseigne sa valeur dans la variable choisie. Si aucun paramètre de chaîne de requête n’est détecté avec cette valeur, une chaîne vide est renvoyée. S’il existe un paramètre de chaîne de requête dépourvu de valeur (comme, param1 dans `?param1&param2=value`), le mot *`true`* est renvoyé.
 
 >[!NOTE]
 >
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+>Le code de base du module externe doit être installé dans votre code [!DNL AppMeasurement] pour JavaScript pour que les exemples ci-dessous fonctionnent.
 
-If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
+Si vous souhaitez utiliser *`s.campaign`* pour capturer des codes de suivi de campagne disponibles en tant que valeurs du paramètre de requête *`cid`*, saisissez ce qui suit dans la fonction *`doPlugins()`* de votre code [!DNL AppMeasurement] pour JavaScript :
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. Vous pouvez le constater à l’aide du débogueur [!DNL DigitalPulse], lequel doit afficher *v0=123456* dans le cadre de la demande d’image.
+Dans cet exemple, si le visiteur était arrivé sur la page d’entrée de votre site avec l’URL [!DNL https://www.yoursite.com/index.html?cid=123456], *`s.campaign`* reçoit alors une valeur *123456*. Vous pouvez le constater à l’aide du débogueur [!DNL DigitalPulse], lequel doit afficher *v0=123456* dans le cadre de la demande d’image.
 
 >[!NOTE]
 >
->The parameter *`cid`* and others are used here as examples. Vous pouvez les remplacer par tout paramètre de chaîne de requête existant sur votre site.
+>Le paramètre *`cid`* et d’autres sont utilisés ici à titre d’exemple. Vous pouvez les remplacer par tout paramètre de chaîne de requête existant sur votre site.
 
 Le module externe *`getQueryParam`* compte deux arguments (options) supplémentaires que vous pouvez utiliser pour capturer des données dans des variables Analytics :
 
