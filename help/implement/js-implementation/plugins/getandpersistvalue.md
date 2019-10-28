@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Modules externes
 title: getAndPersistValue
 topic: Développeur et mise en œuvre
-uuid: ddeab 80 c -260 e -44 b 6-8483-8 b 8 b 369 ec 19 b
-translation-type: tm+mt
+uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,9 +20,9 @@ Le module externe getAndPersistValue obtient la valeur de votre choix et l’ins
 
 >[!IMPORTANT]
 >
->This plug-in has not been validated to be compatible with [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Ce module externe n’a pas été validé pour être compatible avec [AppMeasurement pour JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). Reportez-vous à la section [Prise en charge des modules externes dans AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
 
-For example, you might use this plug-in to set a campaign tracking code from the *`campaign`* variable into a Custom Traffic ( *`s.prop`*) variable on each visitor's page view made for the next 30 days. Cela vous permet de déterminer le nombre de pages vues que le code de suivi a générées à la suite du clic publicitaire initial.
+Vous pouvez, par exemple, utiliser ce module externe pour définir un code de suivi de campagne à partir de la variable *`campaign`* dans une variable Trafic personnalisé (*`s.prop`*) sur la page vue de chaque visiteur pendant les 30 jours suivants. Cela vous permet de déterminer le nombre de pages vues que le code de suivi a générées à la suite du clic publicitaire initial.
 
 >[!NOTE]
 >
@@ -34,14 +34,14 @@ For example, you might use this plug-in to set a campaign tracking code from the
 
 **Plugin Config**
 
-Placez le code suivant dans la fonction *`s_doPlugins()`* qui se trouve dans la section du *`s_code.js`* fichier intitulée *Plugin Config*. Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données de valeurs persistantes. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
+Placez le code suivant dans la fonction *`s_doPlugins()`* qui se trouve dans la zone du fichier *`s_code.js`* intitulée *Config du module*. Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données de valeurs persistantes. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
 
 `s.prop1=s.getAndPersistValue(s.campaign,'s_getval',30);`
 
 *`s.getAndPersistValue`* possède trois arguments :
 
-1. Currently populated variable or value to persist ( *`s.campaign`* shown above).
-1. Cookie name, used to store the value ( *`s_getval`* shown above).
+1. Variable ou valeur actuellement renseignée persistante ( *`s.campaign`* illustrée ci-dessus).
+1. Nom du cookie, utilisé pour stocker la valeur (*`s_getval`* illustré ci-dessus).
 1. Durée de la persistance, exprimée en jours. Si le paramètre est défini sur « 30 », comme dans l’exemple ci-dessus, la valeur sera renseignée dans la variable sélectionnée sur chaque page vue par l’utilisateur au cours des 30 prochains jours. Par défaut, le paramètre est défini sur la *session*.
 
 **PLUGINS SECTION** : ajoutez le code suivant à la section du fichier [!DNL s_code.js] intitulée PLUGINS SECTION. N’effectuez aucune modification dans cette partie du code du module externe.
@@ -55,4 +55,4 @@ s.getAndPersistValue=new Function("v","c","e",""
 +"v)s.c_w(c,v,e?a:0);return s.c_r(c);");
 ```
 
-Les installations de plug-in doivent toujours faire l’objet de tests approfondis afin de s’assurer que la collecte des données fonctionne comme prévu avant son déploiement dans un environnement de production.
+Les installations de module externe doivent toujours faire l’objet de tests approfondis afin de s’assurer que la collecte des données fonctionne comme prévu avant son déploiement dans un environnement de production.
