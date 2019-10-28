@@ -1,5 +1,5 @@
 ---
-description: Capture la valeur d’une variable Analytics sur la page vue suivante. Vous pouvez, par exemple, utiliser le module externe pour capturer la valeur s.pageName de la page vue précédente dans une variable Trafic personnalisé. Une option vous permet également de ne capturer une valeur précédente que si des événements de succès désignés sont définis.
+description: Capture la valeur d’une variable Analytics sur la page vue suivante. Vous pouvez, par exemple, utiliser le module externe pour capturer la valeur s.pageName de la page vue précédente dans une variable Trafic personnalisé. Une option vous permet également de ne capturer une valeur précédente que si des événements de réussite désignés sont définis.
 keywords: Mise en œuvre d’Analytics
 seo-description: Capture la valeur d’une variable Analytics sur la page vue suivante. Vous pouvez, par exemple, utiliser le module externe pour capturer la valeur s.pageName de la page vue précédente dans une variable Trafic personnalisé. Une option vous permet également de ne capturer une valeur précédente que si des événements de réussite désignés sont définis.
 seo-title: getPreviousValue
@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Modules externes
 title: getPreviousValue
 topic: Développeur et mise en œuvre
-uuid: 20 da 7 b 4 a -9820-4690-a 1 cc-d 10 b 6 dd 627 a 7
-translation-type: tm+mt
+uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 # getPreviousValue
 
-Capture la valeur d’une variable Analytics sur la page vue suivante. Vous pouvez, par exemple, utiliser le module externe pour capturer la valeur s.pageName de la page vue précédente dans une variable Trafic personnalisé. Une option vous permet également de ne capturer une valeur précédente que si des événements de succès désignés sont définis.
+Capture la valeur d’une variable Analytics sur la page vue suivante. Vous pouvez, par exemple, utiliser le module externe pour capturer la valeur s.pageName de la page vue précédente dans une variable Trafic personnalisé. Une option vous permet également de ne capturer une valeur précédente que si des événements de réussite désignés sont définis.
 
 >[!NOTE]
 >
@@ -28,15 +28,15 @@ Capture la valeur d’une variable Analytics sur la page vue suivante. Vous pouv
 
 **Plugin Config**
 
-Placez le code suivant dans la fonction *`s_doPlugins()`* qui se trouve dans la section du *`s_code.js`* fichier intitulée *Plugin Config*. Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données de valeurs persistantes. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
+Placez le code suivant dans la fonction *`s_doPlugins()`* qui se trouve dans la zone du fichier *`s_code.js`* intitulée *Config du module*. Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données de valeurs persistantes. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
 
 `s.prop1=s.getPreviousValue(s.pageName,'gpv_pn','event1');`
 
 *`s.getPreviousValue`* possède trois arguments :
 
-1. The variable to be captured from the previous page ( *`s.pageName`* above).
-1. The cookie name for use in storing the value for retrieval ( *`gpv_pn`* above).
-1. The events that must be set on the page view in order to trigger the retrieval of the previous value ( *`event1`* above). Si ce paramètre n’est pas renseigné, le module externe capture la valeur précédente sur toutes les pages vues.
+1. Variable à capturer dans la page précédente (*`s.pageName`* ci-dessus).
+1. Nom de cookie à utiliser lors du stockage de la valeur à récupérer (*`gpv_pn`* ci-dessus).
+1. Événements qui doivent être définis sur la page vue afin de déclencher la récupération de la valeur précédente (*`event1`* ci-dessus). Si ce paramètre n’est pas renseigné, le module externe capture la valeur précédente sur toutes les pages vues.
 
 **PLUGINS SECTION** : ajoutez le code suivant à la section du fichier [!DNL s_code.js] intitulée PLUGINS SECTION. N’effectuez aucune modification dans cette partie du code du module externe.
 
@@ -66,5 +66,5 @@ s.split=new Function("l","d",""
 * Un délai d’expiration de cookie fixe de 30 minutes est maintenant défini pour chaque cookie et actualisé lors de chaque rechargement de page. Le module externe fonctionne pendant toute la durée d’une visite.
 * La fonction doit être appelée dans le cadre de la section plug-ins du code. Aussi, ce dernier s’exécute-t-il chaque fois que la fonction *`s.t()`* ou *`s.tl()`* est appelée.
 
-* Une valeur doit être renseignée dans la variable choisie avant d’effectuer l’appel vers *`s.getPreviousValue`*. Because the *`s_doPlugins()`* function is executed after the variables on the page are populated, this issue rarely occurs. It should only be a matter of concern if the variable used with this plug-in is populated within the *`s_doPlugins()`* function and after the call to *`s.getPreviousValue`*.
+* Une valeur doit être renseignée dans la variable choisie avant d’effectuer l’appel vers *`s.getPreviousValue`*. Étant donné que la fonction *`s_doPlugins()`* est exécutée après avoir renseigné les variables sur la page, cela pose rarement problème. Cela ne doit être inquiétant que si la variable utilisée avec ce module externe est renseignée dans la fonction *`s_doPlugins()`* et après l’appel à *`s.getPreviousValue`*.
 
