@@ -2,18 +2,18 @@
 description: Le tableau ci-après montre les rapports associés aux variables utilisées pour les renseigner dans Analytics.
 keywords: Mise en œuvre d’Analytics
 seo-description: Le tableau ci-après montre les rapports associés aux variables utilisées pour les renseigner dans Analytics.
-seo-title: Variable au mappage des rapports
+seo-title: Mappage des rapports vers la variable
 solution: Analytics
-title: Variable au mappage des rapports
+title: Mappage des rapports vers la variable
 topic: Développeur et mise en œuvre
-uuid: fd 81 f 97 d-dd 1 a -47 d 5-9157-b 7932 fe 13490
-translation-type: tm+mt
+uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Variable au mappage des rapports
+# Mappage des rapports vers la variable
 
 Le tableau ci-après montre les rapports associés aux variables utilisées pour les renseigner dans Analytics.
 
