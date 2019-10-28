@@ -1,13 +1,13 @@
 ---
 description: Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, les recettes, etc.
-keywords: Implémentation d'Analytics ; mesures ; mesure de trafic ; mesure de conversion ; mesure vidéo ; mesure sociale ; mesure calculée ; page vue ; visite ; visiteur unique
+keywords: Mise en œuvre d’Analytics;mesures;mesures de trafic;mesures de conversion;mesures vidéo;mesures sociales;mesures calculées;page vue;visite;visiteur unique
 seo-description: Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, les recettes, etc.
 seo-title: Mesures
 solution: Analytics
 title: Mesures
 topic: Développeur et mise en œuvre
-uuid: d 2 addb 55-cae 6-470 d-b 482-303 ef 365809 c
-translation-type: tm+mt
+uuid: d2addb55-cae6-470d-b482-303ef365809c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -45,9 +45,9 @@ Les mesures représentent la base des rapports et vous aident à visualiser et c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mesures calculées </p> </td> 
-   <td colname="col2"> <p> Les <a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">mesures calculées</a> vous permettent de combiner des mesures afin de créer des opérations mathématiques utilisées comme nouvelles mesures. Ces mesures peuvent être créées pour un rapport dans lequel vous en ajoutez. Les administrateurs peuvent créer des mesures calculées pour tous les utilisateurs d’une suite de rapports. </p> </td> 
+   <td colname="col2"> <p>Les <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/calculated_metric.html" format="html" scope="external">mesures calculées</a> vous permettent de combiner des mesures afin de créer des opérations mathématiques utilisées comme nouvelles mesures. Ces mesures peuvent être créées pour un rapport dans lequel vous en ajoutez. Les administrateurs peuvent créer des mesures calculées pour tous les utilisateurs d’une suite de rapports. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour obtenir les définitions des mesures, voir [Mesures](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) dans l’aide et la documentation de référence d’Analytics.
+Voir [Mesures](https://marketing.adobe.com/resources/help/fr_FR/reference/metrics.html) dans Aide et référence d’Analytics pour obtenir des définitions des mesures.
