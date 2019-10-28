@@ -1,19 +1,19 @@
 ---
 description: Le code de suivi mobile est placé sur la page sous la forme d’une balise d’image générée par le serveur.
-keywords: Implémentation d'Analytics ; suivi mobile ; protocoles mobiles ; empêcher la mise en cache ; alt, balisetype d'image par défaut
+keywords: Mise en œuvre d’Analytics;suivi de mobile;protocoles mobiles;empêcher la mise en cache;balise alternative;type d’image par défaut
 seo-description: Le code de suivi mobile est placé sur la page sous la forme d’une balise d’image générée par le serveur.
-seo-title: Balisage des pages pour les protocoles mobiles
+seo-title: Balisage de pages pour les protocoles mobiles
 solution: Analytics
-title: Balisage des pages pour les protocoles mobiles
+title: Balisage de pages pour les protocoles mobiles
 topic: Développeur et mise en œuvre
-uuid: 5788 beaf-f 309-4918-a 99 c-a 3 e 591668205
-translation-type: tm+mt
+uuid: 5788beaf-f309-4918-a99c-a3e591668205
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Balisage des pages pour les protocoles mobiles
+# Balisage de pages pour les protocoles mobiles
 
 Le code de suivi mobile est placé sur la page sous la forme d’une balise d’image générée par le serveur.
 
@@ -52,4 +52,4 @@ Si le type d’image par défaut n’est pas pris en charge sur un périphériqu
 
 * `/5.5/` renvoie toujours une image WBMP.
 
-See [Identifying Visitors using Mobile Protocols](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
+Reportez-vous à la section [Identification des visiteurs qui utilisent des protocoles mobiles](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
