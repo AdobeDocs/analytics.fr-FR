@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Résolution des problèmes
 title: Appairage
 topic: Développeur et mise en œuvre
-uuid: b 3 d 34369-8 cb 8-4 f 12-8 b 58-847132 c 43881
-translation-type: tm+mt
+uuid: b3d34369-8cb8-4f12-8b58-847132c43881
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
