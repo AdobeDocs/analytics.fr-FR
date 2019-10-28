@@ -1,52 +1,52 @@
 ---
-title: Déploiement d'Adobe Analytics dans un environnement de développement
-seo-title: Déploiement d'Adobe Analytics dans un environnement de développement
+title: Déploiement d’Adobe Analytics dans un environnement de développement
+seo-title: Déploiement d’Adobe Analytics dans un environnement de développement
 description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics dans votre environnement de développement.
 seo-description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics dans votre environnement de développement.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
 
 
-# Déploiement d'une implémentation Analytics dans un environnement de développement
+# Déploiement d’une mise en œuvre d’Analytics dans un environnement de développement
 
-Une fois qu'une propriété a été créée et configurée au lancement, les bibliothèques sont prêtes à être déployées et le code implémenté sur votre site.
+Une fois qu’une propriété a été créée et configurée dans Launch, les bibliothèques sont prêtes à être déployées et le code est prêt à être mis en œuvre sur votre site.
 
 ## Conditions préalables
 
-[Créez et configurez une propriété pour Adobe Analytics au lancement](create-analytics-property.md): Accédez à l'outil et créez un espace pour votre implémentation Analytics.
+[Créez et configurez une propriété pour Adobe Analytics dans Launch](create-analytics-property.md) : accédez à l’outil et créez un espace pour votre mise en œuvre Analytics.
 
-## Création de adaptateurs et d'environnements
+## Création d’adaptateurs et d’environnements
 
-Launch prend en charge de nombreux processus d'organisation du déploiement du code. Procédez comme suit pour créer les composants minimum nécessaires pour une mise en œuvre Analytics. En tant qu'administrateur de lancement, vous pouvez travailler dans votre organisation pour établir le flux de travaux approprié pour déployer les solutions Adobe.
+Launch prend en charge de nombreux processus organisationnels pour le déploiement de code. Pour créer le minimum de composants nécessaires à une mise en œuvre Analytics, procédez comme suit. En tant qu’administrateur Launch, vous pouvez travailler au sein de votre organisation pour établir le processus approprié pour le déploiement de solutions Adobe.
 
-1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
-2. Cliquez sur la propriété Lancer que vous souhaitez implémenter sur votre site.
-3. Cliquez sur l'onglet Adapters, puis sur Ajouter un adaptateur.
-4. Nommez-le Akamai, puis sélectionnez Akamai dans la liste déroulante Type. Cliquez sur Enregistrer.
-5. Accédez à l'onglet Environnements, puis cliquez sur Créer un environnement.
-6. Sélectionnez Développement, nommez-le, puis l'adaptateur Akamai dans la liste déroulante. Cliquez sur Créer, puis sur Fermer.
-7. Cliquez sur Ajouter un environnement, sélectionnez Évaluation, nommez-le, puis sélectionnez l'adaptateur Akamai. Cliquez sur Créer, puis sur Fermer.
-8. Cliquez de nouveau sur Ajouter un environnement, sélectionnez Production, nommez-le, puis l'adaptateur Akamai. Cliquez sur Créer, puis sur Fermer.
+1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+2. Cliquez sur la propriété Launch que vous prévoyez de mettre en œuvre sur votre site.
+3. Cliquez sur l’onglet Adaptateurs, puis sur Ajouter un adaptateur.
+4. Nommez-le « Akamai », puis sélectionnez Akamai dans la liste déroulante de types. Cliquez sur Enregistrer.
+5. Accédez à l’onglet Environnements, puis cliquez sur Créer un environnement.
+6. Sélectionnez Développement, donnez-lui le nom « Environnement de développement », puis sélectionnez l’adaptateur Akamai dans la liste déroulante. Cliquez sur Créer, puis sur Fermer.
+7. Cliquez sur Ajouter un environnement, sélectionnez Évaluation, donnez-lui le nom « Environnement d’évaluation  », puis sélectionnez l’adaptateur Akamai. Cliquez sur Créer, puis sur Fermer.
+8. Cliquez à nouveau sur Ajouter un environnement, sélectionnez Production, donnez-lui le nom « Environnement de production », puis sélectionnez l’adaptateur Akamai. Cliquez sur Créer, puis sur Fermer.
 
-## Création d'une bibliothèque de développement
+## Création d’une bibliothèque de développement
 
-Malgré tous les changements et les configurations effectués jusqu'à présent, aucun code n'a été publié. La création d'une bibliothèque, traduite approximativement sous la forme d'un ensemble de modifications, permet d'utiliser la publication de code sur votre site.
+Malgré toutes les modifications et configurations apportées jusqu’à présent, aucun code n’a été publié. La création d’une bibliothèque, grossièrement traduite en un ensemble de modifications, permet la publication de code à utiliser sur votre site.
 
-1. Go to [Adobe Experience Platform Launch](https://launch.adobe.com) and log in if prompted.
-2. Cliquez sur la propriété Lancer que vous souhaitez implémenter sur votre site.
-3. Cliquez sur l'onglet Publication, puis sur Ajouter une nouvelle bibliothèque.
-4. Nommez la bibliothèque « Modifications initiales » et sélectionnez votre environnement de développement.
-5. Cliquez sur Ajouter toutes les ressources modifiées, qui répertorie automatiquement Adobe Analytics, le service d'identité et le noyau.
+1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+2. Cliquez sur la propriété Launch que vous prévoyez de mettre en œuvre sur votre site.
+3. Cliquez sur l’onglet Publication, puis sur Ajouter une nouvelle bibliothèque.
+4. Nommez la bibliothèque « Modifications initiales », puis sélectionnez votre environnement de développement.
+5. Cliquez sur Ajouter toutes les ressources modifiées, ce qui permet de répertorier automatiquement Adobe Analytics, Identity Service et Core.
 6. Cliquez sur Enregistrer.
-7. Dans l'écran de processus de publication, cliquez sur la liste déroulante en regard de la nouvelle bibliothèque, puis cliquez sur Créer pour le développement. Après quelques secondes, le point jaune de la bibliothèque devient vert, indiquant que la création a réussi.
-8. Accédez à l'onglet Environnements, puis cliquez sur votre environnement de développement.
-9. Sous Installer le lancement, copiez les blocs de codes et fournissez-les aux propriétaires de votre site Web.
+7. Dans l’écran du processus de publication, cliquez sur la liste déroulante en regard de votre nouvelle bibliothèque, puis sur Créer pour le développement. Au bout de quelques secondes, le point jaune de la bibliothèque devient vert, ce qui indique que la compilation a réussi.
+8. Accédez à l’onglet Environnements, puis cliquez sur votre environnement de développement.
+9. Sous « Installer Launch », copiez les blocs de code et communiquez-les aux propriétaires du site web de votre organisation.
 
-## Installation du lancement sur l'environnement de développement de votre site Web
+## Installation de Launch dans l’environnement de développement de votre site web
 
-If you control your website's code, implement the two blocks of code in their respective locations (in the `<head>` tag and just above the closing `</body>` tag) on every page of your site. Ce code est généralement placé dans le modèle principal du site. Une page vierge contenant uniquement le code de mise en œuvre ressemblerait à ce qui suit :
+Si vous contrôlez le code de votre site web, mettez en œuvre les deux blocs de code dans leurs emplacements respectifs (dans la balise `<head>` et juste au-dessus de la balise de fermeture `</body>`) sur chaque page de votre site. Ce code est généralement placé dans le modèle global du site. Une page vierge contenant uniquement le code de mise en œuvre se présenterait comme suit :
 
 ```html
 <!doctype html>
@@ -65,15 +65,15 @@ If you control your website's code, implement the two blocks of code in their re
 
 ## Résolution des problèmes
 
-**La création d'une tentative échoue.**
+**La tentative de création échoue.**
 
-Une raison courante est que des éléments existent déjà dans d'autres bibliothèques transférées vers un environnement d'évaluation ou de production. Lors de la création initiale de bibliothèques, assurez-vous que seules les ressources modifiées sont ajoutées à la bibliothèque.
+Une raison fréquente est que des éléments existent déjà dans d’autres bibliothèques envoyées vers l’évaluation ou la production. Lors de la création initiale des bibliothèques, assurez-vous que seules les ressources modifiées sont ajoutées à la bibliothèque.
 
 ## Documentation et ressources supplémentaires
 
-- [Démarrage avec Launch](https://docs.adobelaunch.com/getting-started): Découvrez le flux de travaux de base du lancement
-- [Lancer Administration](https://docs.adobelaunch.com/administration): En savoir plus sur les adaptateurs et les environnements
+- [Prise en main de Launch](https://docs.adobelaunch.com/getting-started) : découverte du processus de base de Launch
+- [Administration Launch](https://docs.adobelaunch.com/administration) : en savoir plus sur les adaptateurs et les environnements
 
 ## Étapes suivantes
 
-[Validez votre mise en œuvre Analytics et votre publication en production](validate-publish-prod.md): Commencez à obtenir la valeur d'Adobe Analytics.
+[Validation de votre mise en œuvre d’Analytics et publication en production](validate-publish-prod.md) : commencer à tirer parti d’Adobe Analytics.
