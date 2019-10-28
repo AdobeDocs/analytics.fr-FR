@@ -1,12 +1,12 @@
 ---
 description: Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. La méthode de configuration automatique gère le code AppMeasurement pour vous.
-keywords: Gestion dynamique des balises;modules externes;test;effet sur les paramètres actuels;historique des révisions;risques potentiels;ID de suite de rapports;code de devise;serveur de suivi;serveur de suivi ssl;code personnalisé;gestion de bibliothèque
+keywords: Dynamic Tag Management;modules externes;évaluation;effet sur les paramètres actuels;historique de révisions;obstacles potentiels; identifiant suite de rapports;code de devise;serveur de suivi;serveur de suivi ssl;code personnalisé;gestion de bibliothèques
 seo-description: Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. La méthode de configuration automatique gère le code AppMeasurement pour vous.
 seo-title: FAQ sur l’outil Adobe Analytics
-solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: FAQ sur l’outil Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 # FAQ sur l’outil Adobe Analytics
 
-Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. The automatic configuration method manages the [!DNL AppMeasurement] code for you.
+Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. La méthode de configuration automatique gère le code [!DNL AppMeasurement] pour vous.
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640"> 
  <thead> 
@@ -26,7 +26,7 @@ Des FAQ relatives à la configuration automatique du déploiement d’Adobe Ana
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Où placer mes modules logiciels enfichables lors de l’implémentation d’Adobe Analytics via la gestion dynamique des balises ? </p> </td> 
-   <td colname="col2"> <p> Si vous utilisez la gestion dynamique des balises pour héberger manuellement la variable <code>s_code</code>, vous pouvez ajouter des modules logiciels enfichables dans le même éditeur que la variable <code>s_code</code> hébergée, simplement comme vous le feriez dans une implémentation d’Adobe Analytics classique. </p> <p>Cependant, vous pouvez également placer les modules externes dans l’éditeur dans la section <span class="term"> Personnaliser le code</span> de page des paramètres de l’outil. Les deux méthodes d’implémentation doivent être d’efficacité égale. </p> </td> 
+   <td colname="col2"> <p> Si vous utilisez la gestion dynamique des balises pour héberger manuellement la variable <code>s_code</code>, vous pouvez ajouter des modules logiciels enfichables dans le même éditeur que la variable <code>s_code</code> hébergée, simplement comme vous le feriez dans une implémentation d’Adobe Analytics classique. </p> <p>Cependant, vous pouvez également placer les modules logiciels dans l’éditeur dans la section <span class="term"> Personnalisation du code de page</span> des paramètres de l’outil. Les deux méthodes d’implémentation doivent être d’efficacité égale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si j’apporte des modifications de configuration dans la nouvelle version de l’outil, puis-je le tester lors de l’évaluation avant de le publier pour production ? </p> </td> 
@@ -34,7 +34,7 @@ Des FAQ relatives à la configuration automatique du déploiement d’Adobe Ana
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si je passe de la configuration manuelle (le paramètre par défaut pour les outils existants) à la configuration automatique, mes paramètres actuels seront-ils affectés ? </p> </td> 
-   <td colname="col2"> <p>Non.  </p> </td> 
+   <td colname="col2"> <p>Non. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si je passe de la gestion manuelle de la bibliothèque à l’option Géré par Adobe, mes paramètres ou mon code actuel sera-t-il affecté ? </p> </td> 
@@ -47,7 +47,7 @@ Des FAQ relatives à la configuration automatique du déploiement d’Adobe Ana
  </tbody> 
 </table>
 
-See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) for configuration information.
+Reportez-vous à la section [Ajout de l’outil Adobe Analytics](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) pour obtenir des informations de configuration.
 
 ## Pièges potentiels {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
