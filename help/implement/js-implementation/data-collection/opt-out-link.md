@@ -2,19 +2,19 @@
 description: Spécifiez un lien d’exclusion et personnalisez-le. Il se peut que les visiteurs de votre site Web ne souhaitent pas que leurs activités fassent l’objet d’un suivi dans les produits d’analyse d’Adobe. Dans ce cas, ils peuvent consulter la page d’exclusion de votre domaine de collecte de données.
 keywords: Mise en œuvre d’Analytics
 seo-description: Spécifiez un lien d’exclusion et personnalisez-le. Il se peut que les visiteurs de votre site Web ne souhaitent pas que leurs activités fassent l’objet d’un suivi dans les produits d’analyse d’Adobe. Dans ce cas, ils peuvent consulter la page d’exclusion de votre domaine de collecte de données.
-seo-title: Ajout d'un lien d'exclusion
+seo-title: Ajout d’un lien d’exclusion
 solution: Analytics
 subtopic: Résolution des problèmes
-title: Ajout d'un lien d'exclusion
+title: Ajout d’un lien d’exclusion
 topic: Développeur et mise en œuvre
-uuid: c 12092 be -3 be 7-4621-b 838-d 6 b 78 d 074 f 84
-translation-type: tm+mt
+uuid: c12092be-3be7-4621-b838-d6b78d074f84
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Ajout d'un lien d'exclusion
+# Ajout d’un lien d’exclusion
 
 Spécifiez un lien d’exclusion et personnalisez-le. Il se peut que les visiteurs de votre site Web ne souhaitent pas que leurs activités fassent l’objet d’un suivi dans les produits d’analyse d’Adobe. Dans ce cas, ils peuvent consulter la page d’exclusion de votre domaine de collecte de données.
 
@@ -26,9 +26,9 @@ Pour s’exclure, les visiteurs doivent cliquer sur le lien de la page d’exclu
 
 Adobe propose des exclusions pour tous les types d’implémentation. Vous êtes responsable de votre propre politique de confidentialité, ainsi que du respect continu des conditions que vous avez signées. Notez que le lien vers la page d’exclusion varie en fonction de votre type d’implémentation, comme indiqué ici.
 
-Si vous implémentez des services et produits Adobe Analytics avec des cookies définis sur des domaines dont Adobe est propriétaire (à savoir, 207.net ou omtrdc.net), vous pouvez diriger les visiteurs de votre site Web vers le mécanisme d’exclusion fourni dans le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/privacy/opt-out.html) pour tous les sites qui utilisent des cookies Adobe pour les produits et services Adobe Analytics. The direct link to the Adobe opt-out mechanism is `https:// *collection_domain* /optout.html`.
+Si vous implémentez des services et produits Adobe Analytics avec des cookies définis sur des domaines dont Adobe est propriétaire (à savoir, 207.net ou omtrdc.net), vous pouvez diriger les visiteurs de votre site web vers le mécanisme d’exclusion fourni dans le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/fr/privacy/opt-out.html) pour tous les sites qui utilisent des cookies Adobe pour les produits et services Adobe Analytics. Le lien d’accès direct au mécanisme d’exclusion est `https:// *collection_domain* /optout.html`.
 
-More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
+Pour plus d’informations sur les pratiques de confidentialité d’Adobe Analytics, voir [https://www.adobe.com/fr/privacy/advertising-services.html](https://www.adobe.com/fr/privacy/advertising-services.html).
 
 * [Structure de l’URL de la page d’exclusion](../../../implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748)
 * [Exemples d’URL d’exclusion](../../../implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E)
@@ -42,9 +42,9 @@ Votre page d’exclusion se trouve à l’adresse URL suivante :
 https://collection_domain/optout.html[?optional_parameters]
 ```
 
-The `optional_parameters` include:
+La variable `optional_parameters` comprend les éléments suivants :
 
-`locale=[code]`: Fournit une version traduite de la page d'exclusion. Les paramètres régionaux ci-dessous sont pris en charge :
+`locale=[code]` : fournit une version traduite de la page d’exclusion. Les paramètres régionaux ci-dessous sont pris en charge :
 
 * en_US (par défaut)
 * de_DE
@@ -86,6 +86,6 @@ Vous pouvez ajouter à votre site Web un lien, comme ci-après :
 Click Here to Opt Out! </a>
 ```
 
-où *`stats.adobe.com`* est remplacée par *`s.trackingServer`* la variable définie.
+où La variable *`stats.adobe.com`* est remplacée par toute variable *`s.trackingServer`* définie.
 
-Additionally, if you want like to provide a link to opt-in, use the same URL, but replace `?optout=1` with `?optin=1`, and keep the `confirm_change=1`.
+Par ailleurs, si vous souhaitez ajouter un lien de souscription, utilisez la même URL, mais remplacez `?optout=1` par `?optin=1`, et conservez `confirm_change=1`.
