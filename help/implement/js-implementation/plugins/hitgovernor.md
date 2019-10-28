@@ -3,8 +3,8 @@ description: Le module externe s.hitGovernor effectue le suivi du nombre total d
 seo-description: Le module externe s.hitGovernor effectue le suivi du nombre total de demandes d’images Analytics envoyées au cours d’une période récurrente prédéfinie et peut réaliser une logique supplémentaire en cas de besoin si le nombre total dépasse un certain seuil.
 seo-title: hitGovernor
 title: hitGovernor
-uuid: d 9091 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
-translation-type: tm+mt
+uuid: d9091eae-005a-43c2-b419-980b795bc2a9
+translation-type: ht
 source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
@@ -20,9 +20,9 @@ Ce module externe vous permet de bloquer automatiquement ce trafic pendant la du
 
 ## Fonctionnement du module externe Hit Governor {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-Le module externe incrémente une valeur de cookie chaque fois qu’une demande d’image est envoyée à vos serveurs de suivi et en effectue un suivi au cours d’une période récurrente. La période par défaut est d’une minute, mais elle peut être remplacée. (Voir [Mise en œuvre](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) ci-dessous) If the total number of hits during that time frame exceeds the default hit threshold (60), a final custom link image request is sent to set the *`exceptionFlag`* context data variable. Le seuil d’accès par défaut peut également être remplacé.
+Le module externe incrémente une valeur de cookie chaque fois qu’une demande d’image est envoyée à vos serveurs de suivi et en effectue un suivi au cours d’une période récurrente. La période par défaut est d’une minute, mais elle peut être remplacée. (Voir [Mise en œuvre](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) ci-dessous) Si le nombre total d’accès durant cette période dépasse le seuil d’accès par défaut (60), une demande d’image de lien personnalisé finale est envoyée à la variable de données contextuelles *`exceptionFlag`*. Le seuil d’accès par défaut peut également être remplacé.
 
-Si vous le souhaitez, à partir de ce point, la collecte du trafic de ce visiteur spécifique peut cesser pendant une période par défaut de 60 jours. Le blocage du trafic requiert une ligne de code supplémentaire dans votre fonction doPlugins, comme décrit ci-dessous. La période peut également être ajustée. The logic allows time to either include that visitor's IP address, User Agent, or [!DNL Experience Cloud] Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. Si ce trafic est identifié comme frauduleux par le module externe après 60 jours, il est à nouveau marqué comme une exception et n’est pas collecté pendant 60 jours.
+Si vous le souhaitez, à partir de ce point, la collecte du trafic de ce visiteur spécifique peut cesser pendant une période par défaut de 60 jours. Le blocage du trafic requiert une ligne de code supplémentaire dans votre fonction doPlugins, comme décrit ci-dessous. La période peut également être ajustée. La logique permet à l’heure d’inclure l’adresse IP de l’utilisateur, l’agent utilisateur ou l’identifiant de visiteur [!DNL Experience Cloud] dans la logique d’exception permanente, ou de réinitialiser la période d’expiration après 60 jours. Si ce trafic est identifié comme frauduleux par le module externe après 60 jours, il est à nouveau marqué comme une exception et n’est pas collecté pendant 60 jours.
 
 ## Création de rapports {#section_E742F19B528041808454744DB2C7007C}
 
@@ -47,7 +47,7 @@ Pour mettre en œuvre le module externe hitGovernor :
 
    >[!NOTE]
    >
-   >Although the `registerPostTrackCallback` functionality is included in AppMeasurement libraries 1.8.0+, it is not included in any custom code configuration by default. Elle est incluse après et *hors de* la fonction doPlugins.
+   >La fonctionnalité `registerPostTrackCallback` est incluse dans les bibliothèques AppMeasurement 1.8.0+, mais dans aucune configuration de code personnalisée par défaut. Elle est incluse après et *hors de* la fonction doPlugins.
 
    ```
     s.registerPostTrackCallback(function(){ 
@@ -88,7 +88,7 @@ Pour mettre en œuvre le module externe hitGovernor :
 
 >[!NOTE]
 >
->Votre implémentation peut utiliser un autre nom d'objet que l'objet « s » d'analyse par défaut. Si tel est le cas, veuillez mettre à jour le nom de l’objet en conséquence.
+>Votre mise en œuvre peut utiliser un nom d’objet différent de celui de l’objet « s » par défaut d’Analytics. Si tel est le cas, veuillez mettre à jour le nom de l’objet en conséquence.
 
 1. Configuration des règles de traitement.
 
