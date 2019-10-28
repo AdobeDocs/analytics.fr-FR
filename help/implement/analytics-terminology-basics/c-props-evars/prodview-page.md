@@ -1,23 +1,23 @@
 ---
 description: La variable products sert à effectuer le suivi des produits et des catégories de produits (ainsi que de la quantité achetée et du prix d’achat).
-keywords: Implémentation d'Analytics ; variable products ; consultation du produit ; événement de réussite
+keywords: Mise en œuvre d’Analytics;variable products;consultation produit;événement de succès
 seo-description: La variable products sert à effectuer le suivi des produits et des catégories de produits (ainsi que de la quantité achetée et du prix d’achat).
-seo-title: Page d'affichage détaillée du produit
+seo-title: Page Affichage du produit détaillé
 solution: Analytics
-title: Page d'affichage détaillée du produit
+title: Page Affichage du produit détaillé
 topic: Développeur et mise en œuvre
-uuid: 464 c 9 daf-b 042-4 fb 8-8 ca 6-e 104 c 0 bcef 45
-translation-type: tm+mt
+uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Page d'affichage détaillée du produit
+# Page Affichage du produit détaillé
 
 La variable products sert à effectuer le suivi des produits et des catégories de produits (ainsi que de la quantité achetée et du prix d’achat).
 
-A success event should always be set in conjunction with the *`products`* variable.
+Un événement de succès doit toujours être défini conjointement avec la variable *`products`*.
 
 ```js
 s.events="prodView"
@@ -25,7 +25,7 @@ s.events="prodView"
 
 >[!NOTE]
 >
->While *`prodView`* is treated in implementation like an event, it does not have the same flexibility in the interface. The *`prodView`*event is an instance of the product and is only available in the *`products`* report. vous conseille d’utiliser un événement *`custom`* en plus de l’événement *`prodView`.* Cela vous permet d’afficher les mesures de consultation des produits aux côtés d’autres mesures dans d’autres rapports de conversion.
+>Bien que l’événement *`prodView`* soit traité comme un événement dans le cadre de la mise en œuvre, il ne bénéficie pas de la même souplesse dans l’interface. L’événement *`prodView`* est une instance du produit, disponible uniquement dans le rapport *`products`*. vous conseille d’utiliser un événement *`custom`* en plus de l’événement *`prodView`*. Cela vous permet d’afficher les mesures de consultation des produits aux côtés d’autres mesures dans d’autres rapports de conversion.
 
 ```js
 s.products=";diamond earrings (54321)"
@@ -33,7 +33,7 @@ s.products=";diamond earrings (54321)"
 
 >[!NOTE]
 >
->La syntaxe de chaîne de produits doit commencer par un point-virgule. Il s’agit d’un élément hérité. Auparavant, il servait à délimiter la catégorie et le produit. Cependant, cela crée une limite dans l’interface si vous souhaitez modifier la méthode de classification des produits. Pour bénéficier d’un maximum de souplesse dans le cadre de la génération de rapports, il est préférable de ne rien indiquer et d’utiliser Classifications afin de configurer des catégories.
+>La syntaxe de la chaîne « products » doit commencer par un point-virgule. Il s’agit d’un élément hérité. Auparavant, il servait à délimiter la catégorie et le produit. Cependant, cela crée une limite dans l’interface si vous souhaitez modifier la méthode de classification des produits. Pour bénéficier d’un maximum de souplesse dans le cadre de la génération de rapports, il est préférable de ne rien indiquer et d’utiliser Classifications afin de configurer des catégories.
 
 ## Page de panier d’achats (scOpen, scAdd, scRemove ) {#section_469B64F4150149DFB6B2C731279C0BC7}
 
@@ -58,6 +58,6 @@ s.products=";SKU"
 
 >[!NOTE]
 >
->While using the SKU in the product string may make the *`products`* report less readable, it provides the maximum flexibility later when you want to classify your products. Vous pouvez créer des catégories à partir du SKU indiquant la finition, le fabricant, la catégorie et la sous-catégorie.
+>Bien que l’utilisation du SKU dans la chaîne du produit puisse rendre le rapport *`products`* moins lisible, elle offre une flexibilité maximale ultérieurement lorsque vous souhaitez classer vos produits. Vous pouvez créer des catégories à partir du SKU indiquant la finition, le fabricant, la catégorie et la sous-catégorie.
 
-Lorsque la variable *`products`* est définie avec l’événement *`purchase`, la quantité achetée et le prix d’achat total sont inclus dans la valeur « products », comme indiqué ci-dessus.*
+Lorsque la variable *`products`* est définie avec l’événement *`purchase`*, la quantité achetée et le prix d’achat total sont inclus dans la valeur « products », comme indiqué ci-dessus.
