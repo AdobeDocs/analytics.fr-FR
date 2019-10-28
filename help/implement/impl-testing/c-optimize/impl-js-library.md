@@ -2,19 +2,19 @@
 description: Le fichier de bibliothèque JavaScript est conçu pour être mis en cache dans le navigateur de l’utilisateur après le chargement initial. Cela limite la quantité de données à télécharger.
 keywords: Mise en œuvre d’Analytics
 seo-description: Le fichier de bibliothèque JavaScript est conçu pour être mis en cache dans le navigateur de l’utilisateur après le chargement initial. Cela limite la quantité de données à télécharger.
-seo-title: Fichier de bibliothèque javascript
+seo-title: Fichier de bibliothèque JavaScript
 solution: Analytics
 subtopic: Résolution des problèmes
-title: Fichier de bibliothèque javascript
+title: Fichier de bibliothèque JavaScript
 topic: Développeur et mise en œuvre
-uuid: 52940 a 85-4905-4302-9 c 8 f-d 93327 e 2 e 7 b 6
-translation-type: tm+mt
+uuid: 52940a85-4905-4302-9c8f-d93327e2e7b6
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Fichier de bibliothèque javascript
+# Fichier de bibliothèque JavaScript
 
 Le fichier de bibliothèque JavaScript est conçu pour être mis en cache dans le navigateur de l’utilisateur après le chargement initial. Cela limite la quantité de données à télécharger.
 
