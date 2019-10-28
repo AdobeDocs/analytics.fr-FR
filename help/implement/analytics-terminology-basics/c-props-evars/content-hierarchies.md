@@ -1,13 +1,13 @@
 ---
 description: Les hiérarchies du contenu servent le plus souvent à présenter les différents chemins que les visiteurs ont empruntés à partir d’une page, d’un niveau, etc.
-keywords: Implémentation d'Analytics ; hiérarchies de contenu ; hier
+keywords: Mise en œuvre d’Analytics;hiérarchies du contenu;hier
 seo-description: Les hiérarchies du contenu servent le plus souvent à présenter les différents chemins que les visiteurs ont empruntés à partir d’une page, d’un niveau, etc.
 seo-title: Décompte des hiérarchies du contenu
 solution: Analytics
 title: Décompte des hiérarchies du contenu
 topic: Développeur et mise en œuvre
-uuid: d 41 df 92 d -65 fb -44 de-bf 46-8 fac 24303 papa
-translation-type: tm+mt
+uuid: d41df92d-65fb-44de-bf46-8fac24303dad
+translation-type: ht
 source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
 
 ---
@@ -19,7 +19,7 @@ Les hiérarchies du contenu servent le plus souvent à présenter les différent
 
 **Comment dois-je effectuer le suivi de ma[!UICONTROL hiérarchie du contenu] ?**
 
-Vous devez, tout d’abord, comprendre les exigences, en termes de génération de rapports, liées au suivi des [!UICONTROL hiérarchies du contenu]. Si les exigences de suivi de la hiérarchie sont très détaillées, il est, le plus souvent, conseillé d’utiliser la variable de hiérarchie ( *`hier`*) est recommandée. Les hiérarchies nécessitent généralement une stricte taxonomie prédéfinie, dans laquelle un même nœud enfant réside rarement sous plusieurs nœuds parents. Examinez l’exemple suivant :
+Vous devez, tout d’abord, comprendre les exigences, en termes de génération de rapports, liées au suivi des [!UICONTROL hiérarchies du contenu]. Si les exigences de suivi de la hiérarchie sont très détaillées, il est, le plus souvent, conseillé d’utiliser la variable de hiérarchie ( *`hier`*). Les hiérarchies nécessitent généralement une stricte taxonomie prédéfinie, dans laquelle un même nœud enfant réside rarement sous plusieurs nœuds parents. Examinez l’exemple suivant :
 
 [!UICONTROL Hiérarchie mondiale]
 
@@ -35,7 +35,7 @@ Dans certaines occasions, l’utilisation simultanée des propriétés et de la 
  <thead> 
   <tr> 
    <th class="entry"> </th> 
-   <th class="entry"> Props </th> 
+   <th class="entry"> Propriétés </th> 
    <th class="entry"> Hiérarchie </th> 
   </tr> 
  </thead>
