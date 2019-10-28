@@ -1,32 +1,32 @@
 ---
 description: Cette section contient l’échantillon de code de votre fichier JavaScript principal et des pages de votre site.
-keywords: Implémentation d'Analytics ; appmeasurement. js ; exemple de code de page
+keywords: Mise en œuvre d’Analytics;code appmeasurement.js;exemple de code de page
 seo-description: Cette section contient l’échantillon de code de votre fichier JavaScript principal et des pages de votre site.
-seo-title: Exemple de code de page et configuration globale
+seo-title: Exemple de code de page et configuration internationale
 solution: Analytics
 subtopic: AppMeasurement pour JavaScript
-title: Exemple de code de page et configuration globale
+title: Exemple de code de page et configuration internationale
 topic: Développeur et mise en œuvre
-uuid: e 8880 d 77-172 b -42 e 5-8187-ce 371 aa 9 eff 9
-translation-type: tm+mt
+uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Exemple de code de page et configuration globale
+# Exemple de code de page et configuration internationale
 
 Cette section contient l’échantillon de code de votre fichier JavaScript principal et des pages de votre site.
 
 >[!IMPORTANT]
 >
->This example uses the visitor ID service, which is deployed as part of your [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md). Le fait d’activer ce service dans AppMeasurement avant d’inclure le fichier JavaScript de l’API Visiteur sur toutes les pages du site peut entraîner une comptabilisation des visiteurs en double. Pour éviter ce problème, vous devez comprendre et suivre la procédure décrite à la section [Service d’identification des visiteurs](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>Dans cet exemple, le service d’identification des visiteurs est utilisé. Il est déployé dans le cadre de votre [mise en œuvre JavaScript](../../implement/js-implementation/javascript-implementation-overview.md). Le fait d’activer ce service dans AppMeasurement avant d’inclure le fichier JavaScript de l’API Visiteur sur toutes les pages du site peut entraîner une comptabilisation des visiteurs en double. Pour éviter ce problème, vous devez comprendre et suivre la procédure décrite à la section [Service d’identification des visiteurs](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
 
 ## Exemple de code AppMeasurement.js {#section_4351543F2D6049218E18B48769D471E2}
 
 >[!IMPORTANT]
 >
->Configuration variables should be set above the *`doPlugins`* function.
+>Les variables de configuration doivent être définies au-dessus de la fonction *`doPlugins`*.
 
 Dans le cas des nouvelles implémentations, vous pouvez coller le code de configuration globale suivant au début du fichier AppMeasurement.js pour commencer :
 
@@ -85,7 +85,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 
 ## Exemple de code de page {#section_042412C29CC249E298F19B2BC2F43CE7}
 
-Pour les nouvelles implémentations, vous pouvez coller le code de page suivant juste après l'ouverture <body> sur les pages dont vous souhaitez effectuer le suivi :
+Pour de nouvelles mises en œuvre, vous pouvez coller le code de page suivant juste après la balise d’ouverture <body> sur les pages dont vous souhaitez effectuer le suivi :
 
 ```js
 <script language="JavaScript" type="text/javascript"><!-- 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-Veillez également à inclure une référence à `AppMeasurement.js` et `VisitorAPI.js` sur chaque page. See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions.
+Veillez également à inclure une référence à `AppMeasurement.js` et `VisitorAPI.js` sur chaque page. Reportez-vous à la section [Mise en œuvre JavaScript](../../implement/js-implementation/javascript-implementation-overview.md) pour de plus amples informations.
