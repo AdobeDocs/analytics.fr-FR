@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Modules externes
 title: getNewRepeat
 topic: Développeur et mise en œuvre
-uuid: e 3 e 9 f 362-e 0 b 1-4 a 2 b-bb 5 b -98 eddaa 0 a 7 f 4
-translation-type: tm+mt
+uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -34,7 +34,7 @@ Utilisez ce module externe pour répondre aux questions suivantes :
 
 **Plugin Config**
 
-Placez le code suivant dans la fonction *`s_doPlugins()`* qui se trouve dans la section du *`s_code.js`* fichier intitulée *Plugin Config*. Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données de valeurs persistantes. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
+Placez le code suivant dans la fonction *`s_doPlugins()`* qui se trouve dans la zone du fichier *`s_code.js`* intitulée *Config du module*. Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données de valeurs persistantes. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
 
 `s.prop1=s.getNewRepeat(30,'s_getNewRepeat');`
 
@@ -63,4 +63,4 @@ s.split=new Function("l","d",""
 +"++]=l.substring(0,i);l=l.substring(i+d.length);}return a");
 ```
 
-Les installations de plug-in doivent toujours faire l’objet de tests approfondis afin de s’assurer que la collecte des données fonctionne comme prévu avant son déploiement dans un environnement de production.
+Les installations de module externe doivent toujours faire l’objet de tests approfondis afin de s’assurer que la collecte des données fonctionne comme prévu avant son déploiement dans un environnement de production.
