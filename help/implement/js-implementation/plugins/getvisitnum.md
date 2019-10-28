@@ -1,14 +1,14 @@
 ---
 description: Le module externe getVisitNum détermine le nombre de visites qu’un internaute a effectuées sur votre site et capture cette valeur dans une variable Analytics.
 keywords: Mise en œuvre d’Analytics
-seo-description: Le plug-in getVisitNum détermine le nombre de visites qu’un internaute a effectuées sur votre site et capture cette valeur dans une variable Analytics.
+seo-description: Le module externe getVisitNum détermine le nombre de visites qu’un internaute a effectuées sur votre site et capture cette valeur dans une variable Analytics.
 seo-title: getVisitNum
 solution: Analytics
 subtopic: Modules externes
 title: getVisitNum
 topic: Développeur et mise en œuvre
-uuid: 27 d 57 f 92-fffb -44 d 0-b 9 ca -9 da 93323 f 64 c
-translation-type: tm+mt
+uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -24,7 +24,7 @@ Le module externe getVisitNum détermine le nombre de visites qu’un internaute
 
 **Plugin Config**
 
-Placez le code suivant dans la fonction *`s_doPlugins()`* qui se trouve dans la section du *`s_code.js`* fichier intitulée *Plugin Config*. Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture des données relatives au nombre de visites. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
+Placez le code suivant dans la fonction *`s_doPlugins()`* qui se trouve dans la zone du fichier *`s_code.js`* intitulée *Config du module*. Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture des données relatives au nombre de visites. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
 
 `s.prop1=s.getVisitNum();`
 
@@ -72,7 +72,7 @@ s.endof=new Function("x",""
 **Retours**
 
 * Retourne le nombre de visites (1, 2, 3 etc.) de la visite. Ce nombre n’est incrémenté que sur la première page de chaque visite.
-* Retourne « nombre de visites inconnu » si le module externe ne peut pas identifier le nombre de visites (les cookies sont bloqués). 
+* Retourne « nombre de visites inconnu » si le module externe ne peut pas identifier le nombre de visites (les cookies sont bloqués).
 
 **Exemples**
 
@@ -86,5 +86,5 @@ s.prop1=s.getVisitNum('d'); //resets daily
 **Remarques**
 
 * Les installations de module externe doivent toujours faire l’objet de tests approfondis afin de s’assurer que la collecte des données fonctionne comme prévu avant son déploiement dans un environnement de production.
-* Ce module externe repose sur la possibilité de définir des cookies dans le navigateur Web de l’utilisateur. Si l’utilisateur n’accepte pas les cookies, toutes les visites apparaissent comme s’il s’agissait de première visites. 
+* Ce module externe repose sur la possibilité de définir des cookies dans le navigateur Web de l’utilisateur. Si l’utilisateur n’accepte pas les cookies, toutes les visites apparaissent comme s’il s’agissait de première visites.
 
