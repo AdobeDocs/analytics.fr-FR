@@ -2,18 +2,18 @@
 description: La sérialisation des événements est le processus consistant à implémenter des mesures pour empêcher les événements en double d’entrer dans la création de rapports d’Analytics. Les doublons apparaissent généralement lorsqu’un utilisateur actualise la page plusieurs fois, navigue sur une certaine page à plusieurs reprises ou enregistre la page Web sur son ordinateur (par exemple, si un client enregistrait une page de confirmation d’achat sur son ordinateur, chaque fois qu’il la consulterait, les commandes et les recettes seraient comptabilisées à nouveau si la sérialisation des événements n’était pas en place).
 keywords: Mise en œuvre d’Analytics
 seo-description: La sérialisation des événements est le processus consistant à implémenter des mesures pour empêcher les événements en double d’entrer dans la création de rapports d’Analytics. Les doublons apparaissent généralement lorsqu’un utilisateur actualise la page plusieurs fois, navigue sur une certaine page à plusieurs reprises ou enregistre la page Web sur son ordinateur (par exemple, si un client enregistrait une page de confirmation d’achat sur son ordinateur, chaque fois qu’il la consulterait, les commandes et les recettes seraient comptabilisées à nouveau si la sérialisation des événements n’était pas en place).
-seo-title: Présentation de la sérialisation d'événements
+seo-title: Sérialisation des événements - Aperçu
 solution: Analytics
-title: Présentation de la sérialisation d'événements
+title: Sérialisation des événements - Aperçu
 topic: Développeur et mise en œuvre
-uuid: 8 c 7883 bb -5 ba 4-4440-af 80-c 0 d 15867570 c
-translation-type: tm+mt
+uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Présentation de la sérialisation d'événements
+# Sérialisation des événements - Aperçu
 
 La sérialisation des événements est le processus consistant à implémenter des mesures pour empêcher les événements en double d’entrer dans la création de rapports d’Analytics. Les doublons apparaissent généralement lorsqu’un utilisateur actualise la page plusieurs fois, navigue sur une certaine page à plusieurs reprises ou enregistre la page Web sur son ordinateur (par exemple, si un client enregistrait une page de confirmation d’achat sur son ordinateur, chaque fois qu’il la consulterait, les commandes et les recettes seraient comptabilisées à nouveau si la sérialisation des événements n’était pas en place).
 
@@ -24,9 +24,9 @@ Elle s’avère très utile dans les cas suivants :
 
 >[!NOTE]
 >
->La fonctionnalité Sources de données ne prend pas en charge la sérialisation ou la déduplication d'événements.
+>Les sources de données ne prennent pas en charge la sérialisation ou la déduplication des événements.
 
-Ce document décrit le processus de mise en œuvre de la [!UICONTROL sérialisation d’événements] pour les événements de [!UICONTROL conversion] et [!UICONTROL personnalisés]. To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . Sélectionnez ensuite les événements que vous voulez enregistrer dans la colonne [!UICONTROL Enregistrement d’événement unique].
+Ce document décrit le processus de mise en œuvre de la [!UICONTROL sérialisation d’événements] pour les événements de [!UICONTROL conversion] et [!UICONTROL personnalisés]. Pour utiliser la [!UICONTROL sérialisation des événements], vous devez l’activer dans **[!UICONTROL Administration]** &gt; **[!UICONTROL Suite de rapports]** &gt; **[!UICONTROL [sélectionnez la suite de rapports]]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Événements de succès]**. Sélectionnez ensuite les événements que vous voulez enregistrer dans la colonne [!UICONTROL Enregistrement d’événement unique].
 
 ## Comportement par défaut {#section_892BB2BEFC434B69869D4504A8B54308}
 
@@ -38,7 +38,7 @@ event_serialization_impl.xml
 
  -->
 
-To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . Sélectionnez ensuite les événements que vous voulez enregistrer dans la colonne [!UICONTROL Enregistrement d’événement unique]. Vous pouvez définir un événement sur trois paramètres différents.
+Pour utiliser la [!UICONTROL sérialisation des événements], vous devez l’activer dans **[!UICONTROL Administration]** &gt; **[!UICONTROL Suite de rapports]** &gt; **[!UICONTROL [sélectionnez la suite de rapports]]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Événements de succès]**. Sélectionnez ensuite les événements que vous voulez enregistrer dans la colonne [!UICONTROL Enregistrement d’événement unique]. Vous pouvez définir un événement sur trois paramètres différents.
 
 **Toujours enregistrer l’événement** : il s’agit du comportement par défaut de tous les événements lors de l’activation initiale. Tous les événements figurant dans les demandes d’image sont envoyés directement à Analytics, y compris les rechargements de page.
 
@@ -81,4 +81,4 @@ Veuillez prendre note des points suivants lors de la sélection d’identifiants
 
 [!DNL Analytics] propose une fonctionnalité qui permet à un événement de se déclencher une fois par visite.
 
-This can be enabled from the UI:  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]** .
+Elle peut être activée dans l’interface utilisateur : **[!UICONTROL Administration]** &gt; **[!UICONTROL Suite de rapports]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Événements de succès]**.
