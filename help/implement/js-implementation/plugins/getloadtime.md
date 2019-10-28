@@ -6,8 +6,8 @@ seo-title: getLoadTime
 solution: Analytics
 title: getLoadTime
 topic: Développeur et mise en œuvre
-uuid: 5 d 26 a 69 b-cbde -4 be 1-bac 1-5 ee 8 a 4 e 55 ca 3
-translation-type: tm+mt
+uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -35,11 +35,11 @@ function s_getLoadTime(){if(!window.s_loadT){var b=new Date().getTime(),o=window
 
 **Effectuer l’appel de fonction initial**
 
-Add a call to `s_getLoadTime()` near the beginning of [!DNL s_code.js], outside of any function.
+Ajoutez un appel à `s_getLoadTime()` à proximité du début du fichier [!DNL s_code.js], en dehors de toute fonction.
 
 **Effectuer l’appel de fonction final**
 
-Add another call to `s_getLoadTime()` in the `s_doPlugins()` function, saving the returned value in a prop, eVar, and/or a numeric event.
+Ajoutez un autre appel à `s_getLoadTime()` dans la fonction `s_doPlugins()`, en enregistrant la valeur renvoyée dans une prop, une eVar et/ou un événement numérique.
 
 Exemple d’utilisation 1 – Enregistrement du temps de chargement des pages dans prop10 et eVar20 :
 
@@ -55,7 +55,7 @@ if(s_getLoadTime())s.events=s.apl(s.events,'event90='+s_getLoadTime(),',',1);
 
 **(Facultatif) Ajout de la prise en charge des navigateurs plus anciens**
 
-Pour la prise en charge des navigateurs plus anciens qui ne proposent pas la propriété [window.performance.timing](https://www.html5rocks.com/en/tutorials/webperformance/basics/), vous devez inclure la ligne suivante dans la section HEAD du code HTML de la page, près du début et avant d’appeler des fichiers .js, .css ou autres :
+Pour la prise en charge des navigateurs plus anciens qui ne proposent pas la propriété [window.performance.timing](https://www.html5rocks.com/fr/tutorials/webperformance/basics/), vous devez inclure la ligne suivante dans la section HEAD du code HTML de la page, près du début et avant d’appeler des fichiers .js, .css ou autres :
 
 ```
 <script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
