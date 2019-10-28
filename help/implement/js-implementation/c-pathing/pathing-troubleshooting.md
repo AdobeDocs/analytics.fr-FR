@@ -2,18 +2,18 @@
 description: Liste des raisons pour lesquelles le cheminement risque de ne pas être enregistré et affiché dans les rapports.
 keywords: Mise en œuvre d’Analytics
 seo-description: Liste des raisons pour lesquelles le cheminement risque de ne pas être enregistré et affiché dans les rapports.
-seo-title: Raisons de l'enregistrement du cheminement
+seo-title: Raisons pour lesquelles le cheminement risque de ne pas être enregistré
 solution: Analytics
-title: Raisons de l'enregistrement du cheminement
+title: Raisons pour lesquelles le cheminement risque de ne pas être enregistré
 topic: Développeur et mise en œuvre
-uuid: 9985 b 7 f 7-75 ea -4 c 94-97 a 3-520 f 92630989
-translation-type: tm+mt
+uuid: 9985b7f7-75ea-4c94-97a3-520f92630989
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# Raisons de l'enregistrement du cheminement
+# Raisons pour lesquelles le cheminement risque de ne pas être enregistré
 
 Liste des raisons pour lesquelles le cheminement risque de ne pas être enregistré et affiché dans les rapports.
 
