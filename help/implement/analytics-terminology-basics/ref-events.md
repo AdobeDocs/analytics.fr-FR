@@ -1,13 +1,13 @@
 ---
 description: Les événements suivent le moment où un visiteur a réalisé une action spécifiée.
-keywords: Implémentation d'Analytics ; event ; événement de réussite ; Evénement monétaire ; événement personnalisé
+keywords: Mise en œuvre d’Analytics;événement;événement de succès;événement de devise;événement personnalisé
 seo-description: Les événements suivent le moment où un visiteur a réalisé une action spécifiée.
-seo-title: 'Requête '
+seo-title: Événements
 solution: Analytics
-title: 'Requête '
+title: Événements
 topic: Développeur et mise en œuvre
-uuid: d 2 edd 432-60 bc -4426-9967-153 b 713147 a 1
-translation-type: tm+mt
+uuid: d2edd432-60bc-4426-9967-153b713147a1
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -25,6 +25,6 @@ Les types d’événements les plus utilisés incluent :
 * Événements de devise
 * Événements personnalisés
 
-Pour des informations détaillées, consultez [Configuration des événements de réussite](/help/admin/admin/c-success-events/t-success-events.md).
+Pour des informations détaillées, consultez [Configurer des événements de succès](/help/admin/admin/c-success-events/t-success-events.md).
 
-Les événements de succès sont décrits de manière détaillée dans l’[aide et la documentation de référence d’Analytics](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html).
+Les événements de succès sont décrits en détail dans [Aide et référence d’Analytics](https://marketing.adobe.com/resources/help/fr_FR/reference/success_event.html).
