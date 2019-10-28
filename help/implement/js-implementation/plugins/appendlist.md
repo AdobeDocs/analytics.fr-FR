@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Modules externes
 title: appendList
 topic: Développeur et mise en œuvre
-uuid: e 923 c 86 c-eaa 6-4 e 17-a 3 a 4-0 e 08 af 886674
-translation-type: tm+mt
+uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -31,7 +31,7 @@ Ce module externe permet d’effectuer les opérations suivantes :
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Scénario </p> </td> 
-   <td colname="col2"> <p>Ajouter <span class="term"> event 1 </span> à la variable events active tout en s'assurant que l'événement n'est pas dupliqué. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Ajouter <span class="term"> event1 </span> à la variable « events » en cours, tout en s’assurant que l’événement n’est pas dupliqué. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code </p> </td> 
@@ -50,7 +50,7 @@ Ce module externe permet d’effectuer les opérations suivantes :
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Scénario </p> </td> 
-   <td colname="col2"> <p>Ajouter la valeur <span class="term"> historique </span> de la variable de liste <span class="varname"> prop 1 </span>, avec <span class="term"> historique </span> et <span class="term"> historique </span> considérés comme la même valeur. </p> <p>s.prop1="Science,History" </p> </td> 
+   <td colname="col2"> <p>Ajouter la valeur <span class="term"> history </span> à la variable de liste <span class="varname"> prop1 </span>, avec <span class="term"> history </span> et <span class="term"> History </span> considérés comme la même valeur. </p> <p>s.prop1="Science,History" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code </p> </td> 
@@ -58,7 +58,7 @@ Ce module externe permet d’effectuer les opérations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Résultats </p> </td> 
-   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> l'historique </span> n'est pas ajouté car <span class="term"> l'historique </span> figure déjà dans la liste. </p> </td> 
+   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> history </span> n’est pas ajouté, car <span class="term"> History </span> figure déjà dans la liste. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Ce module externe permet d’effectuer les opérations suivantes :
 Procédez comme suit pour implémenter le module externe APL.
 
 1. Demandez le code du module externe au service à la clientèle ou à votre conseiller Adobe attitré.
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
+1. Ajoutez le ou les appels à la fonction API dans la fonction *`s_doPlugins`*.
 
 Le code peut se présenter comme suit sur votre site :
 
