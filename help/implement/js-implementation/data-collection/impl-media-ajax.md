@@ -1,21 +1,21 @@
 ---
-description: 'Dans la conception de sites Web, AJAX est un nouveau concept qui utilise plusieurs technologies pour créer et gérer du contenu dynamique sur les pages Web. '
+description: Dans la conception de sites Web, AJAX est un nouveau concept qui utilise plusieurs technologies pour créer et gérer du contenu dynamique sur les pages Web.
 keywords: Mise en œuvre d’Analytics
-seo-description: 'Dans la conception de sites Web, AJAX est un nouveau concept qui utilise plusieurs technologies pour créer et gérer du contenu dynamique sur les pages Web. '
-seo-title: AJAX-Suivi des applications Rich Media
+seo-description: Dans la conception de sites Web, AJAX est un nouveau concept qui utilise plusieurs technologies pour créer et gérer du contenu dynamique sur les pages Web.
+seo-title: Suivi AJAX des applications rich media
 solution: Analytics
-title: AJAX-Suivi des applications Rich Media
+title: Suivi AJAX des applications rich media
 topic: Développeur et mise en œuvre
-uuid: ffe 6 a 263-ae 18-4875-badb-b 3 aea 3 efcb 64
-translation-type: tm+mt
+uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# AJAX-Suivi des applications Rich Media
+# Suivi AJAX des applications rich media
 
-Dans la conception de sites Web, AJAX est un nouveau concept qui utilise plusieurs technologies pour créer et gérer du contenu dynamique sur les pages Web. 
+Dans la conception de sites Web, AJAX est un nouveau concept qui utilise plusieurs technologies pour créer et gérer du contenu dynamique sur les pages Web.
 
 Le suivi des interactions utilisateur avec [!UICONTROL AJAX] et d’autres applications multimédias riches est crucial pour le succès des analyses et le retour sur investissement. Ce livre blanc a pour but de fournir des recommandations pour le suivi des applications Internet riches, notamment celles qui utilisent [!UICONTROL AJAX].
 
@@ -34,11 +34,11 @@ L’activité de microniveau doit être suivie en tant que liens personnalisés 
 
 ## Eléments à analyser {#section_56824EF675874BA99127A566F6B1383F}
 
-Il est important de déterminer l’efficacité avec laquelle votre RIA concoure au succès.  Le succès est généralement mesuré par le biais des conversions. Une analyse de macroniveau donne un aperçu de l’efficacité globale de la RIA. Une analyse de microniveau peut donner quant à elle un aperçu des fonctionnalités qui engendrent des conversions.
+Il est important de déterminer l’efficacité avec laquelle votre RIA concoure au succès. Le succès est généralement mesuré par le biais des conversions. Une analyse de macroniveau donne un aperçu de l’efficacité globale de la RIA. Une analyse de microniveau peut donner quant à elle un aperçu des fonctionnalités qui engendrent des conversions.
 
 Vous devez mesurer l’efficacité de votre RIA. Il s’agit d’une analyse de l’activité de microniveau par rapport aux macromesures de la RIA. Les utilisateurs suivent-ils plus d’étapes que nécessaires pour atteindre le même objectif ? Les mesures de l’analyse peuvent inclure l’activité des visites/fonctionnalités, l’activité des pages vues/fonctionnalités, l’activité des visiteurs/fonctionnalités, etc.
 
-Effectuez l’analyse sur le flux du chemin et les abandons. Les utilisateurs évitent-ils la RIA et trouvent-il un autre chemin pour atteindre l’objectif ? Exécutez des rapports sur les abandons conçus autour du site et du flux de la RIA. Effectuez une analyse du chemin à partir des pages d’entrées pour déterminer les vrais modèles de trafic. Examinez les obstacles et les facteurs incitatifs pour guider les utilisateurs vers l’objectif. 
+Effectuez l’analyse sur le flux du chemin et les abandons. Les utilisateurs évitent-ils la RIA et trouvent-il un autre chemin pour atteindre l’objectif ? Exécutez des rapports sur les abandons conçus autour du site et du flux de la RIA. Effectuez une analyse du chemin à partir des pages d’entrées pour déterminer les vrais modèles de trafic. Examinez les obstacles et les facteurs incitatifs pour guider les utilisateurs vers l’objectif.
 
 ## Mesures proposées {#section_AB7047D6C74740C6B6E47ED93602DB07}
 
