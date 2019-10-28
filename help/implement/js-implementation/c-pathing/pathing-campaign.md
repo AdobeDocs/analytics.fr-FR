@@ -2,18 +2,18 @@
 description: Réponse à la question « Où l’utilisateur se rend-il sur mon site après y avoir été redirigé à partir d’une campagne ? »
 keywords: Mise en œuvre d’Analytics
 seo-description: Réponse à la question « Où l’utilisateur se rend-il sur mon site après y avoir été redirigé à partir d’une campagne ? »
-seo-title: Cheminement par code de suivi ou campagne
+seo-title: Cheminement par code de suivi ou de campagne
 solution: Analytics
-title: Cheminement par code de suivi ou campagne
+title: Cheminement par code de suivi ou de campagne
 topic: Développeur et mise en œuvre
-uuid: eb 6 e 3484-1 b 40-4 ec 6-8017-ac 1003 cdf 636
-translation-type: tm+mt
+uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Cheminement par code de suivi ou campagne
+# Cheminement par code de suivi ou de campagne
 
 Réponse à la question « Où l’utilisateur se rend-il sur mon site après y avoir été redirigé à partir d’une campagne ? »
 
