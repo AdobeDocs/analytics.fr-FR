@@ -1,35 +1,35 @@
 ---
 description: Dans la mesure où le suivi des appareils s’effectue via une balise Web, tout comme les autres visiteurs, la plupart des rapports sont disponibles et corrects.
-keywords: Implémentation d'Analytics ; rapports ; protocoles mobiles ; moteurs de recherche ; mots-clés de recherche ; domaines référents ; référents ; geosegmentation ; domaines ; type de connexion ; fuseau horaire ; cookies ; java ; javascript ; couleurs du moniteur ; résolution de l'écran ; largeur du navigateur ; height ; plug-in netscape
+keywords: Mise en œuvre d’Analytics;rapports;protocoles mobiles;moteurs de recherche;mots-clés de recherche;domaines référents;référents;géosegmentation;domaines;type de connexion;fuseau horaire;cookies;java;javascript;couleurs de l’écran;résolution de l’écran;largeur du navigateur;hauteur;module externe netscape
 seo-description: Dans la mesure où le suivi des appareils s’effectue via une balise Web, tout comme les autres visiteurs, la plupart des rapports sont disponibles et corrects.
-seo-title: Rapports pour les périphériques utilisant des protocoles mobiles
+seo-title: Rapports pour les appareils qui utilisent des protocoles mobiles
 solution: Analytics
-title: Rapports pour les périphériques utilisant des protocoles mobiles
+title: Rapports pour les appareils qui utilisent des protocoles mobiles
 topic: Développeur et mise en œuvre
-uuid: 4 aab 125 d-c 131-4402-9 bc 8-1 c 7 fd 1 bb 2 bee
-translation-type: tm+mt
+uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Rapports pour les périphériques utilisant des protocoles mobiles
+# Rapports pour les appareils qui utilisent des protocoles mobiles
 
 Dans la mesure où le suivi des appareils s’effectue via une balise Web, tout comme les autres visiteurs, la plupart des rapports sont disponibles et corrects.
 
-[!DNL VISTA] peut être utilisé pour modifier les données collectées à partir des méthodes standard et pour périphériques mobiles. Tous les rapports [!UICONTROL d’aperçu][!UICONTROL personnalisé] ([!UICONTROL prop] et [!UICONTROL eVar]), [!UICONTROL Evénement], [!UICONTROL Trafic du site] et sur le [!UICONTROL cheminement] sont pris en charge.
+[!DNL VISTA] peut être utilisé pour modifier les données collectées à partir des méthodes standard et pour périphériques mobiles. Tous les rapports [!UICONTROL d’aperçu] [!UICONTROL personnalisé] ([!UICONTROL prop] et [!UICONTROL eVar]), [!UICONTROL Evénement], [!UICONTROL Trafic du site] et sur le [!UICONTROL cheminement] sont pris en charge.
 
 ## Moteurs de recherche, mots-clés de recherche, domaines référents et référents {#section_184D2EF9D906443FBDED04A09CDC50E9}
 
 Ces rapports ne contiennent des données que si le référent est renseigné dans la demande d’image envoyée à partir de la page mobile. Le référent est renseigné via le paramètre de chaîne de requête « r », comme décrit dans le livre blanc Implémentation sans JavaScript. Vous devez également transférer manuellement les informations sur le référent dans une demande d’image.
 
-Le paramètre de chaîne de requête « r » doit inclure le protocole du référent. Si le protocole est omis, le rapport du référent n’est pas rempli. For example, use `r=https://msn.com` not `r=msn.com`.
+Le paramètre de chaîne de requête « r » doit inclure le protocole du référent. Si le protocole est omis, le rapport du référent n’est pas rempli. Par exemple, utilisez `r=https://msn.com`, et non `r=msn.com`.
 
 ## Géosegmentation et domaines {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
 Les rapports sur la géosegmentation reposent sur l’adresse IP du périphérique qui envoie la demande. Dans la mesure où les périphériques mobiles dépendent d’une passerelle pour demander des images à partir des serveurs Adobe, l’adresse IP de la passerelle est utilisée pour déterminer l’emplacement géographique de l’utilisateur. Comme les passerelles et leur adresse IP sont enregistrées pour de vastes réseaux, les emplacements géographiques associés sont souvent moins précis.
 
-Les domaines reposent également sur l’adresse IP de la passerelle, ce qui signifie que le rapport sur les domaines contient souvent le nom de l’opérateur qui possède la passerelle. En raison des opérateurs de réseaux mobiles virtuels (MVNO), cette information peut ne pas être précise.  
+Les domaines reposent également sur l’adresse IP de la passerelle, ce qui signifie que le rapport sur les domaines contient souvent le nom de l’opérateur qui possède la passerelle. En raison des opérateurs de réseaux mobiles virtuels (MVNO), cette information peut ne pas être précise.
 
 ## Types de connexion {#section_0E7FA18178B848AEBB839B1694B4D691}
 
