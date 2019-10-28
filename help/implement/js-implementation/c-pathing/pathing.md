@@ -2,18 +2,18 @@
 description: Le cheminement désigne le chemin emprunté par les utilisateurs sur votre site.
 keywords: Mise en œuvre d’Analytics
 seo-description: Le cheminement désigne le chemin emprunté par les utilisateurs sur votre site.
-seo-title: Présentation du cheminement
+seo-title: Cheminement - Aperçu
 solution: Analytics
-title: Présentation du cheminement
+title: Cheminement - Aperçu
 topic: Développeur et mise en œuvre
-uuid: 18 acfd 9 f -4 e 5 f -4 c 2 d -8 be 8-743 be 135 e 7 d 6
-translation-type: tm+mt
+uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
+translation-type: ht
 source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 ---
 
 
-# Présentation du cheminement
+# Cheminement - Aperçu
 
 Le cheminement désigne le chemin emprunté par les utilisateurs sur votre site.
 
@@ -23,6 +23,6 @@ En standard, Analytics offre une fonction de cheminement au niveau de la page. L
 
 >[!NOTE]
 >
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. Pour activer le cheminement pour les rapports Section Site et Serveur, contactez le service à la clientèle.
+>Pour activer le cheminement, accédez à **[!UICONTROL Admin &gt; Suites de rapports &gt; Modifier les paramètres &gt; Trafic &gt; Variables de trafic]**. Pour activer le cheminement pour les rapports Section Site et Serveur, contactez le service à la clientèle.
 
-Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
+Explorez des options de cheminement (flux) plus puissantes dans [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
