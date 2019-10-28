@@ -1,13 +1,13 @@
 ---
-description: 'Une implémentation de suivi de liens réussie repose sur la maîtrise des variables s.linkTrackVars et s.linkTrackEvents. Vous pouvez ainsi transmettre des valeurs de variable personnalisée lors des opérations des utilisateurs. '
+description: Une implémentation de suivi de liens réussie repose sur la maîtrise des variables s.linkTrackVars et s.linkTrackEvents. Vous pouvez ainsi transmettre des valeurs de variable personnalisée lors des opérations des utilisateurs.
 keywords: Mise en œuvre d’Analytics
-seo-description: 'Une implémentation de suivi de liens réussie repose sur la maîtrise des variables s.linkTrackVars et s.linkTrackEvents. Vous pouvez ainsi transmettre des valeurs de variable personnalisée lors des opérations des utilisateurs. '
+seo-description: Une implémentation de suivi de liens réussie repose sur la maîtrise des variables s.linkTrackVars et s.linkTrackEvents. Vous pouvez ainsi transmettre des valeurs de variable personnalisée lors des opérations des utilisateurs.
 seo-title: Utilisation des variables s.linkTrackVars et s.linkTrackEvents
 solution: Analytics
 title: Utilisation des variables s.linkTrackVars et s.linkTrackEvents
 topic: Développeur et mise en œuvre
-uuid: f 6 b 7019 b -987 b -4 b 7 d-a 446-80205 f 7 cc 36 c
-translation-type: tm+mt
+uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 # Utilisation des variables s.linkTrackVars et s.linkTrackEvents
 
-Une implémentation de suivi de liens réussie repose sur la maîtrise des variables s.linkTrackVars et s.linkTrackEvents. Vous pouvez ainsi transmettre des valeurs de variable personnalisée lors des opérations des utilisateurs. 
+Une implémentation de suivi de liens réussie repose sur la maîtrise des variables s.linkTrackVars et s.linkTrackEvents. Vous pouvez ainsi transmettre des valeurs de variable personnalisée lors des opérations des utilisateurs.
 
-Si vous implémentez le suivi des liens personnalisés et si vous définissez des variables [!UICONTROL personnalisées] et la variable *`events`*, assurez-vous que la [!UICONTROL variable s. linktrackvars] contient une liste séparée par des virgules de toutes les variables que vous transmettez, y compris la *`events`* variable. Vérifiez également que [!UICONTROL s.linkTrackEvents] comprend la liste de tous les événements séparés par des virgules que vous transmettez.
+Si vous implémentez le suivi des liens personnalisés et si vous définissez des variables [!UICONTROL personnalisées] et la variable *`events`*, veillez à ce que la variable [!UICONTROL s.linkTrackVars] contienne la liste de toutes les variables séparées par des virgules que vous transmettez, y compris la variable *`events`*. Vérifiez également que [!UICONTROL s.linkTrackEvents] comprend la liste de tous les événements séparés par des virgules que vous transmettez.
 
-La définition de [!UICONTROL s.linkTrackVars] et [!UICONTROL s.linkTrackEvents] ne définit pas ces variables/événements. Elle prépare uniquement le code [!DNL Analytics] à le faire. Vous devez toujours définir ces variables manuellement, comme illustré dans l’exemple ci-après. 
+La définition de [!UICONTROL s.linkTrackVars] et [!UICONTROL s.linkTrackEvents] ne définit pas ces variables/événements. Elle prépare uniquement le code [!DNL Analytics] à le faire. Vous devez toujours définir ces variables manuellement, comme illustré dans l’exemple ci-après.
 
 ```js
 <script language="javascript"> 
