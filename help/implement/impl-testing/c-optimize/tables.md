@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Résolution des problèmes
 title: Tableaux
 topic: Développeur et mise en œuvre
-uuid: f 72 d 7894-38 bd -4926-bce 4-0 c 6 af 7278 c 63
-translation-type: tm+mt
+uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -24,5 +24,5 @@ En plaçant l’appel au fichier de bibliothèque JavaScript en dehors des balis
 
 >[!NOTE]
 >
->Le fichier doit être placé dans une position autorisée pour les images et doit apparaître entre l'ouverture <body> balise et fermeture </body> .
+>Le fichier doit être placé dans une position légale pour les images et doit apparaître entre la balise d’ouverture <body> et la balise </body> de fermeture.
 
