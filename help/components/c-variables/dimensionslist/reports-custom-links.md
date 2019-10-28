@@ -7,7 +7,7 @@ title: Lien personnalisé
 topic: Rapports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Affiche les liens préférés des visiteurs de votre site. La page d’accueil, par exemple, comporte probablement plusieurs liens qui permettent d’afficher la même page, notamment un lien graphique et un lien texte. Ce rapport indique le pourcentage des visiteurs qui utilisent le lien graphique plutôt que le lien texte.
 
-Les liens spécifiques dont vous souhaitez effectuer le suivi doivent être modifiés à l’aide de balises spéciales ; voir [Suivi des liens](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html).
+Les liens spécifiques dont vous souhaitez effectuer le suivi doivent être modifiés à l’aide de balises spéciales ; voir [Suivi des liens](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html).
 
 Vous pouvez utiliser le rapport [!UICONTROL Liens personnalisés] pour :
 
