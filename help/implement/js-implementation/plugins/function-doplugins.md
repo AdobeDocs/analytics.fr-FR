@@ -1,14 +1,14 @@
 ---
 description: Les modules externes JavaScript sont généralement appelés par la fonction doPlugins, elle-même exécutée lorsque la fonction t() est appelée dans le code à insérer.
 keywords: Mise en œuvre d’Analytics
-seo-description: Les plug-ins JavaScript sont généralement appelés par la fonction doPlugins, elle-même exécutée lorsque la fonction t() est appelée dans le code à insérer.
+seo-description: Les modules externes JavaScript sont généralement appelés par la fonction doPlugins, elle-même exécutée lorsque la fonction t() est appelée dans le code à insérer.
 seo-title: Fonction doPlugins
 solution: Analytics
 subtopic: Modules externes
 title: Fonction doPlugins
 topic: Développeur et mise en œuvre
-uuid: 367 d 5550-f 8 e 2-477 d -8681-18 ae 9665 d 699
-translation-type: tm+mt
+uuid: 367d5550-f8e2-477d-8681-18ae9665d699
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 Les modules externes JavaScript sont généralement appelés par la fonction doPlugins, elle-même exécutée lorsque la fonction t() est appelée dans le code à insérer.
 
-Par conséquent, si vous définissez une variable dans la fonction `doPlugins`, vous risquez d’en remplacer une que vous avez définie sur la page HTML. The only time the `doPlugins` function is not called is when the *`usePlugins`* variable is set to `false`.
+Par conséquent, si vous définissez une variable dans la fonction `doPlugins`, vous risquez d’en remplacer une que vous avez définie sur la page HTML. La seule fois où la fonction `doPlugins` n’est pas appelée est lorsque la variable *`usePlugins`* est définie sur `false`.
 
 **Exemple de code**
 
-The `doPlugins` function is typically called `s_doPlugins`. Dans certains cas cependant (en général, lorsque plusieurs versions du code [!DNL Analytics] peuvent apparaître sur une seule page), vous pouvez renommer la fonction `doPlugins`. If the standard `doPlugins` function needs to be renamed to avoid conflicts, assign `doPlugins` the correct function name, as shown in the example below.
+La fonction `doPlugins` est généralement appelée `s_doPlugins`. Dans certains cas cependant (en général, lorsque plusieurs versions du code [!DNL Analytics] peuvent apparaître sur une seule page), vous pouvez renommer la fonction `doPlugins`. S’il s’avère nécessaire de renommer la fonction `doPlugins` standard pour éviter des conflits, attribuez-lui `doPlugins` le nom de fonction correct, comme illustré ci-dessous.
 
 ```js
 /* Plugin Config */ 
