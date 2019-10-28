@@ -1,21 +1,21 @@
 ---
-description: 'WAP et I-Mode sont les deux principaux protocoles ou normes utilisés aujourd’hui. Le protocole WAP est principalement utilisé aux Etats-Unis ; le protocole I-Mode est populaire au Japon et en Europe. '
-keywords: Implémentation d'Analytics ; wap ; i-mode
-seo-description: 'WAP et I-Mode sont les deux principaux protocoles ou normes utilisés aujourd’hui. Le protocole WAP est principalement utilisé aux Etats-Unis ; le protocole I-Mode est populaire au Japon et en Europe. '
-seo-title: Protocoles réseau mobile
+description: WAP et I-Mode sont les deux principaux protocoles ou normes utilisés aujourd’hui. Le protocole WAP est principalement utilisé aux Etats-Unis ; le protocole I-Mode est populaire au Japon et en Europe.
+keywords: Mise en œuvre d’Analytics;wap;i-mode
+seo-description: WAP et I-Mode sont les deux principaux protocoles ou normes utilisés aujourd’hui. Le protocole WAP est principalement utilisé aux Etats-Unis ; le protocole I-Mode est populaire au Japon et en Europe.
+seo-title: Protocoles de réseau mobile
 solution: Analytics
-title: Protocoles réseau mobile
+title: Protocoles de réseau mobile
 topic: Développeur et mise en œuvre
-uuid: b 453677 c -7449-4174-a 243-a 0 eb 024 b 319 d
-translation-type: tm+mt
+uuid: b453677c-7449-4174-a243-a0eb024b319d
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Protocoles réseau mobile
+# Protocoles de réseau mobile
 
-WAP et I-Mode sont les deux principaux protocoles ou normes utilisés aujourd’hui. Le protocole WAP est principalement utilisé aux Etats-Unis ; le protocole I-Mode est populaire au Japon et en Europe. 
+WAP et I-Mode sont les deux principaux protocoles ou normes utilisés aujourd’hui. Le protocole WAP est principalement utilisé aux Etats-Unis ; le protocole I-Mode est populaire au Japon et en Europe.
 
 Les sites doivent être souvent conçus différemment selon les protocoles utilisés. Il n’est pas nécessaire de personnaliser la balise d’image Adobe pour chaque protocole.
 
