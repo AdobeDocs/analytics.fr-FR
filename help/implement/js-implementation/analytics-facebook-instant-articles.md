@@ -1,13 +1,13 @@
 ---
 description: Comment mettre en œuvre Analytics dans les Instant Articles de Facebook ?
-keywords: Implémentation d'Analytics ; embed ; variable personnalisée ; événement personnalisé ; suivi des visiteurs ; suivi ; limites
+keywords: Implémentation d’Analytics;incorporer;variable personnalisée;événement personnalisé;suivi des visiteurs;suivi;limitations
 seo-description: Comment mettre en œuvre Analytics dans les Instant Articles de Facebook ?
 seo-title: Instant Articles de Facebook
 solution: Analytics
 title: Instant Articles de Facebook
 topic: Développeur et mise en œuvre
-uuid: 04 b 6366 b -7 c 52-4 dae-b 2 dd-bb 6 b 78 fd 409 c
-translation-type: tm+mt
+uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
@@ -110,13 +110,13 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## Suivi des visiteurs {#section_60F0C77659534949831E85B5FD9AE81E}
 
-Tant que la page HTML Analytics est hébergée sur votre serveur web, Adobe peut prendre en charge votre politique de confidentialité existante pour tous les Instant Articles de Facebook. Ainsi, si un utilisateur s’est désabonné du suivi sur votre site principal, il est également désabonné du suivi sur tous les Instant Articles de Facebook, sans aucune autre intervention de votre part. L'utilisation de cette page utilitaire signifie également que le service d'identité (identifiant visiteur) est pris en charge, de sorte que vous puissiez intégrer les mesures et les variables capturées dans vos Instant Articles de Facebook avec le reste de Experience Cloud. (An example is for targeted advertising using [!DNL Adobe Audience Manager]).
+Tant que la page HTML Analytics est hébergée sur votre serveur web, Adobe peut prendre en charge votre politique de confidentialité existante pour tous les Instant Articles de Facebook. Ainsi, si un utilisateur s’est désabonné du suivi sur votre site principal, il est également désabonné du suivi sur tous les Instant Articles de Facebook, sans aucune autre intervention de votre part. L’utilisation de cette page utilitaire signifie également que le service d’identité (identifiant visiteur) est pris en charge, de sorte que vous pouvez intégrer les mesures et les variables saisies dans vos Instant Articles de Facebook avec le reste d’Experience Cloud. (Par exemple pour les publicités ciblées à l’aide d’[!DNL Adobe Audience Manager]).
 
 ## Limitations du suivi {#section_1EE1BB069A3148DB9446371AFE196567}
 
 Cette méthode présente quelques problèmes dont il convient de tenir compte. Les valeurs DOM, généralement accessibles uniquement par le biais de JavaScript sur un Instant Article de Facebook (tel un référent) ne pourront pas être récupérées dans l’iframe pour le suivi. Toutefois, les rapports des technologies standard (navigateur, appareil, taille d’écran ou résolution, notamment) devraient fonctionner normalement. Par ailleurs, la valeur pageURL peut être obtenue en référençant [!DNL document.referrer] depuis votre page utilitaire.
 
-## What's Next? {#section_A170A10E2A3642A784DF720195DA8B38}
+## Et après ? {#section_A170A10E2A3642A784DF720195DA8B38}
 
 [!DNL Adobe Analytics] est ravie de collaborer avec Facebook et nos éditeurs afin de proposer aux éditeurs des capacités d’analyse de pointe sur le web mobile, dans un environnement utilisateur étonnamment rapide. Nous nous efforçons de créer une excellente solution à long terme qui répondra aux besoins d’analyses en constante évolution de nos clients.
 
