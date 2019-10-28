@@ -1,19 +1,19 @@
 ---
 description: Les classifications sont créées en regroupant (classant) des données précises à partir d’un rapport source.
-keywords: Implémentation d'Analytics ; classification
+keywords: Mise en œuvre d’Analytics;classification
 seo-description: Les classifications sont créées en regroupant (classant) des données précises à partir d’un rapport source.
-seo-title: Gestionnaire
+seo-title: Classifications
 solution: Analytics
-title: Gestionnaire
+title: Classifications
 topic: Développeur et mise en œuvre
-uuid: 6 bbb 1113-9 fc 9-4 e 9 d -90 dd-d 2 d 9 d 6 b 67 b 73
-translation-type: tm+mt
+uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Gestionnaire
+# Classifications
 
 Les classifications sont créées en regroupant (classant) des données précises à partir d’un rapport source.
 
@@ -21,5 +21,5 @@ Supposons, par exemple, que vous souhaitiez analyser des annonces graphiques, ma
 
 Pour plus d’informations, voir :
 
-* [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) dans le guide de référence et l’aide d’Analytics
+* [Classifications](https://marketing.adobe.com/resources/help/fr_FR/reference/classifications.html) dans le guide d’aide et de référence d’Analytics
 
