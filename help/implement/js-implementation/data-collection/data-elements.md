@@ -2,18 +2,18 @@
 description: Vous pouvez capturer les valeurs d’éléments de formulaire, comme des cases d’option et des éléments de case à cocher, dans des rapports. Vous pouvez ainsi analyser les choix les plus populaires effectués dans vos formulaires en ligne.
 keywords: Mise en œuvre d’Analytics
 seo-description: Vous pouvez capturer les valeurs d’éléments de formulaire, comme des cases d’option et des éléments de case à cocher, dans des rapports. Vous pouvez ainsi analyser les choix les plus populaires effectués dans vos formulaires en ligne.
-seo-title: Collecte de données à partir d'éléments de formulaire
+seo-title: Collecte de données à partir d’éléments de formulaire
 solution: Analytics
-title: Collecte de données à partir d'éléments de formulaire
+title: Collecte de données à partir d’éléments de formulaire
 topic: Développeur et mise en œuvre
-uuid: e 0 c 13 b 96-e 1 ca -4744-a 912-60 ca 2 b 8 f 25 c 3
-translation-type: tm+mt
+uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Collecte de données à partir d'éléments de formulaire
+# Collecte de données à partir d’éléments de formulaire
 
 Vous pouvez capturer les valeurs d’éléments de formulaire, comme des cases d’option et des éléments de case à cocher, dans des rapports. Vous pouvez ainsi analyser les choix les plus populaires effectués dans vos formulaires en ligne.
 
@@ -25,7 +25,7 @@ Ces informations s’adressent aux utilisateurs expérimentés qui maîtrisent �
 
 ## Méthode GET {#section_7A2B35822BFF4F6EB57940B31AE6303A}
 
-Si votre formulaire utilise une méthode [!UICONTROL GET] pour envoyer des données, vous avez accès aux données de votre choix dans la chaîne de requête de l’URL sur la page qui suit l’envoi du formulaire. Vous pouvez utiliser le module externe  [!UICONTROL getQueryParam] pour extraire automatiquement ces données de la chaîne de requête et les placer dans la variable de votre choix.
+Si votre formulaire utilise une méthode [!UICONTROL GET] pour envoyer des données, vous avez accès aux données de votre choix dans la chaîne de requête de l’URL sur la page qui suit l’envoi du formulaire. Vous pouvez utiliser le module externe [!UICONTROL getQueryParam] pour extraire automatiquement ces données de la chaîne de requête et les placer dans la variable de votre choix.
 
 ## Méthode POST {#section_56715C30EF374BA7AA12B946B50E4A9A}
 
@@ -35,7 +35,7 @@ Si votre formulaire utilise une méthode [!UICONTROL POST] pour envoyer des donn
 <input type="radio" name="music_genre" value="rock">
 ```
 
-Cette case d’option appartient à l’élément de formulaire "music_genre". You then have access to the user's selected value by using $_POST['music_genre']. Celle-ci peut être écrite dans une variable sur la page qui suit l’envoi du formulaire :
+Cette case d’option appartient à l’élément de formulaire "music_genre". Vous avez ensuite accès à la valeur sélectionnée par l’utilisateur en utilisant $_POST['music_genre']. Celle-ci peut être écrite dans une variable sur la page qui suit l’envoi du formulaire :
 
 ```js
 s.eVar1="<?=$_POST['music_genre'];?>"
