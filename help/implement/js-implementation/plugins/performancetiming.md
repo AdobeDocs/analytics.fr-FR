@@ -6,8 +6,8 @@ seo-title: performanceTiming
 solution: Analytics
 title: performanceTiming
 topic: Développeur et mise en œuvre
-uuid: ab 2 a 6 c 51-8791-41 e 7-9 bea-c 1 ce 8 d 312 de 8
-translation-type: tm+mt
+uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ Ce module externe fonctionne en utilisant l’API JavaScript Navigation Timing (
 
 >[!IMPORTANT]
 >
->Il s'agit d'une version bêta du module externe et des mises à jour supplémentaires peuvent être publiées.
+>Il s’agit d’une version bêta du module externe ; d’autres mises à jour pourront être publiées par la suite.
 
 Ce module externe se sert des événements détaillés ci-après pour effectuer le suivi des composants individuels de temps de chargement d’une page :
 
@@ -57,7 +57,7 @@ En outre, le module externe a la possibilité d’utiliser l’objet performance
 
 >[!NOTE]
 >
->Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et la mise en œuvre d’Adobe Analytics. This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
+>Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et la mise en œuvre d’Adobe Analytics. Ce module externe est compatible uniquement avec les bibliothèques de suivi [!DNL AppMeasurement].
 
 **Section Config (avant doPlugins) :**
 
@@ -79,7 +79,7 @@ Pour initialiser le module externe, une ligne de code est requise dans la sectio
 
 >[!NOTE]
 >
->In order to correlate performance timing entries with pages on your site, you must also initialize the `getPreviousValue` plug-in. Nous vous recommandons de comparer ces entrées de performances avec le nom de page précédent ou la valeur d’URL de page précédente.
+>Afin d’établir la corrélation des entrées de minutage de performances avec les pages de votre site, vous devez également initialiser le module externe `getPreviousValue`. Nous vous recommandons de comparer ces entrées de performances avec le nom de page précédent ou la valeur d’URL de page précédente.
 
 *Exemples d’appel*
 
@@ -154,8 +154,8 @@ s.rfl=new Function("l","v","d1","d2","ku",""
 * Les installations de module externe doivent toujours faire l’objet de tests afin de s’assurer que la collecte des données fonctionne comme prévu avant son déploiement dans un environnement de production.
 * Puisque le module externe transmet les données de performances pendant l’association à la page précédente, les données ne sont pas collectées pour la dernière page vue de la visite.
 * Si vous effectuez le suivi du minutage des ressources, ce module externe dépend de la capacité à définir les valeurs de stockage DOM dans le navigateur web de l’utilisateur. Si l’utilisateur n’accepte pas les cookies et que le stockage DOM est activé, le module externe ne transmettra pas les données dans Analytics.
-* Un très petit pourcentage d'utilisateurs ne transmettront pas les données du minutage de navigation en raison des limitations du navigateur et la logique est contenue dans le module externe pour garantir que les données ne sont pas biaisées par conséquent, en particulier avec une petite portion de navigateurs mobiles. Toutefois, ce module externe a été testé avec succès dans IE, Firefox, Chrome et Safari.
-* [!UICONTROL Les mesures calculées] doivent être créées afin de mieux récapituler et comprendre le comportement des visiteurs associé à ces mesures :
+* Un très faible pourcentage d’utilisateurs ne transmettront aucune donnée sur le minutage de navigation en raison des restrictions de leur navigateur ; la logique est contenue dans le module externe afin de garantir que les données ne sont pas biaisées en conséquence, en particulier avec une petite portion de navigateurs mobiles. Toutefois, ce module externe a été testé avec succès dans IE, Firefox, Chrome et Safari.
+* Créez des [!UICONTROL mesures calculées] afin de mieux récapituler et comprendre le comportement des visiteurs associé à ces mesures :
 
    * Minutage de redirection moyen (instances minutage de redirection/minutage de performances)
    * Minutage de mise en mémoire cache de l’application moyen (instances minutage de mise en mémoire cache de l’application/minutage de performances)
