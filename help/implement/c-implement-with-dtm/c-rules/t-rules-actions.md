@@ -1,12 +1,12 @@
 ---
 description: Configuration des actions que la condition doit déclencher.
-keywords: Gestion dynamique des balises;règle;créer une règle;nouvelle règle;balises JavaScript/tierces;configurer des actions pour la condition;ajouter un nouveau script;javascript non séquentiel;javascript séquentiel;html non séquentiel
+keywords: Dynamic Tag Management;règle;créer une règle;nouvelle règle;balises javascript/de tierces parties;configurer des actions pour une condition;ajouter un nouveau script;javascript non séquentiel;javascript séquentiel;html non séquentiel
 seo-description: Configuration des actions que la condition doit déclencher.
 seo-title: Configuration des actions que la condition doit déclencher
-solution: Experience Cloud,Analytics,Target,Gestion dynamique des balises
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Configuration des actions que la condition doit déclencher
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 # Configuration des actions que la condition doit déclencher
 
-Configurez les actions de votre choix que la condition doit déclencher.
+Configuration des actions que la condition doit déclencher.
 
 Une fois la condition configurée, vous devez définir les actions qui doivent être déclenchées par celle-ci. Ces actions peuvent comprendre des événements [!DNL Analytics], des balises ces et des scripts personnalisés. Cet exemple illustre comment configurer des scripts ou des balises ces.
 
@@ -24,11 +24,11 @@ Chaque règle peut déclencher autant de scripts ou d’injections HTML que vous
 
 >[!NOTE]
 >
->Because DTM allows you to inject custom code into your page, please take care not to create cross-site scripting (XSS) vulnerabilities (see [OWASP’s guide](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) for more info). L’utilisation d’éléments de données dans un script demande une attention toute particulière. Vous devez toujours supposer que les valeurs des éléments de données proviennent d’une source non fiable.
+>Dans la mesure où la gestion dynamique des balises permet d’injecter du code personnalisé dans votre page, veillez à ne pas créer de vulnérabilités de script de site à site (voir le [guide d’OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) pour plus d’informations). L’utilisation d’éléments de données dans un script demande une attention toute particulière. Vous devez toujours supposer que les valeurs des éléments de données proviennent d’une source non fiable.
 
 **Pour configurer les actions que la condition doit déclencher**
 
-1. Click **[!UICONTROL JavaScript / Third Party Tags]** to add a new script to your rule.
+1. Cliquez sur **[!UICONTROL Balises JavaScript / tierces]** pour ajouter un nouveau script à la règle.
 
    ![](assets/scripts-actions.png)
 
@@ -39,5 +39,5 @@ Chaque règle peut déclencher autant de scripts ou d’injections HTML que vous
 1. Attribuez un nom au script.
 1. Indiquez le mode de déclenchement du script, puis collez le contenu souhaité dans la zone de texte. ![](assets/scripts-actions3.png)
 
-1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
+1. Cliquez sur **[!UICONTROL Enregistrer le code]**. Le script est alors ajouté à la file d’attente de la règle. ![](assets/scripts-actions4.png)
 
