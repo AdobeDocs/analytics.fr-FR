@@ -1,19 +1,19 @@
 ---
 description: Liste des événements prédéfinis.
-keywords: Implémentation d'Analytics ; événement
+keywords: Mise en œuvre d’Analytics;événement
 seo-description: Liste des événements prédéfinis.
-seo-title: Qu'est-ce qu'un événement prédéfini ?
+seo-title: Qu’est-ce qu’un événement prédéfini ?
 solution: Analytics
-title: Qu'est-ce qu'un événement prédéfini ?
+title: Qu’est-ce qu’un événement prédéfini ?
 topic: Développeur et mise en œuvre
-uuid: 4 d 0799 ba -0 f 97-42 c 3-a 620-36 c 03 f 9995 da
-translation-type: tm+mt
+uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Qu'est-ce qu'un événement prédéfini ?
+# Qu’est-ce qu’un événement prédéfini ?
 
 Liste des événements prédéfinis.
 
