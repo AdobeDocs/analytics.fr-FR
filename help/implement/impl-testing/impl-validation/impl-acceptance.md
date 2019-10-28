@@ -2,18 +2,18 @@
 description: Etapes du processus d’implémentation.
 keywords: Mise en œuvre d’Analytics
 seo-description: Etapes du processus d’implémentation.
-seo-title: Acceptation de l'implémentation
+seo-title: Acceptation de l’implémentation
 solution: Analytics
-title: Acceptation de l'implémentation
+title: Acceptation de l’implémentation
 topic: Développeur et mise en œuvre
-uuid: 6 f 7 ec 56 e -9 e 4 f -4 dc 8-b 534-92 b 1580 b 5 b 47
-translation-type: tm+mt
+uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Acceptation de l'implémentation
+# Acceptation de l’implémentation
 
 Etapes du processus d’implémentation.
 
@@ -26,7 +26,7 @@ Les étapes suivantes décrivent le processus d’implémentation.
 1. Le consultant Adobe se charge de résoudre les problèmes techniques au cours de l’implémentation et apporte son aide dans le cadre de la conception de solutions en fonction des besoins.
 1. Les ressources techniques côté client testent l’implémentation.
 
-   Testers log in to [!DNL Analytics] and verifying all variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, econversion variables, custom traffic variables, *`products`*, and all other variables).
+   Les testeurs se connectent à [!DNL Analytics] et vérifient l’intégralité des variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, variables Econversion, variables de trafic personnalisé *`products`* et toutes les autres).
 1. Le client informe Adobe de la fin de l’implémentation.
 
    Le client fournit un échantillon de validation (échantillon de données) au consultant Adobe afin de valider l’exactitude des données. (Les suites de rapports générées par VISTA sont validées en comparant les mesures appropriées. Un accord portant sur les mesures à valider doit être établi, au préalable, entre le client et Adobe pour les suites de rapports de ce type et ce, au moment de la création des règles VISTA.)
