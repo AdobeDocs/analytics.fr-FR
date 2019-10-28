@@ -1,13 +1,13 @@
 ---
 description: Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
-keywords: Implémentation d'Analytics ; collecte de données ; gestionnaire de code
+keywords: Mise en œuvre d’Analytics;collecte de données;gestionnaire de code
 seo-description: Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
 seo-title: Gestionnaire de code
 solution: Analytics
 title: Gestionnaire de code
 topic: Développeur et mise en œuvre
-uuid: 4 dc 79214-a 38 b -4 e 1 a -90 f 9-d 09 c 8142 dd 0 a
-translation-type: tm+mt
+uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -19,7 +19,7 @@ Le gestionnaire de code permet de télécharger le code de collecte de données 
 
 **[!UICONTROL Analytics &gt; Admin &gt; Gestionnaire de code]**.
 
-Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. D’autres ressources de mise en œuvre sont disponibles sur la page [Développement et implémentation](https://marketing.adobe.com/resources/help/en_US/reference/developer.html).
+Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. D’autres ressources de mise en œuvre sont disponibles sur [Développeur et mise en œuvre](https://marketing.adobe.com/resources/help/fr_FR/reference/developer.html).
 
 ## Descriptions de la page Gestionnaire de code {#section_0C23784E20BD4631841FF24E5075DA12}
 
