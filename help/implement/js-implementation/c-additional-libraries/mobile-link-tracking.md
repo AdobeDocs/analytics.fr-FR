@@ -1,19 +1,19 @@
 ---
 description: valeur nulle
-keywords: Implémentation d'Analytics ; référence du lien ; redir
+keywords: Implémentation d’Analytics;référence de lien;redir
 seo-description: valeur nulle
-seo-title: Mesure de lien personnalisé sur les protocoles mobiles
+seo-title: Mesure de liens personnalisés sur des protocoles mobiles
 solution: Analytics
-title: Mesure de lien personnalisé sur les protocoles mobiles
+title: Mesure de liens personnalisés sur des protocoles mobiles
 topic: Développeur et mise en œuvre
-uuid: eb 82 de 26-da 2 e -41 c 2-8924-59 b 6 b 5 ccef 28
-translation-type: tm+mt
+uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Mesure de lien personnalisé sur les protocoles mobiles
+# Mesure de liens personnalisés sur des protocoles mobiles
 
 De nombreux mobinautes téléchargent sur leurs appareils des fichiers tels que des podcasts, des sonneries, etc. Etant donné que de nombreux appareils mobiles ne prennent pas en charge le langage JavaScript, la mesure des liens doit être implémentée par le biais de redirections. Pour utiliser des redirections, vous devez modifier les liens href dans le fichier HTML afin d’inclure l’élément REDIR. Le format général d’un lien personnalisé est le suivant :
 
@@ -38,4 +38,4 @@ Une URL de mesure de liens personnalisés se présente comme suit :
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-Pour plus d’informations, voir le [livre blanc Redirections de suivi de liens de sortie](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).
+Pour plus d’informations, reportez-vous au [livre blanc des redirections Suivi des liens de sortie](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).
