@@ -2,19 +2,19 @@
 description: Le déploiement d’Analytics se divise en trois étapes principales.
 keywords: Mise en œuvre d’Analytics
 seo-description: Le déploiement d’Analytics se divise en trois étapes principales.
-seo-title: Présentation de l'optimisation
+seo-title: Optimisation - Aperçu
 solution: Analytics
 subtopic: Résolution des problèmes
-title: Présentation de l'optimisation
+title: Optimisation - Aperçu
 topic: Développeur et mise en œuvre
-uuid: 8 e 8 ecc 5 b-d 4 b 1-4 d 13-8525-39 e 4924 df 247
-translation-type: tm+mt
+uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
 
 
-# Présentation de l'optimisation
+# Optimisation - Aperçu
 
 Le déploiement d’Analytics se divise en trois étapes principales.
 
@@ -25,5 +25,5 @@ Le déploiement d’Analytics se divise en trois étapes principales.
 
 >[!NOTE]
 >
->Les clients peuvent prendre des mesures supplémentaires pour réduire la surcharge d'Analytics.
+>Les clients peuvent prendre d’autres mesures pour réduire la surcharge au niveau d’Analytics.
 
