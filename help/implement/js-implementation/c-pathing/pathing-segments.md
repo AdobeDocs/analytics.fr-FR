@@ -2,24 +2,24 @@
 description: La segmentation des chemins d’accès par type d’utilisateur est une requête courante pour essayer de comprendre le cheminement de types d’utilisateurs spécifiques sur votre site.
 keywords: Mise en œuvre d’Analytics
 seo-description: La segmentation des chemins d’accès par type d’utilisateur est une requête courante pour essayer de comprendre le cheminement de types d’utilisateurs spécifiques sur votre site.
-seo-title: Chemins de segment par type d'utilisateur
+seo-title: Segmentation des chemins d’accès par type d’utilisateur
 solution: Analytics
-title: Chemins de segment par type d'utilisateur
+title: Segmentation des chemins d’accès par type d’utilisateur
 topic: Développeur et mise en œuvre
-uuid: 5 c 298 f 39-381 d -453 b-a 608-109 e 3276 b 361
-translation-type: tm+mt
+uuid: 5c298f39-381d-453b-a608-109e3276b361
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# Chemins de segment par type d'utilisateur
+# Segmentation des chemins d’accès par type d’utilisateur
 
 La segmentation des chemins d’accès par type d’utilisateur est une requête courante pour essayer de comprendre le cheminement de types d’utilisateurs spécifiques sur votre site.
 
 Vous pouvez concaténer le type d’utilisateur et le nom de page dans une [!UICONTROL sprop], et activer le cheminement sur la [!UICONTROL sprop].
 
-For example, let's say you have two user types: _Registered_ users and _Non-Registered_ users. Vous devez faire la distinction entre ces deux types sur chaque page et placer ces valeurs dans la [!UICONTROL sprop] désignée. Lorsque vous renseignez la prop, elle doit se présenter comme suit :
+Supposons, par exemple, qu’il y ait deux types d’utilisateurs : des utilisateurs _enregistrés_ et des utilisateurs _non enregistrés_. Vous devez faire la distinction entre ces deux types sur chaque page et placer ces valeurs dans la [!UICONTROL sprop] désignée. Lorsque vous renseignez la prop, elle doit se présenter comme suit :
 
 ```js
  s.prop1=”Registered : “ + s.pageName;
