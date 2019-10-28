@@ -6,8 +6,8 @@ seo-title: Validation de la précision des données
 solution: Analytics
 title: Validation de la précision des données
 topic: Développeur et mise en œuvre
-uuid: 267 f 6 c 61-705 a -41 cf -9 e 09-4 e 2 ce 2331 f 32
-translation-type: tm+mt
+uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -27,7 +27,7 @@ Les points de données à utiliser sont, par ordre de préférence :
 
 >[!NOTE]
 >
->Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. Elles présentent une plus grande différence, sur le plan de la collecte des données par le navigateur, que les autres pages consultées.
+>Les pages par défaut, comme [!DNL index.html], reçoivent souvent du trafic automatisé ou de surveillance. Elles présentent une plus grande différence, sur le plan de la collecte des données par le navigateur, que les autres pages consultées.
 
 Les trois types de validation nécessitent un journal de débogage ou un flux de données pour la période concernée. Celle-ci équivaut généralement à un jour, voire moins.
 
