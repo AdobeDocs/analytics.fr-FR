@@ -6,8 +6,8 @@ seo-title: Fichier JS JavaScript
 solution: Analytics
 title: Fichier JS JavaScript
 topic: Développeur et mise en œuvre
-uuid: 6 e 83223 f -2127-41 d 3-9806-bd 085 fa 2 a 747
-translation-type: tm+mt
+uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -22,14 +22,14 @@ Vérifiez que le fichier .JS est référencé correctement à partir de la page.
 src="https://www.sampleco.com/javascript/includes/s_code.js"></script>
 ```
 
-If some pages of the site are loaded in a secure protocol (https:), and reference the [!DNL AppMeasurement] for JavaScript file, ensure that the reference to the file is either secure (via https:) or code the reference as shown below. Cet exemple adopte le protocole de la page en cours et évite l’affichage de l’avertissement « certains éléments ne sont pas sécurisés ».
+Si certaines pages du site sont chargées dans un protocole sécurisé (https:) et font référence au fichier [!DNL AppMeasurement] pour JavaScript, assurez-vous que la référence au fichier est sécurisée (via https:) ou codez la référence comme illustré ci-dessous. Cet exemple adopte le protocole de la page en cours et évite l’affichage de l’avertissement « certains éléments ne sont pas sécurisés ».
 
 ```js
 <script language="JavaScript" 
 src="//www.sampleco.com/javascript/includes/s_code.js"></script>
 ```
 
-Ensure that the [!DNL .JS] file on the web servers have permissions appropriately set so that the file may be downloaded and executed by website visitors. If a different [!DNL .JS] file is used on development servers, set the "read only" attribute for the [!DNL .JS] file on production servers to avoid an overwrite. If altered, ensure that the following settings are set appropriately at the top of the [!DNL .JS] file:
+Assurez-vous que les autorisations du fichier [!DNL .JS] situé sur les serveurs web sont définies correctement, de sorte que le fichier puisse être téléchargé et exécuté par les visiteurs du site web. Si un fichier [!DNL .JS] différent est utilisé sur les serveurs de développement, définissez l’attribut « Lecture seule » pour le fichier [!DNL .JS] situé sur les serveurs de production afin d’éviter tout écrasement. En cas d’altération, assurez-vous que les paramètres suivants sont définis correctement dans la partie supérieure du fichier [!DNL .JS] :
 
 ```js
 /************************** CONFIG SECTION **************************/
@@ -45,6 +45,6 @@ s.linkTrackVars="None"
 s.linkTrackEvents="None"
 ```
 
-If " *`s_account`*" is assigned a value at the top of the [!DNL .JS] file, ensure that the report suite ID (populated in the [!UICONTROL s_account]variable) is correct. Also ensure that the code in the page is not setting the [!UICONTROL Report Suite ID] ( *`s_account`* variable).
+Si « *`s_account`* » reçoit une valeur dans la partie supérieure du fichier [!DNL .JS], assurez-vous que l’ID de la suite de rapports (renseigné dans la variable [!UICONTROL s_account]) est correct. Veillez également à ce que le code de la page ne définisse pas l’[!UICONTROL ID de suite de rapports (variable ]*`s_account`*).
 
-Examine the image request and variables to ensure that the "fallback method" (the third part of the "split" code in the example above) is not creating the image request instead of the [!DNL .JS] file. Vous pouvez le déterminer, dans la mesure où cette méthode crée uniquement une demande d’image contenant un minimum d’informations.
+Examinez les variables et la demande d’image pour vous assurer que la « méthode de secours » (troisième partie du code « split » dans l’exemple ci-dessus) ne crée pas la demande d’image au lieu du fichier [!DNL .JS]. Vous pouvez le déterminer, dans la mesure où cette méthode crée uniquement une demande d’image contenant un minimum d’informations.
