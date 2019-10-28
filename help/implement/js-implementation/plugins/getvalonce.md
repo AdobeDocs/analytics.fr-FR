@@ -2,25 +2,25 @@
 description: Le module externe getValOnce empêche une variable donnée d’être réglée sur une valeur définie précédemment. Il utilise ainsi un cookie pour déterminer la dernière valeur connue d’une variable. Si la valeur actuelle correspond à la valeur du cookie, la variable est remplacée par une chaîne vide avant d’être envoyée aux serveurs de traitement d’Adobe. Ce module externe se révèle particulièrement utile pour éviter l’augmentation excessive des instances de variables de conversion qui survient lorsque les utilisateurs actualisent la page ou cliquent sur le bouton Précédent.
 keywords: Mise en œuvre d’Analytics
 seo-description: Le module externe getValOnce empêche une variable donnée d’être réglée sur une valeur définie précédemment. Il utilise ainsi un cookie pour déterminer la dernière valeur connue d’une variable. Si la valeur actuelle correspond à la valeur du cookie, la variable est remplacée par une chaîne vide avant d’être envoyée aux serveurs de traitement d’Adobe. Ce module externe se révèle particulièrement utile pour éviter l’augmentation excessive des instances de variables de conversion qui survient lorsque les utilisateurs actualisent la page ou cliquent sur le bouton Précédent.
-seo-title: getValOnce
+seo-title: getValOnce.
 solution: Analytics
 subtopic: Modules externes
-title: getValOnce
+title: getValOnce.
 topic: Développeur et mise en œuvre
-uuid: 82 fe 0 da 5-3 bc 4-4632-8 c 62-7 b 5683 f 6 b 587
-translation-type: tm+mt
+uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
 
 
-# getValOnce
+# getValOnce.
 
 Le module externe getValOnce empêche une variable donnée d’être réglée sur une valeur définie précédemment. Il utilise ainsi un cookie pour déterminer la dernière valeur connue d’une variable. Si la valeur actuelle correspond à la valeur du cookie, la variable est remplacée par une chaîne vide avant d’être envoyée aux serveurs de traitement d’Adobe. Ce module externe se révèle particulièrement utile pour éviter l’augmentation excessive des instances de variables de conversion qui survient lorsque les utilisateurs actualisent la page ou cliquent sur le bouton Précédent.
 
 >[!IMPORTANT]
 >
->This plug-in has not been validated to be compatible with [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Ce module externe n’a pas été validé pour être compatible avec [AppMeasurement pour JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). Reportez-vous à la section [Prise en charge des modules externes dans AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
 
 **Paramètres**
 
@@ -31,7 +31,7 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
 * **Variable :** variable qui sera vérifiée. Elle correspond généralement à la variable en cours de définition.
 * **Cookie :** nom du cookie qui stocke la valeur précédente qui servira d’élément de comparaison. Il peut s’agir de n’importe quelle valeur.
 * (Facultatif) **Expiration :** délai d’expiration du cookie, exprimé en jours. Si ce paramètre est omis ou s’il est défini sur 0, l’expiration par défaut correspond à la session du navigateur.
-* (Facultatif) **Minute :** si vous définissez ce paramètre sur la valeur de chaîne *`m`*, la valeur d’expiration est exprimée en minutes, et non plus en jours. If not set, *`days`* is the default expiration.
+* (Facultatif) **Minute :** si vous définissez ce paramètre sur la valeur de chaîne *`m`*, la valeur d’expiration est exprimée en minutes, et non plus en jours. Si elle n’est pas définie, *`days`* correspond à l’expiration par défaut.
 
 **Propriétés**
 
@@ -53,7 +53,7 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
 
 >[!NOTE]
 >
->If your organization uses Marketing Channels and has rules set up based on `s.campaign`, it is recommended that you not use the getValOnce plugin when setting the `s.campaign`value. Dans le cas contraire, un mauvais canal pourrait être affecté lors d’un clic publicitaire de campagne secondaire.
+>Si votre organisation a recours à des canaux marketing et dispose de règles basées sur `s.campaign`, il est recommandé de ne pas utiliser le module externe getValOnce lors de la définition de la valeur de `s.campaign`. Dans le cas contraire, un mauvais canal pourrait être affecté lors d’un clic publicitaire de campagne secondaire.
 
 Pour implémenter ce module externe, placez le code suivant dans votre fichier [!DNL s_code.js].
 
@@ -72,10 +72,11 @@ s.getValOnce=new Function("v","c","e","t",""
 +"==0?0:a);}return v==k?'':v");
 ```
 
-Once the above code is implemented, define the desired variable using the *`getValOnce`* function. Vous trouverez, ci-dessous, quelques exemples d’implémentation :
+Une fois ce code implémenté, définissez la variable de votre choix à l’aide de la fonction *`getValOnce`*. Vous trouverez, ci-dessous, quelques exemples d’implémentation :
 
-**Eviter que la même valeur de campagne ne soit définie si une valeur en double est détectée dans les 30 jours suivant la définition du cookie :**
-`s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`**Eviter que la même valeur evar 1 ne soit définie si une valeur en double est détectée dans les 30 minutes suivant la définition du cookie :**`s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`**Eviter que la même valeur evar 2 ne soit définie plusieurs fois lors de la même session de navigateur :**`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');`**Remarques**
+**Eviter que la même valeur de campagne ne soit définie si une valeur en double est détectée dans les 30 jours suivant la définition du cookie :** `s.campaign=s.getValOnce(s.campaign,'s_cmp',30);`  **empêche la définition de la même valeur eVar1 si une valeur en double est détectée dans les 30 minutes suivant la définition du cookie :**
+`s.eVar1=s.getValOnce(s.eVar1,'s_ev1',30,'m');`  **évite que la même valeur eVar2 ne soit définie plusieurs fois dans la même session de navigateur :**
+`s.eVar2=s.getValOnce(s.eVar2,'s_ev2');` **Notes**
 
 * Les installations de module externe doivent toujours faire l’objet de tests approfondis afin de s’assurer que la collecte des données fonctionne comme prévu avant son déploiement dans un environnement de production.
 * Assurez-vous de supprimer le cookie ou d’en utiliser un nouveau, les valeurs uniques au cours du test ou les variables ne seront pas envoyées.
