@@ -2,24 +2,24 @@
 description: La plupart des périphériques mobiles acceptent les cookies des navigateurs. Néanmoins, dans les cas où les périphériques n’acceptent pas les cookies, une autre méthode est utilisée pour identifier de manière unique les périphériques sans fil.
 keywords: Mise en œuvre d’Analytics
 seo-description: La plupart des périphériques mobiles acceptent les cookies des navigateurs. Néanmoins, dans les cas où les périphériques n’acceptent pas les cookies, une autre méthode est utilisée pour identifier de manière unique les périphériques sans fil.
-seo-title: Identification des périphériques mobiles
+seo-title: Identification des appareils mobiles
 solution: Analytics
-title: Identification des périphériques mobiles
+title: Identification des appareils mobiles
 topic: Développeur et mise en œuvre
-uuid: 22587 dd 1-cead -485 b-a 4 d 8-94 dfb 7 cd 9662
-translation-type: tm+mt
+uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
+translation-type: ht
 source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ---
 
 
-# Identification des périphériques mobiles
+# Identification des appareils mobiles
 
 La plupart des périphériques mobiles acceptent les cookies des navigateurs. Néanmoins, dans les cas où les périphériques n’acceptent pas les cookies, une autre méthode est utilisée pour identifier de manière unique les périphériques sans fil.
 
 Adobe a identifié un certain nombre d’[en-têtes d’identifiant abonné](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) HTTP qui identifient, de façon unique, la majorité des périphériques mobiles. Ces en-têtes comprennent souvent le numéro de téléphone du périphérique (ou une version hachée du numéro) ou d’autres identifiants. La majorité des périphériques actuels possèdent un ou plusieurs en-têtes qui les identifient de façon unique. Tous les serveurs de collecte de données Adobe utilisent automatiquement ces en-têtes au lieu d’un identifiant visiteur.
 
-In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). Néanmoins, si le périphérique est reconnu en tant que périphérique mobile sur la base des en-têtes HTTP, un « 5 » est transmis à la place du « 1 », ce qui indique qu’une image au format wbmp doit être retournée et que notre liste d’en-têtes sans fil reconnus (pas un cookie) doit être utilisée pour identifier le périphérique.
+Dans une demande d’image habituelle, un « 1 » figurant dans le chemin (`/b/ss/rsid/1`) donne l’ordre aux serveurs Adobe de retourner une image gif et de tenter de définir un cookie d’[!UICONTROL identifiant visiteur] persistant (`AMCV_` ou `s_vi`). Néanmoins, si le périphérique est reconnu en tant que périphérique mobile sur la base des en-têtes HTTP, un « 5 » est transmis à la place du « 1 », ce qui indique qu’une image au format wbmp doit être retournée et que notre liste d’en-têtes sans fil reconnus (pas un cookie) doit être utilisée pour identifier le périphérique.
 
 Le tableau suivant répertorie l’ordre des méthodes d’identifiant utilisées sur la base de la valeur du type d’image de retour (« 1 » ou « 5 ») dans le chemin :
 
@@ -33,7 +33,7 @@ Le tableau suivant répertorie l’ordre des méthodes d’identifiant utilisée
  <tbody> 
   <tr> 
    <td colname="col1"> <code> /1/</code> </td> 
-   <td colname="col2"> <p>Valeur par défaut :  </p> 
+   <td colname="col2"> <p>Valeur par défaut : </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">Identifiant visiteur personnalisé </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
@@ -54,7 +54,7 @@ Le tableau suivant répertorie l’ordre des méthodes d’identifiant utilisée
  </tbody> 
 </table>
 
-Vous pouvez également transmettre un « 1 » ou un « 5 » dans les demandes d’image manuelles mais gardez à l’esprit que ces codes sont mutuellement exclusifs. De ce fait, toujours transmettre « 5 » ne produit pas de cookie lorsqu’il est pris en charge. Vous pouvez incorporer votre propre mécanisme pour déterminer si un périphérique prend en charge les cookies, et si c’est le cas, transmettre « 1 » dans l’image plutôt que « 5 ». Dans cette situation, l’amélioration en termes de précision est limitée au nombre de périphériques mobiles prenant en charge les cookies. 
+Vous pouvez également transmettre un « 1 » ou un « 5 » dans les demandes d’image manuelles mais gardez à l’esprit que ces codes sont mutuellement exclusifs. De ce fait, toujours transmettre « 5 » ne produit pas de cookie lorsqu’il est pris en charge. Vous pouvez incorporer votre propre mécanisme pour déterminer si un périphérique prend en charge les cookies, et si c’est le cas, transmettre « 1 » dans l’image plutôt que « 5 ». Dans cette situation, l’amélioration en termes de précision est limitée au nombre de périphériques mobiles prenant en charge les cookies.
 
 ## En-têtes d’identifiant abonné {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
