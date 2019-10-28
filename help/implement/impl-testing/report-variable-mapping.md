@@ -2,29 +2,29 @@
 description: Le tableau ci-dessous montre l’association des rapports aux variables, ou les rapports et les variables qu’ils utilisent.
 keywords: Mise en œuvre d’Analytics
 seo-description: Le tableau ci-dessous montre l’association des rapports aux variables, ou les rapports et les variables qu’ils utilisent.
-seo-title: Association du rapport à la variable
+seo-title: Mappage des rapports aux variables
 solution: Analytics
-title: Association du rapport à la variable
+title: Mappage des rapports aux variables
 topic: Développeur et mise en œuvre
-uuid: 4707660 c -4 be 5-425 c-a 690-7 bc 6 df 4 cc 0 fa
-translation-type: tm+mt
+uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Association du rapport à la variable
+# Mappage des rapports aux variables
 
 Le tableau ci-dessous montre l’association des rapports aux variables, ou les rapports et les variables qu’ils utilisent.
 
-**Rapports de conversion** Le tableau suivant répertorie les variables de conversion utilisées pour renseigner chaque rapport :
+**Rapports de conversion** Le tableau suivant répertorie les variables de conversion utilisées pour renseigner chaque rapport :
 
 | Achats |
 |---|
-| Conversions et moyennes | s.events, s.products, s.purchaseID | Définir s.events sur achat, détails du produit, numéro de commande  |
-| Recettes | s.events, s.products, s.purchaseID | Définir s.events sur achat, détails du produit, numéro de commande  |
-| Commandes | s.events, s.products, s.purchaseID | Définir s.events sur achat, détails du produit, numéro de commande  |
-| Unités | s.events, s.products, s.purchaseID | Définir s.events sur achat, détails du produit, numéro de commande  |
+| Conversions et moyennes | s.events, s.products, s.purchaseID | Définir s.events sur achat, détails du produit, numéro de commande |
+| Recettes | s.events, s.products, s.purchaseID | Définir s.events sur achat, détails du produit, numéro de commande |
+| Commandes | s.events, s.products, s.purchaseID | Définir s.events sur achat, détails du produit, numéro de commande |
+| Unités | s.events, s.products, s.purchaseID | Définir s.events sur achat, détails du produit, numéro de commande |
 
 | Panier |
 |---|
@@ -33,9 +33,9 @@ Le tableau ci-dessous montre l’association des rapports aux variables, ou les 
 | Consultations du panier | s.events | Définir s.events sur scView |
 | Ajouts au panier | s.events | Définir s.events sur scAdd |
 | Retraits du panier | s.events | Définir s.events sur scRemove |
-| Passage en caisse | s.events | Définir s.events sur scCheckout |
+| Achats | s.events | Définir s.events sur scCheckout |
 
-| Evénements personnalisés |
+| Événements personnalisés |
 |---|
 | Evénement personnalisé 1 | s.events | Renseigner avec event1 à event100 |
 | … | … | Renseigner avec event1 à event100 |
@@ -52,21 +52,21 @@ Le tableau ci-dessous montre l’association des rapports aux variables, ou les 
 |---|
 | Conversions et moyennes | s.products, s.events, s.campaign |  |
 | Code de suivi | s.campaign |  |
-| Eléments créatifs | N/D | Defined in [!DNL Analytics] |
-| Campagnes | N/D | Defined in [!DNL Analytics] |
+| Eléments créatifs | N/D | Défini dans [!DNL Analytics] |
+| Campagnes | N/D | Défini dans [!DNL Analytics] |
 
-| Fidélisation des clients |
+| Fidélité de la clientèle |
 |---|
 | Fidélité de la clientèle | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
 
 | Cycle de ventes |
 |---|
-| Jours avant le premier achat | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
-| Jours depuis le dernier achat | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
-| Nombre de visites | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
-| Clients quotidiens uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
-| Clients mensuels uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
-| Clients annuels uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
+| Jours avant le premier achat | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
+| Jours depuis le dernier achat | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
+| Nombre de visites | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
+| Clients quotidiens uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
+| Clients mensuels uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
+| Clients annuels uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
 
 | Méthodes de recherche |
 |---|
@@ -80,8 +80,8 @@ Le tableau ci-dessous montre l’association des rapports aux variables, ou les 
 | Domaines de haut niveau | N/D | Défini automatiquement par le fichier .JS |
 | Langues | N/D | Défini automatiquement par le fichier .JS |
 | Fuseaux horaires | N/D | Défini automatiquement par le fichier .JS |
-| Etats | s.state | Variable définie sur la page Confirmation de commande page |
-| Codes postaux | s.zip | Variable définie sur la page Confirmation de commande page |
+| Etats | s.state | Variable définie sur la page Confirmation de commande  |
+| Codes postaux | s.zip | Variable définie sur la page Confirmation de commande  |
 | Domaines | N/D | Défini automatiquement par le fichier .JS |
 
 | Technologie |
@@ -156,11 +156,11 @@ Le tableau suivant répertorie les variables de [!UICONTROL trafic] utilisées p
 | Villes internationales | N/D | Basé sur l’adresse IP du visiteur |
 | Villes des Etats-Unis | N/D | Basé sur l’adresse IP du visiteur |
 
-| Rapports |
+| Technologie |
 |---|
 | Types de navigateur | N/D | Défini automatiquement par le fichier .JS |
 | Navigateurs | N/D | Défini automatiquement par le fichier .JS |
-| Périphériques mobiles | N/D | Défini automatiquement par le fichier .JS |
+| Appareils mobiles | N/D | Défini automatiquement par le fichier .JS |
 | Largeur du navigateur | N/D | Défini automatiquement par le fichier .JS |
 | Hauteur du navigateur | N/D | Défini automatiquement par le fichier .JS |
 | Systèmes d’exploitation | N/D | Défini automatiquement par le fichier .JS |
@@ -177,10 +177,10 @@ Le tableau suivant répertorie les variables de [!UICONTROL trafic] utilisées p
 | Segmentation |
 |---|
 | Pages les plus populaires | s.pageName |  |
-| Sections sites les plus populaires | s.channel |  |
+| Sections du site les plus populaires | s.channel |  |
 | Serveurs les plus populaires | s.server |  |
 
-| Aperçu personnalisé |
+| Insight personnalisé |
 |---|
 | Liens personnalisés | s.linkName | Nécessite une implémentation personnalisée |
 | Aperçu personnalisé 1 | s.prop1 |  |
@@ -199,7 +199,7 @@ Le tableau suivant répertorie les variables de cheminement qui sont utilisées 
 
 | Pages |
 |---|
-| Résumé pour la page | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
+| Résumé de la page | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
 | Valeur de la page | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
 | Pages les plus populaires | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
 | Actualisations | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
@@ -225,7 +225,7 @@ Le tableau suivant répertorie les variables de cheminement qui sont utilisées 
 |---|
 | Page précédente | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
 | Page suivante | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
-| Flux de page précédente | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
-| Flux de page suivante | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
+| Flux Page précédente | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
+| Flux page suivante | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
 | PathFinder | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
 | Abandons | s.pageName (ou autre variable de chemin) | Dépend également des règles de fonctionnement internes |
