@@ -1,13 +1,13 @@
 ---
 description: Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports.
-keywords: Implémentation d'Analytics ; règles de traitement ; règles
+keywords: Mise en œuvre d’Analytics;règles de traitement;règles
 seo-description: Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports.
 seo-title: Règles de traitement
 solution: Analytics
 title: Règles de traitement
 topic: Développeur et mise en œuvre
-uuid: 6655 a 82 f -4 eb 1-4 c 28-918 e -168254 ab 1 f 92
-translation-type: tm+mt
+uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -28,9 +28,9 @@ Ces règles fournissent une interface pour effectuer les opérations suivantes, 
 
 Pour plus de détails sur les règles de traitement, voir :
 
-* [Règles de traitement](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html) dans le guide de référence et l’aide d’Analytics
+* [Règles de traitement](https://marketing.adobe.com/resources/help/fr_FR/reference/processing_rules.html) dans le guide d’aide et de référence d’Analytics
 * [Création d’une règle](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) dans cette documentation d’aide
-* [Prise en main des canaux marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/c_getting_started_mchannel.html) dans la documentation Canaux marketing
-* [Règles VISTA](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) dans le guide de référence et l’aide d’Analytics
-* [Règles de bots](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html) dans le guide de référence et l’aide d’Analytics
+* [Prise en main de canaux marketing](https://marketing.adobe.com/resources/help/fr_FR/mchannel/c_getting_started_mchannel.html) dans la documentation des canaux marketing
+* [Règles VISTA](https://marketing.adobe.com/resources/help/fr_FR/reference/VISTA.html) dans le guide d’aide et de référence d’Analytics
+* [Règles de bots](https://marketing.adobe.com/resources/help/fr_FR/reference/bot_rules.html) dans le guide d’aide et de référence d’Analytics
 
