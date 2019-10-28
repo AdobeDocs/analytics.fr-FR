@@ -1,14 +1,14 @@
 ---
 description: Obtient la valeur d’un cookie.
 keywords: Mise en œuvre d’Analytics
-seo-description: Obtient la valeur d'un cookie.
+seo-description: Obtient la valeur d’un cookie.
 seo-title: Util.cookieRead
 solution: Analytics
 subtopic: AppMeasurement pour JavaScript
 title: Util.cookieRead
 topic: Développeur et mise en œuvre
-uuid: 825 a 75 c 6-b 804-4 bfe-b 23 a -907113 b 8 bfa 6
-translation-type: tm+mt
+uuid: 825a75c6-b804-4bfe-b23a-907113b8bfa6
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
