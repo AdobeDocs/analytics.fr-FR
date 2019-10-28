@@ -6,8 +6,8 @@ seo-title: En-têtes HTTP de collecte de données
 solution: Analytics
 title: En-têtes HTTP de collecte de données
 topic: Développeur et mise en œuvre
-uuid: 3325 e 13 c-b 300-46 e 4-a 592-3 a 83 ed 59718 b
-translation-type: tm+mt
+uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -27,7 +27,7 @@ Les en-têtes de demande et de réponse HTTP servent à collecter d’autres don
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Cookies de lecture précédemment créés par les serveurs de collecte de données Adobe. </p> <p> À compter de 2014, les serveurs Adobe ignoreront tous les cookies accompagnant un appel de serveur, à l’exception de ceux définis par Adobe. Voir <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Cookies utilisés dans Experience Cloud</a> pour obtenir la liste complète des cookies d’Adobe. </p> </td> 
+   <td> <p>Cookies de lecture précédemment créés par les serveurs de collecte de données Adobe. </p> <p> À compter de 2014, les serveurs Adobe ignoreront tous les cookies accompagnant un appel de serveur, à l’exception de ceux définis par Adobe. Voir <a href="https://marketing.adobe.com/resources/help/fr_FR/whitepapers/cookies/" format="https" scope="external">Cookies utilisés dans Experience Cloud</a> pour obtenir la liste complète des cookies d’Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -55,7 +55,7 @@ Les en-têtes de demande et de réponse HTTP servent à collecter d’autres don
   </tr> 
   <tr> 
    <td> UA-OS </td> 
-   <td> Utilisé en remplacement pour identifier le système d’exploitation.  </td> 
+   <td> Utilisé en remplacement pour identifier le système d’exploitation. </td> 
   </tr> 
   <tr> 
    <td> UA-Pixels </td> 
@@ -75,7 +75,7 @@ Les en-têtes de demande et de réponse HTTP servent à collecter d’autres don
   </tr> 
   <tr> 
    <td> Accept </td> 
-   <td> Utilisé pour identifier les formats d’image pris en charge par le navigateur afin qu’Adobe sache s’il doit renvoyer une image GIF ou WBMP.  </td> 
+   <td> Utilisé pour identifier les formats d’image pris en charge par le navigateur afin qu’Adobe sache s’il doit renvoyer une image GIF ou WBMP. </td> 
   </tr> 
   <tr> 
    <td> Referrer </td> 
@@ -90,26 +90,26 @@ Les en-têtes de demande et de réponse HTTP servent à collecter d’autres don
 
 >[!NOTE]
 >
->Les implémentations qui utilisent des variables dynamiques ont l'option de lecture dans d'autres en-têtes de requête HTTP non répertoriés ci-dessus.
+>Les implémentations qui utilisent des variables dynamiques ont une possibilité de lecture dans d’autres en-têtes de demande HTTP qui ne sont pas répertoriés ci-dessus.
 
 ## En-têtes de réponse HTTP {#section_A9C7035198C84037A21A8033CC408F0E}
 
 | **En-tête** | **Utilisation** |
 |---|---|
-| Access-Control-Allow-Origin | Utilisé pour activer la prise en charge des demandes de collecte de données de style de partage de ressources interorigines sur les serveurs Adobe.   |
+| Access-Control-Allow-Origin | Utilisé pour activer la prise en charge des demandes de collecte de données de style de partage de ressources interorigines sur les serveurs Adobe. |
 | Expires | Contrôle de la mise en cache du navigateur. |
 | Last-Modified | Contrôle de la mise en cache du navigateur. |
 | Cache-Control | Contrôle de la mise en cache du navigateur. |
 | Pragma | Contrôle de la mise en cache du navigateur. |
 | ETag | Contrôle de la mise en cache du navigateur. |
 | Vary | Contrôle de la mise en cache du navigateur. |
-| P3P | Fournit la stratégie P3P par défaut ou personnalisée de la demande de collecte de données.  |
-| Status | Contient l’état « SUCCESS » ou « FAILURE » d’une demande d’aucun contenu. Utilisé uniquement quand la demande indique qu’aucun contenu ne doit être envoyé.  |
-| Reason | Contient le motif de l’état d’échec d’une demande d’aucun contenu. Utilisé uniquement quand la demande indique qu’aucun contenu ne doit être envoyé.  |
-| Emplacement | Utilisé pour rediriger le client effectuant la demande de collecte de données vers une autre URL. La négociation du cookie Adobe pour détecter la possibilité de définir le cookie identifiant visiteur est un exemple.  |
+| P3P | Fournit la stratégie P3P par défaut ou personnalisée de la demande de collecte de données. |
+| Status | Contient l’état « SUCCESS » ou « FAILURE » d’une demande d’aucun contenu. Utilisé uniquement quand la demande indique qu’aucun contenu ne doit être envoyé. |
+| Reason | Contient le motif de l’état d’échec d’une demande d’aucun contenu. Utilisé uniquement quand la demande indique qu’aucun contenu ne doit être envoyé. |
+| Emplacement | Utilisé pour rediriger le client effectuant la demande de collecte de données vers une autre URL. La négociation du cookie Adobe pour détecter la possibilité de définir le cookie identifiant visiteur est un exemple. |
 | Content-Type | Spécifie le type de contenu renvoyé au client (GIF, texte, code JavaScript, etc.) |
 | Content-Length | Spécifie la taille du contenu renvoyé au client. |
 
 >[!NOTE]
 >
->D'autres en-têtes HTTP peuvent être définis dans la réponse pour la surveillance de l'état interne. Certains de ces en-têtes peuvent être renvoyés au navigateur, mais il n’est pas nécessaire qu’il les reçoit.
+>D’autres en-têtes HTTP peuvent être définis dans la réponse pour le contrôle d’état interne. Certains de ces en-têtes peuvent être renvoyés au navigateur, mais il n’est pas nécessaire qu’il les reçoit.
