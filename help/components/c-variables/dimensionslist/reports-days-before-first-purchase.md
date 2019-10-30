@@ -4,10 +4,10 @@ seo-description: Indique le nombre de jours entre la première visite des client
 seo-title: Jours avant le premier achat
 solution: Analytics
 title: Jours avant le premier achat
-topic: Présentation
-uuid: 8 ceea 9 e 8-2 b 81-44 f 1-b 4 c 0-aa 6542 eeba 2 b
+topic: Rapports
+uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
