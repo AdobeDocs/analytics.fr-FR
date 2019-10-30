@@ -8,14 +8,14 @@ title: Connecteur de données DFA pour Adobe Analytics
 topic: Connecteurs de données
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Connecteur de données DFA pour Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
 
-Sur le marché en ligne actuel, de plus en plus complexe et concurrentiel, les publicitaires et agences ne doivent cesser d’approfondir leur compréhension de l’environnement marketing en ligne et de mieux comprendre leur retour sur les dépenses publicitaires. Les publicitaires, les agences et les éditeurs possèdent tous des outils spécifiques qui les aideront à réaliser ces objectifs. Toutefois, l’agrégation manuelle des données issues de systèmes et de processus de données disparates peut considérablement amoindrir l’efficacité des campagnes marketing en ligne, ce qui se traduit par des performances de la campagne, des données disparates et une certaine confusion.
+Sur le marché en ligne de plus en plus complexe et concurrentiel d'aujourd'hui, les publicitaires et agences en ligne doivent continuellement améliorer leur compréhension de l'environnement de marketing en ligne et leur retour sur dépenses publicitaires. Les publicitaires, les agences et les éditeurs possèdent tous des outils spécifiques qui les aideront à réaliser ces objectifs. Toutefois, l’agrégation manuelle des données issues de systèmes et de processus de données disparates peut considérablement amoindrir l’efficacité des campagnes marketing en ligne, ce qui se traduit par des performances de la campagne, des données disparates et une certaine confusion.
 
 L’intégration DoubleClick for Advertisers (DFA) résout ce problème en utilisant le composant Connecteurs de données d’Adobe® afin d’autoriser DoubleClick DFA à transmettre automatiquement des données aux rapports et analyses.
 
@@ -42,17 +42,17 @@ Cette intégration peut capturer les données au sujet du visiteur orienté par 
 
 ![](assets/Diagram1.png)
 
-Le visiteur parvient sur un site de l’éditeur, qui héberge la publicité. Cette publicité porte un identifiant unique, appelé un ID de publicité. Les publicités se composent d’un référencement et d’un attribut créatif, qui décrivent où se trouve la publicité sur le site de l’éditeur et quel contenu était présenté au visiteur. Quand le visiteur récupère cette publicité, le référencement ou le créatif sur les serveurs de contenu DFA, un suivi est effectué de l’impression jusqu’aux serveurs Floodlight DFA pour ce visiteur (1).
+Le visiteur arrive sur le site d’un éditeur, qui héberge la publicité. Cette publicité porte un identifiant unique, appelé un ID de publicité. Les publicités comprennent un emplacement plus un élément créatif, qui décrit l’emplacement de la publicité sur le site de l’Editeur et le contenu présenté au visiteur. Quand le visiteur récupère cette publicité, le référencement ou le créatif sur les serveurs de contenu DFA, un suivi est effectué de l’impression jusqu’aux serveurs Floodlight DFA pour ce visiteur (1).
 
 Si le visiteur clique sur la publicité (2), le serveur Floodlight est interrogé, ce qui compte comme un clic, puis l’instruction 302 redirige (3) le visiteur vers la page d’entrée. Quand le visiteur parvient à la page d’entrée, il s’agit d’un clic publicitaire. Cette page comprend le code de suivi Adobe, qui interroge les données du serveur Floodlight DFA.
 
-Si le visiteur ne parvient pas sur la page d’entrée alors que le serveur Floodlight a effectué un suivi sur un clic, il ne s’agit pas d’un clic publicitaire. Certaines publicités et mises en œuvre n’obligent pas systématiquement le navigateur du visiteur à obéir à la redirection 302. Pour en savoir plus sur ce sujet, voir [Rapprochement des écarts de mesures](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
+Si le visiteur ne parvient pas sur la page d’entrée alors que le serveur Floodlight a effectué un suivi sur un clic, il ne s’agit pas d’un clic publicitaire. Certaines publicités et implémentations peuvent ne pas entraîner le navigateur du visiteur à obéir à la redirection 302. Pour plus d’informations sur ce sujet, voir [Rapprochement des écarts entre les mesures](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md).
 
 La prochaine mesure capturée par cette intégration survient quand le visiteur reçoit l’impression de publicité, ne clique pas, mais parvient tout de même dans un futur proche sur la page d’entrée par un autre moyen.
 
 ![](assets/Viewthrough.png)
 
-Ce scénario est alors nommé un affichage publicitaire. Il diffère du scénario du clic publicitaire du fait que le visiteur ne clique pas sur la publicité, mais poursuit d’autres activités avant de parvenir à la page d’entrée (2). Dans le plus simple des cas, le visiteur saisit l’URL de la page d’entrée dans le navigateur. Il arrive aussi que le visiteur poursuive sa navigation mais parvienne ensuite à la page d’entrée en utilisant un moteur de recherche. Dans tous les cas, l’utilisateur parvient à la page d’entrée.
+Ce scénario est alors nommé un affichage publicitaire. Il diffère du scénario du clic publicitaire du fait que le visiteur ne clique pas sur la publicité, mais poursuit d’autres activités avant de parvenir à la page d’entrée (2). Dans le cas le plus simple, le visiteur saisit l’URL de la page d’entrée dans le navigateur. Il arrive aussi que le visiteur poursuive sa navigation mais parvienne ensuite à la page d’entrée en utilisant un moteur de recherche. Dans tous les cas, l’utilisateur parvient à la page d’entrée.
 
 ## Intégration Adobe : Collecte de données en temps réel{#adobe-integration-real-time-data-collection}
 
@@ -64,7 +64,7 @@ La portion de collecte de données de l’intégration Adobe commence quand le v
 
 Une fois les données reçues (ou si cela prend trop de temps), l’accès est déclenché sur les serveurs de suivi Adobe (3).
 
-Le module Integrate est un module Adobe JavaScript principal spécial qui retarde la balise image Adobe, en attendant la demande d’un tiers pendant une durée spécifique (`s.maxDelay`). `s.maxDelay`définit la durée pendant laquelle le module Integrate attend les données du serveur DFA Floodlight avant de déclencher la balise image sur le navigateur du visiteur. Ce comportement est important, de sorte que les données de base du visiteur continuent à être collectées même quand les serveurs DFA Floodlight sont hors service ou lourdement chargés. Si les données Floodlight arrivent avant l’expiration de `s.maxDelay`, les données de suivi Adobe sont immédiatement déclenchées et contiennent les données DFA supplémentaires.
+Le module Integrate est un module Adobe JavaScript principal spécial qui retarde la balise image Adobe, en attendant la demande d’un tiers pendant une durée spécifique (`s.maxDelay`). `s.maxDelay` définit la durée pendant laquelle le module Integrate attend les données du serveur DFA Floodlight avant de déclencher la balise d’image dans le navigateur du visiteur. Ce comportement est important, de sorte que les données de base du visiteur continuent à être collectées même quand les serveurs DFA Floodlight sont hors service ou lourdement chargés. Si les données Floodlight arrivent avant l’expiration de `s.maxDelay`, les données de suivi Adobe sont immédiatement déclenchées et contiennent les données DFA supplémentaires.
 
 Quand le délai expire, le code de la page peut spécifier un événement Rapports et analyses Adobe, qui sera utilisé comme événement de dépassement de délai. Cet événement est utile pour diagnostiquer les problèmes d’intégration ou lors du réglage de `s.maxDelay`. En cas de dépassements de délai excessifs, augmentez `s.maxDelay`. `s.maxDelay` peut toutefois être défini sur une valeur trop élevée, auquel cas les visiteurs pourraient avoir le potentiel de quitter le site avant l’expiration du `s.maxDelay` minuteur. .
 
