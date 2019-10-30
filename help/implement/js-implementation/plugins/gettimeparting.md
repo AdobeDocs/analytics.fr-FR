@@ -9,20 +9,18 @@ title: getTimeParting
 topic: Développeur et mise en œuvre
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # getTimeParting
 
-Le module externe getTimeParting renseigne les variables personnalisées avec les valeurs « heure du jour », « jour de la semaine », « jour du week-end » et « jour de semaine ». Analysis Workspace propose des dimensions de répartition des heures prêtes à l’emploi. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+Le module externe getTimeParting renseigne les variables personnalisées avec les valeurs « heure du jour », « jour de la semaine », « jour du week-end » et « jour de semaine ». [!UICONTROL Analysis Workspace] propose des dimensions de répartition des heures prêtes à l’emploi. Le module externe devrait être utilisé si des dimensions de répartition des heures sont requises dans d’autres solutions Analytics, hors d’[!UICONTROL Analysis Workspace].
 
 Ce module externe capture les informations de date et d’heure disponibles dans le navigateur Web de l’utilisateur. L’heure et le jour de la semaine sont obtenus à partir de ces informations. Il convertit ensuite ces données dans le fuseau horaire de votre choix. Il tient également compte de l’heure d’été.
 
->[!NOTE]
->
->Les instructions suivantes vous demandent de modifier le code de collecte de données de votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
+> [!NOTE] Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
 
 ## Code du module externe {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +28,7 @@ Ce module externe capture les informations de date et d’heure disponibles dans
 
 Insérez le code suivant dans la section du fichier [!DNL s_code.js] intitulée [!UICONTROL CONFIG SECTION] et effectuez les mises à jour nécessaires, comme indiqué ci-dessous.
 
-`s._tpDST` - un tableau de valeurs DST. Le tableau est structuré au format suivant : `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - un tableau de valeurs d’heures d’été. Le tableau est structuré au format suivant : `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
