@@ -4,15 +4,15 @@ seo-description: Les filtres permettent de limiter le rapport en incluant ou en 
 seo-title: Filtrage des données de rapport
 solution: Analytics
 title: Filtrage des données de rapport
-topic: Reports and Analytics
-uuid: b 6 dcaaf 7-61 f 0-4793-870 d-e 1 d 156575 d 5 a
+topic: Reports & Analytics
+uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: bf67baa33bc21e71c911d5108ee6044adf634fce
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# Filtrer les données du rapport {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 Les filtres permettent de limiter le rapport en incluant ou en excluant des éléments de ligne qui correspondent à un filtre.
 
@@ -48,9 +48,7 @@ Les filtres avancés vous permettent de contrôler la portée de votre recherche
 
 Correspond si le terme se trouve dans l’élément de ligne. Opère de la même manière que le filtre simple.
 
->[!NOTE]
->
->Les espaces ne peuvent pas être utilisés dans les filtres, car les espaces sont des délimiteurs dans les recherches.
+> [!NOTE] Les espaces ne peuvent pas être utilisés dans les filtres, car les espaces sont des délimiteurs dans les recherches.
 
 **Ne contient pas**
 
@@ -131,11 +129,11 @@ Le filtre Avancé permet de réaliser des recherches avec des caractères géné
 | Avancé (caractères spéciaux) | Description |
 |--- |--- |
 | `" "` | Correspond à une phrase exacte. |
-| `*` | Caractère générique, correspondance maximale. <br>Par exemple `r*p` , correspond à « Inscription à l'inscription ». |
+| `*` | Caractère générique, correspondance maximale. <br>Par exemple, `r*p` correspond à "Inscription". |
 | `^` | Commence par. <br>N’incluez pas d’espace entre le caractère spécial et l’expression à rechercher. |
 | `$` | Se termine par. <br>N’incluez pas d’espace entre le caractère spécial et l’expression à rechercher. |
 | `-` | Pas. <br>N’incluez pas d’espace entre le caractère spécial et l’expression à rechercher. |
-| `|` | Or<br>Note:  you must include a space on each side of the pipe character, `" | "`. |
+| `|` | <br>OuNote :  vous devez inclure un espace de chaque côté du caractère de barre `" | "`. |
 
 ## Création de filtres spécifiques aux rapports {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -178,4 +176,4 @@ Vous pouvez filtrer les données illustrées dans le rapport de corrélation ave
 1. Exécutez un rapport qui prend en charge les corrélations. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. Sous [!UICONTROL Créateur de règles de filtrage], sélectionnez une catégorie à corréler avec un élément.
-1. Click **[!UICONTROL OK.]**
+1. Cliquez sur **[!UICONTROL OK.]**
