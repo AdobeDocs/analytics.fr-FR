@@ -4,10 +4,10 @@ seo-description: Description des catégories de rapports utilisées dans Experie
 seo-title: Catégories de rapports
 solution: Analytics
 title: Catégories de rapports
-topic: Présentation
-uuid: 78369121-3854-4 bf 9-9156-c 2369 ec 75 d 73
+topic: Rapports
+uuid: 78369121-3854-4bf9-9156-c2369ec75d73
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,7 @@ L’axe vertical du graphique affiche les éléments qui font l’objet d’un s
 Vous pouvez également sélectionner plusieurs cellules et lancer un rapport de tendances sur la base d’une granularité donnée. Lorsque vous établissez des tendances à partir de plusieurs cellules, les colonnes du rapport présentent des données pour l’ensemble de la période de rapport.
 
 Un rapport de produits est un exemple de rapport de tendance. Vous pouvez afficher les recettes générées par un produit au cours de la période sélectionnée. Dans le cas d’une période de rapport hebdomadaire, vous pouvez afficher le montant des recettes générées par ce produit chaque jour de cette période, afficher un graphique de tendance pour un produit spécifique au cours de cette journée ou ouvrir un rapport de tendance distinct pour la sélection.
-Un rapport Totaux est un rapport de niveau supérieur qui montre les chiffres de bas en bas. Il contient les données relatives aux recettes totales, aux pages vues et aux commandes. Vous pouvez segmenter ce rapport et y ajouter d’autres mesures pour afficher des données supplémentaires.
+Un rapport Totaux est un rapport de niveau exécutif qui montre les chiffres de base. Il contient les données relatives aux recettes totales, aux pages vues et aux commandes. Vous pouvez segmenter ce rapport et y ajouter d’autres mesures pour afficher des données supplémentaires.
 Les flux affichent les chemins empruntés le plus souvent par les utilisateurs pour parcourir les pages, sections de site et serveurs.
 
 Pour plus d’informations sur la manière dont le flux fonctionne dans Analysis Workspace, voir [Itinéraires des internautes – Flux](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html).
@@ -36,4 +36,4 @@ Le groupe de rapports Flux suivant comprend trois rapports : Flux de page suiva
 **Flux précédent**
 
 Les rapports Flux précédent sont semblables aux rapports Flux suivant, si ce n’est qu’au lieu de voir où se rendent les visiteurs après une page sélectionnée, vous pouvez voir l’emplacement d’où ils proviennent avant d’accéder à une page spécifique. Les commandes permettant d’utiliser ce rapport sont identiques à celles des rapports de flux suivant.
-Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution). For more information, see [Fallout](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) in Analysis Workspace.
+Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution). Pour plus d’informations, voir [Abandon](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) dans Analysis Workspace.
