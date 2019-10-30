@@ -3,9 +3,9 @@ description: Les rapports Cibles vous permettent de mesurer les performances de 
 seo-description: Les rapports Cibles vous permettent de mesurer les performances de votre site web et de suivre leur progression par rapport aux objectifs cibles. Vous pouvez par exemple augmenter le nombre de visiteurs provenant d’une zone géographique donnée, les recettes par commande ou le nombre de visites provenant d’un référent spécifique.
 seo-title: Cibles
 title: Cibles
-uuid: ecb 9 b 964-0703-414 a-a 4 ff -7 cf 75121 a 0 e 1
+uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,11 +14,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Les rapports Cibles vous permettent de mesurer les performances de votre site web et de suivre leur progression par rapport aux objectifs cibles. Vous pouvez par exemple augmenter le nombre de visiteurs provenant d’une zone géographique donnée, les recettes par commande ou le nombre de visites provenant d’un référent spécifique.
 
->[!NOTE]
->
->These reports should not be confused with the Adobe [Target](../../../components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) report.
+> [!NOTE] Ces rapports ne doivent pas être confondus avec le rapport Adobe [Target](../../../components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) .
 
-To access your Targets reports, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL Targets]** &gt; **[!UICONTROL[your target name]]**
+To access your Targets reports, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL Targets]** &gt; **[!UICONTROL [your target name]]**
 
 Lorsque vous [créez des cibles](https://marketing.adobe.com/resources/help/en_US/sc/user/targets.html), vous sélectionnez les mesures d’attribut ou eVars que vous souhaitez mesurer. Vous pouvez aussi choisir de mesurer la totalité du site en fonction de la mesure sélectionnée.
 
