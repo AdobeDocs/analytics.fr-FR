@@ -7,8 +7,8 @@ solution: Analytics
 title: En-têtes HTTP de collecte de données
 topic: Développeur et mise en œuvre
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ Les en-têtes de demande et de réponse HTTP servent à collecter d’autres don
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Cookies de lecture précédemment créés par les serveurs de collecte de données Adobe. </p> <p> À compter de 2014, les serveurs Adobe ignoreront tous les cookies accompagnant un appel de serveur, à l’exception de ceux définis par Adobe. Voir <a href="https://marketing.adobe.com/resources/help/fr_FR/whitepapers/cookies/" format="https" scope="external">Cookies utilisés dans Experience Cloud</a> pour obtenir la liste complète des cookies d’Adobe. </p> </td> 
+   <td> <p>Cookies de lecture précédemment créés par les serveurs de collecte de données Adobe. </p> <p> À compter de 2014, les serveurs Adobe ignoreront tous les cookies accompagnant un appel de serveur, à l’exception de ceux définis par Adobe. Voir <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Cookies utilisés dans Experience Cloud</a> pour obtenir la liste complète des cookies d’Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -88,9 +88,7 @@ Les en-têtes de demande et de réponse HTTP servent à collecter d’autres don
  </tbody> 
 </table>
 
->[!NOTE]
->
->Les implémentations qui utilisent des variables dynamiques ont une possibilité de lecture dans d’autres en-têtes de demande HTTP qui ne sont pas répertoriés ci-dessus.
+> [!NOTE] Les implémentations qui utilisent des variables dynamiques ont une possibilité de lecture dans d’autres en-têtes de demande HTTP qui ne sont pas répertoriés ci-dessus.
 
 ## En-têtes de réponse HTTP {#section_A9C7035198C84037A21A8033CC408F0E}
 
@@ -110,6 +108,4 @@ Les en-têtes de demande et de réponse HTTP servent à collecter d’autres don
 | Content-Type | Spécifie le type de contenu renvoyé au client (GIF, texte, code JavaScript, etc.) |
 | Content-Length | Spécifie la taille du contenu renvoyé au client. |
 
->[!NOTE]
->
->D’autres en-têtes HTTP peuvent être définis dans la réponse pour le contrôle d’état interne. Certains de ces en-têtes peuvent être renvoyés au navigateur, mais il n’est pas nécessaire qu’il les reçoit.
+> [!NOTE] D’autres en-têtes HTTP peuvent être définis dans la réponse pour le contrôle d’état interne. Certains de ces en-têtes peuvent être renvoyés au navigateur, mais il n’est pas nécessaire qu’il les reçoit.
