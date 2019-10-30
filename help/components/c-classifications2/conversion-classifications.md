@@ -3,12 +3,12 @@ description: Les classifications permettent de catégoriser des valeurs dans des
 seo-description: Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Vous pouvez, par exemple, classifier toutes les campagnes de recherche payante dans une catégorie comme termes de pop music et générer des rapports sur le succès de la catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès.
 seo-title: Classifications des conversions
 solution: Analytics
-subtopic: Gestionnaire
+subtopic: Classifications
 title: Classifications des conversions
 topic: Outils d’administration
-uuid: 4 c 8726 c 9-f 527-44 e 1-be 01-8 c 7 b 3 b 5 c 20 f 0
+uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Vous pouvez, par exemple, classifier toutes les campagnes de recherche payante dans une catégorie comme termes de pop music et générer des rapports sur le succès de la catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès.
 
-## Conversion classifications {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
+## Classifications des conversions {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
 Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Vous pouvez, par exemple, classifier toutes les campagnes de recherche payante dans une catégorie comme *termes de pop music* et générer des rapports sur le succès de la catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès.
 
@@ -69,7 +69,7 @@ Description de la procédure d’ajout de classifications de conversion dans Adm
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1.   Dans la liste déroulante **Choisir le type de classification**, sélectionnez la variable qui doit contenir une classification. 
 
-   ![Informations sur les étapes](assets/sub_class_create.png)
+   ![Infos étape](assets/sub_class_create.png)
 
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
 1.   Dans le champ **Sélectionner un type**, choisissez le type de classification à ajouter à la variable. 
