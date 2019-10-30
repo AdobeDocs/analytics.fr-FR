@@ -1,13 +1,13 @@
 ---
 description: Il est important de comprendre les termes clés de l’interface des flux de données Analytics pour pouvoir l’utiliser.
-keywords: Flux de données ; termes ; terminologie ; tâche
+keywords: Flux de données;termes;terminologie;tâche
 seo-description: Il est important de comprendre les termes clés de l’interface des flux de données Analytics pour pouvoir l’utiliser.
 seo-title: Terminologie
 solution: Analytics
 title: Terminologie
-uuid: 87368708-aaac -40 a 5-bd 00-b 0964 bcf 3507
+uuid: 87368708-aac-40a5-bd00-b0964bcf3507
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
