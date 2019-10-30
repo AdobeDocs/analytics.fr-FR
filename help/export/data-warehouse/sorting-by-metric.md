@@ -4,9 +4,9 @@ seo-description: Fournit des rapports de ventilation avec classement dans Data 
 seo-title: Tri par mesure
 solution: Analytics
 title: Tri par mesure
-uuid: 07 da 2607-b 3 fd -463 b -90 d 4-6884 a 93 c 7 e 25
+uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ Les rapports Data Warehouse peuvent être triés par mesures de quatre différe
 
 Reportez-vous à la colonne Disposition du rapport dans ce tableau pour déterminer de quelle façon le tri des mesures interagit avec d’autres options de génération de rapports de Data Warehouse.
 
-| Tri par mesure ? | A des mesures ? | A des ventilations ? | Granularité des dates ? | Nb max. de lignes défini ? | Disposition du rapport |
+| Tri par mesure? | A des mesures ? | A des ventilations ? | Granularité des dates ? | Nb max. de lignes défini ? | Disposition du rapport |
 |---|---|---|---|---|---|
 | Non | Oui ou Non | Oui ou Non | Oui ou Non | Oui ou Non | 1 |
 | Oui | Non | Oui ou Non | Oui ou Non | Oui ou Non | 1 |
