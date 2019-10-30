@@ -1,19 +1,19 @@
 ---
 description: Ce tableau de référence définit les champs, options et attributs de visite que vous pouvez sélectionner sur la page Règles de traitement des canaux marketing.
 seo-description: Ce tableau de référence définit les champs, options et attributs de visite que vous pouvez sélectionner sur la page Règles de traitement des canaux marketing.
-seo-title: Règles de traitement des canaux marketing - définitions
+seo-title: Règles de traitement des canaux marketing - Définitions
 solution: Analytics
 subtopic: Canaux marketing
-title: Règles de traitement des canaux marketing - définitions
-topic: Reports and Analytics
-uuid: 4 e 71 ff 5 b -912 a -4 dc 0-9 c 22-4 be 74 c 5 e 3 cc 0
+title: Règles de traitement des canaux marketing - Définitions
+topic: Reports & Analytics
+uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Règles de traitement des canaux marketing - définitions
+# Règles de traitement des canaux marketing - Définitions
 
 Ce tableau de référence définit les champs, options et attributs de visite que vous pouvez sélectionner sur la page Règles de traitement des canaux marketing.
 
@@ -35,11 +35,11 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
   </tr>
   <tr> 
    <td colname="col1"> <p>ID AMO </p> </td> 
-   <td colname="col2"> <p>Code de suivi principal utilisé par les intégrations de cloud de publication et d'analyses de publicité. Lorsque l'une de ces intégrations est activée, le préfixe de code de suivi peut être utilisé pour identifier les canaux spécifiques de la publicité. Utilisez « ID AMO » commence par « AL » pour Rechercher, « AC » pour l'affichage ou « AO » pour Social. Lorsque l'ID AMO est utilisé dans les canaux marketing, les mesures de clic/coût/impression peuvent être attribuées au canal correct (lorsqu'elles n'ont pas été configurées, ces mesures vont à Direct ou Aucun). </p> </td> 
+   <td colname="col2"> <p>Code de suivi principal utilisé par les intégrations Advertising Cloud et Advertising Analytics. Lorsque l’une de ces intégrations est activée, le préfixe du code de suivi peut être utilisé pour identifier les canaux spécifiques à Advertising Cloud. Utilisez "AMO ID" commence par "AL" pour la recherche, "AC" pour l’affichage ou "AO" pour Social. Lorsque l’ID d’OMA est utilisé dans les canaux marketing, les mesures de clic/coût/impression peuvent être attribuées au canal approprié (lorsqu’elles ne sont pas configurées, elles sont alors définies sur Direct ou Aucun). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>AMO ED ID </p> </td> 
-   <td colname="col2"> <p>Code de suivi secondaire utilisé par la publicité Cloud. L'objectif principal de ce code de suivi est de servir de clé pour renvoyer des données à Ad Cloud. Il peut toutefois être utilisé pour identifier les clics publicitaires par rapport aux affichages publicitaires d'affichage si vous souhaitez les voir comme deux canaux marketing distincts. Pour ce faire, définissez la logique Canal marketing pour « Se termine par l'ID EF EF » : d » pour Display clickthroughs ou « AMO EF ID » se termine par » : i » pour Afficher viewthroughs. Si vous ne souhaitez pas fractionner l'affichage en deux canaux, utilisez plutôt la dimension ID AMO. </p> </td> 
+   <td colname="col1"> <p>ID AMO ED </p> </td> 
+   <td colname="col2"> <p>Code de suivi secondaire utilisé par Advertising Cloud. Le principal objectif de ce code de suivi est de servir de clé pour renvoyer les données vers Ad Cloud. Il peut toutefois également être utilisé pour identifier les clics publicitaires par rapport aux affichages publicitaires si vous souhaitez les voir comme deux canaux marketing distincts. Pour ce faire, définissez la logique du canal marketing pour "AMO EF ID" se termine par ":d" pour les clics publicitaires ou "AMO EF ID" se termine par ":i" pour les affichages publicitaires. Si vous ne souhaitez pas diviser l’affichage en deux canaux, utilisez plutôt la dimension d’identifiant AMO. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de conversion </p> </td> 
@@ -51,7 +51,7 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
      <ul id="ul_FE39B5F36235441FB757CC73CA2C4F51"> 
       <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol">N’existe pas</span> : indique que l’attribut de visite n’existe pas pour la demande. Dans un domaine référent par exemple, si l’utilisateur saisit une URL ou clique sur un signet, l’attribut de domaine référent n’existe pas. </p> </li> 
       <li id="li_3AB958F997974682824E85014CA266D6"> <p> <span class="uicontrol"> Est vide</span> : indique que l’attribut de visite existe, généralement sous la forme d’un paramètre de chaîne de requête ou eVar, mais qu’aucune valeur associée à l’attribut de visite n’est attribuée. </p> </li> 
-      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Ne contient </span>pas : Vous permet, par exemple, de spécifier qu'un domaine référent ne contient pas de valeur spécifique (contrairement à l'utilisation de la sélection <span class="term"> Contient </span>). </p> </li> 
+      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> Ne contient pas </span>: Vous permet, par exemple, de spécifier qu’un domaine référent ne contient pas de valeur spécifique (contrairement à l’utilisation de la sélection <span class="term"> Contient </span>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le référent ne correspond pas aux filtres d’URL internes </p> </td> 
-   <td colname="col2"> <p>L’URL référente ne correspond pas à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. Vous pouvez utiliser ce paramètre avec <span class="term"> URL de la page </span> et <span class="term"> Existe </span> pour configurer une règle fourre-tout, de telle sorte qu'aucune visite ne figure dans la section <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> Aucun canal identifié </a> du rapport. </p> </td> 
+   <td colname="col2"> <p>L’URL référente ne correspond pas à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. Vous pouvez utiliser ce paramètre avec <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ignorer les visites correspondant aux filtres URL internes </p> </td> 
@@ -83,8 +83,8 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
    <td colname="col2"> <p>La première page d’une visite détectée par Adobe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Page </p> </td> 
-   <td colname="col2"> <p>Le nom d’une page Web du site qui contient une balise Web d’Adobe. Cette valeur équivaut à <span class="varname"> s.pageName </span>. Examples include <span class="varname"> Home Page </span> and <span class="varname"> About Us </span>. </p> </td> 
+   <td colname="col1"> <p>Activity Map </p> </td> 
+   <td colname="col2"> <p>nom de page d’une page Web de votre site qui est balisée à l’aide de la balise Web d’Adobe. This value is equivalent to <span class="varname"> s.pageName </span>. Par exemple, <span class="varname"> Page d’accueil </span> et <span class="varname"> Qui sommes-nous </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domaine de page </p> </td> 
@@ -137,12 +137,13 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
   <tr> 
    <td colname="col1"> <p>Moteur de recherche - Mots-clés </p> </td> 
    <td colname="col2"> <p>Une concaténation de « Mot-clé de recherche » et de « Moteur de recherche » pour identifier avec exactitude le moteur de recherche. Par exemple, si vous cherchez le mot « ordinateur », le moteur de recherche et le mot-clé sont identifiés comme suit : </p> 
-    <code>Code de suivi de recherche = « &lt; type_ de_ recherche &gt; : &lt; moteur de recherche &gt; : &lt; mot-clé_ de_ recherche &gt; où search_ type = « n » ou « p », moteur_ de_ recherche = « Google » et mot-clé_ de_ recherche = « ordinateur » </code>
-  <p><b>Remarque :</b> n = naturelle ; p = paid </p> </td> 
+    <code>
+      Search&nbsp;Tracking&nbsp;Code&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&lt;search_type&gt;:&lt;search&nbsp;engine&gt;:&lt;search&nbsp;keyword&gt;"&nbsp;where &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_type&nbsp;=&nbsp;"n"&nbsp;or&nbsp;"p",&nbsp;search_engine&nbsp;=&nbsp;"Google",&nbsp;and&nbsp;search_keyword&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"computer" 
+    </code> <p><b></b> Remarque : n = naturelle; p = payé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Définir la valeur du canal comme </p> </td> 
-   <td colname="col2"> <p>Outre le fait de savoir quel canal marketing dirige un visiteur sur le site, vous pouvez connaître la bannière publicitaire, le mot-clé ou la campagne par courriel du canal qui reçoit le crédit de l’activité d’un visiteur sur le site. Cet identifiant est une valeur de canal enregistrée avec le canal. Cette valeur correspond le plus souvent à un identifiant de campagne intégré dans la page d’entrée ou dans l’URL de renvoi ; dans d’autres cas, c’est la combinaison du moteur de recherche et du mot-clé de recherche, ou encore l’URL de renvoi, qui identifient avec le plus de précision le visiteur en provenance d’un canal donné. </p> </td> 
+   <td colname="col2"> <p>Outre le fait de savoir quel canal marketing conduit un visiteur sur votre site, vous pouvez savoir quelle bannière publicitaire, quel mot-clé de recherche ou quelle campagne par courriel du canal reçoit le crédit de l’activité d’un visiteur sur le site. Cet identifiant est une valeur de canal enregistrée avec le canal. Cette valeur correspond le plus souvent à un identifiant de campagne intégré dans la page d’entrée ou dans l’URL de renvoi ; dans d’autres cas, c’est la combinaison du moteur de recherche et du mot-clé de recherche, ou encore l’URL de renvoi, qui identifient avec le plus de précision le visiteur en provenance d’un canal donné. </p> </td> 
   </tr> 
  </tbody> 
 </table>
