@@ -5,9 +5,9 @@ seo-title: Copie de requêtes référentielles
 solution: Analytics
 title: Copie de requêtes référentielles
 topic: Créateur de rapports
-uuid: b 6 f 64630-868 f -455 b -8682-471 ff 9 fc 596 e
+uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Pour propager ou copier et coller les requêtes référentielles dans la feuille
 
 Vous pouvez également créer des requêtes qui renvoient à des filtres d’entrée issus de requêtes de différentes feuilles de calcul, mais dans un seul classeur. Par exemple, une requête dans la Feuille 2 peut utiliser une suite de rapports d’une cellule particulière de la Feuille 1 et une plage de dates d’une cellule dans une requête de la Feuille 2. Le nouveau résultat peut être placé dans l’une des deux feuilles ou dans une nouvelle feuille du même classeur. Lorsque vous collez une requête relative, si un filtre d’entrée réside dans une feuille de calcul autre que celle sur laquelle est situé le résultat de la requête copiée, le filtre est collé en tant que filtre absolu.
 
->[!NOTE]
->
->Vous ne pouvez pas générer une requête unique dans plusieurs feuilles de calcul. Par ailleurs, le système ne peut pas coller certaines des requêtes copiées dans les nouveaux classeurs, car ces requêtes contiennent des filtres d’entrée issus d’autres feuilles de calcul. Les filtres d’entrée incluent des suites de rapports issues des cellules, des plages de dates des cellules, des filtres des cellules et d’autres paramètres connexes.
+> [!NOTE] Vous ne pouvez pas générer une requête unique dans plusieurs feuilles de calcul. Par ailleurs, le système ne peut pas coller certaines des requêtes copiées dans les nouveaux classeurs, car ces requêtes contiennent des filtres d’entrée issus d’autres feuilles de calcul. Les filtres d’entrée incluent des suites de rapports issues des cellules, des plages de dates des cellules, des filtres des cellules et d’autres paramètres connexes.
 
 **Pour copier les requêtes référentielles**
 
