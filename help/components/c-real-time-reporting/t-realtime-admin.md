@@ -1,18 +1,18 @@
 ---
 description: Cette rubrique décrit les étapes d’administration pour configurer les rapports en temps réel.
 seo-description: Cette rubrique décrit les étapes d’administration pour configurer les rapports en temps réel.
-seo-title: Configuration des rapports en temps réel
+seo-title: Configuration de rapports en temps réel
 solution: Analytics
-title: Configuration des rapports en temps réel
+title: Configuration de rapports en temps réel
 topic: Outils d’administration
-uuid: a 2 c 3 c 515-55 f 2-4 c 64-ac 92-a 86 d 75 e 78 a 86
+uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configuration des rapports en temps réel
+# Configuration de rapports en temps réel
 
 Cette rubrique décrit les étapes d’administration pour configurer les rapports en temps réel.
 
@@ -37,7 +37,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   Pour plus d’informations sur les mesures et dimensions en temps réel prises en charge, voir Mesures et dimensions [prises en charge](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
 
    Si vous avez créé des classifications, elles apparaissent en retrait sous la dimension pour laquelle elles ont été définies :
 
@@ -45,13 +45,13 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    >[!NOTE]
    >
-   >Pour un seul rapport Real - Time, nous ne prenons actuellement pas en charge l'activation de dimensions en double, même si une autre classification est sélectionnée pour chaque dimension.
+   >Pour un rapport en temps réel unique, nous ne prenons pas actuellement en charge l’activation de dimensions en double, même si une classification différente est sélectionnée pour chaque dimension.
 
-   For more information about classifications, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   Pour plus d’informations sur les classifications, voir [A propos des classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
 
    >[!NOTE]
    >
-   >Certaines dimensions, telles que « Mot-clé de recherche » ou « Produit », ne persistent pas en Réel, comme elles le font ailleurs dans Adobe Analytics. Lorsque vous sélectionnez une mesure non permanente, cet avertissement s’affiche :
+   >Certaines dimensions, telles que "Mot-clé de recherche" ou "Produit", ne sont pas conservées en temps réel comme c’est le cas ailleurs dans Adobe Analytics. Lorsque vous sélectionnez une mesure non permanente, cet avertissement s’affiche :
 
    ![](assets/warning_dimensions.png)
 
