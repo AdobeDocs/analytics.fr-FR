@@ -6,7 +6,7 @@ solution: 'Activation '
 title: Audience Analytics - Aperçu
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,11 +33,11 @@ L’intégration d’Audience Analytics offre les avantages clés suivants :
 
 1. Chaque fois qu’un utilisateur se rend sur vos propriétés numériques, les accès sont collectés et envoyés à Analytics.
 1. Avec [la redirection côté serveur](/help/admin/admin/c-server-side-forwarding/ssf.md), chaque accès enregistré par Analytics est automatiquement envoyé à AAM en temps réel.
-1. Grâce à l’intégration d’Audience Analytics, pour chaque accès, l’appartenance d’audience du visiteur est recherchée dans AAM et une liste d’ID de segments est renvoyée à Analytics pour un traitement en temps réel.
+1. Grâce à l’intégration d’Audience Analytics, pour chaque accès, l’adhésion d’un visiteur à l’audience est recherchée dans AAM et une liste d’ID de segment est renvoyée à Analytics pour traitement en temps réel.
 
 Comme les segments AAM sont insérés sur la base d’accès identiques, vous pouvez être assuré que quelles que soient les données disponibles sur un visiteur dans AAM, celles-ci seront prises en compte et tenues à jour pour l’accès concerné. Cette fonctionnalité est supérieure à un module d’extension AppMeasurement dans la mesure où un module externe rend ces segments disponibles uniquement lors de l’accès suivant (et non l’accès actuel).
 
-En outre, nous classifions automatiquement les ID des segments AAM suivant leurs noms conviviaux pour vous éviter d’avoir à rechercher des ID alphanumériques dans les rapports Analytics.
+En outre, nous classons automatiquement les ID de segment AAM dans leurs noms conviviaux, de sorte que vous n’ayez pas à consulter les ID alphanumériques dans les rapports Analytics.
 
 ## Conditions préalables {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
