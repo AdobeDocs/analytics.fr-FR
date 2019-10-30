@@ -8,7 +8,7 @@ title: Déploiement de l’intégration
 topic: Connecteurs de données
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,17 +32,17 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
    | ID d’organisation Qualtrics | [Recherche de votre ID d’organisation Qualtrics](../qualtrics-overview/qualtrics-org-id.md) |
    | Jeton Adobe SiteCatalyst | [Génération de votre jeton Qualtrics Adobe Analytics](../qualtrics-overview/qualtrics-token.md) |
 
-1. **Assistant Étape 2 - Correspondances** de variables| Liste des réponses Qualtrics| Sélectionnez une variable de liste disponible dans votre suite de rapports. (Vous devrez peut-être activer une nouvelle variable listVar dans le Gestionnaire de Report Suites.)  ||—|—|| ID de réponse Qualtrics| Sélectionnez une eVar ou une prop disponible dans votre suite de rapports. (Vous devrez peut-être activer une nouvelle variable listVar dans le Gestionnaire de Report Suites.)  || Serveur de suivi|Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Use the  tracking server if it differs from your standard tracking server setting.  `trackingServerSecure`  || Envois d'enquête Qualtrics| Sélectionnez un événement disponible dans votre suite de rapports (vous devrez peut-être activer un nouvel événement dans le Gestionnaire de Report Suites).  |
+1. **Assistant Étape 2 - Correspondances** de variables| Liste des réponses Qualtrics| Sélectionnez une variable de liste disponible dans votre suite de rapports. (Vous devrez peut-être activer une nouvelle variable listVar dans le Gestionnaire de Report Suites.)  ||—|—|| ID de réponse Qualtrics| Sélectionnez une eVar ou une prop disponible dans votre suite de rapports. (Vous devrez peut-être activer une nouvelle variable listVar dans le Gestionnaire de Report Suites.)  || Serveur de suivi|Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Utilisez le serveur de `trackingServerSecure` suivi s’il diffère du paramètre de serveur de suivi standard.  || Envois d'enquête Qualtrics| Sélectionnez un événement disponible dans votre suite de rapports (vous devrez peut-être activer un nouvel événement dans le Gestionnaire de Report Suites).  |
 
 1. **Assistant Étape 3**: Rien n'est requis, information seulement.
 
-   Step Result 1. **Wizard Step 4 - Export Settings**
+   Résultat de l’étape 1. **Assistant Étape 4 - Paramètres d’exportation**
 
-   | eVar | Select up to five of your eVars to expose for exporting to Qualtrics |
+   | eVar | Sélectionnez jusqu’à cinq de vos eVars à exposer pour l’exportation vers Qualtrics. |
    |---|---|
-   | Événements | Select up to five of your custom events to expose for exporting to Qualtrics |
-   | Propriétés | Select up to five of your Props to expose for exporting to Qualtrics |
-   | Access Requests | Cochez la case correspondant aux mesures et dimensions standard que vous souhaitez exporter vers Qualtrics. L’exportation `visitor_id` est requise pour fonctionner correctement. |
+   | Événements | Sélectionnez jusqu’à cinq de vos événements personnalisés à exposer pour l’exportation vers Qualtrics. |
+   | Propriétés | Sélectionnez jusqu’à cinq de vos props à exposer pour l’exportation vers Qualtrics. |
+   |  Demandes d’accès | Cochez la case correspondant aux mesures et dimensions standard que vous souhaitez exporter vers Qualtrics. L’exportation `visitor_id` est requise pour fonctionner correctement. |
 
 1. **Assistant Étape 5**: Vérifiez la configuration, puis cliquez sur **[!UICONTROL Activer maintenant]**.
 
