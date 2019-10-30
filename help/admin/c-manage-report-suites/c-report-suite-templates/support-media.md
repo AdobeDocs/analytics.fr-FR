@@ -5,9 +5,9 @@ seo-title: Média d’assistance
 solution: Analytics
 title: Média d’assistance
 topic: Outils d’administration
-uuid: 6072 f 14 c-a 67 d -470 c-b 977-c 18 e 26 e 901 db
+uuid: 6072f14c-a67d-470c-b977-c18e26e901db
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,7 +39,7 @@ Le tableau suivant contient une liste d’événements commerciaux standard. La 
 | Paniers | Compteur | `scOpen` |
 | Consultations du panier | Compteur | `scView` |
 | Instances | Compteur | N/D |
-| Passage en caisse | Compteur | `scCheckout` |
+| Achats | Compteur | `scCheckout` |
 | Ajouts au panier | Compteur | `scAdd` |
 | Retraits du panier | Compteur | `scRemove` |
 | Visites | Compteur (sans sous-relations) | N/D |
