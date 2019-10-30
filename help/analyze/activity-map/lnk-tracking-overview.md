@@ -7,7 +7,7 @@ title: Suivi des liens robuste
 topic: Activity Map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,17 +23,11 @@ For more on link tracking in [!DNL Activity Map], go [here](/help/analyze/activi
 
 ## Comment le suivi des [!DNL Activity Map] liens peut-il collecter des données d’identification personnelle ? {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION]
->
->By turning on [!DNL Activity Map] tracking, you may be collecting personally identifiable information (PII) data. Ces données peuvent être utilisées indépendamment ou conjointement à d’autres informations afin d’identifier, de contacter ou de localiser une personne, ou encore d’identifier une personne en contexte.
->
->Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
->
->* `Mailto` liens. Un lien mailto est un type de lien HTML qui active le client de messagerie par défaut sur l’ordinateur afin d’envoyer un message électronique.
->* `User ID` liens pouvant s’afficher dans l’en-tête/le pied de page d’un site Web une fois que l’utilisateur s’est connecté.
->* Dans le cas des établissements financiers, le numéro de compte peut s’afficher sous la forme d’un lien. Le fait de cliquer dessus collecte le texte du lien.
->* Les sites web du secteur des soins de santé peuvent également afficher des données relatives aux informations d’identification personnelles sous la forme de liens. Le fait de cliquer sur ces liens collecte le texte du lien, et donc les données relatives aux informations d’identification personnelles.
->
+> [!CAUTION] En activant le [!DNL Activity Map] suivi, vous collectez peut-être des données d’identification personnelle. Ces données peuvent être utilisées indépendamment ou conjointement à d’autres informations afin d’identifier, de contacter ou de localiser une personne, ou encore d’identifier une personne en contexte.
 
+Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
 
-
+* `Mailto` liens. Un lien mailto est un type de lien HTML qui active le client de messagerie par défaut sur l’ordinateur afin d’envoyer un message électronique.
+* `User ID` liens pouvant s’afficher dans l’en-tête/le pied de page d’un site Web une fois que l’utilisateur s’est connecté.
+* Dans le cas des établissements financiers, le numéro de compte peut s’afficher sous la forme d’un lien. Le fait de cliquer dessus collecte le texte du lien.
+* Les sites web du secteur des soins de santé peuvent également afficher des données relatives aux informations d’identification personnelles sous la forme de liens. Le fait de cliquer sur ces liens collecte le texte du lien, et donc les données relatives aux informations d’identification personnelles.
