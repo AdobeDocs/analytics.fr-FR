@@ -5,7 +5,7 @@ seo-title: Création de mesures
 title: Création de mesures
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -112,7 +112,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste des dimensions </p> </td> 
-   <td colname="col3"> <p>Plutôt que de quitter le créateur de mesures calculées pour créer un segment simple (dans le créateur de segments), par exemple « Page = Page d’accueil », vous pouvez faire glisser Page et sélectionner Page d’accueil directement dans le créateur de mesures calculées. </p> <p>Le processus de création de mesures calculées segmentées est ainsi beaucoup plus rationnel. </p> </td> 
+   <td colname="col3"> <p>Plutôt que de quitter le créateur de mesures calculées pour créer un segment simple (dans le créateur de segments), par exemple "Page = Page d'accueil", vous pouvez faire glisser la page et sélectionner Page d'accueil directement dans le créateur de mesures calculées. </p> <p>Le processus de création de mesures calculées segmentées est ainsi beaucoup plus rationnel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste des mesures </p> </td> 
