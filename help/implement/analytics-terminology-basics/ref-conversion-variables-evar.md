@@ -7,8 +7,8 @@ solution: Analytics
 title: Variables de conversion (eVars)
 topic: Développeur et mise en œuvre
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,22 +25,20 @@ Les eVars sont parfaitement adaptées à la mesure des causes et des effets, com
 
 >[!IMPORTANT]
 >
->Lors de la mise en œuvre d’Analytics, il est important de savoir quelles eVars vous utiliserez et combien d’entre elles. Vous devriez également être capable de configurer ces eVars dans Admin Console. Pour plus d’informations sur les eVars, reportez-vous à la section [Variables de conversion (eVar)](https://marketing.adobe.com/resources/help/fr_FR/reference/conversion_var_admin.html) dans la documentation d’aide et de référence d’Analytics.
+>Lors de la mise en œuvre d’Analytics, il est important de savoir quelles eVars vous utiliserez et combien d’entre elles. Vous devriez également être capable de configurer ces eVars dans Admin Console. Pour des informations détaillées sur les eVars, voir [Variables de conversion (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) dans la documentation de référence et l’aide d’Analytics.
 
 Une eVar peut être basée sur les visites et fonctionner comme un cookie. Les valeurs transmises dans des variables eVar suivent l’utilisateur pendant une période prédéfinie.
 
 Lorsqu’une eVar est définie sur une valeur pour un visiteur, Adobe la mémorise automatiquement jusqu’à ce qu’elle arrive à expiration. Tout événement de succès auquel est associé un visiteur alors que la valeur eVar est active est comptabilisé dans cette dernière.
 
->[!NOTE]
->
->Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](/help/implement/js-implementation/c-variables/page-variables.md).
+> [!NOTE] Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](/help/implement/js-implementation/c-variables/page-variables.md).
 
 Pour plus d’informations sur les variables, voir :
 
 * [Variables pour la mise en œuvre et le compte rendu des performances Analytics](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB) dans cette aide
-* [Variables - Utilisation dans les rapports](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
+* [Variables - Utilisation dans le cadre de la création de rapports](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
 * [Variables de page](/help/implement/js-implementation/c-variables/page-variables.md)
 * [Variable de campagne](/help/implement/js-implementation/c-variables/page-variables.md)
 * [Variable products](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Variable products](https://marketing.adobe.com/resources/help/fr_FR/mobile/android/products.html) dans la documentation de SDK Mobile
+* [Variable de produits](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) dans la documentation du SDK Mobile
 
