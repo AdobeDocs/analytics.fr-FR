@@ -8,7 +8,7 @@ title: Bonnes pratiques et dépannage de la création de rapports
 topic: Rapports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Adobe Analytics offre une interface de création de rapports souple qui permet de générer un large éventail de rapports complexes. Bien que la plupart des rapports soient générés très rapidement, vous pouvez rencontrer des rapports en dépassement de délai ou dont la génération a échoué. Pour permettre d’éviter les échecs de génération de rapport, cette rubrique présente de nombreux facteurs qui affectent la vitesse de génération des rapports. La connaissance de ces informations peut vous permettre de structurer les rapports de manière à ce qu’ils soient moins plus susceptibles d’échouer.
 
->[!Note]
->These recommendations apply to Reports &amp; Analytics, Ad Hoc Analysis, and Report Builder.
->They do not apply to Analysis Workspace, which has its own set of [best practices](/help/analyze/analysis-workspace/optimizing-performance.md). They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). Un autre ensemble de
+>[!Nnote]
+>Ces recommandations s’appliquent aux rapports et analyses, aux analyses ad hoc et au créateur de rapports.
+>Elles ne s’appliquent pas à Analysis Workspace, qui possède son propre ensemble de pratiques [](/help/analyze/analysis-workspace/optimizing-performance.md)recommandées. They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). Un autre ensemble de
 >[bonnes pratiques](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) sont disponibles pour l’API de création de rapports d’Adobe Analytics.
 
 ## Délais d’expiration des rapports et file d’attente des demandes {#section_A42AD7E487C749B7B879BAFA814FFEF9}
