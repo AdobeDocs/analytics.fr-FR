@@ -1,19 +1,19 @@
 ---
 description: Avant de pouvoir afficher les canaux et leurs données dans le rapport, créez les canaux et les règles sous-jacentes qui traitent les données. Vous pouvez également créer des montants de coûts et de budget pour les canaux associés, et spécifier la durée souhaitée d’engagement du visiteur. Les tâches de configuration du rapport sont effectuées dans les Outils d’administration.
 seo-description: Avant de pouvoir afficher les canaux et leurs données dans le rapport, créez les canaux et les règles sous-jacentes qui traitent les données. Vous pouvez également créer des montants de coûts et de budget pour les canaux associés, et spécifier la durée souhaitée d’engagement du visiteur. Les tâches de configuration du rapport sont effectuées dans les Outils d’administration.
-seo-title: A propos des canaux et des règles
+seo-title: À propos des canaux et des règles
 solution: Analytics
 subtopic: Canaux marketing
-title: A propos des canaux et des règles
-topic: Reports and Analytics
-uuid: 7 d 574790-4 d 0 d -419 d -8 fb 5-c 16 ec 5 a 4 a 387
+title: À propos des canaux et des règles
+topic: Reports & Analytics
+uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# A propos des canaux et des règles
+# À propos des canaux et des règles
 
 Avant de pouvoir afficher les canaux et leurs données dans le rapport, créez les canaux et les règles sous-jacentes qui traitent les données. Vous pouvez également créer des montants de coûts et de budget pour les canaux associés, et spécifier la durée souhaitée d’engagement du visiteur. Les tâches de configuration du rapport sont effectuées dans les Outils d’administration.
 
@@ -23,16 +23,14 @@ Vous devez concevoir un canal comme un conteneur pour les visites. Les règles a
 
 Adobe fournit plusieurs canaux prédéfinis au cours d’une [configuration automatique](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B), que vous pouvez modifier en fonction de vos besoins.
 
->[!NOTE]
->
->Adobe conseille de configurer votre rapport dans une suite de rapports que vous pouvez utiliser comme modèle à des fins de test. Le modèle sera ensuite utilisé pour appliquer les ensembles de canaux et de règles globalement à une ou plusieurs suites de rapports de production.
+> [!NOTE] Adobe recommande de configurer votre rapport dans une suite de rapports que vous pouvez utiliser comme modèle à des fins de test. Le modèle sera ensuite utilisé pour appliquer les ensembles de canaux et de règles globalement à une ou plusieurs suites de rapports de production.
 >
 >Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
 
 Consultez les sections suivantes :
 
 * [Conditions préalables](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [Remarques importantes concernant le traitement](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [Remarques importantes sur le traitement](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
 
 ## Conditions préalables {#section_9913D2932E3140C099B7978CA95378B2}
 
