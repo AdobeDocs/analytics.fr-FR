@@ -5,7 +5,7 @@ seo-title: Rapports sur les périphériques mobiles
 title: Rapports sur les périphériques mobiles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Affiche des informations sur l’accès aux sites Web depuis un périphérique m
 
 Afin d’améliorer l’identification des visiteurs de périphériques mobiles, vous devez figurer sur la liste de l’opérateur (liste blanche) pour envoyer des ID d’abonné à un domaine (You can view the carrier in the **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** report.)
 
->[!NOTE]
->
->Pour afficher des rapports sur un périphérique mobile, connectez-vous à [Experience Cloud](https://login.experiencecloud.adobe.com).
+> [!NOTE] Pour afficher des rapports sur un périphérique mobile, connectez-vous à [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
@@ -69,11 +67,11 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapport Profondeur de couleur </p> </td> 
-   <td colname="col2"> <p>Groupe les accès des appareils mobiles en fonction du nombre de couleurs prises en charge. Le rapport indique le nombre total de visiteurs sur votre site qui utilisent un appareil mobile et les répartit par groupes en fonction du nombre de couleurs configurées sur leur dispositif. Si, par exemple, le téléphone portable du visiteur prend en charge 24 couleurs, les Reports and Analytics marketing incrémentent d’une unité l’élément de ligne correspondant à 24 couleurs. </p> </td> 
+   <td colname="col2"> <p>Groupe les accès des appareils mobiles en fonction du nombre de couleurs prises en charge. Le rapport indique le nombre total de visiteurs sur votre site qui utilisent un appareil mobile et les répartit par groupes en fonction du nombre de couleurs configurées sur leur dispositif. Par exemple, si le téléphone mobile du visiteur prend en charge 24 couleurs, les rapports et analyses marketing incrémentent l’élément de ligne correspondant à 24 couleurs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapport Prise en charge de l’audio </p> </td> 
-   <td colname="col2"> <p>Groupe les périphériques mobiles en fonction des types de formats audio qui sont pris en charge. Si, par exemple, le téléphone d’un visiteur prend en charge le format <span class="filepath">.mp3</span>, le rapport <span class="wintitle">Prise en charge de l’audio</span> est incrémenté d’au moins une unité. Si le téléphone prend en charge plusieurs formats audio, un accès à un site peut déclencher plusieurs incréments pour chaque format pris en charge. En d’autres termes, si le téléphone prend en charge les formats <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> et <span class="filepath">.amr</span>, chacun de ces groupes du rapport est incrémenté d’une unité. La somme des groupes peut donc être supérieure au total affiché au bas du rapport. </p> </td> 
+   <td colname="col2"> <p>Groupe les périphériques mobiles en fonction des types de formats audio qui sont pris en charge. For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. Si le téléphone prend en charge plusieurs formats audio, un accès à un site peut déclencher plusieurs incréments pour chaque format pris en charge. En d’autres termes, si le téléphone prend en charge les formats <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> et <span class="filepath">.amr</span>, chacun de ces groupes du rapport est incrémenté d’une unité. La somme des groupes peut donc être supérieure au total affiché au bas du rapport. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapports Prise en charge de la vidéo </p> </td> 
