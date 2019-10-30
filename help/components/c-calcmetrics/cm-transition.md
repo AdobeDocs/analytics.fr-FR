@@ -3,9 +3,9 @@ description: Les modifications suivantes apportées à la manière dont les mesu
 seo-description: Les modifications suivantes apportées à la manière dont les mesures calculées fonctionnent dans Analytics peuvent avoir un impact sur vous.
 seo-title: Questions fréquentes
 title: Questions fréquentes
-uuid: 9 b 7 f 1 cd 1-b 969-4 b 15-8 af 1-969 d 816 b 65 b 8
+uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,11 +38,11 @@ These changes to the way calculated metrics work in [!DNL Analytics] may impact 
 
 [Qu’advient-il des mesures calculées d’un utilisateur si cet utilisateur a été supprimé ?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[Pourquoi vois-je des mesures calculées « inconnues » qui ne sont pas valides pour d’autres suites de rapport même si elles peuvent être créées et appliquées à ces suites de rapports ?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[Pourquoi vois-je des mesures calculées "inconnues" qui ne sont pas "valides" pour d’autres suites de rapports, même si elles peuvent être créées et appliquées à ces suites de rapports ?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
 [Pourquoi des modifications que j’ai apportées à mes mesures calculées héritées n’ont-t-elles pas été enregistrées ?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[Pourquoi mes mesures calculées ne s’affichent-elles pas dans le rapport Canaux marketing ?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[Pourquoi mes mesures calculées ne s’affichent-elles pas dans le rapport Canaux marketing ?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [Pourquoi certaines des mesures calculées affichent-elles des formules sans les parenthèses que j’ai ajoutées ?](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
@@ -77,9 +77,9 @@ You would see a number of calculated metrics with the same name (but created in 
 
 Envisagez la consolidation des mesures calculées avec des noms et définitions similaires mais soyez prudent lors de cette opération. Vous pouvez vérifier la suite de rapports pour une mesure calculée dans le Gestionnaire de mesures calculées afin de vérifier sa suite de rapports d’origine. Vous devez également vérifier les définitions des mesures lors de la suppression des doublons potentiels pour garantir que vous consolidez correctement les mesures.
 
-> [!NOTE] Bien que les mesures calculées ne soient plus liées à une suite de rapports spécifique et puissent être utilisées dans toute suite de rapports visible pour la société de connexion, la suite de rapports sous laquelle la mesure calculée a été créée ou enregistrée en dernier est toujours visible dans le Gestionnaire de mesures calculées.
+> [!NOTE] Bien que les mesures calculées ne soient plus liées à une suite de rapports spécifique et puissent être utilisées dans toute suite de rapports visible par la société de connexion, la suite de rapports sous laquelle la mesure calculée a été créée ou enregistrée pour la dernière fois est toujours visible dans le Gestionnaire de mesures calculées.
 
-> [!NOTE] Même si une mesure calculée est supprimée, tous les rapports de signets ou de tableaux de bord qui font référence à cette mesure fonctionneront toujours.
+> [!NOTE] Même si une mesure calculée est supprimée, les signets ou les rapports de tableau de bord qui font référence à cette mesure continueront à fonctionner.
 
 ## Qu’est-il advenu de mes mesures calculées globales ?{#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -91,7 +91,7 @@ Les mesures calculées globales sont désormais possédées par le premier utili
 
 Rien. Néanmoins, le nouveau propriétaire administrateur doit être prudent lors de la modification ou de la suppression de ces mesures calculées : elles peuvent être utilisées dans plusieurs rapports ou tableaux de bord marqués.
 
-> [!NOTE] Même si une mesure calculée est supprimée, tous les rapports de signets ou de tableaux de bord qui font référence à cette mesure fonctionneront toujours.
+> [!NOTE] Même si une mesure calculée est supprimée, les signets ou les rapports de tableau de bord qui font référence à cette mesure continueront à fonctionner.
 
 ## Qu’est-il advenu des mesures calculées globales qui étaient partagées au sein des sociétés de connexion ?{#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -99,13 +99,11 @@ Rien. Néanmoins, le nouveau propriétaire administrateur doit être prudent lor
 
 Les mesures calculées globales ne peuvent plus être partagées au sein des sociétés de connexion. Elles ne sont plus liées ou associées à une suite de rapports spécifique mais, à la place, liées à une société de connexion spécifique. Les mesures calculées qui étaient partagées au sein des sociétés de connexion
 
-* Ont été migrés vers toutes les sociétés de connexion avec accès à cette suite de rapports.
-* Valeur par défaut « partagée avec tout le monde ».
+* Ont été migrées vers toutes les sociétés de connexion ayant accès à cette suite de rapports.
+* Valeur par défaut : "Partagé avec tout le monde".
 * Seront des copies indépendantes de toutes les autres sociétés de connexion.
 
->[!NOTE]
->
->Si la mesure calculée a été utilisée dans un signet, un tableau de bord, une alerte ou un rapport planifié, la modification de la nouvelle copie n'affecte PAS l'ancienne mesure calculée conservée.
+> [!NOTE] Si la mesure calculée a été utilisée dans un signet, un tableau de bord, une alerte ou un rapport planifié, la modification de la nouvelle copie N’affecte PAS l’ancienne mesure calculée conservée.
 
 ## Qu’est-il advenu des mesures calculées avec une classification numérique ou numérique2 ?{#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
@@ -137,7 +135,7 @@ Vous utilisez une mesure Visiteur unique de base sur un rapport avec un segment.
 
 Antérieurement, l’enregistrement d’une mesure calculée avec la méthode API (1.3 ou 1.4) ReportSuite.SaveCalculatedMetrics était identique à la création ou la mise à jour d’une mesure calculée dans la Admin Console. Idem pour ReportSuite.DeleteCalculatedMetrics. Egalement, la liste des mesures calculées affichée dans la Admin Console ou lors de l’appel de ReportSuite.GetCalculatedMetrics était la même.
 
-Désormais, les méthodes API reportsuite calculatedmetrics (1.3 ou 1.4) continueront à enregistrer, supprimer et récupérer les mesures calculées à l'aide de l'ancienne boutique. Les mesures calculées existantes seront migrées et seront visibles dans le nouveau créateur de mesures calculées. **Les nouvelles mesures calculées créées avec les méthodes API seront visibles uniquement dans l’API. Elles seront toujours utilisables dans l’API de création de rapports.**
+Désormais, les méthodes API ReportSuite CalculatedMetrics (1.3 ou 1.4) continueront à enregistrer, supprimer et récupérer les mesures calculées à l’aide de l’ancienne boutique. Les mesures calculées existantes seront migrées et seront visibles dans le nouveau créateur de mesures calculées. **Les nouvelles mesures calculées créées avec les méthodes API seront visibles uniquement dans l’API. Elles seront toujours utilisables dans l’API de création de rapports.**
 
 **Ce que vous devez faire**
 
@@ -155,9 +153,9 @@ Les données actives ne prennent pas en charge les mesures calculées qui compor
 
 Toutes les mesures calculées que cet utilisateur a créées sont également supprimées. Néanmoins, les mesures calculées supprimées continueront à fonctionner dans le cadre des signets, tableaux de bord ou rapports planifiées enregistrés.
 
-## Pourquoi vois-je des mesures calculées « inconnues » qui ne sont pas valides pour d’autres suites de rapport même si elles peuvent être créées et appliquées à ces suites de rapports ?{#section_6772818EFDED46E9B7095D64C3B77211}
+## Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites? {#section_6772818EFDED46E9B7095D64C3B77211}
 
-L’interface utilisateur affiche « inconnu » si la mesure calculée contient des mesures ou des dimensions de base qui n’existent pas pour la suite de rapports sélectionnée.
+L’interface utilisateur affiche "inconnu" si la mesure calculée contient des mesures de base ou des dimensions qui n’existent pas pour la suite de rapports sélectionnée.
 
 ## Pourquoi des modifications que j’ai apportées à mes mesures calculées héritées n’ont-t-elles pas été enregistrées ?{#section_81CDEFCA1FD542579AF183DA1494EAF0}
 
@@ -167,15 +165,15 @@ Cela peut être dû à la date de la migration de la nouvelle base de données d
 
 Vous devez apporter à nouveau les modifications que vous avez apportées à vos mesures héritées.
 
-## Pourquoi mes mesures calculées ne s’affichent-elles pas dans le rapport Canaux marketing ?{#section_FC350359A775433AB5F43C7CAB304D62}
+## Why don't my calculated metrics show up in the Marketing Channels report? {#section_FC350359A775433AB5F43C7CAB304D62}
 
 (Antérieurement, toutes les mesures calculées étaient répertoriées dans le sélecteur de mesures des rapports Canaux marketing avec des options de première touche et de dernière touche.)
 
-Désormais, seules les mesures calculées dont le type d’allocation est spécifiquement défini sur Première touche ou Dernière touche dans le créateur de mesures calculées sont disponibles dans le sélecteur de mesures des rapports Canaux marketing. Notez que toute mesure calculée déjà appliquée aux rapports Canal marketing continuera d’être appliquée et fonctionnera comme auparavant. Pour créer une mesure calculée pour les canaux marketing, cliquez sur l’icône de configuration dans le créateur de mesures et sélectionnez Première touche ou Dernière touche comme type d’allocation. Gardez à l’esprit qu’une telle opération rend la mesure calculée compatible uniquement avec les rapports Canal marketing et elle ne pourra pas être utilisée pour d’autres rapports.
+Désormais, seules les mesures calculées dont le type d’allocation est spécifiquement défini sur Première touche ou Dernière touche dans le créateur de mesures calculées sont disponibles dans le sélecteur de mesures des rapports Canaux marketing. Notez que toute mesure calculée déjà appliquée aux rapports Canal marketing continuera d’être appliquée et fonctionnera comme auparavant. Pour créer une mesure calculée pour les canaux marketing, cliquez sur l’icône de configuration dans le créateur de mesures et sélectionnez Première touche ou Dernière touche comme type d’allocation. N’oubliez pas que cette opération rend la mesure calculée compatible uniquement avec les rapports Canal marketing et qu’elle ne sera pas utilisable dans les autres rapports.
 
 ## Pourquoi certaines des mesures calculées affichent-elles des formules sans les parenthèses que j’ai ajoutées ?{#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
-Au cours de la migration, Adobe a éliminé les parenthèses superflues de certaines formules. Seules les parenthèses qui n’affectent pas la manière dont la mesure est calculée ont été supprimées. Cela ne modifie pas les données - cela simplifie juste la formule.
+Au cours de la migration, Adobe a éliminé les parenthèses superflues de certaines formules. Seules les parenthèses qui n’affectent pas la manière dont la mesure est calculée ont été supprimées. Cela ne changera pas les données - cela simplifie simplement la formule.
 
 ## (Ad Hoc Analysis only) Are Calculated Metrics with embedded or inline segment definitions still supported? {#section_B25C924A282F49388AB604E3D826F44C}
 
@@ -187,7 +185,7 @@ Vous devez enregistrer explicitement le segment. Les mesures calculées existant
 
 ## (Report Builder uniquement) Pourquoi les mesures calculées ont-elles disparu de mes demandes ?{#section_DA4792FE5D7945218CD5E6328DE08E82}
 
-Si la requête a été créée dans la version 5.2 et qu'elle contient des mesures calculées, ces mesures ne sont pas visibles dans la version 5.1 (ou versions antérieures). car les mesures calculées utilisent désormais des identifiants globaux (identifiants non spécifiques à une suite de rapports).
+Si la requête a été créée dans la version 5.2 et qu’elle contient des mesures calculées, ces mesures ne sont pas visibles dans la version 5.1 (ou les versions antérieures). car les mesures calculées utilisent désormais des identifiants globaux (identifiants non spécifiques à une suite de rapports).
 
 **Ce que vous devez faire**
 
