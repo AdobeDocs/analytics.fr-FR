@@ -1,23 +1,23 @@
 ---
 description: Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichage des en-têtes de lignes et de colonnes. Le lien Options de format est disponible pour les types Disposition personnalisée et Disposition croisée dynamique.
 seo-description: Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichage des en-têtes de lignes et de colonnes. Le lien Options de format est disponible pour les types Disposition personnalisée et Disposition croisée dynamique.
-seo-title: Mise en forme des en-têtes d'affichage
+seo-title: Mise en forme des en-têtes d’affichage
 solution: Analytics
-title: Mise en forme des en-têtes d'affichage
+title: Mise en forme des en-têtes d’affichage
 topic: Créateur de rapports
-uuid: cd 0 e 167 b -9463-43 fd -87 b 2-724 d 1 c 79 de 68
+uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Mise en forme des en-têtes d'affichage
+# Mise en forme des en-têtes d’affichage
 
 Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichage des en-têtes de lignes et de colonnes. Le lien Options de format est disponible pour les types Disposition personnalisée et Disposition croisée dynamique.
 
 1. Créez une requête dans la fenêtre [!UICONTROL Assistant Requête : Étape 1].
-1. Click **[!UICONTROL Next]**.
+1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Sur le formulaire [!UICONTROL Assistant Requête : Étape 2], ajoutez des dimensions et des données de mesure à la requête, suivant vos besoins.
 1. Click **[!UICONTROL Format Options]**.
 1. Configurez les options d’[!UICONTROL affichage] : 
@@ -27,7 +27,7 @@ Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichag
    | Nom de rapport | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | Paramètres des filtres | Affiche les filtres des dimensions (un filtre de recherche, par exemple). |
    | Segment | Affiche le paramètre de segment. |
-   | récence des données | Affiche les paramètres de récence des données. Par exemple :    Data Recency: Page Views (1.5 hr ago), Exits (30 mins ago)  See [Options](../../../analyze/report-builder/options.md) for information about current data processing. |
+   | récence des données | Affiche les paramètres de récence des données. Par exemple :    Récence des données : Pages vues (il y a 1,5 heure), Sorties (il y a 30 minutes) Voir [Options](../../../analyze/report-builder/options.md) pour plus d’informations sur le traitement des données actives. |
 
    En ce qui concerne l’ordre d’affichage, si la grille [!UICONTROL Libellé de ligne] (Étape 2) contient un élément, il s’affiche en premier dans la requête. Dans le cas contraire, le système utilise le premier élément présent dans la grille [!UICONTROL Libellé de colonne]. S’il n’existe aucun élément de ligne ou de colonne, le premier élément de la grille [!UICONTROL Valeurs de mesure] est affiché.
 
@@ -39,7 +39,7 @@ Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichag
 
    >[!NOTE]
    >
-   >Excel ne prend en charge qu'un filtre automatique par feuille de calcul. Si vous créez un filtre automatique dans une feuille de calcul qui en comporte déjà un, Excel ne vous avertit pas que le filtre existant va être remplacé.
+   >Excel ne prend en charge qu'un seul filtre automatique par feuille de calcul. Si vous créez un filtre automatique dans une feuille de calcul qui en comporte déjà un, Excel ne vous avertit pas que le filtre existant va être remplacé.
 
    **Effectuer un synopsis automatique** : transforme la date renvoyée par le Créateur de rapports du mode Liste en mode Arborescence.
 
