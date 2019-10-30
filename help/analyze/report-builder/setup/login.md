@@ -1,18 +1,18 @@
 ---
 description: Informations sur les trois façons de se connecter au Créateur de rapports.
 seo-description: Informations sur les trois façons de se connecter au Créateur de rapports.
-seo-title: Ouverture de session dans le Créateur de rapports
+seo-title: Ouverture de session dans Report Builder
 solution: Analytics
-title: Ouverture de session dans le Créateur de rapports
+title: Ouverture de session dans Report Builder
 topic: Créateur de rapports
-uuid: 9 a 21 b 791-e 323-46 d 2-b 850-2 d 67 babe 964 b
+uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ouverture de session dans le Créateur de rapports
+# Ouverture de session dans Report Builder
 
 Informations sur les trois façons de se connecter au Créateur de rapports.
 
@@ -28,7 +28,7 @@ Actuellement, les options de connexion suivantes sont disponibles lorsque vous c
 
 Utilisez cette méthode de connexion pour accéder au Créateur de rapports à l’aide de vos informations d’identification d’Adobe Analytics.
 
-**connexion au créateur de rapports - définitions des champs**
+**Connexion au créateur de rapports - définitions de champ**
 
 | Champ | Définition |
 |--- |--- |
@@ -50,7 +50,5 @@ La connexion Experience Cloud vous permet d’utiliser votre Enterprise ID (ad
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]
->
->La connexion d'Experience Cloud est basée sur une session et le jeton expire après 30 jours.
+> [!NOTE] La connexion à Experience Cloud est basée sur la session et le jeton expire après 30 jours.
 
