@@ -1,18 +1,18 @@
 ---
 description: Vous pouvez créer un calendrier de distribution afin d’envoyer automatiquement les rapports à une adresse électronique ou vers un serveur FTP.
-keywords: ftp ; sftp
+keywords: ftp;sftp
 seo-description: Vous pouvez créer un calendrier de distribution afin d’envoyer automatiquement les rapports à une adresse électronique ou vers un serveur FTP.
-seo-title: Publicité - Rapports distribués des analyses ad hoc
+seo-title: Rapports distribués sur les Ad Hoc Analysis
 solution: Analytics
-title: Publicité - Rapports distribués des analyses ad hoc
-uuid: 9 a 26 fb 77-9 cec -40 a 3-b 994-226692637902
+title: Rapports distribués sur les Ad Hoc Analysis
+uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Publicité - Rapports distribués des analyses ad hoc
+# Rapports distribués sur les Ad Hoc Analysis
 
 Vous pouvez créer un calendrier de distribution afin d’envoyer automatiquement les rapports à une adresse électronique ou vers un serveur FTP.
 
