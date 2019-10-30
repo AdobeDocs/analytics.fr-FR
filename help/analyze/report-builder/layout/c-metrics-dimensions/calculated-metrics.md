@@ -3,9 +3,9 @@ description: La version 5.2 du Créateur de rapports prend en charge les mesure
 seo-description: La version 5.2 du Créateur de rapports prend en charge les mesures calculées unifiées d’Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 seo-title: Mesures calculées
 title: Mesures calculées
-uuid: c 9814894-cda 6-40 ff -8 ec 4-3 ab 2 c 1908 ebc
+uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La version 5.2 du Créateur de rapports prend en charge les mesures calculées unifiées d’Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 
->[!NOTE]
->
->Les classeurs existants peuvent pointer vers des demandes avec des identifiants de mesure hérités. Lorsque vous utilisez la version 5.2 du Créateur de rapports, ces identifiants de mesure hérités sont convertis en nouvel identifiant global. Si vous partagez ce classeur avec un utilisateur de la version 5.1 ou antérieure du Créateur de rapports, il ne verra pas les mesures calculées.
+> [!NOTE] Les classeurs existants peuvent pointer vers des requêtes avec des ID de mesure hérités. Lorsque vous utilisez la version 5.2 du Créateur de rapports, ces identifiants de mesure hérités sont convertis en nouvel identifiant global. Si vous partagez ce classeur avec un utilisateur de la version 5.1 ou antérieure du Créateur de rapports, il ne verra pas les mesures calculées.
 
 Pour en savoir plus sur la manière de créer et de gérer des mesures calculées à l’aide du nouveau créateur et gestionnaire de mesures calculées, reportez-vous au guide des [mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics).
 
@@ -24,7 +22,7 @@ Pour en savoir plus sur la manière de créer et de gérer des mesures calculée
 
 ## Filtrage des mesures calculées {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtrez** les mesures calculées en cliquant sur l'icône Filtrer : ![](assets/segment_filter.png)
+**Filtrez** les mesures calculées en cliquant sur l’icône Filtrer :  ![](assets/segment_filter.png)
 
 . La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
 
