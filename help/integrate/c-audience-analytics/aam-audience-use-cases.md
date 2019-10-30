@@ -1,20 +1,20 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Cas d'utilisation d'Analytics
-title: Cas d'utilisation d'Analytics
-uuid: 51 c 0576 c-ce 8 a -4 a 87-9 c 8 f-be 193 e 50279 d
+seo-title: Cas d’utilisation d’Audience Analytics
+title: Cas d’utilisation d’Audience Analytics
+uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Cas d'utilisation d'Analytics
+# Cas d’utilisation d’Audience Analytics
 
 ## Vente d’annonces publicitaires et décisions relatives au contenu {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-En tant qu’éditeur multimédia, vous pouvez fournir des mesures de la taille, mais également de l’efficacité des audiences à votre équipe de vente d’annonces publicitaires. Vous pouvez également déterminer quel contenu intéresse le plus des segments démographiques spécifiques, tels que « Femmes dans la trentaine qui sont maman pour la première fois ».
+En tant qu’éditeur multimédia, vous pouvez fournir des mesures de la taille, mais également de l’efficacité des audiences à votre équipe de vente d’annonces publicitaires. Vous pouvez également déterminer le contenu qui a le plus de résonance avec des segments démographiques spécifiques, comme "Les femmes de 30 ans qui sont des mères célibataires".
 
 ## Reciblage des opportunités {#section_29C46BA00B3D43CE8A433EA64072D952}
 
