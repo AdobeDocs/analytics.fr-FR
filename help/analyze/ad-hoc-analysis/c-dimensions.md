@@ -40,7 +40,7 @@ Vous pouvez les trier en fonction des catégories suivantes :
 |--- |--- |
 | Trafic | Inclut des éléments du navigateur, des campagnes Target, la zone géographique, des liens personnalisés, des propriétés de trafic personnalisées, des domaines, des téléchargements, des référents, des domaines référents, etc. |
 | Conversion | Inclut des campagnes, des catégories, des eVar personnalisées, des produits, des codes de suivi, etc. |
-| Props | Inclut des propriétés de trafic personnalisées, telles que des pages d’entrée et de sortie. |
+| Propriétés | Inclut des propriétés de trafic personnalisées, telles que des pages d’entrée et de sortie. |
 | eVars | Inclut des eVar, telles que des mesures de succès dans la collection de données. |
 | Hiérarchie | Inclut des variables issues de hiérarchies, lesquelles sont utilisées pour déterminer l’emplacement d’une page de la hiérarchie de votre site. |
 | Traçable | Inclut tout élément pouvant être affiché dans un chemin d’accès, comme par exemple des pages, des liens de téléchargement, des liens de sortie, des mots-clés et des domaines référents. |
