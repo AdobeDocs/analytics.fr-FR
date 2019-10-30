@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Présentation des panneaux
-title: Présentation des panneaux
-uuid: 480700 e 6-332 e -44 f 2-a 486-e 3 d 1852 cddbc
+seo-title: Panneaux - Aperçu
+title: Panneaux - Aperçu
+uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation des panneaux
+# Panneaux - Aperçu
 
 Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace. Les panneaux vous permettent d’organiser vos projets selon les périodes, les unités opérationnelles, la géographie, etc. Les quatre types de panneaux suivants sont disponibles dans Analysis Workspace : Panneau vierge, Attribution, Panneau à structure libre et Comparaison des segments.
 
