@@ -8,7 +8,7 @@ title: Intégration DFA
 topic: Connecteurs de données
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -81,7 +81,7 @@ Les pages de configuration présentent un aperçu de l’intégration, ainsi que
   <tr> 
    <td colname="col1"> 4 </td> 
    <td colname="col2"> Clics </td> 
-   <td colname="col3"> Sélectionnez l’événement personnalisé qui reçoit les données des mesures de clics DFA. Les clics indiquent le nombre de fois où les visiteurs ont cliqué sur la publicité, comme mesuré par la redirection de DFA. La mesure Clics établit la corrélation avec la mesure de clics publicitaires Analytics. <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected.  </a>. </p> </td> 
+   <td colname="col3"> Sélectionnez l’événement personnalisé qui reçoit les données des mesures de clics DFA. Clics indique le nombre de fois où les visiteurs ont cliqué sur la publicité, mesuré par la redirection de DFA. La mesure Clics établit la corrélation avec la mesure de clics publicitaires Analytics. <p>Note:  DFA Clicks and Analytics Click-throughs might not match exactly due to differences in the way data is collected.  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 5 </td> 
@@ -96,7 +96,7 @@ Les pages de configuration présentent un aperçu de l’intégration, ainsi que
   <tr> 
    <td colname="col1"> 5 </td> 
    <td colname="col2"> Affichages publicitaires </td> 
-   <td colname="col3"> Événement personnalisé qui reçoit les données des mesures d’affichages publicitaires DFA. Utilisez l’événement d’affichages publicitaires avec la variable d’affichage publicitaire pour savoir quelles campagnes n’ont pas influencé un affichage publicitaire direct, mais peuvent avoir joué un rôle pour orienter le trafic vers le site à un moment consécutif. <p>La fonctionnalité Connecteurs de données renomme l’événement personnalisé sélectionné en « affichages publicitaires ». </p> </td> 
+   <td colname="col3"> Événement personnalisé qui reçoit les données des mesures d’affichages publicitaires DFA. Utilisez l'événement d'affichage publicitaire avec la variable d'affichage publicitaire pour identifier les campagnes qui n'ont pas influencé un clic publicitaire direct, mais qui ont peut-être joué un rôle dans le trafic vers le site à un moment ultérieur. <p>Les Connecteurs de données renomment l’événement personnalisé sélectionné en "Affichages publicitaires". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 6 </td> 
@@ -125,13 +125,13 @@ Une fois que Genesis a configuré la suite de rapports Analytics pour l’intég
 
 L’intégration des Connecteurs de données pour DFA nécessite que vous définissiez un cookie sur le domaine de la page.
 
-Bien que cela soit rare, certains domaines ont atteint la capacité maximale de cookies pour certains navigateurs Web. Afin d’éviter d’affecter l’expérience de navigation d’un visiteur sur votre site web, consultez votre équipe de développement et d’exploitation du réseau ou votre équipe d’ingénieurs afin de vérifier que l’ajout d’un autre cookie au domaine des pages utilisées pour l’intégration DFA n’affecte pas l’expérience de l’utilisateur. Vous devez également sélectionner un nom pour le cookie.
+Bien que cela soit rare, certains domaines ont atteint la capacité maximale de cookies pour certains navigateurs Web. Pour éviter d’affecter l’expérience de navigation d’un visiteur sur votre site Web, consultez votre équipe d’exploitation réseau, de développement ou d’ingénierie pour vérifier que l’ajout d’un autre cookie au domaine des pages utilisées pour l’intégration DFA n’affecte pas l’expérience utilisateur. Vous devez également sélectionner un nom pour le cookie.
 
 ### Mise à jour du paramètre de chaîne de requête DFA{#update-your-dfa-query-string-parameter}
 
 Si vous effectuiez déjà le suivi des campagnes publicitaires avec Adobe Analytics avant l’intégration de DFA, il est possible que toutes les campagnes (publipostage, recherche ou bannière) utilisent le même paramètre de chaîne de requête pour reconnaître l’identifiant de campagne référent sur la page d’entrée.
 
-Afin de comprendre quand demander des données de clics publicitaires et d’affichages publicitaires auprès des données DFA pour vos campagnes publicitaires DFA, les connecteurs de données doivent détecter quand un visiteur a cliqué sur une bannière publicitaire d’une campagne DFA. Pour ce faire, vous devez ajouter un paramètre de chaîne de requête différencié à l’URL de page d’entrée de la campagne publicitaire DFA afin que les connecteurs de données puissent distinguer les pages de la campagne publicitaire DFA des autres pages de campagne publicitaire qui peuvent apparaître sur votre site Web. Le `dfa_overrideParam` module externe JavaScript utilisé pour DFA.
+Afin de comprendre quand demander des données de clics publicitaires et d’affichages publicitaires auprès des données DFA pour vos campagnes publicitaires DFA, les connecteurs de données doivent détecter quand un visiteur a cliqué sur une bannière publicitaire d’une campagne DFA. Pour ce faire, vous devez ajouter un paramètre de chaîne de requête différencié à l’URL de la page d’entrée de la campagne publicitaire DFA afin que les connecteurs de données puissent faire la distinction entre les pages de campagne publicitaire DFA et les autres pages de campagne publicitaire que vous pouvez avoir sur votre site Web. Le `dfa_overrideParam` module externe JavaScript utilisé pour DFA.
 
 >[!CAUTION]
 >
@@ -141,9 +141,7 @@ Afin de comprendre quand demander des données de clics publicitaires et d’aff
 
 L’intégration Genesis pour DFA met à profit l’identifiant de configuration DFA Floodlight (dfa_SPOTID), qui améliore la cohérence du rapport entre DFA et le système de collecte de données Adobe.
 
->[!NOTE]
->
->Le terme Spotlight a été remplacé par Floodlight dans une version récente de Google DFA. Le paramètre JavaScript `dfa_SPOTID` a été nommé en fonction de la terminologie Spotlight, mais il est utilisé avec les deux versions.
+> [!NOTE] Le terme Spotlight a été remplacé par Floodlight dans une version récente de Google DFA. Le paramètre JavaScript `dfa_SPOTID` a été nommé en fonction de la terminologie Spotlight, mais il est utilisé avec les deux versions.
 
 Pour activer l’intégration DFA sur votre site Web, vous devez mettre à jour le code de collecte de données JavaScript en ajoutant ce qui suit :
 
@@ -204,7 +202,7 @@ Le bloc Paramètres DFA Integrate définit les variables requises par l’intég
 
 **requestURL** : hôte DFA à distance auquel demander les informations publicitaires. Ne modifiez pas cette valeur, sauf si Adobe vous a demandé de le faire.
 
-**maxDelay** : spécifie le temps d’attente par le code de collecte de données JavaScript pour obtenir une réponse du serveur DFA Floodlight, en millisecondes. Adobe recommande de faire des essais avec cette valeur afin de rechercher la valeur optimale en fonction du trafic sur votre site. Par exemple, si vous augmentez cette valeur, davantage de données DFA sont généralement collectées, mais vous risquez de perdre des données de base sur le visiteur si celui-ci quitte le site durant la période du délai. Si vous réduisez cette valeur, le risque de perdre des données d’accès est moindre, mais il est possible que moins de données DFA soient envoyées avec les données d’accès Adobe.
+**maxDelay** : spécifie le temps d’attente par le code de collecte de données JavaScript pour obtenir une réponse du serveur DFA Floodlight, en millisecondes. Adobe conseille d’utiliser cette valeur pour rechercher la valeur optimale en fonction du trafic de votre site. Par exemple, si vous augmentez cette valeur, davantage de données DFA sont généralement collectées, mais vous risquez de perdre des données de base sur le visiteur si celui-ci quitte le site durant la période du délai. Si vous réduisez cette valeur, le risque de perdre des données d’accès est moindre, mais il est possible que moins de données DFA soient envoyées avec les données d’accès Adobe.
 
 **visitCookie** : nom du cookie utilisé pour restreindre les appels DFA à une fois par visite.
 
@@ -265,7 +263,7 @@ Timeout Percentage = [Step 3] / [Step 2] * 100
 
 Le pourcentage de dépassement de délai prend actuellement en compte tous les visiteurs sur le site. Certains de ces visiteurs peuvent en fait n’avoir aucune connexion avec DFA ; le dépassement de délai est donc trompeur. Pour améliorer ce calcul, une autre analyse consiste à prendre en compte seulement les visiteurs uniques sur les pages avec le paramètre `clickThroughParam` défini (par exemple, `?CID=1`). Les résultats seront ainsi plus précis.
 
-Si le pourcentage de dépassement de délai est très faible, envisagez de réduire *`s.maxDelay`*. S’il est très élevé, augmentez *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. When increasing *`s.maxDelay`*, you will want to run a [!DNL Page Views Report] to make sure page views aren’t falling out due to lost data. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
+Si le pourcentage de dépassement de délai est très faible, envisagez de réduire *`s.maxDelay`*. S’il est très élevé, augmentez *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. Lorsque vous augmentez *`s.maxDelay`*, vous souhaiterez exécuter une [!DNL Page Views Report] pour vous assurer que les pages vues ne tombent pas en panne en raison de données perdues. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
 
 The optimal setting for *`s.maxDelay`* is the point at which the timeout percentage is minimized while Page Views do not drop off.
 
