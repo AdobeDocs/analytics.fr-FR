@@ -5,18 +5,18 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.dynamicAccountMatch
 
-La variable utilise l’objet DOM pour récupérer la section de l’URL à laquelle s’appliquent toutes les règles indiquées dans 
+La variable utilise l’objet DOM pour récupérer la section de l’URL à laquelle s’appliquent toutes les règles indiquées dans.
 
-This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' Comme la valeur par défaut est [!DNL window.location.host], cette variable n’est pas requise pour le bon fonctionnement de la [!UICONTROL sélection de compte dynamique]. For additional information, see dynamicAccountList.[](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)
+Cette variable n’est valide que lorsque *`dynamicAccountSelection`* est définie sur « True ». Comme la valeur par défaut est [!DNL window.location.host], cette variable n’est pas requise pour le bon fonctionnement de la [!UICONTROL sélection de compte dynamique]. Pour plus d’informations, voir [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
-The rules found in  are applied to the value of . `dynamicAccountList``dynamicAccountMatch` If  only contains  (default), the rules in  apply only to the domain of the page.`dynamicAccountMatch`[!DNL window.location.host]`dynamicAccountList`
+Les règles trouvées dans `dynamicAccountList` sont appliquées à la valeur de `dynamicAccountMatch`. Si `dynamicAccountMatch` ne contient que [!DNL window.location.host] (par défaut), les règles de `dynamicAccountList` la section s’appliquent uniquement au domaine de la page.
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
@@ -24,7 +24,7 @@ The rules found in  are applied to the value of . `dynamicAccountList``dynamicAc
 
 ## Syntaxe et valeurs possibles
 
-La syntaxe de la variable `dynamicAccountMatch` est généralement renseignée par le consultant Adobe qui fournit le fichier AppMeasurement pour JavaScript. Les valeurs répertoriées ci-dessous peuvent cependant être appliquées à tout moment.
+La variable `dynamicAccountMatch` est généralement renseignée par le consultant Adobe qui fournit le fichier AppMeasurement pour JavaScript. Les valeurs répertoriées ci-dessous peuvent cependant être appliquées à tout moment.
 
 ```js
 s.dynamicAccountMatch=[DOM object]
@@ -55,8 +55,8 @@ Aucun
 
 ## Pièges, questions et conseils
 
-* La sélection de comptes dynamique n’est pas prise en charge par [AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* La sélection de compte dynamique n’est pas prise en charge par [AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 * Lorsque des pages sont enregistrées sur un disque dur, [!DNL window.location.host] est vide. Ces pages vues sont alors envoyées à la suite de rapports par défaut (dans `s_account`).
 
-* •Lorsqu’une page est traduite au moyen d’un moteur de traduction Web, tel que Google, la [!UICONTROL sélection de compte dynamique] ne fonctionne pas comme prévu. Pour effectuer un suivi plus précis, renseignez la variable [!UICONTROL s_account ] côté serveur.
+* •Lorsqu’une page est traduite au moyen d’un moteur de traduction Web, tel que Google, la [!UICONTROL sélection de compte dynamique] ne fonctionne pas comme prévu. Pour effectuer un suivi plus précis, renseignez la variable [!UICONTROL s_account]côté serveur.
