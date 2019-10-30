@@ -7,8 +7,8 @@ solution: Analytics
 title: Rapports pour les appareils qui utilisent des protocoles mobiles
 topic: Développeur et mise en œuvre
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Dans la mesure où le suivi des appareils s’effectue via une balise Web, tout 
 
 Ces rapports ne contiennent des données que si le référent est renseigné dans la demande d’image envoyée à partir de la page mobile. Le référent est renseigné via le paramètre de chaîne de requête « r », comme décrit dans le livre blanc Implémentation sans JavaScript. Vous devez également transférer manuellement les informations sur le référent dans une demande d’image.
 
-Le paramètre de chaîne de requête « r » doit inclure le protocole du référent. Si le protocole est omis, le rapport du référent n’est pas rempli. Par exemple, utilisez `r=https://msn.com`, et non `r=msn.com`.
+Le paramètre de chaîne de requête 'r' doit inclure le protocole du référent. Si le protocole est omis, le rapport du référent n’est pas rempli. Par exemple, utilisez `r=https://msn.com`, et non `r=msn.com`.
 
 ## Géosegmentation et domaines {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
