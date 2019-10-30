@@ -1,26 +1,26 @@
 ---
-description: La connexion sans mot de passe aux comptes FTP n'est possible que si vous utilisez une connexion SFTP et une autre méthode d'authentification. Ceci implique deux fichiers (l’un sur le compte FTP et l’autre sur votre ordinateur), appelés combinaison de clés publique/privée.
-keywords: ftp ; sftp
-seo-description: La connexion sans mot de passe aux comptes FTP n'est possible que si vous utilisez une connexion SFTP et une autre méthode d'authentification. Ceci implique deux fichiers (l’un sur le compte FTP et l’autre sur votre ordinateur), appelés combinaison de clés publique/privée.
+description: La connexion sans mot de passe aux comptes FTP n’est possible qu’avec une connexion SFTP et une autre méthode d’authentification. Ceci implique deux fichiers (l’un sur le compte FTP et l’autre sur votre ordinateur), appelés combinaison de clés publique/privée.
+keywords: ftp;sftp
+seo-description: La connexion sans mot de passe aux comptes FTP n’est possible qu’avec une connexion SFTP et une autre méthode d’authentification. Ceci implique deux fichiers (l’un sur le compte FTP et l’autre sur votre ordinateur), appelés combinaison de clés publique/privée.
 seo-title: Connexion à Adobe via SFTP sans mot de passe
 solution: Analytics
 title: Connexion à Adobe via SFTP sans mot de passe
-uuid: 88728309-50 d 2-450 b-b 0 e 6-7 dcdf 61 b 5 dbc
+uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Connexion à Adobe via SFTP sans mot de passe
 
-La connexion sans mot de passe aux comptes FTP n'est possible que si vous utilisez une connexion SFTP et une autre méthode d'authentification. Ceci implique deux fichiers (l’un sur le compte FTP et l’autre sur votre ordinateur), appelés combinaison de clés publique/privée.
+La connexion sans mot de passe aux comptes FTP n’est possible qu’avec une connexion SFTP et une autre méthode d’authentification. Ceci implique deux fichiers (l’un sur le compte FTP et l’autre sur votre ordinateur), appelés combinaison de clés publique/privée.
 
 Cette méthode d’authentification n’est pas moins sécurisée qu’avec un mot de passe. Il s’agit d’une autre forme d’authentification qui n’oblige pas l’utilisateur à saisir son mot de passe à chaque fois. Si cette méthode est correctement utilisée, cet ordinateur particulier peut accéder aux fichiers sans avoir à spécifier un mot de passe. Ceci doit être configuré individuellement sur chaque ordinateur. Toutes les autres connexions qui n’utilisent pas ces fichiers clés doivent spécifier un mot de passe.
 
-Certains clients requièrent un protocole SFTP (Secure File Transfer Protocol) pour transmettre des données sensibles. Une connexion SFTP est plus sécurisée qu'une connexion FTP standard, car elle permet la communication des données chiffrées. Par défaut, tous les comptes FTP Adobe sont prêts pour le protocole SFTP. Une connexion SFTP peut être ouverte avec un nom d'utilisateur et un mot de passe valides en utilisant un client SFTP qui se connecte au port 22 (les connexions FTP standard non sécurisées utilisent le port 21).
+Certains clients ont besoin d’un protocole SFTP (Secure File Transfer Protocol) pour transmettre des données sensibles. Une connexion SFTP est plus sécurisée qu’une connexion FTP classique, car elle permet la communication de données chiffrées. Par défaut, tous les comptes FTP Adobe sont prêts pour le protocole SFTP. Une connexion SFTP peut être ouverte avec un nom d’utilisateur et un mot de passe valides en utilisant un client SFTP qui se connecte sur le port 22 (les connexions FTP normales qui ne sont pas sécurisées utilisent le port 21).
 
-Lorsque vous utilisez SFTP, il est possible, dans des conditions spécifiques, d'utiliser des clés privées pour se connecter au compte sans mot de passe. Grâce à cette méthode, votre ordinateur utilise les fichiers clés pour s’authentifier, plutôt que de recourir à l’authentification usuelle par mot de passe. Ceci signifie que seul l’ordinateur qui possède la clé privée peut se connecter sans mot de passe. Tous les autres ordinateurs/utilisateurs doivent continuer à s’authentifier par mot de passe (sauf si des clés privées ont été configurées également sur ces ordinateurs).
+Lorsque vous utilisez SFTP, il est possible, dans des conditions spécifiques, d’utiliser des clés privées pour vous connecter au compte sans mot de passe. Grâce à cette méthode, votre ordinateur utilise les fichiers clés pour s’authentifier, plutôt que de recourir à l’authentification usuelle par mot de passe. Ceci signifie que seul l’ordinateur qui possède la clé privée peut se connecter sans mot de passe. Tous les autres ordinateurs/utilisateurs doivent continuer à s’authentifier par mot de passe (sauf si des clés privées ont été configurées également sur ces ordinateurs).
 
 **Configuration et utilisation de clés privées pour une authentification sans mot de passe**
 
