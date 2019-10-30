@@ -3,9 +3,9 @@ description: Présente les impressions diffusées et le nombre d’utilisateurs 
 seo-description: Présente les impressions diffusées et le nombre d’utilisateurs uniques qui ont vu ces impressions.
 seo-title: Graphique de dispersion
 title: Graphique de dispersion
-uuid: 470 b 3142-3 a 0 a -4 cd 8-819-7 b 64044188 c 8
+uuid: 470b3142-3a0a-4cd8-8919-7b6404188c8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,5 @@ La taille de chaque point de données fournit une indication visuelle du nombre 
 
 ![](assets/scatter.png)
 
->[!NOTE]
->
->Un tableau associé à un graphique de dispersion nécessite au moins deux colonnes. La première colonne définit l’axe des abscisses (X) et la deuxième colonne, l’axe des ordonnées (Y). Si une troisième colonne est disponible, le graphique de dispersion l’utilise pour déterminer le rayon du point. En d’autres termes, les colonnes *1*, *2* et *3* correspondent à *X*, à *Y* et au *rayon du point*.
+> [!NOTE] Un tableau associé à un graphique de dispersion requiert au moins deux colonnes. La première colonne définit l’axe des abscisses (X) et la deuxième colonne, l’axe des ordonnées (Y). Si une troisième colonne est disponible, le graphique de dispersion l’utilise pour déterminer le rayon du point. En d’autres termes, les colonnes *1*, *2* et *3* correspondent à *X*, à *Y* et au *rayon du point*.
 
