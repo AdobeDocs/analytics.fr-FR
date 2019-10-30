@@ -3,7 +3,7 @@ description: Configurez les paramètres de comportement globaux. Vous pouvez, pa
 seo-description: Configurez les paramètres de comportement globaux. Vous pouvez, par exemple, configurer la fonction d’enregistrement automatique, les paramètres de graphique et de tableau, ou encore indiquer la police et les paramètres régionaux.
 seo-title: Paramètres
 title: Paramètres
-uuid: 34444052-479 b -4923-b 379-a 03 ca 614 bf 3 e
+uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
