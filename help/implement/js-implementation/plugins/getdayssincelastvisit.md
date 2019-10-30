@@ -8,8 +8,8 @@ subtopic: Modules externes
 title: getDaysSinceLastVisit
 topic: Développeur et mise en œuvre
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Détermine le nombre de jours depuis la dernière visite de l’utilisateur sur 
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/) comprend désormais une dimension **[!UICONTROL Jours depuis la dernière visite]** prête à l’emploi, ce qui rend ce module externe inutile.
+>[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) inclut désormais une dimension **[!UICONTROL Jours depuis la dernière visite]** prête à l’emploi, annulant ainsi la nécessité de ce module externe.
 
 Ces données relatives à la fréquence des retours peuvent être utilisées pour répondre aux questions suivantes :
 
@@ -30,9 +30,7 @@ Ces données relatives à la fréquence des retours peuvent être utilisées pou
 
 Le module externe peut également générer des valeurs utilisées pour la segmentation. Vous pouvez, par exemple, créer un segment afin d’afficher toutes les données relatives aux seules visites espacées de 30 jours ou davantage.
 
->[!NOTE]
->
->Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
+> [!NOTE] Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
 
 ## Implémentation et code du module externe {#section_5600DBB819F143D59527A73BD94418DE}
 
