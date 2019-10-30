@@ -1,18 +1,18 @@
 ---
 description: Selon vos autorisations, vous pouvez partager des segments avec l’ensemble de l’entreprise, des groupes ou des utilisateurs individuels.
 seo-description: Selon vos autorisations, vous pouvez partager des segments avec l’ensemble de l’entreprise, des groupes ou des utilisateurs individuels.
-seo-title: Partage de segments
+seo-title: Partage des segments
 solution: Analytics
-title: Partage de segments
+title: Partage des segments
 topic: Segments
-uuid: 48736078-85 a 7-49 bd-b 8 b 8-562818798 c 5 e
+uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Partage de segments
+# Partage des segments
 
 Selon vos autorisations, vous pouvez partager des segments avec l’ensemble de l’entreprise, des groupes ou des utilisateurs individuels.
 
