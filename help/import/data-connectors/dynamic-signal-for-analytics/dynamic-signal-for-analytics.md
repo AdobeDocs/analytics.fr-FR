@@ -6,7 +6,7 @@ solution: Analytics
 title: Connecteur de données VoiceStorm de signal dynamique pour Adobe Analytics
 uuid: 270b33f5-ea9f-4ab3-ba3e-de41a9e6ff7a
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,7 +25,7 @@ Décrit les 3 principaux avantages de la méthode de transmission dynamique de v
 * Synchronisation quotidienne automatisée des dimensions de contenu VoiceStorm entre Adobe Analytics et Adobe Analytics.
 * Les nouveaux rapports Trafic et Conversion sont attribués directement au contenu, aux auteurs et aux utilisateurs qui promeuvent activement votre marque.
 
-## Integration Prerequisites{#integration-prerequisites}
+## Conditions préalables à l’intégration{#integration-prerequisites}
 
 Répertorie les conditions préalables requises pour les clients Adobe et Dynamic Signal.
 
