@@ -6,7 +6,7 @@ title: Qu’est-ce que l’analyse des cohortes ?
 topic: Reports & Analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,11 +33,11 @@ L’analyse des cohortes est disponible pour tous les clients Analytics avec des
 
 >[!IMPORTANT]
 >
->Cohort Analysis does not support calculated metrics.
+>L’analyse des cohortes ne prend pas en charge les mesures calculées.
 
 ## Fonctionnalités d’analyse des cohortes
 
-In January 2019, Adobe released a new and significantly enhanced version of Cohort Analysis. Celle-ci offre un contrôle plus affiné sur les cohortes que vous créez. Voici les améliorations présentées :
+En janvier 2019, Adobe a publié une nouvelle version considérablement améliorée de l’analyse des cohortes. Celle-ci offre un contrôle plus affiné sur les cohortes que vous créez. Voici les améliorations présentées :
 
 ### Tableau de rétention
 
