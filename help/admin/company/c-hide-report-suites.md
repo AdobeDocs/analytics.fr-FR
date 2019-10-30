@@ -2,18 +2,18 @@
 description: Vous permet de masquer les suites de rapports dans l’interface utilisateur d’Adobe Analytics.
 keywords: supprimer une suite de rapports
 seo-description: Vous permet de masquer les suites de rapports dans l’interface utilisateur d’Adobe Analytics.
-seo-title: Masquer les suites de rapports
+seo-title: Masquage des suites de rapports
 solution: Analytics
-title: Masquer les suites de rapports
+title: Masquage des suites de rapports
 topic: Outils d’administration
-uuid: 3 e 857 ba 7-d 48 e -44 d 5-ad 60-f 3349 e 203 e 10
+uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Masquer les suites de rapports
+# Masquage des suites de rapports
 
 Vous permet de masquer les suites de rapports dans l’interface utilisateur d’Adobe Analytics.
 
@@ -23,7 +23,7 @@ Lorsque vous masquez une suite de rapports, elle n’est plus répertoriée dans
 
 >[!IMPORTANT]
 >
->Les données envoyées à une suite de rapports masquée à partir de votre site continuent à être collectées, traitées et facturées. En d’autres termes, une suite de rapports n’est jamais complètement supprimée.
+>Les données envoyées à une suite de rapports masquée depuis votre site continuent d’être collectées, traitées et facturées. En d’autres termes, une suite de rapports n’est jamais complètement supprimée.
 
 To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. Cochez la case **[!UICONTROL Masqué]à gauche du nom de la suite de rapports.**
 
