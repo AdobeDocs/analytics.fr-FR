@@ -5,7 +5,7 @@ seo-title: Affichage de l’utilisation actuelle des appels au serveur
 title: Affichage de l’utilisation actuelle des appels au serveur
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Utilisation **[!UICONTROL des appels]** serveur &gt; Utilisation **[!UICONTROL actuelle]**
 
->[!IMPORTANT]
->
->Les chiffres d’utilisation et d’engagement que vous voyez sont cumulés dans toutes vos sociétés de connexion et suites de rapports.
+> [!IMPORTANT] Les chiffres d’utilisation et d’engagement que vous voyez sont cumulés dans toutes vos sociétés de connexion et suites de rapports.
 
 Le tableau de bord de l’utilisation actuelle :
 
@@ -27,9 +25,7 @@ Le tableau de bord de l’utilisation actuelle :
 
 * compare la période d’utilisation actuelle à celle de l’année précédente (ligne bleue) ; Bien entendu, la ligne bleue n’apparaitra que si votre société possède les données d’utilisation de l’appel au serveur de l’année précédente.
 
-   >[!NOTE]
-   >
-   >Si vous souhaitez afficher l’utilisation d’une période précédente, vous devez accéder à l’onglet Utilisation [des suites de](/help/admin/c-server-call-usage/report-suite-usage.md) rapports et télécharger les données d’utilisation d’une période précédente.
+   > [!NOTE] Si vous souhaitez afficher l’utilisation d’une période précédente, vous devez accéder à l’onglet Utilisation [des suites de](/help/admin/c-server-call-usage/report-suite-usage.md) rapports et télécharger les données d’utilisation d’une période précédente.
 
 * répertorie le pourcentage d’appels utilisé (en pourcentage et données brutes) et le pourcentage de la période d’utilisation passée (en pourcentage et données brutes) ;
 * est, par défaut, mis à jour quotidiennement, avec une latence de traitement de 5 jours ;
@@ -42,4 +38,3 @@ Le tableau de bord de l’utilisation actuelle :
 | Période d’utilisation actuelle (vert) | La période actuelle est basée sur la [période d’utilisation](/help/admin/c-server-call-usage/overage-overview.md). |
 | Période d’utilisation précédente (bleu) | La période précédente est définie comme la période d’utilisation actuelle moins un an. |
 | Limite d’utilisation (rouge) | Votre limite d’utilisation contractuelle pour la période d’utilisation en question. |
-
