@@ -7,7 +7,7 @@ title: Rapports sur les sources de trafic
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -99,13 +99,11 @@ Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont c
 
 Pour plus d’informations, voir la rubrique [Filtres URL internes](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) dans l’aide d’[!DNL Admin Console].
 
->[!NOTE]
->
->Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
+> [!NOTE] Les rapports et analyses marketing enregistrent un domaine référent sous forme de courrier électronique lorsque les visiteurs cliquent sur un lien de message envoyé par courriel contenant le protocole [!DNL imap://] ou [!DNL mail://] arrivent sur votre site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
 
 ## Type de référent {#concept_689E42D8F96C450DA41C7167C7388198}
 
-En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer comment les visiteurs ont trouvé votre site pour chaque visite. 
+En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer comment les visiteurs ont trouvé votre site pour chaque visite.
 
 <!-- 
 
@@ -120,7 +118,7 @@ La liste ci-dessous définit les divers types de référents :
 * Les référents *tapés/marqués* sont enregistrés :
 
    * si un visiteur accède à votre site par le biais d’un lien hors navigateur (par exemple, dans un courriel) ;
-   * si un visiteur saisit directement l’URL de votre site dans son navigateur ;
+   * Si un visiteur saisit l’URL de votre site directement dans son navigateur.
    * si un visiteur clique sur un lien HTML sur son disque dur personnel ;
    * si un visiteur accède à votre site en le sélectionnant parmi les signets de son navigateur.
 
@@ -134,7 +132,5 @@ Les options suivantes peuvent s’afficher lors de l’exécution de ce rapport�
 
 **USENET (groupes de discussion)** : cela signifie que l’URL d’un référent commençait par `news://`. Dès lors, le lien de référence a été publié sur un groupe de discussion Usenet plutôt que sur une page Web.
 
->[!NOTE]
->
->Referrer Type logic matches other traffic sources reports (such as [!UICONTROL Referrers] and [!UICONTROL Referring Domains]). Cela devrait réduire, voire éliminer, les occurrences d’éléments Dans votre site et Pas de JavaScript dans le rapport [!UICONTROL Type de référent].
+> [!NOTE] La logique Type de référent correspond à d’autres rapports de sources de trafic (tels que [!UICONTROL Référents] et Domaines référents). Cela devrait réduire, voire éliminer, les occurrences d’éléments Dans votre site et Pas de JavaScript dans le rapport [!UICONTROL Type de référent].
 
