@@ -5,7 +5,7 @@ seo-title: Quel outil Adobe Analytics dois-je utiliser ?
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,7 +66,7 @@ Les **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** doivent �
 * Options :
 
    * Créateur de règles : à utiliser en cas de valeurs formatées prévisibles collectées pour une variable ; des valeurs délimitées, par exemple. Cette approche permet de définir les règles une fois pour toute et de ne plus y penser.
-   * Importateur de navigateur : à utiliser en cas d’absence de valeurs prévisibles ou dans le cas d’une liste de valeurs finie qui requiert une mise à jour unique. Cette approche nécessite une surveillance constante des classifications des nouvelles valeurs.
+   * Importateur de navigateur : à utiliser lorsque vous n’avez pas de valeurs prévisibles ou lorsque vous disposez d’une liste de valeurs finie nécessitant une mise à jour unique. Cette approche nécessite une surveillance constante des classifications des nouvelles valeurs.
 
 Les **[sources de données](/help/import/c-data-sources/datasrc-home.md)** doivent être utilisées :
 
@@ -100,7 +100,7 @@ L’**[API d’insertion de données](https://marketing.adobe.com/developer/docu
 Le **[Report Builder](/help/analyze/report-builder/home.md)** doit être utilisé :
 
 * Si les options de disposition personnalisées de Workspace sont limitées (tout est possible dans le Report Builder, dans les limites d’Excel).
-* Pour lier vaguement des entrées utilisateur ou des sources de données hors ligne (impressions, coût) à des données Adobe. L’option Sources de données constitue une solution plus permanente pour lier les données (voir Importation de données dans Analytics) .
+* Pour lier vaguement des entrées utilisateur ou des sources de données hors ligne (impressions, coût) à des données Adobe. L’option Sources de données constitue une solution plus permanente pour lier les données (voir Importation de données dans Analytics).
 * Pour fusionner des données depuis différents rapports dimensionnels (par exemple un rapport d’impressions promo joint à un rapport clic jusqu’à la conversion promo).
 * Pour les affichages de suite de rapports croisés.
 * Si l’automatisation par l’intermédiaire de la planification est souhaitée (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
@@ -111,7 +111,7 @@ Le **[Report Builder](/help/analyze/report-builder/home.md)** doit être utilis�
 * Pour accéder à des données plus granulaires que l’interface utilisateur (affichage de tableau dénormalisé)
 * Pour télécharger des données dans un format approprié à une entrée de tableau croisé dynamique (pivot)
 * Si le client souhaite saisir des données Adobe dans un outil de visualisation de données tiers (légèrement résumées et pas au niveau de l’accès)
-* Pour accéder à toutes les valeurs de dimension uniques si vous rencontrez un « faible trafic » dans Adobe Analytics
+* Pour accéder à toutes les valeurs de dimension uniques si vous rencontrez "Faible trafic" dans Adobe Analytics
 
 **[Le flux](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** de données Analytics doit être utilisé :
 
