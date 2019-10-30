@@ -9,7 +9,7 @@ title: Modifications des autorisations d’utilisateur et des droits d’accès 
 topic: Outils d’administration
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 **[!UICONTROL Admin]** &gt; Gestion des **** utilisateurs &gt; **[!UICONTROL Groupes]**
 
->[!NOTE]
->
->En raison du nombre élevé de combinaisons d’autorisations possibles, nous ne pouvons pas fournir de documentation décrivant toutes les méthodes d’API pouvant être utilisées dans chaque combinaison d’autorisations. En général, les non-administrateurs qui se voient accorder un accès aux services web ne disposent que d’un accès en lecture seule aux méthodes d’API. Ils ne disposeront pas d’un accès en écriture aux méthodes.
+> [!NOTE] En raison du nombre élevé de combinaisons d’autorisations possibles, nous ne pouvons pas fournir de documentation décrivant toutes les méthodes d’API pouvant être utilisées dans chaque combinaison d’autorisations. En général, les non-administrateurs qui se voient accorder un accès aux services web ne disposent que d’un accès en lecture seule aux méthodes d’API. Ils ne disposeront pas d’un accès en écriture aux méthodes.
 
 Comme l’API et l’interface utilisent le même système d’autorisation, quelles que soit les autorisations qu’un administrateur de l’interface (Adobe Admin Console) a accordées à un particulier non-administrateur, il s’agira des mêmes autorisations que celles dont l’utilisateur dispose dans l’API.
 
@@ -128,9 +126,7 @@ Vous trouverez ci-dessous d’importantes nouvelles informations relatives aux m
 
 Le tableau suivant répertorie les tâches et où elles peuvent avoir lieu (selon l’état de l’entreprise).
 
->[!NOTE]
->
->A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. Si l’invitation par courrier électronique n’est pas acceptée, les utilisateurs sont toujours des utilisateurs d’Analytics et ne peuvent pas être gérés dans la Console d’administration. (sauf si la migration utilise des [Entreprise ID ou Federated ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html), auquel cas l’utilisateur est migré quand l’administrateur migre les utilisateurs au cas par cas).
+> [!NOTE] Une *`migrated user`* référence et *`Experience Cloud user`* désigne les utilisateurs qui ont accepté une invitation par courrier électronique à rejoindre Experience Cloud. Si l’invitation par courrier électronique n’est pas acceptée, les utilisateurs sont toujours des utilisateurs d’Analytics et ne peuvent pas être gérés dans la Console d’administration. (sauf si la migration utilise des [Entreprise ID ou Federated ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html), auquel cas l’utilisateur est migré quand l’administrateur migre les utilisateurs au cas par cas).
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
