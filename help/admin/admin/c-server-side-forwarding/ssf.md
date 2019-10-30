@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Transfert côté serveur - Aperçu
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -44,10 +44,10 @@ Dans l’onglet Demande, vérifiez qu’une valeur MID est en cours de définiti
 
 Vérifiez si une version du transfert côté serveur est déjà implémentée en [inspectant la demande](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)de suivi Analytics.
 
-Dans l’onglet « Réponse », vérifiez que la réponse contient les données d’Audience Manager. Si vous voyez :
+Dans l’onglet "Réponse", vérifiez que la réponse contient des données Audience Manager. Si vous voyez :
 
-* Une **réponse JSON provenant d’Audience Manager qui inclut des éléments tels que "postbacks" ou "dcs_region"**, alors une version du transfert côté serveur est déjà activée. Passez à l’étape 3.
-* **"status":"SUCCESS"** : le module de gestion de l’audience est implémenté, mais le transfert côté serveur n’est pas correctement configuré. Passez à l’étape 3.
+* A **JSON response from Audience Manager that includes items such as "postbacks" or "dcs_region"**: you have some form of server-side forwarding already enabled. Passez à l’étape 3.
+* The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. Passez à l’étape 3.
 * Une **image 2 x 2** : ni le transfert côté serveur, ni le module de gestion de l’audience ne sont implémentés. Pour résoudre ce problème :
 
    * **Clients du module de gestion de l’audience (AAM) avec collecte de données côté client (DIL)** : coordonnez les deux éléments suivants en conjonction étroite :
@@ -71,7 +71,5 @@ Go to **Analytics** &gt; **Admin** &gt; **Report Suites** &gt; (select **report 
 
 <!-- Meike, check Report Suite Mapping UI link above -->
 
->[!NOTE]
->
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.
+> [!NOTE] Les données n’apparaîtront pas dans les autres solutions Experience Cloud, telles que [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) ou [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) , tant que les trois étapes ne seront pas terminées. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.
 
