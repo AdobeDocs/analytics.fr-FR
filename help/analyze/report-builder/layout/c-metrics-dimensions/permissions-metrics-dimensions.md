@@ -1,18 +1,18 @@
 ---
 description: Le Créateur de rapports Adobe propose désormais des paramètres de gestion des autorisations analogues à ceux des Outils d’administration d’Analytics.
 seo-description: Le Créateur de rapports Adobe propose désormais des paramètres de gestion des autorisations analogues à ceux des Outils d’administration d’Analytics.
-seo-title: Autorisations d'accès utilisateur pour les dimensions et les mesures
+seo-title: Autorisations d’accès utilisateur pour les dimensions et les mesures
 solution: Analytics
-title: Autorisations d'accès utilisateur pour les dimensions et les mesures
+title: Autorisations d’accès utilisateur pour les dimensions et les mesures
 topic: Créateur de rapports
-uuid: b 561407 d-c 4 fa -4 f 1 e -8 b 16-5 ca 46 fcbf 36 f
+uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Autorisations d'accès utilisateur pour les dimensions et les mesures
+# Autorisations d’accès utilisateur pour les dimensions et les mesures
 
 Le Créateur de rapports Adobe propose désormais des paramètres de gestion des autorisations analogues à ceux des Outils d’administration d’Analytics.
 
@@ -27,7 +27,7 @@ Suivez ces instructions pour **chaque** classeur du Créateur de rapports que vo
 1. Ouvrez le classeur.
 1. Actualisez toutes les requêtes.
 1. Si une erreur d’autorisation d’accès utilisateur s’affiche, cliquez sur **[!UICONTROL Ouvrir un fichier CSV (Open CSV File)]pour accéder à la liste des erreurs d’autorisation limitée.**
-1. Créez un fichier « AllRestrictedPermissionErrors.xlsx » et copiez/collez la liste des erreurs d’autorisation limitée du fichier CSV vers ce fichier.
+1. Créez un fichier "AllRestrictedPermissionErrors.xlsx" et copiez/collez la liste des erreurs d’autorisation restreinte à partir du fichier CSV dans ce fichier.
 1. Fermez le classeur du Créateur de rapports.
 
-Une fois que vous avez traité tous les classeurs, vous devez avoir une liste complète des erreurs d’autorisation limitée dans « AllRestrictedPermissionErrors.xlsx ». Envoyez cette liste à votre administrateur d’accès utilisateur Adobe Analytics en lui demandant de vous octroyer l’accès aux mesures et dimensions.
+Une fois tous les classeurs traités, vous devez disposer d’une liste complète des erreurs d’autorisation restreinte dans "AllRestrictedPermissionErrors.xlsx". Envoyez cette liste à votre administrateur d’accès utilisateur Adobe Analytics en lui demandant de vous octroyer l’accès aux mesures et dimensions.
