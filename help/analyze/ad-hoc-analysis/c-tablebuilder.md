@@ -3,7 +3,7 @@ description: Utilisez le Générateur de tableau pour créer un rapport avec n�
 seo-description: Utilisez le Générateur de tableau pour créer un rapport avec n’importe quelle configuration de mesures, de dimensions et de segments. Par exemple, vous pouvez ajouter plusieurs mesures au Générateur de tableau, puis appliquer le segment à toutes en même temps. Vous pouvez appliquer des options des volets d’outils sous forme de lignes, de ventilations ou de colonnes, puis faire pivoter le tableau pour obtenir une vue différente. Après avoir créé le tableau, vous pouvez interagir directement avec le tableau de données qui en résulte afin d’effectuer une analyse plus approfondie. Pour rappel, lorsque vous générez un tableau de données à partir du Générateur de tableau, une requête est exécutée et un nouveau tableau est créé.
 seo-title: Générateur de tableau
 title: Générateur de tableau
-uuid: d 5 dbd 05 e -9 ebd -4571-b 3 a 5-3856 c 28 b 65 f 3
+uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
