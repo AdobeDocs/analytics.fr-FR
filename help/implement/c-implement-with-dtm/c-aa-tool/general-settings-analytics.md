@@ -7,8 +7,8 @@ solution: Analytics
 title: Général
 topic: Développeur et mise en œuvre
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,10 +35,10 @@ Description des champs pour les paramètres Général dans DTM, pour déploiemen
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> Si le cookie existe mais est défini sur <span class="term"> true </span>, l’outil charge normalement. </li> 
     </ul> <p>Il vous incombe de définir le cookie <span class="filepath"> sat_track </span> (ou le cookie personnalisé) sur <span class="term"> false </span> si un visiteur opt-out. Vous pouvez pour cela utiliser du code personnalisé : </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
      </code> </p> <p> Vous devez également disposer d’un mécanisme pour définir ce cookie sur <span class="term"> true </span> si vous souhaitez qu’un visiteur puisse opt-in ultérieurement : </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
   </tr> 
   <tr> 
