@@ -5,7 +5,7 @@ seo-title: Silverpop Data Connector for Adobe Analytics
 title: Silverpop Data Connector for Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 Cette intégration des courriers électroniques Adobe® Connecteurs de données™ combine les informations comportementales d’Analytics® avec le marketing par courrier électronique Silverpop pour créer un outil puissant permettant de redéfinir la mesure de la réussite et de cibler les audiences avec des messages plus pertinents.
 
-La remise de messages électroniques pertinents à ces segments de marché peut générer de nouvelles opportunités de recettes, ce qui entraîne une augmentation des conversions et des recettes au sein des campagnes de messagerie nouvelles et existantes. Par exemple, la diffusion de messages électroniques pertinents basés sur des produits qui ont été consultés au cours d’une visite ou des produits qui ont été laissés dans un panier d’achat abandonné a démontré un impact considérable sur les recettes, avec un impact minimal sur les coûts, car cela ne fait qu’augmenter les visiteurs de votre site.
+La remise de messages électroniques pertinents à ces segments de marché peut générer de nouvelles opportunités de recettes, ce qui entraîne une augmentation des conversions et des recettes parmi les campagnes par courrier électronique nouvelles et existantes. Par exemple, la diffusion de messages électroniques pertinents basés sur des produits qui ont été consultés au cours d’une visite ou des produits qui ont été laissés dans un panier d’achat abandonné a démontré un impact considérable sur les recettes, avec un impact minimal sur les coûts, car cela ne fait qu’augmenter les visiteurs de votre site.
 
 Cette augmentation de l’efficacité marketing est l’un des principaux avantages de l’intégration d’Analytics à Silverpop. En outre, cette intégration synchronise automatiquement les mesures de courrier électronique avec les données Analytics aussi fréquemment que par heure pour la création de rapports en boucle fermée.
 
@@ -31,7 +31,7 @@ Cette intégration présente les principaux avantages suivants :
 Les fonctionnalités suivantes sont nouvelles dans la version 2.0 de l’intégration des connecteurs de données Silverpop :
 
 * La fréquence d'importation des mesures a augmenté de jour en heure.
-* Deux mesures standard supplémentaires pour les clients non-clients.
+* Deux mesures standard supplémentaires pour les clients non commerciaux.
 * Remarketing aux utilisateurs qui n’ont peut-être pas cliqué par le biais d’un courrier électronique.
 * Les classifications de produits sont exportées vers Silverpop pour une personnalisation supplémentaire dans les messages de remarketing.
 * Des données supplémentaires sont disponibles dans les segments de remarketing (commandes, recettes et unités).
@@ -47,4 +47,4 @@ Cette intégration comprend les segments marketing suivants, prêts à l’emplo
 * **** Profil d'abandon du panier : Aidez les visiteurs à se convertir en clients grâce à des campagnes affinées spécialement conçues pour ceux qui hésitent à compléter leur panier.
 * **** Profil d’abandon de formulaire (facultatif) : Encouragez les visiteurs à compléter un formulaire inachevé par le biais de campagnes spécialement conçues pour ceux qui ont commencé et n’ont pas rempli un formulaire en ligne. Ce segment ne sera créé que si 2 événements sont créés pour les démarrages de formulaire et les fins de formulaire.
 * **** Profil de téléchargement de fichier (facultatif) : Contactez les clients potentiels par le biais de campagnes conçues pour ceux qui ont manifesté de l’intérêt en téléchargeant un livre blanc ou un autre type de téléchargement. Ce segment ne sera créé que si 1 événement est créé pour les téléchargements de fichiers réussis.
-*  Les clients peuvent également créer et programmer des segments de remarketing personnalisés spécifiques aux besoins de leurs utilisateurs.
+* Les clients peuvent également créer et programmer des segments de remarketing personnalisés spécifiques aux besoins de leurs utilisateurs.
