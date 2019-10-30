@@ -9,7 +9,7 @@ title: Personnalisation des autorisations liées aux outils de suites de rapport
 topic: Outils d’administration
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,7 +61,7 @@ Les paramètres sur cette page se rapportent aux suites de rapports sélectionn�
 | [Visiteur unique](https://marketing.adobe.com/resources/help/en_US/reference/t_unique_visitor_variable.html) | Autorisation de spécifier la variable Visiteur unique. |
 | [Événements de succès](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) | Actions qui peuvent être suivies (consultation de produits, passages en caisse et achats, notamment). |
 | [Hiérarchies de classification](/help/components/c-classifications2/classification-hierarchies.md) | Consolidé en classifications (sous Outils et rapports). |
-| [Variables de liste](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) | Également appelées parfois « listvar ». À l’instar de la fonction Propriétés de liste, les List Vars autorisent plusieurs valeurs dans la même demande d’image. |
+| [Variables de liste](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) | Connue également sous le nom de variable de liste. À l’instar de la fonction Propriétés de liste, les List Vars autorisent plusieurs valeurs dans la même demande d’image. |
 | [Mesures par défaut](/help/admin/admin/default-metrics.md) | Les Reports &amp; Analytics affichent un ensemble de mesures par défaut dans tous les rapports de conversion, sauf si un utilisateur sélectionne un ensemble personnalisé. Les mesures sélectionnées s’affichent pour tous les utilisateurs de la suite de rapports associée. |
 | [Règles de traitement](https://marketing.adobe.com/resources/help/en_US/sc/implement/ref-processing-rules.html) | Accorde l’accès aux règles de traitement, ce qui simplifie la collecte de données et la gestion du contenu lorsqu’il est envoyé aux rapports. |
 | **Outils et rapports** |  |
