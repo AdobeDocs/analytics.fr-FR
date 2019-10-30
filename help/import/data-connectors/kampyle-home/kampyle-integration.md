@@ -6,7 +6,7 @@ solution: Analytics
 title: Utilisation de l’intégration
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,15 +15,13 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 Une fois déployé, vous pouvez commencer à utiliser les fonctionnalités supplémentaires fournies par cette intégration. Vous trouverez ci-dessous les actions à entreprendre pour tirer parti de cette intégration dans Adobe Analytics.
 
->[!NOTE]
->
->Il peut s’écouler entre 24 et 48 heures avant de commencer à voir les données de réponse Kampyle dans vos rapports Adobe Analytics.
+> [!NOTE] Il peut s’écouler entre 24 et 48 heures avant de commencer à voir les données de réponse Kampyle dans vos rapports Adobe Analytics.
 
 ## Combiner les commentaires et les données de comportement sur site{#mix-feedback-and-onsite-behavior-data}
 
 Vous pouvez ventiler les rapports Rapports et analyses par dimensions de commentaire.
 
-Les rapports et analyses Adobe vous permettent d’analyser de nombreuses dimensions de commentaires disponibles dans les rapports. The report below is an example of drilling to a specific Category of feedback and then breaking it down by the feedback Description. Les mesures des rapports et analyses (visites et demandes de renseignements du service clientèle) et de Kampyle (note moyenne des commentaires) sont présentées côte à côte pour une analyse facile.
+Les rapports et analyses Adobe vous permettent d’analyser de nombreuses dimensions de commentaires disponibles dans les rapports. Le rapport ci-dessous est un exemple d’exploration vers une catégorie spécifique de commentaires, puis de ventilation en fonction de la description des commentaires. Les mesures des rapports et analyses (visites et demandes de renseignements du service clientèle) et de Kampyle (note moyenne des commentaires) sont présentées côte à côte pour une analyse facile.
 
 ![](assets/feedback_category_report.png)
 
