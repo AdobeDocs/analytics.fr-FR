@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Sources de données
 title: Traitement complet
 topic: Développeur et mise en œuvre
-uuid: 590 ae 89 c -6 e 17-453 b-b 701-ce 1 adbea 6 fa 4
+uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,11 +22,11 @@ Les sources de données à traitement complet sont traitées comme si elles éta
 * [Profil du visiteur](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
 * [Référence de colonne](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
-## Profil du visiteur{#section_6065627D0C144506965F562C80AE67F8}    
+## Profil du visiteur {#section_6065627D0C144506965F562C80AE67F8}
 
 Les sources de données à traitement complet sont traitées en utilisant les profils du visiteur distincts, de sorte que même si l’identifiant visiteur dans les données transférées correspond aux données collectées à l’aide d’une bibliothèque JavaScript ou AppMeasurement, les profils du visiteur ne sont pas connectés du point de vue de l’attribution des eVars.
 
-Par exemple, un utilisateur avec un identifiant visiteur "utilisateur@exemple.com" se rend sur votre site à partir d’une campagne marketing nommée « Soldes de printemps », qui est stockée dans la variable de campagne. Si vous transférez par la suite une transaction à l’aide du même identifiant visiteur, la campagne « Soldes de printemps » n’est pas créditée pour les recettes ou les événements de succès transférés à l’aide de sources de données à traitement complet.
+Par exemple, un utilisateur avec un identifiant visiteur « utilisateur@exemple.com » se rend sur votre site à partir d’une campagne marketing nommée « Soldes de printemps », qui est stockée dans la variable de campagne. Si vous transférez par la suite une transaction à l’aide du même identifiant visiteur, la campagne « Soldes de printemps » n’est pas créditée pour les recettes ou les événements de succès transférés à l’aide de sources de données à traitement complet.
 
 ## Référence de colonne {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -45,31 +45,32 @@ Par exemple, un utilisateur avec un identifiant visiteur "utilisateur@exemple.co
    <td colname="col3"> <p>Code de suivi de campagne de conversion. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col1"> <p>marketing </p> </td> 
+   <td colname="col2"> <p>marketing </p> </td> 
    <td colname="col3"> <p>Chaîne de canal (par exemple, section Sports). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Remarque : Cette variable est également prise en charge par les sources de données standard sous forme de <code>code de devise </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Code de devise du revenu (par exemple, USD). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Utilisez le format de date ISO 8601 <code>AAAA-MM-JJThh:mm:ss±décalage_UTC</code> (par exemple, <code>2013-09-01T12:00:00-07:00</code>) ou le format d’heure Unix (nombre de secondes écoulées depuis le 1er janvier 1970). </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, c.-à-d. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nom de la variable eVar de conversion. Vous pouvez avoir jusqu’à 75 eVars ( <span class="varname"> Evar 1 </span> - <span class="varname"> evar 75 </span>). </p> <p>Vous pouvez définir le nom de l’eVar (eVar12) ou un nom convivial (Campagne publicitaire 3). </p> </td> 
+   <td colname="col3"> <p>Nom de la variable eVar de conversion. Vous pouvez avoir jusqu’à 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Vous pouvez définir le nom de l’eVar (eVar12) ou un nom convivial (Campagne publicitaire 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a>. </p> <p>Par exemple : </p> 
-    <code>Scadd, event 1, event 7 </code>
-  </td> 
+    <code>
+      scAdd,event1,event7 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
@@ -109,12 +110,12 @@ Par exemple, un utilisateur avec un identifiant visiteur "utilisateur@exemple.co
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>URL de la page (par exemple, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Liste de produits (par exemple, <code>« Sports;Ball;1;5.95 »)</code>. </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -201,7 +202,7 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Type de connexion du visiteur ( <span class="term"> lan </span> ou <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
