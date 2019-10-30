@@ -16,7 +16,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 [!DNL Activity Map] est prise en charge sur les navigateurs Web suivants.
 
-| Navigateurs pris en charge | Versions |
+| Navigateurs pris en charge | Version  |
 |--- |--- |
 | Internet Explorer | Dernière version |
 | Firefox | Dernière version |
