@@ -5,9 +5,9 @@ seo-title: Gestion mobile
 solution: Analytics
 title: Gestion mobile
 topic: Outils d’administration
-uuid: d 09 fed 72-bb 91-422 d-b 22 c -7 b 6971 f 228 de
+uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 6184104b5a46242c5973552298964e96ff671d7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Cette intégration entre Adobe Analytics et Mobile Services
 * ajoute de nouvelles dimensions Adobe Mobile ;
 * synchronise les données avec Analytics toutes les 15 minutes
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Gestion mobile]** &gt; **[!UICONTROL Rapports d'applications mobiles]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites **[!UICONTROL de]** rapports &gt; **[!UICONTROL Modifier les paramètres]** &gt; Gestion mobile &gt; de création de rapports d’applications WebMobile.********
 
 ## Étape 1. Activation d’App Reports {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -50,15 +50,15 @@ L’activation du suivi de l’emplacement permet :
 
 L’activation des accès en arrière-plan (accès générés lorsque l’application est en arrière-plan) signifie qu’ils ont été traités comme des accès de premier plan. Ils s’affichent maintenant dans les rapports normaux, ce qui impacte également l’affectation. Cette configuration est généralement souhaitable uniquement pour maintenir la cohérence avec les implémentations héritées.
 
-Au lieu de cela, il est recommandé d’inclure les accès en arrière-plan dans une [suite de rapports virtuelle](../../components/vrs/vrs-about.md). Vous pouvez ainsi afficher les accès mais ils n’affecteront pas défavorablement le nombre de visites et de visiteurs.
+Instead, we recommend that you "include background hits" in a [virtual report suite](../../components/vrs/vrs-about.md). Vous pouvez ainsi afficher les accès mais ils n’affecteront pas défavorablement le nombre de visites et de visiteurs.
 Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 Les classifications permettent de classer des valeurs dans des groupes et de générer des rapports au niveau du groupe. Par exemple, vous pouvez classifier toutes les campagnes de recherches payantes dans une catégorie « termes de pop music » et générer des rapports sur le succès de cette catégorie par rapport à des mesures de type Instances (ou Clics publicitaires), ainsi qu’à la conversion en événements de succès.
 
-| Classification | Définition |
+| En-tête | Définition |
 |--- |--- |
 | Date du premier lancement | Date du premier lancement après installation ou réinstallation.   MM/JJ/AAAA |
-| ID de l’application | Stocke le nom et la version de l’application au format suivant :   `[AppName] [BundleVersion]` Par exemple, `myapp 1.1.` |
+| ID de l’application | Stocke le nom et la version de l’application au format suivant :   `[AppName] [BundleVersion]`Par exemple : `myapp 1.1.`. |
 | Nombre de lancements | Nombre de fois où l’application a été lancée ou mise en premier plan. |
 | Jours depuis la première utilisation | Nombre de jours depuis la première exécution. |
 | Jours depuis la dernière utilisation | Nombre de jours depuis la dernière exécution. |
