@@ -1,13 +1,13 @@
 ---
 description: Affiche des informations sur les pages et les sections de votre site qui sont les plus actives et sur les serveurs les plus sollicités.
 seo-description: Affiche des informations sur les pages et les sections de votre site qui sont les plus actives et sur les serveurs les plus sollicités.
-seo-title: Rapports de
+seo-title: Contenu du site
 solution: Analytics
-title: Rapports de
-topic: Présentation
-uuid: a 14080 b 7-be 8 d -4513-8 f 17-39926 c 7 b 70 cb
+title: Contenu du site
+topic: Rapports
+uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Affiche des informations sur les pages et les sections de votre site qui sont les plus actives et sur les serveurs les plus sollicités.
 
-## Rapports de {#topic_FD13C8F186514D16A52275BC68084F41}
+## Contenu du site {#topic_FD13C8F186514D16A52275BC68084F41}
 
 Affiche des informations sur les pages et les sections de votre site qui sont les plus actives et sur les serveurs les plus sollicités.
 
