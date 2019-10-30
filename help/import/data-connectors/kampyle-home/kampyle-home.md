@@ -6,14 +6,14 @@ solution: Analytics
 title: Connecteur de données Kampyle pour Adobe Analytics
 uuid: f7733c81-93f5-4c50-b83a-721a6fbd4e8e
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Kampyle Data Connector for Adobe Analytics{#kampyle-data-connector-for-adobe-analytics}
 
-Le connecteur de données Kampyle pour Adobe Analytics combine le système de commentaires intégré de Kampyle et les rapports comportementaux d’Adobe Analytics® pour créer de puissantes opportunités d’analyse et d’optimisation pour votre entreprise.
+Le connecteur de données Kampyle pour Adobe Analytics combine le système de commentaires intégré de Kampyle et les rapports comportementaux d’Adobe Analytics® afin de créer de puissantes opportunités d’analyse et d’optimisation pour votre entreprise.
 
 Les spécialistes du marketing en ligne se rendent de plus en plus compte de la pertinence des commentaires des clients dans la création de marque et l'obtention de résultats commerciaux. Le connecteur de données Kampyle pour Adobe Analytics® ajoute des mesures et des dimensions de commentaire des visiteurs à Adobe Analytics. Il vous permet d’analyser le comportement des visiteurs dans le contexte de leurs attitudes et opinions. Vous pouvez ainsi optimiser en fonction des commentaires et améliorer les taux de conversion.
 
