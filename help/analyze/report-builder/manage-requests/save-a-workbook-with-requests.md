@@ -1,23 +1,23 @@
 ---
 description: Après avoir créé des rapports en y incorporant des requêtes, vous pouvez les enregistrer en cliquant sur Fichier > Enregistrer ou Fichier > Enregistrer sous dans Excel. Le Créateur de rapports détecte si le rapport contient ou non des requêtes. Lorsque vous cliquez sur l’une de ces options d’enregistrement, le formulaire « Enregistrer le classeur sous » s’affiche.
 seo-description: Après avoir créé des rapports en y incorporant des requêtes, vous pouvez les enregistrer en cliquant sur Fichier > Enregistrer ou Fichier > Enregistrer sous dans Excel. Le Créateur de rapports détecte si le rapport contient ou non des requêtes. Lorsque vous cliquez sur l’une de ces options d’enregistrement, le formulaire « Enregistrer le classeur sous » s’affiche.
-seo-title: Enregistrement d'un classeur avec des requêtes
+seo-title: Enregistrement d’un classeur avec requêtes
 solution: Analytics
-title: Enregistrement d'un classeur avec des requêtes
+title: Enregistrement d’un classeur avec requêtes
 topic: Créateur de rapports
-uuid: 31611031-0982-4124-9 fc 7-7888124 aa 603
+uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Enregistrement d'un classeur avec des requêtes
+# Enregistrement d’un classeur avec requêtes
 
 Après avoir créé des rapports en y incorporant des requêtes, vous pouvez les enregistrer en cliquant sur Fichier &gt; Enregistrer ou Fichier &gt; Enregistrer sous dans Excel. Le Créateur de rapports détecte si le rapport contient ou non des requêtes. Lorsque vous cliquez sur l’une de ces options d’enregistrement, le formulaire « Enregistrer le classeur sous » s’affiche.
 
 * Lorsque vous réalisez des travaux de grande envergure dans des applications Windows, Adobe conseille d’enregistrer fréquemment vos requêtes dans la feuille de calcul et ce, afin d’éviter toute perte de données.
-* Lorsque vous attribuez un nom à votre classeur, pensez à inclure le numéro de version dans le nom de fichier, de manière à conserver un historique des travaux. For example, name your first workbook [!DNL web_forecast_01_01.xlsx].
+* Lorsque vous attribuez un nom à votre classeur, pensez à inclure le numéro de version dans le nom de fichier, de manière à conserver un historique des travaux. Par exemple, nommez votre premier classeur [!DNL web_forecast_01_01.xlsx].
 * Si le rapport a déjà été enregistré, le formulaire [!UICONTROL Enregistrer le modèle] ne s’affichera plus lors des enregistrements ultérieurs. Si le rapport ne contient aucune requête, cette boîte de dialogue ne s’affiche pas. À la place, vous accéderez au formulaire [!UICONTROL Enregistrer sous] standard d’Excel.
 
 ## Filenames and location {#section_2406629E9B644CE08430826948977D5D}
