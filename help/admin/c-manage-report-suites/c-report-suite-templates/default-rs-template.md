@@ -5,9 +5,9 @@ seo-title: Modèle par défaut
 solution: Analytics
 title: Modèle par défaut
 topic: Outils d’administration
-uuid: edcf 1 b 97-4 ff 2-4 e 98-b 84 c -199 af 2181 d 68
+uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ Le tableau suivant contient une liste d’événements commerciaux standard. La 
 | Paniers | Compteur | `scOpen` |
 | Consultations du panier | Compteur | `scView` |
 | Instances | Compteur | N/D |
-| Passage en caisse | Compteur | `scCheckout` |
+| Achats | Compteur | `scCheckout` |
 | Ajouts au panier | Compteur | `scAdd` |
 | Retraits du panier | Compteur | `scRemove` |
 | Visites | Compteur (sans sous-relations) | N/D |
