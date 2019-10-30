@@ -1,20 +1,20 @@
 ---
 description: Les fonctions de recherche et de filtrage vous aident à trouver un flux dans la liste.
-keywords: Flux de données ; recherche ; filter ; suite de rapports ; propriétaire ; état
+keywords: Flux de données;recherche;filtre;suite de rapports;propriétaire;état
 seo-description: Les fonctions de recherche et de filtrage vous aident à trouver un flux dans la liste.
 seo-title: Recherche et filtrage
 solution: Analytics
 title: Recherche et filtrage
-uuid: 0 d 9 e 38 ea-e 681-4 aa 3-843 a-d 0221 e 88 c 177
+uuid: 0d9e38ea-e681-4aa3-843a-d0221e88c177
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Recherche et filtrage
 
-La recherche et le filtrage vous permettent de localiser un flux dans la liste.
+La recherche et le filtrage vous aident à localiser un flux dans la liste.
 
 1. Pour afficher les options de filtrage, cliquez sur l’icône Filtre ou passez le curseur au-dessus de celle-ci.
 
