@@ -1,18 +1,18 @@
 ---
 description: Exemples, remarques et notes syntaxiques concernant l’utilisation de périodes dans des expressions personnalisées.
 seo-description: Exemples, remarques et notes syntaxiques concernant l’utilisation de périodes dans des expressions personnalisées.
-seo-title: Exemples de périodes utilisant des expressions personnalisées
+seo-title: Exemples de plages de dates utilisant des expressions personnalisées
 solution: Analytics
-title: Exemples de périodes utilisant des expressions personnalisées
+title: Exemples de plages de dates utilisant des expressions personnalisées
 topic: Créateur de rapports
-uuid: 3 f 46816 d -9 eee -4 b 2 d -83 be-bf 1 c 9 fb 97 fcf
+uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Exemples de périodes utilisant des expressions personnalisées
+# Exemples de plages de dates utilisant des expressions personnalisées
 
 Exemples, remarques et notes syntaxiques concernant l’utilisation de périodes dans des expressions personnalisées.
 
@@ -30,11 +30,11 @@ Dans ce tableau, on suppose que nous sommes aujourd’hui le lundi 10 novembre
 
 ## Notes on examples {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
-**Exemple 1**
+**Exemple 1**
 
 Si nous sommes aujourd’hui le lundi 10 novembre 2011, prenez la date actuelle et soustrayez une semaine afin d’obtenir la dernière semaine complète d’octobre.
 
-**Exemple 2**
+**Exemple 2**
 
 Ajoutez quatre mois au début de l’année (le mois de janvier) afin d’obtenir le mois de mai ; ajoutez deux jours au premier jour du mois pour obtenir le troisième jour du mois.
 
