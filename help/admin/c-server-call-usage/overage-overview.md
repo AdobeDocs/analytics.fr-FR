@@ -3,9 +3,9 @@ description: valeur nulle
 seo-description: valeur nulle
 seo-title: Aperçu de l’utilisation de l’appel au serveur
 title: Aperçu de l’utilisation de l’appel au serveur
-uuid: 6 e 014364-efc 1-4769-a 0 b 5-cf 105 c 0 ed 9 b 1
+uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 L’utilisation de l’appel au serveur d’Adobe Analytics répond à vos demandes de transparence concernant les données d’utilisation d’appel du navigateur et du serveur mobile. Il vous permet d’accéder à :
 
 * un tableau de bord de l’utilisation de l’appel au serveur qui suit les données relatives à votre consommation d’appels au serveur et les compare avec votre limite contractuelle. (**[!UICONTROL Analytics &gt; Admin &gt; Utilisation de l’appel au serveur]**)
-* A Server Call Usage alert type in the Alert Builder that lets you set up alerts to prevent overages (**[!UICONTROL Analytics &gt; Components &gt;Alerts]**)
+* Type d’alerte Utilisation d’appels serveur dans le Générateur d’alertes qui vous permet de configurer des alertes pour prévenir les dépassements (**[!UICONTROL Analytics &gt; Composants &gt; Alertes]**)
 
 Les principaux avantages de l’utilisation de l’appel au serveur incluent :
 
@@ -45,7 +45,7 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Appel au serveur </p> </td> 
-   <td colname="col2"> <p>Un appel au serveur, nommé également « Accès » ou « Demande d’image », est une instance dans laquelle des données sont envoyées vers les serveurs Adobe pour traitement. La page vue constitue le type d’appel serveur le plus courant. Une page vue se produit lorsqu'un visiteur affiche une page de votre site Web et qu'un appel serveur est généré vers Adobe, où les informations sont collectées, traitées puis incluses dans les mesures de rapport. </p> <p>Il existe d’autres types d’appels au serveur, tels que des liens de sortie et des téléchargements de fichiers. Dans ce cas, des données sont envoyées à Adobe pour traitement, mais elles ne sont pas enregistrées en tant que nouvelle page vue. Même les pages vues « exclues » (c’est-à-dire exclues de vos rapports par une plage d’adresses IP que vous avez configurée, par exemple) sont des appels au serveur, étant donné qu’Adobe les reçoit et les traite. Cependant, elles n’apparaissent jamais dans vos rapports. </p> <p><b>Appel au serveur principal</b> : Requêtes transmises directement par les navigateurs des visiteurs du site web ou l’API d’insertion de données. Inclut les accès principaux (pages vues), les événements personnalisés principaux, les événements de téléchargement principaux et les événements de sortie principaux. </p> <p><b>Appel au serveur secondaire</b> : Copies des appels au serveur principal créées par des balises multi-suite ou copiées/déplacées par une règle VISTA. Si un appel au serveur secondaire a été déplacé (et non copié) vers une suite de rapports différente par une règle VISTA, l’accumulation des appels au serveur secondaire sera déduite des appels au serveur principal. </p> <p><b>Appel au serveur principal mobile</b> </p> <p>Demandes reçues directement de l'un des kits SDK Mobile. Incluez trackaction, trackstate, trackapp Crashes, trackactionfrombackground, tracklocation, tracklocation, trackbeacon, trackpushmessageclickthrough, tracktimedactionbacklog, tracklifetimevalueincrease.</p> <p><b>Appel au serveur secondaire mobile</b> </p> <p>Copies des appels au serveur principal créées par des balises multi-suite ou copiées/déplacées par une règle VISTA. Si un appel au serveur secondaire a été déplacé (et non copié) vers une suite de rapports différente par une règle VISTA, l’accumulation des appels au serveur secondaire sera déduite des appels au serveur principal. </p> <p>Remarque : Si votre société n’a le droit, en vertu du contrat, qu’aux appels au serveur mobile (principal ou secondaire), votre utilisation web et mobile sera décomptée de votre engagement mobile. </p> </td> 
+   <td colname="col2"> <p>Un appel au serveur, nommé également « Accès » ou « Demande d’image », est une instance dans laquelle des données sont envoyées vers les serveurs Adobe pour traitement. La page vue constitue le type d’appel serveur le plus courant. Une page vue se produit lorsqu’un visiteur affiche une page de votre site Web et qu’un appel serveur est généré vers Adobe, où des informations sont collectées, traitées, puis incluses dans les mesures de vos rapports. </p> <p>Il existe d’autres types d’appels au serveur, tels que des liens de sortie et des téléchargements de fichiers. Dans ce cas, des données sont envoyées à Adobe pour traitement, mais elles ne sont pas enregistrées en tant que nouvelle page vue. Même les pages vues « exclues » (c’est-à-dire exclues de vos rapports par une plage d’adresses IP que vous avez configurée, par exemple) sont des appels au serveur, étant donné qu’Adobe les reçoit et les traite. Cependant, elles n’apparaissent jamais dans vos rapports. </p> <p><b>Appel au serveur principal</b> : Requêtes transmises directement par les navigateurs des visiteurs du site web ou l’API d’insertion de données. Inclut les accès principaux (pages vues), les événements personnalisés principaux, les événements de téléchargement principaux et les événements de sortie principaux. </p> <p><b>Appel au serveur secondaire</b> : Copies des appels au serveur principal créées par des balises multi-suite ou copiées/déplacées par une règle VISTA. Si un appel au serveur secondaire a été déplacé (et non copié) vers une suite de rapports différente par une règle VISTA, l’accumulation des appels au serveur secondaire sera déduite des appels au serveur principal. </p> <p><b>Appel au serveur principal mobile</b> </p> <p>Demandes reçues directement de l’un des kits SDK mobiles. Incluez trackAction, trackState, blocages trackApp, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueAugmentation.</p> <p><b>Appel au serveur secondaire mobile</b> </p> <p>Copies des appels au serveur principal créées par des balises multi-suite ou copiées/déplacées par une règle VISTA. Si un appel au serveur secondaire a été déplacé (et non copié) vers une suite de rapports différente par une règle VISTA, l’accumulation des appels au serveur secondaire sera déduite des appels au serveur principal. </p> <p>Remarque : Si votre société n’a le droit, en vertu du contrat, qu’aux appels au serveur mobile (principal ou secondaire), votre utilisation web et mobile sera décomptée de votre engagement mobile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Société de facturation (ID de facturation) </p> </td> 
@@ -63,7 +63,7 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organisation Experience Cloud </p> </td> 
-   <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L'organisation fonctionne comme une société de connexion qui s'étend sur tous les produits et solutions Experience Cloud. </p> <p>L’organisation correspond le plus souvent au nom de votre société. Toutefois, une société peut détenir plusieurs organisations. </p> </td> 
+   <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui s’étend sur tous les produits et solutions Experience Cloud. </p> <p>L’organisation correspond le plus souvent au nom de votre société. Toutefois, une société peut détenir plusieurs organisations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Engagement d’appel au serveur </p> </td> 
@@ -75,7 +75,7 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée du contrat </p> </td> 
-   <td colname="col2"> <p>La durée du contrat peut s’étendre sur plusieurs années. Disons que votre société s’engage à 6 millions d’appels au serveur pour un contrat de trois ans. À des fins de contrôle d'utilisation des appels au serveur, cette période de 3 ans peut être divisée en périodes d'utilisation plus petites afin de faciliter comparaisons d'un an à l'autre. </p> </td> 
+   <td colname="col2"> <p>La durée du contrat peut s’étendre sur plusieurs années. Disons que votre société s’engage à 6 millions d’appels au serveur pour un contrat de trois ans. Aux fins de la surveillance de l'utilisation des appels serveur, cette période de trois ans peut être ventilée en périodes d'utilisation plus petites afin de faciliter les comparaisons d'une année à l'autre. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,9 +84,7 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
 
 La permission de l’utilisation de l’appel au serveur est automatiquement accordée aux administrateurs Analytics. Elle permet aux utilisateurs de voir le tableau de bord et de créer des alertes d’appel au serveur. Les administrateurs peuvent choisir d’accorder cette permission à des non-administrateurs.
 
->[!NOTE]
->
->Votre entreprise peut choisir quelles sociétés de connexion ont accès à l'utilisation des appels au serveur.
+> [!NOTE] Votre entreprise peut choisir les sociétés de connexion qui ont accès à l’utilisation des appels serveur.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
@@ -98,7 +96,7 @@ La permission de l’utilisation de l’appel au serveur est automatiquement acc
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Utilisation de l’appel au serveur </p> </td> 
+   <td colname="col1"> <p>Utilisation des appels au serveur </p> </td> 
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Connectez-vous à Analytics via sc.omniture.com. </li> 
@@ -106,7 +104,7 @@ La permission de l’utilisation de l’appel au serveur est automatiquement acc
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Connectez-vous à login. experiencecloud. adobe. com.</li> 
+     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Connectez-vous à login.experience.loud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Cliquez sur <span class="uicontrol">Analytics </span>. </li> 
      <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Accédez à <span class="ignoretag"><span class="uicontrol">Produits</span> &gt; <span class="uicontrol">Profil du produit</span> &gt; <span class="uicontrol">Permissions</span> &gt; <span class="uicontrol">Outils Analytics</span> &gt; <span class="uicontrol">Utilisation de l’appel au serveur</span></span>. </li> 
     </ol> </td> 
