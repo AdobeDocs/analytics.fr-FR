@@ -3,9 +3,9 @@ description: Dans le Gestionnaire de mesures calculées, vous pouvez définir un
 seo-description: Dans le Gestionnaire de mesures calculées, vous pouvez définir un processus qui inclut des mesures d’approbation pour différents niveaux d’application et pour des départements ou des groupes spécifiques.
 seo-title: Approbation des mesures calculées
 title: Approbation des mesures calculées
-uuid: df 51252 c -3121-4030-8 a 8 c -566 d 557 f 28 b 2
+uuid: df51252c-3121-4030-8a8c-566d557f28b2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
