@@ -4,10 +4,10 @@ seo-description: Ces rapports vous aident à identifier des modèles d’achat d
 seo-title: Profil du visiteur
 solution: Analytics
 title: Profil du visiteur
-topic: Présentation
-uuid: ffdd 24 ab -5 de 4-44 a 0-8 d 9 b -5 d 6 a 9 b 60 a 2 dd
+topic: Rapports
+uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Ces rapports vous aident à identifier des modèles d’achat de clients à part
  <tbody> 
   <tr> 
    <td colname="col1"> Langues </td> 
-   <td colname="col2"> <p> Indique les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues les plus utilisées par les visiteurs de votre site. </p> </td> 
+   <td colname="col2"> <p>  Affiche les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues que les visiteurs utilisent le plus souvent sur votre site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domaines </td> 
