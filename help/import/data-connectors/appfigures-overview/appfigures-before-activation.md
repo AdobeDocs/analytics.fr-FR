@@ -5,7 +5,7 @@ seo-title: Avant D’Activer Cette Intégration
 title: Avant D’Activer Cette Intégration
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -58,9 +58,7 @@ Le tableau suivant décrit les variables Analytics automatiquement activées pou
 
 ### Variables requises {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE]
->
->Cette intégration utilise des variables dédiées pour les données de la boutique d’applications. Vous n’avez donc pas besoin d’affecter des variables et des événements de commerce personnalisés.
+> [!NOTE] Cette intégration utilise des variables dédiées pour les données de la boutique d’applications. Vous n’avez donc pas besoin d’affecter des variables et des événements de commerce personnalisés.
 
 | Type de variable | Nom | Méthode de remplissage | Description |
 |---|---|---|---|
