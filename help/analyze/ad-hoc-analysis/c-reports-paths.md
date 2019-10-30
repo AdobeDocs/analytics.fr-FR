@@ -36,7 +36,7 @@ Les rapports de chemins comprennent des rapports détaillés standard et des rap
 
 **[!UICONTROL Abandons]** : affiche les taux d’attrition des visites et de conversion entre chaque point de contrôle que vous définissez. Les étapes sont organisées de haut en bas avec les chiffres et pourcentages bruts sur la gauche et les pourcentages de conversion et d’abandons sur la droite.
 
-Reportez-vous à la section [Rapport d’abandons](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) pour en savoir plus.
+Voir  [Rapport d’abandons](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) pour en savoir plus.
 
 **[!UICONTROL Longueur de chemin]** : indique la profondeur du parcours des visiteurs sur votre site (par pourcentage ainsi que par compte total). En d’autres termes, le rapport indique le nombre de pages que le visiteur moyen consulte avant de quitter votre site.
 
