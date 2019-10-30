@@ -4,10 +4,10 @@ seo-description: Ce rapport présente des moyennes pour les mesures Vues de prod
 seo-title: Entonnoir de conversion de produits
 solution: Analytics
 title: Entonnoir de conversion de produits
-topic: Présentation
-uuid: e 857 aa 20-32 b 6-45 a 2-a 934-6 a 11 deadb 49 d
+topic: Rapports
+uuid: e857aa20-32b6-45a2-a934-6a11fatb49d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,4 +18,4 @@ Ce rapport présente des moyennes pour les mesures Vues de produits, Ajouts au p
 
 Pour ajouter des mesures et des événements personnalisés à partir d’autres groupes de rapports, cliquez sur un lien **[!UICONTROL Événements sélectionnés]dans l’en-tête du rapport.**
 
-Les périodes en cours ne sont pas terminées lorsque vous affichez les données. En conséquence, ce rapport peut indiquer une tendance à la baisse entre la période précédente et la période en cours. Il peut, par exemple, indiquer qu’il y a moins de visites aujourd’hui qu’hier, mais seulement parce que les statistiques relatives au reste de la période ne sont pas encore disponibles.
+Les périodes en cours ne sont pas terminées lorsque vous affichez les données. En conséquence, ce rapport peut indiquer une tendance à la baisse entre la période précédente et la période en cours. Par exemple, il peut y avoir moins de visites aujourd’hui qu’hier, mais seulement parce que le reste des statistiques de la période n’a pas encore été généré.
