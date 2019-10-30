@@ -1,18 +1,18 @@
 ---
-description: The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
-seo-description: The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
+description: L’assistant d’intégration des connecteurs de données vous guide tout au long du processus d’intégration des connecteurs de données.
+seo-description: L’assistant d’intégration des connecteurs de données vous guide tout au long du processus d’intégration des connecteurs de données.
 seo-title: Exécution de l’assistant d’intégration des connecteurs de données
 title: Exécution de l’assistant d’intégration des connecteurs de données
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Exécution de l’assistant d’intégration des connecteurs de données{#running-the-data-connectors-integration-wizard}
 
-The Data Connectors Integration Wizard steps you through the Data Connectors integration process.
+L’assistant d’intégration des connecteurs de données vous guide tout au long du processus d’intégration des connecteurs de données.
 
 Pour configurer l’intégration :
 
@@ -53,7 +53,7 @@ Pour configurer l’intégration :
   <tr valign="top"> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>ID de compte </p> </td> 
-   <td colname="col3"> <p>Specify your Delivra Account ID (the unique identifier assigned to your organization by Delivra), then click Next to proceed to Step 3 of the Wizard.<b></b> </p> </td> 
+   <td colname="col3"> <p>Indiquez votre ID de compte de livraison (l'identifiant unique attribué à votre organisation par Delivra), puis cliquez sur <b>Suivant</b> pour passer à l'étape 3 de l'Assistant. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>3 </p> </td> 
@@ -72,33 +72,33 @@ Pour configurer l’intégration :
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>4 </p> </td> 
-   <td colname="col2"> <p>Client-Defined Report Suite-Level Segments </p> </td> 
-   <td colname="col3"> <p>Cette intégration crée les segments définis par les partenaires affichés sur le côté gauche de la page Segments d’intégration de l’assistant d’intégration. </p> <p>De plus, vous pouvez sélectionner des segments existants au niveau de la suite de rapports à inclure dans l’intégration. </p> <p>Select the desired segments on the right side of the page, then click Next to proceed to Step 5 of the Wizard.<b></b> </p> </td> 
+   <td colname="col2"> <p>Segments définis par le client au niveau de la suite de rapports </p> </td> 
+   <td colname="col3"> <p>Cette intégration crée les segments définis par les partenaires affichés sur le côté gauche de la page Segments d’intégration de l’assistant d’intégration. </p> <p>De plus, vous pouvez sélectionner des segments existants au niveau de la suite de rapports à inclure dans l’intégration. </p> <p>Sélectionnez les segments de votre choix sur le côté droit de la page, puis cliquez sur <b>Suivant</b> pour passer à l’étape 5 de l’Assistant. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col2"> <p>Cliqué </p> </td> 
-   <td colname="col3"> <p>Specify the Analytics event that stores the email Clicked data imported from the email system. </p> <p>The Clicked event lets you see the number of visitors who clicked the email message. </p> </td> 
+   <td colname="col3"> <p>Spécifiez l’événement Analytics qui stocke les données de clic par courrier électronique importées du système de messagerie. </p> <p>L’événement Cliqué vous permet d’afficher le nombre de visiteurs qui ont cliqué sur le message électronique. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col2"> <p>Ouvert </p> </td> 
-   <td colname="col3"> <p>Specify the Analytics event that stores the email Opened data imported from the email system. </p> <p>The Opened event lets you see the number of visitors who opened the email message. </p> </td> 
+   <td colname="col3"> <p>Spécifiez l’événement Analytics qui stocke les données de courrier électronique ouvertes importées du système de messagerie électronique. </p> <p>L’événement Ouvert vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col2"> <p>Envoyé </p> </td> 
-   <td colname="col3"> <p>Specify the Analytics event that stores the email Sent data imported from the email system. </p> <p>The Clicked event lets you see the number of email messages that were sent. </p> </td> 
+   <td colname="col3"> <p>Spécifiez l’événement Analytics qui stocke les données de courrier électronique envoyé importées du système de messagerie. </p> <p>L’événement Cliqué vous permet de voir le nombre de messages électroniques envoyés. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col2"> <p>Rebonds totaux </p> </td> 
-   <td colname="col3"> <p>Specify the Analytics event that stores the email Total Bounces data imported from the email system. </p> <p>L’événement Total-Rebonds vous permet de voir le nombre de messages électroniques qui n’ont pas été remis aux destinataires en raison d’un problème de remise. </p> </td> 
+   <td colname="col3"> <p>Spécifiez l’événement Analytics qui stocke les données de rebonds totaux du courrier électronique importées du système de messagerie. </p> <p>L’événement Total-Rebonds vous permet de voir le nombre de messages électroniques qui n’ont pas été remis aux destinataires en raison d’un problème de remise. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col2"> <p>Unsubscribed </p> </td> 
-   <td colname="col3"> <p>Spécifiez l’événement Analytics qui stocke les données de désabonnement du courrier électronique importées du système de messagerie. </p> <p>The Unsubscribed event lets you see the number of visitors who opened the email message but then clicked the Unsubscribe link to opt-out of future email messages from your organization. </p> </td> 
+   <td colname="col2"> <p>Non abonné </p> </td> 
+   <td colname="col3"> <p>Spécifiez l’événement Analytics qui stocke les données de désabonnement du courrier électronique importées du système de messagerie. </p> <p>L’événement Désabonné vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique, puis cliqué sur le lien Désabonner pour exclure les futurs messages électroniques de votre organisation. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
