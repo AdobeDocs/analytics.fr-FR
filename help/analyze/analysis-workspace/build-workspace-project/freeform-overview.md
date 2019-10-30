@@ -1,21 +1,21 @@
 ---
 description: valeur nulle
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 seo-description: valeur nulle
-seo-title: Création d'un projet - Présentation
+seo-title: Aperçu de la création d’un projet
 solution: Analytics
-title: Création d'un projet - Présentation
-topic: Reports and Analytics
-uuid: a 68 be 05 d-f 31 e -4 e 6 d-ad 04-c 784 ecb 0 eb 00
+title: Aperçu de la création d’un projet
+topic: Reports & Analytics
+uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Création d'un projet - Présentation
+# Aperçu de la création d’un projet
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Espace de travail]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
 Créez un projet Analytics durable quelle que soit la combinaison de visualisations, de composants de rapports et de tableaux de données. Cet environnement reprend nombre des fonctions du créateur de tableaux d’Ad Hoc Analysis dans Analytics.
 
@@ -33,7 +33,7 @@ La page de liste de projets de l’espace de travail présente les informations 
 
 | Élément | Description |
 |---|---|
-| Projet       [Modèles](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) de projet | Utilisez ces modèles de projet prérenseignés tels quels ou adaptez-les en fonction de vos besoins (en ajoutant ou en remplaçant des mesures ou des visualisations, par exemple) et enregistrez-les sous un nouveau nom. |
+| Projet       [Modèles](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) | Utilisez ces modèles de projet prérenseignés tels quels ou adaptez-les en fonction de vos besoins (en ajoutant ou en remplaçant des mesures ou des visualisations, par exemple) et enregistrez-les sous un nouveau nom. |
 | [Créer un projet](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) | Cliquez sur ce lien pour démarrer un projet entièrement nouveau. |
 | Gérer les projets | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
 | Afficher les tutoriels | Permet d’accéder aux [vidéos YouTube Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
@@ -44,7 +44,7 @@ La page de liste de projets de l’espace de travail présente les informations 
 
 ## Informations et paramètres du projet {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Espace de travail]** &gt; **[!UICONTROL Projet]** &gt; **[!UICONTROL Informations et paramètres du projet]**
+**[!UICONTROL Espace de travail]** &gt; **[!UICONTROL Projet]** &gt; Infos et paramètres du **[!UICONTROL projet]**
 
 ![](assets/projectinfo.png)
 
@@ -69,9 +69,7 @@ Le menu Projets supérieur ressemble à ce qui suit :
 
 Les sous-menus contiennent les options suivantes.
 
->[!NOTE]
->
->Options marked by an asterisk (*) display only with **saved** projects.
+> [!NOTE] Les options marquées d’un astérisque (*) s’affichent uniquement avec les projets **enregistrés** .
 
 | Projet | Modifier | Insérer | Composants | Partager | Aide |
 |---|---|---|---|---|---|
