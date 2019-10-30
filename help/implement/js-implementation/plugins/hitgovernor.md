@@ -4,8 +4,8 @@ seo-description: Le module externe s.hitGovernor effectue le suivi du nombre tot
 seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
-translation-type: ht
-source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,7 +63,7 @@ Pour mettre en œuvre le module externe hitGovernor :
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Syntaxe </th> 
+   <th colname="col2" class="entry"> du lien personnalisé </th> 
    <th colname="col3" class="entry"> Description </th> 
   </tr> 
  </thead>
