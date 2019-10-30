@@ -1,13 +1,13 @@
 ---
 description: La section relative à la destination du flux définit la manière dont le flux est distribué.
-keywords: Flux de données ; flux ; destination ; sftp ; s 3 ; ftp ; paramètres
+keywords: Flux de données;flux;destination;sftp;s3;ftp;paramètres
 seo-description: La section relative à la destination du flux définit la manière dont le flux est distribué.
 seo-title: Destination du flux
 solution: Analytics
 title: Destination du flux
-uuid: 4 a 59 e 8 de-e 7 a 6-4 f 7 a-bf 42-db 7 d 59 e 61 b 4 c
+uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -103,7 +103,7 @@ Le tableau suivant affiche toutes les options des canaux de distribution. Les op
   </tr> 
   <tr> 
    <td colname="col1"> <p> Hôte </p> </td> 
-   <td colname="col2"> <p>Indiquez l’emplacement FTP ou SFTP de l’hôte. </p> <p>Cette valeur doit être au format ftp/sftp approprié, <code>ftp.domain.com/sous-domaine</code> ou <code>sftp.domain.com/sous-domaine</code>. </p> <p> Les ports standard 21 et 22 pour le FTP et le sFTP sont requis. </p> </td> 
+   <td colname="col2"> <p>Indiquez l’emplacement FTP ou SFTP de l’hôte. </p> <p>Cette valeur doit être conforme au format ftp/sftp approprié, <code> ftp.domain.com/subdomain</code> ou <code> sftp.domain.com/subdomain</code>. </p> <p> Les ports standard 21 et 22 pour le FTP et le sFTP sont requis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mot de passe </p> <p>Confirmer le mot de passe </p> </td> 
