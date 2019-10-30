@@ -3,9 +3,9 @@ description: valeur nulle
 seo-description: valeur nulle
 seo-title: Carte
 title: Carte
-uuid: 6038 f 336-62 a 3-4 efa -8316-4 d 7792468 db 3
+uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La visualisation des cartes dans Analysis Workspace :
 
-* Permet de créer une carte visuelle d'une mesure (y compris les mesures calculées).
+* Permet de créer une carte visuelle de n’importe quelle mesure (y compris les mesures calculées).
 * est pratique pour identifier et comparer les données de mesure de différentes régions géographiques ;
 * peut prendre en charge 2 sources de données : la latitude et la longitude à partir de l’utilisation mobile ou la dimension géographique à partir de l’utilisation du web ;
-* Prend en charge l'exportation au format PDF.
+* Prend en charge l’exportation au format PDF.
 * tire parti de WebGL pour l’affichage des graphiques. Si vos pilotes graphiques ne prennent pas en charge le rendu WebGL, il se peut que vous deviez les mettre à jour.
 
 ## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
@@ -71,7 +71,7 @@ La visualisation des cartes dans Analysis Workspace :
 
 ## Map visualization settings {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-2 jeux de paramètres existent pour Carte :
+Il existe deux jeux de paramètres pour Map :
 
 L’**icône de clé** en haut à droite affiche la boîte de dialogue initiale dans laquelle vous pouvez modifier la mesure et la source de données :
 
@@ -86,4 +86,4 @@ Cliquez sur l’**icône d’engrenage** pour afficher ces paramètres de visual
 | Styles : Thème de couleur | Affiche le jeu de couleurs pour la carte thermique et les bulles. Vous avez le choix entre Corail, Rouges, Verts ou Bleus. La valeur par défaut est Corail. |
 | Styles : Style de carte | Vous avez le choix entre De base, Rues, Lumineux, Clair, Foncé et Satellite. |
 | Rayon du groupe | Regroupe les points de données qui se trouvent dans le nombre spécifié de pixels. La valeur par défaut est 50. |
-| Valeur max. par défaut | Vous permet de modifier le seuil de la valeur maximale pour la carte ; le réglage de cette valeur ajuste l'échelle des valeurs des bulles/heatmap (couleur et taille) par rapport au paramètre de valeur max. personnalisé. |
+| Valeur max. par défaut | Vous permet de modifier le seuil de la valeur maximale de la carte. L’ajustement de cette valeur permet d’ajuster l’échelle des valeurs de bulles/carte thermique (couleur et taille) par rapport à la valeur maximale personnalisée définie. |
