@@ -8,8 +8,8 @@ subtopic: Modules externes
 title: getQueryParam
 topic: Développeur et mise en œuvre
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Renvoie la valeur du paramètre de chaîne de requête spécifié, s’il figure
 
 Une fois l’installation effectuée dans votre code [!DNL AppMeasurement] pour JavaScript, le module externe est configuré en sélectionnant une variable [!DNL Analytics] à renseigner à l’aide des données figurant dans la chaîne de requête et en indiquant les valeurs de chaîne de requête à capturer. Le module externe détecte la chaîne de requête spécifiée, le cas échéant, et renseigne sa valeur dans la variable choisie. Si aucun paramètre de chaîne de requête n’est détecté avec cette valeur, une chaîne vide est renvoyée. S’il existe un paramètre de chaîne de requête dépourvu de valeur (comme, param1 dans `?param1&param2=value`), le mot *`true`* est renvoyé.
 
->[!NOTE]
->
->Le code de base du module externe doit être installé dans votre code [!DNL AppMeasurement] pour JavaScript pour que les exemples ci-dessous fonctionnent.
+> [!NOTE] Le code de base du module externe doit être installé dans votre code [!DNL AppMeasurement] pour JavaScript pour que les exemples ci-dessous fonctionnent.
 
 Si vous souhaitez utiliser *`s.campaign`* pour capturer des codes de suivi de campagne disponibles en tant que valeurs du paramètre de requête *`cid`*, saisissez ce qui suit dans la fonction *`doPlugins()`* de votre code [!DNL AppMeasurement] pour JavaScript :
 
@@ -34,9 +32,7 @@ Si vous souhaitez utiliser *`s.campaign`* pour capturer des codes de suivi de ca
 
 Dans cet exemple, si le visiteur était arrivé sur la page d’entrée de votre site avec l’URL [!DNL https://www.yoursite.com/index.html?cid=123456], *`s.campaign`* reçoit alors une valeur *123456*. Vous pouvez le constater à l’aide du débogueur [!DNL DigitalPulse], lequel doit afficher *v0=123456* dans le cadre de la demande d’image.
 
->[!NOTE]
->
->Le paramètre *`cid`* et d’autres sont utilisés ici à titre d’exemple. Vous pouvez les remplacer par tout paramètre de chaîne de requête existant sur votre site.
+> [!NOTE] Le paramètre *`cid`* et d’autres sont utilisés ici à titre d’exemple. Vous pouvez les remplacer par tout paramètre de chaîne de requête existant sur votre site.
 
 Le module externe *`getQueryParam`* compte deux arguments (options) supplémentaires que vous pouvez utiliser pour capturer des données dans des variables Analytics :
 
@@ -74,9 +70,7 @@ L’indicateur « f » doit être utilisé dans ce troisième argument avec de
 
 Lorsque vous utilisez des cadres et le paramètre *f*, il est conseillé d’employer le module externe *`getValOnce`* pour éviter que le code de suivi de campagne ne soit envoyé avec chaque page vue.
 
->[!NOTE]
->
->Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
+> [!NOTE] Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
 
 **Code du module externe**
 
