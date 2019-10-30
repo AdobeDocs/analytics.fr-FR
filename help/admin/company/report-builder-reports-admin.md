@@ -7,7 +7,7 @@ title: Rapports du Report Builder
 topic: Outils d’administration
 uuid: 41f98b99-9a78-430a-8a42-101edd3d2ef
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
