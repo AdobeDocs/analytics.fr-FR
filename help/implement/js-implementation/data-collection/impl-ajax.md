@@ -7,8 +7,8 @@ solution: Analytics
 title: Mise en œuvre à l’aide d’AJAX
 topic: Développeur et mise en œuvre
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ L’entreprise souhaite obtenir des réponses à ses questions. Les besoins sont
 Le code JavaScript contient deux fonctions qui permettent d’envoyer des données. Vous devez suivre des instructions distinctes pour déterminer quelle méthode doit être utilisée pour envoyer des données.
 Si une demande d’image a été précédemment effectuée sur la même page, vous devez d’abord effacer les valeurs des variables précédemment définies. Utilisez la fonction `clearVars()` d’[!DNL AppMeasurement] pour JavaScript ou écrivez une fonction JavaScript simple pour effacer les variables si vous utilisez le code H. Définissez les valeurs appropriées pour le contenu modifié, à savoir la variable *`pageName`*. Une fois les variables définies, appelez la fonction *`t()`*.
 
->[!NOTE]
->
->Avant d’appeler `s.t()`, vous devez effacer toute valeur de l’objet s qui ne doit pas persister. Si vous utilisez [!DNL AppMeasurement] pour JavaScript, vous pouvez appeler `s.clearVars()`. Si vous utilisez du code H, écrivez une routine simple afin de définir les variables sur une chaîne vide.
+> [!NOTE] Avant d’appeler `s.t()`, vous devez effacer toute valeur de l’objet s qui ne doit pas persister. Si vous utilisez [!DNL AppMeasurement] pour JavaScript, vous pouvez appeler `s.clearVars()`. Si vous utilisez du code H, écrivez une routine simple afin de définir les variables sur une chaîne vide.
 
 ```js
 s.clearVars(); 
