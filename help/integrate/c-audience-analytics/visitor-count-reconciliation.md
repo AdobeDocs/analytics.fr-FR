@@ -1,16 +1,16 @@
 ---
 description: Certaines mesures des visiteurs d’Adobe Analytics et d’Adobe Audience Manager ont des définitions similaires mais ne correspondent pas exactement, pour diverses raisons.
 seo-description: Certaines mesures des visiteurs d’Adobe Analytics et d’Adobe Audience Manager ont des définitions similaires mais ne correspondent pas exactement, pour diverses raisons.
-seo-title: Différences de nombre de visiteurs
-title: Différences de nombre de visiteurs
-uuid: c 3 bbb 887-bd 02-4 c 1 c -9 a 2 b -64811 c 0 ef 56 a
+seo-title: Différences entre les nombres de visiteurs
+title: Différences entre les nombres de visiteurs
+uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Différences de nombre de visiteurs
+# Différences entre les nombres de visiteurs
 
 Certaines mesures des visiteurs d’Adobe Analytics et d’Adobe Audience Manager ont des définitions similaires mais ne correspondent pas exactement, pour diverses raisons.
 
@@ -67,9 +67,9 @@ Les mesures Population des segments en temps réel d’AAM et Visiteurs avec un 
   <tr> 
    <td colname="col1"> <p>Limite de 150 segments </p> </td> 
    <td colname="col2"> <p>Non </p> </td> 
-   <td colname="col3"> <p>Oui. Les mesures Analytics peuvent être affectées de 5 % maximum par la limite d’intégration de 150 segments. « Limite d’audience atteinte » apparaîtra dans la dimension Nom d’audience en cas de troncation. </p> </td> 
+   <td colname="col3"> <p>Oui. Les mesures Analytics peuvent être affectées de 5 % maximum par la limite d’intégration de 150 segments. "Limite d’audience atteinte" apparaît dans la dimension Nom d’audience si une troncature est survenue. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voir [Présentation des segments dans Analytics et Audience Manager](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B) pour une explication supplémentaire sur les nuances entre les données et la segmentation dans Analytics et Audience Manager.
+See [Understanding Segments in Analytics and Audience Manager](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
