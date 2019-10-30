@@ -3,14 +3,14 @@ description: Le créateur de mesures calculées permet d’appliquer des fonctio
 seo-description: Le créateur de mesures calculées permet d’appliquer des fonctions statistiques et mathématiques afin de créer des mesures calculées avancées.
 seo-title: Fonctions de base de référence
 title: Fonctions de base de référence
-uuid: 5 c 2 b 4 a 0 e -613 c -4 b 27-95 b 8-01 d 480 aeab 78
+uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: a4ccd3503d9d8e5e5367bb1ebd149262c5cb925a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Référence : fonctions de base
+# Référence : fonctions de base
 
 <!-- 
 
@@ -22,9 +22,7 @@ Le créateur de mesures calculées permet d’appliquer des fonctions statistiqu
 
 Vous trouverez ci-dessous une liste alphabétique des fonctions ainsi que leur définition.
 
->[!NOTE]
->
->Where [!DNL metric] is identified as an argument in a function, other expressions of metrics are also allowed. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] Lorsque [!DNL metric] est identifié comme un argument dans une fonction, d’autres expressions de mesures sont également autorisées. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
 
 ## Fonctions de tableau et fonctions de ligne {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -107,7 +105,7 @@ EXP(metric)
 Opérateur de puissance
 
 <pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+pow(x,y) =<sup>xy</sup> = x*x*x*... (y fois)
 </pre>
 
 ## Moyenne (tableau) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -160,7 +158,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Percentile (tableau) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Renvoie le percentile k-th des valeurs pour une mesure. Vous pouvez utiliser cette fonction pour établir un seuil d’acceptation. Par exemple, vous pouvez décider d'examiner les éléments de dimension qui score au-dessus du percentile 90.
+Renvoie le percentile k-th des valeurs pour une mesure. Vous pouvez utiliser cette fonction pour établir un seuil d’acceptation. Par exemple, vous pouvez décider d’examiner les éléments de dimension qui obtiennent un score supérieur aux 90 centiles.
 
 ```
 PERCENTILE(metric,k)
@@ -237,7 +235,7 @@ round( 314.15, -2) = 300
 
 ## Décompte de lignes {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Renvoie le nombre de lignes pour une colonne donnée (nombre d’éléments uniques signalés dans une dimension). « Uniques dépassées » est comptabilisé en tant que 1.
+Renvoie le nombre de lignes pour une colonne donnée (nombre d’éléments uniques signalés dans une dimension). "Valeurs uniques dépassées" est compté comme 1.
 
 ## Max. ligne {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -326,7 +324,7 @@ Prenons comme exemple une colonne de 3 éléments :
 
 3
 
-La moyenne de cette colonne est 2. La variance de la colonne est ((1 - 2) ² + (2 - 2) ² + (3 - 2) ²/3 = 2/3. Dans les Ad Hoc Analysis, vous verrez :
+La moyenne de cette colonne est 2. La variance de la colonne sera ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Dans les Ad Hoc Analysis, vous verrez :
 
 1 2/3
 
