@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: Développeur et mise en œuvre
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,19 +17,15 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Consigne la durée en secondes pendant laquelle votre page a été l’onglet actif dans le navigateur et transmet cette valeur dans une mesure sur la prochaine page vue.
 
->[!NOTE]
->
->Il s'agit d'une version bêta du module externe, et d'autres mises à jour pourraient être publiées.
+> [!NOTE] Il s’agit d’une version bêta du module externe ; d’autres mises à jour pourront être publiées par la suite.
 
-Ce module externe requiert [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Ce module externe exige [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
 Ce module externe consigne également la durée totale en secondes pendant laquelle la page s’est trouvée dans le navigateur (durée d’affichage active et passive). Vous devez utiliser le module externe getPreviousValue pour effectuer le suivi du nom de page précédent associé aux événements de visibilité de la page. Le suivi de ces valeurs permet de mieux comprendre l’engagement des visiteurs et d’effectuer un suivi plus précis sur le comportement des visiteurs sur vos sites.
 
 Utilisez le module externe getPreviousValue pour effectuer le suivi du nom de page précédent associé aux événements de visibilité de la page. Le suivi de ces valeurs permet de mieux comprendre l’engagement des visiteurs et d’effectuer un suivi plus précis sur le comportement des visiteurs sur vos sites.
 
->[!NOTE]
->
->Les instructions suivantes vous demandent de modifier le code de collecte de données de votre site. Cela peut avoir une incidence sur la collection des données sur votre site. Aussi, cette opération doit-elle être réalisée par un développeur maîtrisant l’utilisation et l’implémentation d’Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+> [!NOTE] Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collection des données sur votre site. Aussi, cette opération doit-elle être réalisée par un développeur maîtrisant l’utilisation et l’implémentation d’Analytics. Ce module externe est compatible uniquement avec les bibliothèques de suivi [!DNL AppMeasurement].
 
 ## Modules externes de prise en charge requis {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -43,7 +39,7 @@ Utilisez le module externe getPreviousValue pour effectuer le suivi du nom de pa
 
 La variable `s.pvel` doit contenir les trois événements à utiliser :
 
-| Evénement | Définition |
+| Événement | Définition |
 |---|---|
 | Total des secondes de visibilité de la page (nombre) | Durée totale pendant laquelle la page était active dans le navigateur. |
 | Total des secondes de la page (nombre) | Durée pendant laquelle la page a été chargée dans le navigateur, quel que soit son état de visibilité. |
@@ -104,11 +100,11 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 * Les installations de module externe doivent toujours faire l’objet de tests afin de s’assurer que la collecte des données fonctionne comme prévu avant son déploiement dans un environnement de production.
 * Puisque le module externe transmet la durée en secondes de visibilité de la page et le total des secondes pendant l’association à la page précédente, les données ne sont pas collectées pour la dernière page vue de la visite.
 * Ce module externe repose sur la possibilité de définir des cookies dans le navigateur Web de l’utilisateur. Si l’utilisateur n’accepte pas les cookies propriétaires, le module externe ne transmet pas les données dans Analytics.
-* The plug-in creates its own first-party cookies named `s_tps` and `s_pvs`.
+* Le module externe crée ses propres cookies propriétaires nommés `s_tps` et `s_pvs`.
 
 * Un très petit pourcentage d’utilisateurs ne transmettra pas le pourcentage des données affichées sur la page en raison des limitations du navigateur et la logique est contenue dans le module externe afin de s’assurer que les données ne sont pas biaisées. Toutefois, ce module externe a été testé avec succès dans IE, Firefox, Chrome et Safari.
 * En raison de la façon dont le module externe mesure le total des secondes et associe cette valeur au nom de page précédente, il y aura des différences entre les mesures de durée par défaut passée sur la page et les mesures de total des secondes.
-* [!UICONTROL Il est possible de créer des mesures] calculées afin de mieux résumer et comprendre le comportement des visiteurs associé à ces mesures :
+* Il est possible de créer des [!UICONTROL mesures calculées] afin de mieux récapituler et comprendre le comportement des visiteurs associé à ces mesures :
 
    * **Quotient de visibilité de la page**(Total des secondes de visibilité de la page / Total des secondes de la page)
    * **Total des secondes** masquées (Total des secondes de la page - Total des secondes de visibilité de la page)
@@ -116,7 +112,7 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
    * **Moyenne des secondes masquées de la page**((Total des secondes de la page - Total des secondes de visibilité de la page) / Total des instances de visibilité de la page)
 
 * En raison de la façon dont le module externe arrondit les secondes, il se peut qu’il y ait 1 ou 2 secondes de différence entre le total des secondes de visibilité de la page et le total des secondes, le total des secondes étant plus élevé. (A résoudre dans une prochaine mise à jour)
-* L’utilisation du module externe getVisitStart devrait tenir compte des visiteurs qui ont commencé une nouvelle visite après plus de 30 minutes d’inactivité. Ceci ne fonctionne pas comme prévu ; toutefois, ce problème sera probablement résolu quand nous intégrerons le « total des secondes actives » dans une prochaine itération du module externe.
+* L’utilisation du module externe getVisitStart devrait tenir compte des visiteurs qui ont commencé une nouvelle visite après plus de 30 minutes d’inactivité. Cela ne fonctionne pas comme prévu; toutefois, il y aura probablement une solution lorsque nous intégrerons le "total des secondes actives" dans une prochaine version du module externe.
 
 ## Questions fréquentes {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
@@ -130,7 +126,7 @@ Oui, le total des secondes de la page et le total des instances de visibilité s
 
 **Les événements capturés seront-ils utiles si je les utilise dans des rapports autres que le nom de la page précédente ?**
 
-Puisque le module externe consigne les valeurs à la demande d’image suivante, seules les autres eVars qui ont été capturées dans un contexte de page précédente peuvent être appliquées, c.-à-d. l’URL de page précédente.
+Puisque le module externe enregistre les valeurs sur la demande d’image suivante, seules les autres eVars capturées dans un contexte de page précédente peuvent être appliquées, c’est-à-dire. 'URL de la page précédente'.
 
 **Le module externe enverra-t-il la durée de visibilité lors d’un appel s.tl() ou seulement lors d’un appel s.t() ?**
 
