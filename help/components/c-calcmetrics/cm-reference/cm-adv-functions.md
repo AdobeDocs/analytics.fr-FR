@@ -3,14 +3,14 @@ description: Accédez à ces fonctions en cochant Afficher les options avancées
 seo-description: Accédez à ces fonctions en cochant Afficher les options avancées dans la liste déroulante Fonctions.
 seo-title: Fonctions avancées de référence
 title: Fonctions avancées de référence
-uuid: 7 d 1071 b 9-1737-4 b 7 c-b 318-87907 dae 5619
+uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: ff46935f6ec38c8981e4a1fffdbdc637bdf557db
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Référence : fonctions avancées
+# Référence : fonctions avancées
 
 <!-- 
 
@@ -36,9 +36,7 @@ D’un autre côté, si deux mesures vous intéressent, il n’est pas juste d�
 
 Renvoie la valeur de son argument. Utilisez SAUF pour vous assurer qu’une valeur est différente d’une valeur spécifique.
 
->[!NOTE]
->
->0 (zéro) signifie False et toute autre valeur est True.
+> [!NOTE] 0 (zéro) signifie False et toute autre valeur est True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -65,7 +63,7 @@ Approximate Count Distinct (dimension)
 
 Le nombre distinct approximatif (eVar ID de client) est un cas d’utilisation courant pour cette fonction.
 
-Définition d’une nouvelle mesure calculée « Nombre approximatif de clients » :
+Définition d’une nouvelle mesure calculée "Clients approximatifs" :
 
 ![](assets/approx-count-distinct.png)
 
@@ -214,9 +212,7 @@ Renvoie la moyenne des N dernières lignes.
 
 Si N &lt;= 0, elle utilise toutes les lignes précédentes. Puisque la moyenne cumulée est triée selon la dimension, elle n’est utile que pour les dimensions qui possèdent un ordre naturel, comme la date ou la longueur de chemin.
 
->[!NOTE]
->
->Cela ne fonctionne pas comme vous le souhaitez avec des mesures de taux telles que les recettes/visiteurs : elle moyenne les taux au lieu d'additionner les recettes sur le dernier N et d'additionner les visiteurs sur le dernier N avant de les diviser. À la place, utilisez
+> [!NOTE] Cela ne fonctionne pas comme vous pouvez vous y attendre avec les mesures de taux telles que les recettes/visiteurs : il calcule la moyenne des taux au lieu de additionner les recettes des N précédentes et de additionner les visiteurs des N précédentes, puis de les diviser. À la place, utilisez
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -459,9 +455,7 @@ Renvoie les éléments qui ne comportent pas une correspondance exacte avec la v
 
 Renvoie TRUE si un argument est VRAI ou renvoie FALSE si tous les arguments sont FAUX.
 
->[!NOTE]
->
->0 (zéro) signifie False et toute autre valeur est True.
+> [!NOTE] 0 (zéro) signifie False et toute autre valeur est True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -658,7 +652,7 @@ Alias de score centré réduit, soit l’écart par rapport à la moyenne divis�
 
 Exécute un test en t m-latéral avec un score normalisé de col et n degrés de liberté.
 
-The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+La signature est `t_test( x, n, m )`. En dessous, il appelle simplement `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
 Ici, `m` correspond au nombre de queues et `n`, aux degrés de liberté. Il doit s’agir de nombres (c’est une constante pour l’ensemble du rapport ; en d’autres termes, cela ne doit pas changer d’une ligne à l’autre).
 
@@ -666,9 +660,9 @@ Ici, `m` correspond au nombre de queues et `n`, aux degrés de liberté. Il doit
 
 La valeur renvoyée est la probabilité de voir la statistique de test x, étant donné les degrés de liberté et le nombre de queues.
 
-**Exemples :**
+**Exemples:**
 
-1. Utilisez-le pour trouver des valeurs aberrantes :
+1. Utilisez-la pour rechercher des valeurs aberrantes :
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
@@ -702,11 +696,9 @@ L’équation pour le score centré réduit est la suivante :
 
 où [!DNL x] est le score brut, [!DNL μ] la moyenne de la population et [!DNL σ] l’écart type de la population.
 
->[!NOTE]
->
->[!DNL μ] (mu) et[!DNL σ] (sigma) sont automatiquement calculés à partir de la mesure.
+> [!NOTE] [!DNL μ] (mu) et[!DNL σ] (sigma) sont automatiquement calculés à partir de la mesure.
 
-Score centré réduit (mesure)
+Score-Z(mesure)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -729,7 +721,5 @@ Exécute un test Z n-latéral avec un score centré réduit de A.
 
 Renvoie la probabilité que la ligne actuelle puisse être vue par hasard dans la colonne.
 
->[!NOTE]
->
->Suppose que les valeurs sont généralement distribuées.
+> [!NOTE] Suppose que les valeurs sont normalement distribuées.
 
