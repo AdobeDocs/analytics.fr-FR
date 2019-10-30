@@ -3,9 +3,9 @@ description: Lorsque vous sélectionnez l’icône représentant un engrenage en
 seo-description: Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’une mesure, vous pouvez spécifier le type de mesure et le modèle d’attribution.
 seo-title: Type de mesure et attribution
 title: Type de mesure et attribution
-uuid: 64649698-df 2 a -42 c 3-bb 31-938 f 766 e 1 d 1 f
+uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,15 +34,15 @@ Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’u
 >In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
 >
 >* Pour obtenir la liste complète des modèles d’attribution qui ne sont pas par défaut et les intervalles de recherche en amont pris en charge, consultez la documentation d’[Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html).
->* Les modèles d’attribution « Dernière touche canal marketing » et « Première touche canal marketing » seront migrés vers les nouveaux modèles d’attribution « Dernière touche » et « Première touche », respectivement. (Remarque : les rapports « Canaux marketing » ne seront pas obsolètes, seuls les deux modèles d’attribution qui apparaissent dans les mesures calculées le seront.)
->* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Pour plus d’informations, voir la section [Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Les modèles d’attribution "Dernière touche du canal marketing" et "Première touche du canal marketing" seront migrés respectivement vers les nouveaux modèles d’attribution "Dernière touche" et "Première touche" (Remarque : Les "canaux marketing" ne seront pas abandonnés ; seuls les deux modèles d’allocation qui apparaissent dans les mesures calculées le seront).
+>* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution "linéaires", les rapports peuvent légèrement changer pour refléter le nouveau modèle d’attribution corrigé. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Pour plus d’informations, voir la section [Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 >
 
 
 
 ## Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-En juillet 2018, Adobe a modifié la manière dont l'allocation linéaire est consignée pour les mesures calculées. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. Elle concernera essentiellement les eVars et autres dimensions présentant une persistance. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
+En juillet 2018, Adobe a modifié la manière dont l’attribution linéaire est rapportée pour les mesures calculées. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. Elle concernera essentiellement les eVars et autres dimensions présentant une persistance. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
 
 L’exemple suivant explique comment les mesures calculées avec l’affectation linéaire changeront dans les rapports :
 
