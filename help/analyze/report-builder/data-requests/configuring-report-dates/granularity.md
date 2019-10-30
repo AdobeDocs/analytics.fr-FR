@@ -1,13 +1,13 @@
 ---
-description: À l'étape 1 de l'Assistant Requête, vous pouvez appliquer un niveau de granularité à la requête de données. La granularité définit le niveau des détails temporels inclus dans le rapport.
-seo-description: À l'étape 1 de l'Assistant Requête, vous pouvez appliquer un niveau de granularité à la requête de données. La granularité définit le niveau des détails temporels inclus dans le rapport.
+description: A l’étape 1 de l’Assistant Requête, vous pouvez appliquer un niveau de granularité à la requête de données. La granularité définit le niveau des détails temporels inclus dans le rapport.
+seo-description: A l’étape 1 de l’Assistant Requête, vous pouvez appliquer un niveau de granularité à la requête de données. La granularité définit le niveau des détails temporels inclus dans le rapport.
 seo-title: Granularité
 solution: Analytics
 title: Granularité
 topic: Créateur de rapports
-uuid: 948 b 3 ff 2-fcff -45 fc -9 e 8 c -8 a 025 ac 562 b 1
+uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
