@@ -5,7 +5,7 @@ seo-title: Paramètres
 title: Paramètres
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -84,7 +84,7 @@ r_dsc_site_analysis_tab.xml
 
 | Champ | Définition |
 |--- |--- |
-| Mesures | Ce champ vous permet de sélectionner les mesures représentées par la largeur et la hauteur d’un cylindre. Il vous permet également de déterminer la mesure à afficher, ainsi que sa couleur, ou encore de choisir la couleur qui représente les valeurs maximale et minimale de cette mesure. Vous pouvez, en outre, définir les mesures des axes X et Y, et ajouter toute autre mesure devant figurer dans la fenêtre contextuelle du rapport. Vous pouvez aussi inverser toutes les mesures sélectionnées pour l’affichage. |
+| Mesures | Ce champ vous permet de sélectionner les mesures représentées par la largeur et la hauteur d’un cylindre. Il vous permet également de déterminer la mesure à afficher, ainsi que sa couleur, ou encore de choisir la couleur qui représente les valeurs maximale et minimale de cette mesure. Vous pouvez définir les mesures pour les axes X et Y et ajouter toute autre mesure devant figurer dans le texte contextuel du rapport. Vous pouvez aussi inverser toutes les mesures sélectionnées pour l’affichage. |
 | Général et alertes | Permettent d’activer et de désactiver certains éléments graphiques du rapport, et de configurer les alertes qui s’affichent lorsque des mesures associées aux pages représentées par des cylindres dépassent une valeur spécifiée. |
 
 ## Onglet Police et langue - Définitions {#reference_5F2129B67CC44E5BA9EA7E30A35BFB49}
