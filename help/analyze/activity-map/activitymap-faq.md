@@ -7,7 +7,7 @@ title: FAQ sur [!Carte d’activités DNL]
 topic: Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,7 @@ A : Veuillez consulter [Activer [!Carte d’activités DNL]](/help/analyze/activ
 
 **Q : Tous les clients Analytics ont-ils accès à la page d’activation d’Activity Map dans les outils d’administration ?**
 
-A: Adobe SiteCatalyst customers do not have access to the Admin Console’s [!DNL Activity Map] Enablement page. Seules les entreprises sous contrat Adobe Analytics Standard et Adobe Analytics Premium ont accès à cette page de configuration.
+A: Adobe SiteCatalyst customers do not have access to the Admin Console's [!DNL Activity Map] Enablement page. Seules les entreprises sous contrat Adobe Analytics Standard et Adobe Analytics Premium ont accès à cette page de configuration.
 
 **Q : Le nouveau code AppMeasurement peut-il être configuré à l’aide de la Dynamic Tag Management ?**
 
