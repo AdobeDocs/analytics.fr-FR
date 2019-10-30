@@ -8,7 +8,7 @@ title: Android
 topic: Développeur et mise en œuvre
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,15 +17,13 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Notes de mise à jour cumulées pour la bibliothèque mobile Android.
 
->[!NOTE]
->
->Pour trouver la version actuelle de la bibliothèque, activez la journalisation du débogage.
+> [!NOTE] Pour connaître la version de la bibliothèque actuelle, activez la journalisation du débogage.
 
 Les téléchargements de bibliothèque mobile sont disponibles sur [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) et sur [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1).
 
 ## Version 4.13.4 {#section_E4743079D8E64B9C890180A025C94B44}
 
-The [!DNL Android] SDK version 4.13.4 (Feb 16, 2017) includes the following changes:
+Le kit [!DNL Android] SDK version 4.13.4 (du 16 février 2017) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_C0197701CB9B45E596818AF0BE5AC4F2"> 
  <thead> 
@@ -44,7 +42,7 @@ The [!DNL Android] SDK version 4.13.4 (Feb 16, 2017) includes the following chan
    <td colname="2"> <p> Correction d’un problème en raison duquel une mise à niveau d’application pouvait ne pas être correctement signalée. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Acquisition </p> </td> 
+   <td colname="1"> <p>Adquisición </p> </td> 
    <td colname="2"> <p> Correction d’un bogue en raison duquel les liens profonds différés n’étaient pas déclenchés au premier lancement. </p> </td> 
   </tr> 
  </tbody> 
@@ -52,7 +50,7 @@ The [!DNL Android] SDK version 4.13.4 (Feb 16, 2017) includes the following chan
 
 ## Version 4.13.3 {#section_1C235192E9FB46E2A651017C1CF24A7F}
 
-The [!DNL Android] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
+Le kit [!DNL Android] SDK version 4.13.3 (du 19 janvier 2017) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_5E744C8C9D064E999EB5055A8E3A99C5"> 
  <thead> 
@@ -79,7 +77,7 @@ The [!DNL Android] SDK version 4.13.3 (Jan 19, 2017) includes the following chan
 
 ## Version 4.13.2 {#section_CEA2FF01EA414A32A8D164D981FBE71F}
 
-The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
+Le kit [!DNL Android] SDK version 4.13.2 (du 10 novembre 2016) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_812CAB7DDC364DAABB7CDEDE55532E39"> 
  <thead> 
@@ -91,18 +89,18 @@ The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Service d’identification des visiteurs </p> </td> 
-   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
+   <td colname="2"> <p>Ajout d’un horodatage et de l’ID d’organisation d’Experience Cloud au paramètre <code> adobe_mc</code>. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Lien profond </p> </td> 
-   <td colname="2"> <p>Lors de l’appel de <code>trackAdobeDeepLink</code>, les variables dotées du préfixe "<code>adb</code>" ou "<code>ctx</code>" sont désormais correctement gérées. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Version 4.13.1 {#section_647C43BA95A3485381AC2E8DEAA6D2E4}
 
-The [!DNL Android] SDK version 4.13.1 (Oct 20, 2016) includes the following changes:
+Le kit [!DNL Android] SDK version 4.13.1 (du 20 octobre 2016) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_1D1AFD90F8BB4F59869FD417ED9C45AB"> 
  <thead> 
@@ -113,16 +111,16 @@ The [!DNL Android] SDK version 4.13.1 (Oct 20, 2016) includes the following chan
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Acquisition </p> </td> 
-   <td colname="2"> Le kit SDK prend désormais en charge les données d’acquisition personnalisées qui doivent être renvoyées de manière appropriée par les appels de <code>AdobeDataCallback</code>. </td> 
+   <td colname="1"> <p>Adquisición </p> </td> 
+   <td colname="2"> Le kit SDK prend désormais en charge les données d’acquisition personnalisées qui doivent être renvoyées de manière appropriée par les appels de <code> AdobeDataCallback</code>. </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Acquisition </p> </td> 
-   <td colname="2"> Le kit SDK stocke désormais les variables de référent Google Play et les variables personnalisées et les renvoie de manière appropriée dans les appels de <code>AdobeDataCallback</code>. </td> 
+   <td colname="1"> <p>Adquisición </p> </td> 
+   <td colname="2"> Le kit SDK stocke désormais les variables de référent Google Play et les variables personnalisées et les renvoie de manière appropriée dans les appels de <code> AdobeDataCallback</code>. </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> Les paramètres du service d’identification des visiteurs sont désormais transmis dans les requêtes <span class="keyword">Target</span> requests via <code>mboxParams</code>. </td> 
+   <td colname="2"> Les paramètres du service d’identification des visiteurs sont désormais transmis dans les requêtes <span class="keyword">Target</span> requests via <code> mboxParams</code>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +131,7 @@ The [!DNL Android] SDK version 4.13.1 (Oct 20, 2016) includes the following chan
 
 ## Version 4.13.0 {#section_03370D8F93AE4B7A81C4B03910086556}
 
-The [!DNL Android] SDK version 4.13.0 (Sept 15, 2016) includes the following changes:
+Le kit [!DNL Android] SDK version 4.13.0 (du 15 septembre 2016) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_AACF8B9BE89A4057B0396F487F82CF99"> 
  <thead> 
@@ -159,7 +157,7 @@ The [!DNL Android] SDK version 4.13.0 (Sept 15, 2016) includes the following cha
 
 ## Version 4.12.0 {#section_3FBC1C24267141C08A60E288662160D8}
 
-The [!DNL Android] SDK version 4.12.0 (Aug 18, 2016) includes the following changes:
+Le kit [!DNL Android] SDK version 4.12.0 (du 18 août 2016) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_3BDD15254859475CBE5E27870619FF3A"> 
  <thead> 
@@ -178,7 +176,7 @@ The [!DNL Android] SDK version 4.12.0 (Aug 18, 2016) includes the following chan
 
 ## Version 4.11.0 {#section_34B295F3697F4AD6B6A6B8DD70AD1ECA}
 
-The [!DNL Android] SDK version 4.11.0 (June 22, 2016) includes the following changes:
+Le kit [!DNL Android] SDK version 4.11.0 (du 22 juin 2016) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_C3DC3890E81744828DE8946AE8067E1A"> 
  <thead> 
@@ -200,7 +198,7 @@ The [!DNL Android] SDK version 4.11.0 (June 22, 2016) includes the following cha
 
 ## Version 4.10.0 {#section_262928ABA971490EA6B8E277E17BDD89}
 
-The [!DNL Android] SDK version 4.10.0 (May 20, 2016) includes the following changes:
+Le kit [!DNL Android] SDK version 4.10.0 (du 20 mai 2016) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_E6B19BD9903A41D9AAF0035CD66756B5"> 
  <thead> 
@@ -212,7 +210,7 @@ The [!DNL Android] SDK version 4.10.0 (May 20, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> Méthodes Target </td> 
-   <td colname="2"> <p>Ajout d’une nouvelle syntaxe et d’un exemple pour la méthode <code>loadRequest</code>. </p> <p>Ajout des nouvelles méthodes <span class="keyword">Target</span> suivantes : </p> <p> 
+   <td colname="2"> <p>Ajout d’une nouvelle syntaxe et d’un exemple pour la méthode <code> loadRequest</code>. </p> <p>Ajout des nouvelles méthodes <span class="keyword">Target</span> suivantes : </p> <p> 
      <ul id="ul_B32C3B3931764F21948E36384B775642"> 
       <li id="li_3421E7F78F3A4DDA8FF004903FC8C75E">setThirdPartyID </li> 
       <li id="li_0836075699C5480EB3D6B742FCF6D508">getThirdPartyID </li> 
@@ -223,7 +221,7 @@ The [!DNL Android] SDK version 4.10.0 (May 20, 2016) includes the following chan
 
 ## Version 4.9.0 {#section_7393D3A5EA61431D9E7C07ECE176D17C}
 
-The [!DNL Android] SDK version 4.9.0 (May 5, 2016) includes the following changes:
+Le kit [!DNL Android] SDK version 4.9.0 (du 5 mai 2016) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_7D893A6E12554E9CA9AF2B03DA4C1A4B"> 
  <thead> 
@@ -242,7 +240,7 @@ The [!DNL Android] SDK version 4.9.0 (May 5, 2016) includes the following change
 
 ## Version 4.8.3 {#section_9BB3DFBECC434AC6B3D7C18AA9BC895C}
 
-The [!DNL Android] SDK version 4.8.3 (February 18, 2016) includes the following changes:
+Le kit [!DNL Android] SDK version 4.8.3 (du jeudi 18 février 2016) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_6DE145BC30154B9FADCE584A9737018D"> 
  <thead> 
@@ -254,14 +252,14 @@ The [!DNL Android] SDK version 4.8.3 (February 18, 2016) includes the following 
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> Exclusion et paramètres de confidentialité </td> 
-   <td colname="2"> <p>Starting with <span class="keyword"> Android</span> SDK 4.8.3, privacy settings set via the <code> setPrivacyStatus</code> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span> , and <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="2"> <p>Depuis la version 4.8.3 du kit <span class="keyword">Android</span> SDK, les paramètres de confidentialité définis via la méthode <code> setPrivacyStatus</code> ont une incidence sur l’activité d’<span class="keyword">Analytics</span>, de <span class="keyword">Target</span> et d’<span class="keyword">Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Version 4.8.0 {#section_18FA091344644B43AA0E226241FF90DC}
 
-The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following changes:
+Le kit [!DNL Android] SDK version 4.8.0 (du lundi 2 novembre 2015) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_C47B9AEB2BB649CFA1D5CF04093B497B"> 
  <thead> 
@@ -272,7 +270,7 @@ The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following c
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Nouvelles méthodes du service d’identification des visiteurs Experience Cloud </td> 
+   <td colname="1"> Nouvelles méthodes d’identification des visiteurs d’Experience Cloud </td> 
    <td colname="2"> <p>Ajout des méthodes suivantes : </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
      <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
@@ -320,7 +318,7 @@ The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following c
 
 ## Version 4.6.1 {#section_98CC97CF0F0C48F7855130044386845A}
 
-The [!DNL Android] SDK version 4.6.1 (September 24, 2015) includes the following changes:
+Le kit [!DNL Android] SDK version 4.6.1 (du jeudi 24 septembre 2015) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_80693083398F472F8A4E7861606E602D"> 
  <thead> 
@@ -332,14 +330,14 @@ The [!DNL Android] SDK version 4.6.1 (September 24, 2015) includes the following
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> SDK Android version 4.6.1</span> </p> </td> 
-   <td colname="2"> <p>SDK 4.6.0 or earlier supports <span class="keyword"> Android</span> 2.2(API 8) - <span class="keyword"> Android</span> 5.1.1 (API 22) </p> <p>SDK 4.6.1 or later supports <span class="keyword"> Android</span> 2.3(API 9) or later </p> </td> 
+   <td colname="2"> <p>Le kit SDK 4.6.0 ou version antérieure prend en charge <span class="keyword"> Android</span> 2.2 (API 8) - <span class="keyword">Android</span> 5.1.1 (API 22). </p> <p>Le kit SDK 4.6.1 ou version ultérieure prend en charge <span class="keyword"> Android</span> 2.3 (API 9) ou version ultérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Version 4.6 {#section_ADF6F871CF3C4E2381464D62DA6E1EB1}
 
-The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following changes:
+Le kit [!DNL Android] SDK version 4.6 (du 17 septembre 2015) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_35D0692698EF49AE8204F2AEB57CABD7"> 
  <thead> 
@@ -350,7 +348,7 @@ The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following c
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Push Messaging to <span class="keyword"> Analytics</span> Segments </p> </td> 
+   <td colname="1"> <p>Messagerie push vers les segments <span class="keyword"> Analytics</span> </p> </td> 
    <td colname="2"> <p><span class="keyword">Adobe Mobile Services</span> et le SDK <span class="keyword">Adobe Mobile</span> permettent d’envoyer des messages push vers les segments <span class="keyword">Analytics</span>. Le SDK permet également de créer rapidement des rapports sur les utilisateurs qui ont ouvert votre application suite à l’ouverture du message push. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -374,7 +372,7 @@ The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following c
 
 ## Version 4.5 {#section_6E7614D4AEA24B7E81C4FC094882F062}
 
-The [!DNL Android] SDK version 4.5 includes the following changes:
+Le kit [!DNL Android] SDK version 4.5 contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_BF98A1E904EB4314828AC58A2A6E7016"> 
  <thead> 
@@ -386,14 +384,14 @@ The [!DNL Android] SDK version 4.5 includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> Extension Android Wearable</span> </p> </td> 
-   <td colname="2"> <p>Starting in <span class="keyword"> Android</span> SDK version 4.5, a new <span class="keyword"> Android</span> extension lets you collect data from your <span class="keyword"> Android</span> Wearable app. </p> </td> 
+   <td colname="2"> <p>À compter de la version 4.5 du SDK <span class="keyword"> Android</span>, une nouvelle extension <span class="keyword"> Android</span> permet de collecter des données à partir de l’application <span class="keyword"> Android</span> Wearable. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Version 4.4 {#section_8D7FC183081E4BCFA8ADC33FB55E057C}
 
-The [!DNL Android] SDK version 4.4 includes the following changes:
+Le kit [!DNL Android] SDK version 4.4 contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_E8628F3806E24A0FB7157847D97C7B7A"> 
  <thead> 
@@ -408,8 +406,8 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
    <td colname="2"> <p>Vous pouvez maintenant inclure des variables de données contextuelles personnalisées aux mesures de cycle de vie. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>Les appels <code>trackBeacon</code> et <code>clearCurrentBeacon</code><span class="keyword"> sont maintenant disponibles dans PhoneGap</span>. </p> </td> 
+   <td colname="1"> <p>Prise en charge du suivi des balises dans <span class="keyword"> PhoneGap</span> </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -418,18 +416,18 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 Date de publication : **24 novembre 2014**
 
-* Nouveau - Intégration d’Adobe Experience Cloud ID
+* Nouveau – Intégration d’Adobe Experience Cloud ID
 * Journaux de débogage améliorés pour plus de clarté
 * Résolution des blocages potentiels en cas de vérification des messages in-app
 
 ## Version 4.2 {#section_EDF95BA0301C4B54AAE839768917D439}
 
-Date de publication : **16 octobre 2014**
+Date de publication : **16 octobre 2014**
 
 * Nouveau – Capacités de la messagerie in-app.
 * Nouveau – L’emplacement du fichier de configuration peut maintenant être spécifié au démarrage de l’application.
 * Nouveau – Les points ciblés peuvent maintenant être mis à jour automatiquement sans qu’un nouveau fichier de configuration soit nécessaire.
-* New - [!DNL Analytics] calls are now sent as HTTP POST requests.
+* Nouveaux – Les appels [!DNL Analytics] sont maintenant envoyés comme demandes HTTP POST.
 * Résolution d’un problème en raison duquel des blocages d’application ne faisaient pas toujours l’objet d’un suivi dans certains scénarios.
 * Nettoyage des messages du journal, ajout de la consignation de texte quand debugLogging est activé.
 * Diverses améliorations des performances et de la stabilité.
@@ -458,13 +456,13 @@ Date de publication : **23 avril 2014**
 
 Date de publication : **17 avril 2014**
 
-* Nouveau - Suivi des balises Bluetooth.
-* Nouveau - Les applications dont l’horodatage est activé, les accès en cas de blocage sont antidatés à la session correcte.
-* Nouveau - Dans les applications pour lesquelles l’horodatage est activé, la session précédente est envoyée dans un accès antidaté vers la session correcte. (et plus dans la session précédente).
-* Nouveau - Traitement par lot des accès.
-* Correction du suivi du référent Google Play avec un délai d’attente configurable pour permettre le report des données du référent Google.
-* Resolved StrictMode warnings that could occur in specific scenarios.
-* Resloved an issue that could very rarely cause the library to lock if certain methods were called in a specific order.
+* Nouveau – Suivi des balises Bluetooth.
+* Nouveau – Dans les applications acceptant l’horodatage, les blocages comptabilisés sont antidatés à la session correcte.
+* Nouveau – Dans les applications acceptant l’horodatage, la session précédente est envoyée dans un accès antidaté vers la session correcte (et plus dans la session précédente).
+* Nouveau – Traitement par lot des accès.
+* Correction du suivi des référents de Google Play avec un délai d’expiration configurable afin d’autoriser les données de référent Google tardives.
+* Résolution des avertissements StrictMode susceptibles de survenir dans certains cas.
+* Résolution d’un problème en raison duquel la bibliothèque se verrouillait parfois (très rarement) si certaines méthodes étaient invoquées dans un ordre spécifique.
 
 ## Version 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
@@ -477,7 +475,7 @@ Date de publication : **24 février 2014**
 
 Date de publication : **20 février 2014**
 
-* Added safety to network code to prevent crash caused by [!DNL Android] bug: https://code.google.com/p/android/issues/detail?id=54072
+* Ajout d’un niveau de sécurité au code réseau afin d’empêcher le blocage dû à un bogue [!DNL Android] : https://code.google.com/p/android/issues/detail?id=54072
 
 ## Version 4.0.2 {#section_5A7F4D5D9CBD4B79B3B590A2C3F4D0F9}
 
@@ -503,7 +501,7 @@ Date de publication : **14 novembre 2013**
 
 Date de publication : **27 septembre 2013**
 
-[!DNL Android] SDK 4.x pour les solutions Experience Cloud est désormais disponible, avec les nouvelles fonctionnalités suivantes :
+[!DNL Android] SDK 4.x pour les Solutions Experience Cloud propose maintenant les nouvelles fonctionnalités suivantes :
 
 * Améliorations significatives des performances. Tout le traitement est accompli dans les threads en arrière-plan ; le SDK est « thread-safe ».
 * Géolocalisation et points ciblés
@@ -511,7 +509,7 @@ Date de publication : **27 septembre 2013**
 * Événements minutés
 * Gestion des inclusions/exclusions
 * Prise en charge d’Audience Manager
-* Lifecycle metrics passed to [!DNL Target] as mbox parameters
+* Mesures de cycle de vie transmises à [!DNL Target] sous forme de paramètres de mbox
 * Normalisation d’après les règles de traitement et les données contextuelles
 
 ## Version 3.2.3 {#section_E3464DDC3B4844CF9CC5FC3E35C5C785}
@@ -544,7 +542,7 @@ Date de publication : **6 août 2013**
 
 ## Version 3.1.0 {#section_836B4F580B1C436FABD524A91857F882}
 
-Date de publication : **13 juin 2013**
+Date de publication : **13 juin 2013**
 
 * Mise à jour du stockage hors ligne pour utiliser SQLite.
 * Correction d’un bogue en raison duquel la limite hors ligne pouvait être réinitialisée à sa valeur par défaut (1 000).
@@ -581,7 +579,7 @@ Date de publication : **21 février 2013**
 * Le paramètre `offlineThrottleDelay` est obsolète car il n’est plus nécessaire en raison de l’optimisation des threads. Ce paramètre existe toujours pour des raisons de compatibilité descendante, mais il n’a plus aucun effet.
 * Correction d’un problème de synchronisation potentiel dans le cache des accès hors ligne.
 * Clarification du message d’avertissement lors de la définition des variables hiérarchiques supérieures au numéro 5.
-* Fixed issue that could cause OSVersion to be misreported on versions of [!DNL Android] &gt; 4.0.
+* Correction d’un problème qui pouvait entraîner une erreur d’OSVersion pour les versions d’[!DNL Android] ultérieures à la version 4.0.
 * Plusieurs améliorations de performances.
 * Correction d’une exception potentielle qui pouvait être générée par une URL incorrecte.
 
@@ -609,7 +607,7 @@ Date de publication : **septembre 2012**
 
 Date de publication : **août 2012**
 
-* Context override parameters are now sent in as `Hashmap<String, Object>` (they were formerly `Hashmap<String, String>`).
+* Les paramètres de remplacement de contexte sont désormais envoyés sous la forme `Hashmap<String, Object>` (forme précédente : `Hashmap<String, String>`).
 
 ## Version 3.0 {#section_2955C0AF3A23476B8CF06C469DE3284C}
 
@@ -619,11 +617,11 @@ Version initiale.
 
 ## Version d’Android précédente (1.x) {#section_F2CC015616184D55AC6D6529DFC9A18B}
 
-The following release notes apply to the 1.x version of [!DNL AppMeasurement] for [!DNL Android]. Nous conseillons aux clients d’effectuer une mise à niveau vers la version 3.x dès que possible.
+Les notes de mise à jour suivantes s’appliquent à la version 1.x d’[!DNL AppMeasurement] pour [!DNL Android]. Nous conseillons aux clients d’effectuer une mise à niveau vers la version 3.x dès que possible.
 
 ## Version 1.2.3 {#section_5189CCE11EEF4350844B1490D0A9F534}
 
-Date de publication : **mars 2012**
+Date de publication : **mars 2012**
 
 * Correction d’un problème qui provoquait une exception dans certains cas lors du transfert de données à l’aide de données contextuelles.
 
@@ -639,8 +637,8 @@ Ajout d’un horodatage aux variables utilisées avec les appels de suivi léger
 
 Date de publication : **janvier 2012**
 
-* Added [!DNL Android] 3.x and 4.x compatibility.
-* Implemented a UUID for visitor ID on [!DNL Android] devices that do not have SIM cards (For example, Kindle Fire).
+* Ajout de la compatibilité [!DNL Android] 3.x et 4.x.
+* Mise en œuvre d’un identificateur unique universel pour un ID de visiteur sur les appareils [!DNL Android] qui ne sont pas équipés de cartes SIM (par exemple, Kindle Fire).
 
 ## Version 1.2 {#section_EC83BE1F00BF481EA1C74A63E4B90F65}
 
@@ -653,6 +651,6 @@ Date de publication : **juin 2011**
 Date de publication : **avril 2011**
 
 * Prise en charge de toutes les tablettes, y compris Xoom.
-* Possibilité d’effectuer des recherches dans les suites de rapports et les mesures lors de l’exécution d’un rapport. 
+* Possibilité d’effectuer des recherches dans les suites de rapports et les mesures lors de l’exécution d’un rapport.
 * Prise en charge des données contextuelles qui pilotent les règles de traitement côté serveur (v15 uniquement).
 * Prise en charge des appels de serveur léger (bêta).
