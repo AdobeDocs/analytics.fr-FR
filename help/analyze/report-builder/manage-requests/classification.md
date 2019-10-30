@@ -5,14 +5,14 @@ seo-title: En-tête
 solution: Analytics
 title: En-tête
 topic: Créateur de rapports
-uuid: c 64 ede 6 e-ce 11-48 c 0-944 d-dc 365809 d 673
+uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Gestionnaire
+# Classifications
 
 Les ventilations de classification permettent de mettre en correspondance les données des rapports d’analyse et les propriétés les concernant. Les classifications peuvent être utilisées à diverses fins ; toutefois, elles servent principalement à classifier les codes de suivi de campagne (internes et externes), ainsi que les identifiants de produits. 
 
@@ -20,4 +20,4 @@ A un rapport [!UICONTROL Campagne], par exemple, peuvent correspondre une classi
 
 Vous pouvez accéder aux classifications de la même manière que pour les autres rapports d’une suite. Les dimensions s’affichent sous forme d’un rapport de niveau supérieur dans le groupe. Si un rapport est doté de classifications, un sous-groupe est créé afin de rassembler en un même emplacement le rapport et toutes ses classifications. Le rapport s’affiche parmi les classifications comme la dernière entrée de la liste.
 
-See [Classifications](/help/components/c-classifications2/c-classifications.md).
+Voir [Classifications](/help/components/c-classifications2/c-classifications.md).
