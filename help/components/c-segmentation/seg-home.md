@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics permet de créer, gérer, partager et appliquer des segments d’audiences, puissants et ciblés, aux rapports à l’aide des fonctionnalités d’Analytics, d’Adobe Experience Cloud, d’Adobe Target et d’autres produits Adobe intégrés.
-keywords: segmentation ; segments
+keywords: segmentation;segments
 seo-description: Adobe Analytics permet de créer, gérer, partager et appliquer des segments d’audiences, puissants et ciblés, aux rapports à l’aide des fonctionnalités d’Analytics, d’Adobe Experience Cloud, d’Adobe Target et d’autres produits Adobe intégrés.
 seo-title: Segmentation Analytics
 solution: Analytics
 title: Segmentation Analytics
 topic: Segments
-uuid: 845 c 1743-1264-4090-bccc -78830477 f 52 e
+uuid: 845c1743-1264-4090-bccc-78830477f52e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,4 +25,4 @@ Les analystes de données et marketing peuvent utiliser, développer et affiner 
 
 **Prise en main**
 
-Commencez avec les sections [Définition d'un processus de segmentation](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) ou [création de segments](../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)ou voir [A propos des segments](../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) pour obtenir un aperçu rapide.
+Commencez par [configurer un processus](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) de segmentation ou [créer des segments](../../components/c-segmentation/c-segmentation-workflow/seg-build.md#concept_BD4C17B01C5B4E378D0C14C852D055D4), ou reportez-vous à la section [A propos des segments](../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) pour un aperçu rapide.
