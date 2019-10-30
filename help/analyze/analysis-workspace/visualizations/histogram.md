@@ -3,9 +3,9 @@ description: L’histogramme est un nouveau type de visualisation d’Analysis 
 seo-description: L’histogramme est un nouveau type de visualisation d’Analysis Workspace.
 seo-title: Histogramme
 title: Histogramme
-uuid: 8 a 6 bd 2 c 4-da 15-4 f 64-b 889-ab 9 add 685046
+uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Pour créer un histogramme, procédez comme suit :
 
 ![](assets/histogram.png)
 
->[!NOTE]
->
->Les histogrammes ne prennent en charge que les mesures standard, et non les mesures calculées.
+> [!NOTE] Les histogrammes ne prennent en charge que les mesures standard, et non les mesures calculées.
 
 Ici, nous avons utilisé la mesure Pages vues par visiteurs uniques. La première classe (à gauche) correspond à une page vue par visiteur unique, la deuxième à deux pages vues, etc.
 
@@ -41,9 +39,9 @@ Pour régler les paramètres de l’histogramme, cliquez sur l’icône d’engr
 | Intervalle de début | Détermine par quel intervalle commence l’histogramme. « 1 » par défaut. Peut être défini sur 0 à l’infini (aucun nombre négatif). |
 | Intervalles de mesures | Permet d’augmenter ou de réduire le nombre de classes de données (intervalles). Il ne peut pas y avoir plus de 50 intervalles. |
 | Taille de l’intervalle de mesures | Permet de définir la taille de chaque intervalle. Vous pouvez par exemple modifier la taille de l’intervalle d’une page vue à deux pages vues. |
-| Méthode de comptage | Choisissons entre [Visiteur](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visite](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) ou [Accès](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Par exemple, pages vues par visite ou pages vues par visiteur ou pages vues par accès. Pour l’accès, la mesure « Occurrences » est utilisée comme mesure de l’axe Y dans un tableau à structure libre. |
+| Méthode de comptage | Choisissons entre [Visiteur](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visite](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) ou [Accès](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Par exemple, pages vues par visite ou pages vues par visiteur ou pages vues par accès. Pour Accès, "Occurrences" est utilisé comme mesure de l’axe des ordonnées dans un tableau à structure libre. |
 
-**Exemples** :
+**Exemples**:
 
 * Intervalle de début : 1 ; Intervalles de mesures : 5 ; Taille de l’intervalle de mesures : 2 générera cet histogramme : 1-2, 3-4, 5-6, 7-8, 9-10.
 * Intervalle de début : 0 ; Intervalles de mesures : 3 ; Taille de l’intervalle de mesures : 5 générera cet histogramme : 0-4, 5-9, 10-14.
