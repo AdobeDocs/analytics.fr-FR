@@ -1,24 +1,24 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Conversion de vos projets en analyses ad hoc
-title: Conversion de vos projets en analyses ad hoc
-uuid: 20 bd 9974-209 e -457 c -9 e 52-d 50 f 90078 af 6
+seo-title: Conversion des projets dans l’Ad Hoc Analysis
+title: Conversion des projets dans l’Ad Hoc Analysis
+uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Conversion de vos projets en analyses ad hoc
+# Conversion des projets dans l’Ad Hoc Analysis
 
-## Convert your projects in Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## Conversion des projets dans l’Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 Avant de convertir vos projets, veuillez noter que :
 
 * Pour convertir des projets, vous devez être connecté à Ad Hoc Analysis en tant qu’administrateur ou en tant que non-administrateur autorisé à utiliser Analysis Workspace.
 * Puisqu’il s’agit d’une conversion unique, aucune des modifications apportées ultérieurement aux projets Ad Hoc convertis ne sera prise en compte dans Analysis Workspace. Vous avez cependant la possibilité de reconvertir le projet.
-* Tous les projets Ad Hoc Analysis convertis resteront accessibles dans Ad Hoc et le nombre de conversions effectuées sera ajouté entre parenthèses dans leur titre. Exemple :
+* Tous les projets Ad Hoc Analysis convertis resteront accessibles dans Ad Hoc et le nombre de conversions effectuées sera ajouté entre parenthèses dans leur titre. Exemple:
 
    ![](assets/aha_title_converted.png)
 
