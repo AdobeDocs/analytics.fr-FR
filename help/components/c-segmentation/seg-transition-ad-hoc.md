@@ -1,19 +1,19 @@
 ---
 description: Si vous êtes habitué à travailler avec le Créateur de segments dans les analyses ad hoc, ce forum aux questions (FAQ) explique ce qu’il advient des segments et dossiers existants ainsi que les actions que vous devez entreprendre.
-keywords: segmentation ; segments
+keywords: segmentation;segments
 seo-description: Si vous êtes habitué à travailler avec le Créateur de segments dans les analyses ad hoc, ce forum aux questions (FAQ) explique ce qu’il advient des segments et dossiers existants ainsi que les actions que vous devez entreprendre.
-seo-title: Guide de transition relatif aux analyses ad hoc
+seo-title: Guide de transition relatif aux Ad Hoc Analysis
 solution: Analytics
-title: Guide de transition relatif aux analyses ad hoc
+title: Guide de transition relatif aux Ad Hoc Analysis
 topic: Segments
-uuid: d 409 d 71 a-f 8 d 9-42 a 2-add 2-37 d 426 cd 40 d 1
+uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Guide de transition relatif aux analyses ad hoc
+# Guide de transition relatif aux Ad Hoc Analysis
 
 Si vous êtes habitué à travailler avec le Créateur de segments dans les analyses ad hoc, ce forum aux questions (FAQ) explique ce qu’il advient des segments et dossiers existants ainsi que les actions que vous devez entreprendre.
 
@@ -94,7 +94,7 @@ Si le segment a été publié sur Experience Cloud, vous ne pouvez pas le suppr
    <td colname="col2">Ces segments des Ad Hoc Analysis s’affichent sous forme de segments standard dans Adobe Analytics. <p>Ils ne doivent pas être confondus avec la fonctionnalité Favoris du Gestionnaire de segments qui permet de marquer les segments comme favoris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Segments préconfigurés dans la publicité - Analyses ad hoc : 
+   <td colname="col1">Segments préconfigurés dans les analyses ad hoc : 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">Visites sur une seule page </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">Visites depuis des périphériques mobiles </li> 
