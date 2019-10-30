@@ -8,7 +8,7 @@ title: Identification des visiteurs
 topic: Reports & Analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,7 @@ Il existe plusieurs moyens d’identifier un visiteur dans Analytics (répertori
 |---|---|---|---|
 | ![](assets/step1_icon.png) | [vid (s.visitorID)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) | 0 | s.visitorID est défini. |
 | ![](assets/step2_icon.png) | [aid (cookie s_vi)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_analytics.html) | 3 | Le visiteur avait un cookie s_vi existant avant le déploiement du service d’identification des visiteurs ou vous avez configuré une [période de grâce](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html) d’identification des visiteurs. |
-| ![](assets/step3_icon.png) | [mid (cookie AMCV_ défini par Identity Service)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | Visitor's browser accepts cookies (first-party), and the Identity Service is deployed. |
+| ![](assets/step3_icon.png) | [mid (cookie AMCV_ défini par Identity Service)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | Le navigateur du visiteur accepte les cookies (propriétaires) et le service d’identité est déployé. |
 | ![](assets/step4_icon.png) | [fid (cookie de reprise sur H.25.3 ou plus récent ou AppMeasurement pour JavaScript)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 4 | Le navigateur du visiteur accepte les cookies (propriétaires). |
 | ![](assets/step5_icon.png) | [En-tête des abonnées mobiles HTTP](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_mobile.html) | 2 | Le périphérique est reconnu comme un appareil mobile. |
 | ![](assets/step6_icon.png) | [Adresse IP, Agent utilisateur, Adresse IP de passerelle](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 1 | Le navigateur du visiteur n’accepte pas les cookies. |
