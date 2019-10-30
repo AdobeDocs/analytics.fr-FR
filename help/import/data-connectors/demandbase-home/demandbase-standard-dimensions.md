@@ -5,7 +5,7 @@ seo-title: Dimensions standard Demandbase
 title: Dimensions standard Demandbase
 uuid: dea1c680-b5e2-4237-bb2f-baf5f17c8019
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ Répertorie les dimensions standard qui seront automatiquement capturées avec l
 | Dimension | Champ API | Description |
 |---|---|---|
 | Demandbase SID | demandbase_sid | Identifiant unique de l’organisation identifié dans la base de données Demandbase. |
-| Nom de la société | nom_société | Demandbase a normalisé le nom de l’organisation pour l’entreprise identifiée. |
+| Nom de la société | nom_société | Demandbase a normalisé le nom de l'organisation pour l'entreprise identifiée. |
 | Industrie | industrie | Nom de l'industrie ou secteur industriel vertical pour l'organisation identifiée. |
 | Sous-industrie | sub_industrie | Nom de spécialité de l'industrie pour l'organisation identifiée. |
 | Plage des employés | employee_range | Plage des employés en fonction du nombre d'employés de l'organisation identifiée. |
