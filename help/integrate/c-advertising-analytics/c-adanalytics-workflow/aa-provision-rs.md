@@ -1,18 +1,18 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Activer la suite de rapports pour la publication d'Analytics
-title: Activer la suite de rapports pour la publication d'Analytics
-uuid: 934 f 0 e 02-b 5 d 7-4 eca -93 d 8-92 f 95 bd 7014 a
+seo-title: Activation de la suite de rapports pour Advertising Analytics
+title: Activation de la suite de rapports pour Advertising Analytics
+uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Activer la suite de rapports pour la publication d'Analytics
+# Activation de la suite de rapports pour Advertising Analytics
 
-Pour afficher les données de recherche de la publicité Analytics dans Analytics, vous devez configurer chaque suite de rapports Experience Cloud mappée pour la création de rapports Analytics.
+Pour afficher les données de recherche Analytics de publicité dans Analytics, vous devez configurer chaque suite de rapports mappée sur Experience Cloud pour la création de rapports Analytics de publicité.
 
 1. [Mappez votre suite de rapports à une organisation](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
 1. Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
@@ -24,7 +24,7 @@ Pour afficher les données de recherche de la publicité Analytics dans Analytic
 
    >[!IMPORTANT]
    >
-   >L'ID AMO fait référence à la variable Adobe Advertizing Cloud dans laquelle les données de recherche vont être insérées.
+   >L’ID AMO fait référence à la variable Adobe Advertising Cloud dans laquelle les données de recherche seront insérées.
 
 1. Définissez la variable d’attribution et d’expiration que la variable AMO ID doit utiliser. Les variables de conversion (eVars) permettent à Adobe Analytics d’affecter des événements de succès à des valeurs de variables spécifiques. Parfois, les variables rencontrent plusieurs valeurs avant d’accéder à un événement de succès. Dans ce cas, l’affectation détermine la valeur de variable qui obtient un crédit pour l’événement.
 
