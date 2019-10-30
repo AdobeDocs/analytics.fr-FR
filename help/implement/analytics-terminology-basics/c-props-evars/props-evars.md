@@ -7,8 +7,8 @@ solution: Analytics
 title: Propriétés et eVars - Aperçu
 topic: Développeur et mise en œuvre
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Les props vous permettent également de corréler des données personnalisées a
 
 Si vous êtes, par exemple, un fabricant automobile, il peut s’avérer intéressant de consulter le « Modèle de voiture le plus populaire » afin de compléter votre rapport « Pages ». Pour ce faire, vous pouvez allouer l’une de vos propriétés de trafic afin de représenter le modèle de voiture. Implémentez ensuite votre code pour transmettre le modèle de voiture sur les pages appropriées.
 
->[!NOTE]
->
->[!DNL Analytics] prend en charge jusqu’à 75 variables [!UICONTROL s.prop].
+> [!NOTE] [!DNL Analytics] prend en charge jusqu’à 75 variables [!UICONTROL s.prop].
 
 Les props sont utilisées dans les rapports de cheminement ou de corrélation. Vous pouvez, par exemple, utiliser des variables de [!UICONTROL propriété] pour afficher un type de contenu, une sous-section ou un nom du modèle. Les rapports [!UICONTROL Trafic personnalisé] obtenus présentent alors le type de contenu, la sous-section ou le modèle consulté le plus souvent.
 
@@ -40,6 +38,6 @@ Les eVars (ou variables d’[!UICONTROL aperçu de conversion personnalisée]) s
 
 Sur un site de conversion, vous pouvez utiliser des eVars pour effectuer une comparaison entre les visiteurs connectés et non connectés en ce qui concerne l’exécution d’un achat. Lorsqu’un visiteur se connecte, une eVar est définie sur « connecté ». Lorsque ce même visiteur atteint la page de passage en caisse, l’événement correspondant se voit attribuer la valeur « connecté ». Lorsqu’un visiteur atteint la page de remerciement affichée après l’achat, la valeur « connecté » est attribuée aux produits et au montant des achats. Le rapport [!UICONTROL eVar personnalisée] obtenu affiche le nombre total de passages en caisse et de commandes pour les utilisateurs connectés et non connectés.
 
-Pour plus d’informations, voir [Variable de trafic](https://marketing.adobe.com/resources/help/fr_FR/reference/traffic_var.html) dans l’aide et la référence d’Analytics.
+Pour plus d’informations, voir [Variable de trafic](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) dans l’aide et le document de référence d’Analytics.
 
 Pour plus d’informations sur la configuration des propriétés dans Digital Tag Management, voir [Création d’une propriété web](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
