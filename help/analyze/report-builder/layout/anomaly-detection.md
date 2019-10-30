@@ -5,9 +5,9 @@ seo-title: Détection des anomalies
 solution: Analytics
 title: Détection des anomalies
 topic: Créateur de rapports
-uuid: 02 da 21 b 4-3394-471 b -97 b 5-aa 1 bddf 1 f 445
+uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ Voici quelques exemples d’anomalies dont vous pouvez rechercher l’origine :
 * Pic des événements de mémoire tampon pour la vidéo
 * Pic des faibles débits en bits pour la vidéo
 
->[!NOTE]
->
->La détection des anomalies est disponible uniquement lorsque vous sélectionnez la granularité Jour.
+> [!NOTE] La détection des anomalies n’est disponible que lorsque vous sélectionnez la granularité Jour.
 
 <p class="head"> <b>Mesures de détection des anomalies</b> </p>
 
