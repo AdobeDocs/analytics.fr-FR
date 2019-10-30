@@ -7,7 +7,7 @@ title: Horodatages facultatifs
 topic: Outils d’administration
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ Voir [Utilisation du paramètre Horodatages (facultatif)](/help/implement/js-imp
 >
 >If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de cheminement.
 
->[!NOTE]
->
->Les données de la session avec horodatage sont conservées pendant 92 jours au maximum. Cela signifie qu’une visite/session sera "ouverte" pendant 92 jours, tandis que tout accès supplémentaire (qui n’est pas 30 minutes après l’accès précédent (dans le temps d’accès), peut toujours être inclus dans la même visite/session. Tout "ancien" accès qui est reçu hors service produira des résultats "inconnus", car plusieurs facteurs (segmentation, attribution, expiration, etc.) influencent l’inclusion ou non de ces accès dans les rapports.
+> [!NOTE] Les données de la session avec horodatage sont conservées pendant 92 jours au maximum. Cela signifie qu’une visite/session sera "ouverte" pendant 92 jours, tandis que tout accès supplémentaire (qui n’est pas 30 minutes après l’accès précédent (dans le temps d’accès), peut toujours être inclus dans la même visite/session. Tout "ancien" accès qui est reçu hors service produira des résultats "inconnus", car plusieurs facteurs (segmentation, attribution, expiration, etc.) influencent l’inclusion ou non de ces accès dans les rapports.
 
 ## Nouvelles suites de rapports {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -50,7 +48,5 @@ Voir [Utilisation du paramètre Horodatages (facultatif)](/help/implement/js-imp
 
    Le paramètre Horodatages (facultatif) est activé pour la suite de rapports.
 
->[!NOTE]
->
->If a report suite was set to **Timestamps Optional**, to change this to any other setting, please contact Adobe Client Care.
+> [!NOTE] Si une suite de rapports a été définie sur **Horodatages facultatifs**, pour modifier ce paramètre, contactez le service à la clientèle Adobe.
 
