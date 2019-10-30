@@ -7,8 +7,8 @@ solution: Analytics
 title: Mesures
 topic: Développeur et mise en œuvre
 uuid: d2addb55-cae6-470d-b482-303ef365809c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ Les mesures représentent la base des rapports et vous aident à visualiser et c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Mesures de trafic </p> </td> 
-   <td colname="col2"> <p> <b>Page vue :</b> une page web est chargée dans le navigateur d’un utilisateur (une exécution du code des Reports &amp; Analytics). </p> <p> <b>Visite :</b> n’importe quel nombre de pages vues lorsqu’un visiteur consulte votre site. Une visite se termine après 30 minutes d’inactivité. </p> <p> <b>Visiteur unique :</b> visiteur consultant votre site pour la première fois au cours d’une période donnée (heure, jour, semaine, mois, trimestre ou année). Cela comprend également les visiteurs uniques pour n’importe quelle période. </p> </td> 
+   <td colname="col2"> <p> <b></b> Page vue : Une page Web se charge dans le navigateur d’un utilisateur (une exécution du code Rapports et analyses). </p> <p> <b>Visite :</b> n’importe quel nombre de pages vues lorsqu’un visiteur consulte votre site. Une visite se termine après 30 minutes d’inactivité. </p> <p> <b>Visiteur unique :</b> visiteur consultant votre site pour la première fois au cours d’une période donnée (heure, jour, semaine, mois, trimestre ou année). Cela comprend également les visiteurs uniques pour n’importe quelle période. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mesures de conversion </p> </td> 
@@ -45,9 +45,9 @@ Les mesures représentent la base des rapports et vous aident à visualiser et c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mesures calculées </p> </td> 
-   <td colname="col2"> <p>Les <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/calculated_metric.html" format="html" scope="external">mesures calculées</a> vous permettent de combiner des mesures afin de créer des opérations mathématiques utilisées comme nouvelles mesures. Ces mesures peuvent être créées pour un rapport dans lequel vous en ajoutez. Les administrateurs peuvent créer des mesures calculées pour tous les utilisateurs d’une suite de rapports. </p> </td> 
+   <td colname="col2"> <p>Les <a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">mesures calculées</a> vous permettent de combiner des mesures afin de créer des opérations mathématiques utilisées comme nouvelles mesures. Ces mesures peuvent être créées pour un rapport dans lequel vous en ajoutez. Les administrateurs peuvent créer des mesures calculées pour tous les utilisateurs d’une suite de rapports. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voir [Mesures](https://marketing.adobe.com/resources/help/fr_FR/reference/metrics.html) dans Aide et référence d’Analytics pour obtenir des définitions des mesures.
+Pour obtenir les définitions des mesures, voir [Mesures](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) dans l’aide et la documentation de référence d’Analytics.
