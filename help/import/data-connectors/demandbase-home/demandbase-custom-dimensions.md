@@ -5,7 +5,7 @@ seo-title: Demandbase Custom Dimensions
 title: Demandbase Custom Dimensions
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 Répertorie les identifiants de dimension facultatifs pouvant être fournis à l’étape 4 de l’assistant d’intégration Adobe.
 
-If you are unsure of the exact API ID to enter into the wizard, please consult with your Demandbase representative.
+Si vous n’êtes pas sûr de l’ID d’API exact pour entrer dans l’assistant, consultez votre représentant Demandbase.
 
 >[!IMPORTANT]
 >
->Il est vivement recommandé de NE PAS inclure l’adresse IP comme dimension personnalisée. Le nombre extrêmement élevé de valeurs uniques peut entraîner des problèmes de performances lors de la création de rapports. In addition, IP Address is already offered as a reporting option through Adobe data warehouse reporting.
+>Il est vivement recommandé de NE PAS inclure l’adresse IP comme dimension personnalisée. Le nombre extrêmement élevé de valeurs uniques peut entraîner des problèmes de performances lors de la création de rapports. En outre, l’adresse IP est déjà proposée en tant qu’option de création de rapports par l’intermédiaire des rapports de l’entrepôt de données Adobe.
 
 <table id="table_3B44A18BE5FE45BC83389F89B48D9B97"> 
  <thead> 
@@ -47,7 +47,7 @@ If you are unsure of the exact API ID to enter into the wizard, please consult w
   <tr> 
    <td colname="col1"> Fortune 1000 </td> 
    <td colname="col2"> fortune_1000 </td> 
-   <td colname="col3"> Indicates whether the organization is on the Fortune 1000 list. </td> 
+   <td colname="col3"> Indique si l’organisation figure dans la liste des 1000 devises. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Forbes 2000 </td> 
@@ -62,37 +62,37 @@ If you are unsure of the exact API ID to enter into the wizard, please consult w
   <tr> 
    <td colname="col1"> Ventes annuelles </td> 
    <td colname="col2"> year_sales </td> 
-   <td colname="col3"> Pour les entités publiques, les recettes annuelles sont basées sur les registres publics déclarés par l’entreprise pour le siège social mondial, sur tous les sites. For privately-held organizations, it is based on consensus estimate for the yearly sales revenue number. </td> 
+   <td colname="col3"> Pour les entités publiques, les recettes annuelles sont basées sur les registres publics déclarés par l’entreprise pour le siège social mondial, sur tous les sites. Pour les organisations privées, il est basé sur une estimation consensuelle du chiffre d'affaires annuel. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Numéro de téléphone </td> 
-   <td colname="col2"> phone </td> 
-   <td colname="col3"> The telephone number of the organization identified. </td> 
+   <td colname="col2"> téléphone </td> 
+   <td colname="col3"> Numéro de téléphone de l'organisation identifié. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Street address </td> 
+   <td colname="col1"> Adresse de rue </td> 
    <td colname="col2"> street_address </td> 
-   <td colname="col3"> The street address of the organization identified. </td> 
+   <td colname="col3"> L'adresse de l'organisation identifiée. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ville </td> 
-   <td colname="col2"> city </td> 
-   <td colname="col3"> The city of the organization identified. </td> 
+   <td colname="col2"> ville </td> 
+   <td colname="col3"> La ville de l'organisation identifiée. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> État </td> 
    <td colname="col2"> state </td> 
-   <td colname="col3"> The state of the organization identified. </td> 
+   <td colname="col3"> État de l'organisation identifié. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Code de pays </td> 
    <td colname="col2"> country_code </td> 
-   <td colname="col3"> The ISO two-character country code of the organization identified. </td> 
+   <td colname="col3"> Le code de pays à deux caractères ISO de l'organisation identifié. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nom du pays </td> 
    <td colname="col2"> country_name </td> 
-   <td colname="col3"> The string value country name of the country for the organization identified. </td> 
+   <td colname="col3"> Nom du pays de la valeur de chaîne pour l’organisation identifiée. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Zip </td> 
@@ -107,7 +107,7 @@ If you are unsure of the exact API ID to enter into the wizard, please consult w
   <tr> 
    <td colname="col1"> Billetterie </td> 
    <td colname="col2"> stock_ticker </td> 
-   <td colname="col3"> The stock ticker if the organization identified is publicly traded. </td> 
+   <td colname="col3"> Le coquilleur d'actions si l'organisation identifiée est cotée en bourse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Code SIC principal </td> 
@@ -126,13 +126,13 @@ If you are unsure of the exact API ID to enter into the wizard, please consult w
   </tr> 
   <tr> 
    <td colname="col1"> Trafic </td> 
-   <td colname="col2"> traffic </td> 
-   <td colname="col3"> The amount of website traffic, estimated to low, medium or high or very high. </td> 
+   <td colname="col2"> trafic </td> 
+   <td colname="col3"> Le volume de trafic sur le site Web, estimé à faible, moyen, élevé ou très élevé. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> B2B </td> 
    <td colname="col2"> b2b </td> 
-   <td colname="col3"> Indicates that the identified company primarily sells to other businesses. </td> 
+   <td colname="col3"> Indique que la société identifiée vend principalement à d’autres entreprises. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> B2C </td> 
