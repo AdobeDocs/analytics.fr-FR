@@ -3,12 +3,12 @@ description: Vous pouvez importer (télécharger) des données de classification
 seo-description: Vous pouvez importer (télécharger) des données de classification à l’aide du navigateur. Cette méthode limite le téléchargement des données de classification à une seule suite de rapports.
 seo-title: Importation navigateur
 solution: Analytics
-subtopic: Gestionnaire
+subtopic: Classifications
 title: Importation navigateur
 topic: Outils d’administration
-uuid: 56 dfbf 4 c -36 e 6-49 f 4-b 5 cb -8 ab 714432825
+uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Vous pouvez importer (télécharger) des données de classification à l’aide du navigateur. Cette méthode limite le téléchargement des données de classification à une seule suite de rapports.
 
-## Browser import {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
+## Importation navigateur {#concept_314FB3D5FD5A439B9CFEDE37A3337BA7}
 
 Vous pouvez importer (télécharger) des données de classification à l’aide du navigateur. Cette méthode limite le téléchargement des données de classification à une seule suite de rapports.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**
+**[!UICONTROL Admin]** &gt; Importateur de **[!UICONTROL classifications]**
 
 ## Classifications – Importation navigateur – Description des champs {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -66,7 +66,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**.
-1. Configure the **[!UICONTROL Browser Import]** fields.
+1. Configurez les champs **[!UICONTROL d’importation]** du navigateur.
 1. Click **[!UICONTROL Import File]**.
 1. Vérifiez les messages de traitement dans la fenêtre d’état.
 1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
