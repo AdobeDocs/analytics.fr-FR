@@ -8,14 +8,14 @@ title: AppMeasurement pour JavaScript
 topic: Développeur et mise en œuvre
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # AppMeasurement pour JavaScript{#appmeasurement-for-javascript}
 
-Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
+Notes de mise à jour cumulées pour [!DNL AppMeasurement] pour JavaScript.
 
 <!-- 
 
@@ -23,9 +23,9 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
  -->
 
-The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+Vous pouvez télécharger la dernière version de chaque bibliothèque sous **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Gestionnaire de code]**.
 
-## Versions 2.17.0
+## Version 2.17.0
 
 Date de publication : **23 août 2019**
 
@@ -40,7 +40,7 @@ Date de publication : **15 août 2019**
 
 | Fonctionnalité | Description |
 | -----------| ---------- |
-| Prise en charge `sendBeacon` des liens de sortie | Mise en œuvre de la prise en charge `sendBeacon` des liens de sortie dans [!UICONTROL AppMeasurement]. Cela permettra d’améliorer le suivi des liens de sortie et entraînera probablement par une augmentation du trafic. `SendBeacon` ne s’exécute pas dans le contexte d’une page, mais dans le contexte du navigateur. En d’autres termes, si une page est déchargée avec `sendBeacon`, la requête est toujours terminée. Cela s’avère très utile pour les liens de sortie, car il est plus probable que la demande de lien de sortie soit terminée. |
+| Prise en charge `sendBeacon` des liens de sortie | Mise en œuvre de la prise en charge `sendBeacon` des liens de sortie dans [!UICONTROL AppMeasurement]. Cela permettra d’améliorer le suivi des liens de sortie et entraînera probablement par une augmentation du trafic. `SendBeacon` ne s’exécute pas dans le contexte d’une page, mais dans le contexte du navigateur. En d’autres termes, si une page se décharge avec `sendBeacon`, la requête sera toujours exécutée. Cela s’avère très utile pour les liens de sortie, car il est plus probable que la demande de lien de sortie soit exécutée. |
 | Valeurs ECID/fid | Les valeurs ECID/fid sont maintenant mises en cache au premier accès, même si les paramètres OptIn changent. |
 | DIL 9.3 | Mise à jour du module Gestion de l’audience vers DIL 9.3 |
 | Suivi de la portée de défilement | Bouton exposé dans s.ActivityMap.trackScrollReach permettant d’activer ou de désactiver le suivi de la portée de défilement. |
@@ -50,8 +50,8 @@ Date de publication : **15 août 2019**
 
 Date de publication : **15 juillet 2019**
 
-* Ajout du suivi des accès de défilement d’ActivityMap à l’extension de Carte d’activités (AN-172949)
-* Ajout de DIL 9.2 à AppMeasurement (AN-182472)
+* Ajout du suivi de la portée de défilement Activity Map à l’extension Activity Map (AN-172949)
+* Ajout de DIL 9.2 à AppMeasurement (AN-182472)
 
 ## Version 2.14.0
 
@@ -64,19 +64,19 @@ Date de publication : **21 mai 2019**
 
 Date de publication : **10 avril 2019**
 
-Correction de nombreux problèmes signalés avec clearVars. Le problème survient lorsque les accès sont envoyés avant que le suivi ne soit prêt. Lorsque le suivi est prêt, la bibliothèque peut définir des variables qui ont déjà été effacées ou modifiées. (AN-176931, AN-176629, DTM-12758).
+Correction de nombreux problèmes signalés avec clearVars. Le problème survient lorsque les accès sont envoyés avant que l’outil de suivi ne soit prêt. Lorsque l’outil de suivi est prêt, la bibliothèque peut définir des variables qui ont déjà été effacées ou modifiées. (AN-176931, AN-176629, DTM-12758).
 
 ## Version 2.12.0
 
-Release Date: **02/22/2019**
+Date de mise à jour : **22/02/2019**
 
 * Mise à jour du module Gestion de l’audience vers DIL 9.1. (AN-175255)
 * La stratégie de sécurité GTM n’autorise pas le module Activity Map. (AN-174679)
-* Amélioration d’AppMeasurement afin d’honorer l’exclusion lorsque le service d’identité n’est pas approuvé dans l’inclusion. (AN-175259)
+* Amélioration d’AppMeasurement afin d’honorer le droit d’opposition quand le service d’identité n’est pas approuvé dans l’accord préalable. (AN-175259)
 
 ## Version 2.11.0
 
-Release Date: **02/11/2019**
+Date de mise à jour : **11/02/2019**
 
 * Ajout de la prise en charge des nouveaux services de souscription Adobe dans AppMeasurement. (AN-163546)
 * Ajout de la prise en charge du stockage des données de suivi des liens pour le stockage de session. (AN-162272)
@@ -84,24 +84,22 @@ Release Date: **02/11/2019**
 
 ## Version 2.10.0 {#section_0788526EF23049C9AEB1EE5E8FC985DD}
 
-Release Date: **09/20/2018**
+Date de mise à jour : **20/09/2018**
 
-This release ensures that the [!DNL AppMeasurement] library submits cookies correctly for all connection types.
+Cette version garantit l’envoi correct des cookies par la bibliothèque [!DNL AppMeasurement] pour tous les types de connexions.
 
 * [!DNL AppMeasurement] bloque les transmissions de cookies durant les instructions POST. (AN-165538)
 * Prise en charge de la fonction Déposer pour XDomainRequest. (AN-165733)
-* Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. (AN-158572)
-* Remove the Media Module from the Code Manager ( [!DNL AppMeasurement]) (AN-166590)
+* Réduction de la durée de vie par défaut des cookies d’[!DNL AppMeasurement] de cinq à deux ans. (AN-158572)
+* Suppression du module média du Gestionnaire de code ([!DNL AppMeasurement]) (AN-166590)
 
 ## Version 2.9.0 {#section_E973B8A628F348AA9A1A1599CFE37DB9}
 
 Date de publication : **24/05/2018**
 
->[!NOTE]
->
->Visitor API 3.0 or higher is required for customers using the [!DNL Experience Cloud] ID Service. Adobe recommande d’effectuer une mise à niveau vers la dernière version de l’API visiteur à chaque fois que des bibliothèques de code associées sont mises à jour ([!DNL at.js], etc.).[!DNL AppMeasurement.js]
+> [!NOTE]L’API visiteur version 3.0 ou ultérieure est requise pour les clients utilisant le service ID [!DNL Experience Cloud]. Adobe recommande d’effectuer une mise à niveau vers la dernière version de l’API visiteur à chaque fois que des bibliothèques de code associées sont mises à jour ([!DNL at.js], [!DNL AppMeasurement.js] etc.).
 
-* Updated [!DNL AppMeasurement] to use the updated Visitor interface for requesting IDs. (AN-151483)
+* Mise à jour d’[!DNL AppMeasurement] permettant d’utiliser l’interface Visiteur mise à jour pour demander des identifiants. (AN-151483)
 * Correction d’un problème en raison duquel le cookie de suivi des liens continue à s’écrire alors que le suivi des liens est désactivé. (AN-156332)
 * Correction d’un problème en raison duquel `registerPreTrackCallback` et `registerPostTrackCallback` interrompent la signature de la fonction de rappel lorsqu’elles sont appelées plusieurs fois. (AN-158566)
 
@@ -109,9 +107,9 @@ Date de publication : **24/05/2018**
 
 Date de publication : **12/04/2018**
 
-* Update [!DNL AppMeasurement] to use the updated visitor interface for requesting IDs. (AN-151483)
+* Mise à jour d’[!DNL AppMeasurement] permettant d’utiliser l’interface visiteur mise à jour pour demander des identifiants. (AN-151483)
 * Le cookie de suivi des liens continue à être écrit une fois que le suivi des liens est désactivé. (AN-156332)
-* Reduce [!DNL AppMeasurement] default cookie lifetime from five to two years. (AN-158572)
+* Réduction de la durée de vie par défaut des cookies d’[!DNL AppMeasurement] de cinq à deux ans. (AN-158572)
 
 ## Version 2.8.1 {#section_6C1C4091F2EE4C90B6F3D7EE783DD884}
 
@@ -125,7 +123,7 @@ Date de publication : **15/03/2018**
 
 Recompilation de l’API visiteur 3.1.0 (AN-159524) avec les correctifs suivants : (CORE-11390, CORE-10634)
 
-* Bundle VAPI v3.1 with [!DNL AppMeasurement] v2.8. (AN-158353)
+* Compilation de VAPI v3.1 avec [!DNL AppMeasurement] v2.8. (AN-158353)
 * Refactorisation de la création du point de terminaison de la collecte de données afin de faciliter le partage. (AN-156647)
 * Ajout des mesures de minutage en boucle des demandes dans [!DNL AppMeasurement]. (AN-158343)
 
@@ -141,13 +139,13 @@ Date de publication : **18/01/2018**
 
 Date de publication : **09/11/2017**
 
-Fixed an issue where [!DNL AppMeasurement] library does not always set the correct account combination when s_gl is called. (AN-152153)
+Correction d’un problème en raison duquel la bibliothèque [!DNL AppMeasurement] ne définit pas toujours la combinaison de compte correcte lorsque s_gl est appelé. (AN-152153)
 
 ## Version 2.5.0 {#section_3C0006D526CA405FA0C47E2D991012BA}
 
 Date de publication : **21/09/2017**
 
-* Inclusion of [!DNL dil.js 6.12] ( [!DNL Audience Manager] module)
+* Inclusion de [!DNL dil.js 6.12] (module [!DNL Audience Manager])
 
 * Inclusion de l’API visiteur version 2.5.0.
 
@@ -163,21 +161,21 @@ Date de publication : **17/08/2017**
 Date de publication : **20/07/2017**
 
 * Correction d’un problème en raison duquel [!DNL s.Util.getQueryParam] capturait #
-* Added v6.10 of [!DNL dil.js] (AN-145701)
+* Ajout de la version 6.10 du fichier [!DNL dil.js] (AN-145701)
 
 ## Version 2.2.0 {#section_5E23F21413B1443B9A3021CCC9578C4B}
 
 Date de publication : **08/06/2017**
 
-* Added support for multiple [!DNL AppMeasurement] instantiation order. (AN-138237)
+* Prise en charge supplémentaire de plusieurs commandes d’instanciation d’[!DNL AppMeasurement]. (AN-138237)
 * Inclusion de l’API visiteur version 2.2.0. (AN-144042)
 
 ## Version 2.1.0 {#section_5FE53738F9124C86811DFA08923B6F7B}
 
 * Comprend la dernière version de [!DNL dil.js] (AN-140396)
-* Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
+* Ajout de la prise en charge du paramètre `adobe_mc_ref` qui remplace le référent de la page. (AN-131920)
 * API Visiteur 2.1.0. de nouveau inclus. (AN-140873)
-* Ajout `mcorgid` du paramètre. (AN-139586)
+* Ajout du paramètre `mcorgid`. (AN-139586)
 * Paramètre cp (customerPerspective) ajouté. (AN-140897)
 
 ## Version 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -221,14 +219,14 @@ Mise à jour : **10/11/2016**
 
 Mise à jour : **20/10/2016**
 
-* Update [!DNL Audience Manager] module with Demdex Integration Library (DIL) 6.6. (AN-132065)
+* Mise à jour du module [!DNL Audience Manager] avec la bibliothèque Demdex Integration (DIL) 6.6. (AN-132065)
 * Inclusion de l’API visiteur version 1.9.0. (AN-132072)
 
 ## Version 1.7.0 {#section_945311938EE2480A9A697BFE1E5B2AA7}
 
 Mise à jour : **15/09/2016**
 
-* Mise à jour [!DNL AppMeasurement] du [!DNL Audience Manager] module avec DIL 6.5 et des configurations supplémentaires (AN-129411)
+* Mise à jour du module [!DNL AppMeasurement] [!DNL Audience Manager] avec DIL 6.5 et des configurations supplémentaires (AN-129411)
 
 * Inclusion de l’API visiteur version 1.8.0 (AN-129887)
 
@@ -236,35 +234,33 @@ Mise à jour : **15/09/2016**
 
 Mise à jour : **18/08/2016**
 
-* Updated [!DNL AppMeasurement] to read and write AMCV cookies. (AN-127098)
+* Mise à jour d’[!DNL AppMeasurement] afin de pouvoir lire et écrire les cookies AMCV. (AN-127098)
 * Inclusion de l’API visiteur version 1.7.0.
 
->[!NOTE]
->
->Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
+> [!NOTE] Voir aussi les notes de mise à jour suivantes relatives à [!DNL JavaScript] version 1.6.3, qui décrivent les exigences à jour du service Experience Cloud ID.
 
 ## Version 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
 Mise à jour : **04/08/2016**
 
-* Fixed an issue where [!DNL AppMeasurement] prematurely terminated request connections. (AN-126448)
+* Correction d’un problème en raison duquel [!DNL AppMeasurement] mettait fin de manière prématurée aux connexions des requêtes. (AN-126448)
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
+>La version 1.6.0 du service [!DNL Experience Cloud] ID *exige* [!DNL AppMeasurement] pour [!DNL JavaScript] version 1.6.3 ou supérieure. Pour effectuer la mise à niveau vers la version 1.6.0 du service Experience Cloud ID, veillez à utiliser le code [!DNL AppMeasurement] version 1.6.3 ou supérieure.
 
 ## Version 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
 
-Date de publication : **21 juillet 2016**
+Date de publication : **21 juillet 2016**
 
 * Inclusion de l’API visiteur version 1.6.0.
-* Fixed an issue causing [!DNL AppMeasurement] to call the wrong obfuscated method in the Visitor API. (AN-126006)
-* Fixed an issue causing the [!DNL JavaScript] error: "Attribute only valid on v:image". (AN-124009)
+* Correction d’un problème en raison duquel [!DNL AppMeasurement] appelait la méthode d’obscurcissement incorrecte dans l’API visiteur. (AN-126006)
+* Correction d’un problème provoquant l’erreur [!DNL JavaScript] : « Attribute only valid on v:image » (attribut valide seulement sur v:image). (AN-124009)
 
 <!-- 
 
 <note type="important">
-  Adobe strongly recommends upgrading to version 1.6.2 or higher. This version requires Visitor API 1.6.0, and vice-versa. 
+  Adobe strongly recommends upgrading to version 1.6.2 or higher. This version requires Visitor API 1.6.0, and vice-versa.
 </note>
 
  -->
@@ -279,18 +275,18 @@ Inclusion de l’API visiteur version 1.5.7.
 
 Date de mise à jour : **19 mai 2016**
 
-[!DNL JavaScript] version 1.5.6
+[!DNL JavaScript] version 1.5.6
 
 * Inclusion de l’API visiteur version 1.5.6
-* Correction de la prise en charge du suivi des clics publicitaires dans Firefox, qui ne couvrait pas l’événement complet.
+* Correction de la prise en charge du suivi des clics sur les liens dans Firefox, qui ne couvrait pas l’événement complet.
 
 ## Version 1.6 {#section_B132B272FC2E43E9A24198F459E29403}
 
 Date de publication : **21 avril 2016**
 
-* The [!DNL AppMeasurement] [!DNL Activity Map] module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. De plus, [!DNL Activity Map] le suivi est activé par défaut. (AN-112689)
+* Le module [!DNL AppMeasurement] [!DNL Activity Map] a été intégré au module standard d’[!DNL AppMeasurement], afin que vous n’ayez à référencer qu’un seul fichier [!DNL .js]. De plus, le suivi de [!DNL Activity Map] est activé par défaut. (AN-112689)
 
-* Fixed a truncation issue occurring with the order of query-string variables in [!DNL AppMeasurement], so that *`pageURLRest`* is last. (AN-114647)
+* Correction d’un problème de troncation lié à l’ordre des variables de chaîne de requête dans [!DNL AppMeasurement], afin que *`pageURLRest`* soit le dernier. (AN-114647)
 
 ## Version 1.5.4 {#section_A230E5F656734ABD9917388790A37B5D}
 
@@ -303,7 +299,7 @@ Date de publication : **17 mars 2016**
 
 Date de publication : **21 janvier 2016**
 
-* Fixed handling of [!DNL Audience Manager] module when POSTs are used for tracking calls. (AN-115381)
+* Correction de la gestion du module [!DNL Audience Manager] lors de l’utilisation de POST pour les appels de suivi. (AN-115381)
 * Déplacement du reste de l’URL de la page ("-g") à la fin de la chaîne de requête de demande de suivi. (AN-114647)
 
 ## Version 1.5.2 {#section_17CFD0BBC8744447BDFCC833883BC93E}
@@ -317,7 +313,7 @@ Date de publication : **5 novembre 2015**
 
 Date de publication : **17 septembre 2015**
 
-* Inclusion de l’API visiteur version 1.5.2.
+* Inclusion de l’API visiteur version 1.5.2
 
 ## Version 1.5.1 {#section_077DA135C1A5466EB00C44A3C3E472F8}
 
@@ -329,19 +325,19 @@ Date de publication : **29 août 2015**
 
 Date de publication : **16 juillet 2015**
 
-* Updated [!DNL Audience Manager] module to use AAM DIL 6.2 - getCustomer IDs from VisitorAPI.js and pass them in /event call to AAM. (AN-104978)
+* Mise à jour du module [!DNL Audience Manager] pour pouvoir utiliser les identifiants AAM DIL 6.2 - getCustomer de VisitorAPI.js et les transmettre dans l’appel d’événement à AAM. (AN-104978)
 
 ## Version 1.5 {#section_8809DBD822E440C6B5B7FF41E5DF3015}
 
 Date de publication : **18 juin 2015**
 
 * Prise en charge de l’API visiteur version 1.5 qui utilise la méthode *`getCustomerIDs`* pour rassembler les ID de client et l’état authentifié et envoyer les ID avec les demandes de collecte de données.
-* Fixed the creation of duplicate destinationing iframe in **[!UICONTROL AudienceManagement]** module (DIL 6.1)
+* Correction d’un problème lié à la création d’iframe de destination en double dans le module **[!UICONTROL AudienceManagement]** (DIL 6.1).
 * Correction du problème connu décrit dans la version 1.4.5.
 
 ## Version 1.4.5 {#section_FA2E94DF78614ACE9944660E14EF3A75}
 
-Date de mise à jour : **21 mai 2015**
+Date de publication : **21 mai 2015**
 
 <table id="table_E0F3EF51FED44420AC97ACF0684554D0"> 
  <thead> 
@@ -353,11 +349,11 @@ Date de mise à jour : **21 mai 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extension iOS</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">Mise en œuvre de l’extension iOS </a>. </p> </td> 
+   <td colname="col2"> <p> Depuis le SDK <span class="keyword"> iOS </span> version 4.5, une nouvelle extension <span class="keyword"> iOS</span> permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension <span class="keyword"> iOS </span>. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">Mise en œuvre de l’extension iOS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extension Android Wearable</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Extension Android Wearable </a>. </p> </td> 
+   <td colname="col2"> <p> À compter de la version 4.5 du SDK <span class="keyword"> Android </span>, une nouvelle extension <span class="keyword"> Android </span> permet de collecter des données à partir de l’application <span class="keyword"> Android </span> Wearable. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Extension Android Wearable </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,7 +363,7 @@ Date de mise à jour : **21 mai 2015**
 
 **Problème connu**
 
-Dans les intégrations API visiteur/ [!DNL AppMeasurement] module, [!DNL Audience Manager] deux demandes iFrame de publication de destination seront effectuées dans IE6-9 : `//fast.<subdomain>.demdex.net/dest5.html` et `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
+Dans les intégrations API visiteur / module[!DNL AppMeasurement] [!DNL Audience Manager], deux demandes iFrame de publication de destination seront effectuées dans IE6-9 : `//fast.<subdomain>.demdex.net/dest5.html` et `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
@@ -386,7 +382,7 @@ Date de publication : **16 avril 2015**
    <td colname="2"> <p>Vous pouvez maintenant inclure des variables de données contextuelles personnalisées aux mesures de cycle de vie. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap </span> </p> </td> 
+   <td colname="1"> <p>Prise en charge du suivi des balises dans <span class="keyword"> PhoneGap </span> </p> </td> 
    <td colname="2"> <p>The <code> trackBeacon </code> and <code> clearCurrentBeacon </code> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -407,7 +403,7 @@ Date de publication : **19 février 2015**
 Date de publication : **15 janvier 2015**
 
 * Correction d’un problème lors de la gestion du prérendu WebKit afin d’empêcher le suivi des pages prérendues qui ne sont pas consultées.
-* The distribution zip was updated to include Visitor API 1.3.4 and an updated **[!UICONTROL AudienceManagement]** module that includes DIL version 5.5.
+* Le fichier compressé de distribution a été mis à jour afin d’inclure l’API visiteur 1.3.4 et un module **[!UICONTROL AudienceManagement]** mis à jour qui inclut la bibliothèque d’intégration des données (DIL) version 5.5.
 
 ## Version 1.4.1 {#section_616FF936062F44E8B70032D18AAAFC5F}
 
@@ -439,13 +435,11 @@ Date de publication : **18 septembre 2014**
 Date de publication : **21 août 2014**
 
 * La suppression du suivi des modules externes de navigateur (paramètre de requête `p`) en tant que modules externes n’est plus reportée dans la version 15.
-* Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
+* Ajout du module **[!UICONTROL AudienceManagement]** dans le fichier compressé de téléchargement.
 
 Ajout de la prise en charge des [eVars (76 à 250) et événements (101 à 1000) supplémentaires](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html).
 
->[!NOTE]
->
->Le code H ne prend pas en charge les eVars et événements supplémentaires.
+> [!NOTE] Le code H ne prend pas en charge les eVars et événements supplémentaires.
 
 [!DNL JavaScript]
 
@@ -453,14 +447,14 @@ Ajout de la prise en charge des [eVars (76 à 250) et événements (101 à 1000)
 
 Date de publication : **19 juin 2014**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
+* Correction de la gestion des indicateurs Terminé et En attente dans les champs d’API de visiteur, par exemple l’identifiant visiteur hérité d’[!DNL Analytics], qui générait des erreurs.
 * Prise en charge de nouvelles fonctionnalités du service d’identification des visiteurs version 1.3.
 
 ## Version 1.3.1 {#section_5E65422B9C1E4437A2473B119A14163E}
 
 Date de publication : **22 mai 2014**
 
-* [!DNL AppMeasurement] pour la [!DNL JavaScript] fonction `s_gi` ne recherchait pas correctement les instances créées à l’aide du code H `s_gi`. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
+* La fonction d’[!DNL AppMeasurement] pour [!DNL JavaScript] `s_gi` ne recherchait pas correctement les instances créées à l’aide du code H `s_gi`. Notez que ce problème avait uniquement une incidence sur certaines implémentations de marquage double dans lesquelles le code [!DNL AppMeasurement] pour [!DNL JavaScript] et le code H figuraient dans une même page avec des instances distinctes et que `s_gi` était utilisé pour rechercher des instances par suite de rapports.
 
 ## Version 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
@@ -484,7 +478,7 @@ Date de publication : **20 février 2014**
 
 Date de publication : **6 février 2014**
 
-* Fixed a compatibility issue with the [!DNL Audience Manager] DIL module. [!DNL Audience Manager] les clients doivent également mettre à jour vers la version 4.8 du module DIL.
+* Correction d’un problème de compatibilité avec le module [!DNL Audience Manager] DIL. Les utilisateurs d’[!DNL Audience Manager] doivent également effectuer la mise à jour vers la version 4.8 du module DIL.
 
 ## Version 1.2.1 {#section_6DA9384BC2C84698952D51FFB3732019}
 
@@ -502,27 +496,27 @@ Date de publication : **14 novembre 2013**
 ## Version 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
 * Un appel de suivi de liens ne pouvait pas être envoyé à partir des navigateurs Opera pour les liens commençant par « opera: » (« opera: » est semblable à « about: » et « chrome: » dans d’autres navigateurs).
-* Added `alt=""` to all Image objects to comply with Accessible Video and Communications Act.
+* Ajout de `alt=""` à tous les objets Image en vue de la conformité avec le « Communications and Video Accessibility Act ».
 
 ## Version 1.1 {#section_4508FF0A14AE46DF96A08B5C6703E123}
 
 Date de publication : **18 septembre 2013**
 
 * Correction de la prise en charge du positionnement du code de bibliothèque et de page dans la balise `head`.
-* Added missing module `onLoad` support.
+* Ajout de la prise en charge du module `onLoad` manquante.
 
 ## Version 1.0.3 {#section_A74A78C30067480AB36C54A06706DF89}
 
-Date de publication : **15 août 2013**
+Date de publication : **15 août 2013**
 
 * Ajout de la prise en charge du déploiement dans la gestion des balises Adobe.
-* Fixed an issue that prevented hierarchy variables from being set on the [!DNL AppMeasurement] object.
+* Correction d’un problème qui empêchait les variables hiérarchiques d’être définies sur l’objet [!DNL AppMeasurement].
 
 ## Version 1.0.2 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
 
 Date de publication : **18 juillet 2013**
 
-* Le hachage/fragment est désormais ignoré par le suivi automatique des liens. Previously the following URL was automatically tracked since the entire `href` ended in `.pdf`:
+* Le hachage/fragment est désormais ignoré par le suivi automatique des liens. Auparavant, l’URL suivante était automatiquement suivie puisque l’intégralité du contenu entre les balises `href` se terminait par `.pdf` :
 
    ```js
    <a href="index.htm#anchor.pdf">Test Link</a>
@@ -534,15 +528,13 @@ Date de publication : **18 juillet 2013**
 
 Date de publication : **23 mai 2013**
 
-A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code Manager. Cette bibliothèque fournit les mêmes fonctionnalités de base que le fichier [!DNL s_code.js] ; elle est toutefois plus légère et plus rapide sur les sites pour mobiles comme sur les sites pour Bureau.
+Une nouvelle bibliothèque [!DNL JavaScript] [!DNL AppMeasurement] est désormais disponible dans le Gestionnaire de code. Cette bibliothèque fournit les mêmes fonctionnalités de base que le fichier [!DNL s_code.js] ; elle est toutefois plus légère et plus rapide sur les sites pour mobiles comme sur les sites pour Bureau.
 
 * 3 à 7 fois plus rapide que le code H.25.
-* Décompressée : 21 K uniquement ; 8 K dans un fichier gzip (code H.25 : 33 K décompressé et 13 K dans un fichier gzip).
+* Décompressée : 21 Ko uniquement ; 8 Ko dans un fichier gzip (code H.25 : 33 Ko décompressé et 13 Ko dans un fichier gzip).
 * Prise en charge native pour l’obtention des paramètres de requête, la lecture et l’écriture de cookies et le suivi avancé des liens.
 * Suffisamment petite et rapide pour être utilisée sur les sites pour mobiles et suffisamment robuste pour être utilisée sur les sites pour Bureau, ce qui vous permet d’exploiter une seule et même bibliothèque dans tous les environnements web.
 
 Voir [AppMeasurement pour Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) dans le Guide de mise en œuvre [!DNL Analytics]
 
->[!NOTE]
->
->Certains modules externes ne sont pas pris en charge dans cette nouvelle version. Voir [Prise en charge des modules externes](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) pour obtenir des informations détaillées.
+> [!NOTE] Certains modules externes ne sont pas pris en charge par cette nouvelle version. Voir [Prise en charge des modules externes](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) pour obtenir des informations détaillées.
