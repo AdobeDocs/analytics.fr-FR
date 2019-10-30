@@ -1,26 +1,24 @@
 ---
-description: Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
-seo-description: Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
-seo-title: Confidentialité des données et connecteurs de données (Genesis)
+description: Cette page répertorie toutes les variables partenaires des Connecteurs de données (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
+seo-description: Cette page répertorie toutes les variables partenaires des Connecteurs de données (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
+seo-title: Confidentialité des données et Connecteurs de données (Genesis)
 title: Confidentialité des données et connecteurs de données (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Confidentialité des données et connecteurs de données (Genesis)
 
-Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
+Cette page répertorie toutes les variables partenaires des Connecteurs de données (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
 
-Ces informations vous permettent d'identifier toute donnée directement identifiable ou toute donnée indirectement identifiable importée via nos connecteurs, lorsqu'ils reçoivent une demande de confidentialité de données.
+Ces informations vous permettent d’identifier toute donnée directement ou indirectement identifiable importée via nos connecteurs lors de la réception d’une demande relative à la Confidentialité des données.
 
 Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous suffit de vérifier quelles variables/classifications partenaires de votre intégration peuvent potentiellement contenir des données directement ou indirectement identifiables.
 
->[!NOTE]
->
->This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
+> [!NOTE] Ces informations sont fournies pour vous aider à identifier les variables à [étiqueter](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), mais il vous incombe, en tant que contrôleur des données, d’appliquer les étiquettes appropriées ou de prendre d’autres mesures pour [vous préparer à la Confidentialité des données ](/help/admin/c-data-governance/an-gdpr-overview.md) (mise à jour des classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
