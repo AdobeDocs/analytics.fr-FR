@@ -1,18 +1,18 @@
 ---
 description: Description de la procédure par laquelle les administrateurs peuvent activer l’accès aux rapports de Data Warehouse pour un groupe d’utilisateurs.
 seo-description: Description de la procédure par laquelle les administrateurs peuvent activer l’accès aux rapports de Data Warehouse pour un groupe d’utilisateurs.
-seo-title: Ajouter un groupe d’utilisateurs de Data Warehouse
+seo-title: Ajouter un groupe d’utilisateurs de l’Data Warehouse
 solution: Analytics
-title: Ajouter un groupe d’utilisateurs de Data Warehouse
+title: Ajouter un groupe d’utilisateurs de l’Data Warehouse
 topic: Data Warehouse
-uuid: d 89294 db-caa 3-4044-b 70 d -65 b 512 b 0 dc 1 c
+uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ajouter un groupe d’utilisateurs de Data Warehouse
+# Ajouter un groupe d’utilisateurs de l’Data Warehouse
 
 Description de la procédure par laquelle les administrateurs peuvent activer l’accès aux rapports de Data Warehouse pour un groupe d’utilisateurs.
 
@@ -35,7 +35,7 @@ Description de la procédure par laquelle les administrateurs peuvent activer l�
 
    >[!NOTE]
    >
-   >En cas de conflit d'autorisations (par exemple, un utilisateur affecté à deux groupes, l'un d'eux refuse l'accès à une fonctionnalité et l'autre lui accorde), le système limite l'autorisation. Il se peut que les utilisateurs appartenant à des groupes qui refusent l’accès à Data Warehouse doivent être supprimés de ces groupes.
+   >En cas de conflit d’autorisations (par exemple, un utilisateur affecté à deux groupes, dont l’un refuse l’accès à une fonctionnalité et l’autre lui accorde), le système limite les autorisations. Il se peut que les utilisateurs appartenant à des groupes qui refusent l’accès à Data Warehouse doivent être supprimés de ces groupes.
 
 >[!MORE_LIKE_THIS]
 >
