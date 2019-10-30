@@ -4,7 +4,7 @@ seo-description: Instructions sur l’exécution des analyses ad hoc avec Java 1
 seo-title: Analyses ad hoc et Java 11
 title: Exécution de l’Ad Hoc Analysis sur Java 11
 translation-type: tm+mt
-source-git-commit: 23bdb0c24416c376ec1df7b609a5794dbf8886f2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,13 +25,11 @@ Travaillez avec votre équipe informatique pour vous assurer que les éléments 
 1. Accédez à **[!UICONTROL Analytics &gt; Outils &gt; Ad Hoc Analysis]**.
 1. Cliquez sur **[!UICONTROL Ad Hoc Analysis (Java 11)]**. Un fichier compressé est téléchargé.
 1. Décompressez le fichier téléchargé.
-1. **Sélectionnez le fichier .bat (PC) ou .sh (Mac)**. Sélectionnez le fichier de centre de données approprié en regardant le numéro qui suit « sc » dans l’URL Adobe Analytics. (3 = LON, 4 = SIN, 5 = PNW) Si vous utilisez un PC, vérifiez si vous exécutez un système d'exploitation Windows 32 bits ou 64 bits en accédant à "À propos de votre PC". Sélectionnez ensuite le fichier .bat approprié.
+1. **Sélectionnez le fichier .bat (PC) ou .sh (Mac)**. Sélectionnez le fichier du centre de données approprié en observant le numéro suivant "sc" dans l’URL d’Adobe Analytics. (3 = LON, 4 = SIN, 5 = PNW) Si vous utilisez un PC, vérifiez si vous exécutez un système d'exploitation Windows 32 bits ou 64 bits en accédant à "À propos de votre PC". Sélectionnez ensuite le fichier .bat approprié.
 1. **Exécutez le fichier sélectionné**. Pour PC : double-cliquez sur le fichier .bat. Pour Mac : cliquez avec le bouton droit de la souris sur le fichier .sh, puis sélectionnez **[!UICONTROL Ouvrir avec &gt; Autre... &gt; Utilitaires &gt; (Activer toutes les applications) &gt; sélectionnez Terminal &gt; Ouvrir]**.
 1. Connectez-vous à Ad Hoc Analysis.
 
->[!Nnote]
->
-> Les méthodes d’authentification Federated et Enterprise ID ne sont pas compatibles avec la version Java 11 des analyses ad hoc.
+> [!NOTE] Les méthodes d’authentification Federated et Enterprise ID ne sont pas compatibles avec la version Java 11 des analyses ad hoc.
 
 ## Fonctionnalités non prises en charge dans Ad Hoc Analysis (Java 11)
 
