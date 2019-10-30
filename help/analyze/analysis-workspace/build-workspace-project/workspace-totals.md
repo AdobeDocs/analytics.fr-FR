@@ -1,26 +1,26 @@
 ---
-description: How Workspace totals are calculated.
-seo-description: Learn how Workspace totals are calculated.
-seo-title: How Workspace totals are calculated.
-title: Workspace totals
+description: Méthode de calcul des totaux de Workspace.
+seo-description: Découvrez comment les totaux de Workspace sont calculés.
+seo-title: Méthode de calcul des totaux de Workspace.
+title: Totaux de Workspace
 translation-type: tm+mt
-source-git-commit: b2e76715a2bab0931b1ddf8c612c29eea530ce6c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Workspace totals
+# Totaux de Workspace
 
-In Freeform tables, a total row appears at each breakdown level and can show two totals:
+Dans les tableaux à structure libre, une ligne totale s’affiche à chaque niveau de ventilation et peut afficher deux totaux :
 
-* **[!UICONTROL Grand Total (gray 'out of' number) - this total represents all hits that have been collected, sometimes referred to as 'report suite total'.]** When a segment is applied either at the panel level or within the freeform table, this total adjusts to reflect all hits that match the segment criteria.
-* **[!UICONTROL Table Total (black number) - this total is typically equal to or a subset of the Grand Total.]** Elle reflète les filtres de tableau appliqués dans le tableau à structure libre, y compris l’option [!UICONTROL Inclure aucun] .
+* **[!UICONTROL Total]** général (nombre "hors" gris) : ce total représente tous les accès qui ont été collectés, parfois appelés "total de la suite de rapports". Lorsqu’un segment est appliqué au niveau du panneau ou dans le tableau à structure libre, ce total s’ajuste pour refléter tous les accès qui correspondent aux critères du segment.
+* **[!UICONTROL Total]** du tableau (nombre noir) : ce total est généralement égal ou un sous-ensemble du total général. Elle reflète les filtres de tableau appliqués dans le tableau à structure libre, y compris l’option [!UICONTROL Inclure aucun] .
 
 ![](assets/total-row.png)
 
 ## Afficher le paramètre total
 
-Sous Paramètres **[!UICONTROL de]** colonne, vous pouvez **[!UICONTROL afficher les totaux]** et **[!UICONTROL afficher le total]** général. If these settings are unchecked, totals will be removed from the table. Cela peut être souhaité dans les cas où les totaux n’ont pas de sens, par exemple, dans certains scénarios [de mesures](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)calculées.
+Sous Paramètres **[!UICONTROL de]** colonne, vous pouvez **[!UICONTROL afficher les totaux]** et **[!UICONTROL afficher le total]** général. Si ces paramètres sont désactivés, les totaux sont supprimés du tableau. Cela peut être souhaité dans les cas où les totaux n’ont pas de sens, par exemple, dans certains scénarios [de mesures](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)calculées.
 
 ![](assets/column-settings-total.png)
 
