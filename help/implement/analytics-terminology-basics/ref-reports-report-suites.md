@@ -7,8 +7,8 @@ solution: Analytics
 title: Rapports et suites de rapports
 topic: Développeur et mise en œuvre
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
-translation-type: ht
-source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,24 +35,24 @@ Vous pouvez exécuter un *rapport Analytics* après la mise en œuvre d’Adobe�
 
 Les types de rapports généraux comprennent :
 
-* [Traffic](https://marketing.adobe.com/resources/help/fr_FR/reference/reports_traffic.html) : vous donne des informations détaillées sur la manière dont les visiteurs interagissent avec votre site web et sur vos statistiques de trafic personnalisées.
-* [Conversion](https://marketing.adobe.com/resources/help/fr_FR/reference/reports_conversion.html) : affiche des informations sur les indicateurs de succès que vous définissez.
-* [Chemins](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html) : vous permet de suivre et d’enregistrer les chemins de navigation complets des visiteurs.
+* [Trafic :](https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html) donne un aperçu détaillé de la façon dont les visiteurs interagissent avec votre site web et affichent des informations sur vos statistiques de trafic personnalisées.
+* [Conversion :](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) affiche des informations sur les indicateurs de succès définis.
+* [Chemins :](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html) permet de suivre et d’enregistrer les chemins complets de navigation des visiteurs.
 
-Vous pouvez utiliser [Analytics Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/) pour supprimer les limites classiques d’un rapport Analytics unique. Il offre un canevas robuste et souple permettant de créer des projets d’analyses personnalisés. Faites glisser des tableaux de données, des visualisations et des composants (dimensions, mesures, segments et granularités temporelles) sur un projet. Créez instantanément des ventilations et des segments, des cohortes pour analyse, ainsi que des alertes et des segments et traitez les rapports pour les partager avec n’importe qui dans votre entreprise.
+Vous pouvez utiliser [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) afin de supprimer les limites habituelles d’un rapport Analytics unique. Il offre un canevas robuste et souple permettant de créer des projets d’analyses personnalisés. Faites glisser des tableaux de données, des visualisations et des composants (dimensions, mesures, segments et granularités temporelles) sur un projet. Créez instantanément des ventilations et des segments, des cohortes pour analyse, ainsi que des alertes et des segments et traitez les rapports pour les partager avec n’importe qui dans votre entreprise.
 
 <p class="head"> <b>Voir aussi</b> </p>
 
 * [Aide d’Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
 * [Reports and Analytics](/help/analyze/reports-analytics/overview/report-overview.md)
-* [Rapports en temps réel](https://marketing.adobe.com/resources/help/fr_FR/reference/realtime.html)
-* Aide d’[Adobe Report Builder](https://marketing.adobe.com/resources/help/fr_FR/arb/)
-* [Extraits de données](https://marketing.adobe.com/resources/help/fr_FR/sc/user/data_extract.html)
-* [Activity Map](https://marketing.adobe.com/resources/help/fr_FR/analytics/activitymap/)
-* [Gestionnaire de suites de rapports](https://marketing.adobe.com/resources/help/fr_FR/reference/report_suites_admin.html)
-* [Comparaison de produit et exigences Analytics](https://marketing.adobe.com/resources/help/fr_FR/reference/analytics-product-comparison.html)
-* [Descriptions de rapports](https://marketing.adobe.com/resources/help/fr_FR/reference/reports_descriptions.html)
-* [Tableaux de bord et Reportlets](https://marketing.adobe.com/resources/help/fr_FR/sc/user/dashboard.html)
+* [Rapports Temps réel](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
+* Aide du [Report Builder d’Adobe](https://marketing.adobe.com/resources/help/en_US/arb/)
+* [Extraction de données](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
+* [Activity Map ](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
+* [Gestionnaire de suites de rapports](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
+* [Configuration requise et comparaison des produits Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
+* [Descriptions des rapports](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
+* [Tableaux de bord et mini-rapports](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
 * [Signets](/help/analyze/reports-analytics/bookmarks.md)
 * [Suites de rapports virtuelles](/help/components/vrs/vrs-about.md)
 * [Détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
