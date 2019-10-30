@@ -3,12 +3,12 @@ description: La page Hiérarchies de classification permet de définir des hiér
 seo-description: La page Hiérarchies de classification permet de définir des hiérarchies de classification à utiliser pour créer un rapport portant le même nom.
 seo-title: Hiérarchies de classification
 solution: Analytics
-subtopic: Gestionnaire
+subtopic: Classifications
 title: Hiérarchies de classification
 topic: Outils d’administration
-uuid: 1 b 2 b 73 af -84 ea -4 b 90-b 4 a 5-ba 75235547 fb
+uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La page Hiérarchies de classification permet de définir des hiérarchies de classification à utiliser pour créer un rapport portant le même nom.
 
-## Classification hierarchies {#concept_10A956342D7D4C3E9114CCFCE1364741}
+## Hiérarchies de classification {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
 La page [!UICONTROL Hiérarchies de classification] permet de définir des hiérarchies de classification à utiliser pour créer des rapports [!UICONTROL Hiérarchie] portant le même nom.
 
