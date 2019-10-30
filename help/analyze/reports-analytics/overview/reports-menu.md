@@ -5,7 +5,7 @@ seo-title: Menu Rapports
 title: Menu Rapports
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,9 +39,7 @@ Le menu Rapports permet d’effectuer des recherches de manière plus optimale. 
 
 Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcourir la liste des rapports. Appuyez sur la touche Échap pour fermer la recherche sans changer le rapport actif ou appuyez sur Entrée pour charger le rapport sélectionné.
 
->[!NOTE]
->
->Vous pouvez également rechercher la liste des rapports par prop, eVar et numéro d’événement. Dans la barre de recherche, entrez le numéro de prop, d’eVar ou d’événement.
+> [!NOTE] Vous pouvez également rechercher la liste des rapports par prop, eVar et numéro d’événement. Dans la barre de recherche, entrez le numéro de prop, d’eVar ou d’événement.
 
 ## Aperçu de la navigation {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -90,7 +88,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
    <td colname="col2"> Ici, vous pouvez savoir quels sont les dix rapports ou tableaux de bord auxquels vous avez accédé en dernier au cours des 90 jours passés. Vous pouvez facilement retracer votre cheminement vers une étape précédente dans votre analyse ou création de rapports. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> Téléchargement</span> </td> 
+   <td colname="col1"><span class="uicontrol"> Télécharger</span> </td> 
    <td colname="col2">Permet de télécharger le rapport au format PDF, CSV, Excel ou Word. </td> 
   </tr> 
   <tr> 
@@ -99,7 +97,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Signet...</span> </td> 
-   <td colname="col2">Lets you  bookmark the report.<a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"></a> </td> 
+   <td colname="col2">Vous permet de <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> mettre en signet</a> le rapport. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Tableau de bord</span>... </td> 
