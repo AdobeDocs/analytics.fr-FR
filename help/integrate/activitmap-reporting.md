@@ -1,22 +1,22 @@
 ---
 description: Cette rubrique décrit les étapes d’administration pour activer la création de rapports d’Activity Map dans Analytics.
 seo-description: Cette rubrique décrit les étapes d’administration pour activer la création de rapports d’Activity Map dans Analytics.
-seo-title: Rapports de Carte d'activités
+seo-title: Compte rendu des performances d’Activity Map
 solution: Analytics
-title: Rapports de Carte d'activités
-topic: Présentation
-uuid: 7636 c 670-bb 6 c -4 a 25-823 a -7 bbbba 0 b 747 b
+title: Compte rendu des performances d’Activity Map
+topic: Rapports
+uuid: 7636c670-bb6c-4a25-823a-7bbba0b747b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Rapports de Carte d'activités
+# Compte rendu des performances d’Activity Map
 
 Cette rubrique décrit les étapes d’administration pour activer la création de rapports d’Activity Map dans Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; Carte **[!UICONTROL d'activités]** &gt; **[!UICONTROL Rapports de Carte d'activités]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites **[!UICONTROL de]** rapports &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Modifier les paramètres &gt;  Carte d’activités &gt; Création de rapports de Carte d’activités]**********
 
 Permet à Analytics de collecter l’activité de l’utilisateur fournie par Activity Map (précédemment ClickMap). Cette intégration :
 
@@ -25,7 +25,7 @@ Permet à Analytics de collecter l’activité de l’utilisateur fournie par Ac
 
    | Rapport | Description |
    |---|---|
-   | Page Activity Map | Répertorie les pages contenant un lien qui a fait l’objet d’un clic. |
+   | Activity Map  Activity Map | Répertorie les pages contenant un lien qui a fait l’objet d’un clic. |
    | Région d’Activity Map | Répertorie toutes les régions de lien collectées sur l’ensemble du site web. Notez que si une région apparaît sur plusieurs pages, la mesure sera intégrée à chacune d’entre elles. |
    | Liens d’Activity Map | Répertorie tous les liens collectés sur l’ensemble du site web. |
    | Liens et région d’Activity Map | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
