@@ -4,10 +4,10 @@ seo-description: Le rapport Page d’entrée vous montre, en pourcentage ou en t
 seo-title: Entrées et sorties
 solution: Analytics
 title: Entrées et sorties
-topic: Présentation
-uuid: 756 de 55 b -136 b -427 b-a 80 c-f 822260131 b 1
+topic: Rapports
+uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 # Entrées et sorties
 
 >[!NOTE]
->Pour les accès avec plusieurs valeurs dans la variable products, les entrées et les sorties s'appliquent à toutes les valeurs de produit dans un accès et non seulement au premier.
+>Pour les accès comportant plusieurs valeurs dans la variable products, les entrées et les sorties s’appliquent à toutes les valeurs de produit dans un accès au lieu de la première.
 
 Le rapport Page d’entrée vous montre, en pourcentage ou en total des visites, les pages de votre site qui sont les premières à être vues, par nouvelles visites.
 
