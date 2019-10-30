@@ -1,23 +1,23 @@
 ---
 description: Utilisation des mesures dans les rapports Canal marketing.
 seo-description: Utilisation des mesures dans les rapports Canal marketing.
-seo-title: Mesures utilisées dans les rapports Canal marketing
+seo-title: Mesures utilisées dans les rapports sur les canaux marketing
 solution: Analytics
 subtopic: Canaux marketing
-title: Mesures utilisées dans les rapports Canal marketing
-topic: Reports and Analytics
-uuid: be 5 bcb 94-927 e -4 b 5 f-b 201-3 d 54 eb 51 e 740
+title: Mesures utilisées dans les rapports sur les canaux marketing
+topic: Reports & Analytics
+uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 15b3f0172f470086ca9a9a596a891de572fcb83e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Mesures utilisées dans les rapports Canal marketing
+# Mesures utilisées dans les rapports sur les canaux marketing
 
 Utilisation des mesures dans les rapports Canal marketing.
 
-## Metrics used in Marketing Channel reports {#topic_F83F5D4C3E144967AD90D956F0E8A999}
+## Mesures utilisées dans les rapports sur les canaux marketing {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 Utilisation des mesures dans les rapports Canal marketing.
 
@@ -29,16 +29,16 @@ Ajouter (ou modifier) des mesures.
 
 Ajouter une colonne au rapport.
 
-## First and last-touch metrics {#concept_68D9A50204304BA58C1F8013451E7853}
+## Mesures Première touche et Dernière touche {#concept_68D9A50204304BA58C1F8013451E7853}
 
-Première touche et Dernière touche sont des attributs de canal qui vous permettent de déterminer le nombre d'engagements (ou de données de mesure tels que les consultations de produits, les recettes et les commandes) consécutifs à l'activité d'un visiteur dans le canal.
+Première touche et Dernière touche sont des attributs de canal qui vous permettent de déterminer le nombre de nouveaux engagements (ou données de mesure telles que consultations de produits, recettes et commandes) résultant de l’activité d’un visiteur dans le canal.
 
 When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). Il note le premier canal emprunté par l’utilisateur, ainsi que le canal le plus récent. Il crédite ensuite l’événement de succès à chaque canal adéquat.
 
 <!-- 
 
 <note>
-  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset. 
+  A first-touch value has a rolling expiration based on the frequency of a visitor returning to the site. This first-touch expiration resets whenever a visitor returns to the site. This effects reporting by causing first-touch values to persist longer than you might expect. For example, this can occur if an instance of an first-touch channel was created a year ago. Remove the values on the eVar in the admin console to reset.
 </note>
 
  -->
@@ -63,15 +63,13 @@ Le canal Recherche payante est crédité de 100 euros comme canal Première tou
 
 Chaque instance d’événement de succès comporte exactement un canal Première touche et un canal Dernière touche. Cela signifie que si vous additionnez une colonne de mesure donnée pour n’importe quel événement de succès, le total sera toujours égal à celui d’une même période. Ce total sera également égal au nombre total d’événements dans le rapport [!UICONTROL Mesures du site] &gt; [!UICONTROL Evénements personnalisés] adéquat. Les mesures d’événement autre que de succès, telles que les visites et les visiteurs, ne correspondront pas 1 à 1 dans la mesure où plusieurs canaux peuvent se déclencher dans une même visite. 
 
->[!NOTE]
->
->Ce rapport utilise la version Première touche ou Dernière touche de chaque mesure. Il est donc possible que les données affichées dans un rapport [!UICONTROL Canal marketing] ne correspondent pas à celles présentées dans d’autres rapports.
+> [!NOTE] Ce rapport utilise la version Première touche ou Dernière touche de chaque mesure. Il est donc possible que les données affichées dans un rapport [!UICONTROL Canal marketing] ne correspondent pas à celles présentées dans d’autres rapports.
 
 ## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
 
 | Mesure | Définition |
 |--- |--- |
-| Canal Première touche | Premier canal marketing à engager un visiteur. Techniquement, le canal Première touche est une evar avec l'allocation initiale. |
+| Canal Première touche | Premier canal marketing à engager un visiteur. Techniquement, le canal Première touche est une eVar avec allocation d’origine. |
 | Visiteur Première touche | Dans le cadre de la création de rapports de canal, un visiteur Première touche est un visiteur unique quotidien en provenance d’un canal. L’engagement du visiteur est stocké pendant la période d’engagement auprès du site, laquelle peut s’étendre sur plusieurs visites. |
 | Canal Dernière touche | Canal de conversion, à savoir le dernier canal marketing à engager le visiteur et à déboucher sur une conversion. Un seul canal est défini comme canal Première touche. Le canal Dernière touche peut changer avec chaque visite de retour sur le site. Chaque visite comporte un canal Première touche et Dernière touche. Cependant, la valeur du canal Première touche n’est pas affectée par les visites suivantes. |
 
