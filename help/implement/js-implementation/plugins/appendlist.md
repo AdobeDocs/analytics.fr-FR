@@ -8,8 +8,8 @@ subtopic: Modules externes
 title: appendList
 topic: Développeur et mise en œuvre
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Ce module externe permet d’effectuer les opérations suivantes :
  </tbody> 
 </table>
 
->[!NOTE]
->
->Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
+> [!NOTE] Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
 
 ## Implémentation {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
@@ -123,7 +121,7 @@ Pour utiliser ce module externe, il faut que le navigateur prenne en charge Java
 
 La liste source L peut être vide, comme par exemple *`L=""`*. La valeur renvoyée est soit une liste vide, soit une liste ne contenant qu’une seule valeur.
 
-**Code du plug-in**
+**Code du module externe**
 
 ```js
 /******************************************************************** 
