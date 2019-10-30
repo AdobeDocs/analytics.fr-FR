@@ -5,10 +5,10 @@ seo-title: Accès aux rapports
 solution: Analytics
 subtopic: Canaux marketing
 title: Accès aux rapports
-topic: Reports and Analytics
-uuid: 5 da 9 f 2 e 7-582 b -40 e 4-a 027-b 5248065 b 89 c
+topic: Reports & Analytics
+uuid: 5da9f2e7-582b-40e4-a027-b5248065b89c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Cette procédure décrit l’exécution du rapport Canal marketing, ainsi que l’octroi de privilèges d’administrateur limités et de permissions de groupe d’utilisateurs au rapport.
 
-Pour afficher le rapport Canal marketing, octroyez les permissions appropriées au groupe d’utilisateurs. Le système des permissions d'Adobe Experience Cloud repose sur des groupes, ce qui signifie qu'un groupe d'utilisateurs détermine l'accès aux rapports.
+Pour afficher le rapport Canal marketing, octroyez les permissions appropriées au groupe d’utilisateurs. Le système d’autorisations d’Adobe Experience Cloud repose sur un groupe, ce qui signifie qu’un groupe d’utilisateurs détermine l’accès aux rapports.
