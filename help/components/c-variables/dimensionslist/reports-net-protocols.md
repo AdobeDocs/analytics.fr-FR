@@ -4,10 +4,10 @@ seo-description: Groupe les appareils mobiles en fonction des protocoles réseau
 seo-title: Protocoles réseau
 solution: Analytics
 title: Protocoles réseau
-topic: Présentation
-uuid: 565 edadb -44 e 4-455 b-a 476-fad 2 e 4 b 28765
+topic: Rapports
+uuid: 565edadb-44e4-455b-a476-fad2e4b28765
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
