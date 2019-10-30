@@ -5,15 +5,15 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.cookieDomain
 
-The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
+La variable détermine le domaine sur lequel les cookies [!DNL Analytics] `s_cc` et `s_sq` sont définis.
 
-Généralement, `s.cookieDomainPeriods` est utilisé pour générer `s.cookieDomain` à partir de `window.location.hostname`.  Au lieu d’utiliser `s.cookieDomainPeriods`, vous pouvez définir explicitement `s.cookieDomain` ce que vous souhaitez utiliser dans votre implémentation. Par exemple, vous pourriez définir des cookies au nom complet de la page en utilisant :
+En général, `s.cookieDomainPeriods` est utilisé pour générer `s.cookieDomain` à partir de `window.location.hostname`. Au lieu d’utiliser `s.cookieDomainPeriods`, vous pouvez définir `s.cookieDomain` explicitement sur ce que vous voulez utiliser dans votre mise en œuvre. Par exemple, vous pourriez définir des cookies au nom complet de la page en utilisant :
 
 `s.cookieDomain = window.location.hostname;`
