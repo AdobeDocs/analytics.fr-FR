@@ -50,7 +50,7 @@ t_organize_metrics.xml
 
    >[!NOTE]
    >
-   >When you delete a folder, all of the metrics in the folder are deleted from your currently selected project.
+   >Lorsque vous supprimez un dossier, toutes les mesures qu’il contient sont supprimées du projet actuellement sélectionné.
 
 ## Ajout de mesures à un rapport {#task_747DD1718B3F4776B83A115D0BE8754C}
 
