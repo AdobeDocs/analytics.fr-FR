@@ -5,7 +5,7 @@ seo-title: Procédure d’intégration et conditions préalables
 title: Procédure d’intégration et conditions préalables
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,6 +24,6 @@ Cette intégration des Connecteurs de données requiert les éléments suivants 
 
 ## Conditions préalables du partenaire : {#section-bcb904574ccf42308bcf7a15e45b4d58}
 
-* An active emarsys account
+* Un compte emarsys actif
 
 Pour obtenir des instructions d’intégration étape par étape, voir [Exécution de l’Assistant](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a)d’intégration des connecteurs de données.
