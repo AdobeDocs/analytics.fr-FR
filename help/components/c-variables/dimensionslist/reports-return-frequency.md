@@ -4,10 +4,10 @@ seo-description: Ce rapport indique le délai qui s’écoule entre chaque visit
 seo-title: Fréquence des retours
 solution: Analytics
 title: Fréquence des retours
-topic: Présentation
-uuid: 7069205 d -8 fab -4 ff 7-9 d 01-be 9705142 e 27
+topic: Rapports
+uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,5 +37,5 @@ Par défaut, les durées de ce rapport sont les suivantes :
 ## Remarques {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * Ce rapport ne comptabilise pas les nouveaux visiteurs, puisqu’il n’y a aucune visite antérieure à comparer.
-* La période dans ce rapport utilise le moment où la visite a eu lieu. Par exemple, un visiteur se rend sur votre site en avril, puis revient deux fois le même jour en octobre. La génération d’un rapport Fréquence des retours pour le mois d’octobre mentionnerait une visite sous « plus d’un mois » et une visite sous « moins d’un jour ».
+* La période dans ce rapport utilise le moment où la visite a eu lieu. Par exemple, un visiteur se rend sur votre site en avril, puis revient deux fois le même jour en octobre. L’extraction d’un rapport Fréquence des retours pour le mois d’octobre indiquerait une visite sous "plus d’un mois" et une visite sous "moins d’un jour".
 
