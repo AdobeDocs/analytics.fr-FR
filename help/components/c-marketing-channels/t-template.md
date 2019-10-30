@@ -5,10 +5,10 @@ seo-title: Application des paramètres d’une suite de rapports modèle à plus
 solution: Analytics
 subtopic: Canaux marketing
 title: Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports
-topic: Reports and Analytics
-uuid: 212 d 16 d 7-fb 0 c -40 c 4-b 8 ff-a 86 c 9 a 511 a 23
+topic: Reports & Analytics
+uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Comment utiliser une suite de rapports principale (maître) comme modèle pour tester la configuration de vos canaux marketing. Pour gagner du temps, vous pouvez appliquer ce modèle à une ou plusieurs suites de rapports de production lors d’une mise à jour par lot. Cette tâche doit être effectuée séparément pour les ensembles de canaux et de règles.
 
->[!NOTE]
->
->Appliquez les canaux à partir d'un modèle avant d'appliquer les ensembles de règles. Les canaux doivent être identiques pour toutes les suites de rapports lors de cette procédure.
+> [!NOTE] Appliquez des canaux à partir d’un modèle avant d’appliquer des jeux de règles. Les canaux doivent être identiques pour toutes les suites de rapports lors de cette procédure.
 
 **Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports**
 
