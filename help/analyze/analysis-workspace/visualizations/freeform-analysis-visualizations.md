@@ -8,7 +8,7 @@ title: Visualisations - Aperçu
 topic: Reports & Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une 
 
 >[!IMPORTANT]
 >
->Which visualization settings are visible depends on the visualization. Tous les paramètres ne s’appliquent pas à toutes les visualisations. En outre, certains paramètres avancés, tels les [paramètres d’histogramme](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477), apparaissent **uniquement** pour certaines visualisations.
+>Les paramètres de visualisation visibles dépendent de la visualisation. Tous les paramètres ne s’appliquent pas à toutes les visualisations. En outre, certains paramètres avancés, tels les [paramètres d’histogramme](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477), apparaissent **uniquement** pour certaines visualisations.
 
 ![](assets/visualization_settings.png)
 
@@ -51,7 +51,7 @@ Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une 
   </tr> 
   <tr> 
    <td colname="col1"> <p>100 % empilé </p> </td> 
-   <td colname="col2"> <p>Ce paramètre appliqué aux graphiques à zones empilées, à barres empilées ou à barres horizontales empilées offre un aperçu « 100 % empilé » du diagramme. Exemple : </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
+   <td colname="col2"> <p>Ce paramètre appliqué aux graphiques à zones empilées, à barres empilées ou à barres horizontales empilées offre un aperçu « 100 % empilé » du diagramme. Exemple: </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Légende visible </p> </td> 
