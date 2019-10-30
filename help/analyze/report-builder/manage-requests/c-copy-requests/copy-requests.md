@@ -1,18 +1,18 @@
 ---
 description: Vous avez la possibilité de copier les cellules mises en correspondance avec plusieurs requêtes et de coller le contenu dans une zone sélectionnée vide de la feuille de calcul.
 seo-description: Vous avez la possibilité de copier les cellules mises en correspondance avec plusieurs requêtes et de coller le contenu dans une zone sélectionnée vide de la feuille de calcul.
-seo-title: Présentation de la copie des requêtes
+seo-title: Copie des requêtes - Aperçu
 solution: Analytics
-title: Présentation de la copie des requêtes
+title: Copie des requêtes - Aperçu
 topic: Créateur de rapports
-uuid: 1 e 0274 a 3-2038-45 c 7-87 c 8-bd 949538 d 4 e 1
+uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation de la copie des requêtes
+# Copie des requêtes - Aperçu
 
 Vous avez la possibilité de copier les cellules mises en correspondance avec plusieurs requêtes et de coller le contenu dans une zone sélectionnée vide de la feuille de calcul.
 
