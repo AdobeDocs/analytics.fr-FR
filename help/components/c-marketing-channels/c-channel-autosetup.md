@@ -5,10 +5,10 @@ seo-title: Configuration automatique
 solution: Analytics
 subtopic: Canaux marketing
 title: Configuration automatique
-topic: Reports and Analytics
-uuid: 737 dd 1 c 8-dc 65-4 d 02-bba 0-1 d 471 f 093593
+topic: Reports & Analytics
+uuid: 737dd1c8-dc65-4d02-bba0-1d471f093593
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Exécutez la configuration unique pour le rapport Canal marketing.
 
-## Automatic setup {#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B}
+## Configuration automatique {#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B}
 
 Exécutez la configuration unique pour le rapport Canal marketing.
 
-Le rapport Canal marketing est fourni avec une page de configuration unique pour vous aider à démarrer. Il fournit plusieurs canaux marketing que vous pouvez utiliser dans le cadre du suivi. Vous pouvez ignorer cette configuration si vous vous sentez à l’aise avec la création des canaux et des règles. Adobe vous conseille toutefois d’autoriser l’assistant à créer des canaux à votre place. La configuration automatique vous permet de voir le mode de construction des règles ou encore de les modifier en fonction de vos besoins. Vous pouvez, à tout moment, désactiver ou supprimer les canaux prédéfinis.
+Le rapport Canal marketing comporte une page de configuration unique pour vous aider à démarrer. Il fournit plusieurs canaux marketing que vous pouvez utiliser dans le cadre du suivi. Vous pouvez ignorer cette configuration si vous vous sentez à l’aise avec la création des canaux et des règles. Adobe vous conseille toutefois d’autoriser l’assistant à créer des canaux à votre place. La configuration automatique vous permet de voir le mode de construction des règles ou encore de les modifier en fonction de vos besoins. Vous pouvez, à tout moment, désactiver ou supprimer les canaux prédéfinis.
 
 ## Exécution de la configuration automatique des canaux marketing {#task_0F694146D48B4647BD7D5F060D394AB7}
 
