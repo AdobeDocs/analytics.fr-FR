@@ -7,7 +7,7 @@ title: Personnalisation des rapports - Aperçu
 topic: Reports & Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -84,9 +84,7 @@ t_reports_comparing_dates.xml
 
 Il est impossible de comparer les dates entre des rapports de tendances.
 
->[!NOTE]
->
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
+> [!NOTE] Si vous souhaitez effectuer une comparaison de dates sur les mesures clés d’un tableau de bord, vous pouvez extraire les données dans le créateur de [rapports](https://marketing.adobe.com/resources/help/en_US/arb/) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
 
 Pour comparer les dates entre des rapports de classement dans Reports &amp; Analytics :
 
@@ -144,7 +142,7 @@ t_reports_select_page.xml
 1.  Cliquez sur le lien **Page sélectionnée**.
 1. Sous [!UICONTROL Sélectionner les pages], sélectionnez celles que vous souhaitez afficher.
 1. Localisez la page.
-1. Click **[!UICONTROL OK.]**
+1. Cliquez sur **[!UICONTROL OK.]**
 
 ## Comparaison de suites de rapports {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -175,7 +173,7 @@ Outre l’affichage graphique, le tableau du rapport donne une comparaison en po
 1. Générez un rapport qui vous permette de comparer les rapports.
 1.   Cliquez sur le lien **Comparer au site**.
 1. Localisez la suite de rapports.
-1. Click **[!UICONTROL OK.]**
+1. Cliquez sur **[!UICONTROL OK.]**
 
 ## Spécification de la granularité d’un rapport {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
