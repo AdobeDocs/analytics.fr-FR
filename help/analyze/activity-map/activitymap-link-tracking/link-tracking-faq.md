@@ -3,7 +3,7 @@ description: Questions fréquentes sur le suivi des liens dans [!Carte d’activ
 seo-description: Questions fréquentes sur le suivi des liens dans [!Carte d’activités DNL].
 seo-title: Questions fréquentes sur le suivi des liens
 solution: Analytics
-title: Questions fréquentes sur le suivi des liens
+title: Suivi des liens FAQ
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
@@ -48,11 +48,11 @@ Here are some known cases where PII data might be collected using [!DNL Activity
    <td colname="col1"> <b>Q : Comment [!DNL Activity Map] suit-il les autres éléments HTML visuels ?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via la <code> s.tl() </code> fonction</b> <p>Si le clic s’est produit via un appel s.tl, [!DNL Activity Map] recevra également cet événement de clic et déterminera si une variable de chaîne linkName a été trouvée. Pendant l’exécution de s.tl, ce linkName sera défini comme l’ID de lien [!DNL Activity Map]. L’élément sur lequel l’utilisateur a cliqué et qui est à l’origine de l’appel s.tl() sera utilisé pour déterminer la région. Exemple : </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Via la <code> s.tl() </code> fonction</b> <p>Si le clic s’est produit via un appel s.tl, [!DNL Activity Map] recevra également cet événement de clic et déterminera si une variable de chaîne linkName a été trouvée. Pendant l’exécution de s.tl, ce linkName sera défini comme l’ID de lien [!DNL Activity Map]. L’élément sur lequel l’utilisateur a cliqué et qui est à l’origine de l’appel s.tl() sera utilisé pour déterminer la région. Exemple: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via la <code> s_objectID </code> variable</b> <p>Exemple : </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Via la <code> s_objectID </code> variable</b> <p>Exemple: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>Important :  Notez qu’un point-virgule de fin (;) est requis lors de l’utilisation de s_objectID dans [!Carte d’activités DNL]. </p> </li> 
