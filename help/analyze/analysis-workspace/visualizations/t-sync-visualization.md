@@ -1,14 +1,14 @@
 ---
 description: Synchronisez les visualisations pour contrôler quel tableau de données ou source de données correspond à une visualisation.
-keywords: Analysis Workspace ; Synchronisation de la visualisation avec la source de données
+keywords: Espace de travail d’analyse;Synchroniser la visualisation avec la source de données
 seo-description: Synchronisez les visualisations pour contrôler quel tableau de données ou source de données correspond à une visualisation.
 seo-title: Gestion des sources de données
 solution: Analytics
 title: Gestion des sources de données
-topic: Reports and Analytics
-uuid: 7 bacf 497-a 933-463 a-bf 9 d-f 6 d 0 c 5 de 0 cba
+topic: Reports & Analytics
+uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 0bd28ea64b4e225b33c1fec7f185c7006bdb7f7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ La gestion d’une source de données permet d’afficher la source de données 
 | Afficher la source de données | Permet d’afficher (case à cocher activée) ou de masquer (case à cocher désactivée) le tableau de données qui correspond à la visualisation. |
 | Verrouiller la sélection | Activez ce paramètre pour verrouiller la visualisation sur les données actuellement sélectionnées dans le tableau de données correspondant. Ensuite, sélectionnez l’une des options ci-après :  <ul><li>**Positions sélectionnées** : choisissez cette option pour que la visualisation reste verrouillée sur les positions sélectionnées dans le tableau de données correspondant. Ces positions resteront visibles, même si les éléments spécifiques à ces positions changent. Par exemple, choisissez cette option si vous souhaitez afficher les cinq premiers noms de campagne en tout temps dans cette visualisation, quels que soient ces cinq premiers noms de campagne.</li> <li>**Éléments sélectionnés** : choisissez cette option pour que la visualisation reste verrouillée sur les éléments spécifiques actuellement sélectionnés dans le tableau de données correspondant. Ces éléments resteront visibles, même si leur classement change parmi les éléments du tableau. Par exemple, choisissez cette option si vous souhaitez afficher les cinq mêmes noms de campagne spécifiques en tout temps dans cette visualisation, quel que soit le classement de ces noms de campagne.</li></ul> |
 
-Cette architecture diffère de la précédente en ce qu'Analysis Workspace ne crée plus un tableau masqué en double qui stocke la sélection verrouillée pour vous. Désormais, la source de données pointe vers le tableau à partir duquel vous avez créé la visualisation.
+Cette architecture diffère de la précédente dans la mesure où Analysis Workspace ne crée plus un tableau masqué en double qui stocke la sélection verrouillée à votre place. Désormais, la source de données pointe vers le tableau à partir duquel vous avez créé la visualisation.
 
 **Exemples de cas d’utilisation :**
 
