@@ -4,10 +4,10 @@ seo-description: Cette section présente l’application iPad.
 seo-title: Adobe Analytics pour iOS
 solution: Analytics
 title: Adobe Analytics pour iOS
-topic: Reports and Analytics
-uuid: 45 f 91 f 5 a -8 ff 1-44 f 0-8880-4 c 52 f 03 a 7 b 42
+topic: Reports & Analytics
+uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
