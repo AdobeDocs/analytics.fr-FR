@@ -1,14 +1,14 @@
 ---
 description: Table de recherche permettant de déterminer le type d’un accès d’après la valeur page_event.
-keywords: Flux de données ; page ; event ; page_ event ; post_ page_ event
+keywords: Flux de données;page;event;page_event;post_page_event
 seo-description: Table de recherche permettant de déterminer le type d’un accès d’après la valeur page_event.
 seo-title: Recherche d’événement de page
 solution: Analytics
 title: Recherche d’événement de page
-topic: Reports and Analytics
-uuid: 73 af 597 c -5560-466 e -94 b 2-ddd 1 d 64797 c 8
+topic: Reports & Analytics
+uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,17 +29,17 @@ Table de recherche permettant de déterminer le type d’un accès d’après la
   <tr> 
    <td colname="col1"> Pages vues </td> 
    <td colname="col02"> Identique à la publication </td> 
-   <td colname="col2"> <p>0 pour toutes les pages vues (appels <code>s.t()</code>) </p> <p>0 pour les appels <code>trackState</code> en provenance de kits SDK mobiles </p> </td> 
+   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 pour les appels <code> trackState </code> en provenance de kits SDK mobiles </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Suivi des liens </td> 
-   <td colname="col02"> <p>10 pour « autre lien » </p> <p>10 pour les appels <code>trackAction</code> et de cycle de vie en provenance de kits SDK mobiles </p> <p>11 pour « lien de téléchargement » </p> <p>12 pour « lien de sortie ou externe » </p> </td> 
-   <td colname="col2"> <p>100 pour « autre lien » </p> <p>100 pour les appels <code>trackAction</code> et de cycle de vie en provenance de kits SDK mobiles </p> <p>101 pour « lien de téléchargement » </p> <p>102 pour « lien de sortie ou externe » </p> </td> 
+   <td colname="col02"> <p>10 pour « autre lien » </p> <p>10 pour les appels <code> trackAction </code> et de cycle de vie en provenance de kits SDK mobiles </p> <p>11 pour « lien de téléchargement » </p> <p>12 pour « lien de sortie ou externe » </p> </td> 
+   <td colname="col2"> <p>100 pour « autre lien » </p> <p>100 pour les appels <code> trackAction </code> et de cycle de vie en provenance de kits SDK mobiles </p> <p>101 pour « lien de téléchargement » </p> <p>102 pour « lien de sortie ou externe » </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Vidéo – Jalon </td> 
    <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – Événement de début du média </p> <p>32 - Evénement de mise à jour du média uniquement (n'effectue aucune evar ou traitement de variable) </p> <p>33 – Événement de mise à jour de média + autre variable (y compris le traitement d’eVar et d’une autre variable) </p> </td> 
+    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – Événement de début du média </p> <p>32 – Événement de mise à jour du média uniquement (pas de traitement d’eVar ou d’une quelconque autre variable) </p> <p>33 – Événement de mise à jour de média + autre variable (y compris le traitement d’eVar et d’une autre variable) </p> </td> 
    <td colname="col2"> 
     <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76 – Événement de début du média </p> <p>77 – Événement de mise à jour du média uniquement (pas de traitement d’eVar ou d’une quelconque autre variable) </p> <p>78 – Événement de mise à jour de média + autre variable (y compris le traitement d’eVar et d’une autre variable) </p> </td> 
   </tr> 
