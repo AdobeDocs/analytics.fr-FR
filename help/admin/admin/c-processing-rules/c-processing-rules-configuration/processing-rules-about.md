@@ -8,7 +8,7 @@ title: Fonctionnement des règles de traitement
 topic: Outils d’administration
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -84,7 +84,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
    <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Nettoyer les valeurs d’un rapport </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Les noms des variables de données contextuelles peuvent contenir des caractères alphanumériques, des caractères de soulignement et des points. Tout caractère supplémentaire est supprimé. </p> </td> 
+   <td colname="col1"> <p>Les noms de variable de données contextuelles peuvent comporter uniquement des caractères alphanumériques, des traits de soulignement et des points. Tout caractère supplémentaire est supprimé. </p> </td> 
    <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>Seules les variables de données contextuelles qui contiennent des caractères pris en charge peuvent être ajoutées dans l’interface Règles de traitement. </p> </td> 
   </tr> 
   <tr> 
