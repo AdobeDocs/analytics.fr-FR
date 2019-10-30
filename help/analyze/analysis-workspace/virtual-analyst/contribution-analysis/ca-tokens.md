@@ -1,24 +1,24 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Présentation de l'analyse des contributions
-title: Présentation de l'analyse des contributions
-uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
+seo-title: Analyse des contributions - Aperçu
+title: Analyse des contributions - Aperçu
+uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: d3aecc01bc490018c3878f0f6c4dbd621ad35a01
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation de l'analyse des contributions
+# Analyse des contributions - Aperçu
 
 L’analyse des contributions détecte les comportements latents au sein de vos données qui expliquent les anomalies statistiques et identifie les corrélations sous-jacentes aux actions inattendues des clients, aux valeurs hors limites et aux pics et creux soudains de certaines mesures à l’échelle des segments d’audience convergents.
 
-Quelque chose s'est produit. Pourquoi ? Votre rapport Détection des anomalies présente un pic inhabituel des commandes. Vous souhaitez en connaître la raison. Que s’est-il passé ? Qui réagit à cette campagne ou à cette référence ? Quelque chose est-il devenu viral ? Quels facteurs spécifiques ont contribué à cette anomalie ? Et plus important peut-être : comment récupérer les informations importantes au sujet de mon client et répéter cette performance ? (Ou, en cas de creux dans une mesure ou de hausse d'une mesure négative, comment puis-je l'éviter à l'avenir ?)
+Quelque chose s'est passé. Pourquoi ? Votre rapport Détection des anomalies présente un pic inhabituel des commandes. Vous souhaitez en connaître la raison. Que s’est-il passé ? Qui réagit à cette campagne ou à cette référence ? Quelque chose est-il devenu viral ? Quels facteurs spécifiques ont contribué à cette anomalie ? Et plus important peut-être : comment récupérer les informations importantes au sujet de mon client et répéter cette performance ? (Ou, si une diminution d’une mesure ou une augmentation d’une mesure négative se produit, comment puis-je l’éviter à l’avenir ?)
 
 L’analyse des contributions permet d’évaluer immédiatement les données afin de déterminer la cause d’une anomalie. Elle ventile en quelques secondes les contributions à une anomalie, là où il fallait autrefois plusieurs semaines, isole des schémas pour les segments d’audience et aide à élaborer une narration relative aux interactions des clients. Appliquez l’analyse des contributions de manière stratégique afin de détecter et de capturer des associations significatives pour élaborer de nouveaux segments d’audience ou avec tact pour identifier les activités extraordinaires ou frauduleuses qui ont déclenché une alerte.
 
-La [détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifie les pics de données et les creux statistiques extrêmes d’après les mesures et les segments d’audience sélectionnés. Elle établit une norme historique d’après une période de formation, puis trace les décalages extrêmes en corrélation avec les événements spécifiques. Elle peut repérer une hausse soudaine d’une mesure positive de commandes ou d’une mesure négative de rebonds, ou les creux dans les deux cas, afin de capturer les points de données statistiquement pertinents qui seront évalués par l’analyse des contributions. Une fois une anomalie statistique identifiée, l’analyse des contributions permet d’analyser davantage et d’évaluer les variables de campagne et de marketing pertinentes à l’échelle de tous les points de données irréguliers. Elle exécute des algorithmes et des processus d’apprentissage automatiques élaborés afin d’évaluer les associations qui ont contribué à un pic ou à un creux significatif. Ces Les calculs sont ensuite affichés dans des visualisations interactives conçues pour vous donner diverses perspectives afin de vous aider à comprendre pourquoi quelque chose se produit et que vous pouvez le faire.
+La [détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifie les pics de données et les creux statistiques extrêmes d’après les mesures et les segments d’audience sélectionnés. Elle établit une norme historique d’après une période de formation, puis trace les décalages extrêmes en corrélation avec les événements spécifiques. Elle peut repérer une hausse soudaine d’une mesure positive de commandes ou d’une mesure négative de rebonds, ou les creux dans les deux cas, afin de capturer les points de données statistiquement pertinents qui seront évalués par l’analyse des contributions. Une fois une anomalie statistique identifiée, l’analyse des contributions permet d’analyser davantage et d’évaluer les variables de campagne et de marketing pertinentes à l’échelle de tous les points de données irréguliers. Elle exécute des algorithmes et des processus d’apprentissage automatiques élaborés afin d’évaluer les associations qui ont contribué à un pic ou à un creux significatif. Ces les calculs sont ensuite affichés dans des visualisations interactives conçues pour vous donner des perspectives variées afin de vous aider à comprendre pourquoi quelque chose s’est produit et ce qu’il faut faire à ce sujet.
 
 L’analyse des contributions permet d’élaborer une narration afin de décrire la raison d’une anomalie et la manière d’y réagir, en capturant les mesures pertinentes et en repérant les points latents qui présentent une raison globale aux interactions des audiences et aux tendances des intérêts des clients. Il est parfois aisé de repérer et de corriger une anomalie, par exemple une commande ponctuelle de 2 000 kayaks. Cela peut aussi être complexe, par exemple en identifiant une tendance émergente sur une période donnée dans une région donnée, qui réagit uniquement à une campagne ciblée spécifique. L’assemblage d’éléments de contribution à l’échelle de mesures pour diverses dimensions et de leurs associations vous donne une idée générale des interactions de votre audience et vous aide à préciser un contexte pour les points de données irréguliers.
 
@@ -36,7 +36,7 @@ Après une analyse exhaustive d’une anomalie, un résumé des contributions es
 
 >[!IMPORTANT]
 >
->L'analyse des contributions a été supprimée du jeu de fonctionnalités des rapports et analyses et n'est désormais disponible que via Analysis Workspace.
+>L’analyse des contributions a été supprimée du jeu de fonctionnalités Rapports et analyses et est désormais disponible uniquement via Analysis Workspace.
 
 Tous les clients autorisés à utiliser l’analyse des contributions peuvent exécuter une analyse complète un nombre limité de fois par mois dans Analysis Workspace. Cela **exclut** les clients (SiteCatalyst 15) du produit, les clients d’Analytics Foundation et les clients d’Analytics Select, qui n’obtiennent aucune analyse de contributions.
 
@@ -54,11 +54,11 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Pourquoi Adobe a-t-il introduit des jetons ? </b> </p> </td> 
-   <td colname="col2"> <p>L’analyse des contributions a été l’une des fonctionnalités les plus intéressantes d’Adobe Analytics depuis sa sortie en 2015. En autorisant un petit nombre d’exécutions « complètes » par mois (plutôt que seulement 3 dimensions pour certains produits Analytics), vous pouvez mieux voir ce que l’analyse des contributions complète illimitée peut vous apporter. </p> </td> 
+   <td colname="col2"> <p>L’analyse des contributions a été l’une des fonctionnalités les plus intéressantes d’Adobe Analytics depuis sa sortie en 2015. L’attribution d’un petit nombre d’exécutions "complètes" par mois (au lieu de seulement 3 dimensions pour certains produits Analytics) vous permet de mieux voir ce que l’analyse complète des contributions peut faire pour vous. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment fonctionnent les jetons dans l’analyse des contributions ? Le chargement d’un projet avec une analyse des contributions existante coûte-t-il un jeton ? Ou ce coût existe-t-il uniquement lors de l’exécution d’une nouvelle analyse ?</b> </p> </td> 
-   <td colname="col2"> <p>Chaque société de connexion (et non chaque utilisateur) obtient un certain nombre de jetons par mois, ce qui permet d’exécuter une analyse des contributions « complète » dans Analysis Workspace. </p> <p>Chaque fois que vous générez une nouvelle analyse des contributions, vous payez un jeton. Le chargement de projets avec des analyses des contributions pré-exécutées ne coûte pas de jeton. </p> </td> 
+   <td colname="col2"> <p>Chaque identifiant de société (et non chaque utilisateur) obtient un certain nombre de jetons par mois, ce qui vous permet d’exécuter l’analyse des contributions "complète" dans Analysis Workspace. </p> <p>Chaque fois que vous générez une nouvelle analyse des contributions, vous payez un jeton. Le chargement de projets avec des analyses des contributions pré-exécutées ne coûte pas de jeton. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Les jetons s’appliquent-ils à l’analyse des contributions dans les Reports &amp; Analytics ?</b> </p> </td> 
@@ -70,7 +70,7 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment puis-je restreindre l’accès à l’analyse des contributions ?</b> </p> </td> 
-   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. Vous devez accorder l'autorisation d'utiliser l'analyse des contributions uniquement pour les utilisateurs qui ont une raison légitime de l'utiliser et qui sont approuvés pour n'avoir pas accès à leur accès. </p> <p>L’autorisation est appelée « Analyse des contributions » sous <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gestion utilisateur</span> &gt; <span class="uicontrol">Modifier les groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils de suites de rapports</span> &gt; <span class="uicontrol">Outils et rapports</span></span>. </p> </td> 
+   <td colname="col2"> <p>Par défaut, seuls les administrateurs ont accès à l’exécution des analyses des contributions, mais les administrateurs peuvent accorder l’accès à d’autres utilisateurs en créant un groupe d’autorisations dans la <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Console d’administration </a>. Vous devez autoriser l’utilisation de l’analyse des contributions uniquement aux utilisateurs qui ont une raison légitime de l’utiliser et qui sont autorisés à ne pas abuser de leur accès. </p> <p>L’autorisation est appelée « Analyse des contributions » sous <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gestion utilisateur</span> &gt; <span class="uicontrol">Modifier les groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils de suites de rapports</span> &gt; <span class="uicontrol">Outils et rapports</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment puis-je connaître le nombre de jetons auxquels ma société a droit par mois et combien de jetons avons-nous utilisés durant le mois en cours ?</b> </p> </td> 
@@ -86,7 +86,7 @@ Vous trouverez ci-dessous une liste des autorisations détaillées pour la déte
 
 >[!IMPORTANT]
 >
->La détection des anomalies et l’analyse des contributions ont été supprimées de l’ensemble de fonctionnalités Reports &amp; Analytics et sont désormais disponibles uniquement via Analysis Workspace. Remarque : Les clients Adobe Analytics Select et Adobe Analytics Foundation ne profitent que d’une détection des anomalies « à granularité journalière » dans Workspace.
+>La détection des anomalies et l’analyse des contributions ont été supprimées de l’ensemble de fonctionnalités Reports &amp; Analytics et sont désormais disponibles uniquement via Analysis Workspace. Notez que les clients d’Adobe Analytics Select et d’Adobe Analytics Foundation n’ont accès qu’à la détection quotidienne des anomalies dans Workspace.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
