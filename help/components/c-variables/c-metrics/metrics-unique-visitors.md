@@ -5,9 +5,9 @@ seo-title: Visiteurs uniques
 solution: Analytics
 title: Visiteurs uniques
 topic: Mesures
-uuid: ae 210698-99 f 9-485 e-a 640-c 7520807 adc 7
+uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ La version 15 supprime les mesures [!UICONTROL Visites] et [!UICONTROL Visiteur
 | Conversion | Un visiteur est une personne qui se rend sur votre site web. Est compté lorsqu’un événement lié à une conversion ou une action s’effectue. |
 | Ad Hoc Analysis | Un visiteur est une personne qui se rend sur votre site web. Ne nécessite pas un cookie permanent. |
 
-See [Unique Visitors Report - Version 15 and Ad Hoc Analysis](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
+Voir Rapport Visiteurs [uniques - Version 15 et Analyses](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)ad hoc.
 
 >[!MORE_LIKE_THIS]
 >
