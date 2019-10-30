@@ -7,7 +7,7 @@ title: Événements du calendrier
 topic: Reports & Analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Étapes permettant d’ajouter des événements de calendrier et de gérer des événements partagés.
 
->[!NOTE]
->
->Afin de garantir des performances optimales pour vos rapports, les 20 derniers événements du calendrier s’affichent sur des graphiques de tendance et d’historique.
+> [!NOTE] Afin de garantir des performances optimales pour vos rapports, les 20 derniers événements du calendrier s’affichent sur des graphiques de tendance et d’historique.
 
 Pour les rapports de tendances au fil du temps, vous pouvez afficher les événements sous forme graphique afin de déterminer si des campagnes ou d’autres événements ont eu un impact sur le trafic, les recettes ou toute autre mesure de votre site. Pour configurer un événement de calendrier, vous devez nommer l’événement, fixer les dates, ajouter des notes et choisir une icône. Avec Social, par exemple, vous pouvez créer un événement de calendrier afin d’indiquer qu’il existait une corrélation entre une augmentation du trafic sur le site et la mention d’un produit par une célébrité sur Twitter.
 
