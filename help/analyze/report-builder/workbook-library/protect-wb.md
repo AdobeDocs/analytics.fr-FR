@@ -5,9 +5,9 @@ seo-title: Verrouillez/déverrouillez des classeurs
 solution: Analytics
 title: Verrouillez/déverrouillez des classeurs
 topic: Créateur de rapports
-uuid: ef 5 c 276 c -5 f 74-4741-b 6 fa -4 c 79 eda 29 f 62
+uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ Vous pouvez déverrouiller un classeur verrouillé si vous êtes doté de l’un
 * Vous êtes administrateur, ou
 * Vous êtes la personne qui a initialement verrouillé le classeur. Dans ce cas, il n’est pas requis d’être administrateur.
 
->[!NOTE]
->
->Vous ne pouvez pas ajouter de requête à un classeur protégé, sauf si vous disposez des autorisations pour déverrouiller le classeur.
+> [!NOTE] Vous ne pouvez pas ajouter une requête à un classeur protégé, sauf si vous êtes autorisé à déverrouiller le classeur.
 
 Lorsqu’un classeur est verrouillé pour empêcher la modification de requête :
 
@@ -56,15 +54,15 @@ If you try to edit a protected workbook (through the context menu, or **[!UICONT
 
 Présumons que le classeur A comporte une requête qui se trouve à l’état verrouillé et qui a été créée par l’utilisateur A.
 
-**Exemple 1 : Utilisateur administrateur (ou utilisateur A)**
+**Exemple 1 : Utilisateur administrateur (ou Utilisateur A)**
 
 1. L’utilisateur se connecte au Créateur de rapports et ouvre un classeur 
-1. Le classeur A est actuellement verrouillé. De ce fait, le bouton « Créer une requête » est désactivé dans la barre d’outils ainsi que tous les autres boutons dont le fonctionnement est désactivé par le verrouillage.
+1. Le classeur A est actuellement verrouillé, de sorte que le bouton "Créer une requête" est désactivé dans la barre d’outils, ainsi que tous les autres boutons dont la fonctionnalité est désactivée par verrouillage.
 1. Si l’utilisateur tente d’utiliser un des boutons désactivés, un message s’affiche indiquant que le classeur est actuellement verrouillé.
 1. L’utilisateur peut déverrouiller le classeur, ce qui active la fonctionnalité de modification.
 1. Une fois déverrouillé, le classeur reste dans cet état jusqu’à ce qu’il soit explicitement reverrouillé.
 
-**Exemple 2 : Utilisateur non administrateur (User B)**
+**Exemple 2 : Utilisateur non administrateur (utilisateur B)**
 
 1. L’utilisateur se connecte au Créateur de rapports et ouvre un classeur 
 1. L’utilisateur ne peut pas ajouter/modifier la requête.
