@@ -1,20 +1,20 @@
 ---
 description: Les composants d’Analysis Workspace sont constitués des mesures, dimensions, segments et granularités du temps que vous pouvez faire glisser sur un projet. Les composants personnalisés que vous créez sont ajoutés à ces panneaux, par exemple les plages de dates personnalisées.
 seo-description: Les composants d’Analysis Workspace sont constitués des mesures, dimensions, segments et granularités du temps que vous pouvez faire glisser sur un projet. Les composants personnalisés que vous créez sont ajoutés à ces panneaux, par exemple les plages de dates personnalisées.
-seo-title: Présentation des composants
-title: Présentation des composants
-uuid: 1 a 4 e 1 c 35-eac 9-4 eb 4-be 2 e-ecb 2 c 6728150
+seo-title: Aperçu des composants
+title: Aperçu des composants
+uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation des composants
+# Aperçu des composants
 
 Les composants d’Analysis Workspace sont constitués des mesures, dimensions, segments et granularités du temps que vous pouvez faire glisser sur un projet. Les composants personnalisés que vous créez sont ajoutés à ces panneaux, par exemple les plages de dates personnalisées.
 
-Pour accéder au panneau Composants, cliquez sur l’icône **[!UICONTROL Composants]dans le rail de gauche.** You can switch among Panels (Blank panel, [Freeform panel](../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F), or [Segment Comparison](../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) panel), [Visualizations](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276), and Components using the left-rail icons or by using [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051).
+Pour accéder au panneau Composants, cliquez sur l’icône **[!UICONTROL Composants]dans le rail de gauche.** Vous pouvez permuter entre les panneaux (panneau vierge, panneau [à structure](../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F)libre ou panneau de comparaison [de](../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) segments), les [visualisations](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)et les composants à l’aide des icônes du rail de gauche ou des touches d’ [accès rapide.](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)
 
 ![](assets/components.png)
 
@@ -24,9 +24,7 @@ See [Create a freeform analysis project](../../../analyze/analysis-workspace/bui
 
 Vous pouvez gérer les composants (individuellement ou en sélectionnant plusieurs à la fois) de plusieurs façons. Cliquez avec le bouton droit de la souris sur un composant ou cliquez sur **[!UICONTROL Actions]en haut de la liste des composants.**
 
->[!NOTE]
->
->Ces actions ne s'appliquent pas aux composants Heure.
+> [!NOTE] Ces actions ne s’appliquent pas aux composants Heure.
 
 | Action des composants | Description |
 |--- |--- |
