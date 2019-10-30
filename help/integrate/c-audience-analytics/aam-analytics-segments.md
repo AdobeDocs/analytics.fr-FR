@@ -1,16 +1,16 @@
 ---
 description: Analytics et Audience Manager utilisent tous deux les segments. Cependant, un segment Analytics ne représente pas exactement la même chose qu’un segment Audience Manager. Ces différences contribuent en partie aux incohérences que vous constaterez dans vos rapports Analytics et Audience Manager. C’est pourquoi il est important et utile d’essayer de comprendre ces différences lorsque vous commencerez à travailler avec les segments dans ces deux solutions.
 seo-description: Analytics et Audience Manager utilisent tous deux les segments. Cependant, un segment Analytics ne représente pas exactement la même chose qu’un segment Audience Manager. Ces différences contribuent en partie aux incohérences que vous constaterez dans vos rapports Analytics et Audience Manager. C’est pourquoi il est important et utile d’essayer de comprendre ces différences lorsque vous commencerez à travailler avec les segments dans ces deux solutions.
-seo-title: Comprendre les segments dans Analytics et Audience Manager
-title: Comprendre les segments dans Analytics et Audience Manager
-uuid: 13 f 7 d 1 d 7-6 a 3 f -42 f 1-822 e -8 d 3523999 efa
+seo-title: Présentation des segments dans Analytics et Audience Manager
+title: Présentation des segments dans Analytics et Audience Manager
+uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Comprendre les segments dans Analytics et Audience Manager
+# Présentation des segments dans Analytics et Audience Manager
 
 Analytics et Audience Manager utilisent tous deux les segments. Cependant, un segment Analytics ne représente pas exactement la même chose qu’un segment Audience Manager. Ces différences contribuent en partie aux incohérences que vous constaterez dans vos rapports Analytics et Audience Manager. C’est pourquoi il est important et utile d’essayer de comprendre ces différences lorsque vous commencerez à travailler avec les segments dans ces deux solutions.
 
@@ -31,17 +31,17 @@ Pour plus d’informations, voir les sections [Données de population des caract
 
 ## Segments Analytics {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
-Un segment Analytics est un mécanisme de filtrage des données dans vos rapports. Le filtrage peut se produire au niveau du visiteur, de la visite ou de l'accès plutôt qu'au niveau du visiteur, comme dans Audience Manager. Plusieurs facteurs importants doivent être pris en considération lors de la comparaison d’un segment Analytics à un segment Audience Manager :
+Un segment Analytics est un mécanisme de filtrage des données dans vos rapports. Le filtrage peut avoir lieu au niveau du visiteur, de la visite ou de l’accès, plutôt qu’au niveau du visiteur comme dans Audience Manager. Plusieurs facteurs importants doivent être pris en considération lors de la comparaison d’un segment Analytics à un segment Audience Manager :
 
 * Les segments Analytics reposent sur un jeu de données différent des segments Audience Manager. Lors de la collecte de données, Analytics applique aux données un grand nombre d’opérations de post-traitement auxquelles Audience Manager n’a pas accès. Les opérations de post-traitement possibles sont très variées : persistance des variables eVar, règles de traitement, recherches (géolocalisation, appareil mobile), règles VISTA, etc. Audience Manager reçoit les données prétraitées via la redirection côté serveur (ou le DIL).
 
    Les incohérences entre les données les plus courantes surviennent lorsque l’utilisateur compare des segments sur la base de dimensions qui n’expirent jamais dans Analytics, par rapport aux mêmes dimensions dans Audience Manager. Par exemple, des listVars ou des eVars de marchandisage qui n’expirent jamais.
 
-   Par exemple, si eVar = bleu et est définie pour ne jamais expirer dans Analytics, tous les segments assortis du critère « eVar = bleu » dans Analytics incluront toujours ce visiteur. En revanche, dans Audience Manager, ce visiteur pourrait être exclu d’un segment défini de la même façon après une période donnée.
+   Par exemple, si eVar = bleue et est définie pour ne jamais expirer dans Analytics, tout segment d’Analytics avec le critère "eVar = bleu" inclut toujours ce visiteur. En revanche, dans Audience Manager, ce visiteur pourrait être exclu d’un segment défini de la même façon après une période donnée.
 
 * Les segments Analytics ont plus de fonctionnalités que les segments AAM. Les segments Audience Manager sont toujours évalués au niveau des visiteurs. Les segments Analytics peuvent être définis au niveau des visiteurs, des visites ou des accès (ou une combinaison de ces niveaux). En outre, Analytics prend en charge des fonctionnalités de segmentation avancées non prises en charge par Audience Manager, p. ex. la segmentation séquentielle.
 * Comme mentionné précédemment, les visiteurs Audience Manager peuvent être inclus dans un segment ou en être exclus selon qu’ils répondent ou non aux critères de ce segment à un moment donné.
 
-   À l’inverse, dans Analytics, les visiteurs sont inclus ou exclus d’un segment en fonction de la plage de dates du rapport. Par exemple, un visiteur unique a effectué un achat le mois dernier. Dans AAM, ce visiteur sera inclus dans un segment « acheteur », indépendamment de la plage de dates. Dans Analytics, un rapport basé sur ce mois-ci n’inclura pas le visiteur dans le segment. Cependant, un rapport basé sur ce mois-ci et le mois dernier inclura le visiteur dans le segment.
+   À l’inverse, dans Analytics, les visiteurs sont inclus ou exclus d’un segment en fonction de la plage de dates du rapport. Par exemple, un visiteur unique a effectué un achat le mois dernier. Dans AAM, ce visiteur serait inclus dans un segment "acheteur", quelle que soit la période. Dans Analytics, un rapport basé sur ce mois-ci n’inclura pas le visiteur dans le segment. Cependant, un rapport basé sur ce mois-ci et le mois dernier inclura le visiteur dans le segment.
 
 Pour plus d’informations, voir le [Guide de segmentation d’Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
