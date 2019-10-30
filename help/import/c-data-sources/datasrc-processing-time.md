@@ -1,24 +1,24 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Temps de traitement des sources de données
+seo-title: Heure de traitement des sources de données
 solution: Analytics
-title: Temps de traitement des sources de données
-uuid: d 7 cd 679 a-f 9 e 3-4740-87 cf -6171 f 3 fe 5 cd 9
+title: Heure de traitement des sources de données
+uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 84c86c5b42b6dd85ee7780f9ba1fea950e71d663
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Temps de traitement des sources de données
+# Heure de traitement des sources de données
 
->[!Note]
->Données - Les périodes de traitement doivent être considérées comme approximatives et ne constituent pas un contrat de niveau de service (SLA).
+>[!Nnote]
+>Toute période de traitement des données doit être considérée comme approximative et ne constitue pas un accord de niveau de service (SLA).
 
 L’heure de traitement des sources de données varie comme suit :
 
-* Données du jour actuel : Le traitement se termine environ 2 heures après le chargement des données.
+* Données du jour en cours : Le traitement se termine environ 2 heures après le transfert des données.
 * Données du jour précédent : le traitement s’achève environ 3 heures après le chargement des données.
 
 Le temps de traitement augmente d’environ 1 heure pour chaque journée de chargement supplémentaire, jusqu’à 17 heures au maximum.
