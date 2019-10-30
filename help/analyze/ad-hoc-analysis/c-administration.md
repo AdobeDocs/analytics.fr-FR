@@ -5,7 +5,7 @@ seo-title: Administration
 title: Administration
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -151,9 +151,3 @@ Si, par exemple, vous avez 10 millions de visites par jour avec une période de
 * (10 000 000 x 365) / 750 000 000 = 4,8
 
 Pour que le nombre de visites pour cette période de 365 jours reste inférieur à 750 000 000, le taux d’échantillonnage des données peut être de 4,8:1. En utilisant des chiffres entiers, le taux d’échantillonnage est de 5:1.
-
->[!MORE_LIKE_THIS]
->
->* [Utilisateurs](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
->* [Groupes](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
-
