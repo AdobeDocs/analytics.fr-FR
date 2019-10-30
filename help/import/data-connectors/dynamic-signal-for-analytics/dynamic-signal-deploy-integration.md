@@ -6,7 +6,7 @@ solution: Analytics
 title: Déploiement de l’intégration
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -53,7 +53,7 @@ Etapes d’affichage de la configuration de l’intégration VoiceStorm de signa
    1. Recherchez les entrées telles que Données **[!UICONTROL de classification importées avec succès]**. Ces entrées doivent apparaître dans les 24 heures suivant le déploiement.
 1. Consultez vos rapports de signature dynamique dans Adobe Analytics à l’aide du tableau de bord qui a été automatiquement créé pour vous à l’aide de l’assistant d’intégration Adobe (Etape 7). Vous pouvez également accéder aux rapports Signal dynamique dans la structure de menu d’Adobe Analytics ; reportez-vous aux captures d’écran suivantes.
 
-   **Remarque**: Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
+   **Remarque**:Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
 
    ![](assets/reporting.png)
 
