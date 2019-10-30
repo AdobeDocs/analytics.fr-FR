@@ -5,15 +5,13 @@ seo-title: Durée de la visite
 solution: Analytics
 title: Durée de la visite
 topic: Rapports
-uuid: 76441 e 36-b 7 fe -4 cf 3-8 d 72-c 51 d 558 afa 13
+uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Durée de la visite
 
->[!NOTE]
->
->See [Time Spent](../../../components/c-variables/c-metrics/metrics-time-spent.md#concept_1241109A742947C9B73E5E2CA2362559) for calculation examples.
+> [!NOTE] Voir [Durée de la visite](../../../components/c-variables/c-metrics/metrics-time-spent.md#concept_1241109A742947C9B73E5E2CA2362559) pour consulter des exemples de calcul.
