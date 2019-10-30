@@ -6,16 +6,16 @@ solution: Analytics
 subtopic: Sources de données
 title: Intégration des transactions et des clients
 topic: Développeur et mise en œuvre
-uuid: 71 f 73 a 47-3436-4314-a 182-36 de 4 bd 935 ba
+uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Intégration des transactions et des clients
 
-La fonctionnalité Sources de données offre deux méthodes supplémentaires pour intégrer des événements qui se produisent hors ligne à vos données en ligne.
+La fonctionnalité Sources de données propose deux autres méthodes d’intégration des événements qui se produisent hors ligne à vos données en ligne.
 
 * [Activation de l’enregistrement des identifiants de transaction](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [Intégration de transactions](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -27,7 +27,7 @@ Ces intégrations associent les données hors ligne à une transaction en ligne 
 
 L’identifiant de transaction peut être activé/désactivé depuis l’interface utilisateur sans l’intervention de ClientCare :
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -49,10 +49,10 @@ L’onglet [!UICONTROL Gérer] présente l’état de l’enregistrement des ide
 
 Les ID de client permettent de préciser une activité hors ligne du client et de l’associer à une activité en ligne. Ils doivent être utilisés dans les cas suivants :
 
-* Un ID de client est renseigné dans la variable *`visitorID`* .
+* Un ID de client est renseigné dans la variable Variable *`visitorID`*. 
 * Il n’y a pas de point désigné où l’activité des clients passe hors ligne, par exemple l’envoi d’un prospect ou un achat.
 
-Pour configurer ce type de source de données, voir : [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+Pour configurer ce type de source de données, voir : [Identifiant visiteur](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
 
 ## Intégration de transactions {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
