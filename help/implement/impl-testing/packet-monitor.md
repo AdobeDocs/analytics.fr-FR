@@ -8,8 +8,8 @@ subtopic: Débogueur
 title: Analyseurs de paquets
 topic: Développeur et mise en œuvre
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,21 +29,17 @@ Il peut arriver, dans de très rares cas, que le débogueur signale une demande 
 
 Même si Adobe ne fournit pas un moniteur de paquets officiel, de nombreux moniteurs sont disponibles sur Internet. Voici quelques moniteurs de paquets que d’autres utilisateurs trouvent utiles.
 
->[!NOTE]
->
->Ces listes destinées à informer sur les moniteurs utilisés fréquemment n’ont pas vocation à être exhaustives. Si vous utilisez un moniteur de paquets qui vous donne entière satisfaction et que vous trouvez utile, n’hésitez pas à nous faire part de vos commentaires à l’aide du bouton [!UICONTROL Commentaires] situé dans la partie droite de cette fenêtre.
+> [!NOTE] Ces listes destinées à informer sur les moniteurs utilisés fréquemment n’ont pas vocation à être exhaustives. Si vous utilisez un moniteur de paquets qui vous donne entière satisfaction et que vous trouvez utile, n’hésitez pas à nous faire part de vos commentaires à l’aide du bouton [!UICONTROL Commentaires] situé dans la partie droite de cette fenêtre.
 
 | Firefox | Internet Explorer | Chrome | Programmes autonomes |
 |---|---|---|---|
-| [Observe Point](https://www.observepoint.com/product#plugin) (observateur de balises) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (observateur de balises) | [Charles](https://www.charlesproxy.com/) |
+| [Observe Point](https://www.observepoint.com/product#plugin) (visionneuse de balises) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (visionneuse de balises) | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
 | [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE]
->
->Adobe NE prend PAS en charge et ne résout pas les problèmes que vous pouvez rencontrer avec ces moniteurs de paquets. Pour bénéficier d’une assistance, consultez le site d’origine de le moniteur de paquets.
+> [!NOTE] Adobe NE prend PAS en charge et ne résout pas les problèmes que vous pouvez rencontrer avec ces moniteurs de paquets. Pour bénéficier d’une assistance, consultez le site d’origine de le moniteur de paquets.
 
 <!-- 
 
