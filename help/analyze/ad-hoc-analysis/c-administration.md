@@ -38,7 +38,7 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the .[!DNL Experience Cloud]
+1. Connectez-vous au [!DNL Experience Cloud].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
@@ -60,7 +60,7 @@ t_managing_users.xml
 
  -->
 
-1. Click Adobe Analytics &gt; Admin &gt; User Management, then click Manage Users.****************
+1. Cliquez sur **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Admin]** &gt; Gestion des **** utilisateurs, puis sur **[!UICONTROL Gérer les utilisateurs.]**
 1. Recherchez l’utilisateur, puis cliquez sur **[!UICONTROL Terminer.]**
 
    Sur la page [!UICONTROL Sessions Ad Hoc Analysis actives], l’utilisateur qui est resté inactif le plus longtemps est affiché en haut de la liste.
@@ -119,7 +119,7 @@ t_proxy_policies.xml
 
 Les Ad Hoc Analysis utilisent HTTP pour communiquer avec le serveur. Il est soumis aux mêmes stratégies de proxy que tout autre trafic HTTP.
 
-1. In the , launch the Java Control Panel.[!DNL Windows Control Panel]
+1. Dans la [!DNL Windows Control Panel], lancez le Panneau [!UICONTROL de configuration]Java.
 1. Dans l’onglet **Général**, cliquez sur **[!UICONTROL Paramètres réseau]**.
 1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
