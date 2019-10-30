@@ -3,9 +3,9 @@ description: valeur nulle
 seo-description: valeur nulle
 seo-title: Générateur d’alertes
 title: Générateur d’alertes
-uuid: 86 d 00 a 33-dc 99-4 dc 3-a 732-0 b 895 ba 487 bc
+uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,9 +37,7 @@ Spécifiez le nom de l’alerte. Le nom de l’alerte doit contenir le nom du ra
 
 Spécifiez quand vérifier la mesure : chaque heure, chaque jour, chaque semaine ou chaque mois.
 
->[!NOTE]
->
->Pour les suites de rapports avec calendrier personnalisé, nous ne prenons pas en charge la granularité mensuelle dans le Générateur d'alertes.
+> [!NOTE] Pour les suites de rapports avec un calendrier personnalisé, nous ne prenons pas en charge la granularité mensuelle dans le Générateur d’alertes.
 
 **Destinataires**
 
@@ -59,7 +57,7 @@ Spécifiez la date d’expiration de l’alerte.
 
 * Faites glisser et déplacez les mesures dans la zone de travail des déclencheurs.
 
-   Note that an **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
 * Déterminez le seuil que la mesure doit dépasser avant l’envoi d’une alerte. Vous pouvez définir un seuil, puis l’une des conditions suivantes :
 
