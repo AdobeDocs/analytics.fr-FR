@@ -1,20 +1,20 @@
 ---
 description: L’interface utilisateur d’Adobe Mobile Services combine les données sur les applications mobiles de vos suites de rapports Adobe Analytics et permet d’envoyer des notifications push et de générer des messages in-app.
 seo-description: L’interface utilisateur d’Adobe Mobile Services combine les données sur les applications mobiles de vos suites de rapports Adobe Analytics et permet d’envoyer des notifications push et de générer des messages in-app.
-seo-title: Prise en charge de la suite de rapports virtuelle dans Mobile Services
-title: Prise en charge de la suite de rapports virtuelle dans Mobile Services
-uuid: 1 b 11279 e-d 0 d 8-48 c 5-a 5 b 5-8020 d 5 ed 39 da
+seo-title: Prise en charge des suites de rapports virtuelles dans Mobile Services
+title: Prise en charge des suites de rapports virtuelles dans Mobile Services
+uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Prise en charge de la suite de rapports virtuelle dans Mobile Services
+# Prise en charge des suites de rapports virtuelles dans Mobile Services
 
 L’interface utilisateur d’Adobe Mobile Services combine les données sur les applications mobiles de vos suites de rapports Adobe Analytics et permet d’envoyer des notifications push et de générer des messages in-app.
 
-## VRS support in Mobile Services {#topic_1D0BABFA64EF42DE9C09B7AA37CACEC5}
+## Prise en charge des suites de rapports virtuelles dans Mobile Services {#topic_1D0BABFA64EF42DE9C09B7AA37CACEC5}
 
 L’interface utilisateur d’Adobe Mobile Services combine les données sur les applications mobiles de vos suites de rapports Adobe Analytics et permet d’envoyer des notifications push et de générer des messages in-app.
 
