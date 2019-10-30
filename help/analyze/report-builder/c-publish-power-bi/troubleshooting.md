@@ -1,16 +1,16 @@
 ---
 description: Voici quelques-unes des difficultés courantes qui peuvent survenir lors de l’utilisation du Créateur de rapports avec Power BI.
 seo-description: Voici quelques-unes des difficultés courantes qui peuvent survenir lors de l’utilisation du Créateur de rapports avec Power BI.
-seo-title: Résolution des problèmes d'intégration de Power BI
-title: Résolution des problèmes d'intégration de Power BI
-uuid: c 1 e 7 e 164-4 bc 6-4513-9332-92 c 53 be 021 cc
+seo-title: Dépannage de l’intégration de Power BI
+title: Dépannage de l’intégration de Power BI
+uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Résolution des problèmes d'intégration de Power BI
+# Dépannage de l’intégration de Power BI
 
 Voici quelques-unes des difficultés courantes qui peuvent survenir lors de l’utilisation du Créateur de rapports avec Power BI.
 
