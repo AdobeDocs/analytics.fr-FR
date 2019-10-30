@@ -5,10 +5,10 @@ seo-description: Créez des périodes personnalisées dans Analysis Workspace e
 seo-title: Création de plages de dates personnalisées
 solution: Analytics
 title: Création de plages de dates personnalisées
-topic: Reports and Analytics
-uuid: c 8873 d 41-454 d -4 f 22-ad 1 f -38 cacec 5 a 3 bc
+topic: Reports & Analytics
+uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Créez des périodes personnalisées dans Analysis Workspace et enregistrez-les sous la forme de composants de type Heure.
 
-**[!UICONTROL Composants]** &gt; **[!UICONTROL Nouvelle période]**
+**[!UICONTROL Composants]** &gt; **[!UICONTROL Nouvelle plage de dates]**
 
 Une plage de dates s’applique au niveau du panneau. To add a date range to your project, click **Panels** &gt; *`<select panel>`*, and specify a new date range.
 
@@ -35,7 +35,7 @@ Vous pouvez la faire glisser dans une colonne le long d’une plage de dates var
 
 ![](assets/date-range-two-months-table.png)
 
-## Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Utiliser une plage de dates flottantes de 7 jours {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 Une plage de dates s’applique au niveau du panneau. Pour ajouter une plage de dates au projet, cliquez sur **Actions** &gt; **Ajouter le panneau**, puis spécifiez une nouvelle plage de dates.
 
