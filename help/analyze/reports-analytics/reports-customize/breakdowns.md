@@ -1,22 +1,22 @@
 ---
-description: Utilisez des ventilations lorsque vous souhaitez obtenir des informations sur la relation entre un segment ou un élément de rapport et d’autres rapports. On parle généralement de « ventilation » d’un rapport en fonction d’un autre rapport.
-seo-description: Utilisez des ventilations lorsque vous souhaitez obtenir des informations sur la relation entre un segment ou un élément de rapport et d’autres rapports. On parle généralement de « ventilation » d’un rapport en fonction d’un autre rapport.
+description: Utilisez des ventilations lorsque vous souhaitez obtenir des informations sur la relation entre un segment ou un élément de rapport et d’autres rapports. On parle souvent de "ventilation" d’un rapport selon un autre rapport.
+seo-description: Utilisez des ventilations lorsque vous souhaitez obtenir des informations sur la relation entre un segment ou un élément de rapport et d’autres rapports. On parle souvent de "ventilation" d’un rapport selon un autre rapport.
 seo-title: Ventilations
 solution: Analytics
 title: Ventilations
 topic: Reports & Analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Ventilations
 
-Utilisez des ventilations lorsque vous souhaitez obtenir des informations sur la relation entre un segment ou un élément de rapport et d’autres rapports. On parle généralement de « ventilation » d’un rapport en fonction d’un autre rapport.
+Utilisez des ventilations lorsque vous souhaitez obtenir des informations sur la relation entre un segment ou un élément de rapport et d’autres rapports. On parle souvent de "ventilation" d’un rapport selon un autre rapport.
 
-Prenons l’exemple de la ventilation d’un rapport de trafic personnalisé nommé Groupe d’âge, dans lequel vous avez rassemblé les âges des visiteurs du site suite à un sondage. Ce rapport vous permet de voir quelle tranche d’âge est responsable de la majorité du trafic sur votre site. Cependant, si vous avez pris la peine de capturer une information telle que l’âge d’un visiteur, vous voudrez peut-être en savoir plus que les simples pages vues. Vous pouvez donc générer un rapport avec ventilation sur le moteur de recherche utilisé, les mots-clés utilisés ou leur situation géographique. Vous mettez en corrélation le groupe d’âge et le moteur de recherche.
+Un exemple est la ventilation d'un rapport de trafic personnalisé appelé Groupe d'âge, dans lequel vous avez rassemblé les âges des visiteurs du site à partir d'une enquête. Ce rapport vous permet de voir quelle tranche d’âge est responsable de la majorité du trafic sur votre site. Cependant, si vous avez pris la peine de capturer une information telle que l’âge d’un visiteur, vous voudrez peut-être en savoir plus que les simples pages vues. Vous pouvez donc générer un rapport avec ventilation sur le moteur de recherche utilisé, les mots-clés utilisés ou leur situation géographique. Vous mettez en corrélation le groupe d’âge et le moteur de recherche.
 
 Si vous ventilez un rapport par *`Referrer Type`*, un point de données peut s’afficher pour *`Inside Your Site`*. Cette valeur indique une page de référence qui figure sur la liste des filtres d’URL internes. Reportez-vous à la section [Filtres d’URL internes](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter.html) dans la Référence d’administration.
 
