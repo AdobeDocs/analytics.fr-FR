@@ -1,24 +1,22 @@
 ---
 description: Affiche des mesures selon que JavaScript est activé, désactivé ou comptabilisé en tant que « non identifié » sur le périphérique.
 seo-description: Affiche des mesures selon que JavaScript est activé, désactivé ou comptabilisé en tant que « non identifié » sur le périphérique.
-seo-title: Prise en charge de JavaScript
+seo-title: 'Prise en charge de JavaScript '
 solution: Analytics
-title: Prise en charge de JavaScript
-topic: Présentation
-uuid: 7 b 95001 a-cd 35-478 a -8 b 24-54 d 30666110 d
+title: 'Prise en charge de JavaScript '
+topic: Rapports
+uuid: 7b95001a-cd35-478a-8b24-54d3066110d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Prise en charge de JavaScript
+# Prise en charge de JavaScript 
 
 Affiche des mesures selon que JavaScript est activé, désactivé ou comptabilisé en tant que « non identifié » sur le périphérique.
 
->[!NOTE]
->
->In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
+> [!NOTE] Début novembre 2016, nous prévoyons de supprimer la restriction qui répertorie toujours JavaScript comme *`disabled / unidentified`* pour les périphériques mobiles.
 
 Le rapport JavaScript correspond à la colonne javascript des données brutes.
 
