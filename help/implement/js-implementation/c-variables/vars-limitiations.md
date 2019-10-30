@@ -8,8 +8,8 @@ subtopic: Variables
 title: Variables et limites
 topic: Développeur et mise en œuvre
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Aperçu détaillé des variables et de leurs restrictions.
 
->[!NOTE]
->
->Voir [Variables de configuration](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) et [Variables de page](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) pour obtenir un aperçu détaillé des variables Analytics les plus courantes.
+> [!NOTE] Voir [Variables de configuration](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) et [Variables de page](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) pour obtenir un aperçu détaillé des variables Analytics les plus courantes.
 
 Le tableau suivant fournit des informations en un coup d’œil des variables [!DNL Analytics] :
 
@@ -30,7 +28,7 @@ Le tableau suivant fournit des informations en un coup d’œil des variables [!
 | browserHeight | Affiche la hauteur de la fenêtre du navigateur. |
 | browserWidth | Affiche la largeur de la fenêtre du navigateur. |
 | campaign | Identifie les campagnes marketing utilisées pour amener des visiteurs sur votre site. La valeur de la variable *`campaign`* provient généralement d’un paramètre de chaîne de requête. |
-| channel | Identifie généralement une section de votre site Web. Par exemple, un site commercial peut présenter des sections telles que « Electronique », « Jouets » ou « Vêtements ». Un site de médias peut présenter des sections comme « Infos », « Sports » ou encore « Affaires ». |
+| marketing | Identifie généralement une section de votre site Web. Par exemple, un site commercial peut présenter des sections telles que « Electronique », « Jouets » ou « Vêtements ». Un site de médias peut présenter des sections comme « Infos », « Sports » ou encore « Affaires ». |
 | charSet | Convertit le jeu de caractères de la page Web au format UTF-8. |
 | colorDepth | Affiche le nombre de bits utilisés pour l’affichage de la couleur sur chaque pixel de l’écran. |
 | connectionType | Indique (dans Microsoft Internet Explorer) si le navigateur est configuré sur une connexion LAN (réseau local) ou modem. |
@@ -83,7 +81,7 @@ Le tableau suivant fournit des informations en un coup d’œil des variables [!
 | trackingServer | Utilisée dans le cadre de l’implémentation des cookies propriétaires, afin d’indiquer le domaine au niveau duquel sont écrits le cookie et la demande d’image. Elle est utilisée pour les pages non sécurisées. |
 | trackingServerSecure | Utilisée dans le cadre de l’implémentation des cookies propriétaires, afin d’indiquer le domaine au niveau duquel sont écrits le cookie et la demande d’image. Cet élément est utilisé pour les pages sécurisées. |
 | trackInlineStats | Permet de déterminer si les données de mise en correspondance des clics des visiteurs sont collectées. |
-| transactionID | Relie les données hors ligne à une transaction en ligne (un prospect ou un achat généré en ligne, par exemple). Chaque variable *`transactionID`* unique envoyée à Adobe est enregistrée en vue d’un chargement de [!UICONTROL sources de données] d’informations hors ligne relatives à cette transaction. Voir la section [Guide des sources de données](https://marketing.adobe.com/resources/help/fr_FR/sc/datasources/). |
+| stockage | Relie les données hors ligne à une transaction en ligne (un prospect ou un achat généré en ligne, par exemple). Chaque variable *`transactionID`* unique envoyée à Adobe est enregistrée en vue d’un chargement de [!UICONTROL sources de données] d’informations hors ligne relatives à cette transaction. Reportez-vous au [Guide des sources de données](https://marketing.adobe.com/resources/help/en_US/sc/datasources/). |
 | s_usePlugins | Si la fonction *`s_doPlugins`* est disponible et contient du code utile, la variable [!UICONTROL s_usePlugins] doit être définie sur « true ». Lorsque [!UICONTROL usePlugins] a la valeur « true », la fonction *`s_doPlugins`* est appelée avant chaque demande d’image. |
 | visitorID | Les visiteurs peuvent être identifiés par la balise *`visitorID`* ou par Adresse IP/Agent utilisateur. La variable *`visitorID`* peut contenir jusqu’à 100 caractères alphanumériques, mais pas de trait d’union. |
 | visitorNamespace | Si la variable *`visitorNamespace`* est utilisée dans votre fichier JavaScript, abstenez-vous de la supprimer ou de la modifier. Elle identifie le domaine avec lequel les cookies sont définis. Si la variable *`visitorNamespace`* change, tous les visiteurs signalés dans [!DNL Analytics] peuvent devenir de nouveaux visiteurs. En résumé, ne modifiez pas cette variable sans l’accord d’un représentant Adobe. |
