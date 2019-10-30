@@ -1,13 +1,13 @@
 ---
 description: Les mises à niveau vers les serveurs FTP Adobe peuvent introduire de nouvelles configurations qui affectent les scripts d’automatisation (souvent utilisés pour télécharger ou transférer régulièrement des données), qui dépendent généralement de paramètres de serveur particuliers.
-keywords: ftp ; sftp
+keywords: ftp;sftp
 seo-description: Les mises à niveau vers les serveurs FTP Adobe peuvent introduire de nouvelles configurations qui affectent les scripts d’automatisation (souvent utilisés pour télécharger ou transférer régulièrement des données), qui dépendent généralement de paramètres de serveur particuliers.
 seo-title: Mettre à niveau les serveurs FTP Adobe
 solution: Analytics
 title: Mettre à niveau les serveurs FTP Adobe
-uuid: cc 9 e 5 e 13-e 213-480 f -9 ff 6-3 dbec 24 baeee
+uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
