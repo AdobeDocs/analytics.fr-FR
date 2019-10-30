@@ -60,7 +60,7 @@ Ce rapport peut, par exemple, répondre à des questions du type : « Les clie
 
 Vous pouvez ventiler ce rapport selon tout autre rapport ou variable afin de déterminer :
 
-* le nombre de visites effectuées généralement par un utilisateur qui a parcouru la campagne XYZ avant d’effectuer un achat ;
+* le nombre de visites effectuées généralement par un utilisateur qui a parcouru la campagne XYZ avant d’effectuer un achat.
 * si les utilisateurs tokyoïtes, par exemple, effectuent davantage de visites que les utilisateurs londoniens avant de générer une piste.
 
 >[!NOTE]
@@ -69,13 +69,13 @@ Vous pouvez ventiler ce rapport selon tout autre rapport ou variable afin de dé
 
 Ce rapport s’articule autour des données d’identifiant des visiteurs transmises à Adobe lors chaque accès à votre site. A la réception de ces données, Adobe les compare aux identifiants des visiteurs historiques afin de déterminer si l’accès correspond à :
 
-* un nouveau visiteur (nombre de visites égal à 1),
+* un nouveau visiteur (nombre de visites égal à 1).
 * un visiteur précédent qui continue une visite en cours (nombre de visites non incrémenté),
 * un visiteur précédent qui effectue une nouvelle visite (nombre de visites incrémenté d’une unité).
 
 >[!NOTE]
 >
->Chaque identifiant visiteur Analytics est associé à un profil visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
+>Chaque identifiant visiteur Analytics est associé à un profil du visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
 
 ## Fidélité de la clientèle {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
