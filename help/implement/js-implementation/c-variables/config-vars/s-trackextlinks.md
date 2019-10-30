@@ -5,24 +5,24 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.trackExternalLinks
 
-Si est défini sur "true" et sont utilisés pour déterminer si un lien sur lequel l’utilisateur a cliqué est un lien de sortie.
+Si la variable est définie sur « true »,  et  sont utilisés pour déterminer si le lien sur lequel l’utilisateur a cliqué est un lien de sortie.
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
 | N/D | N/D | N/D | True |
 
-La variable *`trackExternalLinks`* ne doit être définie sur « false » que si votre site ne comporte aucun lien de sortie ou si vous n’êtes pas intéressé par le suivi des clics effectués sur ces liens. On désigne sous le nom de lien de sortie tout lien qui permet à un visiteur de quitter votre site. Si la variable *`trackExternalLinks`* is 'true,' then when you click an exit link, tracking data is immediately sent. Les données envoyées avec un lien de sortie sont notamment l’URL et le nom du lien, ainsi que les données de mise en correspondance des clics des visiteurs relatives à ce lien. Si la variable *`trackExternalLinks`* is 'false,' then visitor click map data for exit links on your site is likely to be under reported.
+La variable *`trackExternalLinks`* ne doit être définie sur « false » que si votre site ne comporte aucun lien de sortie ou si vous n’êtes pas intéressé par le suivi des clics effectués sur ces liens. On désigne sous le nom de lien de sortie tout lien qui permet à un visiteur de quitter votre site. Si la variable *`trackExternalLinks`* est définie sur « true », des données sont immédiatement envoyées lorsque vous cliquez sur un lien de sortie. Les données envoyées avec un lien de sortie sont notamment l’URL et le nom du lien, ainsi que les données de mise en correspondance des clics des visiteurs relatives à ce lien. Si la variable *`trackExternalLinks`* est définie sur « false », il est probable que les données de mise en correspondance des clics des visiteurs relatives aux liens de sortie de votre site soient sous-estimées.
 
 ## Syntaxe et valeurs possibles
 
-La syntaxe de la variable *`trackExternalLinks`* doit être définie sur « true » ou « false ».
+La variable *`trackExternalLinks`* doit être définie sur « true » ou « false ».
 
 ```
 js
@@ -47,6 +47,6 @@ Aucun
 
 ## Pièges, questions et conseils
 
-* When *`trackExternalLinks`* is 'false,' links that take people away from your site are likely to be under reported in visitor click map.
+* Lorsque la variable *`trackExternalLinks`* est définie sur « false », il est probable que les liens que les visiteurs utilisent pour quitter votre site soient sous-estimés dans la mise en correspondance des clics des visiteurs.
 
-* When *`trackExternalLinks`* is 'true,' data is sent each time a visitor clicks on an exit link (before link target loads).
+* Lorsque la variable *`trackExternalLinks`* est définie sur « true », des données sont envoyées chaque fois qu’un visiteur clique sur un lien de sortie (avant le chargement de la cible du lien).
