@@ -5,16 +5,16 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.usePlugins
 
-If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.'
+Si la fonction  est disponible et contient du code utile, la variable [!UICONTROL s_usePlugins] doit être définie sur « true ».
 
-Lorsque [!UICONTROL usePlugins] a la valeur "true", la *`s_doPlugins`* fonction est appelée avant chaque demande d’image.
+Lorsque [!UICONTROL usePlugins] a la valeur « true », la fonction *`s_doPlugins`* est appelée avant chaque demande d’image.
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
@@ -38,7 +38,7 @@ s.usePlugins=true
 s.usePlugins=false
 ```
 
-La variable [!UICONTROL usePlugins] doit être définie sur « false » (ou ne pas être déclarée) si la fonction *`s_doPlugins`* function is not declared in your JavaScript file.
+La variable [!UICONTROL usePlugins] ne doit être définie sur « false » (ou non déclarée) que si la fonction *`s_doPlugins`* n’est pas déclarée dans votre fichier JavaScript.
 
 ## Paramètres de configuration
 
