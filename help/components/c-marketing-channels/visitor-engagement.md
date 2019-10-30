@@ -1,25 +1,25 @@
 ---
-description: Découvrez comment spécifier l'expiration de l'engagement des visiteurs dans les canaux marketing.
-seo-description: Découvrez comment spécifier l'expiration de l'engagement des visiteurs dans les canaux marketing.
-seo-title: Expiration de l'engagement des visiteurs
+description: Découvrez comment spécifier l’expiration de l’engagement des visiteurs dans les canaux marketing.
+seo-description: Découvrez comment spécifier l’expiration de l’engagement des visiteurs dans les canaux marketing.
+seo-title: Expiration de l’engagement des visiteurs
 solution: Analytics
 subtopic: Canaux marketing
-title: Expiration de l'engagement des visiteurs
-topic: Reports and Analytics
-uuid: 47 f 1 ccaf -3 ce 7-494 d-b 456-956 a 3 a 3 c 6 c 9 a
+title: Expiration de l’engagement des visiteurs
+topic: Reports & Analytics
+uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Expiration de l'engagement des visiteurs
+# Expiration de l’engagement des visiteurs
 
-Découvrez comment spécifier l'expiration de l'engagement des visiteurs dans les canaux marketing.
+Découvrez comment spécifier l’expiration de l’engagement des visiteurs dans les canaux marketing.
 
-## Visitor engagement expiration {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
+## Expiration de l’engagement des visiteurs {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
-Découvrez comment spécifier l'expiration de l'engagement des visiteurs dans les canaux marketing.
+Découvrez comment spécifier l’expiration de l’engagement des visiteurs dans les canaux marketing.
 
 L’engagement des visiteurs est le délai que vous souhaitez allouer pour que l’activité précédente du visiteur sur votre site soit attribuée au canal Première touche.
 
@@ -40,5 +40,5 @@ Spécifiez le délai d’expiration de l’engagement des visiteurs.
 
    ![](assets/mchannel_expiration.png)
 
-1. Configurez les champs d'expiration de l'engagement des visiteurs.
+1. Configurez les champs d’expiration de l’engagement des visiteurs.
 1. Cliquez sur **[!UICONTROL Enregistrer.]**
