@@ -5,7 +5,7 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,17 +14,13 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 La variable vous permet de sélectionner dynamiquement la suite de rapports en fonction de l’URL de chaque page.
 
->[!NOTE]
->
->`dynamicAccountSelection` ne fonctionne pas avec le suivi personnalisé des liens.
+> [!NOTE] `dynamicAccountSelection` ne fonctionne pas avec le suivi personnalisé des liens.
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
 | N/D | N/D | N/D | False |
 
->[!NOTE]
->
->Both `dynamicAccountList` and `dynamicAccountMatch` are ignored if the `dynamicAccountSelection` variable is not declared or set to 'false.'
+> [!NOTE]Les variables `dynamicAccountList` et `dynamicAccountMatch` sont ignorées si la variable `dynamicAccountSelection` n’est pas déclarée ou définie sur « False ».
 
 ## Syntaxe et valeurs possibles
 
@@ -50,6 +46,6 @@ Aucun
 
 ## Pièges, questions et conseils
 
-* La sélection de comptes dynamique n’est pas prise en charge par [AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* La sélection de compte dynamique n’est pas prise en charge par [AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 * Utilisez toujours le [!DNL DigitalPulse Debugger] pour déterminer la suite de rapports qui reçoit des données de chaque page.
