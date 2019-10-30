@@ -1,19 +1,19 @@
 ---
 description: Informations sur le modèle .txt de sources de données.
 seo-description: Informations sur le modèle .txt de sources de données.
-seo-title: Référence du fichier d'importation
+seo-title: Référence du fichier d’importation
 solution: Analytics
 subtopic: Sources de données
-title: Référence du fichier d'importation
+title: Référence du fichier d’importation
 topic: Développeur et mise en œuvre
-uuid: cc 58 f 8 d 8-cb 6 e -4908-846 f -0 a 41 c 6 da 805 d
+uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Référence du fichier d'importation
+# Référence du fichier d’importation
 
 Informations sur le modèle .txt de sources de données.
 
@@ -28,9 +28,9 @@ Les titres de colonnes permettent d’identifier les données dans chaque colonn
 
 **Date** : (requise) horodatage pour chaque ligne de données du fichier.
 
-**Variables** : nom des variables de rapports associées aux portées de données de la source de données.
+**Variables**: Noms des variables de rapport associées aux dimensions de données de la source de données.
 
-**Événements** : nom des événements associés aux mesures de la source de données.
+**Evénements**: Nom des événements associés aux mesures de la source de données.
 
 Utilisez le modèle de source de données pour créer un fichier qui contient les données que vous souhaitez transférer. Lors de la création d’un fichier de source de données, pensez à ce qui suit :
 
@@ -63,6 +63,6 @@ Utilisez le modèle de source de données pour créer un fichier qui contient le
 
 **Fichier .FIN**
 
-Une fois votre fichier de source de données renseigné, vous pouvez le transférer par FTP dans Analytics. Toutefois, un fichier supplémentaire est nécessaire pour que les données soient traitées : You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Une fois le fichier de source de données renseigné, vous pouvez le transférer par FTP dans Analytics. Toutefois, un fichier supplémentaire est nécessaire pour que les données soient traitées : You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
 For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
