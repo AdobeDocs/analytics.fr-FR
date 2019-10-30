@@ -5,7 +5,7 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ La variable est utilisée par les serveurs de collecte de données et JavaScript
 |---|---|---|---|
 | N/D | cl | Trafic &gt; Technologie &gt; Cookies – Tous les rapports liés aux visiteurs | "" |
 
-Si la variable *`cookieLifetime`* est définie, elle remplace toute autre expiration de cookie pour les servers de collecte de données et JavaScript, à une exception près, décrite ci-dessous. The *`cookieLifetime`* variable can have one of three values:
+If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. La variable *`cookieLifetime`* peut avoir l’une des trois valeurs ci-dessous :
 
 * [!DNL Analytics] Cookies
 * Cookies
@@ -53,4 +53,4 @@ Aucun
 
 ## Pièges, questions et conseils
 
-*`cookieLifetime`* affecte le [!DNL Analytics] suivi. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Soyez prudent lors de la définition de la variable *`cookieLifetime`*.
+*`cookieLifetime`* affecte le suivi de [!DNL Analytics]. Si, par exemple, la valeur *`cookieLifetime`* est définie sur deux jours, les rapports mensuels, trimestriels et annuels sur les visiteurs uniques seront incorrects. Soyez prudent lors de la définition de la variable *`cookieLifetime`*.
