@@ -5,7 +5,7 @@ seo-title: Afficher/Gérer les paramètres de gouvernance des données de la sui
 title: Afficher/Gérer les paramètres de gouvernance des données de la suite de rapports
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -44,11 +44,11 @@ La boîte de dialogue Gouvernance des données dans les Outils d’administratio
   </tr> 
   <tr> 
    <td colname="col1"> <p>Politique de conservation des données </p> </td> 
-   <td colname="col2"> <p>La mise en oeuvre de la confidentialité des données d’Analytics requiert la mise en place d’une stratégie de rétention des données. </p> <p>Ce paramètre indique : </p> 
+   <td colname="col2"> <p>La mise en œuvre de la Confidentialité des données pour Analytics nécessite la mise en place d’une politique de conservation des données. </p> <p>Ce paramètre indique : </p> 
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">si une politique de conservation des données est en place pour cette suite de rapports ; </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">combien de temps les données sont conservées par Adobe avant d’être supprimées. Par défaut, la période de conservation des données est de 25 mois. </li> 
-    </ul> <p>Remarque :  Adobe Analytics ne peut pas vous aider dans le traitement des requêtes de l’API de confidentialité des données, c’est-à-dire le traitement des demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de rétention des données n’a pas été définie. Veuillez contacter votre gestionnaire du succès client pour définir votre période de conservation des données. </p> </td> 
+    </ul> <p>Remarque : Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative à la Confidentialité des données, c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie. Veuillez contacter votre gestionnaire du succès client pour définir votre période de conservation des données. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Groupes </p> </td> 
