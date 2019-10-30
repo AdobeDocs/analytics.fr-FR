@@ -6,8 +6,8 @@ seo-title: FAQ sur l’outil Adobe Analytics
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: FAQ sur l’outil Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Des FAQ relatives à la configuration automatique du déploiement d’Adobe Ana
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Où placer mes modules logiciels enfichables lors de l’implémentation d’Adobe Analytics via la gestion dynamique des balises ? </p> </td> 
-   <td colname="col2"> <p> Si vous utilisez la gestion dynamique des balises pour héberger manuellement la variable <code>s_code</code>, vous pouvez ajouter des modules logiciels enfichables dans le même éditeur que la variable <code>s_code</code> hébergée, simplement comme vous le feriez dans une implémentation d’Adobe Analytics classique. </p> <p>Cependant, vous pouvez également placer les modules logiciels dans l’éditeur dans la section <span class="term"> Personnalisation du code de page</span> des paramètres de l’outil. Les deux méthodes d’implémentation doivent être d’efficacité égale. </p> </td> 
+   <td colname="col2"> <p> Si vous utilisez la gestion dynamique des balises pour héberger manuellement la variable <code> s_code</code>, vous pouvez ajouter des modules logiciels enfichables dans le même éditeur que la variable <code> s_code</code> hébergée, simplement comme vous le feriez dans une implémentation d’Adobe Analytics classique. </p> <p>Cependant, vous pouvez également placer les modules logiciels dans l’éditeur dans la section <span class="term"> Personnalisation du code de page</span> des paramètres de l’outil. Les deux méthodes d’implémentation doivent être d’efficacité égale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si j’apporte des modifications de configuration dans la nouvelle version de l’outil, puis-je le tester lors de l’évaluation avant de le publier pour production ? </p> </td> 
