@@ -1,26 +1,24 @@
 ---
 description: Cette fonctionnalité intègre un peu plus l’utilisation du Créateur de rapports dans le processus Excel naturel, sans nécessiter d’accéder à l’interface utilisateur du Créateur de rapports.
 seo-description: Cette fonctionnalité intègre un peu plus l’utilisation du Créateur de rapports dans le processus Excel naturel, sans nécessiter d’accéder à l’interface utilisateur du Créateur de rapports.
-seo-title: Appel de la fonctionnalité Créateur de rapports à partir de fonctions Microsoft Excel
+seo-title: Appel de la fonctionnalité de Report Builder depuis les fonctions Microsoft Excel
 solution: Analytics
-title: Appel de la fonctionnalité Créateur de rapports à partir de fonctions Microsoft Excel
+title: Appel de la fonctionnalité de Report Builder depuis les fonctions Microsoft Excel
 topic: Créateur de rapports
-uuid: 5342 cc 4 f -085 d -4 a 2 d-a 498-38 b 00 a 3 ef 4 d 3
+uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Appel de la fonctionnalité Créateur de rapports à partir de fonctions Microsoft Excel
+# Appel de la fonctionnalité de Report Builder depuis les fonctions Microsoft Excel
 
 Cette fonctionnalité intègre un peu plus l’utilisation du Créateur de rapports dans le processus Excel naturel, sans nécessiter d’accéder à l’interface utilisateur du Créateur de rapports.
 
 Par exemple, vous souhaitez peut-être actualiser automatiquement les requêtes du Créateur de rapports dont le filtre d’entrée est basé sur des données extraites d’Excel provenant d’autres sources. Vous pouvez effectuer cette opération à l’aide de la fonction string RefreshRequestsInCellsRange(..) . Tous les appels sont asynchrones. Ils renvoient immédiatement et n’attendent pas un appel pour s’exécuter entièrement.
 
->[!NOTE]
->
->Pour que cette fonctionnalité fonctionne, Reportbuilder 5.0 (ou version ultérieure) doit être installé.
+> [!NOTE] Pour que cette fonctionnalité fonctionne, vous devez avoir installé la version 5.0 (ou une version ultérieure) du créateur de rapports.
 
 Vous trouverez ci-dessous un tableau comportant la liste des fonctions présentées :
 
