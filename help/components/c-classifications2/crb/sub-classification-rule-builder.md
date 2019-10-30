@@ -8,7 +8,7 @@ title: Sous-classifications et Créateur de règles – Cas d’utilisation
 topic: Outils d’administration
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,13 +47,11 @@ t_rule_builder_subclass.xml
 
 Cette procédure décrit le téléchargement de sous-classifications à l’aide du Créateur de règles.
 
->[!NOTE]
->
->Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
+> [!NOTE] Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
 
 1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
-   Exemple :
+   Exemple:
 
    ![Infos étape](assets/sub_class_create.png)
 
@@ -74,7 +72,7 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
    Voir Classifications [à](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)plusieurs niveaux.
 
-   Exemple :
+   Exemple:
 
    | Clé | Canal | Code de campagne large | Code de campagne large&amp;Chapeau;Type de campagne | Code de campagne large&amp;Chapeau;Directeur de campagne | ... |
    |---|---|---|---|---|---|
