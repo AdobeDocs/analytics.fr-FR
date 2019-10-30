@@ -1,22 +1,22 @@
 ---
-description: Use the Adobe Data Connectors Configuration Wizard to set up the integration.
+description: Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
 seo-description: Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
-seo-title: Activate the Integration
-title: Activate the Integration
+seo-title: Activer l’intégration
+title: Activer l’intégration
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Activate the Integration{#activate-the-integration}
+# Activer l’intégration{#activate-the-integration}
 
-Use the Adobe Data Connectors Configuration Wizard to set up the integration.
+Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
 
-1. Start Data Connectors and click + Add New to add a new integration.[](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html)****[](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html)
-1. In the Show list, select By Name and drag the Partner integration to an empty plug-in slot.********[!DNL ~~]
-1. Complete the Integration Wizard using the information in the following table:
+1. Démarrez [Data Connectors](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) et cliquez sur **[!UICONTROL + Ajouter nouveau]** pour [ajouter une nouvelle intégration](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
+1. Dans la liste **[!UICONTROL Afficher]** , sélectionnez **[!UICONTROL Par nom]** et faites glisser l'intégration du [!DNL ~partenaire~] vers un emplacement de module externe vide.
+1. Renseignez l’assistant d’intégration à l’aide des informations du tableau suivant :
 
 | Champ | Description |
 |--- |--- |
@@ -31,12 +31,12 @@ Use the Adobe Data Connectors Configuration Wizard to set up the integration.
 | Ouvre HTML | Nombre de visiteurs qui ont ouvert le message électronique. |
 | Invalids | Nombre d'adresses électroniques non valides. |
 | Campagne | Identifiant de campagne marketing. |
-| Pass Alongs | The Clicked event lets you see the number of visitors who clicked the email message. |
-| Email eVar | An email address from the DreamMail system. This "Email eVar" is associated with downstream visitor behavior on the site (cart abandons, purchases, etc.) that is pulled into the DreamMail system and can be leveraged for remarketing purposes. |
-| Spotlight Event | Event that can be exported in re-marketing segments. |
-| Points phares des achats | Event that can be exported in re-marketing segments. |
-| Spotlight Value | Revenue event that can be exported in re-marketing segments. |
-| TotalClicks | The Clicked event lets you see the number of visitors who clicked the email message. |
+| Passe le long | L’événement Cliqué vous permet d’afficher le nombre de visiteurs qui ont cliqué sur le message électronique. |
+| Email eVar | Adresse électronique du système DreamMail. Cette "eVar de courriel" est associée au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) extrait dans le système DreamMail et peut être utilisé à des fins de remarketing. |
+| Événement Spotlight | Événement pouvant être exporté dans des segments de remarketing. |
+| Points phares des achats | Événement pouvant être exporté dans des segments de remarketing. |
+| Points phares | Evénement de recettes pouvant être exporté dans des segments de remarketing. |
+| TotalClics | L’événement Cliqué vous permet d’afficher le nombre de visiteurs qui ont cliqué sur le message électronique. |
 | Segments | Cette intégration crée les segments définis par les partenaires affichés dans la section Segments de partenaire. De plus, vous pouvez sélectionner des segments existants au niveau de la suite de rapports à inclure dans l’intégration. |
 |  Demandes d’accès | Activez les privilèges d’accès recommandés. |
 | Collecte de données | Sélectionnez Module **JavaScript** si vous souhaitez utiliser le module externe s_code.js comme modèle de collecte pour cette intégration (voir ). Sélectionnez Solution **** automatisée si vous souhaitez utiliser un modèle de collecte automatisée pour cette intégration, puis spécifiez les identifiants uniques utilisés pour cette intégration. Si vous sélectionnez cette option, spécifiez les identifiants uniques utilisés pour cette intégration :<ul><li>Paramètre de chaîne de requête d’ID de message : Cette valeur représente l’ID de message ajouté à l’URL de la page d’entrée par votre partenaire de messagerie.</li><li>Paramètre de chaîne de requête d’ID de destinataire : Cette valeur représente l’ID du destinataire annexé à l’URL de la page d’entrée par votre partenaire de messagerie.</li></ul> |
