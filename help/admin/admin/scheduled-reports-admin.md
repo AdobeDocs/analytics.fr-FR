@@ -1,22 +1,22 @@
 ---
 description: Permet aux utilisateurs de niveau administrateur d’afficher et de gérer des rapports planifiés à l’échelle de l’organisation.
 seo-description: Permet aux utilisateurs de niveau administrateur d’afficher et de gérer des rapports planifiés à l’échelle de l’organisation.
-seo-title: File d'attente des rapports planifiés
+seo-title: File d’attente des rapports planifiés
 solution: Analytics
-title: File d'attente des rapports planifiés
-topic: Présentation
-uuid: 3 fcf 92 d 3-a 472-465 f-ad 7 a-c 48 cd 9 a 8238 b
+title: File d’attente des rapports planifiés
+topic: Rapports
+uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# File d'attente des rapports planifiés
+# File d’attente des rapports planifiés
 
 Permet aux utilisateurs de niveau administrateur d’afficher et de gérer des rapports planifiés à l’échelle de l’organisation.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Rapports planifiés]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; Rapports **[!UICONTROL planifiés]**
 
 Les fonctionnalités de niveau administrateur dans le gestionnaire de rapports programmés incluent :
 
@@ -29,9 +29,7 @@ Les fonctionnalités de niveau administrateur dans le gestionnaire de rapports p
 
 Dans l’onglet **[!UICONTROL Liste des rapports]**, vous pouvez **Afficher tous les rapports planifiés]de votre organisation en plus de ceux que vous avez personnellement planifiés.[!UICONTROL **
 
->[!NOTE]
->
->The **[!UICONTROL Report Name]** column displays the name of the report which is being scheduled and the **[!UICONTROL File Name]** column displays any custom file name set by you in Advanced Delivery Options. En conséquence, si vous planifiez plusieurs rapports du même type et que vous indiquez des noms personnalisés pour chacun, le gestionnaire de rapports programmés affiche plusieurs entrées avec le même nom de rapport mais avec des noms de fichiers différents. En effet, le rapport de fin en cours de planification étant le même, la colonne Nom de rapport comporte les mêmes noms de rapports pour tous les rapports sauf les noms des fichiers personnalisés (tels que définis).
+> [!NOTE] La colonne Nom **[!UICONTROL du]** rapport affiche le nom du rapport planifié et la colonne Nom **[!UICONTROL de]** fichier affiche tout nom de fichier personnalisé que vous avez défini dans Options de remise avancées. En conséquence, si vous planifiez plusieurs rapports du même type et que vous indiquez des noms personnalisés pour chacun, le gestionnaire de rapports programmés affiche plusieurs entrées avec le même nom de rapport mais avec des noms de fichiers différents. En effet, le rapport de fin en cours de planification étant le même, la colonne Nom de rapport comporte les mêmes noms de rapports pour tous les rapports sauf les noms des fichiers personnalisés (tels que définis).
 
 ![](assets/show_all_scheduled_reports.png)
 
