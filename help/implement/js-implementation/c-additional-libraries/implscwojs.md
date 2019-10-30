@@ -7,8 +7,8 @@ solution: Analytics
 title: Mise en œuvre d’Analytics à l’aide de balises d’image HTML
 topic: Développeur et mise en œuvre
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,5 @@ JavaScript peut détecter les paramètres du navigateur qui ne sont pas accessib
 * Suivi des événements de conversion, tels que les achats, où la précision revêt une importance capitale.
 * Cette stratégie peut également être utilisée pour renseigner complètement la demande d’image dans la <noscript> balise pour le suivi des utilisateurs sans JavaScript ou avec JavaScript désactivé.
 
->[!NOTE]
->
->S’agissant de l’utilisation de balises d’image générées par le serveur, l’implémentation nécessite davantage de temps. Elle se révèle, en outre, plus difficile à déboguer, à déployer et à gérer. Adobe conseille vivement à ses clients d’utiliser la collecte de données JavaScript sur chaque page lorsque cela s’avère possible. Notez cependant que cette méthode d’implémentation ne permet pas la collecte ou la prise en charge de certains rapports ou fonctionnalités, dont la mise en correspondance des clics des visiteurs, les liens de téléchargement, les liens de sortie et les variables de navigateur (largeur/hauteur du navigateur, etc.).
+> [!NOTE] S’agissant de l’utilisation de balises d’image générées par le serveur, l’implémentation nécessite davantage de temps. Elle se révèle, en outre, plus difficile à déboguer, à déployer et à gérer. Adobe conseille vivement à ses clients d’utiliser la collecte de données JavaScript sur chaque page lorsque cela s’avère possible. Notez cependant que cette méthode d’implémentation ne permet pas la collecte ou la prise en charge de certains rapports ou fonctionnalités, dont la mise en correspondance des clics des visiteurs, les liens de téléchargement, les liens de sortie et les variables de navigateur (largeur/hauteur du navigateur, etc.).
 
