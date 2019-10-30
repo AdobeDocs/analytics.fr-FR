@@ -6,7 +6,7 @@ seo-title: Mesures calculées ou calculées avancées (dérivées)
 title: Mesures calculées ou calculées avancées (dérivées)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Les mesures calculées ou calculées avancées (ou dérivées) sont des mesures 
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
 >
 >* Les modèles d’attribution "Canal marketing Dernière touche" et "Canal marketing Première touche" ont été migrés respectivement vers les nouveaux modèles d’attribution "Dernière touche" et "Première touche" (Remarque : Les "canaux marketing" n’ont pas été abandonnés - seuls les deux modèles d’allocation qui apparaissent dans les mesures calculées l’ont été).
->* De plus, nous avons corrigé la façon dont l’allocation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Pour plus d’informations, consultez la section [Fonctionnement de l’affectation linéaire à partir du 19 juillet 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* De plus, nous avons corrigé la façon dont l’allocation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution "linéaires", les rapports peuvent légèrement changer pour refléter le nouveau modèle d’attribution corrigé. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Pour plus d’informations, consultez la section [Fonctionnement de l’affectation linéaire à partir du 19 juillet 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 Nos outils de mesures calculées offrent un moyen bien plus souple pour créer, gérer et organiser les mesures. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
