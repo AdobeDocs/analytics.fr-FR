@@ -6,8 +6,8 @@ seo-title: Création de conditions pour les règles basées sur un événement
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création de conditions pour les règles basées sur un événement
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Les conditions déterminent à quel moment une règle basée sur un événement 
 
    ![](assets/condition-event-based.png)
 
-   Pour plus d’informations, reportez-vous à la section [Types d’événement](https://marketing.adobe.com/resources/help/fr_FR/dtm/event_types.html) dans la documentation du produit Adobe Tag Management.
+   Pour plus d’informations, voir [Types d’événements](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) dans la documentation du produit Tag Management d’Adobe.
 
 1. Activez les options suivantes si besoin est :
 
@@ -37,7 +37,7 @@ Les conditions déterminent à quel moment une règle basée sur un événement 
 
    ![](assets/condition-event-based2.png)
 
-   Voir [Utilisation du sélecteur CSS](https://marketing.adobe.com/resources/help/fr_FR/dtm/css-selector.html) dans la documentation du produit Dynamic Tag Management pour plus d’informations sur la recherche de la balise d’élément correcte.
+   Voir [Utilisation du sélecteur CSS](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) dans la documentation du produit Dynamic Tag Management pour plus d’informations sur la détermination de la balise d’élément appropriée.
 
 1. Sélectionnez d’autres types de condition ou de critère à lier à la règle, puis configurez-les.
 
