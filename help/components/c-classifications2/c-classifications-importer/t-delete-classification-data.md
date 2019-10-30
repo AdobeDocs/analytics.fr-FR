@@ -1,19 +1,19 @@
 ---
 description: Description de la procédure de suppression des données de classification.
 seo-description: Description de la procédure de suppression des données de classification.
-seo-title: Supprimer des données de classification
+seo-title: Suppression des données de classification
 solution: Analytics
-subtopic: Gestionnaire
-title: Supprimer des données de classification
+subtopic: Classifications
+title: Suppression des données de classification
 topic: Outils d’administration
-uuid: 5 b 1 b 0 ac 7-ee 52-4 fd 8-b 98 e -25283595 cf 0 c
+uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Supprimer des données de classification
+# Suppression des données de classification
 
 Description de la procédure de suppression des données de classification.
 
@@ -25,7 +25,7 @@ Description de la procédure de suppression des données de classification.
 
    Alternatively, use [!DNL ~deletekey~]. Cette commande traite la classification comme si elle ne s’était jamais produite pour la clé spécifiée. Elle supprime complètement la classification, ainsi que toute donnée de colonne, des tableaux de recherche.
 
-   **Avertissement**: Il vous suffit d'une colonne contenant [!DNL ~la clé deletekey~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. [!DNL ~Cependant, la clé deletekey~] fonctionne au niveau de la ligne (la clé et toutes les métadonnées associées) ; elle doit donc uniquement apparaître dans l'une des colonnes de la ligne. Cette commande supprime toutes les métadonnées de la ligne. Adobe interprète cela comme si la clé n’avait jamais été classée et l’affiche dans la catégorie [Aucun](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF).
+   **Avertissement**: Vous n'avez besoin que d'une colonne contenant [!DNL ~deletekey~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Cette commande supprime toutes les métadonnées de la ligne. Adobe interprète cela comme si la clé n’avait jamais été classée et l’affiche dans la catégorie [Aucun](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF).
 
 1. Enregistrez le fichier et téléchargez-le à l’aide de l’onglet [!UICONTROL Importer un fichier.]
 
@@ -33,7 +33,7 @@ Description de la procédure de suppression des données de classification.
 
    **Propriétés de cette commande**
 
-* [!DNL ~vide~] doit être en minuscules sans espaces. Les entrées suivantes ne sont pas valides :
+* [!DNL ~empty~] doit être en minuscules sans espaces. Les entrées suivantes ne sont pas valides :
 
    * [!DNL ~EMPTY~]
    * [!DNL ~ empty ~]
