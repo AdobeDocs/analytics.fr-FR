@@ -1,17 +1,17 @@
 ---
 description: Description des effets de la modification d’un type de données après la collecte des données.
 seo-description: Description des effets de la modification d’un type de données après la collecte des données.
-seo-title: A propos de la modification du type d'événement
+seo-title: À propos du changement de type d’événement
 solution: Analytics
-title: A propos de la modification du type d'événement
+title: À propos du changement de type d’événement
 topic: Outils d’administration
-uuid: c 184 dd 8 e -7818-42 ff-a 960-dd 91215383 d 8
+uuid: c184dd8e-7818-42ff-a960-dd91215383d8
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# A propos de la modification du type d'événement
+# À propos du changement de type d’événement
 
-Vous pouvez remplacer un événement compteur, numérique ou monétaire par un autre type sans perdre l'accès aux données capturées précédemment.
+Vous pouvez remplacer un événement de compteur, numérique ou monétaire par un autre type sans perdre l’accès aux données précédemment capturées.
