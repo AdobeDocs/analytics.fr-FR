@@ -1,20 +1,20 @@
 ---
-description: Les variables de trafic Custom Insight (ou prop) permettent de corréler des données personnalisées avec des événements de trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
-seo-description: Les variables de trafic Custom Insight (ou prop) permettent de corréler des données personnalisées avec des événements de trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
-seo-title: Présentation de variable de trafic (prop)
+description: Les variables de trafic Custom Insight (ou props) vous permettent de corréler des données personnalisées à des événements de trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
+seo-description: Les variables de trafic Custom Insight (ou props) vous permettent de corréler des données personnalisées à des événements de trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
+seo-title: Variable de trafic (prop) - Aperçu
 solution: Analytics
-title: Présentation de variable de trafic (prop)
+title: Variable de trafic (prop) - Aperçu
 topic: Outils d’administration
-uuid: 5 d 62 b 19 e -9 fea -4489-8 a 80-1 ebb 317 f 5 a 78
+uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation de variable de trafic (prop)
+# Variable de trafic (prop) - Aperçu
 
-Les variables de trafic Custom Insight (ou prop) permettent de corréler des données personnalisées avec des événements de trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
+Les variables de trafic Custom Insight (ou props) vous permettent de corréler des données personnalisées à des événements de trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
 
 Utilisez la page [!UICONTROL Variables de trafic] pour activer, désactiver ou renommer des rapports de variables de trafic. Une fois désactivé, le rapport d’une variable de trafic n’apparaît plus dans l’interface utilisateur.
 
