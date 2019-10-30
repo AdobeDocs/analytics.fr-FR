@@ -1,19 +1,19 @@
 ---
 description: La colonne « Pré » contient les données telles qu’elles ont été envoyées à la collecte de données. La colonne « Post » contient la valeur après traitement.
-keywords: Flux de données ; tâche ; « pré » ; Colonne Post ; respect de la casse
+keywords: Flux de données;tâche;colonne pré;colonne post;respect de la casse
 seo-description: La colonne « Pré » contient les données telles qu’elles ont été envoyées à la collecte de données. La colonne « Post » contient la valeur après traitement.
-seo-title: Colonnes Pré et Post
+seo-title: Colonne précédente et colonne suivante
 solution: Analytics
-title: Colonnes Pré et Post
-topic: Reports and Analytics
-uuid: a 415327 b -6151-4 d 08-b 8 b 9-5 aaa 2348 eb 0 c
+title: Colonne précédente et colonne suivante
+topic: Reports & Analytics
+uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Colonnes Pré et Post
+# Colonne précédente et colonne suivante
 
 La colonne « Pré » contient les données telles qu’elles ont été envoyées à la collecte de données. La colonne « Post » contient la valeur après traitement.
 
@@ -29,8 +29,8 @@ Lors du traitement du flux de données, vous pouvez utiliser uniquement des minu
 
 Si vous observez différentes variations de la casse pour une même valeur entre les colonnes « Pré » et « Post » (par exemple, « neige » dans la colonne « Pré » et « Neige » dans la colonne « Post »), cela signifie que vous transmettez des versions en majuscules et en minuscules de la même valeur sur votre site. Les différences de casse dans la colonne « Post » étaient précédemment transmises puis stockées dans un cookie virtuel ou étaient traitées à peu près en même temps pour cette suite de rapports. Par exemple :
 
-Accès 1 : s.list1=“Gouttière,Persan,Siamois”;
+Accès 1 : s.list1=“Gouttière,Persan,Siamois";
 
-Accès 2 : s.list1=“gouttière,persan,siamois”;
+Accès 2 : s.list1="tabby,persan,siamois";
 
 Lorsque l’accès 2 est reporté dans le flux de données, la colonne « Pré » contiendra exactement la même casse que celle qui a été transmise (gouttière,persan,siamois), mais la valeur issue de l’accès 1 persistera probablement pour cette visite et sera reportée dans la colonne « Post » (qui indiquera Gouttière,Persan,Siamois) puisque les accès 1 et 2 contiennent exactement la même valeur en cas de comparaison sans tenir compte de la casse.
