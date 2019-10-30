@@ -7,8 +7,8 @@ solution: Analytics
 title: Identifiant visiteur Analytics
 topic: Développeur et mise en œuvre
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Lors de l’envoi d’une demande au serveur de collecte de données d’Adobe, 
 
 Certains navigateurs, comme Apple Safari, ne stockent plus les cookies définis dans l’en-tête HTTP provenant de domaines qui ne correspondent pas au domaine du site Web actuel (il s’agit d’un cookie utilisé dans un contexte tiers ou d’un cookie tiers). Supposons que vous visitiez le site `mysite.com` et que votre serveur de collecte de données soit `mysite.omtrdc.net`. Dans ce cas, le cookie renvoyé dans l’en-tête HTTP en provenance de `mysite.omtrdc.net` risque d’être rejeté par le navigateur.
 
-Pour éviter cela, de nombreux clients ont mis en œuvre des enregistrements CNAME pour leurs serveurs de collecte de données dans le cadre d’une [implémentation des cookies propriétaires](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/). Si un enregistrement CNAME est configuré pour associer un nom d’hôte sur le domaine du client au serveur de collecte de données (mappage de `metrics.mysite.com` sur `mysite.omtrdc.net`, par exemple), le cookie Identifiant visiteur est stocké, étant donné que le domaine de collecte de données correspond désormais à celui du site Web. Cela a pour effet d’augmenter la probabilité de stockage du cookie Identifiant visiteur. Cependant, cette méthode s’accompagne d’une surcharge de travail, dans la mesure où vous devez configurer des enregistrements CNAME et gérer des certificats SSL pour les serveurs de collecte de données.
+Pour éviter ce cas de figure, de nombreux clients ont implémenté des enregistrements CNAME pour leurs serveurs de collecte de données dans le cadre d’une [implémentation de cookies propriétaires](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/). Si un enregistrement CNAME est configuré pour associer un nom d’hôte sur le domaine du client au serveur de collecte de données (mappage de `metrics.mysite.com` sur `mysite.omtrdc.net`, par exemple), le cookie Identifiant visiteur est stocké, étant donné que le domaine de collecte de données correspond désormais à celui du site Web. Cela a pour effet d’augmenter la probabilité de stockage du cookie Identifiant visiteur. Cependant, cette méthode s’accompagne d’une surcharge de travail, dans la mesure où vous devez configurer des enregistrements CNAME et gérer des certificats SSL pour les serveurs de collecte de données.
 
 ## Cookies sur les périphériques mobiles {#section_7D05AE259E024F73A95C48BD1E419851}
 
