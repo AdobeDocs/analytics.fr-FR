@@ -1,18 +1,18 @@
 ---
 description: Décrit les étapes d’application de filtres à un rapport Abandon.
 seo-description: Décrit les étapes d’application de filtres à un rapport Abandon.
-seo-title: Filtrage d'un rapport d'abandons à l'aide de l'Assistant Requête
+seo-title: Filtrage d’un rapport sur les abandons à l’aide de l’Assistant Requête
 solution: Analytics
-title: Filtrage d'un rapport d'abandons à l'aide de l'Assistant Requête
+title: Filtrage d’un rapport sur les abandons à l’aide de l’Assistant Requête
 topic: Créateur de rapports
-uuid: 269 e 900 e -23 bd -48 d 8-9 bac -69 e 3167 a 9 c 18
+uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filtrage d'un rapport d'abandons à l'aide de l'Assistant Requête
+# Filtrage d’un rapport sur les abandons à l’aide de l’Assistant Requête
 
 Décrit les étapes d’application de filtres à un rapport Abandon.
 
@@ -24,8 +24,8 @@ Cet exemple affiche le rapport Page - Abandon.
 
    ![](assets/page_fallout.png)
 
-1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
-1. Click **[!UICONTROL Next]**.
+1. Configurez les plages de [dates](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)appropriées.
+1. Cliquez sur **[!UICONTROL Suivant]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (Dans un rapport d’abandon, vous devez toujours définir des éléments de chemin, à la différence d’un rapport de cheminement où un modèle est pré-appliqué.)
 
    ![](assets/define_checkpoints.png)
