@@ -7,7 +7,7 @@ title: Exécution de différents types de rapports
 topic: Rapports,Reports & Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -157,9 +157,7 @@ Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse d
 
 **[!UICONTROL Rapports]** &gt; Mesures **[!UICONTROL du]** site &gt; Détection **[!UICONTROL des anomalies]** .
 
->[!NOTE]
->
->Vous pouvez également exécuter la détection des anomalies dans les projets Analysis Workspace. [Plus...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] Vous pouvez également exécuter la détection des anomalies dans les projets Analysis Workspace. [Plus...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Pour plus d’informations sur la configuration de la détection des anomalies, voir le [Guide de référence](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
@@ -313,7 +311,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Tri par... Le plus populaire/Gagnants/Perdants</strong></td> 
-   <td class="chdesc stentry"> Vous pouvez basculer pour trier par <span class="uicontrol">Le plus populaire</span>(par défaut), <span class="uicontrol">Gagnants</span> (dimensions présentant les plus fortes croissances) et <span class="uicontrol">Perdants</span> (dimensions étant sur une trajectoire descendante). <p>La formule utilisée pour déterminer les gagnants ou les perdants est la suivante : le rapport en temps réel recherche l’échantillon le plus ancien et l’avant-dernier et effectue un simple calcul « modification en % ». Ainsi, si « 15 dernières minutes » est sélectionné et n représente la minute actuelle, n-1 est comparé à n-15. Le rapport en temps réel n’effectue pas, pour le moment, de pondération. La minute en cours est ignorée, car elle n’est pas terminée et produirait sans doute une modification en % erronée. </p> <p>Cette formule est cohérente pour toutes les mesures utilisées dans le rapport en temps réel. </p> </td> 
+   <td class="chdesc stentry"> Vous pouvez basculer pour trier par <span class="uicontrol">Le plus populaire</span>(par défaut), <span class="uicontrol">Gagnants</span> (dimensions présentant les plus fortes croissances) et <span class="uicontrol">Perdants</span> (dimensions étant sur une trajectoire descendante). <p>Voici la formule utilisée pour déterminer les gagnants ou les perdants : L’option Temps réel examine le premier échantillon et le prochain au dernier et effectue un simple calcul de "changement de pourcentage". Ainsi, si "15 dernières minutes" est sélectionné et n représente la minute actuelle, n-1 est comparé à n-15. Le rapport en temps réel n’effectue pas, pour le moment, de pondération. La minute en cours est ignorée, car elle n’est pas terminée et produirait sans doute une modification en % erronée. </p> <p>Cette formule est cohérente pour toutes les mesures utilisées dans le rapport en temps réel. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Mini-rapport secondaire 1</strong></td> 
