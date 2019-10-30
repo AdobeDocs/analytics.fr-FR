@@ -4,7 +4,7 @@ seo-title: Suppression de robots dans Adobe Analytics
 description: 3 méthodes pour supprimer des robots dans Adobe Analytics
 seo-description: 3 méthodes pour supprimer des robots dans Adobe Analytics
 translation-type: tm+mt
-source-git-commit: ef17712b4a8a4a5c13dde9be9fdf2281eeb40091
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ En outre, comme les robots se transforment rapidement, Adobe propose plusieurs a
 
 ### Étape 1 : Transférez l’ID Experience Cloud de vos visiteurs dans un nouvel ID déclaré.
 
-Pour commencer, vous souhaiterez créer un nouvel identifiant déclaré dans le service [principal](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)Personnes. Vous devez transmettre l’ID Experience Cloud de votre visiteur à ce nouvel ID déclaré, qui peut être effectué rapidement et facilement avec le lancement [d’](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)Adobe Experience Platform. Utilisons le nom "ECID" pour l’identifiant déclaré.
+Pour commencer, vous souhaiterez créer un nouvel identifiant déclaré dans le service [principal](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)Personnes. Vous devrez transmettre l’ID Experience Cloud de votre visiteur à ce nouvel ID déclaré, qui peut être effectué rapidement et facilement avec le lancement [d’](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)Adobe Experience Platform. Utilisons le nom "ECID" pour l’identifiant déclaré.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -46,7 +46,7 @@ Une fois cet élément de données configuré, suivez [ces instructions](https:/
 
 ### Étape 2 : Utiliser la segmentation pour identifier les robots
 
-Maintenant que l’ECID de votre visiteur est transmis dans un identifiant déclaré, vous pouvez utiliser [la segmentation dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) pour identifier les visiteurs qui se comportent comme des robots. Les robots sont souvent définis par leur comportement : visites à accès unique, agents utilisateur inhabituels, informations inconnues sur le périphérique ou le navigateur, aucun référent, nouveaux visiteurs, pages d'entrée inhabituelles, etc. Utilisez les fonctions d’exploration et de segmentation de Workspace pour identifier les robots qui ont échappé au filtrage IAB et les règles de robots de votre suite de rapports. Par exemple, voici une capture d’écran d’un segment que vous pouvez utiliser :
+Maintenant que l’ECID de votre visiteur est transmis dans un identifiant déclaré, vous pouvez utiliser la [segmentation dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) pour identifier les visiteurs qui se comportent comme des robots. Les robots sont souvent définis par leur comportement : visites à accès unique, agents utilisateur inhabituels, informations inconnues sur le périphérique ou le navigateur, aucun référent, nouveaux visiteurs, pages d'entrée inhabituelles, etc. Utilisez les fonctions d’exploration et de segmentation de Workspace pour identifier les robots qui ont échappé au filtrage IAB et les règles de robots de votre suite de rapports. Par exemple, voici une capture d’écran d’un segment que vous pouvez utiliser :
 
 ![](assets/bot-filter-seg1.png)
 
@@ -60,7 +60,7 @@ N’oubliez pas d’utiliser l’identifiant visiteur Experience Cloud comme dim
 
 ### Étape 4 : Renvoyer cette liste à Adobe en tant qu’attribut du client
 
-Une fois le rapport Entrepôt de données généré, vous disposez d’une liste d’ECID qui doivent être filtrés à partir des données historiques. Copiez et collez ces fichiers ECID dans un fichier .CSV vide contenant seulement deux colonnes, ECID et Bot Flag.
+Une fois le rapport Entrepôt de données généré, vous disposez d’une liste des ECID qui doivent être filtrés à partir des données historiques. Copiez et collez ces fichiers ECID dans un fichier .CSV vide contenant seulement deux colonnes, ECID et Bot Flag.
 
 * **ECID**: Assurez-vous que cet en-tête de colonne correspond au nom que vous avez donné au nouvel ID déclaré ci-dessus.
 * **Indicateur** de robot : Ajoutez-le en tant que dimension de schéma d’attribut client.
