@@ -3,12 +3,12 @@ description: Après avoir copié les données appropriées dans le fichier de mo
 seo-description: Après avoir copié les données appropriées dans le fichier de modèle de classification, vous pouvez les importer (télécharger) dans des serveurs de collecte de données Adobe.
 seo-title: Importation navigateur et FTP
 solution: Analytics
-subtopic: Gestionnaire
+subtopic: Classifications
 title: Importation navigateur et FTP
 topic: Outils d’administration
-uuid: a 1 d 501 be -6 df 0-4 bc 8-bb 36-838 e 8 d 6744 e 3
+uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Après avoir copié les données appropriées dans le fichier de modèle de classification, vous pouvez les importer (télécharger) dans des serveurs de collecte de données Adobe.
 
->[!NOTE]
->
->Vous n'avez pas besoin de télécharger (à l'aide de la fonction d'exportation) vos données de classification existantes avant de transférer de nouvelles données. Vous devez simplement charger un nouveau fichier contenant les nouvelles lignes de données. Cette méthode améliore les performances.
+> [!NOTE] Vous n’avez pas besoin de télécharger (à l’aide de la fonction d’exportation) vos données de classification existantes avant de télécharger de nouvelles données. Vous devez simplement charger un nouveau fichier contenant les nouvelles lignes de données. Cette méthode améliore les performances.
 
 Voir [Structure générale d’un fichier](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) pour obtenir des informations importantes sur la structure et les limitations des fichiers chargés.
 
