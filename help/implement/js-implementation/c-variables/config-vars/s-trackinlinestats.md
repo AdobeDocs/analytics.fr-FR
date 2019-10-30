@@ -5,7 +5,7 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
 La variable détermine si les données ClickMap sont collectées.
 
-If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null.
+Si la variable *`trackInlineStats`* est définie sur « true », les données relatives à la page et au lien sur lequel l’utilisateur a cliqué sont stockées dans un cookie appelé s_sq. Si elle est définie sur « false », le cookie s_sq reçoit la valeur « [[B]] », qui est considérée comme nulle.
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
@@ -27,7 +27,7 @@ js
 s.trackInlineStats=true|false
 ```
 
-La syntaxe de la variable *`trackInlineStats`* doit être définie sur « true » ou « false ».
+La variable *`trackInlineStats`* doit être définie sur « true » ou « false ».
 
 ## Exemples
 
