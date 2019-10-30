@@ -7,7 +7,7 @@ title: Sources de trafic
 topic: Rapports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 0cb6b29e46518eec9f88718b4990aefa3393490c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -60,7 +60,7 @@ Les rapports dans ce menu sont répartis en trois catégories de base :
   </tr> 
   <tr> 
    <td colname="col1"> Classement de toutes les pages de recherche </td> 
-   <td colname="col2"> <p> Affiche le classement de votre site parmi toutes les listes des recherches d’un visiteur, y compris les données de classement des pages de recherche payante et naturelle. </p> <p>Un utilisateur qui se rend sur votre site par l’intermédiaire d’un moteur de recherche peut, par exemple, vous avoir vu au tiers d’une centaine de pages de résultats. Vous pouvez ainsi jauger rapidement la situation et optimiser les efforts des moteurs de recherche. Les données de ce rapport peuvent être affichées pour toutes les périodes à l’exception de la période <span class="wintitle">Heure</span>. </p> </td> 
+   <td colname="col2"> <p> Affiche le classement de votre site parmi toutes les listes de recherches de vos visiteurs, y compris les données de classement des pages de recherche payée et naturelle. </p> <p>Un utilisateur qui se rend sur votre site par l’intermédiaire d’un moteur de recherche peut, par exemple, vous avoir vu au tiers d’une centaine de pages de résultats. Vous pouvez ainsi jauger rapidement la situation et optimiser les efforts des moteurs de recherche. Les données de ce rapport peuvent être affichées pour toutes les périodes à l’exception de la période <span class="wintitle">Heure</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domaines référents </td> 
@@ -81,7 +81,7 @@ Les rapports dans ce menu sont répartis en trois catégories de base :
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> Les référents de disque dur sont enregistrés lorsque les visiteurs cliquent sur le lien d’un document HTML figurant sur leur disque dur et arrivent ainsi sur votre site. </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> D’autres référents de site web sont enregistrés lorsque les visiteurs cliquent sur un lien figurant sur la page d’un autre site (non défini comme faisant partie de votre site) et arrivent sur votre site. </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> Les référents de moteur de recherche sont enregistrés lorsque les visiteurs utilisent un moteur de recherche pour accéder à votre site. </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Un référent tapé/marqué est comptabilisé quand un visiteur tape directement l’URL de votre site dans son navigateur ou qu’il y accède au moyen de ses signets. </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Les référents tapés/marqués sont enregistrés lorsque les visiteurs tapent directement l’URL de votre site dans leur navigateur ou lorsqu’ils accèdent à votre site en sélectionnant des signets. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
