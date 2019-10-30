@@ -5,9 +5,9 @@ seo-title: Méthodes de recherche
 solution: Analytics
 title: Méthodes de recherche
 topic: Outils d’administration
-uuid: 1053993 e -7 fc 4-4874-84 fa -367 ecdcd 7 b 45
+uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Méthodes de recherche]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites **[!UICONTROL de]** rapports &gt; **[!UICONTROL Modifier les paramètres]** &gt; Conversion &gt; Méthodesde recherche de .********
 
 ## Description des méthodes de recherche {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -55,7 +55,5 @@ La page Méthodes de recherche identifie comment les divers rapports de méthode
  </tbody> 
 </table>
 
->[!NOTE]
->
->Toutes les méthodes de recherche expirent à la fin de la visite. Si vous choisissez l’option d’expiration après un autre événement (le Passage en caisse, par exemple), la Méthode de recherche expire quand le Passage en caisse survient pendant la visite. Si le Passage en caisse ne se produit pas pendant la visite, la Méthode de recherche expire quand même à la fin de la visite.
+> [!NOTE] Toutes les méthodes de recherche expirent à la fin de la visite. Si vous choisissez l’option d’expiration après un autre événement (le Passage en caisse, par exemple), la Méthode de recherche expire quand le Passage en caisse survient pendant la visite. Si le Passage en caisse ne se produit pas pendant la visite, la Méthode de recherche expire quand même à la fin de la visite.
 
