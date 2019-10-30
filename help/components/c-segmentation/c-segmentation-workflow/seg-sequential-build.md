@@ -1,28 +1,28 @@
 ---
-description: Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes, en affichant le filtre « Inclure tout le monde ». Les segments séquentiels peuvent être filtrés davantage pour obtenir un sous-ensemble d’accès correspondants en utilisant les options « Seulement avant la séquence » et « Seulement après la séquence ».
-seo-description: Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes, en affichant le filtre « Inclure tout le monde ». Les segments séquentiels peuvent être filtrés davantage pour obtenir un sous-ensemble d’accès correspondants en utilisant les options « Seulement avant la séquence » et « Seulement après la séquence ».
+description: Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes et affiche le filtre "Inclure tout le monde". Les segments séquentiels peuvent être filtrés en un sous-ensemble d’accès correspondants à l’aide des options "Avant la séquence uniquement" et "Après la séquence uniquement".
+seo-description: Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes et affiche le filtre "Inclure tout le monde". Les segments séquentiels peuvent être filtrés en un sous-ensemble d’accès correspondants à l’aide des options "Avant la séquence uniquement" et "Après la séquence uniquement".
 seo-title: Création des segments séquentiels
 solution: Analytics
 title: Création des segments séquentiels
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Création des segments séquentiels
 
-Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes, en affichant le filtre « Inclure tout le monde ». Les segments séquentiels peuvent être filtrés davantage pour obtenir un sous-ensemble d’accès correspondants en utilisant les options « Seulement avant la séquence » et « Seulement après la séquence ».
+Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes et affiche le filtre "Inclure tout le monde". Les segments séquentiels peuvent être filtrés en un sous-ensemble d’accès correspondants à l’aide des options "Avant la séquence uniquement" et "Après la séquence uniquement".
 
 ![](assets/before-after-sequence.png)
 
-De plus, vous pouvez contraindre des segments séquentiels à une durée spécifique, une granularité donnée et un nombre d’accès entre des points de contrôle en utilisant les [opérateurs Après et Dans](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
+Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
 
 ## Inclure tout le monde {#section_75ADDD5D41F04800A09E592BB2940B35}
 
-Lors de la création d’un segment pour lequel « Inclure tout le monde » est sélectionné, le segment identifie les chemins correspondant au modèle donné dans son ensemble. Voici un exemple de segment de séquence de base recherchant un accès (Page A) suivi d’un autre (Page B) lors d’une visite effectuée par le même visiteur. Le segment est défini sur Inclure tout le monde.
+Lors de la création d’un segment dans lequel l’option "Inclure tout le monde" est définie, le segment identifie les chemins qui correspondent au modèle donné dans son ensemble. Voici un exemple de segment de séquence de base recherchant un accès (Page A) suivi d’un autre (Page B) lors d’une visite effectuée par le même visiteur. Le segment est défini sur Inclure tout le monde.
 
 ![](assets/sequence-filter.png)
 
@@ -35,8 +35,8 @@ Lors de la création d’un segment pour lequel « Inclure tout le monde » es
 
 Les options **[!UICONTROL Seulement avant la séquence]** et **Seulement après la séquence]filtrent le segment en un sous-ensemble de données avant ou après la séquence spécifiée.[!UICONTROL **
 
-* **Seulement avant la séquence :** inclut tous les accès avant une séquence + le premier accès de la séquence elle-même (voir les exemples 1 et 3). Si une séquence apparaît plusieurs fois dans un chemin, « Seulement avant la séquence » inclut le premier accès de la dernière occurrence de la séquence et tous les accès précédents (voir l’exemple 2).
-* **Seulement après la séquence :** inclut tous les accès après une séquence + le dernier accès de la séquence elle-même (voir les exemples 1 et 3). Si une séquence apparaît plusieurs fois dans un chemin, « Seulement après la séquence » inclut le dernier accès de la première occurrence de la séquence et tous les accès suivants (voir l’exemple 2).
+* **Seulement avant la séquence :** inclut tous les accès avant une séquence + le premier accès de la séquence elle-même (voir les exemples 1 et 3). Si une séquence apparaît plusieurs fois dans un chemin, "Seulement avant la séquence" inclut le premier accès de la dernière occurrence de la séquence et tous les accès précédents (voir l’exemple 2).
+* **Seulement après la séquence :** inclut tous les accès après une séquence + le dernier accès de la séquence elle-même (voir les exemples 1 et 3). Si une séquence apparaît plusieurs fois dans un chemin d’accès, "Seulement après" inclut le dernier accès de la première occurrence de la séquence et tous les accès suivants (voir l’exemple 2).
 
 Par exemple, considérons une séquence de B -&gt; D. Les trois filtres identifieraient les accès comme suit :
 
@@ -56,7 +56,7 @@ Par exemple, considérons une séquence de B -&gt; D. Les trois filtres identif
 | Seulement avant la séquence | A | B | C | D | B |  |  |  |
 | Seulement après la séquence |  |  |  | D | B | C | D | E |
 
-Formulons également ce concept avec la dimension de Détail des accès.
+Nous allons aussi définir ce concept avec la dimension Profondeur d’accès.
 
 **Exemple 3 : Détail des accès sur 3 puis sur 5**
 
@@ -64,9 +64,9 @@ Formulons également ce concept avec la dimension de Détail des accès.
 
 ## Contraintes de dimension {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-Dans une clause « dans » entre des instructions ALORS, vous pouvez ajouter par exemple « dans 1 instance de mot-clé de recherche », « dans 1 instance eVar 47 ». Le segment est ainsi limité à une instance d’une dimension.
+Dans une clause "dans", entre les instructions ALORS, vous pouvez ajouter, par exemple, "dans 1 instance de mot-clé de recherche", "dans 1 instance eVar 47". Le segment est ainsi limité à une instance d’une dimension.
 
-Définir une clause « Dans la dimension » entre des règles permet à un segment de limiter les données aux séquences où cette clause est satisfaite. Voir l’exemple ci-dessous où la contrainte est définie sur « Dans 1 Page » :
+La définition d’une clause "Dans la dimension" entre les règles permet à un segment de limiter les données aux séquences pour lesquelles cette clause est satisfaite. Voir l’exemple ci-dessous où la contrainte est définie sur « Dans 1 Page » :
 
 ![](assets/sequence-filter4.png)
 
@@ -247,9 +247,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 Les conteneurs Groupe logique sont nécessaires pour regrouper les conditions dans un point de contrôle de segment séquentiel unique. Le conteneur Groupe logique spécial n’est disponible que dans le cadre de la segmentation séquentielle, afin de garantir que ses conditions sont remplies après tout point de contrôle séquentiel précédent et avant tout point de contrôle séquentiel suivant. Les conditions du point de contrôle du Groupe logique lui-même peuvent être remplies dans n’importe quel ordre. En revanche, les conteneurs non séquentiels (accès, visite, visiteur) ne nécessitent pas que leurs conditions soient remplies dans la séquence globale, produisant des résultats non intuitifs s’ils sont utilisés avec un opérateur ALORS.
 Le conteneur Groupe  logique a été conçu pour traiter *plusieurs points de contrôle comme un groupe*, *sans aucun ordre* parmi les points de contrôle regroupés. En d'autres termes, nous ne nous soucions pas de l'ordre des points de contrôle dans ce groupe. Par exemple, vous ne pouvez pas imbriquer un conteneur [!UICONTROL Visiteur] dans un conteneur du même type. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
->[!NOTE]
->
->Un groupe  logique ne peut être défini que dans un segment séquentiel, ce qui signifie que l’opérateur [!UICONTROL ALORS] est utilisé dans l’expression.
+> [!NOTE] Un groupe  logique ne peut être défini que dans un segment séquentiel, ce qui signifie que l’opérateur [!UICONTROL ALORS] est utilisé dans l’expression.
 
 | Hiérarchie des conteneurs | Illustration | Définition |
 |---|---|---|
@@ -399,7 +397,7 @@ Lorsque « Après 2 semaines » est spécifié, si un accès à la page A a 
 
 >[!IMPORTANT]
 >
->Dans une clause « dans » entre des instructions ALORS, vous pouvez ajouter par exemple « dans 1 instance de mot-clé de recherche », « dans 1 instance eVar 47 ». Le segment est ainsi limité à une instance d’une dimension.
+>Dans une clause "dans", entre les instructions ALORS, vous pouvez ajouter, par exemple, "dans 1 instance de mot-clé de recherche", "dans 1 instance eVar 47". Le segment est ainsi limité à une instance d’une dimension.
 
 **Exemple**: Les visiteurs qui ont consulté la page A ont ensuite consulté la page B en 5 minutes.
 
