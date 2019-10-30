@@ -1,6 +1,6 @@
 ---
 description: Découvrez de quelle façon les visites sur votre site web deviennent un rapport dans Adobe Analytics.
-keywords: Implémentation d’Analytics;collecte de données
+keywords: Mise en œuvre d’Analytics;collecter;collecte de données
 seo-description: Découvrez de quelle façon les visites sur votre site web deviennent un rapport dans Adobe Analytics.
 seo-title: Collecte de données
 solution: Analytics
@@ -8,7 +8,7 @@ title: Collecte de données
 topic: Développeur et mise en œuvre
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ Découvrez de quelle façon les visites sur votre site web deviennent un rapport
 
 La collecte des données Analytics est effectuée par une demande d’image spécifique aux serveurs de collecte de données Adobe. Dans la plupart des implémentations, du code JavaScript est placé sur les pages web qui font l’objet d’un suivi. Lorsqu’une page web avec des balises est chargée dans le navigateur d’un visiteur, celui-ci exécute le code JavaScript, ce qui permet de capturer les informations sur le visiteur et de remplir correctement les balises. La dernière étape du traitement JavaScript consiste à effectuer une demande d’image à un serveur de collecte de données Analytics qui collecte les données envoyées et renvoie une petite image transparente au navigateur du visiteur.
 
-Lors du traitement du navigateur, le délai du téléchargement des éléments de page (images, etc.) à partir des serveurs web constitue un goulot d’étranglement. Le délai d’exécution du code JavaScript par le navigateur est donc négligeable. Toutefois, la dernière étape au cours de laquelle le navigateur du visiteur demande une image au serveur de collecte de données Adobe n’augmente pas le délai total du téléchargement des pages. L’impact global sur le délai du téléchargement des pages dépend de la proximité du visiteur du sites web (en tronçons et non en kilomètres) aux serveurs de collecte de données Adobe. 
+Lors du traitement du navigateur, le délai du téléchargement des éléments de page (images, etc.) à partir des serveurs web constitue un goulot d’étranglement. Le délai d’exécution du code JavaScript par le navigateur est donc négligeable. Toutefois, la dernière étape au cours de laquelle le navigateur du visiteur demande une image au serveur de collecte de données Adobe n’augmente pas le délai total du téléchargement des pages. L’impact global sur le délai du téléchargement des pages dépend de la proximité du visiteur du sites web (en tronçons et non en kilomètres) aux serveurs de collecte de données Adobe.
 
 Adobe a élaboré plusieurs méthodes d’envoi de données dans Analytics. Ces méthodes incluent des informations de suivi en temps réel provenant des sources suivantes :
 
@@ -61,7 +61,7 @@ Adobe a élaboré plusieurs méthodes d’envoi de données dans Analytics. Ces 
 
    >[!NOTE]
    >
-   >Chaque demande d’image contient une chaîne numérique aléatoire afin d’empêcher la mise en cache du navigateur et de s’assurer que les demandes d’image suivantes sont effectuées par le navigateur.
+   >Chaque demande d’image contient une chaîne numérique aléatoire afin d’éviter la mise en mémoire cache du navigateur et de garantir que les demandes d’image postérieures sont créées par le navigateur.
 
 1. Adobe renvoie une image pixel transparente.
 
@@ -69,7 +69,7 @@ Adobe a élaboré plusieurs méthodes d’envoi de données dans Analytics. Ces 
 
    Le code collecte automatiquement les détails supplémentaires (système d’exploitation, type de navigateur, hauteur et largeur du navigateur, adresse IP et langue du navigateur).
 
-1. Adobe servers store web analysis data in  (your data repository).*`report suites`*
+1. Les serveurs Adobe stockent les données d’analyse web dans *`report suites`* (votre référentiel de données).
 
    ![](assets/how-data-is-collected-5.png)
 
@@ -83,7 +83,7 @@ Adobe a élaboré plusieurs méthodes d’envoi de données dans Analytics. Ces 
 
    ![](assets/two-months-summary-project.png)
 
-   L’exécution du code JavaScript survient rapidement et n’affecte pas le temps de chargement de la page de manière notable. Grâce à cette méthode, vous pouvez comptabiliser les pages affichées quand un visiteur a cliqué sur **[!UICONTROL Recharger]** ou **Précédent]pour atteindre une page, puisque le code JavaScript s’exécute même quand la page est récupérée dans la mémoire cache.[!UICONTROL **
+   L’exécution du code JavaScript survient rapidement et n’affecte pas le temps de chargement de la page de manière notable. Grâce à cette méthode, vous pouvez comptabiliser les pages affichées quand un visiteur a cliqué sur **[!UICONTROL Recharger]** ou **[!UICONTROL Précédent]** pour atteindre une page, puisque le code JavaScript s’exécute même quand la page est récupérée dans la mémoire cache.
 
 Pour plus d’informations, voir :
 
