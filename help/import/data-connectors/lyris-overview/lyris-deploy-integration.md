@@ -6,7 +6,7 @@ solution: Analytics
 title: Déploiement de l’intégration
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -67,7 +67,7 @@ Cette section décrit les étapes à configurer dans Lyris après la fin de l’
 
    >[!NOTE]
    >
-   >Si vous appliquez l’outil d’analyse natif de Lyris, *cliquez sur Suivi* pour marquer toutes les variables requises qui sont ajoutées.
+   >Si vous appliquez l’outil d’analyse natif de Lyris, *cliquez sur Suivi* balise toutes les variables requises qui sont ajoutées.
 
 ## Vérification de l’intégration{#verifying-the-integration}
 
@@ -75,9 +75,7 @@ Cette section décrit la procédure à suivre pour vérifier que l’intégratio
 
 Une fois toutes les étapes du déploiement terminées, vous pouvez vérifier que l’intégration réussit à transférer des données.
 
->[!NOTE]
->
->Il faut quelques jours pour que l'échange de données commence. Assurez-vous de contacter Lyris après avoir activé l’intégration.
+> [!NOTE] Il faut quelques jours pour que l'échange de données commence. Assurez-vous de contacter Lyris après avoir activé l’intégration.
 
 1. Accédez à votre intégration Lyris dans Connecteurs de données. Sous l’onglet **[!UICONTROL Prise en charge]** &gt; Journal **[!UICONTROL d’activité]** d’intégration, vous devriez voir des événements tels que les données de **[!UICONTROL mesure importées avec succès]** et/ou les données de **[!UICONTROL classification importées avec succès :]**
 
@@ -91,9 +89,7 @@ Une fois toutes les étapes du déploiement terminées, vous pouvez vérifier qu
 
 Affiche le code du module externe Lyris à utiliser avec Adobe Analytics.
 
->[!NOTE]
->
->Veillez à réserver les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant de travailler avec le code ci-dessous. Une fois que vous avez identifié les eVars réservées, remplacez eVarN par l’eVar appropriée. eVar10, par exemple.
+> [!NOTE] Veillez à réserver les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant de travailler avec le code ci-dessous. Une fois que vous avez identifié les eVars réservées, remplacez eVarN par l’eVar appropriée. eVar10, par exemple.
 
 ```
 /* 
