@@ -7,8 +7,8 @@ solution: Analytics
 title: Instructions relatives à la mise en œuvre
 topic: Développeur et mise en œuvre
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ Si vous suivez ces instructions, les mêmes domaines de cookie sont utilisés, c
 
 * **RSID** : [!UICONTROL identifiant de la suite de rapports]
 * **VNS** : espace de noms du visiteur, sous-domaine de [!DNL 2o7.net] ou [!DNL omtrdc.net] utilisé pour stocker le cookie [!UICONTROL identifiant visiteur]
-* **COOKIEDOMAIN :** votre VNS + trackingServer. Ces domaines peuvent varier sensiblement en fonction de la configuration RDC et du centre de données. [Contactez l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html#analytics) si vous n’êtes pas sûr de votre domaine de collecte de données.
+* **COOKIEDOMAIN :** votre VNS + trackingServer. Ces domaines peuvent varier sensiblement en fonction de la configuration RDC et du centre de données. [Contactez le service à la clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) si vous n’êtes pas sûr de votre domaine de collecte de données.
 
 ## Javascript
 
