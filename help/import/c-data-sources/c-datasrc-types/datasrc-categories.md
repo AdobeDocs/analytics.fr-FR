@@ -1,23 +1,23 @@
 ---
 description: Les catégories de sources de données identifient différents types de sources de données ayant une fonctionnalité similaire.
 seo-description: Les catégories de sources de données identifient différents types de sources de données ayant une fonctionnalité similaire.
-seo-title: Présentation des types et catégories de données
+seo-title: Types et catégories de données - Aperçu
 solution: Analytics
 subtopic: Sources de données
-title: Présentation des types et catégories de données
+title: Types et catégories de données - Aperçu
 topic: Développeur et mise en œuvre
-uuid: b 5004 cdc-b 68 a -4 a 82-a 159-a 7 cd 7 b 8 bfe 21
+uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation des types et catégories de données
+# Types et catégories de données - Aperçu
 
 Les catégories de sources de données identifient différents types de sources de données ayant une fonctionnalité similaire.
 
-Les catégories permettent de grouper les sources de données du point de vue de l’utilisateur. Lors de la création d’une source de données au moyen de l’interface Sources de données, vous sélectionnez tout d’abord une catégorie de source de données, puis un type spécifique de source de données. Chaque catégorie contient des types de sources de données compatibles avec des types de données similaires. Les catégories de sources de données suivantes sont disponibles :
+Les catégories permettent de regrouper les sources de données du point de vue de l’utilisateur. Lors de la création d’une source de données au moyen de l’interface Sources de données, vous sélectionnez tout d’abord une catégorie de source de données, puis un type spécifique de source de données. Chaque catégorie contient des types de sources de données compatibles avec des types de données similaires. Les catégories de sources de données suivantes sont disponibles :
 
 ## Utilisation du site Web {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -36,9 +36,9 @@ Les catégories permettent de grouper les sources de données du point de vue de
    <td colname="col3"> <p>La plupart des serveurs Web génèrent des fichiers journaux qui enregistrent chaque page présentée. A l’aide de cette source de données, vous pouvez traiter les fichiers journaux à partir des données de la plupart des serveurs Web et les ajouter à vos rapports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Envoi en masse de la publicité Cloud </p> </td> 
+   <td colname="col1"> <p>Téléchargement en masse de Advertising Cloud </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversion </a> </p> </td> 
-   <td colname="col3"> <p>Fournit des transferts en vrac automatisés manuellement et Excel dans le cloud de publication. </p> </td> 
+   <td colname="col3"> <p>Fournit des transferts en vrac automatisés par Excel et manuels dans Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Source de données de trafic au niveau du site </p> </td> 
@@ -167,7 +167,7 @@ Les catégories permettent de grouper les sources de données du point de vue de
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Source de données générique (ID de transaction) </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> ID de transaction </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> Visitor ID </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> ID de transaction </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> Identifiant visiteur </a> </p> </td> 
    <td colname="col3"> <p>Vous permet de lier n’importe quel événement hors ligne à un événement en ligne. L’ID de transaction agit comme une clé entre les événements hors ligne et en ligne. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,7 +214,7 @@ Les catégories permettent de grouper les sources de données du point de vue de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Génération de piste </p> </td> 
+   <td colname="col1"> <p>Génération de pistes </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversion </a> </p> </td> 
    <td colname="col3"> <p>Vous permet de transférer des informations sur les résultats des prospects pour chaque prospect généré sur votre site Web, y compris les recettes réelles générées. </p> <p>Une fois les recettes attribuées précisément aux ID de prospect, vous pouvez identifier vos campagnes et promotions les plus rentables. </p> </td> 
   </tr> 
