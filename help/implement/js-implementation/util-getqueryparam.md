@@ -8,8 +8,8 @@ subtopic: AppMeasurement pour JavaScript
 title: Util.getQueryParam
 topic: Développeur et mise en œuvre
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,11 +28,9 @@ Cet utilitaire remplace le module externe [getQueryParam](../../implement/js-imp
 s.Util.getQueryParam(key, [url], [delim])
 ```
 
->[!NOTE]
->
->La syntaxe de l’utilitaire est différente de celle du module externe.
+> [!NOTE] La syntaxe de l’utilitaire est différente de celle du module externe.
 
-**Paramètres :**
+**Paramètres:**
 
 | Paramètre | Description |
 |---|---|
@@ -40,7 +38,7 @@ s.Util.getQueryParam(key, [url], [delim])
 | url | (Facultatif) L’URL par défaut est `s.pageURL` ou `window.location`. La spécification d’une valeur pour ce paramètre remplace l’URL à partir de laquelle le paramètre de requête est récupéré par celle spécifiée. |
 | delim | (Facultatif) Délimiteur de paramètre de l’URL Le délimiteur par défaut est « &amp; ». Cela vous permet de spécifier un autre délimiteur de chaîne de requête tel que « ; ». |
 
-**Retours :**
+**Retours:**
 
 La fonction renvoie une chaîne vide "" si aucune clé n’est fournie, si aucune des options d’URL n’existe ou si la clé est introuvable dans l’URL. Si un délimiteur de fragment # est trouvé dans l’URL, tout ce qui le suit n’est pas pris en compte. Si la clé existe et est affectée à une valeur, elle est décodée et renvoyée par l’URL.
 
