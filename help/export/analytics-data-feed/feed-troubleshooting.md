@@ -1,13 +1,13 @@
 ---
 description: Cette section comprend des informations sur les problèmes courants.
-keywords: Flux de données ; dépannage
+keywords: Flux de données;dépannage
 seo-description: Cette section comprend des informations sur les problèmes courants.
 seo-title: Résolution des problèmes liés aux flux de données
 solution: Analytics
 title: Résolution des problèmes liés aux flux de données
-uuid: 4 be 981 ab -3 a 61-4099-9 b 0 d -785 d 2 ac 2492 a
+uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -44,15 +44,15 @@ En cas d’erreur de transfert, vous pouvez [réexécuter une tâche](../../expo
 
 ## Options de renvoi {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Once you have verified/corrected the delivery issue, just use [rerun the job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) to get the files.
+Une fois que vous avez vérifié/corrigé le problème de remise, il vous suffit de [réexécuter la tâche](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) pour obtenir les fichiers.
 
 ## Le passage à l’heure d’été (DST) a une incidence sur les flux de données horaires {#section_70E867D942054DD09048E027A9474FFD}
 
 Dans certains fuseaux horaires, l’heure change deux fois par an. Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été (DST), la remise se poursuivra normalement. Si, en revanche, le passage à l’heure d’été est appliqué, la remise des fichiers sera modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 02h00).
 
-Lors d’un changement d’heure STD &gt; DST (« Bond en avant »), le client ne reçoit que 23 fichiers. L’heure qui est « sautée » au cours du changement d’heure est simplement ignorée. Par exemple, si le changement d’heure est effectué à 02h00, le client recevra un fichier pour 01h00 et un autre pour 03h00. Il n’y aura pas de fichier pour 02h00, étant donné qu’à 02h00 STD, il sera 03h00 DST.
+Lors des transitions STD -&gt; DST ("Spring Forward"), le client n’obtient que 23 fichiers. L’heure qui est « sautée » au cours du changement d’heure est simplement ignorée. Si, par exemple, la transition a lieu à 2 heures du matin, un fichier sera généré pour 1 heure et un fichier pour 3 heures. Il n’y aura pas de fichier pour 02h00, étant donné qu’à 02h00 STD, il sera 03h00 DST.
 
-Lors d’une transition DST &gt; STD, (« Retour en arrière »), le client recevra 24 fichiers. Cependant, l’heure de transition contiendra l’équivalent de 2 heures de données. Par exemple, si le changement d’heure a lieu à 02h00, le fichier correspondant à 01h00 sera retardé d’une heure, mais il contiendra l’équivalent de deux heures de données ; entre 01h00 DST et 02h00 STD, qui aurait normalement été 03h00 DST. Le fichier suivant commencera à 02h00 STD.
+Lors des transitions DST -&gt; STD, ("Retour en arrière"), le client recevra 24 fichiers. Cependant, l'heure de transition comprendra en fait deux heures de données. Par exemple, si le changement d’heure a lieu à 02h00, le fichier correspondant à 01h00 sera retardé d’une heure, mais il contiendra l’équivalent de deux heures de données ; entre 01h00 DST et 02h00 STD, qui aurait normalement été 03h00 DST. Le fichier suivant commencera à 02h00 STD.
 
 ## Aucune donnée pour une tranche horaire {#section_72510794694D42A9A75C966B812AEB0F}
 
