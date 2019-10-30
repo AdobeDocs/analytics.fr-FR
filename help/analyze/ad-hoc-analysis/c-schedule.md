@@ -7,7 +7,7 @@ title: Gestionnaire de planification
 topic: Ad Hoc Analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Vous pouvez personnaliser la planification de la distribution des rapports. Il e
 
 Vous pouvez personnaliser la planification de la distribution des rapports. Il est possible d’interrompre la distribution après un certain temps ou de spécifier le nombre d’envois d’un rapport. Les nouveaux programmes utilisent la période définie dans le rapport. Par exemple, si vous créez un rapport pour les 90 derniers jours et planifiez une exécution quotidienne, vous recevrez, chaque jour, un rapport portant sur les 90 derniers jours. Si vous créez un rapport avec une période statique à partir du calendrier, le même rapport sera affiché lors de chaque envoi.
 
->[!NOTE]
->
->Lorsqu’un compte utilisateur est désactivé, toutes les livraisons de rapports planifiées créées par cet utilisateur sont suspendues.
+> [!NOTE] Lorsqu’un compte utilisateur est désactivé, toutes les livraisons de rapports planifiées créées par cet utilisateur sont suspendues.
 
 Pour vous assurer que les éléments de ligne d’une ventilation sont persistants dans les rapports enregistrés et planifiés, utilisez la fonction **[!UICONTROL Modifier les éléments]** du Générateur [de](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) tableau pour créer des listes de dimensions fixes dans les ventilations.
 
