@@ -4,10 +4,10 @@ seo-description: Affiche les vues chemin, ou le pourcentage et le nombre de fois
 seo-title: Flux page suivante
 solution: Analytics
 title: Flux page suivante
-topic: Présentation
-uuid: d 3 d 2 a 461-63 ee -4 bf 7-9 e 68-1 ce 1 c 345330 f
+topic: Rapports
+uuid: d3d2a461-63ee-4bf7-9e68-1ce1c34530f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
