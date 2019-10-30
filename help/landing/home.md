@@ -3,8 +3,8 @@ title: Documentation technique d’Adobe Analytics
 seo-title: Liste complète de la documentation technique et des guides de l’utilisateur d’auto-assistance relatifs à Adobe Analytics.
 description: Ressources et guides de l’utilisateur d’Analytics
 seo-description: Liste complète des documents techniques, des notes de mise à jour et des guides de l’utilisateur d’auto-assistance relatifs à Adobe Analytics.
-translation-type: ht
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,15 +25,15 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 [![Intégration](assets/integrate_50px.png)](/help/integrate/home.md) [Guide d’intégration](/help/integrate/home.md) – Configuration des intégrations avec d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud ou Target.
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html) [Guide Media Analytics](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html) – Mise en œuvre d’Analytics sur des sources audio ou vidéo. Inclut le SDK Media et l’API Media Collection.
+[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)Guide[d’analyse des](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) médias - Mise en oeuvre d’Analytics sur des sources audio ou vidéo. Inclut le SDK Media et l’API Media Collection.
 
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/) [Guides Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/) – Client Data Workbench, installation, configuration des jeux de données, etc.
+[![Guides](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)des outils de[données DWB](https://marketing.adobe.com/resources/help/en_US/insight/) - Client des outils de données, installation, configuration des jeux de données, etc.
 
 [![Notes techniques](assets/technotes_50px.png)](../technotes/home.md) [Notes techniques Analytics](../technotes/home.md) – Base de connaissances contenant des articles utiles qui ne concernent pas un outil ou composant Analytics particulier.
 
 | Nouveautés et points forts | Principales ressources Analytics |
 | --- | --- |
-| <ul><li>[Collecte de données régionale](../technotes/rdc/regional-data-collection.md)</li><li>[Optimisation des performances de Workspace](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Comparaison des produits Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Voir aussi : [Mises à jour de la documentation 2019](doc-updates.md) | <ul><li> [Notes de mise à jour](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/)</li><li> [Chaîne YouTube Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Tutoriels et vidéos Analytics](https://helpx.adobe.com/fr/analytics/kt/index/analytics-videos.html)</li><li>[Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Formation en personne et classes virtuelles](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://experienceleague.adobe.com/?lang=fr#recommended/solutions/analytics)</li><li>[Contacter l’assistance clientèle](https://helpx.adobe.com/fr/support/analytics.html)</li></ul> |
+| <ul><li>[Collecte de données régionale](../technotes/rdc/regional-data-collection.md)</li><li>[Optimisation des performances de Workspace](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Comparaison des produits Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Voir aussi : [Mises à jour de la documentation 2019](doc-updates.md) | <ul><li> [Notes de mise à jour](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Canal YouTube d’Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Didacticiels et vidéos Analytics](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Formation en personne et cours virtuels](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contacter l’assistance clientèle](https://helpx.adobe.com/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
@@ -89,5 +89,5 @@ Get [phone numbers for other regions](https://helpx.adobe.com/contact/dma-extern
 1.  Include [case details](https://helpx.adobe.com/experience-cloud/enterprise-email-support-guidelines.html) to open a ticket via email. 
 1.  Send your case to [customercare@adobe.com](mailto:customercare@adobe.com).
 
-Not sure if you’re a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).  
+Not sure if you're a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).  
  -->
