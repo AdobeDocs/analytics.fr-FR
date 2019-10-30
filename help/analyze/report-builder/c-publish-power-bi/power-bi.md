@@ -5,7 +5,7 @@ seo-title: Publication sur Power BI - Aperçu
 title: Publication sur Power BI - Aperçu
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Les classeurs planifiés sont des feuilles de calcul Excel renseignées avec des
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->Si le classeur contient une macro, le paramètre "Publier toutes les tables formatées dans le classeur en tant que tables de jeux de données Power BI" est désactivé.
+> [!NOTE] Si le classeur contient une macro, le paramètre "Publier toutes les tables formatées dans le classeur en tant que tables de jeux de données Power BI" est désactivé.
 
 Au lieu d’importer l’ensemble du classeur, vous pouvez n’importer que le contenu de l’ensemble des tableaux formatés de ce classeur.
 
