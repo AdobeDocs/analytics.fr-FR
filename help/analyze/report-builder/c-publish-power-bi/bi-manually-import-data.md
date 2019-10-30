@@ -3,9 +3,9 @@ description: Si vous souhaitez importer des données d’analyse manuellement à
 seo-description: Si vous souhaitez importer des données d’analyse manuellement à travers Power BI, suivez ces instructions.
 seo-title: Importation manuelle de données dans Power BI
 title: Importation manuelle de données dans Power BI
-uuid: c 84 f 7 a 90-7 b 40-4065-9 fe 7-5 eb 19 e 5 e 2473
+uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
