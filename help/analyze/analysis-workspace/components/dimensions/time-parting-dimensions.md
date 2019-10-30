@@ -1,16 +1,16 @@
 ---
 description: La répartition du temps utilise l’horodatage des accès collectés et les ventile en dimensions plus significatives telles que « Heure du jour » ou « Jour de la semaine ».
 seo-description: La répartition du temps utilise l’horodatage des accès collectés et les ventile en dimensions plus significatives telles que « Heure du jour » ou « Jour de la semaine ».
-seo-title: Dimensions de répartition temporelle
-title: Dimensions de répartition temporelle
-uuid: c 9 fa 7921-aa 57-483 c-b 2 f 9-da 55013 ada 17
+seo-title: Dimensions de répartition du temps
+title: Dimensions de répartition du temps
+uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Dimensions de répartition temporelle
+# Dimensions de répartition du temps
 
 La répartition du temps utilise l’horodatage des accès collectés et les ventile en dimensions plus significatives telles que « Heure du jour » ou « Jour de la semaine ».
 
@@ -21,9 +21,7 @@ Les dimensions de répartition du temps sont basées sur le fuseau horaire de la
 * Les ventes enregistrées sur mon site sont-elles plus élevées la semaine ou le week-end ?
 * Une campagne marketing donnée génère-t-elle davantage de conversions le matin ou l’après-midi ?
 
->[!NOTE]
->
->Les dimensions de répartition temporelle ne sont disponibles que dans Analysis Workspace. Pour utiliser les dimensions de répartition du temps dans d’autres solutions d’Analytics, vous pouvez installer le [module externe getTimeParting](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html).
+> [!NOTE] Les dimensions de division du temps ne sont disponibles que dans Analysis Workspace. Pour utiliser les dimensions de répartition du temps dans d’autres solutions d’Analytics, vous pouvez installer le [module externe getTimeParting](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html).
 
 Les dimensions de répartition du temps dans Analysis Workspace incluent :
 
