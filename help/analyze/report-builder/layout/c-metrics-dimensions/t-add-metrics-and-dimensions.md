@@ -5,9 +5,9 @@ seo-title: Ajout de mesures et de dimensions
 solution: Analytics
 title: Ajout de mesures et de dimensions
 topic: Créateur de rapports
-uuid: 588 ce 96 b -3 a 2 d -42 b 7-8 a 8 e -7 e 6 f 448 a 0115
+uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 2a37aa64634db50320d149298b467bcc7f954eb6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ Procédure d’ajout de mesures et de dimensions à une requête.
 1. [Créez la requête de données](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) dans le formulaire [!UICONTROL Assistant Requête : Étape 1], puis cliquez sur **[!UICONTROL Suivant]**.
 1. Dans le formulaire [!UICONTROL Assistant Requête : Étape 2], double-cliquez sur les mesures ou faites-les glisser vers l’emplacement de votre choix.
 
-   ![Informations sur les étapes](assets/adding_metrics.png)
+   ![Infos étape](assets/adding_metrics.png)
 
    Les mesures que vous ajoutez ne sont pas supprimées de l’onglet [!UICONTROL Valeurs de mesure], car vous pouvez les afficher plusieurs fois dans une requête. Vous pouvez, par exemple, afficher le sous-total de la mesure en plus de chaque valeur. Cependant, la liste des mesures disponibles est modifiée chaque fois que vous ajoutez ou supprimez une dimension.
 
@@ -55,16 +55,16 @@ Procédure d’ajout de mesures et de dimensions à une requête.
 
 Dans l’onglet [!UICONTROL Dimensions], le système affiche les dimensions qui ventilent tout rapport de base sélectionné à l’étape 1, ou qui en sont une classification, et sur la configuration de la suite de rapports. Lorsque vous déposez une dimension sur les grilles de disposition, elle est supprimée de l’arborescence et elle recalcule la liste des dimensions restantes disponibles.
 
-La dimension [!UICONTROL Date] est ajoutée automatiquement. Les dimensions de date disponibles varient en fonction de la granularité sélectionnée dans le formulaire [!UICONTROL Assistant Requête : Étape 1]. (Les valeurs valides sont les suivantes :
+La dimension [!UICONTROL Date] est ajoutée automatiquement. Les dimensions de date disponibles varient en fonction de la granularité sélectionnée dans le formulaire [!UICONTROL Assistant Requête : Étape 1]. (Les valeurs valides sont :
 
     * Heure
     * Jour
     * Semaine
     * Mois
     * Année
-    * Année * Plage de dates (lorsqu'aucune granularité n'est spécifiée)
+    * Période (lorsqu’aucune granularité n’est spécifiée)
 
-1. Modify metrics and dimensions by configuring [format options](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) and filters.
+1. Modifiez les mesures et les dimensions en configurant les options [de](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) format et les filtres.
 1. Cliquez sur **[!UICONTROL Terminer]**.
 Dans l’exemple suivant, des dimensions sont en relation avec la mesure [!UICONTROL Page]. Dans le cas présent, la dimension [!UICONTROL Domaine référent] crée un rapport de ventilation entre celui-ci et [!UICONTROL Page]. L’onglet [!UICONTROL Dimension] est mis à jour avec les seules dimensions que vous pouvez ajouter à un rapport de ventilation.
 
