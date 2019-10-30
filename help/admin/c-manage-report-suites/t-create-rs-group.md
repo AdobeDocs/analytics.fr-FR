@@ -1,18 +1,18 @@
 ---
 description: Description de la procédure de création d’un groupe de suites de rapports.
 seo-description: Description de la procédure de création d’un groupe de suites de rapports.
-seo-title: Créer un groupe de suites de rapports
+seo-title: Création d’un groupe de suites de rapports
 solution: Analytics
-title: Créer un groupe de suites de rapports
+title: Création d’un groupe de suites de rapports
 topic: Outils d’administration
-uuid: 4 a 5 c 9 a 8 e -518 e -43 a 0-8 ed 6-6275825259 f 3
+uuid: 4a5c9a8e-518e-43a0-8ed6-6275825009f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Créer un groupe de suites de rapports
+# Création d’un groupe de suites de rapports
 
 Description de la procédure de création d’un groupe de suites de rapports.
 
