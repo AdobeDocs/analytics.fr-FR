@@ -1,18 +1,18 @@
 ---
 description: Définit des paramètres courants pour un portail d’emploi ou un site web de recherche d’emploi.
 seo-description: Définit des paramètres courants pour un portail d’emploi ou un site web de recherche d’emploi.
-seo-title: Portail de tâches
+seo-title: Portail d’emploi
 solution: Analytics
-title: Portail de tâches
+title: Portail d’emploi
 topic: Outils d’administration
-uuid: c 33 a 8 e 30-eea 6-45 f 5-9568-d 64 c 6753855 e
+uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Portail de tâches
+# Portail d’emploi
 
 Définit des paramètres courants pour un portail d’emploi ou un site web de recherche d’emploi.
 
@@ -39,7 +39,7 @@ Le tableau suivant contient une liste d’événements commerciaux standard. La 
 | Paniers | Compteur | `scOpen` |
 | Consultations du panier | Compteur | `scView` |
 | Instances | Compteur | N/D |
-| Passage en caisse | Compteur | `scCheckout` |
+| Achats | Compteur | `scCheckout` |
 | Ajouts au panier | Compteur | `scAdd` |
 | Retraits du panier | Compteur | `scRemove` |
 | Visites | Compteur (sans sous-relations) | N/D |
