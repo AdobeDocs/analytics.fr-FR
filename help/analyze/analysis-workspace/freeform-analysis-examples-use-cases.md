@@ -2,18 +2,18 @@
 description: Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
 keywords: Analysis Workspace
 seo-description: Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
-seo-title: Cas d'utilisation d'Analysis Workspace
+seo-title: Cas d’utilisation d’Analysis Workspace
 solution: Analytics
-title: Cas d'utilisation d'Analysis Workspace
-topic: Reports and Analytics
-uuid: 09 e 20 b 76-8 c 31-4 d 20-920 b-bebc 877 b 3 b 70
+title: Analysis Workspace cas d’utilisation
+topic: Reports & Analytics
+uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Cas d'utilisation d'Analysis Workspace
+# Cas d’utilisation d’Analysis Workspace
 
 Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
 
