@@ -4,10 +4,10 @@ seo-description: Affichent des informations sur l’ordre de consultation des pa
 seo-title: Chemins
 solution: Analytics
 title: Chemins
-topic: Présentation
-uuid: 1 f 6 df 932-76 cd -490 d-b 883-d 59277405178
+topic: Rapports
+uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
