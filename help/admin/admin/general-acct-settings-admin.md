@@ -7,7 +7,7 @@ title: Paramètres du compte général
 topic: Outils d’administration
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ Ces paramètres contiennent des options d’édition pour les fonctionnalités d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Obscurcissement d’IP</span> </td> 
-   <td colname="col2"> <p>Transforme les adresses IP en chaînes impossibles à reconnaître, en les supprimant essentiellement des entrepôts de données d’Adobe. Lorsque l’option Obscurcissement d’IP est activée, les adresses IP d’origine sont définitivement perdues. </p> <p>Remarque : Les adresses IP sont obscurcies partout dans Analytics, y compris dans Data Warehouse. Toutefois, le paramètre IP dans Target est contrôlé individuellement, de sorte que ce paramètre n’a aucune incidence sur Target. </p> <p>Si l’obscurcissement d’IP est activé, l’exclusion de l’adresse IP survient avant l’obscurcissement ; ainsi, les clients n’ont rien à changer lorsqu’ils activent cette option. </p> <p>Si <span class="uicontrol">Désactivé</span> est coché, l’adresse IP est conservée dans les données. </p> <p>Cochez l’option <span class="uicontrol">Obscurcir les adresses IP</span> pour remplacer l’adresse IP par une valeur de hachage (par ex., 234abc6493872038). </p> <p>Cochez l’option <span class="uicontrol">Supprimer les adresses IP</span> pour remplacer l’adresse IP par x.x.x.x dans les données, après la recherche géographique. </p> <p>Remarque : Ce paramètre peut nécessiter des modifications des règles <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> de robots personnalisées ou des</a> exclusions<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"></a>d’IP. </p> </td> 
+   <td colname="col2"> <p>Transforme les adresses IP en chaînes impossibles à reconnaître, en les supprimant essentiellement des entrepôts de données d’Adobe. Lorsque l’option Obscurcissement d’IP est activée, les adresses IP d’origine sont définitivement perdues. </p> <p>Remarque : Les adresses IP sont obscurcies partout dans Analytics, y compris dans Data Warehouse. Toutefois, le paramètre IP dans Target est contrôlé individuellement, de sorte que ce paramètre n’a aucune incidence sur Target. </p> <p>Si l’obscurcissement d’IP est activé, l’exclusion d’IP survient avant que l’adresse IP ne soit obscurcie. Les clients n’ont donc rien à changer lorsqu’ils activent l’obscurcissement d’IP. </p> <p>Si <span class="uicontrol">Désactivé</span> est coché, l’adresse IP est conservée dans les données. </p> <p>Cochez l’option <span class="uicontrol">Obscurcir les adresses IP</span> pour remplacer l’adresse IP par une valeur de hachage (par ex., 234abc6493872038). </p> <p>Cochez l’option <span class="uicontrol">Supprimer les adresses IP</span> pour remplacer l’adresse IP par x.x.x.x dans les données, après la recherche géographique. </p> <p>Remarque : Ce paramètre peut nécessiter des modifications des règles <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> de robots personnalisées ou des</a> exclusions<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"></a>d’IP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Stockage de l’ID de transaction</span> </td> 
