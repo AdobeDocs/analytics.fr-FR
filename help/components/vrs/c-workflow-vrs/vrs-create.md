@@ -2,27 +2,27 @@
 description: Avant de créer des suites de rapports virtuelles, vous devez tenir compte des quelques points suivants.
 keywords: Suite de rapports virtuelle
 seo-description: Avant de créer des suites de rapports virtuelles, vous devez tenir compte des quelques points suivants.
-seo-title: Création de suites de rapports virtuelles
+seo-title: Création des suites de rapports virtuelles
 solution: Analytics
-title: Création de suites de rapports virtuelles
-topic: Reports and Analytics
-uuid: 022 a 6656-808 e -4 c 92-b 7 ec -4 d 2 a 42 e 84 fa 8
+title: Création des suites de rapports virtuelles
+topic: Reports & Analytics
+uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Création de suites de rapports virtuelles
+# Création des suites de rapports virtuelles
 
 Avant de créer des suites de rapports virtuelles, vous devez tenir compte des quelques points suivants.
 
 * Les utilisateurs qui ne sont pas administrateurs ne peuvent pas visualiser le Gestionnaire de suites de rapports virtuelles.
 * Les suites de rapports virtuelles ne peuvent pas être partagées. Le « partage » est effectué par le biais de groupes/autorisations.
-* Dans le Gestionnaire de suites de rapports virtuelles, vous ne pouvez afficher que vos propres suites de rapports virtuelles. Vous devez cliquer sur Tout afficher pour afficher les suites de rapports virtuelles des autres utilisateurs.
+* Dans le Gestionnaire de suites de rapports virtuelles, vous ne pouvez afficher que vos propres suites de rapports virtuelles. Vous devez cliquer sur "afficher tout" pour voir les autres.
 
 1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
-1. Click **[!UICONTROL Add +]**.
+1. Cliquez sur **[!UICONTROL Ajouter +]**.
 
    ![](assets/new_vrs.png)
 
