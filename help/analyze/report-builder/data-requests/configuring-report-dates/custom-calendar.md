@@ -1,18 +1,18 @@
 ---
 description: Le Créateur de rapports utilise le calendrier personnalisé d’Analytics. dont vous pouvez vous servir pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la régulation de l’inventaire matériel.
 seo-description: Le Créateur de rapports utilise le calendrier personnalisé d’Analytics. dont vous pouvez vous servir pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la régulation de l’inventaire matériel.
-seo-title: Calendrier personnalisé
+seo-title: 'Calendrier personnalisé '
 solution: Analytics
-title: Calendrier personnalisé
+title: 'Calendrier personnalisé '
 topic: Créateur de rapports
-uuid: 88 d 24 bf 9-de 46-41 e 0-937 e-b 8 a 1 fe 36 c 55 d
+uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Calendrier personnalisé
+# Calendrier personnalisé 
 
 Le Créateur de rapports utilise le calendrier personnalisé d’Analytics. dont vous pouvez vous servir pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la régulation de l’inventaire matériel.
 
@@ -40,7 +40,7 @@ Vous trouverez, ci-dessous, la description de chacun des formats calendaires.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Calendrier personnalisé </p> </td> 
-   <td colname="col2"> <p> Offre trois formats selon le nombre de semaines de chaque mois. Le nombre de semaines dans le mois dépend du premier jour de l’année choisi. </p> <p>Une année comporte 52 semaines. Divisez ce chiffre en 4 trimestres et vous obtenez 13 semaines par trimestre. Toutefois, un trimestre comprend 3 mois. 13 n’est pas divisible par trois. De ce fait, vous placez la semaine supplémentaire dans l’un des mois pour garantir la cohérence. 5-4-4 signifie que la semaine supplémentaire a été ajoutée au premier mois. 4-5-4 signifie que la semaine supplémentaire a été ajoutée au deuxième mois, etc. Dans le calendrier 5-4-4, la 53e semaine est ajoutée au dernier trimestre de l’année. </p> 
+   <td colname="col2"> <p> Offre trois formats selon le nombre de semaines de chaque mois. Le nombre de semaines dans le mois dépend du premier jour de l’année choisi. </p> <p>Une année comporte 52 semaines. Divisez ce chiffre en 4 trimestres et vous obtenez 13 semaines par trimestre. Toutefois, un trimestre comprend 3 mois. 13 n'est pas divisible par trois, donc vous finissez par mettre la semaine supplémentaire dans un des mois afin que c'est toujours cohérent. 5-4-4 signifie que la semaine supplémentaire a été ajoutée au premier mois. 4-5-4 signifie que la semaine supplémentaire a été ajoutée au deuxième mois, etc. Dans le calendrier 5-4-4, la 53e semaine est ajoutée au dernier trimestre de l’année. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b> : janvier comporte quatre semaines, février cinq, mars quatre, etc. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b> : janvier comprend quatre semaines, février comprend quatre semaines, mars en comprend cinq, et ainsi de suite. </li> 
