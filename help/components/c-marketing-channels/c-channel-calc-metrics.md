@@ -1,25 +1,25 @@
 ---
-description: Ajout de mesures calculées aux rapports Canal marketing dans Analytics.
-seo-description: Ajout de mesures calculées aux rapports Canal marketing dans Analytics.
-seo-title: Mesures calculées utilisées pour les rapports Canal marketing
+description: Ajoutez des mesures calculées aux rapports Canal marketing dans Analytics.
+seo-description: Ajoutez des mesures calculées aux rapports Canal marketing dans Analytics.
+seo-title: Mesures calculées utilisées dans les rapports sur les canaux marketing
 solution: Analytics
 subtopic: Canaux marketing
-title: Mesures calculées utilisées pour les rapports Canal marketing
-topic: Reports and Analytics
-uuid: b 33 dd 05 b -4 c 85-436 b -88 da -396 cb 42 ef 01 c
+title: Mesures calculées utilisées dans les rapports sur les canaux marketing
+topic: Reports & Analytics
+uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Mesures calculées utilisées pour les rapports Canal marketing
+# Mesures calculées utilisées dans les rapports sur les canaux marketing
 
-Ajout de mesures calculées aux rapports Canal marketing dans Analytics.
+Ajoutez des mesures calculées aux rapports Canal marketing dans Analytics.
 
-## Calculated metrics used Marketing Channel reports {#topic_4521D324A79E43EF99E69FCDE1E92F74}
+## Mesures calculées utilisées dans les rapports sur les canaux marketing {#topic_4521D324A79E43EF99E69FCDE1E92F74}
 
-Ajout de mesures calculées aux rapports Canal marketing dans Analytics.
+Ajoutez des mesures calculées aux rapports Canal marketing dans Analytics.
 
 Les mesures calculées créées dans les rapports et analyses sont disponibles dans le rapport [!UICONTROL Canal marketing], avec leurs équivalents Première touche et Dernière touche. Par exemple, si vous avez créé une mesure calculée nommée « Revenu par commande », elle est disponible sur le rapport Canal marketing sous la forme *`First Touch Revenue per Order`* et *`Last Touch Revenue per Order`*.
 
@@ -33,7 +33,7 @@ Ajoutez une mesure calculée provenant du rapport Présentation du canal marketi
 
    See [Run Marketing Channel reports](../../components/c-marketing-channels/t-reports-sc.md#task_AED9E5814809432AB00955CC54F80C84).
 
-1. In the report, click **[!UICONTROL Edit.]** ![](assets/metric_edit_icon.png)
+1. **[!UICONTROL Dans le rapport, cliquez sur]** Modifier. ![](assets/metric_edit_icon.png)
 
    >[!NOTE]
    >
