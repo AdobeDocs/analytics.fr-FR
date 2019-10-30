@@ -5,7 +5,7 @@ seo-title: Intégration de Silverpop
 title: Intégration de Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,17 +43,17 @@ Pour configurer l’intégration :
   <tr valign="top"> 
    <td colname="col2" valign="top" align="left"> <p>Télécharger le fichier </p> </td> 
    <td colname="col03"> <p>(2) Correspondances de variables </p> </td> 
-   <td colname="col3"> <p> For use with file download remarketing. </p> </td> 
+   <td colname="col3"> <p> Utilisation avec le remarketing de téléchargement de fichiers. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p> Email Address </p> </td> 
-   <td colname="col03"> <p>(2) Variable Mappings </p> </td> 
-   <td colname="col3"> <p>Used for remarketing to visitors without a known Silverpop ID. </p> </td> 
+   <td colname="col03"> <p>(2) Correspondances de variables </p> </td> 
+   <td colname="col3"> <p>Utilisé pour le remarketing vers les visiteurs sans ID Silverpop connu. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p>Account ID </p> </td> 
-   <td colname="col03"> <p>(2) Variable Mappings </p> </td> 
-   <td colname="col3"> <p>Specify your Silverpop Account ID (the unique identifier assigned to your organization by Silverpop), then click Next to proceed to Step 3 of the Wizard.<b></b> </p> </td> 
+   <td colname="col2"> <p>ID de compte </p> </td> 
+   <td colname="col03"> <p>(2) Correspondances de variables </p> </td> 
+   <td colname="col3"> <p>Indiquez votre ID de compte Silverpop (l'identifiant unique attribué à votre organisation par Silverpop), puis cliquez sur <b>Suivant</b> pour passer à l'étape 3 de l'Assistant. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>Nom du formulaire </p> </td> 
@@ -86,27 +86,27 @@ Pour configurer l’intégration :
    <td colname="col3"> <p> Utilisation avec le remarketing de téléchargement de fichiers. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> Form Completed </td> 
-   <td colname="col03"> <p>(2) Variable Mappings </p> </td> 
-   <td colname="col3"> <p>For use with form abandonment remarketing. </p> </td> 
+   <td colname="col2"> Formulaire complété </td> 
+   <td colname="col03"> <p>(2) Correspondances de variables </p> </td> 
+   <td colname="col3"> <p>Utilisation avec le remarketing d’abandon de formulaire. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> Form Started </td> 
-   <td colname="col03"> <p>(2) Variable Mappings </p> </td> 
-   <td colname="col3"> <p>For use with form abandonment remarketing. </p> </td> 
+   <td colname="col2"> Formulaire commencé </td> 
+   <td colname="col03"> <p>(2) Correspondances de variables </p> </td> 
+   <td colname="col3"> <p>Utilisation avec le remarketing d’abandon de formulaire. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>Ouvert </p> </td> 
-   <td colname="col03"> <p>(2) Variable Mappings </p> </td> 
+   <td colname="col03"> <p>(2) Correspondances de variables </p> </td> 
    <td colname="col3"> <p>(Obligatoire) Spécifiez l’événement Analytics qui stocke les données de courrier électronique ouvertes importées du système de messagerie électronique. </p> <p>L’événement Ouvert vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>Envoyé </p> </td> 
-   <td colname="col03"> <p>(2) Variable Mappings </p> </td> 
-   <td colname="col3"> <p>(Required) Specify the Analytics event that stores the email Sent data imported from the email system. </p> <p>L’événement Envoyé vous permet de voir le nombre de messages électroniques envoyés. </p> </td> 
+   <td colname="col03"> <p>(2) Correspondances de variables </p> </td> 
+   <td colname="col3"> <p>(Obligatoire) Spécifiez l’événement Analytics qui stocke les données envoyées par courrier électronique importées du système de messagerie. </p> <p>L’événement Envoyé vous permet de voir le nombre de messages électroniques envoyés. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p>Unsubscribed </p> </td> 
+   <td colname="col2"> <p>Non abonné </p> </td> 
    <td colname="col03"> <p>(2) Correspondances de variables </p> </td> 
    <td colname="col3"> <p>(Obligatoire) Spécifiez l’événement Analytics qui stocke les données de désabonnement par courrier électronique importées du système de messagerie. </p> <p>L’événement Désabonné vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique, puis cliqué sur le lien Désabonner pour exclure les futurs messages électroniques de votre organisation. </p> </td> 
   </tr> 
@@ -122,7 +122,7 @@ Pour configurer l’intégration :
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>Collecte de données </p> </td> 
-   <td colname="col03"> <p>(3) Data Settings </p> </td> 
+   <td colname="col03"> <p>(3) Paramètres des données </p> </td> 
    <td colname="col3"> <p>Sélectionnez Module externe <b>JavaScript</b> si vous souhaitez utiliser le module externe s_code.js comme modèle de collecte pour cette intégration (voir Code <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"> du module externe</a>Analytics). </p> <p>Sélectionnez Solution <b></b> automatisée si vous souhaitez utiliser un modèle de collecte automatisée pour cette intégration, puis spécifiez les identifiants uniques utilisés pour cette intégration. </p> <p>Si vous sélectionnez cette option, spécifiez les identifiants uniques utilisés pour cette intégration : </p> <p> <b>Paramètre de chaîne de requête d’ID de message :</b>cette valeur représente l’ID de message annexé à l’URL de la page d’entrée par votre partenaire de messagerie. </p> <p> <b></b> Paramètre de chaîne de requête d’ID de destinataire : Cette valeur représente l’ID du destinataire annexé à l’URL de la page d’entrée par votre partenaire de messagerie. </p> </td> 
   </tr> 
   <tr valign="top"> 
