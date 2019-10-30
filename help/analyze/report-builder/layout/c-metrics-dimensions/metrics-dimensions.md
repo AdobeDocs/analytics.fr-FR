@@ -1,22 +1,22 @@
 ---
-description: Vous pouvez ajouter des mesures et des dimensions à l'étape 2 de l'Assistant Requête pour définir la disposition Analytics des données de votre requête. La liste des mesures et des dimensions du créateur de rapports est conforme à la disposition de menu affichée dans les rapports et analyses.
-seo-description: Vous pouvez ajouter des mesures et des dimensions à l'étape 2 de l'Assistant Requête pour définir la disposition Analytics des données de votre requête. La liste des mesures et des dimensions du créateur de rapports est conforme à la disposition de menu affichée dans les rapports et analyses.
-seo-title: Présentation des mesures et des dimensions
+description: Vous pouvez ajouter des mesures et des dimensions à l’étape 2 de l’Assistant Requête pour définir la disposition Analytics des données de votre requête. La liste des mesures et des dimensions du créateur de rapports est conforme à la disposition de menu affichée dans les rapports et analyses.
+seo-description: Vous pouvez ajouter des mesures et des dimensions à l’étape 2 de l’Assistant Requête pour définir la disposition Analytics des données de votre requête. La liste des mesures et des dimensions du créateur de rapports est conforme à la disposition de menu affichée dans les rapports et analyses.
+seo-title: Mesures et dimensions - Aperçu
 solution: Analytics
-title: Présentation des mesures et des dimensions
+title: Mesures et dimensions - Aperçu
 topic: Créateur de rapports
-uuid: eb 305 a 06-d 914-45 c 6-a 7 b 1-fd 0342473 b 0 c
+uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation des mesures et des dimensions
+# Mesures et dimensions - Aperçu
 
-Vous pouvez ajouter des mesures et des dimensions à l'Assistant Requête : Etape 2 pour définir la disposition Analytics des données de votre requête. La liste des mesures et des dimensions du créateur de rapports est conforme à la disposition de menu affichée dans les rapports et analyses.
+Vous pouvez ajouter des mesures et des dimensions à l’Assistant Requête : Etape 2 pour définir la disposition Analytics des données dans votre requête. La liste des mesures et des dimensions du créateur de rapports est conforme à la disposition de menu affichée dans les rapports et analyses.
 
-Les mesures sont des valeurs numériques. Elles se composent d’informations quantitatives sur l’activité de votre site Web, telles que [!UICONTROL Pages vues], [!UICONTROL Profil du visiteur], [!UICONTROL Clics publicitaires], [!UICONTROL Rechargements], [!UICONTROL Durée moyenne de la visite], [!UICONTROL Date], [!UICONTROL Unités], etc. Le créateur de rapports classe les mesures dans plusieurs groupes, conformes au regroupement standard dans Analytics :
+Les mesures sont des valeurs numériques. Elles se composent d’informations quantitatives sur l’activité de votre site Web, telles que [!UICONTROL Pages vues], [!UICONTROL Profil du visiteur], [!UICONTROL Clics publicitaires], [!UICONTROL Rechargements], [!UICONTROL Durée moyenne de la visite], [!UICONTROL Date], [!UICONTROL Unités], etc. Le créateur de rapports classe les mesures dans plusieurs groupes, qui suivent le regroupement standard dans Analytics :
 
 * Trafic standard : affiche la mesure selon l’élément de ligne spécifié. Dans un rapport Pages, par exemple, la mesure Visites présente le nombre de visites de cette page spécifique.
 * Commerce standard : mesures telles que Recettes, Commandes et Passages en caisse.
