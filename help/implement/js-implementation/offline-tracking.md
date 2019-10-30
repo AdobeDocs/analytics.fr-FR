@@ -7,8 +7,8 @@ solution: Analytics
 title: Suivi hors ligne
 topic: Développeur et mise en œuvre
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 Les variables et fonctions ci-après vous permettent de stocker des appels de mesure lorsque l’application est hors ligne.
 
->[!NOTE]
->
->Pour activer le suivi hors ligne, la suite de rapports doit être horodatée. Si les horodatages sont activés sur votre suite de rapports, votre propriété de configuration `trackOffline` *doit* être définie sur « true ». Sinon, la propriété de configuration `trackOffline` *doit* être définie sur « false ». En cas de configuration incorrecte, les données seront perdues. Si vous ne savez pas si une suite de rapports est horodatée, [contactez l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html#analytics)
+> [!NOTE] Pour activer le suivi hors ligne, la suite de rapports doit être horodatée. Si les horodatages sont activés sur votre suite de rapports, votre propriété de configuration `trackOffline` *doit* être définie sur « true ». Sinon, la propriété de configuration `trackOffline` *doit* être définie sur « false ». En cas de configuration incorrecte, les données seront perdues. Si vous ne savez pas si une suite de rapports est horodatée, [contactez le service d’assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
 Lorsqu’il est activé, AppMeasurement hors ligne se comporte comme suit :
 
@@ -60,13 +58,12 @@ Pour chacun des accès suivants ou dans l’intervalle défini par `offlineThrot
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> Permet de définir manuellement l’état hors ligne ou en ligne de l’objet de mesure. La bibliothèque détecte automatiquement si l’appareil est en ligne ou hors ligne. Ces méthodes ne sont donc nécessaires que si vous voulez forcer la mesure hors ligne. La méthode <code>forceOnline</code> n’est utilisée que pour revenir à l’état en ligne après une mise hors ligne manuelle. </p> <p>Lorsque la mesure est hors ligne : </p> 
+   <td colname="col2"> <p> Permet de définir manuellement l’état hors ligne ou en ligne de l’objet de mesure. La bibliothèque détecte automatiquement si l’appareil est en ligne ou hors ligne. Ces méthodes ne sont donc nécessaires que si vous voulez forcer la mesure hors ligne. La méthode <code> forceOnline </code> n’est utilisée que pour revenir à l’état en ligne après une mise hors ligne manuelle. </p> <p>Lorsque la mesure est hors ligne : </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Si <code>trackOffline</code> a la valeur « true » : les accès sont stockés jusqu’à ce que la mesure soit en ligne. </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> Si <code>trackOffline</code> a la valeur « false » : les accès sont ignorés. </li> 
+     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Si <code> trackOffline </code> a la valeur « true » : les accès sont stockés jusqu’à ce que la mesure soit en ligne. </li> 
+     <li id="li_6A623377462548DB97C31654EADCFAF3"> Si <code> trackOffline </code> a la valeur « false » : les accès sont ignorés. </li> 
     </ul> <p> <b>Exemples:</b> </p> 
-    <code class="syntax c">
-      s.forceOffline();
+    
 
 s.forceOnline();
 </code> </td>
