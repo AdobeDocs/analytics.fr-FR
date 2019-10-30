@@ -3,9 +3,9 @@ description: Fournit des données récapitulatives sur le trafic des suites de r
 seo-description: Fournit des données récapitulatives sur le trafic des suites de rapports.
 seo-title: Activité du compte
 title: Activité du compte
-uuid: 21 d 2 b 1 f 6-838 b -41 ae -89 b 2-d 4 a 299 bfb 1 bd
+uuid: 21d2b1f6-838b-41ae-89b2-d4a299bfb1bd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
