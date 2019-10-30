@@ -1,14 +1,14 @@
 ---
 description: Ventilez les dimensions et les éléments de dimension dans Analysis Workspace.
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 seo-description: Ventilez les dimensions et les éléments de dimension dans Analysis Workspace.
 seo-title: Ventilation des dimensions
 solution: Analytics
 title: Ventilation des dimensions
-topic: Reports and Analytics
-uuid: 0 b 888 e 26-f 201-4405-99 f 9-755 b 3 ee 6 cd 18
+topic: Reports & Analytics
+uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,4 +32,4 @@ Ventilez vos données de différentes manières en fonction de vos besoins ; cr
 
 [Dimensions dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
-[Ventilations de dimension sur YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
+[Ventilations des dimensions sur YouTube](https://www.youtube.com/watch?v=3mQ2HN7-lIc&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=13) (2:02)
