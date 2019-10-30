@@ -8,7 +8,7 @@ title: Traitements et partages - Aperçu
 topic: Reports & Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,7 +51,7 @@ Le partage rend ce projet disponible pour d’autres utilisateurs d’Analysis 
    ![](assets/share_component.png)
 
 1. Ajoutez des destinataires.
-1. (Facultatif) Vous pouvez partager avec tous les destinataires les composants de projet incorporés (segments, mesures calculées et plages de dates). Une fois partagés, ces composants apparaîtront dans le menu déroulant des composants de l’espace de travail du destinataire.
+1. (Facultatif) Vous pouvez partager avec tous les destinataires les composants de projet incorporés (segments, mesures calculées et plages de dates). Une fois partagés, ces composants apparaissent dans la liste déroulante des composants de l’espace de travail du destinataire.
 
    >[!IMPORTANT]
    >
