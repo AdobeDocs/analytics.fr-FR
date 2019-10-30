@@ -1,16 +1,16 @@
 ---
 description: Modification et amélioration de l’option Annuler dans Analysis Workspace.
 seo-description: Modification et amélioration de l’option Annuler dans Analysis Workspace.
-seo-title: Annuler et rétablir les paramètres
-title: Annuler et rétablir les paramètres
-uuid: a 4 dbc 169-5 fd 7-4383-aee 0-6 b 5 ba 1 c 235 ab
+seo-title: Paramètres d’annulation et de rétablissement
+title: Paramètres d’annulation et de rétablissement
+uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Annuler et rétablir les paramètres
+# Paramètres d’annulation et de rétablissement
 
 **[!UICONTROL Espace de travail]** &gt; **[!UICONTROL Projet]** &gt; **[!UICONTROL Annuler/Rétablir]**
 
@@ -22,7 +22,7 @@ source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
 
 * Vous pouvez annuler/rétablir une modification de la suite de rapports.
 * Un message d’annulation/de rétablissement s’affiche à côté du nom du projet, indiquant quand une annulation ou un rétablissement est en cours.
-* You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* Vous pouvez utiliser les [touches d’accès rapide suivantes](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
 
    * CTRL (CMD) + Z pour annuler
    * CTRL (CMD) + MAJ + Z pour rétablir
