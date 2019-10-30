@@ -3,12 +3,12 @@ description: Description de la procédure de téléchargement de fichiers de don
 seo-description: Description de la procédure de téléchargement de fichiers de données via FTP.
 seo-title: Importation FTP
 solution: Analytics
-subtopic: Gestionnaire
+subtopic: Classifications
 title: Importation FTP
 topic: Outils d’administration
-uuid: a 914970 d-ba 02-4111-9 dcf -06448 f 71 b 9 f 3
+uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Description de la procédure de téléchargement de fichiers de données via FTP.
 
-## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
+## Importation FTP {#concept_2F965BE873254546A61FB755F25299FD}
 
 Description de la procédure de téléchargement de fichiers de données via FTP.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**.
+**[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur]** de classifications.
 
 Les limites recommandées suivantes sont importantes :
 
@@ -36,11 +36,9 @@ Chaque nouvelle valeur de clé chargée compte comme valeur unique de cette vari
 
 Si vous avez dépassé les limites des valeurs uniques pour le mois, vous ne verrez pas les données de classifications correspondantes pour les valeurs dépassées dans les rapports. Ces classifications sont visibles dans Data Warehouse ou dans l’Ad Hoc Analysis.
 
->[!NOTE]
->
->Le temps nécessaire au traitement d'un fichier de données de classification varie selon la taille du fichier et le nombre actuel de fichiers en cours de traitement par les serveurs d'Adobe. En règle générale, le traitement des fichiers de données ne dure pas plus de 72 heures.
+> [!NOTE] Le temps nécessaire au traitement d’un fichier de données de classification varie en fonction de la taille du fichier et du nombre actuel de fichiers déjà traités par les serveurs d’Adobe. En règle générale, le traitement des fichiers de données ne dure pas plus de 72 heures.
 
-Avant de charger des données via FTP, vous devez créer un compte FTP. Pour plus d’informations, reportez-vous à la section [Créer un compte FTP](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Avant de charger des données via FTP, vous devez créer un compte FTP. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Importer des classifications via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
