@@ -1,16 +1,16 @@
 ---
 description: Les configurations des lignes varient selon le composant déposé dans le tableau.
 seo-description: Les configurations des lignes varient selon le composant déposé dans le tableau.
-seo-title: Paramètres de ligne
-title: Paramètres de ligne
-uuid: f 30 c 31 d 5-1 fd 4-4 b 93-94 c 3-ca 441099 fe 2 e
+seo-title: Paramètres des lignes
+title: Paramètres des lignes
+uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Paramètres de ligne
+# Paramètres des lignes
 
 Les configurations des lignes varient selon le composant déposé dans le tableau.
 
@@ -42,7 +42,7 @@ Pour accéder aux paramètres de ligne d’un tableau, cliquez sur l’icône Pa
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ventilations </p> </td> 
-   <td colname="col2"> <p><b>Ventilation par position :</b> </p> <p>Ventilez les données en fonction d’une position fixe dans un tableau à structure libre. Vous pouvez par exemple spécifier que les sept premières lignes du tableau sont toujours ventilées. </p> <p>Auparavant, la liste des valeurs de la ventilation était « verrouillée ». Il en résultait certains problèmes : si, par exemple, vous ventiliez la <span class="term"> Date </span> par <span class="term"> Page </span>, vous obteniez une liste des 50 premières pages correspondant à la période sélectionnée. Si vous enregistriez ce rapport puis l’exécutiez à nouveau un mois plus tard, il est probable que les 50 premières pages auraient changé. Toutefois, Analysis Workspace utilisait les résultats de la ventilation d’origine et renvoyait les mêmes pages, avec pour période le mois en cours.) </p> <p>Pour ventiler des données en fonction d’une position fixe : </p> 
+   <td colname="col2"> <p><b>Ventilation par position :</b> </p> <p>Ventilez les données en fonction d’une position fixe dans un tableau à structure libre. Vous pouvez par exemple spécifier que les sept premières lignes du tableau sont toujours ventilées. </p> <p>(Auparavant, la liste des valeurs de la ventilation était "verrouillée". This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. Si vous enregistriez ce rapport puis l’exécutiez à nouveau un mois plus tard, il est probable que les 50 premières pages auraient changé. Toutefois, Analysis Workspace utilisait les résultats de la ventilation d’origine et renvoyait les mêmes pages, avec pour période le mois en cours.) </p> <p>Pour ventiler des données en fonction d’une position fixe : </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">Ventilez quelques lignes du tableau. </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">Cliquez sur l’icône de paramètres (engrenage) en regard de la ligne de tableau à définir sur une position fixe. </li> 
