@@ -5,7 +5,7 @@ seo-title: Adobe Target
 solution: Analytics
 title: Adobe Target
 topic: Ad Hoc Analysis
-uuid: 420 da 093-9 d 0 d -454 e-a 193-e 0595 f 36 d 3 b 1
+uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Affichez et segmentez les données de trafic d’Adobe Target dans un rapport Analytics.
 
-## Adobe Target {#topic_EBC899DB84A84780A1B8EE95C6C4CF18}
+## Adobe Target {#topic_EBC899DB84A84780A1B8EE95C6C4CF18}
 
 Affichez et segmentez les données de trafic d’Adobe Target dans un rapport Analytics.
 
