@@ -8,8 +8,8 @@ subtopic: Analysis Workspace
 title: Fenêtre modale de mise en œuvre simplifiée
 topic: Reports & Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,18 +30,16 @@ Les nouveaux utilisateurs peuvent rapidement créer leur première suite de rapp
 
 Cette procédure permet d’effectuer les opérations suivantes :
 
-* Créer votre première [suite de rapports](https://marketing.adobe.com/resources/help/fr_FR/analytics/getting-started/report-suites.html).
-* Déployez [!DNL Analytics] et l’option [Service d’identité](https://marketing.adobe.com/resources/help/fr_FR/mcvid/).
+* Créer votre première [suite de rapports](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)
+* Déployez [!DNL Analytics] et le service [d’](https://marketing.adobe.com/resources/help/en_US/mcvid/)identité.
 
 * Exécuter des rapports sur des données de niveau de page standard.
 
->[!NOTE]
->
->Avant de commencer, vérifiez qu’Analytics est [activé dans Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/core_services.html) (le processus de fourniture de solution). Si vous avez reçu un message vous invitant à vous connecter à Analytics dans Enterprise Dashboard, cela signifie que vous avez rempli cette condition préalable requise.
+> [!NOTE] Avant de commencer, vérifiez qu’Analytics est [activé dans Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) (le processus d’attribution des privilèges d’accès aux solutions). Si vous avez reçu un message vous invitant à vous connecter à Analytics dans Enterprise Dashboard, cela signifie que vous avez rempli cette condition préalable requise.
 
 **Pour exécuter la fenêtre modale de mise en œuvre simplifiée :**
 
-1. Connectez-vous à [!DNL Adobe Experience Cloud] ( [experience ecloud.adobe.com](https://experiencecloud.adobe.com)).
+1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
 
    Lorsque vous accédez à [!DNL Analytics], le système détermine si vous disposez d’une suite de rapports. Si ce n’est pas le cas, la page [!UICONTROL Prise en main d’Adobe Analytics] s’affiche.
 
@@ -73,7 +71,7 @@ Cette procédure permet d’effectuer les opérations suivantes :
       </tr> 
       <tr> 
        <td colname="col1"> <p>Référentiel de données (suite de rapports) </p> </td> 
-       <td colname="col2"> <p> Une <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/getting-started/report-suites.html" format="html" scope="external">suite de rapports</a> est un jeu de données distinct qui correspond généralement à une seule propriété (site ou application) ou marque. Chaque suite de rapports possède ses propres ensembles de rapports et de mesures. </p> </td> 
+       <td colname="col2"> <p> Une <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">suite de rapports</a> est un jeu de données distinct qui correspond généralement à une seule propriété (site ou application) ou marque. Chaque suite de rapports possède ses propres ensembles de rapports et de mesures. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Fuseau horaire </p> </td> 
@@ -110,20 +108,20 @@ Cette procédure permet d’effectuer les opérations suivantes :
       </tr> 
       <tr> 
        <td colname="col1"> <p>Télécharger </p> </td> 
-       <td colname="col2"> <p> Télécharge le fichier d’installation appelé <span class="filepath">INSTALL-ME &lt;nom de la suite de rapports&gt;.js</span>. Cette option est destinée aux utilisateurs expérimentés qui comprennent la <a href="https://marketing.adobe.com/resources/help/fr_FR/sc/implement/js_implementation.html" format="html" scope="external">mise en œuvre de JavaScript</a>. </p> <p> <p>Important : Le téléchargement du code n’est pas un déploiement d’<span class="keyword">Analytics</span>. Il s’agit d’un déploiement manuel que vous effectuez sur les pages de votre site ou par le bais des services de conseil Adobe. </p> </p> </td> 
+       <td colname="col2"> <p> Télécharge le fichier d’installation appelé <span class="filepath">INSTALL-ME &lt;nom de la suite de rapports&gt;.js</span>. Cette option est destinée aux utilisateurs expérimentés qui comprennent la <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">mise en œuvre de JavaScript</a>. </p> <p> <p>Important : Le téléchargement du code n’est pas un déploiement d’<span class="keyword">Analytics</span>. Il s’agit d’un déploiement manuel que vous effectuez sur les pages de votre site ou par le bais des services de conseil Adobe. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
 
 1. Exécution d’un rapport.
 
-   Une fois l’outil Analytics déployé, vous pouvez exécuter un rapport dans les Reports &amp; Analytics pour vérifier que des données arrivent à votre site. (Voir [Connexion et navigation](https://marketing.adobe.com/resources/help/fr_FR/analytics/getting-started/analytics-navigation.html) pour vous familiariser avec l’interface d’Analytics.)
+   Une fois l’outil Analytics déployé, vous pouvez exécuter un rapport dans les Reports &amp; Analytics pour vérifier que des données arrivent à votre site. (Reportez-vous à la section   [Connexion et navigation](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) pour vous familiariser avec l’interface d’Analytics.)
 
    Par exemple, un rapport **[!UICONTROL Mesures du site]** &gt; **[!UICONTROL Temps réel]** permet d’afficher les données immédiates.
 
    >[!NOTE]
    >
-   >Une configuration du rapport en [!UICONTROL temps réel] est nécessaire avant son exécution. Voir [Configuration de rapport en temps réel](https://marketing.adobe.com/resources/help/fr_FR/reference/t_realtime_admin.html).
+   >Une configuration du rapport en [!UICONTROL temps réel] est nécessaire avant son exécution. Voir [Configuration d’un rapport en temps réel](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html).
 
 **Exemple de rapport en temps réel**
 
