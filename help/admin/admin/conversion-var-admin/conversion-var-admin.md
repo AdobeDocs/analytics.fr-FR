@@ -8,7 +8,7 @@ title: Variables de conversion (eVar)
 topic: Outils d’administration
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,9 +27,7 @@ Les eVars sont parfaitement adaptées à la mesure des causes et des effets, com
 
 Il est conseillé d’utiliser des variables de trafic si vous souhaitez procéder à une mesure du trafic ou utiliser le cheminement.
 
->[!NOTE]
->
->Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
+> [!NOTE] Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
 
 ## Variables de conversion - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -44,11 +42,11 @@ Description des champs utilisés lors de la [modification des variables](/help/a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">Nom</span> </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> Nom </span> </p> </td> 
    <td colname="col2"> <p>Nom convivial de la variable de conversion. Il s’agit du nom sous lequel il est fait référence à l’eVar dans les rapports généraux. Il s’agira également du nom du rapport dans le menu de gauche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">Type</span> </p> <p>(eVar uniquement) </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> Type</span> </p> <p>(eVar uniquement) </p> </td> 
    <td colname="col2"> <p>Type de valeur de la variable : </p> <p> <b></b> Chaîne</span>de texte : Capture les valeurs textuelles utilisées sur votre site. Il s’agit du type d’eVar le plus courant et du paramètre par défaut. Cette chaîne se comporte comme les autres variables, la valeur qu’elle contient étant une chaîne de texte statique. Si vous effectuez le suivi d’éléments tels que des campagnes internes ou des mots-clés de recherche interne, ce paramètre est recommandé. </p> <p> <b></b> Compteur</span>: Compte le nombre de fois où une action se produit avant l’événement de réussite. Si, par exemple, vous utilisez une eVar pour suivre les recherches internes sur votre site, définissez cette valeur sur <span class="uicontrol">Chaîne de texte</span> pour suivre l’utilisation des termes de recherche. Définissez cette valeur sur <span class="uicontrol">Compteur</span> pour compter le nombre de recherches effectuées, quels que soient les termes recherchés. Vous pouvez, par exemple, utiliser une eVar de compteur pour suivre le nombre de fois où une personne a utilisé votre recherche interne avant d’effectuer un achat. </p> </td> 
   </tr> 
   <tr> 
