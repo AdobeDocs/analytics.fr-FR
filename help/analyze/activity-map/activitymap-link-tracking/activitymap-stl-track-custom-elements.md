@@ -31,7 +31,7 @@ En d’autres termes, si vous utilisez cette fonction pour suivre vos éléments
 
 ## Overlay rendering for dynamic content {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
-When the s.tl() function is called directly from the HTML element’s on-click event, [!DNL Activity Map] can display an overlay for that element when the web page is loaded. Exemple :
+When the s.tl() function is called directly from the HTML element’s on-click event, [!DNL Activity Map] can display an overlay for that element when the web page is loaded. Exemple:
 
 ```
 <div onclick="s.tl(this,'o','some link name')">Text to click on</a>
