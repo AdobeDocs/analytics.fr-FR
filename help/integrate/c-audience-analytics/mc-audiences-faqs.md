@@ -6,7 +6,7 @@ solution: 'Activation '
 title: Questions fréquentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
    <td colname="col1"> <b>Q : Comment savoir si mes suites de rapports effectuent une personnalisation sur site ou un ciblage sur site/hors site ?</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
-     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">Ces activités ne s’appliquent pas à l’envoi de données d’Adobe Analytics vers Adobe Audience Manager. </li> 
+     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">Elles ne s’appliquent pas à l’envoi de données Adobe Analytics à Adobe Audience Manager. </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">Posez-vous la question suivante : allez-vous repartager un segment Analytics partagé avec une dimension MCA vers Experience Cloud ? </li> 
      <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">Effectuez-vous une exportation (par exemple via le flux de données) vers un système Business Intelligence (BI) exploité dans ce but ? </li> 
     </ul> </td> 
@@ -89,20 +89,20 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
    <td colname="col2"> <p>Presque partout ; elles sont traitées comme toutes les autres dimensions collectées dans Analytics. Il existe deux exceptions : les données ne sont actuellement pas disponibles dans Data Workbench ou Livestream. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q : Pourquoi les données ne sont-elles pas visibles dans Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Il existe probablement un conflit entre les contrôles de la confidentialité AAM pour la source et la destination des données.. </p> </td> 
+   <td colname="col1"> <p><b>Q : Pourquoi n’ai-je pas accès aux données dans Analytics ?</b> </p> </td> 
+   <td colname="col2"> <p>Vous avez probablement des contrôles de confidentialité AAM contradictoires entre la source de données et la destination. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Pourquoi certains de mes segments sont-ils manquants dans Analytics, alors que j’ai choisi d’envoyer tous les segments ?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">Il existe peut-être un conflit entre vos contrôles des exportations de données AAM pour la destination et les sources de données des segments, bloquant ainsi l’envoi de certains segments. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">Les contrôles d’exportation des données AAM sur la destination et dans les sources de données des segments peuvent être conflictuels, ce qui empêche l’envoi de certains segments. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">Si vous utilisez des caractéristiques de données tierces dans vos segments, ces segments ne peuvent pas être partagés avec des destinations (un jeu de suites de rapports) contenant des données personnelles. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Pourquoi la limite d’audience est-elle atteinte dans mon rapport Analytics ? (Remarque : ceci sera également représenté sous les noms d’ID d’audience = -1 et "::max_audiences_beyond::" dans Data Warehouse).</b> </p> </td> 
-   <td colname="col2"> <p>Par défaut, l’intégration Audience Analytics pour AAM envoie à Analytics tous les segments pour lesquels un visiteur est admissible, accès par accès. Si un visiteur appartient à plus de 150 segments AAM au cours d’un même accès, les <b>150 segments les plus récemment qualifiés</b> sont envoyés à Analytics, tandis que la liste des segments restants est tronquée. </p> <p>Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience. </p> <p>Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un accès particulier, mais cela peut se produire dans un nombre réduit de cas. Si la mention « Limite d’audience atteinte » apparaît dans vos rapports, vous avez deux possibilités : </p> 
+   <td colname="col2"> <p>Par défaut, l’intégration Audience Analytics pour AAM envoie à Analytics tous les segments pour lesquels un visiteur est admissible, accès par accès. Si un visiteur appartient à plus de 150 segments AAM au cours d’un même accès, les <b>150 segments les plus récemment qualifiés</b> sont envoyés à Analytics, tandis que la liste des segments restants est tronquée. </p> <p>Un indicateur supplémentaire est envoyé à Analytics pour indiquer que la liste de segments a été tronquée et s’affiche sous la forme "Limite d’audience atteinte" dans la dimension Nom d’audience et "-1" dans la dimension ID d’audience. </p> <p>Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un accès particulier, mais cela peut se produire dans un nombre réduit de cas. Si vous constatez que la limite d’audience est atteinte dans vos rapports, vous disposez de deux options : </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b> : Continuez de laisser l’intégration fonctionner dans sa version prête à l’emploi, qui envoie les 150 segments les plus récemment qualifiés pour un visiteur particulier. </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b> : Dans AAM, sélectionnez les 150 segments les plus importants pour votre entreprise pour l’intégration. AAM vérifie alors uniquement les visiteurs par rapport à ces 150 segments. Cette approche présente l’inconvénient que vous recevez uniquement ces 150 segments pour tous les visiteurs. En revanche, l’approche de l’option 1 peut fournir un nombre illimité de segments du fait que l’intégration repose sur les accès. </li> 
@@ -124,7 +124,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
    <td colname="col2"> <p>Oui. Dans la configuration des destinations AAM, seules les suites de rapports pour lesquelles la redirection côté serveur est activée sont visibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q : Pourquoi ne puis-je pas activer la redirection côté serveur pour certaines suites de rapports dans les paramètres d’administration d’Analytics ?</b> </p> </td> 
+   <td colname="col1"> <p><b>Q : Pourquoi ne puis-je pas activer certaines suites de rapports pour SSF dans l’administrateur Analytics ?</b> </p> </td> 
    <td colname="col2"> <p>Seules les suites mappées à votre organisation Experience Cloud peuvent être activées. </p> </td> 
   </tr> 
  </tbody> 
