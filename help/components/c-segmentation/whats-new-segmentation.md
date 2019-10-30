@@ -3,9 +3,9 @@ description: Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
 seo-description: Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
 seo-title: Nouveautés de la segmentation dans Analytics
 title: Nouveautés de la segmentation dans Analytics
-uuid: ac 53 e 984-9 af 5-4536-8105-345 d 78 cc 5653
+uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,18 +15,18 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
 
 * [Novembre 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_EAF1A19D50774E8CB822A64B29495D80)
-* [Octobre 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_543F31389665406A9106C0DACDA089AD)
+* [octobre 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_543F31389665406A9106C0DACDA089AD)
 * [Septembre 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_ECC5516509BB4774A439BD22ED5803CD)
 * [Juin 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_3A4B77FC1FA5422BB14516065F066B21)
 * [Janvier 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_95A4D824A5DC423AB594F3D6ADCF229D)
 * [Novembre 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_BCD702E34E134D06AF936AE475D7B4B8)
-* [Octobre 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_B1F82BE6425647BE8C003606EB73EE10)
+* [octobre 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_B1F82BE6425647BE8C003606EB73EE10)
 * [Septembre 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_C43C11F33EB54F928268304F3D4867AA)
-* [Octobre 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_486A4F65270B423B9F7457ED4CB6429E)
+* [octobre 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_486A4F65270B423B9F7457ED4CB6429E)
 * [Septembre 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_6FF28E134DE647FDA4CC1FD7DC1FADC8)
 * [Août 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_8AD156B1DCB74D938A0501365F77D4ED)
 * [Juillet 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
-* [Mai 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
+* [Mai 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -53,7 +53,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Périodes dans les segments </p> </td> 
-   <td colname="col2"> <p>Permet de créer des segments qui contiennent des périodes flottantes afin d’obtenir des réponses sur les campagnes ou les événements en cours. Vous pouvez par exemple créer facilement un segment qui comprend « toutes les personnes qui ont effectué un achat au cours des 60 derniers jours ». </p> <p> <p>Remarque : cette fonctionnalité n’est pas disponible dans les analyses ad hoc. </p> </p> </td> 
+   <td colname="col2"> <p>Permet de créer des segments qui contiennent des périodes flottantes afin d’obtenir des réponses sur les campagnes ou les événements en cours. Par exemple, vous pouvez désormais créer facilement un segment qui inclut "toutes les personnes qui ont effectué un achat au cours des 60 derniers jours". </p> <p> <p>Remarque : cette fonctionnalité n’est pas disponible dans les analyses ad hoc. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contraintes de dimension avec des segments séquentiels </p> </td> 
-   <td colname="col2"> <p>Dans une clause « dans » entre des instructions ALORS, vous pouvez ajouter par exemple « dans 1 instance de mot-clé de recherche », « dans 1 instance eVar 47 ». Le segment est ainsi limité à une instance d’une dimension. </p> </td> 
+   <td colname="col2"> <p>Dans une clause "dans", entre les instructions ALORS, vous pouvez ajouter, par exemple, "dans 1 instance de mot-clé de recherche", "dans 1 instance eVar 47". Le segment est ainsi limité à une instance d’une dimension. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace : <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">Utilisation des segments dans l’analyse des abandons </a> </p> </td> 
@@ -136,7 +136,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Entrepôt de données : ventilation par segment </p> </td> 
-   <td colname="col2"> <p>Ajout de la prise en charge de la  <span class="wintitle">ventilation par segment</span>. Outre les ventilations par éléments standard et par aperçus personnalisés, vous pouvez désormais ventiler les rapports par segment. Quand vous sélectionnez l’onglet <span class="wintitle">Segments</span>, la liste répertorie les mêmes segments que ceux proposés dans la liste déroulante des <span class="wintitle">segments disponibles</span>. </p> <p>Les éléments de ligne avec une adhésion dans le segment seront associés à la valeur « 1 » ; les éléments en dehors du rapport de segments à la valeur « 0 ». </p> </td> 
+   <td colname="col2"> <p>Ajout de la prise en charge de la  <span class="wintitle">ventilation par segment</span>. Outre les ventilations par éléments standard et par aperçus personnalisés, vous pouvez désormais ventiler les rapports par segment. Quand vous sélectionnez l’onglet <span class="wintitle">Segments</span>, la liste répertorie les mêmes segments que ceux proposés dans la liste déroulante des <span class="wintitle">segments disponibles</span>. </p> <p>Les éléments de ligne associés à l’appartenance au segment signalent la valeur "1" et les éléments en dehors du rapport de segment "0". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Prise en charge des critères « correspond à » et « ne correspond pas » dans les segments de l’entrepôt de données </p> </td> 
-   <td colname="col2"> <p>L’entrepôt de données prend maintenant en charge les critères « correspond à » et « ne correspond pas » dans les définitions de segments. (Les capacités Rapports et analyses et Analyses ad hoc prennent déjà en charge cette fonction.) </p> <p>Les segments précédemment incompatibles avec l’entrepôt de données du fait que l’entrepôt de données ne prenait pas en charge les critères « correspond à » et « ne correspond pas » seront compatibles après cette version (en supposant que c’était la seule raison pour laquelle ces segments étaient incompatibles). Des segments supplémentaires pourront être répertoriés dans la liste des segments de l’entrepôt de données après cette version. </p> </td> 
+   <td colname="col2"> <p>L’entrepôt de données prend désormais en charge les critères "correspond à" et "ne correspond pas" dans les définitions de segment. (Les capacités Rapports et analyses et Analyses ad hoc prennent déjà en charge cette fonction.) </p> <p>Les segments précédemment incompatibles avec l’entrepôt de données, car l’entrepôt de données ne prenait pas en charge les critères "correspond à" et "ne correspond pas", deviendront compatibles après la version (en supposant que c’est la seule raison pour laquelle le segment était incompatible). Des segments supplémentaires pourront être répertoriés dans la liste des segments de l’entrepôt de données après cette version. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segments.Save dans l’API des services Web </p> </td> 
