@@ -8,7 +8,7 @@ title: Jeux de règles de classification
 topic: Outils d’administration
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Un jeu de règles est un groupe de règles de classification relatives à une va
 
 ## Page du créateur de règles de classification {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Créateur de règles de **[!UICONTROL classification]**
 
 Les champs et options ci-dessous sont disponibles sur la page [!UICONTROL Créateur de règles de classifications].
 
