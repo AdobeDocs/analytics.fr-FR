@@ -4,10 +4,10 @@ seo-description: Le tableau suivant spécifie si le pays comporte des régions o
 seo-title: Utilisation des régions et codes postaux de géosegmentation par pays
 solution: Analytics
 title: Utilisation des régions et codes postaux de géosegmentation par pays
-topic: Présentation
-uuid: 9 dab 88 f 8-cd 3 f -481 f -955 f -2 fc 2 f 48 c 006 d
+topic: Rapports
+uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
