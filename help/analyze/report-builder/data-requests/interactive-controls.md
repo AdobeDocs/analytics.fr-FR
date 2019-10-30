@@ -5,9 +5,9 @@ seo-title: Contrôles interactifs
 solution: Analytics
 title: Contrôles interactifs
 topic: Créateur de rapports
-uuid: 5 f 324 b 61-e 032-455 e -9947-5037 f 013 e 0 fa
+uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,9 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 
 >[!IMPORTANT]
 >
->Pour que les contrôles interactifs fonctionnent, le créateur de rapports version 5.0 doit être installé. &gt;
->* Si vous exécutez Microsoft Excel sous Windows mais exécutez une version antérieure du Créateur de rapports, ou si le Créateur de rapports n’est pas installé, vous pouvez modifier la valeur du contrôle interactif mais cela n’actualise pas la requête associée, ni ne met à jour les paramètres associés à la requête.
->* Si vous exécutez Excel sous Mac, la modification de la valeur dans le contrôle déclenche l’affichage du message suivant : « Macro ’Adobe.ReportBuilder.Bridge.FormControlClick.Event’ introuvable. »
+>Vous devez avoir installé la version 5.0 du créateur de rapports pour que les contrôles interactifs fonctionnent. &gt;
+>* Si vous exécutez Microsoft Excel sous Windows mais exécutez une version inférieure du créateur de rapports ou si le créateur de rapports n’est pas installé sur votre ordinateur : Vous pouvez modifier la valeur du contrôle interactif, mais elle n’actualisera pas la requête associée, ni ne mettra à jour les paramètres associés à la requête.
+>* Si vous exécutez Excel sous Mac, la modification de la valeur du contrôle entraîne l’affichage du message suivant : "La macro "Adobe.ReportBuilder.Bridge.FormControlClick.Event" est introuvable."
 >
 
 
@@ -45,7 +45,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 
    ![](assets/control_settings.png)
 
-1. Notez l’option permettant d’« Actualiser automatiquement les requêtes liées lors de la sélection ».
+1. Notez l’option "Actualiser automatiquement les requêtes liées lors de la sélection d’un élément".
 
    * Si cette case est cochée, toutes les requêtes qui utilisent ce contrôle sont actualisées.
    * Si elle n’est pas cochée, les paramètres de requête associés sont mis à jour mais la requête n’est pas actualisée.
@@ -57,13 +57,13 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 1. Vous pouvez à présent modifier la période et la requête s’actualise avec cette période.
 1. Vous pouvez également copier la requête et cliquer avec le bouton droit afin d’utiliser une des deux options Coller la requête :
 
-   * **[!UICONTROL Coller la requête]** &gt; **[!UICONTROL Utiliser la cellule d'entrée absolue]**. Cela signifie que la requête copiée pointe vers le même contrôle interactif de périodes que la requête d’origine.
+   * **[!UICONTROL Coller la requête]** &gt; **[!UICONTROL Utiliser la cellule]** d’entrée absolue. Cela signifie que la requête copiée pointe vers le même contrôle interactif de périodes que la requête d’origine.
 
-   * **[!UICONTROL Coller la requête]**&gt; **[!UICONTROL Utiliser la cellule d'entrée relative]**. Cela signifie que la requête copiée pointe vers son propre contrôle.
+   * **[!UICONTROL Coller la requête]**&gt; **[!UICONTROL Utiliser la cellule]** d’entrée relative. Cela signifie que la requête copiée pointe vers son propre contrôle.
 
       >[!NOTE]
       >
-      >Vous pouvez utiliser la fonctionnalité de contrôle Couper/Copier/Coller native de Microsoft Excel. Le Créateur de rapports reconnaît automatiquement les contrôles nouvellement ajoutés.
+      >Vous pouvez utiliser la fonctionnalité native de contrôle Couper/Copier/Coller de Microsoft Excel. Le Créateur de rapports reconnaît automatiquement les contrôles nouvellement ajoutés.
 
 ## Implement interactive segment control {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
