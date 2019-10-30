@@ -6,7 +6,7 @@ solution: Analytics
 title: Connecteur de données intelligent pour Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,8 +45,8 @@ Répertorie les actions nécessaires à effectuer dans Adobe Analytics avant de 
 | Sélectionner une Report Suite | Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration. |
 | Configuration des variables Analytics |  Cette intégration requiert des événements personnalisés et des eVars personnalisées, ainsi que éventuellement des événements supplémentaires et des eVars supplémentaires. Voir Configuration des variables Analytics pour la sélection. |
 | Représentant autorisé |  Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise ; et, à ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans l'accord de service décrit ci-dessus. |
-| Activer Adobe Data Warehouse™ |  Cette intégration requiert l’activation de l’entrepôt de données pour générer des segments de remarketing. Si vous n’avez pas activé l’entrepôt de données Adobe, contactez Adobe pour plus de détails. |
-| Recipient ID |  L’intégration requiert que nous capturions et stockions un "identifiant visiteur" dans une variable Analytics (eVar). L’identifiant visiteur (souvent appelé "ID du destinataire") est une représentation codée ou numérique d’une adresse électronique du système sélectif. Cet "ID de destinataire" est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui est récupéré dans le système sélectif et peut être utilisé à des fins de remarketing. Dans le cadre du processus de configuration, vous devez identifier une eVar à cet effet lorsque l'Assistant vous y invite. |
+| Activer Adobe Data Warehouse™ | Cette intégration requiert l’activation de l’entrepôt de données pour générer des segments de remarketing. Si vous n’avez pas activé l’entrepôt de données Adobe, contactez Adobe pour plus de détails. |
+| Recipient ID | L’intégration requiert que nous capturions et stockions un "identifiant visiteur" dans une variable Analytics (eVar). L’identifiant visiteur (souvent appelé "ID du destinataire") est une représentation codée ou numérique d’une adresse électronique du système sélectif. Cet "ID de destinataire" est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui est récupéré dans le système sélectif et peut être utilisé à des fins de remarketing. Dans le cadre du processus de configuration, vous devez identifier une eVar à cet effet lorsque l'Assistant vous y invite. |
 | Suivi externe |  Si vous ne suivez pas actuellement la bonne pratique consistant à activer le suivi externe pour chaque campagne par courrier électronique envoyée, vous devez le faire pour garantir une intégration réussie. Pour plus d’informations, reportez-vous à la section Sélection ci-dessous. |
 | Respect de la confidentialité |  Vous devez comprendre qu’en activant le suivi des destinataires ou des identifiants des visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela a des implications en matière de confidentialité qui nécessitent la mise en oeuvre de procédures appropriées par votre organisation, comme la notification et le consentement des visiteurs de votre site. |
 
@@ -82,31 +82,31 @@ Outre ces eVars, certains événements peuvent être réservés en fonction des 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Envoyé </td> 
    <td colname="col3"> Pour stocker le nombre de courriers électroniques envoyés par Selligent. </td> 
-   <td colname="col4"> <p><b>Type</b>: Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
+   <td colname="col4"> <p><b>Type</b>:Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Livré </td> 
    <td colname="col3"> Pour stocker le nombre de courriers électroniques livrés. </td> 
-   <td colname="col4"> <p><b>Type</b>: Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
+   <td colname="col4"> <p><b>Type</b>:Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Vues </td> 
    <td colname="col3"> Pour stocker le nombre de courriers électroniques uniques qui ont été consultés. </td> 
-   <td colname="col4"> <p><b>Type</b>: Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
+   <td colname="col4"> <p><b>Type</b>:Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Clics </td> 
    <td colname="col3"> Pour stocker le nombre de clics sur un e-mail. </td> 
-   <td colname="col4"> <p><b>Type</b>: Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
+   <td colname="col4"> <p><b>Type</b>:Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Rebond </td> 
    <td colname="col3"> Pour stocker le nombre de courriers électroniques qui ont été reportés. </td> 
-   <td colname="col4"> <p><b>Type</b>: Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
+   <td colname="col4"> <p><b>Type</b>:Numérique </p> <p><b>Participation</b>: Activé </p> </td> 
   </tr> 
  </tbody> 
 </table>
