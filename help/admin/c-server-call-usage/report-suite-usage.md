@@ -1,20 +1,20 @@
 ---
 description: L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
 seo-description: L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
-seo-title: Affichage de l'utilisation des suites de rapports
-title: Affichage de l'utilisation des suites de rapports
-uuid: c 609 ed 99-9 acc -4023-905 a -81 a 40 dd 07 a 79
+seo-title: Affichage de l’utilisation des suites de rapports
+title: Affichage de l’utilisation des suites de rapports
+uuid: c609ed99-9ac-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: a6aac17d93877ed2a6525484ba5aa4e741ca116a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Affichage de l'utilisation des suites de rapports
+# Affichage de l’utilisation des suites de rapports
 
 L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Utilisation des appels serveur]** &gt; **[!UICONTROL Utilisation de la suite de rapports]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Utilisation **[!UICONTROL des appels]** serveur &gt; Utilisation des suites de **[!UICONTROL rapports]**
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ L’onglet Suite de rapports d’utilisation fournit des données d’utilisatio
 
 Le tableau de bord de la suite de rapports d’utilisation :
 
-* Indique l'utilisation des appels serveur de la période d'utilisation actuelle (tous les appels, principal, secondaire, mobile principal, mobile mobile) pour chaque suite de rapports de votre organisation Experience Cloud.
+* Affiche l’utilisation des appels serveur de la période d’utilisation actuelle (Tous les appels, Primaire, Secondaire, Primaire mobile, Secondaire) pour chaque suite de rapports de votre organisation Experience Cloud.
 * affiche le pourcentage de l’utilisation générale par catégories d’appels au serveur ;
 * est mis à jour quotidiennement ;
 * est téléchargeable ;
@@ -51,13 +51,13 @@ Cette option vous permet de télécharger les données d’utilisation actuelles
 
 | Élément du rapport | Description |
 |--- |--- |
-| Nom de fichier | Hardcoded name: Usage Report `day and time of report creation.csv` |
+| Nom de fichier | Nom codé en dur : Rapport d’utilisation `day and time of report creation.csv` |
 | Suites de rapports incluses | Toutes les suites de rapports que vous avez sélectionnées sur la page du rapport d’utilisation du serveur sont incluses dans cette liste. |
 | Types d’appels inclus | Spécifiez n’importe quelle combinaison entre : Tous les appels (par défaut), Principal, Secondaire, Principal mobile, Principal secondaire. |
-| Période | Vous pouvez sélectionner la période d’utilisation actuelle ou indiquer une période spécifique.  Pour définir une période personnalisée, indiquez le début de la période et la fin de la période. <br>**Remarque :** Vous ne pouvez pas télécharger les données d'utilisation avant janvier 2015 </br>. |
+| Période | Vous pouvez sélectionner la période d’utilisation actuelle ou indiquer une période spécifique.  Pour définir une période personnalisée, indiquez le début de la période et la fin de la période. <br>**** Remarque : Vous ne pouvez pas télécharger les données d’utilisation avant janvier 2015 </br>. |
 
 1. Cliquez sur **[!UICONTROL Télécharger]**.
 
-Voici une capture d'écran du fichier. csv téléchargé. Elle inclut une colonne pour l'identifiant de la suite de rapports. L'identifiant de suite de rapports spécifie un identifiant unique qui ne peut contenir que des caractères alphanumériques. Cet ID ne peut pas être modifié après la création d'une suite de rapports.
+Voici une capture d’écran de ce à quoi ressemble le fichier .csv téléchargé. Elle comprend une colonne pour l’identifiant de la suite de rapports. L’identifiant de la suite de rapports spécifie un identifiant unique qui ne peut contenir que des caractères alphanumériques. Cet identifiant ne peut pas être modifié après la création d’une suite de rapports.
 
 ![](assets/download-usage.png)
