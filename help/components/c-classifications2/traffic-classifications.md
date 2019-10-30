@@ -1,23 +1,23 @@
 ---
 description: Les classifications de trafic vous permettent de classifier des variables de trafic (props). Elles ne peuvent utiliser que des classifications de texte.
 seo-description: Les classifications de trafic vous permettent de classifier des variables de trafic (props). Elles ne peuvent utiliser que des classifications de texte.
-seo-title: Classifications du trafic
+seo-title: Classifications de trafic
 solution: Analytics
-subtopic: Gestionnaire
-title: Classifications du trafic
+subtopic: Classifications
+title: Classifications de trafic
 topic: Outils d’administration
-uuid: 091 bec 9 b -98 ff -4 d 67-b 789-e 51 c 2712839 f
+uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Classifications du trafic
+# Classifications de trafic
 
 Les classifications de trafic vous permettent de classifier des variables de trafic (props). Elles ne peuvent utiliser que des classifications de texte.
 
-## Traffic classifications {#concept_028079B29A9C412AA68910A87E11176F}
+## Classifications de trafic {#concept_028079B29A9C412AA68910A87E11176F}
 
 Les classifications de trafic vous permettent de classifier des variables de trafic (props). Elles ne peuvent utiliser que des classifications de texte.
 
@@ -40,7 +40,7 @@ Cette procédure décrit l’ajout ou la modification de classifications pour le
 1.   Dans le champ **Choisir le type de classification**, sélectionnez la variable qui doit contenir une classification. 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]**.
 
-   ![Informations sur les étapes](assets/traffic-classification.png)
+   ![Infos étape](assets/traffic-classification.png)
 
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]** or **[!UICONTROL Edit Classification]**.
 1. In the **[!UICONTROL Text Classification]** dialog box, configure the classification as desired:
