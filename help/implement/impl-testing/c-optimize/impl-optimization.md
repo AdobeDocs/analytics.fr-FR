@@ -8,8 +8,8 @@ subtopic: Résolution des problèmes
 title: Optimisation - Aperçu
 topic: Développeur et mise en œuvre
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ Le déploiement d’Analytics se divise en trois étapes principales.
 
 1. Le fichier de bibliothèque effectue une demande d’image auprès d’un serveur de collecte de données Adobe. Le serveur collecte les données en cours d’envoi et renvoie une image transparente 1x1 au navigateur du visiteur. Cette troisième étape augmente de manière négligeable la durée totale de téléchargement de la page.
 
->[!NOTE]
->
->Les clients peuvent prendre d’autres mesures pour réduire la surcharge au niveau d’Analytics.
+> [!NOTE] Les clients peuvent prendre d’autres mesures pour réduire la surcharge au niveau d’Analytics.
 
