@@ -8,7 +8,7 @@ title: Astuces et conseils concernant les règles de traitement
 topic: Outils d’administration
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,7 +23,7 @@ Cette section contient des instructions relatives au test des règles de traitem
 
 **Test des règles qui lisent des termes de recherche**
 
-Pour tout critère axé sur une recherche comme, par exemple, si prop1 contient« news », accédez au rapport prop 1, recherchez « news » et voyez s’il existe d’éventuelles correspondances imprévues.
+Pour tous les critères basés sur une recherche, comme si prop1 contient "news", accédez au rapport prop 1 et recherchez "news" et voyez s’il y a des correspondances que vous n’attendiez pas.
 
 **Test des règles qui lisent des variables**
 
@@ -31,7 +31,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 **Utilisation d’une suite de rapports de développement**
 
-Il est conseillé de configurer les règles de traitement sur une suite de rapports de développement afin de vous assurer de leur bon fonctionnement. Si possible, tâchez de copier les règles dans une petite suite de rapports de production avant un déploiement plus vaste.
+Nous vous recommandons de configurer les règles de traitement sur une suite de rapports de développement pour vous assurer qu’elles fonctionnent correctement. Si possible, tâchez de copier les règles dans une petite suite de rapports de production avant un déploiement plus vaste.
 
 ## Rechercher des valeurs vides {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -62,4 +62,3 @@ Les termes de recherche extraits d’une chaîne de requête doivent être codé
 Sélectionnez la condition de correspondance correcte afin de trouver la condition la plus restrictive. Vous pouvez rechercher des valeurs dans un rapport avant de créer une règle afin de vous assurer qu’il n’existe aucune correspondance indésirable. Vous devez, par exemple, effectuer une recherche dans le rapport Prop2 afin trouver tous les emplacements applicables avant d’activer cette règle.
 
 ![](assets/tips-startswith.png)
-
