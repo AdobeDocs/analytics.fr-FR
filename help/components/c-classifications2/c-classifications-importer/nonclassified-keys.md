@@ -1,23 +1,23 @@
 ---
 description: Les clés non classées sont regroupées dans des rapports de classification sous la forme d’un élément unique intitulé Aucun. Il peut se révéler utile de renommer Aucun en un élément plus explicite.
 seo-description: Les clés non classées sont regroupées dans des rapports de classification sous la forme d’un élément unique intitulé Aucun. Il peut se révéler utile de renommer Aucun en un élément plus explicite.
-seo-title: Clés non classées
+seo-title: Clés non classifiées
 solution: Analytics
-subtopic: Gestionnaire
-title: Clés non classées
+subtopic: Classifications
+title: Clés non classifiées
 topic: Outils d’administration
-uuid: b 73 a 9161-0 c 6 f -4 c 8 d -900 b -54 ab 2 c 36147 c
+uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Clés non classées
+# Clés non classifiées
 
 Les clés non classées sont regroupées dans des rapports de classification sous la forme d’un élément unique intitulé Aucun. Il peut se révéler utile de renommer Aucun en un élément plus explicite.
 
-## Non-classified keys {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
+## Clés non classifiées {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
 
 Les clés non classées sont regroupées dans des rapports de classification sous la forme d’un élément unique intitulé *`None`*. It can be useful to rename *`None`* to something more descriptive.
 
@@ -39,5 +39,5 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
 
    Pour suivre l’exemple illustré dans cette documentation, vous pouvez saisir « non-mobile campaign » dans une colonne intitulée [!UICONTROL Nom de campagne mobile].
 
-   Cette entrée renomme *`None`* dans *`non-mobile campaign`* le rapport [!UICONTROL Type] de campagne mobile.
+   Cette entrée renomme *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
 1. [Réimportez les données](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D) dans le système.
