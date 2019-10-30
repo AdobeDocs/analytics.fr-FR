@@ -8,8 +8,8 @@ subtopic: Variables
 title: Variables dynamiques
 topic: Développeur et mise en œuvre
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Les variables dynamiques sont utilisées lors de la capture simultanée des mêm
 
 Les variables dynamiques se révèlent également utiles pour visualiser les données selon différentes conditions de génération de rapports. Un code de suivi de campagne peut être capturé dans plusieurs eVars avec différents paramètres d’attribution et d’expiration de cookies. Les utilisateurs ont ainsi la possibilité de choisir la méthode à appliquer pour attribuer des mesures de conversion à ces campagnes.
 
->[!NOTE]
->
->Les variables dynamiques ne sont pas prises en charge conjointement avec les cookies (s_cc, s_sq, s_fid, s_vi et les cookies définis par un module externe). Vous ne pouvez pas utiliser `D=<cookie value>`.
+> [!NOTE] Les variables dynamiques ne sont pas prises en charge conjointement avec les cookies (s_cc, s_sq, s_fid, s_vi et les cookies définis par un module externe). Vous ne pouvez pas utiliser `D=<cookie value>`.
 
 La capture de longues chaînes de données dans plusieurs variables, sans les transmettre à plusieurs reprises, constitue un avantage considérable des variables dynamiques. Certains navigateurs limitent la longueur maximale des demandes GET HTTP (y compris la demande d’image Adobe). L’utilisation de variables dynamiques garantit la capture de toutes les données en réduisant la longueur de la demande faite aux serveurs Adobe lorsque les données sont dupliquées dans plusieurs variables..
 
@@ -67,13 +65,9 @@ Dans la demande d’image Adobe qui survient sur la page vue, si vous utilisez d
 
 Notez que la valeur de `D=[variable]` doit se trouver entre guillemets. Le code Analytics la considère alors comme une chaîne. La chaîne sera codée au format URL lors de sa transmission à Analytics (comme vous pourrez le voir en affichant la demande dans le DigitalPulse Debugger ou un utilitaire du même type). Cela est tout à fait normal. Les serveurs d’Adobe reconnaissent la construction `D=[variable]` et copient la valeur appropriée lorsqu’ils trouvent cette chaîne.
 
->[!NOTE]
->
->Lorsque vous utilisez la demande d’image pour effectuer le suivi des liens, le type de lien (téléchargement=lnk_d, sortie=lnk_e ou lien personnalisé=lnk_o) doit être défini, comme l’URL ou le nom du lien (pev2). Pour les liens, une implémentation manuelle s’avère nécessaire en insérant du code dans la balise `<a href>`.
+> [!NOTE] Lorsque vous utilisez la demande d’image pour effectuer le suivi des liens, le type de lien (téléchargement=lnk_d, sortie=lnk_e ou lien personnalisé=lnk_o) doit être défini, comme l’URL ou le nom du lien (pev2). Pour les liens, une implémentation manuelle s’avère nécessaire en insérant du code dans la balise `<a href>`.
 
->[!NOTE]
->
->Les variables dynamiques ne sont pas prises en charge conjointement avec les cookies (s_cc, s_sq, s_fid, s_vi et les cookies définis par un module externe). Vous ne pouvez pas utiliser `D=<cookie value>`.
+> [!NOTE] Les variables dynamiques ne sont pas prises en charge conjointement avec les cookies (s_cc, s_sq, s_fid, s_vi et les cookies définis par un module externe). Vous ne pouvez pas utiliser `D=<cookie value>`.
 
 <table id="table_A25D5EA2A8C446F5A55AB32955B9848C"> 
  <thead> 
@@ -139,7 +133,7 @@ Notez que la valeur de `D=[variable]` doit se trouver entre guillemets. Le code 
   <tr> 
    <td colname="col1"> 
     <code class="syntax javascript">
-      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
+      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d&nbsp;is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
     </code> </td> 
    <td colname="col2"> <p>Quatre façons de définir prop1 sur une campagne. </p> </td> 
   </tr> 
