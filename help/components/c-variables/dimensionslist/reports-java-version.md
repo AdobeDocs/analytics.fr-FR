@@ -4,10 +4,10 @@ seo-description: Regroupe les appareils mobiles en fonction de la version Java p
 seo-title: Version JavaScript
 solution: Analytics
 title: Version JavaScript
-topic: Présentation
-uuid: 797 ec 651-e 259-42 c 3-8008-8 a 1 ad 43621 a 3
+topic: Rapports
+uuid: 797ec651-e259-42c3-8008-8a1ad43621a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
