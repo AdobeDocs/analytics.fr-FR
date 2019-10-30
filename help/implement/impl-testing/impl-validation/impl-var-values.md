@@ -7,8 +7,8 @@ solution: Analytics
 title: Variables et valeurs
 topic: Développeur et mise en œuvre
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,8 +48,6 @@ var s_code=s.t();if(s_code)document.write(s_code)//-->
 
 Les noms de pages sont sensibles à la casse. Toute différence crée des enregistrements de page supplémentaires. Ainsi, « Home » et « home » sont deux pages différentes dans [!DNL Analytics].
 
->[!NOTE]
->
->Vous ne pouvez pas combiner plusieurs enregistrements de page dans des rapports.
+> [!NOTE] Vous ne pouvez pas combiner plusieurs enregistrements de page dans des rapports.
 
 Validez les liens signalés dans le rapport [!UICONTROL Liens personnalisés]. Assurez-vous que les paramètres corrects sont transmis à la fonction [!UICONTROL tl]. Pour plus d’informations sur les [!UICONTROL liens personnalisés], reportez-vous à la section [Suivi de liens](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
