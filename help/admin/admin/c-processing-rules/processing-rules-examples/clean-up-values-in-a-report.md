@@ -1,19 +1,19 @@
 ---
 description: Vous pouvez rechercher les fautes d’orthographe courantes dans les valeurs et les mettre à jour afin qu’elles s’affichent correctement dans les rapports.
 seo-description: Vous pouvez rechercher les fautes d’orthographe courantes dans les valeurs et les mettre à jour afin qu’elles s’affichent correctement dans les rapports.
-seo-title: Nettoyer les valeurs d'un rapport
+seo-title: Nettoyer les valeurs d’un rapport
 solution: Analytics
 subtopic: Règles de traitement
-title: Nettoyer les valeurs d'un rapport
+title: Nettoyer les valeurs d’un rapport
 topic: Outils d’administration
-uuid: fcd 72 afc -3 a 3 c -47 a 9-a 5 e 4-53389 dba 7 d 83
+uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Nettoyer les valeurs d'un rapport
+# Nettoyer les valeurs d’un rapport
 
 Vous pouvez rechercher les fautes d’orthographe courantes dans les valeurs et les mettre à jour afin qu’elles s’affichent correctement dans les rapports.
 
