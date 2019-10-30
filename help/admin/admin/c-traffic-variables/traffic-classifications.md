@@ -1,19 +1,19 @@
 ---
 description: Les classifications de trafic vous permettent de classifier des variables de trafic (props). Elles ne peuvent utiliser que des classifications de texte.
 seo-description: Les classifications de trafic vous permettent de classifier des variables de trafic (props). Elles ne peuvent utiliser que des classifications de texte.
-seo-title: Classifications du trafic
+seo-title: Classifications de trafic
 solution: Analytics
-subtopic: Gestionnaire
-title: Classifications du trafic
+subtopic: Classifications
+title: Classifications de trafic
 topic: Outils d’administration
-uuid: fec 2 f 725-7 aa 9-4985-b 8 a 9-f 21 b 0 b 3 e 995 c
+uuid: fec2f725-7aa9-4985-b8a9-f21b0b3e995c
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Classifications du trafic
+# Classifications de trafic
 
 Les classifications de trafic vous permettent de classifier des variables de trafic (props). Elles ne peuvent utiliser que des classifications de texte.
 
