@@ -5,7 +5,7 @@ seo-title: Avant D’Activer Cette Intégration
 title: Avant D’Activer Cette Intégration
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,8 +24,8 @@ Consultez les informations suivantes sur cette intégration des Connecteurs de d
 * **** Variables Analytics disponibles et configurées : Cette intégration requiert 5 événements personnalisés et 2 eVars personnalisées, et éventuellement 3 événements et 3 eVars supplémentaires. Voir Variables [d’intégration](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2)Analytics.
 
 * **** Représentant autorisé : Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise ; et, à ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans l'accord de service décrit ci-dessus.
-* **** Data Warehouse™ : Cette intégration requiert l’activation de l’entrepôt de données pour générer des segments de remarketing. Si vous n’avez pas activé l’entrepôt de données, contactez Adobe pour plus de détails.
-* **** ID du destinataire : L’intégration requiert que nous capturions et stockions un "identifiant visiteur" dans une variable Analytics (eVar). L’identifiant visiteur (souvent appelé "ID du destinataire") est une représentation codée ou numérique d’une adresse électronique du système Silverpop. Cet "ID de destinataire" est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui est extrait dans le système Silverpop et peut être utilisé à des fins de remarketing. Dans le cadre du processus de configuration, vous devez identifier une eVar à cet effet lorsque l'Assistant vous y invite.
+* **** Data Warehouse™ :Cette intégration requiert l’activation de l’entrepôt de données pour générer des segments de remarketing. Si vous n’avez pas activé l’entrepôt de données, contactez Adobe pour plus de détails.
+* **** ID du destinataire :L’intégration requiert que nous capturions et stockions un "identifiant visiteur" dans une variable Analytics (eVar). L’identifiant visiteur (souvent appelé "ID du destinataire") est une représentation codée ou numérique d’une adresse électronique du système Silverpop. Cet "ID de destinataire" est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui est extrait dans le système Silverpop et peut être utilisé à des fins de remarketing. Dans le cadre du processus de configuration, vous devez identifier une eVar à cet effet lorsque l'Assistant vous y invite.
 * **** Suivi externe : Si vous ne suivez pas actuellement la bonne pratique consistant à activer le suivi externe pour chaque campagne par courrier électronique envoyée, vous devez le faire pour garantir une intégration réussie. Consultez la section Silverpop ci-dessous pour plus de détails.
 * **** Respect de la vie privée : Vous devez comprendre qu’en activant le suivi des destinataires ou des identifiants des visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela a des implications en matière de confidentialité qui nécessitent la mise en oeuvre de procédures appropriées par votre organisation, comme la notification et le consentement des visiteurs de votre site.
 
@@ -36,9 +36,7 @@ Examinez les informations suivantes sur cette intégration de Connector de donn�
 * **** Compte Silverpop valide : Pour pouvoir utiliser l’intégration de courrier électronique des Connecteurs de données, un client doit disposer d’un compte Silverpop actif avec messagerie activée et d’informations d’identification d’utilisateur actives.
 * **Contactez Votre Représentant** Silverpop. Cette intégration n'est pas activée automatiquement par Silverpop. Vous devez contacter votre représentant Silverpop pour lancer la configuration Silverpop avant que les données ne soient importées ou exportées à partir d’Analytics.
 
->[!NOTE]
->
->Cette intégration fonctionne uniquement avec les organisations Engage (et non pas avec Transact).
+> [!NOTE] Cette intégration fonctionne uniquement avec les organisations Engage (et non pas avec Transact).
 
 ## Tarifs{#pricing}
 
