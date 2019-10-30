@@ -5,9 +5,9 @@ seo-title: Gestion des segments
 solution: Analytics
 title: Gestion des segments
 topic: Segments
-uuid: 47 d 54822-a 662-471 d -8 dab -03 ddf 6 c 2 f 395
+uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -50,7 +50,7 @@ Cette [vidéo YouTube d’Adobe Analytics](https://www.youtube.com/watch?v=CdfO
 
 L’Organisateur de segments des analyses ad hoc présente tous les segments que vous possédez et ceux partagés avec vous.
 
-To access the Segment Organizer in [!DNL ad hoc analysis]:
+Pour accéder à l’organiseur de segments dans [!DNL ad hoc analysis]:
 
 * Cliquez sur l’onglet **[!UICONTROL Segments]** du panneau de gauche, puis sur l’icône en forme de clé à molette ![ et sélectionnez **Organiser les segments]dans le menu.](assets/wrench_icon.png)[!UICONTROL **
 
