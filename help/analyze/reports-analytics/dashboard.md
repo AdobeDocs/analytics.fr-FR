@@ -8,7 +8,7 @@ title: Tableaux de bord et mini-rapports
 topic: Reports & Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,9 +34,7 @@ Remarque : Certains rapports fréquemment consultés ne peuvent pas être inclu
 * Rapports en temps réel
 * Autres tableaux de bord
 
->[!NOTE]
->
->The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. Toutefois, certains ou tous les mini-rapports afférents peuvent encore s’afficher, dans certains cas.
+> [!NOTE] Le tableau de bord Aperçu **[!UICONTROL du]** site n’est plus répertorié dans les rapports et analyses. Toutefois, certains ou tous les mini-rapports afférents peuvent encore s’afficher, dans certains cas.
 
 * Si, par exemple, vous avez uniquement trois rapports fréquemment consultés, Reports &amp; Analytics récupère deux rapports du tableau de bord Aperçu du site pour remplir le tableau de bord **[!UICONTROL Mes rapports recommandés].**
 * Par ailleurs, les nouvelles suites de rapports présentent initialement uniquement les mini-rapports Aperçu du site, jusqu’à ce qu’ils soient remplacés par vos rapports fréquemment consultés. Néanmoins, le tableau de bord sera intitulé **[!UICONTROL Mes rapports recommandés]**.
