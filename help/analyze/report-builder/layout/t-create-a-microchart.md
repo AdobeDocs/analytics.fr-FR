@@ -1,18 +1,18 @@
 ---
 description: Dans la Disposition personnalisée, vous pouvez convertir une colonne de valeurs de mesure en graphique à barres avec une valeur de pourcentage correspondante ou en valeur de pourcentage avec un graphique à barres correspondant. Le pourcentage correspond à la valeur de mesure ou au total de la requête globale non filtrée pour cette période.
 seo-description: Dans la Disposition personnalisée, vous pouvez convertir une colonne de valeurs de mesure en graphique à barres avec une valeur de pourcentage correspondante ou en valeur de pourcentage avec un graphique à barres correspondant. Le pourcentage correspond à la valeur de mesure ou au total de la requête globale non filtrée pour cette période.
-seo-title: Création d'un micrographique
+seo-title: Création d’un micrographique
 solution: Analytics
-title: Création d'un micrographique
+title: Création d’un micrographique
 topic: Créateur de rapports
-uuid: 778 ef 184-9946-4958-b 08 f -6 ee 8 c 86 a 0 f 69
+uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Création d'un micrographique
+# Création d’un micrographique
 
 Dans la Disposition personnalisée, vous pouvez convertir une colonne de valeurs de mesure en graphique à barres avec une valeur de pourcentage correspondante ou en valeur de pourcentage avec un graphique à barres correspondant. Le pourcentage correspond à la valeur de mesure ou au total de la requête globale non filtrée pour cette période.
 
