@@ -2,7 +2,7 @@
 title: Analyses entre appareils
 description: Analytics sur plusieurs périphériques change vos données, qui ne sont plus axées sur le périphérique mais sur la personne en assemblant les données du périphérique.
 translation-type: tm+mt
-source-git-commit: ca79141a353dbd09176dbbe295611656262ba107
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
