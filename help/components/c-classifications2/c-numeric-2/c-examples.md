@@ -3,12 +3,12 @@ description: Les exemples suivants fournissent des conseils pour importer des cl
 seo-description: Ces exemples fournissent des conseils pour importer des classifications numériques 2.
 seo-title: Exemples
 solution: Analytics
-subtopic: Gestionnaire
+subtopic: Classifications
 title: Exemples
 topic: Outils d’administration
-uuid: 0553 d 07 f -87 c 1-4372-90 ce -7118 a 6393 a 01
+uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -70,7 +70,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-En février, le coût de Product1 de l’utilisateur a diminué pour atteindre 15 % des recettes et Product2 25 % de ces recettes.
+En février, le coût de Produit1 de l’utilisateur est tombé à 15 % des recettes et Produit2 à 25 % des recettes.
 
 ## Résultats {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -170,9 +170,7 @@ Rapport : Produits
 |---|---|---|
 | Product1 | 10 000,23 $ | 2 500,05 $ |
 
->[!NOTE]
->
->Cette fonctionnalité permet aux utilisateurs avancés de déterminer des valeurs approximatives. Les informations obtenues ne doivent pas être considérées comme des valeurs exactes.
+> [!NOTE] Cette fonctionnalité permet aux utilisateurs avancés d’approcher des valeurs. Les informations obtenues ne doivent pas être considérées comme des valeurs exactes.
 
 <!-- 
 
