@@ -4,10 +4,10 @@ seo-description: Les taux de conversion mesurent généralement la conversion en
 seo-title: Entonnoir de conversion
 solution: Analytics
 title: Entonnoir de conversion
-topic: Présentation
-uuid: a 67 ce 302-fae 1-434 a-b 662-91672 e 85 cab 3
+topic: Rapports
+uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,13 +29,11 @@ Ce rapport peut également être personnalisé. Vous pouvez ainsi ajouter des é
 
 2. Ajouts au panier
 
-3. Passages en caisse
+3. Achats
 
 4. Achats
 
 Le tableau de rapport affiche des statistiques sur les ventes moyennes par clic publicitaire et sur le nombre moyen d’unités vendues par clic publicitaire. Vous pouvez ajouter des mesures et des événements personnalisés d’autres groupes de rapports à ces rapports. Ces entonnoirs présentent de nombreuses similitudes, mais ils sont basés sur des variables et des événements différents. Vous pouvez utiliser ces rapports pour afficher les tendances générales et les pourcentages d’utilisateurs qui déclenchent les événements spécifiques que vous indiquez. Vous pouvez également identifier les endroits où les utilisateurs ne poursuivent pas jusqu’aux événements, ce qui vous éclaire sur ce point précis dans le processus de conversion.
 
->[!NOTE]
->
->Les instances dans le contexte de ces rapports correspondent au nombre total de visites où une evar ou un événement a été défini.
+> [!NOTE] Dans le contexte de ces rapports, les instances correspondent au nombre total de visites au cours desquelles une eVar ou un événement a été défini.
 
