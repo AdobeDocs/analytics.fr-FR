@@ -7,7 +7,7 @@ title: Gestionnaire de suites de rapports
 topic: Outils d’administration
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Une suite de rapports définit les rapports indépendants et complets d’un sit
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites de **[!UICONTROL rapports]**
 
->[!NOTE]
->
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Reportez-vous à la documentation [de la suite de rapports](/help/components/vrs/vrs-about.md)virtuelle.
+> [!NOTE] Les suites de rapports virtuelles sont gérées via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; Suites **[!UICONTROL de rapports]** virtuelles. Reportez-vous à la documentation [de la suite de rapports](/help/components/vrs/vrs-about.md)virtuelle.
 
 ## Descriptions du Gestionnaire de Report Suites {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -39,7 +37,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
    <td colname="col2"> <p>Le <span class="wintitle">Gestionnaire de Report Suites</span> met en surbrillance la suite de rapports sélectionnée. Vous pouvez sélectionner plusieurs suites de rapports en utilisant les combinaisons <span class="uicontrol">Ctrl+clic</span> ou <span class="uicontrol">Maj+clic</span>. </p> <p>Une suite de rapports sélectionnée le reste jusqu’à ce que vous en sélectionniez une autre. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> Téléchargement</span> </td> 
+   <td colname="col1"> <span class="wintitle"> Télécharger</span> </td> 
    <td colname="col2"> Génère une feuille de calcul Excel de tous les paramètres des suites de rapports actuellement sélectionnées. </td> 
   </tr> 
   <tr> 
