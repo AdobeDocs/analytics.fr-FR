@@ -1,16 +1,16 @@
 ---
 description: Dans le calendrier, vous pouvez spécifier des dates et des plages de dates, ou sélectionner un paramètre prédéfini.
 seo-description: Dans le calendrier, vous pouvez spécifier des dates et des plages de dates, ou sélectionner un paramètre prédéfini.
-seo-title: Calendrier       et présentation des plages de dates
-title: Présentation du calendrier et des plages de dates
-uuid: 3 d 7727 ba -9070-4 f 7 c -815 f-c 98 baa 4 e 3 a 2 d
+seo-title: Calendrier et plages de dates - Aperçu
+title: Calendrier et plages de dates - Aperçu
+uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation du calendrier et des plages de dates
+# Calendrier et plages de dates - Aperçu
 
 Dans le calendrier, vous pouvez spécifier des dates et des plages de dates, ou sélectionner un paramètre prédéfini.
 
@@ -28,7 +28,7 @@ Vous pouvez également faire glisser des dates (et des dimensions temporelles) d
 | Paramètre | Description |
 |--- |--- |
 | Jours sélectionnés | Jours/semaines/mois/années sélectionnés. |
-| Utiliser les dates de déploiement | Grâce aux dates de déploiement, vous pouvez générer un rapport dynamique qui recherche une période donnée, en amont ou en aval, en fonction de la date d’exécution du rapport. Si, par exemple, vous souhaitez générer en décembre un rapport sur toutes les commandes passées le mois dernier (d’après le champ Date de création), les commandes passées en novembre seront incluses dans le rapport. Si vous exécutez ce même rapport en janvier, vous verrez les commandes passées en décembre.  Aperçu de la date : indique quelle période englobe le calendrier variable.  Début : choisissez parmi : aujourd’hui, semaine en cours, mois en cours, trimestre en cours, année en cours.  Fin : choisissez parmi : aujourd’hui, semaine en cours, mois en cours, trimestre en cours, année en cours.  For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
+| Utiliser les dates de déploiement | Grâce aux dates de déploiement, vous pouvez générer un rapport dynamique qui recherche une période donnée, en amont ou en aval, en fonction de la date d’exécution du rapport. Par exemple, si vous souhaitez générer un rapport sur toutes les commandes passées le mois dernier (en fonction du champ Date de création) et que vous avez exécuté ce rapport en décembre, vous verrez les commandes passées en novembre. Si vous exécutez ce même rapport en janvier, vous verrez des commandes passées en décembre.  Aperçu de la date : indique quelle période englobe le calendrier variable.  Début : choisissez parmi : aujourd’hui, semaine en cours, mois en cours, trimestre en cours, année en cours.  Fin : choisissez parmi : aujourd’hui, semaine en cours, mois en cours, trimestre en cours, année en cours.  For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
 | Période | Permet de sélectionner une période prédéfinie. Par défaut : 30 derniers jours. |
 | Appliquer à tous les panneaux | Permet de modifier la période sélectionnée pour le panneau en cours ainsi que pour tous les autres panneaux du projet. |
 | Appliquer | Applique la période à ce panneau seulement. |
