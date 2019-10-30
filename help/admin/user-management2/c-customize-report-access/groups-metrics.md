@@ -1,20 +1,20 @@
 ---
 description: Activez les autorisations pour les mesures de trafic, les mesures de conversion, les événements personnalisés, les événements de solution et la reconnaissance de contenu.
-keywords: groupes ; autorisations
+keywords: groupes;autorisations
 seo-description: Activez les autorisations pour les mesures de trafic, les mesures de conversion, les événements personnalisés, les événements de solution et la reconnaissance de contenu.
-seo-title: Personnalisation des autorisations de mesure
+seo-title: Personnalisation des autorisations liées aux mesures
 solution: Analytics
 subtopic: Utilisateurs et groupes
-title: Personnalisation des autorisations de mesure
+title: Personnalisation des autorisations liées aux mesures
 topic: Outils d’administration
-uuid: 7 bfff 68 a -2 add -4068-a 07 d -87 a 4 f 624634 c
+uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Personnalisation des autorisations de mesure
+# Personnalisation des autorisations liées aux mesures
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 Activez les autorisations pour les mesures de trafic, les mesures de conversion, les événements personnalisés, les événements de solution et la reconnaissance de contenu.
 
-**[!UICONTROL Gestion utilisateur]** &gt; **[!UICONTROL Groupes]** &gt; **[!UICONTROL Accès aux rapports]** &gt; **[!UICONTROL Mesures]** &gt; **[!UICONTROL Personnaliser]**
+**[!UICONTROL Gestion]** utilisateur &gt; **[!UICONTROL Groupes]** &gt; Accès aux **** rapports &gt; **[!UICONTROL Mesures]** &gt; Personnaliser ****
 
 Les paramètres sur la page Personnaliser Mesures s’appliquent aux suites de rapports sélectionnées sur la page [!UICONTROL Définition des groupes d’utilisateurs].
 
@@ -36,7 +36,7 @@ Vous pouvez définir des autorisations pour les événements personnalisés et l
 
 Pour chaque groupe personnalisé qui comprend des mesures, tous les événements de solution Analytics sont ajoutés comme de nouvelles mesures.
 
-See [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md) for information about metrics used in Analytics.
+Pour plus d’informations sur les mesures utilisées dans Analytics, voir Présentation [des](/help/components/c-variables/c-metrics/metricslist.md) mesures.
 
 ## Reconnaissance du contenu
 
