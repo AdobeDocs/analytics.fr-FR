@@ -47,7 +47,7 @@ Pour obtenir des informations et des instructions pour la création et la gestio
 
 >[!NOTE]
 >
->In Ad Hoc Analysis, you cannot add date ranges to segments. Cette fonctionnalité est disponible dans Analysis Workspace. Vous ne pouvez pas non plus utiliser le séquencement Seulement avant/Seulement après dans les Ad Hoc Analysis.
+>Dans les analyses ad hoc, vous ne pouvez pas ajouter de plages de dates aux segments. Cette fonctionnalité est disponible dans Analysis Workspace. Vous ne pouvez pas non plus utiliser le séquencement Seulement avant/Seulement après dans les Ad Hoc Analysis.
 
 ## Qu’est-il advenu de mes segments existants ? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
