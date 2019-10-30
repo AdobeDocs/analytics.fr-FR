@@ -1,22 +1,20 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Limites et spécifications
-title: Limites et spécifications
-uuid: 6717 b 6 ea -7 e 01-49 b 8-8 f 6 e-fb 733 a 03 b 687
+seo-title: Limitations et spécifications
+title: Limitations et spécifications
+uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Limites et spécifications
+# Limitations et spécifications
 
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE]
->
->Ces restrictions s'appliquent uniquement à l'option « Publier les requêtes Créateur de rapports sous forme de tableaux de jeu de données BI Power ».
+> [!NOTE] Ces restrictions s’appliquent uniquement à l’option "Publier les requêtes du créateur de rapports en tant que tableaux de jeux de données Power BI".
 
 * 100 requêtes du Créateur de rapports peuvent être exportées au maximum vers Power BI par classeur.
 * Le processus de planification arrêtera l’exportation des requêtes une fois que la 101e requête sera atteinte.
@@ -24,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE]
->
->Cette spécification s'applique aux options « Publier toutes les requêtes du créateur de rapports sous forme de tableaux de jeu de données BI Power » et « Publier tous les tableaux formatés dans le classeur sous forme de tableaux de jeu de données Power BI ».
+> [!NOTE] Cette spécification s’applique aux options "Publier toutes les requêtes du créateur de rapports en tant que tables de jeux de données Power BI" et "Publier toutes les tables formatées dans le classeur en tant que tables de jeux de données Power BI".
 
 La modification d’une requête du Créateur de rapports après sa publication sur Power BI peut entraîner des problèmes.
 
