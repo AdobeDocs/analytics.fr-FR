@@ -1,22 +1,22 @@
 ---
-description: La comparaison de dates dans Analysis Workspace vous permet de prendre n'importe quelle colonne contenant une plage de dates et de créer une comparaison de dates courante, telle que l'année par-dessus, le trimestre, le trimestre, le mois, etc.
-seo-description: La comparaison de dates dans Analysis Workspace vous permet de prendre n'importe quelle colonne contenant une plage de dates et de créer une comparaison de dates courante, telle que l'année par-dessus, le trimestre, le trimestre, le mois, etc.
-seo-title: Comparaison de dates
-title: Comparaison de dates
-uuid: ef 18 f 9 d 9-b 6 ad -4859-b 7 c 9-9750 ca 0 df 519
+description: La comparaison de dates dans Analysis Workspace vous permet de prendre n’importe quelle colonne contenant une plage de dates et de créer une comparaison de dates commune, telle qu’une année sur l’autre, un trimestre sur un trimestre, un mois sur un mois, etc.
+seo-description: La comparaison de dates dans Analysis Workspace vous permet de prendre n’importe quelle colonne contenant une plage de dates et de créer une comparaison de dates commune, telle qu’une année sur l’autre, un trimestre sur un trimestre, un mois sur un mois, etc.
+seo-title: Comparaison des dates
+title: Comparaison des dates
+uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Comparaison de dates
+# Comparaison des dates
 
 Dans Analysis Workspace, appliquez une comparaison des dates commune à partir de n’importe quelle colonne contenant une plage de dates, par exemple : année par année, trimestre par trimestre, mois par mois, etc.
 
 ## Comparaison des périodes {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
-Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question « Où nous situons-nous par rapport à la même date l’an dernier ? Mieux ou pire ? » est essentielle pour bien comprendre vos activités. La comparaison des dates inclut automatiquement une colonne « différence », qui présente le pourcentage de changement par rapport à une période donnée.
+Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question « Où nous situons-nous par rapport à la même date l’an dernier ? Mieux ou pire ? » est essentielle pour bien comprendre vos activités. La comparaison de dates inclut automatiquement une colonne "différence", qui indique le pourcentage de changement par rapport à une période donnée.
 
 1. Créez un tableau à structure libre, avec les dimensions et mesures à comparer sur une certaine période.
 1. Cliquez avec le bouton droit de la souris dans une ligne de tableau, puis sélectionnez **[!UICONTROL Comparer des périodes]**.
@@ -25,7 +25,7 @@ Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce conte
 
    >[!IMPORTANT]
    >
-   >Cette option de clic droit est désactivée pour les lignes de mesures, les lignes de plage de dates et les lignes de dimension temporelle.
+   >Cette option de clic droit est désactivée pour les lignes de mesure, les lignes de plage de dates et les lignes de dimension temporelle.
 
 1. Selon la façon dont sont définies les plages de dates du tableau, les options de comparaison suivantes sont disponibles :
 
