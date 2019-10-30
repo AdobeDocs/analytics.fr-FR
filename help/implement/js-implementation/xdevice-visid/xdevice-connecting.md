@@ -8,8 +8,8 @@ subtopic: Visiteurs
 title: Connexion des utilisateurs à l’ensemble des appareils
 topic: Développeur et mise en œuvre
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la [documentation d’Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/fr_FR/mcdc/).
+>Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la documentation [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
 L’identification des visiteurs sur plusieurs appareils vous aide à connecter des visiteurs sur plusieurs appareils. La fonction d’identification des visiteurs sur plusieurs périphériques utilise la variable d’identifiant visiteur, s.visitorID, pour associer des visiteurs.
 
@@ -26,7 +26,7 @@ Lorsque vous fournissez une telle variable avec un accès, le système recherche
 
 En règle générale, [!UICONTROL l’identifiant visiteur] est défini après l’authentification ou après qu’un visiteur a effectué une autre action vous permettant de l’identifier de manière unique, indépendamment du périphérique utilisé.  Il est conseillé de créer un hachage du nom d’utilisateur ou un ID interne ne contenant aucune information d’identification personnelle.
 
-Dans l’ [exemple précédent](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md), dès que le client s’est connecté à partir de chacun des appareils, tous se voient associés au même profil. Si, par la suite, le visiteur se déconnecte à partir d’un appareil, l’assemblage continue de fonctionner, dans la mesure où les [!UICONTROL identifiants visiteur] stockés dans un cookie sont déjà associés au même profil du visiteur.  Il est conseillé de renseigner la variable [!UICONTROL s.visitorID] lorsque cela s’avère possible, au cas où le cookie [!UICONTROL identifiant visiteur ]serait supprimé.
+Dans l’  [exemple précédent](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md), dès que le client s’est connecté à partir de chacun des appareils, tous se voient associés au même profil. Si, par la suite, le visiteur se déconnecte à partir d’un appareil, l’assemblage continue de fonctionner, dans la mesure où les [!UICONTROL identifiants visiteur] stockés dans un cookie sont déjà associés au même profil du visiteur.  Il est conseillé de renseigner la variable [!UICONTROL s.visitorID] lorsque cela s’avère possible, au cas où le cookie [!UICONTROL identifiant visiteur ]serait supprimé.
 
 ## Comptabilisation des visiteurs uniques et des visites {#section_70330AB6724C4E419A4BD0BDD54641AC}
 
