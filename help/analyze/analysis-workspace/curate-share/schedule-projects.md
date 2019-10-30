@@ -5,10 +5,10 @@ seo-description: Gérez des projets planifiés d’Analysis Workspace.
 seo-title: Gestionnaire de projets planifiés
 solution: Analytics
 title: Gestionnaire de projets planifiés
-topic: Reports and Analytics
-uuid: 28 e 3 e 0 de -3 cca -40 b 1-a 9 de -93 a 10 bd 31646
+topic: Reports & Analytics
+uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Gérez des projets planifiés d’Analysis Workspace.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Projets planifiés]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; Projets **** planifiés.
 
 ![](assets/components-scheduled-projects.png)
 
