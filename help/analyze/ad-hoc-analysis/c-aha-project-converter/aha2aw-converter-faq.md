@@ -5,7 +5,7 @@ seo-title: FAQ Convertisseur de projets
 title: FAQ Convertisseur de projets
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col1"> <p><b>Q : Comment sont converties les périodes ?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Les périodes « les X derniers jours » dans Ad Hoc Analysis <i>excluent</i> la date d’aujourd’hui, alors qu’Analysis Workspace <i>l’inclut</i>. Par conséquent, les périodes comme « les 90 derniers jours » peuvent ne pas correspondre parfaitement d’un outil à l’autre. Utilisez les périodes personnalisables pour retrouver la même période dans Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. De ce fait, les plages de dates telles que "90 derniers jours" peuvent ne pas correspondre exactement entre les outils. Utilisez les périodes personnalisables pour retrouver la même période dans Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Les périodes des espaces de travail Ad Hoc Analysis sont appliquées à l’échelle du projet / de l’espace de travail dans Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Les périodes des rapports Ad Hoc Analysis sont appliquées à l’échelle des colonnes de tableau dans Workspace. </li> 
     </ul> <p>Les périodes personnalisables peuvent être modifiées sous <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Composants</span> &gt; <span class="uicontrol">Périodes</span>. </p> </td> 
