@@ -4,10 +4,10 @@ seo-description: Le rapport Mesures du site > Aperçu d’un site s’affiche �
 seo-title: Aperçu du site
 solution: Analytics
 title: Aperçu du site
-topic: Présentation
-uuid: 6 bd 9 ca 4 b -9026-4 d 31-9 fb 3-3112 a 37 cf 845
+topic: Rapports
+uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
