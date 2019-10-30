@@ -7,8 +7,8 @@ solution: Analytics
 title: Sérialisation des événements - Aperçu
 topic: Développeur et mise en œuvre
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,11 +22,9 @@ Elle s’avère très utile dans les cas suivants :
 * Une page peut être rechargée ou actualisée et envoyer de manière répétée un événement. La [!UICONTROL sérialisation d’événements] empêche une nouvelle comptabilisation des événements en utilisant un numéro de série pour chaque événement.
 * L’utilisateur enregistre la page sur son ordinateur en vue d’une consultation ultérieure. Ce scénario est assez courant sur les pages de confirmation d’achat afin de vérifier les tickets d’achat. La [!UICONTROL sérialisation d’événements] empêche le rechargement suivant de la page de recomptabiliser les événements.
 
->[!NOTE]
->
->Les sources de données ne prennent pas en charge la sérialisation ou la déduplication des événements.
+> [!NOTE] Les sources de données ne prennent pas en charge la sérialisation ou la déduplication des événements.
 
-Ce document décrit le processus de mise en œuvre de la [!UICONTROL sérialisation d’événements] pour les événements de [!UICONTROL conversion] et [!UICONTROL personnalisés]. Pour utiliser la [!UICONTROL sérialisation des événements], vous devez l’activer dans **[!UICONTROL Administration]** &gt; **[!UICONTROL Suite de rapports]** &gt; **[!UICONTROL [sélectionnez la suite de rapports]]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Événements de succès]**. Sélectionnez ensuite les événements que vous voulez enregistrer dans la colonne [!UICONTROL Enregistrement d’événement unique].
+Ce document décrit le processus de mise en œuvre de la [!UICONTROL sérialisation d’événements] pour les événements de [!UICONTROL conversion] et [!UICONTROL personnalisés]. Pour utiliser la [!UICONTROL sérialisation des événements], vous devez l’activer dans **[!UICONTROL Administration]** &gt; **[!UICONTROL Suite de rapports]** &gt; **[!UICONTROL [sélectionnez la suite de rapports]]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Événements de succès]**. Sélectionnez ensuite les événements que vous voulez enregistrer dans la colonne [!UICONTROL Enregistrement d’événement unique.]
 
 ## Comportement par défaut {#section_892BB2BEFC434B69869D4504A8B54308}
 
