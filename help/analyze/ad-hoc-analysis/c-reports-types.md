@@ -1,18 +1,18 @@
 ---
 description: Descriptions des types de rapport utilisés dans Experience Cloud.
 seo-description: Descriptions des types de rapport utilisés dans Experience Cloud.
-seo-title: Types de rapport
+seo-title: Types de rapports
 solution: Analytics
-title: Types de rapport
+title: Types de rapports
 topic: Ad Hoc Analysis
-uuid: 357102 eb-a 172-40 ec-a 302-01 c 87 abaacb 5
+uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Types de rapport
+# Types de rapports
 
 Descriptions des types de rapport utilisés dans Experience Cloud.
 
