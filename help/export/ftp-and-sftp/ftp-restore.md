@@ -1,18 +1,18 @@
 ---
 description: Les données qui ont été supprimées d’un compte FTP ne peuvent plus être restaurées par Adobe.
-keywords: ftp ; sftp
+keywords: ftp;sftp
 seo-description: Les données qui ont été supprimées d’un compte FTP ne peuvent plus être restaurées par Adobe.
-seo-title: Restauration de données FTP et de comptes FTP supprimés
+seo-title: Restauration des données et des comptes FTP supprimés
 solution: Analytics
-title: Restauration de données FTP et de comptes FTP supprimés
-uuid: 79 bed 9 e 4-c 84 f -468 f-a 33 e -55 c 51 b 2 d 16 da
+title: Restauration des données et des comptes FTP supprimés
+uuid: 79bed9e4-c84f-468f-a33e-55c51b2d16da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Restauration de données FTP et de comptes FTP supprimés
+# Restauration des données et des comptes FTP supprimés
 
 Les données qui ont été supprimées d’un compte FTP ne peuvent plus être restaurées par Adobe.
 
