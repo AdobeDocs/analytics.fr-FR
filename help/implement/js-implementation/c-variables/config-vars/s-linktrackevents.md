@@ -5,16 +5,16 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.linkTrackEvents
 
-The  variable is a comma-separated list of events that are sent with a [!UICONTROL custom], [!UICONTROL exit], or [!UICONTROL download] link.
+La variable  est une liste d’événements séparés par des virgules, qui sont envoyés avec un lien [!UICONTROL personnalisé], de [!UICONTROL sortie] ou de [!UICONTROL téléchargement].
 
-If an event is not in *`linkTrackEvents`*, it is not sent to [!DNL Analytics], even if it is populated in the [!UICONTROL onClick] event of a link, as shown in the following example:
+Si un événement ne figure pas dans la variable *`linkTrackEvents`*, il n’est pas envoyé à [!DNL Analytics], même s’il est renseigné dans l’événement [!UICONTROL onClick] d’un lien, comme illustré dans l’exemple suivant :
 
 ```js
 s.linkTrackVars="events" 
@@ -28,7 +28,7 @@ Dans le premier lien pointant vers [!DNL help.php], vous pouvez constater que la
 
 Pour éviter toute confusion et tout problème potentiel, Adobe recommande de renseigner *`linkTrackVars`* et *`linkTrackEvents`* dans l’événement [!UICONTROL onClick] d’un lien utilisé pour le suivi des liens.
 
-The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. Cette variable n’est prise en compte que si *`linkTrackVars`* contient "events".
+La variable *`linkTrackEvents`* contient les événements qui doivent être envoyés avec des liens [!UICONTROL personnalisés], de [!UICONTROL téléchargement] et de [!UICONTROL sortie]. Cette variable n’est prise en compte que si *`linkTrackVars`* contient « events ».
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
@@ -36,13 +36,13 @@ The *`linkTrackEvents`* variable contains the events that should be sent with [!
 
 ## Syntaxe et valeurs possibles
 
-La syntaxe de la variable *`linkTrackEvents`* est une liste d’événements séparés par des virgules (aucun espace).
+La variable *`linkTrackEvents`* est une liste d’événements séparés par des virgules (aucun espace).
 
 ```js
 s.linkTrackEvents="event1[,event2[,event3[...]]]"
 ```
 
-Seuls les noms d’événement sont autorisés dans *`linkTrackEvents`*. These events are listed in [Events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). Si le nom de l’événement est précédé ou suivi d’un espace, il ne peut pas être envoyé avec des demandes d’images de lien.
+Seuls les noms d’événement sont autorisés dans *`linkTrackEvents`*. Ces événements sont répertoriés à la section [Événements](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). Si le nom de l’événement est précédé ou suivi d’un espace, il ne peut pas être envoyé avec des demandes d’images de lien.
 
 ## Exemples
 
@@ -60,8 +60,8 @@ Aucun
 
 ## Pièges, questions et conseils
 
-* Le fichier JavaScript utilise uniquement *`linkTrackEvents`* si *`linkTrackVars`* contient la variable "events". "events" ne doit être inclus dans *`linkTrackVars`* que lorsque *`linkTrackEvents`* est défini.
+* Le fichier JavaScript utilise uniquement *`linkTrackEvents`* si *`linkTrackVars`* contient la variable « events ». La variable « events » ne doit être incluse dans *`linkTrackVars`* uniquement lorsque la variable *`linkTrackEvents`* est définie.
 
-* Beware if an event is fired on a page, and is listed in *`linkTrackEvents`*. That event is recorded again with any [!UICONTROL exit], [!UICONTROL download], or [!UICONTROL custom] links unless the events variable is reset prior to that event (in the [!UICONTROL onClick] of a link or after the call to the *`t()`* function).
+* Soyez vigilant si un événement est déclenché sur une page et répertorié dans *`linkTrackEvents`*. Cet événement est à nouveau enregistré avec tout lien de [!UICONTROL sortie], de [!UICONTROL téléchargement] ou [!UICONTROL personnalisé], sauf si la variable « events » est réinitialisée avant qu’il ne se produise (dans l’événement [!UICONTROL onClick] d’un lien ou après l’appel à la fonction *`t()`*).
 
-* If *`linkTrackEvents`* contains spaces between event names, the events are not recorded.
+* Si la variable *`linkTrackEvents`* contient des espaces entre les noms d’événements, les événements ne sont pas enregistrés.
