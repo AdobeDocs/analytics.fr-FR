@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Requêtes de données - Assistant Requête Etape 1
-title: Requêtes de données - Assistant Requête Etape 1
-uuid: 717542 c 3-e 4 aa -4 e 00-b 0 ca-cadlux 219 d 13
+seo-title: 'Requêtes de données - Assistant Requête : Étape 1'
+title: 'Requêtes de données - Assistant Requête : Étape 1'
+uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 1e7dc9c769a9980e7b60bd395e7c68d5e446dae3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Requêtes de données - Assistant Requête Etape 1
+# Requêtes de données - Assistant Requête : Étape 1
 
 Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la suite de rapports, le type de rapport, des segments, ainsi que de configurer des dates.
 
@@ -26,11 +26,11 @@ Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la su
 
 1. **Autoriser le remplacement de la liste de publication** : lorsque vous planifiez un rapport, vous pouvez choisir une liste de publication à utiliser dans le cadre de la distribution. Publishing lists are set up in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin tools]**. La suite de rapports affectée à cette requête est remplacée par l’identifiant de suite de rapports attribué à chaque destinataire de la liste de publication. Reportez-vous à la section [Autorisation des remplacements de la liste de publication](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C).
 
-1. **Type de rapport** : indique le rapport de base à exécuter dans votre requête de données. Un seul rapport est exécuté par requête. Ce rapport peut contenir des dimensions et des mesures de type « un à plusieurs ». Les mesures et dimensions affectées à un type de rapport sont affichées dans l’interface [!UICONTROL Assistant Requête : Étape 2]. See [Select Report Types](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC).
+1. **Type de rapport** : indique le rapport de base à exécuter dans votre requête de données. Un seul rapport est exécuté par requête. Ce rapport peut contenir des dimensions et des mesures de type « un à plusieurs ». Les mesures et dimensions affectées à un type de rapport sont affichées dans l’interface [!UICONTROL Assistant Requête : Étape 2]. Voir [Sélection des types](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC)de rapports.
 
-1. **Plages de dates** : cette option définit la période couverte par la requête. Il existe plusieurs types de périodes de requête, telles que « prédéfinies », « fixes » et « variables ». Il ne peut pas y avoir plus de 366 périodes. Vous pouvez également choisir une plage de dates spécifiées par une cellule et enregistrer des plages de dates en tant que modèles en vue d’une utilisation ultérieure.  See [Configuring Report Dates](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+1. **Plages de dates** : cette option définit la période couverte par la requête. Il existe plusieurs types de périodes de requête, telles que « prédéfinies », « fixes » et « variables ». Il ne peut pas y avoir plus de 366 périodes. Vous pouvez également choisir une plage de dates spécifiées par une cellule et enregistrer des plages de dates en tant que modèles en vue d’une utilisation ultérieure.  Voir [Configuration des dates des rapports](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 
-1. **Appliquer la granularité** : la granularité définit le niveau des détails temporels inclus dans le rapport. Reportez-vous à la section [Granularité](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
+1. **Appliquer la granularité** : la granularité définit le niveau des détails temporels inclus dans le rapport. Voir [Granularité](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
 >[!MORE_LIKE_THIS]
 >
