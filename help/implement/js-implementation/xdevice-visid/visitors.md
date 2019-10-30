@@ -8,8 +8,8 @@ subtopic: Visiteurs
 title: Visiteurs
 topic: Développeur et mise en œuvre
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la [documentation d’Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/fr_FR/mcdc/).
+>Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la documentation [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
 
 Analytics comptabilise chaque identifiant visiteur effectif unique comme un visiteur unique.
 
