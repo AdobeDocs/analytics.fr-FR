@@ -7,8 +7,8 @@ solution: Analytics
 title: Mesure de liens personnalisés sur des protocoles mobiles
 topic: Développeur et mise en œuvre
 uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,4 +38,4 @@ Une URL de mesure de liens personnalisés se présente comme suit :
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-Pour plus d’informations, reportez-vous au [livre blanc des redirections Suivi des liens de sortie](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).
+Pour plus d’informations, voir le [livre blanc Redirections de suivi de liens de sortie](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).
