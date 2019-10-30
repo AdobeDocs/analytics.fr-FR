@@ -8,7 +8,7 @@ title: Utilisation du paramètre Horodatages (facultatif)
 topic: Développeur et mise en œuvre
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,17 +23,15 @@ Le paramètre Horodatages (facultatif) est défini par défaut pour toutes les n
 * Envoyez des données horodatées d’une application mobile vers une suite de rapports globale.
 * Mettez à niveau les applications afin d’utiliser les horodatages sans avoir à créer de suite de rapports.
 
->[!NOTE]
->
->Le paramètre Horodatages (facultatif) est le paramètre par défaut pour toutes les nouvelles suites de rapports générées à partir d’un modèle. Les nouvelles suites de rapports copiées à partir d’une suite de rapports existante héritent des paramètres de la suite de rapports d’origine.
+> [!NOTE] Le paramètre Horodatages (facultatif) est le paramètre par défaut pour toutes les nouvelles suites de rapports générées à partir d’un modèle. Les nouvelles suites de rapports copiées à partir d’une suite de rapports existante héritent des paramètres de la suite de rapports d’origine.
 
 Voir [Horodatages (facultatif)](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) pour en savoir plus sur la configuration.
 
-## Horodatages (facultatif) : intégration de données horodatées et non horodatées. {#section_BF17CB593044462B993FD0D28EA56518}
+## Horodatages (facultatif) : intégration de données horodatées et non horodatées{#section_BF17CB593044462B993FD0D28EA56518}
 
-Avec l’option Horodatages (facultatif), vous pouvez combiner des données horodatées et non horodatées sans aucune perte de données. Les données hors ligne avec des horodatages générés par un appareil mobile peuvent être combinées à des données en direct non horodatées d’une page Web, ou intégrées aux données d’une plateforme quelconque à l’aide d’un appel d’horodatage côté client.
+Avec l’option Horodatages (facultatif), vous pouvez combiner des données horodatées et non horodatées sans aucune perte de données. Les données hors ligne horodatées générées par un appareil mobile peuvent être combinées à des données en direct non horodatées d’une page Web, ou intégrées aux données d’une plateforme quelconque à l’aide d’un appel d’horodatage côté client.
 
-* **Données horodatées**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
+* **Données horodatées**. Les données d’horodatage côté client sont capturées et envoyées directement avec les données du périphérique à l’aide des variables d’horodatage côté client : Javascript sur une page web ou à l’aide d’un appel de SDK mobile ([!DNL offlineEnabled=true]) dans une application mobile.
 * **Données non horodatées**. Adobe définit un horodatage sur les données non horodatées dans une suite de rapports lorsque les données parviennent aux serveurs de collection.
 
 ![](assets/timestamp_v_non2.png)
@@ -62,7 +60,7 @@ Vous pouvez combiner les données dans une suite de rapports globale de plusieur
 
 >[!IMPORTANT]
 >
->Planifiez soigneusement la conception de chaque jeu de données de composant afin que la combinaison soit logique dans une suite de rapports globale.
+>Concevez avec soin chaque jeu de données du composant de sorte que la combinaison soit logique dans une suite de rapports globale.
 
 ## Bonnes pratiques lors du recours aux horodatages {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -80,4 +78,4 @@ Vous trouverez ci-dessous quelques bonnes pratiques et autres exigences et restr
 
    ![](assets/timestamp_v_non.png)
 
-   En outre, les applications hybrides ne doivent pas définir l’attribut visitorID.
+   En outre, les applications hybrides ne doivent pas définir l’attribut visitor ID.
