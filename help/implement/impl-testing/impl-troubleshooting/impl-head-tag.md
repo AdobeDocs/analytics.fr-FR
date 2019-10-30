@@ -7,8 +7,8 @@ solution: Analytics
 title: Placement du code Analytics dans la balise d’en-tête
 topic: Développeur et mise en œuvre
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 Le code Analytics crée un objet image, à savoir une image invisible qui n’apparaît pas sur votre page.
 
->[!NOTE]
->
->Cette section s’applique uniquement à l’implémentation du fichier s_code.js hérité. [AppMeasurement pour JavaScript 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) prend en charge le déploiement de la bibliothèque et du code de page dans la balise `<head>`.
+> [!NOTE] Cette section s’applique uniquement à l’implémentation du fichier s_code.js hérité. [AppMeasurement pour JavaScript 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) prend en charge le déploiement de la bibliothèque et du code de page dans la balise `<head>`.
 
 Auparavant, le code JavaScript Analytics était placé entre les balises <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> et </head> balises. En le plaçant entre ces balises, l’image de 1x1 pixel qui était renvoyée par la demande qui avait envoyé les données vers les serveurs Adobe n’avait aucune incidence sur la disposition de la page. Insérer le code dans l’en-tête du document signifie qu’il apparaît plus haut dans le code. Il s’exécute ainsi plus tôt, ce qui permet de comptabiliser les pages vues pour les chargements de page partiels de façon plus efficace.
 
@@ -37,7 +35,7 @@ Si vous souhaitez intégrer Analytics à Target, le fichier d’inclusion JavaSc
 <html> 
 <head></head> 
 <body> 
-<!-- Analytics code version: H.20.3. 
+<!-- Analytics code version: H.20.3.
 Copyright 1997-2009 Omniture, Inc. More info available at 
 https://www.omniture.com --> 
 <script language="JavaScript" type="text/javascript" src="https://www.yourdomain.com/js/s_code.js"></script> 
