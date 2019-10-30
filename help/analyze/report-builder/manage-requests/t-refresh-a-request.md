@@ -1,18 +1,18 @@
 ---
 description: Vous pouvez actualiser les requêtes après y avoir apporté des modifications, après y avoir appliqué des filtres ou si vous devez consulter des données plus récentes. Il vous est possible de sélectionner plusieurs requêtes dans une feuille de calcul et de les actualiser toutes en même temps.
 seo-description: Vous pouvez actualiser les requêtes après y avoir apporté des modifications, après y avoir appliqué des filtres ou si vous devez consulter des données plus récentes. Il vous est possible de sélectionner plusieurs requêtes dans une feuille de calcul et de les actualiser toutes en même temps.
-seo-title: Actualiser une requête
+seo-title: Actualisation des requêtes
 solution: Analytics
-title: Actualiser une requête
+title: Actualisation des requêtes
 topic: Créateur de rapports
-uuid: bb 94 fcc 6-027 b -4134-adc 8-56 a 1 ea 7 cc 56 b
+uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Actualiser une requête
+# Actualisation des requêtes
 
 Vous pouvez actualiser les requêtes après y avoir apporté des modifications, après y avoir appliqué des filtres ou si vous devez consulter des données plus récentes. Il vous est possible de sélectionner plusieurs requêtes dans une feuille de calcul et de les actualiser toutes en même temps.
 
