@@ -7,8 +7,8 @@ solution: Analytics
 title: performanceTiming
 topic: Développeur et mise en œuvre
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ Cliquez sur le lien suivant pour obtenir plus de détails sur l’objet Minutage
 
 [https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface](https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface)
 
-En outre, le module externe a la possibilité d’utiliser l’objet performanceEntries pour enregistrer les détails relatifs au nom de la ressource, au début et à la durée du temps de chargement de la ressource pour chaque ressource individuelle chargée sur une page donnée. De nombreuses informations sont enregistrées avec ce module externe. En tant que tel, il nécessite que l’objet de stockage DOM soit activé afin de stocker les informations au chargement de la page entre deux pages vues. Veillez à ce que la politique de confidentialité de votre entreprise autorise l’utilisation de l’objet de stockage DOM avant d’activer cette fonction. Une variable listVar doit aussi être utilisée pour le suivi de toutes les ressources.
+En outre, le module externe a la possibilité d’utiliser l’objet performanceEntries pour enregistrer les détails relatifs au nom de la ressource, au début et à la durée du temps de chargement de la ressource pour chaque ressource individuelle chargée sur une page donnée. De nombreuses informations sont enregistrées avec ce module externe. En tant que tel, il nécessite que l’objet de stockage DOM soit activé afin de stocker les informations au chargement de la page entre deux pages vues. Assurez-vous que la politique de confidentialité de votre entreprise autorise l’utilisation de l’objet de stockage DOM avant d’activer cette fonctionnalité. Une variable listVar doit aussi être utilisée pour le suivi de toutes les ressources.
 
 ## Modules externes de prise en charge requis {#section_B6447EB6548942EFBC219AEFDC245639}
 
@@ -55,9 +55,7 @@ En outre, le module externe a la possibilité d’utiliser l’objet performance
 
 ## Mise en œuvre et code du module externe {#section_564D77E1CF0E445586D95AD9769CE57D}
 
->[!NOTE]
->
->Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et la mise en œuvre d’Adobe Analytics. Ce module externe est compatible uniquement avec les bibliothèques de suivi [!DNL AppMeasurement].
+> [!NOTE] Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et la mise en œuvre d’Adobe Analytics. Ce module externe est compatible uniquement avec les bibliothèques de suivi [!DNL AppMeasurement].
 
 **Section Config (avant doPlugins) :**
 
@@ -77,9 +75,7 @@ s.ptc = false;
 
 Pour initialiser le module externe, une ligne de code est requise dans la section `doPlugins` de votre s_code, de préférence après avoir désigné la variable `s.pageName`. Si vous souhaitez utiliser la fonction de temps de chargement des ressources dans le module externe, vous devez transmettre le nom de la variable de liste à utiliser. Sinon, seules les entrées de minutage de performances seront suivies dans les événements que vous avez spécifiés auparavant dans la variable `s.pte`.
 
->[!NOTE]
->
->Afin d’établir la corrélation des entrées de minutage de performances avec les pages de votre site, vous devez également initialiser le module externe `getPreviousValue`. Nous vous recommandons de comparer ces entrées de performances avec le nom de page précédent ou la valeur d’URL de page précédente.
+> [!NOTE]Afin d’établir la corrélation des entrées de minutage de performances avec les pages de votre site, vous devez également initialiser le module externe `getPreviousValue`. Nous vous recommandons de comparer ces entrées de performances avec le nom de page précédent ou la valeur d’URL de page précédente.
 
 *Exemples d’appel*
 
