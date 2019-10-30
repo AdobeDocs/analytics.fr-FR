@@ -1,13 +1,13 @@
 ---
 description: Vous pouvez déterminer les colonnes disponibles et les trier en fonction de vos besoins.
-keywords: Flux de données ; colonnes ; configuration des colonnes
+keywords: Flux de données;colonnes;configuration des colonnes
 seo-description: Vous pouvez déterminer les colonnes disponibles et les trier en fonction de vos besoins.
 seo-title: Tri des colonnes
 solution: Analytics
 title: Tri des colonnes
-uuid: 97861 aff -6395-48 da -8 eb 4-aea 67 cd 74005
+uuid: 97861aff-6395-48da-8eb4-aea67cd74005
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
