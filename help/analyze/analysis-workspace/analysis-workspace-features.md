@@ -1,21 +1,21 @@
 ---
-keywords: Analysis Workspace
-seo-title: Présentation de l'espace de travail d'analyse
+keywords: Analysis Workspace
+seo-title: Présentation d’Analysis Workspace
 solution: Analytics
-title: Présentation de l'espace de travail d'analyse
-topic: Reports and Analytics
-uuid: 4 df 6 be 48-2 c 88-4 b 9 d -9536-ed 64 ffbb 6 ee 4
+title: Analysis Workspace de la validation
+topic: Reports & Analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation de l'espace de travail d'analyse
+# Présentation d’Analysis Workspace
 
 Analysis Workspace élimine toutes les limites courantes d’un rapport Analytics unique. Il offre un canevas robuste et souple permettant de créer des projets d’analyses personnalisés. Faites glisser des tableaux de données, des visualisations et des composants (dimensions, mesures, segments et granularités temporelles) sur un projet. Créez instantanément des ventilations et des segments, des cohortes pour analyse, ainsi que des alertes, comparez des segments, analysez les flux et les abandons, et traitez et planifiez les rapports pour les partager avec n’importe qui dans votre entreprise.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Espace de travail]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -23,9 +23,7 @@ Analysis Workspace élimine toutes les limites courantes d’un rapport Analyti
 
 Vous trouverez [ici](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) la liste complète de sélections YouTube.
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] Voir [Nouveautés d’Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) pour obtenir des mises à jour sur les fonctionnalités.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +51,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Ces liens peuvent être partagés comme n’importe quel lien de projet, afin de rediriger un utilisateur vers une visualisation ou un panneau spécifique au sein d’un projet. De nouvelles options contextuelles, nommées Obtenir un lien vers le panneau et Obtenir un lien vers la visualisation, ont été ajoutées. Pour ajouter des intra-liens à votre projet, procédez comme suit :
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Ces liens peuvent être partagés comme n’importe quel lien de projet, afin de rediriger un utilisateur vers une visualisation ou un panneau spécifique au sein d’un projet. De nouvelles options de clic droit appelées "Obtenir le lien du panneau" et "Obtenir le lien de visualisation" ont été ajoutées. Pour ajouter des intra-liens à votre projet, procédez comme suit :
 
 1. Faites glisser une visualisation de texte dans un projet, par exemple près d’une visualisation ou d’un tableau auquel il convient d’ajouter davantage de contexte.
 1. Renseignez la zone de texte avec, par exemple, une table des matières, puis surlignez un élément à lier à un panneau ou à une visualisation, par exemple les mesures de succès.
@@ -69,9 +67,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 Quand un utilisateur clique sur un lien, les panneaux ou visualisations réduits dans le projet sont agrandis afin d’être visibles.
 
->[!NOTE]
->
->You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+> [!NOTE] Vous pouvez également utiliser cette fonctionnalité dans l’option **[!UICONTROL Modifier la description]** en cliquant avec le bouton droit de la souris.
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
@@ -121,7 +117,7 @@ Déposez un segment sur le panneau d’analyse à structure libre au niveau du p
 
 ![](assets/segment-panel.png)
 
-Voir   [Segments](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
+Voir [Segments](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
