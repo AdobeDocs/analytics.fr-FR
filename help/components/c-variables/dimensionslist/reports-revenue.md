@@ -4,10 +4,10 @@ seo-description: Mesure le volume des revenus générés par tous les produits s
 seo-title: Recettes
 solution: Analytics
 title: Recettes
-topic: Présentation
-uuid: e 5 b 72798-f 5 c 7-440 d-a 62 d -376 bfd 115 ac 8
+topic: Rapports
+uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Utilisez les recettes pour afficher le succès et la tendance généraux de votr
 
 * Il convient de respecter certaines exigences pour que ce rapport puisse collecter correctement des données. Les conditions suivantes doivent être réunies au sein de la même demande d’image :
 
-   * Un événement d’[!UICONTROL achat] doit être déclenché dans la variable `s.events` la variable.
+   * Un événement d’[!UICONTROL achat] doit être déclenché dans la variable Variable `s.events`. 
 
    * Une valeur numérique doit être renseignée dans le champ de prix de la variable `products`.
    * Dans l’exemple ci-dessous, la somme de 35,99 $ est transmise dans le rapport de recettes :
@@ -39,7 +39,7 @@ Utilisez les recettes pour afficher le succès et la tendance généraux de votr
 
    >[!NOTE]
    >
-   >Les recettes n'augmentent pas si la quantité augmente dans un seul produit. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >Les recettes ne sont pas multipliées si la quantité est augmentée dans un seul produit. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
 
 * Les [!UICONTROL Recettes] arrondissent le montant total d’une période à la valeur monétaire la plus proche. Elle n’arrondit pas chaque accès ou produit individuellement.
 * Comme Analytics arrondit chaque jour à la valeur monétaire entière la plus proche, la comparaison de la somme journalière par rapport au montant mensuel fait apparaître un très léger écart. Cela est dû au fait que le total mensuel ne correspond pas à la somme de chaque jour arrondi. Il s’agit de la somme absolue arrondie à la valeur monétaire entière la plus proche.
