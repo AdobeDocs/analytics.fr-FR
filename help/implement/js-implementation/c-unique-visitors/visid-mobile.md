@@ -7,8 +7,8 @@ solution: Analytics
 title: Identification des appareils mobiles
 topic: Développeur et mise en œuvre
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,7 @@ Le tableau suivant répertorie l’ordre des méthodes d’identifiant utilisée
   </tr> 
   <tr> 
    <td colname="col1"> <code> /5/ /5.1/ /5.5/</code> </td> 
-   <td colname="col2"> <p>Périphérique qui a été identifié en tant que périphérique sans fil, ou <code>/5/</code> a été envoyé manuellement dans la demande d’image : </p> 
+   <td colname="col2"> <p>Device was identified as a wireless device, or <code> /5/</code> was manually sent in the image request: </p> 
     <ul id="ul_624BEDFA3E1243CF9B42081D8B8EFFFB"> 
      <li id="li_D65761D23B684DB59BC23E92C9098122">Identifiant visiteur personnalisé </li> 
      <li id="li_ADBA806B74CA43EFA8612301E06106C6">En-tête d’identifiant abonné </li> 
