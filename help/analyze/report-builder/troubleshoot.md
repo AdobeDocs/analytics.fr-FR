@@ -1,18 +1,18 @@
 ---
 description: Méthodes pour optimiser le Créateur de rapports et liste des messages d’erreur qui peuvent parfois s’afficher.
 seo-description: Méthodes pour optimiser le Créateur de rapports et liste des messages d’erreur qui peuvent parfois s’afficher.
-seo-title: Dépannage et bonnes pratiques pour le créateur de rapports
+seo-title: Résolution des problèmes et bonnes pratiques pour Report Builder
 solution: Analytics
-title: Dépannage et bonnes pratiques pour le créateur de rapports
+title: Résolution des problèmes et bonnes pratiques pour Report Builder
 topic: Créateur de rapports
-uuid: 36 a 08143-dc 78-40 f 5-9 ce 9-7 d 16980 aa 27 b
+uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Dépannage et bonnes pratiques pour le créateur de rapports
+# Résolution des problèmes et bonnes pratiques pour Report Builder
 
 Méthodes pour optimiser le Créateur de rapports et liste des messages d’erreur qui peuvent parfois s’afficher.
 
@@ -24,7 +24,7 @@ Ceci crée toutefois un problème de compatibilité : une fois qu’un classeur
 
 L’effet secondaire suivant se produit lors de l’ouverture d’un classeur ARB 5.1 avec la demande de classification :
 
-* Lors de l’ouverture du classeur, l’avertissement suivant s’affiche : Ce classeur a été enregistré pour la dernière fois avec le Créateur de rapports version v5.1. Cette version comprend des fonctions incompatibles avec la version du Créateur de rapports installée sur cet ordinateur. Nous vous recommandons de mettre à niveau votre version du Créateur de rapports avant de mettre à jour ce classeur.
+* Lors de l’ouverture du classeur, vous recevez l’avertissement suivant : "Ce classeur a été enregistré pour la dernière fois à l’aide de la version 5.1 du créateur de rapports. Cette version a introduit certaines fonctionnalités incompatibles avec la version du créateur de rapports installée sur cet ordinateur. Il est vivement recommandé d’effectuer la mise à niveau vers la dernière version du créateur de rapports avant de mettre à jour ce classeur."
 * Si vous cliquez avec le bouton droit de la souris sur une demande ARB avec classification, les menus contextuels du Créateur de rapports (Modifier les requêtes, Ajouter une requête dépendante, etc.) ne seront pas visibles.
 * Si vous actualisez tout, en cliquant sur le troisième bouton ou en actualisant un ensemble de requêtes issues du formulaire du Gestionnaire de requêtes, la demande de classification s’exécutera sans erreur. Toutefois, les valeurs de classification ne seront pas inscrites.
 * Vous pouvez modifier la requête en ouvrant le Gestionnaire de requêtes, puis passer d’une ligne à l’autre jusqu’à la requête recherchée.
@@ -71,7 +71,7 @@ Formules Excel complexes dans un classeur, notamment celles qui impliquent des d
 
 Si le nom de la feuille Excel comporte une apostrophe ou un guillemet simple, le Créateur de rapports ne renvoie aucune valeur. (Il s’agit d’une limitation de Microsoft Excel.)
 
-**Performances des demandes individuelles**
+**Performances des requêtes individuelles**
 
 Les paramètres suivants peuvent avoir un impact sur la vitesse de traitement :
 
@@ -85,7 +85,7 @@ Les paramètres suivants peuvent avoir un impact sur la vitesse de traitement :
 | Nombre d’entrées | Petit jeu de données | Jeu de données volumineux |
 
 
-**Planification de la planification**
+**Heure de planification**
 
 Échelonnez les planifications sur une période de 24 heures (voir le tableau ci-après). Les signets, les tableaux de bord et les classeurs du Créateur de rapports planifiés de façon rapprochée peuvent entraîner des retards.
 
@@ -99,7 +99,7 @@ Planifiez les requêtes volumineuses et plus complexes tôt le matin pour permet
 
 Les rapports planifiés expirent au bout de quatre heures. Le système tente d’effectuer la planification trois autres fois, ce qui peut entraîner un échec. (En règle générale, plus le jeu de données est volumineux, plus l’exécution prend du temps.) Ces informations sont affichées dans les rapports [!DNL Analytics] et le Créateur de rapports :
 
-* [!DNL Analytics]: **[!UICONTROL Favoris]** &gt; **[!UICONTROL Rapports planifiés]**
+* [!DNL Analytics]: **[!UICONTROL Favoris]** &gt; Rapports **[!UICONTROL planifiés]**
 
 * Créateur de rapports : cliquez sur **[!UICONTROL Gestion]** sous l’onglet [!UICONTROL Compléments] dans Excel.
 
@@ -107,9 +107,7 @@ Les rapports planifiés expirent au bout de quatre heures. Le système tente d�
 
 Liste des messages d’erreur qui peuvent s’afficher lors de l’utilisation du Créateur de rapports.
 
->[!NOTE]
->
->Il s'agit uniquement d'une sélection de messages d'erreur et non d'une liste exhaustive. Pour plus d’informations sur la résolution des erreurs, contactez votre administrateur.
+> [!NOTE] Il ne s'agit que d'une sélection de messages d'erreur et non d'une liste exhaustive. Pour plus d’informations sur la résolution des erreurs, contactez votre administrateur.
 
 **Cette fonctionnalité peut uniquement être appliquée à un classeur ouvert.**
 
