@@ -5,7 +5,7 @@ seo-title: Prise en main
 title: Prise en main
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,9 +66,7 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE]
->
->À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter les analyses ad hoc sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre implémentation des analyses ad hoc.
+> [!NOTE] À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter les analyses ad hoc sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre implémentation des analyses ad hoc.
 
 * Carte vidéo compatible avec OpenGL 2.0
 * Cookies : obligatoires
