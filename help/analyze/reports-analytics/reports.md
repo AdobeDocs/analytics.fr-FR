@@ -7,7 +7,7 @@ title: Types de rapports
 topic: Reports & Analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,4 +41,4 @@ Cette section contient des informations sur les types de rapports de base, notam
 
 See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features.
 
-See Report Descriptions in  for descriptions.[](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)*`Analytics Reference Help`*
+Voir Descriptions des [rapports](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) dans *`Analytics Reference Help`* pour obtenir des descriptions.
