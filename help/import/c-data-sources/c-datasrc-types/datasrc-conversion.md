@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Sources de données
 title: Conversion
 topic: Développeur et mise en œuvre
-uuid: 5 e 7907 b 1-6 c 9 c -4073-876 b -410 f 3 a 29767 d
+uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,10 +29,10 @@ Si vous définissez un événement de consultation, vous devez également défin
 | Date | Utilisez le format de date suivant : MM/JJ/AAAA/HH/mm/SS (par exemple, 01/01/2015/06/00/00). |
 | Catégorie | Nom de la catégorie.  Si vous définissez une catégorie, vous devez également sélectionner un produit. |
 | Canal | Nom du canal. |
-| Evarn | Nom evarn. Valeurs valides de n : nombre entier entre 1 et 75. |
+| eVarn | Nom eVarn. Valeurs valides de n : nombre entier entre 1 et 75. |
 | Produit | Nom du produit. |
 | État | Nom de l’état. |
-| Postal | Code postal. |
+| Zip | Code postal. |
 
 <p class="head"> <b>Mesures de conversion</b> </p>
 
@@ -43,9 +43,9 @@ Si vous définissez un événement de consultation, vous devez également défin
 | Ouvertures de panier | Nombre d’ouvertures de panier. |
 | Suppressions de panier | Nombre de suppressions de panier. |
 | Consultations du panier | Nombre de consultations de panier. |
-| Passage en caisse | Nombre de passages en caisse. |
+| Achats | Nombre de passages en caisse. |
 | Événement n | Nombre d’occurrences de l’événement n. Valeurs valides de n : nombre entier entre 1 et 100.  Si vous définissez un événement de consultation, vous devez également définir la portée de données correspondante (eVar). Si, par exemple, vous incluez des consultations eVar2, vous devez configurer la variable eVar2. |
-| Vues evarn | Nombre de fois où la variable eVar n a été consultée. Valeurs valides de n : nombre entier entre 1 et 75. |
+| Vues eVarn | Nombre de fois où la variable eVar n a été consultée. Valeurs valides de n : nombre entier entre 1 et 75. |
 | Prix | Prix du produit. |
 | Commandes | Nombre de commandes passées. |
 | Consultations produits | Nombre de consultations de produit. |
