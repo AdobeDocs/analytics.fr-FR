@@ -7,8 +7,8 @@ subtopic: Notes de mise à jour
 title: iOS
 topic: Développeur et mise en œuvre
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,15 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Notes de mise à jour cumulées pour iOS.
 
->[!NOTE]
->
->Pour connaître la version de la bibliothèque actuelle, activez la journalisation du débogage.
+> [!NOTE] Pour connaître la version de la bibliothèque actuelle, activez la journalisation du débogage.
 
-Les téléchargements de bibliothèque mobile sont disponibles sur [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) et sur [Developer Connection](https://marketing.adobe.com/developer/fr/gallery/app-measurement-for-ios).
+Les téléchargements de bibliothèque mobile sont disponibles sur [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) et sur [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
 
-[Documentation 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
+[Documentation 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
 
-[Documentation 3.x](https://marketing.adobe.com/resources/help/fr_FR/sc/appmeasurement/ios/)
+[Documentation 3.x](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
 
 ## Version 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
@@ -91,15 +89,15 @@ Le kit [!DNL iOS] SDK version 4.13.2 (du 10 novembre 2016) contient les modif
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Service d’identification des visiteurs </p> </td> 
-   <td colname="2"> <p> Ajout d’un horodatage et de l’ID d’organisation d’Experience Cloud au paramètre <code>adobe_mc</code>. </p> </td> 
+   <td colname="2"> <p> Ajout d’un horodatage et de l’ID d’organisation d’Experience Cloud au paramètre <code> adobe_mc</code>. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configuration </p> </td> 
-   <td colname="2"> <p> Les identifiants IDFA (00000000-0000-0000-0000-000000000000) non valides transmis au SDK via <code>setAdvertisingIdentifier:</code> seront ignorés. </p> </td> 
+   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Lien profond </p> </td> 
-   <td colname="2"> <p>Lors de l’appel de <code>trackAdobeDeepLink</code>, les variables dotées du préfixe "<code>adb</code>" ou "<code>ctx</code>" sont désormais correctement gérées. </p> </td> 
+   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Acquisition </p> </td> 
@@ -121,12 +119,12 @@ Le kit [!DNL iOS] SDK version 4.13.1 (du 20 octobre 2016) contient les modifi
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> Acquisition </p> </td> 
-   <td colname="2"> <p> Le kit SDK prend désormais en charge les données d’acquisition personnalisées qui doivent être renvoyées de manière appropriée par les appels de <code>AdobeDataCallback</code>. </p> </td> 
+   <td colname="1"> <p> Adquisición </p> </td> 
+   <td colname="2"> <p> Le kit SDK prend désormais en charge les données d’acquisition personnalisées qui doivent être renvoyées de manière appropriée par les appels de <code> AdobeDataCallback</code>. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Target </p> </td> 
-   <td colname="2"> <p>Les paramètres du <span class="keyword">service d’identification des visiteurs</span> sont désormais transmis dans les requêtes <span class="keyword">Target</span> requests via <code>mboxParams</code>. </p> </td> 
+   <td colname="2"> <p><span class="keyword"></span>Les paramètres du service d’identification des visiteurs sont désormais transmis dans les requêtes <span class="keyword">Target</span> requests via <code> mboxParams</code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -235,11 +233,11 @@ Le kit [!DNL iOS] SDK version 4.10.0 (du 20 mai 2016) contient les modificati
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Adobe Target pour TVML/TVJS </p> </td> 
-   <td colname="2"> <p>Vous pouvez désormais utiliser les noms de propriété suivants lors de la configuration de l’élément <code>ADBTarget</code> : </p> <p> 
+   <td colname="2"> <p>Vous pouvez désormais utiliser les noms de propriété suivants lors de la configuration de l’élément <code> ADBTarget</code> : </p> <p> 
      <ul id="ul_A0CEE891AE644B47ABD6F7425ACD464D"> 
       <li id="li_2EB0C3CA52014F45BA1EC07703E821B8"><code> id</code> </li> 
       <li id="li_069D996CED534EE88A1EC82684E470D5"><code> total</code> </li> 
-      <li id="li_97F290C03FFD46B8A1E78B7BF2021F55"> <code>purchasedProductIds</code> </li> 
+      <li id="li_97F290C03FFD46B8A1E78B7BF2021F55"> <code> purchasedProductIds</code> </li> 
       <li id="li_FAAC4BB12DF9491DA21F161711A7707D"> <code> mboxParameters</code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -298,14 +296,14 @@ Le kit [!DNL iOS] SDK version 4.8.5 (du 18 février 2016) contient les modific
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Exclusion et paramètres de confidentialité </p> </td> 
-   <td colname="2"> <p>Depuis la version 4.8.5 du kit <span class="keyword"> iOS</span> SDK, les paramètres de confidentialité définis via la méthode <code> setPrivacyStatus</code> ont une incidence sur l’activité d’<span class="keyword">Analytics</span>, de <span class="keyword">Target</span> et d’<span class="keyword">Audience Manager</span>. </p> </td> 
+   <td colname="2"> <p>Depuis la version 4.8.5 du kit <span class="keyword"> iOS</span> SDK, les paramètres de confidentialité définis via la méthode <code> setPrivacyStatus</code>   ont une incidence sur l’activité d’<span class="keyword">Analytics</span>, de <span class="keyword">Target</span> et d’<span class="keyword">Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Version 4.8.0 {#section_2CF142C8C2D24B529559DAF76F851BBF}
 
-Le kit [!DNL iOS] SDK version 4.8.0 (du 2 novembre 2015) contient les modifications suivantes :
+Le kit [!DNL iOS] SDK version 4.8.0 (du lundi 2 novembre 2015) contient les modifications suivantes :
 
 <table frame="all" colsep="1" rowsep="1" id="table_9DB41F070D66498FACF1A9C135603C7A"> 
  <thead> 
@@ -322,7 +320,7 @@ Le kit [!DNL iOS] SDK version 4.8.0 (du 2 novembre 2015) contient les modifica
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>Méthode <code>visitorSyncIdentifiers:identifiers</code> remplacée par <code>visitorSyncIdentifiers:</code> </p> </td> 
+    </ul> <p>Modification de la <code> visitorSyncIdentifiers:identifiers</code> méthode en <code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> Nouvelles méthodes TVJS </td> 
@@ -432,7 +430,7 @@ Le kit [!DNL iOS] SDK version 4.6 (du 17 septembre 2015) contient les modific
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
       <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
       <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E"><code>trackPushMessageClickThrough</code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E">La variable <code> trackPushMessageClickThrough</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -456,7 +454,7 @@ Le kit [!DNL iOS] SDK version 4.5 contient les modifications suivantes :
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> Extension iOS</span> </p> </td> 
-   <td colname="2"> <p>Depuis le SDK <span class="keyword"> iOS</span> version 4.5, une nouvelle extension <span class="keyword"> iOS</span> permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension <span class="keyword">iOS</span>. </p> <p>Il est vivement recommandé d’utiliser le kit SDK <span class="keyword"> iOS</span> plutôt que votre propre wrapper. </p> <p>Apple fournit un ensemble d’API qui permet à l’application Watch de communiquer avec l’application contenante (envoi de demandes à l’application contenante et réception des réponses). </p> <p>Bien que vous puissiez envoyer les données de suivi en tant que dictionnaire de l’application Watch à l’application contenante et appeler ensuite n’importe quelle méthode de suivi sur l’application contenante pour envoyer les données, cette solution est limitée. </p> <p>Dans la plupart des cas, lorsqu’un utilisateur a recours à l’application Watch, l’application contenante s’exécute en arrière-plan et seules les méthodes <code>TrackActionInBackground</code>, <code>TrackLocation</code>, et <code>TrackBeacon</code> peuvent être appelées en toute sécurité. L’appel d’autres méthodes de suivi interfère avec les données de cycle de vie. Vous devez donc utiliser uniquement ces trois méthodes pour envoyer les données depuis l’application Watch. </p> <p>Même si ces trois méthodes de suivi répondent à vos besoins, il est recommandé d’utiliser le kit SDK <span class="keyword"> iOS</span>, car le SDK pour l’application Watch contient toutes les fonctionnalités <span class="keyword"> mobiles</span>, à l’exception des messages in-app. </p> </td> 
+   <td colname="2"> <p>Depuis le SDK <span class="keyword"> iOS</span> version 4.5, une nouvelle extension <span class="keyword"> iOS</span> permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension <span class="keyword">iOS</span>. </p> <p>Il est vivement recommandé d’utiliser le kit SDK <span class="keyword"> iOS</span> plutôt que votre propre wrapper. </p> <p>Apple fournit un ensemble d’API qui permet à l’application Watch de communiquer avec l’application contenante (envoi de demandes à l’application contenante et réception des réponses). </p> <p>Bien que vous puissiez envoyer les données de suivi en tant que dictionnaire de l’application Watch à l’application contenante et appeler ensuite n’importe quelle méthode de suivi sur l’application contenante pour envoyer les données, cette solution est limitée. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. L’appel d’autres méthodes de suivi interfère avec les données de cycle de vie. Vous devez donc utiliser uniquement ces trois méthodes pour envoyer les données depuis l’application Watch. </p> <p>Même si ces trois méthodes de suivi répondent à vos besoins, il est recommandé d’utiliser le kit SDK <span class="keyword"> iOS</span>, car le SDK pour l’application Watch contient toutes les fonctionnalités <span class="keyword"> mobiles</span>, à l’exception des messages in-app. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -477,7 +475,7 @@ Le kit [!DNL iOS] SDK version 4.5 contient les modifications suivantes :
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Prise en charge du suivi des balises dans <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>Les appels <code>trackBeacon</code> et <code>clearCurrentBeacon</code> sont maintenant disponibles dans <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -491,7 +489,7 @@ Date de publication : **24 novembre 2014**
 
 ## Version 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
 
-Date de publication : **16 octobre 2014**
+Date de publication : **16 octobre 2014**
 
 * Nouveau – Capacités de la messagerie in-app.
 * Nouveau – L’emplacement du fichier de configuration peut maintenant être spécifié au démarrage de l’application.
@@ -508,7 +506,7 @@ Date de publication : **18 septembre 2014**
 
 ## Version 4.1.2 {#section_6128902E5AE142C4A95D2FB3053188F8}
 
-Date de publication : **5 août 2014**
+Date de publication : **5 août 2014**
 
 * Résolution d’un problème de blocage pouvant survenir avec la configuration spécifique de privacyStatus:optunknown et offlineEnabled:false
 
@@ -521,7 +519,7 @@ Date de publication : **17 avril 2014**
 * Suivi des balises Bluetooth.
 * Analyse de l’acquisition d’application.
 * Dans les applications acceptant l’horodatage, les blocages comptabilisés sont antidatés à la session correcte.
-* Dans les applications acceptant l’horodatage, la session précédente est envoyée dans un accès antidaté vers la session correcte (et plus dans la session précédente).
+* Dans les applications acceptant l’horodatage, la session précédente est envoyée dans un accès antidaté vers la session correcte (et plus dans la session précédente)
 * Traitement par lot des accès.
 
 ## Version 4.0.2 {#section_B78AE82CDFAD44DCAC6D61E0B80BF4C8}
@@ -717,13 +715,13 @@ Date de publication : **avril 2012**
 
 ## Version 2.1.11 {#section_F0AF2D4E5F504D798EEB95BE8FE61B4C}
 
-Date de publication : **mars 2012**
+Date de publication : **mars 2012**
 
 * Correction d’un problème en raison duquel le suivi hors ligne arrêtait d’envoyer des données dans certains cas.
 
 ## Version 2.1.10 {#section_07C24EC83AA94A6AA6AB3DE7E8D6227F}
 
-Date de publication : **février 2012**
+Date de publication : **février 2012**
 
 * Correction d’un problème qui provoquait une exception EXC_BAD_ACCESS dans certaines circonstances lorsque plusieurs threads tentaient d’effectuer simultanément un appel de suivi.
 * Ajout d’un horodatage aux variables utilisées avec les appels de suivi légers (trackLight).
@@ -747,7 +745,7 @@ Date de publication : **novembre 2011**
 
 ## Version 2.1.3 {#section_E39666D780554B7398900C39C285CDB8}
 
-Date de publication : **octobre 2011**
+Date de version : **octobre 2011**
 
 * Amélioration de la gestion des délégués. Ceci corrige un problème en raison duquel le module externe bonnes pratiques d’[!DNL iOS] se bloquait lorsque l’application quittait l’arrière-plan.
 
