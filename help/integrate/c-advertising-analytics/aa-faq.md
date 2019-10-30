@@ -5,7 +5,7 @@ seo-title: Questions fréquentes
 title: Questions fréquentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Est-il possible d’assigner une <b>suite de rapports virtuelle</b> (SRV) à un compte Advertising Analytics ? </p> </td> 
-   <td colname="col2"> <p>R. : Les suites de rapports virtuelles ne collectent pas de données, vous ne pouvez donc pas mapper directement un compte Advertising Analytics à une suite de rapports virtuelle. </p> <p>Cependant, vous pouvez mapper un compte Advertising Analytics à une suite de rapports parente de la suite de rapports virtuelle dans laquelle vous souhaitez afficher les données. </p> <p>Les mesures du moteur de recherche (clics/coûts/impressions) peuvent ne pas s’afficher dans la SRV à moins d’inclure une condition « ou » dans la logique des segments basés sur l’AMO ID (ou sa classification). Exemple : ajouter « tous les accès dans lesquels l’AMO ID existe » permet d’inclure les mesures du moteur de recherche dans le segment. </p> </td> 
+   <td colname="col2"> <p>R. : Les suites de rapports virtuelles ne collectent pas de données, vous ne pouvez donc pas mapper directement un compte Advertising Analytics à une suite de rapports virtuelle. </p> <p>Cependant, vous pouvez mapper un compte Advertising Analytics à une suite de rapports parente de la suite de rapports virtuelle dans laquelle vous souhaitez afficher les données. </p> <p>Les mesures du moteur de recherche (clic/coût/impressions) peuvent ne pas s’afficher dans la suite de rapports virtuelle, sauf si vous incluez une condition "ou" dans votre logique de segment en fonction de l’identifiant AMO (ou de sa classification). Exemple : L’ajout de "tous les accès pour lesquels un identifiant AMO existe" inclurait les mesures de moteur de recherche dans le segment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Les mesures Advertising Analytics peuvent-elles être reportées dans un rapport de <b>canaux marketing</b> ? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Est-ce que nous capturons uniquement google.com ou également les <b>versions par pays</b> (comme google.co.uk, google.it, google.fr ou google.de) ? </p> </td> 
-   <td colname="col2"> <p>A : La classification de la plateforme publicitaire capture les valeurs suivantes : "Google Adwords" et "Bing Publicités". </p> <p>Il est recommandé d’inclure le code de pays dans le nom des campagnes. Vous pouvez ensuite filtrer ou segmenter (par exemple, si toutes les campagnes commencent par codepays_, la création d’un segment où Campagnes (AMO ID) commence par « FR_ » vous fournirait uniquement des données pour la France). </p> </td> 
+   <td colname="col2"> <p>A : La classification de la plateforme publicitaire capture les valeurs suivantes : "Google Adwords" et "Bing Publicités". </p> <p>Il est recommandé d’inclure le code de pays dans le nom des campagnes. Vous pouvez ensuite filtrer ou segmenter (par exemple, si toutes les campagnes commencent par code de pays_, puis créer un segment dans lequel les campagnes (ID AMO) commencent par "Royaume-Uni_" vous fourniront uniquement des données pour le Royaume-Uni). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : La mesure « Coût AMO » correspond au coût payé pour chaque mot-clé/annonce publicitaire comme rapporté par le moteur de recherche. S’agit-il du coût net ou du coût brut ? </p> </td> 
