@@ -7,8 +7,8 @@ subtopic: Notes de mise à jour
 title: Mac OS X
 topic: Développeur et mise en œuvre
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,11 +19,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 >
 >Ces kits SDK ont été supprimés et ne sont plus pris en charge ou distribués par Adobe.
 
->[!NOTE]
->
->Pour connaître la version de la bibliothèque actuelle, activez la journalisation du débogage.
+> [!NOTE] Pour connaître la version de la bibliothèque actuelle, activez la journalisation du débogage.
 
-Les [téléchargements]( de la bibliothèque mobile https://marketing.adobe.com/developer/fr/get-started/mobile/c-measuring-mobile-applications) sont disponibles sur [!DNL Developer Connection].
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 ## Version 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
@@ -65,6 +63,6 @@ Date de publication : **21 mars 2013**
 
 ## Version 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
-Date de publication : **février 2013**
+Date de publication : **février 2013**
 
 Version initiale. Cette version est basée sur le code base [!DNL iOS] 3.1.4. Le numéro de la version initiale a donc été défini pour correspondre à [!DNL iOS].
