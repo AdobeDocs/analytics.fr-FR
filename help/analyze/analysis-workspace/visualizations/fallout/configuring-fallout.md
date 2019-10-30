@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Configuration d'une visualisation abandons
-title: Configuration d'une visualisation abandons
-uuid: fc 117745-baf 3-46 fb -873 d -9307092 cc 337
+seo-title: Configuration d’une visualisation d’abandon
+title: Configuration d’une visualisation d’abandon
+uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configuration d'une visualisation abandons
+# Configuration d’une visualisation d’abandon
 
 Vous pouvez spécifier les points de contact d’après lesquels créer une séquence d’abandons multidimensionnelle. En général, un point de contact est une page sur votre site. Ils ne se limitent toutefois pas à cela. Vous pouvez par exemple ajouter des événements, tels que des unités, ainsi que des visiteurs uniques et des visites récurrentes. Vous pouvez aussi ajouter des dimensions, telles qu’une catégorie, un type de navigateur ou un terme de recherche interne.
 
@@ -18,7 +18,7 @@ Il est possible en outre d’ajouter des segments dans un point de contact, par 
 
 Il n’existe aucune restriction quant au nombre d’étapes pouvant être ajoutées ou au nombre de dimensions utilisées.
 
-Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars de marchandisage et les [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables pouvant avoir plusieurs valeurs par accès, tels les produits, listVars, les eVars de marchandisage et les props de liste). Supposons par exemple qu’un visiteur consulte sur une page la séquence chaussures,chemise puis, sur la page suivante, la séquence chemise,chaussettes. Le prochain rapport de flux de produits généré à partir des chaussures portera sur chemise et chaussettes, SAUF chemise.
+Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars de marchandisage et les [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables pouvant avoir plusieurs valeurs par accès, tels les produits, listVars, les eVars de marchandisage et les props de liste). Par exemple, supposons que quelqu'un regarde des chaussures, des chemises sur une page, et sur la page suivante, ils regardent des chemises, des chaussettes. Le prochain rapport de flux de produits généré à partir des chaussures portera sur chemise et chaussettes, SAUF chemise.
 
 1. Faites glisser une visualisation [!UICONTROL Abandons] de la liste déroulante des visualisations dans un [!UICONTROL tableau à structure libre].
 
@@ -38,7 +38,7 @@ Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars 
 
    >[!NOTE]
    >
-   >Plusieurs segments sont joints avec ET, mais plusieurs éléments, tels que des éléments de dimension et des mesures, sont associés à l'opérateur OU.
+   >Plusieurs segments sont associés à l’opérateur ET, mais plusieurs éléments, tels que les éléments de dimension et les mesures, sont associés à l’opérateur OU.
 
    ![](assets/multiple_obj_touchpoint.png)
 
