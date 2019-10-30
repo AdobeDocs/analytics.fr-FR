@@ -4,10 +4,10 @@ seo-description: Cette section présente les fonctionnalités d’un rapport, no
 seo-title: Fonctionnalités d’un rapport
 solution: Analytics
 title: Fonctionnalités d’un rapport
-topic: Reports and Analytics
-uuid: 32 f 72961-cb 94-4 e 50-ae 18-03326 e 02 bc 8 b
+topic: Reports & Analytics
+uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,31 +22,31 @@ Cet exemple présente un [!UICONTROL rapport Pages]. Les options de configuratio
 
 An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages Reports]** &gt; **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width = « 672 px »}
+![](assets/pages_report.png){width="672px"}
 
 ## Barre d’outils du rapport {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Partagez les données du rapport avec les décisionnaires qui peuvent apporter des modifications au site ou aux stratégies marketing en fonction des données.
 
-![](assets/toolbar.png){width = « 672 px »}
+![](assets/toolbar.png){width="672px"}
 
-Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Voir aussi [Personnalisation d’un rapport](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Paramètres et en-tête du rapport {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
 Affiche les paramètres du rapport et vous permet de configurer le rapport en spécifiant son type, en sélectionnant des mesures, etc. Les options de ce groupe varient selon le rapport exécuté.
 
-![](assets/settings_header.png){width = « 672 px »}
+![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.
+Voir [Personnalisation d’un rapport](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) pour plus d’informations.
 
 ## Calendrier {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
 Précisez la date en cliquant sur le bouton du calendrier et en sélectionnant une plage de dates. Vous pouvez aussi sélectionner deux plages d’heures pour comparer leurs performances.
 
-![](assets/calendar_large.png){width = « 672 px »}
+![](assets/calendar_large.png){width="672px"}
 
-See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [Comparing Dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+Voir [Sélection d’une date ou d’une plage](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) de dates et [comparaison de dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
 
 ## Type de graphique {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
@@ -70,7 +70,7 @@ Ajoutez des mesures à votre rapport. Les administrateurs peuvent préciser les 
 
 ![](assets/metrics.png)
 
-Reportez-vous à la section [Mesures](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
+Voir [Mesures](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
 
 ## Tableau des détails {#section_449A5DC848744F65A10DA12E189B835D}
 
