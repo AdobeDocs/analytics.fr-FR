@@ -9,24 +9,20 @@ title: Personnalisation des autorisations liées aux dimensions
 topic: Outils d’administration
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
 
 # Personnalisation des autorisations liées aux dimensions
 
->[!IMPORTANT]
->
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] La gestion des utilisateurs et des produits passe à la Console [d’administration](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
 
 Personnalisez l’accès des utilisateurs à un niveau plus détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de cheminement.
 
 **[!UICONTROL Gestion]** utilisateur &gt; **[!UICONTROL Groupes]** &gt; Accès **[!UICONTROL auxrapports &gt;]** Dimensions **** &gt; Personnaliser ****
 
->[!IMPORTANT]
->
->Certaines dimensions ne sont pas autorisées pour le moment. Il s’agit des dimensions suivantes : Longueur du signet mobile ; Numéro d’appareil mobile ; DRM mobile ; Services d’informations mobiles ; Java VM de mobile ; Mobile – Décoration de courrier ; Protocoles Net mobile ; SE Mobile ; Mobile – Presser pour parler.
+> [!IMPORTANT] Certaines dimensions ne sont pas autorisées pour le moment. Il s’agit des dimensions suivantes : Longueur du signet mobile ; Numéro d’appareil mobile ; DRM mobile ; Services d’informations mobiles ; Java VM de mobile ; Mobile – Décoration de courrier ; Protocoles Net mobile ; SE Mobile ; Mobile – Presser pour parler.
 >
 >Ces dimensions sont disponibles pour tous les utilisateurs, quelles que soient les autres autorisations.
 
@@ -62,7 +58,7 @@ Les éléments suivants sont des dimensions pour lesquelles vous pouvez accorder
    <td colname="col2"> <p>Les eVars 1 à 250 sont autorisées individuellement. Les eVars sont des variables de conversion personnalisées que vous utilisez pour segmenter les mesures de succès de conversion des segments dans les rapports personnalisés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external"> Props </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external"> Propriétés </a> </p> </td> 
    <td colname="col2"> <p>Les props sont des variables de trafic personnalisées. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external">Props de trafic et eVars de conversion</a> dans la mise en œuvre Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +82,7 @@ Les éléments suivants sont des dimensions pour lesquelles vous pouvez accorder
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/" format="https" scope="external"> Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/" format="https" scope="external">Activity Map </a> </p> </td> 
    <td colname="col2"> <p> Dimensions des rapports Activity Map : page d’Activity Map ; lien d’Activity Map ; région d’Activity Map ; lien d’Activity Map par région ; Activity Map XY </p> </td> 
   </tr> 
   <tr> 
@@ -107,4 +103,3 @@ Les éléments suivants sont des dimensions pour lesquelles vous pouvez accorder
   </tr> 
  </tbody> 
 </table>
-
