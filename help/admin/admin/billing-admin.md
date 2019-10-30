@@ -5,9 +5,9 @@ seo-title: Facturation
 solution: Analytics
 title: Facturation
 topic: Outils d’administration
-uuid: ad 6 ee 1 c 4-d 317-4320-a 36 e-ee 966 c 8 f 145 e
+uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La page Facturation vous permet d’accéder aux informations de facturation, dont les détails de trafic de chaque suite de rapports. Seul un administrateur autorisé peut accéder à cette page.
 
->[!NOTE]
->
->Si l'accès à l'onglet Facturation est désactivé pour votre entreprise, contactez votre gestionnaire de compte.
+> [!NOTE] Si l’accès à l’onglet Facturation est désactivé pour votre entreprise, contactez votre gestionnaire de compte.
 
 Les données de vue d’ensemble du trafic issues de la page de facturation vous permettent de mettre en relation les données des rapports et les appels serveur facturables figurant sur votre facture. La page [!UICONTROL Facturation] vous permet d’effectuer les opérations suivantes :
 
@@ -44,9 +42,7 @@ Le rapport [!UICONTROL Facture mensuelle] obtenu comprend les informations suiva
 | Liens personnalisés | Nombre total de liens personnalisés pour chaque suite de rapports. Vous pouvez vérifier les valeurs des liens personnalisés dans Contenu du site &gt; Liens &gt; Liens personnalisés. |
 | Liens de sortie | Nombre total de liens de sortie pour chaque suite de rapports. Vous pouvez vérifier les valeurs des liens de sortie dans Contenu du site &gt; Liens &gt; Liens de sortie. |
 
->[!NOTE]
->
->To obtain a working copy of the [!UICONTROL Monthly Invoice] report, copy it onto your clipboard, then paste it into a spreadsheet program such as Microsoft Excel*.
+> [!NOTE] Pour obtenir une copie de travail du rapport Facture  mensuelle, copiez-la dans le Presse-papiers, puis collez-la dans un tableur tel que Microsoft Excel*.
 
 ## Comparaison de la date de création du rapport et de la date de traitement {#section_51A48C2F223F4904BE1407C13333C457}
 
