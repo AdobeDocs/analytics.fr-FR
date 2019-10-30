@@ -3,8 +3,8 @@ title: Trafic interne
 description: Le module Trafic interne identifie dynamiquement les visiteurs provenant d’un réseau interne.
 seo-description: Module Trafic interne
 seo-title: Module Trafic interne
-translation-type: ht
-source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,10 +28,10 @@ Le module externe tente de charger un fichier qui ne serait disponible que dans 
 ## Mise en œuvre
 
 1. Ajouter votre pixel intranet : vous pouvez ajouter sur votre intranet n’importe quel type de fichier auquel le module externe tenterait d’accéder. Un pixel transparent 1x1 est recommandé. Il doit être placé dans un emplacement de votre Intranet qui est facilement accessible depuis votre ou vos réseaux internes.
-1. Configurer une eVar : une eVar doit être ajoutée dans votre suite de rapports de destination. Elle doit avoir une expiration de « Visite » et une attribution de « Valeur d’origine (première) ».
+1. Configurer une eVar : une eVar doit être ajoutée dans votre suite de rapports de destination. Elle doit avoir une expiration de "Visite" et une attribution de "Valeur originale (première)".
 1. Définir l’URL interne : dans les variables de configuration AppMeasurement et avant l’instanciation de doPlugins, définissez la variable d’URL interne (s.intURL) du pixel ou d’un autre fichier pouvant être utilisée pour la vérification du trafic. Par exemple : `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modifier doPlugins et définir l’eVar : le module externe peut ensuite être initialisé en incluant cette ligne de code dans la section doPlugins du code de votre bibliothèque AppMeasurement, à l’aide de l’eVar définie à l’étape 1 : `s.eVarXX = s.intCheck();`
-la valeur de la variable sera définie sur « interne » ou « externe ».
+1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
+The variable value will be set to "internal" or "external".
 1. Ajouter le code source du module externe : ajoutez le code du module externe sous la section doPlugins de votre fichier AppMeasurement.
 
 ## Code source du module externe
