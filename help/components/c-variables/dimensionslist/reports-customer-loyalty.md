@@ -1,20 +1,20 @@
 ---
 description: La fidélité de la clientèle révèle les modèles d’achat des clients.
 seo-description: La fidélité de la clientèle révèle les modèles d’achat des clients.
-seo-title: Fidélisation des clients
+seo-title: Fidélité de la clientèle
 solution: Analytics
-title: Fidélisation des clients
-topic: Présentation
-uuid: 7 dc 30 b 57-7 b 18-4228-a 6 ab -6 eb 66 b 3 d 9402
+title: Fidélité de la clientèle
+topic: Rapports
+uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Fidélisation des clients
+# Fidélité de la clientèle
 
-La fidélité de la clientèle révèle les modèles d’achat des clients.
+Fidélité de la clientèle révèle les schémas d'achat des clients.
 
 Le rapport affiche les schémas des clients sur la base de quatre catégories de fidélité :
 
