@@ -8,7 +8,7 @@ title: Fonctions d’intégration
 topic: Connecteurs de données
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Une fois activée, l’intégration DFA des connecteurs de données fournit les 
 * (Facultatif) Données de coûts DFA
 * (Facultatif) Erreurs de requête DFA, dépassements de délai
 
->[!NOTE]
->
->Cette intégration ne prend pas en charge les outils de suivi des clics (anciennement les commandes de clic). Les outils de suivi de clics servent à enregistrer le nombre de clics sur les liens de texte, les liens dans les messages électroniques ou d’autres éléments codés en dur sur un site Web.
+> [!NOTE] Cette intégration ne prend pas en charge les outils de suivi des clics (anciennement les commandes de clic). Les outils de suivi de clics servent à enregistrer le nombre de clics sur les liens de texte, les liens dans les messages électroniques ou d’autres éléments codés en dur sur un site Web.
 
 L’intégration DFA Connecteurs de données construit automatiquement les codes de suivi DFA à partir des données renvoyées par DFA. Ces codes de suivi sont construits de façon à identifier de manière unique une publicité ainsi que son référencement et son créatif associés. L’illustration ci-après décrit la structure du code de suivi, selon la version de l’intégration. Version 1.5 :
 
@@ -47,20 +45,18 @@ Les deux autres classifications, Delivery Tool (Outil de remise) (DoubleClick fo
 
 ## Déduplication SearchCenter {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
-L’intégration DFA est désormais compatible avec Adobe SearchCenter. En activant la déduplication SearchCenter dans l’assistant Connecteurs de données, les visiteurs orientés par la recherche ne provoqueront pas l’extraction de données à partir du serveur Floodlight de DFA et *`s.campaign`* ne sera pas renseigné par DFA, laissant à SearchCenter le soin de le faire. En outre, DFA et SearchCenter renseignent maintenant les valeurs de déduplication dans les variables de chaque produit.
+L’intégration DFA est désormais compatible avec Adobe SearchCenter. En activant la déduplication SearchCenter via l’assistant Connecteurs de données, les visiteurs orientés recherche n’entraîneront pas l’extraction des données du serveur Floodlight de DFA et ne *`s.campaign`* seront pas remplis par DFA, ce qui permettra à SearchCenter de les renseigner. En outre, DFA et SearchCenter renseignent maintenant les valeurs de déduplication dans les variables de chaque produit.
 
 La liste ci-dessous décrit la logique activée quand la déduplication SearchCenter est activée :
 
 If **[!UICONTROL DFA]** &gt; **[!UICONTROL SearchCenter deduplication]** is selected in the wizard:
 
-* Dans le cas d’un clic publicitaire DFA, l’intégration renseignera la chaîne « DFA Clickthrough » (clic publicitaire DFA) avec l’eVar SCM configurée.
-* Dans le cas d’un affichage publicitaire DFA, l’intégration renseignera la chaîne « DFA Viewthrough » (affichage publicitaire DFA) avec l’eVar SCM.
+* Dans le cas d’un clic publicitaire DFA, l’intégration renseigne la chaîne "Clic publicitaire DFA" sur l’eVar SCM configurée.
+* Dans le cas d’une vue publicitaire DFA, l’intégration renseigne la chaîne "Présentation DFA" sur l’eVar SCM.
 
 If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is selected in the wizard:
 
-* Dans le cas d’un affichage publicitaire DFA, l’intégration renseignera la chaîne « DFA Viewthrough » (affichage publicitaire DFA) avec l’eVar SCM.
+* Dans le cas d’une vue publicitaire DFA, l’intégration renseigne la chaîne "Présentation DFA" sur l’eVar SCM.
 
->[!NOTE]
->
->Si SearchCenter &gt; Déduplication DFA est activé et que le paramètre de chaîne de requête SearchCenter est défini, la visite ne sera pas prise en compte pour le traitement DFA. Ceci signifie que le paramètre de chaîne de requête SearchCenter doit différer du paramètre de clic publicitaire DFA et qu’aucune publicité affichée ne doit définir le paramètre de chaîne de requête SearchCenter.
+> [!NOTE] Si SearchCenter &gt; Déduplication DFA est activé et que le paramètre de chaîne de requête SearchCenter est défini, la visite ne sera pas prise en compte pour le traitement DFA. Ceci signifie que le paramètre de chaîne de requête SearchCenter doit différer du paramètre de clic publicitaire DFA et qu’aucune publicité affichée ne doit définir le paramètre de chaîne de requête SearchCenter.
 
