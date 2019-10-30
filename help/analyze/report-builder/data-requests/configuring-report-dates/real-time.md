@@ -7,7 +7,7 @@ title: Rapports en temps réel
 topic: Créateur de rapports
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,5 @@ Vous pouvez :
 
 Le temps réel respecte les autorisations pour les utilisateurs et les groupes. Par exemple, si vous n’avez pas les droits permettant de consulter le revenu, vous ne pouvez pas consulter un rapport en temps réel qui inclut les données de revenu. Les eVars (mesures de conversion) ne sont pas prises en charge. Les autorisations en temps réel sont activées dans les [outils d’administration](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html).
 
->[!NOTE]
->
->[!UICONTROL Les rapports] en temps réel ne sont pas identiques à la fonction [Inclure les données](https://marketing.adobe.com/resources/help/en_US/arb/options.html) actives (récence des données) publiée précédemment, qui réduisait la latence pour les rapports standard en affichant les données avant qu’elles ne soient finalisées.
+> [!NOTE] Les rapports [!UICONTROL en temps] réel ne sont pas identiques à la fonction [Inclure les données](https://marketing.adobe.com/resources/help/en_US/arb/options.html) actives (récence des données) publiée précédemment, qui réduisait la latence pour les rapports standard en affichant les données avant qu’elles ne soient finalisées.
 
