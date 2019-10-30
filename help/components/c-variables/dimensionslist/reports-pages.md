@@ -4,10 +4,10 @@ seo-description: Classe les pages de votre site en fonction du niveau de trafic.
 seo-title: Pages
 solution: Analytics
 title: Pages
-topic: Présentation
-uuid: 6435 e 262-e 734-4 c 15-af 5 b -173799 d 5 cc 43
+topic: Rapports
+uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,10 +24,10 @@ Remarque : dans les Reports &amp; Analytics, les mesures sur le rapport Pages o
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry">Rapports et <p>analyses </p> </th> 
+   <th colname="col2" class="entry">Rapports &amp; <p>Analytics </p> </th> 
    <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
-   <th colname="col5" class="entry"> Analysis Workspace </th> 
+   <th colname="col5" class="entry"> Analysis Workspace </th> 
   </tr>
  </thead>
  <tbody> 
@@ -49,7 +49,7 @@ Remarque : dans les Reports &amp; Analytics, les mesures sur le rapport Pages o
    <td colname="col1"> Valeur Limites </td> 
    <td colname="col2"> <p>Les premières 500 000 visites uniques par mois + nouvelles valeurs avec trafic </p> </td> 
    <td colname="col3"> <p>Les premières 500 000 visites uniques par mois + nouvelles valeurs avec trafic </p> </td> 
-   <td colname="col4"> Aucune </td> 
+   <td colname="col4"> Aucun </td> 
    <td colname="col5"> <p>Les premières 500 000 visites uniques par mois + nouvelles valeurs avec trafic </p> </td> 
   </tr> 
   <tr> 
@@ -64,9 +64,9 @@ Remarque : dans les Reports &amp; Analytics, les mesures sur le rapport Pages o
 
 Dans les Reports &amp; Analytics, si vous appliquez un événement personnalisé en tant que mesure dans un rapport Pages, une attribution linéaire s’applique.
 
-Ainsi, même si cet événement a été envoyé avec un appel s.tl(), il obtient l’attribution linéaire de tout appel s.t() précédent. Exemple :
+Ainsi, même si cet événement a été envoyé avec un appel s.tl(), il obtient l’attribution linéaire de tout appel s.t() précédent. Exemple:
 
-| Nom de page | Page_event | Evénements |
+| Nom de page | Page_event | Événements |
 |---|---|---|
 | Page 1 | **s.t()** |  |
 | Page 1 | s.tl() | Événement 1 |
