@@ -4,7 +4,7 @@ seo-description: Cette section présente des concepts clés liés à Adobe Anal
 seo-title: Adobe Analytics – Concepts clés
 title: Adobe Analytics – Concepts clés
 translation-type: tm+mt
-source-git-commit: 7dc3f3a42f84cb636a8abd60614a30c8f5fcc621
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
