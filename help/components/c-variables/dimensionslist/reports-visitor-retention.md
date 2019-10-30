@@ -4,10 +4,10 @@ seo-description: Affichent des informations sur la loyauté de vos clients. Ils 
 seo-title: Rétention des visiteurs
 solution: Analytics
 title: Rétention des visiteurs
-topic: Présentation
-uuid: e 2 d 477 d 0-f 704-489 b-b 4 b 3-941 bc 352 cd 7 a
+topic: Rapports
+uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,11 +33,11 @@ Affichent des informations sur la loyauté de vos clients. Ils indiquent le nomb
    <td colname="col2"> <p>Affiche le nombre de visiteurs qui sont revenus sur votre site dans l’une des catégories suivantes (représentant la durée écoulée entre deux visites) : moins d’un jour, 1 à 3 jours, 3 à 7 jours, 8 à 14 jours, 14 jours à 1 mois et plus d’1 mois. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites récurrentes </td> 
+   <td colname="col1"> Visites retours </td> 
    <td colname="col2"> <p>Indique le nombre de personnes qui ont consulté votre site à plusieurs reprises depuis le début du suivi effectué par Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites récurrentes quotidiennes </td> 
+   <td colname="col1"> Visites retours quotidiennes </td> 
    <td colname="col2"> <p>Indique le nombre de visiteurs qui se sont rendus sur votre site à plusieurs reprises au cours d’un jour donné. Un jour est défini comme la période des dernières 24 heures. </p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Affichent des informations sur la loyauté de vos clients. Ils indiquent le nomb
    <td colname="col2"> <p>Affiche le nombre de visites pour chaque visiteur qui se rend sur votre site. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Fidélisation des clients </td> 
+   <td colname="col1"> Fidélité de la clientèle </td> 
    <td colname="col2"> <p>Affiche les modèles d’achat des clients selon trois catégories de fidélité (nouveau, régulier et fidèle). Le rapport <span class="wintitle">Fidélisation des clients</span> indique le niveau de contribution des clients nouveaux, réguliers et fidèles aux mesures de succès standard. </p> </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ Affichent des informations sur la loyauté de vos clients. Ils indiquent le nomb
   </tr> 
   <tr> 
    <td colname="col1"> Jours depuis le dernier achat </td> 
-   <td colname="col2"> <p>Indique le nombre moyen de jours écoulés entre les achats répétés des clients et permet d’afficher les périodes qui ont le plus contribué aux mesures de succès clés de votre site, telles que les Recettes et les Commandes. </p> </td> 
+   <td colname="col2"> <p>Affiche le nombre de jours qui s’écoulent le plus souvent entre les achats répétés des clients et vous permet d’afficher les périodes qui ont le plus contribué aux principales mesures de réussite de votre site, telles que les recettes et les commandes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Client unique quotidien </td> 
