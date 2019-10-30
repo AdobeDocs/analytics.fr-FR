@@ -2,7 +2,7 @@
 title: Attribution IQ
 description: L’ID d’attribution est un ensemble de fonctionnalités d’Adobe Analytics qui fournit des informations supplémentaires sur la manière dont les efforts marketing contribuent à une conversion.
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 L’ID d’attribution est un ensemble de fonctionnalités d’Adobe Analytics qui fournit des informations supplémentaires sur la manière dont les efforts marketing contribuent à une conversion.
 
-Un parcours client donné n’est pas linéaire et souvent imprévisible. Chaque client procède à son propre rythme; souvent, ils doublent, bloquent, redémarrent ou se lancent dans un autre comportement non linéaire. Ces actions organiques rendent difficile de connaître l'impact des actions marketing sur le parcours des clients. Cela entrave également les efforts visant à relier plusieurs canaux de données.
+Un parcours client donné n'est pas linéaire et souvent imprévisible. Chaque client procède à son propre rythme; souvent, ils doublent, bloquent, redémarrent ou se lancent dans un autre comportement non linéaire. Ces actions organiques rendent difficile de connaître l'impact des actions marketing sur le parcours des clients. Cela entrave également les efforts visant à relier plusieurs canaux de données.
 
 Adobe Analytics Attribution IQ permet aux équipes de renseignement modernes de comprendre comment se déroule un engagement significatif tout au long du parcours des clients, en identifiant les points d’inflexion qui conduisent les clients à cibler les résultats. Comprendre cet aspect du parcours client optimise efficacement les initiatives marketing.
 
