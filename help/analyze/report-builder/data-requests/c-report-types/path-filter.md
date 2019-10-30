@@ -1,18 +1,18 @@
 ---
 description: Décrit les étapes d’application de filtres à un rapport de cheminement.
 seo-description: Décrit les étapes d’application de filtres à un rapport de cheminement.
-seo-title: Filtrage d'un rapport de cheminement à l'aide de l'Assistant Requête
+seo-title: Filtrage d’un rapport de cheminement à l’aide de l’Assistant Requête
 solution: Analytics
-title: Filtrage d'un rapport de cheminement à l'aide de l'Assistant Requête
+title: Filtrage d’un rapport de cheminement à l’aide de l’Assistant Requête
 topic: Créateur de rapports
-uuid: 9 b 22 d 5 b 5-7 ae 8-49 a 2-90 ae -0 c 1075562 bbe
+uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filtrage d'un rapport de cheminement à l'aide de l'Assistant Requête
+# Filtrage d’un rapport de cheminement à l’aide de l’Assistant Requête
 
 Décrit les étapes d’application de filtres à un rapport de cheminement.
 
@@ -25,7 +25,7 @@ Cet exemple utilise Chemins &gt; Section Site.
    ![](assets/site_section_path_1.png)
 
 1. Indiquez la ou les dates appropriée(s). 
-1. Click **[!UICONTROL Next]**.
+1. Cliquez sur **[!UICONTROL Suivant]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Top 1-10 (pattern applied)]** link. Dans un rapport de cheminement, un modèle est appliqué par défaut.
 
    ![](assets/site_section_path_2.png)
