@@ -8,8 +8,8 @@ subtopic: Modules externes
 title: getNewRepeat
 topic: Développeur et mise en œuvre
 uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Utilisez ce module externe pour répondre aux questions suivantes :
 * Les visiteurs récurrents génèrent-ils un taux de conversion par tête plus élevé que les nouveaux visiteurs ? Quel est ce ratio ?
 * Les campagnes marketing génèrent-elles une persistance entre les visites ? Ainsi, les utilisateurs qui arrivent sur mon site par le biais de mes campagnes publicitaires y reviennent-ils par la suite ?
 
->[!NOTE]
->
->Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
+> [!NOTE] Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
 
 ## Implémentation et code du module externe {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -34,7 +32,7 @@ Utilisez ce module externe pour répondre aux questions suivantes :
 
 **Plugin Config**
 
-Placez le code suivant dans la fonction *`s_doPlugins()`* qui se trouve dans la zone du fichier *`s_code.js`* intitulée *Config du module*. Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données de valeurs persistantes. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
+Placez le code suivant dans la fonction *`s_doPlugins()`* située dans la section du fichier *`s_code.js`intitulée* Plugin Config *.* Sélectionnez une variable Trafic personnalisé (s.prop) ou Conversion personnalisée (s.eVar) à utiliser dans le cadre de la capture de données de valeurs persistantes. Il doit s’agir d’une variable que vous avez activée à l’aide d’Admin Console, mais qui, pour l’heure, n’est affectée à aucun autre usage. Vous pouvez utiliser l’exemple suivant et l’adapter en fonction de vos besoins.
 
 `s.prop1=s.getNewRepeat(30,'s_getNewRepeat');`
 
