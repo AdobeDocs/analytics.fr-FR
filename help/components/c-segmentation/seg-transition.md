@@ -8,7 +8,7 @@ title: Questions fréquentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -140,7 +140,7 @@ Les rapports planifiés ne sont pas mis à jour lorsque vous modifiez un segment
 
 ![](assets/duplicate_seg_names.png)
 
-Vous êtes doté d’un signet qui référence le segment pour la suite de rapports mainprod. Puis, vous supprimez ce segment car il s’agit d’un doublon. Le signet continue à fonctionner, référençant la définition du segment supprimé. Si vous modifiez la définition de segment du segment maindev pour inclure l’île Catalina et Tijuana au Mexique, le segment appliqué au signet ne change pas. Il utilise l’ancienne définition. Pour corriger ce problème, mettez à jour le signet qui référence la nouvelle définition. Si vous n’êtes pas certain qu’un signet, tableau de bord ou rapport planifié utilise un segment supprimé, vous pouvez modifier le nom du segment restant afin qu’il soit plus clair que le signet utilise le segment restant.
+Vous êtes doté d’un signet qui référence le segment pour la suite de rapports mainprod. Ensuite, vous supprimez ce segment parce qu'il est en double. Le signet continue à fonctionner, référençant la définition du segment supprimé. Si vous modifiez la définition de segment du segment maindev pour inclure l’île Catalina et Tijuana au Mexique, le segment appliqué au signet ne change pas. Il utilise l’ancienne définition. Pour corriger ce problème, mettez à jour le signet qui référence la nouvelle définition. Si vous ne savez pas si un signet, un tableau de bord ou un rapport planifié utilise un segment supprimé, vous pouvez modifier le nom du segment restant afin de savoir plus clairement si le signet utilise le segment restant.
 
 **Qu’advient-il des segments d’entrepôt de données ?**
 
@@ -184,7 +184,7 @@ Les rapports existants auxquels sont appliqués ces segments continueront de fon
 
 Les segments d’**administrateur** seront migrés vers la nouvelle interface de segment et s’afficheront en tant que segments partagés avec tout le monde.
 
-Le propriétaire de ces segments est défini sur l’administrateur doté du compte le plus ancien dans la liste des administrateurs de la société de connexion. Toutefois, tous les administrateurs peuvent supprimer, modifier et partager ces segments.
+Le propriétaire de ces segments est défini sur l’administrateur avec le compte le plus ancien dans la liste des administrateurs de la société de connexion. Toutefois, tous les administrateurs peuvent supprimer, modifier et partager ces segments.
 
 L’interface de gestion des segments d’Admin Console dans laquelle les administrateurs ont créé et géré ces segments globaux n’est plus disponible. Les administrateurs doivent désormais utiliser le nouveau Créateur de segments pour créer des segments et les partager avec les groupes ou individus appropriés ou à l’échelle de l’entreprise.
 
@@ -342,7 +342,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 | prise en charge des cookies sur le périphérique mobile | mobile - décoration de courrier | système d’exploitation |
 | prise en charge des images sur le périphérique mobile | services d’informations mobiles | type de référent |
 | intensité de couleur du périphérique mobile | type de périphérique mobile | moteur de recherche |
-| prise en charge de l’audio sur le périphérique mobile | type de navigateur | état |
+| prise en charge de l’audio sur le périphérique mobile | type de navigateur | state |
 | prise en charge de la vidéo sur le périphérique mobile | navigateur | pays géo |
 | DRM mobile | type de connexion | région géo |
 | protocoles Net mobile | opérateur de téléphonie mobile | ville géo |
