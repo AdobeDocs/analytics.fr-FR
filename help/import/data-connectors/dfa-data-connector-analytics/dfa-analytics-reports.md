@@ -8,7 +8,7 @@ title: Rapports Analytics utilisant des données DFA
 topic: Connecteurs de données
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -52,5 +52,5 @@ Ce rapport a les particularités suivantes :
 * Le graphique présente les données pour chaque mesure sous forme d’un pourcentage du total des mesures, plutôt qu’en utilisant les chiffres réels de chaque mesure. Vous pouvez modifier ce paramètre dans la boîte de dialogue **[!UICONTROL Configurer le rapport].**
 * Sous le graphique, le rapport Nom de publicité_DFA répertorie les détails du rapport pour chacune des publicités DFA et présente les performances de la publicité sous forme de chiffres et de pourcentages.
 * Sélectionnez un nom de publicité DFA spécifique pour ouvrir un menu des options permettant d’obtenir davantage d’informations sur cette publicité DFA particulière.
-* Chaque colonne de mesures comprend un code de couleur correspondant à la couleur de la mesure dans le graphique.
+* Chaque colonne de mesure comprend une clé de couleur qui correspond à la couleur affectée à la mesure dans le graphique.
 * Le rapport est classé selon la mesure Recettes, en commençant par la publicité générant le plus de recettes. Vous pouvez modifier l’ordre du rapport en cliquant sur un autre libellé de colonne (mesure).
