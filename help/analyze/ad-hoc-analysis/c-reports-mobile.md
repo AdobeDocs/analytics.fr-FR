@@ -1,20 +1,20 @@
 ---
 description: Affiche des informations sur l’accès aux sites Web depuis un périphérique mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les périphériques mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
 seo-description: Affiche des informations sur l’accès aux sites Web depuis un périphérique mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les périphériques mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
-seo-title: Rapports mobiles
-title: Rapports mobiles
-uuid: fév 1 fc 34-3541-4 b 2 d-b 9 cb -84 d 2 e 91 d 9539
+seo-title: Rapports sur les périphériques mobiles
+title: Rapports sur les périphériques mobiles
+uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Rapports mobiles
+# Rapports sur les périphériques mobiles
 
 Affiche des informations sur l’accès aux sites Web depuis un périphérique mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les périphériques mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
 
-## Mobile reports {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
+## Rapports sur les périphériques mobiles {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
 
 Affiche des informations sur l’accès aux sites Web depuis un périphérique mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les périphériques mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
 
@@ -22,7 +22,7 @@ Afin d’améliorer l’identification des visiteurs de périphériques mobiles,
 
 >[!NOTE]
 >
->To view reports on a mobile a device, login to the [Experience Cloud](https://login.experiencecloud.adobe.com).
+>Pour afficher des rapports sur un périphérique mobile, connectez-vous à [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
