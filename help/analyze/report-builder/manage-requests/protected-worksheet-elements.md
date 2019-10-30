@@ -1,18 +1,18 @@
 ---
 description: Si vous protégez une feuille de calcul (en verrouillant les cellules), vous ne pouvez pas créer, modifier ni actualiser les requêtes. Retirez toutes les protections de la feuille de calcul avant de commencer à utiliser le Gestionnaire de requêtes.
 seo-description: Si vous protégez une feuille de calcul (en verrouillant les cellules), vous ne pouvez pas créer, modifier ni actualiser les requêtes. Retirez toutes les protections de la feuille de calcul avant de commencer à utiliser le Gestionnaire de requêtes.
-seo-title: Eléments de feuille de calcul protégés
+seo-title: Éléments de feuilles de calcul protégés
 solution: Analytics
-title: Eléments de feuille de calcul protégés
+title: Éléments de feuilles de calcul protégés
 topic: Créateur de rapports
-uuid: 4 b 632862-4943-4567-a 458-46 a 6548952 fa
+uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Eléments de feuille de calcul protégés
+# Éléments de feuilles de calcul protégés
 
 Si vous protégez une feuille de calcul (en verrouillant les cellules), vous ne pouvez pas créer, modifier ni actualiser les requêtes. Retirez toutes les protections de la feuille de calcul avant de commencer à utiliser le Gestionnaire de requêtes.
 
