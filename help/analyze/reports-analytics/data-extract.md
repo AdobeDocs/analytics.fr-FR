@@ -5,10 +5,10 @@ seo-title: Extraction de données
 solution: Analytics
 subtopic: Planification
 title: Extraction de données
-topic: Reports and Analytics
-uuid: 430 f 03 bb -09 e 2-4 e 43-8 cbd -1754 b 49 acefe
+topic: Reports & Analytics
+uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 L’extraction des données vous permet de choisir les paramètres à afficher sur les axes X et Y du rapport, ainsi que l’élément en fonction duquel le rapport sera filtré.
 
-## Data extract {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
+## Extraction de données {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
 
 L’extraction des données vous permet de choisir les paramètres à afficher sur les axes X et Y du rapport, ainsi que l’élément en fonction duquel le rapport sera filtré.
 
