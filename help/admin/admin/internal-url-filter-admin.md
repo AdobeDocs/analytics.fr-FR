@@ -5,9 +5,9 @@ seo-title: Filtres URL internes
 solution: Analytics
 title: Filtres URL internes
 topic: Outils d’administration
-uuid: 70868 edb -208 d -4 dad -9401-70967468 d 40 c
+uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Les filtres URL internes identifient les référents que vous considérez comme internes à votre site. Ils permettent de compiler des données dans les rapports de sources de données et de filtrer le trafic interne.
 
-Un référent, ou une page référente, est habituellement la page à partir de laquelle un visiteur arrive sur votre site. Pour éviter de biaiser les données, vous pouvez filtrer les référents. Les rapports excluent les référents filtrés du [rapport Référents](/help/components/c-variables/dimensionslist/reports-referrers.md), Rapport Domaines [référents et autres rapports Méthodes de recherche](/help/components/c-variables/dimensionslist/reports-referring-domains.md).
+Un référent, ou une page référente, est habituellement la page à partir de laquelle un visiteur arrive sur votre site. Pour éviter de biaiser les données, vous pouvez filtrer les référents. Les rapports excluent les référents filtrés du Rapport [](/help/components/c-variables/dimensionslist/reports-referrers.md)Référents, Rapport [Domaines](/help/components/c-variables/dimensionslist/reports-referring-domains.md)référents et autres rapports Méthodes de recherche.
 
 Le plus souvent, les rapports de sources de trafic ne compilent aucune donnée car la liste Filtres URL internes n’est pas définie. Pour vérifier quels filtres URL internes ont été définis sur une suite de rapports, suivez les étapes ci-après. Pour éviter ce problème, supprimez la règle définissant un point (.) comme filtre, puis ajoutez votre propre site.
 
