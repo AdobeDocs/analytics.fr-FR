@@ -5,9 +5,9 @@ seo-title: Commerce
 solution: Analytics
 title: Commerce
 topic: Outils d’administration
-uuid: 85 fc 235 d -0180-4245-b 831-0243 ebe 3 c 40 c
+uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,7 @@ Le tableau suivant contient une liste d’événements commerciaux standard. La 
 | Paniers | Compteur | `scOpen` |
 | Consultations du panier | Compteur | `scView` |
 | Instances | Compteur | N/D |
-| Passage en caisse | Compteur | `scCheckout` |
+| Achats | Compteur | `scCheckout` |
 | Ajouts au panier | Compteur | `scAdd` |
 | Retraits du panier | Compteur | `scRemove` |
 | Visites | Compteur (sans sous-relations) | N/D |
