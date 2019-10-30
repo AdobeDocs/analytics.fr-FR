@@ -1,18 +1,18 @@
 ---
 description: Description des champs de gestion des requêtes dans le Créateur de rapports.
 seo-description: Description des champs de gestion des requêtes dans le Créateur de rapports.
-seo-title: Gérer les requêtes - définitions
+seo-title: Gestion des requêtes - Définitions
 solution: Analytics
-title: Gérer les requêtes - définitions
+title: Gestion des requêtes - Définitions
 topic: Créateur de rapports
-uuid: 01 b 21 d 0 e-c 870-4 df 8-95 b 9-f 4 aef 1 f 4 d 16 b
+uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Gérer les requêtes - définitions
+# Gestion des requêtes - Définitions
 
 Description des champs de gestion des requêtes dans le Créateur de rapports.
 
@@ -20,11 +20,9 @@ Description des champs de gestion des requêtes dans le Créateur de rapports.
 
 Le [!UICONTROL Gestionnaire de requêtes] présente une vue détaillée de l’état de toutes les requêtes générées pour toutes les feuilles ou pour une seule feuille du classeur actif. Il permet également d’ajouter, de modifier, d’actualiser et de supprimer une requête (fonctions généralement associées à l’[!UICONTROL Assistant Requête] et au [!UICONTROL Gestionnaire de requêtes]) en cliquant avec le bouton droit sur l’une des cellules disponibles de la feuille de calcul Excel qui contient les requêtes précédentes.
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+Le Gestionnaire de [!UICONTROL requêtes] s’affiche lorsque vous cliquez sur **[!UICONTROL Gérer]** ( ![](assets/edit_request.gif) dans la barre d’outils du créateur de rapports).
 
->[!NOTE]
->
->Le créateur de rapports Adobe applique uniquement les dépendances de requêtes dans la même feuille de calcul, et non dans les feuilles de calcul. Ceci garantit la rapidité de l’exécution.
+> [!NOTE] Le créateur de rapports d’Adobe applique les dépendances des requêtes uniquement dans la même feuille de calcul, et non dans les feuilles de calcul. Ceci garantit la rapidité de l’exécution.
 
 ## Définitions {#section_FD29D8614DE74F32A0027FA130F40304}
 
