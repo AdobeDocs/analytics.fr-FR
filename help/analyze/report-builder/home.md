@@ -3,9 +3,9 @@ seo-title: Aide du Report Builder d’Adobe
 solution: Analytics
 title: Aide du Report Builder d’Adobe
 topic: Créateur de rapports
-uuid: 034 ae 0 e 4-2 a 98-4 bac -977 d -92515960 c 46 e
+uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ Le Créateur de rapports [!DNL Adobe] est un complément externe pour Microsoft�
 
 <!-- >>[!IMPORTANT]
 >
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018. 
+>Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
 >See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
 
@@ -26,7 +26,7 @@ Le Créateur de rapports [!DNL Adobe] est un complément externe pour Microsoft�
 
 <!-- Tutorial goes here -->
 
-## Rubriques d'aide populaires
+## Rubriques d’aide populaires
 
 * [Configuration, installation et connexion](setup/login.md)
 * [Planification de requêtes de rapport](schedule-report-requests.md).
@@ -39,7 +39,7 @@ Le Créateur de rapports [!DNL Adobe] est un complément externe pour Microsoft�
 * [Comment créer une requête de données ?](data-requests/t-create-a-data-request.md)
 * [Résolution des problèmes et bonnes pratiques pour le Créateur de rapports](troubleshoot.md)
 
-## Ressources Experience Cloud
+## Ressources d’Experience Cloud
 
 * [Communauté Adobe Analytics](https://helpx.adobe.com/marketing-cloud/analytics.html)
 * [Notes de mise à jour d’Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
@@ -53,4 +53,4 @@ Le Créateur de rapports [!DNL Adobe] est un complément externe pour Microsoft�
 
 * [Aide d’Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
 * [Aide sur les rapports et analyses](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [Aide de référence](https://marketing.adobe.com/resources/help/en_US/reference/index.html) sur les outils d'administration, les rapports et les mesures.
+* [Aide de référence](https://marketing.adobe.com/resources/help/en_US/reference/index.html) d’Analytics sur les outils d’administration, les rapports et les mesures.
