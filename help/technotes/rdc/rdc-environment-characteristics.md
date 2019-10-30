@@ -1,23 +1,23 @@
 ---
 title: Caractéristiques de l’environnement de collecte de données régionale
-seo-title: Caractéristiques de l'environnement RDC Adobe Analytics
+seo-title: Caractéristiques de l’environnement de CRD Adobe Analytics
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Caractéristiques de l'environnement RDC
+# Caractéristiques de l’environnement RDC
 
-L'environnement de collecte de données régionale (RDC) comprend des caractéristiques comme décrit ci-dessous.
+L’environnement de collecte de données régionale (CRD) comprend les caractéristiques décrites ci-dessous.
 
 ## Améliorations des performances
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
+Pour connaître les temps de réponse actuels lors de l’utilisation de la collecte de données régionale, voir Performances [des requêtes](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/)Adobe Analytics.
 
-En règle générale, les utilisateurs ont amélioré le temps de réponse avec la collecte de données régionale, comme suit :
+En règle générale, les utilisateurs ont connu des améliorations du temps de réponse avec la collecte de données régionale comme suit :
 
 | Régions | Temps de réponse supprimé par la collecte de données régionale |
 | --- | --- |
@@ -25,7 +25,7 @@ En règle générale, les utilisateurs ont amélioré le temps de réponse avec 
 | Australie | 5 % |
 | Chine et Russie | 41 % |
 | Japon | 41 % |
-| Europe | 83 % |
+| Europe | 83% |
 | Grande-Bretagne | 94 % |
 | Europe centrale et de l’Est | 84 % |
 | Europe du Nord | 73 % |
@@ -41,9 +41,9 @@ En règle générale, les utilisateurs ont amélioré le temps de réponse avec 
 
 Selon votre mise en œuvre, vous utilisez peut-être des cookies propriétaires ou tiers. Vous obtiendrez des informations supplémentaires sur les cookies propriétaires [ici](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html).
 
-## Pages sécurisées
+## Sécurisation des pages
 
-Si votre site contient des pages qui utilisent le protocole https, vous avez des pages sécurisées. La plupart des pages vues suivies par Adobe Analytics sont sécurisées à l'aide du protocole https. Les pages sécurisées requièrent un certificat SSL pour le suivi. Si votre propriété web utilise des cookies tiers, vos pages sécurisées utilisent un certificat SSL détenu par Adobe, ce qui permet l'envoi en toute sécurité des données vers nos serveurs de collecte de données sans implémentation FPSSL.
+Si votre site contient des pages qui utilisent le protocole https, vous disposez de pages sécurisées. La plupart des pages vues suivies par Adobe Analytics sont sécurisées à l’aide du protocole https. Les pages sécurisées requièrent un certificat SSL pour le suivi. Si votre propriété web utilise des cookies tiers, vos pages sécurisées utilisent un certificat SSL détenu par Adobe, qui permet d’envoyer les données en toute sécurité à nos serveurs de collecte de données sans implémentation FPSSL.
 
 ## Modifications DNS (mise à jour CNAME)
 
