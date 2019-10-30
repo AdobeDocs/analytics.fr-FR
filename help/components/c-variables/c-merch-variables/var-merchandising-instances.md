@@ -6,9 +6,9 @@ seo-title: Instances sur les variables de marchandisage
 solution: Analytics
 title: Instances sur les variables de marchandisage
 topic: Développeur et mise en œuvre
-uuid: 4 cdfd 53 e -88 aa -48 cf-a 135-98 f 7 fc 8 dcece
+uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -50,7 +50,5 @@ s.products=";Fernie Snow Goggles"
 
 L’instance n’est allouée à « Aucun » que si vous définissez une valeur pour une eVar sur une page sur laquelle aucun événement de liaison ne survient ou si vous définissez la valeur d’eVar dans la chaîne de produits sans événement de liaison.
 
->[!NOTE]
->
->La fonctionnalité actuelle de comptage des instances sur les variables de marchandisage est en cours de révision et devrait être modifiée dans une prochaine version.
+> [!NOTE] La fonctionnalité actuelle de comptabilisation des instances sur les variables de marchandisage est en cours de révision et devrait être modifiée dans une prochaine version.
 
