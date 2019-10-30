@@ -7,7 +7,7 @@ title: Rapports sur les produits
 topic: Ad Hoc Analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ c_reports_products_conv_funnel.xml
 
 Pour ajouter des mesures et des événements personnalisés à partir d’autres groupes de rapports, cliquez sur un lien **[!UICONTROL Événements sélectionnés]dans l’en-tête du rapport.**
 
-Les périodes en cours ne sont pas terminées lorsque vous affichez les données. En conséquence, ce rapport peut indiquer une tendance à la baisse entre la période précédente et la période en cours. Il peut, par exemple, indiquer qu’il y a moins de visites aujourd’hui qu’hier, mais seulement parce que les statistiques relatives au reste de la période ne sont pas encore disponibles.
+Les périodes en cours ne sont pas terminées lorsque vous affichez les données. En conséquence, ce rapport peut indiquer une tendance à la baisse entre la période précédente et la période en cours. Par exemple, il peut y avoir moins de visites aujourd’hui qu’hier, mais seulement parce que le reste des statistiques de la période n’a pas encore été généré.
 
 ## Catégories {#concept_3260EE45B2164E478E8A90E046D078AB}
 
@@ -38,4 +38,4 @@ c_reports_categories.xml
 
  -->
 
-Indique la manière dont les différentes catégories de produits affectent les mesures de succès de votre site.
+Indique l’impact de diverses catégories de produits sur les mesures de réussite de votre site.
