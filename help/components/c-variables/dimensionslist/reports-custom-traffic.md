@@ -7,7 +7,7 @@ title: Trafic personnalisé
 topic: Rapports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ Les rapports Trafic personnalisé permettent à chaque société de générer de
 ## Propriétés des rapports Trafic personnalisé {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
 * Les rapports Trafic personnalisé sont établis uniquement sur la base de [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) (variables de trafic).
-* Les pages vues (ou les instances dans la version 15) constituent la mesure par défaut des rapports. Les pages vues de la version 14 et les instances de la version 15 sont identiques, en ce sens qu’elles comptabilisent le nombre total de fois où la variable a été définie. Les instances de la version 15 comptabilisent le nombre de  image requests (excluding  requests).*`s.t()`**`s.tl()`*
+* Les pages vues (ou les instances dans la version 15) constituent la mesure par défaut des rapports. Les pages vues de la version 14 et les instances de la version 15 sont identiques, en ce sens qu’elles comptabilisent le nombre total de fois où la variable a été définie. Les instances de la version 15 comptabilisent le nombre de Demandes *`s.t()`* d’image (à l’exclusion *`s.tl()`* des demandes).
 
 * Le cheminement peut être activé s’il est inclus dans le contrat de votre société et si un utilisateur ayant souscrit un contrat dédié en fait la demande. Lorsque le cheminement est activé pour une variable de trafic, les mesures suivantes sont disponibles :
 * 
