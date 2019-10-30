@@ -7,8 +7,8 @@ solution: Analytics
 title: Alertes
 topic: Développeur et mise en œuvre
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,4 +26,4 @@ Vous pouvez :
 
 Pour accéder à ce nouveau système d’alertes, cliquez sur **[!UICONTROL Plus]** &gt; **[!UICONTROL Alertes]** dans n’importe quel rapport de Reports &amp; Analytics.
 
-Voir la section [Alertes intelligentes](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/intellligent_alerts.html) dans l’aide d’[!UICONTROL Analysis Workspace].
+Voir Alertes [intelligentes](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) dans l’aide de l’espace de travail [!UICONTROL d’] analyse.
