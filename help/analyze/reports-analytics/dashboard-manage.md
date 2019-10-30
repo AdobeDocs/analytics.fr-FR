@@ -8,7 +8,7 @@ title: Gestionnaire de tableaux de bord
 topic: Reports & Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,15 +73,11 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 Les tableaux de bord hérités existants continueront à être exécutés et vous serez toujours en mesure de les modifier, télécharger et programme. Toutefois, vous ne pourrez plus créer de nouveaux tableaux de bord hérités. Nous vous recommandons fortement de mettre à niveau les tableaux de bord hérités existants vers le format de tableau de bord plus récent.
 
->[!NOTE]
->
->Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+> [!NOTE] À partir de maintenant, pensez à utiliser les projets [](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) Analysis Workspace et à leur capacité à être téléchargés et planifiés.
 
 Lorsque vous copiez le tableau de bord hérité, le système l’ouvre pour modification et vous pouvez y ajouter du contenu hérité ou du nouveau contenu. Lorsque vous copiez un tableau de bord hérité, l’original est préservé dans la liste des tableaux de bord hérités.
 
->[!NOTE]
->
->L’ajout de contenu hérité à un tableau de bord crée un tableau de bord basé sur la dernière fonctionnalité du tableau de bord. Le mini-rapport hérité peut toutefois contenir des données reposant sur la plateforme de données précédentes.
+> [!NOTE] L’ajout de contenu hérité à un tableau de bord crée un tableau de bord basé sur la dernière fonctionnalité du tableau de bord. Le mini-rapport hérité peut toutefois contenir des données reposant sur la plateforme de données précédentes.
 
 **Pour migrer un tableau de bord hérité version 14.x**
 
@@ -115,9 +111,7 @@ Le [!UICONTROL Gestionnaire de tableaux de bord] permet de vérifier si la remis
 
 ## Archivage d’un tableau de bord
 
->[!NOTE]
->
->Cette fonctionnalité ne sera plus disponible en janvier 2020.
+> [!NOTE] Cette fonctionnalité ne sera plus disponible en janvier 2020.
 
 Cette section décrit comment archiver n’importe quel tableau de bord envoyé en tant que fichier PDF. Le système conserve le fichier archivé pendant deux ans ou jusqu’à ce que vous ayez atteint la limite maximum de 4 Go de rapports archivés, le premier événement à survenir prévalant.
 
