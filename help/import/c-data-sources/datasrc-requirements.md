@@ -8,7 +8,7 @@ title: Conditions requises et limites de transfert
 topic: Développeur et mise en œuvre
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Les sections suivantes répertorient les contraintes qui s’appliquent aux sour
 * Seules les données avec des dates en cours ou passées peuvent être importées. Ne tentez pas d’utiliser des dates futures dans vos données de sources de données.
 * Pour chaque ligne, une date doit être spécifiée afin d’avoir accès aux fonctionnalités de représentation des rapports. Si une ligne ne comprend pas de date, la fonctionnalité Sources de données génère une erreur et rejette le fichier. Le format de date et d’heure varie en fonction du type de source de données :
 
-   * **Full Processing Data Sources**: Use the ISO 8601 date format of `YYYY-MM-DDThh:mm:ss±UTC_offset` (for example, `2013-09-01T12:00:00-07:00`), or Unix Time Format (the number of seconds elapsed since January 1, 1970).
+   * **Sources** de données à traitement complet : Utilisez le format de date ISO 8601 de `YYYY-MM-DDThh:mm:ss±UTC_offset` (par exemple, `2013-09-01T12:00:00-07:00`) ou le format de temps Unix (nombre de secondes écoulées depuis le 1er janvier 1970).
 
    * **Sources** de données standard et d’intégration : Utilisez le format de date suivant : `MM/DD/YYYY/HH/mm/SS` (par exemple, `01/01/2013/06/00/00`)
 
