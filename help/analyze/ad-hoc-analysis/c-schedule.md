@@ -5,7 +5,7 @@ seo-title: Gestionnaire de planification
 solution: Analytics
 title: Gestionnaire de planification
 topic: Ad Hoc Analysis
-uuid: 82 a 054 ef -109 d -414 d-a 6 e 1-e 09 ee 57 c 163 f
+uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -22,13 +22,13 @@ Vous pouvez personnaliser la planification de la distribution des rapports. Il e
 
 >[!NOTE]
 >
->Lorsqu'un compte utilisateur est désactivé, toutes les distributions de rapport planifiées créées par cet utilisateur sont suspendues.
+>Lorsqu’un compte utilisateur est désactivé, toutes les livraisons de rapports planifiées créées par cet utilisateur sont suspendues.
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
+Pour vous assurer que les éléments de ligne d’une ventilation sont persistants dans les rapports enregistrés et planifiés, utilisez la fonction **[!UICONTROL Modifier les éléments]** du Générateur [de](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) tableau pour créer des listes de dimensions fixes dans les ventilations.
 
 >[!IMPORTANT]
 >
->Ad - Analyses ad hoc vous permet de définir et planifier rapidement des rapports pour des besoins de rapports spécifiques et ponctuels spécifiques. Elles ne sont pas destinées aux exportations complètes de données comprenant un très grand nombre de lignes, de colonnes, d’évaluations de mesure ou de ventilations complètes à l’aide d’extractions de données.
+>Les analyses ad hoc vous permettent de définir et de planifier rapidement des rapports pour répondre à des besoins spécifiques, ponctuels et ponctuels en matière de création de rapports ad hoc. Elles ne sont pas destinées aux exportations complètes de données comprenant un très grand nombre de lignes, de colonnes, d’évaluations de mesure ou de ventilations complètes à l’aide d’extractions de données.
 >
 >Dans les Ad Hoc Analysis, les contraintes pratiques des rapports planifiés reposent sur ce principe : si le rapport n’est pas généré dans un délai de dix minutes (délai d’attente des Ad Hoc Analysis), cela signifie qu’il est probablement trop complexe.
 >
