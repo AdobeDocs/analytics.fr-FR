@@ -5,7 +5,7 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Les cookies, en-têtes de requête et paramètres de chaîne de requête d’ima
 ## Syntaxe et valeurs possibles
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 OU UTILISER UN INDICATEUR PERSONNALISE POUR LES VARIABLES DYNAMIQUES
@@ -35,7 +35,7 @@ s.dynamicVariablePrefix=".."
 ## Exemples
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 OU UTILISER UN INDICATEUR PERSONNALISE POUR LES VARIABLES DYNAMIQUES
