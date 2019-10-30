@@ -3,9 +3,9 @@ description: Les suites de rapports virtuelles peuvent être traitées de maniè
 seo-description: Les suites de rapports virtuelles peuvent être traitées de manière à inclure et à exclure des composants d’Analysis Workspace.
 seo-title: Traitement des composants des suites de rapports virtuelles
 title: Traitement des composants des suites de rapports virtuelles
-uuid: 6 c 6 a 4071-22 ad -4 e 8 c-b 1 ed -140 b 2 aa 04 f 76
+uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Les suites de rapports virtuelles peuvent être traitées de manière à inclure et à exclure des composants d’Analysis Workspace.
 
->[!NOTE]
->
->Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, les composants non traités étaient visibles par tous en cliquant sur le bouton **[!UICONTROL Afficher tous les composants]**. La [mise à jour de l’expérience de traitement](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) permet de mieux contrôler quels composants sont visibles.
+> [!NOTE]Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, les composants non traités étaient visibles par tous en cliquant sur le bouton **[!UICONTROL Afficher tous les composants]**. La [mise à jour de l’expérience de traitement](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) permet de mieux contrôler quels composants sont visibles.
 
 Pour activer le traitement des composants,
 
@@ -33,8 +31,8 @@ Pour activer le traitement des composants,
 
    * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL Entrepôt de données]
-   * [!UICONTROL Report Builder]
+   * [!UICONTROL Data Warehouse]
+   * [!UICONTROL Report Builder]
    * API de création de rapports dans Analytics
    Une fois la case activée, vous pouvez ajouter les composants que vous souhaitez inclure dans la suite de rapports virtuelle en les faisant glisser de la colonne « exclus » vers la colonne « inclus ». Les composants pouvant être inclus et exclus sont les suivants :
 
