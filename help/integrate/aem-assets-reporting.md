@@ -1,22 +1,22 @@
 ---
 description: Cette rubrique décrit les étapes d’administration pour activer la création de rapports AEM Assets dans Analytics.
 seo-description: Cette rubrique décrit les étapes d’administration pour activer la création de rapports AEM Assets dans Analytics.
-seo-title: Création de rapports AEM Assets
+seo-title: Compte rendu des performances d’AEM Assets
 solution: Analytics
-title: Création de rapports AEM Assets
-topic: Présentation
-uuid: 242 f 5 ea 0-146 c -4 edb -928 e -35 b 4 c 084934 d
+title: Compte rendu des performances d’AEM Assets
+topic: Rapports
+uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Création de rapports AEM Assets
+# Compte rendu des performances d’AEM Assets
 
 Cette rubrique décrit les étapes d’administration pour activer la création de rapports AEM Assets dans Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL AEM]** &gt; **[!UICONTROL Création de rapports AEM Assets]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites **[!UICONTROL de]** rapports &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Modifier les paramètres &gt; AEM &gt; Création de rapports sur les ressources d’AEM]**********
 
 Permet à Analytics de collecter des impressions et des clics sur les ressources diffusées à partir d’Aperçus AEM Assets. Cette intégration :
 
