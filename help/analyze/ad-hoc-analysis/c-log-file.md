@@ -5,7 +5,7 @@ seo-title: Fichier journal
 solution: Analytics
 title: Fichier journal
 topic: Ad Hoc Analysis
-uuid: 1 e 5 c 0 e 70-928 b -45 de -9 f 5 b -0 c 562909 baed
+uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -25,5 +25,5 @@ Pour enregistrer et afficher rapidement un fichier journal, procédez comme suit
 
 >[!NOTE]
 >
->Le journal que vous enregistrez à l'aide de cette procédure est destiné à la session en cours.
+>Le journal que vous enregistrez à l’aide de cette procédure est destiné à la session en cours.
 
