@@ -7,7 +7,7 @@ title: Création de segments
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -134,7 +134,7 @@ Si le segment a été [publié sur Experience Cloud](https://marketing.adobe.co
   </tr> 
   <tr> 
    <td colname="col1">Segments d’administrateur <p>(également appelés segments « globaux ») </p> </td> 
-   <td colname="col2"> <p> Les segments d’<b>administrateur</b> seront migrés vers la nouvelle interface de segment et s’afficheront en tant que segments partagés avec tout le monde. </p> <p>Le propriétaire de ces segments est défini sur l’administrateur doté du compte le plus ancien dans la liste des administrateurs de la société de connexion. Toutefois, tous les administrateurs peuvent supprimer, modifier et partager ces segments. </p> <p>L’interface de gestion des segments d’Admin Console dans laquelle les administrateurs ont créé et géré ces segments globaux n’est plus disponible. Les administrateurs doivent utiliser le nouveau créateur de segments pour créer des segments et les partager avec les groupes et les personnes appropriés ou avec tout le monde. </p> </td> 
+   <td colname="col2"> <p> Les segments d’<b>administrateur</b> seront migrés vers la nouvelle interface de segment et s’afficheront en tant que segments partagés avec tout le monde. </p> <p>Le propriétaire de ces segments est défini sur l’administrateur avec le compte le plus ancien dans la liste des administrateurs de la société de connexion. Toutefois, tous les administrateurs peuvent supprimer, modifier et partager ces segments. </p> <p>L’interface de gestion des segments d’Admin Console dans laquelle les administrateurs ont créé et géré ces segments globaux n’est plus disponible. Les administrateurs doivent utiliser le nouveau créateur de segments pour créer des segments et les partager avec les groupes et les personnes appropriés ou avec tout le monde. </p> </td> 
   </tr> 
  </tbody> 
 </table>
