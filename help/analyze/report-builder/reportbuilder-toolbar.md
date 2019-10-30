@@ -1,18 +1,18 @@
 ---
 description: Informations sur la fonction des boutons de la barre d’outils du Créateur de rapports.
 seo-description: Informations sur la fonction des boutons de la barre d’outils du Créateur de rapports.
-seo-title: Barre d'outils du créateur de rapports
+seo-title: Barre d’outils de Report Builder
 solution: Analytics
-title: Barre d'outils du créateur de rapports
+title: Barre d’outils de Report Builder
 topic: Créateur de rapports
-uuid: 9 f 340 fb 0-f 99 a -4 dd 4-bcca -19 c 54 e 5499 e 6
+uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Barre d'outils du créateur de rapports
+# Barre d’outils de Report Builder
 
 Informations sur la fonction des boutons de la barre d’outils du Créateur de rapports.
 
@@ -34,7 +34,7 @@ Après avoir installé le Créateur de rapports et démarré Excel, cliquez sur 
 
 **Partager** : lance la [!UICONTROL Bibliothèque des cahiers de travail] pour vous permettre de transférer un classeur Excel du Créateur de rapports que vous souhaitez partager. Vous pouvez également télécharger et modifier des classeurs partagés. See [Use the Workbook Library](../../analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**Options :** Vous permet de spécifier si vous souhaitez être invité à saisir la **[!UICONTROL date A partir de]** (Maintenant) lors de l'actualisation des requêtes et d'activer la journalisation à des fins de dépannage. Reportez-vous à la section   [Options](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF).
+**** Options : Vous permet de spécifier si vous souhaitez être invité à saisir la date **[!UICONTROL A partir]** (Maintenant) lors de l’actualisation des requêtes et d’activer la journalisation à des fins de dépannage. Voir [Options](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF).
 
 **Verrouillé/Déverrouillé :** verrouillez le classeur pour empêcher tout ajout ou modification des requêtes qu’il contient. Cette option permet la modification hors ligne des classeurs en mettant en pause toutes les requêtes de rapport pour une modification plus efficace. Reportez-vous à la section [Verrouillage/déverrouillage des classeurs](../../analyze/report-builder/workbook-library/protect-wb.md#concept_8FAD0CFBAFDF417ABDDEA4CC26F93F83).
 
