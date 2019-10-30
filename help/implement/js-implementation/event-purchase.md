@@ -8,7 +8,7 @@ title: Événements d’achat
 topic: Développeur et mise en œuvre
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
+source-git-commit: fb8657100929f333e5e6933ff9d61d8598bf9e05
 
 ---
 
@@ -17,16 +17,16 @@ source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
 
 Les variables Analytics sont utilisées pour capturer des informations d’achat spécifiques pour l’événement d’achat. La variable `s.purchaseID` sert à sérialiser (dédupliquer) l’événement.
 
-Si un événement d’achat est appelé sans `purchaseID`, un identifiant unique est automatiquement généré sur la base des variables `s.products` et `s.events`. Cet ID d’achat généré automatiquement est stocké localement sous forme de valeur de cookie dans le navigateur du visiteur et n’est pas envoyé à Adobe. Les identifiants d’achat définis manuellement sont par contre envoyés à Adobe. Les cinq derniers achats effectués par un visiteur (avec ou sans ID d’achat) sont stockés dans le cookie local.
+Si un accès avec un événement d’achat est transmis sans ID d’achat, Adobe Analytics utilise les informations de l’accès (s.purchase et s.events) pour créer un "ID d’achat temporaire". Cet ID d’achat temporaire s’applique uniquement au visiteur de l’accès. Les 5 identifiants d’achat temporaires précédents sont stockés pour chaque identifiant visiteur (par suite de rapports).
 
 Lorsqu’un visiteur procède à un achat, plusieurs vérifications sont réalisées :
 
-* La variable l’ID d’achat correspond à l’une des cinq valeurs de cookie ? Si tel est le cas, la demande d’image est considérée comme un achat en double. Aucune variable de conversion, y compris l’événement d’achat, ne figure dans les rapports. 
-* Si `s.purchaseID` est défini, correspond-il à une valeur déjà collectée dans la suite de rapports ? Si tel est le cas, la demande d’image est considérée comme un achat en double. Aucune variable de conversion, y compris l’événement d’achat, ne figure dans les rapports. 
+* La variable l’ID d’achat temporaire correspond-il à l’un des cinq derniers ID d’achat temporaire stockés ? Si tel est le cas, la demande d’image est considérée comme un achat en double. Aucune variable de conversion, y compris l’événement d’achat, ne figure dans les rapports.
+* Si `s.purchaseID` est défini, correspond-il à une valeur déjà collectée dans la suite de rapports ? Si tel est le cas, la demande d’image est considérée comme un achat en double. Aucune variable de conversion, y compris l’événement d’achat, ne figure dans les rapports.
 
 Du code côté serveur spécifique peut être utilisé pour générer le numéro unique (valeur alphanumérique) incorporé dans la source HTML. En règle générale, l’identifiant de commande, ou une valeur alphanumérique similaire, est utilisé à cette fin. Cette valeur ne doit pas être modifiée lorsque l’utilisateur actualise la page.
 
-## Syntaxe
+## du lien personnalisé
 
 ```js
 s.purchaseID="12345678";
