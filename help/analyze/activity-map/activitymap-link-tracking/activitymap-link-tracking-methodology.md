@@ -7,7 +7,7 @@ title: Suivi des liens par extraction
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -62,12 +62,12 @@ L’utilisation de la région de lien présente les avantages suivants :
 * Elle permet de différencier des liens possédant le même ID principal.
 * Les tendances d’une région sont moins affectées par l’aspect dynamique de la page web.
 * Les utilisateurs peuvent consulter les liens les plus performants dans une région. Avec une région comme ancre, nous pouvons afficher des superpositions de liens qui ne sont actuellement pas visibles sur la page (Ajax, ciblage).
-* Une région peut remplacer des pages, puisqu’une région donnée peut être utilisée sur de nombreuses pages web. Cela permet de répondre à des questions telles que la suivante : « Ma région "Offre de produits" obtient-elle de meilleurs résultats sur la page d’entrée des femmes ou sur celle des hommes ? ».
+* Une région peut remplacer des pages, puisqu’une région donnée peut être utilisée sur de nombreuses pages web. Il permet de répondre à des questions comme : "Ma région "Offre de produits" est-elle la plus performante sur la page d'entrée pour femmes ou sur la page d'entrée pour hommes ?
 * En soi, une région est une dimension pertinente pour l’analyse de pages web très dynamiques. En effet, elle supprime le bruit dû au changement constant des liens : une région « Dernières actualités » sur la page d’entrée de CNN peut contenir de nombreux changements de liens. Mais la région sera toujours présente. Il pourrait donc être intéressant d’établir les tendances au niveau de la région sur plusieurs jours.
 
 **Suivi des régions personnalisé**
 
-Vous pouvez personnaliser le paramètre Région pour un lien (la valeur par défaut est l’ID de lien) : une balise définie sur « ID » utilisera tous les éléments HTML avec un paramètre « id » comme région. Par conséquent, définir la balise Région sur « id » renverra probablement de nombreuses régions distinctes (autant qu’il y a d’« ID » différents sur la page). Si vous souhaitez une mise en œuvre plus personnalisée, vous pouvez également définir la balise Région sur quelque chose de plus spécifique, tel que « region_id ».
+Vous pouvez personnaliser le paramètre Région pour un lien (la valeur par défaut est l’ID de lien) : une balise définie sur « ID » utilisera tous les éléments HTML avec un paramètre « id » comme région. Par conséquent, la définition de la balise Région sur "id" renverra probablement de nombreuses régions distinctes (autant qu’il existe des "ID" différents sur la page). Si vous souhaitez une mise en œuvre plus personnalisée, vous pouvez également définir la balise Région sur quelque chose de plus spécifique, tel que « region_id ».
 
 Vous trouverez ci-dessous un exemple de HTML utilisant l’attribut ID de région par défaut, « id ».
 
