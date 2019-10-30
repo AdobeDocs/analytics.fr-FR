@@ -1,18 +1,18 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Synthèse des chiffres et Résumé des changements
-title: Synthèse des chiffres et Résumé des changements
-uuid: 177 c 1 b 89-6 d 98-473 d -8447-6 b 4 cdc 479565
+seo-title: Synthèse des chiffres et Synthèse des changements
+title: Synthèse des chiffres et Synthèse des changements
+uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Synthèse des chiffres et Résumé des changements
+# Synthèse des chiffres et Synthèse des changements
 
-## Visualisation de synthèse des chiffres
+## Visualisation du numéro de résumé
 
 * Sélectionne toutes les colonnes si aucune cellule n’est sélectionnée.
 * Si une seule cellule est sélectionnée, son résumé s’affiche.
@@ -21,7 +21,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/summary-number.png)
 
-## Visualisation de synthèse des changements
+## Visualisation Synthèse des changements
 
 * Si aucune cellule n’est sélectionnée, les valeurs de deux premières cellules de la colonne sont comparées.
 * Si une seule cellule est sélectionnée, 0 s’affiche, car la valeur de la cellule est comparée à elle-même.
