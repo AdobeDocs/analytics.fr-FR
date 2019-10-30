@@ -4,9 +4,9 @@ seo-description: Vous pouvez obtenir, par exemple, une moyenne des appels quotid
 seo-title: Estimation des appels au serveur précédents et planification d’un pic de trafic
 solution: Analytics
 title: Estimation des appels au serveur précédents et planification d’un pic de trafic
-uuid: 38 deb 1 df-afb 0-437 d-b 541-69295 f 0 dc 8 dc
+uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
