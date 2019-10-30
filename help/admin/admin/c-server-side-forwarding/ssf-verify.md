@@ -1,17 +1,17 @@
 ---
 description: Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Pour ce faire, utilisez les outils de développement d’un navigateur ou un outil de proxy tel que Charles Web Debugger. Les instructions suivantes illustrent les indicateurs qui doivent être présents pour garantir que le transfert côté serveur est correctement activé.
 seo-description: Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Pour ce faire, utilisez les outils de développement d’un navigateur ou un outil de proxy tel que Charles Web Debugger. Les instructions suivantes illustrent les indicateurs qui doivent être présents pour garantir que le transfert côté serveur est correctement activé.
-seo-title: Vérification de la mise en œuvre du transfert côté serveur
+seo-title: Comment vérifier l’implémentation du transfert côté serveur
 solution: Audience Manager
-title: Vérification de la mise en œuvre du transfert côté serveur
-uuid: e 37296 cc -0120-486 a-a 4 ca -78 d 648 cf 6 a 11
+title: Comment vérifier l’implémentation du transfert côté serveur
+uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Vérification de la mise en œuvre du transfert côté serveur
+# Comment vérifier l’implémentation du transfert côté serveur
 
 Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Pour ce faire, utilisez les outils de développement d’un navigateur ou un outil de proxy tel que Charles Web Debugger. Les instructions suivantes illustrent les indicateurs qui doivent être présents pour garantir que le transfert côté serveur est correctement activé.
 
@@ -25,7 +25,7 @@ Pour vérifier l’état du transfert côté serveur :
 
 >[!CAUTION]
 >
->If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Assurez-vous que le service d'identité est correctement déployé, que vous avez déployé le module App Measurement, que la suite de rapports appropriée a été mappée à l'organisation IMS correcte et que le transfert côté serveur a été activé dans la console d'administration Analytics.
+>If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Vérifiez que le service d’identité est correctement déployé, que vous avez déployé le module App Measurement, que la suite de rapports applicable a été mappée à l’organisation IMS correcte et que le transfert côté serveur a été activé dans la console d’administration Analytics.
 
 >[!MORE_LIKE_THIS]
 >
