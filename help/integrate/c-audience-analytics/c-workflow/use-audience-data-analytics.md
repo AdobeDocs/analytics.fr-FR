@@ -1,19 +1,19 @@
 ---
-description: 'Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions Audiences : '
-seo-description: 'Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions Audiences : '
+description: 'Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les identifiants d’audience sont stockés dans la colonne "mc_audiences". Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions Audiences : '
+seo-description: 'Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les identifiants d’audience sont stockés dans la colonne "mc_audiences". Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions Audiences : '
 seo-title: Utilisation des données d’audience dans Analytics
 solution: 'Activation '
 title: Utilisation des données d’audience dans Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Utilisation des données d’audience dans Analytics
 
-Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience :
+Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les identifiants d’audience sont stockés dans la colonne "mc_audiences". Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience :
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
@@ -26,7 +26,7 @@ Dans Analysis Workspace, les segments AAM apparaissent sous la forme de deux di
 
 ## Comparaison des segments {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[Comparaison des segments](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html) détecte les différences les plus importantes sur le plan statistique entre deux segments. Les données d’audience peuvent être utilisées dans Comparaison des segments de deux façons : 1) sous la forme des deux 2 segments comparés et 2) sous la forme des éléments du tableau « Principaux éléments de dimension ».
+[Comparaison des segments](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html) détecte les différences les plus importantes sur le plan statistique entre deux segments. Les données d’audiences peuvent être utilisées dans la comparaison de segments de deux manières : 1) comme les 2 segments qui sont comparés, et 2) comme des éléments du tableau "Principaux éléments de dimension".
 
 1. Accédez à **[!UICONTROL Espace de travail]** et sélectionnez le panneau **Comparaison des segments]dans le rail de gauche.[!UICONTROL **
 
@@ -37,13 +37,13 @@ Dans Analysis Workspace, les segments AAM apparaissent sous la forme de deux di
 1. (Facultatif) : Vous pouvez ajouter d’autres segments ou éléments de dimension ; il est possible de comparer jusqu’à 2 éléments.
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   Les dimensions ID et Nom d’audience apparaîtront automatiquement dans le tableau « Principaux éléments de dimension » car il s’agit de données de profil supplémentaires pour les deux segments comparés.
+   Les dimensions Identifiant et Nom de l’audience apparaîtront automatiquement dans le tableau "Principaux éléments de dimension", car il s’agit de données de profil supplémentaires pour les deux segments en cours de comparaison.
 
    ![](assets/aud-segcompare.png)
 
 ## Parcours client (flux) dans Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-Les données de segments AAM sont transmises à Analytics accès par accès et représentent l’appartenance d’audience d’un visiteur à ce moment précis. Cela signifie qu’un visiteur peut appartenir à un segment (p. ex. « Sensibilisation »), puis répondre aux conditions d’un segment plus qualifié ultérieurement (p. ex. « Considération »). Vous pouvez utiliser [Flux](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) dans Analysis Workspace pour visualiser le parcours d’un visiteur entre les audiences.
+Les données de segments AAM sont transmises à Analytics accès par accès et représentent l’appartenance d’audience d’un visiteur à ce moment précis. Cela signifie qu’un visiteur peut entrer dans un segment (ex. "Sensibilisation"), puis plus tard, être admissible à un segment plus qualifié (p. ex. "Considération"). Vous pouvez utiliser [Flux](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) dans Analysis Workspace pour visualiser le parcours d’un visiteur entre les audiences.
 
 1. Accédez à **[!UICONTROL Espace de travail]** et sélectionnez la visualisation **Flux]dans le rail de gauche.[!UICONTROL **
 
