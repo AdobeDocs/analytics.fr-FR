@@ -6,7 +6,7 @@ solution: Analytics
 title: Déploiement de l’intégration
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,19 +21,19 @@ Pour activer l’intégration, vous devez exécuter l’assistant de configurati
 
 1. Connectez-vous à Adobe Experience Cloud.
 1. Accédez à Connecteurs **[!UICONTROL de]** données (anciennement Genesis).
-1. Launch the Kampyle integration wizard.
+1. Lancez l’assistant d’intégration Kampyle.
 1. Sélectionnez une suite de rapports et attribuez un nom à l’intégration.
 1. Configurez les éléments suivants :
-   1. **[!UICONTROL Email address - the primary contact's email address.]**
-   1. **[!UICONTROL Description - (optional) description for this integration setup.]**
-   1. **[!UICONTROL Kampyle Key - Find this key in the Kampyle application under Feedback Form &gt; Feedback Form Customization.]**********
-   1. **[!UICONTROL Tracking Server - the tracking server (domain) setting that you use to track Adobe Analytics data.]**
-   1. **[!UICONTROL Tracking Server Secure - if your tracking server is different for secure/https traffic, then provide that setting here.]**
-1. Configure the following Variable Mappings items:****
+   1. **[!UICONTROL Adresse]** électronique : adresse électronique du contact principal.
+   1. **[!UICONTROL Description]** - Description (facultative) pour cette configuration d'intégration.
+   1. **[!UICONTROL Clé]** Kampyle - Trouvez cette clé dans l'application Kampyle sous Formulaire **[!UICONTROL de]** rétroaction &gt; Personnalisation **[!UICONTROL du formulaire de]** rétroaction.
+   1. **[!UICONTROL Serveur]** de suivi : paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics.
+   1. **[!UICONTROL Serveur de suivi sécurisé]** : si votre serveur de suivi est différent pour le trafic sécurisé/https, indiquez ce paramètre ici.
+1. Configurez les éléments **[!UICONTROL de mappage]** de variables suivants :
    1. **[!UICONTROL Identifiant]** de commentaires Kampyle : sélectionnez une variable eVar disponible dans votre suite de rapports.
-   1. **[!UICONTROL Feedback Grade - Select an available success event (type “counter”) from your report suite.]**
-   1. **[!UICONTROL Feedback Items - Select an available success event (type “counter”) from your report suite.]**
-   1. **[!UICONTROL Feedback with Grade - Select an available success event (type “counter”) from your report suite.]**
+   1. **[!UICONTROL Note]** de commentaire : sélectionnez un événement de réussite disponible (type "compteur") dans votre suite de rapports.
+   1. **[!UICONTROL Commentaires]** : sélectionnez un événement de réussite disponible (type "compteur") dans votre suite de rapports.
+   1. **[!UICONTROL Commentaires avec note]** : sélectionnez un événement de réussite disponible (type "compteur") dans votre suite de rapports.
 1. Cochez la case pour que le tableau de bord d'intégration Kampyle soit automatiquement créé (recommandé).
 1. Vérifiez tous les éléments de configuration et cliquez sur **[!UICONTROL Activer maintenant]**.
 
