@@ -7,7 +7,7 @@ title: Gestion des segments
 topic: Créateur de rapports
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Le Créateur de rapports inclut un panneau de segmentation à l’étape 1 de l
 
 ## Ajouter ou modifier des segments {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE]
->
->Pour ajouter ou modifier des segments, l’interface de segments du créateur de rapports lance le créateur de segments Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
+> [!NOTE] Pour ajouter ou modifier des segments, l’interface de segments du créateur de rapports lance le créateur de segments Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
 
 1. Dans le panneau des segments de l’étape 1 de l’Assistant Requête, cliquez sur **[!UICONTROL Ajouter]**.
 1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, consultez la page [https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
@@ -63,9 +61,7 @@ Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela i
 
 1. Cochez le ou les segments que vous souhaitez appliquer.
 
->[!NOTE]
->
->Que vous soyez administrateur ou non, dans le créateur de rapports, vous ne pouvez afficher que les segments que vous possédez et ceux qui ont été partagés avec vous. (Dans l’interface utilisateur de Rapports et analyses marketing, l’administrateur peut consulter tous les segments de l’entreprise.)
+> [!NOTE] Que vous soyez administrateur ou non, dans le créateur de rapports, vous ne pouvez afficher que les segments que vous possédez et ceux qui ont été partagés avec vous. (Dans l’interface utilisateur de Rapports et analyses marketing, l’administrateur peut consulter tous les segments de l’entreprise.)
 
 ## Filtrage des segments {#section_376E986D3E684999A7CDB08E53854159}
 
