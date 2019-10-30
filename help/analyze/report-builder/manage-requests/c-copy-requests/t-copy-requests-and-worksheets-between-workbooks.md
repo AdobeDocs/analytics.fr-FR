@@ -5,9 +5,9 @@ seo-title: Copie de requêtes et de feuilles de calcul entre des classeurs
 solution: Analytics
 title: Copie de requêtes et de feuilles de calcul entre des classeurs
 topic: Créateur de rapports
-uuid: 6 b 2 c 4259-d 8 cb -430 e -819 f -38 e 213 dd 2661
+uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
