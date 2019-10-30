@@ -5,9 +5,9 @@ seo-title: Personnalisation des menus
 solution: Analytics
 title: Personnalisation des menus
 topic: Outils d’administration
-uuid: 31 e 335 e 7-c 91 a -4669-a 9 b 7-00 f 9 e 385375 a
+uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Avec cette fonction, vous pouvez personnaliser les menus des rapports auxquels l
 
 Les modifications apportées au menu s’appliquent à tous les utilisateurs qui accèdent à la suite de rapports. Les utilisateurs peuvent toutefois restaurer la configuration par défaut d’un menu lors de l’utilisation de la suite de rapports.
 
->[!NOTE]
->
->Toute modification apportée à la structure de menus n'affecte pas le créateur de rapports et la publicité - analyses ad hoc. En revanche, le changement du nom d’un rapport se répercute dans les deux outils.
+> [!NOTE] Toute modification de la structure de menus n’a aucune incidence sur le créateur de rapports et les analyses ad hoc. En revanche, le changement du nom d’un rapport se répercute dans les deux outils.
 
 ## Descriptions de la personnalisation des menus {#section_B0D224DACB914A378902A4E0E1234889}
 
