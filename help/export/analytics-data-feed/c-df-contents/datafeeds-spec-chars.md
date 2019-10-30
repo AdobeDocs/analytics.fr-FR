@@ -1,15 +1,15 @@
 ---
 description: Informations relatives aux caractères spéciaux utilisés dans le flux de données.
-keywords: Flux de données ; tâche ; caractères spéciaux ; hit_ data ; variables à plusieurs valeurs ; events_ list ; products_ list ; mvvars
+keywords: Flux de données;tâche;caractères spéciaux;hit_data;variables à plusieurs valeurs;events_list;products_list;mvvars
 seo-description: Informations relatives aux caractères spéciaux utilisés dans le flux de données.
 seo-title: Caractères spéciaux
 solution: Analytics
 subtopic: flux de données
 title: Caractères spéciaux
-topic: Reports and Analytics
-uuid: 5 efe 019 b -39 e 6-4226-a 936-88202 a 02 f 5 e 6
+topic: Reports & Analytics
+uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,12 +61,12 @@ Les caractères suivants revêtent une signification particulière dans des vari
   <tr> 
    <td colname="col1"> <code> ; </code> (point-virgule) </td> 
    <td colname="col02"> Fin de sous-valeur à l’intérieur d’une valeur de produit </td> 
-   <td colname="col2"> <p>Sépare les valeurs associées à un produit donné dans la liste <code>product_list </code>. </p> </td> 
+   <td colname="col2"> <p>Sépare les valeurs associées à un produit donné dans la liste <code> product_list </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> = </code> (caractère égal) </td> 
    <td colname="col02"> Attribution de valeur </td> 
-   <td colname="col2"> <p>Attribue une valeur à un événement de la liste <code>event_list </code>. </p> </td> 
+   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
