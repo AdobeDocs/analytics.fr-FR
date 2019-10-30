@@ -7,7 +7,7 @@ title: Rapports sur les visiteurs
 topic: Ad Hoc Analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Vous pouvez ventiler ce rapport selon tout autre rapport ou variable afin de dé
 * le nombre de visites effectuées généralement par un utilisateur qui a parcouru la campagne XYZ avant d’effectuer un achat.
 * si les utilisateurs tokyoïtes, par exemple, effectuent davantage de visites que les utilisateurs londoniens avant de générer une piste.
 
->[!NOTE]
->
->Si le même visiteur consulte votre site Web plusieurs fois au cours de la même période, chaque nombre de visites spécifié est incrémenté pour chaque visite.
+> [!NOTE] Si le même visiteur consulte votre site Web plusieurs fois au cours de la même période, chaque nombre de visites spécifié est incrémenté pour chaque visite.
 
 Ce rapport s’articule autour des données d’identifiant des visiteurs transmises à Adobe lors chaque accès à votre site. A la réception de ces données, Adobe les compare aux identifiants des visiteurs historiques afin de déterminer si l’accès correspond à :
 
@@ -73,9 +71,7 @@ Ce rapport s’articule autour des données d’identifiant des visiteurs transm
 * un visiteur précédent qui continue une visite en cours (nombre de visites non incrémenté),
 * un visiteur précédent qui effectue une nouvelle visite (nombre de visites incrémenté d’une unité).
 
->[!NOTE]
->
->Chaque identifiant visiteur Analytics est associé à un profil du visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
+> [!NOTE] Chaque identifiant visiteur Analytics est associé à un profil du visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
 
 ## Fidélité de la clientèle {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -94,9 +90,7 @@ Le rapport [!UICONTROL Fidélité de la clientèle] affiche des schémas de clie
 * **Client régulier** : visiteurs qui ont effectué deux achats
 * **Client fidèle** : visiteurs qui ont effectué trois achats ou plus
 
->[!NOTE]
->
->Lors de l’utilisation de ces mesures, toutes les visites des utilisateurs (ou tous les visiteurs) sont représentées dans ce rapport, que la visite (ou le visiteur) ait inclus un achat ou non.
+> [!NOTE] Lors de l’utilisation de ces mesures, toutes les visites des utilisateurs (ou tous les visiteurs) sont représentées dans ce rapport, que la visite (ou le visiteur) ait inclus un achat ou non.
 
 L’état de fidélité change à la fin de la visite au cours de laquelle s’est produit un événement d’achat. Par exemple, un nouveau client (1 achat) effectue un achat, puis s’inscrit ensuite au bulletin d’information, au cours de la même visite. L’événement d’inscription au bulletin d’information est toujours considéré comme une interaction Nouveau client, car l’état de fidélité du client ne changera pas avant la prochaine visite.
 
@@ -110,7 +104,7 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Langues]** : indique les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues les plus utilisées par les visiteurs du site.
+**[!UICONTROL Langues]**: Affiche les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues que les visiteurs utilisent le plus souvent sur votre site.
 
 **[!UICONTROL Domaines]** : répertorie les organisations et les fournisseurs de services Internet que les visiteurs utilisent pour accéder à votre site. Ce rapport diffère du rapport [!UICONTROL Domaines complets], en ce sens qu’il répertorie le domaine secondaire. Le rapport des domaines complets, lui, enregistre le domaine complet des fournisseurs d’accès Internet.
 
