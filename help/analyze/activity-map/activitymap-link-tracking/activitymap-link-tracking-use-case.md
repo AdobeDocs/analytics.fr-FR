@@ -7,7 +7,7 @@ title: Différenciation de plusieurs liens se rapportant au même ID de lien et 
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -90,9 +90,7 @@ En créant un identifiant d’objet unique pour un lien ou l’emplacement de li
 
 Vous pouvez personnaliser la région en vous assurant que la région de chaque lien « Buy » est définie. Pour ce faire, ajoutez un paramètre « id » à l’un des parents de chaque balise d’ancrage « Buy ».
 
->[!NOTE]
->
->Vous n’êtes pas strictement limité au paramètre "id" comme identifiant de région. Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript "s.ActivityMap.regionIDAttribut".
+> [!NOTE] Vous n’êtes pas strictement limité au paramètre "id" comme identifiant de région. Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript "s.ActivityMap.regionIDAttribut".
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
