@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Création de rapports Adobe Campaign
-title: Création de rapports Adobe Campaign
-uuid: 0919 ae 9 f -84 eb -43 a 5-8282-6 cd 6 dec 63 dc 1
+seo-title: Rapports Adobe Campaign
+title: Rapports Adobe Campaign
+uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Création de rapports Adobe Campaign
+# Rapports Adobe Campaign
 
 Pour plus d’informations sur la configuration de cette intégration, aller à la [documentation d’Adobe Campaign](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
@@ -54,12 +54,12 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
 
 ## Étape 3. Utilisation des classifications Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Adobe Campaign]** &gt; **[!UICONTROL Classifications Adobe Campaign]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites **[!UICONTROL de]** rapports &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Modifier les paramètres &gt; Adobe Campaign &gt; Classifications des campagnes Adobe]**********
 
 Une fois votre suite de rapports activée pour Adobe Campaign, les classifications suivantes sont disponibles :
 
 * Identifiant de la diffusion (nom de la diffusion interne que vous voyez dans Campaign)
-* Libellé de diffusion ((Diffusion dans Campaign - Livraison individuelle/Livraison récurrente/Livraison de transactions)
+* Etiquette de remise (Livraison dans la campagne - Livraison individuelle/Livraison périodique/Livraison de transaction)
 * ID de campagne (nom de la campagne interne que vous voyez dans Campaign)
 * Libellé de la campagne (campagne dans Adobe Campaign)
 * Libellé de la diffusion exécutée (liste des diffusions individuelles exécutées)
