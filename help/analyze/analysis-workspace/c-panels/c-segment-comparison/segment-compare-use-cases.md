@@ -3,7 +3,7 @@ title: Cas d’utilisation de la comparaison de segments
 description: Découvrez des cas d’utilisation concrets sur la manière dont le panneau de comparaison de segments peut être utilisé pour mieux comprendre la stratégie marketing.
 keywords: Segment IQ
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ Une grande société de services B2B souhaitait comprendre le type de trafic sur
 
 ## Cas d’utilisation 5 : comparer les acheteurs Fitbit à tous les autres
 
-> *« Nous avons constaté que les personnes achetant des objets connectés Fitbit étaient six fois plus susceptibles de recevoir un message « article épuisé » que les autres clients. Nous avons donc commandé plus d’articles Fitbit afin d’éviter les ruptures de stock. »*
+> *"Nous avons découvert que les gens qui achetaient Fitbits étaient 6 fois plus susceptibles d'avoir un message "en rupture de stock" que tout le monde, donc nous avons rapidement commandé plus de Fitbits et évité de manquer de stock !"*
 
 Un important détaillant en ligne s'est intéressé à la façon dont l'un des produits de vacances les plus chauds, Fitbit, se vendait et à ce qui rendait les acheteurs Fitbit uniques parmi d'autres clients. En comparant les segments, ils ont constaté que les utilisateurs qui achetaient Fitbits étaient 6 fois plus susceptibles d’obtenir un message "en rupture de stock" que tout autre client. Après une analyse plus approfondie, l'équipe marketing a dirigé ces visiteurs vers leurs magasins de briques et de mortiers pendant qu'ils attendaient leur service d'achat pour commander plus de Fitbits à expédier. En conséquence, le détaillant a évité plus de messages "en rupture de stock" et a répondu à une plus grande partie de sa demande de vacances.
 
