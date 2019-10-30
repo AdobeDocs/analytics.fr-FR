@@ -8,7 +8,7 @@ title: Rapprochement des écarts de mesures
 topic: Connecteurs de données
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,7 +48,7 @@ Ceci peut générer un écart important entre les données collectées par Analy
 * DFA envoie des données vers les serveurs de collecte de données Adobe lors d’un envoi de nuit, de sorte qu’il peut y avoir jusqu’à deux jours d’écart entre les données d’impression Analytics et celles des rapports DFA.
 * Adobe utilise les classifications SAINT afin de classifier les codes de suivi DFA importés à divers niveaux d’agrégation (nom de campagne, de référencement, de publicité, etc.). Si la disparité apparaît lors de l’exécution d’un rapport de classification, exécutez un test simple afin de vérifier si les classifications reflètent déjà les mesures importées :
 
-   * Dans le rapport de classifications, localisez une ligne nommée Néant ou Aucun.
+   * Dans le rapport de classification, recherchez une ligne nommée "Aucun".
    * Ventilez cette ligne selon la même variable, en utilisant le rapport ID DFA brut (identifiant de campagne, par exemple).
    * Dans ce rapport, notez les codes de suivi DFA non classés du type `DFA:XXXXX:XXXXX`.
    * Si ce type de code est fréquent, vérifiez le processus de classification SAINT de nuit.
@@ -56,18 +56,18 @@ Ceci peut générer un écart important entre les données collectées par Analy
 ### Pourquoi les clics DFA sont-ils parfois supérieurs aux clics publicitaires Adobe Analytics ? {#section-2fce4608ed044bdc9cf812cb719d5d35}
 
 * DFA comptabilise un clic avant que le visiteur ne parvienne au site web du client. Analytics comptabilise les clics publicitaires après le chargement de la page d’entrée et l’exécution de la balise Adobe JavaScript. En général, les disparités sont dues au fait que le visiteur n’est pas encore parvenu sur la page d’entrée alors que DFA a déjà suivi un clic ou au fait que le délai `s.maxDelay` est dépassé.
-* Ensure all placements and creatives in the Floodlight Configuration include the clickThroughParam in the landing page URL (for example “`?CID=1`”). Si ce paramètre n’est pas défini, le code JavaScript Adobe Analytics omet les clics publicitaires qui surviennent après le premier accès de la visite.
+* Ensure all placements and creatives in the Floodlight Configuration include the clickThroughParam in the landing page URL (for example "`?CID=1`"). Si ce paramètre n’est pas défini, le code JavaScript Adobe Analytics omet les clics publicitaires qui surviennent après le premier accès de la visite.
 * Assurez-vous que tous les référencements et créatifs correspondent à une page d’entrée balisée avec JavaScript et qu’ils contiennent le module DFA Integrate, et que l’identifiant de configuration Floodlight sur cette page d’entrée correspond à l’identifiant de configuration Floodlight des publicités diffusées. Souvent, les disparités sont dues au fait que la page d’entrée pour les publicités est paramétrée sur le site tiers ou les publicités diffusées.
 * Si vous utilisez des publicités multimédias enrichies ou Flash (swf), assurez-vous que chaque fois que l’outil de suivi des clics est atteint, le navigateur du visiteur est également redirigé vers la page d’entrée avec le paramètre `clickThroughParam` inclus dans la chaîne de requête. En cas d’échec de redirection du navigateur, un clic publicitaire n’est pas comptabilisé.
 * Les dépassements de délai représentent les instances où les données DFA peuvent avoir été disponibles mais où le code JavaScript n’a pas reçu de réponse à temps. Si un visiteur parvient sur la page d’entrée, Adobe JavaScript demande ses informations auprès du service fls.doubleclick.net de DFA. Le paramètre `s.maxDelay`détermine le délai d’attente par JavaScript pour obtenir les données de Floodlight Service (FLS). If `s.maxDelay` is too high, visitors can leave the site before Adobe collects the hit data; meaning that no click data is recorded. If `s.maxDelay` is set too low, the visitor's Internet connection cannot retrieve the FLS data in time; meaning that the hit is sent to Adobe without DFA click information.
 * Le trafic des robots peut gonfler le nombre de clics DFA. Les robots sont parfois dotés d’une fonctionnalité de clic sur une publicité, sans avoir à exécuter une balise Analytics ni à déclencher la balise de script synchrone pour charger les données de demande des serveurs Floodlight. Si ces robots ne sont pas déduits du total des clics, ils peuvent être source de disparité des données.
 * Les visiteurs qui quittent la page avant l’expiration de `s.maxDelay` et le renvoi des données DFA seront omis ; aucune donnée DFA ou de visiteur ne sera collectée à leur sujet.
-* Analytics tente d’identifier et de supprimer les clics publicitaires en double afin qu’ils ne soient comptabilisés qu’une seule fois par campagne par visite. DFA comptabilise comme des clics ACM supplémentaires les visiteurs qui cliquent sur « Retour » et franchissent plusieurs fois la redirection de publicité, tandis qu’Analytics ne les comptabilise pas comme des clics publicitaires multiples.
+* Analytics tente d’identifier et de supprimer les clics publicitaires en double afin qu’ils ne soient comptabilisés qu’une seule fois par campagne par visite. DFA comptabilise les visiteurs qui cliquent sur "Précédent" et passent plusieurs fois par la redirection publicitaire comme des clics ACM supplémentaires, tandis qu’Analytics ne les comptabilise pas comme des clics publicitaires multiples.
 * Les balises DFA Floodlight n’impliquent pas l’activation de JavaScript, contrairement à Analytics. C’est pourquoi il arrive que DFA comptabilise un accès alors qu’Analytics ne le fait pas. Afin d’identifier la présence potentielle d’un problème, utilisez le rapport Analytics JavaScript dans le menu Profil du visiteur.
 
 ### Pourquoi les activités post-impression de DFA sont-elles parfois supérieures aux affichages publicitaires Adobe Analytics ? {#section-5daa91039c404df48b6a3447c20406f7}
 
-* Analytics tente d’identifier et de supprimer les clics publicitaires en double afin qu’ils ne soient comptabilisés qu’une seule fois par campagne par visite. DFA comptabilise comme des clics ACM supplémentaires les visiteurs qui cliquent sur « Retour » et franchissent plusieurs fois la redirection de publicité, tandis qu’Analytics ne les comptabilise pas comme des clics publicitaires multiples.
+* Analytics tente d’identifier et de supprimer les clics publicitaires en double afin qu’ils ne soient comptabilisés qu’une seule fois par campagne par visite. DFA comptabilise les visiteurs qui cliquent sur "Précédent" et passent plusieurs fois par la redirection publicitaire comme des clics ACM supplémentaires, tandis qu’Analytics ne les comptabilise pas comme des clics publicitaires multiples.
 * Les balises DFA Floodlight n’impliquent pas la désactivation de JavaScript, contrairement à Analytics. C’est pourquoi il arrive que DFA comptabilise un accès alors qu’Analytics ne le fait pas.
 * DFA comptabilise les activités post-impression lors de l’utilisation des balises Floodlight, qui peuvent être placées sur le site web client. Analytics comptabilise les affichages publicitaires après l’exécution de la balise JavaScript (demande d’image). Le référencement du code sur la page web peut déterminer si le chargement abandonné d’une page est comptabilisé comme une activité post-impression ou comme un affichage publicitaire.
 
