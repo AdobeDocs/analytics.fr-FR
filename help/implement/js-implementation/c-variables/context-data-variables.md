@@ -1,6 +1,6 @@
 ---
 description: Les variables de données contextuelles permettent de définir, sur chaque page, des variables personnalisées lisibles par les règles de traitement.
-keywords: Implémentation d’Analytics;contextdata;s.contextdata
+keywords: Mise en œuvre d’Analytics;contextdata;s.contextdata
 seo-description: Les variables de données contextuelles permettent de définir, sur chaque page, des variables personnalisées lisibles par les règles de traitement.
 seo-title: Variables de données contextuelles
 solution: Analytics
@@ -9,7 +9,7 @@ title: Variables de données contextuelles
 topic: Développeur et mise en œuvre
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Les variables de données contextuelles permettent de définir, sur chaque page,
 
 Au lieu d’affecter de façon explicite des valeurs aux props et eVars dans votre code, vous pouvez envoyer des données dans des variables de données contextuelles mises en correspondance à l’aide de règles de traitement. Les règles de traitement offrent une interface graphique puissante pour apporter des modifications aux données reçues. Selon les valeurs envoyées dans les données contextuelles, vous pouvez définir des événements, copier les valeurs dans des eVars et des props et exécuter des instructions conditionnelles supplémentaires.
 
->[!NOTE]
->
->Les variables de données contextuelles ne sont pas sensibles à la casse. Par exemple, les deux variables suivantes sont effectivement identiques :
+> [!NOTE] Les variables de données contextuelles ne sont pas sensibles à la casse. Par exemple, les deux variables suivantes sont effectivement identiques :
 >```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
@@ -33,7 +31,7 @@ Au lieu d’affecter de façon explicite des valeurs aux props et eVars dans vot
 
 L’utilisation de données contextuelles vous évite de mettre à jour le code pour prendre en charge différentes configurations de suite de rapports.
 
-Vous pouvez par exemple définir la variable *`s.contextData`* variable:
+Vous pouvez par exemple définir la variable Variable *`s.contextData`* :
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -57,11 +55,11 @@ Etant donné que les règles de traitement ne sont appliquées qu’au moment de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Noms et caractères pris en charge </p> </td> 
-   <td colname="col2"> <p>Les noms de variable de données contextuelles peuvent comporter uniquement des caractères alphanumériques, des traits de soulignement et des points. Les autres caractères sont supprimés. Les variables de données contextuelles n’ont pas de désignation numérique, mais un nom. </p> <p>Par exemple, la variable de données contextuelles <code>login_page-home</code> devient automatiquement <code>login_pagehome </code>. Toutes les données envoyées à la variable <code>login_page-home</code> sont allouées sous <code>login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>Les noms de variable de données contextuelles peuvent comporter uniquement des caractères alphanumériques, des traits de soulignement et des points. Les autres caractères sont supprimés. Les variables de données contextuelles n’ont pas de désignation numérique, mais un nom. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Espace de noms </p> </td> 
-   <td colname="col2"> <p>Il est conseillé de faire précéder vos variables du nom de la société, du nom du site ou d’une valeur semblable afin de vous assurer que le nom est unique dans toute la suite de rapports. </p> <p>Les variables de données contextuelles peuvent être nommées de la même manière que d’autres variables JavaScript. Nous attirons votre attention sur le fait que l’utilisation de l’espace de nom <code>a.*</code> est réservée aux produits Adobe dans les noms de variables contextuelles. Par exemple, la bibliothèque AppMeasurement pour iOS utilise <code>a.InstallEvent</code> pour mesurer les installations d’application. </p> </td> 
+   <td colname="col2"> <p>Il est conseillé de faire précéder vos variables du nom de la société, du nom du site ou d’une valeur semblable afin de vous assurer que le nom est unique dans toute la suite de rapports. </p> <p>Les variables de données contextuelles peuvent être nommées de la même manière que d’autres variables JavaScript. Be aware that the namespace <code> a.* </code> is reserved for use by Adobe products in context variable names. Par exemple, la bibliothèque AppMeasurement pour iOS utilise <code> a.InstallEvent </code> pour mesurer les installations d’application. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Limites d’URL pour Internet Explorer </p> </td> 
@@ -86,7 +84,7 @@ s.tl(true,"o","Link Name");
 
 ## Exemples {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Méthodes possibles pour remplacer l’implémentation de la *`s.pageName`* variable, en supposant que les règles de traitement sont correctement configurées pour chacune d’elles :
+Méthodes possibles pour remplacer l’implémentation de la variable *`s.pageName`*, en supposant que les règles de traitement sont correctement configurées pour chacune d’elles :
 
 ```
 s.contextData['page'] = "Home Page" 
