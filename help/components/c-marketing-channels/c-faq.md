@@ -3,12 +3,12 @@ description: Découvrez les bonnes pratiques et les exemples utilisables pour re
 seo-description: Découvrez les bonnes pratiques et les exemples utilisables pour renseigner les différentes règles que vous pouvez configurer pour vos canaux marketing.
 seo-title: Questions fréquentes et exemples
 solution: Analytics
-subtopic: Marketing channels
+subtopic: Canaux marketing
 title: Questions fréquentes et exemples
 topic: Reports & Analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,7 +37,7 @@ Chaque implémentation des règles de traitement des canaux marketing peut être
 **Question** : Mes codes de suivi ne suivent pas de schéma et j’en ai des milliers à spécifier pour mon canal Affilié.
 
 *  Procédez par élimination. Si les canaux Courriel et Affilié utilisent le même paramètre de chaîne de requête, mais que vous n’avez que quelques codes de suivi, vous pouvez spécifier les codes de suivi par courriel dans un ensemble de règles définissant le courriel. Vous classez ensuite tous les autres codes de suivi avec *`affiliates.`*
-* Dans votre système de messagerie, ajoutez un paramètre de chaîne de requête à toutes les URL de page d’accueil, comme par exemple *`&ch=eml`*. Créez un ensemble de règles qui détectera si le paramètre de requête ch est égal à *`eml`*. If it does not contain , then it is an affiliate.*`eml`*
+* Dans votre système de messagerie, ajoutez un paramètre de chaîne de requête à toutes les URL de page d’accueil, comme par exemple *`&ch=eml`*. Créez un ensemble de règles qui détectera si le paramètre de requête ch est égal à *`eml`*. S’il ne contient pas *`eml`*, il s’agit d’un affilié.
 
 **Question** : Les domaines référents contiennent plus de données que prévu.
 
@@ -81,9 +81,7 @@ Lorsque les règles ne capturent pas de données, ou si les règles ne sont pas 
 
 Ce type de règle « fourre-tout » permet de s’assurer que le trafic des canaux corresponde toujours au trafic externe et ne figure pas dans la catégorie **[!UICONTROL Aucun canal identifié]**. Veillez à ne pas créer de règles identifiant également le trafic interne. La définition de la valeur du canal comme **[!UICONTROL Domaine référent]** ou **URL de la page]est le moyen le plus courant et le plus utile de créer une règle « Other » efficace.[!UICONTROL **
 
->[!NOTE]
->
->Il se peut qu'il y ait encore du trafic de canal qui puisse entrer dans la catégorie Aucun canal identifié. Par exemple : un visiteur sur le site marque une page comme favori puis, au cours de la même visite, revient sur cette page en passant par les favoris. Puisqu’il ne s’agit pas de la première page de la visite, le trafic ne sera pas inclus dans la catégorie des canaux directs ni dans celle des autres canaux, puisqu’il n’y a aucun domaine référent.
+> [!NOTE] Il se peut qu'il y ait encore du trafic de canal qui puisse entrer dans la catégorie Aucun canal identifié. Par exemple : un visiteur sur le site marque une page comme favori puis, au cours de la même visite, revient sur cette page en passant par les favoris. Puisqu’il ne s’agit pas de la première page de la visite, le trafic ne sera pas inclus dans la catégorie des canaux directs ni dans celle des autres canaux, puisqu’il n’y a aucun domaine référent.
 
 ## Recherche payante {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -133,7 +131,7 @@ Cette règle identifie les visiteurs renvoyés par un référent qui correspond 
 
 ## Courriel {#section_4A927BE947B748E39595F4525B7280DE}
 
-Pour configurer cette règle, indiquez le paramètre de chaîne de requête de votre campagne par courriel. Dans cet exemple, le paramètre est *`eml`*:
+Pour configurer cette règle, indiquez le paramètre de chaîne de requête de votre campagne par courriel. Dans cet exemple, le paramètre est *`eml`*
 
 ![](assets/example_email.png)
 
