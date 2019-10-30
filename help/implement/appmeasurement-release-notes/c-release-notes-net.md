@@ -8,7 +8,7 @@ title: Windows Silverlight, NET, IIS, XBOX
 topic: Développeur et mise en œuvre
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,17 +17,15 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!IMPORTANT]
 >
->Ces kits SDK ont été supprimés et ne sont plus pris en charge ni distribués par Adobe.
+>Ces kits SDK ont été supprimés et ne sont plus pris en charge ou distribués par Adobe.
 
->[!NOTE]
->
->Pour trouver la version actuelle de la bibliothèque, activez la journalisation du débogage.
+> [!NOTE] Pour connaître la version de la bibliothèque actuelle, activez la journalisation du débogage.
 
 ## Version 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 Date de publication : **août 2014**
 
-* Suppression de la prise en charge de la [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Suppression de la prise en charge pour [!DNL Microsoft Silverlight Analytics Framework]. Adobe ne prend plus en charge et ne distribue plus l’intégration de [!DNL Microsoft Silverlight Analytics Framework] pour [!DNL AppMeasurement].
 
 * Changements internes pour la prise en charge des fonctions à venir.
 
@@ -35,13 +33,13 @@ Date de publication : **août 2014**
 
 Date de publication : **mars 2013**
 
-* Fixed exception with getting default referrer in [!DNL Silverlight] outside of a browser context and properly exposed SSL property in the [!DNL Microsoft Silverlight Analytics Framework] component.
+* Correction de l’exception lors de l’obtention du référent par défaut dans [!DNL Silverlight] en dehors d’un contexte de navigateur et correctement exposé à la propriété SSL dans le composant [!DNL Microsoft Silverlight Analytics Framework].
 
 ## Version 1.4 {#section_2F4ADA4628EC43B480177C3DDB3D1CFA}
 
-Date de publication : **février 2013**
+Date de publication : **février 2013**
 
-* Prise en charge de l’envoi d’URL de plus de 255 octets pour gérer l’extension du champ URL de page dans les serveurs de collecte de données Adobe. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Ceci permet d’éviter que les longues URL ne prévalent sur d’autres données en cas de troncation de navigateur, tout en permettant la saisie de longues URL.
+* Prise en charge de l’envoi d’URL de plus de 255 octets pour gérer l’extension du champ URL de page dans les serveurs de collecte de données Adobe. Les URL de page de plus de 255 octets sont fractionnées, les 255 premiers octets apparaissant dans le paramètre `g=`, les autres apparaissant plus tard dans la chaîne de requête dans le paramètre de `-g=`. Ceci permet d’éviter que les longues URL ne prévalent sur d’autres données en cas de troncation de navigateur, tout en permettant la saisie de longues URL.
 
 * Ajout d’une nouvelle méthode d’identification des visiteurs de secours. Voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Ajout d’un nouvel indicateur `abort` qui peut être défini dans `doPlugins`. Si ce paramètre est défini sur vrai, la bibliothèque [!DNL AppMeasurement] ne poursuit pas cet appel de suivi. L’indicateur abort est réinitialisé à chaque appel de suivi, de sorte que si un appel de suivi consécutif doit également être abandonné, l’indicateur devra être redéfini dans `doPlugins`.
@@ -64,7 +62,7 @@ Date de publication : **septembre 2012**
 * Correction d’un problème en raison duquel l’événement vidéo terminé n’était parfois pas envoyé lors de l’utilisation d’une méthode `media.monitor` personnalisée qui contrôle l’événement de fermeture multimédia :
 
    ```
-   If(media.event==”CLOSE”) { 
+   If(media.event=="CLOSE") { 
    … 
    } 
    ```
@@ -90,10 +88,10 @@ Date de publication : **janvier 2012**
 
 ## Version 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* New support and build for [!DNL iOS] Phone platform including offline tracking.
+* Nouvelle prise en charge et version pour la plateforme [!DNL iOS] Phone incluant le suivi hors ligne.
 * Prise en charge du remplacement de l’envoi des requêtes par le délégué doRequest pour le suivi des données.
 * Prise en charge des données contextuelles qui pilotent les règles de traitement côté serveur (v15 uniquement).
 * Prise en charge des appels de serveur léger (bêta).
 * Prise en charge de l’affectation d’une valeur autre que 1 pour un compteur d’événement dans la liste des événements.
-* Prise en charge d'une nouvelle méthode de suivi vidéo utilisant les eVars et événements de conversion (bêta).
+* Prise en charge d’une nouvelle méthode de suivi vidéo utilisant les eVars et événements de conversion (bêta).
 
