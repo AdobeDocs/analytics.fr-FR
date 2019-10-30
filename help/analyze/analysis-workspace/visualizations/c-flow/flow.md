@@ -1,30 +1,28 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Présentation du flux
-title: Présentation du flux
-uuid: fc 22 b 573-2 d 18-4 c 29-866 c-f 317 c 920 d 27 a
+seo-title: Flux - Aperçu
+title: Flux - Aperçu
+uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation du flux
+# Flux - Aperçu
 
-La fonction de flux présente les chemins d'accès des clients à travers vos sites Web et vos applications.
+La fonction de flux présente les chemins d’accès des clients à travers vos sites Web et applications.
 
-Elle vous permet de :
+Il vous permet de :
 
 * Visualiser le parcours des clients dans votre site web ou votre application
 * Analyser où se rendent les clients avant et après les points de contrôle spécifiés, tels qu’une entrée, une dimension spécifique ou une sortie
 * Créer des segments en désignant un point spécifique dans un cheminement donné
 
->[!NOTE]
->
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports &amp; Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+> [!NOTE] Pour plus d’informations sur la différence entre les résultats de l’application de segments au flux entre Analysis Workspace et les rapports et analyses/analyses ad hoc, voir [Segmentation en tant que fondement du flux et des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Visualisation de flux sur YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
+[Visualisation du flux sur YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
 ## Flux interdimensionnels {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
