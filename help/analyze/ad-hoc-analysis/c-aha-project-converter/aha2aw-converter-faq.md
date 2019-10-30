@@ -3,7 +3,7 @@ description: valeur nulle
 seo-description: valeur nulle
 seo-title: FAQ Convertisseur de projets
 title: FAQ Convertisseur de projets
-uuid: 8 e 1 bf 0 e 9-ce 0 f -443 a-bcfe -45 d 3 e 2 c 82 b 1 c
+uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -14,18 +14,18 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## FAQ Convertisseur de projets {#topic_8231595303AD403E9322645A63632D57}
 
-* [Problèmes connus de conversion](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
+* [Problèmes de conversion connus](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
 * [FAQ sur les conversions](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
-## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
+## Problèmes de conversion connus {#section_39C922A58B2E49C9877B363042801361}
 
 | Problème | Description |
 |--- |--- |
-| Granularité des minutes avec ventilations ou colonnes | Lorsque la granularité des minutes est appliquée à la granularité ou si la granularité Minute est présente dans les colonnes, le projet ne peut pas être converti en Espace de travail d'analyse. Une solution consiste à supprimer la ventilation de la granularité minute et à la supprimer des colonnes, puis à la convertir. Vous pouvez ensuite appliquer des ventilations à la granularité minute dans Analysis Workspace. |
-| Mesure calculée interne utilisée avec un segment de colonne | Si vous utilisez une mesure calculée interne avec un segment de colonne, le projet ne peut pas être converti en espace de travail d'analyse. Pour contourner ce problème, supprimez les mesures calculées internes du projet avant de les convertir, puis rajoutez-les dans Analysis Workspace. |
+| Granularité minute avec ventilations ou en colonnes | Lorsque des ventilations sont appliquées à la granularité des minutes ou si une granularité des minutes est présente dans les colonnes, le projet ne peut pas être converti en Espace de travail d’analyse.  Une solution consiste à supprimer la ventilation par minute et à la supprimer des colonnes, puis à convertir le projet. Vous pouvez ensuite appliquer des ventilations à la granularité des minutes dans Analysis Workspace. |
+| Mesure calculée interne utilisée avec un segment de colonne | Si vous utilisez une mesure calculée interne avec un segment de colonne, le projet ne peut pas être converti en Espace de travail d’analyse. Pour résoudre ce problème, supprimez les mesures calculées internes du projet avant la conversion, puis rajoutez-les dans Analysis Workspace. |
 
 
-## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}
+## FAQ sur les conversions {#section_1E53FE373AF045978F939916124E194E}
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q : Existe-t-il des fonctionnalités Ad Hoc Analysis non prises en charge par Analysis Workspace ?</b> </p> </td> 
-   <td colname="col2"> <p>R : Le rapport d’analyse de site n’est pas pris en charge par Analysis Workspace. Il existe également de légères différences entre d'autres visualisations dans la publicité - Analyses ad hoc et espace de travail. Reportez-vous aux questions ci-dessous pour plus de détails. </p> </td> 
+   <td colname="col2"> <p>R : Le rapport d’analyse de site n’est pas pris en charge par Analysis Workspace. Il existe également de légères différences entre d’autres visualisations dans les analyses ad hoc et Workspace. Reportez-vous aux questions ci-dessous pour plus de détails. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Comment sont convertis les paramètres du tableau ?</b> </p> </td> 
