@@ -7,8 +7,8 @@ solution: Analytics
 title: Cheminement par code de suivi ou de campagne
 topic: Développeur et mise en œuvre
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ s.prop1=s.pageName;
 Vous devez procéder de la sorte sur toutes les pages, sauf si l’utilisateur a cliqué sur la page en provenance d’une campagne. Si tel est le cas, et si l’utilisateur se trouve sur la page d’entrée de la campagne, vous pouvez renseigner dans la prop une concaténation de la campagne et du [!UICONTROL pageName]. Reportez-vous à l’exemple ci-dessous :
 
 ```js
- s.prop1=s.campaign + ‘ : ’ + s.pageName;
+ s.prop1=s.campaign + ' : ' + s.pageName;
 ```
 
 Si la campagne sur laquelle il a cliqué se nomme, par exemple, « banner1234 », et que la page sur laquelle il arrive s’intitule « Home Page », la valeur de cette prop sera « banner1234 : Home Page ». Indiquez le [!UICONTROL pageName] dans la prop pour chaque page successive, comme illustré ci-dessus.
@@ -36,7 +36,7 @@ Si la campagne sur laquelle il a cliqué se nomme, par exemple, « banner1234 
 Lorsqu’un utilisateur clique sur cette campagne et consulte, au total, quatre pages au cours de la visite, vous obtenez les valeurs suivantes dans la sprop, dans l’ordre suivant :
 
 ```js
-“banner1234 : Home Page” > “Page 2” > “Page 3” > “Page 4”
+"banner1234 : Home Page" > "Page 2" > "Page 3" > "Page 4"
 ```
 
 Une fois nos données capturées dans [!UICONTROL prop1] en suivant cette procédure et le cheminement activé sur cette prop, vous pouvez consulter l’un des rapports disponibles pour comprendre le cheminement des utilisateurs sur le site après avoir cliqué sur une page en provenance d’une campagne.
