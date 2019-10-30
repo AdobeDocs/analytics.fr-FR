@@ -1,18 +1,18 @@
 ---
 description: Vous pouvez actualiser les requêtes pour l’ensemble des feuilles ou pour plusieurs d’entre elles.
 seo-description: Vous pouvez actualiser les requêtes pour l’ensemble des feuilles ou pour plusieurs d’entre elles.
-seo-title: Actualisation des requêtes pour toutes les feuilles
+seo-title: Actualisation des requêtes de toutes les feuilles
 solution: Analytics
-title: Actualisation des requêtes pour toutes les feuilles
+title: Actualisation des requêtes de toutes les feuilles
 topic: Créateur de rapports
-uuid: 7 aa 3 a 206-6 b 14-40 c 1-8 e 18-51998 f 02649 e
+uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Actualisation des requêtes pour toutes les feuilles
+# Actualisation des requêtes de toutes les feuilles
 
 Vous pouvez actualiser les requêtes pour l’ensemble des feuilles ou pour plusieurs d’entre elles.
 
