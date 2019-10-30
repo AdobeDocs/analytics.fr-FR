@@ -1,29 +1,27 @@
 ---
-description: Déployez Adobe Analytics à l’aide de la gestion dynamique des balises en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
-keywords: Implémentation d’Analytics;méthode d’implémentation;gestion dynamique des balises;dtm;outil d’analyse;propriété;type d’outil;nom de l’outil;méthode de configuration;prime d’analyse;evars;événements
-seo-description: Déployez Adobe Analytics à l’aide de la gestion dynamique des balises en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
+description: Déployez Adobe Analytics à l’aide de Dynamic Tag Management en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
+keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;outil analytics;propriété;type d’outil;nom d’outil;méthode de configuration;analytics premium;evars;événements
+seo-description: Déployez Adobe Analytics à l’aide de Dynamic Tag Management en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
 seo-title: Ajout de l’outil Adobe Analytics
 solution: Analytics
 title: Ajout de l’outil Adobe Analytics
 topic: Développeur et mise en œuvre
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Ajout de l’outil Adobe Analytics
 
-Déployez Adobe Analytics à l’aide de la gestion dynamique des balises en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
+Déployez Adobe Analytics à l’aide de Dynamic Tag Management en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
 
->[!NOTE]
->
->Pour améliorer le suivi des visiteurs, nous vous recommandons vivement d’activer le service [d’identité](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+> [!NOTE] Pour améliorer le suivi des visiteurs, nous vous recommandons vivement d’activer le service [d’identité](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Ajout d’un outil Adobe Analytics {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. Click  **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL Overview]** &gt; **[!UICONTROL Add a Tool]** &gt; **[!UICONTROL Adobe Analytics]** .
+1. Cliquez sur **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL Aperçu]** &gt; **[!UICONTROL Ajouter un outil]** &gt; **[!UICONTROL Adobe Analytics]**.
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -54,24 +52,24 @@ Déployez Adobe Analytics à l’aide de la gestion dynamique des balises en cr�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manuel</b> : permet de gérer le code AppMeasurement manuellement. Vous pouvez télécharger le code <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span> depuis <span class="ignoretag"><span class="uicontrol">Outils d’administration</span> &gt; <span class="uicontrol">Gestionnaire de code</span></span>. </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>Renseignez les champs spécifiques à une configuration manuelle : </p> 
+   <td colname="col2"> <p> <b>Manuel</b> : permet de gérer le code AppMeasurement manuellement. Vous pouvez télécharger le code <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span> depuis <span class="ignoretag"><span class="uicontrol">Outils d’administration</span> &gt; <span class="uicontrol">Gestionnaire de code</span></span>. </p> <p>Cliquez sur <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external">JavaScript (nouveau)</a> pour obtenir des informations sur le téléchargement du code en local afin de le copier et le coller dans le champ <span class="wintitle">Modifier le code</span> de <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local">Gestion des bibliothèques</a>. </p> <p>Renseignez les champs spécifiques à une configuration manuelle : </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID du compte de production :</b> (obligatoire) compte de production pour la collecte des données. Pour Analytics, il s’agit de l’identifiant de votre suite de rapports. Dynamic Tag Management installe automatiquement le compte correct dans l’environnement de production et d’évaluation. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID du compte d’évaluation :</b> (obligatoire) utilisé dans l’environnement de développement ou de test. Pour Analytics, il s’agit de l’identifiant de votre suite de rapports. Un compte d’évaluation permet de séparer vos données de test de l’environnement de production. </p> </li> 
-     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Serveur de suivi :</b> indiquez les informations relatives au serveur de suivi. </p> <p>Les variables <span class="wintitle">Serveur de suivi</span> et <span class="wintitle">Serveur de suivi SSL</span> sont utilisées pour l’implémentation des cookies propriétaires afin de spécifier le domaine sur lequel la demande d’image et le cookie sont écrits. Pour plus d’informations, voir l’article <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external">Définition correcte des variables trackingServer et trackingServerSecure</a>.  </p> </li> 
+     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Serveur de suivi  :</b> indiquez les informations relatives au serveur de suivi  </p> <p>Les variables <span class="wintitle">Serveur de suivi</span> et <span class="wintitle">Serveur de suivi SSL</span> sont utilisées pour l’implémentation des cookies propriétaires afin de spécifier le domaine sur lequel la demande d’image et le cookie sont écrits. Pour plus d’informations, voir l’article <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external">Définition correcte des variables trackingServer et trackingServerSecure</a>. </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>Serveur de suivi SSL :</b> indiquez les informations relatives au serveur de suivi SSL. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Cliquez sur **[!UICONTROL Créer l’outil]pour créer l’outil et l’afficher en vue de sa modification.**
+1. Cliquez sur **[!UICONTROL Créer l’outil]** pour créer l’outil et l’afficher en vue de sa modification.
 
    Les outils s’affichent dans l’onglet [!UICONTROL Aperçu] sous [!UICONTROL Outils installés].
 
 1. (Conditionnel) Configurez l’outil selon les besoins en suivant les instructions des sections suivantes ([!UICONTROL Général], [!UICONTROL Gestion des bibliothèques], [!UICONTROL Variables globales], [!UICONTROL Pages vues et contenu], [!UICONTROL Suivi de liens], [!UICONTROL Référents et campagnes], [!UICONTROL Cookies] et [!UICONTROL Personnaliser le code de page]).
 
-See [Frequently Asked Questions About the Adobe Analytics Tool](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B) for additional information about this tool.
+Reportez-vous à la section [FAQ à propos de l’outil Adobe Analytics](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B) pour obtenir davantage d’informations sur cet outil.
 
 ## Modification d’un outil Adobe Analytics existant {#section_148B16AF429B4949B06238D90635B726}
 
@@ -92,7 +90,7 @@ Vous pouvez modifier un outil Adobe Analytics existant afin de changer ses param
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Activer la configuration automatique </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>Cette option permet à Dynamic Tag Management de récupérer automatiquement la configuration de votre compte <span class="keyword">Adobe Analytics</span>. </p> <p>Le code AppMeasurement le plus récent est utilisé et des notifications de mise à niveau s’affichent pour sélection lorsque de nouvelles versions deviennent disponibles. Vous pouvez également restaurer les versions antérieures d’AppMeasurement, le cas échéant, par exemple pour des raisons de compatibilité. Un maximum de cinq versions antérieures s’affiche. </p> </td> 
+   <td colname="col2"> <p>Remarque : L’activation de ce paramètre modifie une implémentation configurée manuellement en la méthode de configuration automatique décrite dans <span class="term">Méthode de configuration</span>. </p> <p>Cette option permet à Dynamic Tag Management de récupérer automatiquement la configuration de votre compte <span class="keyword">Adobe Analytics</span>. </p> <p>Le code AppMeasurement le plus récent est utilisé et des notifications de mise à niveau s’affichent pour sélection lorsque de nouvelles versions deviennent disponibles. Vous pouvez également restaurer les versions antérieures d’AppMeasurement, le cas échéant, par exemple pour des raisons de compatibilité. Un maximum de cinq versions antérieures s’affiche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mettre à jour les informations d’identification </p> </td> 
