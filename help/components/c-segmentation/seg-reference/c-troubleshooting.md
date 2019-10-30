@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Résolution des problèmes liés à la segmentation
-title: Résolution des problèmes liés à la segmentation
-uuid: 8476 d 617-4 b 44-4 ff 2-9 b 3 a -02685 f 666 afc
+seo-title: Dépannage de la segmentation
+title: Dépannage de la segmentation
+uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
 translation-type: tm+mt
-source-git-commit: 50069fe860d58f04df7ffe63714afeef9d3d7a28
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Résolution des problèmes liés à la segmentation
+# Dépannage de la segmentation
 
 ## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
