@@ -8,8 +8,8 @@ subtopic: Modules externes
 title: getValOnce.
 topic: Développeur et mise en œuvre
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,15 +45,11 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
    * Si un utilisateur ferme votre page, ouvre un autre onglet et revient sur votre site en moins de 30 minutes, le module externe crée une session, tout en maintenant ouverte la visite [!DNL Analytics].
    * Si un utilisateur laisse la fenêtre du navigateur ouverte sans cliquer sur un lien pendant plus de 30 minutes, la visite [!DNL Analytics] expire, mais la session du navigateur reste ouverte.
 
->[!NOTE]
->
->Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
+> [!NOTE] Les instructions suivantes vous demandent de modifier le code de collecte de données sur votre site. Cela peut avoir une incidence sur la collecte des données sur votre site. Aussi, cette opération ne doit-elle être réalisée que par un développeur maîtrisant l’utilisation et l’implémentation d’[!DNL Analytics].
 
 ## Implémentation {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
->[!NOTE]
->
->Si votre organisation a recours à des canaux marketing et dispose de règles basées sur `s.campaign`, il est recommandé de ne pas utiliser le module externe getValOnce lors de la définition de la valeur de `s.campaign`. Dans le cas contraire, un mauvais canal pourrait être affecté lors d’un clic publicitaire de campagne secondaire.
+> [!NOTE]Si votre organisation a recours à des canaux marketing et dispose de règles basées sur `s.campaign`, il est recommandé de ne pas utiliser le module externe getValOnce lors de la définition de la valeur de `s.campaign`. Dans le cas contraire, un mauvais canal pourrait être affecté lors d’un clic publicitaire de campagne secondaire.
 
 Pour implémenter ce module externe, placez le code suivant dans votre fichier [!DNL s_code.js].
 
