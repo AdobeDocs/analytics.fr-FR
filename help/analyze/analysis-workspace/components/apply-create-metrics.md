@@ -3,9 +3,9 @@ description: Dans Analysis Workspace, vous pouvez utiliser les mesures de deux 
 seo-description: Dans Analysis Workspace, vous pouvez utiliser les mesures de deux façons.
 seo-title: Mesures
 title: Mesures
-uuid: 9927491 a-ca 0 b -4 e 1 a -9069-8736149 d 051 b
+uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Vous pouvez soit faire glisser les mesures standard, les mesures calculées ou l
 
 ![](assets/metrics_icons.png)
 
->[!NOTE]
->
->Bien que cela soit apparemment simple, l'utilisation des mesures est assez puissante. Vous pouvez ajouter des mesures à un rapport en faisant glisser la mesure appropriée vers la section des mesures d'un tableau. Vous pouvez également ventiler les dimensions par mesures, ce qui vous permet de contrôler précisément la vue du tableau. En outre, vous pouvez insérer une mesure comme dimension et une dimension comme mesure pour créer un rapport au fil du temps. Découvrez les différents composants et découvrez ce que vous pouvez faire. Les possibilités sont infinies.
+> [!NOTE] Bien que cela paraisse simple, l'utilisation des mesures est plutôt puissante. Vous pouvez ajouter des mesures à un rapport en faisant glisser la mesure appropriée vers la section des mesures d’un tableau. Vous pouvez également ventiler les dimensions par mesures, ce qui vous permet d’exercer un contrôle précis sur l’affichage du tableau. De plus, vous pouvez insérer une mesure sous forme de dimension et une dimension sous forme de mesure pour créer un rapport au fil du temps. Jouez avec les différents composants et voyez ce que vous pouvez faire. Les possibilités sont infinies.
 
 Or you can click **[!UICONTROL Components]** &gt; **[!UICONTROL New Metric]**. Le [Créateur de mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) s’ouvre, où vous pouvez personnaliser les mesures existantes.
 
