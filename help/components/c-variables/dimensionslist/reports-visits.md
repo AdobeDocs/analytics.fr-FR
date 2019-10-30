@@ -4,10 +4,10 @@ seo-description: Affiche le nombre de visites effectuées sur l’ensemble de vo
 seo-title: Visites
 solution: Analytics
 title: Visites
-topic: Présentation
-uuid: ff 65 bddf-fb 65-4 cf 0-8 aae -4 ab 59 c 2 bb 0 a 7
+topic: Rapports
+uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
