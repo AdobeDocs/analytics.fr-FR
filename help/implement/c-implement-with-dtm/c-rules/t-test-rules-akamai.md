@@ -6,8 +6,8 @@ seo-title: Test des règles non publiées pour l’hébergement Akamai
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Test des règles non publiées pour l’hébergement Akamai
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Testez les règles Annuler la publication depuis votre console si vous utilisez l’hébergement Akamai.
 
-Le module externe Switcher est souvent le moyen le plus simple pour effectuer des tests. Pour plus d’informations, voir [Rechercher des modules logiciels Discovery](https://marketing.adobe.com/resources/help/fr_FR/dtm/search_discovery_plugins.html) dans la documentation du produit Dynamic Tag Management.
+Le module externe Switcher est souvent le moyen le plus simple pour effectuer des tests. Pour plus d’informations, voir [Modules externes Search Discovery](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) dans la documentation du produit Dynamic Tag Management.
 
 Les étapes suivantes indiquent comment tester sans utiliser le module externe de sélecteur :
 
