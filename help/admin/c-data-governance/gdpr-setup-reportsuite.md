@@ -5,7 +5,7 @@ seo-title: Étiqueter les données d’une suite de rapports
 title: Étiqueter les données d’une suite de rapports
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,15 +14,13 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 Étiqueter les données de la suite de rapports signifie que vous attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports donnée. Assurez-vous d’abord de vous familiariser avec les étiquettes et leurs définitions.
 
->[!NOTE]
->
->Souvenez-vous que l’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
+> [!NOTE] Souvenez-vous que l’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
 
 ## Attribuer ou modifier des étiquettes de suites de rapports {#section_39F829F35A274EACA532E2F6FF392996}
 
-**Exemple**: En tant que contrôleur de données, vous prévoyez de collecter des adresses électroniques et des identifiants de cookie auprès des personnes concernées afin de traiter leurs demandes de confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics. Pour créer une étiquette pour les adresses électroniques et les ID de cookie, vous devez utiliser le cadre DULE (Data Usage Labeling &amp; Enforcement) d’Adobe Cloud Platform dans Analytics.
+**Exemple** : en tant que contrôleur des données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des sujets des données pour traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics. Pour créer une étiquette pour les adresses électroniques et les ID de cookie, vous devez utiliser le cadre DULE (Data Usage Labeling &amp; Enforcement) d’Adobe Cloud Platform dans Analytics.
 
-1. In Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. Dans Analytics, sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Gouvernance des données]** &gt; **[!UICONTROL (sélectionner la suite de rapports)]** ![](assets/privacy_rs_settings.png)
 
 1. Sélectionnez le groupe de variables que vous voulez étiqueter.
 
@@ -57,7 +55,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. Utilisez cette section pour indiquer à Adobe comment gérer chaque variable pour l’accès à la confidentialité des données et les demandes de suppression, ainsi que pour définir les variables à analyser afin de rechercher les ID de sujet de données pour ces requêtes. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
+1. Ouvrez la section Confidentialité des données pour définir les étiquettes de **gouvernance des données**. Utilisez cette section pour enseigner à Adobe comment traiter chaque variable pour les demandes d’accès et de suppression relatives à la Confidentialité des données, et pour définir les variables à analyser pour trouver les ID des sujets de données pour ces demandes. Pour plus d’informations sur ces options, reportez-vous à [Étiquettes de gouvernance des données (Confidentialité des données).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
@@ -65,7 +63,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ## Copier des étiquettes dans une ou plusieurs suites de rapports {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
-Si vous souhaitez appliquer les mêmes paramètres de confidentialité DULE/Données à plusieurs suites de rapports, procédez comme suit :
+Si vous souhaitez appliquer les mêmes paramètres DULE/Confidentialité des données à plusieurs suites de rapports, vous pouvez procéder comme suit :
 
 1. Sélectionnez le groupe de variables (Dimensions standard, Dimensions de conversion, etc.) contenant la variable que vous souhaitez copier. Notez que vous ne pouvez copier les étiquettes que d’un seul groupe de variables à la fois.
 1. Sélectionnez certaines ou toutes les variables de ce groupe.
