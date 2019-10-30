@@ -3,7 +3,7 @@ description: Cette section s’adresse aux administrateurs Adobe Analytics. Elle
 seo-description: Cette section s’adresse aux administrateurs Adobe Analytics. Elle se concentre sur les nouveaux paramètres de suivi des liens et sur la façon dont ils assurent l’unicité et la cohérence des liens entre les navigateurs et les appareils, ainsi que sur la manière dont ils améliorent la gestion du repositionnement des liens sur une page.
 seo-title: Méthodologie de suivi des liens
 solution: Analytics
-title: Méthodologie de suivi des liens
+title: Suivi des liens par extraction
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
