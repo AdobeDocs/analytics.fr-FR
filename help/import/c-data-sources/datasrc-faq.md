@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Sources de données
 title: FAQ sur les sources de données
 topic: Développeur et mise en œuvre
-uuid: 394 a 627 f -093 c -400 a-bfb 3-c 2 aa 24568 deb
+uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Chaque ligne d’un fichier de source de données qui commence par le symbole di
 
 Oui. De nombreux rapports marketing pouvant être recherchés par date, vous devez inclure une colonne de dates.
 
-## Puis-je stocker des données dans les variables que j’utilise déjà ? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 Adobe recommande de sélectionner de nouvelles variables inutilisées pour importer les données à l’aide de la fonctionnalité Sources de données. Si vous ne connaissez pas la configuration de votre fichier de données ou si vous souhaitez mieux comprendre les risques inhérents à la réutilisation de variables, contactez l’assistance clientèle.
 
@@ -53,7 +53,7 @@ Les données des sources de données ne remplaceront jamais les données existan
 
 Lorsque vous transférez des données de sources de données, vous transférez les mesures qui seront disponibles dans l’interface des rapports.
 
-Si, par exemple, vous transférez les recettes du centre d’appels pour les produits que vous vendez sur votre site, ces données seront disponibles dans le même rapport que les recettes en ligne. Vous ne pourrez toutefois pas les utiliser conjointement avec les données Visites, car vous n’avez pas transféré le nombre de visites en même temps. Adobe peut uniquement reporter les mesures et éléments transférés au moyen de la fonctionnalité Sources de données (outre les mesures standard des rapports marketing).
+Si, par exemple, vous transférez les recettes du centre d’appels pour les produits que vous vendez sur votre site, ces données seront disponibles dans le même rapport que les recettes en ligne. Cependant, vous ne pourrez pas l’utiliser conjointement avec les visites, car vous n’avez pas transféré le nombre de visites avec elles. Adobe peut uniquement reporter les mesures et éléments transférés au moyen de la fonctionnalité Sources de données (outre les mesures standard des rapports marketing).
 
 ## What happens if I pass negative values into reporting through Data Sources? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -86,7 +86,7 @@ Le processus de source de données (pour les sources de données génériques, e
 
 ## Les extensions de fichiers respectent-elles la casse pour un transfert de source de données ou un fichier de classification ? {#section_710787BA4D8C403D8326D666807832B8}
 
-Si les extensions d’un fichier de transfert de source de données ou d’un fichier de classification comportent des majuscules, les fichiers ne seront pas traités. Les extensions des fichiers de transfert de source de données doivent être en minuscules. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. However, [!DNL .txt] and [!DNL .fin] are processed.
+Si les extensions d’un fichier de transfert de source de données ou d’un fichier de classification comportent des majuscules, les fichiers ne seront pas traités. Les extensions des fichiers de transfert de source de données doivent être en minuscules. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. Toutefois, [!DNL .txt] et [!DNL .fin] sont traités.
 
 ## Puis-je ajouter des événements supplémentaires au modèle généré ou suis-je limité à trois ?{#section_F184913926DD43B1872956CED308ADB5}
 
@@ -130,7 +130,7 @@ Les flux de données comprennent les mesures d’ID de transaction qui ont été
 
 ## Les eVars actuellement persistantes dans le profil du visiteur attribué aux mesures sont-elles transférées à l’aide des sources de données ? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-Non pour le traitement complet, oui pour l’ID de transaction. Les sources de données à traitement complet sont traitées à l’aide de profils du visiteur distincts. Ainsi, même si les ID de visiteur correspondent, elles ne seront pas liées du point de vue de l’attribution des eVar. Les sources de données d’ID de transaction sont liées au profil du visiteur principal ; les eVars persistantes sont attribuées aux événements transférés à l’aide d’un ID de transaction.
+Non pour le traitement complet, oui pour l’ID de transaction. Les sources de données de traitement complet sont traitées à l’aide de profils de visiteurs distincts. Par conséquent, même si les identifiants de visiteur correspondent, ils ne sont pas liés ensemble du point de vue de l’attribution des eVars. Les sources de données d’ID de transaction sont liées au profil du visiteur principal ; les eVars persistantes sont attribuées aux événements transférés à l’aide d’un ID de transaction.
 
 ## Les eVars transférées à l’aide de sources de données persistent-elles dans le comportement en ligne ultérieur ? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
