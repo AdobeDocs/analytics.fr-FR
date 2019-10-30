@@ -1,16 +1,16 @@
 ---
 description: Affiche une liste des versions actuelles et antérieures et de leurs fonctionnalités.
 seo-description: Affiche une liste des versions actuelles et antérieures et de leurs fonctionnalités.
-seo-title: Nouveautés du créateur de rapports
-title: Nouveautés du créateur de rapports
-uuid: 20 f 4 a 839-0667-45 a 7-b 037-0357 d 0 e 23010
+seo-title: Nouvelles fonctionnalités de Report Builder
+title: Nouvelles fonctionnalités de Report Builder
+uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Nouveautés du créateur de rapports
+# Nouvelles fonctionnalités de Report Builder
 
 Affiche une liste des versions actuelles et antérieures et de leurs fonctionnalités.
 
@@ -24,13 +24,13 @@ Pour plus d’informations, voir [Modifier les mesures de plusieurs demandes](..
 
 ## Créateur de rapports 5.5
 
-**Publier sur Power BI avec le créateur de rapports 5.5**
+**Publication sur Power BI à l’aide de Report Builder 5.5**
 
 Microsoft Power BI est une suite de tableaux de bord d’analyse commerciale permettant d’analyser les données et de partager les informations. L’intégration d’Adobe Analytics à Power BI vous permet de visualiser les données d’analyse du Créateur de rapports sur Microsoft Power BI et de les partager facilement avec l’ensemble de votre entreprise.
 
 Auparavant, en tant qu’analyste, vous deviez planifier la diffusion des classeurs du Créateur de rapports par courrier électronique (ou ftp). Vous pouvez désormais permettre à vos utilisateurs et intervenants métier d’accéder (depuis leur compte Power BI) à des données exactes et à jour dans un environnement Web qui est accessible quels que soient les plateformes et les périphériques utilisés.
 
-L’association de la fonctionnalité de génération de rapports du Créateur de rapports aux fonctionnalités de visualisation de Power BI rend les informations plus accessibles pour tous les membres de l’organisation. Grâce à Power BI, vous pouvez également intégrer Adobe Analytics à d’autres sources de données (par exemple, point de vente, gestion de la relation client) de façon à découvrir des statistiques sur les clients, des associations et des opportunités uniques. [Plus…](../../analyze/report-builder/c-publish-power-bi/power-bi.md#concept_07653F1641774B70AD2DE77F0614B8CC)
+L’association de la fonctionnalité de génération de rapports du Créateur de rapports aux fonctionnalités de visualisation de Power BI rend les informations plus accessibles pour tous les membres de l’organisation. Grâce à Power BI, vous pouvez également intégrer Adobe Analytics à d’autres sources de données (par exemple, point de vente, gestion de la relation client) de façon à découvrir des statistiques sur les clients, des associations et des opportunités uniques. [Plus...](../../analyze/report-builder/c-publish-power-bi/power-bi.md#concept_07653F1641774B70AD2DE77F0614B8CC)
 
 ## Créateur de rapports 5.4
 
@@ -42,7 +42,7 @@ L’association de la fonctionnalité de génération de rapports du Créateur d
    >
    >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
 
-* **Sécurité de connexion améliorée** En plus d'un [nouvel écran de connexion](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981), la connexion au créateur de rapports standard présente un processus d'authentification plus sécurisé, basé sur la structure d'autorisation oauth.
+* **Sécurité** de connexion améliorée Outre un [nouvel écran](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)de connexion, la connexion au créateur de rapports standard offre un processus d’authentification plus sécurisé, basé sur la structure d’autorisation OAuth.
 
 ## Créateur de rapports 5.3
 
@@ -52,9 +52,9 @@ L’association de la fonctionnalité de génération de rapports du Créateur d
 
 ## Créateur de rapports 5.2
 
-* **Mesures calculées Le créateur de** rapports 5.2 prend en charge les mesures calculées [unifiées d'Adobe Analytics](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4). Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
+* **Le créateur de rapports de mesures** calculées 5.2 prend en charge les mesures [calculées](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4)unifiées d’Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 
-* **Recherche de rapports et de mesures plus efficace** Davantage d’[eVars et d’événements](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) ont été ajoutés à Adobe Analytics ; par conséquent, le nombre de rapports et de mesures proposés dans le Créateur de rapports d’Adobe a considérablement augmenté. In order to simplify the search, a couple of new search bars have been added to the Request Wizard: one for [report search](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) and one to search for [metrics](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
+* **Recherche de rapports et de mesures plus efficace** Davantage d’[eVars et d’événements](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) ont été ajoutés à Adobe Analytics ; par conséquent, le nombre de rapports et de mesures proposés dans le Créateur de rapports d’Adobe a considérablement augmenté. Afin de simplifier la recherche, deux nouvelles barres de recherche ont été ajoutées à l’Assistant Requête : une pour la recherche [de](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) rapports et une pour la recherche de [mesures](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
 
-* **Attributs du client Les attributs** du client sont stockés dans un nouveau type d'élément appelé visattr, qui peut être configuré en tant que dimension ou mesure. Pour obtenir des informations plus détaillées sur le transfert des attributs du client, reportez-vous à l’[aide d’Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
+* **Attributs** du client Les attributs du client sont stockés dans un nouveau type d’élément appelé VisAttr, qui peut être configuré en tant que dimension ou mesure. Pour obtenir des informations plus détaillées sur le transfert des attributs du client, reportez-vous à l’[aide d’Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
 
