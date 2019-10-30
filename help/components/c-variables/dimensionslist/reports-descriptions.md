@@ -4,10 +4,10 @@ seo-description: Définitions des rapports prédéfinis disponibles dans les Rep
 seo-title: Descriptions des dimensions
 solution: Analytics
 title: Descriptions des dimensions
-topic: Présentation
-uuid: 8518 aacb-a 407-4 fa 8-bc 25-6 b 349 c 44528 a
+topic: Rapports
+uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Définitions des rapports prédéfinis disponibles dans les Reports &amp; Analytics et des dimensions disponibles dans d’autres outils d’Analytics, par exemple Analysis Workspace.
 
-Les dimensions sont des descriptions ou caractéristiques de données de mesure qui peuvent être affichées, ventilées et comparées dans un rapport. Il s'agit de dates et de valeurs non numériques qui ventilent ou sont une classification de la mesure du type de rapport d'origine.
+Les dimensions sont des descriptions ou caractéristiques de données de mesure qui peuvent être affichées, ventilées et comparées dans un rapport. Il s’agit de valeurs et de dates non numériques qui ventilent ou qui sont une classification de la mesure du type de rapport d’origine.
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
@@ -27,7 +27,7 @@ Les dimensions sont des descriptions ou caractéristiques de données de mesure 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace </p> </td> 
    <td colname="col2"> <p><span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Workspace</span> &gt; <span class="uicontrol">[sélectionnez ou créez un projet]</span> &gt; <span class="uicontrol">icône Composant (dans le rail de gauche)</span></span> </p> <p>Affichez et ajoutez des dimensions depuis la liste Dimensions. </p> </td> 
   </tr> 
   <tr> 
