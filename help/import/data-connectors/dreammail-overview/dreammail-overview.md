@@ -5,7 +5,7 @@ seo-title: Connecteur de données DreamMail pour Adobe Analytics
 title: Connecteur de données DreamMail pour Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 Cette intégration des courriers électroniques Adobe® Connecteurs de données™ combine les informations comportementales d’Analytics® avec le marketing par courrier électronique afin de créer un outil puissant pour redéfinir la mesure de succès et cibler les audiences avec des messages plus pertinents.
 
-La remise de messages électroniques pertinents à ces segments de marché peut générer de nouvelles opportunités de recettes, ce qui entraîne une augmentation des conversions et des recettes au sein des campagnes de messagerie nouvelles et existantes. Par exemple, la diffusion de messages électroniques pertinents basés sur des produits qui ont été consultés au cours d’une visite ou des produits qui ont été laissés dans un panier d’achat abandonné a démontré un impact considérable sur les recettes, avec un impact minimal sur les coûts, car cela ne fait qu’augmenter les visiteurs de votre site.
+La remise de messages électroniques pertinents à ces segments de marché peut générer de nouvelles opportunités de recettes, ce qui entraîne une augmentation des conversions et des recettes parmi les campagnes par courrier électronique nouvelles et existantes. Par exemple, la diffusion de messages électroniques pertinents basés sur des produits qui ont été consultés au cours d’une visite ou des produits qui ont été laissés dans un panier d’achat abandonné a démontré un impact considérable sur les recettes, avec un impact minimal sur les coûts, car cela ne fait qu’augmenter les visiteurs de votre site.
 
 Cette augmentation de l'efficacité marketing est l'un des principaux avantages de l'intégration [!DNL Analytics] avec le [!DNL ~partenaire~]. De plus, cette intégration synchronise automatiquement les mesures de courrier électronique avec [!DNL Analytics] les données aussi fréquemment que par heure pour la création de rapports en boucle fermée.
 
@@ -33,7 +33,7 @@ Cette intégration comprend les segments de marketing dynamique suivants :
 * **** Profils d’achat : Augmentez les commandes répétées et la valeur moyenne des commandes grâce aux campagnes ciblées par les modèles d’achat des visiteurs.
 * **** Profil comportemental de la vue de produit/contenu : Contactez les clients potentiels par le biais de segments marketing basés sur les consultations de produits et le profilage de l’accès au contenu.
 * **** Profil d'abandon du panier : Aidez les visiteurs à se convertir en clients grâce à des campagnes affinées spécialement conçues pour ceux qui hésitent à compléter leur panier.
-*  Les clients peuvent également créer et programmer des segments de remarketing personnalisés spécifiques aux besoins de leurs utilisateurs.
+* Les clients peuvent également créer et programmer des segments de remarketing personnalisés spécifiques aux besoins de leurs utilisateurs.
 
 ## Avant d’activer{#before-you-activate}
 
