@@ -7,23 +7,19 @@ subtopic: Notes de mise à jour
 title: Windows Phone 8
 topic: Développeur et mise en œuvre
 uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Windows Phone 8{#windows-phone}
 
->[!NOTE]
->
->Pour connaître la version de la bibliothèque actuelle, activez la journalisation du débogage.
+> [!NOTE] Pour connaître la version de la bibliothèque actuelle, activez la journalisation du débogage.
 
-Les [téléchargements]( de la bibliothèque mobile https://marketing.adobe.com/developer/fr/get-started/mobile/c-measuring-mobile-applications) sont disponibles sur [!DNL Developer Connection].
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
->[!NOTE]
->
->Le SDK [!DNL Windows] Phone 8 est remplacé par le SDK [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md). Ce SDK ne sera désormais plus développé.
+> [!NOTE] Le SDK [!DNL Windows] Phone 8 est remplacé par le SDK [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md). Ce SDK ne sera désormais plus développé.
 
 ## Version 3.0.4 {#section_51A8A53CDFB24F6F9D882E9C30ECDB49}
 
@@ -33,7 +29,7 @@ Date de publication : **21 août 2013**
 
 ## Version 3.0.5 {#section_DFE58939E33C447FBBF8B04E612A96B5}
 
-Date de publication : **22 mai 2013**
+Date de publication : **22 mai 2013**
 
 * Correction de bogues et améliorations des performances.
 
