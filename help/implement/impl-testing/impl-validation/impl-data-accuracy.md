@@ -7,8 +7,8 @@ solution: Analytics
 title: Validation de la précision des données
 topic: Développeur et mise en œuvre
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ Les points de données à utiliser sont, par ordre de préférence :
 * Comparaison des événements de succès connus, en particulier les données enregistrées lorsqu’une adresse IP et d’autres informations sur le navigateur généralement stockées dans des journaux de serveur Web peuvent être comparées aux données collectées.
 * Comparaison des pages vues.
 
->[!NOTE]
->
->Les pages par défaut, comme [!DNL index.html], reçoivent souvent du trafic automatisé ou de surveillance. Elles présentent une plus grande différence, sur le plan de la collecte des données par le navigateur, que les autres pages consultées.
+> [!NOTE] Les pages par défaut, comme [!DNL index.html], reçoivent souvent du trafic automatisé ou de surveillance. Elles présentent une plus grande différence, sur le plan de la collecte des données par le navigateur, que les autres pages consultées.
 
 Les trois types de validation nécessitent un journal de débogage ou un flux de données pour la période concernée. Celle-ci équivaut généralement à un jour, voire moins.
 
