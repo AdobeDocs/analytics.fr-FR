@@ -1,19 +1,19 @@
 ---
 description: Informations sur un modèle de source de données, qui fournit une structure de données adaptée pour l’envoi d’un jeu spécifique de données externes vers les sources de données.
 seo-description: Informations sur un modèle de source de données, qui fournit une structure de données adaptée pour l’envoi d’un jeu spécifique de données externes vers les sources de données.
-seo-title: Présentation du modèle Sources de données
+seo-title: Modèle de sources de données - Aperçu
 solution: Analytics
 subtopic: Sources de données
-title: Présentation du modèle Sources de données
+title: Modèle de sources de données - Aperçu
 topic: Développeur et mise en œuvre
-uuid: e 768 bcff-a 996-44 c 7-a 7 f 2-9 a 2 c 651 ecad 9
+uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Présentation du modèle Sources de données
+# Modèle de sources de données - Aperçu
 
 Informations sur un modèle de source de données, qui fournit une structure de données adaptée pour l’envoi d’un jeu spécifique de données externes vers les sources de données.
 
@@ -25,7 +25,7 @@ Vous pouvez afficher les mesures et les dimensions prises en charge pour chaque 
 * [Trafic](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC) (n’est plus pris en charge)
 * [Conversion](../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0)
 * [ID de transaction](../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776)
-* [Visitor ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+* [Identifiant visiteur](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
 * [Traitement complet](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED)
 
 For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5).
