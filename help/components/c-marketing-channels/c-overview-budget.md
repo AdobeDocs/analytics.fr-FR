@@ -1,31 +1,31 @@
 ---
-description: Découvrez comment affecter des montants de coûts et de budget aux canaux.
-seo-description: Découvrez comment affecter des montants de coûts et de budget aux canaux.
+description: Découvrez comment affecter des montants de coût et de budget aux canaux.
+seo-description: Découvrez comment affecter des montants de coût et de budget aux canaux.
 seo-title: Coûts et budgets
 solution: Analytics
 subtopic: Canaux marketing
 title: Coûts et budgets
-topic: Reports and Analytics
-uuid: 7 ba 0 e 968-e 565-4 d 4 c -8 fc 0-39 bf 25 d 3 e 5 b 1
+topic: Reports & Analytics
+uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Coûts et budgets
 
-Découvrez comment affecter des montants de coûts et de budget aux canaux.
+Découvrez comment affecter des montants de coût et de budget aux canaux.
 
-## Costs and budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
+## Coûts et budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
 
-Découvrez comment affecter des montants de coûts et de budget aux canaux.
+Découvrez comment affecter des montants de coût et de budget aux canaux.
 
 Les coûts représentent ce que vous dépensez pour le canal. Le budget représente le montant disponible à dépenser.
 
 Un moyen utile d’afficher le RSI consiste à créer une mesure calculée montrant les recettes moins les coûts. Vous pouvez également créer une mesure affichant le coût total avec une ventilation des coûts par nouvel engagement. Vous pouvez, par exemple, générer un rapport [!UICONTROL Canal Première touche] qui montre les nouveaux engagements, puis ajouter une mesure de coût Première touche qui vous montre le coût par nouvel engagement en créant une mesure calculée.
 
-Reportez-vous à la section [Mesures calculées utilisées pour les rapports Canal marketing](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+Reportez-vous à la section [Mesures calculées utilisées dans les rapports sur les canaux marketing](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
 
 Vous ne pouvez attribuer des coûts et des budgets qu’aux canaux. Tous les coûts correspondent à une période pendant laquelle ils sont appliqués dans le cadre de la création de rapports. Lorsque les coûts sont directement associés à un canal, une mesure d’attribution est choisie pour indiquer le mode de ventilation des coûts entre les campagnes d’un même canal.
 
