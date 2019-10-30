@@ -5,9 +5,9 @@ seo-title: Mode hors ligne pour la création et la modification de requêtes
 solution: Analytics
 title: Mode hors ligne pour la création et la modification de requêtes
 topic: Créateur de rapports
-uuid: 4 eb 1 f 754-b 6 da -4896-a 64 f-b 737563925 b 8
+uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,5 +34,5 @@ Pour activer le mode hors ligne :
 
    >[!IMPORTANT]
    >
-   >Assurez-vous de désactiver le mode hors connexion avant d'exécuter vos requêtes avec des données réelles. Pour ce faire, retournez à **[!UICONTROL Options]et décochez la case.**
+   >Veillez à désactiver le mode hors ligne avant d’exécuter vos requêtes avec des données réelles. Pour ce faire, retournez à **[!UICONTROL Options]et décochez la case.**
 
