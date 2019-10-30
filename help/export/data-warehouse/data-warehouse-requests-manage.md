@@ -1,18 +1,18 @@
 ---
 description: Le gestionnaire de requêtes permet d’afficher, de dupliquer et de reclasser par priorité les requêtes.
 seo-description: Le gestionnaire de requêtes permet d’afficher, de dupliquer et de reclasser par priorité les requêtes.
-seo-title: Gérer les demandes Data Warehouse
+seo-title: Gérer les demandes de Data Warehouse
 solution: Analytics
-title: Gérer les demandes Data Warehouse
+title: Gérer les demandes de Data Warehouse
 topic: Data Warehouse
-uuid: cdeb 764 f -56 f 9-43 ec -9228-8 ed 5 a 2 b 58909
+uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Gérer les demandes Data Warehouse
+# Gérer les demandes de Data Warehouse
 
 Le gestionnaire de requêtes permet d’afficher, de dupliquer et de reclasser par priorité les requêtes.
 
@@ -25,13 +25,11 @@ L’utilisation de cet onglet permet :
 
    >[!NOTE]
    >
-   >Cette action duplique uniquement la requête, et non la planification ou les détails de remise.
+   >Cette action duplique uniquement la requête, et non les détails de planification ou de remise.
 
 * De rechercher des rapports par nom de rapport ou par nom de connexion du demandeur.
 * De reclasser les rapports par priorité en les faisant glisser et en les déposant à un nouvel emplacement dans la file d’attente.
 * Pour savoir à quel moment a commencé le traitement d’une demande, cliquez sur un ID de demande planifiée et observez la fenêtre contextuelle qui s’ouvre.
 
->[!NOTE]
->
->To cancel a Data Warehouse request, [follow these steps](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html).
+> [!NOTE] Pour annuler une demande d’entrepôt de données, [procédez](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html)comme suit.
 
