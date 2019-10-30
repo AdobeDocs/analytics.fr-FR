@@ -1,19 +1,19 @@
 ---
 description: Description de la procédure d’envoi d’un courriel à tous les utilisateurs de votre société.
 seo-description: Description de la procédure d’envoi d’un courriel à tous les utilisateurs de votre société.
-seo-title: Envoyer un courriel aux utilisateurs
+seo-title: Envoyer un courrier électronique aux utilisateurs
 solution: Analytics
 subtopic: Utilisateurs et groupes
-title: Envoyer un courriel aux utilisateurs
+title: Envoyer un courrier électronique aux utilisateurs
 topic: Outils d’administration
-uuid: c 44 a 1398-dba 4-4 edc -9 b 90-b 0 ceb 9 da 395 c
+uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Envoyer un courriel aux utilisateurs
+# Envoyer un courrier électronique aux utilisateurs
 
 >[!IMPORTANT]
 >
