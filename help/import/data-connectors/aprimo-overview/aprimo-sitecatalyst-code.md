@@ -5,7 +5,7 @@ seo-title: Code du module externe Adobe Analytics
 title: Code du module externe Adobe Analytics
 uuid: 60d80366-d144-465a-b3de-ac2341be1cd
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,5 @@ Si vous avez sélectionné la méthode de collecte de données du module externe
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
->[!NOTE]
->
->Le plug-in ci-dessus suppose que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le module externe ci-dessus ne sont pas disponibles dans votre déploiement Adobe Analytics, remplacez-les simplement par celles qui sont disponibles.
+> [!NOTE] Le plug-in ci-dessus suppose que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le module externe ci-dessus ne sont pas disponibles dans votre déploiement Adobe Analytics, remplacez-les simplement par celles qui sont disponibles.
 
