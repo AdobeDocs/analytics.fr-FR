@@ -5,9 +5,9 @@ seo-title: Durée de la visite
 solution: Analytics
 title: Durée de la visite
 topic: Mesures
-uuid: a 9 f 63 da 3-7 e 79-49 c 3-9 b 0 b -6 dcd 2 ae 6 aadc
+uuid: a9f63da3-7e79-49c3-9b0b-6dcd2ae6aadc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,36 +38,36 @@ Ce tableau répertorie les diverses mesures de durée de la visite, leur défini
   <tr> 
    <td colname="col1"> <p>Durée totale (secondes) </p> </td> 
    <td colname="col2"> <p>Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique. </p> <p>Inclut l’instance d’une valeur et la persistance sur tous les accès suivants. Dans le cas des props, la durée de la visite est également prise en compte dans les événements de lien ultérieurs. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder (appelé « durée totale de la visite ») </p> <p>Data Warehouse </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Créateur de rapports (appelé "temps total passé") </p> <p>Data Warehouse </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée de la visite (secondes) </p> </td> 
    <td colname="col2"> <p><i>Durée totale (secondes)/(visite-rebonds)</i> </p> <p>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique lors de chaque visite. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée par visiteur (secondes) </p> </td> 
-   <td colname="col2"> <p><i>Durée totale (secondes)/(visiteur unique - visiteurs uniques en rebond)</i> </p> <p>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
+   <td colname="col2"> <p><i>Durée totale (secondes)/(visiteur unique - visiteurs uniques en rebond)</i> </p> <p>Représente la durée moyenne d’interaction des visiteurs avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de son cookie). </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée moyenne de la visite du site (secondes) </p> </td> 
-   <td colname="col2"> <p>Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Cette option n’est pas limitée aux moyennes de la visite du « site » comme son nom l’indique. Pour plus d’informations sur les séquences, voir Mode de calcul de la durée de la visite. </p> <p>Remarque : Cette mesure différera très probablement de la durée de la visite au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics (indiquée en minutes) </p> <p>Report Builder (indiquée en minutes) </p> </td> 
+   <td colname="col2"> <p>Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Il ne se limite pas uniquement aux moyennes "site" comme le nom l’indique. Pour plus d’informations sur les séquences, voir Mode de calcul de la durée de la visite. </p> <p>Remarque : Cette mesure différera très probablement de la durée de la visite au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics (indiquée en minutes) </p> <p>Report Builder (indiquée en minutes) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée de consultation moyenne de la page </p> </td> 
-   <td colname="col2"> <p><b>Mesure obsolète. </b> </p> <p>Il est recommandé d’utiliser « Durée moyenne de la visite du site » si la durée moyenne d’un élément de dimension est requise. </p> </td> 
+   <td colname="col2"> <p><b>Mesure obsolète. </b> </p> <p>Nous vous recommandons d’utiliser "Durée moyenne de consultation du site" si la durée moyenne d’un élément de dimension est nécessaire. </p> </td> 
    <td colname="col3"> <p>Report Builder (lorsqu’une dimension figure dans la demande) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée totale de la session </p> <p>(Aussi connue sous le nom : Durée de la session précédente) </p> </td> 
    <td colname="col2"> <p>SDK d’applications mobiles uniquement. Déterminée la prochaine fois que l’application est lancée, pour la session précédente. Calculée en secondes, cette mesure ne compte pas lorsque l’application est en arrière-plan, mais uniquement lorsqu’elle est en cours d’utilisation. Il s’agit d’une mesure au niveau de la session. </p> <p>Par exemple : vous installez l’application ABC et la lancez. Vous l’utilisez pendant 2 minutes, puis vous la fermez. Aucune donnée n’est envoyée pour cette mesure pendant cette session. La prochaine fois que vous la lancez, la durée totale de la session est envoyée avec une valeur de 120. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder </p> <p>Interface utilisateur de Mobile Services </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder </p> <p>Interface utilisateur de Mobile Services </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée de session moyenne (mobile) </p> </td> 
-   <td colname="col2"> <p>Durée totale de session/(lancements - Premiers lancements) </p> <p>SDK d’applications mobiles uniquement. Il s’agit d’une mesure au niveau de la session. </p> </td> 
+   <td colname="col2"> <p>Durée totale de session / (Lancements - Premiers lancements) </p> <p>SDK d’applications mobiles uniquement. Il s’agit d’une mesure au niveau de la session. </p> </td> 
    <td colname="col3"> <p>Report Builder </p> <p>Interface utilisateur de Mobile Services </p> </td> 
   </tr> 
  </tbody> 
@@ -89,7 +89,7 @@ Ce tableau répertorie les diverses dimensions de durée de la visite, leur déf
   <tr> 
    <td colname="col1"> <p>Temps passé par visite - Valeur granulaire </p> </td> 
    <td colname="col2"> <p>Durée totale passée lors la visite arrondie à la seconde la plus proche et appliquée à chaque accès qui faisait partie de la visite. Il s’agit d’une dimension du niveau de la visite. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée par visite – Regroupement </p> </td> 
@@ -106,12 +106,12 @@ Ce tableau répertorie les diverses dimensions de durée de la visite, leur déf
      <li id="li_C9B5F1A83F99437A98A61756EE286687">10-15 heures </li> 
      <li id="li_8CC5A279D5804C5EA34C1B3589EF07BA">Plus de 15 heures </li> 
     </ul> <p>Remarque : Les visites de plus de 12 heures peuvent survenir lorsque les accès sont reçus dans le désordre. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée de consultation de la page - Granulaire </p> </td> 
-   <td colname="col2"> <p>Durée totale passée sur chaque accès, arrondie à la seconde la plus proche. Il s’agit d’une dimension du niveau de l’accès. Elle comprend à la fois des pages vues et des événements de lien. Elle n’est pas limitée à la dimension « page » comme son nom l’indique. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> </td> 
+   <td colname="col2"> <p>Durée totale passée sur chaque accès, arrondie à la seconde la plus proche. Il s’agit d’une dimension du niveau de l’accès. Elle comprend à la fois des pages vues et des événements de lien. Il ne se limite pas uniquement à la dimension "page", comme son nom l’indique. </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée de consultation de la page – Regroupement </p> </td> 
@@ -128,7 +128,7 @@ Ce tableau répertorie les diverses dimensions de durée de la visite, leur déf
      <li id="li_D44D773A344E47BFAA771302A49D8BD4">20 à 30 minutes </li> 
      <li id="li_8766683DB29147CD8470D2317F750E97">plus de 30 minutes </li> 
     </ul> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,9 +137,7 @@ Ce tableau répertorie les diverses dimensions de durée de la visite, leur déf
 
 Adobe Analytics utilise des valeurs explicites (y compris les événements de lien et les affichages de vidéos) pour calculer la [!UICONTROL durée de la visite].
 
->[!NOTE]
->
->Without link events like [!UICONTROL Video Views] or [!UICONTROL Exit Links], time spent on the last hit of a visit cannot be known. En outre, pour des raisons similaires, les [!UICONTROL Visites de rebond] (c’est-à-dire les [!UICONTROL Visites] avec un seul accès) n’auront pas de [!UICONTROL Durée de la visite] associée.
+> [!NOTE] En l’absence d’événements de lien tels que les affichages [!UICONTROL de] vidéos ou les liens [!UICONTROL de]sortie, le temps passé sur le dernier accès d’une visite ne peut pas être connu. En outre, pour des raisons similaires, les [!UICONTROL Visites de rebond] (c’est-à-dire les [!UICONTROL Visites] avec un seul accès) n’auront pas de [!UICONTROL Durée de la visite] associée.
 
 Le **numérateur** dans tous les calculs de durée de la visite est « Durée totale (secondes) ».
 
@@ -171,10 +169,10 @@ Le **dénominateur** n’est pas disponible comme mesure distincte dans Analytic
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quelle dimension de durée de la visite est la plus appropriée pour une utilisation dans les ventilations avec d’autres dimensions ? </p> </td> 
-   <td colname="col2"> <p>La dimension Durée de consultation de la page est une dimension de niveau accès. La ventilation de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de ventilation était également présente. </p> <p>Dans l’exemple ci-dessous, le terme de recherche « classifieds » est associé à des durées d’accès de 54 secondes, 59 secondes, etc., indiquant peut-être que les visiteurs passent du temps à lire le contenu renvoyé par ce terme de recherche. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>La dimension "Durée de consultation de la page - granulaire" est une dimension de niveau accès. La ventilation de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de ventilation était également présente. </p> <p>Dans l’exemple ci-dessous, le terme de recherche "classifications" est associé aux temps d’accès de 54 secondes, 59 secondes, etc., ce qui indique peut-être que les visiteurs passent du temps à lire le contenu renvoyé pour ce terme de recherche. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Quelle mesure convient à la dimension « Durée de consultation de la page - granulaire » ? </p> </td> 
+   <td colname="col1"> <p>Quelle mesure convient-il par rapport à la dimension "Durée de consultation de la page - granulaire" ? </p> </td> 
    <td colname="col2"> <p>N’importe quelle mesure. La dimension indique la durée de la visite sur l’accès exact où l’événement s’est produit. Une durée plus longue de la visite signifie qu’un visiteur est resté plus longtemps sur une page (accès) où l’événement s’est produit. </p> <p><img placement="break" align="center"  src="assets/time-spent2.png" id="image_A741C1BA52254124B5C28D030FE20EFF" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
@@ -228,13 +226,13 @@ Supposons que le jeu d’appels au serveur suivant concerne un seul visiteur au 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Type d’accès</b> </td> 
-   <td colname="col2"> Page </td> 
+   <td colname="col2"> Activity Map </td> 
    <td colname="col3"> Lien </td> 
-   <td colname="col4"> Page </td> 
-   <td colname="col5"> Page </td> 
-   <td colname="col6"> Page </td> 
-   <td colname="col7"> Page </td> 
-   <td colname="col8"> Page </td> 
+   <td colname="col4"> Activity Map </td> 
+   <td colname="col5"> Activity Map </td> 
+   <td colname="col6"> Activity Map </td> 
+   <td colname="col7"> Activity Map </td> 
+   <td colname="col8"> Activity Map </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Nom de page</b> </td> 
@@ -249,7 +247,7 @@ Supposons que le jeu d’appels au serveur suivant concerne un seul visiteur au 
  </tbody> 
 </table>
 
-### Exemple evar
+### Exemple d’eVar
 
 <table id="table_6D0CF0C53DC145D3A53C06EC3012BCC0">  
  <thead> 
@@ -288,7 +286,7 @@ Supposons que le jeu d’appels au serveur suivant concerne un seul visiteur au 
  </tbody> 
 </table>
 
-### Exemple prop
+### Exemple de prop
 
 <table id="table_1CB4D24A6CAA479C8E59A7C77FFB8226">  
  <thead> 
@@ -350,8 +348,8 @@ Pour les dimensions de durée de la visite, les lignes suivantes apparaîtront d
 Quelques remarques supplémentaires à l’appui de l’exemple :
 
 * Tous les calculs de durée de la visite sont basés sur le temps écoulé de la visite qui commence à zéro lors du premier accès de la visite.
-* Les « secondes écoulées » correspondent à la différence entre l’horodatage de l’accès actuel et l’horodatage de l’accès suivant. En conséquence, le dernier accès de la visite (et rebonds) ne comporte pas de durée de la visite.
-* Une « séquence » est un jeu consécutif d’accès pour lequel une variable donnée contient la même valeur (qu’elle soit définie, propagée ou persistante). Par exemple, prop1 « A » comporte deux séquences : accès 1 et 2 et accès 6. Les valeurs du dernier accès de la visite ne démarrent pas une nouvelle séquence car le dernier accès ne comporte pas de durée de la visite. La durée moyenne de la visite du site utilise des séquences du dénominateur.
+* "Secondes passées" est la différence entre l’horodatage de l’accès actif et l’horodatage de l’accès suivant. En conséquence, le dernier accès de la visite (et rebonds) ne comporte pas de durée de la visite.
+* Une "séquence" est un ensemble consécutif d’accès où une variable donnée contient la même valeur (qu’elle soit définie, propagée vers l’avant ou persistante). Par exemple, prop1 "A" comporte deux séquences : accès 1 et 2 et accès 6. Les valeurs du dernier accès de la visite ne démarrent pas une nouvelle séquence car le dernier accès ne comporte pas de durée de la visite. La durée moyenne de la visite du site utilise des séquences du dénominateur.
 
-   * Pour les besoins de la durée de la visite uniquement, les props sont « propagées » à partir des accès à la page vers les accès au lien suivant, comme indiqué ci-dessus pour prop1 sur l’accès 2. Cela permet à la valeur qui a été définie pour prop1 sur l’accès 1 (« A ») d’accumuler de la durée de visite sur l’accès 2.
+   * Aux fins de la Durée de la visite uniquement, les props sont "propagées en avant" des accès aux pages vers les accès aux liens suivants, comme illustré ci-dessus pour prop1 sur l’accès 2. Cela permet à la valeur définie pour prop1 sur l’accès 1 ("A") d’accumuler le temps passé sur l’accès 2.
    * Les eVars accumulent de la durée de visite sur n’importe quel accès pour lequel l’eVar est définie ou persistante. La persistance des eVars est définie par les paramètres d’eVar dans l’administration d’Analytics.
