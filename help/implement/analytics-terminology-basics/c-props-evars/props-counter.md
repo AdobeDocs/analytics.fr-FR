@@ -7,8 +7,8 @@ solution: Analytics
 title: Utilisation de propriétés comme compteurs
 topic: Développeur et mise en œuvre
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,13 +29,9 @@ Pour la page B, saisissez une valeur semblable dans [!UICONTROL s.prop] 1 pour 
 s.prop1="WindowsMP"
 ```
 
->[!NOTE]
->
->Adobe met à votre disposition 75 variables [!UICONTROL s.prop].
+> [!NOTE] Adobe met à votre disposition 75 variables [!UICONTROL s.prop].
 
 A mesure que les utilisateurs accèdent à votre site et visitent des pages contenant Real Player ou le Lecteur Windows Media, [!DNL Analytics] est en mesure d’effectuer une segmentation en fonction des pages consultées. Le rapport [!UICONTROL Trafic personnalisé] affiche alors le nombre de visites enregistrées sur chaque page.
 
->[!NOTE]
->
->Le nom du rapport [!UICONTROL Trafic personnalisé] peut être personnalisé. Vous pouvez, par exemple, renommer le rapport [!UICONTROL Trafic personnalisé] en « Rapports sur les types de lecteur ».
+> [!NOTE] Le nom du rapport [!UICONTROL Trafic personnalisé] peut être personnalisé. Vous pouvez, par exemple, renommer le rapport [!UICONTROL Trafic personnalisé] en « Rapports sur les types de lecteur ».
 
