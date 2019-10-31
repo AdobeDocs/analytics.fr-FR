@@ -7,7 +7,7 @@ title: Superpositions personnalisables
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Les superpositions proposent plusieurs manières de configurer la visualisation de données afin de consulter et de comprendre facilement la popularité des liens sur une page.
 
-Les superpositions vous permettent de visualiser les données de clic directement sur la page. This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
+Les superpositions vous permettent de visualiser les données de clic directement sur la page. C’est ce qui distingue un outil d’analyse visuelle tel qu’Activity Map d’outils principalement tabulaires et graphiques tels que Reports &amp; Analytics.
 
-[!DNL Activity Map] propose trois types d’incrustations :
+Activity Map propose trois types de superpositions :
 
 * Superposition en dégradé (carte thermique)
 * Superposition bulle
@@ -46,7 +46,7 @@ Ces mesures sont superposées au-dessus des liens de la page sous la forme d’u
 
 La superposition bulle affiche le contenu de la superposition (mesure, pourcentage ou classement) dans une petite bulle de légende.
 
-Les superpositions bulle s’affichent lorsque vous sélectionnez cette superposition dans Type de superposition dans la barre d’outils. Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). Les superpositions en dégradé s’affichent si cette option n’est pas sélectionnée.
+Les superpositions bulle s’affichent lorsque vous sélectionnez cette superposition dans Type de superposition dans la barre d’outils. Elles répertorient tous les liens correspondant à la sélection dans [Paramètres d’Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) (30 premiers, 50 premiers, tous...). Les superpositions en dégradé s’affichent si cette option n’est pas sélectionnée.
 
 ![](assets/bubble_overlay.png)
 
