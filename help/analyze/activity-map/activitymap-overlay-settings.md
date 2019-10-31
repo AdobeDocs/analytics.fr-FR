@@ -1,22 +1,22 @@
 ---
-description: Le panneau de paramètres de Carte d’activités [!DNL] vous permet de modifier les paramètres et les propriétés de tous les types de visualisations d’incrustation.
-seo-description: Le panneau de paramètres de Carte d’activités [!DNL] vous permet de modifier les paramètres et les propriétés de tous les types de visualisations d’incrustation.
-seo-title: Configuration des paramètres de Carte d’activités [!DNL]
+description: Le panneau de configuration d’Activity Map vous permet de modifier les paramètres et les propriétés de tous les types de visualisations des superpositions.
+seo-description: Le panneau de configuration d’Activity Map vous permet de modifier les paramètres et les propriétés de tous les types de visualisations des superpositions.
+seo-title: Paramétrage d’Activity Map
 solution: Analytics
-title: Configuration des paramètres de Carte d’activités [!DNL]
+title: Paramétrage d’Activity Map
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Configure [!DNL Activity Map] settings
+# Paramétrage d’Activity Map
 
-The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+Le panneau de configuration d’Activity Map vous permet de modifier les paramètres et les propriétés de tous les types de visualisations des superpositions.
 
-Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
+Accédez au panneau de configuration d’Activity Map en cliquant sur l’icône de l’engrenage dans la barre d’outils d’Activity Map.
 
 Le panneau de configuration affiche un contenu différent en fonction du mode d’application sélectionné. L’onglet Autre comprend des paramètres généraux.
 
@@ -97,7 +97,7 @@ Le panneau de configuration affiche un contenu différent en fonction du mode d�
  <tbody> 
   <tr> 
    <td colname="col1"> Suite de rapports </td> 
-   <td colname="col2"> <p>La liste des suites de rapports auxquelles vous avez accès ne se limite plus aux seules suites de rapports définies dans une balise de page web. Vous pouvez désormais remplacer la suite de rapports sélectionnée (correspondant à l’une des balises de la page) par une autre suite de rapports. Il n’est pas nécessaire que celle-ci soit liée à une balise sur la page. If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>Important : Les suites de rapports virtuelles sont uniquement compatibles avec le mode standard, et non le mode réel. Si vous vous trouvez en mode réel pour une suite de rapports standard, mais que vous sélectionnez une suite de rapports virtuelle dans cette boîte de dialogue, le mode standard s’affichera une fois que vous aurez cliqué sur <span class="uicontrol">OK</span>. </p> </p> <p>De plus, la commande Calendrier sera réinitialisée pour correspondre au type de calendrier de la suite de rapports (grégorien, vente au détail, personnalisé...). </p> </td> 
+   <td colname="col2"> <p>La liste des suites de rapports auxquelles vous avez accès ne se limite plus aux seules suites de rapports définies dans une balise de page web. Vous pouvez désormais remplacer la suite de rapports sélectionnée (correspondant à l’une des balises de la page) par une autre suite de rapports. Il n’est pas nécessaire que celle-ci soit liée à une balise sur la page. Si vous modifiez la suite de rapports sélectionnée dans les paramètres d’Activity Map, le processus d’<span class="uicontrol">enregistrement</span> entraînera l’actualisation de tous les rapports Analytics affectés. </p> <p> <p>Important : Les suites de rapports virtuelles sont uniquement compatibles avec le mode standard, et non le mode réel. Si vous vous trouvez en mode réel pour une suite de rapports standard, mais que vous sélectionnez une suite de rapports virtuelle dans cette boîte de dialogue, le mode standard s’affichera une fois que vous aurez cliqué sur <span class="uicontrol">OK</span>. </p> </p> <p>De plus, la commande Calendrier sera réinitialisée pour correspondre au type de calendrier de la suite de rapports (grégorien, vente au détail, personnalisé...). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Langue </td> 
