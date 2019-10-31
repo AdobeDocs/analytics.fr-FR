@@ -54,10 +54,10 @@ Accédez au Créateur de segments en procédant comme suit :
 1. **** Afficher : (Sélecteur Conteneur supérieur.) Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). Le conteneur de niveau supérieur par défaut est le conteneur Accès.
 1. **** Options : (engrenage) icône
 
-   * **** + Ajouter un conteneur : Permet d’ajouter un nouveau conteneur (sous le conteneur de niveau supérieur) à la définition de segment.
-   * **** + Ajouter un conteneur à partir de la sélection : Permet de créer un conteneur à partir du ou des éléments que vous avez (multi-) sélectionné dans le champ Définitions.
-   * **** Exclure : Permet de définir le segment en excluant une ou plusieurs dimensions, segments ou mesures.
-   **** Modèles d’attribution : Pour la segmentation des dimensions. Les modèles de dimension sont particulièrement utiles pour la segmentation séquentielle, comme dans le cas des visualisations de flux :
+   * **[!UICONTROL + Ajouter un conteneur :]** Permet d’ajouter un nouveau conteneur (sous le conteneur de niveau supérieur) à la définition de segment.
+   * **[!UICONTROL + Ajouter un conteneur à partir de la sélection :]** Permet de créer un conteneur à partir du ou des éléments que vous avez (multi-) sélectionné dans le champ Définitions.
+   * **[!UICONTROL Exclure :]** Permet de définir le segment en excluant une ou plusieurs dimensions, segments ou mesures.
+   **[!UICONTROL Modèles d’attribution :]** Pour la segmentation des dimensions. Les modèles de dimension sont particulièrement utiles pour la segmentation séquentielle, comme dans le cas des visualisations de flux :
    * **[!UICONTROL Répétition]** (par défaut) : Inclut des instances et des valeurs persistantes pour la dimension.
    * **[!UICONTROL Instance]**: Inclut des instances pour la dimension.
    * **[!UICONTROL Instance]** non répétée : Inclut des instances uniques (non répétées) pour la dimension.
