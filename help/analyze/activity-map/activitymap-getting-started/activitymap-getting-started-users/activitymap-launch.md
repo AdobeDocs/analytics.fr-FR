@@ -1,20 +1,20 @@
 ---
-description: En supposant que le module externe de navigateur approprié soit installé, vous pouvez lancer [!DNL Activity Map] directement à partir de votre page Web.
-seo-description: En supposant que le module externe de navigateur approprié soit installé, vous pouvez lancer [!DNL Activity Map] directement à partir de votre page Web.
-seo-title: Lancer [!Carte d’activités DNL]
+description: En supposant que le module de navigateur adapté ait été installé, vous pouvez lancer Activity Map directement depuis votre page web.
+seo-description: En supposant que le module de navigateur adapté ait été installé, vous pouvez lancer Carte d’activités directement depuis votre page Web.
+seo-title: Lancement d’Activity Map
 solution: Analytics
-title: Lancer [!Carte d’activités DNL]
+title: Lancement d’Activity Map
 topic: Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Launch [!DNL Activity Map]{#launch-activity-map}
+# Lancement d’Activity Map{#launch-activity-map}
 
-Assuming that the correct browser plug-in is installed, you can launch [!DNL Activity Map] directly from your web page.
+En supposant que le module de navigateur adapté ait été installé, vous pouvez lancer Activity Map directement depuis votre page web.
 
 1. Cliquez sur l’icône Adobe Analytics à droite de la barre d’adresse de votre navigateur :\
    ![](assets/an_icon.png){width="90px"}
