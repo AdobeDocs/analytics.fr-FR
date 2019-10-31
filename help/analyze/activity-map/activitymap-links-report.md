@@ -7,7 +7,7 @@ title: Rapport sur les liens
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Le rapport Liens tient compte des liens trouvés sur la page actuelle. Il ne tient pas compte de tous les liens collectés pour cette page.
 
-Le rapport Liens sur la page offre une vue tabulaire de tous les liens. Il peut arriver que vous souhaitiez afficher les clics sur les liens (ou d’autres mesures) avec classement d’un seul coup d’œil. Cela vous permet de comparer un lien par rapport à un autre plus facilement. Créez le rapport Liens sur la page en incluant une liste de classement de tous les liens de la page (par ID de lien), les informations de clic (n° et %) ainsi que la région dans la page. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
+Le rapport Liens sur la page offre une vue tabulaire de tous les liens. Il peut arriver que vous souhaitiez afficher les clics sur les liens (ou d’autres mesures) avec classement d’un seul coup d’œil. Cela vous permet de comparer un lien par rapport à un autre plus facilement. Créez le rapport Liens sur la page en incluant une liste de classement de tous les liens de la page (par ID de lien), les informations de clic (n° et %) ainsi que la région dans la page. Cliquez sur le bouton du rapport Liens sur la page dans la barre d’outils d’Activity Map.
 
-The **[!UICONTROL Links On Page]** report opens below the browser frame in the [!DNL Activity Map] dashboard.
+Le rapport **[!UICONTROL Liens sur la page]s’ouvre en dessous du cadre du navigateur dans le tableau de bord d’Activity Map.**
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -63,7 +63,7 @@ En mode standard, le rapport Liens sur la page répertorie les données des lien
 
 **Filtrage des données**
 
-Si vous souhaitez vous concentrer sur un lien spécifique, vous pouvez rechercher un terme associé dans le champ **[!UICONTROL Filtrer les données].** Seuls les liens correspondant à la recherche disposeront de superpositions. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
+Si vous souhaitez vous concentrer sur un lien spécifique, vous pouvez rechercher un terme associé dans le champ **[!UICONTROL Filtrer les données].** Seuls les liens correspondant à la recherche disposeront de superpositions. Si aucun filtre n’est appliqué, les superpositions spécifiées dans [Paramètres d’Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) s’afficheront.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
