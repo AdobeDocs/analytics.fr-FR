@@ -1,43 +1,43 @@
 ---
 description: Décrit la façon de définir les autorisations ainsi que les dimensions disponibles dans Analytics.
 seo-description: Décrit la façon de définir les autorisations ainsi que les dimensions disponibles dans Analytics.
-seo-title: Création de rapports [!Carte d’activités DNL] dans Analytics
+seo-title: Création de rapports Activity Map dans Analytics
 solution: Analytics
-title: Création de rapports [!Carte d’activités DNL] dans Analytics
+title: Création de rapports Activity Map dans Analytics
 topic: Activity Map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
-# [!DNL Activity Map] création de rapports dans Analytics
+# Création de rapports Activity Map dans Analytics
 
 Décrit la façon de définir les autorisations ainsi que les dimensions disponibles dans Analytics.
 
 ## Set permissions {#section_BDCD9914B31A4066A50D23DDDF1ABB37}
 
-Before users can report on [!DNL Activity Map] dimensions, you as the Admin need to
+Pour que les utilisateurs puissent créer des rapports sur les dimensions Activity Map, vous devez, en tant qu’administrateur :
 
-* [Ajoutez des utilisateurs au groupe](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)d’accès [!DNL Activity Map].
-* Ajouter à ce groupe les suites de rapports auxquelles vous souhaitez accéder. Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [!DNL Activity Map]Access]** &gt; **[!UICONTROL Edit]**.
+* [Ajouter des utilisateurs au groupe d’accès d’Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
+* Ajouter à ce groupe les suites de rapports auxquelles vous souhaitez accéder. Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL Activity Map Access]** &gt; **[!UICONTROL Edit]**.
 * Personnaliser l’accès des utilisateurs aux dimensions. Voir la section suivante.
 
-## Dimensions Analytics [!DNL Activity Map]{#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
+## Analytics Activity Map dimensions {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-Vous pouvez [personnaliser l’accès des utilisateurs aux dimensions](https://marketing.adobe.com/resources/help/en_US/reference/groups-dimensions.html) à un niveau granulaire. Here are the [!DNL Activity Map] dimensions available in Analytics:
+Vous pouvez [personnaliser l’accès des utilisateurs aux dimensions](https://marketing.adobe.com/resources/help/en_US/reference/groups-dimensions.html) à un niveau granulaire. Les dimensions Activity Map suivantes sont disponibles dans Analytics :
 
 | Dimension | Description |
 |---|---|
-| [!DNL Activity Map] Activity Map | Répertorie les pages sur lesquelles un utilisateur a cliqué sur un lien. |
-| [!DNL Activity Map] Région | Répertorie toutes les régions de lien collectées sur l’ensemble du site web. Notez que si une région apparaît sur plusieurs pages, la mesure sera intégrée à chacune d’entre elles. |
-| [!DNL Activity Map] Liens | Répertorie tous les liens collectés sur l’ensemble du site web. |
-| [!DNL Activity Map] Liens et région | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
-| [!DNL Activity Map] XY | Non utilisée |
+| Activity Map  Activity Map | Répertorie les pages sur lesquelles un utilisateur a cliqué sur un lien. |
+| Région d’Activity Map | Répertorie toutes les régions de lien collectées sur l’ensemble du site web. Notez que si une région apparaît sur plusieurs pages, la mesure sera intégrée à chacune d’entre elles. |
+| Liens d’Activity Map | Répertorie tous les liens collectés sur l’ensemble du site web. |
+| Liens et région d’Activity Map | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
+| Coordonnées d’Activity Map | Non utilisée |
 
-* Ces dimensions doivent être disponibles dans Analysis Workspace, Reports &amp; Analytics et Report Builder, à condition que la mise en œuvre d’Analytics soit [enabled for [!DNL Activity Map]](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* In Reports &amp; Analytics, navigate to **[!UICONTROL View All Reports]** &gt; **[!UICONTROL [!DNL Activity Map]]**.
+* Ces dimensions doivent être disponibles dans Analysis Workspace, Reports &amp; Analytics et Report Builder, à condition que la mise en œuvre d’Analytics soit [activée pour Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
+* In Reports &amp; Analytics, navigate to **[!UICONTROL View All Reports]** &gt; **[!UICONTROL Activity Map]**.
 
-* To look at a link and region for a specific page, all you need to do is create a breakdown from the desired [!DNL Activity Map] page into the [!DNL Activity Map] Links &amp; Region.
+* Pour consulter un lien ou une région d’une page spécifique, il suffit de créer une ventilation à partir de la page Activity Map souhaitée dans Liens et région d’Activity Map.
 
