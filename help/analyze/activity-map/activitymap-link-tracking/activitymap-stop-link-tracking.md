@@ -1,20 +1,20 @@
 ---
-description: Etapes d’arrêt du suivi des liens dans [!Carte d’activités DNL] ou ClickMap hérité.
-seo-description: Etapes d’arrêt du suivi des liens dans [!Carte d’activités DNL] ou ClickMap hérité.
+description: Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
+seo-description: Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
 seo-title: Arrêt du suivi des liens
 solution: Analytics
 title: Arrêt du suivi des liens
 topic: Activity Map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # Arrêt du suivi des liens
 
-Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
+Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,8 +25,8 @@ Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!Carte d’activités DNL] </td> 
-   <td colname="col2"> Remove the following content from the Appmeasurement.js file: 
+   <td colname="col1"> Activity Map </td> 
+   <td colname="col2"> Supprimez le contenu suivant du fichier Appmeasurement.js : 
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
