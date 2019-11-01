@@ -5,7 +5,7 @@ seo-title: 'Requêtes de données - Assistant Requête : Étape 1'
 title: 'Requêtes de données - Assistant Requête : Étape 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -32,6 +32,6 @@ Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la su
 
 1. **Appliquer la granularité** : la granularité définit le niveau des détails temporels inclus dans le rapport. Voir [Granularité](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Créer une requête de données](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
