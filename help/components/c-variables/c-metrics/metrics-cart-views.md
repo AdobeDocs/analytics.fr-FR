@@ -5,9 +5,9 @@ seo-title: Consultations du panier
 solution: Analytics
 title: Consultations du panier
 topic: Mesures
-uuid: f 51213 ed-c 396-4 d 6 a -8 f 88-4 ea 870 e 5 bfed
+uuid: f51213ed-c396-4d6a-8f88-4ea870e5b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | Conversion | Instance de l’événement [!UICONTROL Consultations du panier] en cours de définition. Se produit lorsque les éléments d’un panier sont consultés. |
 | Ad Hoc Analysis | Instance de l’événement [!UICONTROL Consultations du panier] en cours de définition. Se produit lorsque les éléments d’un panier sont consultés. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Rapport Panier](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
 
