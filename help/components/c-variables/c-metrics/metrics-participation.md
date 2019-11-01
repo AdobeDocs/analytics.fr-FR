@@ -7,7 +7,7 @@ title: Participation
 topic: Mesures
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -43,7 +43,7 @@ Lors de l’affichage des recettes dans le rapport Termes de recherche internes,
 
    La participation est semblable à l’affectation linéaire, sauf qu’un crédit complet est attribué à toutes les valeurs. Si vous utilisez la mesure Participation aux recettes, il n’est pas tenu compte de l’attribution. Les recettes (participation) dans cet exemple recevraient 120 $ pour les deux termes de recherche.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Calculs de mesures](/help/components/c-variables/c-metrics/metrics-calculations.md)
 
