@@ -5,9 +5,9 @@ seo-title: Total
 solution: Analytics
 title: Total
 topic: Mesures
-uuid: b 0827325-9736-4 a 68-ade 2-3 fe 859 c 7 f 43 c
+uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -39,7 +39,7 @@ La valeur de tous les articles de rapport pour une période rapportée. Si un fi
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Rapport Totaux](/help/components/c-variables/dimensionslist/reports-totals.md)
 
