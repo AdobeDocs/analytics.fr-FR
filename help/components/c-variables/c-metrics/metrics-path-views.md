@@ -7,7 +7,7 @@ title: Vues chemins
 topic: Mesures
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -24,7 +24,7 @@ Le terme [!UICONTROL Vue chemin] sert à indiquer le nombre de fois où une page
 | Conversion | N/D |
 | Ad Hoc Analysis | Ne correspond pas à la longueur d’une visite complète ; il s’agit généralement d’une série de chemins dont chacun comprend 3 à 4 pages. Indique la fréquence des visites sur ce chemin. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Rapports sur les chemins](/help/components/c-variables/dimensionslist/reports-paths.md)
 
