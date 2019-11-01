@@ -7,7 +7,7 @@ title: Occurrences
 topic: Mesures
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ Deux mesures qui semblent similaires sont répertoriées :
 | Instances supérieures aux occurrences | Cela n’est pas possible dans le cadre des rapports, dans la mesure où toutes les instances sont également enregistrées en tant qu’occurrences. |
 | Instances égales aux occurrences | Cette situation se présente généralement pour les variables de trafic, étant donné que, par définition, elles ne persistent pas au-delà de la demande d’image. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Instances](/help/components/c-variables/c-metrics/metrics-instance.md)
 
