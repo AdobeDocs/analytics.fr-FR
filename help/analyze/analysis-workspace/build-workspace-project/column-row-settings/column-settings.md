@@ -5,7 +5,7 @@ seo-title: Paramètres des colonnes
 title: Paramètres des colonnes
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ La mise en forme conditionnelle applique la mise en forme aux limites supérieur
 | Personnalisé | Vous pouvez affecter manuellement les valeurs des champs Limite supérieure, Milieu et Limite inférieure pour la mise en forme conditionnelle. Vous disposez ainsi de la flexibilité nécessaire pour déterminer si la valeur d’une colonne devient bonne, moyenne ou mauvaise. |
 | Aperçu des cellules de tableau | Affiche un aperçu de l’aspect de chaque cellule après application des options de mise en forme actuellement sélectionnées. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Gestion des sources de données](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
