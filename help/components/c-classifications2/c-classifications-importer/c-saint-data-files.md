@@ -8,7 +8,7 @@ title: Fichiers de données de classification
 topic: Outils d’administration
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -78,11 +78,11 @@ Un fichier de données doit respecter les règles de structure suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Ce code demande à Adobe de générer automatiquement un ID unique pour cet élément. </p> <p>Dans le cadre d’une campagne, cette valeur de contrôle demande à Adobe d’attribuer un identificateur à chaque élément créatif. Voir <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443" format="dita" scope="local"> Clé </a>. </p> </td> 
+   <td colname="col2"> <p>Ce code demande à Adobe de générer automatiquement un ID unique pour cet élément. </p> <p>Dans le cadre d’une campagne, cette valeur de contrôle demande à Adobe d’attribuer un identificateur à chaque élément créatif. Voir  <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_0B77B3079B5C414F9956058688990443" format="dita" scope="local"> Clé </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>Ce code indique que la colonne de données représente la période associée à l’élément. Voir <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9ECCD5ED97764CDC90C0B7B0F9461825" format="dita" scope="local"> Date </a>. </p> </td> 
+   <td colname="col2"> <p>Ce code indique que la colonne de données représente la période associée à l’élément. Voir  <a href="../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9ECCD5ED97764CDC90C0B7B0F9461825" format="dita" scope="local"> Date </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Champ vide </p> </td> 
@@ -95,7 +95,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
  </tbody> 
 </table>
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Problèmes de téléchargement courants](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
 
