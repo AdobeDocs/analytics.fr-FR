@@ -5,7 +5,7 @@ seo-title: Configuration des rapports existants
 title: Configuration des rapports existants
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -164,7 +164,7 @@ Certains rapports vous permettent de ventiler les données tabulaires afin d’a
    >
    >Pour plus de flexibilité, utilisez le Générateur de [tableau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) pour configurer un rapport avec des ventilations. Après avoir ouvert un rapport enregistré ou planifié avec des ventilations, il vous faudra peut-être cliquer sur **[!UICONTROL Remplacer le tableau]pour actualiser une ventilation des données dynamiques du rapport.** Vous pouvez, par exemple, actualiser un rapport planifié contenant des ventilations d’éléments de ligne qui peuvent changer en fonction de la période ou de l’activité des visiteurs.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Générateur de tableau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -249,7 +249,7 @@ t_column_width.xml
 
    Cette option est désactivée si l’option [!UICONTROL Ajuster à l’écran] est activée. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Générateur de tableau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
