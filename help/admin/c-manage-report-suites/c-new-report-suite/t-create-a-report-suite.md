@@ -7,7 +7,7 @@ title: Création d’une suite de rapports
 topic: Outils d’administration
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 1. Renseignez les champs décrits dans [Nouvelle suite de rapports.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Cliquez sur **[!UICONTROL Créer une Report Suite]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Création de suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-create.md)
 
