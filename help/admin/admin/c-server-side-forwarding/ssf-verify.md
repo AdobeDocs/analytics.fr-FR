@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Comment vérifier l’implémentation du transfert côté serveur
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -27,7 +27,7 @@ Pour vérifier l’état du transfert côté serveur :
 >
 >If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Vérifiez que le service d’identité est correctement déployé, que vous avez déployé le module App Measurement, que la suite de rapports applicable a été mappée à l’organisation IMS correcte et que le transfert côté serveur a été activé dans la console d’administration Analytics.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
 
