@@ -5,7 +5,7 @@ seo-title: Questions fréquentes relatives au transfert côté serveur
 title: Questions fréquentes relatives au transfert côté serveur
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,7 +33,7 @@ Questions fréquentes relatives aux fonctionnalités et problèmes liés au tran
 | Q : Que se passe-t-il si nous disposons de deux organisations Experience Cloud (ou instances AAM) et que nous souhaitons partager des données entre les deux organisations Experience Cloud ? Puis-je transférer côté serveur un accès Analytics unique vers plusieurs organisations Experience Cloud ? | Non. Si vous devez partager les données collectées sous une organisation Experience Cloud vers une autre organisation Experience Cloud, nous vous recommandons d’envoyer les audiences applicables d’une instance Audience Manager vers une autre à l’aide du marché d’audience. |
 | Q : Le transfert côté serveur entraîne-t-il une facturation supplémentaire dans Audience Manager ou Analytics ? | Dans Analytics, aucune facturation supplémentaire n’est appliquée. Dans Audience Manager, les accès transférés sont traités comme tous les autres accès et facturés.  C’est pourquoi il est important de ne pas activer la collecte de données côté client (DIL) et le transfert côté serveur en même temps, ce qui peut entraîner une double facturation ainsi qu’une duplication des données. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Transfert côté serveur](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
