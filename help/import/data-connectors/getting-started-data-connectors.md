@@ -4,7 +4,7 @@ seo-description: Connexion aux connecteurs de données ; importez les données d
 seo-title: Connecteurs de données Analytics
 title: Prise en main des connecteurs de données Analytics
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
 
 ---
 
@@ -79,7 +79,7 @@ Pour mettre correctement en œuvre les segments de remarketing, les conditions s
    * Achats : `purchase` événement
    * Product Views: `prodView` event
 
-**** Remarque : Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement.
+> [!NOTE] Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement.
 Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
 
 [!UICONTROL Abandon de panier] : se déclenche après l’ajout par l’utilisateur d’un produit au panier :
