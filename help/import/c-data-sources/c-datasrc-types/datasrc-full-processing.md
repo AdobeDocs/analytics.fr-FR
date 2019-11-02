@@ -8,7 +8,7 @@ title: Traitement complet
 topic: Développeur et mise en œuvre
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 ---
 
@@ -26,7 +26,7 @@ Les sources de données à traitement complet sont traitées comme si elles éta
 
 Les sources de données à traitement complet sont traitées en utilisant les profils du visiteur distincts, de sorte que même si l’identifiant visiteur dans les données transférées correspond aux données collectées à l’aide d’une bibliothèque JavaScript ou AppMeasurement, les profils du visiteur ne sont pas connectés du point de vue de l’attribution des eVars.
 
-Par exemple, un utilisateur avec un identifiant visiteur « utilisateur@exemple.com » se rend sur votre site à partir d’une campagne marketing nommée « Soldes de printemps », qui est stockée dans la variable de campagne. Si vous transférez par la suite une transaction à l’aide du même identifiant visiteur, la campagne « Soldes de printemps » n’est pas créditée pour les recettes ou les événements de succès transférés à l’aide de sources de données à traitement complet.
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. Si vous transférez par la suite une transaction à l’aide du même identifiant visiteur, la campagne « Soldes de printemps » n’est pas créditée pour les recettes ou les événements de succès transférés à l’aide de sources de données à traitement complet.
 
 ## Référence de colonne {#section_92BAE76639E3404E97276B1BE0581078}
 
