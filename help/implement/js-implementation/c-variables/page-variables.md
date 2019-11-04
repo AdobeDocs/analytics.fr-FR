@@ -9,7 +9,7 @@ title: Variables de page
 topic: Développeur et mise en œuvre
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
 
 ---
 
@@ -266,7 +266,7 @@ Vous pouvez lire ces valeurs et les copier dans `props/eVars`, mais vous ne pouv
 
 | Paramètre de requête | Valeur | Exemple |
 |---|---|---|
-| k | Y ou N | O |
+| k | Y ou N | Y |
 
 ## dc {#concept_ECE6C83376704B3C84A920EFDD338A31}
 
@@ -569,7 +569,7 @@ Vous pouvez lire ces valeurs et les copier dans props/eVars, mais vous ne pouvez
 
 | Paramètre de requête | Valeur | Exemple | Rapports concernés |
 |---|---|---|---|
-| hp | Y ou N | O | Trafic &gt; Technologie &gt; Page d’accueil |
+| hp | Y ou N | Y | Trafic &gt; Technologie &gt; Page d’accueil |
 
 ## javaEnabled {#concept_F24A3536F1F0453DA214B16BAA5A6F67}
 
@@ -589,7 +589,7 @@ Vous pouvez lire ces valeurs et les copier dans props/eVars, mais vous ne pouvez
 
 | Paramètre de requête | Valeur | Exemple | Rapports concernés |
 |---|---|---|---|
-| v | Y ou N | O | Trafic &gt; Technologie &gt; Java |
+| v | Y ou N | Y | Trafic &gt; Technologie &gt; Java |
 
 ## javascriptVersion {#concept_19E2C9F87BB24E69B911C0F5873CAA90}
 
@@ -2055,13 +2055,11 @@ Avant d’utiliser cette variable, le service à la clientèle doit permettre à
 **Pièges, questions et conseils** {#section_EFDE8F67D13C4775A461E0B00D30AFD7}
 
 * Les horodatages servent principalement à effectuer le suivi des données hors connexion sur les plateformes mobiles. En règle générale, les horodatages personnalisés sont désactivés, à moins que vous ne collectiez des données d’application Web et hors connexion dans une même suite de rapports.
-* Les données sont horodatées lorsque les données hors ligne sont activées dans le SDK mobile (paramètre par défaut) ou chaque fois qu’une suite de rapports est configurée pour accepter les données horodatées. Les données collectées hors ligne sur les périphériques mobiles peuvent être envoyées des heures ou des semaines après la date où elles sont survenues. Ces accès peuvent être placés en file d’attente dans la plateforme Analytics pendant plus longtemps (minutes ou heures) que les accès sans horodatage :
+* Les données sont horodatées lorsque les données hors ligne sont activées dans le SDK mobile (paramètre par défaut) ou lorsqu’une suite de rapports est configurée pour accepter les données horodatées. Les données collectées hors ligne peuvent être envoyées des heures ou des semaines après la date à laquelle l’événement a eu lieu. Ces accès peuvent être placés en file d’attente dans la plateforme Analytics pendant plus longtemps (minutes ou heures) que les accès sans horodatage :
 
-   * Pour les données horodatées envoyées à un moment très proche de l’heure actuelle, le délai probable est de 10 à 15 minutes.
-   * Pour les données horodatées envoyées depuis hier, le délai probable est d’environ 2 heures.
-   * Pour les données horodatées envoyées avant hier, comptez 1 heure de délai pour chaque jour, jusqu’à il y a 15 jours, où le délai arrête de s’incrémenter.
-
-* Les données de la session avec horodatage sont conservées pendant 92 jours au maximum.
+   * Pour les données horodatées envoyées très près de l’heure actuelle, le délai probable est de 10 à 15 minutes.
+   * Pour les données horodatées envoyées depuis hier, le délai probable est d’environ 2 heures.
+   * Pour les données horodatées envoyées qui sont plus anciennes qu’hier, chaque jour ajoute environ 2 heures de délai, jusqu’à un maximum de 48 heures.
 
 ## trackingServer {#concept_45EE91B1A99B4A37AFAEF1C0A8A6B02F}
 
