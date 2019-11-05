@@ -8,22 +8,22 @@ title: Identification des visiteurs
 topic: Reports & Analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # Identification des visiteurs
 
-Analytics fournit plusieurs mécanismes permettant d’identifier les visiteurs (répertoriés dans [Identification des visiteurs](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#concept_BE966BABA7D0475BB706BC6676B8FA11)). Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
+Analytics fournit plusieurs mécanismes permettant d’identifier les visiteurs (répertoriés dans [Identification des visiteurs](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md)). Regardless of the method used to identify a visitor, in data feeds the final visitor ID used by Analytics is split across the `post_visid_high` and `post_visid_low` columns, even when using the Identity Service.
 
 **Pour identifier des visiteurs uniques, procédez comme suit :**
 
 1. Exclude all rows where `exclude_hit > 0`.
-1. Exclude all rows with `hit_source = 5,7,8,9`. 5, 8 et 9 sont des lignes récapitulatives téléchargées à l’aide de sources de données. 7 représente les téléchargements de source de données d’identifiant de transaction qui ne doivent pas être inclus dans les comptes de visites et de visiteurs. Reportez-vous à la section [Recherche de sources d’accès](../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42)
+1. Exclude all rows with `hit_source = 5,7,8,9`. 5, 8 et 9 sont des lignes récapitulatives téléchargées à l’aide de sources de données. 7 représente les téléchargements de source de données d’identifiant de transaction qui ne doivent pas être inclus dans les comptes de visites et de visiteurs. Reportez-vous à la section [Recherche de sources d’accès](/help/export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
 1. Combinez `post_visid_high` avec `post_visid_low`. All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
 
-Pour déterminer quel mécanisme a été appliqué pour isoler la valeur de l’identifiant visiteur (par exemple, pour calculer l’acceptation des cookies), `post_visid_type` comprend une clé de recherche qui indique quelle méthode d’identification a été utilisée. Les clés de recherche sont répertoriées avec les mécanismes d’identification des visiteurs dans le [tableau ci-dessous](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A).
+Pour déterminer quel mécanisme a été appliqué pour isoler la valeur de l’identifiant visiteur (par exemple, pour calculer l’acceptation des cookies), `post_visid_type` comprend une clé de recherche qui indique quelle méthode d’identification a été utilisée. Les clés de recherche sont répertoriées avec les mécanismes d’identification des visiteurs dans le [tableau ci-dessous](/help/export/analytics-data-feed/c-df-contents/datafeeds-visid.md#aa-vids).
 
 ## Experience Cloud ID {#section_1628ED37D31E4B0EB75632E397A06B29}
 
@@ -35,7 +35,7 @@ If the Experience Cloud ID was used to identify the visitor, the ID will be cont
 >
 > When using the Adobe Analytics visitor ID as a key for other systems, always use `post_visid_high` and `post_visid_low`. Ces champs sont les seuls champs d’identifiant visiteur ayant une valeur sur chaque ligne dans le flux de données.
 
-## Identifiants visiteur Analytics {#section_DE1DC9FC9B6D4388995B70E35B8BCDDF}
+## Identifiants visiteur Analytics {#aa-vids}
 
 Il existe plusieurs moyens d’identifier un visiteur dans Analytics (répertoriés dans le tableau ci-dessous par ordre de préférence) :
 
