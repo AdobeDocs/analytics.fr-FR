@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ Ce module externe vous permet de bloquer automatiquement ce trafic pendant la du
 
 ## Fonctionnement du module externe Hit Governor {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-Le module externe incrémente une valeur de cookie chaque fois qu’une demande d’image est envoyée à vos serveurs de suivi et en effectue un suivi au cours d’une période récurrente. La période par défaut est d’une minute, mais elle peut être remplacée. (Voir [Mise en œuvre](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) ci-dessous) Si le nombre total d’accès durant cette période dépasse le seuil d’accès par défaut (60), une demande d’image de lien personnalisé finale est envoyée à la variable de données contextuelles *`exceptionFlag`*. Le seuil d’accès par défaut peut également être remplacé.
+Le module externe incrémente une valeur de cookie chaque fois qu’une demande d’image est envoyée à vos serveurs de suivi et en effectue un suivi au cours d’une période récurrente. La période par défaut est d’une minute, mais elle peut être remplacée. (Voir [Mise en œuvre](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) ci-dessous) Si le nombre total d’accès durant cette période dépasse le seuil d’accès par défaut (60), une demande d’image de lien personnalisé finale est envoyée à la variable de données contextuelles *`exceptionFlag`*. Le seuil d’accès par défaut peut également être remplacé.
 
 Si vous le souhaitez, à partir de ce point, la collecte du trafic de ce visiteur spécifique peut cesser pendant une période par défaut de 60 jours. Le blocage du trafic requiert une ligne de code supplémentaire dans votre fonction doPlugins, comme décrit ci-dessous. La période peut également être ajustée. La logique permet à l’heure d’inclure l’adresse IP de l’utilisateur, l’agent utilisateur ou l’identifiant de visiteur [!DNL Experience Cloud] dans la logique d’exception permanente, ou de réinitialiser la période d’expiration après 60 jours. Si ce trafic est identifié comme frauduleux par le module externe après 60 jours, il est à nouveau marqué comme une exception et n’est pas collecté pendant 60 jours.
 
@@ -55,7 +55,7 @@ Pour mettre en œuvre le module externe hitGovernor :
    }); 
    ```
 
-   Sous la section doPlugins de votre fichier AppMeasurement, incluez le code de module externe contenu dans [le code source du module externe](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), ci-dessous.
+   Sous la section doPlugins de votre fichier AppMeasurement, incluez le code de module externe contenu dans [le code source du module externe](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), ci-dessous.
 
    Le seuil de limite d’accès, le seuil de délai d’accès et les périodes d’exclusion du trafic peuvent tous être remplacés en définissant ces variables, hors du module externe et de préférence avec vos autres variables de configuration :
 
