@@ -5,7 +5,7 @@ seo-title: Analyse des contributions - Aperçu
 title: Analyse des contributions - Aperçu
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -70,7 +70,7 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment puis-je restreindre l’accès à l’analyse des contributions ?</b> </p> </td> 
-   <td colname="col2"> <p>Par défaut, seuls les administrateurs ont accès à l’exécution des analyses des contributions, mais les administrateurs peuvent accorder l’accès à d’autres utilisateurs en créant un groupe d’autorisations dans la <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Console d’administration </a>. Vous devez autoriser l’utilisation de l’analyse des contributions uniquement aux utilisateurs qui ont une raison légitime de l’utiliser et qui sont autorisés à ne pas abuser de leur accès. </p> <p>L’autorisation est appelée « Analyse des contributions » sous <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gestion utilisateur</span> &gt; <span class="uicontrol">Modifier les groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils de suites de rapports</span> &gt; <span class="uicontrol">Outils et rapports</span></span>. </p> </td> 
+   <td colname="col2"> <p>Par défaut, seuls les administrateurs ont accès à l’exécution des analyses des contributions, mais les administrateurs peuvent accorder l’accès à d’autres utilisateurs en créant un groupe d’autorisations dans la <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Console d’administration </a>. Vous devez autoriser l’utilisation de l’analyse des contributions uniquement aux utilisateurs qui ont une raison légitime de l’utiliser et qui sont autorisés à ne pas abuser de leur accès. </p> <p>L’autorisation est appelée « Analyse des contributions » sous <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Gestion utilisateur</span> &gt; <span class="uicontrol">Modifier les groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils de suites de rapports</span> &gt; <span class="uicontrol">Outils et rapports</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment puis-je connaître le nombre de jetons auxquels ma société a droit par mois et combien de jetons avons-nous utilisés durant le mois en cours ?</b> </p> </td> 
@@ -103,17 +103,17 @@ Vous trouverez ci-dessous une liste des autorisations détaillées pour la déte
    <td colname="col3" colsep="1"> <p>Aucun jeton </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other" format="html" scope="external">Select</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  >Select</a> </p> </td> 
    <td colname="col2"> <p>Granularité quotidienne uniquement </p> </td> 
    <td colname="col3"> <p>Aucun jeton </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other" format="html" scope="external">Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>Oui </p> </td> 
    <td colname="col3"> <p>10 jetons par mois </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other" format="html" scope="external"> Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Oui </p> </td> 
    <td colname="col3"> <p>20 jetons par mois </p> </td> 
   </tr> 
@@ -138,7 +138,7 @@ Vous trouverez ci-dessous une liste des autorisations détaillées pour la déte
    <td colname="col3"> <p>2 jetons par mois </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete, <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html" format="html" scope="external">Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete, <a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Oui </p> </td> 
    <td colname="col3"> <p>Jetons illimités </p> </td> 
   </tr> 
