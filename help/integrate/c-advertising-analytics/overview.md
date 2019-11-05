@@ -5,7 +5,7 @@ seo-title: Advertising Analytics - Aperçu
 title: Advertising Analytics - Aperçu
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ Advertising Analytics permet d’afficher toutes vos données de référencemen
 
 > [!NOTE] Yahoo Gemini a été absorbé par Microsoft Bing le 31 mars 2019. Par conséquent, l’option de compte publicitaire Yahoo Gemini n’est plus disponible.
 
-En réunissant les données des moteurs de recherche dans Adobe Analytics, vous pouvez analyser les mêmes données en utilisant la puissance d’Analysis Workspace. A new [Paid Search Performance](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254) template in Workspace facilitates this analysis.
+En réunissant les données des moteurs de recherche dans Adobe Analytics, vous pouvez analyser les mêmes données en utilisant la puissance d’Analysis Workspace. A new [Paid Search Performance](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) template in Workspace facilitates this analysis.
 
 ![](assets/aa_aw.png)
 
@@ -30,13 +30,13 @@ Cette intégration est destinée aux audiences ci-dessous :
 * Advertising Analytics est disponible pour les SKU [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) ou [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) d’Adobe Analytics.
 
 * Cette fonctionnalité est disponible pour les clients ne bénéficiant pas d’Advertising Cloud ni d’AMO.
-* Vous devez être un administrateur Adobe Analytics pour accéder à Advertising Analytics. Par la suite, vous pourrez [accorder des autorisations d’accès](../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) à des non-administrateurs.
+* Vous devez être un administrateur Adobe Analytics pour accéder à Advertising Analytics. Par la suite, vous pourrez [accorder des autorisations d’accès](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) à des non-administrateurs.
 * Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
+* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
 
 * Vous avez besoin des informations de connexion pour un utilisateur autorisé à modifier le ou les comptes de recherche que vous souhaitez intégrer à Adobe Analytics, telles qu’un ID de compte Google et un mot de passe.
 * Dans le cas de Bings Ads, les ID de client Bing sont également requis.
-* Si vous utilisez Internet Explorer 11 (ou une version antérieure), vous ne parviendrez pas à [configurer un compte publicitaire](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) pour aucun des trois moteurs de recherche. Utilisez d’autres navigateurs web en remplacement.
+* Si vous utilisez Internet Explorer 11 (ou une version antérieure), vous ne parviendrez pas à [configurer un compte publicitaire](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) pour aucun des trois moteurs de recherche. Utilisez d’autres navigateurs web en remplacement.
 
 ## Autorisations Advertising Analytics {#section_FCC58EB635954A32990D4E67B52B4369}
 
