@@ -9,7 +9,7 @@ title: Variables dynamiques
 topic: Développeur et mise en œuvre
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ La capture de longues chaînes de données dans plusieurs variables, sans les tr
 
 Dans la demande d’image Adobe qui survient sur la page vue, si vous utilisez des variables dynamiques pour copier la valeur de [!UICONTROL Trafic personnalisé ] dans [!UICONTROL Conversion personnalisée ], `v1=D=c1`1=1 sera affiché. Si eVar1 a reçu une valeur qui figurait précédemment dans la demande, les serveurs d’Adobe copient dynamiquement la valeur de [!UICONTROL Trafic personnalisé 1] dans [!UICONTROL Conversion personnalisée 1] au cours du traitement des données. En conséquence, la valeur transmise initialement à l’aide de [!UICONTROL Trafic personnalisé 1] apparaît également dans les rapports [!UICONTROL Conversion personnalisée 1].
 
-Les variables dynamiques sont transmises en définissant une variable sur la valeur souhaitée et en définissant ensuite d’autres sur `D=[variable abbreviation]`. Pour consulter les abréviations pour chaque variable, voir la section [Paramètres de requête de la collecte de données](../../../implement/js-implementation/data-collection/query-parameters.md). Les variables dynamiques peuvent extraire des données des emplacements suivants :
+Les variables dynamiques sont transmises en définissant une variable sur la valeur souhaitée et en définissant ensuite d’autres sur `D=[variable abbreviation]`. Pour consulter les abréviations pour chaque variable, voir la section [Paramètres de requête de la collecte de données](/help/implement/js-implementation/data-collection/query-parameters.md). Les variables dynamiques peuvent extraire des données des emplacements suivants :
 
 * Autres variables de chaîne de requête
 * En-tête HTTP (à l’exception de l’en-tête HTTP Cookie)
