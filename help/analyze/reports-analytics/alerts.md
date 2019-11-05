@@ -8,7 +8,7 @@ title: Alertes
 topic: Reports & Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -103,17 +103,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertes avec un logement ASI comme la suite de rapports </p> </td> 
-   <td colname="col2"> <p>Vous ne pouvez plus <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html" format="https" scope="external">créer ni modifier de logements ASI</a> ; ils ne sont pas non plus disponibles dans Analysis Workspace. Ils ne sont donc pas pris en charge par les nouvelles alertes. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Vous ne pouvez plus <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >créer ni modifier de logements ASI</a> ; ils ne sont pas non plus disponibles dans Analysis Workspace. Ils ne sont donc pas pris en charge par les nouvelles alertes. </p> <p> </p> </td> 
    <td colname="col3"> <p>Indisponibles dans le nouveau Gestionnaire d’alertes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertes utilisant des mesures de participation </p> </td> 
-   <td colname="col2"> <p>  Les <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html" format="https" scope="external">mesures de participation</a> sont disponibles dans Reports &amp; Analytics, mais ne sont actuellement pas disponibles dans le nouveau système d’alertes d’Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p>  Les <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  >mesures de participation</a> sont disponibles dans Reports &amp; Analytics, mais ne sont actuellement pas disponibles dans le nouveau système d’alertes d’Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Indisponibles dans le nouveau Gestionnaire d’alertes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertes mensuelles pour les suites de rapports avec calendrier personnalisé </p> </td> 
-   <td colname="col2"> <p>Seuls les clients qui ont configuré des alertes pour les suites de rapports dont les <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html" format="https" scope="external">dates de début de mois sont personnalisées</a> (types NRF/National Retail Federation et Calendrier personnalisé) sont concernés. </p> <p>Les suites de rapports reposant sur un calendrier grégorien ou grégorien modifié ne sont pas concernées. Auparavant, ces alertes étaient envoyées le premier jour du mois grégorien (1er janvier, 1er février, etc.). Ceci ne fonctionnera plus avec la nouvelle fonction d’alertes de la détection des anomalies, qui prend en compte les données des mois précédents lors de la détection des anomalies. À l’avenir, nous comptons prendre en charge dans notre système de planification les calendriers personnalisés afin qu’il soit possible de planifier l’envoi des alertes et des projets planifiés le premier jour du mois du calendrier personnalisé, plutôt que simplement le premier jour du mois grégorien. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Seuls les clients qui ont configuré des alertes pour les suites de rapports dont les <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >dates de début de mois sont personnalisées</a> (types NRF/National Retail Federation et Calendrier personnalisé) sont concernés. </p> <p>Les suites de rapports reposant sur un calendrier grégorien ou grégorien modifié ne sont pas concernées. Auparavant, ces alertes étaient envoyées le premier jour du mois grégorien (1er janvier, 1er février, etc.). Ceci ne fonctionnera plus avec la nouvelle fonction d’alertes de la détection des anomalies, qui prend en compte les données des mois précédents lors de la détection des anomalies. À l’avenir, nous comptons prendre en charge dans notre système de planification les calendriers personnalisés afin qu’il soit possible de planifier l’envoi des alertes et des projets planifiés le premier jour du mois du calendrier personnalisé, plutôt que simplement le premier jour du mois grégorien. </p> <p> </p> </td> 
    <td colname="col3"> <p>Indisponible pour l’instant dans le nouveau Gestionnaire d’alertes. </p> </td> 
   </tr> 
   <tr> 
