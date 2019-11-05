@@ -5,7 +5,7 @@ seo-title: Dates et plages de dates
 title: Dates et plages de dates
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,8 +40,8 @@ c_legacy_data.xml
 
 **Pour accéder à des tranches de dates historiques**
 
-1. [Créez ou ouvrez un projet.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Ouvrez le [calendrier](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), puis sélectionnez **[!UICONTROL Trimestre]** ou **[!UICONTROL Année]**.
+1. [Créez ou ouvrez un projet.](/help/analyze/ad-hoc-analysis/c-getting-started.md)
+1. Ouvrez le [calendrier](/help/analyze/ad-hoc-analysis/c-dates.md), puis sélectionnez **[!UICONTROL Trimestre]** ou **[!UICONTROL Année]**.
 
 > [!NOTE] Les tranches de dates historiques se situent dans les limites des trimestres et des années. Vous ne pouvez pas afficher les données chevauchant la limite entre les tranches de dates héritées et la nouvelle plateforme de traitement. Ceci entraînerait une erreur. En outre, les périodes s’appliquent uniquement au calendrier grégorien, et non aux calendriers personnalisés.
 
