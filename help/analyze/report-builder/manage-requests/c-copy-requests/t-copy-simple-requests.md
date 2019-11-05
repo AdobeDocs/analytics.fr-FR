@@ -7,7 +7,7 @@ title: Copie de requêtes simples
 topic: Créateur de rapports
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Copiez une requête simple plutôt qu’une requête référentielle. Une requête simple ne contient aucune référence à une autre requête, ni au contenu d’une cellule.
 
-A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. Ces filtres appliquent la mise en correspondance ou les tendances et se fondent sur les résultats d’une requête antérieure ou sur le contenu d’une cellule saisi par l’utilisateur, appelé cellule d’entrée. 
+A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. Ces filtres appliquent la mise en correspondance ou les tendances et se fondent sur les résultats d’une requête antérieure ou sur le contenu d’une cellule saisi par l’utilisateur, appelé cellule d’entrée. 
 1. Créez une requête valide.
 1. Cliquez avec le bouton droit sur l’une des cellules où la requête est mise en correspondance ou sélectionnez une région de cellules contenant des requêtes.
 
