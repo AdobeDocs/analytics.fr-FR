@@ -7,7 +7,7 @@ title: Mesures
 topic: Reports & Analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,17 +16,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Les mesures sont la base des rapports ; elles vous aident à connaître et à comprendre les relations entre les données, et à comparer des ensembles de données relatives à votre site web. Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, les recettes, etc.
 
-## Mesures {#concept_EB00207C07BD4481AB116E62EC24E686}
+## Mesures
 
 Les mesures sont la base des rapports ; elles vous aident à connaître et à comprendre les relations entre les données, et à comparer des ensembles de données relatives à votre site web. Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, les recettes, etc.
 
 Les mesures et les données associées s’affichent dans les colonnes des rapports. Les mesures de trafic présentent des données sur le volume des visiteurs. Les mesures de conversion présentent les données sur le succès (achats, téléchargements ou toute autre action que les utilisateurs sont censés réaliser sur votre site web).
 
-[Les mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) sont créées en combinant des mesures.
+[Les mesures calculées](/help/components/c-calcmetrics/cm-overview.md) sont créées en combinant des mesures.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
+For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
 
-## Sélection des mesures de rapport par défaut {#task_9537A607288A4450AE07EC7C070B47C6}
+## Sélection des mesures de rapport par défaut
 
 Cette section décrit la procédure à suivre pour sélectionner les mesures par défaut au niveau du rapport.
 
