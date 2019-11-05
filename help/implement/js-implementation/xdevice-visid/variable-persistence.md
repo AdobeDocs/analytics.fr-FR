@@ -8,7 +8,7 @@ title: Attribution et persistance
 topic: Développeur et mise en œuvre
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ Lorsque des profils du visiteur sont fusionnés après avoir été associés à 
 * Si un profil existe, le profil du visiteur qui figure déjà dans le système est utilisé à partir de ce moment et le profil précédent est abandonné.
 * Si aucun identifiant visiteur correspondant n’est trouvé, un nouveau profil est créé.
 
-Lorsqu’un client non authentifié arrive pour la première fois sur votre site, Adobe Analytics lui affecte un profil du visiteur. Comme indiqué dans la rubrique [Comptabilisation des visiteurs uniques et des visites](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), un nouveau profil est créé lors de l’authentification. Lorsque le nouveau profil est créé, une visite se termine et une autre visite commence.
+Lorsqu’un client non authentifié arrive pour la première fois sur votre site, Adobe Analytics lui affecte un profil du visiteur. Comme indiqué dans la rubrique [Comptabilisation des visiteurs uniques et des visites](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC), un nouveau profil est créé lors de l’authentification. Lorsque le nouveau profil est créé, une visite se termine et une autre visite commence.
 
 **Lors de la première connexion de données**
 
@@ -58,7 +58,7 @@ Lorsque le client s’authentifie, son identifiant est mis en correspondance ave
 
 * Les données de géosegmentation sont enregistrées selon le premier accès de la visite. Elles ne changent pas pour une même visite, quel que soit le périphérique utilisé. Cela signifie que, lors d’une connexion de données suivante sur un nouveau périphérique, la géosegmentation n’est généralement pas incluse.
 * Les colonnes relatives aux technologies, par exemple, le navigateur, le système d’exploitation, l’intensité de couleur, sont enregistrées lors du premier accès d’une visite. Comme les valeurs de géosegmentation, elles ne sont pas copiées sur le profil associé.
-* Un canal marketing, Direct ou Interne par exemple, qui est généralement configuré pour ne pas remplacer un autre canal va remplacer d’autres canaux lors d’une connexion de données suivantes contenant une première authentification pour le périphérique en question, telle la première authentification présentée dans la rubrique [Comptabilisation des visiteurs uniques et des visites](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC).
+* Un canal marketing, Direct ou Interne par exemple, qui est généralement configuré pour ne pas remplacer un autre canal va remplacer d’autres canaux lors d’une connexion de données suivantes contenant une première authentification pour le périphérique en question, telle la première authentification présentée dans la rubrique [Comptabilisation des visiteurs uniques et des visites](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC).
 
 **Cas particulier**
 
