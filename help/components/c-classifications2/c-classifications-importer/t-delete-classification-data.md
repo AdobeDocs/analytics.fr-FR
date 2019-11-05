@@ -8,7 +8,7 @@ title: Suppression des données de classification
 topic: Outils d’administration
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ Description de la procédure de suppression des données de classification.
 
    Alternatively, use [!DNL ~deletekey~]. Cette commande traite la classification comme si elle ne s’était jamais produite pour la clé spécifiée. Elle supprime complètement la classification, ainsi que toute donnée de colonne, des tableaux de recherche.
 
-   **Avertissement**: Vous n'avez besoin que d'une colonne contenant [!DNL ~deletekey~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Cette commande supprime toutes les métadonnées de la ligne. Adobe interprète cela comme si la clé n’avait jamais été classée et l’affiche dans la catégorie [Aucun](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF).
+   **Avertissement**: Vous n'avez besoin que d'une colonne contenant [!DNL ~deletekey~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Cette commande supprime toutes les métadonnées de la ligne. Adobe interprète cela comme si la clé n’avait jamais été classée et l’affiche dans la catégorie [Aucun](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF).
 
 1. Enregistrez le fichier et téléchargez-le à l’aide de l’onglet [!UICONTROL Importer un fichier.]
 
