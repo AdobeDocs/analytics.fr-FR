@@ -5,7 +5,7 @@ seo-title: Aperçu de l’utilisation de l’appel au serveur
 title: Aperçu de l’utilisation de l’appel au serveur
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,8 +28,8 @@ Previously, while you could access monthly server call consumption data under  *
 
 ## Conditions préalables {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permissions** : Pour accéder au tableau de bord de l’utilisation de l’appel au serveur et au générateur/créateur d’alertes, vous devez être un administrateur Adobe Analytics.
-* **Permissions** : Les administrateurs peuvent également accorder l’accès à des non-administrateurs - la permission est appelée **[!UICONTROL Utilisation de l’appel au serveur]**. See [Server Call Usage Permission](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **** Autorisations : Pour accéder au tableau de bord d’utilisation des appels serveur et au Générateur/Gestionnaire d’alertes, vous devez être un administrateur Adobe Analytics.
+* **** Autorisations : Les administrateurs peuvent accorder l’accès aux non-administrateurs : l’autorisation s’appelle Utilisation **[!UICONTROL des appels]** serveur. See [Server Call Usage Permission](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Terminologie importante {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -53,13 +53,13 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Société de connexion </p> </td> 
-   <td colname="col2"> <p>Une société de facturation peut avoir <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html" format="html" scope="external">plusieurs sociétés de connexion </a>. Une connexion de société est une collecte de suites de rapports utilisée par votre organisation. Certaines organisations sont dotées de plusieurs sociétés de connexion qui s’appliquent à différentes parties de l’organisation. Ceci s’avère particulièrement utile pour les grandes entreprises qui traitent différentes unités opérationnelles qui gèrent des suites de rapports qui leur sont propres. </p> <p>Il s’agit souvent des filiales régionales d’une société. L’exemple suivant montre les sociétés de connexion et leurs suites de rapports associées : </p> 
+   <td colname="col2"> <p>Une société de facturation peut avoir <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html">plusieurs sociétés de connexion </a>. Une connexion de société est une collecte de suites de rapports utilisée par votre organisation. Certaines organisations sont dotées de plusieurs sociétés de connexion qui s’appliquent à différentes parties de l’organisation. Ceci s’avère particulièrement utile pour les grandes entreprises qui traitent différentes unités opérationnelles qui gèrent des suites de rapports qui leur sont propres. </p> <p>Il s’agit souvent des filiales régionales d’une société. L’exemple suivant montre les sociétés de connexion et leurs suites de rapports associées : </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide : RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us : RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in : RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de : RS4 </li> 
-    </ul> <p>Remarque : Les données de l’utilisation de l’appel au serveur pour <u>toutes</u> les suites de rapports d’une société de facturation sont visibles par tous les utilisateurs disposant d’une <a href="../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369" format="dita" scope="local">permission</a>. </p> </td> 
+    </ul> <p>Remarque : Les données de l’utilisation de l’appel au serveur pour <u>toutes</u> les suites de rapports d’une société de facturation sont visibles par tous les utilisateurs disposant d’une <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">permission</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organisation Experience Cloud </p> </td> 
