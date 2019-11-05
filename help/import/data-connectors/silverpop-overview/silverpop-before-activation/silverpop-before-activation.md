@@ -5,7 +5,7 @@ seo-title: Avant D’Activer Cette Intégration
 title: Avant D’Activer Cette Intégration
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ Cela permettra de s’assurer que les meilleures pratiques ou les conditions pr�
 Consultez les informations suivantes sur cette intégration des Connecteurs de données en ce qui concerne Adobe Analytics :
 
 * **** Spécifique à la suite de rapports : Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration.
-* **** Variables Analytics disponibles et configurées : Cette intégration requiert 5 événements personnalisés et 2 eVars personnalisées, et éventuellement 3 événements et 3 eVars supplémentaires. Voir Variables [d’intégration](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2)Analytics.
+* **** Variables Analytics disponibles et configurées : Cette intégration requiert 5 événements personnalisés et 2 eVars personnalisées, et éventuellement 3 événements et 3 eVars supplémentaires. Voir Variables [d’intégration](/help/import/data-connectors/silverpop-overview/silverpop-variables.md)Analytics.
 
 * **** Représentant autorisé : Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise ; et, à ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans l'accord de service décrit ci-dessus.
 * **** Data Warehouse™ :Cette intégration requiert l’activation de l’entrepôt de données pour générer des segments de remarketing. Si vous n’avez pas activé l’entrepôt de données, contactez Adobe pour plus de détails.
