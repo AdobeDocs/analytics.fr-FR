@@ -7,8 +7,8 @@ solution: Analytics
 title: Mise en œuvre sans instructions JavaScript
 topic: Développeur et mise en œuvre
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez examiner un échantillon de code afin de mieux comprendre l’implé
 
 **Respect de la casse**
 
-Les noms de paramètres (`pageName`, `purchaseID`, etc.) sont sensibles à la casse. Ils n’enregistrent correctement les données que s’ils apparaissent tels qu’ils sont désignés dans le tableau affiché dans la section [Paramètres de requête](../../../implement/js-implementation/data-collection/query-parameters.md).
+Les noms de paramètres (`pageName`, `purchaseID`, etc.) sont sensibles à la casse. Ils n’enregistrent correctement les données que s’ils apparaissent tels qu’ils sont désignés dans le tableau affiché dans la section [Paramètres de requête](/help/implement/js-implementation/data-collection/query-parameters.md).
 
 **Codage des paramètres de requête**
 
@@ -33,7 +33,7 @@ La version JavaScript de cette fonction est appelée Escape (pour le décodage, 
 
 **Longueur maximale de la variable**
 
-Une longueur maximale est associée à chaque variable. Celle-ci est spécifiée dans la section [Variables Analytics](../../../implement/js-implementation/c-variables/sc-variables.md). En cas de dépassement de cette longueur maximale, la valeur de la variable est tronquée en vue d’être stockée et affichée dans Analytics.
+Une longueur maximale est associée à chaque variable. Celle-ci est spécifiée dans la section [Variables Analytics](/help/implement/js-implementation/c-variables/sc-variables.md). En cas de dépassement de cette longueur maximale, la valeur de la variable est tronquée en vue d’être stockée et affichée dans Analytics.
 
 **Caractères non valides**
 
@@ -63,7 +63,7 @@ Le langage JavaScript standard d’Adobe offre une méthode dynamique de modific
 
 Cependant, cette organisation aléatoire ne se produit pas lors de la création d’une demande d’image côté serveur. Les rechargements de pages et les pages mises en cache (que ce soit dans la mémoire cache du navigateur ou dans un serveur proxy) ne sont pas comptabilisés lors de l’utilisation de telles demandes.
 
-Par définition, les pages SSL (`https:`) ne sont jamais mises en cache ; dès lors, cette mise en garde ne s’applique qu’aux pages non sécurisées (`http:`). Cette remarque concerne également les pages qui contiennent des paramètres (`https://www.samplesite.com/page.asp?parameter=1`) ou présentent certaines extensions de fichier (`.asp`, `.jsp`, etc.). 
+Par définition, les pages SSL (`https:`) ne sont jamais mises en cache ; dès lors, cette mise en garde ne s’applique qu’aux pages non sécurisées (`http:`). Cette remarque concerne également les pages qui contiennent des paramètres (`https://www.samplesite.com/page.asp?parameter=1`) ou présentent certaines extensions de fichier (`.asp`, `.jsp`, etc.). ne sont pas non plus mises en cache.
 
 Les exemples ci-dessous illustrent une solution JavaScript minimaliste qui assemble principalement la demande d’image côté serveur et, après coup, ajoute un nombre aléatoire dans le navigateur. Cette méthode permet de contourner la problématique de la mise en cache qui, autrement, se poserait sur des pages HTML statiques auxquelles l’utilisateur accède via le protocole https:.
 
