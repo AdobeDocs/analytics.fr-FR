@@ -7,7 +7,7 @@ title: Considérations sur les dates personnalisées
 topic: Créateur de rapports
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -51,4 +51,4 @@ jour de la semaine en cours commençant le dimanche 23 novembre moins sept jou
 
 jour de la semaine en cours commençant le dimanche 23 novembre moins un jour = samedi 22 novembre
 
-En Europe et dans d’autres pays du monde, la semaine commence le lundi et non le dimanche. Dans ce cas, vous pouvez personnaliser le calendrier afin de modifier la date de début. (Reportez-vous à la section [Calendrier personnalisé](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).)
+En Europe et dans d’autres pays du monde, la semaine commence le lundi et non le dimanche. Dans ce cas, vous pouvez personnaliser le calendrier afin de modifier la date de début. (Reportez-vous à la section [Calendrier personnalisé](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
