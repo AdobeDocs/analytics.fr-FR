@@ -9,7 +9,7 @@ title: Personnalisation de l’accès aux rapports - Aperçu
 topic: Outils d’administration
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -46,7 +46,7 @@ Vous pouvez par exemple créer un groupe ayant accès à plusieurs outils Analyt
   </tr> 
   <tr> 
    <td colname="col1"> <p>Groupes personnalisés </p> </td> 
-   <td colname="col2"> <p> Les groupes personnalisés remplacent les groupes prédéfinis. Les groupes prédéfinis existants seront migrés dans des groupes personnalisés du même nom. Tous les groupes personnalisés que vous avez créés seront préservés avec leurs paramètres. Toutefois, les paramètres ont été déplacés. Par exemple, les paramètres de la société (sous Personnaliser l’Admin Console) se trouvent maintenant sous <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Personnaliser les outils Analytics</a>. </p> <p> Les utilisateurs appartenant à <span class="term"> Tous les accès</span> aux rapports ont été migrés vers un groupe personnalisé avec accès à : </p> 
+   <td colname="col2"> <p> Les groupes personnalisés remplacent les groupes prédéfinis. Les groupes prédéfinis existants seront migrés dans des groupes personnalisés du même nom. Tous les groupes personnalisés que vous avez créés seront préservés avec leurs paramètres. Toutefois, les paramètres ont été déplacés. Par exemple, les paramètres de la société (sous Personnaliser l’Admin Console) se trouvent maintenant sous <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personnaliser les outils Analytics</a>. </p> <p> Les utilisateurs appartenant à <span class="term"> Tous les accès</span> aux rapports ont été migrés vers un groupe personnalisé avec accès à : </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">Toutes les dimensions </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">Toutes les mesures </li> 
@@ -62,12 +62,12 @@ Vous pouvez par exemple créer un groupe ayant accès à plusieurs outils Analyt
    <td colname="col2"> <p>Vous pouvez personnaliser les autorisations afin d’inclure ou d’exclure l’accès aux dimensions (outre les mesures). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Toutes les dimensions et les mesures actuelles des groupes personnalisés ont été automatiquement transférées dans les nouvelles catégories. Si un groupe comprend des mesures actives, il obtiendra par défaut toutes les dimensions (eVars et reconnaissance du contenu) et mesures nouvellement autorisables. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html" format="html" scope="external">variable</a> sur laquelle repose la classification. </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">variable</a> sur laquelle repose la classification. </li> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html" format="html" scope="external"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Recommandé uniquement pour les nouveaux clients ou les clients dont les entreprises sont <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external">configurées dans Experience Cloud</a>. Pour les clients <span class="keyword">Analytics</span> actuels, une migration est prévue vers le système de gestion des identités d’<span class="keyword">Experience Cloud</span>. </p> <p>Pour plus d’informations, reportez-vous à la section Migration des utilisateurs <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/" format="html" scope="external"> Analytics vers la console</a>d’administration. </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>Recommandé uniquement pour les nouveaux clients ou les clients dont les entreprises sont <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">configurées dans Experience Cloud</a>. Pour les clients <span class="keyword">Analytics</span> actuels, une migration est prévue vers le système de gestion des identités d’<span class="keyword">Experience Cloud</span>. </p> <p>Pour plus d’informations, reportez-vous à la section Migration des utilisateurs <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> Analytics vers la console</a>d’administration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reconnaissance du contenu </p> </td> 
