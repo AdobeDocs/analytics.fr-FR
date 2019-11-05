@@ -8,7 +8,7 @@ title: Identification des appareils mobiles
 topic: Développeur et mise en œuvre
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 La plupart des périphériques mobiles acceptent les cookies des navigateurs. Néanmoins, dans les cas où les périphériques n’acceptent pas les cookies, une autre méthode est utilisée pour identifier de manière unique les périphériques sans fil.
 
-Adobe a identifié un certain nombre d’[en-têtes d’identifiant abonné](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) HTTP qui identifient, de façon unique, la majorité des périphériques mobiles. Ces en-têtes comprennent souvent le numéro de téléphone du périphérique (ou une version hachée du numéro) ou d’autres identifiants. La majorité des périphériques actuels possèdent un ou plusieurs en-têtes qui les identifient de façon unique. Tous les serveurs de collecte de données Adobe utilisent automatiquement ces en-têtes au lieu d’un identifiant visiteur.
+Adobe a identifié un certain nombre d’[en-têtes d’identifiant abonné](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) HTTP qui identifient, de façon unique, la majorité des périphériques mobiles. Ces en-têtes comprennent souvent le numéro de téléphone du périphérique (ou une version hachée du numéro) ou d’autres identifiants. La majorité des périphériques actuels possèdent un ou plusieurs en-têtes qui les identifient de façon unique. Tous les serveurs de collecte de données Adobe utilisent automatiquement ces en-têtes au lieu d’un identifiant visiteur.
 
 Dans une demande d’image habituelle, un « 1 » figurant dans le chemin (`/b/ss/rsid/1`) donne l’ordre aux serveurs Adobe de retourner une image gif et de tenter de définir un cookie d’[!UICONTROL identifiant visiteur] persistant (`AMCV_` ou `s_vi`). Néanmoins, si le périphérique est reconnu en tant que périphérique mobile sur la base des en-têtes HTTP, un « 5 » est transmis à la place du « 1 », ce qui indique qu’une image au format wbmp doit être retournée et que notre liste d’en-têtes sans fil reconnus (pas un cookie) doit être utilisée pour identifier le périphérique.
 
@@ -88,4 +88,4 @@ La liste ci-dessous d’en-têtes est utilisée pour identifier les périphériq
 
 Par exemple, « callinglineid » correspond à « X-Up-Calling-Line-ID » et « nokia-callinglineid ». Le type d’en-tête indique ce qu’il doit contenir. L’ordre de priorité des en-têtes est répertorié ici (si un en-tête « callinglineid » est présent, il est utilisé à la place de « subno »).
 
-Vous pouvez utiliser [les variables dynamiques](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262) pour extraire des valeurs spécifiques d’un en-tête.
+Vous pouvez utiliser [les variables dynamiques](/help/implement/js-implementation/c-variables/dynvars-overview.md) pour extraire des valeurs spécifiques d’un en-tête.
