@@ -8,7 +8,7 @@ title: Fonctionnement des règles de traitement
 topic: Outils d’administration
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Les règles s’appliquent à une seule suite de rapports. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Copier des règles de traitement dans une autre suite de rapports </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> Copier des règles de traitement dans une autre suite de rapports </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées dans l’ordre indiqué. </p> </td> 
@@ -41,15 +41,15 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées immédiatement à la suite de rapports dès qu’elles sont enregistrées. </p> </td> 
-   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous recommandons de configurer le <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous recommandons de configurer le <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement constituent la seule méthode d’accès aux variables de données contextuelles. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copier une variable Données contextuelles dans une eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copier une variable Données contextuelles dans une eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées avant les règles VISTA et les règles Canal marketing. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Ordre de traitement </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Ordre de traitement </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Il est impossible d’exclure les accès. </p> </td> 
@@ -81,7 +81,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les comparaisons de valeurs dans l’interface utilisateur ne sont pas sensibles à la casse. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Nettoyer les valeurs d’un rapport </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Nettoyer les valeurs d’un rapport </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les noms de variable de données contextuelles peuvent comporter uniquement des caractères alphanumériques, des traits de soulignement et des points. Tout caractère supplémentaire est supprimé. </p> </td> 
