@@ -5,7 +5,7 @@ seo-title: Générateur de tableau
 title: Générateur de tableau
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -44,7 +44,7 @@ Le [!UICONTROL Générateur de tableau] n’est pas disponible pour certains rap
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifier les éléments</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Sélectionnez une liste de dimensions pour créer une liste fixe pour les ventilations. Lorsque vous ajoutez des éléments à cette liste, ils deviennent persistants dans un rapport enregistré et ne seront pas réduits lorsque vous ouvrez un rapport enregistré ou planifié. </p> <p>Pour plus d’informations, voir <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> Ventilation des données tabulaires</a>. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Sélectionnez une liste de dimensions pour créer une liste fixe pour les ventilations. Lorsque vous ajoutez des éléments à cette liste, ils deviennent persistants dans un rapport enregistré et ne seront pas réduits lorsque vous ouvrez un rapport enregistré ou planifié. </p> <p>Pour plus d’informations, voir <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > Ventilation des données tabulaires</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Colonnes</span> </td> 
