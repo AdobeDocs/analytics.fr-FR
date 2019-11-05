@@ -9,7 +9,7 @@ title: Util.getQueryParam
 topic: Développeur et mise en œuvre
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Renvoie la valeur d'un paramètre de chaîne de requête spécifié si elle se t
 
 Des données importantes (codes de suivi de campagne, mots-clés de recherche interne, etc.) sont disponibles dans la chaîne de requête d’une page. Aussi, getQueryParam vous aide-t-il à les capturer dans des variables Analytics.
 
-Cet utilitaire remplace le module externe [getQueryParam](../../implement/js-implementation/plugins/getqueryparam.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF).
+Cet utilitaire remplace le module externe [getQueryParam](/help/implement/js-implementation/plugins/getqueryparam.md).
 
 **Syntaxe :**
 
