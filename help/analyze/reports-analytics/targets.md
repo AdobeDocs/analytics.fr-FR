@@ -7,7 +7,7 @@ title: Cibles
 topic: Reports & Analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,12 +77,12 @@ t_add_a_target.xml
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. Sur la page [!UICONTROL Gestionnaire des cibles]**, cliquez sur[!UICONTROL Ajouter nouveau]**.
-1. Configurez les options décrites dans la section [Description des champs de cible](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Configurez les options décrites dans la section [Description des champs de cible](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Cliquez sur **[!UICONTROL OK]**.
 
 ## Modification d’une cible {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. Dans la colonne **Gérer**, cliquez sur l’icône **[!UICONTROL Modifier.]**
-1. Configurez les options décrites dans la section [Description des champs de cible](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
+1. Configurez les options décrites dans la section [Description des champs de cible](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Cliquez sur **[!UICONTROL OK]**.
