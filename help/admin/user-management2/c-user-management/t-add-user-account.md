@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Utilisateurs et groupes
 title: Ajout d’un compte d’utilisateur
 topic: Outils d’administration
-uuid: 7 ce 9408 b-d 934-40 df-ada 4-55 d 98 e 36 aa 6 e
+uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -21,6 +21,6 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 Description de la procédure d’ajout d’un compte d’utilisateur.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Gestion utilisateur]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Gestion **[!UICONTROL utilisateur]**.
 1. Cliquez sur **[!UICONTROL Ajouter un nouvel utilisateur]**.
-1. Renseignez les champs indiqués dans la section [Description du compte d’utilisateur](../../../admin/user-management2/c-user-management/users.md#section_14A7E169514A42A88E06387CC7C2E9AD).
+1. Renseignez les champs indiqués dans la section [Description du compte d’utilisateur](/help/admin/user-management2/c-user-management/users.md#section_14A7E169514A42A88E06387CC7C2E9AD).
