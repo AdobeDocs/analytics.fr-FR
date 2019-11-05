@@ -5,7 +5,7 @@ seo-title: Rapports sur les périphériques mobiles
 title: Rapports sur les périphériques mobiles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -91,7 +91,7 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> Rapport Version Java </td> 
-   <td colname="col2"> <p>Groupe les périphériques mobiles en fonction de la version Java prise en charge. Le rapport Version Java identifie la version à l’aide de la JSR (Java Specification Request, Demande de spécification Java) prise en charge par le périphérique. Le rapport inclut également un groupe Inconnu pour les systèmes d’exploitation mobiles non identifiés. </p> <p>Pour plus d’informations sur une JSR donnée, consultez le site web de la <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">communauté Java</a>. </p> </td> 
+   <td colname="col2"> <p>Groupe les périphériques mobiles en fonction de la version Java prise en charge. Le rapport Version Java identifie la version à l’aide de la JSR (Java Specification Request, Demande de spécification Java) prise en charge par le périphérique. Le rapport inclut également un groupe Inconnu pour les systèmes d’exploitation mobiles non identifiés. </p> <p>Pour plus d’informations sur une JSR donnée, consultez le site web de la <a href="https://jcp.org/en/jsr/overview"  >communauté Java</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Rapport Longueur de l’URL en signet </td> 
