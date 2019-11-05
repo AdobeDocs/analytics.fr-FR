@@ -6,8 +6,8 @@ seo-title: Création de conditions pour les règles d’appel direct
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création de conditions pour les règles d’appel direct
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -22,5 +22,5 @@ Création de conditions pour les règles d’appel direct.
 
    >[!NOTE]
    >
-   >Si vous indiquez la chaîne qui sera transmise à `_satellite.track()` dans l’appel direct à l’aide de l’interface utilisateur, comme cela a été décrit plus haut, n’utilisez pas de guillemets. Si vous insérez du [code de page personnalisé](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) à l’aide de l’éditeur, vous devez utiliser des guillemets.
+   >Si vous indiquez la chaîne qui sera transmise à `_satellite.track()` dans l’appel direct à l’aide de l’interface utilisateur, comme cela a été décrit plus haut, n’utilisez pas de guillemets. Si vous insérez du [code de page personnalisé](/help/implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md) à l’aide de l’éditeur, vous devez utiliser des guillemets.
 
