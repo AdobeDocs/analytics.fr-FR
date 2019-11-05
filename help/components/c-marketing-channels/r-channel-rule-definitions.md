@@ -8,7 +8,7 @@ title: Règles de traitement des canaux marketing - Définitions
 topic: Reports & Analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -43,7 +43,7 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de conversion </p> </td> 
-   <td colname="col2"> <p>Comprend des variables eVar activées pour cette suite de rapports et ne s’applique que lorsque ces variables sont définies au moyen du code Adobe sur la page. </p> <p>Consultez le <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf" scope="external" format="html">Guide d’implémentation </a>. </p> </td> 
+   <td colname="col2"> <p>Comprend des variables eVar activées pour cette suite de rapports et ne s’applique que lorsque ces variables sont définies au moyen du code Adobe sur la page. </p> <p>Consultez le <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf"  >Guide d’implémentation </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Existe </p> </td> 
@@ -56,7 +56,7 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identifier le canal comme </p> </td> 
-   <td colname="col2"> <p>Associe la règle à un canal marketing ajouté à la page <span class="wintitle">Gestionnaire de canaux marketing</span>. </p> <p>See <a href="../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03" type="task" format="dita" scope="local"> Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p>Associe la règle à un canal marketing ajouté à la page <span class="wintitle">Gestionnaire de canaux marketing</span>. </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fait correspondre les règles de détection des recherches payées </p> </td> 
@@ -72,7 +72,7 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le référent ne correspond pas aux filtres d’URL internes </p> </td> 
-   <td colname="col2"> <p>L’URL référente ne correspond pas à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. Vous pouvez utiliser ce paramètre avec <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>L’URL référente ne correspond pas à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. Vous pouvez utiliser ce paramètre avec <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ignorer les visites correspondant aux filtres URL internes </p> </td> 
@@ -147,6 +147,3 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
   </tr> 
  </tbody> 
 </table>
-
-
-
