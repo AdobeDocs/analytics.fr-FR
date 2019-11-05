@@ -7,7 +7,7 @@ title: File d’attente des rapports planifiés
 topic: Rapports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,10 +20,10 @@ Permet aux utilisateurs de niveau administrateur d’afficher et de gérer des r
 
 Les fonctionnalités de niveau administrateur dans le gestionnaire de rapports programmés incluent :
 
-* L’option [Afficher tous les rapports planifiés](../../admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) de votre organisation.
-* Des [fonctionnalités de filtrage avancées](../../admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) à l’échelle de votre organisation.
-* Le nouvel onglet [File d’attente des rapports](../../admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) qui répertorie tous les rapports mis en file d’attente pour exécution sur les serveurs de création de rapports.
-* Fourniture de l’[ID de planification](../../admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) dans l’interface de file d’attente des rapports.
+* L’option [Afficher tous les rapports planifiés](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) de votre organisation.
+* Des [fonctionnalités de filtrage avancées](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) à l’échelle de votre organisation.
+* Le nouvel onglet [File d’attente des rapports](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) qui répertorie tous les rapports mis en file d’attente pour exécution sur les serveurs de création de rapports.
+* Fourniture de l’[ID de planification](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) dans l’interface de file d’attente des rapports.
 
 ## Affichage de tous les rapports planifiés {#section_3F167CAAEEC24140B476CF95B7402690}
 
