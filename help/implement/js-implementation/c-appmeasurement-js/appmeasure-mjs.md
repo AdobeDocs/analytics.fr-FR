@@ -9,7 +9,7 @@ title: AppMeasurement pour JavaScript
 topic: Développeur et mise en œuvre
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 La liste suivante contient les modifications que vous devez connaître avant de passer à cette nouvelle version d’[!DNL AppMeasurement] :
 
-* Certains modules externes ne sont plus pris en charge. Reportez-vous à la section [Prise en charge des modules externes dans AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+* Certains modules externes ne sont plus pris en charge. Reportez-vous à la section [Prise en charge des modules externes dans AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 * La bibliothèque ne prend pas en charge la sélection de comptes dynamique ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md), [dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md) et [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md)).
 
 * La bibliothèque et le code de page peuvent être déployés dans la balise `<head>`.
@@ -32,7 +32,7 @@ La liste suivante contient les modifications que vous devez connaître avant de 
 
 ## Questions fréquentes {#section_9BD41B08F7B54197B230937714B9357A}
 
-Reportez-vous à la section [Questions fréquentes](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3) pour en savoir plus sur les performances, le suivi vidéo, les services mobiles, etc.
+Reportez-vous à la section [Questions fréquentes](/help/implement/faq.md) pour en savoir plus sur les performances, le suivi vidéo, les services mobiles, etc.
 
 ## Processus d’initialisation {#section_F6D5680F6D134B6AB1F01C6235860635}
 
@@ -47,15 +47,15 @@ Si `s_gi` est appelé, si une instance [!DNL AppMeasurement] n’existe pas pour
 
 ## Récupération d’une instance AppMeasurement {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
 
-Dans votre code, appelez la fonction [globale s_gi()](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD) pour récupérer une instance [!DNL AppMeasurement] existante.
+Dans votre code, appelez la fonction [globale s_gi()](/help/implement/js-implementation/function-s-gi.md) pour récupérer une instance [!DNL AppMeasurement] existante.
 
 ## Utilitaires {#section_0F47694DD0214645A24C94AB6A4142A0}
 
 JavaScript [!DNL AppMeasurement] fournit les utilitaires intégrés suivants :
 
-* [Util.cookieRead](../../../implement/js-implementation/util-cookieread.md#concept_33BD774A90504F2C8094DDC16D47440D)
-* [Util.cookieWrite](../../../implement/js-implementation/util-cookiewrite.md#concept_9BE4F7D9CDAE4445B9AF3212BC7E61F2)
-* [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)
+* [Util.cookieRead](/help/implement/js-implementation/util-cookieread.md)
+* [Util.cookieWrite](/help/implement/js-implementation/util-cookiewrite.md)
+* [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md)
 
 ## Effacement des variables {#section_597C411E7EDB42BC9A6A0508C9D57147}
 
