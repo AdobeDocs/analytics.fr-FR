@@ -5,7 +5,7 @@ seo-title: Création d’une mesure simple « Pages vues par visite »
 title: Création d’une mesure simple « Pages vues par visite »
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Indique comment créer une mesure simple « Pages vues par visite ».
 
-Pour une description détaillée des composants de l’interface utilisateur, voir [Création de mesures](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18).
+Pour une description détaillée des composants de l’interface utilisateur, voir [Création de mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 Voici comment créer une mesure simple « Pages vues par visite ».
 
@@ -31,5 +31,5 @@ Voici comment créer une mesure simple « Pages vues par visite ».
 1. La compatibilité des produits indique si la mesure est compatible avec les [données actives](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) ou uniquement avec les données entièrement traitées.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Notez que la formule **[!UICONTROL Résumé]se met à jour chaque fois que vous apportez une modification à la définition de mesure.**
-1. Vous êtes désormais automatiquement dirigé vers le Gestionnaire [de mesures](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)calculées, qui est similaire au Gestionnaire de segments. Il permet de partager, approuver, (re)-baliser, renommer ou supprimer des mesures.
+1. Vous êtes désormais automatiquement dirigé vers le Gestionnaire [de mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)calculées, qui est similaire au Gestionnaire de segments. Il permet de partager, approuver, (re)-baliser, renommer ou supprimer des mesures.
 
