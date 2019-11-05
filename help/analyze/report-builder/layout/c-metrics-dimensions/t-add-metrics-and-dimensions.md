@@ -7,7 +7,7 @@ title: Ajout de mesures et de dimensions
 topic: Créateur de rapports
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Procédure d’ajout de mesures et de dimensions à une requête.
 
-1. [Créez la requête de données](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) dans le formulaire [!UICONTROL Assistant Requête : Étape 1], puis cliquez sur **[!UICONTROL Suivant]**.
+1. [Créez la requête de données](/help/analyze/report-builder/data-requests/data-requests.md) dans le formulaire [!UICONTROL Assistant Requête : Étape 1], puis cliquez sur **[!UICONTROL Suivant]**.
 1. Dans le formulaire [!UICONTROL Assistant Requête : Étape 2], double-cliquez sur les mesures ou faites-les glisser vers l’emplacement de votre choix.
 
    ![Infos étape](assets/adding_metrics.png)
@@ -64,7 +64,7 @@ La dimension [!UICONTROL Date] est ajoutée automatiquement. Les dimensions de d
     * Année
     * Période (lorsqu’aucune granularité n’est spécifiée)
 
-1. Modifiez les mesures et les dimensions en configurant les options [de](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) format et les filtres.
+1. Modifiez les mesures et les dimensions en configurant les options [de](/help/analyze/report-builder/layout/t-format-display-headers.md) format et les filtres.
 1. Cliquez sur **[!UICONTROL Terminer]**.
 Dans l’exemple suivant, des dimensions sont en relation avec la mesure [!UICONTROL Page]. Dans le cas présent, la dimension [!UICONTROL Domaine référent] crée un rapport de ventilation entre celui-ci et [!UICONTROL Page]. L’onglet [!UICONTROL Dimension] est mis à jour avec les seules dimensions que vous pouvez ajouter à un rapport de ventilation.
 
