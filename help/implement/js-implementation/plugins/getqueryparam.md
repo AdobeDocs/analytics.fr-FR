@@ -9,7 +9,7 @@ title: getQueryParam
 topic: Développeur et mise en œuvre
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Renvoie la valeur du paramètre de chaîne de requête spécifié, s’il figure
 
 >[!IMPORTANT]
 >
->Ce module externe est utilisé par le code H uniquement. [AppMeasurement pour JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) fournit cette fonctionnalité de manière native en utilisant [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Ce module externe est utilisé par le code H uniquement. [AppMeasurement pour JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) fournit cette fonctionnalité de manière native en utilisant [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md).
 
 Une fois l’installation effectuée dans votre code [!DNL AppMeasurement] pour JavaScript, le module externe est configuré en sélectionnant une variable [!DNL Analytics] à renseigner à l’aide des données figurant dans la chaîne de requête et en indiquant les valeurs de chaîne de requête à capturer. Le module externe détecte la chaîne de requête spécifiée, le cas échéant, et renseigne sa valeur dans la variable choisie. Si aucun paramètre de chaîne de requête n’est détecté avec cette valeur, une chaîne vide est renvoyée. S’il existe un paramètre de chaîne de requête dépourvu de valeur (comme, param1 dans `?param1&param2=value`), le mot *`true`* est renvoyé.
 
