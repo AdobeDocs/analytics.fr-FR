@@ -8,7 +8,7 @@ title: AppMeasurement pour JavaScript
 topic: Développeur et mise en œuvre
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -349,11 +349,11 @@ Date de publication : **21 mai 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extension iOS</span> </p> </td> 
-   <td colname="col2"> <p> Depuis le SDK <span class="keyword"> iOS </span> version 4.5, une nouvelle extension <span class="keyword"> iOS</span> permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension <span class="keyword"> iOS </span>. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">Mise en œuvre de l’extension iOS </a>. </p> </td> 
+   <td colname="col2"> <p> Depuis le SDK <span class="keyword"> iOS </span> version 4.5, une nouvelle extension <span class="keyword"> iOS</span> permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension <span class="keyword"> iOS </span>. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html">Mise en œuvre de l’extension iOS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extension Android Wearable</span> </p> </td> 
-   <td colname="col2"> <p> À compter de la version 4.5 du SDK <span class="keyword"> Android </span>, une nouvelle extension <span class="keyword"> Android </span> permet de collecter des données à partir de l’application <span class="keyword"> Android </span> Wearable. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Extension Android Wearable </a>. </p> </td> 
+   <td colname="col2"> <p> À compter de la version 4.5 du SDK <span class="keyword"> Android </span>, une nouvelle extension <span class="keyword"> Android </span> permet de collecter des données à partir de l’application <span class="keyword"> Android </span> Wearable. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html">Extension Android Wearable </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
