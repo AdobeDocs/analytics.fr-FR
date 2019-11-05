@@ -8,16 +8,12 @@ title: Mesures utilisées dans les rapports sur les canaux marketing
 topic: Reports & Analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # Mesures utilisées dans les rapports sur les canaux marketing
-
-Utilisation des mesures dans les rapports Canal marketing.
-
-## Mesures utilisées dans les rapports sur les canaux marketing {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 Utilisation des mesures dans les rapports Canal marketing.
 
@@ -29,11 +25,11 @@ Ajouter (ou modifier) des mesures.
 
 Ajouter une colonne au rapport.
 
-## Mesures Première touche et Dernière touche {#concept_68D9A50204304BA58C1F8013451E7853}
+## Mesures Première touche et Dernière touche {#first-and-last-touch}
 
 Première touche et Dernière touche sont des attributs de canal qui vous permettent de déterminer le nombre de nouveaux engagements (ou données de mesure telles que consultations de produits, recettes et commandes) résultant de l’activité d’un visiteur dans le canal.
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). Il note le premier canal emprunté par l’utilisateur, ainsi que le canal le plus récent. Il crédite ensuite l’événement de succès à chaque canal adéquat.
+When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). Il note le premier canal emprunté par l’utilisateur, ainsi que le canal le plus récent. Il crédite ensuite l’événement de succès à chaque canal adéquat.
 
 <!-- 
 
@@ -65,7 +61,7 @@ Chaque instance d’événement de succès comporte exactement un canal Premièr
 
 > [!NOTE] Ce rapport utilise la version Première touche ou Dernière touche de chaque mesure. Il est donc possible que les données affichées dans un rapport [!UICONTROL Canal marketing] ne correspondent pas à celles présentées dans d’autres rapports.
 
-## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
+## Metric definitions {#metric-defs}
 
 | Mesure | Définition |
 |--- |--- |
@@ -73,7 +69,7 @@ Chaque instance d’événement de succès comporte exactement un canal Premièr
 | Visiteur Première touche | Dans le cadre de la création de rapports de canal, un visiteur Première touche est un visiteur unique quotidien en provenance d’un canal. L’engagement du visiteur est stocké pendant la période d’engagement auprès du site, laquelle peut s’étendre sur plusieurs visites. |
 | Canal Dernière touche | Canal de conversion, à savoir le dernier canal marketing à engager le visiteur et à déboucher sur une conversion. Un seul canal est défini comme canal Première touche. Le canal Dernière touche peut changer avec chaque visite de retour sur le site. Chaque visite comporte un canal Première touche et Dernière touche. Cependant, la valeur du canal Première touche n’est pas affectée par les visites suivantes. |
 
-## Clic publicitaire {#reference_55E2254F02EF4E7EB0AD2838C948347A}
+## Clic publicitaire {#click-through}
 
 Un clic publicitaire est une instance sur le canal Dernière touche. Il s’agit de la variable eVar présentant l’allocation la plus récente.
 
@@ -89,7 +85,7 @@ Supposons, par exemple, qu’un visiteur vienne sur votre site Web une fois par 
 
 Le rapport Canal Première touche montre 1 nouvel engagement pour Recherche payante. Les autres canaux afficheront 0 nouvel engagement. Le rapport Canal Dernière touche affichera 2 clics publicitaires pour Recherche payante, 3 pour Afficher et 2 pour Recherche naturelle.
 
-## Ajout de mesures à un rapport Canal marketing {#task_D381139E00504666AB2402D553CFEA5B}
+## Ajout de mesures à un rapport Canal marketing {#add-metrics-to-mktg-channel-rpt}
 
 Ajoutez des mesures à un rapport Canal marketing. Vous pouvez ajouter jusqu’à quatre mesures à chaque colonne du rapport, et autant de colonnes que vous le souhaitez.
 
