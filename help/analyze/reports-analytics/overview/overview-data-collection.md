@@ -8,12 +8,12 @@ title: Collecte de données
 topic: Reports & Analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Collecte de données{#about-data-collection}
+# Collecte de données
 
 En savoir plus sur la méthode de collecte des données pour Adobe Analytics.
 
@@ -29,4 +29,4 @@ A un haut niveau, le processus de collecte de données s’effectue comme suit 
 
 La collecte de données est très rapide et n’affecte pas de manière notable la durée de chargement d’une page. Les données collectées comprennent les pages vues qui résultent du fait d’avoir cliqué sur les boutons **Actualiser** ou **Précédent** du navigateur. Le code JavaScript s’exécute même si la page est récupérée à partir de la mémoire cache.
 
-See [Data Collection in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
+See [Data Collection in Analytics.](/help/import/home.md)
