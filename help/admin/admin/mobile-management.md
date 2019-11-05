@@ -7,7 +7,7 @@ title: Gestion mobile
 topic: Outils d’administration
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -50,7 +50,7 @@ L’activation du suivi de l’emplacement permet :
 
 L’activation des accès en arrière-plan (accès générés lorsque l’application est en arrière-plan) signifie qu’ils ont été traités comme des accès de premier plan. Ils s’affichent maintenant dans les rapports normaux, ce qui impacte également l’affectation. Cette configuration est généralement souhaitable uniquement pour maintenir la cohérence avec les implémentations héritées.
 
-Instead, we recommend that you "include background hits" in a [virtual report suite](../../components/vrs/vrs-about.md). Vous pouvez ainsi afficher les accès mais ils n’affecteront pas défavorablement le nombre de visites et de visiteurs.
+Instead, we recommend that you "include background hits" in a [virtual report suite](/help/components/vrs/vrs-about.md). Vous pouvez ainsi afficher les accès mais ils n’affecteront pas défavorablement le nombre de visites et de visiteurs.
 Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 Les classifications permettent de classer des valeurs dans des groupes et de générer des rapports au niveau du groupe. Par exemple, vous pouvez classifier toutes les campagnes de recherches payantes dans une catégorie « termes de pop music » et générer des rapports sur le succès de cette catégorie par rapport à des mesures de type Instances (ou Clics publicitaires), ainsi qu’à la conversion en événements de succès.
