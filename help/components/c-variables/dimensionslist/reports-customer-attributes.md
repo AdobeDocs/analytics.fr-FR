@@ -6,7 +6,7 @@ solution: Experience Cloud,Analytics
 title: Attributs du client
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,8 +19,8 @@ Questions fréquentes liées à Analytics portant sur les attributs du client et
 
 Si vous capturez les données clients d’entreprise dans une base de données de gestion de la relation client, vous pouvez les transférer dans une source de données d’attributs du client dans Experience Cloud. Vous pouvez ensuite exécuter le rapport Attributs du client dans les Reports &amp; Analytics.
 
-* [Attributs du client et mesures de création de rapports dans Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
-* [Questions fréquentes – Attributs du client dans Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
+* [Attributs du client et mesures de création de rapports dans Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
+* [Questions fréquentes – Attributs du client dans Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
 Voir [Attributs du client](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) dans l’aide d’Experience Cloud pour en savoir plus sur le transfert des données d’attributs du client.
 
