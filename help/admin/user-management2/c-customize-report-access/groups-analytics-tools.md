@@ -9,7 +9,7 @@ title: Personnalisation des autorisations liées aux outils Analytics
 topic: Outils d’administration
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -39,23 +39,23 @@ Les paramètres sur cette page se rapportent aux suites de rapports sélectionn�
 | Élément | Description |
 |--- |--- |
 | **Général** |  |
-| [Gestionnaire de code](../../../admin/admin/code-manager-admin.md) | Permet d’autoriser le téléchargement du code de collecte de données pour les plateformes web et mobiles. |
+| [Gestionnaire de code](/help/admin/admin/code-manager-admin.md) | Permet d’autoriser le téléchargement du code de collecte de données pour les plateformes web et mobiles. |
 | Code Manager – Web Services | Permet à un utilisateur non-administrateur d’accéder au gestionnaire de code par l’intermédiaire des services web. |
-| [Journaux](../../../admin/admin/logs.md) | Permet d’accéder aux fichiers journaux, grâce auxquels il est possible de savoir quand se connectent les utilisateurs, leur utilisation, l’accès, les suites de rapports et les changements administratifs. |
+| [Journaux](/help/admin/admin/logs.md) | Permet d’accéder aux fichiers journaux, grâce auxquels il est possible de savoir quand se connectent les utilisateurs, leur utilisation, l’accès, les suites de rapports et les changements administratifs. |
 | Logs – Web Services | Permet à un utilisateur non-administrateur d’accéder aux fichiers journaux des outils d’administration par l’intermédiaire des services web. |
-| [Gestion du trafic](../../../admin/c-traffic-management/traffic-management.md) | Sur la page Gestion du trafic, vous pouvez spécifier les changements prévus en termes de volume de trafic. |
+| [Gestion du trafic](/help/admin/c-traffic-management/traffic-management.md) | Sur la page Gestion du trafic, vous pouvez spécifier les changements prévus en termes de volume de trafic. |
 | Gestion des autorisations | Donne aux utilisateurs non-administrateurs l’accès aux pages de gestion des utilisateurs dans les outils d’administration. Ces utilisateurs ont des autorisations en lecture, mais pas en écriture. |
 | Permissions (Write) – Web Services | Accorde aux utilisateurs non administrateurs des paramètres d’autorisation de lecture et d’écriture dans l’option Gestion utilisateur des services web.<br>Ce paramètre fait spécifiquement référence aux actions d’autorisations indiquées dans l’API Admin. |
 | Persmissions (Read) – Web Services | Permet à un utilisateur non-administrateur d’afficher les paramètres d’autorisation sous Gestion des utilisateurs dans les services web.<br>Ce paramètre fait spécifiquement référence aux actions d’autorisations indiquées dans l’API Admin. |
 | **Gestion des entreprises** |  |
-| [Sécurité](../../../admin/company/security-manager.md) | Donne accès à la page Gestionnaire de sécurité d’où vous pouvez contrôler l’accès aux données de création de rapports. Les options incluent les mots de passe difficiles à deviner, l’expiration du mot de passe, ainsi que les restrictions d’adresses IP et de domaines de courriel. |
+| [Sécurité](/help/admin/company/security-manager.md) | Donne accès à la page Gestionnaire de sécurité d’où vous pouvez contrôler l’accès aux données de création de rapports. Les options incluent les mots de passe difficiles à deviner, l’expiration du mot de passe, ainsi que les restrictions d’adresses IP et de domaines de courriel. |
 | Informations sur l’assistance | Permet d’autoriser l’accès aux Informations sur l’assistance dans les Paramètres de la société. |
-| [Services web](../../../admin/company/web-services-admin.md) | Autorise l’accès à la page Services web dans l’interface Outils d’administration ([!UICONTROL Paramètres de la société] &gt; [!UICONTROL Services web]).<br>L’API Services web fournit un accès par programmation aux services Adobe Analytics grâce auxquels vous pouvez dupliquer et amplifier les fonctionnalités disponibles dans l’interface utilisateur. |
+| [Services web](/help/admin/company/web-services-admin.md) | Autorise l’accès à la page Services web dans l’interface Outils d’administration ([!UICONTROL Paramètres de la société] &gt; [!UICONTROL Services web]).<br>L’API Services web fournit un accès par programmation aux services Adobe Analytics grâce auxquels vous pouvez dupliquer et amplifier les fonctionnalités disponibles dans l’interface utilisateur. |
 | Connexion unique (héritée) | Permet d’octroyer l’accès à la page d’authentification unique dans les outils d’administration.<br>**Remarque :** Dans Adobe Experience Cloud, l’authentification unique est mise en œuvre en [associant les comptes](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) d’Experience Cloud et des solutions. |
-| [Actions en attente](../../../admin/company/pending-actions-admin.md) | Permet d’autoriser la gestion des actions en attente dans les [!UICONTROL Paramètres de la société]. |
-| [Alliance de marques](../../../admin/company/co-branding-admin.md) | Permet d’autoriser l’alliance des marques Analytics. |
-| [Préférences](../../../admin/admin/preferences-manager.md) | Permet d’autoriser l’accès au [!UICONTROL Gestionnaire des préférences]. |
-| [Masquage des suites de rapports](../../../admin/company/c-hide-report-suites.md) | Permet d’autoriser le masquage des suites de rapports dans l’interface utilisateur d’Adobe Analytics. |
+| [Actions en attente](/help/admin/company/pending-actions-admin.md) | Permet d’autoriser la gestion des actions en attente dans les [!UICONTROL Paramètres de la société]. |
+| [Alliance de marques](/help/admin/company/co-branding-admin.md) | Permet d’autoriser l’alliance des marques Analytics. |
+| [Préférences](/help/admin/admin/preferences-manager.md) | Permet d’autoriser l’accès au [!UICONTROL Gestionnaire des préférences]. |
+| [Masquage des suites de rapports](/help/admin/company/c-hide-report-suites.md) | Permet d’autoriser le masquage des suites de rapports dans l’interface utilisateur d’Adobe Analytics. |
 | **Outils** | Ces paramètres donnent accès aux outils Analytics (interfaces et applications) et aux fonctionnalités avancées telles que la segmentation et les mesures calculées. |
 | [Données actives](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | Permet d’autoriser l’utilisation de la fonction Données actives dans les rapports. |
 | Utilisateurs de la licence d’[Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) | Octroie l’autorisation d’accéder aux [!UICONTROL Ad Hoc Analysis]. |
