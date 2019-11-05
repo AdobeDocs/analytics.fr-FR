@@ -5,7 +5,7 @@ seo-title: Affichage des anomalies dans Analysis Workspace
 title: Affichage des anomalies dans Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -31,7 +31,7 @@ Si vous cliquez sur un point blanc, il se change en vert et affiche :
 * la date à laquelle l’anomalie s’est produite ;
 * la valeur brute de l’anomalie ;
 * la valeur en pourcentage au dessus ou en dessous de la valeur attendue, représentée par une ligne continue vert foncé ;
-* le lien Analyser permettant de lancer [l’analyse des contributions](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
+* le lien Analyser permettant de lancer [l’analyse des contributions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md).
 
 ![](assets/anomaly_linechart.png)
 
