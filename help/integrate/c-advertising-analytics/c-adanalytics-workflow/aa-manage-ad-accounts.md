@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
 seo-description: valeur nulle
-seo-title: Gestion de comptes de publicité
-title: Gestion de comptes de publicité
-uuid: 0 b 205046-2 eb 5-4 cd 6-be 62-cdf 716 fe 934 e
+seo-title: Gestion des comptes Advertising
+title: Gestion des comptes Advertising
+uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Gestion de comptes de publicité
+# Gestion des comptes Advertising
 
 You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
 
@@ -26,11 +26,11 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Actions</b> </p> </td> 
-   <td colname="col2"> <p><b>Remarque : Les actions s'affichent uniquement si vous avez sélectionné au moins un compte de publicité. </b> </p> </td> 
+   <td colname="col2"> <p><b>Remarque : Les actions s’affichent uniquement si vous avez sélectionné au moins un compte publicitaire. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Ajouter </p> </td> 
-   <td colname="col2"> <p>Vous dirige vers l’interface utilisateur <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C" format="dita" scope="local">Configurer un compte Advertising</a>. </p> </td> 
+   <td colname="col2"> <p>Vous dirige vers l’interface utilisateur <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Configurer un compte Advertising</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Renommer </p> </td> 
