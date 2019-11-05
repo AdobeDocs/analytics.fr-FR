@@ -5,7 +5,7 @@ seo-title: Optimisation des performances d’Analysis Workspace
 title: Optimisation des performances d’Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ Dans la mesure du possible, n'extrayez pas plus de données que nécessaire.
 
 N’oubliez pas que les plages de dates (composants violets) sont prioritaires sur la plage de dates du panneau. Si, par conséquent, vous utilisez d’autres plages de dates comme colonnes (par exemple, le mois dernier, la semaine dernière et hier), la plage de dates du panneau n’a pas à couvrir toutes les plages de dates des colonnes. Il suffit qu’elle soit définie sur « hier », puisque les plages de données utilisées dans le tableau à structure libre ont priorité sur celles du panneau. Pour en savoir plus sur l’utilisation des plages de dates dans Analysis Workspace, [regardez cette vidéo](https://www.youtube.com/watch?v=ybmv6EBmhn0) .
 
-Use [date comparison options](../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764) to pull in the specific time periods of data you want to compare. Si, par exemple, vous devez comparer les données du mois dernier à celles du même mois l’année précédente, utilisez simplement l’option de comparaison des périodes pour afficher les performances d’une année sur l’autre, plutôt que de définir les 13 derniers mois de données dans le panneau.
+Use [date comparison options](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) to pull in the specific time periods of data you want to compare. Si, par exemple, vous devez comparer les données du mois dernier à celles du même mois l’année précédente, utilisez simplement l’option de comparaison des périodes pour afficher les performances d’une année sur l’autre, plutôt que de définir les 13 derniers mois de données dans le panneau.
 
 ## Nombre de visualisations
 
