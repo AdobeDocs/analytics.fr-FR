@@ -1,18 +1,18 @@
 ---
 description: Les flux peuvent être affichés avec l’un des nombreux libellés d’état.
-keywords: Flux de données ; état ; actif ; approbation en attente ; supprimé ; complete ; pending ; inactif
+keywords: Flux de données;état;actif;en attente d’approbation;supprimé;terminé;en attente;inactif
 seo-description: Les flux peuvent être affichés avec l’un des nombreux libellés d’état.
-seo-title: État du flux de données
+seo-title: État des flux de données
 solution: Analytics
-title: État du flux de données
-uuid: 07 ec 0 d 16-925 c -481 d -801 c -869 eb 1568689
+title: État des flux de données
+uuid: 07ec0d16-925c-481d-801c-869eb1568689
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# État du flux de données
+# État des flux de données
 
 Les flux peuvent être affichés avec l’un des nombreux libellés d’état.
 
@@ -21,6 +21,6 @@ Les flux peuvent être affichés avec l’un des nombreux libellés d’état.
 | Actif | Le flux est opérationnel. |
 | En attente d’approbation | Dans certaines situations, un flux peut nécessiter l’approbation d’Adobe avant de pouvoir commencer à générer une tâche. Dans ce cas, cet état s’applique au flux. |
 | Supprimé | Le flux a été supprimé. |
-| Terminé | Le flux est terminé. Un flux terminé peut être modifié, mis en attente ou supprimé. |
+| Terminé | Le flux a terminé son traitement. Un flux terminé peut être modifié, mis en attente ou supprimé. |
 | En attente | Le flux a été créé, mais n’est pas encore actif. Il s’agit d’un court état transitoire qui peut ne pas s’afficher dans la liste des flux. |
 | Inactif | Un état inactif équivaut à un état en pause ou en attente. Une fois le flux réactivé, il reprendra l’exécution des tâches là où il s’était arrêté. |
