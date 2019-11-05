@@ -8,7 +8,7 @@ title: Sous-classifications et Créateur de règles – Cas d’utilisation
 topic: Outils d’administration
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez associer le Créateur de règles de classifications à des sous-clas
 
 Vous pouvez associer le Créateur de règles de classifications à des sous-classifications afin de simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
 
-See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
 **Exemple**
 
@@ -33,7 +33,7 @@ Une hiérarchie de classification vous permet d’appliquer une classification �
 
 ![](assets/sub_class_table.png)
 
-Une fois cette structure en place, vous pouvez utiliser le [Créateur de règles de classifications](../../../components/c-classifications2/crb/classification-rule-builder.md) pour télécharger des petits fichiers qui mettent uniquement à jour les tables de recherche (tables de couleurs verte et rouge dans l’image précédente). Vous pouvez ensuite utiliser le créateur de règles pour assurer la mise à jour du tableau de classification principal.
+Une fois cette structure en place, vous pouvez utiliser le [Créateur de règles de classifications](/help/components/c-classifications2/crb/classification-rule-builder.md) pour télécharger des petits fichiers qui mettent uniquement à jour les tables de recherche (tables de couleurs verte et rouge dans l’image précédente). Vous pouvez ensuite utiliser le créateur de règles pour assurer la mise à jour du tableau de classification principal.
 
 La tâche ci-dessous décrit la marche à suivre.
 
@@ -47,7 +47,9 @@ t_rule_builder_subclass.xml
 
 Cette procédure décrit le téléchargement de sous-classifications à l’aide du Créateur de règles.
 
-> [!NOTE] Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](../../../components/c-classifications2/crb/sub-classification-rule-builder.md).
+>[!NOTE]
+>
+> Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
 1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
@@ -55,7 +57,7 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
    ![Infos étape](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
+1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    Pour ce faire, utilisez une expression régulière. Dans cet exemple, la règle servant à compléter *`Broad Campaign code`* utilisera cette expression régulière :
 
@@ -70,7 +72,7 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
 1. Téléchargez un fichier de classification contenant uniquement les sous-classifications spécifiées.
 
-   Voir Classifications [à](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)plusieurs niveaux.
+   Voir Classifications [à](/help/components/c-classifications2/c-sub-classifications.md)plusieurs niveaux.
 
    Exemple:
 
