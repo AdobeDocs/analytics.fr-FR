@@ -6,8 +6,8 @@ seo-title: Personnalisation du code de page
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Personnalisation du code de page
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Utilisez la description des champs de Dynamic Tag Management pour personnaliser le code de page lors du déploiement d’Analytics.
 
-Ajoutez des modules externes pour veiller à ce que le code s’exécute en même temps que l’outil Analytics. Pour plus d’informations sur les modules externes d’Analytics, voir [Modules externes de mise en œuvre](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+Ajoutez des modules externes pour veiller à ce que le code s’exécute en même temps que l’outil Analytics. Pour plus d’informations sur les modules externes d’Analytics, voir [Modules externes de mise en œuvre](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 **[!UICONTROL *`Property`*]** &gt; **[!UICONTROL   ![](assets/settings_gear.png)
 
@@ -32,7 +32,7 @@ Modifier l’outil]** &gt; **[!UICONTROL Personnaliser le code de page]**
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ouvrir l’éditeur </p> </td> 
-   <td colname="col2"> <p>Vous pouvez insérer un appel JavaScript qui doit être déclenché avant l’appel final de <code>s.t()</code> contenu dans <code>s_code</code>. </p> </td> 
+   <td colname="col2"> <p>You can insert any JavaScript call that must be triggered before the final <code> s.t()</code> call, which is contained in the <code> s_code</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exécuter </p> </td> 
