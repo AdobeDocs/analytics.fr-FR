@@ -8,7 +8,7 @@ title: Accelerated Mobile Pages
 topic: Développeur et mise en œuvre
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ Mettez en œuvre le projet AMP (Accelerated Mobile Pages) dans Adobe Analytics.
 
 Il s’agit d’un [projet Open Source](https://www.ampproject.org/) grâce auquel il est possible de créer des pages web pour du contenu statique restitué plus rapidement. Cette fonction est idéale pour les éditeurs qui souhaitent créer une fois un contenu optimisé pour les appareils mobiles et qui se chargera instantanément partout. Les sujets couverts sont les suivants :
 
-* [Fonctionnement](../../implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
-* [Utilisation de la balise amp-analytics avec le modèle "adobeanalytics"](../../implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
-* [Utilisation de la balise amp-analytics avec le modèle « adobeanalytics_nativeConfig »](../../implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
-* [Résumé](../../implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
-* [Questions fréquentes](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
+* [Fonctionnement](/help/implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
+* [Utilisation de la balise amp-analytics avec le modèle "adobeanalytics"](/help/implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
+* [Utilisation de la balise amp-analytics avec le modèle « adobeanalytics_nativeConfig »](/help/implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
+* [Résumé](/help/implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
+* [Questions fréquentes](/help/implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
 
 **Documentation et exemples supplémentaires**
 
@@ -211,7 +211,7 @@ Si vous avez des questions ou des problèmes, consultez votre conseiller ou l’
   </tr> 
   <tr> 
    <td colname="col1"> <p>Qu’est-ce que le service <span class="keyword">Experience Cloud</span> ID ? Est-ce que j’en ai besoin ? </p> </td> 
-   <td colname="col2"> <p>Le service d’identité <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> </a> (anciennement <span class="term"> service d’identification des visiteurs </span>) active les services principaux <span class="keyword">Experience Cloud </span> et permet l’intégration entre différentes solutions d’Adobe <span class="keyword"> Experience Cloud </span>. Si vous avez des intégrations avec <span class="keyword">Adobe Audience Manager</span> ou <span class="keyword">Adobe Target</span>, vous allez probablement utiliser ce service. Ce service est également le fondement de nombreuses fonctions <span class="keyword">Adobe Analytics</span> à venir. Si vous avez besoin de la prise en charge du service d’identification maintenant ou à l’avenir, nous vous recommander d’utiliser la solution <code> iframeMessage </code>. </p> </td> 
+   <td colname="col2"> <p>Le service d’identité <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"  > </a> (anciennement <span class="term"> service d’identification des visiteurs </span>) active les services principaux <span class="keyword">Experience Cloud </span> et permet l’intégration entre différentes solutions d’Adobe <span class="keyword"> Experience Cloud </span>. Si vous avez des intégrations avec <span class="keyword">Adobe Audience Manager</span> ou <span class="keyword">Adobe Target</span>, vous allez probablement utiliser ce service. Ce service est également le fondement de nombreuses fonctions <span class="keyword">Adobe Analytics</span> à venir. Si vous avez besoin de la prise en charge du service d’identification maintenant ou à l’avenir, nous vous recommander d’utiliser la solution <code> iframeMessage </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
@@ -219,7 +219,7 @@ Si vous avez des questions ou des problèmes, consultez votre conseiller ou l’
   </tr> 
   <tr> 
    <td colname="col1"> <p>Est-ce que ça n’est pas similaire aux <span class="keyword">Instant Articles de Facebook</span> ? Comment configurer <span class="keyword">Adobe Analytics</span> avec les Instant Articles de Facebook ? </p> </td> 
-   <td colname="col2"> <p> Les Instant Articles de Facebook prennent en charge une solution semblable à la solution nativeConfig décrite ci-dessus. En fait, la page stats.html créée ci-dessus peut servir vos besoins d’analyse simultanément pour les pages AMP et les Instant Articles de Facebook. Pour en savoir plus sur la mise en œuvre du suivi pour les Instant Articles de Facebook, voir <a href="../../implement/js-implementation/analytics-facebook-instant-articles.md#concept_AC9AD1431CD14F919E329A161A80AA08" format="dita" scope="local"> Instant Articles de Facebook </a> </p> </td> 
+   <td colname="col2"> <p> Les Instant Articles de Facebook prennent en charge une solution semblable à la solution nativeConfig décrite ci-dessus. En fait, la page stats.html créée ci-dessus peut servir vos besoins d’analyse simultanément pour les pages AMP et les Instant Articles de Facebook. Pour en savoir plus sur la mise en œuvre du suivi pour les Instant Articles de Facebook, voir <a href="/help/implement/js-implementation/analytics-facebook-instant-articles.md"  > Instant Articles de Facebook </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
