@@ -8,7 +8,7 @@ title: Collecte de données
 topic: Développeur et mise en œuvre
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,8 +87,8 @@ Adobe a élaboré plusieurs méthodes d’envoi de données dans Analytics. Ces 
 
 Pour plus d’informations, voir :
 
-* [Collecte de données](../../implement/js-implementation/data-collection/query-parameters.md)
-* [Création d’un élément de données](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
+* [Collecte de données](/help/implement/js-implementation/data-collection/query-parameters.md)
+* [Création d’un élément de données](/help/implement/c-implement-with-dtm/t-data-element.md)
 * [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
 * [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
 * [Sources de données](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
