@@ -5,7 +5,7 @@ seo-title: Modèles
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Vous pouvez choisir de créer un projet à partir de :
 
-* un projet vierge (par défaut). Pour plus d’informations, voir [Création d’un projet](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)Analysis Workspace.
+* un projet vierge (par défaut). Pour plus d’informations, voir [Création d’un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)Analysis Workspace.
 * d’un modèle standard. Ces modèles créés par Adobe sont prêts à l’emploi ;
 * d’un modèle personnalisé. Ces modèles peuvent être créés par des utilisateurs disposant de droits d’administrateur ou par des non-administrateurs, à condition qu’ils aient obtenu l’autorisation « Enregistrer en tant que modèle ». (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [Création d’un modèle personnalisé](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
-* [Modèles standard](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [Création d’un modèle personnalisé](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* [Modèles standard](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## Création d’un modèle personnalisé {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## Création d’un modèle personnalisé {#create-custom-template}
 
 Les utilisateurs dotés de droits d’administration peuvent convertir n’importe quel projet qu’ils créent en un modèle personnalisé. Procédez comme suit :
 
