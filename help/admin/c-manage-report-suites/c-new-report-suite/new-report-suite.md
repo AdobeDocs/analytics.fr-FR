@@ -7,7 +7,7 @@ title: Paramètres d’une nouvelle suite de rapports
 topic: Outils d’administration
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,7 +50,7 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
   </tr> 
   <tr> 
    <td colname="col1"> <p>Date d’activation </p> </td> 
-   <td colname="col2">Informe Adobe de la date prévue pour l’activation de cette suite de rapports. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">Informe Adobe de la date prévue pour l’activation de cette suite de rapports. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Estimation du nombre de pages vues par jour</span> </td> 
