@@ -1,13 +1,13 @@
 ---
 description: Vous pouvez modifier certains champs d’un flux.
-keywords: Flux de données ; flux ; modifier
+keywords: Flux de données;flux;modifier
 seo-description: Vous pouvez modifier certains champs d’un flux.
 seo-title: Modification d’un flux
 solution: Analytics
 title: Modification d’un flux
-uuid: 75 e 862 f 3-da 08-4 d 1 f -84 d 9-513981 d 98 dd 5
+uuid: 75e862f3-da08-4d1f-84d9-513981d98dd5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
