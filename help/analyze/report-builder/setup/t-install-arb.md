@@ -7,7 +7,7 @@ title: Installation de Report Builder
 topic: Créateur de rapports
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -29,4 +29,4 @@ Procédure à suivre pour l’installation du Créateur de rapports.
 1. Ouvrez/Redémarrez MS Excel pour que le menu [!UICONTROL Compléments] s’affiche.
 1. Allez dans **Compléments** &gt; **[!UICONTROL Se connecter]**.
 
-   Suivez les instructions de la Connexion [au créateur de](../../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)rapports.
+   Suivez les instructions de la Connexion [au créateur de](/help/analyze/report-builder/setup/login.md)rapports.
