@@ -5,7 +5,7 @@ seo-title: Mise en œuvre d’Analytics pour les assistants numériques
 title: Mise en œuvre d’Analytics pour les assistants numériques
 uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 translation-type: tm+mt
-source-git-commit: de48a1211edd3a4fd35cc455f2002384deeed5be
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -56,7 +56,7 @@ GET
 /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net" format="http" scope="external">
+<xref href="https://sc.omtrdc.net">
   sc.omtrdc.net
  Cache-Control: no-cache
 </xref href="https:>
@@ -82,7 +82,7 @@ Cache-Control: no-cache
 
 Adobe Analytics utilise [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) pour lier les interactions au fil du temps à la même personne. La plupart des assistants numériques renvoient un `userID` message que vous pouvez utiliser pour conserver l’activité pour différents utilisateurs. Dans la plupart des cas, cette valeur est ce que vous pouvez transmettre en tant qu’identifiant unique. Certaines plateformes renvoient un identifiant qui dépasse les 100 caractères autorisés. Dans ce cas, Adobe recommande de hacher l’identifiant unique sur une valeur de longueur fixe à l’aide d’un algorithme de hachage standard, tel que MD5 ou Sha1.
 
-L’utilisation du service d’ID offre le meilleur rapport qualité-prix lorsque vous mappez des ECID sur différents périphériques (par exemple, Web vers l’assistant numérique). Si votre application est une application mobile, utilisez les SDK de la plateforme d’expérience en l’état et envoyez l’ID utilisateur à l’aide de la `setCustomerID` méthode. Cependant, si votre application est un service, utilisez l’ID utilisateur fourni par le service en tant qu’ECID, et définissez-le dans `setCustomerID`.
+L’utilisation du service d’ID offre le meilleur rapport qualité-prix lorsque vous mappez des ECID sur différents périphériques (par exemple, Web vers l’assistant numérique). Si votre application est une application mobile, utilisez les SDK de la plateforme d’expérience en l’état et envoyez l’ID utilisateur à l’aide de la `setCustomerID` méthode. However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
@@ -167,7 +167,7 @@ Cache-Control: no-cache
 
 Bien que la plupart des plateformes n’exposent pas le périphérique auquel l’utilisateur s’est entretenu, elles exposent les fonctionnalités du périphérique. Par exemple, Audio, Ecran, Vidéo, etc. Ces informations sont utiles car elles définissent les types de contenu qui peuvent être utilisés lors de l’interaction avec vos utilisateurs. Lors de la mesure des capacités des appareils, il est préférable de les concaténer (par ordre alphabétique).
 
-Exemple: `":Audio:Camera:Screen:Video:"`
+Exemple : `":Audio:Camera:Screen:Video:"`
 
 Les deux-points de début et de fin aident à créer des segments. Par exemple, affichez tous les accès dotés de `:Audio:` fonctionnalités.
 
