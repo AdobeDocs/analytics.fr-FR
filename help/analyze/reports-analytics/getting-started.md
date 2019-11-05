@@ -8,7 +8,7 @@ title: Prise en main de Reports and Analytics
 topic: Reports & Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,13 +77,13 @@ Cette section décrit la procédure à suivre pour générer un rapport.
 
 1. Ouvrez une session dans [!UICONTROL Reports &amp; Analytics].
 
-   Le menu Rapports s’affiche, ou un [tableau de bord](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) s’affiche, si vous en avez configuré un.
+   Le menu Rapports s’affiche, ou un [tableau de bord](/help/analyze/reports-analytics/dashboard.md) s’affiche, si vous en avez configuré un.
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
 
 ## Modification des paramètres du compte d’utilisateur
 
@@ -116,11 +116,11 @@ Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte].
   </tr> 
   <tr> 
    <td> <p> Connexion </p> </td> 
-   <td> <p>Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. </p> <p>Voir également : <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" scope="external">Comment réinitialiser le mot de passe du compte Reports &amp; Analytics</a>. </p> </td> 
+   <td> <p>Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. </p> <p>Voir également : <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Comment réinitialiser le mot de passe du compte Reports &amp; Analytics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Service web </p> </td> 
-   <td> <p>Affiche le nom d’utilisateur des services web et le secret partagé associé à ce compte. Utilisez ces informations d’identification lorsque vous accédez à Experience Cloud par l’intermédiaire des API de services web. Pour plus d’informations, consultez le site <a href="https://marketing.adobe.com/developer" scope="external" format="https">Developer Connection</a>. </p> <p> <p>Remarque : Ces informations s’affichent uniquement si le compte est autorisé en tant qu’utilisateur de services web. </p> </p> </td> 
+   <td> <p>Affiche le nom d’utilisateur des services web et le secret partagé associé à ce compte. Utilisez ces informations d’identification lorsque vous accédez à Experience Cloud par l’intermédiaire des API de services web. Pour plus d’informations, consultez le site <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>. </p> <p> <p>Remarque : Ces informations s’affichent uniquement si le compte est autorisé en tant qu’utilisateur de services web. </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Exclure cet ordinateur </p> </td> 
