@@ -5,7 +5,7 @@ seo-title: Convertisseur de projets d’Ad Hoc Analysis - Aperçu
 title: Convertisseur de projets d’Ad Hoc Analysis - Aperçu
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Le convertisseur de projets Ad Hoc Analysis peut sans problème convertir tous vos projets Ad Hoc Analysis en projets Analysis Workspace.
 
-* [Pourquoi convertir vos projets ?](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6)
-* [Comment convertir des projets d’analyses ad hoc](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
-* [Afficher les projets convertis dans Analysis Workspace](../../../analyze/ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md#concept_8906482FF9D641D9A93137C1DAD4BB88)
-* [FAQ Convertisseur de projets](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)
+* [Pourquoi convertir vos projets ?](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6)
+* [Comment convertir des projets d’analyses ad hoc](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
+* [Afficher les projets convertis dans Analysis Workspace](/help/analyze/ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
+* [FAQ Convertisseur de projets](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)
 
 ## Why Should You Convert Projects? {#section_173A6297E20641D0B68B7AF199557CA6}
 
