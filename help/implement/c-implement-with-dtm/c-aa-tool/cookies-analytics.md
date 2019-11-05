@@ -6,8 +6,8 @@ seo-title: Cookies
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -38,11 +38,11 @@ Modifier l’outil]**&gt; **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> Nombre de points du domaine </td> 
-   <td colname="col2"> <p>Domaine sur lequel les cookies <code>s_cc</code> et <code>s_sq</code> sont définis en déterminant le nombre de points contenus dans le domaine de l’URL de la page. Elle est également utilisée par certains modules externes pour déterminer le domaine correct afin de définir le cookie du module externe. </p> </td> 
+   <td colname="col2"> <p>Domaine sur lequel les cookies <code> s_cc</code> et <code> s_sq</code> sont définis en déterminant le nombre de points contenus dans le domaine de l’URL de la page. Elle est également utilisée par certains modules externes pour déterminer le domaine correct afin de définir le cookie du module externe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nombre de points du domaine FP </td> 
-   <td colname="col2"> <p>La variable <span class="term"> fpCookieDomainPeriods</span> concerne les cookies définis par JavaScript (<code> s_sq</code>, <code>s_cc</code>, modules externes), qui sont intrinsèquement des cookies propriétaires, même si votre mise en œuvre utilise les domaines tiers <span class="filepath"> 2o7.net</span> ou <span class="filepath"> omtrdc.net</span>. </p> <p>Voir <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>La variable <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>Voir <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ID de transaction </td> 
