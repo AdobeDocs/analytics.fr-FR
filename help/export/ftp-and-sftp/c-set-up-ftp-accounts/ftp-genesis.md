@@ -7,7 +7,7 @@ solution: Analytics
 title: Data Connectors
 uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ When you create an integration with an Adobe partner using [data connectors](htt
 
 Vous devez gérer les fichiers sur le compte FTP afin de vous assurer que l’intégration dispose de suffisamment d’espace sur le compte FTP pour recevoir les données qui y sont envoyées par Adobe. Ce type de compte FTP est limité à 2 Go ou 63 fichiers.
 
-Pour en savoir plus sur les limites FTP et la conservation des données, voir [Limites FTP et conservation des données](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
+Pour en savoir plus sur les limites FTP et la conservation des données, voir [Limites FTP et conservation des données](/help/export/ftp-and-sftp/ftp-limits.md).
