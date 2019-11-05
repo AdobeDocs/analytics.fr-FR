@@ -5,9 +5,9 @@ seo-title: Gestionnaire de code
 solution: Analytics
 title: Gestionnaire de code
 topic: Outils d’administration
-uuid: 7 b 60 bca 7-756 f -444 f-a 7 e 6-abd 3 e 0 f 1 a 15 e
+uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 5cb0cc590322020eab68709aa772edf25bda1857
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 5cb0cc590322020eab68709aa772edf25bda1857
 
 Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Gestionnaire de code]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Gestionnaire **[!UICONTROL de]** code.
 
-Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. Additional implementation resources are available in the [Implement](../../implement/home.md) user guide.
+Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. D’autres ressources d’implémentation sont disponibles dans le guide de l’utilisateur [Mise en oeuvre](/help/implement/home.md) .
 
 ## Descriptions de la page Gestionnaire de code {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
