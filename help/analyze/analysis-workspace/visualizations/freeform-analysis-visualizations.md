@@ -8,7 +8,7 @@ title: Visualisations - Aperçu
 topic: Reports & Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une 
 
 >[!IMPORTANT]
 >
->Les paramètres de visualisation visibles dépendent de la visualisation. Tous les paramètres ne s’appliquent pas à toutes les visualisations. En outre, certains paramètres avancés, tels les [paramètres d’histogramme](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477), apparaissent **uniquement** pour certaines visualisations.
+>Les paramètres de visualisation visibles dépendent de la visualisation. Tous les paramètres ne s’appliquent pas à toutes les visualisations. En outre, certains paramètres avancés, tels les [paramètres d’histogramme](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477), apparaissent **uniquement** pour certaines visualisations.
 
 ![](assets/visualization_settings.png)
 
@@ -67,7 +67,7 @@ Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalisation </p> </td> 
-   <td colname="col2"> <p>Force les mesures en proportions égales. Voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalisation</a>. </p> </td> 
+   <td colname="col2"> <p>Force les mesures en proportions égales. Voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalisation</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Afficher l’axe double </p> </td> 
