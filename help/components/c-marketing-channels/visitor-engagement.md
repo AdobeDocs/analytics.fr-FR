@@ -8,16 +8,12 @@ title: Expiration de l’engagement des visiteurs
 topic: Reports & Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # Expiration de l’engagement des visiteurs
-
-Découvrez comment spécifier l’expiration de l’engagement des visiteurs dans les canaux marketing.
-
-## Expiration de l’engagement des visiteurs {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 Découvrez comment spécifier l’expiration de l’engagement des visiteurs dans les canaux marketing.
 
@@ -31,7 +27,7 @@ Par exemple, les visiteurs cliquent souvent sur une campagne de recherche payant
 | Jamais | La période d’engagement du visiteur n’expire jamais. |
 | Réinitialisation de canal | Fait expirer toutes les périodes d’engagement des visiteurs.  Si vous devez réinitialiser toutes les données de canal marketing, vous pouvez mettre fin à toutes les périodes d’activité des visiteurs. Vous devrez peut-être réinitialiser les données si vos règles de traitement étaient incorrectement configurées. Toutes les valeurs de canal Première touche et Dernière touche vont immédiatement expirer et seront réinitialisées au retour des visiteurs. |
 
-## Définition de l’expiration de l’engagement des visiteurs {#task_A8B8B5A07C5A4882BB895252A018FDED}
+## Définition de l’expiration de l’engagement des visiteurs {#specify-visitor-expire}
 
 Spécifiez le délai d’expiration de l’engagement des visiteurs.
 
