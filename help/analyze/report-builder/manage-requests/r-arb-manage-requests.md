@@ -7,7 +7,7 @@ title: Gestion des requêtes - Définitions
 topic: Créateur de rapports
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -60,11 +60,11 @@ Le Gestionnaire de [!UICONTROL requêtes] s’affiche lorsque vous cliquez sur *
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ajouter </p> </td> 
-   <td colname="col2"> <p>Affiche la boîte de dialogue Assistant Requête. Reportez-vous à la section <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> Créer une requête de données</a>. </p> </td> 
+   <td colname="col2"> <p>Affiche la boîte de dialogue Assistant Requête. Reportez-vous à la section <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Créer une requête de données</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifier </p> </td> 
-   <td colname="col2"> <p> (ou Modifier plusieurs) Modifie une requête sélectionnée. Le système affiche la boîte de dialogue <span class="wintitle">Assistant Requête</span>. See <a href="../../../analyze/report-builder/manage-requests/t-edit-multiple-requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (ou Modifier plusieurs) Modifie une requête sélectionnée. Le système affiche la boîte de dialogue <span class="wintitle">Assistant Requête</span>. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Supprimer </p> </td> 
@@ -80,7 +80,7 @@ Le Gestionnaire de [!UICONTROL requêtes] s’affiche lorsque vous cliquez sur *
   </tr> 
   <tr> 
    <td colname="col1"> <p> Actualiser </p> </td> 
-   <td colname="col2"> <p>Actualise une ou plusieurs requêtes sélectionnées. (Reportez-vous à la section <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> Actualisation d’une requête</a>.) </p> </td> 
+   <td colname="col2"> <p>Actualise une ou plusieurs requêtes sélectionnées. (Reportez-vous à la section <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Actualisation d’une requête</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Réactualiser la liste </p> </td> 
