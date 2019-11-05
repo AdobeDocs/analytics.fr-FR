@@ -1,18 +1,18 @@
 ---
 description: Vous pouvez filtrer les dimensions que vous ajoutez à la grille Libellés de lignes. Les filtres permettent de limiter les données renvoyées par les requêtes. Ils peuvent être appliqués à partir des dispositions croisées dynamiques ou personnalisées. Lorsque vous configurez le filtrage des dimensions à partir de la Disposition croisée dynamique, vous pouvez, en outre, préciser le nombre d’entrées de la cellule.
 seo-description: Vous pouvez filtrer les dimensions que vous ajoutez à la grille Libellés de lignes. Les filtres permettent de limiter les données renvoyées par les requêtes. Ils peuvent être appliqués à partir des dispositions croisées dynamiques ou personnalisées. Lorsque vous configurez le filtrage des dimensions à partir de la Disposition croisée dynamique, vous pouvez, en outre, préciser le nombre d’entrées de la cellule.
-seo-title: Présentation des dimensions du filtre
+seo-title: Dimensions du filtre - Aperçu
 solution: Analytics
-title: Présentation des dimensions du filtre
+title: Dimensions du filtre - Aperçu
 topic: Créateur de rapports
-uuid: c 54 d 5 add-f 278-476 d -8 f 14-73 f 1 c 2 e 37671
+uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Présentation des dimensions du filtre
+# Dimensions du filtre - Aperçu
 
 Vous pouvez filtrer les dimensions que vous ajoutez à la grille Libellés de lignes. Les filtres permettent de limiter les données renvoyées par les requêtes. Ils peuvent être appliqués à partir des dispositions croisées dynamiques ou personnalisées. Lorsque vous configurez le filtrage des dimensions à partir de la Disposition croisée dynamique, vous pouvez, en outre, préciser le nombre d’entrées de la cellule.
 
@@ -40,13 +40,13 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>Contient tous les termes </p> </td> 
    <td colname="col02"> <p>Contient tous les valeurs délimitées par des espaces dans n’importe quel ordre. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Correspond à <span class="term"> a b cand</span><span class="term"> b a. c.</span>, etc. </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> a b</span>cand <span class="term"> b a c</span>, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contient n’importe quel terme </p> </td> 
    <td colname="col02"> <p>Contient au moins l’un des filtres (délimités par des espaces). </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>Correspond à <span class="term"> A 1</span>, <span class="term"> B 2</span>, <span class="term"> C 3</span>, mais pas <span class="term"> D 4</span>. </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>, mais pas <span class="term"> D4.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contient l’expression </p> </td> 
@@ -64,7 +64,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>Ne contient pas l’expression </p> </td> 
    <td colname="col02"> <p>Renvoie toutes les valeurs qui ne contiennent pas votre expression. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Exclut <span class="term"> abc</span>, <span class="term"> abc def</span> et correspondances <span class="term"> def</span> </p> </td> 
+   <td colname="col3"> <p>Exclut <span class="term"> abc</span>, <span class="term"> abc def</span> et correspond <span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Est égal à </p> </td> 
@@ -76,25 +76,25 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>N’est pas égal à </p> </td> 
    <td colname="col02"> <p>Renvoie n’importe quel résultat qui ne correspond pas exactement à votre saisie. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>Ne correspond pas à <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>Matches <span class="term"> abc</span>. </p> </td> 
+   <td colname="col3"> <p>Ne correspond pas à <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>Correspond à <span class="term"> abc</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Commence par </p> </td> 
    <td colname="col02"> <p>Renvoie des résultats qui commencent par une valeur spécifique. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Correspond à <span class="term"> abcd</span> mais pas <span class="term"> 1 abc</span> </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> abcd</span> mais pas <span class="term"> 1abc</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Se termine par </p> </td> 
    <td colname="col02"> <p>Renvoie des résultats qui se terminent par une valeur spécifique. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Correspond à <span class="term"> wxyz</span> mais pas <span class="term"> wxyz 0</span> </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> wxyz</span> mais pas <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avancé (caractères spéciaux) </p> </td> 
    <td colname="col02"> <p>Vous permet d’utiliser les caractères suivants : </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
    <td colname="col2"> <p>"^Page*Accueil$" | sports </p> </td> 
-   <td colname="col3"> <p> Cet exemple définit un filtre qui commence par <span class="term"> Accueil</span>, puis recherche zéro ou plus de caractères, puis se termine par <span class="term"> Page</span>. </p> <p>Also, any page with <span class="term"> sports</span> in it. </p> <p>Quelques exemples de correspondance : </p> 
+   <td colname="col3"> <p> Cet exemple définit un filtre qui commence par <span class="term"> Home</span>, and then looks for zero or more characters, and then ends with <span class="term"> Page</span>. </p> <p>Aussi, n'importe quelle page comportant <span class="term"> du sport</span> . </p> <p>Quelques exemples de correspondance : </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 
      <li id="li_4D490059B667450DA8A0103167C7B391">PageAccueil </li> 
      <li id="li_1351619156274092AEB2771D882AD357">Page et (autres caractères) Accueil </li> 
@@ -119,7 +119,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
   <tr> 
    <td colname="col1"> " " </td> 
    <td colname="col2"> Est égal à </td> 
-   <td colname="col3"> <p>N’est pas ignoré sauf s’il n’est pas accompagné d’un autre guillemet double. Par exemple : <span class="term"> 17 » L'affichage</span> n'est pas une expression. </p> </td> 
+   <td colname="col3"> <p>N’est pas ignoré sauf s’il n’est pas accompagné d’un autre guillemet double. Par exemple : L’affichage <span class="term"> de</span> 17 pouces n’est pas une expression. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
@@ -144,7 +144,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> Ou </td> 
-   <td colname="col3"> <p>Pris en charge uniquement dans le filtre <span class="term"> Filtre avancé (caractères spéciaux)</span> . </p> </td> 
+   <td colname="col3"> <p>Pris en charge uniquement dans le filtre Filtre <span class="term"> avancé (caractères spéciaux)</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
