@@ -8,7 +8,7 @@ title: Choix d’une méthode de mise en œuvre
 topic: Développeur et mise en œuvre
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,11 +35,11 @@ For more information, see [Getting Started with Experience Platform Launch](http
 Il est utile de connaître JavaScript et de comprendre la terminologie de base d’Analytics, telle que
 
 * ce qu’est une [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) et comment elle fonctionne ;
-* Quand utiliser un [événement personnalisé](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
+* Quand utiliser un [événement personnalisé](/help/implement/analytics-terminology-basics/c-props-evars/event-custom.md)
 
 Pour plus d’informations sur l’obtention de l’accès à Dynamic Tag Management et son fonctionnement, voir [Prise en main](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) dans la documentation du produit de Dynamic Tag Management.
 
-Pour plus d’informations, reportez-vous à la section [Mise en œuvre d’Analytics avec Dynamic Tag Management](../../implement/c-implement-with-dtm/dtm-implementation-overview.md).
+Pour plus d’informations, reportez-vous à la section [Mise en œuvre d’Analytics avec Dynamic Tag Management](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md).
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
@@ -50,4 +50,4 @@ La mise en œuvre avec JavaScript requiert :
 * de solides compétences en JavaScript ;
 * une bonne compréhension des concepts et de la terminologie d’Analytics.
 
-Pour plus d’informations, voir [Mise en œuvre d’Analytics avec JavaScript](../../implement/js-implementation/javascript-implementation-overview.md).
+Pour plus d’informations, voir [Mise en œuvre d’Analytics avec JavaScript](/help/implement/js-implementation/javascript-implementation-overview.md).
