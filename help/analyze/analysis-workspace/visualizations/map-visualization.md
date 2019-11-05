@@ -5,7 +5,7 @@ seo-title: Carte
 title: Carte
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -61,7 +61,7 @@ La visualisation des cartes dans Analysis Workspace :
       * Un jeu de couleurs vert/rouge : positif/négatif.
    * **Faire pivoter** la carte en 2D ou en 3D en maintenant la touche [!UICONTROL Ctrl] et en déplaçant la carte.
 
-   * **Basculer** vers une autre vue, comme une carte thermique, en utilisant les [paramètres](../../../analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) décrits ci-dessous. La vue à bulles est la vue par défaut.
+   * **Basculer** vers une autre vue, comme une carte thermique, en utilisant les [paramètres](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) décrits ci-dessous. La vue à bulles est la vue par défaut.
 
 
 1. **Enregistrer** le projet pour enregistrer tous les paramètres des cartes (coordonnées, zoom, rotation).
