@@ -7,7 +7,7 @@ title: Activation d’Activity Map
 topic: Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -24,7 +24,7 @@ Les données d’Activity Map ne peuvent pas être collectées si vous n’effe
 
 1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]** and [implement it](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
 
-   Nous avons inclus un [exemple de code de mise en œuvre](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734) afin de vous aider à visualiser les changements apportés au code suite à l’intégration du module Activity Map.
+   Nous avons inclus un [exemple de code de mise en œuvre](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) afin de vous aider à visualiser les changements apportés au code suite à l’intégration du module Activity Map.
 
 1. Validez la mise en œuvre:
 
@@ -56,6 +56,6 @@ Vous devez d’abord activer les rapports d’Activity Map au niveau de la suit
 
 1. [Ajoutez des utilisateurs à ce groupe](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) et **[!UICONTROL enregistrez le groupe]**.
 
-1. This allow your Admin users to download Activity Map from  **Adobe Analytics** &gt; **[!UICONTROL Tools]** &gt; **ActivityMap** .
+1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
 > [!NOTE] Si vous souhaitez que les utilisateurs non-administrateurs téléchargent Carte d’activités, créez un groupe d’utilisateurs qui accorde l’autorisation d’accès aux outils et à l’installation héritée de ClickMap. Ce niveau d’autorisation associé à l’accès à Carte d’activités permet de télécharger et d’utiliser l’outil.
