@@ -8,7 +8,7 @@ title: Ajout de code d’en-tête et de pied de page
 topic: Développeur et mise en œuvre
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Dynamic Tag Management crée du code incorporé d’évaluation et de production
 
    >[!NOTE]
    >
-   >Le code incorporé de production ne reflète que les éléments publiés dans cette [propriété](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123). Néanmoins, le code incorporé pour l’évaluation reflète tous les éléments de la propriété associée, que l’état soit Publié ou Annuler la publication. Pour tester les éléments Annuler la publication sur votre site de production, activez localement l’évaluation dans la console en suivant les instructions du [Test des règles Annuler la publication pour l’hébergement Akamai](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259).
+   >Le code incorporé de production ne reflète que les éléments publiés dans cette [propriété](/help/implement/c-implement-with-dtm/t-create-web-property.md). Néanmoins, le code incorporé pour l’évaluation reflète tous les éléments de la propriété associée, que l’état soit Publié ou Annuler la publication. Pour tester les éléments Annuler la publication sur votre site de production, activez localement l’évaluation dans la console en suivant les instructions du [Test des règles Annuler la publication pour l’hébergement Akamai](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md).
 
 1. Copiez le code de pied de page de production et collez-le dans la section [!DNL BODY] du code HTML de votre site.
 
