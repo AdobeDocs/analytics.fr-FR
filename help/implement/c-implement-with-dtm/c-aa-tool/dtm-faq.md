@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: FAQ sur l’outil Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -47,7 +47,7 @@ Des FAQ relatives à la configuration automatique du déploiement d’Adobe Ana
  </tbody> 
 </table>
 
-Reportez-vous à la section [Ajout de l’outil Adobe Analytics](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) pour obtenir des informations de configuration.
+Reportez-vous à la section [Ajout de l’outil Adobe Analytics](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md) pour obtenir des informations de configuration.
 
 ## Pièges potentiels {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
