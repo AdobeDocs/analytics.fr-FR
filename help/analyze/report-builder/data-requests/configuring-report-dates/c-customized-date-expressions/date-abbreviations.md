@@ -1,22 +1,22 @@
 ---
 description: Les abréviations temporelles se rapportent à une date particulière de début de période et non à une plage de jours. Une plage de jours est exprimée en précisant une date de début et une date de fin pour deux abréviations temporelles (ou termes).
 seo-description: Les abréviations temporelles se rapportent à une date particulière de début de période et non à une plage de jours. Une plage de jours est exprimée en précisant une date de début et une date de fin pour deux abréviations temporelles (ou termes).
-seo-title: Abréviations de date
+seo-title: Abréviations des dates
 solution: Analytics
-title: Abréviations de date
+title: Abréviations des dates
 topic: Créateur de rapports
-uuid: 829 d 613 e -5900-4586-a 9 fc -239988492 d 8 b
+uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Abréviations de date
+# Abréviations des dates
 
 Les abréviations temporelles se rapportent à une date particulière de début de période et non à une plage de jours. Une plage de jours est exprimée en précisant une date de début et une date de fin pour deux abréviations temporelles (ou termes).
 
-Pour plus d’informations sur l’utilisation de la syntaxe correcte, reportez-vous à la section [Remarques sur la syntaxe](../../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
+Pour plus d’informations sur l’utilisation de la syntaxe correcte, reportez-vous à la section [Remarques sur la syntaxe](/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md#section_555D6563B2D94FA3BDD801DC0B8C289D).
 
 * cd = date actuelle (aujourd’hui)
 * cw = semaine en cours (premier jour de la semaine en cours)
@@ -26,7 +26,7 @@ Pour plus d’informations sur l’utilisation de la syntaxe correcte, reportez-
 
 In the following list, *[UNIT]* indicates any integer multiplier.
 
-* [UNIT] d = jour
+* [UNITE] d = jour
 * [UNIT] w = semaine
 * [UNIT] m = mois
 * [UNIT] q = trimestre
