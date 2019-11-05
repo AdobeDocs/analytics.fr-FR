@@ -1,141 +1,141 @@
 ---
-title: Rapports d'acquisition dans Adobe Analytics
-description: Découvrez comment créer des rapports basés sur l'acquisition à l'aide d'Analysis Workspace.
+title: Rapports d’acquisition dans Adobe Analytics
+description: Découvrez comment créer des rapports basés sur l’acquisition à l’aide d’Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Rapports d'acquisition
+# Rapports d’acquisition
 
-Les rapports d'acquisition indiquent comment vous obtenez des visiteurs sur votre site.
+Les rapports d’acquisition montrent comment obtenir des visiteurs sur votre site.
 
-In Adobe Analytics, these reports are known as **Marketing Channels**. Ils nécessitent une configuration initiale de base, mais permettent une vue bien plus personnalisée des canaux.
+Dans Adobe Analytics, ces rapports sont appelés canaux **marketing**. Ils nécessitent une configuration initiale de base, mais permettent une vue beaucoup plus personnalisée des canaux.
 
 > [!IMPORTANT]
 >
-> Configurez les règles de traitement des canaux marketing pour utiliser ces rapports. See [Getting Started with Marketing Channels](../../../components/c-marketing-channels/c-getting-started-mchannel.md) for information on how to best configure Marketing Channels in your organization.
+> Configurez vos règles de traitement Canal marketing pour utiliser ces rapports. Voir [Prise en main des canaux](/help/components/c-marketing-channels/c-getting-started-mchannel.md) marketing pour plus d’informations sur la configuration optimale des canaux marketing dans votre entreprise.
 
-Cette page suppose que l'utilisateur maîtrise de base l'utilisation d'Analysis Workspace. See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+Cette page suppose que l’utilisateur a une connaissance de base de l’utilisation d’Analysis Workspace. Voir [Création d’un rapport de base dans Analysis Workspace pour les utilisateurs](create-report.md) de Google Analytics si vous ne connaissez pas encore l’outil dans Adobe Analytics.
 
 ## Tout le trafic - Canaux
 
-Affiche une vue agrégée de tous les canaux utilisés par les visiteurs pour atteindre votre site.
+Affiche une vue globale de tous les canaux utilisés par les visiteurs pour atteindre votre site.
 
-1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Dans le menu Composants, recherchez la dimension Canal **** marketing et faites-la glisser sur la grande zone de tableau à structure libre intitulée "Déposer une dimension ici".
+2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Consultez le guide [de traduction des](common-metrics.md) mesures pour plus d’informations sur la manière d’obtenir chaque mesure respective.
 
 ## Tout le trafic - Treemaps
 
-Affiche un treemap du trafic de canal. Ce rapport est semblable à Tous les trafics - Canaux, mais s'affiche différemment.
+Affiche un triangle du trafic des canaux. Ce rapport est similaire à l’ensemble du trafic - Canaux, mais il s’affiche différemment.
 
-1. Cliquez sur l'icône Visualisations à gauche, puis faites glisser la visualisation Treemap sur l'espace de travail au-dessus du tableau à structure libre vide.
-2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled 'Drop a dimension here'.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
-4. Notez que d'autres mesures créent des cademap supplémentaires. Si un seul treemap est souhaité :
-   1. Cliquez sur la cellule supérieure de la mesure souhaitée pour représenter le treemap.
-   2. Maj + clic sur la dernière cellule de la même colonne de mesure pour mettre la colonne en surbrillance. S'il est correctement effectué, un treemap est présent dans la visualisation.
-   3. Cliquez sur le point coloré dans le coin supérieur droit de la visualisation treemap, puis cochez la case Verrouiller la sélection.
+1. Cliquez sur l’icône Visualisations sur la gauche, puis faites glisser la visualisation Treemap sur l’espace de travail au-dessus du tableau à structure libre vide.
+2. Cliquez sur l’icône Composants sur la gauche, puis faites glisser la dimension Canal **** marketing sur la grande zone de tableau à structure libre intitulée "Déposez une dimension ici".
+3. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Consultez le guide [de traduction des](common-metrics.md) mesures pour plus d’informations sur la manière d’obtenir chaque mesure respective.
+4. Notez que d’autres mesures créent des treemaps supplémentaires. Si un seul Treemap est souhaité :
+   1. Cliquez sur la cellule supérieure de la mesure de votre choix pour représenter le mappage de segment.
+   2. Maintenez la touche Maj enfoncée et cliquez sur la dernière cellule de cette même colonne de mesure pour mettre la colonne en surbrillance en bleu. Si cette opération est effectuée correctement, un Treemap est présent dans la visualisation.
+   3. Cliquez sur le point coloré dans le coin supérieur droit de la visualisation de la carte Treemap, puis cochez la case "Verrouiller la sélection".
 
-Les fichiers Treemaps peuvent être appliqués à n'importe quelle dimension, et pas seulement aux canaux marketing.
+Les Treemaps peuvent être appliqués à n’importe quelle dimension, et pas seulement aux canaux marketing.
 
-## Tout trafic - Source/Moyen
+## Tout le trafic - Source/Moyen
 
-Les rapports source et moyenne indiquent les domaines qui ont généré du trafic vers votre site.
+Les rapports Source et Moyen indiquent les domaines qui ont conduit le trafic vers votre site.
 
-* The **Source** primary dimension is available in Analysis Workspace as the **Referring Domain** dimension.
-* The **Medium** primary dimension is available in Analysis Workspace as the  **Referrer Type** dimension.
-* The **Keyword** primary dimension is available in Analysis Workspace as the **Search Keyword** dimension.
+* La dimension principale **Source** est disponible dans Analysis Workspace en tant que dimension de domaine **** référent.
+* La dimension primaire **moyenne** est disponible dans Analysis Workspace en tant que dimension Type **de** référent.
+* La dimension principale Mot- **clé** est disponible dans Analysis Workspace en tant que dimension Mot-clé **de** recherche.
 
-1. Dans le menu Composants, localisez la dimension souhaitée ci-dessus et faites-la glisser sur la grande zone de tableau à structure libre intitulée « Déposer une dimension ici ».
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Dans le menu des composants, recherchez la dimension souhaitée mentionnée ci-dessus et faites-la glisser sur la grande zone de tableau à structure libre intitulée "Déposez une dimension ici".
+2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Consultez le guide [de traduction des](common-metrics.md) mesures pour plus d’informations sur la manière d’obtenir chaque mesure respective.
 
-Pour plus d'informations sur la dimension correspondante, consultez les pages suivantes du Guide de l'utilisateur des composants :
+Pour plus d’informations sur leurs dimensions respectives, consultez les pages suivantes du guide de l’utilisateur Composants :
 
-* [Domaine référent](../../../components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Type de référent](../../../components/c-variables/dimensionslist/reports-ref-types.md)
-* [Mot-clé de recherche](../../../components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Domaine référent](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
+* [Type de référent](/help/components/c-variables/dimensionslist/reports-ref-types.md)
+* [Mot-clé de recherche](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
 
-## Tout trafic - Références
+## Tout le trafic - Références
 
-* The **Source** primary dimension is available in Analysis Workspace as the **Referring Domain** dimension.
-* The **Landing Page** primary dimension is available in Analysis Workspace as the **Entry Page** dimension.
+* La dimension principale **Source** est disponible dans Analysis Workspace en tant que dimension de domaine **** référent.
+* La dimension principale **de la page** d’entrée est disponible dans Analysis Workspace en tant que dimension de page **d’** entrée.
 
-1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Dans le menu des composants, recherchez la dimension Domaine **** référent ou Page **d’** entrée et faites-la glisser sur la grande zone de tableau à structure libre intitulée "Déposez une dimension ici".
+2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Consultez le guide [de traduction des](common-metrics.md) mesures pour plus d’informations sur la manière d’obtenir chaque mesure respective.
 
-See the [Referring Domain](../../../components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
+Pour plus d’informations, voir la dimension Domaine [de](/help/components/c-variables/dimensionslist/reports-referring-domains.md) référence dans le guide de l’utilisateur Composants.
 
-## Rapports Google Publicités et rapports de console de recherche
+## Rapports Publicités Google et rapports Console de recherche
 
-Adobe utilise une fonctionnalité de l'Espace de travail d'analyse nommée Advertizing Analytics pour publier des données de publicité et de recherche depuis plusieurs plateformes, y compris Google.
+Adobe utilise une fonctionnalité d’Analysis Workspace appelée Analytics de publicité pour importer des données de recherche et de publicité provenant de plusieurs plateformes, y compris Google.
 
-La fonction d'analyse de publicité nécessite une configuration pour renvoyer des données. See [Advertising Analytics Help](../../../integrate/c-advertising-analytics/overview.md) for details on how to enable these additional dimensions in Analysis Workspace.
+La fonction d’analyse des publicités nécessite une configuration pour renvoyer des données. Voir l’aide [d’Analytics](/help/integrate/c-advertising-analytics/overview.md) de publicité pour en savoir plus sur la manière d’activer ces dimensions supplémentaires dans Analysis Workspace.
 
 ## Rapports sur les réseaux sociaux
 
-Les rapports Social fournissent des informations similaires comme le rapport Comportement respectif, sauf dans le contexte des réseaux sociaux. Ces données sont disponibles dans Analysis Workspace en combinant une dimension avec un segment.
+Les rapports sur les réseaux sociaux fournissent des informations similaires aux rapports sur le comportement, sauf dans le contexte des réseaux sociaux. Ces données sont disponibles dans Analysis Workspace en combinant une dimension à un segment.
 
-Parfois, les visiteurs atteignent votre site par le biais de plusieurs canaux au cours de la même session. Par exemple, un visiteur clique sur une page de réseaux sociaux, puis quelques minutes plus tard, un moteur de recherche visite votre site. Dans ce cas, les domaines non sociaux peuvent apparaître dans ce rapport. Si vous souhaitez exclure les domaines non sociaux, triez le rapport par visites ou créez une copie du segment pour qu'elle soit basée sur les accès plutôt que sur les visites. See [Segmentation Containers](../../../components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+Il arrive que des visiteurs arrivent sur votre site par le biais de plusieurs canaux au cours de la même session. Par exemple, un visiteur clique sur une page de médias sociaux, puis, quelques minutes plus tard, visite un moteur de recherche pour accéder à votre site. Dans ce cas, les domaines non sociaux peuvent apparaître dans ce rapport. Si vous souhaitez exclure des domaines non sociaux, triez le rapport par visites ou créez une copie du segment en fonction des accès et non des visites. Pour plus d’informations, voir Conteneurs [de](/help/components/c-segmentation/seg-overview.md) segmentation dans le guide de l’utilisateur Composants.
 
 ### Social - Références réseau
 
-Ce rapport indique quels domaines réseau sociaux ont conduit le trafic vers votre site. This data is available in Analysis Workspace using the **Referring Domain** dimension and **Visits from Social Sites** segment.
+Le rapport Références réseau indique les domaines de réseau social qui ont conduit le trafic vers votre site. Ces données sont disponibles dans Analysis Workspace à l’aide de la dimension Domaine **** référent et du segment **Visites à partir de sites** sociaux.
 
-1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Dans le menu Composants, recherchez la dimension Domaine **de** référence et faites-la glisser sur la grande zone de tableau à structure libre intitulée "Déposer une dimension ici".
+2. Dans le menu Composants, recherchez le segment **Visites à partir de sites** sociaux et faites glisser le curseur sur la petite zone située juste au-dessus du tableau à structure libre intitulé "Faire glisser un segment ici".
+3. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Consultez le guide [de traduction des](common-metrics.md) mesures pour plus d’informations sur la manière d’obtenir chaque mesure respective.
 
-### Social - Pages d'entrée
+### Social - Pages d’entrée
 
-Le rapport Pages d'entrée indique les pages sur lesquelles les visiteurs sont arrivés après avoir cliqué sur un lien via un réseau social. This data is available in Analysis Workspace using the **Entry Page** dimension and **Visits from Social Sites** segment.
+Le rapport Pages d’entrée indique les pages sur lesquelles les visiteurs sont arrivés après avoir cliqué sur un lien sur un réseau social. Ces données sont disponibles dans Analysis Workspace à l’aide de la dimension Page **d’** entrée et **Visites à partir du segment Sites** sociaux.
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Dans le menu Composants, recherchez la dimension Page **d’** entrée et faites-la glisser sur la grande zone de tableau à structure libre intitulée "Déposer une dimension ici".
+2. Dans le menu Composants, recherchez le segment **Visites à partir de sites** sociaux et faites glisser le curseur sur la petite zone située juste au-dessus du tableau à structure libre intitulé "Faire glisser un segment ici".
+3. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Consultez le guide [de traduction des](common-metrics.md) mesures pour plus d’informations sur la manière d’obtenir chaque mesure respective.
 
 ### Social - Conversions
 
-Le rapport Conversions montre les données de commerce électronique dans le contexte des réseaux sociaux. Une mise en œuvre supplémentaire est nécessaire pour utiliser ces rapports sur les deux plateformes ; Adobe conseille de travailler avec un conseiller en implémentation pour vérifier que ces données sont correctement configurées pour Analysis Workspace.
+Le rapport Conversions montre les données de commerce électronique dans le contexte des réseaux sociaux. Une implémentation supplémentaire est nécessaire pour utiliser ces rapports sur les deux plateformes ; Adobe conseille de travailler avec un conseiller en implémentation pour s’assurer que ces données sont correctement configurées pour Analysis Workspace.
 
 ### Social - Modules externes
 
-Ce rapport montre comment les visiteurs interagissent avec les modules externes de médias sociaux intégrés sur votre site. Une mise en œuvre supplémentaire est requise pour l'utilisation dans Analysis Workspace. Adobe conseille de travailler avec un conseiller en implémentation pour veiller à ce que ces données soient collectées avec précision.
+Le rapport Modules externes montre comment les visiteurs interagissent avec les modules externes de médias sociaux intégrés de votre site. Une mise en oeuvre supplémentaire est requise pour une utilisation dans Analysis Workspace. Adobe recommande de travailler avec un conseiller en implémentation pour s’assurer que ces données sont collectées avec précision.
 
-### Social - Flux des utilisateurs
+### Social - Flux d’utilisateurs
 
-Le rapport Flux utilisateurs affiche les données de cheminement dans le contexte des visiteurs qui sont arrivés sur un réseau social.
+Le rapport de flux Utilisateurs affiche les données de cheminement dans le contexte des visiteurs qui arrivent par le biais d’un réseau social.
 
-1. Cliquez sur l'icône de visualisation à gauche, puis faites glisser une visualisation Flux sur l'espace de travail au-dessus du tableau à structure libre.
-2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
-3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Les valeurs de dimension sont colorées jaune.
-4. Localisez la valeur de page souhaitée pour commencer avec, puis faites-la glisser dans l'espace intitulé Dimension ou élément au centre.
-5. Ce rapport de flux est interactif. Cliquez sur l'une des valeurs pour développer les flux vers les pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire les colonnes. Différentes dimensions peuvent également être utilisées dans le même rapport de flux.
+1. Cliquez sur l’icône de visualisation à gauche, puis faites glisser une visualisation Flux sur l’espace de travail au-dessus du tableau à structure libre.
+2. Cliquez sur l’icône Composants sur la gauche, puis faites glisser le segment **Visites depuis les sites** sociaux sur la petite zone située juste au-dessus de la visualisation du flux intitulée "Faire glisser un segment ici".
+3. Recherchez la dimension **Pages** , puis cliquez sur l’icône de flèche pour afficher les valeurs de page. Les valeurs de dimension sont colorées en jaune.
+4. Localisez la valeur de page de votre choix et faites-la glisser dans l’espace "Dimension ou élément" au centre.
+5. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire les colonnes. Différentes dimensions peuvent également être utilisées dans le même rapport de flux.
 
-## Campagnes - Tous
+## Campagnes - Toutes
 
-The campaigns report is available in Analysis Workspace using the **Tracking Code** dimension. Notez que l'utilisation de la dimension Code de suivi requiert une implémentation supplémentaire pour collecter des données.
+Le rapport des campagnes est disponible dans Analysis Workspace à l’aide de la dimension Code **de** suivi. Notez que l’utilisation de la dimension Code de suivi nécessite une implémentation supplémentaire pour collecter les données.
 
-Il est possible de collecter des paramètres UTM dans Adobe Analytics à l'aide de variables personnalisées (evars). Adobe conseille de travailler avec un conseiller en implémentation pour garantir la collecte exacte des valeurs de code de suivi dans Adobe Analytics.
+Il est possible de collecter des paramètres UTM dans Adobe Analytics à l’aide de variables personnalisées (eVars). Adobe recommande de travailler avec un conseiller en implémentation pour s’assurer que les valeurs de code de suivi sont collectées avec précision dans Adobe Analytics.
 
-1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Dans le menu Composants, recherchez la dimension Code **de** suivi et faites-la glisser sur la grande zone de tableau à structure libre intitulée "Déposer une dimension ici".
+2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Consultez le guide [de traduction des](common-metrics.md) mesures pour plus d’informations sur la manière d’obtenir chaque mesure respective.
 
 ## Campagnes - Mots-clés payés
 
-Le rapport Mots-clés payés indique comment chaque mot-clé se produit après que le visiteur a cliqué sur un lien de recherche payante à partir d'un moteur de recherche. The **Search Keywords - Paid** dimension is available in Analysis Workspace, but requires a one-time setup of paid search detection to collect data. See [Paid Search Detection](../../../admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
+Le rapport Mots-clés payés montre comment chaque mot-clé se comporte après qu'un visiteur a cliqué sur un lien de recherche payante à partir d'un moteur de recherche. La dimension Mots-clés de **recherche - Payée** est disponible dans Analysis Workspace, mais nécessite une configuration unique de la détection de recherche payante pour collecter les données. Pour plus d’informations sur la configuration, voir Détection [](/help/admin/admin/paid-search-detection/paid-search-detection.md) de recherche payante dans le guide de l’utilisateur Admin.
 
-1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Dans le menu Composants, recherchez la dimension Mot-clé de **recherche - Payante** et faites-la glisser sur la grande zone de tableau à structure libre intitulée "Déposer une dimension ici".
+2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Consultez le guide [de traduction des](common-metrics.md) mesures pour plus d’informations sur la manière d’obtenir chaque mesure respective.
 
 ## Campagnes - Mots-clés organiques
 
-Le rapport Mots-clés organiques indique comment chaque mot-clé se produit après que le visiteur a cliqué sur un lien de recherche organique à partir d'un moteur de recherche. The **Search Keywords - Natural** dimension is available in Analysis Workspace. Notez que si la détection de recherche payée n'est pas configurée, cette dimension collecte les mots-clés payants et naturels.
+Le rapport Mots-clés organiques montre les performances de chaque mot-clé après qu'un visiteur a cliqué sur un lien de recherche organique à partir d'un moteur de recherche. La dimension Mots-clés de **recherche - Naturelle** est disponible dans Analysis Workspace. Notez que si la détection de recherche payante n’est pas configurée, cette dimension collecte les mots-clés payants et naturels.
 
-1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. Dans le menu Composants, recherchez la dimension Mot-clé de **recherche - Naturelle** et faites-la glisser sur la grande zone de tableau à structure libre intitulée "Déposer une dimension ici".
+2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Consultez le guide [de traduction des](common-metrics.md) mesures pour plus d’informations sur la manière d’obtenir chaque mesure respective.
 
 ## Analyse des coûts
 
-Ce rapport montre les données de performance des visites, des coûts et des recettes pour vos canaux marketing payants. Adobe fournit un produit dédié qui fournit des informations appelées Adobe Advertizing Cloud. Si votre organisation souhaite utiliser ce produit, contactez le gestionnaire de compte de votre entreprise.
+Ce rapport présente les données sur les visites, les coûts et les recettes pour vos canaux marketing payants. Adobe fournit un produit dédié à Adobe Advertising Cloud. Si votre entreprise souhaite utiliser ce produit, contactez son gestionnaire de compte.
