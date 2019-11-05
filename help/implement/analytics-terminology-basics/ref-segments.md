@@ -8,7 +8,7 @@ title: Segments
 topic: Développeur et mise en œuvre
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,6 +23,6 @@ Les segments reposent sur les éléments suivants :
 * Visiteurs
 * Visites
 
-Pour plus d’informations sur l’utilisation des segments pour l’identification des visiteurs sur plusieurs appareils, voir : [Création de segments](../../implement/js-implementation/xdevice-visid/segments.md#concept_77F0A880A6BA4A919A233DAF9D0D6FB5).
+Pour plus d’informations sur l’utilisation des segments pour l’identification des visiteurs sur plusieurs appareils, voir : [Création de segments](/help/implement/js-implementation/xdevice-visid/segments.md).
 
 Pour plus d’informations sur la segmentation dans Adobe Analytics, voir le [guide de segmentation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
