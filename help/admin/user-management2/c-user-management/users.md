@@ -8,7 +8,7 @@ title: Gestion des utilisateurs - Aperçu
 topic: Outils d’administration
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -82,7 +82,7 @@ Crée un tableau de bord par défaut pour une suite de données spécifique.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Utilisateur</span> </td> 
-   <td colname="col2"> <p> N’accorde à l’utilisateur que les autorisations de groupe sélectionnées. Sélectionnez les groupes de votre choix dans le champ <span class="uicontrol">Groupes disponibles</span> (à gauche), puis cliquez sur <span class="uicontrol">Ajouter</span>. Les groupes affectés apparaissent dans le champ <span class="uicontrol">Groupes affectés</span> (à droite). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> N’accorde à l’utilisateur que les autorisations de groupe sélectionnées. Sélectionnez les groupes de votre choix dans le champ <span class="uicontrol">Groupes disponibles</span> (à gauche), puis cliquez sur <span class="uicontrol">Ajouter</span>. Les groupes affectés apparaissent dans le champ <span class="uicontrol">Groupes affectés</span> (à droite). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
