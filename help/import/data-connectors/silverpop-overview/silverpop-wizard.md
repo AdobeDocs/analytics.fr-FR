@@ -5,7 +5,7 @@ seo-title: Intégration de Silverpop
 title: Intégration de Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -123,7 +123,7 @@ Pour configurer l’intégration :
   <tr valign="top"> 
    <td colname="col2"> <p>Collecte de données </p> </td> 
    <td colname="col03"> <p>(3) Paramètres des données </p> </td> 
-   <td colname="col3"> <p>Sélectionnez Module externe <b>JavaScript</b> si vous souhaitez utiliser le module externe s_code.js comme modèle de collecte pour cette intégration (voir Code <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"> du module externe</a>Analytics). </p> <p>Sélectionnez Solution <b></b> automatisée si vous souhaitez utiliser un modèle de collecte automatisée pour cette intégration, puis spécifiez les identifiants uniques utilisés pour cette intégration. </p> <p>Si vous sélectionnez cette option, spécifiez les identifiants uniques utilisés pour cette intégration : </p> <p> <b>Paramètre de chaîne de requête d’ID de message :</b>cette valeur représente l’ID de message annexé à l’URL de la page d’entrée par votre partenaire de messagerie. </p> <p> <b></b> Paramètre de chaîne de requête d’ID de destinataire : Cette valeur représente l’ID du destinataire annexé à l’URL de la page d’entrée par votre partenaire de messagerie. </p> </td> 
+   <td colname="col3"> <p>Sélectionnez Module externe <b>JavaScript</b> si vous souhaitez utiliser le module externe s_code.js comme modèle de collecte pour cette intégration (voir Code <a href="../silverpop-overview/silverpop-analytics-code.md"> du module externe</a>Analytics). </p> <p>Sélectionnez Solution <b></b> automatisée si vous souhaitez utiliser un modèle de collecte automatisée pour cette intégration, puis spécifiez les identifiants uniques utilisés pour cette intégration. </p> <p>Si vous sélectionnez cette option, spécifiez les identifiants uniques utilisés pour cette intégration : </p> <p> <b>Paramètre de chaîne de requête d’ID de message :</b>cette valeur représente l’ID de message annexé à l’URL de la page d’entrée par votre partenaire de messagerie. </p> <p> <b></b> Paramètre de chaîne de requête d’ID de destinataire : Cette valeur représente l’ID du destinataire annexé à l’URL de la page d’entrée par votre partenaire de messagerie. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>Génération de tableaux de bord et de signets </p> </td> 
