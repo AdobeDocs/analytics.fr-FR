@@ -7,7 +7,7 @@ title: Visite sur une seule page
 topic: Rapports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,8 +24,8 @@ Ce rapport est le plus souvent utilisé dans le cadre du rapport [!UICONTROL Pag
 
 * Une visite sur une seule page est considérée comme une visite contenant une valeur unique, et non comme une demande d’une seule image.
 
-   * Dans le cadre d’un [rapport Pages](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5), une seule page peut se déclencher dans la visite.
-   * Dans le cadre d’un rapport [de sections de](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD)site, une seule section de site se déclenche au cours de la visite.
+   * Dans le cadre d’un [rapport Pages](/help/components/c-variables/dimensionslist/reports-pages.md), une seule page peut se déclencher dans la visite.
+   * Dans le cadre d’un rapport [de sections de](/help/components/c-variables/dimensionslist/reports-site-sections.md)site, une seule section de site se déclenche au cours de la visite.
    * Dans le contexte d’une variable [de](/help/admin/admin/c-traffic-variables/traffic-var.md)trafic, une visite renseigne ce rapport si une seule valeur unique est déclenchée.
 
 * Les visites sur une seule page peuvent être composées de nombreuses demandes d’image, pour autant que la variable dans le cadre du rapport contienne une seule valeur unique. Dès qu’une seconde valeur unique est renseignée, la visite n’est plus considérée comme une visite sur une seule page.
