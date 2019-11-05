@@ -7,7 +7,7 @@ title: Taux de rebond
 topic: Mesures
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Affiche le pourcentage de visites qui contiennent un seul accès.
 
-Le taux de rebond utilise la mesure [](../../../components/c-variables/c-metrics/metrics-bounces.md#concept_2A92D575504E4522B860AB44B0621593) des rebonds et est calculé comme suit :
+Le taux de rebond utilise la mesure [](/help/components/c-variables/c-metrics/metrics-bounces.md) des rebonds et est calculé comme suit :
 
 `Bounces divided by Entries`
 
