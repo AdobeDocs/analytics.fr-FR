@@ -7,7 +7,7 @@ title: Modification de plusieurs requêtes
 topic: Créateur de rapports
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez modifier simultanément plusieurs requêtes, en fonction de la suite
    * **Par segment** : groupe les demandes en fonction du nom du segment.
 
       * **Choisir un segment** : s’affiche s’il n’existe aucun segment pour les requêtes. Pour ajouter des segments, cliquez sur **[!UICONTROL Modifier le groupe]**, puis sélectionnez un segment dans le panneau [!UICONTROL Modifier le groupe].
-   * **Par mesure**: Voir [Modifier Des Mesures Sur Plusieurs Requêtes](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
+   * **** Par mesure : Voir [Modifier Des Mesures Sur Plusieurs Requêtes](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Par période et granularité :** groupe les demandes par période et par granularité temporelle.
    * **Par groupe :** groupe les demandes par ensemble de demandes groupées.
