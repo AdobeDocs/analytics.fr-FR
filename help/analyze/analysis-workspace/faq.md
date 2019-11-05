@@ -3,9 +3,9 @@ description: valeur nulle
 seo-description: valeur nulle
 seo-title: Questions fréquentes
 title: Questions fréquentes
-uuid: f 2 eb 6784-8355-4 be 3-af 10-f 20 d 1 ab 0 de 0 e
+uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Quelles sont les exigences en matière d’administration et d’accès concernant Analysis Workspace ? </p> </td> 
-   <td colname="col2"> <p>Voir <a href="../../analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#concept_0ED9C077EF4C4C70B44BDAF494AE416C" format="dita" scope="local"> Configuration requise pour l’administration</a>. </p> </td> 
+   <td colname="col2"> <p>Voir <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  > Configuration requise pour l’administration</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Combien peut-on afficher de suites de rapports dans un projet Analysis Workspace ? </p> </td> 
@@ -30,7 +30,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr> 
   <tr> 
    <td colname="col1"> <p>Comment mettre en œuvre Analysis Workspace ? </p> </td> 
-   <td colname="col2"> <p>Aucune mise en œuvre spéciale n’est requise. Analysis Workspace est mis à la disposition de toutes les entreprises possédant Analytics Standard ou Premium. Néanmoins, des autorisations standard d’accès au contenu (par exemple aux suites de rapports et aux composants des projets) s’appliquent ainsi qu’au traitement et au partage des projets. Voir <a href="../../analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#section_FD3737DE452F4F6CA181F13FF3DC668F" format="dita" scope="local">Administration et exigences d’accès</a>. </p> </td> 
+   <td colname="col2"> <p>Aucune mise en œuvre spéciale n’est requise. Analysis Workspace est mis à la disposition de toutes les entreprises possédant Analytics Standard ou Premium. Néanmoins, des autorisations standard d’accès au contenu (par exemple aux suites de rapports et aux composants des projets) s’appliquent ainsi qu’au traitement et au partage des projets. Voir <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#section_FD3737DE452F4F6CA181F13FF3DC668F"  >Administration et exigences d’accès</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace change-t-il les rapports préconfigurés dans Adobe Analytics ? </p> </td> 
@@ -42,11 +42,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr>
   <tr> 
    <td colname="col1"> <p>Comment optimiser les performances d’Analysis Workspace ? </p> </td> 
-   <td colname="col2"> <p>Voir <a href="../../analyze/analysis-workspace/optimizing-performance.md#concept_A272AD0B5BC843879663D1F01B1F57C4" format="dita" scope="local">Optimisation des performances</a>. </p> </td> 
+   <td colname="col2"> <p>Voir <a href="/help/analyze/analysis-workspace/optimizing-performance.md"  >Optimisation des performances</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Comparaison des fonctionnalités d’Analysis Workspace et Ad Hoc Analysis </p> </td> 
-   <td colname="col2"> <p>See <a href="../../analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md#concept_377738FD6BBA4BEEB59EC004B5519AC1" format="dita" scope="local"> Analysis Workspace compared to Ad Hoc Analysis</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace compared to Ad Hoc Analysis</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
