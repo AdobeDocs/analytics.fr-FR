@@ -7,7 +7,7 @@ title: Mobile
 topic: Rapports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,11 +87,11 @@ Les rapports pour mobiles suivants sont disponibles :
   </tr> 
   <tr> 
    <td colname="col1"> Système d’exploitation (obsolète) </td> 
-   <td colname="col2"> <p> Groupe les appareils mobiles en fonction du système d’exploitation mobile du périphérique. Les systèmes d’exploitation mobiles comprennent Windows, RIM, iOS, Symbian, etc. Le rapport inclut également un groupe Inconnu pour les systèmes d’exploitation mobiles non identifiés. </p> <p>Remarque : Ce rapport était obsolète lorsque le rapport Technologie &gt; Systèmes <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"></a> d’exploitation a été mis à jour afin d’inclure tous les systèmes d’exploitation, y compris les systèmes d’exploitation mobiles. Vous pouvez créer un segment dans lequel « appareil mobile » existe et l’appliquer au rapport Technologie &gt; Systèmes d’exploitation pour n’afficher que les systèmes d’exploitation mobiles. </p> </td> 
+   <td colname="col2"> <p> Groupe les appareils mobiles en fonction du système d’exploitation mobile du périphérique. Les systèmes d’exploitation mobiles comprennent Windows, RIM, iOS, Symbian, etc. Le rapport inclut également un groupe Inconnu pour les systèmes d’exploitation mobiles non identifiés. </p> <p>Remarque : Ce rapport était obsolète lorsque le rapport Technologie &gt; Systèmes <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  ></a> d’exploitation a été mis à jour afin d’inclure tous les systèmes d’exploitation, y compris les systèmes d’exploitation mobiles. Vous pouvez créer un segment dans lequel « appareil mobile » existe et l’appliquer au rapport Technologie &gt; Systèmes d’exploitation pour n’afficher que les systèmes d’exploitation mobiles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Version Java </td> 
-   <td colname="col2"> <p> Regroupe les appareils mobiles en fonction de la version Java prise en charge. Le rapport Version Java identifie la version à l’aide de la JSR (Java Specification Request, Demande de spécification Java) prise en charge par le périphérique. Le rapport inclut également un groupe Inconnu pour les systèmes d’exploitation mobiles non identifiés. </p> <p>Pour plus d’informations sur une JSR donnée, consultez le site web de la <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">communauté Java</a>. </p> </td> 
+   <td colname="col2"> <p> Regroupe les appareils mobiles en fonction de la version Java prise en charge. Le rapport Version Java identifie la version à l’aide de la JSR (Java Specification Request, Demande de spécification Java) prise en charge par le périphérique. Le rapport inclut également un groupe Inconnu pour les systèmes d’exploitation mobiles non identifiés. </p> <p>Pour plus d’informations sur une JSR donnée, consultez le site web de la <a href="https://jcp.org/en/jsr/overview"  >communauté Java</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Longueur de l’URL enregistrée comme signet </td> 
