@@ -7,7 +7,7 @@ title: Création de segments
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,17 +22,17 @@ Les Ad Hoc Analysis contiennent les anciennes fonctionnalités pour créer des s
 
 Pour obtenir des informations et des instructions pour la création et la gestion de segments dans l’environnement de la segmentation unifiée, notamment les fonctionnalités des analyses ad hoc, reportez-vous à la documentation sur la [segmentation unifiée](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html).
 
-* [Nouvelles fonctionnalités](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
+* [Nouvelles fonctionnalités](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [Modifications des définitions de segment](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [Que sont devenus mes segments existants ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
-* [Que sont devenus mes dossiers de segments existants ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
-* [Puis-je gérer tous les segments d’Analytics dans le gestionnaire de segments ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [Qu’est-ce qu’un conteneur Accès ? Est-ce différent d’un conteneur Page vue ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
-* [De quels droits et privilèges ai-je besoin pour utiliser, créer et gérer les segments ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [Que dois-je faire avec les segments en double qui ont le...](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [Quelles sont les recommandations d’Adobe en termes de nettoyage de segments ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
-* [Pourquoi ne puis-je pas supprimer ce segment ?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
-* [Informations supplémentaires sur vos segments existants](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [Que sont devenus mes segments existants ?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [Que sont devenus mes dossiers de segments existants ?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
+* [Puis-je gérer tous les segments d’Analytics dans le gestionnaire de segments ?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
+* [Qu’est-ce qu’un conteneur Accès ? Est-ce différent d’un conteneur Page vue ?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [De quels droits et privilèges ai-je besoin pour utiliser, créer et gérer les segments ?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
+* [Que dois-je faire avec les segments en double qui ont le...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [Quelles sont les recommandations d’Adobe en termes de nettoyage de segments ?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [Pourquoi ne puis-je pas supprimer ce segment ?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
+* [Informations supplémentaires sur vos segments existants](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## Fonctionnalités {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -117,7 +117,7 @@ Si le segment a été [publié sur Experience Cloud](https://marketing.adobe.co
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visites d’une recherche payante </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visites avec cookie d’identifiant visiteur </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Ces segments seront migrés en tant que  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">modèles de segments dans le Créateur de segments.</a> </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
+   <td colname="col2"> <p>Ces segments seront migrés en tant que  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >modèles de segments dans le Créateur de segments.</a> </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segments Experience Cloud (Suite) : 
@@ -130,7 +130,7 @@ Si le segment a été [publié sur Experience Cloud](https://marketing.adobe.co
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visites avec 5+ visites précédentes* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visites depuis Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">modèles de segments dans le Créateur de segments.</a> En outre, plusieurs nouveaux modèles de segments ont été ajoutés. </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
+   <td colname="col2"> <p> La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >modèles de segments dans le Créateur de segments.</a> En outre, plusieurs nouveaux modèles de segments ont été ajoutés. </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segments d’administrateur <p>(également appelés segments « globaux ») </p> </td> 
