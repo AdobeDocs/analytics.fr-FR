@@ -5,7 +5,7 @@ seo-title: Feuille de route de mise en œuvre
 title: Feuille de route de mise en œuvre
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,20 +32,20 @@ Si vous êtes un nouvel utilisateur d’Adobe Analytics, vous pouvez créer rap
    <td colname="col1"> Choix d’une méthode de mise en œuvre. </td> 
    <td colname="col2"> <p>Les méthodes de mise en œuvre d’Analytics les plus utilisées incluent : </p> <p> 
      <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
-      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Experience Platform Launch</a> (Recommandé) <p>Ce guide vous explique tout ce que vous devez savoir concernant l’utilisation des fonctionnalités de gestion de SDK mobile et des balises de site web d’Adobe, et leur mise en œuvre. </p> </li> 
-      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/dtm-implementation-overview.md" format="dita" scope="local">Dynamic Tag Management </a> <p>Ce guide contient des informations spécifiques à Analytics afin de vous guider dans la mise en œuvre de Dynamic Tag Management. </p> </li> 
-      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>Ce guide contient une description des variables de collecte de données et des informations détaillées sur la mise en œuvre du code de collecte de données dans JavaScript, y compris <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="https" scope="external">video </a>. </p> </li> 
-      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="html" scope="external"> SDK d’Analytics </a> <p>Utilisez les SDK d’Analytics pour gérer : </p> <p> 
+      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/"> Experience Platform Launch</a> (Recommandé) <p>Ce guide vous explique tout ce que vous devez savoir concernant l’utilisation des fonctionnalités de gestion de SDK mobile et des balises de site web d’Adobe, et leur mise en œuvre. </p> </li> 
+      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="/help/implement/c-implement-with-dtm/dtm-implementation-overview.md">Dynamic Tag Management </a> <p>Ce guide contient des informations spécifiques à Analytics afin de vous guider dans la mise en œuvre de Dynamic Tag Management. </p> </li> 
+      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="/help/implement/js-implementation/javascript-implementation-overview.md"> JavaScript </a> <p>Ce guide contient une description des variables de collecte de données et des informations détaillées sur la mise en œuvre du code de collecte de données dans JavaScript, y compris <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html">video </a>. </p> </li> 
+      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html"> SDK d’Analytics </a> <p>Utilisez les SDK d’Analytics pour gérer : </p> <p> 
         <ul id="ul_F67F2E1964724800A84445A36DFB8E86"> 
-         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html" format="html" scope="external"> Applications mobiles sur iOS </a> </li> 
-         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html" format="html" scope="external"> Applications mobiles sur Android </a> </li> 
+         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html"> Applications mobiles sur iOS </a> </li> 
+         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html"> Applications mobiles sur Android </a> </li> 
         </ul> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
    <td colname="col1"> Configurez le service d’identité. </td> 
-   <td colname="col2"> <p>(Anciennement <span class="term"> Service d’identification des visiteurs </span>.) Voir <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Configuration du service d’identité pour Analytics </a>. </p> 
+   <td colname="col2"> <p>(Anciennement <span class="term"> Service d’identification des visiteurs </span>.) Voir <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html"> Configuration du service d’identité pour Analytics </a>. </p> 
     <draft-comment> 
      <p>Ajoutez le code d’initialisation d’identifiant visiteur suivant au début du fichier <code> VisitorAPI.js </code> : </p> 
      <code class="syntax javascript">
@@ -74,18 +74,18 @@ Si vous êtes un nouvel utilisateur d’Adobe Analytics, vous pouvez créer rap
   <tr> 
    <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
    <td colname="col1"> Validez la mise en œuvre. </td> 
-   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation/impl-validation.md" format="dita" scope="local"> Test et validation</a> Fournit des informations concernant la validation de votre mise en œuvre. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md"> Test et validation</a> Fournit des informations concernant la validation de votre mise en œuvre. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Utilisez le débogueur Adobe Experience Cloud pour vérifier que l’envoi des données est en cours. </td> 
-   <td colname="col2"> <p>Installez le <a href="../../implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188" format="dita" scope="local">débogueur Experience Cloud </a>. Une fois cet outil installé, chargez une page dans laquelle vous avez déployé le code de page, puis ouvrez le débogueur. Le débogueur affiche des informations détaillées sur les données de collecte qui ont été envoyées : </p> </td> 
+   <td colname="col2"> <p>Installez le <a href="/help/implement/impl-testing/debugger.md">débogueur Experience Cloud </a>. Une fois cet outil installé, chargez une page dans laquelle vous avez déployé le code de page, puis ouvrez le débogueur. Le débogueur affiche des informations détaillées sur les données de collecte qui ont été envoyées : </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Plus d’informations {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
 
-Pour plus d’informations sur les différences entre les méthodes [!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management] et JavaScript, voir [Choix d’une méthode de mise en œuvre](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B).
+Pour plus d’informations sur les différences entre les méthodes [!UICONTROL Experience Platform Launch], [!UICONTROL Dynamic Tag Management] et JavaScript, voir [Choix d’une méthode de mise en œuvre](/help/implement/c-implementation-methods/choose-implementation-method.md).
 
 Pour obtenir un aperçu rapide du processus de prise en main et configurer rapidement votre première suite de rapports Analytics, voir [Prise en main de la mise en œuvre d’Analytics](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) dans le guide Prise en main d’Analytics.
