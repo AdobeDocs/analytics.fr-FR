@@ -1,18 +1,18 @@
 ---
 description: Utilisez l’onglet Tâches pour afficher l’historique des tâches et gérer ces dernières.
-keywords: Flux de données ; tâche ; configurer
+keywords: Flux de données;tâche;configurer
 seo-description: Utilisez l’onglet Tâches pour afficher l’historique des tâches et gérer ces dernières.
-seo-title: Tâche des flux de données - présentation
+seo-title: Tâches relatives aux flux de données - Aperçu
 solution: Analytics
-title: Tâche des flux de données - présentation
-uuid: 83 ccaabb -9457-4 e 37-9 d 1 e-f 2 ee 281 daba 6
+title: Tâches relatives aux flux de données - Aperçu
+uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Tâche des flux de données - présentation
+# Tâches relatives aux flux de données - Aperçu
 
 Utilisez l’onglet Tâches pour afficher l’historique des tâches et gérer ces dernières.
 
@@ -35,7 +35,7 @@ Les colonnes Nom du flux, Heure de début et État sont obligatoires et ne peuve
 | Nom du flux | Nom donné au flux. |
 | Heure de début | Heure de début de la tâche, affichée dans votre fuseau horaire. |
 | Heure d’exécution | La durée nécessaire à l’exécution de la tâche. Affichée sous la forme jj hh:mm:ss |
-| État | L'actif [État](../../../export/analytics-data-feed/c-df-jobs/r-job-status.md#reference_7A39A327F643447F9B5AE3A2502C72BA) actuel de la tâche. |
+| État | Le [État](/help/export/analytics-data-feed/c-df-jobs/r-job-status.md) actuel de la tâche. |
 | Heure de fin | L’heure de fin d’exécution de la tâche. Affichée dans votre fuseau horaire. |
 | Date demandée | Horodatage des données comprises dans la tâche. |
 
