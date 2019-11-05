@@ -9,7 +9,7 @@ title: Exemple de code de page et configuration internationale
 topic: Développeur et mise en œuvre
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ Cette section contient l’échantillon de code de votre fichier JavaScript prin
 
 >[!IMPORTANT]
 >
->Dans cet exemple, le service d’identification des visiteurs est utilisé. Il est déployé dans le cadre de votre [mise en œuvre JavaScript](../../implement/js-implementation/javascript-implementation-overview.md). Le fait d’activer ce service dans AppMeasurement avant d’inclure le fichier JavaScript de l’API Visiteur sur toutes les pages du site peut entraîner une comptabilisation des visiteurs en double. Pour éviter ce problème, vous devez comprendre et suivre la procédure décrite à la section [Service d’identification des visiteurs](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>Dans cet exemple, le service d’identification des visiteurs est utilisé. Il est déployé dans le cadre de votre [mise en œuvre JavaScript](/help/implement/js-implementation/javascript-implementation-overview.md). Le fait d’activer ce service dans AppMeasurement avant d’inclure le fichier JavaScript de l’API Visiteur sur toutes les pages du site peut entraîner une comptabilisation des visiteurs en double. Pour éviter ce problème, vous devez comprendre et suivre la procédure décrite à la section [Service d’identification des visiteurs](/help/implement/js-implementation/c-unique-visitors/visid-service.md).
 
 ## Exemple de code AppMeasurement.js {#section_4351543F2D6049218E18B48769D471E2}
 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-Veillez également à inclure une référence à `AppMeasurement.js` et `VisitorAPI.js` sur chaque page. Reportez-vous à la section [Mise en œuvre JavaScript](../../implement/js-implementation/javascript-implementation-overview.md) pour de plus amples informations.
+Veillez également à inclure une référence à `AppMeasurement.js` et `VisitorAPI.js` sur chaque page. Reportez-vous à la section [Mise en œuvre JavaScript](/help/implement/js-implementation/javascript-implementation-overview.md) pour de plus amples informations.
