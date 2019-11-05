@@ -5,7 +5,7 @@ title: Stratégie de rétention des données
 description: Une stratégie de rétention des données détermine la durée pendant laquelle Adobe stocke vos données.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: b135a1d2ddea4857496e90921c22fb30bd44da50
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -45,7 +45,7 @@ La politique de rétention des données définit une période de rétention glis
 
 **Puis-je demander une copie de mes données avant qu’elles ne soient supprimées ?**
 
-Oui. Adobe peut fournir un vidage historique des données brutes au niveau des accès. Pour plus d’informations, voir Flux [de](../export/analytics-data-feed/c-getstarted/data-feed-overview.md) données dans le guide de l’utilisateur Exportation. Si vous avez des besoins en matière d’exportation de données en dehors du cadre de l’interface utilisateur, contactez le gestionnaire de compte de votre entreprise. Des logements spéciaux peuvent être aménagés; les coûts peuvent varier.
+Oui. Adobe peut fournir un vidage historique des données brutes au niveau des accès. Pour plus d’informations, voir Flux [de](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) données dans le guide de l’utilisateur Exportation. Si vous avez des besoins en matière d’exportation de données en dehors du cadre de l’interface utilisateur, contactez le gestionnaire de compte de votre entreprise. Des logements spéciaux peuvent être aménagés; les coûts peuvent varier.
 
 **Quand Adobe supprime-t-il les données ?**
 
