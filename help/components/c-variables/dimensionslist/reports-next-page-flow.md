@@ -7,7 +7,7 @@ title: Flux page suivante
 topic: Rapports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c34530f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ Utilisez ce rapport pour :
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> Cliquez sur <span class="uicontrol">Graphique</span> pour afficher deux niveaux de pages les plus populaires que vos visiteurs consultent après la page sélectionnée. Ce rapport met également en évidence le moment auquel les visiteurs quittent votre site. </p> <p>Cliquez sur <b>Tableau</b> pour afficher les pages suivantes dans une liste semblable au <a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Rapport Page suivante</a>. Cela vous permet également d’explorer chaque rapport <i>Page suivante</i> afin de visualiser les pages suivantes dans chaque flux de deux pages. </p> <p>Les Reports &amp; Analytics utilisent les vues chemin. </p> </td> 
+   <td colname="col2"> <p> Cliquez sur <span class="uicontrol">Graphique</span> pour afficher deux niveaux de pages les plus populaires que vos visiteurs consultent après la page sélectionnée. Ce rapport met également en évidence le moment auquel les visiteurs quittent votre site. </p> <p>Cliquez sur <b>Tableau</b> pour afficher les pages suivantes dans une liste semblable au <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Rapport Page suivante</a>. Cela vous permet également d’explorer chaque rapport <i>Page suivante</i> afin de visualiser les pages suivantes dans chaque flux de deux pages. </p> <p>Les Reports &amp; Analytics utilisent les vues chemin. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
