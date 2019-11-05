@@ -5,7 +5,7 @@ seo-title: Panneaux - Aperçu
 title: Panneaux - Aperçu
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéde
 
 Le Panneau vierge et le Panneau à structure libre sont des emplacements pour démarrer votre analyse, tandis que l’Attribution IQ et la Comparaison des segments se prêtent aux analyses plus avancées. Nous avons également ajouté un bouton de panneau « + » pour que vous puissiez à tout moment ajouter de nouveaux panneaux vierges.
 
-Le panneau de démarrage par défaut est le Panneau à structure libre, mais vous pouvez également choisir d’utiliser le [Panneau vierge](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2) par défaut.
+Le panneau de démarrage par défaut est le Panneau à structure libre, mais vous pouvez également choisir d’utiliser le [Panneau vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) par défaut.
 
 ## Filtres déroulants des panneaux {#section_D2828EEDD52944528E87F470EAB581CF}
 
