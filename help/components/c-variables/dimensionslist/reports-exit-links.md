@@ -7,7 +7,7 @@ title: Liens de sortie
 topic: Rapports
 uuid: e1452f04-389d-4aa3-8763-73280284302
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,6 +35,6 @@ Il convient de respecter certaines exigences pour que cette page soit renseigné
 * Ce rapport est visible en tant que rapport de tendance et avec classement.
 * Ce rapport peut utiliser un filtre de recherche afin de localiser des éléments spécifiques.
 * Vous pouvez créer des [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
-* [Les instances](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) sont les seules mesures disponibles par défaut dans ce rapport. Elles comptabilisent le nombre de fois où le lien de sortie est déclenché.
+* [Les instances](/help/components/c-variables/c-metrics/metrics-instance.md) sont les seules mesures disponibles par défaut dans ce rapport. Elles comptabilisent le nombre de fois où le lien de sortie est déclenché.
 * Vous pouvez activer des visiteurs quotidiens, hebdomadaires, mensuels et trimestriels pour ce rapport. Sachez toutefois que seul un représentant Adobe est habilité à les activer, moyennant paiement. L’activation de visiteurs uniques pour toute variable de suivi de liens personnalisés augmente sensiblement la latence pour la suite de rapports.
 
