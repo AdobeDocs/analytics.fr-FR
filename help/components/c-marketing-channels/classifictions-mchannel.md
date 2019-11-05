@@ -8,16 +8,12 @@ title: Classifications des canaux marketing
 topic: Reports & Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # Classifications des canaux marketing
-
-Utilisez des classifications pour classer les valeurs en groupes apparentés et pour créer des rapports au niveau du groupe. Vous pouvez, par exemple, classer toutes les campagnes de recherche payante dans une catégorie telle que Cartes vidéo. Vous pouvez ensuite créer un rapport sur le succès de cette catégorie par rapport à des mesures du type Instances (ou Clics publicitaires).
-
-## Classifications des canaux marketing {#topic_18E1471F1A584B358E57E191074A7243}
 
 Utilisez des classifications pour classer les valeurs en groupes apparentés et pour créer des rapports au niveau du groupe. Vous pouvez, par exemple, classer toutes les campagnes de recherche payante dans une catégorie telle que Cartes vidéo. Vous pouvez ensuite créer un rapport sur le succès de cette catégorie par rapport à des mesures du type Instances (ou Clics publicitaires).
 
@@ -29,7 +25,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 >
 >Les rapports de classification Canaux marketing se comportent légèrement différemment des classifications standard : lorsque vous créez des classifications pour les rapports Première touche ou Dernière touche, elles sont automatiquement appliquées aux deux. Vous ne pouvez pas classer l’un sans classer l’autre.
 
-## Classifications de canal marketing - Définitions {#section_38D2F8BBA47D444780B65BD84156532D}
+## Classifications de canal marketing - Définitions {#mktg-channel-classifications}
 
 | Terme | Définition |
 |--- |--- |
@@ -37,11 +33,13 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 | Nom | Le nom de la classification. La classification ajoutée figure en tant qu’option Ventilation du canal dans le Gestionnaire de canaux marketing . |
 | Option | Le nom de la classification. La classification ajoutée figure en tant qu’option Ventilation du canal dans le Gestionnaire de canaux marketing . |
 
-## Création de classifications de canal marketing {#task_BCA5597281574E339E71F3BBC1BE3DFA}
+## Création de classifications de canal marketing {#create-mktg-channel-classifications}
 
 Créez des classifications pour le rapport [!UICONTROL Canal marketing].
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
-1. Sur la page [Classifications de canal marketing](../../components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D), indiquez le type de classification.
+<!--
+1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D) page, specify the classification type.
+-->
 1. Sous [!UICONTROL Classifications]**, cliquez sur[!UICONTROL Ajouter classification]** (ou modifiez une classification existante).
