@@ -5,7 +5,7 @@ seo-title: Limitations et spécifications
 title: Limitations et spécifications
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,7 +31,7 @@ La modification d’une requête du Créateur de rapports après sa publication 
    **Voici un exemple de la façon dont la visualisation SERA corrompue :**
 
    1. Dans Créateur de rapports, créez un classeur avec une requête, en utilisant la dimension Page et la mesure Pages vues.
-   1. [Planifiez la publication de cette requête](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) sur Power BI.
+   1. [Planifiez la publication de cette requête](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) sur Power BI.
    1. Dans Power BI, créez une visualisation pour Page et Pages vues.
    1. Maintenant, modifiez le classeur en supprimant Pages vues de la requête.
    1. Modifiez la planification avec le classeur mis à jour et republiez la requête sur Power BI.
@@ -43,7 +43,7 @@ La modification d’une requête du Créateur de rapports après sa publication 
    **Voici un exemple de la façon dont la visualisation NE sera PAS corrompue :**
 
    1. Dans Créateur de rapports, créez un classeur avec une requête, en utilisant la dimension Page et la mesure Pages vues.
-   1. [Planifiez la publication de cette requête](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) sur Power BI.
+   1. [Planifiez la publication de cette requête](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) sur Power BI.
    1. Dans Power BI, créez une visualisation pour Page et Pages vues.
    1. Maintenant, modifiez le classeur dans Créateur de rapports, en ajoutant la mesure Visites tout en conservant Page et Pages vues.
    1. Modifiez la planification avec le classeur mis à jour et republiez la requête sur Power BI.
