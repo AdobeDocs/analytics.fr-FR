@@ -5,7 +5,7 @@ seo-title: Alertes d’utilisation des appels serveur
 title: Alertes d’utilisation des appels serveur
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -67,12 +67,12 @@ Pour gérer des alertes :
 
    | Action | Définition |
    |--- |--- |
-   | + Ajouter | Accédez au [Générateur d’alertes](../../admin/c-server-call-usage/scu-alerts.md) en cliquant sur [!UICONTROL + Ajouter] |
+   | + Ajouter | Accédez au [Générateur d’alertes](/help/admin/c-server-call-usage/scu-alerts.md) en cliquant sur [!UICONTROL + Ajouter] |
    | Baliser | Ajoutez des balises aux alertes pour les organiser et les utiliser plus facilement. |
    | Supprimer | Vous pouvez supprimer toutes les alertes sauf les alertes par défaut. |
    | Renommer | Vous pouvez renommer toutes les alertes sauf les alertes par défaut. |
    | Approuver | Approuvez les alertes pour les rendre "officielles". |
    | Activer/Désactiver | Vous pouvez activer ou désactiver toutes les alertes sauf les alertes par défaut. |
    | Renouveler | Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées. Cela prolonge leur date d’expiration d’un an à partir du moment où vous avez cliqué sur l’option [!UICONTROL Renouveler], quelle que soit leur date d’expiration d’origine. |
-   | Exporter dans un fichier CSV | Reportez-vous à [Télécharger le rapport d’utilisation](../../admin/c-server-call-usage/report-suite-usage.md). |
+   | Exporter dans un fichier CSV | Reportez-vous à [Télécharger le rapport d’utilisation](/help/admin/c-server-call-usage/report-suite-usage.md). |
 
