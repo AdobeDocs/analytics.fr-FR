@@ -1,19 +1,19 @@
 ---
 description: Configuration requise pour Analysis Workspace.
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 seo-description: Configuration requise pour Analysis Workspace.
-seo-title: Conditions requises pour l'administration
+seo-title: Configuration requise pour l’administration
 solution: Analytics
-title: Conditions requises pour l'administration
-topic: Reports and Analytics
-uuid: 6 c 8 bfeaa -0 cf 8-435 d-a 4 d 1-67 e 2 cb 55 da 4 c
+title: Configuration requise pour l’administration
+topic: Reports & Analytics
+uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
 
-# Conditions requises pour l'administration
+# Configuration requise pour l’administration
 
 Configuration requise pour Analysis Workspace.
 
@@ -37,7 +37,7 @@ Configuration requise pour Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Utilisateurs </td> 
-   <td colname="col2"> <p>Pour activer l’accès à l’onglet Analysis Workspace dans Analytics, les administrateurs doivent ajouter des utilisateurs au groupe <span class="uicontrol">Analysis Workspace Access</span> (Accès à Analysis Workspace) sous <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Gestion des utilisateurs</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Groupes</a>. </p> </td> 
+   <td colname="col2"> <p>Pour activer l’accès à l’onglet Analysis Workspace dans Analytics, les administrateurs doivent ajouter des utilisateurs au groupe <span class="uicontrol">Analysis Workspace Access</span> (Accès à Analysis Workspace) sous <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Gestion des utilisateurs</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Groupes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transfert de projets </td> 
