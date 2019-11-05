@@ -1,37 +1,37 @@
 ---
-title: Transition d'une plateforme d'analyse tierce vers Adobe Analytics
-description: Découvrez les concepts clés pour obtenir des rapports, destinés aux utilisateurs familiarisés avec d'autres plateformes, telles que Google Analytics.
+title: Transition d’une plateforme d’analyse tierce vers Adobe Analytics
+description: Découvrez les concepts clés pour obtenir des rapports destinés aux utilisateurs familiarisés avec d’autres plateformes, comme Google Analytics.
 translation-type: tm+mt
-source-git-commit: a5f612ba5e8446a56bc2bd252a8781e8ab1de403
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Transition d'une plateforme d'analyse tierce vers Adobe Analytics
+# Transition d’une plateforme d’analyse tierce vers Adobe Analytics
 
-Ce guide présente les types de rapports courants qui vous permettent d'apprendre les concepts et les flux de travail principaux dans Adobe Analytics, en vous concentrant sur les similarités clés et les différences entre Adobe et d'autres outils populaires. Ce guide est destiné aux analystes familiarisés avec les concepts d'analyse numérique de base, mais qui sont nouveaux à Adobe Analytics. Il suppose que l'organisation dispose d'une implémentation opérationnelle qui envoie des données aux serveurs de collecte de données Adobe. If your organization has not yet set up an Adobe Analytics implementation, start with the [Adobe Analytics First Admin Guide](../../admin/admin-console/first-admin-guide.md).
+Ce guide présente les types de rapports courants qui vous aident à découvrir les concepts et processus de base dans Adobe Analytics, en vous concentrant sur les principales similarités et différences entre Adobe et d’autres outils courants. Ce guide s’adresse aux analystes qui connaissent bien les concepts de base des analyses numériques, mais qui ne connaissent pas Adobe Analytics. Cela suppose que l’entreprise dispose d’une implémentation opérationnelle qui envoie des données aux serveurs de collecte de données Adobe. Si votre entreprise n’a pas encore configuré de mise en oeuvre d’Adobe Analytics, commencez par le Guide [d’administration d’](/help/admin/admin-console/first-admin-guide.md)Adobe Analytics First Admin.
 
-Google Analytics et Adobe Analytics sont des plates-formes puissantes pour obtenir des informations précieuses sur les performances de votre site Web. Chacun dispose de son propre architecture de traitement et d'une interface utilisateur, offrant ainsi des avantages uniques à chaque plate-forme. Ce guide vise à aider un utilisateur à accéder à Google Analytics avec Google Analytics.
+Google Analytics et Adobe Analytics sont des plates-formes puissantes qui permettent d’obtenir des informations précieuses sur les performances de votre site Web. Chacun possède sa propre architecture de traitement et son propre interface utilisateur, ce qui confère à chaque plateforme des avantages uniques. Ce guide a pour but d’aider un utilisateur expérimenté avec Google Analytics à se familiariser avec Adobe Analytics.
 
-Dans Adobe Analytics, il existe deux manières principales d'extraire les rapports de base après la connexion à Adobe Experience Cloud :
+Dans Adobe Analytics, il existe deux méthodes principales pour extraire les rapports de base après connexion à Adobe Experience Cloud :
 
-* **Rapports et analyses** est la méthode historique permettant d'extraire des rapports de base. Le menu gauche fournit une liste des rapports préfabriqués et permet à l'utilisateur de naviguer jusqu'à un rapport souhaité et d'obtenir des données. Les segments et les mesures peuvent fournir des personnalisations supplémentaires. Cette disposition est familiarisée avec les utilisateurs familiarisés avec les rapports Google Analytics.
-* **Analysis Workspace** est la méthode recommandée actuellement pour extraire la plupart des rapports. Le menu de gauche permet à l'utilisateur de faire glisser des composants pour créer leur propre rapport. Elle offre beaucoup plus de liberté pour répondre aux besoins exacts de rapports. Cette disposition est familiarisée avec les utilisateurs familiarisés avec la création des tableaux de bord Google Analytics et des rapports personnalisés.
+* **Rapports et analyses** est la méthode historique d’extraction des rapports de base. Le menu de gauche fournit une liste de rapports préfabriqués et permet à l’utilisateur d’accéder au rapport souhaité et d’obtenir des données. Les segments et les mesures peuvent fournir des personnalisations supplémentaires. Les utilisateurs expérimentés dans les rapports Google Analytics peuvent trouver cette disposition familière.
+* **Analysis Workspace** est la méthode actuellement recommandée pour extraire la plupart des rapports. Le menu de gauche permet à l'utilisateur de faire glisser des composants pour créer son propre rapport. Il offre une plus grande liberté pour répondre aux besoins précis en matière de rapports. Les utilisateurs expérimentés dans la création de tableaux de bord et de rapports personnalisés Google Analytics peuvent trouver cette disposition familière.
 
-La plupart des rapports peuvent être créés dans les rapports et analyses et dans Analysis Workspace. Toutefois, certains rapports ne peuvent être extraits qu'à l'aide d'une plateforme ou de l'autre. Dans la plupart des cas, Adobe recommande d'utiliser Analysis Workspace, sauf si une fonctionnalité spécifique est disponible uniquement dans les rapports et analyses.
+La plupart des rapports peuvent être créés dans les rapports et analyses et dans Analysis Workspace. Cependant, certains rapports ne peuvent être extraits qu’à l’aide d’une plateforme ou d’une autre. Dans la plupart des cas, Adobe conseille d’utiliser Analysis Workspace, sauf si une fonction spécifique n’est disponible que dans les rapports et analyses.
 
-## Chemin d'apprentissage recommandé
+## Chemin d’apprentissage recommandé
 
-Adobe recommande de commencer par les principes de base absolus d'obtention des données de rapport :
+Adobe recommande de commencer par les principes de base absolus de l’obtention des données de rapport :
 
-* [Création d'un rapport de base dans Analysis Workspace pour les utilisateurs GA](reports/create-report.md)
+* [Création d’un rapport de base dans Analysis Workspace pour les utilisateurs de GA](reports/create-report.md)
 
-Une fois que vous êtes familiarisé avec les composants d'Analysis Workspace, vous pouvez apprendre à recréer la plupart des rapports à l'aide des composants appropriés.
+Une fois que vous êtes familiarisé avec les composants d’Analysis Workspace, vous pouvez apprendre à recréer la plupart des rapports à l’aide des composants appropriés.
 
-* [Créer des rapports en temps réel dans Adobe Analytics](reports/realtime-reports.md)
-* [Création de rapports d'audience dans Adobe Analytics](reports/audience-reports.md)
-* [Création de rapports d'acquisition dans Adobe Analytics](reports/acquisition-reports.md)
+* [Création de rapports en temps réel dans Adobe Analytics](reports/realtime-reports.md)
+* [Création de rapports Audience dans Adobe Analytics](reports/audience-reports.md)
+* [Création de rapports d’acquisition dans Adobe Analytics](reports/acquisition-reports.md)
 * [Création de rapports de comportement dans Adobe Analytics](reports/behavior-reports.md)
-* [Création de rapports Conversions dans Adobe Analytics](reports/conversions-reports.md)
+* [Création de rapports de conversion dans Adobe Analytics](reports/conversions-reports.md)
 
-After learning to pull reports, understanding [processing and architecture differences](processing-differences.md) can help reconcile the different numbers obtained between platforms. [Une FAQ](faq.md) est également disponible.
+Après avoir appris à extraire des rapports, la compréhension des différences [de](processing-differences.md) traitement et d’architecture peut aider à concilier les différents nombres obtenus entre les plateformes. Une [FAQ](faq.md) est également disponible.
