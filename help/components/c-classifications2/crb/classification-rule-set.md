@@ -8,7 +8,7 @@ title: Jeux de règles de classification
 topic: Outils d’administration
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. Vous appliquez une variable au jeu de règles. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports.
 
-## Jeux de règles de classification {#concept_CD3D510F5070486584F3BB535AE41524}
+## Jeux de règles de classification
 
 Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. Vous appliquez une variable au jeu de règles. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports.
 
@@ -36,7 +36,7 @@ Les champs et options ci-dessous sont disponibles sur la page [!UICONTROL Créat
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B" format="dita" scope="local"> Ajouter un jeu de règles</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > Ajouter un jeu de règles</a> </p> </td> 
    <td colname="col2"> <p>Crée un jeu de règles. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Les champs et options ci-dessous sont disponibles sur la page [!UICONTROL Créat
  </tbody> 
 </table>
 
-## Create a Classification Rule Set {#task_86F216DFD2534FA181E64ABDF306782B}
+## Create a Classification Rule Set {#create-classification-rule-set}
 
 <!-- 
 
@@ -89,6 +89,6 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
 
    La liste des suites de rapports et des variables contient toutes les variables classées disponibles dans l’ensemble des suites de rapports de la société qui a établi la connexion. Une variable unique d’une suite de rapports ne peut appartenir qu’à un seul jeu de règles.
 
-   Voir *`Variable`* dans les définitions de la page [Créateur de règles de classifications](../../../components/c-classifications2/crb/classification-rule-definitions.md#section_4D1A70A607C9419EB2116A5174EACB72) pour plus d’informations.
+   Voir *`Variable`* dans les définitions de la page [Créateur de règles de classifications](/help/components/c-classifications2/crb/classification-rule-definitions.md) pour plus d’informations.
 1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) to the rule set.
+1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
