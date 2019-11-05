@@ -3,8 +3,8 @@ title: Déploiement d’Adobe Analytics dans un environnement de développement
 seo-title: Déploiement d’Adobe Analytics dans un environnement de développement
 description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics dans votre environnement de développement.
 seo-description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics dans votre environnement de développement.
-translation-type: ht
-source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -21,7 +21,7 @@ Une fois que votre bibliothèque Adobe Experience Platform Launch est envoyée e
 
 Le débogueur Experience Cloud est un module externe Chrome qui affiche toutes les balises Experience Cloud présentes sur une page.
 
-1. Ouvrez [le navigateur web Chrome](https://www.google.com/chrome/) et accédez à [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) sur la boutique en ligne Chrome pour installer l’extension.
+1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
 2. Accédez à votre site web de développement sur lequel vous avez mis en œuvre Launch.
 3. Cliquez sur l’icône d’Adobe Experience Cloud Debugger dans l’angle supérieur droit de Chrome.
 4. Si tout est correctement mis en œuvre, le contenu doit s’afficher dans Adobe Analytics, dans Adobe Experience Platform Launch et dans le service d’identification des visiteurs d’Adobe Experience Cloud :
@@ -66,4 +66,4 @@ Sur votre site, ouvrez la console de développement du navigateur (généralemen
 Maintenant qu’une mise en œuvre de base a été configurée, votre rôle au sein de votre organisation peut influencer le chemin sur lequel vous souhaitez davantage d’informations :
 
 * [Création d’un document de conception de solution](../prepare/solution-design.md) : planifier l’utilisation des variables personnalisées, puis les intégrez à votre mise en œuvre
-* [Prise en main de l’utilisation d’Analysis Workspace](../../analyze/analysis-workspace/home.md) : passer directement à Adobe Analytics à l’aide de la fonctionnalité phare de l’outil.
+* [Prise en main de l’utilisation d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) : passer directement à Adobe Analytics à l’aide de la fonctionnalité phare de l’outil.
