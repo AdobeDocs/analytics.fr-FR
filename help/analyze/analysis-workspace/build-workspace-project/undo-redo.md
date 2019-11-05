@@ -5,7 +5,7 @@ seo-title: Paramètres d’annulation et de rétablissement
 title: Paramètres d’annulation et de rétablissement
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * Vous pouvez annuler/rétablir une modification de la suite de rapports.
 * Un message d’annulation/de rétablissement s’affiche à côté du nom du projet, indiquant quand une annulation ou un rétablissement est en cours.
-* Vous pouvez utiliser les [touches d’accès rapide suivantes](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* Vous pouvez utiliser les [touches d’accès rapide suivantes](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
    * CTRL (CMD) + Z pour annuler
    * CTRL (CMD) + MAJ + Z pour rétablir
