@@ -8,7 +8,7 @@ title: À propos des canaux et des règles
 topic: Reports & Analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,18 +21,20 @@ Vous devez concevoir un canal comme un conteneur pour les visites. Les règles a
 
 ![](assets/buckets_2.png)
 
-Adobe fournit plusieurs canaux prédéfinis au cours d’une [configuration automatique](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B), que vous pouvez modifier en fonction de vos besoins.
+Adobe fournit plusieurs canaux prédéfinis au cours d’une [configuration automatique](/help/components/c-marketing-channels/c-channel-autosetup.md), que vous pouvez modifier en fonction de vos besoins.
 
-> [!NOTE] Adobe recommande de configurer votre rapport dans une suite de rapports que vous pouvez utiliser comme modèle à des fins de test. Le modèle sera ensuite utilisé pour appliquer les ensembles de canaux et de règles globalement à une ou plusieurs suites de rapports de production.
+>[!NOTE]
 >
->Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+> Adobe recommande de configurer votre rapport dans une suite de rapports que vous pouvez utiliser comme modèle à des fins de test. Le modèle sera ensuite utilisé pour appliquer les ensembles de canaux et de règles globalement à une ou plusieurs suites de rapports de production.
+>
+>Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/t-template.md).
 
 Consultez les sections suivantes :
 
-* [Conditions préalables](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [Remarques importantes sur le traitement](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [Conditions préalables](/help/components/c-marketing-channels/c-channels-rules.md#prereqs)
+* [Remarques importantes sur le traitement](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
-## Conditions préalables {#section_9913D2932E3140C099B7978CA95378B2}
+## Conditions préalables {#prereqs}
 
 En cas de besoin, contactez l’assistance clientèle pour obtenir de l’aide au sujet des conditions préalables :
 
@@ -42,11 +44,11 @@ En cas de besoin, contactez l’assistance clientèle pour obtenir de l’aide a
 
 * Configurez l’accès des groupes d’utilisateurs au rapport **[!UICONTROL Canal marketing]**.
 
-   See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C).
+   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
 
 * Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 
-## Important processing notes {#section_DE372EEF02314F2395750CF2892DAAE1}
+## Important processing notes {#important-proc-rules}
 
 * Le système traite les règles dans l’ordre spécifié ; lorsqu’une règle est vérifiée, le système cesse le traitement des règles restantes.
 * Les règles peuvent accéder aux variables que VISTA a définies, mais pas aux données que VISTA a supprimées.
