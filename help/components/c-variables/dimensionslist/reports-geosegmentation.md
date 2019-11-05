@@ -7,7 +7,7 @@ title: Géosegmentation
 topic: Rapports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,7 +32,7 @@ Toutes les mesures disponibles à d’autres emplacements dans les Reports &amp;
   </tr> 
   <tr> 
    <td colname="col1"> Régions </td> 
-   <td colname="col2"> <p> Zone géographique plus petite qu’un pays, mais plus grande qu’une ville. Dans certains pays, une région est un état, une province ou une préfecture. Dans d’autres, il peut s’agir d’un pays constitutif, d’un département ou d’une région métropolitaine. À droite de chaque région affichée, le pays de la région est également indiqué entre parenthèses. </p> <p>Dans le détail du tableau, cliquez sur Exécuter un rapport Villes pour cette région (la loupe) afin d’exécuter un rapport comparant les performances de plusieurs villes d’une région sélectionnée. </p> <p>Voir <a href="../../../components/c-variables/dimensionslist/reports-geosegmentation-reference.md#concept_F7D998B418544B39ACD8838B48B732F1" format="dita" scope="local"> Utilisation des régions et codes postaux de géosegmentation par pays</a> pour découvrir les pays qui utilisent des régions. </p> </td> 
+   <td colname="col2"> <p> Zone géographique plus petite qu’un pays, mais plus grande qu’une ville. Dans certains pays, une région est un état, une province ou une préfecture. Dans d’autres, il peut s’agir d’un pays constitutif, d’un département ou d’une région métropolitaine. À droite de chaque région affichée, le pays de la région est également indiqué entre parenthèses. </p> <p>Dans le détail du tableau, cliquez sur Exécuter un rapport Villes pour cette région (la loupe) afin d’exécuter un rapport comparant les performances de plusieurs villes d’une région sélectionnée. </p> <p>Voir <a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  > Utilisation des régions et codes postaux de géosegmentation par pays</a> pour découvrir les pays qui utilisent des régions. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Villes </td> 
