@@ -8,7 +8,7 @@ title: Considérations sur les suites de rapports virtuelles et le balisage glob
 topic: Reports & Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -51,7 +51,7 @@ Résumé:
 * Les rapports en temps réel ne sont pas pris en charge dans les suites de rapports virtuelles, car les données sont segmentées.
 * Les « données actives » ne sont pas prises en charge dans les suites de rapports virtuelles, car elles ne prennent pas en charge la segmentation.
 
-[Les rapports](/help/admin/admin/realtime/t-realtime-admin.md) en temps réel et ["Données actives"](../../technotes/latency.md) ne sont pas disponibles dans les suites de rapports virtuelles. Ces fonctions de Reports &amp; Analytics permettent d’accéder à des types de données limités, en quelques secondes ou minutes. L’une des restrictions de ces vues réside dans le fait qu’elles ne prennent pas en charge la segmentation. En d’autres termes, les données en temps réel dans Reports &amp; Analytics ne peuvent pas être segmentées. Étant donné qu’une suite de rapports virtuelle est générée à l’aide de la segmentation, elle est incompatible avec les rapports en temps réel. Cela affecte les utilisateurs qui réagissent aux tendances rencontrées dans Adobe Analytics en quelques secondes ou quelques minutes de collecte de données, comme le font les éditeurs dans une salle de presse en ajustant les titres selon la consommation de contenu en temps réel. Dans ce cas :
+[Les rapports](/help/admin/admin/realtime/t-realtime-admin.md) en temps réel et ["Données actives"](/help/technotes/latency.md) ne sont pas disponibles dans les suites de rapports virtuelles. Ces fonctions de Reports &amp; Analytics permettent d’accéder à des types de données limités, en quelques secondes ou minutes. L’une des restrictions de ces vues réside dans le fait qu’elles ne prennent pas en charge la segmentation. En d’autres termes, les données en temps réel dans Reports &amp; Analytics ne peuvent pas être segmentées. Étant donné qu’une suite de rapports virtuelle est générée à l’aide de la segmentation, elle est incompatible avec les rapports en temps réel. Cela affecte les utilisateurs qui réagissent aux tendances rencontrées dans Adobe Analytics en quelques secondes ou quelques minutes de collecte de données, comme le font les éditeurs dans une salle de presse en ajustant les titres selon la consommation de contenu en temps réel. Dans ce cas :
 
 * Envisagez d’utiliser le balisage multisuite pour vous assurer que chaque utilisateur ne voit que les données en temps réel qu’il doit être autorisé à voir, ou
 * Accordez à ces utilisateurs l’accès à une vraie suite de rapports (globale) s’ils doivent être autorisés à accéder à votre jeu de données complet.
@@ -63,7 +63,7 @@ Résumé:
 * Les suites de rapports virtuelles n’ont pas leur propre valeur unique pour les dimensions et les héritent de leur suite de rapports parente.
 * Si vos utilisateurs d’Adobe Analytics ont besoin d’accéder à toutes les valeurs d’une dimension qui reçoit fréquemment plus de 500 000 valeurs uniques par mois, envisagez de continuer à utiliser la balise multisuite.
 
-Dans les cas de cardinalité élevée (grand nombre de valeurs uniques dans une dimension donnée, comme les SKU de produit ou les pages), les intervalles Adobe Analytics ont rarement rencontré les valeurs chaque mois dans une ligne "Faible trafic" agrégée au sein d’une dimension donnée dans une suite de rapports. Les valeurs incluses dans le compartiment "Faible trafic" ne peuvent pas être segmentées. Cela permet aux requêtes Adobe Analytics de renvoyer une valeur rapidement, tout en se concentrant sur les 500 000 premiers éléments de ligne qui sont affichés le plus souvent pour la dimension sur vos propriétés numériques. (Par exemple, il peut s’agir de vos 500 000 premiers noms de page.) Vous pouvez en savoir plus sur les limites de valeur uniques [ici](../../technotes/low-traffic.md).
+Dans les cas de cardinalité élevée (grand nombre de valeurs uniques dans une dimension donnée, comme les SKU de produit ou les pages), les intervalles Adobe Analytics ont rarement rencontré les valeurs chaque mois dans une ligne "Faible trafic" agrégée au sein d’une dimension donnée dans une suite de rapports. Les valeurs incluses dans le compartiment "Faible trafic" ne peuvent pas être segmentées. Cela permet aux requêtes Adobe Analytics de renvoyer une valeur rapidement, tout en se concentrant sur les 500 000 premiers éléments de ligne qui sont affichés le plus souvent pour la dimension sur vos propriétés numériques. (Par exemple, il peut s’agir de vos 500 000 premiers noms de page.) Vous pouvez en savoir plus sur les limites de valeur uniques [ici](/help/technotes/low-traffic.md).
 
 Les suites de rapports virtuelles n’ont pas leur propre ensemble de 500 000 valeurs uniques par dimension et par mois. Si la suite de rapports sur laquelle repose une suite de rapports virtuelle a dépassé 500 000 valeurs uniques pour une dimension donnée et a commencé à combiner des valeurs de fréquence inférieure dans l’élément de ligne Faible trafic pour cette dimension, vous pouvez également voir "Faible trafic" dans la suite de rapports virtuelle.
 
