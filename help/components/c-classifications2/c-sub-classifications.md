@@ -8,7 +8,7 @@ title: À propos des sous-classifications
 topic: Outils d’administration
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -42,7 +42,7 @@ Chaque classification de ce modèle est indépendante et correspond à un nouvea
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Pour plus d’informations sur le fichier de données, consultez [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Pour plus d’informations sur le fichier de données, consultez [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 <!-- 
 
@@ -54,7 +54,7 @@ Les classifications à plusieurs niveaux comprennent les classifications parente
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique (Voir [Classifications à niveau unique](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
+**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique (Voir [Classifications à niveau unique](/help/components/c-classifications2/c-sub-classifications.md)).
 
 **Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications filles fournissent des informations supplémentaires sur leur classification parente. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification fille de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
 
@@ -62,7 +62,7 @@ Chaque classification, parent ou enfant, constitue une colonne de données dans 
 
 `<parent_name>^<child_name>`
 
-Pour plus d’informations sur le format de fichier de données, voir Fichiers [de données de](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)classification.
+Pour plus d’informations sur le format de fichier de données, voir Fichiers [de données de](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)classification.
 
 Par exemple :
 
