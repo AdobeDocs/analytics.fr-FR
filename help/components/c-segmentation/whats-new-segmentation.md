@@ -5,7 +5,7 @@ seo-title: Nouveautés de la segmentation dans Analytics
 title: Nouveautés de la segmentation dans Analytics
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,19 +14,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
 
-* [Novembre 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_EAF1A19D50774E8CB822A64B29495D80)
-* [octobre 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_543F31389665406A9106C0DACDA089AD)
-* [Septembre 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_ECC5516509BB4774A439BD22ED5803CD)
-* [Juin 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_3A4B77FC1FA5422BB14516065F066B21)
-* [Janvier 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_95A4D824A5DC423AB594F3D6ADCF229D)
-* [Novembre 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_BCD702E34E134D06AF936AE475D7B4B8)
-* [octobre 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_B1F82BE6425647BE8C003606EB73EE10)
-* [Septembre 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_C43C11F33EB54F928268304F3D4867AA)
-* [octobre 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_486A4F65270B423B9F7457ED4CB6429E)
-* [Septembre 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_6FF28E134DE647FDA4CC1FD7DC1FADC8)
-* [Août 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_8AD156B1DCB74D938A0501365F77D4ED)
-* [Juillet 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
-* [Mai 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
+* [Novembre 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [octobre 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Septembre 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Juin 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Janvier 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Novembre 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [octobre 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Septembre 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [octobre 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Septembre 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Août 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Juillet 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Mai 2014](/help/components/c-segmentation/whats-new-segmentation.md)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -75,7 +75,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
    <td colname="col2"> <p>Dans une clause "dans", entre les instructions ALORS, vous pouvez ajouter, par exemple, "dans 1 instance de mot-clé de recherche", "dans 1 instance eVar 47". Le segment est ainsi limité à une instance d’une dimension. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace : <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">Utilisation des segments dans l’analyse des abandons </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace : <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  >Utilisation des segments dans l’analyse des abandons </a> </p> </td> 
    <td colname="col2"> <p>Dans Analysis Workspace, vous pouvez créer des segments d’après un point de contact, ajouter des segments comme points de contact et comparer des processus clés pour plusieurs segments. </p> </td> 
   </tr> 
  </tbody> 
@@ -106,7 +106,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; Comparaison de segments </p> </td> 
-   <td colname="col2"> <p> Le panneau de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html" format="https" scope="external">comparaison de segments</a> (Segment IQ) d’Analysis Workspace permet aux clients de comparer rapidement deux segments Analytics pour trouver les différences les plus significatives entre eux dans tous les points de données. </p> </td> 
+   <td colname="col2"> <p> Le panneau de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  >comparaison de segments</a> (Segment IQ) d’Analysis Workspace permet aux clients de comparer rapidement deux segments Analytics pour trouver les différences les plus significatives entre eux dans tous les points de données. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Autorisation <span class="wintitle">Créer un segment</span> </p> </td> 
-   <td colname="col2"> <p>Les utilisateurs qui ne disposent pas de l’autorisation <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Créer un segment</a> ne peuvent plus accéder au Créateur de segments. </p> </td> 
+   <td colname="col2"> <p>Les utilisateurs qui ne disposent pas de l’autorisation <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Créer un segment</a> ne peuvent plus accéder au Créateur de segments. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Modifications apportées aux autorisations du Créateur de segments </p> </td> 
-   <td colname="col2"> <p>L’utilisateur Admin peut limiter les utilisateurs autorisés à créer de nouveaux segments. Par défaut, tous les utilisateurs peuvent créer des segments. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> Plus...</a> </p> </td> 
+   <td colname="col2"> <p>L’utilisateur Admin peut limiter les utilisateurs autorisés à créer de nouveaux segments. Par défaut, tous les utilisateurs peuvent créer des segments. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > Plus...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
