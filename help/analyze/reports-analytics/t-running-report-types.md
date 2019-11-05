@@ -7,7 +7,7 @@ title: Exécution de différents types de rapports
 topic: Rapports,Reports & Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -186,7 +186,7 @@ La détection des anomalies présente deux types de graphiques : un graphique s
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Si les limites inférieures et la valeur attendue sont identiques, le % d’écart est de -100 %. </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Sinon, le % d’écart est ((valeur limite inférieure - valeur réelle) / (valeur attendue - valeur limite inférieure)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Cliquez sur <span class="uicontrol">Afficher Segments</span> pour afficher le rail des segments à partir duquel vous pouvez appliquer des segments à un rapport de détection des anomalies. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> Plus d’informations</a> sur la segmentation. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Cliquez sur <span class="uicontrol">Afficher Segments</span> pour afficher le rail des segments à partir duquel vous pouvez appliquer des segments à un rapport de détection des anomalies. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > Plus d’informations</a> sur la segmentation. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Cliquez sur <span class="uicontrol">Modifier des mesures</span> pour sélectionner et désélectionner des mesures pour lesquelles vous souhaitez détecter des anomalies. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -241,7 +241,7 @@ Configurez la détection des anomalies indépendamment pour chaque suite de rapp
 
    Voir le [guide de segmentation d’Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) pour en savoir plus sur la création et la gestion des segments. 1. (Facultatif) Définissez le rapport comme favori ou signet.
 1. (Facultatif) Modifiez la date de fin de la période d’affichage. La valeur par défaut est « hier ». 
-1. Vous pouvez à présent commencer à interpréter le rapport [Affichage des graphiques](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de détection des anomalies.
+1. Vous pouvez à présent commencer à interpréter le rapport [Affichage des graphiques](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de détection des anomalies.
 
 ## Exécution d’un rapport en temps réel {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -268,7 +268,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Sélectionner une suite de rapports</strong></td> 
-   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">Configuration de rapports en temps réel </a>. </td> 
+   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >Configuration de rapports en temps réel </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Basculer entre les rapports</strong></td> 
