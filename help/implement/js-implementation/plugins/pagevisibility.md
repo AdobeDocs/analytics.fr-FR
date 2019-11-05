@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: Développeur et mise en œuvre
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,7 +19,7 @@ Consigne la durée en secondes pendant laquelle votre page a été l’onglet ac
 
 > [!NOTE] Il s’agit d’une version bêta du module externe ; d’autres mises à jour pourront être publiées par la suite.
 
-Ce module externe exige [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Ce module externe exige [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md).
 
 Ce module externe consigne également la durée totale en secondes pendant laquelle la page s’est trouvée dans le navigateur (durée d’affichage active et passive). Vous devez utiliser le module externe getPreviousValue pour effectuer le suivi du nom de page précédent associé aux événements de visibilité de la page. Le suivi de ces valeurs permet de mieux comprendre l’engagement des visiteurs et d’effectuer un suivi plus précis sur le comportement des visiteurs sur vos sites.
 
