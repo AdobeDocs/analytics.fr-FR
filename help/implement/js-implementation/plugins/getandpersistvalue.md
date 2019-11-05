@@ -9,7 +9,7 @@ title: getAndPersistValue
 topic: Développeur et mise en œuvre
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Le module externe getAndPersistValue obtient la valeur de votre choix et l’ins
 
 >[!IMPORTANT]
 >
->Ce module externe n’a pas été validé pour être compatible avec [AppMeasurement pour JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). Reportez-vous à la section [Prise en charge des modules externes dans AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Ce module externe n’a pas été validé pour être compatible avec [AppMeasurement pour JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md). Reportez-vous à la section [Prise en charge des modules externes dans AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 
 Vous pouvez, par exemple, utiliser ce module externe pour définir un code de suivi de campagne à partir de la variable *`campaign`* dans une variable Trafic personnalisé (*`s.prop`*) sur la page vue de chaque visiteur pendant les 30 jours suivants. Cela vous permet de déterminer le nombre de pages vues que le code de suivi a générées à la suite du clic publicitaire initial.
 
