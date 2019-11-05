@@ -5,7 +5,7 @@ seo-title: Questions fréquentes
 title: Questions fréquentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,43 +14,43 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 These changes to the way calculated metrics work in [!DNL Analytics] may impact you.
 
-[Comment puis-je accéder au créateur de mesures calculées ?](../../components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
+[Comment puis-je accéder au créateur de mesures calculées ?](/help/components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
 
-[Comment puis-je accéder au Gestionnaire de mesures calculées ?](../../components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
+[Comment puis-je accéder au Gestionnaire de mesures calculées ?](/help/components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
 
-[Pourquoi vois-je de nombreuses mesures calculées avec le même nom ?](../../components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
+[Pourquoi vois-je de nombreuses mesures calculées avec le même nom ?](/help/components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
 
-[Qu’est-il advenu de mes mesures calculées globales ?](../../components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
+[Qu’est-il advenu de mes mesures calculées globales ?](/help/components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
 
-[Qu’est-il advenu des mesures calculées globales qui étaient partagées au sein des sociétés de connexion ?](../../components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
+[Qu’est-il advenu des mesures calculées globales qui étaient partagées au sein des sociétés de connexion ?](/help/components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
 
-[Qu’est-il advenu des mesures calculées avec une classification numérique ou numérique2 ?](../../components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
+[Qu’est-il advenu des mesures calculées avec une classification numérique ou numérique2 ?](/help/components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
 
-[Qu’est-il advenu des mesures de durée de vie ?](../../components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
+[Qu’est-il advenu des mesures de durée de vie ?](/help/components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
 
-[Qu’ai-je besoin de savoir sur les mesures calculées selon les mesures Visiteur unique quotidiennes/hebdomadaires/mensuelles/annuelles ?](../../components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
+[Qu’ai-je besoin de savoir sur les mesures calculées selon les mesures Visiteur unique quotidiennes/hebdomadaires/mensuelles/annuelles ?](/help/components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
 
-[Qu’en est-il des mesures calculées créées ou gérées avec les méthodes de l’ancienne API de suite de rapports ?](../../components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
+[Qu’en est-il des mesures calculées créées ou gérées avec les méthodes de l’ancienne API de suite de rapports ?](/help/components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
 
-[Les données actives prennent-elles en charge tous les types de mesures calculées ?](../../components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
+[Les données actives prennent-elles en charge tous les types de mesures calculées ?](/help/components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
 
-[Que signifie « Aucun nom fourni » en association avec des mesures calculées migrées ?](../../components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
+[Que signifie « Aucun nom fourni » en association avec des mesures calculées migrées ?](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
 
-[Qu’advient-il des mesures calculées d’un utilisateur si cet utilisateur a été supprimé ?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
+[Qu’advient-il des mesures calculées d’un utilisateur si cet utilisateur a été supprimé ?](/help/components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[Pourquoi vois-je des mesures calculées "inconnues" qui ne sont pas "valides" pour d’autres suites de rapports, même si elles peuvent être créées et appliquées à ces suites de rapports ?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[Pourquoi vois-je des mesures calculées "inconnues" qui ne sont pas "valides" pour d’autres suites de rapports, même si elles peuvent être créées et appliquées à ces suites de rapports ?](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
-[Pourquoi des modifications que j’ai apportées à mes mesures calculées héritées n’ont-t-elles pas été enregistrées ?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
+[Pourquoi des modifications que j’ai apportées à mes mesures calculées héritées n’ont-t-elles pas été enregistrées ?](/help/components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[Pourquoi mes mesures calculées ne s’affichent-elles pas dans le rapport Canaux marketing ?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[Pourquoi mes mesures calculées ne s’affichent-elles pas dans le rapport Canaux marketing ?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
-[Pourquoi certaines des mesures calculées affichent-elles des formules sans les parenthèses que j’ai ajoutées ?](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
+[Pourquoi certaines des mesures calculées affichent-elles des formules sans les parenthèses que j’ai ajoutées ?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[(Ad Hoc Analysis uniquement) Les mesures calculées avec des définitions de segment incorporées ou insérées sont-elles toujours prises en charge ?](../../components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
+[(Ad Hoc Analysis uniquement) Les mesures calculées avec des définitions de segment incorporées ou insérées sont-elles toujours prises en charge ?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
-[(Report Builder uniquement) Pourquoi les mesures calculées ont-elles disparu de mes demandes ?](../../components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
+[(Report Builder uniquement) Pourquoi les mesures calculées ont-elles disparu de mes demandes ?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
-[Comment fonctionnent les totaux des mesures calculées ?](../../components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
+[Comment fonctionnent les totaux des mesures calculées ?](/help/components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
 
 ## Comment puis-je accéder au créateur de mesures calculées ?{#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 
