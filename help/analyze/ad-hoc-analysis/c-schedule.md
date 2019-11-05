@@ -7,7 +7,7 @@ title: Gestionnaire de planification
 topic: Ad Hoc Analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez personnaliser la planification de la distribution des rapports. Il e
 
 > [!NOTE] Lorsqu’un compte utilisateur est désactivé, toutes les livraisons de rapports planifiées créées par cet utilisateur sont suspendues.
 
-Pour vous assurer que les éléments de ligne d’une ventilation sont persistants dans les rapports enregistrés et planifiés, utilisez la fonction **[!UICONTROL Modifier les éléments]** du Générateur [de](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) tableau pour créer des listes de dimensions fixes dans les ventilations.
+Pour vous assurer que les éléments de ligne d’une ventilation sont persistants dans les rapports enregistrés et planifiés, utilisez la fonction **[!UICONTROL Modifier les éléments]** du Générateur [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tableau pour créer des listes de dimensions fixes dans les ventilations.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Vous pouvez envoyer vos informations, telles qu’elles sont affichées dans le 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Avancé </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_F99B65BF7C9746638D8147EED147015B" type="reference" format="dita" scope="local"> Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Description du fichier </p> </td> 
