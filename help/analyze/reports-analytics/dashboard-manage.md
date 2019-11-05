@@ -8,7 +8,7 @@ title: Gestionnaire de tableaux de bord
 topic: Reports & Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -86,7 +86,7 @@ Lorsque vous copiez le tableau de bord hérité, le système l’ouvre pour modi
 
    Le tableau de bord copié s’ouvre dans l’éditeur de présentation des tableaux de bord.
 
-   Reportez-vous à la section [Modification des données d’un tableau de bord et d’un petit rapport](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460).
+   Reportez-vous à la section [Modification des données d’un tableau de bord et d’un petit rapport](/help/analyze/reports-analytics/dashboard.md).
 
 ## Partage d’un tableau de bord
 
@@ -107,7 +107,7 @@ Le [!UICONTROL Gestionnaire de tableaux de bord] permet de vérifier si la remis
 1. Ouvrez un tableau de bord.
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 
-   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information.
+   See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
 
 ## Archivage d’un tableau de bord
 
