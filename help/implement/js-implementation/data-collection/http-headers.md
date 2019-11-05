@@ -8,7 +8,7 @@ title: En-têtes HTTP de collecte de données
 topic: Développeur et mise en œuvre
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ Les en-têtes de demande et de réponse HTTP servent à collecter d’autres don
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Cookies de lecture précédemment créés par les serveurs de collecte de données Adobe. </p> <p> À compter de 2014, les serveurs Adobe ignoreront tous les cookies accompagnant un appel de serveur, à l’exception de ceux définis par Adobe. Voir <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Cookies utilisés dans Experience Cloud</a> pour obtenir la liste complète des cookies d’Adobe. </p> </td> 
+   <td> <p>Cookies de lecture précédemment créés par les serveurs de collecte de données Adobe. </p> <p> À compter de 2014, les serveurs Adobe ignoreront tous les cookies accompagnant un appel de serveur, à l’exception de ceux définis par Adobe. Voir <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/">Cookies utilisés dans Experience Cloud</a> pour obtenir la liste complète des cookies d’Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
