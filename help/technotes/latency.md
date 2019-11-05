@@ -1,22 +1,22 @@
 ---
 description: Les informations suivantes peuvent vous aider à résoudre les problèmes de latence des suites de rapports dans les données Analytics.
 keywords: données manquantes;lent
-seo-description: The following information can help troubleshoot report suite latency issues in Analytics data.
-seo-title: Data availability and latency
+seo-description: Les informations suivantes peuvent vous aider à résoudre les problèmes de latence des suites de rapports dans les données Analytics.
+seo-title: Disponibilité des données et latence
 solution: Analytics
 subtopic: Données actives
-title: Data availability and latency
+title: Disponibilité des données et latence
 topic: Rapports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Data availability and latency in Adobe Analytics
+# Disponibilité des données et latence dans Adobe Analytics
 
-Vous pouvez généralement vous attendre à voir des données complètes dans les rapports 2 heures après la collecte des données. The following information can help troubleshoot report suite latency issues in Analytics data.
+Vous pouvez généralement vous attendre à voir des données complètes dans les rapports 2 heures après la collecte des données. Les informations suivantes peuvent vous aider à résoudre les problèmes de latence des suites de rapports dans les données Analytics.
 
 ## Présentation du traitement par lots des données
 
@@ -26,13 +26,13 @@ Si nécessaire, le service à la clientèle d’Adobe peut activer des télécha
 
 ## Contributeurs à la latence
 
-La latence est un délai plus long que les deux heures habituelles nécessaires aux serveurs de collecte de données pour traiter complètement les données. Elle n'affecte pas la collecte de données ; les données sont toujours collectées pour une implémentation opérationnelle, quelle que soit la latence d’une suite de rapports. Sa gravité (à quel point les données sont à jour) et sa durée (le temps nécessaire pour les résoudre) peuvent varier considérablement. It is usually limited to a single report suite.
+La latence est un délai plus long que les deux heures habituelles nécessaires aux serveurs de collecte de données pour traiter complètement les données. Elle n'affecte pas la collecte de données ; les données sont toujours collectées pour une implémentation opérationnelle, quelle que soit la latence d’une suite de rapports. Sa gravité (à quel point les données sont à jour) et sa durée (le temps nécessaire pour les résoudre) peuvent varier considérablement. Il est généralement limité à une seule suite de rapports.
 
 On distingue plusieurs catégories de latence :
 
 * **** Pic de trafic inattendu : Ce type de latence survient lorsque plus de données sont envoyées à une suite de rapports que ce qui était prévu ou validé par contrat. Il s’agit de la cause de latence la plus courante.
-* **** Problèmes matériels normaux : Adobe applique les meilleures stratégies de gestion et de surveillance des centres de données, de redondance des données et de fiabilité matérielle. Le matériel est mis à jour régulièrement et conjointement avec les fenêtres de maintenance publiées. Emergency maintenance of failing hardware can require a necessary and temporary halt in data processing (not in data collection) as replacement hardware is brought online. Cela peut se traduire par une latence importante.
-* **** Abnormal data: Unnatural data patterns, such as unusually long visits caused by a bot or crawler, can temporarily increase certain processing loads that result in latency.
+* **** Problèmes matériels normaux : Adobe applique les meilleures stratégies de gestion et de surveillance des centres de données, de redondance des données et de fiabilité matérielle. Le matériel est mis à jour régulièrement et conjointement avec les fenêtres de maintenance publiées. La maintenance d'urgence d'un matériel défectueux peut nécessiter un arrêt temporaire et nécessaire du traitement des données (et non de la collecte des données), car le matériel de remplacement est mis en ligne. Cela peut se traduire par une latence importante.
+* **** Données anormales : Les modèles de données non naturels, tels que les visites exceptionnellement longues causées par un robot ou un analyseur, peuvent temporairement augmenter certaines charges de traitement qui provoquent une latence.
 
 ## Fonctions qui dépendent de la latence
 
@@ -45,8 +45,8 @@ Certaines fonctionnalités d’Adobe Experience Cloud s’accompagnent d’une l
 
 Il existe plusieurs stratégies visant à prévenir la latence ou à réduire le temps de récupération à la suite d’une latence :
 
-* **** Avertissez Adobe des pics de trafic prévus : Bien qu’il soit impossible d’anticiper chaque pic de trafic sur votre site, il peut arriver que vous attendiez une augmentation significative du trafic. Par exemple, une période de vacances particulièrement réussie ou peu après une campagne de grande envergure. Dans ce cas, nous offrons à votre entreprise le moyen de nous avertir d’une hausse prévue du trafic, de sorte que nous puissions allouer davantage de ressources de traitement à votre suite de rapports. Voir [Planifier un pic](../admin/c-traffic-management/t-traffic-schedule-spike.md) de trafic dans le guide de l’utilisateur Admin pour savoir comment avertir Adobe d’un accroissement du trafic.
-* **** Consider processing load when activating new features: Some features are more processing intensive than others. Plus il y a de fonctionnalités activées dans une suite de rapports, plus il est difficile de récupérer à la suite d’une latence. Lors de l’activation de fonctionnalités sur une suite de rapports, veuillez tenir compte du fait que les fonctionnalités suivantes augmentent la quantité de données à traiter :
+* **** Avertissez Adobe des pics de trafic prévus : Bien qu’il soit impossible d’anticiper chaque pic de trafic sur votre site, il peut arriver que vous attendiez une augmentation significative du trafic. Par exemple, une période de vacances particulièrement réussie ou peu après une campagne de grande envergure. Dans ce cas, nous offrons à votre entreprise le moyen de nous avertir d’une hausse prévue du trafic, de sorte que nous puissions allouer davantage de ressources de traitement à votre suite de rapports. Voir [Planifier un pic](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de trafic dans le guide de l’utilisateur Admin pour savoir comment avertir Adobe d’un accroissement du trafic.
+* **** Tenez compte de la charge de traitement lors de l’activation de nouvelles fonctionnalités : Certaines fonctionnalités nécessitent davantage de traitement que d’autres. Plus il y a de fonctionnalités activées dans une suite de rapports, plus il est difficile de récupérer à la suite d’une latence. Lors de l’activation de fonctionnalités sur une suite de rapports, veuillez tenir compte du fait que les fonctionnalités suivantes augmentent la quantité de données à traiter :
 
    * Implémentation de plus de 20 événements sur la même page
    * Règles VISTA complexes
