@@ -5,9 +5,9 @@ seo-title: Paramètres non copiés depuis une suite de rapports source
 solution: Analytics
 title: Paramètres non copiés depuis une suite de rapports source
 topic: Outils d’administration
-uuid: 5176 c 561-a 278-43 e 4-837 f-a 17759985 d 52
+uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -28,7 +28,7 @@ Les paramètres suivants ne sont pas copiés à partir de suites de rapports mod
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Données de classification (la structure de classification est copiée) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html" format="html" scope="external">Documentation Importateur de classifications (Télécharger)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html">Documentation Importateur de classifications (Télécharger)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation de l’enregistrement des identifiants de transaction </p> </td> 
@@ -71,7 +71,7 @@ Les paramètres suivants ne sont pas copiés à partir de suites de rapports mod
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gestionnaire ClickMap des visiteurs </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html" format="html" scope="external"> Passer à Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> Passer à Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Règles VISTA </p> </td> 
