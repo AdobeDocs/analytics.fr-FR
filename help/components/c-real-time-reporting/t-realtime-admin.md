@@ -7,7 +7,7 @@ title: Configuration de rapports en temps réel
 topic: Outils d’administration
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    ![](assets/real_time_admin.png)
 
-   Pour plus d’informations sur les mesures et dimensions en temps réel prises en charge, voir Mesures et dimensions [prises en charge](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   Pour plus d’informations sur les mesures et dimensions en temps réel prises en charge, voir Mesures et dimensions [prises en charge](/help/components/c-real-time-reporting/realtime-metrics.md).
 
    Si vous avez créé des classifications, elles apparaissent en retrait sous la dimension pour laquelle elles ont été définies :
 
@@ -47,7 +47,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
    >
    >Pour un rapport en temps réel unique, nous ne prenons pas actuellement en charge l’activation de dimensions en double, même si une classification différente est sélectionnée pour chaque dimension.
 
-   Pour plus d’informations sur les classifications, voir [A propos des classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   Pour plus d’informations sur les classifications, voir [A propos des classifications](/help/components/c-classifications2/c-classifications.md).
 
    >[!NOTE]
    >
