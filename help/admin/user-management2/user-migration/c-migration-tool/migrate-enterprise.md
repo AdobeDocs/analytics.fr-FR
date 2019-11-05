@@ -5,7 +5,7 @@ seo-title: Migration de comptes utilisateurs Analytics sous la forme d’Enterpr
 title: Migration de comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -121,7 +121,7 @@ Si vous devez migrer des comptes utilisateurs Adobe ID déjà existants vers un
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domaine </p> </td> 
-   <td colname="col2"> <p>Assurez-vous que les domaines dans les colonnes Les colonnes <span class="term"> Domaine</span> et <span class="term"> Courriel</span> correspondent au(x) domaine(s) défini(s) dans les <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"> conditions préalables</a>. </p> </td> 
+   <td colname="col2"> <p>Assurez-vous que les domaines dans les colonnes Les colonnes <span class="term"> Domaine</span> et <span class="term"> Courriel</span> correspondent au(x) domaine(s) défini(s) dans les <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  > conditions préalables</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code de pays </p> </td> 
