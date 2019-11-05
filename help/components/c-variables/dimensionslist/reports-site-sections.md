@@ -7,7 +7,7 @@ title: Sections du site
 topic: Rapports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,7 +30,7 @@ Indique les zones de votre site qui sont les plus consultées par les utilisateu
    * **Toutes les variables de commerce électronique standard** : Recettes, Commandes, Unités, Paniers, Consultations du panier, Passages en caisse, Ajouts au panier, Retraits du panier.
    * **Tous les événements personnalisés** : Événements 1-80, et Événements 81-100 si le code est H22 ou supérieur.
 
-Tous les événements de conversion du [!UICONTROL rapport Sections du site] utilisent la dernière affectation. La conversion est divisée entre les pages de votre implémentation qui ne contiennent pas d’événements de succès. Il s’agit d’une différence comparé au [rapport Pages](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5) qui utilise l’allocation linéaire.
+Tous les événements de conversion du [!UICONTROL rapport Sections du site] utilisent la dernière affectation. La conversion est divisée entre les pages de votre implémentation qui ne contiennent pas d’événements de succès. Il s’agit d’une différence comparé au [rapport Pages](/help/components/c-variables/dimensionslist/reports-pages.md) qui utilise l’allocation linéaire.
 
 **Informations propres au produit**
 
