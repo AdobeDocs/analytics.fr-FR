@@ -7,7 +7,7 @@ solution: Analytics
 title: Destination du flux
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -95,7 +95,7 @@ Le tableau suivant affiche toutes les options des canaux de distribution. Les op
   </tr> 
   <tr> 
    <td colname="col1"> <p>Compartiment </p> </td> 
-   <td colname="col2"> <p>Saisissez l’emplacement du compartiment Amazon S3. </p> <p>Cette valeur doit correspondre au format du compartiment S3 approprié. (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html" format="html" scope="external"> https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>Remarque : Pour en savoir plus sur les paramètres Amazon S3, voir <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Paramètre BucketOwnerFullControl pour les flux de données Amazon S3</a> ci-dessous. </p> </p> </td> 
+   <td colname="col2"> <p>Saisissez l’emplacement du compartiment Amazon S3. </p> <p>Cette valeur doit correspondre au format du compartiment S3 approprié. (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>Remarque : Pour en savoir plus sur les paramètres Amazon S3, voir <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Paramètre BucketOwnerFullControl pour les flux de données Amazon S3</a> ci-dessous. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Conteneur </p> </td> 
@@ -111,7 +111,7 @@ Le tableau suivant affiche toutes les options des canaux de distribution. Les op
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chemin d’accès </p> </td> 
-   <td colname="col2"> <p>Sélectionnez le chemin d’accès à l’hôte ou au compartiment. Ce chemin d’accès doit exister avant la création du flux. </p> <p> <p>Remarque : Pour en savoir plus sur les paramètres Amazon S3, voir <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Paramètre BucketOwnerFullControl pour les flux de données Amazon S3</a> ci-dessous. </p> </p> </td> 
+   <td colname="col2"> <p>Sélectionnez le chemin d’accès à l’hôte ou au compartiment. Ce chemin d’accès doit exister avant la création du flux. </p> <p> <p>Remarque : Pour en savoir plus sur les paramètres Amazon S3, voir <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Paramètre BucketOwnerFullControl pour les flux de données Amazon S3</a> ci-dessous. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Compte </p> </td> 
@@ -119,11 +119,11 @@ Le tableau suivant affiche toutes les options des canaux de distribution. Les op
   </tr> 
   <tr> 
    <td colname="col1"> <p>Clé publique </p> </td> 
-   <td colname="col2"> <p>Indiquez la clé SFTP publique. </p> <p>Vous devez télécharger la clé publique pour configurer le référentiel SFTP. </p> <p> <p>Remarque : Le téléchargement de la clé publique n’est pas requis pour la création du flux. </p> </p> <p>Vous pouvez utiliser une clé publique qui a déjà été téléchargée lors de la création d’un autre flux. </p> <p>Pour en savoir plus, voir <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html" format="html" scope="external">https://marketing.adobe.com/resources/help/fr_FR/whitepapers/ftp/ftp_sftp_dw.html</a>. </p> </td> 
+   <td colname="col2"> <p>Indiquez la clé SFTP publique. </p> <p>Vous devez télécharger la clé publique pour configurer le référentiel SFTP. </p> <p> <p>Remarque : Le téléchargement de la clé publique n’est pas requis pour la création du flux. </p> </p> <p>Vous pouvez utiliser une clé publique qui a déjà été téléchargée lors de la création d’un autre flux. </p> <p>Pour en savoir plus, voir <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html"  >https://marketing.adobe.com/resources/help/fr_FR/whitepapers/ftp/ftp_sftp_dw.html</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Clé </p> <p>Confirmer la clé </p> </td> 
-   <td colname="col2"> <p> Entrez la clé d’accès du stockage. Entrez-la de nouveau pour la confirmer. </p> <p> <p>Remarque : Voir <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys" format="https" scope="external">https://docs.microsoft.com/fr-fr/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> pour savoir comment accéder aux clés d’accès. </p> </p> </td> 
+   <td colname="col2"> <p> Entrez la clé d’accès du stockage. Entrez-la de nouveau pour la confirmer. </p> <p> <p>Remarque : Voir <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys"  >https://docs.microsoft.com/fr-fr/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> pour savoir comment accéder aux clés d’accès. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Clé secrète </p> <p>Confirmer la clé secrète </p> </td> 
