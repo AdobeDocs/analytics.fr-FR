@@ -8,7 +8,7 @@ title: Implémentation des droits d’opposition Adobe
 topic: Développeur et mise en œuvre
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,7 +34,7 @@ Pour en savoir plus sur l’utilisation faite généralement par Adobe des infor
 
 Adobe propose trois types d’exclusion pour Adobe Analytics (y compris les [!UICONTROL rapports et analyses], l’[!UICONTROL entrepôt de données] et les [!UICONTROL analyses ad hoc]) :
 
-* Si vous implémentez des produits Adobe Analytics avec votre propre cookie interne, vous devez [développer votre propre lien d’exclusion personnalisé](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) pour les visiteurs de votre site web.
+* Si vous implémentez des produits Adobe Analytics avec votre propre cookie interne, vous devez [développer votre propre lien d’exclusion personnalisé](/help/implement/js-implementation/data-collection/opt-out-link.md) pour les visiteurs de votre site web.
 * Vos clients peuvent activer l’option d’exclusion dans les paramètres de cookies du navigateur. Voir [Activation des paramètres de confidentialité pour les cookies de navigateur](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html) (en anglais).
 
 Quel que soit le mécanisme d’exclusion choisi, Adobe conseille d’en décrire clairement la disponibilité dans votre politique de confidentialité, ou au titre d’autres exigences prévues par la loi ou selon les recommandations des bonnes pratiques en cours.
