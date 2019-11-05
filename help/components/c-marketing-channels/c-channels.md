@@ -8,7 +8,7 @@ title: Gestion des canaux marketing
 topic: Reports & Analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,18 +17,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Ajoutez ou activez des canaux marketing dans le Gestionnaire de canaux marketing. Dans le cas des suites de rapports sans canaux marketing, une configuration automatique vous permet de créer plusieurs canaux, ainsi que leurs règles. Vous pouvez modifier les canaux prédéfinis en fonction de vos besoins, ou créer vos propres canaux (avec un maximum de 25 canaux).
 
-## Gestion des canaux marketing {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
-
-Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. Dans le cas des suites de rapports sans canaux marketing, une configuration automatique vous permet de créer plusieurs canaux, ainsi que leurs règles. Vous pouvez modifier les canaux prédéfinis en fonction de vos besoins, ou créer vos propres canaux (avec un maximum de 25 canaux).
-
 Voici quelques consignes concernant la création de canaux :
 
 * Planifiez en dressant la liste de tous vos canaux afin que tous les accès des visiteurs soient classés dans le canal approprié.
-* Incluez toujours les catégories d’accès [Interne](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) et [Direct](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A).
+* Incluez toujours les catégories d’accès [Interne](/help/components/c-marketing-channels/c-faq.md) et [Direct](/help/components/c-marketing-channels/c-faq.md).
 
-L’ajout de canaux à la page [!UICONTROL Canaux marketing] est indépendant de la création de règles sur la page [Règles de traitement des canaux marketing](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08). Vous associez des règles aux canaux lors de la création de règles.
+L’ajout de canaux à la page [!UICONTROL Canaux marketing] est indépendant de la création de règles sur la page [Règles de traitement des canaux marketing](/help/components/c-marketing-channels/t-rules.md). Vous associez des règles aux canaux lors de la création de règles.
 
-## Ajout de canaux marketing {#task_98C9D3F5DBBC4B198E0A9ED4D3891E03}
+## Ajout de canaux marketing {#add-mktg-channels}
 
 Ajoutez des canaux marketing dans le Gestionnaire de canaux marketing.
 
@@ -39,11 +35,11 @@ Ajoutez des canaux marketing dans le Gestionnaire de canaux marketing.
 
    Si vous sélectionnez plusieurs suites de rapports, choisissez un modèle à partir duquel copier les paramètres vers les suites de rapports sélectionnées.
 
-   Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+   Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/t-template.md).
 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) page displays.
+   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
 
 1. Sur la page [!UICONTROL Gestionnaire de canaux marketing]**, cliquez sur[!UICONTROL Ajouter un canal]**.
 
@@ -52,9 +48,9 @@ Ajoutez des canaux marketing dans le Gestionnaire de canaux marketing.
 1. Cliquez sur **[!UICONTROL Enregistrer.]**
 1. Pour configurer les règles pour le canal, cliquez sur **[!UICONTROL Règles de traitement des canaux marketing]**.
 
-   See [Create Marketing Channel processing rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08).
+   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
 
-## Marketing Channel Manager - interface definitions {#reference_01779A2928054BF48339897D4033AFB9}
+## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
 
 Définition des champs de la page [!UICONTROL Gestionnaire de canaux marketing].
 
@@ -84,7 +80,7 @@ Définition des champs de la page [!UICONTROL Gestionnaire de canaux marketing].
   </tr> 
   <tr> 
    <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p> Indique comment l’utilisateur est parvenu sur votre site. Vous pouvez sélectionner <span class="uicontrol">En ligne</span> ou <span class="uicontrol">Hors ligne</span>. Utilisez des canaux en ligne pour les visiteurs qui viennent par l’intermédiaire d’un moteur de recherche ou d’une campagne par courriel. Les canaux hors connexion s’appliquent aux visiteurs qui ont trouvé le site par l’intermédiaire de bons dans les journaux ou de publicités dans des magazines. Les canaux hors connexion incluent habituellement les données importées depuis les Sources de données des rapports. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" scope="external" format="http">Sources de données</a>. </p> <p>See <a href="../../components/c-marketing-channels/t-offline-data.md#task_FC96E6A48F0D4D37A79BD234E90DAA26" type="task" format="dita" scope="local"> Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> Indique comment l’utilisateur est parvenu sur votre site. Vous pouvez sélectionner <span class="uicontrol">En ligne</span> ou <span class="uicontrol">Hors ligne</span>. Utilisez des canaux en ligne pour les visiteurs qui viennent par l’intermédiaire d’un moteur de recherche ou d’une campagne par courriel. Les canaux hors connexion s’appliquent aux visiteurs qui ont trouvé le site par l’intermédiaire de bons dans les journaux ou de publicités dans des magazines. Les canaux hors connexion incluent habituellement les données importées depuis les Sources de données des rapports. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Sources de données</a>. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Couleur </p> </td> 
