@@ -5,7 +5,7 @@ seo-title: Rapport sur les données Advertising dans Adobe Analytics
 title: Rapport sur les données Advertising dans Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,9 @@ Détails sur le modèle Analysis Workspace et sur la création de rapports dans
 
 Ce modèle permet à quiconque mettant en œuvre une intégration de moteur de recherche d’accéder à de nombreuses données de moteur de recherche dans Analytics. You can access it via **[!UICONTROL Workspace]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Advertising]** &gt; **[!UICONTROL Search Engines.]**
 
-> [!NOTE] La catégorie Modèle de publicité est visible pour tous les clients, même si vous n’avez mis en oeuvre aucun compte de publicité. Cependant, si vous tentez d’ouvrir le modèle Moteurs de recherche pour une entreprise dont la configuration n’a pas été effectuée, un message d’erreur vous indiquera que vous n’avez encore configuré aucun compte de moteur de recherche. Dans ce cas, cliquez sur **[!UICONTROL Configurer maintenant]**, vous serez alors dirigé vers l’écran [Configuration d’un compte Advertising](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C).
+>[!NOTE]
+>
+> La catégorie Modèle de publicité est visible pour tous les clients, même si vous n’avez mis en oeuvre aucun compte de publicité. Cependant, si vous tentez d’ouvrir le modèle Moteurs de recherche pour une entreprise dont la configuration n’a pas été effectuée, un message d’erreur vous indiquera que vous n’avez encore configuré aucun compte de moteur de recherche. Dans ce cas, cliquez sur **[!UICONTROL Configurer maintenant]**, vous serez alors dirigé vers l’écran [Configuration d’un compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
