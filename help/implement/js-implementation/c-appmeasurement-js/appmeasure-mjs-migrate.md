@@ -9,7 +9,7 @@ title: Migration vers AppMeasurement pour JavaScript
 topic: Développeur et mise en œuvre
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -18,13 +18,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Le tableau ci-après contient la liste des tâches que vous devez effectuer pour migrer votre implémentation.
 
-> [!NOTE] Nous vous recommandons de migrer vers le [service d’identité](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) lorsque vous migrez vers [!DNL AppMeasurement] pour JavaScript.
+>[!NOTE]
+>
+>Nous vous recommandons de migrer vers le [service d’identité](/help/implement/js-implementation/c-unique-visitors/visid-service.md) lorsque vous migrez vers [!DNL AppMeasurement] pour JavaScript.
 
 ![](assets/step1_icon.png) Vérifier la compatibilité des modules externes
 
 Où : s\_code.js
 
-Certains modules externes ne sont plus pris en charge. Reportez-vous à la section [Prise en charge des modules externes dans AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+Certains modules externes ne sont plus pris en charge. Reportez-vous à la section [Prise en charge des modules externes dans AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 
 ![](assets/step2_icon.png) Télécharger la nouvelle bibliothèque AppMeasurement
 
@@ -42,7 +44,7 @@ Déplacez le code situé au-dessus de la section `DO NOT ALTER ANYTHING BELOW TH
 
 Où : AppMeasurement.js
 
-Si vous utilisez le module externe getQueryParam, mettez à jour ces appels afin d’avoir recours au nouvel utilitaire, [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+Si vous utilisez le module externe getQueryParam, mettez à jour ces appels afin d’avoir recours au nouvel utilitaire, [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md).
 
 ![](assets/step5_icon.png) (Facultatif) Mettre à jour les modules Media et Integrate
 
