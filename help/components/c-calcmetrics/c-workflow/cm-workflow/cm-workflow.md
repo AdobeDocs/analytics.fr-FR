@@ -1,18 +1,18 @@
 ---
-description: Découvrez les étapes à suivre pour la création de mesures calculées.
-seo-description: Découvrez les étapes à suivre pour la création de mesures calculées.
-seo-title: Processus des mesures calculées
-title: Processus des mesures calculées
-uuid: 26 f 028 c 7-f 9 eb -4 d 8 f -8 f 03-56 f 3211087 b 4
+description: Découvrez les étapes à suivre pour créer des mesures calculées.
+seo-description: Découvrez les étapes à suivre pour créer des mesures calculées.
+seo-title: Workflow des mesures calculées
+title: Workflow des mesures calculées
+uuid: 26f028c7-f9eb-4d8f-8f03-56f3211087b4
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Processus des mesures calculées
+# Workflow des mesures calculées
 
-Découvrez les étapes à suivre pour la création de mesures calculées.
+Découvrez les étapes à suivre pour créer des mesures calculées.
 
 | Tâche du processus | Description |
 | --- | --- |
