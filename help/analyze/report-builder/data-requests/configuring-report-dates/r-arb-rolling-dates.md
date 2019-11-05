@@ -1,18 +1,18 @@
 ---
 description: Définition des champs relatifs aux dates roulantes dans le Créateur de rapports.
 seo-description: Définition des champs relatifs aux dates roulantes dans le Créateur de rapports.
-seo-title: Définition de l'Assistant Requête - dates roulantes
+seo-title: Définitions de l’Assistant Requête - Dates roulantes
 solution: Analytics
-title: Définition de l'Assistant Requête - dates roulantes
+title: Définitions de l’Assistant Requête - Dates roulantes
 topic: Créateur de rapports
-uuid: 19 e 25900-96 a 3-4 f 6 c -9551-9 f 7 af 8 cc 6963
+uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Définition de l'Assistant Requête - dates roulantes
+# Définitions de l’Assistant Requête - Dates roulantes
 
 Définition des champs relatifs aux dates roulantes dans le Créateur de rapports.
 
@@ -26,7 +26,7 @@ Définition des champs relatifs aux dates roulantes dans le Créateur de rapport
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Expression personnalisée </p> </td> 
-   <td colname="col2"> <p>Reportez-vous à la section <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45" type="task" format="dita" scope="local"> Expressions de dates personnalisées</a>. </p> </td> 
+   <td colname="col2"> <p>Reportez-vous à la section <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > Expressions de dates personnalisées</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> À partir de la date </p> </td> 
