@@ -7,7 +7,7 @@ title: Configuration d’une requête en temps réel
 topic: Créateur de rapports
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,4 +26,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    ![Résultat de l’étape](assets/real_time_select_date.png)
 
    La création de rapports en temps réel n’est disponible que pour les 20 dernières heures. Pour la granularité, vous pouvez sélectionner une granularité de 1 minute à 30 minutes.
-1. Cliquez sur **[!UICONTROL Suivant]** et continuez à [configurer la disposition](../../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB)de requête.
+1. Cliquez sur **[!UICONTROL Suivant]** et continuez à [configurer la disposition](/help/analyze/report-builder/layout/layout.md)de requête.
