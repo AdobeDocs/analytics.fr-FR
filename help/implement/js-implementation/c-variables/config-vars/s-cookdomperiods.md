@@ -5,7 +5,7 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -30,7 +30,9 @@ Voir aussi [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/anal
 |---|---|---|---|
 | N/D | CDP | Affecte plusieurs rapports, dans la mesure où il contrôle le mode de stockage et de traitement de l’identifiant visiteur. | "2" |
 
-> [!NOTE] Certains services de cloud computing sont considérés comme des domaines de niveau supérieur qui n’autorisent pas l’écriture de cookies. (Par exemple, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, etc.) Si vous mettez ces services en œuvre, vous pourriez être affecté par le paramètre de vie privé d’Analytics qui retire les utilisateurs qui ont bloqué tous les cookies si vous n’avez pas configuré votre propre domaine (par exemple, si vous testez votre mise en œuvre). Dans ce cas, tout accès pour lequel le système a déterminé que les cookies étaient désactivés, non fonctionnels ou inaccessibles est exclu et n’apparaît donc pas dans les rapports.
+>[!NOTE]
+>
+>Certains services de cloud computing sont considérés comme des domaines de niveau supérieur qui n’autorisent pas l’écriture de cookies. (Par exemple, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, etc.) Si vous mettez ces services en œuvre, vous pourriez être affecté par le paramètre de vie privé d’Analytics qui retire les utilisateurs qui ont bloqué tous les cookies si vous n’avez pas configuré votre propre domaine (par exemple, si vous testez votre mise en œuvre). Dans ce cas, tout accès pour lequel le système a déterminé que les cookies étaient désactivés, non fonctionnels ou inaccessibles est exclu et n’apparaît donc pas dans les rapports.
 
 ## Exemples
 
