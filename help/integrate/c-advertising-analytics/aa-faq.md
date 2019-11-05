@@ -5,7 +5,7 @@ seo-title: Questions fréquentes
 title: Questions fréquentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Quels <b>SKU d’Adobe Analytics</b> permettent d’utiliser Advertising Analytics ? </p> </td> 
-   <td colname="col2"> <p>R. : Advertising Analytics est disponible pour les SKU <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external">Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external">Prime</a> ou <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external">Ultimate</a> d’Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>R. : Advertising Analytics est disponible pour les SKU <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> ou <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> d’Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Dois-je <b>payer un supplément</b> pour utiliser Advertising Analytics ? </p> </td> 
@@ -91,7 +91,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : J’essaie de <b>mapper mes comptes Advertising Analytics à une suite de rapports spécifique</b>, mais elle n’est pas disponible dans le mode Suite de rapports. Pourquoi ? </p> </td> 
-   <td colname="col2"> <p>R. : Pour pouvoir assigner une suite de rapports à un compte Advertising Analytics, la suite de rapports souhaitée doit être <a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local">configurée pour la création de rapports Advertising Analytics </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>R. : Pour pouvoir assigner une suite de rapports à un compte Advertising Analytics, la suite de rapports souhaitée doit être <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >configurée pour la création de rapports Advertising Analytics </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Est-il possible d’assigner une <b>suite de rapports virtuelle</b> (SRV) à un compte Advertising Analytics ? </p> </td> 
