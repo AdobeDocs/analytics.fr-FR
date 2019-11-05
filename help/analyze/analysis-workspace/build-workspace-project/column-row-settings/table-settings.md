@@ -5,7 +5,7 @@ seo-title: Paramètres des lignes
 title: Paramètres des lignes
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Les configurations des lignes varient selon le composant déposé dans le tableau.
 
-Vous pouvez aussi gérer les lignes sélectionnées à l’aide des [options contextuelles (clic avec le bouton droit) dans un tableau](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F).
+Vous pouvez aussi gérer les lignes sélectionnées à l’aide des [options contextuelles (clic avec le bouton droit) dans un tableau](/help/analyze/analysis-workspace/visualizations/freeform-table.md).
 
 Pour accéder aux paramètres de ligne d’un tableau, cliquez sur l’icône Paramètres en regard d’une dimension, d’un segment, d’une mesure, d’une période ou d’une ventilation :
 
@@ -29,7 +29,7 @@ Pour accéder aux paramètres de ligne d’un tableau, cliquez sur l’icône Pa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Comparaison de dates</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparaison de dates</a> </p> </td> 
    <td colname="col2"> <p><b>Harmonisez les dates de chaque colonne afin qu’elles commencent à la même ligne. </b> </p> <p>Si vous harmonisez les dates, par exemple dans le cadre d’une comparaison d’un mois à l’autre entre octobre et septembre 2016, la colonne de gauche commence au 1er octobre et la colonne de droite au 1er septembre : </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Option désactivée par défaut. </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Pour accéder aux paramètres de ligne d’un tableau, cliquez sur l’icône Pa
   </tr> 
   <tr> 
    <td colname="col1"> <p>Totaux des colonnes </p> </td> 
-   <td colname="col2"> <p>Ce paramètre est accessible uniquement pour les <a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local"> lignes manuelles (statiques)</a> (quand vous avez sélectionné un ensemble fini d’éléments), et non pour les lignes dynamiques (quand vous déposez une dimension qui répertorie tous les éléments). <p>Remarque : Le paramètre est désactivé pour les lignes manuelles de <i>mesure</i>, puisque le cumul des mesures en dehors des lignes actuelles d’un tableau n’aurait aucun sens. </p> </p> <p><b>Calculer les totaux en totalisant les valeurs actuellement dans chaque colonne (activée par défaut) :</b> </p> <p>Cette option calcule seulement les lignes figurant actuellement dans le tableau. (Calcul côté client) </p> <p><b>Calculer les totaux d’après toutes les lignes pour chaque mesure (désactivée par défaut) :</b> </p> <p>Cette option comprend tous les éléments de cette dimension, même ceux qui ne sont pas répertoriés dans le tableau. (Calcul côté serveur) </p> </td> 
+   <td colname="col2"> <p>Ce paramètre est accessible uniquement pour les <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  > lignes manuelles (statiques)</a> (quand vous avez sélectionné un ensemble fini d’éléments), et non pour les lignes dynamiques (quand vous déposez une dimension qui répertorie tous les éléments). <p>Remarque : Le paramètre est désactivé pour les lignes manuelles de <i>mesure</i>, puisque le cumul des mesures en dehors des lignes actuelles d’un tableau n’aurait aucun sens. </p> </p> <p><b>Calculer les totaux en totalisant les valeurs actuellement dans chaque colonne (activée par défaut) :</b> </p> <p>Cette option calcule seulement les lignes figurant actuellement dans le tableau. (Calcul côté client) </p> <p><b>Calculer les totaux d’après toutes les lignes pour chaque mesure (désactivée par défaut) :</b> </p> <p>Cette option comprend tous les éléments de cette dimension, même ceux qui ne sont pas répertoriés dans le tableau. (Calcul côté serveur) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ventilations </p> </td> 
