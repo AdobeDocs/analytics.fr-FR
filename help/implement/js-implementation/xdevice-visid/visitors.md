@@ -9,7 +9,7 @@ title: Visiteurs
 topic: Développeur et mise en œuvre
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics comptabilise chaque identifiant visiteur effectif unique comme un visiteur unique.
 
-Si vous observez le [tableau précédent](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), cela s’est produit à trois reprises : aux accès 1, 9 et 10. Cela est dû au fait que l’[!UICONTROL identifiant visiteur] effectif est le même pour les deux appels au serveur et ce, bien que les visites aient été effectuées sur des périphériques différents à plusieurs heures d’intervalle.
+Si vous observez le [tableau précédent](/help/implement/js-implementation/xdevice-visid/visit-example.md), cela s’est produit à trois reprises : aux accès 1, 9 et 10. Cela est dû au fait que l’[!UICONTROL identifiant visiteur] effectif est le même pour les deux appels au serveur et ce, bien que les visites aient été effectuées sur des périphériques différents à plusieurs heures d’intervalle.
 
 Cela risque d’augmenter le nombre de visiteurs uniques affichés lorsque la fonction d’identification des visiteurs sur plusieurs périphériques est activée. Le visiteur peut ainsi être comptabilisé deux fois pour la même visite : une fois pour la visite initiale et une autre fois après son authentification.
 
