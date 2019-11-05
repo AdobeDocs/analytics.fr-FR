@@ -7,12 +7,12 @@ title: Fonctionnalités d’un rapport
 topic: Reports & Analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Fonctionnalités d’un rapport{#report-features}
+# Fonctionnalités d’un rapport
 
 Cette section présente les fonctionnalités d’un rapport, notamment la barre d’outils, le calendrier et le tableau détaillé.
 
@@ -30,7 +30,7 @@ Partagez les données du rapport avec les décisionnaires qui peuvent apporter d
 
 ![](assets/toolbar.png){width="672px"}
 
-Voir aussi [Personnalisation d’un rapport](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Voir aussi [Personnalisation d’un rapport](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Paramètres et en-tête du rapport {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +38,7 @@ Affiche les paramètres du rapport et vous permet de configurer le rapport en sp
 
 ![](assets/settings_header.png){width="672px"}
 
-Voir [Personnalisation d’un rapport](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) pour plus d’informations.
+Voir [Personnalisation d’un rapport](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) pour plus d’informations.
 
 ## Calendrier {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,23 +46,23 @@ Précisez la date en cliquant sur le bouton du calendrier et en sélectionnant u
 
 ![](assets/calendar_large.png){width="672px"}
 
-Voir [Sélection d’une date ou d’une plage](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) de dates et [comparaison de dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+Voir [Sélection d’une date ou d’une plage](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) de dates et [comparaison de dates](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Type de graphique {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
-Sélectionnez le type de graphique ou de diagramme à afficher.
+Sélectionnez le type de graphique ou de diagramme à afficher:
 
 ![](assets/graph_type.png)
 
-Reportez-vous à la section [Modification des graphiques des rapports](../../../analyze/reports-analytics/reports-customize/t-reports-graphs.md#task_B290BF0B82124111AA19B3F3ACED500A).
+See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
 
 ## Affichage du graphique {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-En fonction du type de graphique sélectionné, les premiers éléments de la liste détaillée sont affichés. Si le graphique est un graphique de tendances présentant différentes périodes, toutes les périodes s’affichent.
+En fonction du type de graphique sélectionné, les premiers éléments de la liste détaillée sont affichés. Si le graphique est un graphique de tendances présentant différentes périodes, toutes les périodes s’affichent.:
 
 ![](assets/graph.png)
 
-Reportez-vous à la section [Personnalisation des rapports](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Voir [Personnalisation des rapports.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
 ## Mesures {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -70,14 +70,14 @@ Ajoutez des mesures à votre rapport. Les administrateurs peuvent préciser les 
 
 ![](assets/metrics.png)
 
-Voir [Mesures](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
+Voir [Mesures.](/help/analyze/reports-analytics/metrics.md)
 
 ## Tableau des détails {#section_449A5DC848744F65A10DA12E189B835D}
 
-Les détails forment l’essentiel des données du rapport. Dans ce cas, les pages sont répertoriées et sont mesurées en fonction des Pages vues, ce qui correspond au nombre de chargements pendant la période indiquée.
+Les détails forment l’essentiel des données du rapport. Dans ce cas, les pages sont répertoriées et sont mesurées en fonction des Pages vues, ce qui correspond au nombre de chargements pendant la période indiquée:
 
 ![](assets/detail.png)
 
 Dans le tableau des détails, vous pouvez filtrer les données, créer des ventilations, ajouter des mesures, etc.
 
-Reportez-vous à la section [Personnalisation des rapports](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Reportez-vous à la section [Personnalisation des rapports.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
