@@ -3,12 +3,12 @@ description: Ces ressources vous aident à résoudre les problèmes affectant l�
 seo-description: Ces ressources vous aident à résoudre les problèmes affectant l’importateur.
 seo-title: Résolution des problèmes affectant les classifications
 solution: Analytics
-subtopic: Gestionnaire
+subtopic: Classifications
 title: Résolution des problèmes affectant les classifications
 topic: Outils d’administration
-uuid: e 8273635-28 b 7-4264-aca 5-c 5307 f 313 e 81
+uuid: e8273635-28b7-4264-aca5-c5307f313e81
 translation-type: tm+mt
-source-git-commit: 49a775c829e4cdecae3563fe34ad29ecc397a98d
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -19,5 +19,5 @@ Ces ressources vous aident à résoudre les problèmes affectant l’importateur
 
 * [Aucun, Non spécifié, Inconnu et Autre dans la création de rapports](/help/technotes/unspecified.md)
 * [Problèmes de téléchargement de classifications courants](http://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
-* [Supprimer des données de classification](../../components/c-classifications2/c-classifications-importer/t-delete-classification-data.md#task_105C3761180A4D21B8395730C39B5F89)
+* [Suppression des données de classification](/help/components/c-classifications2/c-classifications-importer/t-delete-classification-data.md)
 
