@@ -8,7 +8,7 @@ title: Analysis Workspace cas d’utilisation
 topic: Reports & Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -60,5 +60,5 @@ Supposons que vous soyez un analyste marketing pour un vendeur au détail d’é
 
    Vous avez déjà ventilé les données de manière à générer des recommandations et des ventes croisées pour vos équipes de marchandisage afin de mettre en œuvre d’autres campagnes et de générer davantage de recettes pour votre entreprise. Vous pouvez créer d’autres ventilations jusqu’à obtenir les résultats attendus.
 
-   À présent, vous pouvez [partager](../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6) le rapport avec ces équipes de marchandisage.
+   À présent, vous pouvez [partager](/help/analyze/analysis-workspace/curate-share/curate.md) le rapport avec ces équipes de marchandisage.
 
