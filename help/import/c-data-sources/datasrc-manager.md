@@ -8,7 +8,7 @@ title: Gestionnaire des sources de données
 topic: Développeur et mise en œuvre
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ Créez, gérez et consultez l’utilisation des sources de données dans une sui
 
 Cet onglet permet de configurer une nouvelle source de données pour la suite de rapports actuellement sélectionnée. Lorsque vous activez une source de données, l’[!UICONTROL Assistant Sources de données] vous guide tout au long du processus de création d’un modèle de source de données, puis crée un emplacement FTP pour le transfert des données.
 
-La sélection que vous effectuez sur l’onglet Créer détermine les champs initiaux dans le modèle créé. Reportez-vous à la section [Génération d’un modèle de fichier d’importation](../../import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md#task_A2F150D9DC1A4D338E878534FA506267).
+La sélection que vous effectuez sur l’onglet Créer détermine les champs initiaux dans le modèle créé. Reportez-vous à la section [Génération d’un modèle de fichier d’importation](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
 ## Onglet Gérer {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -41,7 +41,7 @@ La sélection que vous effectuez sur l’onglet Créer détermine les champs ini
   </tr> 
   <tr> 
    <td colname="col1"> <p>Terminer le traitement </p> </td> 
-   <td colname="col2"> <p>Indique à la fonctionnalité Sources de données de clôturer les visites ouvertes dans le fichier et de terminer le traitement du fichier comme s’il était complet. Ceci est utile lorsque des visites s’étendent sur plusieurs fichiers de source de données. Ceci s’applique également au <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Traitement complet</a>. </p> </td> 
+   <td colname="col2"> <p>Indique à la fonctionnalité Sources de données de clôturer les visites ouvertes dans le fichier et de terminer le traitement du fichier comme s’il était complet. Ceci est utile lorsque des visites s’étendent sur plusieurs fichiers de source de données. Ceci s’applique également au <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Traitement complet</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Désactiver </p> </td> 
@@ -49,7 +49,7 @@ La sélection que vous effectuez sur l’onglet Créer détermine les champs ini
   </tr> 
   <tr> 
    <td colname="col1"> <p>Arrêter le traitement en cas d’erreur/d’avertissement </p> </td> 
-   <td colname="col2"> <p> Indique au moteur de traitement des sources de données d’interrompre le traitement en cas d’erreur. Le traitement ne reprend que lorsque vous sélectionnez Nouveau traitement. L’option Arrêter le traitement en cas d’avertissement s’applique uniquement au <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Traitement complet</a>. </p> <p>Si la fonctionnalité Sources de données détecte une erreur de fichier, elle vous en informe. Le système déplace le fichier Sources de données comportant l’erreur dans un dossier intitulé <span class="filepath">files_with_errors</span> sur le serveur FTP. Une fois le problème résolu, renvoyez le fichier pour qu’il soit traité. </p> </td> 
+   <td colname="col2"> <p> Indique au moteur de traitement des sources de données d’interrompre le traitement en cas d’erreur. Le traitement ne reprend que lorsque vous sélectionnez Nouveau traitement. L’option Arrêter le traitement en cas d’avertissement s’applique uniquement au <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Traitement complet</a>. </p> <p>Si la fonctionnalité Sources de données détecte une erreur de fichier, elle vous en informe. Le système déplace le fichier Sources de données comportant l’erreur dans un dossier intitulé <span class="filepath">files_with_errors</span> sur le serveur FTP. Une fois le problème résolu, renvoyez le fichier pour qu’il soit traité. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configurer </p> </td> 
