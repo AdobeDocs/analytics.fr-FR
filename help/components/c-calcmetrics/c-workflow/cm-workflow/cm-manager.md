@@ -3,9 +3,9 @@ description: Le Gestionnaire de mesures calculées offre plusieurs manières d�
 seo-description: Le Gestionnaire de mesures calculées offre plusieurs manières d’organiser les mesures, par exemple le partage, le filtrage, le balisage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
 seo-title: Gestionnaire de mesures calculées
 title: Gestionnaire de mesures calculées
-uuid: 065 c 7 b 79-bab 2-426 b-a 2 d 9-aac 93 f 728 b 31
+uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
