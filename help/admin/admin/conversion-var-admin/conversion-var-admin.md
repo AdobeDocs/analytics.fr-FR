@@ -8,7 +8,7 @@ title: Variables de conversion (eVar)
 topic: Outils d’administration
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,7 +87,7 @@ Description des champs utilisés lors de la [modification des variables](/help/a
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes : </p> <p> <b></b> Syntaxe</span>Produits : Associe la valeur eVar à un produit. Remarque : Si Syntaxe Produits est sélectionné, la section Événement de liaison de marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les événements de liaison ne sont pas applicables. </p> </p> <p> <b></b> Syntaxe</span>de la variable de conversion : Associe l’eVar à un produit uniquement si un événement de liaison se produit. Dans ce cas, sélectionnez les événements qui se comportent comme des événements de liaison. </p> <p>Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">Variables de marchandisage</a>. </p> </td> 
+   <td colname="col2"> <p>Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes : </p> <p> <b></b> Syntaxe</span>Produits : Associe la valeur eVar à un produit. Remarque : Si Syntaxe Produits est sélectionné, la section Événement de liaison de marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les événements de liaison ne sont pas applicables. </p> </p> <p> <b></b> Syntaxe</span>de la variable de conversion : Associe l’eVar à un produit uniquement si un événement de liaison se produit. Dans ce cas, sélectionnez les événements qui se comportent comme des événements de liaison. </p> <p>Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html">Variables de marchandisage</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Événement de liaison de marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
