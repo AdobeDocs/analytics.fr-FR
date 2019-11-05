@@ -7,7 +7,7 @@ title: Mappage de mesures et de dimensions avec des cellules
 topic: Créateur de rapports
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,9 +22,9 @@ Si vous mappez, par erreur, des emplacements incompatibles sur la feuille de cal
 
 Pour plus d’informations, reportez-vous aux sections suivantes :
 
-* [Sélectionner une plage de cellules](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [Techniques de sélection des cellules](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
-* [Problèmes en cours de mappage](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
+* [Sélectionner une plage de cellules](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [Techniques de sélection des cellules](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [Problèmes en cours de mappage](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Select a Range of Cells {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
