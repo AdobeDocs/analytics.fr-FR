@@ -7,7 +7,7 @@ title: Création de segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: ac663ccb22e4d33a35ede96d59ee0699b04de8d5
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -24,11 +24,11 @@ Le [!UICONTROL Créateur de segments] propose un canevas permettant de faire gli
 
 Il existe plusieurs façons d’accéder au Créateur de segments :
 
-* **Navigation** supérieure dans Analytics : Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Segments]**.
-* **[!UICONTROL Analysis Workspace]**: Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** &gt; **[!UICONTROL Créer un segment.]**
-* **[!UICONTROL Rapports et analyses]**: Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Rapports]**, ouvrez un rapport existant et cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche, puis cliquez sur **[!UICONTROL Ajouter]**.
-* **[!UICONTROL Analyses]** ad hoc : [Créez des segments dans les analyses](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6)ad hoc.
-* **[!UICONTROL Créateur]** de rapports : [Ajouter ou modifier des segments dans le créateur](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)de rapports.
+* **** Navigation principale dans Analytics : Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Segments]**.
+* **Analysis Workspace**: Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** &gt; **[!UICONTROL Créer un segment.]**
+* **Rapports et analyses**: Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Rapports]**, ouvrez un rapport existant et cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche, puis cliquez sur **[!UICONTROL Ajouter]**.
+* **Analyses** ad hoc : [Créez des segments dans les analyses](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments)ad hoc.
+* **Créateur** de rapports : [Ajouter ou modifier des segments dans le créateur](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)de rapports.
 
 ## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -36,9 +36,9 @@ Le [!UICONTROL Créateur de segments] permet de créer des segments simples ou c
 
 ## Fonctionnalités de l’interface utilisateur Web {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-Le [!UICONTROL Créateur de segments] permet de créer et de modifier des segments dans l’interface utilisateur Web (ou dans une [interface utilisateur Java des analyses ad hoc](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#section_E440630183D64999BA2369D1B8048AA6)). Vous pouvez ajouter des définitions de règle et des conteneurs afin d’affiner vos segments en les empilant et les imbriquant. Vous pouvez également valider le nombre de pages vues, de visites et de visiteurs uniques qui a résulté de votre définition de segment active. Le segment pourra alors être enregistré en vue d’une utilisation ultérieure.
+Le [!UICONTROL Créateur de segments] permet de créer et de modifier des segments dans l’interface utilisateur Web (ou dans une [interface utilisateur Java des analyses ad hoc](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)). Vous pouvez ajouter des définitions de règle et des conteneurs afin d’affiner vos segments en les empilant et les imbriquant. Vous pouvez également valider le nombre de pages vues, de visites et de visiteurs uniques qui a résulté de votre définition de segment active. Le segment pourra alors être enregistré en vue d’une utilisation ultérieure.
 
-Accédez au Créateur de segments en procédant comme suit :
+Accédez au Créateur de segments en procédant comme suit ::
 
 * Affichez un rapport existant, puis cliquez sur l’icône Segments ![ dans le volet de navigation de gauche. ](assets/segment_icon.png) Dans le rail du segment qui s’affiche, cliquez sur **[!UICONTROL Ajouter]**.
 
@@ -47,16 +47,16 @@ Accédez au Créateur de segments en procédant comme suit :
 
 ![](assets/segment_builder_ui.png)
 
-1. **[!UICONTROL Titre]**: Permet de nommer ou de renommer le segment.
-1. **[!UICONTROL Description]**: Fournissez une description du segment. Vous devez fournir une description si vous souhaitez partager le segment.
-1. **[!UICONTROL Balises]**: [Balisez le segment](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) que vous créez en sélectionnant une liste de balises existantes ou en créant une nouvelle balise.
-1. **[!UICONTROL Définitions]**: C’est là que vous [créez et configurez des segments](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4), ajoutez des règles et imbriquez et séquencez des conteneurs. Permet de fournir une description du nouveau segment en sélectionnant le conteneur et en faisant glisser-déposer les dimensions, segments ou mesures dans la définition.
-1. **[!UICONTROL Afficher]**: (Sélecteur Conteneur supérieur.) Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ([!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). Le conteneur de niveau supérieur par défaut est le conteneur Accès.
-1. **[!UICONTROL Options]**: (engrenage) icône
+1. **** Titre : Permet de nommer ou de renommer le segment.
+1. **** Description : Fournissez une description du segment. Vous devez fournir une description si vous souhaitez partager le segment.
+1. **** Balises : [Balisez le segment](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) que vous créez en sélectionnant une liste de balises existantes ou en créant une nouvelle balise.
+1. **** Définitions : C’est là que vous [créez et configurez des segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), ajoutez des règles et imbriquez et séquencez des conteneurs. Permet de fournir une description du nouveau segment en sélectionnant le conteneur et en faisant glisser-déposer les dimensions, segments ou mesures dans la définition.
+1. **** Afficher : (Sélecteur Conteneur supérieur.) Lets you select the top-level [container](/help/components/c-segmentation/seg-overview.md) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). Le conteneur de niveau supérieur par défaut est le conteneur Accès.
+1. **** Options : (engrenage) icône
 
-   * **[!UICONTROL + Ajouter un conteneur]** : permet d’ajouter un nouveau conteneur (sous le conteneur de niveau supérieur) à la définition de segment.
-   * **[!UICONTROL + Ajouter un conteneur d’après la sélection]** : permet de créer un nouveau conteneur à partir des éléments que vous avez sélectionnés dans le champ Définitions.
-   * **[!UICONTROL Exclure]** : permet de définir le segment en excluant un ou plusieurs segments, dimensions ou mesures.
+   * **** + Ajouter un conteneur : Permet d’ajouter un nouveau conteneur (sous le conteneur de niveau supérieur) à la définition de segment.
+   * **** + Ajouter un conteneur à partir de la sélection : Permet de créer un conteneur à partir du ou des éléments que vous avez (multi-) sélectionné dans le champ Définitions.
+   * **** Exclure : Permet de définir le segment en excluant une ou plusieurs dimensions, segments ou mesures.
 
 **[!UICONTROL Modèles]** d’attribution : Pour la segmentation des dimensions. Les modèles de dimension sont particulièrement utiles pour la segmentation séquentielle, comme dans le cas des visualisations de flux :
 
@@ -66,26 +66,26 @@ Accédez au Créateur de segments en procédant comme suit :
 
 ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL Dimensions]**: Les dimensions sont glissées et déposées depuis la liste Dimensions (barre latérale orange).
-1. **[!UICONTROL Comparaison]**: Vous pouvez comparer et contraindre des valeurs à l’aide d’opérateurs sélectionnés.
-1. **[!UICONTROL Valeur]**: Valeur saisie ou sélectionnée pour la dimension, le segment ou la mesure.
-1. **[!UICONTROL Et/Ou/Puis]**: Affecte les opérateurs [!UICONTROL ET/OU/ALORS] entre des conteneurs ou des règles. The THEN operator lets you [define sequential segments](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560).
+1. **** Dimensions : Les dimensions sont glissées et déposées depuis la liste Dimensions (barre latérale orange).
+1. **** Comparaison : Vous pouvez comparer et contraindre des valeurs à l’aide d’opérateurs sélectionnés.
+1. **** Valeur : Valeur saisie ou sélectionnée pour la dimension, le segment ou la mesure.
+1. **[!UICONTROL Et/Ou/Puis]**: Affecte les opérateurs [!UICONTROL ET/OU/ALORS] entre des conteneurs ou des règles. The THEN operator lets you [define sequential segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Mesure]**: (Barre latérale verte) Mesure qui a été glissée et déposée depuis la liste Mesures.
 1. **[!UICONTROL Opérateur de comparaison]** : Vous pouvez comparer et contraindre des valeurs à l’aide d’opérateurs sélectionnés.
 1. **[!UICONTROL Valeur]**: Valeur saisie ou sélectionnée pour la dimension, le segment ou la mesure.
 1. **[!UICONTROL X]**: (Supprimer) Permet de supprimer cette partie de la définition de segment.
 1. **[!UICONTROL Enregistrer]** ou **[!UICONTROL Annuler]**: Enregistre ou annule le segment. After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
-1. **[!UICONTROL Rechercher]**: Recherche la liste des dimensions, des segments ou des mesures.
-1. **[!UICONTROL Dimensions]**: (Liste) Cliquez sur l’en-tête pour le développer.
-1. **[!UICONTROL Mesures]**: Cliquez sur l’en-tête pour le développer.
-1. **[!UICONTROL Segments]**: Cliquez sur l’en-tête pour le développer.
-1. **[!UICONTROL Sélecteur]** de suite de rapports : Permet de sélectionner la suite de rapports sous laquelle ce segment sera enregistré. Vous pouvez tout de même utiliser le segment dans toutes les suites de rapport.
-1. **[!UICONTROL Aperçu]** du segment : Vous permet de prévisualiser les mesures clés afin de déterminer si vous disposez d’un segment valide et sa largeur. Représente la ventilation du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Affiche 3 cercles concentriques et une liste afin d’afficher le nombre et le pourcentage de correspondances pour [!UICONTROL Accès], [!UICONTROL Visites] et [!UICONTROL Visiteurs] pour une exécution de segment par rapport à un jeu de données. Ce graphique est mis à jour immédiatement une fois que vous avez créé ou apporté des modifications à votre définition de segment.
-1. **[!UICONTROL Compatibilité]** des produits : Fournit une liste des produits Adobe Analytics (Analysis Workspace, [!UICONTROL Rapports et analyses], Analyses ad hoc, Entrepôt de données) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Néanmoins, tous les opérateurs et dimensions ne sont pas compatibles avec l’ensemble des produits Analytics, notamment [Data Warehouse](../../../components/c-segmentation/seg-reference/seg-compatibility.md#concept_7A2CC00352274A75ACD4949CA3C144D4). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
+1. **** Rechercher : Recherche la liste des dimensions, des segments ou des mesures.
+1. **** Dimensions : (Liste) Cliquez sur l’en-tête pour le développer.
+1. **** Mesures : Cliquez sur l’en-tête pour le développer.
+1. **** Segments : Cliquez sur l’en-tête pour le développer.
+1. **** Sélecteur de suite de rapports : Permet de sélectionner la suite de rapports sous laquelle ce segment sera enregistré. Vous pouvez tout de même utiliser le segment dans toutes les suites de rapport.
+1. **** Aperçu du segment : Vous permet de prévisualiser les mesures clés afin de déterminer si vous disposez d’un segment valide et sa largeur. Représente la ventilation du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Affiche 3 cercles concentriques et une liste afin d’afficher le nombre et le pourcentage de correspondances pour [!UICONTROL Accès], [!UICONTROL Visites] et [!UICONTROL Visiteurs] pour une exécution de segment par rapport à un jeu de données. Ce graphique est mis à jour immédiatement une fois que vous avez créé ou apporté des modifications à votre définition de segment.
+1. **** Compatibilité des produits : Fournit une liste des produits Adobe Analytics (Analysis Workspace, [!UICONTROL Rapports et analyses], Analyses ad hoc, Entrepôt de données) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Néanmoins, tous les opérateurs et dimensions ne sont pas compatibles avec l’ensemble des produits Analytics, notamment [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
 
 Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports &amp; Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports &amp; Analytics] gives you the intersection of the report date range and the segment's embedded date range.
 
-**[!UICONTROL Publier dans Experience Cloud (pour`<report suite name>`)]**: (Non affiché à l’écran) Cette option s’affiche uniquement si la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour Experience Cloud](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01). By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. Un titre et une description du segment sont requis.
+**[!UICONTROL Publier dans Experience Cloud (pour`<report suite name>`)]**: (Non affiché à l’écran) Cette option s’affiche uniquement si la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. Un titre et une description du segment sont requis.
 
 > [!NOTE]Dans Analytics, vous pouvez modifier ou supprimer un segment publié. Si le segment est en cours d’utilisation, un message d’avertissement s’affiche lorsque vous le modifiez. Vous ne pouvez pas supprimer un segment publié en cours d’utilisation par Adobe [!DNL Target].
 
@@ -99,7 +99,7 @@ Segments with embedded date ranges continue to operate differently in Analysis W
 >
 >Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], [!DNL Advertising Cloud], and [!DNL Campaign].
 
-## Création de segments {#section_050E3343533E45C3923242398E0E0213}
+## Création de segments {#build-segments}
 
 1. Faites simplement glisser une dimension, un segment ou un événement de mesure depuis le panneau de gauche vers le champ [!UICONTROL Définitions].
 
@@ -107,18 +107,18 @@ Segments with embedded date ranges continue to operate differently in Analysis W
 
    Le conteneur [!UICONTROL Accès] de niveau supérieur par défaut s’affiche après avoir fait glisser un élément vers [!UICONTROL Définitions]. Vous pouvez modifier le type de conteneur sur Visite ou Visiteur depuis le menu déroulant **[!UICONTROL Afficher].**
 
-1. Définissez l’ [opérateur](../../../components/c-segmentation/seg-reference/seg-operators.md) dans le menu déroulant.
+1. Définissez l’ [opérateur](/help/components/c-segmentation/seg-reference/seg-operators.md) dans le menu déroulant.
 1. Saisissez ou sélectionnez une valeur pour l’élément sélectionné.
 1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules.
 1. Après avoir placé les conteneurs et défini les règles, consultez les résultats du segment dans le graphique de validation dans la partie supérieure droite. Le programme de validation indique le pourcentage et le nombre absolu de pages vues, de visites et de visiteurs uniques qui correspondent au segment que vous avez créé.
-1. Under **[!UICONTROL Tags]**, [tag](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50) the container by selecting an existing tag or creating a new one.
+1. Under **[!UICONTROL Tags]**, [tag](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md) the container by selecting an existing tag or creating a new one.
 1. Cliquez sur **[!UICONTROL Enregistrer]pour enregistrer le segment.**
 
-Vous accédez maintenant au Gestionnaire [de](../../../components/c-segmentation/c-segmentation-workflow/seg-manage.md#concept_7A2E019317864065B7C641DC3315928F)segments, où vous pouvez baliser, partager et gérer votre segment de plusieurs manières.
+Vous accédez maintenant au Gestionnaire [de](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md)segments, où vous pouvez baliser, partager et gérer votre segment de plusieurs manières.
 
 ## Build and nest containers {#section_1C38F15703B44474B0718CEF06639EFD}
 
-You can [build a framework of containers](../../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) and then place logic rules and operators between.
+You can [build a framework of containers](/help/components/c-segmentation/seg-overview.md) and then place logic rules and operators between.
 
 1. Cliquez sur **[!UICONTROL Options &gt; Ajouter un conteneur]**.
 
