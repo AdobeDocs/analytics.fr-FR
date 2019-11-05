@@ -9,7 +9,7 @@ title: Fenêtre modale de mise en œuvre simplifiée
 topic: Reports & Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,11 +67,11 @@ Cette procédure permet d’effectuer les opérations suivantes :
       </tr> 
       <tr> 
        <td colname="col1"> <p>Couche de données </p> </td> 
-       <td colname="col2"> <p>(Recommandé) Tableau JavaScript utilisé pour stocker des informations. Si vous effectuez la configuration automatique à l’aide de Dynamic Tag Management, vous utiliserez une couche de données. </p> <p>Pour consulter un blog sur les couches de données, accédez à <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external"> Data Layer: From Buzzword to Best Practice</a> (en anglais). </p> </td> 
+       <td colname="col2"> <p>(Recommandé) Tableau JavaScript utilisé pour stocker des informations. Si vous effectuez la configuration automatique à l’aide de Dynamic Tag Management, vous utiliserez une couche de données. </p> <p>Pour consulter un blog sur les couches de données, accédez à <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/"> Data Layer: From Buzzword to Best Practice</a> (en anglais). </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Référentiel de données (suite de rapports) </p> </td> 
-       <td colname="col2"> <p> Une <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">suite de rapports</a> est un jeu de données distinct qui correspond généralement à une seule propriété (site ou application) ou marque. Chaque suite de rapports possède ses propres ensembles de rapports et de mesures. </p> </td> 
+       <td colname="col2"> <p> Une <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html">suite de rapports</a> est un jeu de données distinct qui correspond généralement à une seule propriété (site ou application) ou marque. Chaque suite de rapports possède ses propres ensembles de rapports et de mesures. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Fuseau horaire </p> </td> 
@@ -108,7 +108,7 @@ Cette procédure permet d’effectuer les opérations suivantes :
       </tr> 
       <tr> 
        <td colname="col1"> <p>Télécharger </p> </td> 
-       <td colname="col2"> <p> Télécharge le fichier d’installation appelé <span class="filepath">INSTALL-ME &lt;nom de la suite de rapports&gt;.js</span>. Cette option est destinée aux utilisateurs expérimentés qui comprennent la <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">mise en œuvre de JavaScript</a>. </p> <p> <p>Important : Le téléchargement du code n’est pas un déploiement d’<span class="keyword">Analytics</span>. Il s’agit d’un déploiement manuel que vous effectuez sur les pages de votre site ou par le bais des services de conseil Adobe. </p> </p> </td> 
+       <td colname="col2"> <p> Télécharge le fichier d’installation appelé <span class="filepath">INSTALL-ME &lt;nom de la suite de rapports&gt;.js</span>. Cette option est destinée aux utilisateurs expérimentés qui comprennent la <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html">mise en œuvre de JavaScript</a>. </p> <p> <p>Important : Le téléchargement du code n’est pas un déploiement d’<span class="keyword">Analytics</span>. Il s’agit d’un déploiement manuel que vous effectuez sur les pages de votre site ou par le bais des services de conseil Adobe. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
