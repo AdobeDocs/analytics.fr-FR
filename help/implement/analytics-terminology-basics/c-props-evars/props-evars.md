@@ -8,7 +8,7 @@ title: Propriétés et eVars - Aperçu
 topic: Développeur et mise en œuvre
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Les variables de trafic personnalisé, appelées également props (s.prop) ou variables de propriété, sont en réalité des compteurs qui comptabilisent le nombre de fois où chaque valeur est envoyée dans Analytics.
 
-Lorsque vous déterminez l’emplacement d’affectation des différentes variables, il importe de faire clairement la distinction entre les fonctionnalités Prop et eVar. Etre en mesure d’identifier ces différences permet à votre entreprise de déterminer le type de variable idéal à utiliser. Pour plus d’informations, voir [Comparaison des propriétés et des eVars](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+Lorsque vous déterminez l’emplacement d’affectation des différentes variables, il importe de faire clairement la distinction entre les fonctionnalités Prop et eVar. Etre en mesure d’identifier ces différences permet à votre entreprise de déterminer le type de variable idéal à utiliser. Pour plus d’informations, voir [Comparaison des propriétés et des eVars](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md).
 
 Les props vous permettent également de corréler des données personnalisées avec des événements de trafic spécifiques. Ces variables sont intégrées au code d’[!DNL Analytics] dans chaque page de votre site Web. Grâce aux variables [!UICONTROL s.prop], [!DNL Analytics] vous permet de créer des rapports personnalisés, propres aux objectifs de votre organisation, de votre industrie ou de votre entreprise.
 
@@ -40,4 +40,4 @@ Sur un site de conversion, vous pouvez utiliser des eVars pour effectuer une com
 
 Pour plus d’informations, voir [Variable de trafic](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) dans l’aide et le document de référence d’Analytics.
 
-Pour plus d’informations sur la configuration des propriétés dans Digital Tag Management, voir [Création d’une propriété web](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+Pour plus d’informations sur la configuration des propriétés dans Digital Tag Management, voir [Création d’une propriété web](/help/implement/c-implement-with-dtm/t-create-web-property.md).
