@@ -8,7 +8,7 @@ title: Paramètres de requête de la collecte de données
 topic: Développeur et mise en œuvre
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Vous trouverez, dans le tableau ci-dessous, les paramètres de requête contenant la valeur de chaque variable d’analyse envoyée à la collecte de données.
 
-Ces informations peuvent être utilisées lors d’opérations de débogage réalisées à l’aide de [Analyseurs de paquets](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258), lors de la création manuelle de demandes d’image ou lors de l’utilisation de [variables dynamiques](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262).
+Ces informations peuvent être utilisées lors d’opérations de débogage réalisées à l’aide de [Analyseurs de paquets](/help/implement/impl-testing/packet-monitor.md), lors de la création manuelle de demandes d’image ou lors de l’utilisation de [variables dynamiques](/help/implement/js-implementation/c-variables/dynvars-overview.md).
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
