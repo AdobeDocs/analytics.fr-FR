@@ -5,7 +5,7 @@ seo-title: Publication sur Power BI - Aperçu
 title: Publication sur Power BI - Aperçu
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,13 +22,13 @@ L’association de la fonctionnalité de génération de rapports du Créateur d
 
 L’intégration avec le Créateur de rapports Adobe vous permet de
 
-* [Publier les classeurs du Créateur de rapports planifiés sur Power BI](../../../analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687)
-* [Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI](../../../analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A)
-* [Publier toutes les requêtes du Créateur de rapports sous forme de tableaux de jeu de données Power BI](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [Publier les classeurs du Créateur de rapports planifiés sur Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Publier toutes les requêtes du Créateur de rapports sous forme de tableaux de jeu de données Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Configuration requise {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [installé](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* Adobe Report Builder 5.5 [installé](/help/analyze/report-builder/setup/t-install-arb.md)
 * Compte Microsoft actif qui vous permet de vous connecter à Power BI
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -81,7 +81,7 @@ Au lieu d’importer l’ensemble du classeur, vous pouvez n’importer que le c
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Facultatif) Vous pouvez personnaliser le nom de la ressource publiée dans Power BI. Cela peut être utile si vous utilisez le contrôle de version dans le nom du classeur (par exemple, monclasseur_v1.1.xlsx) et que vous ne souhaitez pas que le numéro de version figure dans le nom de la ressource Power BI publiée. Un autre avantage est que la ressource publiée ne changera pas si le numéro de version change. (Affichez les [spécifications](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD) ici.)
+1. (Facultatif) Vous pouvez personnaliser le nom de la ressource publiée dans Power BI. Cela peut être utile si vous utilisez le contrôle de version dans le nom du classeur (par exemple, monclasseur_v1.1.xlsx) et que vous ne souhaitez pas que le numéro de version figure dans le nom de la ressource Power BI publiée. Un autre avantage est que la ressource publiée ne changera pas si le numéro de version change. (Affichez les [spécifications](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) ici.)
 
 **Affichage des données tabulaires dans Power BI**
 
