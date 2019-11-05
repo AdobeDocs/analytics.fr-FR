@@ -8,7 +8,7 @@ title: Instant Articles de Facebook
 topic: Développeur et mise en œuvre
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -82,7 +82,7 @@ L’exemple de code HTML ci-dessous peut servir à capturer les statistiques dep
    1. Le domaine du serveur de suivi de votre entreprise.
    1. La variable de l’espace de noms du visiteur. **Remarque :** La plupart de ces valeurs se trouvent dans votre mise en œuvre Analytics standard. L’assistance clientèle ou le conseiller Adobe peut vous aider à savoir quelles sont les valeurs correctes, si nécessaire.
 
-1. [Définition du suivi personnalisé des variables et événements](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [Définition du suivi personnalisé des variables et événements](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. Incluez la syntaxe de la demande d’image de page vue `( s.t())`.
 
 ## Étape 3. Définition du suivi personnalisé des variables et événements {#section_932C41BD21154C25B99389299BDF3E0B}
