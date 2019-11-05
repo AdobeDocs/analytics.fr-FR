@@ -6,7 +6,7 @@ solution: Analytics
 title: Variables de création de rapports de confidentialité
 topic: Outils d’administration
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ Ces variables de création de rapports de confidentialité fournissent un cadre 
 * Droit d’opposition de gestion du consentement
    * Variable réservée : Prop de liste
    * Type : Chaîne délimitée par des virgules
-   * Contient:
+   * Contient: 
       * `contextData.['cm.ssf']=1` affiché en tant que SSF
       * `contextData.['opt.dmp']=N` affiché en tant que DMP
       * `contextData.['opt.sell']=N` affiché en tant que SELL
@@ -29,7 +29,7 @@ Ces variables de création de rapports de confidentialité fournissent un cadre 
 * Accord préalable de gestion du consentement
    * Variable réservée : Prop de liste
    * Type : Chaîne délimitée par des virgules
-   * Contient:
+   * Contient: 
       * `contextData.['opt.dmp']=Y` affiché en tant que DMP
       * `contextData.['opt.sell']=Y` affiché en tant que SELL
 
@@ -38,7 +38,7 @@ Ces variables de création de rapports de confidentialité fournissent un cadre 
 Vous pouvez activer les variables de création de rapports de confidentialité à l’aide d’un nouveau paramètre de confidentialité disponible dans Analytics Admin Console.
 
 Chaque suite de rapports peut être configurée comme suit :
-1. Dans Rapports et analyses, cliquez sur **[!UICONTROL Administration &gt; Suites de rapports.]**
+1. Dans Reports &amp; Analytics, cliquez sur **[!UICONTROL Administration &gt; Suites de rapports.]**
 1. Sélectionnez la ou les suite(s) de rapports à l’emplacement où vous effectuez la collecte de données multimédia, puis cliquez sur **[!UICONTROL Modifier les paramètres &gt; Gestion des médias]&gt;** Création de rapports de confidentialité.
 
    ![](assets/rsm-privacy-select.png)
