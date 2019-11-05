@@ -3,8 +3,8 @@ title: Création d’une propriété Analytics dans Launch
 seo-title: Création d’une propriété Adobe Analytics dans Adobe Experience Platform Launch
 description: Créez un espace pour personnaliser la manière dont les données sont collectées à l’aide d’Adobe Experience Platform Launch.
 seo-description: Créez un espace pour personnaliser la manière dont les données sont collectées dans Adobe Analytics à l’aide d’Adobe Experience Platform Launch.
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -15,13 +15,13 @@ Adobe Experience Platform Launch est l’outil que vous pouvez utiliser pour int
 
 ## Conditions préalables
 
-[Création d’une suite de rapports](../../admin/admin-console/create-report-suite.md) : création d’un silo pour la collecte des données Analytics
+[Création d’une suite de rapports](/help/admin/admin-console/create-report-suite.md) : création d’un silo pour la collecte des données Analytics
 
 ## Création d’une propriété et installation d’extensions vitales
 
 Les propriétés sont des conteneurs principaux que vous utilisez pour gérer les balises. Les extensions vous permettent d’installer des balises spécifiques à un produit et de les configurer.
 
-1. Accédez à [launch.adobe.com](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 1. Cliquez sur « Nouvelle propriété ».
 1. Donnez un nom à votre propriété, comme le titre de votre site web, et saisissez le domaine sur lequel vous envisagez de mettre en œuvre Analytics. Cliquez sur Enregistrer.
 1. Cliquez sur la propriété que vous venez de créer pour en saisir les paramètres.
@@ -34,7 +34,7 @@ Les propriétés sont des conteneurs principaux que vous utilisez pour gérer le
 
 Les éléments de données sont des références à des composants spécifiques de votre site pour collecter des valeurs de variable.
 
-1. Accédez à [launch.adobe.com](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 2. Cliquez sur la propriété Launch que vous prévoyez de mettre en œuvre sur votre site.
 3. Cliquez sur l’onglet Eléments de données, puis sur Créer un élément de données.
 4. Définissez les paramètres suivants pour l’élément de données :
@@ -51,7 +51,7 @@ Les éléments de données sont des références à des composants spécifiques 
 
 Les règles mettent en correspondance les éléments de données avec des valeurs des variables Analytics et déterminent le moment où ces valeurs sont transmises aux serveurs d’Adobe.
 
-1. Accédez à [launch.adobe.com](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 1. Cliquez sur la propriété Launch que vous prévoyez de mettre en œuvre sur votre site.
 1. Cliquez sur Créer une règle et nommez-la `Global Rule`.
 1. Cliquez sur Ajouter en regard des événements, puis saisissez les paramètres suivants :
@@ -76,9 +76,9 @@ Les règles mettent en correspondance les éléments de données avec des valeur
 
 ## Documentation et ressources supplémentaires
 
-* [Documentation sur l’extension Adobe Analytics](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension) : documentation complète spécifique à l’extension Adobe Analytics dans Adobe Experience Platform Launch.
+* [Documentation](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)de l’extension Adobe Analytics : Documentation complète spécifique à l’extension Adobe Analytics dans Adobe Experience Platform Launch.
 * [Prise en main de Launch](https://docs.adobelaunch.com/getting-started) : documentation complète pour Launch, y compris un guide de prise en main plus détaillé
-* [Chaîne YouTube Adobe Experience Platform Launch](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd) : découvrez comment utiliser le lancement par le biais de vidéos
+* [Adobe Experience Platform Launch, chaîne](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd)YouTube : Découvrez comment utiliser le lancement par le biais des vidéos
 
 ## Étapes suivantes
 
