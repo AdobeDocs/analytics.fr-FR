@@ -5,7 +5,7 @@ seo-title: Étiquettes relatives à la confidentialité des données pour les va
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -432,7 +432,7 @@ Cette section vise à clarifier les informations concernant les variables Analyt
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identifiant visiteur </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez  <a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
+   <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez  <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID AMO </p> </td> 
