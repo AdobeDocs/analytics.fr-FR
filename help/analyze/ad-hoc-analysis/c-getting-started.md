@@ -5,7 +5,7 @@ seo-title: Prise en main
 title: Prise en main
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -29,7 +29,7 @@ Grâce à ces fonctionnalités, vous pouvez répondre aux questions sur le trafi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Connexion à Adobe <span class="keyword">Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com" scope="external" format="https"> marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Lancement des Ad Hoc Analysis. </p> </td> 
@@ -37,20 +37,20 @@ Grâce à ces fonctionnalités, vous pouvez répondre aux questions sur le trafi
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Création d’un projet. </p> </td> 
-   <td colname="col2"> <p>Sélectionnez une suite de rapports sur la page de démarrage, puis cliquez sur <span class="uicontrol">Créer un projet</span>. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p>Sélectionnez une suite de rapports sur la page de démarrage, puis cliquez sur <span class="uicontrol">Créer un projet</span>. </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projects and Workspaces</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Ouverture d’un rapport. </p> </td> 
-   <td colname="col2"> <p>Recherchez un rapport à l’aide du menu standard du rapport Marketing Cloud. Vous pouvez également choisir un modèle. </p> <p>Pour plus d’informations, voir <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_370F674C5B4C45368731AA801C5A45F8" type="concept" format="dita" scope="local"> Modèles de rapport</a>. </p> </td> 
+   <td colname="col2"> <p>Recherchez un rapport à l’aide du menu standard du rapport Marketing Cloud. Vous pouvez également choisir un modèle. </p> <p>Pour plus d’informations, voir <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Modèles de rapport</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. Configuration du rapport. </p> </td> 
    <td colname="col2"> <p>Effectuez les tâches suivantes pour configurer des rapports : </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Créer des segments afin d’effectuer une analyse plus approfondie des données </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Ajouter des mesures, des dimensions et des segments au <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> Générateur de tableau</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuration des <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> plages de dates</a> </li> 
-     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> Planifier</a> l’envoi des rapports </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Ajouter des mesures, des dimensions et des segments au <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Générateur de tableau</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuration des <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > plages de dates</a> </li> 
+     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Planifier</a> l’envoi des rapports </li> 
     </ul> <p>Parcourez ce système d’aide à la recherche des informations dont vous avez besoin. </p> </td> 
   </tr> 
  </tbody> 
