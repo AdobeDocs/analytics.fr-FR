@@ -7,7 +7,7 @@ title: Gestionnaire de suites de rapports
 topic: Outils d’administration
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,7 +54,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Cumuls</span> </td> 
-   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> Suites de rapports de cumul</a>. </p> </td> 
+   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Suites de rapports de cumul</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifier les paramètres</span> </td> 
@@ -62,7 +62,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Créer</span> </td> 
-   <td colname="col2">Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nouvelle suite de rapports</a>. </td> 
+   <td colname="col2">Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Nouvelle suite de rapports</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Personnaliser les colonnes</span> </td> 
@@ -70,15 +70,15 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Identifiant de Report Suite</span> </td> 
-   <td colname="col2">Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nouvelle suite de rapports</a>. </td> 
+   <td colname="col2">Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Nouvelle suite de rapports</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Titre du site</span> </td> 
-   <td colname="col2"> <p>Identifie les suites de rapports dans les outils d’administration, ainsi que dans la liste déroulante des suites de rapports dans l’en-tête du rapport marketing. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nouvelle suite de rapports</a>. </p> </td> 
+   <td colname="col2"> <p>Identifie les suites de rapports dans les outils d’administration, ainsi que dans la liste déroulante des suites de rapports dans l’en-tête du rapport marketing. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Nouvelle suite de rapports</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> URL de base</span> </td> 
-   <td colname="col2"> <p>Définit le domaine de base de la suite de rapports. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nouvelle suite de rapports</a>. </p> </td> 
+   <td colname="col2"> <p>Définit le domaine de base de la suite de rapports. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Nouvelle suite de rapports</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
