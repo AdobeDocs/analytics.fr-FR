@@ -7,7 +7,7 @@ title: Partage des segments
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ Selon vos autorisations, vous pouvez partager des segments avec l’ensemble de 
 
 À quel moment devriez-vous partager des segments à l’échelle de l’entreprise au lieu de vous limiter à des groupes d’utilisateurs ou des individus ? Vous trouverez ci-dessous quelques bonnes pratiques que vous pouvez suivre :
 
-* En tant qu’administrateur, partagez un segment avec **[!UICONTROL Tous]s’il est utile à l’ensemble de l’entreprise et si tout le monde sait l’utiliser correctement.** In this case, you should also consider making it an [approved](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) segment.
+* En tant qu’administrateur, partagez un segment avec **[!UICONTROL Tous]s’il est utile à l’ensemble de l’entreprise et si tout le monde sait l’utiliser correctement.** In this case, you should also consider making it an [approved](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) segment.
 
 * En tant qu’administrateur, partagez un segment avec un **[!UICONTROL Groupe]spécifique si le segment offre une valeur ajoutée intéressante à l’équipe en question.** N’approuvez pas officiellement ce type de segment.
 * En tant qu’administrateur ou utilisateur individuel, le partage d’un segment avec d’autres individus approuve et valide le segment en question. S’il ne s’avère pas utile, il peut être ignoré. N’approuvez pas officiellement ce type de segment.
