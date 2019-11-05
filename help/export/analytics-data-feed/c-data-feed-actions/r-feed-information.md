@@ -1,18 +1,18 @@
 ---
 description: Utilisez la section Informations sur les flux pour nommer le flux, définir la suite de rapports sur laquelle l’exécuter, déterminer sa fréquence ainsi que sa date et son heure de début et de fin.
-keywords: Flux de données ; informations ; name ; suite de rapports ; email une fois terminé ; email ; intervalle ; flux ; le traitement du délai ; delay ; start ; end ; date ; flux continu
+keywords: Flux de données;information;nom;suite de rapports;courrier électronique une fois terminé;courriel;intervalle;flux;traitement du retard;délai;début;fin;date;flux continu
 seo-description: Utilisez la section Informations sur les flux pour nommer le flux, définir la suite de rapports sur laquelle l’exécuter, déterminer sa fréquence ainsi que sa date et son heure de début et de fin.
-seo-title: Informations sur les flux
+seo-title: Informations sur le flux
 solution: Analytics
-title: Informations sur les flux
-uuid: adf 92 f 42-a 957-4 de 0-a 5 a 1-683 f 2933 af 04
+title: Informations sur le flux
+uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Informations sur les flux
+# Informations sur le flux
 
 Utilisez la section Informations sur les flux pour nommer le flux, définir la suite de rapports sur laquelle l’exécuter, déterminer sa fréquence ainsi que sa date et son heure de début et de fin.
 
@@ -32,7 +32,7 @@ Utilisez la section Informations sur les flux pour nommer le flux, définir la s
   </tr>
   <tr>
    <td colname="col1"> <p>Suite de rapports (obligatoire) </p> </td>
-   <td colname="col2"> <p>Indiquez les suites de rapports pour la demande de flux. </p> <p>Vous devez sélectionner au moins une suite de rapports. Vous ne pouvez pas répertorier deux fois la même suite de rapports. </p> <p>Toutes les suites de rapports non virtuelles disponibles pour l'utilisateur connecté sont disponibles. </p></td>
+   <td colname="col2"> <p>Indiquez les suites de rapports pour la demande de flux. </p> <p>Vous devez sélectionner au moins une suite de rapports. Vous ne pouvez pas répertorier deux fois la même suite de rapports. </p> <p>Toutes les suites de rapports non virtuelles disponibles pour l’utilisateur connecté sont disponibles. </p></td>
   </tr>
   <tr>
    <td colname="col1"> <p>Envoyer par courrier électronique une fois terminé (obligatoire) </p> </td>
