@@ -3,7 +3,7 @@ title: Cas d’utilisation de la comparaison de segments
 description: Découvrez des cas d’utilisation concrets sur la manière dont le panneau de comparaison de segments peut être utilisé pour mieux comprendre la stratégie marketing.
 keywords: Segment IQ
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -56,7 +56,7 @@ Une grande société de services B2B souhaitait comprendre le type de trafic sur
 
 > *"Nous avons découvert que les gens qui achetaient Fitbits étaient 6 fois plus susceptibles d'avoir un message "en rupture de stock" que tout le monde, donc nous avons rapidement commandé plus de Fitbits et évité de manquer de stock !"*
 
-Un important détaillant en ligne s'est intéressé à la façon dont l'un des produits de vacances les plus chauds, Fitbit, se vendait et à ce qui rendait les acheteurs Fitbit uniques parmi d'autres clients. En comparant les segments, ils ont constaté que les utilisateurs qui achetaient Fitbits étaient 6 fois plus susceptibles d’obtenir un message "en rupture de stock" que tout autre client. Après une analyse plus approfondie, l'équipe marketing a dirigé ces visiteurs vers leurs magasins de briques et de mortiers pendant qu'ils attendaient leur service d'achat pour commander plus de Fitbits à expédier. En conséquence, le détaillant a évité plus de messages "en rupture de stock" et a répondu à une plus grande partie de sa demande de vacances.
+**** Scénario : Un important détaillant en ligne s'est intéressé à la façon dont l'un des produits de vacances les plus chauds - Fitbit - se vendait et à ce qui rendait les acheteurs Fitbit uniques parmi d'autres clients. L’équipe marketing a simplement cliqué avec le bouton droit de la souris sur la ligne « Fitbit » de son rapport des produits, puis a exécuté une analyse rapide avec Segment IQ. Ils ont découvert que les acheteurs des objets connectés Fitbit étaient six fois plus susceptibles de recevoir un message « article épuisé » que n’importe quel autre client. Suite à une analyse plus poussée, l’équipe marketing a réussi à diriger ces visiteurs vers leurs magasins traditionnels en attendant que le service des achats commande davantage d’articles Fitbit. Le détaillant a ainsi évité la multiplication des messages de « rupture de stock » et a pu satisfaire la plus grande partie de la demande des Fêtes.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
