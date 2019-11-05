@@ -7,7 +7,7 @@ title: Chemins
 topic: Rapports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,7 +38,7 @@ Les rapports de chemins comprennent des rapports détaillés standard et des rap
 
 ![](assets/fallout_graphic.png)
 
-Voir [Rapport d’abandons](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41).
+Voir [Rapport d’abandons](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]** : vous permet de fragmenter davantage vos chemins complets, produisant ainsi des modèles précis, déterminants dans le cadre de l’optimisation de votre site. L’Assistant PathFinder permet de spécifier les critères de sélection à utiliser pour générer le rapport de manière à analyser les requêtes et les fragments de chemin en interrogeant ceux qui commencent sur une certaine page, finissent sur une certaine page ou même ceux qui commencent sur une page et finissent sur une autre.
 
