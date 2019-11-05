@@ -1,31 +1,31 @@
 ---
 title: Questions fréquentes
-description: Obtenez des réponses aux questions fréquentes lorsque vous passez d'une plateforme tierce à Adobe.
+description: Obtenez des réponses aux questions fréquentes lorsque vous passez d’une plateforme tierce à Adobe.
 translation-type: tm+mt
-source-git-commit: f10c258341ccef97f58beb6fb4f0046a48e79dda
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
 # Questions fréquentes
 
-**Comment migrer mes données historiques de ma plateforme tierce vers Adobe ?**
+**Comment puis-je migrer mes données historiques de ma plateforme tierce vers Adobe ?**
 
-Chaque plate-forme Analytics permet de collecter, gérer et stocker des données de différentes manières. Plutôt que de migrer les données historiques, Adobe conseille de définir une date de coupure claire pour commencer à collecter et à utiliser les données dans Adobe Analytics. Les dates fréquemment coupées utilisées sont le début d'un exercice, le début d'une année calendaire ou le début d'un mois calendaire. Si les utilisateurs souhaitent consulter les données historiques, ils peuvent se connecter à la plateforme tierce pour obtenir des rapports historiques spécifiques.
+Chaque plate-forme Analytics dispose de différentes méthodes de collecte, de gestion et de stockage des données. Plutôt que de procéder à la migration des données historiques, Adobe recommande d’établir une date de coupure claire pour commencer à collecter et à utiliser des données dans Adobe Analytics. Les dates de coupure fréquentes sont le début d’un exercice, le début d’une année civile ou le début d’un mois civil. Si les utilisateurs souhaitent afficher des données historiques, ils peuvent se connecter à la plateforme tierce pour obtenir des rapports historiques spécifiques.
 
-Si votre organisation est convaincue que des données historiques sont transférées à Adobe, contactez le gestionnaire de compte de votre entreprise. Un conseiller en implémentation peut collaborer avec votre organisation pour traduire une exportation de données Google Analytics en une source de données qui peut être assimilée par des serveurs de collecte de données Adobe.
+Si votre entreprise est convaincue que les données d’historique sont transférées à Adobe, contactez le gestionnaire de compte de votre entreprise. Un conseiller en implémentation peut travailler avec votre entreprise pour traduire une exportation de données Google Analytics en une source de données pouvant être assimilée par les serveurs de collecte de données Adobe.
 
-Adobe recommande de ne pas recommander de données historiques, puisqu'il s'agit d'un processus complexe et qu'il est donc prohibitif pour votre organisation. L'identification des visiteurs est également impossible pour le portage transparent vers Adobe, car les informations sur les visiteurs sont stockées dans différents cookies et différents formats entre plateformes.
+Adobe déconseille de porter des données historiques, car il s’agit d’un processus complexe et d’un coût prohibitif pour votre entreprise. L’identification des visiteurs est également impossible à transférer de manière transparente vers Adobe, car les informations sur les visiteurs sont stockées dans différents cookies et dans différents formats entre plateformes.
 
-**Je suis habitué à une liste déroulante de segmentation dans bon nombre de mes rapports. How can I recreate that in Analysis Workspace?**
+**Je suis habitué à une liste déroulante de segmentation dans la plupart de mes rapports. Comment puis-je recréer cela dans Analysis Workspace ?**
 
-Les filtres déroulants sont une fonctionnalité souple et robuste dans Analysis Workspace qui permet une liste déroulante de segmentation. Dans un projet d'espace de travail :
+Les filtres déroulants sont une fonctionnalité souple et robuste d’Analysis Workspace qui permet une liste déroulante de segmentation. Lors d’un projet d’espace de travail :
 
-1. Utilisez ctrl + clic (Windows) ou cmd + clic (Mac) sur les composants que vous souhaitez inclure dans la liste déroulante. Vous n'êtes pas limité aux segments uniquement ; tout composant peut être inclus dans un filtre déroulant.
-2. Faites glisser le groupe de composants dans la zone d'espace de travail intitulée « Déposer un segment ici ». Avant de laisser le bouton Maj enfoncé, maintenez la touche Maj enfoncée.
+1. Utilisez ctrl+clic (Windows) ou cmd+clic (Mac) sur les composants que vous souhaitez inclure dans la liste déroulante. Vous n’êtes pas limité aux segments ; tout composant peut être inclus dans un filtre déroulant.
+2. Faites glisser le groupe de composants dans la zone de l’espace de travail intitulée "Déposer un segment ici". Avant de partir, maintenez la touche Maj enfoncée.
 
-Les utilisateurs qui accèdent à ce projet d'espace de travail peuvent maintenant utiliser cette liste déroulante pour appliquer des segments ou d'autres composants au projet. See [Panels Overview](../../analyze/analysis-workspace/c-panels/panels.md) in the Analytics user guide for more information.
+Les utilisateurs accédant à ce projet d’espace de travail peuvent désormais utiliser cette liste déroulante pour appliquer des segments ou d’autres composants au projet. Pour plus d’informations, voir Présentation [des](/help/analyze/analysis-workspace/c-panels/panels.md) panneaux dans le guide de l’utilisateur Analytics.
 
-**J'ai l'habitude de cliquer sur une valeur de dimension pour afficher une analyse. How can I replicate that easy workflow in Analysis Workspace?**
+**J'ai l'habitude de cliquer sur une valeur de dimension pour voir une liste déroulante. Comment puis-je répliquer ce flux de travail facile dans Analysis Workspace ?**
 
-Les valeurs de dimension dans Analysis Workspace ont également un flux de ventilation facile à ventiler ; est accessible à l'aide du clic droit plutôt que de la gauche. Cliquez avec le bouton droit sur une valeur de dimension, cliquez sur Ventilation, puis sélectionnez le composant de votre choix. Vous pouvez appliquer la même ventilation à plusieurs valeurs de dimension en utilisant ctrl + clic (Windows) ou cmd + clic (Mac) sur chaque valeur.
+Les valeurs de dimension dans Analysis Workspace présentent également un processus de ventilation facile ; il est accessible en cliquant avec le bouton droit au lieu de cliquer avec le bouton gauche. Cliquez avec le bouton droit sur une valeur de dimension, cliquez sur Ventilation, puis sélectionnez le composant de votre choix. Vous pouvez appliquer la même ventilation à plusieurs valeurs de dimension à l’aide des touches Ctrl+clic (Windows) ou cmd+clic (Mac) sur chaque valeur.
