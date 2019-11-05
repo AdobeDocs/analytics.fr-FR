@@ -8,7 +8,7 @@ title: Création des suites de rapports virtuelles
 topic: Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -62,7 +62,7 @@ Avant de créer des suites de rapports virtuelles, vous devez tenir compte des q
   </tr> 
   <tr> 
    <td colname="col1"> Segments </td> 
-   <td colname="col2"> <p>Vous pouvez ajouter un seul segment ou <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html" format="https" scope="external">empiler des segments</a>. </p> <p> <p>Remarque : Lors de l’empilement de deux segments, ils sont associés par une instruction ET, qui ne peut pas être changée en instruction OU. </p> </p> <p>Lorsque vous essayez de supprimer ou de modifier un segment qui est actuellement utilisé dans une suite de rapports virtuelle, un avertissement s’affiche. </p> </td> 
+   <td colname="col2"> <p>Vous pouvez ajouter un seul segment ou <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >empiler des segments</a>. </p> <p> <p>Remarque : Lors de l’empilement de deux segments, ils sont associés par une instruction ET, qui ne peut pas être changée en instruction OU. </p> </p> <p>Lorsque vous essayez de supprimer ou de modifier un segment qui est actuellement utilisé dans une suite de rapports virtuelle, un avertissement s’affiche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
