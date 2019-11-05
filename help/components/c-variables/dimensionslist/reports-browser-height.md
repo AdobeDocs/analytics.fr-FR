@@ -7,7 +7,7 @@ title: Hauteur du navigateur
 topic: Rapports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ Mesure de la distance verticale des données dans la fenêtre du navigateur uniq
 
 Adobe Analytics utilise la hauteur et la largeur du navigateur uniquement à partir du premier accès d’une visite. Le reste des accès n’obtient pas l’affectation pour la même visite.
 
-Pour plus d’informations, voir Largeur/Hauteur [du](../../../components/c-variables/dimensionslist/browser-width.md#concept_5354E211256B40C1B47599FCC48ABA18)navigateur.
+Pour plus d’informations, voir Largeur/Hauteur [du](/help/components/c-variables/dimensionslist/browser-width.md)navigateur.
