@@ -2,7 +2,7 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur Analytics sur plusieurs périphériques
 translation-type: tm+mt
-source-git-commit: e7a78c2ac21042f57487c1c230e1c96318810429
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -35,7 +35,7 @@ Adobe traite les accès horodatés comme s’ils avaient été reçus au moment 
 
 **En quoi l’ACD se compare-t-il à l’identifiant visiteur personnalisé ?**
 
-[L’identifiant](../../implement/js-implementation/c-unique-visitors/visid-custom.md) visiteur personnalisé est une méthode héritée qui permet de [connecter des utilisateurs entre des périphériques](../../implement/js-implementation/xdevice-visid/xdevice-connecting.md). Avec un identifiant visiteur personnalisé, vous utilisez la `s.visitorID` variable pour définir explicitement l’identifiant utilisé pour la logique du visiteur. La `s.visitorID` variable remplace les identifiants basés sur les cookies qui sont présents. Voir [Identification des visiteurs](../../implement/js-implementation/c-unique-visitors/visid-overview.md) uniques dans le guide de l’utilisateur Mise en oeuvre pour plus d’informations.
+[L’identifiant](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) visiteur personnalisé est une méthode héritée qui permet de [connecter des utilisateurs entre des périphériques](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md). Avec un identifiant visiteur personnalisé, vous utilisez la `s.visitorID` variable pour définir explicitement l’identifiant utilisé pour la logique du visiteur. La `s.visitorID` variable remplace les identifiants basés sur les cookies qui sont présents. Voir [Identification des visiteurs](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) uniques dans le guide de l’utilisateur Mise en oeuvre pour plus d’informations.
 
 Les identifiants visiteur personnalisés ont un certain nombre d’effets secondaires indésirables que l’ADC est conçue pour surmonter ou minimiser. Par exemple, la méthodologie d’identification des visiteurs personnalisée ne comporte aucune fonctionnalité de recherche. Si un utilisateur s’authentifie au milieu d’une visite, la première partie de la visite est associée à un ID de visiteur différent de la seconde partie de la visite. Les identifiants de visiteur distincts génèrent un gonflement des visites et des visiteurs. La fenêtre de recherche de 30 jours de CDA lui permet de revenir en arrière dans le temps pour retraiter le comportement antérieur comme appartenant à la même personne, en associant le comportement non authentifié des périphériques et le comportement authentifié des périphériques multiples avec une inflation nulle ou minimale.
 
