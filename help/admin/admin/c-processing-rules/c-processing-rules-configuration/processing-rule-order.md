@@ -8,7 +8,7 @@ title: Ordre de traitement
 topic: Outils d’administration
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -28,7 +28,7 @@ Les tableaux suivants répertorient les données qui sont généralement disponi
 | Recherche de variable dynamique | Les variables sont renseignées dynamiquement en extrayant des informations des en-têtes HTTP ou d’autres variables. For example, `s.eVar5="D=c1"` will put the value of prop1 into eVar5. |
 | AppMeasurement | Les fonctions et modules complémentaires utilisés dans AppMeasurement sont exécutés dans le navigateur ou dans l’application cliente. |
 | Dynamic Tag Management  | Les règles définies dans la Dynamic Tag Management sont exécutées comme définies. |
-| Règles de robots | [Les règles de robots](../../../../admin/admin/bot-removal/bot-rules.md) vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. |
+| Règles de robots | [Les règles de robots](/help/admin/admin/bot-removal/bot-rules.md) vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. |
 
 ## Après l’application de règles de traitement
 
