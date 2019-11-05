@@ -5,7 +5,7 @@ seo-title: Utilisation des fonctions
 title: Utilisation des fonctions
 uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Les fonctions permettent de filtrer/trier vos données et effectuer des analyses statistiques.
 
-Pour une liste de toutes les fonctions, voir Fonctions [de base](../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) et fonctions [](../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174)avancées.
+Pour une liste de toutes les fonctions, voir Fonctions [de base](/help/components/c-calcmetrics/cm-reference/cm-functions.md) et fonctions [](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)avancées.
 
 > [!NOTE] Lorsque vous incluez des fonctions dans une formule de mesures calculées, appliquez toujours la fonction avant de faire glisser des mesures ou des segments.
 
