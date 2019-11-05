@@ -5,7 +5,7 @@ seo-title: Configuration des rapports existants
 title: Configuration des rapports existants
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -52,7 +52,7 @@ Cliquez sur la liste déroulante **[!UICONTROL Actions de rapport]** ![ dans un 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Options de distribution </p> </td> 
-   <td colname="col2"> <p> Voir Options <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"></a>de remise. </p> </td> 
+   <td colname="col2"> <p> Voir Options <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   ></a>de remise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Imprimer </p> </td> 
@@ -64,7 +64,7 @@ Cliquez sur la liste déroulante **[!UICONTROL Actions de rapport]** ![ dans un 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sources de données </p> </td> 
-   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Affichage </p> </td> 
@@ -124,7 +124,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Afficher la régression linéaire </p> </td> 
-   <td colname="col2"> <p>Pour <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986" format="dita" scope="local"> les graphiques à bulles</a>. Affiche une approximation statistique des données. </p> </td> 
+   <td colname="col2"> <p>Pour <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > les graphiques à bulles</a>. Affiche une approximation statistique des données. </p> </td> 
   </tr> 
  </tbody> 
 </table>
