@@ -5,7 +5,7 @@ seo-title: Quel outil Adobe Analytics dois-je utiliser ?
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -49,7 +49,7 @@ Les **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** doivent �
 * Si une organisation des onglets du projet est requise.
 * Pour utiliser le rapport Analyse de site (rapport de cheminement 3D).
 
-**[Les Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** doivent être utilisés :
+**[Les Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** doivent être utilisés :
 
 * En tant qu’option d’outil Analytics la plus souple (jusqu’à l’analyse au niveau des visiteurs et des accès).
 * Pour créer un jeu de données multicanal d’interactions en ligne et hors ligne, depuis la gestion de la relation client vers le POS jusqu’au Web.
