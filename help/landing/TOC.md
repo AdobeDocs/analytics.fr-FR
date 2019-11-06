@@ -4,7 +4,7 @@ audience: tous
 user-guide-title: Documentation Analytics
 user-guide-url: /content/help/fr-FR/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: 611f8998e4030d089c86d124452096c5eb8655c1
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -20,7 +20,11 @@ source-git-commit: 611f8998e4030d089c86d124452096c5eb8655c1
 * [Guide de mise en œuvre](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
 * [Guide d'importation](https://docs.adobe.com/content/help/en/analytics/import/home.html)
 * [Guide d’intégration](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [Guide d’analyse des médias](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+* [Guide des outils de données](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+
 * [Mises à jour de la documentation](doc-updates.md)
+* [Notes de mise à jour](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
 
 
 <!--
