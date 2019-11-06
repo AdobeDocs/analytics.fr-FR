@@ -7,68 +7,48 @@ solution: Analytics
 title: Résolution des problèmes liés aux tâches
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
 
 ---
 
 
 # Résolution des problèmes liés aux tâches
 
+Si vous rencontrez des problèmes lors de l’affichage d’un flux de données sur votre site FTP, utilisez cette page pour comprendre pourquoi.
+
+## Codes d’erreur
+
 Si une erreur survient, elle est indiquée dans la colonne État de la tâche.
 
-Les erreurs et leurs causes potentielles sont répertoriées ci-dessous :
+### Erreur de chdir FTP
 
-<table id="table_BE2921B8E7C94B0EB88774321B8692F0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Erreur </th> 
-   <th colname="col2" class="entry"> Cause potentielle </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Erreur liée au Chdir FTP </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_79AB3EA974CC46A0A645A439BC612D88"> 
-      <li id="li_4A6A5922275946908E06499E8EAAF18B"> Défaillance du serveur réseau ou de destination </li> 
-      <li id="li_33393FF286624A63B12991DCE079841D">Problème lié aux droits de lecture/d’écriture </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Erreur de connexion FTP </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_5F926078850D4495B83BC938395CAC6B"> 
-      <li id="li_A72A357F6289438EA1A091AC4FD3A3D0"> Problème d’authentification </li> 
-      <li id="li_48532C78285E4DB6A47B1435A5FA549B"> Défaillance du serveur réseau ou de destination </li> 
-      <li id="li_11DF6FA218CA48539C4561695234CA4D"> Problème lié aux droits de lecture/d’écriture </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Erreur FTP </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_020BA1DC81F645FFABCAD07E51351D1E"> 
-      <li id="li_8566EECEFD344BFDB638259474A8E8EA"> Disque saturé ou quota d’espace disque dépassé </li> 
-      <li id="li_15CD50ED54F846F79BFDF25359864C59"> Défaillance du serveur réseau ou de destination </li> 
-      <li id="li_741A3315C0B940D3A9874F15C78B4F28"> Problème lié aux droits de lecture/d’écriture </li> 
-      <li id="li_49F707F7F65A443F8AC6E058E3D89B96"> Problème d’authentification </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Erreur de connexion FTP </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_F7F128ADF1FD4E9D8B79424A6432378E"> 
-      <li id="li_68C377CAD50346B1B9937B77E7EB2AAD"> Problème d’authentification </li> 
-      <li id="li_7EA91C90FFC0493EA156292620EF1589"> Défaillance du serveur réseau ou de destination </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Erreur de configuration FTP </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_760DA2CBD46B4C348BE3B7B43E803FD9"> 
-      <li id="li_6578482722E14E998515B4B3EA370C44"> Disque saturé ou quota d’espace disque dépassé </li> 
-      <li id="li_342240DDD9D3423198C23123473D539C"> Défaillance du serveur réseau ou de destination </li> 
-      <li id="li_44CEFE1D92A74842A6321C416637421F"> Problème lié aux droits de lecture/d’écriture </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Le flux ne peut pas accéder au dossier spécifié ni y écrire. Assurez-vous que le dossier de destination existe sur le site FTP et que les informations d’identification fournies disposent des autorisations de lecture/écriture appropriées sur ce dossier.
+
+### Erreur de connexion FTP
+
+Le flux ne peut pas se connecter à la destination FTP. Assurez-vous que la destination FTP est correcte et valide.
+
+### Erreur FTP
+
+Erreur générique dans laquelle le flux ne peut pas écrire le fichier sur le site FTP. Cette erreur peut provenir du fait que le disque du serveur FTP est saturé ou que le quota est dépassé. L'erreur peut également provenir d'une défaillance du réseau ou du serveur de destination.
+
+### Erreur de connexion FTP
+
+Le flux ne peut pas se connecter à l’aide des informations d’identification fournies. Assurez-vous que le nom d’utilisateur et le mot de passe FTP sont corrects.
+
+### Erreur de configuration FTP
+
+Le flux ne peut pas écrire de fichiers sur le site FTP. Assurez-vous que la connexion FTP dispose des autorisations appropriées pour lire et écrire des données sur votre site FTP. Cette erreur peut également provenir d’un disque complet ou d’un quota de disque dépassé sur le serveur FTP.
+
+## Procédure de dépannage
+
+Connectez-vous à votre site FTP et téléchargez n’importe quel fichier vers celui-ci. Dans la plupart des cas, vous pouvez déterminer le point d’échec à l’aide de ces étapes.
+
+1. Connectez-vous à votre site FTP à l’aide de l’Explorateur de fichiers (Windows) ou du Finder (Mac). Veillez à utiliser le protocole FTP (`ftp://`). Si vous ne parvenez pas à accéder au site FTP, vous pouvez demander au propriétaire du site FTP de déterminer la destination appropriée.
+
+   ![Explorateur de fichiers](assets/file_explorer.png)
+
+2. Une fenêtre contextuelle demandant un nom d’utilisateur et un mot de passe s’affiche. Entrez vos informations d’identification d’authentification. Si les informations d’identification sont acceptées, la fenêtre affiche le contenu actuel sur le site FTP. Si les informations d’identification ne sont pas acceptées, vous pouvez travailler avec le propriétaire FTP pour vous assurer que le nom d’utilisateur et le mot de passe sont corrects.
+3. Téléchargez un fichier sur le site FTP en le faisant glisser dans la fenêtre authentifiée. Toute image ou document texte est approprié. Si vous obtenez une erreur en tentant de placer un fichier sur le site FTP, demandez au propriétaire FTP de vérifier qu’il y a suffisamment d’espace disque et que le nom d’utilisateur dispose d’autorisations d’écriture sur le site FTP.
+4. Une fois que vous avez confirmé que le fichier se trouve sur le site FTP, vous pouvez supprimer le fichier téléchargé à l’étape précédente.
+5. Si toutes les étapes ci-dessus fonctionnent et que vous obtenez toujours une erreur FTP, demandez à un délégué du service à la clientèle de contacter le service d’assistance clientèle.
