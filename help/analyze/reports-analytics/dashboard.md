@@ -8,7 +8,7 @@ title: Tableaux de bord et mini-rapports
 topic: Reports & Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -58,7 +58,7 @@ Ce tableau de bord présente un aperçu des mesures clés liées aux opérations
 
 Utilisez le [!UICONTROL Gestionnaire de tableaux de bord] pour modifier et gérer les tableaux de bord et les activer pour DirectAccess.
 
-Reportez-vous à la section [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+Voir  [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## Création d’un tableau de bord {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -87,7 +87,7 @@ Avant d’ajouter un rapport (comme mini-rapport) à un tableau de bord, vous de
    Voir [Création d'un petit rapport](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) et [Modification des paramètres](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)du tableau de bord.
 1. Cliquez sur **[!UICONTROL Enregistrer.]**
 
-   Quand vous enregistrez un tableau de bord, il s’affiche dans le menu **[!UICONTROL Tableau de bord].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Voir [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   Quand vous enregistrez un tableau de bord, il s’affiche dans le menu **[!UICONTROL Tableau de bord].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Voir [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md).)
 
 1. (Facultatif) Pour définir le tableau de bord comme page d’entrée, cliquez sur **Autres options** &gt; **[!UICONTROL Définir comme page d’entrée]**.
 
