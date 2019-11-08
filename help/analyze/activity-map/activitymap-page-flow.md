@@ -6,7 +6,7 @@ solution: Analytics
 title: Détails de la page
 topic: Activity Map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
@@ -18,11 +18,11 @@ L’onglet Détails de la page affiche le rapport Page en tant que tableau et le
 
 ![](assets/page_flow.png)
 
-## Page report {#section_2335A9EFE57B4A7687B397DF2098CC6B}
+## Rapport Page {#section_2335A9EFE57B4A7687B397DF2098CC6B}
 
 Ce panneau affiche les mesures de trafic pour la page web visitée. Si vous accédez à une page web pour laquelle la balise de page Analytics n’est pas mise en œuvre, le panneau ne s’affichera pas.
 
-## Page Flow report {#section_D6EDE78CF7124758BF846E57ADABA234}
+## Rapport Flux de page {#section_D6EDE78CF7124758BF846E57ADABA234}
 
 Le côté gauche comprend les pages précédentes et les référents (externes), qui peuvent également être développés pour afficher les quatre premières entrées de chaque catégorie.
 
