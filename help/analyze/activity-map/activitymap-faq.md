@@ -1,12 +1,12 @@
 ---
 description: Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
-seo-description: Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Carte d’activités.
+seo-description: Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
 seo-title: Questions fréquentes sur Activity Map
 solution: Analytics
 title: Questions fréquentes sur Activity Map
 topic: Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -20,15 +20,15 @@ Questions fréquentes sur l’installation, la configuration et l’utilisation 
 
 **Q : Quelles sont les étapes de mise en œuvre nécessaires pour activer la nouvelle version d’Activity Map ?**
 
-A : Veuillez consulter [Activer Carte d’activités](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+R : Veuillez consulter [Activation d’Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 
 **Q : Tous les clients Analytics ont-ils accès à la page d’activation d’Activity Map dans les outils d’administration ?**
 
-A : Les clients Adobe SiteCatalyst n’ont pas accès à la page Activation de Carte d’activités de la console d’administration. Seules les entreprises sous contrat Adobe Analytics Standard et Adobe Analytics Premium ont accès à cette page de configuration.
+R : Les clients Adobe SiteCatalyst n’ont pas accès à la page d’activation d’Activity Map dans Admin Console. Seules les entreprises sous contrat Adobe Analytics Standard et Adobe Analytics Premium ont accès à cette page de configuration.
 
 **Q : Le nouveau code AppMeasurement peut-il être configuré à l’aide de la Dynamic Tag Management ?**
 
-R : Oui, vous pouvez [mettre en œuvre manuellement](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) le nouveau code AppMeasurement.
+R : Oui, vous pouvez [mettre en œuvre manuellement](https://marketing.adobe.com/resources/help/fr_FR/dtm/analytics_dtm.html) le nouveau code AppMeasurement.
 
 **Q : Quels sont les principaux changements apportés à la bibliothèque AppMeasurement version 1.6 ?**
 
@@ -42,7 +42,7 @@ R : AppMeasurement est déployé au niveau des suites de rapports. Celui-ci est
 
 R : Non. La fonctionnalité d’Activity Map ne dépend pas de l’API visiteur.
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Application Activity Map {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
 **Q : Puis-je utiliser Activity Map si je n’utilisais pas la carte des clics des visiteurs auparavant sur mon site web ?**
 
@@ -73,13 +73,13 @@ R : Lors de l’utilisation d’Activity Map, les données de clic sur les lie
 
 **Q : Pourquoi le menu déroulant des mesures répertorie-t-il la même mesure plusieurs fois ?**
 
-R : Activity Map répertorie les mesures pour toutes les suites de rapports. Par conséquent, vous pouvez vous attendre à voir des mesures en double si l’entreprise n’est pas passée par un [processus de consolidation des mesures](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
+R : Activity Map répertorie les mesures pour toutes les suites de rapports. Par conséquent, vous pouvez vous attendre à voir des mesures en double si l’entreprise n’est pas passée par un [processus de consolidation des mesures](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/cm_transition.html).
 
 Le menu déroulant des mesures vous permet de limiter la liste des mesures calculées à celles qui sont affectées à la suite de rapports de la page visitée.
 
 **Q : Comment le rapport Tous les liens d’Activity Map se compare-t-il à la création de rapports d’Activity Map de Reports &amp; Analytics ?**
 
-A : Pour extraire le rapport Tous les liens dans Carte d’activités, nous créons une demande de ventilation comme suit : Page de Carte d’activités = "page visitée", ventilée par Lien et région de Carte d’activités dans `<list of link&regions present in the page at rendering time>`.
+R : Pour récupérer le rapport Tous les liens dans Activity Map, nous créons une demande de ventilation telle que la suivante : Page Activity Map = « visitedpage », ventilée par lien et région d’Activity Map dans `<list of link&regions present in the page at rendering time>`.
 
 Pour obtenir un rapport équivalent dans Reports &amp; Analytics, vous devez d’abord naviguer vers le rapport Page d’Activity Map. Vous pouvez appliquer un filtre pour le nom de la page visitée dans Activity Map. Celui-ci s’affiche dans la colonne gauche du panneau inférieur des détails de la page d’Activity Map. Une fois la page trouvée, vous pouvez ventiler à partir de cette page et choisir les liens et régions d’Activity Map comme dimension secondaire.
 
@@ -119,13 +119,13 @@ Un message d’avertissement s’affiche sous la barre d’outils et indique qu�
 
 *Page web avec balise Analytics incompatible (AppMeasurement version 1.5 ou antérieure)*
 
-Un message d’avertissement s’affiche indiquant que vous devez (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) mettre à niveau le code de page vers la version 1.6.
+Un message d’avertissement s’affiche et indique que vous devez (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) mettre à niveau le code de page vers la version 1.6.
 
 *Page web avec balise Analytics compatible (AppMeasurement version 1.6 ou ultérieure), mais la création de rapports d’Activity Map n’a pas été activée dans les outils d’administration*
 
-Un message d’avertissement s’affiche indiquant que vous devez demander à votre administrateur de \[Activer le rapport de Carte d’activités\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
+Un message d’avertissement s’affiche et indique que vous devez demander à votre administrateur d’\[Activer les rapports d’Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
 
-**Q : Puis-je exporter les données d’Activity Map (contextData) par l’intermédiaire du[flux de données Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) ?**
+**Q : Puis-je exporter les données d’Activity Map (contextData) par l’intermédiaire du[flux de données Analytics](https://marketing.adobe.com/resources/help/fr_FR/reference/analytics-data-feed.html) ?**
 
 R : Non.
 
@@ -133,7 +133,7 @@ R : Non.
 
 **Q : Les segments sont-ils liés aux segments utilisateurs individuels ? Les segments partagés au niveau administrateur sont-ils disponibles dans Activity Map ?**
 
-A : Carte d’activités hérite des segments de niveau administrateur (segments de création de rapports) d’Analytics.
+R : Activity Map hérite de vos segments au niveau administrateur (segments de création de rapports) à partir d’Analytics.
 
 **Q : Les segments fonctionnent-ils en mode réel ?**
 
