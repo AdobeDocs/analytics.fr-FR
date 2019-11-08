@@ -6,7 +6,7 @@ solution: Analytics
 title: Rapport sur les liens
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,9 +18,9 @@ Le rapport Liens tient compte des liens trouvés sur la page actuelle. Il ne tie
 
 Le rapport Liens sur la page offre une vue tabulaire de tous les liens. Il peut arriver que vous souhaitiez afficher les clics sur les liens (ou d’autres mesures) avec classement d’un seul coup d’œil. Cela vous permet de comparer un lien par rapport à un autre plus facilement. Créez le rapport Liens sur la page en incluant une liste de classement de tous les liens de la page (par ID de lien), les informations de clic (n° et %) ainsi que la région dans la page. Cliquez sur le bouton du rapport Liens sur la page dans la barre d’outils d’Activity Map.
 
-Le rapport **[!UICONTROL Liens sur la page]s’ouvre en dessous du cadre du navigateur dans le tableau de bord d’Activity Map.**
+Le rapport **[!UICONTROL Liens sur la page]** s’ouvre en dessous du cadre du navigateur dans le tableau de bord d’Activity Map.
 
-## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
+## Mode standard {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
 ![](assets/links_in_page.png)
 
@@ -40,7 +40,7 @@ En mode standard, le rapport Liens sur la page répertorie les données des lien
   </tr> 
   <tr> 
    <td colname="col1"> ID de lien </td> 
-   <td colname="col2">ID principal du lien (pour plus d’informations sur la manière dont l’ID principal est défini par la [Nouvelle méthodologie de suivi des liens] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
+   <td colname="col2">L’ID principal du lien (pour plus d’informations sur la façon dont l’ID principal est défini par la [Nouvelle méthodologie de suivi des liens] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics </td> 
@@ -63,11 +63,11 @@ En mode standard, le rapport Liens sur la page répertorie les données des lien
 
 **Filtrage des données**
 
-Si vous souhaitez vous concentrer sur un lien spécifique, vous pouvez rechercher un terme associé dans le champ **[!UICONTROL Filtrer les données].** Seuls les liens correspondant à la recherche disposeront de superpositions. Si aucun filtre n’est appliqué, les superpositions spécifiées dans [Paramètres d’Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) s’afficheront.
+Si vous souhaitez vous concentrer sur un lien spécifique, vous pouvez rechercher un terme associé dans le champ **[!UICONTROL Filtrer les données]**. Seuls les liens correspondant à la recherche disposeront de superpositions. Si aucun filtre n’est appliqué, les superpositions spécifiées dans [Paramètres d’Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) s’afficheront.
 
-## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
+## Mode réel {#section_AC1967217B5A4532ACB01D33636F6770}
 
-En mode réel, le rapport Liens de la page affiche les données de tendance sur plusieurs minutes.
+En mode réel, le rapport Liens sur la page affiche les données de tendance sur plusieurs minutes.
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ En mode réel, le rapport Liens de la page affiche les données de tendance sur 
   </tr> 
   <tr> 
    <td colname="col1"> ID de lien </td> 
-   <td colname="col2">L’ID principal du lien. Pour plus d’informations sur la manière dont l’ID principal est défini par la nouvelle [méthodologie de suivi des liens] (/help/analysis/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methods.md). </td> 
+   <td colname="col2">L’ID principal du lien. Pour plus d’informations sur la manière dont l’ID principal est défini par la nouvelle [Méthodologie de suivi des liens] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodology.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics sur les liens </td> 
@@ -114,7 +114,7 @@ En mode réel, le rapport Liens de la page affiche les données de tendance sur 
  </tbody> 
 </table>
 
-## Sorting and filtering {#section_4B8E8233C21247CAA70DAEC2156548AD}
+## Tri et filtrage {#section_4B8E8233C21247CAA70DAEC2156548AD}
 
 Il arrive que vous deviez analyser uniquement les résultats d’une région de page spécifique (p. ex. le panneau gauche) afin de décider comment organiser le contenu de cette région spécifique de la page web.
 
