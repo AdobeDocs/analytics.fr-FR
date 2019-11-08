@@ -1,12 +1,12 @@
 ---
-description: 'L’interface utilisateur de Carte d’activités se compose de deux parties. '
-seo-description: 'L’interface utilisateur de Carte d’activités se compose de deux parties. '
+description: 'L’interface utilisateur d’Activity Map est composée de deux parties '
+seo-description: 'L’interface utilisateur d’Activity Map est composée de deux parties '
 seo-title: Interface utilisateur d’Activity Map
 solution: Analytics
 title: Interface utilisateur d’Activity Map
 topic: Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -19,7 +19,7 @@ L’interface utilisateur d’Activity Map est composée de deux parties :
 * La fenêtre supérieure avec la page web, les superpositions injectées et la barre d’outils.
 * Un panneau inférieur pour les rapports.
 
-## Top panel {#section_2DA8ACD35D4C4ACBA32C13EFB5317E7C}
+## Panneau supérieur {#section_2DA8ACD35D4C4ACBA32C13EFB5317E7C}
 
 En haut de l’écran figure votre page web avec la [barre d’outils injectée](/help/analyze/activity-map/activitymap-standard-live.md) et les [superpositions de lien](/help/analyze/activity-map/activitymap-gainerslosers.md). Les classements bulle s’affichent au-dessus des liens pour vous permettre d’identifier le nombre total de clics.
 
@@ -27,7 +27,7 @@ En haut de l’écran figure votre page web avec la [barre d’outils injectée]
 
 Des détails supplémentaires sur les liens sont disponibles en survolant chaque superposition de lien :
 
-## Bottom reports panel {#section_21B129D69B7A4F918E975E8E66DB02EE}
+## Panneau inférieur des rapports {#section_21B129D69B7A4F918E975E8E66DB02EE}
 
 En bas de la page figurent les rapports [Liens sur la page](/help/analyze/activity-map/activitymap-links-report.md) et [Détails de la page](/help/analyze/activity-map/activitymap-page-flow.md), qui vous permettent d’afficher un résumé des statistiques actuelles de votre page web ainsi que des informations de flux de page.
 
