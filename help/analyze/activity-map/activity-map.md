@@ -6,7 +6,7 @@ solution: Analytics
 title: Activity Map - Aperçu
 topic: Activity Map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e830bad6eae774a82b0d1ec05fa71bba9cc32d2b
 
 ---
@@ -28,7 +28,7 @@ Activity Map vous permet de configurer différents affichages afin d’identifi
 * [Installation des modules de navigateur d’Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Lancement d’Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Fonctionnalités de Carte d’activités**
+**Fonctionnalités d’Activity Map**
 
 * [Suivi des liens robuste](lnk-tracking-overview.md)
 * [Mode standard et mode réel](activitymap-standard-live.md)
