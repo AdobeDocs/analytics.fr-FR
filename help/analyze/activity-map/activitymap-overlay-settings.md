@@ -6,7 +6,7 @@ solution: Analytics
 title: Paramétrage d’Activity Map
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -22,10 +22,10 @@ Le panneau de configuration affiche un contenu différent en fonction du mode d�
 
 | Standard | **[!UICONTROL Superpositions en dégradé]** ou **[!UICONTROL bulle]** |
 |---|---|
-| En direct | **[!UICONTROL Incrustations de gagnants et de perdants]**, de **[!UICONTROL dégradés]**, de **[!UICONTROL bulles]** |
+| En direct | **[!UICONTROL Superpositions des gagnants et des perdants]** **[!UICONTROL en dégradé]** ou **[!UICONTROL bulle]** |
 | Autre | Sélection de suite de rapports et sélection de langue |
 
-## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
+## Paramètres de superposition en mode standard {#section_24DB95376E1A448494ECF3F57743FC19}
 
 ![](assets/settings_standard.png)
 
@@ -56,7 +56,7 @@ Le panneau de configuration affiche un contenu différent en fonction du mode d�
    <td colname="col3">Sélectionnez <span class="uicontrol">Début</span>, <span class="uicontrol">Fin</span> ou <span class="uicontrol">Tous les liens</span> pour les afficher dans la superposition. Si vous sélectionnez Début ou Fin, vous devez également sélectionner le nombre de liens à afficher. </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol">Masquer les superpositions pour les liens qui n’ont reçu aucune visite</span> </td> 
+   <td colname="col2"> <span class="uicontrol">Masquer les superpositions pour les liens qui n’ont reçu aucune visite.</span> </td> 
    <td colname="col3"> Cette case à cocher vous permet de masquer les superpositions pour les liens qui n’ont reçu aucune visite, afin de limiter l’encombrement de l’interface. </td> 
   </tr> 
   <tr> 
@@ -78,18 +78,18 @@ Le panneau de configuration affiche un contenu différent en fonction du mode d�
  </tbody> 
 </table>
 
-## Settings for live mode overlays {#section_D30F6E62FB5D404090B588F396A460AF}
+## Paramètres de superposition en mode réel {#section_D30F6E62FB5D404090B588F396A460AF}
 
 ![](assets/settings_live.png)
 
 | Paramètres | Description |
 |---|---|
-| **[!UICONTROL Afficher en haut]** | Select number of links to display (or all) and the **[!UICONTROL Gainers]** or **[!UICONTROL Losers]** (or both) to display as overlays. |
+| **[!UICONTROL Afficher en haut]** | Sélectionnez les liens à afficher (ou tous) et les **[!UICONTROL gagnants]** ou **[!UICONTROL perdants]** (ou les deux) à afficher sous forme de superpositions. |
 | **[!UICONTROL Exclure le bas (%)]** | Sélectionnez cette option pour éliminer les liens des gagnants et des perdants avec des données éparses. Filtrez les pourcentages inférieurs des changements de liens pour afficher uniquement les liens avec suffisamment de données pour présenter des gains ou des pertes significatives. Le pourcentage est calculé en fonction du nombre de liens sur la page. Par exemple, filtrer les 10 % inférieurs d’une liste de 200 liens filtrerait les 20 derniers liens. |
 | **[!UICONTROL Mettre à jour les données automatiquement]** | Vous permet de décider si les données Analytics affichées dans l’interface doivent être mises à jour automatiquement lorsqu’une nouvelle période est calculée. |
 | **[!UICONTROL Période de mise à jour automatique]** | Actualise la page web à chaque nouvelle récupération des données afin que les liens de la page soient mieux synchronisés avec les données collectées. |
 
-## Other settings {#section_697A12F099494D699A4BF498598178C5}
+## Autres paramètres {#section_697A12F099494D699A4BF498598178C5}
 
 ![](assets/settings_other.png)
 
