@@ -6,7 +6,7 @@ solution: Analytics
 title: Analyse des pages en temps réel (mode réel)
 topic: Activity Map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -28,7 +28,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
  -->
 
-## Data latency as a result of A4T configuration {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latence des données suite à la configuration d’A4T {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Une fois l’intégration A4T activée dans Adobe Target, vous remarquerez une latence supplémentaire de 5 à 10 minutes dans Adobe Analytics. Cette augmentation de la latence permet aux données provenant d’Analytics et de Target d’être stockées sur le même accès, permettant de ventiler les tests par page et par section de site.
 
@@ -37,4 +37,4 @@ Cette augmentation se reflète dans tous les services et outils d’Adobe Analyt
 * Pour la diffusion en continu active, les rapports en temps réel, les requêtes d’API et les données actives pour les variables de trafic, seuls les accès avec un ID supplémentaire sont retardés.
 * Pour les données actives sur les mesures de conversion, les données finalisées et les flux de données, tous les accès sont retardés de 5 à 7 minutes supplémentaires.
 
-Be aware that the latency increase starts after you implement the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), even if you have not fully implemented this integration.
+Gardez à l’esprit que l’augmentation de latence débute une fois que vous avez implémenté le [service d’identité](https://marketing.adobe.com/resources/help/fr_FR/mcvid/), même si vous n’avez pas entièrement implémenté cette intégration.
