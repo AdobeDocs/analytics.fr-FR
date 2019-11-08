@@ -1,12 +1,12 @@
 ---
 description: Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
-seo-description: Carte d’activités propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
+seo-description: Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
 seo-title: Mode standard et mode réel
 solution: Analytics
 title: Mode standard et mode réel
 topic: Activity Map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -21,7 +21,7 @@ Activity Map propose deux modes de base permettant la création de rapports com
 
 Vous pouvez basculer entre les deux modes en cliquant sur le bouton Mode dans la barre d’outils.
 
-## Mode standard {#section_0C755F30B7EC4A13A62AB9A391AF51E6}
+## Mode standard  {#section_0C755F30B7EC4A13A62AB9A391AF51E6}
 
 En **mode standard**, vous pouvez sélectionner la période dans la barre d’outils comme indiqué ci-dessous.
 
@@ -33,7 +33,7 @@ Q : Que se passe-t-il si une page contient des liens ayant le même nom dans de
 
 R : Cela dépend de la façon dont vous agrégez les données des liens. Dans Activity Map, nous tenons compte des informations ID de lien|Région pour une page donnée, de telle sorte que les données affectées s’appliquent à la combinaison « ID lien|Région ». Dans cette situation, étant donné que les régions sont distinctes, la combinaison lien|région sera différente et, par conséquent, toute recette affectée à la première combinaison lien|région sera différente de toute recette affectée pour le second lien. Mais dans l’interface utilisateur d’Adobe Analytics, vous pouvez simplement consulter le rapport sur l’ID de lien (au lieu du rapport Lien|Région) pour une page donnée (page ventilée par Lien). Dans ce cas, les recettes seront agrégées sur les deux régions.
 
-## Mode réel {#section_D619B77D89A840F0B1C2DEA2715A516A}
+## Mode réel  {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
 En **mode réel**, les données Analytics sont affichées par incréments de 1 à 15 minutes, sous forme de tendances. Ce mode vise à analyser et à contrôler les tendances à court terme sur la page web.
 
@@ -41,7 +41,7 @@ Le mode réel répond aux besoins des organisations d’édition. Ces organisati
 
 >[!IMPORTANT]
 >
->Les suites de rapports virtuelles ne sont pas compatibles avec le mode réel, mais uniquement avec le mode standard.
+>Les suites de rapports virtuelles sont uniquement compatibles avec le mode standard, et non le mode réel.
 
 ![](assets/live_mode.png)
 
