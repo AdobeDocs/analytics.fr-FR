@@ -6,7 +6,7 @@ solution: Analytics
 title: Dépannage des extensions de navigateur
 topic: Activity Map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 # Résolution des problèmes liés aux extensions du navigateur
 
-Affiche les paramètres du navigateur qui ne sont pas compatibles avec l’utilisation de Carte d’activités. Désactivez ces paramètres.
+Affiche les paramètres de navigateur qui ne sont pas compatibles avec l’utilisation d’Activity Map. Désactivez ces paramètres.
 
 ## Chrome
 
