@@ -1,42 +1,42 @@
 ---
-description: AppMeasurement 3.x pour Android
-seo-description: Documentation héritée pour AppMeasurement 3.x pour Android
-seo-title: AppMeasurement 3.x pour Android
+description: AppMeasurement 3.x pour iOS
+seo-description: Documentation héritée pour AppMeasurement 3.x pour iOS
+seo-title: AppMeasurement 3.x pour iOS
 solution: Analytics
 subtopic: Signets
-title: AppMeasurement 3.x pour Android
+title: AppMeasurement 3.x pour iOS
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 595efd52fe3b8edae32d8b3c2216ea066ec642be
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# AppMeasurement 3.x pour Android
+# AppMeasurement 3.x pour iOS
 
-*Remarque : Ce document contient des informations héritées pour les versions précédentes d’AppMeasurement, en particulier pour les versions 3.x pour Android.
+*Remarque : Ce document contient des informations héritées pour les versions précédentes d’AppMeasurement, en particulier pour les versions 3.x pour iOS.
 Pour plus d’informations sur la mise en oeuvre actuelle d’AppMeasurement, voir[A propos d’AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).*
 
-*Dernière mise à jour le 15/3/2018 AppMeasurement 3.x pour Android*
+*Dernière mise à jour le 15/3/2018 AppMeasurement 3.x pour iOS*
 
-Adobe AppMeasurement pour Android vous permet de mesurer les applications Android natives dans Adobe Experience Cloud.
+Adobe AppMeasurement pour iOS vous permet de mesurer les applications Apple iPhone et iPad natives dans Adobe Experience Cloud.
 
-Ce guide est divisé en deux sections; une section pour l’analyste ayant une expérience d’Adobe Analytics et une autre pour le développeur Android ayant une expérience du développement d’applications mobiles.
+Ce guide est divisé en deux sections; une section pour l’analyste ayant une expérience d’Adobe Analytics et une autre pour son développeur iOS ayant une expérience du développement d’applications mobiles.
 
-**Versions** prises en charge : Android 2.0 ou version ultérieure.
+**Versions** prises en charge : iOS 4.3 ou version ultérieure.
 
-**Téléchargez les instructions et les liens de** téléchargement de bibliothèque pour toutes les plateformes mobiles AppMeasurement à la page Mesures et optimisation des applications mobiles sur Developer Connection. Pour télécharger les bibliothèques, vous devez disposer d’un compte Developer Connection gratuit ou d’une connexion à SiteCatalyst. Les liens de téléchargement ne s’affichent que lorsque vous êtes connecté.
+**Téléchargez les instructions et les liens de** téléchargement de bibliothèque pour toutes les plateformes mobiles AppMeasurement à la page Mesures et optimisation des applications mobiles sur Developer Connection. Pour télécharger les bibliothèques, vous devez disposer d’un compte Developer Connection gratuit ou d’un identifiant de connexion Rapports et analyses. Les liens de téléchargement ne s’affichent que lorsque vous êtes connecté.
 
 ## Analystes : démarrage rapide
 
-Cette section vous guide tout au long des étapes nécessaires pour mettre en œuvre la bibliothèque Android et ajouter le code requis pour une mise en œuvre standard. Elle comprend également des étapes vous montrant comment envoyer des événements personnalisés et d’autres données.
+Cette section vous guide tout au long des étapes nécessaires pour mettre en œuvre la bibliothèque iOS et ajouter le code requis pour une mise en œuvre standard. Elle comprend également des étapes vous montrant comment envoyer des événements personnalisés et d’autres données.
 
 En tant qu’analyste, vous devez activer les rapports d’applications mobiles pour votre suite de rapports. Si vous devez capturer des mesures supplémentaires, vous devez fournir au développeur une description des variables de données contextuelles devant être envoyées par l’application. Par exemple, pour collecter un nom d'utilisateur après une connexion, vous pouvez demander au développeur de définir le nom d'utilisateur dans une variable de données contextuelles appelée `myco.username`.
 
-### Activation des rapports d’applications mobiles dans SiteCatalyst
+### Activation des rapports d’applications mobiles dans Analytics
 
-SiteCatalyst fournit une interface pour activer le suivi du cycle de vie des applications mobiles. Cette mise en correspondance permet à SiteCatalyst de générer automatiquement les rapports d’applications mobiles.
+Analytics fournit une interface pour activer le suivi du cycle de vie des applications mobiles. Cette mise en correspondance permet à Analytics de générer automatiquement les rapports d’applications mobiles.
 
 1. Ouvrez Console d’administration &gt; Report Suites &gt; Modifier les paramètres &gt; Gestion mobile &gt; Rapports d’applications mobiles.
 1. Cliquez sur Activer le suivi du cycle de vie des applications mobiles.
@@ -57,19 +57,17 @@ Si vous planifiez de stocker les accès lorsque l’appareil est hors ligne, la 
 
 Une fois le suivi hors ligne activé, tous les accès doivent être horodatés (sinon, ils ne sont pas collectés). Si vous collectez actuellement des données AppMeasurement dans une suite de rapports qui collecte également des données de JavaScript, il est possible que vous deviez configurer une suite de rapports distincte pour les données mobiles afin d’éviter toute perte de données ou que vous deviez inclure un horodatage personnalisé pour les accès JavaScript à l’aide de la variable s.timestamp.
 
-Si vous ne savez pas si votre suite de rapports est horodatée, contactez le service à la clientèle.
+Si vous n’êtes pas sûr de l’horodatage de la suite de rapports, contactez l’Assistance clientèle.
 
 ## Développeurs : démarrage rapide
 
-Cette section vous guide tout au long des étapes nécessaires pour sélectionner et configurer les événements, eVars et props que vous utiliserez pour la collecte de données Android. Elle comprend également les étapes nécessaires à la création de règles de traitement pour copier les données contextuelles envoyées par les bibliothèques Android à ces variables.
-
-Les étapes pour mettre en oeuvre la bibliothèque Android et commencer à envoyer des données de mesure sont les suivantes :
+Cette section décrit les étapes nécessaires pour mettre en oeuvre la bibliothèque iOS et commencer à envoyer des données de mesure, notamment :
 
 * Obtention de la bibliothèque
 * Ajout de la bibliothèque à votre projet
-* Ajout des autorisations des applications
 * Remarque concernant TrackingHelper
 * Mise en œuvre
+
 
 ### Obtention de la bibliothèque
 
