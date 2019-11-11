@@ -9,24 +9,24 @@ title: Variables de configuration
 topic: Développeur et mise en œuvre
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 
 ---
 
 
 # Variables de configuration de la validation
 
-Les variables de configuration contrôlent le mode de collecte et de traitement des données dans les rapports. Les variables de configuration les plus courantes sont généralement définies dans le fichier JavaScript global principal (AppMeasurement.js). Si nécessaire, ces variables peuvent être définies dans le code et les liens au niveau de la page d’Analytics.
+Les variables de configuration contrôlent le mode de collecte et de traitement des données dans les rapports. Les variables de configuration les plus courantes sont généralement définies dans le fichier JavaScript global principal (AppMeasurement.js. Si nécessaire, ces variables peuvent être définies dans le code et les liens au niveau de la page d’Analytics.
 
-Toutes ces variables n’apparaissent pas dans le code par défaut lorsque vous générez le code en sélectionnant **[!UICONTROL Outils d’administration]** &gt; **[!UICONTROL Gestionnaire de code]**. Certaines de ces variables de configuration peuvent ne pas s’appliquer aux besoins de mise en œuvre de votre site.
+Toutes ces variables n’apparaissent pas dans le code par défaut lorsque vous générez le code en sélectionnant **[!UICONTROL Outils d’administration]** &gt; **[!UICONTROL Gestionnaire de code]**. Certaines de ces variables de configuration peuvent ne pas s’appliquer aux besoins de mise en oeuvre de votre site.
 
 Ces variables de configuration peuvent être utilisées aux fins suivantes :
 
-* Suivi de plusieurs sites/domaines.
-* Utilisation de n’importe quelle devise pour les achats.
-* Collecte de données sans tenir compte de la langue.
+* Suivi de plusieurs sites/domaines
+* Utilisation de n’importe quelle devise pour les achats
+* Collecte de données sans tenir compte de la langue
 * Suivi des liens (nombre de fichiers téléchargés, liens vers des sites externes).
-* Suivi des liens personnalisés à des fins uniques.
+* Suivi des liens personnalisés à des fins uniques
 
 > [!NOTE] [!DNL AppMeasurement] exige que toutes les variables de configuration soient définies avant l’appel initial vers la fonction de suivi, `t()`. Si des variables de configuration sont définies après l’appel à `t()`, des résultats inattendus peuvent se produire. Pour que la collecte des données se déroule correctement, toutes les variables de configuration doivent être définies au-dessus de la fonction `doPlugins`.
 
