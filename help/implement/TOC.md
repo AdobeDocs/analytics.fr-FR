@@ -4,7 +4,7 @@ audience: utilisateur final
 user-guide-title: Guide de mise en œuvre Analytics
 user-guide-url: /content/help/fr-FR/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
+source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
 # Guide de mise en œuvre Analytics {#implementation}
 
 + [Aide pour la mise en œuvre d’Analytics](home.md)
-+ Notes de mise à jour d’AppMeasurement{#appmeasurement-release-notes}
++ Notes de mise à jour d’AppMeasurement {#appmeasurement-release-notes}
    + [AppMeasurement pour JavaScript](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [Code H JavaScript (hérité)](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
@@ -113,7 +113,7 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
       + [Balisage de pages pour les protocoles mobiles](js-implementation/c-additional-libraries/tagging-mobile-pages.md)
       + [Rapports pour les appareils qui utilisent des protocoles mobiles](js-implementation/c-additional-libraries/reports-for-mobile-dev.md)
       + [Mesure de liens personnalisés sur des protocoles mobiles](js-implementation/c-additional-libraries/mobile-link-tracking.md)
-   + Variables pour la mise en œuvre et le compte rendu des performances Analytics{#variables-analytics-reporting}
+   + Variables pour la mise en œuvre et le compte rendu des performances Analytics {#variables-analytics-reporting}
       + [Variables - Aperçu](js-implementation/c-variables/sc-variables.md)
       + [Liste des variables de configuration](js-implementation/c-variables/configuration-variables.md)
       + Variables de configuration {#config-var}
@@ -186,7 +186,7 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
       + [getPreviousValue](js-implementation/plugins/getpreviousvalue.md)
       + [getQueryParam](js-implementation/plugins/getqueryparam.md)
       + [getTimeParting](js-implementation/plugins/gettimeparting.md)
-      + [getValOnce.](js-implementation/plugins/getvalonce.md)
+      + [getValOnce](js-implementation/plugins/getvalonce.md).
       + [getVisitNum](js-implementation/plugins/getvisitnum.md)
       + [getVisitStart](js-implementation/plugins/getvisitstart.md)
       + [hitGovernor](js-implementation/plugins/hitgovernor.md)
@@ -247,7 +247,7 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
       + [Remplacement de votre code Analytics](impl-testing/impl-troubleshooting/impl-update-code.md)
       + [Erreurs de syntaxe courantes](impl-testing/impl-troubleshooting/impl-syntax-troubleshooting.md)
    + [Analyseur de vulnérabilités](impl-testing/vulnerability-scanner.md)
-   + Optimisation de la mise en œuvre{#optimize-implementation}
+   + Optimisation de la mise en œuvre {#optimize-implementation}
       + [Optimisation - Aperçu](impl-testing/c-optimize/impl-optimization.md)
       + [Dénomination de page](impl-testing/c-optimize/page-naming.md)
       + [Stratégies de dénomination de page](impl-testing/c-optimize/page-naming-strategies.md)
@@ -264,3 +264,4 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + [Mappage des rapports aux variables](impl-testing/report-variable-mapping.md)
    + [Mappage des rapports vers la variable](impl-testing/var-report-mapping.md)
 + [Mise en œuvre d’Analytics pour les assistants numériques](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [Mise en oeuvre d’Analytics pour les périphériques mobiles](mobile-device-sdk.md)
