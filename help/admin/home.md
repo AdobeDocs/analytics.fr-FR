@@ -1,10 +1,10 @@
 ---
 title: Aide sur l’administration d’Analytics
 seo-title: Comparaison des produits Analytics
-description: valeur nulle
-seo-description: valeur nulle
+description: Aide à l’administration pour les administrateurs d’Adobe Analytics, y compris la gestion des utilisateurs et des produits dans la Console d’administration, la configuration des suites de rapports, des variables, des classifications et de la collecte de données.
+seo-description: Aide à l’administration pour les administrateurs d’Adobe Analytics, y compris la gestion des utilisateurs et des produits dans la Console d’administration, la configuration des suites de rapports, des variables, des classifications et de la collecte de données.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
 
 ---
 
@@ -12,6 +12,8 @@ source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 # Guide d’administration Analytics
 
 ![Bannière](/assets/doc_banner_admin.png)
+
+Cette aide est destinée aux administrateurs d’Adobe Analytics. Elle comprend une aide sur la gestion des utilisateurs et des produits dans la Console d’administration, la configuration des suites de rapports, des variables, des classifications et de la collecte de données.
 
 Adobe Analytics a actuellement deux zones pour les administrateurs :
 
