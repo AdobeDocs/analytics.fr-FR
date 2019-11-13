@@ -5,16 +5,17 @@ seo-description: Les variables dynamiques vous permettent de copier des valeurs 
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
 
-# s.account
+# s.useForcedLinkTracking
+
 
 La variable détermine la suite de rapports dans laquelle les données sont stockées et consignées.
 
-If sending to multiple report suites (multi-suite tagging), `s.account` may be a comma-separated list of values. L’ID de la suite de rapports est déterminé par Adobe.
+Si l’envoi concerne plusieurs suites de rapports (balisage multi-suite), la variable `s.account` peut être une liste de valeurs séparées par des virgules. L’ID de la suite de rapports est déterminé par Adobe.
 
 ## Paramètres
 
@@ -28,9 +29,9 @@ La suite de rapports est le niveau de segmentation le plus fondamental dans le c
 
 La liste déroulante des sites située dans le coin supérieur gauche des rapports d’[!DNL Analytics] affiche la suite de rapports active. Un identifiant (ID) unique est affecté à chaque suite de rapports. La variable `s_account` contient un ou plusieurs ID auxquels des données sont envoyées. La valeur d’ID de la suite de rapports est invisible pour les utilisateurs d’[!DNL Analytics]. Elle doit être fournie ou approuvée par Adobe avant son utilisation. Un « nom convivial », que vous pouvez modifier dans la section des suites de rapports d’[!DNL Admin Console], est associé à chaque ID de suite de rapports.
 
-The `s_account` variable is normally declared inside the JavaScript file (s_code.js). You can declare the `s_account` variable on the HTML page, which is a common practice when the value of `s_account` may change from page to page. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
+La variable `s_account` est normalement déclarée à l’intérieur du fichier JavaScript (s_code.js). Vous pouvez déclarer la variable `s_account` sur la page HTML, ce qui est une pratique courante lorsque la valeur de `s_account` peut changer d’une page à l’autre. Compte tenu de la portée globale de la variable `s_account`, elle doit être déclarée immédiatement avant l’insertion du fichier JavaScript d’Adobe. Si `s_account` ne contient pas de valeur au moment du chargement du fichier JavaScript, aucune donnée n’est envoyée à [!DNL Analytics].
 
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. In some cases, the value of `s_account` also appears in the domain, before 112.2o7.net. La valeur indiquée dans le chemin est la seule qui détermine la suite de rapports de destination. Le texte en gras dans l’exemple ci-dessous affiche les suites de rapports auxquelles des données sont envoyées, telles qu’elles apparaissent dans le débogueur. Voir   [Débogueur DigitalPulse](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
+Adobe [!DNL DigitalPulse Debugger] affiche la valeur de `s_account` dans le chemin de l’URL qui apparaît sous le mot « Image », juste après /b/ss/. Dans certains cas, la valeur de `s_account` apparaît également dans le domaine, avant 112.2o7.net. La valeur indiquée dans le chemin est la seule qui détermine la suite de rapports de destination. Le texte en gras dans l’exemple ci-dessous affiche les suites de rapports auxquelles des données sont envoyées, telles qu’elles apparaissent dans le débogueur. Voir [Débogueur DigitalPulse](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
@@ -45,7 +46,7 @@ L’identifiant de la suite de rapports est une chaîne composée de caractères
 var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
 ```
 
-All values of `s_account` must be provided or approved by Adobe.
+Toutes les valeurs de `s_account` doivent être fournies ou approuvées par Adobe.
 
 ## Exemples
 
@@ -63,10 +64,10 @@ Le nom convivial associé à chaque ID de suite de rapports peut être modifié 
 
 ## Pièges, questions et conseils
 
-* If `s_account` is empty, not declared, or contains an unexpected value, no data is collected.
-* When the `s_account` variable is a comma-separated list (multi-suite tagging), do not put spaces between report suite IDs.
-* If [!UICONTROL s.dynamicAccountSelection] is set to *True* the URL is used to determine the destination report suite. Utilisez le [!DNL DigitalPulse Debugger] pour déterminer les suites de rapports de ce type.
+* Si `s_account` est vide, n’est pas déclaré ou contient une valeur inattendue, aucune donnée n’est collectée.
+* Lorsque la variable `s_account` est une liste de variables séparées par des virgules (marquage multisuite), n’insérez pas d’espaces entre les ID de suite de rapports.
+* Si [!UICONTROL s.dynamicAccountSelection] est défini sur *True*, l’URL est utilisée afin de déterminer la suite de rapports de destination. Utilisez le [!DNL DigitalPulse Debugger] pour déterminer les suites de rapports de ce type.
 
 * Dans certains cas, [!DNL VISTA] peut être utilisé pour modifier la suite de rapports de destination. Il est conseillé d’utiliser [!DNL VISTA] pour réacheminer ou copier les données sur une autre suite de rapports en cas d’utilisation de cookies propriétaires ou si votre site comporte plus de 20 suites actives.
 
-* Always declare `s_account` inside the JS file or just before it is included.
+* Déclarez toujours `s_account` à l’intérieur du fichier JS ou juste avant son inclusion.
