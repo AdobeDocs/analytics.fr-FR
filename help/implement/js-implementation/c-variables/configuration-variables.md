@@ -9,7 +9,7 @@ title: Variables de configuration
 topic: Développeur et mise en œuvre
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -68,7 +68,7 @@ Pour obtenir de l’aide sur des variables de configuration spécifiques, clique
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html): Incluez une liste d’extensions de fichiers séparées par des virgules.
 
-* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html): Inclut une liste de filtres séparés par des virgules qui représentent les liens qui font partie du site.
+* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackintfilters.html): Inclut une liste de filtres séparés par des virgules qui représentent les liens qui font partie du site.
 
 * [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linklvqrystring.html): Déterminez si la chaîne de requête doit être incluse dans les rapports Liens de sortie et Téléchargements de fichiers.
 
@@ -77,4 +77,3 @@ Pour obtenir de l’aide sur des variables de configuration spécifiques, clique
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html): Permet de créer des rapports sur un sous-ensemble spécifique de liens de sortie.
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html): Appelez la `s_doPlugins` fonction avant chaque demande d’image.
-
