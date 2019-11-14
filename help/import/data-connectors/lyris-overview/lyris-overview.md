@@ -1,12 +1,10 @@
 ---
 description: Décrit les gains d’efficacité marketing réalisés grâce à l’intégration.
-seo-description: Décrit les gains d’efficacité marketing réalisés grâce à l’intégration.
-seo-title: Connecteur de données Lyris pour Adobe Analytics
 solution: Analytics
 title: Connecteur de données Lyris pour Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ Décrit les gains d’efficacité marketing réalisés grâce à l’intégratio
 
 L’intégration des courriers électroniques Adobe® Data Connectors™ combine les informations comportementales d’Adobe Analytics avec le marketing par courrier électronique Lyris pour redéfinir la mesure de succès et cibler les audiences avec des messages plus pertinents.
 
-La remise de messages électroniques pertinents à ces segments de marché peut générer de nouvelles opportunités de recettes, ce qui entraîne une augmentation des conversions et des recettes parmi les campagnes par courrier électronique nouvelles et existantes. Par exemple, la diffusion de messages électroniques pertinents basés sur des produits qui ont été consultés au cours d’une visite ou des produits qui ont été laissés dans un panier d’achat abandonné a démontré un impact considérable sur les recettes, avec un impact minimal sur les coûts, car cela ne fait qu’augmenter les visiteurs de votre site.
+La remise de messages électroniques pertinents à ces segments de marché peut générer de nouvelles opportunités de recettes, ce qui entraîne une augmentation des conversions et des recettes au sein des campagnes de messagerie nouvelles et existantes. Par exemple, la diffusion de messages électroniques pertinents basés sur des produits qui ont été consultés au cours d’une visite ou des produits qui ont été laissés dans un panier d’achat abandonné a démontré un impact considérable sur les recettes, avec un impact minimal sur les coûts, car cela ne fait qu’augmenter les visiteurs de votre site.
 
 Cette augmentation de l’efficacité marketing est l’un des principaux avantages de l’intégration d’Adobe Analytics à Lyris. En outre, cette intégration synchronise automatiquement les mesures de courrier électronique avec les données Adobe Analytics aussi fréquemment que par heure pour la création de rapports en boucle fermée.
 
@@ -50,7 +48,7 @@ Cela permet de s’assurer que les bonnes pratiques et les conditions préalable
 
 ### Conditions préalables requises pour Adobe Analytics {#section-ddb9d4f3b283438ea33788f47f35e69a}
 
-* **Spécifique**&#x200B;à une Report Suite :Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration.
+* **Spécifique**&#x200B;à une Report Suite : Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration.
 * **Variables** Analytics disponibles et configurées : Cette intégration requiert des événements personnalisés et des eVars personnalisées, ainsi que éventuellement des événements supplémentaires et des eVars supplémentaires.
 
 * **Représentant** autorisé : Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise ; et, à ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans l'accord de service décrit ci-dessus.
@@ -101,37 +99,37 @@ Cette intégration requiert au moins 2 eVars à réserver pour chaque implément
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Lyris - Courriers électroniques envoyés </td> 
    <td colname="col3"> Pour stocker non. des courriels envoyés par Lyris </td> 
-   <td colname="col4">Type :Numérique <p>Participation : Activé </p> </td> 
+   <td colname="col4">Type : Numérique <p>Participation : Activé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Lyris - Courriers électroniques ouverts </td> 
    <td colname="col3"> Pour stocker non. des courriers électroniques ouverts </td> 
-   <td colname="col4">Type :Numérique <p>Participation : Activé </p> </td> 
+   <td colname="col4">Type : Numérique <p>Participation : Activé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Lyris - Courriers électroniques uniques ouverts </td> 
    <td colname="col3"> Pour stocker non. des courriers électroniques uniques ouverts </td> 
-   <td colname="col4">Type :Numérique <p>Participation : Activé </p> </td> 
+   <td colname="col4">Type : Numérique <p>Participation : Activé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Lyris - Clics publicitaires par courriel </td> 
    <td colname="col3"> Pour stocker non. de fois où un message électronique a été cliqué </td> 
-   <td colname="col4">Type :Numérique <p>Participation : Activé </p> </td> 
+   <td colname="col4">Type : Numérique <p>Participation : Activé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Lyris - Retours par courriel </td> 
    <td colname="col3"> Pour stocker le no. des courriers électroniques rebondissés </td> 
-   <td colname="col4">Type :Numérique <p>Participation : Activé </p> </td> 
+   <td colname="col4">Type : Numérique <p>Participation : Activé </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Événement </td> 
    <td colname="col2"> Lyris - Abonnement au courrier électronique </td> 
    <td colname="col3"> Pour stocker le no. des abonnements aux courriers électroniques désactivés </td> 
-   <td colname="col4">Type :Numérique <p>Participation : Activé </p> </td> 
+   <td colname="col4">Type : Numérique <p>Participation : Activé </p> </td> 
   </tr> 
  </tbody> 
 </table>
