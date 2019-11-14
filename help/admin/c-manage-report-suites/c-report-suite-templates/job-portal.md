@@ -1,13 +1,11 @@
 ---
 description: Définit des paramètres courants pour un portail d’emploi ou un site web de recherche d’emploi.
-seo-description: Définit des paramètres courants pour un portail d’emploi ou un site web de recherche d’emploi.
-seo-title: Portail d’emploi
 solution: Analytics
 title: Portail d’emploi
-topic: Outils d’administration
+topic: Admin tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
