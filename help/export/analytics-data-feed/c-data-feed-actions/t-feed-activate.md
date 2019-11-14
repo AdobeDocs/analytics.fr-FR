@@ -1,13 +1,11 @@
 ---
 description: Vous pouvez activer un flux suspendu ou inactif.
-keywords: Flux de données;flux;activer
-seo-description: Vous pouvez activer un flux suspendu ou inactif.
-seo-title: Activation d’un flux
+keywords: Data Feed;feed;activate
 solution: Analytics
 title: Activation d’un flux
 uuid: f7bd977e-3004-4134-a1fb-07f1f7c516ea
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
