@@ -1,15 +1,13 @@
 ---
 description: Ecrit une valeur dans un cookie.
-keywords: Mise en œuvre d’Analytics
-seo-description: Ecrit une valeur dans un cookie.
-seo-title: Util.cookieWrite
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: AppMeasurement pour JavaScript
+subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,7 +22,7 @@ Ecrit une valeur dans un cookie.
 s.Util.cookieWrite(key, value [,expire])
 ```
 
-**Paramètres :**
+**Paramètres:**
 
 | Paramètre | Description |
 |---|---|
@@ -32,7 +30,7 @@ s.Util.cookieWrite(key, value [,expire])
 | value | (facultatif) valeur à écrire dans les cookies. |
 | expire | (facultatif) objet de date contenant la date d’expiration du cookie. Le paramètre par défaut est l’utilisation d’un cookie de session. |
 
-**Retours :**
+**Retours:**
 
 **Exemple :**
 
