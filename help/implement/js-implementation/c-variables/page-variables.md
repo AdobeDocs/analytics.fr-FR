@@ -1,15 +1,13 @@
 ---
 description: Les variables de page renseignent directement un rapport (pageName, props de liste, variables de liste, etc.).
-keywords: Mise en œuvre d’Analytics
-seo-description: Les variables de page renseignent directement un rapport (pageName, props de liste, variables de liste, etc.).
-seo-title: Variables de page
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Variables
 title: Variables de page
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
