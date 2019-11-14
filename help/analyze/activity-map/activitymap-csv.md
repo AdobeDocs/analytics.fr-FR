@@ -1,22 +1,20 @@
 ---
-description: En mode standard, exportez les données Analytics d’Activity Map dans un fichier CSV.
-seo-description: En mode standard, exportez les données Analytics de Carte d’activités dans un fichier CSV (valeurs séparées par des virgules).
-seo-title: Exportation dans un fichier CSV
+description: En mode standard, exportez les données Analytics de Activity Map dans un fichier CSV (valeurs séparées par des virgules).
 solution: Analytics
 title: Exportation dans un fichier CSV
-topic: Activity Map
+topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Exportation dans un fichier CSV
 
-En mode standard, exportez les données Analytics d’Activity Map dans un fichier CSV.
+En mode standard, exportez les données Analytics de Activity Map dans un fichier CSV (valeurs séparées par des virgules).
 
-En tant qu’utilisateur, il se peut que vous deviez fusionner des données de clics sur les liens avec d’autres sources de données ou effectuer d’autres analyses (p. ex. dans Excel). L’exportation au format CSV vous permet d’obtenir toutes vos données d’Activity Map pour une page spécifique dans un format facile à utiliser. Elle vous permet d’enregistrer les données d’analyse générées pour une page dans un fichier CSV plat, afin que vous puissiez exporter les Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md)), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. Vous pouvez ensuite les consulter sous forme de tableur ou de fichier texte, ou importer les données dans un autre système.
+En tant qu’utilisateur, il se peut que vous deviez fusionner des données de clics sur les liens avec d’autres sources de données ou effectuer d’autres analyses (p. ex. dans Excel). L’exportation au format CSV vous permet d’obtenir toutes vos données d’Activity Map pour une page spécifique dans un format facile à utiliser. Elle vous permet d’enregistrer les données d’analyse générées pour une page dans un fichier CSV plat, afin que vous puissiez exporter les  rapports de Page, [rapports Flux de page](/help/analyze/activity-map/activitymap-page-flow.md) et les données [Liens sur la page](/help/analyze/activity-map/activitymap-links-report.md). Vous pouvez ensuite les consulter sous forme de tableur ou de fichier texte, ou importer les données dans un autre système.
 
 Cliquez sur l’icône Exporter dans la barre d’outils d’Activity Map.
 
