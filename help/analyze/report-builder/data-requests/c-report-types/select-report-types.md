@@ -1,18 +1,16 @@
 ---
 description: Vous pouvez sélectionner le type de rapport de base à affecter à votre requête de données, tel que Mesures du site, Contenu du site ou encore Vidéo.
-seo-description: Vous pouvez sélectionner le type de rapport de base à affecter à votre requête de données, tel que Mesures du site, Contenu du site ou encore Vidéo.
-seo-title: Présentation des types de rapport
 solution: Analytics
-title: Présentation des types de rapport
-topic: Créateur de rapports
-uuid: 63 e 656 d 0-f 22 e -4846-9 e 24-7 ef 3299 dde 5 a
+title: Types de rapports - Aperçu
+topic: Report builder
+uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Présentation des types de rapport
+# Types de rapports - Aperçu
 
 Vous pouvez sélectionner le type de rapport de base à affecter à votre requête de données, tel que Mesures du site, Contenu du site ou encore Vidéo.
 
