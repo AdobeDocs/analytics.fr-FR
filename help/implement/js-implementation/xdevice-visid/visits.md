@@ -1,15 +1,13 @@
 ---
 description: Analytics comptabilise une visite chaque fois qu’un appel au serveur se produit avec un numéro de page de la visite égal à 1.
-keywords: Mise en œuvre d’Analytics
-seo-description: Analytics comptabilise une visite chaque fois qu’un appel au serveur se produit avec un numéro de page de la visite égal à 1.
-seo-title: Visites
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Visiteurs
+subtopic: Visitors
 title: Visites
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
