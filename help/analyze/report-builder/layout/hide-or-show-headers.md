@@ -1,18 +1,16 @@
 ---
 description: Cette procédure explique comment masquer ou afficher des en-têtes.
-seo-description: Cette procédure explique comment masquer ou afficher des en-têtes.
-seo-title: Masquer ou afficher les en-têtes
 solution: Analytics
-title: Masquer ou afficher les en-têtes
-topic: Créateur de rapports
-uuid: ab 0 ef 56 f -3531-48 fb -9456-1220718 d 59 c 5
+title: Masquage ou affichage des en-têtes
+topic: Report builder
+uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Masquer ou afficher les en-têtes
+# Masquage ou affichage des en-têtes
 
 Cette procédure explique comment masquer ou afficher des en-têtes.
 
