@@ -1,13 +1,11 @@
 ---
 description: La Disposition personnalisée fournit la plupart des fonctions de la Disposition croisée dynamique, tout en vous permettant de choisir l’emplacement de chaque élément de la grille dans la feuille de calcul. Cette disposition offre la même souplesse que les versions précédentes, y compris l’ajout de ventilations et de micrographiques.
-seo-description: La Disposition personnalisée fournit la plupart des fonctions de la Disposition croisée dynamique, tout en vous permettant de choisir l’emplacement de chaque élément de la grille dans la feuille de calcul. Cette disposition offre la même souplesse que les versions précédentes, y compris l’ajout de ventilations et de micrographiques.
-seo-title: Configuration de la disposition personnalisée
 solution: Analytics
 title: Configuration de la disposition personnalisée
-topic: Créateur de rapports
+topic: Report builder
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
