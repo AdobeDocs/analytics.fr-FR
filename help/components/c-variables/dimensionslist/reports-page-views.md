@@ -1,13 +1,11 @@
 ---
 description: Rapport de tendance qui affiche le nombre de fois où les pages de votre site web ont été consultées pour une période donnée (heure, jour, semaine, mois, trimestre ou année). Ce rapport vous permet de suivre chaque page vue pour chaque page de votre site, ainsi qu’un groupe de pages vues pour la totalité du site.
-seo-description: Rapport de tendance qui affiche le nombre de fois où les pages de votre site web ont été consultées pour une période donnée (heure, jour, semaine, mois, trimestre ou année). Ce rapport vous permet de suivre chaque page vue pour chaque page de votre site, ainsi qu’un groupe de pages vues pour la totalité du site.
-seo-title: Pages vues
 solution: Analytics
 title: Pages vues
-topic: Rapports
+topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
