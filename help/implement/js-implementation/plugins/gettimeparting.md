@@ -1,15 +1,13 @@
 ---
 description: Le module externe getTimeParting renseigne les variables personnalisées avec les valeurs « heure du jour », « jour de la semaine », « jour du week-end » et « jour de semaine ». Analysis Workspace propose des dimensions de répartition des heures prêtes à l’emploi. Le module externe devrait être utilisé si des dimensions de répartition des heures sont requises dans d’autres solutions Analytics, hors d’Analysis Workspace.
-keywords: Mise en œuvre d’Analytics
-seo-description: Le module externe getTimeParting renseigne les variables personnalisées avec les valeurs « heure du jour », « jour de la semaine », « jour du week-end » et « jour de semaine ». Analysis Workspace propose des dimensions de répartition des heures prêtes à l’emploi. Le module externe devrait être utilisé si des dimensions de répartition des heures sont requises dans d’autres solutions Analytics, hors d’Analysis Workspace.
-seo-title: getTimeParting
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Modules externes
+subtopic: Plug-ins
 title: getTimeParting
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
