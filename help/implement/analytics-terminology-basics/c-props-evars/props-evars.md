@@ -1,14 +1,12 @@
 ---
 description: Les variables de trafic personnalisé, appelées également props (s.prop) ou variables de propriété, sont en réalité des compteurs qui comptabilisent le nombre de fois où chaque valeur est envoyée dans Analytics.
-keywords: Mise en œuvre d’Analytics;propriété de trafic;propriété;conversion;evar;s.prop;aperçu de conversion personnalisée;variable de trafic
-seo-description: Les variables de trafic personnalisé, appelées également props (s.prop) ou variables de propriété, sont en réalité des compteurs qui comptabilisent le nombre de fois où chaque valeur est envoyée dans Analytics.
-seo-title: Propriétés et eVars - Aperçu
+keywords: Analytics Implementation;Traffic prop;prop;conversion;evar;s.prop;custom conversion insight;traffic variable
 solution: Analytics
 title: Propriétés et eVars - Aperçu
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
