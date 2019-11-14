@@ -1,13 +1,11 @@
 ---
 description: Le Créateur de rapports utilise le calendrier personnalisé d’Analytics. dont vous pouvez vous servir pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la régulation de l’inventaire matériel.
-seo-description: Le Créateur de rapports utilise le calendrier personnalisé d’Analytics. dont vous pouvez vous servir pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la régulation de l’inventaire matériel.
-seo-title: 'Calendrier personnalisé '
 solution: Analytics
 title: 'Calendrier personnalisé '
-topic: Créateur de rapports
+topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
