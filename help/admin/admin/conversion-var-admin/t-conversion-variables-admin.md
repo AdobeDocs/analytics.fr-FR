@@ -1,13 +1,11 @@
 ---
 description: Description de la procédure d’ajout ou de modification des variables de conversion.
-seo-description: Description de la procédure d’ajout ou de modification des variables de conversion.
-seo-title: Modification des variables de conversion
 solution: Analytics
 title: Modification des variables de conversion
-topic: Outils d’administration
+topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
