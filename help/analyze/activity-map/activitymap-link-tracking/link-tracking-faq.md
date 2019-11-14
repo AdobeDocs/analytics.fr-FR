@@ -1,13 +1,11 @@
 ---
 description: Questions fréquentes sur le suivi des liens dans Activity Map.
-seo-description: Questions fréquentes sur le suivi des liens dans Activity Map.
-seo-title: Questions fréquentes sur le suivi des liens
 solution: Analytics
-title: Suivi des liens  FAQ
-topic: Activity Map
+title: Questions fréquentes sur le suivi des liens
+topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
