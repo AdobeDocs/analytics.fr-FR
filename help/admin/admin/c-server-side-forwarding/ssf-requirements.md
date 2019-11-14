@@ -1,12 +1,10 @@
 ---
 description: Vous devez respecter les conditions requises de la solution, du service et du code Experience Cloud pour implémenter le transfert côté serveur. Ces conditions requises incluent également des instructions sur la façon de vérifier les versions du code et d’obtenir les dernières bibliothèques de codes.
-seo-description: Vous devez respecter les conditions requises de la solution, du service et du code Experience Cloud pour implémenter le transfert côté serveur. Ces conditions requises incluent également des instructions sur la façon de vérifier les versions du code et d’obtenir les dernières bibliothèques de codes.
-seo-title: Conditions requises pour le transfert côté serveur
 solution: Audience Manager
 title: Conditions requises pour le transfert côté serveur
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
