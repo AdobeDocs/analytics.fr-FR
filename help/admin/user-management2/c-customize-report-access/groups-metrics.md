@@ -1,15 +1,13 @@
 ---
 description: Activez les autorisations pour les mesures de trafic, les mesures de conversion, les événements personnalisés, les événements de solution et la reconnaissance de contenu.
-keywords: groupes;autorisations
-seo-description: Activez les autorisations pour les mesures de trafic, les mesures de conversion, les événements personnalisés, les événements de solution et la reconnaissance de contenu.
-seo-title: Personnalisation des autorisations liées aux mesures
+keywords: groups;permissions
 solution: Analytics
-subtopic: Utilisateurs et groupes
+subtopic: Users and groups
 title: Personnalisation des autorisations liées aux mesures
-topic: Outils d’administration
+topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
