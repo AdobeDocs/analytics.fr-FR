@@ -1,13 +1,11 @@
 ---
 description: Création de conditions pour les règles d’appel direct.
-keywords: Dynamic Tag Management;règle;créer une règle;nouvelle règle;règle d’appel direct
-seo-description: Création de conditions pour les règles d’appel direct.
-seo-title: Création de conditions pour les règles d’appel direct
+keywords: Dynamic Tag Management;rule;create rule;new rule;direct call rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création de conditions pour les règles d’appel direct
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
