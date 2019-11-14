@@ -1,13 +1,11 @@
 ---
 description: La politique FTP d’Adobe désactive automatiquement l’accès aux comptes FTP qui restent inactifs pendant 90 jours consécutifs.
 keywords: ftp;sftp
-seo-description: La politique FTP d’Adobe désactive automatiquement l’accès aux comptes FTP qui restent inactifs pendant 90 jours consécutifs.
-seo-title: Suppression des données et des comptes liés au FTP
 solution: Analytics
 title: Suppression des données et des comptes liés au FTP
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
