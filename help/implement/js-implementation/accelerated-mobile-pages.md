@@ -1,14 +1,12 @@
 ---
 description: Mettez en œuvre le projet AMP (Accelerated Mobile Pages) dans Adobe Analytics.
-keywords: Implémentation d’Analytics;amp;amp-analytics;modèle adobeanalytics;modèle adobeanalytics_nativeConfig;suivi des clics;gonflement des visiteurs;service d’id
-seo-description: Mettez en œuvre le projet AMP (Accelerated Mobile Pages) dans Adobe Analytics.
-seo-title: Accelerated Mobile Pages
+keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
 solution: Analytics
 title: Accelerated Mobile Pages
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
