@@ -1,20 +1,18 @@
 ---
-description: Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
-seo-description: Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
-seo-title: Mode standard et mode réel
+description: Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
 solution: Analytics
 title: Mode standard et mode réel
-topic: Activity Map
+topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Mode standard et mode réel
 
-Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
+Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
 
 * Le mode standard, dans lequel le rapport [Liens sur la page](/help/analyze/activity-map/activitymap-links-report.md) affiche les données des liens allant d’un seul jour à plusieurs jours, regroupées sur toute la période.
 * Le mode réel, qui affiche les tendances d’activité en temps réel.
