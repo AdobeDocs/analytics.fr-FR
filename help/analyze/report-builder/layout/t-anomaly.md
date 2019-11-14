@@ -1,13 +1,11 @@
 ---
-description: Étapes qui décrivent comment créer une requête de détection des anomalies dans le Créateur de rapports.
-seo-description: Etapes qui décrivent comment créer une requête de détection des anomalies dans le créateur de rapports.
-seo-title: Configuration d’une requête de détection des anomalies
+description: Etapes qui décrivent comment créer une requête de détection des anomalies dans le créateur de rapports.
 solution: Analytics
 title: Configuration d’une requête de détection des anomalies
-topic: Créateur de rapports
+topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
