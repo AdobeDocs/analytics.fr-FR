@@ -1,15 +1,13 @@
 ---
 description: Dans le langage HTML, plusieurs caractères créent un espace.
-keywords: Mise en œuvre d’Analytics
-seo-description: Dans le langage HTML, plusieurs caractères créent un espace.
-seo-title: Utilisation des espaces dans les valeurs de variable
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Résolution des problèmes
+subtopic: Troubleshooting
 title: Utilisation des espaces dans les valeurs de variable
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
