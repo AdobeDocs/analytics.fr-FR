@@ -1,12 +1,10 @@
 ---
 description: Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience Analytics.
-seo-description: Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience Analytics.
-seo-title: Questions fréquentes
-solution: 'Activation '
+solution: Experience Cloud
 title: Questions fréquentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
