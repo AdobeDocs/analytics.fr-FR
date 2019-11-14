@@ -1,13 +1,11 @@
 ---
 description: Vous pouvez copier une feuille de calcul entière d’un classeur source dans une feuille de calcul d’un ou de plusieurs classeurs cibles.
-seo-description: Vous pouvez copier une feuille de calcul entière d’un classeur source dans une feuille de calcul d’un ou de plusieurs classeurs cibles.
-seo-title: Copie de requêtes et de feuilles de calcul entre des classeurs
 solution: Analytics
 title: Copie de requêtes et de feuilles de calcul entre des classeurs
-topic: Créateur de rapports
+topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
