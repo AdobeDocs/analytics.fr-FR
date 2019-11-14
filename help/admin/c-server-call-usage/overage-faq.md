@@ -1,11 +1,9 @@
 ---
 description: valeur nulle
-seo-description: valeur nulle
-seo-title: FAQ sur l’utilisation de l’appel au serveur
 title: FAQ sur l’utilisation de l’appel au serveur
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
