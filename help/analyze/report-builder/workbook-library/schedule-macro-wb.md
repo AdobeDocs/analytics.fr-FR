@@ -1,13 +1,11 @@
 ---
 description: Le Créateur de rapports d’Adobe prend en charge le format .xlsm qui permet de planifier des classeurs prenant en charge les macros.
-seo-description: Le Créateur de rapports d’Adobe prend en charge le format .xlsm qui permet de planifier des classeurs prenant en charge les macros.
-seo-title: Planification de classeurs prenant en charge les macros
 solution: Analytics
 title: Planification de classeurs prenant en charge les macros
-topic: Créateur de rapports
+topic: Report builder
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
