@@ -1,13 +1,11 @@
 ---
 description: Répertorie les mesures et les dimensions prises en charge par les rapports Temps réel. Si vous les avez définies, les classifications sont également prises en charge.
-seo-description: Répertorie les mesures et les dimensions prises en charge par les rapports Temps réel. Si vous les avez définies, les classifications sont également prises en charge.
-seo-title: Mesures et dimensions en temps réel prises en charge
 solution: Analytics
 title: Mesures et dimensions en temps réel prises en charge
-topic: Présentation
-uuid: a 3 a 869 ef -0 f 4 a -44 b 5-a 386-2746 cc 0822 c 4
+topic: Reports
+uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -23,7 +21,7 @@ Répertorie les mesures et les dimensions prises en charge par les rapports Temp
 * Unités
 * Paniers
 * Consultations du panier
-* Passage en caisse
+* Achats
 * Ajouts au panier
 * Retraits du panier
 * Instances
@@ -31,7 +29,7 @@ Répertorie les mesures et les dimensions prises en charge par les rapports Temp
 
 ## Dimensions prises en charge {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
-* Page
+* Activity Map
 * Rechercher mot de passe
 * Moteur de recherche
 * Domaine référent
