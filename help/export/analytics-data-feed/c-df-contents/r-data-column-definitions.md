@@ -1,13 +1,11 @@
 ---
 description: Utilisez cette section pour sélectionner les colonnes de données à inclure dans le flux et pour définir comment les données du flux doivent être traitées et empaquetées avant diffusion.
-keywords: Flux de données;données;colonne;définitions;sélectionner des modèles de colonne;parcours de navigation;colonnes disponibles;colonnes incluses;format de compression;type d’emballage;inclure le manifeste de données;supprimer les caractères d’échappement;télécharger le fichier CSV
-seo-description: Utilisez cette section pour sélectionner les colonnes de données à inclure dans le flux et pour définir comment les données du flux doivent être traitées et empaquetées avant diffusion.
-seo-title: Définitions des colonnes de données
+keywords: Data Feed;data;column;definitions;select column templates;clickstream;available columns;included columns;compression format;packaging type;include data manifest;remove escaped characters;download csv
 solution: Analytics
 title: Définitions des colonnes de données
 uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
