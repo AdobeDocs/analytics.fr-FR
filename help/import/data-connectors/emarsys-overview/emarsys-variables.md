@@ -1,18 +1,16 @@
 ---
-description: The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
-seo-description: L’intégration des Connecteurs de données pour emarsys utilise des variables Analytics pour effectuer le suivi de diverses mesures d’emarsys.
-seo-title: Variables Analytics
+description: L’intégration des Connecteurs de données pour emarsys utilise des variables Analytics pour effectuer le suivi de diverses mesures d’emarsys.
 title: Variables Analytics
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Variables Analytics{#analytics-variables}
 
-The Data Connectors integration for emarsys uses Analytics variables to track various emarsys metrics.
+L’intégration des Connecteurs de données pour emarsys utilise des variables Analytics pour effectuer le suivi de diverses mesures d’emarsys.
 
 Après avoir identifié l’événement et les eVars à utiliser avec l’intégration d’emarsys, activez-les dans la console [d’administration](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/c-admin-tools.html).
 
@@ -61,7 +59,7 @@ Après avoir identifié l’événement et les eVars à utiliser avec l’intég
   <tr> 
    <td colname="col1"> eVar </td> 
    <td colname="col2"> Recipient ID </td> 
-   <td colname="col3"> <p>Collected from query parameters in email links through the automated collection method or a JavaScript plug-in. </p> </td> 
+   <td colname="col3"> <p>Collecté à partir des paramètres de requête dans les liens de courrier électronique par le biais de la méthode de collecte automatisée ou d’un module externe JavaScript. </p> </td> 
    <td colname="col4"> Recipient ID </td> 
   </tr> 
   <tr> 
