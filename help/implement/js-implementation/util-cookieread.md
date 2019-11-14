@@ -1,15 +1,13 @@
 ---
 description: Obtient la valeur d’un cookie.
-keywords: Mise en œuvre d’Analytics
-seo-description: Obtient la valeur d’un cookie.
-seo-title: Util.cookieRead
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: AppMeasurement pour JavaScript
+subtopic: JavaScript AppMeasurement
 title: Util.cookieRead
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 825a75c6-b804-4bfe-b23a-907113b8bfa6
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,13 +22,13 @@ Obtient la valeur d’un cookie.
 s.Util.cookieRead(key)
 ```
 
-**Paramètres :**
+**Paramètres:**
 
 | Paramètre | Description |
 |---|---|
 | key | (obligatoire) clé pour laquelle écrire une valeur dans les cookies. |
 
-**Retours :**
+**Retours:**
 
 Valeur du cookie ou chaîne vide si le cookie est introuvable.
 
