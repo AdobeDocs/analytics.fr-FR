@@ -1,13 +1,11 @@
 ---
 description: Regroupe les appareils mobiles en téléphones mobiles, tablettes, liseuses électroniques, consoles de jeu, télévisions, boîtiers décodeurs, lecteurs multimédias et autres catégories de niveau supérieur pour vous permettre de consulter la distribution entre les types d’appareils mobiles.
-seo-description: Regroupe les appareils mobiles en téléphones mobiles, tablettes, liseuses électroniques, consoles de jeu, télévisions, boîtiers décodeurs, lecteurs multimédias et autres catégories de niveau supérieur pour vous permettre de consulter la distribution entre les types d’appareils mobiles.
-seo-title: Types de périphérique
 solution: Analytics
 title: Types de périphérique
-topic: Rapports
+topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
