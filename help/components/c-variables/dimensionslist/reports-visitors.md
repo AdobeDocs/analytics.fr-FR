@@ -1,13 +1,11 @@
 ---
 description: Affiche le nombre de visiteurs uniques de votre site pour une heure, un jour, une semaine, un mois, un trimestre ou une année sélectionné(e). Un visiteur unique est comptabilisé une seule fois pendant la période sélectionnée. Les visiteurs qui reviennent sur votre site ne sont pas recomptabilisés en tant que visiteurs uniques jusqu’à l’expiration de la période.
-seo-description: Affiche le nombre de visiteurs uniques de votre site pour une heure, un jour, une semaine, un mois, un trimestre ou une année sélectionné(e). Un visiteur unique est comptabilisé une seule fois pendant la période sélectionnée. Les visiteurs qui reviennent sur votre site ne sont pas recomptabilisés en tant que visiteurs uniques jusqu’à l’expiration de la période.
-seo-title: Visiteurs
 solution: Analytics
 title: Visiteurs
-topic: Rapports
+topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
