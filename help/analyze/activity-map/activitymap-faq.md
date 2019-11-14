@@ -1,20 +1,18 @@
 ---
-description: Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
-seo-description: Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
-seo-title: Questions fréquentes sur Activity Map
+description: Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
 solution: Analytics
 title: Questions fréquentes sur Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Questions fréquentes sur Activity Map
 
-Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
+Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
 
 ## Mise en œuvre et AppMeasurement {#section_FB46DD652E854C07AD339D7DD5CBCEC6}
 
@@ -28,7 +26,7 @@ R : Les clients Adobe SiteCatalyst n’ont pas accès à la page d’activation
 
 **Q : Le nouveau code AppMeasurement peut-il être configuré à l’aide de la Dynamic Tag Management ?**
 
-R : Oui, vous pouvez [mettre en œuvre manuellement](https://marketing.adobe.com/resources/help/fr_FR/dtm/analytics_dtm.html) le nouveau code AppMeasurement.
+R : Oui, vous pouvez [mettre en œuvre manuellement](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) le nouveau code AppMeasurement.
 
 **Q : Quels sont les principaux changements apportés à la bibliothèque AppMeasurement version 1.6 ?**
 
@@ -73,7 +71,7 @@ R : Lors de l’utilisation d’Activity Map, les données de clic sur les lie
 
 **Q : Pourquoi le menu déroulant des mesures répertorie-t-il la même mesure plusieurs fois ?**
 
-R : Activity Map répertorie les mesures pour toutes les suites de rapports. Par conséquent, vous pouvez vous attendre à voir des mesures en double si l’entreprise n’est pas passée par un [processus de consolidation des mesures](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/cm_transition.html).
+R : Activity Map répertorie les mesures pour toutes les suites de rapports. Par conséquent, vous pouvez vous attendre à voir des mesures en double si l’entreprise n’est pas passée par un [processus de consolidation des mesures](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
 
 Le menu déroulant des mesures vous permet de limiter la liste des mesures calculées à celles qui sont affectées à la suite de rapports de la page visitée.
 
@@ -125,7 +123,7 @@ Un message d’avertissement s’affiche et indique que vous devez (/home/analyz
 
 Un message d’avertissement s’affiche et indique que vous devez demander à votre administrateur d’\[Activer les rapports d’Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
 
-**Q : Puis-je exporter les données d’Activity Map (contextData) par l’intermédiaire du[flux de données Analytics](https://marketing.adobe.com/resources/help/fr_FR/reference/analytics-data-feed.html) ?**
+**Q : Puis-je exporter les données d’Activity Map (contextData) par l’intermédiaire du[flux de données Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) ?**
 
 R : Non.
 
