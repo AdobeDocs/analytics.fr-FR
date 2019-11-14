@@ -1,13 +1,11 @@
 ---
 description: Les analyses ad hoc s’intègrent à l’environnement de segmentation d’Analytics, ce qui vous permet de créer, de partager, de gérer et d’appliquer des segments de visiteurs dans les produits Adobe. Les analyses ad hoc fournissent une interface utilisateur basée sur Java pour le créateur de segments et le gestionnaire de segments, identiques aux outils Web utilisés par d’autres outils Analytics, qui correspondent aux appels serveur et fournissent les mêmes fonctionnalités et fonctionnalités à partir d’une console basée sur Java.
-seo-description: Les analyses ad hoc s’intègrent à l’environnement de segmentation d’Analytics, ce qui vous permet de créer, de partager, de gérer et d’appliquer des segments de visiteurs dans les produits Adobe. Les analyses ad hoc fournissent une interface utilisateur basée sur Java pour le créateur de segments et le gestionnaire de segments, identiques aux outils Web utilisés par d’autres outils Analytics, qui correspondent aux appels serveur et fournissent les mêmes fonctionnalités et fonctionnalités à partir d’une console basée sur Java.
-seo-title: Création de segments
 solution: Analytics
 title: Création de segments
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
