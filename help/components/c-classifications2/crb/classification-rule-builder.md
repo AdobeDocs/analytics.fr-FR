@@ -1,14 +1,12 @@
 ---
 description: Au lieu de gérer et de transférer des classifications à chaque changement des codes de suivi, vous pouvez créer des classifications automatiques en fonction des règles automatiques, puis les appliquer dans plusieurs suites de rapports. Les règles sont traitées à intervalles réguliers, selon le volume de trafic lié aux classifications.
-seo-description: Au lieu de gérer et de transférer des classifications à chaque changement des codes de suivi, vous pouvez créer des classifications automatiques en fonction des règles automatiques, puis les appliquer dans plusieurs suites de rapports. Les règles sont traitées à intervalles réguliers, selon le volume de trafic lié aux classifications.
-seo-title: 'Workflow du créateur de règles de classification '
 solution: Analytics
 subtopic: Classifications
 title: 'Workflow du créateur de règles de classification '
-topic: Outils d’administration
+topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -45,7 +43,7 @@ Vous trouverez ci-dessous les étapes générales que vous suivez pour implémen
 
 >[!NOTE]
 >
-> Les groupes autorisés à utiliser l'outil d'importation de classification peuvent utiliser des règles de classification. See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+>Les groupes autorisés à utiliser l'outil d'importation de classification peuvent utiliser des règles de classification. See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **Ressources supplémentaires**
 
