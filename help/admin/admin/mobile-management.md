@@ -1,13 +1,11 @@
 ---
 description: L’application de la gestion mobile active les variables des solutions mobiles qui capturent le cycle de vie et d’autres mesures des applications mobiles.
-seo-description: L’application de la gestion mobile active les variables des solutions mobiles qui capturent le cycle de vie et d’autres mesures des applications mobiles.
-seo-title: Gestion mobile
 solution: Analytics
 title: Gestion mobile
-topic: Outils d’administration
+topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -38,7 +36,7 @@ Activez App Reports v3.0 pour évaluer les mesures suivantes :
 * **Valeur de durée de vie** : comprenez la manière dont les utilisateurs exploitent la valeur au fil du temps en utilisant des indicateurs de performance clés des applications tels que les achats, vues de publicités, vidéos terminées, partages sur les réseaux sociaux, chargements de photos.
 * **Événements minutés** : mesurez la durée qui s’écoule (dans l’application et durée totale) entre les actions clés de l’application, telles que le temps avant le premier achat.
 
-## Étape 2 : Activation du suivi de l’emplacement {#section_2CCBD205191C4CA3B7B71A6F11FF97EC}
+## Étape 2 : Activation du suivi de l’emplacement {#section_2CCBD205191C4CA3B7B71A6F11FF97EC}
 
 L’activation du suivi de l’emplacement permet :
 
