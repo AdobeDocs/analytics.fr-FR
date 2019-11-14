@@ -1,11 +1,9 @@
 ---
 description: Dans le Gestionnaire de mesures calculées, le balisage des segments permet de les organiser.
-seo-description: Dans le Gestionnaire de mesures calculées, le balisage des segments permet de les organiser.
-seo-title: Balisage des mesures calculées
 title: Balisage des mesures calculées
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
