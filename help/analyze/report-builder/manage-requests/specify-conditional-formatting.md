@@ -1,13 +1,11 @@
 ---
 description: Après avoir créé des rapports avec des requêtes intégrées, vous pouvez appliquer aux cellules du classeur une mise en forme conditionnelle.
-seo-description: Après avoir créé des rapports avec des requêtes intégrées, vous pouvez appliquer aux cellules du classeur une mise en forme conditionnelle.
-seo-title: Définition d’une mise en forme conditionnelle
 solution: Analytics
 title: Définition d’une mise en forme conditionnelle
-topic: Créateur de rapports
+topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
