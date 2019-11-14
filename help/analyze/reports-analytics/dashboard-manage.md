@@ -1,14 +1,12 @@
 ---
 description: Utilisez le Gestionnaire de tableaux de bord pour copier, partager, archiver et programmer la remise des tableaux de bord.
-seo-description: Utilisez le Gestionnaire de tableaux de bord pour copier, partager, archiver et programmer la remise des tableaux de bord.
-seo-title: Gestionnaire de tableaux de bord
 solution: Analytics
-subtopic: Tableaux de bord
+subtopic: Dashboards
 title: Gestionnaire de tableaux de bord
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
