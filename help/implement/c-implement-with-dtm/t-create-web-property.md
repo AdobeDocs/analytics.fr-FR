@@ -1,14 +1,12 @@
 ---
 description: Une propriété web peut être n’importe quel regroupement d’un ou de plusieurs domaines et sous-domaines avec une bibliothèque de règles, inclus dans un code intégré.
-keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;propriété web;propriété
-seo-description: Une propriété web peut être n’importe quel regroupement d’un ou de plusieurs domaines et sous-domaines avec une bibliothèque de règles, inclus dans un code intégré.
-seo-title: Création d’une propriété web
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
 solution: Analytics
 title: Création d’une propriété web
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,7 +19,7 @@ Une propriété web peut être n’importe quel regroupement d’un ou de plusie
 
 Vous pouvez gérer ces ressources et en effectuer le suivi au moyen de la gestion dynamique des balises. Par exemple, supposons que vous disposez de plusieurs sites web reposant sur un modèle et que vous souhaitez effectuer le suivi des mêmes ressources sur tous les sites. Vous pouvez appliquer une propriété web à plusieurs domaines.
 
-Pour obtenir des informations générales sur les propriétés web et les bonnes pratiques, voir Propriétés [](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) Web dans la documentation du produit Gestion dynamique des balises.
+Pour obtenir des informations générales sur les propriétés web et les bonnes pratiques, voir [Propriétés web ](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) dans la Documentation du produit Dynamic Tag Management.
 
 1. Accédez à la page Entreprises, puis cliquez sur **[!UICONTROL Ajouter une propriété]**.
 
