@@ -1,15 +1,13 @@
 ---
 description: Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Ainsi, la valeur de la variable pageName est le nom de la page Web qui fait l’objet d’un rapport. Cette section répertorie les variables prises en charge par AppMeasurement.
-keywords: Mise en œuvre d’Analytics;variables appmeasurement
-seo-description: Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Ainsi, la valeur de la variable pageName est le nom de la page Web qui fait l’objet d’un rapport. Cette section répertorie les variables prises en charge par AppMeasurement.
-seo-title: Variables - Aperçu
+keywords: Analytics Implementation;appmeasurement variables
 solution: Analytics
 subtopic: Variables
 title: Variables - Aperçu
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
-translation-type: ht
-source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
