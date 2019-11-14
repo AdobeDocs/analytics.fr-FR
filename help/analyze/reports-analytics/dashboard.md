@@ -1,14 +1,12 @@
 ---
 description: Un tableau de bord est une série de rapports miniatures nommés mini-rapports. Il s’avère particulièrement utile s’il contient des mini-rapports connexes, qui fournissent des vues d’ensemble complètes de certains aspects de votre site (méthodes de recherche, profils du visiteur, etc.).
-seo-description: Un tableau de bord est une série de rapports miniatures nommés mini-rapports. Il s’avère particulièrement utile s’il contient des mini-rapports connexes, qui fournissent des vues d’ensemble complètes de certains aspects de votre site (méthodes de recherche, profils du visiteur, etc.).
-seo-title: Tableaux de bord et mini-rapports
 solution: Analytics
-subtopic: Tableaux de bord
+subtopic: Dashboards
 title: Tableaux de bord et mini-rapports
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -58,7 +56,7 @@ Ce tableau de bord présente un aperçu des mesures clés liées aux opérations
 
 Utilisez le [!UICONTROL Gestionnaire de tableaux de bord] pour modifier et gérer les tableaux de bord et les activer pour DirectAccess.
 
-Voir  [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md).
+Reportez-vous à la section [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## Création d’un tableau de bord {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
