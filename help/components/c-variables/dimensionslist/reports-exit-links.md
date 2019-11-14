@@ -1,13 +1,11 @@
 ---
 description: Affiche les liens sur lesquels les visiteurs cliquent le plus souvent et qui pointent vers des sites externes. Ces liens pointent généralement vers des sites de partenaires ou de sociétés affiliées. Il peut toutefois s’agir de tout emplacement sur lequel vous avez implémenté un lien externe. Vous pouvez utiliser ce rapport pour afficher les liens de sites affiliés les plus populaires ou faciliter la validation du nombre de renvois que vous fournissez, selon les indications de vos partenaires.
-seo-description: Affiche les liens sur lesquels les visiteurs cliquent le plus souvent et qui pointent vers des sites externes. Ces liens pointent généralement vers des sites de partenaires ou de sociétés affiliées. Il peut toutefois s’agir de tout emplacement sur lequel vous avez implémenté un lien externe. Vous pouvez utiliser ce rapport pour afficher les liens de sites affiliés les plus populaires ou faciliter la validation du nombre de renvois que vous fournissez, selon les indications de vos partenaires.
-seo-title: Liens de sortie
 solution: Analytics
 title: Liens de sortie
-topic: Rapports
-uuid: e1452f04-389d-4aa3-8763-73280284302
+topic: Reports
+uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
