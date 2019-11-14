@@ -1,15 +1,13 @@
 ---
 description: Le module externe (plug-in) apl (ou appendList) permet d’ajouter une valeur à toute liste délimitée, avec la possibilité d’effectuer une vérification sensible ou non à la casse afin de s’assurer que la valeur en question ne figure pas déjà dans la liste. Le module externe APL est référencé par plusieurs modules externes standard, mais il peut être utilisé directement dans un éventail de situations.
-keywords: Mise en œuvre d’Analytics
-seo-description: Le module externe (plug-in) apl (ou appendList) permet d’ajouter une valeur à toute liste délimitée, avec la possibilité d’effectuer une vérification sensible ou non à la casse afin de s’assurer que la valeur en question ne figure pas déjà dans la liste. Le module externe APL est référencé par plusieurs modules externes standard, mais il peut être utilisé directement dans un éventail de situations.
-seo-title: appendList
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Modules externes
+subtopic: Plug-ins
 title: appendList
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
