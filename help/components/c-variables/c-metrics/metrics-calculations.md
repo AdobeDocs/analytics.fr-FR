@@ -1,13 +1,11 @@
 ---
 description: Les mesures sont calculées selon des méthodes d’attribution standard, de participation, récente et linéaire. Chaque méthode calcule les valeurs selon des formules différentes.
-seo-description: Les mesures sont calculées selon des méthodes d’attribution standard, de participation, récente et linéaire. Chaque méthode calcule les valeurs selon des formules différentes.
-seo-title: Calculs de mesures
 solution: Analytics
 title: Calculs de mesures
-topic: Mesures
+topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
