@@ -1,14 +1,12 @@
 ---
 description: Le traitement permet de limiter les composants avant de partager un projet. Vous pouvez traiter et partager un projet et ses composants avec les marketeurs et d’autres personnes qui ne sont pas des analystes de votre entreprise. Annotez et appliquez des balises aux projets.
 keywords: Analysis Workspace
-seo-description: Le traitement permet de limiter les composants avant de partager un projet. Vous pouvez traiter et partager un projet et ses composants avec les marketeurs et d’autres personnes qui ne sont pas des analystes de votre entreprise. Annotez et appliquez des balises aux projets.
-seo-title: Traitements et partages - Aperçu
 solution: Analytics
 title: Traitements et partages - Aperçu
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
