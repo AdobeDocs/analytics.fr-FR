@@ -1,14 +1,12 @@
 ---
 description: Le tableau ci-dessous montre l’association des rapports aux variables, ou les rapports et les variables qu’ils utilisent.
-keywords: Mise en œuvre d’Analytics
-seo-description: Le tableau ci-dessous montre l’association des rapports aux variables, ou les rapports et les variables qu’ils utilisent.
-seo-title: Mappage des rapports aux variables
+keywords: Analytics Implementation
 solution: Analytics
 title: Mappage des rapports aux variables
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -61,12 +59,12 @@ Le tableau ci-dessous montre l’association des rapports aux variables, ou les 
 
 | Cycle de ventes |
 |---|
-| Jours avant le premier achat | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
-| Jours depuis le dernier achat | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
-| Nombre de visites | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
-| Clients quotidiens uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
-| Clients mensuels uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
-| Clients annuels uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande  |
+| Jours avant le premier achat | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
+| Jours depuis le dernier achat | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
+| Nombre de visites | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
+| Clients quotidiens uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
+| Clients mensuels uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
+| Clients annuels uniques | s.products, s.events, s.purchaseID | Variables définies sur la page Confirmation de commande page |
 
 | Méthodes de recherche |
 |---|
@@ -80,8 +78,8 @@ Le tableau ci-dessous montre l’association des rapports aux variables, ou les 
 | Domaines de haut niveau | N/D | Défini automatiquement par le fichier .JS |
 | Langues | N/D | Défini automatiquement par le fichier .JS |
 | Fuseaux horaires | N/D | Défini automatiquement par le fichier .JS |
-| Etats | s.state | Variable définie sur la page Confirmation de commande  |
-| Codes postaux | s.zip | Variable définie sur la page Confirmation de commande  |
+| Etats | s.state | Variable définie sur la page Confirmation de commande page |
+| Codes postaux | s.zip | Variable définie sur la page Confirmation de commande page |
 | Domaines | N/D | Défini automatiquement par le fichier .JS |
 
 | Technologie |
