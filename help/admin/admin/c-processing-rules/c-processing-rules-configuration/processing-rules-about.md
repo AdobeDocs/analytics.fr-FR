@@ -1,14 +1,12 @@
 ---
 description: Les règles de traitement vous permettent de modifier des données en fonction de conditions définies. Lorsque des attributs ou valeurs satisfont les conditions définies, les valeurs peuvent être définies et supprimées, et les événements peuvent être définis.
-seo-description: Les règles de traitement vous permettent de modifier des données en fonction de conditions définies. Lorsque des attributs ou valeurs satisfont les conditions définies, les valeurs peuvent être définies et supprimées, et les événements peuvent être définis.
-seo-title: Fonctionnement des règles de traitement
 solution: Analytics
-subtopic: Règles de traitement
+subtopic: Processing rules
 title: Fonctionnement des règles de traitement
-topic: Outils d’administration
+topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
