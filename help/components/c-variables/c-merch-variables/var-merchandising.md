@@ -1,19 +1,17 @@
 ---
 description: valeur nulle
-keywords: Mise en œuvre d’Analytics
-seo-description: valeur nulle
-seo-title: Présentation des variables de marchandisage
+keywords: Analytics Implementation
 solution: Analytics
-title: Présentation des variables de marchandisage
-topic: Développeur et mise en œuvre
-uuid: 2 ccf 516 a-a 7 ee -48 ab -92 aa -414228 a 4102 f
+title: Variables de marchandisage - Aperçu
+topic: Developer and implementation
+uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Présentation des variables de marchandisage
+# Variables de marchandisage - Aperçu
 
 Lorsque vous mesurez le succès de termes de recherche ou de campagnes externes, vous voulez généralement qu’une seule valeur reçoive du crédit pour tout événement de succès qui se produit. Par exemple, si un client clique sur un lien d’une campagne par courriel pour visiter votre site Web, tous les achats effectués par ce biais doivent être crédités à cette campagne.
 
