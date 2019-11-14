@@ -1,14 +1,12 @@
 ---
 description: Découvrez-en plus sur les avantages et les contraintes liés à l’utilisation du paramètre Horodatages (facultatif).
-keywords: Mise en œuvre d’Analytics
-seo-description: Découvrez-en plus sur les avantages et les contraintes liés à l’utilisation du paramètre Horodatages (facultatif).
-seo-title: Utilisation du paramètre Horodatages (facultatif)
+keywords: Analytics Implementation
 solution: Analytics
 title: Utilisation du paramètre Horodatages (facultatif)
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
