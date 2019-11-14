@@ -1,13 +1,11 @@
 ---
 description: Si vous modifiez votre classeur et souhaitez libérer de l’espace pour de nouvelles requêtes, il vous faudra peut-être en supprimer quelques-unes.
-seo-description: Si vous modifiez votre classeur et souhaitez libérer de l’espace pour de nouvelles requêtes, il vous faudra peut-être en supprimer quelques-unes.
-seo-title: Suppression de la correspondance de sortie
 solution: Analytics
 title: Suppression de la correspondance de sortie
-topic: Créateur de rapports
+topic: Report builder
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
