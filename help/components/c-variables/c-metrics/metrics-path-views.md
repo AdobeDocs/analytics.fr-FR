@@ -1,13 +1,11 @@
 ---
 description: La mesure Vues chemins repose sur les données de cheminement, lesquelles font l’objet d’un suivi pour tous les utilisateurs qui ont accepté des cookies persistants.
-seo-description: La mesure Vues chemins repose sur les données de cheminement, lesquelles font l’objet d’un suivi pour tous les utilisateurs qui ont accepté des cookies persistants.
-seo-title: Vues chemins
 solution: Analytics
 title: Vues chemins
-topic: Mesures
+topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
