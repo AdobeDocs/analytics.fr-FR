@@ -1,13 +1,11 @@
 ---
 description: Utilisez la section Informations sur les flux pour nommer le flux, définir la suite de rapports sur laquelle l’exécuter, déterminer sa fréquence ainsi que sa date et son heure de début et de fin.
-keywords: Flux de données;information;nom;suite de rapports;courrier électronique une fois terminé;courriel;intervalle;flux;traitement du retard;délai;début;fin;date;flux continu
-seo-description: Utilisez la section Informations sur les flux pour nommer le flux, définir la suite de rapports sur laquelle l’exécuter, déterminer sa fréquence ainsi que sa date et son heure de début et de fin.
-seo-title: Informations sur le flux
+keywords: Data Feed;information;name;report suite;email when complete;email;interval;feed;delay processing;delay;start;end;date;continuous feed
 solution: Analytics
 title: Informations sur le flux
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
