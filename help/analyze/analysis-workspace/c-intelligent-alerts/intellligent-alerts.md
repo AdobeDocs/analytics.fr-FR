@@ -1,11 +1,9 @@
 ---
 description: Le nouveau système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
-seo-description: Le nouveau système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
-seo-title: Alertes intelligentes - Aperçu
 title: Alertes intelligentes - Aperçu
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ Les nouveaux Générateur d’alertes et Gestionnaire d’alertes d’Analysis 
 
 * Créer des alertes d’après les anomalies (seuils de 90 %, 95 %, 99 %, 99,75 % et 99,90 % ; % de changement ; au-dessus/au-dessous)
 * Prévisualiser le nombre de fois où une alerte sera déclenchée
-* Envoyer des alertes par courrier électronique ou par SMS, avec des liens vers des projets Analysis Workspace générés automatiquement
+* Envoyer des alertes par e-mail ou par SMS, avec des liens pour générer automatiquement les projets Analysis Workspace
 * Créer des alertes « empilées » qui présentent plusieurs mesures dans une seule alerte
 
 Vous pouvez accéder au Générateur d’alertes de quatre façons :
