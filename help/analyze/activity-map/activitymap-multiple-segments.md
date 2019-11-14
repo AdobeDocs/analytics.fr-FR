@@ -1,13 +1,11 @@
 ---
 description: Vous permet d’appliquer un filtre de segments multiples dans Activity Map.
-seo-description: Vous permet d’appliquer un filtre de segments multiples dans Activity Map.
-seo-title: Segmentation des clients
 solution: Analytics
 title: Segmentation des clients
-topic: Activity Map
+topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,9 +14,9 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 Vous permet d’appliquer un filtre de segments multiples dans Activity Map.
 
-> [!NOTE] Le contrôle Segment est disponible uniquement en mode standard, car la plate-forme Adobe Analytics ne prend pas en charge la segmentation des données en temps réel.
+> [!NOTE] La commande Segment est uniquement disponible en mode standard, car la plateforme Adobe Analytics ne prend pas en charge la segmentation des données en temps réel.
 
-Vous pouvez sélectionner un ou plusieurs des segments dans le menu déroulant **[!UICONTROL Segments]affiché ci-dessous.** Les segments répertoriés correspondent à ceux que vous possédez ou qui ont été partagés avec vous par le biais de Reports &amp; Analytics pour la suite de rapports sélectionnée.
+Vous pouvez sélectionner un ou plusieurs des segments dans le menu déroulant **[!UICONTROL Segments]** affiché ci-dessous. Les segments répertoriés correspondent à ceux que vous possédez ou qui ont été partagés avec vous par le biais de Reports &amp; Analytics pour la suite de rapports sélectionnée.
 
 ![](assets/segments.png)
 
@@ -28,4 +26,4 @@ Lorsque plusieurs segments sont sélectionnés, le libellé de sélection de seg
 
 ![](assets/two_segments.png)
 
-Les segments sélectionnés seront appliqués à tous les rapports Analytics présentés dans Activity Map, c’est-à-dire les superpositions et les rapports **[!UICONTROL Liens sur la page]** et **Détails de la page[!UICONTROL .]**
+Les segments sélectionnés seront appliqués à tous les rapports Analytics présentés dans Activity Map, c’est-à-dire les superpositions et les rapports **[!UICONTROL Liens sur la page]** et **[!UICONTROL Détails de la page]**.
