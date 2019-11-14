@@ -1,15 +1,13 @@
 ---
 description: Les services ou réseaux de diffusion de contenu (CDN), tels que Speedera et Akamai, poussent le contenu Web plus près du bord du réseau. Par conséquent, les documents qui font l’objet de demandes fréquentes restent à proximité de l’emplacement d’accès.
-keywords: Mise en œuvre d’Analytics
-seo-description: Les services ou réseaux de diffusion de contenu (CDN), tels que Speedera et Akamai, poussent le contenu Web plus près du bord du réseau. Par conséquent, les documents qui font l’objet de demandes fréquentes restent à proximité de l’emplacement d’accès.
-seo-title: Services et réseaux de diffusion de contenu
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Résolution des problèmes
+subtopic: Troubleshooting
 title: Services et réseaux de diffusion de contenu
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 6cb57c59-d0f9-4ca5-9f15-0e74e585a4a1
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
