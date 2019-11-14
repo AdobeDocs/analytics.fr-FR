@@ -1,13 +1,11 @@
 ---
 description: Comptées lorsque le même nom de page est chargé deux fois. Indique généralement que la page a été actualisée.
-seo-description: Comptées lorsque le même nom de page est chargé deux fois. Indique généralement que la page a été actualisée.
-seo-title: Actualisations
 solution: Analytics
 title: Actualisations
-topic: Mesures
+topic: Metrics
 uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
