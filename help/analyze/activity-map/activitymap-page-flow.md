@@ -1,13 +1,11 @@
 ---
 description: L’onglet Détails de la page affiche le rapport Page en tant que tableau et le rapport Flux de page en tant que rapport « papillon ».
-seo-description: L’onglet Détails de la page affiche le rapport Page en tant que tableau et le rapport Flux de page en tant que rapport « papillon ».
-seo-title: Détails de la page
 solution: Analytics
 title: Détails de la page
-topic: Activity Map
+topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: ht
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
