@@ -1,14 +1,12 @@
 ---
 description: La fonction s_gi() sert à créer ou rechercher votre instance AppMeasurement par identifiant de suite de rapports. En interne, AppMeasurement effectue le suivi de toutes les instances créées, tandis que la fonction s_gi() renvoie l’instance existante pour une suite de rapports, le cas échéant. S’il n’existe aucune instance, une nouvelle instance est créée et renvoyée.
-keywords: Mise en œuvre d’Analytics
-seo-description: La fonction s_gi() sert à créer ou rechercher votre instance AppMeasurement par identifiant de suite de rapports. En interne, AppMeasurement effectue le suivi de toutes les instances créées, tandis que la fonction s_gi() renvoie l’instance existante pour une suite de rapports, le cas échéant. S’il n’existe aucune instance, une nouvelle instance est créée et renvoyée.
-seo-title: Fonction s_gi()
+keywords: Analytics Implementation
 solution: Analytics
 title: Fonction s_gi()
-topic: Développeur et mise en œuvre
-uuid: a77de90e-c60e-4946-90cf-sourd8aa3d755
+topic: Developer and implementation
+uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 La fonction s_gi() sert à créer ou rechercher votre instance AppMeasurement par identifiant de suite de rapports. En interne, AppMeasurement effectue le suivi de toutes les instances créées, tandis que la fonction s_gi() renvoie l’instance existante pour une suite de rapports, le cas échéant. S’il n’existe aucune instance, une nouvelle instance est créée et renvoyée.
 
-We recommend calling `s_gi()` before setting variables and making tracking calls throughout your page code. Cela permet de garantir l’utilisation de l’objet approprié pour effectuer l’appel de suivi, en cas d’écrasement accidentel de la variable s.
+Il est conseillé d’appeler `s_gi()` avant de définir des variables et d’effectuer des appels de suivi sur tout le code de page. Cela permet de garantir l’utilisation de l’objet approprié pour effectuer l’appel de suivi, en cas d’écrasement accidentel de la variable s.
 
 ## Utilisation de plusieurs suites de rapports {#section_F2F3B76E7AFD4B4B91CDC8BBEB34BBC5}
 
