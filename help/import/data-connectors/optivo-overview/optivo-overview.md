@@ -1,11 +1,9 @@
 ---
 description: Cette intégration associe la puissance du système intégré de commentaires du logiciel de marketing par courrier électronique et la création de rapports comportementaux d’Adobe Analytics afin de créer de puissantes opportunités d’analyse et d’optimisation pour votre entreprise.
-seo-description: Cette intégration associe la puissance du système intégré de commentaires du logiciel de marketing par courrier électronique et la création de rapports comportementaux d’Adobe Analytics afin de créer de puissantes opportunités d’analyse et d’optimisation pour votre entreprise.
-seo-title: optivo® Broadmail Data Connector for Adobe Analytics
 title: optivo® Broadmail Data Connector for Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
