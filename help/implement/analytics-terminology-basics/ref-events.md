@@ -1,14 +1,12 @@
 ---
 description: Les événements suivent le moment où un visiteur a réalisé une action spécifiée.
-keywords: Mise en œuvre d’Analytics;événement;événement de succès;événement de devise;événement personnalisé
-seo-description: Les événements suivent le moment où un visiteur a réalisé une action spécifiée.
-seo-title: Événements
+keywords: Analytics Implementation;event;success event;currency event;custom event
 solution: Analytics
 title: Événements
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: d2edd432-60bc-4426-9967-153b713147a1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
