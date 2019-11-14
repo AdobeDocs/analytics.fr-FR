@@ -1,14 +1,12 @@
 ---
 description: Si les autres méthodes d’identification des visiteurs échouent, Adobe définit un cookie de secours ou utilise une combinaison de l’adresse IP et de l’agent utilisateur pour identifier le visiteur.
-keywords: Mise en œuvre d’Analytics
-seo-description: Si les autres méthodes d’identification des visiteurs échouent, Adobe définit un cookie de secours ou utilise une combinaison de l’adresse IP et de l’agent utilisateur pour identifier le visiteur.
-seo-title: Méthodes d’identifiant de secours
+keywords: Analytics Implementation
 solution: Analytics
 title: Méthodes d’identifiant de secours
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: f242d481-81f0-4287-be4f-52fd03eb01fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
