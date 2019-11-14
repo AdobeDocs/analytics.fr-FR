@@ -1,14 +1,12 @@
 ---
 description: Découvrez de quelle façon les visites sur votre site web deviennent un rapport dans Adobe Analytics.
-keywords: Mise en œuvre d’Analytics;collecter;collecte de données
-seo-description: Découvrez de quelle façon les visites sur votre site web deviennent un rapport dans Adobe Analytics.
-seo-title: Collecte de données
+keywords: Analytics Implementation;data collection
 solution: Analytics
 title: Collecte de données
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
