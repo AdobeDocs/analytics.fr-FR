@@ -1,13 +1,11 @@
 ---
-description: Les mesures personnalisées permettent d’effectuer le suivi d’autres mesures de succès sur votre site.
-seo-description: Les mesures personnalisées vous permettent d’appliquer d’autres mesures de réussite sur votre site.
-seo-title: Mesures personnalisées
+description: Les mesures personnalisées vous permettent d’appliquer d’autres mesures de réussite sur votre site.
 solution: Analytics
 title: Mesures personnalisées
-topic: Mesures
+topic: Metrics
 uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
