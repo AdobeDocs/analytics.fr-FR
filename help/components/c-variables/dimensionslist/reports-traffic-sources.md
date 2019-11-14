@@ -1,13 +1,11 @@
 ---
 description: Affichent des informations sur les pages Web qui orientent le trafic vers votre site. Vous pouvez ainsi identifier les moteurs de recherche et sites Web en dehors de votre domaine qui conduisent les visiteurs vers votre site.
-seo-description: Affichent des informations sur les pages Web qui orientent le trafic vers votre site. Vous pouvez ainsi identifier les moteurs de recherche et sites Web en dehors de votre domaine qui conduisent les visiteurs vers votre site.
-seo-title: Sources de trafic
 solution: Analytics
 title: Sources de trafic
-topic: Rapports
+topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
