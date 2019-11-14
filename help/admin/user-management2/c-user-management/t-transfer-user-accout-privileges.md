@@ -1,14 +1,12 @@
 ---
 description: Étapes décrivant de quelle façon attribuer des éléments de compte d’utilisateur (tableaux de bord, mesures calculées, événements de calendrier, alertes, signets, segments, projets Analysis Workspace et projets programmés) d’un compte d’utilisateur à un autre.
-seo-description: Étapes décrivant de quelle façon attribuer des éléments de compte d’utilisateur (tableaux de bord, mesures calculées, événements de calendrier, alertes, signets, segments, projets Analysis Workspace et projets programmés) d’un compte d’utilisateur à un autre.
-seo-title: Transfert des éléments d’un compte d’utilisateur
 solution: Analytics
-subtopic: Utilisateurs et groupes
+subtopic: Users and groups
 title: Transfert des éléments d’un compte d’utilisateur
-topic: Outils d’administration
-uuid: b 083 c 622-1397-45 ab -8796-f 7 cdc 7043 ec 6
+topic: Admin tools
+uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,5 +30,5 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 
    >[!NOTE]
    >
-   >Publicité - Les ressources d'analyses ad hoc ne peuvent pas être transférées. Si votre organisation utilise plusieurs sociétés de connexion, vous ne pouvez rien transférer entre les sociétés de connexion.
+   >Les ressources des analyses ad hoc ne peuvent pas être transférées. Si votre organisation utilise plusieurs sociétés de connexion, vous ne pouvez rien transférer entre les sociétés de connexion.
 
