@@ -1,13 +1,11 @@
 ---
 description: En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer comment les visiteurs ont trouvé votre site pour chaque visite.
-seo-description: En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer comment les visiteurs ont trouvé votre site pour chaque visite.
-seo-title: Type de référent
 solution: Analytics
 title: Type de référent
-topic: Rapports
+topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
