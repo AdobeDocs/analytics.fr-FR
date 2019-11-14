@@ -1,13 +1,11 @@
 ---
 description: Définit des paramètres courants pour les banques et autres institutions qui fournissent un accès à des services en ligne.
-seo-description: Définit des paramètres courants pour les banques et autres institutions qui fournissent un accès à des services en ligne.
-seo-title: Services financiers
 solution: Analytics
 title: Services financiers
-topic: Outils d’administration
+topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
