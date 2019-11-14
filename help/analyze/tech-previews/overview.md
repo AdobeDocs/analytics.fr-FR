@@ -1,10 +1,8 @@
 ---
 title: Guide de l'utilisateur Labs
-seo-title: Laboratoires pour Adobe Analytics
-description: Aperçu de projets prototype pour Adobe Analytics
-seo-description: Aperçu des prototypes pour Adobe Analytics
+description: Aperçu de projets de prototype pour Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -12,61 +10,61 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 # Guide de l'utilisateur Labs
 
->[!NOTE] Labs est actuellement disponible en tant qu'accès anticipé à un nombre limité de clients, mais sera largement publié ultérieurement.
+>[!NOTE] Labs est actuellement commercialisé en tant qu’accès anticipé à un nombre limité de clients, mais sera ensuite largement diffusé.
 
-Labs permet un prototypage plus rapide des idées précoces. Il s'agit d'une combinaison d'outils et de processus qui accélère le développement de manière transparente, avec une cible d'action du client. Il permet aux utilisateurs d'interagir avec les technologies émergentes, de découvrir des informations précieuses et d'influencer le développement et les priorités des fonctionnalités futures. Vous pouvez utiliser Labs pour accéder rapidement aux innovations Analytics et évaluer les fonctionnalités à venir dans le contexte de vos propres cas d'utilisation et de vos données.
+Les laboratoires permettent un prototypage plus rapide des idées des débuts. Il s’agit d’une combinaison d’outils et de processus qui accélère le développement de manière transparente, en mettant l’accent sur le client. Il permet aux utilisateurs de s'engager dans les nouvelles technologies, de découvrir des informations précieuses et d'influencer le développement et les priorités futurs des fonctionnalités. Vous pouvez utiliser les laboratoires pour accéder rapidement aux innovations d’Analytics et pour évaluer les fonctionnalités à venir dans le contexte de vos propres cas d’utilisation et données d’entreprise.
 
 ## Conditions
 
-Les laboratoires sont automatiquement activés pour tous les administrateurs. Les autres membres de l'équipe doivent contacter leurs administrateurs de produit et demander l'accès.
+Les laboratoires sont automatiquement activés pour tous les administrateurs. Les autres membres de l’équipe doivent contacter les administrateurs de leurs produits et demander un accès.
 
-Si ce n'est pas déjà fait, lisez et signez les formulaires et conditions d'accord et conditions applicables applicables.
+Si vous ne l'avez pas déjà fait, lisez et signez les formulaires d'entente de non-divulgation et de conditions générales applicables.
 
 ## Accès au portail Labs
 
 Pour accéder aux laboratoires :
 
-1. Si vous n'avez pas encore accès à Workspace et Labs, demandez à votre administrateur des autorisations.
+1. Si vous n’avez pas encore accès à Workspace et aux laboratoires, demandez à votre administrateur des autorisations.
 
 1. Click the **Labs** tab.
 
-## Evaluation d'un prototype
+## Évaluation d’un prototype
 
 Pour lancer et évaluer un prototype :
 
-1. Dans l'écran Labs, cliquez sur le **bouton Lancer** du prototype à afficher. Une fois le prototype lancé, son nom s'affiche dans l'angle supérieur gauche de l'environnement prototype.
+1. Dans l’écran Laboratoires, cliquez sur le bouton **Lancer** du prototype à afficher. Lorsque le prototype est lancé, son nom apparaît dans l’angle supérieur gauche de l’environnement du prototype.
 
    ![nom du prototype](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Regardez une vidéo qui met en évidence le prototype en cliquant **sur Regarder la vidéo** dans l'angle supérieur droit de l'écran. Cliquez sur le **bouton Fermer** lorsque la vidéo est terminée.
+1. Regardez une vidéo qui met en évidence le prototype en cliquant sur **Regarder la vidéo** dans l'angle supérieur droit de l'écran. Cliquez sur le bouton **Fermer** lorsque la vidéo est terminée.
 
-   ![options d'aperçu](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
+   ![options d’aperçu](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. Travaillez avec le prototype. Lorsque vous travaillez dans l'environnement prototype :
+1. Travaillez avec le prototype. Lorsque vous travaillez dans l’environnement du prototype :
 
-* Les projets créés dans l'environnement prototype ne peuvent pas être enregistrés ni partagés.
+* Les projets créés dans l’environnement prototype ne peuvent pas être enregistrés ni partagés.
 
-* Dans un prototype, vous pouvez évaluer les données avec les dimensions, mesures, segments et visualisations auxquels vous avez autrement accès dans Workspace.
+* Dans un prototype, vous pouvez évaluer les données avec les dimensions, les mesures, les segments et les visualisations auxquels vous avez autrement accès dans Workspace.
 
-* Toute modification apportée à un prototype n'aura aucune incidence sur la collecte ou le traitement des données.
+* Les modifications que vous apportez dans un prototype n’affectent pas la collecte ou le traitement des données.
 
-* Les modifications effectuées par la création ou la modification de segments, de mesures calculées et d'alertes persistent en dehors de l'environnement prototype.
+* Les modifications apportées par la création ou la modification de segments, de mesures calculées et d’alertes persistent en dehors de l’environnement prototype.
 
-## Conservez les commentaires
+## Laissez vos commentaires
 
-1. Cliquez sur le bouton **Donner des commentaires** pour commenter la zone de message à tout moment lorsque vous travaillez avec le prototype.
+1. Cliquez sur le bouton **Donner des commentaires** pour fournir des commentaires dans la boîte de message à tout moment lorsque vous travaillez avec le prototype.
 
-   ![feedback_ box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
+   ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
-1. Cliquez **sur Envoyer** pour envoyer vos commentaires.
+1. Cliquez sur **Envoyer** pour envoyer vos commentaires.
 
-1. Pour tester un prototype différent ou quitter l'environnement prototype, cliquez sur le **bouton Quitter prototype** dans l'angle supérieur droit de l'écran et complétez la courte enquête du prototype. Toutes les modifications apportées à un projet prototype sont perdues lors de la fermeture de l'environnement prototype.
+1. Pour essayer un autre prototype ou quitter l'environnement du prototype, cliquez sur le bouton **Quitter le prototype** dans l'angle supérieur droit de l'écran et effectuez la courte enquête pour le prototype. Toute modification apportée à un projet prototype est perdue à la sortie de l’environnement prototype.
 
-   ![nouvelle zone de commentaires](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![nouvelle boîte de commentaires](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
-1. Cliquez **sur Envoyer** pour revenir au portail des aperçus principaux.
+1. Cliquez sur **Envoyer** pour revenir au portail des aperçus principal.
 
 ## Informations supplémentaires
 
-* Certains prototypes des laboratoires deviennent des fonctionnalités Analytics, d'autres pas. Vos commentaires guident la décision. Ainsi, passez en revue les prototypes et indiquez à Adobe combien vous les recherchez.
+* Certains prototypes dans Labs deviennent des fonctionnalités Analytics, d’autres non. Vos commentaires guident la décision. Examinez donc les prototypes et faites savoir à Adobe à quel point ils sont précieux.
 * Labs est disponible pour tous les droits SKU.
