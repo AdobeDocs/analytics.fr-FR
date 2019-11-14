@@ -1,13 +1,11 @@
 ---
 description: Description des champs et informations sur les variables lors de l’utilisation de Dynamic Tag Management pour déployer Adobe Analytics.
-keywords: Dynamic Tag Management;variables globales;variable server;evar;propriétés;préfixe de variable dynamique;variable dynamique
-seo-description: Description des champs et informations sur les variables lors de l’utilisation de Dynamic Tag Management pour déployer Adobe Analytics.
-seo-title: Variables globales
+keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Variables globales
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
