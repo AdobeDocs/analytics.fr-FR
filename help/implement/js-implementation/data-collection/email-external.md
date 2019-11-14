@@ -1,14 +1,12 @@
 ---
 description: Les sociétés utilisent Analytics pour déterminer le succès d’une campagne par courrier électronique.
-keywords: Mise en œuvre d’Analytics
-seo-description: Les sociétés utilisent Analytics pour déterminer le succès d’une campagne par courrier électronique.
-seo-title: Suivi des courriers électroniques externes
+keywords: Analytics Implementation
 solution: Analytics
 title: Suivi des courriers électroniques externes
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
