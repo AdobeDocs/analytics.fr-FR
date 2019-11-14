@@ -1,13 +1,11 @@
 ---
 description: Décrit la manière dont le créateur de rapports prend en charge les rapports de cheminement et d’abandons et en quoi l’implémentation diffère des rapports et analyses.
-seo-description: Décrit la manière dont le créateur de rapports prend en charge les rapports de cheminement et d’abandons et en quoi l’implémentation diffère des rapports et analyses.
-seo-title: Rapports Chemin et Abandon de chemin dans Report Builder
 solution: Analytics
 title: Rapports Chemin et Abandon de chemin dans Report Builder
-topic: Créateur de rapports
+topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
