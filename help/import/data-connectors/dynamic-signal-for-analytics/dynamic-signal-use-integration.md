@@ -1,12 +1,10 @@
 ---
 description: valeur nulle
-seo-description: valeur nulle
-seo-title: Utilisation de l’intégration
 solution: Analytics
 title: Utilisation de l’intégration
 uuid: c902a868-20a7-42df-8a79-8e154608f299
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -47,7 +45,7 @@ Répertorie les dimensions de rapport Signal dynamique incluses dans cette inté
 | ID d’article | L’ID d’article identifie de manière unique chaque élément de contenu de la communauté de signaux dynamiques. |
 | Type de source | Ce champ indique si la publication a été créée par un membre ou une marque. Notez que dans les deux cas, le contenu peut être créé manuellement dans l’application ou importé à partir d’un flux externe. |
 | Nom d’utilisateur | Utilisateur qui a partagé une publication sur son ou ses réseaux sociaux, générant des clics publicitaires vers votre site. |
-| ID source | L’ID source identifie de manière unique le créateur (ou l’auteur) de la publication partagée. Il s’agit le plus souvent d’un membre particulier ou d’un flux externe. |
+| ID Source | L’ID source identifie de manière unique le créateur (ou l’auteur) de la publication partagée. Il s’agit le plus souvent d’un membre particulier ou d’un flux externe. |
 | Identifiant utilisateur | L’ID utilisateur identifie de manière unique un utilisateur (c.-à-d. un membre) de la communauté du signal dynamique. Dans ce cas, l’utilisateur est le responsable du partage de la publication sur son ou ses réseaux sociaux. |
 | Nom de la source | La source est le créateur (ou l’auteur) de la publication partagée. Dans la plupart des cas, il s’agit d’un membre de la communauté ou d’un flux externe. |
 | Titre de l’article | Titre de la publication partagée qui a généré des clics vers votre site. |
