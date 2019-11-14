@@ -1,11 +1,9 @@
 ---
 description: La comparaison de dates dans Analysis Workspace vous permet de prendre n’importe quelle colonne contenant une plage de dates et de créer une comparaison de dates commune, telle qu’une année sur l’autre, un trimestre sur un trimestre, un mois sur un mois, etc.
-seo-description: La comparaison de dates dans Analysis Workspace vous permet de prendre n’importe quelle colonne contenant une plage de dates et de créer une comparaison de dates commune, telle qu’une année sur l’autre, un trimestre sur un trimestre, un mois sur un mois, etc.
-seo-title: Comparaison des dates
 title: Comparaison des dates
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
