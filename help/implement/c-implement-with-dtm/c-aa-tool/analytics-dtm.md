@@ -1,14 +1,12 @@
 ---
 description: Déployez Adobe Analytics à l’aide de Dynamic Tag Management en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
-keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;outil analytics;propriété;type d’outil;nom d’outil;méthode de configuration;analytics premium;evars;événements
-seo-description: Déployez Adobe Analytics à l’aide de Dynamic Tag Management en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
-seo-title: Ajout de l’outil Adobe Analytics
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
 solution: Analytics
 title: Ajout de l’outil Adobe Analytics
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -54,8 +52,8 @@ Déployez Adobe Analytics à l’aide de Dynamic Tag Management en créant l’
   <tr> 
    <td colname="col2"> <p> <b>Manuel</b> : permet de gérer le code AppMeasurement manuellement. Vous pouvez télécharger le code <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span> depuis <span class="ignoretag"><span class="uicontrol">Outils d’administration</span> &gt; <span class="uicontrol">Gestionnaire de code</span></span>. </p> <p>Cliquez sur <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript (nouveau)</a> pour obtenir des informations sur le téléchargement du code en local afin de le copier et le coller dans le champ <span class="wintitle">Modifier le code</span> de <a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md">Gestion des bibliothèques</a>. </p> <p>Renseignez les champs spécifiques à une configuration manuelle : </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
-     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID du compte de production :</b> (obligatoire) compte de production pour la collecte des données. Pour Analytics, il s’agit de l’identifiant de votre suite de rapports. Dynamic Tag Management installe automatiquement le compte correct dans l’environnement de production et d’évaluation. </p> </li> 
-     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID du compte d’évaluation :</b> (obligatoire) utilisé dans l’environnement de développement ou de test. Pour Analytics, il s’agit de l’identifiant de votre suite de rapports. Un compte d’évaluation permet de séparer vos données de test de l’environnement de production. </p> </li> 
+     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID du compte de production :</b> (obligatoire) compte de production pour la collecte des données. Pour Analytics, il s’agit de votre identifiant de suite de rapports. Dynamic Tag Management installe automatiquement le compte correct dans l’environnement de production et d’évaluation. </p> </li> 
+     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID du compte d’évaluation :</b> (obligatoire) utilisé dans l’environnement de développement ou de test. Pour Analytics, il s’agit de votre identifiant de suite de rapports. Un compte d’évaluation permet de séparer les données de test de la production. </p> </li> 
      <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Serveur de suivi  :</b> indiquez les informations relatives au serveur de suivi  </p> <p>Les variables <span class="wintitle">Serveur de suivi</span> et <span class="wintitle">Serveur de suivi SSL</span> sont utilisées pour l’implémentation des cookies propriétaires afin de spécifier le domaine sur lequel la demande d’image et le cookie sont écrits. Pour plus d’informations, voir l’article <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html">Définition correcte des variables trackingServer et trackingServerSecure</a>. </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>Serveur de suivi SSL :</b> indiquez les informations relatives au serveur de suivi SSL. </p> </li> 
     </ul> </td> 
