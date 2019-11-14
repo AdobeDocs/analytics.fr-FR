@@ -1,14 +1,12 @@
 ---
 description: Les canaux marketing sont généralement utilisés pour savoir comment les visiteurs sont parvenus sur votre site. Vous pouvez personnaliser des règles de traitement de canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
-seo-description: Les canaux marketing sont généralement utilisés pour savoir comment les visiteurs sont parvenus sur votre site. Vous pouvez personnaliser des règles de traitement de canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
-seo-title: Prise en main des canaux marketing
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: Prise en main des canaux marketing
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,7 +42,7 @@ Voir [Ajout de canaux](/help/components/c-marketing-channels/c-channels.md) mark
 
 >[!NOTE]
 >
-> Si les canaux marketing n’ont pas été configurés précédemment, la configuration [](/help/components/c-marketing-channels/c-channel-autosetup.md) automatique s’affiche. Elle propose plusieurs canaux préconfigurés que vous pouvez personnaliser. Adobe recommande d’utiliser ces règles en tant que modèle. Si vous disposez toutefois de définitions de canaux fiables, vous pouvez ignorer la configuration automatique.
+>Si les canaux marketing n’ont pas été configurés précédemment, la configuration [](/help/components/c-marketing-channels/c-channel-autosetup.md) automatique s’affiche. Elle propose plusieurs canaux préconfigurés que vous pouvez personnaliser. Adobe recommande d’utiliser ces règles en tant que modèle. Si vous disposez toutefois de définitions de canaux fiables, vous pouvez ignorer la configuration automatique.
 
 ![](assets/step3_icon.png) Configurer ou affiner les règles de chaque canal sur la page [!UICONTROL Règles de traitement des canaux marketing].
 
