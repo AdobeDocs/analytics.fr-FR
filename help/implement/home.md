@@ -1,10 +1,8 @@
 ---
 title: Mise en oeuvre d’Analytics pour les périphériques mobiles
-seo-title: Mise en oeuvre d’Analytics pour les périphériques mobiles
 description: valeur nulle
-seo-description: valeur nulle
 translation-type: tm+mt
-source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
