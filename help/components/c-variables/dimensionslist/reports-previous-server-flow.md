@@ -1,13 +1,11 @@
 ---
 description: Ce rapport montre les données de navigation entre les serveurs de votre site. Lorsque vous sélectionnez le nom d’un serveur du site, le rapport indique le nombre de visiteurs qui ont navigué vers ce serveur à partir de chacun des autres serveurs de votre site dans le cadre d’une visite unique ou entre plusieurs visites.
-seo-description: Ce rapport montre les données de navigation entre les serveurs de votre site. Lorsque vous sélectionnez le nom d’un serveur du site, le rapport indique le nombre de visiteurs qui ont navigué vers ce serveur à partir de chacun des autres serveurs de votre site dans le cadre d’une visite unique ou entre plusieurs visites.
-seo-title: Flux de serveur précédent
 solution: Analytics
 title: Flux de serveur précédent
-topic: Présentation
-uuid: 19521 f 5 b -81 fc -41 d 7-928 d -9 b 6 e 5 b 5 a 77 ed
+topic: Reports
+uuid: 19521f5b-81fc-41d7-928d-9b6e5b5a77ed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
