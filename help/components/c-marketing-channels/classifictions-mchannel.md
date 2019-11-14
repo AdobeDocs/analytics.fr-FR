@@ -1,14 +1,12 @@
 ---
 description: Utilisez des classifications pour classer les valeurs en groupes apparentés et pour créer des rapports au niveau du groupe. Vous pouvez, par exemple, classer toutes les campagnes de recherche payante dans une catégorie telle que Cartes vidéo. Vous pouvez ensuite créer un rapport sur le succès de cette catégorie par rapport à des mesures du type Instances (ou Clics publicitaires).
-seo-description: Utilisez des classifications pour classer les valeurs en groupes apparentés et pour créer des rapports au niveau du groupe. Vous pouvez, par exemple, classer toutes les campagnes de recherche payante dans une catégorie telle que Cartes vidéo. Vous pouvez ensuite créer un rapport sur le succès de cette catégorie par rapport à des mesures du type Instances (ou Clics publicitaires).
-seo-title: Classifications des canaux marketing
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: Classifications des canaux marketing
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
