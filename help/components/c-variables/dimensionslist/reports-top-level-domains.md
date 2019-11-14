@@ -1,13 +1,11 @@
 ---
 description: Montre l’impact des clients provenant de différents pays sur les mesures de succès. Cette dimension identifie les régions du monde d’où proviennent les visiteurs de votre site sur la base de l’extension de leur domaine d’origine.
-seo-description: Montre l’impact des clients provenant de différents pays sur les mesures de succès. Cette dimension identifie les régions du monde d’où proviennent les visiteurs de votre site sur la base de l’extension de leur domaine d’origine.
-seo-title: Domaines de haut niveau
 solution: Analytics
 title: Domaines de haut niveau
-topic: Rapports
+topic: Reports
 uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
