@@ -1,14 +1,12 @@
 ---
 description: La variable de conversion Aperçu personnalisé (ou eVar) est placée dans le code Adobe sur les pages web sélectionnées de votre site. Son principal objectif est de segmenter les mesures de succès de conversion dans les rapports marketing personnalisés.
-keywords: Mise en œuvre d’Analytics;eVar;variable de conversion;valeur eVar;conversion;événement de succès
-seo-description: La variable de conversion Aperçu personnalisé (ou eVar) est placée dans le code Adobe sur les pages web sélectionnées de votre site. Son principal objectif est de segmenter les mesures de succès de conversion dans les rapports marketing personnalisés.
-seo-title: Variables de conversion (eVars)
+keywords: Analytics Implementation;eVar;conversion variable;eVar value;conversion;success event
 solution: Analytics
 title: Variables de conversion (eVars)
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
