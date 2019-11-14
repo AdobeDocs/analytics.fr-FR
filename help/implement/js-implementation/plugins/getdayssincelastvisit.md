@@ -1,15 +1,13 @@
 ---
 description: Détermine le nombre de jours depuis la dernière visite de l’utilisateur sur votre site et capture ces informations dans une variable Analytics.
-keywords: Mise en œuvre d’Analytics
-seo-description: Détermine le nombre de jours depuis la dernière visite de l’utilisateur sur votre site et capture ces informations dans une variable Analytics.
-seo-title: getDaysSinceLastVisit
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Modules externes
+subtopic: Plug-ins
 title: getDaysSinceLastVisit
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
