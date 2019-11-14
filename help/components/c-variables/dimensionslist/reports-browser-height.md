@@ -1,13 +1,11 @@
 ---
 description: Mesure de la distance verticale des données dans la fenêtre du navigateur uniquement. Les barres d’outils, menus, boutons, etc., ne font pas partie de la dimension de hauteur du navigateur.
-seo-description: Mesure de la distance verticale des données dans la fenêtre du navigateur uniquement. Les barres d’outils, menus, boutons, etc., ne font pas partie de la dimension de hauteur du navigateur.
-seo-title: Hauteur du navigateur
 solution: Analytics
 title: Hauteur du navigateur
-topic: Rapports
+topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
