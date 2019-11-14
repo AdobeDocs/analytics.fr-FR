@@ -1,13 +1,11 @@
 ---
 description: Procédure à suivre pour l’installation du Créateur de rapports.
-seo-description: Procédure à suivre pour l’installation du Créateur de rapports.
-seo-title: Installation de Report Builder
 solution: Analytics
 title: Installation de Report Builder
-topic: Créateur de rapports
+topic: Report builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
