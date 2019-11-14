@@ -1,13 +1,11 @@
 ---
 description: De même que vous copiez et collez des requêtes, vous pouvez déplacer des requêtes dans la feuille de calcul en sélectionnant Couper la requête dans le menu contextuel.
-seo-description: De même que vous copiez et collez des requêtes, vous pouvez déplacer des requêtes dans la feuille de calcul en sélectionnant Couper la requête dans le menu contextuel.
-seo-title: Copie de requêtes adjacentes
 solution: Analytics
 title: Copie de requêtes adjacentes
-topic: Créateur de rapports
+topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
