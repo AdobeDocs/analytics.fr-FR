@@ -1,15 +1,13 @@
 ---
 description: La fonction s.t() compile toutes les variables définies sur la page dans une demande d’image et l’envoie aux serveurs Adobe.
-keywords: suivre;mise en œuvre d’Analytics;suivi des pages;suivre une page
-seo-description: La fonction s.t() compile toutes les variables définies sur la page dans une demande d’image et l’envoie aux serveurs Adobe.
-seo-title: Fonction s.t() – Suivi des pages
+keywords: track;Analytics Implementation;page tracking;track page
 solution: Analytics
-subtopic: Fonctions
+subtopic: Functions
 title: Fonction s.t() – Suivi des pages
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 67696e46-1e0d-4200-bfad-4217d1023948
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
