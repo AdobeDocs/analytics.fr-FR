@@ -1,11 +1,9 @@
 ---
 title: Mises à jour de la documentation Adobe Analytics
 description: Mises à jour de la documentation technique pour Adobe Analytics
-seo-title: Mises à jour de la documentation Adobe Analytics
-seo-description: Mises à jour de la documentation Adobe Analytics
-short-title: Mises à jour de la documentation Analytics
+short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
