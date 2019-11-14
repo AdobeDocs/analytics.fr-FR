@@ -1,13 +1,11 @@
 ---
 description: Description de la procédure par laquelle les administrateurs peuvent activer l’accès aux rapports de Data Warehouse pour un groupe d’utilisateurs.
-seo-description: Description de la procédure par laquelle les administrateurs peuvent activer l’accès aux rapports de Data Warehouse pour un groupe d’utilisateurs.
-seo-title: Ajouter un groupe d’utilisateurs de l’Data Warehouse
 solution: Analytics
 title: Ajouter un groupe d’utilisateurs de l’Data Warehouse
-topic: Data Warehouse
+topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
