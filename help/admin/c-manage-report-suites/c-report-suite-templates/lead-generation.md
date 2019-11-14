@@ -1,13 +1,11 @@
 ---
-description: Définit des paramètres courants pour un site web qui fournit des informations sur des services et produits vendus généralement par le biais d’un engagement plus poussé.
-seo-description: Définit des paramètres courants pour un site Web qui fournit des informations sur des services et produits vendus généralement par le biais d’un engagement plus poussé.
-seo-title: Génération de pistes
+description: Définit des paramètres courants pour un site Web qui fournit des informations sur des services et produits vendus généralement par le biais d’un engagement plus poussé.
 solution: Analytics
 title: Génération de pistes
-topic: Outils d’administration
+topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
