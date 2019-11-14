@@ -1,14 +1,12 @@
 ---
 description: Ces informations s’adressent aux utilisateurs expérimentés qui maîtrisent à la fois les opérations de création de rapports et d’implémentation. N’apportez des modifications à votre implémentation que si vous êtes parfaitement conscient des conséquences. Si des changements d’implémentation s’avèrent nécessaires, contactez le responsable de compte de votre entreprise.
-keywords: Mise en œuvre d’Analytics
-seo-description: Ces informations s’adressent aux utilisateurs expérimentés qui maîtrisent à la fois les opérations de création de rapports et d’implémentation. N’apportez des modifications à votre implémentation que si vous êtes parfaitement conscient des conséquences. Si des changements d’implémentation s’avèrent nécessaires, contactez le responsable de compte de votre entreprise.
-seo-title: Suivi sur différents types de mises en œuvre
+keywords: Analytics Implementation
 solution: Analytics
 title: Suivi sur différents types de mises en œuvre
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
