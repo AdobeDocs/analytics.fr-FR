@@ -1,13 +1,11 @@
 ---
 description: Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Ainsi, vous disposez d’une plus grande souplesse lors de la mise à jour des requêtes du Créateur de rapports.
-seo-description: Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Ainsi, vous disposez d’une plus grande souplesse lors de la mise à jour des requêtes du Créateur de rapports.
-seo-title: Contrôles interactifs
 solution: Analytics
 title: Contrôles interactifs
-topic: Créateur de rapports
+topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
