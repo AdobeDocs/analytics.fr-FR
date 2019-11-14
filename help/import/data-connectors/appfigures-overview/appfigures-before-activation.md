@@ -1,11 +1,9 @@
 ---
 description: Avant d’activer cette intégration, comparez les éléments suivants à vos déploiements d’Adobe Analytics® et de votre logiciel de messagerie électronique.
-seo-description: Avant d’activer cette intégration, comparez les éléments suivants à vos déploiements d’Adobe Analytics® et de votre logiciel de messagerie électronique.
-seo-title: Avant D’Activer Cette Intégration
 title: Avant D’Activer Cette Intégration
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ Cela permettra de s’assurer que les meilleures pratiques ou les conditions pr�
 
 Consultez les informations suivantes sur l’intégration de ces connecteurs de données en ce qui concerne Adobe Analytics :
 
-* **** Spécifique à une Report Suite :Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports souhaitée avant d’activer l’intégration et que la suite de rapports contient des données.
+* **** Spécifique à une Report Suite : Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports souhaitée avant d’activer l’intégration et que la suite de rapports contient des données.
 * **** Variables Analytics disponibles et configurées : Cette intégration requiert 10 événements personnalisés et 1 eVar personnalisée. Voir Variables [d’intégration](appfigures-before-activation.md#analytics-integration-variables)Analytics.
 
 * **** Suite de rapports initialisée avec les données en direct : Si vous créez une toute nouvelle suite de rapports pour cette intégration, elle doit avoir reçu certaines données (au moins un accès) via les exigences d’appFigures de suivi en direct. Si les données en direct n’ont pas été enregistrées, la suite de rapports ne sera pas prête à recevoir les données de l’App Store intégrées.
