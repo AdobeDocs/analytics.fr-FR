@@ -1,14 +1,12 @@
 ---
 description: Les clics publicitaires représentent a) des instances de campagne et b) des instances de canal marketing.
-keywords: Campagnes vues
-seo-description: Les clics publicitaires représentent a) des instances de campagne et b) des instances de canal marketing.
-seo-title: Clics publicitaires
+keywords: Campaign Views
 solution: Analytics
 title: Clics publicitaires
-topic: Mesures
-uuid: da 605430-24 aa -4713-a 5 c 3-735 fac 0 a 3441
+topic: Metrics
+uuid: da605430-24aa-4713-a5c3-735fac0a3441
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
