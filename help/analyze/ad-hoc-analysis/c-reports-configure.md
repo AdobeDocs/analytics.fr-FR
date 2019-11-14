@@ -1,11 +1,9 @@
 ---
 description: Cette section présente les différentes opérations que vous pouvez effectuer sur un rapport, comme par exemple configurer des graphiques, diagrammes et ventilations, ou encore extraire des données.
-seo-description: Cette section présente les différentes opérations que vous pouvez effectuer sur un rapport, comme par exemple configurer des graphiques, diagrammes et ventilations, ou encore extraire des données.
-seo-title: Configuration des rapports existants
 title: Configuration des rapports existants
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
