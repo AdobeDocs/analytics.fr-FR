@@ -1,16 +1,14 @@
 ---
 description: Une liste complète et des descriptions des variables de configuration, des en-têtes HTTP et des signaux de données dans les appels au transfert côté serveur.
-seo-description: Une liste complète et des descriptions des variables de configuration, des en-têtes HTTP et des signaux de données dans les appels au transfert côté serveur.
-seo-title: Transfert de données et de référence côté serveur
-title: Transfert de données et de référence côté serveur
-uuid: 3 eb 3 ea 0 f-a 530-448 d-bba 5-6408 b 2490 dc 8
+title: Données et référence de code du transfert côté serveur
+uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Transfert de données et de référence côté serveur
+# Données et référence de code du transfert côté serveur
 
 Une liste complète et des descriptions des variables de configuration, des en-têtes HTTP et des signaux de données dans les appels au transfert côté serveur.
 
@@ -20,8 +18,8 @@ Parameters prefixed with `d_*` identify special, system-level key-value pairs us
 
 | Paramètre | Description |
 |--- |--- |
-| d_rs | (Gets set with legacy/tracking-server-based server-side forwarding) <br>Set to the report suites passed in with the hit to Analytics. |
-| d_dst_filter | (Gets set with report-suite-based server-side forwarding)  <br>Set to the report suite IDs passed in with the hit to Analytics. |
+| d_rs | (Obtient la valeur définie avec le transfert hérité/serveur basé sur le serveur) <br>Définissez les suites de rapports transmises avec l’accès à Analytics. |
+| d_dst_filter | (Obtient la valeur avec le transfert côté serveur basé sur la suite de rapports) <br>Définissez les ID de suite de rapports transmis avec l’accès à Analytics. |
 | d_dst | Définissez d_dst=1<br> si la demande envoyée à Analytics s’attend à ce que du contenu relatif à la destination soit renvoyé au client. |
 | d_mid | Experience Cloud ID transmis à Analytics. |
 
@@ -49,10 +47,10 @@ Parameters prefixed with `c_` identify customer-defined variables. Voir aussi [A
 | c_browserWidth et c_browserHeight | Largeur et hauteur de la fenêtre du navigateur. |
 | c_campaign | Défini par s.campaign . |
 | c_channel | Défini par s.channel . |
-| c_clientDateTime | Horodatage au format jj/mm/aaa : mm : ss W TZ. TZ est exprimé en minutes et correspond au retour de la méthode Date.getTimezoneOffset. |
+| c_clientDateTime | Horodatage au format jj/mm/aaaa hh:mm:ss W TZ .    TZ est exprimé en minutes et correspond au retour de la méthode Date.getTimezoneOffset. |
 | c_colorDepth | Spécifié en tant que couleur 16 ou 32 bits. |
 | c_connectionType | Indique le type de connexion. Les options incluent :<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | Exemples :<ul><li>Appmeasurement : s. contextdata</li><li>[« category »] = « news » ;</li><li>Signal : c_contextData.category=news</li></ul> |
+| c_contextData.* | Exemples:<ul><li>AppMeasurement : s.contextData</li><li>["category"] = "news";</li><li>Signal : c_contextData.category=news</li></ul> |
 | c_cookiesEnabled | Indique si les cookies peuvent être activés. Les options incluent : oui, non, inconnu |
 | c_currencyCode | Type de devise utilisé pour la transaction. |
 | c_evar# | eVars personnalisées |
@@ -61,13 +59,13 @@ Parameters prefixed with `c_` identify customer-defined variables. Voir aussi [A
 | c_javaEnabled | Indique si Java peut être activé. Les options incluent : oui, non, inconnu |
 | c_javaScriptVersion | Version de JavaScript prise en charge par un navigateur. |
 | c_latitude | Latitude numérique |
-| c_linkClick | Les options incluent : sortie personnalisée, sortie |
+| c_linkClick | Les options incluent : personnalisé, télécharger une sortie |
 | c_linkCustomName | Nom personnalisé (le cas échéant) fourni pour le lien. |
 | c_linkDownloadURL | URL des liens de téléchargement. |
 | c_linkExitURL | URL du lien de sortie. |
 | c_list# | Variables de liste personnalisées. |
 | c_longitude | Longitude numérique. |
-| c_mediaPlayerType | Pour les demandes de suivi du flux multimédia. Les options incluent :  other, primetime |
+| c_mediaPlayerType | Pour les demandes de suivi du flux multimédia. Les options incluent :  autre, primetime |
 | c_pageName | Nom de la page (si défini). |
 | c_pageURL | Adresse de la page dans la barre d’adresse du navigateur. |
 | c_products | Chaîne de produit (définie par s.products ). |
