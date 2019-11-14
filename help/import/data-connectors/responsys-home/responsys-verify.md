@@ -1,12 +1,10 @@
 ---
 description: Après le déploiement, vous devez vérifier que l’intégration transfère correctement les données au moyen des vérifications suivantes.
-seo-description: Après le déploiement, vous devez vérifier que l’intégration transfère correctement les données au moyen des vérifications suivantes.
-seo-title: Vérification de l’intégration
 solution: Analytics
 title: Vérification de l’intégration
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,4 +25,4 @@ Après le déploiement, vous devez vérifier que l’intégration transfère cor
 
       ![](assets/reporting.png)
 
-   1. Recherchez la création de rapports Responsys.  Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
+   1. Recherchez la création de rapports Responsys. Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
