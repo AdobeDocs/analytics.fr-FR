@@ -1,13 +1,11 @@
 ---
 description: Description de la procédure d’ajout et d’activation de rapports de variables de trafic.
-seo-description: Description de la procédure d’ajout et d’activation de rapports de variables de trafic.
-seo-title: Activer les rapports de variables de trafic
 solution: Analytics
 title: Activer les rapports de variables de trafic
-topic: Outils d’administration
-uuid: c 4109 da 1-4 d 46-407 c -9 ca 7-cb 22 edaa 68 ba
+topic: Admin tools
+uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
