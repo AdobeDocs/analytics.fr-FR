@@ -1,10 +1,8 @@
 ---
 title: Suppression de robots dans Adobe Analytics
-seo-title: Suppression de robots dans Adobe Analytics
 description: 3 méthodes pour supprimer des robots dans Adobe Analytics
-seo-description: 3 méthodes pour supprimer des robots dans Adobe Analytics
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -34,7 +32,7 @@ En outre, comme les robots se transforment rapidement, Adobe propose plusieurs a
 
 ### Étape 1 : Transférez l’ID Experience Cloud de vos visiteurs dans un nouvel ID déclaré.
 
-Pour commencer, vous souhaiterez créer un nouvel identifiant déclaré dans le service [principal](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)Personnes. Vous devrez transmettre l’ID Experience Cloud de votre visiteur à ce nouvel ID déclaré, qui peut être effectué rapidement et facilement avec le lancement [d’](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)Adobe Experience Platform. Utilisons le nom "ECID" pour l’identifiant déclaré.
+Pour commencer, vous souhaiterez créer un nouvel identifiant déclaré dans le service [principal](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)Personnes. Vous devez transmettre l’ID Experience Cloud de votre visiteur à ce nouvel ID déclaré, qui peut être effectué rapidement et facilement avec le lancement [d’](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)Adobe Experience Platform. Utilisons le nom "ECID" pour l’identifiant déclaré.
 
 ![](assets/bot-cust-attr-setup.png)
 
