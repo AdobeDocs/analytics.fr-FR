@@ -1,14 +1,12 @@
 ---
 description: Table de recherche permettant de déterminer le type d’un accès d’après la valeur page_event.
-keywords: Flux de données;page;event;page_event;post_page_event
-seo-description: Table de recherche permettant de déterminer le type d’un accès d’après la valeur page_event.
-seo-title: Recherche d’événement de page
+keywords: Data Feed;page;event;page_event;post_page_event
 solution: Analytics
 title: Recherche d’événement de page
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +30,7 @@ Table de recherche permettant de déterminer le type d’un accès d’après la
    <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 pour les appels <code> trackState </code> en provenance de kits SDK mobiles </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Suivi des liens </td> 
+   <td colname="col1"> Suivi des liens  </td> 
    <td colname="col02"> <p>10 pour « autre lien » </p> <p>10 pour les appels <code> trackAction </code> et de cycle de vie en provenance de kits SDK mobiles </p> <p>11 pour « lien de téléchargement » </p> <p>12 pour « lien de sortie ou externe » </p> </td> 
    <td colname="col2"> <p>100 pour « autre lien » </p> <p>100 pour les appels <code> trackAction </code> et de cycle de vie en provenance de kits SDK mobiles </p> <p>101 pour « lien de téléchargement » </p> <p>102 pour « lien de sortie ou externe » </p> </td> 
   </tr> 
