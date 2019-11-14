@@ -1,14 +1,12 @@
 ---
 description: La création de rapports Canal marketing vous permet de connaître les recettes générées par vos canaux marketing. Ces rapports fournissent un aperçu de l’allocation des canaux Première touche et Dernière touche, avec des mesures critiques standard, telles que les recettes, les commandes et les coûts.
-seo-description: La création de rapports Canal marketing vous permet de connaître les recettes générées par vos canaux marketing. Ces rapports fournissent un aperçu de l’allocation des canaux Première touche et Dernière touche, avec des mesures critiques standard, telles que les recettes, les commandes et les coûts.
-seo-title: À propos des rapports sur les canaux marketing
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: À propos des rapports sur les canaux marketing
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
 translation-type: tm+mt
-source-git-commit: 2b5e51e76b18980d169a024276fc0aa6b085c248
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
