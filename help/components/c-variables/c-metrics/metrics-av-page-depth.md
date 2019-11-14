@@ -1,13 +1,11 @@
 ---
 description: Affiche le stade auquel chaque valeur a été déclenchée, en moyenne, au sein d’une visite. Cette mesure se révèle particulièrement utile pour déterminer le niveau auquel votre audience a atteint une page ou une valeur de propriété donnée au cours d’une visite. Profondeur moyenne de page est disponible sur toute variable dans laquelle le cheminement est activé.
-seo-description: Affiche le stade auquel chaque valeur a été déclenchée, en moyenne, au sein d’une visite. Cette mesure se révèle particulièrement utile pour déterminer le niveau auquel votre audience a atteint une page ou une valeur de propriété donnée au cours d’une visite. Profondeur moyenne de page est disponible sur toute variable dans laquelle le cheminement est activé.
-seo-title: Profondeur moyenne de page
 solution: Analytics
 title: Profondeur moyenne de page
-topic: Mesures
+topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
