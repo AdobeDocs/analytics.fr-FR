@@ -1,14 +1,12 @@
 ---
 description: Les règles de traitement servent à déplacer des valeurs des variables Données contextuelles vers des props et des eVars.
-seo-description: Les règles de traitement servent à déplacer des valeurs des variables Données contextuelles vers des props et des eVars.
-seo-title: Copier une variable de données contextuelles dans une eVar
 solution: Analytics
-subtopic: Règles de traitement
+subtopic: Processing rules
 title: Copier une variable de données contextuelles dans une eVar
-topic: Outils d’administration
+topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
