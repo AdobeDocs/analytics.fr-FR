@@ -1,13 +1,11 @@
 ---
 description: Procédure de personnalisation d’une date roulante pour votre requête.
-seo-description: Procédure de personnalisation d’une date roulante pour votre requête.
-seo-title: Dates roulantes
 solution: Analytics
 title: Dates roulantes
-topic: Créateur de rapports
+topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
