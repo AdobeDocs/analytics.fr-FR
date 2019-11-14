@@ -1,14 +1,12 @@
 ---
 description: Description de la méthode de comptabilisation des instances sur les variables de marchandisage.
-keywords: Mise en œuvre d’Analytics
-seo-description: Description de la méthode de comptabilisation des instances sur les variables de marchandisage.
-seo-title: Instances sur les variables de marchandisage
+keywords: Analytics Implementation
 solution: Analytics
 title: Instances sur les variables de marchandisage
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
