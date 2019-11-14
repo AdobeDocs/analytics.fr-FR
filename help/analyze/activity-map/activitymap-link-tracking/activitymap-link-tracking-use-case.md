@@ -1,13 +1,11 @@
 ---
 description: 'Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module Activity Map d’AppMeasurement. '
-seo-description: Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module Activity Map d’AppMeasurement.
-seo-title: Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
 solution: Analytics
 title: Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
-topic: Activity Map
+topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,7 +49,7 @@ Comment pouvez-vous personnaliser votre page web et le balisage pour différenci
 
 ## Personnalisation de l’ID de lien à l’aide de s_objectID  {#section_01B0D463397B4837B2D46F087A6E5937}
 
-En créant un identifiant d’objet unique pour un lien ou emplacement de lien sur une page, vous pouvez améliorer le suivi d’Activity Map ou utiliser Activity Map pour créer des rapports sur un emplacement ou un type de lien plutôt que sur l’URL du lien. Pour plus d’informations sur la variable s_objectID, rendez-vous [ici](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/s_objectID.html).
+En créant un identifiant d’objet unique pour un lien ou emplacement de lien sur une page, vous pouvez améliorer le suivi d’Activity Map ou utiliser Activity Map pour créer des rapports sur un emplacement ou un type de lien plutôt que sur l’URL du lien. Pour plus d’informations sur la variable s_objectID, rendez-vous [ici](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html).
 
 >[!IMPORTANT]
 >
