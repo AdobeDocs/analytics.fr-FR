@@ -1,13 +1,11 @@
 ---
 description: Cette procédure vous aide à sélectionner une suite de rapports dans Excel.
-seo-description: Cette procédure vous aide à sélectionner une suite de rapports dans Excel.
-seo-title: Sélectionnez une suite de rapports
 solution: Analytics
 title: Sélectionnez une suite de rapports
-topic: Créateur de rapports
-uuid: e 9 fb 6 e 20-217 c -4 b 36-aaec -19 ccf 407 da 93
+topic: Report builder
+uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
