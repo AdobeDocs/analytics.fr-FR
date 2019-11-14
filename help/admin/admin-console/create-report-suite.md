@@ -1,10 +1,8 @@
 ---
 title: Création d’une suite de rapports
-seo-title: Création d’une suite de rapports dans Adobe Analytics
 description: Créez un conteneur de base pour la collecte de données dans Adobe Analytics.
-seo-description: Créez un conteneur de base pour la collecte de données dans Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
