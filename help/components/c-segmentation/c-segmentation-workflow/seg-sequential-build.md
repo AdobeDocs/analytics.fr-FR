@@ -1,13 +1,11 @@
 ---
 description: Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes et affiche le filtre "Inclure tout le monde". Les segments séquentiels peuvent être filtrés en un sous-ensemble d’accès correspondants à l’aide des options "Avant la séquence uniquement" et "Après la séquence uniquement".
-seo-description: Les segments séquentiels sont créés en utilisant l’opérateur ALORS au lieu de ET ou OU. ALORS implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes et affiche le filtre "Inclure tout le monde". Les segments séquentiels peuvent être filtrés en un sous-ensemble d’accès correspondants à l’aide des options "Avant la séquence uniquement" et "Après la séquence uniquement".
-seo-title: Création des segments séquentiels
 solution: Analytics
 title: Création des segments séquentiels
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
