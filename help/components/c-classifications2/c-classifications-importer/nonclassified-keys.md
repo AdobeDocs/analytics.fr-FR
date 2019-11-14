@@ -1,14 +1,12 @@
 ---
 description: Les clés non classées sont regroupées dans des rapports de classification sous la forme d’un élément unique intitulé Aucun. Il peut se révéler utile de renommer Aucun en un élément plus explicite.
-seo-description: Les clés non classées sont regroupées dans des rapports de classification sous la forme d’un élément unique intitulé Aucun. Il peut se révéler utile de renommer Aucun en un élément plus explicite.
-seo-title: Clés non classifiées
 solution: Analytics
 subtopic: Classifications
 title: Clés non classifiées
-topic: Outils d’administration
+topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
