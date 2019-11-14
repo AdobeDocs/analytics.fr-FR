@@ -1,14 +1,12 @@
 ---
 description: Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
-seo-description: Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
-seo-title: Traitement complet
 solution: Analytics
-subtopic: Sources de données
+subtopic: Data sources
 title: Traitement complet
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
