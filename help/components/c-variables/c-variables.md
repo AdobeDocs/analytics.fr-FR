@@ -1,10 +1,8 @@
 ---
 title: Variables
-description: Page d'entrée pour les variables Analytics
-seo-title: Variables Analytics
-seo-description: Variables Analytics
+description: Page d’entrée pour les variables Analytics
 translation-type: tm+mt
-source-git-commit: 1b8fd205eb843e2e207b5a62ba3dca313a07bce9
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,4 +12,4 @@ source-git-commit: 1b8fd205eb843e2e207b5a62ba3dca313a07bce9
 * [Mesures](/help/components/c-variables/c-metrics/metricslist.md)
 * [Dimensions](/help/components/c-variables/dimensionslist/dimension-compatibility.md)
 * [Variables de marchandisage](/help/components/c-variables/c-merch-variables/var-merchandising.md)
-* See also [Implementation variables](/help/implement/js-implementation/c-variables/evars-events.md) in the Implementation Guide.
+* Voir aussi Variables [d’](/help/implement/js-implementation/c-variables/evars-events.md) implémentation dans le Guide d’implémentation.
