@@ -1,14 +1,12 @@
 ---
 description: Les données de géosegmentation sont enregistrées selon le premier accès de la visite. Elles ne changent pas pour une même visite, quel que soit le périphérique utilisé.
-keywords: Mise en œuvre d’Analytics
-seo-description: Les données de géosegmentation sont enregistrées selon le premier accès de la visite. Elles ne changent pas pour une même visite, quel que soit le périphérique utilisé.
-seo-title: Données de géosegmentation
+keywords: Analytics Implementation
 solution: Analytics
 title: Données de géosegmentation
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
