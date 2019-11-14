@@ -1,13 +1,11 @@
 ---
 description: Cette section contient la description des champs des paramètres généraux des cookies utilisés pour le déploiement de Dynamic Tag Management dans Adobe Analytics.
-keywords: Dynamic Tag Management;cookies;identifiant visiteur;espace de noms du visiteur;nombre de points du domaine;nombres de points du domaine fp;id de transaction;durée de vie des cookies
-seo-description: Cette section contient la description des champs des paramètres généraux des cookies utilisés pour le déploiement de Dynamic Tag Management dans Adobe Analytics.
-seo-title: Cookies
+keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: 9b946238b48fa4532d136d2f7aa0187fdabd005b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
