@@ -1,15 +1,13 @@
 ---
 description: Aperçu détaillé des variables et de leurs restrictions.
-keywords: Mise en œuvre d’Analytics;variables;variable;limitations;limites
-seo-description: Aperçu détaillé des variables et de leurs restrictions.
-seo-title: Variables et limites
+keywords: Analytics Implementation;variable;limitations;limits
 solution: Analytics
 subtopic: Variables
 title: Variables et limites
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
