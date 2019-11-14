@@ -1,13 +1,11 @@
 ---
 description: Dans le Gestionnaire de segments, vous pouvez configurer un processus qui inclut l’approbation de segments pour différents niveaux d’application, pour des services ou des groupes spécifiques, en toute cohérence avec les règles de création de rapports.
-seo-description: Dans le Gestionnaire de segments, vous pouvez configurer un processus qui inclut l’approbation de segments pour différents niveaux d’application, pour des services ou des groupes spécifiques, en toute cohérence avec les règles de création de rapports.
-seo-title: Approbation des segments
 solution: Analytics
 title: Approbation des segments
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
