@@ -1,13 +1,11 @@
 ---
 description: Cette section s’adresse aux administrateurs Adobe Analytics. Elle se concentre sur les nouveaux paramètres de suivi des liens et sur la façon dont ils assurent l’unicité et la cohérence des liens entre les navigateurs et les appareils, ainsi que sur la manière dont ils améliorent la gestion du repositionnement des liens sur une page.
-seo-description: Cette section s’adresse aux administrateurs Adobe Analytics. Elle se concentre sur les nouveaux paramètres de suivi des liens et sur la façon dont ils assurent l’unicité et la cohérence des liens entre les navigateurs et les appareils, ainsi que sur la manière dont ils améliorent la gestion du repositionnement des liens sur une page.
-seo-title: Méthodologie de suivi des liens
 solution: Analytics
-title: Suivi des liens par extraction
-topic: Activity Map
+title: Méthodologie de suivi des liens
+topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,14 +16,14 @@ Cette section s’adresse aux administrateurs Adobe Analytics. Elle se concentre
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Pour obtenir plus d’informations sur la façon dont Activity Map collecte des données relatives aux informations d’identification personnelles, [cliquez ici](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Tout lien dont le texte (pas le href) est susceptible de contenir des informations d’identification personnelles doit être mis en œuvre de façon explicite à l’aide de [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) ou en excluant la collecte des liens Activity Map à l’aide de [s.ActivityMap.linkExclusions ou de s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Pour obtenir plus d’informations sur la façon dont Activity Map collecte des données relatives aux informations d’identification personnelles, [cliquez ici](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map base son suivi des liens sur ces deux ID :
 
 * ID principal : il s’agit du paramètre reconnaissable du lien.
 * Région de lien : il s’agit d’un paramètre secondaire qui permet aux utilisateurs de spécifier une chaîne représentative de l’ensemble de la zone de liens dans la page ou la région. Ce paramètre peut être généré automatiquement s’il n’est pas fourni par l’utilisateur.
 
-## ID principal {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## ID principal  {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 Si le code HTML comprend une variable s_objectid, l’ID principal est remplacé par défaut par celle-ci. Dans le cas contraire, les paramètres suivants sont utilisés comme ID principal (dans cet ordre de priorité) :
 
@@ -35,7 +33,7 @@ Si le code HTML comprend une variable s_objectid, l’ID principal est remplacé
 * Src
 * Action
 
-## Utilisation du paramètre InnerText ou d’une action de lien (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+## Utilisation du paramètre InnerText ou d’une action de lien (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
 
 Une action de lien est l’action effectuée par la page web lorsque l’utilisateur clique sur le lien ; en général, il s’agit de l’URL visitée après le clic sur le lien. Il se peut que vous rencontriez les problèmes suivants lors de l’utilisation d’une action de lien :
 
@@ -50,7 +48,7 @@ Par conséquent, nous utilisons le paramètre InnerText qui présente les avanta
 * Il n’est pas affecté par un repositionnement des liens sur la page.
 * Il améliore la lisibilité afin que les utilisateurs puissent commencer à analyser les rapports de suivi des liens en dehors d’Activity Map.
 
-## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
+## Région de lien {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
 Ce nouvel attribut permet aux utilisateurs de spécifier une chaîne représentative de la région de page où se trouve le lien.
 
@@ -62,12 +60,12 @@ L’utilisation de la région de lien présente les avantages suivants :
 * Elle permet de différencier des liens possédant le même ID principal.
 * Les tendances d’une région sont moins affectées par l’aspect dynamique de la page web.
 * Les utilisateurs peuvent consulter les liens les plus performants dans une région. Avec une région comme ancre, nous pouvons afficher des superpositions de liens qui ne sont actuellement pas visibles sur la page (Ajax, ciblage).
-* Une région peut remplacer des pages, puisqu’une région donnée peut être utilisée sur de nombreuses pages web. Il permet de répondre à des questions comme : "Ma région "Offre de produits" est-elle la plus performante sur la page d'entrée pour femmes ou sur la page d'entrée pour hommes ?
+* Une région peut remplacer des pages, puisqu’une région donnée peut être utilisée sur de nombreuses pages web. Cela permet de répondre à des questions telles que la suivante : « Ma région "Offre de produits" obtient-elle de meilleurs résultats sur la landing page des femmes ou sur celle des hommes ? ».
 * En soi, une région est une dimension pertinente pour l’analyse de pages web très dynamiques. En effet, elle supprime le bruit dû au changement constant des liens : une région « Dernières actualités » sur la page d’entrée de CNN peut contenir de nombreux changements de liens. Mais la région sera toujours présente. Il pourrait donc être intéressant d’établir les tendances au niveau de la région sur plusieurs jours.
 
 **Suivi des régions personnalisé**
 
-Vous pouvez personnaliser le paramètre Région pour un lien (la valeur par défaut est l’ID de lien) : une balise définie sur « ID » utilisera tous les éléments HTML avec un paramètre « id » comme région. Par conséquent, la définition de la balise Région sur "id" renverra probablement de nombreuses régions distinctes (autant qu’il existe des "ID" différents sur la page). Si vous souhaitez une mise en œuvre plus personnalisée, vous pouvez également définir la balise Région sur quelque chose de plus spécifique, tel que « region_id ».
+Vous pouvez personnaliser le paramètre Région pour un lien (la valeur par défaut est l’ID de lien) : une balise définie sur « ID » utilisera tous les éléments HTML avec un paramètre « id » comme région. Par conséquent, définir la balise Région sur « id » renverra probablement de nombreuses régions distinctes (autant qu’il y a d’« ID » différents sur la page). Si vous souhaitez une mise en œuvre plus personnalisée, vous pouvez également définir la balise Région sur quelque chose de plus spécifique, tel que « region_id ».
 
 Vous trouverez ci-dessous un exemple de HTML utilisant l’attribut ID de région par défaut, « id ».
 
@@ -127,7 +125,7 @@ Notez que ces variables sont répertoriées à titre de référence uniquement. 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> s.ActivityMap.regionIDAttribut </td> 
+   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
    <td colname="col2"> La valeur par défaut est le paramètre « id ». Vous pouvez définir un autre paramètre. </td> 
    <td colname="col3"> Chaîne qui identifie l’attribut de balise à utiliser comme ID de région à partir d’un élément ancêtre (parent, parent.parent, etc.) de s.linkObject, c’est-à-dire <b>l’élément sur lequel l’utilisateur a cliqué</b>. </td> 
   </tr> 
