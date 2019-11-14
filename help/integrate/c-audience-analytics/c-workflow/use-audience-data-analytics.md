@@ -1,12 +1,10 @@
 ---
 description: 'Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les identifiants d’audience sont stockés dans la colonne "mc_audiences". Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions Audiences : '
-seo-description: 'Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les identifiants d’audience sont stockés dans la colonne "mc_audiences". Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions Audiences : '
-seo-title: Utilisation des données d’audience dans Analytics
-solution: 'Activation '
+solution: Experience Cloud
 title: Utilisation des données d’audience dans Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
