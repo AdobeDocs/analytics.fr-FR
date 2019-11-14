@@ -1,14 +1,12 @@
 ---
 description: Vous pouvez associer le Créateur de règles de classifications à des sous-classifications afin de simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
-seo-description: Vous pouvez associer le Créateur de règles de classifications à des sous-classifications afin de simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
-seo-title: Sous-classifications et Créateur de règles – Cas d’utilisation
 solution: Analytics
 subtopic: Classifications
 title: Sous-classifications et Créateur de règles – Cas d’utilisation
-topic: Outils d’administration
+topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,11 +47,11 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
 >[!NOTE]
 >
-> Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
+>Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
 1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
-   Exemple:
+   Exemple :
 
    ![Infos étape](assets/sub_class_create.png)
 
@@ -74,7 +72,7 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
    Voir Classifications [à](/help/components/c-classifications2/c-sub-classifications.md)plusieurs niveaux.
 
-   Exemple:
+   Exemple :
 
    | Clé | Canal | Code de campagne large | Code de campagne large&amp;Chapeau;Type de campagne | Code de campagne large&amp;Chapeau;Directeur de campagne | ... |
    |---|---|---|---|---|---|
