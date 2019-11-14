@@ -1,13 +1,11 @@
 ---
 description: Outre les options de mise en forme de cellules standard disponibles par le biais du menu Format > Cellules (Ctrl+1) d’Excel, vous pouvez appliquer une mise en forme limitée à des plages de cellules à l’aide du Créateur de rapports. Ces options dépendent, en fait, de la mesure choisie.
-seo-description: Outre les options de mise en forme de cellules standard disponibles par le biais du menu Format > Cellules (Ctrl+1) d’Excel, vous pouvez appliquer une mise en forme limitée à des plages de cellules à l’aide du Créateur de rapports. Ces options dépendent, en fait, de la mesure choisie.
-seo-title: Mise en forme de la date
 solution: Analytics
 title: Mise en forme de la date
-topic: Créateur de rapports
+topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
