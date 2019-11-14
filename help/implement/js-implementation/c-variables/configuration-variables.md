@@ -1,20 +1,18 @@
 ---
 description: Variables de configuration définies dans le fichier AppMeasurement.js.
-keywords: Mise en œuvre d’Analytics
-seo-description: Variables de configuration définies dans le fichier AppMeasurement.js pour Adobe Analytics
-seo-title: Variables de configuration
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Variables
 title: Variables de configuration
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
 
-# Variables de configuration de la validation
+# Présentation des variables de configuration
 
 Les variables de configuration contrôlent le mode de collecte et de traitement des données dans les rapports. Les variables de configuration les plus courantes sont généralement définies dans le fichier JavaScript global principal (AppMeasurement.js. Si nécessaire, ces variables peuvent être définies dans le code et les liens au niveau de la page d’Analytics.
 
