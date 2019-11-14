@@ -1,13 +1,11 @@
 ---
 description: Lorsque vous précisez une plage de dates ou une date fixe, le Créateur de rapports affiche le calendrier des rapports qui vous permet de sélectionner une date, une plage de dates ou une date prédéfinie. Vous pouvez également enregistrer une date fixe à utiliser comme modèle et indiquer si les dates enregistrées doivent être disponibles pour la suite de rapports en cours ou pour l’ensemble des suites de rapports.
-seo-description: Lorsque vous précisez une plage de dates ou une date fixe, le Créateur de rapports affiche le calendrier des rapports qui vous permet de sélectionner une date, une plage de dates ou une date prédéfinie. Vous pouvez également enregistrer une date fixe à utiliser comme modèle et indiquer si les dates enregistrées doivent être disponibles pour la suite de rapports en cours ou pour l’ensemble des suites de rapports.
-seo-title: Dates fixes et plages de dates enregistrées
 solution: Analytics
 title: Dates fixes et plages de dates enregistrées
-topic: Créateur de rapports
-uuid: f 00218 c 0-07 f 3-4505-98 b 0-de 05187401 fd
+topic: Report builder
+uuid: f00218c0-07f3-4505-98b0-de05187401fd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
