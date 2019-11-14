@@ -1,14 +1,12 @@
 ---
 description: Les hiérarchies du contenu servent le plus souvent à présenter les différents chemins que les visiteurs ont empruntés à partir d’une page, d’un niveau, etc.
-keywords: Mise en œuvre d’Analytics;hiérarchies du contenu;hier
-seo-description: Les hiérarchies du contenu servent le plus souvent à présenter les différents chemins que les visiteurs ont empruntés à partir d’une page, d’un niveau, etc.
-seo-title: Décompte des hiérarchies du contenu
+keywords: Analytics Implementation;content hierachies;hier
 solution: Analytics
 title: Décompte des hiérarchies du contenu
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
-translation-type: ht
-source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
