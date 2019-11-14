@@ -1,13 +1,11 @@
 ---
 description: Ce rapport indique le délai qui s’écoule entre chaque visite des visiteurs qui reviennent sur votre site, ainsi que le nombre de visites repris dans chaque catégorie de durée. Utilisez ce rapport pour afficher la période moyenne pendant laquelle les visiteurs réguliers n’ont pas visité votre site, ainsi que les tendances au niveau des clients réguliers.
-seo-description: Ce rapport indique le délai qui s’écoule entre chaque visite des visiteurs qui reviennent sur votre site, ainsi que le nombre de visites repris dans chaque catégorie de durée. Utilisez ce rapport pour afficher la période moyenne pendant laquelle les visiteurs réguliers n’ont pas visité votre site, ainsi que les tendances au niveau des clients réguliers.
-seo-title: Fréquence des retours
 solution: Analytics
 title: Fréquence des retours
-topic: Rapports
+topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
