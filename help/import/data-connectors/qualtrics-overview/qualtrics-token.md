@@ -1,14 +1,12 @@
 ---
 description: Un jeton est nécessaire pour terminer l’assistant d’intégration. Pour rechercher cet identifiant, procédez comme suit.
-seo-description: Un jeton est nécessaire pour terminer l’assistant d’intégration. Pour rechercher cet identifiant, procédez comme suit.
-seo-title: Génération de votre jeton Qualtrics Adobe Analytics
 solution: Analytics
 subtopic: Qualtrics
 title: Génération de votre jeton Qualtrics Adobe Analytics
-topic: Connecteurs de données
+topic: Data connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
