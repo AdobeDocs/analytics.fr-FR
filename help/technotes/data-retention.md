@@ -1,11 +1,9 @@
 ---
-seo-description: Les données collectées par Adobe Analytics sont conservées pendant une période spécifique. Le délai pendant lequel Adobe conserve ces données varie d’un contrat à l’autre et est décrit dans la politique de rétention des données d’une entreprise.
-seo-title: Stratégie de rétention des données pour Adobe Analytics
 title: Stratégie de rétention des données
 description: Une stratégie de rétention des données détermine la durée pendant laquelle Adobe stocke vos données.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
