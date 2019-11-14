@@ -1,13 +1,11 @@
 ---
 description: Le rapport Présentation du canal marketing est conçu pour fournir un aperçu général des méthodes les plus efficaces pour attirer les clients sur votre site. Utilisez ce rapport pour affecter des mesures de succès et des recettes aux différents canaux. Vous pouvez également afficher les campagnes ou mots-clés présentant le taux de succès le plus élevé dans chaque canal. Ce rapport s’accompagne d’une interface intuitive spécifique, qui vous permet d’afficher simultanément les mesures Première touche et Dernière touche.
-seo-description: Le rapport Présentation du canal marketing est conçu pour fournir un aperçu général des méthodes les plus efficaces pour attirer les clients sur votre site. Utilisez ce rapport pour affecter des mesures de succès et des recettes aux différents canaux. Vous pouvez également afficher les campagnes ou mots-clés présentant le taux de succès le plus élevé dans chaque canal. Ce rapport s’accompagne d’une interface intuitive spécifique, qui vous permet d’afficher simultanément les mesures Première touche et Dernière touche.
-seo-title: Présentation des canaux marketing
 solution: Analytics
 title: Présentation des canaux marketing
-topic: Rapports
+topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
