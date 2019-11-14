@@ -1,13 +1,11 @@
 ---
 description: Cette section décrit la procédure à suivre pour créer des règles dans Dynamic Tag Management.
-keywords: Dynamic Tag Management;règle;créer une règle;nouvelle règle;règle basée sur un événement;règle de chargement de page;règle d’appel direct
-seo-description: Cette section décrit la procédure à suivre pour créer des règles dans Dynamic Tag Management.
-seo-title: Création d’une règle
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création d’une règle
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
