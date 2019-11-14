@@ -1,14 +1,12 @@
 ---
 description: Lorsque vous exécutez le débogueur Experience Cloud, il se peut que vous souhaitiez rechercher la variable s_account.
-keywords: Mise en œuvre d’Analytics
-seo-description: Lorsque vous exécutez le débogueur Experience Cloud, il se peut que vous souhaitiez rechercher la variable s_account.
-seo-title: Identification de la variable s_account dans le debugger
+keywords: Analytics Implementation
 solution: Analytics
 title: Identification de la variable s_account dans le debugger
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: aae1763a-07e0-45e7-9695-15862d77c0ec
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
