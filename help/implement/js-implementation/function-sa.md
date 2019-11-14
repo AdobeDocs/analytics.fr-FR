@@ -1,15 +1,13 @@
 ---
 description: La fonction s.sa() vous permet de modifier, à tout moment, une suite de rapports de manière dynamique et ce, avant ou après le déclenchement de la demande d’image.
-keywords: Mise en œuvre d’Analytics
-seo-description: La fonction s.sa() vous permet de modifier, à tout moment, une suite de rapports de manière dynamique et ce, avant ou après le déclenchement de la demande d’image.
-seo-title: Fonction s.sa()
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Fonctions
+subtopic: Functions
 title: Fonction s.sa()
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
