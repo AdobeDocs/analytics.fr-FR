@@ -1,13 +1,11 @@
 ---
 description: Affichent des informations sur la loyauté de vos clients. Ils indiquent le nombre de visiteurs sur votre site ainsi que la fréquence de leurs visites. Les rapports de cette catégorie présentent des informations sur la fidélité des clients. Ils indiquent le nombre de visiteurs sur votre site ainsi que la fréquence de leurs visites.
-seo-description: Affichent des informations sur la loyauté de vos clients. Ils indiquent le nombre de visiteurs sur votre site ainsi que la fréquence de leurs visites. Les rapports de cette catégorie présentent des informations sur la fidélité des clients. Ils indiquent le nombre de visiteurs sur votre site ainsi que la fréquence de leurs visites.
-seo-title: Rétention des visiteurs
 solution: Analytics
 title: Rétention des visiteurs
-topic: Rapports
+topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
