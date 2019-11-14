@@ -1,14 +1,12 @@
 ---
 description: Si votre site comporte des types de pages ou des modèles de page, vous pouvez utiliser le cheminement pour comprendre le passage d’un type à un autre.
-keywords: Mise en œuvre d’Analytics
-seo-description: Si votre site comporte des types de pages ou des modèles de page, vous pouvez utiliser le cheminement pour comprendre le passage d’un type à un autre.
-seo-title: Passage d’un modèle de page à un autre
+keywords: Analytics Implementation
 solution: Analytics
 title: Passage d’un modèle de page à un autre
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
