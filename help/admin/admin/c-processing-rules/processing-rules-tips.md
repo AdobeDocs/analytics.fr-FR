@@ -1,14 +1,12 @@
 ---
 description: Cette section contient des instructions relatives au test des règles de traitement, ainsi qu’une liste des erreurs courantes à éviter.
-seo-description: Cette section contient des instructions relatives au test des règles de traitement, ainsi qu’une liste des erreurs courantes à éviter.
-seo-title: Astuces et conseils concernant les règles de traitement
 solution: Analytics
-subtopic: Règles de traitement
+subtopic: Processing rules
 title: Astuces et conseils concernant les règles de traitement
-topic: Outils d’administration
+topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
