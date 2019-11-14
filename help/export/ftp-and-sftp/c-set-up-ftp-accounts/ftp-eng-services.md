@@ -1,13 +1,11 @@
 ---
 description: Nombre de contrats de services techniques Adobe Engineering Services impliquent l’échange de données, souvent par FTP.
 keywords: ftp;sftp
-seo-description: Nombre de contrats de services techniques Adobe Engineering Services impliquent l’échange de données, souvent par FTP.
-seo-title: Contrats de services techniques Adobe Engineering Services à l’aide du FTP
 solution: Analytics
 title: Contrats de services techniques Adobe Engineering Services à l’aide du FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
