@@ -1,14 +1,12 @@
 ---
 description: Les règles de classification recherchent régulièrement des termes non classés. Si une correspondance de règle est trouvée, les règles ajoutent automatiquement les termes aux tableaux de données de classification. Vous pouvez également utiliser des règles de classification pour remplacer des clés existantes.
-seo-description: Les règles de classification recherchent régulièrement des termes non classés. Si une correspondance de règle est trouvée, les règles ajoutent automatiquement les termes aux tableaux de données de classification. Vous pouvez également utiliser des règles de classification pour remplacer des clés existantes.
-seo-title: Règles de classification
 solution: Analytics
 subtopic: Classifications
 title: Règles de classification
-topic: Outils d’administration
+topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -307,7 +305,7 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
 
 >[!NOTE]
 >
-> Dans cette procédure, vous devez appliquer les règles à une ou plusieurs suites de rapports. Le nombre recommandé de règles par jeu de règles est compris entre 500 et 1000, bien qu’il n’y ait pas de limites. Si le nombre de règles est supérieur à 100, pensez à simplifier votre jeu de règles en utilisant des [sous-classifications](/help/components/c-classifications2/c-sub-classifications.md).
+>Dans cette procédure, vous devez appliquer les règles à une ou plusieurs suites de rapports. Le nombre recommandé de règles par jeu de règles est compris entre 500 et 1000, bien qu’il n’y ait pas de limites. Si le nombre de règles est supérieur à 100, pensez à simplifier votre jeu de règles en utilisant des [sous-classifications](/help/components/c-classifications2/c-sub-classifications.md).
 
 1. [Créez un jeu](/help/components/c-classifications2/crb/classification-rule-set.md) de règles de classification.
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -319,7 +317,7 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
    La page **[!UICONTROL Sélectionner une suite de rapports]s’affiche.**
 
    >[!NOTE]
-   Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont remplies :  &gt;
+   Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont remplies :        &gt;
 
    * Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
    (Voir *`Variable`* dans Jeux [de règles de](/help/components/c-classifications2/crb/classification-rule-set.md) classification pour obtenir une explication sur ce prérequis.)
@@ -341,7 +339,7 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
 
    >[!NOTE]
    >
-   > Si une clé correspond à plusieurs règles qui définissent la même classification (dans la colonne Définir la classification), la dernière règle correspondant à la classification est utilisée. See **About Rule Priority** above for more information about sorting rules.
+   >Si une clé correspond à plusieurs règles qui définissent la même classification (dans la colonne Définir la classification), la dernière règle correspondant à la classification est utilisée. See **About Rule Priority** above for more information about sorting rules.
 
 1. [Testez votre jeu de règles](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
