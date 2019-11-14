@@ -1,14 +1,12 @@
 ---
 description: Gestion des utilisateurs, des groupes et des produits Analytics dans Admin Console.
-seo-description: Gestion des utilisateurs, des groupes et des produits Analytics dans Admin Console.
-seo-title: Gestion des utilisateurs et des produits
 solution: Analytics
-subtopic: Utilisateurs et groupes
+subtopic: Users and groups
 title: Gestion des utilisateurs et des produits
-topic: Outils d’administration
+topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
