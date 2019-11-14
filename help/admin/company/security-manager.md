@@ -1,13 +1,11 @@
 ---
 description: Permet de contrôler l’accès aux données de création de rapports. Les options incluent les mots de passe difficiles à deviner, l’expiration du mot de passe, ainsi que les restrictions d’adresses IP et de domaines de courriel.
-seo-description: Permet de contrôler l’accès aux données de création de rapports. Les options incluent les mots de passe difficiles à deviner, l’expiration du mot de passe, ainsi que les restrictions d’adresses IP et de domaines de courriel.
-seo-title: Gestionnaire de sécurité
 solution: Analytics
 title: Gestionnaire de sécurité
-topic: Outils d’administration
+topic: Admin tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
