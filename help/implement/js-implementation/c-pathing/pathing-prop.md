@@ -1,14 +1,12 @@
 ---
 description: Bien que les rapports de cheminement soient disponibles en standard pour les pages, le cheminement peut également être activé pour les variables de trafic personnalisé.
-keywords: Mise en œuvre d’Analytics
-seo-description: Bien que les rapports de cheminement soient disponibles en standard pour les pages, le cheminement peut également être activé pour les variables de trafic personnalisé.
-seo-title: Activation du cheminement sur une propriété
+keywords: Analytics Implementation
 solution: Analytics
 title: Activation du cheminement sur une propriété
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 582f7ecb-3f36-4d52-ac69-f74ad37c5f7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
