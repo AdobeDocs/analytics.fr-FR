@@ -1,13 +1,11 @@
 ---
 description: Les suites de rapports de cumul combinent les données de plusieurs suites de rapports affiliées et les affichent dans un jeu de données résumé.
-seo-description: Les suites de rapports de cumul combinent les données de plusieurs suites de rapports affiliées et les affichent dans un jeu de données résumé.
-seo-title: Suites de rapports globales et de cumul
 solution: Analytics
 title: Suites de rapports globales et de cumul
-topic: Outils d’administration
+topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
