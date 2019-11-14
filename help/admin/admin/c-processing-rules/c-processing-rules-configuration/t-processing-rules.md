@@ -1,14 +1,12 @@
 ---
 description: Les règles de traitement sont définies sur les suites de rapports.
-seo-description: Les règles de traitement sont définies sur les suites de rapports.
-seo-title: Créer des règles de traitement
 solution: Analytics
-subtopic: Règles de traitement
+subtopic: Processing rules
 title: Créer des règles de traitement
-topic: Outils d’administration
+topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
