@@ -1,13 +1,11 @@
 ---
 description: Mesure l’incidence de divers codes de suivi publicitaire sur différents événements de conversion sur votre site. Vous pouvez utiliser ce rapport pour mesurer les performances de campagnes spécifiques pour différents événements de succès ou pour savoir comment vos campagnes favorisent ou entravent les initiatives de votre site, comme par exemple les campagnes qui génèrent les plus grosses recettes.
-seo-description: Mesure l’incidence de divers codes de suivi publicitaire sur différents événements de conversion sur votre site. Vous pouvez utiliser ce rapport pour mesurer les performances de campagnes spécifiques pour différents événements de succès ou pour savoir comment vos campagnes favorisent ou entravent les initiatives de votre site, comme par exemple les campagnes qui génèrent les plus grosses recettes.
-seo-title: Codes de suivi
 solution: Analytics
 title: Codes de suivi
-topic: Rapports
+topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
