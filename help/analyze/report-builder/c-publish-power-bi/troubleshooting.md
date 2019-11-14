@@ -1,11 +1,9 @@
 ---
 description: Voici quelques-unes des difficultés courantes qui peuvent survenir lors de l’utilisation du Créateur de rapports avec Power BI.
-seo-description: Voici quelques-unes des difficultés courantes qui peuvent survenir lors de l’utilisation du Créateur de rapports avec Power BI.
-seo-title: Dépannage de l’intégration de Power BI
 title: Dépannage de l’intégration de Power BI
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,7 +25,7 @@ Chaque tâche planifiée par le Créateur de rapports bénéficie de trois tenta
 * Après l’échec de la deuxième tentative, vous n’obtenez aucun message.
 * Après l’échec de la troisième tentative, vous obtenez le message suivant : « Nous n’avons pas pu publier ce classeur planifié sur Microsoft Power BI. »
 
-## Étape 2 : Broken visualizations in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
+## Étape 2 : Broken visualizations in Power BI {#section_FFFE200D06F843B2AF093710FD678166}
 
 Voici les principales raisons pour lesquelles vous pourriez obtenir des visualisations corrompues suite à la publication de requêtes du Créateur de rapports sur Power BI :
 
