@@ -1,14 +1,12 @@
 ---
 description: Si vous utilisez une variable courante, telle que q, pour renseigner des termes de recherche, vous pouvez utiliser des règles de traitement pour remplir la variable eVar Termes de recherche internes avec ces valeurs.
-seo-description: Si vous utilisez une variable courante, telle que q, pour renseigner des termes de recherche, vous pouvez utiliser des règles de traitement pour remplir la variable eVar Termes de recherche internes avec ces valeurs.
-seo-title: Renseigner les termes de recherche interne à l’aide d’un paramètre de chaîne de requête
 solution: Analytics
-subtopic: Règles de traitement
+subtopic: Processing rules
 title: Renseigner les termes de recherche interne à l’aide d’un paramètre de chaîne de requête
-topic: Outils d’administration
+topic: Admin tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
