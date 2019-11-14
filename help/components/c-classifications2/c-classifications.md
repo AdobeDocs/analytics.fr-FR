@@ -1,14 +1,12 @@
 ---
 description: Une classification permet de classer les données de variable Analytics, puis d’afficher les données de différentes manières lors de la génération de rapports.
-seo-description: Une classification permet de classer les données de variable Analytics, puis d’afficher les données de différentes manières lors de la génération de rapports.
-seo-title: À propos des classifications
 solution: Analytics
 subtopic: Classifications
 title: À propos des classifications
-topic: Outils d’administration
+topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
