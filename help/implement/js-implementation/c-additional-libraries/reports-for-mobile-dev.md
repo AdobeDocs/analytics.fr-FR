@@ -1,14 +1,12 @@
 ---
 description: Dans la mesure où le suivi des appareils s’effectue via une balise Web, tout comme les autres visiteurs, la plupart des rapports sont disponibles et corrects.
-keywords: Mise en œuvre d’Analytics;rapports;protocoles mobiles;moteurs de recherche;mots-clés de recherche;domaines référents;référents;géosegmentation;domaines;type de connexion;fuseau horaire;cookies;java;javascript;couleurs de l’écran;résolution de l’écran;largeur du navigateur;hauteur;module externe netscape
-seo-description: Dans la mesure où le suivi des appareils s’effectue via une balise Web, tout comme les autres visiteurs, la plupart des rapports sont disponibles et corrects.
-seo-title: Rapports pour les appareils qui utilisent des protocoles mobiles
+keywords: Analytics Implementation;reports;mobile protocols;search engines;search keywords;referring domains;referrers;geosegmentation;domains;connection type;time zone;cookies;java;javascript;monitor colors;monitor resolution;browser width;height;netscape plug-in
 solution: Analytics
 title: Rapports pour les appareils qui utilisent des protocoles mobiles
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
