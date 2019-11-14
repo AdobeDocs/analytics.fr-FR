@@ -1,13 +1,11 @@
 ---
 description: Définitions des dates fixes dans le Créateur de rapports.
-seo-description: Définitions des dates fixes dans le Créateur de rapports.
-seo-title: Définitions de l’Assistant Requête - Dates fixes
 solution: Analytics
 title: Définitions de l’Assistant Requête - Dates fixes
-topic: Créateur de rapports
-uuid: bd65a312-bab6-46d7-ba30-57077344cc9
+topic: Report builder
+uuid: bd65a312-bab6-46d7-ba30-570777344cc9
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
