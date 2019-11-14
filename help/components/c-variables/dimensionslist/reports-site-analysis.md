@@ -1,13 +1,11 @@
 ---
 description: Rapport d’Ad Hoc Analysis. Le rapport Analyse de site indique le cheminement des visiteurs dans des pages et événements spécifiés. Vous pouvez, par exemple, afficher le flux de trafic entre des pages, l’affinité entre les produits et les canaux marketing, ainsi que la manière dont les campagnes et canaux débouchent sur des commandes de produits. Vous pouvez faire glisser des pages, des éléments de dimension (et des listes), ainsi que des événements de mesure. Chaque cylindre représente un ou plusieurs éléments de dimension (pages) ou un événement. Les flèches représentent le flux entre les valeurs de cylindre. Les mesures sont affectées à des positions de cylindre (X et Y), une largeur de cylindre, une hauteur de cylindre et une couleur. La position, la taille et la couleur varient en fonction des valeurs de la mesure.
-seo-description: Rapport d’Ad Hoc Analysis. Le rapport Analyse de site indique le cheminement des visiteurs dans des pages et événements spécifiés. Vous pouvez, par exemple, afficher le flux de trafic entre des pages, l’affinité entre les produits et les canaux marketing, ainsi que la manière dont les campagnes et canaux débouchent sur des commandes de produits. Vous pouvez faire glisser des pages, des éléments de dimension (et des listes), ainsi que des événements de mesure. Chaque cylindre représente un ou plusieurs éléments de dimension (pages) ou un événement. Les flèches représentent le flux entre les valeurs de cylindre. Les mesures sont affectées à des positions de cylindre (X et Y), une largeur de cylindre, une hauteur de cylindre et une couleur. La position, la taille et la couleur varient en fonction des valeurs de la mesure.
-seo-title: Analyse de site
 solution: Analytics
 title: Analyse de site
-topic: Rapports
+topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
