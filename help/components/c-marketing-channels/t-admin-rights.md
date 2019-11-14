@@ -1,14 +1,12 @@
 ---
 description: Créez un groupe qui accorde des droits d’administration limités aux utilisateurs du rapport Canal marketing, puis affectez des utilisateurs à ce groupe. Par exemple, vous souhaitez peut-être créer un groupe qui permette aux utilisateurs non administrateurs de saisir le montant des coûts ou du budget.
-seo-description: Créez un groupe qui accorde des droits d’administration limités aux utilisateurs du rapport Canal marketing, puis affectez des utilisateurs à ce groupe. Par exemple, vous souhaitez peut-être créer un groupe qui permette aux utilisateurs non administrateurs de saisir le montant des coûts ou du budget.
-seo-title: Octroi de droits d’administration limités
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: Octroi de droits d’administration limités
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
