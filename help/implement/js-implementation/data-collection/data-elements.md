@@ -1,14 +1,12 @@
 ---
 description: Vous pouvez capturer les valeurs d’éléments de formulaire, comme des cases d’option et des éléments de case à cocher, dans des rapports. Vous pouvez ainsi analyser les choix les plus populaires effectués dans vos formulaires en ligne.
-keywords: Mise en œuvre d’Analytics
-seo-description: Vous pouvez capturer les valeurs d’éléments de formulaire, comme des cases d’option et des éléments de case à cocher, dans des rapports. Vous pouvez ainsi analyser les choix les plus populaires effectués dans vos formulaires en ligne.
-seo-title: Collecte de données à partir d’éléments de formulaire
+keywords: Analytics Implementation
 solution: Analytics
 title: Collecte de données à partir d’éléments de formulaire
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
