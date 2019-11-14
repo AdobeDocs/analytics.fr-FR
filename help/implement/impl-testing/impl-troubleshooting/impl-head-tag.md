@@ -1,14 +1,12 @@
 ---
 description: Le code Analytics crée un objet image, à savoir une image invisible qui n’apparaît pas sur votre page.
-keywords: Mise en œuvre d’Analytics
-seo-description: Le code Analytics crée un objet image, à savoir une image invisible qui n’apparaît pas sur votre page.
-seo-title: Placement du code Analytics dans la balise d’en-tête
+keywords: Analytics Implementation
 solution: Analytics
 title: Placement du code Analytics dans la balise d’en-tête
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
