@@ -1,11 +1,9 @@
 ---
-description: Vous pouvez partager et organiser des projets, et envoyer immédiatement ou programmer l’envoi de fichiers de projet (au format PDF ou CSV).
-seo-description: Vous pouvez partager et traiter des projets, et envoyer immédiatement ou programmer l’envoi de fichiers de projet (au format PDF ou CSV).
-seo-title: Partage et planification de fichiers de projet
+description: Vous pouvez partager et traiter des projets, et envoyer immédiatement ou programmer l’envoi de fichiers de projet (au format PDF ou CSV).
 title: Partage et planification de fichiers de projet
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
