@@ -1,14 +1,12 @@
 ---
 description: Après avoir copié les données appropriées dans le fichier de modèle de classification, vous pouvez les importer (télécharger) dans des serveurs de collecte de données Adobe.
-seo-description: Après avoir copié les données appropriées dans le fichier de modèle de classification, vous pouvez les importer (télécharger) dans des serveurs de collecte de données Adobe.
-seo-title: Importation navigateur et FTP
 solution: Analytics
 subtopic: Classifications
 title: Importation navigateur et FTP
-topic: Outils d’administration
+topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
