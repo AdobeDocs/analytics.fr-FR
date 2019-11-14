@@ -1,14 +1,12 @@
 ---
 description: Avec adobe.com utilisé comme exemple, les implémentations décrites ici référencent le même cookie visid.
-keywords: Mise en œuvre d’Analytics
-seo-description: Avec adobe.com utilisé comme exemple, les implémentations décrites ici référencent le même cookie visid.
-seo-title: Exemple de mise en œuvre
+keywords: Analytics Implementation
 solution: Analytics
 title: Exemple de mise en œuvre
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Avec adobe.com utilisé comme exemple, les implémentations décrites ici référencent le même cookie visid.
 
-**Javascript :**
+**Javascript:**
 
 ```js
 var s_account="omniturecom" 
@@ -25,7 +23,7 @@ s.visitorNamespace="omniture"
 s.trackingServer="omniture.112.2o7.net"
 ```
 
-**Demande d’image codée en dur :**
+**Demande d’image codée en dur:**
 
 ```
 <img border="0" alt="" src="https://omniture.112.2o7.net/b/ss/omniturecom/5?ns=omniture" width="1" height="1" /> 
@@ -41,7 +39,7 @@ s.trackingServer="omniture.112.2o7.net";
 
 Si des cookies propriétaires sont utilisés :
 
-**Javascript :**
+**Javascript:**
 
 ```js
 var s_account="omniturecom" 
@@ -49,7 +47,7 @@ s.visitorNamespace"omniture"
 s.trackingServer="metrics.omniture.com"
 ```
 
-**Demande d’image codée en dur :**
+**Demande d’image codée en dur:**
 
 ```
 <img border="0" alt="" src="https://metrics.omniture.com/b/ss/omniturecom/5" width="1" height="1" />
