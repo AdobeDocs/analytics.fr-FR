@@ -1,13 +1,11 @@
 ---
-description: Nombre moyen de clics dont les utilisateurs ont besoin pour atteindre une certaine page du site web.
-seo-description: Nombre moyen de clics dont les utilisateurs ont besoin pour atteindre une certaine page du site Web.
-seo-title: Profondeur de page
+description: Nombre moyen de clics dont les utilisateurs ont besoin pour atteindre une certaine page du site Web.
 solution: Analytics
 title: Profondeur de page
-topic: Mesures
+topic: Metrics
 uuid: 28ca3652-049e-46a8-a2a1-fe440d0e38a8
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
