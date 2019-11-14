@@ -1,13 +1,11 @@
 ---
 description: Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
-seo-description: Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
-seo-title: Arrêt du suivi des liens
 solution: Analytics
 title: Arrêt du suivi des liens
-topic: Activity Map
+topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,8 +23,8 @@ source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> Supprimez le contenu suivant du fichier Appmeasurement.js : 
+   <td colname="col1"> Activity Map  </td> 
+   <td colname="col2"> Supprimez le contenu suivant du fichier Appmeasurement.js :  
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
@@ -43,8 +41,7 @@ source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
   </tr> 
   <tr> 
    <td colname="col1"> Carte des clics (anciennement Carte des clics des visiteurs) </td> 
-   <td colname="col2"> <p>Définissez la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> sur false (valeur par défaut). The syntax reads as follows: 
-     <code>
+   <td colname="col2"> <p>Définissez la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> sur false (valeur par défaut). La syntaxe est la suivante :       <code>
        s.trackInlineStats=false
      </code> </p> </td> 
   </tr> 
