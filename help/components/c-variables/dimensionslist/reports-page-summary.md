@@ -1,13 +1,11 @@
 ---
 description: Collecte et organise des informations spécifiques à une page et les présente dans un seul rapport. Peut être utilisé pour comprendre comment les visiteurs accèdent à une page spécifique et s’ils poursuivent la visite de votre site ou le quittent.
-seo-description: Collecte et organise des informations spécifiques à une page et les présente dans un seul rapport. Peut être utilisé pour comprendre comment les visiteurs accèdent à une page spécifique et s’ils poursuivent la visite de votre site ou le quittent.
-seo-title: Résumé de la page
 solution: Analytics
 title: Résumé de la page
-topic: Rapports
+topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
