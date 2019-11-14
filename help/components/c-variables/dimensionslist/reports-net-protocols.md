@@ -1,13 +1,11 @@
 ---
 description: Groupe les périphériques mobiles en fonction des protocoles réseau (GPRS, CSD, EDGE, HSCSD, etc.) qu’ils prennent en charge. Le rapport inclut également un groupe Inconnu pour les protocoles réseau non identifiés.
-seo-description: Groupe les appareils mobiles en fonction des protocoles réseau (GPRS, CSD, EDGE, HSCSD, etc.) qu’ils prennent en charge. Le rapport inclut également un groupe Inconnu pour les protocoles réseau non identifiés.
-seo-title: Protocoles réseau
 solution: Analytics
 title: Protocoles réseau
-topic: Rapports
+topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
