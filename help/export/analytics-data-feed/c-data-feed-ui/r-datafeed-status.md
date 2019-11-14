@@ -1,13 +1,11 @@
 ---
 description: Les flux peuvent être affichés avec l’un des nombreux libellés d’état.
-keywords: Flux de données;état;actif;en attente d’approbation;supprimé;terminé;en attente;inactif
-seo-description: Les flux peuvent être affichés avec l’un des nombreux libellés d’état.
-seo-title: État des flux de données
+keywords: Data Feed;status;active;approval pending;deleted;complete;pending;inactive
 solution: Analytics
 title: État des flux de données
 uuid: 07ec0d16-925c-481d-801c-869eb1568689
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
