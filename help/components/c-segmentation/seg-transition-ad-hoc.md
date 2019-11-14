@@ -1,14 +1,12 @@
 ---
 description: Si vous êtes habitué à travailler avec le Créateur de segments dans les analyses ad hoc, ce forum aux questions (FAQ) explique ce qu’il advient des segments et dossiers existants ainsi que les actions que vous devez entreprendre.
 keywords: segmentation;segments
-seo-description: Si vous êtes habitué à travailler avec le Créateur de segments dans les analyses ad hoc, ce forum aux questions (FAQ) explique ce qu’il advient des segments et dossiers existants ainsi que les actions que vous devez entreprendre.
-seo-title: Guide de transition relatif aux Ad Hoc Analysis
 solution: Analytics
 title: Guide de transition relatif aux Ad Hoc Analysis
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
