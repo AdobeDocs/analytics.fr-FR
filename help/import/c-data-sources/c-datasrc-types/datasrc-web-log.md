@@ -1,14 +1,12 @@
 ---
 description: Ces sources de données vous permettent d’importer des fichiers journaux de serveur Web standard.
-seo-description: Ces sources de données vous permettent d’importer des fichiers journaux de serveur Web standard.
-seo-title: Journal web
 solution: Analytics
-subtopic: Sources de données
+subtopic: Data sources
 title: Journal web
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
