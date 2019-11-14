@@ -1,14 +1,12 @@
 ---
 description: Les événements de succès sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si un visiteur achète un article, l’achat peut être considéré comme un événement de succès..
 keywords: event
-seo-description: Les événements de succès sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si un visiteur achète un article, l’achat peut être considéré comme un événement de succès..
-seo-title: Événements de succès - Aperçu
 solution: Analytics
 title: Événements de succès - Aperçu
-topic: Outils d’administration
+topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
