@@ -1,19 +1,17 @@
 ---
 description: Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dans Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dans Analysis Workspace.
-seo-title: Raccourcis clavier disponibles dans Analysis Workspace
 solution: Analytics
-title: Raccourcis clavier disponibles dans Analysis Workspace
-topic: Reports and Analytics
-uuid: 1 ee 93 ce 3-acab -44 f 8-abdc -9 a 68 ced 35 d 32
+title: Touches de raccourci dans Analysis Workspace
+topic: Reports and analytics
+uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Raccourcis clavier disponibles dans Analysis Workspace
+# Touches de raccourci dans Analysis Workspace
 
 Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dans Analysis Workspace.
 
