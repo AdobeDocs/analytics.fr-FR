@@ -1,13 +1,11 @@
 ---
 description: Nombre de commandes passées sur votre site web au cours d’une période sélectionnée. Vous pouvez ventiler les périodes individuelles en fonction d’autres mesures afin d’afficher les éléments (produits ou campagnes) qui ont contribué à la majorité des commandes pendant cette période.
-seo-description: Nombre de commandes passées sur votre site web au cours d’une période sélectionnée. Vous pouvez ventiler les périodes individuelles en fonction d’autres mesures afin d’afficher les éléments (produits ou campagnes) qui ont contribué à la majorité des commandes pendant cette période.
-seo-title: Commandes
 solution: Analytics
 title: Commandes
-topic: Mesures
-uuid: b 20 ad 038-370 b -4343-a 394-434 d 3 c 4 bd 111
+topic: Metrics
+uuid: b20ad038-370b-4343-a394-434d3c4bd111
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,5 +18,5 @@ Nombre de commandes passées sur votre site web au cours d’une période sélec
 |---|---|
 | Trafic | N/D |
 | Conversion | *`Order`* représente le nombre de fois où l’événement d’achat est défini. |
-| Ad Hoc Analysis | *`Order`* représente le nombre de fois où l’événement d’achat est défini. |
+| Ad Hoc Analysis | *`Order`* représente le nombre de fois où l’événement d’achat est défini. |
 
