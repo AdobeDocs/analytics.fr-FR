@@ -1,13 +1,11 @@
 ---
 description: Les cibles vous permettent de mesurer les performances de votre site web et de suivre leur progression par rapport aux objectifs cibles. Vous pouvez par exemple augmenter le nombre de visiteurs provenant d’une zone géographique donnée, les recettes par commande ou le nombre de visites provenant d’un référent spécifique.
-seo-description: Les cibles vous permettent de mesurer les performances de votre site web et de suivre leur progression par rapport aux objectifs cibles. Vous pouvez par exemple augmenter le nombre de visiteurs provenant d’une zone géographique donnée, les recettes par commande ou le nombre de visites provenant d’un référent spécifique.
-seo-title: Cibles
 solution: Analytics
 title: Cibles
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
