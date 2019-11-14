@@ -1,15 +1,13 @@
 ---
 description: La prise en charge des modules externes a été modifiée dans la nouvelle version d’AppMeasurement pour JavaScript.
-keywords: Mise en œuvre d’Analytics;appmeasurement;javascript;module externe
-seo-description: La prise en charge des modules externes a été modifiée dans la nouvelle version d’AppMeasurement pour JavaScript.
-seo-title: Prise en charge des modules dans AppMeasurement
+keywords: Analytics Implementation;appmeasurement;javascript;plugin;plug-in
 solution: Analytics
-subtopic: AppMeasurement pour JavaScript
+subtopic: JavaScript AppMeasurement
 title: Prise en charge des modules dans AppMeasurement
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
