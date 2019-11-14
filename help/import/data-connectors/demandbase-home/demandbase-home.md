@@ -1,11 +1,9 @@
 ---
 description: valeur nulle
-seo-description: valeur nulle
-seo-title: Connecteur de données Demandbase pour Adobe Analytics
 title: Connecteur de données Demandbase pour Adobe Analytics
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
