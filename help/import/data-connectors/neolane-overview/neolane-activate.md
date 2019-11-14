@@ -1,11 +1,9 @@
 ---
 description: Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
-seo-description: Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
-seo-title: Activer l’intégration
 title: Activer l’intégration
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -35,6 +33,6 @@ Utilisez l’assistant de configuration des connecteurs de données Adobe pour c
 | Ouvrages uniques | Nombre d’ouvertures distinctes. |
 | Non abonné | Nombre de visiteurs qui ont ouvert le message électronique, puis cliqué sur le lien Désabonner pour exclure les futurs messages électroniques de votre entreprise. |
 | Segments | Cette intégration crée les segments définis par les partenaires affichés dans la section Segments de partenaire. De plus, vous pouvez sélectionner des segments existants au niveau de la suite de rapports à inclure dans l’intégration. |
-|  Demandes d’accès | Activez les privilèges d’accès recommandés. |
+| Demandes d’accès | Activez les privilèges d’accès recommandés. |
 | Collecte de données | Sélectionnez Module **JavaScript** si vous souhaitez utiliser le module externe s_code.js comme modèle de collecte pour cette intégration. Sélectionnez Solution **** automatisée si vous souhaitez utiliser un modèle de collecte automatisée pour cette intégration, puis spécifiez les identifiants uniques utilisés pour cette intégration. Si vous sélectionnez cette option, spécifiez les identifiants uniques utilisés pour cette intégration : <ul><li>Paramètre de chaîne de requête d’ID de message : Cette valeur représente l’ID de message ajouté à l’URL de la page d’entrée par votre partenaire de messagerie.</li><li>Paramètre de chaîne de requête d’ID de destinataire : Cette valeur représente l’ID du destinataire annexé à l’URL de la page d’entrée par votre partenaire de messagerie.</li></ul> |
 | Génération de tableaux de bord et de signets | Générer automatiquement un tableau de bord et des signets pour l’intégration. |
