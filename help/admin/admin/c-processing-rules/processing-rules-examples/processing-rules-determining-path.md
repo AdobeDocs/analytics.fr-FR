@@ -1,14 +1,12 @@
 ---
 description: Vous pouvez copier la valeur d’une variable eVar sur une valeur Prop pour activer le cheminement.
-seo-description: Vous pouvez copier la valeur d’une variable eVar sur une valeur Prop pour activer le cheminement.
-seo-title: Déterminer un chemin en copiant une valeur eVar sur une valeur prop
 solution: Analytics
-subtopic: Règles de traitement
+subtopic: Processing rules
 title: Déterminer un chemin en copiant une valeur eVar sur une valeur prop
-topic: Outils d’administration
+topic: Admin tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
