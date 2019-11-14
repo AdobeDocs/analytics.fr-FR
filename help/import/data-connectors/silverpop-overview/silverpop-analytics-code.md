@@ -1,11 +1,9 @@
 ---
 description: 'Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Analytics sur vos pages. '
-seo-description: 'Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Analytics sur vos pages. '
-seo-title: Code du module externe Analytics
 title: Code du module externe Analytics
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
