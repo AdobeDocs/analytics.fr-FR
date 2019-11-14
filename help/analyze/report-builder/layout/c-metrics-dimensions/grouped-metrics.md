@@ -1,18 +1,16 @@
 ---
 description: Vous pouvez désormais associer ces deux types de mesures en une seule et même requête, au lieu d’avoir à créer des requêtes distinctes.
-seo-description: Vous pouvez désormais associer ces deux types de mesures en une seule et même requête, au lieu d’avoir à créer des requêtes distinctes.
-seo-title: Combiner des mesures de trafic et de commerce dans la même demande
 solution: Analytics
-title: Combiner des mesures de trafic et de commerce dans la même demande
-topic: Créateur de rapports
-uuid: 2813 d 594-f 4 ec -4 f 6 a -8539-ec 7 d 954 a 392 f
+title: Association de mesures de trafic et de commerce dans la même requête
+topic: Report builder
+uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Combiner des mesures de trafic et de commerce dans la même demande
+# Association de mesures de trafic et de commerce dans la même requête
 
 Vous pouvez désormais associer ces deux types de mesures en une seule et même requête, au lieu d’avoir à créer des requêtes distinctes.
 
