@@ -1,13 +1,11 @@
 ---
 description: Utilisez le module complémentaire Créateur de rapports d’Adobe pour Microsoft Excel pour créer des requêtes personnalisées à partir des données d’analyse Web que vous pouvez insérer dans vos feuilles de calcul Excel.
 keywords: ftp;sftp
-seo-description: Utilisez le module complémentaire Créateur de rapports d’Adobe pour Microsoft Excel pour créer des requêtes personnalisées à partir des données d’analyse Web que vous pouvez insérer dans vos feuilles de calcul Excel.
-seo-title: Rapports distribués sur le Report Builder
 solution: Analytics
 title: Rapports distribués sur le Report Builder
 uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
