@@ -1,13 +1,11 @@
 ---
 description: Description de la procédure de définition d’un ensemble de critères qui détermine les membres d’une recherche de suite de rapports.
-seo-description: Description de la procédure de définition d’un ensemble de critères qui détermine les membres d’une recherche de suite de rapports.
-seo-title: Enregistrer une recherche de suite de rapports
 solution: Analytics
 title: Enregistrer une recherche de suite de rapports
-topic: Outils d’administration
-uuid: dd 83 eed 6-1374-429 c -9 fc 3-709055698 a 44
+topic: Admin tools
+uuid: dd83eed6-1374-429c-9fc3-709055698a44
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
