@@ -1,13 +1,11 @@
 ---
 description: Les rapports de source de trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site Web.
-seo-description: Les rapports de source de trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site Web.
-seo-title: Rapports sur les sources de trafic
 solution: Analytics
 title: Rapports sur les sources de trafic
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
