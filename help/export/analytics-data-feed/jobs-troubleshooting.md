@@ -1,13 +1,11 @@
 ---
 description: Si une erreur survient, elle est indiquée dans la colonne État de la tâche.
-keywords: Flux de données;tâche;résolution des problèmes;erreur;ftp;chdir;connect;login;put
-seo-description: Si une erreur survient, elle est indiquée dans la colonne État de la tâche.
-seo-title: Résolution des problèmes liés aux tâches
+keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
 solution: Analytics
 title: Résolution des problèmes liés aux tâches
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
