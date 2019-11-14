@@ -1,13 +1,11 @@
 ---
 description: Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
-seo-description: Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
-seo-title: Rapports sur les mesures du site
 solution: Analytics
 title: Rapports sur les mesures du site
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
