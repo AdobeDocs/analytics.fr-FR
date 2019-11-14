@@ -1,14 +1,12 @@
 ---
-description: Les sources de données Adobe Analytics permettent d’importer manuellement des données en ligne et hors ligne supplémentaires pour la création de rapports.
-seo-description: Les sources de données Adobe Analytics permettent d’importer manuellement des données en ligne et hors ligne supplémentaires pour la création de rapports.
-seo-title: Sources de données - Aperçu
+description: Les sources de données Adobe Analytics permettent d’importer manuellement des données en ligne et hors ligne supplémentaires pour la création de rapports.
 solution: Analytics
-subtopic: Sources de données
+subtopic: Data sources
 title: Sources de données - Aperçu
-topic: Développeur et mise en œuvre
-uuid: 8014e97d-2f1b-4cc6-ad8f-885bec8b8
+topic: Developer and implementation
+uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
