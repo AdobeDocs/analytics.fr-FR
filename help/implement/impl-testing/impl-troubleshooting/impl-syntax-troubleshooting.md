@@ -1,15 +1,13 @@
 ---
 description: Le tableau ci-dessous montre les erreurs de code courantes et le code correct.
-keywords: Mise en œuvre d’Analytics
-seo-description: Le tableau ci-dessous montre les erreurs de code courantes et le code correct.
-seo-title: Erreurs de syntaxe courantes
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Résolution des problèmes
+subtopic: Troubleshooting
 title: Erreurs de syntaxe courantes
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
