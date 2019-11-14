@@ -1,15 +1,13 @@
 ---
 description: Activez les autorisations d’utilisateurs pour les éléments généraux (facturation, journaux, etc.), la gestion des entreprises, les outils, l’accès au service web, le Report Builder et l’intégration des Data Connectors.
-keywords: groupes;autorisations
-seo-description: Activez les autorisations d’utilisateurs pour les éléments généraux (facturation, journaux, etc.), la gestion des entreprises, les outils, l’accès au service web, le Report Builder et l’intégration des Data Connectors.
-seo-title: Personnalisation des autorisations liées aux outils Analytics
+keywords: groups;permissions
 solution: Analytics
-subtopic: Utilisateurs et groupes
+subtopic: Users and groups
 title: Personnalisation des autorisations liées aux outils Analytics
-topic: Outils d’administration
+topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
