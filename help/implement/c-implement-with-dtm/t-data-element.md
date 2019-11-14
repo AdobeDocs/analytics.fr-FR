@@ -1,13 +1,11 @@
 ---
 description: Création d’un élément de données dans Dynamic Tag Management.
-keywords: Dynamic Tag Management;élément de données;créer un élément de données;nom;type;valeur par défaut;forcer l’utilisation de minuscules pour la valeur;mémoriser cette valeur pour
-seo-description: Création d’un élément de données dans Dynamic Tag Management.
-seo-title: Création d’un élément de données
+keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création d’un élément de données
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
