@@ -1,11 +1,9 @@
 ---
 description: L’assistant d’intégration des connecteurs de données vous guide tout au long du processus d’intégration des connecteurs de données.
-seo-description: L’assistant d’intégration des connecteurs de données vous guide tout au long du processus d’intégration des connecteurs de données.
-seo-title: Exécution de l’assistant d’intégration des connecteurs de données
 title: Exécution de l’assistant d’intégration des connecteurs de données
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
