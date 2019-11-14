@@ -1,13 +1,11 @@
 ---
 description: Présente les étapes et bonnes pratiques à suivre lors de la planification de vos segments.
-seo-description: Présente les étapes et bonnes pratiques à suivre lors de la planification de vos segments.
-seo-title: Planification des segments
 solution: Analytics
 title: Planification des segments
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
