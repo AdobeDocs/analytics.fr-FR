@@ -1,14 +1,12 @@
 ---
 description: Cliquez sur l’icône i (Informations) située en regard du nom de la suite de rapports pour obtenir des informations sur celle-ci.
-keywords: Suite de rapports virtuelle
-seo-description: Cliquez sur l’icône i (Informations) située en regard du nom de la suite de rapports pour obtenir des informations sur celle-ci.
-seo-title: Affichage des informations relatives à une suite de rapports virtuelle
+keywords: Virtual Report Suite
 solution: Analytics
 title: Affichage des informations relatives à une suite de rapports virtuelle
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
