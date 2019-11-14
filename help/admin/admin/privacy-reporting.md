@@ -1,12 +1,10 @@
 ---
 description: Vous pouvez activer les rapports de confidentialité.
-seo-description: Vous pouvez activer les rapports de confidentialité.
-seo-title: Reporting sur la confidentialité
 solution: Analytics
 title: Reporting sur la confidentialité
-topic: Outils d’administration
+topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
