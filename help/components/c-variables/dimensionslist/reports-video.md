@@ -1,13 +1,11 @@
 ---
 description: Affiche des informations sur vos statistiques d’accès aux médias en ligne. Ces rapports présentent des données sur l’accès aux vidéos et autres médias.
-seo-description: Affiche des informations sur vos statistiques d’accès aux médias en ligne. Ces rapports présentent des données sur l’accès aux vidéos et autres médias.
-seo-title: Vidéo
 solution: Analytics
 title: Vidéo
-topic: Rapports
+topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
