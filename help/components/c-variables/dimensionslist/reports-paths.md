@@ -1,13 +1,11 @@
 ---
 description: Affichent des informations sur l’ordre de consultation des pages de votre site web. Vous pouvez recueillir des informations sur le chemin qu’emprunte un visiteur avant et après la consultation d’une page de votre site.
-seo-description: Affichent des informations sur l’ordre de consultation des pages de votre site web. Vous pouvez recueillir des informations sur le chemin qu’emprunte un visiteur avant et après la consultation d’une page de votre site.
-seo-title: Chemins
 solution: Analytics
 title: Chemins
-topic: Rapports
+topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
