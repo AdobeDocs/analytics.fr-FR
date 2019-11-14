@@ -1,11 +1,9 @@
 ---
 description: valeur nulle
-seo-description: valeur nulle
-seo-title: Rapports Adobe Campaign
 title: Rapports Adobe Campaign
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -33,7 +31,7 @@ Pour afficher les données de Campaign dans Analytics, vous devez d’abord acti
 
    ![](assets/enable-campaign.png)
 
-## Étape 2 : Affichage des rapports Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
+## Étape 2 : Affichage des rapports Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
 The integration between Adobe Campaign Standard and Adobe Analytics adds the following report under  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**
 
