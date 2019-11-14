@@ -1,14 +1,12 @@
 ---
 description: Informations sur un modèle de source de données, qui fournit une structure de données adaptée pour l’envoi d’un jeu spécifique de données externes vers les sources de données.
-seo-description: Informations sur un modèle de source de données, qui fournit une structure de données adaptée pour l’envoi d’un jeu spécifique de données externes vers les sources de données.
-seo-title: Modèle de sources de données - Aperçu
 solution: Analytics
-subtopic: Sources de données
+subtopic: Data sources
 title: Modèle de sources de données - Aperçu
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
