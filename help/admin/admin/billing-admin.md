@@ -1,13 +1,11 @@
 ---
 description: La page Facturation vous permet d’accéder aux informations de facturation, dont les détails de trafic de chaque suite de rapports. Seul un administrateur autorisé peut accéder à cette page.
-seo-description: La page Facturation vous permet d’accéder aux informations de facturation, dont les détails de trafic de chaque suite de rapports. Seul un administrateur autorisé peut accéder à cette page.
-seo-title: Facturation
 solution: Analytics
 title: Facturation
-topic: Outils d’administration
+topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
