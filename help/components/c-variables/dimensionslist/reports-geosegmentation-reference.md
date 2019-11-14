@@ -1,13 +1,11 @@
 ---
 description: Le tableau suivant spécifie si le pays comporte des régions ou des codes postaux, ce qui indique si nous renseignerons le rapport des régions ou des codes postaux.
-seo-description: Le tableau suivant spécifie si le pays comporte des régions ou des codes postaux, ce qui indique si nous renseignerons le rapport des régions ou des codes postaux.
-seo-title: Utilisation des régions et codes postaux de géosegmentation par pays
 solution: Analytics
 title: Utilisation des régions et codes postaux de géosegmentation par pays
-topic: Rapports
+topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
