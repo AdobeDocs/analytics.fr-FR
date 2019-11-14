@@ -1,13 +1,11 @@
 ---
 description: Regroupe les versions spécifiques provenant du rapport Systèmes d’exploitation dans les types principaux de système d’exploitation pour une création de rapports et une segmentation simplifiées.
-seo-description: Regroupe les versions spécifiques provenant du rapport Systèmes d’exploitation dans les types principaux de système d’exploitation pour une création de rapports et une segmentation simplifiées.
-seo-title: Types de systèmes d’exploitation
 solution: Analytics
 title: Types de systèmes d’exploitation
-topic: Rapports
+topic: Reports
 uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
