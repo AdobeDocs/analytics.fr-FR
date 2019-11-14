@@ -1,11 +1,9 @@
 ---
 description: 'Heure est une dimension de rapport qui s’avère particulièrement utile pour établir des tendances sur diverses unités de temps : heures, jours, semaines et plages de dates. Par exemple, un rapport Produits affiche les recettes générées par un produit au cours de la période sélectionnée. Vous pouvez ajouter une dimension Jour afin d’afficher la tendance pour chaque jour de la période de rapport. Les options de granularité disponibles pour cette dimension sont : Heure, Jour, Semaine, Mois, Trimestre et Année. Les plages de dates prédéfinies sont notamment Aujourd’hui, Hier et 7 derniers jours.'
-seo-description: 'Heure est une dimension de rapport qui s’avère particulièrement utile pour établir des tendances sur diverses unités de temps : heures, jours, semaines et plages de dates. Par exemple, un rapport Produits affiche les recettes générées par un produit au cours de la période sélectionnée. Vous pouvez ajouter une dimension Jour afin d’afficher la tendance pour chaque jour de la période de rapport. Les options de granularité disponibles pour cette dimension sont : Heure, Jour, Semaine, Mois, Trimestre et Année. Les plages de dates prédéfinies sont notamment Aujourd’hui, Hier et 7 derniers jours.'
-seo-title: Heure
 title: Heure
-uuid: a6efbf80-342c-4aeb-80f3-91a3dbd33c
+uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
