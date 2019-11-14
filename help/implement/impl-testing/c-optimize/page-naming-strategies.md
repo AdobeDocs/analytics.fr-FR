@@ -1,14 +1,12 @@
 ---
 description: La variable pageName doit être renseignée avec un identifiant de page lisible et intuitif.
-keywords: Mise en œuvre d’Analytics
-seo-description: La variable pageName doit être renseignée avec un identifiant de page lisible et intuitif.
-seo-title: Stratégies de dénomination de page
+keywords: Analytics Implementation
 solution: Analytics
 title: Stratégies de dénomination de page
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
