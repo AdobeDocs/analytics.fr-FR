@@ -1,14 +1,12 @@
 ---
 description: Décrit la méthode de calcul de mesures courantes à l’aide de flux de données.
-keywords: Flux de données;tâche;mesures;précolonne;colonne de publication;robots;filtrage de date;chaîne d’événement;commun;formules
-seo-description: Décrit la méthode de calcul de mesures courantes à l’aide de flux de données.
-seo-title: Mesures calculées
+keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
 solution: Analytics
 title: Mesures calculées
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
