@@ -1,13 +1,11 @@
 ---
 description: Les tâches peuvent s’afficher avec l’un des nombreux libellés d’état.
-keywords: Flux de données;tâche;état;attente de données;échec;prêt;traitement;terminé;aucune donnée
-seo-description: Les tâches peuvent s’afficher avec l’un des nombreux libellés d’état.
-seo-title: État des tâches
+keywords: Data Feed;job;status;waiting for data;failed;ready;processing;complete;no data
 solution: Analytics
 title: État des tâches
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
