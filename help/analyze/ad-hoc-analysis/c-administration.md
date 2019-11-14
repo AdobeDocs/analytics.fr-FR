@@ -1,11 +1,9 @@
 ---
 description: Cette section vous explique comment configurer des utilisateurs et vous en apprend davantage sur l’échantillonnage des données.
-seo-description: Cette section vous explique comment configurer des utilisateurs et vous en apprend davantage sur l’échantillonnage des données.
-seo-title: Administration
 title: Administration
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
