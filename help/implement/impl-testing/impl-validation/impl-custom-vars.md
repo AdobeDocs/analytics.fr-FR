@@ -1,14 +1,12 @@
 ---
 description: Liste des variables personnalisées utilisées dans Analytics.
-keywords: Mise en œuvre d’Analytics
-seo-description: Liste des variables personnalisées utilisées dans Analytics.
-seo-title: Variables personnalisées
+keywords: Analytics Implementation
 solution: Analytics
 title: Variables personnalisées
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 54adf622-7f05-49c0-b7e6-702bb2f17b1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
