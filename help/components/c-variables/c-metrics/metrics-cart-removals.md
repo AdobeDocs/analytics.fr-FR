@@ -1,13 +1,11 @@
 ---
 description: Nombre de fois où un article a été supprimé d’un panier. Cette valeur provient de l’événement scRemove.
-seo-description: Nombre de fois où un article a été supprimé d’un panier. Cette valeur provient de l’événement scRemove.
-seo-title: Retraits du panier
 solution: Analytics
 title: Retraits du panier
-topic: Mesures
-uuid: bddd 5 c 63-e 906-472 a -8 aec-a 342 f 417 ddfa
+topic: Metrics
+uuid: bddd5c63-e906-472a-8aec-a342f417ddfa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
