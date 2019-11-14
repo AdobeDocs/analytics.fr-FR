@@ -1,14 +1,12 @@
 ---
-description: 'Envoyez un projet Analysis Workspace par courrier électronique ou planifiez une livraison. '
+description: Envoyez un projet Analysis Workspace par courrier électronique ou planifiez une livraison.
 keywords: Analysis Workspace
-seo-description: Envoyez un projet Analysis Workspace par courrier électronique ou planifiez une livraison.
-seo-title: Envoi d’un fichier – Planification de la livraison d’un projet
 solution: Analytics
 title: Envoi d’un fichier – Planification de la livraison d’un projet
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
