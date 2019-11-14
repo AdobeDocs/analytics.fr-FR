@@ -1,14 +1,12 @@
 ---
 description: Une fois que les serveurs de collecte DFA et Adobe® communiquent, vous pouvez générer dans la fonctionnalité Rapports et analyses des rapports qui comprennent les données DFA.
 keywords: DFA
-seo-description: Une fois que les serveurs de collecte DFA et Adobe® communiquent, vous pouvez générer dans la fonctionnalité Rapports et analyses des rapports qui comprennent les données DFA.
-seo-title: Rapports Analytics utilisant des données DFA
 solution: Analytics
 title: Rapports Analytics utilisant des données DFA
-topic: Connecteurs de données
+topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
