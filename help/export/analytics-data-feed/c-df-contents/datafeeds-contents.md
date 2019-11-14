@@ -1,15 +1,13 @@
 ---
 description: Cette section décrit les fichiers qui figurent dans une diffusion de flux de données.
-keywords: Flux de données;tâche;contenu;manifeste;fichier;recherche;données d’accès;contenu de diffusion
-seo-description: Cette section décrit les fichiers qui figurent dans une diffusion de flux de données.
-seo-title: Contenu du flux de données - Aperçu
+keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 solution: Analytics
-subtopic: flux de données
+subtopic: data feeds
 title: Contenu du flux de données - Aperçu
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
