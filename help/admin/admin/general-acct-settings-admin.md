@@ -1,13 +1,11 @@
 ---
 description: Description des champs Paramètres du compte général d’une suite de rapports dans Admin.
-seo-description: Description des champs Paramètres du compte général d’une suite de rapports dans Admin.
-seo-title: Paramètres du compte général
 solution: Analytics
 title: Paramètres du compte général
-topic: Outils d’administration
+topic: Admin tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
