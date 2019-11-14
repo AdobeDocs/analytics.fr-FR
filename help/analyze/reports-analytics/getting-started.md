@@ -1,14 +1,12 @@
 ---
 description: Avant d’utiliser Reports & Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
-seo-description: Avant d’utiliser Reports & Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
-seo-title: Prise en main de Reports and Analytics
 solution: Analytics
-subtopic: Prise en main
+subtopic: Get started
 title: Prise en main de Reports and Analytics
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
