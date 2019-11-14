@@ -1,13 +1,11 @@
 ---
 description: Affiche le trafic sur des pages Web et classe les pages vues en temps réel afin que vous puissiez comprendre rapidement les tendances de votre site.
-seo-description: Affiche le trafic sur des pages Web et classe les pages vues en temps réel afin que vous puissiez comprendre rapidement les tendances de votre site.
-seo-title: Rapports en temps réel
 solution: Analytics
 title: Rapports en temps réel
-topic: Créateur de rapports
+topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
