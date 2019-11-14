@@ -1,13 +1,11 @@
 ---
 description: Pour retrouver une tâche dans la liste, vous pouvez vous servir des fonctions de recherche et de filtrage.
-keywords: Flux de données ; tâche ; filter ; recherche
-seo-description: Pour retrouver une tâche dans la liste, vous pouvez vous servir des fonctions de recherche et de filtrage.
-seo-title: Filtrage de la liste des tâches
+keywords: Data Feed;job;filter;search
 solution: Analytics
 title: Filtrage de la liste des tâches
-uuid: 811990 bb-b 721-42 c 3-9262-2 ec 2 ba 262087
+uuid: 811990bb-b721-42c3-9262-2ec2ba262087
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
