@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics prend en charge les modèles de classification à niveau unique et à plusieurs niveaux. Une hiérarchie de classification vous permet d’appliquer une classification à une autre classification.
-seo-description: Adobe Analytics prend en charge les modèles de classification à niveau unique et à plusieurs niveaux. Une hiérarchie de classification vous permet d’appliquer une classification à une autre classification.
-seo-title: À propos des sous-classifications
 solution: Analytics
 subtopic: Classifications
 title: À propos des sous-classifications
-topic: Outils d’administration
+topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
