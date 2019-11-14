@@ -1,14 +1,12 @@
 ---
 description: La plupart des périphériques mobiles acceptent les cookies des navigateurs. Néanmoins, dans les cas où les périphériques n’acceptent pas les cookies, une autre méthode est utilisée pour identifier de manière unique les périphériques sans fil.
-keywords: Mise en œuvre d’Analytics
-seo-description: La plupart des périphériques mobiles acceptent les cookies des navigateurs. Néanmoins, dans les cas où les périphériques n’acceptent pas les cookies, une autre méthode est utilisée pour identifier de manière unique les périphériques sans fil.
-seo-title: Identification des appareils mobiles
+keywords: Analytics Implementation
 solution: Analytics
 title: Identification des appareils mobiles
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
