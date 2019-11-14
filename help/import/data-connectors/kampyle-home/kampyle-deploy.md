@@ -1,12 +1,10 @@
 ---
 description: valeur nulle
-seo-description: valeur nulle
-seo-title: Déploiement de l’intégration
 solution: Analytics
 title: Déploiement de l’intégration
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -75,4 +73,3 @@ Affichez vos rapports de commentaires Kampyle avec Adobe Analytics en accédant 
 > [!NOTE] Les données de création de rapports doivent apparaître dans les 24 à 48 heures suivant le déploiement réussi, en supposant que les formulaires de rétroaction intégrés reçoivent activement des soumissions.
 
 ![](assets/adobe_reporting_data.png)
-
