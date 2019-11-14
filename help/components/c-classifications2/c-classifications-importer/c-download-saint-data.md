@@ -1,14 +1,12 @@
 ---
 description: (Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Ce fichier de données utilise les classifications voulues sous la forme d’en-têtes de colonne, puis classe le jeu de données de rapport sous les en-têtes de classification adéquats.
-seo-description: (Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Ce fichier de données utilise les classifications voulues sous la forme d’en-têtes de colonne, puis classe le jeu de données de rapport sous les en-têtes de classification adéquats.
-seo-title: Modèle de classification
 solution: Analytics
 subtopic: Classifications
 title: Modèle de classification
-topic: Outils d’administration
+topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
