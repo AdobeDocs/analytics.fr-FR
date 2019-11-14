@@ -1,14 +1,12 @@
 ---
 description: Le fichier .js peut être configuré pour sélectionner automatiquement l’identifiant (ID) d’une suite de rapports.
-keywords: Mise en œuvre d’Analytics
-seo-description: Le fichier .js peut être configuré pour sélectionner automatiquement l’identifiant (ID) d’une suite de rapports.
-seo-title: 'Identifiants de suite de rapports : comptes dynamiques'
+keywords: Analytics Implementation
 solution: Analytics
 title: 'Identifiants de suite de rapports : comptes dynamiques'
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 763a9741-309d-4795-8819-6543866047d5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
