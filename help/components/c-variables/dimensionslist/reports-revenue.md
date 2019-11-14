@@ -1,13 +1,11 @@
 ---
 description: Mesure le volume des revenus générés par tous les produits sur une période donnée.
-seo-description: Mesure le volume des revenus générés par tous les produits sur une période donnée.
-seo-title: Recettes
 solution: Analytics
 title: Recettes
-topic: Rapports
+topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
