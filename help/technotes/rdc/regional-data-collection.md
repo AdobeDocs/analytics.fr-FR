@@ -1,10 +1,8 @@
 ---
 title: Collecte de données régionale
-seo-title: Collecte de données régionales Adobe Analytics
-description: Informations sur la collecte de données régionales
-seo-description: Informations sur la collecte de données régionales
+description: Informations sur la collecte des données régionales
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -13,7 +11,7 @@ source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
 
 Découvrez la collecte de données régionale et comment modifier votre réseau de collecte, si nécessaire.
 
-Pour améliorer les performances de collecte de données, tous les clients Adobe Experience Cloud ont été convertis en collecte de données régionale afin que la collection se produise aussi près que possible de votre fin - utilisateurs. Cela améliore les performances de votre site/application et garantit que les données sont collectées aussi rapidement que possible pour optimiser la fin - expérience utilisateur. Une fois que les données provenant des propriétés numériques sont collectées dans un centre de collecte de données, elles sont transférées au moyen d’une connexion sécurisée à un centre de traitement de données, où elles sont traitées et mises à la disposition des produits dans Adobe Experience Cloud. La collecte de données régionale est choisie par défaut pour les nouvelles implémentations depuis 2009.
+Pour améliorer les performances de la collecte de données, tous les clients Adobe Experience Cloud ont été convertis en collecte de données régionale (RDC) afin que la collecte se déroule aussi près que possible de vos utilisateurs finaux. Cela améliore les performances de votre site/application et garantit que les données sont collectées le plus rapidement possible pour optimiser l’expérience de l’utilisateur final. Une fois que les données provenant des propriétés numériques sont collectées dans un centre de collecte de données, elles sont transférées au moyen d’une connexion sécurisée à un centre de traitement de données, où elles sont traitées et mises à la disposition des produits dans Adobe Experience Cloud. La collecte de données régionale est choisie par défaut pour les nouvelles implémentations depuis 2009.
 
 La collecte de données régionale inclut les emplacements suivants (sujets à modification) :
 
@@ -32,9 +30,9 @@ Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` e
 |---------------------|-------------------|
 | Standard | San José, Virginie, Londres, Singapour |
 | Toutes | Standard plus Hong Kong, Sydney, Amsterdam |
-| US seulement | San José, Virginie |
-| UE seulement | Londres, Amsterdam |
-| Inde uniquement | Mumbai |
+| Etats-Unis uniquement | San José, Virginie |
+| UE uniquement | Londres, Amsterdam |
+| Inde seulement | Mumbai |
 
 ## Fonctionnement de la collecte de données régionale
 
@@ -48,12 +46,12 @@ La liste suivante décrit le processus de collecte de données utilisé par Adob
 
 | Avantage | Description |
 |---------|-----------|
-| Performances | Avec la collecte de données régionale, vos visiteurs se connecteront au réseau DCC le plus proche. Ainsi, les temps de réponse sur votre page diminuent, ce qui entraîne un suivi plus précis et des temps de chargement plus courts. Vous trouverez des informations détaillées supplémentaires sur les temps de réponse dans la section Améliorations des performances liées à la collecte de données régionale. |
-| Redondance | En cas de rupture de communication avec une DCC, la collecte de données est automatiquement acheminée vers la prochaine version de DCC la plus proche assurant la continuité du service. |
+| Performances | Avec la collecte de données régionale, vos visiteurs se connecteront au CC le plus proche. Ainsi, les temps de réponse sur votre page diminuent, ce qui entraîne un suivi plus précis et des temps de chargement plus courts. Vous trouverez des informations détaillées supplémentaires sur les temps de réponse dans la section Améliorations des performances liées à la collecte de données régionale. |
+| Redondance | En cas d’interruption de la communication avec un CDC, la collecte de données est automatiquement acheminée vers le CC le plus proche afin d’assurer la continuité du service. |
 | Redondance | Dans le cas d’une interruption de communication entre le centre de collecte de données et votre centre de traitement de données, l’infrastructure de collecte de données régionale d’Adobe enregistre les données localement, puis les transmet au centre de traitement de données lorsque les communications sont restaurées. |
 
 ## Historique des révisions de la documentation
 
 | Mise à jour | Description |
 |--------|---------|
-| 20 février 2019 | Réécriture terminée. Ajout d'informations sur le réseau RDC. |
+| 20 février 2019 | Réécriture terminée. Ajout d’informations réseau de CRD. |
