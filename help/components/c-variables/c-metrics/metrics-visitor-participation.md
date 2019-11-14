@@ -1,13 +1,11 @@
 ---
 description: Participation des visiteurs est une mesure qui vous permet de visualiser la participation entre différentes sessions, ainsi qu’à des canaux marketing, campagnes, recettes, etc. Par exemple, les crédits de recette et d’achat peuvent être réattribués à d’autres points de contact marketing qui se sont produits avant la visite au cours de laquelle la commande a été passée. Ad Hoc Analysis indique la participation des visiteurs au cours de différentes visites.
-seo-description: Participation des visiteurs est une mesure qui vous permet de visualiser la participation entre différentes sessions, ainsi qu’à des canaux marketing, campagnes, recettes, etc. Par exemple, les crédits de recette et d’achat peuvent être réattribués à d’autres points de contact marketing qui se sont produits avant la visite au cours de laquelle la commande a été passée. Ad Hoc Analysis indique la participation des visiteurs au cours de différentes visites.
-seo-title: Participation des visiteurs – Ad Hoc Analysis
 solution: Analytics
 title: Participation des visiteurs – Ad Hoc Analysis
-topic: Mesures
+topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
