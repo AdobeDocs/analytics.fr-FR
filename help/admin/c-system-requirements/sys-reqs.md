@@ -1,12 +1,10 @@
 ---
 description: Cette rubrique fournit des détails sur la configuration requise pour chaque interface utilisateur d’Adobe Analytics.
-seo-description: Cette rubrique fournit des détails sur la configuration requise pour chaque interface utilisateur d’Adobe Analytics.
-seo-title: Configuration requise
 solution: Analytics
 title: Configuration requise
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ Cette rubrique fournit des détails sur la configuration requise pour chaque int
 
 Adobe prend en charge la dernière version majeure de ces navigateurs :
 
-* Microsoft Edge. (Adobe ended support for Microsoft Internet Explorer 11 within Adobe Analytics on November 13, 2018. Veuillez passer à la dernière version majeure de Microsoft Edge ou d’un autre navigateur pris en charge, dès que possible.)
+* Microsoft Edge. (Adobe a mis fin à la prise en charge de Microsoft Internet Explorer 11 dans Adobe Analytics le 13 novembre 2018. Veuillez passer à la dernière version majeure de Microsoft Edge ou d’un autre navigateur pris en charge, dès que possible.)
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
