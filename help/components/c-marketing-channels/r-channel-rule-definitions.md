@@ -1,14 +1,12 @@
 ---
 description: Ce tableau de référence définit les champs, options et attributs de visite que vous pouvez sélectionner sur la page Règles de traitement des canaux marketing.
-seo-description: Ce tableau de référence définit les champs, options et attributs de visite que vous pouvez sélectionner sur la page Règles de traitement des canaux marketing.
-seo-title: Règles de traitement des canaux marketing - Définitions
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: Règles de traitement des canaux marketing - Définitions
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
