@@ -1,13 +1,11 @@
 ---
 description: Le mode hors ligne renvoie des données d’espace réservé afin d’accélérer le processus de création et de modification des requêtes.
-seo-description: Le mode hors ligne renvoie des données d’espace réservé afin d’accélérer le processus de création et de modification des requêtes.
-seo-title: Mode hors ligne pour la création et la modification de requêtes
 solution: Analytics
 title: Mode hors ligne pour la création et la modification de requêtes
-topic: Créateur de rapports
+topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
