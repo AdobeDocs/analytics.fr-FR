@@ -1,15 +1,13 @@
 ---
 description: Les utilisateurs peuvent compresser le fichier de bibliothèque JavaScript en utilisant un codage standard (tel que gzip).
-keywords: Mise en œuvre d’Analytics
-seo-description: Les utilisateurs peuvent compresser le fichier de bibliothèque JavaScript en utilisant un codage standard (tel que gzip).
-seo-title: Compression de fichiers
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Résolution des problèmes
+subtopic: Troubleshooting
 title: Compression de fichiers
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
