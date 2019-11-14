@@ -1,14 +1,12 @@
 ---
 description: valeur nulle
-keywords: Flux de données;tâche;visiteurs;Experience Cloud ID;identifiant visiteur analytics;identifier
-seo-description: valeur nulle
-seo-title: Identification des visiteurs
+keywords: Data Feed;job;visitors;Experience Cloud ID;analytics visitor id;identify
 solution: Analytics
 title: Identification des visiteurs
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
