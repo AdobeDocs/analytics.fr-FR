@@ -1,13 +1,11 @@
 ---
 description: Les mesures de participation attribuent la totalité du crédit des événements de succès à toutes les valeurs d’une eVar transmises durant une visite. Ces mesures se révèlent particulièrement utiles pour déterminer les pages, les campagnes ou d’autres variables personnalisées qui contribuent le plus au succès de votre site. La participation dépend des visites. Toutes les valeurs d’eVar d’une visite avant l’accès (accès compris) lorsqu’un événement survient reçoivent le crédit de la participation, quel que soit le paramètre d’expiration.
-seo-description: Les mesures de participation attribuent la totalité du crédit des événements de succès à toutes les valeurs d’une eVar transmises durant une visite. Ces mesures se révèlent particulièrement utiles pour déterminer les pages, les campagnes ou d’autres variables personnalisées qui contribuent le plus au succès de votre site. La participation dépend des visites. Toutes les valeurs d’eVar d’une visite avant l’accès (accès compris) lorsqu’un événement survient reçoivent le crédit de la participation, quel que soit le paramètre d’expiration.
-seo-title: Participation
 solution: Analytics
 title: Participation
-topic: Mesures
+topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
