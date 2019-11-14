@@ -1,15 +1,13 @@
 ---
 description: Les analyseurs de paquets vous permettent de voir les données envoyées par votre implémentation aux serveurs de collecte de données Adobe.
-keywords: Mise en œuvre d’Analytics
-seo-description: Les analyseurs de paquets vous permettent de voir les données envoyées par votre implémentation aux serveurs de collecte de données Adobe.
-seo-title: Analyseurs de paquets
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Débogueur
+subtopic: Debugger
 title: Analyseurs de paquets
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
