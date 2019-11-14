@@ -1,13 +1,11 @@
 ---
 description: Copiez une requête simple plutôt qu’une requête référentielle. Une requête simple ne contient aucune référence à une autre requête, ni au contenu d’une cellule.
-seo-description: Copiez une requête simple plutôt qu’une requête référentielle. Une requête simple ne contient aucune référence à une autre requête, ni au contenu d’une cellule.
-seo-title: Copie de requêtes simples
 solution: Analytics
 title: Copie de requêtes simples
-topic: Créateur de rapports
+topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
