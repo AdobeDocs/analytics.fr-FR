@@ -1,13 +1,11 @@
 ---
 description: Indique les zones de votre site qui sont les plus consultées par les utilisateurs. Les sections du site peuvent inclure des groupes de produits, similaires aux catégories que vous définissez. Vous pouvez, par exemple, définir un groupe de pages Caméras, un groupe Ordinateurs, etc. Les données relatives au rapport Sections du site de conversion sont importées du rapport Section du site dans le groupe Trafic, lequel reçoit ses informations de la variable de canal dans le code de suivi. Utilisez ce rapport pour identifier le plus grand impact sur les statistiques du site des éléments de différentes sections.
-seo-description: Indique les zones de votre site qui sont les plus consultées par les utilisateurs. Les sections du site peuvent inclure des groupes de produits, similaires aux catégories que vous définissez. Vous pouvez, par exemple, définir un groupe de pages Caméras, un groupe Ordinateurs, etc. Les données relatives au rapport Sections du site de conversion sont importées du rapport Section du site dans le groupe Trafic, lequel reçoit ses informations de la variable de canal dans le code de suivi. Utilisez ce rapport pour identifier le plus grand impact sur les statistiques du site des éléments de différentes sections.
-seo-title: Sections du site
 solution: Analytics
 title: Sections du site
-topic: Rapports
+topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
