@@ -1,14 +1,12 @@
 ---
 description: Les suites de rapports virtuelles peuvent être utilisées pour remplacer le balisage multisite. Par exemple, au lieu d’envoyer des données à deux suites de rapports distinctes, vous pouvez les envoyer à une suite de rapports et utiliser des suites de rapports virtuelles pour limiter l’accès aux données des utilisateurs. Toutefois, l’accès aux données est l’une des raisons pour lesquelles il est intéressant d’utiliser des suites de rapports distinctes. Examinez attentivement les cas d’utilisation suivants avant d’apporter des modifications d’implémentation en ce qui concerne les suites de rapports virtuelles.
-keywords: Suite de rapports virtuelle
-seo-description: Les suites de rapports virtuelles peuvent être utilisées pour remplacer le balisage multisite. Par exemple, au lieu d’envoyer des données à deux suites de rapports distinctes, vous pouvez les envoyer à une suite de rapports et utiliser des suites de rapports virtuelles pour limiter l’accès aux données des utilisateurs. Toutefois, l’accès aux données est l’une des raisons pour lesquelles il est intéressant d’utiliser des suites de rapports distinctes. Examinez attentivement les cas d’utilisation suivants avant d’apporter des modifications d’implémentation en ce qui concerne les suites de rapports virtuelles.
-seo-title: Considérations sur les suites de rapports virtuelles et le balisage global et multisuite
+keywords: Virtual Report Suite
 solution: Analytics
 title: Considérations sur les suites de rapports virtuelles et le balisage global et multisuite
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: a835e5f4d7569532f220dc3d59f88ee7468a909e
 
 ---
 
