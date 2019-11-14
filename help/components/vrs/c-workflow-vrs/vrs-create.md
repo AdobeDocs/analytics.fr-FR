@@ -1,14 +1,12 @@
 ---
 description: Avant de créer des suites de rapports virtuelles, vous devez tenir compte des quelques points suivants.
-keywords: Suite de rapports virtuelle
-seo-description: Avant de créer des suites de rapports virtuelles, vous devez tenir compte des quelques points suivants.
-seo-title: Création des suites de rapports virtuelles
+keywords: Virtual Report Suite
 solution: Analytics
 title: Création des suites de rapports virtuelles
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
