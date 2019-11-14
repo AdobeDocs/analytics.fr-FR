@@ -1,14 +1,12 @@
 ---
 description: Créez une cohorte et exécutez un rapport d’analyse des cohortes dans Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Créez une cohorte et exécutez un rapport d’analyse des cohortes dans Analysis Workspace.
-seo-title: Exécution d’un rapport d’analyse des cohortes
 solution: Analytics
 title: Exécution d’un rapport d’analyse des cohortes
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
