@@ -1,14 +1,12 @@
 ---
 description: Les portées de données de conversion suivantes, ainsi que les mesures pour les types de données traités comme conversion, sont prises en charge.
-seo-description: Les portées de données de conversion suivantes, ainsi que les mesures pour les types de données traités comme conversion, sont prises en charge.
-seo-title: Conversion
 solution: Analytics
-subtopic: Sources de données
+subtopic: Data sources
 title: Conversion
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
