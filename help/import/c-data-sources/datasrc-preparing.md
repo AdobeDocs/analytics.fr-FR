@@ -1,14 +1,12 @@
 ---
 description: Procédure de préparation à l’utilisation des sources de données
-seo-description: Procédure de préparation à l’utilisation des sources de données
-seo-title: Préparation à l’utilisation des sources de données
 solution: Analytics
-subtopic: Sources de données
+subtopic: Data sources
 title: Préparation à l’utilisation des sources de données
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
