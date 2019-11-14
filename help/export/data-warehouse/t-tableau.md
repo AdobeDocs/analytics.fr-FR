@@ -1,13 +1,11 @@
 ---
 description: L’entrepôt de données peut fournir des rapports au format de fichier TDE (Tableau Data Extract) qui vous permet de visualiser des données et des couches dans des données supplémentaires provenant d’Adobe Analytics externes. Vous pouvez envoyer ces informations par courrier électronique ou par FTP.
-seo-description: L’entrepôt de données peut fournir des rapports au format de fichier TDE (Tableau Data Extract) qui vous permet de visualiser des données et des couches dans des données supplémentaires provenant d’Adobe Analytics externes. Vous pouvez envoyer ces informations par courrier électronique ou par FTP.
-seo-title: Fichier de données Tableau
 solution: Analytics
 title: Fichier de données Tableau
-topic: Data Warehouse
+topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
