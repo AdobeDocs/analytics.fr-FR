@@ -1,13 +1,11 @@
 ---
 description: Les sections Trafic permanent vous permettent de modifier vos prévisions en termes de volume de trafic, de telle sorte qu’Adobe puisse réaffecter des ressources en conséquence.
-seo-description: Les sections Trafic permanent vous permettent de modifier vos prévisions en termes de volume de trafic, de telle sorte qu’Adobe puisse réaffecter des ressources en conséquence.
-seo-title: Indication d’une augmentation permanente du trafic
 solution: Analytics
 title: Indication d’une augmentation permanente du trafic
-topic: Outils d’administration
+topic: Admin tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
