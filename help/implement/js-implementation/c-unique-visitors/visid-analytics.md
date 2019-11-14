@@ -1,14 +1,12 @@
 ---
 description: Lorsqu’un utilisateur visite votre site, un cookie persistant est défini par le serveur Web d’Adobe en l’incluant dans la réponse HTTP au navigateur. Ce cookie est défini sur le domaine de collecte de données spécifié.
-keywords: Mise en œuvre d’Analytics
-seo-description: Lorsqu’un utilisateur visite votre site, un cookie persistant est défini par le serveur Web d’Adobe en l’incluant dans la réponse HTTP au navigateur. Ce cookie est défini sur le domaine de collecte de données spécifié.
-seo-title: Identifiant visiteur Analytics
+keywords: Analytics Implementation
 solution: Analytics
 title: Identifiant visiteur Analytics
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
