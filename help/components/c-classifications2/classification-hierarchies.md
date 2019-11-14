@@ -1,14 +1,12 @@
 ---
 description: La page Hiérarchies de classification permet de définir des hiérarchies de classification à utiliser pour créer un rapport portant le même nom.
-seo-description: La page Hiérarchies de classification permet de définir des hiérarchies de classification à utiliser pour créer un rapport portant le même nom.
-seo-title: Hiérarchies de classification
 solution: Analytics
 subtopic: Classifications
 title: Hiérarchies de classification
-topic: Outils d’administration
+topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
