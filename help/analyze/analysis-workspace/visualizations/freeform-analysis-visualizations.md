@@ -1,14 +1,12 @@
 ---
 description: Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
-seo-title: Visualisations - Aperçu
 solution: Analytics
 title: Visualisations - Aperçu
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,7 +49,7 @@ Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une 
   </tr> 
   <tr> 
    <td colname="col1"> <p>100 % empilé </p> </td> 
-   <td colname="col2"> <p>Ce paramètre appliqué aux graphiques à zones empilées, à barres empilées ou à barres horizontales empilées offre un aperçu « 100 % empilé » du diagramme. Exemple: </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
+   <td colname="col2"> <p>Ce paramètre appliqué aux graphiques à zones empilées, à barres empilées ou à barres horizontales empilées offre un aperçu « 100 % empilé » du diagramme. Exemple : </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Légende visible </p> </td> 
