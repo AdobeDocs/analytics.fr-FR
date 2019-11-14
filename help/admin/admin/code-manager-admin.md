@@ -1,13 +1,11 @@
 ---
 description: Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
-seo-description: Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
-seo-title: Gestionnaire de code
 solution: Analytics
 title: Gestionnaire de code
-topic: Outils d’administration
+topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
