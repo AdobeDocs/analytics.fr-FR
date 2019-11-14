@@ -1,18 +1,16 @@
 ---
 description: Affiche le nombre de visites pour lesquelles le nombre de visites est supérieur à 1 et comprend des visiteurs sans cookies.
-seo-description: Affiche le nombre de visites pour lesquelles le nombre de visites est supérieur à 1 et comprend des visiteurs sans cookies.
-seo-title: Visites récurrentes
 solution: Analytics
-title: Visites récurrentes
-topic: Présentation
-uuid: 626 ffbea-dab 9-461 c-b 558-7 daadd 76 ff 73
+title: Visites retours
+topic: Reports
+uuid: 626ffbea-dab9-461c-b558-7daadd76ff73
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Visites récurrentes
+# Visites retours
 
 Affiche le nombre de visites pour lesquelles le nombre de visites est supérieur à 1 et comprend des visiteurs sans cookies.
 
