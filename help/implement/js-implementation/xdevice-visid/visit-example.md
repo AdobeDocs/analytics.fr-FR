@@ -1,15 +1,13 @@
 ---
 description: Cet exemple présente des appels au serveur émis dans le cadre d’une interaction client type.
-keywords: Mise en œuvre d’Analytics
-seo-description: Cet exemple présente des appels au serveur émis dans le cadre d’une interaction client type.
-seo-title: Exemple de visite
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Visiteurs
+subtopic: Visitors
 title: Exemple de visite
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
