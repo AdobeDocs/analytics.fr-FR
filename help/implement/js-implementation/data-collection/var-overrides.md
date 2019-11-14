@@ -1,15 +1,13 @@
 ---
 description: Les remplacements de variables permettent de modifier une valeur de variable pour un seul suivi ou un appel de lien de suivi.
-keywords: Mise en œuvre d’Analytics
-seo-description: Les remplacements de variables permettent de modifier une valeur de variable pour un seul suivi ou un appel de lien de suivi.
-seo-title: Remplacements de variables
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Variables
 title: Remplacements de variables
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
