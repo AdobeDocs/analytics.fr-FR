@@ -1,13 +1,11 @@
 ---
 description: Cette section contient des informations sur les types de rapports de base, notamment les rapports sur le trafic, la conversion et sur les chemins.
-seo-description: Cette section contient des informations sur les types de rapports de base, notamment les rapports sur le trafic, la conversion et sur les chemins.
-seo-title: Types de rapports
 solution: Analytics
 title: Types de rapports
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
