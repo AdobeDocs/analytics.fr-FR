@@ -1,11 +1,9 @@
 ---
 description: Affiche des informations sur l’accès aux sites Web depuis un périphérique mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les périphériques mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
-seo-description: Affiche des informations sur l’accès aux sites Web depuis un périphérique mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les périphériques mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
-seo-title: Rapports sur les périphériques mobiles
 title: Rapports sur les périphériques mobiles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
