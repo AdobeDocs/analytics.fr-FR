@@ -1,13 +1,11 @@
 ---
 description: Affiche le trafic des pages web et classe les pages vues en temps réel. Fournit des données pratiques pour vos prises de décision professionnelles.
-seo-description: Affiche le trafic des pages web et classe les pages vues en temps réel. Fournit des données pratiques pour vos prises de décision professionnelles.
-seo-title: Rapports en temps réel
 solution: Analytics
 title: Rapports en temps réel
-topic: Rapports
+topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -55,4 +53,4 @@ Cette augmentation se reflète dans tous les services et outils d’Adobe Analyt
 * Pour la diffusion en continu active, les rapports en temps réel, les requêtes d’API et les données actives pour les variables de trafic, seuls les accès avec un ID supplémentaire sont retardés.
 * Pour les données actives sur les mesures de conversion, les données finalisées et les flux de données, tous les accès sont retardés de 5 à 7 minutes supplémentaires.
 
-Gardez à l’esprit que l’augmentation de la latence commence une fois que vous avez mis en oeuvre Identity Service, même si vous n’avez pas complètement implémenté cette intégration.
+Gardez à l’esprit que l’augmentation de latence débute une fois que vous avez implémenté le service d’identité, même si vous n’avez pas entièrement implémenté cette intégration.
