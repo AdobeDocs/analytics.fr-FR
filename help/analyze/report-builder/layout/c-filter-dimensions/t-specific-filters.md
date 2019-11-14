@@ -1,13 +1,11 @@
 ---
 description: Filtres qui s’appliquent à des termes de dimension spécifiques.
-seo-description: Filtres qui s’appliquent à des termes de dimension spécifiques.
-seo-title: Filtres spécifiques
 solution: Analytics
 title: Filtres spécifiques
-topic: Créateur de rapports
+topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
