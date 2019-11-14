@@ -1,13 +1,11 @@
 ---
 description: Affiche une ventilation des mots-clés de recherche.
-seo-description: Affiche une ventilation des mots-clés de recherche.
-seo-title: Mots-clés de recherche
 solution: Analytics
 title: Mots-clés de recherche
-topic: Présentation
-uuid: db 9 d 477 b-b 711-4 b 93-9 c 25-3 aebe 5 f 2 ace 6
+topic: Reports
+uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,7 +22,7 @@ Affiche une ventilation des mots-clés de recherche.
 
 >[!IMPORTANT]
 >
->Pour la recherche payante et naturelle, les moteurs de recherche arrêtaient de fournir (dans la plupart des cas) les mots-clés de recherche dans le cadre du référent. Par conséquent, Adobe classe toujours le domaine Google (ou Bing ou Yahoo) comme recherche. En fonction du format et du contenu du référent (même sans les mots-clés), Adobe peut souvent déterminer qu’il s’agit du résultat d’une recherche. La recherche est donc comptabilisée avec les mots-clés non disponibles. [Plus…](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>Pour la recherche payante et naturelle, les moteurs de recherche ont cessé de fournir (dans la plupart des cas) les mots-clés de recherche en tant que partie intégrante du référent. Par conséquent, Adobe classe toujours le domaine Google (ou Bing ou Yahoo) comme recherche. En fonction du format et du contenu du référent (même sans les mots-clés), Adobe peut souvent déterminer qu’il s’agit du résultat d’une recherche. La recherche est donc comptabilisée avec les mots-clés non disponibles. [Plus…](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## Attribution, expiration et valeurs spéciales {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -32,7 +30,7 @@ Affiche une ventilation des mots-clés de recherche.
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </th> 
+   <th colname="col2" class="entry"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </th> 
    <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr> 
