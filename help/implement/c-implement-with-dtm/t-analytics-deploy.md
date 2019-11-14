@@ -1,13 +1,11 @@
 ---
 description: Créez un outil Adobe Analytics pour le déploiement à l’aide de Dynamic Tag Management. Cette procédure décrit une mise en œuvre (héritée) manuelle.
-keywords: 'Dynamic Tag Management '
-seo-description: Créez un outil Adobe Analytics pour le déploiement à l’aide de Dynamic Tag Management. Cette procédure décrit une mise en œuvre (héritée) manuelle.
-seo-title: Mise en œuvre manuelle d’Adobe Analytics (héritée)
+keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Mise en œuvre manuelle d’Adobe Analytics (héritée)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ Si vous souhaitez passer une configuration manuelle sur automatique, modifiez un
       | Type d’outil | Solution Experience Cloud telle qu’Analytics, Target, Social, etc. |
       | Nom de l’outil | Nom de cet outil. Ce nom apparaît dans la section [!UICONTROL Outils installés] de l’onglet [!UICONTROL Aperçu]. |
       | ID du compte de production | Numéro de votre compte de production pour la collecte de données. Dynamic Tag Management installe automatiquement le compte correct dans l’environnement de production et d’évaluation. |
-      | ID du compte d’évaluation | Numéro utilisé dans votre environnement de développement ou de test. Un compte d’évaluation permet de séparer vos données de test de l’environnement de production. |
+      | ID du compte d’évaluation | Numéro utilisé dans votre environnement de développement ou de test. Un compte d’évaluation permet de séparer les données de test de la production. |
 
 1. Cliquez sur **[!UICONTROL Créer l’outil]**.
 
