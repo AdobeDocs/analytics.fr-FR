@@ -1,13 +1,11 @@
 ---
 description: Capture le paramètre linguistique du navigateur du visiteur, ce qui vous permet de visualiser les recettes et les visiteurs uniques qui y sont associés. Lorsque vous connaissez l’incidence des langues préférées sur les mesures de succès de votre site, vous pouvez choisir la manière de présenter votre site dans d’autres langues. Par exemple, si vous observez qu’un nombre important de clients germanophones effectuent des ajouts au panier sur votre site, vous pouvez faire traduire votre site en allemand et mettre en place une campagne marketing pour générer du trafic sur votre site en allemand.
-seo-description: Capture le paramètre linguistique du navigateur du visiteur, ce qui vous permet de visualiser les recettes et les visiteurs uniques qui y sont associés. Lorsque vous connaissez l’incidence des langues préférées sur les mesures de succès de votre site, vous pouvez choisir la manière de présenter votre site dans d’autres langues. Par exemple, si vous observez qu’un nombre important de clients germanophones effectuent des ajouts au panier sur votre site, vous pouvez faire traduire votre site en allemand et mettre en place une campagne marketing pour générer du trafic sur votre site en allemand.
-seo-title: Langue
 solution: Analytics
 title: Langue
-topic: Rapports
+topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
