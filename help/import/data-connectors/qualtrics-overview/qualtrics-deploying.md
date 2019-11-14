@@ -1,14 +1,12 @@
 ---
 description: Le déploiement de cette intégration est un processus simple qui nécessite les actions suivantes.
-seo-description: Le déploiement de cette intégration est un processus simple qui nécessite les actions suivantes.
-seo-title: Déploiement de l’intégration
 solution: Analytics
 subtopic: Qualtrics
 title: Déploiement de l’intégration
-topic: Connecteurs de données
+topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
    |---|---|
    | Événements | Sélectionnez jusqu’à cinq de vos événements personnalisés à exposer pour l’exportation vers Qualtrics. |
    | Propriétés | Sélectionnez jusqu’à cinq de vos props à exposer pour l’exportation vers Qualtrics. |
-   |  Demandes d’accès | Cochez la case correspondant aux mesures et dimensions standard que vous souhaitez exporter vers Qualtrics. L’exportation `visitor_id` est requise pour fonctionner correctement. |
+   | Demandes d’accès | Cochez la case correspondant aux mesures et dimensions standard que vous souhaitez exporter vers Qualtrics. L’exportation `visitor_id` est requise pour fonctionner correctement. |
 
 1. **Assistant Étape 5**: Vérifiez la configuration, puis cliquez sur **[!UICONTROL Activer maintenant]**.
 
