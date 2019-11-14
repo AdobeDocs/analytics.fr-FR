@@ -1,13 +1,11 @@
 ---
 description: Dans la version 14, un visiteur unique se rapporte à un visiteur qui consulte un site pour la première fois au cours d’une période donnée. Par exemple, le visiteur unique peut visiter un site dix fois au cours d’une semaine ; si, toutefois, la période définie est Semaine, il est comptabilisé une seule fois au cours de cette semaine. Une fois la semaine terminée, ce visiteur unique peut être compté de nouveau pour une nouvelle période donnée.
-seo-description: Dans la version 14, un visiteur unique se rapporte à un visiteur qui consulte un site pour la première fois au cours d’une période donnée. Par exemple, le visiteur unique peut visiter un site dix fois au cours d’une semaine ; si, toutefois, la période définie est Semaine, il est comptabilisé une seule fois au cours de cette semaine. Une fois la semaine terminée, ce visiteur unique peut être compté de nouveau pour une nouvelle période donnée.
-seo-title: Visiteurs uniques
 solution: Analytics
 title: Visiteurs uniques
-topic: Mesures
+topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
