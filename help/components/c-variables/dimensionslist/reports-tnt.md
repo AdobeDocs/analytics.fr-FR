@@ -1,13 +1,11 @@
 ---
 description: Affichez et segmentez vos données de trafic Adobe Target dans un rapport.
-seo-description: Affichez et segmentez vos données de trafic Adobe Target dans un rapport.
-seo-title: Target
 solution: Analytics
 title: Target
-topic: Rapports
+topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
