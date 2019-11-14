@@ -1,13 +1,11 @@
 ---
 description: À ne pas confondre avec la mesure Visites sur une seule page des Ad Hoc Analysis. Le rapport Visites sur une seule page présente les pages de votre site web sur lesquelles les visiteurs entrent et sortent, sans afficher d’autres pages du site.
-seo-description: À ne pas confondre avec la mesure Visites sur une seule page des Ad Hoc Analysis. Le rapport Visites sur une seule page présente les pages de votre site web sur lesquelles les visiteurs entrent et sortent, sans afficher d’autres pages du site.
-seo-title: Visite sur une seule page
 solution: Analytics
 title: Visite sur une seule page
-topic: Rapports
+topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
