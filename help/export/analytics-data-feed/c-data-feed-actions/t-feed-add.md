@@ -1,13 +1,11 @@
 ---
 description: Créez un flux.
-keywords: Flux de données;ajouter
-seo-description: Créez un flux.
-seo-title: Ajout d’un flux
+keywords: Data Feed;add
 solution: Analytics
 title: Ajout d’un flux
 uuid: e6767e2d-3283-4cdd-a972-475517f820bb
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
