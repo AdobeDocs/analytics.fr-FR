@@ -1,13 +1,11 @@
 ---
 description: La fonction Sources de données vous permet d’importer des données dans Analytics à partir de sources hors ligne. Une fois ces données importées, elles peuvent être traitées de la même manière que celles collectées en mode natif.
-seo-description: La fonction Sources de données vous permet d’importer des données dans Analytics à partir de sources hors ligne. Une fois ces données importées, elles peuvent être traitées de la même manière que celles collectées en mode natif.
-seo-title: Sources de données
 solution: Analytics
 title: Sources de données
-topic: Outils d’administration
+topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
