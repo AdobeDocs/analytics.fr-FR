@@ -1,15 +1,13 @@
 ---
 description: valeur nulle
-keywords: groupes;autorisations
-seo-description: valeur nulle
-seo-title: Modifications des autorisations d’utilisateur et des droits d’accès de groupe
+keywords: groups;permissions
 solution: Analytics
-subtopic: Utilisateurs et groupes
+subtopic: Users and groups
 title: Modifications des autorisations d’utilisateur et des droits d’accès de groupe
-topic: Outils d’administration
+topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
