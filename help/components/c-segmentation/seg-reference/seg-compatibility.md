@@ -1,18 +1,16 @@
 ---
 description: Tous les segments créés dans le Créateur de segments ne sont pas compatibles avec l’entrepôt de données. Ce tableau répertorie les fonctions prises en charge.
-seo-description: Tous les segments créés dans le Créateur de segments ne sont pas compatibles avec l’entrepôt de données. Ce tableau répertorie les fonctions prises en charge.
-seo-title: Compatibilité des segments avec l’entrepôt de données
 solution: Analytics
-title: Compatibilité des segments avec l’entrepôt de données
+title: Compatibilité des segments avec l’Data Warehouse
 topic: Segments
-uuid: 370258 c 5-8614-4434-871 c -41753 ed 77 f 5 c
+uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 26bba9528873c983852754056a5495c4004d25e6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Compatibilité des segments avec l’entrepôt de données
+# Compatibilité des segments avec l’Data Warehouse
 
 Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. Ce tableau répertorie les fonctions prises en charge.
 
@@ -21,7 +19,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> Analysis Workspace, Rapports et analyses, Analyses ad hoc </th> 
-   <th colname="col3" class="entry"> Entrepôt de données </th> 
+   <th colname="col3" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
  <tbody> 
