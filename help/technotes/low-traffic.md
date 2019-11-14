@@ -1,13 +1,11 @@
 ---
 description: Lorsqu’un rapport comporte un grand nombre de valeurs uniques, Adobe propose une fonctionnalité qui permet de s’assurer que les valeurs les plus importantes apparaissent dans votre rapport.
-seo-description: Lorsqu’un rapport comporte un grand nombre de valeurs uniques, Adobe propose une fonctionnalité qui permet de s’assurer que les valeurs les plus importantes apparaissent dans votre rapport.
-seo-title: Valeur de faible trafic dans Adobe Analytics
 solution: Analytics
 title: Valeur de faible trafic dans Adobe Analytics
-topic: Mesures
+topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
