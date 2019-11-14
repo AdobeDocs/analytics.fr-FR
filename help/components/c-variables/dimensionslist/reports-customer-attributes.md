@@ -1,12 +1,10 @@
 ---
 description: Questions fréquentes liées à Analytics portant sur les attributs du client et sur la manière d’exécuter le rapport Attributs du client.
-seo-description: Questions fréquentes liées à Analytics portant sur les attributs du client et sur la manière d’exécuter le rapport Attributs du client.
-seo-title: Attributs du client
 solution: Experience Cloud,Analytics
 title: Attributs du client
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
