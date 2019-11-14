@@ -1,13 +1,11 @@
 ---
 description: Description de la procédure de création d’une demande Data Warehouse.
-seo-description: Description de la procédure de création d’une demande Data Warehouse.
-seo-title: Créer une demande d’Data Warehouse
 solution: Analytics
 title: Créer une demande d’Data Warehouse
-topic: Data Warehouse
+topic: Data warehouse
 uuid: 7789fbb6-44a4-4cc5-9874-c63db4a6d74d
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
