@@ -1,13 +1,11 @@
 ---
 description: Après avoir créé des rapports en y incorporant des requêtes, vous pouvez les enregistrer en cliquant sur Fichier > Enregistrer ou Fichier > Enregistrer sous dans Excel. Le Créateur de rapports détecte si le rapport contient ou non des requêtes. Lorsque vous cliquez sur l’une de ces options d’enregistrement, le formulaire « Enregistrer le classeur sous » s’affiche.
-seo-description: Après avoir créé des rapports en y incorporant des requêtes, vous pouvez les enregistrer en cliquant sur Fichier > Enregistrer ou Fichier > Enregistrer sous dans Excel. Le Créateur de rapports détecte si le rapport contient ou non des requêtes. Lorsque vous cliquez sur l’une de ces options d’enregistrement, le formulaire « Enregistrer le classeur sous » s’affiche.
-seo-title: Enregistrement d’un classeur avec requêtes
 solution: Analytics
 title: Enregistrement d’un classeur avec requêtes
-topic: Créateur de rapports
+topic: Report builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
