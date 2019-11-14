@@ -1,13 +1,11 @@
 ---
 description: Des sous-relations complètes sont activées sur tous les rapports de conversion, ce qui vous permet de ventiler n’importe quelle eVar par une autre eVar. Le menu Ventiler en fonction de dans le tableau des rapports correspond au menu de création de rapports Analytics standard, ce qui permet de préserver la cohérence.
-seo-description: Des sous-relations complètes sont activées sur tous les rapports de conversion, ce qui vous permet de ventiler n’importe quelle eVar par une autre eVar. Le menu Ventiler en fonction de dans le tableau des rapports correspond au menu de création de rapports Analytics standard, ce qui permet de préserver la cohérence.
-seo-title: Sous-relations
 solution: Analytics
 title: Sous-relations
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
