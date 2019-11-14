@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics offre une interface de création de rapports souple qui permet de générer un large éventail de rapports complexes. Bien que la plupart des rapports soient générés très rapidement, vous pouvez rencontrer des rapports en dépassement de délai ou dont la génération a échoué. Pour permettre d’éviter les échecs de génération de rapport, cette rubrique présente de nombreux facteurs qui affectent la vitesse de génération des rapports. La connaissance de ces informations peut vous permettre de structurer les rapports de manière à ce qu’ils soient moins plus susceptibles d’échouer.
-keywords: bonnes pratiques;échec;délai;dépannage;lent
-seo-description: Adobe Analytics offre une interface de création de rapports souple qui permet de générer un large éventail de rapports complexes. Bien que la plupart des rapports soient générés très rapidement, vous pouvez rencontrer des rapports en dépassement de délai ou dont la génération a échoué. Pour permettre d’éviter les échecs de génération de rapport, cette rubrique présente de nombreux facteurs qui affectent la vitesse de génération des rapports. La connaissance de ces informations peut vous permettre de structurer les rapports de manière à ce qu’ils soient moins plus susceptibles d’échouer.
-seo-title: Bonnes pratiques et dépannage de la création de rapports
+keywords: best practices;failure;timeout;troubleshooting;slow
 solution: Analytics
 title: Bonnes pratiques et dépannage de la création de rapports
-topic: Rapports
+topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
