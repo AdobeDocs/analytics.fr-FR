@@ -1,13 +1,11 @@
 ---
 description: Cette section présente les termes d’analyse web couramment utilisés dans les rapports marketing.
-seo-description: Cette section présente les termes d’analyse web couramment utilisés dans les rapports marketing.
-seo-title: Termes courants
 solution: Analytics
 title: Termes courants
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Cette section présente les termes Adobe Analytics couramment utilisés.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Report Suite </p> </td> 
+   <td colname="col1"> <p> Suite de rapports </p> </td> 
    <td colname="col2"> <p>Une suite de rapports (parfois aussi appelée « Report Suite ») définit les rapports indépendants et complets d’un site web donné, d’un ensemble de sites web ou d’un sous-ensemble de pages web. Une suite de rapports correspond habituellement à un site web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Une suite de rapports peut également être plus petite qu’un site web si vous souhaitez générer des rapports pour une partie seulement de votre site. </p> <p>Si, par exemple, des utilisateurs authentifiés et non authentifiés utilisent le site de manières différentes et que les rapports de chaque groupe sont destinés à des personnes différentes, vous pouvez scinder les suites de rapports en pages accessibles librement et en pages nécessitant une authentification. </p> <p>Lorsque vous vous connectez, vous sélectionnez une suite de rapports (sauf quand vous utilisez des compilations de plusieurs suites de rapports). </p> </td> 
   </tr> 
   <tr> 
