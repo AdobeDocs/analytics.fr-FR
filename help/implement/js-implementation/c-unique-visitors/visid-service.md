@@ -1,14 +1,12 @@
 ---
 description: Le service d’identité remplace le mécanisme d’identification des visiteurs hérité d’Analytics. Il est requis avec la mesure Vidéo – Pulsation, avec Analytics pour Target, ainsi qu’avec les services principaux et les intégrations à venir d’Experience Cloud.
-keywords: Mise en œuvre d’Analytics
-seo-description: Le service d’identité remplace le mécanisme d’identification des visiteurs hérité d’Analytics. Il est requis avec la mesure Vidéo – Pulsation, avec Analytics pour Target, ainsi qu’avec les services principaux et les intégrations à venir d’Experience Cloud.
-seo-title: Service d’identité
+keywords: Analytics Implementation
 solution: Analytics
 title: Service d’identité
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 8ae013d4-d5a9-4b20-bf3b-145f0dcc3d6d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
