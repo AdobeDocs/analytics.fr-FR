@@ -1,15 +1,13 @@
 ---
 description: Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention de l’utilisateur. Ces redirections ont lieu au niveau du navigateur (renvoi côté client) ou au niveau du serveur Web (renvoi côté serveur).
-keywords: Mise en œuvre d’Analytics
-seo-description: Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention de l’utilisateur. Ces redirections ont lieu au niveau du navigateur (renvoi côté client) ou au niveau du serveur Web (renvoi côté serveur).
-seo-title: Redirections et alias
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Redirections
+subtopic: Redirects
 title: Redirections et alias
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
