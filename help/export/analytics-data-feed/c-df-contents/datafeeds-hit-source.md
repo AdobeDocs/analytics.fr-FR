@@ -1,19 +1,17 @@
 ---
 description: Table de recherche pour déterminer la source d’un accès sur la base de la valeur page_event.
-keywords: Flux de données ; accès ; source
-seo-description: Table de recherche pour déterminer la source d’un accès sur la base de la valeur page_event.
-seo-title: Recherche des sources d’accès
+keywords: Data Feed;hit;source
 solution: Analytics
-title: Recherche des sources d’accès
-topic: Reports and Analytics
-uuid: b 4 ef 2366-a 7 c 3-421 b -8 dc 6-279706 fe 277 f
+title: Recherche de sources d’accès
+topic: Reports and analytics
+uuid: b4ef2366-a7c3-421b-8dc6-279706fe277f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Recherche des sources d’accès
+# Recherche de sources d’accès
 
 Table de recherche pour déterminer la source d’un accès sur la base de la valeur page_event.
 
