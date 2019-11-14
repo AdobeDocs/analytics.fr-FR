@@ -1,14 +1,12 @@
 ---
 description: Initiation à Adobe Analytics.
 keywords: Analysis Workspace
-seo-description: Initiation à Adobe Analytics.
-seo-title: Guide de prise en main
 solution: Analytics
 title: Guide de prise en main
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
