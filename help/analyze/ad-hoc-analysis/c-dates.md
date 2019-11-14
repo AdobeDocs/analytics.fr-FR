@@ -1,11 +1,9 @@
 ---
 description: Dans le calendrier, vous pouvez soit indiquer des dates ou des plages de dates, soit sélectionner un paramètre prédéfini. Vous pouvez effectuer des sélections dans le calendrier aux niveaux du projet, de l’espace de travail et du rapport. La période d’un projet correspond à la date par défaut. Cependant, la période d’un espace de travail remplace celle du projet. De même, la période d’un projet remplace les paramètres de date d’un espace de travail et d’un projet. Vous ne pouvez pas sélectionner une période en dehors de la plage de disponibilité de vos données.
-seo-description: Dans le calendrier, vous pouvez soit indiquer des dates ou des plages de dates, soit sélectionner un paramètre prédéfini. Vous pouvez effectuer des sélections dans le calendrier aux niveaux du projet, de l’espace de travail et du rapport. La période d’un projet correspond à la date par défaut. Cependant, la période d’un espace de travail remplace celle du projet. De même, la période d’un projet remplace les paramètres de date d’un espace de travail et d’un projet. Vous ne pouvez pas sélectionner une période en dehors de la plage de disponibilité de vos données.
-seo-title: Dates et plages de dates
 title: Dates et plages de dates
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
