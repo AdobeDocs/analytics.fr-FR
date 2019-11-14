@@ -1,13 +1,11 @@
 ---
 description: Affiche le nombre de visites effectuées sur l’ensemble de votre site web au cours d’une période spécifiée.
-seo-description: Affiche le nombre de visites effectuées sur l’ensemble de votre site web au cours d’une période spécifiée.
-seo-title: Visites
 solution: Analytics
 title: Visites
-topic: Rapports
+topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
