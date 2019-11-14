@@ -1,18 +1,16 @@
 ---
 description: Procédure à suivre pour la désinstallation du Créateur de rapports d’Adobe.
-seo-description: Procédure à suivre pour la désinstallation du Créateur de rapports d’Adobe.
-seo-title: Désinstallation du Créateur de rapports
 solution: Analytics
-title: Désinstallation du Créateur de rapports
-topic: Créateur de rapports
-uuid: 3 fade 973-e 246-4 fcb-abc 1-0 aafddca 0536
+title: Désinstallation de Report Builder
+topic: Report builder
+uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Désinstallation du Créateur de rapports
+# Désinstallation de Report Builder
 
 Procédure à suivre pour la désinstallation du Créateur de rapports d’Adobe.
 
