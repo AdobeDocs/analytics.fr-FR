@@ -1,14 +1,12 @@
 ---
 description: Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
-keywords: Mise en œuvre d’Analytics;collecte de données;gestionnaire de code
-seo-description: Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
-seo-title: Gestionnaire de code
+keywords: Analytics Implementation;data collection;code manager
 solution: Analytics
 title: Gestionnaire de code
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ Le gestionnaire de code permet de télécharger le code de collecte de données 
 
 **[!UICONTROL Analytics &gt; Admin &gt; Gestionnaire de code]**.
 
-Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. D’autres ressources de mise en œuvre sont disponibles sur [Développeur et mise en œuvre](https://marketing.adobe.com/resources/help/fr_FR/reference/developer.html).
+Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. D’autres ressources de mise en œuvre sont disponibles sur la page [Développement et implémentation](https://marketing.adobe.com/resources/help/en_US/reference/developer.html).
 
 ## Descriptions de la page Gestionnaire de code {#section_0C23784E20BD4631841FF24E5075DA12}
 
@@ -40,7 +38,7 @@ Après avoir téléchargé la bibliothèque, vous devez configurer le code pour 
    <td colname="col2"> <p>Type des applications qui peuvent être mesurées à l’aide de chaque bibliothèque. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Version </p> </td> 
+   <td colname="col1"> <p>Version  </p> </td> 
    <td colname="col2"> <p>Liste de la dernière version de la bibliothèque. Cliquez sur le numéro de version pour afficher l’historique de publication. </p> </td> 
   </tr> 
   <tr> 
