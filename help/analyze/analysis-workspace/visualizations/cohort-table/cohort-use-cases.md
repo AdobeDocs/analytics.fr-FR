@@ -1,14 +1,12 @@
 ---
 description: Exemples de cas d’utilisation d’analyse des cohortes.
 keywords: Analysis Workspace
-seo-description: Exemples de cas d’utilisation d’analyse des cohortes.
-seo-title: Cas d’utilisation de l’analyse des cohortes
 solution: Analytics
 title: Cas d’utilisation de l’analyse des cohortes
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
