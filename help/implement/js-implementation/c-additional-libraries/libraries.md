@@ -1,14 +1,12 @@
 ---
 description: Liste des bibliothèques de mesures disponibles.
-keywords: Mise en œuvre d’Analytics;collecter;données;collection
-seo-description: Liste des bibliothèques de mesures disponibles.
-seo-title: Bibliothèques supplémentaires - Aperçu
+keywords: Analytics Implementation;collect;data;collection
 solution: Analytics
 title: Bibliothèques supplémentaires - Aperçu
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
