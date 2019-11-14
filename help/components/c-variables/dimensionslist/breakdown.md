@@ -1,13 +1,11 @@
 ---
 description: Lorsqu’un certain segment sur lequel vous créez des rapports est important, vous souhaiterez peut-être en savoir plus sur ce segment et sur sa relation avec d’autres dimensions. On parle souvent de ventilation d’une dimension par une autre dimension. Une ventilation consiste à intégrer deux ou plusieurs variables Analytics.
-seo-description: Lorsqu’un certain segment sur lequel vous créez des rapports est important, vous souhaiterez peut-être en savoir plus sur ce segment et sur sa relation avec d’autres dimensions. On parle souvent de ventilation d’une dimension par une autre dimension. Une ventilation consiste à intégrer deux ou plusieurs variables Analytics.
-seo-title: Ventilation
 solution: Analytics
 title: Ventilation
-topic: Rapports
+topic: Reports
 uuid: 0f2c8c37-f46e-4d6c-9ac2-eace48e8708f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
