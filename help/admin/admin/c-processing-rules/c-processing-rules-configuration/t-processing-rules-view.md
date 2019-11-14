@@ -1,14 +1,12 @@
 ---
 description: Les règles de traitement actives sont visibles dans l’administration.
-seo-description: Les règles de traitement actives sont visibles dans l’administration.
-seo-title: Afficher des règles de traitement actives
 solution: Analytics
-subtopic: Règles de traitement
+subtopic: Processing rules
 title: Afficher des règles de traitement actives
-topic: Outils d’administration
+topic: Admin tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
