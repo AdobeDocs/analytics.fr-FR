@@ -1,11 +1,9 @@
 ---
 description: Cette intégration des courriers électroniques Adobe® Connecteurs de données™ combine les informations comportementales d’Analytics® avec le marketing par courrier électronique Silverpop pour créer un outil puissant permettant de redéfinir la mesure de la réussite et de cibler les audiences avec des messages plus pertinents.
-seo-description: Cette intégration des courriers électroniques Adobe® Connecteurs de données™ combine les informations comportementales d’Analytics® avec le marketing par courrier électronique Silverpop pour créer un outil puissant permettant de redéfinir la mesure de la réussite et de cibler les audiences avec des messages plus pertinents.
-seo-title: Silverpop Data Connector for Adobe Analytics
 title: Silverpop Data Connector for Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,7 +12,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 Cette intégration des courriers électroniques Adobe® Connecteurs de données™ combine les informations comportementales d’Analytics® avec le marketing par courrier électronique Silverpop pour créer un outil puissant permettant de redéfinir la mesure de la réussite et de cibler les audiences avec des messages plus pertinents.
 
-La remise de messages électroniques pertinents à ces segments de marché peut générer de nouvelles opportunités de recettes, ce qui entraîne une augmentation des conversions et des recettes parmi les campagnes par courrier électronique nouvelles et existantes. Par exemple, la diffusion de messages électroniques pertinents basés sur des produits qui ont été consultés au cours d’une visite ou des produits qui ont été laissés dans un panier d’achat abandonné a démontré un impact considérable sur les recettes, avec un impact minimal sur les coûts, car cela ne fait qu’augmenter les visiteurs de votre site.
+La remise de messages électroniques pertinents à ces segments de marché peut générer de nouvelles opportunités de recettes, ce qui entraîne une augmentation des conversions et des recettes au sein des campagnes de messagerie nouvelles et existantes. Par exemple, la diffusion de messages électroniques pertinents basés sur des produits qui ont été consultés au cours d’une visite ou des produits qui ont été laissés dans un panier d’achat abandonné a démontré un impact considérable sur les recettes, avec un impact minimal sur les coûts, car cela ne fait qu’augmenter les visiteurs de votre site.
 
 Cette augmentation de l’efficacité marketing est l’un des principaux avantages de l’intégration d’Analytics à Silverpop. En outre, cette intégration synchronise automatiquement les mesures de courrier électronique avec les données Analytics aussi fréquemment que par heure pour la création de rapports en boucle fermée.
 
@@ -31,7 +29,7 @@ Cette intégration présente les principaux avantages suivants :
 Les fonctionnalités suivantes sont nouvelles dans la version 2.0 de l’intégration des connecteurs de données Silverpop :
 
 * La fréquence d'importation des mesures a augmenté de jour en heure.
-* Deux mesures standard supplémentaires pour les clients non commerciaux.
+* Deux mesures standard supplémentaires pour les clients non-clients.
 * Remarketing aux utilisateurs qui n’ont peut-être pas cliqué par le biais d’un courrier électronique.
 * Les classifications de produits sont exportées vers Silverpop pour une personnalisation supplémentaire dans les messages de remarketing.
 * Des données supplémentaires sont disponibles dans les segments de remarketing (commandes, recettes et unités).
