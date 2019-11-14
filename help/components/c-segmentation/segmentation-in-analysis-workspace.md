@@ -1,18 +1,16 @@
 ---
-description: Découvrez les fonctionnalités de segmentation dans Analysis Workspace.
-seo-description: Découvrez les fonctionnalités de segmentation dans Analysis Workspace.
-seo-title: Fonctionnalités de segmentation dans Analysis Workspace
-title: Fonctionnalités de segmentation dans Analysis Workspace
-uuid: ed 1 d 95 e 2-bd 32-4 f 03-a 007-1 d 3 e 4 ca 08 a 5 b
+description: Découvrez les fonctionnalités de segmentation d’Analysis Workspace.
+title: Fonctionnalités de segmentation d’Analysis Workspace
+uuid: ed1d95e2-bd32-4f03-a007-1d3e4ca08a5b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Fonctionnalités de segmentation dans Analysis Workspace
+# Fonctionnalités de segmentation d’Analysis Workspace
 
-Découvrez les fonctionnalités de segmentation dans Analysis Workspace.
+Découvrez les fonctionnalités de segmentation d’Analysis Workspace.
 
 [Comparaison de segments (Segment IQ)](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)
 
