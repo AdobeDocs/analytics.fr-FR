@@ -1,13 +1,11 @@
 ---
 description: La valeur de tous les articles de rapport pour une période rapportée. Si un filtre est actuellement sélectionné, le total peut correspondre au total filtré plutôt qu’au total de la suite de rapports. Si aucun filtre n’est sélectionné, le total représente le total de la suite de rapports.
-seo-description: La valeur de tous les articles de rapport pour une période rapportée. Si un filtre est actuellement sélectionné, le total peut correspondre au total filtré plutôt qu’au total de la suite de rapports. Si aucun filtre n’est sélectionné, le total représente le total de la suite de rapports.
-seo-title: Total
 solution: Analytics
 title: Total
-topic: Mesures
+topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
