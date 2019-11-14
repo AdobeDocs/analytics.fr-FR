@@ -1,14 +1,12 @@
 ---
 description: valeur nulle
-keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm
-seo-description: valeur nulle
-seo-title: Mise en œuvre de DTM - Aperçu
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm
 solution: Analytics
 title: Mise en œuvre de DTM - Aperçu
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
