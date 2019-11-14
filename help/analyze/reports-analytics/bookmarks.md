@@ -1,14 +1,12 @@
 ---
 description: Les signets permettent d’accéder aux rapports les plus utilisés. Les signets que vous créez sont ajoutés à Experience Cloud et sont disponibles dans les fonctions intégrées telles que les connecteurs de données.
-seo-description: Les signets permettent d’accéder aux rapports les plus utilisés. Les signets que vous créez sont ajoutés à Experience Cloud et sont disponibles dans les fonctions intégrées telles que les connecteurs de données.
-seo-title: Gestionnaire de signets
 solution: Analytics
-subtopic: Signets
+subtopic: Bookmarks
 title: Gestionnaire de signets
-topic: Reports and Analytics
-uuid: 7 a 1287 da -8 a 39-4 dad -90 b 0-f 311 b 5 e 83722
+topic: Reports and analytics
+uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,11 +27,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       | Nom | A utilisateur - nom convivial de ce signet.|
-       |---|---|
-       |Add to|Specifies the folder in which you want to place the bookmark.|
-       |Make Public| Makes this bookmark available for users with access to the report suite.|
-       |Display report upon login| Displays the report when you log in.|
+       |Name|Nom convivial de ce signet.
+    |
+ |—|—|     |Ajouter à|Spécifie le dossier dans lequel vous souhaitez placer le signet.
+|     |Rendre public| Rend ce signet accessible aux utilisateurs ayant accès à la suite de rapports.
+|     |Afficher le rapport lors de la connexion| Affiche le rapport lorsque vous vous connectez.|
    
 ## Gestion des signets {#task_1EE793CB52EA467787817BBD98DEF150}
 
