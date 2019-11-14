@@ -1,14 +1,12 @@
 ---
 description: Les variables Analytics sont utilisées pour capturer des informations d’achat spécifiques pour l’événement d’achat. La variable s.purchaseID sert à sérialiser (dédupliquer) l’événement.
-keywords: Mise en œuvre d’Analytics
-seo-description: Les variables Analytics sont utilisées pour capturer des informations d’achat spécifiques pour l’événement d’achat. La variable s.purchaseID sert à sérialiser (dédupliquer) l’événement.
-seo-title: Événements d’achat
+keywords: Analytics Implementation
 solution: Analytics
 title: Événements d’achat
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: fb8657100929f333e5e6933ff9d61d8598bf9e05
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
