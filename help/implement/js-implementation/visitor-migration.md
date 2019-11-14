@@ -1,14 +1,12 @@
 ---
 description: La migration des visiteurs est une procédure par laquelle le cookie d’identifiant visiteur passe d’un domaine à un autre.
-keywords: Mise en œuvre d’Analytics
-seo-description: La migration des visiteurs est une procédure par laquelle le cookie d’identifiant visiteur passe d’un domaine à un autre.
-seo-title: Migration des visiteurs
+keywords: Analytics Implementation
 solution: Analytics
 title: Migration des visiteurs
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
