@@ -1,13 +1,11 @@
 ---
 description: Exemples, remarques et notes syntaxiques concernant l’utilisation de périodes dans des expressions personnalisées.
-seo-description: Exemples, remarques et notes syntaxiques concernant l’utilisation de périodes dans des expressions personnalisées.
-seo-title: Exemples de plages de dates utilisant des expressions personnalisées
 solution: Analytics
 title: Exemples de plages de dates utilisant des expressions personnalisées
-topic: Créateur de rapports
+topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
