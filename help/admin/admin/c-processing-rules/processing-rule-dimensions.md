@@ -1,14 +1,12 @@
 ---
 description: Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’aide de règles de traitement.
-seo-description: Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’aide de règles de traitement.
-seo-title: Dimensions disponibles pour les règles de traitement
 solution: Analytics
-subtopic: Règles de traitement
+subtopic: Processing rules
 title: Dimensions disponibles pour les règles de traitement
-topic: Outils d’administration
+topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
