@@ -1,14 +1,12 @@
 ---
 description: La fonctionnalité Sources de données fournit deux moyens supplémentaires d’intégrer à vos données en ligne des événements qui surviennent hors ligne.
-seo-description: La fonctionnalité Sources de données fournit deux moyens supplémentaires d’intégrer à vos données en ligne des événements qui surviennent hors ligne.
-seo-title: Intégration des transactions et des clients
 solution: Analytics
-subtopic: Sources de données
+subtopic: Data sources
 title: Intégration des transactions et des clients
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
