@@ -1,13 +1,11 @@
 ---
 description: Classe les pages de votre site en fonction du niveau de trafic. Si votre interrogation porte sur les données quantitatives des pages, utilisez ce rapport en y ajoutant les mesures appropriées.
-seo-description: Classe les pages de votre site en fonction du niveau de trafic. Si votre interrogation porte sur les données quantitatives des pages, utilisez ce rapport en y ajoutant les mesures appropriées.
-seo-title: Pages
 solution: Analytics
 title: Pages
-topic: Rapports
+topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -64,7 +62,7 @@ Remarque : dans les Reports &amp; Analytics, les mesures sur le rapport Pages o
 
 Dans les Reports &amp; Analytics, si vous appliquez un événement personnalisé en tant que mesure dans un rapport Pages, une attribution linéaire s’applique.
 
-Ainsi, même si cet événement a été envoyé avec un appel s.tl(), il obtient l’attribution linéaire de tout appel s.t() précédent. Exemple:
+Ainsi, même si cet événement a été envoyé avec un appel s.tl(), il obtient l’attribution linéaire de tout appel s.t() précédent. Exemple :
 
 | Nom de page | Page_event | Événements |
 |---|---|---|
