@@ -1,11 +1,9 @@
 ---
 description: Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
-seo-description: Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
-seo-title: Activer l’intégration
 title: Activer l’intégration
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -38,6 +36,6 @@ Utilisez l’assistant de configuration des connecteurs de données Adobe pour c
 | Points phares | Evénement de recettes pouvant être exporté dans des segments de remarketing. |
 | TotalClics | L’événement Cliqué vous permet d’afficher le nombre de visiteurs qui ont cliqué sur le message électronique. |
 | Segments | Cette intégration crée les segments définis par les partenaires affichés dans la section Segments de partenaire. De plus, vous pouvez sélectionner des segments existants au niveau de la suite de rapports à inclure dans l’intégration. |
-|  Demandes d’accès | Activez les privilèges d’accès recommandés. |
+| Demandes d’accès | Activez les privilèges d’accès recommandés. |
 | Collecte de données | Sélectionnez Module **JavaScript** si vous souhaitez utiliser le module externe s_code.js comme modèle de collecte pour cette intégration (voir ). Sélectionnez Solution **** automatisée si vous souhaitez utiliser un modèle de collecte automatisée pour cette intégration, puis spécifiez les identifiants uniques utilisés pour cette intégration. Si vous sélectionnez cette option, spécifiez les identifiants uniques utilisés pour cette intégration :<ul><li>Paramètre de chaîne de requête d’ID de message : Cette valeur représente l’ID de message ajouté à l’URL de la page d’entrée par votre partenaire de messagerie.</li><li>Paramètre de chaîne de requête d’ID de destinataire : Cette valeur représente l’ID du destinataire annexé à l’URL de la page d’entrée par votre partenaire de messagerie.</li></ul> |
 | Génération de tableaux de bord et de signets | Générer automatiquement un tableau de bord et des signets pour l’intégration. |
