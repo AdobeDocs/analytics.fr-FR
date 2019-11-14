@@ -1,14 +1,12 @@
 ---
 description: Si vous suivez ces instructions, les mêmes domaines de cookie sont utilisés, ce qui permet de suivre les visites entre différents types d’implémentation.
-keywords: Mise en œuvre d’Analytics
-seo-description: Si vous suivez ces instructions, les mêmes domaines de cookie sont utilisés, ce qui permet de suivre les visites entre différents types d’implémentation.
-seo-title: Instructions relatives à la mise en œuvre
+keywords: Analytics Implementation
 solution: Analytics
 title: Instructions relatives à la mise en œuvre
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
