@@ -1,12 +1,10 @@
 ---
 description: Réservez les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant d’utiliser le code ci-dessous.
-seo-description: Réservez les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant d’utiliser le code ci-dessous.
-seo-title: Code du module complémentaire de paramètre de chaîne de requête
 solution: Analytics
 title: Code du module complémentaire de paramètre de chaîne de requête
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
