@@ -1,15 +1,13 @@
 ---
 description: Tableau décrivant les colonnes du flux de données.
-keywords: Flux de données;colonnes
-seo-description: Tableau décrivant les colonnes du flux de données.
-seo-title: Référence des colonnes de données
+keywords: Data Feed;columns
 solution: Analytics
-subtopic: flux de données
+subtopic: data feeds
 title: Référence des colonnes de données
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -34,9 +32,9 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | browser_height | Hauteur en pixels de la fenêtre du navigateur. | petit entier non signé |
 | browser_width | Largeur en pixels de la fenêtre du navigateur. | petit entier non signé |
 | c_color | Codage en bits de la palette de couleurs. Utilisée dans le cadre du calcul de la dimension Intensité de couleur. Utilise la fonction JavaScript screen.colorDepth(). | char(20) |
-| Campaign | Variable utilisée dans la dimension Code de suivi. | varchar(255) |
+| campaign | Variable utilisée dans la dimension Code de suivi. | varchar(255) |
 | carrier | Variable d’intégration Adobe Advertising Cloud. Définit l’opérateur de téléphonie mobile. Fait référence à la table de recherche des opérateurs. | varchar(100) |
-| channel | Variable utilisée dans la dimension Sections du site. | varchar(100) |
+| marketing | Variable utilisée dans la dimension Sections du site. | varchar(100) |
 | click_action | N’est plus utilisée. Adresse du lien cliqué dans l’outil hérité Clickmap. | varchar(100) |
 | click_action_type | N’est plus utilisée. Type de lien de l’outil hérité Clickmap.<br>0 : URL<br>HREF 1 : ID<br>personnalisé 2 : Événement<br>onClick JavaScript 3 : Elément de formulaire | tinyint sans signe |
 | click_context | N’est plus utilisée. Nom de la page où un clic a été fait sur les liens. Partie de l’outil hérité Clickmap. | varchar(255) |
@@ -76,14 +74,14 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | first_hit_time_gmt | Horodatage du tout premier accès du visiteur en heure Unix. | int |
 | geo_city | Nom de la ville d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et la ville. | char(32) |
 | geo_country | Abréviation du pays d’origine de l’accès, basée sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le pays. | char(4) |
-| geo_dma | Identifiant numérique de la zone démographique d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et la zone démographique. | int unsigned |
+| geo_dma | Identifiant numérique de la zone démographique d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et la zone démographique. | int non signé |
 | geo_region | Nom de l’état ou de la région d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et l’état/la région. | char(32) |
-| geo_zip | The zip code the hit came came from, based on IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le code postal. | varchar(16) |
+| geo_zip | Code postal d’où provient l’accès, en fonction de l’adresse IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le code postal. | varchar(16) |
 | hier1 - hier5 | Utilisée par les variables hiérarchiques. Contient une liste délimitée de valeurs. Le délimiteur est sélectionné dans les paramètres de la suite de rapports. | varchar(255) |
 | hit_source | Indique la source de l’accès. <br>1 : Demande d’image standard sans horodatage <br>2 : Demande d’image standard avec horodatage <br>3 : Téléchargement de la source de données en direct avec horodatage <br>4 : Non utilisé <br>5 : Transfert de source de données générique <br>6 : Transfert de source de données en traitement complet <br>7 : Transfert de la source de données TransactionID <br>8 : Plus utilisé; Versions précédentes des sources de données Adobe Advertising Cloud <br>9 : Plus utilisé; Mesures de résumé d’Adobe Social | tinyint sans signe |
 | hit_time_gmt | L’horodatage des serveurs de collecte de données Adobe d’accès a reçu l’accès, selon l’heure Unix. | int |
-| hitid_high | Utilisée en combinaison avec hitid_low pour identifier de manière unique un accès. | bigint unsigned |
-| hitid_low | Utilisée en combinaison avec hitid_high pour identifier de manière unique un accès. | bigint unsigned |
+| hitid_high | Utilisée en combinaison avec hitid_low pour identifier de manière unique un accès. | bigent non signé |
+| hitid_low | Utilisée en combinaison avec hitid_high pour identifier de manière unique un accès. | bigent non signé |
 | homepage | N’est plus utilisée. Indique si l’URL active est la page d’accueil du navigateur. | char(1) |
 | hourly_visitor | Indicateur qui détermine si l’accès est un nouveau visiteur horaire. | tinyint sans signe |
 | ip | Adresse IP, basée sur l’en-tête HTTP de la demande d’image. | char(20) |
@@ -91,16 +89,16 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | j_jscript | Version de JavaScript prise en charge par le navigateur. | char(5) |
 | java_enabled | Indicateur précisant si Java est activé. <br>Y : Activé <br>N : Désactivé <br>U : Inconnu | char(1) |
 | javascript | Identifiant de recherche de la version JavaScript, basé sur j_jscript. Utilise une table de recherche. | tinyint sans signe |
-| language | Identifiant numérique de la langue. Utilise la table de recherche de languages.tsv. | smallint unsigned |
+| language | Identifiant numérique de la langue. Utilise la table de recherche de languages.tsv. | petit entier non signé |
 | last_hit_time_gmt | Horodatage (en heure Unix) de l’accès précédent. Utilisé pour calculer la dimension Jours depuis la dernière visite. | int |
-| last_purchase_num | Variable utilisée dans la dimension Fidélisation des clients. Indique le nombre d’achats précédents effectués par le visiteur. <br>0: No prior purchases (not a customer) <br>1: 1 prior purchase (new customer) <br>2: 2 prior purchases (return customer) <br>3: 3 or more prior purchases (loyal customer) | int unsigned |
+| last_purchase_num | Variable utilisée dans la dimension Fidélisation des clients. Indique le nombre d’achats précédents effectués par le visiteur. <br>0 : Aucun achat préalable (pas client) <br>1 : 1 achat préalable (nouveau client) <br>2 : 2 achats antérieurs (client régulier) <br>3 : 3 achats antérieurs ou plus (client fidèle) | int non signé |
 | last_purchase_time_gmt | Utilisée dans la dimension Jours depuis le dernier achat. Horodatage (en heure Unix) du dernier achat effectué. Pour les premiers achats et les visiteurs qui n’avaient jamais effectué d’achat auparavant, cette valeur est de 0. | int |
 | latlon1 | Lieu (jusqu’à 10 km) | varchar(255) |
 | latlon23 | Lieu (jusqu’à 100 m) | varchar(255) |
 | latlon45 | Lieu (jusqu’à 1 m) | varchar(255) |
 | Des colonnes | Liste des identifiants de segment Audience Manager auxquels le visiteur appartient. | text |
 | mcvisid | Identifiant visiteur Experience Cloud. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
-| mobile_id | If the user is using a mobile device, the numeric ID of the device. | int |
+| mobile_id | Si l’utilisateur utilise un périphérique mobile, l’ID numérique du périphérique. | int |
 | mobileaction | Action mobile. Collectée automatiquement lorsque trackAction est appelé dans Mobile Services. Permet le cheminement d’action automatique dans l’application. | varchar(100) |
 | mobileappid | ID de l’application mobile Stocke le nom et la version de l’application au format suivant :[AppName][BundleVersion] | varchar(255) |
 | mobileappperformance anceappid | Utilisé dans le connecteur de données Apteligent. ID d’application utilisé dans Apteligent. | varchar(255) |
@@ -194,14 +192,14 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | socialownedpropertyid | N’est plus utilisée. Identifiant de propriété détenue sur réseau social | varchar(255) |
 | socialownedpropertyname | N’est plus utilisée. Nom de propriété détenue sur réseau social | varchar(255) |
 | socialownedpropertypropertyvsapp | N’est plus utilisée. Propriété détenue sur réseau social/application | varchar(255) |
-| état | Variable d’état. | varchar(50) |
+| state | Variable d’état. | varchar(50) |
 | stats_server | Inutilisable. Serveur interne d’Adobe qui a traité l’accès. | char(30) |
 | t_time_info | Heure locale pour le visiteur. Le format est le suivant : M/D/AAAA HH:MM:SS Mois (0-11, 0=Janvier) Décalage du fuseau horaire (en minutes) | varchar(100) |
 | tnt | Utilisée dans les intégrations Adobe Target. | texte |
 | tnt_action | Utilisée dans les intégrations Adobe Target. | texte |
 | tnt_post_vista | N’est plus utilisée. Utilisez post_tnt à la place. | texte |
 | transactionid | Identifiant unique vers lequel plusieurs points de données pourront être transférés plus tard au moyen de sources de données. | text |
-| truncated_hit | Indicateur signifiant que la demande d’image a été tronquée. Indique qu’un accès partiel a été reçu. <br>Y: Hit was truncated; partial hit received <br>N: Hit was not truncated; full hit received | char(1) |
+| truncated_hit | Indicateur signifiant que la demande d’image a été tronquée. Indique qu’un accès partiel a été reçu. <br>Y : L’accès a été tronqué ; accès partiel reçu <br>N : L’accès n’a pas été tronqué ; accès complet reçu | char(1) |
 | ua_color | N’est plus utilisée. Anciennement utilisée comme solution de secours pour l’intensité de couleur. | char(20) |
 | ua_os | N’est plus utilisée. Anciennement utilisée comme solution de secours pour le système d’exploitation. | char(80) |
 | ua_pixels | N’est plus utilisée. Anciennement utilisée comme solution de secours pour la hauteur et la largeur du navigateur. | char(20) |
@@ -216,14 +214,14 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | va_finder_id | Identifiant numérique qui identifie la dimension Canal Première touche. La recherche de cet identifiant se trouve dans le gestionnaire des canaux marketing. | tinyint sans signe |
 | va_instance_event | Indicateur pour identifier les instances de canal marketing. Utilisé par la mesure Instances Dernière touche des canaux marketing. | tinyint sans signe |
 | va_new_engagement | Indicateur pour identifier les nouveaux engagements de canal marketing. Utilisé par la mesure Nouveaux engagements. | tinyint sans signe |
-| video | Video content | varchar(255) |
-| videoad | Video ad name | varchar(255) |
-| videoadinpod | Video ad in pod position | varchar(255) |
-| videoadlength | Video ad length | varchar(255) |
+| video | Contenu vidéo | varchar(255) |
+| videoad | Nom de la publicité vidéo | varchar(255) |
+| videoadinpod | Publicité vidéo en position pochette | varchar(255) |
+| videoadlength | Longueur de la publicité vidéo | varchar(255) |
 | videoadload | Chargements de publicités vidéo | varchar(255) |
-| videoadname | Video ad name | varchar(255) |
-| videoadplayername | Video ad player name | varchar(255) |
-| videoadpod | Video ad pod | varchar(255) |
+| videoadname | Nom de la publicité vidéo | varchar(255) |
+| videoadplayername | Nom du lecteur vidéo | varchar(255) |
+| videoadpod | Module Publicité vidéo | varchar(255) |
 | annonceur vidéo | Publicitaire vidéo | varchar(255) |
 | videoaudio album | Album audio vidéo | varchar(255) |
 | vidéoaudio | Artiste audio vidéo | varchar(255) |
@@ -232,7 +230,7 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | videoaudiopublisher | Éditeur audio vidéo | varchar(255) |
 | videoaudio | Station audio vidéo | varchar(255) |
 | campagne vidéo | Campagne vidéo | varchar(255) |
-| videochannel | Video channel | varchar(255) |
+| videochannel | Canal vidéo | varchar(255) |
 | videochapter | Nom du chapitre vidéo | varchar(255) |
 | videocontenttype | Type de contenu vidéo. Défini automatiquement sur « Vidéo » pour toutes les consultations vidéo | varchar(255) |
 | videodaypart | Partie du jour de la vidéo | varchar(255) |
