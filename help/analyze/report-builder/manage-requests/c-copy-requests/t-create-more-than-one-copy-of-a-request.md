@@ -1,13 +1,11 @@
 ---
 description: Vous pouvez créer plusieurs copies d’une requête d’origine, en remplissant une zone sélectionnée de cellules avec autant de copies de la requête que possible.
-seo-description: Vous pouvez créer plusieurs copies d’une requête d’origine, en remplissant une zone sélectionnée de cellules avec autant de copies de la requête que possible.
-seo-title: Création de plusieurs copies d’une requête
 solution: Analytics
 title: Création de plusieurs copies d’une requête
-topic: Créateur de rapports
+topic: Report builder
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
