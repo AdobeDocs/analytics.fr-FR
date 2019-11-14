@@ -1,13 +1,11 @@
 ---
 description: Affiche les vues chemin, ou le pourcentage et le nombre de fois où une page a été consultée dans les limites des chemins. Il se peut, par exemple, qu’une politique de confidentialité génère 10 000 pages vues au total, mais que seulement 500 d’entre elles soient immédiatement affichées avant une page d’accueil. Dans ce cas, vous verrez 500 vues chemin. Vous pouvez visualiser le rapport au niveau de la visite ou du visiteur. Le pourcentage de chaque page est affiché en regard de son nom. La largeur d’une ligne connectée à une page représente le pourcentage relatif des visites.
-seo-description: Affiche les vues chemin, ou le pourcentage et le nombre de fois où une page a été consultée dans les limites des chemins. Il se peut, par exemple, qu’une politique de confidentialité génère 10 000 pages vues au total, mais que seulement 500 d’entre elles soient immédiatement affichées avant une page d’accueil. Dans ce cas, vous verrez 500 vues chemin. Vous pouvez visualiser le rapport au niveau de la visite ou du visiteur. Le pourcentage de chaque page est affiché en regard de son nom. La largeur d’une ligne connectée à une page représente le pourcentage relatif des visites.
-seo-title: Flux page suivante
 solution: Analytics
 title: Flux page suivante
-topic: Rapports
-uuid: d3d2a461-63ee-4bf7-9e68-1ce1c34530f
+topic: Reports
+uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
