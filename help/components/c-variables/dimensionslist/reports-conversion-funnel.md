@@ -1,13 +1,11 @@
 ---
 description: Les taux de conversion mesurent généralement la conversion entre le début, la fin et les événements ou points qui jalonnent un processus de conversion. Une fois les événements de succès codés sur votre site, le rapport crée les taux applicables et les présente dans un rapport Entonnoir de conversion.
-seo-description: Les taux de conversion mesurent généralement la conversion entre le début, la fin et les événements ou points qui jalonnent un processus de conversion. Une fois les événements de succès codés sur votre site, le rapport crée les taux applicables et les présente dans un rapport Entonnoir de conversion.
-seo-title: Entonnoir de conversion
 solution: Analytics
 title: Entonnoir de conversion
-topic: Rapports
+topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
