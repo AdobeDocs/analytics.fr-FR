@@ -1,15 +1,13 @@
 ---
 description: En plaçant l’appel vers le fichier de bibliothèque JavaScript en haut de la page, vous avez la garantie que l’image fait partie des premiers éléments à être téléchargés.
-keywords: Mise en œuvre d’Analytics
-seo-description: En plaçant l’appel vers le fichier de bibliothèque JavaScript en haut de la page, vous avez la garantie que l’image fait partie des premiers éléments à être téléchargés.
-seo-title: Emplacement des fichiers JavaScript et accès simultané
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Résolution des problèmes
+subtopic: Troubleshooting
 title: Emplacement des fichiers JavaScript et accès simultané
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
