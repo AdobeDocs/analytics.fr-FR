@@ -1,13 +1,11 @@
 ---
 description: Procédure de mise en oeuvre du menu simplifié des rapports dans les rapports et analyses.
-seo-description: Procédure de mise en oeuvre du menu simplifié des rapports dans les rapports et analyses.
-seo-title: Menu des rapports simplifié
 solution: Analytics
 title: Menu des rapports simplifié
-topic: Outils d’administration
+topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
