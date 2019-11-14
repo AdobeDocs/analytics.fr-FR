@@ -1,14 +1,12 @@
 ---
 description: Vérifiez si la bibliothèque de Dynamic Tag Management se charge correctement sur votre site.
-keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;code;code page;code d’en-tête;code de pied de page;code intégré;vérifier le code;vérifier le code d’en-tête;vérifier le code de pied de page;onglet incorporer;incorporer
-seo-description: Vérifiez si la bibliothèque de Dynamic Tag Management se charge correctement sur votre site.
-seo-title: Vérification du code d’en-tête et de pied de page
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;verify code;verify header code;verify footer code;embed tab;embed
 solution: Analytics
 title: Vérification du code d’en-tête et de pied de page
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
