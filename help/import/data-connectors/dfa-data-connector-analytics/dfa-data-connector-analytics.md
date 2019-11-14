@@ -1,19 +1,17 @@
 ---
 description: valeur nulle
 keywords: DFA
-seo-description: valeur nulle
-seo-title: Connecteur de données DFA pour Adobe Analytics
 solution: Analytics
 title: Connecteur de données DFA pour Adobe Analytics
-topic: Connecteurs de données
+topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Connecteur de données DFA pour Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
+# DFA Connecteur de données pour Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
 
 Sur le marché en ligne de plus en plus complexe et concurrentiel d'aujourd'hui, les publicitaires et agences en ligne doivent continuellement améliorer leur compréhension de l'environnement de marketing en ligne et leur retour sur dépenses publicitaires. Les publicitaires, les agences et les éditeurs possèdent tous des outils spécifiques qui les aideront à réaliser ces objectifs. Toutefois, l’agrégation manuelle des données issues de systèmes et de processus de données disparates peut considérablement amoindrir l’efficacité des campagnes marketing en ligne, ce qui se traduit par des performances de la campagne, des données disparates et une certaine confusion.
 
@@ -66,7 +64,7 @@ Une fois les données reçues (ou si cela prend trop de temps), l’accès est d
 
 Le module Integrate est un module Adobe JavaScript principal spécial qui retarde la balise image Adobe, en attendant la demande d’un tiers pendant une durée spécifique (`s.maxDelay`). `s.maxDelay` définit la durée pendant laquelle le module Integrate attend les données du serveur DFA Floodlight avant de déclencher la balise d’image dans le navigateur du visiteur. Ce comportement est important, de sorte que les données de base du visiteur continuent à être collectées même quand les serveurs DFA Floodlight sont hors service ou lourdement chargés. Si les données Floodlight arrivent avant l’expiration de `s.maxDelay`, les données de suivi Adobe sont immédiatement déclenchées et contiennent les données DFA supplémentaires.
 
-Quand le délai expire, le code de la page peut spécifier un événement Rapports et analyses Adobe, qui sera utilisé comme événement de dépassement de délai. Cet événement est utile pour diagnostiquer les problèmes d’intégration ou lors du réglage de `s.maxDelay`. En cas de dépassements de délai excessifs, augmentez `s.maxDelay`. `s.maxDelay` peut toutefois être défini sur une valeur trop élevée, auquel cas les visiteurs pourraient avoir le potentiel de quitter le site avant l’expiration du `s.maxDelay` minuteur. .
+Quand le délai expire, le code de la page peut spécifier un événement Rapports et analyses Adobe, qui sera utilisé comme événement de dépassement de délai. Cet événement est utile pour diagnostiquer les problèmes d’intégration ou lors du réglage de `s.maxDelay`. En cas de dépassements de délai excessifs, augmentez `s.maxDelay`. `s.maxDelay` peut toutefois être défini sur une valeur trop élevée, auquel cas les visiteurs pourraient avoir le potentiel de quitter le site avant l’expiration du `s.maxDelay` minuteur..
 
 Il arrive que le serveur Floodlight réagisse à des erreurs au sujet du visiteur. Ceci survient généralement lorsque le serveur Floodlight ne sait rien au sujet du visiteur, car celui-ci n’a encore vu aucune publicité ou qu’il n’a pas de cookie de visiteur DFA. Le code de page peut spécifier une variable de conversion personnalisée (eVar) qui collectera ces erreurs et peut contribuer à résoudre les problèmes de mise en œuvre ou à signaler les erreurs relatives à la transaction Google. Erreurs les plus courantes : aucun historique, aucun cookie, erreur de requête et désabonnement, comme décrit dans le tableau suivant :
 
