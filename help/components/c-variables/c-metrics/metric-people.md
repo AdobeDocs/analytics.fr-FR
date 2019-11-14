@@ -1,11 +1,9 @@
 ---
 description: La mesure Personnes est une mesure des rapports Adobe Analytics permettant d’attribuer des périphériques aux personnes.
-seo-description: La mesure Personnes est une mesure des rapports Adobe Analytics permettant d’attribuer des périphériques aux personnes.
-seo-title: Personnes
 title: Personnes
 uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
