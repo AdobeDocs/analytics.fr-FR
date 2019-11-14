@@ -1,19 +1,17 @@
 ---
 description: Comment exécuter le rapport Canal marketing.
-seo-description: Comment exécuter le rapport Canal marketing.
-seo-title: Exécution de rapports Canal marketing
 solution: Analytics
-subtopic: Canaux marketing
-title: Exécution de rapports Canal marketing
-topic: Reports and Analytics
-uuid: 95 a 7 aa 1 e -570 b -4 d 63-a 493-91 c 2337 bb 715
+subtopic: Marketing channels
+title: Exécution de rapports sur les canaux marketing
+topic: Reports and analytics
+uuid: 95a7aa1e-570b-4d63-a493-91c2337bb715
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Exécution de rapports Canal marketing
+# Exécution de rapports sur les canaux marketing
 
 Comment exécuter le rapport Canal marketing.
 
