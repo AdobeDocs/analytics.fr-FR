@@ -1,11 +1,9 @@
 ---
 description: L’interface utilisateur d’Adobe Mobile Services combine les données sur les applications mobiles de vos suites de rapports Adobe Analytics et permet d’envoyer des notifications push et de générer des messages in-app.
-seo-description: L’interface utilisateur d’Adobe Mobile Services combine les données sur les applications mobiles de vos suites de rapports Adobe Analytics et permet d’envoyer des notifications push et de générer des messages in-app.
-seo-title: Prise en charge des suites de rapports virtuelles dans Mobile Services
 title: Prise en charge des suites de rapports virtuelles dans Mobile Services
 uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
