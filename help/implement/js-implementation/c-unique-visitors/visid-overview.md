@@ -1,15 +1,13 @@
 ---
 description: Adobe utilise un cookie pour effectuer le suivi des navigateurs/appareils uniques.
-keywords: Mise en œuvre d’Analytics
-seo-description: Adobe utilise un cookie pour effectuer le suivi des navigateurs/appareils uniques.
-seo-title: Identification des visiteurs uniques
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Visiteurs
+subtopic: Visitors
 title: Identification des visiteurs uniques
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
