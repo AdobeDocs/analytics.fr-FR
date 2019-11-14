@@ -1,10 +1,8 @@
 ---
 description: Méthode de calcul des totaux de Workspace.
-seo-description: Découvrez comment les totaux de Workspace sont calculés.
-seo-title: Méthode de calcul des totaux de Workspace.
 title: Totaux de Workspace
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
