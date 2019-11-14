@@ -1,15 +1,13 @@
 ---
 description: Spécifiez un lien d’exclusion et personnalisez-le. Les visiteurs de votre site Web peuvent choisir de ne pas faire suivre leur activité dans les produits d’analyse d’Adobe en consultant la page d’exclusion de votre domaine de collecte de données.
-keywords: Mise en œuvre d’Analytics
-seo-description: Spécifiez un lien d’exclusion et personnalisez-le. Les visiteurs de votre site Web peuvent choisir de ne pas faire suivre leur activité dans les produits d’analyse d’Adobe en consultant la page d’exclusion de votre domaine de collecte de données.
-seo-title: Ajout d’un lien d’exclusion
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Résolution des problèmes
+subtopic: Troubleshooting
 title: Ajout d’un lien d’exclusion
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
