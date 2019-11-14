@@ -1,13 +1,11 @@
 ---
 description: Avant de commencer le mappage des éléments sur la feuille de calcul, assurez-vous que cette dernière n’est pas protégée. Si le schéma de protection de votre feuille de calcul empêche toute opération de l’utilisateur, il vous sera impossible d’y sélectionner des cellules. Commencez par annuler la protection de la feuille, puis ajoutez des mappages de cellules.
-seo-description: Avant de commencer le mappage des éléments sur la feuille de calcul, assurez-vous que cette dernière n’est pas protégée. Si le schéma de protection de votre feuille de calcul empêche toute opération de l’utilisateur, il vous sera impossible d’y sélectionner des cellules. Commencez par annuler la protection de la feuille, puis ajoutez des mappages de cellules.
-seo-title: Mappage de mesures et de dimensions avec des cellules
 solution: Analytics
 title: Mappage de mesures et de dimensions avec des cellules
-topic: Créateur de rapports
+topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
