@@ -1,14 +1,12 @@
 ---
 description: Descriptions des éléments de la page Définir un groupe d’utilisateurs.
-seo-description: Descriptions des éléments de la page Définir un groupe d’utilisateurs.
-seo-title: Paramètres des groupes d’utilisateurs
 solution: Analytics
-subtopic: Utilisateurs et groupes
+subtopic: Users and groups
 title: Paramètres des groupes d’utilisateurs
-topic: Outils d’administration
+topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
