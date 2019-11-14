@@ -1,15 +1,13 @@
 ---
 description: Cette section contient l’échantillon de code de votre fichier JavaScript principal et des pages de votre site.
-keywords: Mise en œuvre d’Analytics;code appmeasurement.js;exemple de code de page
-seo-description: Cette section contient l’échantillon de code de votre fichier JavaScript principal et des pages de votre site.
-seo-title: Exemple de code de page et configuration internationale
+keywords: Analytics Implementation;appmeasurement.js code;example page code
 solution: Analytics
-subtopic: AppMeasurement pour JavaScript
+subtopic: JavaScript AppMeasurement
 title: Exemple de code de page et configuration internationale
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
