@@ -1,15 +1,13 @@
 ---
-description: Renvoie la valeur d'un paramètre de chaîne de requête spécifié si elle se trouve dans l'URL de la page actuelle ou dans la chaîne fournie.
-keywords: Mise en œuvre d’Analytics
-seo-description: Renvoie la valeur d’un paramètre de chaîne de requête spécifié si elle se trouve dans l'URL de la page actuelle ou dans la chaîne fournie.
-seo-title: Util.getQueryParam
+description: Renvoie la valeur d’un paramètre de chaîne de requête spécifié si elle se trouve dans l'URL de la page actuelle ou dans la chaîne fournie.
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: AppMeasurement pour JavaScript
+subtopic: JavaScript AppMeasurement
 title: Util.getQueryParam
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
