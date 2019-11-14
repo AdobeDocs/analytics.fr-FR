@@ -1,15 +1,13 @@
 ---
 description: Activez les autorisations d’utilisateurs pour l’accès aux API, la gestion des suites de rapports, les outils et les rapports, ainsi que les éléments de tableau de bord.
-keywords: groupes;autorisations
-seo-description: Activez les autorisations d’utilisateurs pour l’accès aux API, la gestion des suites de rapports, les outils et les rapports, ainsi que les éléments de tableau de bord.
-seo-title: Personnalisation des autorisations liées aux outils de suites de rapports
+keywords: groups;permissions
 solution: Analytics
-subtopic: Utilisateurs et groupes
+subtopic: Users and groups
 title: Personnalisation des autorisations liées aux outils de suites de rapports
-topic: Outils d’administration
+topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
