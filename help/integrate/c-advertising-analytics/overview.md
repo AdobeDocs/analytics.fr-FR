@@ -1,11 +1,9 @@
 ---
 description: valeur nulle
-seo-description: valeur nulle
-seo-title: Advertising Analytics - Aperçu
 title: Advertising Analytics - Aperçu
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
