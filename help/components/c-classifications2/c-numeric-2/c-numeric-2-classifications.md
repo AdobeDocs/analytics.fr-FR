@@ -1,14 +1,12 @@
 ---
 description: Les classifications numériques 2 disposent de mesures souples et personnalisées que vous pouvez importer dans Adobe Experience Cloud via l’importateur.
-seo-description: Les classifications numériques 2 disposent de mesures souples et personnalisées que vous pouvez importer dans Adobe Experience Cloud via l’importateur.
-seo-title: Classifications numériques 2 - Aperçu
 solution: Analytics
 subtopic: Classifications
 title: Classifications numériques 2 - Aperçu
-topic: Outils d’administration
+topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
