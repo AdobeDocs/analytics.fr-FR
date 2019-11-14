@@ -1,14 +1,12 @@
 ---
 description: La segmentation des chemins d’accès par type d’utilisateur est une requête courante pour essayer de comprendre le cheminement de types d’utilisateurs spécifiques sur votre site.
-keywords: Mise en œuvre d’Analytics
-seo-description: La segmentation des chemins d’accès par type d’utilisateur est une requête courante pour essayer de comprendre le cheminement de types d’utilisateurs spécifiques sur votre site.
-seo-title: Segmentation des chemins d’accès par type d’utilisateur
+keywords: Analytics Implementation
 solution: Analytics
 title: Segmentation des chemins d’accès par type d’utilisateur
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 5c298f39-381d-453b-a608-109e3276b361
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
