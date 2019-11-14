@@ -1,10 +1,8 @@
 ---
 description: Installez l’ancien débogueur Adobe Experience Cloud. Ce débogueur examine les balises pour Analytics, Target, Advertising Cloud, Identity Service, DTM et Launch.
-seo-description: Installez l’ancien débogueur Adobe Experience Cloud. Ce débogueur examine les balises pour Analytics, Target, Advertising Cloud, Identity Service, DTM et Launch.
-seo-title: Débogueur hérité d’Adobe Experience Cloud
 title: Débogueur hérité d’Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -52,29 +50,29 @@ Si vous insistez pour ne pas utiliser l’extension [](https://docs.adobe.com/co
 Edge ne permet pas de créer manuellement un signet d’applet, mais il est possible de modifier une URL de signet.
 
 1. Cliquez sur l’icône en forme d’étoile sur le côté droit du champ URL pour mettre en signet la page active.
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click the star icon with lines to open the Favorites bar.
-4. Right click the newly created bookmark, the select 'Edit URL'.
-5. Paste the code snippet in the text field, then hit Enter.
+2. Nommez le signet "Adobe Experience Cloud Debugger", puis enregistrez-le à l’emplacement souhaité.
+3. Cliquez sur l’icône en forme d’étoile avec des lignes pour ouvrir la barre Favoris.
+4. Cliquez avec le bouton droit sur le signet que vous venez de créer, sélectionnez "Modifier l'URL".
+5. Collez le fragment de code dans le champ de texte, puis appuyez sur Entrée.
 
 #### Safari
 
-Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+Safari ne peut pas créer manuellement un signet d’applet, mais une URL de signet peut être modifiée.
 
-1. Click the Share icon in the top right, which opens a bookmark modal window.
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
-4. Right click &gt; Edit Address, then paste the code snippet into text field.
+1. Cliquez sur l’icône Partager dans le coin supérieur droit, ce qui ouvre une fenêtre modale de signet.
+2. Nommez le signet "Adobe Experience Cloud Debugger", puis enregistrez-le à l’emplacement souhaité.
+3. Cliquez sur Signets &gt; Modifier les signets, puis recherchez le signet nouvellement créé.
+4. Cliquez avec le bouton droit de la souris &gt; Modifier l’adresse, puis collez le fragment de code dans le champ de texte.
 
-## Using the legacy debugger
+## Utilisation du débogueur hérité
 
-To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+Pour utiliser le débogueur, accédez à la page de votre site, puis cliquez sur le signet d’applet. Une fenêtre contextuelle s’affiche, affichant les données envoyées à Adobe.
 
-> [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+> [!NOTE] Certains plug-ins de blocage des publicités et bloqueurs de fenêtres contextuelles peuvent interférer avec le chargement de la fenêtre du débogueur. Recherchez les fenêtres contextuelles bloquées dans votre navigateur et autorisez-les à fonctionner correctement pour le débogueur.
 
 Le débogueur dispose de plusieurs options, qui personnalisent toutes le mode d’affichage des données. Aucune de ces options n’affecte la collecte de données.
 
-* **** Displayed Experience Cloud products: Shows or hides image requests for each respective Experience Cloud product.
+* **** Produits Experience Cloud affichés : Affiche ou masque les demandes d’image pour chaque produit Experience Cloud correspondant.
 * **** Décodage d’URL : L’URL décode la demande d’image afin de correspondre à ce qui est affiché dans les rapports. Adobe recommande de laisser cette case cochée.
 * **** Actualisation automatique : Actualise automatiquement la fenêtre contextuelle toutes les quelques secondes pour rechercher d’autres demandes d’image sur la page. Si vous devez copier/coller du contenu dans le débogueur, désactivez l’actualisation automatique afin que votre sélection reste.
 * **** Format convivial : Active/désactive le format d’affichage entre les libellés utiles et les chaînes de requête brutes dans une demande d’image. Voir Paramètres [de requête de collecte de](../js-implementation/data-collection/query-parameters.md) données pour plus d’informations.
