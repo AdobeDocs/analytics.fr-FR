@@ -1,14 +1,12 @@
 ---
 description: Une couche de données est une structure d’objets JavaScript que les développeurs insèrent sur les pages.
-keywords: Mise en œuvre d’Analytics;couche de données;digitalData
-seo-description: Une couche de données est une structure d’objets JavaScript que les développeurs insèrent sur les pages. Elle peut être utilisée par les outils de suivi (y compris les systèmes de Tag Management comme Dynamic Tag Management) afin de remplir des rapports.
-seo-title: Couche de données
+keywords: Analytics Implementation;data layer;digitalData
 solution: Analytics
 title: Couche de données
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
