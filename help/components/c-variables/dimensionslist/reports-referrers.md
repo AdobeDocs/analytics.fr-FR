@@ -1,13 +1,11 @@
 ---
-description: Affiche le domaine ou l’URL de provenance des visiteurs avant qu’ils arrivent sur votre site, les méthodes utilisées par les visiteurs pour trouver votre site web et le nombre de visites sur votre site qui proviennent de ces référents.
-seo-description: Affiche le domaine ou l’URL de provenance des visiteurs avant qu’ils arrivent sur votre site, les méthodes utilisées par les visiteurs pour trouver votre site Web et le nombre de visites sur votre site qui proviennent de ces référents.
-seo-title: Référents
+description: Affiche le domaine ou l’URL de provenance des visiteurs avant qu’ils arrivent sur votre site, les méthodes utilisées par les visiteurs pour trouver votre site Web et le nombre de visites sur votre site qui proviennent de ces référents.
 solution: Analytics
 title: Référents
-topic: Rapports
+topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
