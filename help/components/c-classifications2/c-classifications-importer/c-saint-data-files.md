@@ -1,14 +1,12 @@
 ---
 description: L’importateur vous permet de télécharger en vrac des données de classification dans des rapports d’analyse sous la forme d’un fichier. Pour que les chargements de données s’effectuent correctement, un format de fichier spécifique est requis pour l’importation.
-seo-description: L’importateur vous permet de télécharger en vrac des données de classification dans des rapports d’analyse sous la forme d’un fichier. Pour que les chargements de données s’effectuent correctement, un format de fichier spécifique est requis pour l’importation.
-seo-title: Fichiers de données de classification
 solution: Analytics
 subtopic: Classifications
 title: Fichiers de données de classification
-topic: Outils d’administration
+topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
