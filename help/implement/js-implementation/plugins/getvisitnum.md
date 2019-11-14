@@ -1,15 +1,13 @@
 ---
 description: Le module externe getVisitNum détermine le nombre de visites qu’un internaute a effectuées sur votre site et capture cette valeur dans une variable Analytics.
-keywords: Mise en œuvre d’Analytics
-seo-description: Le module externe getVisitNum détermine le nombre de visites qu’un internaute a effectuées sur votre site et capture cette valeur dans une variable Analytics.
-seo-title: getVisitNum
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Modules externes
+subtopic: Plug-ins
 title: getVisitNum
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
