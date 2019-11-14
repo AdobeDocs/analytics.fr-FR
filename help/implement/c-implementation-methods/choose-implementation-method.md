@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics peut être mis en œuvre de différentes façons.
-keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;javascript
-seo-description: Adobe Analytics peut être mis en œuvre de différentes façons.
-seo-title: Choix d’une méthode de mise en œuvre
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;javascript
 solution: Analytics
 title: Choix d’une méthode de mise en œuvre
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
