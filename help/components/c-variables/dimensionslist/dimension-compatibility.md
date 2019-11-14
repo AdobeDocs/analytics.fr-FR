@@ -1,17 +1,15 @@
 ---
 title: Compatibilité des dimensions Analytics
-seo-title: Dimensions et rapports Analytics compatibles avec Analysis Workspace, les rapports et analyses, ou les deux.
-description: Référence pour les dimensions et rapports Analytics.
-seo-description: Dimensions de l'espace de travail d'analyse, dimensions des rapports et analyses, dimensions, dimensions R & A, dimensions de l'espace de travail
+description: Référence pour les dimensions et les rapports Analytics.
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Compatibilité des dimensions Analytics
 
-Cet article de référence répertorie les dimensions/rapports pris en charge dans les rapports et analyses et dans Analysis Workspace, dans Analysis Workspace uniquement et dans les rapports et analyses uniquement.
+Cet article de référence répertorie les dimensions/rapports pris en charge dans les rapports et analyses et Analysis Workspace, dans Analysis Workspace uniquement et dans les rapports et analyses uniquement.
 
 Gardez à l’esprit les éléments suivants.
 
@@ -21,7 +19,7 @@ Gardez à l’esprit les éléments suivants.
 
 ## Dimensions prises en charge à la fois dans Reports &amp; Analytics et Analysis Workspace
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |---|---|
 | Analytics pour Target | targetraw |
 | ID Audiences | mcaudiences |
@@ -33,9 +31,9 @@ Gardez à l’esprit les éléments suivants.
 | Type de connexion | connectiontype |
 | Prise en charge des cookies | cookie |
 | Pays | geocountry |
-| Fidélisation des clients | customerloyalty |
-| Variables de conversion personnalisées | evar 1, evar 2, etc. |
-| Variables Aperçu personnalisé | prop 1, prop 2, etc. |
+| Fidélité de la clientèle | customerloyalty |
+| Variables de conversion personnalisées | evar1, evar2, etc. |
+| Variables Aperçu personnalisé | prop1, prop2, etc. |
 | Lien personnalisé | customlink |
 | Jours avant le premier achat | daysbeforefirstpurchase |
 | Jours depuis le dernier achat | dayssincelastpurchase |
@@ -70,7 +68,7 @@ Gardez à l’esprit les éléments suivants.
 | Résolution de l’écran | monitorresolution |
 | Systèmes d’exploitation | operatingsystem |
 | Domaine référent initial | referringdomainoriginal |
-| Page | page |
+| Activity Map | page |
 | Pages introuvables | pagesnotfound |
 | Produit | product |
 | Référent | referrer |
@@ -101,7 +99,7 @@ Gardez à l’esprit les éléments suivants.
 
 ## Dimensions prises en charge uniquement dans Analysis Workspace
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Matin/après-midi | timepartampm |
 | Hauteur du navigateur - Regroupement | browserheightbucketed |
@@ -152,7 +150,7 @@ Gardez à l’esprit les éléments suivants.
 
 ## Dimensions adaptées au contenu prises en charge uniquement dans Analysis Workspace
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Activity Map XY | clickmapxy |
 | ID de session multimédia | videosessionid |
@@ -163,7 +161,7 @@ Gardez à l’esprit les éléments suivants.
 
 ## Dimensions prises en charge uniquement dans Reports &amp; Analytics
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Hauteur du navigateur | browserheight |
 | Largeur du navigateur | browserwidth |
@@ -198,7 +196,7 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 * DRM
 * Pages d’entrée
 * Pages de sortie
-* Abandons
+* Abandon
 * Chemins complets
 * ICities
 * Services d’informations
@@ -246,7 +244,7 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 
 ### Vidéo (Media Analytics)
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Contenu | video |
 | Segment de contenu | videosegment |
@@ -296,7 +294,7 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 
 ### Adobe Social
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Termes | socialterm |
 | Plateformes sociales / Propriétés | socialcontentprovider |
@@ -318,7 +316,7 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 
 ### SDK Mobile
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Date du premier lancement | mobileinstalldate |
 | ID application | mobileappid |
@@ -353,16 +351,16 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 | Accès à la balise de proximité | entrymobilebeaconproximity |
 | Quitter la balise de proximité | exitmobilebeaconproximity |
 
-### Adobe Advertizing Cloud (AMO)
+### Adobe Advertising Cloud (AMO)
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | AMO EF ID | amo_ef_id |
 | ID AMO | amo_cid |
 
-### Page
+### Activity Map 
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Lien d’Activity Map par région | clickmaplinkbyregion |
 | Région d’Activity Map | clickmapregion |
@@ -373,7 +371,7 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 
 Pour plus d’informations sur la manière d’implémenter cette intégration, consultez la section [Partenariat Nielsen](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html).
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Modèle de publicité Nielsen | nielsenadmodel |
 | Segment C Nielsen | nielsensegmentc |
@@ -394,7 +392,7 @@ Pour plus d’informations sur la manière d’implémenter cette intégration, 
 
 ### Adobe Experience Manager (AEM)
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | ID de ressource | aemassetid |
 | Source de la ressource | aemassetsource |
@@ -404,6 +402,6 @@ Pour plus d’informations sur la manière d’implémenter cette intégration, 
 
 ### Adobe Campaign
 
-| Nom de dimension (visible dans l'interface utilisateur d'Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Adobe Campaign Identifiant Diffusion exécutée | ac_delivery_internal_name |
