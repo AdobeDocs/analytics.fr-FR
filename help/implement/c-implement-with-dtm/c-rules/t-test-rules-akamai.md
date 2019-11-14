@@ -1,13 +1,11 @@
 ---
 description: Testez les règles Annuler la publication depuis votre console si vous utilisez l’hébergement Akamai.
-keywords: Dynamic Tag Management;règle, module externe de sélecteur;akamai;test akamai;règles annuler la publication;test des règles annuler la publication;déboguer une règle
-seo-description: Testez les règles Annuler la publication depuis votre console si vous utilisez l’hébergement Akamai.
-seo-title: Test des règles non publiées pour l’hébergement Akamai
+keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Test des règles non publiées pour l’hébergement Akamai
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
