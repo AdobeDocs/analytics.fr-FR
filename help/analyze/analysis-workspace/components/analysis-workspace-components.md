@@ -1,11 +1,9 @@
 ---
 description: Les composants d’Analysis Workspace sont constitués des mesures, dimensions, segments et granularités du temps que vous pouvez faire glisser sur un projet. Les composants personnalisés que vous créez sont ajoutés à ces panneaux, par exemple les plages de dates personnalisées.
-seo-description: Les composants d’Analysis Workspace sont constitués des mesures, dimensions, segments et granularités du temps que vous pouvez faire glisser sur un projet. Les composants personnalisés que vous créez sont ajoutés à ces panneaux, par exemple les plages de dates personnalisées.
-seo-title: Aperçu des composants
 title: Aperçu des composants
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
