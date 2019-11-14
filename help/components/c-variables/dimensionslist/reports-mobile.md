@@ -1,13 +1,11 @@
 ---
 description: Affiche des informations sur l’accès aux sites web depuis un appareil mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les appareils mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
-seo-description: Affiche des informations sur l’accès aux sites web depuis un appareil mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les appareils mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
-seo-title: Mobile
 solution: Analytics
 title: Mobile
-topic: Rapports
+topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
