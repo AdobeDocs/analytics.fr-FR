@@ -1,14 +1,12 @@
 ---
 description: 'Une fois activée, l’intégration DFA des connecteurs de données fournit les mesures suivantes pour vos rapports Adobe Analytics : '
 keywords: DFA
-seo-description: 'Une fois activée, l’intégration DFA des connecteurs de données fournit les mesures suivantes pour vos rapports Adobe Analytics : '
-seo-title: Fonctions d’intégration
 solution: Analytics
 title: Fonctions d’intégration
-topic: Connecteurs de données
+topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
