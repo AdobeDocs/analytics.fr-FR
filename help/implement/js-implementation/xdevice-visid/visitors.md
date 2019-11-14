@@ -1,15 +1,13 @@
 ---
 description: Analytics comptabilise chaque identifiant visiteur effectif unique comme un visiteur unique.
-keywords: Mise en œuvre d’Analytics
-seo-description: Analytics comptabilise chaque identifiant visiteur effectif unique comme un visiteur unique.
-seo-title: Visiteurs
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Visiteurs
+subtopic: Visitors
 title: Visiteurs
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
