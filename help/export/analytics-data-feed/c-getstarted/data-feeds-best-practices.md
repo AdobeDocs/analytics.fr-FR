@@ -1,13 +1,11 @@
 ---
 description: 'Vous trouverez ci-dessous quelques bonnes pratiques concernant le traitement et la diffusion des flux de données, Tu devrais '
-keywords: Flux de données;bonnes pratiques;pic de trafic;horaire;ftp
-seo-description: 'Vous trouverez ci-dessous quelques bonnes pratiques concernant le traitement et la diffusion des flux de données, Tu devrais '
-seo-title: Bonnes pratiques et informations générales
+keywords: Data Feed;best practices;traffic spike;hourly;ftp
 solution: Analytics
 title: Bonnes pratiques et informations générales
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
