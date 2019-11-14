@@ -1,13 +1,11 @@
 ---
 description: Les analyses des pages en temps réel (mode réel) vous permettent d’obtenir des résultats avec une granularité détaillée en temps réel.
-seo-description: Les analyses des pages en temps réel (mode réel) vous permettent d’obtenir des résultats avec une granularité détaillée en temps réel.
-seo-title: Analyse des pages en temps réel (mode réel)
 solution: Analytics
 title: Analyse des pages en temps réel (mode réel)
-topic: Activity Map
+topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -37,4 +35,4 @@ Cette augmentation se reflète dans tous les services et outils d’Adobe Analyt
 * Pour la diffusion en continu active, les rapports en temps réel, les requêtes d’API et les données actives pour les variables de trafic, seuls les accès avec un ID supplémentaire sont retardés.
 * Pour les données actives sur les mesures de conversion, les données finalisées et les flux de données, tous les accès sont retardés de 5 à 7 minutes supplémentaires.
 
-Gardez à l’esprit que l’augmentation de latence débute une fois que vous avez implémenté le [service d’identité](https://marketing.adobe.com/resources/help/fr_FR/mcvid/), même si vous n’avez pas entièrement implémenté cette intégration.
+Gardez à l’esprit que l’augmentation de latence débute une fois que vous avez implémenté le [service d’identité](https://marketing.adobe.com/resources/help/en_US/mcvid/), même si vous n’avez pas entièrement implémenté cette intégration.
