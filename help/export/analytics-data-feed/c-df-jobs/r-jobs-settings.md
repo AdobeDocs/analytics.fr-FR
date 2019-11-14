@@ -1,13 +1,11 @@
 ---
 description: Lorsque vous configurez un flux, certains paramètres déterminent la fréquence de traitement des tâches.
-keywords: Flux de données;tâche;paramètres;quotidien;horaire;Renvois de données pour les flux de données horaires;renvoi
-seo-description: Lorsque vous configurez un flux, certains paramètres déterminent la fréquence de traitement des tâches.
-seo-title: Paramètres des tâches
+keywords: Data Feed;job;settings;daily;hourly;Data Backfills for Hourly Data Feeds;backfill
 solution: Analytics
 title: Paramètres des tâches
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
