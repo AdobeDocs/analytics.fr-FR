@@ -1,32 +1,30 @@
 ---
 description: Il est possible d’effectuer le suivi automatique des téléchargements de fichiers et des liens de sortie en fonction des paramètres définis dans le fichier AppMeasurement pour JavaScript.
-keywords: Mise en œuvre d’Analytics
-seo-description: Il est possible d’effectuer le suivi automatique des téléchargements de fichiers et des liens de sortie en fonction des paramètres définis dans le fichier AppMeasurement pour JavaScript.
-seo-title: Fonction s.tl() – Suivi des liens
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Suivi des liens
+subtopic: Link tracking
 title: Fonction s.tl() – Suivi des liens
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Fonction s.tl() – Suivi des liens
 
-Si votre entreprise préfère avoir plus de contrôle sur les liens à suivre et sur leur comportement, il est recommandé d’effectuer un suivi manuel des liens. Utilisez la fonction s.tl() pour envoyer manuellement les demandes d’image de suivi des liens avec le contenu exact souhaité. Si le suivi des liens de base est tout ce qui est nécessaire, voir `s.trackDownloadLinks` et sous Variables `s.trackExternalLinks` de [configuration](c-variables/configuration-variables.md). Il est impossible de suivre automatiquement les liens personnalisés.
+Si votre organisation préfère avoir plus de contrôle sur les liens à suivre et sur leur comportement, il est recommandé d’effectuer un suivi manuel des liens. Utilisez la fonction s.tl() pour envoyer manuellement des demandes d’image de suivi des liens avec le contenu exact souhaité. Si le suivi des liens de base est tout ce qui importe, reportez-vous à `s.trackDownloadLinks` et à `s.trackExternalLinks` sous [Variables de configuration](c-variables/configuration-variables.md). Il est impossible de suivre automatiquement des liens personnalisés.
 
-> [!NOTE] Le code de suivi des liens est souvent très spécifique à votre site et aux besoins de création de rapports. Adobe conseille d’effectuer une mise en oeuvre préalable ou d’avoir recours à un conseiller en implémentation pour comprendre comment utiliser cette fonctionnalité en fonction des besoins de votre entreprise.
+> [!NOTE] Le code de suivi des liens est souvent très spécifique aux exigences liées à votre site et à la création de rapports. Adobe conseille d’effectuer une mise en œuvre préalable ou d’avoir recours à un conseiller en implémentation pour comprendre la manière d’utiliser cette fonctionnalité en fonction de vos besoins professionnels.
 
 ## Syntaxe et exemples
 
-Syntaxe de base :
+Syntaxe de base :
 
 `s.tl(`**`this`**`,`**`linkType`**`,`**`linkName`**`,`**`variableOverrides`**`,`**`doneAction`**`);`
 
-Exemples de base :
+Exemples de base :
 
 ```HTML
 <!-- Basic HTML link example-->
@@ -38,14 +36,14 @@ Exemples de base :
 s.tl(this,'o','Example Link');
 ```
 
-### this/true (obligatoire)
+### this/true (requis)
 
-Le premier argument détermine si le navigateur attend jusqu’à 500 ms avant de quitter la page. Si une demande d’image est envoyée avant 500 ms, la page accède immédiatement au lien sur lequel l’utilisateur a cliqué.
+Le premier argument détermine si le navigateur attend jusqu’à 500 ms avant de quitter la page. Si une demande d’image est envoyée avant 500 ms, la page accède immédiatement au lien sur lequel l’utilisateur a cliqué.
 
-* `this`: Patientez jusqu’à 500 ms pour laisser à AppMeasurement le temps d’envoyer une demande d’image. Valeur par défaut.
-* `true`: N'attendez pas. Si le lien quitte la page, il est possible qu’une demande d’image ne soit pas envoyée.
+* `this` : attendre jusqu’à 500 ms afin de laisser à AppMeasurement le temps d’envoyer une demande d’image. Valeur par défaut.
+* `true` : ne pas attendre. Si le lien quitte la page, il est possible qu’une demande d’image ne soit pas envoyée.
 
-Ce délai n’est nécessaire que lorsqu’un lien quitte la page.
+Le délai est uniquement nécessaire dans le cas où un lien quitte la page.
 
 ```JavaScript
 // Include 500ms delay
@@ -55,13 +53,13 @@ s.tl(this,'o','Example link');
 s.tl(true,'o','Example link');
 ```
 
-### linkType (obligatoire)
+### linkType (requis)
 
-Le deuxième argument comporte trois valeurs valides en fonction du type de lien à capturer. Il détermine la dimension que la demande d’image remplit dans Adobe Analytics.
+Le second argument a trois valeurs possibles suivant le type de lien que vous souhaitez capturer. Il détermine la dimension d’Adobe Analytics que renseigne la demande d’image.
 
 * `d`: Téléchargements de fichiers
 * `e`: Liens de sortie
-* `o`: Liens personnalisés
+* `o` : liens personnalisés
 
 ```JavaScript
 // Populates the File Downloads dimension
@@ -74,9 +72,9 @@ s.tl(this,'e','Example link');
 s.tl(this,'o','Example link');
 ```
 
-### linkName (obligatoire)
+### linkName (requis)
 
-Cet argument peut être n’importe quelle valeur personnalisée jusqu’à 100 octets. Il détermine la valeur de dimension dans les rapports.
+Cet argument peut être toute valeur personnalisée d’une taille maximale de 100 octets. Il détermine la valeur de dimension dans les rapports.
 
 ```JavaScript
 // Populates the Custom Link dimension with "Referral click to example.com"
@@ -88,22 +86,22 @@ s.tl(this,'d','Last quarter performance PDF');
 
 ### variableOverrides (facultatif)
 
-Permet de modifier les valeurs de variable pour un appel unique. Si vous utilisez l’argument doneAction et n’avez aucun remplacement de variable, utilisez `null`.
+Permet de modifier les valeurs de variable pour un appel unique. Si vous utilisez l’argument doneAction et si vous n’avez aucun remplacement de variable, utilisez `null`.
 
 ### doneAction (facultatif)
 
-Spécifie une action de navigation à exécuter une fois l’appel de suivi des liens terminé. Nécessite l’utilisation de `s.useForcedLinkTracking` et `s.forcedLinkTrackingTimeout`. The doneAction variable can be the string `navigate`, which causes the method to set `document.location` to the href attribute of `linkObject`. La variable doneAction peut également être une fonction qui autorise une personnalisation avancée.
+Spécifie une action de navigation à exécuter une fois l’appel de suivi des liens terminé. Nécessite l’utilisation de `s.useForcedLinkTracking` et de `s.forcedLinkTrackingTimeout`. La variable doneAction peut être la chaîne `navigate`, auquel cas la méthode définit `document.location` sur l’attribut href de `linkObject`. La variable doneAction peut également être une fonction qui autorise une personnalisation avancée.
 
 Si vous fournissez une valeur pour doneAction dans un événement `onClick` d’ancrage, vous devez renvoyer la valeur `false` après l’appel `s.tl` pour empêcher la navigation du navigateur par défaut.
-To mirror the default behavior and follow the URL specified by the href attribute, provide a string of `navigate` as the doneAction. Vous pouvez éventuellement fournir votre propre fonction pour gérer l’événement de navigation en la transmettant en tant que doneAction.
+Pour mettre en miroir le comportement par défaut et suivre l’URL spécifiée par l’attribut href, fournissez la chaîne `navigate` en tant que doneAction. Vous pouvez éventuellement fournir votre propre fonction pour gérer l’événement de navigation en la transmettant en tant que doneAction.
 
 ```JavaScript
 s.tl(this,'e','Example link',null,'navigate');return false;
 ```
 
-## Utilisation des fonctions JavaScript avec le suivi des liens
+## Utilisation de fonctions JavaScript avec le suivi des liens
 
-Vous pouvez consolider le code de suivi des liens dans une fonction JavaScript autonome définie sur la page ou dans un fichier JavaScript lié. Des appels peuvent alors être effectués dans la fonction onClick de chaque lien.
+Vous pouvez regrouper le code de suivi des liens dans une fonction JavaScript autonome définie sur la page ou dans un fichier JavaScript lié. Vous pouvez alors effectuer des appels dans la fonction onClick de chaque lien.
 
 ```JavaScript
 // Set in AppMeasurement file or page code
@@ -122,7 +120,7 @@ function trackClickInteraction(name){
 
 ## Eviter que les liens soient comptabilisés deux fois {#section_9C3F73DE758F4727943439DED110543C}
 
-Il est possible que les liens soient comptabilisés deux fois lorsque le lien est normalement capturé par le suivi automatique des téléchargements de fichiers ou des liens de sortie. For example, if you are tracking PDF downloads automatically, an `s.tl` call results in a duplicate download count:
+Il est possible que des liens soient comptabilisés deux fois dans les cas où ils sont normalement capturés par le suivi automatique du téléchargement de fichier ou du lien de sortie. Par exemple, si vous activez le suivi automatique des téléchargements PDF, un appel `s.tl` entraîne la double comptabilisation des téléchargements :
 
 ```JavaScript
 function trackDownload(obj) {}
