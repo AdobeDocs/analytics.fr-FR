@@ -1,13 +1,11 @@
 ---
 description: Vous pouvez fournir des descriptions des rapports personnalisés pour les eVars, les props, les classifications et les événements. Les descriptions sont visibles pour tous les utilisateurs finaux.
-seo-description: Vous pouvez fournir des descriptions des rapports personnalisés pour les eVars, les props, les classifications et les événements. Les descriptions sont visibles pour tous les utilisateurs finaux.
-seo-title: Descriptions des rapports personnalisés
 solution: Analytics
 title: Descriptions des rapports personnalisés
-topic: Outils d’administration
+topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
