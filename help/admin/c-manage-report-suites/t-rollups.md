@@ -1,13 +1,11 @@
 ---
 description: Description de la procédure de création d’une suite de rapports de cumul.
-seo-description: Description de la procédure de création d’une suite de rapports de cumul.
-seo-title: Création d’une suite de rapports de cumul
 solution: Analytics
 title: Création d’une suite de rapports de cumul
-topic: Outils d’administration
+topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
