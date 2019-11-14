@@ -1,11 +1,9 @@
 ---
 description: Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
-seo-description: Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
-seo-title: Activer l’intégration
 title: Activer l’intégration
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -36,6 +34,6 @@ Utilisez l’assistant de configuration des connecteurs de données Adobe pour c
 | Envoyé | (Obligatoire) Spécifiez l’événement Adobe Analytics qui stocke les données envoyées par courrier électronique importées du système de messagerie. L’événement Envoyé vous permet de voir le nombre de messages électroniques envoyés. |
 | Non abonné | (Obligatoire) Spécifiez l’événement Adobe Analytics qui stocke les données de désabonnement par courrier électronique importées du système de messagerie. L’événement Désabonné vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique, puis cliqué sur le lien Désabonner pour exclure les futurs messages électroniques de votre organisation. |
 | Segments | Activez les segments existants à utiliser avec cette intégration (facultatif). |
-|  Demandes d’accès | Activez les privilèges d’accès recommandés. |
+| Demandes d’accès | Activez les privilèges d’accès recommandés. |
 | Collecte de données | Sélectionnez Module **JavaScript** si vous souhaitez utiliser le module externe s_code.js comme modèle de collecte pour cette intégration. Sélectionnez Solution **** automatisée si vous souhaitez utiliser un modèle de collecte automatisée pour cette intégration, puis spécifiez les identifiants uniques utilisés pour cette intégration. Si vous sélectionnez cette option, spécifiez les identifiants uniques utilisés pour cette intégration :<ul><li>Paramètre de chaîne de requête d’ID de message : Cette valeur représente l’ID de message ajouté à l’URL de la page d’entrée par votre partenaire de messagerie.</li><li>Paramètre de chaîne de requête d’ID de destinataire : Cette valeur représente l’ID du destinataire annexé à l’URL de la page d’entrée par votre partenaire de messagerie.</li></ul> |
 | Génération de tableaux de bord et de signets | Générer automatiquement un tableau de bord et des signets pour l’intégration. |
