@@ -1,13 +1,11 @@
 ---
 description: Cette option permet de sélectionner des dates courantes ou des dates que vous avez enregistrées. Dans l’étape 1 de l’Assistant Requête, sélectionnez Préconfigurer les dates. Voici les définitions de champs pour les dates prédéfinies dans le créateur de rapports.
-seo-description: Cette option permet de sélectionner des dates courantes ou des dates que vous avez enregistrées. Dans l’étape 1 de l’Assistant Requête, sélectionnez Préconfigurer les dates. Voici les définitions de champs pour les dates prédéfinies dans le créateur de rapports.
-seo-title: Définitions de l’Assistant Requête - Dates préconfigurées
 solution: Analytics
 title: Définitions de l’Assistant Requête - Dates préconfigurées
-topic: Créateur de rapports
+topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
