@@ -1,14 +1,12 @@
 ---
 description: Elle efface les valeurs suivantes de l’objet d’instance. Cette fonction supprime les éléments (en les définissant comme « undefined »).
-keywords: Mise en œuvre d’Analytics
-seo-description: Elle efface les valeurs suivantes de l’objet d’instance. Cette fonction supprime les éléments (en les définissant comme « undefined »).
-seo-title: Fonction s.clearVars()
+keywords: Analytics Implementation
 solution: Analytics
 title: Fonction s.clearVars()
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
