@@ -1,13 +1,11 @@
 ---
 description: Dans le panneau Options, vous pouvez spécifier les paramètres de date, les paramètres de latence (données actives), consigner des informations et configurer des mises à jour.
-seo-description: Dans le panneau Options, vous pouvez spécifier les paramètres de date, les paramètres de latence (données actives), consigner des informations et configurer des mises à jour.
-seo-title: Options de Report Builder
 solution: Analytics
 title: Options de Report Builder
-topic: Créateur de rapports
+topic: Report builder
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
