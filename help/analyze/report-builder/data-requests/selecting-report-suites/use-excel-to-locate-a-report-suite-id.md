@@ -1,18 +1,16 @@
 ---
 description: Si vous ne connaissez pas l’identifiant d’une suite de rapports, vous pouvez faire glisser la valeur indiquée dans le champ Report Suite du menu Report Suite vers une cellule de votre classeur Excel.
-seo-description: Si vous ne connaissez pas l’identifiant d’une suite de rapports, vous pouvez faire glisser la valeur indiquée dans le champ Report Suite du menu Report Suite vers une cellule de votre classeur Excel.
-seo-title: Utilisation d'Excel pour localiser un identifiant de suite de rapports
 solution: Analytics
-title: Utilisation d'Excel pour localiser un identifiant de suite de rapports
-topic: Créateur de rapports
-uuid: 087 d 5720-f 438-4 db 3-bebb-e 6452 f 1 f 2 ba 6
+title: Localisation d’un identifiant de suite de rapports à l’aide d’Excel
+topic: Report builder
+uuid: 087d5720-f438-4db3-bebb-e6452f1f2ba6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Utilisation d'Excel pour localiser un identifiant de suite de rapports
+# Localisation d’un identifiant de suite de rapports à l’aide d’Excel
 
 Si vous ne connaissez pas l’identifiant d’une suite de rapports, vous pouvez faire glisser la valeur indiquée dans le champ Report Suite du menu Report Suite vers une cellule de votre classeur Excel.
 
