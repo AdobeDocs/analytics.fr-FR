@@ -1,13 +1,11 @@
 ---
 description: Vous pouvez créer une suite de rapports en sélectionnant un modèle prédéfini ou en utilisant l’une de vos suites de rapports existantes pour servir de modèle.
-seo-description: Vous pouvez créer une suite de rapports en sélectionnant un modèle prédéfini ou en utilisant l’une de vos suites de rapports existantes pour servir de modèle.
-seo-title: Paramètres d’une nouvelle suite de rapports
 solution: Analytics
 title: Paramètres d’une nouvelle suite de rapports
-topic: Outils d’administration
+topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
