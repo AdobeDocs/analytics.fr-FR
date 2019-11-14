@@ -1,14 +1,12 @@
 ---
 description: Description de la procédure d’ajout d’un groupe d’utilisateurs.
-seo-description: Description de la procédure d’ajout d’un groupe d’utilisateurs.
-seo-title: Ajout d’un groupe d’utilisateurs
 solution: Analytics
-subtopic: Utilisateurs et groupes
+subtopic: Users and groups
 title: Ajout d’un groupe d’utilisateurs
-topic: Outils d’administration
+topic: Admin tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
