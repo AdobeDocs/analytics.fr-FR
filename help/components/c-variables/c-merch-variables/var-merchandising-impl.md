@@ -1,13 +1,11 @@
 ---
 description: Description de l’activation et de l’implémentation d’une variable de marchandisage.
-keywords: Implémentation d’Analytics;marchandisage;variable;syntaxe du produit;Syntaxe de la variable de conversion;s.products
-seo-description: Description de l’activation et de l’implémentation d’une variable de marchandisage.
-seo-title: Implémentation d’une variable de marchandisage
+keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 solution: Analytics
 title: Implémentation d’une variable de marchandisage
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: f3c3a3c74434586f2bd8bcf3c23f488994129394
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
