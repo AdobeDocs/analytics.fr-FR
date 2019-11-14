@@ -1,15 +1,13 @@
 ---
 description: Personnalisez l’accès des utilisateurs à un niveau plus détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de cheminement.
-keywords: groupes;autorisations
-seo-description: Personnalisez l’accès des utilisateurs à un niveau plus détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de cheminement.
-seo-title: Personnalisation des autorisations liées aux dimensions
+keywords: groups;permissions
 solution: Analytics
-subtopic: Utilisateurs et groupes
+subtopic: Users and groups
 title: Personnalisation des autorisations liées aux dimensions
-topic: Outils d’administration
+topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -82,7 +80,7 @@ Les éléments suivants sont des dimensions pour lesquelles vous pouvez accorder
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/">Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/"> Activity Map </a> </p> </td> 
    <td colname="col2"> <p> Dimensions des rapports Activity Map : page d’Activity Map ; lien d’Activity Map ; région d’Activity Map ; lien d’Activity Map par région ; Activity Map XY </p> </td> 
   </tr> 
   <tr> 
