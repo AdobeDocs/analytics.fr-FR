@@ -1,13 +1,11 @@
 ---
 description: Adobe prend en charge l’exportation de demandes d’entrepôt de données vers des serveurs SFTP.
 keywords: ftp;sftp
-seo-description: Adobe prend en charge l’exportation de demandes d’entrepôt de données vers des serveurs SFTP.
-seo-title: Envoi de requêtes d’Data Warehouse vers les serveurs SFTP
 solution: Analytics
 title: Envoi de requêtes d’Data Warehouse vers les serveurs SFTP
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
