@@ -1,13 +1,11 @@
 ---
 description: Affiche les liens préférés des visiteurs de votre site. La page d’accueil, par exemple, comporte probablement plusieurs liens qui permettent d’afficher la même page, notamment un lien graphique et un lien texte. Ce rapport indique le pourcentage des visiteurs qui utilisent le lien graphique plutôt que le lien texte.
-seo-description: Affiche les liens préférés des visiteurs de votre site. La page d’accueil, par exemple, comporte probablement plusieurs liens qui permettent d’afficher la même page, notamment un lien graphique et un lien texte. Ce rapport indique le pourcentage des visiteurs qui utilisent le lien graphique plutôt que le lien texte.
-seo-title: Lien personnalisé
 solution: Analytics
 title: Lien personnalisé
-topic: Rapports
+topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
