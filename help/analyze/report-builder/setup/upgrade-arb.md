@@ -1,13 +1,11 @@
 ---
 description: Procédure de mise à niveau du Créateur de rapports et considérations à prendre en compte.
-seo-description: Procédure de mise à niveau du Créateur de rapports et considérations à prendre en compte.
-seo-title: Mise à niveau de Report Builder
 solution: Analytics
 title: Mise à niveau de Report Builder
-topic: Créateur de rapports
+topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -37,7 +35,7 @@ R : Non, tous vos paramètres, y compris les paramètres d’authentification, 
 
    ![](assets/upgrade.png)
 
-1. **[!UICONTROL Si une nouvelle version est disponible, cliquez sur]** Mettre à jour... . Le bouton présentera la version de la mise à jour, par exemple « Mettre à jour vers la version 5.0.50 ».
+1. **[!UICONTROL Si une nouvelle version est disponible, cliquez sur]** Mettre à jour.... Le bouton présentera la version de la mise à jour, par exemple « Mettre à jour vers la version 5.0.50 ».
 
    >[!NOTE]
    >
