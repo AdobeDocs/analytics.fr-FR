@@ -1,10 +1,10 @@
 ---
 description: Les variables dynamiques vous permettent de copier des valeurs d’une variable vers une autre sans entrer les valeurs complètes à plusieurs reprises dans les demandes d’image sur votre site.
-keywords: Mise en œuvre d’Analytics
+keywords: Analytics Implementation
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
 
@@ -17,7 +17,7 @@ Contient le type de lien déterminé automatiquement, le cas échéant. Peut êt
     * `e` (sortie)
     * `o` (personnalisé/autre)
 
-Il s’agit du paramètre `pe` dans la demande d’image. Si elle est définies avec `linkURL` ou `linkName`, un appel au serveur est envoyé en tant que lien de téléchargement, de sortie ou personnalisé.
+Il s’agit du paramètre `pe` dans la demande d’image. If set with  [`linkURL`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkURL.html) or [`linkName`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkname.html), a server call is sent as a download, custom, or exit link.
 
 *Remarque : La variable[`pageName`](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/optimize-implementation/page-naming-strategies.html)ne peut pas être définie pour un téléchargement de fichier, un lien de sortie ou un lien personnalisé, car chaque type de lien n’est pas une page vue et n’est associé à aucun nom de page.*
 
