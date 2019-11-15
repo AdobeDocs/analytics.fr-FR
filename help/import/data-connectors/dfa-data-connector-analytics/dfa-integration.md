@@ -1,14 +1,12 @@
 ---
 description: 'La configuration de l’intégration DFA implique les tâches suivantes : '
 keywords: DFA
-seo-description: 'La configuration de l’intégration DFA implique les tâches suivantes : '
-seo-title: Intégration DFA
 solution: Analytics
 title: Intégration DFA
-topic: Connecteurs de données
+topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
