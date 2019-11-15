@@ -1,14 +1,12 @@
 ---
 description: Les en-têtes de demande et de réponse HTTP servent à collecter d’autres données en plus de celles collectées par AppMeasurement. Cette section décrit les en-têtes utilisés pendant la collecte des données.
-keywords: Mise en œuvre d’Analytics
-seo-description: Les en-têtes de demande et de réponse HTTP servent à collecter d’autres données en plus de celles collectées par AppMeasurement. Cette section décrit les en-têtes utilisés pendant la collecte des données.
-seo-title: En-têtes HTTP de collecte de données
+keywords: Analytics Implementation
 solution: Analytics
 title: En-têtes HTTP de collecte de données
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
