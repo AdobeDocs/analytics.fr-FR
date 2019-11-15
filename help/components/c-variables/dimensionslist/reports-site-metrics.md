@@ -1,13 +1,11 @@
 ---
 description: Le rapport Mesures du site présente des informations quantitatives sur votre site web. Il indique par exemple combien de fois un visiteur a consulté certaines pages, le nombre d’achats effectués sur des pages spécifiques, le temps passé sur les pages, les recettes et autres données quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
-seo-description: Le rapport Mesures du site présente des informations quantitatives sur votre site web. Il indique par exemple combien de fois un visiteur a consulté certaines pages, le nombre d’achats effectués sur des pages spécifiques, le temps passé sur les pages, les recettes et autres données quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
-seo-title: Mesures du site
 solution: Analytics
 title: Mesures du site
-topic: Rapports
+topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
