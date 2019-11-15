@@ -7,7 +7,7 @@ title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 7f9db6ea3de1b13aeb489f2a2009d28efe3a0c61
+source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
 
@@ -16,47 +16,47 @@ source-git-commit: 7f9db6ea3de1b13aeb489f2a2009d28efe3a0c61
 
 Les variables de page renseignent directement un rapport (pageName, props de liste, variables de liste, etc.). Pour obtenir de l’aide sur des variables de page spécifiques, cliquez sur l’un des liens suivants :
 
-* browserHeight
-* browserWidth
-* campaign
-* marketing
-* colorDepth
-* connectionType
-* cookiesEnabled
-* dc
-* eVarN
-* Événements
-* hierN
-* homepage
-* javaEnabled
-* javascriptVersion
-* linkName
-* linkType
-* Propriétés de liste
-* Variable de liste
-* maxDelay
-* mediaLength
-* mediaName
-* mediaPlayer
-* mediaSession
-* Media.trackEvents
-* Media.trackVars
-* mobile
-* pageName
-* pageType
-* pageURL
-* plugins
-* propN
-* purchaseID
-* referrer
-* resolution
-* s_objectID
-* server
-* state
-* timestamp
-* trackingServer
-* trackingServerSecure
-* stockage
-* visitorID
-* visitorNamespace
-* zip
+* [browserHeight]
+* [browserWidth]
+* [campaign]
+* [marketing]
+* [colorDepth]
+* [connectionType]
+* [cookiesEnabled]
+* [dc]
+* [eVarN]
+* [Événements]
+* [hierN]
+* [homepage]
+* [javaEnabled]
+* [javascriptVersion]
+* [linkName]
+* [linkType]
+* [Propriétés de liste]
+* [Variable de liste]
+* [maxDelay]
+* [mediaLength]
+* [mediaName]
+* [mediaPlayer]
+* [mediaSession]
+* [Media.trackEvents]
+* [Media.trackVars]
+* [mobile]
+* [pageName]
+* [pageType]
+* [pageURL]
+* [plugins]
+* [propN]
+* [purchaseID]
+* [referrer]
+* [resolution]
+* [s_objectID]
+* [server]
+* [state]
+* [timestamp]
+* [trackingServer]
+* [trackingServerSecure]
+* [stockage]
+* [visitorID]
+* [visitorNamespace]
+* [zip]
