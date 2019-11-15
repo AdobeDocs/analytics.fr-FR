@@ -1,14 +1,12 @@
 ---
 description: Les données sont envoyées à une suite de rapports afin d’être affichées dans des rapports. La méthode la plus simple, mais aussi la plus courante, pour envoyer des données vers Analytics consiste à utiliser la mise en œuvre avec la gestion dynamique des balises. Vous pouvez également saisir le code avec la mise en œuvre via JavaScript.
-keywords: Mise en œuvre d’Analytics;code analytics;code d’en-tête;code de pied de page;en-tête;pied de page;Dynamic Tag Management;dtm;javascript
-seo-description: Les données sont envoyées à une suite de rapports afin d’être affichées dans des rapports. La méthode la plus simple, mais aussi la plus courante, pour envoyer des données vers Analytics consiste à utiliser la mise en œuvre avec la gestion dynamique des balises. Vous pouvez également saisir le code avec la mise en œuvre via JavaScript.
-seo-title: Code Analytics
+keywords: Analytics Implementation;analytics code;header code;footer code;header;footer;dynamic tag management;dtm;javascript
 solution: Analytics
 title: Code Analytics
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 2615429c-63a3-4a11-8a16-7b933ed462f5
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
