@@ -1,16 +1,14 @@
 ---
-description: Décrit les deux méthodes principales de tri et de filtrage des mesures.
-seo-description: Décrit les deux méthodes principales de tri et de filtrage des mesures.
-seo-title: Rechercher des mesures
-title: Rechercher des mesures
-uuid: 60 c 8 e 02 c -736 d -4 d 20-8799-69 f 6 ca 250033
+description: Décrit les deux principales méthodes de recherche des mesures de tri et de filtrage.
+title: Recherche de mesures
+uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Rechercher des mesures
+# Recherche de mesures
 
 Décrit les deux moyens principaux de recherche de mesures : le tri et le filtrage.
 
