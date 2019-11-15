@@ -1,16 +1,14 @@
 ---
 description: valeur nulle
-seo-description: valeur nulle
-seo-title: Alertes intelligentes - cas d'utilisation
-title: Alertes intelligentes - cas d'utilisation
-uuid: 2 aa 8 e 00 f -4885-4861-a 47 f -40 c 8 df 1 f 8539
+title: Alertes intelligentes - Exemples d’utilisation
+uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Alertes intelligentes - cas d'utilisation
+# Alertes intelligentes - Exemples d’utilisation
 
 ## Création d’une alerte simple filtrée par deux segments {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
