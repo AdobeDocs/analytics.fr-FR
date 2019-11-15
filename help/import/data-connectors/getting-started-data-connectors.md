@@ -1,10 +1,8 @@
 ---
 description: Importation des données de suivi à partir d’applications tierces dans Analytics.
-seo-description: Connexion aux connecteurs de données ; importez les données de suivi des applications tierces dans Analytics, ajoutez des intégrations, des connecteurs de données Console.
-seo-title: Connecteurs de données Analytics
 title: Prise en main des connecteurs de données Analytics
 translation-type: tm+mt
-source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
