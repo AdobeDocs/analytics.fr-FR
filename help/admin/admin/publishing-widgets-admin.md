@@ -1,13 +1,11 @@
 ---
 description: Un widget de publication est un conteneur qui vous permet d’intégrer des rapports marketing (signets et tableaux de bord) dans une page web. Les personnes de votre société qui n’ont pas accès aux rapports marketing peuvent visualiser des données pertinentes.
-seo-description: Un widget de publication est un conteneur qui vous permet d’intégrer des rapports marketing (signets et tableaux de bord) dans une page web. Les personnes de votre société qui n’ont pas accès aux rapports marketing peuvent visualiser des données pertinentes.
-seo-title: Widget de publication
 solution: Analytics
 title: Widget de publication
-topic: Outils d’administration
+topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
