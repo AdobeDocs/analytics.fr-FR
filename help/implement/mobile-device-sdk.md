@@ -1,10 +1,8 @@
 ---
 title: Mise en oeuvre d’Analytics pour les périphériques mobiles
-seo-title: Mise en oeuvre d’Analytics pour les périphériques mobiles
 description: valeur nulle
-seo-description: valeur nulle
 translation-type: tm+mt
-source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
+source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
 
 ---
 
@@ -36,5 +34,5 @@ Pour mettre en oeuvre Analytics pour les périphériques mobiles, reportez-vous 
 *Remarque : Les SDK AppMeasurement 3.x pour les périphériques mobiles ne sont plus pris en charge. Toutefois, la documentation relative aux SDK est disponible comme indiqué ci-dessous.*
 
 
-* [Documentation iOS](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/assets/adobe_mobile_ios_3.x.pdf)
-* [Documentation Android](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/assets/android_3.x.pdf)
+* [Documentation iOS](/assets/adobe_mobile_ios_3.x.pdf)
+* [Documentation Android](/assets/android_3.x.pdf)
