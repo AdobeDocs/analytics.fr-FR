@@ -1,14 +1,12 @@
 ---
 description: La détection des anomalies met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures.
-keywords: d’anomalies
-seo-description: La détection des anomalies met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures.
-seo-title: Détection des anomalies
+keywords: anomaly
 solution: Analytics
 title: Détection des anomalies
-topic: Rapports
+topic: Reports
 uuid: 0e8bf30c-004d-47d3-ad8d-c5a86ba81d9d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
