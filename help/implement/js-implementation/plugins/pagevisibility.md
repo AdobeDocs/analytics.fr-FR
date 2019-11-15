@@ -1,14 +1,12 @@
 ---
 description: Consigne la durée en secondes pendant laquelle votre page a été l’onglet actif dans le navigateur et transmet cette valeur dans une mesure sur la prochaine page vue.
-keywords: Mise en œuvre d’Analytics
-seo-description: Consigne la durée en secondes pendant laquelle votre page a été l’onglet actif dans le navigateur et transmet cette valeur dans une mesure sur la prochaine page vue.
-seo-title: getPageVisibility
+keywords: Analytics Implementation
 solution: Analytics
 title: getPageVisibility
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
