@@ -1,14 +1,12 @@
 ---
 description: Étapes décrivant comment copier des règles de traitement depuis une suite de rapports et remplacer ou ajouter ces règles à une autre suite de rapports.
-seo-description: Étapes décrivant comment copier des règles de traitement depuis une suite de rapports et remplacer ou ajouter ces règles à une autre suite de rapports.
-seo-title: Copier des règles de traitement dans une autre suite de rapports
 solution: Analytics
-subtopic: Règles de traitement
+subtopic: Processing rules
 title: Copier des règles de traitement dans une autre suite de rapports
-topic: Outils d’administration
-uuid: e 6 aa 50 b 9-a 46 b -4332-b 4 e 1-6 df 0 f 828077 d
+topic: Admin tools
+uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
