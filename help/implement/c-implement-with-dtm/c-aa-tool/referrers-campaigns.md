@@ -1,13 +1,11 @@
 ---
 description: Cette section décrit les champs de Dynamic Tag Management pour les options de référent et de campagne lors du déploiement de Dynamic Tag Management dans Adobe Analytics.
-keywords: Dynamic Tag Management;référents;campagnes;remplacement de référent;variable de campagne;paramètre de requête
-seo-description: Cette section décrit les champs de Dynamic Tag Management pour les options de référent et de campagne lors du déploiement de Dynamic Tag Management dans Adobe Analytics.
-seo-title: Référents et campagnes
+keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign variable;query param
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Référents et campagnes
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
