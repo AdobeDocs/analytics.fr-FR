@@ -1,14 +1,12 @@
 ---
 description: Vous créez les classifications numériques 2 de la même manière que les autres classifications. Vous pouvez ajouter des classifications numériques 2 uniquement aux variables de conversion et de canal.
-seo-description: Vous créez les classifications numériques 2 de la même manière que les autres classifications. Vous pouvez ajouter des classifications numériques 2 uniquement aux variables de conversion et de canal.
-seo-title: Création de classifications numériques 2
 solution: Analytics
 subtopic: Classifications
 title: Création de classifications numériques 2
-topic: Outils d’administration
+topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
