@@ -1,14 +1,12 @@
 ---
 description: Assurez-vous que les variables renseignées à partir du script ou du code serveur ne génèrent pas de guillemets susceptibles de perturber les valeurs.
-keywords: Mise en œuvre d’Analytics
-seo-description: Assurez-vous que les variables renseignées à partir du script ou du code serveur ne génèrent pas de guillemets susceptibles de perturber les valeurs.
-seo-title: Variables et valeurs
+keywords: Analytics Implementation
 solution: Analytics
 title: Variables et valeurs
-topic: Développeur et mise en œuvre
+topic: Developer and implementation
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
