@@ -1,13 +1,11 @@
 ---
 description: Paramètres qui définissent l’affichage de tous les rapports et informations qui permettent d’appliquer les options de menu par défaut à leur emplacement dans le menu simplifié.
-seo-description: Paramètres qui définissent l’affichage de tous les rapports et informations qui permettent d’appliquer les options de menu par défaut à leur emplacement dans le menu simplifié.
-seo-title: Paramètres d’affichage des rapports et navigation
 solution: Analytics
 title: Paramètres d’affichage des rapports et navigation
-topic: Rapports,Reports & Analytics
+topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
