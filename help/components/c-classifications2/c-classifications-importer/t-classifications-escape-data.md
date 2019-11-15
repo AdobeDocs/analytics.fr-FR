@@ -1,19 +1,17 @@
 ---
 description: Étapes décrivant comment placer des données de classification dans une séquence d’échappement dans le fichier de classification.
-seo-description: Étapes décrivant comment placer des données de classification dans une séquence d’échappement dans le fichier de classification.
-seo-title: Placer des données de classification dans une séquence d’échappement
 solution: Analytics
-subtopic: Gestionnaire
-title: Placer des données de classification dans une séquence d’échappement
-topic: Outils d’administration
-uuid: 724 edcc 5-4990-4 f 24-afbb -9 aef 301791 a 7
+subtopic: Classifications
+title: Données de classification placées dans une séquence d’échappement
+topic: Admin tools
+uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Placer des données de classification dans une séquence d’échappement
+# Données de classification placées dans une séquence d’échappement
 
 Étapes décrivant comment placer des données de classification dans une séquence d’échappement dans le fichier de classification.
 
