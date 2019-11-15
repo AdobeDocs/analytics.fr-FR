@@ -1,13 +1,11 @@
 ---
 description: Étapes décrivant comment créer une suite de rapports et copier les paramètres d’une suite de rapports vers une nouvelle suite.
-seo-description: Étapes décrivant comment créer une suite de rapports et copier les paramètres d’une suite de rapports vers une nouvelle suite.
-seo-title: Création d’une suite de rapports
 solution: Analytics
 title: Création d’une suite de rapports
-topic: Outils d’administration
+topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
