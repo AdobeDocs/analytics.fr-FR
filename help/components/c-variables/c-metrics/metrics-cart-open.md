@@ -1,13 +1,11 @@
 ---
 description: Nombre de fois où un client a ouvert un panier en ajoutant un premier article. Se produit lorsqu’un élément est ajouté au panier pour la première fois. Cette valeur provient de l’événement scOpen.
-seo-description: Nombre de fois où un client a ouvert un panier en ajoutant un premier article. Se produit lorsqu’un élément est ajouté au panier pour la première fois. Cette valeur provient de l’événement scOpen.
-seo-title: Ouverture de panier
 solution: Analytics
 title: Ouverture de panier
-topic: Mesures
+topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
