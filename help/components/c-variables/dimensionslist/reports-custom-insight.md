@@ -1,18 +1,16 @@
 ---
 description: Ensemble des rapports liés au groupe des variables de trafic personnalisées (variables prop). Chaque rapport prop est un rapport Aperçu personnalisé distinct.
-seo-description: Ensemble des rapports liés au groupe des variables de trafic personnalisées (variables prop). Chaque rapport prop est un rapport Aperçu personnalisé distinct.
-seo-title: Aperçu personnalisé
 solution: Analytics
-title: Aperçu personnalisé
-topic: Présentation
-uuid: bdfe 3578-765 a -42 d 2-98 ea-d 575743 f 8 be 2
+title: Insight personnalisé
+topic: Reports
+uuid: bdfe3578-765a-42d2-98ea-d575743f8be2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Aperçu personnalisé
+# Insight personnalisé
 
 Ensemble des rapports liés au groupe des variables de trafic personnalisées (variables prop). Chaque rapport prop est un rapport Custom Insight distinct.
 
