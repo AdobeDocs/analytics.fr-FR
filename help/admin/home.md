@@ -1,10 +1,8 @@
 ---
 title: Aide sur l’administration d’Analytics
-seo-title: Comparaison des produits Analytics
 description: Aide à l’administration pour les administrateurs d’Adobe Analytics, y compris la gestion des utilisateurs et des produits dans la Console d’administration, la configuration des suites de rapports, des variables, des classifications et de la collecte de données.
-seo-description: Aide à l’administration pour les administrateurs d’Adobe Analytics, y compris la gestion des utilisateurs et des produits dans la Console d’administration, la configuration des suites de rapports, des variables, des classifications et de la collecte de données.
 translation-type: tm+mt
-source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
