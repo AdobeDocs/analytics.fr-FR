@@ -1,13 +1,11 @@
 ---
 description: Le fichier journal est un fichier texte utilisé par le serveur pour stocker des données en fonction du moment où les fichiers sont récupérés sur un site Web. La date et l’heure, l’URL servie, les adresses IP et l’état de la requête sont quelques-unes des informations recueillies.
-seo-description: Le fichier journal est un fichier texte utilisé par le serveur pour stocker des données en fonction du moment où les fichiers sont récupérés sur un site Web. La date et l’heure, l’URL servie, les adresses IP et l’état de la requête sont quelques-unes des informations recueillies.
-seo-title: Fichier journal
 solution: Analytics
 title: Fichier journal
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
