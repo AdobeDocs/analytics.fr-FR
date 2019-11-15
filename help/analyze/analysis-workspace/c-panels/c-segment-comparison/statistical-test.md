@@ -1,14 +1,12 @@
 ---
 description: Chacun des principaux tableaux de comparaison présente un score de différence calculé par plusieurs tests statistiques, selon le mode de comparaison. Toutefois, quel que soit le test utilisé, le score de différence est présenté comme une valeur comprise entre 0 et 1.
-keywords: Espace de travail d’analyse;QI du segment
-seo-description: Chacun des principaux tableaux de comparaison présente un score de différence calculé par plusieurs tests statistiques, selon le mode de comparaison. Toutefois, quel que soit le test utilisé, le score de différence est présenté comme une valeur comprise entre 0 et 1.
-seo-title: Tests statistiques utilisés dans la comparaison de segments
+keywords: Analysis Workspace;Segment IQ
 solution: Analytics
 title: Tests statistiques utilisés dans la comparaison de segments
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
