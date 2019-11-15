@@ -1,13 +1,11 @@
 ---
 description: Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du format de fichier définis.
-seo-description: Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du format de fichier définis.
-seo-title: Planification d’une requête de données
 solution: Analytics
 title: Planification d’une requête de données
-topic: Créateur de rapports
+topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
