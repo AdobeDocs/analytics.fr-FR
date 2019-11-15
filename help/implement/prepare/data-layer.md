@@ -1,10 +1,8 @@
 ---
 title: Création d’une couche de données
-seo-title: Création d’une couche de données
 description: Découvrez quelle couche de données se trouve dans votre implémentation Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
-seo-description: Découvrez quelle couche de données se trouve dans votre implémentation Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
