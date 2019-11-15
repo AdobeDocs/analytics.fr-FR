@@ -1,11 +1,10 @@
 ---
 description: Les variables dynamiques vous permettent de copier des valeurs d’une variable vers une autre sans entrer les valeurs complètes à plusieurs reprises dans les demandes d’image sur votre site.
-keywords: Mise en œuvre d’Analytics
-seo-description: Les variables dynamiques vous permettent de copier des valeurs d’une variable vers une autre sans entrer les valeurs complètes à plusieurs reprises dans les demandes d’image sur votre site.
+keywords: Analytics Implementation
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: 82060388a9a2122b66c57725cafa0eb4ce54e147
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
