@@ -1,13 +1,11 @@
 ---
 description: Comment ajouter, modifier, appliquer et filtrer des segments Adobe Analytics dans le Créateur de rapports.
-seo-description: Comment ajouter, modifier, appliquer et filtrer des segments Adobe Analytics dans le Créateur de rapports.
-seo-title: Gestion des segments
 solution: Analytics
 title: Gestion des segments
-topic: Créateur de rapports
+topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
