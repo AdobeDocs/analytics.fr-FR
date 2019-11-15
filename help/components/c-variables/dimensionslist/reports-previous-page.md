@@ -1,13 +1,11 @@
 ---
 description: Rapport qui fournit une analyse détaillée des chemins du site en indiquant les pages de votre site que les visiteurs ont consultées avant d’accéder à une page donnée.
-seo-description: Rapport qui fournit une analyse détaillée des chemins du site en indiquant les pages de votre site que les visiteurs ont consultées avant d’accéder à une page donnée.
-seo-title: Page précédente
 solution: Analytics
 title: Page précédente
-topic: Rapports
+topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
