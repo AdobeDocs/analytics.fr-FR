@@ -4,14 +4,14 @@ keywords: Analytics Implementation
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
+source-git-commit: ca0797a353661a72d4064aa5aa84c3d9b7eb38a5
 
 ---
 
 
 # s.linkTrackEvents
 
-La variable  est une liste d’événements séparés par des virgules, qui sont envoyés avec un lien personnalisé, de sortie ou de téléchargement. The `linkTrackEvents` parameter should include each event you want to track with every file download, exit link, and custom link. Lorsque l’un de ces types de liens se présente, la valeur actuelle de chaque variable identifiée est suivie. Cette variable n’est prise en compte que si `linkTrackVars` contient « events ».
+La variable  est une liste d’événements séparés par des virgules, qui sont envoyés avec un lien personnalisé, de sortie ou de téléchargement. The `linkTrackEvents` parameter should include each event you want to track with every file download, exit link, and custom link. Lorsque l’un de ces types de liens se présente, la valeur actuelle de chaque variable identifiée est suivie. Cette variable n’est prise en compte que si [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) contient « events ».
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
@@ -27,9 +27,9 @@ s.t() // both event1 and event2 are recorded
 <a href="test.php" onClick="s=s_gi('rs1');s.events='event2';s.tl(this,'o')">No events are recorded</a> 
 ```
 
-The values of [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) and `linkTrackEvents` override the settings in the JS file and ensure only the variables and events specified in the custom link code are set for the specific link. Les paramètres de ces deux options affectent chaque téléchargement de fichier, lien de sortie et lien personnalisé. Les instances de chaque variable et de chaque événement peuvent être gonflées dans les cas où la variable (ou l’événement) s’applique à la page active, mais pas au téléchargement de fichier spécifique, au lien de sortie ou au lien personnalisé.
+The values of [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) and `linkTrackEvents` override the settings in the JS file and ensure only the variables and events specified in the custom link code are set for the specific link. Les paramètres de ces deux options affectent chaque téléchargement de fichier, lien de sortie et lien personnalisé. Les instances de chaque variable et de chaque événement peuvent être gonflées dans les situations où la variable (ou l’événement) s’applique à la page active, mais pas au téléchargement de fichier, lien de sortie ou lien personnalisé spécifique.
 
-Pour vous assurer que les variables appropriées sont définies avec le code de lien personnalisé, Adobe recommande de définir *`linkTrackVars`* et *`linkTrackEvents`* dans le code de lien personnalisé, comme suit :
+Pour garantir que les variables appropriées sont définies avec le code de lien personnalisé, Adobe conseille de définir *`linkTrackVars`* and *`linkTrackEvents`* within the custom link code, as follows:
 
 ```js
 <a href="index.html" onClick=" 
@@ -42,9 +42,9 @@ s.tl(this,'o','Link Name');
 ">My Page 
 ```
 
-Dans l’exemple ci-dessus, la valeur de prop1 est définie dans le code de lien personnalisé lui-même. La valeur de prop2 provient de la valeur actuelle de la variable, telle qu’elle est définie sur la page.
+In the above example, the value for `prop1` is set within the custom link code itself. The value of `prop2` comes from the current value of the variable as set on the page.
 
-*Remarque : Si`linkTrackVars`(ou`linkTrackEvents`) est nul (ou une chaîne vide telle que ""), toutes les variables (ou tous les événements) Analytics définis pour la page active sont suivis. En d’autres termes, toutes les variables ayant des valeurs seraient envoyées avec des données de lien. Cela gonflera probablement les instances de chaque variable. Pour éviter le gonflement des instances ou des pages vues associées à d’autres variables, Adobe recommande de renseigner`linkTrackVars`et`linkTrackEvents`dans l’événement[!UICONTROL onClick]d’un lien utilisé pour le suivi des liens.*
+*Remarque : Si`linkTrackVars`(ou`linkTrackEvents`) est nul (ou une chaîne vide telle que ""), toutes les variables (ou tous les événements) Analytics définis pour la page active sont suivis. En d’autres termes, toutes les variables ayant des valeurs seraient envoyées avec des données de lien. Cela gonflera probablement les instances de chaque variable. Pour éviter le gonflement des instances ou des pages vues associées à d’autres variables, Adobe recommande de renseigner`linkTrackVars`et`linkTrackEvents`dans l’événement`onClick`d’un lien utilisé pour le suivi des liens.*
 
 Toutes les variables qui doivent être envoyées avec des données de lien (liens personnalisés, de téléchargement et de sortie) doivent être répertoriées dans `linkTrackVars`. Si `linkTrackEvents` est utilisé, `linkTrackVars` doit contenir « events ».
 
@@ -65,7 +65,7 @@ s.t() // eVar1, event1 and event2 are recorded
 <a href="test.php" onClick="s=s_gi('rs1');s.eVar1='value C';s.events='';s.tl(this,'o')">eVar1 is recorded</a> 
 ```
 
-Dans le premier lien, notez que la variable events conserve la valeur définie avant que le lien ne soit cliqué. Cela permet à event1 d’être envoyé avec le lien personnalisé. In the second example, the link to event2 is not recorded because it is not listed in `linkTrackEvents`.
+Dans le premier lien, notez que la variable events conserve la valeur définie avant que le lien ne soit cliqué. This allows `event1` to be sent with the custom link. In the second example, the link to `event2` is not recorded because it is not listed in `linkTrackEvents`.
 
 Pour éviter toute confusion et tout problème potentiel, Adobe recommande de renseigner [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) et `linkTrackEvents` dans l’événement `onClick` d’un lien utilisé pour le suivi des liens.
 
@@ -109,6 +109,6 @@ Aucun
 
 * Le fichier JavaScript utilise uniquement `linkTrackEvents` si `linkTrackVars` contient la variable « events ». La variable « events » ne doit être incluse dans `linkTrackVars` uniquement lorsque la variable `linkTrackEvents` est définie.
 
-* Soyez vigilant si un événement est déclenché sur une page et répertorié dans `linkTrackEvents`. Cet événement est à nouveau enregistré avec tout lien de [!UICONTROL sortie], de [!UICONTROL téléchargement] ou [!UICONTROL personnalisé], sauf si la variable « events » est réinitialisée avant qu’il ne se produise (dans l’événement [!UICONTROL onClick] d’un lien ou après l’appel à la fonction `t()`).
+* Soyez vigilant si un événement est déclenché sur une page et répertorié dans `linkTrackEvents`. Cet événement est à nouveau enregistré avec tout lien de sortie, de téléchargement ou personnalisé, sauf si la variable « events » est réinitialisée avant qu’il ne se produise (dans l’événement `onClick` d’un lien ou après l’appel à la fonction `t()`).
 
 * Si la variable `linkTrackEvents` contient des espaces entre les noms d’événements, les événements ne sont pas enregistrés.
