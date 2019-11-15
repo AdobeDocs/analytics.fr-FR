@@ -1,13 +1,11 @@
 ---
 description: Cette procédure décrit la configuration d’événements de succès.
-seo-description: Cette procédure décrit la configuration d’événements de succès.
-seo-title: Configurer des événements de succès
 solution: Analytics
 title: Configurer des événements de succès
-topic: Outils d’administration
+topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -41,7 +39,7 @@ Cette procédure décrit la configuration d’événements de succès.
 
    >[!NOTE]
    >
-   >Vous pouvez activer la participation pour 100 événements personnalisés au maximum. De plus, vous pouvez créer des mesures de participation dans le créateur de [mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
+   > Vous pouvez activer la participation pour 100 événements personnalisés au maximum. De plus, vous pouvez créer des mesures de participation dans le créateur de [mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
