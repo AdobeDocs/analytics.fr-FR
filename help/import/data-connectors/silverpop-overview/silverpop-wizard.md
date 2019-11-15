@@ -1,11 +1,9 @@
 ---
 description: L’assistant d’intégration des connecteurs de données vous guide tout au long du processus d’intégration des connecteurs de données.
-seo-description: L’assistant d’intégration des connecteurs de données vous guide tout au long du processus d’intégration des connecteurs de données.
-seo-title: Intégration de Silverpop
 title: Intégration de Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -116,7 +114,7 @@ Pour configurer l’intégration :
    <td colname="col3"> <p>Cette intégration crée les segments définis par les partenaires affichés dans la section Segments de partenaire. </p> <p>De plus, vous pouvez sélectionner des segments existants au niveau de la suite de rapports à inclure dans l’intégration. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p> Demandes d’accès </p> </td> 
+   <td colname="col2"> <p>Demandes d’accès </p> </td> 
    <td colname="col03"> <p>(3) Paramètres des données </p> </td> 
    <td colname="col3"> <p> (Obligatoire) Activez <span class="uicontrol"> cette intégration pour télécharger les données</span>du produit. </p> <p>Facultatif : Permet à cette intégration de télécharger les recettes, les commandes et les unités. </p> </td> 
   </tr> 
