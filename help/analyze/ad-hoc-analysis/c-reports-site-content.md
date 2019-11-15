@@ -1,11 +1,9 @@
 ---
-description: Affiche des informations sur les pages et les sections de votre site qui sont les plus actives et sur les serveurs les plus sollicités.
-seo-description: Affiche des informations sur les pages et les sections de votre site qui sont les plus actives et sur les serveurs les plus sollicités.
-seo-title: Rapports sur le contenu du site
+description: Présente des informations sur les pages et les sections les plus actives de votre site et sur les serveurs les plus sollicités.
 title: Rapports sur le contenu du site
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
