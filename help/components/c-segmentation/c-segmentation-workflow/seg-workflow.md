@@ -1,13 +1,11 @@
 ---
 description: Décrit un processus suggéré pour les segments créés par le Créateur de segments et gérés dans le Gestionnaire de segments.
-seo-description: Décrit un processus suggéré pour les segments créés par le Créateur de segments et gérés dans le Gestionnaire de segments.
-seo-title: Workflow de segmentation - Aperçu
 solution: Analytics
 title: Workflow de segmentation - Aperçu
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 29bff19e4d33402e8fb65192d7eee134c76c537d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
