@@ -73,3 +73,4 @@ Affichez vos rapports de commentaires Kampyle avec Adobe Analytics en accédant 
 > [!NOTE] Les données de création de rapports doivent apparaître dans les 24 à 48 heures suivant le déploiement réussi, en supposant que les formulaires de rétroaction intégrés reçoivent activement des soumissions.
 
 ![](assets/adobe_reporting_data.png)
+
