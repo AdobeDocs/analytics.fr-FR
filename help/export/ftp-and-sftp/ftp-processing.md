@@ -1,13 +1,11 @@
 ---
 description: Le temps de traitement d’un fichier FTP, qu’il s’agisse de classifications ou de sources de données, dépend du nombre de fichiers déjà présents dans la file d’attente de traitement et de la taille du fichier.
 keywords: ftp;sftp
-seo-description: Le temps de traitement d’un fichier FTP, qu’il s’agisse de classifications ou de sources de données, dépend du nombre de fichiers déjà présents dans la file d’attente de traitement et de la taille du fichier.
-seo-title: Temps de traitement du FTP
 solution: Analytics
 title: Temps de traitement du FTP
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
