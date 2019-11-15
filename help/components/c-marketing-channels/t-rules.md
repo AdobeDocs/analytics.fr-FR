@@ -1,14 +1,12 @@
 ---
 description: Créez des règles de traitement des canaux marketing qui déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal.
-seo-description: Créez des règles de traitement des canaux marketing qui déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal.
-seo-title: Création de règles de traitement des canaux marketing
 solution: Analytics
-subtopic: Canaux marketing
+subtopic: Marketing channels
 title: Création de règles de traitement des canaux marketing
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
