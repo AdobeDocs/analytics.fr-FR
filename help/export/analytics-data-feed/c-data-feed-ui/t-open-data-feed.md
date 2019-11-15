@@ -1,13 +1,11 @@
 ---
 description: 'L’interface des flux de données est accessible depuis l’onglet d’administration '
-keywords: Flux de données;page d’entrée du flux de données;liste des flux
-seo-description: 'L’interface des flux de données est accessible depuis l’onglet d’administration '
-seo-title: Ouverture de l’interface des flux de données
+keywords: Data Feed;data feed landing page;feeds list
 solution: Analytics
 title: Ouverture de l’interface des flux de données
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
