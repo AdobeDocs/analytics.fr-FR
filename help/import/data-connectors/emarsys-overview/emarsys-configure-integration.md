@@ -1,11 +1,9 @@
 ---
 description: Tâches et informations dont vous devez disposer avant d’exécuter l’assistant d’intégration des connecteurs de données pour mettre en oeuvre l’intégration des connecteurs de données.
-seo-description: Tâches et informations dont vous devez disposer avant d’exécuter l’assistant d’intégration des connecteurs de données pour mettre en oeuvre l’intégration des connecteurs de données.
-seo-title: Préparation de l’intégration des courriers électroniques des connecteurs de données
 title: Préparation de l’intégration des courriers électroniques des connecteurs de données
 uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
