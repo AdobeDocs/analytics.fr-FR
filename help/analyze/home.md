@@ -1,8 +1,8 @@
 ---
 title: Aide d’Analysis Workspace
-description: valeur nulle
+description: Documentation du produit et auto-assistance pour Analysis Workspace, Carte d’activités, Créateur de rapports, API de création de rapports et Rapports et analyses (anciennement produits Omniture Analytics).
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ---
 
@@ -11,14 +11,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![Bannière](../../assets/doc_banner_analyze.png)
 
-Ce guide présente tous les outils d’analyse que vous pouvez utiliser dans Adobe Analytics.
+Ce guide fournit de la documentation sur les produits et de l’aide autonome pour les outils d’analyse et de création de rapports Adobe Analytics suivants :
 
-* **Analysis Workspace :** Principale fonctionnalité d’Adobe Analytics. Workspace fournit un canevas sur lequel vous pouvez faire glisser des composants pour répondre à vos besoins en termes de rapports.
-* **Activity Map :** Module de navigateur qui affiche une superposition sur votre site montrant les éléments qui ont reçu le plus grand nombre de clics.
-* **Ad Hoc Analysis :** Application Java autonome avec de puissantes fonctionnalités de reporting. Cet outil n’est plus mis à jour et sera bientôt rendu caduc.
-* **API de création de rapports :** Créez des requêtes de rapport directement sur les serveurs d’Adobe et obtenez des réponses à utiliser dans vos outils de création de rapports client.
-* **Report Builder :** Module Excel complémentaire permettant de récupérer les données Analytics et de les placer directement dans un classeur.
-* **Reports &amp; Analytics :** Outil avec des dizaines de rapports prédéfinis. Adobe recommande d’utiliser Analysis Workspace pour la plupart des rapports.
+* **Analysis Workspace**: Principale fonctionnalité d’Adobe Analytics. Workspace fournit un canevas sur lequel vous pouvez faire glisser des composants pour répondre à vos besoins en termes de rapports.
+* **Carte** d’activités : Module complémentaire du navigateur qui affiche une superposition sur votre site indiquant les éléments qui ont reçu le plus grand nombre de clics.
+* **Analyses** ad hoc : Application Java autonome dotée de capacités de création de rapports fiables. Cet outil n’est plus mis à jour et sera bientôt rendu caduc.
+* **API** de création de rapports : Envoyez des requêtes de rapport directement aux serveurs d’Adobe et obtenez des réponses à utiliser dans vos propres outils de création de rapports client.
+* **Créateur** de rapports : Module complémentaire Excel qui vous permet de récupérer les données Analytics et de les placer directement dans un classeur.
+* **Rapports et analyses**: Outil contenant des dizaines de rapports précréés. Adobe recommande d’utiliser Analysis Workspace pour la plupart des rapports.
 
 ## Principaux articles sur les outils d’Analytics
 
