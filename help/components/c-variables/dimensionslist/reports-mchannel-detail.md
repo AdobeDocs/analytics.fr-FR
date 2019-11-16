@@ -1,13 +1,11 @@
 ---
 description: Ces rapports fournissent des renseignements sur les campagnes ou mots-clés qui s’avèrent les plus efficaces sur votre site. Vous pouvez les utiliser pour allouer des recettes et des mesures de succès à divers détails sur les canaux, sans tenir compte du canal global dans lequel ils se situent. Vous pouvez, par exemple, comparer un certain mot-clé de recherche payante à une campagne par courriel spécifique. Contrairement au rapport Présentation du canal marketing, celui-ci ressemble à un rapport marketing standard.
-seo-description: Ces rapports fournissent des renseignements sur les campagnes ou mots-clés qui s’avèrent les plus efficaces sur votre site. Vous pouvez les utiliser pour allouer des recettes et des mesures de succès à divers détails sur les canaux, sans tenir compte du canal global dans lequel ils se situent. Vous pouvez, par exemple, comparer un certain mot-clé de recherche payante à une campagne par courriel spécifique. Contrairement au rapport Présentation du canal marketing, celui-ci ressemble à un rapport marketing standard.
-seo-title: Détails des canaux marketing – Première touche et Dernière touche
 solution: Analytics
 title: Détails des canaux marketing – Première touche et Dernière touche
-topic: Rapports
+topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
