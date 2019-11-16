@@ -1,11 +1,9 @@
 ---
 description: Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
-seo-description: Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
-seo-title: Code du module externe Adobe Analytics
 title: Code du module externe Adobe Analytics
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
