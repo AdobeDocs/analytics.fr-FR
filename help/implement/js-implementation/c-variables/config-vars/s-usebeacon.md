@@ -3,7 +3,7 @@ title: useBeacon
 description: useBeacon vous permet de forcer AppMeasurement à utiliser l’API sendBeacon des navigateurs
 keywords: Analytics Implementation
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -16,7 +16,7 @@ La définition de cette valeur ne s’applique qu’à la requête suivante déc
 
 L’utilisation de la `s.useBeacon` variable nécessite AppMeasurement 2.17.0 ou une version ultérieure.
 
-> [!NOTE] [ExitLinks](s-linktrackvars.md) utilise cette variable automatiquement sans configuration supplémentaire.
+> [!NOTE] Les liens de [sortie](s-linktrackvars.md) utilisent cette variable automatiquement sans configuration supplémentaire.
 
 ## du lien personnalisé
 
