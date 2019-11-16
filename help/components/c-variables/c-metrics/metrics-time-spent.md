@@ -2,9 +2,9 @@
 description: Adobe Analytics propose différentes mesures et dimensions de durée de la visite. Découvrez-les ainsi que leur mode de calcul.
 solution: Analytics
 title: Durée de la visite
-topic: Mesures
+topic: Metrics
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -38,7 +38,9 @@ Durée moyenne pendant laquelle les visiteurs interagissent avec une valeur de d
 
 ## Durée moyenne de consultation du site (secondes)
 
-Durée moyenne passée sur votre site avec la valeur de dimension donnée. Cette mesure est généralement associée à une dimension de date afin d’afficher la durée de consultation. Son calcul approximatif est `Total seconds spent / (Sequences - Bounces)`. Les séquences sont une série d’accès pour laquelle la valeur de dimension n’a pas changé. Dans la plupart des cas, utilisez la mesure Durée de la visite.
+Durée moyenne passée sur votre site, généralement associée à une dimension de date. Bien que cette mesure indique généralement le temps passé avec les tendances au fil du temps, elle peut également être utilisée avec des dimensions comme autre calcul que le temps passé par visite. Son calcul approximatif est `Total seconds spent / (Sequences - Bounces)`. Les séquences sont une série d’accès pour laquelle la valeur de dimension n’a pas changé.
+
+> [!NOTE] Le temps passé par visite et le temps moyen passé sur le site sont des mesures similaires. La différence entre ces deux mesures est leur dénominateur ; le temps passé par visite est utilisé `visits - bounces`, tandis que le temps moyen passé sur le site `sequences - bounces`. Au niveau d’une visite, ces mesures apparaissent similaires, mais peuvent présenter des différences au niveau d’un accès.
 
 ## Durée de consultation moyenne de la page
 
