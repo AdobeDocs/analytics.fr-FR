@@ -1,10 +1,8 @@
 ---
 title: Aide sur l’intégration d’Analytics
-seo-title: Aide sur l’intégration d’Analytics
 description: valeur nulle
-seo-description: valeur nulle
 translation-type: tm+mt
-source-git-commit: 30b4afa20a85d1a6c3bb4839f8236ed37f98570d
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
