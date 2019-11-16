@@ -1,13 +1,11 @@
 ---
 description: Affichent des informations sur l’efficacité de vos efforts publicitaires. Ils identifient les types d’initiatives publicitaires qui suscitent le plus de trafic et les employés chargés de mener à bien ces initiatives.
-seo-description: Affichent des informations sur l’efficacité de vos efforts publicitaires. Ils identifient les types d’initiatives publicitaires qui suscitent le plus de trafic et les employés chargés de mener à bien ces initiatives.
-seo-title: Campagnes
 solution: Analytics
 title: Campagnes
-topic: Rapports
+topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
