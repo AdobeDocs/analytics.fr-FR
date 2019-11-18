@@ -7,14 +7,14 @@ title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: c32f7302fdc30860da6f5a29d98ada53a6a6da20
+source-git-commit: 3cb4a916a083e9397479d53294795136409e15d0
 
 ---
 
 
 # Variables de page
 
-Les variables de page renseignent directement un rapport (pageName, props de liste, variables de liste, etc.). Pour obtenir de l’aide sur des variables de page spécifiques, cliquez sur l’un des liens suivants :
+Les variables de page renseignent directement un rapport (pageName, props de liste, variables de liste, etc.). Pour obtenir de l’aide sur des variables de page spécifiques, cliquez sur le nom de la variable dans la liste suivante :
 
 * [browserHeight](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 * [browserWidth](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
