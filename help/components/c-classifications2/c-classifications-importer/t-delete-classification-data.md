@@ -6,38 +6,55 @@ title: Suppression des données de classification
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
 
 # Suppression des données de classification
 
-Description de la procédure de suppression des données de classification.
+Il est parfois nécessaire de supprimer les données de classification après leur téléchargement. Utilisez soit `~empty~` , `~deletekey~`, selon ce que vous souhaitez supprimer.
+
+## Procédure de suppression des données de classification
+
+La suppression des données de classification implique le chargement d’un fichier de classification contenant `~empty~` ou `~deletekey~` dans les cellules appropriées.
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Browser Export]**.
 1. Sélectionnez la suite de rapports et le jeu de données duquel vous souhaitez supprimer des données de classification.
 1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
-1. Once the file has been downloaded, open the file and replace any classification values you wish to delete with [!DNL ~empty~].
+1. Une fois le fichier téléchargé, ouvrez-le et remplacez les valeurs de classification par `~empty~` ou `~deletekey~`.
+1. Enregistrez le fichier dans un fichier texte délimité par des tabulations.
+1. Cliquez sur **[!UICONTROL Importer un fichier]**, puis rechargez le fichier de classification enregistré dans Adobe Analytics.
 
-   Alternatively, use [!DNL ~deletekey~]. Cette commande traite la classification comme si elle ne s’était jamais produite pour la clé spécifiée. Elle supprime complètement la classification, ainsi que toute donnée de colonne, des tableaux de recherche.
+## Suppression d’une valeur de classification individuelle
 
-   **Avertissement**: Vous n'avez besoin que d'une colonne contenant [!DNL ~deletekey~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Cette commande supprime toutes les métadonnées de la ligne. Adobe interprète cela comme si la clé n’avait jamais été classée et l’affiche dans la catégorie [Aucun](/help/components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF).
+Plusieurs classifications peuvent appartenir à la même variable. Par exemple, vous pouvez avoir 2 classifications différentes d’eVar1. Si vous souhaitez uniquement supprimer une seule valeur classée, remplacez la valeur de classification par `~empty~`. Par exemple :
 
-1. Enregistrez le fichier et téléchargez-le à l’aide de l’onglet [!UICONTROL Importer un fichier.]
+| UGS de stock (eVar8) | Nom du stock | Catégorie de stock |
+| --- | --- | --- |
+| 857467 | Chandail à col V | Vêtements pour femmes |
+| 948203 | Bracelet d'Ankle | Bijouterie |
+| 174391 | Pantalon à cordon blanc | `~empty~` |
 
-   After you upload the file, the system recognizes [!DNL ~empty~] as a command to delete that classification value.
+L'utilisation `~empty~` sous la classification Catégorie de stock conserve toujours les données de la classification Nom du stock. La `~empty~` valeur supprime uniquement les données de classification pour cette cellule.
 
-   **Propriétés de cette commande**
+## Suppression d’une ligne de classification entière
 
-* [!DNL ~empty~] doit être en minuscules sans espaces. Les entrées suivantes ne sont pas valides :
+Utilisez `~deletekey~` dans n’importe quelle colonne pour supprimer la ligne de classification entière. Par exemple :
 
-   * [!DNL ~EMPTY~]
-   * [!DNL ~ empty ~]
-   * [!DNL ~Empty~]
+| UGS de stock (eVar8) | Nom du stock | Catégorie de stock |
+| --- | --- | --- |
+| 857467 | Chandail à col V | Vêtements pour femmes |
+| 948203 | Bracelet d'Ankle | Bijouterie |
+| 174391 | Pantalon à cordon blanc | `~deletekey~` |
 
-* Vous ne pouvez pas supprimer les valeurs d’une colonne de clé. Il s’agit des données transmises directement à la création de rapports et qui sont permanentes.
-* Si vous supprimez une valeur de classification qui comporte des sous-classifications, ces dernières sont également supprimées. Les classifications ne peuvent pas exister sans valeur de clé et le parent d’une sous-classification est sa propre valeur de clé.
+L’utilisation `~deletekey~` sous la classification Catégorie de stock supprime toutes les données de classification pour la valeur de clé `174391`. C'est comme si la rangée n'avait jamais été classée.
+
+## Pièges et conseils
+
+* En cas d’utilisation `~deletekey~`, vous n’avez besoin que d’une ligne par ligne dans un fichier de classification.
+* `~empty~` et doit `~deletekey~` correspondre *exactement* . Les espaces et les majuscules ne sont pas autorisés.
+* Vous ne pouvez pas supprimer de valeurs dans la colonne de clé. Ces valeurs sont transmises directement à la variable et sont permanentes.
+* Si vous supprimez une valeur de classification comportant des sous-classifications, ces sous-classifications sont également supprimées. Les classifications ne peuvent pas exister sans valeur de clé et le parent d’une sous-classification est sa propre valeur de clé.
 * Il est possible de supprimer des données de classification sans modifier sa classification parent.
-
