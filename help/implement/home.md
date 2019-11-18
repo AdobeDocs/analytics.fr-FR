@@ -2,7 +2,7 @@
 title: Mise en oeuvre d’Analytics pour les périphériques mobiles
 description: valeur nulle
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 
 ---
 
@@ -10,25 +10,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # Mise en oeuvre d’Analytics pour les périphériques mobiles
 
 ![Bannière](../../assets/doc_banner_implement.png)
-
-Pour mettre en oeuvre Analytics pour les périphériques mobiles, reportez-vous à la liste suivante de référentiels SDK et de documentation :
-
-SDK de plateforme d’expérience
-
-
-SDK de plateforme d’expérience
-
-Documentation du SDK Experience Platform
-
-Kits SDK 4.x:
-
-Documentation du SDK 4.x
-
-Documentation du SDK 3.x : Bien que les SDK Analytics 3.x pour périphériques mobiles ne soient plus pris en charge, vous pouvez accéder à la documentation suivante :
-
-
-
-
 
 
 * **Adobe Experience Platform Launche :** Méthode normalisée et recommandée pour implémenter Adobe Analytics. Placez une balise de chargement sur chaque page et utilisez l’interface de Launch pour déterminer la définition de chaque variable.
