@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: utilisateur final
-user-guide-title: Guide d’analyse Analytics
-user-guide-url: /content/help/fr-FR/analytics/analyze/home.html
+audience: end-user
+user-guide-title: Analytics Analyze Guide
+user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
@@ -120,6 +120,10 @@ source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
    + [Optimisation des performances d’Analysis Workspace](analysis-workspace/optimizing-performance.md)
    + [Comparaison entre Analysis Workspace et Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Limites d’Analysis Workspace](analysis-workspace/aw-limitations.md)
+   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + [Journey IQ](analysis-workspace/journey-iq.md)
+   + [Segment IQ](analysis-workspace/segment-iq.md)
+   + [Analyste virtuel](analysis-workspace/journey-iq.md)
 + Report Builder {#report-builder}
    + [Aide du Report Builder d’Adobe](report-builder/home.md)
    + [Nouvelles fonctionnalités de Report Builder](report-builder/whats-new-arb.md)
