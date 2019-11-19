@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
+source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
 
 ---
 
@@ -84,7 +84,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [Segment IQ - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [Page temporaire](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [Cas d’utilisation de Segment IQ](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Traitement et partage de projets {#curate-share}
@@ -94,11 +93,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [Partage et planification de fichiers de projet](analysis-workspace/curate-share/send-schedule-files.md)
       + [Envoi d’un fichier – Planification de la livraison d’un projet](analysis-workspace/curate-share/t-schedule-report.md)
       + [Gestionnaire de projets planifiés](analysis-workspace/curate-share/schedule-projects.md)
-   + Attribution IQ {#attribution-iq}
-      + [Page temporaire](analysis-workspace/attribution-iq/attribution.md)
-      + [Page temporaire](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [Page temporaire](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [Page temporaire](analysis-workspace/attribution-iq/attribution-faq.md)
    + Analyste virtuel {#virtual-analyst}
       + [Analyste virtuel](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + Détection des anomalies {#anomaly-detection}
@@ -121,7 +115,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
    + [Comparaison entre Analysis Workspace et Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Limites d’Analysis Workspace](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
-   + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + [Analyste virtuel](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
