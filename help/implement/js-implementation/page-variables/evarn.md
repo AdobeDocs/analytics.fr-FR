@@ -7,7 +7,7 @@ title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -26,11 +26,11 @@ Lorsqu’une variable eVar est définie sur une valeur pour un visiteur, la vale
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
-| 255 octets | V1-v75 ( [ou v100 ou v250](/help/implement/js-implementation/c-variables/page-variables.md)) | Conversion personnalisée | "" |
+| 255 octets | V1-v75 ( [ou v100 ou v250](/help/implement/js-implementation/page-variables/page-variables.md)) | Conversion personnalisée | "" |
 
-**Expiration** {#section_6DB5882B960D4660AE248B91B76883C4}
+**Expiration**
 
-Les [!UICONTROL eVars] arrivent à expiration après une période que vous avez spécifiée. Une fois arrivées à expiration, elles ne reçoivent plus de crédit pour les événements de succès. Vous pouvez également configurer les eVars pour qu’elles arrivent à expiration lors d’un événement de succès. Ainsi, dans le cas d’une promotion interne qui arrive à expiration à la fin de la visite, celle-ci ne reçoit du crédit que pour les achats ou inscriptions qui ont lieu au cours de la visite pendant laquelle ils ont été activés.
+Les `eVars` arrivent à expiration après une période que vous avez spécifiée. Une fois arrivées à expiration, elles ne reçoivent plus de crédit pour les événements de succès. Vous pouvez également configurer les eVars pour qu’elles arrivent à expiration lors d’un événement de succès. Ainsi, dans le cas d’une promotion interne qui arrive à expiration à la fin de la visite, celle-ci ne reçoit du crédit que pour les achats ou inscriptions qui ont lieu au cours de la visite pendant laquelle ils ont été activés.
 
 Il existe deux méthodes pour faire expirer une eVar :
 
@@ -39,21 +39,21 @@ Il existe deux méthodes pour faire expirer une eVar :
 
 Prenons l’exemple d’une eVar, d’une durée de validité de 21 jours, qui est utilisée en mai pour faire état de promotions internes, et qui, en juin, est utilisée pour capturer des mots-clés de recherche interne. Dans ce cas, le 1er juin, vous devez forcer l’expiration de cette variable ou la réinitialiser. De cette manière, les valeurs de promotion interne ne figureront pas dans les rapports du mois de juin.
 
-**Respect de la casse** {#section_6E9145B7FCC2438E95BB35AAE3857412}
+**Respect de la casse**
 
 Les eVars ne sont pas sensibles à la casse, mais elles respectent la mise en majuscules de la première occurrence. Ainsi, si la première instance de la variable eVar1 est définie sur « Connecté », mais que toutes les instances suivantes sont transmises sous la forme « connecté », les rapports affichent toujours « Connecté » comme valeur de l’eVar.
 
-**Compteurs** {#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
+**Compteurs**
 
 Bien que les eVars soient généralement utilisées pour contenir des valeurs de chaîne, elles peuvent également être configurées pour faire office de compteurs. Elles s’avèrent particulièrement utiles sous cette forme lorsque vous essayez de comptabiliser le nombre d’actions qu’un utilisateur effectue avant un événement. Vous pouvez, par exemple, utiliser une eVar pour capturer le nombre de recherches internes avant un achat. Chaque fois qu’un visiteur effectue une recherche, l’eVar doit contenir une valeur « +1 ». Si un utilisateur effectue quatre recherches avant un achat, une instance est affichée pour chaque compte total : 1.00, 2.00, 3.00 et 4.00. Cependant, seule la valeur 4.00 reçoit du crédit pour l’événement d’achat (mesures Commandes et Recettes). Seuls les nombres positifs sont autorisés comme valeurs d’un compteur eVar.
 
-**Sous-relations** {#section_2BEABBBC735241F4BA42E74D19B5AEE0}
+**Sous-relations**
 
-La possibilité de ventiler un rapport [!UICONTROL eVar personnalisée] en fonction d’un autre constitue une exigence courante [!UICONTROL  pour ce type de] rapport.  Par exemple, si une eVar contient le genre, et qu’une autre contient le salaire, vous pouvez poser la question suivante : parmi les visiteurs de sexe féminin, quel est le montant des recettes généré par les femmes dont le revenu annuel est supérieur à 50 000 euros. Toute eVar en sous-relation permet ce type de ventilation dans les rapports. Par exemple, si les sous-relations complètes sont activées dans l’eVar de genre, tous les autres rapports eVar personnalisés peuvent être ventilés par genre, et inversement. Pour qu’il soit possible d’afficher la sous-relation entre deux rapports, les sous-relations complètes doivent simplement êtres activées sur l’un d’eux. Par défaut, les rapports [!UICONTROL Campagnes], [!UICONTROL Produits] et [!UICONTROL Catégorie] disposent de sous-relations complètes (toute eVar peut être ventilée par campagnes ou par produits).
+La possibilité de ventiler un rapport eVar personnalisée en fonction d’un autre constitue une exigence courante  pour ce type de rapport.  Par exemple, si une eVar contient le genre, et qu’une autre contient le salaire, vous pouvez poser la question suivante : parmi les visiteurs de sexe féminin, quel est le montant des recettes généré par les femmes dont le revenu annuel est supérieur à 50 000 euros. Toute eVar en sous-relation permet ce type de ventilation dans les rapports. Par exemple, si les sous-relations complètes sont activées dans l’eVar de genre, tous les autres rapports eVar personnalisés peuvent être ventilés par genre, et inversement. Pour qu’il soit possible d’afficher la sous-relation entre deux rapports, les sous-relations complètes doivent simplement êtres activées sur l’un d’eux. Par défaut, les rapports Campagne, Produits et Catégorie sont entièrement sous-liés (toute eVar peut être ventilée par campagne ou par produit).
 
-**Syntaxe et valeurs possibles** {#section_BD46438B14F3488FB9AC42994C317B06}
+**Syntaxe et valeurs possibles**
 
-Bien qu’il soit possible de renommer les eVars, il doit toujours y être fait référence par eVarX dans le fichier JavaScript, où X représente un nombre compris entre 1 et 75 ([ ou 100, ou 250](/help/implement/js-implementation/c-variables/page-variables.md)).
+Bien qu’il soit possible de renommer les eVars, il doit toujours y être fait référence par eVarX dans le fichier JavaScript, où X représente un nombre compris entre 1 et 75 ([ ou 100, ou 250](/help/implement/js-implementation/page-variables/page-variables.md)).
 
 ```js
 s.eVarX="value"
@@ -61,7 +61,7 @@ s.eVarX="value"
 
 Les eVars présentent les mêmes limites que toutes les autres variables, sauf lorsqu’elles sont utilisées comme compteur. Si l’eVar est un « compteur », il est prévu qu’elle reçoive des valeurs numériques telles que « 1 » ou « 2,5 ». S’il y a plus de deux décimales, le compteur eVar arrondit la valeur à deux décimales. Un compteur eVar ne peut pas contenir de nombres négatifs.
 
-**Exemples** {#section_B37F4B0D56734DA3AB02BB218825BA4E}
+**Exemples**
 
 ```js
 s.eVar1="logged in"
@@ -71,9 +71,9 @@ s.eVar1="logged in"
 s.eVar23="internal spring promo 4"
 ```
 
-**Paramètres de configuration** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
+**Paramètres de configuration**
 
-Vous pouvez configurer les eVars dans [!UICONTROL Analytics &gt; Admin &gt; Suites de rapports &gt; Modifier les paramètres &gt; Conversion &gt; Variables de conversion]. Toutes peuvent être configurées avec un [!UICONTROL Nom], un [!UICONTROL Type], une [!UICONTROL Affectation], un paramètre [!UICONTROL Expire après ]ou [!UICONTROL Réintialiser]. Chaque paramètre de configuration est décrit séparément.
+Vous pouvez configurer les eVars dans Analytics &gt; Admin &gt; Suites de rapports &gt; Modifier les paramètres &gt; Conversion &gt; Variables de conversion]. Toutes peuvent être configurées avec un Nom, un Type, une Affectation, un paramètre Expire après ou Réintialiser. Chaque paramètre de configuration est décrit séparément.
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -106,7 +106,7 @@ Vous pouvez configurer les eVars dans [!UICONTROL Analytics &gt; Admin &gt; Su
  </tbody> 
 </table>
 
-**Pièges, questions et conseils** {#section_DA6912C802E445F986C6DE4234C6C737}
+**Pièges, questions et conseils**
 
 * Contrairement aux variables [!UICONTROL prop], les variables eVar ne sont pas autorisées comme listes de valeurs délimitées. Si vous renseignez une liste de valeurs dans une eVar (« un,deux,trois », par exemple), cette chaîne apparaît à l’identique dans les rapports.
 * Les compteurs eVar ne peuvent pas contenir de nombres négatifs.
