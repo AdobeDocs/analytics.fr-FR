@@ -7,14 +7,14 @@ title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
 
 # propN
 
-Les variables de propriété ([!UICONTROL prop]) sont utilisées pour créer des rapports personnalisés dans le [!UICONTROL module Trafic].
+Les variables de propriété (`prop`) sont utilisées pour créer des rapports personnalisés dans le module Trafic.
 
 <!-- 
 
@@ -28,7 +28,7 @@ Vous pouvez utiliser la variable props comme compteur (pour comptabiliser le nom
 |---|---|---|---|
 | 100 octets | c1 - c75 | Trafic personnalisé | "" |
 
-**Syntaxe et valeurs possibles** {#section_4D3013AF2979426B9589CA2BB9D254CD}
+**Syntaxe et valeurs possibles**
 
 ```js
 s.propN="value"
@@ -36,7 +36,7 @@ s.propN="value"
 
 Les variables de [!UICONTROL propriété] ne sont concernées par aucune limite, à l’exception des limites standard.
 
-**Exemples** {#section_FFBB916DA9F44B668D5FAB7C511F6182}
+**Exemples**
 
 ```js
 s.prop2="editorial" 
@@ -46,6 +46,6 @@ s.prop2="editorial"
 s.prop15="toy category"
 ```
 
-**Paramètres de configuration** {#section_25FDEB6ECA8242A2A44EE540C083078A}
+**Paramètres de configuration**
 
-Contactez le service à la clientèle Adobe au sujet de l’affichage des mesures [!UICONTROL Visite], [!UICONTROL Visiteur] et [!UICONTROL Chemin] pour les variables [!UICONTROL prop].
+Contactez le service à la clientèle Adobe au sujet de l’affichage des mesures Visite, Visiteur et Chemin pour les variables `prop`.
