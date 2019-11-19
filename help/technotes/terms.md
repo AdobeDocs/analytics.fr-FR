@@ -2,7 +2,7 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 
 ---
 
@@ -23,11 +23,11 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **** Rebond : Visite consistant en un accès unique. Voir [Rebonds](/help/components/c-variables/c-metrics/metrics-bounces.md) dans le guide de l’utilisateur Composants. Voir aussi Accès unique.
 * **** Mesure calculée : Permet la combinaison de mesures, de fonctions statistiques et de formules existantes à utiliser dans les rapports. Voir Mesures [calculées](/help/components/c-calcmetrics/cm-overview.md) dans le guide de l’utilisateur Composants.
 * **** Campagne : Peut se référer à :
-   * Variable Campaign, qui renseigne la dimension Code de suivi. Voir Variables [de](/help/implement/js-implementation/c-variables/page-variables.md) page dans le guide de l’utilisateur Mise en oeuvre.
+   * Variable Campaign, qui renseigne la dimension Code de suivi. Voir Variables [de](/help/implement/js-implementation/page-variables/page-variables.md) page dans le guide de l’utilisateur Mise en oeuvre.
    * Classification par défaut de la dimension Code de suivi ; créée automatiquement pour toutes les suites de rapports.
    * Adobe Campaign, composant d’Adobe Experience Cloud. Plus d’informations sur [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Canal : Peut se référer à :
-   * Variable de canal, qui renseigne la dimension Sections du site. Voir Variables [de](/help/implement/js-implementation/c-variables/page-variables.md) page dans le guide de l’utilisateur Mise en oeuvre.
+   * Variable de canal, qui renseigne la dimension Sections du site. Voir Variables [de](/help/implement/js-implementation/page-variables/page-variables.md) page dans le guide de l’utilisateur Mise en oeuvre.
    * Canaux marketing, composant qui permet de comprendre comment les utilisateurs accèdent à votre site. Voir Canaux [](/help/components/c-marketing-channels/c-overview.md) marketing dans le guide de l’utilisateur Composants.
 * **** Classification : Fonctionnalité d’Adobe Analytics qui permet le regroupement des valeurs de dimension. Voir [Classifications](/help/components/c-classifications2/c-classifications.md) dans le guide de l’utilisateur Composants.
 * **** ClickMap : Plus utilisé. Module complémentaire hérité du navigateur qui indique les zones de votre site sur lesquelles les visiteurs ont le plus cliqué. Cet outil a été retiré en faveur de Carte d’activités.
@@ -65,8 +65,8 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **** IPC : Abréviation de l'indicateur de performance clé. Mesures qui aident une entreprise à comprendre les performances de son site. Chaque organisation a des IPC différents qui mesurent différents aspects de son activité. Voir [Création d’un document](/help/implement/prepare/solution-design.md) de conception de solution dans le guide de l’utilisateur Mise en oeuvre.
 * **** Latence : Délai entre le moment où les données sont collectées et celui où elles sont disponibles dans les rapports. La latence typique dans une suite de rapports est de 30 à 90 minutes. Voir [Latence](/help/technotes/latency.md) dans le guide de l’utilisateur des notes techniques.
 * **** Lancement : À court de lancement d’Adobe Experience Platform, la solution d’implémentation actuelle d’Adobe. Voir [Présentation](https://docs.adobe.com/content/help/en/launch/using/overview.html) dans le guide de l’utilisateur Lancement d’Adobe Experience Platform.
-* **** Propriétés de liste : Paramètre qui convertit une variable de trafic standard afin de prendre en charge plusieurs valeurs dans le même accès. Toute variable de trafic personnalisée peut devenir une propriété de liste si le paramètre est activé. Voir Variables [de](/help/implement/js-implementation/c-variables/page-variables.md) page dans le guide de l’utilisateur Mise en oeuvre.
-* **** Variable de liste : Variable distincte distincte des variables de conversion. Les variables de liste prennent en charge plusieurs valeurs dans un même accès et les valeurs de variable sont conservées dans une visite, comme les variables de conversion. Seules trois variables de liste sont disponibles pour une organisation. Voir Variables [de](/help/implement/js-implementation/c-variables/page-variables.md) page dans le guide de l’utilisateur Mise en oeuvre.
+* **** Propriétés de liste : Paramètre qui convertit une variable de trafic standard afin de prendre en charge plusieurs valeurs dans le même accès. Toute variable de trafic personnalisée peut devenir une propriété de liste si le paramètre est activé. Voir Variables [de](/help/implement/js-implementation/page-variables/page-variables.md) page dans le guide de l’utilisateur Mise en oeuvre.
+* **** Variable de liste : Variable distincte distincte des variables de conversion. Les variables de liste prennent en charge plusieurs valeurs dans un même accès et les valeurs de variable sont conservées dans une visite, comme les variables de conversion. Seules trois variables de liste sont disponibles pour une organisation. Voir Variables [de](/help/implement/js-implementation/page-variables/page-variables.md) page dans le guide de l’utilisateur Mise en oeuvre.
 * **** Connexion société : Collection de suites de rapports utilisées par votre organisation. Certaines organisations ont plusieurs sociétés de connexion qui s’appliquent à différentes parties de leur organisation.
 * **** Canal marketing : Fonctionnalité d’Adobe Analytics qui classe les accès en fonction de leur accès à votre site. La logique utilisée pour classer les accès peut être personnalisée à l’aide des règles de traitement des canaux marketing. Voir [Prise en main des canaux](/help/components/c-marketing-channels/c-getting-started-mchannel.md) marketing dans le guide de l’utilisateur Composants.
 * **** Mesure : Type de composant contenant des données quantitatives. Les valeurs de mesure contiennent généralement des nombres, tels que Pages vues, Visites et Recettes. Une dimension est généralement son homologue.
