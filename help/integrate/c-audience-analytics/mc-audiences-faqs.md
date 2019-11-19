@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Questions fréquentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
 
@@ -84,7 +84,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Où utiliser ces dimensions dans Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Presque partout ; elles sont traitées comme toutes les autres dimensions collectées dans Analytics. Il existe deux exceptions : les données ne sont actuellement pas disponibles dans Data Workbench ou Livestream. </p> </td> 
+   <td colname="col2"> <p>Presque partout ; elles sont traitées comme toutes les autres dimensions collectées dans Analytics. Il y a une exception : pour l’instant, les données ne seront pas dans les Outils de données. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Pourquoi n’ai-je pas accès aux données dans Analytics ?</b> </p> </td> 
@@ -136,11 +136,11 @@ Pour plus de questions fréquentes sur cette rubrique, consultez FAQ [sur le tra
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Q : Pourquoi les nombres de visiteurs de segments diffèrent-ils entre Audience Manager et Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Voir <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Différences entre les nombres de visiteurs </a>. </p> </td> 
+   <td colname="col2"> <p>Voir  <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Différences entre les nombres de visiteurs </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Quelle est la différence entre « audiences » dans AAM et « segments » dans Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Voir <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>Les audiences AAM sont envoyées et partagées en tant que composants « Dimension » pour une utilisation dans Analytics. Elles n’apparaîtront pas en tant que segments dans le Créateur de segments, mais en tant que dimensions que vous pouvez utiliser pour créer des segments. </p> </td> 
+   <td colname="col2"> <p>Voir  <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>Les audiences AAM sont envoyées et partagées en tant que composants « Dimension » pour une utilisation dans Analytics. Elles n’apparaîtront pas en tant que segments dans le Créateur de segments, mais en tant que dimensions que vous pouvez utiliser pour créer des segments. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Quelle est la différence entre les attributs du client et les données de clients intégrées à partir d’AAM ?</b> </p> </td> 
