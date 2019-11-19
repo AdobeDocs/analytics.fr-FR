@@ -6,7 +6,7 @@ title: Fonctionnement des sources de données
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -32,4 +32,4 @@ Vous pouvez créer et gérer des sources de données FTP au moyen de rapports m
 
 Adobe propose une API Sources de données qui permet de lier par programmation les applications dans les sources de données. Vous n’avez ainsi plus besoin d’un serveur FTP intermédiaire ; les données sont transférées par HTTP, SOAP et REST.
 
-Voir la [documentation sur l’API Sources de données](https://marketing.adobe.com/developer/documentation/data-sources/c-data-sources-api).
+Voir la [documentation sur l’API Sources de données](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api).
