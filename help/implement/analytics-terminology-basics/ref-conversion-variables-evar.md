@@ -6,7 +6,7 @@ title: Variables de conversion (eVars)
 topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -29,14 +29,14 @@ Une eVar peut être basée sur les visites et fonctionner comme un cookie. Les v
 
 Lorsqu’une eVar est définie sur une valeur pour un visiteur, Adobe la mémorise automatiquement jusqu’à ce qu’elle arrive à expiration. Tout événement de succès auquel est associé un visiteur alors que la valeur eVar est active est comptabilisé dans cette dernière.
 
-> [!NOTE] Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](/help/implement/js-implementation/c-variables/page-variables.md).
+> [!NOTE] Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](/help/implement/js-implementation/page-variables/listvariable.md).
 
 Pour plus d’informations sur les variables, voir :
 
 * [Variables pour la mise en œuvre et le compte rendu des performances Analytics](/help/implement/js-implementation/c-variables/sc-variables.md) dans cette aide
 * [Variables - Utilisation dans le cadre de la création de rapports](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
-* [Variables de page](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Variable de campagne](/help/implement/js-implementation/c-variables/page-variables.md)
-* [Variable products](/help/implement/js-implementation/c-variables/page-variables.md)
+* [Variables de page](/help/implement/js-implementation/page-variables/page-variables.md)
+* [Variable de campagne](/help/implement/js-implementation/page-variables/campaign.md)
+* [Variable products](/help/implement/js-implementation/page-variables/products.md)
 * [Variable de produits](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html) dans la documentation du SDK Mobile
 
