@@ -2,9 +2,9 @@
 description: Affiche le temps passé par les visiteurs sur la page.
 solution: Analytics
 title: Durée de consultation de la page
-topic: Rapports
+topic: Reports
 translation-type: tm+mt
-source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
+source-git-commit: df64b85f2567df68d2f710762596e4960214a4f6
 
 ---
 
@@ -40,4 +40,4 @@ Le temps passé sur la page mesure le temps écoulé entre les accès d’une vi
 
 Cette dimension est basée sur les accès, qui, si elle est utilisée comme ventilation, peuvent fournir des données plus significatives. Comparez cette dimension au [temps passé par visite](reports-time-spent-per-visit.md), qui est une dimension basée sur les visites.
 
-![Temps passé](assets/time-spent1.png)
+![Temps passé](/help/components/c-variables/c-metrics/assets/time-spent1.png)
