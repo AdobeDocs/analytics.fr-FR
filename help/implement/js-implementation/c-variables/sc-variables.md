@@ -7,7 +7,7 @@ title: Variables - Aperçu
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Ainsi, la valeur de la variable pageName est le nom de la page Web qui fait l’objet d’un rapport. Cette section répertorie les variables prises en charge par AppMeasurement.
 
-Pour plus d’informations sur les variables de page, utilisez [ce lien](/help/implement/js-implementation/c-variables/page-variables.md).
+Pour plus d’informations sur les variables de page, utilisez [ce lien](/help/implement/js-implementation/page-variables/page-variables.md).
 Pour plus d’informations sur les variables de configuration, utilisez [ce lien](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
-## Comment définir les variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
+## Comment définir les variables
 
 AppMeasurement exige que toutes les variables de configuration soient définies avant l’appel initial vers la fonction de suivi, *`t()`*. Si des variables de configuration sont définies après l’appel à *`t()`*, des résultats inattendus peuvent se produire.
 
