@@ -1,12 +1,13 @@
 ---
 description: Les variables dynamiques vous permettent de copier des valeurs d’une variable vers une autre sans entrer les valeurs complètes à plusieurs reprises dans les demandes d’image sur votre site.
-keywords: Mise en œuvre d’Analytics
+keywords: Analytics Implementation
 solution: null
 title: Variables dynamiques
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 ---
+
 
 
 # s.useForcedLinkTracking
@@ -22,9 +23,8 @@ Dans JavaScript H.25.4 (publié en février 2013), les limites de portée ci-apr
 * The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * L’attribut `TARGET` ne doit pas être défini ou `TARGET` doit se rapporter à la fenêtre active (`_self`, `_top` ou à la valeur de `window.name`).
 
-Valeur par défaut = true
+Valeur par défaut = `true`
 
 ## Exemple
 
 `s.useForcedLinkTracking = false`
-
