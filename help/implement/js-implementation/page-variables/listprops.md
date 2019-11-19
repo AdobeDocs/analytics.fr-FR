@@ -7,7 +7,7 @@ title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -25,17 +25,17 @@ list_props.xml
 
 **Considérations**
 
-* Les propriétés de liste ne sont activées que sur les variables de trafic ( [props](/help/implement/js-implementation/c-variables/page-variables.md)).
+* Les propriétés de liste ne sont activées que sur les variables de trafic ( [props](/help/implement/js-implementation/page-variables/propn.md)).
 * Le cheminement et les corrélations ne peuvent pas être activés pour les props de liste.
 * Analytics fournit les visites et visiteurs uniques à presque tous les rapports, notamment tous les rapports sur les props de liste.
 * Les classifications sont prises en charge pour les propriétés de liste.
-* Toute variable de trafic personnalisée peut devenir une propriété de liste. (Exceptions : [pageName](/help/implement/js-implementation/c-variables/page-variables.md), [canal](/help/implement/js-implementation/c-variables/page-variables.md) et [serveur](/help/implement/js-implementation/c-variables/page-variables.md).)
+* Toute variable de trafic personnalisée peut devenir une propriété de liste. (Exceptions : [pageName](/help/implement/js-implementation/page-variables/pagename.md), [canal](/help/implement/js-implementation/page-variables/channel.md) et [serveur](/help/implement/js-implementation/page-variables/server.md).)
 
 * Lors de la définition de valeurs dupliquées dans une même demande d’image, les instances ne sont pas dédupliquées.
 
 Vous pouvez changer une variable prop dans une liste sur la page Outils d’administration &gt; Suite de rapports &gt; Variables de trafic en activant la prise en charge des listes et en sélectionnant un délimiteur. Les délimiteurs les plus courants sont les suivants : deux-points, points-virgules, virgules et barres verticales. D’un point de vue technique, il peut s’agir de l’un des 127 premiers caractères ASCII.
 
-**Exemples de mise en œuvre** {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+**Exemples de mise en œuvre**
 
 Lorsque vous demandez l’activation de propriétés de liste, indiquez le délimiteur à utiliser. Après avoir activé la variable *`s.prop`* de votre choix, vous pouvez définir plusieurs valeurs, comme illustré dans les exemples suivants :
 
