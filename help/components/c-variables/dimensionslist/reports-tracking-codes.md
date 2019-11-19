@@ -5,7 +5,7 @@ title: Codes de suivi
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 ---
 
@@ -16,7 +16,7 @@ Mesure l’incidence de divers codes de suivi publicitaire sur différents évé
 
 **Propriétés générales**
 
-* Ce rapport fait directement référence à des données de la variable [s.campaign](/help/implement/js-implementation/c-variables/page-variables.md) implémentée sur votre site web.
+* Ce rapport fait directement référence à des données de la variable [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) implémentée sur votre site web.
 * Ce rapport est basé sur une [variable de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Cela signifie qu’il peut persister au-delà de la consultation de page et être associé à des mesures dans l’intervalle spécifié.
 * La mesure par défaut du rapport est Recettes. Vous pouvez modifier cette valeur par défaut dans le [!UICONTROL Gestionnaire de Report Suites] des [!UICONTROL Outils d’administration]. ( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
 
