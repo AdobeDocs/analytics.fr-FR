@@ -6,7 +6,7 @@ title: Identifiant visiteur personnalisé
 topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -21,7 +21,7 @@ Si vous pouvez dériver et gérer les [!UICONTROL identifiants visiteur] de vos 
 
 | Méthode | Description |
 |---|---|
-| [Variable s.visitorID](/help/implement/js-implementation/c-variables/page-variables.md) | Si JavaScript est utilisé dans le navigateur, ou si vous utilisez toute autre bibliothèque AppMeasurement, vous pouvez définir l’identifiant visiteur dans une variable de collecte de données. |
+| [Variable s.visitorID](/help/implement/js-implementation/page-variables/page-variables.md) | Si JavaScript est utilisé dans le navigateur, ou si vous utilisez toute autre bibliothèque AppMeasurement, vous pouvez définir l’identifiant visiteur dans une variable de collecte de données. |
 | Paramètre de chaîne de requête dans la demande d’image | Elle permet de transmettre l’[!UICONTROL identifiant visiteur] à Adobe via le paramètre de [!UICONTROL chaîne de requête vide] dans une demande d’image codée en dur. |
 | API d’insertion de données | Sur les périphériques utilisant des protocoles sans fil qui n’acceptent pas JavaScript, vous pouvez envoyer une publication XML contenant l’élément XML `<visitorid/>` aux serveurs de collecte d’Adobe depuis vos serveurs. |
 | Réécriture d’URL et VISTA | Certaines architectures de déploiement prennent en charge l’utilisation de la réécriture d’URL pour gérer l’état de session lorsqu’un cookie ne peut pas être défini. Dans de tels cas, les services d’ingénierie d’Adobe peuvent implémenter une règle [!DNL VISTA] qui recherche la valeur de session dans l’URL de la page, puis la formate et la place dans les valeurs [!UICONTROL visid]. |
