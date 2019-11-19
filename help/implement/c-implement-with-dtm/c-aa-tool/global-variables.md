@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Variables globales
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
 
@@ -22,7 +22,7 @@ Ces variables se déclenchent sur toutes les balises de règle de chargement de 
 
 | Élément | Description |
 |--- |--- |
-| Serveur | La variable prédéfinie renseigne la dimension Serveurs dans Adobe Analytics. Voir [Variables de page](/help/implement/js-implementation/c-variables/page-variables.md) |
-| eVars | [Les variables eVar](/help/implement/js-implementation/c-variables/page-variables.md) sont utilisées pour créer des rapports de conversion personnalisés. |
-| Propriétés | [Les variables de propriété (prop)](/help/implement/js-implementation/c-variables/page-variables.md) sont utilisées pour créer des rapports de trafic personnalisés. |
-| Préfixe de variable dynamique | Préfixe spécial au début de la valeur. Le préfixe par défaut est « D= ». Voir [Variables dynamiques](/help/implement/js-implementation/c-variables/dynvars-overview.md) |
+| Serveur | La variable prédéfinie renseigne la dimension Serveurs dans Adobe Analytics. Voir [Variables de page](/help/implement/js-implementation/page-variables/page-variables.md) |
+| eVars | [Les variables eVar](/help/implement/js-implementation/page-variables/evarn.md) sont utilisées pour créer des rapports de conversion personnalisés. |
+| Propriétés | [Les variables de propriété (prop)](/help/implement/js-implementation/page-variables/propn.md) sont utilisées pour créer des rapports de trafic personnalisés. |
+| Préfixe de variable dynamique | Préfixe spécial au début de la valeur. Le préfixe par défaut est « D= ». Voir [Variables dynamiques](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html) |
