@@ -5,14 +5,14 @@ title: Visiteurs uniques par mois
 topic: Metrics
 uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 32fac842028e051db2f202cd112c1ce7dc899cfc
 
 ---
 
 
 # Visiteurs uniques par mois
 
-Nombre de visiteurs (comptés une seule fois) ayant fréquenté votre site en un mois.
+Nombre de visiteurs non dupliqués (comptés une seule fois, par exemple) sur votre site Web au cours d’un seul mois.
 
 | Utilisations | Description |
 |---|---|
