@@ -4,7 +4,7 @@ solution: Analytics
 title: Durée de la visite
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e67926856111834bb9c783ec916a24d34981454c
+source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
 
 ---
 
@@ -46,13 +46,15 @@ The **numerator** in all time spent calculations is total seconds spent.
 
 The **denominator** is not available as a separate metric in Adobe Analytics. Pour les mesures de durée de consultation, le dénominateur est les séquences. Une séquence est un jeu consécutif d’accès pour lequel une variable donnée contient la même valeur (qu’elle soit définie, propagée ou persistante). "Diffuser vers l’avant" désigne la persistance des props entre les pages vues (c.-à-d. entre les événements de lien suivants), aux fins du calcul de la durée de consultation.
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially 'Instances' or 'Page Views', but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
 
 * Les accès de rebonds et de sortie sont également supprimés du dénominateur, car le temps passé est inconnu.
 
 ## Questions fréquentes
 
-**Q1 : Toutes les mesures "Durée de la visite" peuvent-elles être appliquées à une dimension ?** A : Les mesures "Durée de consultation" qui peuvent être appliquées à n’importe quelle dimension sont les suivantes :
+**Q1 : Toutes les mesures "Durée de la visite" peuvent-elles être appliquées à une dimension ?**
+
+A : Les mesures "Durée de consultation" qui peuvent être appliquées à n’importe quelle dimension sont les suivantes :
 
 * [!UICONTROL Durée totale (secondes)]
 
@@ -62,16 +64,22 @@ The **denominator** is not available as a separate metric in Adobe Analytics. Po
 
 * [!UICONTROL Durée moyenne de consultation du site] (secondes)
 
-**Q2 : Quelle est la dimension de durée de consultation la mieux utilisée dans les ventilations avec d’autres dimensions ?** A : La dimension [!UICONTROL Durée de consultation de la page - granulaire] est une dimension de niveau accès. La ventilation de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de ventilation était également présente.
+**Q2 : Quelle est la dimension de durée de consultation la mieux utilisée dans les ventilations avec d’autres dimensions ?**
+
+A: The [!UICONTROL Time Spent on Page – granular] dimension is a hit-level dimension. La ventilation de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de ventilation était également présente.
 Dans l’exemple ci-dessous, le terme de recherche "classifications" est associé aux temps d’accès de 54 secondes, 59 secondes, etc., ce qui indique peut-être que les visiteurs passent du temps à lire le contenu renvoyé pour ce terme.
 
 ![](assets/time-spent1.png)
 
-**Q3 : Quelle mesure convient-il par rapport à la dimension de[!UICONTROL Durée de consultation de la page - granulaire]?** A : Toute mesure. La dimension indique le temps passé sur l’accès exact où l’événement s’est produit. Une durée plus longue de la visite signifie qu’un visiteur est resté plus longtemps sur une page (accès) où l’événement s’est produit.
+**Q3 : Quelle mesure convient-il par rapport à la dimension de[!UICONTROL Durée de consultation de la page - granulaire]?**
+
+A : Toute mesure. La dimension indique le temps passé sur l’accès exact où l’événement s’est produit. Une durée plus longue de la visite signifie qu’un visiteur est resté plus longtemps sur une page (accès) où l’événement s’est produit.
 
 ![](assets/time-spent2.png)
 
-**Q4 : En quoi le temps[!UICONTROL moyen passé sur le site]diffère-t-il du[!UICONTROL temps passé par visite]?** A : La différence est le dénominateur dans la mesure :
+**Q4 : En quoi le temps[!UICONTROL moyen passé sur le site]diffère-t-il du[!UICONTROL temps passé par visite]?**
+
+A : La différence est le dénominateur dans la mesure :
 
 * [!UICONTROL Le temps moyen passé sur le site] utilise les séquences qui incluent un élément de dimension.
 
