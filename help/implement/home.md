@@ -1,13 +1,13 @@
 ---
-title: Mise en oeuvre d’Analytics pour les périphériques mobiles
+title: Mise en oeuvre d’Adobe Analytics
 description: valeur nulle
 translation-type: tm+mt
-source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
+source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ---
 
 
-# Mise en oeuvre d’Analytics pour les périphériques mobiles
+# Mise en oeuvre d’Adobe Analytics
 
 ![Bannière](../../assets/doc_banner_implement.png)
 
@@ -16,7 +16,7 @@ source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 * **Dynamic Tag Management (DTM) :** Le prédécesseur de Launch. DTM utilise une interface similaire pour implémenter Analytics, mais n’est plus mise à jour et n’est pas aussi flexible. Adobe recommande d’utiliser Launch pour implémenter Adobe Analytics.
 * **Code JavaScript hérité :** Méthode manuelle historique pour implémenter Adobe Analytics. Décrit les variables et les paramètres utilisés dans une implémentation, ce qui peut s’avérer utile pour les implémentations de Launch utilisant des règles avec du code personnalisé.
 
-## Principaux articles sur l’importation Analytics
+## Articles clés de mise en oeuvre d’Analytics
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Création d’une propriété dans Experience Platform Launch](implement-with-launch/create-analytics-property.md)
