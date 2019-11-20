@@ -2,7 +2,7 @@
 title: Collecte de données régionale
 description: Informations sur la collecte des données régionales
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
 
@@ -20,7 +20,6 @@ La collecte de données régionale inclut les emplacements suivants (sujets à m
 | Type de collecte de données régionale | Centres de collecte de données |
 |---------------------|-------------------|
 | Par défaut | San José, Virginie, Londres, Singapour, Hong Kong, Sydney, Amsterdam |
-| Chine uniquement | Pékin |
 
 Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` endpoints, then you have third-party data collection. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
 
