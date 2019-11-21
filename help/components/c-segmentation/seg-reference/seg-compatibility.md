@@ -5,7 +5,7 @@ title: Compatibilité des segments avec l’Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
 
 ---
 
@@ -36,7 +36,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <td colname="col1"> <b>ET et OU peuvent être associés sans limite</b> </td> 
    <td colname="col2"> Pris en charge </td> 
-   <td colname="col3"> Certaines limites </td> 
+   <td colname="col3"> Certaines limites. Voir *note* ci-dessous tableau. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Conteneurs imbriqués</b> </td> 
@@ -94,3 +94,4 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  </tbody> 
 </table>
 
+*Remarque : L’entrepôt de données ne prend pas en charge tous les cas d’utilisation d’un`exclusion`conteneur ou d’un`without`conteneur lors de l’utilisation`AND/OR`. Lors de l’utilisation d’une telle combinaison, seuls les segments qui peuvent être réécrits en tant que`A AND NOT B`(ou **incluent cette caractéristique**et **excluent cette caractéristique**) sont pris en charge dans Data Warehouse.*
