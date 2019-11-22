@@ -7,7 +7,7 @@ title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
 # Variable de liste
 
 Connue également sous le nom de variable de liste. A l’instar de la fonction Propriétés de liste, les variables de liste autorisent plusieurs valeurs dans la même demande d’image. Elles se comportent également de la même manière que les eVars, lesquelles persistent au-delà de la demande d’image sur laquelle elles ont été définies. Vous pouvez utiliser ces variables pour afficher les causes et les effets parmi plusieurs éléments sur une seule page, tels que des listes de produits, de cadeaux, d’affinements de recherche ou encore d’annonces graphiques.
+
 
 <!-- 
 
