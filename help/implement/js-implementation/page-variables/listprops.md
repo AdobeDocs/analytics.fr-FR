@@ -7,7 +7,7 @@ title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # Propriétés de liste
 
 Les props de liste sont une liste délimitée de valeurs transmises dans une variable, puis signalées comme lignes individuelles. Elles sont généralement implémentées sur des pages contenant des valeurs pouvant être sélectionnées par l’utilisateur, telles que des éléments répertoriés avec des cases à cocher ou des cases d’option. Les props de liste s’avèrent utiles lorsque vous souhaitez définir plusieurs valeurs dans une variable sans envoyer plusieurs demandes d’image.
+
 
 <!-- 
 
