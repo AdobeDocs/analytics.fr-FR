@@ -7,7 +7,7 @@ title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 # products
 
 La variable sert à effectuer le suivi des produits et des catégories de produits (ainsi que de la quantité achetée et du prix d’achat). Les produits sont généralement définis en association avec un événement de panier ou un événement.
+
 
 <!-- 
 
