@@ -7,7 +7,7 @@ title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # stockage
 
 Les [!UICONTROL sources de données d’intégration] utilise une variable [!UICONTROL transactionID] pour lier les données hors ligne à une transaction en ligne (comme un prospect ou un achat généré en ligne).
+
 
 <!-- 
 
