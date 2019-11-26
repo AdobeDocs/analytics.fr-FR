@@ -2,7 +2,7 @@
 title: Canal interne (actualisation de session)
 description: Découvrez le canal Interne (actualisation de session).
 translation-type: tm+mt
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
 
 ---
 
@@ -66,7 +66,7 @@ Un visiteur passe d’un domaine qui se déclenche vers la suite A à un autre d
 
 ### Scénario 5 : Temps de chargement long de la page d’entrée
 
-Un visiteur arrive sur la page A, qui est lourde sur la tente, et le code Adobe Analytics se trouve dans le bas de la page. Avant que la tente (y compris la demande d’image Adobe Analytics) ne puisse se charger, le vis-i-tor clique sur la page B. La page B déclenche sa demande d’image Adobe Analytics. Comme la demande d’image de la page A n’a jamais été chargée, la deuxième page apparaît comme le premier accès de la visite dans Adobe Analytics, avec la page A comme référent. La visite est classée comme actualisation de session.
+Un visiteur accède à la page A, qui contient beaucoup de contenu, et le code Adobe Analytics se trouve au bas de la page. Avant que tout le contenu (y compris la demande d’image Adobe Analytics) puisse être chargé, le visiteur clique sur la page B. La page B déclenche sa demande d’image Adobe Analytics. Comme la demande d’image de la page A n’a jamais été chargée, la deuxième page apparaît comme le premier accès de la visite dans Adobe Analytics, avec la page A comme référent. La visite est classée comme actualisation de session.
 
 ### Scénario 6 : Effacement des cookies au milieu du site
 
