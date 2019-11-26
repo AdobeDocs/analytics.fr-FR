@@ -6,7 +6,7 @@ title: FAQ sur la mise en œuvre d’Analytics
 topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c3bdd39808041b2e716d3e6bbdcfbf23c37b7a24
 
 ---
 
@@ -87,7 +87,7 @@ Questions fréquemment posées sur la mise en œuvre et liens vers d’autres in
   </tr> 
   <tr> 
    <td> Quelle est la dernière version du fichier s_code ? </td> 
-   <td> Cette section comprend un historique des versions des bibliothèques [!DNL AppMeasurement] sur les plateformes web et mobiles. Vous pouvez télécharger la dernière version de chaque bibliothèque sous Reports &amp; Analytics &gt; Outils d’administration &gt; Gestionnaire de code. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [Plus...] </a> </td> 
+   <td> This section contains a release history for <code>AppMeasurement</code> libraries across web and mobile platforms. Vous pouvez télécharger la dernière version de chaque bibliothèque sous Reports &amp; Analytics &gt; Outils d’administration &gt; Gestionnaire de code. <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [Plus...] </a> </td> 
   </tr> 
   <tr> 
    <td> Comment déboguer un fichier s_code ? </td> 
