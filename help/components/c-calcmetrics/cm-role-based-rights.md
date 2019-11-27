@@ -3,7 +3,7 @@ description: Les droits des mesures calculées diffèrent entre les utilisateurs
 title: Droits basés sur les rôles des mesures calculées
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -16,7 +16,7 @@ Les droits des mesures calculées diffèrent entre les utilisateurs administrate
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col02" class="entry"> Créez     </th> 
+   <th colname="col02" class="entry"> Créez </th> 
    <th colname="col2" class="entry"> Partager </th> 
    <th colname="col3" class="entry"> Afficher/Gérer </th> 
    <th colname="col4" class="entry"> Approuver </th> 
@@ -28,7 +28,7 @@ Les droits des mesures calculées diffèrent entre les utilisateurs administrate
    <td colname="col1"> <b>Administrateurs</b> </td> 
    <td colname="col02"> Les administrateurs peuvent créer des mesures calculées ainsi que des <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >groupes</a> pour limiter les droits de création de mesures calculées des utilisateurs. </td> 
    <td colname="col2"> Peuvent effectuer un partage avec l’ensemble de l’entreprise, avec des groupes d’utilisateurs et avec des utilisateurs individuels. </td> 
-   <td colname="col3"> <span class="keyword"> [!Rapports et analyses UICONTROL] </span>: Peut afficher/modifier/supprimer, etc. leurs propres mesures calculées et celles des autres utilisateurs. <p> <span class="keyword"> Ad Hoc Analysis</span> et <span class="keyword">Report Builder</span> : peuvent afficher/modifier/supprimer, etc. leurs propres mesures calculées et celles partagées avec eux. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span> : peuvent afficher/modifier/supprimer, etc. leurs propres mesures calculées et celles des autres utilisateurs. <p> <span class="keyword"> Ad Hoc Analysis</span> et <span class="keyword">Report Builder</span> : peuvent afficher/modifier/supprimer, etc. leurs propres mesures calculées et celles partagées avec eux. </p> </td> 
    <td colname="col4"> Peuvent approuver les mesures calculées comme étant canoniques. </td> 
    <td colname="col5"> Peuvent appliquer toute mesure calculée à l’échelle de l’entreprise. </td> 
   </tr> 
