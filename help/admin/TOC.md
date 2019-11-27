@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Guide d’administration Analytics
-user-guide-url: /content/help/fr-FR/analytics/admin/home.html
+user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -117,6 +117,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Alliance de marques](company/co-branding-admin.md)
    + [Masquage des suites de rapports](company/c-hide-report-suites.md)
    + [Gestionnaire de sécurité](company/security-manager.md)
+   + [Fin de vie pour "Mettre en place les restrictions d'identification par IP"](company/login-restrictions-eol.md)
 + Gestion des suites de rapports {#manage-report-suites}
    + [Gestionnaire de suites de rapports](c-manage-report-suites/report-suites-admin.md)
    + [Suites de rapports globales et de cumul](c-manage-report-suites/rollup-report-suite.md)
@@ -161,9 +162,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Envoyer un courrier électronique aux utilisateurs](user-management2/t-email-users.md)
 + Gouvernance des données {#data-governance}
    + [Adobe Analytics et le Règlement général sur la protection des données (RGPD)](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics et CCPA](c-data-governance/an-ccpa-overview.md)
+   + [Adobe Analytics et le CCPA](c-data-governance/an-ccpa-overview.md)
    + [Questions fréquentes](c-data-governance/gdpr-faq.md)
-   + [Flux de travaux sur la confidentialité des données Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
+   + [Processus relatif à la confidentialité des données Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Affichage/Gestion des paramètres de gouvernance des données de la suite de rapports](c-data-governance/gdpr-view-settings.md)
    + [Étiquetage des données d’une suite de rapports](c-data-governance/gdpr-setup-reportsuite.md)
    + [Demandes d’accès et de suppression](c-data-governance/gdpr-submit-access-delete.md)
@@ -172,7 +173,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
    + [Bonnes pratiques en matière d’étiquetage](c-data-governance/gdpr-analytics-ids.md)
    + [Exemple d’étiquetage](c-data-governance/gdpr-labeling-example.md)
-   + [Confidentialité des données et connecteurs de données (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [Confidentialité des données et Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminologie de la confidentialité des données](c-data-governance/gdpr-terminology.md)
    + [Variables de création de rapports de confidentialité](c-data-governance/consent-variables.md)
 + Utilisation des appels au serveur {#server-call-usage}
