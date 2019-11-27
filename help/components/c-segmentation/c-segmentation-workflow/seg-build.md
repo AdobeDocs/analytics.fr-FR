@@ -5,7 +5,7 @@ title: Création de segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -56,13 +56,12 @@ Accédez au Créateur de segments en procédant comme suit ::
    * **[!UICONTROL + Ajouter un conteneur d’après la sélection]** : permet de créer un nouveau conteneur à partir des éléments que vous avez sélectionnés dans le champ Définitions.
    * **[!UICONTROL Exclure]** : permet de définir le segment en excluant un ou plusieurs segments, dimensions ou mesures.
 
-**[!UICONTROL Modèles]** d’attribution : Pour la segmentation des dimensions. Les modèles de dimension sont particulièrement utiles pour la segmentation séquentielle, comme dans le cas des visualisations de flux :
+1. **[!UICONTROL Modèles]** d’attribution : Pour la segmentation des dimensions. Les modèles de dimension sont particulièrement utiles pour la segmentation séquentielle, comme dans le cas des visualisations de flux :
 
-    * **[!UICONTROL Répétition]** (par défaut) : Inclut des instances et des valeurs persistantes pour la dimension.
-    * **[!UICONTROL Instance]** : Inclut des instances pour la dimension.
-    * **Instance[!UICONTROL non répétée]** : Inclut des instances uniques (non répétées) pour la dimension.
-
-![](assets/attribution-models.jpg)
+   * **[!UICONTROL Répétition]** (par défaut) : Inclut des instances et des valeurs persistantes pour la dimension.
+   * **[!UICONTROL Instance]**: Inclut des instances pour la dimension.
+   * **[!UICONTROL Instance]** non répétée : Inclut des instances uniques (non répétées) pour la dimension.
+   ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL Dimensions]**: Les dimensions sont glissées et déposées depuis la liste Dimensions (barre latérale orange).
 1. **[!UICONTROL Comparaison]**: Vous pouvez comparer et contraindre des valeurs à l’aide d’opérateurs sélectionnés.
