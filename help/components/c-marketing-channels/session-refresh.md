@@ -2,7 +2,7 @@
 title: Canal interne (actualisation de session)
 description: Découvrez le canal Interne (actualisation de session).
 translation-type: tm+mt
-source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -42,11 +42,11 @@ Pour comprendre l’interaction entre la première et la dernière touche et con
 
 ![](assets/int-channel3.png)
 
-L’intersection où first est égal à last-touch est surlignée en orange. Direct et Session Refresh n’obtiennent le crédit Dernière touche que s’ils étaient également le canal Première touche, car ils ne peuvent pas prendre le crédit d’autres canaux persistants (lignes en surbrillance grisées).
+L’intersection où first est égal à last touch est surlignée en orange. Direct et Session Refresh n’obtiennent le crédit Dernière touche que s’ils étaient également le canal Première touche, car ils ne peuvent pas prendre le crédit d’autres canaux persistants (lignes en surbrillance grisées).
 
 ## Pourquoi l’actualisation de session se produit-elle ?
 
-Comme nous savons que l’actualisation de session Dernière touche ne peut avoir lieu que s’il s’agissait également de la première touche, les scénarios ci-dessous expliquent comment l’actualisation de session peut être un canal Première touche.
+Comme nous savons que l’actualisation de session Dernière touche ne peut avoir lieu que si elle était également la première touche, les scénarios ci-dessous expliquent comment l’actualisation de session peut être un canal Première touche.
 
 ### Scénario 1 : Délai de session
 
@@ -58,7 +58,7 @@ Un visiteur arrive sur la page A qui n’est pas balisée, puis passe à la page
 
 ### Scénario 3 : Redirections
 
-Si aucune redirection n’est configurée pour transmettre les données de référent à la nouvelle page de renvoi, les données de référent d’entrée réelle sont perdues et la page de redirection (probablement une page interne) apparaît désormais comme domaine référent. La visite sera classée comme Actualisation de la session.
+Si une redirection n’est pas configurée pour transmettre les données du référent à la nouvelle page d’entrée, les données du référent d’entrée réelle sont perdues et la page de redirection (probablement une page interne) apparaît désormais comme domaine référent. La visite sera classée comme Actualisation de la session.
 
 ### Scénario 4 : Trafic inter-domaines
 
