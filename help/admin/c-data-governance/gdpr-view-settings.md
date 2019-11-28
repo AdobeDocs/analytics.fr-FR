@@ -2,7 +2,7 @@
 description: La boîte de dialogue Gouvernance des données dans les Outils d’administration offre un aperçu des suites de rapports configurées pour la gouvernance des données, indique si elles ont été mappées à une organisation Experience Cloud et si une politique de conservation des données est mise en place pour cette suite de rapports.
 title: Afficher/Gérer les paramètres de gouvernance des données de la suite de rapports
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 La boîte de dialogue Gouvernance des données dans les Outils d’administration offre un aperçu des suites de rapports configurées pour la gouvernance des données, indique si elles ont été mappées à une organisation Experience Cloud et si une politique de conservation des données est mise en place pour cette suite de rapports.
 
 1. Connectez-vous à Adobe Experience Cloud.
-1. Sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Gouvernance des données]**.
+1. Sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Gouvernance des données]**.
 
    Vous verrez toutes les suites de rapports faisant partie de votre société de connexion :
 
@@ -36,16 +36,16 @@ La boîte de dialogue Gouvernance des données dans les Outils d’administratio
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mappé</b> : cette suite de rapports a déjà été mappée à la même organisation Experience Cloud que la société de connexion Analytics à laquelle vous êtes connecté. Seules les suites de rapports possédant ce paramètre peuvent être étiquetées. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapper la suite de rapports</b> : en cliquant sur ce lien, vous pouvez <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html">mapper une suite de rapports</a> à une organisation Experience Cloud. <p>Cela signifie que vous serez redirigé vers la page d’administration du mappage de la suite de rapports pour l’organisation Experience Cloud où vous devez trouver la suite de rapports et lui attribuer sa propre organisation. Une fois cette étape franchie, revenez à cette interface utilisateur de gouvernance des données. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapper la suite de rapports</b> : en cliquant sur ce lien, vous pouvez <a href="https://marketing.adobe.com/resources/help/fr_FR/mcloud/report-suite-mapping.html">mapper une suite de rapports</a> à une organisation Experience Cloud. <p>Cela signifie que vous serez redirigé vers la page d’administration du mappage de la suite de rapports pour l’organisation Experience Cloud où vous devez trouver la suite de rapports et lui attribuer sa propre organisation. Une fois cette étape franchie, revenez à cette interface utilisateur de gouvernance des données. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mappé à une autre organisation</b> : une autre organisation Experience Cloud a déjà mappé cette suite de rapports à son organisation. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Politique de conservation des données </p> </td> 
-   <td colname="col2"> <p>La mise en œuvre de la Confidentialité des données pour Analytics nécessite la mise en place d’une politique de conservation des données. </p> <p>Ce paramètre indique si: </p> 
+   <td colname="col2"> <p>La mise en œuvre de la Confidentialité des données pour Analytics nécessite la mise en place d’une politique de conservation des données. </p> <p>Ce paramètre indique si : </p> 
     <ul> 
-     <li>Une stratégie de rétention des données est en place pour cette suite de rapports. </li> 
-     <li>Durée pendant laquelle les données sont conservées par Adobe avant d’être supprimées. Par défaut, la période de conservation des données est de 25 mois. </li> 
+     <li>une politique de conservation des données est en place pour cette suite de rapports ; </li> 
+     <li>combien de temps les données sont conservées par Adobe avant d’être supprimées. Par défaut, la période de conservation des données est de 25 mois. </li> 
     </ul> <p>Remarque : Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative à la Confidentialité des données, c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie. Veuillez contacter votre gestionnaire du succès client pour définir votre période de conservation des données. </p> </td> 
   </tr> 
   <tr> 
