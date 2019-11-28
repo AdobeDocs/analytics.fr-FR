@@ -1,8 +1,8 @@
 ---
-description: valeur nulle
+description: 'null'
 title: Terminologie relative au règlement général sur la protection des données (RGPD)
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **Siège principal** : lieu au sein de l’Union où les principales décisions concernant le traitement des données sont prises ; à l’égard de l’entité de traitement des données
 
-**Données** personnelles - toute information relative à une personne physique ou à un "sujet de données" qui peut être utilisée pour identifier directement ou indirectement la personne
+**Données personnelles** : toute information relative à une personne physique ou à un « sujet des données », qui peut être utilisée pour identifier directement ou indirectement la personne
 
 **Violation des données à caractère personnel** : violation de la sécurité entraînant l’accès accidentel ou illégal, la destruction, l’abus, etc. de données personnelles
 
