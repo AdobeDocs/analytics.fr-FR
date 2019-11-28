@@ -1,8 +1,8 @@
 ---
-description: valeur nulle
+description: 'null'
 title: Bonnes pratiques en matière d’étiquetage
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -28,7 +28,7 @@ Même si votre entreprise collecte de nombreux ID différents dans vos données 
 * Certains ID peuvent correspondre à plusieurs personnes et vous ne voulez pas risquer de renvoyer des informations relatives à une personne à quelqu’un d’autre possédant le même ID. Par exemple, même si vous pouvez vérifier que le nom de la personne est John Smith, vous ne voulez peut-être pas renvoyer l’intégralité des données relatives à tous les John Smith de votre système.
 * Un autre exemple concerne un ID d’appareil, tel que l’ID de cookie Analytics. Si l’ID apparaît sur une application de téléphone portable, vous pouvez décider que toutes les interactions utilisant cet ID doivent être disponibles pour le propriétaire du téléphone portable en question. Toutefois, s’il apparaît sur un appareil partagé, tel qu’un ordinateur domestique ou un ordinateur dans une bibliothèque ou un cybercafé, vous pouvez estimer que la distinction entre les différents utilisateurs de cet appareil n’est pas possible et que le risque de renvoyer des données relatives à un autre utilisateur est trop important pour permettre l’utilisation de ce type d’ID.
 
-## Bonnes pratiques pour les ID pris en charge par Analytics  {#section_B6481505FF1949498D4B4B35B780D050}
+## Bonnes pratiques pour les ID pris en charge par Analytics {#section_B6481505FF1949498D4B4B35B780D050}
 
 Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors de la soumission de demandes relatives à la Confidentialité des données à Analytics. Lorsque vous connaîtrez ces informations, vous pourrez déterminer plus facilement les autres étiquettes à utiliser pour vos variables.
 
@@ -43,14 +43,14 @@ Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors d
   <tr> 
    <td colname="col1"> <p>ID de cookie </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html">Cookie Analytics (hérité)</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"> Cookie du service Identity </a> (ECID), précédemment connu sous le nom de Marketing Cloud ID (MCID) </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/fr_FR/whitepapers/cookies/cookies_analytics.html">Cookie Analytics (hérité)</a> </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/fr_FR/mcvid/"> Cookie du service Identity </a> (ECID), précédemment connu sous le nom de Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>Ces cookies identifient un appareil ou, plus spécifiquement, un navigateur pour un utilisateur d’un appareil. Pour un appareil partagé utilisant une connexion commune, cet ID peut être attribué à tous les utilisateurs de l’appareil. Adobe a créé du code <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">JavaScript unifié</a> que vous pouvez insérer dans votre site web pour collecter ces cookies si vous souhaitez autoriser leur utilisation pour les demandes relatives à la Confidentialité des données. </p> <p>Les utilisateurs du SDK Adobe Analytics Mobile disposent également d’un Experience Cloud ID (ECID). Des appels d’API destinés à lire cet ID sont présents dans le SDK. Ainsi, vous pouvez optimiser votre application pour le collecter en vue d’une demande relative à la Confidentialité des données. </p> <p>De nombreuses entreprises considèrent les ID de cookie du navigateur comme des ID d’appareils partagés. Par conséquent, après consultation de leurs équipes juridiques, elles peuvent choisir de ne pas les utiliser comme ID acceptables pour les demandes relatives à la Confidentialité des données, de ne renvoyer qu’une quantité très limitée de données lorsque ces ID sont utilisés ou de ne les accepter que pour les demandes de suppression. </p> <p>Ces cookies ont une étiquette ID-DEVICE qui ne peut pas être modifiée (ainsi que des étiquettes I2 et DEL-DEVICE). La configuration par défaut d’Adobe Analytics renvoie uniquement les informations génériques relatives à l’appareil, telles que le type d’appareil, le système d’exploitation, le navigateur, etc. ainsi que l’heure et les dates auxquelles votre site web a été visité lors de l’utilisation de ces identifiants. Toutefois, si vous choisissez de prendre en charge ces ID pour les demandes relatives à la Confidentialité des données, comme indiqué ci-dessous, vous pouvez ajouter ou supprimer des étiquettes ACC-ALL pour configurer l’ensemble exact des champs que vous souhaitez inclure pour une demande d’accès relative à la Confidentialité des données. </p> <p>Vous pouvez décider que l’Experience Cloud ID de l’appareil correspond à un utilisateur spécifique et que vous allez donc vouloir étiqueter davantage de champs avec l’étiquette ACC-ALL, incluant les noms des pages visitées, les produits consultés, etc., en particulier si la suite de rapports correspond à une application mobile et que votre application mobile nécessite un identifiant. </p> <p>Remarque : si vous spécifiez l’option « expandIds » dans votre demande relative à la Confidentialité des données, vos demandes incluront toujours les ID de cookies en plus des autres ID spécifiés. Pour plus de détails, voir <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">Extension d’ID</a>. Dans ces instances, les accès qui ont uniquement un ID de cookie (et aucun autre ID), renverront uniquement les données étiquetées ACC-ALL pour la demande d’accès. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID dans les variables personnalisées </p> </td> 
-   <td colname="col2"> <p>Certains clients intègrent des ID dans <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html">des variables de trafic personnalisées (props) ou des variables de conversion personnalisées (eVars) </a>. Si le plus courant est l’ID de gestion de la relation client, d’autres comprennent des adresses électroniques, des noms d’utilisateur de connexion, des numéros de fidélité des clients ou un hachage de ces valeurs. </p> 
+   <td colname="col2"> <p>Certains clients intègrent des ID dans <a href="https://marketing.adobe.com/resources/help/fr_FR/sc/implement/props_eVars.html">des variables de trafic personnalisées (props) ou des variables de conversion personnalisées (eVars) </a>. Si le plus courant est l’ID de gestion de la relation client, d’autres comprennent des adresses électroniques, des noms d’utilisateur de connexion, des numéros de fidélité des clients ou un hachage de ces valeurs. </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">Si vous souhaitez utiliser l’un de ces ID pour les demandes relatives à la Confidentialité des données, vous devez attribuer au champ qui le contient une étiquette ID-PERSON. </li> 
      <li id="li_94541340B054436297C5565F074413DC">(Beaucoup moins fréquent) Si un ID dans l’une de ces variables personnalisées identifie uniquement un appareil pouvant être partagé par plusieurs personnes, alors vous pouvez utiliser une étiquette ID-DEVICE à la place. </li> 
@@ -82,7 +82,7 @@ Les étiquettes de suppression DEL-DEVICE et DEL-PERSON doivent être utilisées
 
    Ainsi, si vous avez trois accès contenant la valeur « foo » dans eVar7, mais que l’un d’entre eux contient également un identifiant dans une autre variable visée par une suppression, la valeur « foo » de cet accès sera alors modifiée en une valeur de type « Data Privacy-123456789 », tandis qu’il restera inchangé dans les deux autres accès. Un rapport mentionnant le nombre de valeurs uniques pour eVar7 indiquera désormais une valeur unique de plus que précédemment. Un rapport mentionnant les valeurs principales des eVars peut inclure « foo » avec seulement deux instances (au lieu de 3 précédemment) ; la nouvelle valeur apparaîtra également sous la forme d’une instance distincte.
 
-## Bonnes pratiques pour définir les étiquettes d’accès  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Bonnes pratiques pour définir les étiquettes d’accès {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Bien que très peu de champs comportent une des autres étiquettes, il arrive souvent que de nombreux champs disposent d’étiquettes ACC. Les étiquettes d’accès appropriées dépendront des ID que vous utilisez pour les demandes relatives à la Confidentialité des données.
 
