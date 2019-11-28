@@ -1,8 +1,8 @@
 ---
-description: valeur nulle
+description: 'null'
 title: Exemple d’étiquetage
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -40,10 +40,10 @@ Si je soumets une demande d’accès, le fichier récapitulatif contiendra les v
 | AAID=77 | false | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
 | AAID=77 | true | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
 | user=Mary | false | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  | true | périphérique | non présente | 77, 88 | non présente | N, P | U, W |
-| user=Mary  AAID=66 | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  AAID=66 | true | périphérique | non présente | 66, 77, 88 | non présente | N, P | U, W, Z |
+| user=Mary | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | true | périphérique | non présente | 77, 88 | non présente | N, P | U, W |
+| user=Mary AAID=66 | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary AAID=66 | true | périphérique | non présente | 66, 77, 88 | non présente | N, P | U, W, Z |
 | xyz=X | false | périphérique | non présente | 55, 77 | non présente | M, R | X |
 | xyz=X | true | périphérique | non présente | 55, 77 | non présente | M, P, R | W, X |
 
