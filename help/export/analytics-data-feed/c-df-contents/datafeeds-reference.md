@@ -7,7 +7,7 @@ title: Référence des colonnes de données
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Utilisez cette page pour savoir quelles données sont contenues dans chaque colonne. La plupart des implémentations n’utilisent pas toutes les colonnes. Cette page peut donc être référencée lors de la détermination des colonnes à inclure dans une exportation de flux de données.
 
-> [!IMPORTANT] Pour une colonne donnée (par exemple, une colonne définie à 255 caractères), un flux de données peut envoyer des caractères supplémentaires en raison de l’ajout de caractères qui échappent aux valeurs dans une chaîne. Gardez cette rubrique à l’esprit si votre implémentation envoie régulièrement des valeurs qui dépassent les limites de caractères.
+> [!IMPORTANT] Pour une colonne donnée (par exemple, une colonne définie à 255 caractères), un flux de données peut envoyer des caractères supplémentaires en raison de l’ajout de caractères qui échappent aux valeurs dans une chaîne. Gardez ces caractères supplémentaires potentiels à l’esprit si votre implémentation envoie régulièrement des valeurs dépassant les limites de caractères.
 
 ## Colonnes, descriptions et types de données
 
-> [!NOTE] La plupart des colonnes contiennent une colonne similaire avec un préfixe de `post_`. Les colonnes « Post » contiennent les valeurs suivant la logique côté serveur, les règles de traitement et les règles VISTA. Adobe recommande d’utiliser des colonnes « Post » dans la plupart des cas.
+> [!NOTE] La plupart des colonnes contiennent une colonne similaire avec un préfixe de `post_`. Les colonnes « Post » contiennent les valeurs suivant la logique côté serveur, les règles de traitement et les règles VISTA. Adobe recommande d’utiliser des colonnes « Post » dans la plupart des cas. Pour plus d’informations, voir FAQ [sur les flux de](../df-faq.md) données.
 
 | Nom de la colonne | Description de la colonne | Type de données |
 | --- | --- | --- |
@@ -35,13 +35,13 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | campaign | Variable utilisée dans la dimension Code de suivi. | varchar(255) |
 | carrier | Variable d’intégration Adobe Advertising Cloud. Définit l’opérateur de téléphonie mobile. Fait référence à la table de recherche des opérateurs. | varchar(100) |
 | marketing | Variable utilisée dans la dimension Sections du site. | varchar(100) |
-| click_action | N’est plus utilisée. Adresse du lien cliqué dans l’outil hérité Clickmap. | varchar(100) |
-| click_action_type | N’est plus utilisée. Type de lien de l’outil hérité Clickmap.<br>0 : URL<br>HREF 1 : ID<br>personnalisé 2 : Événement<br>onClick JavaScript 3 : Elément de formulaire | tinyint sans signe |
-| click_context | N’est plus utilisée. Nom de la page où un clic a été fait sur les liens. Partie de l’outil hérité Clickmap. | varchar(255) |
-| click_context_type | N’est plus utilisée. Indique si click_context avait un nom de page ou une URL de page par défaut.<br>0 : URL<br>de page 1 : Nom de page | tinyint sans signe |
-| click_sourceid | N’est plus utilisée. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil hérité Clickmap. | int non signé |
-| click_tag | N’est plus utilisée. Type d’élément HTML sur lequel on a cliqué. | char(10) |
-| clickmaplink | Page lien | varchar(255) |
+| click_action | N’est plus utilisé. Adresse du lien cliqué dans l’outil hérité Clickmap. | varchar(100) |
+| click_action_type | N’est plus utilisé. Type de lien de l’outil hérité Clickmap.<br>0 : URL<br>HREF 1 : ID<br>personnalisé 2 : Événement<br>onClick JavaScript 3 : Elément de formulaire | tinyint sans signe |
+| click_context | N’est plus utilisé. Nom de la page où un clic a été fait sur les liens. Partie de l’outil hérité Clickmap. | varchar(255) |
+| click_context_type | N’est plus utilisé. Indique si click_context avait un nom de page ou une URL de page par défaut.<br>0 : URL<br>de page 1 : Nom de page | tinyint sans signe |
+| click_sourceid | N’est plus utilisé. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil hérité Clickmap. | int non signé |
+| click_tag | N’est plus utilisé. Type d’élément HTML sur lequel on a cliqué. | char(10) |
+| clickmaplink | Activity Map lien | varchar(255) |
 | clickmaplinkbyregion | Lien Carte d’activités par région | varchar(255) |
 | clickmappage | Page Carte d’activités | varchar(255) |
 | clickmapregion | Région Carte d’activités | varchar(255) |
@@ -82,10 +82,10 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | hit_time_gmt | L’horodatage des serveurs de collecte de données Adobe d’accès a reçu l’accès, selon l’heure Unix. | int |
 | hitid_high | Utilisée en combinaison avec hitid_low pour identifier de manière unique un accès. | bigent non signé |
 | hitid_low | Utilisée en combinaison avec hitid_high pour identifier de manière unique un accès. | bigent non signé |
-| homepage | N’est plus utilisée. Indique si l’URL active est la page d’accueil du navigateur. | char(1) |
+| homepage | N’est plus utilisé. Indique si l’URL active est la page d’accueil du navigateur. | char(1) |
 | hourly_visitor | Indicateur qui détermine si l’accès est un nouveau visiteur horaire. | tinyint sans signe |
 | ip | Adresse IP, basée sur l’en-tête HTTP de la demande d’image. | char(20) |
-| ip2 | Inutilisée. Variable de référence du serveur principal pour les suites de rapports contenant des règles VISTA basées sur l’adresse IP. | char(20) |
+| ip2 | Inutilisé. Variable de référence du serveur principal pour les suites de rapports contenant des règles VISTA basées sur l’adresse IP. | char(20) |
 | j_jscript | Version de JavaScript prise en charge par le navigateur. | char(5) |
 | java_enabled | Indicateur précisant si Java est activé. <br>Y : Activé <br>N : Désactivé <br>U : Inconnu | char(1) |
 | javascript | Identifiant de recherche de la version JavaScript, basé sur j_jscript. Utilise une table de recherche. | tinyint sans signe |
@@ -123,7 +123,7 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | mobileinstalldate | Date de l’installation mobile. Indique la date de la première ouverture d’une application mobile par un utilisateur. | varchar(255) |
 | mobilelaunchessincelastupgrade | Collecté à partir de la variable de données contextuelles a.LaunchesSinceUpgrade. Indique le nombre de lancements depuis la dernière mise à niveau. | varchar(255) |
 | mobilelaunchnumber | Est incrémentée d’une unité chaque fois que l’application mobile est lancée. | varchar(255) |
-| mobileltv | N’est plus utilisée. Renseignée par les méthodes trackLifetimeValue. | varchar(255) |
+| mobileltv | N’est plus utilisé. Renseignée par les méthodes trackLifetimeValue. | varchar(255) |
 | mobilemessagebuttonname | Collecté à partir de la variable de données contextuelles a.<span>message</span>.button.id. Utilisé pour la messagerie in-app afin d’identifier le bouton qui a fermé le message. | varchar(100) |
 | mobilemessageid | ID de message in-app | varchar(255) |
 | mobilemessageonline | Message in-app en ligne | varchar(255) |
@@ -142,27 +142,27 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | mobileresolution | Résolution de l’appareil mobile. Largeur x hauteur en pixels. | varchar(255) |
 | monthly_visitor | Indicateur signifiant que le visiteur est unique pour le mois en cours. | tinyint sans signe |
 | mvvar1 - mvvar3 | Valeurs des variables de liste. Contient une liste délimitée de valeurs personnalisées en fonction de l’implémentation. | texte |
-| namespace | Inutilisée. Partie d’une fonctionnalité mise au rebut il y a de nombreuses années. | varchar(50) |
+| namespace | Inutilisé. Partie d’une fonctionnalité mise au rebut il y a de nombreuses années. | varchar(50) |
 | new_visit | Indicateur qui détermine si l’accès actif est une nouvelle visite. Valeur définie par les serveurs d’Adobe après 30 minutes d’inactivité au niveau de la visite. | tinyint sans signe |
 | os | Identifiant numérique représentant le système d’exploitation du visiteur. Basé sur la colonne user_agent. Utilise la table de recherche de l’os. | int non signé |
-| p_plugins | N’est plus utilisée. Liste de plugins disponibles pour le navigateur. Utilisation de la fonction JavaScript navigator.plugins(). | texte |
+| p_plugins | N’est plus utilisé. Liste de plugins disponibles pour le navigateur. Utilisation de la fonction JavaScript navigator.plugins(). | texte |
 | page_event | Le type d’accès qui est envoyé dans la demande d’image (accès standard, lien de téléchargement, lien personnalisé, lien de sortie). See [Page event lookup](datafeeds-page-event.md). | tinyint sans signe |
 | page_event_var1 | Uniquement utilisée dans les demandes d’image de suivi des liens. URL du lien de téléchargement, de sortie ou personnalisé sur lequel a cliqué l’utilisateur. | text |
 | page_event_var2 | Uniquement utilisée dans les demandes d’image de suivi des liens. Nom personnalisé (le cas échéant) du lien. | varchar(100) |
-| page_event_var3 | N’est plus utilisée. Contient les données des modules Survey et Media. Rapports vidéo hérités générés dans les versions précédentes d’Adobe Analytics. | texte |
+| page_event_var3 | N’est plus utilisé. Contient les données des modules Survey et Media. Rapports vidéo hérités générés dans les versions précédentes d’Adobe Analytics. | texte |
 | page_type | Utilisée pour indiquer la dimension Pages introuvables, utilisée exclusivement pour les pages 404. Cette variable doit être vide ou contenir « ErrorPage ». | char(20) |
 | page_url | URL de l’accès. N’est pas utilisée dans les demandes d’image du suivi des liens. | varchar(255) |
 | pagename | Utilisée pour indiquer la dimension Pages. Si la variable pagename est vide, Analytics utilise la variable page_url en remplacement. | varchar(100) |
 | paid_search | Indicateur qui est défini si l’accès correspond à la détection de recherche payante. | tinyint sans signe |
-| partner_plugins | Inutilisée. Partie d’une fonctionnalité mise au rebut il y a de nombreuses années. | varchar(255) |
+| partner_plugins | Inutilisé. Partie d’une fonctionnalité mise au rebut il y a de nombreuses années. | varchar(255) |
 | persistent_cookie | Utilisée par la dimension Prise en charge des cookies persistants. Indique si le visiteur prend en charge les cookies qui ne sont pas ignorés après chaque accès. | char(1) |
-| plugins | N’est plus utilisée. Liste des identifiants numériques qui correspondent aux plugins disponibles dans le navigateur. Utilise la recherche de plugins.tsv. | varchar(180) |
+| plugins | N’est plus utilisé. Liste des identifiants numériques qui correspondent aux plugins disponibles dans le navigateur. Utilise la recherche de plugins.tsv. | varchar(180) |
 | pointofinterest | Nom du point ciblé Mobile Services | varchar(255) |
 | pointofinterestdistance | Distance des services mobiles au centre d’intérêt | varchar(255) |
 | post_ columns | Contient la valeur finalement utilisée dans les rapports. Chaque colonne « Post » est renseignée suivant la logique côté serveur, les règles de traitement et les règles VISTA. Adobe recommande d’utiliser des colonnes « Post » dans la plupart des cas. | Voir la colonne « Non post » correspondante. |
-| prev_page | Inutilisée. Identifiant propriétaire Adobe de la page précédente. | int non signé |
+| prev_page | Inutilisé. Identifiant propriétaire Adobe de la page précédente. | int non signé |
 | product_list | Liste des produits telle que transmise par l’intermédiaire de la variable « products ». Les produits sont délimités par des virgules, tandis que les propriétés des produits individuels sont délimitées par des points-virgules. | text |
-| product_merchandising | Inutilisée. Utilisez product_list à la place. | text |
+| product_merchandising | Inutilisé. Utilisez product_list à la place. | text |
 | prop1 - prop75 | Variables de trafic personnalisées 1 - 75. | varchar(100) |
 | purchaseid | Identificateur unique pour un achat, tel qu’il est défini à l’aide de la variable s_purchaseID. Utilisé par la colonne duplicate_purchase. | char(20) |
 | quarterly_visitor | Indicateur qui détermine si l’accès est un nouveau visiteur trimestriel. | tinyint sans signe |
@@ -172,37 +172,37 @@ Utilisez cette page pour savoir quelles données sont contenues dans chaque colo
 | resolution | Identifiant numérique représentant la résolution de l’écran. Indique la dimension Résolution de l’écran. Utilise la table de recherche de resolution.tsv. | petit entier non signé |
 | s_kwcid | ID de mot-clé utilisé dans les intégrations d’Adobe Advertising Cloud. | varchar(255) |
 | s_resolution | Valeur brute de la résolution de l’écran. Collectée à l’aide de la fonction JavaScript screen.width x screen.height. | char(20) |
-| sampled_hit | N’est plus utilisée. Anciennement utilisée pour l’échantillonnage dans Ad Hoc Analysis. | char(1) |
+| sampled_hit | N’est plus utilisé. Anciennement utilisée pour l’échantillonnage dans Ad Hoc Analysis. | char(1) |
 | search_engine | Identifiant numérique représentant le moteur de recherche qui a référé le visiteur à votre site. Utilise la table de recherche de search_engines.tsv. | petit entier non signé |
 | search_page_num | Utilisée par la dimension Classement de toutes les pages de recherche. Indique sur quelle page de résultats de recherche votre site est apparu avant que l’utilisateur ne clique sur votre site. | petit entier non signé |
 | secondary_hit | Indicateur qui suit les accès secondaires. Normalement, il provient du balisage multisuite et des règles VISTA qui copient les accès. | tinyint sans signe |
-| service | Inutilisée Utilisez page_event à la place. | char(2) |
-| socialaccountandappids | N’est plus utilisée. Identifiants de comptes sociaux et d’application | varchar(255) |
-| socialassettrackingcode | N’est plus utilisée. Variable de campagne sociale | varchar(255) |
-| socialauthor | N’est plus utilisée. Variable des auteurs du module Social | varchar(255) |
-| socialcontentprovider | N’est plus utilisée. Plateformes sociales / Propriétés | varchar(255) |
-| socialinteractiontype | N’est plus utilisée. Type d’interaction sociale | varchar(255) |
-| sociallanguage | N’est plus utilisée. Langage social | varchar(255) |
-| sociallatlong | N’est plus utilisée. Latitude / Longitude sociale | varchar(255) |
-| socialowneddefinitioninsighttype | N’est plus utilisée. Type d’informations sur la définition détenue sur réseau social | varchar(255) |
-| socialowneddefinitioninsightvalue | N’est plus utilisée. Valeur d’informations sur la définition détenue sur réseau social | varchar(255) |
-| socialowneddefinitionmetric | N’est plus utilisée. Mesure de définition détenue sur réseau social | varchar(255) |
-| socialowneddefinitionpropertyvspost | N’est plus utilisée. Propriété de définition détenue sur réseau social/publication | varchar(255) |
-| socialownedpostids | N’est plus utilisée. Identifiants de publications détenues sur réseau social | varchar(255) |
-| socialownedpropertyid | N’est plus utilisée. Identifiant de propriété détenue sur réseau social | varchar(255) |
-| socialownedpropertyname | N’est plus utilisée. Nom de propriété détenue sur réseau social | varchar(255) |
-| socialownedpropertypropertyvsapp | N’est plus utilisée. Propriété détenue sur réseau social/application | varchar(255) |
+| service | Inutilisé. Utilisez page_event à la place. | char(2) |
+| socialaccountandappids | N’est plus utilisé. Identifiants de comptes sociaux et d’application | varchar(255) |
+| socialassettrackingcode | N’est plus utilisé. Variable de campagne sociale | varchar(255) |
+| socialauthor | N’est plus utilisé. Variable des auteurs du module Social | varchar(255) |
+| socialcontentprovider | N’est plus utilisé. Plateformes sociales / Propriétés | varchar(255) |
+| socialinteractiontype | N’est plus utilisé. Type d’interaction sociale | varchar(255) |
+| sociallanguage | N’est plus utilisé. Langage social | varchar(255) |
+| sociallatlong | N’est plus utilisé. Latitude / Longitude sociale | varchar(255) |
+| socialowneddefinitioninsighttype | N’est plus utilisé. Type d’informations sur la définition détenue sur réseau social | varchar(255) |
+| socialowneddefinitioninsightvalue | N’est plus utilisé. Valeur d’informations sur la définition détenue sur réseau social | varchar(255) |
+| socialowneddefinitionmetric | N’est plus utilisé. Mesure de définition détenue sur réseau social | varchar(255) |
+| socialowneddefinitionpropertyvspost | N’est plus utilisé. Propriété de définition détenue sur réseau social/publication | varchar(255) |
+| socialownedpostids | N’est plus utilisé. Identifiants de publications détenues sur réseau social | varchar(255) |
+| socialownedpropertyid | N’est plus utilisé. Identifiant de propriété détenue sur réseau social | varchar(255) |
+| socialownedpropertyname | N’est plus utilisé. Nom de propriété détenue sur réseau social | varchar(255) |
+| socialownedpropertypropertyvsapp | N’est plus utilisé. Propriété détenue sur réseau social/application | varchar(255) |
 | state | Variable d’état. | varchar(50) |
 | stats_server | Inutilisable. Serveur interne d’Adobe qui a traité l’accès. | char(30) |
 | t_time_info | Heure locale pour le visiteur. Le format est le suivant : M/D/AAAA HH:MM:SS Mois (0-11, 0=Janvier) Décalage du fuseau horaire (en minutes) | varchar(100) |
 | tnt | Utilisée dans les intégrations Adobe Target. | texte |
 | tnt_action | Utilisée dans les intégrations Adobe Target. | texte |
-| tnt_post_vista | N’est plus utilisée. Utilisez post_tnt à la place. | texte |
+| tnt_post_vista | N’est plus utilisé. Utilisez post_tnt à la place. | texte |
 | transactionid | Identifiant unique vers lequel plusieurs points de données pourront être transférés plus tard au moyen de sources de données. | text |
 | truncated_hit | Indicateur signifiant que la demande d’image a été tronquée. Indique qu’un accès partiel a été reçu. <br>Y : L’accès a été tronqué ; accès partiel reçu <br>N : L’accès n’a pas été tronqué ; accès complet reçu | char(1) |
-| ua_color | N’est plus utilisée. Anciennement utilisée comme solution de secours pour l’intensité de couleur. | char(20) |
-| ua_os | N’est plus utilisée. Anciennement utilisée comme solution de secours pour le système d’exploitation. | char(80) |
-| ua_pixels | N’est plus utilisée. Anciennement utilisée comme solution de secours pour la hauteur et la largeur du navigateur. | char(20) |
+| ua_color | N’est plus utilisé. Anciennement utilisée comme solution de secours pour l’intensité de couleur. | char(20) |
+| ua_os | N’est plus utilisé. Anciennement utilisée comme solution de secours pour le système d’exploitation. | char(80) |
+| ua_pixels | N’est plus utilisé. Anciennement utilisée comme solution de secours pour la hauteur et la largeur du navigateur. | char(20) |
 | user_agent | Chaîne de l’agent utilisateur envoyée dans l’en-tête HTTP de la demande d’image. | texte |
 | user_hash | Inutilisable. Hachage de l’identifiant de suite de rapports. Utilisez le nom d’utilisateur à la place. | int non signé |
 | user_server | Variable utilisée dans la dimension Serveur. | varchar(100) |
