@@ -1,58 +1,33 @@
 ---
 product: analytics
-audience: utilisateur final
-user-guide-title: Guide d’exportation Analytics
-user-guide-url: /content/help/fr-FR/analytics/export/home.html
-translation-type: ht
-source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
+audience: end-user
+user-guide-title: Analytics Export Guide
+user-guide-url: /content/help/en/analytics/export/home.html
+translation-type: tm+mt
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
 
 # Guide d’exportation Analytics {#export}
 
-+ [Aide sur l’exportation dans Analytics](home.md)
++ [Analytics Export Home](home.md)
 + Flux de données Analytics {#analytics-data-feed}
-   + Prise en main {#get-started}
-      + [Flux de données Analytics - Aperçu](analytics-data-feed/c-getstarted/data-feed-overview.md)
-      + [Terminologie](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
-      + [Bonnes pratiques et informations générales](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
-   + Interface des flux de données {#data-feed-ui}
-      + [Ouverture de l’interface des flux de données](analytics-data-feed/c-data-feed-ui/t-open-data-feed.md)
-      + [Tri des colonnes](analytics-data-feed/c-data-feed-ui/t-feed-columns-sort.md)
-      + [Recherche et filtrage](analytics-data-feed/c-data-feed-ui/t-feed-search-and-filter.md)
-      + [État des flux de données](analytics-data-feed/c-data-feed-ui/r-datafeed-status.md)
-   + Action des flux de données {#data-feed-actions}
-      + [Panneau Flux de données](analytics-data-feed/c-data-feed-actions/data-feed-actions.md)
-      + [Ajout d’un flux](analytics-data-feed/c-data-feed-actions/t-feed-add.md)
-      + [Informations sur le flux](analytics-data-feed/c-data-feed-actions/r-feed-information.md)
-      + [Destination du flux](analytics-data-feed/c-data-feed-actions/r-feed-destination.md)
-      + [Affichage de l’historique des tâches d’un flux](analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)
-      + [Suppression d’un flux](analytics-data-feed/c-data-feed-actions/t-feed-delete.md)
-      + [Suspension d’un flux](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
-      + [Activation d’un flux](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
-      + [Modification d’un flux](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
-   + Tâches relatives aux flux de données {#data-feed-jobs}
-      + [Tâches relatives aux flux de données - Aperçu](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
-      + [Filtrage de la liste des tâches](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
-      + [Paramètres des tâches](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
-      + [État des tâches](analytics-data-feed/c-df-jobs/r-job-status.md)
-      + [Réexécution d’une tâche](analytics-data-feed/c-df-jobs/t-job-rerun.md)
+   + [Présentation du flux de données](analytics-data-feed/data-feed-overview.md)
+   + [Création ou modification d’un flux de données](analytics-data-feed/create-feed.md)
+   + [Gestion des flux de données](analytics-data-feed/df-manage-feeds.md)
+   + [Gestion des tâches de flux de données](analytics-data-feed/df-manage-jobs.md)
    + Contenu du flux de données {#data-feed-contents}
-      + [Contenu du flux de données - Aperçu](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Présentation du contenu du flux de données](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Mesures calculées](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
-      + [Identification des visiteurs](analytics-data-feed/c-df-contents/datafeeds-visid.md)
-      + [Définitions des colonnes de données](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
       + [Référence des colonnes de données](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Recherche d’événement de page](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [Recherche de sources d’accès](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
-      + [Colonne précédente et colonne suivante](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
       + [Caractères spéciaux](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Accès tardifs](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-      + [FAQ sur les tâches](analytics-data-feed/c-df-contents/jobs-faq.md)
-   + [Résolution des problèmes liés aux flux de données](analytics-data-feed/feed-troubleshooting.md)
+   + [FAQ sur les flux de données](analytics-data-feed/df-faq.md)
+   + [Meilleures pratiques du flux de données](analytics-data-feed/data-feeds-best-practices.md)
+   + [Résolution des problèmes de flux de données](analytics-data-feed/feed-troubleshooting.md)
    + [Résolution des problèmes liés aux tâches](analytics-data-feed/jobs-troubleshooting.md)
-   + [Notes de mise à jour sur les flux de données](analytics-data-feed/datafeeds-history.md)
 + Data Warehouse{#data-warehouse}
    + [Data Warehouse - Aperçu](data-warehouse/data-warehouse.md)
    + [Ajouter un groupe d’utilisateurs de l’Data Warehouse](data-warehouse/t-dw-group.md)
