@@ -2,7 +2,7 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 translation-type: tm+mt
-source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -14,7 +14,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **** Carte d’activités : Module complémentaire du navigateur qui indique les zones de votre site sur lesquelles les visiteurs ont le plus cliqué. Voir Carte [d’activités](/help/analyze/activity-map/activity-map.md) dans le guide de l’utilisateur Analyser.
 * **** Console d’administration : Peut se référer à :
    * Outils d’administration hérités dans lesquels sont gérés les paramètres des suites de rapports dans Adobe Analytics. Dans les versions précédentes d’Adobe Analytics, les autorisations d’utilisateur étaient également gérées ici. Voir Outils [d’](/help/admin/admin/c-admin-tools.md) administration dans le guide de l’utilisateur Admin.
-   * Console d’administration Adobe, dans laquelle l’accès aux produits est configuré et les autorisations utilisateur sont gérées. Voir Console [d’administration](/help/admin/admin-console/home.md) dans le guide de l’utilisateur Admin.
+   * Console d’administration Adobe, dans laquelle l’accès aux produits est configuré et les autorisations utilisateur sont gérées. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **** Affectation : Si une variable de conversion rencontre plusieurs valeurs au cours d’une visite, le paramètre d’attribution de la variable détermine la valeur conservée. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **** Anomalie : Détecté à l’aide de la modélisation statistique pour rechercher automatiquement des tendances inattendues dans les données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. Reportez-vous à la section Détection des [anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) dans le guide de l’utilisateur Analyser.
 * **** AppMeasurement : Bibliothèque de code utilisée pour collecter des données et les envoyer à Adobe. Consultez la [page d'accueil](/help/implement/home.md) du guide de l'utilisateur Mise en oeuvre.
@@ -43,7 +43,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **** Délégué du service à la clientèle : Utilisateur désigné autorisé à interagir directement avec le service à la clientèle Adobe. Voir Délégués [](https://helpx.adobe.com/experience-cloud/supported-users.html) du service clientèle dans la base de connaissances d’Experience Cloud.
 * **** Serveur de collecte de données : Serveurs appartenant à Adobe qui reçoivent et traitent les données. Les demandes d’image sont envoyées aux serveurs de collecte de données d’Adobe en vue de leur utilisation dans les rapports.
 * **** Connecteurs de données : Solution de développement complète qui permet à un tiers d’automatiser le transfert des données dans Adobe Analytics. Les clients de ce tiers peuvent utiliser un connecteur de données pour enrichir leurs données dans Adobe Analytics. La plupart des connecteurs de données utilisent un processus similaire utilisé dans les sources de données. Voir Connecteurs de données dans le guide de l’utilisateur d’importation.
-* **** Flux de données : Exportation de données brutes qui répertorie chaque accès sous forme de ligne et les variables sous forme de colonnes distinctes. Le plus souvent utilisé pour exporter des données Adobe Analytics vers une base de données tierce. Voir Flux [de](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) données dans le guide de l’utilisateur Exportation.
+* **** Flux de données : Exportation de données brutes qui répertorie chaque accès sous forme de ligne et les variables sous forme de colonnes distinctes. Le plus souvent utilisé pour exporter des données Adobe Analytics vers une base de données tierce. Voir Flux [de](/help/export/analytics-data-feed/data-feed-overview.md) données dans le guide de l’utilisateur Exportation.
 * **** Sources de données : Permet à un utilisateur de télécharger des données d’un fichier dans Adobe Analytics. Le fichier est généralement extrait d’un site FTP. Voir Sources [de](/help/import/c-data-sources/datasrc-home.md) données dans le guide de l’utilisateur Importation.
 * **** Entrepôt de données : Fonction d’Adobe Analytics qui vous permet de demander des rapports plus volumineux. Voir Entrepôt de [données](/help/export/data-warehouse/data-warehouse.md) dans le guide de l’utilisateur Exportation.
 * **** Dimension : Type de composant qui contient des valeurs de variable, telles que du texte. Par exemple, Nom de page, Code de suivi ou Domaine référent. Une mesure est généralement son homologue.
