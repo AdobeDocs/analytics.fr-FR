@@ -3,122 +3,53 @@ description: Informations relatives aux caractères spéciaux utilisés dans le 
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
 subtopic: data feeds
-title: Caractères spéciaux
+title: Caractères spéciaux dans les flux de données
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
 
-# Caractères spéciaux
+# Caractères spéciaux dans les flux de données
 
-Informations relatives aux caractères spéciaux utilisés dans le flux de données.
+Adobe utilise la logique d’échappement pour s’assurer que les valeurs envoyées aux serveurs de collecte de données ne corrompent pas les fichiers de flux de données ou ne les dégradent pas. Les caractères suivants sont réservés par Adobe aux fins suivantes dans `hit_data.tsv`.
 
-* [Caractères spéciaux dans le fichier hit_data](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
-* [Caractères spéciaux dans des variables à plusieurs valeurs (events_list, products_list, mvvars)](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
-* [Exemple de processus](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+## Caractères spéciaux dans une colonne
 
-## Caractères spéciaux dans le fichier hit_data {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
+| Caractère | Description |
+|--- |--- |
+| `\t` | Représente un onglet. Marque la fin d’une colonne ou d’un champ de données. |
+| `\n` | Représente une nouvelle ligne. Marque la fin d’une ligne ou d’un accès. |
+| `\` | Barre oblique inverse. Echappe les caractères envoyés dans le cadre de la collecte de données. |
 
-Les caractères suivants revêtent une signification particulière dans le fichier hit_data :
+Lorsque ces valeurs réservées sont précédées d’une barre oblique inverse, elles ont été envoyées dans le cadre de la collecte de données.
 
-| Caractère | Signification | Description |
-|--- |--- |--- |
-| \t (caractère de tabulation) | Fin de colonne | Marque la fin d’un champ de données. |
-| \n (caractère de nouvelle ligne) | Fin de ligne | Marque la fin d’une ligne de données. |
-| \  (barre oblique inverse) | Caractère d’échappement | Annule une tabulation, une nouvelle ligne et une barre oblique inverse lorsque le caractère faisait partie de la valeur envoyée au cours de la collecte de données. |
+| Caractère | Description |
+|--- |--- |
+| `\\t` | La valeur "`\t`" a été envoyée pendant la collecte des données, avec l’échappement d’Adobe. |
+| `\\n` | La valeur "`\n`" a été envoyée pendant la collecte des données, avec l’échappement d’Adobe. |
+| `\\` | La valeur "`\`" a été envoyée pendant la collecte des données, avec l’échappement d’Adobe. |
 
-Lorsque l’un des caractères spéciaux est précédé d’une barre oblique inverse, il représente un caractère littéral.
+Par exemple, un visiteur de votre site utilise la recherche interne et recherche "search\nstring". Vous renseignez eVar1 avec "search\nstring" et envoyez cette valeur à Adobe. Adobe reçoit cet accès et échappe la nouvelle ligne incluse dans la chaîne. La valeur réelle placée dans les données brutes est "search\\nstring".
 
-| Caractère | Signification | Description |
-|--- |--- |--- |
-| \\t | Tabulation | Caractère de tabulation littéral. Ce caractère faisait partie de la valeur envoyée au cours de la collecte de données. |
-| \\n | Nouvelle ligne | Nouvelle ligne littérale. Ce caractère faisait partie de la valeur envoyée au cours de la collecte de données. |
-| \\ | Barre oblique inverse | Caractère « barre oblique inverse » littéral. Ce caractère faisait partie de la valeur envoyée au cours de la collecte de données. |
+## Caractères spéciaux dans des variables à plusieurs valeurs (events_list, products_list, mvvars)
 
-## Caractères spéciaux dans des variables à plusieurs valeurs (events_list, products_list, mvvars) {#section_056F8D540FFC4F24A001DC74331C2AAC}
+Les caractères suivants ont une signification spéciale dans les colonnes qui peuvent contenir plusieurs valeurs.
 
-Les caractères suivants revêtent une signification particulière dans des variables à plusieurs valeurs :
+| Caractère | Description |
+|--- |--- |
+| `,` | Virgule. Représente la fin d’une valeur individuelle. Sépare les chaînes de produit, les ID d’événement ou d’autres valeurs. |
+| `;` | Point-virgule. Représente la fin d’une valeur individuelle dans `product_list`. Sépare les champs dans une chaîne de produit unique. |
+| `=` | Signe égal à. Assigns a value to an event in `product_list`. |
+| `^` | Accent circonflexe. Echappe les caractères envoyés dans le cadre de la collecte de données. |
 
-<table id="table_FDA13DE05A784ED4972C2955BD2642C7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Caractère </th> 
-   <th colname="col02" class="entry"> Signification </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <code> , </code> (virgule) </td> 
-   <td colname="col02"> Fin de valeur </td> 
-   <td colname="col2"> <p>Sépare des chaînes de produits, des identifiants d’événements ou d’autres valeurs dans des variables qui en comportent plusieurs. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> ; </code> (point-virgule) </td> 
-   <td colname="col02"> Fin de sous-valeur à l’intérieur d’une valeur de produit </td> 
-   <td colname="col2"> <p>Sépare les valeurs associées à un produit donné dans la liste <code> product_list </code>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> = </code> (caractère égal) </td> 
-   <td colname="col02"> Attribution de valeur </td> 
-   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Lorsque ces valeurs réservées sont précédées d’un caret, elles ont été envoyées dans le cadre de la collecte de données.
 
-Lorsque l’un des caractères spéciaux est précédé d’un accent circonflexe, il représente un caractère littéral.
-
-| Caractère | Signification | Description |
-|--- |--- |--- |
-| ^, | Virgule | Caractère « virgule » littéral. Ce caractère faisait partie de la valeur envoyée au cours de la collecte de données. |
-| ^; | Point-virgule | Caractère « point-virgule » littéral. Ce caractère faisait partie de la valeur envoyée au cours de la collecte de données. |
-| ^= | Est égal à | Caractère « égal » littéral. Ce caractère faisait partie de la valeur envoyée au cours de la collecte de données. |
-| ^^ | Accent circonflexe | Caractère « accent circonflexe » littéral. Ce caractère faisait partie de la valeur envoyée au cours de la collecte de données. |
-
-## Exemple de processus {#section_97F8C2925A35433DA2E7E8BE60037E37}
-
-Si certaines des colonnes de votre flux de données contiennent des données envoyées par l’utilisateur, il est conseillé de rechercher des caractères spéciaux avant de séparer les données par colonne ou par ligne à l’aide de `split`, `readLine` ou d’une fonction similaire.
-
-Tenez compte des données suivantes :
-
-| Largeur du navigateur | Hauteur du navigateur | eVar1 | prop1 |
-|---|---|---|---|
-| 1680 | 1050 | search\nstring | en |
-| 800 | 600 | search\tstring | en |
-
-Au cours de l’exportation, les caractères « nouvelle ligne » et « tabulation » des valeurs eVar1 font l’objet d’une séquence d’espacement. Le flux de données de ces lignes se présente comme suit :
-
-```
-1680\t1050\tsearch\\nstring\ten\n 
-800\t600\tsearch\\tstring\ten\n
-```
-
-Calling `readLine()` on the first row returns the following partial string:
-
-```
-800\t600\tsearch\
-```
-
-Calling `split("\t")` on the second row returns the following string array:
-
-```
-800 
-600 
-search\ 
-string 
-en
-```
-
-Pour éviter cela, utilisez une solution semblable à ceci :
-
-1. En commençant au début du fichier, effectuez la lecture jusqu’à ce que vous localisiez un caractère « tabulation », « nouvelle ligne », « barre oblique inverse » ou « accent circonflexe ».
-1. Effectuez une action en fonction du caractère spécial trouvé :
-
-   * Tabulation : insérez la chaîne jusqu’à ce point dans une cellule de stockage de données et continuez.
-   * Nouvelle ligne : terminez la ligne de stockage de données.
-   * Barre oblique inverse : lisez le caractère suivant, insérez le littéral de chaîne approprié, puis continuez.
-   * Accent circonflexe : lisez le caractère suivant, insérez le littéral de chaîne approprié, puis continuez.
-
+| Caractère | Description |
+|--- |--- |
+| `^,` | La valeur "`,`" a été envoyée pendant la collecte des données, avec l’échappement d’Adobe. |
+| `^;` | La valeur "`;`" a été envoyée pendant la collecte des données, avec l’échappement d’Adobe. |
+| `^=` | La valeur "`=`" a été envoyée pendant la collecte des données, avec l’échappement d’Adobe. |
+| `^^` | La valeur "`^`" a été envoyée pendant la collecte des données, avec l’échappement d’Adobe. |
