@@ -2,7 +2,7 @@
 title: Rapports d’audience dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur l’audience à l’aide d’Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
 
@@ -50,7 +50,7 @@ Le rapport Audiences dans Google Analytics nécessite la configuration des audie
 Le rapport Explorateur d’utilisateurs permet à un analyste d’afficher des visites individuelles au moyen d’identifiants anonymes. Adobe n’utilise pas les identifiants d’arrière-plan en dehors des flux de données, qui sont des exportations brutes de données au niveau de l’accès.
 
 * Si ces données sont souhaitées dans Analysis Workspace, il est possible de collaborer avec un consultant en implémentation pour transmettre la valeur du cookie d’identifiant unique anonyme dans une eVar. Notez que cela ne fonctionne qu’avec des implémentations plus petites comprenant moins d’un million de visiteurs uniques par mois.
-* Si ces données sont souhaitées dans les flux de données, les colonnes concaténées `visid_high` et `visid_low` constituent la méthode la plus courante pour identifier les visiteurs uniques. Pour en savoir plus sur les flux [de](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) données, consultez le guide de l’utilisateur Exporter.
+* Si ces données sont souhaitées dans les flux de données, les colonnes concaténées `visid_high` et `visid_low` constituent la méthode la plus courante pour identifier les visiteurs uniques. Pour en savoir plus sur les flux [de](/help/export/analytics-data-feed/data-feed-overview.md) données, consultez le guide de l’utilisateur Exporter.
 
 ## Rapports Démographie et Intérêts
 
@@ -184,4 +184,4 @@ Le rapport de flux est disponible sur les deux plates-formes. Pour créer un rap
 1. Cliquez sur l’icône de visualisation à gauche, puis faites glisser une visualisation Flux sur l’espace de travail au-dessus du tableau à structure libre.
 2. Recherchez la dimension **Pages** , puis cliquez sur l’icône de flèche pour afficher les valeurs de page. Les valeurs de dimension sont colorées en jaune.
 3. Localisez la valeur de page de votre choix et faites-la glisser dans l’espace "Dimension ou élément" au centre.
-4. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire les colonnes. Différentes dimensions peuvent également être utilisées dans le même rapport de flux.
+4. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire des colonnes. Il est également possible d’utiliser différentes dimensions dans le même rapport de flux.
