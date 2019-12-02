@@ -5,7 +5,7 @@ solution: Analytics
 title: Résolution des problèmes liés aux flux de données
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
@@ -38,11 +38,11 @@ AWS permet aussi à un utilisateur de créer des objets dans un compartiment qui
 
 En cas d’erreur de transfert FTP (connexion refusée, perte de connexion, quota épuisé, etc.), Adobe tente, à trois reprises, d’établir une connexion automatique et d’envoyer les données. Si le problème persiste, le flux est marqué comme ayant échoué et un message de notification est envoyé.
 
-En cas d’erreur de transfert, vous pouvez [réexécuter une tâche](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) jusqu’à ce qu’elle aboutisse.
+En cas d’erreur de transfert, vous pouvez réexécuter une tâche jusqu’à ce qu’elle aboutisse.
 
 ## Options de renvoi {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Une fois que vous avez vérifié/corrigé le problème de remise, il vous suffit de [réexécuter la tâche](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) pour obtenir les fichiers.
+Une fois que vous avez vérifié/corrigé le problème de remise, réexécutez la tâche pour obtenir les fichiers.
 
 ## Le passage à l’heure d’été (DST) a une incidence sur les flux de données horaires {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -56,7 +56,7 @@ Lors des transitions DST -&gt; STD, ("Retour en arrière"), le client recevra 24
 
 Vous pouvez éventuellement configurer un fichier de données pour qu’il distribue un fichier de manifeste si aucune donnée n’est collectée pour une période spécifique. Si vous activez cette option, vous recevrez un fichier de manifeste semblable à ceci :
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 0
  Data-Files: 0
