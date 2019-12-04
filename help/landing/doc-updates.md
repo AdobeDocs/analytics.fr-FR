@@ -3,12 +3,12 @@ title: Mises à jour de la documentation Adobe Analytics
 description: Mises à jour de la documentation technique pour Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a785aa20800e189503b6bc0010cbd87cba7333e0
+source-git-commit: c863d5f09d978fdac4be364ad71f3c0224becdca
 
 ---
 
 
-# Mises à jour de la documentation technique pour Adobe Analytics
+# Mises à jour de la documentation technique pour Adobe Analytics
 
 Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 2019.
 
@@ -20,6 +20,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Date | Description |
 |---|---|
+| 29 novembre 2019 | Mise à jour de la documentation du flux de [données](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25 novembre 2019 | Nouvelle rubrique sur la [fin de vie pour l’application des restrictions d’identification par IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 25 novembre 2019 | Nouvelle rubrique sur le canal marketing [interne (actualisation de session)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
 | 21 novembre 2019 | Nouveau jeu de documentation pour les analyses de parcours [client](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
