@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -73,13 +73,14 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
          + [Définir un événement à l’aide d’une variable de données contextuelles](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [Supprimer un événement d’un accès](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [Astuces et conseils concernant les règles de traitement](admin/c-processing-rules/processing-rules-tips.md)
-   + Rapports en temps réel{#real-time-reports}
+   + Rapports en temps réel {#real-time-reports}
       + [Rapports en temps réel - Aperçu](admin/realtime/realtime.md)
       + [Configuration des rapports en temps réel](admin/realtime/t-realtime-admin.md)
       + [Mesures et dimensions en temps réel prises en charge](admin/realtime/realtime-metrics.md)
    + [File d’attente des rapports planifiés](admin/scheduled-reports-admin.md)
    + Transfert côté serveur {#server-side-forwarding}
       + [Transfert côté serveur - Aperçu](admin/c-server-side-forwarding/ssf.md)
+      + [Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [Conditions requises pour le transfert côté serveur](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Données et référence de code du transfert côté serveur](admin/c-server-side-forwarding/ssf-reference.md)
       + [Comment vérifier l’implémentation du transfert côté serveur](admin/c-server-side-forwarding/ssf-verify.md)
@@ -168,7 +169,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [Affichage/Gestion des paramètres de gouvernance des données de la suite de rapports](c-data-governance/gdpr-view-settings.md)
    + [Étiquetage des données d’une suite de rapports](c-data-governance/gdpr-setup-reportsuite.md)
    + [Demandes d’accès et de suppression](c-data-governance/gdpr-submit-access-delete.md)
-   + [Libellés de confidentialité des données pour les variables Analytics](c-data-governance/gdpr-labels.md)
+   + [Étiquettes relatives à la confidentialité des données pour les variables Analytics](c-data-governance/gdpr-labels.md)
    + [Espaces de noms](c-data-governance/gdpr-namespaces.md)
    + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
    + [Bonnes pratiques en matière d’étiquetage](c-data-governance/gdpr-analytics-ids.md)
