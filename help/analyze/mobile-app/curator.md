@@ -2,7 +2,7 @@
 description: Instructions pour configurer les cartes de performance des applications mobiles.
 title: Guide du conservateur d’application mobile Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
+source-git-commit: e01002d04560b6fe56a2ac2f4869d48f7604972d
 
 ---
 
@@ -32,15 +32,18 @@ Le tableau suivant décrit les termes permettant de comprendre l’audience, les
 Une carte de performance mobile affiche les visualisations de données clés pour les utilisateurs cadres dans une mise en page en mosaïque, comme illustré ci-dessous :
 
 
+![Exemple de tableau de bord](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
+
 En tant que conservateur de cette carte de performance, vous pouvez utiliser le Créateur de cartes de performance pour configurer les mosaïques qui apparaissent sur la carte de performance pour votre consommateur. Vous pouvez également configurer la manière dont les vues détaillées, ou les ventilations, peuvent être ajustées une fois les mosaïques sur lesquelles vous appuyez. L’interface du créateur de cartes de performance est présentée ci-dessous :
+
+![Générateur de cartes de performance](help/analyze/mobile-app/assets/scorecard_builder.png)
+
 
 Pour créer la carte de performance, procédez comme suit :
 
 1. Accédez au modèle de carte de performance mobile vierge.
 2. Configurez la carte de performance avec des données et enregistrez-la.
-
-![Exemple de tableau de bord](/help/analyze/mobile-app/assets/intro_scorecard.png)
-
 
 
 ### Accès au modèle de carte de performance mobile vierge
@@ -49,94 +52,97 @@ Vous pouvez accéder au modèle de carte de performance mobile vierge de l’une
 
 **Créer un projet**
 
-1. Ouvrez Adobe Analytics et cliquez sur l’onglet Espace de travail.
-2. Cliquez sur le bouton Créer un projet et sélectionnez le modèle de projet Carte de performance mobile vierge.
+1. Ouvrez Adobe Analytics et cliquez sur l’onglet **Workspace** .
+2. Cliquez sur le bouton **Créer un projet** et sélectionnez le modèle de projet **Carte de performance mobile** vierge.
 3. Cliquez sur le bouton **Créer un**.
+
+![Modèle Scorecard](help/analyze/mobile-app/assets/new_template.png)
+
 
 *Remarque : Si vous ne voyez pas le modèle de carte de performance mobile vierge, comme illustré ci-dessous, votre entreprise n’a pas encore été activée pour la version bêta. Contactez votre responsable clientèle.*
 
 
 **Ajout d’un projet**
 
-Dans l’écran Projets, sous l’onglet Composants, cliquez sur le bouton Ajouter et sélectionnez Carte de performance mobile.
+Dans l’écran **Projets** , sous l’onglet **Composants** , cliquez sur le bouton **Ajouter** et sélectionnez Carte de performance **mobile.**
 
-
-
+![Ajout de projets](help/analyze/mobile-app/assets/add_project.png)
 
 **Utilisation des outils Analytics**
 
-Dans Analytics, cliquez sur le menu Outils et sélectionnez Application mobile. Dans l’écran suivant, cliquez sur le bouton Créer une carte de performance.
+Dans Analytics, cliquez sur le menu **Outils** et sélectionnez Application **** mobile. Dans l’écran suivant, cliquez sur le bouton **Créer une carte de performance** .
 
 ### Configurez la carte de performance avec des données et enregistrez-la.
 
 Pour mettre en oeuvre le modèle Scorecard :
 
-1. Sous Propriétés (dans le rail de droite), spécifiez une suite de rapports de projet à partir de laquelle vous souhaitez utiliser les données.
+1. Sous **Propriétés** (dans le rail droit), spécifiez une Report Suite **de** projet à partir de laquelle vous souhaitez utiliser les données.
+
+   ![Sélection de suites de rapports](help/analyze/mobile-app/assets/properties_save.png)
+
+2. Pour ajouter une nouvelle mosaïque à votre carte de performance, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **Faire glisser les mesures ici** . Vous pouvez également insérer une mesure entre deux mosaïques à l’aide d’un processus similaire.
+
+   ![Ajout de mosaïques](help/analyze/mobile-app/assets/build_list.png)
 
 
-
-2. Pour ajouter une nouvelle mosaïque à votre carte de performance, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone Faites glisser les mesures ici. Vous pouvez également insérer une mesure entre deux mosaïques à l’aide d’un processus similaire.
-
-
-   Depuis chaque volet, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure, telles que les principaux éléments d’une liste de dimensions connexes.
+   *Depuis chaque volet, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure, telles que les principaux éléments d’une liste de dimensions connexes.*
 
 
-3. Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche et déposez-la sur une mosaïque. Par exemple, vous pouvez ajouter des dimensions appropriées (comme la région DMA, dans cet exemple) à la mesure Visiteurs uniques en le faisant glisser sur la mosaïque ; les dimensions que vous ajoutez apparaissent sous la section de ventilation des propriétés spécifiques à la mosaïque. Vous pouvez ajouter plusieurs dimensions à chaque mosaïque.
+3. Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche et déposez-la sur une mosaïque. Par exemple, vous pouvez ajouter des dimensions appropriées (comme la région **** DMA, dans cet exemple) à la mesure Visiteurs **** uniques en le faisant glisser sur la mosaïque ; les dimensions que vous ajoutez apparaissent sous la section de ventilation des **propriétés** spécifiques à la mosaïque. Vous pouvez ajouter plusieurs dimensions à chaque mosaïque.
+
+   ![Ajout de dimensions](help/analyze/mobile-app/assets/layer_dimensions.png)
+
+   *Remarque : Vous pouvez également ajouter une dimension à toutes les mosaïques en la faisant glisser sur le canevas Scorecard.*
+
+   Lorsque vous cliquez sur une mosaïque dans le créateur de cartes de performance, le rail droit affiche les propriétés et les caractéristiques associées à cette mosaïque. Dans ce rail, vous pouvez fournir un nouveau **titre** pour la mosaïque et configurer la mosaïque en spécifiant les composants au lieu de les faire glisser depuis le rail gauche.
 
 
-   *Remarque : Vous pouvez également ajouter une dimension à toutes les mosaïques en la faisant glisser sur le canevas Scorecard. *
+   En outre, si vous cliquez sur des mosaïques, une fenêtre contextuelle dynamique affiche l’affichage de la vue Ventilation pour l’utilisateur dans l’application. Si aucune dimension n’a été appliquée à la mosaïque, la dimension de ventilation sera **heure** ou **jours**, selon la plage de dates par défaut.
 
-   Lorsque vous cliquez sur une mosaïque dans le créateur de cartes de performance, le rail droit affiche les propriétés et les caractéristiques associées à cette mosaïque. Dans ce rail, vous pouvez fournir un nouveau titre pour la mosaïque et configurer la mosaïque en spécifiant les composants au lieu de les faire glisser depuis le rail gauche.
+   ![Breakdown_view](help/analyze/mobile-app/assets/break_view.png)
 
-
-
-
-
-
-
-
-   En outre, si vous cliquez sur des mosaïques, une fenêtre contextuelle dynamique affiche l’affichage de la vue Ventilation pour l’utilisateur dans l’application. Si aucune dimension n’a été appliquée à la mosaïque, la dimension de ventilation sera une heure ou des jours, selon la plage de dates par défaut.
-
-
-
-
-   Cliquez sur une mosaïque pour afficher la vue Ventilation de cette mosaïque sur le côté de la carte de performance.
-Notez comment chaque dimension ajoutée à la mosaïque s’affiche dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur exécutif peut alors choisir parmi les options répertoriées dans la liste déroulante.
+   *Notez comment chaque dimension ajoutée à la mosaïque s’affiche dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur exécutif peut alors choisir parmi les options répertoriées dans la liste déroulante.*
 
 4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment depuis le panneau de gauche et déposez-le directement au-dessus de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la carte de performance, déposez la mosaïque au-dessus de la carte de performance.
 
-5. De même, pour supprimer un composant appliqué à l’ensemble de la Scorecard, cliquez n’importe où sur la Scorecard en dehors des mosaïques, puis supprimez-le en cliquant sur le x qui s’affiche lorsque vous passez la souris sur le composant, comme illustré ci-dessous pour le segment Clients mobiles :
+5. De même, pour supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur la carte de performance en dehors des mosaïques, puis supprimez-le en cliquant sur la **croix** qui s’affiche lorsque vous passez la souris sur le composant, comme illustré ci-dessous pour le segment Clients **** mobiles :
 
-6. Sous Propriétés du tableau de bord, vous pouvez également spécifier les options suivantes :
+   ![Remove_components](help/analyze/mobile-app/assets/new_remove.png)
 
-   * Plage de dates par défaut. Les plages spécifiées ici seront les mêmes que celles appliquées au premier accès de l’utilisateur exécutif à la carte de performance dans son application.
+6. Sous **Propriétés** du tableau de bord, vous pouvez également spécifier les éléments suivants :
 
-   * Plage de dates de comparaison
+   * Plage **de dates** par défaut. Les plages spécifiées ici seront les mêmes que celles appliquées au premier accès de l’utilisateur exécutif à la carte de performance dans son application.
 
-   * Tout segment à appliquer à l’ensemble de la carte de performance
+   * Plage de dates **de comparaison**
+
+   * Tout **segment** à appliquer à l’ensemble de la carte de performance
 
 7. Pour nommer la carte de performance, cliquez sur l’espace de noms dans l’angle supérieur gauche de l’écran et saisissez le nouveau nom.
+
+   ![Naming_scorecards](help/analyze/mobile-app/assets/new_name.png)
 
 ## Partage de la carte de performance
 
 Pour partager la carte de performance avec un utilisateur exécutif :
 
-1. Cliquez sur le menu Partager et sélectionnez Partager la carte de performance.
+1. Cliquez sur le menu **Partager** et sélectionnez **Partager la carte de performance**.
 
-2. Dans le formulaire Partager, renseignez les champs en procédant comme suit :
+2. Dans le formulaire **Partager** , renseignez les champs en procédant comme suit :
 
    * Attribution du nom de la carte de performance
    * Description de la carte de performance
    * Ajout de balises appropriées
    * Spécification des destinataires de la carte de performance
-   * Sélectionnez l’option Partager les composants incorporés avec les destinataires pour vous assurer que l’utilisateur exécutif a accès à tous les composants de la carte de performance.
+   * Sélectionnez l’option **Partager les composants incorporés avec les destinataires** pour vous assurer que l’utilisateur exécutif a accès à tous les composants de la carte de performance.
 
-3. Cliquez sur Partager.
+3. Cliquez sur **Partager**.
+
+![Share_Scorecards](help/analyze/mobile-app/assets/new_share.png)
+
 
 Une fois que vous avez partagé une carte de performance, les destinataires peuvent y accéder sur leur application mobile Analytics. Si vous apportez des modifications ultérieures à la carte de performance dans le créateur de cartes de performance, elles seront automatiquement mises à jour dans la carte de performance partagée. Les utilisateurs de l’administration verront alors les modifications après avoir actualisé la carte de performance dans leur application.
 
-*Remarque : Si vous mettez à jour la carte de performance en ajoutant de nouveaux composants, vous souhaiterez peut-être partager à nouveau la carte de performance (et cochez l’option Partager automatiquement les composants incorporés avec les destinataires) afin de vous assurer que les utilisateurs de votre supérieur ont accès à ces modifications.*
-
+*Remarque : Si vous mettez à jour la carte de performance en ajoutant de nouveaux composants, vous souhaiterez peut-être partager à nouveau la carte de performance (et cochez l’option Partager **automatiquement les composants incorporés avec les destinataires**) afin de vous assurer que vos cadres supérieurs ont accès à ces modifications.*
 
 ## Configuration des utilisateurs cadres avec l’application
 
@@ -150,23 +156,48 @@ Pour aider les cadres à accéder à vos cartes de performance dans l’applicat
     * Ils disposent d’une connexion valide à Adobe Analytics
     * Vous avez correctement créé des cartes de performance mobiles pour eux et partagé ces cartes avec eux.
     * Ils ont accès à l’Espace de travail d’analyse et à la suite de rapports sur
-    laquelle est basée la carte de performance*. Ils ont accès aux composants inclus dans la carte de performance. Remarque : Vous pouvez sélectionner une option lors du partage des feuilles de calcul pour partager automatiquement les composants incorporés avec les destinataires.
-
+    laquelle est basée la carte de performance*. Ils ont accès aux composants inclus dans la carte de performance. Remarque : Vous pouvez sélectionner une option lors du partage de vos cartes de performance vers **Partager automatiquement les composants incorporés avec les destinataires**.
 
 ### Aider les utilisateurs de l’application
 
-1. Pour aider les utilisateurs, assurez-vous qu’ils sont en mesure de télécharger et d’installer l’application en fonction de leur système d’exploitation de périphérique mobile.
+Pendant la phase bêta, et avant que l’application ne soit dévoilée au public, vous pouvez contrôler qui a accès à l’application.
 
-   **iOS**
+1. Aidez les utilisateurs à télécharger et installer l’application. Pour ce faire, suivez les étapes ci-après pour étendre l’accès à vos cadres, selon qu’ils utilisent un iOS ou un périphérique Android.
+
+   **Pour les cadres supérieurs sur iOS :**
+
+   1. Cliquez sur le lien public suivant (il est également disponible dans Analytics sous **Outils** &gt; Application **** mobile) :
+
+      [Lien](https://testflight.apple.com/join/WtXMQxlI)iOS : `https://testflight.apple.com/join/WtXMQxlI`
+
+      Après avoir cliqué sur le lien, l’écran Testflight suivant s’affiche :
+
+      ![Ecran Testflight](help/analyze/mobile-app/assets/testflight1.png)
+
+   2. Appuyez sur le lien **Afficher dans l’App Store** sur l’écran pour télécharger l’application Testflight.
+
+   3. Après avoir installé l’application Testflight, recherchez et installez l’application mobile Adobe Analytics depuis Testflight, comme indiqué ci-dessous :
+   ![Ecran Testflight](help/analyze/mobile-app/assets/testflight2.png)
+
+   **Pour les cadres supérieurs sur Android :**
+
+   1. Appuyez sur le lien Play Store suivant sur le périphérique de l’utilisateur (il est également disponible dans Analytics sous **Outils** &gt; Application **** mobile) :
 
 
+      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-   **Android**
+      Après avoir appuyé sur le lien, appuyez sur le lien Devenir un testeur dans l’écran suivant :
 
+      ![Ecran Plate-forme](help/analyze/mobile-app/assets/play.png)
 
+   2. Appuyez sur le lien **Télécharger sur Google Play** sur l’écran suivant :
 
+      ![Lien de téléchargement](help/analyze/mobile-app/assets/playnext.png)
 
+   3. Téléchargez et installez l’application.
+   Une fois téléchargés et installés, les utilisateurs finaux peuvent se connecter à l’application à l’aide de leurs identifiants Adobe Analytics existants ; nous prenons en charge les ID Adobe et Enterprise/Federated.
 
+   ![Ecran de bienvenue de l’application](help/analyze/mobile-app/assets/welcome.png)
 
 2. Aidez-les à accéder à votre carte de performance. Une fois que les administrateurs se sont connectés à l’application, l’écran Choisir une société s’affiche. Cet écran répertorie les sociétés de connexion auxquelles appartient l’utilisateur exécutif. Pour les aider à accéder à Scorecard :
 
