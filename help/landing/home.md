@@ -2,7 +2,7 @@
 title: Documentation technique d’Adobe Analytics
 description: Ressources et guides de l’utilisateur d’Analytics
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
 
 ---
 
@@ -11,23 +11,23 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 Bienvenue dans la page d’accueil des produits et de la documentation technique d’Adobe Analytics. Vous trouverez ici des informations d’aide et d’assistance pour les outils de création de rapports tels que [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], API de création de rapports, outils [!UICONTROL de]données et Carte d’ [!UICONTROL activités. ] Vous pouvez également accéder à la documentation relative à l’administration des produits et des utilisateurs, à la mise en oeuvre et à toutes les fonctionnalités prises en charge dans Adobe Analytics.
 
-[![Outils](assets/analyze_50px.png)](/help/analyze/home.md) [Guide des outils Analytics](/help/analyze/home.md) – Présentation de tous les outils d’analyse que vous pouvez utiliser dans Adobe Analytics. Procure notamment une documentation approfondie sur Analysis Workspace, l’outil d’analyse et de visualisation haut de gamme pour Analytics.
+[![Outils](assets/analyze_50px.png)](/help/analyze/home.md)Guide[des outils d’](/help/analyze/home.md) Analytics - Fournit un accès à [Analysis Workspace](/help/analyze/analysis-workspace/home.md), l’outil d’analyse et de visualisation idéal pour Analytics. Comprend également tous les outils d’analyse (créateur de[!UICONTROL rapports], API de création de rapports, outils [!UICONTROL de]données et Carte d’activités) que vous pouvez utiliser dans Adobe Analytics.
 
-[![Administration](assets/admin_50px.png)](/help/admin/home.md) [Guide d’administration](/help/admin/home.md) – Tâches d’administration relatives à la configuration des suites de rapports, à la gouvernance des données, à l’utilisation des appels au serveur, etc.
+[![Guide](assets/admin_50px.png)](/help/admin/home.md)d’[administration de l’administrateur](/help/admin/home.md) : découvrez la gestion des utilisateurs et des produits dans la console d’administration d’Experience Cloud, la configuration des suites de rapports, des paramètres de l’entreprise, la gouvernance des données, l’utilisation des appels serveur, la gestion du trafic, etc.
 
-[![Mise en œuvre](assets/implement_50px.png)](/help/implement/home.md) [Guide de mise en œuvre](/help/implement/home.md) – Personnalisez les données collectées afin d’optimiser votre utilisation d’Adobe Analytics. Inclut du contenu sur les mises en œuvre d’Adobe Experience Platform Launch et de JavaScript.
+[![Mise en œuvre](assets/implement_50px.png)](/help/implement/home.md) [Guide de mise en œuvre](/help/implement/home.md) – Personnalisez les données collectées afin d’optimiser votre utilisation d’Adobe Analytics. Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
 
 [![Composants](assets/components_50px.png)](/help/components/home.md) [Guide des composants](/help/components/home.md) – Présentation des fonctionnalités qui permettent d’organiser les données. Les composants comprennent les segments, les mesures calculées, les suites de rapports virtuelles, les alertes, etc. Ce guide comprend également une référence sur les variables, expliquant toutes les dimensions et mesures disponibles.
 
-[![Exportation](assets/export_50px.png)](/help/export/home.md) [Guide d’exportation](/help/export/home.md) – Obtention de données d’Adobe Analytics au moyen de Data Warehouse, des flux de données, etc.
+[![Guide](assets/export_50px.png)](/help/export/home.md)d’[exportation](/help/export/home.md) - Obtenez des données à partir d’Adobe Analytics : Utilisez les flux [!UICONTROL de] données pour recevoir une exportation horaire ou quotidienne des données brutes. Récupérez une sortie de feuille de calcul de données à l’aide de [!UICONTROL Data Warehouse].
 
-[![Importation](assets/import_50px.png)](/help/import/home.md) [Guide d’importation](/help/import/home.md) – Importation des données dans Analytics à partir de sources externes, en bloc ou en temps réel. Inclut les sources de données, l’API d’insertion de données et Data Connectors.
+[![Importation](assets/import_50px.png)](/help/import/home.md) [Guide d’importation](/help/import/home.md) – Importation des données dans Analytics à partir de sources externes, en bloc ou en temps réel. Includes [!UICONTROL Data Sources], [!UICONTROL Data Insertion API], and [!UICONTROL Data Connectors].
 
-[![Intégration](assets/integrate_50px.png)](/help/integrate/home.md) [Guide d’intégration](/help/integrate/home.md) – Configuration des intégrations avec d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud ou Target.
+[![Guide](assets/integrate_50px.png)](/help/integrate/home.md)d’[intégration](/help/integrate/home.md) - Configurez les intégrations avec d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud et Target.
 
 [![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)Guide[d’analyse des](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) médias - Mise en oeuvre d’Analytics sur des sources audio ou vidéo. Inclut le SDK Media et l’API Media Collection.
 
-[![Guides](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)des outils de[données DWB](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - Client des outils de données, installation, configuration des jeux de données, etc.
+[![Guides](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)des outils de[données DWB](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) - Découvrez les fonctionnalités multicanaux puissantes et très flexibles des outils de [!UICONTROL données]. Inclut le client [!UICONTROL Outils de]données, l’installation, les guides de configuration [!UICONTROL des jeux de] données, etc.
 
 [![Notes techniques](assets/technotes_50px.png)](/help/technotes/home.md) [Notes techniques Analytics](/help/technotes/home.md) – Base de connaissances contenant des articles utiles qui ne concernent pas un outil ou composant Analytics particulier.
 
