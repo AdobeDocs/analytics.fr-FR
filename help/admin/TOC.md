@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
+source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
 
@@ -145,7 +145,11 @@ source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
    + [Gestion des utilisateurs et des produits](user-management2/user-management.md)
    + [Affecter des groupes d’utilisateurs à une suite de rapports](user-management2/t-group-access-report-suite.md)
    + Gestion des utilisateurs {#user-management}
-      + [Migration des utilisateurs vers la console d’administration d’Experience Cloud](user-management2/user-migration/c-migration-tool/c-migration-tool.md)
+      + [Migration des utilisateurs d’Analytics vers l’Admin Console](user-management2/user-migration/c-migration-tool.md)
+         + [Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID](user-management2/user-migration/t-migrate-users.md)
+         + [Migration de comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID](user-management2/user-migration/migrate-enterprise.md)
+         + [Désactivation des comptes hérités](user-management2/user-migration/t-disable-legacy-login.md)
+         + [API affectées par la migration](user-management2/user-migration/developer.md)
       + [Gestion des utilisateurs - Aperçu](user-management2/c-user-management/users.md)
       + [Ajout d’un compte d’utilisateur](user-management2/c-user-management/t-add-user-account.md)
       + [Modifications des autorisations d’utilisateur et des droits d’accès de groupe](user-management2/c-user-management/permissions-changes.md)
