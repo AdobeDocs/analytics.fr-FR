@@ -2,7 +2,7 @@
 description: Instructions pour configurer les cartes de performance des applications mobiles.
 title: Guide du conservateur d’application mobile Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 13fddb340dd05a24234814f7ca8579e9861335bd
+source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
 
 ---
 
@@ -24,7 +24,7 @@ Ce guide a pour but d’aider les responsables de la configuration des données 
 
 Le tableau suivant décrit les termes permettant de comprendre l’audience, les fonctions et le fonctionnement de l’application mobile Analytics.
 
-|Terme|Définition||—|—||Consommateur| Personnalité exécutive affichant les mesures clés et les informations d’Analytics sur un périphérique mobile||Curateur|Personnalité qui identifie et distribue les statistiques d’Analytics et configure les cartes de performance à afficher par le consommateur||Traitement|L'acte de créer ou de modifier une carte de performance mobile contenant les mesures, dimensions et autres composants appropriés pour le consommateur||Scorecard|Une vue d'application mobile contenant une ou plusieurs mosaïques||Mosaïque|Rendu d'une mesure dans une vue de carte de performance||Ventilation|Une vue secondaire accessible en appuyant sur une mosaïque dans la carte de performance. Cette vue s’étend sur la mesure affichée sur la mosaïque et génère éventuellement des rapports sur des dimensions de ventilation supplémentaires.||Période|Plage de dates principale pour les rapports sur les applications mobiles||Période de comparaison|Période comparée à la période principale.|
+|Terme|Définition||—|—||Consommateur| Personnalité exécutive affichant les mesures clés et les informations d’Analytics sur un périphérique mobile||Curateur|Personnalité qui identifie et distribue les statistiques d’Analytics et configure les cartes de performance à afficher par le consommateur||Traitement|L'acte de créer ou de modifier une carte de performance mobile contenant les mesures, dimensions et autres composants appropriés pour le consommateur||Scorecard|Une vue d'application mobile contenant une ou plusieurs mosaïques||Mosaïque|Rendu d'une mesure dans une vue de carte de performance||Ventilation|Une vue secondaire accessible en appuyant sur une mosaïque dans la carte de performance. Cette vue s’étend sur la mesure affichée sur la mosaïque et génère éventuellement des rapports sur des dimensions de ventilation supplémentaires.||Période|Plage de dates principale pour les rapports sur les applications mobiles||Période de comparaison|Période comparée à la période principale|
 
  
 ## Création d’une carte de performance pour les utilisateurs cadres
@@ -38,6 +38,9 @@ Pour créer la carte de performance, procédez comme suit :
 
 1. Accédez au modèle de carte de performance mobile vierge.
 2. Configurez la carte de performance avec des données et enregistrez-la.
+
+![Exemple de tableau de bord](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
 
 
 ### Accès au modèle de carte de performance mobile vierge
