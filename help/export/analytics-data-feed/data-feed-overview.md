@@ -5,7 +5,7 @@ solution: Analytics
 title: Flux de données Analytics - Aperçu
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 3e2f0bccbe7183ea75b12b1ef2b5afdd87837629
 
 ---
 
@@ -57,7 +57,10 @@ Veillez à respecter toutes les exigences suivantes avant d’utiliser des flux 
 
 Une fois que vous avez compris le processus de base d’obtention des flux de données, vous pouvez travailler avec des équipes de votre entreprise pour stocker ou assimiler des données brutes dans une base de données.
 
-[Créez un flux](create-feed.md)de données : Détails techniques pour la création d’un flux de données, expliquant plus en détail[les champs individuels](df-manage-feeds.md)Gestion des flux de données : En savoir plus sur la navigation dans l’interface[des flux de données Contenu](c-df-contents/datafeeds-contents.md)des flux de données : Comprendre ce qu’il y a dans les définitions[de colonne de données de fichier](c-df-contents/datafeeds-reference.md)compressé : Liste exhaustive de toutes les colonnes disponibles
+* [Créez un flux](create-feed.md)de données : Détails techniques pour la création d’un flux de données, expliquant plus en détail les champs individuels
+* [Gérer les flux](df-manage-feeds.md)de données : En savoir plus sur la navigation dans l’interface du flux de données
+* [Contenu](c-df-contents/datafeeds-contents.md)du flux de données : Comprendre le contenu du fichier compressé
+* [Définitions](c-df-contents/datafeeds-reference.md)des colonnes de données : Liste exhaustive de toutes les colonnes disponibles
 
 ## Ressources supplémentaires
 
