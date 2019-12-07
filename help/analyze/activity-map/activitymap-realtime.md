@@ -1,11 +1,10 @@
 ---
 description: Les analyses des pages en temps réel (mode réel) vous permettent d’obtenir des résultats avec une granularité détaillée en temps réel.
-solution: Analytics
 title: Analyse des pages en temps réel (mode réel)
 topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
