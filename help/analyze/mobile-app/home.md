@@ -2,7 +2,7 @@
 title: Applications mobiles
 description: Documentation du produit et aide autonome pour l’application mobile Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3abe9a29137f85e0c6f8438435663bb7b78a05d0
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -15,6 +15,6 @@ L’application mobile Adobe Analytics fournit des informations à tout moment e
 
 La documentation bêta suivante est disponible pour l’application mobile Analytics :
 
-* Guide de démarrage rapide de l’utilisateur : Ce guide a pour but d’aider les utilisateurs de la direction à lire et à interpréter les cartes de performance dans l’application mobile Analytics. L’application permet aux utilisateurs de visualiser rapidement et facilement un grand rendu des données récapitulatives importantes sur leurs propres périphériques mobiles.
+* [Guide](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html)du conservateur : Ce guide a pour but d’aider les responsables de la gestion des données à configurer les cartes de performance pour leurs utilisateurs de l’application mobile Analytics. Les administrateurs peuvent être des administrateurs d’entreprise ou des personnes occupant d’autres rôles chargés de configurer des feuilles de calcul d’application.
 
-* Guide du conservateur : Ce guide a pour but d’aider les responsables de la gestion des données à configurer les cartes de performance pour leurs utilisateurs de l’application mobile Analytics. Les administrateurs peuvent être des administrateurs d’entreprise ou des personnes occupant d’autres rôles chargés de configurer des feuilles de calcul d’application.
+* [Guide](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/executive.html)de démarrage rapide de l’utilisateur : Ce guide a pour but d’aider les utilisateurs de la direction à lire et à interpréter les cartes de performance dans l’application mobile Analytics. L’application permet aux utilisateurs de visualiser rapidement et facilement un grand rendu des données récapitulatives importantes sur leurs propres périphériques mobiles.
