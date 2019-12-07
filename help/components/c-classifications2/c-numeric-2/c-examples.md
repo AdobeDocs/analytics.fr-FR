@@ -1,12 +1,11 @@
 ---
 description: Ces exemples fournissent des conseils pour importer des classifications numériques 2.
-solution: Analytics
 subtopic: Classifications
 title: Exemples
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Dans ce cas, vous avez créé la classification dans le gestionnaire de [!UICONT
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 
-In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~`) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, `~MyCost^~id~` is blank.
+En janvier, Product1 a eu un coût de 20 % des recettes (indiqué dans `~MyCost^~value~`) et Product2 a eu un coût de 30 % des recettes. Comme vous importez une nouvelle ligne, `~MyCost^~id~` est vide.
 
 ## Résultats {#section_E0569289C9B34C479C7D2CD9ECBF866E}
 
@@ -68,7 +67,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-En février, le coût de Produit1 de l’utilisateur est tombé à 15 % des recettes et Produit2 à 25 % des recettes.
+En février, le coût de Product1 de l’utilisateur a diminué pour atteindre 15 % des recettes et Product2 25 % de ces recettes.
 
 ## Résultats {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -130,7 +129,7 @@ Rapport : Produits
 | Produits | Recettes | MyCost |
 |---|---|---|
 | Product1 | 11 023,75 $ | 3 000,00 $ |
-| Product2 | 8 000,12 $ | 2 000,00 $ |
+| Product2 | 8 000,12 $ | $2 000,00 |
 
 <!-- 
 
@@ -168,7 +167,7 @@ Rapport : Produits
 |---|---|---|
 | Product1 | 10 000,23 $ | 2 500,05 $ |
 
-> [!NOTE] Cette fonctionnalité permet aux utilisateurs avancés d’approcher des valeurs. Les informations obtenues ne doivent pas être considérées comme des valeurs exactes.
+> [!NOTE] Cette fonctionnalité est destinée aux utilisateurs expérimentés qui souhaitent déterminer des valeurs approximatives. Les informations obtenues ne doivent pas être considérées comme des valeurs exactes.
 
 <!-- 
 
@@ -197,7 +196,7 @@ Rapport : Produits par page
 | Produits par page | Commandes | MyCost |
 |---|---|---|
 | Product1 | 1000 | 1 000,00 $ |
-| Page d’accueil | 600 | 600 $ |
+| Page d’accueil | 600 | $600 |
 | Panier | 400 | 400 $ |
 
 <!-- 
