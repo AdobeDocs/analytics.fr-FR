@@ -1,13 +1,12 @@
 ---
 description: Les analyseurs de paquets vous permettent de voir les données envoyées par votre implémentation aux serveurs de collecte de données Adobe.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Debugger
 title: Analyseurs de paquets
 topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Même si Adobe ne fournit pas un moniteur de paquets officiel, de nombreux monit
 
 > [!NOTE] Ces listes destinées à informer sur les moniteurs utilisés fréquemment n’ont pas vocation à être exhaustives. Si vous utilisez un moniteur de paquets qui vous donne entière satisfaction et que vous trouvez utile, n’hésitez pas à nous faire part de vos commentaires à l’aide du bouton [!UICONTROL Commentaires] situé dans la partie droite de cette fenêtre.
 
-| Firefox | Internet Explorer | Chrome | Programmes autonomes |
+| Firefox | Internet Explorer  | Chrome | Programmes autonomes |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin) (visionneuse de balises) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (visionneuse de balises) | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
