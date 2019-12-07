@@ -1,11 +1,10 @@
 ---
 description: Procédure à suivre pour la désinstallation du Créateur de rapports d’Adobe.
-solution: Analytics
 title: Désinstallation de Report Builder
 topic: Report builder
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
