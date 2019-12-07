@@ -1,25 +1,24 @@
 ---
-description: Cette rubrique fournit des détails sur la configuration requise pour chaque interface utilisateur d’Adobe Analytics.
-solution: Analytics
+description: Cette rubrique fournit des détails sur la configuration requise pour chaque interface utilisateur d’Adobe Analytics.
 title: Configuration requise
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Configuration requise
 
-Cette rubrique fournit des détails sur la configuration requise pour chaque interface utilisateur d’Adobe Analytics.
+Cette rubrique fournit des détails sur la configuration requise pour chaque interface utilisateur d’Adobe Analytics.
 
 **Services principaux Experience Cloud**
 
 Adobe prend en charge la dernière version majeure de ces navigateurs :
 
-* Microsoft Edge. (Adobe a mis fin à la prise en charge de Microsoft Internet Explorer 11 dans Adobe Analytics le 13 novembre 2018. Veuillez passer à la dernière version majeure de Microsoft Edge ou d’un autre navigateur pris en charge, dès que possible.)
-* Google Chrome
-* Mozilla Firefox
+* Microsoft Edge. (Le 13 novembre 2018, Adobe a arrêté la prise en charge de Microsoft Internet Explorer 11 dans Adobe Analytics. Veuillez passer à la dernière version majeure de Microsoft Edge ou d’un autre navigateur pris en charge, dès que possible.)
+* Google Chrome 
+* Mozilla Firefox 
 * Apple Safari
 
 **Exigences en matière de produit et de solution**
