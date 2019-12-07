@@ -1,11 +1,10 @@
 ---
 description: Les mesures sont calculées selon des méthodes d’attribution standard, de participation, récente et linéaire. Chaque méthode calcule les valeurs selon des formules différentes.
-solution: Analytics
 title: Calculs de mesures
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ Les mesures sont calculées selon des méthodes d’attribution standard, de par
   </tr> 
   <tr> 
    <td colname="col1"> Linéaire </td> 
-   <td colname="col2"> <p>Lorsque l’allocation linéaire est sélectionnée, les événements de succès sont répartis uniformément entre toutes les valeurs variables affichées dans la visite. Pour les événements numériques et monétaires, tels que <span class="term"> Revenue</span>, the monetary amount is divided. Pour les événements de compteur tels que <span class="term"> Commandes</span>, une fraction de l’événement est attribuée à chaque valeur de variable de la visite. Ces parties sont additionnées dans le cadre des rapports, puis arrondies à l’entier le plus proche. </p> <p>Par exemple, pour une visite où quatre pages ont été consultées avant un événement de succès, chaque page reçoit un crédit de 25 % de l’événement. Si, au cours d’une même visite, la La <span class="varname"> campagne</span> avait deux valeurs, chacune d’elles recevant 50 % du crédit de l’événement. </p> </td> 
+   <td colname="col2"> <p>Lorsque l’allocation linéaire est sélectionnée, les événements de succès sont répartis uniformément entre toutes les valeurs variables affichées dans la visite. Pour les événements numériques et monétaires, tels que <span class="term"> Recettes</span>, le montant monétaire est divisé. Pour les événements de compteur tels que <span class="term"> Commandes</span>, une partie de l’événement est attribuée à chaque valeur de variable de la visite. Ces parties sont additionnées dans le cadre des rapports, puis arrondies à l’entier le plus proche. </p> <p>Par exemple, pour une visite où quatre pages ont été consultées avant un événement de succès, chaque page reçoit un crédit de 25 % de l’événement. Si, au cours d’une même visite, la La <span class="varname"> campagne</span> a deux valeurs, chaque valeur de campagne recevra 50 % du crédit pour l’événement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Participation </td> 
@@ -45,7 +44,7 @@ Les mesures sont calculées selon des méthodes d’attribution standard, de par
 
 Supposons que votre site comporte une recherche interne dont le suivi est réalisé à l’aide d’une variable de conversion (eVar). Le visiteur effectue plusieurs recherches internes avant de réaliser un achat d’un montant de 100 $ :
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; 100 euros d’achat
+*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; 100 $ d’achat
 
 Dans le rapport, l’attribution de crédit est la suivante :
 
@@ -63,29 +62,29 @@ Dans le rapport, l’attribution de crédit est la suivante :
   <tr> 
    <td colname="col1"> <p>Animal domestique </p> </td> 
    <td colname="col2"> <p>100 $ </p> </td> 
-   <td colname="col3"> <p>0 $ </p> </td> 
-   <td colname="col4"> <p>25 $ </p> </td> 
+   <td colname="col3"> <p>$0 </p> </td> 
+   <td colname="col4"> <p>$25 </p> </td> 
    <td colname="col5"> <p>100 $ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Félin </p> </td> 
-   <td colname="col2"> <p>0 $ </p> </td> 
-   <td colname="col3"> <p>0 $ </p> </td> 
-   <td colname="col4"> <p>25 $ </p> </td> 
+   <td colname="col2"> <p>$0 </p> </td> 
+   <td colname="col3"> <p>$0 </p> </td> 
+   <td colname="col4"> <p>$25 </p> </td> 
    <td colname="col5"> <p>100 $ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chat </p> </td> 
-   <td colname="col2"> <p>0 $ </p> </td> 
-   <td colname="col3"> <p>0 $ </p> </td> 
-   <td colname="col4"> <p>25 $ </p> </td> 
+   <td colname="col2"> <p>$0 </p> </td> 
+   <td colname="col3"> <p>$0 </p> </td> 
+   <td colname="col4"> <p>$25 </p> </td> 
    <td colname="col5"> <p>100 $ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chaton </p> </td> 
-   <td colname="col2"> <p>0 $ </p> </td> 
+   <td colname="col2"> <p>$0 </p> </td> 
    <td colname="col3"> <p>100 $ </p> </td> 
-   <td colname="col4"> <p>25 $ </p> </td> 
+   <td colname="col4"> <p>$25 </p> </td> 
    <td colname="col5"> <p>100 USD </p> </td> 
   </tr> 
  </tbody> 
