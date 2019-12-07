@@ -1,11 +1,10 @@
 ---
 description: Affichent des informations sur les produits que vous vendez, distribuez ou affichez sur votre site Web. Ils fournissent des renseignements sur les commandes ou les téléchargements de vos produits, applications ou contenus.
-solution: Analytics
 title: Rapports sur les produits
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,9 +23,9 @@ c_reports_products_conv_funnel.xml
 
  -->
 
-Pour ajouter des mesures et des événements personnalisés à partir d’autres groupes de rapports, cliquez sur un lien **[!UICONTROL Événements sélectionnés]dans l’en-tête du rapport.**
+Pour ajouter des mesures et des événements personnalisés à partir d’autres groupes de rapports, cliquez sur un lien **[!UICONTROL Événements sélectionnés]** dans l’en-tête du rapport.
 
-Les périodes en cours ne sont pas terminées lorsque vous affichez les données. En conséquence, ce rapport peut indiquer une tendance à la baisse entre la période précédente et la période en cours. Par exemple, il peut y avoir moins de visites aujourd’hui qu’hier, mais seulement parce que le reste des statistiques de la période n’a pas encore été généré.
+Les périodes en cours ne sont pas terminées lorsque vous affichez les données. En conséquence, ce rapport peut indiquer une tendance à la baisse entre la période précédente et la période en cours. Il peut, par exemple, indiquer qu’il y a moins de visites aujourd’hui qu’hier, mais seulement parce que les statistiques relatives au reste de la période ne sont pas encore disponibles.
 
 ## Catégories {#concept_3260EE45B2164E478E8A90E046D078AB}
 
@@ -36,4 +35,4 @@ c_reports_categories.xml
 
  -->
 
-Indique l’impact de diverses catégories de produits sur les mesures de réussite de votre site.
+Indique la manière dont les différentes catégories de produits affectent les mesures de succès de votre site.
