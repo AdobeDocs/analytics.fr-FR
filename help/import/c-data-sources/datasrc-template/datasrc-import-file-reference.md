@@ -1,12 +1,11 @@
 ---
 description: Informations sur le modèle .txt de sources de données.
-solution: Analytics
 subtopic: Data sources
 title: Référence du fichier d’importation
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
