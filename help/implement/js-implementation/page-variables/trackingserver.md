@@ -1,13 +1,12 @@
 ---
 description: Les variables de page renseignent directement un rapport (pageName, props de liste, variables de liste, etc.).
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,6 +26,6 @@ Elle est utilisée pour les pages non sécurisées. If *`trackingServer`* is def
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
-| N/D | N/D | N/D | "" |
+| S.O. | S.O. | S.O. | "" |
 
 Vous trouverez une liste des centres de données Adobe [ici](https://helpx.adobe.com/analytics/kb/determining-data-center.html).
