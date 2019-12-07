@@ -1,13 +1,12 @@
 ---
 description: Mesure l’activité de défilement d’un visiteur afin de voir la quantité d’une page qu’il voit avant de passer à une autre page. Ce module externe vous permet de déterminer la quantité de contenu que les utilisateurs consultent en moyenne, de sorte que vous puissiez optimiser les longueurs et dispositions de page en fonction de leur comportement.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getPercentPageViewed
 topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
