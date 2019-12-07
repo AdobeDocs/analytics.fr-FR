@@ -1,11 +1,10 @@
 ---
 description: Vous pouvez ajouter des mesures et des dimensions à l’étape 2 de l’Assistant Requête pour définir la disposition Analytics des données de votre requête. La liste des mesures et des dimensions du créateur de rapports est conforme à la disposition de menu affichée dans les rapports et analyses.
-solution: Analytics
 title: Mesures et dimensions - Aperçu
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
