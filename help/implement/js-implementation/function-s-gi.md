@@ -1,12 +1,11 @@
 ---
 description: La fonction s_gi() sert à créer ou rechercher votre instance AppMeasurement par identifiant de suite de rapports. En interne, AppMeasurement effectue le suivi de toutes les instances créées, tandis que la fonction s_gi() renvoie l’instance existante pour une suite de rapports, le cas échéant. S’il n’existe aucune instance, une nouvelle instance est créée et renvoyée.
 keywords: Analytics Implementation
-solution: Analytics
 title: Fonction s_gi()
 topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
