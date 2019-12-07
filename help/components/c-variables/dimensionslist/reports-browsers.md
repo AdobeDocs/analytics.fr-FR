@@ -1,11 +1,10 @@
 ---
 description: Répertorie les versions des navigateurs utilisés pour visiter votre site, comme identifié par la chaîne de l’agent utilisateur.
-solution: Analytics
 title: Navigateur
 topic: Reports
 uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,8 +21,8 @@ Par exemple :
 * Mozilla Firefox 66
 * Safari 12
 * Safari 11
-* Opera 60
-* Microsoft Edge 17
+* Opera 60
+* Microsoft Edge 17
 * Internet Explorer 11
 
 Le rapport Navigateurs peut contenir un navigateur avec une version inconnue.
