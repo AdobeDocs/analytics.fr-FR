@@ -1,11 +1,10 @@
 ---
 description: Outre les options de mise en forme de cellules standard disponibles par le biais du menu Format > Cellules (Ctrl+1) d’Excel, vous pouvez appliquer une mise en forme limitée à des plages de cellules à l’aide du Créateur de rapports. Ces options dépendent, en fait, de la mesure choisie.
-solution: Analytics
 title: Mise en forme de la date
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ Le tableau suivant décrit l’utilisation des abréviations de date dans le cha
 | M | Numéro du mois | 3 |
 | MM | Numéro du mois avec un caractère 0 de remplissage pour les mois &lt; 10 | 03 |
 | MMM | Forme abrégée du nom du mois | Mar |
-| MMMM | Forme longue du nom du mois | Mars |
+| MMMM | Forme longue du nom du mois | Mars  |
 | D | Nom de la date au format long | Mercredi, 14 mars 2012 |
 | d | Numéro du jour | 14 |
 | dd | Numéro du jour avec un caractère 0 de remplissage pour les jours &lt; 10 | 01 - 09 |
