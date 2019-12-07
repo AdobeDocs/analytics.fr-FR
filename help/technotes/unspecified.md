@@ -1,9 +1,8 @@
 ---
 description: Divers rapports dans Adobe Analytics peuvent afficher Non spécifié, Autre ou Inconnu, selon le rapport spécifique consulté. En règle générale, cet élément de ligne signifie que la variable n’a pas été définie ou n’est pas disponible.
-solution: Analytics
 title: Non spécifié, Autre et Inconnu dans les rapports
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
