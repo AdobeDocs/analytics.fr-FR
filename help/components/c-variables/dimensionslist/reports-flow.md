@@ -1,11 +1,10 @@
 ---
 description: Les flux affichent les chemins empruntés le plus souvent par les utilisateurs pour parcourir les pages, sections de site et serveurs.
-solution: Analytics
 title: Flux
 topic: Reports
 uuid: d114d117-b5cc-483d-a169-c56d615fa1c4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
