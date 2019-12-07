@@ -1,11 +1,10 @@
 ---
 description: Le rapport Liens tient compte des liens trouvés sur la page actuelle. Il ne tient pas compte de tous les liens collectés pour cette page.
-solution: Analytics
 title: Rapport sur les liens
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ En mode standard, le rapport Liens sur la page répertorie les données des lien
 <table id="table_3DE41B2CFA644B70AF802A3123CE51D9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Colonne </th> 
+   <th colname="col1" class="entry"> Colonne  </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -72,7 +71,7 @@ En mode réel, le rapport Liens sur la page affiche les données de tendance sur
 <table id="table_61D1FB0F02894055A1AB394DE4FE4742"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Colonne </th> 
+   <th colname="col1" class="entry"> Colonne  </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
