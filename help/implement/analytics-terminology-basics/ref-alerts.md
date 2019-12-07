@@ -1,12 +1,11 @@
 ---
 description: La fonction Alertes intelligentes vous permet de créer et de gérer des alertes dans Analysis Workspace, avec l’aperçu des alertes et la contribution des règles.
 keywords: Analytics Implementation;alert;anomalies;anomaly;email;sms;multiple metrics
-solution: Analytics
 title: Alertes
 topic: Developer and implementation
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La fonction Alertes intelligentes vous permet de créer et de gérer des alertes dans [!UICONTROL Analysis Workspace], avec l’aperçu des alertes et la contribution des règles.
 
-Vous pouvez :
+Vous pouvez
 
 * Créer des alertes en fonction des anomalies (seuils de 90 %, 95 % ou 99 % ; % de changement ; au-dessus/au-dessous).
 * Prévisualiser le nombre de fois où une alerte sera déclenchée.
