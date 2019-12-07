@@ -1,11 +1,10 @@
 ---
 description: Le Créateur de segments propose un canevas permettant de faire glisser et de déposer des dimensions de mesure, des segments et des événements afin de segmenter les visiteurs en fonction d’opérateurs, de règles et d’une logique de hiérarchie de conteneurs. Cet outil de développement intégré vous permet de créer et d’enregistrer des segments simples ou complexes qui identifient les attributs et actions des visiteurs entre les visites et accès aux pages.
-solution: Analytics
 title: Création de segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: a50b08cba865b61bc647ba6af9e678ef8edfe3bc
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
