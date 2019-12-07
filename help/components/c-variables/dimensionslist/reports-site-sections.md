@@ -1,11 +1,10 @@
 ---
 description: Indique les zones de votre site qui sont les plus consultées par les utilisateurs. Les sections du site peuvent inclure des groupes de produits, similaires aux catégories que vous définissez. Vous pouvez, par exemple, définir un groupe de pages Caméras, un groupe Ordinateurs, etc. Les données relatives au rapport Sections du site de conversion sont importées du rapport Section du site dans le groupe Trafic, lequel reçoit ses informations de la variable de canal dans le code de suivi. Utilisez ce rapport pour identifier le plus grand impact sur les statistiques du site des éléments de différentes sections.
-solution: Analytics
 title: Sections du site
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,11 +47,11 @@ Tous les événements de conversion du [!UICONTROL rapport Sections du site] uti
       <ul id="ul_3795C7AAE6DA4B7E96FCDC7F3211DFBB"> 
        <li id="li_50B295E961724CFB83D222DE9B4C7FF2">Tout rapport classifié sur la base de ce rapport </li> 
        <li id="li_697682892D8841BC8120BEC0E1AE9753"> <span class="wintitle"> Rapport Codes de suivi</span> </li> 
-       <li id="li_F6D893FCBA7A4B3EB04715833CA41022">  Rapports <span class="wintitle">Produits</span> et <span class="wintitle">Catégories</span> </li> 
+       <li id="li_F6D893FCBA7A4B3EB04715833CA41022"> Rapports <span class="wintitle">Produits</span> et <span class="wintitle">Catégories</span> </li> 
        <li id="li_9F379E61DB4F4753AE1FFFC8F9C17347"> <span class="wintitle"> Rapport de fidélité de la clientèle</span> </li> 
        <li id="li_64A6A06F9265410ABB425DA4AF50C440">Toute variable de conversion complètement sous-liée </li> 
        <li id="li_907DDFCC35AB48EEA5B169B4A2598FB1"> <span class="wintitle"> Canaux marketing Première touche et Dernière touche</span> </li> 
-       <li id="li_B08A0DCB40154152AF1033B7629A5B5A">  Rapport <span class="uicontrol">Target</span> &gt; <span class="uicontrol">Campagnes</span> (s’il est activé) </li> 
+       <li id="li_B08A0DCB40154152AF1033B7629A5B5A"> Rapport <span class="uicontrol">Target</span> &gt; <span class="uicontrol">Campagnes</span> (s’il est activé) </li> 
        <li id="li_6D4E65DD6E2B49C9A8C12181D23F185A">Durée de la visite </li> 
        <li id="li_C6D3AD5A534243A8A6E17C663FEBA6BA">Sections du site </li> 
        <li id="li_E1F46EED5CE2425D83200A2FCB686EE5">Pages d’entrée </li> 
