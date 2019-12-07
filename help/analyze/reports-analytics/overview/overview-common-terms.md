@@ -1,11 +1,10 @@
 ---
 description: Cette section présente les termes d’analyse web couramment utilisés dans les rapports marketing.
-solution: Analytics
 title: Termes courants
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -36,7 +35,7 @@ Cette section présente les termes Adobe Analytics couramment utilisés.
   </tr> 
   <tr> 
    <td> <p> Rapport </p> </td> 
-   <td> <p>Fondement de la fonctionnalité de rapports marketing. Vous pouvez exécuter des rapports en ligne sur toutes les données collectées. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/reports.md"> Report Types</a>. </p> </td> 
+   <td> <p>Fondement de la fonctionnalité de rapports marketing. Vous pouvez exécuter des rapports en ligne sur toutes les données collectées. </p> <p>Pour plus d’informations, reportez-vous à la section    <a href="/help/analyze/reports-analytics/reports.md"> Types de rapports</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Page vue </p> </td> 
