@@ -1,19 +1,18 @@
 ---
-description: Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
+description: Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Cas d’utilisation d’Analysis Workspace
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Cas d’utilisation d’Analysis Workspace
 
-Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
+Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
 
 Effectuez des recherches directement dans vos données afin de répondre à des questions spécifiques et de compiler des commentaires sur les interactions de vos clients et les intérêts d’audience. Dans un environnement à structure libre, vous pouvez appliquer des dimensions, des mesures et des segments au fil du temps afin de récupérer directement les données ciblées. Concevez votre analyse afin de personnaliser vos questions spécifiques, puis publiez les informations dans des rapports et des visualisations complexes qui pourront être partagés et facilement interprétés par tous les utilisateurs, même les plus pressés.
 
