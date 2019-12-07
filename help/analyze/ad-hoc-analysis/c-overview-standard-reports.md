@@ -1,11 +1,10 @@
 ---
 description: Les rapports standard affichent des données relatives à l’activité du site Web et des visiteurs, des schémas de trafic, des données de référence, des campagnes publicitaires, des données sur la fidélisation des visiteurs, des données de produit, etc. Vous pouvez exécuter des rapports et accéder ensuite à des outils pour configurer des segments, des mesures et des comparaisons de rapport.
-solution: Analytics
 title: Rapports - Aperçu
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -85,7 +84,7 @@ D’autres calculs statistiques par défaut peuvent être ajoutés aux rapports 
 | Calcul | Description |
 |--- |--- |
 | Max | Identifie la valeur la plus grande dans toutes les lignes d’un jeu de données spécifié. |
-| Min | Identifie la valeur la plus petite dans toutes les lignes d’un jeu de données spécifié. |
+| min | Identifie la valeur la plus petite dans toutes les lignes d’un jeu de données spécifié. |
 | Somme | Calcul de toutes les valeurs de chaque ligne du jeu de données.  Par exemple, la somme agrège toutes les visites par visiteur plutôt que de comptabiliser le visiteur qu’une seule fois (indépendamment du nombre de visites). Il s’agit d’un total des points de données collectés. |
 | Moyenne | Il s’agit de la moyenne arithmétique des valeurs des lignes d’un jeu de données. Elle est calculée en divisant la somme par le nombre (somme/nombre). La moyenne est influencée par des données éloignées, contrairement à la médiane qui est généralement utilisée pour des répartitions obliques. |
 | Écart type | L’écart type montre l’écart qu’il existe par rapport à la moyenne attendue. Un écart type moins élevé indique que les points de données sont proches de la moyenne. Un écart type plus élevé indique que les points de données sont répartis dans une grande plage de valeurs. |
@@ -109,7 +108,7 @@ La fonction Moyenne utilise le même calcul que dans les colonnes de données de
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p>Juin 2013 </p> <p>Juillet 2013 </p> <p>Août 2013 </p> </td> 
+   <td colname="col1"> <p>Juin 2013 </p> <p>Juillet 2013 </p> <p>Août 2013 </p> </td> 
    <td colname="col2" align="center"> <p>344 </p> <p>297 </p> <p>41 </p> </td> 
    <td colname="col3" align="center"> <p>1000 </p> <p>1000 </p> <p>1000 </p> </td> 
    <td colname="col4" align="center"> <p>34.4% </p> <p>29.7% </p> <p>41.0% </p> </td> 
