@@ -1,19 +1,18 @@
 ---
-description: Découvrez comment spécifier l’expiration de l’engagement des visiteurs dans les canaux marketing.
-solution: Analytics
+description: Découvrez comment définir l’expiration de l’engagement des visiteurs dans les canaux marketing.
 subtopic: Marketing channels
 title: Expiration de l’engagement des visiteurs
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Expiration de l’engagement des visiteurs
 
-Découvrez comment spécifier l’expiration de l’engagement des visiteurs dans les canaux marketing.
+Découvrez comment définir l’expiration de l’engagement des visiteurs dans les canaux marketing.
 
 L’engagement des visiteurs est le délai que vous souhaitez allouer pour que l’activité précédente du visiteur sur votre site soit attribuée au canal Première touche.
 
@@ -29,10 +28,10 @@ Par exemple, les visiteurs cliquent souvent sur une campagne de recherche payant
 
 Spécifiez le délai d’expiration de l’engagement des visiteurs.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Expiration]**.
+1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
+1. Dans le [!UICONTROL Gestionnaire de suites de rapports], cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Canaux marketing]** &gt; **[!UICONTROL Expiration de canal marketing]**.
 
    ![](assets/mchannel_expiration.png)
 
 1. Configurez les champs d’expiration de l’engagement des visiteurs.
-1. Cliquez sur **[!UICONTROL Enregistrer.]**
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
