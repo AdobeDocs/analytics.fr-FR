@@ -1,11 +1,10 @@
 ---
 description: Paramètres qui définissent l’affichage de tous les rapports et informations qui permettent d’appliquer les options de menu par défaut à leur emplacement dans le menu simplifié.
-solution: Analytics
 title: Paramètres d’affichage des rapports et navigation
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -64,7 +63,7 @@ Si vous êtes habitué au menu par défaut, le tableau suivant facilite la reche
 |  | Mesures clés | Mesures &gt; Mesures clés |
 |  | Pages vues | Mesures &gt; Pages vues |
 |  | Visites | Mesures &gt; Visites |
-|  | Visiteurs | Mesures &gt; Visiteurs |
+|  | Visiteurs | Mesures &gt; Visiteurs |
 |  | Durée de la visite | Mesures &gt; Durée de la visite |
 |  | Durée avant événement | Conversion &gt; Durée avant événement |
 |  | Achats | Mesures &gt; Achats |
