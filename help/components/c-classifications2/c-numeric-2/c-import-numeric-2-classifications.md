@@ -1,12 +1,11 @@
 ---
 description: Le fichier d’importation et d’exportation comporte six colonnes pour chaque classification numérique 2.
-solution: Analytics
 subtopic: Classifications
 title: Importation de classifications numériques 2
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,15 +22,15 @@ Les définitions suivantes supposent que le nom de la classification numérique 
 
 **~MyCost :** nom explicite de la ligne.
 
-**~~MonCoût^~ID**: ID de modification d’une ligne existante. Lorsque vous ajoutez une ligne, cette entrée doit être vide Un ID est automatiquement attribué lorsque vous effectuez une exportation depuis le gestionnaire de classifications.
+**~MyCost^~id~ :** ID pour la modification d’une ligne existante. Lorsque vous ajoutez une ligne, cette entrée doit être vide Un ID est automatiquement attribué lorsque vous effectuez une exportation depuis le gestionnaire de classifications.
 
-**~~MonCoût^~valeur**: Valeur de la ligne. Si la colonne de taux est fixe, il s’agit alors d’une valeur fixe répartie sur toute la période. Si la colonne de taux est un événement, il s’agit alors du multiplicateur de cet événement. Cette entrée ne doit pas contenir de virgules.
+**~MyCost^~value~ :** valeur de la ligne. Si la colonne de taux est fixe, il s’agit alors d’une valeur fixe répartie sur toute la période. Si la colonne de taux est un événement, il s’agit alors du multiplicateur de cet événement. Cette entrée ne doit pas contenir de virgules.
 
-**~~MonCoût^~période**: Période à laquelle cette ligne correspond. Cette entrée doit contenir une date de début et une date de fin, séparées par un tiret. Le tiret doit être entouré d’espaces. Les définitions doivent respecter le format suivant :
+**~MyCost^~period~ :** période à laquelle correspond cette ligne. Cette entrée doit contenir une date de début et une date de fin, séparées par un tiret. Le tiret doit être entouré d’espaces. Les définitions doivent respecter le format suivant :
 
 AAAA/MM/JJ - AAAA/MM/JJ
 
-**~~MonCoût^~Taux**: Evénement à multiplier par la colonne [!UICONTROL Valeur] . Les valeurs valides sont :
+**~MyCost^~rate~ :** événement par lequel multiplier la colonne [!UICONTROL Valeur]. Les valeurs valides sont :
 
 * fixed - utilisée pour indiquer que cette valeur est une valeur fixe à répartir sur la période.
 * revenue
@@ -48,4 +47,4 @@ AAAA/MM/JJ - AAAA/MM/JJ
 * event2
 * etc
 
-**~~MonCoût^~charnière**: Evénement à utiliser pour distribuer la valeur lors d’une ventilation. This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none].
+**~MyCost^~hinge~ :** événement à utiliser pour répartir la valeur lors d’une ventilation. Cette valeur est souvent identique à [!UICONTROL ~MyCost^~rate~], sauf si vous utilisez [!UICONTROL fixed]. Les valeurs valides pour cette colonne sont identiques à celles de [!UICONTROL ~MyCost^~rate~], avec la valeur [!UICONTROL none] en plus.
