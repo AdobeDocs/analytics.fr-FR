@@ -1,11 +1,10 @@
 ---
 description: Vous avez la possibilité de copier les cellules mises en correspondance avec plusieurs requêtes et de coller le contenu dans une zone sélectionnée vide de la feuille de calcul.
-solution: Analytics
 title: Copie des requêtes - Aperçu
 topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
