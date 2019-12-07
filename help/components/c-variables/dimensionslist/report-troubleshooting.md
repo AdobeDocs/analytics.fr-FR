@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics offre une interface de création de rapports souple qui permet de générer un large éventail de rapports complexes. Bien que la plupart des rapports soient générés très rapidement, vous pouvez rencontrer des rapports en dépassement de délai ou dont la génération a échoué. Pour permettre d’éviter les échecs de génération de rapport, cette rubrique présente de nombreux facteurs qui affectent la vitesse de génération des rapports. La connaissance de ces informations peut vous permettre de structurer les rapports de manière à ce qu’ils soient moins plus susceptibles d’échouer.
 keywords: best practices;failure;timeout;troubleshooting;slow
-solution: Analytics
 title: Bonnes pratiques et dépannage de la création de rapports
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,10 +14,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe Analytics offre une interface de création de rapports souple qui permet de générer un large éventail de rapports complexes. Bien que la plupart des rapports soient générés très rapidement, vous pouvez rencontrer des rapports en dépassement de délai ou dont la génération a échoué. Pour permettre d’éviter les échecs de génération de rapport, cette rubrique présente de nombreux facteurs qui affectent la vitesse de génération des rapports. La connaissance de ces informations peut vous permettre de structurer les rapports de manière à ce qu’ils soient moins plus susceptibles d’échouer.
 
->[!Nnote]
->Ces recommandations s’appliquent aux rapports et analyses, aux analyses ad hoc et au créateur de rapports.
->Elles ne s’appliquent pas à Analysis Workspace, qui possède son propre ensemble de pratiques [](/help/analyze/analysis-workspace/optimizing-performance.md)recommandées. They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). Un autre ensemble de
->[bonnes pratiques](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) sont disponibles pour l’API de création de rapports d’Adobe Analytics.
+>[!Note] :
+>ces recommandations s’appliquent à Reports &amp; Analytics, à Ad Hoc Analysis et à Report Builder.
+>Elles ne s’appliquent pas à Analysis Workspace, qui possède son propre ensemble de [bonnes pratiques](/help/analyze/analysis-workspace/optimizing-performance.md). Elles ne s’appliquent pas non plus aux [bonnes pratiques](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html) de Data Warehouse. Un ensemble supplémentaire de
+>[bonnes pratiques](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) est disponible dans l’API de création de rapports d’Adobe Analytics.
 
 ## Délais d’expiration des rapports et file d’attente des demandes {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
@@ -44,7 +43,7 @@ Alors que le nombre de mesures augmente, le délai d’exécution du rapport aug
 
 **Nombre de ventilations**
 
-Dans un rapport, chaque ventilation représente une demande distincte. Alors que des demandes individuelles peuvent se terminer rapidement, l’exécution de milliers de ventilations dans un seul rapports peut ralentir de manière significative le délai de génération des rapports et affecter la file d’attente de la suite de rapports.
+Dans un rapport, chaque ventilation représente une demande distincte. Alors que des demandes individuelles peuvent se terminer rapidement, l’exécution de milliers de ventilations dans un seul rapport peut ralentir de manière significative le délai de génération des rapports et affecter la file d’attente de la suite de rapports.
 
 **Complexité des segments**
 
