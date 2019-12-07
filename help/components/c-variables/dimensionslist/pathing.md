@@ -1,11 +1,10 @@
 ---
 description: Groupe de rapports basés sur l’analyse des chemins. D’un point de vue technique, le terme cheminement désigne le passage d’une page à une autre (d’une valeur à une autre).
-solution: Analytics
 title: Cheminement
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Utilisez le [Flux d’Analysis Workspace](https://marketing.adobe.com/resources
 
 Pour connaître l’ordre de collecte des valeurs, vous devez activer le cheminement pour la variable qui procède à leur collecte. Le cheminement est activé par défaut pour les pages. Par défaut, il n’est pas activé pour les props, car il n’est approprié que dans certains cas. Pour activer le cheminement sur une prop, contactez le service d’assistance clientèle.
 
-> [!NOTE] Dans les analyses ad hoc, lorsque vous activez les classifications sur une prop, les mesures de cheminement deviennent disponibles pour toutes les classifications configurées pour la prop activée.
+> [!NOTE] Dans les Ad Hoc Analysis, lorsque vous activez des classifications sur une prop, les mesures de cheminement sont disponibles pour l’ensemble des classifications configurées.
 
 **Exemple - Cheminement sur les sections de site**
 
@@ -34,7 +33,7 @@ Le cheminement est alors disponible dans divers rapports sur les chemins, dont [
 
 **Exemple - Cheminement sur les recherches**
 
-Le concept de déplacement entre plusieurs valeurs s’applique également à d’autres variables de trafic, dont *`s.props`*. Si, par exemple, vous activez le cheminement pour votre terme de recherche interne *`s.prop`*, vous pouvez voir le chemin emprunté par les visiteurs à travers les termes de recherche.
+Le concept de déplacement entre plusieurs valeurs s’applique également à d’autres variables de trafic, dont *`s.props`*. Si vous activez, par exemple, le cheminement pour votre terme de recherche interne *`s.prop`*, vous pouvez visualiser le chemin emprunté par les visiteurs via les termes de recherche.
 
 **Exemple - Cheminement par état de connexion**
 
@@ -48,5 +47,5 @@ s.prop19=s.prop18 + ":" + s.pageName;
 
 Activez ensuite le cheminement pour que la variable *`s.prop19`* visualise le cheminement des membres à travers les différentes pages.
 
-> [!NOTE] Si vous effectuez une analyse ad hoc, vous pouvez segmenter les chemins de page sans avoir à concaténer les valeurs de segment et appliquer un segment aux rapports de cheminement.
+> [!NOTE] Si vous effectuez des Ad Hoc Analysis, vous pouvez segmenter les chemins de page sans avoir à concaténer des valeurs de segment et appliquer tout segment à des rapports de cheminement.
 
