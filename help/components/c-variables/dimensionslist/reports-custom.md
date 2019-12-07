@@ -1,11 +1,10 @@
 ---
 description: Les administrateurs peuvent configurer un rapport avec des mesures et une plage de dates spécifiques, puis l’enregistrer dans les menus du rapport à l’intention de tous les utilisateurs.
-solution: Analytics
 title: Personnalisé
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
