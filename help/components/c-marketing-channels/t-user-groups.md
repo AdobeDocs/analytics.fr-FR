@@ -1,12 +1,11 @@
 ---
 description: Configurez l’accès des groupes d’utilisateurs aux canaux marketing.
-solution: Analytics
 subtopic: Marketing channels
 title: Configuration de l’accès des groupes d’utilisateurs
 topic: Reports and analytics
 uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Configurez l’accès des groupes d’utilisateurs aux canaux marketing.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Groups]** from the [!UICONTROL User Management] home page.
+1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Gestion des utilisateurs]**.
+1. Cliquez sur **[!UICONTROL Groupes]** sur la page d’accueil de [!UICONTROL Gestion des utilisateurs].
 
    Reportez-vous à la section [Gestion des utilisateurs](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) dans l’*aide sur l’administration*.
 
-1. Cliquez sur le nom d’un groupe personnalisé, ou cliquez sur **Ajouter un nouveau groupe d’utilisateur** pour créer un groupe d’utilisateurs.
-1. Sous « Accès aux rapports », activez **Accès complet** ou **[!UICONTROL Accès interdit]**.
+1. Cliquez sur le nom d’un groupe personnalisé, ou cliquez sur **[!UICONTROL Ajouter un nouveau groupe d’utilisateur]** pour créer un groupe d’utilisateurs.
+1. Sous « Accès aux rapports », activez **[!UICONTROL Accès complet]** ou **[!UICONTROL Accès interdit]**.
 
-Il n’existe actuellement aucun groupe d’utilisateurs prédéfini pour les canaux marketing. Instead, an Admin-level user must create a custom user group that has access to **[!UICONTROL Advanced Reporting]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Marketing Channel Reports]**.
+Il n’existe actuellement aucun groupe d’utilisateurs prédéfini pour les canaux marketing. À la place, un administrateur doit créer un groupe d’utilisateurs personnalisé ayant accès à **[!UICONTROL Création de rapports avancés]** &gt; **[!UICONTROL Personnaliser]** &gt; **[!UICONTROL Rapports Canal marketing]**.
 
 | Champ | Définition |
 |--- |--- |
