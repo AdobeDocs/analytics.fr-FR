@@ -1,11 +1,10 @@
 ---
 description: Le processus d’installation varie en fonction du navigateur que vous utilisez.
-solution: Analytics
 title: Installation des modules de navigateur d’Activity Map
 topic: Activity map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
