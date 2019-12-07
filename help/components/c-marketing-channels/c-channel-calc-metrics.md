@@ -1,12 +1,11 @@
 ---
 description: Ajoutez des mesures calculées aux rapports Canal marketing dans Analytics.
-solution: Analytics
 subtopic: Marketing channels
 title: Mesures calculées utilisées dans les rapports sur les canaux marketing
 topic: Reports and analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,15 +24,15 @@ Ajoutez une mesure calculée provenant du rapport Présentation du canal marketi
 
 1. Ouvrez un [!UICONTROL rapport Présentation du canal marketing].
 
-   See [Run Marketing Channel reports](/help/components/c-marketing-channels/t-reports-sc.md).
+   Reportez-vous à la section [Exécution de rapports sur les canaux marketing](/help/components/c-marketing-channels/t-reports-sc.md).
 
-1. **[!UICONTROL Dans le rapport, cliquez sur]** Modifier. ![](assets/metric_edit_icon.png)
+1. Dans le rapport, cliquez sur **[!UICONTROL Modifier.]** ![](assets/metric_edit_icon.png)
 
    >[!NOTE]
    >
-   >If you are viewing a [!UICONTROL First Touch] or [!UICONTROL Last Touch] detail report, click **[!UICONTROL Add Metrics]** to select a metric.
+   >Si vous affichez un rapport détaillé [!UICONTROL Première touche] ou [!UICONTROL Dernière touche], cliquez sur **[!UICONTROL Ajouter des mesures]** pour sélectionner une mesure.
 
 1. Faites défiler le rapport jusqu’à [!UICONTROL Mesures calculées], puis double-cliquez sur une mesure calculée.
 
-   Si la mesure calculée n’existe pas, cliquez sur **[!UICONTROL Créer]pour la définir.** See the [Calculated Metrics Guide](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) for more information.
+   Si la mesure calculée n’existe pas, cliquez sur **[!UICONTROL Créer]** pour la définir. Pour plus d’informations, voir le [Guide des mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
 1. Cliquez sur **[!UICONTROL Enregistrer.]**
