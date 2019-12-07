@@ -1,29 +1,28 @@
 ---
-description: Configuration requise et comparaison entre Analysis Workspace, les rapports et analyses, les analyses ad hoc, le créateur de rapports, l’entrepôt de données et les outils de données
-solution: Analytics
+description: Cette rubrique présente la configuration système requise et compare Analysis Workspace, les Reports & Analytics, les Ad Hoc Analysis, le Report Builder, Data Warehouse et Data Workbench.
 title: Configuration requise et comparaison des produits Analytics
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Configuration requise et comparaison des produits Analytics
 
-Configuration requise et comparaison entre Analysis Workspace, les rapports et analyses, les analyses ad hoc, le créateur de rapports, l’entrepôt de données et les outils de données
+Cette rubrique présente la configuration système requise et compare Analysis Workspace, les Reports &amp; Analytics, les Ad Hoc Analysis, le Report Builder, Data Warehouse et Data Workbench.
 
-For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
+Pour savoir quel produit Adobe Analytics utiliser, accédez à ce [lien](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
   <tr> 
    <td> <b>Nom du produit et lien d’aide</b> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/"> Analysis Workspace </a> </td> 
-   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html"> Reports &amp; Analytics </a> </td> 
+   <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html"> Reports &amp; Analytics </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/"> Ad Hoc Analysis </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/arb/index.html"> Report Builder </a> </td> 
-   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"> Data Warehouse </a> </td> 
+   <td colname="col06"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"> Data Warehouse </a> </td> 
    <td colname="col6"> <a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
@@ -31,7 +30,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> Solution de navigateur pour créer des projets d’analyse personnalisés et fiables, et démocratiser les informations. </td> 
    <td> Solution de navigateur pour les analyses digitales. </td> 
    <td> Outil Java pour des analyses digitales avancées. </td> 
-   <td> Module complémentaire Excel qui permet de créer des requêtes personnalisées à partir des rapports et analyses et de les visualiser à l’aide de Microsoft Excel. </td> 
+   <td> Module complémentaire Excel qui permet de créer des requêtes personnalisées à partir des Reports &amp; Analytics et de les visualiser à l’aide de Microsoft Excel. </td> 
    <td colname="col06"> Solution de navigateur qui génère des rapports au format <span class="filepath">.csv</span>. Peut générer des fichiers de format Tableau. </td> 
    <td colname="col6"> Outil d’analyse multicanal pour des analyses avancées, comme la modélisation d’attribution personnalisée, l’analyse prédictive et l’analyse client avec vue à 360 degrés. </td> 
   </tr> 
@@ -154,12 +153,12 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   </tr> 
   <tr> 
    <td> <b>Configuration système requise</b> </td> 
-   <td> <p>Navigateur </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Plus... </a> </p> </td> 
-   <td> <p>Navigateur </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Plus... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> Plus... </a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> Plus... </a> </p> </td> 
-   <td colname="col06"> Navigateur et programme pour ouvrir des fichiers <span class="filepath">.csv</span> (MS Excel, par exemple). Peut générer des fichiers de format Tableau. </td> 
-   <td colname="col6"> Windows 64 bits, carte graphique de qualité pour OpenGL 3.2 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">Plus... </a></u> ) </td> 
+   <td> <p>Navigateur </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Plus...</a> </p> </td> 
+   <td> <p>Navigateur </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> Plus...</a> </p> </td> 
+   <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> Plus...</a> </p> </td> 
+   <td> <p>Windows, MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> Plus...</a> </p> </td> 
+   <td colname="col06"> Navigateur et programme pour ouvrir des fichiers <span class="filepath"> .csv</span> (MS Excel, par exemple). Peut générer des fichiers de format Tableau. </td> 
+   <td colname="col6"> Windows 64 bits, carte graphique de qualité pour OpenGL 3.2 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">Plus...</a></u>) </td> 
   </tr> 
  </tbody> 
 </table>
