@@ -1,12 +1,11 @@
 ---
 description: Cette section contient des conseils et des bonnes pratiques à l’intention des nouveaux utilisateurs de suites de rapports virtuelles.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Questions fréquentes sur les suites de rapports virtuelles
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Cette section contient des conseils et des bonnes pratiques à l’intention des
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Quels paramètres des suites de rapports virtuelles sont hérités de la suite de rapports parente ?</b> </td> 
+   <td colname="col1"> <b>Quels paramètres des suites de rapports virtuelles sont hérités de la suite de rapports parente ?</b>  </td> 
    <td colname="col2"> <p>Une suite de rapports virtuelle hérite de la plupart des niveaux de service de la suite de rapports parente, tels que les paramètres d’eVar, les règles de traitement, les classifications, etc. </p> <p>Les paramètres suivants <b>NE sont PAS</b> hérités : </p> 
     <ul id="ul_43B0637F095C480B82126C96BFF627FA"> 
      <li id="li_F3DF9D6B0B1A4A46B9D8B1CF2DA09BE3">Identifiant de suite de rapports </li> 
@@ -52,7 +51,7 @@ Cette section contient des conseils et des bonnes pratiques à l’intention des
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Comment les suites de rapports virtuelles sont-elles traitées dans l’Admin Console et l’API Admin ? Puis-je y enregistrer des fonctionnalités à l’instar des suites de rapports de base ?</b> </td> 
+   <td colname="col1"> <b>Comment les suites de rapports virtuelles sont-elles traitées dans l’Admin Console et l’API Admin ? Puis-je y enregistrer des fonctionnalités à l’instar des suites de rapports de base ?</b>  </td> 
    <td colname="col2"> <p>Non, les suites de rapports virtuelles <b>ne sont pas prises en charge pour la plupart des fonctionnalités d’administration</b>. Comme nous l’avons mentionné plus haut, une suite de rapports virtuelle hérite de la plupart des niveaux de service et des fonctionnalités (paramètres d’eVar, règles de traitement, classifications, par exemple). Pour modifier ces paramètres hérités dans une suite de rapports virtuelle, vous devez donc apporter les modifications à la suite de rapports parente. </p> <p>Par conséquent, les suites de rapports s’affichent <b>uniquement à cet emplacement</b> dans l’interface utilisateur : </p> 
     <ul id="ul_64CF126ACF39453A95BD9FC9D2CFA59B"> 
      <li id="li_08EBF87ADF13400C9DD3FFC2695F5CF9">Gestionnaire de suites de rapports virtuelles où vous pouvez créer et modifier des suites de rapports virtuelles. <p>( <span class="ignoretag"> <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Composants</span> &gt; <span class="uicontrol">Suites de rapports virtuelles </span> </span>) </p> </li> 
@@ -69,7 +68,7 @@ Cette section contient des conseils et des bonnes pratiques à l’intention des
   </tr> 
   <tr> 
    <td colname="col1"> <b> J’ai défini « démarrer une nouvelle visite au lancement » et un délai d’expiration plus long que celui de mon SDK. Pourquoi mes lancements sont-ils toujours largement inférieurs aux visites ?</b> </td> 
-   <td colname="col2"> <p> Si le délai d’expiration est supérieur à la valeur définie dans le SDK, il est très probable que votre application envoie des accès en arrière-plan et que ces accès soient enregistrés en tant que nouvelles visites. Vérifiez cela en utilisant la dimension de type accès de la suite de rapports parente pour voir s’il existe des accès en arrière-plan. </p> <p> <p>Remarque : Les accès en arrière-plan et de premier plan sont différenciés uniquement dans les version 4.13.6 et supérieures du SDK. Si vous utilisez une version inférieure, tous les accès s’affichent en premier plan. Si vous utilisez la version correcte du SDK, vous devez activer le paramètre <span class="uicontrol">Empêcher les accès en arrière-plan de commencer une nouvelle visite</span>. </p> </p> <p> <p>Remarque : Si vous avez désactivé le traitement hérité pour les accès en arrière-plan dans Admin Console, ils n’apparaîtront pas dans la suite de rapports parente mais apparaîtront dans la suite de rapports virtuelle. </p> </p> </td> 
+   <td colname="col2"> <p> Si le délai d’expiration est supérieur à la valeur définie dans le SDK, il est très probable que votre application envoie des accès en arrière-plan et que ces accès soient enregistrés en tant que nouvelles visites. Vérifiez cela en utilisant la dimension de type accès de la suite de rapports parente pour voir s’il existe des accès en arrière-plan. </p> <p> <p>Remarque : Les accès en arrière-plan et de premier plan sont différenciés uniquement dans les versions 4.13.6 et supérieures du SDK. Si vous utilisez une version inférieure, tous les accès s’affichent en premier plan. Si vous utilisez la version correcte du SDK, vous devez activer le paramètre <span class="uicontrol">Empêcher les accès en arrière-plan de commencer une nouvelle visite</span>. </p> </p> <p> <p>Remarque : Si vous avez désactivé le traitement hérité pour les accès en arrière-plan dans Admin Console, ils n’apparaîtront pas dans la suite de rapports parente mais apparaîtront dans la suite de rapports virtuelle. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> Quelle version du SDK dois-je avoir pour effectuer le suivi des accès en arrière-plan ?</b> </td> 
