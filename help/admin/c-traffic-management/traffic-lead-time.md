@@ -1,11 +1,10 @@
 ---
 description: Adobe requiert d’être informée à l’avance de la configuration de nouveaux comptes, ainsi que des pics et augmentations de trafic. Le matériel doit être alloué à l’avance afin de minimiser la latence et les impacts négatifs sur l’ensemble du système.
-solution: Analytics
 title: Délai d’avance requis pour les augmentations de trafic
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Adobe requiert d’être informée à l’avance de la configuration de nouveaux
 
 L’allocation du matériel dépend des alertes envoyées au moyen de l’interface utilisateur des Reports &amp; Analytics.
 
-> [!IMPORTANT] Adobe ne peut pas prendre en charge les demandes de modification du trafic "d’espace réservé". Sauf indication contraire, respectez autant que possible le délai d’avance proposé, y compris en n’envoyant pas d’alerte trop tôt. Voir [Planifier un pic](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de trafic ou [Spécifier une augmentation](/help/admin/c-traffic-management/t-traffic-permanent.md)permanente du trafic.
+> [!IMPORTANT] Adobe ne peut pas prendre en charge les demandes de modification du trafic « d’espace réservé ». Sauf indication contraire, respectez autant que possible le délai d’avance suggéré, y compris en n’envoyant pas d’alerte trop tôt. Voir [Prévision d’un pic de trafic](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ou [Indication d’une augmentation permanente du trafic](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Suivez les directives suivantes pour déterminer à quel moment envoyer une alerte de trafic :
 
@@ -37,16 +36,16 @@ Suivez les directives suivantes pour déterminer à quel moment envoyer une aler
    <td colname="col3"> Pas de délai d’avance requis </td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 - 5,000,000 </td>
+   <td colname="col1"> 1 000 000 - 5 000 000 </td>
    <td colname="col2"> Deux jours OUVRABLES </td>
-   <td colname="col3" morerows="3"> Toutes les augmentations de trafic prévues pour novembre-décembre doivent être soumises au plus tard le 1er septembre. Cela permet de conserver un délai pour acheter de la capacité, le cas échéant, pour s’adapter au trafic de la période des fêtes. </td>
+   <td colname="col3" morerows="3"> Toute augmentation de trafic prévue pour novembre-décembre doit être soumise au plus tard le 1er septembre. Cela permet de conserver un délai pour acheter de la capacité, le cas échéant, pour s’adapter au trafic de la période des fêtes. </td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 - 10,000,000 </td>
+   <td colname="col1"> 5 000 000 - 10 000 000 </td>
    <td colname="col2"> Une semaine calendaire </td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 - 25,000,000 </td>
+   <td colname="col1"> 10 000 000 - 25 000 000 </td>
    <td colname="col2"> Deux semaines calendaires </td>
   </tr>
   <tr>
@@ -67,6 +66,6 @@ Autres éléments à prendre en compte :
 
 * Les alertes client sont également requises lorsque le trafic augmente ou qu’une suite de rapports devient obsolète.
 
-## Réallocation matériel en raison d’un trafic non réalisé
+## Réallocation de matériel en raison d’un trafic non réalisé
 
-Le matériel pour les nouveaux comptes, les pics de trafic et les augmentations de trafic sera réaffecté si le trafic prévu dans l’alerte client ne se matérialise pas dans les 4 semaines suivant la date d’activation. Si le trafic est toujours attendu, une nouvelle alerte client doit être générée lorsque le trafic augmente.
+Le matériel pour les nouveaux comptes, pics et augmentations de trafic sera réalloué si le trafic prévu dans l’alerte client ne se matérialise pas sous quatre semaines à partir de la « date d’activation ». Si le trafic est toujours attendu, une nouvelle alerte client doit être générée lorsque le trafic augmente.
