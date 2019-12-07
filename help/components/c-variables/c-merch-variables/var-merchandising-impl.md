@@ -1,11 +1,10 @@
 ---
 description: Description de l’activation et de l’implémentation d’une variable de marchandisage.
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
-solution: Analytics
 title: Implémentation d’une variable de marchandisage
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,15 +15,15 @@ Description de l’activation et de l’implémentation d’une variable de marc
 
 ## Activation d’une variable de marchandisage
 
-Le marchandisage peut être activé pour toute eVar personnalisée sous Outils **[!UICONTROL d’]** administration &gt; Suites **[!UICONTROL de]** rapports &gt; Variables **[!UICONTROL de]** conversion.
+Le marchandisage peut être activé pour toute eVar personnalisée sous **[!UICONTROL Outils d’administration]** &gt; **[!UICONTROL Suites de rapports]** &gt; **[!UICONTROL Variables de conversion]**.
 
 ![](assets/merch-enable.png)
 
 | Paramètre | Description |
 |--- |--- |
 | Expire après | Définit la durée de vie des valeurs de marchandisage. |
-| Marchandisage | **** Syntaxe du produit : La valeur est définie dans `s.products`.<br>**** Syntaxe de la variable de conversion : La valeur est définie dans l’eVar de marchandisage désignée. |
-| Evénement de liaison de marchandisage (Syntaxe de la variable de conversion uniquement) | Indique à quel moment un produit doit être lié à la catégorie de marchandisage actuelle. Vous pouvez sélectionner plusieurs événements en maintenant la touche Ctrl enfoncée et en cliquant sur plusieurs éléments de la liste. Vous ne pouvez sélectionner un élément que lorsque le paramètre « Syntaxe de la variable de conversion » est actif. |
+| Marchandisage | **Syntaxe du produit** : valeur définie dans `s.products`.<br>**Syntaxe de la variable de conversion** : valeur définie dans l’eVar de marchandisage désignée. |
+| Evénement de liaison de marchandisage (Syntaxe de la variable de conversion uniquement) | Indique à quel moment un produit doit être lié à la catégorie de marchandisage actuelle. Il est possible de sélectionner plusieurs événements en cliquant sur plusieurs éléments de la liste tout en maintenant la touche Ctrl enfoncée. Vous ne pouvez sélectionner un élément que lorsque le paramètre « Syntaxe de la variable de conversion » est actif. |
 
 ## Implémentation à l’aide de la syntaxe du produit
 
@@ -43,7 +42,7 @@ s.events="prodView";
 s.products=";Snow Goggles;;;;eVar1=goggles";
 ```
 
-La valeur "lunettes de ski" pour eVar1 est affectée au produit "Lunettes de neige". Tous les événements de succès ultérieurs (ajouts de produits, passages en caisse, achats, etc.) qui concernent ce produit seront crédités à « lunettes de ski » (goggles).
+La valeur « lunettes de ski » pour eVar1 est affectée au produit « Snow Goggles ». Tous les événements de succès ultérieurs (ajouts de produits, passages en caisse, achats, etc.) qui concernent ce produit seront crédités à « lunettes de ski » (goggles).
 
 ## Implémentation à l’aide de la variable de syntaxe de conversion
 
@@ -53,13 +52,13 @@ Lorsque l’événement de liaison sélectionné en cours de configuration se pr
 
 ### du lien personnalisé
 
-Placez-le sur la même page ou sur la page précédente avant l’événement de liaison :
+Place sur la même page ou la page précédente avant l’événement de liaison :
 
 ```js
 s.eVar1="merchandising_category";
 ```
 
-Placez le curseur sur la page où survient l’événement de liaison :
+Place sur la page sur laquelle l’événement de liaison se produit :
 
 ```js
 s.events="prodView";
@@ -68,24 +67,24 @@ s.products="category;product";
 
 ### Exemple
 
-Page 1 de la visite :
+Sur la page 1 de la visite :
 
 ```js
 s.eVar1="Outdoors"
 ```
 
-Page 2 de la visite :
+Sur la page 2 de la visite :
 
 ```js
 s.events="prodView";
 s.products=";Snow Goggles";
 ```
 
-La valeur "Extérieur" pour eVar1 est affectée au produit "Lunettes de neige". Tous les événements de réussite suivants (ajouts de produit, passages en caisse, achats, etc.) qui impliquent ce produit sont crédités à "Lunettes de neige". De plus, la valeur actuelle de la variable de marchandisage sera liée à tous les produits ultérieurs, jusqu’à ce que l’une des conditions suivantes soit remplie :
+La valeur « Extérieur » pour eVar1 est affectée au produit « Snow Goggles ». Tous les événements de succès ultérieurs (ajouts de produits, passages en caisse, achats, etc.) qui concernent ce produit seront crédités à « lunettes de ski » (Snow goggles). De plus, la valeur actuelle de la variable de marchandisage sera liée à tous les produits ultérieurs, jusqu’à ce que l’une des conditions suivantes soit remplie :
 
 * Expiration de l’eVar (sur la base du paramètre « Expire après »)
 * L’eVar de marchandisage est remplacée par une nouvelle valeur.
 
 ## Informations supplémentaires externes
 
-[Marchandisage](https://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/) avancé de la syntaxe de conversion sur [!DNL analyticsdemystified.com]
+[Marchandisage Syntaxe de conversion avancée](https://analyticsdemystified.com/adobe-analytics/advanced-conversion-syntax-merchandising/) sur [!DNL analyticsdemystified.com]
