@@ -1,11 +1,10 @@
 ---
 description: Affiche le stade auquel chaque valeur a été déclenchée, en moyenne, au sein d’une visite. Cette mesure se révèle particulièrement utile pour déterminer le niveau auquel votre audience a atteint une page ou une valeur de propriété donnée au cours d’une visite. Profondeur moyenne de page est disponible sur toute variable dans laquelle le cheminement est activé.
-solution: Analytics
 title: Profondeur moyenne de page
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ La [!UICONTROL profondeur de page] vous permet de comprendre où aboutit génér
   </tr> 
   <tr> 
    <td colname="col1"> Conversion </td> 
-   <td colname="col2"> N/D </td> 
+   <td colname="col2"> S.O. </td> 
   </tr> 
  </tbody> 
 </table>
