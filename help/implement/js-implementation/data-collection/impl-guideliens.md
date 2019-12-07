@@ -1,12 +1,11 @@
 ---
 description: Si vous suivez ces instructions, les mêmes domaines de cookie sont utilisés, ce qui permet de suivre les visites entre différents types d’implémentation.
 keywords: Analytics Implementation
-solution: Analytics
 title: Instructions relatives à la mise en œuvre
 topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
