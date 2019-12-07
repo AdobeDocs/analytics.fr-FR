@@ -1,11 +1,10 @@
 ---
 description: Indique le nombre de paniers ouverts lors d’une période spécifiée. Vous pouvez exécuter des rapports afin d’analyser les paniers affichés, les ajouts, les suppressions et les passages en caisse. Un panier est généralement ouvert lorsqu’un client sélectionne un élément à acheter, mais il peut également être ouvert sans aucun élément.
-solution: Analytics
 title: Panier
 topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
