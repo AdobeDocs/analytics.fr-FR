@@ -1,11 +1,10 @@
 ---
 description: Les taux de conversion mesurent généralement la conversion entre le début, la fin et les événements ou points qui jalonnent un processus de conversion. Une fois les événements de succès codés sur votre site, le rapport crée les taux applicables et les présente dans un rapport Entonnoir de conversion.
-solution: Analytics
 title: Entonnoir de conversion
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,5 +32,5 @@ Ce rapport peut également être personnalisé. Vous pouvez ainsi ajouter des é
 
 Le tableau de rapport affiche des statistiques sur les ventes moyennes par clic publicitaire et sur le nombre moyen d’unités vendues par clic publicitaire. Vous pouvez ajouter des mesures et des événements personnalisés d’autres groupes de rapports à ces rapports. Ces entonnoirs présentent de nombreuses similitudes, mais ils sont basés sur des variables et des événements différents. Vous pouvez utiliser ces rapports pour afficher les tendances générales et les pourcentages d’utilisateurs qui déclenchent les événements spécifiques que vous indiquez. Vous pouvez également identifier les endroits où les utilisateurs ne poursuivent pas jusqu’aux événements, ce qui vous éclaire sur ce point précis dans le processus de conversion.
 
-> [!NOTE] Dans le contexte de ces rapports, les instances correspondent au nombre total de visites au cours desquelles une eVar ou un événement a été défini.
+> [!NOTE] Les instances dans le contexte de ces rapports équivalent au nombre total de visites où une eVar ou un événement a été défini.
 
