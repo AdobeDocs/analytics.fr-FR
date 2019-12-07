@@ -1,13 +1,12 @@
 ---
 description: Il s’agit de caractères et de chaînes qui sont interdits dans les variables JavaScript.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Caractères JavaScript interdits
 topic: Developer and implementation
 uuid: 04e3b4b4-7ff5-4673-8060-34302b6ee545
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
