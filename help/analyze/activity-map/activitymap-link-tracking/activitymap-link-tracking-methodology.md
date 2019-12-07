@@ -1,11 +1,10 @@
 ---
 description: Cette section s’adresse aux administrateurs Adobe Analytics. Elle se concentre sur les nouveaux paramètres de suivi des liens et sur la façon dont ils assurent l’unicité et la cohérence des liens entre les navigateurs et les appareils, ainsi que sur la manière dont ils améliorent la gestion du repositionnement des liens sur une page.
-solution: Analytics
 title: Méthodologie de suivi des liens
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Si le code HTML comprend une variable s_objectid, l’ID principal est remplacé
 
 * Innertext
 * Alttext
-* Title
+* Titre
 * Src
 * Action
 
@@ -118,7 +117,7 @@ Notez que ces variables sont répertoriées à titre de référence uniquement. 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nom de variable  </th> 
+   <th colname="col1" class="entry"> Nom de variable </th> 
    <th colname="col2" class="entry"> Exemple </th> 
    <th colname="col3" class="entry"> Description </th> 
   </tr> 
