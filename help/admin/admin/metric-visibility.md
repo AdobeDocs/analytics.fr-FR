@@ -1,10 +1,9 @@
 ---
 description: Vous pouvez masquer les mesures (intégrées) standard, les événements personnalisés et les événements intégrés dans le menu, les sélecteurs de mesure, le créateur de mesures calculées et le créateur de segments.
-solution: Analytics
 title: Visibilité des mesures
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,8 +12,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Vous pouvez masquer les mesures (intégrées) standard, les événements personnalisés et les événements intégrés dans le menu, les sélecteurs de mesure, le créateur de mesures calculées et le créateur de segments.
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [Plus...](/help/admin/admin/c-success-events/t-success-events.md)
-1. Set the Visibility column to either **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, or **[!UICONTROL Hidden Everywhere]**.
+1. Accédez à **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Événements de succès]**. [Plus...](/help/admin/admin/c-success-events/t-success-events.md)
+1. Définissez la colonne Visibilité sur **[!UICONTROL Visible partout]**, **[!UICONTROL Créateurs]** ou **[!UICONTROL Masqué partout**].
 
 Ce paramètre n’a aucun impact sur la collecte des données pour cette mesure ; il affecte uniquement sa visibilité dans l’interface utilisateur. Voici l’impact des paramètres sur la visibilité des mesures dans l’interface utilisateur :
 
@@ -36,7 +35,7 @@ Ce paramètre n’a aucun impact sur la collecte des données pour cette mesure�
      <li id="li_0C550B8F99C94620999331BBA1F3659C">Créateur de segments </li> 
      <li id="li_E2663CFA5F8541C39CE9A18173A074AC">Créateur de mesures calculées </li> 
     </ul> </td> 
-   <td colname="col3"> s.o. </td> 
+   <td colname="col3"> S.O. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Créateurs</b> </td> 
@@ -53,7 +52,7 @@ Ce paramètre n’a aucun impact sur la collecte des données pour cette mesure�
   </tr> 
   <tr> 
    <td colname="col1"> <b>Masqué partout</b> </td> 
-   <td colname="col2"> s.o. </td> 
+   <td colname="col2"> S.O. </td> 
    <td colname="col3"> 
     <ul id="ul_CB9780D567BD4DBA90C092DDA892BF41"> 
      <li id="li_CF90047F78FD4BB28E90E95B9B367445">Reports &amp; Analytics (menu et sélecteur de mesure) </li> 
