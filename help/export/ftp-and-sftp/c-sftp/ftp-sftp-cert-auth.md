@@ -1,11 +1,10 @@
 ---
 description: La connexion sans mot de passe aux comptes FTP n’est possible qu’avec une connexion SFTP et une autre méthode d’authentification. Ceci implique deux fichiers (l’un sur le compte FTP et l’autre sur votre ordinateur), appelés combinaison de clés publique/privée.
 keywords: ftp;sftp
-solution: Analytics
 title: Connexion à Adobe via SFTP sans mot de passe
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
