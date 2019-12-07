@@ -1,11 +1,10 @@
 ---
 description: Affichent des informations sur l’efficacité de vos efforts publicitaires. Ils identifient les types d’initiatives publicitaires qui suscitent le plus de trafic et les employés chargés de mener à bien ces initiatives.
-solution: Analytics
 title: Campagnes
 topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
