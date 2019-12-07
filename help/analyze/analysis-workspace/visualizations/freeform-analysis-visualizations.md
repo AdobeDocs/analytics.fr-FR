@@ -1,31 +1,30 @@
 ---
-description: Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
+description: Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Visualisations - Aperçu
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Visualisations - Aperçu
 
-Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
+Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
 
 [Types de visualisation dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
-## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
+## Panneau Visualisations {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Pour afficher le panneau Visualisations, cliquez sur **[!UICONTROL Visualisations]dans le panneau latéral.**
+Pour afficher le panneau Visualisations, cliquez sur **[!UICONTROL Visualisations]** dans le panneau latéral.
 
 ![Résultat de l’étape](assets/visualizations.png)
 
-Si vous utilisez Adobe Analytics, vous connaissez sans doute déjà la plupart des types de visualisation (les graphiques de surface, à barres, en anneau, en courbes). Néanmoins, Analysis Workspace fournit des paramètres de visualisation et de nombreux types de visualisation nouveaux ou uniques, dotés de fonctionnalités interactives.
+Si vous utilisez Adobe Analytics, vous connaissez sans doute déjà la plupart des types de visualisation (les graphiques de surface, à barres, en anneau, en courbes). Néanmoins, Analysis Workspace fournit des paramètres de visualisation et de nombreux types de visualisation nouveaux ou uniques, dotés de fonctionnalités interactives.
 
-## Visualization settings {#section_D3BB5042A92245D8BF6BCF072C66624B}
+## Paramètres de visualisation {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
 Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une visualisation sur le [!UICONTROL panneau Structure libre], puis cliquez sur l’icône d’engrenage [!UICONTROL Paramètres de visualisation].
 
@@ -69,7 +68,7 @@ Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Afficher l’axe double </p> </td> 
-   <td colname="col2"> <p>S’applique uniquement si vous avez deux mesures : vous pouvez avoir un axe des ordonnées à gauche (pour une mesure) et à droite (pour l’autre mesure). </p> </td> 
+   <td colname="col2"> <p>S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des ordonnées sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Afficher les anomalies </p> </td> 
@@ -78,13 +77,13 @@ Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une 
  </tbody> 
 </table>
 
-## Create Visual icon {#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## Icône Créer un visuel {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-Si vous ne savez pas quelle visualisation choisir, cliquez sur l’icône **[!UICONTROL Créer un visuel]dans une ligne de tableau.** Cette icône s’affiche quand vous pointez sur la ligne du tableau. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Si, par exemple, trois segments sont sélectionnés, un diagramme de Venn est créé. S’il y a plus de trois segments, un graphique à barres est créé. Pour d’autres types de données, cela peut aussi être un graphique linéaire, etc.
+Si vous ne savez pas quelle visualisation choisir, cliquez sur l’icône **[!UICONTROL Créer un visuel]** dans une ligne de tableau. Cette icône s’affiche quand vous pointez sur la ligne du tableau. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Si, par exemple, trois segments sont sélectionnés, un diagramme de Venn est créé. S’il y a plus de trois segments, un graphique à barres est créé. Pour d’autres types de données, cela peut aussi être un graphique linéaire, etc.
 
 ![](assets/create-visual.png)
 
-## Right-click visualization/panel menu {#section_05B7914D4C9E443F97E2BFFDEC70240C}
+## Clic droit sur le menu Visualisation/Panneau {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
 Les paramètres qui dépendent d’un graphique sont accessibles en cliquant avec le bouton droit de la souris près d’un en-tête de visualisation. Certains ou tous les paramètres suivants sont disponibles :
 
@@ -99,12 +98,12 @@ Les paramètres qui dépendent d’un graphique sont accessibles en cliquant ave
 | Réduire toutes les visualisations dans le panneau | Réduit toutes les visualisations dans ce panneau de projet. |
 | Développer tous les panneaux | Développe tous les projets du panneau. |
 | Développer toutes les visualisations dans le panneau | Développe toutes les visualisations dans ce panneau de projet. |
-| Modifier la description | Permet d’ajouter (ou de modifier) une description textuelle de la visualisation ou du panneau. Cette description s’affiche sous Projet &gt; Informations et paramètres du projet . |
+| Modifier la description | Permet d’ajouter (ou de modifier) une description textuelle de la visualisation ou du panneau. Cette description s’affiche sous Projet &gt; Informations et paramètres du projet. |
 | Obtenir un lien vers le panneau | Permet de renvoyer un utilisateur vers un panneau spécifique dans un projet. |
 | Obtenir le lien de la visualisation | Permet de copier et de partager le lien pour permettre à d’autres personnes d’accéder directement à cette visualisation. Les utilisateurs devront se connecter. |
 | Recommencer | (Flux, diagramme de Venn, histogramme) Permet de supprimer la configuration de la visualisation actuelle et ouvre un nouveau panneau d’où vous pouvez la reconfigurer. |
 
-## Edit legend labels {#section_94F1988CB4B9434BA1D9C6034062C3DE}
+## Modifier des étiquettes de légende {#section_94F1988CB4B9434BA1D9C6034062C3DE}
 
 Permet de renommer les séries dans les légendes de visualisation (Abandons, Surface, Aires empilées, Barre, Barres empilées, Anneau, Histogramme, Barre horizontale, Barres empilées horizontales, Ligne, Graphique de dispersion et Venn) afin de créer un environnement plus convivial.
 
@@ -118,6 +117,6 @@ Par exemple, pour modifier une étiquette de légende dans un graphique en ligne
    ![](assets/edit-label.png)
 
 1. Saisissez le nouveau texte de l’étiquette.
-1. Appuyez sur **[!UICONTROL Entrée]pour enregistrer.**
+1. Appuyez sur **[!UICONTROL Entrée]** pour enregistrer.
 
 Suivez le [lien vers la vidéo](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) relative à cette rubrique.
