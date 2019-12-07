@@ -1,19 +1,18 @@
 ---
-description: Découvrez comment affecter des montants de coût et de budget aux canaux.
-solution: Analytics
+description: Découvrez comment attribuer des montants de coût et de budget aux canaux.
 subtopic: Marketing channels
 title: Coûts et budgets
 topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Coûts et budgets
 
-Découvrez comment affecter des montants de coût et de budget aux canaux.
+Découvrez comment attribuer des montants de coût et de budget aux canaux.
 
 Les coûts représentent ce que vous dépensez pour le canal. Le budget représente le montant disponible à dépenser.
 
@@ -29,17 +28,17 @@ Après l’ajout des éléments de coût et de budget, vous pouvez exporter les 
 
 Ajoutez des éléments de coûts et de budget aux canaux marketing.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
 1. Sur la page [!UICONTROL Gestionnaire de Report Suites], sélectionnez une suite de rapports.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Costs]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Canaux marketing]** &gt; **[!UICONTROL Coûts du canal marketing]**.
 1. Sur la page [!UICONTROL Coûts du canal marketing]**, cliquez sur[!UICONTROL Ajouter l’élément Cost]** ou **[!UICONTROL Ajouter l’élément Budget]**.
 1. Cliquez sur **[!UICONTROL Enregistrer.]**
 
    Pour continuer à ajouter des éléments de coûts, cliquez sur **[!UICONTROL Enregistrer et ajouter un autre élément]**.
 
-1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
+1. (Facultatif) Pour exporter ou importer des fichiers CSV, accédez à la page [!UICONTROL Coûts du canal marketing], cliquez sur **[!UICONTROL Exporter un fichier]** ou **[!UICONTROL Importer un fichier]**, puis suivez les invites.
 
-## Marketing Channel costs - definitions {#mktg-channel-costs}
+## Coûts du canal marketing - Définitions {#mktg-channel-costs}
 
 Définition des champs relatifs aux coûts ou budgets de canal marketing.
 
