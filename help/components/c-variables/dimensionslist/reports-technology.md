@@ -1,11 +1,10 @@
 ---
 description: Ces rapports affichent des informations sur les navigateurs, les systèmes d’exploitation, les résolutions d’écran, etc. utilisés par les visiteurs.
-solution: Analytics
 title: Technologie
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,7 +43,7 @@ Ces rapports affichent des informations sur les navigateurs, les systèmes d’e
   </tr> 
   <tr> 
    <td colname="col1"> Intensités de couleur d’écran </td> 
-   <td colname="col2"> <p> Affiche les paramètres de profondeur de couleur les plus utilisés par vos visiteurs, tels que configurés sur leur ordinateur. La profondeur de couleur correspond au nombre de couleurs affichables à l’écran. </p> </td> 
+   <td colname="col2"> <p> Indique le nombre de couleurs le plus souvent configuré sur les ordinateurs des visiteurs. La profondeur de couleur correspond au nombre de couleurs affichables à l’écran. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Résolutions d’écran </td> 
@@ -60,7 +59,7 @@ Ces rapports affichent des informations sur les navigateurs, les systèmes d’e
   </tr> 
   <tr> 
    <td colname="col1"> Version JavaScript </td> 
-   <td colname="col2"> <p> Affiche les versions de JavaScript utilisées par les navigateurs de vos visiteurs lors de la consultation de votre site. </p> </td> 
+   <td colname="col2"> <p> Affiche les versions de JavaScript des navigateurs des visiteurs qui consultent votre site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookies </td> 
