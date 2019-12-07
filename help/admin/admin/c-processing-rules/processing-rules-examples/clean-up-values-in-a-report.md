@@ -1,12 +1,11 @@
 ---
 description: Vous pouvez rechercher les fautes d’orthographe courantes dans les valeurs et les mettre à jour afin qu’elles s’affichent correctement dans les rapports.
-solution: Analytics
 subtopic: Processing rules
 title: Nettoyer les valeurs d’un rapport
 topic: Admin tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
