@@ -1,12 +1,11 @@
 ---
 description: valeur nulle
-solution: Analytics
 subtopic: Alerts
 title: Alertes
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Alertes {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-En tant que nouveau système d’alerte pour l’ensemble d’Adobe Analytics, les alertes intelligentes vous permettent de créer et de gérer des alertes, avec un aperçu des alertes et une contribution aux règles. Vous pouvez :
+En tant que nouveau système d’alerte pour l’ensemble d’Adobe Analytics, les alertes intelligentes vous permettent de créer et de gérer des alertes, avec un aperçu des alertes et une contribution aux règles. Vous pouvez
 
 * Créer des alertes en fonction des anomalies (seuils de 90 %, 95 % ou 99 % ; % de changement ; au-dessus/au-dessous).
 * Prévisualiser le nombre de fois où une alerte sera déclenchée.
@@ -83,7 +82,7 @@ deprecated_alerts.xml
    <td colname="col3"> <p>Dans le nouveau Gestionnaire d’alertes, certaines alertes Visiteurs uniques en fonction du temps ne sont plus prises en charge. Par exemple, lorsque auparavant vous configuriez une alerte hebdomadaire pour les visiteurs uniques par jour, vous pouvez à partir de maintenant configurer une alerte quotidienne, hebdomadaire, etc. pour la mesure Visiteurs uniques. (Analysis Workspace prend en charge une mesure Visiteurs uniques, mais pas les mesures Visiteurs uniques par jour/semaine/mois/etc.). </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rechercher </p> </td> 
+   <td colname="col1"> <p>Recherche </p> </td> 
    <td colname="col2"> <p>Permet de créer des alertes pour un rapport de dimension sur lequel une recherche est appliquée. S’applique seulement aux Totaux (Tous les éléments) ou aux 1 000 premiers éléments. </p> <p> </p> </td> 
    <td colname="col3"> <p>N’est plus disponible dans le nouveau Gestionnaire d’alertes. </p> </td> 
   </tr> 
