@@ -1,11 +1,10 @@
 ---
 description: Descriptions des types de rapport utilisés dans Experience Cloud.
-solution: Analytics
 title: Types de rapports
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -119,7 +118,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs atteints par les utilisateurs. C’est également vrai pour les domaines de votre site web. For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`.
+Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs atteints par les utilisateurs. C’est également vrai pour les domaines de votre site web. Vous pouvez, par exemple, voir le nombre d’utilisateurs qui sont passés de `https://www.mysite.com` à `https://info.mysite.com`ou `https://sales.mysite.com`.
 
 ## Flux de section suivante {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -170,7 +169,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs que les utilisateurs ont atteints. C’est également vrai pour les domaines de votre site web. For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`.
+Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs que les utilisateurs ont atteints. C’est également vrai pour les domaines de votre site web. Vous pouvez, par exemple, voir le nombre d’utilisateurs qui sont passés de `www.mysite.com` à `info.mysite.com`ou `sales.mysite.com`.
 
 ## Rapports Entonnoir de conversion {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
@@ -193,7 +192,7 @@ Le tableau de rapport affiche des statistiques sur les ventes moyennes par clic 
 
 ## Rapport Analyse de site {#concept_65694C6BDE424714B7975764F95497A4}
 
-Le rapport [!UICONTROL Analyse de site] indique le cheminement des visiteurs dans des pages et événements spécifiés. Vous pouvez, par exemple, afficher le flux de trafic entre des pages, l’affinité entre les produits et les canaux marketing, ainsi que la manière dont les campagnes et canaux débouchent sur des commandes de produits. Vous pouvez faire glisser des pages, des éléments de dimension (et des listes), ainsi que des événements de mesure. Chaque cylindre représente un ou plusieurs éléments de dimension (pages) ou un événement. Les flèches représentent le flux entre les valeurs de cylindre. Les mesures sont affectées à des positions de cylindre (X et Y), une largeur de cylindre, une hauteur de cylindre et une couleur. La position, la taille et la couleur varient en fonction des valeurs de la mesure.
+[!UICONTROL Le rapport Analyse de site indique le cheminement des visiteurs dans des pages et événements spécifiés. ] Vous pouvez, par exemple, afficher le flux de trafic entre des pages, l’affinité entre les produits et les canaux marketing, ainsi que la manière dont les campagnes et canaux débouchent sur des commandes de produits. Vous pouvez faire glisser des pages, des éléments de dimension (et des listes), ainsi que des événements de mesure. Chaque cylindre représente un ou plusieurs éléments de dimension (pages) ou un événement. Les flèches représentent le flux entre les valeurs de cylindre. Les mesures sont affectées à des positions de cylindre (X et Y), une largeur de cylindre, une hauteur de cylindre et une couleur. La position, la taille et la couleur varient en fonction des valeurs de la mesure.
 
 <!-- 
 
@@ -209,7 +208,7 @@ Cliquez avec le bouton droit sur des cylindres pour les modifier ou les supprime
 
 | Option | Description |
 |--- |--- |
-| Afficher l’analyse de site à (Visite ou Visiteur) | Permet de basculer entre la vue Visite et Visiteur afin d’analyser le cheminement du visiteur. Ces paramètres vous aident à mieux comprendre l’engagement du visiteur au niveau de la visite, entre les différentes visites. Le cheminement du visiteur est pris en charge dans les rapports Analyse de site, Flux et Abandon. Si vous modifiez ce paramètre, le rapport est exécuté à nouveau, limitant ainsi les données à la sélection. |
+| Afficher l’analyse de site à (Visite ou Visiteur) | Permet de basculer entre Visite et Visiteur afin d’analyser le cheminement du visiteur. Ces paramètres vous aident à mieux comprendre l’engagement du visiteur au niveau de la visite, entre les différentes visites. Le cheminement du visiteur est pris en charge dans les rapports Analyse de site, Flux et Abandon. Si vous modifiez ce paramètre, le rapport est exécuté à nouveau, limitant ainsi les données à la sélection. |
 | Ajouter un point de contrôle | Affiche l’Éditeur de point de contrôle qui vous permet de sélectionner des dimensions ou des événements à afficher à l’écran. |
 | Remplacer le graphique | Remplace le graphique Analyse de site par les points de contrôle ajoutés à l’éditeur. |
 | Ajuster à l’écran | Rétablit l’affichage initial du graphique. |
