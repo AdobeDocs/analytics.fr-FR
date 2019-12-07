@@ -1,12 +1,11 @@
 ---
 description: La gestion des groupes et des utilisateurs de rapports sur la page Gestion utilisateur vous permet de gérer des utilisateurs et des groupes, ainsi que de contrôler l’accès aux rapports, outils et suites de rapports.
-solution: Analytics
 subtopic: Users and groups
 title: Gestion des utilisateurs - Aperçu
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outils d’administration]** &gt; **[!UICONTROL Gestion des utilisateurs]** sera retiré.
 
 La gestion des groupes et des utilisateurs de rapports sur la page Gestion utilisateur vous permet de gérer des utilisateurs et des groupes, ainsi que de contrôler l’accès aux rapports, outils et suites de rapports.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Gestion des **** utilisateurs &gt; **[!UICONTROL Modifier les utilisateurs]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Gestion des utilisateurs]** &gt; **[!UICONTROL Modifier les utilisateurs]**
 
 ## Descriptions des comptes d’utilisateurs {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -80,7 +79,7 @@ Crée un tableau de bord par défaut pour une suite de données spécifique.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Utilisateur</span> </td> 
-   <td colname="col2"> <p> N’accorde à l’utilisateur que les autorisations de groupe sélectionnées. Sélectionnez les groupes de votre choix dans le champ <span class="uicontrol">Groupes disponibles</span> (à gauche), puis cliquez sur <span class="uicontrol">Ajouter</span>. Les groupes affectés apparaissent dans le champ <span class="uicontrol">Groupes affectés</span> (à droite). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> N’accorde à l’utilisateur que les autorisations de groupe sélectionnées. Sélectionnez les groupes de votre choix dans le champ <span class="uicontrol"> Groupes disponibles</span> (à gauche), puis cliquez sur <span class="uicontrol"> Ajouter</span>. Les groupes affectés apparaissent dans le champ <span class="uicontrol"> Groupes affectés</span> (à droite). Pour plus d’informations sur la création de groupes, reportez-vous à la rubrique <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groupes</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
