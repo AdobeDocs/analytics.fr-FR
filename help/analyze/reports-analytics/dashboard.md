@@ -1,12 +1,11 @@
 ---
 description: Un tableau de bord est une série de rapports miniatures nommés mini-rapports. Il s’avère particulièrement utile s’il contient des mini-rapports connexes, qui fournissent des vues d’ensemble complètes de certains aspects de votre site (méthodes de recherche, profils du visiteur, etc.).
-solution: Analytics
 subtopic: Dashboards
 title: Tableaux de bord et mini-rapports
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -50,9 +49,9 @@ Ce tableau de bord présente un aperçu des mesures clés liées aux opérations
 * Pages de sortie
 * Pages les plus populaires
 * Sections du site les plus populaires
-* IPC/Mini-rapport de jauge
-* Mini-rapport texte
-* Mini-rapport récapitulatif pour la société
+* IPC/Petit rapport de jauge
+* Petit rapport texte
+* Petit rapport récapitulatif pour la société
 
 Utilisez le [!UICONTROL Gestionnaire de tableaux de bord] pour modifier et gérer les tableaux de bord et les activer pour DirectAccess.
 
@@ -185,7 +184,7 @@ t_dashboard_edit.xml
 1. Click **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]** &gt; *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
-| Pour : | Procédez comme suit : |
+| À | Procédez comme suit : |
 |--- |--- |
 | Modifier la suite de rapports d’un tableau de bord | Cliquez sur le menu dans l’en-tête d’Experience Cloud, puis sélectionnez une suite de rapports. |
 | Modifier la suite de rapports d’un mini-rapport | Dans le mini-rapport, cliquez sur le nom de la suite de rapports, puis sélectionnez une suite dans le menu [!UICONTROL Report Suite] |
@@ -210,7 +209,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Paramètres **** de l’entreprise.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Paramètres de la société]**.
 1. Sur la page [!UICONTROL Paramètres de la société]**, cliquez sur[!UICONTROL Co-marquer la suite Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. Sélectionnez l’image à télécharger, puis cliquez sur **[!UICONTROL Enregistrer.]**
