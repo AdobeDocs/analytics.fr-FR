@@ -1,11 +1,10 @@
 ---
 description: Affiche les vues chemin, ou le pourcentage et le nombre de fois où une page a été consultée dans les limites des chemins. Il se peut, par exemple, qu’une politique de confidentialité génère 10 000 pages vues au total, mais que seulement 500 d’entre elles soient immédiatement affichées avant une page d’accueil. Dans ce cas, vous verrez 500 vues chemin. Vous pouvez visualiser le rapport au niveau de la visite ou du visiteur. Le pourcentage de chaque page est affiché en regard de son nom. La largeur d’une ligne connectée à une page représente le pourcentage relatif des visites.
-solution: Analytics
 title: Flux page suivante
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
