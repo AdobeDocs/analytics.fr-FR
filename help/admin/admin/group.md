@@ -1,11 +1,10 @@
 ---
 description: Un groupe est un ensemble d’utilisateurs auxquels vous souhaitez attribuer un jeu commun d’autorisations et d’accès. Supposons, par exemple, que sur 50 utilisateurs de rapports marketing, seuls 20 d’entre eux doivent accéder à une Ad Hoc Analysis. Dans ce cas, vous pouvez créer un groupe pour ces 20 utilisateurs.
-solution: Analytics
 title: Gestion des groupes
 topic: Admin tools
 uuid: e5596397-f07b-4887-bd8c-6a6dea44a07c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,4 +13,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Un groupe est un ensemble d’utilisateurs auxquels vous souhaitez attribuer un jeu commun d’autorisations et d’accès. Supposons, par exemple, que sur 50 utilisateurs de rapports marketing, seuls 20 d’entre eux doivent accéder à une Ad Hoc Analysis. Dans ce cas, vous pouvez créer un groupe pour ces 20 utilisateurs.
 
-See [Groups](/help/admin/user-management2/c-user-groups/groups.md) for configuration information.
+Pour plus d’informations sur la configuration, voir [Groupes](/help/admin/user-management2/c-user-groups/groups.md).
