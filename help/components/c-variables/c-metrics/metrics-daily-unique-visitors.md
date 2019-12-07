@@ -1,11 +1,10 @@
 ---
 description: Nombre de visiteurs (comptabilisés une seule fois) ayant fréquenté votre site en une journée. La visite pour le rapport Visiteurs quotidiens uniques se termine à minuit pour le fuseau horaire sélectionné dans la suite de rapports.
-solution: Analytics
 title: Visiteurs uniques par jour
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
