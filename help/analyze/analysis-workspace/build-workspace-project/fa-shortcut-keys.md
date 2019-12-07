@@ -1,19 +1,18 @@
 ---
-description: Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dans Analysis Workspace.
+description: Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dans Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Touches de raccourci dans Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Touches de raccourci dans Analysis Workspace
 
-Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dans Analysis Workspace.
+Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dans Analysis Workspace.
 
 `CTRL` = Windows
 
@@ -58,7 +57,7 @@ Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dan
    <td colname="col2"> <p>ctrl (ou cmd) + maj + g </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Télécharger au format CSV </p> </td> 
+   <td colname="col1"> <p> Téléchargement au format CSV </p> </td> 
    <td colname="col2"> <p>ctrl (ou cmd) + maj + v </p> </td> 
   </tr> 
   <tr> 
