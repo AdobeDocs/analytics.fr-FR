@@ -1,12 +1,11 @@
 ---
 description: Avant de pouvoir afficher les canaux et leurs données dans le rapport, créez les canaux et les règles sous-jacentes qui traitent les données. Vous pouvez également créer des montants de coûts et de budget pour les canaux associés, et spécifier la durée souhaitée d’engagement du visiteur. Les tâches de configuration du rapport sont effectuées dans les Outils d’administration.
-solution: Analytics
 subtopic: Marketing channels
 title: À propos des canaux et des règles
 topic: Reports and analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,30 +22,30 @@ Adobe fournit plusieurs canaux prédéfinis au cours d’une [configuration auto
 
 >[!NOTE]
 >
->Adobe recommande de configurer votre rapport dans une suite de rapports que vous pouvez utiliser comme modèle à des fins de test. Le modèle sera ensuite utilisé pour appliquer les ensembles de canaux et de règles globalement à une ou plusieurs suites de rapports de production.
+>Adobe conseille de définir le rapport dans une suite de rapports à utiliser comme modèle pour les tests. Le modèle sera ensuite utilisé pour appliquer les ensembles de canaux et de règles globalement à une ou plusieurs suites de rapports de production.
 >
 >Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/t-template.md).
 
 Consultez les sections suivantes :
 
 * [Conditions préalables](/help/components/c-marketing-channels/c-channels-rules.md#prereqs)
-* [Remarques importantes sur le traitement](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
+* [Remarques importantes concernant le traitement](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
 ## Conditions préalables {#prereqs}
 
 En cas de besoin, contactez l’assistance clientèle pour obtenir de l’aide au sujet des conditions préalables :
 
-* In the Administration Console (General Account Settings), enable the **[!UICONTROL Conversion Level]** (e-commerce) option for the report suite.
+* Dans la Console d’administration (Paramètres généraux du compte), activez l’option **[!UICONTROL Niveau de conversion]** (commerce électronique) pour suite de rapports.
 
-   See [General Account Settings](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) in Analytics help for more information.
+   Pour plus d’informations, consultez la section [Paramètres généraux du compte](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) dans l’aide d’Analytics.
 
 * Configurez l’accès des groupes d’utilisateurs au rapport **[!UICONTROL Canal marketing]**.
 
-   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
+   Voir [Configuration de l’accès au groupe d’utilisateurs](/help/components/c-marketing-channels/t-user-groups.md).
 
-* Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
+* Vérifiez que le gestionnaire de compte a bien activé les **[!UICONTROL rapports Canal]** pour votre suite de rapports.
 
-## Important processing notes {#important-proc-rules}
+## Remarques importantes concernant le traitement {#important-proc-rules}
 
 * Le système traite les règles dans l’ordre spécifié ; lorsqu’une règle est vérifiée, le système cesse le traitement des règles restantes.
 * Les règles peuvent accéder aux variables que VISTA a définies, mais pas aux données que VISTA a supprimées.
