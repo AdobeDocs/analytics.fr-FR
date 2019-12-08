@@ -1,11 +1,10 @@
 ---
 description: Ce rapport permet de comparer des mesures afin de dégager les tendances. Par exemple, le nombre de vos visiteurs augmente-t-il proportionnellement au nombre de pages vues ?
-solution: Analytics
 title: Mesures clés
 topic: Reports
 uuid: 33e57c24-66e6-40a5-a1b0-dc6a66a74a1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
