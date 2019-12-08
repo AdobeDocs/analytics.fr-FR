@@ -1,11 +1,10 @@
 ---
 description: Répertorie les mesures standard dans Adobe Analytics.
-solution: Analytics
 title: Référence rapide sur les mesures
 topic: Metrics
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,11 +15,11 @@ Répertorie les mesures standard dans Adobe Analytics.
 
 >[!NOTE]
 >
->Toute mesure (événement) non répertoriée ci-dessous est une mesure [](/help/components/c-variables/c-metrics/metrics-custom.md) personnalisée (événement personnalisé).
+>Toute mesure (événement) non répertoriée ci-dessous est une [mesure personnalisée](/help/components/c-variables/c-metrics/metrics-custom.md) (événement personnalisé).
 
 >[!IMPORTANT]
 >
->Analysis Workspace ne fait plus la distinction entre les mesures de trafic et de conversion. Par conséquent, le type de mesure ne s’applique qu’aux outils tels que Rapports et analyses, Services Web 1.4 et Créateur de rapports.)
+>Analysis Workspace ne fait plus la distinction entre les mesures de trafic et de conversion. Par conséquent, le type de mesure ne s’applique qu’aux outils tels que les Reports &amp; Analytics, les services web 1.4 et le Report Builder.)
 
 | Nom de la mesure | Description | Type |
 |--- |--- |---|
@@ -44,7 +43,7 @@ Répertorie les mesures standard dans Adobe Analytics.
 | Instances | Nombre de fois où une valeur a été définie pour une variable. Les instances sont comptabilisées pour tous les types d’accès mais ne sont pas comptabilisées lorsqu’une valeur est enregistrée pour une variable sur un accès suivant en raison de la persistance. | Conversion |
 | Affichage à partir d’un appareil mobile | Nombre de fois qu’une page est affichée ou qu’une dimension est définie lors d’un accès par l’intermédiaire d’un appareil mobile. Ad Hoc Analysis uniquement. À la place de la mesure des affichages à partir d’un appareil mobile, nous recommandons d’appliquer le segment « Visites issues de périphériques mobiles ». | Conversion |
 | Nouveaux engagements | « Nouveaux engagements » est le nom d’une mesure de création de rapports Canal marketing qui comptabilise les nouveaux visiteurs provenant d’un canal. Cette mesure comptabilise également les visiteurs qui n’ont pas accédé à votre site au cours des 30 derniers jours. Un nouvel engagement est une variable eVar définie au début de chaque visite (allocation initiale). Les canaux Première touche peuvent également être de nouveaux engagements, en fonction du paramètre d’expiration de l’engagement des visiteurs. | Conversion |
-| Occurrences | Nombre de captures d’une valeur spécifique, plus le nombre de pages vues pour lesquelles la valeur donnée était persistante. En d’autres termes, « Occurrences » fait référence à la somme des pages vues et des événements de page. Les occurrences sont disponibles uniquement dans les Ad Hoc Analysis. | Non disponible dans les rapports et analyses, les services Web version 1.4 ou le créateur de rapports |
+| Occurrences | Nombre de captures d’une valeur spécifique, plus le nombre de pages vues pour lesquelles la valeur donnée était persistante. En d’autres termes, « Occurrences » fait référence à la somme des pages vues et des événements de page. Les occurrences sont disponibles uniquement dans les Ad Hoc Analysis. | Non disponible dans les Reports &amp; Analytics, les services web 1.4 et le Report Builder |
 | Commandes | Nombre de commandes passées sur votre site web au cours d’une période sélectionnée. Vous pouvez ventiler les périodes individuelles en fonction d’autres mesures afin d’afficher les éléments (produits ou campagnes) qui ont contribué à la majorité des commandes pendant cette période. | Conversion |
 | Profondeur de page | Nombre moyen de clics dont les utilisateurs ont besoin pour atteindre une certaine page du site web. | Trafic |
 | Événements de pages | Les événements de pages se composent de données de requête d’image provenant de requêtes non standard. Le suivi de liens personnalisés, les liens de sortie et les liens personnalisés sont autant de sources de ces requêtes non standard. | Trafic |
@@ -56,8 +55,8 @@ Répertorie les mesures standard dans Adobe Analytics.
 | Recettes | Les recettes sont capturées lors de l’événement d’achat et définies comme le montant total de la commande pour chaque article. Cette valeur provient de l’événement purchase. | Conversion |
 | Recherches | Il ne s’agit pas d’une mesure par défaut. C’est toujours une mesure personnalisée.  Il s’agit de la mesure par défaut conseillée pour les moteurs de recherche et les mots-clés. Cette mesure représente les instances d’un clic publicitaire et montre la page associée à un moteur ou à un mot-clé spécifique. Les données de la mesure Recherches peuvent faire l’objet d’un rapport rétroactivement depuis le début du jeu de données. | Conversion |
 | Accès unique | L’accès unique se définit par le nombre de visites sur votre site qui contiennent une seule valeur Nom de page unique. Si un utilisateur se rend sur votre site et clique sur un lien suivi, déclenche un événement (un affichage de vidéo, par exemple) ou recharge la page, la visite est toujours considérée comme une visite Accès unique. Tant que la valeur de la variable pageName reste inchangée, n’importe quel nombre de requêtes peut être envoyé et la visite est toujours considérée comme un accès unique. | Trafic |
-| Durée de la visite | Mesures qui génèrent des rapports sur le temps passé par les visiteurs sur une page, sur un site ou par visite. | Trafic |
-| Total | Les mesures totales génèrent un rapport sur la valeur de tous les éléments du rapport pour une période rapportée. Si un filtre est actuellement sélectionné, le total peut correspondre au total filtré plutôt qu’au total de la suite de rapports. Si aucun filtre n’est sélectionné, le total représente le total de la suite de rapports. | La version totale d’une mesure suit le type de la mesure de base. Par exemple, `totalpageviews` serait Trafic car `pageviews` est Trafic. |
+| Durée | Mesures qui génèrent des rapports sur le temps passé par les visiteurs sur une page, sur un site ou par visite. | Trafic |
+| Total | Les mesures totales génèrent un rapport sur la valeur de tous les éléments du rapport pour une période rapportée. Si un filtre est actuellement sélectionné, le total peut correspondre au total filtré plutôt qu’au total de la suite de rapports. Si aucun filtre n’est sélectionné, le total représente le total de la suite de rapports. | La version totale d’une mesure suit le type de la mesure de base. Par exemple, `totalpageviews` serait Trafic, car `pageviews` est Trafic. |
 | Client unique | (par heure, par jour, par semaine, par mois, par trimestre, par an)  Un client unique est comptabilisé une seule fois pour cette période, mais il ne peut plus être comptabilisé, quel que soit le nombre de ses retours sur le site pour faire un achat. Un visiteur unique est comptabilisé une fois lors de la première visite au cours d’une période spécifiée, puis n’est plus comptabilisé jusqu’à l’expiration de la période. Une fois la période écoulée, il est de nouveau comptabilisé. Les clients uniques sont toujours comptabilisés en tant que visiteurs uniques, dans la mesure où ils doivent visiter le site pour faire un achat. | Conversion |
 | Visiteurs uniques | Présente le nombre total de visiteurs uniques pour la période des rapports (peut être par jour, par semaine, par mois, par trimestre et par an). | Conversion |
 | Unités | Nombre total d’unités commandées au cours d’une période sélectionnée. Étant donné que plusieurs unités peuvent être achetées par commande, « Unités » constitue une mesure importante qui traduit l’évolution générale des stocks. | Conversion |
