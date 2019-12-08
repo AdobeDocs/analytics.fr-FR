@@ -1,11 +1,10 @@
 ---
 description: Répertorie les mesures et les dimensions prises en charge par les rapports Temps réel. Si vous les avez définies, les classifications sont également prises en charge.
-solution: Analytics
 title: Mesures et dimensions en temps réel prises en charge
 topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
