@@ -1,12 +1,11 @@
 ---
 description: Cette rubrique fournit des réponses aux questions courantes.
-solution: Analytics
 subtopic: Data sources
 title: FAQ sur les sources de données
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
