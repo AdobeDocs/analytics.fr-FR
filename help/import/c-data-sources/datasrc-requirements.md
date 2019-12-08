@@ -1,12 +1,11 @@
 ---
 description: Informations sur les conditions requises pour votre suite de rapports avant d’utiliser les sources de données.
-solution: Analytics
 subtopic: Data sources
 title: Conditions requises et limites de transfert
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Les sections suivantes répertorient les contraintes qui s’appliquent aux sour
 * Seules les données avec des dates en cours ou passées peuvent être importées. Ne tentez pas d’utiliser des dates futures dans vos données de sources de données.
 * Pour chaque ligne, une date doit être spécifiée afin d’avoir accès aux fonctionnalités de représentation des rapports. Si une ligne ne comprend pas de date, la fonctionnalité Sources de données génère une erreur et rejette le fichier. Le format de date et d’heure varie en fonction du type de source de données :
 
-   * **Sources** de données à traitement complet : Utilisez le format de date ISO 8601 de `YYYY-MM-DDThh:mm:ss±UTC_offset` (par exemple, `2013-09-01T12:00:00-07:00`) ou le format de temps Unix (nombre de secondes écoulées depuis le 1er janvier 1970).
+   * **Sources** de données à traitement complet :Utilisez le format de date ISO 8601 de `YYYY-MM-DDThh:mm:ss±UTC_offset` (par exemple, `2013-09-01T12:00:00-07:00`) ou le format de temps Unix (nombre de secondes écoulées depuis le 1er janvier 1970).
 
    * **Sources** de données standard et d’intégration : Utilisez le format de date suivant : `MM/DD/YYYY/HH/mm/SS` (par exemple, `01/01/2013/06/00/00`)
 
@@ -52,7 +51,7 @@ La fonctionnalité Sources de données prend en charge le codage multioctet. Ell
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Format de caractère </th> 
-   <th colname="col2" class="entry"> Prise en charge </th> 
+   <th colname="col2" class="entry"> Support technique </th> 
   </tr> 
  </thead>
  <tbody> 
