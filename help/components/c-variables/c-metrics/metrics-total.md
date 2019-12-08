@@ -1,11 +1,10 @@
 ---
 description: La valeur de tous les articles de rapport pour une période rapportée. Si un filtre est actuellement sélectionné, le total peut correspondre au total filtré plutôt qu’au total de la suite de rapports. Si aucun filtre n’est sélectionné, le total représente le total de la suite de rapports.
-solution: Analytics
 title: Total
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ La valeur de tous les articles de rapport pour une période rapportée. Si un fi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
-   <td colname="col2"> <p>N/D </p> </td> 
+   <td colname="col2"> <p>S.O. </p> </td> 
   </tr> 
  </tbody> 
 </table>
