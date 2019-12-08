@@ -1,12 +1,11 @@
 ---
 description: La page Hiérarchies de classification permet de définir des hiérarchies de classification à utiliser pour créer un rapport portant le même nom.
-solution: Analytics
 subtopic: Classifications
 title: Hiérarchies de classification
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Par exemple, si une hiérarchie de produits contient Vêtements &gt; Vêtements 
 
 Créez les classifications avant de les ajouter à une hiérarchie.
 
-## Create a Classification Hierarchy {#task_3805EBCACC844261A7125D63D772CCDF}
+## Créer une hiérarchie de classification {#task_3805EBCACC844261A7125D63D772CCDF}
 
 <!-- 
 
@@ -35,13 +34,13 @@ t_classification_heirarchy.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Cliquez sur **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
-1. Dans la liste déroulante **Construire une hiérarchie pour**, sélectionnez la variable qui doit contenir une hiérarchie de classifications.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Hiérarchies de classification]**.
+1. Dans la liste déroulante **[!UICONTROL Construire une hiérarchie pour]**, sélectionnez la variable qui doit contenir une hiérarchie de classifications.
 
    La liste des classifications affiche automatiquement les classifications disponibles pour la variable sélectionnée.
-1. Déplacez une classification dans le champ **Faire glisser ici la racine de la nouvelle hiérarchie** afin de l’inclure dans la hiérarchie de classifications.
+1. Déplacez une classification dans le champ **[!UICONTROL Faire glisser ici la racine de la nouvelle hiérarchie]** afin de l’inclure dans la hiérarchie de classifications.
 
    Faites glisser les classifications dans la hiérarchie dans l’ordre dans lequel elles doivent y apparaître. La première classification est la racine de la hiérarchie, la seconde est la première sous-classification, etc.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
