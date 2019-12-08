@@ -1,11 +1,10 @@
 ---
 description: Comment ajouter, modifier, appliquer et filtrer des segments Adobe Analytics dans le Créateur de rapports.
-solution: Analytics
 title: Gestion des segments
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -69,15 +68,15 @@ Les filtres disponibles incluent :
 
 | Nom du filtre | Description |
 |---|---|
-| Balises | Permet de filtrer les segments selon des balises spécifiques. Notez que les filtres de type balise utilisent l’opérateur ET. Si vous cochez deux balises, le panneau de droite affiche les segments qui ont été marqués avec **les deux** balises. |
+| Balises | Permet de filtrer les segments selon des balises spécifiques balises. Notez que les filtres de type balise utilisent l’opérateur ET. Si vous cochez deux balises, le panneau de droite affiche les segments qui ont été marqués avec **les deux** balises. |
 | Propriétaires | Permet de filtrer les segments par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OU. Si vous cochez deux propriétaires, le panneau de droite affiche les segments qui sont possédés par **l’un** des propriétaires. |
 | Autres filtres &gt; Uniquement *le nom de la suite de rapports* | If you apply the "Only *report suite name*" filter in the Segment Builder in [!DNL marketing reports & analytics], and then display the Advanced Filter in [!DNL report builder], the Advanced filter will display the segment for the selected report suite only. |
 | Autres filtres &gt; À moi | Affiche tous les segments que vous possédez. |
-| Autres filtres &gt; Partagé avec moi | Affiche tous les segments que les autres ont partagés avec vous. |
+| Autres filtres &gt; Partagés avec moi | Affiche tous les segments que d’autres ont partagé avec vous. |
 | Autres filtres &gt; Favoris | Affiche tous les segments que vous avez marqués comme Favoris. |
-| Autres filtres &gt; Approuvés | Affiche tous les segments officiellement acceptés. |
+| Autres filtres &gt; Approuvés | Affiche toutes les mesures approuvés. |
 
-## Ajout d’un contrôle de segments à un classeur {#section_E3E5149A8464441FA5445A98DBD520AC}
+## Ajouter un contrôle de segments à un classeur {#section_E3E5149A8464441FA5445A98DBD520AC}
 
 L’ajout d’un contrôle de segments vous permet de basculer entre les segments dans un classeur au lieu d’avoir à accéder à l’Assistant Requête.
 
@@ -115,7 +114,7 @@ Dans la version 5.4 du Créateur de rapports, vous pouvez ajouter, supprimer et
 
    | Option | Description |
    |---|---|
-   | Ajouter un segment | Vous permet de choisir un ou plusieurs segments à ajouter à la liste du ou des segments actifs. |
+   | Ajouter Segment | Vous permet de choisir un ou plusieurs segments à ajouter à la liste du ou des segments actifs. |
    | Remplacer les segments | Vous permet de choisir quel(s) segment(s) remplacer par un ou plusieurs segments. |
    | Remplacer tous les segments par | Vous permet de choisir un ou plusieurs segments à remplacer par le ou les segments actifs. |
    | Supprimer les segments | Vous permet de supprimer les segments des demandes. |
