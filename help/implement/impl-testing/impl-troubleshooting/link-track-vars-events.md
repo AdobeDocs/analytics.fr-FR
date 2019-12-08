@@ -1,12 +1,11 @@
 ---
 description: Une implémentation de suivi de liens réussie repose sur la maîtrise des variables s.linkTrackVars et s.linkTrackEvents. Vous pouvez ainsi transmettre des valeurs de variable personnalisée lors des opérations des utilisateurs.
 keywords: Analytics Implementation
-solution: Analytics
 title: Utilisation des variables s.linkTrackVars et s.linkTrackEvents
 topic: Developer and implementation
 uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
