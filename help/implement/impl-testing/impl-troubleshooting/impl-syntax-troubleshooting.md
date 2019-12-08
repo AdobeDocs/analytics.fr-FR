@@ -1,13 +1,12 @@
 ---
 description: Le tableau ci-dessous montre les erreurs de code courantes et le code correct.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Erreurs de syntaxe courantes
 topic: Developer and implementation
 uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
