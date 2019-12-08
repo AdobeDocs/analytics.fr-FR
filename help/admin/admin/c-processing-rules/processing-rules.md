@@ -1,12 +1,11 @@
 ---
 description: Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports.
-solution: Analytics
 subtopic: Processing rules
 title: Règles de traitement - Aperçu
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -34,14 +33,14 @@ Désormais, les administrateurs disposent des droits d’utiliser les règles de
 
 1. Si vous ne l’avez pas déjà fait, [créez un groupe](/help/admin/user-management2/c-user-groups/groups.md) qui inclut seulement les non-administrateurs qui doivent disposer de l’autorisation d’utiliser les règles de traitement.
 1. [Ajoutez les non-administrateurs à ce groupe](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
+1. Ensuite, sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Gestion des utilisateurs]** &gt; **[!UICONTROL Groupes]** &gt; **[!UICONTROL [nom du groupe]]** &gt; **[!UICONTROL Modifier]** &gt; **[!UICONTROL Accès aux rapports]** &gt; **[!UICONTROL Outils de suites de rapports]** &gt; **[!UICONTROL Personnaliser]** &gt; **[!UICONTROL Gestion des suites de rapports]**.
 1. Cochez la case en regard de [!UICONTROL Règles de traitement] et cliquez sur **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->Etant donné que les règles de traitement affectent de manière permanente les données Analytics, nous recommandons vivement aux administrateurs de règles de traitement de recevoir une formation de certification dans Adobe Analytics et de connaître toutes les sources de données pour vos suites de rapports (sites Web standard, sites mobiles, applications mobiles, API d’insertion de données, etc.). La connaissance des variables de données contextuelles et des variables standard renseignées sur différentes plateformes permettra de prévenir la suppression ou la modification accidentelle des données.
+>Les règles de traitement affectant en permanence les données d’Analytics, nous recommandons vivement que leurs administrateurs soient parfaitement formés à Adobe Analytics et connaissent toutes les sources de données de vos suites de rapports (sites web normalisés, sites mobiles, applications mobiles, API pour l’insertion de données, etc.). La connaissance des variables de données contextuelles et des variables standard renseignées sur différentes plateformes permettra de prévenir la suppression ou la modification accidentelle des données.
 
 ## Utilisation de données contextuelles afin de simplifier la collecte des données {#section_09EEA03612D24C15839631AA9E9668D8}
 
