@@ -1,11 +1,10 @@
 ---
 description: Vous pouvez planifier l’envoi des rapports en fonction de l’heure et du format de fichier définis.
-solution: Analytics
 title: Planification d’une requête de données
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,9 +44,9 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Champ | Description |
 |--- |--- |
 | Sélectionner le rapport | Nom du classeur. Dans le cas des nouveaux rapports programmés, ce champ contient le nom du classeur actif. |
-| Sélectionner | Affiche la page Sélectionner le rapport. Vous pouvez sélectionner un rapport sur le serveur (où sont stockés tous les classeurs déjà programmés) ou sur votre machine locale. Si vous sélectionnez un classeur sur le disque local au format .xls, le système convertit le fichier au format .xlsx. Dans le cadre de cette conversion, le fichier est ouvert dans Excel et rendu actif. Si le classeur sélectionné pour le rapport planifié porte le même nom de fichier que celui ouvert actuellement dans Excel, le système sélectionne le fichier local au lieu de celui transféré précédemment. Si vous sélectionnez un rapport dans le référentiel de planification, une copie du classeur est créée sur le serveur, avec son nom de fichier mis à jour avec 1. Le rapport planifié nouvellement créé utilise le classeur copié. |
+| Select | Affiche la page Sélectionner le rapport. Vous pouvez sélectionner un rapport sur le serveur (où sont stockés tous les classeurs déjà programmés) ou sur votre machine locale. Si vous sélectionnez un classeur sur le disque local au format .xls, le système convertit le fichier au format .xlsx. Dans le cadre de cette conversion, le fichier est ouvert dans Excel et rendu actif. Si le classeur sélectionné pour le rapport planifié porte le même nom de fichier que celui ouvert actuellement dans Excel, le système sélectionne le fichier local au lieu de celui transféré précédemment. Si vous sélectionnez un rapport dans le référentiel de planification, une copie du classeur est créée sur le serveur, avec son nom de fichier mis à jour avec 1. Le rapport planifié nouvellement créé utilise le classeur copié. |
 | Personnaliser | Vous permet de personnaliser le format de date. |
-| A | Affiche le Carnet d’adresses Outlook, le cas échéant. |
+| À | Affiche le Carnet d’adresses Outlook, le cas échéant. |
 | Envoyer à : Courriel | Le destinataire du courrier électronique du classeur. |
 | Envoyer à : Liste de publication | Répertorie les listes de distribution disponibles pour cette société. |
 | Power BI | Voir [Publier le classeur sur Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) pour en savoir plus. |
