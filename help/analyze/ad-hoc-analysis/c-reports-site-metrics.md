@@ -1,11 +1,10 @@
 ---
 description: Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
-solution: Analytics
-title: Rapports sur les mesures du site
+title: Mesures du site rapports
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
 
-## Rapports sur les mesures du site {#concept_0639CA16551749A693F49ADED4842CCE}
+## Mesures du site reports {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
 
@@ -128,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Chaque suite de rapports d’analyse étant unique, cet ensemble de rapports est utilisé différemment par chaque client. Un rapport [!UICONTROL Événement personnalisé] peut servir de compteur pour montrer le nombre de fois où un événement se produit. Si, par exemple, **[!UICONTROL événement1]** est défini pour compter le nombre de fois où un document est téléchargé, le rapport [!UICONTROL Événement personnalisé] pour l’événement 1 indique alors le nombre total de fois où l’événement (ou téléchargement) se produit. Vous pouvez créer plusieurs rapports d’événement personnalisé.
+Chaque suite de rapports d’analyse étant unique, cet ensemble de rapports est utilisé différemment par chaque client. Un rapport [!UICONTROL Événement personnalisé] peut servir de compteur pour montrer le nombre de fois où un événement se produit. Si, par exemple, **[!UICONTROL événement1]** est défini pour compter le nombre de fois où un document est téléchargé, le rapport Événement personnalisé pour l’événement 1 indique alors le nombre total de fois où l’événement (ou téléchargement) se produit.  Vous pouvez créer plusieurs rapports d’événement personnalisé.
 
 ## Rapports de conversion {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
