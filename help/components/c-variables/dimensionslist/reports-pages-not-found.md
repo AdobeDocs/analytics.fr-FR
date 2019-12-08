@@ -1,11 +1,10 @@
 ---
 description: Permet d’identifier les pages qui contiennent des liens rompus et de mesurer le trafic vers des pages qui n’existent pas. Ces pages sont généralement désignées sous le nom de pages 404. Vous pouvez utiliser ce rapport pour déterminer l’emplacement à partir duquel les visiteurs accèdent à ces pages, ainsi que la fréquence des accès.
-solution: Analytics
 title: Pages introuvables
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
