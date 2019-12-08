@@ -1,11 +1,10 @@
 ---
 description: Indique l’endroit où les visiteurs abandonnent et poursuivent la consultation d’une séquence de pages prédéfinie. Il affiche les taux de conversion et d’abandon entre deux étapes. Vous pouvez, par exemple, effectuer le suivi des points d’abandon d’un visiteur au cours d’un processus d’achat. Sélectionnez un point de départ et un point de conclusion, puis ajoutez des points intermédiaires pour créer un chemin de navigation sur le site web.
-solution: Analytics
 title: Abandon
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
