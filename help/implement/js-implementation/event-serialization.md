@@ -1,12 +1,11 @@
 ---
 description: La sérialisation des événements est le processus consistant à implémenter des mesures pour empêcher les événements en double d’entrer dans la création de rapports d’Analytics. Les doublons apparaissent généralement lorsqu’un utilisateur actualise la page plusieurs fois, navigue sur une certaine page à plusieurs reprises ou enregistre la page Web sur son ordinateur (par exemple, si un client enregistrait une page de confirmation d’achat sur son ordinateur, chaque fois qu’il la consulterait, les commandes et les recettes seraient comptabilisées à nouveau si la sérialisation des événements n’était pas en place).
 keywords: Analytics Implementation
-solution: Analytics
 title: Sérialisation des événements - Aperçu
 topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
