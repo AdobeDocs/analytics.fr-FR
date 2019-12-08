@@ -1,12 +1,11 @@
 ---
 description: Créez des règles de traitement des canaux marketing qui déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal.
-solution: Analytics
 subtopic: Marketing channels
 title: Création de règles de traitement des canaux marketing
 topic: Reports and analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,18 +16,18 @@ Créez des règles de traitement des canaux marketing qui déterminent si l’ac
 
 Elle utilise une règle de courriel comme exemple. Cet exemple part du principe que vous avez ajouté un canal de courriel à votre liste de canaux sur la page Gestionnaire de canaux marketing.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
 
    La page [!UICONTROL Canaux marketing : Configuration automatique] s’affiche si aucun canal n’est défini dans votre suite de rapports.
 
    Reportez-vous à la section [Exécution de la configuration automatique](/help/components/c-marketing-channels/c-channel-autosetup.md).
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Processing Rules]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Canaux marketing]** &gt; **[!UICONTROL Règles de traitement des canaux marketing]**.
 
    ![Résultat de l’étape](assets/marketing_channel_rules.png)
 
-1. Dans le menu **Ajouter un nouveau jeu de règles**, sélectionnez **[!UICONTROL Courriel]**.
+1. Dans le menu **[!UICONTROL Ajouter un nouveau jeu de règles]**, sélectionnez **[!UICONTROL Courriel]**.
 
    Dans le cas présent, vous ne sélectionnez pas le canal, mais le modèle qui renseigne quelques-uns des paramètres nécessaires de la règle.
 
@@ -42,7 +41,7 @@ Elle utilise une règle de courriel comme exemple. Cet exemple part du principe 
 
    `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
 
-   In this example, *`<value>`* is the query string parameter that you use for your email campaign, such as *`eml`*.
+   Dans cet exemple, *`<value>`* est le paramètre de chaîne de requête utilisé pour votre campagne par courrier électronique, tel que *`eml`*,
 1. Pour continuer à créer des règles, cliquez sur **[!UICONTROL Ajouter une règle]**.
 1. Pour classer les règles par priorité, faites-les glisser à l’emplacement souhaité.
 1. Cliquez sur **[!UICONTROL Enregistrer.]**
