@@ -1,11 +1,10 @@
 ---
 description: Affichent des informations sur les pages Web qui orientent le trafic vers votre site. Vous pouvez ainsi identifier les moteurs de recherche et sites Web en dehors de votre domaine qui conduisent les visiteurs vers votre site.
-solution: Analytics
 title: Sources de trafic
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -58,7 +57,7 @@ Les rapports dans ce menu sont répartis en trois catégories de base :
   </tr> 
   <tr> 
    <td colname="col1"> Classement de toutes les pages de recherche </td> 
-   <td colname="col2"> <p> Affiche le classement de votre site parmi toutes les listes de recherches de vos visiteurs, y compris les données de classement des pages de recherche payée et naturelle. </p> <p>Un utilisateur qui se rend sur votre site par l’intermédiaire d’un moteur de recherche peut, par exemple, vous avoir vu au tiers d’une centaine de pages de résultats. Vous pouvez ainsi jauger rapidement la situation et optimiser les efforts des moteurs de recherche. Les données de ce rapport peuvent être affichées pour toutes les périodes à l’exception de la période <span class="wintitle">Heure</span>. </p> </td> 
+   <td colname="col2"> <p> Affiche le classement de votre site parmi toutes les listes des recherches d’un visiteur, y compris les données de classement des pages de recherche payante et naturelle. </p> <p>Un utilisateur qui se rend sur votre site par l’intermédiaire d’un moteur de recherche peut, par exemple, vous avoir vu au tiers d’une centaine de pages de résultats. Vous pouvez ainsi jauger rapidement la situation et optimiser les efforts des moteurs de recherche. Les données de ce rapport peuvent être affichées pour toutes les périodes à l’exception de la période <span class="wintitle">Heure</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domaines référents </td> 
@@ -70,16 +69,16 @@ Les rapports dans ce menu sont répartis en trois catégories de base :
   </tr> 
   <tr> 
    <td colname="col1"> Référents </td> 
-   <td colname="col2"> <p> Affiche le domaine ou l’URL de provenance des visiteurs avant qu’ils arrivent sur votre site, les méthodes utilisées par les visiteurs pour trouver votre site web et le nombre de visites sur votre site qui proviennent de ces référents. </p> <p>Si, par exemple, un visiteur clique sur un lien du Site A et arrive sur votre site, le Site A est le référent s’il n’est pas défini comme faisant partie de votre domaine. Lors de l’implémentation, votre conseiller peut vous aider à définir les domaines et les URL qui font partie de votre site web (cette procédure peut également s’effectuer après l’implémentation). Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont considérés comme des référents. </p> <p>Si, par exemple, les pages Web A et B sont ajoutées au filtre URL interne, mais que la page web C ne l’est pas, cette dernière est considérée comme un référent. </p> <p>See <a href="/help/admin/admin/internal-url-filter-admin.md"> Internal URL Filters</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Les courriels en provenance d’Outlook sont signalés dans la ligne <span class="wintitle">Tapé/Marqué</span>, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne <span class="wintitle">Moteur de recherche</span>. </p> </td> 
+   <td colname="col2"> <p> Affiche le domaine ou l’URL de provenance des visiteurs avant qu’ils arrivent sur votre site, les méthodes utilisées par les visiteurs pour trouver votre site web et le nombre de visites sur votre site qui proviennent de ces référents. </p> <p>Si, par exemple, un visiteur clique sur un lien du Site A et arrive sur votre site, le Site A est le référent s’il n’est pas défini comme faisant partie de votre domaine. Lors de l’implémentation, votre conseiller peut vous aider à définir les domaines et les URL qui font partie de votre site web (cette procédure peut également s’effectuer après l’implémentation). Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont considérés comme des référents. </p> <p>Si, par exemple, les pages Web A et B sont ajoutées au filtre URL interne, mais que la page web C ne l’est pas, cette dernière est considérée comme un référent. </p> <p>Voir <a href="/help/admin/admin/internal-url-filter-admin.md"> Filtres d’URL internes</a></p>  <p>Remarque : Analytics considère un domaine référent comme courriel lorsque les visiteurs cliquent sur un lien de message envoyé par courriel contenant le protocole <code> imap://</code> ou <span class="filepath"> mail://</span> et arrivent sur votre site. </p> <p>Par exemple, les messages provenant de <code> https://mail.yahoo.com</code> ne sont pas considérés comme des référents « courriel », car le protocole est <span class="filepath"> https://</span>. Les courriels en provenance d’Outlook sont signalés dans la ligne <span class="wintitle">Tapé/Marqué</span>, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne <span class="wintitle">Moteur de recherche</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Types de référents </td> 
-   <td colname="col2"> <p> En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer comment les visiteurs ont trouvé votre site pour chaque visite. La liste ci-dessous définit les divers types de référents. </p> 
+   <td colname="col2"> <p> En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer de quelle façon les visiteurs sont parvenus sur votre site pour chaque visite. La liste ci-dessous définit les divers types de référents. </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> Les référents de disque dur sont enregistrés lorsque les visiteurs cliquent sur le lien d’un document HTML figurant sur leur disque dur et arrivent ainsi sur votre site. </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> D’autres référents de site web sont enregistrés lorsque les visiteurs cliquent sur un lien figurant sur la page d’un autre site (non défini comme faisant partie de votre site) et arrivent sur votre site. </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> Les référents de moteur de recherche sont enregistrés lorsque les visiteurs utilisent un moteur de recherche pour accéder à votre site. </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Les référents tapés/marqués sont enregistrés lorsque les visiteurs tapent directement l’URL de votre site dans leur navigateur ou lorsqu’ils accèdent à votre site en sélectionnant des signets. </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Les référents tapés/marqués sont comptabilisés quand un visiteur tape directement l’URL de votre site dans son navigateur ou qu’il y accède au moyen de ses signets. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
