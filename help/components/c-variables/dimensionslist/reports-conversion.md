@@ -1,11 +1,10 @@
 ---
 description: Fournit une analyse exhaustive, précise et détaillée de l’activité des clients. Les mesures proposées (gestion des campagnes, cycle de ventes, abandons et conversions de clients, par exemple) vous permettent de mesurer les transactions de commerce électronique, les sources des ventes, l’efficacité de la publicité, la fidélité de la clientèle, etc.
-solution: Analytics
 title: Conversion
 topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Fournit une analyse exhaustive, précise et détaillée de l’activité des cli
 
 Si vous souhaitez, par exemple, voir le type des campagnes internes de votre page d’accueil qui peuvent donner lieu à des achats, vous devez d’abord capturer les codes de suivi internes et définir la persistance sur une période équivalant à une visite pour la variable *`s.eVar`* qui capture les campagnes internes. Une fois un événement de succès terminé (un achat, par exemple), le crédit correspondant est attribué à toute variable de conversion qui persiste sur le visiteur, telle que l’ID de campagne interne. L’exécution du [!UICONTROL Rapport de campagne interne] vous permet d’identifier la campagne qui a généré le plus de conversions sur site.
 
-Certains des rapports prêts à l’emploi contiennent des mesures de trafic et de conversion (tels que les rapports [!UICONTROL Moteur de recherche]). Toutefois, les rapports [!UICONTROL Trafic] et [!UICONTROL Conversion] sont exclusifs à votre entreprise et s’affichent dans les menus **[!UICONTROL Trafic]** et **Conversion[!UICONTROL .]**
+Certains des rapports prêts à l’emploi contiennent des mesures de trafic et de conversion (tels que les rapports [!UICONTROL Moteur de recherche]). Toutefois, les rapports [!UICONTROL Trafic] et [!UICONTROL Conversion] sont exclusifs à votre entreprise et s’affichent dans les menus **[!UICONTROL Trafic]** et **[!UICONTROL Conversion]**.
 
 **Propriétés des rapports**
 
