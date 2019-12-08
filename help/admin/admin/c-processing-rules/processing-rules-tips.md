@@ -1,12 +1,11 @@
 ---
 description: Cette section contient des instructions relatives au test des règles de traitement, ainsi qu’une liste des erreurs courantes à éviter.
-solution: Analytics
 subtopic: Processing rules
 title: Astuces et conseils concernant les règles de traitement
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,15 +20,15 @@ Cette section contient des instructions relatives au test des règles de traitem
 
 **Test des règles qui lisent des termes de recherche**
 
-Pour tous les critères basés sur une recherche, comme si prop1 contient "news", accédez au rapport prop 1 et recherchez "news" et voyez s’il y a des correspondances que vous n’attendiez pas.
+Pour tout critère axé sur une recherche comme, par exemple, si prop1 contient« news », accédez au rapport prop 1, recherchez « news » et voyez s’il existe d’éventuelles correspondances imprévues.
 
 **Test des règles qui lisent des variables**
 
-Create a blank HTML page on your desktop, include the s_code from your site, and set the `s.account` variable to a dev report suite. Si vos règles sont basées sur un référent, un domaine de référence ou un autre élément, utilisez des exemples d’URL issus du rapport Référents actif, définissez la variable `s.referrer` avec l’une de ces valeurs et chargez la page. De même, si la règle est basée sur la valeur URL de page, vous pouvez définir `s.pageURL`. Cette même procédure peut être utilisée pour toute variable.
+Créez une page HTML vierge sur votre bureau, insérez le s_code provenant de votre site, puis définissez la variable `s.account` sur une suite de rapports de développement. Si vos règles sont basées sur un référent, un domaine de référence ou un autre élément, utilisez des exemples d’URL issus du rapport Référents actif, définissez la variable `s.referrer` avec l’une de ces valeurs et chargez la page. De même, si la règle est basée sur la valeur URL de page, vous pouvez définir `s.pageURL`. Cette même procédure peut être utilisée pour toute variable.
 
 **Utilisation d’une suite de rapports de développement**
 
-Nous vous recommandons de configurer les règles de traitement sur une suite de rapports de développement pour vous assurer qu’elles fonctionnent correctement. Si possible, tâchez de copier les règles dans une petite suite de rapports de production avant un déploiement plus vaste.
+Il est conseillé de configurer les règles de traitement sur une suite de rapports de développement afin de vous assurer de leur bon fonctionnement. Si possible, tâchez de copier les règles dans une petite suite de rapports de production avant un déploiement plus vaste.
 
 ## Rechercher des valeurs vides {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -37,7 +36,7 @@ Lors de la création d’une règle, veuillez tenir compte d’une éventuelle v
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-Il importe également de tenir compte de l’ordre de traitement. Dans l'exemple suivant, il apparaît que l'eVar personnalisée Nom de page précédente sera définie sur l'URL si le Nom de page n'est pas présent. Cependant, l’URL est placée dans le nom de la page après l’application de règles de traitement. Dans ce cas, le nom de page est donc vide s’il n’est pas défini sur la page.
+Il importe également de tenir compte de l’ordre de traitement. Dans l’exemple suivant, il s’avère que l’eVar personnalisée Nom de page précédent va être définie sur l’URL si Nom de page n’est pas présent. Cependant, l’URL est placée dans le nom de la page après l’application de règles de traitement. Dans ce cas, le nom de page est donc vide s’il n’est pas défini sur la page.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
