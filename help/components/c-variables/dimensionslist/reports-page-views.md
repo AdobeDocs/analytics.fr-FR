@@ -1,11 +1,10 @@
 ---
 description: Rapport de tendance qui affiche le nombre de fois où les pages de votre site web ont été consultées pour une période donnée (heure, jour, semaine, mois, trimestre ou année). Ce rapport vous permet de suivre chaque page vue pour chaque page de votre site, ainsi qu’un groupe de pages vues pour la totalité du site.
-solution: Analytics
 title: Pages vues
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,12 +13,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Rapport de tendance qui affiche le nombre de fois où les pages de votre site web ont été consultées pour une période donnée (heure, jour, semaine, mois, trimestre ou année). Ce rapport vous permet de suivre chaque page vue pour chaque page de votre site, ainsi qu’un groupe de pages vues pour la totalité du site.
 
-A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a request for a full page document rather than an element of a page, such as an image or video. Par exemple, si un visiteur unique consulte 15 pages durant une visite, 15 pages vues sont comptabilisées. Si un visiteur affiche la même page trois fois durant une visite, trois pages vues sont comptabilisées.
+Une [Page vue](/help/components/c-variables/c-metrics/metrics-page-view.md) est une requête pour une page entière, plutôt qu’un élément d’une page (image ou vidéo, par exemple). Par exemple, si un visiteur unique consulte 15 pages durant une visite, 15 pages vues sont comptabilisées. Si un visiteur affiche la même page trois fois durant une visite, trois pages vues sont comptabilisées.
 
 **Propriétés des rapports**
 
 * Ce rapport désigne le nombre d’appels de la fonction [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) sur votre site.
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* Les appels [suivi de liens](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) personnalisés (tels que les liens personnalisés, les téléchargements de fichiers et les liens de sortie) utilisent la fonction [!DNL s.tl()] et ne sont pas comptabilisés dans ce rapport.
 
 * Des demandes d’image sont envoyées lorsque l’utilisateur actualise la page ou clique sur le bouton Précédent. Par conséquent, ces actions sont également reprises dans le rapport.
 * Les ventilations horaires sont basées sur le fuseau horaire de la suite de rapports.
