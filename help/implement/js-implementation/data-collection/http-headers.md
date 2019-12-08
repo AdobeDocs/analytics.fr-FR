@@ -1,12 +1,11 @@
 ---
 description: Les en-têtes de demande et de réponse HTTP servent à collecter d’autres données en plus de celles collectées par AppMeasurement. Cette section décrit les en-têtes utilisés pendant la collecte des données.
 keywords: Analytics Implementation
-solution: Analytics
 title: En-têtes HTTP de collecte de données
 topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -93,14 +92,14 @@ Les en-têtes de demande et de réponse HTTP servent à collecter d’autres don
 | **En-tête** | **Utilisation** |
 |---|---|
 | Access-Control-Allow-Origin | Utilisé pour activer la prise en charge des demandes de collecte de données de style de partage de ressources interorigines sur les serveurs Adobe. |
-| Expires | Contrôle de la mise en cache du navigateur. |
+| Date d’expiration | Contrôle de la mise en cache du navigateur. |
 | Last-Modified | Contrôle de la mise en cache du navigateur. |
 | Cache-Control | Contrôle de la mise en cache du navigateur. |
 | Pragma | Contrôle de la mise en cache du navigateur. |
 | ETag | Contrôle de la mise en cache du navigateur. |
 | Vary | Contrôle de la mise en cache du navigateur. |
 | P3P | Fournit la stratégie P3P par défaut ou personnalisée de la demande de collecte de données. |
-| Status | Contient l’état « SUCCESS » ou « FAILURE » d’une demande d’aucun contenu. Utilisé uniquement quand la demande indique qu’aucun contenu ne doit être envoyé. |
+| État | Contient l’état « SUCCESS » ou « FAILURE » d’une demande d’aucun contenu. Utilisé uniquement quand la demande indique qu’aucun contenu ne doit être envoyé. |
 | Reason | Contient le motif de l’état d’échec d’une demande d’aucun contenu. Utilisé uniquement quand la demande indique qu’aucun contenu ne doit être envoyé. |
 | Emplacement | Utilisé pour rediriger le client effectuant la demande de collecte de données vers une autre URL. La négociation du cookie Adobe pour détecter la possibilité de définir le cookie identifiant visiteur est un exemple. |
 | Content-Type | Spécifie le type de contenu renvoyé au client (GIF, texte, code JavaScript, etc.) |
