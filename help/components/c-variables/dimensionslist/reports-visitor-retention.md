@@ -1,11 +1,10 @@
 ---
 description: Affichent des informations sur la loyauté de vos clients. Ils indiquent le nombre de visiteurs sur votre site ainsi que la fréquence de leurs visites. Les rapports de cette catégorie présentent des informations sur la fidélité des clients. Ils indiquent le nombre de visiteurs sur votre site ainsi que la fréquence de leurs visites.
-solution: Analytics
 title: Rétention des visiteurs
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -52,7 +51,7 @@ Affichent des informations sur la loyauté de vos clients. Ils indiquent le nomb
   </tr> 
   <tr> 
    <td colname="col1"> Jours depuis le dernier achat </td> 
-   <td colname="col2"> <p>Affiche le nombre de jours qui s’écoulent le plus souvent entre les achats répétés des clients et vous permet d’afficher les périodes qui ont le plus contribué aux principales mesures de réussite de votre site, telles que les recettes et les commandes. </p> </td> 
+   <td colname="col2"> <p>Indique le nombre moyen de jours écoulés entre les achats répétés des clients et permet d’afficher les périodes qui ont le plus contribué aux mesures de succès clés de votre site, telles que les recettes et les commandes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Client unique quotidien </td> 
