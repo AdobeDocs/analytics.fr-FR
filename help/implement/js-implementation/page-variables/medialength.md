@@ -1,13 +1,12 @@
 ---
 description: Les variables de page renseignent directement un rapport (pageName, props de liste, variables de liste, etc.).
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -50,7 +49,7 @@ Si vous utilisez [!UICONTROL s.Media.autoTrack], la variable [!UICONTROL mediaLe
 
 **Méthode de suivi manuel :**
 
-Syntaxe :
+du lien personnalisé:
 
 ```js
 s.Media.open(mediaName,mediaLength,mediaPlayerName)
