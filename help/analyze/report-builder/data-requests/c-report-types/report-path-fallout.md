@@ -1,11 +1,10 @@
 ---
 description: Décrit la manière dont le créateur de rapports prend en charge les rapports de cheminement et d’abandons et en quoi l’implémentation diffère des rapports et analyses.
-solution: Analytics
 title: Rapports Chemin et Abandon de chemin dans Report Builder
 topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Décrit la manière dont le créateur de rapports prend en charge les rapports d
 | Suivant/Précédent  dimension | Non fourni en tant que rapport autonome. Peut être reproduit avec un rapport de cheminement et en utilisant un filtre. |
 | Abandon | Pris en charge et fourni en tant que rapport autonome ( Chemins &gt; dimension &gt; Abandon de dimension). |
 | Chemins complets | Non pris en charge. |
-| PathFinder | Non fourni en tant que rapport autonome. Peut être reproduit en tant que rapport de cheminement utilisant un filtre. |
+| Pathfinder | Non fourni en tant que rapport autonome. Peut être reproduit en tant que rapport de cheminement utilisant un filtre. |
 | Longueur de chemin | Pris en charge uniquement pour la dimension Page. |
 | Analyse de page &gt;  résumé des dimensions | Non fourni en tant que rapport autonome. Peut être reproduit avec plusieurs requêtes avec la dimension Chemin et en utilisant un filtre. |
 | Analyse de page &gt; Actualisations | Non fourni en tant que rapport autonome. Peut être reproduit avec un rapport Dimension utilisant la mesure Actualisations. |
