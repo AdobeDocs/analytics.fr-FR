@@ -1,11 +1,10 @@
 ---
 description: Présente les étapes et bonnes pratiques à suivre lors de la planification de vos segments.
-solution: Analytics
 title: Planification des segments
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,5 +25,5 @@ Si vous consacrez du temps à la planification des segments, vous augmentez les 
 1. Déterminez les **éléments** à inclure dans la définition de segment ainsi que les valeurs. Tenez compte de la [persistance de la variable](/help/components/c-segmentation/seg-overview.md) lors de cette décision.
 
 1. Déterminez comment vous souhaitez que votre **processus d’approbation** se déroule. Est-ce qu’une seule personne consultera et approuvera les segments ou s’agira-t-il d’une décision en comité ?
-1. Définissez vos segments avec une vue sur une **bibliothèque de segments** qui permet aux utilisateurs d’empiler et de réutiliser, de manière modulaire, des parties de segments ou des composants.[](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) Quels « modules » devez-vous définir pour faire de cette bibliothèque une réalité ?
+1. Définissez vos segments avec une vue sur une **bibliothèque de segments** qui permet aux utilisateurs [d’empiler](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) et de réutiliser, de manière modulaire, des parties de segments ou des composants. Quels « modules » devez-vous définir pour faire de cette bibliothèque une réalité ?
 
