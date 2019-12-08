@@ -1,12 +1,11 @@
 ---
 description: L’intégration des Connecteurs de données pour DFA effectue le suivi des résultats de campagne DFA à l’aide des variables Analytics.
 keywords: DFA
-solution: Analytics
 title: Variables et événements Analytics
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
