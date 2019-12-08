@@ -1,13 +1,12 @@
 ---
 description: Le module externe (plug-in) apl (ou appendList) permet d’ajouter une valeur à toute liste délimitée, avec la possibilité d’effectuer une vérification sensible ou non à la casse afin de s’assurer que la valeur en question ne figure pas déjà dans la liste. Le module externe APL est référencé par plusieurs modules externes standard, mais il peut être utilisé directement dans un éventail de situations.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: appendList
 topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Ce module externe permet d’effectuer les opérations suivantes :
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Scénario </p> </td> 
-   <td colname="col2"> <p>Ajouter <span class="term"> event1 </span> à la variable « events » en cours, tout en s’assurant que l’événement n’est pas dupliqué. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Add <span class="term"> event1 </span> to the current events variable while ensuring the event isn't duplicated. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code </p> </td> 
