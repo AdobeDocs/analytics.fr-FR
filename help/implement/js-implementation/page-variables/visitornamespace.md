@@ -1,13 +1,12 @@
 ---
 description: Les variables de page renseignent directement un rapport (pageName, props de liste, variables de liste, etc.).
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Si la variable *`visitorNamespace`* est utilisée dans votre fichier JavaScript,
 
 | Taille maximale | Paramètre du débogueur | Rapports renseignés | Valeur par défaut |
 |---|---|---|---|
-| N/D | ns | N/D | "" |
+| S.O. | ns | S.O. | "" |
 
 Analytics utilise un cookie pour identifier de façon unique les visiteurs de votre site. Si la variable *`visitorNamespace`* n’est pas utilisée, le cookie est associé à 2o7.net. Si la variable *`visitorNamespace`* est utilisée, le cookie est associé à un sous-domaine de 2o7.net. Les cookies de tous les visiteurs de votre site doivent être associés au même domaine ou sous-domaine.
 
