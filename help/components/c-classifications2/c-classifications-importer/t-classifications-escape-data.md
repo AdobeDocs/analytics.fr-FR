@@ -1,12 +1,11 @@
 ---
 description: Étapes décrivant comment placer des données de classification dans une séquence d’échappement dans le fichier de classification.
-solution: Analytics
 subtopic: Classifications
 title: Données de classification placées dans une séquence d’échappement
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,9 +22,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >To specify a format of v2.1, enable **[!UICONTROL Quoted Output]** when exporting the file on the [!UICONTROL Classification Importer] page ( [!UICONTROL Browser Export] or [!UICONTROL FTP Export]).
+   >Pour indiquer le format v2.1, activez la **[!UICONTROL Sortie entre guillemets]** lors de l’exportation du fichier sur la page [!UICONTROL Importateur de classifications] ([!UICONTROL Exportation navigateur] ou [!UICONTROL Exportation FTP]).
 
-1. Surround the field containing special characters in double quotes (`"`).
+1. Entourez le champ contenant les caractères spéciaux de guillemets doubles (`"`).
 
 Le caractère double guillemet peut apparaître dans une cellule placée dans une séquence d’échappement en le remplaçant par deux caractères guillemets doubles (`" "`). Par exemple :
 
