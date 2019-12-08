@@ -1,11 +1,10 @@
 ---
 description: Cette rubrique décrit les étapes d’administration pour activer la création de rapports d’Activity Map dans Analytics.
-solution: Analytics
 title: Compte rendu des performances d’Activity Map
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Permet à Analytics de collecter l’activité de l’utilisateur fournie par Ac
 
    | Rapport | Description |
    |---|---|
-   | Page Activity Map | Répertorie les pages contenant un lien qui a fait l’objet d’un clic. |
+   | Activity Map  Activity Map | Répertorie les pages contenant un lien qui a fait l’objet d’un clic. |
    | Région d’Activity Map | Répertorie toutes les régions de lien collectées sur l’ensemble du site web. Notez que si une région apparaît sur plusieurs pages, la mesure sera intégrée à chacune d’entre elles. |
    | Liens d’Activity Map | Répertorie tous les liens collectés sur l’ensemble du site web. |
    | Liens et région d’Activity Map | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
