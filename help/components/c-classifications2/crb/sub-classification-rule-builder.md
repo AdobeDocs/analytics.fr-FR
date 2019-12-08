@@ -1,12 +1,11 @@
 ---
 description: Vous pouvez associer le Créateur de règles de classifications à des sous-classifications afin de simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
-solution: Analytics
 subtopic: Classifications
 title: Sous-classifications et Créateur de règles – Cas d’utilisation
 topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Vous pouvez associer le Créateur de règles de classifications à des sous-clas
 
 Vous pouvez associer le Créateur de règles de classifications à des sous-classifications afin de simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
 
-See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
+Voir [Sous-classifications](/help/components/c-classifications2/c-sub-classifications.md) pour obtenir des informations conceptuelles sur les sous-classifications.
 
 **Exemple**
 
@@ -35,7 +34,7 @@ Une fois cette structure en place, vous pouvez utiliser le [Créateur de règles
 
 La tâche ci-dessous décrit la marche à suivre.
 
-## Set up Sub-Classifications using the Rule Builder{#task_2D9016D8B4E84DBDAF88555E5369546F}
+## Configurer des sous-classifications à l’aide du Créateur de règles {#task_2D9016D8B4E84DBDAF88555E5369546F}
 
 <!-- 
 
@@ -51,36 +50,36 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
 1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
-   Exemple :
+   Exemple :
 
-   ![Infos étape](assets/sub_class_create.png)
+   ![Infos sur l’étape](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
+1. Dans [Créateur de règles de classifications](/help/components/c-classifications2/crb/classification-rule-builder.md), classez la clé de sous-classification à partir du code de suivi d’origine.
 
    Pour ce faire, utilisez une expression régulière. Dans cet exemple, la règle servant à compléter *`Broad Campaign code`* utilisera cette expression régulière :
 
-   | `#` | Type de règle | Correspond à | Définir la classification | Sur |
+   | `#` | Type de règle | Correspond à | Définir la classification | À |
    |---|---|---|---|---|
    |  | Expression régulière | `[^\:]:([^\:]):([^\:]`) | Code de campagne large | `$1` |
    |  | Expression régulière | `[^\:]:([^\:]):([^\:]`) | Code de création | `$2` |
 
    >[!NOTE]
    >
-   >At this point, you do not populate the sub-classifications *`Campaign Type`* and *`Campaign Director`*.
+   >À ce stade, vous ne complétez pas les sous-classifications *`Campaign Type`* et *`Campaign Director`*.
 
 1. Téléchargez un fichier de classification contenant uniquement les sous-classifications spécifiées.
 
-   Voir Classifications [à](/help/components/c-classifications2/c-sub-classifications.md)plusieurs niveaux.
+   Voir [Classifications à plusieurs niveaux](/help/components/c-classifications2/c-sub-classifications.md).
 
-   Exemple :
+   Exemple :
 
-   | Clé | Canal | Code de campagne large | Code de campagne large&amp;Chapeau;Type de campagne | Code de campagne large&amp;Chapeau;Directeur de campagne | ... |
+   | Clé | Canal | Code de campagne large | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Marque | Suzanne |  |
    | * |  | 222 | Marque | Frank |  |
 
 1. Pour gérer les tables de recherche, téléchargez un petit fichier (comme illustré ci-dessus).
 
-   You would upload this file, for example, when a new *`Broad Campaign code`* is introduced. Ce fichier s’appliquera aux valeurs classées précédemment. De même, si vous créez une sous-classification (telle que *`Creative Theme`* en tant que sous-classification de *`Creative code`*), vous téléchargez uniquement le fichier de sous-classification, plutôt que l’ensemble du fichier de classification.
+   Le téléchargement de ce fichier sera effectué, par exemple, lors de l’insertion d’un nouveau *`Broad Campaign code`*. Ce fichier s’appliquera aux valeurs classées précédemment. De même, si vous créez une sous-classification (telle que *`Creative Theme`* en tant que sous-classification de *`Creative code`*), vous ne téléchargerez que le fichier de sous-classification, au lieu de l’intégralité du fichier de classification.
 
    Dans le cadre de la création de rapports, ces sous-classifications se comportent exactement comme des classifications de niveau supérieur. Cela a pour effet d’alléger la charge de gestion associée à leur utilisation.
