@@ -1,12 +1,11 @@
 ---
 description: Ajoutez des données hors ligne aux rapports Canal marketing.
-solution: Analytics
 subtopic: Marketing channels
 title: Ajout de données hors ligne
 topic: Reports and analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Ajoutez des données hors ligne aux rapports Canal marketing.
 
 Les canaux en ligne vous permettent de classer les données des visiteurs qui proviennent de sources telles que moteurs de recherche, des annonces sur Internet, des domaines référents ou des campagnes par courriel. Les canaux hors ligne s’appliquent aux visiteurs qui ont trouvé votre site grâce à une publicité à la télévision, dans un journal ou dans un magazine.
 
-**Intégration des sources de données dans les rapports Canal marketing**
+**Intégration de sources de données dans les rapports Canal marketing**
 
 Si vous souhaitez intégrer des [données de sources de données](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html) dans les rapports Canal marketing, prenez en compte les points suivants :
 
@@ -33,11 +32,11 @@ Consultez la section « Utilisation des sources de données » du [Guide de l�
 
 **Ajout de données hors ligne**
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+1. Cliquez sur **[!UICONTROL Admin]** &gt; **[!UICONTROL Sources de données]**.
 1. Sur la page Sources de données, cliquez sur **[!UICONTROL Créer.]**
-1. Under **[!UICONTROL 1. Sélectionner une catégorie]**, sélectionnez **[!UICONTROL Données du canal hors connexion]**.
-1. Under **[!UICONTROL 2. Sélectionner un type]**, sélectionnez **[!UICONTROL Données du canal hors connexion]**.
-1. Click **[!UICONTROL Activate.]**
+1. Sous **[!UICONTROL 1. Sélectionner une catégorie]**, sélectionnez **[!UICONTROL Données du canal hors connexion]**.
+1. Sous **[!UICONTROL 2. Sélectionner un type]**, sélectionnez **[!UICONTROL Données du canal hors connexion]**.
+1. Cliquez sur **[!UICONTROL Activer.]**
 1. Faites correspondre les mesures hors connexion aux mesures des rapports en suivant les messages de l’Assistant d’activation de la source de données.
 1. Téléchargez et modifiez le fichier de modèle dans un éditeur comme Excel.
 
