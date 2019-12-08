@@ -1,11 +1,10 @@
 ---
 description: Ces rapports fournissent des renseignements sur les campagnes ou mots-clés qui s’avèrent les plus efficaces sur votre site. Vous pouvez les utiliser pour allouer des recettes et des mesures de succès à divers détails sur les canaux, sans tenir compte du canal global dans lequel ils se situent. Vous pouvez, par exemple, comparer un certain mot-clé de recherche payante à une campagne par courriel spécifique. Contrairement au rapport Présentation du canal marketing, celui-ci ressemble à un rapport marketing standard.
-solution: Analytics
 title: Détails des canaux marketing – Première touche et Dernière touche
 topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Ces rapports fournissent des renseignements sur les campagnes ou mots-clés qui 
 
 * Ce rapport s’exécute sur la base de règles définies dans des canaux marketing. Reportez-vous à la section [Canaux et règles](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html).
 
-   Pour être plus précis, le rapport utilise la partie **[!UICONTROL Définir la valeur pour le canal]de chaque règle.** Si vous modifiez ces règles ou la définition de la valeur du canal, le mode de calcul des données de ce rapport est également modifié. Pour plus d’informations, consultez la section [Questions-réponses](https://marketing.adobe.com/resources/help/en_US/mchannel/c_faq.html) des règles de traitement du canal marketing.
+   Pour être plus précis, le rapport utilise la partie **[!UICONTROL Définir la valeur pour le canal]** de chaque règle. Si vous modifiez ces règles ou la définition de la valeur du canal, le mode de calcul des données de ce rapport est également modifié. Pour plus d’informations, consultez la section [Questions-réponses](https://marketing.adobe.com/resources/help/en_US/mchannel/c_faq.html) des règles de traitement du canal marketing.
 
 * Les différences entre *Première touche* et *Dernière touche* sont visibles dans la section [À propos des rapports Canal marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview.html).
 
@@ -40,5 +39,5 @@ Ces rapports fournissent des renseignements sur les campagnes ou mots-clés qui 
    * Visites et Visiteurs : la disponibilité dépend de la société et de la suite de rapports. Pour plus d’informations, contactez votre gestionnaire de compte.
    Reportez-vous à la rubrique [Mesures](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) dans l’aide de [!UICONTROL Canal marketing].
 
-> [!NOTE] La création de rapports Canal  marketing n’est pas disponible dans la version 13.5.
+> [!NOTE] La création de rapports [!UICONTROL Canal marketing] n’est pas disponible dans la version 13.5.
 
