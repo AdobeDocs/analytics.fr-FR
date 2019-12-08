@@ -1,11 +1,10 @@
 ---
 description: Tous les rapports mis en signet et de tableau de bord sont désormais répertoriés en tant que dimensions à l’étape 1 de l’Assistant Requête et peuvent être importés en tant que requêtes du Créateur de rapports.
-solution: Analytics
 title: Importation de rapports marqués d’un signet et de mini-rapports de tableau de bord
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
