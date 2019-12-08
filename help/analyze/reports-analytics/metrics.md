@@ -1,11 +1,10 @@
 ---
 description: Les mesures sont la base des rapports ; elles vous aident à connaître et à comprendre les relations entre les données, et à comparer des ensembles de données relatives à votre site web. Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, les recettes, etc.
-solution: Analytics
 title: Mesures
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
