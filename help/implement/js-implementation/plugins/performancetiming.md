@@ -1,12 +1,11 @@
 ---
 description: Ce module externe fonctionne en utilisant l’API JavaScript Navigation Timing (Minutage de navigation) pour mesurer précisément les performances sur le web. Il fournit une méthode native permettant d’obtenir des statistiques de minutage précises et détaillées sur les événements de chargement de pages et les temps de chargement des ressources. Auparavant, les mesures de ce type utilisaient l’objet Date JavaScript pour les mesures de minutage ou une extrapolation rudimentaire des mesures de minutage de navigation. Bien qu’elles procurent des données de tendance sur les temps de chargement des pages, ces deux méthodes ne sont pas fiables.
 keywords: Analytics Implementation
-solution: Analytics
 title: performanceTiming
 topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
