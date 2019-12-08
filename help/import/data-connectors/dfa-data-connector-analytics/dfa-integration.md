@@ -1,12 +1,11 @@
 ---
 description: 'La configuration de l’intégration DFA implique les tâches suivantes : '
 keywords: DFA
-solution: Analytics
 title: Intégration DFA
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ Découvrez les étapes de l’intégration des connecteurs de données DFA.
 
 Les pages de configuration présentent un aperçu de l’intégration, ainsi que des liens utiles conduisant vers davantage d’informations. Cette intégration engendre des frais Adobe et DoubleClick. Contactez votre représentant commercial au sujet des deux organisations et veillez à comprendre la structure des frais.
 
-1. Connectez-vous au [!DNL Adobe Analytics].
+1. Log in to the [!DNL Adobe Analytics].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 
    ![](assets/data_connectors.png)
