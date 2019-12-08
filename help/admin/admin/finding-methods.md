@@ -1,11 +1,10 @@
 ---
-description: 'La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi '
-solution: Analytics
+description: La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
 title: Méthodes de recherche
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites **[!UICONTROL de]** rapports &gt; **[!UICONTROL Modifier les paramètres]** &gt; Conversion &gt; Méthodesde recherche de .********
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Méthodes de recherche**].
 
 ## Description des méthodes de recherche {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -53,5 +52,5 @@ La page Méthodes de recherche identifie comment les divers rapports de méthode
  </tbody> 
 </table>
 
-> [!NOTE] Toutes les méthodes de recherche expirent à la fin de la visite. Si vous choisissez l’option d’expiration après un autre événement (le Passage en caisse, par exemple), la Méthode de recherche expire quand le Passage en caisse survient pendant la visite. Si le Passage en caisse ne se produit pas pendant la visite, la Méthode de recherche expire quand même à la fin de la visite.
+> [!NOTE] Toutes les méthodes de recherche expirent à la fin d’une visite. Si vous choisissez l’option d’expiration après un autre événement (le Passage en caisse, par exemple), la Méthode de recherche expire quand le Passage en caisse survient pendant la visite. Si le Passage en caisse ne se produit pas pendant la visite, la Méthode de recherche expire quand même à la fin de la visite.
 
