@@ -1,13 +1,12 @@
 ---
 description: Le module externe getAndPersistValue obtient la valeur de votre choix et l’insère dans une variable Analytics pour une période déterminée. Une utilisation courante consiste à voir combien de consultations de pages sont générées par une campagne après un clic publicitaire, ce qui vous permet d’identifier les pages les plus courantes de chaque campagne.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getAndPersistValue
 topic: Developer and implementation
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
