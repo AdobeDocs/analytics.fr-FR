@@ -1,11 +1,10 @@
 ---
 description: Description des champs du Gestionnaire des tâches planifiées.
-solution: Analytics
 title: Gestionnaires des tâches planifiées
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -77,7 +76,7 @@ Le Gestionnaire des tâches planifiées vous permet d’afficher une liste des r
    <td colname="col2"> Indique le nom de la tâche planifiée. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>date </p> </td> 
+   <td colname="col1"> <p>Date </p> </td> 
    <td colname="col2"> Date et heure auxquelles le rapport a été envoyé en dernier. </td> 
   </tr> 
   <tr> 
