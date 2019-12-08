@@ -1,12 +1,11 @@
 ---
 description: Description de la procédure de suppression des données de classification.
-solution: Analytics
 subtopic: Classifications
 title: Suppression des données de classification
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,10 +18,10 @@ Il est parfois nécessaire de supprimer les données de classification après le
 
 La suppression des données de classification implique le chargement d’un fichier de classification contenant `~empty~` ou `~deletekey~` dans les cellules appropriées.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Browser Export]**.
+1. Cliquez sur **[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**.
+1. Cliquez sur **[!UICONTROL Exportation Navigateur]**.
 1. Sélectionnez la suite de rapports et le jeu de données duquel vous souhaitez supprimer des données de classification.
-1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
+1. Configurez les éventuels paramètres facultatifs afin de filtrer les données que vous recherchez, puis cliquez sur **[!UICONTROL Exporter un fichier]**.
 1. Une fois le fichier téléchargé, ouvrez-le et remplacez les valeurs de classification par `~empty~` ou `~deletekey~`.
 1. Enregistrez le fichier dans un fichier texte délimité par des tabulations.
 1. Cliquez sur **[!UICONTROL Importer un fichier]**, puis rechargez le fichier de classification enregistré dans Adobe Analytics.
