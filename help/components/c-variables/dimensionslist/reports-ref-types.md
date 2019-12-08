@@ -1,18 +1,17 @@
 ---
-description: En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer comment les visiteurs ont trouvé votre site pour chaque visite.
-solution: Analytics
+description: En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer de quelle façon les visiteurs sont parvenus sur votre site pour chaque visite.
 title: Type de référent
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Type de référent
 
-En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer comment les visiteurs ont trouvé votre site pour chaque visite.
+En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer de quelle façon les visiteurs sont parvenus sur votre site pour chaque visite.
 
 La liste ci-dessous définit les divers types de référents :
 
@@ -22,11 +21,11 @@ La liste ci-dessous définit les divers types de référents :
 
 **[!UICONTROL Réseaux sociaux]** : la valeur de référence doit être considérée comme un réseau social par Adobe. Voir [Liste des réseaux sociaux](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
 
-**Courriel**: Un domaine référent est considéré comme un domaine référent de courriel lorsque les visiteurs cliquent sur un lien de message envoyé par courriel contenant le protocole [!DNL imap://] ou [!DNL mail://] arrivent sur votre site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
+**Courrier électronique** : un domaine référent est considéré comme un domaine référent de courrier électronique lorsque les visiteurs cliquent sur un lien dans un courrier électronique contenant le protocole [!DNL imap://] ou [!DNL mail://] et arrivent sur votre site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
 
-**Tapé/Marqué**: les référents sont enregistrés lorsque les visiteurs saisissent directement l’URL de votre site dans leur navigateur ou lorsqu’ils accèdent à votre site en sélectionnant des signets. Les périphériques mobiles signalent un type de référent de *`typed/bookmarked`* s’il n’existe aucun référent pour le premier accès de la visite.
+**Tapé/marqué** : les référents sont comptabilisés quand un visiteur tape directement l’URL de votre site dans son navigateur ou qu’il y accède au moyen de ses signets. Les périphériques mobiles signalent désormais un type de référent *`typed/bookmarked`* s’il n’y a pas de référent pour le premier accès de la visite.
 
-**[!UICONTROL Dans votre site]** : ces éléments sont des URL balisées par les filtres URL internes. These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
+**[!UICONTROL Dans votre site]** : ces éléments sont des URL balisées par les filtres URL internes. Ces éléments ne sont pas comptabilisés comme *`referrer instances`*, mais ils sont visibles lors de la génération de rapports sur d’autres mesures.
 
 ## Types de référents par interface {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
