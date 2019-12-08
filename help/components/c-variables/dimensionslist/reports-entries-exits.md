@@ -1,11 +1,10 @@
 ---
 description: Le rapport Page d’entrée vous montre, en pourcentage ou en total des visites, les pages de votre site qui sont les premières à être vues, par nouvelles visites.
-solution: Analytics
 title: Entrées et sorties
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # Entrées et sorties
 
 >[!NOTE]
->Pour les accès comportant plusieurs valeurs dans la variable products, les entrées et les sorties s’appliquent à toutes les valeurs de produit dans un accès au lieu de la première.
+>Dans le cas des accès avec plusieurs valeurs dans la variable Produits, Entrées et Sorties s’appliquent à toutes les valeurs de produit d’un accès au lieu de s’appliquer uniquement à la première valeur.
 
 Le rapport Page d’entrée vous montre, en pourcentage ou en total des visites, les pages de votre site qui sont les premières à être vues, par nouvelles visites.
 
@@ -21,10 +20,10 @@ Vous pouvez voir :
 
 * **Pages d’entrée** (ou sections) : affiche, en pourcentage ou en visites totales, les pages de votre site qui sont les premières à être vues par une nouvelle visite. Utilisez ce rapport pour identifier les pages web qui sont les points d’entrée les plus fréquents, optimiser les points d’entrée principaux de votre site et diriger le trafic d’entrée vers vos messages clés.
 
-   A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Entry]** report, sort by it, and see which entry pages drive the most page views.
+   Une méthode d’utilisation pratique de la mesure Page vue consiste à exécuter un rapport **[!UICONTROL Chemins]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages d’entrée]**, à effectuer un tri sur la base de ce rapport, puis à voir les pages d’entrée qui génèrent le plus de vues.
 
 * **Pages d’entrée d’origine** : indique la première page affichée par les nouveaux visiteurs de votre site. Les utilisateurs ne sont comptabilisés qu’une seule fois, à moins qu’ils ne suppriment leurs cookies ou que les cookies ne soient pas activés.
-* **Visites sur une seule page** : indique les pages qui sont le plus souvent à la fois la page d’entrée et la page de sortie pour les sessions de navigation des visiteurs.
+* **Visites mono-page** : indique les pages qui sont le plus souvent à la fois la page d’entrée et la page de sortie pour les sessions de navigation des visiteurs.
 * **Pages de sortie** : indique, en pourcentage et en visites totales, les pages de votre site qui étaient les dernières à être consultées avant que les visiteurs ne quittent votre site. Les pages de sortie comportent une portée de ventilation de visites, signifiant qu’elles persistent sur l’ensemble des accès pour une visite.
 
 **Mesures sur un rapport Pages d’entrée**
