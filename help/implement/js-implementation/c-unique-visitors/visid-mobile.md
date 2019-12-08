@@ -1,12 +1,11 @@
 ---
 description: La plupart des périphériques mobiles acceptent les cookies des navigateurs. Néanmoins, dans les cas où les périphériques n’acceptent pas les cookies, une autre méthode est utilisée pour identifier de manière unique les périphériques sans fil.
 keywords: Analytics Implementation
-solution: Analytics
 title: Identification des appareils mobiles
 topic: Developer and implementation
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
