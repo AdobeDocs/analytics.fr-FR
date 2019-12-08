@@ -1,11 +1,10 @@
 ---
 description: Le rapport Présentation du canal marketing est conçu pour fournir un aperçu général des méthodes les plus efficaces pour attirer les clients sur votre site. Utilisez ce rapport pour affecter des mesures de succès et des recettes aux différents canaux. Vous pouvez également afficher les campagnes ou mots-clés présentant le taux de succès le plus élevé dans chaque canal. Ce rapport s’accompagne d’une interface intuitive spécifique, qui vous permet d’afficher simultanément les mesures Première touche et Dernière touche.
-solution: Analytics
 title: Présentation des canaux marketing
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -38,7 +37,7 @@ Le rapport Présentation du canal marketing est conçu pour fournir un aperçu g
 
 **Versions 14 et 15**
 
-This report can be accessed by going to **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (provided the menu is not customized).
+Ce rapport est accessible sous **[!UICONTROL Canaux marketing]** &gt; **[!UICONTROL Rapport Aperçu d’un canal]** (à condition que le menu n’ait pas été personnalisé).
 
 La segmentation n’est pas disponible dans ce rapport. Utilisez plutôt les rapports [!UICONTROL Canal Première touche ou Canal Dernière touche] ou [!UICONTROL Détails de Première touche ou Détails de Dernière touche].
 
