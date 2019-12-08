@@ -1,11 +1,10 @@
 ---
 description: Vous pouvez actualiser les requêtes après y avoir apporté des modifications, après y avoir appliqué des filtres ou si vous devez consulter des données plus récentes. Il vous est possible de sélectionner plusieurs requêtes dans une feuille de calcul et de les actualiser toutes en même temps.
-solution: Analytics
 title: Actualisation des requêtes
 topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
