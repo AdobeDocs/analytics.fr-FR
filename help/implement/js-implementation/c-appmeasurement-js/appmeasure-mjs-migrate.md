@@ -1,13 +1,12 @@
 ---
 description: Le tableau ci-après contient la liste des tâches que vous devez effectuer pour migrer votre implémentation.
 keywords: Analytics Implementation;appmeasurement;migrate;migrating;javascript
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Migration vers AppMeasurement pour JavaScript
 topic: Developer and implementation
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
