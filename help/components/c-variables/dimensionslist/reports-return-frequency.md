@@ -1,11 +1,10 @@
 ---
 description: Ce rapport indique le délai qui s’écoule entre chaque visite des visiteurs qui reviennent sur votre site, ainsi que le nombre de visites repris dans chaque catégorie de durée. Utilisez ce rapport pour afficher la période moyenne pendant laquelle les visiteurs réguliers n’ont pas visité votre site, ainsi que les tendances au niveau des clients réguliers.
-solution: Analytics
 title: Fréquence des retours
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Ce rapport indique le délai qui s’écoule entre chaque visite des visiteurs q
 
 Utilisez ces informations pour proposer plus efficacement vos produits aux visiteurs qui n’ont plus consulté votre site depuis un certain temps.
 
-Vous pouvez :
+Vous pouvez:
 
 * Identifier le nombre de visiteurs récurrents et la fréquence de leurs visites.
 * Évaluer l’attrait de votre site web et l’intérêt qu’il présente pour les visiteurs au fil du temps.
@@ -35,5 +34,5 @@ Par défaut, les durées de ce rapport sont les suivantes :
 ## Remarques {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * Ce rapport ne comptabilise pas les nouveaux visiteurs, puisqu’il n’y a aucune visite antérieure à comparer.
-* La période dans ce rapport utilise le moment où la visite a eu lieu. Par exemple, un visiteur se rend sur votre site en avril, puis revient deux fois le même jour en octobre. L’extraction d’un rapport Fréquence des retours pour le mois d’octobre indiquerait une visite sous "plus d’un mois" et une visite sous "moins d’un jour".
+* La période dans ce rapport utilise le moment où la visite a eu lieu. Par exemple, un visiteur se rend sur votre site en avril, puis revient deux fois le même jour en octobre. La génération d’un rapport Fréquence des retours pour le mois d’octobre mentionnerait une visite sous « plus d’un mois » et une visite sous « moins d’un jour ».
 
