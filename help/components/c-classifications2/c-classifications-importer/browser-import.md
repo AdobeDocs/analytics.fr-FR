@@ -1,12 +1,11 @@
 ---
 description: Vous pouvez importer (télécharger) des données de classification à l’aide du navigateur. Cette méthode limite le téléchargement des données de classification à une seule suite de rapports.
-solution: Analytics
 subtopic: Classifications
 title: Importation navigateur
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Vous pouvez importer (télécharger) des données de classification à l’aide 
 
 Vous pouvez importer (télécharger) des données de classification à l’aide du navigateur. Cette méthode limite le téléchargement des données de classification à une seule suite de rapports.
 
-**[!UICONTROL Admin]** &gt; Importateur de **[!UICONTROL classifications]**
+**[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**
 
 ## Classifications – Importation navigateur – Description des champs {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -32,7 +31,7 @@ Vous pouvez importer (télécharger) des données de classification à l’aide 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Sélectionner une Report Suite </td> 
+   <td colname="col1"> Sélectionner une suite de rapports </td> 
    <td colname="col2"> <p>Suite de rapports dans laquelle vous souhaitez importer les données de classification. Le fichier de données d’importation doit correspondre au format de l’ensemble de données de la suite de rapports. </p> </td> 
   </tr> 
   <tr> 
@@ -62,11 +61,11 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**.
-1. Configurez les champs **[!UICONTROL d’importation]** du navigateur.
-1. Click **[!UICONTROL Import File]**.
+1. Cliquez sur **[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**.
+1. Cliquez sur **[!UICONTROL Importer un fichier]**.
+1. Configurez les champs **[!UICONTROL Importation navigateur]**.
+1. Cliquez sur **[!UICONTROL Importer un fichier]**.
 1. Vérifiez les messages de traitement dans la fenêtre d’état.
-1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
+1. (Sous condition) Si vous avez sélectionné **[!UICONTROL Télécharger automatiquement le fichier de classification au terme du téléchargement vers le serveur]**, indiquez où stocker le fichier obtenu une fois l’importation terminée.
 >Une importation réussie affiche immédiatement les modifications adéquates dans une exportation. Toutefois, les modifications des données dans les rapports peuvent prendre jusqu’à quatre heures pour s’afficher en cas d’importation avec l’option Navigateur (et jusqu’à 24 heures en cas d’importation FTP).
 
