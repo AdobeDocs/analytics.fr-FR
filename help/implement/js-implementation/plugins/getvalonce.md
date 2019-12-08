@@ -1,13 +1,12 @@
 ---
 description: Le module externe getValOnce empêche une variable donnée d’être réglée sur une valeur définie précédemment. Il utilise ainsi un cookie pour déterminer la dernière valeur connue d’une variable. Si la valeur actuelle correspond à la valeur du cookie, la variable est remplacée par une chaîne vide avant d’être envoyée aux serveurs de traitement d’Adobe. Ce module externe se révèle particulièrement utile pour éviter l’augmentation excessive des instances de variables de conversion qui survient lorsque les utilisateurs actualisent la page ou cliquent sur le bouton Précédent.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getValOnce.
 topic: Developer and implementation
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
