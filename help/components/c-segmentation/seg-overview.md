@@ -1,11 +1,10 @@
 ---
 description: Les segments vous permettent d’identifier des sous-ensembles de visiteurs selon des caractéristiques ou des interactions Web. Les segments sont conçus en tant que connaissances de l’audience codifiées que vous pouvez créer selon vos besoins spécifiques, puis vérifier, modifier et partager avec d’autres membres de l’équipe ou utiliser dans d’autres produits d’Adobe et fonctionnalités d’Analytics.
-solution: Analytics
 title: À propos des segments et des conteneurs
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Les segments vous permettent d’identifier des sous-ensembles de visiteurs selo
 
 Les segments sont basés sur une hiérarchie de niveau [!UICONTROL Visiteur], [!UICONTROL Visite] et [!UICONTROL Accès] en utilisant un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
 
-You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!DNL ad hoc analysis]). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble en tant que  [segments empilés](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport d’abandons (dans [!DNL ad hoc analysis]). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble en tant que [segments empilés](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Segments {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -26,10 +25,10 @@ Les segments identifient la nature de vos visiteurs (pays, sexe, café-restauran
 
 Les segments peuvent être basés sur les valeurs suivantes :
 
-* Visiteurs sur la base d’attributs : type de navigateur, périphérique, nombre de visites, pays, sexe.
-* Visiteurs en fonction des interactions : campagnes, recherche de mots-clés, moteur de recherche.
-* Visiteurs en fonction des sorties et des entrées : visiteurs de Facebook, une page d’entrée définie, domaine référent.
-* Visiteurs sur la base de variables personnalisées : champ de formulaire, catégories définies, ID de client.
+* Visiteurs sur la base d’attributs : type de navigateur, périphérique, nombre de visites, pays, sexe.
+* Visiteurs sur la base d’interactions : campagnes, recherche par mots-clés, moteur de recherche.
+* Visiteurs sur la base des sorties et des entrées : visiteurs provenant de Facebook, d’une page d’entrée définie, d’un domaine référent.
+* Visiteurs sur la base de variables personnalisées : champ de formulaire, catégories définies, ID de client.
 
 Lors de la création de segments d’audiences dans le Créateur de segments, vous définissez des conditions en utilisant les opérateurs [!UICONTROL ET] et [!UICONTROL OU] entre les conteneurs.
 
@@ -64,11 +63,11 @@ Cette vidéo YouTube illustre brièvement ce que sont les conteneurs de segments
 |---|---|
 | Conteneurs de segments | [Conteneurs de segments dans Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&index=2&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
 
-## About containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
+## À propos des conteneurs {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
-Un segment définit des conditions de filtrage d’un visiteur basées sur ses attributs ou interactions avec votre site. Pour définir des conditions dans un segment, définissez des règles permettant de filtrer les visiteurs selon leurs caractéristiques de visiteur et/ou de navigation. Pour ventiler plus en détails les données du visiteur, vous pouvez filtrer selon des visites spécifiques et/ou les accès aux pages vues pour chaque visiteur. Le créateur de segments offre une architecture simple pour créer ces sous-ensembles et appliquer des règles sous forme de conteneurs imbriqués, hiérarchiques Visiteur, Visite ou Accès.
+Un segment définit des conditions de filtrage d’un visiteur basées sur ses attributs ou interactions avec votre site. Pour définir des conditions dans un segment, définissez des règles permettant de filtrer les visiteurs selon leurs caractéristiques de visiteur et/ou de navigation. Pour ventiler plus en détail les données du visiteur, vous pouvez filtrer selon des visites spécifiques et/ou les accès aux pages vues pour chaque visiteur. Le Créateur de segments fournit une architecture simple permettant de créer ces sous-ensembles et d’appliquer des règles sous la forme de conteneurs imbriqués, hiérarchiques Visiteur, Visite ou Accès.
 
-L’architecture de conteneur utilisée dans le Créateur de segments définit **[!UICONTROL Visiteur]en tant que conteneur le plus éloigné, comportant les données principales spécifiques au visiteur pour les visites et les pages vues.** Un conteneur **[!UICONTROL Visite]** imbriqué permet de définir des règles pour ventiler les données du visiteur selon les visites, et un conteneur **Accès]imbriqué permet de ventiler les informations du visiteur selon des pages vues spécifiques.[!UICONTROL ** Chaque conteneur permet de créer un rapport de l’historique du visiteur, de ses interactions ventilées par visites ou de ses ventilations par accès individuels.
+L’architecture de conteneur utilisée dans le Créateur de segments définit **[!UICONTROL Visiteur]** en tant que conteneur le plus éloigné, comportant les données principales spécifiques au visiteur pour les visites et les pages vues. Un conteneur **[!UICONTROL Visite]** imbriqué permet de définir des règles pour ventiler les données du visiteur selon les visites, et un conteneur **[!UICONTROL Accès]** imbriqué permet de ventiler les informations du visiteur selon des pages vues spécifiques. Chaque conteneur permet de créer un rapport de l’historique du visiteur, de ses interactions ventilées par visites ou de ses ventilations par accès individuels.
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
 
@@ -107,13 +106,13 @@ Les conteneurs d’accès incluent des valeurs basées sur des ventilations de p
 
    >[!NOTE]
    >
-   >Si vous utilisez ce conteneur sur une valeur persistante, telle qu’une eVar, il extraira chaque accès où cette valeur est persistante. Dans le cas d’un code de suivi qui expire au bout d’une semaine, cette valeur pourrait persister sur plusieurs visites.
+   >Si vous utilisez ce conteneur sur une valeur qui persiste, une eVar par exemple, il va extraire chaque accès comportant une valeur persistante. Dans le cas d’un code de suivi qui expire au bout d’une semaine, cette valeur pourrait persister sur plusieurs visites.
 
 **conteneur Groupe logique**
 
-Le conteneur Groupe logique vous permet de fournir un conteneur distinct dans les règles de segmentation afin de filtrer les entités qui ne reposent pas sur la hiérarchie. Vous pouvez par exemple souhaiter fournir un conteneur imbriqué dans le segment qui filtre les entités en fonction des visiteurs. Ce type de logique nécessite que vous rompiez la hiérarchie (puisque vous disposez déjà d’un conteneur Visiteur de niveau supérieur) afin de filtrer uniquement les entités pour les visiteurs sélectionnés. Vous pouvez y parvenir en utilisant le conteneur Groupe logique. Voir [Exemples de groupes logiques](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) pour en savoir plus.
+Le conteneur Groupe logique vous permet de fournir un conteneur distinct dans les règles de segmentation afin de filtrer les entités qui ne reposent pas sur la hiérarchie. Vous pouvez par exemple souhaiter fournir un conteneur imbriqué dans le segment qui filtre les entités en fonction des visiteurs. Ce type de logique nécessite que vous rompiez la hiérarchie (puisque vous disposez déjà d’un conteneur Visiteur de niveau supérieur) afin de filtrer uniquement les entités pour les visiteurs sélectionnés. Vous pouvez y parvenir en utilisant le conteneur Groupe logique. Reportez-vous à la section [Exemples de groupes logiques](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) pour en savoir plus.
 
-## Nesting containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
+## Imbrication de conteneurs {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
 Lors de la création de conteneur de segments dans d’autres conteneurs, vous créez par essence un segment dans un segment. La logique suivante est utilisée avec les conteneurs imbriqués :
 
@@ -146,7 +145,7 @@ crée un segment qui se comporte dans cet ordre :
 1. Le segment étudierait alors à nouveau toutes les données, recherchant si des visiteurs ont passé une commande.
 1. Les deux jeux de données s’appliqueraient alors au rapport.
 
-## Containers for sequential segments {#section_324AF503F51A4A62806151FE440F3B2E}
+## Conteneurs pour les segments séquentiels {#section_324AF503F51A4A62806151FE440F3B2E}
 
 La segmentation séquentielle utilise les mêmes conteneurs de base, notamment [!UICONTROL Visiteurs], [!UICONTROL Visites] et [!UICONTROL Accès] (y compris les pages vues ou d’autres dimensions), imbriqués hiérarchiquement.
 
@@ -162,13 +161,13 @@ S’agissant de cette hiérarchie de conteneurs, la seule exception réside dans
 
 ![](assets/logic_group_hierarchy.png)
 
-## Reports based on container data {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
+## Rapports basés sur les données de conteneur {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
 
 Les conteneurs permettent de filtrer des données différentes différemment selon les valeurs de création de rapports lors de la ventilation de segments et de leur application aux rapports.
 
-Les données capturées à chaque niveau de la hiérarchie de conteneurs Visiteur &gt; Visite &gt; Accès affectent la manière dont vous créez vos segments. Si vous utilisez le même segment appliqué au même rapport utilisant le même jeu de données, vous obtenez des valeurs différentes en fonction du conteneur depuis lequel vous générez le rapport. Des facteurs tels que le niveau de création de rapports et la persistance des valeurs du conteneur dans les accès peuvent provoquer de grandes modifications dans la précision de la création de rapports. 
+Les données capturées à chaque niveau de la hiérarchie de conteneurs Visiteur &gt; Visite &gt; Accès affectent la manière dont vous créez vos segments. Si vous utilisez le même segment appliqué au même rapport utilisant le même jeu de données, vous obtenez des valeurs différentes en fonction du conteneur depuis lequel vous générez le rapport. Des facteurs tels que le niveau de création de rapports et la persistance des valeurs du conteneur dans les accès peuvent provoquer de grandes modifications dans la précision de la création de rapports.
 
-## Basics of container data {#section_9576D970F912450191AFB5B83F7F1656}
+## Concepts de base des données de conteneur {#section_9576D970F912450191AFB5B83F7F1656}
 
 Par exemple, le visiteur représenté ci-dessous a visité un site à la première visite, est arrivé sur la page d’accueil, puis a visité trois pages supplémentaires et converti la visite en une vente. Lors d’une autre visite, le visiteur est arrivé cette fois-ci par l’intermédiaire de la page des produits, puis a visité la page d’accueil, puis à nouveau la page des produits avant de fermer la session après avoir regardé les chapeaux d’hiver. Selon les données capturées pour chaque conteneur pour le segment, différentes valeurs s’affichent dans le rapport.
 
@@ -180,7 +179,7 @@ Selon le conteneur sélectionné, le rapport affiche différents résultats.
 
 ![](assets/container_overview.png)
 
-**Création de rapports à partir du conteneur Accès**
+**Création de rapports depuis le conteneur d’accès**
 
 Lorsque cette condition est incluse dans un conteneur d’accès, alors le rapport ne répertorie que les pages pour lesquelles la condition *Page = Manteaux d’hiver* est vraie. Puisque seule une page correspond à cette condition dans un conteneur d’une seule page, seule la page Manteaux d’hiver s’affiche.
 
@@ -192,9 +191,9 @@ Si vous créez des rapports depuis le conteneur d’accès, vous pouvez constate
 
 >[!IMPORTANT]
 >
->Quelle que soit la manière dont vous affichez les données (à partir des conteneurs Accès, Visite ou Visiteur), elles ont toutes le même nombre de visiteurs, 63 541, dans cet exemple. Quelle que soit la méthode de génération du rapport, la condition initiale du visiteur - Visiteurs qui a consulté la page Manteaux d’hiver - reste en l’état. Il s’agit du sous-ensemble de données depuis lequel vous créez des rapports aux différents niveaux.
+>Quelle que soit la manière dont vous consultez les données, depuis les conteneurs d’accès, de visites ou de visiteurs, vous trouvez le même nombre de visiteurs, 63 541 par exemple. Quelle que soit la méthode de génération du rapport, la condition initiale du visiteur - Visiteurs qui a consulté la page Manteaux d’hiver - reste en l’état. Il s’agit du sous-ensemble de données depuis lequel vous créez des rapports aux différents niveaux.
 
-**Création de rapports à partir du conteneur Visite**
+**Création de rapports depuis le conteneur de visites**
 
 Si cette même condition figure dans un conteneur de visites, le rapport répertorie toutes les pages de la visite pour lesquelles la condition *Page est égal à Winter Coats* (Manteaux d’hiver) est vraie. Elle filtre la page Manteaux d’hiver mais capture également toutes les autres pages de la visite pour lesquelles la condition est vraie. Le visiteur ayant également visité les pages d’accueil, Produit et Achat au cours de la visite pour laquelle la condition était respectée, ces pages supplémentaires sont répertoriées dans le rapport lorsque ce dernier est créé à l’aide des données du conteneur de visiteurs.
 
@@ -204,7 +203,7 @@ En affichant les valeurs de segments depuis le conteneur de visites, vous pouvez
 
 ![](assets/container_report_Visit.png)
 
-**Création de rapports à partir du conteneur de visiteurs**
+**Création de rapports depuis le conteneur de visiteurs**
 
 Si cette même condition figure dans un conteneur de visiteurs, le rapport répertorie toutes les pages vues par n’importe quel visiteur pour lesquelles la condition *Page est égal à Winter Coats* (Manteaux d’hiver) est vraie. Cela signifie que si un visiteur a consulté la page Manteaux d’hiver, alors toutes les pages du conteneur de visiteurs, y compris les pages vues lors d’autres visites, sont répertoriées. En conséquence, les pages qui ne respectent pas la condition sont répertoriées dans le rapport car le visiteur les a consultées antérieurement. Toutes les pages du conteneur de visiteurs seront répertoriées dans le rapport, même si elles se sont produites antérieurement et ne respectent pas spécifiquement les conditions.
 
@@ -216,9 +215,9 @@ Si vous affichez les segments du conteneur de visiteurs, vous pouvez constater q
 
 En résumé, comprendre comment la segmentation fonctionne sur les différentes ventilations de données constitue la clé de l’interprétation des données qu’elle renvoie.
 
-## Reporting based on the container {#section_D0604748F2794327B8C668617A31EC18}
+## Création de rapports basée sur le conteneur {#section_D0604748F2794327B8C668617A31EC18}
 
-Chaque ventilation de données de segment a une portée à laquelle elle est appliquée. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. Il est important de comprendre que la création de rapports est basée sur la portée de votre conteneur.
+Une portée est appliquée à chaque ventilation de données de segment. La plupart des ventilations sont basées sur les *pages vues*. Néanmoins, de nombreux segments de valeur sont basés sur le conteneur de *visites* et, à un degré moindre, sur le conteneur de *visiteurs*. Il est important de comprendre que la création de rapports est basée sur la portée de votre conteneur.
 
 Selon l’exemple de segment *Page = Manteaux d’hiver* utilisé précédemment, les problèmes répertoriés ci-dessous définissent d’autres aspects de votre segment basés sur la manière dont les données de conteneur sont appliquées et sur la manière dont la portée des données doit correspondre au type de segment.
 
@@ -226,8 +225,8 @@ Selon l’exemple de segment *Page = Manteaux d’hiver* utilisé précédemmen
 
 L’application du conteneur de segment sur une portée naturelle de données donne les résultats escomptés pour lesquels les lignes correspondent à la règle de segment.
 
-* **Conteneur d’accès pour lequel la page est égale à « Manteaux d’hiver » (Winter Coats)*** : la consultation d’un rapport sur les pages avec ce segment renvoie uniquement les valeurs égales à « Manteaux d’hiver ».* Toutes les autres pages sont exclues du rapport.
-* **Conteneur de visites pour lequel la page d’accès est égale à « Vêtements d’hiver »*** : la consultation d’un rapport sur les pages d’accès avec ce segment renvoie uniquement la deuxième visite car sa page d’accès correspond à la règle de segment.*
+* **Conteneur d’accès pour lequel la page est égale à « Manteaux d’hiver » (Winter Coats)** : la consultation d’un rapport sur les *pages* avec ce segment renvoie uniquement les valeurs égales à « Manteaux d’hiver ». Toutes les autres pages sont exclues du rapport.
+* **Conteneur de visites pour lequel la page d’accès est égale à « Vêtements d’hiver »** : la consultation d’un rapport sur les *pages d’accès* avec ce segment renvoie uniquement la deuxième visite car sa page d’accès correspond à la règle de segment.
 * **Conteneur de visites pour lequel le nombre de visites est égal à 1** : la consultation d’une page vue Toutes les visites depuis la première visite est incluse dans le rapport car elle correspond à la règle de segment.
 
 **Pages vues au niveau du conteneur de visites**
@@ -247,7 +246,7 @@ L’utilisation d’un segment avec un conteneur plus petit que la portée de la
 * **Conteneur d’accès pour lequel la page est égale à « Achat »** : si vous utilisez les pages vues comme mesure, seule la page des achats s’affiche (comme prévu). Si vous utilisez un rapport Participation recettes, toutes les pages de la première visite reçoivent 100 $ puisque les mesures de participation sont basées sur les visites.
 * **Conteneur d’accès pour lequel la page est égale à « Manteaux d’hiver »** : si vous utilisez les pages vues comme mesure, seule la page Manteaux d’hiver s’affiche (comme prévu). Si vous utilisez un rapport Participation recettes, aucune page ne reçoit de crédit car cette dimension requiert une dimension persistante. La page vue qui a réellement effectué l’achat (la page des achats) n’est pas incluse dans le conteneur d’accès. De ce fait, aucune participation aux recettes n’est attribuée à un élément quelconque. Néanmoins, l’exécution d’un rapport depuis le conteneur des visites inclurait toutes les pages vues au cours de cette visite et distribuerait une participation aux recettes (100 $) sur toutes les pages vues de la session.
 
-## Persistence across containers {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
+## Persistance dans les conteneurs {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
 
 Le filtrage par dimensions qui persistent dans une plage de pages, une eVar de campagne ou une dimension référente par exemple, affecte les données collectées au niveau du conteneur et doit être compris afin de garantir la précision de la création de rapports.
 
@@ -263,7 +262,7 @@ Le segment *Domaine référent est égal à aol.com* ci-dessus s’applique aux 
 
 Dans une nouvelle visite, le visiteur est référencé depuis un autre site. En conséquence, la nouvelle valeur de domaine référent pour chaque page vue est affectée à toutes les pages de la nouvelle visite.
 
-**Création de rapports à partir du conteneur Accès**
+**Création de rapports depuis le conteneur d’accès**
 
 La même valeur de domaine référent étant affectée à toutes les pages vues d’une même visite, la création de rapports au niveau du conteneur d’accès, où la condition *Domaine référent = « aol.com »*, renvoie toutes les pages répertoriées dans le tableau ci-dessous.
 
@@ -273,9 +272,9 @@ L’affichage des données provenant du conteneur d’accès montre qu’un peu 
 
 ![](assets/container_report_persist_PV.png)
 
-**Création de rapports à partir du conteneur Visite**
+**Création de rapports depuis le conteneur de visites**
 
-Si cette même condition est filtrée dans le conteneur de visites pour un rapport sur les pages, alors, pour toutes les pages de la visite, la condition *Domaine référent = « aol.com »* est vraie. Dans la mesure où la valeur du domaine référent est définie au niveau de la visite, les rapports aux niveaux de la page vue et de la visite sont les mêmes.
+Si cette même condition est filtrée dans le conteneur de visites pour un rapport sur les pages, alors, pour toutes les pages de la visite, la condition *Domaine référent = « aol.com »* est vraie. Dans la mesure où la valeur du domaine référent est définie au niveau de la visite, les rapports au niveau de la page vue et de la visite sont les mêmes.
 
 ![](assets/container_overview_persist_Visit.png)
 
@@ -283,7 +282,7 @@ Dans cet exemple, toutes les pages ayant la même valeur de domaine référent b
 
 ![](assets/container_report_persist_Visit.png)
 
-**Création de rapports à partir du conteneur de visiteurs**
+**Création de rapports depuis le conteneur de visiteurs**
 
 Depuis le conteneur de visiteurs, le rapport sur les pages répertorie toutes les pages consultées par des visiteurs pour lesquelles la condition *Domaine référent = « aol.com »* est vraie. En conséquence, si un visiteur comporte *« aol.com »* comme domaine référent dans son historique (au cours d’une période définie), alors toutes les pages du conteneur de visiteurs, y compris les pages vues lors d’autres visites, sont répertoriées. Même les pages qui ne correspondent pas à la condition principale seront répertoriées dans le rapport car elles sont incluses dans le conteneur de visiteurs. Toutes les pages du conteneur de visiteurs seront répertoriées dans le rapport, même si elles se sont produites antérieurement et ne respectent pas spécifiquement les conditions.
 
@@ -298,5 +297,5 @@ Lorsque vous consultez des données depuis le conteneur de visiteurs, notez que 
 En résumé :
 
 * Le conteneur de visites renvoie toutes les pages vues lors d’une visite lorsqu’au moins une page respecte les critères. Ainsi, si une page n’est vue que lors de la visite 1 le jour 1, alors toutes les pages vues lors l’ensemble de la visite sont incluses dans les données.
-* Soyez attentif lorsque la condition que vous segmentez est définie sur une eVar ou un autre type de variable persistante. Par exemple, vous pouvez utiliser la condition "où la campagne contient du courrier électronique" et expire au bout de 7 jours. Ainsi, si la campagne est définie sur la première visite, elle persistera pendant 7 jours de plus. Chaque visite sera incluse même si la campagne n’était définie que sur la première visite. Les autres visites seront également incluses (tant qu’elles figurent dans la période du rapport). Si vous souhaitez empêcher l’inclusion de valeurs persistantes, utilisez l’événement "instance de" ou une variable prop équivalente, le cas échéant.
+* Soyez attentif lorsque la condition que vous segmentez est définie sur une eVar ou un autre type de variable persistante. Par exemple, vous pouvez utiliser la condition « lorsque la campagne contient du courrier électronique » et elle expire au bout de 7 jours. Ainsi, si la campagne est définie sur la première visite, elle persistera pendant 7 jours de plus. Chaque visite sera incluse même si la campagne n’était définie que sur la première visite. Les autres visites seront également incluses (tant qu’elles figurent dans la période du rapport). Si vous souhaitez que les valeurs persistantes ne soient pas incluses, utilisez l’événement « instance de » ou une variable prop équivalente, si disponible.
 
