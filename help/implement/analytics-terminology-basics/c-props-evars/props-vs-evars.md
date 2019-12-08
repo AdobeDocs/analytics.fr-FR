@@ -1,12 +1,11 @@
 ---
 description: Plusieurs types de variables sont disponibles dans Experience Cloud. Les deux types les plus populaires, propriétés et eVars, permettent à votre entreprise de générer des rapports sur des dimensions personnalisées de votre site, une fonctionnalité que les rapports standard ne proposent pas.
 keywords: Analytics Implementation;prop;evar;props vs evars;naming convention;traffic variables;persistence;success event;pathing
-solution: Analytics
 title: Comparaison des propriétés et des eVars
 topic: Developer and implementation
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
