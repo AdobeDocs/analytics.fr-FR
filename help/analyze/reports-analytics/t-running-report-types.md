@@ -1,11 +1,10 @@
 ---
 description: Cette section décrit la procédure à suivre pour exécuter les différents types de rapports.
-solution: Analytics
 title: Exécution de différents types de rapports
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -226,7 +225,7 @@ Configurez la détection des anomalies indépendamment pour chaque suite de rapp
 
    ![](assets/view_training_periods.png)
 
-   Gardez à l’esprit que :
+   Gardez les éléments suivants à l’esprit :
 
 * la période de formation se termine juste avant que la période d’affichage ne commence ;
 * la valeur par défaut des deux périodes est de 30 jours et vous pouvez l’étendre à 60 ou 90 ;
