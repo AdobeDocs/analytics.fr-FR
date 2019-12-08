@@ -1,11 +1,10 @@
 ---
 description: Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
-solution: Analytics
 title: Mode standard et mode réel
 topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
