@@ -1,11 +1,10 @@
 ---
 description: Les outils Paramètres d’une Report Suite spécifique permettent de modifier les paramètres par défaut de vos suites de rapports. Ils vous offrent notamment la possibilité de supprimer des enregistrements de pages inutiles ou obsolètes, de définir des mesures par défaut et de configurer des segments de suite de rapports.
-solution: Analytics
 title: Paramètres d’une suite de rapports spécifique
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,8 +15,8 @@ Les outils Paramètres d’une Report Suite spécifique permettent de modifier 
 
 Pour accéder aux [!UICONTROL Paramètres d’une Report Suite spécifique] :
 
-1. Cliquez sur **[!UICONTROL Admin]**, puis sur **[!UICONTROL Report Suites]**.
+1. Cliquez sur **[!UICONTROL Admin]**, puis sur **[!UICONTROL Suites de rapports]**.
 
 1. Sélectionnez une suite de rapports.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Suite Settings]** &gt; *`<selection>`*.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Paramètres d’une suite de rapports spécifique]** &gt; *`<selection>`*.
 
