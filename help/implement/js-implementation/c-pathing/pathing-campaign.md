@@ -1,12 +1,11 @@
 ---
 description: Réponse à la question « Où l’utilisateur se rend-il sur mon site après y avoir été redirigé à partir d’une campagne ? »
 keywords: Analytics Implementation
-solution: Analytics
 title: Cheminement par code de suivi ou de campagne
 topic: Developer and implementation
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
