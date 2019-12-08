@@ -1,12 +1,11 @@
 ---
 description: Description de la méthode de comptabilisation des instances sur les variables de marchandisage.
 keywords: Analytics Implementation
-solution: Analytics
 title: Instances sur les variables de marchandisage
 topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,5 +47,5 @@ s.products=";Fernie Snow Goggles"
 
 L’instance n’est allouée à « Aucun » que si vous définissez une valeur pour une eVar sur une page sur laquelle aucun événement de liaison ne survient ou si vous définissez la valeur d’eVar dans la chaîne de produits sans événement de liaison.
 
-> [!NOTE] La fonctionnalité actuelle de comptabilisation des instances sur les variables de marchandisage est en cours de révision et devrait être modifiée dans une prochaine version.
+> [!NOTE] L’actuelle fonctionnalité de comptabilisation des instances sur des variables de marchandisage fait l’objet d’une révision. Sa modification est prévue pour une prochaine version.
 
