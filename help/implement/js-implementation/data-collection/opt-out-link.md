@@ -1,13 +1,12 @@
 ---
 description: Spécifiez un lien d’exclusion et personnalisez-le. Les visiteurs de votre site Web peuvent choisir de ne pas faire suivre leur activité dans les produits d’analyse d’Adobe en consultant la page d’exclusion de votre domaine de collecte de données.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Ajout d’un lien d’exclusion
 topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
