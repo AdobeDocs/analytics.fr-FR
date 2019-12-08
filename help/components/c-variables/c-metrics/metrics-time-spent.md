@@ -1,15 +1,14 @@
 ---
 description: Adobe Analytics propose différentes mesures et dimensions de durée de la visite. Découvrez-les ainsi que leur mode de calcul.
-solution: Analytics
-title: Durée de la visite
+title: Durée
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# [!UICONTROL Temps passé]
+# [!UICONTROL Durée]
 
 Diverses [!UICONTROL "mesures et dimensions de durée de la visite"] sont proposées dans les produits Adobe Analytics.
 
@@ -18,8 +17,8 @@ Diverses [!UICONTROL "mesures et dimensions de durée de la visite"] sont propos
 | Mesure | Définition | Disponible dans |
 |---|---|---|
 | [!UICONTROL Durée totale (secondes)] | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique. Inclut l’instance d’une valeur et d’une persistance pour tous les accès suivants. Dans le cas des props, la durée de la visite est également prise en compte dans les événements de lien ultérieurs. | Espace de travail d’analyse, Rapports et analyses, Créateur de rapports (appelé "temps total passé"), Entrepôt de données, Analyses ad hoc |
-| [!UICONTROL Temps passé par visite] (secondes) | *Total des secondes passées / (retours sur visite)*<br>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique au cours de chaque visite. | Analysis Workspace, Rapports et analyses, Analyses ad hoc |
-| [!UICONTROL Durée par visiteur] (secondes) | *Total secondes passées /*<br>visiteur uniqueReprésente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de son cookie). | Analysis Workspace, Rapports et analyses, Analyses ad hoc |
+| [!UICONTROL Temps passé par visite] (secondes) | *Total des secondes passées / (retours sur visite)*<br>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique au cours de chaque visite. | Analysis Workspace, Reports &amp; Analytics, Analyses ad hoc |
+| [!UICONTROL Durée par visiteur] (secondes) | *Total secondes passées /*<br>visiteur uniqueReprésente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de son cookie). | Analysis Workspace, Reports &amp; Analytics, Analyses ad hoc |
 | [!UICONTROL Durée moyenne de consultation du site] (secondes) | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Cette option n’est pas limitée aux moyennes de la visite du « site » comme son nom l’indique. Pour plus d’informations sur les séquences, voir la section "Comment la durée de la visite est calculée".<br>**Remarque**: Cette mesure diffère très probablement de "Durée de la visite" au niveau d’un élément de dimension en raison des différences dans le dénominateur dans le calcul. | Espace de travail d’analyse, Rapports et analyses (en minutes), Créateur de rapports (en minutes), Analyses ad hoc |
 | [!UICONTROL Durée de consultation moyenne de la page] | Mesure obsolète.<br> Au lieu de cela, nous vous recommandons d’utiliser la "durée moyenne de consultation du site" si la durée moyenne d’un élément de dimension est nécessaire. | Report Builder (lorsqu’une dimension figure dans la demande) |
 | [!UICONTROL Durée]totale de la session, alias Durée de session [!UICONTROL précédente] | SDK d’applications mobiles uniquement. <br>Déterminée la prochaine fois que l’application est lancée, pour la session précédente. Calculée en secondes, cette mesure ne compte pas lorsque l’application est en arrière-plan, mais uniquement lorsqu’elle est en cours d’utilisation. Il s’agit d’une mesure au niveau de la session.<br>Exemple : Nous installons l'application ABC et la lançons et l'utilisons pendant 2 minutes, puis fermons l'application. Aucune donnée n’est envoyée sur cette heure de session. The next time we launch the app, [!UICONTROL Previous Session Length] will be sent with a value of 120. | Espace de travail d’analyse, rapports et analyses, créateur de rapports, interface utilisateur de Mobile Services |
@@ -32,7 +31,7 @@ Diverses [!UICONTROL "mesures et dimensions de durée de la visite"] sont propos
 | [!UICONTROL Temps passé par visite - Valeur granulaire] | Durée totale passée lors la visite arrondie à la seconde la plus proche et appliquée à chaque accès qui faisait partie de la visite. Il s’agit d’une dimension du niveau de la visite. | Espace de travail d’analyse, analyses ad hoc |
 | [!UICONTROL Durée par visite – Regroupement] | Dimension granulaire regroupée en 9 plages différentes. Il s’agit d’une dimension du niveau de la visite. Les plages incluent :<ul><li>Moins de 1 minute</li><li>1-5 minutes</li><li>5-10 minutes</li><li>10-30 minutes</li><li>30-60 minutes</li><li>1-2 heures</li><li>2-5 heures</li><li>5-10 heures</li><li>10-15 heures</li></ul>**Remarque**: Il ne peut pas y avoir de intervalles supérieurs à cela, car une visite expire après 12 heures d’activité. | Espace de travail d’analyse, Rapports et analyses, Créateur de rapports, Analyses ad hoc |
 | [!UICONTROL Durée de consultation de la page - Granulaire] | Durée totale passée sur chaque accès, arrondie à la seconde la plus proche. Il s’agit d’une dimension de niveau accès qui comprend à la fois les pages vues et les événements de lien. Malgré son nom, il ne se limite pas à la dimension "page". | Espace de travail d’analyse, analyses ad hoc |
-| [!UICONTROL Durée de consultation de la page – Regroupement] | La dimension granulaire a été regroupée en 10 plages. Cependant, la dimension regroupée ne décompte que les pages vues (et exclut les événements de lien). Il s’agit d’une dimension du niveau de l’accès. Les plages incluent :<ul><li>moins de 15 secondes</li><li>15 à 29 secondes</li><li>30 à 59 secondes</li><li>1 à 3 minutes</li><li>3 à 5 minutes</li><li>5 à 10 minutes</li><li>10 à 15 minutes</li><li>15 à 20 minutes</li><li>20 à 30 minutes</li><li>plus de 30 minutes</li></ul> | Analysis Workspace, Rapports et analyses, Analyses ad hoc |
+| [!UICONTROL Durée de consultation de la page – Regroupement] | La dimension granulaire a été regroupée en 10 plages. Cependant, la dimension regroupée ne décompte que les pages vues (et exclut les événements de lien). Il s’agit d’une dimension du niveau de l’accès. Les plages incluent :<ul><li>moins de 15 secondes</li><li>15 à 29 secondes</li><li>30 à 59 secondes</li><li>1 à 3 minutes</li><li>3 à 5 minutes</li><li>5 à 10 minutes</li><li>10 à 15 minutes</li><li>15 à 20 minutes</li><li>20 à 30 minutes</li><li>plus de 30 minutes</li></ul> | Analysis Workspace, Reports &amp; Analytics, Analyses ad hoc |
 
 ## Méthode de calcul de "Durée de la visite"
 
