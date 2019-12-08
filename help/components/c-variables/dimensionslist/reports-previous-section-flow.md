@@ -1,11 +1,10 @@
 ---
 description: Le rapport Flux de section précédente est semblable au rapport Flux page précédente. Il affiche des données pour des sections du site (groupes de pages web connexes). Si une page est contenue dans plusieurs sections du site, le rapport affiche les données pour toutes les sections.
-solution: Analytics
 title: Flux de section précédente
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
