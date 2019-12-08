@@ -1,12 +1,11 @@
 ---
 description: Data Warehouse s’accompagne d’une interface souple permettant d’exécuter des rapports personnalisés. Ces pratiques permettent d’accélérer la récupération des données.
 keywords: best practices;failure;timeout;troubleshooting
-solution: Analytics
 title: Bonnes pratiques relatives à l’Data Warehouse
 topic: Data warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
