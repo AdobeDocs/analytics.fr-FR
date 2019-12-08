@@ -1,11 +1,10 @@
 ---
 description: Exemples, remarques et notes syntaxiques concernant l’utilisation de périodes dans des expressions personnalisées.
-solution: Analytics
 title: Exemples de plages de dates utilisant des expressions personnalisées
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Dans ce tableau, on suppose que nous sommes aujourd’hui le lundi 10 novembre
 
 | Exemple | Période | Expression personnalisée | Période du rapport |
 |---|---|---|---|
-|  |  | **Du** | **Au** |  |
+|  |  | **Du** | **À** |  |
 | 1 | ll y a deux semaines | cw-2w | cw-1w-1d | 26 oct. au 1er nov. |
 | 2 | 3 premiers jours du cinquième mois de l’année dernière | cy-1y+4m | cy-1y+4m+2d | 1er mai au 3 mai 2010 |
 | 3 | Une semaine complète, commençant il y a 4 semaines | cw-4w | cw-3w-1d | 12 oct. au 18 oct. |
@@ -28,11 +27,11 @@ Dans ce tableau, on suppose que nous sommes aujourd’hui le lundi 10 novembre
 
 ## Notes on examples {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
-**Exemple 1**
+**Exemple 1**
 
 Si nous sommes aujourd’hui le lundi 10 novembre 2011, prenez la date actuelle et soustrayez une semaine afin d’obtenir la dernière semaine complète d’octobre.
 
-**Exemple 2**
+**Exemple 2**
 
 Ajoutez quatre mois au début de l’année (le mois de janvier) afin d’obtenir le mois de mai ; ajoutez deux jours au premier jour du mois pour obtenir le troisième jour du mois.
 
