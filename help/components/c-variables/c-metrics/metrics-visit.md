@@ -1,12 +1,11 @@
 ---
 description: Séquence de pages vues lors d’une session unique. Cette mesure est généralement utilisée dans les rapports qui affichent le nombre de sessions utilisateurs au cours de la période sélectionnée.
 keywords: visit
-solution: Analytics
 title: Visite
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Séquence de pages vues lors d’une session unique. Cette mesure est généralement utilisée dans les rapports qui affichent le nombre de sessions utilisateurs au cours de la période sélectionnée.
 
-> [!NOTE] Pour plus d’informations sur le calcul des visites et des lancements d’applications mobiles, voir [Comparaison des visites et des lancements](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) d’applications mobiles dans la base de connaissances.
+> [!NOTE] Pour en savoir plus sur le calcul des visites et des lancements d’application mobile, voir [Comparaison des visites et des lancements d’application mobile](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) dans la base de connaissances.
 
 Cette mesure est toujours associée à une période afin que vous sachiez si vous comptabilisez ou non une nouvelle visite si le même visiteur revient sur votre site. Une session débute lors de la première visite de l’utilisateur sur votre site et se termine lorsque l’un des scénarios suivants se présente :
 
@@ -24,7 +23,7 @@ Cette mesure est toujours associée à une période afin que vous sachiez si vou
 * **2500 accès** : si un utilisateur génère un grand nombre d’accès sans commencer une nouvelle session, une nouvelle visite est comptabilisée après 2500 demandes d’image.
 * **100 accès en 100 secondes** : si une visite consiste de plus de 100 accès se produisant en moins de 100 secondes, la visite se termine automatiquement. Ce comportement indique généralement une activité de robots et cette limite est appliquée pour empêcher ces visites, gourmandes en traitement, d’augmenter la latence et le délai de génération des rapports.
 
-> [!NOTE] La définition d’une visite peut être raccourcie pour une suite de rapports si elle est spécifiquement demandée, mais elle ne peut pas être étendue. Invitez l’un des utilisateurs de votre société ayant souscrit un plan d’assistance dédié à contacter le service d’assistance clientèle pour demander l’exécution de cette modification.
+> [!NOTE] La définition d’une visite peut être raccourcie pour une suite de rapports si une requête spécifique est formulée dans ce sens, mais elle ne peut pas être rallongée. Invitez l’un des utilisateurs de votre société ayant souscrit un plan d’assistance dédié à contacter le service d’assistance clientèle pour demander l’exécution de cette modification.
 
 Une nouvelle visite n’est pas lancée dans les cas suivants :
 
@@ -35,7 +34,7 @@ Une visite ne coïncide pas nécessairement avec une session de navigateur. Par 
 
 Lorsqu’une visite se termine, toutes les variables comportant une expiration de visite expirent et ne persistent pas. La mesure du nombre de visites est incrémentée lors de la visite suivante de ce visiteur.
 
-> [!NOTE] Si vous utilisez Analytics en tant que source de création de rapports pour Adobe Target, reportez-vous à la section [Réduction du nombre de visites et de visiteurs exagéré dans A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) de la [!DNL Target] documentation.
+> [!NOTE] Si vous utilisez Analytics en tant que source des rapports pour Adobe Target, reportez-vous à la section [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) dans la documentation [!DNL Target].
 
 Pour plus d’informations, voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) dans le guide Mise en œuvre d’Adobe Analytics.
 
