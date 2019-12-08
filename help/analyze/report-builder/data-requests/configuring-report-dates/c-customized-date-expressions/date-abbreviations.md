@@ -1,11 +1,10 @@
 ---
 description: Les abréviations temporelles se rapportent à une date particulière de début de période et non à une plage de jours. Une plage de jours est exprimée en précisant une date de début et une date de fin pour deux abréviations temporelles (ou termes).
-solution: Analytics
 title: Abréviations des dates
 topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
