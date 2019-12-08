@@ -1,13 +1,12 @@
 ---
 description: Personnalisez l’accès d’un groupe aux outils Analytics, aux outils de suites de rapports, aux mesures et aux dimensions.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Personnalisation de l’accès aux rapports - Aperçu
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,17 +15,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outils d’administration]** &gt; **[!UICONTROL Gestion des utilisateurs]** sera retiré.
 
 Personnalisez l’accès d’un groupe aux outils Analytics, aux outils de suites de rapports, aux mesures et aux dimensions.
 
-**[!UICONTROL Ajouter un nouveau groupe]** &gt; Accès aux **[!UICONTROL rapports]**
+**[!UICONTROL Ajouter un nouveau groupe]** &gt; **[!UICONTROL Accès aux rapports]**
 
 La section [!UICONTROL Accès aux rapports] de la page [!UICONTROL Définir un groupe d’utilisateurs] propose des catégories d’accès grâce auxquelles vous pouvez personnaliser les autorisations à un niveau granulaire.
 
 ![](assets/report-access.png)
 
-Vous pouvez par exemple créer un groupe ayant accès à plusieurs outils Analytics ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] et [!UICONTROL Report Builder]), avec autorisation d’accès à des mesures et dimensions spécifiques (y compris les eVars) et des fonctionnalités telles que la création de segments ou de mesures calculées.
+Vous pouvez par exemple créer un groupe ayant accès à plusieurs outils Analytics ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] et [!UICONTROL Report Builder]), avec autorisation d’accès à des mesures et dimensions spécifiques (y compris les eVars) et des fonctionnalités telles que la création de segments ou de mesures calculées.
 
 ## Ce que vous devez savoir sur les autorisations {#section_3D25D4A5BD044008870C5B98F696244E}
 
@@ -44,7 +43,7 @@ Vous pouvez par exemple créer un groupe ayant accès à plusieurs outils Analyt
   </tr> 
   <tr> 
    <td colname="col1"> <p>Groupes personnalisés </p> </td> 
-   <td colname="col2"> <p> Les groupes personnalisés remplacent les groupes prédéfinis. Les groupes prédéfinis existants seront migrés dans des groupes personnalisés du même nom. Tous les groupes personnalisés que vous avez créés seront préservés avec leurs paramètres. Toutefois, les paramètres ont été déplacés. Par exemple, les paramètres de la société (sous Personnaliser l’Admin Console) se trouvent maintenant sous <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personnaliser les outils Analytics</a>. </p> <p> Les utilisateurs appartenant à <span class="term"> Tous les accès</span> aux rapports ont été migrés vers un groupe personnalisé avec accès à : </p> 
+   <td colname="col2"> <p> Les groupes personnalisés remplacent les groupes prédéfinis. Les groupes prédéfinis existants seront migrés dans des groupes personnalisés du même nom. Tous les groupes personnalisés que vous avez créés seront préservés avec leurs paramètres. Toutefois, les paramètres ont été déplacés. Par exemple, les paramètres de la société (sous Personnaliser l’Admin Console) se trouvent maintenant sous <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personnaliser les outils Analytics</a>. </p> <p> Les utilisateurs appartenant à <span class="term"> Accès à tous les rapports</span> ont été migrés dans un groupe personnalisé ayant accès aux éléments suivants : </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">Toutes les dimensions </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">Toutes les mesures </li> 
@@ -52,24 +51,24 @@ Vous pouvez par exemple créer un groupe ayant accès à plusieurs outils Analyt
      <li id="li_685B99DEAB814D7B9C11B14AA4CB8CD4">Rapport Canal </li> 
      <li id="li_B35420302AAB42509BD6AF0FA6349BF8">Détection des anomalies </li> 
      <li id="li_3787E4696C454D3ABD1D75F6C282A9A2">Rapport en temps réel </li> 
-     <li id="li_3797DF9C40D1426588819116362962F5">Accès à Analysis Workspace </li> 
-    </ul> <p>Les administrateurs peuvent supprimer des groupes personnalisés et créer leurs propres groupes, puisque tous les paramètres qui étaient auparavant disponibles dans les groupes prédéfinis peuvent maintenant être personnalisés dans les paramètres <span class="wintitle">Accès aux rapports</span> sur la page Définition des groupes d’utilisateurs</a>. </p> </td> 
+     <li id="li_3797DF9C40D1426588819116362962F5">Accès à Analysis Workspace </li> 
+    </ul> <p>Les administrateurs peuvent supprimer des groupes personnalisés et créer leurs propres groupes, puisque tous les paramètres qui étaient auparavant disponibles dans les groupes prédéfinis peuvent maintenant être personnalisés dans les paramètres <span class="wintitle"> Accès aux rapports</span> sur la page Définition des groupes d’utilisateurs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Autorisations au niveau des dimensions </p> </td> 
    <td colname="col2"> <p>Vous pouvez personnaliser les autorisations afin d’inclure ou d’exclure l’accès aux dimensions (outre les mesures). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Toutes les dimensions et les mesures actuelles des groupes personnalisés ont été automatiquement transférées dans les nouvelles catégories. Si un groupe comprend des mesures actives, il obtiendra par défaut toutes les dimensions (eVars et reconnaissance du contenu) et mesures nouvellement autorisables. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">variable</a> sur laquelle repose la classification. </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html"> variable</a> sur laquelle repose la classification. </li> 
+    </ul> <p>Voir <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Personnalisation des autorisations liées aux dimensions</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Recommandé uniquement pour les nouveaux clients ou les clients dont les entreprises sont <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">configurées dans Experience Cloud</a>. Pour les clients <span class="keyword">Analytics</span> actuels, une migration est prévue vers le système de gestion des identités d’<span class="keyword">Experience Cloud</span>. </p> <p>Pour plus d’informations, reportez-vous à la section Migration des utilisateurs <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> Analytics vers la console</a>d’administration. </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>Recommandé uniquement pour les nouveaux clients ou les clients dont les entreprises sont <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">configurées dans Experience Cloud</a>. Pour les clients <span class="keyword">Analytics</span> actuels, une migration est prévue vers le système de gestion des identités d’<span class="keyword">Experience Cloud</span>. </p> <p>Pour plus d’informations, reportez-vous à la section <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Migration des utilisateurs d’Analytics vers l’Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reconnaissance du contenu </p> </td> 
-   <td colname="col2"> <p>Grâce aux variables de la Reconnaissance du contenu, vous pouvez gérer les autorisations des mesures liées aux intégrations des solutions Experience Cloud. Vous pouvez gérer les autorisations de <span class="keyword">Social</span>, de <span class="keyword">Mobile</span> ou des autres données qui ont été insérées au moyen d’une intégration à <span class="keyword">Experience Cloud</span>. Elles seront activées par défaut. </p> </td> 
+   <td colname="col2"> <p>Grâce aux variables de la Reconnaissance du contenu, vous pouvez gérer les autorisations des mesures liées aux intégrations des solutions Experience Cloud. Vous pouvez gérer les autorisations de <span class="keyword">Social</span>, de <span class="keyword">Mobile</span> ou des autres données qui ont été insérées au moyen d’une intégration à <span class="keyword">Experience Cloud</span>. Elles seront activées par défaut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Autorisations / rapports n’existant plus </p> </td> 
