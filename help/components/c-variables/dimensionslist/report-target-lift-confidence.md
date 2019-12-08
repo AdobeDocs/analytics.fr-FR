@@ -1,28 +1,27 @@
 ---
 description: Vous permet d’évaluer le succès des campagnes dans Adobe Analytics comme vous le faisiez auparavant dans Target Classic.
-solution: Analytics
 title: Effet élévateur et degré de confiance Target
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Effet élévateur et degré de confiance Target
 
-Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
+Vous permet d’évaluer le succès des campagnes dans Adobe Analytics comme vous le faisiez auparavant dans [!DNL Target Classic].
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Rapports]** &gt; **[!UICONTROL Afficher tous les rapports]** &gt; **[!UICONTROL Adobe Target]** &gt; Analytics pour Target &gt;  des activités de  de ciblage.********
+**[!UICONTROL Analyses]** &gt; **[!UICONTROL Rapports]** &gt; **[!UICONTROL Afficher tous les rapports]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics pour Target]** &gt; **[!UICONTROL Activités Target]**.
 
 Vous trouverez dans la documentation d’Adobe Target d’autres informations sur l’[Effet élévateur](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) et le [Degré de confiance](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html).
 
 Pour calculer l’effet élévateur et le degré de confiance :
 
-1. Dans le rapport **[!UICONTROL Activités cibles], cliquez sur une activité pour en afficher les détails.**
+1. Dans le rapport **[!UICONTROL Activités cibles]**, cliquez sur une activité pour en afficher les détails.
 1. Sous Type de rapport, sélectionnez **[!UICONTROL Effet élévateur et degré de confiance]**.
-1. Cliquez sur **[!UICONTROL Afficher les mesures]pour ajouter une mesure.** Vous ne pouvez pas ajouter plusieurs mesures pour ce type de rapport ; il est conseillé d’évaluer un test pour une seule mesure. Si vous ajoutiez plusieurs mesures, vous ajouteriez uniquement du bruit et réduiriez le signal du test.
-1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. La plupart du temps, la mesure par défaut, Visiteurs, convient.
+1. Cliquez sur **[!UICONTROL Afficher les mesures]** pour ajouter une mesure.  Vous ne pouvez pas ajouter plusieurs mesures pour ce type de rapport ; il est conseillé d’évaluer un test pour une seule mesure. Si vous ajoutiez plusieurs mesures, vous ajouteriez uniquement du bruit et réduiriez le signal du test.
+1. (Facultatif) Sous **[!UICONTROL Mesure de normalisation]**, sélectionnez l’une des mesures suivantes : Visiteurs, Visites ou Impressions. La plupart du temps, la mesure par défaut, Visiteurs, convient.
 
 1. Le rapport ajoute ces mesures, y compris le rapport entre la mesure et la mesure de normalisation.
 
