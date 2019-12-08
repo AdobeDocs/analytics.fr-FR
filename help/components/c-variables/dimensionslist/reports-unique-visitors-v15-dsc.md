@@ -1,11 +1,10 @@
 ---
 description: Indique le nombre de visiteurs uniques ayant accédé à votre site. Chaque visiteur est comptabilisé une seule fois, indépendamment du nombre de visites qu’il effectue sur votre site web.
-solution: Analytics
 title: Visiteurs uniques
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,7 @@ Pour consulter des exemples de cette page, reportez-vous au tableau suivant. Le 
 
 ## Rapport Visiteurs uniques - Mesure avec tendance {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL Les rapports Visiteurs] uniques se comportent de la même manière dans les analyses ad hoc. Pour chaque accès donnant lieu à une visite, le visiteur est comptabilisé. Chaque page reçoit du crédit pour le visiteur.
+Les rapports [!UICONTROL Visiteurs uniques] se comportent de la même manière dans les Ad Hoc Analysis. Pour chaque accès donnant lieu à une visite, le visiteur est comptabilisé. Chaque page reçoit du crédit pour le visiteur.
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -105,19 +104,19 @@ Chaque date reçoit également du crédit pour ce visiteur.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1er janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -140,19 +139,19 @@ Vous pouvez également sélectionner une page pour le [!UICONTROL Rapport Visite
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1er janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -177,19 +176,19 @@ Les visiteurs uniques périodiques sont comptabilisés uniquement pour la premi�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1er janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 2 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -210,19 +209,19 @@ Le rapport suivant présente les visiteurs uniques par jour.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1er janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -243,11 +242,11 @@ Le total des mesures peut varier en fonction de la période du rapport. Les rapp
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>2 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -278,19 +277,19 @@ Pour les visiteurs uniques par semaine où Page = A, les rapports marketing ex
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1er janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 2 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -311,19 +310,19 @@ Dans le cas des visiteurs uniques par semaine où Page = B, le 2 janvier cons
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1er janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 janvier </p> </td> 
+   <td colname="col1"> <p>Janvier 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -348,27 +347,27 @@ Vous pouvez ajouter des mesures Visiteur unique périodiques sur des rapports n�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1er janvier </p> </td> 
+   <td colname="col02"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>2 janvier </p> </td> 
+   <td colname="col02"> <p>Janvier 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>3 janvier </p> </td> 
+   <td colname="col02"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>4 janvier </p> </td> 
+   <td colname="col02"> <p>Janvier 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>E </p> </td> 
-   <td colname="col02"> <p>Janvier 5 </p> </td> 
+   <td colname="col02"> <p>Janvier 5 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -392,22 +391,22 @@ Une mesure Visiteurs uniques par jour sur un [!UICONTROL rapport Pages] se prés
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1er janvier </p> </td> 
+   <td colname="col02"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>2 janvier </p> </td> 
+   <td colname="col02"> <p>Janvier 2 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>3 janvier </p> </td> 
+   <td colname="col02"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>4 janvier </p> </td> 
+   <td colname="col02"> <p>Janvier 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -418,7 +417,7 @@ Une mesure Visiteurs uniques par jour sur un [!UICONTROL rapport Pages] se prés
  </tbody> 
 </table>
 
-Pour ventiler un attribut par un autre (comme par exemple *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
+Pour ventiler un attribut par un autre (comme par exemple *`page`* par *`eVar`*), Analytics alloue un visiteur unique périodique pour chaque instance de la période et de la page (ou de l’attribut qui fait l’objet de la corrélation).
 
 Si vous ventilez la page A selon les eVars T, U, la date du 2 janvier est exclue, car la page A a été consultée le 1er janvier. Les résultats suivants s’affichent pour les visiteurs uniques par semaine :
 
@@ -447,6 +446,6 @@ Si vous ventilez la page A selon les eVars T, U, la date du 2 janvier est excl
 
 ## Cookies persistants {#section_81E139F08AEB4E30A06472856975EA1E}
 
-Les cookies persistants restent sur l’ordinateur du visiteur entre les visites afin qu’Adobe puisse identifier les visiteurs lors de leurs visites suivantes. To see the percentage of users who do and do not accept persistent cookies, select **[!UICONTROL Filter]** &gt; **[!UICONTROL Persistent Cookies]**.
+Les cookies persistants restent sur l’ordinateur du visiteur entre les visites afin qu’Adobe puisse identifier les visiteurs lors de leurs visites suivantes. Pour consulter le pourcentage d’utilisateurs qui acceptent et n’acceptent pas les cookies persistants, sélectionnez **[!UICONTROL Filtre]** &gt; **[!UICONTROL Cookies persistants]**.
 
 Le graphique ainsi que l’affichage des détails ci-dessous présentent à la fois les visiteurs acceptant les cookies persistants et ceux qui les refusent. La plupart du temps, le nombre de visiteurs refusant les cookies non persistants est négligeable.
