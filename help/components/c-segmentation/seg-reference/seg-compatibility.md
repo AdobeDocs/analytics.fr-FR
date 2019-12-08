@@ -1,24 +1,23 @@
 ---
-description: Tous les segments créés dans le Créateur de segments ne sont pas compatibles avec l’entrepôt de données. Ce tableau répertorie les fonctions prises en charge.
-solution: Analytics
-title: Compatibilité des segments avec l’Data Warehouse
+description: Tous les segments créés dans le Créateur de segments ne sont pas compatibles avec Data Warehouse. Ce tableau répertorie les fonctions prises en charge.
+title: Compatibilité des segments avec Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Compatibilité des segments avec l’Data Warehouse
+# Compatibilité des segments avec Data Warehouse
 
-Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. Ce tableau répertorie les fonctions prises en charge.
+Tous les segments créés dans le Créateur de segments ne sont pas compatibles avec l’[!DNL Data Warehouse]. Ce tableau répertorie les fonctions prises en charge.
 
 <table id="table_BBB1DAFDF85041598FA4AF869172CF7F"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Analysis Workspace, Rapports et analyses, Analyses ad hoc </th> 
+   <th colname="col2" class="entry"> Analysis Workspace, Reports &amp; Analytics, Analyses ad hoc </th> 
    <th colname="col3" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -34,7 +33,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
    <td colname="col3"> Non pris en charge </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>ET et OU peuvent être associés sans limite</b> </td> 
+   <td colname="col1"> <b>ET et OU peuvent être associés sans limites</b> </td> 
    <td colname="col2"> Pris en charge </td> 
    <td colname="col3"> Certaines limites. Voir *note* ci-dessous tableau. </td> 
   </tr> 
@@ -45,20 +44,20 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>Dimensions</b> </td> 
-   <td colname="col2">Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, ces dimensions sont prises en charge uniquement dans Analysis Workspace, les rapports et analyses et les analyses ad hoc : 
+   <td colname="col2">Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, les dimensions suivantes ne sont prises en charge que dans les Analysis Workspace, les Reports &amp; Analytics et les Ad Hoc Analysis : 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">Serveur d’accès </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">Catégorie d’accès </li> 
      <li id="li_5A43C846E2EA4EFCB892DE9E0607C68C">Date d’accès </li> 
      <li id="li_8E9CABBE04FC4A7A9A5D2BDD34AD3C87">Classement de toutes les pages de recherche </li> 
     </ul> </td> 
-   <td colname="col3"> Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, les dimensions suivantes ne sont prises en charge que dans l’entrepôt de données : 
+   <td colname="col3"> Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, les dimensions suivantes ne sont prises en charge que dans Data Warehouse : 
     <ul id="ul_61A5B314CCCF497DB0385324E3309E22"> 
      <li id="li_1254089BDFAE4E0F8E51CB1511BBBF53">Adresse IP </li> 
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">URL de la page </li> 
      <li id="li_4C79AE900CF6458780C124143DC6FA5B">Identifiant visiteur </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">Identifiant visiteur Experience Cloud </li> 
-    </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
+    </ul> <p>Il <b>n’est pas</b> possible d’utiliser les dimensions ci-après dans les segments de Data Warehouse : </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
      <li id="li_E77F3CC45BA04674B857FE5AB19D56F1">Classement de toutes les pages de recherche </li> 
      <li id="li_95E1549C13F14BA0B32686401EE78E31">Matin/après-midi </li> 
