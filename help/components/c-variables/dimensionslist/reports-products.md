@@ -1,11 +1,10 @@
 ---
 description: Identifient la manière dont les produits individuels et groupes de produits (catégories) influencent vos différentes mesures de conversion, comme les recettes ou les passages en caisse.
-solution: Analytics
 title: Produits
 topic: Reports
 uuid: a081352b-601a-43be-83ad-fa7f69890b49
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Identifient la manière dont les produits individuels et groupes de produits (ca
  <tbody> 
   <tr> 
    <td colname="col1"> Entonnoir de conversion de produits </td> 
-   <td colname="col2"> <p> Ce rapport présente des moyennes pour les mesures Vues de produits, Ajouts au panier, Commandes, Unités et Recettes. Il indique également les conversions clés entre les données importantes de chaque groupe de rapports et les mesures de conversion standard (commandes, unités et recettes). Le haut (aperçu) de l’entonnoir présente un récapitulatif visuel des données de conversion. La section Entonnoir contient les statistiques de tous les événements de la section d’aperçu, en fonction des commandes et de deux autres mesures au maximum (recettes et unités, par exemple). </p> <p>Pour ajouter des mesures et des événements personnalisés à partir d’autres groupes de rapports, cliquez sur un lien <span class="uicontrol">Événements sélectionnés</span> dans l’en-tête du rapport. </p> <p>Les périodes en cours ne sont pas terminées lorsque vous affichez les données. En conséquence, ce rapport peut indiquer une tendance à la baisse entre la période précédente et la période en cours. Par exemple, il peut y avoir moins de visites aujourd’hui qu’hier, mais seulement parce que le reste des statistiques de la période n’a pas encore été généré. </p> </td> 
+   <td colname="col2"> <p> Ce rapport présente des moyennes pour les mesures Vues de produits, Ajouts au panier, Commandes, Unités et Recettes. Il indique également les conversions clés entre les données importantes de chaque groupe de rapports et les mesures de conversion standard (commandes, unités et recettes). Le haut (aperçu) de l’entonnoir présente un récapitulatif visuel des données de conversion. La section Entonnoir contient les statistiques de tous les événements de la section d’aperçu, en fonction des commandes et de deux autres mesures au maximum (recettes et unités, par exemple). </p> <p>Pour ajouter des mesures et des événements personnalisés à partir d’autres groupes de rapports, cliquez sur un lien <span class="uicontrol">Événements sélectionnés</span> dans l’en-tête du rapport. </p> <p>Les périodes en cours ne sont pas terminées lorsque vous affichez les données. En conséquence, ce rapport peut indiquer une tendance à la baisse entre la période précédente et la période en cours. Il peut, par exemple, indiquer qu’il y a moins de visites aujourd’hui qu’hier, mais seulement parce que les statistiques relatives au reste de la période ne sont pas encore disponibles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Produits </td> 
@@ -36,7 +35,7 @@ Identifient la manière dont les produits individuels et groupes de produits (ca
   </tr> 
   <tr> 
    <td colname="col1"> Catégories </td> 
-   <td colname="col2"> <p> Indique l’impact de diverses catégories de produits sur les mesures de réussite de votre site. </p> </td> 
+   <td colname="col2"> <p> Indique la manière dont les différentes catégories de produits affectent les mesures de succès de votre site. </p> </td> 
   </tr> 
  </tbody> 
 </table>
