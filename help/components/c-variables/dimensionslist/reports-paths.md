@@ -1,11 +1,10 @@
 ---
 description: Affichent des informations sur l’ordre de consultation des pages de votre site web. Vous pouvez recueillir des informations sur le chemin qu’emprunte un visiteur avant et après la consultation d’une page de votre site.
-solution: Analytics
 title: Chemins
 topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,9 +17,9 @@ Affichent des informations sur l’ordre de consultation des pages de votre site
 
 Affichent des informations sur l’ordre de consultation des pages de votre site web. Vous pouvez recueillir des informations sur le chemin qu’emprunte un visiteur avant et après la consultation d’une page de votre site.
 
-Les rapports de chemins comprennent des rapports détaillés standard et des rapports d’analyse avancés facultatif qui révèlent le parcours des pages consultées. Vous pouvez révéler les chemins complets, les plus longs et les plus populaires ; expliquer graphiquement le flux des pages, les abandons et les pertes ; présenter les nouveaux modèles et les modèles en évolution au fil du temps ; et analyser les chemins d’entrée et de sortie.
+Les rapports de chemins comprennent des rapports détaillés standard et des rapports d’analyse avancés facultatifs qui révèlent le parcours des pages consultées. Vous pouvez révéler les chemins complets, les plus longs et les plus populaires ; expliquer graphiquement le flux des pages, les abandons et les pertes ; présenter les nouveaux modèles et les modèles en évolution au fil du temps ; et analyser les chemins d’entrée et de sortie.
 
-**[!UICONTROL Flux page suivante]** ou **[!UICONTROL Flux au site suivant]** : affiche un graphique d’embranchement à deux niveaux d’une page sélectionnée (ou section, département, etc.) pour les visiteurs une fois qu’ils quittent la page sélectionnée. Utilisez ce rapport pour analyser et identifier les étapes le plus souvent empruntées par vos visiteurs après l’affichage d’une page sélectionnée. Vous pouvez :
+**[!UICONTROL Flux page suivante]** ou **[!UICONTROL Flux au site suivant]** : affiche un graphique d’embranchement à deux niveaux d’une page sélectionnée (ou section, département, etc.) pour les visiteurs une fois qu’ils quittent la page sélectionnée. Utilisez ce rapport pour analyser et identifier les étapes le plus souvent empruntées par vos visiteurs après l’affichage d’une page sélectionnée. Vous pouvez:
 
 * Déterminer les étapes effectuées le plus souvent après la consultation d’une page sélectionnée.
 * Optimiser la conception de vos chemins de site pour acheminer le trafic vers la page cible souhaitée.
@@ -38,7 +37,7 @@ Les rapports de chemins comprennent des rapports détaillés standard et des rap
 
 Voir [Rapport d’abandons](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
-**[!UICONTROL PathFinder]** : vous permet de fragmenter davantage vos chemins complets, produisant ainsi des modèles précis, déterminants dans le cadre de l’optimisation de votre site. L’Assistant PathFinder permet de spécifier les critères de sélection à utiliser pour générer le rapport de manière à analyser les requêtes et les fragments de chemin en interrogeant ceux qui commencent sur une certaine page, finissent sur une certaine page ou même ceux qui commencent sur une page et finissent sur une autre.
+**[!UICONTROL Pathfinder]** : vous permet de fragmenter davantage vos chemins complets, produisant ainsi des modèles précis, déterminants dans le cadre de l’optimisation de votre site. L’Assistant Pathfinder permet de spécifier les critères de sélection à utiliser pour générer le rapport de manière à analyser les requêtes et les fragments de chemin en interrogeant ceux qui commencent sur une certaine page, finissent sur une certaine page ou même ceux qui commencent sur une page et finissent sur une autre.
 
 **[!UICONTROL Longueur de chemin]** : indique la profondeur du parcours des visiteurs sur votre site (par pourcentage ainsi que par compte total). En d’autres termes, le rapport indique le nombre de pages que le visiteur moyen consulte avant de quitter votre site.
 
