@@ -1,12 +1,11 @@
 ---
 description: Description de la procédure de téléchargement de fichiers de données via FTP.
-solution: Analytics
 subtopic: Classifications
 title: Importation FTP
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Description de la procédure de téléchargement de fichiers de données via FTP
 
 Description de la procédure de téléchargement de fichiers de données via FTP.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur]** de classifications.
+**[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**.
 
 Les limites recommandées suivantes sont importantes :
 
@@ -34,9 +33,9 @@ Chaque nouvelle valeur de clé chargée compte comme valeur unique de cette vari
 
 Si vous avez dépassé les limites des valeurs uniques pour le mois, vous ne verrez pas les données de classifications correspondantes pour les valeurs dépassées dans les rapports. Ces classifications sont visibles dans Data Warehouse ou dans l’Ad Hoc Analysis.
 
-> [!NOTE] Le temps nécessaire au traitement d’un fichier de données de classification varie en fonction de la taille du fichier et du nombre actuel de fichiers déjà traités par les serveurs d’Adobe. En règle générale, le traitement des fichiers de données ne dure pas plus de 72 heures.
+> [!NOTE] Le temps nécessaire au traitement d’un fichier de données de classification varie selon la taille du fichier et le nombre de fichiers en cours de traitement par les serveurs d’Adobe. En règle générale, le traitement des fichiers de données ne dure pas plus de 72 heures.
 
-Avant de charger des données via FTP, vous devez créer un compte FTP. For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Avant de charger des données via FTP, vous devez créer un compte FTP. Pour plus d’informations, voir [Créer un compte FTP](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Importer des classifications via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -50,14 +49,14 @@ Description de la procédure d’utilisation d’un compte FTP pour importer des
 
 Pour plus d’informations sur la création d’un compte FTP, consultez [Créer un compte FTP](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
-1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
+1. Cliquez sur **[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**.
+1. Cliquez sur **[!UICONTROL Importer un fichier]**, puis sur **[!UICONTROL Importation FTP]**.
+1. Cliquez sur **[!UICONTROL Afficher]** en regard du compte FTP à utiliser.
 1. Utilisez les informations d’accès FTP (Hôte, Identifiant, Mot de passe) pour accéder au serveur FTP à l’aide d’un client FTP de votre choix.
-1. Upload the data file ( [!DNL .tab] or [!DNL .txt]) to the FTP server.
+1. Chargez le fichier de données ([!DNL .tab] ou [!DNL .txt]) sur le serveur FTP.
 1. Une fois le fichier de données chargé, chargez un fichier FIN indiquant que le fichier est prêt pour le traitement.
 
-   The FIN file is an empty file that has the same name as your data file, with a [!DNL .fin] filename extension. For example, if your data file is [!DNL classdata1.tab], the FIN filename is [!DNL classdata1.fin].
+   Le fichier FIN est un fichier vide qui porte le même nom que votre fichier de données et qui est doté de l’extension de fichier [!DNL .fin]. Par exemple, si votre fichier de données se nomme [!DNL classdata1.tab], le nom du fichier est [!DNL classdata1.fin].fin.
 
 À intervalles réguliers, Adobe récupère les fichiers de données chargés auxquels un fichier FIN est associé. Adobe les importe ensuite dans les suites de rapports et dans les ensembles de données spécifiés dans la configuration du compte FTP.
 
@@ -73,10 +72,10 @@ t_create_an_ftp_account.xml
 
 Voir [FTP et SFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/) pour en savoir plus sur les serveurs FTP d’Adobe.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
-1. Sous l'onglet **Importer un fichier**, cliquez sur **[!UICONTROL Ajouter nouveau]**.
-1. Spécifiez les détails du compte FTP : 
+1. Cliquez sur **[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**.
+1. Cliquez sur **[!UICONTROL Importer un fichier]**, puis sur **[!UICONTROL Importation FTP]**.
+1. Sous l’onglet **[!UICONTROL Importer un fichier]**, cliquez sur **[!UICONTROL Ajouter nouveau]**.
+1. Spécifiez les détails du compte FTP :
 
    | Élément | Description |
    |---|---|
