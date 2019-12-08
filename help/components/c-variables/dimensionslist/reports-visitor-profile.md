@@ -1,11 +1,10 @@
 ---
 description: Ces rapports vous aident à identifier des modèles d’achat de clients à partir de catégories variées de profils ; par exemple, des pays, états, codes postaux et domaines.
-solution: Analytics
 title: Profil du visiteur
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Ces rapports vous aident à identifier des modèles d’achat de clients à part
  <tbody> 
   <tr> 
    <td colname="col1"> Langues </td> 
-   <td colname="col2"> <p>  Affiche les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues que les visiteurs utilisent le plus souvent sur votre site. </p> </td> 
+   <td colname="col2"> <p> Indique les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues les plus utilisées par les visiteurs de votre site. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Domaines </td> 
