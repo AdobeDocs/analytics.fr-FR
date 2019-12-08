@@ -1,11 +1,10 @@
 ---
 description: Vous pouvez enregistrer des filtres ou d’autres paramètres dans le Créateur de rapports et les utiliser dans d’autres feuilles de calcul ou classeurs. Ces paramètres sont enregistrés dans Analytics, de sorte qu’ils soient accessibles à d’autres utilisateurs du Créateur de rapports travaillant sur d’autres ordinateurs.
-solution: Analytics
 title: Filtres enregistrés
 topic: Report builder
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
