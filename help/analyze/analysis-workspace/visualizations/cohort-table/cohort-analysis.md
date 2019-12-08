@@ -1,22 +1,21 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
 title: Qu’est-ce que l’analyse des cohortes ?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Qu’est-ce que l’analyse des cohortes ?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. L’analyse des cohortes est utile, par exemple, lorsque vous souhaitez savoir comment une cohorte interagit avec une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’analyse des cohortes s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Vous trouverez des explications sur l’analyse des cohortes sur le Web, tel le cours [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis) (en anglais).)
 
-Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants (dimensions, mesures et segments spécifiques), puis partager le rapport avec les personnes de votre choix. Voir [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
+Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants (dimensions, mesures et segments spécifiques), puis partager le rapport avec les personnes de votre choix. Voir [Traitement et partage](/help/analyze/analysis-workspace/curate-share/curate.md).
 
-Exemples de ce que vous pouvez faire avec l’analyse des cohortes :
+Exemples d’utilisation de l’analyse des cohortes :
 
 * Lancez des campagnes conçues pour déclencher une action spécifique.
 * Ajustez le budget marketing exactement au bon moment au cours du cycle de vie des clients.
@@ -34,19 +33,19 @@ L’analyse des cohortes est disponible pour tous les clients Analytics avec des
 >
 >L’analyse des cohortes ne prend pas en charge les mesures calculées.
 
-## Fonctionnalités d’analyse des cohortes
+## Fonctions de l’analyse des cohortes
 
 En janvier 2019, Adobe a publié une nouvelle version considérablement améliorée de l’analyse des cohortes. Celle-ci offre un contrôle plus affiné sur les cohortes que vous créez. Voici les améliorations présentées :
 
 ### Tableau de rétention
 
-Un rapport de cohorte de rétention renvoie les visiteurs : chaque cellule de données affiche le nombre brut et le pourcentage de visiteurs de la cohorte qui ont effectué l’action au cours de cette période. Vous pouvez inclure jusqu’à 3 mesures et 10 segments.
+Voici un rapport de cohorte sur les visiteurs récurrents : chaque cellule indique le nombre brut et le pourcentage de visiteurs dans la cohorte qui ont effectué l’action durant cette période. Vous pouvez inclure jusqu’à 3 mesures et 10 segments.
 
 ![](assets/retention-report.png)
 
 ### Tableau de perte de clientèle
 
-Une cohorte Churn est l’inverse d’un tableau de rétention et affiche les visiteurs qui ont échoué ou n’ont jamais satisfait aux critères de retour de votre cohorte au fil du temps. Vous pouvez inclure jusqu’à 3 mesures et 10 segments.
+Une cohorte de perte de clientèle est l’inverse d’un tableau de rétention. Elle indique le visiteur qui a abandonné ou n’a jamais rempli les critères de retour de votre cohorte au fil du temps. Vous pouvez inclure jusqu’à 3 mesures et 10 segments.
 
 ![](assets/churn-report.png)
 
