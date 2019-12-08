@@ -1,12 +1,11 @@
 ---
 description: Les règles de traitement sont définies sur les suites de rapports.
-solution: Analytics
 subtopic: Processing rules
 title: Créer des règles de traitement
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Les règles de traitement sont définies sur les suites de rapports.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Sélection d’une suite de rapports.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]**.
-1. Sur la page **Règles de traitement**, cliquez sur **[!UICONTROL Ajouter une règle]**.
-1. Click **[!UICONTROL Add Condition]** and then select when the rule applies.
+1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
+1. Sélectionnez une suite de rapports.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Général]** &gt; **[!UICONTROL Règles de traitement]**.
+1. Sur la page **[!UICONTROL Règles de traitement]**, cliquez sur **[!UICONTROL Ajouter une règle]**.
+1. Cliquez sur **[!UICONTROL Ajouter une condition]** et sélectionnez les conditions d’application de la règle.
 
-   Si vous ajoutez plusieurs conditions, cliquez sur la liste déroulante **[!UICONTROL Tout]pour sélectionner les conditions qui doivent être réunies pour l’application de la règle.** Si vous n’ajoutez aucune condition, l’action définie est toujours exécutée.
+   Si vous ajoutez plusieurs conditions, cliquez sur la liste déroulante **[!UICONTROL Tout]** pour sélectionner les conditions qui doivent être réunies pour l’application de la règle. Si vous n’ajoutez aucune condition, l’action définie est toujours exécutée.
 
-1. Click **[!UICONTROL Add Action]** and then select the action you want performed when the conditions match.
+1. Cliquez sur **[!UICONTROL Ajouter une action]** et sélectionnez ensuite l’action qui doit être exécutée lorsque les conditions sont réunies.
 1. Ajoutez une note comportant des détails sur la règle, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    S’il existe plusieurs règles, faites-les glisser sur la page pour modifier l’ordre de traitement.
