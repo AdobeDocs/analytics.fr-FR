@@ -1,11 +1,10 @@
 ---
 description: Classement et filtres conditionnels pouvant être configurés à l’aide d’une logique booléenne et d’expressions de recherche ET/OU.
-solution: Analytics
 title: Filtrage le plus apprécié
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Créez ou modifiez une requête, puis passez au formulaire [!UICONTROL Assistant Requête : Étape 2].
 
-   ![Infos étape](assets/dimension_filter.png)
+   ![Infos sur l’étape](assets/dimension_filter.png)
 
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 2]**, cliquez sur le lien en regard de la dimension dans la grille, puis sélectionnez[!UICONTROL Filtrer]**.
 1.  Activez l’option [!UICONTROL Le plus populaire]**dans le formulaire[!UICONTROL Sélectionner les pages]**, puis configurez les options suivantes :
@@ -37,7 +36,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Pour créer une expression de recherche, cliquez sur **[!UICONTROL Ajouter]**.
 
-   ![Infos étape](assets/expressions_define_filter.png)
+   ![Infos sur l’étape](assets/expressions_define_filter.png)
 
 1. Dans le formulaire [!UICONTROL Définir un filtre], configurez les conditions adaptées à vos besoins.
 
@@ -47,7 +46,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Cliquez sur **[!UICONTROL OK]**.
 
-   ![Infos étape](assets/choose_page_02.png)
+   ![Infos sur l’étape](assets/choose_page_02.png)
 
 1. Dans le formulaire [!UICONTROL Sélectionner les pages]**, cliquez sur[!UICONTROL Enregistrer]** pour enregistrer l’expression.
 1. Cliquez sur **[!UICONTROL OK]**.
