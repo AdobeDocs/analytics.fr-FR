@@ -1,13 +1,12 @@
 ---
 description: Les variables de données contextuelles permettent de définir, sur chaque page, des variables personnalisées lisibles par les règles de traitement.
 keywords: Analytics Implementation;contextdata;s.contextdata
-solution: Analytics
 subtopic: Variables
 title: Variables de données contextuelles
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,13 @@ Les variables de données contextuelles permettent de définir, sur chaque page,
 Au lieu d’affecter de façon explicite des valeurs aux props et eVars dans votre code, vous pouvez envoyer des données dans des variables de données contextuelles mises en correspondance à l’aide de règles de traitement. Les règles de traitement offrent une interface graphique puissante pour apporter des modifications aux données reçues. Selon les valeurs envoyées dans les données contextuelles, vous pouvez définir des événements, copier les valeurs dans des eVars et des props et exécuter des instructions conditionnelles supplémentaires.
 
 > [!NOTE] Les variables de données contextuelles ne sont pas sensibles à la casse. Par exemple, les deux variables suivantes sont effectivement identiques :
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >et
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
@@ -53,7 +54,7 @@ Etant donné que les règles de traitement ne sont appliquées qu’au moment de
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Noms et caractères pris en charge </p> </td> 
-   <td colname="col2"> <p>Les noms de variable de données contextuelles peuvent comporter uniquement des caractères alphanumériques, des traits de soulignement et des points. Les autres caractères sont supprimés. Les variables de données contextuelles n’ont pas de désignation numérique, mais un nom. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>Les noms de variable de données contextuelles peuvent comporter uniquement des caractères alphanumériques, des traits de soulignement et des points. Les autres caractères sont supprimés. Les variables de données contextuelles n’ont pas de désignation numérique, mais un nom. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. Toutes les données envoyées à la variable <code> login_page-home </code> sont allouées à <code> login_pagehome </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Espace de noms </p> </td> 
