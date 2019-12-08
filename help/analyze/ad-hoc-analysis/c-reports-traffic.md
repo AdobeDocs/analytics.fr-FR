@@ -1,11 +1,10 @@
 ---
 description: Les rapports de source de trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site Web.
-solution: Analytics
 title: Rapports sur les sources de trafic
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -79,7 +78,7 @@ c_reports_original_ref_domains.xml
 
  -->
 
-Affiche les référents initiaux qui ont produit les clients de votre site. Les clients peuvent se rendre sur votre site à plusieurs reprises et disposent d’un référent différent à chaque visite. Ce rapport présente la manière dont ils ont été référés la première fois qu’ils sont arrivés sur le site. Vous pouvez ainsi savoir s’ils ont continué à utiliser le même domaine référent et déterminer leurs schémas de renvoi à votre site. Vous pouvez afficher le nombre de visiteurs générés par un référent initial ou découvrir le montant des recettes générées par chaque référent initial. Les rapports de référents peuvent être créés chaque fois qu’un visiteur arrive sur le site, même s’il le fait à plusieurs reprises lors d’une même session (avant l’expiration de la visite).
+Affiche les référents initiaux qui ont produit les clients de votre site. Les clients peuvent se rendre sur votre site à plusieurs reprises et disposent d’un référent différent à chaque visite. Ce rapport présente la manière dont ils ont été référés la première fois qu’ils sont arrivés sur le site. Vous pouvez ainsi savoir s’ils ont continué à utiliser le même domaine référent et déterminer leurs schémas de renvoi à votre site. Vous pouvez afficher le nombre de visiteurs générés par un référent initial ou découvrir le montant des recettes générées par chaque référent initial. Les rapports Référent peuvent être créés chaque fois qu’un visiteur arrive sur le site, même s’il le fait à plusieurs reprises lors d’une même session (avant l’expiration de la visite).
 
 ## Référents {#concept_40CF9C2D10B94E82819BC65A232F05C3}
 
@@ -101,7 +100,7 @@ Pour plus d’informations, voir la rubrique [Filtres URL internes](https://mark
 
 ## Type de référent {#concept_689E42D8F96C450DA41C7167C7388198}
 
-En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer comment les visiteurs ont trouvé votre site pour chaque visite.
+En suivant et en enregistrant les sites de référence des visiteurs pour chaque visite, vous pouvez déterminer de quelle façon les visiteurs sont parvenus sur votre site pour chaque visite.
 
 <!-- 
 
@@ -124,7 +123,7 @@ La liste ci-dessous définit les divers types de référents :
 
 Les options suivantes peuvent s’afficher lors de l’exécution de ce rapport :
 
-**Dans votre site** : ces éléments sont des URL balisées par les filtres URL internes. Ces éléments ne sont pas comptabilisés comme  instances de référent mais ils sont visibles lors de la génération de rapports sur d’autres mesures.
+**Dans votre site** : ces éléments sont des URL balisées par les filtres URL internes. Ces éléments ne sont pas comptabilisés comme des instances de référent, mais ils peuvent être affichés lors de la création de rapports sur d’autres mesures.
 
 **Pas de JavaScript** : le type n’était pas identifiable (connu) en l’absence de code JavaScript. Cela signifie que le client n’a fourni aucune information de référence sur un navigateur, lequel ne fait pas état de son aptitude à prendre en charge JavaScript. Ces instances ne sont pas comptabilisées comme « instances de référence », mais elles sont visibles lors de la génération de rapports sur d’autres mesures.
 
