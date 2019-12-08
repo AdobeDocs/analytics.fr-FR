@@ -1,11 +1,10 @@
 ---
 description: Une fois un rapport exécuté, vous pouvez le personnaliser de manière à afficher et à analyser les données en fonction de vos besoins. Vous pouvez filtrer les données du rapport, modifier la manière dont elles sont présentées graphiquement, modifier leur granularité, etc.
-solution: Analytics
 title: Personnalisation des rapports - Aperçu
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -59,7 +58,7 @@ Lorsque vous ouvrez un tableau de bord contenant des mini-rapports avec différe
 1. Cliquez sur l’icône du calendrier en haut à droite.
 1. Sélectionnez une date.
 
-   Vous pouvez :
+   Vous pouvez:
 
    * Afficher les jours, les mois ou les années (jusqu’à trois).
    * Faire glisser le curseur sur les dates afin de sélectionner une plage.
