@@ -1,11 +1,10 @@
 ---
 description: L’application de la gestion mobile active les variables des solutions mobiles qui capturent le cycle de vie et d’autres mesures des applications mobiles.
-solution: Analytics
 title: Gestion mobile
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Cette intégration entre Adobe Analytics et Mobile Services
 * ajoute de nouvelles dimensions Adobe Mobile ;
 * synchronise les données avec Analytics toutes les 15 minutes
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Suites **[!UICONTROL de]** rapports &gt; **[!UICONTROL Modifier les paramètres]** &gt; Gestion mobile &gt; de création de rapports d’applications WebMobile.********
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]** &gt; **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Gestion mobile]** &gt; **[!UICONTROL Rapports d’applications mobiles**].
 
 ## Étape 1. Activation d’App Reports {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -36,7 +35,7 @@ Activez App Reports v3.0 pour évaluer les mesures suivantes :
 * **Valeur de durée de vie** : comprenez la manière dont les utilisateurs exploitent la valeur au fil du temps en utilisant des indicateurs de performance clés des applications tels que les achats, vues de publicités, vidéos terminées, partages sur les réseaux sociaux, chargements de photos.
 * **Événements minutés** : mesurez la durée qui s’écoule (dans l’application et durée totale) entre les actions clés de l’application, telles que le temps avant le premier achat.
 
-## Étape 2 : Activation du suivi de l’emplacement {#section_2CCBD205191C4CA3B7B71A6F11FF97EC}
+## Étape 2. Activation du suivi de l’emplacement {#section_2CCBD205191C4CA3B7B71A6F11FF97EC}
 
 L’activation du suivi de l’emplacement permet :
 
@@ -48,15 +47,15 @@ L’activation du suivi de l’emplacement permet :
 
 L’activation des accès en arrière-plan (accès générés lorsque l’application est en arrière-plan) signifie qu’ils ont été traités comme des accès de premier plan. Ils s’affichent maintenant dans les rapports normaux, ce qui impacte également l’affectation. Cette configuration est généralement souhaitable uniquement pour maintenir la cohérence avec les implémentations héritées.
 
-Instead, we recommend that you "include background hits" in a [virtual report suite](/help/components/vrs/vrs-about.md). Vous pouvez ainsi afficher les accès mais ils n’affecteront pas défavorablement le nombre de visites et de visiteurs.
-Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+Au lieu de cela, il est recommandé d’inclure les « accès en arrière-plan » dans une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md). Vous pouvez ainsi afficher les accès mais ils n’affecteront pas défavorablement le nombre de visites et de visiteurs.
+Les classifications mobiles sont activées une fois que vous avez activé **[!UICONTROL Gestion mobile]** &gt; **[!UICONTROL Rapports d’applications mobiles]**.
 
 Les classifications permettent de classer des valeurs dans des groupes et de générer des rapports au niveau du groupe. Par exemple, vous pouvez classifier toutes les campagnes de recherches payantes dans une catégorie « termes de pop music » et générer des rapports sur le succès de cette catégorie par rapport à des mesures de type Instances (ou Clics publicitaires), ainsi qu’à la conversion en événements de succès.
 
 | En-tête | Définition |
 |--- |--- |
 | Date du premier lancement | Date du premier lancement après installation ou réinstallation.   MM/JJ/AAAA |
-| ID de l’application | Stocke le nom et la version de l’application au format suivant :   `[AppName] [BundleVersion]`Par exemple : `myapp 1.1.`. |
+| ID application | Stocke le nom et la version de l’application au format suivant :   `[AppName] [BundleVersion]`  Par exemple : `myapp 1.1.` |
 | Nombre de lancements | Nombre de fois où l’application a été lancée ou mise en premier plan. |
 | Jours depuis la première utilisation | Nombre de jours depuis la première exécution. |
 | Jours depuis la dernière utilisation | Nombre de jours depuis la dernière exécution. |
