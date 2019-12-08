@@ -1,13 +1,12 @@
 ---
 description: Renvoie la valeur du paramètre de chaîne de requête spécifié, s’il figure dans l’URL de la page en cours. Des données importantes (codes de suivi de campagne, mots-clés de recherche interne, etc.) sont disponibles dans la chaîne de requête d’une page. Aussi, getQueryParam vous aide-t-il à les capturer dans des variables Analytics.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getQueryParam
 topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
