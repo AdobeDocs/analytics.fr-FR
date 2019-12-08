@@ -1,12 +1,11 @@
 ---
 description: Le tableau ci-dessous montre l’association des rapports aux variables, ou les rapports et les variables qu’ils utilisent.
 keywords: Analytics Implementation
-solution: Analytics
 title: Mappage des rapports aux variables
 topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -50,8 +49,8 @@ Le tableau ci-dessous montre l’association des rapports aux variables, ou les 
 |---|
 | Conversions et moyennes | s.products, s.events, s.campaign |  |
 | Code de suivi | s.campaign |  |
-| Eléments créatifs | N/D | Défini dans [!DNL Analytics] |
-| Campagnes | N/D | Défini dans [!DNL Analytics] |
+| Eléments créatifs | S.O. | Défini dans [!DNL Analytics] |
+| Campagnes | S.O. | Défini dans [!DNL Analytics] |
 
 | Fidélité de la clientèle |
 |---|
@@ -68,33 +67,33 @@ Le tableau ci-dessous montre l’association des rapports aux variables, ou les 
 
 | Méthodes de recherche |
 |---|
-| Domaines référents | N/D | Défini automatiquement par le fichier .JS |
-| Domaines référents d’origine | N/D | Défini automatiquement par le fichier .JS |
-| Moteurs de recherche | N/D | Défini automatiquement par le fichier .JS |
-| Mots-clés de recherche | N/D | Défini automatiquement par le fichier .JS |
+| Domaines référents | S.O. | Défini automatiquement par le fichier .JS |
+| Domaines référents d’origine | S.O. | Défini automatiquement par le fichier .JS |
+| Moteurs de recherche | S.O. | Défini automatiquement par le fichier .JS |
+| Mots-clés de recherche | S.O. | Défini automatiquement par le fichier .JS |
 
 | Profil du visiteur |
 |---|
-| Domaines de haut niveau | N/D | Défini automatiquement par le fichier .JS |
-| Langues | N/D | Défini automatiquement par le fichier .JS |
-| Fuseaux horaires | N/D | Défini automatiquement par le fichier .JS |
+| Domaines de haut niveau | S.O. | Défini automatiquement par le fichier .JS |
+| Langues | S.O. | Défini automatiquement par le fichier .JS |
+| Fuseaux horaires | S.O. | Défini automatiquement par le fichier .JS |
 | Etats | s.state | Variable définie sur la page Confirmation de commande page |
 | Codes postaux | s.zip | Variable définie sur la page Confirmation de commande page |
-| Domaines | N/D | Défini automatiquement par le fichier .JS |
+| Domaines | S.O. | Défini automatiquement par le fichier .JS |
 
 | Technologie |
 |---|
-| Navigateurs | N/D | Défini automatiquement par le fichier .JS |
-| Systèmes d’exploitation | N/D | Défini automatiquement par le fichier .JS |
-| Résolutions d’écran | N/D | Défini automatiquement par le fichier .JS |
+| Navigateurs | S.O. | Défini automatiquement par le fichier .JS |
+| Systèmes d’exploitation | S.O. | Défini automatiquement par le fichier .JS |
+| Résolutions d’écran | S.O. | Défini automatiquement par le fichier .JS |
 
 | Chemin du site |
 |---|
 | Valeur de la page | s.pageName, s.products, s.events, s.purchaseID |  |
 | Pages d’entrée | s.pageName |  |
 | Pages d’entrée originales | s.pageName |  |
-| Pages par visite | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Durée de la visite du site | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Pages par visite | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Durée de consultation de la | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
 | Sections du site | [!UICONTROL s.channel] | Identique au rapport [!UICONTROL Canal] dans la section des rapports sur le [!UICONTROL trafic] |
 
 | Variables personnalisées |
@@ -111,65 +110,65 @@ Le tableau suivant répertorie les variables de [!UICONTROL trafic] utilisées p
 
 | Mesures calculées |
 |---|
-| N/D | N/D | N/D |
+| S.O. | S.O. | S.O. |
 
 | Trafic du site |
 |---|
-| Pages vues | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Visiteurs uniques par heure | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Visiteurs uniques par jour | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Visiteurs uniques par mois | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Visiteurs uniques par an | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Visites | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Téléchargements de fichiers | N/D | Suivi automatiquement par le fichier .JS (dépend des paramètres de variables du fichier .JS) |
+| Pages vues | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Visiteurs uniques par heure | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Visiteurs uniques par jour | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Visiteurs uniques par mois | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Visiteurs uniques par an | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Visites | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Téléchargements de fichiers | S.O. | Suivi automatiquement par le fichier .JS (dépend des paramètres de variables du fichier .JS) |
 
 | Méthodes de recherche |
 |---|
-| Domaines référents | N/D | Défini automatiquement par le fichier .JS |
-| Référents | N/D | Défini automatiquement par le fichier .JS |
-| Moteurs de recherche | N/D | Défini automatiquement par le fichier .JS |
-| Mots-clés de recherche | N/D | Défini automatiquement par le fichier .JS |
-| Fréquence des retours | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Visites retours quotidiennes | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Visites retours | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Nombres de visites | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Domaines référents | S.O. | Défini automatiquement par le fichier .JS |
+| Référents | S.O. | Défini automatiquement par le fichier .JS |
+| Moteurs de recherche | S.O. | Défini automatiquement par le fichier .JS |
+| Mots-clés de recherche | S.O. | Défini automatiquement par le fichier .JS |
+| Fréquence des retours | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Visites retours quotidiennes | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Visites retours | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Nombres de visites | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
 
 | Profil du visiteur |
 |---|
-| Domaines | N/D | Défini automatiquement par le fichier .JS |
-| Domaines de haut niveau | N/D | Défini automatiquement par le fichier .JS |
-| Langues | N/D | Défini automatiquement par le fichier .JS |
-| Fuseaux horaires | N/D | Défini automatiquement par le fichier .JS |
-| Détails du visiteur | N/D | Défini automatiquement par le fichier .JS |
-| 100 derniers visiteurs | N/D | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
-| Page d’accueil de l’utilisateur | N/D | Défini automatiquement par le fichier .JS |
-| Visiteurs clés | N/D | Basé sur l’adresse IP du visiteur |
-| Pages vues par visiteurs clés | N/D | Basé sur l’adresse IP du visiteur |
+| Domaines | S.O. | Défini automatiquement par le fichier .JS |
+| Domaines de haut niveau | S.O. | Défini automatiquement par le fichier .JS |
+| Langues | S.O. | Défini automatiquement par le fichier .JS |
+| Fuseaux horaires | S.O. | Défini automatiquement par le fichier .JS |
+| Détails du visiteur | S.O. | Défini automatiquement par le fichier .JS |
+| 100 derniers visiteurs | S.O. | Calculé par les règles de fonctionnement dans [!DNL Analytics] |
+| Page d’accueil de l’utilisateur | S.O. | Défini automatiquement par le fichier .JS |
+| Visiteurs clés | S.O. | Basé sur l’adresse IP du visiteur |
+| Pages vues par visiteurs clés | S.O. | Basé sur l’adresse IP du visiteur |
 
 | Géosegmentation |
 |---|
-| Pays | N/D | Basé sur l’adresse IP du visiteur |
-| Etats (E.-U.) | N/D | Basé sur l’adresse IP du visiteur |
-| Zone desservie (DMA) | N/D | Basé sur l’adresse IP du visiteur |
-| Villes internationales | N/D | Basé sur l’adresse IP du visiteur |
-| Villes des Etats-Unis | N/D | Basé sur l’adresse IP du visiteur |
+| Pays | S.O. | Basé sur l’adresse IP du visiteur |
+| Etats (E.-U.) | S.O. | Basé sur l’adresse IP du visiteur |
+| Zone desservie (DMA) | S.O. | Basé sur l’adresse IP du visiteur |
+| Villes internationales | S.O. | Basé sur l’adresse IP du visiteur |
+| Villes des Etats-Unis | S.O. | Basé sur l’adresse IP du visiteur |
 
 | Technologie |
 |---|
-| Types de navigateur | N/D | Défini automatiquement par le fichier .JS |
-| Navigateurs | N/D | Défini automatiquement par le fichier .JS |
-| Appareils mobiles | N/D | Défini automatiquement par le fichier .JS |
-| Largeur du navigateur | N/D | Défini automatiquement par le fichier .JS |
-| Hauteur du navigateur | N/D | Défini automatiquement par le fichier .JS |
-| Systèmes d’exploitation | N/D | Défini automatiquement par le fichier .JS |
-| Intensité de couleur de l’écran | N/D | Défini automatiquement par le fichier .JS |
-| Résolutions d’écran | N/D | Défini automatiquement par le fichier .JS |
-| Modules Netscape | N/D | Défini automatiquement par le fichier .JS |
-| Java | N/D | Défini automatiquement par le fichier .JS |
-| JavaScript | N/D | Défini automatiquement par le fichier .JS |
-| Version JavaScript | N/D | Défini automatiquement par le fichier .JS |
-| Cookies | N/D | Défini automatiquement par le fichier .JS |
-| Types de connexion | N/D | Défini automatiquement par le fichier .JS |
+| Types de navigateur | S.O. | Défini automatiquement par le fichier .JS |
+| Navigateurs | S.O. | Défini automatiquement par le fichier .JS |
+| Appareils mobiles | S.O. | Défini automatiquement par le fichier .JS |
+| Largeur du navigateur | S.O. | Défini automatiquement par le fichier .JS |
+| Hauteur du navigateur | S.O. | Défini automatiquement par le fichier .JS |
+| Systèmes d’exploitation | S.O. | Défini automatiquement par le fichier .JS |
+| Intensité de couleur de l’écran | S.O. | Défini automatiquement par le fichier .JS |
+| Résolutions d’écran | S.O. | Défini automatiquement par le fichier .JS |
+| Modules Netscape | S.O. | Défini automatiquement par le fichier .JS |
+| Java | S.O. | Défini automatiquement par le fichier .JS |
+| JavaScript | S.O. | Défini automatiquement par le fichier .JS |
+| Version JavaScript | S.O. | Défini automatiquement par le fichier .JS |
+| Cookies | S.O. | Défini automatiquement par le fichier .JS |
+| Types de connexion | S.O. | Défini automatiquement par le fichier .JS |
 | Segmentation |
 
 | Segmentation |
