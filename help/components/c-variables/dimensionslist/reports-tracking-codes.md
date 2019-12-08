@@ -1,11 +1,10 @@
 ---
 description: Mesure l’incidence de divers codes de suivi publicitaire sur différents événements de conversion sur votre site. Vous pouvez utiliser ce rapport pour mesurer les performances de campagnes spécifiques pour différents événements de succès ou pour savoir comment vos campagnes favorisent ou entravent les initiatives de votre site, comme par exemple les campagnes qui génèrent les plus grosses recettes.
-solution: Analytics
 title: Codes de suivi
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Mesure l’incidence de divers codes de suivi publicitaire sur différents évé
 
 * Ce rapport fait directement référence à des données de la variable [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) implémentée sur votre site web.
 * Ce rapport est basé sur une [variable de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Cela signifie qu’il peut persister au-delà de la consultation de page et être associé à des mesures dans l’intervalle spécifié.
-* La mesure par défaut du rapport est Recettes. Vous pouvez modifier cette valeur par défaut dans le [!UICONTROL Gestionnaire de Report Suites] des [!UICONTROL Outils d’administration]. ( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
+* La mesure par défaut du rapport est Recettes. Vous pouvez modifier cette valeur par défaut dans le [!UICONTROL Gestionnaire de Report Suites] des [!UICONTROL Outils d’administration]. ( **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Paramètres d’une suite de rapports spécifique]** &gt; **[!UICONTROL Mesures par défaut]**.)
 
 * Ce rapport peut être visualisé sous la forme d’un rapport de tendance ou avec classement.
 * Ce rapport peut utiliser un filtre de recherche afin de localiser des éléments spécifiques.
@@ -44,7 +43,7 @@ Mesure l’incidence de divers codes de suivi publicitaire sur différents évé
 
 **Propriétés des Reports &amp; Analytics**
 
-* Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
+* Cliquez sur **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campagnes]** &gt; **[!UICONTROL Code de suivi]** pour localiser ce rapport (sauf si le menu a été personnalisé).
 
 * Ce rapport peut également être ventilé selon toutes les [Variables de liste](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html).
 * Pages vues, Visites et Visiteurs uniques sont disponibles en tant que mesures.
