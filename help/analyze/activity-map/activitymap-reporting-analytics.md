@@ -1,11 +1,10 @@
 ---
 description: Décrit la façon de définir les autorisations ainsi que les dimensions disponibles dans Analytics.
-solution: Analytics
 title: Création de rapports Activity Map dans Analytics
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
