@@ -1,12 +1,11 @@
 ---
 description: Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’aide de règles de traitement.
-solution: Analytics
 subtopic: Processing rules
 title: Dimensions disponibles pour les règles de traitement
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,7 +38,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de données contextuelles </p> </td> 
-   <td colname="col2"> <p>Variables nommées envoyées avec un accès. </p> <p>Remarque : Pour figurer dans un rapport, une donnée contenue dans une variable Données contextuelles doit être copiée dans une variable de création de rapports. Les variables Données contextuelles ne sont visibles dans aucune interface de création de rapports, y compris Flux de données de parcours de navigation. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copier une variable Données contextuelles dans une eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Définir un événement à l’aide d’une variable Données contextuelles </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Variables de données contextuelles</a> </p> </td> 
+   <td colname="col2"> <p>Variables nommées envoyées avec un accès. </p> <p>Remarque : pour figurer dans un rapport, une donnée contenue dans une variable de données contextuelles doit être copiée dans une variable de création de rapports. Les variables de données contextuelles ne sont visibles dans aucune interface de création de rapports, y compris Flux de données de parcours de navigation. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copier une variable de données contextuelles dans une eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Définir un événement à l’aide d’une variable de données contextuelles </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Variables de données contextuelles</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +62,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
    <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Section Site </p> </td> 
+   <td colname="col1"> <p>Section du site </p> </td> 
    <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +88,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nom de page </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Remarque : Une page vue est comptabilisée sur tous les accès pour lesquels le nom de page n’est pas vide. Lorsqu’un lien est suivi, le serveur de collecte des données supprime le nom de page de l’accès afin que les pages vues ne soient pas comptabilisées. Si vous réinsérez un nom de page dans ces appels à l’aide des règles de traitement, une page vue est comptabilisée. Nous vous recommandons de vérifier que le nom de page est déjà défini avant de le modifier. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Remarque : une page vue est comptabilisée sur tous les accès pour lesquels le nom de page n’est pas vide. Lorsqu’un lien est suivi, le serveur de collecte des données supprime le nom de page de l’accès afin que les pages vues ne soient pas comptabilisées. Si vous réinsérez un nom de page dans ces appels à l’aide des règles de traitement, une page vue est comptabilisée. Nous vous recommandons de vérifier que le nom de page est déjà défini avant de le modifier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL de la page </p> </td> 
@@ -97,11 +96,11 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paramètre de chaîne de requête </p> </td> 
-   <td colname="col2"> <p>Valeur d’un paramètre de chaîne de requête spécifié dans l’URL en cours ou null s’il n’existe aucun paramètre. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Si vous exécutez JavaScript AppMeasurement H.25.2 ou version antérieure, il se peut que l’URL de la page soit tronquée après 255 caractères. JavaScript AppMeasurement H.25.3 (publié en janvier 2013) et versions ultérieures fournissent une URL complète aux règles de traitement. </p> </td> 
+   <td colname="col2"> <p>Valeur d’un paramètre de chaîne de requête spécifié dans l’URL en cours ou null s’il n’existe aucun paramètre. Dans le cas de l’URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, la valeur du paramètre de chaîne de requête <span class="syntax codeph"> cid</span> est <b>ad1</b> et le <span class="syntax codeph"> nœud</span> du paramètre de chaîne de requête est <b>4</b>. </p> <p>Si vous exécutez JavaScript AppMeasurement H.25.2 ou version antérieure, il se peut que l’URL de la page soit tronquée après 255 caractères. JavaScript AppMeasurement H.25.3 (publié en janvier 2013) et versions ultérieures fournissent une URL complète aux règles de traitement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chemin de la page </p> </td> 
-   <td colname="col2"> <p>Chemin d’accès de l’URL de la page. The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>Chemin d’accès de l’URL de la page. Le chemin de l’URL <b>https://www.example.com/news/a.html?cid=ad1</b> est <span class="syntax codeph">news/a.html</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domaine de page </p> </td> 
@@ -121,7 +120,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paramètre de chaîne de requête de référent (lecture seule) </p> </td> 
-   <td colname="col2"> <p>Valeur d’un paramètre de chaîne de requête spécifié dans l’URL de référence ou null s’il n’existe aucun paramètre. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Si vous exécutez JavaScript AppMeasurement H.25.2 ou version antérieure, il se peut que l’URL de la page soit tronquée après 255 caractères. JavaScript AppMeasurement H.25.3 (publié en janvier 2013) et versions ultérieures fournissent une URL complète aux règles de traitement. </p> </td> 
+   <td colname="col2"> <p>Valeur d’un paramètre de chaîne de requête spécifié dans l’URL de référence ou null s’il n’existe aucun paramètre. Dans le cas de l’URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, la valeur du paramètre de chaîne de requête <span class="syntax codeph"> cid</span> est <b>ad1</b> et le <span class="syntax codeph"> nœud</span> du paramètre de chaîne de requête est <b>4</b>. </p> <p>Si vous exécutez JavaScript AppMeasurement H.25.2 ou version antérieure, il se peut que l’URL de la page soit tronquée après 255 caractères. JavaScript AppMeasurement H.25.3 (publié en janvier 2013) et versions ultérieures fournissent une URL complète aux règles de traitement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domaine référent (lecture seule) </p> </td> 
@@ -173,7 +172,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
    <td colname="col2"> <p> <code> s.currencyCode</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Variables de liste 1 à 3 </p> </td> 
+   <td colname="col1"> <p>Variables de liste 1 à 3 </p> </td> 
    <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
@@ -208,7 +207,7 @@ Les règles de traitement peuvent définir des événements, mais elles ne peuve
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Événement 1-1000 </p> <p>(Pour les utilisateurs de SiteCatalyst 15, événement 1 à 100.) </p> </td> 
+   <td colname="col1"> <p>Événement 1-1 000 </p> <p>(Pour les utilisateurs de SiteCatalyst 15, événement 1 à 100.) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
