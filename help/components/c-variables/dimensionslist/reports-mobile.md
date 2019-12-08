@@ -1,11 +1,10 @@
 ---
 description: Affiche des informations sur l’accès aux sites web depuis un appareil mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les appareils mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
-solution: Analytics
 title: Mobile
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Affiche des informations sur l’accès aux sites web depuis un appareil mobile.
 
 Affiche des informations sur l’accès aux sites web depuis un appareil mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les appareils mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
 
-> [!NOTE] Les rapports mobiles affichent uniquement le trafic Web mobile. Les données d’applications mobiles collectées à l’aide des systèmes natifs iOS, Android et autres SDK sont présentées dans les rapports Applications mobiles, disponibles uniquement s’ils sont activés dans les Outils d’administration.
+> [!NOTE] Les rapports mobiles présentent uniquement le trafic web mobile. Les données d’applications mobiles collectées à l’aide des systèmes natifs iOS, Android et autres SDK sont présentées dans les rapports Applications mobiles, disponibles uniquement s’ils sont activés dans les Outils d’administration.
 
 Les rapports pour mobiles suivants sont disponibles :
 
@@ -57,19 +56,19 @@ Les rapports pour mobiles suivants sont disponibles :
   </tr> 
   <tr> 
    <td colname="col1"> Prise en charge des cookies </td> 
-   <td colname="col2"> <p>Groupe les accès des appareils mobiles en fonction de leur prise en charge ou non des cookies. Les visiteurs sont répartis dans des groupes, selon qu’ils acceptent ou non les cookies. Le type d’appareil mobile est identifié dans la chaîne de l’agent utilisateur. Adobe conserve une liste des périphériques mobiles connus pour prendre en charge les cookies. If the mobile device listed in the user agent string is also listed in Adobe's list of mobile devices, then the <span class="term"> Supported</span> line item in the <span class="wintitle"> Cookie Support</span> report is incremented. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
+   <td colname="col2"> <p>Groupe les accès des appareils mobiles en fonction de leur prise en charge ou non des cookies. Les visiteurs sont répartis dans des groupes, selon qu’ils acceptent ou non les cookies. Le type d’appareil mobile est identifié dans la chaîne de l’agent utilisateur. Adobe conserve une liste des périphériques mobiles connus pour prendre en charge les cookies. Si le périphérique mobile signalé par la chaîne de l’agent utilisateur figure également dans la liste Adobe des périphériques mobiles, la ligne <span class="term"> Pris en charge</span> du rapport <span class="wintitle"> Prise en charge des cookies</span> est incrémentée. Sinon, c’est l’élément de ligne <span class="term"> Non pris en charge</span> du rapport qui est incrémenté. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Prise en charge des images </td> 
-   <td colname="col2"> <p> Groupe les appareils mobiles en fonction des types d’images qu’ils prennent en charge. </p> <p>For example, if a visitor's phone that supports <span class="filepath"> .jpeg</span> images, accesses a site, the <span class="wintitle"> Image Support</span> report is incremented by at least one. Si le téléphone prend en charge plusieurs formats d’image, un accès à un site peut se traduire par plusieurs incréments. En d’autres termes, si le téléphone prend en charge les formats <span class="filepath">.jpeg</span>, <span class="filepath">.png</span> et <span class="filepath">.gif</span>, chacun de ces groupes du rapport est incrémenté. La somme des groupes peut donc être supérieure au total affiché au bas du rapport. </p> </td> 
+   <td colname="col2"> <p> Groupe les appareils mobiles en fonction des types d’images qu’ils prennent en charge. </p> <p>Si, par exemple, le téléphone d’un visiteur prenant en charge les images <span class="filepath"> .jpeg</span> accède à un site, le rapport <span class="wintitle"> Prise en charge des images</span> est incrémenté d’au moins une unité. Si le téléphone prend en charge plusieurs formats d’image, un accès à un site peut se traduire par plusieurs incréments. En d’autres termes, si le téléphone prend en charge les formats <span class="filepath">.jpeg</span>, <span class="filepath">.png</span> et <span class="filepath">.gif</span>, chacun de ces groupes du rapport est incrémenté. La somme des groupes peut donc être supérieure au total affiché au bas du rapport. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Profondeur de couleur </td> 
-   <td colname="col2"> <p> Groupe les accès des appareils mobiles en fonction du nombre de couleurs prises en charge. Le rapport indique le nombre total de visiteurs sur votre site qui utilisent un appareil mobile et les répartit par groupes en fonction du nombre de couleurs configurées sur leur dispositif. </p> <p>Si, par exemple, le téléphone mobile du visiteur prend en charge 24 couleurs, le rapport incrémente l’élément de ligne correspondant à 24 couleurs. </p> </td> 
+   <td colname="col2"> <p> Groupe les accès des appareils mobiles en fonction du nombre de couleurs prises en charge. Le rapport indique le nombre total de visiteurs sur votre site qui utilisent un appareil mobile et les répartit par groupes en fonction du nombre de couleurs configurées sur leur dispositif. </p> <p>Si, par exemple, le téléphone mobile du visiteur prend en charge 24 couleurs, le rapport incrémente l’élément de ligne correspondant à 24 couleurs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Prise en charge de l’audio </td> 
-   <td colname="col2"> <p> Groupe les appareils mobiles en fonction des types de formats audio qu’ils prennent en charge. </p> <p>For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the Audio Support report increments by at least one. Si le téléphone prend en charge plusieurs formats audio, un accès à un site peut déclencher plusieurs incréments pour chaque format pris en charge. En d’autres termes, si le téléphone prend en charge les formats <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> et <span class="filepath">.amr</span>, chacun de ces groupes du rapport est incrémenté d’une unité. La somme des groupes peut donc être supérieure au total affiché au bas du rapport. </p> </td> 
+   <td colname="col2"> <p> Groupe les appareils mobiles en fonction des types de formats audio qu’ils prennent en charge. </p> <p>Si, par exemple, le téléphone d’un visiteur prend en charge le format <span class="filepath"> .mp3</span>, le rapport Prise en charge de l’audio est incrémenté d’au moins une unité. Si le téléphone prend en charge plusieurs formats audio, un accès à un site peut déclencher plusieurs incréments pour chaque format pris en charge. En d’autres termes, si le téléphone prend en charge les formats <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> et <span class="filepath">.amr</span>, chacun de ces groupes du rapport est incrémenté d’une unité. La somme des groupes peut donc être supérieure au total affiché au bas du rapport. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Prise en charge de la vidéo </td> 
@@ -77,7 +76,7 @@ Les rapports pour mobiles suivants sont disponibles :
   </tr> 
   <tr> 
    <td colname="col1"> DRM </td> 
-   <td colname="col2"> <p> Groupe les appareils mobiles en fonction du type de DRM (Digital Rights Management - Gestion des droits numériques) pris en charge. DRM groups include <span class="term"> Forward Lock</span>, <span class="term"> Combined Delivery</span>, <span class="term"> Separate Delivery</span>, and <span class="term"> Unknown.</span> </p> </td> 
+   <td colname="col2"> <p> Groupe les appareils mobiles en fonction du type de DRM (Digital Rights Management - Gestion des droits numériques) pris en charge. Les groupes DRM incluent <span class="term"> Verrou avant</span>, <span class="term"> Livraison combinée</span>, <span class="term"> Livraison séparée</span> et <span class="term">Inconnu</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Protocoles réseau </td> 
@@ -85,7 +84,7 @@ Les rapports pour mobiles suivants sont disponibles :
   </tr> 
   <tr> 
    <td colname="col1"> Système d’exploitation (obsolète) </td> 
-   <td colname="col2"> <p> Groupe les appareils mobiles en fonction du système d’exploitation mobile du périphérique. Les systèmes d’exploitation mobiles comprennent Windows, RIM, iOS, Symbian, etc. Le rapport inclut également un groupe Inconnu pour les systèmes d’exploitation mobiles non identifiés. </p> <p>Remarque : Ce rapport était obsolète lorsque le rapport Technologie &gt; Systèmes <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  ></a> d’exploitation a été mis à jour afin d’inclure tous les systèmes d’exploitation, y compris les systèmes d’exploitation mobiles. Vous pouvez créer un segment dans lequel « appareil mobile » existe et l’appliquer au rapport Technologie &gt; Systèmes d’exploitation pour n’afficher que les systèmes d’exploitation mobiles. </p> </td> 
+   <td colname="col2"> <p> Groupe les appareils mobiles en fonction du système d’exploitation mobile du périphérique. Les systèmes d’exploitation mobiles comprennent Windows, RIM, iOS, Symbian, etc. Le rapport inclut également un groupe Inconnu pour les systèmes d’exploitation mobiles non identifiés. </p> <p>Remarque : Ce rapport est devenu obsolète lorsque le rapport Technologie &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  >Systèmes d’exploitation</a> a été mis à jour pour inclure tous les systèmes d’exploitation, y compris les systèmes d’exploitation mobiles. Vous pouvez créer un segment dans lequel « appareil mobile » existe et l’appliquer au rapport Technologie &gt; Systèmes d’exploitation pour n’afficher que les systèmes d’exploitation mobiles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Version Java </td> 
@@ -109,11 +108,11 @@ Les rapports pour mobiles suivants sont disponibles :
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> Groupe les appareils mobiles selon que PTT est pris en charge ou non. The report also includes an <span class="term"> Unknown</span> group for those devices where PTT support cannot be determined. </p> </td> 
+   <td colname="col2"> <p> Groupe les appareils mobiles selon que PTT est pris en charge ou non. Le rapport inclut également un groupe <span class="term"> Inconnu</span> pour les dispositifs dont la prise en charge de PTT ne peut pas être déterminée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Prise en charge de Decoration Mail </td> 
-   <td colname="col2"> <p> Groupe les appareils mobiles en fonction de la prise en charge DecoMail par le périphérique, ce qui permet à un utilisateur d’enrichir ses courriels de graphiques et d’animations. The report also includes an <span class="term"> Unknown</span> group for those devices where Decoration Mail support cannot be determined. </p> </td> 
+   <td colname="col2"> <p> Groupe les appareils mobiles en fonction de la prise en charge DecoMail par le périphérique, ce qui permet à un utilisateur d’enrichir ses courriels de graphiques et d’animations. Le rapport inclut également un groupe <span class="term"> Inconnu</span> pour les périphériques dont la prise en charge de Decoration Mail ne peut pas être déterminée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Services d’informations </td> 
