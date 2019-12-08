@@ -1,11 +1,10 @@
 ---
 description: Les dimensions sont des descriptions ou caractéristiques de données de mesure qui peuvent être affichées, ventilées et comparées dans un rapport. Il s’agit de dates et de valeurs non numériques qui instaurent une corrélation ou une sous-relation, ou qui sont une classification de la mesure du type de rapport d’origine.
-solution: Analytics
 title: Dimensions
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
