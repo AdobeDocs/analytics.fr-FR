@@ -1,12 +1,11 @@
 ---
 description: Vous permet de masquer les suites de rapports dans l’interface utilisateur d’Adobe Analytics.
 keywords: delete report suite
-solution: Analytics
 title: Masquage des suites de rapports
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,14 +20,14 @@ Lorsque vous masquez une suite de rapports, elle n’est plus répertoriée dans
 
 >[!IMPORTANT]
 >
->Les données envoyées à une suite de rapports masquée depuis votre site continuent d’être collectées, traitées et facturées. En d’autres termes, une suite de rapports n’est jamais complètement supprimée.
+>Les données envoyées dans une suite de rapports masquée sur votre site continuent à être collectées, traitées et facturées. En d’autres termes, une suite de rapports n’est jamais complètement supprimée.
 
-To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. Cochez la case **[!UICONTROL Masqué]à gauche du nom de la suite de rapports.**
+Pour masquer la suite de rapports, sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Paramètres de la société]** &gt; **[!UICONTROL Masquer les suites de rapports]**. Cochez la case **[!UICONTROL Masqué]** à gauche du nom de la suite de rapports.
 
-Pour afficher la suite de rapports, décochez la case **[!UICONTROL Masqué].**
+Pour afficher la suite de rapports, décochez la case **[!UICONTROL Masqué]**.
 
-To view only hidden report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Hidden Report Suites]**.
+Pour afficher uniquement les suites de rapports masquées sous **[!UICONTROL Paramètres de la société]**, sélectionnez **[!UICONTROL Affichage]** &gt; **[!UICONTROL Suites de rapports masquées uniquement]**.
 
-To view only visible report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Visible Report Suites]**.
+Pour afficher uniquement les suites de rapports visibles sous **[!UICONTROL Paramètres de la société]**, sélectionnez **[!UICONTROL Affichage]** &gt; **[!UICONTROL Suites de rapports visibles uniquement]**.
 
-The default is **[!UICONTROL View]** &gt; **[!UICONTROL All]**.
+La valeur par défaut est **[!UICONTROL Affichage]** &gt; **[!UICONTROL Toutes]**.
