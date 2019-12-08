@@ -1,11 +1,10 @@
 ---
 description: Etapes qui décrivent comment créer une requête de détection des anomalies dans le créateur de rapports.
-solution: Analytics
 title: Configuration d’une requête de détection des anomalies
 topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -31,7 +30,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 1. Select **[!UICONTROL Anomaly Detection]** &gt; **[!UICONTROL `<selection>`]**.
 
-   ![Infos étape](assets/anomaly_visit.png)
+   ![Infos sur l’étape](assets/anomaly_visit.png)
 
    Lorsque vous sélectionnez l’une de ces options, le système crée des copies Détection des anomalies de la mesure d’origine. Par exemple, pour la mesure Visite, une mesure Limite inférieure - Visite est ajoutée au groupe [!UICONTROL Mesure].
 1. Click **[!UICONTROL Finish]** and select the cell for output to Excel.
