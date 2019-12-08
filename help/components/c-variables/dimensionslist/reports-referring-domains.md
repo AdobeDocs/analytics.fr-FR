@@ -1,11 +1,10 @@
 ---
-description: Indique les domaines de référence des clients qui ont eu le plus d’impact sur les mesures de succès de votre site. Les référents appartiennent à deux catégories principales Domaines et URL. Les domaines se réfèrent au nom de domaine et apparaissent comme le domaine de base sans la chaîne de requête ou les sous-répertoires attachés. Les URL incluent le nom de domaine de base, ainsi que les chaînes de requête ou sous-répertoires.
-solution: Analytics
+description: 'Indique les domaines de référence des clients qui ont eu le plus d’impact sur les mesures de succès de votre site. Les référents se répartissent en deux catégories principales : domaines et URL. Les domaines se réfèrent au nom de domaine et apparaissent comme le domaine de base sans la chaîne de requête ou les sous-répertoires attachés. Les URL incluent le nom de domaine de base, ainsi que les chaînes de requête ou sous-répertoires.'
 title: Domaines référents
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
