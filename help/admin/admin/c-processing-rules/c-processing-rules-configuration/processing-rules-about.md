@@ -1,12 +1,11 @@
 ---
 description: Les règles de traitement vous permettent de modifier des données en fonction de conditions définies. Lorsque des attributs ou valeurs satisfont les conditions définies, les valeurs peuvent être définies et supprimées, et les événements peuvent être définis.
-solution: Analytics
 subtopic: Processing rules
 title: Fonctionnement des règles de traitement
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,11 +38,11 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées immédiatement à la suite de rapports dès qu’elles sont enregistrées. </p> </td> 
-   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous recommandons de configurer le <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous recommandons de configurer le <a href="/help/admin/admin/realtime/t-realtime-admin.md"> rapports en temps réel</a> dans la suite de rapports de test afin que vous puissiez rapidement consulter les résultats d’une règle de traitement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement constituent la seule méthode d’accès aux variables de données contextuelles. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copier une variable Données contextuelles dans une eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copier une variable de données contextuelles dans une eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées avant les règles VISTA et les règles Canal marketing. </p> </td> 
@@ -62,7 +61,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
    <td colname="col2"> <p>La recherche de dispositif portable s’effectue avant les règles de traitement, mais les attributs ne sont pas disponibles dans les règles de traitement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Si vous exécutez JavaScript AppMeasurement H.25.2 ou version antérieure, la lecture des paramètres de chaîne de requête s’avère impossible au-delà des 255 premiers caractères d’une URL. JavaScript AppMeasurement H.25.3 et versions ultérieures fournissent l’URL complète, y compris tous les paramètres de chaîne de requête, aux règles de traitement. </p> </td> 
+   <td colname="col1"> <p>Si vous exécutez JavaScript AppMeasurement H.25.2 ou version antérieure, la lecture des paramètres de chaîne de requête s’avère impossible au-delà des 255 premiers caractères d’une URL. JavaScript AppMeasurement H.25.3 et versions ultérieures fournissent une URL complète comprenant tous les paramètres de chaîne de requête vers les règles de traitement. </p> </td> 
    <td colname="col2"> <p>Effectuez une mise à jour vers la version H.25.3 ou ultérieure, ou procédez à la lecture des paramètres de chaîne de requête d’URL longues côté client et stockez les valeurs dans des variables Données contextuelles. </p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +82,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les noms de variable de données contextuelles peuvent comporter uniquement des caractères alphanumériques, des traits de soulignement et des points. Tout caractère supplémentaire est supprimé. </p> </td> 
-   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>Seules les variables de données contextuelles qui contiennent des caractères pris en charge peuvent être ajoutées dans l’interface Règles de traitement. </p> </td> 
+   <td colname="col2"> <p>Par exemple, la variable de données contextuelles <code> login_page-home</code> devient automatiquement <code> login_pagehome</code>. Toutes les données envoyées à la variable <code> login_page-home</code> sont allouées à <code> login_pagehome</code>. </p> <p>Seules les variables de données contextuelles qui contiennent des caractères pris en charge peuvent être ajoutées dans l’interface Règles de traitement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Le caret (^) est un caractère spécial dans le système des règles de traitement. </p> </td> 
@@ -104,4 +103,4 @@ La recherche de valeurs ne s’effectue pas automatiquement dans les variables a
 
 Les actions définissent des variables de page, suppriment de telles variables ou déclenchent des événements. Elles peuvent également concaténer des valeurs à afficher dans un rapport.
 
-For example, you might want to display `category:product` by concatenating two variables.
+Vous pouvez, par exemple, afficher `category:product` en concaténant deux variables.
