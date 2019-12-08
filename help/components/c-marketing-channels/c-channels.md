@@ -1,12 +1,11 @@
 ---
 description: Ajoutez ou activez des canaux marketing dans le Gestionnaire de canaux marketing. Dans le cas des suites de rapports sans canaux marketing, une configuration automatique vous permet de créer plusieurs canaux, ainsi que leurs règles. Vous pouvez modifier les canaux prédéfinis en fonction de vos besoins, ou créer vos propres canaux (avec un maximum de 25 canaux).
-solution: Analytics
 subtopic: Marketing channels
 title: Gestion des canaux marketing
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,18 +25,18 @@ L’ajout de canaux à la page [!UICONTROL Canaux marketing] est indépendant de
 
 Ajoutez des canaux marketing dans le Gestionnaire de canaux marketing.
 
-> [!NOTE] Vous ne pouvez pas supprimer un canal. Si vous ne souhaitez pas utiliser un canal, vous pouvez le désactiver ou le renommer, et le conserver pour une utilisation ultérieure.
+> [!NOTE] Il est impossible de supprimer un canal. Si vous ne souhaitez pas utiliser un canal, vous pouvez le désactiver ou le renommer, et le conserver pour une utilisation ultérieure.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
 1. Sur la page [!UICONTROL Gestionnaire de Report Suites], sélectionnez une suite de rapports.
 
    Si vous sélectionnez plusieurs suites de rapports, choisissez un modèle à partir duquel copier les paramètres vers les suites de rapports sélectionnées.
 
    Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/t-template.md).
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Canaux marketing]** &gt; **[!UICONTROL Gestionnaire de canaux marketing]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
+   La page [Configuration automatique](/help/components/c-marketing-channels/c-channel-autosetup.md) s’affiche si aucun canal n’est défini dans votre suite de rapports.
 
 1. Sur la page [!UICONTROL Gestionnaire de canaux marketing]**, cliquez sur[!UICONTROL Ajouter un canal]**.
 
@@ -46,9 +45,9 @@ Ajoutez des canaux marketing dans le Gestionnaire de canaux marketing.
 1. Cliquez sur **[!UICONTROL Enregistrer.]**
 1. Pour configurer les règles pour le canal, cliquez sur **[!UICONTROL Règles de traitement des canaux marketing]**.
 
-   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
+   Reportez-vous à la section [Création de règles de traitement des canaux marketing](/help/components/c-marketing-channels/t-rules.md).
 
-## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
+## Gestionnaire de canaux marketing - Définitions de l’interface {#mktg-channel-mgr}
 
 Définition des champs de la page [!UICONTROL Gestionnaire de canaux marketing].
 
@@ -78,7 +77,7 @@ Définition des champs de la page [!UICONTROL Gestionnaire de canaux marketing].
   </tr> 
   <tr> 
    <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p> Indique comment l’utilisateur est parvenu sur votre site. Vous pouvez sélectionner <span class="uicontrol">En ligne</span> ou <span class="uicontrol">Hors ligne</span>. Utilisez des canaux en ligne pour les visiteurs qui viennent par l’intermédiaire d’un moteur de recherche ou d’une campagne par courriel. Les canaux hors connexion s’appliquent aux visiteurs qui ont trouvé le site par l’intermédiaire de bons dans les journaux ou de publicités dans des magazines. Les canaux hors connexion incluent habituellement les données importées depuis les Sources de données des rapports. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Sources de données</a>. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> Indique comment l’utilisateur est parvenu sur votre site. Vous pouvez sélectionner <span class="uicontrol">En ligne</span> ou <span class="uicontrol">Hors ligne</span>. Utilisez des canaux en ligne pour les visiteurs qui viennent par l’intermédiaire d’un moteur de recherche ou d’une campagne par courriel. Les canaux hors connexion s’appliquent aux visiteurs qui ont trouvé le site par l’intermédiaire de bons dans les journaux ou de publicités dans des magazines. Les canaux hors connexion incluent habituellement les données importées depuis les Sources de données des rapports. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Sources de données</a>. </p> <p>Voir <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Ajout de données hors ligne</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Couleur </p> </td> 
