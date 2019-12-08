@@ -1,11 +1,10 @@
 ---
 description: Affiche les moteurs de recherche que les visiteurs ont utilisés pour effectuer tout type de recherche, des recherches payantes et des recherches naturelles.
-solution: Analytics
 title: Moteurs de recherche
 topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
