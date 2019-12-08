@@ -1,12 +1,11 @@
 ---
 description: valeur nulle
 keywords: Analytics Implementation
-solution: Analytics
 title: Implémentation des droits d’opposition Adobe
 topic: Developer and implementation
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Il se peut que des visiteurs de votre site web préfèrent que leurs information
 * Adobe Audience Targeted Creative
 * Adobe AudienceManager
 * Adobe AdLens
-* Adobe Experience Manager
+* Adobe Experience Manager
 
 ## Recommandations relatives à la politique de confidentialité {#section_BBDEE21C259842F7881642E31FB3D9B7}
 
