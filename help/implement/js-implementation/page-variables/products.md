@@ -1,13 +1,12 @@
 ---
 description: Les variables de page renseignent directement un rapport (pageName, props de liste, variables de liste, etc.).
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de page
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -71,7 +70,7 @@ La variable *`products`* doit toujours être définie conjointement avec un év�
 | Quantité | Nombre d’unités achetées. Ce champ doit être défini avec un événement d’achat pour être enregistré. |
 | Prix | Fait référence au coût associé de la quantité totale achetée (unités x prix unitaire), et non au prix unitaire. Ce champ doit être défini avec un événement d’achat pour être enregistré. |
 | Événements | Evénements monétaires associés à un produit spécifique. Voir [Evénements monétaires spécifiques à un produit](https://helpx.adobe.com/analytics/kb/comparing-event-types.html) et [Evénements monétaires à l’échelle de la commande](https://helpx.adobe.com/analytics/kb/comparing-event-types.html). |
-| eVars | Valeurs d’eVars de marchandisage associées à un produit spécifique. Voir [Variables de marchandisage](/help/components/c-variables/c-merch-variables/var-merchandising.md). |
+| eVars | Valeurs d’eVars de marchandisage associées à un produit spécifique. Voir [ Variables de marchandisage](/help/components/c-variables/c-merch-variables/var-merchandising.md). |
 
 Les valeurs incluses dans la variable *`products`* sont basées sur le type d’événement que vous enregistrez. Le délimiteur de catégorie/produit (;) est obligatoire comme espace réservé lors de l’omission de catégories. D’autres délimiteurs ne sont obligatoires que s’ils sont nécessaires pour distinguer le paramètre que vous incluez, comme indiqué dans les exemples de cette page.
 
