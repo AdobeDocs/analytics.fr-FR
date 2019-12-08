@@ -1,12 +1,11 @@
 ---
 description: Les suites de rapports virtuelles et le balisage multi-suite présentent des avantages différents. Découvrez ce qui est le mieux pour votre entreprise.
 keywords: Virtual Report Suite,VRS
-solution: Analytics
 title: Suites de rapports virtuelles et considérations sur le balisage multi-suite
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
