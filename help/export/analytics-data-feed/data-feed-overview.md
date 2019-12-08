@@ -1,11 +1,10 @@
 ---
 description: Les données qui sont collectées sur des sites web ou sur des applications mobiles, ou qui sont chargées à l’aide de sources de données ou d’API de services web, sont traitées et stockées dans Data Warehouse d’Adobe. Ces données brutes constituent le jeu de données utilisé par Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
-solution: Analytics
 title: Flux de données Analytics - Aperçu
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 3e2f0bccbe7183ea75b12b1ef2b5afdd87837629
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
