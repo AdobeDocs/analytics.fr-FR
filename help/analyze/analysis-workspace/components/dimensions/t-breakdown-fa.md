@@ -1,24 +1,23 @@
 ---
-description: Ventilez les dimensions et les éléments de dimension dans Analysis Workspace.
+description: Ventilez les dimensions et les éléments de dimension dans Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Ventilation des dimensions
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Ventilation des dimensions
 
-Ventilez les dimensions et les éléments de dimension dans Analysis Workspace.
+Ventilez les dimensions et les éléments de dimension dans Analysis Workspace.
 
 Ventilez vos données de différentes manières en fonction de vos besoins ; créez des requêtes à l’aide de mesures, de dimensions, de segments, de chronologies pertinentes et autres valeurs de ventilation d’analyse.
 
 1. [Créez un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) avec un tableau de données.
-1. In the data table, right-click a line item and select **[!UICONTROL Breakdown]** &gt; *`<item>`*.
+1. Dans le tableau de données, cliquez avec le bouton droit de la souris sur une ligne et sélectionnez **[!UICONTROL Ventilation]** &gt;*`<item>`*.
 
    ![Résultat de l’étape](assets/fa_data_table_actions.png)
 
@@ -26,7 +25,7 @@ Ventilez vos données de différentes manières en fonction de vos besoins ; cr
 
    >[!NOTE]
    >
-   >Le nombre de ventilations à afficher dans le tableau est limité à 200. Cette limitation augmentera pour l’exportation des ventilations.
+   >Vous ne pouvez pas afficher plus de 200 ventilations dans le tableau. Cette limitation augmentera pour l’exportation des ventilations.
 
 [Dimensions dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&index=12&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
