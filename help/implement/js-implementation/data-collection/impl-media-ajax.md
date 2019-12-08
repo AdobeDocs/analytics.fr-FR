@@ -1,12 +1,11 @@
 ---
 description: Dans la conception de sites Web, AJAX est un nouveau concept qui utilise plusieurs technologies pour créer et gérer du contenu dynamique sur les pages Web.
 keywords: Analytics Implementation
-solution: Analytics
 title: Suivi AJAX des applications rich media
 topic: Developer and implementation
 uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
