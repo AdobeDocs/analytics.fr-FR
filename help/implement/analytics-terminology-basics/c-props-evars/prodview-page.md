@@ -1,12 +1,11 @@
 ---
 description: La variable products sert à effectuer le suivi des produits et des catégories de produits (ainsi que de la quantité achetée et du prix d’achat).
 keywords: Analytics Implementation;products variable;product view;success event
-solution: Analytics
 title: Page Affichage du produit détaillé
 topic: Developer and implementation
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
