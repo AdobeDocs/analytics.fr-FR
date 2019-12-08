@@ -1,12 +1,11 @@
 ---
 description: L’importateur vous permet de télécharger en vrac des données de classification dans des rapports d’analyse sous la forme d’un fichier. Pour que les chargements de données s’effectuent correctement, un format de fichier spécifique est requis pour l’importation.
-solution: Analytics
 subtopic: Classifications
 title: Fichiers de données de classification
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,13 +14,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 L’importateur vous permet de télécharger en vrac des données de classification dans des rapports d’analyse sous la forme d’un fichier. Pour que les chargements de données s’effectuent correctement, un format de fichier spécifique est requis pour l’importation.
 
-Pour vous aider à créer des fichiers de données valides, vous pouvez télécharger un fichier de modèle qui fournit une structure de fichier dans laquelle vous pouvez coller les données de classification. Pour plus d’informations, voir [Télécharger le modèle](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)de classifications.
+Pour vous aider à créer des fichiers de données valides, vous pouvez télécharger un fichier de modèle qui fournit une structure de fichier dans laquelle vous pouvez coller les données de classification. Pour plus d’informations, reportez-vous à la section [Télécharger le modèle de classifications](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 
-See [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) for more information about character limits in classifications.
+Reportez-vous à la section [Structure générale d’un fichier](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) pour en savoir plus sur les limites de caractères dans les classifications.
 
-See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
+Voir [Classifications numériques 2](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) pour plus d’informations sur le chargement de données utilisant les classifications numériques 2.
 
-## Structure générale des fichiers
+## Structure générale d’un fichier
 
 La figure suivante illustre un exemple de fichier de données :
 
@@ -44,10 +43,10 @@ Un fichier de données doit respecter les règles de structure suivantes :
    La virgule n’est pas un caractère spécial.
 
 * Les classifications ne peuvent pas contenir de caret (^) puisque ce caractère est utilisé pour indiquer une sous-classification.
-* Faites attention lorsque vous utilisez un trait d’union. For example, if you use a hyphen (-) in a Social term, Social recognizes the hyphen as a [!DNL Not] operator (the minus sign). For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*.
-* Des limites de caractères sont appliquées afin de classer les données de rapport. Par exemple, si vous téléchargez un fichier texte de classification pour les produits ( *`s.products`*) dont le nom dépasse 100 caractères (octets), les produits ne s’afficheront pas dans les rapports. Les codes de suivi et toutes les variables de conversions (eVars) autorisent 255 octets.
+* Faites attention lorsque vous utilisez un trait d’union. Par exemple, si vous utilisez un trait d’union (-) dans un terme de réseau social, Social le considère comme un opérateur [!DNL Not] (signe moins). Si, par exemple, vous spécifiez le terme *`fragrance-free`* à l’aide de Importer, Social reconnaît le terme comme étant fragrance *`minus`* free et rassemble les messages qui mentionnent *`fragrance`*, mais pas *`free`*.
+* Des limites de caractères sont appliquées afin de classer les données de rapport. Par exemple, si vous téléchargez un fichier texte de classification pour des produits ( *`s.products`*) dont les noms comportent plus de 100 caractères (octets), les produits en question ne sont pas affichés dans les rapports. Les codes de suivi et toutes les variables de conversions (eVars) autorisent 255 octets.
 * Il doit s’agir d’un fichier délimité par des tabulations (créez le fichier de modèle dans tout tableur ou éditeur de texte).
-* Either a [!DNL .tab] or [!DNL .txt] file extension.
+* Il doit être doté de l’extension de fichier [!DNL .tab] ou [!DNL .txt].
 * Le signe dièse (#) identifie la ligne comme commentaire utilisateur. Adobe ignore toutes les lignes commençant par #.
 * Deux signes dièse suivis des caractères SC (## SC) identifient la ligne comme commentaire d’en-tête de prétraitement utilisé par la création de rapports. Ne supprimez pas ces lignes.
 * Les exportations de classification peuvent comporter des clés en double en raison des caractères de saut de page de la clé. Dans une exportation FTP ou de navigateur, ce problème peut être résolu en activant la création de guillemets pour le compte FTP. Cette activation place des guillemets entourant chaque clé comportant des caractères de saut de page.
@@ -58,7 +57,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
    * Des problèmes peuvent survenir lorsque le format v2.1 est indiqué dans le fichier alors que c’est le format v2.0 qui est voulu - à savoir lorsque des guillemets sont utilisés de façon non autorisée au format Excel. Par exemple, si vous avez la valeur : "VP NO REPS" S/l Dress w/ Overlay. Avec le format v2.1, ce formatage est incorrect (la valeur devrait être entourée de guillemets ouvrant et fermant et les guillemets qui font partie de la valeur réelle devraient être codés par échappement par des guillemets) et les classifications ne fonctionneront pas au-delà de ce point.
    * Assurez-vous de procéder à l’une des opérations suivantes : modifiez le format du fichier sur v2.0 en modifiant l’en-tête (cellule C1) dans les fichiers que vous téléchargez OU implémentez correctement les guillemets Excel dans l’ensemble des fichiers.
 
-* La première ligne (qui ne soit pas un commentaire) du fichier de données contient les en-têtes de colonne utilisés pour identifier les données de classification contenues dans cette colonne. L’importateur nécessite un format spécifique pour les en-têtes de colonne. Pour plus d’informations, voir Format [d’en-tête de](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)colonne.
+* La première ligne (qui ne soit pas un commentaire) du fichier de données contient les en-têtes de colonne utilisés pour identifier les données de classification contenues dans cette colonne. L’importateur nécessite un format spécifique pour les en-têtes de colonne. Pour en savoir plus, reportez-vous à la section [Format d’en-tête de colonne](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 * Immédiatement sous la ligne d’en-tête d’un fichier de données se trouvent les lignes de données. Chacune d’elles doit contenir un champ de données pour chaque en-tête de colonne.
 * Le fichier de données prend en charge les codes de contrôle ci-dessous. Adobe les utilise pour fournir la structure au fichier et importer correctement les données de classification :
 
@@ -88,17 +87,17 @@ Un fichier de données doit respecter les règles de structure suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modificateurs PER </p> </td> 
-   <td colname="col2"> <p>Ce code indique que la colonne de données représente des champs de <span class="wintitle">modificateur PER</span>. See <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  > PER Modifier Headings </a>. </p> </td> 
+   <td colname="col2"> <p>Ce code indique que la colonne de données représente des champs de <span class="wintitle">modificateur PER</span>. Reportez-vous à la section <a href="/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md"  >En-têtes de modificateur PER </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [Problèmes de téléchargement courants](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
+>* [Problèmes de téléchargement de courants](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
 
 
-## Format d’en-tête de colonne
+## Format d’un en-tête de colonne
 
 > [!NOTE] Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
 
@@ -106,13 +105,13 @@ Les fichiers de classification prennent en charge les en-têtes de colonne suiva
 
 ### Clé
 
-Chaque valeur doit être unique dans l’ensemble du système. The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site's [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
+Chaque valeur doit être unique dans l’ensemble du système. La valeur de ce champ correspond à une valeur attribuée à la variable [!DNL Analytics] dans la balise [!DNL JavaScript] du site web. Les données de cette colonne peuvent inclure ~autogen~ ou tout autre code de suivi unique.
 
 ### En-tête de colonne de classification
 
 Par exemple, les Reports &amp; Analytics incluent automatiquement deux classifications pour les variables [!UICONTROL Campagne], à savoir : [!UICONTROL Campagnes] et [!UICONTROL Éléments créatifs]. Pour ajouter des données à la classification [!UICONTROL Campagnes], l’en-tête de colonne dans le fichier de données doit être [!UICONTROL Campagnes].
 
-> [!NOTE] Les valeurs de l’en-tête de colonne [!UICONTROL Classifications] doivent correspondre exactement à la convention d’affectation des noms de la classification, sinon l’importation échoue. Par exemple, si l’administrateur remplace [!UICONTROL Campagnes] par [!UICONTROL Noms de campagnes internes] dans le [!UICONTROL Gestionnaire de configuration de campagne], l’en-tête de colonne doit aussi être remplacé.
+> [!NOTE] Les valeurs de l’en-tête de colonne de [!UICONTROL classification] doivent respecter la convention d’affectation des noms de la classification, sinon l’importation échoue. Par exemple, si l’administrateur remplace [!UICONTROL Campagnes] par [!UICONTROL Noms de campagnes internes] dans le [!UICONTROL Gestionnaire de configuration de campagne], l’en-tête de colonne doit aussi être remplacé.
 
 De plus, le fichier de données prend en charge des conventions d’en-tête supplémentaires pour identifier les sous-classifications et d’autres colonnes de données spécialisées :
 
@@ -126,7 +125,7 @@ Par exemple, [!UICONTROL Campaigns^~Cost] fait référence à la mesure de [!UIC
 
 ### En-tête de modificateur PER
 
-*`Per Modifier`* les en-têtes sont identifiés en ajoutant *`~per`* à l’en-tête de la mesure de classification. For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. Adobe prend en charge les *`PER Modifier`* mots-clés suivants :
+Les en-têtes *`Per Modifier`* sont signalés en ajoutant *`~per`* à l’en-tête de mesure de classification. Par exemple, si l’en-tête de *`Metric`* est *`Campaigns^~Cost`*, l’en-tête de modificateur PER est *`Campaigns^~Cost~per`*. Adobe prend en charge les mots-clés *`PER Modifier`* suivants :
 
 Ces caractères ont une signification spéciale dans un fichier de données. Lorsque cela est possible, évitez d’utiliser ces termes dans des données et des noms d’attributs.
 
@@ -152,9 +151,9 @@ Ces caractères ont une signification spéciale dans un fichier de données. Lor
 
 **EVENT :** multiplier la valeur par le nombre de fois que l’événement personnalisé spécifié s’est produit par article dans le rapport.
 
-**** Exemple : Si Campagne A coûte 10 000 euros, la colonne [!UICONTROL Campagnes^~Coût] contient une valeur de 10 000 et la colonne [!UICONTROL Campagnes^~~Coût] contient [!UICONTROL FIXED]. Lors de l’affichage du coût de la Campagne A dans les rapports, la somme de 10 000 euros est indiquée comme coût fixe de la Campagne A pour la période.
+**Exemple** : si Campagne A a un coût de 10 000 euros, la colonne [!UICONTROL Campaigns^~Cost] contient une valeur de 10 000 et la colonne [!UICONTROL Campaigns^~Cost~per] comporte le mot-clé [!UICONTROL FIXED]. Lors de l’affichage du coût de la Campagne A dans les rapports, la somme de 10 000 euros est indiquée comme coût fixe de la Campagne A pour la période.
 
-**** Exemple : Si la campagne B coûte environ 2 euros par clic, la colonne [!UICONTROL Campagnes^~Coût] contient 2 et la colonne **[!UICONTROL Campagnes^~~Coût]** contient [!UICONTROL CLIC]. When displaying the Cost for Campaign B in the reports, Adobe calculates (2 * [number of clicks]) on the fly for the date range of the report. Vous obtenez alors le coût total en fonction du nombre de clics enregistrés pendant la Campagne B.
+**Exemple** : si Campagne B a un coût d’environ 2 euros par clic, la colonne [!UICONTROL Campaigns^~Cost] contient 2 et la colonne **[!UICONTROL Campaigns^~Cost~per]** comporte le mot-clé [!UICONTROL CLICK]. Lors de l’affichage du coût de la Campagne B dans les rapports, Adobe calcule (2 * [nombre de clics]) à la volée pour la période du rapport. Vous obtenez alors le coût total en fonction du nombre de clics enregistrés pendant la Campagne B.
 
 ### Date
 
@@ -162,24 +161,25 @@ Les dates de campagne sont généralement des périodes (dates de début et de f
 
 Pour plus d’informations, reportez-vous à la section [Classifications des conversions](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications).
 
-> [!NOTE] Dans la version de maintenance du 10 mai 2018 [!DNL Analytics] , Adobe a commencé à limiter les fonctionnalités des classifications numériques et par date d’activation. Ces types de classifications ont été supprimés des interfaces Administration et Importateur de classifications. Il n’est plus possible d’ajouter de nouvelles classifications numériques et activées par date. Il sera possible de continuer à gérer les classifications actuelles (les transférer, les supprimer) par l’intermédiaire des processus de classification standard et elles resteront disponibles dans le reporting.
+> [!NOTE] Dans la version de maintenance du 10 mai 2018 d’[!DNL Analytics], Adobe a commencé à limiter les fonctionnalités des classifications activées par date et numériques. Ces types de classifications ont été supprimés des interfaces Administration et Importateur de classifications. Il n’est plus possible d’ajouter de nouvelles classifications numériques et activées par date. Il sera possible de continuer à gérer les classifications actuelles (les transférer, les supprimer) par l’intermédiaire des processus de classification standard et elles resteront disponibles dans le reporting.
 
-## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
+## Utilisation de dates en association avec des [!UICONTROL classifications ] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL Les classifications] peuvent être utilisées pour affecter des plages de dates à vos campagnes ou à d'autres [!UICONTROL classifications]de conversion, ce qui permet de mesurer plus précisément les campagnes. Une fois la période d’une valeur indiquée, toute valeur correspondante qui se produit en dehors de la période ne sera pas classée. Cela est utile pour la mesure de campagne qui souhaite utiliser les dates exactes à laquelle une campagne était active et non tous les accès correspondant à la campagne elle-même. Afin de classer avec succès une valeur dans une période, les critères suivants doivent être respectés :
+Vous pouvez utiliser les [!UICONTROL classifications] pour affecter des périodes à vos campagnes ou autres [!UICONTROL classifications] de conversion ce qui permet une mesure plus précise des campagnes. Une fois la période d’une valeur indiquée, toute valeur correspondante qui se produit en dehors de la période ne sera pas classée. Cela est utile pour la mesure de campagne qui souhaite utiliser les dates exactes auxquelles une campagne était active et non tous les accès correspondant à la campagne elle-même. Afin de classer avec succès une valeur dans une période, les critères suivants doivent être respectés :
 
-* The [!UICONTROL classification] must be based on a conversion variable.
-* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
+* La [!UICONTROL classification] doit être basée sur une variable de conversion.
+* La [!UICONTROL classification] utilisée doit être définie en tant que Date d’activation Numérique 2.
 * La période impliquée doit contenir une date de début et (facultativement) une date de fin.
 
 Pour classer les campagnes selon une période :
 
-1. Connectez-vous [!DNL Analytics] et accédez à Admin &gt; Classifications.
-1. Cliquez sur l’onglet **[!UICONTROL Exportation navigateur], assurez-vous que les paramètres de votre classification Date d’activation sont corrects, puis cliquez sur Exporter un fichier.**
+1. Connectez-vous à [!DNL Analytics] et accédez à Admin &gt; Classifications.
+1. Cliquez sur l’onglet **[!UICONTROL Exportation navigateur]**, assurez-vous que les paramètres de votre classification Date d’activation sont corrects, puis cliquez sur Exporter un fichier.
 1. Ouvrez ce fichier dans Microsoft Excel ou un autre éditeur de feuilles de calcul familier.
 1. Une des colonnes se termine par
 
-   ^~period~qui est la colonne dans laquelle entrer la plage de dates.
+   ^~period~
+, qui est la colonne dans laquelle il convient d’entrer la plage de dates.
 1. Sous cette colonne, saisissez la période de chaque valeur au format suivant :
 
    `YYYY/MM/DD - YYYY/MM/DD`. Veillez à ce qui suit :
@@ -189,11 +189,11 @@ Pour classer les campagnes selon une période :
    * si le mois ou le jour ne comporte qu’un seul chiffre, un zéro est ajouté devant ce chiffre ;
    * une date de début est présente ; la date de fin est facultative.
 
-1. Enregistrez le fichier, puis téléchargez-le [!DNL Analytics] en accédant à Admin.| Classifications| Importer un fichier.
+1. Enregistrez le fichier et téléchargez-le dans [!DNL Analytics] en accédant à Admin.| Classifications| Importer un fichier.
 
-> [!NOTE] Une valeur de clé spécifique ne peut pas comporter plusieurs plages de dates.
+> [!NOTE] Une valeur de clé spécifique ne peut pas comporter plusieurs périodes.
 
-## Dépannage des classifications
+## Résolution des problèmes affectant les classifications
 
 * [Problèmes de chargement des courants](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) : article de la base de connaissance décrivant les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.
 
