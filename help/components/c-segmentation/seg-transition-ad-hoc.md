@@ -1,12 +1,11 @@
 ---
 description: Si vous êtes habitué à travailler avec le Créateur de segments dans les analyses ad hoc, ce forum aux questions (FAQ) explique ce qu’il advient des segments et dossiers existants ainsi que les actions que vous devez entreprendre.
 keywords: segmentation;segments
-solution: Analytics
 title: Guide de transition relatif aux Ad Hoc Analysis
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,11 @@ Si vous êtes habitué à travailler avec le Créateur de segments dans les anal
 
 * Les segments fonctionnent dans toutes les suites de rapports. Auparavant, ils étaient propres à une suite de rapports donnée.
 * Les analyses ad hoc comprennent des mises à jour du Créateur de segments ainsi qu’une mise à jour complète du Gestionnaire de segments.
-* Vous pouvez désormais marquer les segments pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers. Previously, you used folders in [!DNL Ad Hoc Analysis] to organize your segments.
+* Vous pouvez désormais marquer les segments pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers.  Par le passé, vous utilisiez des dossiers dans les [!DNL Ad Hoc Analysis] pour organiser vos segments.
 
-## Qu’est-il advenu de mes segments existants ?{#section_76CF47142D1A4FB6A0718AD9073049FE}
+## Qu’est-il advenu de mes segments existants ? {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
-Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement. 
+Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement.
 
 La plupart des segments prédéfinis et de suite précédents seront migrés sous forme de modèles de segment dans le créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
@@ -92,7 +91,7 @@ Si le segment a été publié sur Experience Cloud, vous ne pouvez pas le suppr
    <td colname="col2">Ces segments des Ad Hoc Analysis s’affichent sous forme de segments standard dans Adobe Analytics. <p>Ils ne doivent pas être confondus avec la fonctionnalité Favoris du Gestionnaire de segments qui permet de marquer les segments comme favoris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Segments préconfigurés dans les analyses ad hoc : 
+   <td colname="col1">Segments préconfigurés dans les Ad Hoc Analysis : 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">Visites sur une seule page </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">Visites depuis des périphériques mobiles </li> 
@@ -100,7 +99,7 @@ Si le segment a été publié sur Experience Cloud, vous ne pouvez pas le suppr
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visites d’une recherche payante </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visites avec cookie d’identifiant visiteur </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Ces segments seront migrés en tant que  modèles de segments dans le Créateur de segments. </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
+   <td colname="col2"> <p>Ces segments seront migrés en tant que modèles de segments dans le Créateur de segments. </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segments Experience Cloud (Suite) : 
@@ -113,7 +112,7 @@ Si le segment a été publié sur Experience Cloud, vous ne pouvez pas le suppr
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visites avec 5+ visites précédentes* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visites depuis Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés. </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
+   <td colname="col2"> <p> La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés. </p> <p>Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
