@@ -1,11 +1,10 @@
 ---
 description: Présente les fuseaux horaires d’où proviennent les visiteurs de votre site. Le graphique présente une carte du monde. Si vous avez accueilli des visiteurs provenant d’un fuseau horaire particulier, une colonne de couleur apparaît dans ce fuseau horaire pour indiquer le nombre de visiteurs que vous avez accueillis au cours d’une période donnée. Tous les fuseaux horaires appartiennent au système GMT (Greenwich Mean Time), qui est la norme horaire internationale.
-solution: Analytics
 title: Fuseaux horaires
 topic: Reports
 uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
