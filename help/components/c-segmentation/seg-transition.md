@@ -1,19 +1,18 @@
 ---
 description: valeur nulle
 keywords: segmentation;segments
-solution: Analytics
 title: Questions fréquentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Questions fréquentes
 
-Répond fréquemment aux questions sur les fonctionnalités de segmentation, l’accès, les autorisations, les bonnes pratiques et la gestion des segments hérités.
+Répond aux questions fréquemment posées sur les fonctionnalités de segmentation, l’accès, les autorisations, les bonnes pratiques et la gestion des segments hérités.
 
 ## Fonctionnalités {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -25,10 +24,10 @@ Répond fréquemment aux questions sur les fonctionnalités de segmentation, l�
 
 * Vous pouvez [appliquer plusieurs segments à un rapport ou à un projet](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Les segments fonctionnent dans toutes les suites de rapports.
-* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* Le [Créateur de segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifie la création de segments.
 * Le [gestionnaire de segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) permet de configurer des [processus](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) pour le partage, le marquage, la vérification et l’approbation des segments.
 
-* Vous pouvez [marquer les segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* Vous pouvez [marquer les segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers. Par le passé, vous utilisiez des dossiers (dans les [!DNL Ad Hoc Analysis]) pour organiser vos segments.
 
 * Vous pouvez créer des [segments séquentiels](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) en dehors des Ad Hoc Analysis.
 * Le conteneur de pages vues a été renommé « conteneur d’accès » afin d’indiquer que ce conteneur segmente tous les types de données et pas uniquement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès. Notez qu’aucune modification n’a été apportée au fonctionnement de ce conteneur, il a simplement été renommé.
@@ -41,9 +40,9 @@ Voir l’article [Amélioration de la segmentation dans Adobe Analytics](https:
 
 Accédez au Créateur de segments en procédant comme suit :
 
-* Affichez un rapport existant, puis cliquez sur l’icône Segments ![ dans le volet de navigation de gauche. ](assets/segment_icon.png) In the segment rail that displays, then click **[!UICONTROL Add]**, or
+* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. Dans le rail du segment qui s’affiche, cliquez ensuite sur **[!UICONTROL Ajouter]**, ou
 
-* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
+* Dans la partie supérieure du Gestionnaire de segments, cliquez sur **[!UICONTROL + Ajouter]**.  ![](assets/add_button.png)
 
    ou
 
@@ -53,17 +52,17 @@ Accédez au Créateur de segments en procédant comme suit :
 
 Accédez au Gestionnaire de segments en procédant comme suit :
 
-* Going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or
+* Sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** dans le volet de navigation supérieur. Cliquez ensuite sur **[!UICONTROL Segments]**, ou
 
-* Affichez un rapport existant, puis cliquez sur l’icône Segments ![ dans le volet de navigation de gauche. ](assets/segment_icon.png) Then click **[!UICONTROL Manage]**, or
+* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**, ou
 
 * appuyez sur la barre oblique « / » n’importe où dans l’interface et recherchez le Gestionnaire de segments.
 
 **Vers quel emplacement le menu déroulant des segments existants a-t-il été déplacé ?**
 
-La liste déroulante des segments dans les rapports et analyses a été remplacée par une interface du créateur [de](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) segments riche en fonctionnalités qui vous permet de créer des segments "universels" utilisables dans les suites de rapports et dans les solutions Adobe Analytics. Pour afficher la liste des segments existants, cliquez sur l’icône Segments ![](assets/segment_icon.png)
+Le menu déroulant des segments dans les Reports &amp; Analytics a été remplacé par une interface du [Créateur de segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) bien plus riche en fonctionnalités qui permet de créer des segments « universels » utilisables dans les suites de rapports et dans les solutions d’Adobe Analytics. Pour afficher la liste des segments existants, cliquez sur l’icône Segments ![](assets/segment_icon.png)
 
-dans le volet de navigation de gauche et le rail de segments s’affiche.
+dans le volet de navigation de gauche pour ainsi afficher le rail de segments.
 
 **Vers quel emplacement le menu déroulant des suites de rapports existantes a-t-il été déplacé ?**
 
@@ -73,7 +72,7 @@ Le menu déroulant des suites de rapports a été déplacé en regard du sélect
 
 ## Autorisations {#section_648DFA3A882146C485A84ED014EEC707}
 
-**De quels droits et privilèges ai-je besoin pour utiliser, créer et gérer les segments ?**
+**Quels droits et privilèges dois-je posséder pour utiliser, créer et gérer des segments ?**
 
 Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
 
@@ -81,15 +80,15 @@ Les administrateurs peuvent modifier n’importe quel segment et partager les se
 
 **Puis-je consulter tous les segments de mon entreprise ?**
 
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL Reports & Analytics] user interfaces.
+Oui, les administrateurs peuvent voir tous les segments dans les interfaces utilisateur d’[!DNL Analysis Workspace] et d’[!DNL Reports & Analytics].
 
-Les analyses ad hoc et le Créateur de rapports affichent les segments que vous possédez et les segments qui sont partagés avec vous.
+Les analyses ad hoc et le Report Builder affichent les segments que vous possédez et les segments qui sont partagés avec vous.
 
 **Puis-je gérer tous les segments Analytics dans le Gestionnaire de segments ?**
 
-Oui, vous pouvez gérer tous les segments dans le Gestionnaire de segments dans Analysis Workspace, dans les rapports et analyses et dans les analyses ad hoc. Le Gestionnaire de segments affiche des segments que le propriétaire (utilisateur qui a créé le segment), les utilisateurs partagés et les administrateurs peuvent consulter. Le sélecteur de segments affiche les segments possédés par l’utilisateur et partagés avec ce dernier.
+Oui, vous pouvez gérer tous les segments dans le Gestionnaire de segments dans Analysis Workspace, dans les Reports &amp; Analytics et dans les analyses ad hoc. Le Gestionnaire de segments affiche des segments que le propriétaire (utilisateur qui a créé le segment), les utilisateurs partagés et les administrateurs peuvent consulter. Le sélecteur de segments affiche les segments possédés par l’utilisateur et partagés avec ce dernier.
 
-Admins can see all segments within the Analysis Workspace and [!DNL Reports & Analytics] user interfaces.
+Les administrateurs peuvent voir tous les segments dans les interfaces utilisateur d’Analysis Workspace et d’[!DNL Reports & Analytics].
 
 Les analyses ad hoc et le Créateur de rapports affichent uniquement les segments que vous avez créés ou les segments qui ont été partagés avec vous.
 
@@ -110,7 +109,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/c-segment
 * Examinez les segments à votre disposition.
 * Ajoutez les segments à la bibliothèque de segments lorsque cela est possible.
 * Approuvez les segments canoniques.
-* Marquez les segments en fonction des  [bonnes pratiques](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+* Marquez les segments en fonction des [bonnes pratiques](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Gestion des segments existants {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -118,7 +117,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/c-segment
 
 Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement. [Plus...](/help/components/c-segmentation/seg-transition.md)
 
-La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de  modèles de segments dans le Créateur de segments. Les modèles de segment servent à créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
+La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
 Les modèles de segments sont marqués par une icône spéciale dans le Créateur de segments :
 
@@ -126,7 +125,7 @@ Les modèles de segments sont marqués par une icône spéciale dans le Créateu
 
 **Qu’est-il advenu de mes dossiers de segments existants ?**
 
-À la place des dossiers (analyses ad hoc), le Gestionnaire de segments utilise des  balises. Les noms de dossiers sont automatiquement convertis en balises et ces balises sont appliquées aux segments respectifs.
+À la place des dossiers (analyses ad hoc), le Gestionnaire de segments utilise des balises. Les noms de dossiers sont automatiquement convertis en balises et ces balises sont appliquées aux segments respectifs.
 
 **Qu’est-il advenu des rapports planifiés auxquels des segments avaient été appliqués ?**
 
@@ -138,13 +137,13 @@ Les rapports planifiés ne sont pas mis à jour lorsque vous modifiez un segment
 
 ![](assets/duplicate_seg_names.png)
 
-Vous êtes doté d’un signet qui référence le segment pour la suite de rapports mainprod. Ensuite, vous supprimez ce segment parce qu'il est en double. Le signet continue à fonctionner, référençant la définition du segment supprimé. Si vous modifiez la définition de segment du segment maindev pour inclure l’île Catalina et Tijuana au Mexique, le segment appliqué au signet ne change pas. Il utilise l’ancienne définition. Pour corriger ce problème, mettez à jour le signet qui référence la nouvelle définition. Si vous ne savez pas si un signet, un tableau de bord ou un rapport planifié utilise un segment supprimé, vous pouvez modifier le nom du segment restant afin de savoir plus clairement si le signet utilise le segment restant.
+Vous êtes doté d’un signet qui référence le segment pour la suite de rapports mainprod. Puis, vous supprimez ce segment, car il s’agit d’un doublon. Le signet continue à fonctionner, référençant la définition du segment supprimé. Si vous modifiez la définition de segment du segment maindev pour inclure l’île Catalina et Tijuana au Mexique, le segment appliqué au signet ne change pas. Il utilise l’ancienne définition. Pour corriger ce problème, mettez à jour le signet qui référence la nouvelle définition. Si vous n’êtes pas certain qu’un signet, tableau de bord ou rapport planifié utilise un segment supprimé, vous pouvez modifier le nom du segment restant afin qu’il soit plus clair que le signet utilise le segment restant.
 
-**Qu’advient-il des segments d’entrepôt de données ?**
+**Qu’advient-il des segments Data Warehouse ?**
 
-Tous les segments d’entrepôt de données existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments de l’entrepôt de données fonctionneront également dans d’autres composants tels que Analysis Workspace, les analyses ad hoc et les rapports et analyses.
+Tous les segments Data Warehouse existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments de Data Warehouse fonctionneront également dans d’autres composants tels qu’Analysis Workspace, Les Ad Hoc Analysis et les Reports &amp; Analytics.
 
-Vous pouvez créer ou modifier de nouveaux segments d’entrepôt de données depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du Créateur de segments détermine automatiquement si un segment est compatible avec l’entrepôt de données.
+Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du Créateur de segments détermine automatiquement si un segment est compatible avec Data Warehouse.
 
 **Qu’advient-il des segments favoris (analyses ad hoc) ?**
 
@@ -174,7 +173,7 @@ Les rapports existants auxquels sont appliqués ces segments continueront de fon
 * Visites avec 5+ visites précédentes*
 * Visites depuis Facebook*
 
-La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
+La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
 
 Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
 
@@ -182,7 +181,7 @@ Les rapports existants auxquels sont appliqués ces segments continueront de fon
 
 Les segments d’**administrateur** seront migrés vers la nouvelle interface de segment et s’afficheront en tant que segments partagés avec tout le monde.
 
-Le propriétaire de ces segments est défini sur l’administrateur avec le compte le plus ancien dans la liste des administrateurs de la société de connexion. Toutefois, tous les administrateurs peuvent supprimer, modifier et partager ces segments.
+Le propriétaire de ces segments est défini sur l’administrateur doté du compte le plus ancien dans la liste des administrateurs de la société de connexion. Toutefois, tous les administrateurs peuvent supprimer, modifier et partager ces segments.
 
 L’interface de gestion des segments d’Admin Console dans laquelle les administrateurs ont créé et géré ces segments globaux n’est plus disponible. Les administrateurs doivent désormais utiliser le nouveau Créateur de segments pour créer des segments et les partager avec les groupes ou individus appropriés ou à l’échelle de l’entreprise.
 
@@ -198,13 +197,13 @@ Les segments existants qui utilisent une logique qui a été modifiée comme ind
 
 Les conseils suivants vous aideront à migrer les dimensions courantes :
 
-* Géo-ville/région/pays : recherchez et sélectionnez des villes, des régions ou des pays spécifiques au lieu d’utiliser une correspondance partielle.
-* Navigateurs : utilisez la dimension Types de navigateur pour obtenir tous les navigateurs d’un type, par exemple Google Chrome.
-* Systèmes d'exploitation : utilisez les dimensions Types de système d'exploitation pour obtenir tous les systèmes d'exploitation d'un type, par exemple Microsoft Windows.
+* Ville/région/pays géo : recherchez et sélectionnez des villes, des régions ou des pays spécifiques au lieu d’utiliser une correspondance partielle.
+* Navigateurs : utilisez la dimension Types de navigateur afin de regrouper tous les navigateurs dans un type, par exemple Google Chrome.
+* Systèmes d’exploitation : utilisez les dimensions des types de système d’exploitation pour regrouper tous les systèmes d’exploitation dans un type, par exemple Microsoft Windows.
 
 * [Dimensions nouvelles et renommées](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
 * [Modifications apportées aux conteneurs](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Modifications de Inférieur à et Supérieur à](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Modifications apportées à Inférieur à et à Supérieur à](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Dimensions nouvelles et renommées {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -355,4 +354,4 @@ Les dimensions basées sur des entiers (la largeur du navigateur par exemple) av
 
 ![](assets/seg_browser_dimension.png)
 
-Les opérateurs « inférieur à », « supérieur à » et similaires sont désormais compatibles avec les segments d’entrepôt de données uniquement. Les segments prévus pour être compatibles avec toutes les interfaces de création de rapports doivent utiliser la version « Regroupement » de la mesure avec l’opérateur « égal à ».
+Les opérateurs « inférieur à », « supérieur à » et similaires sont désormais compatibles avec les segments Data Warehouse uniquement. Les segments prévus pour être compatibles avec toutes les interfaces de création de rapports doivent utiliser la version « Regroupement » de la mesure avec l’opérateur « égal à ».
