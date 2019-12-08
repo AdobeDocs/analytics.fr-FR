@@ -1,11 +1,10 @@
 ---
 description: Combinez les données horodatées et non horodatées au sein d’une seule suite de rapports.
-solution: Analytics
 title: Horodatages facultatifs
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,9 +23,9 @@ Voir [Utilisation du paramètre Horodatages (facultatif)](/help/implement/js-imp
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de cheminement.
+>Si vous utilisez le paramètre Horodatages (facultatif), ne définissez pas l’attribut [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) pour les données déjà horodatées. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de rapports de cheminement.
 
-> [!NOTE] Les données de la session avec horodatage sont conservées pendant 92 jours au maximum. Cela signifie qu’une visite/session sera "ouverte" pendant 92 jours, tandis que tout accès supplémentaire (qui n’est pas 30 minutes après l’accès précédent (dans le temps d’accès), peut toujours être inclus dans la même visite/session. Tout "ancien" accès qui est reçu hors service produira des résultats "inconnus", car plusieurs facteurs (segmentation, attribution, expiration, etc.) influencent l’inclusion ou non de ces accès dans les rapports.
+> [!NOTE] Les données de la session avec horodatage sont conservées pendant 92 jours au maximum. Cela signifie qu’une visite/session sera « gardée ouverte » pendant 92 jours, tandis que tout accès supplémentaire, qui n’intervient pas 30 minutes après l’accès précédent (au cours de la période d’accès), peut toujours être inclus dans la même visite/session. Tout « ancien » accès qui est reçu sans ordre produira des résultats « inconnus », car plusieurs facteurs (segmentation, attribution, expiration, etc.) influencent l’inclusion ou non de ces accès dans les rapports.
 
 ## Nouvelles suites de rapports {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -46,5 +45,5 @@ Voir [Utilisation du paramètre Horodatages (facultatif)](/help/implement/js-imp
 
    Le paramètre Horodatages (facultatif) est activé pour la suite de rapports.
 
-> [!NOTE] Si une suite de rapports a été définie sur **Horodatages facultatifs**, pour modifier ce paramètre, contactez le service à la clientèle Adobe.
+> [!NOTE] Si une suite de rapports a été définie sur **Horodatages facultatifs**, contactez le service à la clientèle Adobe si vous souhaitez modifier ce paramètre.
 
