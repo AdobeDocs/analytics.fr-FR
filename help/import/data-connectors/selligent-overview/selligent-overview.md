@@ -1,10 +1,9 @@
 ---
 description: valeur nulle
-solution: Analytics
 title: Connecteur de données intelligent pour Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,9 +22,9 @@ Cette intégration de courriel prend en charge les segments de marketing dynamiq
 
 | Segment | Description |
 |---|---|
-| **Profil d'abandon du panier** |  Aidez les visiteurs à se convertir en clients grâce à des campagnes affinées spécialement conçues pour ceux qui hésitent à compléter leur panier. |
-| **Profil Achats** |  Augmentez les commandes répétées et la valeur moyenne des commandes grâce aux campagnes ciblées par les modèles d’achat des visiteurs. |
-| **Profil comportemental Affichage du produit/du contenu** |  Contactez les clients potentiels par le biais de segments marketing basés sur les consultations de produits et le profilage de l’accès au contenu. |
+| **Profil d'abandon du panier** | Aidez les visiteurs à se convertir en clients grâce à des campagnes affinées spécialement conçues pour ceux qui hésitent à compléter leur panier. |
+| **Profil Achats** | Augmentez les commandes répétées et la valeur moyenne des commandes grâce aux campagnes ciblées par les modèles d’achat des visiteurs. |
+| **Profil comportemental Affichage du produit/du contenu** | Contactez les clients potentiels par le biais de segments marketing basés sur les consultations de produits et le profilage de l’accès au contenu. |
 | **Segments de remarketing personnalisés** | Les clients peuvent également créer et planifier des segments de remarketing personnalisés spécifiques aux besoins de leurs utilisateurs. |
 
 ## Avant d’activer cette intégration{#before-you-activate-this-integration}
@@ -40,13 +39,13 @@ Répertorie les actions nécessaires à effectuer dans Adobe Analytics avant de 
 
 | Condition requise | Remarques |
 |---|---|
-| Sélectionner une Report Suite |  Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration. |
-| Configuration des variables Analytics |  Cette intégration requiert des événements personnalisés et des eVars personnalisées, ainsi que éventuellement des événements supplémentaires et des eVars supplémentaires. Voir Configuration des variables Analytics pour la sélection. |
-| Représentant autorisé |  Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise ; et, à ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans l'accord de service décrit ci-dessus. |
-| Activer Adobe Data Warehouse™ |  Cette intégration requiert l’activation de l’entrepôt de données pour générer des segments de remarketing. Si vous n’avez pas activé l’entrepôt de données Adobe, contactez Adobe pour plus de détails. |
-| Recipient ID |  L’intégration requiert que nous capturions et stockions un "identifiant visiteur" dans une variable Analytics (eVar). L’identifiant visiteur (souvent appelé "ID du destinataire") est une représentation codée ou numérique d’une adresse électronique du système sélectif. Cet "ID de destinataire" est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui est récupéré dans le système sélectif et peut être utilisé à des fins de remarketing. Dans le cadre du processus de configuration, vous devez identifier une eVar à cet effet lorsque l'Assistant vous y invite. |
-| Suivi externe |  Si vous ne suivez pas actuellement la bonne pratique consistant à activer le suivi externe pour chaque campagne par courrier électronique envoyée, vous devez le faire pour garantir une intégration réussie. Pour plus d’informations, reportez-vous à la section Sélection ci-dessous. |
-| Respect de la confidentialité |  Vous devez comprendre qu’en activant le suivi des destinataires ou des identifiants des visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela a des implications en matière de confidentialité qui nécessitent la mise en oeuvre de procédures appropriées par votre organisation, comme la notification et le consentement des visiteurs de votre site. |
+| Sélectionner une suite de rapports | Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration. |
+| Configuration des variables Analytics | Cette intégration requiert des événements personnalisés et des eVars personnalisées, ainsi que éventuellement des événements supplémentaires et des eVars supplémentaires. Voir Configuration des variables Analytics pour la sélection. |
+| Représentant autorisé | Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise ; et, à ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans l'accord de service décrit ci-dessus. |
+| Activer Adobe Data Warehouse™ | Cette intégration requiert l’activation de l’entrepôt de données pour générer des segments de remarketing. Si vous n’avez pas activé l’entrepôt de données Adobe, contactez Adobe pour plus de détails. |
+| Recipient ID | L’intégration requiert que nous capturions et stockions un "identifiant visiteur" dans une variable Analytics (eVar). L’identifiant visiteur (souvent appelé "ID du destinataire") est une représentation codée ou numérique d’une adresse électronique du système sélectif. Cet "ID de destinataire" est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui est récupéré dans le système sélectif et peut être utilisé à des fins de remarketing. Dans le cadre du processus de configuration, vous devez identifier une eVar à cet effet lorsque l'Assistant vous y invite. |
+| Suivi externe | Si vous ne suivez pas actuellement la bonne pratique consistant à activer le suivi externe pour chaque campagne par courrier électronique envoyée, vous devez le faire pour garantir une intégration réussie. Pour plus d’informations, reportez-vous à la section Sélection ci-dessous. |
+| Respect de la confidentialité | Vous devez comprendre qu’en activant le suivi des destinataires ou des identifiants des visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela a des implications en matière de confidentialité qui nécessitent la mise en oeuvre de procédures appropriées par votre organisation, comme la notification et le consentement des visiteurs de votre site. |
 
 ## Configuration des variables Analytics pour la sélection{#configure-analytics-variables-for-selligent}
 
