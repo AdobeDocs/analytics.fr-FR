@@ -1,11 +1,10 @@
 ---
 description: Affiche des informations sur vos statistiques d’accès aux médias en ligne. Ces rapports présentent des données sur l’accès aux vidéos et autres médias.
-solution: Analytics
 title: Vidéo
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,4 +44,4 @@ Affiche des informations sur vos statistiques d’accès aux médias en ligne. C
  </tbody> 
 </table>
 
-See [Measuring audio and video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+Voir [Mesures audio et vidéo dans Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
