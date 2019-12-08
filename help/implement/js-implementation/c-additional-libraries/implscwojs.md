@@ -1,12 +1,11 @@
 ---
 description: Mise en œuvre d’Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur).
 keywords: Analytics Implementation;html image tag;hardcoded image request
-solution: Analytics
 title: Mise en œuvre d’Analytics à l’aide de balises d’image HTML
 topic: Developer and implementation
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
