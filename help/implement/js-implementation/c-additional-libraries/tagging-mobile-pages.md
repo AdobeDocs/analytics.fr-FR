@@ -1,12 +1,11 @@
 ---
 description: Le code de suivi mobile est placé sur la page sous la forme d’une balise d’image générée par le serveur.
 keywords: Analytics Implementation;mobile tracking;mobile protocols;prevent caching;alt tag;default image type
-solution: Analytics
 title: Balisage de pages pour les protocoles mobiles
 topic: Developer and implementation
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
