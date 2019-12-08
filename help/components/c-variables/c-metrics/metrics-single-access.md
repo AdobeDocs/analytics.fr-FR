@@ -1,11 +1,10 @@
 ---
 description: L’accès unique se définit par le nombre de visites sur votre site qui contiennent une seule valeur Nom de page unique. Si un utilisateur se rend sur votre site et clique sur un lien suivi, déclenche un événement (un affichage de vidéo, par exemple) ou recharge la page, la visite est toujours considérée comme une visite Accès unique. Tant que la valeur de la variable pageName reste inchangée, n’importe quel nombre de requêtes peut être envoyé et la visite est toujours considérée comme un accès unique.
-solution: Analytics
 title: Accès unique
 topic: Metrics
 uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
