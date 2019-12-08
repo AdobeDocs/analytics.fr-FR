@@ -1,11 +1,10 @@
 ---
 description: Montre la structure hiérarchique des pages de votre site web et les affiche dans l’ordre en fonction de leur configuration dans la variable hierN. Ce rapport est renseigné d’après la configuration de variable appropriée définie pour chaque page que vous ajoutez à la hiérarchie. Il permet de connaître les mesures sélectionnées (telles que Visiteurs uniques) pour la hiérarchie.
-solution: Analytics
 title: Hiérarchie
 topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
