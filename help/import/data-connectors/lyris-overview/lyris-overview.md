@@ -1,10 +1,9 @@
 ---
 description: Décrit les gains d’efficacité marketing réalisés grâce à l’intégration.
-solution: Analytics
 title: Connecteur de données Lyris pour Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,14 +47,14 @@ Cela permet de s’assurer que les bonnes pratiques et les conditions préalable
 
 ### Conditions préalables requises pour Adobe Analytics {#section-ddb9d4f3b283438ea33788f47f35e69a}
 
-* **Spécifique**&#x200B;à une Report Suite : Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration.
-* **Variables** Analytics disponibles et configurées : Cette intégration requiert des événements personnalisés et des eVars personnalisées, ainsi que éventuellement des événements supplémentaires et des eVars supplémentaires.
+* **Spécifique**&#x200B;à une Report Suite :Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration.
+* **Variables** Analytics disponibles et configurées :Cette intégration requiert des événements personnalisés et des eVars personnalisées, ainsi que éventuellement des événements supplémentaires et des eVars supplémentaires.
 
-* **Représentant** autorisé : Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise ; et, à ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans l'accord de service décrit ci-dessus.
+* **Représentant** autorisé :Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise ; et, à ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans l'accord de service décrit ci-dessus.
 * **Entrepôt** de données Adobe Analytics : Cette intégration requiert l’activation de l’entrepôt de données Adobe Analytics pour générer des segments de remarketing. Si vous n’avez pas activé l’entrepôt de données, contactez Adobe pour plus d’informations.
 * **ID** du destinataire : L’intégration requiert que nous capturions et stockions un "identifiant visiteur" dans une variable Analytics (eVar). L’identifiant visiteur (souvent appelé "ID du destinataire") est une représentation codée ou numérique d’une adresse électronique du système Lyris. Cet "ID de destinataire" est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui est récupéré dans le système Lyris et peut être utilisé à des fins de re-marketing. Dans le cadre du processus de configuration, vous devez identifier une eVar à cet effet lorsque l'Assistant vous y invite.
 * **Suivi** externe : Si vous ne suivez pas actuellement la bonne pratique consistant à activer le suivi externe pour chaque campagne par courrier électronique envoyée, vous devez le faire pour garantir une intégration réussie. Voir la section Lyris ci-dessous pour plus de détails
-* **Respect** de la vie privée : Vous devez comprendre qu’en activant le suivi des destinataires ou des identifiants des visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela a des implications en matière de confidentialité, ce qui nécessite la mise en oeuvre de procédures appropriées par votre organisation, comme la notification et le consentement des visiteurs de votre site.
+* **Respect** de la vie privée :Vous devez comprendre qu’en activant le suivi des destinataires ou des identifiants des visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela a des implications en matière de confidentialité, ce qui nécessite la mise en oeuvre de procédures appropriées par votre organisation, comme la notification et le consentement des visiteurs de votre site.
 
 ### Conditions préalables requises pour Lyris EmailLabs {#section-84abae9401224a3699fed861f715ebde}
 
