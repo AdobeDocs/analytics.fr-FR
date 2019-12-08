@@ -1,13 +1,12 @@
 ---
 description: Découvrez la variable purchaseID, qui permet d’empêcher l’affichage d’achats en double dans Adobe Analytics.
 keywords: duplicate,purchase,purchaseid,s.purchaseid
-solution: Analytics
 subtopic: Variables
 title: purchaseID
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 3e2f0bccbe7183ea75b12b1ef2b5afdd87837629
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
