@@ -1,11 +1,10 @@
 ---
 description: Affiche le trafic sur des pages Web et classe les pages vues en temps réel afin que vous puissiez comprendre rapidement les tendances de votre site.
-solution: Analytics
 title: Rapports en temps réel
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Affiche le trafic sur des pages Web et classe les pages vues en temps réel afin
 
 Pour la création de rapports en temps réel, Analytics utilise des mesures haute fréquence et des analyses de site pour rapporter visuellement les tendances de trafic et de pages vues des sites Web d’informations et de vente au détail. Le rapport Temps réel identifie les tendances de vos données minute par minute, dans les secondes qui suivent la collecte. Elle collecte et diffuse les données vers l’interface, en utilisant la corrélation en temps réel et le suivi du contenu et de certaines conversions.
 
-Vous pouvez :
+Vous pouvez:
 
 * Créer jusqu’à trois rapports en temps réel par suite de rapports, en utilisant les mesures, dimensions et classifications existantes. Utiliser les dimensions secondaires pour établir une corrélation avec (ou une ventilation de) la dimension primaire.
 * Ajouter trois dimensions (ou classifications) par rapport (une principale et deux secondaires), en plus de mesures à l’échelle du site.
