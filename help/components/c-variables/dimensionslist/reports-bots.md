@@ -1,11 +1,10 @@
 ---
 description: Indique les robots et robots d’indexation qui ont visité votre site au cours d’une période donnée. Le trafic identifié comme étant généré par un robot (sur la base des règles de robot que vous avez configurées) n’est pas envoyé à votre suite de rapports ; il est collecté séparément. Le rapport affiche les pages que ces agents ont visitées.
-solution: Analytics
 title: Robots
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
