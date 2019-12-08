@@ -1,11 +1,10 @@
 ---
 description: Définitions des rapports prédéfinis disponibles dans les Reports & Analytics et des dimensions disponibles dans d’autres outils d’Analytics, par exemple Analysis Workspace.
-solution: Analytics
 title: Descriptions des dimensions
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Définitions des rapports prédéfinis disponibles dans les Reports &amp; Analytics et des dimensions disponibles dans d’autres outils d’Analytics, par exemple Analysis Workspace.
 
-Les dimensions sont des descriptions ou caractéristiques de données de mesure qui peuvent être affichées, ventilées et comparées dans un rapport. Il s’agit de valeurs et de dates non numériques qui ventilent ou qui sont une classification de la mesure du type de rapport d’origine.
+Les dimensions sont des descriptions ou caractéristiques de données de mesure qui peuvent être affichées, ventilées et comparées dans un rapport. Il s’agit de dates et de valeurs non numériques qui ventilent ou qui sont une classification de la mesure du type de rapport d’origine.
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
