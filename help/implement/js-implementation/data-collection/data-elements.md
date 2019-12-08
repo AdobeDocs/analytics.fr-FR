@@ -1,12 +1,11 @@
 ---
 description: Vous pouvez capturer les valeurs d’éléments de formulaire, comme des cases d’option et des éléments de case à cocher, dans des rapports. Vous pouvez ainsi analyser les choix les plus populaires effectués dans vos formulaires en ligne.
 keywords: Analytics Implementation
-solution: Analytics
 title: Collecte de données à partir d’éléments de formulaire
 topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Ces informations s’adressent aux utilisateurs expérimentés qui maîtrisent �
 
 ## Méthode GET {#section_7A2B35822BFF4F6EB57940B31AE6303A}
 
-Si votre formulaire utilise une méthode [!UICONTROL GET] pour envoyer des données, vous avez accès aux données de votre choix dans la chaîne de requête de l’URL sur la page qui suit l’envoi du formulaire. Vous pouvez utiliser le module externe [!UICONTROL getQueryParam] pour extraire automatiquement ces données de la chaîne de requête et les placer dans la variable de votre choix.
+Si votre formulaire utilise une méthode [!UICONTROL GET] pour envoyer des données, vous avez accès aux données de votre choix dans la chaîne de requête de l’URL sur la page qui suit l’envoi du formulaire. Vous pouvez utiliser le module externe  [!UICONTROL getQueryParam] pour extraire automatiquement ces données de la chaîne de requête et les placer dans la variable de votre choix.
 
 ## Méthode POST {#section_56715C30EF374BA7AA12B946B50E4A9A}
 
