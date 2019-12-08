@@ -1,12 +1,11 @@
 ---
 description: Les ID de transaction peuvent être intégrés en sélectionnant la catégorie Générique (ID de transaction).
-solution: Analytics
 subtopic: Data sources
 title: ID de transaction
 topic: Developer and implementation
 uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Les ID de transaction peuvent être intégrés en sélectionnant la catégorie Générique (ID de transaction).
 
-Voir [Intégration de données](/help/import/c-data-sources/datasrc-integrating-offline-data.md)hors ligne.
+See [Integrating Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
 
