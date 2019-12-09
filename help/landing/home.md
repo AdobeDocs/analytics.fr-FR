@@ -2,14 +2,14 @@
 title: Documentation technique d’Adobe Analytics
 description: Ressources et guides de l’utilisateur d’Analytics
 translation-type: tm+mt
-source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
+source-git-commit: b983e8d85378514c1ae4e6c1e20f95ac5f51da15
 
 ---
 
 
 # Documentation Adobe Analytics
 
-Bienvenue dans la page d’accueil des produits et de la documentation technique d’Adobe Analytics. Vous trouverez ici des informations d’aide et d’assistance pour les outils de création de rapports tels que [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], API de création de rapports, outils [!UICONTROL de]données et Carte d’ [!UICONTROL activités. ] Vous pouvez également accéder à la documentation relative à l’administration des produits et des utilisateurs, à la mise en oeuvre et à toutes les fonctionnalités prises en charge dans Adobe Analytics.
+Bienvenue dans la page d’accueil des produits et de la documentation technique d’Adobe Analytics. Vous trouverez ici des informations d’aide et d’assistance pour les outils de création de rapports tels que [!UICONTROL Analysis Workspace], le créateur de [!UICONTROL rapports], l’API de création de rapports, les outils [!UICONTROL de]données et la Carte d’ [!UICONTROL activités. ] Vous pouvez également accéder à la documentation relative à l’administration des produits et des utilisateurs, à la mise en oeuvre et à toutes les fonctionnalités prises en charge dans Adobe Analytics.
 
 [![Outils](assets/analyze_50px.png)](/help/analyze/home.md)Guide[des outils d’](/help/analyze/home.md) Analytics - Fournit un accès à [Analysis Workspace](/help/analyze/analysis-workspace/home.md), l’outil d’analyse et de visualisation idéal pour Analytics. Comprend également tous les outils d’analyse (créateur de[!UICONTROL rapports], API de création de rapports, outils [!UICONTROL de]données et Carte d’activités) que vous pouvez utiliser dans Adobe Analytics.
 
