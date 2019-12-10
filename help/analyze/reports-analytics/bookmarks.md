@@ -26,11 +26,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |Name|Nom convivial de ce signet.
-    |
- |—|—|     |Ajouter à|Spécifie le dossier dans lequel vous souhaitez placer le signet.
-|     |Rendre public| Rend ce signet accessible aux utilisateurs ayant accès à la suite de rapports.
-|     |Afficher le rapport lors de la connexion| Affiche le rapport lorsque vous vous connectez.|
+ |Name|Nom convivial de ce signet.|
+ |---|---|     
+ |Ajouter à|Spécifie le dossier dans lequel vous souhaitez placer le signet.|     
+ |Rendre public| Rend ce signet accessible aux utilisateurs ayant accès à la suite de rapports.|     
+ |Afficher le rapport lors de la connexion| Affiche le rapport lorsque vous vous connectez.|
    
 ## Gestion des signets {#task_1EE793CB52EA467787817BBD98DEF150}
 
