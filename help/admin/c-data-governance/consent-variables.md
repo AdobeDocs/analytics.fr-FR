@@ -3,7 +3,7 @@ description: Variables pour la création de rapports de confidentialité dans la
 title: Variables de création de rapports de confidentialité
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 033f962f9ff686d8c5f36b06a27df0d49198341b
 
 ---
 
@@ -65,7 +65,7 @@ Voir [Variables de données contextuelles](https://docs.adobe.com/help/en/analyt
 * Données contextuelles : `contextData.['cm.ssf']`
 * Valeurs acceptées :
    * 1 - Lorsque vous envoyez la valeur « 1 », cela indique que le transfert côté serveur est dans un état d’opt-out. La valeur « 1 » associée à cette variable bloquera le partage de cet accès avec Adobe Audience Manager. Voir [Conformité AAM à la directive ePrivacy](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
-   * Aucune autre valeur n’est acceptée pour ce paramètre.
+   * 0 - Facultatif. Utilisez la valeur "0" pour les clients qui ont consenti au marketing ciblé. Ne pas définir la variable produira également les mêmes résultats.
 
 ### DMP (plate-forme de gestion des données)
 
