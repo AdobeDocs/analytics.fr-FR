@@ -2,7 +2,7 @@
 description: Instructions pour configurer les cartes de performance des applications mobiles.
 title: Guide du conservateur d’application mobile Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
@@ -190,9 +190,7 @@ Pendant la phase bêta, et avant que l’application ne soit dévoilée au publi
       ![Ecran Testflight](assets/testflight2.png)
    **Pour les cadres supérieurs sur Android :**
 
-   1. Appuyez sur le lien Play Store suivant sur le périphérique de l’utilisateur (il est également disponible dans Analytics sous **Outils** &gt; Application **** mobile) :
-
-
+   1. Appuyez sur le lien Play Store suivant sur le périphérique de l’utilisateur (il est également disponible dans Analytics sous **Outils** &gt; Application ****mobile) :
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Après avoir appuyé sur le lien, appuyez sur le lien Devenir un testeur dans l’écran suivant :
@@ -200,12 +198,10 @@ Pendant la phase bêta, et avant que l’application ne soit dévoilée au publi
       ![Ecran Plate-forme](assets/play.png)
 
    2. Appuyez sur le lien **Télécharger sur Google Play** sur l’écran suivant :
-
       ![Lien de téléchargement](assets/playnext.png)
 
    3. Téléchargez et installez l’application.
-   Une fois téléchargés et installés, les utilisateurs finaux peuvent se connecter à l’application à l’aide de leurs identifiants Adobe Analytics existants ; nous prenons en charge les ID Adobe et Enterprise/Federated.
-
+Une fois téléchargés et installés, les utilisateurs finaux peuvent se connecter à l’application à l’aide de leurs identifiants Adobe Analytics existants ; nous prenons en charge les ID Adobe et Enterprise/Federated.
    ![Ecran de bienvenue de l’application](assets/welcome.png)
 
 2. Aidez-les à accéder à votre carte de performance. Une fois que les administrateurs se sont connectés à l’application, l’écran **Choisir une société** s’affiche. Cet écran répertorie les sociétés de connexion auxquelles appartient l’utilisateur exécutif. Pour les aider à accéder à Scorecard :
