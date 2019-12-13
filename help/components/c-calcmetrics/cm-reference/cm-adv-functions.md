@@ -1,22 +1,16 @@
 ---
 description: Accédez à ces fonctions en cochant Afficher les options avancées dans la liste déroulante Fonctions.
-title: Fonctions avancées de référence
+title: 'Référence : fonctions avancées'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Référence : fonctions avancées
 
-<!-- 
-
-cm_adv_functions.xml
-
- -->
-
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+Accédez à ces fonctions en cochant **[!UICONTROL Afficher les options avancées]** dans la liste déroulante **[!UICONTROL Fonctions]**.
 
 ## Fonctions de tableau et fonctions de ligne {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -34,7 +28,7 @@ D’un autre côté, si deux mesures vous intéressent, il n’est pas juste d�
 
 Renvoie la valeur de son argument. Utilisez SAUF pour vous assurer qu’une valeur est différente d’une valeur spécifique.
 
-> [!NOTE] 0 (zéro) signifie False et toute autre valeur est True.
+> [!NOTE] 0 (zéro) signifie False, et toute autre valeur est True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -42,12 +36,12 @@ AND(logical_test1,[logical_test2],...)
 
 | Argument | Description |
 |---|---|
-| *logical_test1* | Requis. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
+| *logical_test1* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
 | *logical_test2* | Facultatif. Conditions supplémentaires que vous souhaitez évaluer en tant TRUE ou FALSE. |
 
 ## Nombre distinct approximatif (dimension) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Renvoie le nombre distinct approximatif d’éléments de dimension pour la dimension sélectionnée. La fonction utilise la méthode HyperLogLog (HLL) d’approximation des nombres distincts. Elle est configurée pour garantir que la valeur est comprise dans les 5 % de la valeur réelle 95 % du temps.
+Renvoie le nombre distinct approximatif d’éléments de dimension pour la dimension sélectionnée. La fonction utilise la méthode HyperLogLog (HLL) d’approximation des nombres distincts.  Elle est configurée pour garantir que la valeur est comprise dans les 5 % de la valeur réelle 95 % du temps.
 
 ```
 Approximate Count Distinct (dimension)
@@ -61,7 +55,7 @@ Approximate Count Distinct (dimension)
 
 Le nombre distinct approximatif (eVar ID de client) est un cas d’utilisation courant pour cette fonction.
 
-Définition d’une nouvelle mesure calculée "Clients approximatifs" :
+Définition d’une nouvelle mesure calculée « Nombre approximatif de clients » :
 
 ![](assets/approx-count-distinct.png)
 
@@ -128,7 +122,7 @@ ESTIMATE.EXP(metric_X, metric_Y)
 | *metric_X* | Mesure que vous souhaitez désigner comme données dépendantes. |
 | *metric_Y* | Mesure que vous souhaitez désigner comme données indépendantes. |
 
-## Cdf-T.{#concept_4E2F2673532A48B5AF786521DE428A66}
+## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
 Renvoie le pourcentage des valeurs d’un distribution en t de Student avec n degrés de liberté ayant un score centré réduit inférieur à x.
 
@@ -140,7 +134,7 @@ cdf_t( -2, 7 ) ? 0.0227501
 cdf_t( x, ∞ ) ? cdf_z( x )
 ```
 
-## Cdf-Z.{#concept_99C97ACC40A94FADBCF7393A17BC2D12}
+## Cdf-Z {#concept_99C97ACC40A94FADBCF7393A17BC2D12}
 
 Renvoie le pourcentage des valeurs d’une distribution normale ayant un score centré réduit inférieur à x.
 
@@ -210,19 +204,19 @@ Renvoie la moyenne des N dernières lignes.
 
 Si N &lt;= 0, elle utilise toutes les lignes précédentes. Puisque la moyenne cumulée est triée selon la dimension, elle n’est utile que pour les dimensions qui possèdent un ordre naturel, comme la date ou la longueur de chemin.
 
-> [!NOTE] Cela ne fonctionne pas comme vous pouvez vous y attendre avec les mesures de taux telles que les recettes/visiteurs : il calcule la moyenne des taux au lieu de additionner les recettes des N précédentes et de additionner les visiteurs des N précédentes, puis de les diviser. À la place, utilisez
+> [!NOTE] La moyenne cumulée ne fonctionne pas comme vous pourriez l’attendre avec des mesures de taux comme recettes/visiteur : elle fait la moyenne des taux au lieu d’additionner les recettes sur le dernier N et les visiteurs sur le dernier N, puis les diviser. À la place, utilisez
 
 ```
 cumul(revenue)/cumul(visitor)
 ```
 
-## equal (égal à){#concept_A3B97152B5F74E04A97018B35734BEEB}
+## equal (égal à) {#concept_A3B97152B5F74E04A97018B35734BEEB}
 
 Renvoie des éléments qui correspondent exactement à une valeur numérique ou de chaîne.
 
 ## Régression exponentielle : coefficient de corrélation (tableau) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Returns the correlation coefficient, *r*, between two metric columns ( *metric_A* and *metric_B*) for the regression equation .
+Renvoie le coefficient de corrélation, *r*, entre deux colonnes de mesures (*metric_A* et *metric_B*) pour l’équation de régression.
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -235,7 +229,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## Régression exponentielle : ordonnée à l’origine (tableau) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+Renvoie l’ordonnée à l’origine, *b*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour.
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -248,7 +242,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## Régression exponentielle : inclinaison (tableau) {#concept_230991B0371E44308C52853EFA656F04}
 
-Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+Renvoie l’inclinaison, *a*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour.
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -325,7 +319,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | Argument | Description |
 |---|---|
-| *logical_test* | Requis. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
+| *logical_test* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
 | *[value_if_true]* | Valeur que vous souhaitez voir renvoyer si l’argument *logical_test* est évalué sur VRAI. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
 | *[value_if_false]* | Valeur que vous souhaitez voir renvoyer si l’argument *logical_test* est évalué sur FAUX. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
 
@@ -353,7 +347,7 @@ Y = a X + b. Renvoie Y.
 
 Y = a X + b. Renvoie a.
 
-## Logarithme de base 10{#concept_4C65DF9659164261BE52AA5A95FD6BC1}
+## Logarithme de base 10 {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
 
 Renvoie le logarithme de base 10 d’un nombre.
 
@@ -367,7 +361,7 @@ LOG10(metric)
 
 ## Régression logarithmique : coefficient de corrélation (tableau) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. Il est calculé en utilisant l’équation CORREL.
+Renvoie le coefficient de corrélation, *r*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour l’équation de régression [!DNL Y = a ln(X) + b]. Il est calculé en utilisant l’équation CORREL.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -393,7 +387,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## Régression logarithmique : Y prédit (ligne) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. Elle est calculée en utilisant l’équation ESTIMATE.
+Calcule les valeurs [!DNL y] prédites (metric_Y), selon les valeurs [!DNL x] connues (metric_X) en utilisant la méthode des « moindres carrés » pour calculer la ligne de meilleure approximation d’après [!DNL Y = a ln(X) + b]. Elle est calculée en utilisant l’équation ESTIMATE.
 
 Dans une analyse de régression, cette fonction calcule les valeurs [!DNL y] prédites (*metric_Y*), selon les valeurs [!DNL x] connues (*metric_X*) en utilisant l’algorithme pour calculer la ligne de meilleure approximation pour l’équation de régression [!DNL Y = a ln(X) + b]. Les valeurs [!DNL a] correspondent à chaque valeur x et [!DNL b] est une valeur constante.
 
@@ -408,7 +402,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## Régression logarithmique : inclinaison (tableau) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. Elle est calculée en utilisant l’équation SLOPE.
+Renvoie l’inclinaison, *a*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour l’équation de régression [!DNL Y = a ln(X) + b]. Elle est calculée en utilisant l’équation SLOPE.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -441,7 +435,7 @@ NOT(logical)
 
 | Argument | Description |
 |---|---|
-| *logical* | Requis. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
+| *logical* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
 
 L’utilisation de SAUF nécessite de connaître si les expressions (&lt;, &gt;, =, &lt;&gt; , etc.) renvoient la valeur 0 ou 1.
 
@@ -453,7 +447,7 @@ Renvoie les éléments qui ne comportent pas une correspondance exacte avec la v
 
 Renvoie TRUE si un argument est VRAI ou renvoie FALSE si tous les arguments sont FAUX.
 
-> [!NOTE] 0 (zéro) signifie False et toute autre valeur est True.
+> [!NOTE] 0 (zéro) signifie False, et toute autre valeur est True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -461,7 +455,7 @@ OR(logical_test1,[logical_test2],...)
 
 | Argument | Description |
 |---|---|
-| *logical_test1* | Requis. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
+| *logical_test1* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
 | *logical_test2* | Facultatif. Conditions supplémentaires que vous souhaitez évaluer en tant TRUE ou FALSE. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
@@ -476,7 +470,7 @@ La fonction [!DNL PI] ne comporte aucun argument.
 
 ## Régression puissance : coefficient de corrélation (tableau) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Renvoie le coefficient de corrélation, *r*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour [!DNL Y = b*X].
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -489,7 +483,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## Régression puissance : ordonnée à l’origine (tableau) {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Renvoie l’ordonnée à l’origine, *b*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour [!DNL Y = b*X].
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -502,7 +496,7 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 
 ## Régression puissance : Y prédit (ligne) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+Calcule les valeurs [!DNL y] prédites ( [!DNL metric_Y]), selon les valeurs [!DNL x] connues ( [!DNL metric_X]) en utilisant la méthode des « moindres carrés » pour calculer la ligne de meilleure approximation pour [!DNL Y = b*X].
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -515,7 +509,7 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 
 ## Régression puissance : inclinaison (tableau) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Renvoie l’inclinaison, *a*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour [!DNL Y = b*X].
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -528,7 +522,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## Régression quadratique : coefficient de corrélation (tableau) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+Renvoie le coefficient de corrélation, *r*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour [!DNL Y=(a*X+b)]****.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -541,7 +535,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## Régression quadratique : ordonnée à l’origine (tableau) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+Renvoie l’ordonnée à l’origine, *b*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour [!DNL Y=(a*X+b)]****.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -554,7 +548,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## Régression quadratique : Y prédit (ligne) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+Calcule les valeurs [!DNL y] prédites (metric_Y), selon les valeurs [!DNL x] connues (metric_X) en utilisant la méthode des « moindres carrés » pour calculer la ligne de meilleure approximation en utilisant [!DNL Y=(a*X+b)]**** .
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -567,7 +561,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 ## Régression quadratique : inclinaison (tableau) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+Renvoie l’inclinaison, *a*, entre deux colonnes de mesures (*metric_X* et metric_Y) pour [!DNL Y=(a*X+b)]****.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -593,7 +587,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 ## Régression réciproque : ordonnée à l’origine (tableau) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+Renvoie l’ordonnée à l’origine, *b*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour [!DNL Y = a/X+b].
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -606,7 +600,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 ## Régression réciproque : Y prédit (ligne) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+Calcule les valeurs [!DNL y] prédites (metric_Y), selon les valeurs [!DNL x] connues (metric_X) en utilisant la méthode des « moindres carrés » pour calculer la ligne de meilleure approximation en utilisant [!DNL Y = a/X+b].
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -619,7 +613,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## Régression réciproque : inclinaison (tableau) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+Renvoie l’inclinaison, *a*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour [!DNL Y = a/X+b].
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -650,7 +644,7 @@ Alias de score centré réduit, soit l’écart par rapport à la moyenne divis�
 
 Exécute un test en t m-latéral avec un score normalisé de col et n degrés de liberté.
 
-La signature est `t_test( x, n, m )`. En dessous, il appelle simplement `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+La signature est `t_test( x, n, m )`. En dessous, elle appelle simplement `m*cdf_t(-abs(x),n)`. Cela est semblable à la fonction test en_z qui exécute `m*cdf_z(-abs(x))`.
 
 Ici, `m` correspond au nombre de queues et `n`, aux degrés de liberté. Il doit s’agir de nombres (c’est une constante pour l’ensemble du rapport ; en d’autres termes, cela ne doit pas changer d’une ligne à l’autre).
 
@@ -660,13 +654,13 @@ La valeur renvoyée est la probabilité de voir la statistique de test x, étan
 
 **Exemples:**
 
-1. Utilisez-la pour rechercher des valeurs aberrantes :
+1. Utilisez-la pour trouver des valeurs aberrantes :
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
    ```
 
-1. Combine it with `if` to ignore very high or low bounce rates, and count visits on everything else:
+1. Combinez-la à `if` pour ignorer les taux de rebond très élevés ou très bas, et comptabiliser les visites dans tous les autres cas :
 
    ```
    if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
@@ -696,7 +690,7 @@ où [!DNL x] est le score brut, [!DNL μ] la moyenne de la population et [!DNL �
 
 > [!NOTE] [!DNL μ] (mu) et[!DNL σ] (sigma) sont automatiquement calculés à partir de la mesure.
 
-Score-Z(mesure)
+Score centré réduit (mesure)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -719,5 +713,5 @@ Exécute un test Z n-latéral avec un score centré réduit de A.
 
 Renvoie la probabilité que la ligne actuelle puisse être vue par hasard dans la colonne.
 
-> [!NOTE] Suppose que les valeurs sont normalement distribuées.
+> [!NOTE] Présume que les valeurs sont distribuées normalement.
 
