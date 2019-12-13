@@ -1,8 +1,8 @@
 ---
 title: Analyste virtuel
 description: Découvrez les fonctionnalités d’Adobe Analytics qui contribuent à l’analyste virtuel.
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+translation-type: tm+mt
+source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 L’analyste virtuel, un ensemble de fonctionnalités d’Adobe Analytics, utilise des algorithmes prédictifs et l’apprentissage automatique pour fournir des informations sur les anomalies qui touchent votre entreprise. Il vous permet d’automatiser les processus de science de données les plus courants et les plus coûteux afin d’identifier les comportements inhabituels au niveau de vos données.
 
-## Fonctionnalités
+## Fonctionnalités {#features}
 
 L’analyste virtuel propose les fonctionnalités suivantes :
 
