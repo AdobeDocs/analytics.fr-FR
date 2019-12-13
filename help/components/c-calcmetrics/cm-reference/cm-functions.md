@@ -1,26 +1,20 @@
 ---
 description: Le créateur de mesures calculées permet d’appliquer des fonctions statistiques et mathématiques afin de créer des mesures calculées avancées.
-title: Fonctions de base de référence
+title: 'Référence : fonctions de base'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Référence : fonctions de base
 
-<!-- 
-
-cm_functions.xml
-
- -->
-
 Le créateur de mesures calculées permet d’appliquer des fonctions statistiques et mathématiques afin de créer des mesures calculées avancées.
 
 Vous trouverez ci-dessous une liste alphabétique des fonctions ainsi que leur définition.
 
-> [!NOTE] Lorsque [!DNL metric] est identifié comme un argument dans une fonction, d’autres expressions de mesures sont également autorisées. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] Lorsque [!DNL metric] est identifié en tant qu’argument d’une fonction, d’autres expressions des mesures sont également autorisées. Par exemple, [!DNL MAXV(metrics)] autorise également [!DNL MAXV(PageViews + Visits).].
 
 ## Fonctions de tableau et fonctions de ligne {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -156,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Percentile (tableau) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Renvoie le percentile k-th des valeurs pour une mesure. Vous pouvez utiliser cette fonction pour établir un seuil d’acceptation. Par exemple, vous pouvez décider d’examiner les éléments de dimension qui obtiennent un score supérieur aux 90 centiles.
+Renvoie le percentile k-th des valeurs pour une mesure. Vous pouvez utiliser cette fonction pour établir un seuil d’acceptation. Par exemple, vous pouvez décider d’examiner les éléments de dimension dont le score est supérieur au 90e percentile.
 
 ```
 PERCENTILE(metric,k)
@@ -208,7 +202,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*Si *quart* = 0, QUARTILE renvoie la valeur minimale. If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). Si *quart* = 4, QUARTILE renvoie la valeur maximale.
+*Si *quart* = 0, QUARTILE renvoie la valeur minimale. Si *quart* = 1, QUARTILE renvoie le premier quartile (25e percentile). Si *quart* = 2, QUARTILE renvoie le premier quartile (50e percentile). Si *quart* = 3, QUARTILE renvoie le premier quartile (75e percentile). Si *quart* = 4, QUARTILE renvoie la valeur maximale.
 
 ## Tour {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -233,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## Décompte de lignes {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Renvoie le nombre de lignes pour une colonne donnée (nombre d’éléments uniques signalés dans une dimension). "Valeurs uniques dépassées" est compté comme 1.
+Renvoie le nombre de lignes pour une colonne donnée (le nombre d’éléments uniques pris en compte dans une dimension). « Nombre d’éléments uniques dépassé » compte pour 1.
 
 ## Max. ligne {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -322,7 +316,7 @@ Prenons comme exemple une colonne de 3 éléments :
 
 3
 
-La moyenne de cette colonne est 2. La variance de la colonne sera ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Dans les Ad Hoc Analysis, vous verrez :
+La moyenne de cette colonne est 2. La variance de la colonne est ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Dans les Ad Hoc Analysis, vous verrez :
 
 1 2/3
 
