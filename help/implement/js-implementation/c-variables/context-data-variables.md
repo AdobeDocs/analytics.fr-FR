@@ -18,13 +18,11 @@ Les variables de données contextuelles permettent de définir, sur chaque page,
 Au lieu d’affecter de façon explicite des valeurs aux props et eVars dans votre code, vous pouvez envoyer des données dans des variables de données contextuelles mises en correspondance à l’aide de règles de traitement. Les règles de traitement offrent une interface graphique puissante pour apporter des modifications aux données reçues. Selon les valeurs envoyées dans les données contextuelles, vous pouvez définir des événements, copier les valeurs dans des eVars et des props et exécuter des instructions conditionnelles supplémentaires.
 
 > [!NOTE] Les variables de données contextuelles ne sont pas sensibles à la casse. Par exemple, les deux variables suivantes sont effectivement identiques :
->
-```
+>```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >et
->
-```
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
