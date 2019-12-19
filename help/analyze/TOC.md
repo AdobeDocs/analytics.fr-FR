@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
+source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
       + [Envoi d’un fichier – Planification de la livraison d’un projet](analysis-workspace/curate-share/t-schedule-report.md)
       + [Gestionnaire de projets planifiés](analysis-workspace/curate-share/schedule-projects.md)
    + Analyste virtuel {#virtual-analyst}
-      + [Analyste virtuel](analysis-workspace/virtual-analyst/virtual-analyst.md)
+      + [Présentation de Virtual Analyst](analysis-workspace/virtual-analyst.md)
       + Détection des anomalies {#anomaly-detection}
          + [Détection des anomalies - Aperçu](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Affichage des anomalies dans Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -117,7 +117,6 @@ source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
    + [Limites d’Analysis Workspace](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
-   + [Analyste virtuel](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
    + [Aide du Report Builder d’Adobe](report-builder/home.md)
    + [Nouvelles fonctionnalités de Report Builder](report-builder/whats-new-arb.md)
@@ -330,7 +329,7 @@ source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
 + Application mobile {#mobapp}
    + [Présentation des applications mobiles](mobile-app/home.md)
    + [Guide du conservateur](mobile-app/curator.md)
-   + [Guide de démarrage rapide de l'utilisateur](mobile-app/executive.md)
+   + [Guide de démarrage rapide pour les utilisateurs cadres](mobile-app/executive.md)
 + Applications web progressives {#pwa}
    + [Applications web progressives](pwa/pwa.md)
 + API de création de rapports dans Analytics {#analytics-reporting-api}
