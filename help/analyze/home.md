@@ -2,7 +2,7 @@
 title: Aide d’Analysis Workspace
 description: Documentation du produit et auto-assistance pour Analysis Workspace, Carte d’activités, Créateur de rapports, API de création de rapports et Rapports et analyses (anciennement produits Omniture Analytics).
 translation-type: tm+mt
-source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
+source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
 
@@ -23,6 +23,7 @@ Ce guide fournit de la documentation sur les produits et de l’aide autonome po
 ## Principaux articles sur les outils d’Analytics
 
 * [Prise en main d’Analysis Workspace](analysis-workspace/home.md)
+* [Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Prise en main de Report Builder](report-builder/home.md)
 * [Prise en main d’Activity Map](activity-map/activity-map.md)
 
@@ -33,6 +34,6 @@ Ce guide fournit de la documentation sur les produits et de l’aide autonome po
 ## Principales ressources Analytics
 
 * [Contacter l’assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Forum Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
