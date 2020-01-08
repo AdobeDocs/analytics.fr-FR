@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: utilisateur final
-user-guide-title: Guide d’intégration Analytics
-user-guide-url: /content/help/fr-FR/analytics/integration/home.html
-translation-type: ht
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+audience: end-user
+user-guide-title: Analytics Integration Guide
+user-guide-url: /content/help/en/analytics/integration/home.html
+translation-type: tm+mt
+source-git-commit: ecac9aba326217880111cfcc4af6f100d043bb8a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Guide d’administration : Conditions requises pour le transfert côté serveur](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
       + [Guide d’administration : Vérification de la mise en œuvre du transfert côté serveur](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [Guide d’administration : FAQ sur le transfert côté serveur](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
-      + [Création d’une destination pour les analyses destination](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
+      + [Créer une destination Analytics](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Utilisation des données d’audience dans Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Cas d’utilisation d’Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Questions fréquentes](c-audience-analytics/mc-audiences-faqs.md)
@@ -39,7 +39,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [Gestion des comptes Advertising](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Résolution des problèmes d’Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Questions fréquentes](c-advertising-analytics/aa-faq.md)
-+ [Analytics pour Target - A4T](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/a4t.html)
++ [Analytics pour Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
 + [Rapports Adobe Campaign](adobe-campaign.md)
 + [Compte rendu des performances d’AEM Assets](aem-assets-reporting.md)
 + [Compte rendu des performances d’Activity Map](activitmap-reporting.md)
