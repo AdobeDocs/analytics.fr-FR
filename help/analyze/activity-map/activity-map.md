@@ -4,12 +4,15 @@ title: Activity Map - Aperçu
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
 
 ---
 
 
 # Activity Map - Aperçu
+
+>[!IMPORTANT]
+>Le 16 janvier 2020, Adobe Analytics commencera à passer à un nouveau domaine : https://experience.adobe.com/analytics. Cette modification peut entraîner l’arrêt du fonctionnement de Carte d’activités pour certains clients dans des cas spécifiques. Comme vous le savez, Carte d’activités est injectée dans la page du client dans un iframe (un iframe pour la barre d’outils de Carte d’activités et un iframe pour le panneau inférieur de Carte d’activités). Vous avez peut-être défini une directive de stratégie de sécurité de contenu sur votre page Web pour &quot;frame-src&quot; qui n’inclut pas &quot;.adobe.com&quot;. Si tel est le cas, Carte d’activités cessera de fonctionner lors de la visite d’une page &quot;.adobe.com&quot;. Pour résoudre ce problème, vous devez ajouter &quot;.adobe.com&quot; à votre directive Content Security Policy.
 
 Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à contrôler l’engagement du public de vos pages web.
 
