@@ -3,7 +3,7 @@ description: Décrit le processus de déploiement en trois étapes.
 title: Déploiement de l’intégration
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
 ---
 
@@ -14,7 +14,7 @@ Décrit le processus de déploiement en trois étapes.
 
 Le déploiement de cette intégration est un processus simple qui nécessite les actions suivantes :
 
-## Fin de l'Assistant d'intégration{#completing-the-integration-wizard}
+## Fin de l&#39;Assistant d&#39;intégration{#completing-the-integration-wizard}
 
 Procédure d’utilisation de l’assistant d’intégration.
 
@@ -24,12 +24,12 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
 
    ![](assets/data_connectors.png)
 
-1. Sous **[!UICONTROL Ajouter une intégration]**, faites glisser et déposez le module externe Lyris dans Adobe Experience Cloud. Cela ouvre l’intégration du connecteur de données Lyris.
+1. Sous **[!UICONTROL Ajouter une intégration]**, sous Lyris HQ, cliquez sur**[!UICONTROL  Activer]**.
 
    ![](assets/add_integration.png)
 
-1. Sous Paramètres **** généraux, sélectionnez une suite de rapports et attribuez un nom à l’intégration.
-1. Renseignez toutes les informations relatives à votre compte Lyris sous Valeurs **** personnalisées.
+1. Sous Paramètres ****généraux, sélectionnez une suite de rapports et attribuez un nom à l’intégration.
+1. Renseignez toutes les informations relatives à votre compte Lyris sous Valeurs ****personnalisées.
 
    ![](assets/general_settings.png)
 
@@ -37,9 +37,9 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
 
    ![](assets/variable_mapping.png)
 
-1. Vous pouvez choisir vos propres segments sous **[!UICONTROL Vos segments]** , à l’exception des trois segments de partenaire automatisés.
-1. Cette intégration peut nécessiter le téléchargement de quelques points de données vers votre compte Lyris. Vous pouvez choisir d’autoriser cet accès sous Demande **[!UICONTROL d’]** accès.
-1. Sous Collecte **[!UICONTROL de]** données, vous pouvez choisir une solution automatisée ou manuelle (module externe JavaScript) pour collecter les paramètres de chaîne de requête à partir de l’URL de la page d’entrée. Si vous optez pour une solution automatisée, saisissez le paramètre de chaîne de requête pour l’ID de message et l’ID de destinataire. Pour un module externe JavaScript, contactez votre consultant Adobe.
+1. Vous pouvez choisir vos propres segments sous **[!UICONTROL Vos segments]**, à l’exception des trois segments de partenaire automatisés.
+1. Cette intégration peut nécessiter le téléchargement de quelques points de données vers votre compte Lyris. Vous pouvez choisir d’autoriser cet accès sous Demande **[!UICONTROL d’]**accès.
+1. Sous Collecte **[!UICONTROL de]**données, vous pouvez choisir une solution automatisée ou manuelle (module externe JavaScript) pour collecter les paramètres de chaîne de requête à partir de l’URL de la page d’entrée. Si vous optez pour une solution automatisée, saisissez le paramètre de chaîne de requête pour l’ID de message et l’ID de destinataire. Pour un module externe JavaScript, contactez votre consultant Adobe.
 
    ![](assets/data_collection.png)
 
@@ -72,15 +72,15 @@ Cette section décrit la procédure à suivre pour vérifier que l’intégratio
 
 Une fois toutes les étapes du déploiement terminées, vous pouvez vérifier que l’intégration réussit à transférer des données.
 
-> [!NOTE] Il faut quelques jours pour que l'échange de données commence. Assurez-vous de contacter Lyris après avoir activé l’intégration.
+> [!NOTE] Il faut quelques jours pour que l&#39;échange de données commence. Assurez-vous de contacter Lyris après avoir activé l’intégration.
 
-1. Accédez à votre intégration Lyris dans Connecteurs de données. Sous l’onglet **[!UICONTROL Prise en charge]** &gt; Journal **[!UICONTROL d’activité]** d’intégration, vous devriez voir des événements tels que les données de **[!UICONTROL mesure importées avec succès]** et/ou les données de **[!UICONTROL classification importées avec succès :]**
+1. Accédez à votre intégration Lyris dans Connecteurs de données. Sous l’onglet **[!UICONTROL Prise en charge]**> Journal**[!UICONTROL  d’activité]**d’intégration, vous devriez voir des événements tels que les données de **[!UICONTROL mesure importées avec succès]**et/ou les données de**[!UICONTROL  classification importées avec succès :]**
 
    ![](assets/integration_info.png)
 
 1. Affichez maintenant vos rapports de messages Lyris avec les mesures appropriées. Dans Adobe Experience Cloud, sélectionnez **[!UICONTROL Rapports et analyses]**.
 1. Sélectionnez la suite de rapports appropriée.
-1. Sous Conversions **** personnalisées, sélectionnez les rapports **[!UICONTROL d’ID de]** message et choisissez ID de **[!UICONTROL message/Nom]** du message.
+1. Sous Conversions ****personnalisées, sélectionnez les rapports**[!UICONTROL  d’ID de]** message et choisissez ID de **[!UICONTROL message/Nom]**du message.
 
 ## Code du module complémentaire de paramètre de chaîne de requête{#query-string-param-plug-in-code}
 
