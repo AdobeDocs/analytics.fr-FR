@@ -1,8 +1,8 @@
 ---
-title: Aide d’Analysis Workspace
+title: Guide sur les outils Analytics
 description: Documentation du produit et auto-assistance pour Analysis Workspace, Carte d’activités, Créateur de rapports, API de création de rapports et Rapports et analyses (anciennement produits Omniture Analytics).
 translation-type: tm+mt
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
