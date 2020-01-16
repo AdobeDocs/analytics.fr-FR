@@ -3,7 +3,7 @@ description: Cookies Analytics
 title: FAQ sur les cookies du navigateur et d’Analytics
 uuid: null
 translation-type: tm+mt
-source-git-commit: ec96e30becf1cb799c0597b0e2f441fa1d6df0e3
+source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
 
 ---
 
@@ -32,7 +32,9 @@ Les cookies propriétaires sont créés par les sites Web des clients (propres �
 
 ### Cookies tiers
 
-Les cookies tiers ne sont pas créés par les visiteurs de sites Web. Bien que les navigateurs traitent actuellement tous les cookies tiers de la même manière et les stockent en conséquence, les cookies tiers eux-mêmes peuvent se comporter différemment et de manière importante. Avec l’implémentation des cookies tiers Analytics d’un client, le client effectue des appels uniquement vers Adobe, et non vers des domaines tiers inconnus ou suspects. Il s’agit de la méthode actuelle d’implémentation d’Analytics pour un suivi sécurisé (HTTPS) et fiable avec des identifiants persistants. Cette méthode est implémentée en configurant le fichier AppMeasurement.js. Pour plus d’informations, voir [Cookies et Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
+Les cookies tiers ne sont pas créés par les visiteurs de sites Web. Bien que les navigateurs traitent actuellement tous les cookies tiers de la même manière et les stockent en conséquence, les cookies tiers eux-mêmes peuvent se comporter différemment et de manière importante. Avec l’implémentation de cookies tiers d’Analytics par un client, le client effectue des appels uniquement vers Adobe, et non vers des domaines tiers inconnus ou suspects. Il s’agit de la méthode actuelle d’implémentation d’Analytics pour un suivi sécurisé (HTTPS) et fiable avec des identifiants persistants. Cette méthode est implémentée en configurant le fichier AppMeasurement.js. Pour plus d’informations, voir [Cookies et Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
+
+![Différences de cookies](assets/cookieimage.PNG)
 
 ## Comment les navigateurs stockent-ils et gèrent-ils actuellement les cookies Analytics ?
 
@@ -69,7 +71,7 @@ Dans le cas des navigateurs que Google a identifiés comme ne gérant pas correc
 Le tableau suivant récapitule les cookies Analytics :
 
 
-[Table de cookies Analytics]
+![Table de cookies Analytics](assets/cookie_table.png)
 
 
 ## Quel est le meilleur moyen de préparer mon site pour les modifications Chrome, Firefox et Edge ?
