@@ -5,7 +5,7 @@ title: Nouveautés d’Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -35,7 +35,7 @@ Nouvelles fonctionnalités et améliorations au 17 janvier 2019.
 | Fonctionnalité | Description |
 |--- |--- |
 | [Analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Les améliorations considérables apportées à l’analyse des cohortes vous permettent :<ul><li>d’appliquer à un segment des mesures d’inclusion et de retour de manière séparée ; </li><li>d’afficher l’attrition au lieu de la fidélisation ;</li><li>d’afficher les tables de latence (temps écoulé avant et après un évènement d’inclusion) ;</li><li>de personnaliser les dimensions des cohortes (vers des groupes de visiteurs basés sur une eVar et pas seulement sur une heure) ;</li><li>de calculer la rétention/la perte de clientèle sur la base de la période précédente et non de la cohorte d’origine ; </li><li>d’ajouter plusieurs mesures dans les champs d’inclusion et de retour, ainsi que d’appliquer des segments ; (Les mesures calculées ne sont pas prises en charge)</li></ul> |
-| [Densité d’affichage](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Le nouveau paramètre vous permet de voir plus de données sur un seul écran en réduisant l’espacement vertical du rail gauche, dans les tableaux à structure libre et dans les tableaux de cohortes. Accessible via Projet &gt; Informations et paramètres du projet. |
+| [Densité d’affichage](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Le nouveau paramètre vous permet de voir plus de données sur un seul écran en réduisant l’espacement vertical du rail gauche, dans les tableaux à structure libre et dans les tableaux de cohortes. Accessible via Projet > Informations et paramètres du projet. |
 | [Prise en charge de variables à valeurs multiples dans l’Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Certaines dimensions dans Analytics peuvent contenir plusieurs valeurs pour un seul accès, telles que les variables de liste (listVars), la variable product, les propriétés de liste (list props) ou l’eVar de marchandisage. Analysis Workspace vous permet d’appliquer l’Attribution IQ à n’importe quel type de ces variables au niveau de l’accès. |
 | Améliorations des performances | Amélioration de la vitesse de ventilation des visualisations : les projets comportant de nombreuses ventilations se chargeront plus rapidement. |
 
@@ -246,7 +246,7 @@ Nouvelles fonctionnalités et améliorations au 12 avril 2018.
    <td colname="col2"> <p>Un nouveau paramètre d’affichage appliqué aux graphiques à zones empilées, à barres empilées ou à barres horizontales empilées offre un aperçu « 100 % empilé » du diagramme, ce qui vous permet d’évaluer les proportions relatives. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  > La détection des anomalies et l’analyse des contributions </a> sont désormais uniquement disponibles dans Analysis Workspace. </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > La détection des anomalies et l’analyse des contributions </a> sont désormais uniquement disponibles dans Analysis Workspace. </p> </td> 
    <td colname="col2"> <p>La détection des anomalies et l’analyse des contributions ont été supprimées de l’ensemble de fonctionnalités Reports &amp; Analytics et sont désormais disponibles uniquement via Analysis Workspace. </p> <p>Remarque : les clients Adobe Analytics Select et Adobe Analytics Foundation ne profitent que d’une détection des anomalies « à granularité journalière » dans Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -901,7 +901,7 @@ Nouvelles fonctionnalités au 20 octobre 2016:
 
 Nouvelles fonctionnalités au 16 juin 2016 :
 
-* [Nouvelle autorisation de groupe](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) grâce à laquelle les administrateurs peuvent autoriser ou refuser l’accès à **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]** pour les utilisateurs. Depuis le 16 juin 2016, tous les utilisateurs ont accès à cet onglet. Pour refuser l’accès, il vous suffit de supprimer les utilisateurs du groupe Analysis Workspace Access (Accès à Analysis Workspace).
+* [Nouvelle autorisation de groupe](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) grâce à laquelle les administrateurs peuvent autoriser ou refuser l’accès à **[!UICONTROL Analytics]** >**[!UICONTROL  Espace de travail]** pour les utilisateurs. Depuis le 16 juin 2016, tous les utilisateurs ont accès à cet onglet. Pour refuser l’accès, il vous suffit de supprimer les utilisateurs du groupe Analysis Workspace Access (Accès à Analysis Workspace).
 * Le [Panneau Comparaison des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) détecte les différences les plus importantes sur le plan statistique entre deux segments, au moyen d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès.
 * [Nouvelle structure du menu Projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) : le menu supérieur est réorganisé et plus extensible. Par exemple, la création d’un **panneau de cohortes** nécessite maintenant de créer un panneau vierge et de le faire glisser dans une visualisation du tableau de cohortes.
 * [Nouveau rail de gauche](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) : panneaux, visualisations, composants
@@ -960,17 +960,17 @@ Nouvelles fonctionnalités au 21 janvier 2016.
 
 Vous pouvez désormais annuler la plupart des actions exécutées dans Analysis Workspace.
 
-Pour annuler, cliquez sur **[!UICONTROL Annuler]** dans le menu Action.
+Pour annuler, cliquez sur **[!UICONTROL Annuler]**dans le menu Action.
 
 ![](assets/undo.png)
 
 Vous pouvez également utiliser les [raccourcis clavier](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) Windows et Mac standard (ctrl ou cmd + z) pour Annuler.
 
-*`Undo`* est particulièrement utile lors de l’annulation de ventilations dans le tableau.
+*`Undo`*est particulièrement utile lors de l’annulation de ventilations dans le tableau.
 
-Actions *`not`* inutilisables :
+Actions *`not`*inutilisables :
 
-* La modification de la configuration d’un [!UICONTROL Tableau de cohortes] (telles que faire glisser des mesures ou changer des valeurs). En revanche, vous pouvez cliquer sur **[!UICONTROL Annuler]** après avoir cliqué sur **[!UICONTROL Exécuter]**.
+* La modification de la configuration d’un [!UICONTROL Tableau de cohortes] (telles que faire glisser des mesures ou changer des valeurs). En revanche, vous pouvez cliquer sur **[!UICONTROL Annuler]**après avoir cliqué sur**[!UICONTROL  Exécuter]**.
 
 * Le redimensionnement ou le déplacement des panneaux et sous-panneaux.
 
@@ -981,7 +981,7 @@ Actions qui suppriment votre historique des annulations :
 
 ## Lien vers ce projet {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-Dans un projet, cliquez sur **[!UICONTROL Lien vers ce projet]** depuis le menu Actions pour envoyer par courrier électronique une URL du projet enregistré à d’autres utilisateurs. Les destinataires peuvent modifier et enregistrer un projet partagé de la sorte. Sinon, ces projets sont en lecture seule.
+Dans un projet, cliquez sur **[!UICONTROL Lien vers ce projet]**depuis le menu Actions pour envoyer par courrier électronique une URL du projet enregistré à d’autres utilisateurs. Les destinataires peuvent modifier et enregistrer un projet partagé de la sorte. Sinon, ces projets sont en lecture seule.
 
 ![](assets/link-to-this-project.png)
 
@@ -1017,17 +1017,17 @@ Lorsque les dimensions couleur et taille sont corrélées d’une manière ou d�
 
 ## Fonction Enregistrer sous pour les segments, les mesures et les dates {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-Lorsque vous modifiez un segment (enregistré) existant dans le créateur de segments d’Analysis Workspace, cliquez sur **[!UICONTROL Enregistrer sous]** pour effectuer une copie.
+Lorsque vous modifiez un segment (enregistré) existant dans le créateur de segments d’Analysis Workspace, cliquez sur **[!UICONTROL Enregistrer sous]**pour effectuer une copie.
 
 ![](assets/segment-save-as.png)
 
 Le nouveau segment s’affiche dans le groupe [!UICONTROL Segments] du panneau [!UICONTROL Composants].
 
-*`Save As`* est également disponible pour le [!UICONTROL Créateur de mesures calculées] et le [!UICONTROL Créateur de plages de dates].
+*`Save As`*est également disponible pour le[!UICONTROL Créateur de mesures calculées]et le[!UICONTROL Créateur de plages de dates].
 
 ## Bouton Ajouter un nouveau segment {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-Ajout du bouton **[!UICONTROL Ajouter un nouveau segment]** à l’emplacement où vous faites glisser des segments sur un projet.
+Ajout du bouton **[!UICONTROL Ajouter un nouveau segment]**à l’emplacement où vous faites glisser des segments sur un projet.
 
 ![](assets/add-new-segment.png)
 
@@ -1075,13 +1075,13 @@ Dans le panneau du composant [!UICONTROL Dimension], vous pouvez placer le point
 
 ## Légende visible {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-Dans [!UICONTROL Paramètres de visualisation], l’option **[!UICONTROL Légende visible]** affiche ou masque la légende des visualisations.
+Dans [!UICONTROL Paramètres de visualisation], l’option **[!UICONTROL Légende visible]**affiche ou masque la légende des visualisations.
 
 ![](assets/legend-visible.png)
 
 ## Axe Y de l’ancre à zéro {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-Selon les chiffres des graphiques en courbes et des diagrammes de surface, la partie inférieure de l’axe des ordonnées (Y) peut ne pas être zéro. L’activation de l’option **[!UICONTROL Axe Y de l’ancre à zéro]** dans [!UICONTROL Paramètres de visualisation] force l’axe des ordonnées (Y) sur zéro pour une vue plus précise des tendances. Les exemples suivants présentent les modifications d’un diagramme des recettes en fonction de l’activation ou de la désactivation de ce paramètre.
+Selon les chiffres des graphiques en courbes et des diagrammes de surface, la partie inférieure de l’axe des ordonnées (Y) peut ne pas être zéro. L’activation de l’option **[!UICONTROL Axe Y de l’ancre à zéro]**dans[!UICONTROL Paramètres de visualisation]force l’axe des ordonnées (Y) sur zéro pour une vue plus précise des tendances. Les exemples suivants présentent les modifications d’un diagramme des recettes en fonction de l’activation ou de la désactivation de ce paramètre.
 
 **Option Axe Y de l’ancre à zéro désactivée**
 
@@ -1099,4 +1099,4 @@ Lors de l’enregistrement d’un projet, le titre sur l’onglet du navigateur 
 
 Les administrateurs peuvent transférer les projets [!UICONTROL Analysis Workspace] d’un utilisateur à un autre.
 
-Sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Gestion utilisateur]** &gt; **[!UICONTROL Transférer]** pour transférer des projets.
+Sélectionnez **[!UICONTROL Administration]** >**[!UICONTROL  Gestion utilisateur]** > **[!UICONTROL Transférer]**pour transférer des projets.
