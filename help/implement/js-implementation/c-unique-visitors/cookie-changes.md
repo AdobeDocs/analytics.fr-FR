@@ -18,11 +18,11 @@ En général, la plupart des navigateurs deviennent plus restrictifs quant à la
 
 La liste suivante répertorie quelques modifications récentes en fonction des navigateurs :
 
-* Chrome : A partir de Chrome 80, l’ `SameSite` attribut est géré différemment pour gérer les cookies tiers ou les requêtes intersites.
+* Chrome : A partir de Chrome 80, l’ `SameSite` attribut est géré différemment pour gérer les cookies tiers ou les requêtes intersites. En fin de compte, les développeurs Chrome cherchent des moyens d’ [abandonner complètement les cookies](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html?m=1) tiers.
 
 * Firefox et Edge : Les annonces de produits indiquent que les versions successives de leurs navigateurs doivent suivre les mêmes modifications que celles effectuées dans Chrome 80.
 
-* Safari: With [Safari 12.1](https://developer.apple.com/documentation/safari_release_notes/safari_12_1_release_notes), first party persistent cookies set through the document.cookie API, often known as “client-side” cookies, have their expiration capped at seven days.
+* Safari: With [Safari 12.1](https://webkit.org/blog/category/privacy/), first party persistent cookies set through the document.cookie API, often known as “client-side” cookies, have their expiration capped at seven days.
 
 ## Quelle est la différence entre les cookies tiers et les cookies propriétaires ?
 
@@ -40,17 +40,17 @@ En fonction de l’implémentation, les cookies Analytics sont stockés comme su
 
 ### Implémentations de cookies tiers
 
-Les navigateurs stockent actuellement l’ID Adobe [demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) sous forme de cookie tiers. Ce cookie fournit des identifiants persistants sur plusieurs domaines et permet d’obtenir du contenu sécurisé (https). Bien que d’autres cookies tiers puissent appeler de nombreux autres domaines, le cookie Adobe n’appelle qu’Adobe.
+Les navigateurs stockent actuellement l’ID Adobe [demdex.net](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/demdex-calls.html) sous forme de cookie tiers. Ce cookie fournit des identifiants persistants sur plusieurs domaines et permet d’obtenir du contenu sécurisé (https).
 
 ### Implémentations de cookies propriétaires
 
-En configurant un CNAME, votre utilisateur peut recevoir des cookies Adobe dans un contexte de cookies propriétaires pour ses navigateurs. Bien que cette implémentation ne prenne pas actuellement en charge https, elle le sera à l’avenir. Il peut s’agir d’une option viable si l’implémentation d’un cookie tiers n’est pas optimale pour vos utilisateurs.
+En configurant un CNAME, votre utilisateur peut recevoir des cookies Adobe dans un contexte de cookies propriétaires pour ses navigateurs. Il peut s’agir d’une option viable si l’implémentation d’un cookie tiers n’est pas optimale pour vos utilisateurs.
 
 ## Qu’est-ce que l’attribut de cookie MêmeSite et comment affecte-t-il Analytics ?
 
-Avec la sortie du navigateur Chrome 80 (et les versions successives des navigateurs Firefox et Edge), l’attribut de cookie MêmeSite offre trois manières différentes de contrôler le comportement des demandes intersites : `None`, `Lax`ou `Strict`
+Avec la sortie du navigateur Chrome 80 (et les versions successives des navigateurs Firefox et Edge), l’attribut de cookie MêmeSite applique la spécification de trois valeurs différentes pour contrôler le comportement des demandes intersites, comme suit :
 
-* `None`: Ce paramètre permet un accès intersite et permet la transmission de cookies propriétaires dans un contexte tiers. Pour spécifier cet attribut, vous devez également spécifier `Secure` et toutes les requêtes de navigateur doivent suivre HTTPS. Par exemple, lorsque vous définissez le cookie, vous associez les valeurs de l’attribut comme suit : `Set-Cookie: example_session=test12; SameSite=None; Secure`. S’ils ne sont pas correctement étiquetés, les cookies sont inutilisables pour les nouveaux navigateurs et seront rejetés.
+* `None`: Ce paramètre permet l’accès intersite et la transmission de cookies dans un contexte tiers. Pour spécifier cet attribut, vous devez également spécifier `Secure` et toutes les requêtes de navigateur doivent suivre HTTPS. Par exemple, lorsque vous définissez le cookie, vous associez les valeurs de l’attribut comme suit : `Set-Cookie: example_session=test12; SameSite=None; Secure`. S’ils ne sont pas correctement étiquetés, les cookies sont inutilisables pour les nouveaux navigateurs et seront rejetés.
 
 * `Lax`: Permet d’envoyer des requêtes intersites avec des cookies du même site uniquement pour les navigations de niveau supérieur avec des méthodes HTTP *sécurisées* (lecture seule, par exemple `GET`).
 
@@ -60,7 +60,7 @@ Le comportement par défaut dans ces versions de navigateur consiste à traiter 
 
 ## Comment Adobe Analytics réagit-il à ces modifications ?
 
-Toutes les mises à jour des cookies Adobe sont gérées par les serveurs Adobe et Adobe met à jour leurs serveurs Edge pour définir les attributs de cookies appropriés. Adobe publie des mises à jour côté serveur afin de définir leurs cookies tiers avec les attributs appropriés. Aucune mise à jour JavaScript n’est requise pour vos sites.
+Toutes les mises à jour des cookies Adobe sont gérées via les serveurs Adobe et Adobe a mis à jour leurs serveurs Edge afin de définir les attributs de cookies appropriés. Adobe a publié des mises à jour côté serveur pour définir leurs cookies tiers avec les attributs appropriés. Aucune mise à jour JavaScript n’est requise pour vos sites.
 
 Cette mise à niveau effectuée par les serveurs Edge d’Adobe se fera automatiquement lorsque les utilisateurs visitent un site Web sur lequel le cookie est utilisé. Pour la plupart des produits Adobe, les cookies disposent des indicateurs appropriés lorsque Chrome 80 est publié. L’exception concerne les implémentations d’Adobe Analytics qui utilisent la collecte de données tierces et qui n’utilisent pas le service d’identité Experience Cloud (ECID). Il se peut que ces clients connaissent une légère augmentation temporaire du nombre de nouveaux visiteurs qui auraient été autrement marqués comme visiteurs récurrents.
 
@@ -76,6 +76,8 @@ Le tableau suivant récapitule les cookies Analytics :
 
 Les clients Analytics doivent confirmer que leur configuration JavaScript utilise HTTPS pour leurs appels aux services Adobe. ECID redirige les appels HTTP tiers vers son point de terminaison HTTPS, ce qui peut augmenter la latence, mais vous n’êtes pas tenu de modifier votre configuration.
 
+Adobe vous conseille de vous assurer que toutes les pages de votre site sont diffusées avec HTTPS.
+
 ### Un CNAME pour plusieurs domaines
 
 Si vous avez une implémentation CNAME définie dans le même domaine que votre site Web, il s’agira d’un contexte de cookie propriétaire et vous n’avez pas besoin d’apporter des modifications.
@@ -84,11 +86,11 @@ Cependant, si vous possédez plusieurs domaines et utilisez le même CNAME pour 
 
 ## Quel est l’impact des modifications de Safari (ITP 2.1) pour Analytics ?
 
-Malgré les modifications apportées à Safari 12.1, les ensembles de données des cookies Adobe Experience Cloud sont toujours en cours de collecte. Bien que les cookies soient plafonnés à sept jours, les visiteurs qui reviennent sur votre propriété dans le délai imparti renouvellent le cookie et évitent son expiration pendant sept jours supplémentaires. Les fenêtres de recherche et le nombre de visiteurs récurrents peuvent être réduits pour le trafic Safari jusqu’à ce qu’une mise à jour Adobe soit disponible, ciblant la fin d’avril à mai 2019.
-
-Adobe développe, avec tout le monde dans le secteur, des mesures d’atténuation à court et à long terme.
+Malgré les modifications apportées à Safari 12.1, les ensembles de données des cookies Adobe Experience Cloud sont toujours en cours de collecte. Bien que les cookies soient plafonnés à sept jours, les visiteurs qui reviennent sur votre propriété dans le délai imparti renouvellent le cookie et évitent son expiration pendant sept jours supplémentaires. Les fenêtres de recherche et le nombre de visiteurs récurrents peuvent être réduits pour le trafic Safari jusqu’à ce qu’une mise à jour Adobe soit disponible.
 
 En raison de la durée d’expiration raccourcie de sept jours, les clients peuvent constater une augmentation du nombre de visiteurs uniques. Le nombre de visites et de pages vues ne doit pas être affecté. Si votre propriété a un trafic saisonnier, tel que les services fiscaux ou la vente au détail de vacances, vous pouvez constater un impact plus important car ce visiteur ne sera pas connecté entre les saisons.
+
+Si vous utilisez un CNAME, le service d’identification des visiteurs enregistre l’ECID dans un cookie propriétaire côté serveur. Cela permet au cookie de persister pendant toute sa durée.
 
 **Remarque : ITP 2.1 ne s’applique pas aux navigateurs intégrés dans les applications mobiles.**
 
@@ -103,7 +105,7 @@ Le `s_vi` cookie hérité Analytics en tant que cookie tiers, y compris les cibl
 
 Pour résumer :
 
-* Si vous utilisez le service d’identification des visiteurs — votre implémentation sera affectée de la manière décrite ci-dessus.
+* Si vous disposez d’un CNAME et utilisez le service d’identification des visiteurs — votre implémentation ne sera pas affectée.
 
 * Si vous utilisez un CNAME propriétaire dans le contexte propriétaire et n’utilisez pas le service d’identification des visiteurs — votre implémentation ne sera pas affectée.
 
@@ -116,6 +118,8 @@ Pour résumer :
 Les ensembles de données avec les visiteurs actifs qui reviennent fréquemment sont les moins affectés par les modifications. Si le contenu de votre site est tel que les clients reviennent tous les jours ou au moins deux fois par semaine, les cookies de ces utilisateurs actifs seront renouvelés avant leur expiration. Les réseaux sociaux, les actualités et les autres sites de médias sont plus susceptibles d’avoir de grandes communautés d’utilisateurs qui reviennent fréquemment.
 
 Les clients qui utilisent `s_vi` comme identifiant visiteur principal et sont configurés avec la collecte de données propriétaires à l’aide d’un CNAME ne seront pas affectés par ITP 2.1. Notez que dans les cas où `s_vi` il est impossible de définir le cookie de secours, `s_fid` il peut être utilisé et aura une expiration de sept jours.
+
+En outre, les jeux de données qui utilisent le service d’identification des visiteurs et possèdent un domaine propriétaire sont les moins affectés.
 
 ## Les modifications de Safari affecteront-elles mon entreprise ?
 
@@ -146,7 +150,7 @@ Selon [statcompteur](https://gs.statcounter.com/browser-market-share/all), à la
 
 À mesure que la part de marché évolue, vous pouvez consulter ces [statistiques](https://gs.statcounter.com/browser-market-share/all) pour examiner votre stratégie de mise en oeuvre.
 
-## Comment puis-je atténuer l&#39;impact de ITP 2.1 dans Safari à court terme ?
+## Comment puis-je travailler au mieux avec les modifications ITP 2.1 dans Safari à court terme ?
 
 Le CNAME d’Adobe et le programme de certificat géré sont utilisés pour gérer les modifications ITP. Le programme de certificat géré Adobe permet de mettre en œuvre un nouveau certificat propriétaire pour les cookies propriétaires, sans frais supplémentaires. Aujourd’hui, Adobe propose plusieurs services CNAME par solution et cherche à tirer parti du programme de certification Analytics à court terme.
 
