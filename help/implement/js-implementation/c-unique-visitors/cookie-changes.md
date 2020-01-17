@@ -3,7 +3,7 @@ description: Cookies Analytics
 title: FAQ sur les cookies du navigateur et d’Analytics
 uuid: null
 translation-type: tm+mt
-source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
+source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
 
 ---
 
@@ -71,7 +71,7 @@ Dans le cas des navigateurs que Google a identifiés comme ne gérant pas correc
 Le tableau suivant récapitule les cookies Analytics :
 
 
-![Table de cookies Analytics](assets/cookie_table.png)
+![Table de cookies Analytics](assets/cookietable.png)
 
 
 ## Quel est le meilleur moyen de préparer mon site pour les modifications Chrome, Firefox et Edge ?
