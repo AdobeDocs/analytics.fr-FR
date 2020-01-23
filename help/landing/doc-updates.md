@@ -3,7 +3,7 @@ title: Mises à jour de la documentation Adobe Analytics
 description: Mises à jour de la documentation technique pour Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6d7b23fb88ff76fef2897671c9a80323bea32128
+source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
 
 ---
 
@@ -20,7 +20,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Date | Description |
 |---|---|
-| 22 janvier 2020 | Mise à jour de la page du tableau à structure libre qui comprend le nouveau Générateur de tableau à structure [libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
+| 22 janvier 2020 | Mise à jour de la page Tableau à structure libre qui inclut des informations sur le nouveau Générateur de tableau à structure [libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
 | 29 novembre 2019 | Mise à jour de la documentation du flux de [données](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25 novembre 2019 | Nouvelle rubrique sur la [fin de vie pour l’application des restrictions d’identification par IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 25 novembre 2019 | Nouvelle rubrique sur le canal marketing [interne (actualisation de session)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
