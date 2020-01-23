@@ -5,12 +5,56 @@ title: Nouveautés d’Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 ---
 
 
 # Nouveautés d’Analysis Workspace
+
+## Janvier 2020
+
+Nouvelle fonctionnalité publiée le 16 janvier 2020.
+
+| Fonctionnalité | Description |
+|--- |--- |
+| [Créateur de tableau à structure libre](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Une fois le générateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques professionnelles plus complexes. Les données ne seront pas mises à jour immédiatement, mais après avoir cliqué sur **[!UICONTROL Créer]**, ce qui vous permet de gagner du temps une fois que vous savez quel tableau vous souhaitez construire. En outre, cette fonctionnalité offre les options suivantes :<ul><li>**Aperçu** : vous pouvez prévisualiser le format d’un tableau avant de passer du temps à générer des données réelles.</li><li>**Paramètres flexibles pour les rangées et la ventilation** : vous pouvez définir les niveaux de rangée et de ventilation pour chaque ligne de dimension. Auparavant, Workspace imposait des valeurs par défaut qui ne pouvaient pas être modifiées après le renvoi des données.</li><li>**Ventilation par position** : vous pouvez définir des rangées de dimension sur _ventilation par position_ et non _par élément spécifique_ (valeur par défaut).</li><li>**Agencement manuel des rangées statiques** : vous pouvez agencer manuellement les rangées statiques afin que les rangées du tableau s’affichent exactement comme vous en avez besoin. Auparavant, les lignes statiques pouvaient être triées uniquement par colonne de mesure ou par ordre alphabétique.</li></ul> |
+
+## Octobre 2019
+
+Améliorations publiées le 10 octobre 2019.
+
+| Amélioration | Description |
+|--- |--- |
+| Mise à jour des totaux des tableaux à structure libre | Les tableaux à structure libre comprennent désormais deux totaux, un **[!UICONTROL Total du tableau]**et un**[!UICONTROL  Total général]**. La ligne Total du tableau tient compte des [filtres de rapport](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) appliqués. Avant la mise à jour, seule la segmentation affectait les totaux. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>De plus, les options **[!UICONTROL Afficher les totaux]**et**[!UICONTROL  Afficher le total général]** ont été ajoutées aux **[!UICONTROL Paramètres des colonnes]**.<br/>Grâce à cette modification des totaux pour les tableaux à structure libre, les visualisations dépendantes sont mises à jour (par exemple, les visualisations**[!UICONTROL  Nombre de résumés]**), ainsi que les données CSV et PDF exportées. |
+| Option de suppression de Non spécifié/Aucun | La possibilité de supprimer facilement « Non spécifié (Aucun) » a été ajoutée en tant qu’option des filtres de rapport. |
+| Dépréciation des composants de granularité violette | Les composants temporels de granularité violets (minute, heure, jour, semaine, mois, trimestre, année) ont été abandonnés. Les composants temporels violets se sont toujours comportés exactement comme leurs homologues de dimension orange, ce changement simplifiera donc l’expérience. **Aucune action** n’est nécessaire si vous avez déjà utilisé l’un des composants temporels violets.<br/>Avec cette modification, la section **[!UICONTROL Heure]**violette a également été renommée en**[!UICONTROL  Plages de dates]**. |
+
+## Août 2019
+
+Amélioration publiée le 8 août 2019.
+
+| Amélioration | Description |
+|--- |--- |
+| Augmenter la limite d’élément du filtre déroulant de 50 à 200 | La limite des éléments pouvant être placés dans un filtre déroulant a été augmentée de 50 à 200. Cette amélioration prend en charge divers cas d’utilisation, tels que l’ajout à un filtre de tous les pays (195) ou de tous les États et provinces (52). |
+
+## Juillet 2019
+
+Améliorations publiées le 18 juillet 2019.
+
+| Amélioration | Description |
+|--- |--- |
+| Améliorations de l’analyse des cohortes | De nouveaux [paramètres d’analyse des cohortes](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) ont été ajoutés : <ul><li>Afficher uniquement le pourcentage</li><li>Arrondir le pourcentage à l’entier le plus proche</li><li>Afficher une ligne de pourcentage moyenne</li></ul> |
+| Afficher les éléments des 18 derniers mois | Dans le rail de gauche, les utilisateurs ont maintenant la possibilité d’_afficher les éléments des 18 derniers mois_. Auparavant, la période de recherche arrière était de 6 mois au maximum. Il est ainsi plus facilite d’effectuer une comparaison de pages ou de campagnes de l’année passée, jusqu’à 18 mois en arrière. |
+| Nouveau modèle Analysis Workspace | Un nouveau modèle appelé [Magento : Marketing et commerce](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) a été ajouté à Analysis Workspace. Il est destiné aux clients d’e-commerce Magento, mais tout détaillant peut l’utiliser pour obtenir des informations uniques sur ses activités commerciales. |
+
+## Juin 2019
+
+Amélioration publiée le 13 juin 2019.
+
+| Amélioration | Description |
+|--- |--- |
+| Nouveaux filtres prêts à l’emploi | Ajout de nouveaux filtres prêts à l’emploi dans la zone de recherche du rail gauche. Outre ce que vous voyez aujourd’hui (Dimensions, Mesures, Approuvé, etc.), de nouveaux filtres tels que Mesures calculées, Attributs du client, eVars, Props, Vidéo, etc. ont été ajoutés afin de faciliter la recherche des composants dont vous avez besoin. |
 
 ## Mai 2019
 
