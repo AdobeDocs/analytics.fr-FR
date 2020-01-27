@@ -2,7 +2,7 @@
 title: Traitement des suites de rapports virtuelles et des projets
 description: Découvrez comment traiter les composants et les projets des suites de rapports virtuelles
 translation-type: tm+mt
-source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
+source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
 
 Lorsque vous traitez des projets ou des suites de rapports virtuelles, vous excluez en fait les composants de façon à ce que l’audience voit uniquement les composants de projets/suites de rapports virtuelles (dimensions, mesures, segments et périodes) que vous voulez qu’elle utilise.
 
->[!Note] :
+>[!NOTE]
 >
 >Les profils de produit sont le mécanisme principal qui détermine les composants qu’un utilisateur peut voir. They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). Le traitement est un filtre secondaire.
 
