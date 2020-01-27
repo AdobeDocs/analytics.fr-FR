@@ -3,7 +3,7 @@ description: Cookies Analytics
 title: FAQ sur les cookies du navigateur et d’Analytics
 uuid: null
 translation-type: tm+mt
-source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
+source-git-commit: b25c052dee5ee22ca009cbe43356007210a06d19
 
 ---
 
@@ -34,7 +34,7 @@ Les cookies propriétaires sont créés par les sites Web des clients (propres �
 
 Les cookies tiers ne sont pas créés par les visiteurs de sites Web. Bien que les navigateurs traitent actuellement tous les cookies tiers de la même manière et les stockent en conséquence, les cookies tiers eux-mêmes peuvent se comporter différemment et de manière importante. Avec l’implémentation de cookies tiers d’Analytics par un client, le client effectue des appels uniquement vers Adobe, et non vers des domaines tiers inconnus ou suspects. Il s’agit de la méthode actuelle d’implémentation d’Analytics pour un suivi sécurisé (HTTPS) et fiable avec des identifiants persistants. Cette méthode est implémentée en configurant le fichier AppMeasurement.js. Pour plus d’informations, voir [Cookies et Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
-![Différences de cookies](assets/cookieimage.PNG)
+![](assets/cookies2.png)
 
 ## Comment les navigateurs stockent-ils et gèrent-ils actuellement les cookies Analytics ?
 
@@ -70,9 +70,7 @@ Dans le cas des navigateurs que Google a identifiés comme ne gérant pas correc
 
 Le tableau suivant récapitule les cookies Analytics :
 
-
-![Table de cookies Analytics](assets/cookietable.png)
-
+![](assets/cookies1.png)
 
 ## Quel est le meilleur moyen de préparer mon site pour les modifications Chrome, Firefox et Edge ?
 
