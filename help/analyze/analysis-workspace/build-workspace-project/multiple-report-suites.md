@@ -2,7 +2,7 @@
 title: Plusieurs suites de rapports dans Workspace
 description: Découvrez comment et pourquoi créer des projets dans Workspace avec plusieurs suites de rapports
 translation-type: tm+mt
-source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
@@ -22,7 +22,7 @@ Cette fonctionnalité est utile si vous souhaitez, par exemple,
 
 ## Panneau actif
 
-Cette fonctionnalité présente le concept de "panneau actif" par rapport à "panneau inactif". Le panneau actif est reconnaissable par la bordure bleue claire autour. Il suffit de cliquer à l’intérieur d’un panneau pour activer ce panneau.
+Cette fonctionnalité présente le concept de &quot;panneau actif&quot; par rapport à &quot;panneau inactif&quot;. Le panneau actif est reconnaissable par la bordure bleue claire autour. Il suffit de cliquer à l’intérieur d’un panneau pour activer ce panneau.
 
 >[!IMPORTANT]
 >Vous pouvez faire glisser des composants **uniquement dans le panneau** actif, même si d’autres panneaux possèdent la même suite de rapports. Si vous souhaitez modifier le panneau tout en le faisant glisser et en le déposant, vous pouvez utiliser un raccourci : appuyez sur `shift` la touche lorsque vous faites glisser le curseur pour transformer un panneau inactif en panneau actif.
@@ -43,12 +43,12 @@ Cette fonctionnalité présente le concept de "panneau actif" par rapport à "pa
 
 
    >[!NOTE]
-   >Il arrive qu’un message "Suite de rapports incompatible" s’affiche lors du chargement d’un projet (ou lors du passage à une suite de rapports) lorsque tous les composants inclus dans le projet ne sont pas inclus dans la suite de rapports. Les composants manquants sont répertoriés. Suivez [ces instructions](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) pour définir les autorisations sur les mesures/dimensions requises.
+   >Il arrive qu’un message &quot;Suite de rapports incompatible&quot; s’affiche lors du chargement d’un projet (ou lors du passage à une suite de rapports) lorsque tous les composants inclus dans le projet ne sont pas inclus dans la suite de rapports. Les composants manquants sont répertoriés. Suivez [ces instructions](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) pour définir les autorisations sur les mesures/dimensions requises.
 
    ![](assets/incompat-rs.png)
 
-   1. Vous disposez de 3 options pour gérer cette incompatibilité :
-   * Poursuivez avec certains composants manquants.
+   Vous disposez de 3 options pour gérer cette incompatibilité :
+   * Poursuivez avec certains composants manquants. Cela n’entraînera aucune donnée pour ces composants et/ou des visualisations vides.
    * Annuler.
    * Modifier la suite de rapports.
 
@@ -58,6 +58,6 @@ Cette fonctionnalité présente le concept de "panneau actif" par rapport à "pa
 
 1. (Facultatif) Vous pouvez également accéder à d’autres créateurs de composants Analytics et vous assurer qu’ils affichent désormais une étiquette de suite de rapports indiquant
 
-   * Emplacement de création d’un segment (Créateur de segments).
-   * Emplacement de création d’une mesure calculée (créateur de mesures calculées).
-   * Emplacement de création d’une alerte (Générateur d’alertes).
+   * Emplacement de création d’un segment : Créateur [de segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Où une mesure calculée sera créée : Créateur [de mesures](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)calculées.
+   * Où une alerte sera créée : Générateur [d’alertes](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
