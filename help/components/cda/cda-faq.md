@@ -1,8 +1,8 @@
 ---
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
-translation-type: ht
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -35,7 +35,7 @@ Adobe traite les accès horodatés comme s’ils avaient été reçus au moment 
 
 **De quelle manière les analyses entre appareils se comparent-elles à l’identifiant visiteur personnalisé ?**
 
-[L’identifiant visiteur personnalisé](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) est une méthode héritée qui permet de [connecter des utilisateurs sur plusieurs périphériques](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md). Avec un identifiant visiteur personnalisé, vous utilisez la variable `s.visitorID` pour définir explicitement l’identifiant utilisé pour la logique du visiteur. La variable `s.visitorID` remplace les éventuels identifiants basés sur les cookies en présence. Pour plus d’informations, reportez-vous à la section [Identification des visiteurs uniques](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) dans le guide de l’utilisateur Mise en œuvre.
+[L’identifiant visiteur personnalisé](/help/implement/vars/config-vars/visitorid.md) est une méthode héritée qui permet de [connecter des utilisateurs sur plusieurs périphériques](/help/implement/js/xdevice-visid/xdevice-connecting.md). Avec un identifiant visiteur personnalisé, vous utilisez la variable `s.visitorID` pour définir explicitement l’identifiant utilisé pour la logique du visiteur. La variable `s.visitorID` remplace les éventuels identifiants basés sur les cookies en présence.
 
 Les identifiants visiteur personnalisés ont un certain nombre d’effets secondaires indésirables que les analyses entre appareils est en mesure de surmonter ou de minimiser. Par exemple, la méthodologie d’identifiant visiteur personnalisé ne comporte aucune fonctionnalité de recherche en amont. Si un utilisateur s’authentifie au milieu d’une visite, la première partie de la visite s’associe à un autre identifiant visiteur que celui de la seconde partie de la visite. Les identifiants visiteur séparés génèrent un gonflement des visites et des visiteurs. L’intervalle de recherche en amont de 30 jours des analyses entre appareils lui permet de revenir dans le temps pour indiquer à nouveau que le comportement antérieur appartient à la même personne, en associant le comportement non authentifié entre appareils à un comportement authentifié entre périphériques avec une inflation nulle ou minimale.
 
