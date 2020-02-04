@@ -2,14 +2,14 @@
 title: getTimeToComplete
 description: Mesurez le temps nécessaire pour terminer une tâche.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe : getTimeToComplete
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `getTimeToComplete` module externe effectue le suivi du temps nécessaire à un utilisateur pour terminer un processus sur un site. L’horloge commence lorsque l’ `start` action est appelée et se termine lorsque l’ `stop` action est appelée. Adobe conseille d’utiliser ce module externe s’il existe un flux de travail sur le site qui prend du temps et que vous souhaitez savoir combien de temps les visiteurs passent pour le terminer. Il n’est pas nécessaire d’utiliser ce plug-in si le processus sur votre site prend un court laps de temps (moins de 3 secondes), car la granularité est réduite à la seconde complète.
 
