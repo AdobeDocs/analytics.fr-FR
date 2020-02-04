@@ -2,7 +2,7 @@
 title: Création d’un document de conception de solution
 description: Découvrez ce qu’est un document de conception de solution et comment l’utiliser dans votre entreprise.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -13,7 +13,7 @@ Un document de conception de solution (également connu sous le nom de document 
 
 ## Conditions préalables
 
-[Validez votre mise en œuvre Analytics et publiez-la en production](../implement-with-launch/validate-publish-prod.md) - Bien qu’elle ne soit pas directement requise, Adobe conseille de mettre en place une mise en œuvre de base afin de collecter des données importantes, tout en définissant et en implémentant d’autres besoins opérationnels.
+[Validez votre mise en œuvre Analytics et publiez-la en production](../launch/validate-publish-prod.md) - Bien qu’elle ne soit pas directement requise, Adobe conseille de mettre en place une mise en œuvre de base afin de collecter des données importantes, tout en définissant et en implémentant d’autres besoins opérationnels.
 
 ## Propriété et emplacement du document de conception
 
@@ -41,14 +41,6 @@ Lors de la détermination des données à collecter, il est facile de dire « t
 La définition d’un document de conception de solution est un projet assez complexe, surtout pour les organisations qui n’en avaient pas encore créé. Si vous avez besoin d’une assistance supplémentaire, Adobe fournit des services de conseil spécialisés pour aider votre organisation à exécuter Adobe Analytics. Contactez votre gestionnaire de compte si vous souhaitez bénéficier des services professionnels d’Adobe. Vous pouvez remplir un [questionnaire technique préalable à l’implémentation](assets/technical-pre-implementation-questionnaire.pdf) afin qu’Adobe sache exactement comment vous aider en fonction des besoins de votre organisation.
 
 Plusieurs partenaires Adobe se spécialisent également dans la création d’un document de conception de solution, ainsi que dans la mise en œuvre d’Adobe Analytics sur votre site.
-
-> [!NOTE] Bien que les membres de la communauté Analytics aient trouvé les liens suivants utiles, ils ne sont pas la propriété d’Adobe. Tenez compte de cette remarque lorsque vous affichez leur contenu.
-
-* [7 étapes pour configurer la conception](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) de votre solution Web Analytics par ObservePoint
-* [Démystification d’une structure pour le processus](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) Digital Analytics par Analytics
-* [La référence de conception de la solution est en fait votre fichier BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) par Analyses numériques
-* [Comment créer une carte](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) de balisage Adobe Analytics par Antti Koski
-* [L'importance du document](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) de conception de la solution par l'équité
 
 ## Étapes suivantes
 
