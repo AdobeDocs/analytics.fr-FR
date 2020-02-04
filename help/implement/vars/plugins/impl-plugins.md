@@ -1,105 +1,35 @@
 ---
-description: Les modules externes AppMeasurement pour JavaScript sont des programmes ou des fonctions qui effectuent plusieurs fonctions avancées.
-keywords: Analytics Implementation
-subtopic: Plug-ins
-title: Utilisation des modules d’implémentation
-topic: Developer and implementation
-uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
+title: Présentation des plug-ins
+description: Collez le code sur votre site pour introduire de nouvelles fonctionnalités.
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
-# Utilisation des modules d’implémentation
+# Présentation des plug-ins
 
-Les plug-ins sont des fragments de code qui exécutent plusieurs fonctions avancées pour faciliter la mise en oeuvre d’Analytics.
+Les plug-ins sont des fragments de code qui exécutent plusieurs fonctions avancées pour faciliter la mise en oeuvre d’Analytics. Ces modules externes étendent les capacités de votre fichier JavaScript en apportant des fonctionnalités qui ne sont pas disponibles avec l’implémentation de base. Adobe propose de nombreux autres modules dans le cadre de solutions avancées.
 
-Ces modules externes étendent les capacités de votre fichier JavaScript en apportant des fonctionnalités qui ne sont pas disponibles avec l’implémentation de base. Adobe propose de nombreux autres modules dans le cadre de solutions avancées. Contactez votre gestionnaire de compte si vous souhaitez capturer des données à l’aide de JavaScript, mais ne savez pas comment procéder.
+> [!IMPORTANT] Les plug-ins sont fournis par Adobe Consulting à titre gracieux pour vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit aucune assistance pour ces modules externes, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur un module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-JavaScript plug-ins are usually called by the doPlugins function, which is executed when the `t` method is called in the Code to Paste.
+Adobe propose plusieurs méthodes pour installer un module externe donné :
 
-Par conséquent, si vous définissez une variable dans la fonction *`doPlugins`*, vous risquez d’en remplacer une que vous avez définie sur la page HTML. La seule fois où la fonction*`doPlugins`* n’est pas appelée est lorsque la variable [!UICONTROL usePlugins] est définie sur « false ».
+1. Utilisation de l’extension Common Analytics Plugins à l’aide d’Adobe Experience Platform Launch
+2. Coller le code du module externe à l’aide de l’éditeur de code personnalisé Lancer
+3. Collez le code du module externe dans votre `AppMeasurement.js` fichier
 
-## Exemple de code {#section_6940FD16F2E94753A1C39694D0CF5FBA}
+Chaque organisation a des besoins d’implémentation différents. Vous pouvez donc décider de la manière dont vous souhaitez les inclure dans votre implémentation. Veillez à respecter les critères suivants lorsque vous incluez le code sur votre site :
 
-L’exemple de code ci-dessous montre à quoi ressemble la fonction *`doPlugins`*dans votre fichier JavaScript :
+1. Instanciez d’abord l’objet de suivi Analytics (à l’aide `s_gi`).
+   * Lancer instancie automatiquement l’objet de suivi au chargement d’Adobe Analytics.
+   * Implémentations utilisant `AppMeasurement.js` généralement l’initialisation de l’objet de suivi en haut du fichier JavaScript.
+2. Insérez le code du module externe en deuxième.
+   * L’extension &quot;Plugins Analytics communs&quot; dispose d’une configuration d’action dans laquelle vous pouvez initialiser les plug-ins.
+   * Si vous ne souhaitez pas utiliser le module externe, vous pouvez coller le code du module dans l’éditeur de code personnalisé lors de la configuration de l’extension Analytics.
+   * Si votre implémentation n’utilise pas le paramètre Lancer, vous pouvez coller le code du module externe n’importe où `AppMeasurement.js` après avoir appelé l’objet de suivi.
+3. Appelez le module externe tiers.
+   * Toutes les implémentations, à l’intérieur et à l’extérieur de Launch, utilisent JavaScript pour appeler des modules externes. Appelez le module externe au format indiqué sur la page de ce module.
+4. Validez votre mise en oeuvre et publiez-la.
 
-AppMeasurement pour JavaScript:
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-s.doPlugins=function(s) {
- /* Add calls to plug-ins here */
-}
-```
-
-Code H :
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-function s_doPlugins(s) {
- /* Add calls to plug-ins here */
-}
-s.doPlugins=s_doPlugins
-```
-
-> [!NOTE] Le code H et les versions antérieures utilisent une syntaxe différente pour la prise en charge de navigateurs très anciens (tels que Microsoft IE 4 et 5).
-
-## Changement du nom de la fonction doPlugins {#section_70B7D58E057B48058E25907AB3726725}
-
-La fonction *`doPlugins`*est généralement appelée*`s_doPlugins`*. Dans certains cas (en général, lorsque plusieurs versions du code peuvent apparaître sur une seule page), il se peut que le nom de la fonction *`doPlugins`*soit modifié. S’il s’avère nécessaire de renommer la fonction*`doPlugins`* standard pour éviter des conflits, attribuez-lui le nom de fonction correct *`doPlugins`*, comme illustré ci-dessous.
-
-```js
-/* Plugin Config */
-s_mc.usePlugins=true
-function s_mc_doPlugins(s_mc) {
- /* Add calls to plug-ins here */
-}
-s_mc.doPlugins=s_mc_doPlugins
-```
-
-## Utilisation de la fonction doPlugins {#section_FA5D901CC5214D54BCD08AB77BED7925}
-
-La fonction *`doPlugins`*permet d’attribuer facilement des valeurs à des variables ou d’extraire des valeurs de[!UICONTROL paramètres de chaîne de requête]sur n’importe quelle page du site. L’utilisation de*`doPlugins`* se révèle généralement plus facile que de renseigner des valeurs dans la page HTML, dans la mesure où un seul fichier doit être mis à jour. Gardez à l’esprit que les modifications apportées au fichier JavaScript sont parfois différées. Les visiteurs récurrents sur votre site utilisent souvent des versions en cache du fichier JavaScript. Il se peut donc que les mises à jour du fichier ne soient pas appliquées immédiatement à tous les visiteurs ; il peut parfois s’écouler un mois avant leur application.
-
-L’exemple suivant illustre l’utilisation de la fonction *`doPlugins`*pour définir une valeur par défaut pour une variable et pour obtenir une valeur à partir de la chaîne de requête.
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-s.doPlugins=function(s) {
- /* Add calls to plug-ins here */
- // if prop1 doesn't have a value, set it to "Default Value"
- if(!s.prop1)
-s.prop1="Default Value"
-
- // if campaign doesn't have a value, get cid from the query string
- if(!s.campaign)
-s.campaign=s.getQueryParam('cid');
-
-// Note: The code to read query parameters is different for
-// Appmeasurement for JavaScript since a plug-in is not required:
-// s.campaign=s.Util.getQueryParam('cid');
-}
-```
-
-## Modules externes installés {#section_C5494347D85940A78670032199787CD0}
-
-Pour déterminer si un module externe est inclus dans votre fichier JavaScript et est prêt à l’emploi, accédez à la section [!UICONTROL Plugins Section] du fichier JavaScript. L’exemple suivant illustre la fonction [!UICONTROL getQueryParam].
-
-```js
-/************************** PLUGINS SECTION *************************/
-/* You may insert any plug-ins you wish to use here.                 */
-/*
- * Plugin: getQueryParam 1.3 - Return query string parameter values
- */
-s.getQueryParam=new Function("qp","d",""
-+"var s=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l"
-//
-// ... more code below ...
-//
-```
-
+De nombreuses organisations appellent des plug-ins à l’aide de la [`doPlugins`](../functions/doplugins.md) fonction. Bien que cette fonction ne soit pas requise, Adobe considère qu’il est préférable de l’utiliser. AppMeasurement appelle cette fonction juste avant de compiler et d’envoyer une demande d’image, ce qui est idéal car plusieurs plug-ins dépendent d’autres variables Analytics.
