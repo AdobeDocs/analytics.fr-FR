@@ -2,14 +2,14 @@
 title: getAndPersistValue
 description: Stockez une valeur qui peut être récupérée ultérieurement à tout moment.
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe : getAndPersistValue
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `getAndPersistValue` module externe vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle similaire à la fonction de durée [!UICONTROL de] stockage dans Adobe Experience Platform Launch. Adobe conseille d’utiliser ce module externe si vous souhaitez conserver automatiquement une variable Analytics à la même valeur dans les accès suivants une fois la variable définie. Ce module externe n’est pas nécessaire si la fonction de durée [!UICONTROL de] stockage de Launch est suffisante ou si vous n’avez pas besoin de définir et de conserver des variables avec la même valeur dans les accès suivants. La persistance intégrée des eVars ne nécessite pas l’utilisation de ce module externe, car ces variables persistent côté serveur par Adobe.
 
