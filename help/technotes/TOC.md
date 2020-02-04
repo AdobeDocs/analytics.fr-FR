@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
+source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
 
@@ -30,11 +30,15 @@ source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 + [Latence](latency.md)
 + [Valeur de faible trafic](low-traffic.md)
 + [Confidentialité - Aperçu](privacy-overview.md)
++ [Redirections et alias](redirects.md)
 + Collecte de données régionales {rdc}
    + [Aide sur la collecte de données régionales](rdc/regional-data-collection.md)
    + [Caractéristiques d’environnement](rdc/rdc-environment-characteristics.md)
    + [Obtention de certificat SSL](rdc/ssl-cert-licensing.md)
 + [Termes utilisés (glossaire)](terms.md)
++ [Horodatages facultatifs](timestamps-optional.md)
 + [Résolution des problèmes de connexion](troubleshoot-login.md)
 + [Résolution des problèmes de déconnexion](troubleshoot-sessions.md)
-+ [Non spécifié, Autre et Inconnu](unspecified.md)
++ [Non spécifié, autre et inconnu](unspecified.md)
++ [Identification des visiteurs](visitor-identification.md)
++ [Migration des visiteurs](visitor-migration.md)
