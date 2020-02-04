@@ -4,7 +4,7 @@ title: Questions fréquentes sur Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -66,7 +66,7 @@ R : Certains liens avec classement peuvent être masqués sur la page (par exem
 
 **Q : Pourquoi les données de clic sur les liens ne sont-elles pas collectées lors de l’exécution d’Activity Map ?**
 
-R : Lors de l’utilisation d’Activity Map, les données de clic sur les liens ne sont pas collectées par la balise Analytics. Ce comportement est identique à celui du module Carte des clics.
+R : Lors de l’utilisation d’Activity Map, les données de clic sur les liens ne sont pas collectées par la balise Analytics. Ce comportement est conforme au comportement du module ClickMap.
 
 **Q : Pourquoi le menu déroulant des mesures répertorie-t-il la même mesure plusieurs fois ?**
 
@@ -86,7 +86,7 @@ Cependant, il est important de noter que le rapport obtenu dans Rapports et anal
 
 R : Par défaut, Activity Map utilise la suite de rapports associée à la première balise envoyée par la page.
 
-Vous pouvez sélectionner une suite de rapports balisée différente dans l’onglet Paramètres d’Activity Map &gt; Autres.
+Vous pouvez sélectionner une suite de rapports balisée différente dans l’onglet Paramètres d’Activity Map > Autres.
 
 **Q : Pendant combien de temps Activity Map analyse-t-elle la balise Analytics ?**
 
@@ -120,7 +120,7 @@ Un message d’avertissement s’affiche et indique que vous devez (/home/analyz
 
 *Page web avec balise Analytics compatible (AppMeasurement version 1.6 ou ultérieure), mais la création de rapports d’Activity Map n’a pas été activée dans les outils d’administration*
 
-Un message d’avertissement s’affiche et indique que vous devez demander à votre administrateur d’\[Activer les rapports d’Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
+Un message d’avertissement s’affiche et indique que vous devez demander à votre administrateur d’\[Activer les rapports d’Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
 
 **Q : Puis-je exporter les données d’Activity Map (contextData) par l’intermédiaire du[flux de données Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) ?**
 
