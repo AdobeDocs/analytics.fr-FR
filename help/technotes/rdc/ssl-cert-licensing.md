@@ -1,22 +1,24 @@
 ---
 title: Licences de certificat SSL
-description: null
+description: Procédures de certificat pour les certificats gérés par le client
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
 
 
-# Licences de certificat SSL
+# Licence de certificat SSL/TLS
 
-Si vous utilisez des cookies propriétaires et mesurez du trafic sécurisé, vous devez fournir suffisamment de licences de certificat SSL pour prendre en charge la mise en œuvre de la collecte de données régionale.
+Adobe recommande de gérer votre certificat sans frais supplémentaires via le programme [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).  Le programme Adobe Managed Certificate est entièrement automatisé et garantit que les certificats sont renouvelés en temps voulu afin de ne pas avoir d’incidence en raison de certificats expirés.
 
-Vos licences de certificat SSL doivent permettre une installation sur 10 serveurs au maximum.  Ces certificats sont installés sur des équilibreurs de charge à travers le monde. À mesure qu’Adobe ajoute d’autres centres de collecte de données en ligne, les besoins en matière de certificat changent. L’évolution de vos besoins en matière de licences de certificat dépend du type de licence dont vous disposez :
+Si vous choisissez de ne pas utiliser le programme [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) , vous devez fournir un certificat SSL/TLS à utiliser pour les cookies propriétaires.
 
-* Licences de serveur : les besoins en matière de licence pour les déploiements de la collecte de données régionale s’accroissent au fil du temps.
-* Licences en volume : les modifications d’infrastructure n’ont pas d’incidence sur les besoins en matière de licence. Vos besoins évoluent uniquement à mesure que le volume du trafic change au fil du temps.
-* Licences illimitées : les besoins en matière de licence doivent rester relativement stables au fil du temps.
+Si vous fournissez vos propres certificats SSL, il vous incombe de les acheter et de les gérer.  Votre certificat SSL/TLS doit inclure une licence serveur illimitée.
 
-Si vous fournissez vos propres certificats SSL, il vous incombe de les acheter et de les gérer. Vérifiez le contrat du fournisseur de certificats pour vous assurer que les certificats SSL peuvent être installés dans plusieurs centres de données.
+Pour garantir la sécurité des certificats, obtenez une demande de signature de certificat [CSR] auprès d’Adobe et demandez à votre autorité de certification de signer le certificat.  Fournissez à Adobe le certificat signé pour l’implémentation.  En suivant ce processus, la sécurité de la clé du certificat est conservée.  Le service à la clientèle Adobe vous aidera dans ce processus.
 
-Vous pouvez aussi faire appel à Adobe pour la gestion de vos certificats sans frais supplémentaires par le biais du programme [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).
+Dans le cadre de la maintenance des certificats, au moins un mois avant l’expiration de votre certificat, demandez à votre autorité de certification d’obtenir un certificat renouvelé et de le fournir à Adobe.  Ce certificat doit utiliser le même CSR utilisé précédemment.  Contactez Adobe si vous avez besoin d’une copie du fichier CSR ou si vous souhaitez qu’un nouveau fichier CSR soit généré avec une nouvelle clé.
+
+Le service à la clientèle peut être contacté à l’adresse customercare@adobe.com ou au 1-800-497-0335.
+
+Les autorités de certificats couramment utilisées sont DigiCert, Comodo et GeoTrust.
