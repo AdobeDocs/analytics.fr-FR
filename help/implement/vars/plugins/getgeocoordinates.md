@@ -2,14 +2,14 @@
 title: getGeoCoordinates
 description: Assurez le suivi de la géolocalisation d’un visiteur.
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe :getGeoCoordinates
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `getGeoCoordinates` module externe vous permet de capturer la latitude et la longitude des périphériques des visiteurs. Adobe recommande d’utiliser ce module externe si vous souhaitez capturer des données de géolocalisation dans des variables Analytics.
 
