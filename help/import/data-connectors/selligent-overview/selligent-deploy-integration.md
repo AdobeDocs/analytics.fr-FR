@@ -3,7 +3,7 @@ description: Le déploiement de cette intégration est un processus simple en tr
 title: Déploiement de l’intégration
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Le déploiement de cette intégration est un processus simple en trois étapes.
 
-## Fin de l'Assistant d'intégration{#completing-the-integration-wizard}
+## Fin de l&#39;Assistant d&#39;intégration{#completing-the-integration-wizard}
 
 Pour activer l’intégration, vous devez exécuter l’assistant d’intégration sélective dans l’interface des connecteurs de données.
 
@@ -26,9 +26,9 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
 
    Cela ouvrira l’intégration du connecteur de données sélectif.
 
-1. **Paramètres** d’intégration : Choisissez une suite de rapports et nommez l’intégration sous Paramètres **[!UICONTROL d’]** intégration.
+1. **Paramètres** d’intégration : Choisissez une suite de rapports et nommez l’intégration sous Paramètres **[!UICONTROL d’]**intégration.
 
-1. Sous Valeurs **** personnalisées, renseignez toutes vos informations de compte sélectif.
+1. Sous Valeurs ****personnalisées, renseignez toutes vos informations de compte sélectif.
 
    ![](assets/selligent-general_settings.png)
 
@@ -36,11 +36,11 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
 
    ![](assets/selligent-variables.png)
 
-1. **Paramètres** des données : Vous pouvez choisir vos propres segments sous **[!UICONTROL Vos segments]** , à l’exception des trois segments automatisés **[!UICONTROL du partenaire]** .
+1. **Paramètres** des données : Vous pouvez choisir vos propres segments sous **[!UICONTROL Vos segments]**, à l’exception des trois segments automatisés**[!UICONTROL  du partenaire]** .
 
-1. Cette intégration peut nécessiter le téléchargement de quelques points de données vers votre compte sélectif. Vous pouvez choisir d’autoriser l’accès pour la même personne sous Demande **[!UICONTROL d’]** accès.
-1. Sous Collecte **[!UICONTROL de]** données, choisissez une solution automatisée ou manuelle (module externe JavaScript) pour collecter les paramètres de chaîne de requête à partir de l’URL de la page d’entrée. Si vous choisissez une solution automatisée, entrez le paramètre de chaîne de requête pour l’ID de message et l’ID de destinataire, respectivement MID et RID. Pour le module externe JavaScript, contactez votre consultant Adobe.
-1. **Paramètres** du rapport : Sous Génération **[!UICONTROL de]** tableau de bord, cochez la case pour que le tableau de bord Sigligent soit automatiquement généré.
+1. Cette intégration peut nécessiter le téléchargement de quelques points de données vers votre compte sélectif. Vous pouvez choisir d’autoriser l’accès pour la même personne sous Demande **[!UICONTROL d’]**accès.
+1. Sous Collecte **[!UICONTROL de]**données, choisissez une solution automatisée ou manuelle (module externe JavaScript) pour collecter les paramètres de chaîne de requête à partir de l’URL de la page d’entrée. Si vous choisissez une solution automatisée, entrez le paramètre de chaîne de requête pour l’ID de message et l’ID de destinataire, respectivement MID et RID. Pour le module externe JavaScript, contactez votre consultant Adobe.
+1. **Paramètres** du rapport : Sous Génération **[!UICONTROL de]**tableau de bord, cochez la case pour que le tableau de bord Sigligent soit automatiquement généré.
 
    ![](assets/selligent-report_settings.png)
 
@@ -60,11 +60,11 @@ Nous vous recommandons vivement de déplacer le paramètre de suivi pour Adobe A
 
 Une fois toutes les étapes du déploiement terminées, vous pouvez vérifier que l’intégration réussit à transférer des données.
 
-L'échange de données prendra quelques jours. Assurez-vous de contacter Selligent après avoir activé l’intégration.
+L&#39;échange de données prendra quelques jours. Assurez-vous de contacter Selligent après avoir activé l’intégration.
 
 ### Journal d’activité d’intégration {#section-927e270495db479fba9578915d9ae9c9}
 
-Accédez à votre intégration sélective dans les connecteurs de données. Sous l’onglet **[!UICONTROL Assistance]** , vous devriez voir des événements tels que Données de mesure importées et/ou Données de classification importées avec succès :
+Accédez à votre intégration sélective dans les connecteurs de données. Sous l’onglet **[!UICONTROL Assistance]**, vous devriez voir des événements tels que Données de mesure importées et/ou Données de classification importées avec succès :
 
 ![](assets/selligent-verifying.png)
 
@@ -74,4 +74,4 @@ Affichez vos rapports de messages intelligents avec les mesures appropriées.
 
 1. Accédez à Rapports et analyses sous Adobe Experience Cloud.
 1. Sélectionnez la suite de rapports appropriée.
-1. Sous Conversion **** personnalisée, sélectionnez les rapports **[!UICONTROL d’ID de]** message et choisissez ID de **[!UICONTROL message/Nom]** du message.
+1. Sous Conversion ****personnalisée, sélectionnez les rapports**[!UICONTROL  d’ID de]** message et choisissez ID de **[!UICONTROL message/Nom]**du message.
