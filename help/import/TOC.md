@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: utilisateur final
-user-guide-title: Guide de mise en œuvre d’Analytics
-user-guide-url: /content/help/fr-FR/analytics/import/home.html
+audience: end-user
+user-guide-title: Analytics Import Guide
+user-guide-url: /content/help/en/analytics/import/home.html
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
 
@@ -74,6 +74,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
       + [Rapports Analytics utilisant des données DFA](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
       + [Rapprochement des écarts de mesures](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
       + [Questions fréquentes](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
+      + [Délai maximal](data-connectors/dfa-data-connector-analytics/maxdelay.md)
    + DreamMail Data Connector for Adobe Analytics {#dreammail}
       + [Connecteur de données DreamMail pour Adobe Analytics](data-connectors/dreammail-overview/dreammail-overview.md)
       + [Activer l’intégration](data-connectors/dreammail-overview/t-dreammail-activate.md)
