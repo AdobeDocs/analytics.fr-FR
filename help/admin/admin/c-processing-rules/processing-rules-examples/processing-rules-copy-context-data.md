@@ -5,7 +5,7 @@ title: Copier une variable de données contextuelles dans une eVar
 topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -28,4 +28,4 @@ L’exemple suivant renseigne `prop7` avec la variable de données contextuelles
 
 ![Conditionnel](assets/add-conditional.png)
 
-Pour plus d’informations sur l’implémentation des variables de données contextuelles, reportez-vous à [Variables de données contextuelles](/help/implement/js-implementation/c-variables/context-data-variables.md) dans le guide de l’utilisateur Mise en œuvre.
+Pour plus d’informations sur l’implémentation des variables de données contextuelles, reportez-vous à [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) dans le guide de l’utilisateur Mise en œuvre.
