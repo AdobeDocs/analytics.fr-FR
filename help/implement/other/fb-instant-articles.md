@@ -1,0 +1,90 @@
+---
+title: Implémentation avec des Instant Articles de Facebook
+description: Implémentez Adobe Analytics sur les pages Instant Article de Facebook.
+translation-type: tm+mt
+source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+
+---
+
+
+# Implémentation avec des Instant Articles de Facebook
+
+Les Instant Articles de Facebook permettent aux éditeurs de créer rapidement des articles interactifs sur Facebook. Ils peuvent charger le contenu jusqu’à dix fois plus rapidement que le web mobile.
+
+Vous pouvez incorporer Adobe Analytics aux Instant Articles de Facebook pour suivre le comportement des visiteurs. Le contenu de l’éditeur se trouvant dans l’application Facebook et non sur les sites Web de l’éditeur, l’approche du balisage diffère légèrement de celle d’une implémentation Analytics standard.
+
+## Workflow
+
+Le processus global de mise en oeuvre d’Adobe Analytics est le suivant :
+
+1. Créez une `stats.html` page. Code cette page pour extraire les paramètres de chaîne de requête de l’URL et affecter chaque paramètre à une variable Analytics
+1.  Héberger la `stats.html` page sur votre serveur Web
+1. Implémentation d’Analytics sur l’article Instant Facebook en référençant le `stats.html` fichier dans un iframe
+1. Inclure les paramètres de chaîne de requête dans l’ `src` attribut iframe
+
+### Étape 1 : Création d’une `stats.html` page
+
+L’exemple de code HTML ci-dessous peut servir à capturer les statistiques depuis les articles instantanés. Ce fichier est généralement hébergé sur l’un des serveurs web de votre entreprise. Chaque fois qu’un article instantané est chargé, il charge le fichier dans un iframe, ce qui déclenche l’envoi de données à Adobe.
+
+```html
+<html>
+  <head>
+    <title>Facebook Stats</title>
+      <script language="javaScript" type="text/javascript" src="VisitorAPI.js"></script>
+      <script language="javaScript" type="text/javascript" src="AppMeasurement.js"></script>
+  </head>
+  <body>
+    <script>
+      var v_orgId = "INSERT-ORG-ID-HERE";
+      var s_account = "examplersid";
+      var s_trackingServer = "example.sc.omtrdc.net";
+      var visitor = Visitor.getInstance(v_orgId);
+      visitor.trackingServer = s_trackingServer;
+
+      var s = s_gi(s_account);
+      s.account = s_account;
+      s.trackingServer = s_trackingServer;
+      s.visitor = visitor;
+
+      s.pageName = s.Util.getQueryParam("pageName");
+      s.pageURL = document.referrer; // The referrer to the utility page is the parent frame
+      s.campaign = s.Util.getQueryParam("cmpId");
+      s.eVar1 = "Facebook Instant Article";
+      s.eVar2 = s.Util.getQueryParam("eVar2");
+
+      s.t();
+    </script>
+  </body>
+</html>
+```
+
+### Étape 2 : Héberger la `stats.html` page sur votre serveur Web
+
+Adobe conseille d’héberger votre `stats.html` page avec la dernière version de `AppMeasurement.js` et `VisitorAPI.js`. Contactez les équipes d’ingénieurs appropriées de votre entreprise pour héberger ce fichier au bon endroit.
+
+### Étape 3 : Référence `stats.html` sur chaque page Instant Article de Facebook
+
+Lors de la création de contenu Instant Article Facebook, incorporez le contenu HTML d’analyse dans un iframe. Par exemple :
+
+```html
+<iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
+```
+
+### Étape 4 : Définition du suivi personnalisé des variables et des événements
+
+Les variables et événements personnalisés peuvent être suivis dans votre code HTML Analytics selon deux approches différentes :
+
+* Inclure directement les valeurs et les événements de variable dans la `stats.html` page. Les variables définies ici sont meilleures pour les valeurs qui sont généralement les mêmes pour tous les Instant Articles de Facebook.
+* Incluez des valeurs de variable dans une chaîne de requête référençant l’iframe. Cette méthode vous permet d’envoyer des valeurs de variable de l’Instant Article de Facebook à l’iframe qui héberge le code Analytics.
+
+L’exemple suivant illustre plusieurs variables personnalisées incluses dans une chaîne de requête. Le code JavaScript à l’intérieur `stats.html` vérifie ensuite la chaîne de requête à l’aide `s.Util.getQueryParam()`.
+
+```html
+<iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
+```
+
+> [!NOTE] La dimension Référent n’est pas automatiquement suivie en raison de la nature des iframes. Veillez à inclure cette dimension dans votre chaîne de requête si vous souhaitez en effectuer le suivi.
+
+## Instant Articles et confidentialité de Facebook
+
+Tant que la page HTML Analytics est hébergée sur votre serveur Web, Adobe prend en charge votre politique de confidentialité existante pour tous les Instant Articles de Facebook. Si un utilisateur choisit de ne pas effectuer de suivi sur votre site principal, il choisit également de ne pas effectuer de suivi sur tous vos Instant Articles de Facebook. La page utilitaire prend également en charge Adobe Experience Cloud Identity Service afin que vous puissiez intégrer les données Instant Article de Facebook au reste d’Experience Cloud.
