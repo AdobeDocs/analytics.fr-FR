@@ -2,7 +2,7 @@
 title: Déploiement d’Adobe Analytics dans un environnement de développement
 description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics dans votre environnement de développement.
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
@@ -69,8 +69,8 @@ Une raison fréquente est que des éléments existent déjà dans d’autres bib
 
 ## Documentation et ressources supplémentaires
 
-- [Prise en main du lancement](https://docs.adobelaunch.com/getting-started): Découvrez le flux de travail de base du lancement
-- [Lancer l’administration](https://docs.adobelaunch.com/administration): En savoir plus sur les adaptateurs et les environnements
+- [Prise en main du lancement](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html): Découvrez le flux de travail de base du lancement
+- [Lancer Publication](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html): En savoir plus sur la publication et les environnements
 
 ## Étapes suivantes
 
