@@ -4,7 +4,7 @@ title: Systèmes pris en charge et configuration requise
 topic: Activity map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -17,7 +17,7 @@ Activity Map est prise en charge par les navigateurs suivants.
 |--- |--- |
 | Internet Explorer  | Dernière version |
 | Firefox | Dernière version |
-| Chrome | Dernière version. Remarque : Pour le moment, le module Chrome d’Activity Map est un module en « mode développeur » uniquement. Lorsque vous lancez ce module, vous recevrez un message vous encourageant à désactiver les extensions en mode développeur. Ce message s’affichera à chaque lancement du module. |
+| Chrome | Dernière version. Remarque :  Le module Chrome de Carte d’activités est un module externe &quot;mode développeur&quot; uniquement pour le moment. Lorsque vous lancez ce module, vous recevrez un message vous invitant à désactiver les extensions du mode développeur. Ce message s’affiche chaque fois que le module externe est lancé. |
 
 > [!NOTE] Du point de vue de la collecte des liens, Activity Map prend en charge bien plus de navigateurs.
 
