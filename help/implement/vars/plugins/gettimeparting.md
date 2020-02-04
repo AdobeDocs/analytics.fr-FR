@@ -2,14 +2,14 @@
 title: getTimeParting
 description: Mesurez le moment où une action spécifique a lieu.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe : getTimeParting
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `getTimeParting` module externe vous permet de capturer les détails du moment où une activité mesurable a lieu sur votre site. Ce module externe est utile lorsque vous souhaitez ventiler les mesures en fonction d’une division répétable du temps sur une période donnée. Par exemple, vous pouvez comparer les taux de conversion entre deux jours différents de la semaine, par exemple tous les dimanches et tous les jeudis. Vous pouvez également comparer les périodes de la journée, par exemple tous les matins et toutes les soirées.
 
