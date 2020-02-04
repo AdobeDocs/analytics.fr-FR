@@ -2,14 +2,14 @@
 title: getNewRepeat
 description: Suivre l’activité des nouveaux visiteurs par rapport aux visiteurs de retour.
 translation-type: tm+mt
-source-git-commit: aa4e1e71b8962fca8c880b9efe2b0a2b8b9e1360
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe : getNewRepeat
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `getNewRepeat` module externe vous permet de déterminer si un visiteur du site est un nouveau visiteur ou un visiteur récurrent dans un délai de plusieurs jours. Adobe recommande d’utiliser ce module externe si vous souhaitez identifier les visiteurs comme &quot;nouveaux&quot; à l’aide d’un nombre personnalisé de jours. Ce plug-in n’est pas nécessaire si les dimensions Nouveau visiteur/Répéter visiteur d’Analysis Workspace répondent aux besoins de votre entreprise.
 
