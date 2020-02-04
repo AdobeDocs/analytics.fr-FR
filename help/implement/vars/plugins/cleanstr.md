@@ -2,14 +2,14 @@
 title: cleanStr
 description: Supprimez ou remplacez tous les caractères superflus d’une chaîne.
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe :cleanStr
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `cleanStr` module externe supprime ou remplace tous les caractères superflus d’une chaîne, y compris les caractères de balise HTML, les espaces blancs supplémentaires, les onglets et les retours chariot/nouvelle ligne. Il remplace également les guillemets simples gauche/droite (`‘` et `’`) les guillemets simples droits (`'`). Adobe recommande d’utiliser ce module externe si vous souhaitez supprimer les caractères superflus des valeurs de variable et que la fonction &quot;Nettoyer le texte&quot; dans Launch ne répond pas à vos besoins en matière d’implémentation. Ce module externe n’est pas nécessaire si les données collectées ne contiennent pas de caractères superflus ou si la fonction &quot;Nettoyer le texte&quot; du lancement est suffisante.
 
