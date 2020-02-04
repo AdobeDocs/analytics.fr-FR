@@ -2,14 +2,14 @@
 title: getVisitDuration
 description: Effectuez le suivi du temps passé par un visiteur sur le site jusqu’à présent.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe :getVisitDuration
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `getVisitDuration` module externe effectue le suivi en minutes de la durée de consultation du site par le visiteur jusqu’à ce moment-là. Adobe recommande d’utiliser ce module externe si vous souhaitez effectuer le suivi du temps cumulé sur le site jusqu’à ce point ou pour effectuer le suivi du temps nécessaire à l’exécution d’une activité. Ce module externe ne suit pas la durée entre les événements ; si cette fonctionnalité est souhaitée, utilisez le `getTimeBetweenEvents` module externe.
 
