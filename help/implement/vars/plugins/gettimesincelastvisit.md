@@ -2,7 +2,7 @@
 title: ' getTimeSinceLastVisit'
 description: Mesurez la durée écoulée entre deux visites.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 ---
 
@@ -21,10 +21,13 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Cliquez sur une propriété.
 1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
 1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Pour toute règle de lancement dans laquelle vous souhaitez utiliser le module externe, ajoutez une action avec la configuration suivante :
+1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+   * Condition : Aucun
+   * Événement : Core - Bibliothèque chargée (Haut de la page)
+1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
-   * Type d&#39;action : Initialiser addProductEvar
-1. Enregistrer et publier les modifications apportées à la règle
+   * Type d&#39;action : Initialize getTimeSinceLastVisit
+1. Enregistrez et publiez les modifications apportées à la règle.
 
 ## Installation du module externe à l’aide de l’éditeur de code personnalisé Lancer
 
