@@ -4,14 +4,16 @@ keywords: privacy
 title: Confidentialité - Aperçu
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
 
 
 # Confidentialité - Aperçu
 
-Vue d’ensemble des données collectées par Adobe Analytics et autres considérations sur la confidentialité.
+Adobe vous conseille de fournir aux visiteurs de votre site Web des informations claires et facilement accessibles concernant la possibilité d’exclure leurs informations de navigation de la collecte réalisée par les produits ou services Adobe.
+
+Les visiteurs peuvent en savoir plus sur la manière dont Adobe utilise généralement les informations collectées dans le Centre [de traitement des données personnelles](https://www.adobe.com/privacy.html)Adobe. Il appartient à votre entreprise de révéler comment vous utilisez les produits et services d’Adobe, car votre entreprise contrôle exclusivement la mise en oeuvre des services d’Adobe. Vous êtes responsable de la création de votre propre politique de confidentialité, de son respect, du respect du contrat de service conclu avec Adobe, ainsi que du respect de toutes les lois en vigueur.
 
 ## Ventilation de la collecte des données {#section_F59D958D7AE44747846993E643CD4BF2}
 
