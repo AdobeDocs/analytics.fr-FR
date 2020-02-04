@@ -2,14 +2,14 @@
 title: ' addProductEvar'
 description: Ajoute des eVars de marchandisage à la variable products.
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe : addProductEvar
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `addProductEvar` module externe vous permet d’ajouter facilement une eVar de marchandisage Adobe Analytics qui utilise la syntaxe du produit à la variable products sans vous soucier de savoir si le contenu existant de la variable products sera modifié/déplacé/supprimé. Adobe recommande d’utiliser ce module externe si vous souhaitez ajouter facilement des eVars de marchandisage de syntaxe de produit à la `products` variable. Vous n’avez pas besoin d’utiliser le `addProductEvar` module externe si vous n’utilisez pas d’eVars de marchandisage avec la syntaxe du produit.
 
