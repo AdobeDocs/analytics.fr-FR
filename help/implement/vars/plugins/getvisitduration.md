@@ -1,0 +1,98 @@
+---
+title: getVisitDuration
+description: Effectuez le suivi du temps passé par un visiteur sur le site jusqu’à présent.
+translation-type: tm+mt
+source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+
+---
+
+
+# Module externe Adobe :getVisitDuration
+
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+
+Le `getVisitDuration` module externe effectue le suivi en minutes de la durée de consultation du site par le visiteur jusqu’à ce moment-là. Adobe recommande d’utiliser ce module externe si vous souhaitez effectuer le suivi du temps cumulé sur le site jusqu’à ce point ou pour effectuer le suivi du temps nécessaire à l’exécution d’une activité. Ce module externe ne suit pas la durée entre les événements ; si cette fonctionnalité est souhaitée, utilisez le `getTimeBetweenEvents` module externe.
+
+## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
+
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Cliquez sur une propriété.
+1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
+1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
+1. Pour toute règle de lancement dans laquelle vous souhaitez utiliser le module externe, ajoutez une action avec la configuration suivante :
+   * Extension : Plug-ins Analytics courants
+   * Type d&#39;action : Initialiser addProductEvar
+1. Enregistrer et publier les modifications apportées à la règle
+
+## Installation du module externe à l’aide de l’éditeur de code personnalisé Lancer
+
+Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez utiliser l’éditeur de code personnalisé.
+
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Cliquez sur la propriété souhaitée.
+1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
+1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
+1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
+
+## Installation du module externe à l’aide d’AppMeasurement
+
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+
+```js
+/******************************************* BEGIN CODE TO DEPLOY *******************************************/
+/* Adobe Consulting Plugin: getVisitDuration v2.0 */
+s.getVisitDuration=function(){var d=new Date,c=d.getTime(),b=this.c_r("s_dur");if(isNaN(b)||18E5<c-b)b=c;var a=c-b;d.setTime(c+18E5); this.c_w("s_dur",b+"",d);if(0===a)return"first hit of visit";a=Math.floor(a/6E4);return 0===a?"less than a minute":1===a?"1 minute": a+" minutes"};
+/******************************************** END CODE TO DEPLOY ********************************************/
+```
+
+## Utilisation du module externe
+
+La `getVisitDuration` méthode n’utilise aucun argument. Elle renvoie l’une des valeurs suivantes :
+
+* `"first hit of visit"`
+* `"less than a minute"`
+* `"1 minute"`
+* `"[x] minutes"` (où `[x]` est le nombre de minutes écoulées depuis que le visiteur a accédé au site)
+
+Ce module externe crée un cookie propriétaire appelé `"s_dur"`, qui correspond au nombre de millisecondes écoulées depuis l’arrivée du visiteur sur le site. Le cookie expire après 30 minutes d’inactivité.
+
+## Exemples d’appels
+
+### Exemple n° 1
+
+Le code suivant...
+
+```js
+s.eVar10 = s.getVisitDuration();
+```
+
+...définit toujours eVar10 sur le nombre de minutes écoulées depuis l&#39;arrivée du visiteur sur le site.
+
+### Exemple n° 2
+
+Le code suivant...
+
+```js
+if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
+```
+
+...utilise le module externe inList pour vérifier si la variable events contient l’événement purchase.  Dans ce cas, l’eVar10 est définie sur le nombre de minutes entre le début de la visite du visiteur et le moment de l’achat.
+
+### Exemple n° 3
+
+Le code suivant...
+
+```js
+s.prop10 = s.getVisitDuration();
+```
+
+...définira toujours prop10 sur le nombre de minutes écoulées depuis que le visiteur est arrivé sur le site.  Cela s’avère utile si le cheminement est activé pour prop10.  L’ajout de la mesure &quot;Sorties&quot; au rapport prop10 affiche un rapport détaillé et &quot;dispersion&quot; du temps qu’a pris une visite quelques minutes avant qu’un visiteur quitte le site.
+
+## Historique des versions
+
+### 2.0 (2 mai 2018)
+
+* Version ponctuelle (réanalyse/réécriture complète du module externe).
