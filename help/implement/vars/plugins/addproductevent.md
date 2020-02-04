@@ -2,14 +2,14 @@
 title: addProductEvent
 description: Ajoute des événements personnalisés à la variable products and events.
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe :addProductEvent
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `addProductEvent` module externe ajoute un événement numérique ou monétaire à la `products` variable. Adobe recommande d’utiliser ce module externe si vous souhaitez ajouter un événement numérique ou monétaire à la `products` variable sans vous soucier du format de chaîne du produit. Ce module externe n’est pas nécessaire si vous n’utilisez pas d’événements numériques ou monétaires dans la `products` variable.
 
