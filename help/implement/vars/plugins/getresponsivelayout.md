@@ -2,14 +2,14 @@
 title: ' getResponsiveLayout'
 description: Déterminer la mise en page d’un site Web actuellement consulté.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe : getResponsiveLayout
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `getResponsiveLayout` module vous permet de suivre la version de votre site Web réactif basé sur la conception qu’un visiteur consulte actuellement. Adobe recommande d’utiliser ce module externe si votre site utilise une conception adaptée et que vous souhaitez effectuer le suivi de la version du site consulté par un visiteur. Ce module externe n’est pas nécessaire si votre site n’utilise pas de conception adaptée.
 
