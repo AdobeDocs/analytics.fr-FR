@@ -4,7 +4,7 @@ keywords: clickstream;data feed;datafeed;Data Feed
 title: Flux de données Analytics - Aperçu
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -18,17 +18,17 @@ Les flux de données constituent un moyen puissant d’obtenir des données brut
 Veillez à respecter toutes les exigences suivantes avant d’utiliser des flux de données.
 
 * Utilisez un site FTP et des informations d’identification. Les flux de données peuvent uniquement être envoyés vers une destination serveur. Votre entreprise fournit généralement des informations d’identification FTP. Adobe peut fournir un emplacement FTP avec un volume de stockage modeste à votre demande. Contactez le service à la clientèle pour demander une destination FTP pour les flux de données.
-* Implémentation opérationnelle qui envoie des données aux serveurs de collecte de données Adobe. Voir [Validation et publication d’une mise en oeuvre dans Lancement](../../implement/implement-with-launch/validate-publish-prod.md) dans le guide de l’utilisateur Mise en oeuvre.
+* Implémentation opérationnelle qui envoie des données aux serveurs de collecte de données Adobe. Voir [Validation et publication d’une mise en oeuvre dans Lancement](/help/implement/launch/validate-publish-prod.md) dans le guide de l’utilisateur Mise en oeuvre.
 * Votre compte est un administrateur de produit Analytics ou votre compte appartient à un profil de produit avec accès aux flux de données.
 
 ## Procédure de prise en main
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur l’icône à 9 carrés dans l’angle supérieur droit, puis sur le logo Analytics coloré.
-3. Dans la barre de navigation supérieure, accédez à Admin &gt; Flux de données.
+3. Dans la barre de navigation supérieure, accédez à Admin > Flux de données.
 4. Cliquez sur [!UICONTROL Ajouter]. Une nouvelle page s’affiche avec trois catégories principales : Informations [!UICONTROL sur]le flux, [!UICONTROL destination]et définitions des colonnes de [!UICONTROL données].
 5. Renseignez les champs Informations [!UICONTROL sur le] flux.
-   * Nom : Nom souhaité, tel que "Tester le flux de données".
+   * Nom : Nom souhaité, tel que &quot;Tester le flux de données&quot;.
    * Suite de rapports : Sélectionnez une suite de rapports.
    * Courrier électronique une fois terminé : Entrez votre adresse électronique.
    * Intervalle de flux : Sélectionnez l’intervalle souhaité (horaire ou quotidien).
@@ -38,7 +38,7 @@ Veillez à respecter toutes les exigences suivantes avant d’utiliser des flux 
    * Type : FTP
    * Hôte : Entrez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`.
    * Chemin : Peut être laissé vide
-   * Nom d'utilisateur : Entrez le nom d'utilisateur pour vous connecter au site FTP.
+   * Nom d&#39;utilisateur : Entrez le nom d&#39;utilisateur pour vous connecter au site FTP.
    * Mot de passe et mot de passe de confirmation : Entrez le mot de passe de connexion au site FTP.
 7. Renseignez les définitions [!UICONTROL des colonnes de]données.
    * Sélectionnez le dernier modèle Toutes les colonnes Adobe dans la liste déroulante.
