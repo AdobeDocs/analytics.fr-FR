@@ -2,14 +2,14 @@
 title: inList
 description: Vérifiez si une valeur est contenue dans une autre valeur délimitée par des caractères.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Module externe Adobe :inList
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin d’optimiser l’utilisation d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
 Le `inList` module externe vous permet de vérifier si une valeur existe déjà dans une chaîne délimitée ou dans un objet de tableau JavaScript. Plusieurs autres plug-ins dépendent du `inList` plug-in pour fonctionner. Ce plug-in fournit un avantage distinct par rapport à la méthode JavaScript `indexOf()` où vous ne trouvez pas de chaînes partielles. Par exemple, si vous avez utilisé ce plug-in pour vérifier `"event2"`, il ne correspondra pas à une chaîne contenant `"event25"`. Ce module externe n’est pas nécessaire si vous n’avez pas besoin de rechercher des valeurs dans des chaînes ou des tableaux délimités, ou si vous souhaitez utiliser votre propre `indexOf()` logique.
 
