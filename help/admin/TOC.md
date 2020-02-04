@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
@@ -27,6 +27,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [Variables de conversion (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Modification des variables de conversion](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Classifications des conversions](admin/conversion-var-admin/conversion-classifications.md)
+      + [Variables de liste](admin/conversion-var-admin/list-var-admin.md)
    + [Codes de devise](admin/currency.md)
    + [Descriptions des rapports personnalisés](admin/custom-desc-admin.md)
    + [Personnaliser le calendrier](admin/custom-calendar.md)
@@ -118,7 +119,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + [Alliance de marques](company/co-branding-admin.md)
    + [Masquage des suites de rapports](company/c-hide-report-suites.md)
    + [Gestionnaire de sécurité](company/security-manager.md)
-   + [Fin de vie pour "Mettre en place les restrictions d'identification par IP"](company/login-restrictions-eol.md)
+   + [Fin de vie pour &quot;Mettre en place les restrictions d&#39;identification par IP&quot;](company/login-restrictions-eol.md)
 + Gestion des suites de rapports {#manage-report-suites}
    + [Gestionnaire de suites de rapports](c-manage-report-suites/report-suites-admin.md)
    + [Suites de rapports globales et de cumul](c-manage-report-suites/rollup-report-suite.md)
