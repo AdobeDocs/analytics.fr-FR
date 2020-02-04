@@ -1,8 +1,8 @@
 ---
 title: Mise en oeuvre d’Adobe Analytics
-description: valeur nulle
+description: Implémentez Adobe Analytics sur votre site, propriété ou application.
 translation-type: tm+mt
-source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
+source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
 
@@ -11,17 +11,31 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ![Bannière](../../assets/doc_banner_implement.png)
 
+Adobe requiert du code sur votre site ou application pour envoyer des données aux serveurs de collecte de données d’Adobe. Les étapes suivantes indiquent le fonctionnement d’une implémentation type.
 
-* **Adobe Experience Platform Launche :** Méthode normalisée et recommandée pour implémenter Adobe Analytics. Placez une balise de chargement sur chaque page et utilisez l’interface de Launch pour déterminer la définition de chaque variable.
-* **Dynamic Tag Management (DTM) :** Le prédécesseur de Launch. DTM utilise une interface similaire pour implémenter Analytics, mais n’est plus mise à jour et n’est pas aussi flexible. Adobe recommande d’utiliser Launch pour implémenter Adobe Analytics.
-* **Code JavaScript hérité :** Méthode manuelle historique pour implémenter Adobe Analytics. Décrit les variables et les paramètres utilisés dans une implémentation, ce qui peut s’avérer utile pour les implémentations de Launch utilisant des règles avec du code personnalisé.
+1. Quand un visiteur arrive sur votre site, une demande est envoyée à votre serveur web.
+2. Le serveur web de votre site envoie les informations du code de la page, puis la page s’affiche dans le navigateur.
+3. La page se charge et le code JavaScript Analytics s’exécute.
+Le code JavaScript envoie une demande d’image aux serveurs de collecte de données Adobe. Les données de page que vous avez définies dans votre implémentation sont envoyées dans le cadre d’une chaîne de requête dans cette demande d’image.
+
+4. Adobe renvoie une image pixel transparente.
+5. Les serveurs Adobe stockent les données collectées dans une suite de *rapports*.
+6. Les données de la suite de rapports renseignent les rapports auxquels vous avez accès dans un navigateur web.
+
+   L’exécution du code JavaScript survient rapidement et n’affecte pas le temps de chargement de la page de manière notable. Grâce à cette méthode, vous pouvez comptabiliser les pages affichées quand un visiteur a cliqué sur **[!UICONTROL Recharger]**ou**[!UICONTROL  Précédent]** pour atteindre une page, puisque le code JavaScript s’exécute même quand la page est récupérée dans la mémoire cache.
+
+Adobe Analytics requiert du code sur votre site Web, votre application mobile ou toute autre application pour envoyer des données aux serveurs de collecte de données. Il existe plusieurs méthodes pour implémenter ce code, selon la plateforme et les besoins de votre entreprise.
+
+* **Adobe Experience Platform Launch**: Méthode standard et recommandée pour la mise en oeuvre d’Adobe Analytics. Placez une balise de chargement sur chaque page et utilisez l’interface de Launch pour déterminer la définition de chaque variable.
+* **Gestion** dynamique des balises : Le prédécesseur à lancer. DTM utilise une interface similaire pour implémenter Analytics, mais n’est plus mise à jour et n’est pas aussi flexible. Adobe recommande d’utiliser Launch pour implémenter Adobe Analytics.
+* **Code JavaScript** hérité : Méthode de manuel d’historique pour implémenter Adobe Analytics. Décrit les variables et les paramètres utilisés dans une implémentation, ce qui peut s’avérer utile pour les implémentations de Launch utilisant des règles avec du code personnalisé.
+* **SDK** mobile : Bibliothèques dédiées pour envoyer facilement des données à Adobe depuis votre application mobile.
 
 ## Articles clés de mise en oeuvre d’Analytics
 
-* [Adobe Debugger](impl-testing/debugger.md)
-* [Création d’une propriété dans Experience Platform Launch](implement-with-launch/create-analytics-property.md)
-* [Choix d’une méthode de mise en œuvre](c-implementation-methods/choose-implementation-method.md)
-* [Notes de mise à jour de la bibliothèque AppMeasurement](appmeasurement-release-notes/c-release-notes-mjs.md)
+* [Adobe Debugger](validate/debugger.md)
+* [Création d’une propriété dans Experience Platform Launch](launch/create-analytics-property.md)
+* [Mises à jour d’AppMeasurement](appmeasurement-updates.md)
 
 ## Plus de guides de l’utilisateur Analytics
 
@@ -30,6 +44,6 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 ## Principales ressources Analytics
 
 * [Contacter l’assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Forum Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
