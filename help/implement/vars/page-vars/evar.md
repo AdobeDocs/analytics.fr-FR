@@ -2,7 +2,7 @@
 title: eVar
 description: Variables personnalisées que vous pouvez utiliser dans votre implémentation.
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -54,6 +54,8 @@ s.eVar1 = "+12.49";
 
 S’il y a plus de deux décimales, le compteur eVar arrondit la valeur à deux décimales. Un compteur eVar ne peut pas contenir de nombres négatifs.
 
+> [!IMPORTANT] Vous devez d’abord configurer les eVars sur Compteur dans la Console d’administration avant d’utiliser les eVars de compteur. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+
 ## Avantages exclusifs pour les props ou eVars
 
 Dans la version actuelle d’Adobe Analytics, les props et les eVars sont des variables personnalisées avec des fonctionnalités similaires. Cependant, elles présentent plusieurs différences majeures :
@@ -61,4 +63,4 @@ Dans la version actuelle d’Adobe Analytics, les props et les eVars sont des va
 * Les données des props sont disponibles en quelques minutes dans les rapports. Les eVars peuvent prendre jusqu’à 30 minutes pour apparaître dans les rapports.
 * Les props sont limitées à 100 octets dans les rapports. Les eVars sont limitées à 255 octets.
 * Les props peuvent devenir des props de liste, qui acceptent plusieurs valeurs dans le même accès. Les variables de liste sont une variable distincte et seules trois variables de liste sont disponibles.
-* Par défaut, les props ne persistent pas au-delà de l’accès défini. Les eVars ont une expiration personnalisée, ce qui vous permet de déterminer quand une eVar n’obtient plus le crédit d’un événement ultérieur. Si vous utilisez le traitement [du temps de](../../../components/vrs/vrs-report-time-processing.md)rapport, les props et les eVars peuvent utiliser n’importe quel modèle d’attribution que vous souhaitez.
+* Par défaut, les props ne persistent pas au-delà de l’accès défini. Les eVars ont une expiration personnalisée, ce qui vous permet de déterminer quand une eVar n’obtient plus le crédit d’un événement ultérieur. Cependant, si vous utilisez le traitement [du temps de](../../../components/vrs/vrs-report-time-processing.md)rapport, les props et les eVars peuvent utiliser un modèle d’attribution personnalisé.
