@@ -2,7 +2,7 @@
 title: Mise en œuvre d’Analytics pour les assistants numériques
 description: Mettez en oeuvre Adobe Analytics sur des assistants numériques, tels qu’Amazon Alexa ou Google Home.
 translation-type: tm+mt
-source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
 
 ---
 
@@ -50,7 +50,7 @@ Pour certains assistants numériques, vous recevez une notification lorsque quel
 
 ```text
 GET
-/b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
+/b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
 <xref href="https://sc.omtrdc.net">
@@ -64,13 +64,13 @@ Host:
 Il est probable que votre entreprise souhaite des applications pour plusieurs plateformes. La bonne pratique consiste à inclure un ID d’application dans chaque demande. This variable can be set in the `a.AppID` context data variable. Follow the format of `[AppName] [BundleVersion]`, for example, BigMac for Alexa 1.2:
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -82,7 +82,7 @@ Adobe Analytics utilise [Adobe Experience Cloud Identity Service](https://docs.a
 L’utilisation du service d’ID offre le meilleur rapport qualité-prix lorsque vous mappez des ECID sur différents périphériques (par exemple, Web vers l’assistant numérique). Si votre application est une application mobile, utilisez les SDK de la plateforme d’expérience en l’état et envoyez l’ID utilisateur à l’aide de la `setCustomerID` méthode. However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -105,7 +105,7 @@ Les sessions sont importantes pour garder le contexte et pour aider à collecter
 2. **Envoyez une nouvelle session ou un nouvel événement** de lancement : Lorsque vous envoyez la première réponse à Analytics, incluez un événement de lancement. Vous pouvez généralement l’envoyer en définissant les données contextuelles de `a.LaunchEvent=1`.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
 Host: sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -119,7 +119,7 @@ Par exemple, si un utilisateur dit « Siri, envoie 20 $ à John pour le dîner
 En envoyant chacune de ces requêtes sous la forme d’une eVar, vous pouvez exécuter des rapports de cheminement sur chacun des objectifs des applications de conversation. Assurez-vous que votre application peut également traiter les requêtes sans intention. Adobe conseille de transmettre la variable &quot;Aucun mode spécifié&quot; à la variable de données contextuelles d’intention, plutôt que de la supprimer.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -127,7 +127,7 @@ Cache-Control: no-cache
 ou
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
 Host: sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -143,7 +143,7 @@ En plus de l’intention, les assistants numériques ont souvent un ensemble de 
 Votre application comporte généralement un nombre limité de ces valeurs. Pour suivre ces valeurs dans Analytics, envoyez-les dans des variables de données contextuelles, puis mappez chacun des paramètres à une eVar.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -155,7 +155,7 @@ Parfois, l’assistant numérique fournit à votre application des entrées qu�
 Dans ce cas, demandez à votre application de clarifier la situation. De plus, envoyez à Adobe des données indiquant que l’application a un état d’erreur, ainsi qu’une eVar indiquant le type d’erreur qui s’est produit. Veillez à inclure des erreurs lorsque les entrées ne sont pas correctes et des erreurs lorsque l’application a rencontré un problème.
 
 ```text
-GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
 Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
@@ -174,11 +174,11 @@ Les deux-points de début et de fin aident à créer des segments. Par exemple, 
 ## Exemples
 
 | Personne | Réponse du périphérique | Action/intention | Demande GET |
-| --- | --- | --- | --- | ---|
-| Installe Spoofify | Aucune réponse | Install | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Jouer Spoofify | &quot;Ok, jouer à Spoofify&quot; | Play | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Change de chanson | &quot;Ok, quelle chanson veux-tu ?&quot; | ChangeSong | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Jouer &quot;Baby Shark&quot; | &quot;Ok, jouer &quot;Baby Shark&quot; par PinkFong&quot; | ChangeSong | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Change de liste de lecture | &quot;Ok, quelle playlist veux-tu ?&quot; | ChangePlaylist | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Lire ma liste de chansons préférées | &quot;Ok, jouer ta playlist de chansons préférées&quot; | ChangePlaylist | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
-| Arrête la musique | Pas de réponse, la musique s&#39;éteint | Off | `GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+|---|---|---|---|
+| Installe Spoofify | Aucune réponse | Install | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Jouer Spoofify | &quot;Ok, jouer à Spoofify&quot; | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Change de chanson | &quot;Ok, quelle chanson veux-tu ?&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Jouer &quot;Baby Shark&quot; | &quot;Ok, jouer &quot;Baby Shark&quot; par PinkFong&quot; | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Change de liste de lecture | &quot;Ok, quelle playlist veux-tu ?&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Lire ma liste de chansons préférées | &quot;Ok, jouer ta playlist de chansons préférées&quot; | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
+| Arrête la musique | Pas de réponse, la musique s&#39;éteint | Off | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.omtrdc.net`<br>`Cache-Control: no-cache` |
