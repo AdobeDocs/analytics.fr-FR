@@ -2,7 +2,7 @@
 title: tl
 description: Envoyez un appel de suivi de lien à Adobe.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,11 +18,11 @@ Si `trackDownloadLinks` ou `trackExternalLinks` sont activés, AppMeasurement ap
 Le lancement a un emplacement dédié défini un appel de suivi des liens.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-2. Cliquez sur une propriété.
-3. Accédez à l’onglet [!UICONTROL Règles] , puis cliquez sur une règle (ou créez une règle).
-4. Sous [!UICONTROL Actions], cliquez sur l’icône &quot;+&quot;
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le type [!UICONTROL d’] action sur Envoyer la balise.
-6. Click the `s.tl()` radio button.
+1. Cliquez sur une propriété.
+1. Accédez à l’onglet [!UICONTROL Règles] , puis cliquez sur une règle (ou créez une règle).
+1. Sous [!UICONTROL Actions], cliquez sur l’icône &quot;+&quot;
+1. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le type [!UICONTROL d’] action sur Envoyer la balise.
+1. Click the `s.tl()` radio button.
 
 Vous ne pouvez pas définir d’arguments facultatifs dans Lancement.
 
