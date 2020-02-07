@@ -2,7 +2,7 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 
 ---
 
@@ -38,7 +38,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **** Variable de conversion : Connue de manière collective sous le nom d’eVars. Stocke une valeur personnalisée et conserve la valeur de la variable jusqu’à ce qu’elle expire. See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** Corrélation : ne plus être utilisé comme terme; remplacé par des ventilations de dimension. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Ventilation des dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide de l’utilisateur Analyser.
 * **** Données actives : Option de certains rapports qui permet d’inclure des données récemment collectées qui n’ont pas encore été entièrement traitées. Voir Données [](/help/analyze/reports-analytics/current-data.md) actives dans le guide de l’utilisateur Analyser.
-* **** Lien personnalisé : Type d’accès qui contient des données non vues de page. Voir la fonction [s.tl()](../implement/vars/functions/tl.md) dans le guide de l’utilisateur Mise en oeuvre. Voir aussi Accès.
+* **** Lien personnalisé : Type d’accès qui contient des données non vues de page. Voir la fonction [s.tl()](../implement/vars/functions/tl-method.md) dans le guide de l’utilisateur Mise en oeuvre. Voir aussi Accès.
 * **** Attributs du client : Fonction Experience Cloud qui permet le transfert des données d’attribut. Voir Attributs [du](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) client dans le guide de l’utilisateur des services principaux.
 * **** Délégué du service à la clientèle : Utilisateur désigné autorisé à interagir directement avec le service à la clientèle Adobe. Voir Délégués [](https://helpx.adobe.com/experience-cloud/supported-users.html) du service clientèle dans la base de connaissances d’Experience Cloud.
 * **** Serveur de collecte de données : Serveurs appartenant à Adobe qui reçoivent et traitent les données. Les demandes d’image sont envoyées aux serveurs de collecte de données d’Adobe en vue de leur utilisation dans les rapports.
@@ -87,8 +87,8 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **** Suite de rapports : Conteneur global auquel vous envoyez des données. Tous les rapports dans Adobe Analytics font référence à une suite de rapports.
 * **** Période flottante : Type de plage de dates relative qui change au fil du temps. Par exemple, un rapport présentant les 7 derniers jours peut être considéré comme une plage de dates variable. Voir aussi plage de dates statique.
 * **** RSID : Abréviation de l’identifiant de suite de rapports. Une suite de rapports a un nom convivial et un identifiant.
-* **** s.t() : Nom de la fonction dans une bibliothèque AppMeasurement qui envoie une demande d’image de page vue. Certaines bibliothèques AppMeasurement utilisent `s.track()` à la place. Reportez-vous [à la section](../implement/vars/functions/t.md) du guide de l’utilisateur Mise en oeuvre.
-* **s<span>.</span>** tl() : Nom de la fonction dans une bibliothèque AppMeasurement qui envoie une demande d’image de suivi de lien. Certaines bibliothèques AppMeasurement utilisent `s.trackLink()` à la place. Voir [tl](../implement/vars/functions/tl.md) dans le guide de l’utilisateur Mise en oeuvre.
+* **** s.t() : Nom de la fonction dans une bibliothèque AppMeasurement qui envoie une demande d’image de page vue. Certaines bibliothèques AppMeasurement utilisent `s.track()` à la place. Reportez-vous [à la section](../implement/vars/functions/t-method.md) du guide de l’utilisateur Mise en oeuvre.
+* **s<span>.</span>** tl() : Nom de la fonction dans une bibliothèque AppMeasurement qui envoie une demande d’image de suivi de lien. Certaines bibliothèques AppMeasurement utilisent `s.trackLink()` à la place. Voir [tl](../implement/vars/functions/tl-method.md) dans le guide de l’utilisateur Mise en oeuvre.
 * **** s_code.js : Nom du fichier JavaScript utilisé dans les versions historiques d’Adobe Analytics. Le nom actuel du fichier JavaScript utilisé est AppMeasurement.js.
 * **** Satellite : Plus utilisé comme terme. Ancien nom de produit pour la gestion dynamique des balises.
 * **** Appel serveur secondaire : Autre nom de la demande d’image ou de l’accès, utilisé principalement dans le contexte du balisage et de la facturation multi-suite. Lorsque le même accès est envoyé à plusieurs suites de rapports, toutes les suites de rapports qui suivent la première sont des appels au serveur secondaire. Voir aussi Appels du serveur principal.
