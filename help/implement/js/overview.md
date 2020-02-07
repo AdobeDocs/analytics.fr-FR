@@ -2,7 +2,7 @@
 title: AppMeasurement pour JavaScript
 description: Découvrez comment implémenter Adobe Analytics à l’aide de JavaScript sans système de gestion des balises.
 translation-type: tm+mt
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 
 ---
 
@@ -37,7 +37,7 @@ AppMeasurement pour JavaScript a toujours été une méthode courante pour impl�
    s.events = "event1";
    ```
 
-4. Lorsque toutes les variables de niveau page sont définies, envoyez les données à Adobe à l’aide de la `t` fonction. Voir [t](../vars/functions/t.md) pour plus d’informations.
+4. Lorsque toutes les variables de niveau page sont définies, envoyez les données à Adobe à l’aide de la `t` fonction. Voir [t](../vars/functions/t-method.md) pour plus d’informations.
 
    ```js
    s.t();
