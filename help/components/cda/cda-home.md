@@ -2,7 +2,7 @@
 title: Analyses entre appareils
 description: Les analyses entre appareils font en sorte que vos données ne soient plus axées sur l’appareil, mais plutôt sur la personne, en regroupant les données de l’appareil.
 translation-type: tm+mt
-source-git-commit: c358df811f23a57441e6f9410c957e34954de712
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -50,12 +50,12 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * Les suites de rapports Adobe Analytics ne peuvent pas mapper à plusieurs organisations IMS. Étant donné que les analyses entre appareils regroupent des appareils dans une suite de rapports donnée, il est impossible de les utiliser pour regrouper des données entre plusieurs organisations IMS.
 * Les analyses entre appareils ne sont actuellement pas compatibles avec les attributs du client. Les attributs du client ne peuvent pas être utilisés pour créer une suite de rapports virtuelle d’analyses entre appareils, dans des segments interpériphériques, ou pour la création de rapports dans un projet Analysis Workspace basé sur une suite de rapports virtuelle d’analyses entre appareils.
    > [!TIP] Bien que les attributs du client ne puissent pas être utilisés dans CDA, les deux fonctionnalités dépendent de la `setCustomerIDs` fonction. Ces deux fonctionnalités peuvent coïncider dans des suites de rapports distinctes (virtuelles).
-* L'ADC a besoin du graphique coopératif ou du graphique privé. Les graphiques d’appareils tiers ne sont pas pris en charge.
+* L&#39;ADC a besoin du graphique coopératif ou du graphique privé. Les graphiques d’appareils tiers ne sont pas pris en charge.
 * Les identifiants Analytics hérités ne sont pas pris en charge. Seuls les visiteurs avec un Experience Cloud ID sont regroupés.
 * L’assistance clientèle ne prend pas encore entièrement en charge cette fonctionnalité. Le forum [Analyses entre appareils](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) peut être utilisé pour la prise en charge de cette fonctionnalité, qui inclut une participation active et directe des responsables produits Adobe.
 * Les analyses entre appareils utilisent une suite de rapports virtuelle et le traitement du temps de la période de rapport, qui ont leurs propres limites. Voir [Suites de rapports virtuelles](../vrs/vrs-about.md) et [traitement de la période de rapport](../vrs/vrs-report-time-processing.md) pour en savoir plus sur ces limitations.
 * L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le créateur de rapports reposent tous deux sur l’API 1.4 et ne sont donc pas compatibles avec CDA.
-* Les nouveaux appareils qui visitent votre site peuvent prendre jusqu’à deux semaines pour être traités par le graphique Co-op ou Privé. Le niveau de groupement dans les analyses entre appareils pour les deux dernières semaines est généralement inférieur à celui des plages de dates datant de plus de deux semaines. Adobe prévoit d’améliorer le service d’identité d’Adobe Experience Platform afin de regrouper de nouveaux périphériques en temps réel à l’avenir.
+* Les nouveaux appareils qui visitent votre site peuvent prendre jusqu&#39;à deux semaines pour être traités par le graphique Co-op. Le niveau de groupement dans les analyses entre appareils pour les deux dernières semaines est généralement inférieur à celui des plages de dates datant de plus de deux semaines. Adobe prévoit d’améliorer le service d’identité d’Adobe Experience Platform afin de regrouper de nouveaux périphériques en temps réel à l’avenir.
 * Les données historiques de la suite de rapports virtuelle changent en fonction de la reconnaissance par Adobe des périphériques et de leur regroupement. Les données de la suite de rapports source ne changent pas.
 
 Une fois que toutes les conditions requises sont remplies et que vous avez compris les limites, vous pouvez commencer à [configurer Analytics sur plusieurs appareils](cda-setup.md).
