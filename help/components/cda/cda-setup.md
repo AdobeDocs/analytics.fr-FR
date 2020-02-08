@@ -1,8 +1,8 @@
 ---
 title: Configuration des analyses entre appareils
 description: Découvrez comment configurer les analyses entre appareils une fois que vous avez satisfait aux conditions préalables.
-translation-type: ht
-source-git-commit: 8c5e8d18ce4e09049d3fea07b8dd75ded6894313
+translation-type: tm+mt
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -40,33 +40,32 @@ Les administrateurs ayant accès à la création de suites de rapports virtuelle
 Lorsque les analyses entre appareils sont activées sur une suite de rapports virtuelle, notez les modifications suivantes :
 
 * Une nouvelle icône interpériphérique apparaît en regard du nom de la suite de rapports virtuelle. Cette icône est réservée aux suites de rapports virtuelles sur plusieurs appareils.
+* Une nouvelle dimension intitulée &quot;État identifié&quot; est disponible. Cette dimension détermine si l’ID Experience Cloud sur cet accès est connu par le graphique de l’appareil à ce moment.
 * De nouvelles mesures intitulées « Personnes » et « Appareils uniques » sont disponibles.
-* La mesure « Visiteurs uniques » n’est pas disponible, car elle est remplacée par Personnes et Appareils uniques.
+* La mesure Visiteurs uniques n’est pas disponible, car elle est remplacée par Personnes et Dispositifs uniques.
 * Lors de la création de segments, le conteneur de segments « Visiteur » est remplacé par un conteneur « Personne ».
 
-## Mesure calculée Compression
+## Modèle Espace de travail CDA
 
-La capacité des analyses entre appareils de regrouper des appareils dépend d’un large éventail de facteurs. L’efficacité de la capacité de la fonction à regrouper des données peut être mesurée à l’aide d’une mesure calculée appelée compression. Les facteurs qui contribuent à la compression sont les suivants :
+Adobe propose un modèle permettant d’afficher des données de performances interpériphériques essentielles.
 
-* Utilisation du graphique Co-op ou du graphique Privé : en général, les entreprises qui utilisent le Device Co-op ont tendance à voir de meilleurs taux de compression que les celles qui utilisent le graphique Privé.
-* Taux de connexion : plus les utilisateurs se connectent sur votre site, plus Adobe est en mesure d’identifier et de regrouper les visiteurs entre plusieurs appareils. Les sites qui présentent un faible taux de connexion ont aussi de faibles taux de compression.
-* Couverture d’Experience Cloud ID : seuls les visiteurs avec un ECID peuvent être regroupés. Un pourcentage plus faible de visiteurs qui accèdent à votre site en utilisant un ECID correspond à des taux de compression plus faibles.
-* Utilisation de plusieurs appareils : si les visiteurs qui se rendent sur votre site n’utilisent pas plusieurs appareils, les taux de compression sont plus faibles.
-* Granularité des rapports : la compression par jour est généralement plus petite que la compression par mois ou par année. Les chances qu’une personne utilise plusieurs appareils sont moindres au cours d’un seul jour qu’au cours d’un mois entier. La segmentation, le filtrage ou l’utilisation de dimensions de ventilation peuvent également indiquer un taux de compression plus faible.
+1. Accédez à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) et connectez-vous à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur l’icône à neuf grilles en haut de l’écran, puis sur Analytics.
+1. Cliquez [!UICONTROL Workspace] en haut, puis sur [!UICONTROL Create New Project].
+1. Localisez le QI du voyage : Modèle Analytics sur plusieurs périphériques, puis cliquez sur [!UICONTROL Create].
+1. Si vous y êtes invité, remplacez la suite de rapports par une suite prenant en charge CDA.
 
-Pour afficher la compression de votre entreprise pour une période donnée :
+Un projet Analysis Workspace est créé et contient plusieurs panneaux. En haut, une table des matières et une introduction s’affichent, permettant ainsi le contexte du rapport et la navigation vers des rapports individuels. Cliquez sur un lien dans la table des matières ou développez l’accordéon d’un panneau pour afficher ces rapports.
 
-1. Cliquez sur Espace de travail en haut de l’écran, puis sur Créer un projet.
-2. Commencez par un projet vierge, puis cliquez sur Créer.
-3. Faites glisser la mesure Appareils uniques vers la zone de travail intitulée « Faire glisser la mesure ici ».
-4. Faites glisser la mesure Personnes vers la zone de travail directement à droite de l’en-tête de mesures Appareils uniques, afin de placer les deux mesures côte à côte.
-5. Cliquez sur le symbole « `+` » en regard des mesures disponibles sur la gauche pour ouvrir le créateur de mesures calculées.
-6. Attribuez à cette mesure calculée les paramètres suivants :
-   * Nom : compression sur plusieurs appareils
-   * Format : pourcentage
-   * Nombre de décimales : 2
-   * Définition : `[Static Number: 1] minus [People] divided by [Unique Devices]`
-      > [!TIP] Cliquez sur Ajouter dans le coin supérieur droit de la zone de définition pour ajouter un nombre statique. Faites glisser Personnes et Appareils uniques dans la liste des mesures disponibles sur la gauche.
-7. Cliquez sur Enregistrer.
-8. Faites glisser la nouvelle mesure calculée vers la zone de travail directement à droite de l’en-tête de mesures Personnes, afin de placer les trois mesures côte à côte.
-9. Facultatif : l’espace de travail charge la dimension Jour par défaut. Faites glisser une autre dimension de date, comme une semaine ou un mois au-dessus de la dimension Jour si vous souhaitez une granularité du temps différente.
+* **Note spéciale à l&#39;intention des membres du Graphique** coopératif : Indique la partie de votre suite de rapports qui contient des visiteurs dans les régions où le graphique coopératif est pris en charge et les régions où il n’est pas pris en charge.
+* **Identification des utilisateurs**: Indique la fréquence à laquelle les visiteurs de votre site sont identifiés à l’aide de méthodes basées sur les analyses multipériphériques.
+* **Mesure de la taille** de l’audience : Affiche une comparaison entre &quot;Dispositifs uniques&quot; et &quot;Personnes&quot;. La proportion de ces deux nombres est connue sous le nom de &quot;compression inter-périphériques&quot;, une mesure calculée visible dans ce panneau. Cette mesure de compression dépend d’un large éventail de facteurs :
+   * Utilisation du graphique Co-op ou du graphique Privé : en général, les entreprises qui utilisent le Device Co-op ont tendance à voir de meilleurs taux de compression que les celles qui utilisent le graphique Privé.
+   * Taux de connexion : plus les utilisateurs se connectent sur votre site, plus Adobe est en mesure d’identifier et de regrouper les visiteurs entre plusieurs appareils. Les sites qui présentent un faible taux de connexion ont aussi de faibles taux de compression.
+   * Couverture d’Experience Cloud ID : seuls les visiteurs avec un ECID peuvent être regroupés. Un pourcentage plus faible de visiteurs qui accèdent à votre site en utilisant un ECID correspond à des taux de compression plus faibles.
+   * Utilisation de plusieurs appareils : si les visiteurs qui se rendent sur votre site n’utilisent pas plusieurs appareils, les taux de compression sont plus faibles.
+   * Granularité des rapports : la compression par jour est généralement plus petite que la compression par mois ou par année. Les chances qu’une personne utilise plusieurs appareils sont moindres au cours d’un seul jour qu’au cours d’un mois entier. La segmentation, le filtrage ou l’utilisation de dimensions de ventilation peuvent également indiquer un taux de compression plus faible.
+* **Segments** basés sur les personnes : Contient une liste déroulante de segments qui vous permet d’afficher des données spécifiques au périphérique. Ce panneau encourage l’expérimentation de segments afin de voir comment l’inclusion ou l’exclusion des types de périphériques affectent les rapports.
+* **Analyse du parcours** inter-périphériques : Fournit des rapports de flux et d’abandons en fonction du type de périphérique.
+* **Attribution** sur plusieurs périphériques : Combinez les caractéristiques de Journey IQ et d’Attribution IQ.
+* **Autres conseils et astuces**: Rubriques utiles sur l&#39;ADC qui vous permettent de mieux l&#39;utiliser.
