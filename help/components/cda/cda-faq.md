@@ -2,7 +2,7 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -33,11 +33,11 @@ L’utilisation du type de périphérique mobile comme illustré ci-dessus vous 
 
 Adobe traite les accès horodatés comme s’ils avaient été reçus au moment de l’horodatage et non lorsqu’Adobe a reçu l’accès. Les accès horodatés de plus d’un mois ne peuvent pas être regroupés, car ils sont considérés comme étant hors de la période de conservation des données utilisées pour le regroupement par Adobe.
 
-**De quelle manière les analyses entre appareils se comparent-elles à l’identifiant visiteur personnalisé ?**
+**En quoi l’ACD se compare-t-il aux identifiants visiteur personnalisés ?**
 
 [L’identifiant visiteur personnalisé](/help/implement/vars/config-vars/visitorid.md) est une méthode héritée qui permet de [connecter des utilisateurs sur plusieurs périphériques](/help/implement/js/xdevice-visid/xdevice-connecting.md). Avec un identifiant visiteur personnalisé, vous utilisez la variable `s.visitorID` pour définir explicitement l’identifiant utilisé pour la logique du visiteur. La variable `s.visitorID` remplace les éventuels identifiants basés sur les cookies en présence.
 
-Les identifiants visiteur personnalisés ont un certain nombre d’effets secondaires indésirables que les analyses entre appareils est en mesure de surmonter ou de minimiser. Par exemple, la méthodologie d’identifiant visiteur personnalisé ne comporte aucune fonctionnalité de recherche en amont. Si un utilisateur s’authentifie au milieu d’une visite, la première partie de la visite s’associe à un autre identifiant visiteur que celui de la seconde partie de la visite. Les identifiants visiteur séparés génèrent un gonflement des visites et des visiteurs. L’intervalle de recherche en amont de 30 jours des analyses entre appareils lui permet de revenir dans le temps pour indiquer à nouveau que le comportement antérieur appartient à la même personne, en associant le comportement non authentifié entre appareils à un comportement authentifié entre périphériques avec une inflation nulle ou minimale.
+Les identifiants de visiteur personnalisés ont plusieurs effets secondaires indésirables que l’ADC surmonte ou minimise. Par exemple, la méthodologie d’identifiant visiteur personnalisé ne comporte aucune fonctionnalité de recherche en amont. Si un utilisateur s’authentifie au milieu d’une visite, la première partie de la visite s’associe à un autre identifiant visiteur que celui de la seconde partie de la visite. Les identifiants visiteur séparés génèrent un gonflement des visites et des visiteurs. L’intervalle de recherche en amont de 30 jours des analyses entre appareils lui permet de revenir dans le temps pour indiquer à nouveau que le comportement antérieur appartient à la même personne, en associant le comportement non authentifié entre appareils à un comportement authentifié entre périphériques avec une inflation nulle ou minimale.
 
 **Puis-je effectuer une mise à niveau depuis un identifiant visiteur personnalisé vers les analyses entre appareils ?**
 
@@ -50,3 +50,28 @@ Dans certains cas, il est possible que plusieurs personnes se connectent à part
 **Comment le graphique de l’appareil gère-t-il les situations où une seule personne a BEAUCOUP d’appareils/d’ECID ?**
 
 Dans certains cas, un utilisateur individuel peut s’associer à un grand nombre d’ECID. Cela peut se produire s’il utilise un grand nombre de navigateurs ou d’applications et peut être exacerbé s’il lui arrive régulièrement de supprimer les cookies ou d’utiliser le mode de navigation privé ou incognito du navigateur. Le Device Graph limite à 200 le nombre d’ECID liés à un ID utilisateur donné. Si un ID utilisateur est associé à un trop grand nombre d’ECID, le Device Graph suppose que l’ID utilisateur n’est pas valide et supprime la grappe qui lui est associée. L’ID utilisateur est alors mis sur liste noire afin de ne plus être mis en grappe à l’avenir. Par conséquent, le comportement de l’ID utilisateur n’est pas regroupé sur plusieurs appareils.
+
+**Quelle est la différence entre la mesure Personnes dans CDA et la mesure Visiteurs uniques en dehors de CDA ?**
+
+La mesure Personnes est similaire à la mesure Visiteurs uniques en ce sens qu’elle indique le nombre d’individus uniques. Toutefois, lorsque vous utilisez Analytics sur plusieurs périphériques, les visiteurs uniques sont combinés lorsqu’ils sont enregistrés en tant que visiteurs uniques distincts en dehors de CDA. La mesure Personnes remplace la mesure Visiteurs uniques lorsque Analytics sur plusieurs périphériques est activé.
+
+**Quelle est la différence entre la mesure &quot;Périphériques uniques&quot; dans CDA et la mesure &quot;Visiteurs uniques&quot; en dehors de CDA ?**
+
+Ces deux mesures sont à peu près équivalentes l&#39;une à l&#39;autre.
+
+**Puis-je inclure des mesures CDA à l’aide de l’API 2.0 ?**
+
+Oui. Analysis Workspace utilise l’API 2.0 pour demander des données aux serveurs d’Adobe et vous pouvez afficher les appels d’API utilisés par Adobe pour créer vos propres rapports :
+
+1. Lorsque vous êtes connecté à Analysis Workspace, ouvrez les outils de développement de votre navigateur (F12 pour la plupart des navigateurs).
+1. Dans la console du navigateur, saisissez `adobeTools.showDebugger()`. La page se recharge avec les icônes de débogage dans le coin supérieur droit de chaque panneau.
+1. Cliquez sur l’icône de débogage dans le panneau souhaité, puis sélectionnez la visualisation souhaitée et l’heure de la requête.
+1. Recherchez la requête JSON, que vous pouvez utiliser dans votre appel d’API à Adobe.
+
+**Analytics sur plusieurs périphériques peut associer des visiteurs uniques. Peut-il assembler les visites ?**
+
+Oui. Si une personne envoie des accès à partir de deux périphériques distincts dans le délai d’expiration de visite de votre suite de rapports virtuelle (30 minutes par défaut), ils sont assemblés dans la même visite.
+
+**Quel est l’identifiant visiteur ultime utilisé par CDA ? Puis-je l’exporter à partir d’Adobe Analytics ?**
+
+Analytics sur plusieurs périphériques calcule les données assemblées à l’aide d’un &quot;ID de grappe&quot;. Cet identifiant est calculé par Adobe au moment de l’exécution du rapport, également appelé traitement au moment du rapport. La nature du traitement des rapports signifie qu’il n’est pas compatible avec l’entrepôt de données, les flux de données ou d’autres fonctionnalités d’exportation offertes par Adobe.
