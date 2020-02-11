@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Créez des fonctions de rappel après l’envoi d’un accès à Adobe.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 ---
 
@@ -15,7 +15,7 @@ La `registerPostTrackCallback` variable permet à votre entreprise d’associer 
 
 Chaque fois que vous appelez la `registerPostTrackCallback` variable, vous pouvez associer cette fonction pour qu’elle s’exécute immédiatement après l’envoi réussi d’une demande d’image. Evitez d’enregistrer la même fonction plusieurs fois au même chargement de page.
 
-> [!NOTE] Le timing et l&#39;ordre des fonctions déclenchées entre `registerPostTrackCallback` et `registerPostTrackCallback` ne sont pas garantis. Evitez les dépendances entre ces deux fonctions.
+> [!NOTE] Le timing et l&#39;ordre des fonctions déclenchées entre `registerPreTrackCallback` et `registerPostTrackCallback` ne sont pas garantis. Evitez les dépendances entre ces deux fonctions.
 
 ## Enregistrer le rappel de suivi de publication dans Adobe Experience Platform Launch
 
