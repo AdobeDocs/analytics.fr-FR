@@ -2,7 +2,7 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 translation-type: tm+mt
-source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
+source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
 
 ---
 
@@ -28,7 +28,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
    * Adobe Campaign, composant d’Adobe Experience Cloud. Plus d’informations sur [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Canal : Peut se référer à :
    * Variable de canal, qui renseigne la dimension Sections du site. Voir [channel](../implement/vars/page-vars/channel.md) dans le guide de l’utilisateur Mise en oeuvre.
-   * Canaux marketing, composant qui permet de comprendre comment les utilisateurs accèdent à votre site. Voir Canaux [](/help/components/c-marketing-channels/c-overview.md) marketing dans le guide de l’utilisateur Composants.
+   * Canaux marketing, composant qui permet de comprendre comment les utilisateurs accèdent à votre site. Voir Canaux [](/help/components/c-marketing-channels/mc-analyze/analyze-mc.md) marketing dans le guide de l’utilisateur Composants.
 * **** Classification : Fonctionnalité d’Adobe Analytics qui permet le regroupement des valeurs de dimension. Voir [Classifications](/help/components/c-classifications2/c-classifications.md) dans le guide de l’utilisateur Composants.
 * **** ClickMap : Plus utilisé. Module complémentaire hérité du navigateur qui indique les zones de votre site sur lesquelles les visiteurs ont le plus cliqué. Cet outil a été retiré en faveur de Carte d’activités.
 * **** Flux de données de parcours de navigation : Voir Flux de données.
@@ -68,7 +68,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **** Propriétés de liste : Paramètre qui convertit une variable de trafic standard afin de prendre en charge plusieurs valeurs dans le même accès. Toute variable de trafic personnalisée peut devenir une propriété de liste si le paramètre est activé. Voir [prop](../implement/vars/page-vars/prop.md) dans le guide de l’utilisateur Mise en oeuvre.
 * **** Variable de liste : Variable distincte distincte des variables de conversion. Les variables de liste prennent en charge plusieurs valeurs dans un même accès et les valeurs de variable sont conservées dans une visite, comme les variables de conversion. Seules trois variables de liste sont disponibles pour une organisation. Voir [la liste](../implement/vars/page-vars/list.md) dans le guide de l’utilisateur Mise en oeuvre.
 * **** Connexion société : Collection de suites de rapports utilisées par votre organisation. Certaines organisations ont plusieurs sociétés de connexion qui s’appliquent à différentes parties de leur organisation.
-* **** Canal marketing : Fonctionnalité d’Adobe Analytics qui classe les accès en fonction de leur accès à votre site. La logique utilisée pour classer les accès peut être personnalisée à l’aide des règles de traitement des canaux marketing. Voir [Prise en main des canaux](/help/components/c-marketing-channels/c-getting-started-mchannel.md) marketing dans le guide de l’utilisateur Composants.
+* **** Canal marketing : Fonctionnalité d’Adobe Analytics qui classe les accès en fonction de leur accès à votre site. La logique utilisée pour classer les accès peut être personnalisée à l’aide des règles de traitement des canaux marketing. Voir [Prise en main des canaux](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) marketing dans le guide de l’utilisateur Composants.
 * **** Mesure : Type de composant contenant des données quantitatives. Les valeurs de mesure contiennent généralement des nombres, tels que Pages vues, Visites et Recettes. Une dimension est généralement son homologue.
 * **** Balisage multi-suite : Cette pratique consiste à envoyer le même accès à plusieurs suites de rapports. Avec l’introduction aux suites de rapports virtuelles, cette pratique n’est plus en grande partie nécessaire. La plupart des efforts de balisage multi-suite permettent d’adapter une suite de rapports globale.
 * **** Normalisation : Une méthode d’organisation d’une visualisation qui prend toutes les mesures et les force à des proportions égales, permettant ainsi une comparaison plus facile des tendances.
