@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
 
 ---
 
@@ -103,7 +103,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Importation navigateur](c-classifications2/c-classifications-importer/browser-import.md)
       + [Importation FTP](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + Créateur de règles de classification {#classifications-rulebuilder}
-      + [Workflow du créateur de règles de classification ](c-classifications2/crb/classification-rule-builder.md)
+      + [Workflow du créateur de règles de classification](c-classifications2/crb/classification-rule-builder.md)
       + [Jeux de règles de classification](c-classifications2/crb/classification-rule-set.md)
       + [Règles de classification](c-classifications2/crb/classification-quickstart-rules.md)
       + [Règles de classification – Définitions](c-classifications2/crb/classification-rule-definitions.md)
@@ -162,7 +162,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Gestion des droits numériques (DRM)](c-variables/dimensionslist/reports-drm.md)
       + [Domaines](c-variables/dimensionslist/reports-domains.md)
       + [Entrées et sorties](c-variables/dimensionslist/reports-entries-exits.md)
-      + [Liens de sortie ](c-variables/dimensionslist/reports-exit-links.md)
+      + [Liens de sortie](c-variables/dimensionslist/reports-exit-links.md)
       + [Abandon](c-variables/dimensionslist/reports-fallout.md)
       + [Téléchargements de fichiers](c-variables/dimensionslist/reports-file-downloads.md)
       + [Méthodes de recherche](c-variables/dimensionslist/reports-finding-methods.md)
@@ -174,7 +174,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Type d’accès](c-variables/dimensionslist/report-hit-type.md)
       + [Prise en charge des images](c-variables/dimensionslist/reports-image-support.md)
       + [Services d’informations](c-variables/dimensionslist/reports-information-services.md)
-      + [Prise en charge de JavaScript ](c-variables/dimensionslist/reports-javascript.md)
+      + [Prise en charge de JavaScript](c-variables/dimensionslist/reports-javascript.md)
       + [Version JavaScript](c-variables/dimensionslist/reports-java-version.md)
       + [Mesures clés](c-variables/dimensionslist/reports-key-metrics.md)
       + [Visiteurs clés](c-variables/dimensionslist/reports-key-visitor.md)
@@ -209,7 +209,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Pages introuvables](c-variables/dimensionslist/reports-pages-not-found.md)
       + [Moteurs de recherche payante](c-variables/dimensionslist/reports-paid-search-engines.md)
       + [Mots-clés de recherche payante](c-variables/dimensionslist/reports-paid-search-keywords.md)
-      + [PathFinder](c-variables/dimensionslist/report-pathfinder.md)
+      + [Pathfinder](c-variables/dimensionslist/report-pathfinder.md)
       + [Longueur de chemin](c-variables/dimensionslist/reports-path-length.md)
       + [Cheminement](c-variables/dimensionslist/pathing.md)
       + [Chemins](c-variables/dimensionslist/reports-paths.md)
@@ -308,7 +308,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Recettes](c-variables/c-metrics/metrics-revenue.md)
       + [Recherches](c-variables/c-metrics/metrics-searches.md)
       + [Accès unique](c-variables/c-metrics/metrics-single-access.md)
-      + [Durée de la visite](c-variables/c-metrics/metrics-time-spent.md)
+      + [Durée](c-variables/c-metrics/metrics-time-spent.md)
       + [Total](c-variables/c-metrics/metrics-total.md)
       + [Visiteurs uniques](c-variables/c-metrics/metrics-unique-visitors.md)
       + [Unités](c-variables/c-metrics/metrics-units.md)
@@ -327,24 +327,25 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Configuration de rapports en temps réel](c-real-time-reporting/t-realtime-admin.md)
    + [Mesures et dimensions en temps réel prises en charge](c-real-time-reporting/realtime-metrics.md)
 + Canaux marketing {#marketing-channels}
-   + [Prise en main des canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
-   + [À propos des rapports sur les canaux marketing](c-marketing-channels/c-overview.md)
-   + [À propos des canaux et des règles](c-marketing-channels/c-channels-rules.md)
-   + [Configuration automatique](c-marketing-channels/c-channel-autosetup.md)
-   + [Gestion des canaux marketing](c-marketing-channels/c-channels.md)
-   + [Canal interne (actualisation de session)](c-marketing-channels/session-refresh.md)
-   + [Règles de traitement des canaux marketing](c-marketing-channels/c-rules.md)
-   + [Création de règles de traitement des canaux marketing](c-marketing-channels/t-rules.md)
-   + [Règles de traitement des canaux marketing - Définitions](c-marketing-channels/r-channel-rule-definitions.md)
-   + [Questions fréquentes et exemples](c-marketing-channels/c-faq.md)
-   + [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](c-marketing-channels/t-template.md)
-   + [Classifications des canaux marketing](c-marketing-channels/classifictions-mchannel.md)
-   + [Expiration de l’engagement des visiteurs](c-marketing-channels/visitor-engagement.md)
-   + [Mesures utilisées dans les rapports sur les canaux marketing](c-marketing-channels/c-overview-metrics.md)
-   + [Mesures calculées utilisées dans les rapports sur les canaux marketing](c-marketing-channels/c-channel-calc-metrics.md)
-   + [Coûts et budgets](c-marketing-channels/c-overview-budget.md)
-   + [Ajout de données hors ligne](c-marketing-channels/t-offline-data.md)
-   + [Accès aux rapports](c-marketing-channels/c-channel-report-access.md)
-   + [Configuration de l’accès des groupes d’utilisateurs](c-marketing-channels/t-user-groups.md)
-   + [Octroi de droits d’administration limités](c-marketing-channels/t-admin-rights.md)
-   + [Exécution de rapports sur les canaux marketing](c-marketing-channels/t-reports-sc.md)
+   + [Commencer avec les canaux] marketing {#mc-get-started}
+      + [Prise en main](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
+      + [Configuration automatique](c-marketing-channels/getting-started/c-channel-autosetup.md)
+      + [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](c-marketing-channels/getting-started/t-template.md)
+   + [Gestionnaire] des canaux marketing {#mc-manager}
+      + [Gestion des canaux marketing](c-marketing-channels/mark-channel-mgr/c-channels.md)
+      + [À propos des canaux et des règles](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
+   + [Règles] de traitement des canaux marketing {#mc-proc-rules}
+      + [Règles de traitement des canaux marketing](c-marketing-channels/mc-proc-rules/c-rules.md)
+      + [Création de règles de traitement des canaux marketing](c-marketing-channels/mc-proc-rules/t-rules.md)
+      + [Critères de règle Canal marketing](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
+      + [Canal interne (actualisation de session)](c-marketing-channels/mc-proc-rules/session-refresh.md)
+   + [Classifications] des canaux marketing {#mc-classifications}
+      + [Classifications des canaux marketing](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
+   + [Expiration] des canaux marketing {#mc-expire}
+      + [Expiration de l’engagement des visiteurs](c-marketing-channels/mc-expiration/visitor-engagement.md)
+   + [Analyse des canaux] marketing {#mc-analyze}
+      + [Analyse des canaux marketing](c-marketing-channels/mc-analyze/analyze-mc.md)
+   + [Accès aux canaux] marketing {#mc-access}
+      + [Autorisations des canaux marketing](c-marketing-channels/mc-access/c-channel-report-access.md)
+   + [FAQ sur] le canal marketing {#mc-faq}
+      + [FAQ sur les canaux marketing et exemples](c-marketing-channels/mc-faq/c-faq.md)
