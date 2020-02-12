@@ -3,7 +3,7 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 
 ---
 
@@ -14,7 +14,13 @@ Notes de mise à jour cumulées pour [!DNL AppMeasurement] pour JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Vous pouvez télécharger la dernière version d’AppMeasurement dans le Gestionnaire de [code](/help/admin/admin/code-manager-admin.md).
+Vous pouvez télécharger la dernière version d’AppMeasurement dans le Gestionnaire [de]code (/help/admin/admin/code-manager-admin.md).
+
+## Version 2.18.0
+
+Date de publication : **20 février 2020**
+
+* AppMeasurement peut désormais forcer les cookies à inclure la balise sécurisée en définissant `writeSecureCookies` sur &quot;true&quot;. Ce paramètre nécessite que le site Web du client entier soit servi de manière sécurisée (https). (AN-204604)
 
 ## Version 2.17.0
 
@@ -228,7 +234,7 @@ Date de publication : **16 juin 2016**
 Date de publication : **21 avril 2016**
 
 * The [!DNL AppMeasurement] Activity Map module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. En outre, le suivi d’Activity Map est activé par défaut. (AN-112689)
-* Correction d’un problème de troncation lié à l’ordre des variables de chaîne de requête dans [!DNL AppMeasurement], afin que *`pageURLRest`*soit le dernier. (AN-114647)
+* Correction d’un problème de troncation lié à l’ordre des variables de chaîne de requête dans [!DNL AppMeasurement], afin que *`pageURLRest`* soit le dernier. (AN-114647)
 
 ## Version 1.5.4
 
@@ -262,8 +268,8 @@ Date de publication : **17 septembre 2015**
 
 Date de publication : **18 juin 2015**
 
-* Prise en charge de l’API visiteur version 1.5 qui utilise la méthode *`getCustomerIDs`*pour rassembler les ID de client et l’état authentifié et envoyer les ID avec les demandes de collecte de données.
-* Correction d’un problème lié à la création d’iframe de destination en double dans le module **[!UICONTROL AudienceManagement]**(DIL 6.1).
+* Prise en charge de l’API visiteur version 1.5 qui utilise la méthode *`getCustomerIDs`* pour rassembler les ID de client et l’état authentifié et envoyer les ID avec les demandes de collecte de données.
+* Correction d’un problème lié à la création d’iframe de destination en double dans le module **[!UICONTROL AudienceManagement]** (DIL 6.1).
 * Correction du problème connu décrit dans la version 1.4.5.
 
 ## Version 1.4.5
@@ -290,7 +296,7 @@ Date de publication : **16 avril 2015**
 Date de publication : **19 février 2015**
 
 * Homogénéisation de la gestion de tous les appels de suivi retardés, avec correction des problèmes liés aux variables sauvegardées durant le retard (par exemple l’objet sur lequel on a cliqué).
-* Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand *`s.referrer`*a été manuellement défini avant le premier appel de suivi.
+* Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
 * Le fichier compressé de distribution a été mis à jour pour inclure l’API visiteur 1.3.5.
 
 ## Version 1.4.2
@@ -298,7 +304,7 @@ Date de publication : **19 février 2015**
 Date de publication : **15 janvier 2015**
 
 * Correction d’un problème lors de la gestion du prérendu WebKit afin d’empêcher le suivi des pages prérendues qui ne sont pas consultées.
-* Le fichier compressé de distribution a été mis à jour afin d’inclure l’API visiteur 1.3.4 et un module **[!UICONTROL AudienceManagement]**mis à jour qui inclut la bibliothèque d’intégration des données (DIL) version 5.5.
+* Le fichier compressé de distribution a été mis à jour afin d’inclure l’API visiteur 1.3.4 et un module **[!UICONTROL AudienceManagement]** mis à jour qui inclut la bibliothèque d’intégration des données (DIL) version 5.5.
 
 ## Version 1.4.1
 
@@ -328,7 +334,7 @@ Date de publication : **18 septembre 2014**
 Date de publication : **21 août 2014**
 
 * La suppression du suivi des modules externes de navigateur (paramètre de requête `p`) en tant que modules externes n’est plus reportée dans la version 15.
-* Ajout du module **[!UICONTROL AudienceManagement]**dans le fichier compressé de téléchargement.
+* Ajout du module **[!UICONTROL AudienceManagement]** dans le fichier compressé de téléchargement.
 * Ajout de la prise en charge des eVars (76 à 250) et événements (101 à 1000) supplémentaires.
 
 > [!NOTE] Le code H ne prend pas en charge les eVars et événements supplémentaires.
