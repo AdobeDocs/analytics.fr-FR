@@ -2,7 +2,7 @@
 title: Analyses entre appareils
 description: Les analyses entre appareils font en sorte que vos données ne soient plus axées sur l’appareil, mais plutôt sur la personne, en regroupant les données de l’appareil.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
 
 ---
 
@@ -55,7 +55,8 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * L’assistance clientèle ne prend pas encore entièrement en charge cette fonctionnalité. Le forum [Analyses entre appareils](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) peut être utilisé pour la prise en charge de cette fonctionnalité, qui inclut une participation active et directe des responsables produits Adobe.
 * Les analyses entre appareils utilisent une suite de rapports virtuelle et le traitement du temps de la période de rapport, qui ont leurs propres limites. Voir [Suites de rapports virtuelles](../vrs/vrs-about.md) et [traitement de la période de rapport](../vrs/vrs-report-time-processing.md) pour en savoir plus sur ces limitations.
 * L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le créateur de rapports reposent tous deux sur l’API 1.4 et ne sont donc pas compatibles avec CDA.
-* Les nouveaux appareils qui visitent votre site peuvent prendre jusqu&#39;à deux semaines pour être traités par le graphique Co-op. Le niveau de groupement dans les analyses entre appareils pour les deux dernières semaines est généralement inférieur à celui des plages de dates datant de plus de deux semaines. Adobe prévoit d’améliorer le service d’identité d’Adobe Experience Platform afin de regrouper de nouveaux périphériques en temps réel à l’avenir.
+* Si votre entreprise utilise le graphique privé, les nouveaux périphériques peuvent être assemblés pendant 24 heures.
+* Les nouveaux appareils qui visitent votre site peuvent prendre jusqu&#39;à deux semaines pour être traités par le graphique Co-op. Le niveau de groupement dans les analyses entre appareils pour les deux dernières semaines est généralement inférieur à celui des plages de dates datant de plus de deux semaines. Adobe prévoit d’améliorer à l’avenir le graphique Co-op pour le mettre à jour quotidiennement.
 * Les données historiques de la suite de rapports virtuelle changent en fonction de la reconnaissance par Adobe des périphériques et de leur regroupement. Les données de la suite de rapports source ne changent pas.
 
 Une fois que toutes les conditions requises sont remplies et que vous avez compris les limites, vous pouvez commencer à [configurer Analytics sur plusieurs appareils](cda-setup.md).
