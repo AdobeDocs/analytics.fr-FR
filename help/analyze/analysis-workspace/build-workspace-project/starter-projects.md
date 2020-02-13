@@ -3,7 +3,7 @@ description: valeur nulle
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
 
 ---
 
@@ -12,23 +12,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Modèles {#topic_40932F09E18A467983AFBB29908E1CB8}
 
-Vous pouvez choisir de créer un projet à partir de :
+Vous pouvez créer un projet d’après :
 
-* un projet vierge (par défaut). Pour plus d’informations, voir [Création d’un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)Analysis Workspace.
-* d’un modèle standard. Ces modèles créés par Adobe sont prêts à l’emploi ;
-* d’un modèle personnalisé. Ces modèles peuvent être créés par des utilisateurs disposant de droits d’administrateur ou par des non-administrateurs, à condition qu’ils aient obtenu l’autorisation « Enregistrer en tant que modèle ». (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
+* **Projet vierge (par défaut)**: Pour plus d’informations, voir [Création d’un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)Analysis Workspace.
+* **Modèle** standard : Ces modèles sont créés par Adobe et livrés avec le produit.
+* **Modèle** personnalisé : Ces modèles peuvent être créés, partagés ou supprimés par les utilisateurs disposant de droits d’administration ou par des non-administrateurs, à condition qu’ils aient obtenu l’autorisation [!UICONTROL Analysis Workspace: Save as Template] dans la Console d’administration. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
-
-* [Création d’un modèle personnalisé](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
-* [Modèles standard](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
 ## Création d’un modèle personnalisé {#create-custom-template}
 
 Les utilisateurs dotés de droits d’administration peuvent convertir n’importe quel projet qu’ils créent en un modèle personnalisé. Procédez comme suit :
 
 1. Ouvrez le projet.
-1. Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Save As Template]**.
+1. Accédez à **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
@@ -36,108 +33,78 @@ Les utilisateurs dotés de droits d’administration peuvent convertir n’impor
 
    >[!NOTE]
    >
-   >Par défaut, les modèles de projet sont visibles par tous les membres de votre entreprise. Vous pouvez organiser les modèles en leur appliquant des balises. (Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
+   >Par défaut, toutes les personnes de l’organisation ont accès aux modèles de projet. Vous pouvez organiser les modèles en leur appliquant des balises. (Accédez à **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** pour modifier les balises et les descriptions.)
 
 ### Actions possibles sur les modèles personnalisés
 
 ![](assets/custom_templates.png)
 
-<table id="table_D7C7B0CA1EE64E108484C03426800EBC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Action </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Modifier      le modèle </p> </td> 
-   <td colname="col2"> <p>Permet à un administrateur de modifier le modèle en changeant sa source de données, en modifiant les composants, les visualisations, les plages de dates, etc. </p> <p>Pour modifier un modèle personnalisé, procédez de l’une des manières suivantes : </p> 
-    <ul id="ul_2B3A371F83334E14806385753A360903"> 
-     <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">affichez la liste des modèles personnalisés dans Analysis Workspace, sélectionnez-en un, puis cliquez sur <span class="uicontrol">Modifier le modèle</span> ; ou </li> 
-     <li id="li_4934DAAA46204990A295E22A97F81EDA">dans Analytics, sélectionnez <span class="ignoretag"><span class="uicontrol">Composants</span> &gt; <span class="uicontrol">Projets</span></span>, puis filtrez les projets en fonction des <span class="uicontrol">Modèles</span>. Cliquez sur le nom du modèle à modifier. </li> 
-    </ul> <p> </p> <p>Remarque : Après avoir modifié un modèle, deux options se présentent, selon le cas : <span class="uicontrol">Enregistrer</span> ou <span class="uicontrol">Enregistrer sous</span>. Ces deux options diffèrent comme suit : 
-     <ul id="ul_87E2842C8AA442399585B1C6189F5E16"> 
-      <li id="li_AB7B189729E14E40A0141ECE2A24C113"><b>Enregistrer</b> : met à jour le modèle personnalisé pour tous les utilisateurs. Si quelqu’un crée un projet d’après ce modèle personnalisé, il verra les modifications que vous avez apportées. </li> 
-      <li id="li_C85B0B9873A3404D8B443BBD30B37CEB"><b>Enregistrer sous</b> : crée une copie du modèle personnalisé avec vos modifications. </li> 
-     </ul> </p> <p>(En mode de modification, le menu <span class="uicontrol">Partager</span> &gt; <span class="uicontrol">Partager le projet</span> est désactivé.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Rechercher des modèles </p> </td> 
-   <td colname="col2"> <p>Dans la boîte de dialogue Modèles personnalisés, cliquez sur <span class="uicontrol">Rechercher des modèles</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Trier des modèles </p> </td> 
-   <td colname="col2"> <p>Vous pouvez trier les modèles par ordre alphabétique, par pertinence et par date de création. </p> <p>Dans la boîte de dialogue Modèles personnalisés, cliquez sur <span class="uicontrol">Tri :</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Appliquer des balises à un modèle </p> </td> 
-   <td colname="col2"> <p>Ouvrez le modèle et sélectionnez <span class="ignoretag"><span class="uicontrol">Projet</span> &gt; <span class="uicontrol">Informations et paramètres du projet</span></span>. Cliquez sur <span class="uicontrol">Ajouter des balises</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Modifier la description du modèle </p> </td> 
-   <td colname="col2"> <p>Ouvrez le modèle et sélectionnez <span class="ignoretag"><span class="uicontrol">Projet</span> &gt; <span class="uicontrol">Informations et paramètres du projet</span></span>. Double-cliquez sur la description pour la modifier. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Action | Description |
+|--- |--- |
+| Modifier le modèle | Permet à un administrateur de modifier le modèle en changeant sa source de données, en modifiant les composants, les visualisations, les plages de dates, etc.  Pour modifier un modèle personnalisé, procédez de l’une des manières suivantes :<ul><li>affichez la liste des modèles personnalisés dans Analysis Workspace, sélectionnez-en un, puis cliquez sur Modifier le modèle ; ou</li><li>dans Analytics, sélectionnez Composants > Projets, puis filtrez les projets en fonction des Modèles. Cliquez sur le nom du modèle à modifier.</li></ul>**Remarque :** Après avoir modifié un modèle, deux options se présentent, selon le cas : Enregistrer ou Enregistrer sous. Ces deux options diffèrent comme suit :<ul><li>**** Enregistrer : Met à jour le modèle personnalisé pour tous les utilisateurs. Si quelqu’un crée un projet d’après ce modèle personnalisé, il verra les modifications que vous avez apportées.</li><li>**** Enregistrer sous : Crée une copie du modèle personnalisé avec vos modifications. (En mode de modification, le menu Partager > Partager le projet est désactivé.)</li></ul> |
+| Rechercher des modèles | Dans la boîte de dialogue Modèles personnalisés, cliquez sur Rechercher des modèles. |
+| Trier des modèles | Vous pouvez trier les modèles par ordre alphabétique, par pertinence et par date de création.  Dans la boîte de dialogue Modèles personnalisés, cliquez sur Tri :. |
+| Appliquer des balises à un modèle | Ouvrez le modèle et sélectionnez Projet > Informations et paramètres du projet. Cliquez sur Ajouter des balises. |
+| Modifier la description du modèle | Ouvrez le modèle et sélectionnez Projet > Informations et paramètres du projet. Double-cliquez sur la description pour la modifier. |
 
-## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
-Lorsque vous ouvrez un espace de travail pour la première fois, les modèles sont disponibles dans le rail de gauche. Les modèles Analysis Workspace couvrent les cas d’utilisation courants. Ils sont groupés selon le marché vertical auquel ils appartiennent et comprennent différents segments, dimensions, mesures et visualisations, selon la suite de rapports sélectionnée.
+## Modèles standard {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+
+Lorsque vous ouvrez un Workspace pour la première fois, les modèles sont disponibles dans le rail de gauche. Les modèles Analysis Workspace couvrent les cas d’utilisation courants. Ils sont groupés selon le marché vertical auquel ils appartiennent et comprennent différents segments, dimensions, mesures et visualisations, selon la suite de rapports sélectionnée.
 
 Utilisez ces modèles prérenseignés tels quels ou adaptez-les en fonction de vos besoins (en ajoutant des mesures ou des visualisations, ou en les remplaçant, par exemple) et enregistrez-les sous un nouveau nom.
 
 [Modèles standard dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-Voici les modèles disponibles et les questions auxquelles chaque modèle peut répondre :
+Voici les modèles disponibles et les questions auxquelles chaque modèle peut contribuer à répondre :
 
 ### Publicité
 
 >[!IMPORTANT]
 >
->Les modèles de publicité ne sont disponibles que si votre suite de rapports est activée pour Advertising Cloud.
+>Les modèles Publicité sont accessibles uniquement si votre suite de rapports est activée pour Advertising Cloud.
 
-* **Moteurs** de recherche : Ce modèle ventile les tendances publicitaires, les plateformes publicitaires, les mots-clés, les comptes, les campagnes, etc.
+* **Moteurs de recherche** : ce modèle ventile les tendances publicitaires, les plateformes publicitaires, les mots-clés, les comptes, les campagnes, etc.
 
 ### Commerce
 
-* **Magento : Marketing et commerce**: Ce modèle ventile la conversion du commerce électronique en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, page d’entrée, emplacement géographique, etc. Pour une présentation vidéo, voir &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento : Marketing et commerce** : ce modèle ventile la conversion de votre commerce électronique en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, page d’entrée, emplacement géographique, etc. Pour une présentation vidéo, voir >[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Média
 
-* **Consommation** audio : Quel est le contenu le plus consommé et qui attire le plus les utilisateurs ?
-* **Récence - Fréquence - Fidélité**: Qui sont mes fidèles lecteurs ?
+* **Consommation audio** : quel contenu est le plus consommé et attire le plus d’utilisateurs ?
+* **Récence, fréquence, fidélité** : qui sont mes fidèles lecteurs ?
 
 ### Mobile
 
 >[!IMPORTANT]
 >
->Les modèles mobiles ne sont disponibles que si votre suite de rapports est activée pour Mobile.
+>Les modèles mobiles sont accessibles uniquement si votre suite de rapports est activée pour Mobile.
 
-* **** Messagerie : Se concentre sur les performances de la messagerie in-app et push.
-* **** Emplacement : Inclut une carte présentant les données d’emplacement.
-* **** Mesures clés : Surveillez les mesures clés de votre application.
-* **** Utilisation de l’application : Combien d’utilisateurs, de lancements et de premiers lancements l’application a-t-elle eus et quelle était la durée moyenne de la session ?
-* **** Acquisition : Découvrez les performances des liens d’acquisition mobile.
-* **** Performances : Quelles sont les performances de l’application et où les utilisateurs rencontrent-ils des problèmes ?
-* **** Rétention : Qui sont mes fidèles utilisateurs et que font-ils ?
-* **** Voyages : Quels sont les principaux modèles d’utilisation de mon application ?
+* **Message :** est axé sur les performances de la messagerie in-app et push.
+* **Emplacement :** comprend une carte représentant les données de positionnement.
+* **Mesures clés :** sachez de quelle façon se comportent les mesures clés de votre application.
+* **Utilisation de l’application :** combien d’utilisateurs, de lancements et de premiers lancements de l’application avait l’application et quelle est la durée de session moyenne ?
+* **Acquisition :** contrôlez les performances des liens d’acquisition mobile.
+* **Performances :** quelles sont les performances de l’application et où les utilisateurs rencontrent-ils des problèmes ?
+* **Rétention :** qui sont mes fidèles utilisateurs et que font-ils ?
+* **Parcours :** quels sont les schémas d’utilisation dominants de mon application ?
 
 ### Vente au détail
 
-* **** Performances des campagnes : Quelles sont les campagnes qui génèrent le plus de recettes ?
-* **** Produits : Quels sont les produits les plus performants ?
+* **Performances de la campagne :** quelles campagnes génèrent le plus de recettes ?
+* **Produits :** quels produits sont les plus performants ?
 
 ### Web
 
-* **** Acquisition : Quels sont les principaux moteurs de trafic de mon site Web ?
-* **** Consommation de contenu : Quels sont les meilleurs endroits où les gens se rendent sur mon site ?
-* **** Rétention : Quels types d’utilisateurs sont susceptibles d’être des utilisateurs fidèles de mon site ?
-* **** Technologie : Quelle technologie les gens utilisent-ils pour accéder à mon site ?
+* **Acquisition :** quels sont les principaux facteurs orientant le trafic vers mon site web ?
+* **Consommation de contenu :** où se rendent surtout les personnes sur mon site ?
+* **Rétention :** quels types d’utilisateurs seront a priori les plus fidèles à mon site ?
+* **Technologie :** quelle technologie utilisent les visiteurs de mon site ?
 
 ### Personnes
 
-> [!NOTE] Le modèle Personnes et la mesure Personnes qui lui est associée peuvent uniquement être utilisés dans le cadre de l’opération Device Co-op [d’](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)Adobe Experience Cloud.
+> [!NOTE] Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
 
 Le modèle repose sur la mesure Personnes, qui est une version dédupliquée de la mesure Visiteurs uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit :
 
@@ -149,3 +116,21 @@ Le modèle repose sur la mesure Personnes, qui est une version dédupliquée de 
 * Découvrir comment utiliser l’empilement des segments avec la mesure Personnes.
 * Découvrir comment l’utilisation d’Experience Cloud ID dans votre environnement améliore l’efficacité de la mesure Personnes.
 
+### Journey IQ : Modèle Analytics sur plusieurs périphériques
+
+<!-->This content is mirrored in the CDA doc.<-->
+
+Ce modèle vous permet d’afficher des données de performances interpériphériques essentielles. Il est uniquement disponible pour les clients qui ont accès à Analytics [](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) sur plusieurs périphériques (CDA).
+
+* **Note spéciale à l&#39;intention des membres du Graphique** coopératif : Indique la partie de votre suite de rapports qui contient des visiteurs dans les régions où le graphique coopératif est pris en charge et les régions où il n’est pas pris en charge.
+* **Identification des utilisateurs**: Indique la fréquence à laquelle les visiteurs de votre site sont identifiés à l’aide de méthodes basées sur les analyses multipériphériques.
+* **Mesure de la taille** de l’audience : Affiche une comparaison entre &quot;Dispositifs uniques&quot; et &quot;Personnes&quot;. La proportion de ces deux nombres est connue sous le nom de &quot;compression inter-périphériques&quot;, une mesure calculée visible dans ce panneau. Cette mesure de compression dépend d’un large éventail de facteurs :
+   * **Utilisation du graphique coopératif ou du graphique** privé : En général, les organisations qui utilisent la coopérative de l&#39;appareil ont tendance à voir de meilleurs taux de compression que les organisations qui utilisent le graphique privé.
+   * **Taux** de connexion : Plus les utilisateurs se connectent sur votre site, plus Adobe est en mesure d’identifier et de rassembler les visiteurs sur plusieurs périphériques. Les sites qui présentent un faible taux de connexion ont aussi de faibles taux de compression.
+   * **Couverture** d’ID Experience Cloud : Seuls les visiteurs avec un ECID peuvent être assemblés. Un pourcentage plus faible de visiteurs qui accèdent à votre site en utilisant un ECID correspond à des taux de compression plus faibles.
+   * **Utilisation** de plusieurs périphériques : Si les visiteurs de votre site n’utilisent pas plusieurs périphériques, les taux de compression sont plus faibles.
+   * **Granularité** des rapports : La compression par jour est généralement plus petite que la compression par mois ou par année. Les chances qu’une personne utilise plusieurs appareils sont moindres au cours d’un seul jour qu’au cours d’un mois entier. La segmentation, le filtrage ou l’utilisation de dimensions de ventilation peuvent également indiquer un taux de compression plus faible.
+* **Segments** basés sur les personnes : Contient une liste déroulante de segments qui vous permet d’afficher des données spécifiques au périphérique. Ce panneau encourage l’expérimentation de segments afin de voir comment l’inclusion ou l’exclusion des types de périphériques affectent les rapports.
+* **Analyse du parcours** inter-périphériques : Fournit des rapports de flux et d’abandons en fonction du type de périphérique.
+* **Attribution** sur plusieurs périphériques : Combinez les caractéristiques de Journey IQ et d’Attribution IQ.
+* **Autres conseils et astuces**: Rubriques utiles sur l&#39;ADC qui vous permettent de mieux l&#39;utiliser.
