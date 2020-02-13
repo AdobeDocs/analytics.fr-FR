@@ -2,7 +2,7 @@
 title: Plusieurs suites de rapports dans Workspace
 description: Découvrez comment et pourquoi créer des projets dans Workspace avec plusieurs suites de rapports
 translation-type: tm+mt
-source-git-commit: 195681c622b19fc0d701b1758097e7579ebb72f7
+source-git-commit: 1736ada89b02c95aa749ff14165d491fd878a251
 
 ---
 
@@ -10,7 +10,7 @@ source-git-commit: 195681c622b19fc0d701b1758097e7579ebb72f7
 # Plusieurs suites de rapports dans Workspace
 
 >[!IMPORTANT]
->Plusieurs suites de rapports dans Workspace sont actuellement en version limitée. À compter du 20 février 2020, la fonctionnalité sera déployée sur plusieurs semaines pour tous les clients.
+>Plusieurs suites de rapports dans Workspace sont actuellement en version limitée.
 
 Vous pouvez désormais créer des projets dans Analysis Workspace à l’aide de données provenant de plusieurs suites de rapports. Les suites de rapports sont désormais sélectionnées au niveau du panneau. Vous pouvez donc choisir une suite de rapports différente pour chaque panneau du même projet Workspace.
 
