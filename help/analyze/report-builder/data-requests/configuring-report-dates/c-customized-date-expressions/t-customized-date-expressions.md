@@ -4,7 +4,7 @@ title: Expressions de dates personnalisées - Aperçu
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -17,6 +17,10 @@ Pour ce faire, il est recommandé de se référer à un calendrier afin que le n
 
 **Pour activer des expressions personnalisées**
 
-1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 1]**, sélectionnez[!UICONTROL Dates roulantes]**.
-1. Enable **[!UICONTROL Custom Expression]**.
-1. Entrez une expression spéciale dans les champs **De** et **[!UICONTROL A], en respectant les abréviations, les règles de syntaxe et les exemples présentés ci-dessous.**
+1. Sur le [!UICONTROL Request Wizard: Step 1], sélectionnez **[!UICONTROL Rolling Dates]**.
+
+   ![](assets/rolldates1.png)
+
+1. 
+1. Activer **[!UICONTROL Customize Expression]**.
+1. Type a special expression in the **[!UICONTROL From]** and **[!UICONTROL To]** fields, following the abbreviations, syntax rules, and examples given below.
