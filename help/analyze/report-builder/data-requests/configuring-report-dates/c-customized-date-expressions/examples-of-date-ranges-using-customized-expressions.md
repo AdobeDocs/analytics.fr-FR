@@ -4,7 +4,7 @@ title: Exemples de plages de dates utilisant des expressions personnalisées
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -43,10 +43,8 @@ Il est possible de créer des expressions personnalisées couvrant la plupart de
 * Utilisez uniquement ces abréviations : cd cw cm cq cy d w m q y
 * La bonne pratique est d’utiliser la même référence de date pour la date de début et la date de fin : cd, cd ou cw, cw ou cy, cy. Le mélange de références de dates risque d’engendrer des dates incorrectes à certains moments de l’année.
 * Les multiples valides d’abréviations d w m q y sont formés au moyen d’entiers ( 1 2 3 ... ) précédés de l’abréviation, par exemple 53d 3w 5q 9m 2y
-
-   * Les nombres non entiers ne sont pas autorisés.
-   * L’abréviation ne peut pas être précédée d’un simple zéro. Par exemple, 0w n’est pas autorisé.
-
+* Les nombres non entiers ne sont pas autorisés.
+* L’abréviation ne peut pas être précédée d’un simple zéro. Par exemple, 0w n’est pas autorisé.
 * Les opérateurs suivants permettent de concaténer les abréviations : + -
 * Puisqu’on suppose que les périodes sont relatives à la période en cours, le premier terme est une expression qui commence toujours par c.
 
