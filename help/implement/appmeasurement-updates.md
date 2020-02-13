@@ -3,7 +3,7 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le Gestio
 
 ## Version 2.18.0
 
-Date de publication : **20 février 2020**
+Date de publication : **13 février 2020**
 
 * AppMeasurement peut désormais forcer les cookies à inclure la balise sécurisée en définissant `writeSecureCookies` sur &quot;true&quot;. Ce paramètre nécessite que le site Web du client entier soit servi de manière sécurisée (https). (AN-204604)
 
