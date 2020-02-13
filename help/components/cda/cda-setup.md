@@ -2,7 +2,7 @@
 title: Configuration des analyses entre appareils
 description: Découvrez comment configurer les analyses entre appareils une fois que vous avez satisfait aux conditions préalables.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
 
 ---
 
@@ -56,6 +56,8 @@ Adobe propose un modèle permettant d’afficher des données de performances in
 1. Si vous y êtes invité, remplacez la suite de rapports par une suite prenant en charge CDA.
 
 Un projet Analysis Workspace est créé et contient plusieurs panneaux. En haut, une table des matières et une introduction s’affichent, permettant ainsi le contexte du rapport et la navigation vers des rapports individuels. Cliquez sur un lien dans la table des matières ou développez l’accordéon d’un panneau pour afficher ces rapports.
+
+<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
 * **Note spéciale à l&#39;intention des membres du Graphique** coopératif : Indique la partie de votre suite de rapports qui contient des visiteurs dans les régions où le graphique coopératif est pris en charge et les régions où il n’est pas pris en charge.
 * **Identification des utilisateurs**: Indique la fréquence à laquelle les visiteurs de votre site sont identifiés à l’aide de méthodes basées sur les analyses multipériphériques.
