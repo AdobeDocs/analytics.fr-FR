@@ -3,7 +3,7 @@ title: Mises à jour de la documentation Adobe Analytics
 description: Mises à jour de la documentation technique pour Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 ---
 
@@ -20,7 +20,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Date | Description |
 |---|---|
-| 12 février 2020 | Mises à jour et réorganisation de la documentation des canaux marketing. |
+| 12 février 2020 | Mises à jour et réorganisation de la documentation des canaux [](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) marketing. |
 | 7 février 2020 | Mises à jour de la [configuration d’Analytics](../components/cda/cda-setup.md) sur plusieurs périphériques et [FAQ](../components/cda/cda-faq.md) |
 | 4 février 2020 | Réécriture complète du guide [de l’utilisateur de](../implement/home.md)mise en oeuvre. |
 | 22 janvier 2020 | Mise à jour de la page Tableau à structure libre qui inclut des informations sur le nouveau [Générateur de tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
