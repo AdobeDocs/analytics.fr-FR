@@ -2,7 +2,7 @@
 title: Rapports d’acquisition dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur l’acquisition à l’aide d’Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
+source-git-commit: 2e3896501a036e20f9f392c325e0c8ff1d586fba
 
 ---
 
@@ -15,7 +15,7 @@ Dans Adobe Analytics, ces rapports sont appelés canaux **marketing**. Ils néce
 
 > [!IMPORTANT]
 >
-> Configurez vos règles de traitement Canal marketing pour utiliser ces rapports. Voir [Prise en main des canaux](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) marketing pour plus d’informations sur la configuration optimale des canaux marketing dans votre entreprise.
+> Configurez vos règles de traitement Canal marketing pour utiliser ces rapports. Voir [Prise en main des canaux](/help/components/c-marketing-channels/c-getting-started-mchannel.md) marketing pour plus d’informations sur la configuration optimale des canaux marketing dans votre entreprise.
 
 Cette page suppose que l’utilisateur a une connaissance de base de l’utilisation d’Analysis Workspace. Voir [Création d’un rapport de base dans Analysis Workspace pour les utilisateurs](create-report.md) de Google Analytics si vous ne connaissez pas encore l’outil dans Adobe Analytics.
 
