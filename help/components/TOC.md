@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: a4ef07d2cdc45c1d79d99f3a09c479686784891e
+source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
 
 ---
 
@@ -327,25 +327,11 @@ source-git-commit: a4ef07d2cdc45c1d79d99f3a09c479686784891e
    + [Configuration de rapports en temps réel](c-real-time-reporting/t-realtime-admin.md)
    + [Mesures et dimensions en temps réel prises en charge](c-real-time-reporting/realtime-metrics.md)
 + Canaux marketing {#marketing-channels}
-   + Get Started with Marketing Channels {#mc-get-started}
-      + [Prise en main](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
-      + [Configuration automatique](c-marketing-channels/getting-started/c-channel-autosetup.md)
-      + [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](c-marketing-channels/getting-started/t-template.md)
-   + Gestionnaire des canaux marketing {#mc-manager}
-      + [Gestion des canaux marketing](c-marketing-channels/mark-channel-mgr/c-channels.md)
-      + [À propos des canaux et des règles](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
-   + Marketing Channels processing rules {#mc-proc-rules}
-      + [Règles de traitement des canaux marketing](c-marketing-channels/mc-proc-rules/c-rules.md)
-      + [Création de règles de traitement des canaux marketing](c-marketing-channels/mc-proc-rules/t-rules.md)
-      + [Critères de règle Canal marketing](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
-      + [Canal interne (actualisation de session)](c-marketing-channels/mc-proc-rules/session-refresh.md)
-   + Classifications des canaux marketing {#mc-classifications}
-      + [Classifications des canaux marketing](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
-   + Expiration des canaux marketing {#mc-expire}
-      + [Expiration de l’engagement des visiteurs](c-marketing-channels/mc-expiration/visitor-engagement.md)
-   + Analyse des canaux marketing {#mc-analyze}
-      + [Analyse des canaux marketing](c-marketing-channels/mc-analyze/analyze-mc.md)
-   + Accès aux canaux marketing {#mc-access}
-      + [Autorisations des canaux marketing](c-marketing-channels/mc-access/c-channel-report-access.md)
-   + FAQ sur les canaux marketing {#mc-faq}
-      + [FAQ sur les canaux marketing et exemples](c-marketing-channels/mc-faq/c-faq.md)
+   + [Commencer avec les canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Gestion des canaux marketing](c-marketing-channels/c-channels.md)
+   + [Règles de traitement des canaux marketing](c-marketing-channels/c-rules.md)
+   + [Classifications des canaux marketing](c-marketing-channels/classifictions-mchannel.md)
+   + [Expiration de l’engagement des visiteurs](c-marketing-channels/visitor-engagement.md)
+   + [Analyse des canaux marketing](c-marketing-channels/analyze-mc.md)
+   + [Autorisations des canaux marketing](c-marketing-channels/c-channel-report-access.md)
+   + [FAQ sur les canaux marketing et exemples](c-marketing-channels/c-faq.md)
