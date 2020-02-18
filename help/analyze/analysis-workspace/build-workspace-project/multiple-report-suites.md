@@ -2,7 +2,7 @@
 title: Plusieurs suites de rapports dans Workspace
 description: Découvrez comment et pourquoi créer des projets dans Workspace avec plusieurs suites de rapports
 translation-type: tm+mt
-source-git-commit: 1736ada89b02c95aa749ff14165d491fd878a251
+source-git-commit: 1a08003170ba07a722927e935ecda26e1d189235
 
 ---
 
@@ -22,16 +22,16 @@ Cette fonctionnalité est utile si vous souhaitez, par exemple,
 
 ## Panneau actif
 
-Cette fonctionnalité présente le concept de &quot;panneau actif&quot; par rapport à &quot;panneau inactif&quot;. Le panneau actif est reconnaissable par la bordure bleue claire autour. Il suffit de cliquer à l’intérieur d’un panneau pour activer ce panneau.
+Cette fonctionnalité présente le concept de &quot;panneau actif&quot; par rapport à &quot;panneau inactif&quot;. Vous pouvez reconnaître le panneau actif par la bordure bleue claire autour. Il suffit de cliquer dans un panneau pour le transformer en panneau actif.
 
 >[!IMPORTANT]
->Vous pouvez faire glisser des composants **uniquement dans le panneau** actif, même si d’autres panneaux possèdent la même suite de rapports. Si vous souhaitez modifier le panneau tout en le faisant glisser et en le déposant, vous pouvez utiliser un raccourci : appuyez sur `shift` la touche lorsque vous faites glisser le curseur pour transformer un panneau inactif en panneau actif.
+>Vous pouvez faire glisser le curseur vers n’importe quel panneau situé dans la même suite de rapports que votre panneau actif. En faisant glisser le panneau vers un panneau inactif de la même suite de rapports, le panneau devient actif.
 
 | Tâche | Panneau actif | Panneau Inactif |
 |---|---|---|
 | Modifier la suite de rapports | Oui | Non |
-| Faire glisser et déposer des composants | Oui | Non |
-| Glisser-déposer des visualisations | Oui | Non |
+| Faire glisser et déposer des composants | Oui | Oui, pour tout panneau situé dans la même suite de rapports que votre panneau actif. |
+| Glisser-déposer des visualisations | Oui | Oui, pour tout panneau situé dans la même suite de rapports que votre panneau actif. |
 
 ## Utilisation de plusieurs suites de rapports
 
@@ -43,18 +43,18 @@ Cette fonctionnalité présente le concept de &quot;panneau actif&quot; par rapp
 
 
    >[!NOTE]
-   >Il arrive qu’un message &quot;Suite de rapports incompatible&quot; s’affiche lors du chargement d’un projet (ou lors du passage à une suite de rapports) lorsque tous les composants inclus dans le projet ne sont pas inclus dans la suite de rapports. Les composants manquants sont répertoriés. Suivez [ces instructions](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) pour définir les autorisations sur les mesures/dimensions requises.
+   >Il arrive qu’une bannière s’affiche lors du chargement d’un projet (ou lors du passage à une suite de rapports) où tous les composants inclus dans le projet ne sont pas inclus dans la suite de rapports. Les composants manquants sont répertoriés. Suivez [ces instructions](/help/admin/admin-console/permissions/product-profile.md) pour définir les autorisations sur les mesures/dimensions requises.
 
    ![](assets/incompat-rs.png)
 
    Vous disposez de 3 options pour gérer cette incompatibilité :
-   * Poursuivez avec certains composants manquants. Cela n’entraînera aucune donnée pour ces composants et/ou des visualisations vides.
-   * Annuler.
+   * Activer les dimensions/mesures requises
    * Modifier la suite de rapports.
+   * Poursuivez avec certains composants manquants. Cela n’entraînera aucune donnée pour ces composants et/ou des visualisations vides.
 
 1. Modifiez le panneau en une autre suite de rapports et notez comment le libellé du composant (suite de rapports active) et les composants répertoriés sont mis à jour en fonction de la nouvelle suite de rapports.
 
-1. Utilisez le raccourci clavier (`shift` lorsque vous faites glisser la souris) pour transformer un panneau inactif en panneau actif.
+1. Utilisez un raccourci clavier (`shift` lorsque vous faites glisser la souris) pour transformer un panneau inactif en panneau actif.
 
 1. (Facultatif) Vous pouvez également accéder à d’autres créateurs de composants Analytics et vous assurer qu’ils affichent désormais une étiquette de suite de rapports indiquant
 
