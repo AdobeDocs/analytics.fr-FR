@@ -2,23 +2,21 @@
 title: Guide de l'utilisateur Labs
 description: Aperçu de projets de prototype pour Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
 
 ---
 
 
 
-# Guide de l'utilisateur Labs
+# Guide de l&#39;utilisateur Labs
 
->[!NOTE] Labs est actuellement commercialisé en tant qu’accès anticipé à un nombre limité de clients, mais sera ensuite largement diffusé.
-
-Les laboratoires permettent un prototypage plus rapide des idées des débuts. Il s’agit d’une combinaison d’outils et de processus qui accélère le développement de manière transparente, en mettant l’accent sur le client. Il permet aux utilisateurs de s'engager dans les nouvelles technologies, de découvrir des informations précieuses et d'influencer le développement et les priorités futurs des fonctionnalités. Vous pouvez utiliser les laboratoires pour accéder rapidement aux innovations d’Analytics et pour évaluer les fonctionnalités à venir dans le contexte de vos propres cas d’utilisation et données d’entreprise.
+Les laboratoires permettent un prototypage plus rapide des idées des débuts. Il s’agit d’une combinaison d’outils et de processus qui accélère le développement de manière transparente, en mettant l’accent sur le client. Il permet aux utilisateurs de s&#39;engager dans les nouvelles technologies, de découvrir des informations précieuses et d&#39;influencer le développement et les priorités futurs des fonctionnalités. Vous pouvez utiliser les laboratoires pour accéder rapidement aux innovations d’Analytics et pour évaluer les fonctionnalités à venir dans le contexte de vos propres cas d’utilisation et données d’entreprise.
 
 ## Conditions
 
 Les laboratoires sont automatiquement activés pour tous les administrateurs. Les autres membres de l’équipe doivent contacter les administrateurs de leurs produits et demander un accès.
 
-Si vous ne l'avez pas déjà fait, lisez et signez les formulaires d'entente de non-divulgation et de conditions générales applicables.
+Si vous ne l&#39;avez pas déjà fait, lisez et signez les formulaires d&#39;entente de non-divulgation et de conditions générales applicables.
 
 ## Accès au portail Labs
 
@@ -36,7 +34,7 @@ Pour lancer et évaluer un prototype :
 
    ![nom du prototype](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Regardez une vidéo qui met en évidence le prototype en cliquant sur **Regarder la vidéo** dans l'angle supérieur droit de l'écran. Cliquez sur le bouton **Fermer** lorsque la vidéo est terminée.
+1. Regardez une vidéo qui met en évidence le prototype en cliquant sur **Regarder la vidéo** dans l&#39;angle supérieur droit de l&#39;écran. Cliquez sur le bouton **Fermer** lorsque la vidéo est terminée.
 
    ![options d’aperçu](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
@@ -58,7 +56,7 @@ Pour lancer et évaluer un prototype :
 
 1. Cliquez sur **Envoyer** pour envoyer vos commentaires.
 
-1. Pour essayer un autre prototype ou quitter l'environnement du prototype, cliquez sur le bouton **Quitter le prototype** dans l'angle supérieur droit de l'écran et effectuez la courte enquête pour le prototype. Toute modification apportée à un projet prototype est perdue à la sortie de l’environnement prototype.
+1. Pour essayer un autre prototype ou quitter l&#39;environnement du prototype, cliquez sur le bouton **Quitter le prototype** dans l&#39;angle supérieur droit de l&#39;écran et effectuez la courte enquête pour le prototype. Toute modification apportée à un projet prototype est perdue à la sortie de l’environnement prototype.
 
    ![nouvelle boîte de commentaires](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
