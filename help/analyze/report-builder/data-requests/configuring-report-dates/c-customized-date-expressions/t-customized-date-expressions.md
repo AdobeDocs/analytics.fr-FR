@@ -4,7 +4,7 @@ title: Expressions de dates personnalisées - Aperçu
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
+source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 ---
 
@@ -34,5 +34,5 @@ Pour ce faire, il est recommandé de se référer à un calendrier afin que le n
 
    Par exemple, si vous modifiez les dates ci-dessus en mois variable, du premier jour il y a trois mois au premier jour du mois, les dates dans la partie Options avancées se mettent à jour pour refléter ce qui suit :
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 
