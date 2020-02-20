@@ -2,7 +2,7 @@
 title: Sources de données d’ID de transaction
 description: Découvrez le processus général d’utilisation des sources de données d’ID de transaction.
 translation-type: tm+mt
-source-git-commit: c54704bef49a2c3076caac6fe7dd3ec8d40596ef
+source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
 
 ---
 
@@ -30,9 +30,8 @@ Si vous avez téléchargé le fichier de sources de données suivant et mis en o
 
 Téléchargez le modèle, mettez à jour les valeurs, puis téléchargez-le vers l’emplacement FTP des sources de données :
 
-| `# Generic Data Source (Transaction ID) template file (user: 0 ds_id: 1)` |  |  |  |
-|---|---|---|---|
 | `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
+|---|---|---|---|
 | `Date` | `Evar 1` | `Event 1` | `transactionID` |
 | `01/01/2020/12/00/00` | `Example eVar1 value` | `1` | `1234` |
 
