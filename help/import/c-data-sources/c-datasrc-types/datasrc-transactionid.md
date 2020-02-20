@@ -1,52 +1,23 @@
 ---
-description: Les ID de transaction peuvent être intégrés en sélectionnant la catégorie Générique (ID de transaction).
-subtopic: Data sources
-title: ID de transaction
-topic: Developer and implementation
-uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
+title: Sources de données d’ID de transaction
+description: Découvrez le processus général d’utilisation des sources de données d’ID de transaction.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
 
 ---
 
 
-# ID de transaction
+# Sources de données d’ID de transaction
 
-Les ID de transaction peuvent être intégrés en sélectionnant la catégorie Générique (ID de transaction).
+Les sources de données d’ID de transaction vous permettent non seulement d’afficher les données en ligne et hors ligne côte à côte, mais également de lier les données ensemble. Elle nécessite l’utilisation de la [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable dans votre implémentation Analytics.
 
-See [Integrating Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
+Lorsque vous envoyez un accès en ligne contenant une `transactionID` valeur, Adobe prend un &quot;instantané&quot; de toutes les variables définies ou conservées à ce moment-là. Si un ID de transaction correspondant transféré via la fonctionnalité Sources de données est trouvé, les données hors ligne et en ligne sont liées. Peu importe quelle source de données est vue en premier.
 
-Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
+## Flux global de travaux des sources de données d’ID de transaction
 
-**Dimensions de l’ID de transaction**
+Utilisez le processus générique suivant pour commencer à utiliser les sources de données d’ID de transaction :
 
-| Nom de la colonne | Description |
-|--- |--- |
-| ID de transaction | (Requis) Valeur unique qui représente une transaction en ligne qui a généré une activité hors ligne. |
-| Date | Utilisez le format de date suivant : MM/JJ/AAAA/HH/mm/SS (par exemple, 01/01/2015/06/00/00). |
-| Code de suivi | Nom du code de suivi. |
-| Catégorie | Nom de la catégorie.  Si vous définissez une catégorie, vous devez également sélectionner un produit. |
-| Canal | Nom du canal. |
-| eVarN | Nom eVarN. Les valeurs valides pour N sont les nombres entiers 1 à 250. |
-| Produit | Nom du produit. |
-| État | Nom de l’état. |
-| Zip | Code postal. |
-
-<p class="head"> <b>Mesures d’ID de transaction</b> </p>
-
-
-
-| Nom de la colonne | Description |
-|--- |--- |
-| Taux de clics | Nombre de consultations du code de suivi. |
-| Ajouts de panier | Nombre d’ajouts de panier. |
-| Ouvertures de panier | Nombre d’ouvertures de panier. |
-| Suppressions de panier | Nombre de suppressions de panier. |
-| Consultations du panier | Nombre de consultations de panier. |
-| Achats | Nombre de passages en caisse. |
-| EventN | Nombre de fois où eventN s’est produit. Les valeurs valides pour N sont les nombres entiers 1 à 1 000.  Si vous définissez un événement de consultation, vous devez également définir la portée de données correspondante (eVar). Si, par exemple, vous incluez des consultations eVar2, vous devez configurer la variable eVar2. |
-| Vues eVarN | Nombre de fois où eVarN a été consultée. Les valeurs valides pour N sont les nombres entiers 1 à 250. |
-| Prix | Prix du produit. |
-| Commandes | Nombre de commandes passées. |
-| Consultations produits | Nombre de consultations de produit. |
-| Quantité | Nombre d’unités vendues. |
+1. Créez une source de données (catégorie &quot;Générique&quot; et type &quot;Source de données générique (ID de transaction)&quot;).
+1. Suivez l’assistant de configuration du flux de données pour obtenir un emplacement FTP pour télécharger des données et un fichier de modèle de sources de données.
+1. Mettez à jour votre implémentation pour inclure la `transactionID` variable.
+1. Téléchargez un fichier de sources de données sur le site FTP avec un `.fin` fichier.
