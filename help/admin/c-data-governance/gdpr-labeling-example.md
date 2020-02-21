@@ -20,7 +20,7 @@ Supposons que vous avez les données d’accès suivantes :
 
 | Étiquettes | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nom de variable**<br>**(espace de noms)** | **MyProp1**<br>**(utilisateur)** | **Identifiant visiteur**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nom de variable **<br>**(espace de noms)** | **MyProp1 **<br>**(utilisateur)** | **Identifiant visiteur **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | Données d’accès | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -42,8 +42,8 @@ Si je soumets une demande d’accès, le fichier récapitulatif contiendra les v
 | user=Mary | false | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | périphérique | non présente | 77, 88 | non présente | N, P | U, W |
-| user=Mary AAID=66 | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary AAID=66 | true | périphérique | non présente | 66, 77, 88 | non présente | N, P | U, W, Z |
+| user=Mary  AAID=66 | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary  AAID=66 | true | périphérique | non présente | 66, 77, 88 | non présente | N, P | U, W, Z |
 | xyz=X | false | périphérique | non présente | 55, 77 | non présente | M, R | X |
 | xyz=X | true | périphérique | non présente | 55, 77 | non présente | M, P, R | W, X |
 
