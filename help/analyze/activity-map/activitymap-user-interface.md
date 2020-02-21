@@ -3,7 +3,7 @@ description: 'L’interface utilisateur d’Activity Map est composée de deux 
 title: Interface utilisateur d’Activity Map
 topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Interface utilisateur d’Activity Map
 
-L’interface utilisateur d’Activity Map est composée de deux parties:
+L’interface utilisateur d’Activity Map est composée de deux parties :
 
 * La fenêtre supérieure avec la page web, les superpositions injectées et la barre d’outils.
 * Un panneau inférieur pour les rapports.
