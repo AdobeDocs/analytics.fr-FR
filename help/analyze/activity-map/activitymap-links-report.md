@@ -3,7 +3,7 @@ description: Le rapport Liens tient compte des liens trouvés sur la page actuel
 title: Rapport sur les liens
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ En mode standard, le rapport Liens sur la page répertorie les données des lien
 <table id="table_3DE41B2CFA644B70AF802A3123CE51D9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Colonne  </th> 
+   <th colname="col1" class="entry"> Colonne </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -37,7 +37,7 @@ En mode standard, le rapport Liens sur la page répertorie les données des lien
   </tr> 
   <tr> 
    <td colname="col1"> ID de lien </td> 
-   <td colname="col2">L’ID principal du lien (pour plus d’informations sur la façon dont l’ID principal est défini par la [Nouvelle méthodologie de suivi des liens] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
+   <td colname="col2">L’ID principal du lien (pour plus d’informations sur la façon dont l’ID principal est défini par la [Nouvelle méthodologie de suivi des liens] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics </td> 
@@ -71,7 +71,7 @@ En mode réel, le rapport Liens sur la page affiche les données de tendance sur
 <table id="table_61D1FB0F02894055A1AB394DE4FE4742"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Colonne  </th> 
+   <th colname="col1" class="entry"> Colonne </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
