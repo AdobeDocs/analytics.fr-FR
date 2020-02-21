@@ -28,7 +28,7 @@ Même si votre entreprise collecte de nombreux ID différents dans vos données 
 * Certains ID peuvent correspondre à plusieurs personnes et vous ne voulez pas risquer de renvoyer des informations relatives à une personne à quelqu’un d’autre possédant le même ID. Par exemple, même si vous pouvez vérifier que le nom de la personne est John Smith, vous ne voulez peut-être pas renvoyer l’intégralité des données relatives à tous les John Smith de votre système.
 * Un autre exemple concerne un ID d’appareil, tel que l’ID de cookie Analytics. Si l’ID apparaît sur une application de téléphone portable, vous pouvez décider que toutes les interactions utilisant cet ID doivent être disponibles pour le propriétaire du téléphone portable en question. Toutefois, s’il apparaît sur un appareil partagé, tel qu’un ordinateur domestique ou un ordinateur dans une bibliothèque ou un cybercafé, vous pouvez estimer que la distinction entre les différents utilisateurs de cet appareil n’est pas possible et que le risque de renvoyer des données relatives à un autre utilisateur est trop important pour permettre l’utilisation de ce type d’ID.
 
-## Bonnes pratiques pour les ID pris en charge par Analytics {#section_B6481505FF1949498D4B4B35B780D050}
+## Bonnes pratiques pour les ID pris en charge par Analytics  {#section_B6481505FF1949498D4B4B35B780D050}
 
 Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors de la soumission de demandes relatives à la Confidentialité des données à Analytics. Lorsque vous connaîtrez ces informations, vous pourrez déterminer plus facilement les autres étiquettes à utiliser pour vos variables.
 
@@ -50,7 +50,7 @@ Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors d
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID dans les variables personnalisées </p> </td> 
-   <td colname="col2"> <p>Certains clients intègrent des ID dans <a href="https://marketing.adobe.com/resources/help/fr_FR/sc/implement/props_eVars.html">des variables de trafic personnalisées (props) ou des variables de conversion personnalisées (eVars) </a>. Si le plus courant est l’ID de gestion de la relation client, d’autres comprennent des adresses électroniques, des noms d’utilisateur de connexion, des numéros de fidélité des clients ou un hachage de ces valeurs. </p> 
+   <td colname="col2"> <p>Certains clients intègrent des ID dans <a href="https://marketing.adobe.com/resources/help/fr_FR/sc/implement/props_eVars.html">des variables de trafic personnalisées (props) ou des variables de conversion personnalisées (eVars)</a>. Si le plus courant est l’ID de gestion de la relation client, d’autres comprennent des adresses électroniques, des noms d’utilisateur de connexion, des numéros de fidélité des clients ou un hachage de ces valeurs. </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">Si vous souhaitez utiliser l’un de ces ID pour les demandes relatives à la Confidentialité des données, vous devez attribuer au champ qui le contient une étiquette ID-PERSON. </li> 
      <li id="li_94541340B054436297C5565F074413DC">(Beaucoup moins fréquent) Si un ID dans l’une de ces variables personnalisées identifie uniquement un appareil pouvant être partagé par plusieurs personnes, alors vous pouvez utiliser une étiquette ID-DEVICE à la place. </li> 
@@ -71,7 +71,7 @@ Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors d
 Les étiquettes de suppression DEL-DEVICE et DEL-PERSON doivent être utilisées modérément. Lorsqu’elles sont appliquées à une variable qui ne contient pas d’ID utilisé dans le cadre de la demande relative à la Confidentialité des données, les chiffres (mesures) des rapports antérieurs d’Analytics sont presque toujours modifiés.
 
 * Nous recommandons que l’une de ces étiquettes soit appliquée à toute variable étiquetée I1, I2 ou S1. Elles ne peuvent pas être appliquées à une variable qui n’est pas étiquetée I1, I2 ou S1.
-* Les étiquettes DEL- permettent d’[anonymiser](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) ces variables (l’ID sera remplacé par une chaîne aléatoire accompagnée du terme « Data Privacy- »). La même valeur rendue anonyme remplacera toutes les instances de la valeur d’origine dans tous les accès identifiés par un ID utilisé dans la demande. Si la valeur d’origine dans ce champ était l’un de ces ID, alors les mesures du rapport ne changeraient pas.
+* Les étiquettes DEL- permettent d’[anonymiser](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) ces variables (l’ID sera remplacé par une chaîne aléatoire accompagnée du terme « Data Privacy »). La même valeur rendue anonyme remplacera toutes les instances de la valeur d’origine dans tous les accès identifiés par un ID utilisé dans la demande. Si la valeur d’origine dans ce champ était l’un de ces ID, alors les mesures du rapport ne changeraient pas.
 * Généralement, si un champ possède l’étiquette ID-DEVICE, alors vous devez également attribuer l’étiquette DEL-DEVICE.
 * De même, si un champ possède l’étiquette ID-PERSON, alors vous devez également attribuer l’étiquette DEL-PERSON.
 * Si un champ ne possède pas d’étiquette d’identification, mais contient des informations d’identification que vous souhaitez rendre anonymes, alors l’étiquette appropriée (DEVICE ou PERSON) dépend de votre mise en œuvre. Si vous utilisez uniquement des ID de cookie pour les demandes relatives à la Confidentialité des données, alors vous devez utiliser DEL-DEVICE.
@@ -82,7 +82,7 @@ Les étiquettes de suppression DEL-DEVICE et DEL-PERSON doivent être utilisées
 
    Ainsi, si vous avez trois accès contenant la valeur « foo » dans eVar7, mais que l’un d’entre eux contient également un identifiant dans une autre variable visée par une suppression, la valeur « foo » de cet accès sera alors modifiée en une valeur de type « Data Privacy-123456789 », tandis qu’il restera inchangé dans les deux autres accès. Un rapport mentionnant le nombre de valeurs uniques pour eVar7 indiquera désormais une valeur unique de plus que précédemment. Un rapport mentionnant les valeurs principales des eVars peut inclure « foo » avec seulement deux instances (au lieu de 3 précédemment) ; la nouvelle valeur apparaîtra également sous la forme d’une instance distincte.
 
-## Bonnes pratiques pour définir les étiquettes d’accès {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Bonnes pratiques pour définir les étiquettes d’accès  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Bien que très peu de champs comportent une des autres étiquettes, il arrive souvent que de nombreux champs disposent d’étiquettes ACC. Les étiquettes d’accès appropriées dépendront des ID que vous utilisez pour les demandes relatives à la Confidentialité des données.
 
