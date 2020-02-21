@@ -3,7 +3,7 @@ description: Vous permet d’appliquer un filtre de segments multiples dans Acti
 title: Segmentation des clients
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
