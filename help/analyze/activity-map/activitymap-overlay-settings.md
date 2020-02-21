@@ -3,7 +3,7 @@ description: Le panneau de configuration d’Activity Map vous permet de modifi
 title: Paramétrage d’Activity Map
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ Le panneau de configuration affiche un contenu différent en fonction du mode d�
 
 | Standard | **[!UICONTROL Superpositions en dégradé]** ou **[!UICONTROL bulle]** |
 |---|---|
-| En direct | **[!UICONTROL Superpositions des gagnants et des perdants]** **[!UICONTROL en dégradé]** ou **[!UICONTROL bulle]** |
+| En direct | Superpositions **[!UICONTROL des gagnants et des perdants]**, **[!UICONTROL en dégradé]** ou **[!UICONTROL bulle]** |
 | Autre | Sélection de suite de rapports et sélection de langue |
 
 ## Paramètres de superposition en mode standard {#section_24DB95376E1A448494ECF3F57743FC19}
@@ -38,7 +38,7 @@ Le panneau de configuration affiche un contenu différent en fonction du mode d�
    <td colname="col2"> <span class="uicontrol"> Étiqueter les superpositions avec</span> </td> 
    <td colname="col3"> 
     <ul id="ul_13AD02789F2D4904A35215A8FA230F3E"> 
-     <li id="li_8DB71636D2074C69B0D94D3FB0CAFE28"> <b>Aucune étiquette</b> : uniquement applicable pour la superposition en dégradé. Dans ce cas, la couleur de la superposition donnera une idée du classement du lien </li> 
+     <li id="li_8DB71636D2074C69B0D94D3FB0CAFE28"> <b>Aucune étiquette</b> : uniquement applicable pour la superposition en dégradé. Dans ce cas, la couleur de la superposition donnera une idée du classement du lien. </li> 
      <li id="li_39C98D7EA9514C1D8731B9D21C0E73A6"> <b>Valeur</b> : valeur brute totale pour ce lien. </li> 
      <li id="li_A5F583E45BCD4F2399398F9DCC7FE382"> <b>Pourcentage</b> : pourcentage de la mesure pour ce lien par rapport à la mesure totale pour la page. </li> 
      <li id="li_E4BF7D3B863E4B6C8E737CF29ADA9D67"> <b>Classement</b> : classement de ce lien parmi tous les liens présents sur la page rendue. </li> 
