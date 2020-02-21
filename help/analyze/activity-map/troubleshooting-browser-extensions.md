@@ -3,7 +3,7 @@ description: Répertorie les paramètres de navigateur qui ne sont pas compatibl
 title: Dépannage des extensions de navigateur
 topic: Activity map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,6 +31,6 @@ Affiche les paramètres de navigateur qui ne sont pas compatibles avec l’utili
 
 ![](assets/Safari2.png)
 
-## Internet Explorer 
+## Internet Explorer
 
 ![](assets/IE1.png)
