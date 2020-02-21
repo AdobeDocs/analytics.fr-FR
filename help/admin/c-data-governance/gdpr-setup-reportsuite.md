@@ -18,7 +18,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **Exemple** : en tant que contrôleur des données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des sujets des données pour traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics. Pour créer une étiquette pour les adresses électroniques et les ID de cookie, vous devez utiliser le cadre DULE (Data Usage Labeling &amp; Enforcement) d’Adobe Cloud Platform dans Analytics.
 
-1. Dans Analytics, sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Gouvernance des données]** &gt; **[!UICONTROL (sélectionner la suite de rapports)]** ![](assets/privacy_rs_settings.png)
+1. Dans Analytics, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Gouvernance des données]** > **[!UICONTROL (sélectionnez la suite de rapports)]** ![](assets/privacy_rs_settings.png)
 
 1. Sélectionnez le groupe de variables que vous voulez étiqueter.
 
@@ -30,7 +30,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
    * **Dimensions de conversion de marchandisage** (eVars de marchandisage)
    * **Dimensions de conversion** (eVars de non-marchandisage)
    * **Dimensions de trafic personnalisées** (props)
-   * **Dimensions et événements relatifs aux solutions** (Dimensions/événements relatifs à des solutions telles que Mobile, Video, Activity Map, etc., et intégrations à des solutions telles qu’Adobe Campaign, Adobe Experience Manager, Advertising Cloud, etc.)
+   * **Dimensions et événements relatifs aux solutions** (Dimensions/événements relatifs à des solutions telles que Mobile, Vidéo, Activity Map, etc., et intégrations à des solutions telles qu’Adobe Campaign, Adobe Experience Manager, Advertising Cloud, etc.)
    * **Dimensions de traitement des données** (variables non directement exposées à la génération de rapports via l’interface utilisateur Adobe Analytics, mais disponibles via les demandes Flux de données et/ou Data Warehouse)
 
 1. (Facultatif) Cliquez sur l’icône d’information (i) en regard de chaque variable pour mieux comprendre ses valeurs les plus courantes au cours des 90 derniers jours. (Cette fonctionnalité n’est pas disponible pour les dimensions de traitement des données, car elles ne sont pas disponibles dans l’interface utilisateur Analytics.)
