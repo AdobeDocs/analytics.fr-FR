@@ -3,8 +3,8 @@ description: Cette section s’adresse aux administrateurs Adobe Analytics. Elle
 title: Méthodologie de suivi des liens
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: abf808e956ca78c9e7ceaa5240d4e1ea20f90aec
 
 ---
 
@@ -15,14 +15,14 @@ Cette section s’adresse aux administrateurs Adobe Analytics. Elle se concentre
 
 >[!IMPORTANT]
 >
->Tout lien dont le texte (pas le href) est susceptible de contenir des informations d’identification personnelles doit être mis en œuvre de façon explicite à l’aide de [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) ou en excluant la collecte des liens Activity Map à l’aide de [s.ActivityMap.linkExclusions ou de s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Pour obtenir plus d’informations sur la façon dont Activity Map collecte des données relatives aux informations d’identification personnelles, [cliquez ici](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Tout lien dont le texte (pas le href) est susceptible de contenir des informations d’identification personnelles doit être mis en œuvre de façon explicite à l’aide de [s_objectID](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/s_objectID.html) ou en excluant la collecte des liens Activity Map à l’aide de [s.ActivityMap.linkExclusions ou de s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Pour obtenir plus d’informations sur la façon dont Activity Map collecte des données relatives aux informations d’identification personnelles, [cliquez ici](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map base son suivi des liens sur ces deux ID :
 
 * ID principal : il s’agit du paramètre reconnaissable du lien.
 * Région de lien : il s’agit d’un paramètre secondaire qui permet aux utilisateurs de spécifier une chaîne représentative de l’ensemble de la zone de liens dans la page ou la région. Ce paramètre peut être généré automatiquement s’il n’est pas fourni par l’utilisateur.
 
-## ID principal  {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## ID principal {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 Si le code HTML comprend une variable s_objectid, l’ID principal est remplacé par défaut par celle-ci. Dans le cas contraire, les paramètres suivants sont utilisés comme ID principal (dans cet ordre de priorité) :
 
@@ -32,7 +32,7 @@ Si le code HTML comprend une variable s_objectid, l’ID principal est remplacé
 * Src
 * Action
 
-## Utilisation du paramètre InnerText ou d’une action de lien (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
+## Utilisation du paramètre InnerText ou d’une action de lien (URL) {#section_70C3573E22274522A8CC035BF18EC468}
 
 Une action de lien est l’action effectuée par la page web lorsque l’utilisateur clique sur le lien ; en général, il s’agit de l’URL visitée après le clic sur le lien. Il se peut que vous rencontriez les problèmes suivants lors de l’utilisation d’une action de lien :
 
@@ -59,7 +59,7 @@ L’utilisation de la région de lien présente les avantages suivants :
 * Elle permet de différencier des liens possédant le même ID principal.
 * Les tendances d’une région sont moins affectées par l’aspect dynamique de la page web.
 * Les utilisateurs peuvent consulter les liens les plus performants dans une région. Avec une région comme ancre, nous pouvons afficher des superpositions de liens qui ne sont actuellement pas visibles sur la page (Ajax, ciblage).
-* Une région peut remplacer des pages, puisqu’une région donnée peut être utilisée sur de nombreuses pages web. Cela permet de répondre à des questions telles que la suivante : « Ma région "Offre de produits" obtient-elle de meilleurs résultats sur la landing page des femmes ou sur celle des hommes ? ».
+* Une région peut remplacer des pages, puisqu’une région donnée peut être utilisée sur de nombreuses pages web. Cela permet de répondre à des questions telles que la suivante : « Ma région &quot;Offre de produits&quot; obtient-elle de meilleurs résultats sur la landing page des femmes ou sur celle des hommes ? ».
 * En soi, une région est une dimension pertinente pour l’analyse de pages web très dynamiques. En effet, elle supprime le bruit dû au changement constant des liens : une région « Dernières actualités » sur la page d’entrée de CNN peut contenir de nombreux changements de liens. Mais la région sera toujours présente. Il pourrait donc être intéressant d’établir les tendances au niveau de la région sur plusieurs jours.
 
 **Suivi des régions personnalisé**
@@ -81,7 +81,9 @@ Vous trouverez ci-dessous un exemple de HTML utilisant l’attribut ID de régio
 Si vous le souhaitez, vous pouvez baliser des éléments avec un identifiant de chaîne arbitraire, ici « lpos », puis ajouter des attributs avec le nom « lpos ».
 
 ```
-s.ActivityMap.regionIDAttribute="lpos"; 
+<script language="JavaScript" type="text/javascript">
+s.ActivityMap.regionIDAttribute="lpos";
+</script> 
    
 <div id="nav" lpos="navbar"> 
   <ul> 
