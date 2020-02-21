@@ -3,7 +3,7 @@ description: Les superpositions proposent plusieurs manières de configurer la v
 title: Superpositions personnalisables
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -49,7 +49,7 @@ Les superpositions bulle s’affichent lorsque vous sélectionnez cette superpos
 
 > [!NOTE] Les superpositions bulle pour les sous-menus apparaissent uniquement lorsque vous affichez le sous-menu :
 >
->![](assets/bubbles_submenu.png) &gt; 
+>![](assets/bubbles_submenu.png)>
 
 ## Superpositions des gagnants et des perdants {#section_EE80278E20C14824869BF5A27A4634C8}
 
