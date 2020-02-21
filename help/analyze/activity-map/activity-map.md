@@ -3,7 +3,7 @@ description: Activity Map est une application Adobe Analytics conçue pour éta
 title: Activity Map - Aperçu
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 # Activity Map - Aperçu
 
 >[!IMPORTANT]
->Le 16 janvier 2020, Adobe Analytics commencera à passer à un nouveau domaine : https://experience.adobe.com/analytics. Cette modification peut entraîner l’arrêt du fonctionnement de Carte d’activités pour certains clients dans des cas spécifiques. Comme vous le savez, Carte d’activités est injectée dans la page du client dans un iframe (un iframe pour la barre d’outils de Carte d’activités et un iframe pour le panneau inférieur de Carte d’activités). Vous avez peut-être défini une directive de stratégie de sécurité de contenu sur votre page Web pour &quot;frame-src&quot; qui n’inclut pas &quot;.adobe.com&quot;. Dans ce cas, Carte d’activités cessera de travailler sur une telle page Web.
+>Le 16 janvier 2020, Adobe Analytics commencera à passer à un nouveau domaine : https://experience.adobe.com/analytics. Ce changement peut entraîner l’arrêt du fonctionnement d’Activity Map pour certains clients dans des cas spécifiques. Comme vous le savez, Activity Map est injectée dans la page du client dans une iFrame (une iFrame pour la barre d’outils d’Activity Map et une pour le panneau inférieur d’Activity Map). Vous avez peut-être défini une directive sur la politique de sécurité du contenu sur votre page web pour &quot;frame-src&quot; qui n’inclut pas &quot;.adobe.com&quot;. Dans ce cas, Activity Map cessera de fonctionner sur cette page web.
 
 Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à contrôler l’engagement du public de vos pages web.
 
