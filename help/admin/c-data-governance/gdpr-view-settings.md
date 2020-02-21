@@ -13,7 +13,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 La boîte de dialogue Gouvernance des données dans les Outils d’administration offre un aperçu des suites de rapports configurées pour la gouvernance des données, indique si elles ont été mappées à une organisation Experience Cloud et si une politique de conservation des données est mise en place pour cette suite de rapports.
 
 1. Connectez-vous à Adobe Experience Cloud.
-1. Sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Gouvernance des données]**.
+1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Gouvernance des données]**.
 
    Vous verrez toutes les suites de rapports faisant partie de votre société de connexion :
 
