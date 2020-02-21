@@ -1,9 +1,9 @@
 ---
-description: 'Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module Activity Map d’AppMeasurement. '
+description: Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module Activity Map d’AppMeasurement.
 title: Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -46,9 +46,9 @@ Par exemple, admettons que vous possédiez plusieurs liens « Buy » identifi�
 
 Comment pouvez-vous personnaliser votre page web et le balisage pour différencier les valeurs de ces liens ? Trois options s’offrent à vous : vous pouvez personnaliser l’ID de lien, la région ou le fichier du module Activity Map d’AppMeasurement.
 
-## Personnalisation de l’ID de lien à l’aide de s_objectID  {#section_01B0D463397B4837B2D46F087A6E5937}
+## Personnalisation de l’ID de lien à l’aide de s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-En créant un identifiant d’objet unique pour un lien ou emplacement de lien sur une page, vous pouvez améliorer le suivi d’Activity Map ou utiliser Activity Map pour créer des rapports sur un emplacement ou un type de lien plutôt que sur l’URL du lien. Pour plus d’informations sur la variable s_objectID, rendez-vous [ici](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html).
+En créant un identifiant d’objet unique pour un lien ou emplacement de lien sur une page, vous pouvez améliorer le suivi d’Activity Map ou utiliser Activity Map pour créer des rapports sur un emplacement ou un type de lien plutôt que sur l’URL du lien. Pour plus d’informations sur la variable s_objectID, rendez-vous [ici](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/s_objectID.html).
 
 >[!IMPORTANT]
 >
@@ -77,13 +77,13 @@ En créant un identifiant d’objet unique pour un lien ou emplacement de lien s
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product2 </p> <p> </p> <p> </p> <p>Product3 </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personnalisation de la région  {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Personnalisation de la région {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 Vous pouvez personnaliser la région en vous assurant que la région de chaque lien « Buy » est définie. Pour ce faire, ajoutez un paramètre « id » à l’un des parents de chaque balise d’ancrage « Buy ».
 
@@ -118,7 +118,7 @@ Vous pouvez personnaliser la région en vous assurant que la région de chaque l
  </tbody> 
 </table>
 
-## Personnalisation du fichier du module Activity Map d’AppMeasurement  {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personnalisation du fichier du module Activity Map d’AppMeasurement {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
