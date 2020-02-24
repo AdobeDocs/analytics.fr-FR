@@ -3,8 +3,8 @@ description: Activity Map est une application Adobe Analytics conçue pour éta
 title: Activity Map - Aperçu
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: ht
-source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
+translation-type: tm+mt
+source-git-commit: 59e1bc7644a02c6cafbb7d7833d1cc9bd157b9d1
 
 ---
 
@@ -48,3 +48,4 @@ Activity Map vous permet de configurer différents affichages afin d’identifi
 * [Création de rapports Activity Map dans Analytics](activitymap-reporting-analytics.md)
 * [Dépannage des extensions de navigateur](troubleshooting-browser-extensions.md)
 * [Ressources](activitymap-info-resources.md)
+
