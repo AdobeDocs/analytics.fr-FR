@@ -4,7 +4,7 @@ title: Expressions de dates personnalisées - Aperçu
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
+source-git-commit: 4f879bc347656bc442108a5174be26efa171d7e3
 
 ---
 
@@ -28,11 +28,11 @@ Pour ce faire, il est recommandé de se référer à un calendrier afin que le n
 
 1. Activer **[!UICONTROL Customize Expression]**. En sélectionnant des options sous **[!UICONTROL Rolling Dates]**, vous pouvez facilement voir la syntaxe des expressions de date personnalisées.
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldatesfor5.png)
 
    Vous pouvez utiliser les options avancées pour combiner et faire correspondre des expressions de date personnalisées. Par exemple, si vous souhaitez afficher les données du premier de l’année jusqu’à la fin du dernier mois complet, vous pouvez écrire ce qui suit :De : cy To : cm-1d. Vous pouvez voir que dans l’assistant, il confirme ces dates comme étant du 1/1/2020-1/31/2020.
 
    Par exemple, si vous modifiez les dates ci-dessus en mois variable, du premier jour il y a trois mois au premier jour du mois, les dates dans la partie Options avancées se mettent à jour pour refléter ce qui suit :
 
-   ![](assets/rolldates3.png)
+   ![](assets/rolldatesfor3.png)
 
