@@ -3,7 +3,7 @@ description: Vous pouvez personnaliser la planification de la distribution des r
 title: Gestionnaire de planification
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,13 +17,13 @@ Vous pouvez personnaliser la planification de la distribution des rapports. Il e
 
 Vous pouvez personnaliser la planification de la distribution des rapports. Il est possible d’interrompre la distribution après un certain temps ou de spécifier le nombre d’envois d’un rapport. Les nouveaux programmes utilisent la période définie dans le rapport. Par exemple, si vous créez un rapport pour les 90 derniers jours et planifiez une exécution quotidienne, vous recevrez, chaque jour, un rapport portant sur les 90 derniers jours. Si vous créez un rapport avec une période statique à partir du calendrier, le même rapport sera affiché lors de chaque envoi.
 
-> [!NOTE] Lorsqu’un compte utilisateur est désactivé, toutes les livraisons de rapports planifiées créées par cet utilisateur sont suspendues.
+> [!NOTE] Lorsqu’un compte utilisateur est désactivé, toutes les distributions de rapport planifiées créées par l’utilisateur sont suspendues.
 
-Pour vous assurer que les éléments de ligne d’une ventilation sont persistants dans les rapports enregistrés et planifiés, utilisez la fonction **[!UICONTROL Modifier les éléments]** du Générateur [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tableau pour créer des listes de dimensions fixes dans les ventilations.
+Afin de garantir la persistance des lignes ventilées dans les rapports enregistrés et planifiés, utilisez la fonction **[!UICONTROL Modifier les éléments]** dans le [Générateur de tableau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) afin de créer des listes de dimensions fixes dans les ventilations.
 
 >[!IMPORTANT]
 >
->Les analyses ad hoc vous permettent de définir et de planifier rapidement des rapports pour répondre à des besoins spécifiques, ponctuels et ponctuels en matière de création de rapports ad hoc. Elles ne sont pas destinées aux exportations complètes de données comprenant un très grand nombre de lignes, de colonnes, d’évaluations de mesure ou de ventilations complètes à l’aide d’extractions de données.
+>Ad Hoc Analysis permet de définir et de planifier rapidement des rapports pour répondre aux besoins spécifiques et ponctuels en matière de rapports ad hoc. Elles ne sont pas destinées aux exportations complètes de données comprenant un très grand nombre de lignes, de colonnes, d’évaluations de mesure ou de ventilations complètes à l’aide d’extractions de données.
 >
 >Dans les Ad Hoc Analysis, les contraintes pratiques des rapports planifiés reposent sur ce principe : si le rapport n’est pas généré dans un délai de dix minutes (délai d’attente des Ad Hoc Analysis), cela signifie qu’il est probablement trop complexe.
 >
@@ -41,8 +41,8 @@ t_schedule_delivery.xml
 
  -->
 
-1. Click **[!UICONTROL Tools]**, then click **[!UICONTROL Schedule Manager]**.
-1. Dans le [!UICONTROL Gestionnaire de planification]**, cliquez sur[!UICONTROL Nouveau].**
+1. Cliquez sur **[!UICONTROL Outils]**, puis sur **[!UICONTROL Gestionnaire de planification]**.
+1. Dans le [!UICONTROL Gestionnaire de planification], cliquez sur **[!UICONTROL Nouveau]**.
 
 ## Options de distribution - Définitions {#reference_CA49AC560258471AAE959BCA243F170C}
 
@@ -85,7 +85,7 @@ Vous pouvez envoyer vos informations, telles qu’elles sont affichées dans le 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Avancé </p> </td> 
-   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> Voir <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   >Paramètres de format avancé</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Description du fichier </p> </td> 
