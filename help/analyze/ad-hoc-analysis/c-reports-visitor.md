@@ -1,9 +1,9 @@
 ---
-description: Affiche des informations concernant les visiteurs, notamment le nombre de visiteurs, la fidélité des clients et les caractéristiques des visiteurs.
+description: Affiche des informations concernant les visiteurs, notamment leur nombre, leurs caractéristiques et la fidélisation des clients.
 title: Rapports sur les visiteurs
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Rapports sur les visiteurs
 
-Affiche des informations concernant les visiteurs, notamment le nombre de visiteurs, la fidélité des clients et les caractéristiques des visiteurs.
+Affiche des informations concernant les visiteurs, notamment leur nombre, leurs caractéristiques et la fidélisation des clients.
 
 ## Fréquence des retours {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
@@ -25,7 +25,7 @@ c_reports_return_freq.xml
 
 Dans le cas d’un site de vente au détail, le fait d’afficher la mesure Commandes dans ce rapport permet de déterminer le moment le plus efficace pour générer une conversion entre des visites. Utilisez ces informations pour proposer plus efficacement vos produits aux visiteurs qui n’ont plus consulté votre site depuis un certain temps.
 
-Vous pouvez:
+Vous pouvez :
 
 * Identifier le nombre de visiteurs récurrents et la fréquence de leurs visites.
 * Évaluer l’attrait de votre site web et l’intérêt qu’il présente pour les visiteurs au fil du temps.
@@ -60,7 +60,7 @@ Vous pouvez ventiler ce rapport selon tout autre rapport ou variable afin de dé
 * le nombre de visites effectuées généralement par un utilisateur qui a parcouru la campagne XYZ avant d’effectuer un achat.
 * si les utilisateurs tokyoïtes, par exemple, effectuent davantage de visites que les utilisateurs londoniens avant de générer une piste.
 
-> [!NOTE] Si le même visiteur consulte votre site Web plusieurs fois au cours de la même période, chaque nombre de visites spécifié est incrémenté pour chaque visite.
+> [!NOTE] Si un même visiteur se rend plusieurs fois sur votre site Web au cours de la même période, chaque numéro de visite spécifié est incrémenté pour chaque visite.
 
 Ce rapport s’articule autour des données d’identifiant des visiteurs transmises à Adobe lors chaque accès à votre site. A la réception de ces données, Adobe les compare aux identifiants des visiteurs historiques afin de déterminer si l’accès correspond à :
 
@@ -87,7 +87,7 @@ Le rapport [!UICONTROL Fidélité de la clientèle] affiche des schémas de clie
 * **Client régulier** : visiteurs qui ont effectué deux achats
 * **Client fidèle** : visiteurs qui ont effectué trois achats ou plus
 
-> [!NOTE] Lors de l’utilisation de ces mesures, toutes les visites des utilisateurs (ou tous les visiteurs) sont représentées dans ce rapport, que la visite (ou le visiteur) ait inclus un achat ou non.
+> [!NOTE] Lorsque vous utilisez ces mesures, toutes les visites de l’utilisateur (ou tous les visiteurs) sont représentées dans ce rapport et ce, qu’un achat ait été effectué ou non.
 
 L’état de fidélité change à la fin de la visite au cours de laquelle s’est produit un événement d’achat. Par exemple, un nouveau client (1 achat) effectue un achat, puis s’inscrit ensuite au bulletin d’information, au cours de la même visite. L’événement d’inscription au bulletin d’information est toujours considéré comme une interaction Nouveau client, car l’état de fidélité du client ne changera pas avant la prochaine visite.
 
@@ -101,13 +101,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Langues]**: Affiche les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues que les visiteurs utilisent le plus souvent sur votre site.
+**[!UICONTROL Langues]** : indique les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues les plus utilisées par les visiteurs du site.
 
 **[!UICONTROL Domaines]** : répertorie les organisations et les fournisseurs de services Internet que les visiteurs utilisent pour accéder à votre site. Ce rapport diffère du rapport [!UICONTROL Domaines complets], en ce sens qu’il répertorie le domaine secondaire. Le rapport des domaines complets, lui, enregistre le domaine complet des fournisseurs d’accès Internet.
 
-**[!UICONTROL Domaines de haut niveau]** : présente les régions du monde d’où viennent les visiteurs sur la base de l’extension de leur domaine d’origine et indique combien de visiteurs viennent de ces pays. Les domaines finissant par Commercial (.com), Network (.net), Education (.edu), Government (.gov) et Organization (.org) sont généralement basés aux États-Unis et sont répertoriés différemment des autres domaines.
+**[!UICONTROL Domaines de haut niveau]** : présente les régions du monde d’où viennent les visiteurs sur la base de l’extension de leur domaine d’origine et indique combien de visiteurs viennent de ces pays. Les domaines finissant par Commercial (.com), Network (.net), Education (.edu), Government (.gov) et Organization (.org) sont généralement basés aux Etats-Unis et font l’objet d’une liste distincte des autres domaines.
 
-**[!UICONTROL Code postal du visiteur]** : indique les codes postaux des visiteurs qui ont le plus influencé les mesures de succès d’achats.
+**[!UICONTROL Code postal du visiteur]** : indique les codes postaux des visiteurs qui ont le plus influencé les mesures de réussite d’achats.
 
 ## Géosegmentation {#concept_7C1B930F90F945B49205D3855CAE1813}
 
