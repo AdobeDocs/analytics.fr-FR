@@ -3,7 +3,7 @@ description: Un widget de publication est un conteneur qui vous permet d’inté
 title: Widget de publication
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Un widget de publication est un conteneur qui vous permet d’intégrer des rapp
 
 Vous pouvez, par exemple, mettre à la disposition des cadres de la société un tableau de bord leur permettant de consulter le nombre de visiteurs, de visiteurs uniques, etc.
 
-> [!CAUTION] Aucune authentification n’est requise pour afficher les données publiées par le biais du widget de publication.Vous devez donc tenir compte du fait que les données publiées ne sont pas plus protégées que celles envoyées à un groupe de courriel ou un serveur de liste. Utilisez le widget de publication uniquement en conformité avec les normes de sécurité de votre société, les conditions contractuelles existantes et la législation en vigueur. Le widget de publication permet de limiter l’emplacement de publication des données en fonction de l’adresse IP ou du chemin de domaine. Toutefois, ces mécanismes sont destinés uniquement à empêcher la distribution sans surveillance des données et ils ne sont pas efficaces pour sécuriser l’accès aux données distribuées via le widget de publication.
+> [!CAUTION] Aucune authentification n’est requise pour afficher les données publiées par le biais du widget de publication. Vous devez donc tenir compte du fait que les données publiées ne sont pas plus protégées que celles envoyées à un groupe de courriel ou un serveur de liste. Utilisez le widget de publication uniquement en conformité avec les normes de sécurité de votre société, les conditions contractuelles existantes et la législation en vigueur. Le widget de publication permet de limiter l’emplacement de publication des données en fonction de l’adresse IP ou du chemin de domaine. Toutefois, ces mécanismes sont destinés uniquement à empêcher la distribution sans surveillance des données et ils ne sont pas efficaces pour sécuriser l’accès aux données distribuées via le widget de publication.
 >
 > Adobe décline toute responsabilité quant aux données exposées via le widget de publication.
 
