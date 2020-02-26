@@ -3,7 +3,7 @@ description: Une suite de rapports définit les rapports indépendants et comple
 title: Gestionnaire de suites de rapports
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages web. Une suite de rapports correspond habituellement à un site web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports). Une suite de rapports peut également être plus petite qu’un site web si vous souhaitez générer des rapports pour une partie seulement de votre site. Les solutions d’Analytics combinent des données et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**
 
-> [!NOTE] Les suites de rapports virtuelles sont gérées via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Suites de rapports virtuelles]**. Reportez-vous à la [documentation sur les suites de rapports virtuelles](/help/components/vrs/vrs-about.md).
+> [!NOTE] Les suites de rapports virtuelles sont gérées via **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**. Reportez-vous à la [documentation sur les suites de rapports virtuelles](/help/components/vrs/vrs-about.md).
 
 ## Descriptions du Gestionnaire de suites de rapports {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
