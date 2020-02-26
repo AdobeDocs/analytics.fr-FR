@@ -3,7 +3,7 @@ description: Affiche des informations quantitatives concernant votre site Web, c
 title: Mesures du site rapports
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
 
-## Mesures du site reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## Mesures du site rapports {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
 
@@ -29,7 +29,7 @@ c_reports_pageviews.xml
 
  -->
 
-Rapport de tendance qui affiche le nombre de fois où les pages de votre site Web ont été consultées pour une période donnée (heure, jour, semaine, mois, trimestre ou année). Une [!UICONTROL Page vue] est une requête pour une page entière, plutôt qu’un élément d’une page (image ou vidéo, par exemple). Par exemple, si un visiteur unique consulte 15 pages durant une visite, 15 pages vues sont comptabilisées. Si un visiteur affiche la même page trois fois durant une visite, trois pages vues sont comptabilisées. Ce rapport vous permet de suivre chaque page vue pour chaque page de votre site, ainsi qu’un groupe de pages vues pour la totalité du site. 
+Rapport de tendance qui affiche le nombre de fois où les pages de votre site Web ont été consultées pour une période donnée (heure, jour, semaine, mois, trimestre ou année). Une [!UICONTROL Page vue] est une requête pour une page entière, plutôt qu’un élément d’une page (image ou vidéo, par exemple). Par exemple, si un visiteur unique consulte 15 pages durant une visite, 15 pages vues sont comptabilisées. Si un visiteur affiche la même page trois fois durant une visite, trois pages vues sont comptabilisées. Ce rapport vous permet de suivre chaque page vue pour chaque page de votre site, ainsi qu’un groupe de pages vues pour la totalité du site.
 
 ## Rapport Visites {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -89,7 +89,7 @@ Utilisez ce rapport pour :
 
 ## Rapport Achats {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-Affiche des données récapitulatives pour les mesures Recettes, Commandes et Unités. Vous pouvez également afficher le [!DNL Purchase Conversion Funnel] rapport.
+Affiche des données récapitulatives pour les mesures Recettes, Commandes et Unités. Vous pouvez également afficher le rapport [!DNL Purchase Conversion Funnel].
 
 <!-- 
 
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Chaque suite de rapports d’analyse étant unique, cet ensemble de rapports est utilisé différemment par chaque client. Un rapport [!UICONTROL Événement personnalisé] peut servir de compteur pour montrer le nombre de fois où un événement se produit. Si, par exemple, **[!UICONTROL événement1]** est défini pour compter le nombre de fois où un document est téléchargé, le rapport Événement personnalisé pour l’événement 1 indique alors le nombre total de fois où l’événement (ou téléchargement) se produit.  Vous pouvez créer plusieurs rapports d’événement personnalisé.
+Chaque suite de rapports d’analyse étant unique, cet ensemble de rapports est utilisé différemment par chaque client. Un rapport [!UICONTROL Événement personnalisé] peut servir de compteur pour montrer le nombre de fois où un événement se produit. Si, par exemple, **[!UICONTROL événement1]** est défini pour compter le nombre de fois où un document est téléchargé, le rapport [!UICONTROL Événement personnalisé] pour l’événement 1 indique alors le nombre total de fois où l’événement (ou téléchargement) se produit. Vous pouvez créer plusieurs rapports d’événement personnalisé.
 
 ## Rapports de conversion {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -141,13 +141,13 @@ c_reports_conversion.xml
 
 Les rapports de conversion comprennent des statistiques en temps réel sur toutes les activités importantes des clients, notamment :
 
-*  les schémas d’achat des clients ;
-*  les mesures relatives au panier d’achat, y compris les abandons ;
-*  les taux de conversion des clients ;
-*  l’efficacité de la publicité et des partenaires intermédiaires ;
-*  les performances de la campagne marketing en ligne et hors ligne ;
-*  les mesures de la fidélité de la clientèle ;
-*  des informations sur les cycles de ventes.
+* les schémas d’achat des clients ;
+* les mesures relatives au panier d’achat, y compris les abandons ;
+* les taux de conversion des clients ;
+* l’efficacité de la publicité et des partenaires intermédiaires ;
+* les performances de la campagne marketing en ligne et hors ligne ;
+* les mesures de la fidélité de la clientèle ;
+* des informations sur les cycles de ventes.
 
 ## Rapports Canal marketing {#concept_81FFA8C15A9B4914BFED37488ADD17FD}
 
@@ -159,8 +159,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL Rapport Canal Première touche ou Dernière touche]** : affiche les mesures qui présentent les données d’un canal Première touche ou Dernière touche spécifique. Dans ces rapports, vous pouvez séparer un canal et en afficher les détails. Si AdLens est activé, les classifications apparaîtront dans les rapports de canal des Reports and Analytics marketing. 
+**[!UICONTROL Rapport Canal Première touche ou Dernière touche]** : affiche les mesures qui présentent les données d’un canal Première touche ou Dernière touche spécifique. Dans ces rapports, vous pouvez séparer un canal et en afficher les détails. Si AdLens est activé, les classifications apparaîtront dans les rapports de canal des Reports and Analytics marketing.
 
 **[!UICONTROL Rapports détaillés Canal Première touche ou Dernière touche]** : affichent des informations comme le nom et le référent des pages, repris des valeurs de canal figurant dans l’option [!UICONTROL Définir la valeur du canal comme] lors de la configuration des règles. Les rapports Canal détaillés vous permettent de mieux examiner les valeurs détaillées de canal du rapport Présentation.
 
-Pour des informations plus détaillées concernant la configuration du canal marketing dans les rapports et analyses marketing, voir le système d’aide [Canal marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html).
+Pour des informations plus détaillées concernant la configuration du canal marketing dans les rapports et analyses marketing, voir le système d’aide [Canal marketing](https://marketing.adobe.com/resources/help/fr_FR/mchannel/index.html).
