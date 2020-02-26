@@ -3,7 +3,7 @@ description: Le transfert côté serveur est conçu pour les clients qui souhait
 solution: Audience Manager
 title: Transfert côté serveur - Aperçu
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
@@ -29,14 +29,14 @@ directive vie privée et communications électroniques et transfert côté serve
 
 Pour comprendre où se situe votre organisation en termes d’implémentation du transfert côté serveur, suivez les étapes de validation suivantes :
 
-## ![step1_icon.png image](assets/step1_icon.png) Vérifier la mise en oeuvre du service ECID
+## ![image step1_icon.png](assets/step1_icon.png) Vérifiez l’implémentation du service ECID
 
-Verify whether Experience Cloud ID (ECID) service is implemented, by inspecting the [Analytics tracking request](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
+Vérifiez si le service Experience Cloud ID (ECID) est implémenté en examinant la [demande de suivi Analytics](https://marketing.adobe.com/resources/help/fr_FR/mcvid/mcvid-test-verify.html).
 
 Dans l’onglet Requête, vérifiez qu’une valeur ECID est en cours de définition. Cela vous indique si le service d’identité est correctement implémenté, ce qui est une condition requise du transfert côté serveur.
 
-* Si vous voyez une valeur ECID, passez à l’étape 2.
-* If you do not see an ECID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
+* Si vous voyez une valeur ECID, passez à l’étape 2.
+* Si vous ne voyez pas de valeur ECID, [implémentez Identity Service](https://marketing.adobe.com/resources/help/fr_FR/mcvid/mcvid-implementation-guides.html) avant de passer à l’étape 2.
 
 ## ![image step2_icon.png](assets/step2_icon.png) Vérification de la version de l’implémentation du transfert côté serveur
 
@@ -50,9 +50,9 @@ Dans l’onglet « Réponse », vérifiez que la réponse contient les donnée
 
    * **Clients du module de gestion de l’audience (AAM) avec collecte de données côté client (DIL)** : coordonnez les deux éléments suivants en conjonction étroite :
 
-      1. Supprimez le code DIL et installez le code de la page du [module de gestion de l’audience](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html).
+      1. Supprimez le code DIL et installez le code de la page du [module de gestion de l’audience](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
       1. Activez le transfert côté serveur dans l’interface utilisateur d’administration d’Analytics comme décrit à l’étape 3. L’activation de ce paramètre avant la suppression du code DIL duplique les données et crée des appels serveur facturés supplémentaires à Audience Manager.
-   * **Nouveaux clients du module de gestion de l’audience (AAM)** : installez la page de code du [module de gestion de l’audience](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) et passez à l’étape 3. Les données ne sont pas envoyées à Audience Manager tant que le transfert côté serveur n’est pas activé à l’étape 3.
+   * **Nouveaux clients du module de gestion de l’audience (AAM)** : installez la page de code du [module de gestion de l’audience](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) et passez à l’étape 3. Les données ne sont pas envoyées à Audience Manager tant que le transfert côté serveur n’est pas activé à l’étape 3.
 
 
 ## ![image step3_icon.png](assets/step3_icon.png) Vérification de l’implémentation du transfert côté serveur de la suite de rapports
@@ -61,11 +61,11 @@ Vérifiez si le transfert côté serveur est implémenté au niveau des suites d
 
 Le transfert côté serveur au niveau des suites de rapports est recommandé par rapport à l’approche par serveur de suivi hérité car vous pouvez contrôler à un niveau plus fin les données qui sont partagées à partir d’Analytics. Il s’agit également d’une condition requise de l’intégration d’Audience Analytics.
 
-Accédez à **Analytics** &gt; **Admin** &gt; **Suites de rapport** &gt; (sélectionner des **suites de rapports**) &gt; **Modifier les paramètres** &gt; **Général** &gt; **Transfert côté serveur**. Si la case à cocher est :
+Accédez à **Analytics** > **Admin** > **Suites de rapports** > (sélectionnez des **suites de rapports**) > **Modifier les paramètres** > **Général** > **Transfert côté serveur**. Si la case à cocher est :
 
-* **Inactif** (vous ne pouvez pas effectuer de sélection ou le menu n’existe pas) : les suites de rapports sélectionnées ne sont pas mappées à votre organisation IMS. Assurez-vous que les suites de rapports applicables sont mises en correspondance avec l’organisation Experience Cloud appropriée à l’aide de l’interface utilisateur [de mappage des suites de](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)rapports.
+* **Inactive** (vous ne pouvez pas effectuer de sélection ou le menu n’existe pas) : les suites de rapports sélectionnées ne sont pas mappées à votre organisation IMS. Assurez-vous que les suites de rapports applicables sont mappées à l’organisation Experience Cloud appropriée à l’aide de [l’interface utilisateur de mappage des suites de rapports](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html).
 * **Désactivée** : le nouveau transfert côté serveur n’est pas activé. Lisez le contenu de la page, puis procédez à l’activation de la fonctionnalité.
 * **Activée** : le nouveau transfert côté serveur est activé. Vous pouvez également configurer l’intégration d’Audience Analytics.
 
-> [!NOTE] Les données n’apparaîtront pas dans les autres solutions Experience Cloud telles qu’[Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) ou [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) tant que les 3 étapes ne sont pas terminées. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.
+> [!NOTE] Les données n’apparaîtront pas dans les autres solutions Experience Cloud telles qu’[Audience Manager](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/aam-home.html) ou [Audiences](https://marketing.adobe.com/resources/help/fr_FR/mcloud/audience_library.html) tant que les 3 étapes ne sont pas terminées. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.
 
