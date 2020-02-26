@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Dimensions disponibles pour les règles de traitement
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,7 +38,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de données contextuelles </p> </td> 
-   <td colname="col2"> <p>Variables nommées envoyées avec un accès. </p> <p>Remarque : pour figurer dans un rapport, une donnée contenue dans une variable de données contextuelles doit être copiée dans une variable de création de rapports. Les variables de données contextuelles ne sont visibles dans aucune interface de création de rapports, y compris Flux de données de parcours de navigation. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copier une variable de données contextuelles dans une eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Définir un événement à l’aide d’une variable de données contextuelles </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Variables de données contextuelles</a> </p> </td> 
+   <td colname="col2"> <p>Variables nommées envoyées avec un accès. </p> <p>Remarque : pour figurer dans un rapport, une donnée contenue dans une variable de données contextuelles doit être copiée dans une variable de création de rapports. Les variables de données contextuelles ne sont visibles dans aucune interface de création de rapports, y compris Flux de données de parcours de navigation. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copier une variable de données contextuelles dans une eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Définir un événement à l’aide d’une variable de données contextuelles </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/fr_FR/sc/implement/context_data_variables.html"> Variables de données contextuelles</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
