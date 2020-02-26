@@ -2,7 +2,7 @@
 description: Configurez les paramètres de comportement globaux. Vous pouvez, par exemple, configurer la fonction d’enregistrement automatique, les paramètres de graphique et de tableau, ou encore indiquer la police et les paramètres régionaux.
 title: Paramètres
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ Configurez les paramètres de comportement globaux. Vous pouvez, par exemple, co
 
 Configurez les paramètres de comportement globaux. Vous pouvez, par exemple, configurer la fonction d’enregistrement automatique, les paramètres de graphique et de tableau, ou encore indiquer la police et les paramètres régionaux.
 
-Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Settings]** to access [!UICONTROL Global Settings].
+Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Paramètres]** pour accéder à [!UICONTROL Paramètres généraux].
 
 ## Onglet Paramètres généraux - Définitions {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
@@ -38,7 +38,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Paramètres des données </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Count Repeat Instances</span> (compter les répétitions) : détermine si les instances sont comptabilisées dans les rapports. En d’autres termes, si plusieurs valeurs consécutives sont disponibles pour la même variable, vous pouvez les comptabiliser comme une seule instance ou comme plusieurs instances de la variable. </p> <p>Vous pouvez, par exemple, afficher les rechargements de pages répétés, c’est-à-dire le nombre de fois où des pages de votre site web ont été rechargées ou actualisées durant une même visite. Cette option permet de déterminer si plusieurs visites d’une même page sont comptées comme une ou comme plusieurs pages vues. </p> <p> <span class="uicontrol"> <span class="keyword"> ad hoc</span></span> : indique <span class="keyword">ad hoc</span> comme source unique de données pour la création de rapports. Ces données proviennent des demandes d’images générées par les pages Web. </p> <p> <span class="uicontrol"> <span class="keyword"> Sources de données</span></span> : indique s’il faut utiliser des données téléchargées à partir d’autres sources Adobe ou de sources de données personnalisées. Ces données sont mises à la disposition des produits dans <span class="keyword">Experience Cloud</span>. Pour plus d’informations, reportez-vous à la section <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html"  >Sources de données</a>. </p> <p> <span class="uicontrol"> Les deux</span> : (par défaut) utilise les données des <span class="keyword">Ad Hoc Analysis</span> et d’autres sources de données. </p> <p>Remarque : La modification de ces options peut résulter en un signalement d’incohérences entre les données des <span class="keyword">Ad Hoc Analysis</span> et les <span class="keyword">données des Reports and Analytics marketing.</span> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Compter les répétitions</span> : détermine si les instances sont comptabilisées dans les rapports. En d’autres termes, si plusieurs valeurs consécutives sont disponibles pour la même variable, vous pouvez les comptabiliser comme une seule instance ou comme plusieurs instances de la variable. </p> <p>Vous pouvez, par exemple, afficher les rechargements de pages répétés, c’est-à-dire le nombre de fois où des pages de votre site web ont été rechargées ou actualisées durant une même visite. Cette option permet de déterminer si plusieurs visites d’une même page sont comptées comme une ou comme plusieurs pages vues. </p> <p> <span class="uicontrol"> <span class="keyword"> Ad hoc</span></span> : indique <span class="keyword">Ad hoc</span> comme source unique de données pour la création de rapports. Ces données proviennent des demandes d’images générées par les pages Web. </p> <p> <span class="uicontrol"> <span class="keyword"> Sources de données</span></span> : indique s’il faut utiliser des données téléchargées à partir d’autres sources Adobe ou de sources de données personnalisées. Ces données sont mises à la disposition des produits dans <span class="keyword">Experience Cloud</span>. Pour plus d’informations, reportez-vous à la section <a href="https://marketing.adobe.com/resources/help/fr_FR/sc/datasources/index.html"  >Sources de données</a>. </p> <p> <span class="uicontrol"> Les deux</span> : (par défaut) utilise les données provenant d’<span class="keyword">Ad Hoc Analysis</span> et d’autres sources de données. </p> <p>Remarque : La modification de ces options peut résulter en un signalement d’incohérences entre les données des <span class="keyword">Ad Hoc Analysis</span> et les <span class="keyword">données des Reports and Analytics marketing.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Paramètres d’enregistrement automatique </p> </td> 
@@ -82,7 +82,7 @@ r_dsc_site_analysis_tab.xml
 
 | Champ | Définition |
 |--- |--- |
-| Mesures | Ce champ vous permet de sélectionner les mesures représentées par la largeur et la hauteur d’un cylindre. Il vous permet également de déterminer la mesure à afficher, ainsi que sa couleur, ou encore de choisir la couleur qui représente les valeurs maximale et minimale de cette mesure. Vous pouvez définir les mesures pour les axes X et Y et ajouter toute autre mesure devant figurer dans le texte contextuel du rapport. Vous pouvez aussi inverser toutes les mesures sélectionnées pour l’affichage. |
+| Mesures | Ce champ vous permet de sélectionner les mesures représentées par la largeur et la hauteur d’un cylindre. Il vous permet également de déterminer la mesure à afficher, ainsi que sa couleur, ou encore de choisir la couleur qui représente les valeurs maximale et minimale de cette mesure. Vous pouvez, en outre, définir les mesures des axes X et Y, et ajouter toute autre mesure devant figurer dans la fenêtre contextuelle du rapport. Vous pouvez aussi inverser toutes les mesures sélectionnées pour l’affichage. |
 | Général et alertes | Permettent d’activer et de désactiver certains éléments graphiques du rapport, et de configurer les alertes qui s’affichent lorsque des mesures associées aux pages représentées par des cylindres dépassent une valeur spécifiée. |
 
 ## Onglet Police et langue - Définitions {#reference_5F2129B67CC44E5BA9EA7E30A35BFB49}
