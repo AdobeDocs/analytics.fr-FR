@@ -3,7 +3,7 @@ description: Les outils Paramètres d’une Report Suite spécifique permettent
 title: Paramètres d’une suite de rapports spécifique
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,5 +18,5 @@ Pour accéder aux [!UICONTROL Paramètres d’une Report Suite spécifique] :
 1. Cliquez sur **[!UICONTROL Admin]**, puis sur **[!UICONTROL Suites de rapports]**.
 
 1. Sélectionnez une suite de rapports.
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Paramètres d’une suite de rapports spécifique]** &gt; *`<selection>`*.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Paramètres d’une suite de rapports spécifique]** > *`<selection>`*.
 
