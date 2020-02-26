@@ -2,7 +2,7 @@
 description: Cette section présente les différentes opérations que vous pouvez effectuer sur un rapport, comme par exemple configurer des graphiques, diagrammes et ventilations, ou encore extraire des données.
 title: Configuration des rapports existants
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ c_report_actions.xml
 
  -->
 
-Cliquez sur la liste déroulante **[!UICONTROL Actions de rapport]** ![ dans un rapport.  ](assets/tools_icon.png)
+Cliquez sur la liste déroulante **[!UICONTROL Actions de rapport]** ![](assets/tools_icon.png) dans un rapport. 
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
@@ -50,7 +50,7 @@ Cliquez sur la liste déroulante **[!UICONTROL Actions de rapport]** ![ dans un 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Options de distribution </p> </td> 
-   <td colname="col2"> <p> Voir Options <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   ></a>de remise. </p> </td> 
+   <td colname="col2"> <p> Voir <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   >Options de distribution</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Imprimer </p> </td> 
@@ -62,7 +62,7 @@ Cliquez sur la liste déroulante **[!UICONTROL Actions de rapport]** ![ dans un 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sources de données </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>Voir <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   >Onglet Paramètres généraux - Définitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Affichage </p> </td> 
@@ -122,7 +122,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Afficher la régression linéaire </p> </td> 
-   <td colname="col2"> <p>Pour <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > les graphiques à bulles</a>. Affiche une approximation statistique des données. </p> </td> 
+   <td colname="col2"> <p>Pour <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  >les graphiques à bulles</a>. Affiche une approximation statistique des données. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,11 +156,11 @@ Certains rapports vous permettent de ventiler les données tabulaires afin d’a
 **Pour ventiler les données tabulaires**
 
 1. Exécution d’un rapport.
-1. Cliquez sur un élément avec le bouton droit de la souris, puis cliquez sur **Ventilation** &gt; *élément.*
+1. Cliquez sur un élément avec le bouton droit de la souris, puis cliquez sur **[!UICONTROL Ventilation]** > *élément*.
 
    >[!NOTE]
    >
-   >Pour plus de flexibilité, utilisez le Générateur de [tableau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) pour configurer un rapport avec des ventilations. Après avoir ouvert un rapport enregistré ou planifié avec des ventilations, il vous faudra peut-être cliquer sur **[!UICONTROL Remplacer le tableau]pour actualiser une ventilation des données dynamiques du rapport.** Vous pouvez, par exemple, actualiser un rapport planifié contenant des ventilations d’éléments de ligne qui peuvent changer en fonction de la période ou de l’activité des visiteurs.
+   >Pour plus de flexibilité, utilisez le [Générateur de tableau](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) pour configurer un rapport avec des ventilations. Après avoir ouvert un rapport enregistré ou planifié avec des ventilations, il vous faudra peut-être cliquer sur **[!UICONTROL Remplacer le tableau]** pour actualiser une ventilation des données dynamiques du rapport. Vous pouvez, par exemple, actualiser un rapport planifié contenant des ventilations d’éléments de ligne qui peuvent changer en fonction de la période ou de l’activité des visiteurs.
 
 >[!MORELIKETHIS]
 >
@@ -180,7 +180,7 @@ Il est possible de convertir les rapports de classement dans un autre type de ra
 **Pour modifier le type de rapport dans le tableau**
 
 1. Ouvrez et configurez un rapport de classement.
-1. Cliquez avec le bouton droit sur l’en-tête de colonne du nom de rapport dans le tableau, cliquez sur **Sélectionner le rapport**, puis accédez au rapport.
+1. Cliquez avec le bouton droit sur l’en-tête de colonne du nom de rapport dans le tableau, cliquez sur **[!UICONTROL Sélectionner le rapport]**, puis accédez au rapport.
 
 ## Copier des données vers le Presse-papiers {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
@@ -194,7 +194,7 @@ t_reports_clipboard.xml
 
    Il est conseillé d’ouvrir Excel avant de copier des données, car cette application efface le tampon de mémoire au démarrage.
 
-1. At the report level, click **[!UICONTROL Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL Copy Report Data]**.
+1. Au niveau du rapport, cliquez sur **[!UICONTROL Paramètres]** ![](assets/settings_icon.png), puis sur **[!UICONTROL Copier les données du rapport]**.
 1. Sélectionnez une cellule dans Excel, puis collez les données.
 
 ## Extraire les ID des visiteurs {#task_7223BE8E0389460282825E61BEDC0574}
@@ -205,15 +205,15 @@ t_reports_extract_ID.xml
 
  -->
 
-Dans les rapports et analyses, vous pouvez définir un champ pour qu’il contienne des données d’ID utilisateur. Si vous avez configuré cette option, l’option [!UICONTROL Extraire les ID des visiteurs] devient accessible. Si vous n’activez pas cette option et décidez de l’activer plus tard, vous pouvez revenir en arrière pour extraire l’historique des identifiants (ID) des visiteurs.
+Dans Reports &amp; Analytics, vous pouvez définir un champ afin qu’il contienne des données d’ID utilisateur. Si vous avez configuré cette option, l’option [!UICONTROL Extraire les ID des visiteurs] devient accessible. Si vous n’activez pas cette option et décidez de l’activer plus tard, vous pouvez revenir en arrière pour extraire l’historique des identifiants (ID) des visiteurs.
 
 **Pour extraire les identifiants des visiteurs**
 
 1. Ajoutez un segment Data Warehouse au rapport.
-1. Cliquez sur le segment avec le bouton droit de la souris et sélectionnez **[!UICONTROL Extraire les ID des visiteurs]**.
+1. Cliquez sur le segment avec le bouton droit de la souris et sélectionnez **[!UICONTROL Extraire les identifiants des visiteurs]**.
 
    L’application Data Warehouse démarre.
-1. Entrez le nom du filtre dans l’onglet [!UICONTROL Demande Data Warehouse.]
+1. Entrez le nom du filtre dans l’onglet [!UICONTROL Demande Data Warehouse].
 1. Cliquez sur **[!UICONTROL Demander ce rapport]**.
 
 ## Afficher la tendance d’une ligne {#task_83C003EDCA7140C3AE9804629DD7A235}
@@ -229,7 +229,7 @@ Lors de l’affichage d’un rapport de classement, tel qu’un rapport de produ
 **Pour afficher la tendance d’une ligne**
 
 1. Exécution d’un rapport de classement.
-1. Cliquez sur l’icône [!UICONTROL Tendance] ![. ](assets/TrendInspector_Buttcon.png)
+1. Cliquez sur l’icône [!UICONTROL Tendance] ![](assets/TrendInspector_Buttcon.png). 
 
    Vous pouvez sélectionner plusieurs cellules à appliquer à un seul rapport de tendance.
 
@@ -245,7 +245,7 @@ t_column_width.xml
 
 1. Dans le tableau, cliquez avec le bouton droit sur l’en-tête de colonne, puis cliquez sur **[!UICONTROL Largeur de colonne]**.
 
-   Cette option est désactivée si l’option [!UICONTROL Ajuster à l’écran] est activée. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
+   Cette option est désactivée si l’option [!UICONTROL Ajuster à l’écran] est activée. 1. Spécifiez une largeur en pixels, puis cliquez sur **[!UICONTROL OK]**.
 
 >[!MORELIKETHIS]
 >
