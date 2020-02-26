@@ -4,7 +4,7 @@ subtopic: Bot rules
 title: Règles de robots - Aperçu
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ Les règles de robots vous permettent de supprimer du trafic de votre suite de r
 
 Une fois les règles de robots définies, elles servent de critères de comparaison pour tout le trafic entrant. Le trafic qui correspond à l’une de ces règles n’est ni collecté dans la suite de rapports, ni inclus dans les mesures de trafic.
 
-Pour mettre à jour ou télécharger des règles de robots, accédez à **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**. Sélectionnez la suite de rapports correcte, puis accédez à **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Général]** &gt; **[!UICONTROL Règles de robots]**.
+Pour mettre à jour ou télécharger des règles de robots, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**. Sélectionnez la suite de rapports correcte, puis accédez à **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de robots]**.
 
 En règle générale, la suppression du trafic de robots réduit le volume des mesures de trafic et de conversion. Pour de nombreux utilisateurs, la suppression du trafic de robots se traduit par une augmentation des taux de conversion et d’autres mesures d’utilisation. Avant de supprimer le trafic de robots, contactez les parties intéressées afin de vous assurer qu’elles sont en mesure d’apporter les modifications nécessaires aux indicateurs de performance clés à la suite de ce changement. Si possible, nous vous conseillons d’abord de supprimer le trafic de robots d’une petite suite de rapports afin d’évaluer l’impact potentiel.
 
@@ -72,7 +72,7 @@ Indiquez les plages de début et de fin des adresses IP avec lesquelles vous so
 
 ### Définir une règle de robot personnalisée
 
-1. Accédez à **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]**, sélectionnez une ou plusieurs suites de rapports, puis cliquez sur **[!UICONTROL Général]** &gt; **[!UICONTROL Règles de robots]**.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**, sélectionnez une ou plusieurs suites de rapports, puis cliquez sur **[!UICONTROL Général]** > **[!UICONTROL Règles de robots]**.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]** et définissez ensuite une ou plusieurs conditions de correspondance.
 1. Cliquez sur **[!UICONTROL Enregistrer]**. La modification doit normalement être prise en compte dans les 30 minutes.
 
