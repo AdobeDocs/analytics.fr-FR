@@ -1,16 +1,16 @@
 ---
-description: Commencez avec les analyses ad hoc.
+description: Prise en main d’Ad Hoc Analysis.
 title: Prise en main
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Commencer avec les analyses ad hoc{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Prise en main d’Ad Hoc Analysis {#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Iimportant]
+>[!Important]
 >Le 6 août 2018, Adobe a annoncé la prochaine fin de vie d’Ad Hoc Analysis, dont la date sera communiquée dès que possible. Pour plus d’informations, notamment sur les versions de Java compatibles durant cette période, voir [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 Vous pouvez effectuer une analyse avancée instantanée de l’activité d’un site Web. Vous pouvez consulter plusieurs rapports simultanément et appliquer des segments sur plusieurs dimensions. Vous pouvez analyser les données du point de vue micro et macro afin de mesurer leur impact sur les mesures importantes d’un point de vue commercial.
@@ -27,27 +27,27 @@ Grâce à ces fonctionnalités, vous pouvez répondre aux questions sur le trafi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Connexion à Adobe <span class="keyword">Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p>Rendez-vous sur <a href="https://marketing.adobe.com"  >marketing.adobe.com</a> et connectez-vous à l’aide de vos informations d’identification Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. Lancement des Ad Hoc Analysis. </p> </td> 
+   <td colname="col1"> <p>2. Lancement Ad Hoc Analysis. </p> </td> 
    <td colname="col2">Cliquez sur <span class="uicontrol">Adobe Analytics</span> &gt; <span class="uicontrol">Outils</span> &gt; <span class="uicontrol">Ad Hoc Analysis</span>, puis sur le bouton <span class="uicontrol">Lancer Ad Hoc Analysis</span>. <p> <p>Remarque : Si vous ne voyez pas le bouton <b>Lancer Ad Hoc Analysis</b> sur cette page, assurez-vous que l’administrateur vous a ajouté au groupe <i>Utilisateurs de la licence Ad Hoc Analysis</i> dans les outils d’administration. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Création d’un projet. </p> </td> 
-   <td colname="col2"> <p>Sélectionnez une suite de rapports sur la page de démarrage, puis cliquez sur <span class="uicontrol">Créer un projet</span>. </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p>Sélectionnez une suite de rapports sur la page de démarrage, puis cliquez sur <span class="uicontrol">Créer un projet</span>. </p> <p>Voir <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >Projets et espaces de travail</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Ouverture d’un rapport. </p> </td> 
-   <td colname="col2"> <p>Recherchez un rapport à l’aide du menu standard du rapport Marketing Cloud. Vous pouvez également choisir un modèle. </p> <p>Pour plus d’informations, voir <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Modèles de rapport</a>. </p> </td> 
+   <td colname="col2"> <p>Recherchez un rapport à l’aide du menu standard du rapport Marketing Cloud. Vous pouvez également choisir un modèle. </p> <p>Pour plus d’informations, voir <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >Modèles de rapport</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. Configuration du rapport. </p> </td> 
    <td colname="col2"> <p>Effectuez les tâches suivantes pour configurer des rapports : </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Créer des segments afin d’effectuer une analyse plus approfondie des données </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Ajouter des mesures, des dimensions et des segments au <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Générateur de tableau</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuration des <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > plages de dates</a> </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Ajouter des mesures, des dimensions et des segments au <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   >Générateur de tableau</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuration des <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   >plages de dates</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Planifier</a> l’envoi des rapports </li> 
     </ul> <p>Parcourez ce système d’aide à la recherche des informations dont vous avez besoin. </p> </td> 
   </tr> 
@@ -64,7 +64,7 @@ c_sys_reqs.xml
 
  -->
 
-> [!NOTE] À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter les analyses ad hoc sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre implémentation des analyses ad hoc.
+> [!NOTE] À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter Ad Hoc Analysis sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre mise en œuvre d’Ad Hoc Analysis.
 
 * Carte vidéo compatible avec OpenGL 2.0
 * Cookies : obligatoires
@@ -79,7 +79,7 @@ c_sys_reqs.xml
 
 ## Instructions de mise à niveau de Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter les analyses ad hoc sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre implémentation des analyses ad hoc.
+À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter Ad Hoc Analysis sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre mise en œuvre d’Ad Hoc Analysis.
 
 Nos fichiers .jar sont protégés par un chiffrement sécurisé de 256 bits qui n’est pas pris en charge par les versions de Java antérieures à 1.7.0_76. Ce certificat 256 bits nous permet de vous offrir une sécurité optimale.
 
@@ -116,13 +116,13 @@ t_login_suite.xml
 
  -->
 
-1. In a browser, navigate to [!DNL marketing.adobe.com].
-1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
-1. Click **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Ad Hoc Analysis]**.
+1. Dans un navigateur, accédez à [!DNL marketing.adobe.com].
+1. Entrez le nom de votre société et vos nom d’utilisateur et mot de passe. Cliquez ensuite sur **[!UICONTROL Se connecter]**.
+1. Cliquez sur **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Outils]** > **[!UICONTROL Ad Hoc Analysis]**.
 
    Si vous ne voyez pas le bouton **Lancer Ad Hoc Analysis** sur cette page, assurez-vous que l’administrateur vous a ajouté au groupe *Utilisateurs de la licence Ad Hoc Analysis* dans les outils d’administration.
-1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. Enregistrez le [!DNL discover.jnlp] fichier localement.
+1. Cliquez sur **[!UICONTROL Lancer Ad Hoc Analysis]**.
+1. Enregistrez le fichier [!DNL discover.jnlp] en local.
 
    Vous pouvez exécuter ce fichier enregistré lorsque vous souhaitez lancer les Ad Hoc Analysis.
 
@@ -168,7 +168,7 @@ t_recent_workspace.xml
 
  -->
 
-1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Recent Workspace]**.
+1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Espace de travail récent]**.
 
    Vous pouvez ouvrir jusqu’à cinq espaces de travail récents. Les espaces de travail récents ne sont plus disponibles après la fermeture de la session.
 
@@ -182,20 +182,20 @@ t_share_projects.xml
 
  -->
 
-1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. **[!UICONTROL Sélectionnez Projets]****[!UICONTROL partagés dans]** Enregistrer dans : liste déroulante.
+1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Enregistrer sous]**.
+1. Sélectionnez **[!UICONTROL Projets partagés]** dans le menu déroulant **[!UICONTROL Enregistrer dans :]**.
 
    ![](assets/shared_projects.png)
 
-1. Click **[!UICONTROL Save]** to save the project.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le projet.
 
-   Shared projects can be opened via **[!UICONTROL File]** &gt; **[!UICONTROL Open]** &gt; **[!UICONTROL Shared Projects]**.
+   Les projets partagés peuvent être ouverts en sélectionnant **[!UICONTROL Fichier]** > **[!UICONTROL Ouvrir]** > **[!UICONTROL Projets partagés]**.
 
    >[!NOTE]
    >
-   >Vous pouvez supprimer vos propres projets partagés dans la même boîte de dialogue pour le partage de projets en sélectionnant un ou plusieurs projets.
+   >Vous pouvez supprimer vos propres projets partagés dans la boîte de dialogue permettant de partager des projets en sélectionnant un ou plusieurs projets.
 
-## Rename a Workspace {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
+## Renommer un espace de travail {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
 Cette procédure explique comment renommer un espace de travail.
 
@@ -206,8 +206,8 @@ t_rename_workspace.xml
  -->
 
 1. Cliquez sur le nom de l’espace de travail avec le bouton droit de la souris.
-1. Choose **[!UICONTROL Rename Workspace]**.
-1. Type a name, then click **[!UICONTROL OK]**.
+1. Sélectionnez **[!UICONTROL Renommer l’espace de travail]**.
+1. Entrez un nom, puis cliquez sur **[!UICONTROL OK]**.
 
 ## Ouverture d’un projet local {#task_1B3EF63A80C74776B24B99D80EAC74AC}
 
@@ -219,8 +219,8 @@ t_open_local_project.xml
 
  -->
 
-1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Open Local Copy]**.
-1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
+1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Ouvrir la copie locale]**.
+1. Naviguez jusqu’au fichier local [!DNL .dproj], puis cliquez sur **[!UICONTROL Ouvrir]**.
 
 ## Modèles de rapport {#concept_370F674C5B4C45368731AA801C5A45F8}
 
@@ -232,7 +232,7 @@ c_templates.xml
 
  -->
 
-You can access templates when creating a project ( **[!UICONTROL File]** &gt; **[!UICONTROL New Project]**), or by adding a workspace or report.
+Vous pouvez accéder à des modèles lors de la création d’un projet (**[!UICONTROL Fichier]** > **[!UICONTROL Nouveau projet]**) ou en ajoutant un espace de travail ou un rapport.
 
 | Modèle | Description |
 |--- |--- |
@@ -240,7 +240,7 @@ You can access templates when creating a project ( **[!UICONTROL File]** &gt; **
 | Tendance | Ces rapports vous permettent d’examiner la tendance des conversions et des événements selon une granularité temporelle sélectionnée (Heure, Jour, Semaine, Mois, Trimestre ou Année) au cours d’une période de rapport. |
 | Totaux | Rapport destiné aux décideurs qui affiche des chiffres essentiels. Il contient les données relatives aux recettes totales, aux pages vues et aux commandes. |
 | Abandon | Ce modèle vous permet de créer un entonnoir qui affiche des taux de conversion et d’abandon entre des points de contrôle. Vous pouvez, par exemple, effectuer le suivi des points d’abandon d’un visiteur au cours d’un processus d’achat. |
-| Flux | Affiche les chemins empruntés le plus souvent par les utilisateurs pour parcourir les pages, sections de site et serveurs.  |
+| Flux | Affiche les chemins empruntés le plus souvent par les utilisateurs pour parcourir les pages, sections de site et serveurs. |
 | Entonnoir de conversion | Affiche des pourcentages de conversion entre des événements de mesure spécifiques. Vous pouvez utiliser ces rapports pour connaître le nombre de clics publicitaires qui génèrent des ventes et le nombre d’unités vendues. |
 | Analyse de site | Outil de cheminement de site en trois dimensions qui affiche le cheminement des visiteurs sur des pages et événements spécifiés. |
 | Groupe d’orientation virtuel | Ce rapport sélectionne, de manière aléatoire, une visite parmi les autres et fournit de nombreuses informations à son sujet. Vous pouvez utiliser ce rapport pour créer des groupes d’orientation à partir de votre population de visiteurs. |
@@ -258,5 +258,5 @@ t_reports_opening.xml
 Plusieurs méthodes permettent d’ouvrir un rapport :
 
 * Sur la page [!UICONTROL Nouveau rapport], recherchez un rapport ou sélectionnez un modèle.
-* Cliquez sur **[!UICONTROL Rapports]dans le menu, puis sélectionnez un rapport ou un modèle de rapport.**
-* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** &gt; **`report name`**.
+* Cliquez sur **[!UICONTROL Rapports]** dans le menu, puis sélectionnez un rapport ou un modèle de rapport.
+* Lancez un rapport à partir d’une dimension : cliquez sur le nom d’une dimension avec le bouton droit de la souris, puis sélectionnez **[!UICONTROL Exécuter le rapport]** > **`report name`**.
