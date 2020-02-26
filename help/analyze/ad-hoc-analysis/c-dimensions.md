@@ -3,7 +3,7 @@ description: Les dimensions sont des descriptions ou caractéristiques de donné
 title: Dimensions
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ Exemples de dimensions :
 * Résolution de l’écran
 * eVar personnalisées et valeurs s.prop
 
-**Volet[!UICONTROL Dimensions]**
+**[!UICONTROL Volet Dimensions]**
 
 Le volet [!UICONTROL Dimension] répertorie et organise toutes les dimensions de produits provenant de l’implémentation de vos Reports and Analytics marketing. Vous pouvez axer les rapports sur n’importe quel élément de dimension. Vous pouvez ventiler les dimensions en fonction d’autres dimensions afin d’analyser et de comparer pratiquement tout élément existant.
 
