@@ -2,7 +2,7 @@
 description: Comment désactiver les comptes hérités pour les utilisateurs Analytics.
 title: Désactivation des comptes hérités
 uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
@@ -14,7 +14,7 @@ Comment désactiver les comptes hérités pour les utilisateurs Analytics.
 
 Une fois que vos utilisateurs ont migré du système de gestion des utilisateurs Analytics hérité vers Adobe Admin Console, vous pouvez désactiver leurs comptes hérités. La désactivation des comptes hérités redirige les utilisateurs vers le compte Experience Cloud lorsqu’ils tentent d’utiliser le compte hérité.
 
-1. Ouvrez l’outil de migration dans **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Migration de l’ID utilisateur]**.
+1. Ouvrez l’outil de migration dans **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Migration de l’ID utilisateur]**.
 1. Dans la section [!DNL User Information], localisez le domaine contenant les utilisateurs que vous souhaitez utiliser, puis cliquez sur **[!UICONTROL Sélectionner les utilisateurs]**.
 1. Sélectionnez les utilisateurs pour lesquels vous souhaitez désactiver les comptes hérités.
 
