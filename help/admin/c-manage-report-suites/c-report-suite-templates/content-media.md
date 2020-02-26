@@ -3,7 +3,7 @@ description: Définit des paramètres courants pour un site Web qui développe l
 title: Contenu et média
 topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
