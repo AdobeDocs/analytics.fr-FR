@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Créer des règles de traitement
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Les règles de traitement sont définies sur les suites de rapports.
 
-1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Général]** &gt; **[!UICONTROL Règles de traitement]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de traitement]**.
 1. Sur la page **[!UICONTROL Règles de traitement]**, cliquez sur **[!UICONTROL Ajouter une règle]**.
 1. Cliquez sur **[!UICONTROL Ajouter une condition]** et sélectionnez les conditions d’application de la règle.
 
