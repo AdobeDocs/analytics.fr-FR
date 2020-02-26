@@ -3,7 +3,7 @@ description: Permet aux utilisateurs de niveau administrateur d’afficher et de
 title: File d’attente des rapports planifiés
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Permet aux utilisateurs de niveau administrateur d’afficher et de gérer des rapports planifiés à l’échelle de l’organisation.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Rapports programmés]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Rapports programmés]**
 
 Les fonctionnalités de niveau administrateur dans le gestionnaire de rapports programmés incluent :
 
