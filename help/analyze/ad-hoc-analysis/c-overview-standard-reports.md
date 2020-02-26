@@ -3,7 +3,7 @@ description: Les rapports standard affichent des données relatives à l’activ
 title: Rapports - Aperçu
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-Ces rapports sont généralement personnalisés et diffèrent par conséquent d’un analyste à l’autre. Pour plus d’informations, voir [Gestionnaire de campagnes](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) dans l’aide d’[!DNL Admin Console].
+Ces rapports sont généralement personnalisés et diffèrent par conséquent d’un analyste à l’autre. Pour plus d’informations, voir [Gestionnaire de campagnes](https://marketing.adobe.com/resources/help/fr_FR/reference/campaign_manager_admin.html) dans l’aide d’[!DNL Admin Console].
 
 ## Calculs statistiques {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,7 +74,7 @@ D’autres calculs statistiques par défaut peuvent être ajoutés aux rapports 
 
 **Pour ouvrir les calculs statistiques pour les rapports de classement :**
 
-1. Select **[!UICONTROL Tools]** &gt; **[!UICONTROL Ranked]** from the menu.
+1. Dans le menu, sélectionnez **[!UICONTROL Outils]** > **[!UICONTROL Classement]**.
 
 1. Sélectionnez **[!UICONTROL Paramètres]**.
 1. Sélectionnez **[!UICONTROL Statistiques par défaut]**.
@@ -133,7 +133,7 @@ La fonction Moyenne utilise le même calcul que dans les colonnes de données de
 
 ## Superpositions de calculs statistiques {#concept_97E1B32DAC734C7B9F8899717283CEEC}
 
-Les Ad Hoc Analysis fournissent désormais des visualisations superposées des calculs statistiques pour les rapports qui affichent des données au fil du temps (minutes, heures, jours, semaines). 
+Les Ad Hoc Analysis fournissent désormais des visualisations superposées des calculs statistiques pour les rapports qui affichent des données au fil du temps (minutes, heures, jours, semaines).
 
 <!-- 
 
@@ -141,15 +141,15 @@ c_overlay_calculations.xml
 
  -->
 
-Dans un rapport qui identifie les données sur une période donnée, le bouton **[!UICONTROL Statistiques]permet de sélectionner des calculs qui s’affichent sous forme de superpositions dans la chronologie du rapport.**
+Dans un rapport qui identifie les données sur une période donnée, le bouton **[!UICONTROL Statistiques]** permet de sélectionner des calculs qui s’affichent sous forme de superpositions dans la chronologie du rapport.
 
 ![](assets/overlay_calculations.png)
 
-In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
+En plus des [calculs statistiques](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585) standard, vous pouvez sélectionner les premier, deuxième et troisième écarts types dans les superpositions.
 
 ## Gestionnaire de groupe {#concept_E1433974A61144858E87334C006982B2}
 
-Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. Vous pouvez modifier les groupes à partir du menu principal ou du rapport. Les catégories que vous avez créées dans les Reports and Analytics marketing apparaissent également dans la liste [!UICONTROL Sélecteur de points de contrôle].
+Plutôt que d’utiliser des pages uniques dans votre rapport, vous pouvez regrouper plusieurs pages et les utiliser comme catégories pour les emplacements de début, intermédiaires ou de destination dans les rapports [!UICONTROL Abandon] et [!UICONTROL Analyse de site]. Vous pouvez modifier les groupes à partir du menu principal ou du rapport. Les catégories que vous avez créées dans les Reports and Analytics marketing apparaissent également dans la liste [!UICONTROL Sélecteur de points de contrôle].
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Group Manager]**.
+Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Gestionnaire de groupe]**.
