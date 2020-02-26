@@ -3,7 +3,7 @@ description: Descriptions des types de rapport utilisés dans Experience Cloud.
 title: Types de rapports
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -74,7 +74,7 @@ Rapport destiné aux décideurs qui affiche des chiffres essentiels. Il contient
 
 ## Rapports de flux {#concept_3E417D018F1B4566973F694B01E6439F}
 
-Les rapports de flux indiquent les chemins empruntés le plus souvent par les utilisateurs pour parcourir les pages, sections de site et serveurs. 
+Les rapports de flux indiquent les chemins empruntés le plus souvent par les utilisateurs pour parcourir les pages, sections de site et serveurs.
 
 <!-- 
 
@@ -169,7 +169,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs que les utilisateurs ont atteints. C’est également vrai pour les domaines de votre site web. Vous pouvez, par exemple, voir le nombre d’utilisateurs qui sont passés de `www.mysite.com` à `info.mysite.com`ou `sales.mysite.com`.
+Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs atteints par les utilisateurs. C’est également vrai pour les domaines de votre site web. Vous pouvez, par exemple, voir le nombre d’utilisateurs qui sont passés de `www.mysite.com` à `info.mysite.com`ou `sales.mysite.com`.
 
 ## Rapports Entonnoir de conversion {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
@@ -192,7 +192,7 @@ Le tableau de rapport affiche des statistiques sur les ventes moyennes par clic 
 
 ## Rapport Analyse de site {#concept_65694C6BDE424714B7975764F95497A4}
 
-[!UICONTROL Le rapport Analyse de site indique le cheminement des visiteurs dans des pages et événements spécifiés. ] Vous pouvez, par exemple, afficher le flux de trafic entre des pages, l’affinité entre les produits et les canaux marketing, ainsi que la manière dont les campagnes et canaux débouchent sur des commandes de produits. Vous pouvez faire glisser des pages, des éléments de dimension (et des listes), ainsi que des événements de mesure. Chaque cylindre représente un ou plusieurs éléments de dimension (pages) ou un événement. Les flèches représentent le flux entre les valeurs de cylindre. Les mesures sont affectées à des positions de cylindre (X et Y), une largeur de cylindre, une hauteur de cylindre et une couleur. La position, la taille et la couleur varient en fonction des valeurs de la mesure.
+Le rapport [!UICONTROL Analyse de site] indique le cheminement des visiteurs dans des pages et événements spécifiés. Vous pouvez, par exemple, afficher le flux de trafic entre des pages, l’affinité entre les produits et les canaux marketing, ainsi que la manière dont les campagnes et canaux débouchent sur des commandes de produits. Vous pouvez faire glisser des pages, des éléments de dimension (et des listes), ainsi que des événements de mesure. Chaque cylindre représente un ou plusieurs éléments de dimension (pages) ou un événement. Les flèches représentent le flux entre les valeurs de cylindre. Les mesures sont affectées à des positions de cylindre (X et Y), une largeur de cylindre, une hauteur de cylindre et une couleur. La position, la taille et la couleur varient en fonction des valeurs de la mesure.
 
 <!-- 
 
