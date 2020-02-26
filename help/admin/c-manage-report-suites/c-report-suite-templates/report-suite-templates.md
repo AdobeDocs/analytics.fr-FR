@@ -3,7 +3,7 @@ description: Les modèles de suite de rapports configurent les paramètres les p
 title: Modèles de suite de rapports - Aperçu
 topic: Admin tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
