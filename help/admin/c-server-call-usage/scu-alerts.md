@@ -1,33 +1,33 @@
 ---
 description: Ajoutez ou gérez toutes les alertes d’utilisation du serveur. Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
-title: Alertes d’utilisation des appels serveur
+title: Alerte d’utilisation des appels au serveur
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Alertes d’utilisation des appels serveur
+# Alerte d’utilisation des appels au serveur
 
 Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
 
 ## Aperçu
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+Une nouvelle catégorie d’alertes appelée **[!UICONTROL Alertes d’utilisation de l’appel au serveur]** fait partie de l’interface utilisateur existante [Gestion des alertes](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/intellligent_alerts.html).
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Cette alerte déclenche une notification adressée à tous les administrateurs de la société de connexion si l’un des critères suivants est satisfait :
+Elle contient déjà **une alerte par défaut** qui apparaît dans toutes les sociétés de connexion qui ont accès à la fonctionnalité d’utilisation de l’appel au serveur. Cette alerte déclenche l’envoi d’une notification à tous les administrateurs de la société de connexion si l’un des critères suivants est rempli :
 
-* "toute" utilisation de l’appel au serveur qui "est supérieure ou égale" à 100 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, OU
-* "toute" utilisation de l’appel au serveur qui "est supérieure ou égale" à 90 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, OU
-* "toute" utilisation de l’appel au serveur qui "est supérieure ou égale" à 75 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, ET "la période d’utilisation passée" "est inférieure ou égale" à 75 % de la période d’utilisation.
+* &quot;toute&quot; utilisation de l’appel au serveur qui &quot;est supérieure ou égale&quot; à 100 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, OU
+* &quot;toute&quot; utilisation de l’appel au serveur qui &quot;est supérieure ou égale&quot; à 90 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, OU
+* &quot;toute&quot; utilisation de l’appel au serveur qui &quot;est supérieure ou égale&quot; à 75 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, ET &quot;la période d’utilisation passée&quot; &quot;est inférieure ou égale&quot; à 75 % de la période d’utilisation.
 
 ![](assets/alerts.png)
 
 Vous pouvez accéder aux alertes d’utilisation des appels au serveur de deux façons :
 
-* cliquez sur **[!UICONTROL Gérer les alertes]dans le coin supérieur droit de l’onglet Utilisation actuelle ou Suite de rapports d’utilisation ; ou**
-* Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]** in Adobe Analytics.
+* cliquez sur **[!UICONTROL Gérer les alertes]** dans le coin supérieur droit de l’onglet Utilisation actuelle ou Suite de rapports d’utilisation ; ou
+* accédez à **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** dans Adobe Analytics.
 
 ## Créer des alertes d’utilisation des appels au serveur {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
@@ -41,16 +41,18 @@ Pour créer des alertes supplémentaires :
 
    ![](assets/sc_alert.png)
 
-   * **Titre**: Indiquez un nom descriptif. Vous ne pouvez pas enregistrer une alerte sans nom.
-   * **Granularité** du temps : Fait référence à la fréquence de vérification de l’alerte. *Pour l’instant, nous ne prenons en charge que la granularité hebdomadaire.* Cela signifie que l’alerte sera vérifiée de façon hebdomadaire et analysera les données de la période d’utilisation actuelle.
-   * **Destinataires**: Indiquez les personnes de l’organisation qui doivent recevoir un courrier électronique lorsque l’alerte déclenche le seuil spécifié.
-   * **Date** d'expiration : Par défaut, la date d’expiration est d’un an à compter de la date de création de l’alerte.
-   * **Envoyer une alerte lorsque**:
+   * **Titre** : spécifiez un nom explicite. Vous ne pouvez pas enregistrer une alerte sans nom.
+   * **Granularité du temps** : indique la fréquence de vérification de l’alerte. *Pour l’instant, nous ne prenons en charge que la granularité hebdomadaire.* Cela signifie que l’alerte sera vérifiée de façon hebdomadaire et analysera les données de la période d’utilisation actuelle.
+   * **Destinataires** : indique toutes les personnes de l’organisation qui doivent recevoir un courrier électronique lorsqu’une alerte déclenche le seuil spécifié.
+   * **Date d’expiration** : par défaut, la date d’expiration est fixée à un an à compter de la date de création de l’alerte.
+   * **Envoyer une alerte lorsque** :
 
-      * Déclencheur de l’une de ces mesures Ajoutez le type d’appel au serveur en tant que mesure et spécifiez le seuil d’alerte en sélectionnant le modificateur et le seuil :
+      * Pour l’un de ces déclencheurs de mesure
+Ajoute le type d’appel au serveur en tant que mesure et spécifie le seuil de l’alerte en sélectionnant le modificateur et le seuil :
          * est supérieur ou égal
          * est inférieur ou égal
-      * AvecSpécifiez le seuil et la condition (est supérieur ou égal à ou inférieur ou égal à) pour la période d'utilisation passée.
+      * Avec
+Spécifie le seuil et la condition (est supérieur ou égal ou est inférieur ou égal) pour la période d’utilisation passée.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -69,7 +71,7 @@ Pour gérer des alertes :
    | Baliser | Ajoutez des balises aux alertes pour les organiser et les utiliser plus facilement. |
    | Supprimer | Vous pouvez supprimer toutes les alertes sauf les alertes par défaut. |
    | Renommer | Vous pouvez renommer toutes les alertes sauf les alertes par défaut. |
-   | Approuver | Approuvez les alertes pour les rendre "officielles". |
+   | Approuver | Approuvez les alertes pour les rendre &quot;officielles&quot;. |
    | Activer/Désactiver | Vous pouvez activer ou désactiver toutes les alertes sauf les alertes par défaut. |
    | Renouveler | Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées. Cela prolonge leur date d’expiration d’un an à partir du moment où vous avez cliqué sur l’option [!UICONTROL Renouveler], quelle que soit leur date d’expiration d’origine. |
    | Exporter dans un fichier CSV | Reportez-vous à [Télécharger le rapport d’utilisation](/help/admin/c-server-call-usage/report-suite-usage.md). |
