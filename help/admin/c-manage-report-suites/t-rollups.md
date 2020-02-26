@@ -3,7 +3,7 @@ description: Description de la procédure de création d’une suite de rapports
 title: Création d’une suite de rapports de cumul
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Description de la procédure de création d’une suite de rapports de cumul.
 
-1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Dans le volet [!UICONTROL Groupes de suites de rapports], cliquez sur **[!UICONTROL Ajouter]** en regard de l’en-tête **[!UICONTROL Cumuls]**.
 1. Entrez les informations suivantes dans la boîte de dialogue **[!UICONTROL Créer un nouveau cumul]** :
 
