@@ -3,7 +3,7 @@ description: La page Gestion du trafic vous permet de spécifier les changements
 title: Gestion du trafic
 topic: Admin tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,6 +15,6 @@ La page Gestion du trafic vous permet de spécifier les changements prévus en t
 
 Pour accéder à [!UICONTROL Gestion du trafic] :
 
-1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
 
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Gestion du trafic]** &gt; *`<selection>`*.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion du trafic]** > *`<selection>`*.
