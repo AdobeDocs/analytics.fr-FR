@@ -1,8 +1,8 @@
 ---
-description: valeur nulle
+description: 'null'
 title: Affichage de l’utilisation actuelle des appels au serveur
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Affichage de l’utilisation actuelle des appels au serveur
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Utilisation **[!UICONTROL des appels]** serveur &gt; Utilisation **[!UICONTROL actuelle]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Utilisation de l’appel au serveur]** > **[!UICONTROL Utilisation actuelle]**
 
-> [!IMPORTANT] Les chiffres d’utilisation et d’engagement que vous voyez sont cumulés dans toutes vos sociétés de connexion et suites de rapports.
+> [!IMPORTANT] L’ensemble des chiffres affichés relatifs à l’utilisation et à l’engagement regroupent toutes vos sociétés de connexion et vos suites de rapports.
 
 Le tableau de bord de l’utilisation actuelle :
 
@@ -23,7 +23,7 @@ Le tableau de bord de l’utilisation actuelle :
 
 * compare la période d’utilisation actuelle à celle de l’année précédente (ligne bleue) ; Bien entendu, la ligne bleue n’apparaitra que si votre société possède les données d’utilisation de l’appel au serveur de l’année précédente.
 
-   > [!NOTE] Si vous souhaitez afficher l’utilisation d’une période précédente, vous devez accéder à l’onglet Utilisation [des suites de](/help/admin/c-server-call-usage/report-suite-usage.md) rapports et télécharger les données d’utilisation d’une période précédente.
+   > [!NOTE] Si vous souhaitez afficher l’utilisation d’une période précédente, vous devez accéder à l’onglet [Suite de rapports d’utilisation](/help/admin/c-server-call-usage/report-suite-usage.md) et télécharger les données d’utilisation d’une période précédente.
 
 * répertorie le pourcentage d’appels utilisé (en pourcentage et données brutes) et le pourcentage de la période d’utilisation passée (en pourcentage et données brutes) ;
 * est, par défaut, mis à jour quotidiennement, avec une latence de traitement de 5 jours ;
