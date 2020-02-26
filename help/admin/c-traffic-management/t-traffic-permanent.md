@@ -3,7 +3,7 @@ description: Les sections Trafic permanent vous permettent de modifier vos prév
 title: Indication d’une augmentation permanente du trafic
 topic: Admin tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ Les sections Trafic permanent vous permettent de modifier vos prévisions en ter
 
 Lisez les informations relatives à l’ [Délai d’avance requis pour les augmentations de trafic](/help/admin/c-traffic-management/traffic-lead-time.md) avant de spécifier une hausse permanente importante du trafic.
 
-1. Ouvrez le Gestionnaire de suites de rapports en cliquant sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
+1. Ouvrez le Gestionnaire de suite de rapports en cliquant sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Gestion du trafic]** &gt; **[!UICONTROL Trafic permanent]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion du trafic]** > **[!UICONTROL Trafic permanent]**.
 1. Dans le champ **[!UICONTROL Nouvelles vues de pages quotidiennes attendues]**, indiquez le nombre total de pages vues attendu pour le nouveau niveau de trafic.
 
    Veillez à indiquer le nombre total de pages vues attendu et pas simplement le nombre de pages vues supplémentaires.
