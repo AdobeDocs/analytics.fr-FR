@@ -1,8 +1,8 @@
 ---
 description: Migration des utilisateurs du système de gestion des utilisateurs Analytics hérité vers Adobe Admin Console.
-title: Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID
+title: Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
@@ -20,7 +20,7 @@ Migration des utilisateurs du système de gestion des utilisateurs Analytics hé
 
 **Pour migrer des utilisateurs Analytics**
 
-1. Accédez à **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Migration de l’ID utilisateur]**.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Migration de l’ID utilisateur]**.
 
    ![](assets/migration-progress.png)
 
@@ -61,11 +61,11 @@ Migration des utilisateurs du système de gestion des utilisateurs Analytics hé
    <tbody> 
    <tr> 
       <td colname="col1"> <p>Domaine </p> </td> 
-      <td colname="col2"> <p>Les domaines sont spécifiques aux ID de message électronique de la base d’utilisateurs Analytics actuelle. Un domaine ne peut être déposé que par une seule organisation et seuls les administrateurs système peuvent déposer un domaine. Pour plus d’informations, voir <a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html"> Demande d’accès à un domaine déposé</a>. </p> </td> 
+      <td colname="col2"> <p>Les domaines sont spécifiques aux ID de message électronique de la base d’utilisateurs Analytics actuelle. Un domaine ne peut être déposé que par une seule organisation et seuls les administrateurs système peuvent déposer un domaine. Pour plus d’informations, voir <a href="https://helpx.adobe.com/fr/enterprise/help/request-access-to-claimed-domain.html"> Demande d’accès à un domaine déposé</a>. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Domaine déposé </p> </td> 
-      <td colname="col2"> <p>Vous devez être administrateur système pour migrer des utilisateurs sous la forme d’Enterprise ID ou de Federated ID, et déposer un domaine disponible par le biais de l’Admin Console avant d’effectuer la migration. En savoir plus <a href="https://helpx.adobe.com/enterprise/help/identity.html"> ici</a>. </p> <p>Si vous ne souhaitez pas déposer de domaine en Enterprise ID ou Federated ID, passez cette étape et migrez les utilisateurs en Adobe ID. Pour en savoir plus sur les types d’ID, cliquez <a href="https://helpx.adobe.com/enterprise/help/identity.html"> ici</a>. </p> </td> 
+      <td colname="col2"> <p>Vous devez être administrateur système pour migrer des utilisateurs sous la forme d’Enterprise ID ou de Federated ID, et déposer un domaine disponible par le biais de l’Admin Console avant d’effectuer la migration. En savoir plus <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> ici</a>. </p> <p>Si vous ne souhaitez pas déposer de domaine en Enterprise ID ou Federated ID, passez cette étape et migrez les utilisateurs en Adobe ID. Pour en savoir plus sur les types d’ID, cliquez <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> ici</a>. </p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -73,7 +73,7 @@ Migration des utilisateurs du système de gestion des utilisateurs Analytics hé
 1. Localisez le domaine contenant les ID utilisateur que vous souhaitez migrer, puis sous **[!UICONTROL Migration requise]**, cliquez sur **[!UICONTROL Sélectionner les utilisateurs]**.
 1. Sur la page [!DNL Users], sélectionnez les utilisateurs que vous souhaitez migrer, puis cliquez sur **[!UICONTROL Migrer]**.
 
-   Lorsque vous cliquez sur **[!UICONTROL Migrer]**, les utilisateurs reçoivent une invitation (Migration commencée) et doivent l’accepter. L’état de leur ID utilisateur passe alors à Migration terminée. You can then turn off their legacy access to `[!DNL my.omniture.com].`
+   Lorsque vous cliquez sur **[!UICONTROL Migrer]**, les utilisateurs reçoivent une invitation (Migration commencée) et doivent l’accepter. L’état de leur ID utilisateur passe alors à Migration terminée. Vous pouvez alors désactiver l’accès à `[!DNL my.omniture.com].` de leur compté hérité
 
    ![](assets/user-info.png)
 
