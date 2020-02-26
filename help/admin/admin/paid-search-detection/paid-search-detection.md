@@ -3,7 +3,7 @@ description: La détection de recherche payante fait la distinction entre les re
 title: Détection de recherche payante
 topic: Admin tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,4 +20,4 @@ Le tableau suivant décrit les champs et options utilisés pour [configurer la d
 | Éléments | Description |
 |--- |--- |
 | Moteur de recherche | Sélectionnez un moteur de recherche dans la liste déroulante. Indiquez le moteur si vous utilisez des paramètres de chaîne de requête différents en fonction des moteurs de recherche. En règle générale, la valeur Quelconque est suffisante. |
-| Chaîne de requête | Indique un ensemble de règles sensible à la casse qui doit contenir ou non une valeur spécifique. Cette valeur doit correspondre au paramètre de chaîne de requête, sans les signes "?". <br>**Remarque** : la détection de recherche payante est sensible à la casse. Par exemple, une règle qui spécifie PID comme paramètre de chaîne de requête n’affiche pas pid dans les rapports. Si votre entreprise utilise une casse mixte (combinaison de majuscules et de minuscules), placez les valeurs exactes en tant que règles distinctes, de telle sorte que tous les paramètres de chaîne de requête souhaités puissent être capturés.</br> |
+| Chaîne de requête | Indique un ensemble de règles sensible à la casse qui doit contenir ou non une valeur spécifique. Cette valeur doit correspondre au paramètre de chaîne de requête, sans les signes &quot;?&quot;. <br>**Remarque ** : la détection de recherche payante est sensible à la casse. Par exemple, une règle qui spécifie PID comme paramètre de chaîne de requête n’affiche pas pid dans les rapports. Si votre entreprise utilise une casse mixte (combinaison de majuscules et de minuscules), placez les valeurs exactes en tant que règles distinctes, de telle sorte que tous les paramètres de chaîne de requête souhaités puissent être capturés.</br> |
