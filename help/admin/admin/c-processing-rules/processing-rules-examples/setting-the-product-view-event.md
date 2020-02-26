@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Définir l’événement d’affichage de produit à partir de la page d’aperçu des produits
 topic: Admin tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
