@@ -2,7 +2,7 @@
 description: Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations (ou rechargements), la durée moyenne de consultation, les dates, les unités, les commandes, les recettes, etc. Les mesures et les données associées s’affichent dans les colonnes des rapports.
 title: Mesures
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ Les mesures standard incluent :
 * **Conversion** : affiche des données sur les événements de succès de votre site Web. Ces événements de succès peuvent inclure les achats, les téléchargements ou toute autre action que vous voulez amener les utilisateurs à effectuer.
 * **Calculé** : mesures personnalisables créées en combinant d’autres mesures. Par exemple, vous pouvez créer une mesure qui soustrait le coût par mot-clé et le coût des produits des recettes pour obtenir les recettes nettes. Vous pouvez ensuite diviser ce montant par le nombre total de commandes pour calculer les recettes nettes moyennes par commande.
 
-Voir les [définitions des mesures](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) dans la *référence sur les analyses* pour en savoir plus sur la manière dont sont utilisées les mesures dans les produits [!DNL Experience Cloud].
+Voir les [définitions des mesures](https://marketing.adobe.com/resources/help/fr_FR/reference/metrics.html) dans la *référence sur les analyses* pour en savoir plus sur la manière dont sont utilisées les mesures dans les produits [!DNL Experience Cloud].
 
 Utilisez l’outil [!UICONTROL Organiser les mesures] pour créer des dossiers pour vos mesures. Vous pouvez ensuite grouper les mesures à votre gré. L’outil d’organisation vous permet de copier les mesures existantes dans vos dossiers personnalisés par simple glisser-déposer.
 
@@ -41,8 +41,8 @@ t_organize_metrics.xml
 1. Dans le volet d’outils [!UICONTROL Mesures], cliquez sur **[!UICONTROL Autres actions]**. (  ![](assets/tools_icon.png)
 
    )
-1. Click **[!UICONTROL Organize Metrics]**.
-1. Click **[!UICONTROL New]** to create a folder.
+1. Cliquez sur **[!UICONTROL Organiser les mesures]**.
+1. Cliquez sur **[!UICONTROL Nouveau]** pour créer un dossier.
 1. Sélectionnez les mesures dans d’autres dossiers, puis faites glisser la sélection vers le nouveau dossier.
 1. Cliquez sur **[!UICONTROL OK]**.
 
@@ -60,7 +60,7 @@ t_add_metrics_dsc.xml
 
  -->
 
-1. Localisez la mesure dans le volet d’outils [!UICONTROL Mesures.]
+1. Localisez la mesure dans le volet d’outils [!UICONTROL Mesures].
 
    Vous pouvez localiser les mesures dans le champ de recherche ou en parcourant les dossiers de mesures.
 
@@ -80,7 +80,7 @@ c_calc_metric_builder.xml
 
  -->
 
-Pour plus d’informations sur la création et la gestion des mesures calculées, consultez le [guide des mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Pour plus d’informations sur la création et la gestion des mesures calculées, consultez le [guide des mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/).
 
 Procédez comme suit pour accéder au créateur de mesures calculées dans les Ad Hoc Analysis :
 
