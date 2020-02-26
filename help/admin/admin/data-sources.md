@@ -3,7 +3,7 @@ description: La fonction Sources de données vous permet d’importer des donné
 title: Sources de données
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,4 +21,4 @@ Utilisez la fonctionnalité Sources de données pour effectuer les opérations s
 
 Lorsque la fonction Sources de données est activée sur une suite de rapports, un emplacement FTP est fourni, ce qui vous permet de télécharger les fichiers à intégrer dans le cadre de la création de rapports. Une fois le téléchargement effectué, les serveurs Adobe traitent automatiquement les données et les intègrent dans votre suite de rapports.
 
-Consultez l’[aide des sources de données](https://marketing.adobe.com/resources/help/en_US/sc/datasources/).
+Consultez l’[aide des sources de données](https://marketing.adobe.com/resources/help/fr_FR/sc/datasources/).
