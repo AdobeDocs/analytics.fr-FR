@@ -3,7 +3,7 @@ description: Vous pouvez exclure de vos rapports les données d’adresses IP s
 title: Exclure par adresse IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). L’élimination de données améliore la précision du rapport en excluant des données d’adresse IP. De plus, vous pouvez supprimer les données des attaques par déni de service ou autres événements malveillants susceptibles de biaiser les résultats de vos rapports. Vous pouvez configurer l’exclusion en utilisant votre pare-feu.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Exclure par IP]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclure par IP]**
 
-> [!NOTE] Les accès exclus par adresse IP sont facturés en tant qu’[appels au serveur](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+> [!NOTE] Les accès exclus par adresse IP sont facturés en tant qu’[appels au serveur](https://marketing.adobe.com/resources/help/fr_FR/reference/primary_server_calls.html).
 
 ## Exclure par cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -25,7 +25,7 @@ Cette fonction vous permet (à vous ainsi qu’à vos collègues) de visiter vot
 
 | Élément | Description |
 |--- |--- |
-| [!UICONTROL Ajouter CNAME] | Génère un lien d’exclusion que vous pouvez utiliser pour exclure votre domaine. Pour obtenir de l’aide, veuillez contacter l’assistance clientèle de votre société. <br>Vous pouvez exclure votre trafic de la création de rapports dans vos suites de rapports en consultant la page d’exclusion de votre société et en choisissant d’exclure votre navigateur de la mesure. <br>Si votre implémentation utilise des cookies tiers, votre page d’exclusion se trouve [ici](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true) : |
+| [!UICONTROL Ajouter CNAME] | Génère un lien d’exclusion que vous pouvez utiliser pour exclure votre domaine. Pour obtenir de l’aide, veuillez contacter l’assistance clientèle de votre société. <br>Vous pouvez exclure votre trafic de la création de rapports dans vos suites de rapports en consultant la page d’exclusion de votre société et en choisissant d’exclure votre navigateur de la mesure. <br>Si votre implémentation utilise des cookies tiers, votre page d’exclusion se trouve [ici](https://democorp.112.2o7.net/optout.html?locale=fr_FR&amp;popup=true) : |
 
 > [!NOTE] L’exclusion par ordinateur ne fonctionne que dans les cas suivants :
 >
@@ -34,7 +34,7 @@ Cette fonction vous permet (à vous ainsi qu’à vos collègues) de visiter vot
 > * Les cookies ne sont pas supprimés. Si les cookies sont supprimés, vous devez vous exclure de nouveau.
 
 
-## Exclure par adresse IP {#section_609FB6461529409D840111A32FEF5C3D}
+## Exclure par adresse IP {#section_609FB6461529409D840111A32FEF5C3D}
 
 Une adresse IP est une adresse Internet. Des adresses IP numériques sont attribuées à tous les utilisateurs d’Internet (généralement par l’intermédiaire de fournisseurs d’accès Internet). Ces adresses font office d’identifiants électroniques.
 
@@ -46,7 +46,7 @@ Vous pouvez utiliser des caractères de remplacement pour exclure une plage d’
 
 Vous pouvez également bloquer la collecte de données à partir d’adresses IP spécifiques par le biais d’un pare-feu.
 
-Reportez-vous à l’article [Adresses IP utilisées dans Experience Cloud](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses).
+Reportez-vous à l’article [Adresses IP utilisées dans Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/home/index.html#kb-adobe-ip-addresses).
 
 ## Impact de l’obscurcissement des adresses IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
