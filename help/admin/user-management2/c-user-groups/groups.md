@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: Paramètres des groupes d’utilisateurs
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outils d’administration]** &gt; **[!UICONTROL Gestion des utilisateurs]** sera retiré.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
 
 Descriptions des éléments de la page Définir un groupe d’utilisateurs.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Gestion des utilisateurs]** &gt; **[!UICONTROL Groupes]** &gt; **[!UICONTROL Ajouter un nouveau groupe d’utilisateurs]**
+**[!UICONTROL Administration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]** > **[!UICONTROL Ajouter un nouveau groupe d’utilisateurs]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -50,7 +50,7 @@ Descriptions des éléments de la page Définir un groupe d’utilisateurs.
   <tr> 
    <td colname="col1"> <p> 
      <ul id="ul_2615D113681C402E8F6B2A844B402626"> 
-      <li id="li_6E04FC6AE26F4052835EF3AE51CDE2E3">Report Suites incluses dans le groupe </li> 
+      <li id="li_6E04FC6AE26F4052835EF3AE51CDE2E3">Suites de rapports incluses dans le groupe </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p>Affiche toutes les suites de rapports actuellement affectées au groupe. </p> <p>Pour supprimer une suite de rapports, sélectionnez-la, puis cliquez sur <span class="uicontrol">Supprimer</span>. </p> </td> 
   </tr> 
@@ -106,7 +106,7 @@ Descriptions des éléments de la page Définir un groupe d’utilisateurs.
    <td colname="col2"> <p>Les membres du groupe ne peuvent pas accéder aux rapports du groupe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Toutes les Report Suites</b> </td> 
+   <td colname="col1"><b>Toutes les suites de rapports</b> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -114,7 +114,7 @@ Descriptions des éléments de la page Définir un groupe d’utilisateurs.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Accès complet, Personnaliser, Accès interdit) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Les autorisations sont prises en charge pour les clients qui détiennent des conteneurs <span class="keyword"> TagManager</span> actifs. Non disponible pour les nouveaux utilisateurs. </p> <p>Adobe recommande d’utiliser la <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html">Dynamic Tag Management</a> pour le déploiement. </p> </td> 
+   <td colname="col2"> <p>Les autorisations sont prises en charge pour les clients qui détiennent des conteneurs <span class="keyword"> TagManager</span> actifs. Non disponible pour les nouveaux utilisateurs. </p> <p>Adobe recommande d’utiliser la <a href="https://marketing.adobe.com/resources/help/fr_FR/dtm/atm_migration.html">Dynamic Tag Management</a> pour le déploiement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Affecter les identifications utilisateur</b> </td> 
