@@ -3,7 +3,7 @@ description: Les rapports de source de trafic vous donnent une vue détaillée d
 title: Rapports sur les sources de trafic
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,11 +26,11 @@ Ils permettent :
 
 **Persistance commune**
 
-Dans [!UICONTROL Sources de trafic], toutes les valeurs de rapport sont persistantes et reçoivent du crédit jusqu’à ce qu’elles soient remplacées ou jusqu’à la fin de la visite, selon la condition qui se présente en premier. Auparavant, seuls les mots-clés et les domaines référents étaient persistants. Par exemple, si un visiteur recherche dans Google « DVD », qui l’amène sur votre site pour tout achat de 100 $, le rapport alloue un crédit de 100 $ au mot-clé « DVD » ainsi qu’au moteur de recherche Google. This functionality is unalterable, regardless of [!DNL Admin Console] settings.
+Dans [!UICONTROL Sources de trafic], toutes les valeurs de rapport sont persistantes et reçoivent du crédit jusqu’à ce qu’elles soient remplacées ou jusqu’à la fin de la visite, selon la condition qui se présente en premier. Auparavant, seuls les mots-clés et les domaines référents étaient persistants. Par exemple, si un visiteur recherche dans Google « DVD », qui l’amène sur votre site pour tout achat de 100 $, le rapport alloue un crédit de 100 $ au mot-clé « DVD » ainsi qu’au moteur de recherche Google. Cette fonctionnalité est inaltérable, quels que soient les paramètres d’[!DNL Admin Console].
 
 ## Mots-clés de recherche {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
-Affiche une ventilation des mots-clés pour toutes les recherches, les recherches payantes et les recherches naturelles. 
+Affiche une ventilation des mots-clés pour toutes les recherches, les recherches payantes et les recherches naturelles.
 
 <!-- 
 
@@ -38,11 +38,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Mots-clés de recherche - Tous]** : ce rapport répertorie chaque mot-clé de recherche qui a été utilisé pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
+**[!UICONTROL Mots-clés de recherche – Tous]** : ce rapport répertorie chaque mot-clé de recherche qui a été utilisé pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
 
-**[!UICONTROL Mots-clés de recherche - Payée]** : répertorie les mots-clés de recherche payante qui ont été utilisés pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
+**[!UICONTROL Mots-clés de recherche – Payée]** : répertorie les mots-clés de recherche payante qui ont été utilisés pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
 
-**[!UICONTROL Mots-clés de recherche - Naturelle]** : répertorie les mots-clés de recherche naturelle qui ont été utilisés pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
+**[!UICONTROL Mots-clés de recherche – Naturelle]** : répertorie les mots-clés de recherche naturelle qui ont été utilisés pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
 
 ## Moteurs de recherche {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -94,9 +94,9 @@ Si, par exemple, un visiteur clique sur un lien du Site A et arrive sur votre s
 
 Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont considérés comme des référents. Par exemple, les pages Web A et Web B sont ajoutées au filtre URL interne, mais la page web C ne l’est pas. Dans ce cas, la page web C est considérée comme un référent.
 
-Pour plus d’informations, voir la rubrique [Filtres URL internes](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) dans l’aide d’[!DNL Admin Console].
+Pour plus d’informations, voir la rubrique [Filtres URL internes](https://marketing.adobe.com/resources/help/fr_FR/reference/internal_URL_filter_admin.html) dans l’aide d’[!DNL Admin Console].
 
-> [!NOTE] Les rapports et analyses marketing enregistrent un domaine référent sous forme de courrier électronique lorsque les visiteurs cliquent sur un lien de message envoyé par courriel contenant le protocole [!DNL imap://] ou [!DNL mail://] arrivent sur votre site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
+> [!NOTE] Les rapports et analyses marketing considèrent un domaine référent comme adresse e-mail lorsque les visiteurs cliquent sur un lien de message envoyé par e-mail contenant le protocole [!DNL imap://] ou [!DNL mail://] et arrivent sur votre site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
 
 ## Type de référent {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -115,7 +115,7 @@ La liste ci-dessous définit les divers types de référents :
 * Les référents *tapés/marqués* sont enregistrés :
 
    * si un visiteur accède à votre site par le biais d’un lien hors navigateur (par exemple, dans un courriel) ;
-   * Si un visiteur saisit l’URL de votre site directement dans son navigateur.
+   * si un visiteur saisit directement l’URL de votre site dans son navigateur ;
    * si un visiteur clique sur un lien HTML sur son disque dur personnel ;
    * si un visiteur accède à votre site en le sélectionnant parmi les signets de son navigateur.
 
@@ -123,11 +123,11 @@ La liste ci-dessous définit les divers types de référents :
 
 Les options suivantes peuvent s’afficher lors de l’exécution de ce rapport :
 
-**Dans votre site** : ces éléments sont des URL balisées par les filtres URL internes. Ces éléments ne sont pas comptabilisés comme des instances de référent, mais ils peuvent être affichés lors de la création de rapports sur d’autres mesures.
+**Dans votre site** : ces éléments sont des URL balisées par les filtres URL internes. Ces éléments ne sont pas comptabilisées comme instances de référence, mais elles sont visibles lors de la génération de rapports sur d’autres mesures.
 
 **Pas de JavaScript** : le type n’était pas identifiable (connu) en l’absence de code JavaScript. Cela signifie que le client n’a fourni aucune information de référence sur un navigateur, lequel ne fait pas état de son aptitude à prendre en charge JavaScript. Ces instances ne sont pas comptabilisées comme « instances de référence », mais elles sont visibles lors de la génération de rapports sur d’autres mesures.
 
 **USENET (groupes de discussion)** : cela signifie que l’URL d’un référent commençait par `news://`. Dès lors, le lien de référence a été publié sur un groupe de discussion Usenet plutôt que sur une page Web.
 
-> [!NOTE] La logique Type de référent correspond à d’autres rapports de sources de trafic (tels que [!UICONTROL Référents] et Domaines référents). Cela devrait réduire, voire éliminer, les occurrences d’éléments Dans votre site et Pas de JavaScript dans le rapport [!UICONTROL Type de référent].
+> [!NOTE] La logique Type de référent correspond à d’autres rapports de sources de trafic (tels que [!UICONTROL Référents] et [!UICONTROL Domaines référents]). Cela devrait réduire, voire éliminer, les occurrences d’éléments Dans votre site et Pas de JavaScript dans le rapport [!UICONTROL Type de référent].
 
