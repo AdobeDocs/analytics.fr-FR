@@ -3,7 +3,7 @@ description: Fichiers journaux permettant de savoir quand se connectent les util
 title: Journaux
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Fichiers journaux permettant de savoir quand se connectent les utilisateurs, leur utilisation, l’accès, les suites de rapports et les changements administratifs.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Journaux]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Journaux]**
 
 ## Journal d’administration {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
