@@ -3,7 +3,7 @@ description: Affiche le trafic des pages web et classe les pages vues en temps r
 title: Rapports en temps réel
 topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Affiche le trafic des pages web et classe les pages vues en temps réel. Fournit
 
 > [!NOTE] Les rapports en temps réel ne nécessitent aucune mise en œuvre ni aucun balisage supplémentaire. Elle repose sur le déploiement existant d’Adobe Analytics. Pour configurer les rapports en temps réel, voir [Configuration des rapports en temps réel](/help/admin/admin/realtime/t-realtime-admin.md).
 
-**[!UICONTROL Mesures du site]** &gt; **[!UICONTROL Temps réel]**
+**[!UICONTROL Mesures du site]** > **[!UICONTROL Temps réel]**
 
 Le rapport Temps réel répond aux questions suivantes : qu’est-ce qui est tendance sur mon site et pourquoi ? Il vous permet, en tant que marketeur, de réagir rapidement et de gérer de manière active les performances de vos contenus et campagnes marketing. Les données sont reportées en temps réel en moins de deux minutes et se mettent automatiquement à jour minute par minute.
 
