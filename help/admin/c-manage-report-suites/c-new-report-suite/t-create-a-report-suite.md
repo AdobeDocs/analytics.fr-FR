@@ -3,7 +3,7 @@ description: Étapes décrivant comment créer une suite de rapports et copier l
 title: Création d’une suite de rapports
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Étapes décrivant comment créer une suite de rapports et copier les paramètres d’une suite de rapports vers une nouvelle suite.
 
-1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
-1. Cliquez sur **[!UICONTROL Nouveau]** &gt; **[!UICONTROL Suite de rapports]**.
+1. Cliquez sur **[!UICONTROL Nouveau]** > **[!UICONTROL Suite de rapports]**.
 1. Pour copier les paramètres d’une suite de rapports, sélectionnez dans la liste des modèles un modèle prédéfini ou une suite de rapports existante à utiliser comme [modèle.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
 
    >[!NOTE]
