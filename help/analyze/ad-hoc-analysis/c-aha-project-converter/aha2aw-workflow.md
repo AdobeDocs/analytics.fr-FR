@@ -1,16 +1,16 @@
 ---
 description: valeur nulle
-title: Conversion des projets dans l’Ad Hoc Analysis
+title: Conversion des projets dans Ad Hoc Analysis
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Conversion des projets dans l’Ad Hoc Analysis
+# Conversion des projets dans Ad Hoc Analysis
 
-## Conversion des projets dans l’Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## Conversion des projets dans Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 Avant de convertir vos projets, veuillez noter que :
 
@@ -27,16 +27,16 @@ Deux options s’offrent à vous pour convertir des projets Ad Hoc Analysis :
 
 **Sélectionner des projets dans une liste**
 
-1. In Ad Hoc Analysis, click **[!UICONTROL File]** &gt; **[!UICONTROL Convert Projects to Analysis Workspace]**.
+1. Dans Ad Hoc Analysis, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Convertir les projets en Analysis Workspace]**.
 
    ![](assets/aha2aw_convert.png)
 
-1. In the **[!UICONTROL Convert Projects to Analysis Workspace]** dialog, select the project to convert or press  +  to select the entire list.
+1. Dans la boîte de dialogue **[!UICONTROL Convertir les projets en Analysis Workspace]**, sélectionnez le projet à convertir ou appuyez sur la touche  +  pour sélectionner la liste entière.
 
    ![](assets/aha2aw_projects.png)
 
 1. Cliquez sur **[!UICONTROL Convertir]**.
-1. Un [!UICONTROL résumé de conversion] reprend maintenant tous les projets qui ont été convertis, lesquels sont associés à des colonnes faisant état de leur statut de conversion : succès ou échouée et au code d’erreur, le cas échéant. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. Un [!UICONTROL résumé de conversion] reprend maintenant tous les projets qui ont été convertis, lesquels sont associés à des colonnes faisant état de leur statut de conversion : succès ou échouée et au code d’erreur, le cas échéant. Contactez l’assistance d’Adobe, muni de l’« `Error-Id: <Error-Code>` » pour un diagnostic plus poussé.
 
    ![](assets/export_summary.png)
 
@@ -45,4 +45,4 @@ Deux options s’offrent à vous pour convertir des projets Ad Hoc Analysis :
 1. Dans Ad Hoc Analysis, ouvrez un projet que vous souhaitez convertir.
 1. Cliquez sur **[!UICONTROL Convertir un projet en cours en Analysis Workspace.]** ![](assets/export_current.png)
 
-1. Un [!UICONTROL résumé de conversion] reprend maintenant tous les projets qui ont été convertis, lesquels sont associés à des colonnes faisant état de leur statut de conversion : succès ou échouée et au code d’erreur, le cas échéant. Contact Adobe Client Care for further diagnosis with the "`Error-Id: <Error-Code>`".
+1. Un [!UICONTROL résumé de conversion] reprend maintenant tous les projets qui ont été convertis, lesquels sont associés à des colonnes faisant état de leur statut de conversion : succès ou échouée et au code d’erreur, le cas échéant. Contactez l’assistance d’Adobe, muni de l’« `Error-Id: <Error-Code>` » pour un diagnostic plus poussé.
