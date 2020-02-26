@@ -1,8 +1,8 @@
 ---
-description: valeur nulle
+description: 'null'
 title: FAQ sur l’utilisation de l’appel au serveur
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>R : Non. Les détails de l’utilisation de l’appel au serveur et de l’engagement affichés couvrent toutes les sociétés de connexion reliées à votre contrat Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q : Sous l’onglet Utilisation des suites de rapports, je vois la consommation dans les suites de rapports qui ne sont pas disponibles pour la création de rapports sous la connexion actuelle de la société. S’agit-il d’un bogue ? </b> </p> </td> 
+   <td colname="col1"> <p><b>Q : Sous l’onglet Suite de rapports d’utilisation, je peux voir la consommation dans les suites de rapports qui ne sont pas disponibles pour le compte-rendu des performances sous la société de connexion actuelle. S’agit-il d’un bogue ? </b> </p> </td> 
    <td colname="col2"> <p>R : Non. Tout comme les détails de votre consommation de l’appel au serveur et de votre engagement, la liste des suites de rapports s’étend à toutes les sociétés de connexion reliées à votre contrat Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Mon contrat n’inclut pas une configuration pour les appels au serveur secondaire, mais je les vois toujours sous l’onglet Utilisation actuelle et suites de rapports d’utilisation. Cela signifie-t-il que je vais commencer à avoir des dépassements ?</b> </p> </td> 
-   <td colname="col2"> <p>R : Le fait de commencer à avoir des dépassements lorsque vous envoyez des appels au serveur secondaire sans être configuré dépend de votre contrat. Dans certains cas, la consommation des appels au serveur secondaire peut être décomptée de votre engagement pour les appels au serveur principal, le réduisant plus vite que prévu. Dans d’autres cas, vous pourriez être facturé pour les appels au serveur secondaire même si vous n’avez pas utilisé tous vos appels au serveur principal. Veuillez vous reporter à votre contrat ou contacter votre responsable de succès client pour confirmation. </p> </td> 
+   <td colname="col2"> <p>R : Le fait de commencer à avoir des dépassements lorsque vous envoyez des appels au serveur secondaire sans être configuré dépend de votre contrat. Dans certains cas, la consommation des appels au serveur secondaire peut être décomptée de votre engagement pour les appels au serveur principal, le réduisant plus vite que prévu. Dans d’autres cas, ces appels au serveur secondaire pourraient vous être facturés même si vous n’avez pas consommé tous vos appels au serveur principal. Veuillez vous reporter à votre contrat ou contacter votre responsable de succès client pour confirmation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Mon contrat/ma période d’utilisation vient de commencer et je reçois déjà des alertes à propos du dépassement de mon engagement pour les appels au serveur secondaire. S’agit-il d’un bogue et les dépassements vont-ils m’être facturés ? </b> </p> </td> 
