@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Définir un événement à l’aide d’une variable de données contextuelles
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,4 +35,4 @@ Par exemple :
 
 ![](assets/processing_rule_set_event.png)
 
-Reportez-vous à la rubrique [Variables Données contextuelles](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) dans l’aide d’implémentation.
+Reportez-vous à la rubrique [Variables Données contextuelles](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/context_data_variables.html) dans l’aide d’implémentation.
