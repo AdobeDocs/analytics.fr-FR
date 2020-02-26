@@ -3,7 +3,7 @@ description: La page Facturation vous permet d’accéder aux informations de fa
 title: Facturation
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,17 +27,17 @@ Pour afficher des données d’aperçu du trafic mensuelles, recherchez le mois 
 
 Le rapport [!UICONTROL Facture mensuelle] obtenu comprend les informations suivantes :
 
-| Colonne  | Description |
+| Colonne | Description |
 |--- |--- |
 | Suite de rapports | Suite de rapports impliquée dans l’activité de collecte de données. |
 | Emplacement | Le centre de données qui stocke les données des suites de rapports : San José (Californie), Dallas (Texas), Nord-ouest Pacifique (États-Unis), Londres (Royaume-Uni) ou Singapour. Dans la plupart des cas, toutes les suites de rapports se trouvent dans le même centre de données. |
 | Appels du serveur principal | Demandes transmises directement par les navigateurs des visiteurs du site web ou l’API d’insertion de données. Inclut les accès principaux (pages vues), les événements personnalisés principaux, les événements de téléchargement principaux et les événements de sortie principaux. |
 | Appels aux serveurs secondaires | Copies des appels au serveur principal créées par des balises multi-suite ou copiées/déplacées par une règle VISTA.  Si un appel du serveur secondaire a été déplacé (et non copié) dans une autre suite de rapports par une règle VISTA, la page Facturation identifie ce transfert par un chiffre négatif. Dans ce cas, les appels secondaires cumulés sont déduits des appels du serveur principal. |
 | Nombre total d’appels serveur | Il s’agit du total des appels des serveurs principal et secondaire combinés pour cette suite de rapports à un emplacement donné. |
-| Pages vues | Total des pages vues pour chaque suite de rapports. Vous pouvez vérifier les valeurs des pages vues dans Mesures du site &gt; Pages vues. |
-| Téléchargements | Nombre total de téléchargements pour chaque suite de rapports. Vous pouvez vérifier les valeurs de téléchargement dans Contenu du site &gt; Liens &gt; Téléchargements de fichiers. |
-| Liens personnalisés | Nombre total de liens personnalisés pour chaque suite de rapports. Vous pouvez vérifier les valeurs des liens personnalisés dans Contenu du site &gt; Liens &gt; Liens personnalisés. |
-| Liens de sortie | Nombre total de liens de sortie pour chaque suite de rapports. Vous pouvez vérifier les valeurs des liens de sortie dans Contenu du site &gt; Liens &gt; Liens de sortie. |
+| Pages vues | Total des pages vues pour chaque suite de rapports. Vous pouvez vérifier les valeurs des pages vues dans Mesures du site > Pages vues. |
+| Téléchargements | Nombre total de téléchargements pour chaque suite de rapports. Vous pouvez vérifier les valeurs de téléchargement dans Contenu du site > Liens > Téléchargements de fichiers. |
+| Liens personnalisés | Nombre total de liens personnalisés pour chaque suite de rapports. Vous pouvez vérifier les valeurs des liens personnalisés dans Contenu du site > Liens > Liens personnalisés. |
+| Liens de sortie | Nombre total de liens de sortie pour chaque suite de rapports. Vous pouvez vérifier les valeurs des liens de sortie dans Contenu du site > Liens > Liens de sortie. |
 
 > [!NOTE] Pour obtenir une copie de travail du rapport [!UICONTROL Facture mensuelle], copiez ce dernier dans le presse-papiers, puis collez-le dans un tableur tel que Microsoft Excel*.
 
