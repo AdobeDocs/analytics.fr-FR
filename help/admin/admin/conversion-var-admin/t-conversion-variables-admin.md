@@ -3,7 +3,7 @@ description: Description de la procédure d’ajout ou de modification des varia
 title: Modification des variables de conversion
 topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Description de la procédure d’ajout ou de modification des variables de conversion.
 
-1. Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Variables de conversion]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Variables de conversion]**.
 1. Sur la page [!UICONTROL Variables de conversion], cliquez sur l’icône **[!UICONTROL Développer]** [+] en regard de la variable de conversion à modifier.
 
    OU
