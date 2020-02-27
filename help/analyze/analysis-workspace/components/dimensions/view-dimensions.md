@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Aperçu des dimensions
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Aperçu des dimensions
 
-## Dimension preview {#section_13D5A69AE6194715A721BC87D283F6F2}
+## Aperçu des dimensions {#section_13D5A69AE6194715A721BC87D283F6F2}
 
 Pointez avec la souris sur l’icône d’information (i) en regard d’une dimension. Les cinq premières valeurs des dimensions non temporelles s’affichent alors (15 valeurs pour les dimensions temporelles). Auparavant, ces valeurs étaient statiques (c.-à-d. que les cinq valeurs choisies ne changeaient jamais).
 
@@ -24,7 +24,7 @@ Désormais, par défaut, des valeurs dynamiques s’affichent plutôt que des va
 
 ![](assets/dimension_static.png)
 
-## Show dimension items {#section_A074B3A984634AC7B1362889088E0A42}
+## Affichage des éléments de dimension {#section_A074B3A984634AC7B1362889088E0A42}
 
 Lorsque vous placez le pointeur de la souris sur une dimension et cliquez sur la flèche droite grise située en regard, la liste de ses éléments de dimension apparaît. Les listes d’éléments de dimension affichent généralement les principaux éléments des 30 derniers jours.
 
