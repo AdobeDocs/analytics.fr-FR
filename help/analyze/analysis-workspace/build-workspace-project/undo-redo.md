@@ -1,8 +1,8 @@
 ---
-description: Modification et amélioration de l’option Annuler dans Analysis Workspace.
+description: Modification et amélioration de l’option Annuler dans Analysis Workspace.
 title: Paramètres d’annulation et de rétablissement
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,22 +10,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Paramètres d’annulation et de rétablissement
 
-**[!UICONTROL Espace de travail]** &gt; **[!UICONTROL Projet]** &gt; **[!UICONTROL Annuler/Rétablir]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Projet]** > **[!UICONTROL Annuler/Rétablir]**
 
-* L’option **[!UICONTROL Rétablir]** (pour rétablir une action annulée) figure dans le menu **Édition[!UICONTROL .]**
+* L’option **[!UICONTROL Rétablir]** (pour rétablir une action annulée) figure dans le menu **[!UICONTROL Édition]**.
 
-* Le fait de cliquer sur **[!UICONTROL Enregistrer]** n’efface pas la pile **Annuler[!UICONTROL .]**
+* Le fait de cliquer sur **[!UICONTROL Enregistrer]** n’efface pas la pile **[!UICONTROL Annuler]**.
 
-* **[!UICONTROL Si vous cliquez sur Nouveau projet]** ou **[!UICONTROL Ouvrir le projet existant]**, en revanche, la pile **Annuler[!UICONTROL est effacée.]**
+* **[!UICONTROL Si vous cliquez sur Nouveau projet]** ou **[!UICONTROL Ouvrir le projet existant]**, en revanche, la pile **[!UICONTROL Annuler]** est effacée.
 
 * Vous pouvez annuler/rétablir une modification de la suite de rapports.
 * Un message d’annulation/de rétablissement s’affiche à côté du nom du projet, indiquant quand une annulation ou un rétablissement est en cours.
-* Vous pouvez utiliser les [touches d’accès rapide suivantes](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
+* Vous pouvez utiliser les [touches d’accès rapide](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) suivantes :
 
    * CTRL (CMD) + Z pour annuler
    * CTRL (CMD) + MAJ + Z pour rétablir
 
-## What you can undo and redo {#section_1E94152CC206470D84FC11710311DA12}
+## Ce que vous pouvez annuler ou rétablir {#section_1E94152CC206470D84FC11710311DA12}
 
 * Traitement
 * Effacer tout
@@ -58,7 +58,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Modifier la description
 * Dupliquer la visualisation
 
-## What you cannot undo and redo {#section_65BB313E048F4744B692926362873230}
+## Ce que vous ne pouvez pas annuler ou rétablir {#section_65BB313E048F4744B692926362873230}
 
 * Modification des informations sur le projet et des paramètres du projet (ajout de balises, modification de la description, paramètre Compter les instances de répétition)
 * Définir comme page d’entrée
