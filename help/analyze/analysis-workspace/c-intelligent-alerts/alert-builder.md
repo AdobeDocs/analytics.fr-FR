@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Générateur d’alertes
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Les alertes intelligentes sont disponibles uniquement pour les clients Adobe Analytics Prime et Adobe Analytics Ultimate.
+>Les alertes intelligentes ne sont disponibles que pour les clients Adobe Analytics Prime et Adobe Analytics Ultimate.
 
 ## Accès au Générateur d’alertes
 
@@ -21,9 +21,9 @@ Le Générateur d’alertes peut être ouvert de l’une des quatre façons suiv
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
+* En sélectionnant **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
 * En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
-* From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* Dans un rapport Reports &amp; Analytics, en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
 
 ## Générer des alertes
 
@@ -41,7 +41,7 @@ Spécifiez le nom de l’alerte. Le nom de l’alerte doit contenir le nom du ra
 
 Spécifiez quand vérifier la mesure : chaque heure, chaque jour, chaque semaine ou chaque mois.
 
-> [!NOTE] Pour les suites de rapports avec un calendrier personnalisé, nous ne prenons pas en charge la granularité mensuelle dans le Générateur d’alertes.
+> [!NOTE] Dans le Générateur d’alertes, il n’est pas possible de sélectionner la granularité mensuelle pour les suites de rapports dotées d’un calendrier personnalisé.
 
 **Destinataires**
 
@@ -49,9 +49,9 @@ Spécifiez où envoyer l’alerte. Une alerte peut être envoyée à un utilisat
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>Le numéro de téléphone doit être précédé d’un « + » et d’un [code de pays](https://countrycode.org/).
 
-Le courrier électronique qu’un utilisateur recevrait une fois qu’une alerte a été déclenchée ressemble à ceci :
+Le courrier électronique qu’un utilisateur recevrait une fois qu’une alerte a été déclenchée ressemble à ceci :
 
 ![](assets/alerts-email.PNG)
 
@@ -65,7 +65,7 @@ Spécifiez la date d’expiration de l’alerte.
 
 * Faites glisser et déplacez les mesures dans la zone de travail des déclencheurs.
 
-   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Un message **« composants incompatibles »** s’affiche si certains composants (mesures/dimensions/segments) de l’alerte ne sont pas compatibles avec la suite de rapports actuellement sélectionnée.
 * Déterminez le seuil que la mesure doit dépasser avant l’envoi d’une alerte. Vous pouvez définir un seuil, puis l’une des conditions suivantes :
 
    * il existe une anomalie
@@ -84,7 +84,7 @@ Spécifiez la date d’expiration de l’alerte.
 
 **Ajouter une règle**
 
-Pour ajouter des règles ET ou OU, cliquez sur l’icône d’engrenage.
+Pour ajouter des règles AND ou OR, cliquez sur l’icône d’engrenage.
 
 ## Aperçu des alertes {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
