@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Visualisations - Aperçu
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
 
-[Types de visualisation dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Types de visualisation dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Panneau Visualisations {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -64,7 +64,7 @@ Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalisation </p> </td> 
-   <td colname="col2"> <p>Force les mesures en proportions égales. Voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalisation</a>. </p> </td> 
+   <td colname="col2"> <p>Force les mesures en proportions égales. Voir <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/normalization.html"  > Normalisation</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Afficher l’axe double </p> </td> 
@@ -98,7 +98,7 @@ Les paramètres qui dépendent d’un graphique sont accessibles en cliquant ave
 | Réduire toutes les visualisations dans le panneau | Réduit toutes les visualisations dans ce panneau de projet. |
 | Développer tous les panneaux | Développe tous les projets du panneau. |
 | Développer toutes les visualisations dans le panneau | Développe toutes les visualisations dans ce panneau de projet. |
-| Modifier la description | Permet d’ajouter (ou de modifier) une description textuelle de la visualisation ou du panneau. Cette description s’affiche sous Projet &gt; Informations et paramètres du projet. |
+| Modifier la description | Permet d’ajouter (ou de modifier) une description textuelle de la visualisation ou du panneau. Cette description s’affiche sous Projet > Informations et paramètres du projet. |
 | Obtenir un lien vers le panneau | Permet de renvoyer un utilisateur vers un panneau spécifique dans un projet. |
 | Obtenir le lien de la visualisation | Permet de copier et de partager le lien pour permettre à d’autres personnes d’accéder directement à cette visualisation. Les utilisateurs devront se connecter. |
 | Recommencer | (Flux, diagramme de Venn, histogramme) Permet de supprimer la configuration de la visualisation actuelle et ouvre un nouveau panneau d’où vous pouvez la reconfigurer. |
@@ -119,4 +119,4 @@ Par exemple, pour modifier une étiquette de légende dans un graphique en ligne
 1. Saisissez le nouveau texte de l’étiquette.
 1. Appuyez sur **[!UICONTROL Entrée]** pour enregistrer.
 
-Suivez le [lien vers la vidéo](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) relative à cette rubrique.
+Suivez le [lien vers la vidéo](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) relative à cette rubrique.
