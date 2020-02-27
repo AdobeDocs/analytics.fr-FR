@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Panneaux - Aperçu
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ Le Panneau vierge et le Panneau à structure libre sont des emplacements pour d�
 
 Le panneau de démarrage par défaut est le Panneau à structure libre, mais vous pouvez également choisir d’utiliser le [Panneau vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) par défaut.
 
-## Filtres déroulants des panneaux {#section_D2828EEDD52944528E87F470EAB581CF}
+## Filtres déroulants des panneaux  {#section_D2828EEDD52944528E87F470EAB581CF}
 
 La zone de liste du panneau propose désormais une fonction de filtrage déroulante. Ces filtres vous permettent d’interagir avec les données du projet de manière contrôlée, afin de réaliser des analyses approfondies, simplifier vos projets et/ou partager des connaissances.
 
@@ -35,11 +35,11 @@ N’oubliez pas ce qui suit :
 
 **Pour créer et utiliser des filtres déroulants :**
 
-1. Select any items from the left rail and, **while holding down the  key**, drop them into the panel drop zone.
+1. Sélectionnez n’importe quel élément dans le rail de gauche puis, **tout en maintenant la touche enfoncée**, déposez-le dans la zone de dépôt du panneau.
 
    ![](assets/create_dropdown.png)
 
-   Cela permet de transformer les composants en liste déroulante plutôt qu’en segment. (Vous pouvez également ajouter des segments en ne maintenant pas la touche enfoncée.)
+   Cela permet de transformer les composants en liste déroulante plutôt qu’en segment. (Vous pouvez toujours ajouter des segments en ne maintenant pas enfoncée la touche.)
 
    ![](assets/dropdown.png)
 
