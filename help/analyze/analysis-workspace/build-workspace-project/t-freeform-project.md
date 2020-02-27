@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Création d’un projet Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ Cet article présente les éléments d’Analysis Workspace et explique comment 
 
 1. Spécifiez les autorisations de création et de traitement des projets de l’utilisateur.
 
-   Avant de créer ou de traiter un projet Analysis Workspace, les administrateurs doivent vous ajouter à un groupe avec l’autorisation **[!UICONTROL Créer/Traiter les projets dans Analysis Workspace]** activée ou au groupe d’utilisateurs **[!UICONTROL Accès à tous les rapports]**. ( **[!UICONTROL Administration]** &gt; **[!UICONTROL Gestion utilisateur]** &gt; [Groupes](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Avant de créer ou de traiter un projet Analysis Workspace, les administrateurs doivent vous ajouter à un groupe avec l’autorisation **[!UICONTROL Créer/Traiter les projets dans Analysis Workspace]** activée ou au groupe d’utilisateurs **[!UICONTROL Accès à tous les rapports]**. ( **[!UICONTROL Administration]** > **[!UICONTROL Gestion utilisateur]** > [Groupes](https://marketing.adobe.com/resources/help/fr_FR/reference/groups.html)).
 
-1. Dans [!DNL Experience Cloud], cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. Dans [!DNL Experience Cloud], cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -70,7 +70,7 @@ Cet article présente les éléments d’Analysis Workspace et explique comment 
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > Panneau à structure libre</a> </td> 
-   <td colname="col2"> <p>Trame ou Workspace avec lequel vous interagissez dans Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Trame ou espace de travail avec lequel vous interagissez dans Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,7 +124,7 @@ Cet article présente les éléments d’Analysis Workspace et explique comment 
 
 **[Visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-Le panneau [!UICONTROL Visualisations] fournit des graphiques, des diagrammes, des anneaux, des tableaux de données, des tableaux de [cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), des diagrammes de Venn, etc. Vous pouvez faire glisser-déposer plusieurs visualisations sur votre projet.
+Le panneau [!UICONTROL Visualisations] fournit des graphiques, des diagrammes, des anneaux, des tableaux de données,  des tableaux de [cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), des diagrammes de Venn, etc. Vous pouvez faire glisser-déposer plusieurs visualisations sur votre projet.
 
 ![Résultat de l’étape](assets/visualizations.png)
 
