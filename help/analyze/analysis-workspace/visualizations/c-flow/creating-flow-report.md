@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Configuration d’une visualisation de flux
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,12 +32,12 @@ Le diagramme de flux est interactif. Pointez sur le diagramme pour modifier les 
 
 Les tracés dans le diagramme sont proportionnels. Les tracés plus épais sont ceux pour lesquels l’activité est la plus intense.
 
-Si vous cliquez sur un nœud du diagramme, les détails correspondants s’affichent. Si, par exemple, vous cliquez sur **[!UICONTROL Résultats de la recherche]en haut à droite du diagramme ci-dessus, celui-ci se développe afin d’afficher plus de détails au sujet du nœud des résultats de la recherche.** Cliquez de nouveau sur le nœud pour le réduire.
+Si vous cliquez sur un nœud du diagramme, les détails correspondants s’affichent. Si, par exemple, vous cliquez sur **[!UICONTROL Résultats de la recherche]** en haut à droite du diagramme ci-dessus, celui-ci se développe afin d’afficher plus de détails au sujet du nœud des résultats de la recherche. Cliquez de nouveau sur le nœud pour le réduire.
 
 ![](assets/flow3.jpg)
 
-Par défaut, le diagramme présente les cinq premiers flux. Cliquez sur le nœud **[!UICONTROL Plus]au bas du diagramme pour développer ce dernier et afficher cinq autres flux.** Continuez à cliquer sur **[!UICONTROL Plus]pour développer le diagramme jusqu’à ce qu’il n’y ait plus aucun autre flux à afficher.**
+Par défaut, le diagramme présente les cinq premiers flux. Cliquez sur le nœud **[!UICONTROL Plus]** au bas du diagramme pour développer ce dernier et afficher cinq autres flux. Continuez à cliquer sur **[!UICONTROL Plus]** pour développer le diagramme jusqu’à ce qu’il n’y ait plus aucun autre flux à afficher.
 
 Il n’existe aucune limite quant à la façon d’explorer le diagramme Flux.
 
-You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV]**.
+Vous pouvez également exporter le diagramme Flux pour procéder à une analyse approfondie dans un fichier CSV de projet en sélectionnant **[!UICONTROL Projet]** > **[!UICONTROL Télécharger CSV]**.
