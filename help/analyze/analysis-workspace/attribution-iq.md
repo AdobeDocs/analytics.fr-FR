@@ -1,7 +1,7 @@
 ---
 title: Attribution IQ
 description: 'L’Attribution IQ est un ensemble de fonctionnalités d’Adobe Analytics qui fournit des informations supplémentaires sur la manière dont les efforts de marketing contribuent à une conversion. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
@@ -26,7 +26,7 @@ Adobe Analytics améliore l’attribution en vous permettant de :
 * ventiler l’attribution par segments : comparez facilement la performance de vos canaux marketing sur n’importe quel segment important (par exemple, les nouveaux clients par rapport aux clients réguliers, le produit X par rapport au produit Y, le niveau de fidélité ou la valeur vie client (CLV)) ;
 * inspecter le croisement des canaux et l’analyse multi-touch : utilisation des histogrammes et diagrammes de Venn ainsi que des résultats de l’attribution des tendances ;
 * analyser visuellement des séquences marketing importantes : explorez les chemins d’accès qui ont mené à la conversion sur le plan visuel par le biais de visualisations à plusieurs nœuds de flux et d’abandons ;
-* Créez des mesures calculées : utilisez n’importe quel nombre de méthodes d’attribution.
+* créer des mesures calculées : utilisez n’importe quel nombre de méthodes d’attribution.
 
 ## Fonctionnalités {#features}
 
