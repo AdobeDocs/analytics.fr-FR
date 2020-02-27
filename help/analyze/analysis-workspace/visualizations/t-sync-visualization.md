@@ -4,7 +4,7 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: Gestion des sources de données
 topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,10 +38,10 @@ Cette nouvelle architecture diffère de la précédente du fait qu’Analysis Wo
 
 * Créez une visualisation de synthèse et verrouillez-la sur une cellule du tableau à partir duquel elle a été créée. Si l’option Afficher la source de données est activée, vous savez exactement d’où proviennent ces informations dans le tableau. Les données sources seront grisées :
 
-   ![](assets/data-source2.png)&gt;
+   ![](assets/data-source2.png)>
 * Vous pouvez ajouter de nombreuses visualisations dont les données sont issues de différentes cellules du même tableau, comme illustré ici. Il s’agit du même tableau que dans l’exemple ci-dessus, mais la cellule source (et la mesure) est différente :
 
-   ![](assets/data-source3.png)&gt;
+   ![](assets/data-source3.png)>
 * Pour voir si des visualisations sont connectées à un tableau à structure libre ou de cohortes, cliquez sur le point supérieur gauche (paramètres de source de données). Le passage du curseur mettra en surbrillance la visualisation associée à laquelle vous pourrez accéder par un simple clic.
 
-   ![](assets/linked-visualizations.png)&gt;
+   ![](assets/linked-visualizations.png)>
