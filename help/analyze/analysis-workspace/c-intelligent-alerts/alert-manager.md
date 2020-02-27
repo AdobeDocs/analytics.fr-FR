@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Gestionnaire d’alertes
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-The Alert Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) and the [Calculated Metric Manager](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_manager.html) and allows you to
+La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**) ressemble à celle du [Gestionnaire de segments](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_manage.html) et du [Gestionnaire de mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/cm_manager.html) et permet d’accomplir ce qui suit :
 
 ![](assets/alert-manager-tasks.png)
 
-* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
+* Accéder au Générateur d’alertes en cliquant sur **[!UICONTROL + Ajouter]**
 * Marquer les alertes ; permet d’organiser les alertes pour plus de facilité
 * Supprimer des alertes
 * Renommer les alertes
 * Approuver les alertes
 * Copier des alertes
 * Activer/désactiver des alertes
-* **Renouveler** la date d’expiration d’une alerte. When one or more alerts are selected, they can be renewed by clicking **Renew**.This extends their expiration dates to be 1 year from the day Renew was clicked, regardless of their original expiration date.
+* **Renouveler** la date d’expiration d’une alerte. Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées en cliquant sur **Renouveler**. Cela prolonge leur date d’expiration d’un an à partir du moment où vous avez cliqué sur l’option Renouveler, quelle que soit leur date d’expiration d’origine.
 * Exporter une alerte au format .CSV
 * Modifier des alertes en double-cliquant sur le titre de l’alerte
 * Rechercher des alertes
