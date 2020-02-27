@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Cas d’utilisation d’Analysis Workspace
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Effectuez des recherches directement dans vos données afin de répondre à des 
 * Comparez les colonnes ou les lignes d’un jour à l’autre afin d’analyser la croissance pour plusieurs mesures.
 * Exécutez une requête simple, par exemple rebonds selon une dimension.
 
-## Exemple de vente au détail {#section_9EFDEF038CAD4954BCFB118A8F33A96F}
+## Exemple de vente au détail  {#section_9EFDEF038CAD4954BCFB118A8F33A96F}
 
 Supposons que vous soyez un analyste marketing pour un vendeur au détail d’équipement de plein air et que vous deviez étudier les performances d’une promotion récente pour Pâques et formuler des recommandations sur la manière d’optimiser les campagnes sur site. Cet exemple explique comment comparer les données sur les recettes de la campagne pour différents segments et ajouter des ventilations afin d’approfondir davantage l’analyse de la campagne.
 
@@ -57,5 +57,5 @@ Supposons que vous soyez un analyste marketing pour un vendeur au détail d’é
 
    Vous avez déjà ventilé les données de manière à générer des recommandations et des ventes croisées pour vos équipes de marchandisage afin de mettre en œuvre d’autres campagnes et de générer davantage de recettes pour votre entreprise. Vous pouvez créer d’autres ventilations jusqu’à obtenir les résultats attendus.
 
-   À présent, vous pouvez [partager](/help/analyze/analysis-workspace/curate-share/curate.md) le rapport avec ces équipes de marchandisage.
+   À présent, vous pouvez  [partager](/help/analyze/analysis-workspace/curate-share/curate.md) le rapport avec ces équipes de marchandisage.
 
