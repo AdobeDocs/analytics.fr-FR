@@ -2,7 +2,7 @@
 description: Présente les impressions diffusées et le nombre d’utilisateurs uniques qui ont vu ces impressions.
 title: Graphique de dispersion
 uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
