@@ -3,7 +3,7 @@ keywords: Analysis Workspace
 title: Qu’est-ce que l’analyse des cohortes ?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’analyse des cohortes s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Vous trouverez des explications sur l’analyse des cohortes sur le Web, tel le cours [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis) (en anglais).)
 
-Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants (dimensions, mesures et segments spécifiques), puis partager le rapport avec les personnes de votre choix. Voir [Traitement et partage](/help/analyze/analysis-workspace/curate-share/curate.md).
+Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants (dimensions, mesures et segments spécifiques), puis partager le rapport avec les personnes de votre choix. Voir  [Traitement et partage](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 Exemples d’utilisation de l’analyse des cohortes :
 
@@ -27,7 +27,7 @@ Exemples d’utilisation de l’analyse des cohortes :
 
 L’analyse des cohortes est disponible pour tous les clients Analytics avec des droits d’accès à Analysis Workspace.
 
-[Analyse des cohortes sur YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Analyse des cohortes sur YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
@@ -67,5 +67,5 @@ Créez des cohortes sur la base d’une dimension sélectionnée, et non des coh
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Pour savoir comment configurer et exécuter un rapport de cohorte, accédez à [Configuration d’un rapport d’analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Pour savoir comment configurer et exécuter un rapport de cohorte, accédez à  [Configuration d’un rapport d’analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
