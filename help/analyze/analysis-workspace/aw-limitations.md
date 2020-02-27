@@ -1,7 +1,7 @@
 ---
-description: Liste des limites connues dans Adobe Analysis Workspace et ses composants associés
+description: 'Liste des limites connues d’Adobe Analysis Workspace et ses composants connexes :'
 title: Limites connues dans Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
@@ -29,26 +29,26 @@ Voici une liste des limites connues dans Analysis Workspace et ses composants co
 
 * Comparaison des segments : le segment [!UICONTROL Tous les autres] n’est pas créé si un modèle de segment est utilisé dans la zone de dépôt initiale.
 
-## Composants &gt; Segments
+## Composants > Segments
 
 * Il n’est pas possible de segmenter certaines mesures et dimensions, comme [!UICONTROL Occurrences], [!UICONTROL Visiteurs uniques], etc.
-* Certains composants et opérateurs ne sont pas disponibles si un segment est créé à partir de Workspace (contrairement à une création à partir de [!UICONTROL Composants &gt; Segments]). Par exemple, Adresse IP.
+* Certains composants et opérateurs ne sont pas disponibles si un segment est créé à partir de Workspace (contrairement à une création à partir de [!UICONTROL Composants > Segments]). Par exemple, Adresse IP.
 
-## Composants &gt; Mesures calculées
+## Composants > Mesures calculées
 
 * Il n’est pas possible d’utiliser les mesures calculées dans certaines visualisations. Voir « Visualisations » ci-dessus.
 * Les mesures calculées ne peuvent pas être utilisées dans le panneau [!UICONTROL Attribution], car elles peuvent inclure elles-mêmes des modèles d’attribution distincts.
-* Certains composants et opérateurs ne sont pas disponibles si une mesure calculée est créée à partir de Workspace (contrairement à une création à partir de [!UICONTROL Composants &gt; Segments]). Par exemple, [!UICONTROL Adresse IP].
+* Certains composants et opérateurs ne sont pas disponibles si une mesure calculée est créée à partir de Workspace (contrairement à une création à partir de [!UICONTROL Composants > Segments]). Par exemple, [!UICONTROL Adresse IP].
 
-## Composants &gt; Périodes
+## Composants > Périodes
 
 * Les périodes personnalisées ne prennent pas en charge [!UICONTROL Ce jour l’année dernière], [!UICONTROL Ce jour le mois dernier], etc.
 
-## Composants &gt; Suites de rapports virtuelles
+## Composants > Suites de rapports virtuelles
 
 * Lorsque la fonctionnalité de traitement de la période de rapport est activée, certains composants ne sont pas pris en charge. Pour obtenir la liste complète, reportez-vous à la section [Traitement de la période de rapport](/help/components/vrs/vrs-report-time-processing.md).
 
-## Composants &gt; Paramètres de rapport
+## Composants > Paramètres de rapport
 
 * Certains paramètres de la page [!UICONTROL Paramètres de rapport] ne s’appliquent pas. Analysis Workspace utilise uniquement les paramètres [!UICONTROL Langue/Devise/Encodage] situés en bas : [!UICONTROL Séparateur des milliers], [!UICONTROL Encodage d’un rapport planifié] et [!UICONTROL Caractère de séparation CSV].
 
