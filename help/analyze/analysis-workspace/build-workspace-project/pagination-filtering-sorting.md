@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Pagination, filtrage et tri des tables
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ Pour obtenir un aperçu, visionnez cette vidéo sur YouTube :
 
 [Pagination, filtrage, et tri des tables dans Analysis Workspace](https://www.youtube.com/watch?v=2zxpRPCGspg)
 
-## Advanced filtering options {#section_36E92E31442B4EBCB052073590C1F025}
+## Options de filtrage avancé {#section_36E92E31442B4EBCB052073590C1F025}
 
 Cliquer sur l’icône de filtrage, puis sur Afficher les options avancées, en regard d’une dimension dans une table à structure libre permet de filtrer les informations selon les critères suivants :
 
