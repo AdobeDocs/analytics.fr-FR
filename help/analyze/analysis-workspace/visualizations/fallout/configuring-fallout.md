@@ -1,14 +1,14 @@
 ---
 description: valeur nulle
-title: Configuration d’une visualisation d’abandon
+title: Configuration d’une visualisation Abandons
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Configuration d’une visualisation d’abandon
+# Configuration d’une visualisation Abandons
 
 Vous pouvez spécifier les points de contact d’après lesquels créer une séquence d’abandons multidimensionnelle. En général, un point de contact est une page sur votre site. Ils ne se limitent toutefois pas à cela. Vous pouvez par exemple ajouter des événements, tels que des unités, ainsi que des visiteurs uniques et des visites récurrentes. Vous pouvez aussi ajouter des dimensions, telles qu’une catégorie, un type de navigateur ou un terme de recherche interne.
 
@@ -16,11 +16,11 @@ Il est possible en outre d’ajouter des segments dans un point de contact, par 
 
 Il n’existe aucune restriction quant au nombre d’étapes pouvant être ajoutées ou au nombre de dimensions utilisées.
 
-Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars de marchandisage et les [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables pouvant avoir plusieurs valeurs par accès, tels les produits, listVars, les eVars de marchandisage et les props de liste). Par exemple, supposons que quelqu'un regarde des chaussures, des chemises sur une page, et sur la page suivante, ils regardent des chemises, des chaussettes. Le prochain rapport de flux de produits généré à partir des chaussures portera sur chemise et chaussettes, SAUF chemise.
+Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars de marchandisage et les [listVars](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/listN.html) (variables pouvant avoir plusieurs valeurs par accès, tels les produits, listVars, les eVars de marchandisage et les props de liste). Supposons par exemple qu’un visiteur consulte sur une page la séquence chaussures, chemise puis, sur la page suivante, la séquence chemise, chaussettes. Le prochain rapport de flux de produits généré à partir des chaussures portera sur chemise et chaussettes, SAUF chemise.
 
 1. Faites glisser une visualisation [!UICONTROL Abandons] de la liste déroulante des visualisations dans un [!UICONTROL tableau à structure libre].
 
-1. Faites glisser la dimension Page dans le tableau à structure libre puis, de là, faites glisser une page (dans ce cas, Home - JJEsquire) sur le champ **[!UICONTROL Ajouter un point de contact]comme premier point de contact.**
+1. Faites glisser la dimension Page dans le tableau à structure libre puis, de là, faites glisser une page (dans ce cas, Home - JJEsquire) sur le champ **[!UICONTROL Ajouter un point de contact]** comme premier point de contact.
 
    ![](assets/fallout1.png)
 
@@ -28,7 +28,7 @@ Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars 
 
    Les nombres encadrés dans la partie grise de la barre correspondent aux abandons entre les points de contact (et non à l’ensemble des abandons à ce point). Le % point de contact présente les accès immédiats réussis de l’étape précédente à l’étape actuelle dans le rapport des abandons.
 
-   Vous pouvez également ajouter une seule page au rapport des abandons, plutôt que la dimension entière. Cliquez sur la flèche droite (&gt;) sur la dimension de page pour sélectionner la page à ajouter au rapport des abandons.
+   Vous pouvez également ajouter une seule page au rapport des abandons, plutôt que la dimension entière. Cliquez sur la flèche droite (>) sur la dimension de page pour sélectionner la page à ajouter au rapport des abandons.
 
 1. Continuez à ajouter des points de contact jusqu’à ce que votre séquence soit complète.
 
@@ -36,7 +36,7 @@ Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars 
 
    >[!NOTE]
    >
-   >Plusieurs segments sont associés à l’opérateur ET, mais plusieurs éléments, tels que les éléments de dimension et les mesures, sont associés à l’opérateur OU.
+   >Plusieurs segments sont reliés par l’opérateur AND, mais plusieurs éléments, tels que des éléments de dimension et des mesures, sont reliés par l’opérateur OR.
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -57,14 +57,14 @@ Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars 
  </tbody> 
 </table>
 
-## Fallout settings {#section_0C7C89D72F0B4D6EB467F278AC979093}
+## Paramètres d’abandon {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
 | Paramètre | Description |
 |--- |--- |
-| Conteneur d’abandons <ul><li>Visite</li><li>Visiteur</li></ul> | Permet de basculer entre la vue Visite et Visiteur afin d’analyser le cheminement du visiteur. La valeur par défaut est Visiteur.  Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
+| Conteneur d’abandons <ul><li>Visite</li><li>Visiteur</li></ul> | Permet de basculer entre Visite et Visiteur afin d’analyser le cheminement du visiteur. La valeur par défaut est Visiteur.  Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
 | Afficher « Tous les visiteurs » comme premier point de contact | Désactivez cette option si vous ne souhaitez pas que « Tous les visiteurs » soit le premier point de contact. |
 
-When you **right-click a touchpoint**, the following options appear:
+Lorsque vous **cliquez avec le bouton droit de la souris sur un point de contact**, les options suivantes s’affichent :
 
 | Option | Description |
 |--- |--- |
