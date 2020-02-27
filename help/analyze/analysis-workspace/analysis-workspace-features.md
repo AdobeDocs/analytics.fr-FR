@@ -1,9 +1,9 @@
 ---
 keywords: Analysis Workspace
-title: Aperçu d’Analysis Workspace
+title: Analysis Workspace  - Aperçu
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace élimine toutes les limites courantes d’un rapport Analytics unique. Il offre un canevas robuste et souple permettant de créer des projets d’analyses personnalisés. Faites glisser des tableaux de données, des visualisations et des composants (dimensions, mesures, segments et granularités temporelles) sur un projet. Créez instantanément des ventilations et des segments, des cohortes pour analyse, ainsi que des alertes, comparez des segments, analysez les flux et les abandons, et traitez et planifiez les rapports pour les partager avec n’importe qui dans votre entreprise.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
 ## Vidéo de présentation {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -71,7 +71,7 @@ Quand un utilisateur clique sur un lien, les panneaux ou visualisations réduits
 
 ## Lien vers d’autres projets {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-Pour renvoyer les utilisateurs vers d’autres projets susceptibles de les intéresser, sélectionnez **[!UICONTROL Partager]** &gt; **[!UICONTROL Obtenir le lien du projet]**, puis incorporez ce lien dans les descriptions du projet, par exemple.
+Pour renvoyer les utilisateurs vers d’autres projets susceptibles de les intéresser, sélectionnez **[!UICONTROL Partager]** > **[!UICONTROL Obtenir le lien du projet]** puis incorporez ce lien dans les descriptions du projet, par exemple.
 
 ## Visualisation dynamique des cellules sélectionnées {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
@@ -89,7 +89,7 @@ Voir [Gestion des sources de données](/help/analyze/analysis-workspace/visualiz
 
 ## Visualisations des tendances d’après les cellules sélectionnées {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-Créez une visualisation d’après les cellules sélectionnées (clic droit &gt; **[!UICONTROL Sélection de tendances]**).
+Créez une visualisation d’après les cellules sélectionnées (clic droit > **[!UICONTROL Sélection de tendances]**).
 
 ![](assets/trend-selection.png)
 
@@ -123,7 +123,7 @@ Voir [Segments](/help/analyze/analysis-workspace/components/t-freeform-project-s
 
 Vous pouvez appliquer des balises aux projets et aux composants dans Analysis Workspace :
 
-* Appliquez ou créez des balises au niveau du projet dans le panneau Informations. (![](assets/information_icon.png)
+* Appliquez ou créez des balises au niveau du projet dans le panneau Informations ![](assets/information_icon.png).
 
 * Cliquez avec le bouton droit de la souris sur ces composants pour les baliser (ou créez des balises) à partir du panneau Composants.
 * Utilisez le caractère # dans le champ Rechercher pour localiser les balises.
@@ -134,13 +134,13 @@ Dans le menu Actions, vous réalisez les actions au niveau du composant en haut 
 
 | Action des composants | Description |
 |--- |--- |
-| Baliser | Organisez ou gérez les composants en leur appliquant des balises. Il apparaît ensuite dans le gestionnaire de composants correspondant, par exemple : Analytics &gt; Composants &gt; Segments ou Analytics &gt; Composants &gt; Projets. |
-| Favori | Ajoutez le composant à votre liste de favoris. Il apparaît ensuite dans le gestionnaire de composants correspondant, par exemple : Analytics &gt; Composants &gt; Segments ou Analytics &gt; Composants &gt; Projets  . |
-| Approuver | Approuvez le composant pour le rendre canonique. Il apparaît ensuite dans le gestionnaire de composants correspondant, par exemple : Analytics &gt; Composants &gt; Segments ou Analytics &gt; Composants &gt; Projets. |
+| Baliser | Organisez ou gérez les composants en leur appliquant des balises. Il apparaît ensuite dans le gestionnaire de composants correspondant, par exemple : Analytics > Composants > Segments ou Analytics > Composants > Projets. |
+| Favori | Ajoutez le composant à votre liste de favoris. Il apparaît ensuite dans le gestionnaire de composants correspondant, par exemple : Analytics > Composants > Segments ou Analytics > Composants > Projets. |
+| Approuver | Approuvez le composant pour le rendre canonique. Il apparaît ensuite dans le gestionnaire de composants correspondant, par exemple : Analytics > Composants > Segments ou Analytics > Composants > Projets. |
 | Partager | S’applique seulement aux segments. |
 | Supprimer | S’applique seulement aux segments. |
 
-Voir [Visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) pour en savoir plus.
+Voir  [Visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) pour en savoir plus.
 
 ## Descriptions d’autres fonctions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
@@ -187,4 +187,4 @@ Un segment par défaut propre à Analysis Workspace. *`All Visits`* présente le
 
 Utilisez les calculs de la même façon que vous utilisez les mesures standard.
 
-Voir [Mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Voir [Mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/).
