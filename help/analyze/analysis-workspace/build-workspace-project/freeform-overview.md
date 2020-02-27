@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Aperçu de la création d’un projet
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Aperçu de la création d’un projet
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
 Créez un projet Analytics durable quelle que soit la combinaison de visualisations, de composants de rapports et de tableaux de données. Cet environnement reprend nombre des fonctions du créateur de tableaux d’Ad Hoc Analysis dans Analytics.
 
@@ -20,9 +20,9 @@ Dans Analysis Workspace, comparez et disséquez les données de façons inédit
 
 La requête parvient directement au moteur de production de rapports. Vous pouvez apporter des modifications en ligne sans solliciter d’autres rapports pour créer votre analyse. Les résultats sont renvoyés immédiatement, sans que le navigateur soit actualisé.
 
-## Page de liste de projets de l’Workspace {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## Page de liste de projets de l’Workspace  {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-Quand vous sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]** pour la première fois, la page répertorie tous les projets dont vous êtes responsable ou auxquels vous avez accès. Cliquez sur **[!UICONTROL Définir comme page d’entrée]** pour définir cette page comme page d’entrée d’Adobe Analytics. (Si cette option n’est pas visible, comme dans l’illustration ci-après, cette page est déjà définie comme page d’entrée.)
+Quand vous sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** pour la première fois, la page répertorie tous les projets dont vous êtes responsable ou auxquels vous avez accès. Cliquez sur **[!UICONTROL Définir comme page d’entrée]** pour définir cette page comme page d’entrée d’Adobe Analytics. (Si cette option n’est pas visible, comme dans l’illustration ci-après, cette page est déjà définie comme page d’entrée.)
 
 ![](assets/sample-project.png)
 
@@ -30,22 +30,22 @@ La page de liste de projets de l’Workspace présente les informations suivante
 
 | Élément | Description |
 |---|---|
-| Projet [Modèles](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Utilisez ces modèles de projet prérenseignés tels quels ou adaptez-les en fonction de vos besoins (en ajoutant ou en remplaçant des mesures ou des visualisations, par exemple) et enregistrez-les sous un nouveau nom. |
+| Projet  [Modèles](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Utilisez ces modèles de projet prérenseignés tels quels ou adaptez-les en fonction de vos besoins (en ajoutant ou en remplaçant des mesures ou des visualisations, par exemple) et enregistrez-les sous un nouveau nom. |
 | [Créer un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Cliquez sur ce lien pour démarrer un projet entièrement nouveau. |
-| Gérer les projets | Cliquez sur ce lien pour accéder au Gestionnaire de composants des projets ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Projets]**), où sont répertoriés tous les projets et où vous pouvez baliser, partager, supprimer, renommer, approuver ou copier les projets et les exporter au format CSV. |
+| Gérer les projets | Cliquez sur ce lien pour accéder au Gestionnaire de composants des projets (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Projets]**), où sont répertoriés tous les projets et où vous pouvez baliser, partager, supprimer, renommer, approuver ou copier les projets et les exporter au format CSV. |
 | Afficher les tutoriels | Permet d’accéder aux [vidéos YouTube Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Nom | Nom du projet de l’Workspace. |
 | Créé par | Personne qui a créé ce projet (vous ou quelqu’un qui a partagé le projet avec vous). |
-| Balises | Balises appliquées au projet, dans le Gestionnaire des composants des projets ou sous **[!UICONTROL Workspace]** &gt; **[!UICONTROL Projet]** &gt; **[!UICONTROL Informations et paramètres du projet]**. |
+| Balises | Balises appliquées au projet, dans le Gestionnaire des composants des projets ou sous **[!UICONTROL Workspace]** > **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**. |
 | Dernière modification | Date et heure de dernière modification du projet. |
 
 ## Informations et paramètres du projet {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Projet]** &gt; **[!UICONTROL Informations et paramètres du projet]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**
 
 ![](assets/projectinfo.png)
 
-**[!UICONTROL Les Informations et paramètres du projet]** fournissent des informations sur le projet actuellement actif.
+Les **[!UICONTROL Informations et paramètres du projet]** fournissent des informations sur le projet actif.
 
 | Paramètre | Description |
 |---|---|
@@ -80,7 +80,7 @@ Les sous-menus contiennent les options suivantes.
 | Télécharger un PDF* |  |  |  |  |  |
 | Informations et paramètres du projet |  |  |  |  |  |
 
-## Rail de gauche {#section_271295C26EC840ABB2A8E7EC0498B60E}
+## Rail de gauche  {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
 Le rail de gauche comprend trois icônes, qui permettent d’accéder aux panneaux, aux [visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) et aux [composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) (dimensions, mesures, segments, périodes) en un seul clic :
 
