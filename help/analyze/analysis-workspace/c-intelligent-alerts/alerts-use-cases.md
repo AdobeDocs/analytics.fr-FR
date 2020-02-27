@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Alertes intelligentes - Exemples d’utilisation
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ Le Générateur d’alertes est ainsi automatiquement prérenseigné afin de cr�
 
 ![](assets/prepopulated_alert.png)
 
-## Consolidate (stack) alerts instead of creating multiple alerts {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Consolidation (empilement) des alertes plutôt que de créer plusieurs alertes {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 Les alertes empilées sont combinées, ce qui évite d’avoir à gérer plusieurs alertes distinctes.
 
