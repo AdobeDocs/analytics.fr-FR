@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
+source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
       + [Aperçu de la création d’un projet](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Création d’un projet Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [Modèles](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [Plusieurs suites de rapports dans Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [Suites de rapports multiples dans Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + Paramètres des colonnes et des lignes {#column-row-settings}
          + [Paramètres des colonnes](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Paramètres des lignes](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -82,6 +82,7 @@ source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
          + [Présentation des attributs](analysis-workspace/c-panels/attribution/attribution.md)
          + [Utilisation du panneau Attribution](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [FAQ sur l’Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
+         + [Attribution algorithmique](analysis-workspace/c-panels/attribution/algorithmic.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [Segment IQ - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
