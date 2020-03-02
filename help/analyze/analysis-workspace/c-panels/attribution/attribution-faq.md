@@ -1,8 +1,8 @@
 ---
 title: FAQ sur l’Attribution
 description: Obtenez des réponses aux questions les plus fréquentes au sujet de l’attribution.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -15,7 +15,7 @@ L’élément de ligne « Aucun » est un fourre-tout qui représente toutes l
 
 **Pourquoi est-ce que je vois parfois des dates hors de mon créneau de rapport lors de l’utilisation de modèles d’attribution ?**
 
-Ces dates supplémentaires sont dues à l’intervalle de recherche en amont de rapport de visiteurs. Pour plus d’informations, voir [Données apparaissant hors du créneau de rapport](https://helpx.adobe.com/fr/analytics/kb/data-appearing-outside-reporting-window.html) dans la base de connaissances d’Analytics. Adobe prévoit de filtrer ces rangées supplémentaires dans une prochaine version.
+Ces dates supplémentaires sont dues à l’intervalle de recherche en amont de rapport de visiteurs. Pour plus d’informations, voir [Données apparaissant hors du créneau de rapport](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) dans la base de connaissances d’Analytics. Adobe prévoit de filtrer ces rangées supplémentaires dans une prochaine version.
 
 **Puis-je utiliser un intervalle de recherche en amont personnalisé avec mes modèles d’attribution ?**
 
@@ -56,13 +56,9 @@ Le panneau d’attribution prend en charge toutes les dimensions. Voici les mesu
 * Visites sur une seule page
 * Accès unique
 
-**En quoi l’attribution dans Analysis Workspace diffère-t-elle de l’attribution dans Data Workbench ?**
+**Puis-je utiliser un intervalle de recherche en amont personnalisé avec mes modèles d’attribution ?**
 
-Data Workbench offre progressivement ce qui suit :
-
-* La possibilité d’attribuer plus de sources de données au niveau des visiteurs, comme les impressions publicitaires et les points de vente.
-* La modélisation algorithmique. L’attribution dans Analysis Workspace inclut uniquement des modèles basés sur des règles. Reportez-vous à la section [Modélisation la mieux adaptée](https://marketing.adobe.com/resources/help/en_US/insight/client/c_attrib_algorithmic.html) dans le guide de l’utilisateur de Data Workbench.
-* Des visualisations supplémentaires, telles que les tables de latence. Voir [Tables de latence](https://marketing.adobe.com/resources/help/en_US/insight/client/c_lat_tbls.html) dans le guide de l’utilisateur de Data Workbench.
+Oui, à l&#39;aide de l&#39;option de fenêtre de recherche personnalisée, les fenêtres de recherche peuvent être configurées jusqu&#39;à 90 jours avant la date de création de rapports. Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
 
 **L’attribution fonctionne-t-elle avec des classifications ?**
 
