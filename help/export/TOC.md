@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -11,24 +11,24 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 # Guide d’exportation Analytics {#export}
 
-+ [Analytics Export Home](home.md)
++ [Accueil d’exportation Analytics](home.md)
 + Flux de données Analytics {#analytics-data-feed}
-   + [Présentation du flux de données](analytics-data-feed/data-feed-overview.md)
+   + [Aperçu des flux de données](analytics-data-feed/data-feed-overview.md)
    + [Création ou modification d’un flux de données](analytics-data-feed/create-feed.md)
    + [Gestion des flux de données](analytics-data-feed/df-manage-feeds.md)
-   + [Gestion des tâches de flux de données](analytics-data-feed/df-manage-jobs.md)
+   + [Gestion des tâches relatives aux flux de données](analytics-data-feed/df-manage-jobs.md)
    + Contenu du flux de données {#data-feed-contents}
-      + [Présentation du contenu du flux de données](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Aperçu du contenu du flux de données](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Mesures calculées](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Référence des colonnes de données](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Recherche d’événement de page](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Caractères spéciaux](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Accès tardifs](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [FAQ sur les flux de données](analytics-data-feed/df-faq.md)
-   + [Meilleures pratiques du flux de données](analytics-data-feed/data-feeds-best-practices.md)
-   + [Résolution des problèmes de flux de données](analytics-data-feed/feed-troubleshooting.md)
+   + [Bonnes pratiques relatives aux flux de données](analytics-data-feed/data-feeds-best-practices.md)
+   + [Résolution des problèmes liés aux flux de données](analytics-data-feed/feed-troubleshooting.md)
    + [Résolution des problèmes liés aux tâches](analytics-data-feed/jobs-troubleshooting.md)
-+ Data Warehouse{#data-warehouse}
++ Data Warehouse {#data-warehouse}
    + [Data Warehouse - Aperçu](data-warehouse/data-warehouse.md)
    + [Ajouter un groupe d’utilisateurs de l’Data Warehouse](data-warehouse/t-dw-group.md)
    + [Créer une demande d’Data Warehouse](data-warehouse/t-dw-create-request.md)
@@ -37,8 +37,8 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
    + [Planifier une requête récurrente](data-warehouse/dw-schedule-recurring.md)
    + [Gérer les demandes de Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Composants pris en charge dans Data Warehouse](data-warehouse/component-support.md)
-   + [Dimensions incompatibles avec les segments d’Data Warehouse](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
-   + [Bonnes pratiques relatives à l’Data Warehouse](data-warehouse/data-warehouse-bp.md)
+   + [Dimensions incompatibles avec les segments Data Warehouse](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
+   + [Bonnes pratiques relatives à Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP et SFTP {#ftp-and-sftp}
    + [Utilisation de FTP et SFTP avec Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
    + Configuration de comptes FTP hébergés par Adobe {#set-up-ftp-accounts}
