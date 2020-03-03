@@ -3,7 +3,7 @@ description: Lorsque vous créez une intégration avec un partenaire Adobe en ut
 keywords: ftp;sftp
 title: Data Connectors
 uuid: 76edb815-f40d-413d-986f-565b6619648d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Data Connectors
 
-When you create an integration with an Adobe partner using [data connectors](https://www.adobeexchange.com/experiencecloud.html), Adobe can push re-marketing or other data to an FTP account, which you or the partner can download.
+Lorsque vous créez une intégration avec un partenaire Adobe en utilisant les [connecteurs de données](https://www.adobeexchange.com/experiencecloud.html), Adobe peut transmettre à un compte FTP les données de remarketing ou d’autres données, que vous ou votre partenaire pouvez alors télécharger.
 
 Vous devez gérer les fichiers sur le compte FTP afin de vous assurer que l’intégration dispose de suffisamment d’espace sur le compte FTP pour recevoir les données qui y sont envoyées par Adobe. Ce type de compte FTP est limité à 2 Go ou 63 fichiers.
 
