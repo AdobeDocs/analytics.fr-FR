@@ -1,7 +1,7 @@
 ---
 title: Accès tardifs
 description: Découvrez comment les flux de données traitent les accès tardifs.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
@@ -9,24 +9,24 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 # Accès tardifs
 
-Les données historiques peuvent arriver une fois qu’une tâche de flux de données a terminé le traitement pendant une heure ou un jour donné, par exemple par le biais d’accès horodatés ou de sources de données. Les accès tardifs sont un paramètre de personnalisation du serveur principal fourni par Adobe pour aider à inclure ces données dans les flux de données.
+Les données historiques peuvent arriver après la fin du traitement d’une heure ou d’un jour donné par une tâche de flux de données par le biais d’accès horodatés ou de sources de données. Adobe fournit les accès tardifs en tant que paramètre de personnalisation du serveur principal pour aider à inclure ces données dans les flux de données.
 
-## Fonctionnement des accès en retard
+## Fonctionnement des accès tardifs
 
-Lorsqu’un flux de données traite normalement des données, il ne les examine que dans sa fenêtre de création de rapports (généralement l’heure ou le jour le plus récent). Si des données arrivent après la fin du traitement d’un flux dans cette fenêtre de création de rapports, elles ne sont jamais incluses dans un flux de données.
+Lors du traitement normal des données par un flux des données, seules les données de sa fenêtre de création de rapports sont examinées (en général, l’heure ou le jour le plus récent). Si des données arrivent après qu’un flux a terminé de traiter cette fenêtre de création de rapports, ces données ne sont jamais incluses dans aucun flux de données.
 
-Lorsque les accès arrivant tardivement sont activés, la méthode de traitement change pour inclure ces données. Chaque fois qu’un flux de données traite des données, il examine les accès tardifs qui sont arrivés et les remue par lots dans le fichier de flux de données suivant envoyé sur votre site FTP.
+En activant les accès tardifs, la méthode de traitement change de manière à inclure ces données. Chaque fois qu’un flux de données traite des données, il tient compte de l’arrivée des accès tardifs et les regroupe dans le fichier de données de flux suivant envoyé vers votre site FTP.
 
 ## Activation des accès tardifs
 
-Les accès tardifs peuvent être activés manuellement par Adobe sur des flux de données individuels. Avant de procéder, tenez compte des points suivants :
+Adobe peut activer manuellement les accès tardifs sur des flux de données individuels. Avant de procéder à l’activation, tenez compte des points suivants :
 
-* Les données relatives à différents jours apparaissent fréquemment dans les flux de données lorsque des accès tardifs sont activés. Assurez-vous que la plate-forme que vous utilisez pour importer des flux de données peut contenir des données provenant de différents jours au sein du même fichier.
-* Les accès tardifs augmentent le temps de traitement. En règle générale, ce délai est inférieur à une heure, mais il peut être de plusieurs heures ou plus si votre suite de rapports reçoit un grand nombre d’accès tardifs. Adobe recommande de ne pas activer ce paramètre si l’arrivée en temps voulu des flux de données est indispensable au flux de travail de votre entreprise.
-* Si un fichier de flux de données est retraité, les accès tardifs inclus dans le fichier d’origine ne sont pas inclus dans le fichier retraité.
+* Les données de jours différents apparaissent fréquemment dans les flux de données lorsque les accès tardifs sont activés. Assurez-vous que la plateforme d’assimilation des flux de données que vous utilisez peut traiter des données de jours différents au sein d’un même fichier.
+* Les accès tardifs augmentent les temps de traitement. En règle générale, ce retard est inférieur à une heure, mais il peut s’élever à plusieurs heures voire plus si votre suite de rapports reçoit un nombre important d’accès tardifs. Adobe recommande de ne pas activer ce paramètre si l’arrivée des flux de données dans les temps est impérative pour le flux de travail de votre entreprise.
+* Si un fichier de flux de données est traité à nouveau, les accès tardifs inclus dans le fichier d’origine ne sont pas inclus dans le fichier retraité.
 
-Si vous souhaitez activer les accès tardifs pour un flux de données récurrent existant, demandez à un utilisateur ayant souscrit un plan d’assistance dédié de contacter le service d’assistance clientèle et d’inclure les éléments suivants :
+Si vous souhaitez activer les accès tardifs pour un fichier de données récurrent existant, demandez à un utilisateur habilité de contacter l’assistance clientèle et incluez les éléments suivants :
 
-* Remarque que vous souhaitez activer les accès tardifs pour un flux de données spécifique
+* Une note disant que vous aimeriez activer les accès tardifs dans un fichier de données spécifique
 * Identifiant de suite de rapports
 * Nom du flux de données
