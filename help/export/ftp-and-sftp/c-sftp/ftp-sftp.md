@@ -1,9 +1,9 @@
 ---
-description: SFTP est un protocole sécurisé de transfert de données qui garantit que personne ne peut voir vos données sauf vous. Adobe Engineering Services peut configurer un compte SFTP pour conserver vos données en toute sécurité.
+description: SFTP est un protocole sécurisé de transfert des données, grâce auquel personne d’autre que vous ne peut accéder à vos données. Adobe Engineering Services peut configurer un compte SFTP afin de conserver vos données de manière sécurisée.
 keywords: ftp;sftp
 title: Protocole de transfert de fichiers sécurisé - Aperçu
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,25 +11,25 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Protocole de transfert de fichiers sécurisé - Aperçu
 
-SFTP est un protocole sécurisé de transfert de données qui garantit que personne ne peut voir vos données sauf vous. Adobe Engineering Services peut configurer un compte SFTP pour conserver vos données en toute sécurité.
+SFTP est un protocole sécurisé de transfert des données, grâce auquel personne d’autre que vous ne peut accéder à vos données. Adobe Engineering Services peut configurer un compte SFTP afin de conserver vos données de manière sécurisée.
 
-## Livraison par émission (push){#section_A47831BB1DCA490BB57F0940617AA506}
+## Livraison par émission (push) {#section_A47831BB1DCA490BB57F0940617AA506}
 
 Cela signifie que les serveurs d’Adobe « poussent » le fichier sur vos serveurs. Grosso modo, nous délivrons le fichier à votre point de terminaison.
 
-[L’entrepôt](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) de données et le flux [de données](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) Analytics peuvent transmettre des données par SFTP.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) et le [flux de données Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) peuvent transmettre les données par SFTP.
 
-The following Analytics tools **cannot** push data via SFTP:
+Les outils Analytics suivants **ne peuvent pas** transmettre les données par SFTP :
 
-* Reports &amp; Analytics
+* Reports &amp; Analytics
 * Ad Hoc Analysis
-* Créateur de rapports
+* Report Builder
 
-## Livraison par extraction (pull){#section_FA29FAEF02FE40B8B32452146A036F48}
+## Livraison par extraction (pull) {#section_FA29FAEF02FE40B8B32452146A036F48}
 
-Ceci signifie que le fichier est envoyé à l’un des serveurs Adobe par l’intermédiaire d’un protocole FTP standard. Si vous souhaitez placer le fichier sur votre serveur, vous devez le retirer du serveur Adobe à l’aide de SFTP de votre serveur vers le serveur FTP d’Adobe. Vous pouvez le faire de trois façons :
+Ceci signifie que le fichier est envoyé à l’un des serveurs Adobe par l’intermédiaire d’un protocole FTP standard. Pour récupérer le fichier sur votre serveur, vous devez l’extraire du serveur Adobe par SFTP de votre serveur vers le serveur FTP Adobe. Vous pouvez le faire de trois façons :
 
 * [Connexion à Adobe via SFTP sans mot de passe.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-* [Connectez-vous à un compte FTP Adobe avec SFTP.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
-* Vous pouvez transmettre des rapports vers des flux de données/rapports et analyses/analyses ad hoc de type FTP Adobe, puis les extraire. Adobe ne peut pas diffuser ces rapports sur le serveur SFTP que vous avez configuré.
+* [Connexion à un compte FTP Adobe par SFTP.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
+* Vous pouvez transmettre des rapports vers des flux de données/rapports et analyses/analyses ad hoc de type FTP Adobe, puis les extraire. Adobe ne peut pas livrer ces rapports au serveur SFTP que vous avez configuré.
 
