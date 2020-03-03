@@ -3,7 +3,7 @@ description: La politique FTP d’Adobe désactive automatiquement l’accès au
 keywords: ftp;sftp
 title: Suppression des données et des comptes liés au FTP
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
