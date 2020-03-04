@@ -3,7 +3,7 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
+source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
 
 ---
 
@@ -15,6 +15,12 @@ Notes de mise à jour cumulées pour [!DNL AppMeasurement] pour JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Vous pouvez télécharger la dernière version d’AppMeasurement dans le Gestionnaire de [code](/help/admin/admin/code-manager-admin.md).
+
+## Version 2.20.0
+
+Date de publication : **5 mars 2020**
+
+* Correction d’un problème lié à la sécurité.
 
 ## Version 2.19.0
 
@@ -283,7 +289,7 @@ Date de publication : **18 juin 2015**
 Date de publication : **21 mai 2015**
 
 * Depuis la version 4.5 du SDK iOS, une nouvelle extension iOS vous permet de collecter des données d’utilisation à partir des applications Apple Watch, des widgets d’aujourd’hui, des widgets de retouche photo et de toutes les autres applications d’extension iOS. Reportez-vous à la section Mise en oeuvre [des extensions](https://docs.adobe.com/content/help/en/mobile-services/ios/ios-ext/ios-ext.html) iOS dans le guide de l’utilisateur des services mobiles.
-* Depuis la version 4.5 du SDK Android, une nouvelle extension Android vous permet de collecter des données depuis votre application Android portable. Reportez-vous à la page [Android wearables](https://docs.adobe.com/content/help/en/mobile-services/android/wearables-android/android-wearable.html) dans le guide de l’utilisateur des services mobiles.
+* Depuis la version 4.5 du SDK Android, une nouvelle extension Android vous permet de collecter des données à partir de votre application Android portable. Reportez-vous à la page [Android wearables](https://docs.adobe.com/content/help/en/mobile-services/android/wearables-android/android-wearable.html) dans le guide de l’utilisateur des services mobiles.
 * Inclusion de l’API visiteur version 1.4.
 * Mise à jour du module AudienceManagement afin de permettre l’utilisation de DIL version 6.0.
 
