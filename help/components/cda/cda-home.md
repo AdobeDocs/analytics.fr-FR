@@ -2,7 +2,7 @@
 title: Analyses entre appareils
 description: Les analyses entre appareils font en sorte que vos données ne soient plus axées sur l’appareil, mais plutôt sur la personne, en regroupant les données de l’appareil.
 translation-type: tm+mt
-source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
+source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
 
 ---
 
@@ -33,9 +33,9 @@ Depuis septembre 2019, les analyses entre appareils imposent les conditions suiv
 * Contactez le gestionnaire de compte de votre entreprise pour déterminer les points clés suivants :
    * Un contrat doit être signé avec Adobe et inclure Adobe Analytics Ultimate.
    * Votre entreprise doit utiliser le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform. Consultez la [page d’accueil](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) du guide de l’utilisateur Device Co-op.
-   * Votre entreprise doit accepter qu’Adobe puisse traiter et stocker des données Analytics sur des serveurs Microsoft Azure. Adobe utilise Azure pour stocker les données graphiques des appareils et effectuer leur regroupement. Ainsi, les données Adobe Analytics sont échangées entre le centre de traitement des données d’Adobe et la présence d’Adobe dans Microsoft Azure.
+   * Dans un esprit de partenariat et de transparence, nous voulons que nos clients soient conscients de notre utilisation de Microsoft Azure en association avec les analyses inter-périphériques. Adobe utilise Azure pour stocker les données graphiques des périphériques et pour effectuer un assemblage sur plusieurs périphériques. Ainsi, les données Adobe Analytics sont transmises par aller-retour entre le centre de traitement des données d’Adobe et les instances configurées de Microsoft Azure par Adobe.
 * Les analyses entre appareils sont activées sur base des suites de rapports. Les suites de rapports qui ont été activées pour les analyses entre appareils exigent ce qui suit :
-   * La suite de rapports ne peut pas contenir plus de 100 millions d’accès par jour. Ce seuil augmentera au cours des prochains mois.
+   * La suite de rapports ne peut pas contenir plus de 500 millions d’accès par jour.
    * Adobe recommande qu’une suite de rapports contienne des données interpériphériques, ce qui signifie qu’elles proviennent de plusieurs types d’appareils (web, applications, etc.). Certaines entreprises considèrent ce concept comme une suite de rapports « globale », bien que les analyses entre appareils ne doivent pas nécessairement être globales du point de vue géographique. Les analyses entre appareils ne fonctionnent pas entre les suites de rapports et ne combinent pas non plus les données de plusieurs suites de rapports.
 * Votre mise en œuvre doit satisfaire aux exigences suivantes :
    * La dernière version du service Experience Cloud ID doit être déployée. Consultez la [page d’accueil](https://docs.adobe.com/content/help/en/id-service/using/home.html) du guide de l’utilisateur du service d’identité d’Experience Cloud. La plupart des implémentations utilisant Adobe Experience Platform Launch disposent déjà probablement d’un ECID déployé.
