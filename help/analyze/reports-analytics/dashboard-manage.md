@@ -74,7 +74,7 @@ Les tableaux de bord hérités existants continueront à être exécutés et vou
 
 Lorsque vous copiez le tableau de bord hérité, le système l’ouvre pour modification et vous pouvez y ajouter du contenu hérité ou du nouveau contenu. Lorsque vous copiez un tableau de bord hérité, l’original est préservé dans la liste des tableaux de bord hérités.
 
-> [!NOTE] L’ajout de contenu hérité à un tableau de bord crée un tableau de bord basé sur la dernière fonctionnalité du tableau de bord. Le mini-rapport hérité peut toutefois contenir des données reposant sur la plateforme de données précédentes.
+> [!NOTE] L’ajout de contenu hérité à un tableau de bord crée un tableau de bord en fonction de la dernière fonctionnalité du tableau de bord. Le mini-rapport hérité peut toutefois contenir des données reposant sur la plateforme de données précédentes.
 
 **Pour migrer un tableau de bord hérité version 14.x**
 
