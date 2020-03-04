@@ -2,8 +2,8 @@
 description: Terminologie et tâches d’Ad Hoc Analysis comparées à celles d’Analysis Workspace.
 title: Comparaison entre Analysis Workspace et Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -14,7 +14,7 @@ Terminologie et tâches d’Ad Hoc Analysis comparées à celles d’Analysis W
 
 La plupart des fonctions d’Ad Hoc Analysis sont accessibles par navigateur dans Analysis Workspace. Toutefois, si la terminologie et les fonctions des deux produits restent identiques, en partie du moins, Analysis Workspace introduit de nouveaux termes et de nouvelles approches en matière d’analyses.
 
-Cliquez [ici](https://marketing.adobe.com/resources/help/fr_FR/reference/analytics-product-comparison.html) pour consulter une comparaison technique des fonctions clés et de la configuration système requise de ces deux produits.
+Cliquez [ici](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html) pour consulter une comparaison technique des fonctions clés et de la configuration système requise de ces deux produits.
 
 ## Comparaison de la terminologie clé  {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -100,7 +100,7 @@ Cliquez [ici](https://marketing.adobe.com/resources/help/fr_FR/reference/analyti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>L’<a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  >Attribution IQ</a> dans Analysis Workspace vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. </p> </td> 
+   <td colname="col2"> <p>L’<a href="/help/analyze/analysis-workspace/attribution-iq.md"  >Attribution IQ</a> dans Analysis Workspace vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Non inclus </p> </td> 
