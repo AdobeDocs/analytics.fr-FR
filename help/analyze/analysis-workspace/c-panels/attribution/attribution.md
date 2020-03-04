@@ -41,7 +41,7 @@ Un intervalle de recherche en amont est la durée pendant laquelle une conversio
 
 * **Intervalles de recherche en amont des visiteurs :** recherchent toutes les visites en amont jusqu’au 1er du mois de la période en cours. Les intervalles de recherche en amont des visiteurs sont larges, car ils peuvent porter sur plusieurs visites. Par exemple, si la période du rapport s’étend du 15 au 30 septembre, la période de recherche en amont des visiteurs est du 1er au 30 septembre.
 
-* **** Fenêtre de recherche personnalisée : Permet d’étendre la fenêtre d’attribution au-delà de la plage de dates du rapport jusqu’à 90 jours au maximum. Les fenêtres de recherche personnalisées sont évaluées pour chaque conversion au cours de la période du rapport. Par exemple, pour une conversion survenant le 20 février, une fenêtre de recherche de 10 jours évaluerait tous les points de contact de dimension du 10 au 20 février dans le modèle d’attribution.
+* **Fenêtre de recherche personnalisée :** Permet d’étendre la fenêtre d’attribution au-delà de la plage de dates du rapport jusqu’à 90 jours au maximum. Les fenêtres de recherche personnalisées sont évaluées pour chaque conversion au cours de la période du rapport. Par exemple, pour une conversion survenant le 20 février, une fenêtre de recherche de 10 jours évaluerait tous les points de contact de dimension du 10 au 20 février dans le modèle d’attribution.
 
 ## Exemple
 
@@ -55,7 +55,7 @@ Selon votre intervalle de recherche en amont et votre modèle d’attribution, l
 
 * À l’aide de **Première touche** et d’un **intervalle de recherche en amont des visites**, l’attribution ne s’intéresse qu’à la troisième visite. Entre le courrier électronique et l’affichage, le courrier électronique était le premier. Dès lors, il reçoit 100 % du crédit pour l’achat de 50 $.
 * À l’aide de **Première touche** et d’un **intervalle de recherche en amont des visiteurs**, l’attribution s’intéresse aux trois visites. Le référencement payant a été le premier. Il obtient donc un crédit de 100 % pour l’achat de 50 $.
-* En utilisant la **première touche** et une fenêtre **de recherche** personnalisée de sept jours, l’attribution ne prend en compte que les deux dernières visites. Dans cette fenêtre de rapport, le lien vers les réseaux sociaux a été créé en premier, de sorte qu’il obtient un crédit de 100 % pour l’achat de 50 euros.
+* En utilisant la **première touche** et une fenêtre **de recherche** personnalisée de sept jours, l’attribution ne prend en compte que les deux visites les plus récentes. Dans cette fenêtre de rapport, le lien vers les réseaux sociaux a été créé en premier, de sorte qu’il obtient un crédit de 100 % pour l’achat de 50 euros.
 * À l’aide de **Linéaire** et d’un **intervalle de recherche en amont des visites**, le crédit est divisé entre le courrier électronique et l’affichage. Ces deux canaux reçoivent chacun un crédit de 25 $.
 * À l’aide de **linéaire** et d’un **intervalle de recherche en amont des visiteurs**, le crédit est divisé entre le référencement payant, les réseaux sociaux, le courrier électronique et l’affichage. Chaque canal reçoit un crédit de 12,50 $ pour cet achat.
 * À l’aide d’une fenêtre **de recherche** linéaire **et** personnalisée de sept jours, le crédit est divisé entre le social, le courrier électronique et l’affichage. Chacun de ces canaux reçoit un crédit de 12,50 $ pour cet achat. La recherche payante est exclue car elle ne se produit pas dans la fenêtre de recherche spécifiée.
