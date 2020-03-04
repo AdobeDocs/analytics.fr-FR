@@ -1,14 +1,13 @@
 ---
-description: valeur nulle
-title: Utilisation de l’Attribution IQ dans Analysis Workspace
-uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+title: Utilisation de l’Attribution dans Analysis Workspace
+description: Découvrez les emplacements d’Adobe Analytics où vous pouvez utiliser l’attribution.
+translation-type: tm+mt
+source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 ---
 
 
-# Utilisation de l’Attribution IQ dans Analysis Workspace
+# Utilisation de l’Attribution dans Analysis Workspace
 
 L’Attribution IQ dans Analysis Workspace vous permet de comparer les modèles d’attribution pris en charge, de visualiser les principales séquences marketing menant à la conversion au moyen de visualisations avancées des abandons et des flux, de suivre facilement les tendances de tout canal ou campagne marketing pour voir les performances dans le temps, de trouver des anomalies statistiques dans les performances des canaux/campagnes et d’être alerté lorsque les performances chutent ou s’améliorent.
 
@@ -20,7 +19,7 @@ Les tableaux à structure libre d’Analysis Workspace prennent en charge les m
 
    ![](assets/Column_Settings.png)
 
-1. Sous **[!UICONTROL Paramètres des données]**, cochez **[!UICONTROL Utiliser un modèle d’attribution autre que celui par défaut]**. Pour plus d’informations sur les différents modèles d’attribution, reportez-vous à la section [Attribution IQ - Aperçu](attribution.md).
+1. Sous **[!UICONTROL Data Settings]**, vérifiez **[!UICONTROL Use non-default attribution model]**. Pour plus d’informations sur les différents modèles d’attribution, reportez-vous à la section [Attribution IQ - Aperçu](attribution.md).
 
    ![](assets/Attribution_Model_Selection.png)
 
@@ -32,7 +31,7 @@ Toute ventilation au sein d’un tableau à structure libre peut également se v
 
 ## Comparaison de deux modèles d’attribution {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-Si vous souhaitez comparer rapidement et facilement deux modèles d’attribution, cliquez avec le bouton droit de la souris sur une mesure et sélectionnez **[!UICONTROL Ajouter un modèle d’attribution comparatif]** :
+If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
