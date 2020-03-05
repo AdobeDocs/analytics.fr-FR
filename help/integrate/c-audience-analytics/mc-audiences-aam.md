@@ -3,7 +3,7 @@ description: Adobe Audience Manager (AAM) est une puissante plateforme de gestio
 solution: Experience Cloud
 title: Audience Analytics - Aperçu
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,12 +30,12 @@ L’intégration d’Audience Analytics offre les avantages clés suivants :
 ![](assets/mc-aud-dataflow.png)
 
 1. Chaque fois qu’un utilisateur se rend sur vos propriétés numériques, les accès sont collectés et envoyés à Analytics.
-1. Avec [la redirection côté serveur](/help/admin/admin/c-server-side-forwarding/ssf.md), chaque accès enregistré par Analytics est automatiquement envoyé à AAM en temps réel.
-1. Grâce à l’intégration d’Audience Analytics, pour chaque accès, l’adhésion d’un visiteur à l’audience est recherchée dans AAM et une liste d’ID de segment est renvoyée à Analytics pour traitement en temps réel.
+1. Avec  [la redirection côté serveur](/help/admin/admin/c-server-side-forwarding/ssf.md), chaque accès enregistré par Analytics est automatiquement envoyé à AAM en temps réel.
+1. Grâce à l’intégration d’Audience Analytics, pour chaque accès, l’appartenance d’audience du visiteur est recherchée dans AAM et une liste d’ID de segments est renvoyée à Analytics pour un traitement en temps réel.
 
 Comme les segments AAM sont insérés sur la base d’accès identiques, vous pouvez être assuré que quelles que soient les données disponibles sur un visiteur dans AAM, celles-ci seront prises en compte et tenues à jour pour l’accès concerné. Cette fonctionnalité est supérieure à un module d’extension AppMeasurement dans la mesure où un module externe rend ces segments disponibles uniquement lors de l’accès suivant (et non l’accès actuel).
 
-En outre, nous classons automatiquement les ID de segment AAM dans leurs noms conviviaux, de sorte que vous n’ayez pas à consulter les ID alphanumériques dans les rapports Analytics.
+En outre, nous classifions automatiquement les ID des segments AAM suivant leurs noms conviviaux pour vous éviter d’avoir à rechercher des ID alphanumériques dans les rapports Analytics.
 
 ## Conditions préalables {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
@@ -43,8 +43,8 @@ Assurez-vous que les conditions préalables suivantes sont réunies :
 
 * Vous êtes à la fois client d’Audience Manager et d’Adobe Analytics.
 * Vous êtes un administrateur d’Audience Manager.
-* Vous utilisez Identity Service version 1.5 ou ultérieure.
-* Les suites de rapports AAM et Adobe Analytics sont [mappées sur la même organisation Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
-* You use [server-side forwarding](/help/admin/admin/c-server-side-forwarding/ssf.md) and have implemented the [Audience Management module](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (no DIL code) - AppMeasurement 1.5 or later.
+* Vous utilisez Identity Service version 1.5 ou ultérieure.
+* Les suites de rapports AAM et Adobe Analytics sont [mappées sur la même organisation Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/report-suite-mapping.html).
+* Vous utilisez la [redirection côté serveur](/help/admin/admin/c-server-side-forwarding/ssf.md) et avez mis en œuvre le [module de gestion de l’audience](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (pas de code DIL) - AppMeasurement 1.5 ou une version ultérieure.
 
-Ces conditions préalables sont décrites dans le flux de travail [Analyses d’](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)audience.
+Ces conditions préalables sont décrites dans le [Workflow Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
