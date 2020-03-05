@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Gestion des comptes Advertising
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Gestion des comptes Advertising
 
-You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+Vous pouvez accéder à l’interface utilisateur de gestion en vous rendant dans **[!UICONTROL Admin]** > **[!UICONTROL Comptes Advertising]**.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,7 +24,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Actions</b> </p> </td> 
-   <td colname="col2"> <p><b>Remarque : Les actions s’affichent uniquement si vous avez sélectionné au moins un compte publicitaire. </b> </p> </td> 
+   <td colname="col2"> <p><b>Remarque : les actions ne s’affichent que si vous avez sélectionné au moins un compte publicitaire. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Ajouter </p> </td> 
