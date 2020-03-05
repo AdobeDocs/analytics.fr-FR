@@ -2,7 +2,7 @@
 title: useLinkTrackSessionStorage
 description: Stockez les données de suivi des liens dans le stockage de la session au lieu d’un cookie.
 translation-type: tm+mt
-source-git-commit: e1a08ecd3d5eb41bce7ca91027249871c3b5b22f
+source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 
 ---
 
@@ -17,6 +17,7 @@ L’utilisation du stockage de session d’un navigateur pour le suivi des liens
 * Le stockage de session ne fonctionne pas sur plusieurs sous-domaines. Par exemple, un visiteur navigue vers `store.example.com`, puis `toys.example.com`. AppMeasurement ne peut pas accéder aux données de suivi des liens dans le stockage de session en raison de différents sous-domaines.
 
 > [!TIP] L’implémentation la plus fiable à l’aide du stockage de session pour le suivi des liens diffuse tout le contenu via HTTPS sur un seul sous-domaine.
+
 AppMeasurement supprime les données de suivi des liens de stockage de session après l’envoi d’un accès à Adobe. Elle expire également automatiquement lorsque l’onglet du navigateur est fermé.
 
 ## Utiliser le stockage de session de suivi des liens dans Adobe Experience Platform Launch
