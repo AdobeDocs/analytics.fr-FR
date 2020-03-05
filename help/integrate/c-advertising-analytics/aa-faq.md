@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Questions fréquentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer</b> to access this functionality? </p> </td> 
+   <td colname="col1"> <p>Q. : Dois-je être un <b>client Adobe Advertising Cloud ou Adobe Advertising Cloud (AMO)</b> pour accéder à cette fonctionnalité ? </p> </td> 
    <td colname="col2"> <p>R. : Non, cette fonctionnalité est disponible pour les clients ne bénéficiant pas d’Advertising Cloud et d’AMO. </p> <p>Les clients AMO peuvent utiliser l’intégration Analytics-AMO existante, mais ne seront pas en mesure d’utiliser Ad Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Q. : Quels <b>SKU d’Adobe Analytics</b> permettent d’utiliser Advertising Analytics ? </p> </td> 
+   <td colname="col1"> <p>Q. : Quels <b>SKU d’Adobe Analytics</b> permettent d’utiliser Advertising Analytics ? </p> </td> 
    <td colname="col2"> <p>R. : Advertising Analytics est disponible pour les SKU <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> ou <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> d’Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Utilisation d’Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Utilisation d’Advertising Analytics  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -59,12 +59,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Q : Quels <b>comptes de moteur de recherche</b> sont inclus dans Advertising Analytics ? </p> </td> 
-   <td colname="col2"> <p>R : Les comptes de moteur de recherche incluent Google AdWords et Microsoft Bing. </p> <p>Remarque : Yahoo Gemini a été absorbé par Microsoft Bing le 31 mars 2019. Par conséquent, l’option de compte publicitaire Yahoo Gemini n’est plus disponible. </p> </td> 
+   <td colname="col1"> <p>Q. : Quels <b>comptes de moteur de recherche</b> sont inclus dans Advertising Analytics ? </p> </td> 
+   <td colname="col2"> <p>R : Les comptes de moteur de recherche incluent Google AdWords et Microsoft Bing. </p> <p>Remarque : Yahoo Gemini a été absorbé par Microsoft Bing le 31 mars 2019. Par conséquent, l’option de compte publicitaire Yahoo Gemini n’est plus disponible. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Q. : Où dois-je me rendre pour <b>accéder</b> à Advertising Analytics ? </p> </td> 
-   <td colname="col2"> <p>R. : Une fois connecté à Adobe Analytics, accédez au menu <span class="uicontrol">Admin</span>. Puis, sélectionnez l’option <span class="uicontrol">Advertising Analytics</span> du nouveau menu pour ajouter vos comptes de moteur de recherche. </p> </td> 
+   <td colname="col1"> <p>Q. : Où dois-je me rendre pour <b>accéder</b> à Advertising Analytics ? </p> </td> 
+   <td colname="col2"> <p>R. : Une fois connecté à Adobe Analytics, accédez au menu <span class="uicontrol">Admin</span>. Puis, sélectionnez l’option <span class="uicontrol">Advertising Analytics</span> du nouveau menu pour ajouter vos comptes de moteur de recherche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Comment <b>les données sont-elles collectées et transférées vers Analytics</b> ? </p> </td> 
@@ -89,15 +89,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : J’essaie de <b>mapper mes comptes Advertising Analytics à une suite de rapports spécifique</b>, mais elle n’est pas disponible dans le mode Suite de rapports. Pourquoi ? </p> </td> 
-   <td colname="col2"> <p>R. : Pour pouvoir assigner une suite de rapports à un compte Advertising Analytics, la suite de rapports souhaitée doit être <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >configurée pour la création de rapports Advertising Analytics </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>R. : Pour pouvoir assigner une suite de rapports à un compte Advertising Analytics, la suite de rapports souhaitée doit être <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >configurée pour la création de rapports Advertising Analytics </a>. </p> <p>Cette action se fait par le biais d’une page d’administration séparée accessible à partir de : <span class="ignoretag"> <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Suites de rapports</span> &gt; <span class="uicontrol">[sélectionner la suite de rapports compatible avec Experience Cloud]</span> &gt; <span class="uicontrol">Modifier les paramètres</span> &gt; <span class="uicontrol">Configuration Advertising Analytics </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Q. : Est-il possible d’assigner une <b>suite de rapports virtuelle</b> (SRV) à un compte Advertising Analytics ? </p> </td> 
-   <td colname="col2"> <p>R. : Les suites de rapports virtuelles ne collectent pas de données, vous ne pouvez donc pas mapper directement un compte Advertising Analytics à une suite de rapports virtuelle. </p> <p>Cependant, vous pouvez mapper un compte Advertising Analytics à une suite de rapports parente de la suite de rapports virtuelle dans laquelle vous souhaitez afficher les données. </p> <p>Les mesures du moteur de recherche (clic/coût/impressions) peuvent ne pas s’afficher dans la suite de rapports virtuelle, sauf si vous incluez une condition "ou" dans votre logique de segment en fonction de l’identifiant AMO (ou de sa classification). Exemple : L’ajout de "tous les accès pour lesquels un identifiant AMO existe" inclurait les mesures de moteur de recherche dans le segment. </p> </td> 
+   <td colname="col1"> <p>Q. : Est-il possible d’assigner une <b>suite de rapports virtuelle</b> (SRV) à un compte Advertising Analytics ? </p> </td> 
+   <td colname="col2"> <p>R. : Les suites de rapports virtuelles ne collectent pas de données, vous ne pouvez donc pas mapper directement un compte Advertising Analytics à une suite de rapports virtuelle. </p> <p>Cependant, vous pouvez mapper un compte Advertising Analytics à une suite de rapports parente de la suite de rapports virtuelle dans laquelle vous souhaitez afficher les données. </p> <p>Les mesures du moteur de recherche (clics/coûts/impressions) peuvent ne pas s’afficher dans la SRV à moins d’inclure une condition « ou » dans la logique des segments basés sur l’AMO ID (ou sa classification). Exemple : ajouter « tous les accès dans lesquels l’AMO ID existe » permet d’inclure les mesures du moteur de recherche dans le segment. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Q. : Les mesures Advertising Analytics peuvent-elles être reportées dans un rapport de <b>canaux marketing</b> ? </p> </td> 
-   <td colname="col2"> <p>A : Non, ils ne sont pas inclus dans le rapport Canaux marketing. </p> </td> 
+   <td colname="col1"> <p>Q. : Les mesures Advertising Analytics peuvent-elles être reportées dans un rapport de <b>canaux marketing</b> ? </p> </td> 
+   <td colname="col2"> <p>R. : Non, elles ne sont pas incluses dans le rapport de canaux marketing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : <b>Quand</b> les données de recherche sont-elles transférées dans Analytics ? </p> </td> 
@@ -113,7 +113,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Est-ce que nous capturons uniquement google.com ou également les <b>versions par pays</b> (comme google.co.uk, google.it, google.fr ou google.de) ? </p> </td> 
-   <td colname="col2"> <p>A : La classification de la plateforme publicitaire capture les valeurs suivantes : "Google Adwords" et "Bing Publicités". </p> <p>Il est recommandé d’inclure le code de pays dans le nom des campagnes. Vous pouvez ensuite filtrer ou segmenter (par exemple, si toutes les campagnes commencent par code de pays_, puis créer un segment dans lequel les campagnes (ID AMO) commencent par "Royaume-Uni_" vous fourniront uniquement des données pour le Royaume-Uni). </p> </td> 
+   <td colname="col2"> <p>R. : La classification de la plateforme d’annonces publicitaires capture les valeurs suivantes : « Google Adwords » et « Bing Ads ». </p> <p>Il est recommandé d’inclure le code de pays dans le nom des campagnes. Vous pouvez ensuite filtrer ou segmenter. Par exemple, si toutes les campagnes commencent par codepays_, la création d’un segment où Campagnes (AMO ID) commence par « FR_ » vous fournirait uniquement des données pour la France. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : La mesure « Coût AMO » correspond au coût payé pour chaque mot-clé/annonce publicitaire comme rapporté par le moteur de recherche. S’agit-il du coût net ou du coût brut ? </p> </td> 
@@ -126,7 +126,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Suivi automatique vs. manuel {#section_7437C4698A6D482EB7ED94A948390119}
+## Suivi automatique vs. manuel  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
