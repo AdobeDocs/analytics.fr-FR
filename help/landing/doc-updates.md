@@ -1,9 +1,9 @@
 ---
-title: Mises à jour de la documentation Adobe Analytics
-description: Mises à jour de la documentation technique pour Adobe Analytics
+title: Mises à jour de la documentation technique pour Adobe Analytics
+description: Mises à jour notables du référentiel de documentation Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
+source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 
 ---
 
@@ -20,9 +20,11 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Date | Description |
 |---|---|
+| 25 février 2020 | Ajout de [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) la variable. |
+| 18 février 2020 | Ajout de [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) la variable. |
 | 12 février 2020 | Mises à jour et réorganisation de la documentation des canaux [](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) marketing. |
 | 7 février 2020 | Mises à jour de la [configuration d’Analytics](../components/cda/cda-setup.md) sur plusieurs périphériques et [FAQ](../components/cda/cda-faq.md) |
-| 4 février 2020 | Réécriture complète du guide [de l’utilisateur de](../implement/home.md)mise en oeuvre. |
+| 4 février 2020 | Réécriture complète du guide [de l’utilisateur de](../implement/home.md)mise en oeuvre. |
 | 22 janvier 2020 | Mise à jour de la page Tableau à structure libre qui inclut des informations sur le nouveau [Générateur de tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 13 janvier 2020 | Ajout [d’Adobe Analytics et de cookies](../technotes/cookies.md)de navigateur. |
 | 29 novembre 2019 | Modification de la [documentation sur le flux de données](/help/export/analytics-data-feed/data-feed-overview.md). |
