@@ -1,7 +1,7 @@
 ---
 title: Aide sur l’intégration d’Analytics
 description: valeur nulle
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ![Bannière](../../assets/doc_banner_integrate.png)
 
-Ce guide porte sur l’intégration de plusieurs solutions Experience Cloud. Si vous recherchez des connecteurs de données Analytics, reportez-vous à la page Connecteurs [de](/help/import/data-connectors/getting-started-data-connectors.md) données du guide de l’utilisateur d’importation.
+Ce guide porte sur l’intégration de plusieurs solutions Experience Cloud. Si vous recherchez des connecteurs de données Analytics, reportez-vous à la page [Connecteurs de données](/help/import/data-connectors/getting-started-data-connectors.md) du guide de l’utilisateur pour l’importation.
 
 Configurez des intégrations avec d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud ou Target. Il inclut :
 
@@ -32,7 +32,7 @@ Configurez des intégrations avec d’autres solutions Adobe Experience Cloud,
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Forum Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contacter l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
+* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
