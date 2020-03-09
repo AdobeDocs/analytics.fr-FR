@@ -3,7 +3,7 @@ description: Vous pouvez attribuer un nom à votre rapport et configurer le mode
 title: Mise en forme des en-têtes d’affichage
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,15 +16,15 @@ Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichag
 1. Créez une requête dans la fenêtre [!UICONTROL Assistant Requête : Étape 1].
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Sur le formulaire [!UICONTROL Assistant Requête : Étape 2], ajoutez des dimensions et des données de mesure à la requête, suivant vos besoins.
-1. Click **[!UICONTROL Format Options]**.
-1. Configurez les options d’[!UICONTROL affichage] : 
+1. Cliquez sur **[!UICONTROL Options de format]**.
+1. Configurez les options d’[!UICONTROL affichage] :
 
    | Élément | Description |
    |--- |--- |
-   | Nom de rapport | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
+   | Nom de rapport | Affiche soit le nom du type de rapport sélectionné dans l’arborescence du formulaire Assistant Requête : Étape 1 (par exemple, [!DNL Traffic Report]) ou le nom saisi dans le champ [!DNL Name this Request]. |
    | Paramètres des filtres | Affiche les filtres des dimensions (un filtre de recherche, par exemple). |
    | Segment | Affiche le paramètre de segment. |
-   | récence des données | Affiche les paramètres de récence des données. Par exemple :    Récence des données : Pages vues (il y a 1,5 heure), Sorties (il y a 30 minutes) Voir [Options](/help/analyze/report-builder/options.md) pour plus d’informations sur le traitement des données actives. |
+   | récence des données | Affiche les paramètres de récence des données. Par exemple :    Récence des données : Pages vues (il y a 1,5 heure), Sorties (il y a 30 minutes)  Voir la section [Options](/help/analyze/report-builder/options.md) pour plus d’informations sur le traitement des données actives. |
 
    En ce qui concerne l’ordre d’affichage, si la grille [!UICONTROL Libellé de ligne] (Étape 2) contient un élément, il s’affiche en premier dans la requête. Dans le cas contraire, le système utilise le premier élément présent dans la grille [!UICONTROL Libellé de colonne]. S’il n’existe aucun élément de ligne ou de colonne, le premier élément de la grille [!UICONTROL Valeurs de mesure] est affiché.
 
@@ -36,7 +36,7 @@ Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichag
 
    >[!NOTE]
    >
-   >Excel ne prend en charge qu'un seul filtre automatique par feuille de calcul. Si vous créez un filtre automatique dans une feuille de calcul qui en comporte déjà un, Excel ne vous avertit pas que le filtre existant va être remplacé.
+   >Excel ne prend en charge qu’un seul filtre automatique par feuille de calcul. Si vous créez un filtre automatique dans une feuille de calcul qui en comporte déjà un, Excel ne vous avertit pas que le filtre existant va être remplacé.
 
    **Effectuer un synopsis automatique** : transforme la date renvoyée par le Créateur de rapports du mode Liste en mode Arborescence.
 
