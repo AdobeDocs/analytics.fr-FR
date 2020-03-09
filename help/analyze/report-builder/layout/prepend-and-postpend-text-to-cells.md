@@ -3,7 +3,7 @@ description: Dans des requêtes de type Disposition croisée dynamique et Dispos
 title: Ajout de texte en préfixe ou en suffixe à des cellules
 topic: Report builder
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
