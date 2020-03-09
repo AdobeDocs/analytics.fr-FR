@@ -3,7 +3,7 @@ description: Après avoir créé des rapports avec des requêtes intégrées, vo
 title: Définition d’une mise en forme conditionnelle
 topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
