@@ -3,7 +3,7 @@ description: Vous pouvez télécharger et modifier des classeurs partagés.
 title: Téléchargement d’un classeur
 topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Vous pouvez télécharger et modifier des classeurs partagés.
 
 1. Dans Excel, cliquez sur **[!UICONTROL Partager]**.
-1. Under **[!UICONTROL Uploaded Workbooks]**, select the workbook and click **[!UICONTROL Download]**.
+1. Sélectionnez le classeur sous **[!UICONTROL Classeurs chargés]** et cliquez ensuite sur **[!UICONTROL Télécharger]**.
 1. Enregistrez le fichier.
 >Les options décrites ci-dessous sont accessibles uniquement aux propriétaires d’un classeur :
 >
