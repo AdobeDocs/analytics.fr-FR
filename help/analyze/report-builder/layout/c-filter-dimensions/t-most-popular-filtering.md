@@ -3,7 +3,7 @@ description: Classement et filtres conditionnels pouvant être configurés à l�
 title: Filtrage le plus apprécié
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Classement et filtres conditionnels pouvant être configurés à l’aide d’une logique booléenne et d’expressions de recherche ET/OU.
 
-Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. You can [save](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) these expressions for other request in this workbook, or in other workbooks.
+Les filtres de type « Le plus populaire » sont des filtres d’expression configurés à l’aide d’une logique booléenne avec des conditions ET/OU, tels que [!UICONTROL La page ne contient pas ]*`<product name>`*, accompagnés de conditions ou de groupes de conditions comme[!UICONTROL Inclut tout],[!UICONTROL Inclut n’importe quel]ou[!UICONTROL Exclut tout]. Vous pouvez [enregistrer](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) ces expressions pour une autre requête dans ce classeur ou dans d’autres classeurs.
 
 **Pour créer un filtre de type « Le plus populaire »**
 
@@ -21,8 +21,8 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![Infos sur l’étape](assets/dimension_filter.png)
 
-1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 2]**, cliquez sur le lien en regard de la dimension dans la grille, puis sélectionnez[!UICONTROL Filtrer]**.
-1.  Activez l’option [!UICONTROL Le plus populaire]**dans le formulaire[!UICONTROL Sélectionner les pages]**, puis configurez les options suivantes :
+1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 2], cliquez sur le lien en regard de la dimension dans la grille, puis sélectionnez **[!UICONTROL Filtrer]**.
+1. Activez l’option [!UICONTROL Le plus populaire] dans le formulaire **[!UICONTROL Sélectionner les pages]**, puis configurez les options suivantes :
 
    **Ordre de classement** : il s’agit de l’ordre de classement d’une dimension. La valeur par défaut, à savoir 1, indique l’élément supérieur dans la liste des données faisant l’objet du rapport. Par exemple, dans le cas de la dimension [!UICONTROL Page], un ordre de classement de 1 indique la page la plus demandée de votre site. Vous pouvez spécifier 10 ou une autre valeur comme cellule d’ordre de classement, ce qui a pour effet de générer un rapport commençant par 10 comme valeur maximale. Les mesures sont classées par ordre décroissant, de telle sorte que les éléments les plus actifs apparaissent en premier dans la liste. Si une seule requête doit comporter plus de 50 000 noms de pages, mais que vous disposez de milliers de pages sur lesquelles générer un rapport, vous pouvez copier la requête et modifier l’ordre de classement afin de récupérer les données appropriées par blocs de 50 000.
 
@@ -32,7 +32,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >L’application de filtres à des requêtes existantes entraîne des modifications dans les données présentées. Supposons que vous ayez mappé les dix [!UICONTROL Pages] principales sur les cellules $A$1 à $A$10, avec les valeurs 1 pour [!UICONTROL Ordre de classement] et 10 pour [!UICONTROL Nombre d’entrées]. Si vous définissez, à présent, les champs [!UICONTROL Ordre de classement] et [!UICONTROL Nombre d’entrées] sur 1 et 3, respectivement, les données indiquées précédemment dans les cellules $A$4 à $A$10 ne seront plus affichées.
+   >L’application de filtres à des requêtes existantes entraîne la modification des données présentées. Supposons que vous ayez mappé les dix [!UICONTROL Pages] principales sur les cellules $A$1 à $A$10, avec les valeurs 1 pour [!UICONTROL Ordre de classement] et 10 pour [!UICONTROL Nombre d’entrées]. Si vous définissez, à présent, les champs [!UICONTROL Ordre de classement] et [!UICONTROL Nombre d’entrées] sur 1 et 3, respectivement, les données indiquées précédemment dans les cellules $A$4 à $A$10 ne seront plus affichées.
 
 1. Pour créer une expression de recherche, cliquez sur **[!UICONTROL Ajouter]**.
 
@@ -48,5 +48,5 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![Infos sur l’étape](assets/choose_page_02.png)
 
-1. Dans le formulaire [!UICONTROL Sélectionner les pages]**, cliquez sur[!UICONTROL Enregistrer]** pour enregistrer l’expression.
+1. Dans le formulaire [!UICONTROL Sélectionner les pages], cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer l’expression.
 1. Cliquez sur **[!UICONTROL OK]**.
