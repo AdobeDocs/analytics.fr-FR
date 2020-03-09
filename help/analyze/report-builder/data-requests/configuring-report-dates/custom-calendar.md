@@ -1,15 +1,15 @@
 ---
 description: Le Créateur de rapports utilise le calendrier personnalisé d’Analytics. dont vous pouvez vous servir pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la régulation de l’inventaire matériel.
-title: 'Calendrier personnalisé '
+title: Calendrier personnalisé
 topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Calendrier personnalisé 
+# Calendrier personnalisé
 
 Le Créateur de rapports utilise le calendrier personnalisé d’Analytics. dont vous pouvez vous servir pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la régulation de l’inventaire matériel.
 
@@ -42,7 +42,7 @@ Vous trouverez, ci-dessous, la description de chacun des formats calendaires.
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b> : janvier comporte quatre semaines, février cinq, mars quatre, etc. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b> : janvier comprend quatre semaines, février comprend quatre semaines, mars en comprend cinq, et ainsi de suite. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b> : janvier comprend cinq semaines, février comprend cinq semaines, mars en comprend quatre, et ainsi de suite. </li> 
-    </ul> <p>Remarque : cette option de calendrier est prise en charge dans tous les outils Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map, Ad Hoc Analysis) à l’exception de Data Warehouse qui ne prend pas en charge les calendriers personnalisés. </p> </td> 
+    </ul> <p>Remarque : cette option de calendrier est prise en charge dans tous les outils Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map, Ad Hoc Analysis) à l’exception de Data Warehouse qui ne prend pas en charge les calendriers personnalisés. </p> </td> 
   </tr> 
  </tbody> 
 </table>
