@@ -1,9 +1,9 @@
 ---
-description: Définitions des dates fixes dans le Créateur de rapports.
+description: Définitions des dates fixes dans le Report Builder.
 title: Définitions de l’Assistant Requête - Dates fixes
 topic: Report builder
 uuid: bd65a312-bab6-46d7-ba30-570777344cc9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Définitions de l’Assistant Requête - Dates fixes
 
-Définitions des dates fixes dans le créateur de rapports.
+Définitions des dates fixes dans le Report Builder.
 
 | Champ | Définition |
 |--- |--- |
