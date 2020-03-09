@@ -1,62 +1,62 @@
 ---
 description: Méthodes pour optimiser le Créateur de rapports et liste des messages d’erreur qui peuvent parfois s’afficher.
-title: Résolution des problèmes et bonnes pratiques pour Report Builder
+title: Résolution des problèmes et bonnes pratiques pour le Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Résolution des problèmes et bonnes pratiques pour Report Builder
+# Résolution des problèmes et bonnes pratiques pour le Report Builder
 
 Méthodes pour optimiser le Créateur de rapports et liste des messages d’erreur qui peuvent parfois s’afficher.
 
-## Report Builder 5.0 users and opening 5.1 workbooks {#section_C29898775999453FABB5FB0E098415C8}
+## Utilisateurs du Report Builder 5.0 et ouverture de classeurs 5.1 {#section_C29898775999453FABB5FB0E098415C8}
 
-Adobe a remplacé le séparateur entre les dimensions et les classifications représenté par un trait de soulignement (_) par ||. Ce changement a des répercussions de compatibilité pour un utilisateur du Créateur de rapports 5.0 qui ouvre un classeur de la version 5.1 avec des demandes de classification. Chaque fois qu’un classeur d’une version antérieure à la version 5.1 est ouvert, toutes ses demandes de classification sérialisées sont converties dans ce format.
+Adobe a remplacé le séparateur entre les dimensions et les classifications représenté par un trait de soulignement (_) par ||. Ce changement a des répercussions de compatibilité pour un utilisateur du Report Builder 5.0 qui ouvre un classeur de la version 5.1 avec des demandes de classification. Chaque fois qu’un classeur d’une version antérieure à la version 5.1 est ouvert, toutes ses demandes de classification sérialisées sont converties dans ce format.
 
 Ceci crée toutefois un problème de compatibilité : une fois qu’un classeur converti au format 5.1 est partagé avec un utilisateur de la version 5.0, cet utilisateur ne peut plus reconnaître la demande de classification (« _ » est recherché à la place de « || » dans la version 5.1).
 
 L’effet secondaire suivant se produit lors de l’ouverture d’un classeur ARB 5.1 avec la demande de classification :
 
-* Lors de l’ouverture du classeur, vous recevez l’avertissement suivant : "Ce classeur a été enregistré pour la dernière fois à l’aide de la version 5.1 du créateur de rapports. Cette version a introduit certaines fonctionnalités incompatibles avec la version du créateur de rapports installée sur cet ordinateur. Il est vivement recommandé d’effectuer la mise à niveau vers la dernière version du créateur de rapports avant de mettre à jour ce classeur."
-* Si vous cliquez avec le bouton droit de la souris sur une demande ARB avec classification, les menus contextuels du Créateur de rapports (Modifier les requêtes, Ajouter une requête dépendante, etc.) ne seront pas visibles.
+* Lors de l’ouverture du classeur, l’avertissement suivant s’affiche : « Ce classeur a été enregistré pour la dernière fois avec le Report Builder version 5.1. Cette version comprend des fonctions incompatibles avec la version du Report Builder installée sur cet ordinateur. Nous vous recommandons de mettre à niveau votre version du Report Builder avant de mettre à jour ce classeur. »
+* Si vous cliquez avec le bouton droit de la souris sur une demande ARB avec classification, les menus contextuels du Report Builder (Modifier les requêtes, Ajouter une requête dépendante, etc.) ne seront pas visibles.
 * Si vous actualisez tout, en cliquant sur le troisième bouton ou en actualisant un ensemble de requêtes issues du formulaire du Gestionnaire de requêtes, la demande de classification s’exécutera sans erreur. Toutefois, les valeurs de classification ne seront pas inscrites.
 * Vous pouvez modifier la requête en ouvrant le Gestionnaire de requêtes, puis passer d’une ligne à l’autre jusqu’à la requête recherchée.
 * Si vous modifiez la requête sans changer aucun des paramètres, puis cliquez sur Terminer, la réponse sera correctement inscrite. En fait, la modification de la requête résout le problème puisque les paramètres de mise en page des réponses sont resérialisés. Il s’agit donc d’une solution, même si elle prend du temps.
 
-## Authentication issues in Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
+## Problèmes d’authentification dans le Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
-Le Créateur de rapports requiert une authentification pour créer des requêtes de données à partir de vos suites de rapports. Selon les paramètres d’[!DNL Analytics] ou le réseau, des problèmes de connexion au Créateur de rapports peuvent parfois se produire.
+Le Report Builder requiert une authentification pour créer des requêtes de données à partir de vos suites de rapports. Selon les paramètres d’[!DNL Analytics] ou le réseau, des problèmes de connexion au Créateur de rapports peuvent parfois se produire.
 
 **Informations de connexion de la société incorrectes**
 
 Cette erreur se produit généralement lorsque les informations de connexion de la société ne sont pas saisies correctement ou en cas de problèmes réseau. Procédez comme suit :
 
 * Vérifiez l’orthographe des informations de connexion de la société pour vous assurer qu’il n’y a pas de faute de frappe ou d’espace en trop.
-* Connectez-vous à Analytics à l’aide des mêmes informations de connexion pour vous assurer qu’elles sont correctes. Si vous ne parvenez pas à vous connecter à l’aide de ces informations d’identification, contactez un administrateur de votre société pour obtenir les informations de connexion correctes de la société. 
+* Connectez-vous à Analytics à l’aide des mêmes informations de connexion pour vous assurer qu’elles sont correctes. Si vous ne parvenez pas à vous connecter à l’aide de ces informations d’identification, contactez un administrateur de votre société pour obtenir les informations de connexion correctes de la société.
 
 **Pare-feu**
 
-Le Créateur de rapports utilise les ports 80 et 443. Vérifiez que ces ports sont autorisés à travers le pare-feu de votre société. Pour obtenir des informations sur les autres exclusions de pare-feu, reportez-vous aux adresses IP internes d’Adobe.
+Le Report Builder utilise les ports 80 et 443. Vérifiez que ces ports sont autorisés à travers le pare-feu de votre société. Pour obtenir des informations sur les autres exclusions de pare-feu, reportez-vous aux adresses IP internes d’Adobe.
 
-## Recommendations for optimizing requests {#section_33EF919255BF46CD97105D8ACB43573F}
+## Recommandations pour optimiser les requêtes {#section_33EF919255BF46CD97105D8ACB43573F}
 
 Les facteurs suivants peuvent rendre les requêtes plus complexes, ce qui peut ralentir le processus de traitement :
 
 **Facteurs pouvant ralentir les remises**
 
-* Trop de signets, de tableaux de bord et de classeurs du Créateur de rapports ont été planifiés en l’espace de quelques heures.
-* Trop de classeurs du Créateur de rapports ont été planifiés à environ la même heure. Lorsque cela se produit, la file d’attente de l’API de rapports comporte des travaux en souffrance.
+* Trop de signets, de tableaux de bord et de classeurs du Report Builder ont été planifiés en l’espace de quelques heures.
+* Trop de classeurs du Report Builder ont été planifiés à environ la même heure. Lorsque cela se produit, la file d’attente de l’API de rapports comporte des travaux en souffrance.
 
 **Facteurs pouvant ralentir l’exécution des classeurs**
 
 * Augmentation significative des classifications.
 * Allongement de la période des requêtes au fil du temps
 
-   **Exemple** : imaginons que vous créez une requête de tendance à l’aide du paramètre Année en cours, ventilée par Jour. À la fin de l’année, la requête renverra davantage de périodes que celle créée au début de l’année. 
+   **Exemple** : imaginons que vous créez une requête de tendance à l’aide du paramètre Année en cours, ventilée par Jour. À la fin de l’année, la requête renverra davantage de périodes que celle créée au début de l’année.
 
    `(January 1 - January 30 versus January 1 - December 31.)`
 
@@ -68,7 +68,7 @@ Formules Excel complexes dans un classeur, notamment celles qui impliquent des d
 
 Si le nom de la feuille Excel comporte une apostrophe ou un guillemet simple, le Créateur de rapports ne renvoie aucune valeur. (Il s’agit d’une limitation de Microsoft Excel.)
 
-**Performances des requêtes individuelles**
+**Performances des requêtes**
 
 Les paramètres suivants peuvent avoir un impact sur la vitesse de traitement :
 
@@ -82,29 +82,29 @@ Les paramètres suivants peuvent avoir un impact sur la vitesse de traitement :
 | Nombre d’entrées | Petit jeu de données | Jeu de données volumineux |
 
 
-**Heure de planification**
+**Heures de planification**
 
-Échelonnez les planifications sur une période de 24 heures (voir le tableau ci-après). Les signets, les tableaux de bord et les classeurs du Créateur de rapports planifiés de façon rapprochée peuvent entraîner des retards.
+Échelonnez les planifications sur une période de 24 heures (voir le tableau ci-après). Les signets, les tableaux de bord et les classeurs du Report Builder planifiés de façon rapprochée peuvent entraîner des retards.
 
 Planifiez les requêtes volumineuses et plus complexes tôt le matin pour permettre les extractions et les actualisations manuelles pendant la journée de travail.
 
 | Heures de planification | 01:00 - 02:00 | 02:00 - 07:00 | 07:00 - 18:00 | 18:00 - minuit |
 |--- |--- |--- |--- |--- |
-| Utilisation du Créateur de rapports | Peu occupé | Très occupé | Utilisation du côté client<br>Nombre plus élevé d’utilisateurs effectuant une actualisation locale et demandant un envoi immédiat.<br>De plus, vérifiez si la file d’attente de l’API est effacée lorsque les classeurs planifiés expirent.  | Pas occupé |
+| Utilisation du Report Builder | Peu occupé | Très occupé | Utilisation du côté client<br>Nombre plus élevé d’utilisateurs effectuant une actualisation locale et demandant un envoi immédiat.<br>De plus, vérifiez si la file d’attente de l’API est effacée lorsque les classeurs planifiés expirent. | Pas occupé |
 
 **Délais d’expiration**
 
-Les rapports planifiés expirent au bout de quatre heures. Le système tente d’effectuer la planification trois autres fois, ce qui peut entraîner un échec. (En règle générale, plus le jeu de données est volumineux, plus l’exécution prend du temps.) Ces informations sont affichées dans les rapports [!DNL Analytics] et le Créateur de rapports :
+Les rapports planifiés expirent au bout de quatre heures. Le système tente d’effectuer la planification trois autres fois, ce qui peut entraîner un échec. (En règle générale, plus le jeu de données est volumineux, plus l’exécution prend du temps.) Ces informations sont affichées dans les rapports [!DNL Analytics] et le Report Builder :
 
-* [!DNL Analytics]: **[!UICONTROL Favoris]** &gt; Rapports **[!UICONTROL planifiés]**
+* [!DNL Analytics] : **[!UICONTROL Favoris]** > **[!UICONTROL Rapports planifiés]**
 
-* Créateur de rapports : cliquez sur **[!UICONTROL Gestion]** sous l’onglet [!UICONTROL Compléments] dans Excel.
+* Report Builder : cliquez sur **[!UICONTROL Gestion]** sous l’onglet [!UICONTROL Compléments] dans Excel.
 
-## Error message descriptions {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
+## Description des messages d’erreur {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
-Liste des messages d’erreur qui peuvent s’afficher lors de l’utilisation du Créateur de rapports.
+Liste des messages d’erreur qui peuvent s’afficher lors de l’utilisation du Report Builder.
 
-> [!NOTE] Il ne s'agit que d'une sélection de messages d'erreur et non d'une liste exhaustive. Pour plus d’informations sur la résolution des erreurs, contactez votre administrateur.
+> [!NOTE] Cette liste n’est pas exhaustive. Pour plus d’informations sur la résolution des erreurs, contactez votre administrateur.
 
 **Cette fonctionnalité peut uniquement être appliquée à un classeur ouvert.**
 
@@ -128,7 +128,7 @@ Si vous souhaitez supprimer les cellules, il est important de localiser celles q
 
 **Veuillez quitter la cellule Excel active avant d’utiliser cette fonctionnalité.**
 
-Cette erreur s’affiche si vous êtes en *mode d’édition* dans une cellule Excel et que vous cliquez sur l’une des icônes du Créateur de rapports. Le mode d’édition dans une cellule Excel signifie que la cellule est sélectionnée et que le curseur s’affiche à l’intérieur de celle-ci. Vous êtes également en mode d’édition dans une cellule Excel lorsque vous entrez directement des données dans la barre [!UICONTROL Formule] ou dans la zone [!UICONTROL Nom] en haut de la fenêtre Excel.
+Cette erreur s’affiche si vous êtes en *mode d’édition* dans une cellule Excel et que vous cliquez sur l’une des icônes du Report Builder. Le mode d’édition dans une cellule Excel signifie que la cellule est sélectionnée et que le curseur s’affiche à l’intérieur de celle-ci. Vous êtes également en mode d’édition dans une cellule Excel lorsque vous entrez directement des données dans la barre [!UICONTROL Formule] ou dans la zone [!UICONTROL Nom] en haut de la fenêtre Excel.
 
 **La plage sélectionnée chevauche une autre plage de la requête. Veuillez modifier votre sélection.**
 
