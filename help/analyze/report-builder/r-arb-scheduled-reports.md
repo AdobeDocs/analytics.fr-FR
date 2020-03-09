@@ -3,7 +3,7 @@ description: Description des champs du Gestionnaire des tâches planifiées.
 title: Gestionnaires des tâches planifiées
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -49,7 +49,7 @@ Le Gestionnaire des tâches planifiées vous permet d’afficher une liste des r
   </tr> 
   <tr> 
    <td colname="col1"> <p>Réactiver </p> </td> 
-   <td colname="col2"> <p>Si l’exécution d’un classeur planifié échoue, le Créateur de rapports effectue deux tentatives d’exécution supplémentaires espacées de 15 minutes. Après trois tentatives infructueuses, le Créateur de rapports désactive le planning et affiche le bouton <span class="wintitle">Réactiver</span>. Lorsque vous réactivez un classeur, la remise planifiée redémarre au niveau du point de désactivation. </p> <p>Par exemple, si vous avez réactivé aujourd’hui un classeur planifié qui a été désactivé il y a 14 jours, il est exécuté et distribué 14 fois, soit 1 fois par jour de désactivation. Si vous ne souhaitez pas que la remise soit effectuée pour les jours manquants, vous pouvez supprimer le classeur planifié, puis en créer un nouveau en utilisant les mêmes paramètres de planification. </p> <p> <p>Remarque : il est déconseillé de réactiver un classeur, sauf si vous connaissez le motif de sa désactivation. Une méthode de dépannage consiste à télécharger un classeur désactivé, puis à l’actualiser sur le client. Si aucune erreur n’est détectée, vous devriez être en mesure de le réactiver. </p> </p> </td> 
+   <td colname="col2"> <p>Si l’exécution d’un classeur planifié échoue, le Report Builder effectue deux tentatives d’exécution supplémentaires espacées de 15 minutes. Après trois tentatives infructueuses, le Report Builder désactive le planning et affiche le bouton <span class="wintitle">Réactiver</span>. Lorsque vous réactivez un classeur, la remise planifiée redémarre au niveau du point de désactivation. </p> <p>Par exemple, si vous avez réactivé aujourd’hui un classeur planifié qui a été désactivé il y a 14 jours, il est exécuté et distribué 14 fois, soit 1 fois par jour de désactivation. Si vous ne souhaitez pas que la remise soit effectuée pour les jours manquants, vous pouvez supprimer le classeur planifié, puis en créer un nouveau en utilisant les mêmes paramètres de planification. </p> <p> <p>Remarque : il est déconseillé de réactiver un classeur, sauf si vous connaissez le motif de sa désactivation. Une méthode de dépannage consiste à télécharger un classeur désactivé, puis à l’actualiser sur le client. Si aucune erreur n’est détectée, vous devriez être en mesure de le réactiver. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dernier envoi </p> </td> 
