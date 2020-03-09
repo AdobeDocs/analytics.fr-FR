@@ -3,7 +3,7 @@ description: Vous pouvez préciser une période en sélectionnant, dans une feui
 title: Dates à partir d’une cellule
 topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,6 +15,6 @@ Vous pouvez préciser une période en sélectionnant, dans une feuille de calcul
 
 **Pour configurer les dates à partir d’une cellule**
 
-1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 1]**, sélectionnez[!UICONTROL Dates à partir d’une cellule]**.
-1. Entrez les références de cellule dans les champs **De** et **[!UICONTROL A]ou cliquez sur le sélecteur et sélectionnez les cellules contenant les requêtes avec les dates de début et de fin.**
-Par exemple, créez une demande du Créateur de rapports en définissant la période sur « hier » et générez la date de la demande dans la même cellule que « aujourd’hui()-1 ».
+1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 1], sélectionnez **[!UICONTROL Dates à partir d’une cellule]**.
+1. Entrez les références de cellule dans les champs **[!UICONTROL De]** et **[!UICONTROL À]** ou cliquez sur le sélecteur et sélectionnez les cellules contenant les requêtes avec les dates de début et de fin. 
+Par exemple, créez une demande du Report Builder en définissant la période sur « hier » et générez la date de la demande dans la même cellule que « aujourd’hui()-1 ».
