@@ -1,17 +1,17 @@
 ---
-description: La détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans vos données. Le modèle analyse les mesures et détermine une   limite inférieure, une limite supérieure et une plage de valeurs attendues. En cas de pic ou de creux inattendu, le système vous en avertit par le biais du rapport.
+description: La détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans vos données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. En cas de pic ou de creux inattendu, le système vous en avertit par le biais du rapport.
 title: Détection des anomalies
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Détection des anomalies{#anomaly-detection}
+# Détection des anomalies {#anomaly-detection}
 
-La détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans vos données. Le modèle analyse les mesures et détermine une   limite inférieure, une limite supérieure et une plage de valeurs attendues. En cas de pic ou de creux inattendu, le système vous en avertit par le biais du rapport.
+La détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans vos données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. En cas de pic ou de creux inattendu, le système vous en avertit par le biais du rapport.
 
 Voici quelques exemples d’anomalies dont vous pouvez rechercher l’origine :
 
