@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Publication sur Power BI - Aperçu
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,46 +10,46 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Publication sur Power BI - Aperçu
 
-Microsoft Power BI est une suite de tableaux de bord d’analyse commerciale permettant d’analyser les données et de partager les informations. L’intégration d’Adobe Analytics à Power BI vous permet de visualiser les données d’analyse du Créateur de rapports sur Microsoft Power BI et de les partager facilement avec l’ensemble de votre entreprise.
+Microsoft Power BI est une suite de tableaux de bord d’analyse commerciale permettant d’analyser les données et de partager les informations. L’intégration d’Adobe Analytics à Power BI vous permet de visualiser les données d’analyse du Report Builder sur Microsoft Power BI et de les partager facilement avec l’ensemble de votre entreprise.
 
-Auparavant, en tant qu’analyste, vous deviez planifier la diffusion des classeurs du Créateur de rapports par courrier électronique (ou ftp). Vous pouvez désormais permettre à vos utilisateurs et intervenants métier d’accéder (depuis leur compte Power BI) à des données exactes et à jour dans un environnement Web qui est accessible quels que soient les plateformes et les périphériques utilisés.
+Auparavant, en tant qu’analyste, vous deviez planifier la diffusion des classeurs du Report Builder par courrier électronique (ou ftp). Vous pouvez désormais permettre à vos utilisateurs et intervenants métier d’accéder (depuis leur compte Power BI) à des données exactes et à jour dans un environnement Web qui est accessible quels que soient les plateformes et les périphériques utilisés.
 
-L’association de la fonctionnalité de génération de rapports du Créateur de rapports aux fonctionnalités de visualisation de Power BI rend les informations plus accessibles pour tous les membres de l’organisation. Grâce à Power BI, vous pouvez également intégrer Adobe Analytics à d’autres sources de données (par exemple, point de vente, gestion de la relation client) de façon à découvrir des statistiques sur les clients, des associations et des opportunités uniques.
+L’association de la fonctionnalité de génération de rapports du Report Builder aux fonctionnalités de visualisation de Power BI rend les informations plus accessibles pour tous les membres de l’organisation. Grâce à Power BI, vous pouvez également intégrer Adobe Analytics à d’autres sources de données (par exemple, point de vente, gestion de la relation client) de façon à découvrir des statistiques sur les clients, des associations et des opportunités uniques.
 
 ![](assets/aaplusbi.png)
 
-L’intégration avec le Créateur de rapports Adobe vous permet de
+L’intégration avec le Report Builder Adobe vous permet de
 
-* [Publier les classeurs du Créateur de rapports planifiés sur Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Publier les classeurs du Report Builder planifiés sur Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 * [Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Publier toutes les requêtes du Créateur de rapports sous forme de tableaux de jeu de données Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Publier toutes les requêtes du Report Builder sous forme de tableaux de jeu de données Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Configuration requise {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [installé](/help/analyze/report-builder/setup/t-install-arb.md)
-* Compte Microsoft actif qui vous permet de vous connecter à Power BI
+* La version 5.5 du Report Builder d’Adobe est [installée](/help/analyze/report-builder/setup/t-install-arb.md)
+* Compte Microsoft actif qui vous permet de vous connecter à Power BI
 
-## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
+## Publier le classeur sur Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
 Les classeurs planifiés sont des feuilles de calcul Excel renseignées avec des données d’Adobe Analytics et envoyées à intervalles réguliers planifiés.
 
-**Publier le classeur dans le créateur de rapports**
+**Publier un classeur dans le Report Builder**
 
-1. Dans le Créateur de rapports, générez et sauvegardez un classeur.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
+1. Dans le Report Builder, générez et sauvegardez un classeur.
+1. Dans la barre d’outils du Report Builder, cliquez sur **[!UICONTROL Planifier]** > **[!UICONTROL Nouveau]**.
 
 1. Dans l’Assistant de planification - Options de base, cochez la case située en regard de **[!UICONTROL Publier le classeur sur Microsoft Power BI]**.
 
    ![](assets/simple-schedule-wizard.png)
 
 1. Indiquez votre adresse électronique et envoyez immédiatement, ou définissez la fréquence de planification (par heure, quotidiennement, etc.).
-1. Cliquez sur **[!UICONTROL OK]pour publier.**
+1. Cliquez sur **[!UICONTROL OK]** pour publier.
 1. Vous devrez alors vous connecter à votre compte Microsoft. Indiquez vos informations d’identification.
-1. Le classeur du Créateur de rapports est planifié et publié sur Power BI.
+1. Le classeur du Report Builder est planifié et publié sur Power BI.
 
-   À chaque instance planifiée, et après que le processus de planification du Créateur de rapports a actualisé le classeur avec les données d’analyse mises à jour, le classeur sera publié sur Microsoft Power BI.
+   À chaque instance planifiée, et après que le processus de planification du Report Builder a actualisé le classeur avec les données d’analyse mises à jour, le classeur sera publié sur Microsoft Power BI.
 
-**Affichage des données du classeur du créateur de rapports dans Power BI**
+**Afficher les données du classeur du Report Builder dans Power BI**
 
 1. Dans Power BI, double-cliquez sur le classeur en dessous du menu [!UICONTROL Classeurs].
 
@@ -59,31 +59,31 @@ Les classeurs planifiés sont des feuilles de calcul Excel renseignées avec des
 
 1. Vous pouvez ensuite épingler une zone de ce classeur de façon à l’inclure dans l’un de vos tableaux de bord Power BI.
 
-## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
+## Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
-> [!NOTE] Si le classeur contient une macro, le paramètre "Publier toutes les tables formatées dans le classeur en tant que tables de jeux de données Power BI" est désactivé.
+> [!NOTE] Si le classeur contient une macro, l’option « Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI » sera désactivée.
 
 Au lieu d’importer l’ensemble du classeur, vous pouvez n’importer que le contenu de l’ensemble des tableaux formatés de ce classeur.
 
-**Cas d’utilisation** : Vous avez un classeur Excel qui extrait des données à partir de plusieurs requêtes du Créateur de rapports et crée un tableau récapitulatif avec de nombreuses formules. Vous pouvez n’importer que le tableau récapitulatif dans Power BI et créer une visualisation pour ce tableau.
+**Cas d’utilisation** : Vous avez un classeur Excel qui extrait des données à partir de plusieurs requêtes du Report Builder et crée un tableau récapitulatif avec de nombreuses formules. Vous pouvez n’importer que le tableau récapitulatif dans Power BI et créer une visualisation pour ce tableau.
 
-**Publication d’un tableau formaté dans le créateur de rapports**
+**Publier un tableau formaté dans le Report Builder**
 
-1. Dans le Créateur de rapports, générez un tableau de données comprenant une ligne d’en-tête, suivie d’une ligne de données.
+1. Dans le Report Builder, générez un tableau de données comprenant une ligne d’en-tête, suivie d’une ligne de données.
 1. Sélectionnez le tableau, puis l’option **[!UICONTROL Formater en tant que tableau]** dans le menu [!UICONTROL Accueil]. Un nom de tableau par défaut est attribué (Tableau 1, Tableau 2, etc.), mais vous pouvez le modifier dans le menu [!UICONTROL Conception].
 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
+1. Dans la barre d’outils du Report Builder, cliquez sur **[!UICONTROL Planifier]** > **[!UICONTROL Nouveau]**.
 
 1. Dans l’Assistant de planification - Options de base, cliquez sur **[!UICONTROL Options de planification avancées]**.
-1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]** tab, check the box next to **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
+1. Dans l’[!UICONTROL Assistant de planification - Options avancées], dans l’onglet **[!UICONTROL Options de publication]**, cochez la case située en regard de **[!UICONTROL Publier tous les tableaux formatés en tant que tableaux de jeu de données Power BI]**.
 
    ![](assets/advanced-schedule-wizard2.png)
 
 1. (Facultatif) Vous pouvez personnaliser le nom de la ressource publiée dans Power BI. Cela peut être utile si vous utilisez le contrôle de version dans le nom du classeur (par exemple, monclasseur_v1.1.xlsx) et que vous ne souhaitez pas que le numéro de version figure dans le nom de la ressource Power BI publiée. Un autre avantage est que la ressource publiée ne changera pas si le numéro de version change. (Affichez les [spécifications](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md) ici.)
 
-**Affichage des données tabulaires dans Power BI**
+**Visualiser les données de tableau dans Power BI**
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** &gt; **[!UICONTROL Datasets]** menu.
+1. Dans Power BI, accédez au menu **[!UICONTROL Espaces de travail]** > **[!UICONTROL Jeux de données]**.
 
    ![](assets/datasets-menu.png)
 
@@ -101,27 +101,27 @@ Au lieu d’importer l’ensemble du classeur, vous pouvez n’importer que le c
 
 1. À partir de là, vous pouvez créer des visualisations à partir de ce tableau de jeu de données.
 
-## Publish all Report Builder requests as Power BI Dataset tables {#section_0C26057C7DBB4068A643FDD688F6E463}
+## Publier toutes les requêtes du Report Builder sous forme de tableaux de jeu de données Power BI {#section_0C26057C7DBB4068A643FDD688F6E463}
 
 Vous pouvez transformer toutes vos requêtes en tableaux de jeu de données et générer des visualisations à partir de ces tableaux.
 
 >[!IMPORTANT]
 >
->Si le classeur contient plus de 100 requêtes, seules les 100 premières sont publiées dans Power BI. Par ailleurs, pour chaque requête publiée sur Power BI, seules les 10 000 premières lignes de données seront publiées. Par conséquent, bien que ces requêtes soient distribuées correctement à travers la planification, la portée de la publication sur Power BI est limitée.
+>Si le classeur contient plus de 100 requêtes, seules les 100 premières requêtes seront publiées sur Power BI. Par ailleurs, pour chaque requête publiée sur Power BI, seules les 10 000 premières lignes de données seront publiées. Par conséquent, bien que ces requêtes soient distribuées correctement à travers la planification, la portée de la publication sur Power BI est limitée.
 
-1. Dans le Créateur de rapports, ouvrez ou créez un classeur avec des requêtes du Créateur de rapports.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
+1. Dans le Report Builder, ouvrez ou créez un classeur avec des requêtes du Report Builder.
+1. Dans la barre d’outils du Report Builder, cliquez sur **[!UICONTROL Planifier]** > **[!UICONTROL Nouveau]**.
 
 1. Dans l’Assistant de planification - Options de base, cliquez sur **[!UICONTROL Options de planification avancées]**.
-1. Dans l’[!UICONTROL Assistant de planification - Options avancées], dans l’onglet **[!UICONTROL Options de publication]**, cochez la case située en regard de **[!UICONTROL Publier toutes les requêtes du Créateur de rapports en tant que tableaux de jeu de données Power BI].**![](assets/advanced-schedule-wizard2.png)
+1. Dans l’[!UICONTROL Assistant de planification - Options avancées], dans l’onglet **[!UICONTROL Options de publication]**, cochez la case située en regard de **[!UICONTROL Publier toutes les requêtes du Report Builder en tant que tableaux de jeu de données Power BI]** ![](assets/advanced-schedule-wizard2.png)
 
 1. Cliquez sur **[!UICONTROL OK]**.
 
-**Afficher les données de requête dans Power BI**
+**Visualiser les données de requête dans Power BI**
 
-Chaque requête du Créateur de rapports planifiée sera publiée en tant que tableau dans le jeu de données. Chaque tableau de requête est nommé en fonction de la dimension principale de la requête et comprend une colonne [!UICONTROL Suites de rapports] et une colonne [!UICONTROL Segments].
+Chaque requête du Report Builder planifiée sera publiée en tant que tableau dans le jeu de données. Chaque tableau de requête est nommé en fonction de la dimension principale de la requête et comprend une colonne [!UICONTROL Suites de rapports] et une colonne [!UICONTROL Segments].
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** &gt; **[!UICONTROL Datasets]** menu.
+1. Dans Power BI, accédez au menu **[!UICONTROL Espaces de travail]** > **[!UICONTROL Jeux de données]**.
 
 1. Sélectionnez la requête que vous avez publiée et cliquez sur l’icône [!UICONTROL Create report] située juste à côté.
 
@@ -131,9 +131,9 @@ Chaque requête du Créateur de rapports planifiée sera publiée en tant que ta
 
    >[!NOTE]
    >
-   >Quelle que soit la manière dont vous avez configuré la disposition de votre requête du créateur de rapports dans la feuille de calcul (disposition croisée dynamique, disposition personnalisée, certaines colonnes invisibles), le créateur de rapports publiera toujours votre requête au même format de ligne d’en-tête bidimensionnel unique : Date, Dimensions, Mesures, Suites de rapports, Segments.
+   >Quelle que soit la façon dont vous avez configuré la présentation de votre requête du Report Builder dans le classeur (disposition croisée dynamique, disposition personnalisée, certaines colonnes invisibles), le Report Builder publie toujours votre requête selon le même format bidimensionnel à une seule ligne d’en-tête : Date, Dimensions, Mesures, Suites de rapports, Segments.
 
-1. Notez également l’existence d’un tableau supplémentaire intitulé **[!UICONTROL Légende]**. Si vous sortez une requête du contexte du Créateur de rapports, il peut être difficile de se rappeler ce à quoi correspond chaque requête. Le tableau Légende a pour fonction, par exemple, d’afficher le nom de chaque requête sous Identifiant du tableau. Vous pouvez également ajouter les autres colonnes de Légende pour obtenir un aperçu global de la requête.
+1. Notez également l’existence d’un tableau supplémentaire intitulé **[!UICONTROL Légende]**. Si vous sortez une requête du contexte du Report Builder, il peut être difficile de se rappeler ce à quoi correspond chaque requête. Le tableau Légende a pour fonction, par exemple, d’afficher le nom de chaque requête sous Identifiant du tableau. Vous pouvez également ajouter les autres colonnes de Légende pour obtenir un aperçu global de la requête.
 
    ![](assets/legend-table.png)
 
