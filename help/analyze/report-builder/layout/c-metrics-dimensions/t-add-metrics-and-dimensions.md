@@ -3,7 +3,7 @@ description: Procédure d’ajout de mesures et de dimensions à une requête.
 title: Ajout de mesures et de dimensions
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -52,17 +52,17 @@ Procédure d’ajout de mesures et de dimensions à une requête.
 
 Dans l’onglet [!UICONTROL Dimensions], le système affiche les dimensions qui ventilent tout rapport de base sélectionné à l’étape 1, ou qui en sont une classification, et sur la configuration de la suite de rapports. Lorsque vous déposez une dimension sur les grilles de disposition, elle est supprimée de l’arborescence et elle recalcule la liste des dimensions restantes disponibles.
 
-La dimension [!UICONTROL Date] est ajoutée automatiquement. Les dimensions de date disponibles varient en fonction de la granularité sélectionnée dans le formulaire [!UICONTROL Assistant Requête : Étape 1]. (Les valeurs valides sont :
+La dimension [!UICONTROL Date] est ajoutée automatiquement. Les dimensions de date disponibles varient en fonction de la granularité sélectionnée dans le formulaire [!UICONTROL Assistant Requête : Étape 1]. (Les valeurs valides sont :
 
     * Heure
     * Jour
     * Semaine
     * Mois
     * Année
-    * Période (lorsqu’aucune granularité n’est spécifiée)
+    * Plage de dates (lorsqu’aucune granularité n’est spécifiée)
 
-1. Modifiez les mesures et les dimensions en configurant les options [de](/help/analyze/report-builder/layout/t-format-display-headers.md) format et les filtres.
-1. Cliquez sur **[!UICONTROL Terminer]**.
-Dans l’exemple suivant, des dimensions sont en relation avec la mesure [!UICONTROL Page]. Dans le cas présent, la dimension [!UICONTROL Domaine référent] crée un rapport de ventilation entre celui-ci et [!UICONTROL Page]. L’onglet [!UICONTROL Dimension] est mis à jour avec les seules dimensions que vous pouvez ajouter à un rapport de ventilation.
+1. Modifiez les mesures et les dimensions en configurant les [options de format](/help/analyze/report-builder/layout/t-format-display-headers.md) et les filtres.
+1. Cliquez sur **[!UICONTROL Terminer]**. 
+Dans l’exemple suivant, des dimensions sont en relation avec la mesure [!UICONTROL Page]. Dans le cas présent, la dimension [!UICONTROL Domaine référent] crée un rapport de ventilation entre [!UICONTROL Page] et [!UICONTROL Domaine référent]. L’onglet [!UICONTROL Dimension] est mis à jour avec les seules dimensions que vous pouvez ajouter à un rapport de ventilation.
 
 ![](assets/page_pageview_02.png)
