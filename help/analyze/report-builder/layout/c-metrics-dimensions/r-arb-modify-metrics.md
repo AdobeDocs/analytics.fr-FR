@@ -1,9 +1,9 @@
 ---
-description: Description des champs destinés à la configuration de mesures dans le Créateur de rapports.
+description: Description des champs destinés à la configuration de mesures dans le Report Builder.
 title: Modification des mesures - Définition des champs
 topic: Report builder
 uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Modification des mesures - Définition des champs
 
-Description des champs destinés à la configuration de mesures dans le Créateur de rapports.
+Description des champs destinés à la configuration de mesures dans le Report Builder.
 
 | Champs | Définitions |
 |--- |--- |
