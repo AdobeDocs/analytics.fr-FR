@@ -2,14 +2,16 @@
 title: Attribution algorithmique
 description: Détails sur le modèle d’attribution algorithmique dans Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 143cbed5f2159b7faab387e10896af836d0780f7
+source-git-commit: 30d44e990f9ed33d15cc1845e6bd11a1fef14eda
 
 ---
 
 
 # Attribution algorithmique
 
-Le modèle [d’](attribution.md) attribution algorithmique d’Analysis Workspace diffère des autres modèles en ce sens qu’il utilise des techniques statistiques pour attribuer le crédit entre les valeurs de dimension dans votre rapport ou tableau à structure libre. Comme tous les autres modèles d’attribution d’Analysis Workspace, il peut être utilisé sur n’importe quelle dimension ou mesure et prend en charge la segmentation et les ventilations illimitées et distribue 100 % des conversions aux dimensions du tableau (également appelées attribution fractionnelle).
+> [!NOTE] L’attribution algorithmique n’est actuellement disponible que dans [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). Cette fonctionnalité fera partie d’une version générale publiée en juin 2020.
+
+Le modèle [d’](attribution.md) attribution algorithmique dans  Workspace  diffère des autres modèles en ce sens qu’il utilise des techniques statistiques pour attribuer le crédit entre les valeurs de dimension dans votre rapport ou tableau à structure libre. Comme tous les autres modèles d’attribution de   Workspace, il peut être utilisé sur n’importe quelle dimension ou mesure et prend en charge la segmentation et les ventilations illimitées et distribue 100 % des conversions aux dimensions du tableau (également appelées attribution fractionnelle).
 
 L&#39;algorithme utilisé pour l&#39;attribution est basé sur le Dividend Harsanyi de la théorie du jeu coopératif. Le dividende de Harsanyi est une généralisation de la solution de valeur de Shapley (du nom de Lloyd Shapley, un économiste lauréat du prix Nobel) pour répartir le crédit entre les joueurs dans un jeu avec des contributions inégales au résultat.
 
