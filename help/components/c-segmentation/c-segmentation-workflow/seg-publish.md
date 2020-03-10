@@ -4,7 +4,7 @@ title: Publication de segments dans Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
 
 ---
 
@@ -104,7 +104,7 @@ navigateur (`50814298273775797762943354787774730612` dans l’exemple ci-dessous
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
 
-## Utilisation d’Audience Manager [!UICONTROL Visitor Profile Viewer]
+## Utiliser  Gestionnaire  de [!UICONTROL Visitor Profile Viewer]
 
 The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Consultez [Visionneuse du profil du visiteur](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) pour plus d’informations.
 
@@ -121,6 +121,7 @@ Dans AAM, la liste des visiteurs avec des ECID pour un segment donné est évalu
 ![](assets/aam-traits.png)
 
 * Un segment à caractère unique est créé. Il utilise la source de données associée à la suite de rapports dans laquelle vous avez publié le segment.
+* L’expiration des caractéristiques est désormais définie sur 16 jours (il s’agissait auparavant de 2 jours).
 
 ## Afficher le segment dans [!DNL Adobe Target]
 
