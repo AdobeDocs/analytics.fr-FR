@@ -3,7 +3,7 @@ description: Cette section présente les termes d’analyse web couramment utili
 title: Termes courants
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Termes courants
 
-Cette section présente les termes Adobe Analytics couramment utilisés.
+Cette section présente les termes utilisés couramment dans Adobe Analytics.
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -27,7 +27,7 @@ Cette section présente les termes Adobe Analytics couramment utilisés.
   </tr> 
   <tr> 
    <td> <p>Mesure </p> </td> 
-   <td> <p>Les mesures sont des informations quantitatives sur l’activité de votre site web (vues, clics publicitaires, actualisations, durée moyenne de la visite, unités, etc.). </p> <p>For more information, see <a href="/help/analyze/reports-analytics/metrics.md">Metrics</a>. </p> </td> 
+   <td> <p>Les mesures sont des informations quantitatives sur l’activité de votre site web (vues, clics publicitaires, actualisations, durée moyenne de la visite, unités, etc.). </p> <p>Pour en savoir plus, consultez la section <a href="/help/analyze/reports-analytics/metrics.md">Mesures</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Dimension </p> </td> 
@@ -35,7 +35,7 @@ Cette section présente les termes Adobe Analytics couramment utilisés.
   </tr> 
   <tr> 
    <td> <p> Rapport </p> </td> 
-   <td> <p>Fondement de la fonctionnalité de rapports marketing. Vous pouvez exécuter des rapports en ligne sur toutes les données collectées. </p> <p>Pour plus d’informations, reportez-vous à la section    <a href="/help/analyze/reports-analytics/reports.md"> Types de rapports</a>. </p> </td> 
+   <td> <p>Fondement de la fonctionnalité de rapports marketing. Vous pouvez exécuter des rapports en ligne sur toutes les données collectées. </p> <p>Pour plus d’informations, reportez-vous à la section     <a href="/help/analyze/reports-analytics/reports.md"> Types de rapports</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Page vue </p> </td> 
@@ -43,7 +43,7 @@ Cette section présente les termes Adobe Analytics couramment utilisés.
   </tr> 
   <tr> 
    <td> <p>Visite </p> </td> 
-   <td> <p>Séquence de pages vues lors d’une session unique. La visite se termine uniquement après 30 minutes d’inactivité ou 12 heures d’activité continue (cette mesure temporelle est la norme industrielle pour les analyses web). Les visites sont surveillées par des cookies. Une visite commence quand un internaute accède à une page. Une visite est parfois désignée par le terme <span class="term"> session</span>, but it is not a browser session. Le fait d’accéder à un autre site, de fermer le navigateur, voire même de redémarrer l’ordinateur ne met pas un terme à une visite. </p> <p> Si le délai d’inactivité survient alors qu’un visiteur est en train de lire une page, la visite se termine et est traitée. Une nouvelle visite commence lorsque le visiteur clique pour accéder à une autre page. </p> <p>Si la date change durant une visite (par exemple s’il consulte un site à minuit), la visite est attribuée au jour où la visite a commencé. </p> </td> 
+   <td> <p>Séquence de pages vues lors d’une session unique. La visite se termine uniquement après 30 minutes d’inactivité ou 12 heures d’activité continue (cette mesure temporelle est la norme industrielle pour les analyses web). Les visites sont surveillées par des cookies. Une visite commence quand un internaute accède à une page. Une visite est parfois désignée par le terme  <span class="term"> session</span>, mais il ne s’agit pas d’une session de navigateur. Le fait d’accéder à un autre site, de fermer le navigateur, voire même de redémarrer l’ordinateur ne met pas un terme à une visite. </p> <p> Si le délai d’inactivité survient alors qu’un visiteur est en train de lire une page, la visite se termine et est traitée. Une nouvelle visite commence lorsque le visiteur clique pour accéder à une autre page. </p> <p>Si la date change durant une visite (par exemple s’il consulte un site à minuit), la visite est attribuée au jour où la visite a commencé. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Visiteur unique </p> </td> 
@@ -63,7 +63,7 @@ Cette section présente les termes Adobe Analytics couramment utilisés.
   </tr> 
   <tr> 
    <td> <p>Canal </p> </td> 
-   <td> <p> Sections ou catégories définies pour votre site. Les sites web qui comptent deux catégories principales, telles que <span class="term"> météo</span> et <span class="term"> nouvelles</span>, ont deux canaux. Vous pouvez regrouper les statistiques de toutes les pages consultées de n’importe quel canal de votre site. </p> </td> 
+   <td> <p> Sections ou catégories définies pour votre site. Les sites web qui comptent deux catégories principales, telles que  <span class="term"> météo</span> et <span class="term"> actualités</span>, comportent deux canaux. Vous pouvez regrouper les statistiques de toutes les pages consultées de n’importe quel canal de votre site. </p> </td> 
   </tr> 
  </tbody> 
 </table>
