@@ -4,7 +4,7 @@ subtopic: Get started
 title: Collecte de données
 topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,4 +26,4 @@ A un haut niveau, le processus de collecte de données s’effectue comme suit 
 
 La collecte de données est très rapide et n’affecte pas de manière notable la durée de chargement d’une page. Les données collectées comprennent les pages vues qui résultent du fait d’avoir cliqué sur les boutons **Actualiser** ou **Précédent** du navigateur. Le code JavaScript s’exécute même si la page est récupérée à partir de la mémoire cache.
 
-See [Data Collection in Analytics.](/help/import/home.md)
+Reportez-vous à la section [Collecte de données dans Analytics](/help/import/home.md).
