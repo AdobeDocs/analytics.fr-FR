@@ -3,7 +3,7 @@ description: Data Warehouse fait référence à la copie de données brutes non
 title: Requêtes Data Warehouse
 topic: Reports and analytics
 uuid: 586d3c8c-244f-4d47-8f93-230f166afaf9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,4 +15,4 @@ Data Warehouse fait référence à la copie de données brutes non traitées po
 
 <!-- I edited this link so it doesn't point to marketing.adobe.com. Please check -Bob -->
 
-Voir Entrepôt [de données](/help/export/data-warehouse/data-warehouse.md) pour obtenir de l’aide.
+Si vous avez besoin d’aide, vous pouvez vous reporter à la section [Data Warehouse](/help/export/data-warehouse/data-warehouse.md).
