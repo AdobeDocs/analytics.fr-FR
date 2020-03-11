@@ -1,9 +1,9 @@
 ---
-description: Cette section décrit la procédure à suivre pour exécuter les différents types de rapports.
+description: Procédure d’exécution de différents types de rapports
 title: Exécution de différents types de rapports
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 # Exécution de différents types de rapports
 
-Cette section décrit la procédure à suivre pour exécuter les différents types de rapports.
+Procédure d’exécution de différents types de rapports
 
 
 ## Exécution d’un rapport de classement {#task_C570BA4A213F4F2EB7B30E012934BE7D}
@@ -24,8 +24,8 @@ t_reports_ranked.xml
 
  -->
 
-1. Générez un rapport, tel qu’un [!UICONTROL Rapport Pages] (**[!UICONTROL Rapports]**>**[!UICONTROL  Contenu du site]** > **[!UICONTROL Pages]**).
-1. Dans l’en-tête du rapport, cliquez sur **[!UICONTROL Classement.]**
+1. Générez un rapport, tel qu’un [!UICONTROL Rapport Pages] (**[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]**).
+1. Dans l’en-tête du rapport, cliquez sur **[!UICONTROL Classement]**.
 1. Pour classer le rapport, cliquez sur un en-tête de colonne dans le tableau.
 
    Le tableau d’un rapport de classement peut comprendre jusqu’à 200 éléments (par exemple, produits, catégories, pages web, etc.) et dix mesures (recettes, commandes, vues, etc.).
@@ -44,8 +44,8 @@ Pour la plupart des rapports de conversion et de trafic, une vue Tendance est di
 
 **Pour exécuter un rapport de tendances**
 
-1. Exécutez un rapport de conversion ou de trafic, tel que **[!UICONTROL Rapports]**>**[!UICONTROL  Contenu du site]** > **[!UICONTROL Pages]**.
-1. Sous **[!UICONTROL Type de rapport]**, cliquez sur**[!UICONTROL  Tendance.]**
+1. Exécutez un rapport de conversion ou de trafic, tel que **[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]**.
+1. Sous **[!UICONTROL Type de rapport]**, cliquez sur **[!UICONTROL Tendance]**.
 
 ## Exécution d’un rapport Entonnoir de conversion {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,9 +57,9 @@ t_reports_conversion_funnel.xml
 
  -->
 
-Pour exécuter ce rapport, sélectionnez un rapport, par exemple un rapport Pages (**[!UICONTROL Rapports]**>**[!UICONTROL  Campagnes]** > **[!UICONTROL Code de suivi]**>**[!UICONTROL  Entonnoir de conversion de campagne]**).
+Pour exécuter ce rapport, sélectionnez un rapport, par exemple un rapport Pages (**[!UICONTROL Rapports]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Code de suivi]** > **[!UICONTROL Entonnoir de conversion de campagne]**).
 
-Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html).
+Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://marketing.adobe.com/resources/help/fr_FR/reference/reports_conversion.html).
 
 ## Exécution d’un rapport sur les abandons {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -71,9 +71,9 @@ t_reports_fallout.xml
 
  -->
 
-Découvrez le nouveau panneau [Analyse des abandons](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) dans Analysis Workspace.
+Découvrez le nouveau panneau [Analyse des abandons](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/fallout_flow.html) dans Analysis Workspace.
 
-1. Dans [!UICONTROL Adobe Analytics], cliquez sur **[!UICONTROL Rapports]**>**[!UICONTROL  Chemins]** > **[!UICONTROL Pages]**>**[!UICONTROL  Abandon]**.
+1. Dans [!UICONTROL Adobe Analytics], cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Abandon]**.
 1. Sur la page du [!UICONTROL rapport sur les abandons], cliquez sur le bouton de **[!UICONTROL lancement du Report Builder d’abandons]**.
 
    ![Résultat de l’étape](assets/fallout_add_items.png)
@@ -85,18 +85,18 @@ Découvrez le nouveau panneau [Analyse des abandons](https://marketing.adobe.com
 
 >[!MORELIKETHIS]
 >
->* [Description du rapport sur les abandons](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
+>* [Description du rapport sur les abandons](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-fallout.translate.html)
 
 
 ## Exécution d’un rapport de flux de page {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Les rapports de flux de page indiquent l’ordre dans lequel les visiteurs accèdent aux pages et parcourent votre site.
 
-Découvrez la nouvelle [visualisation Flux](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) dans Analysis Workspace.
+Découvrez la nouvelle [visualisation Flux](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/flow.html) dans Analysis Workspace.
 
-Exécutez un rapport [Chemins](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html).
+Exécutez un rapport [Chemins](https://marketing.adobe.com/resources/help/fr_FR/reference/reports_paths.html).
 
-Par exemple, cliquez sur **[!UICONTROL Rapports]**>**[!UICONTROL  Chemins]** > **[!UICONTROL Pages]**>**[!UICONTROL  Flux page suivante]**.
+Par exemple, cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Flux page suivante]**.
 
 ![](assets/page_flow.png)
 
@@ -104,7 +104,7 @@ Ce rapport se lit de gauche à droite, en commençant par la page sélectionnée
 
 Le pourcentage d’affichage de chaque page consécutive est indiqué en regard du nom de la page. La largeur de la ligne reliée à chaque page suivante représente ce pourcentage relatif.
 
-**[!UICONTROL Vues chemins]** : indique le nombre de fois où une page a été vue, selon un chemin spécifique indiqué.
+**[!UICONTROL Vues chemins]** : indique le nombre de fois où une page a été vue, selon un chemin spécifique indiqué. 
 
 La politique de confidentialité pourrait, par exemple, générer un total de 10 000 pages vues, mais seulement 500 de ces pages ont été affichées immédiatement après la page d’accueil. On emploie alors le terme « vue chemin ».
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Rapports]**>**[!UICONTROL  Produits]** > [Entonnoir de conversion de produits](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
+1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Produits]** > [Entonnoir de conversion de produits](https://marketing.adobe.com/resources/help/fr_FR/reference/reports_conversion_funnel.html).
 
 ## Exécution d’un rapport Canal marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -132,9 +132,9 @@ t_reports_marketing_channel.xml
 
  -->
 
-Consultez l’aide sur le [canal marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) pour en savoir plus.
+Consultez l’aide sur le [canal marketing](https://marketing.adobe.com/resources/help/fr_FR/mchannel/index.html) pour en savoir plus.
 
-## Exécution d’un rapport Détection des anomalies{#task_4808C96327354D789C075823F5C3A049}.
+## Exécution d’un rapport Détection des anomalies {#task_4808C96327354D789C075823F5C3A049}
 
 Décrit comment interpréter les graphiques de mesures synthétiques et individuels de la détection des anomalies.
 
@@ -144,13 +144,13 @@ t_anomaly_view.xml
 
  -->
 
-Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse des contributions](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) d’Analysis Workspace.
+Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse des contributions](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/anomaly_detection.html) d’Analysis Workspace.
 
-**[!UICONTROL Rapports]** >**[!UICONTROL  Mesures du site]** > **[!UICONTROL Détection des anomalies]**.
+**[!UICONTROL Rapports]** > **[!UICONTROL Mesures du site]** > **[!UICONTROL Détection des anomalies]** .
 
-> [!NOTE] Vous pouvez également exécuter la détection des anomalies dans les projets Analysis Workspace. [Plus...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] Vous pouvez également exécuter la détection des anomalies directement depuis les projets Analysis Workspace. [Plus...](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/anomaly_detection.html)
 
-Pour plus d’informations sur la configuration de la détection des anomalies, voir le [Guide de référence](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
+Pour plus d’informations sur la configuration de la détection des anomalies, voir le [Guide de référence](https://marketing.adobe.com/resources/help/fr_FR/sc/user/index.html#Setting_up_Anomaly_Detection).
 
 La détection des anomalies présente deux types de graphiques : un graphique synthétique et des graphiques de mesures individuels. Les graphiques de mesures individuels ne s’affichent que si au moins une anomalie a été détectée pour la mesure.
 
@@ -173,11 +173,11 @@ La détection des anomalies présente deux types de graphiques : un graphique s
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">Les valeurs du pourcentage d’écart (à gauche du graphique) sont calculées comme suit : 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">Si les limites supérieures et la valeur attendue sont les mêmes, le % d’écart est de 100 % </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">Sinon, le % d’écart est ((valeur réelle - valeur limite supérieure) / (valeur limite supérieure - valeur attendue)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si les limites inférieures et la valeur attendue sont identiques, le % d’écart est de -100 %. </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Sinon, le % d’écart est ((valeur limite inférieure - valeur réelle) / (valeur attendue - valeur limite inférieure)) * -100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">Sinon, le % d’écart est égal à : ((valeur réelle - valeur limite supérieure) / (valeur limite supérieure - valeur attendue)) * 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si les limites inférieures et la valeur attendue sont identiques, le % d’écart est de -100 % </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Sinon, le % d’écart est ((valeur réelle inférieure - valeur réelle) / (valeur attendue - valeur limite inférieure)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Cliquez sur <span class="uicontrol">Afficher Segments</span> pour afficher le rail des segments à partir duquel vous pouvez appliquer des segments à un rapport de détection des anomalies. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > Plus d’informations</a> sur la segmentation. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Cliquez sur <span class="uicontrol">Afficher Segments</span> pour afficher le rail des segments à partir duquel vous pouvez appliquer des segments à un rapport de détection des anomalies. <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/"  > Plus d’informations</a> sur la segmentation. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Cliquez sur <span class="uicontrol">Modifier des mesures</span> pour sélectionner et désélectionner des mesures pour lesquelles vous souhaitez détecter des anomalies. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -211,11 +211,11 @@ t_anomaly_config.xml
 
 Configurez la détection des anomalies indépendamment pour chaque suite de rapports.
 
-1. Accédez à **[!UICONTROL Analytics > Rapports > Mesures du site> Détection des anomalies]**.
+1. Accédez à **[!UICONTROL Analytics > Rapports > Mesures du site > Détection des anomalies]** .
 1. Sélectionnez la suite de rapports pour laquelle vous souhaitez suivre quotidiennement la détection des anomalies. Pour afficher une liste des suites de rapports, cliquez sur le menu déroulant du sélecteur de suite de rapports.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:![](assets/metrics_icon.png).
+1. Pour sélectionner les mesures et/ou définir des mesures filtrées, cliquez sur **[!UICONTROL Modifier des mesures]** dans la partie supérieure droite de l’écran :  ![](assets/metrics_icon.png).
 
-   Vous pouvez sélectionner des mesures dans la liste (y compris des mesures calculées) de toutes les mesures ou dans une liste de mesures suivies. Vous pouvez également filtrer des termes spécifiques afin de préciser les résultats. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the**[!UICONTROL  View Period]** for anomaly detection. (Considérez la période de formation en tant que « période d’apprentissage » pour l’algorithme). 
+   Vous pouvez sélectionner des mesures dans la liste (y compris des mesures calculées) de toutes les mesures ou dans une liste de mesures suivies. Vous pouvez également filtrer des termes spécifiques afin de préciser les résultats. 1. Une fois le rapport généré, définissez la **[!UICONTROL période de formation]** et la **[!UICONTROL période d’affichage]** pour la détection des anomalies. (Considérez la période de formation en tant que « période d’apprentissage » pour l’algorithme.)
 
    ![](assets/view_training_periods.png)
 
@@ -226,13 +226,13 @@ Configurez la détection des anomalies indépendamment pour chaque suite de rapp
 * l’extension de la période de formation place vos données dans un contexte plus étendu et peut réduire la taille d’une anomalie.
 
    Le rapport des mesures de détection des anomalies s’actualise chaque fois que vous modifiez un paramètre.
-1. (Facultatif) Appliquez les segments au rapport en cliquant sur **[!UICONTROL Afficher les segments]**et en sélectionnant un ou plusieurs segments existants ou en créant un nouveau segment et en l’appliquant.
+1. (Facultatif) Appliquez les segments au rapport en cliquant sur **[!UICONTROL Afficher les segments]** et en sélectionnant un ou plusieurs segments existants ou en créant un nouveau segment et en l’appliquant.
 
    ![](assets/ad_top_menu.png)
 
-   Voir le [guide de segmentation d’Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) pour en savoir plus sur la création et la gestion des segments. 1. (Facultatif) Définissez le rapport comme favori ou signet.
+   Voir le [guide de segmentation d’Analytics](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/) pour en savoir plus sur la création et la gestion des segments. 1. (Facultatif) Définissez le rapport comme favori ou signet.
 1. (Facultatif) Modifiez la date de fin de la période d’affichage. La valeur par défaut est « hier ». 
-1. Vous pouvez à présent commencer à interpréter le rapport [Affichage des graphiques](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de détection des anomalies.
+1. Vous pouvez à présent commencer à interpréter le rapport. [Affichage des graphiques de détection des anomalies](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
 ## Exécution d’un rapport en temps réel {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -244,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Rapports > Mesures du site > Temps réel]**.
+**[!UICONTROL Rapports > Mesures du site > Temps réel]** .
 
 La création de rapports en temps réel offre deux rapports principaux : un rapport d’aperçu et un rapport détaillé. Ils sont chacun composés de plusieurs mini-rapports.
 
-Pour plus d’informations sur la configuration des rapports en temps réel, voir le [Guide de référence d’Analytics](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration).
+Pour plus d’informations sur la configuration des rapports en temps réel, voir le [Guide de référence d’Analytics](https://marketing.adobe.com/resources/help/fr_FR/reference/index.html#RealTime_Reports_Configuration).
 
-1. Take a look at the **[!UICONTROL Overview]**report and its components:![](assets/rtr_overview_report.png)
+1. Étudiez le rapport **[!UICONTROL Aperçu]** et ses composants :  ![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -259,7 +259,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Sélectionner une suite de rapports</strong></td> 
-   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >Configuration de rapports en temps réel </a>. </td> 
+   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/t_realtime_admin.html"  >Configuration de rapports en temps réel </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Basculer entre les rapports</strong></td> 
@@ -267,7 +267,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Sélectionner une période</strong></td> 
-   <td class="chdesc stentry"> Permet de choisir la période globale à utiliser par tous les mini-rapports du rapport. </td> 
+   <td class="chdesc stentry"> Permet de choisir la période globale à utiliser par tous les petits rapports du rapport. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Configurer les rapports</strong></td> 
@@ -282,7 +282,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    <td class="chdesc stentry"> Les données de la ligne de tendance bleue affichent le trafic total pour l’ensemble du site. L’axe des X utilise des libellés littéraux (il y a 15 minutes, il y a 10 minutes) sauf pour la valeur actuelle qui s’affiche sous la forme d’une expression en temps réel. </td> 
    </tr> 
    <tr class="chrow strow"> 
-   <td class="choption"><strong>Mini-rapport Total du site</strong></td> 
+   <td class="choption"><strong>Petit rapport Total du site</strong></td> 
    <td class="chdesc stentry"> Présente un nombre (total du site) pour la mesure sélectionnée du rapport en temps réel au cours des N dernières minutes. « N » est configurable par l’intermédiaire du sélecteur de période. <p>La couleur et la direction de la flèche sont basées sur l’algorithme suivant : 
       <ul id="ul_9F40CEA33798467393CB1266BB36D500"> 
       <li id="li_CCD01A44F912487DA5681EA50113643C">Gain significatif (flèche vers le haut) : &gt; 100 % </li> 
@@ -293,7 +293,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
       </ul> </p> <p>Si le total du site est signalé en « instances », ces instances reflètent la dimension du mini-rapport principal. Si un nom spécifique d’instance existe (par exemple « Pages vues »), le total du site signale ce nom. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
-   <td class="choption"><strong>Mini-rapport principal</strong></td> 
+   <td class="choption"><strong>Petit rapport principal</strong></td> 
    <td class="chdesc stentry"> Rapport pour la dimension principale du rapport en temps réel et pour ses mesures. Présente une ligne de tendance pour cet élément correspondant à la période sélectionnée. Le total des mesures représente la somme pour la ligne de tendance complète. La flèche indique si l’élément est en situation de forts gains, de gains, neutre, de pertes, de fortes pertes. </td> 
    </tr> 
    <tr class="chrow strow"> 
@@ -302,19 +302,19 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Tri par... Le plus populaire/Gagnants/Perdants</strong></td> 
-   <td class="chdesc stentry"> Vous pouvez basculer pour trier par <span class="uicontrol">Le plus populaire</span>(par défaut), <span class="uicontrol">Gagnants</span> (dimensions présentant les plus fortes croissances) et <span class="uicontrol">Perdants</span> (dimensions étant sur une trajectoire descendante). <p>Voici la formule utilisée pour déterminer les gagnants ou les perdants : L’option Temps réel examine le premier échantillon et le prochain au dernier et effectue un simple calcul de "changement de pourcentage". Ainsi, si "15 dernières minutes" est sélectionné et n représente la minute actuelle, n-1 est comparé à n-15. Le rapport en temps réel n’effectue pas, pour le moment, de pondération. La minute en cours est ignorée, car elle n’est pas terminée et produirait sans doute une modification en % erronée. </p> <p>Cette formule est cohérente pour toutes les mesures utilisées dans le rapport en temps réel. </p> </td> 
+   <td class="chdesc stentry"> Vous pouvez basculer pour trier par <span class="uicontrol">Le plus populaire</span>(par défaut), <span class="uicontrol">Gagnants</span> (dimensions présentant les plus fortes croissances) et <span class="uicontrol">Perdants</span> (dimensions étant sur une trajectoire descendante). <p>La formule utilisée pour déterminer les gagnants ou les perdants est la suivante : le rapport en temps réel recherche l’échantillon le plus ancien et l’avant-dernier et effectue un simple calcul « modification en % ». Ainsi, si « 15 dernières minutes » est sélectionné et n représente la minute actuelle, n-1 est comparé à n-15. Le rapport en temps réel n’effectue pas, pour le moment, de pondération. La minute en cours est ignorée, car elle n’est pas terminée et produirait sans doute une modification en % erronée. </p> <p>Cette formule est cohérente pour toutes les mesures utilisées dans le rapport en temps réel. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
-   <td class="choption"><strong>Mini-rapport secondaire 1</strong></td> 
+   <td class="choption"><strong>Petit rapport secondaire 1</strong></td> 
    <td class="chdesc stentry"> Présente des rapports en temps réel pour la deuxième dimension du rapport configuré et pour sa mesure. <p>Le mini-rapport secondaire 1 affiche les 4 catégories supérieures ; la cinquième est une agrégation de toutes les valeurs restantes. Pour chaque catégorie, l’affichage brut total de la catégorie est fourni. En outre, le total de toutes les catégories s’affiche au centre. </p> <p> Le survol d’une section avec le curseur met en surbrillance la catégorie associée et affiche la ligne de tendance de la catégorie sous le beignet. </p> <p> Le survol d’un élément de ligne avec le curseur met en surbrillance ce dernier avec la section associée et affiche la ligne de tendance de la catégorie sous le beignet. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
-   <td class="choption"><strong>Mini-rapport secondaire 2</strong></td> 
+   <td class="choption"><strong>Petit rapport secondaire 2</strong></td> 
    <td class="chdesc stentry"> Présente des rapports en temps réel pour la troisième dimension du rapport configuré et pour sa mesure. Le survol du libellé de la ligne avec le curseur fait glisser le libellé vers la droite et révèle une ligne de tendance pour l’élément survolé. </td> 
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]**view for that list item:![](assets/rtr_detail_report.png)
+1. Cliquez sur un élément de liste dans le petit rapport principal pour lancer la vue **[!UICONTROL Détails]** pour cet élément de liste :  ![](assets/rtr_detail_report.png)
 
    | **Mini-rapport Tendance des éléments** | Présente la ligne de tendance de l’élément qui a été sélectionné dans le rapport Aperçu pendant les N dernières minutes. Vous pouvez configurer N par l’intermédiaire du sélecteur de période. |
    |---|---|
