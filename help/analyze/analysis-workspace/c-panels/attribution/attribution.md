@@ -3,7 +3,7 @@ description: valeur nulle
 title: Panneau Attribution - Aperçu
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
+source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
 
 ---
 
@@ -32,7 +32,7 @@ Le panneau d’attribution est une fonction d’[Attribution IQ](../../attributi
 | ![Décroissance temporelle](assets/time_decay.png) | Décroissance temporelle | Suit une atténuation exponentielle avec un paramètre de demi-vie personnalisé, où la valeur par défaut est de sept jours. La pondération de chaque canal dépend de la durée écoulée entre l’initiation du point de contact et la conversion éventuelle. La formule utilisée pour déterminer le crédit est `2^(-t/halflife)`, où `t` correspond à la durée entre un point de contact et une conversion. Tous les points de contact sont alors normalisés à 100 %. | L’idéal pour les équipes qui exécutent régulièrement de la publicité vidéo ou qui font du marketing pour des événements avec une date prédéterminée. Plus une conversion se produit après un événement marketing, plus faible sera le crédit attribué. |
 | ![Participation](assets/participation.png) | Participation | Attribue un crédit de 100 % à tous les points de contact uniques. Le nombre total de conversions est gonflé par rapport aux autres modèles d’attribution. La participation déduplique les canaux qui sont vus à plusieurs reprises. | Excellent pour comprendre la fréquence à laquelle les clients sont exposés à une interaction donnée. Les sociétés de médias utilisent fréquemment ce modèle pour calculer la vitesse du contenu. Les sociétés de vente au détail utilisent souvent ce modèle pour comprendre les parties de leur site qui sont essentielles à la conversion. |
 
-> [!NOTE] Le modèle d’attribution algorithmique suivant est actuellement disponible dans [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) et fera partie d’une version générale publiée en 2020.
+> [!NOTE] Le modèle d’attribution algorithmique suivant est actuellement disponible dans [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) et fera éventuellement partie d’une version générale.
 
 | Icône de l’interface utilisateur | Modèle d’attribution | Définition | Conditions d’utilisation |
 | --- | --- | --- | --- |
