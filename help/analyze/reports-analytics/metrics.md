@@ -3,7 +3,7 @@ description: Les mesures sont la base des rapports ; elles vous aident à conna
 title: Mesures
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Les mesures et les données associées s’affichent dans les colonnes des rappo
 
 [Les mesures calculées](/help/components/c-calcmetrics/cm-overview.md) sont créées en combinant des mesures.
 
-For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
+Pour obtenir des définitions, consultez la section [Aperçu des mesures](/help/components/c-variables/c-metrics/metricslist.md)
 
 ## Sélection des mesures de rapport par défaut
 
@@ -33,9 +33,9 @@ t_metrics_set_default.xml
 
  -->
 
-1. Exécution d’un rapport.
+1. Exécutez un rapport.
 1. Ajoutez les mesures à enregistrer comme mesures par défaut.
-1. Click the **[!UICONTROL Add Metrics]** drop-down list, then select **[!UICONTROL Set as Default]**.
+1. Cliquez sur la liste déroulante **[!UICONTROL Ajouter des mesures]**, puis sélectionnez **[!UICONTROL Configurer comme valeur par défaut]**.
 
    Les mesures sélectionnées sont enregistrées comme valeurs par défaut pour ce rapport. Les informations suivantes s’appliquent aux mesures par défaut :
 
