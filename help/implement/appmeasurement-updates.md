@@ -3,7 +3,7 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
+source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 ---
 
@@ -20,7 +20,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le Gestio
 
 Date de publication : **5 mars 2020**
 
-* Correction d’un problème lié à la sécurité.
+* Correction d’un problème lié à la sécurité en mettant à jour la détection d’Internet Explorer pour supprimer l’avertissement JSLint.
 
 ## Version 2.19.0
 
@@ -293,7 +293,7 @@ Date de publication : **21 mai 2015**
 * Inclusion de l’API visiteur version 1.4.
 * Mise à jour du module AudienceManagement afin de permettre l’utilisation de DIL version 6.0.
 
-> [!NOTE] Problème **** connu : Dans les intégrations API visiteur/ [!DNL AppMeasurement] module [!DNL Audience Manager] , deux requêtes iFrame de publication de destination sont effectuées dans IE6-9 : `//fast.<subdomain>.demdex.net/dest5.html` et `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
+> [!NOTE] Problème **** connu : Dans les intégrations API/ [!DNL AppMeasurement] module du, [!DNL Audience Manager] deux demandes iFrame de publication de destination sont effectuées dans IE6-9 : `//fast.<subdomain>.demdex.net/dest5.html` et `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4
 
@@ -339,7 +339,7 @@ Date de publication : **18 septembre 2014**
 * Correction d’un problème en raison duquel le nombre de pages vues était double lorsque la variable s.t était invoquée à partir d’une fonction onclick, si l’API visiteur n’avait pas encore les valeurs requises.
 * Prise en charge de HTTP POST.
 
-   > [!IMPORTANT] Pour qu’un [!DNL Analytics] appel utilise la méthode POST au lieu de la méthode GET dans [!DNL AppMeasurement] (une méthode de résolution des URL [tronquées dans IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), vous devez utiliser la dernière mise en oeuvre du service d’identification des visiteurs pour Experience Cloud.
+   > [!IMPORTANT] Pour qu’un [!DNL Analytics] appel utilise la méthode POST au lieu de la méthode GET dans [!DNL AppMeasurement] (une méthode de résolution des URL [tronquées dans IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), vous devez utiliser la dernière mise en oeuvre du service d’ID de pour Experience Cloud.
 
 ## Version 1.4
 
@@ -368,7 +368,7 @@ Date de publication : **22 mai 2014**
 
 Date de publication : **17 avril 2014**
 
-* Prise en charge du service [d’identification des visiteurs](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud.
+* Prise en charge du service [d’ID de](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud.
 
 ## Version 1.2.4
 
@@ -392,7 +392,7 @@ Date de publication : **6 février 2014**
 
 Date de publication : **15 novembre 2013**
 
-* Correction des événements de page utilisés pour la mesure vidéo Pulsation.
+* Correction des  de page utilisées pour la mesure vidéo Pulsation.
 
 ## Version 1.2
 
