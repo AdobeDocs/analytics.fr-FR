@@ -3,7 +3,7 @@ description: Cette section décrit la procédure à suivre pour personnaliser un
 title: Modification des graphiques des rapports
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,8 +17,8 @@ Le type de graphiques disponible dépend du type de rapport exécuté. Par exemp
 
 **Pour modifier un graphique de rapport**
 
-1. Exécution d’un rapport.
-1. Click **[!UICONTROL Configure Graph]**.
+1. Exécutez un rapport.
+1. Cliquez sur **[!UICONTROL Configuration d’un graphique]**.
 1. Sélectionnez un type de graphique.
 
    **[!UICONTROL Ligne de tendance]** : les lignes de tendances indiquent les tendances quotidiennes des mesures des rapports ; ils sont utiles à l’établissement des tendances d’une mesure par ligne au fil du temps.
