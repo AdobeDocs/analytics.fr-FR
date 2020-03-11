@@ -1,22 +1,22 @@
 ---
-description: Avant d’utiliser Reports & Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
+description: Avant d’utiliser Reports & Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 subtopic: Get started
-title: Prise en main de Reports and Analytics
+title: Prise en main de Reports & Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Prise en main des rapports et analyses
+# Prise en main de Reports &amp; Analytics
 
-Avant d’utiliser les rapports et analyses, vous devez comprendre ces tâches de base de connexion et de configuration et comment accéder aux informations du compte.
+Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 
-## Prise en main des rapports et analyses
+## Prise en main de Reports &amp; Analytics
 
-Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
+Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 
 Les rapports fournissent des informations sur vos canaux web classiques, ainsi que sur l’évolution des canaux tels que les réseaux mobiles, vidéo et sociaux. Voici quelques exemples de rapports marketing :
 
@@ -30,7 +30,7 @@ Les rapports fournissent des informations sur vos canaux web classiques, ainsi q
 * Le temps passé à regarder une vidéo
 * Les navigateurs et périphériques utilisés pour consulter votre site
 
-## Configuration requise pour le navigateur et le système
+## Configuration requise du navigateur et du système
 
 Configuration requise du navigateur et du système pour se connecter à l’interface de Reports &amp; Analytics.
 
@@ -41,22 +41,22 @@ Configuration requise du navigateur et du système pour se connecter à l’inte
 
       >[!NOTE]
       >
-      >Le 13 novembre 2018, Adobe a arrêté la prise en charge de Internet Explorer 11 dans Adobe Analytics. Veuillez utiliser Microsoft Edge ou un autre navigateur pris en charge dès que possible.
+      >Le 13 novembre 2018, Adobe a arrêté la prise en charge d’Internet Explorer 11 dans Adobe Analytics. Veuillez utiliser Microsoft Edge ou un autre navigateur pris en charge dès que possible.
 
 * Les cookies et JavaScript doivent être activés.
 * Résolution d’écran 1024 x 768 avec codage des couleurs 16 bits (ou supérieure).
 
-## Connexion aux rapports et analyses
+## Connexion à Reports &amp; Analytics
 
-Avant d’accéder à l’interface, demandez à votre gestionnaire de compte ou au service à la clientèle Adobe de configurer le compte de votre entreprise.
+Avant d’accéder à l’interface, demandez à votre gestionnaire de compte ou à l’assistance clientèle d’Adobe de configurer le compte de votre société.
 
-## Connexion à l’aide d’Experience Cloud
+## Connexion avec Experience Cloud
 
-Cette section décrit la procédure à suivre pour se connecter via Adobe Experience Cloud.
+Procédure décrivant comment se connecter avec Adobe Experience Cloud.
 
 1. Ouvrez un navigateur sur un ordinateur connecté à Internet.
 1. Accédez à [!DNL https://login.experiencecloud.adobe.com/].
-1. Sur la page [!UICONTROL Se connecter]**, cliquez sur[!UICONTROL Connexion unique]**.
+1. Sur la page [!UICONTROL Se connecter], cliquez sur **[!UICONTROL Connexion unique]**.
 1. Renseignez les informations suivantes, puis cliquez sur **[!UICONTROL Se connecter]**.
 
    **[!UICONTROL Société]** : précisez le nom de l’entreprise.
@@ -64,23 +64,23 @@ Cette section décrit la procédure à suivre pour se connecter via Adobe Experi
    **[!UICONTROL Nom d’utilisateur]** : précisez votre identifiant de compte. 
 
    **[!UICONTROL Mot de passe]** : précisez le mot de passe de votre compte. 
-1. Dans la page d’accueil d’Experience Cloud, accédez à **Analytics &gt; Rapports**.
+1. Depuis la page d’accueil Experience Cloud, allez dans **Analytics > Rapports**.
 
-   Experience Cloud vous déconnecte automatiquement après 30 minutes d’inactivité.
+   Experience Cloud vous déconnecte automatiquement après 30 minutes d’inactivité.
 
 ## Exécution d’un rapport
 
 Cette section décrit la procédure à suivre pour générer un rapport.
 
-1. Ouvrez une session dans [!UICONTROL Reports &amp; Analytics].
+1. Ouvrez une session dans [!UICONTROL Reports &amp; Analytics].
 
-   Le menu Rapports s’affiche, ou un [tableau de bord](/help/analyze/reports-analytics/dashboard.md) s’affiche, si vous en avez configuré un.
+   Le menu Rapports s’affiche ou un [tableau de bord](/help/analyze/reports-analytics/dashboard.md) s’affiche si vous en avez configuré un.
 
-1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
+1. Cliquez sur **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]** (par exemple).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
+   Reportez-vous à la section [Fonctionnalités d’un rapport](/help/analyze/reports-analytics/overview/report-overview.md) pour en savoir plus sur les fonctionnalités de l’interface d’un rapport.
 
 ## Modification des paramètres du compte d’utilisateur
 
@@ -88,7 +88,7 @@ Informations concernant la modification des comptes utilisateur, la réinitialis
 
 Vous pouvez afficher et modifier les coordonnées, définir un mot de passe, afficher les informations sur les services web et exclure cet ordinateur de la collecte de données.
 
-Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Cliquez sur l’icône Compte ![](assets/account.png)en haut à droite, puis cliquez sur l’icône **[!UICONTROL Paramètres du compte]** (en forme de rouage) près de votre nom d’utilisateur.
 
 Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte]. Les informations suivantes peuvent être modifiées ou affichées :
 
@@ -113,15 +113,15 @@ Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte].
   </tr> 
   <tr> 
    <td> <p> Connexion </p> </td> 
-   <td> <p>Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. </p> <p>Voir également : <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Comment réinitialiser le mot de passe du compte Reports &amp; Analytics</a>. </p> </td> 
+   <td> <p>Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. </p> <p>Voir également : <a href="https://helpx.adobe.com/fr/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Comment réinitialiser le mot de passe du compte Reports &amp; Analytics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Service web </p> </td> 
-   <td> <p>Affiche le nom d’utilisateur des services web et le secret partagé associé à ce compte. Utilisez ces informations d’identification lorsque vous accédez à Experience Cloud par l’intermédiaire des API de services web. Pour plus d’informations, consultez le site <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>. </p> <p> <p>Remarque : Ces informations s’affichent uniquement si le compte est autorisé en tant qu’utilisateur de services web. </p> </p> </td> 
+   <td> <p>Affiche le nom d’utilisateur des services web et le secret partagé associé à ce compte. Utilisez ces informations d’identification lorsque vous accédez à Experience Cloud par l’intermédiaire des API de services web. Pour plus d’informations, consultez le site <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>. </p> <p> <p>Remarque : ces informations s’affichent uniquement si le compte est autorisé en tant qu’utilisateur de services web. </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Exclure cet ordinateur </p> </td> 
-   <td> <p>Applique un cookie sur l’ordinateur actuel afin de l’exclure de la collecte de données. Ceci s’avère utile si vous ne souhaitez pas que vos activités en ligne affectent les décomptes de pages vues et de visiteurs dans votre domaine. </p> <p> <p>Remarque : Pour utiliser cette fonctionnalité, les cookies doivent être activés dans votre navigateur. Si vous supprimez les cookies sur votre ordinateur, vous devez réinitialiser à nouveau le cookie d’exclusion. </p> </p> </td> 
+   <td> <p>Applique un cookie sur l’ordinateur actuel afin de l’exclure de la collecte de données. Ceci s’avère utile si vous ne souhaitez pas que vos activités en ligne affectent les décomptes de pages vues et de visiteurs dans votre domaine. </p> <p> <p>Remarque : pour utiliser cette fonctionnalité, les cookies doivent être activés dans votre navigateur. Si vous supprimez les cookies sur votre ordinateur, vous devez réinitialiser à nouveau le cookie d’exclusion. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,7 +130,7 @@ Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte].
 
 Cette section décrit la procédure à suivre pour modifier la langue de l’interface. Vous pouvez afficher l’interface de Reports &amp; Analytics dans la langue de votre choix.
 
-1. Connectez-vous à Analytics et sélectionnez l’onglet **[!UICONTROL Rapports]** .
-1. Dans le pied de page, cliquez sur la langue active dans le menu **[!UICONTROL Langue]** , puis sélectionnez votre langue préférée.
+1. Connectez-vous à Analytics, puis sélectionnez l’onglet **[!UICONTROL Rapports]**.
+1. Dans le pied de page, cliquez sur la langue active dans le menu **[!UICONTROL Langue]**, puis sélectionnez votre langue préférée.
 
-Vous pouvez y accéder, ainsi qu’à la page d’accueil, depuis Adobe Experience Cloud. ( **[!UICONTROL Help]** &gt; **[!UICONTROL Help Home]**.)
+Vous pouvez y accéder, ainsi qu’à la page d’accueil, depuis Adobe Experience Cloud. (**[!UICONTROL Aide]** > **[!UICONTROL Page d’accueil de l’aide]**.)
