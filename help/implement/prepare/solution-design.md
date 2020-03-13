@@ -2,7 +2,7 @@
 title: Création d’un document de conception de solution
 description: Découvrez ce qu’est un document de conception de solution et comment l’utiliser dans votre entreprise.
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -46,5 +46,4 @@ Plusieurs partenaires Adobe se spécialisent également dans la création d’un
 
 Mettez en œuvre les variables dans votre document de conception de solution.
 
-* Présentation des eVars : découvrez ce qu’est une eVar, son fonctionnement et comment l’utiliser dans votre implémentation
-* Présentation des événements : découvrez ce qu’est un événement de succès, son fonctionnement et comment en utiliser un dans votre implémentation
+[Créez une couche](data-layer.md)de données : Traduisez les variables de votre de conception en variables JavaScript sur votre site.
