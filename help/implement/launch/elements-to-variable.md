@@ -1,7 +1,6 @@
 ---
-description: valeur nulle
-title: Mappage des éléments de données aux variables Analytics
-uuid: null
+title: Mise en correspondance des éléments de données de lancement avec les variables Analytics
+description: Affectez des éléments de données à des variables Analytics afin que vous puissiez les utiliser comme dimensions dans  espace de travail .
 translation-type: tm+mt
 source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
 
@@ -10,29 +9,44 @@ source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
 
 # Mise en correspondance des éléments de données de lancement avec les variables Analytics
 
+Une fois que vous disposez d’un référentiel des éléments de données dans le lancement d’Adobe Experience Platform, vous pouvez les affecter aux dimensions Analytics.
 
-Après avoir [mappé les objets de couche de données sur Lancer les éléments](https://docs.adobe.com/content/help/en/analytics/implementation/layer-to-elements.md)de données, vous pouvez mapper les éléments de données sur les variables [](https://docs.adobe.com/content/help/en/analytics/implementation/vars/overview.html)Analytics.
+## Conditions préalables
 
-Pour mapper les éléments de données de lancement aux variables Analytics :
+[Mappez les objets de couche de données aux éléments](layer-to-elements.md)de données : Assurez-vous de bien comprendre les éléments de données dans Lancement et que vous devez en utiliser plusieurs.
 
-1. Le cas échéant, affectez l’élément de données à une variable globale. Certains éléments de données, tels que le nom *de* page, s’appliquent à chaque page d’une propriété. Dans de tels cas, vous pouvez définir la variable globalement en procédant comme suit :
+[Créez un de conception de solution](../prepare/solution-design.md): Un de conception de solution est essentiel pour rester organisé. Le de conception de votre solution simplifie l’affectation des éléments de données aux variables Analytics.
 
-2. Dans Lancer, faites défiler l’écran vers le bas et cliquez sur Catalogue **des extensions**.
+## Affectation d’éléments de données à des variables Analytics
 
-   ![Catalogue d’extensions](assets/extensions.png)
+La publication d’une bibliothèque dans Lancer après avoir suivi ces étapes vous permet d’utiliser des dimensions personnalisées dans  espace de travail . Vous pouvez définir des variables Analytics globalement ou dans des règles individuelles.
 
-3. Cliquez sur **Configurer** sous Analytics.
+### Définition de variables globales
 
-   ![Extension Analytics](assets/configure.png)
+Les variables globales sont idéales lorsque vous souhaitez définir des valeurs de variable sur toutes les pages sur lesquelles votre élément de données existe.
 
+1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+1. Cliquez sur la propriété Launch de votre choix.
+1. Cliquez sur [!UICONTROL Extensions tab], puis sur [!UICONTROL Configure] sous l’extension Adobe Analytics.
+1. Cliquez sur l’ [!UICONTROL Global variables] accordéon, qui révèle l’interface permettant d’affecter des variables globales.
 
-4. Sous **eVars** dans les variables **** globales, sélectionnez l’ [eVar que vous avez configurée](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) pour être associée à la variable. Sélectionnez **Définir comme**, puis cliquez sur l’icône en forme de baril dans le champ le plus à droite pour spécifier l’élément de données.
+### Définition de variables dans les règles
 
-   ![Spécifier une eVar](assets/evars.png)
+Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Reportez-vous à [Règles](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) dans le guide de l’utilisateur Lancement d’Adobe Experience Platform.
 
-5. Dans la fenêtre contextuelle **Sélectionner un élément** de données, sélectionnez l’élément de données à appliquer à la variable.
+1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+1. Cliquez sur la propriété Launch de votre choix.
+1. Cliquez sur l’ [!UICONTROL Rules] onglet, puis sur la règle souhaitée (ou créez-en une).
+1. Cliquez sur le [!UICONTROL Add] bouton sous [!UICONTROL Actions].
+1. Définissez la [!UICONTROL Extension] liste déroulante sur Adobe Analytics et [!UICONTROL Action Type] sur Définir des variables.
+1. Cliquez sur l’icône d’élément [!Dde](assets/data-element.png) données à droite de la variable Analytics souhaitée. Le de conception de [solution de votre entreprise](../prepare/solution-design.md) détermine la variable Analytics à utiliser.
+1. Sélectionnez l’élément de données souhaité dans la fenêtre modale. Cliquez sur [!UICONTROL Select].
+1. Le nom de l’élément de données est ajouté au champ de texte entouré de `%` signes. Par exemple, si vous avez nommé votre élément de données &quot;Nom de page&quot;, la chaîne s’affichera `%Page name%` lors de l’affectation d’un élément de données à une variable.
 
-6. Cliquez sur **Enregistrer**.
+> [!TIP] Vous pouvez concaténer des éléments de données dans la même variable. Par exemple, si vous disposez d’un élément de données &quot;Nom d’hôte&quot; et d’un élément de données &quot;Nom de chemin&quot;, vous pouvez combiner les deux dans une variable unique à l’aide de `%Hostname%%Pathname%`.
 
+## Étapes suivantes
 
-Si l’élément de données n’est pas associé à une variable globale, vous pouvez également [créer une règle](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) qui affecte les éléments de données aux props ou aux evars.
+[Variables](../vars/page-vars/page-variables.md)de page : Découvrez les variables de niveau page que vous pouvez utiliser dans votre implémentation pour tirer le meilleur parti des dimensions dans   Workspace de.
+
+[Variables](../vars/config-vars/configuration-variables.md)de configuration : Découvrez les variables de configuration que vous pouvez utiliser dans votre implémentation pour déverrouiller d’autres fonctionnalités d’Adobe Analytics.
