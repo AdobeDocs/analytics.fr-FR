@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
       + [Variables dynamiques](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
       + events {#events}
-         + [Présentation des événements](vars/page-vars/events/events-overview.md)
+         + [de](vars/page-vars/events/events-overview.md)
          + [Evénement achat](vars/page-vars/events/event-purchase.md)
          + [Sérialisation d’événements](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
@@ -148,8 +148,10 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
 + Implement Analytics using Adobe Experience Platform Launch {#launch}
    + [Présentation de Launch](launch/overview.md)
    + [Création d’une propriété Analytics](launch/create-analytics-property.md)
-   + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
+   + [Déploiement sur un  de développement](launch/deploy-dev.md)
    + [Valider et publier sur prod](launch/validate-publish-prod.md)
+   + [Mappage des objets de couche de données aux éléments de données](launch/layer-to-elements.md)
+   + [Mise en correspondance des éléments de données de lancement avec les variables Analytics](launch/elements-to-variable.md)
 + Mise en oeuvre d’Analytics sur d’autres plateformes {#other}
    + [Mise en oeuvre d’Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
    + Implement Analytics using DTM {#dtm}
