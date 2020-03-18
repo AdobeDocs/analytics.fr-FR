@@ -5,7 +5,7 @@ subtopic: Visitors
 title: Identification des visiteurs uniques
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -22,53 +22,53 @@ Adobe Analytics fournit plusieurs mécanismes permettant d’identifier les visi
 | Ordre utilisé | Paramètre de requête (méthode de collecte) | Présent quand |
 |---|---|---|
 | 1 | vid (s.visitorID) | s.visitorID est défini. |
-| 2 | aid (cookie s_vi) | Le visiteur avait un cookie s_vi existant avant le déploiement du service d’identification des visiteurs ou vous avez configuré une période de grâce d’identification des visiteurs. |
-| 3 | mid (cookie AMCV_ défini par le service d’identification des visiteurs d’Experience Cloud) | Le navigateur du visiteur accepte les cookies (propriétaires). |
+| 2 | aid (cookie s_vi) | Le visiteur avait un cookie s_vi existant avant le déploiement du service d’identification des visiteurs, ou vous avez configuré une période de grâce d’identification des visiteurs. |
+| 3 | mid (cookie AMCV_ défini par le service d’identification des visiteurs d’Experience Cloud) | Le navigateur du visiteur accepte les cookies (propriétaires). |
 | 4 | fid (cookie de secours) | Le navigateur du visiteur accepte les cookies (propriétaires). |
 | 5 | Adresse IP, Agent utilisateur, Adresse IP de passerelle | Le navigateur du visiteur n’accepte pas les cookies. |
 
 Dans de nombreux scénarios, il se peut qu’il y ait 2 ou 3 identifiants distincts pour un appel ; Analytics utilisera comme identifiant visiteur officiel le premier identifiant présent de cette liste. Par exemple, si vous définissez un identifiant visiteur personnalisé (y compris dans le paramètre de requête « vid »), cet identifiant sera utilisé avant les autres identifiants susceptibles d’être présents pour ce même accès.
 
-> [!NOTE] Chaque identifiant visiteur Analytics est associé à un profil du visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
+> [!NOTE] Chaque identifiant visiteur Analytics est associé à un profil de visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
 
 ## Identifiant visiteur personnalisé
 
-Vous pouvez implémenter une méthode personnalisée pour identifier les visiteurs en définissant la variable s.visitorID.
+Vous pouvez mettre en œuvre une méthode personnalisée pour identifier les visiteurs en définissant la variable s.visitorID.
 
-Vous pouvez utiliser un identifiant visiteur personnalisé sur des sites pour lesquels vous avez un moyen unique d’identifier les visiteurs. Il s’agit, par exemple, de l’identifiant généré lorsqu’un utilisateur se connecte à un site Web à l’aide de son nom d’utilisateur et de son mot de passe.
+Vous pouvez utiliser un identifiant visiteur personnalisé sur des sites pour lesquels vous avez un moyen unique d’identifier les visiteurs. Il s’agit, par exemple, de l’identifiant généré lorsqu’un utilisateur se connecte à un site web à l’aide de son nom d’utilisateur et de son mot de passe.
 
 Si vous pouvez dériver et gérer les [!UICONTROL identifiants visiteur] de vos utilisateurs, vous pouvez utiliser les méthodes suivantes pour définir l’identifiant :
 
 | Méthode | Description |
 |---|---|
-| [Variable s.visitorID](../implement/vars/config-vars/visitorid.md) | Si JavaScript est utilisé dans le navigateur, ou si vous utilisez toute autre bibliothèque AppMeasurement, vous pouvez définir l’identifiant visiteur dans une variable de collecte de données. |
+| Variable [s.visitorID](../implement/vars/config-vars/visitorid.md) | Si JavaScript est utilisé dans le navigateur, ou si vous utilisez toute autre bibliothèque AppMeasurement, vous pouvez définir l’identifiant visiteur dans une variable de collecte de données. |
 | Paramètre de chaîne de requête dans la demande d’image | Elle permet de transmettre l’[!UICONTROL identifiant visiteur] à Adobe via le paramètre de [!UICONTROL chaîne de requête vide] dans une demande d’image codée en dur. |
 | API d’insertion de données | Sur les périphériques utilisant des protocoles sans fil qui n’acceptent pas JavaScript, vous pouvez envoyer une publication XML contenant l’élément XML `<visitorid/>` aux serveurs de collecte d’Adobe depuis vos serveurs. |
 | Réécriture d’URL et VISTA | Certaines architectures de déploiement prennent en charge l’utilisation de la réécriture d’URL pour gérer l’état de session lorsqu’un cookie ne peut pas être défini. Dans de tels cas, les services d’ingénierie d’Adobe peuvent implémenter une règle [!DNL VISTA] qui recherche la valeur de session dans l’URL de la page, puis la formate et la place dans les valeurs [!UICONTROL visid]. |
 >[!CAUTION]
->**Les identifiants visiteur personnalisés doivent être suffisamment granulaires/uniques ** : une mise en œuvre non valide des identifiants visiteur personnalisés peut donner lieu à des données incorrectes et à de mauvaises performances en matière de création de rapports. Si l’identifiant visiteur personnalisé n’est pas suffisamment unique ou granulaire, ou s’il est incorrectement défini sur une valeur par défaut commune, telle que la chaîne &quot;NULL&quot; ou &quot;0&quot;, les accès de nombreux visiteurs différents sont considérés par Adobe Analytics comme un visiteur unique. Cette situation génère des données incorrectes, le nombre de visiteurs étant trop faible et les segments ne fonctionnant pas correctement pour ce visiteur. Un identifiant visiteur personnalisé qui n’est pas suffisamment granulaire empêche également la diffusion correcte des données sur les nœuds de la grappe de rapports Analytics. Dans ce cas, un nœud devient surchargé et ne peut pas traiter les demandes de rapport en temps voulu. Tous les rapports de la suite de rapports vont alors échouer.<br>Les identifiants visiteur personnalisés mal implémentés peuvent ne pas impacter immédiatement les performances de création de rapports, car Analytics peut souvent gérer plusieurs mois de données déséquilibrées ; toutefois, avec le temps, une valeur d’identifiant visiteur personnalisé mal implémentée peut devenir problématique au point d’exiger d’Analytics qu’il désactive le traitement pour les suites de rapports affectées.</br><br>Les implémenteurs doivent suivre la directive selon laquelle une seule valeur d’identifiant visiteur personnalisé ne doit jamais être créditée pour plus de 1 % du trafic de votre suite de rapports. Bien que la recommandation de 1 % soit suffisante pour la plupart des suites de rapports, la limite réelle susceptible d’affecter les performances des rapports peut être inférieure à 1 % pour les suites de rapports très volumineuses.</br>
+>**Les identifiants visiteur personnalisés doivent être suffisamment granulaires/uniques ** : une mise en œuvre non valide des identifiants visiteur personnalisés peut être à l’origine de données incorrectes et de mauvaises performances en termes de création de rapports. Si l’identifiant visiteur personnalisé n’est pas suffisamment granulaire ou unique, ou s’il est incorrectement défini sur une valeur par défaut commune, telle que la chaîne « NULL » ou « 0 », les accès de nombreux visiteurs différents seront considérés par Adobe Analytics comme un visiteur unique. Cette situation génère des données incorrectes, le nombre de visiteurs étant trop faible et les segments ne fonctionnant pas correctement pour ce visiteur. Un identifiant visiteur personnalisé qui n’est pas suffisamment granulaire empêche également la diffusion correcte des données sur les nœuds de la grappe de rapports Analytics. Dans ce cas, un nœud devient surchargé et ne peut pas traiter les demandes de rapport en temps voulu. Tous les rapports de la suite de rapports vont alors échouer.<br>Il est possible que les identifiants visiteur personnalisés mal implémentés n’aient aucune incidence immédiate sur les performances de création de rapports, étant donné qu’Analytics peut souvent gérer plusieurs mois de données déséquilibrées. Toutefois, avec le temps, une valeur d’identifiant visiteur personnalisé mal mise en œuvre peut devenir problématique au point qu’Analytics doive désactiver le traitement pour les suites de rapports concernées.</br><br>Les implémenteurs doivent suivre la directive selon laquelle une seule valeur d’identifiant visiteur personnalisé ne doit jamais être créditée pour plus de 1 % du trafic de votre suite de rapports. Bien que la recommandation de 1 % soit suffisante pour la plupart des suites de rapports, la limite réelle susceptible d’affecter les performances des rapports peut être inférieure à 1 % pour les suites de rapports très volumineuses.</br>
 
 ## Identifiant visiteur Analytics
 
-Lorsqu’un utilisateur visite votre site, un cookie persistant est défini par le serveur Web d’Adobe en l’incluant dans la réponse HTTP au navigateur. Ce cookie est défini sur le domaine de collecte de données spécifié.
+Lorsqu’un utilisateur visite votre site, le serveur web d’Adobe définit un cookie persistant en l’incluant dans la réponse HTTP au navigateur. Ce cookie est défini sur le domaine de collecte de données spécifié.
 
 Lors de l’envoi d’une demande au serveur de collecte de données d’Adobe, le cookie de l’identifiant visiteur `s_vi` est recherché dans l’en-tête. S’il est présent dans la demande, il est utilisé pour identifier le visiteur. Dans le cas contraire, le serveur génère un identifiant visiteur unique, le définit comme cookie dans l’en-tête de réponse HTTP, puis le renvoie avec la demande. Le cookie est stocké dans le navigateur et renvoyé au serveur de collecte de données lors des visites ultérieures, ce qui permet d’identifier le visiteur au cours de différentes visites.
 
 ### Cookies tiers et enregistrements CNAME {#section_61BA46E131004BB2B75929C1E1C93139}
 
-Certains navigateurs, comme Apple Safari, ne stockent plus les cookies définis dans l’en-tête HTTP provenant de domaines qui ne correspondent pas au domaine du site Web actuel (il s’agit d’un cookie utilisé dans un contexte tiers ou d’un cookie tiers). Supposons que vous visitiez le site `mysite.com` et que votre serveur de collecte de données soit `mysite.omtrdc.net`. Dans ce cas, le cookie renvoyé dans l’en-tête HTTP en provenance de `mysite.omtrdc.net` risque d’être rejeté par le navigateur.
+Certains navigateurs, comme Apple Safari, ne stockent plus les cookies définis dans l’en-tête HTTP provenant de domaines qui ne correspondent pas au domaine du site web actuel (il s’agit d’un cookie utilisé dans un contexte tiers ou d’un cookie tiers). Supposons que vous visitiez le site `mysite.com` et que votre serveur de collecte de données soit `mysite.omtrdc.net`. Dans ce cas, le cookie renvoyé dans l’en-tête HTTP en provenance de `mysite.omtrdc.net` risque d’être rejeté par le navigateur.
 
-Pour éviter ce cas de figure, de nombreux clients ont implémenté des enregistrements CNAME pour leurs serveurs de collecte de données dans le cadre d’une [implémentation de cookies propriétaires](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/). Si un enregistrement CNAME est configuré pour associer un nom d’hôte sur le domaine du client au serveur de collecte de données (mappage de `metrics.mysite.com` sur `mysite.omtrdc.net`, par exemple), le cookie Identifiant visiteur est stocké, étant donné que le domaine de collecte de données correspond désormais à celui du site Web. Cela a pour effet d’augmenter la probabilité de stockage du cookie Identifiant visiteur. Cependant, cette méthode s’accompagne d’une surcharge de travail, dans la mesure où vous devez configurer des enregistrements CNAME et gérer des certificats SSL pour les serveurs de collecte de données.
+Pour éviter ce cas de figure, de nombreux clients ont implémenté des enregistrements CNAME pour leurs serveurs de collecte de données dans le cadre d’une [implémentation de cookies propriétaires](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.translate.html). Si un enregistrement CNAME est configuré pour associer un nom d’hôte sur le domaine du client au serveur de collecte de données (mappage de `metrics.mysite.com` sur `mysite.omtrdc.net`, par exemple), le cookie Identifiant visiteur est stocké, étant donné que le domaine de collecte de données correspond désormais à celui du site web. Cela a pour effet d’augmenter la probabilité de stockage du cookie Identifiant visiteur. Cependant, cette méthode s’accompagne d’une surcharge de travail, dans la mesure où vous devez configurer des enregistrements CNAME et gérer des certificats SSL pour les serveurs de collecte de données.
 
 ### Cookies sur les périphériques mobiles {#section_7D05AE259E024F73A95C48BD1E419851}
 
 Lorsque vous effectuez le suivi des périphériques mobiles à l’aide de cookies, vous pouvez utiliser certains paramètres pour modifier le mode d’exécution des mesures. La durée de vie par défaut d’un cookie est de 5 ans, mais vous pouvez utiliser la variable de paramètre de requête CL (`s.cookieLifetime`) pour la modifier. Pour définir l’emplacement du cookie pour les implémentations cname, utilisez la chaîne de requête CDP `s.cookieDomainPeriods`. Si aucune valeur n’est spécifiée, le paramètre par défaut est 2 et l’emplacement par défaut est domain.com. Dans le cas des implémentations qui n’utilisent pas CNAME, l’emplacement du cookie Identifiant visiteur est le domaine 207.net.
 
-## Service d’identité
+## Identity Service
 
-Le service d’identité remplace le mécanisme d’identification des visiteurs hérité d’Analytics. Il est requis avec la mesure Vidéo – [!UICONTROL Pulsation], avec Analytics pour Target, ainsi qu’avec les services principaux et les intégrations à venir d’Experience Cloud.
+Identity Service remplace le mécanisme d’identification des visiteurs hérité d’Analytics. Il est requis avec la mesure Vidéo – [!UICONTROL Pulsation], avec Analytics pour Target, ainsi qu’avec les services principaux et les intégrations à venir d’Experience Cloud.
 
-Voir Service [d’identité](https://marketing.adobe.com/resources/help/en_US/mcvid/) pour obtenir des informations sur ce service.
+Voir [Identity Service](https://marketing.adobe.com/resources/help/fr_FR/mcvid/) pour consulter la documentation produit de ce service.
 
 ## Identification des appareils mobiles
 
@@ -100,7 +100,7 @@ Le tableau suivant répertorie l’ordre des méthodes d’identifiant utilisée
   </tr> 
   <tr> 
    <td colname="col1"> <code> /5/ /5.1/ /5.5/</code> </td> 
-   <td colname="col2"> <p>Device was identified as a wireless device, or <code> /5/</code> was manually sent in the image request: </p> 
+   <td colname="col2"> <p>Appareil qui a été identifié en tant qu’appareil sans fil, ou <code> /5/</code> a été envoyé manuellement dans la demande d’image : </p> 
     <ul id="ul_624BEDFA3E1243CF9B42081D8B8EFFFB"> 
      <li id="li_D65761D23B684DB59BC23E92C9098122">Identifiant visiteur personnalisé </li> 
      <li id="li_ADBA806B74CA43EFA8612301E06106C6">En-tête d’identifiant abonné </li> 
@@ -153,9 +153,9 @@ Si les autres méthodes d’identification des visiteurs échouent, Adobe défin
 
 ### Méthode d’identification des visiteurs de secours {#section_2BA15E4FA6034C3EBF43859406343EB6}
 
-AppMeasurement for JavaScript 1.x and JavaScript H.25.3 (released January 2013) contain a new fallback visitor identification method for visitors whose browser blocks the cookie set by Adobe&#39;s data collection servers (called `s_vi`). Auparavant, lorsqu’un cookie ne pouvait pas être défini, les utilisateurs étaient identifiés à l’aide d’une combinaison de l’adresse IP et de la chaîne de l’agent utilisateur lors de la collecte des données.
+AppMeasurement pour JavaScript 1.x et JavaScript H.25.3 (publié en janvier 2013) contient une nouvelle méthode d’identification des visiteurs de secours destinée aux visiteurs dont le navigateur bloque le cookie défini par les serveurs de collecte d’Adobe (appelé `s_vi`). Auparavant, lorsqu’un cookie ne pouvait pas être défini, les utilisateurs étaient identifiés à l’aide d’une combinaison de l’adresse IP et de la chaîne de l’agent utilisateur lors de la collecte des données.
 
-Avec cette mise à jour, si le cookie `s_vi` standard n’est pas disponible, un cookie de secours est créé sur le domaine du site Web avec un identifiant unique généré de façon aléatoire. Ce cookie, appelé `s_fid`, est défini avec une date d’expiration de 2 ans et est utilisé comme méthode d’identification de secours. Cette modification devrait entraîner une exactitude accrue de la comptabilisation des visites et des visiteurs dans les cas où le cookie principal (`AMCV_` ou `s_vi`) ne peut pas être défini.
+Avec cette mise à jour, si le cookie `s_vi` standard n’est pas disponible, un cookie de secours est créé sur le domaine du site web avec un identifiant unique généré de façon aléatoire. Ce cookie, appelé `s_fid`, est défini avec une date d’expiration de 2 ans et est utilisé comme méthode d’identification de secours. Cette modification devrait entraîner une exactitude accrue de la comptabilisation des visites et des visiteurs dans les cas où le cookie principal (`AMCV_` ou `s_vi`) ne peut pas être défini.
 
 Le total des visites inclut tous les visiteurs qui sont identifiés par le cookie `s_vi` ou à l’aide d’une méthode de secours.
 
