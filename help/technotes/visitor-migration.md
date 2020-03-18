@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 title: Migration des visiteurs
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 ---
@@ -16,11 +16,11 @@ La migration des visiteurs est une procédure par laquelle le cookie d’identif
 
 La migration des visiteurs vous permet de conserver les cookies d’identification des visiteurs lors du changement des domaines de collecte de données, ce qui peut se produire pour les raisons suivantes :
 
-* Moving from `2o7.net` to `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/)).
+* Passage de `2o7.net` à `omtrdc.net` ([collecte de données régionales](https://marketing.adobe.com/resources/help/fr_FR/whitepapers/rdc/)).
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/) and are moving from a CNAME/first-party data collection domain to `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://marketing.adobe.com/resources/help/en_US/whitepapers/rdc/))
+* Vous mettez en œuvre le [service d’identification des visiteurs d’Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcvid/) et passez d’un domaine de collecte de données propriétaire/CNAME à un domaine `2o7.net` ou `omtrdc.net` ([collecte de données régionales](https://marketing.adobe.com/resources/help/fr_FR/whitepapers/rdc/))
 
-* Moving from `2o7.net` or `omtrdc.net` to a cname/first-party data collection ( [First-Party Cookies)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/).
+* Passage de `2o7.net` ou de `omtrdc.net` à une collecte de données propriétaire/CNAME ([Cookies propriétaires)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.translate.html).
 
 * Passage d’un CNAME à un autre (changement de domaines).
 
@@ -39,20 +39,20 @@ Les tâches nécessaires à la migration des visiteurs sont répertoriées dans 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Pour commencer</b> : contactez le <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  >service à la clientèle</a> pour communiquer le(s) domaine(s) à faire migrer, ainsi que la période de migration que vous souhaitez activer (30, 60 ou 90 jours). Veillez à inclure les domaines sécurisés et non sécurisés. </p> </td> 
+   <td colname="col1"> <p> <b>Pour commencer</b> : contactez le <a href="https://helpx.adobe.com/fr/marketing-cloud/contact-support.html"  >service à la clientèle</a> pour communiquer le(s) domaine(s) à faire migrer, ainsi que la période de migration que vous souhaitez activer (30, 60 ou 90 jours). Veillez à inclure les domaines sécurisés et non sécurisés. </p> </td> 
    <td colname="col3"> <p>Créez une liste en utilisant la syntaxe <i>exacte</i> pour les domaines sources et cibles de la migration. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
      <li id="li_B0CA15A593BD4AB9802E33A3FF037C7A">example.102.112.2o7.net &gt; smetrics.example.com </li> 
-    </ul> <p>Les noms d’hôte de migration sont configurés sur le serveur de collecte de données Adobe. Une fois le changement effectué, le service à la clientèle vous en informera afin que vous puissiez planifier l’étape suivante. </p> </td> 
+    </ul> <p>Les noms d’hôte de migration sont configurés sur le serveur de collecte de données Adobe. Une fois le changement effectué, l’assistance clientèle vous en informera afin que vous puissiez planifier l’étape suivante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6 heures ou plus après le changement de configuration</b> : mettez à jour les variables <code> s.trackingServer</code> et <code> s.trackingServerSecure</code> dans votre code JavaScript Analytics pour utiliser les nouveaux serveurs de collecte de données. </p> </td> 
-   <td colname="col3"> <p>Après avoir apporté cette modification, utilisez un [moniteur de paquets](../implement/validate/packet-monitor.md) pour vérifier que la demande d’image Analytics va au serveur de collecte de données mis à jour. </p> </td> 
+   <td colname="col3"> <p>Après avoir effectué cette modification, utilisez un [analyseur de paquets](../implement/validate/packet-monitor.md) pour vérifier que la demande d’image Analytics est adressée au serveur de collecte de données mis à jour. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immédiatement après avoir mis à jour le code Analytics</b> : testez votre site afin de vérifier que la redirection vers l’ancien domaine de collecte de données a bien lieu. </p> </td> 
-   <td colname="col3"> <p>Utilisez un [moniteur de paquets](../implement/validate/packet-monitor.md) pour vérifier que lorsque vous accédez à votre site pour la première fois, ou après avoir effacé les cookies, deux codes d’état HTTP 302 (redirection) sont affichés avant le code d’état HTTP 200 (OK). S’il manque l’une de ces redirections, contactez immédiatement le service à la clientèle afin de vous assurer que la migration est correctement configurée. </p> </td> 
+   <td colname="col3"> <p>Utilisez un [analyseur de paquets](../implement/validate/packet-monitor.md) afin de vérifier que, lorsque vous accédez à votre site pour la première fois, ou après avoir nettoyé les cookies, deux codes d’état HTTP 302 (redirection) sont placés avant le code d’état HTTP 200 (OK). S’il manque l’une de ces redirections, contactez immédiatement l’assistance clientèle afin de vous assurer que la migration est correctement configurée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Pendant toute la durée de la migration</b> : faites en sorte que l’enregistrement DNS du nom d’hôte précédent reste actif. </p> </td> 
