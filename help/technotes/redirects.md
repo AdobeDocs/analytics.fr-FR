@@ -1,11 +1,11 @@
 ---
-description: Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention de l’utilisateur. Ces redirections ont lieu au niveau du navigateur (renvoi côté client) ou au niveau du serveur Web (renvoi côté serveur).
+description: Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention de l’utilisateur. Ces redirections ont lieu au niveau du navigateur (renvoi côté client) ou au niveau du serveur web (renvoi côté serveur).
 keywords: Analytics Implementation
 subtopic: Redirects
 title: Redirections et alias
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -13,15 +13,15 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 # Redirections et alias
 
-Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention de l’utilisateur. Ces redirections ont lieu au niveau du navigateur (renvoi côté client) ou au niveau du serveur Web (renvoi côté serveur).
+Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention de l’utilisateur. Ces redirections ont lieu au niveau du navigateur (renvoi côté client) ou au niveau du serveur web (renvoi côté serveur).
 
 ## Redirections et alias {#concept_F4F1D53D473947FE8554897332545763}
 
-Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention de l’utilisateur. Ces redirections ont lieu au niveau du navigateur (renvoi côté client) ou au niveau du serveur Web (renvoi côté serveur).
+Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention de l’utilisateur. Ces redirections ont lieu au niveau du navigateur (renvoi côté client) ou au niveau du serveur web (renvoi côté serveur).
 
 L’intervention de l’utilisateur n’étant pas requise, les redirections ont souvent lieu sans même que l’utilisateur s’en rende compte. La barre d’adresse du navigateur est le seul indice indiquant qu’une redirection a eu lieu. La barre d’adresse affiche une URL différente du lien initialement demandé par le navigateur.
 
-Il existe uniquement deux types de redirection, mais elles peuvent être implémentées de diverses façons. Par exemple, les redirections côté client peuvent avoir lieu si la page Web vers laquelle un utilisateur a pointé son navigateur contient un script ou un code HTML spécial qui redirige le navigateur vers une autre URL. Les redirections côté serveur surviennent quand la page contient un script côté serveur ou parce que le serveur Web a été configuré pour pointer l’utilisateur vers une autre URL.
+Il existe uniquement deux types de redirection, mais elles peuvent être implémentées de diverses façons. Par exemple, les redirections côté client peuvent avoir lieu si la page web vers laquelle un utilisateur a pointé son navigateur contient un script ou un code HTML spécial qui redirige le navigateur vers une autre URL. Les redirections côté serveur surviennent quand la page contient un script côté serveur ou parce que le serveur web a été configuré pour pointer l’utilisateur vers une autre URL.
 
 ## Analytics et redirections {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
 
@@ -46,7 +46,7 @@ En raison des redirections, le navigateur peut masquer la véritable URL de réf
 
 ## Implémentation des redirections {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
-Afin de capturer les données [!DNL Analytics][!DNL AppMeasurement] issues de redirections, quatre modifications mineures doivent être apportées au code qui crée la redirection et au fichier pour JavaScript.
+Afin de capturer les données [!DNL Analytics] issues de redirections, quatre modifications mineures doivent être apportées au code qui crée la redirection et au fichier [!DNL AppMeasurement] pour JavaScript.
 
 <!-- 
 
@@ -64,7 +64,7 @@ redirects_js_override.xml
 
  -->
 
-Le fragment de code ci-dessous présente deux variables JavaScript, *`s_referrer`*et*`s_pageURL`*. Ce code est placé sur la page d’entrée finale de la redirection.
+Le fragment de code ci-dessous présente deux variables JavaScript, *`s_referrer`* et *`s_pageURL`*. Ce code est placé sur la page d’entrée finale de la redirection.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -80,7 +80,7 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->Définissez *`s.referrer`*une seule fois sur la page. Sinon, chaque appel de suivi ou chaque clic sur un lien suivi dupliquera la comptabilisation du référent et des dimensions associées, tels les moteurs de recherche et les mots-clés.
+>Définissez *`s.referrer`* une seule fois sur la page. Sinon, chaque appel de suivi ou chaque clic sur un lien suivi dupliquera la comptabilisation du référent et des dimensions associées, telles que les moteurs de recherche et les mots-clés.
 
 ## Redirections à l’aide de getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
@@ -108,9 +108,9 @@ redirects_modify_mechanism.xml
 
  -->
 
-Le navigateur dépouille l’URL de référence ; vous devez donc configurer le mécanisme qui gère la redirection (par exemple, le serveur Web, le code côté serveur, le code côté client) afin de transmettre les informations du référent original. Si vous souhaitez enregistrer l’URL du lien alias, ceci doit également être transmis à la page d’entrée finale. Utilisez la variable *`s_pageURL`*pour remplacer l’URL active.
+Le navigateur dépouille l’URL de référence ; vous devez donc configurer le mécanisme qui gère la redirection (par exemple, le serveur web, le code côté serveur, le code côté client) afin de transmettre les informations du référent original. Si vous souhaitez enregistrer l’URL du lien alias, ceci doit également être transmis à la page d’entrée finale. Utilisez la variable *`s_pageURL`* pour remplacer l’URL active.
 
-Il existe de nombreuses façons de mettre en œuvre une redirection. Identifiez avec votre groupe d’opérations Web ou votre partenaire de publicité en ligne les mécanismes spécifiques qui exécutent les redirections sur votre site Web.
+Il existe de nombreuses façons de mettre en œuvre une redirection. Identifiez avec votre groupe d’opérations web ou votre partenaire de publicité en ligne les mécanismes spécifiques qui exécutent les redirections sur votre site web.
 
 ## Capture du référent original {#section_7F1A77F447CF485385B456A64B174050}
 
@@ -120,7 +120,7 @@ redirects_referrer.xml
 
  -->
 
-En règle générale, [!DNL Analytics] obtient l’URL de référence auprès de la propriété [!UICONTROL document.referrer] du navigateur et l’URL active auprès de la propriété [!UICONTROL document.location]. En transmettant des valeurs aux variables *`referrer`*et*`pageURL`*, vous pouvez remplacer le traitement par défaut. En transmettant une valeur à la variable du référent, vous indiquez à [!DNL Analytics] d’ignorer l’information du référent dans la propriété [!UICONTROL document.referrer] et d’utiliser plutôt une autre valeur que vous définissez.
+En règle générale, [!DNL Analytics] obtient l’URL de référence auprès de la propriété [!UICONTROL document.referrer] du navigateur et l’URL active auprès de la propriété [!UICONTROL document.location]. En transmettant des valeurs aux variables *`referrer`* et *`pageURL`*, vous pouvez remplacer le traitement par défaut. En transmettant une valeur à la variable du référent, vous indiquez à [!DNL Analytics] d’ignorer l’information du référent dans la propriété [!UICONTROL document.referrer] et d’utiliser plutôt une autre valeur que vous définissez.
 
 En conséquence, la version finale de la page d’entrée doit contenir le code suivant pour corriger les problèmes introduits dans le scénario « billets d’avion réduits ».
 
@@ -147,7 +147,7 @@ redirects_verify_referrer.xml
 
 Exécutez un test afin de vérifier que le référent, l’URL d’origine (*`s_server`*) et les variables de campagne sont capturés.
 
-These variables will be represented as the following parameters in the [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+Ces variables seront représentées comme les paramètres suivants dans le [débogueur Experience Cloud](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
@@ -160,17 +160,17 @@ These variables will be represented as the following parameters in the [Experien
  <tbody> 
   <tr> 
    <td> <p>Référent original </p> </td> 
-   <td> <p> <span class="filepath"> https://www.google.com/search%3F hl%3Den %26ie%3DUTF826q%3 Ddiscount%2Bairline%2Btickets </span> </p> </td> 
+   <td> <p> <span class="filepath">https://www.google.com/search%3F hl%3Den %26ie%3DUTF826q%3 Ddiscount%2Bairline%2Btickets</span> </p> </td> 
    <td> <p> <span class="filepath"> r=https:/ref=www.google.com/search?hl=en&amp;ie=UTF -8&amp;q=discount+airline+tickets </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>URL de la page </p> </td> 
-   <td> <p> <span class="filepath"> https://www.flytohawaiiforfree.com </span> </p> </td> 
+   <td> <p> <span class="filepath">https://www.flytohawaiiforfree.com</span> </p> </td> 
    <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Cette valeur apparaît dans le débogueur DigitalPulse si la variable <span class="varname"> pageURL </span> est utilisée. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>URL de page d’entrée finale </p> </td> 
-   <td> <p> <span class="filepath"> https://www.example.com </span> </p> </td> 
+   <td> <p> <span class="filepath">https://www.example.com</span> </p> </td> 
    <td> <p>Cette valeur n’apparaît PAS dans le débogueur DigitalPulse si la variable <span class="varname"> pageURL </span> est utilisée. </p> </td> 
   </tr> 
  </tbody> 
