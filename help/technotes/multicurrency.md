@@ -1,419 +1,419 @@
 ---
-description: Décrit comment définir des codes de devise cible pour la prise en charge de devises multiples.
-title: Prise en charge de plusieurs devises
+description: Décrit comment définir des codes de devise cible pour permettre une prise en charge multidevise.
+title: Prise en charge multidevise
 topic: null
 uuid: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
 
 ---
 
 
-# Prise en charge de plusieurs devises
+# Prise en charge multidevise
 
-Ce document décrit comment définir des codes de devise cible pour la prise en charge de devises multiples.
+Ce document décrit comment définir des codes de devise cible pour permettre une prise en charge multidevise.
 
-Les codes de devise cible sont définis à trois niveaux :
+Les codes de devise cible sont définis à trois niveaux :
 
 ## Niveau de page
 
-Vous pouvez définir une variable JavaScript pour la devise cible au niveau de la page. Le propriétaire du site définit cette variable avec le code de devise ISO 4217 à trois lettres approprié (comme indiqué ci-dessous dans ce document). Si la variable [currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/currencycode.html) n’est pas définie à ce niveau, la devise par défaut est la même que celle spécifiée dans la suite de rapports. Si la variable au niveau de la page est en conflit avec la variable spécifiée dans la suite de rapports, la variable dans la suite de rapports est prioritaire.
+Vous pouvez définir une variable JavaScript pour la devise cible au niveau de la page. Le propriétaire du site définit cette variable avec le code de devise ISO 4217 à trois lettres approprié (comme indiqué ci-dessous dans ce document). Si la variable [currencyCode](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/config-vars/currencycode.translate.html) n’est pas définie à ce niveau, la devise par défaut est la même que celle spécifiée dans la suite de rapports. Si la variable au niveau de la page est en conflit avec la variable spécifiée dans la suite de rapports, la variable dans la suite de rapports est prioritaire.
 
 
-## Niveau de suite de rapports
+## Niveau de la suite de rapports
 
-La devise **de** base est spécifiée lors de la [création de suites](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)de rapports. Il s’agit du paramètre par défaut pour la devise et prévaut sur les codes de devise définis au niveau de la page. Ainsi, si une suite de rapports comporte des commandes acceptant les dollars américains, l’euro et les livres sterling et que le code de devise par défaut de la suite de rapports est &quot;dollars américains&quot;, la base de données principale de création de rapports traduit toutes les transactions en dollars américains.
+La **devise de base** est spécifiée lors de la [création de suites de rapports](https://docs.adobe.com/content/help/fr-FR/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Ce paramètre de devise par défaut est prioritaire sur les codes de devise définis au niveau de la page. Par conséquent, si une suite de rapports inclut des commandes qui acceptent les dollars américains, l’euro et la livre sterling, et si, dans la suite de rapports, le code de devise par défaut est défini sur les dollars américains, la base de données dorsale de rapports traduit toutes les transactions en dollars américains.
 
-Les rapports marketing utilisent le taux de change au moment de la demande d’image pour convertir les valeurs de devise au niveau de la page en valeurs de devise par défaut de la suite de rapports. Les suites de rapports utilisent le dollar américain comme devise par défaut.
+Les rapports marketing utilisent le taux de change en vigueur au moment de la demande d’image afin de traduire les valeurs en devise au niveau de la page en valeurs dans la devise par défaut de la suite de rapports. Les suites de rapports utilisent le dollar américain comme devise par défaut.
 
 
 ## Niveau de rapport
 
-Les utilisateurs peuvent définir la devise par défaut des rapports pour la session de connexion utilisateur. Cette fonctionnalité est accessible à partir du lien **Options d’affichage** de tout rapport de conversion. Les rapports marketing utilisent le taux de change au moment de l’exécution du rapport pour traduire les valeurs de devise de la suite de rapports en valeurs de devise spécifiées dans le rapport.
+Les utilisateurs peuvent définir la devise par défaut des rapports pour une session de connexion utilisateur. Cette fonctionnalité est accessible à partir du lien **Options d’affichage** de chaque rapport de conversion. Les rapports marketing utilisent le taux de change en vigueur au moment de l’exécution du rapport pour traduire les valeurs en devise de la suite de rapports en valeurs dans la devise spécifiée dans le rapport.
 
-## Codes de devise pris en charge (ISO 4217)
+## Codes de devise pris en charge (ISO 4217)
 
-Analytics prend actuellement en charge les formats de devise suivants pour les transactions de conversion :
+Actuellement, Analytics prend en charge les formats de devise suivants pour les transactions de conversion :
 
 
-Afghanistan Afghanis (AFA)
+« AFA » Afghanistan, afghanis (AFA)
 
-Afghanistan Afghanis (AFN)
+« AFN » Afghanistan, afghanis (AFN)
 
-&#39;ALL&#39; Albanie Leke (ALL)
+« ALL » Albanie, leks (ALL)
 
-&quot;DZD&quot; Algérie Dinars (DZD)
+« DZD » Algérie, dinars (DZD)
 
-&#39;AOA&#39; Angola Kwanza (AOA)
+« AOA » Angola, kwanzas (AOA)
 
-&#39;ARS&#39; Argentine Pesos (ARS)
+« ARS » Argentine, pesos (ARS)
 
-&#39;AMD&#39; - Drams arméniens (AMD)
+« AMD » Arménie, drams (AMD)
 
-&quot;AWG&quot; Florins Aruba (AWG)
+« AWG » Aruba, florins (AWG)
 
-&#39;AUD&#39; Australie Dollars (AUD)
+« AUD » Australie, dollars (AUD)
 
-&quot;AZM&quot; (Azéri Manats)
+« AZM » Azerbaïdjan, manats (AZM)
 
-&quot;AZN&quot; (Azerbaïdjan, Nouveau Manat)
+« AZN » Azerbaïdjan, manats nouveaux (AZN)
 
-BSD (Bahamas Dollars)
+« BSD » Bahamas, dollars (BSD)
 
-&#39;BHD&#39; Dinars de Bahreïn (BHD)
+« BHD » Bahreïn, dinars (BHD)
 
-Bangladesh Taka (BDT)
+« BDT » Bangladesh, takas (BDT)
 
-BBD&#39; (Barbade) Dollars (BBD)
+« BBD » Barbade, dollars (BBD)
 
-&#39;BYR&#39; Roubles Biélorusses (BYR)
+« BYR » Biélorussie, roubles (BYR)
 
-BZD (BZD)
+« BZD » Belize, dollars (BZD)
 
-BMD (Bermudes Dollars)
+« BMD » Bermudes, dollars (BMD)
 
-Bhoutan Ngultrum (BTN)
+« BTN » Bhoutan, ngultrum (BTN)
 
-&#39;BOB&#39; Bolivia Bolivianos (BOB)
+« BOB » Bolivie, bolivianos (BOB)
 
-&quot;BAM&quot; Bosnie-Herzégovine Marka convertible (BAM)
+« BAM » Bosnie-Herzégovine, marks convertibles (BAM)
 
-&#39;BWP&#39; Botswana Pulas (BWP)
+« BWP » Botswana, pulas (BWP)
 
-&quot;BRL&quot; Brésil Reais (BRL)
+« BRL » Brésil, réaux (BRL)
 
-&quot;BND&quot; Dollars Brunei (BND)
+« BND » Brunei, dollars (BND)
 
-Bulgarie : &quot;BGN&quot; Leva (BGN)
+« BGN » Bulgarie, leva (BGN)
 
-&quot;BIF&quot; Burundi Francs (BIF)
+« BIF » Burundi, francs (BIF)
 
-&#39;KHR&#39; Riels Cambodgiens (KHR)
+« KHR » Cambodge, riels (KHR)
 
-Canada Dollars (CAD)
+« CAD » Canada, dollars (CAD)
 
-CVE (Cap Vert Escudos)
+« CVE » Cap-Vert, escudos (CVE)
 
-&#39;KYD&#39; Dollars Des Îles Caïmans (KYD)
+« KYD » Îles Caïmans, dollars (KYD)
 
-&#39;CLP&#39; Chili Pesos (CLP)
+« CLP » Chili, pesos (CLP)
 
-&quot;CNY&quot; Chine Yuan Renminbi (CNY)
+« CNY » Chine, yuans renminbi (CNY)
 
-&#39;COP&#39; Colombia Pesos (COP)
+« COP » Colombie, pesos (COP)
 
-&quot;XOF&quot; Communauté Financière Africaine Francs BCEAO (XOF)
+« XOF » Communauté Financière Africaine, francs BCEAO (XOF)
 
-Communauté Financière Africaine Francs BEAC (XAF)
+« XAF » Communauté Financière Africaine, francs BEAC (XAF)
 
-&#39;KMF&#39; Comores Francs (KMF)
+« KMF » Comores, francs (KMF)
 
-Comptoirs &quot;XPF&quot; Français du Pacifique Francs (XPF)
+« XPF » Collectivités françaises du Pacifique, francs (XPF)
 
-&quot;CDF&quot; Congo/Kinshasa Francs (CDF)
+« CDF » Congo/Kinshasa, francs (CDF)
 
-Costa Rica Colones (CRC)
+« CRC » Costa Rica, colons (CRC)
 
-&quot;HRK&quot; Croatie Kuna (HRK)
+« HRK » Croatie, kunas (HRK)
 
-CUC Cuba Pesos convertibles (CUC)
+« CUC » Cuba, pesos convertibles (CUC)
 
-&quot;CUP&quot; Cuba Pesos (CUP)
+« CUP » Cuba, pesos (CUP)
 
-CYP Livres chypriotes
+« CYP » Chypre, livres (CYP)
 
-&quot;CZK&quot; République Tchèque Couronnes (CZK)
+« CZK » République tchèque, couronnes (CZK)
 
-&quot;DKK&quot; Couronne (DKK)
+« DKK » Danemark, couronnes (DKK)
 
-&quot;DJF&quot; Djibouti Francs (DJF)
+« DJF » Djibouti, francs (DJF)
 
-&quot;DOP&quot; République Dominicaine Pesos (DOP)
+« DOP » République dominicaine, pesos (DOP)
 
-XCD : dollars des Caraïbes orientales (XCD)
+« XCD » Caraïbes orientales, dollars (XCD)
 
-&#39;EGP&#39; Egypte Livres (EGP)
+« EGP » Égypte, livres (EGP)
 
-&quot;SVC&quot; Colones du Salvador (SVC)
+« SVC » El Salvador, colons (SVC)
 
-ERN (ERN) Erythrée Nakfa (ERN)
+« ERN » Érythrée, nakfa (ERN)
 
-ERR &quot;XBT&quot; (XBT)
+« XBT » ERR (XBT)
 
-&quot;EEK&quot; Estonie Couronne (EEK)
+« EEK » Estonie, couronnes (EEK)
 
-&quot;ETB&quot; Birr (ETB)
+« ETB » Éthiopie, birrs (ETB)
 
-Euro &quot;EUR&quot; (EUR)
+« EUR » Euro (EUR)
 
-FKP (FKP)
+« FKP » Îles Malouines, livres (FKP)
 
-&quot;FJD&quot; dollars fidjiens (FJD)
+« FJD » Fidji, dollars (FJD)
 
-Gambie Dalasi (GMD)
+« GMD » Gambie, dalasis (GMD)
 
-&quot;GEL&quot; Georgia Lari (GEL)
+« GEL » Géorgie, laris (GEL)
 
-&#39;GHC&#39; (Ghana Cedis)
+« GHC » Ghana, cedis (GHC)
 
-&quot;GHS&quot; (Ghana Cedis)
+« GHS » Ghana, cedis (GHS)
 
-Gibraltar Livres (GIP)
+« GIP » Gibraltar, livres (GIP)
 
-Onces Or &quot;XAU&quot; (XAU)
+« XAU » Or, onces (XAU)
 
-Guetzales du Guatemala (GTQ)
+« GTQ » Guatemala, quetzals (GTQ)
 
-&#39;GGP&#39; Guernesey Livres (GGP)
+« GGP » Guernesey, livres (GGP)
 
-&#39;GNF&#39; Guinée Francs (GNF)
+« GNF » Guinée, francs (GNF)
 
-&#39;GYD&#39; Dollars Guyaniens (GYD)
+« GYD » Guyane, dollars (GYD)
 
-&#39;HTG&#39; Haiti Gourdes (HTG)
+« HTG » Haïti, gourdes (HTG)
 
-&quot;HNL&quot; Honduras Lempiras (HNL)
+« HNL » Honduras, lempiras (HNL)
 
-&quot;HKD&quot; Dollars De Hong Kong (HKD)
+« HKD » Hong Kong, dollars (HKD)
 
-&quot;HUF&quot; Hongrie Forint (HUF)
+« HUF » Hongrie, forints (HUF)
 
-&quot;ISK&quot; Couronne d&#39;Islande (ISK)
+« ISK » Islande, couronnes (ISK)
 
-&#39;INR&#39; roupies indiennes (INR)
+« INR » Inde, roupies (INR)
 
-&#39;IDR&#39; Indonésie Roupiahs (IDR)
+« IDR » Indonésie, rupiahs (IDR)
 
-&quot;XDR&quot; Droits de tirage spéciaux (XDR) du Fonds Monétaire International
+« XDR » Fonds Monétaire International, droits de tirage spéciaux (XDR)
 
-&#39;IRR&#39; Iran Rials (IRR)
+« IRR » Iran, rials (IRR)
 
-&#39;IQD&#39; Dinars Irakiens (IQD)
+« IQD » Irak, dinars (IQD)
 
-IMP (IMP) Livre (IMP)
+« IMP » Île de Man, livres (IMP)
 
-&#39;ILS&#39; Israël Nouveaux shekels (ILS)
+« ILS » Israël, nouveaux shekels (ILS)
 
-&quot;JMD&quot; dollars jamaïcains (JMD)
+« JMD » Jamaïque, dollars (JMD)
 
-JPY (JPY) Yen (JPY)
+« JPY » Japon, yens (JPY)
 
-JEP Jersey Livres (JEP)
+« JEP » Jersey, livres (JEP)
 
-JOD (JOD) Jordan Dinars (JOD)
+« JOD » Jordanie, dinars (JOD)
 
-&quot;KZT&quot; Kazakhstan Tenge (KZT)
+« KZT » Kazakhstan, tenges (KZT)
 
-&#39;KES&#39; (Kenya Shillings) (KES)
+« KES » Kenya, shillings (KES)
 
-KWD (KWD) Koweït Dinars (KWD)
+« KWD » Koweït, dinars (KWD)
 
-&quot;KGS&quot; Soms Kirghizistan (KGS)
+« KGS » Kirghizistan, soms (KGS)
 
-&#39;LAK&#39; Kips Laos (LAK)
+« LAK » Laos, kips (LAK)
 
-LVL (LVL) Lettonie (LVL)
+« LVL » Lettonie, lats (LVL)
 
-&quot;LBP&quot; Liban Livres (LBP)
+« LBP » Liban, livres (LBP)
 
-&quot;LSL&quot; Lesotho Maloti (LSL)
+« LSL » Lesotho, maloti (LSL)
 
-&quot;LRD&quot; Dollars Liberia (LRD)
+« LRD » Libéria, dollars (LRD)
 
-&#39;LYD&#39; Libye Dinars (LYD)
+« LYD » Libye, dinars (LYD)
 
-&quot;LTL&quot; Lituanie Litai (LTL)
+« LTL » Lituanie, litas (LTL)
 
-&quot;MOP&quot; Macao Patacas (MOP)
+« MOP » Macao, patacas (MOP)
 
-&#39;MKD&#39; Macédoine Denars (MKD)
+« MKD » Macédoine, denars (MKD)
 
-&quot;MGA&quot; Ariary (MGA)
+« MGA » Madagascar, ariary (MGA)
 
-&#39;MWK&#39; Malawi Kwachas (MWK)
+« MWK » Malawi, kwachas (MWK)
 
-&#39;MYR&#39; Malaisie Ringgits (MYR)
+« MYR » Malaisie, ringgits (MYR)
 
-&#39;MVR&#39; Roufiyaa (MVR) des Maldives
+« MVR » Maldives, rufiyaa (MVR)
 
-&quot;MTL&quot; Malte Liri (MTL)
+« MTL » Malte, lires (MTL)
 
-&quot;MRO&quot; Mauritanie Ouguiyas (MRO)
+« MRO » Mauritanie, Ouguiyas (MRO)
 
-&#39;MUR&#39; Roupies mauriciennes (MUR)
+« MUR » Maurice, roupies (MUR)
 
-&#39;MXN&#39; Pesos Mexicains (MXN)
+« MXN » Mexique, pesos (MXN)
 
-&quot;MDL&quot; Moldavie Lei (MDL)
+« MDL » Moldavie, lei (MDL)
 
-Tugriks (MNT) de Mongolie
+« MNT » Mongolie, tugriks (MNT)
 
-&#39;MAD&#39; (Maroc Dirhams)
+« MAD » Maroc, dirhams (MAD)
 
-Mozambique Meticais (MZN)
+« MZN » Mozambique, meticais (MZN)
 
-Mozambique Meticais (MZM)
+« MZM » Mozambique, meticais (MZM)
 
-&quot;MMK&quot; Kyats (MMK)
+« MMK » Myanmar, kyats (MMK)
 
-&quot;NAD&quot; Namibie Dollars (NAD)
+« NAD » Namibie, dollars (NAD)
 
-&#39;NPR&#39; Roupies Népalaises (NPR)
+« NPR » Népal, roupies (NPR)
 
-&#39;ANG&#39; Florins des Antilles Néerlandaises (ANG)
+« ANG » Antilles néerlandaises, florins (ANG)
 
-&quot;NZD&quot; Dollars Nouvelle-Zélande (NZD)
+« NZD » Nouvelle-Zélande, dollars (NZD)
 
-&quot;NIO&quot; Nicaragua Cordobas (NIO)
+« NIO » Nicaragua, cordobas d’or (NIO)
 
-&quot;NGN&quot; Nigeria Nairas (NGN)
+« NIO » Nigéria, nairas (NGN)
 
-KPW (Corée du Nord) Won (KPW)
+« KPW » Corée du Nord, wons (KPW)
 
-&quot;NOK&quot; Couronne de Norvège (NOK)
+« NOK » Norvège, couronnes (NOK)
 
-OMR (Oman Rials)
+« OMR » Oman, rials (OMR)
 
-&#39;PKR&#39; Roupies Pakistanaises (PKR)
+« PKR » Pakistan, roupies (PKR)
 
-Onces Palladium &quot;XPD&quot; (XPD)
+« XPD » Palladium, onces (XPD)
 
-&quot;PAB&quot; Panama Balboas (PAB)
+« PAB » Panama, balboas (PAB)
 
-PGK, Papouasie-Nouvelle-Guinée, Chine
+« PGK » Papouasie-Nouvelle-Guinée, kinas (PGK)
 
-Paraguay Guarani (PYG)
+« PYG » Paraguay, guaranis (PYG)
 
-&#39;PEN&#39; Pérou Nuevos Soles (PEN)
+« PEN » Pérou, nouveaux soles (PEN)
 
-&#39;PHP&#39; Pesos (PHP)
+« PHP » Philippines, pesos (PHP)
 
-Onces Platine &quot;XPT&quot; (XPT)
+« XPT » Platine, onces (XPT)
 
-&quot;PLN&quot; Pologne Zlotych (PLN)
+« PLN » Pologne, złotys (PLN)
 
-QAR : Riyals du Qatar (QAR)
+« QAR » Qatar, rials (QAR)
 
-&quot;ROL&quot; Roumanie Lei (ROL)
+« ROL » Roumanie, lei (ROL)
 
-&quot;RON&quot; Roumanie Nouveau Lei (RON)
+« RON » Roumanie, nouveaux lei (RON)
 
-&#39;RUB&#39; Russie Roubles (RUB)
+« RUB » Russie, roubles (RUB)
 
-&#39;RUR&#39; Russie Roubles (RUR)
+« RUR » Russie, roubles (RUR)
 
-&#39;RWF&#39; Rwanda Francs (RWF)
+« RWL » Rwanda, francs (RWF)
 
-&quot;SHP&quot; Livre (SHP)
+« SHP » Sainte-Hélène, livres (SHP)
 
-Samoa Tala (WST)
+« WST » Samoa, talas (WST)
 
-&#39;STD&#39; Dobras de São Tomé-et-Principe (STD)
+« STD » São Tomé-et-Principe, dobras (STD)
 
-Arabie Saoudite : rials (SAR)
+« SAR » Arabie saoudite, rials (SAR)
 
-&quot;SPL&quot; Seborga Luigini (SPL)
+« SPL » Seborga, luigini (SPL)
 
-&quot;RSD&quot; dinars serbes (RSD)
+« RSD » Serbie, dinars (RSD)
 
-&quot;CSD&quot; Serbe Dinars (CSD)
+« CSD » Serbie, dinars (CSD)
 
-&quot;SCR&quot; roupies des Seychelles (SCR)
+« SCR » Seychelles, roupies (SCR)
 
-&quot;SLL&quot; Sierra Leone Leones (SLL)
+« SLL » Sierra Leone, leones (SLL)
 
-Onces Argent &quot;XAG&quot; (XAG)
+« XAG » onces d’argent (XAG)
 
-&#39;SGD&#39; Dollars de Singapour (SGD)
+« SGD » Singapour, dollars (SGD)
 
-&quot;SKK&quot; Slovaquie Koruny (SKK)
+« SKK » Slovaquie, couronnes (SKK)
 
-&quot;SIT&quot; Slovénie Tolars (SIT)
+« SIT » Slovénie, tolars (SIT)
 
-&quot;SBD&quot; Dollars (SBD)
+« SBD » Îles Salomon, dollars (SBD)
 
-&quot;SOS&quot; Somalie Shillings (SOS)
+« SOS » Somalie, shillings (SOS)
 
-&#39;ZAR&#39; Rand (ZAR)
+« ZAR » Afrique du Sud, rands (ZAR)
 
-&#39;KRW&#39; Corée du Sud Won (KRW)
+« KRW » Corée du Sud, wons (KRW)
 
-&quot;LKR&quot; Roupies du Sri Lanka (LKR)
+« LKR » Sri Lanka, roupies (LKR)
 
-&quot;SDD&quot; Dinars soudanais (SDD)
+« SDD » Soudan, dinars (SDD)
 
-&quot;SDG&quot; Soudan Livres (SDG)
+« SDG » Soudan, livres (SDG)
 
-&quot;SRD&quot; Dollars Surinam (SRD)
+« SRD » Surinam, dollars (SRD)
 
-&#39;SRG&#39; Surinam Guilders (SRG)
+« SRG » Suriname, livres (SRG)
 
-&quot;SZL&quot; Swaziland Emalangeni (SZL)
+« SZL » Swaziland, emalangenis (SZL)
 
-&quot;SEK&quot; Couronne suédoise (SEK)
+« SEK » Suède, couronnes (SEK)
 
-&quot;CHF&quot; Suisse Francs (CHF)
+« CHF » Suisse, francs (CHF)
 
-SYP (SYP) Livres Syriennes
+« SYP » Syrie, livres (SYP)
 
-TWD (TWD) Nouveaux dollars (TWD)
+« TWD » Taïwan, nouveaux dollars (TWD)
 
-&#39;TJS&#39; Tajikistan Somoni (TJS)
+« TJS » Tadjikistan, somonis (TJS)
 
-&#39;TZS&#39; Tanzanie Shillings (TZS)
+« TZS » Tanzanie, shillings (TZS)
 
-&#39;THB&#39; Thailand Baht (THB)
+« THB » Thaïlande, bahts (THB)
 
-&#39;TOP&#39; Tonga Pa&#39;anga (TOP)
+« TOP » Tonga, pa’angas (TOP)
 
-&quot;TTD&quot; Dollars (TTD)
+« TTD » Trinidad et Tobago, dollars (TTD)
 
-&#39;TND&#39; Tunisie Dinars (TND)
+« TND » Tunisie, dinars (TND)
 
-&#39;TRY&#39; Turquie Lira (TRY)
+« TRY » Turquie, lire (TRY)
 
-&#39;TRL&#39; Turquie Liras (TRL)
+« TRL » Turquie, lires (TRL)
 
-&#39;TMM&#39; Turkménistan Manats (TMM)
+« TMM » Turkménistan, manats (TMM)
 
-&#39;TMT&#39; Turkménistan Nouveau Manat (TMT)
+« TMT » Turkménistan, nouveaux manats (TMT)
 
-&quot;TVD&quot; Dollars Tuvalu (TVD)
+« TVD » Tuvalu, dollars (TVD)
 
-UGX (Ouganda) Shillings (UGX)
+« UGX » Ouganda, shillings (UGX)
 
-&quot;UAH&quot; Ukraine Hryvnia (UAH)
+« UAH » Ukraine, hryvnia (UAH)
 
-&quot;AED&quot; Dirhams (AED) des Émirats arabes unis
+« AED » Émirats arabes unis, dirhams (AED)
 
-&quot;GBP&quot; Livre (GBP)
+« GBP » Royaume-Uni, livres (GBP)
 
-&quot;USD&quot; sélectionné Dollars des États-Unis (USD)
+« USD » États-Unis, dollars (USD)
 
-&quot;UYU&quot; Uruguay Pesos (UYU)
+« UYU » Uruguay, pesos (UYU)
 
-UZS (UZS)
+« UZS » Ouzbékistan, soums (UZS)
 
-Vanuatu Vatu (VUV)
+« VUV » Vanuatu, vatu (VUV)
 
-&#39;VEB&#39; Venezuela Bolivares (VEB)
+« VEB » Vénézuela, bolivars (VEB)
 
-Venezuela Bolivares Fuertes (VEF)
+« VEF » Vénézuela, bolivars fuertes (VEF)
 
-Vietnam Dong (VND)
+« VND » Vietnam, dong (VND)
 
-YER Rials Yemen (YER)
+« YER » Yémen, rials (YER)
 
-&quot;ZMK&quot; Zambie Kwacha (ZMK)
+« ZMK » Zambie, kwacha (ZMK)
 
-&#39;ZMW&#39; Zambie Kwacha (ZMW)
+« ZMW » Zambie, kwacha (ZMW)
 
-ZWD (ZWD) Dollars du Zimbabwe (ZWD)
+« ZWD » Zimbabwe, dollars (ZWD)
 
 
-## Exemple d’AppMeasurement.js
+## Exemple AppMeasurement.js
 
-La `currencyCode` variable peut être définie globalement dans le fichier AppMeasurement.js. La définition de la variable currencyCode dans ce fichier garantit que toutes les transactions de devise utilisent un code de devise uniforme. L’exemple ci-dessous spécifie Euros comme `currencyCode` variable dans le fichier `CONFIG SECTION` AppMeasurement.js. Tous les événements d&#39;achat seront interprétés en déclarant comme des transactions en &quot;euro&quot;.
+La variable `currencyCode` peut être définie globalement dans le fichier AppMeasurement.js. Le fait de définir la variable currencyCode dans ce fichier garantit que toutes les transactions de devises utilisent un code de devise uniforme. L’exemple ci-dessous indique l’euro comme variable `currencyCode` dans la `CONFIG SECTION` du fichier AppMeasurement.js. Tous les événements d’achat seront interprétés comme des transactions en « euro » pour la création de rapports.
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -428,12 +428,12 @@ s.linkTrackEvents="None"
     
 ```
 
-Pour plus d’informations sur la modification du fichier AppMeasurement.js, voir [Insertion de code dans le fichier](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)AppMeasurement.js.
+Pour plus d’informations sur la modification du fichier AppMeasurement.js, voir [Insertion de code dans le fichier AppMeasurement.js](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.translate.html).
 
-## Autres remarques concernant l’implémentation
+## Autres remarques concernant la mise en œuvre
 
-* Gardez à l’esprit que si les codes de devise peuvent changer d’une page à l’autre, tous les éléments de ligne de conversion définis dans une requête de page donnée doivent utiliser la même devise (par exemple, vous ne pouvez pas définir les euros, les livres sterling et les dollars US sur la même page vue). Si vous ne souhaitez pas effectuer de conversion de devise, laissez la valeur currencyCode vide. Les valeurs envoyées sont ainsi transmises directement aux rapports sans conversion.
+* Gardez à l’esprit que, alors que les codes de devise peuvent changer d’une page à l’autre, tous les éléments de ligne de conversion définis sur une demande de page donnée doivent utiliser la même devise (par exemple, il est impossible de définir des euros, des livres sterling et des dollars US sur une même page vue). Si vous ne souhaitez pas effectuer de conversion de devise, laissez la valeur de la variable currencyCode vide. Les valeurs envoyées sont ainsi transmises directement aux rapports sans conversion.
 
-* Si vous définissez un code de devise non valide (toute valeur ne figurant pas dans la liste Codes de devise pris en charge), l’accès complet est exclu et les données ne sont pas collectées pour cette transaction. Avant de définir `currencyCode` en production, utilisez une suite de rapports de test pour vérifier que les données sont collectées et que la conversion de devise est correcte.
+* Si vous définissez une valeur non valide dans la variable currencyCode (toute valeur ne figurant pas dans la liste des codes de devise pris en charge), l’accès complet est exclu et les données ne sont pas collectées pour cette transaction. Avant de définir `currencyCode` en production, utilisez une suite de rapports de test pour vérifier que les données sont collectées et que la conversion de devise est correcte.
 
-* Les devises qui n’utilisent pas un point (.) comme séparateur doivent être modifiées afin d’utiliser un point plutôt que leur séparateur habituel. Par exemple, la couronne suédoise, qui utilise la virgule (,), devra être modifiée pour utiliser un point comme séparateur des décimales. Analytics utilise la virgule pour séparer les valeurs et les données ne seront pas transmises correctement. La période transmet correctement la valeur aux rapports.
+* Les devises qui n’utilisent pas un point (.) comme séparateur doivent être modifiées afin d’utiliser un point plutôt que leur séparateur habituel. Par exemple, la couronne suédoise qui utilise la virgule (,) devra être modifiée pour utiliser un point comme séparateur des décimales. Dans le cas contraire, comme Analytics utilise la virgule pour séparer les valeurs, les données ne seraient pas transmises correctement. Le point, au contraire, permet de transmettre les valeurs aux rapports.
