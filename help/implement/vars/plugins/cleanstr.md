@@ -2,29 +2,29 @@
 title: cleanStr
 description: Supprimez ou remplacez tous les caractères superflus d’une chaîne.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Module externe Adobe :cleanStr
+# Module externe Adobe : cleanStr
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-Le `cleanStr` module externe supprime ou remplace tous les caractères superflus d’une chaîne, y compris les caractères de balise HTML, les espaces blancs supplémentaires, les onglets et les retours chariot/nouvelle ligne. Il remplace également les guillemets simples gauche/droite (`‘` et `’`) les guillemets simples droits (`'`). Adobe recommande d’utiliser ce module externe si vous souhaitez supprimer les caractères superflus des valeurs de variable et que la fonction &quot;Nettoyer le texte&quot; dans Launch ne répond pas à vos besoins en matière d’implémentation. Ce module externe n’est pas nécessaire si les données collectées ne contiennent pas de caractères superflus ou si la fonction &quot;Nettoyer le texte&quot; du lancement est suffisante.
+Le `cleanStr` module externe supprime ou remplace tous les caractères superflus d’une chaîne, y compris les caractères de balise HTML, les espaces blancs supplémentaires, les onglets et les retours chariot/nouvelle ligne. Il remplace également les guillemets simples gauche/droite (`‘` et `’`) par des guillemets simples droits (`'`). Adobe recommande d’utiliser ce module externe si vous souhaitez supprimer les caractères superflus des valeurs de variable et que la fonction &quot;Nettoyer le texte&quot; dans Launch ne répond pas à vos besoins en matière d’implémentation. Ce module externe n’est pas nécessaire si les données collectées ne contiennent pas de caractères superflus ou si la fonction &quot;Nettoyer le texte&quot; du lancement est suffisante.
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialiser cleanStr
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -35,14 +35,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,7 +55,7 @@ function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)
 
 La `cleanStr` méthode utilise les arguments suivants :
 
-* **`str`**(obligatoire, chaîne) : Valeur que vous souhaitez nettoyer le codage HTML, les espaces blancs supplémentaires, les onglets ou d’autres caractères inutiles.
+* **`str`** (obligatoire, chaîne) : Valeur que vous souhaitez nettoyer le codage HTML, les espaces blancs supplémentaires, les onglets ou d’autres caractères superflus.
 
 La méthode renvoie la valeur de l’ `str` argument avec tous les caractères superflus supprimés.
 
