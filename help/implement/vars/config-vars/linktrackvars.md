@@ -2,16 +2,16 @@
 title: linkTrackVars
 description: Spécifiez les variables à inclure dans les demandes d’image de suivi des liens.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackVars
 
-Certaines implémentations ne souhaitent pas inclure toutes les variables dans toutes les demandes d’image de suivi de liens. Utilisez les `linkTrackVars` variables et `linkTrackEvents` pour inclure de manière sélective des dimensions et des mesures dans `tl()` les appels.
+Certaines implémentations ne souhaitent pas inclure toutes les variables dans toutes les demandes d’image de suivi de liens. Utilisez les `linkTrackVars` variables et [`linkTrackEvents`](linktrackevents.md) pour inclure de manière sélective des dimensions et des mesures dans [`tl()`](../functions/tl-method.md) les appels.
 
-Cette variable n’est pas utilisée pour les appels de page vue (`t()` fonction).
+Cette variable n’est pas utilisée pour les appels de  de page (`t()` méthode).
 
 ## Variables des appels de suivi de liens à l’aide d’Adobe Experience Platform Launch
 
@@ -21,7 +21,7 @@ Launch renseigne automatiquement cette variable sur le serveur principal en fonc
 
 ## s.linkTrackVars dans AppMeasurement et lancement de l’éditeur de code personnalisé
 
-La `s.linkTrackVars` variable est une chaîne contenant une liste de variables délimitées par des virgules que vous souhaitez inclure dans les demandes d’image de suivi de liens (`tl()` fonction). Les deux critères suivants doivent être satisfaits pour inclure des dimensions dans les accès de suivi des liens :
+La `s.linkTrackVars` variable est une chaîne contenant un délimité par des virgules de variables que vous souhaitez inclure dans les demandes d’image de suivi de liens (`tl()` méthode). Les deux critères suivants doivent être satisfaits pour inclure des dimensions dans les accès de suivi des liens :
 
 * Définissez la valeur de variable souhaitée. Par exemple : `s.eVar1 = "Example value";`.
 * Définissez la variable souhaitée dans la `linkTrackVars` variable. Par exemple : `s.linkTrackEvents = "eVar1";`.
@@ -35,7 +35,7 @@ La valeur par défaut de cette variable est une chaîne vide. Adobe a toutefois 
 * Si cette variable n’est pas définie ou définie sur une chaîne vide, *toutes les* variables sont incluses dans les demandes d’image de suivi des liens.
 * Si cette variable est définie sur `"None"`, *aucune* variable n’est incluse dans les demandes d’image de suivi de lien.
 
-> [!TIP] Evitez d’utiliser l’identifiant d’objet Analytics (`s.`) lors de la spécification de variables dans cette variable. Par exemple, `s.linkTrackVars = "eVar1";` est correct, alors `s.linkTrackVars = "s.eVar1";` qu’il est incorrect.
+> [!TIP] Evitez d’utiliser l’identifiant d’objet Analytics (`s.`) lors de la spécification de variables dans cette variable. Par exemple, `s.linkTrackVars = "eVar1";` est correcte, alors `s.linkTrackVars = "s.eVar1";` qu’elle est incorrecte.
 
 ## Exemple
 
