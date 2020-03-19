@@ -1,7 +1,7 @@
 ---
 title: Déploiement d’Adobe Analytics dans un environnement de développement
 description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics dans votre environnement de développement.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
@@ -25,7 +25,7 @@ Launch prend en charge de nombreux processus organisationnels pour le déploieme
 4. Nommez-le « Akamai », puis sélectionnez Akamai dans la liste déroulante de types. Cliquez sur Enregistrer.
 5. Accédez à l’onglet Environnements, puis cliquez sur Créer un environnement.
 6. Sélectionnez Développement, donnez-lui le nom « Environnement de développement », puis sélectionnez l’adaptateur Akamai dans la liste déroulante. Cliquez sur Créer, puis sur Fermer.
-7. Cliquez sur Ajouter un environnement, sélectionnez Évaluation, donnez-lui le nom « Environnement d’évaluation  », puis sélectionnez l’adaptateur Akamai. Cliquez sur Créer, puis sur Fermer.
+7. Cliquez sur Ajouter un environnement, sélectionnez Évaluation, donnez-lui le nom « Environnement d’évaluation », puis sélectionnez l’adaptateur Akamai. Cliquez sur Créer, puis sur Fermer.
 8. Cliquez à nouveau sur Ajouter un environnement, sélectionnez Production, donnez-lui le nom « Environnement de production », puis sélectionnez l’adaptateur Akamai. Cliquez sur Créer, puis sur Fermer.
 
 ## Création d’une bibliothèque de développement
@@ -69,8 +69,8 @@ Une raison fréquente est que des éléments existent déjà dans d’autres bib
 
 ## Documentation et ressources supplémentaires
 
-- [Prise en main du lancement](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html): Découvrez le flux de travail de base du lancement
-- [Lancer Publication](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html): En savoir plus sur la publication et les environnements
+- [Prise en main de Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/intro/get-started/quick-start.html) : découverte du processus de base de Launch
+- [Publication à l’aide de Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/publish/overview.html) : en savoir plus sur la publication et les environnements
 
 ## Étapes suivantes
 
