@@ -1,8 +1,8 @@
 ---
-title: ' apl (appendToList)'
+title: apl (appendToList)
 description: Ajoutez des valeurs aux variables qui prennent en charge plusieurs valeurs.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,28 +11,28 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-Le `apl` module externe vous permet d’ajouter en toute sécurité de nouvelles valeurs à des variables délimitées par des listes, telles que `events`, `linkTrackVars`, variables de liste, etc.
+Le `apl` module externe vous permet d’ajouter en toute sécurité de nouvelles valeurs à des variables délimitées par des , telles que [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md)et d’autres.
 
 * Si la valeur que vous souhaitez ajouter n’existe pas dans la variable, le code ajoute la valeur à la fin de la chaîne.
-* Si la valeur que vous souhaitez ajouter existe déjà dans la variable, ce module externe ne modifie pas la valeur. Cette fonctionnalité permet à votre implémentation d’éviter les valeurs en double.
+* Si la valeur que vous souhaitez ajouter existe déjà dans la variable, ce module externe ne modifie pas la valeur. Cette fonctionnalité permet à votre implémentation d’éviter les valeurs  de.
 * Si la variable que vous souhaitez ajouter est vide, le module externe la définit sur la nouvelle valeur.
 
 Adobe recommande d’utiliser ce module externe si vous souhaitez ajouter de nouvelles valeurs aux variables existantes qui contiennent une chaîne de valeurs délimitées. Ce module externe n’est pas nécessaire si vous préférez concaténer des chaînes pour des variables contenant des valeurs délimitées.
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
-   * Type d&#39;action : Initialiser APL (Ajouter à la liste)
+   * Type d&#39;action : Initialiser APL (Ajouter au )
 1. Enregistrez et publiez les modifications apportées à la règle.
 
 ## Installation du module externe à l’aide de l’éditeur de code personnalisé Lancer
@@ -41,14 +41,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -64,13 +64,13 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 La `apl` méthode utilise les arguments suivants :
 
-* **`lv`**(obligatoire, chaîne) : Variable qui contient une liste délimitée d’éléments à laquelle ajouter une nouvelle valeur
-* **`vta`**(obligatoire, chaîne) : Liste délimitée par des virgules des nouvelles valeurs à ajouter à la valeur de l’`lv`argument.
-* **`d1`**(facultatif, chaîne) : Délimiteur utilisé pour séparer les valeurs individuelles déjà contenues dans l’`lv`argument.  La valeur par défaut est une virgule (`,`) lorsqu’elle n’est pas définie.
-* **`d2`**(facultatif, chaîne) : Délimiteur de sortie. La valeur par défaut est la même que`d1`lorsqu’elle n’est pas définie.
-* **`cc`**(facultatif, booléen) : Indicateur qui indique si une vérification sensible à la casse est utilisée. Si`true`vous le souhaitez, la vérification de duplication est sensible à la casse. Si elle est`false`ou non définie, la vérification de duplication n’est pas sensible à la casse. Par défaut,`false`.
+* **`lv`** (obligatoire, chaîne) : Variable qui contient un délimité d’éléments pour ajouter une nouvelle valeur à
+* **`vta`** (obligatoire, chaîne) : délimité par des virgules des nouvelles valeurs à ajouter à la valeur de l’ `lv` argument.
+* **`d1`** (facultatif, chaîne) : Délimiteur utilisé pour séparer les valeurs individuelles déjà contenues dans l’ `lv` argument.  La valeur par défaut est une virgule (`,`) lorsqu’elle n’est pas définie.
+* **`d2`** (facultatif, chaîne) : Délimiteur de sortie. La valeur par défaut est la même que `d1` lorsqu’elle n’est pas définie.
+* **`cc`** (facultatif, booléen) : Indicateur qui indique si une vérification sensible à la casse est utilisée. Si `true`vous le souhaitez, la vérification de duplication est sensible à la casse. Si elle est `false` ou non définie, la vérification de duplication n’est pas sensible à la casse. Par défaut, `false`.
 
-La `apl` méthode renvoie la valeur de l’ `lv` argument plus les valeurs non dupliquées de l’ `vta` argument.
+La `apl` méthode renvoie la valeur de l’ `lv` argument plus les valeurs non-de l’ `vta` argument.
 
 ## Exemples d’appels
 
@@ -88,7 +88,7 @@ s.events = "event22,event24";
 s.events = s.apl(s.events, "event23");
 ```
 
-...la valeur finale de s.events sera :
+... la valeur finale de s.sera :
 
 ```js
 s.events = "event22,event24,event23";
@@ -108,13 +108,13 @@ s.events = "event22,event23";
 s.events = s.apl(s.events, "event23");
 ```
 
-...la valeur finale de s.events sera toujours :
+... la valeur finale de s.sera toujours :
 
 ```js
 s.events = "event22,event23";
 ```
 
-Dans cet exemple, l’appel apl n’a apporté aucune modification à s.events, car s.events contenait déjà &quot;event23&quot;.
+Dans cet exemple, l’appel apl n’a apporté aucune modification à s.car s.contenait déjà &quot;23&quot;.
 
 ### Exemple n° 3
 
@@ -130,7 +130,7 @@ s.events = ""; //blank value
 s.events = s.apl(s.events, "event23");
 ```
 
-... la valeur finale de s.events sera...
+... la valeur finale de s. sera...
 
 ```js
 s.events = "event23";
@@ -150,7 +150,7 @@ s.prop4 = "hello|people";
 s.eVar5 = s.apl(s.prop4, "today", "|");
 ```
 
-...la valeur finale de s.prop4 sera toujours...
+... la valeur finale de s.prop4 sera toujours...
 
 ```js
 s.prop4 = "hello|people";
@@ -200,7 +200,7 @@ s.events = "event22,event23";
 s.events = s.apl(s.events,"EVenT23", ",", ",", true);
 ```
 
-...la valeur finale de s.events sera :
+... la valeur finale de s.sera :
 
 ```js
 s.events = "event22,event23,EVentT23";
@@ -222,13 +222,13 @@ s.events = "event22,event23";
 s.events = s.apl(s.events, "event23,event24,event25");
 ```
 
-...la valeur finale de s.events sera :
+... la valeur finale de s.sera :
 
 ```js
 s.events = "event22,event23,event24,event25");
 ```
 
-Le module externe n’ajoute pas &quot;event23&quot; à s.events, car il existe déjà dans s.events.  Cependant, il ajoute event24 et event25 à s.events car aucun des deux n’était auparavant contenu dans s.events.
+Le plug-in n’ajoute pas &quot;23&quot; à s. car il existe déjà dans s..  Toutefois, il ajoutera à la fois 24 et 25 à s., car aucun des deux n’était auparavant contenu dans s..
 
 ### Exemple n° 8
 
@@ -244,7 +244,7 @@ s.linkTrackVars = "events,eVar1";
 s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
 ```
 
-...la valeur finale de s.linkTrackVars sera :
+... la valeur finale de s.linkTrackVars sera :
 
 ```js
 s.linkTrackVars = "events,eVar1,campaign";
@@ -266,13 +266,13 @@ s.events = "event22,event24";
 s.apl(s.events, "event23");
 ```
 
-...la valeur finale de s.events sera toujours :
+... la valeur finale de s.sera toujours :
 
 ```js
 s.events = "event22,event24";
 ```
 
-L’exécution du plug-in tout seul (sans affecter la valeur renvoyée à une variable) ne &quot;réinitialise&quot; pas en fait la variable transmise par l’intermédiaire de l’argument lv.
+L’exécution du module externe en tant que tel (sans affecter la valeur renvoyée à une variable) ne &quot;réinitialise&quot; pas en fait la variable transmise par l’intermédiaire de l’argument lv.
 
 ### Exemple n° 10
 
@@ -288,7 +288,7 @@ s.list2 = "casesensitivevalue|casesensitiveValue"
 s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
 ```
 
-... la valeur finale de s.list2 sera :
+... la valeur finale de s.2 sera :
 
 ```js
 s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
@@ -312,7 +312,7 @@ Etant donné que les deux arguments de délimiteur sont différents, la valeur t
 
 * Réanalyse/réécriture complète du module externe
 * Ajout de la vérification avancée des erreurs
-* L’ `vta` argument accepte désormais plusieurs valeurs simultanément.
+* L’ `vta` argument accepte désormais plusieurs valeurs à la fois.
 * Ajout de l’ `d2` argument pour formater la valeur renvoyée
 * Modification de l’ `cc` argument en booléen
 
@@ -324,4 +324,4 @@ Etant donné que les deux arguments de délimiteur sont différents, la valeur t
 
 * `d` (Délimiteur) est désormais facultatif (virgule par défaut).
 * `u` (Indicateur de respect de la casse) est désormais facultatif (non-respect de la casse par défaut)
-* Quel que soit l’argument `u` (indicateur de respect de la casse), le plug-in n’ajoute plus de valeur à une liste si la valeur existe déjà dans la liste.
+* Quel que soit l&#39;argument `u` (indicateur de respect de la casse), le module externe n&#39;ajoute plus de valeur à un si la valeur existe déjà dans le 
