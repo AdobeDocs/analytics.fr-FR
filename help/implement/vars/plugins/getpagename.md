@@ -2,7 +2,7 @@
 title: getPageName
 description: Créez un nom de page facile à lire à partir du chemin d’accès au site Web actuel.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,20 +11,20 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-Le `getPageName` module externe crée une version formatée facile à lire et conviviale de l’URL actuelle. Adobe recommande d’utiliser ce module externe si vous souhaitez définir une `pageName` valeur facile à comprendre dans les rapports. Ce module externe n’est pas nécessaire si vous disposez déjà d’une structure d’appellation pour la `pageName` variable, par exemple via une couche de données. Il est préférable de l’utiliser lorsque vous n’avez pas d’autre solution pour définir la `pageName` variable.
+Le `getPageName` module externe crée une version formatée facile à lire et conviviale de l’URL actuelle. Adobe recommande d’utiliser ce module externe si vous souhaitez définir une [`pageName`](../page-vars/pagename.md) valeur facile à comprendre dans les  de. Ce module externe n’est pas nécessaire si vous disposez déjà d’une structure d’appellation pour la `pageName` variable, par exemple via une couche de données. Il est préférable de l’utiliser lorsque vous n’avez pas d’autre solution pour définir la `pageName` variable.
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialiser getPageName
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -35,14 +35,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ var getPageName=function(si,qv,hv,de){var c=location.hostname,f=location.pathnam
 
 La `getPageName` méthode utilise les arguments suivants :
 
-* **`si`**(facultatif, chaîne) : ID inséré au début de la chaîne représentant l’ID du site. Cette valeur peut être un ID numérique ou un nom convivial. Lorsqu’elle n’est pas définie, elle est définie par défaut sur le domaine actif.
-* **`qv`**(facultatif, chaîne) : Liste délimitée par des virgules de paramètres de chaîne de requête qui, s’ils figurent dans l’URL, sont ajoutés à la chaîne
-* **`hv`**(facultatif, chaîne) : Liste délimitée par des virgules de paramètres trouvés dans le hachage d’URL et qui, s’ils figurent dans l’URL, sont ajoutés à la chaîne
-* **`de`**(facultatif, chaîne) : Délimiteur permettant de séparer des parties individuelles de la chaîne. Valeur par défaut de la barre verticale (`|`).
+* **`si`** (facultatif, chaîne) : ID inséré au début de la chaîne représentant l’ID du site. Cette valeur peut être un ID numérique ou un nom convivial. Lorsqu’elle n’est pas définie, elle est définie par défaut sur le domaine actif.
+* **`qv`** (facultatif, chaîne) : Un délimité par des virgules de paramètres de chaîne de  qui, s’il se trouve dans l’URL, sont ajoutés à la chaîne
+* **`hv`** (facultatif, chaîne) : délimité par des virgules de paramètres trouvés dans le hachage d’URL qui, s’il est trouvé dans l’URL, sont ajoutés à la chaîne
+* **`de`** (facultatif, chaîne) : Délimiteur permettant de séparer des parties individuelles de la chaîne. Valeur par défaut de la barre verticale (`|`).
 
 La méthode renvoie une chaîne contenant une version au format convivial de l’URL. Cette chaîne est généralement attribuée à la `pageName` variable, mais elle peut également être utilisée dans d’autres variables.
 
