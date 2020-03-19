@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountSelection
-description: La variable dynamicAccountSelection active ou désactive la sélection de comptes dynamique.
-translation-type: tm+mt
+description: La variable dynamicAccountSelection active ou désactive la sélection de comptes dynamiques.
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 # dynamicAccountSelection
 
-> [!IMPORTANT] Les comptes dynamiques sont uniquement pris en charge à l’aide des implémentations JavaScript héritées (code H). Ces variables ne sont pas prises en charge dans les bibliothèques AppMeasurement actuelles ou dans le lancement d’Adobe Experience Platform.
+> [!IMPORTANT] Les comptes dynamiques sont uniquement pris en charge à l’aide des mises en œuvre JavaScript héritées (code H). Ces variables ne sont pas prises en charge dans les bibliothèques AppMeasurement actuelles ou dans Adobe Experience Platform Launch.
 
-La `dynamicAccountSelection` variable est une valeur booléenne qui détermine si la sélection de compte dynamique est utilisée.
+La variable `dynamicAccountSelection` est une valeur booléenne qui détermine si la sélection de compte dynamique est utilisée.
 
 S’il est défini sur `true`, le fichier JavaScript examine `dynamicAccountMatch` et `dynamicAccountList`.
 
@@ -19,7 +19,7 @@ Si cette variable est définie sur `false`, ou si elle n’est pas définie, les
 
 Si cette variable n’est pas définie, la valeur par défaut est `false`.
 
-## du lien personnalisé
+## Syntaxe
 
 ```js
 s.dynamicAccountSelection = [boolean];
