@@ -2,14 +2,14 @@
 title: writeSecureCookies
 description: Permet à AppMeasurement de définir des cookies avec l’attribut Secure.
 translation-type: tm+mt
-source-git-commit: 7644f70dfec5380fc75be14605f1c4f74ee4a8c3
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # writeSecureCookies
 
-La `writeSecureCookies` variable permet à AppMeasurement de définir des cookies [](https://en.wikipedia.org/wiki/Secure_cookie) sécurisés pour Analytics. Ce paramètre s’applique aux cookies d’identification des visiteurs définis par AppMeasurement et aux cookies que vous définissez à l’aide de la `Util.CookieWrite` méthode. Il nécessite AppMeasurement 2.18.0 ou une version ultérieure.
+La `writeSecureCookies` variable permet à AppMeasurement de définir des cookies [](https://en.wikipedia.org/wiki/Secure_cookie) sécurisés pour Analytics. Ce paramètre s’applique aux cookies d’ID de définis par AppMeasurement et aux cookies que vous définissez à l’aide de la `Util.CookieWrite()` méthode. Il nécessite AppMeasurement 2.18.0 ou une version ultérieure.
 
 > [!IMPORTANT] Si vous activez la `writeSecureCookies` variable, assurez-vous que tout le contenu de votre site est diffusé en toute sécurité via HTTPS. AppMeasurement ne fonctionne pas si cette variable est activée et que votre page contient du contenu non sécurisé.
 
