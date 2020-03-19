@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Général
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 Description des champs pour les paramètres Général dans DTM, pour déploiement d’Adobe Analytics.
 
-**[!UICONTROL &lt;Propriété>]**> Outil![](assets/settings_gear.png)de**[!UICONTROL  modification >]** **[!UICONTROL Général]**
+**[!UICONTROL &lt;Propriété>]** > ![](assets/settings_gear.png) **[!UICONTROL Modifier l’outil]** > **[!UICONTROL Général]**
 
 <table id="table_DD8DA303698041D296DD5DB080AF7971"> 
  <thead> 
@@ -52,7 +52,7 @@ Description des champs pour les paramètres Général dans DTM, pour déploiemen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serveur de suivi SSL </p> </td> 
-   <td colname="col2"> <p>Domaine au niveau duquel sont écrits le cookie et la demande d’image. Cet élément est utilisé pour les pages sécurisées. Si la variable n’est pas défini, les données SSL sont envoyées à la variable <span class="term"> trackingServer </span>. </p> </td> 
+   <td colname="col2"> <p>Domaine au niveau duquel sont écrits le cookie et la demande d’image. Cet élément est utilisé pour les pages sécurisées. Si la variable n’est pas défini, les données SSL sont envoyées à la variable  <span class="term">trackingServer</span>.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Centre de données </p> </td> 
