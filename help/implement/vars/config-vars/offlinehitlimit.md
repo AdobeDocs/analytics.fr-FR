@@ -2,16 +2,16 @@
 title: offlineHitLimit
 description: Déterminez le nombre maximal d’accès à mettre en file d’attente pour le suivi hors ligne.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # offlineHitLimit
 
-Le suivi hors ligne est une méthode facultative de collecte de données dans Adobe Analytics. Si un visiteur se déconnecte d’Internet mais continue à parcourir votre site, les accès sont stockés dans une file d’attente hors ligne jusqu’à ce que le périphérique se reconnecte à Internet. Le suivi hors ligne est principalement utilisé pour les applications mobiles.
+Le suivi hors ligne est une méthode facultative de collecte de données dans Adobe Analytics. Si un se déconnecte d’Internet mais continue à parcourir votre site, les accès sont stockés dans une file d’attente hors ligne jusqu’à ce que le périphérique se reconnecte à Internet. Le suivi hors ligne est principalement utilisé pour les applications mobiles.
 
-La `offlineHitLimit` variable plafonne le nombre d’accès que le périphérique stocke localement. Cette variable ne fonctionne que si `trackOffline` est `true`.
+La `offlineHitLimit` variable plafonne le nombre d’accès que le périphérique stocke localement. Cette variable ne fonctionne que si [`trackOffline`](trackoffline.md) elle est activée.
 
 ## Limite d’accès hors ligne dans le lancement d’Adobe Experience Platform
 
