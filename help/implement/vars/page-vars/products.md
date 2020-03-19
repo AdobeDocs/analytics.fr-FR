@@ -1,8 +1,8 @@
 ---
 title: products
-description: Envoyez des données autour du ou des produits affichés ou du panier.
+description: Envoyez des données autour du ou des produits affichés ou dans le panier.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,15 +11,15 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 La `products` variable effectue le suivi des produits et des propriétés qui leur sont liées. Cette variable est généralement définie sur des pages de produit individuelles, des pages de panier d’achat et des pages de confirmation d’achat. Il s’agit d’une variable à plusieurs valeurs, ce qui signifie que vous pouvez envoyer plusieurs produits dans le même accès et qu’Adobe analyse la valeur dans des valeurs de dimension distinctes.
 
-> [!NOTE] Si cette variable est définie dans un accès sans événement de panier d’achat dans la `events` variable, la mesure &quot;Consultations produits&quot; est incrémentée de 1. Assurez-vous de définir l’événement approprié pour le panier d’achat pour chaque accès.
+> [!NOTE] Si cette variable est définie dans un accès sans de panier d’achat dans la [`events`](events/events-overview.md) variable, la mesure &quot;de produits &quot; est incrémentée de 1. Veillez à définir le de panier approprié pour chaque accès.
 
 ## Produits dans Adobe Experience Platform Launch
 
 Il n&#39;existe pas de champ dédié dans Launch pour définir cette variable ; toutefois, il existe plusieurs extensions tierces pour vous aider.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-2. Cliquez sur une propriété.
-3. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur [!UICONTROL Catalogue] pour afficher toutes les extensions disponibles.
+2. Cliquez sur la propriété de votre choix.
+3. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur [!UICONTROL Catalog] pour afficher toutes les extensions disponibles.
 4. Recherchez le terme &quot;produit&quot;, qui révèle plusieurs extensions disponibles pour aider à définir cette variable.
 
 Vous pouvez utiliser l’une de ces extensions ou l’éditeur de code personnalisé suivant la syntaxe AppMeasurement ci-dessous.
@@ -28,11 +28,11 @@ Vous pouvez utiliser l’une de ces extensions ou l’éditeur de code personnal
 
 La `s.products` variable est une chaîne qui contient plusieurs champs délimités par produit. Chaque produit peut contenir jusqu’à 100 octets dans tous les champs. Délimitez chaque champ par un point-virgule (`;`) dans la chaîne.
 
-* **Catégorie** (facultatif) : La catégorie de produits globale. Votre entreprise décide de regrouper les produits en catégories.
+* **** de (facultatif) : Le de produit global . Votre organisation décide de regrouper les produits dans des .
 * **Nom** du produit (obligatoire) : Nom du produit.
-* **Quantité** (facultatif) : Combien de ce produit se trouve dans le panier ? Ce champ s’applique uniquement aux accès avec l’événement d’achat.
-* **Prix** (facultatif) : Prix total du produit sous forme de décimale. Si quantité est supérieure à un, définissez le prix sur le total et non sur le prix du produit individuel. Aligne la devise de cette valeur pour qu’elle corresponde à la `currencyCode` variable. N’incluez pas le symbole de devise dans ce champ. Ce champ s’applique uniquement aux accès avec l’événement d’achat.
-* **Evénements** (facultatif) : Evénements liés au produit. Délimitez plusieurs événements à l’aide d’une barre verticale (`|`). Voir [Evénements](events/events-overview.md) pour plus d’informations.
+* **Quantité** (facultatif) : Combien de ce produit se trouve dans le panier ? Ce champ s’applique uniquement aux accès avec le  d’achat.
+* **Prix** (facultatif) : Prix total du produit sous forme de décimale. Si la quantité est supérieure à un, définissez le prix sur le total et non sur le prix du produit individuel. Aligne la devise de cette valeur pour qu’elle corresponde à la [`currencyCode`](../config-vars/currencycode.md) variable. N’incluez pas le symbole de devise dans ce champ. Ce champ s’applique uniquement aux accès avec le  d’achat.
+* **** de (facultatif) :  lié au produit. Délimitez plusieurs  avec un tuyau (`|`). Voir  [](events/events-overview.md) pour plus d’informations.
 * **eVars** (facultatif) : eVars de marchandisage liées au produit. Délimitez plusieurs eVars de marchandisage à l’aide d’une barre verticale (`|`). Voir eVars [de](../../../components/c-variables/c-merch-variables/var-merchandising.md) marchandisage pour en savoir plus.
 
 ```js
@@ -47,7 +47,7 @@ Cette variable prend en charge plusieurs produits dans le même accès. Il est u
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Veillez à supprimer tous les points-virgules, virgules et tuyaux des noms de produits, des catégories et des valeurs d’eVar de marchandisage. Si un nom de produit comporte une virgule, AppMeasurement l’analyse comme le début d’un nouveau produit. Cette analyse incorrecte renvoie le reste de la chaîne du produit, provoquant des données incorrectes dans les dimensions et les rapports.
+> [!IMPORTANT] Supprimez tous les points-virgules, virgules et tuyaux des noms de produits, des  de et des valeurs d’eVar de marchandisage. Si le nom d’un produit comporte une virgule, AppMeasurement l’analyse comme le  d’un nouveau produit. Cette analyse incorrecte renvoie le reste de la chaîne du produit, provoquant des données incorrectes dans les dimensions et les rapports.
 
 ## Exemples
 
