@@ -2,7 +2,7 @@
 title: Présentation des plug-ins
 description: Collez le code sur votre site pour introduire de nouvelles fonctionnalités.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ Les plug-ins sont des fragments de code qui exécutent plusieurs fonctions avanc
 
 > [!IMPORTANT] Les plug-ins sont fournis par Adobe Consulting à titre gracieux pour vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit aucune assistance pour ces modules externes, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur un module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-Adobe propose plusieurs méthodes pour installer un module externe donné :
+Adobe  plusieurs  manières d’installer un module externe donné :
 
 1. Utilisation de l’extension Common Analytics Plugins à l’aide d’Adobe Experience Platform Launch
 2. Coller le code du module externe à l’aide de l’éditeur de code personnalisé Lancer
@@ -21,7 +21,7 @@ Adobe propose plusieurs méthodes pour installer un module externe donné :
 
 Chaque organisation a des besoins d’implémentation différents. Vous pouvez donc décider de la manière dont vous souhaitez les inclure dans votre implémentation. Veillez à respecter les critères suivants lorsque vous incluez le code sur votre site :
 
-1. Instanciez d’abord l’objet de suivi Analytics (à l’aide `s_gi`).
+1. Instanciez d’abord l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)).
    * Lancer instancie automatiquement l’objet de suivi au chargement d’Adobe Analytics.
    * Implémentations utilisant `AppMeasurement.js` généralement l’initialisation de l’objet de suivi en haut du fichier JavaScript.
 2. Insérez le code du module externe en deuxième.
