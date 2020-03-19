@@ -2,7 +2,7 @@
 title: AppMeasurement pour JavaScript
 description: Découvrez comment implémenter Adobe Analytics à l’aide de JavaScript sans système de gestion des balises.
 translation-type: tm+mt
-source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,7 +19,7 @@ AppMeasurement pour JavaScript a toujours été une méthode courante pour impl�
    <script src="AppMeasurement.js"></script>
    ```
 
-2. Définissez des variables de configuration dans `AppMeasurement.js`. Lorsque l’objet Analytics est appelé, ces variables garantissent que les paramètres de collecte de données sont corrects. Voir Variables [de](../vars/config-vars/configuration-variables.md) configuration pour obtenir la liste complète des variables que vous pouvez définir.
+2. Définissez des variables de configuration dans `AppMeasurement.js`. Lorsque l’objet Analytics est appelé, ces variables garantissent que les paramètres de collecte de données sont corrects. Voir Variables [de](../vars/config-vars/configuration-variables.md) configuration pour obtenir un complet de variables que vous pouvez définir.
 
    ```js
    // Instantiate the Analytics tracking object with report suite ID
@@ -29,7 +29,7 @@ AppMeasurement pour JavaScript a toujours été une méthode courante pour impl�
    s.trackingServer = "example.omtrdc.net";
    ```
 
-3. Définissez des variables de niveau page dans le code de page de votre site. Ces variables déterminent des dimensions et des mesures spécifiques envoyées à Adobe. Voir Variables [de](../vars/page-vars/page-variables.md) page pour obtenir la liste complète des variables que vous pouvez définir.
+3. Définissez des variables de niveau page dans le code de page de votre site. Ces variables déterminent des dimensions et des mesures spécifiques envoyées à Adobe. Voir Variables [de](../vars/page-vars/page-variables.md) page pour obtenir un complet de variables que vous pouvez définir.
 
    ```js
    s.pageName = "Example page";
@@ -37,7 +37,7 @@ AppMeasurement pour JavaScript a toujours été une méthode courante pour impl�
    s.events = "event1";
    ```
 
-4. Lorsque toutes les variables de niveau page sont définies, envoyez les données à Adobe à l’aide de la `t` fonction. Voir [t](../vars/functions/t-method.md) pour plus d’informations.
+4. Lorsque toutes les variables de niveau page sont définies, envoyez les données à Adobe à l’aide de la `t()` méthode. Voir [t](../vars/functions/t-method.md) pour plus d’informations.
 
    ```js
    s.t();
