@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Création d’une propriété web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 Une propriété web peut être n’importe quel regroupement d’un ou de plusieurs domaines et sous-domaines avec une bibliothèque de règles, inclus dans un code intégré.
 
-> [!NOTE] Seul un utilisateur disposant des droits d’administrateur peut créer une propriété. Pour plus d’informations sur les rôles, voir [Création et gestion de groupes dans la gestion dynamique des balises](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) dans la documentation du produit Gestion dynamique des balises.
+> [!NOTE] Seul un utilisateur disposant des droits d’administrateur peut créer une propriété. Pour plus d’informations sur les rôles, voir [Création et gestion de groupes dans DTM](https://marketing.adobe.com/resources/help/fr_FR/dtm/groups.html) dans la documentation du produit Dynamic Tag Management.
 
 Vous pouvez gérer ces ressources et en effectuer le suivi au moyen de la gestion dynamique des balises. Par exemple, supposons que vous disposez de plusieurs sites web reposant sur un modèle et que vous souhaitez effectuer le suivi des mêmes ressources sur tous les sites. Vous pouvez appliquer une propriété web à plusieurs domaines.
 
-Pour obtenir des informations générales sur les propriétés web et les bonnes pratiques, voir [Propriétés web ](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) dans la Documentation du produit Dynamic Tag Management.
+Pour obtenir des informations générales sur les propriétés web et les bonnes pratiques, voir [Propriétés web](https://marketing.adobe.com/resources/help/fr_FR/dtm/web_property.html) dans la documentation du produit Dynamic Tag Management.
 
 1. Accédez à la page Entreprises, puis cliquez sur **[!UICONTROL Ajouter une propriété]**.
 
