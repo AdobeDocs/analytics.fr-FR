@@ -1,30 +1,30 @@
 ---
 title: addProductEvent
-description: Ajoute des événements personnalisés à la variable products and events.
+description: Ajoute un personnalisé à la variable products and .
 translation-type: tm+mt
-source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Module externe Adobe :addProductEvent
+# Module externe Adobe : addProductEvent
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-Le `addProductEvent` module externe ajoute un événement numérique ou monétaire à la `products` variable. Adobe recommande d’utiliser ce module externe si vous souhaitez ajouter un événement numérique ou monétaire à la `products` variable sans vous soucier du format de chaîne du produit. Ce module externe n’est pas nécessaire si vous n’utilisez pas d’événements numériques ou monétaires dans la `products` variable.
+Le `addProductEvent` module externe ajoute un numérique ou monétaire à la [`products`](../page-vars/products.md) variable. Adobe recommande d’utiliser ce module externe si vous souhaitez ajouter un numérique ou monétaire à la `products` variable sans vous soucier du format de chaîne du produit. Ce module externe n’est pas nécessaire si vous n’utilisez pas de  numérique ou monétaire dans la `products` variable.
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
+1. Cliquez sur la propriété de votre choix.
 1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
 1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialize addProductEvent
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -42,7 +42,7 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,11 +61,11 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 La `addProductEvent` méthode utilise les arguments suivants :
 
-* **`en`** (obligatoire, chaîne) : Evénement à ajouter à la dernière entrée de la `products` variable. Si la `products` variable est vide, une entrée de produit &quot;vide&quot; est créée avec l’événement (et sa valeur) associé.
-* **`ev`** (obligatoire, chaîne) : Valeur affectée à l’événement numérique ou monétaire dans l’ `en` argument.  La valeur par défaut est `1` définie lorsqu’elle n’est pas définie.
-* **`ap`** (facultatif, booléen) : Si la variable products contient actuellement plusieurs entrées de produit, une valeur de `true` (ou `1`) ajoute l’événement à toutes les entrées de produit.  La valeur par défaut est `false` définie lorsqu’elle n’est pas définie.
+* **`en`** (obligatoire, chaîne) : Le à ajouter à la dernière entrée de la `products` variable. Si la `products` variable est vide, une entrée de produit &quot;vide&quot; est créée avec le  (et sa valeur) associé.
+* **`ev`** (obligatoire, chaîne) : Valeur affectée au numérique ou monétaire dans l’ `en` argument.  La valeur par défaut est `1` définie lorsqu’elle n’est pas définie.
+* **`ap`** (facultatif, booléen) : Si la variable products contient actuellement plusieurs entrées de produit, une valeur de `true` (ou `1`) ajoute le  à toutes les entrées de produit.  La valeur par défaut est `false` définie lorsqu’elle n’est pas définie.
 
-Le `addProductEvent` rapport ne renvoie rien. Il ajoute plutôt l’événement et sa valeur à la `products` variable. Le plug-in ajoute également automatiquement l’événement à la `events` variable, puisqu’il y est également obligatoire.
+Le `addProductEvent` rapport ne renvoie rien. Au lieu de cela, il ajoute le  et sa valeur à la `products` variable. Le plug-in ajoute également automatiquement le  de à la [`events`](../page-vars/events/events-overview.md) variable, puisqu’il y est également obligatoire.
 
 ## Cookies
 
@@ -94,7 +94,7 @@ s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-Lorsque le troisième argument de l&#39; `addProductEvent` appel est `true` (ou `1`), l&#39;événement spécifié dans l&#39;appel est ajouté à sa valeur pour chaque entrée de produit.
+Lorsque le troisième argument de l&#39; `addProductEvent` appel est `true` (ou `1`), chaque entrée de produit a le  spécifié dans l&#39;appel ajouté à sa valeur.
 
 ### Exemple n° 3
 
