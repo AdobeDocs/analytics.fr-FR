@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Référents et campagnes
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 # Référents et campagnes
 
-Cette section décrit les champs de [!UICONTROL Dynamic Tag Management] pour les options de référent et de campagne lors du déploiement de [!UICONTROL Dynamic Tag Management] dans Adobe [!DNL Analytics].
+Cette section décrit les champs de [!UICONTROL Dynamic Tag Management] pour les options de référent et de campagne lors du déploiement de [!UICONTROL Dynamic Tag Management] dans Adobe [!DNL Analytics].
 
-**[!UICONTROL *`Property`*]**> Icône![de](assets/settings_gear.png)rapport**[!UICONTROL Modifier l’outil]**>**[!UICONTROL Référents et campagnes]**
+**[!UICONTROL *`Property`*]** > ![Icône engrenage](assets/settings_gear.png)**[!UICONTROL  Modifier l’outil ]** > **[!UICONTROL  Référents et campagnes ]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
@@ -35,7 +35,7 @@ Cette section décrit les champs de [!UICONTROL Dynamic Tag Management] pour les
  </tbody>
 </table>
 
-Utilisez l’interface de la gestion dynamique des balises pour choisir si vous voulez utiliser une chaîne de requête ou une valeur (qui peut être extraite d’un élément de données) :
+Utilisez l’interface de DTM pour choisir si vous voulez utiliser une chaîne de requête ou une valeur (qui peut être extraite d’un élément de données) :
 
 ![Paramètre de requête](assets/dtm-queryparam.png)
 
