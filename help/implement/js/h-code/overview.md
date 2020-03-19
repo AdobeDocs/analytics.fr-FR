@@ -1,28 +1,28 @@
 ---
-title: Présentation de la mise en oeuvre JavaScript du code H
-description: Découvrez le flux de travail pour mettre en oeuvre le code H sur votre site.
-translation-type: tm+mt
+title: Présentation de la mise en œuvre JavaScript du code H
+description: Découvrez le flux de travail pour mettre en œuvre le code H sur votre site.
+translation-type: ht
 source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
 
 ---
 
 
-# Présentation de la mise en oeuvre JavaScript du code H
+# Présentation de la mise en œuvre JavaScript du code H
 
 > [!IMPORTANT] Cette version de la collecte de données n’est plus prise en charge. Effectuez la mise à niveau vers [Adobe Experience Platform Launch](../../launch/overview.md) ou [AppMeasurement pour JavaScript](../overview.md).
 
-Vous devez avoir accès à vos serveurs d’hébergement pour implémenter correctement une page avec du code pour collecter des données. Les étapes suivantes vous guident tout au long de l’implémentation de base du code H Analytics.
+Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre correctement une page avec du code pour collecter des données. Les étapes suivantes vous invitent à parcourir une mise en œuvre de base du code H d’Analytics.
 
-> [!NOTE] Vous devez déjà avoir une copie existante de `s_code.js` pour suivre ces instructions. Adobe ne propose plus d’option pour télécharger le code H dans le Gestionnaire de code.
+> [!NOTE] Vous devez déjà disposer d’une copie existante de `s_code.js` pour suivre ces instructions. Adobe ne propose plus d’option pour télécharger le code H dans le Gestionnaire de code.
 
-1. **Mettre à jour les variables** de fichier JS principal : Modifiez le `s_code.js` fichier et assurez-vous que les variables suivantes sont mises à jour :
-   * `s_account` contient l’identifiant de suite de rapports auquel vous souhaitez envoyer des données. Reportez-vous à la section
+1. **Mettez à jour les variables de fichier JS principal** : modifiez le fichier `s_code.js` et assurez-vous que les variables suivantes sont mises à jour :
+   * `s_account` contient l’identifiant de suite de rapports auquel vous souhaitez envoyer des données. Voir
    * `s.trackingServer` contient l’emplacement où les cookies sont stockés. Voir [trackingServer](../../vars/config-vars/trackingserver.md).
-2. **Hébergez le`s_code.js`fichier sur votre site**: Ce fichier réside généralement avec d’autres scripts sur votre serveur Web.
-3. **Référence`s_code.js`sur toutes les pages**: Assurez-vous que toutes les pages individuelles appellent le fichier JavaScript principal, et faites-le dans la balise HTML `<body>` (et non dans la `<head>` balise ).
-   > [!TIP] Le code H exige que le `s_code.js` script soit appelé dans la `<body>` balise . Il s’agit d’une méthode différente des autres méthodes d’implémentation, dont la plupart nécessitent des références de script dans la `<head>` balise .
-4. **Définissez des variables spécifiques à chaque page**: Des variables individuelles doivent être définies pour chaque page, telles que le nom de page ou les eVars. Les variables individuelles sont généralement définies avec une balise `<script>` intégrée sur chaque page.
-5. **Utilisez le débogueur pour vérifier la collecte** des données : Téléchargez et installez le débogueur [](../../validate/debugger.md) Experience Cloud pour vous assurer que les données sont envoyées à Adobe et que les variables de page sont correctement définies.
+2. **Hébergez le fichier`s_code.js`sur votre site** : ce fichier réside généralement avec d’autres scripts sur votre serveur web.
+3. **Référence`s_code.js`sur toutes les pages** : assurez-vous que toutes les pages individuelles appellent le fichier JavaScript principal, et faites-le dans la balise HTML `<body>` (et non dans la balise `<head>`).
+   > [!TIP] Le code H exige que le script `s_code.js` soit appelé dans la balise `<body>`. Il s’agit d’une méthode différente des autres méthodes de mise en œuvre, dont la plupart nécessitent des références de script dans la balise `<head>`.
+4. **Définissez des variables spécifiques à chaque page** : des variables individuelles doivent être définies pour chaque page, telles que le nom de page ou les eVars. Les variables individuelles sont généralement définies avec une balise `<script>` intégrée sur chaque page.
+5. **Utilisez le débogueur pour vérifier la collecte des données** : téléchargez et installez le [débogueur Experience Cloud](../../validate/debugger.md) pour vous assurer que les données sont envoyées à Adobe et que les variables de page sont correctement définies.
 
 ## Mise en cache
 
@@ -30,4 +30,4 @@ Le fichier JavaScript est mis en cache dans le navigateur du visiteur après son
 
 ## Compression du code H
 
-Si la taille du téléchargement du `s_code.js` fichier vous préoccupe, Adobe conseille de compresser le `s_code.js` fichier à l’aide de GZIP. GZIP est pris en charge par tous les principaux navigateurs et offre de meilleures performances que la compression JavaScript. Voir Module [Apache mod_dégate](http://httpd.apache.org/docs/current/mod/mod_deflate.html) dans la documentation Apache.
+Si la taille du téléchargement du fichier `s_code.js` vous préoccupe, Adobe conseille de compresser le fichier `s_code.js` à l’aide de GZIP. GZIP est pris en charge par tous les principaux navigateurs et offre de meilleures performances que la compression JavaScript. Voir [Module Apache mod_deflate](http://httpd.apache.org/docs/current/mod/mod_deflate.html) dans la documentation Apache.
