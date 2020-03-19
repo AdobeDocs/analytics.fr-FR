@@ -1,8 +1,8 @@
 ---
 title: getVisitNum
-description: Assurez le suivi du nombre de visites actuelles d’un visiteur.
+description: Assurez le suivi d’un  nombre de visites en cours.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,20 +11,20 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-Le `getVisitNum` module externe renvoie le nombre de visites pour tous les visiteurs qui se rendent sur le site dans le nombre de jours souhaité. Analysis Workspace propose une dimension &quot;Nombre de visites&quot; qui offre des fonctionnalités similaires. Adobe recommande d’utiliser ce module externe si vous souhaitez avoir un meilleur contrôle sur la manière dont le nombre de visites est incrémenté. Ce plug-in n’est pas nécessaire si la dimension &quot;Nombre de visites&quot; intégrée dans Analysis Workspace est suffisante pour répondre à vos besoins de création de rapports.
+Le `getVisitNum` module externe renvoie le nombre de visites pour tous les qui se rendent sur le site dans le nombre de jours souhaité.   Espace de travail de  une dimension &quot;Nombre de visites&quot; qui fournit des fonctionnalités similaires. Adobe recommande d’utiliser ce module externe si vous souhaitez avoir un meilleur contrôle sur la manière dont le nombre de visites est incrémenté. Ce plug-in n’est pas nécessaire si la dimension &quot;Nombre de visites&quot; intégrée dans  espace de travail  est suffisante pour vos besoins de.
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialiser getVisitNum
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -35,14 +35,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,21 +58,21 @@ var endOfDatePeriod=function(dp){var a=new Date,b=isNaN(dp)?0:Math.floor(dp);a.s
 
 La `getVisitNum` méthode utilise les arguments suivants :
 
-* **`rp`**(facultatif, entier OU chaîne) : Nombre de jours avant la réinitialisation du compteur du nombre de visites.  La valeur par défaut est`365`définie lorsqu’elle n’est pas définie.
+* **`rp`** (facultatif, entier OU chaîne) : Nombre de jours avant la réinitialisation du compteur du nombre de visites.  La valeur par défaut est `365` définie lorsqu’elle n’est pas définie.
    * Lorsque cet argument est `"w"`utilisé, le compteur se réinitialise à la fin de la semaine (ce samedi à 23h59)
    * Lorsque cet argument est `"m"`, le compteur est réinitialisé à la fin du mois (dernier jour du mois)
    * Lorsque cet argument est `"y"`utilisé, le compteur se réinitialise à la fin de l’année (31 décembre)
-* **`erp`**(facultatif, booléen) : Lorsque l’`rp`argument est un nombre, cet argument détermine si l’expiration du nombre de visites doit être prolongée. S’il est défini sur`true`, les accès suivants à votre site réinitialisent le compteur du nombre de visites. S’il est défini sur`false`, les accès suivants à votre site ne s’étendent pas lorsque le compteur du nombre de visites est réinitialisé. Par défaut,`true`. Cet argument n&#39;est pas valide lorsque l&#39;`rp`argument est une chaîne.
+* **`erp`** (facultatif, booléen) : Lorsque l’ `rp` argument est un nombre, cet argument détermine si l’expiration du nombre de visites doit être prolongée. S’il est défini sur `true`, les accès suivants à votre site réinitialisent le compteur du nombre de visites. S’il est défini sur `false`, les accès suivants à votre site ne s’étendent pas lorsque le compteur du nombre de visites est réinitialisé. Par défaut, `true`. Cet argument n&#39;est pas valide lorsque l&#39; `rp` argument est une chaîne.
 
-Le nombre de visites augmente chaque fois que le visiteur revient sur votre site après 30 minutes d’inactivité. L’appel de cette méthode renvoie un entier représentant le nombre de visites actuel du visiteur.
+Le nombre de visites augmente chaque fois que le revient sur votre site après 30 minutes d’inactivité. L’appel de cette méthode renvoie un entier représentant le nombre de visites  en cours du.
 
-Ce plug-in définit un cookie propriétaire appelé `"s_vnc[LENGTH]"` &quot;where&quot; `[LENGTH]` est la valeur transmise à l’ `rp` argument. Par exemple, `"s_vncw"`, `"s_vncm"`ou `"s_vnc365"`. La valeur du cookie est une combinaison d’un horodatage Unix qui représente le moment où le compteur de visites est réinitialisé, comme la fin de la semaine, la fin du mois ou après 365 jours d’inactivité. Il contient également le nombre de visites actuel. Ce plug-in définit un autre cookie nommé `"s_ivc"` qui est défini sur `true` et expire après 30 minutes d’inactivité.
+Ce plug-in définit un cookie propriétaire appelé `"s_vnc[LENGTH]"` &quot;where&quot; `[LENGTH]` est la valeur transmise à l’ `rp` argument. For example, `"s_vncw"`, `"s_vncm"`, or `"s_vnc365"`. La valeur du cookie est une combinaison d’un horodatage Unix qui représente le moment où le compteur de visites est réinitialisé, comme la fin de la semaine, la fin du mois ou après 365 jours d’inactivité. Il contient également le nombre de visites actuel. Ce plug-in définit un autre cookie nommé `"s_ivc"` qui est défini sur `true` et expire après 30 minutes d’inactivité.
 
 ## Exemples d’appels
 
 ### Exemple n° 1
 
-Pour un visiteur qui ne s’est pas rendu sur le site au cours des 365 derniers jours, le code suivant définit s.prop1 sur la valeur 1 :
+Pour un qui ne s’est pas rendu sur le site au cours des 365 derniers jours, le code suivant définit s.prop1 sur la valeur 1 :
 
 ```js
 s.prop1=s.getVisitNum();
@@ -80,13 +80,13 @@ s.prop1=s.getVisitNum();
 
 ### Exemple n° 2
 
-Pour un visiteur qui revient sur le site dans les 364 jours suivant sa première visite, le code suivant définit s.prop1 sur 2 :
+Pour un qui revient sur le site dans les 364 jours suivant sa première visite, le code suivant définit s.prop1 sur 2 :
 
 ```js
 s.prop1=s.getVisitNum(365);
 ```
 
-Si ce visiteur revient sur le site dans les 364 jours suivant sa deuxième visite, le code suivant définit s.prop1 sur 3 :
+Si ce revient sur le site dans les 364 jours suivant sa deuxième visite, le code suivant définit s.prop1 sur 3 :
 
 ```js
 s.prop1=s.getVisitNum(365);
@@ -94,25 +94,25 @@ s.prop1=s.getVisitNum(365);
 
 ### Exemple n° 3
 
-Pour un visiteur qui revient sur le site dans les 179 jours suivant sa première visite, le code suivant définit s.prop1 sur 2 :
+Pour un qui revient sur le site dans les 179 jours suivant sa première visite, le code suivant définit s.prop1 sur 2 :
 
 ```js
 s.prop1=s.getVisitNum(180,false);
 ```
 
-Cependant, si ce visiteur revient sur le site 1 ou plus de jours après sa deuxième visite, le code suivant définit s.prop1 sur 1 :
+Cependant, si ce revient sur le site 1 ou plus de jours après sa deuxième visite, le code suivant définit s.prop1 sur 1 :
 
 ```js
 s.prop1=s.getVisitNum(180,false);
 ```
 
-Lorsque le second argument de l’appel est égal à false, la routine qui détermine le moment où le nombre de visites doit être &quot;réinitialisé&quot; sur 1 le fait que &quot;x&quot; nombre de jours (dans cet exemple, 365 jours) après la première visite du visiteur sur le site.
+Lorsque le second argument de l’appel est égal à false, la routine qui détermine le moment où le nombre de visites doit être &quot;réinitialisé&quot; sur 1 le fait que &quot;x&quot; nombre de jours (dans cet exemple, 365 jours) après la première visite du sur le site.
 
-Lorsque le second argument est égal à true (ou n’est pas du tout défini), le plug-in réinitialise le nombre de visites à 1 uniquement après le nombre de jours &quot;x&quot; (365 jours) d’inactivité du visiteur dans cet exemple.
+Lorsque le second argument est égal à true (ou n’est pas du tout défini), le plug-in réinitialise le nombre de visites à 1 uniquement après le nombre de jours &quot;x&quot; (365 jours) d’inactivité du dans cet exemple.
 
 ### Exemple n° 4
 
-Pour tous les visiteurs qui viennent sur le site pour la première fois au cours de la semaine en cours - à partir du dimanche - le code suivant définit s.prop1 sur 1 :
+Pour tous les qui viennent sur le site pour la première fois au cours de la semaine en cours - à partir du dimanche - le code suivant définit s.prop1 sur 1 :
 
 ```js
 s.prop1=s.getVisitNum("w");
@@ -120,7 +120,7 @@ s.prop1=s.getVisitNum("w");
 
 ### Exemple n° 5
 
-Pour tous les visiteurs qui viennent sur le site pour la première fois au cours du mois en cours - à compter du premier jour de chaque mois - le code suivant définit s.prop1 sur 1 :
+Pour tous les qui viennent sur le site pour la première fois au cours du mois en cours - à compter du premier jour de chaque mois - le code suivant définit s.prop1 sur 1 :
 
 ```js
 s.prop1=s.getVisitNum("m");
@@ -130,7 +130,7 @@ N’oubliez pas que le module externe getVisitNum ne prend pas en compte les cal
 
 ### Exemple n° 6
 
-Pour tous les visiteurs qui se rendent sur le site pour la première fois au cours de l’année en cours - à compter du 1er janvier - le code suivant définit s.prop1 sur 1 :
+Pour tous les qui viennent sur le site pour la première fois au cours de l’année en cours - à compter du 1er janvier - le code suivant définit s.prop1 sur 1 :
 
 ```js
 s.prop1=s.getVisitNum("y");
@@ -138,7 +138,7 @@ s.prop1=s.getVisitNum("y");
 
 ### Exemple n° 7
 
-Si vous souhaitez effectuer le suivi du nombre de visites d’un visiteur pour la semaine, du nombre de visites d’un visiteur pour le mois et du nombre de visites d’un visiteur pour l’année (toutes dans des variables Analytics différentes), utilisez un code qui ressemble à ce qui suit :
+Si vous souhaitez effectuer le suivi d’un nombre de visites  pour la semaine, d’un nombre de visites  pour le mois et d’un nombre de visites  pour l’année (tous compris dans différentes variables Analytics), vous devez utiliser un code qui ressemble à ce qui suit :
 
 ```js
 s.prop1=s.getVisitNum("w");
@@ -166,4 +166,4 @@ Dans ce cas, le plug-in crée trois cookies différents - un pour chacune des di
 ### 3.0 (5 juin 2016)
 
 * Révision complète
-* Combinez toutes les solutions précédentes disponibles dans différentes versions du `getVisitNum` module externe.
+* Combinaison de toutes les solutions précédentes disponibles dans différentes versions du `getVisitNum` module externe.
