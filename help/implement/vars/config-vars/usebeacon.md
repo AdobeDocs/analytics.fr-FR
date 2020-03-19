@@ -2,7 +2,7 @@
 title: useBeacon
 description: useBeacon vous permet de forcer AppMeasurement à utiliser l’API sendBeacon des navigateurs
 translation-type: tm+mt
-source-git-commit: 58513f012bdbd1143601221985a399ed46916664
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,11 +11,11 @@ source-git-commit: 58513f012bdbd1143601221985a399ed46916664
 
 La plupart des navigateurs modernes incluent la méthode native `navigator.sendBeacon()`. Elle envoie de manière asynchrone une petite quantité de données via HTTP à un serveur Web. AppMeasurement peut utiliser la `navigator.sendBeacon()` méthode si la `useBeacon` variable est activée. Il est utile pour les liens de sortie et les autres situations où vous souhaitez envoyer des informations avant le déchargement de la page.
 
-Si `useBeacon` est activé, l’accès suivant envoyé à Adobe utilise la `navigator.sendBeacon()` méthode du navigateur au lieu d’une demande d’ `GET` image standard. Cette variable s’applique aux demandes d’image `s.t()` et `s.tl()` aux demandes d’image. Il nécessite AppMeasurement 2.17.0 ou une version ultérieure.
+Si `useBeacon` est activé, l’accès suivant envoyé à Adobe utilise la `navigator.sendBeacon()` méthode du navigateur au lieu d’une demande d’ `GET` image standard. Cette variable s’applique aux demandes d’image [`s.t()`](../functions/t-method.md) et [`s.tl()`](../functions/tl-method.md) aux demandes d’image. Il nécessite AppMeasurement 2.17.0 ou une version ultérieure.
 
 > [!TIP] AppMeasurement active automatiquement `useBeacon` les demandes d’image de lien de sortie.
 
-La `useBeacon` variable est ignorée lorsque le visiteur utilise un navigateur qui ne prend pas en charge `navigator.sendBeacon()`. L’utilisation de cette variable nécessite AppMeasurement 2.16.0 ou version ultérieure.
+La `useBeacon` variable est ignorée lorsque le utilise un navigateur qui ne prend pas en charge `navigator.sendBeacon()`. L’utilisation de cette variable nécessite AppMeasurement 2.16.0 ou version ultérieure.
 
 ## Utiliser la balise dans le lancement d’Adobe Experience Platform
 
