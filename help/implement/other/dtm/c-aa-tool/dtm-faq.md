@@ -1,10 +1,10 @@
 ---
-description: Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. La méthode de configuration automatique gère le code AppMeasurement pour vous.
+description: Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. La méthode de configuration automatique gère le code AppMeasurement pour vous.
 keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: FAQ sur l’outil Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -23,8 +23,8 @@ Des FAQ relatives à la configuration automatique du déploiement d’Adobe Ana
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Où placer mes modules externes lors de l’implémentation d’Adobe Analytics via la gestion dynamique des balises ? </p> </td> 
-   <td colname="col2"> <p> If using DTM to manually host the <code> s_code</code>, plug-ins can be added in the same editor as the hosted <code> s_code</code>, just as it would be in a typical Adobe Analytics implementation. </p> <p>However, it is also an option to place the plug-ins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. Les deux méthodes d’implémentation doivent être d’efficacité égale. </p> </td> 
+   <td colname="col1"> <p> Où placer mes plug-ins lors de la mise en œuvre d’Adobe Analytics via DTM ? </p> </td> 
+   <td colname="col2"> <p> Si vous utilisez DTM pour héberger manuellement la variable <code> s_code</code>, vous pouvez ajouter des plug-ins dans le même éditeur que la variable <code> s_code</code> hébergée, simplement comme vous le feriez dans une mise en œuvre d’Adobe Analytics classique. </p> <p>Cependant, vous pouvez également placer les plug-ins logiciels dans l’éditeur dans la section <span class="term"> Personnalisation du code de page</span> des paramètres de l’outil. Les deux méthodes de mise en œuvre doivent être d’efficacité égale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si j’apporte des modifications de configuration dans la nouvelle version de l’outil, puis-je le tester lors de l’évaluation avant de le publier pour production ? </p> </td> 
