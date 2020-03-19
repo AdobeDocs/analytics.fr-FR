@@ -1,13 +1,13 @@
 ---
 title: getPageLoadTime
-description: Assurez le suivi du temps nécessaire au chargement d’une page.
+description: Effectuez le suivi du temps nécessaire au chargement d’une page.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Module externe Adobe :getPageLoadTime
+# Module externe Adobe : getPageLoadTime
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
@@ -15,16 +15,16 @@ Le `getPageLoadTime` module externe utilise l’objet de performances JavaScript
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialize getPageLoadTime
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -35,14 +35,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -91,7 +91,7 @@ if(s._pltPreviousPage)
 * Exécutez le plug-in getPageLoadTime lorsque s.pageName est défini
 * Définissez s.prop10 sur le temps de chargement de la page précédente.
 * Définissez s.prop11 et s.eVar10 sur le nom de la page précédente (tel qu’il est enregistré dans s.pageName).
-* Définissez event100, qui serait un événement numérique personnalisé, égal au temps de chargement de la page précédente.   Dans ce cas, l’utilisation d’un événement personnalisé vous permet d’obtenir la durée totale pour tous les chargements de page de la page précédente (de tous les visiteurs/visites) et donc d’utiliser une mesure calculée pour obtenir le temps de chargement moyen de la page pour chaque page.
+* Définissez 100, qui serait un numérique personnalisé, égal au temps de chargement de la page précédente.   Dans ce cas, l’utilisation d’un  personnalisé vous permet d’obtenir la durée totale pour tous les chargements de page de la page précédente (à partir de tous les/visites) et donc d’utiliser une mesure calculée pour obtenir le temps de chargement moyen de la page pour chaque page.
 
 ## Historique des versions
 
