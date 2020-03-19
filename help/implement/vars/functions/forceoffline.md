@@ -2,18 +2,18 @@
 title: forceOffline
 description: Définissez manuellement l’état en ligne d’AppMeasurement.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # forceOffline
 
-La `forceOffline` méthode vous permet de remplacer l’état d’AppMeasurement détecté automatiquement.
+La `forceOffline()` méthode vous permet de remplacer l’état d’AppMeasurement détecté automatiquement.
 
-> [!IMPORTANT] N&#39;utilisez cette fonction que lorsque `trackOffline` est activé. L’utilisation de cette fonction en dehors du suivi hors ligne peut entraîner une perte de données.
+> [!IMPORTANT] N&#39;utilisez cette fonction que lorsque [`trackOffline`](../config-vars/trackoffline.md) est activé. L’utilisation de cette fonction en dehors du suivi hors ligne peut entraîner une perte de données.
 
-AppMeasurement détecte automatiquement l’état en ligne du périphérique. Vous pouvez utiliser la `forceOffline` méthode pour forcer AppMeasurement à traiter les accès comme si l’appareil était hors ligne. Cette méthode ne prend aucun argument et ne renvoie aucune valeur. Son seul objectif est de remplacer l’état en ligne dans AppMeasurement.
+AppMeasurement détecte automatiquement l’état en ligne du périphérique. Vous pouvez utiliser la `forceOffline()` méthode pour forcer AppMeasurement à traiter les accès comme si l’appareil était hors ligne. Cette méthode ne prend aucun argument et ne renvoie aucune valeur. Son seul objectif est de remplacer l’état en ligne dans AppMeasurement.
 
 ## Forcer le lancement hors ligne d’Adobe Experience Platform
 
