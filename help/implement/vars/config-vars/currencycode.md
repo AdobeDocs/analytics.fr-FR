@@ -2,16 +2,16 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # currencyCode
 
-Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la `currencyCode` variable pour vous assurer que les attributs de recettes correspondent à la devise appropriée.
+Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, en particulier ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la `currencyCode` variable pour vous assurer que les attributs de recettes correspondent à la devise appropriée.
 
-Si `currencyCode` n’est pas défini, les valeurs monétaires définies pour la `products` variable et les événements de devise sont traitées comme si elles étaient identiques à la devise de la suite de rapports. Voir Paramètres [du compte](/help/admin/admin/general-acct-settings-admin.md) général dans le guide de l’utilisateur Admin pour consulter la devise de la suite de rapports.
+Si `currencyCode` n’est pas défini, les valeurs monétaires définies pour la [`products`](../page-vars/products.md) variable et les  de devise sont traitées comme si elles étaient identiques à la devise de la suite de rapports. Voir Paramètres [du compte](/help/admin/admin/general-acct-settings-admin.md) général dans le guide de l’utilisateur Admin pour consulter la devise de la suite de rapports.
 
 Si `currencyCode` est défini et correspond à la devise de la suite de rapports, aucune conversion de devise n’est appliquée.
 
@@ -19,16 +19,16 @@ Si `currencyCode` est défini et différent de la devise de la suite de rapports
 
 > [!IMPORTANT] Si `currencyCode` contient une valeur non valide, l’accès complet est ignoré, ce qui entraîne une perte de données. Assurez-vous que cette variable est correctement définie si vous l’utilisez dans votre implémentation.
 
-Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des événements de devise.
+Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des  de devise.
 
 ## Code de devise dans Adobe Experience Platform Launch
 
-Le code de devise est un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
+Le code de devise est un champ sous l’ [!UICONTROL General] accordéon lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-2. Cliquez sur une propriété.
-3. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
-4. Développez l’accordéon [!UICONTROL Général] , qui affiche le champ Code [!UICONTROL de] devise.
+2. Cliquez sur la propriété de votre choix.
+3. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous Adobe Analytics.
+4. Développez l’ [!UICONTROL General] accordéon, ce qui révèle le [!UICONTROL Currency Code] champ.
 
 Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
 
@@ -42,7 +42,7 @@ s.currencyCode = "USD";
 
 Les codes de devise suivants sont valides :
 
-| Code de devise | Description de devise |
+| Code de devise | Description de la devise |
 | --- | --- |
 | `AED` | Émirats arabes unis, dirams |
 | `AFA` | Afghanistan, afghanis |
