@@ -2,27 +2,27 @@
 title: trackingServerSecure
 description: Déterminez l’emplacement où les demandes d’image sont envoyées sur les pages HTTPS.
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # trackingServerSecure
 
-Adobe collecte des données sur votre site en recevant une demande d’image générée par le visiteur. La `trackingServerSecure` variable détermine l’emplacement où une demande d’image est envoyée via HTTPS. Il détermine également l’emplacement où les cookies des visiteurs sont stockés. Si cette variable n’est pas correctement définie, votre implémentation peut entraîner une perte de données.
+Adobe collecte des données sur votre site en recevant une demande d’image générée par le. La `trackingServerSecure` variable détermine l’emplacement où une demande d’image est envoyée via HTTPS. Il détermine également l’emplacement où les cookies de sont stockés. Si cette variable n’est pas correctement définie, votre implémentation peut entraîner une perte de données.
 
-> [!IMPORTANT] Si vous modifiez cette valeur, AppMeasurement recherche les cookies à un autre emplacement. Le nombre de visiteurs uniques peut augmenter temporairement la création de rapports lorsque les cookies de visiteurs sont définis au nouvel emplacement.
+> [!IMPORTANT] La modification de cette valeur permet à AppMeasurement de rechercher des cookies à un autre emplacement. Le nombre de uniques peut temporairement augmenter en  de lorsque les cookies desont définis au nouvel emplacement.
 
 ## Serveur de suivi SSL dans Adobe Experience Platform Launch
 
-[!UICONTROL Le serveur] de suivi SSL est un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
+[!UICONTROL SSL Tracking Server] est un champ sous l’ [!UICONTROL General] accordéon lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-2. Cliquez sur une propriété.
-3. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
-4. Développez l’accordéon [!UICONTROL Général] , qui affiche le champ Serveur [!UICONTROL de suivi] SSL.
+2. Cliquez sur la propriété de votre choix.
+3. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous Adobe Analytics.
+4. Développez l’ [!UICONTROL General] accordéon, ce qui révèle le [!UICONTROL SSL Tracking Server] champ.
 
-Si ce champ n’est pas renseigné, la valeur de la `trackingServer` variable est utilisée par défaut.
+Si ce champ n’est pas renseigné, la valeur de la [`trackingServer`](trackingserver.md) variable est utilisée par défaut.
 
 ## s.trackingServerSecure dans AppMeasurement et lancement de l’éditeur de code personnalisé
 
