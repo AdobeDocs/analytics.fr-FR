@@ -1,7 +1,7 @@
 ---
 title: Collisions de hachage
 description: Décrit ce qu’est une collision de hachage et de quelle façon elle se manifeste.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # Collisions de hachage
 
-Adobe traite les valeurs prop et eVar comme des chaînes, même si la valeur est un nombre. Parfois, ces chaînes sont constituées de centaines de caractères ; d’autres fois elles sont très courtes. Pour économiser de l’espace, améliorer les performances et uniformiser la taille, les chaînes ne sont pas utilisées directement dans le traitement. À la place, un hachage de 32 bits ou 64 bits est calculé pour chaque valeur. Tous les rapports s’exécutent sur ces valeurs de hachage, où chaque hachage est remplacé par le texte d’origine. Les hachages augmentent considérablement les performances des rapports Analytics.
+Adobe traite les valeurs prop et eVar comme des chaînes, même si la valeur est un nombre. Parfois, ces chaînes sont constituées de centaines de caractères ; d’autres fois elles sont très courtes. Pour économiser de l’espace, améliorer les performances et uniformiser leur taille, les chaînes ne sont pas utilisées directement dans le traitement. À la place, un hachage de 32 bits ou 64 bits est calculé pour chaque valeur. Tous les rapports s’exécutent sur ces valeurs de hachage, où chaque hachage est remplacé par le texte d’origine. Les hachages augmentent considérablement les performances des rapports Analytics.
 
-Pour la plupart des champs, la chaîne est convertie au préalable en minuscules (ce qui réduit le nombre de valeurs uniques). Les valeurs sont hachées chaque mois (la première fois qu’elles sont vues chaque mois). D’un mois à l’autre, il est peu probable que deux valeurs de variable unique se hachent sur la même valeur. This concept is known as a *hash collision*.
+Pour la plupart des champs, la chaîne est convertie au préalable en minuscules (ce qui réduit le nombre de valeurs uniques). Les valeurs sont hachées chaque mois (la première fois qu’elles sont vues chaque mois). Au fil des mois, il peut arriver que deux valeurs de variable uniques soient hachées avec la même valeur de hachage. On parle alors de *collision de hachage*.
 
 Les collisions de hachage peuvent se manifester dans les rapports comme suit :
 
@@ -20,7 +20,7 @@ Les collisions de hachage peuvent se manifester dans les rapports comme suit :
 
 ## Exemple de collision de hachage
 
-La probabilité des collisions de hachage augmente avec le nombre de valeurs uniques dans une dimension. Par exemple, l’une des valeurs transmises en fin de mois pourrait avoir la même valeur de hachage qu’une valeur plus tôt dans le mois. L’exemple suivant peut vous aider à expliquer comment cela peut entraîner un changement des résultats des segments. Supposons que l’eVar62 reçoive la « valeur 100 » le 18 février. Analytics tient à jour un tableau qui peut ressembler à ceci :
+La probabilité des collisions de hachage augmente avec le nombre de valeurs uniques dans une dimension. Par exemple, l’une des valeurs transmises en fin de mois pourrait avoir la même valeur de hachage qu’une valeur plus tôt dans le mois. L’exemple suivant peut aider à comprendre de quelle façon ce comportement peut provoquer le changement des résultats des segments. Supposons que l’eVar62 reçoive la « valeur 100 » le 18 février. Analytics tient à jour un tableau qui peut ressembler à ceci :
 
 <table id="table_6A49D1D5932E485DB2083154897E5074"> 
  <thead> 
