@@ -2,14 +2,14 @@
 title: cookieDomainPeriods
 description: Aidez AppMeasurement à comprendre quel domaine stocker les cookies si votre domaine comporte un point dans son suffixe.
 translation-type: tm+mt
-source-git-commit: 04b97e93a95691132680d4da197dc62eb2b9fdd1
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # fpCookieDomainPeriods
 
-La `fpCookieDomainPeriods` variable permet à AppMeasurement de déterminer où les cookies Analytics sont définis en appelant que le suffixe de domaine comporte une période supplémentaire. Cette variable permet à AppMeasurement de prendre en compte la période supplémentaire dans le suffixe du domaine et de définir les cookies au bon emplacement. Il hérite de la valeur de `cookieDomainPeriods`, mais il est toujours recommandé de définir si vous utilisez une implémentation de cookies propriétaires.
+La `fpCookieDomainPeriods` variable permet à AppMeasurement de déterminer où les cookies Analytics sont définis en appelant que le suffixe de domaine comporte une période supplémentaire. Cette variable permet à AppMeasurement de prendre en compte la période supplémentaire dans le suffixe du domaine et de définir les cookies au bon emplacement. Il hérite de la valeur de [`cookieDomainPeriods`](cookiedomainperiods.md), mais reste une bonne pratique à définir si vous utilisez une implémentation de cookies propriétaires.
 
 * Pour les domaines tels `example.com` ou `www.example.com`, cette variable n’a pas besoin d’être définie. Si nécessaire, vous pouvez définir cette variable sur `"2"`.
 * Pour les domaines comme `example.co.uk` ou `www.example.co.jp`, définissez cette variable sur `"3"`.
@@ -18,12 +18,12 @@ La `fpCookieDomainPeriods` variable permet à AppMeasurement de déterminer où 
 
 ## Périodes de domaine propriétaires dans Adobe Experience Platform Launch
 
-Les périodes de domaine propriétaires sont un champ sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
+Les périodes de domaine propriétaires sont un champ sous l’ [!UICONTROL Cookies] accordéon lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-2. Cliquez sur une propriété.
-3. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
-4. Développez l’accordéon [!UICONTROL Cookies] , qui affiche le champ Périodes [!UICONTROL de domaine de] premier niveau.
+2. Cliquez sur la propriété de votre choix.
+3. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous Adobe Analytics.
+4. Développez l’ [!UICONTROL Cookies] accordéon, ce qui révèle le [!UICONTROL First-party Domain Periods] champ.
 
 Définissez ce champ sur `3` uniquement les domaines contenant un point dans son suffixe. Sinon, ce champ peut être laissé vide.
 
