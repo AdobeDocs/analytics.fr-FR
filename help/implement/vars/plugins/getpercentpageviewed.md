@@ -1,8 +1,8 @@
 ---
 title: getPercentPageViewed
-description: Récupérez le pourcentage de la page que le visiteur a consultée.
+description: Récupérez le pourcentage de la page affichée par le.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-The `getPercentPageViewed` plug-in measures a visitor&#39;s scroll activity to see how much of a page they view before moving on to another page. Ce module externe n’est pas nécessaire si vos pages sont de petite taille ou si vous ne souhaitez pas mesurer l’activité de défilement.
+The `getPercentPageViewed` plug-in measures a visitor&#39;s scroll activity to see how much of a page they view before moving on to another page. Ce plug-in n’est pas nécessaire si vos pages sont de petite taille ou si vous ne souhaitez pas mesurer le  de défilement .
 
 ## Installation du module externe à l’aide de l’éditeur de code personnalisé Lancer
 
@@ -19,14 +19,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -45,21 +45,21 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 La `getPercentPageViewed` méthode utilise les arguments suivants :
 
-* **`pid`**(facultatif, chaîne) :  Identifiant basé sur une page que vous pouvez corréler aux pourcentages fournis par les mesures du module externe.  Valeur par défaut de la`pageName`variable.
-* **`ch`**(facultatif, booléen) :  Définissez cette option sur`false`(ou`0`) si vous ne souhaitez pas que le module externe prenne en compte les modifications apportées à la taille d’une page après son chargement initial. S’il est omis, cet argument prend par défaut la valeur`true`. Adobe recommande dans la plupart des cas d’ignorer cet argument.
+* **`pid`** (facultatif, chaîne) :  Identifiant basé sur une page que vous pouvez corréler aux pourcentages fournis par les mesures du module externe.  Valeur par défaut de la `pageName` variable.
+* **`ch`** (facultatif, booléen) :  Définissez cette option sur `false` (ou `0`) si vous ne souhaitez pas que le module externe prenne en compte les modifications apportées à la taille d’une page après son chargement initial. S’il est omis, cet argument prend par défaut la valeur `true`. Adobe recommande dans la plupart des cas d’ignorer cet argument.
 
 L’appel de cette méthode ne renvoie rien ; il définit plutôt les variables suivantes :
 
 * `s._ppvPreviousPage`: Nom de la page précédente affichée. Les mesures de défilement finales de la page active ne sont disponibles qu’après le chargement d’une nouvelle page.
-* `s._ppvHighestPercentViewed` : pourcentage le plus élevé de la page précédente que le visiteur a consultée (en termes de hauteur). Point le plus éloigné vers lequel le visiteur a fait défiler la page précédente.
+* `s._ppvHighestPercentViewed` : pourcentage le plus élevé de la page précédente que le visiteur a consultée (en termes de hauteur). Le point le plus éloigné vers lequel le a fait défiler la page précédente.
 * `s._ppvInitialPercentViewed`: Pourcentage de la page précédente qui était visible lors du premier chargement de la page précédente.
 * `s._ppvHighestPixelsSeen` : nombre total de pixels le plus élevé affiché (en termes de hauteur) pendant que le visiteur faisait défiler la page précédente.
-* `s._ppvFoldsSeen`: Nombre le plus élevé de &quot;plis de page&quot; atteint lorsque le visiteur fait défiler la page précédente. Cette variable inclut le pliage &quot;haut de la page&quot;.
+* `s._ppvFoldsSeen`: Nombre le plus élevé de &quot;plis de page&quot; atteint lorsque le fait défiler la page précédente. Cette variable inclut le pliage &quot;haut de la page&quot;.
 * `s._ppvFoldsAvailable`: Nombre total de &quot;plis de page&quot; disponibles pour faire défiler vers le bas sur la page précédente.
 
 Affectez une ou plusieurs de ces variables à des eVars pour afficher les données de dimension dans les rapports.
 
-Ce module externe crée un cookie propriétaire appelé `s_ppv` qui contient les valeurs ci-dessus. Elle expire à la fin de la session du navigateur.
+Ce plug-in crée un cookie propriétaire appelé `s_ppv` qui contient les valeurs ci-dessus. Elle expire à la fin de la session du navigateur.
 
 ## Exemples d’appels
 
@@ -80,9 +80,9 @@ if(s._ppvPreviousPage)
 * Lorsque la fonction getPercentPageViewed s&#39;exécute, elle crée les variables décrites dans la section &quot;Retours&quot; ci-dessus
 * Si les variables &quot;Retours&quot; ont bien été définies :
    * Le code définira s.prop1 sur la valeur de s._ppvPreviousPage (c&#39;est-à-dire la valeur précédente de s.pageName ou la page précédente).
-   * Le code définit également s.prop2 sur le pourcentage le plus élevé affiché de la page précédente et le pourcentage initial affiché de la page précédente, ainsi que le nombre de plis atteint par le visiteur et le nombre de plis disponibles.
+   * Le code définit également s.prop2 sur le pourcentage le plus élevé affiché de la page précédente et le pourcentage initial affiché de la page précédente, ainsi que le nombre de plis atteint par le et le nombre de plis disponibles.
 
-**Remarque**:  Si une page entière est visible lors du premier chargement, les dimensions Pourcentage le plus élevé affiché et Pourcentage initial affiché sont égales à 100, et les dimensions Dossiers vus et Dossiers disponibles sont égales à 1.   Lorsqu’une page entière n’est PAS visible lors du premier chargement, mais que le visiteur ne se retrouve jamais à faire défiler la page avant de passer à la page suivante, les dimensions Pourcentage le plus élevé affiché et Pourcentage initial affiché sont égales à la même valeur.
+**Remarque**:  Si une page entière est visible lors du premier chargement, les dimensions Pourcentage le plus élevé affiché et Pourcentage initial affiché sont égales à 100, et les dimensions Dossiers vus et Dossiers disponibles sont égales à 1.   Lorsqu’une page entière n’est PAS visible au premier chargement, mais que le ne finit jamais par faire défiler la page avant de passer à la page suivante, les dimensions Pourcentage le plus élevé affiché et Pourcentage initial affiché sont égales à la même valeur.
 
 ### Exemple n° 2
 
