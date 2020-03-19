@@ -2,12 +2,12 @@
 title: inList
 description: Vérifiez si une valeur est contenue dans une autre valeur délimitée par des caractères.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Module externe Adobe :inList
+# Module externe Adobe : inList
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
@@ -15,16 +15,16 @@ Le `inList` module externe vous permet de vérifier si une valeur existe déjà 
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialiser dansList
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -35,14 +35,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 La `inList` méthode utilise les arguments suivants :
 
-* **`lv`**(obligatoire, chaîne ou tableau) : Liste délimitée de valeurs ou objet de tableau JavaScript à rechercher
-* **`vtc`**(obligatoire, chaîne) : La valeur à rechercher
-* **`d`**(facultatif, chaîne) : Délimiteur utilisé pour séparer les valeurs individuelles dans l’`lv`argument. La valeur par défaut est une virgule (`,`) lorsqu’elle n’est pas définie.
-* **`cc`**(facultatif, booléen) : Si cette valeur est définie sur`true`, une vérification sensible à la casse est effectuée. Si la valeur est définie sur`false`ou omis, une vérification non sensible à la casse est effectuée. Par défaut,`false`.
+* **`lv`** (obligatoire, chaîne ou tableau) : délimité de valeurs ou objet de tableau JavaScript à rechercher
+* **`vtc`** (obligatoire, chaîne) : La valeur à rechercher
+* **`d`** (facultatif, chaîne) : Délimiteur utilisé pour séparer les valeurs individuelles dans l’ `lv` argument. La valeur par défaut est une virgule (`,`) lorsqu’elle n’est pas définie.
+* **`cc`** (facultatif, booléen) : Si cette valeur est définie sur `true`, une vérification sensible à la casse est effectuée. Si la valeur est définie sur `false` ou omis, une vérification non sensible à la casse est effectuée. Par défaut, `false`.
 
 L’appel de cette méthode renvoie `true` s’il trouve une correspondance et `false` s’il ne trouve pas de correspondance.
 
@@ -94,7 +94,7 @@ s.events="event22,event24";
 if(s.inList(s.events,"event2"))
 ```
 
-...l’instruction conditionnelle if sera false car l’appel inList n’a pas fait de correspondance exacte entre event2 et l’une des valeurs délimitées de s.events.
+...l’instruction conditionnelle if sera false car l’appel inList n’a pas fait de correspondance exacte entre le 2 et l’une des valeurs délimitées de s.
 
 ### Exemple n° 3
 
@@ -110,7 +110,7 @@ s.events="event22,event24";
 if(!s.inList(s.events,"event23"))
 ```
 
-...l’instruction conditionnelle if sera vraie car l’appel inList n’a pas fait de correspondance exacte entre event23 et l’une des valeurs délimitées de s.events (notez l’opérateur &quot;NOT&quot; au début de l’appel de variable inList).
+...l’instruction conditionnelle if sera vraie, car l’appel inList n’a pas fait de correspondance exacte entre 23 et l’une des valeurs délimitées dans s.(notez l’opérateur &quot;NOT&quot; au début de l’appel de variable inList).
 
 ### Exemple n° 4
 
@@ -142,7 +142,7 @@ s.linkTrackVars = "events,eVar1";
 if(s.inList(s.linkTrackVars,"eVar1","|"))
 ```
 
-...l’instruction conditionnelle if sera false.  Valeur de l’argument d transmise à l’appel (c.-à-d. &quot;|&quot;) suppose que les valeurs individuelles dans s.linkTrackVars sont délimitées par un caractère barre verticale, alors qu&#39;en réalité, les valeurs sont délimitées par une virgule.  Dans ce cas, le plug-in tente de faire correspondre la valeur entière de s.linkTrackVars (c.-à-d. &quot;events,eVar1&quot;) et la valeur à rechercher (c.-à-d. &quot;eVar1&quot;).
+...l’instruction conditionnelle if sera false.  Valeur de l’argument d transmise à l’appel (c.-à-d. &quot;|&quot;) suppose que les valeurs individuelles dans s.linkTrackVars sont délimitées par un caractère barre verticale, alors qu&#39;en réalité, les valeurs sont délimitées par une virgule.  Dans ce cas, le plug-in tente de faire correspondre la valeur entière de s.linkTrackVars (c.-à-d. &quot;,eVar1&quot;) et la valeur à rechercher (c.-à-d. &quot;eVar1&quot;).
 
 ## Historique des versions
 
