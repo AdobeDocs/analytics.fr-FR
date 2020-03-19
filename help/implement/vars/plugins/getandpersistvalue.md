@@ -2,7 +2,7 @@
 title: getAndPersistValue
 description: Stockez une valeur qui peut être récupérée ultérieurement à tout moment.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,20 +11,20 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-Le `getAndPersistValue` module externe vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle similaire à la fonction de durée [!UICONTROL de] stockage dans Adobe Experience Platform Launch. Adobe conseille d’utiliser ce module externe si vous souhaitez conserver automatiquement une variable Analytics à la même valeur dans les accès suivants une fois la variable définie. Ce module externe n’est pas nécessaire si la fonction de durée [!UICONTROL de] stockage de Launch est suffisante ou si vous n’avez pas besoin de définir et de conserver des variables avec la même valeur dans les accès suivants. La persistance intégrée des eVars ne nécessite pas l’utilisation de ce module externe, car ces variables persistent côté serveur par Adobe.
+Le `getAndPersistValue` module externe vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle similaire à celui de la [!UICONTROL Storage duration] fonctionnalité de lancement d’Adobe Experience Platform. Adobe conseille d’utiliser ce module externe si vous souhaitez conserver automatiquement une variable Analytics à la même valeur dans les accès suivants une fois la variable définie. Ce module externe n’est pas nécessaire si la [!UICONTROL Storage duration] fonction de lancement est suffisante ou si vous n’avez pas besoin de définir et de conserver des variables avec la même valeur dans les accès suivants. La persistance intégrée des eVars ne nécessite pas l’utilisation de ce module externe, car ces variables persistent côté serveur par Adobe.
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialize getAndPersistValue
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -35,14 +35,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,9 +55,9 @@ s.getAndPersistValue=function(vtp,cn,ex){var b=new Date;cn=cn?cn:"s_gapv";(ex=ex
 
 La `getAndPersist` méthode utilise les arguments suivants :
 
-* **`vtp`**(obligatoire) : Valeur à conserver d’une page à l’autre
-* **`cn`**(facultatif) : Nom du cookie pour stocker la valeur. Si cet argument n’est pas défini, le cookie est nommé`"s_gapv"`
-* **`ex`**(facultatif) : Nombre de jours avant l’expiration du cookie. Si cet argument est`0`ou n’est pas défini, le cookie expire à la fin de la visite (30 minutes d’inactivité).
+* **`vtp`** (obligatoire) : Valeur à conserver d’une page à l’autre
+* **`cn`** (facultatif) : Nom du cookie pour stocker la valeur. Si cet argument n’est pas défini, le cookie est nommé `"s_gapv"`
+* **`ex`** (facultatif) : Nombre de jours avant l’expiration du cookie. Si cet argument est `0` ou n’est pas défini, le cookie expire à la fin de la visite (30 minutes d’inactivité).
 
 Si la variable de l’ `vtp` argument est définie, le plug-in définit le cookie, puis renvoie la valeur du cookie. Si la variable de l’ `vtp` argument n’est pas définie, le module externe renvoie uniquement la valeur du cookie.
 
