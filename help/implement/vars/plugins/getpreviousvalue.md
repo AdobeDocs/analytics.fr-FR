@@ -2,7 +2,7 @@
 title: getPreviousValue
 description: Récupère la dernière valeur transmise dans une variable.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,16 +15,16 @@ Le `getPreviousValue` module externe vous permet de définir une variable sur un
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialiser getPreviousValue
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -35,14 +35,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setT
 
 La `getPreviousValue` méthode utilise les arguments suivants :
 
-* **`v`**(chaîne, obligatoire) : Variable dont la valeur doit être transmise à la demande d’image suivante. Une variable courante utilisée est`s.pageName`de récupérer la valeur de page précédente.
-* **`c`**(chaîne, facultatif) : Nom du cookie qui stocke la valeur.  Si cet argument n’est pas défini, il prend par défaut la valeur`"s_gpv"`.
+* **`v`** (chaîne, obligatoire) : Variable dont la valeur doit être transmise à la demande d’image suivante. Une variable courante utilisée est `s.pageName` de récupérer la valeur de page précédente.
+* **`c`** (chaîne, facultatif) : Nom du cookie qui stocke la valeur.  Si cet argument n’est pas défini, il prend par défaut la valeur `"s_gpv"`.
 
-Lorsque vous appelez cette méthode, elle renvoie la valeur de chaîne contenue dans le cookie. Le plug-in réinitialise ensuite l’expiration du cookie et lui affecte la valeur de variable de l’ `v` argument. Le cookie expire après 30 minutes d’inactivité.
+Lorsque vous appelez cette méthode, elle renvoie la valeur de chaîne contenue dans le cookie. Le plug-in réinitialise ensuite l’expiration du cookie et lui affecte la valeur de variable à partir de l’ `v` argument. Le cookie expire après 30 minutes d’inactivité.
 
 ## Exemples d’appels
 
@@ -76,7 +76,7 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 
 ### Exemple n° 2
 
-Le code suivant définit s.prop7 sur la dernière valeur transmise à s.pageName, mais uniquement si event1 est également contenu dans s.events, comme déterminé par le module externe inList, au moment où l’appel a lieu.
+Le code suivant définit s.prop7 sur la dernière valeur transmise à s.pageName, mais uniquement si le 1 est également contenu dans s., comme déterminé par le module externe inList, au moment où l’appel a lieu.
 
 ```js
 if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
@@ -117,8 +117,8 @@ s.pageName="happy value"
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 ```
 
-La fonction s.t() ne s’exécutant pas dans ce bloc de code, aucune autre demande d’image ne sera créée.  Cependant, lorsque le code de fonction s.getPreviousValue() s’exécute cette fois, s.prop7 est défini sur la valeur précédente de s.pageName (c.-à-d. &quot;home&quot;), puis stockera la nouvelle valeur de s.pageName (c.-à-d. &quot;happy value&quot;) dans le cookie &quot;gpv_Page&quot;.
-Supposons que le visiteur accède à une autre page et que le code suivant s’exécute sur cette page :
+La fonction s.t() ne s’exécutant pas dans ce bloc de code, aucune autre demande d’image ne sera créée.  Cependant, lorsque le code de la fonction s.getPreviousValue() s’exécute cette fois, s.prop7 est défini sur la valeur précédente de s.pageName (c.-à-d. &quot;home&quot;), puis stockera la nouvelle valeur de s.pageName (c.-à-d. &quot;happy value&quot;) dans le cookie &quot;gpv_Page&quot;.
+Supposons que le accède à une autre page et que le code suivant s’exécute sur cette page :
 
 ```js
 s.pageName="page 2"
