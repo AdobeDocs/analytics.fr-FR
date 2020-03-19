@@ -1,30 +1,30 @@
 ---
 title: getGeoCoordinates
-description: Assurez le suivi de la géolocalisation d’un visiteur.
+description: Effectuez le suivi d’un  géoLocation.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Module externe Adobe :getGeoCoordinates
+# Module externe Adobe : getGeoCoordinates
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-Le `getGeoCoordinates` module externe vous permet de capturer la latitude et la longitude des périphériques des visiteurs. Adobe recommande d’utiliser ce module externe si vous souhaitez capturer des données de géolocalisation dans des variables Analytics.
+Le `getGeoCoordinates` module externe vous permet de capturer la latitude et la longitude des périphériques . Adobe recommande d’utiliser ce module externe si vous souhaitez capturer des données de géolocalisation dans des variables Analytics.
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialisation de getGeoCoordinates
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -35,14 +35,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,9 +55,9 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 
 La `getGeoCoordinates` méthode n’utilise aucun argument. Elle renvoie l’une des valeurs suivantes :
 
-* `"geo coordinates not available"`: Pour les périphériques qui ne disposent pas de données de géolocalisation disponibles au moment de l’exécution du module. Cette valeur est courante lors du premier accès de la visite, en particulier lorsque les visiteurs doivent d’abord donner leur consentement au suivi de leur emplacement.
+* `"geo coordinates not available"`: Pour les périphériques qui ne disposent pas de données de géolocalisation disponibles au moment de l’exécution du module. Cette valeur est courante lors du premier accès de la visite, en particulier lorsque les doivent d’abord donner leur consentement lors du suivi de leur emplacement.
 * `"error retrieving geo coordinates"`: Lorsque le module externe rencontre des erreurs lors de la tentative de récupération de l’emplacement du périphérique
-* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Où [LATITUDE]/[LONGITUDE] sont respectivement la latitude et la longitude
+* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Où [LATITUDE]/[LONGITUDE] sont respectivement la latitude et la longitude,
 
 > [!NOTE] Les valeurs de coordonnées sont arrondies à la quatrième décimale la plus proche. Par exemple, la valeur de `"40.438635333"` est arrondie `"40.4386"` pour limiter le nombre de valeurs uniques à capturer. Les valeurs sont suffisamment proches pour indiquer l’emplacement exact de l’appareil dans un rayon d’environ 6 mètres.
 
@@ -73,7 +73,7 @@ Le code suivant...
 s.eVar1 = s.getGeoCoordinates();
 ```
 
-...définit eVar1 sur l’une des valeurs renvoyées ci-dessus, selon l’état du périphérique du visiteur.
+...définit eVar1 sur l’une des valeurs renvoyées ci-dessus, en fonction de l’état du périphérique 
 
 ### Exemple n° 2
 
@@ -88,7 +88,7 @@ if(coordinates.indexOf("latitude") > -1)
 }
 ```
 
-A partir de là, vous pouvez déterminer si un visiteur se trouve, par exemple, dans la Statue de la Liberté :
+A partir de là, vous pouvez déterminer si un se trouve, par exemple, à la Statue de la Liberté :
 
 ```js
 if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongtude >= -74.0446 && finalLongitude <= -74.0444)
