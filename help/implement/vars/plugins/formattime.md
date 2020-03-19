@@ -2,12 +2,12 @@
 title: formatTime
 description: Convertir un nombre de secondes en son équivalent en minutes, heures, etc.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Module externe Adobe :formatTime
+# Module externe Adobe : formatTime
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
@@ -15,16 +15,16 @@ Le `formatTime` module externe vous permet de prendre n’importe quel nombre de
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialize formatTime
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -35,14 +35,14 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
 ## Installation du module externe à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide `s_gi`). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,20 +58,20 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 La `formatTime` méthode utilise les arguments suivants :
 
-* **`ns`**(obligatoire, entier) : Le nombre de secondes à convertir ou à formater
-* **`tf`**(facultatif, chaîne) : Type de format dans lequel retourner les secondes ; par défaut, secondes
+* **`ns`** (obligatoire, entier) : Le nombre de secondes à convertir ou à formater
+* **`tf`** (facultatif, chaîne) : Type de format dans lequel retourner les secondes ; par défaut, secondes
    * Définissez cette variable sur `"d"` si vous souhaitez que l’heure soit exprimée en jours (arrondie par défaut à la valeur de référence de 1/4 jour la plus proche).
    * Définissez cette variable sur `"h"` si vous souhaitez obtenir l’heure en heures (arrondie par défaut au taux de référence de 1/4 heure le plus proche).
    * Définissez cette valeur sur `"m"` si vous souhaitez que le temps soit en minutes (arrondi par défaut à la valeur de référence de 1/2 minute la plus proche).
    * Définissez cette valeur sur `"s"` si vous souhaitez que le temps soit en secondes (arrondi par défaut au repère de 5 secondes le plus proche).
-* **`bml`**(facultatif, numéro) : Longueur des repères d’arrondi. Valeurs par défaut des repères répertoriés dans l&#39;`tf`argument
+* **`bml`** (facultatif, numéro) : Longueur des points de repère arrondis. Valeurs par défaut des repères répertoriés dans l&#39; `tf` argument
 
 La méthode renvoie le nombre de secondes formatées à l’aide de l’unité spécifiée dans l’ `tf` argument. Si l’ `tf` argument n’est pas défini :
 
 * Tout ce qui est inférieur à une minute est arrondi au repère de 5 secondes le plus proche
 * Tout ce qui se trouve entre une minute et une heure est arrondi à la valeur de référence de 1/2 minute la plus proche
 * Tout ce qui se trouve entre une heure et une journée est arrondi au point de référence du quart d’heure le plus proche.
-* Tout élément supérieur à une journée est arrondi au point de référence du jour le plus proche
+* Tout élément supérieur à une journée est arrondi au point de référence du jour le plus proche.
 
 ## Exemples
 
