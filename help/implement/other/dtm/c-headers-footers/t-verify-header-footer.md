@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Vérification du code d’en-tête et de pied de page
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -15,10 +15,10 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 Vérifiez si la bibliothèque de Dynamic Tag Management se charge correctement sur votre site.
 
 1. Ouvrez votre site dans votre navigateur.
-1. Pour ouvrir la [!UICONTROL console de développement], cliquez avec le bouton droit, puis sélectionnez **[!UICONTROL Contrôler un élément]**>**[!UICONTROL  Console]**.
+1. Pour ouvrir la [!UICONTROL console de développement], cliquez avec le bouton droit, puis sélectionnez **[!UICONTROL Contrôler un élément]** > **[!UICONTROL Console]**.
 1. Appuyez sur **[!UICONTROL Entrée]**.
 
-   Si le code a été correctement installé, vous verrez *`true`*s’afficher dans la console.
+   Si le code a été correctement installé, vous verrez *`true`* s’afficher dans la console.
 
    Si le code n’a pas été correctement installé, l’erreur de référence suivante s’affiche :
 
