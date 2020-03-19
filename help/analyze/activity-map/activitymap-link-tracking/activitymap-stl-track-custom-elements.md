@@ -4,26 +4,26 @@ title: Utilisation de la méthode s.tl()
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 290526ecc1b040f93d0734a5deaf2d79ab1bde10
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Utiliser la `tl` méthode
+# Utiliser la `tl()` méthode
 
-You can use the `tl` method to track custom elements and to configure overlay rendering for dynamic content.
+You can use the `tl()` method to track custom elements and to configure overlay rendering for dynamic content.
 
 ## Suivi d’éléments personnalisés {#section_5D6688DFFFC241718249A9A0C632E465}
 
-Using the [`tl` method](/help/implement/vars/functions/tl-method.md) as part of the Activity Map AppMeasurement module lets you track any object that is clicked on, even objects that are not anchor tags or image elements. La fonction s.tl vous permet de suivre les éléments personnalisés qui ne conduisent pas à un chargement de page.
+Using the [`tl()` method](/help/implement/vars/functions/tl-method.md) as part of the Activity Map AppMeasurement module lets you track any object that is clicked on, even objects that are not anchor tags or image elements. La fonction s.tl vous permet de suivre les éléments personnalisés qui ne conduisent pas à un chargement de page.
 
-In the `tl` method, the `linkName` parameter that is currently used to identify the exit links, custom links, etc. est désormais utilisé pour identifier l’ID de lien pour la variable d’Activity Map.
+In the `tl()` method, the `linkName` parameter that is currently used to identify the exit links, custom links, etc. est désormais utilisé pour identifier l’ID de lien pour la variable d’Activity Map.
 
 ```js
 s.tl(this,linkType,linkName,variableOverrides)
 ```
 
-In other words, if you use `s.tl` to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the `s.tl` method. Il n’est pas extrait de l’algorithme de suivi des liens standard utilisé pour [le suivi par défaut](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) dans Activity Map.
+In other words, if you use `s.tl()` to track your custom elements, the link ID is pulled from the value passed as the third parameter (linkName) in the `s.tl()` method. Il n’est pas extrait de l’algorithme de suivi des liens standard utilisé pour [le suivi par défaut](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) dans Activity Map.
 
 ## Rendu des superpositions pour le contenu dynamique {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
@@ -33,9 +33,9 @@ Lorsque la fonction s.tl() est appelée directement à partir de l’événement
 <div onclick="s.tl(this,'o','Example custom link')">Example link text</a>
 ```
 
-Whenever any web page content is added to the page after the initial page load, the `tl` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. Un nouveau processus de collecte des liens est ensuite déclenché depuis Activity Map.
+Whenever any web page content is added to the page after the initial page load, the `tl()` method is called indirectly and we cannot display overlays for that new content unless it is expressly activated/clicked. Un nouveau processus de collecte des liens est ensuite déclenché depuis Activity Map.
 
-When the `tl` method is not called directly from the HTML element&#39;s on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl` method is called indirectly:
+When the `tl()` method is not called directly from the HTML element&#39;s on-click event, Activity Map can only display overlay once that element has been clicked by the user. Here is an example where the `tl()` method is called indirectly:
 
 ```html
 <div onclick="someFn(event)"></div>
