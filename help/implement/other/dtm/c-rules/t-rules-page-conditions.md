@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création de conditions pour les règles de chargement de page
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -22,7 +22,7 @@ Créez des règles qui déterminent les pages sur lesquelles une règle est déc
 
 1. Spécifiez la condition qui entraîne le déclenchement de la règle.
 
-   Vous pouvez par exemple sélectionner **[!UICONTROL Chemin d’accès]**pour identifier des pages spécifiques pour lesquelles la règle doit être déclenchée.
+   Vous pouvez par exemple sélectionner **[!UICONTROL Chemin d’accès]** pour identifier des pages spécifiques pour lesquelles la règle doit être déclenchée.
 
    ![](assets/conditions-page-load-rules2.png)
 
