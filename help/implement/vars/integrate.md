@@ -1,17 +1,17 @@
 ---
-title: Intégration de module
+title: Module Integrate
 description: Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 ---
 
 
-# Intégration de module
+# Module Integrate
 
 Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation. Cette intégration donne la possibilité d’établir une connexion de données bidirectionnelle. En règle générale, l’utilisation du module Integrate est gérée par un partenaire Adobe.
 
-> [!NOTE] La demande de données de partenaire dans votre implémentation peut augmenter les délais entre le chargement de pages et l’envoi de données aux serveurs de collecte de données Adobe. Si un visiteur charge une nouvelle page avant l’envoi des données, cette page n’est pas enregistrée.
+> [!NOTE] La demande de données de partenaire dans votre mise en œuvre peut augmenter les délais entre le chargement de pages et l’envoi de données aux serveurs de collecte de données Adobe. Si un visiteur charge une nouvelle page avant l’envoi des données, cette page n’est pas enregistrée.
 
 ## Processus du module Integrate
 
@@ -30,18 +30,18 @@ L’obtention du code de module requiert un utilisateur disposant de l’accès 
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur l’icône à 9 carrés dans l’angle supérieur droit, puis sur le logo Analytics coloré.
-1. Dans le volet de navigation supérieur, cliquez sur [!UICONTROL Administration] > [!UICONTROL Gestionnaire de code].
+1. Dans le volet de navigation supérieur, cliquez sur [!UICONTROL Administration] > [!UICONTROL Gestionnaire de code].
 1. Téléchargez la bibliothèque AppMeasurement pour JavaScript la plus récente.
 1. Une fois le fichier téléchargé, décompressez-le et recherchez `AppMeasurement_Module_Integrate.js`.
 
 ### Placez le module Integrate dans votre implémentation
 
-La mise en œuvre du module Integrate sur votre site nécessite l’accès à Adobe Experience Platform Launch. Si vous utilisez une implémentation JavaScript héritée, vous devez accéder au code source du site web de votre entreprise.
+La mise en œuvre du module Integrate sur votre site nécessite l’accès à Adobe Experience Platform Launch. Si vous utilisez une mise en œuvre JavaScript héritée, vous devez accéder au code source du site web de votre entreprise.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété Launch que vous souhaitez modifier.
 3. Cliquez sur l’onglet Extensions, puis sur Configurer sous Adobe Analytics.
-4. Ouvrez l’accordéon « Configurer l’outil de suivi à l’aide du code personnalisé », puis cliquez sur « &lt;/> Ouvrir l’éditeur ».
+4. Ouvrez l’accordéon « Configurer l’outil de suivi à l’aide du code personnalisé », puis cliquez sur « &lt;/> Ouvrir l’éditeur ».
 5. Collez le code du module Integrate dans la fenêtre modale du code. Lorsque vous avez terminé, cliquez sur Enregistrer.
 
 ## Méthodes du module Integrate
@@ -50,7 +50,7 @@ Une fois le module Integrate mis en œuvre, utilisez ces méthodes pour le confi
 
 ### add
 
-La méthode `add` instancie un objet partenaire, qui sert de boutique intermédiaire de données variables lors du partage de données entre les systèmes partenaires et votre implémentation. Cette méthode est requise pour toutes les intégrations. Un objet partenaire distinct doit être utilisé pour chaque partenaire unique si plusieurs partenaires sont utilisés dans une seule implémentation.
+La méthode `add` instancie un objet partenaire, qui sert de boutique intermédiaire de données variables lors du partage de données entre les systèmes partenaires et votre mise en œuvre. Cette méthode est requise pour toutes les intégrations. Un objet partenaire distinct doit être utilisé pour chaque partenaire unique si plusieurs partenaires sont utilisés dans une seule mise en œuvre.
 
 ```JavaScript
 s.Integrate.add("<partner_name>");
