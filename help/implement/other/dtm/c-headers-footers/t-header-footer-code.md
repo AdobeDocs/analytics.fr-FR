@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Ajout de code d’en-tête et de pied de page
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -20,7 +20,7 @@ Dynamic Tag Management crée du code incorporé d’évaluation et de production
 
 >[!IMPORTANT]
 >
->Pour une implémentation réussie, il est essentiel que vous suiviez les instructions telles qu’elles apparaissent dans l’aide d’Adobe. Plus précisément, vous devez placer le code d’en-tête dans la section `<head>` de vos modèles de document. Vous devez également placer le code de pied de page juste avant la balise fermante `</body>`. Le placement de ce code incorporé à un autre emplacement de vos balises, l’utilisation de méthodes asynchrones pour modifier le code incorporé, ou l’encapsulation du code incorporé *ne constitue pas* une mise en œuvre prise en charge par Dynamic Tag Management. Le code incorporé doit être implémenté exactement tel qu’il a été fourni.
+>Pour une mise en œuvre réussie, il est essentiel que vous suiviez les instructions telles qu’elles apparaissent dans l’aide d’Adobe. Plus précisément, vous devez placer le code d’en-tête dans la section `<head>` de vos modèles de document. Vous devez également placer le code de pied de page juste avant la balise fermante `</body>`. Le placement de ce code incorporé à un autre emplacement de vos balises, l’utilisation de méthodes asynchrones pour modifier le code incorporé, ou l’encapsulation du code incorporé *ne constitue pas* une mise en œuvre prise en charge par Dynamic Tag Management. Le code incorporé doit être implémenté exactement tel qu’il a été fourni.
 >
 >Une mise en œuvre non prise en charge provoquera des résultats inattendus et empêchera le service à la clientèle et l’ingénierie de vous aider.
 
