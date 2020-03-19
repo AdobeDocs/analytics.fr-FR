@@ -4,7 +4,7 @@ title: Pages vues
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ---
 
@@ -15,17 +15,16 @@ Rapport de tendance qui affiche le nombre de fois où les pages de votre site we
 
 Une [Page vue](/help/components/c-variables/c-metrics/metrics-page-view.md) est une requête pour une page entière, plutôt qu’un élément d’une page (image ou vidéo, par exemple). Par exemple, si un visiteur unique consulte 15 pages durant une visite, 15 pages vues sont comptabilisées. Si un visiteur affiche la même page trois fois durant une visite, trois pages vues sont comptabilisées.
 
-**Propriétés des rapports**
+## Propriétés des rapports
 
-* Ce rapport désigne le nombre d’appels de la fonction [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) sur votre site.
-* Les appels [suivi de liens](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) personnalisés (tels que les liens personnalisés, les téléchargements de fichiers et les liens de sortie) utilisent la fonction [!DNL s.tl()] et ne sont pas comptabilisés dans ce rapport.
-
+* This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
+* Les appels de suivi de liens qui utilisent la [`tl()`](/help/implement/vars/functions/tl-method.md) méthode ne sont pas comptabilisés dans ce rapport.
 * Des demandes d’image sont envoyées lorsque l’utilisateur actualise la page ou clique sur le bouton Précédent. Par conséquent, ces actions sont également reprises dans le rapport.
 * Les ventilations horaires sont basées sur le fuseau horaire de la suite de rapports.
 * Ce rapport ne contient pas d’éléments. À ce titre, il peut uniquement être affiché sous la forme d’un rapport de tendance.
 * Vous pouvez appliquer une granularité horaire, quotidienne, hebdomadaire, mensuelle, trimestrielle et annuelle. Cette granularité est disponible en fonction de la plage de dates des rapports.
 
-**Informations spécifiques au produit**
+## Informations spécifiques au produit
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
