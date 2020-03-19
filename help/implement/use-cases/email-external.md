@@ -1,7 +1,7 @@
 ---
 title: Suivi des courriers électroniques externes
 description: Utilisez Adobe Analytics pour effectuer le suivi du contenu des courriers électroniques.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -31,9 +31,9 @@ Plusieurs étapes successives permettent d’afficher les données d’analyse d
 
    Les utilisateurs demandent souvent des recommandations pour le suivi de chaque campagne unique. C’est à eux de les déterminer en fonction de leurs besoins. Chaque utilisateur est différent. Adobe conseille à chaque utilisateur de générer des codes de suivi conviviaux, comme illustré dans l’exemple suivant :
 
-   * sc_cid=A1123A321 > « A » correspond à campagne affiliée
-   * sc_cid=EM033007 > « EM » correspond à campagne par courrier électronique
-   * sc_cid=GG987123 > « GG » correspond à Google et il s’agit d’une campagne de recherche payante
+   * sc_cid=A1123A321 > « A » correspond à campagne affiliée
+   * sc_cid=EM033007 > « EM » correspond à campagne par courrier électronique
+   * sc_cid=GG987123 > « GG » correspond à Google et il s’agit d’une campagne de recherche payante
    Pour obtenir des informations détaillées sur la configuration et l’utilisation des codes de suivi, contactez Adobe [!DNL Customer Care].
 
 1. Ajoutez des paramètres de chaîne de requête à des liens de courriers électroniques HTML.
@@ -56,7 +56,7 @@ Plusieurs étapes successives permettent d’afficher les données d’analyse d
 
    1. Personnalisez [!DNL s_code.js] en appelant [!UICONTROL getQueryParam].
 
-      Le fichier [!DNL s_code.js] doit être placé à un emplacement du serveur Web accessible par chaque page Web. La fonction *`doPlugins`*de ce fichier doit être modifiée afin de lui permettre de capturer les paramètres de chaîne de requête des liens du courrier électronique. Par exemple :
+      Le fichier [!DNL s_code.js] doit être placé à un emplacement du serveur Web accessible par chaque page Web. La fonction *`doPlugins`* de ce fichier doit être modifiée afin de lui permettre de capturer les paramètres de chaîne de requête des liens du courrier électronique. Par exemple :
 
       ```js
       /* Plugin Config */ 
@@ -78,7 +78,7 @@ Plusieurs étapes successives permettent d’afficher les données d’analyse d
       Il est important de garder en mémoire les points ci-après lors de la mise à jour de la bibliothèque JavaScript. Ces points sont énoncés ci-dessous.
 
       * Le paramètre de chaîne de requête [!UICONTROL sc_cid] doit être visible dans l’URL de la page d’entrée finale ; dans le cas contraire, aucune conversion de clic publicitaire ne sera enregistrée.
-      * Le paramètre [!UICONTROL sc_cid] est un exemple de paramètre de chaîne de requête. Tout paramètre de chaîne de requête peut être utilisé et capturé par le module externe [!UICONTROL getQueryParam]. Assurez-vous que les paramètres de chaîne de requête ne sont utilisés que pour le suivi de campagne. Chaque fois que les paramètres figurent dans une chaîne de requête, leurs valeurs sont copiées dans *`campaign`*.
+      * Le paramètre [!UICONTROL sc_cid] est un exemple de paramètre de chaîne de requête. Tout paramètre de chaîne de requête peut être utilisé et capturé par le plug-in [!UICONTROL getQueryParam]. Assurez-vous que les paramètres de chaîne de requête ne sont utilisés que pour le suivi de campagne. Chaque fois que les paramètres figurent dans une chaîne de requête, leurs valeurs sont copiées dans *`campaign`*.
 
 1. Utilisez [!UICONTROL SAINT] pour classifier les codes de suivi de campagne.
 
