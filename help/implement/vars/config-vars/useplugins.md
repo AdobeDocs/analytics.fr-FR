@@ -2,14 +2,14 @@
 title: usePlugins
 description: Activez ou désactivez la fonction doPlugins().
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # usePlugins
 
-Si `usePlugins` est activée, la `doPlugins()` fonction s’exécute juste avant la compilation d’AppMeasurement et l’envoi d’un accès à Adobe. Activez cette variable si vous utilisez la `doPlugins()` fonction.
+Si `usePlugins` est activée, la [`doPlugins()`](../functions/doplugins.md) fonction s’exécute juste avant la compilation d’AppMeasurement et l’envoi d’un accès à Adobe. Activez cette variable si vous utilisez la `doPlugins()` fonction.
 
 ## Utilisation des modules externes dans le lancement d’Adobe Experience Platform
 
