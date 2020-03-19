@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;data element;create new data element;name;type;
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création d’un élément de données
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 Création d’un élément de données dans Dynamic Tag Management.
 
 1. [Créez une propriété web](/help/implement/other/dtm/t-create-web-property.md), si ce n’est pas déjà fait.
-1. Dans la propriété web, cliquez sur **[!UICONTROL Règles]** >**[!UICONTROL &#x200B;Éléments de données]**.
+1. Dans la propriété web, cliquez sur **[!UICONTROL Règles]** > **[!UICONTROL Éléments de données]**.
 1. Cliquez sur **[!UICONTROL Créer un élément de données]**.
 1. Renseignez les champs et options suivants :
 
@@ -33,7 +33,7 @@ Création d’un élément de données dans Dynamic Tag Management.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Type</strong></td> 
-      <td class="chdesc stentry"> <p> Indique d’où sont extraites les données : objet JS Object, sélecteur CSS, cookie, paramètres d’URL ou script personnalisé. </p> <p>Selon le type que vous avez sélectionné, différentes options s’affichent. Voir <a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html">Types d’éléments de données</a> dans la documentation du produit Dynamic Tag Management pour obtenir plus d’informations ainsi que des exemples. </p> </td> 
+      <td class="chdesc stentry"> <p> Indique d’où sont extraites les données : objet JS Object, sélecteur CSS, cookie, paramètres d’URL ou script personnalisé. </p> <p>Selon le type que vous avez sélectionné, différentes options s’affichent. Voir <a href="https://marketing.adobe.com/resources/help/fr_FR/dtm/data_elements.html">Types d’éléments de données</a> dans la documentation du produit Dynamic Tag Management pour obtenir plus d’informations ainsi que des exemples. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Valeur par défaut</strong></td> 
@@ -47,12 +47,12 @@ Création d’un élément de données dans Dynamic Tag Management.
       <td class="choption"><strong>Mémoriser cette valeur pour</strong></td> 
       <td class="chdesc stentry"> <p>Durée pendant laquelle Dynamic Tag Management doit mémoriser cette valeur. </p> <p> Les valeurs valides sont les suivantes : </p> 
       <ul id="ul_52F6CD8FC22942208F3F45492E914104"> 
-        <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>Session : la durée de la session varie selon l’implémentation. Les éléments de données de session sont définis sur le cookie de session. Ce paramètre peut toutefois reposer sur le serveur web ou le navigateur. Il n’est pas lié à la session utilisée dans les Reports &amp; Analytics marketing. </p> </li> 
-        <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>Pageview </p> </li> 
-        <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>Visitor </p> </li> 
+        <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>Session : la durée de la session varie selon la mise en œuvre. Les éléments de données de session sont définis sur le cookie de session. Ce paramètre peut toutefois reposer sur le serveur web ou le navigateur. Il n’est pas lié à la session utilisée dans les Reports &amp; Analytics marketing. </p> </li> 
+        <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>Pageview. </p> </li> 
+        <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>Visitor. </p> </li> 
       </ul> </td> 
     </tr> 
    </table>
 
-   Voir [Éléments de données](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html) dans la documentation du produit Tag Management d’Adobe pour plus d’informations sur l’utilisation des éléments de données.
+   Voir [Éléments de données](https://marketing.adobe.com/resources/help/fr_FR/dtm/data_elements.html) dans la documentation du produit Tag Management d’Adobe pour plus d’informations sur l’utilisation des éléments de données.
 1. Cliquez sur **[!UICONTROL Enregistrer l’élément de données]**.
