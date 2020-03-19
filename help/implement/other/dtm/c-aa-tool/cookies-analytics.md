@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Cette section contient la description des champs des paramètres généraux des cookies utilisés pour le déploiement de [!UICONTROL Dynamic Tag Management] dans Adobe Analytics.
 
-*`Property`*> Modifier l’outil > Cookies
+*`Property`* > Modifier l’outil > Cookies
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -34,11 +34,11 @@ Cette section contient la description des champs des paramètres généraux des 
   </tr> 
   <tr> 
    <td colname="col1"> Nombre de points du domaine </td> 
-   <td colname="col2"> <p>Domaine sur lequel les cookies <code> s_cc</code> et <code> s_sq</code> sont définis en déterminant le nombre de points contenus dans le domaine de l’URL de la page. Elle est également utilisée par certains modules externes pour déterminer le domaine correct afin de définir le cookie du module externe. </p> </td> 
+   <td colname="col2"> <p>Domaine sur lequel les cookies <code> s_cc</code> et <code> s_sq</code> sont définis en déterminant le nombre de points contenus dans le domaine de l’URL de la page. Cette variable est également utilisée par certains plug-ins pour déterminer le domaine correct afin de définir le cookie du plug-in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nombre de points du domaine FP </td> 
-   <td colname="col2"> <p>La variable <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>Voir <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>La variable <span class="term"> fpCookieDomainPeriods</span> concerne les cookies définis par JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins), qui sont intrinsèquement des cookies propriétaires, même si votre mise en œuvre utilise les domaines tiers <span class="filepath"> 2o7.net</span> ou <span class="filepath"> omtrdc.net</span>. </p> <p>Voir <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ID de transaction </td> 
