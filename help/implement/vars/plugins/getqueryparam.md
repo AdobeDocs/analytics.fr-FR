@@ -1,8 +1,8 @@
 ---
 title: getQueryParam
-description: Extrayez la valeur du paramètre de chaîne de requête d’une URL.
+description: Extrayez la valeur du paramètre de chaîne de  d’une URL.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,22 +11,22 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
 
-Le `getQueryParam` module externe vous permet d’extraire la valeur de tout paramètre de chaîne de requête contenu dans une URL. Il est utile pour extraire des codes de campagne, internes et externes, des URL de page d’entrée. Elle est également utile lors de l’extraction de termes de recherche ou d’autres paramètres de chaîne de requête.
+Le `getQueryParam` module externe vous permet d’extraire la valeur de tout paramètre de chaîne de  contenu dans une URL. Il est utile pour extraire des codes de campagne, internes et externes, des URL de  d’. Il est également utile lors de l’extraction de termes de recherche ou d’autres paramètres de chaîne de .
 
-Ce plug-in fournit des fonctionnalités puissantes pour analyser des URL complexes, notamment des hachages et des URL contenant plusieurs paramètres de chaîne de requête. Si vous avez uniquement besoin de paramètres de chaîne de requête simples, Adobe recommande d’utiliser les fonctionnalités de paramètre d’URL dans Launch ou la `Util.getQueryParam` méthode incluse dans AppMeasurement.
+Ce plug-in fournit des fonctionnalités puissantes pour analyser des URL complexes, notamment des hachages et des URL contenant plusieurs paramètres de chaîne de  de. Si vous n’avez besoin que de paramètres de chaîne de simples, Adobe recommande d’utiliser les fonctionnalités de paramètre d’URL dans Launch ou la [`Util.getQueryParam()`](../functions/util-getqueryparam.md) méthode incluse dans AppMeasurement.
 
 ## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur une propriété.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Catalogue] .
-1. Installation et publication de l’extension Plugins [!UICONTROL Analytics] communs
-1. Si ce n’est déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
+1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
    * Condition : Aucun
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   *  : Core - Bibliothèque chargée (Haut de la page)
+1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
    * Extension : Plug-ins Analytics courants
    * Type d&#39;action : Initialiser getQueryParam
 1. Enregistrez et publiez les modifications apportées à la règle.
@@ -37,8 +37,8 @@ Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez u
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
 1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
-1. Développez la section [!UICONTROL Configurer le suivi à l’aide de l’accordéon de code] personnalisé, qui affiche le bouton [!UICONTROL Ouvrir l’éditeur] .
+1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
 1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
@@ -56,16 +56,16 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 La `getQueryParam` méthode utilise les arguments suivants :
 
-* **`qsp`**(obligatoire) : Liste délimitée par des virgules de paramètres de chaîne de requête à rechercher dans l’URL. Il n’est pas sensible à la casse.
-* **`de`**(facultatif) : Délimiteur à utiliser si plusieurs paramètres de chaîne de requête correspondent. Valeur par défaut définie sur une chaîne vide.
-* **`url`**(facultatif) : URL, chaîne ou variable personnalisée à partir de laquelle extraire les valeurs des paramètres de chaîne de requête. Par défaut,`window.location`.
+* **`qsp`** (obligatoire) : délimité par des virgules de paramètres de chaîne de  à rechercher dans l’URL. Il n’est pas sensible à la casse.
+* **`de`** (facultatif) : Délimiteur à utiliser si plusieurs paramètres de chaîne de  correspondent. Valeur par défaut définie sur une chaîne vide.
+* **`url`** (facultatif) : URL, chaîne ou variable personnalisée à partir de laquelle extraire les valeurs de paramètre de chaîne de  du. Par défaut, `window.location`.
 
 L’appel de cette méthode renvoie une valeur en fonction des arguments ci-dessus et de l’URL :
 
-* Si aucun paramètre de chaîne de requête correspondant n’est trouvé, la méthode renvoie une chaîne vide.
-* Si un paramètre de chaîne de requête correspondant est trouvé, la méthode renvoie la valeur du paramètre de chaîne de requête.
-* Si un paramètre de chaîne de requête correspondant est trouvé mais que la valeur est vide, la méthode renvoie `true`.
-* Si plusieurs paramètres de chaîne de requête correspondants sont trouvés, la méthode renvoie une chaîne avec chaque valeur de paramètre délimitée par la chaîne dans l’ `de` argument.
+* Si un paramètre de chaîne de  de correspondant est introuvable, la méthode renvoie une chaîne vide.
+* Si un paramètre de chaîne de  de correspondant est trouvé, la méthode renvoie la valeur du paramètre de chaîne de  de.
+* Si un paramètre de chaîne de  de correspondant est trouvé mais que la valeur est vide, la méthode renvoie `true`.
+* Si plusieurs paramètres de chaîne de correspondants sont trouvés, la méthode renvoie une chaîne avec chaque valeur de paramètre délimitée par la chaîne dans l’ `de` argument.
 
 ## Exemples d’appels
 
@@ -139,7 +139,7 @@ Le code suivant définit s.campaign sur &quot;123456&quot;.
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**** Remarque : Le plug-in remplace l’URL du caractère de hachage de la vérification par un point d’interrogation si aucun point d’interrogation n’existe.  Si l&#39;URL contient un point d&#39;interrogation placé avant le caractère de hachage, le module remplace l&#39;URL vers le caractère de hachage de Check par une esperluette ;
+**Remarque :** Le plug-in remplace l’URL du caractère de hachage de la vérification par un point d’interrogation si aucun point d’interrogation n’existe.  Si l&#39;URL contient un point d&#39;interrogation placé avant le caractère de hachage, le plug-in remplace l&#39;URL vers le caractère de hachage de Check par une esperluette ;
 
 ### Exemple n° 6
 
@@ -167,7 +167,7 @@ Cependant, le code suivant définit s.campaign sur &quot;trackingcode1&quot; :
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**** Remarque : le troisième paramètre peut être n’importe quelle chaîne/variable que le code utilisera pour rechercher les paramètres de chaîne de requête dans
+**Remarque :** le troisième paramètre peut être n’importe quelle chaîne/variable que le code utilisera pour tenter de trouver les paramètres de chaîne de  du dans
 
 Le code suivant définit s.eVar2 sur &quot;123456|trackingcode1|true|300&quot; :
 
@@ -193,7 +193,7 @@ La valeur 300 provient de la valeur du paramètre pos dans la variable s.testURL
 
 ### 3.1 (10 mai 2018)
 
-* Correction d’un problème lié à la capture de paramètres de chaîne de requête sans valeur.
+* Correction d’un problème lié à la capture de paramètres de chaîne de sans valeur
 
 ### 3.0 (16 avril 2018)
 
@@ -207,7 +207,7 @@ La valeur 300 provient de la valeur du paramètre pos dans la variable s.testURL
 
 ### 2.4
 
-* Ajout du `h` paramètre, permettant au code de rechercher les paramètres de chaîne de requête trouvés après le caractère de hachage (`#`)
+* Ajout du `h` paramètre, permettant au code de rechercher les paramètres de chaîne de trouvés après le caractère de hachage (`#`)
 
 ### 2.3
 
