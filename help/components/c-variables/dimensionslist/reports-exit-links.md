@@ -1,37 +1,24 @@
 ---
-description: Affiche les liens sur lesquels les visiteurs cliquent le plus souvent et qui pointent vers des sites externes. Ces liens pointent généralement vers des sites de partenaires ou de sociétés affiliées. Il peut toutefois s’agir de tout emplacement sur lequel vous avez implémenté un lien externe. Vous pouvez utiliser ce rapport pour afficher les liens de sites affiliés les plus populaires ou faciliter la validation du nombre de renvois que vous fournissez, selon les indications de vos partenaires.
 title: Liens de sortie
-topic: Reports
-uuid: e1452f04-389d-4aa3-8763-732880284302
+description: Affichez un rapport sur les liens les plus courants sur lesquels les visiteurs cliquent pour quitter votre site.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: be4c3ec95b9e93dda7603c0bdb178c0a54d800a0
 
 ---
 
 
 # Liens de sortie
 
-Affiche les liens sur lesquels les visiteurs cliquent le plus souvent et qui pointent vers des sites externes. Ces liens pointent généralement vers des sites de partenaires ou de sociétés affiliées. Il peut toutefois s’agir de tout emplacement sur lequel vous avez implémenté un lien externe. Vous pouvez utiliser ce rapport pour afficher les liens de sites affiliés les plus populaires ou faciliter la validation du nombre de renvois que vous fournissez, selon les indications de vos partenaires.
+Affiche les liens les plus courants sur lesquels les visiteurs cliquent pour quitter votre site. Ces liens renvoient généralement vers des sites partenaires ou affiliés ; toutefois, il peut s’agir de n’importe quel emplacement où vous disposez d’un lien externe. Vous pouvez utiliser ce rapport pour afficher les liens de sites affiliés les plus populaires ou faciliter la validation du nombre de renvois que vous fournissez, selon les indications de vos partenaires.
 
 Il convient de respecter certaines exigences pour que cette page soit renseignée correctement :
-
-* Si vous utilisez le suivi manuel de liens personnalisés, une requête *`s.tl()`* doit être déclenchée en définissant le paramètre du milieu sur *e*.
-
+* Si vous utilisez le suivi manuel des liens personnalisés, une `tl()` requête doit être déclenchée avec le paramètre du milieu défini sur `e`.
 * Si vous utilisez le suivi automatique de liens personnalisés, toutes les exigences doivent être respectées :
-* 
-
-   * [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackexlinks.html) doit être défini sur *true*.
-
-   * Le lien sur lequel l’utilisateur a cliqué ne doit correspondre à aucune valeur de la variable [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html).
-   * Si la variable [s.linkInternalFilters](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkinfilters.html) est implémentée, le lien externe doit correspondre à au moins l’une des valeurs définies.
-
-* Si l’une des exigences ci-dessus n’est pas respectée, l’accès n’est pas renseigné dans ce rapport.
-
-* 
-* Comme c’est le cas avec les accès de suivi de liens personnalisés, la variable [s.pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) est supprimée de la requête d’image afin d’éviter la croissance incontrôlée des pages vues.
+   * La variable [trackExternalLinks](/help/implement/vars/config-vars/trackexternallinks.md) doit être activée.
+   * The link the user clicked on must not match any values within the [linkInternalFilters](/help/implement/vars/config-vars/linkinternalfilters.md) variable.
+   * If the [linkExternalFilters](/help/implement/vars/config-vars/linkexternalfilters.md) variable exists, the external link must match at least one of the values set in this variable.
+* Si l’une des conditions ci-dessus n’est pas respectée, l’accès ne renseigne pas ce rapport.
+* Comme pour tous les accès de suivi de liens personnalisés, la variable [pageName](/help/implement/vars/page-vars/pagename.md) est supprimée de la demande d’image afin d’éviter le gonflement vers la mesure  de la page.
 * Ce rapport est visible en tant que rapport de tendance et avec classement.
 * Ce rapport peut utiliser un filtre de recherche afin de localiser des éléments spécifiques.
-* Vous pouvez créer des [répartitions](/help/analyze/reports-analytics/reports-customize/breakdowns.md) avec toute autre variable au moyen des outils d’administration.
-* [Les instances](/help/components/c-variables/c-metrics/metrics-instance.md) sont les seules mesures disponibles par défaut dans ce rapport. Elles comptabilisent le nombre de fois où le lien de sortie est déclenché.
-* Vous pouvez activer des visiteurs quotidiens, hebdomadaires, mensuels et trimestriels pour ce rapport. Sachez toutefois que seul un représentant Adobe est habilité à les activer, moyennant paiement. L’activation de visiteurs uniques pour toute variable de suivi de liens personnalisés augmente sensiblement la latence pour la suite de rapports.
-
+* Vous pouvez créer des  [ventilations](/help/analyze/reports-analytics/reports-customize/breakdowns.md) avec toute autre variable.
