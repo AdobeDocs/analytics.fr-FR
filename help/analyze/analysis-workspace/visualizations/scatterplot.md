@@ -1,20 +1,20 @@
 ---
-description: Présente les impressions diffusées et le nombre d’utilisateurs uniques qui ont vu ces impressions.
 title: Graphique de dispersion
-uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+description: Visualisation qui montre la relation entre trois mesures au maximum.
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
 
 # Graphique de dispersion
 
-Présente les impressions diffusées et le nombre d’utilisateurs uniques qui ont vu ces impressions.
+La visualisation à dispersion montre la relation entre les valeurs de dimension et trois mesures au maximum. Il nécessite trois composants et prend en charge la visualisation de jusqu’à quatre composants.
 
-La taille de chaque point de données fournit une indication visuelle du nombre de fois moyen auquel un observateur a été exposé à une publicité. La taille et les données varient selon les dimensions, les plages de dates et les filtres que vous sélectionnez.
+* Le composant de ligne (généralement une dimension) représente chaque point du graphique. Différentes rangées s’affichent sous forme de points de couleur différents.
+* La colonne la plus à gauche (généralement une mesure) trace la position du point sur l’axe Y (vertical).
+* La deuxième colonne trace la position du point sur l’axe X (horizontal).
+* La troisième colonne détermine le rayon du point.
+* Toutes les colonnes suivantes d’un tableau à structure libre sont ignorées par la visualisation du graphique de dispersion.
 
-![](assets/scatter.png)
-
-> [!NOTE] Un tableau associé à un graphique de dispersion requiert au moins deux colonnes. La première colonne définit l’axe des abscisses (X) et la deuxième colonne, l’axe des ordonnées (Y). Si une troisième colonne est disponible, le graphique de dispersion l’utilise pour déterminer le rayon du point. En d’autres termes, les colonnes *1*, *2* et *3* correspondent à *X*, à *Y* et au *rayon du point*.
-
+![Graphique de dispersion](assets/scatter.png)
