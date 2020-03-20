@@ -2,8 +2,8 @@
 description: Dans le calendrier, vous pouvez spécifier des dates et des plages de dates, ou sélectionner un paramètre prédéfini.
 title: Calendrier et plages de dates - Aperçu
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -12,16 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Dans le calendrier, vous pouvez spécifier des dates et des plages de dates, ou sélectionner un paramètre prédéfini.
 
-Les sélections du calendrier s’appliquent par défaut au panneau seulement, mais vous pouvez aussi les appliquer à l’ensemble des panneaux. Par défaut, le calendrier Workspace présente le mois en cours et le mois précédent.
+Les sélections du calendrier s’appliquent par défaut au panneau seulement, mais vous pouvez aussi les appliquer à l’ensemble des panneaux. Lorsque vous cliquez sur une plage de dates dans Workspace, l’interface affiche le mois civil en cours et le mois civil précédent. Vous pouvez ajuster ces deux calendriers en cliquant sur les flèches droite et gauche dans chaque coin supérieur respectif.
 
-Le premier clic démarre une sélection de plage de dates. Mettez en surbrillance la période dans l’une ou l’autre direction puis cliquez pour sélectionner la fin de la plage de dates. Si vous maintenez la touche `Shift` enfoncée (ou faites un clic droit) lorsque vous cliquez sur la première date, celle-ci est ajoutée à la plage.
+![Calendrier](assets/aw_calendar.png)
+
+Le premier clic sur un de calendrier  une sélection de plage de dates. Le deuxième clic termine une sélection de plage de dates, qui devient surlignée. Si la `Shift` touche est enfoncée (ou si un clic droit est utilisé), elle est ajoutée à la plage actuellement sélectionnée.
 
 Vous pouvez également faire glisser des dates (et des dimensions temporelles) dans un projet Workspace. Sélectionnez des jours, des semaines, des mois ou des années spécifiques ou encore une date variable.
 
-![](assets/aw_calendar.png)
-
-[Utilisation des périodes et des calendriers dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
-
+[Utilisation des périodes et des calendriers dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 | Paramètre | Description |
 |--- |--- |
