@@ -3,7 +3,7 @@ description: valeur nulle
 title: Panneau Attribution - Aperçu
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
+source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
 
 ---
 
@@ -96,3 +96,5 @@ L’attribution s’exécute toujours avant la segmentation et la segmentation s
 Par exemple, si vous créez une suite de rapports virtuelle avec un segment « Accès à l’affichage » appliqué, vous pouvez voir d’autres canaux dans un tableau à l’aide de certains modèles d’attribution.
 
 ![Suite de rapports virtuelle, affichage uniquement](assets/vrs-aiq-example.png)
+
+> [!NOTE] Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masquera simplement certaines valeurs de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment et un filtre avec des définitions comparables peuvent parfois renvoyer des valeurs inférieures pour le segment.
