@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [Gestion des segments](c-segmentation/c-segmentation-workflow/seg-manage.md)
    + Référence de segment {#segment-reference}
       + [Opérateurs de comparaison pour les segments](c-segmentation/seg-reference/seg-operators.md)
-      + [Compatibilité des segments avec l’Data Warehouse](c-segmentation/seg-reference/seg-compatibility.md)
+      + [Compatibilité des segments avec Data Warehouse](c-segmentation/seg-reference/seg-compatibility.md)
       + [Droits des segments par rôle](c-segmentation/seg-reference/seg-rights.md)
       + [Résolution des problèmes](c-segmentation/seg-reference/c-troubleshooting.md)
    + [Questions fréquentes](c-segmentation/seg-transition.md)
@@ -107,7 +107,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [Jeux de règles de classification](c-classifications2/crb/classification-rule-set.md)
       + [Règles de classification](c-classifications2/crb/classification-quickstart-rules.md)
       + [Règles de classification – Définitions](c-classifications2/crb/classification-rule-definitions.md)
-      + [Sous-classifications et Créateur de règles – Cas d’utilisation](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [Sous-classifications et Créateur de règles](c-classifications2/crb/sub-classification-rule-builder.md)
    + Classifications numériques 2 {#numeric2-classification}
       + [Classifications numériques 2 - Aperçu](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [Création de classifications numériques 2](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
@@ -327,11 +327,11 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
    + [Configuration de rapports en temps réel](c-real-time-reporting/t-realtime-admin.md)
    + [Mesures et dimensions en temps réel prises en charge](c-real-time-reporting/realtime-metrics.md)
 + Canaux marketing {#marketing-channels}
-   + [Commencer avec les canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Commencer avec le marketing](c-marketing-channels/c-getting-started-mchannel.md)
    + [Gestion des canaux marketing](c-marketing-channels/c-channels.md)
    + [Règles de traitement des canaux marketing](c-marketing-channels/c-rules.md)
    + [Classifications des canaux marketing](c-marketing-channels/classifictions-mchannel.md)
    + [Expiration de l’engagement des visiteurs](c-marketing-channels/visitor-engagement.md)
-   + [Analyse des canaux marketing](c-marketing-channels/analyze-mc.md)
-   + [Autorisations des canaux marketing](c-marketing-channels/c-channel-report-access.md)
-   + [FAQ sur les canaux marketing et exemples](c-marketing-channels/c-faq.md)
+   + [Analyser les  marketing](c-marketing-channels/analyze-mc.md)
+   + [d’autorisations du marketing](c-marketing-channels/c-channel-report-access.md)
+   + [FAQ et exemples sur les  marketing](c-marketing-channels/c-faq.md)
