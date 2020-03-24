@@ -2,7 +2,7 @@
 title: Suites de rapports multiples dans Workspace
 description: Découvrez comment et pourquoi créer des projets dans Workspace avec plusieurs suites de rapports.
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -17,6 +17,12 @@ Cette fonctionnalité est utile si vous souhaitez, par exemple :
 
 * Créer un tableau de bord de mesures et de visualisations pour envoyer des rapports à d’autres organisations. Vous pouvez désormais extraire des données de plusieurs suites de rapports au sein du même projet.
 
+## Appliquer la suite de rapports à tous les panneaux
+
+Vous pouvez appliquer une suite de rapports à tous les panneaux à la fois en cliquant avec le bouton droit sur l’en-tête d’un panneau et en sélectionnant **[!UICONTROL Apply Report Suite to All Panels]**.
+
+![](assets/apply-rs-all-panels.png)
+
 ## Panneau actif
 
 Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et de « panneau inactif ». Vous pouvez reconnaître le panneau actif par la bordure bleue claire qui l’entoure. Il suffit de cliquer à l’intérieur d’un panneau pour le transformer en panneau actif.
@@ -27,8 +33,8 @@ Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et
 | Tâche | Panneau actif | Panneau inactif |
 |---|---|---|
 | Modifier la suite de rapports | Oui | Non |
-| Glisser-déposer des composants | Oui  | Oui, pour tout panneau qui se trouve dans la même suite de rapports que votre panneau actif. |
-| Glisser-déposer des visualisations | Oui  | Oui, pour tout panneau qui se trouve dans la même suite de rapports que votre panneau actif. |
+| Glisser-déposer des composants | Oui | Oui, pour tout panneau qui se trouve dans la même suite de rapports que votre panneau actif. |
+| Glisser-déposer des visualisations | Oui | Oui, pour tout panneau qui se trouve dans la même suite de rapports que votre panneau actif. |
 
 ## Utilisation de plusieurs suites de rapports
 
