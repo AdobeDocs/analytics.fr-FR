@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Gestionnaire des sources de données
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Créez, gérez et consultez l’utilisation des sources de données dans une suite de rapports.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; Sources **[!UICONTROL de]** données.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Sources de données]**.
 
 ## Onglet Créer {#section_74603FDA3D8842E49F1A51624A06DE20}
 
-Cet onglet permet de configurer une nouvelle source de données pour la suite de rapports actuellement sélectionnée. Lorsque vous activez une source de données, l’[!UICONTROL Assistant Sources de données] vous guide tout au long du processus de création d’un modèle de source de données, puis crée un emplacement FTP pour le transfert des données.
+Cet onglet permet de configurer une nouvelle source de données pour la suite de rapports actuellement sélectionnée.  Lorsque vous activez une source de données, l’[!UICONTROL Assistant Sources de données] vous guide tout au long du processus de création d’un modèle de source de données, puis crée un emplacement FTP pour le transfert des données.
 
 La sélection que vous effectuez sur l’onglet Créer détermine les champs initiaux dans le modèle créé. Reportez-vous à la section [Génération d’un modèle de fichier d’importation](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
@@ -64,7 +64,7 @@ La sélection que vous effectuez sur l’onglet Créer détermine les champs ini
    <td colname="col1"> <p>État </p> </td> 
    <td colname="col2"> <p> État actuel du fichier. Les valeurs d’état possibles sont les suivantes : </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">En file d’attente (étape 1 sur 3) : le fichier existe, mais son traitement n’a pas commencé. If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">En file d’attente (étape 1 sur 3) : le fichier existe, mais son traitement n’a pas commencé. Si le fichier n’apparaît pas dans les 30 minutes, vérifiez si le fichier <span class="filepath">.fin</span> associé est présent. </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">En préparation (étape 2 sur 3) : le fichier est analysé afin de vérifier s’il contient des erreurs ou des avertissements. </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">En traitement (étape 3 sur 3) : le fichier est en cours de traitement. </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Échec : le fichier n’a pas été traité en raison d’erreurs. </li> 
