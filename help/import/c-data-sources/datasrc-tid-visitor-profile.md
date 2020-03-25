@@ -3,7 +3,7 @@ description: valeur nulle
 title: ID de transaction et profils du visiteur
 topic: Developer and implementation
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
