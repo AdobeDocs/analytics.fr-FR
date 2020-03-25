@@ -1,91 +1,91 @@
 ---
-description: Cette intégration des courriers électroniques Adobe® Connecteurs de données™ combine les informations comportementales d’Analytics® avec le marketing par courrier électronique Delivra afin de créer un outil puissant pour redéfinir la mesure de succès et cibler les audiences avec des messages plus pertinents.
-title: Fournir un connecteur de données pour Adobe Analytics
+description: Cette intégration des courriers électroniques de Data Connectors™ d’Adobe® combine des informations comportementales d’Analytics® avec la solution marketing par courrier électronique Delivra afin de créer un outil puissant permettant de redéfinir la mesure de succès et de cibler les audiences avec des messages plus pertinents.
+title: Connecteur de données Delivra pour Adobe Analytics
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Delivra Data Connector for Adobe Analytics{#delivra-data-connector-for-adobe-analytics}
+# Connecteur de données Delivra pour Adobe Analytics {#delivra-data-connector-for-adobe-analytics}
 
-Cette intégration des courriers électroniques Adobe® Connecteurs de données™ combine les informations comportementales d’Analytics® avec le marketing par courrier électronique Delivra afin de créer un outil puissant pour redéfinir la mesure de succès et cibler les audiences avec des messages plus pertinents.
+Cette intégration des courriers électroniques de Data Connectors™ d’Adobe® combine des informations comportementales d’Analytics® avec la solution marketing par courrier électronique Delivra afin de créer un outil puissant permettant de redéfinir la mesure de succès et de cibler les audiences avec des messages plus pertinents.
 
-La remise de messages électroniques pertinents à ces segments de marché peut générer de nouvelles opportunités de recettes, ce qui entraîne une augmentation des conversions et des recettes au sein des campagnes de messagerie nouvelles et existantes. Par exemple, la diffusion de messages électroniques pertinents basés sur des produits qui ont été consultés au cours d’une visite ou des produits qui ont été laissés dans un panier d’achat abandonné a démontré un impact considérable sur les recettes, avec un impact minimal sur les coûts, car cela ne fait qu’augmenter les visiteurs de votre site. Cette augmentation de l’efficacité marketing est l’un des principaux avantages de l’intégration d’Analytics à Delivra. En outre, cette intégration synchronise automatiquement les mesures de courrier électronique avec les données Analytics aussi fréquemment que par heure pour la création de rapports en boucle fermée.
+La diffusion de messages électroniques pertinents à ces segments de marché peut déboucher sur de nouvelles opportunités de chiffre d’affaires, ce qui entraîne une augmentation des conversions et du chiffre d’affaires parmi les campagnes par e-mail existantes et nouvelles. Par exemple, il a été démontré que la diffusion de messages électroniques pertinents basés sur les produits consultés au cours d’une visite ou laissés dans un panier d’achats abandonné a un impact considérable sur le chiffre d’affaires et un impact minimal sur les coûts, puisque ce procédé tire parti des visiteurs déjà présents sur votre site. Cette augmentation de l’efficacité marketing est l’un des avantages clés de l’intégration d’Analytics à Delivra. En outre, cette intégration synchronise automatiquement les mesures de courrier électronique avec les données Analytics de manière fréquente, chaque heure, pour la création de rapports en boucle fermée.
 
-## Avantages clés{#key-benefits}
+## Avantages clés {#key-benefits}
 
-Cette intégration présente les principaux avantages suivants :
+Cette intégration présente les principaux avantages suivants :
 
-* Consolidation des données de marketing et d’analyse par courrier électronique dans une interface de création de rapports
-* Optimiser les campagnes par courrier électronique par conversion et contribution aux recettes et au succès du site
-* Commercialiser à nouveau les visiteurs clés et les segments de marché en fonction des segments marketing dynamiques
-* Synchronisation des mesures de messagerie quasi en temps réel disponible, par rapport à une synchronisation standard par jour
+* Consolidation des données d’analyse et de marketing par e-mail dans une interface de création de rapports.
+* Optimisation des campagnes par e-mail par le biais de conversions et de contributions au chiffre d’affaires et au succès du site.
+* Re-commercialisation auprès des segments de marché et visiteurs clés en fonction des segments de marketing dynamique.
+* Synchronisation des mesures de courrier électronique quasi en temps réel disponible, par rapport à une synchronisation standard par jour
 
-## Segments de marketing dynamique{#dynamic-marketing-segments}
+## Segments de marketing dynamique {#dynamic-marketing-segments}
 
-Cette intégration de courriers électroniques Connecteurs de données prend en charge les segments de marketing dynamique pour vous aider à diriger votre entreprise.
+Cette intégration des courriers électroniques des Data Connectors prend en charge les segments de marketing dynamique pour vous aider à stimuler votre activité commerciale.
 
-Cette intégration comprend les segments marketing suivants, prêts à l’emploi :
+Cette intégration comprend les segments marketing suivants, prêts à l’emploi :
 
-* **** Profils d’achat : Augmentez les commandes répétées et la valeur moyenne des commandes grâce aux campagnes ciblées par les modèles d’achat des visiteurs.
-* **** Profil comportemental de la vue de produit/contenu : Contactez les clients potentiels par le biais de segments marketing basés sur les consultations de produits et le profilage de l’accès au contenu.
-* **** Profil d'abandon du panier : Aidez les visiteurs à se convertir en clients grâce à des campagnes affinées spécialement conçues pour ceux qui hésitent à compléter leur panier.
-* Les clients peuvent également créer et programmer des segments de remarketing personnalisés spécifiques aux besoins de leurs utilisateurs.
+* **Profils d’achat :** augmentez les commandes répétées et la valeur moyenne des commandes grâce à des campagnes ciblées en fonction des habitudes d’achat des visiteurs.
+* **Profil comportemental basé sur la consultation de produits/contenu :** atteignez des clients potentiels par le biais de segments marketing basés sur les consultations de produits et la création de profils utilisateur relative à l’accès au contenu.
+* **Profil d’abandon de panier :** aidez les visiteurs à devenir des clients grâce à des campagnes ciblées spécialement conçues pour les visiteurs qui hésitent à valider leur panier.
+* Les clients peuvent également créer et planifier des segments de remarketing personnalisés spécifiques aux besoins de leurs utilisateurs.
 
-## Procédure d’intégration et conditions préalables{#integration-procedure-and-prerequisites}
+## Procédure d’intégration et conditions préalables {#integration-procedure-and-prerequisites}
 
-A l’aide d’un assistant "plug and play", des processus intuitifs pas à pas vous guideront à travers des points de synchronisation du système et initialiseront l’intégration.
+À l’aide d’un assistant « plug and play », des processus intuitifs vous guideront pas à pas à travers les points de synchronisation du système et débuteront l’intégration.
 
-Cette intégration des Connecteurs de données requiert les éléments suivants :
+Cette intégration des Data Connectors requiert les éléments suivants :
 
-### Conditions préalables Adobe {#section-bce14015fb7f41b3bc754da0eb7567bc}
+### Conditions préalables pour Adobe {#section-bce14015fb7f41b3bc754da0eb7567bc}
 
 * Adobe Data Warehouse
-* Compte Adobe Analytics
+* Compte Adobe Analytics.
 * Variables Analytics disponibles et configurées, y compris les eVars et les événements personnalisés.
 
-### Conditions préalables de Delivra : {#section-bcb904574ccf42308bcf7a15e45b4d58}
+### Conditions préalables de Delivra {#section-bcb904574ccf42308bcf7a15e45b4d58}
 
-* Compte de niveau professionnel Delivra actif (ou supérieur) avec l’option "Intégration Adobe" activée.
+* Compte Delivra actif de niveau professionnel (ou supérieur) avec l’option « Intégration Adobe » activée.
 
-## Tarifs{#pricing}
+## Tarifs {#pricing}
 
-Cette intégration des Connecteurs de données comprend des considérations de prix que vous devez connaître.
+Cette intégration des Data Connectors comprend les informations relatives aux tarifs que vous devez connaître.
 
 Les sections suivantes comprennent davantage d’informations :
 
-### Points à prendre en compte concernant les tarifs Adobe {#section-2d1c79c895a5479bad8fdd97961ba6a3}
+### Informations sur les tarifs des prestations d’Adobe {#section-2d1c79c895a5479bad8fdd97961ba6a3}
 
-Cette intégration peut entraîner des frais récurrents et d’implémentation. Pour plus d’informations sur les tarifs, contactez votre gestionnaire de compte Adobe.
+Cette intégration peut engendrer des frais récurrents et de mise en œuvre. Pour de plus amples informations concernant les tarifs, contactez votre gestionnaire de compte Adobe.
 
-### Considérations sur le prix des prestations {#section-c6afad08c34b43e3a7a3637eea3328c3}
+### Tarifs des prestations Delivra {#section-c6afad08c34b43e3a7a3637eea3328c3}
 
 Cette intégration peut entraîner des frais.
 
-* Contactez votre gestionnaire de compte Delivra pour plus de détails sur les tarifs.
+* Contactez votre représentant du compte Delivra pour plus d’informations sur les tarifs.
 
-## Informations À Connaître Avant D’Activer Cette Intégration{#what-you-should-know-before-activating-this-integration}
+## Informations à connaître avant d’activer cette intégration {#what-you-should-know-before-activating-this-integration}
 
 Avant d’activer cette intégration, comparez les éléments suivants à vos déploiements d’Adobe Analytics® et de votre logiciel de messagerie électronique.
 
-Cela permettra de s’assurer que les meilleures pratiques ou les conditions préalables appropriées sont en place avant l’activation, ce qui permettra une intégration optimale et réussie.
+Cela permettra de s’assurer que les bonnes pratiques ou les conditions préalables appropriées sont déjà en place avant l’activation, ce qui permettra une intégration optimale et réussie.
 
-### Adobe Analytics{#adobe-analytics}
+### Adobe Analytics {#adobe-analytics}
 
-Consultez les informations suivantes sur cette intégration des Connecteurs de données en ce qui concerne Adobe Analytics :
+Consultez les informations suivantes sur cette intégration de Data Connectors en ce qui concerne Adobe Analytics :
 
-* **** Spécifique à la suite de rapports : Notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration.
-* **** Représentant autorisé : Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise ; et, à ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans l'accord de service décrit ci-dessus.
-* **** Data Warehouse™ : Cette intégration requiert l’activation de l’entrepôt de données pour générer des segments de remarketing. Si vous n’avez pas activé l’entrepôt de données, contactez Adobe pour plus de détails.
-* **** ID du destinataire : L’intégration requiert que nous capturions et stockions un "identifiant visiteur" dans une variable Analytics (eVar). L’identifiant visiteur (souvent appelé "ID du destinataire") est une représentation codée ou numérique d’une adresse électronique du système Delivra. Cet "ID de destinataire" est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui est extrait dans le système Delivra et peut être utilisé à des fins de remarketing. Dans le cadre du processus de configuration, vous devez identifier une eVar à cet effet lorsque l'Assistant vous y invite.
-* **** Suivi externe : Si vous ne suivez pas actuellement la bonne pratique consistant à activer le suivi externe pour chaque campagne par courrier électronique envoyée, vous devez le faire pour garantir une intégration réussie. Consultez la section Delivra ci-dessous pour plus de détails.
-* **** Respect de la vie privée : Vous devez comprendre qu’en activant le suivi des destinataires ou des identifiants des visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela a des implications en matière de confidentialité qui nécessitent la mise en oeuvre de procédures appropriées par votre organisation, comme la notification et le consentement des visiteurs de votre site.
+* **Spécifique à une suite de rapports :** notez que cette intégration est spécifique à une suite de rapports. Vérifiez que vous avez sélectionné la suite de rapports de votre choix avant d’activer l’intégration.
+* **Représentant autorisé :** notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, le cas échéant. En activant cette intégration, vous déclarez être un représentant autorisé de votre entreprise. À ce titre, votre entreprise accepte de payer les frais, le cas échéant, prévus dans le contrat de service décrit ci-dessus.
+* **Data Warehouse™ :** cette intégration requiert l’activation de Data Warehouse pour générer des segments de remarketing. Si vous n’avez pas activé Data Warehouse, contactez Adobe pour plus d’informations.
+* **ID de destinataire :** l’intégration requiert que nous capturions et stockions un « identifiant visiteur » dans une variable Analytics (eVar). L’identifiant visiteur (souvent appelé « ID de destinataire ») est une représentation codée ou numérique d’une adresse électronique provenant du système Delivra. Cet « ID de destinataire » est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui provient du système Delivra et peut être utilisé à des fins de remarketing. Dans le cadre du processus de configuration, vous devez identifier une eVar à cet effet lorsque l’assistant vous y invite.
+* **Suivi externe :** si vous ne respectez pas actuellement la bonne pratique consistant à activer le suivi externe pour chaque campagne par e-mail envoyée, vous devez le faire pour garantir le succès de l’intégration. Consultez la section Delivra ci-dessous pour plus d’informations.
+* **Respect de la confidentialité :** vous devez comprendre qu’en activant le suivi des identifiants destinataires ou visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela entraîne des répercussions en matière de confidentialité qui nécessitent la mise en œuvre de procédures appropriées par votre organisation, comme la notification et la demande de consentement auprès des visiteurs de votre site.
 
-### Présentation de l’intégration des connecteurs de données Adobe{#delivra-for-adobe-data-connectors-integration}
+### Intégration de Delivra pour les Data Connectors Adobe {#delivra-for-adobe-data-connectors-integration}
 
-Consultez les informations suivantes sur cette intégration des connecteurs de données en ce qui concerne Delivra :
+Consultez les informations suivantes sur cette intégration des Data Connectors en ce qui concerne Delivra :
 
-* **** Compte Delivra valide : Pour utiliser l’intégration de messagerie Connecteurs de données, un client doit disposer d’un compte Delivra valide.
-* **** Client actuel de Delivra : Cette intégration requiert que vous soyez client d’Adobe et de Delivra. Si vous n’êtes pas actuellement client de Delivra, vous ne disposez pas des informations nécessaires pour terminer l’assistant d’intégration. Si vous êtes actuellement client de Delivra, vous aurez besoin de votre ID de compte Delivra, ou du nom de liste, affecté à votre organisation, pour terminer l'Assistant d'intégration. Vous devrez fournir à Delivra le nom de la société et l’ID de compte associés à l’intégration, afin de terminer votre configuration.
+* **Compte Delivra valide :** pour utiliser l’intégration des courriers électroniques des Data Connectors, un client doit disposer d’un compte Delivra valide.
+* **Client actuel de Delivra :** cette intégration requiert que vous soyez client d’Adobe et de Delivra. Si vous n’êtes actuellement pas client de Delivra, vous ne disposerez pas des informations nécessaires pour terminer l’assistant d’intégration. Si vous êtes actuellement client de Delivra, vous aurez besoin de votre ID de compte Delivra, ou du nom de liste, affecté à votre organisation, pour terminer l’assistant d’intégration. Vous devrez fournir à Delivra le nom de la société et l’ID de compte associés à l’intégration, afin de terminer votre configuration.
