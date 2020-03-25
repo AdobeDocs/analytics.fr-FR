@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Intégration des transactions et des clients
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Intégration des transactions et des clients
 
-La fonctionnalité Sources de données propose deux autres méthodes d’intégration des événements qui se produisent hors ligne à vos données en ligne.
+La fonctionnalité Sources de données fournit deux moyens supplémentaires d’intégrer à vos données en ligne des événements qui surviennent hors ligne.
 
 * [Activation de l’enregistrement des identifiants de transaction](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [Intégration de transactions](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -24,7 +24,7 @@ Ces intégrations associent les données hors ligne à une transaction en ligne 
 
 L’identifiant de transaction peut être activé/désactivé depuis l’interface utilisateur sans l’intervention de ClientCare :
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL [Sélectionner une suite de rapports]]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Paramètres du compte général]**.
 
 <!-- 
 
@@ -36,7 +36,7 @@ Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONT
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+Pour vérifier si l’enregistrement des identifiants de transaction est activé, sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Sources de données]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -46,7 +46,7 @@ L’onglet [!UICONTROL Gérer] présente l’état de l’enregistrement des ide
 
 Les ID de client permettent de préciser une activité hors ligne du client et de l’associer à une activité en ligne. Ils doivent être utilisés dans les cas suivants :
 
-* Un ID de client est renseigné dans la variable Variable *`visitorID`*. 
+* Un ID de client est renseigné dans la variable Variable *`visitorID`*.
 * Il n’y a pas de point désigné où l’activité des clients passe hors ligne, par exemple l’envoi d’un prospect ou un achat.
 
 Pour configurer ce type de source de données, voir : [Identifiant visiteur](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
