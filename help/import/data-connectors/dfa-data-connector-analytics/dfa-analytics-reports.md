@@ -1,18 +1,18 @@
 ---
-description: Une fois que les serveurs de collecte DFA et Adobe® communiquent, vous pouvez générer dans la fonctionnalité Rapports et analyses des rapports qui comprennent les données DFA.
+description: Une fois que les serveurs de collecte DFA et Adobe® communiquent, vous pouvez générer dans la fonctionnalité Reports & Analytics des rapports qui comprennent les données DFA.
 keywords: DFA
 title: Rapports Analytics utilisant des données DFA
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Rapports Analytics utilisant des données DFA{#analytics-reports-using-dfa-data}
+# Rapports Analytics utilisant des données DFA {#analytics-reports-using-dfa-data}
 
-Une fois que les serveurs de collecte DFA et Adobe® communiquent, vous pouvez générer dans la fonctionnalité Rapports et analyses des rapports qui comprennent les données DFA.
+Une fois que les serveurs de collecte DFA et Adobe® communiquent, vous pouvez générer dans la fonctionnalité Reports &amp; Analytics des rapports qui comprennent les données DFA.
 
 Les rapports DFA prédéfinis comprennent ce qui suit :
 
@@ -31,7 +31,7 @@ Les rapports DFA prédéfinis comprennent ce qui suit :
 Pour générer un rapport DFA, procédez comme suit :
 
 1. Connectez-vous à Adobe Experience Cloud.
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. Vérifiez que vous avez sélectionné la suite de rapports où vous avez installé l’intégration DFA.
+1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Reports &amp; Analytics]**. Vérifiez que vous avez sélectionné la suite de rapports où vous avez installé l’intégration DFA.
 
 1. Dans le volet de navigation de gauche, sélectionnez la variable de conversion qui capture les données de clic publicitaire DFA, puis sélectionnez le rapport DFA souhaité.
 1. Cliquez sur **[!UICONTROL Ajouter des mesures]**. La boîte de dialogue Sélecteur de mesure s’ouvre.
@@ -46,8 +46,8 @@ Ce rapport a les particularités suivantes :
 
 * L’en-tête du rapport, libellé Rapport Nom de publicité_DFA, indique la période du rapport (février 2009) et qu’il s’agit d’un rapport de classement présenté sous forme de barres horizontales.
 * Le graphique lui-même présente trois mesures (impressions, clics et recettes) pour chaque publicité DFA du rapport.
-* Le graphique présente les données pour chaque mesure sous forme d’un pourcentage du total des mesures, plutôt qu’en utilisant les chiffres réels de chaque mesure. Vous pouvez modifier ce paramètre dans la boîte de dialogue **[!UICONTROL Configurer le rapport].**
+* Le graphique présente les données pour chaque mesure sous forme d’un pourcentage du total des mesures, plutôt qu’en utilisant les chiffres réels de chaque mesure. Vous pouvez modifier ce paramètre dans la boîte de dialogue **[!UICONTROL Configurer le rapport]**.
 * Sous le graphique, le rapport Nom de publicité_DFA répertorie les détails du rapport pour chacune des publicités DFA et présente les performances de la publicité sous forme de chiffres et de pourcentages.
 * Sélectionnez un nom de publicité DFA spécifique pour ouvrir un menu des options permettant d’obtenir davantage d’informations sur cette publicité DFA particulière.
-* Chaque colonne de mesure comprend une clé de couleur qui correspond à la couleur affectée à la mesure dans le graphique.
+* Chaque colonne de mesures comprend un code de couleur correspondant à la couleur de la mesure dans le graphique.
 * Le rapport est classé selon la mesure Recettes, en commençant par la publicité générant le plus de recettes. Vous pouvez modifier l’ordre du rapport en cliquant sur un autre libellé de colonne (mesure).
