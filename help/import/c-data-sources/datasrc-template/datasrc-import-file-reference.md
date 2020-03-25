@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Référence du fichier d’importation
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,9 +25,9 @@ Les titres de colonnes permettent d’identifier les données dans chaque colonn
 
 **Date** : (requise) horodatage pour chaque ligne de données du fichier.
 
-**Variables**: Noms des variables de rapport associées aux dimensions de données de la source de données.
+**Variables** : nom des variables de rapports associées aux dimensions de données de la source de données.
 
-**Evénements**: Nom des événements associés aux mesures de la source de données.
+**Événements** : nom des événements associés aux mesures de la source de données.
 
 Utilisez le modèle de source de données pour créer un fichier qui contient les données que vous souhaitez transférer. Lors de la création d’un fichier de source de données, pensez à ce qui suit :
 
@@ -60,6 +60,6 @@ Utilisez le modèle de source de données pour créer un fichier qui contient le
 
 **Fichier .FIN**
 
-Une fois le fichier de source de données renseigné, vous pouvez le transférer par FTP dans Analytics. Toutefois, un fichier supplémentaire est nécessaire pour que les données soient traitées : You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Une fois le fichier de source de données renseigné, vous pouvez l’envoyer par FTP dans Analytics. Toutefois, un fichier supplémentaire est nécessaire pour que les données soient traitées : Vous devez transférer un fichier texte vide du même nom que votre fichier de données, avec une extension [!DNL .fin].
 
-For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
+Par exemple, si vous transférez un fichier de données (délimité par des tabulations) appelé [!DNL myproductdata.txt], vous devrez aussi transférer un fichier texte vide appelé [!DNL myproductdata.fin]. Sans ce fichier [!DNL .fin], les données ne seraient pas traitées.
