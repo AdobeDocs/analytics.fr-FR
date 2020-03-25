@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Identifiant visiteur
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Les identifiants de visiteur peuvent être intégrés en sélectionnant la catégorie Générique (ID de transaction).
 
-See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
+Voir [Intégration de données hors ligne](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 <p class="head"> <b>Dimensions d’identifiant visiteur</b> </p>
 
@@ -25,7 +25,7 @@ See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-off
 | Code de suivi | Nom du code de suivi. |
 | Catégorie | Nom de la catégorie.  Si vous définissez une catégorie, vous devez également sélectionner un produit. |
 | Canal | Nom du canal. |
-| eVarn | Nom eVarn. Valeurs valides de n : nombre entier entre 1 et 75. |
+| eVarn | Nom de la variable eVarn. Valeurs valides de n : nombre entier entre 1 et 75. |
 | Produit | Nom du produit. |
 | État | Nom de l’état. |
 | Zip | Code postal. |
@@ -41,7 +41,7 @@ See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-off
 | Consultations du panier | Nombre de consultations de panier. |
 | Achats | Nombre de passages en caisse. |
 | Événement n | Nombre d’occurrences de l’événement n. Valeurs valides de n : nombre entier entre 1 et 100.  Si vous définissez un événement de consultation, vous devez également définir la portée de données correspondante (eVar). Si, par exemple, vous incluez des consultations eVar2, vous devez configurer la variable eVar2. |
-| Vues eVarn | Nombre de fois où la variable eVar n a été consultée. Valeurs valides de n : nombre entier entre 1 et 75. |
+| Consultations d’eVarn | Nombre de fois où la variable eVar n a été consultée. Valeurs valides de n : nombre entier entre 1 et 75. |
 | Prix | Prix du produit. |
 | Commandes | Nombre de commandes passées. |
 | Consultations produits | Nombre de consultations de produit. |
