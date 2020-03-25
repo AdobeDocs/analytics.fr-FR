@@ -1,39 +1,39 @@
 ---
-description: Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
-title: Activer l’intégration
+description: Utilisez l’assistant de configuration des Data Connectors Adobe pour configurer l’intégration.
+title: Activation de l’intégration
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Activer l’intégration{#activate-the-integration}
+# Activation de l’intégration {#activate-the-integration}
 
-Utilisez l’assistant de configuration des connecteurs de données Adobe pour configurer l’intégration.
+Utilisez l’assistant de configuration des Data Connectors Adobe pour configurer l’intégration.
 
-1. Démarrez [Data Connectors](https://marketing.adobe.com/resources/help/en_US/genesis/c_overview.html) et cliquez sur **[!UICONTROL + Ajouter nouveau]** pour [ajouter une nouvelle intégration](https://marketing.adobe.com/resources/help/en_US/genesis/t_add_integration.html).
-1. Dans la liste **[!UICONTROL Afficher]** , sélectionnez **[!UICONTROL Par nom]** et faites glisser l'intégration du [!DNL ~partenaire~] vers un emplacement de module externe vide.
-1. Renseignez l’assistant d’intégration à l’aide des informations du tableau suivant :
+1. Démarrez [Data Connectors](https://marketing.adobe.com/resources/help/fr_FR/genesis/c_overview.html) et cliquez sur **[!UICONTROL + Ajouter nouveau]** pour [ajouter une nouvelle intégration](https://marketing.adobe.com/resources/help/fr_FR/genesis/t_add_integration.html).
+1. Dans la liste **[!UICONTROL Affichage]**, sélectionnez **[!UICONTROL Par nom]** et faites glisser l’intégration du [!DNL ~Partner~] vers un emplacement de plug-in vide.
+1. Renseignez l’assistant d’intégration à l’aide des informations du tableau suivant :
 
 | Champ | Description |
 |--- |--- |
 | Suite de rapports | Suite de rapports qui reçoit les données de cette intégration. |
-| Nom d’intégration | Spécifiez le nom d’intégration que les Connecteurs de données affichent dans la liste d’intégration active de la suite de rapports. |
-| Adresse électronique | Indiquez une adresse électronique pour recevoir des informations relatives à l’intégration. |
-| ID de compte | Identificateur unique attribué à votre organisation par votre fournisseur de services de messagerie. Elle sera utilisée lors de la demande de données de campagne par courrier électronique (ex. # Envoyé, # Ouvert, # Cliqué, etc.) à partir des segments de visiteurs et de les envoyer à votre fournisseur de services de messagerie. |
-| Recipient ID | Cet ID est une représentation codée ou numérique d'une adresse électronique du système de messagerie optivo®. Cet "ID de destinataire" est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui est extrait dans le système de messagerie optivo® et peut être utilisé à des fins de remarketing. |
-| ID du message | (Obligatoire) Stocke l’ID de publipostage unique. Ces dimensions de classification sont créées par l’assistant Connecteurs de données pour l’ID de message : <br>a)**Campagnes**: Campagnes associées au message. <br>b)**Canal**: Le canal de transmission, c'est constamment "optivo Broadmail". <br>c)Code **** pays : Ce champ contient le code pays du pays d’origine de l’expéditeur. C'est un "DE" constant. <br>d) Outil **de** livraison : Méthode de transmission, toujours "Email".<br> e) Nom **du** message : Nom de l'envoi, tel qu'il est configuré dans optivo® Broadmail. <br>f) Date **de** début : Horodatage du début de cet envoi. |
-| Heure de clic après publication | (Obligatoire) Cette opération est nécessaire pour transmettre des informations sur une action de destinataire à optivo® Broadmail après que le destinataire a cliqué sur un lien dans un courrier. |
-| Produit après clic | (Obligatoire) Cette opération est nécessaire pour transmettre des informations sur une action de destinataire à optivo® Broadmail après que le destinataire a cliqué sur un lien dans un courrier. |
-| Action de post-clic | (Obligatoire) Cette opération est nécessaire pour transmettre des informations sur une action de destinataire à optivo® Broadmail après que le destinataire a cliqué sur un lien dans un courrier. |
-| Rebond net | (Obligatoire) Spécifiez l’événement Adobe Analytics qui stocke les données de rebonds en dur importées à partir du système de messagerie électronique. Nombre de messages électroniques qui n’ont pas été envoyés aux destinataires et qui sont considérés comme non livrables en permanence. |
-| Rebond léger | (Obligatoire) Spécifiez l’événement Adobe Analytics qui stocke les données de rebonds logiciels importées du système de messagerie électronique. Nombre de messages électroniques qui n’ont pas été remis aux destinataires en raison d’un problème de remise. |
-| Cliqué | (Obligatoire) Spécifiez l’événement Adobe Analytics qui stocke les données sur les clics par courrier électronique importées du système de messagerie. L’événement Cliqué vous permet d’afficher le nombre de visiteurs qui ont cliqué sur le message électronique. |
-| Ouvert | (Obligatoire) Spécifiez l’événement Adobe Analytics qui stocke les données ouvertes par courrier électronique importées du système de messagerie. L’événement Ouvert vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique. |
-| Envoyé | (Obligatoire) Spécifiez l’événement Adobe Analytics qui stocke les données envoyées par courrier électronique importées du système de messagerie. L’événement Envoyé vous permet de voir le nombre de messages électroniques envoyés. |
-| Non abonné | (Obligatoire) Spécifiez l’événement Adobe Analytics qui stocke les données de désabonnement par courrier électronique importées du système de messagerie. L’événement Désabonné vous permet de voir le nombre de visiteurs qui ont ouvert le message électronique, puis cliqué sur le lien Désabonner pour exclure les futurs messages électroniques de votre organisation. |
+| Nom d’intégration | Indiquez le nom de l’intégration que les Data Connectors affichent dans la liste d’intégration active de la suite de rapports. |
+| Adresse électronique | Précisez une adresse électronique où recevoir le rapport. |
+| ID de compte | Identificateur unique attribué à votre organisation par votre fournisseur de services de messagerie. Il sera utilisé lors de la demande de données de campagne par e-mail (ex. # Envoyé, # Ouvert, # Cliqué, etc.) à partir des segments de visiteurs et envoyé à votre fournisseur de services de messagerie. |
+| Recipient ID | Cet identifiant est une représentation codée ou numérique d’une adresse électronique du système optivo® broadmail. Cet « ID de destinataire » est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui provient du système optivo® broadmail et peut être utilisé à des fins de remarketing. |
+| ID de message | (Obligatoire) Stocke l’ID de publipostage unique. Ces dimensions de classification sont créées par l’assistant des Data Connectors pour l’ID de message : <br>a)**Campaigns** : campagnes associées au message. <br>b)**Canal** : le canal de transmission, il s’agit pour l’instant de « optivo Broadmail ». <br>c)**Code pays** : ce champ contient le code pays du pays d’origine de l’expéditeur. C’est un « DE » constant. <br>d) **Outil de livraison** : méthode de transmission, toujours « E-mail ».<br> e) **Nom du message** : nom du publipostage, tel qu’il est configuré dans optivo® Broadmail. <br>f) **Date de début** : horodatage du début de ce publipostage. |
+| Heure post click | (Obligatoire) Cette donnée est nécessaire pour transmettre des informations sur une action du destinataire à optivo® broadmail, une fois que le destinataire a cliqué sur un lien dans un mail. |
+| Produit post click | (Obligatoire) Cette donnée est nécessaire pour transmettre des informations sur une action du destinataire à optivo® broadmail, une fois que le destinataire a cliqué sur un lien dans un mail. |
+| Type d’actions post click | (Obligatoire) Cette donnée est nécessaire pour transmettre des informations sur une action du destinataire à optivo® broadmail, une fois que le destinataire a cliqué sur un lien dans un mail. |
+| Hard Bounce | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données des hard bounces importées depuis le système de messagerie. Nombre de messages électroniques qui n’ont pas été remis aux destinataires et sont considérés comme non livrables de façon permanente. |
+| Soft Bounce | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données des soft bounces importées depuis le système de messagerie. Nombre de messages électroniques qui n’ont pas été remis aux destinataires en raison d’un problème de livraison. |
+| Cliqué | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données Cliqué du courrier électronique importées depuis le système de messagerie. L’événement Cliqué vous permet d’afficher le nombre de visiteurs qui ont cliqué sur le message électronique. |
+| Ouvert | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données Ouvert du courrier électronique importées du système de messagerie. L’événement Ouvert vous permet d’afficher le nombre de visiteurs qui ont ouvert le message électronique. |
+| Envoyé | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données Envoyé du courrier électronique importées du système de messagerie. L’événement Envoyé vous permet d’afficher le nombre de messages électroniques envoyés. |
+| Désabonné | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données Désabonné du courrier électronique importées du système de messagerie. L’événement Désabonné vous permet d’afficher le nombre de visiteurs qui ont ouvert le message électronique, mais qui ont cliqué sur le lien Se désabonner pour ne plus recevoir à l’avenir de messages électroniques de votre organisation. |
 | Segments | Activez les segments existants à utiliser avec cette intégration (facultatif). |
 | Demandes d’accès | Activez les privilèges d’accès recommandés. |
-| Collecte de données | Sélectionnez Module **JavaScript** si vous souhaitez utiliser le module externe s_code.js comme modèle de collecte pour cette intégration. Sélectionnez Solution **** automatisée si vous souhaitez utiliser un modèle de collecte automatisée pour cette intégration, puis spécifiez les identifiants uniques utilisés pour cette intégration. Si vous sélectionnez cette option, spécifiez les identifiants uniques utilisés pour cette intégration :<ul><li>Paramètre de chaîne de requête d’ID de message : Cette valeur représente l’ID de message ajouté à l’URL de la page d’entrée par votre partenaire de messagerie.</li><li>Paramètre de chaîne de requête d’ID de destinataire : Cette valeur représente l’ID du destinataire annexé à l’URL de la page d’entrée par votre partenaire de messagerie.</li></ul> |
-| Génération de tableaux de bord et de signets | Générer automatiquement un tableau de bord et des signets pour l’intégration. |
+| Collecte de données | Sélectionnez **Plug-in JavaScript** si vous souhaitez utiliser le plug-in s_code.js comme modèle de collecte pour cette intégration. Sélectionnez **Solution automatisée** si vous souhaitez utiliser un modèle de collecte automatisée pour cette intégration, puis spécifiez les identifiants uniques utilisés pour cette intégration. Si vous sélectionnez cette option, spécifiez les identifiants uniques utilisés pour cette intégration :<ul><li>Paramètre de chaîne de requête l’ID de message : cette valeur représente l’ID de message associé à l’URL de la page d’entrée par votre partenaire de messagerie.</li><li>Paramètre de chaîne de requête de l’ID de destinataire : cette valeur représente l’ID de destinataire associé à l’URL de la page d’entrée par votre partenaire de messagerie.</li></ul> |
+| Génération de tableaux de bord et de signets | Générez automatiquement un tableau de bord et des signets pour l’intégration. |
