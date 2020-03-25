@@ -1,16 +1,16 @@
 ---
-description: Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
-title: Code du module externe Adobe Analytics
+description: Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
+title: Code du plug-in Adobe Analytics
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Code du module externe Adobe Analytics {#adobe-analytics-plug-in-code}
+# Code du plug-in Adobe Analytics {#adobe-analytics-plug-in-code}
 
-Si vous avez sélectionné la méthode de collecte de données du module externe JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
+Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Adobe Analytics sur vos pages.
 
 `/*`
 
@@ -26,5 +26,5 @@ Si vous avez sélectionné la méthode de collecte de données du module externe
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
-> [!NOTE] Le plug-in ci-dessus suppose que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le module externe ci-dessus ne sont pas disponibles dans votre déploiement Adobe Analytics, remplacez-les simplement par celles qui sont disponibles.
+> [!NOTE] Le plug-in ci-dessus considère que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le plug-in ci-dessus ne sont pas disponibles dans votre déploiement Adobe Analytics, remplacez-les simplement par celles qui le sont.
 
