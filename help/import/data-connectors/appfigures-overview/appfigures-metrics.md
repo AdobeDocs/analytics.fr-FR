@@ -2,54 +2,54 @@
 description: Les mesures suivantes sont synchronisées dans le cadre de l’intégration appFigures.
 title: Mesures et dimensions
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Mesures et dimensions{#metrics-and-dimensions}
+# Mesures et dimensions {#metrics-and-dimensions}
 
 Les mesures suivantes sont synchronisées dans le cadre de l’intégration appFigures.
 
 | Mesure | Description |
 |---|---|
 | Téléchargements de la boutique d’applications | Nombre de téléchargements d’applications mobiles. |
-| Achats de la boutique d’applications (dans l’application) | Nombre d’achats in-app. |
-| Classement de la boutique d’applications | Utilisé pour définir la mesure calculée "Moyenne des appFigures". Non utilisé directement. |
-| Diviseur de classement de la boutique d’applications | Utilisé pour définir la mesure calculée "Moyenne des appFigures". Non utilisé directement. |
-| Evaluation de la boutique d’applications | Utilisé pour définir la mesure calculée "Moyenne des appFigures". Non utilisé directement. |
-| Diviseur d’évaluations de la boutique d’applications | Utilisé pour définir la mesure calculée "Moyenne des appFigures". Non utilisé directement. |
-| Recettes de la boutique d’applications (dans l’application) | Montant des recettes in-app. |
-| Recettes de la boutique d’applications (une seule option) | Montant des recettes associées à l’achat d’une application. |
-| Redevances de la boutique d’applications (dans l’application) | Obsolète. |
-| Redevances de la boutique d’applications (une seule fois) | Obsolète. |
+| Achats de la boutique d’applications (in-app) | Nombre d’achats in-app. |
+| Classement de la boutique d’applications | Utilisée pour définir la moyenne des mesures calculées d’appFigures. Elle n’est pas utilisée directement. |
+| Diviseur de classement de la boutique d’applications | Utilisée pour définir la moyenne des mesures calculées d’appFigures. Elle n’est pas utilisée directement. |
+| Evaluation de la boutique d’applications | Utilisée pour définir la moyenne des mesures calculées d’appFigures. Elle n’est pas utilisée directement. |
+| Diviseur d’évaluations de la boutique d’applications | Utilisée pour définir la moyenne des mesures calculées d’appFigures. Elle n’est pas utilisée directement. |
+| Recettes de la boutique d’applications (in-app) | Montant des recettes in-app. |
+| Recettes ponctuelles de la boutique d’applications | Montant des recettes associées à l’achat d’une application. |
+| Redevances de la boutique d’applications (in-app) | Obsolète. |
+| Redevances ponctuelles de la boutique d’applications | Obsolète. |
 
-Les dimensions de classification réservées suivantes sont créées par l’assistant des connecteurs de données pour l’eVar réservée de l’ID d’objet AppFigures.
+Les dimensions de classification réservées suivantes sont créées par l’assistant des connecteurs de données pour l’eVar réservée de l’ID d’objet appFigures.
 
-| Dimension de classification | Description |
+| Dimension de la classification | Description |
 |---|---|
 | Nom du pays | Nom du pays associé à l’activité de la boutique d’applications. |
-| Nom du périphérique | Nom du périphérique mobile associé à l’activité de boutique d’applications. |
-| Nom de l’Apple Store | Nom de l’App Store qui a signalé l’activité. |
+| Nom du périphérique | Nom de l’appareil mobile associé à l’activité de boutique d’applications. |
+| Nom de la boutique d’applications | Nom de la boutique d’applications qui a déclaré l’activité. |
 | Nom de l’application | Nom de l’application mobile. |
-| Nom in-app | Élément acheté dans l’application. |
-| Nom de catégorie  | Catégorie principale de l’application dans la boutique d’applications. |
+| Nom in-app | Article acheté dans l’application. |
+| Nom de catégorie | Catégorie principale de l’application dans la boutique d’applications. |
 | Titre de révision | Titre de la révision. |
-| Commentaire de révision | Commentaires de l'examen |
-| Application Version (Version de l’application) | Version de l’application utilisée pour générer la révision. |
+| Commentaire de révision | Commentaires de la révision. |
+| Version de l’application | Version de l’application utilisée pour générer la révision. |
 | Utilisateur de la boutique d’applications | Auteur (nom d’utilisateur) de la révision. |
 
-La mesure calculée suivante est créée par l’assistant des connecteurs de données :
+La mesure calculée suivante est créée par l’assistant des connecteurs de données :
 
 | Mesure calculée | Description |
 |--- |--- |
-| Classement moyen de la boutique d’applications (numérique) | Classement moyen des applications. Cette mesure calculée est définie à l’aide de la formule suivante :   `[App Store Rank]` / `[App Store Rank Divisor]` <br> Remarque :  Le nombre d’applications classées par catégorie et par pays varie selon les boutiques d’applications. Si votre application est classée en dessous de ce seuil, les classements des applications ne sont pas disponibles. |
-| Note moyenne de la boutique d’applications | Évaluation moyenne de l’application. This calculated metric is defined using the following formula:  `[App Store Rating]` / `[App Store Rating Divisor]` |
+| Classement moyen de la boutique d’applications (numérique) | Classement moyen des applications. Cette mesure calculée est définie à l’aide de la formule suivante :   `[App Store Rank]` / `[App Store Rank Divisor]` <br>. Remarque :  le nombre d’applications classées par catégorie et par pays varie selon les boutiques d’applications. Si votre application est classée en dessous de ce seuil, les classements de l’application ne sont pas disponibles. |
+| Note moyenne de la boutique d’applications | La note moyenne de l’application. Cette mesure calculée est définie à l’aide de la formule suivante :  `[App Store Rating]` / `[App Store Rating Divisor]`. |
 
-## Dimensions pertinentes pour chaque mesure AppFigures {#section-cd356d3dce04412893beed345305c247}
+## Dimensions pertinentes pour chaque mesure appFigures {#section-cd356d3dce04412893beed345305c247}
 
-Le tableau suivant indique les dimensions du rapport en rapport avec quelles mesures.
+Le tableau suivant indique quelles dimensions du rapport se rapportent à quelles mesures.
 
 <table id="table_B9CF57EABE22449FBF1963E3F105E702"> 
  <tbody> 
@@ -62,9 +62,9 @@ Le tableau suivant indique les dimensions du rapport en rapport avec quelles mes
    <td> Evaluation de la boutique d’applications </td> 
    <td> Diviseur d’évaluations de la boutique d’applications </td> 
    <td> Recettes de la boutique d’applications (in-app) </td> 
-   <td> Recettes de la boutique d’applications (ponctuelles) </td> 
+   <td> Recettes ponctuelles de la boutique d’applications </td> 
    <td> Classement moy. de la boutique d’applications </td> 
-   <td> Note moyenne de la boutique d'applications </td> 
+   <td> Note moyenne de la boutique d’applications </td> 
   </tr> 
   <tr> 
    <td> Nom du pays </td> 
@@ -93,7 +93,7 @@ Le tableau suivant indique les dimensions du rapport en rapport avec quelles mes
    <td> <p> <img id="image_6E5B220C71CD47CEBB9CE65FB42CC692" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Nom de l’Apple Store </td> 
+   <td> Nom de la boutique d’applications </td> 
    <td> <p> <img id="image_B0382AE2E0A44D8BBB373E95061C96B7" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_653EE4DADF644E329EB948051AF511CC" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_16E4236EAAC64FC4872603974E61417B" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
@@ -132,7 +132,7 @@ Le tableau suivant indique les dimensions du rapport en rapport avec quelles mes
    <td> <p> <img id="image_05EA7B1C23CF498F80FABCAA6DE60690" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Nom de catégorie  </td> 
+   <td> Nom de catégorie </td> 
    <td> <p> <img id="image_8C47AD4194424FFB914F54C0126AEF43" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_B5D041A22DFC403C94C72DF5EF08E14F" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_2B941D0DB17A4E7D80B45B8F465029D2" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
