@@ -1,7 +1,7 @@
 ---
 description: Importation des données de suivi à partir d’applications tierces dans Analytics.
 title: Prise en main des connecteurs de données Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -25,7 +25,7 @@ Les connecteurs de données doivent s’intégrer de manière appropriée aux na
 * Résolution de l’écran : 1 024 x 768 (800 x 600 fonctionne aussi)
 * Intensité de couleur : 16 bits ou plus
 
-De plus, la collecte de données s’améliore lorsque JavaScript est activé dans les navigateurs Web des utilisateurs.
+En outre, la collecte de données est plus performante lorsque JavaScript est activé dans le navigateur des utilisateurs.
 
 **Conditions préalables**
 
@@ -34,38 +34,38 @@ Avant de configurer une intégration des connecteurs de données pour votre prod
 * Posséder les informations d’identification nécessaires pour accéder au compte de produit partenaire, avec les autorisations d’accès à toutes les données à intégrer aux rapports marketing. Vous pouvez créer un compte de messagerie spécial pour les distributeurs de rapports, ainsi que pour les notifications relatives aux opérations intégrées.
 * Identifier les variables personnalisées qui contiennent les informations sur votre campagne. On parle généralement de code de suivi de campagne, mais une autre terminologie peut être utilisée.
 * Déterminer les événements pour lesquels vous souhaitez recevoir des données d’impression et de clic. Vous pouvez renommer les événements en conséquence.
-* Placer le code approprié sur votre page d’entrée, afin qu’Analytics puisse procéder à la modélisation appropriée avec les données issues du produit partenaire. Vous trouverez des instructions spécifiques à chaque produit partenaire dans la Présentation des connecteurs de données sous l’onglet Ressources.
+* Placer le code approprié sur votre page d’entrée, afin qu’Analytics puisse procéder à la modélisation appropriée avec les données issues du produit partenaire. Vous trouverez des instructions spécifiques à chaque produit partenaire dans la Présentation des Data Connectors sous l’onglet Ressources.
 
 ## Ajout d’une intégration
 
-Vous devez disposer d’un compte actif pour accéder à la page d’entrée Connecteurs [!UICONTROL de] données (console). Il est également recommandé de connaître Adobe Analytics.
+Vous devez disposer d’un compte actif pour accéder à la page d’entrée [!UICONTROL Data Connectors] (console). Il est également conseillé de connaître Adobe Analytics.
 
 1. Connectez-vous à Adobe Experience Cloud.
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Data Connectors]**.
 1. Cliquez sur **[!UICONTROL Ajouter nouveau]**.
-1. Parcourez l’interface **[!UICONTROL Ajouter une intégration]** .
+1. Suivez l’interface **[!UICONTROL Ajouter une intégration]**.
 
    Selon l’intégration du produit individuel, il vous faudra peut-être fournir des informations spécifiques sur la configuration, dans le cadre du processus d’intégration.
 
-   Une fois l’intégration terminée, l’icône du produit partenaire s’affiche sur la page Réseau des connecteurs de données et est disponible dans les menus.
+   Une fois l’intégration terminée, l’icône du produit partenaire s’affiche sur la page du réseau des Data Connectors ; elle est alors accessible dans les menus.
 
-## Console des connecteurs de données
+## Console des Data Connectors
 
-Une fois une intégration activée, elle s’affiche sur la page Connecteurs [!UICONTROL de] données. Vous pouvez afficher les détails et modifier la configuration sur la console. Vous pouvez afficher les intégrations actives et celles liées à toutes les suites de rapports de votre société. Vous pouvez également afficher un rapport des activités, définir une intégration comme tableau de bord, configurer une intégration et demander de l’aide.
+Une fois une intégration activée, elle s’affiche sur la page [!UICONTROL Data Connectors]. Vous pouvez afficher les détails et modifier la configuration sur la console. Vous pouvez afficher les intégrations actives et celles liées à toutes les suites de rapports de votre société. Vous pouvez également afficher un rapport des activités, définir une intégration comme tableau de bord, configurer une intégration et demander de l’aide.
 
-![Console Connecteurs de données](assets/data-connectors-console.png)
+![Console des Data Connectors](assets/data-connectors-console.png)
 
-## Remarketing de segments dans les connecteurs de données
+## Segments de remarketing dans les connecteurs de données
 
 Les segments de remarketing sont des fichiers de données crées selon les variables utilisées dans une intégration des connecteurs de données.
 
-Adobe Analytics les envoie dans des fichiers quotidiens distincts via l’entrepôt de données à un FTP créé par Adobe pour le tiers. Le tiers distribue ensuite ces fichiers au client. Les entreprises utilisent couramment ces fichiers pour les revendre à des personnes qui ont peut-être visité leur site et regardé un produit sans l’acheter. (Vous touchez par exemple un client en offrant une remise sur un produit qu’il a regardé mais qu’il n’a pas acheté).
+Adobe Analytics vous les envoie via Data Warehouse dans des fichiers quotidiens distincts à un serveur FTP créé par Adobe pour le tiers. Le tiers distribue ensuite ces fichiers au client. Les entreprises utilisent couramment ces fichiers pour les revendre à des personnes qui ont peut-être visité leur site et regardé un produit sans l’acheter. (Vous touchez par exemple un client en offrant une remise sur un produit qu’il a regardé mais qu’il n’a pas acheté).
 
 **Segments**
 
 * [!UICONTROL Abandon de panier] : pourcentage de visiteurs ayant ajouté un article dans le panier sans l’acheter. D’un point de vue technique, il s’agit d’une mesure calculée composée des commandes divisées par les ajouts de panier.
 * [!UICONTROL Achats] : identifiants des destinataires (ou identifiants visiteur) ayant effectué des achats selon l’ID de message dans un produit spécifique.
-* [!UICONTROL Consultations]de produit : Tout comme l’abandon [!UICONTROL de]panier, il s’agit également d’une mesure calculée. It reports [!UICONTROL Product Views] divided by Orders, because customers' viewing the product shows some interest.
+* [!UICONTROL Consultations produits] : il s’agit également d’une mesure calculée similaire aux [!UICONTROL abandons de panier]. Elle indique les [!UICONTROL Consultations produits] divisées par les commandes, puisque les clients qui ont regardé le produit ont manifesté de l’intérêt.
 
 **Exemples de mise en œuvre**
 
@@ -73,12 +73,11 @@ Pour mettre correctement en œuvre les segments de remarketing, les conditions s
 
 * Un contrat concernant les connecteurs de données a été établi et votre entreprise a terminé la phase de mise en œuvre avec un consultant Adobe.
 * L’événement correspond est déclenché au même moment que la variable des produits :
-   * Abandon du panier : `scAdd` événement
-   * Achats : `purchase` événement
-   * Product Views: `prodView` event
+   * Abandon du panier : événement `scAdd`
+   * Achats : événement `purchase`
+   * Consultations produits : événement `prodView`
 
-> [!NOTE] Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement.
-Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
+> [!NOTE] Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement. Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
 
 [!UICONTROL Abandon de panier] : se déclenche après l’ajout par l’utilisateur d’un produit au panier :
 
@@ -100,8 +99,8 @@ s.events="purchase";
 
 | Problème | Description |
 | -----------| ---------- |  
-| Le fichier de segment de remarketing ne contient aucune information d’ID de produit. | Se produit lorsque l’événement correct se déclenche, mais qu’aucune variable de produit n’est présente dans la même demande d’image. Pour corriger ce problème, vérifiez que la variable de produits et l’événement correspondant se déclenchent sur la même page, comme illustré dans les exemples de mise en œuvre ci-dessus. |
+| Le fichier de segment de remarketing ne contient aucune information d’ID de produit. | Ce problème se produit lorsque l’événement correct se déclenche et qu’aucune variable de produit ne figure dans la même demande d’image. Pour corriger ce problème, vérifiez que la variable de produits et l’événement correspondant se déclenchent sur la même page, comme illustré dans les exemples de mise en œuvre ci-dessus. |
 | Les fichiers de segment de remarketing n’ont pas été reçus. | Si vous ne recevez pas les fichiers, demandez à l’un des membre de l’assistance utilisateurs de contacter ClientCare pour rechercher la cause du problème. |
 
 
-> [!IMPORTANT] Il est courant que les consultants configurent également une demande d’entrepôt de données en tant que rapport planifié quotidien en plus de votre fichier de segment de remarketing d’intégration des connecteurs de données standard. Cette demande d’entrepôt de données contient les variables des connecteurs de données ainsi que des variables de connecteurs autres que de données. La demande peut être planifiée selon les besoins spécifiques de votre entreprise. Pour éviter toute confusion lors du dépannage, indiquez si le fichier en question est un fichier de segment de remarketing ou une demande d’entrepôt de données contenant des variables autres que Genesis.
+> [!IMPORTANT] Les consultants configurent couramment une demande Data Warehouse en tant que rapport planifié quotidien, en plus du fichier de segment de remarketing de l’intégration des connecteurs de données. Cette demande d’entrepôt de données contient les variables des connecteurs de données ainsi que des variables de connecteurs autres que de données. La demande peut être planifiée selon les besoins spécifiques de votre entreprise. Pour éviter toute confusion lors du dépannage, indiquez si le fichier en question est un fichier de segment de remarketing ou une demande d’entrepôt de données contenant des variables autres que Genesis.
