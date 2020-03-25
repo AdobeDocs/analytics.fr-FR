@@ -4,7 +4,7 @@ title: Questions fréquentes sur Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 5a8ff1c81644c12f7d00ef147db197f54c48f60c
+source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
 
 ---
 
@@ -53,7 +53,7 @@ A:
 
 **Q :  carte  de l&#39;fournit-elle des données sur &quot;&quot; ?**
 
-A : Non, Adobe ne suit pas les liens affichés.
+A : Non, Adobe ne suit pas les liens qui ont été consultés.
 
 **Q : Puis-je utiliser  Carte  si je n&#39;utilisais pas auparavant Carte des clics sur mon site Web ?**
 
