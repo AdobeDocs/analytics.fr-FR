@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Traitement complet
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Traitement complet
 
-Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique &gt; Traitement complet).
+Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
 Les sources de données à traitement complet sont traitées comme si elles étaient reçues par les serveurs Adobe au moment spécifié (chaque correspondance comprend un horodatage).
 
@@ -23,7 +23,7 @@ Les sources de données à traitement complet sont traitées comme si elles éta
 
 Les sources de données à traitement complet sont traitées en utilisant les profils du visiteur distincts, de sorte que même si l’identifiant visiteur dans les données transférées correspond aux données collectées à l’aide d’une bibliothèque JavaScript ou AppMeasurement, les profils du visiteur ne sont pas connectés du point de vue de l’attribution des eVars.
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. Si vous transférez par la suite une transaction à l’aide du même identifiant visiteur, la campagne « Soldes de printemps » n’est pas créditée pour les recettes ou les événements de succès transférés à l’aide de sources de données à traitement complet.
+Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se rend sur votre site à partir d’une campagne marketing nommée « Soldes de printemps », qui est stockée dans la variable de campagne. Si vous transférez par la suite une transaction à l’aide du même identifiant visiteur, la campagne « Soldes de printemps » n’est pas créditée pour les recettes ou les événements de succès transférés à l’aide de sources de données à traitement complet.
 
 ## Référence de colonne {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -48,13 +48,13 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Remarque : cette variable est également prise en charge par les sources de données standard sous forme de <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Code de devise du revenu (par exemple, USD). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col3"> <p>Utilisez le format de date ISO 8601 <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (par exemple, <code> 2013-09-01T12:00:00-07:00 </code>) ou le format d’heure Unix (nombre de secondes écoulées depuis le 1er janvier 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
@@ -64,7 +64,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a>. </p> <p>Par exemple : </p> 
+   <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Par exemple : </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -112,7 +112,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Liste de produits (par exemple, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -167,7 +167,7 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc.  </p> <p>Voir le livre blanc « <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
+   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. </p> <p>Voir le livre blanc « <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
@@ -199,7 +199,7 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>Type de connexion du visiteur ( <span class="term"> lan </span> ou <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
