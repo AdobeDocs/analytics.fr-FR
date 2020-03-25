@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Types et catégories de données - Aperçu
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Les catégories de sources de données identifient différents types de sources de données ayant une fonctionnalité similaire.
 
-Les catégories permettent de regrouper les sources de données du point de vue de l’utilisateur. Lors de la création d’une source de données au moyen de l’interface Sources de données, vous sélectionnez tout d’abord une catégorie de source de données, puis un type spécifique de source de données. Chaque catégorie contient des types de sources de données compatibles avec des types de données similaires. Les catégories de sources de données suivantes sont disponibles :
+Les catégories permettent de grouper les sources de données du point de vue de l’utilisateur. Lors de la création d’une source de données au moyen de l’interface Sources de données, vous sélectionnez tout d’abord une catégorie de source de données, puis un type spécifique de source de données. Chaque catégorie contient des types de sources de données compatibles avec des types de données similaires. Les catégories de sources de données suivantes sont disponibles :
 
 ## Utilisation du site Web {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -33,9 +33,9 @@ Les catégories permettent de regrouper les sources de données du point de vue 
    <td colname="col3"> <p>La plupart des serveurs Web génèrent des fichiers journaux qui enregistrent chaque page présentée. A l’aide de cette source de données, vous pouvez traiter les fichiers journaux à partir des données de la plupart des serveurs Web et les ajouter à vos rapports. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Téléchargement en masse de Advertising Cloud </p> </td> 
+   <td colname="col1"> <p>Transferts en vrac dans Advertising Cloud </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversion </a> </p> </td> 
-   <td colname="col3"> <p>Fournit des transferts en vrac automatisés par Excel et manuels dans Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Permet des transferts en vrac automatisés par Excel et manuels dans Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Source de données de trafic au niveau du site </p> </td> 
@@ -74,7 +74,7 @@ Les catégories permettent de regrouper les sources de données du point de vue 
   <tr> 
    <td colname="col1"> <p>Service de paiement par clic générique </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversion </a> </p> </td> 
-   <td colname="col3"> <p> Vous permet d’importer les données concernant vos performances de paiement par clic, y compris les impressions, les clics et les coûts.  </p> <p>Il s’agit de la source de données de paiement par clic générique qui doit être utilisée si votre service de paiement par clic spécifique n’est pas pris en charge. </p> </td> 
+   <td colname="col3"> <p> Vous permet d’importer les données concernant vos performances de paiement par clic, y compris les impressions, les clics et les coûts. </p> <p>Il s’agit de la source de données de paiement par clic générique qui doit être utilisée si votre service de paiement par clic spécifique n’est pas pris en charge. </p> </td> 
   </tr> 
  </tbody> 
 </table>
