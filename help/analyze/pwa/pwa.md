@@ -2,26 +2,26 @@
 title: PWA pour Analytics
 description: Applications Web progressives pour Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ---
 
 
 # PWA pour Analytics
 
-Ce guide décrit l’utilisation d’Adobe Analytics avec des applications Web progressives (PWA).
+Cette page décrit l’utilisation d’Adobe Analytics avec des applications Web progressives (PWA).
 
 ## Introduction
 
 Les PWA peuvent fournir une expérience applicative native, ainsi que des fonctionnalités hors ligne, pour un site Web. En règle générale, les PWA comprennent un agent de service, des dispositions de mise en cache et un fichier manifeste, qui peuvent tous aider à accélérer le temps de chargement, à faciliter la navigation et à adopter un comportement réactif.
 
-Adobe Analytics fonctionne de manière aussi transparente avec les AAP qu’avec les sites Web traditionnels. Bien que les AAP aient quelques exigences supplémentaires pour se comporter progressivement en elles-mêmes, elles ne créent pas d’obstacles ou de limitations quant à la manière dont Analytics les rassemble ou leur rapporte des données d’une manière différente de celle des sites Web traditionnels. En fait, étant donné qu’Analytics inclut déjà des fonctionnalités de suivi hors ligne, les approches PWA peuvent vous aider à exploiter cette fonctionnalité intégrée plus facilement qu’avec les sites Web traditionnels.
+Adobe Analytics fonctionne de manière aussi transparente avec les approches PWA qu’avec les sites Web traditionnels. Bien que les AAP aient quelques exigences supplémentaires pour se comporter progressivement en elles-mêmes, elles ne créent pas d’obstacles ou de limitations quant à la manière dont Analytics les rassemble ou leur rapporte des données d’une manière différente de celle des sites Web traditionnels. En fait, étant donné qu’Analytics inclut déjà des fonctionnalités de suivi hors ligne, les approches PWA peuvent vous aider à tirer parti de cette fonctionnalité intégrée plus facilement qu’avec les sites Web traditionnels.
 
 ## Obtention des données Analytics PWA
 
-Pour collecter et analyser vos données PWA avec Analytics, il n’est pas nécessaire d’effectuer des modifications de configuration. Analytics fournit automatiquement les mêmes fonctionnalités et fonctionnalités qu’un site Web traditionnel.
+Pour collecter et analyser vos données PWA avec Analytics, il n’est pas nécessaire d’effectuer des modifications de configuration. Analytics fournit automatiquement toutes les mêmes fonctionnalités et fonctionnalités qu’un site Web traditionnel.
 
-## Ajout d’un suivi hors ligne afin d’accroître l’efficacité PWA
+## Ajouter le suivi hors ligne pour accroître l&#39;efficacité des approches PWA
 
 Vous pouvez accroître l’efficacité de votre approche par domaine en utilisant les fonctionnalités [de suivi](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) hors ligne d’Analytics avec. Par défaut, cette fonctionnalité est désactivée, mais vous pouvez ajouter la propriété suivante au fichier AppMeasurement.js pour l’activer : `s.trackOffline=true;`.
 
@@ -40,12 +40,10 @@ s.linkLeaveQueryString=false
 s.linkTrackVars="None" 
 s.linkTrackEvents="None" 
 s.trackOffline=true
-***
-    
+*** 
 ```
 
-
-Pour plus d’informations sur la modification du fichier AppMeasurement.js, voir [Insertion de code dans le fichier](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)AppMeasurement.js.
+Pour plus d’informations sur la modification du fichier AppMeasurement.js, voir [Insertion de code dans le fichier AppMeasurement.js](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html).
 
 Pour des exemples de configurations dans le fichier AppMeasurement.js, voir [Configuration du fichier](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)AppMeasurement.js.
 
