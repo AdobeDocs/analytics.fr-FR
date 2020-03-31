@@ -2,7 +2,7 @@
 title: Mise en correspondance des éléments de données de lancement avec les variables Analytics
 description: Affectez des éléments de données à des variables Analytics afin que vous puissiez les utiliser comme dimensions dans  espace de travail .
 translation-type: tm+mt
-source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
+source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ---
 
@@ -32,14 +32,14 @@ Les variables globales sont idéales lorsque vous souhaitez définir des valeurs
 
 ### Définition de variables dans les règles
 
-Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Reportez-vous à [Règles](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) dans le guide de l’utilisateur Lancement d’Adobe Experience Platform.
+Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
 1. Cliquez sur la propriété Launch de votre choix.
 1. Cliquez sur l’ [!UICONTROL Rules] onglet, puis sur la règle souhaitée (ou créez-en une).
 1. Cliquez sur le [!UICONTROL Add] bouton sous [!UICONTROL Actions].
-1. Définissez la [!UICONTROL Extension] liste déroulante sur Adobe Analytics et [!UICONTROL Action Type] sur Définir des variables.
-1. Cliquez sur l’icône d’élément [!Dde](assets/data-element.png) données à droite de la variable Analytics souhaitée. Le de conception de [solution de votre entreprise](../prepare/solution-design.md) détermine la variable Analytics à utiliser.
+1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. Cliquez sur l’icône d’élément ![de](assets/data-element.png) données à droite de la variable Analytics souhaitée. Le de conception de [solution de votre entreprise](../prepare/solution-design.md) détermine la variable Analytics à utiliser.
 1. Sélectionnez l’élément de données souhaité dans la fenêtre modale. Cliquez sur [!UICONTROL Select].
 1. Le nom de l’élément de données est ajouté au champ de texte entouré de `%` signes. Par exemple, si vous avez nommé votre élément de données &quot;Nom de page&quot;, la chaîne s’affichera `%Page name%` lors de l’affectation d’un élément de données à une variable.
 
