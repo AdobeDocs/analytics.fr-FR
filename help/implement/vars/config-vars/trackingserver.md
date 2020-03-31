@@ -1,8 +1,8 @@
 ---
 title: trackingServer
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées.
-translation-type: ht
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+translation-type: tm+mt
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
@@ -15,12 +15,12 @@ Adobe collecte des données sur votre site en recevant une demande d’image gé
 
 ## Serveur de suivi dans Adobe Experience Platform Launch
 
-Le serveur de suivi est un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
+Tracking Server is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
-4. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Serveur de suivi].
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
+4. Développez l’ [!UICONTROL General] accordéon, ce qui révèle le [!UICONTROL Tracking Server] champ.
 
 Si ce champ n’est pas renseigné, il est défini par défaut sur `[rsid].112.2o7.net`.
 
@@ -36,7 +36,7 @@ La valeur de cette variable dépend de l’utilisation de cookies propriétaires
 
 ### Cookies propriétaires
 
-Si vous utilisez une mise en œuvre de cookies propriétaires, il est probable qu’une personne de votre entreprise ait déjà terminé le processus de cookies propriétaires. Pour plus d’informations sur le processus des cookies propriétaires, voir [Cookies propriétaires dans Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html) dans le guide d’utilisation des services principaux.
+Si vous utilisez une mise en œuvre de cookies propriétaires, il est probable qu’une personne de votre entreprise ait déjà terminé le processus de cookies propriétaires. Pour plus d’informations sur le processus des cookies propriétaires, voir [Cookies propriétaires dans Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) dans le guide d’utilisation des services principaux.
 
 La personne qui configure initialement la mise en œuvre des cookies propriétaires définit également le domaine et le sous-domaine utilisés. Par exemple :
 
@@ -57,3 +57,5 @@ s.trackingServer = "example.sc.omtrdc.net";
 ```
 
 Sélectionnez un sous-domaine unique à votre organisation, qui ne sera probablement pas choisi par une autre organisation qui utilise Adobe Analytics. Assurez-vous que toutes les mises en œuvre de votre entreprise utilisent le même serveur de suivi. Il peut s’avérer utile de conserver ces informations dans un [document de conception de solution](../../prepare/solution-design.md).
+
+> [!NOTE] N’utilisez aucun sous-domaine plus profond que `example.sc.omtrdc.net`. Par exemple, `custom.example.sc.omtrdc.net` il ne s’agit pas d’un serveur de suivi valide.
