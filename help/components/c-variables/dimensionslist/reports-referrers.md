@@ -1,86 +1,31 @@
 ---
-description: Affiche le domaine ou l’URL de provenance des visiteurs avant qu’ils arrivent sur votre site, les méthodes utilisées par les visiteurs pour trouver votre site web et le nombre de visites sur votre site qui proviennent de ces référents.
 title: Référents
-topic: Reports
-uuid: e63b47b4-49f3-43af-8409-3272bec0484e
+description: Affiche l’URL de l’accès précédent, si cet accès se trouvait en dehors de votre site.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
 # Référents
 
-Affiche le domaine ou l’URL de provenance des visiteurs avant qu’ils arrivent sur votre site, les méthodes utilisées par les visiteurs pour trouver votre site web et le nombre de visites sur votre site qui proviennent de ces référents.
+La dimension &quot;&quot; indique l’URL d’où sont venus vos avant qu’ils n’arrivent sur votre site. Si, par exemple, un clique sur un lien `example.com/example-page.html` et arrive sur votre site, `example.com/example-page.html` est le s’il n’est pas défini comme faisant partie de votre domaine.
 
-Si, par exemple, un visiteur clique sur un lien du Site A et arrive sur votre site, le Site A est le référent s’il n’est pas défini comme faisant partie de votre domaine. Lors de l’implémentation, votre conseiller peut vous aider à définir les domaines et adresses URL qui font partie de votre site web. (Notez que cette modification peut être effectuée après la mise en œuvre.)
+Cette dimension requiert que vous configuriez la URL [interne de votre suite de rapports](/help/admin/admin/internal-url-filter-admin.md). Si vous ne configurez pas de  d’URL internes, Adobe Analytics considère tous les domaines comme internes à votre site.
 
-Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont considérés comme des référents. Par exemple, les pages Web A et Web B sont ajoutées au filtre URL interne, mais la page web C ne l’est pas. Dans ce cas, la page web C est considérée comme un référent.
+## Propriétés de dimension
 
-## Attribution, expiration et valeurs spéciales {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
+* Cette dimension utilise l’attribution la plus récente par défaut.
+* Cette dimension expire par défaut après la visite.
+* Cette dimension est soumise à la limite unique de 500 000 avant de regrouper les valeurs de dimension sous (Faible trafic). L&#39;entrepôt de données n&#39;a pas de limite unique.
+* S’il n’existe aucune valeur  pour une mesure, elle est regroupée sous `Typed/Bookmarked`.
+* Cette dimension est généralement définie sur le premier accès de la visite, mais elle peut être définie en milieu de visite.
 
-<table id="table_EC7423532C7E44DE97B7FC0321585A2B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Reports &amp; Analytics marketing (SiteCatalyst) </th> 
-   <th colname="col3" class="entry"> Analyses ad hoc </th> 
-   <th colname="col4" class="entry"> Data Warehouse </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Attribution des mesures </td> 
-   <td colname="col2"> Le plus récent </td> 
-   <td colname="col3"> Le plus récent </td> 
-   <td colname="col4"> Le plus récent </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Valeurs Expire après </td> 
-   <td colname="col2"> Visite </td> 
-   <td colname="col3"> Visite </td> 
-   <td colname="col4"> Visite </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Valeur Limites </td> 
-   <td colname="col2"> Aucune limite (peut changer dans les versions ultérieures) </td> 
-   <td colname="col3"> Aucune limite (peut changer dans les versions ultérieures) </td> 
-   <td colname="col4"> Aucune </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Valeurs spéciales </td> 
-   <td colname="col2"> <p>« Aucun » : totaux à l’échelle du site qui n’avaient aucun référent durant la visite. </p> </td> 
-   <td colname="col3"> <p>« Aucun » : totaux à l’échelle du site qui n’avaient aucun référent durant la visite. </p> </td> 
-   <td colname="col4"> <p> Vide : équivalent à « Aucun », totaux à l’échelle du site qui n’avaient aucun référent durant la visite. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## Résolution des problèmes
 
-## Remarques {#section_B83A3571D64E4E7792712FAF740D7955}
+**Q : Pourquoi est-ce que je vois`googleusercontent.com`comme une valeur de dimension ?**
 
-* Le référent, le type de référent et le domaine de référent sont définis au premier accès de la visite ou durant une visite lorsque le référent est externe (par exemple, si un visiteur quitte votre site, utilise un moteur de recherche, puis revient sur votre site avant l’expiration de la première visite). Ces valeurs sont définies en même temps et persistent pendant toute la visite.
-* Les URL internes sont filtrées. Seuls les référents qui ne correspondent pas aux filtres d’URL internes figurent dans ce rapport.
-* La mesure correspondante est appelée Instance du référent dans l’Ad Hoc Analysis.
-* Les valeurs « Tapé/Marqué » ne sont pas incluses sur le rapport Référents. En d’autres termes, les visites à l’échelle du site ne correspondent pas aux visites sur ce rapport.
+A : [Google](https://about.google/) utilise le domaine `googleusercontent.com` pour le contenu hébergé. Le contenu hébergé comprend :
 
-## Historique des rapports {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
-
-<table id="table_9DFA79EC6A5A48648F2FB5418E1752DB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Date </th> 
-   <th colname="col2" class="entry"> Changement </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 16/1/2014 </td> 
-   <td colname="col2"> Data Warehouse a été mis à jour pour correspondre à la logique utilisée par les Reports &amp; Analytics marketing. Auparavant, les mots-clés de recherche ne persistaient pas pendant la visite. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 19/6/2012 </td> 
-   <td colname="col2"> <p> Avant juillet 2012, « Aucun » incluait tout le trafic mobile, les visites « Tapé/Marqué » et les visites sans code JavaScript. Depuis juillet 2012, « Aucun » comprend uniquement les accès sans code JavaScript sur la première page de la visite. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+* **Pages** mises en cache : Les araignées de Google analysent constamment le Web et enregistrent les pages Web au cas où elles seraient mises hors ligne ou indisponibles. Ces pages mises en cache sont disponibles en regard de tous les résultats de recherche en cliquant sur le lien &quot;Mise en cache&quot; de l&#39;une des pages de résultats de recherche de Google. Lorsqu’un utilisateur clique sur ce lien, puis examine le contenu d’origine sur votre site, `googleusercontent.com` est répertorié comme leur domaine référent. Ces pages ont le sous-domaine `webcache.googleusercontent.com`.
+* **Pages** traduites : Google  un service de traduction robuste et pratique. Lorsque vous consultez un site à l’aide de ce service, il provient de `googleusercontent.com`. La dimension  du affiche les URL de ce domaine si l’utilisateur clique sur un lien pour revenir au contenu d’origine. Ces pages ont le sous-domaine `translate.googleusercontent.com`.
