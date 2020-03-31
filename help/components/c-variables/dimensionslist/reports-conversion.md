@@ -1,52 +1,70 @@
 ---
-description: Fournit une analyse exhaustive, précise et détaillée de l’activité des clients. Les mesures proposées (gestion des campagnes, cycle de ventes, abandons et conversions de clients, par exemple) vous permettent de mesurer les transactions de commerce électronique, les sources des ventes, l’efficacité de la publicité, la fidélité de la clientèle, etc.
-title: Conversion
-topic: Reports
-uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
+title: eVar
+description: Dimension personnalisée que vous pouvez utiliser dans les  de.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
-# Conversion
+# eVar
 
-Fournit une analyse exhaustive, précise et détaillée de l’activité des clients. Les mesures proposées (gestion des campagnes, cycle de ventes, abandons et conversions de clients, par exemple) vous permettent de mesurer les transactions de commerce électronique, les sources des ventes, l’efficacité de la publicité, la fidélité de la clientèle, etc.
+*Cette page d’aide décrit le fonctionnement des eVars en tant que dimension. Pour plus d’informations sur la mise en oeuvre des eVars, voir[eVars](/help/implement/vars/page-vars/evar.md)dans le guide de l’utilisateur Mise en oeuvre.*
 
-Si vous souhaitez, par exemple, voir le type des campagnes internes de votre page d’accueil qui peuvent donner lieu à des achats, vous devez d’abord capturer les codes de suivi internes et définir la persistance sur une période équivalant à une visite pour la variable *`s.eVar`* qui capture les campagnes internes. Une fois un événement de succès terminé (un achat, par exemple), le crédit correspondant est attribué à toute variable de conversion qui persiste sur le visiteur, telle que l’ID de campagne interne. L’exécution du [!UICONTROL Rapport de campagne interne] vous permet d’identifier la campagne qui a généré le plus de conversions sur site.
+Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Si vous disposez d’un [de conception de](/help/implement/prepare/solution-design.md)solution, la plupart des dimensions propres à votre entreprise se présentent comme des eVars. Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Vous pouvez personnaliser leur expiration et leur attribution sous Variables [de](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversion dans les paramètres de la suite de rapports.
 
-Certains des rapports prêts à l’emploi contiennent des mesures de trafic et de conversion (tels que les rapports [!UICONTROL Moteur de recherche]). Toutefois, les rapports [!UICONTROL Trafic] et [!UICONTROL Conversion] sont exclusifs à votre entreprise et s’affichent dans les menus **[!UICONTROL Trafic]** et **[!UICONTROL Conversion]**.
+## Fonctionnement des eVars
 
-**Propriétés des rapports**
+Lorsque vous envoyez des données à Adobe Analytics, les serveurs de collecte de données transforment l’accès en une seule ligne de données contenant des centaines de colonnes. Deux colonnes sont dédiées à chaque eVar ; l’une pour la collecte directe des données, l’autre pour les valeurs persistantes.
 
-* Les rapports [!UICONTROL Conversion personnalisée] sont basés sur des eVars (variables de conversion).
-* Les variables de conversion peuvent persister au-delà de la consultation de page et être associées à des mesures dans l’intervalle spécifié.
-* Par défaut, les mesures du rapport portent sur les recettes. Pour modifier les mesures par défaut, reportez-vous à la section [Sélection des mesures de rapport par défaut](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html).
-* Vous pouvez consulter ces rapports sous la forme de rapports de tendance et classés.
-* Vous pouvez utiliser des classifications dans ces rapports afin de renommer et de consolider des éléments.
-* Ces rapports peuvent être ventilés en fonction des éléments suivants si des sous-relations de base sont activées :
+* Une colonne standard contient les données envoyées à Adobe à partir de la demande d’image.
+* Une colonne &quot;post&quot; contient des données persistantes, qui dépendent de l’expiration et de l’attribution de l’eVar.
 
-   * Campagnes et Produits, avec toutes les classifications connexes
-   * Fidélité de la clientèle
-   * Toutes les eVars complètement sous-liées
+Dans presque toutes les circonstances, la `post_evar` colonne est utilisée dans les rapports.
 
-* D’autres rapports sont disponibles pour effectuer une ventilation lorsque les sous-relations complètes sont activées :
+### Comment les eVars sont liées aux mesures
 
-   * Durée de la visite
-   * Pages et Sections du site, avec toutes les classifications connexes
-   * Pages d’entrée
-   * Presque tous les rapports Source de trafic
-   * Nombre de visites
-   * Un grand nombre de rapports Profil du visiteur et Technologie
-   * Toutes les autres eVars
-   * Canaux marketing Première touche et Dernière touche
+Les  de réussite et les eVars sont fréquemment définis dans différentes demandes d’image. La `post_evar` colonne permet aux valeurs eVar de se lier à des , affichant les données dans les . Prenez l’exemple suivant :
 
-* Les événements suivants peuvent être utilisés comme mesures :
+1. Un arrive sur votre site sur votre .
+2. Ils recherchent des &quot;chats&quot; en utilisant la recherche interne de votre site. Votre implémentation définit eVar1 sur la recherche interne.
+3. Ils  un produit et passent par le processus de passage en caisse.
 
-   * Instances, nombre de fois où l’eVar a été définie
-   * Toutes les variables de commerce électronique standard : Recettes, Commandes, Unités, Paniers, Consultations du panier, Passages en caisse, Ajouts au panier, Retraits du panier.
-   * Tous les événements personnalisés : Événements 1-80, et Événements 81-100 si le code est H22 ou supérieur.
-   * Visites et Visiteurs : la disponibilité dépend de la société et de la suite de rapports. Pour plus d’informations, contactez votre gestionnaire de compte.
+Une version simplifiée des données brutes se présenterait comme suit :
 
-* L’emplacement de chaque rapport [!UICONTROL Conversion personnalisée] varie en fonction de la valeur numérique affectée à l’eVar. En général, ils se trouvent dans le dossier [!UICONTROL Conversion personnalisée] (à condition que le menu ne soit pas personnalisé).
+| `visitor_id` | `pagename` | `evar1` | `post_evar1` | `event_list` |
+| --- | --- | --- | --- | --- |
+| `examplevisitor_987` | `Home page` |  |  |  |
+| `examplevisitor_987` | `Search results` | `cats` | `cats` | `event1` |
+| `examplevisitor_987` | `Product page` |  | `cats` | `prodView` |
+| `examplevisitor_987` | `Cart` |  | `cats` | `scAdd` |
+| `examplevisitor_987` | `Checkout` |  | `cats` | `scCheckout` |
+| `examplevisitor_987` | `Purchase confirmation` |  | `cats` | `purchase` |
 
+* La `visitor_id` colonne lie les accès au même. Dans les données brutes réelles, les valeurs concaténées de `visid_high` et `visid_low` déterminent l’ID de.
+* La `pagename` colonne renseigne la dimension Pages.
+* La `evar` colonne détermine les accès lorsque eVar1 a été explicitement définie.
+* La valeur `post_evar1` porte la valeur précédente, selon l’allocation et l’expiration de la variable définies sous les paramètres de la suite de rapports.
+* La `event_list` colonne contient toutes les données de mesure. Dans cet exemple, `event1` il s’agit de &quot;Recherches&quot; et les autres  sont des mesures standard du panier. Dans les données brutes réelles, `event_list` contient un ensemble de nombres délimités par des virgules, avec une table de recherche liant ces nombres à une mesure.
+
+### Traduction de la collecte de données en 
+
+Les outils d’Adobe Analytics, tels que  l’espace de travail , fonctionnent à partir de ces données collectées. Par exemple, si vous lancez un rapport à l’aide de l’eVar1 comme dimension et des Commandes comme mesure, un rapport similaire à celui-ci s’affiche :
+
+| `Internal search term (eVar1)` | `Orders` |
+| --- | --- |
+| `cats` | `1` |
+
+ Workspace  extrait ce rapport en utilisant la logique suivante :
+
+* Examinez toutes les `event_list` valeurs et sélectionnez tous les accès avec `purchase` elles.
+* Sur ces accès, affichez la `post_evar1` valeur.
+
+### L&#39;importance de l&#39;attribution et de l&#39;expiration
+
+Puisque l’attribution et l’expiration déterminent les valeurs persistantes, elles sont essentielles pour tirer le meilleur parti d’une implémentation d’analyse. Adobe recommande vivement de discuter au sein de votre entreprise de la manière dont plusieurs valeurs pour chaque eVar sont gérées (attribution) et lorsque les eVars cessent de conserver les données (expiration).
+
+* Par défaut, une eVar utilise la dernière allocation. Les nouvelles valeurs remplacent les valeurs persistantes.
+* Par défaut, une eVar utilise une expiration de visite. Une fois la visite terminée, les valeurs cessent de se copier d’une ligne à l’autre dans la `post_evar` colonne.
+
+Vous pouvez modifier l’attribution et l’expiration des eVars sous Variables [de](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversion dans les paramètres de la suite de rapports.
