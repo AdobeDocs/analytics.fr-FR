@@ -2,7 +2,7 @@
 title: FAQ sur l’Attribution
 description: Obtenez des réponses aux questions les plus fréquentes au sujet de l’attribution.
 translation-type: tm+mt
-source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
+source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 **Qu’est-ce que l’élément de ligne « Aucun » lors de l’utilisation de l’attribution ?**
 
-L’élément de ligne « Aucun » est un fourre-tout qui représente toutes les conversions survenues sans points de contact dans l’intervalle de recherche en amont. Essayez d’inclure une période plus longue dans votre créneau de rapport.
+La ligne &quot;Aucun&quot; est un élément fourre-tout qui représente toutes les conversions survenues sans points de contact dans la fenêtre de recherche. Essayez d’inclure une période plus longue dans votre créneau de rapport.
 
 **Pourquoi est-ce que je vois parfois des dates hors de mon créneau de rapport lors de l’utilisation de modèles d’attribution ?**
 
@@ -45,7 +45,7 @@ Le panneau d’attribution prend en charge toutes les dimensions. Voici les mesu
 * Visites
 * Occurrences
 * Pages vues
-* Mesures d’A4T
+* Mesures A4T
 * Mesures de durée de la visite
 * Rebonds
 * Taux de rebond
@@ -58,7 +58,7 @@ Le panneau d’attribution prend en charge toutes les dimensions. Voici les mesu
 
 **Puis-je utiliser un intervalle de recherche en amont personnalisé avec mes modèles d’attribution ?**
 
-Oui, à l&#39;aide de l&#39;option de fenêtre de recherche personnalisée, les fenêtres de recherche peuvent être configurées jusqu&#39;à 90 jours avant la date de création de rapports. Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
+Oui, à l&#39;aide de l&#39;option de fenêtre de recherche personnalisée, vous pouvez configurer les fenêtres de recherche jusqu&#39;à 90 jours avant la date de votre . Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
 
 **L’attribution fonctionne-t-elle avec des classifications ?**
 
