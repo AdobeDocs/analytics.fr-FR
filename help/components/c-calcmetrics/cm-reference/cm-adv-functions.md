@@ -2,7 +2,7 @@
 description: Accédez à ces fonctions en cochant Afficher les options avancées dans la liste déroulante Fonctions.
 title: 'Référence : fonctions avancées'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -16,7 +16,7 @@ Accédez à ces fonctions en cochant **[!UICONTROL Afficher les options avancée
 
 Une fonction de tableau consiste à ce que la sortie soit la même pour chaque ligne du tableau. Une fonction de ligne consiste à ce que la sortie soit différente pour chaque ligne du tableau.
 
-## Que signifie le paramètre d’inclusion de zéros ? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Que signifie le paramètre d’inclusion de zéros ?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Il indique s’il faut inclure des zéros dans le calcul. Parfois, zéro signifie « rien » mais parfois, il est important.
 
@@ -51,7 +51,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | Dimension pour laquelle vous souhaitez obtenir le nombre distinct approximatif d’éléments. |
 
-## Exemple de cas d’utilisation {#section_424E3FC5092948F0A9D655F6CCBA0312}
+## Exemple de cas d’utilisation  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Le nombre distinct approximatif (eVar ID de client) est un cas d’utilisation courant pour cette fonction.
 
@@ -63,11 +63,11 @@ Voici comment cette mesure pourrait être utilisée dans les rapports :
 
 ![](assets/approx-customers.png)
 
-## Valeurs uniques dépassées {#section_9C583858A9F94FF7BA054D1043194BAA}
+## Valeurs uniques dépassées  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
+Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://marketing.adobe.com/resources/help/fr_FR/reference/metrics_uniques_high_numbers.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
 
-## Comparaison des fonctions de comptage {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+## Comparaison des fonctions de comptage  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 La fonction Approximate Count Distinct() est une amélioration des fonctions Count() et RowCount(), car vous pouvez utiliser la mesure créée dans un rapport de dimensions pour générer un nombre approximatif d’éléments pour une dimension distincte. Par exemple, un nombre d’ID de client utilisés dans un rapport Type de périphérique mobile.
 
@@ -437,7 +437,7 @@ NOT(logical)
 |---|---|
 | *logical* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
 
-L’utilisation de SAUF nécessite de connaître si les expressions (&lt;, &gt;, =, &lt;&gt; , etc.) renvoient la valeur 0 ou 1.
+L’utilisation de SAUF nécessite de connaître si les expressions (&lt;, >, =, &lt;> , etc.) renvoient la valeur 0 ou 1.
 
 ## Différent de {#concept_EC010B7A9D2049099114A382D662FC16}
 
