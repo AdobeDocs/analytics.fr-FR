@@ -3,7 +3,7 @@ description: Nombre de fois qu’une page est affichée ou qu’une dimension es
 title: Affichage à partir d’un appareil mobile
 topic: Metrics
 uuid: ba6ba9e8-3242-4a38-ae7b-359f821e2a46
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
