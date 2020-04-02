@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Segmentation Analytics
 topic: Segments
 uuid: 845c1743-1264-4090-bccc-78830477f52e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ La segmentation d’Analytics inclue le [Créateur de segments](/help/components
 
 ![](assets/seg__overview.png)
 
-Les analystes de données et marketing peuvent utiliser, développer et affiner les segments pour les analyses spécifiques à leurs besoins, puis enregistrer le segment pour que d’autres utilisateurs le développent, l’affinent et l’enregistrent en tant que nouveau segment dans la bibliothèque. Une fois lancée, la segmentation est un cycle de conception et de gestion d’informations codées sur les audiences sous la forme [processus de segments unifiés](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+Les analystes de données et marketing peuvent utiliser, développer et affiner les segments pour les analyses spécifiques à leurs besoins, puis enregistrer le segment pour que d’autres utilisateurs le développent, l’affinent et l’enregistrent en tant que nouveau segment dans la bibliothèque. Une fois lancée, la segmentation est un cycle de conception et de gestion d’informations codées sur les audiences sous la forme  [processus de segments unifiés](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 **Prise en main**
 
