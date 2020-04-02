@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Générateur d’alertes
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
+>Les alertes intelligentes ne sont disponibles que pour les clients Adobe [!DNL Analytics] Prime et Adobe [!DNL Analytics] Ultimate.
 
 Le Générateur d’alertes peut être ouvert de l’une des quatre façons suivantes :
 
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
+* En sélectionnant **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
 * En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
-* From within a [!UICONTROL Reports &amp; Analytics] report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* Dans un rapport [!UICONTROL Reports &amp; Analytics], en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
 
-The Alert Builder interface is familiar to those who have built segments or calculated metrics in [!DNL Analytics]:
+Les utilisateurs qui ont déjà créé des segments ou calculé des mesures dans [!DNL Analytics] ne seront pas dépaysés par l’interface du Générateur d’alertes :
 
 ![](assets/alert_builder.png)
 
@@ -35,15 +35,15 @@ Spécifiez le nom de l’alerte. Le nom de l’alerte doit contenir le nom du ra
 
 Spécifiez quand vérifier la mesure : chaque heure, chaque jour, chaque semaine ou chaque mois.
 
-> [!NOTE] Pour les suites de rapports avec un calendrier personnalisé, nous ne prenons pas en charge la granularité mensuelle dans le Générateur d’alertes.
+> [!NOTE] Dans le Générateur d’alertes, il n’est pas possible de sélectionner la granularité mensuelle pour les suites de rapports dotées d’un calendrier personnalisé.
 
 **Destinataires**
 
-Spécifiez où envoyer l’alerte. An alert can be sent to an [!DNL Analytics] user, an [!DNL Analytics] group, a raw email address, or to a phone number.
+Spécifiez où envoyer l’alerte. Une alerte peut être envoyée à un utilisateur [!DNL Analytics] ou à un groupe [!DNL Analytics], à une adresse électronique brute ou à un numéro de téléphone.
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>Le numéro de téléphone doit être précédé d’un « + » et d’un [code de pays](https://countrycode.org/).
 
 **Date d’expiration**
 
@@ -55,7 +55,7 @@ Spécifiez la date d’expiration de l’alerte.
 
 * Faites glisser et déplacez les mesures dans la zone de travail des déclencheurs.
 
-   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Notez qu’un message **« composants incompatibles »** s’affiche si certains composants (mesures/dimensions/segments) de l’alerte ne sont pas compatibles avec la suite de rapports actuellement sélectionnée.
 
 * Déterminez le seuil que la mesure doit dépasser avant l’envoi d’une alerte. Vous pouvez définir un seuil, puis l’une des conditions suivantes :
 
