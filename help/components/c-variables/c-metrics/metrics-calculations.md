@@ -3,7 +3,7 @@ description: Les mesures sont calculées selon des méthodes d’attribution sta
 title: Calculs de mesures
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,11 +31,11 @@ Les mesures sont calculées selon des méthodes d’attribution standard, de par
   </tr> 
   <tr> 
    <td colname="col1"> Linéaire </td> 
-   <td colname="col2"> <p>Lorsque l’allocation linéaire est sélectionnée, les événements de succès sont répartis uniformément entre toutes les valeurs variables affichées dans la visite. Pour les événements numériques et monétaires, tels que <span class="term"> Recettes</span>, le montant monétaire est divisé. Pour les événements de compteur tels que <span class="term"> Commandes</span>, une partie de l’événement est attribuée à chaque valeur de variable de la visite. Ces parties sont additionnées dans le cadre des rapports, puis arrondies à l’entier le plus proche. </p> <p>Par exemple, pour une visite où quatre pages ont été consultées avant un événement de succès, chaque page reçoit un crédit de 25 % de l’événement. Si, au cours d’une même visite, la La <span class="varname"> campagne</span> a deux valeurs, chaque valeur de campagne recevra 50 % du crédit pour l’événement. </p> </td> 
+   <td colname="col2"> <p>Lorsque l’allocation linéaire est sélectionnée, les événements de succès sont répartis uniformément entre toutes les valeurs variables affichées dans la visite. Pour les événements numériques et monétaires, tels que  <span class="term"> Recettes</span>, le montant monétaire est divisé. Pour les événements de compteur tels que <span class="term"> Commandes</span>, une partie de l’événement est attribuée à chaque valeur de variable de la visite. Ces parties sont additionnées dans le cadre des rapports, puis arrondies à l’entier le plus proche. </p> <p>Par exemple, pour une visite où quatre pages ont été consultées avant un événement de succès, chaque page reçoit un crédit de 25 % de l’événement. Si, au cours d’une même visite, la  La <span class="varname"> campagne</span> a deux valeurs, chaque valeur de campagne recevra 50 % du crédit pour l’événement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Participation </td> 
-   <td colname="col2"> <p>Attribue tout le crédit à chaque valeur de variable qui a contribué à l’événement de succès au cours d’une visite. Ce calcul peut également s’appliquer à plusieurs sessions de visiteurs, si vous utilisez des mesures de participation inter-visites. </p> <p>Voir <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Participation</a> pour plus d’informations. </p> </td> 
+   <td colname="col2"> <p>Attribue tout le crédit à chaque valeur de variable qui a contribué à l’événement de succès au cours d’une visite. Ce calcul peut également s’appliquer à plusieurs sessions de visiteurs, si vous utilisez des mesures de participation inter-visites. </p> <p>Voir  <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Participation</a> pour plus d’informations. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,7 +44,7 @@ Les mesures sont calculées selon des méthodes d’attribution standard, de par
 
 Supposons que votre site comporte une recherche interne dont le suivi est réalisé à l’aide d’une variable de conversion (eVar). Le visiteur effectue plusieurs recherches internes avant de réaliser un achat d’un montant de 100 $ :
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; 100 $ d’achat
+*`Pet`* > *`Feline`* > *`Cat`* > *`Kitten`* > $100 achat
 
 Dans le rapport, l’attribution de crédit est la suivante :
 
