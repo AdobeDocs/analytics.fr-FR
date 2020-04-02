@@ -3,7 +3,7 @@ description: Tous les segments créés dans le Créateur de segments ne sont pas
 title: Compatibilité des segments avec Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Analysis Workspace, Reports &amp; Analytics, Analyses ad hoc </th> 
+   <th colname="col2" class="entry"> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
    <th colname="col3" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -35,7 +35,7 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
   <tr> 
    <td colname="col1"> <b>ET et OU peuvent être associés sans limites</b> </td> 
    <td colname="col2"> Pris en charge </td> 
-   <td colname="col3"> Certaines limites. Voir *note* ci-dessous tableau. </td> 
+   <td colname="col3"> Certaines limites. Voir *note* sous le tableau. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Conteneurs imbriqués</b> </td> 
@@ -93,4 +93,4 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
  </tbody> 
 </table>
 
-*Remarque : L’entrepôt de données ne prend pas en charge tous les cas d’utilisation d’un`exclusion`conteneur ou d’un`without`conteneur lors de l’utilisation`AND/OR`. Lors de l’utilisation d’une telle combinaison, seuls les segments qui peuvent être réécrits en tant que`A AND NOT B`(ou **incluent cette caractéristique**et **excluent cette caractéristique**) sont pris en charge dans Data Warehouse.*
+*Remarque : Data Warehouse ne prend pas en charge tous les cas d’utilisation d’un conteneur`exclusion`ou`without`lors de l’utilisation de`AND/OR`. Lors de l’utilisation d’une telle combinaison, seuls les segments qui peuvent être réécrits en tant que `A AND NOT B` (ou ** inclure cette caractéristique** et **exclure cette caractéristique**) sont pris en charge dans Data Warehouse.*
