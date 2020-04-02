@@ -3,7 +3,7 @@ description: Affiche une ventilation des mots-clés de recherche.
 title: Mots-clés de recherche
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Affiche une ventilation des mots-clés de recherche.
 
 >[!IMPORTANT]
 >
->Pour les recherches payantes et naturelles, les moteurs de recherche ont cessé de fournir (dans la plupart des cas) les mots-clés de recherche dans le cadre du référent. Par conséquent, Adobe classe toujours le domaine Google (ou Bing ou Yahoo) comme recherche. En fonction du format et du contenu du référent (même sans les mots-clés), Adobe peut souvent déterminer qu’il s’agit du résultat d’une recherche. La recherche est donc comptabilisée avec les mots-clés non disponibles. [Plus...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>Pour les recherches payantes et naturelles, les moteurs de recherche ont cessé de fournir (dans la plupart des cas) les mots-clés de recherche dans le cadre du référent. Par conséquent, Adobe classe toujours le domaine Google (ou Bing ou Yahoo) comme recherche. En fonction du format et du contenu du référent (même sans les mots-clés), Adobe peut souvent déterminer qu’il s’agit du résultat d’une recherche. La recherche est donc comptabilisée avec les mots-clés non disponibles. [Plus...](https://helpx.adobe.com/fr/analytics/kb/keyword-unavailable.html)
 
 ## Attribution, expiration et valeurs spéciales {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -62,7 +62,7 @@ Affiche une ventilation des mots-clés de recherche.
  </tbody> 
 </table>
 
-## Historique des rapports {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## Historique des rapports  {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 | Date | Changement |
 |---|---|
