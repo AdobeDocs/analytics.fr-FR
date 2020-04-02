@@ -3,7 +3,7 @@ description: Le Créateur de segments propose un canevas permettant de faire gli
 title: Création de segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Créateur de segments
 
-The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. Cet outil de développement intégré vous permet de créer et d’enregistrer des segments simples ou complexes qui identifient les attributs et actions des visiteurs entre les visites et accès aux pages.
+Le [!UICONTROL Créateur de segments] propose un canevas permettant de faire glisser et de déposer des mesures, des dimensions, des segments et des événements afin de segmenter les visiteurs en fonction d’opérateurs, de règles et d’une logique de hiérarchie de conteneurs. Cet outil de développement intégré vous permet de créer et d’enregistrer des segments simples ou complexes qui identifient les attributs et actions des visiteurs entre les visites et accès aux pages.
 
 >[!IMPORTANT]
 >
@@ -19,17 +19,17 @@ The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dim
 
 Il existe plusieurs façons d’accéder au Créateur de segments :
 
-* **Volet de navigation supérieur d’Analytics** : cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Segments]**.
-* **[!UICONTROL Analysis Workspace]** : cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Espace de travail]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** &gt; **[!UICONTROL Créer un segment]**.
-* **[!UICONTROL Reports &amp; Analytics]** : Cliquez sur **[!UICONTROL Analytics]** &gt; **[!UICONTROL Rapports]**, ouvrez un rapport existant et cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche, puis sur **[!UICONTROL Ajouter]**.
-* **[!UICONTROL Ad Hoc Analysis]** : [Créer des segments dans les Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
-* **[!UICONTROL Report Builder]** : [Ajouter ou modifier des segments dans Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
+* **Volet de navigation supérieur d’Analytics** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Segments]**.
+* **[!UICONTROL Analysis Workspace]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** > **[!UICONTROL Créer un segment]**.
+* **[!UICONTROL Reports &amp; Analytics]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, ouvrez un rapport existant et cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche, puis sur **[!UICONTROL Ajouter]**.
+* **[!UICONTROL Ad Hoc Analysis]** : [créer des segments dans Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
+* **[!UICONTROL Report Builder]** : [ajouter ou modifier des segments dans le créateur de segments](https://marketing.adobe.com/resources/help/fr_FR/arb/segmentation.html).
 
 ## Interface utilisateur du Créateur de segments {#concept_643F2DF74C544796B58F4656ABC5F726}
 
 Le [!UICONTROL Créateur de segments] permet de créer des segments simples ou complexes qui identifient les attributs et actions des visiteurs lors des visites et accès aux pages. Il offre un canevas permettant de faire glisser et de déposer des dimensions de mesure, des événements ou d’autres segments afin de segmenter les visiteurs selon une logique de hiérarchie, des règles et des opérateurs.
 
-## Fonctionnalités de l’interface utilisateur Web {#section_F61C4268A5974C788629399ADE1E6E7C}
+## Fonctionnalités de l’interface utilisateur Web  {#section_F61C4268A5974C788629399ADE1E6E7C}
 
 Le [!UICONTROL Créateur de segments] permet de créer et de modifier des segments dans l’interface utilisateur Web (ou dans une [interface utilisateur Java des analyses ad hoc](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)). Vous pouvez ajouter des définitions de règle et des conteneurs afin d’affiner vos segments en les empilant et les imbriquant. Vous pouvez également valider le nombre de pages vues, de visites et de visiteurs uniques qui a résulté de votre définition de segment active. Le segment pourra alors être enregistré en vue d’une utilisation ultérieure.
 
@@ -55,9 +55,9 @@ Accédez au Créateur de segments en procédant comme suit ::
 
 1. **[!UICONTROL Modèles d’attribution]** : pour la segmentation des dimensions. Les modèles de dimension sont particulièrement utiles pour la segmentation séquentielle, comme dans ceux qui prennent en charge les visualisations de flux :
 
-   * **[!UICONTROL Répétition]** (par défaut) : Inclut des instances et des valeurs persistantes pour la dimension.
-   * **[!UICONTROL Instance]**: Inclut des instances pour la dimension.
-   * **[!UICONTROL Instance]** non répétée : Inclut des instances uniques (non répétées) pour la dimension.
+   * **[!UICONTROL Répétition]** ((par défaut )) : inclut des instances et des valeurs persistantes pour la dimension.
+   * **[!UICONTROL Instance]** : inclut des instances pour la dimension.
+   * **[!UICONTROL Instance non répétée]** : inclut des instances uniques (non répétées) pour la dimension.
    ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL Dimensions]** : les dimensions sont glissées et déposées depuis la liste Dimensions (barre latérale orange).
@@ -75,7 +75,7 @@ Accédez au Créateur de segments en procédant comme suit ::
 1. **[!UICONTROL Segments]** : cliquez sur l’en-tête pour développer la liste.
 1. **[!UICONTROL Sélecteur de suite de rapports]** : permet de sélectionner la suite de rapports sous laquelle ce segment sera enregistré. Vous pouvez tout de même utiliser le segment dans toutes les suites de rapport.
 1. **[!UICONTROL Aperçu de segments]** : permet de prévisualiser les mesures clés afin de vérifier que votre segment est valide et consulter sa largeur. Représente la ventilation du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Affiche 3 cercles concentriques et une liste afin d’afficher le nombre et le pourcentage de correspondances pour [!UICONTROL Accès], [!UICONTROL Visites] et [!UICONTROL Visiteurs] pour une exécution de segment par rapport à un jeu de données. Ce graphique est mis à jour immédiatement une fois que vous avez créé ou apporté des modifications à votre définition de segment.
-1. **[!UICONTROL Compatibilité des produits]** : fournit une liste des produits Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Néanmoins, tous les opérateurs et dimensions ne sont pas compatibles avec l’ensemble des produits Analytics, notamment [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
+1. **[!UICONTROL Compatibilité des produits]** : fournit une liste des produits Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Néanmoins, tous les opérateurs et dimensions ne sont pas compatibles avec l’ensemble des produits Analytics, notamment  [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
 
 Les segments avec des plages de dates incorporées fonctionnent toujours différemment dans Analysis Workspace par rapport au composant [!UICONTROL Reports &amp; Analytics] : dans Workspace, un segment avec une plage de dates incorporée remplace la plage de dates du panneau. En revanche, le composant [!UICONTROL Reports &amp; Analytics] indique l’intersection de la plage de dates du rapport avec la plage de dates incorporée du segment.
 
@@ -105,7 +105,7 @@ Les segments avec des plages de dates incorporées fonctionnent toujours différ
 1. Saisissez ou sélectionnez une valeur pour l’élément sélectionné.
 1. Ajoutez des conteneurs supplémentaires, le cas échéant, en utilisant les règles **[!UICONTROL Et]**, **[!UICONTROL Ou]** ou **[!UICONTROL Alors]**.
 1. Après avoir placé les conteneurs et défini les règles, consultez les résultats du segment dans le graphique de validation dans la partie supérieure droite. Le programme de validation indique le pourcentage et le nombre absolu de pages vues, de visites et de visiteurs uniques qui correspondent au segment que vous avez créé.
-1. Sous **[!UICONTROL Balises]**, [marquez](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md) le conteneur en sélectionnant une balise existante ou en en créant une.
+1. Sous **[!UICONTROL Balises]**,  [marquez](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md) le conteneur en sélectionnant une balise existante ou en en créant une nouvelle.
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le segment.
 
 Vous accédez maintenant au [Gestionnaire de segments](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md), où vous pouvez marquer, partager et gérer votre segment de différentes manières.
@@ -114,7 +114,7 @@ Vous accédez maintenant au [Gestionnaire de segments](/help/components/c-segmen
 
 Vous pouvez [créer une structure de conteneurs](/help/components/c-segmentation/seg-overview.md) et y placer des règles logiques et des opérateurs.
 
-1. Cliquez sur **[!UICONTROL Options &gt; Ajouter un conteneur]**.
+1. Cliquez sur **[!UICONTROL Options > Ajouter un conteneur]**.
 
    ![](assets/add_container.png)
 
@@ -124,11 +124,11 @@ Vous pouvez [créer une structure de conteneurs](/help/components/c-segmentation
 
 1. Modifiez le type de conteneur, le cas échéant.
 1. Faites glisser une dimension, un segment ou un événement depuis le panneau de gauche vers le conteneur.
-1. Continuez à ajouter des conteneurs à partir du bouton de niveau supérieur **[!UICONTROL Options]** &gt; **[!UICONTROL Ajouter un conteneur]** situé en haut de la définition ou ajouter des conteneurs depuis un conteneur pour imbriquer la logique.
+1. Continuez à ajouter des conteneurs à partir du bouton de niveau supérieur **[!UICONTROL Options]** > **[!UICONTROL Ajouter un conteneur]** situé en haut de la définition ou ajoutez des conteneurs depuis un conteneur pour imbriquer la logique.
 
    **OU**
 
-   Sélectionnez une ou plusieurs règles, puis cliquez sur **[!UICONTROL Options]** &gt; **[!UICONTROL Ajouter un conteneur d’après la sélection]**. Votre sélection devient ainsi un conteneur distinct.
+   Sélectionnez une ou plusieurs règles, puis cliquez sur **[!UICONTROL Options]** > **[!UICONTROL Ajouter un conteneur d’après la sélection]**. Votre sélection devient ainsi un conteneur distinct.
 
 ## Utiliser des périodes dans les segments {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
