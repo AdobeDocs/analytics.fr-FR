@@ -3,7 +3,7 @@ description: La fidélité de la clientèle révèle les modèles d’achat des 
 title: Fidélité de la clientèle
 topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ Bien que ce rapport affiche également des mesures n’ayant pas de lien avec le
 
 **Traitement de la fidélité de la clientèle**
 
-Les tableaux suivants illustrent de quelle façon Analysis Workspace, les Reports &amp; Analytics, les Ad Hoc Analysis et Data Warehouse traitent actuellement la fidélisation des clients :
+Les tableaux suivants illustrent de quelle façon Analysis Workspace, les Reports &amp; Analytics, les Ad Hoc Analysis et Data Warehouse traitent actuellement la fidélisation des clients :
 
 <table id="table_E6A5CA96BE5C47F29F09688A4D41BC60"> 
  <thead> 
