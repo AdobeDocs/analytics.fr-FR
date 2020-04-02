@@ -3,7 +3,7 @@ description: Les taux de conversion mesurent généralement la conversion entre 
 title: Entonnoir de conversion
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
