@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Importation navigateur
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Vous pouvez importer (télécharger) des données de classification à l’aide 
 
 Vous pouvez importer (télécharger) des données de classification à l’aide du navigateur. Cette méthode limite le téléchargement des données de classification à une seule suite de rapports.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**
+**[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**
 
 ## Classifications – Importation navigateur – Description des champs {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -61,7 +61,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**.
+1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 1. Cliquez sur **[!UICONTROL Importer un fichier]**.
 1. Configurez les champs **[!UICONTROL Importation navigateur]**.
 1. Cliquez sur **[!UICONTROL Importer un fichier]**.
