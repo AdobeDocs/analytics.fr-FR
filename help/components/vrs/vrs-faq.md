@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Questions fréquentes sur les suites de rapports virtuelles
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
@@ -60,11 +60,11 @@ Cette section contient des conseils et des bonnes pratiques à l’intention des
   </tr> 
   <tr> 
    <td colname="col1"> <b> J’ai coché « démarrer une nouvelle visite au lancement ». Pourquoi les visites sont-elles toujours beaucoup plus élevées que les lancements ?</b> </td> 
-   <td colname="col2"> <p> Lorsque l’option "Démarrer une nouvelle visite au lancement" est cochée, le délai d’expiration s’applique toujours. Ainsi, si un utilisateur utilise l’application pendant dix minutes avec une pause d’une minute entre chaque action, une nouvelle visite commence au lancement, puis neuf visites supplémentaires sont créées lorsque la visite expire. Pour que les lancements et les visites restent aussi proches que possible lorsque vous utilisez l’option "Démarrer une nouvelle visite au lancement", vous devez utiliser un délai d’expiration plus long que le délai d’expiration de session défini dans le SDK. </p> </td> 
+   <td colname="col2"> <p> Lorsque « Démarrer une nouvelle visite au lancement » est cochée, le délai d’expiration s’applique toujours. Ainsi, si un utilisateur utilise l’application pendant dix minutes avec une pause d’une minute entre chaque action, une nouvelle visite commence au lancement, puis neuf visites supplémentaires sont créées lorsque la visite expire. Pour que les lancements et les visites soient aussi proches que possible lors de l’utilisation de l’option « Démarrer une nouvelle visite au lancement », vous devez utiliser un délai d’expiration supérieur au délai d’expiration de la session défini dans le SDK. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> J’ai défini « démarrer une nouvelle visite au lancement » et un délai d’expiration plus long que celui de mon SDK. Pourquoi mes lancements sont-ils toujours largement inférieurs aux visites ?</b> </td> 
-   <td colname="col2"> <p> Si le délai d’expiration est supérieur à la valeur définie dans le SDK, il est très probable que votre application envoie des accès en arrière-plan et que ces accès soient enregistrés en tant que nouvelles visites. Vérifiez cela en utilisant la dimension de type accès de la suite de rapports parente pour voir s’il existe des accès en arrière-plan. </p> <p> <p>Remarque : Les accès en arrière-plan et de premier plan sont différenciés uniquement dans les versions 4.13.6 et supérieures du SDK. Si vous utilisez une version inférieure, tous les accès s’affichent en premier plan. Si vous utilisez la version correcte du SDK, vous devez activer le paramètre "Empêcher les accès en arrière-plan de lancer une nouvelle visite". </p> </p> <p> <p>Remarque : Si vous avez désactivé le traitement hérité pour les accès en arrière-plan dans Admin Console, ils n’apparaîtront pas dans la suite de rapports parente mais apparaîtront dans la suite de rapports virtuelle. </p> </p> </td> 
+   <td colname="col2"> <p> Si le délai d’expiration est supérieur à la valeur définie dans le SDK, il est très probable que votre application envoie des accès en arrière-plan et que ces accès soient enregistrés en tant que nouvelles visites. Vérifiez cela en utilisant la dimension de type accès de la suite de rapports parente pour voir s’il existe des accès en arrière-plan. </p> <p> <p>Remarque : Les accès en arrière-plan et de premier plan sont différenciés uniquement dans les versions 4.13.6 et supérieures du SDK. Si vous utilisez une version inférieure, tous les accès s’affichent en premier plan. Si vous utilisez la version correcte du SDK, vous devez activer le paramètre « Empêcher les accès en arrière-plan de commencer une nouvelle visite ». </p> </p> <p> <p>Remarque : Si vous avez désactivé le traitement hérité pour les accès en arrière-plan dans Admin Console, ils n’apparaîtront pas dans la suite de rapports parente mais apparaîtront dans la suite de rapports virtuelle. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> Quelle version du SDK dois-je avoir pour effectuer le suivi des accès en arrière-plan ?</b> </td> 
