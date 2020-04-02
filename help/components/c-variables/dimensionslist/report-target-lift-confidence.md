@@ -2,7 +2,7 @@
 description: Vous permet d’évaluer le succès des campagnes dans Adobe Analytics comme vous le faisiez auparavant dans Target Classic.
 title: Effet élévateur et degré de confiance Target
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Vous permet d’évaluer le succès des campagnes dans Adobe Analytics comme vous le faisiez auparavant dans [!DNL Target Classic].
 
-**[!UICONTROL Analyses]** &gt; **[!UICONTROL Rapports]** &gt; **[!UICONTROL Afficher tous les rapports]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics pour Target]** &gt; **[!UICONTROL Activités Target]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** > **[!UICONTROL Afficher tous les rapports]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics pour Target]** > **[!UICONTROL Activités cibles]** .
 
-Vous trouverez dans la documentation d’Adobe Target d’autres informations sur l’[Effet élévateur](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) et le [Degré de confiance](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html).
+Vous trouverez dans la documentation d’Adobe Target d’autres informations sur l’[Effet élévateur](https://marketing.adobe.com/resources/help/fr_FR/target/target/c_estimating_lift_in_revenue.html) et le [Degré de confiance](https://marketing.adobe.com/resources/help/fr_FR/rec/c_Confidence_Level_and_Confidence_Interval.html).
 
 Pour calculer l’effet élévateur et le degré de confiance :
 
@@ -25,7 +25,7 @@ Pour calculer l’effet élévateur et le degré de confiance :
 
 1. Le rapport ajoute ces mesures, y compris le rapport entre la mesure et la mesure de normalisation.
 
-## Paramètres des rapports {#section_3508439E09CA4E38B2EA309BA477C01D}
+## Paramètres des rapports  {#section_3508439E09CA4E38B2EA309BA477C01D}
 
 ![](assets/lift_confidence_ui.png)
 
