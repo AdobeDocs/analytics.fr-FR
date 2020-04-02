@@ -3,7 +3,7 @@ description: Regroupe le trafic web selon le système d’exploitation utilisé 
 title: Systèmes d’exploitation
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ Les systèmes d’exploitation mobiles et de bureau s’affichent sur ce rapport
 
 Ce rapport utilise les données dynamiques de périphérique qui sont continuellement mises à jour lorsque de nouveaux périphériques sont mis sur le marché et identifiés. Par exemple, une nouvelle tablette sortie au cours du mois en cours peut être mal identifiée, car elle n’existe pas encore dans la base de données des périphériques. Lorsque la base de données des périphériques est mise à jour avec le nouveau périphérique, toutes les modifications qui en résultent sont appliquées à toutes les dates de création de rapports. De ce fait, vous pourrez constater de légères variations sur ce rapport pour les dates historiques dans le temps. En règle générale, le rapport le plus à jour comporte les données les plus exactes pour une période de création de rapports.
 
-## Modifications {#section_B028CE3DDDC4401FA0609F908885A5DD}
+## Modifications  {#section_B028CE3DDDC4401FA0609F908885A5DD}
 
 <table id="table_82084301B1044103BB3B293595BC86BD"> 
  <thead> 
