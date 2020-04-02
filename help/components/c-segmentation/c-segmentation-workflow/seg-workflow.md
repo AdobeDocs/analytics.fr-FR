@@ -3,7 +3,7 @@ description: Décrit un processus suggéré pour les segments créés par le Cr�
 title: Workflow de segmentation - Aperçu
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,13 +30,13 @@ seg_workflow.xml
 
 Avez-vous posé toutes les questions appropriées avant de créer des segments et de configurer un environnement de gestion des segments ? Avez-vous conçu le segment en gardant à l’esprit son objectif prévu et son utilisation spécifique ?
 
-Voir la  liste de contrôle de la planification des segments pour obtenir de l’aide lors de la planification et de l’organisation de vos segments.
+Voir la   liste de contrôle de la planification des segments pour obtenir de l’aide lors de la planification et de l’organisation de vos segments.
 
-![](assets/step2_icon.png) [Créer des segments](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)
+![](assets/step2_icon.png) [Création de segments](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)
 
 Créez et modifiez des segments pour une utilisation dans toutes les fonctionnalités d’Analytics.
 
-Voir [Créer des segments séquentiels](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) pour voir comment créer des segments avec l’opérateur ALORS.
+Voir  [Créer des segments séquentiels](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) pour voir comment créer des segments avec l’opérateur ALORS.
 
 ![](assets/step3_icon.png) [ Balisage des segments](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
 
@@ -50,7 +50,7 @@ Approuvez les segments pour les rendre canoniques.
 
 Vous pouvez appliquer des segments directement depuis un rapport, à partir du rail de segments (Afficher segments).
 
-![](assets/step6_icon.png) [ Partager des segments](/help/components/c-segmentation/c-segmentation-workflow/t-seg-share.md)
+![](assets/step6_icon.png) [ Partage des segments](/help/components/c-segmentation/c-segmentation-workflow/t-seg-share.md)
 
 Partagez vos segments avec l’audience prévue dans d’autres outils d’Analytics et avec Adobe Target et Adobe Experience Cloud.
 
