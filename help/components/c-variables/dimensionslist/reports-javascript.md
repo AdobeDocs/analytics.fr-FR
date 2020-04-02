@@ -3,7 +3,7 @@ description: Affiche des mesures selon que JavaScript est activé, désactivé o
 title: Prise en charge de JavaScript
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
