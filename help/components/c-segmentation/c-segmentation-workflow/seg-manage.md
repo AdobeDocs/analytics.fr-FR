@@ -3,7 +3,7 @@ description: Le Gestionnaire de segments offre plusieurs manières d’organiser
 title: Gestion des segments
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,14 +15,14 @@ Le Gestionnaire de segments offre plusieurs manières d’organiser les segments
 
 Le Gestionnaire de segments Analytics vous présente tous les segments que vous possédez et qui ont été partagés avec vous. Les utilisateurs de niveau administrateur peuvent consulter tous les segments de l’entreprise. Cet aperçu présente l’interface utilisateur et les fonctionnalités du Gestionnaire de segments. Accédez au Gestionnaire de segments en procédant comme suit :
 
-* Sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** &gt; **[!UICONTROL Segments]** dans le volet de navigation supérieur.
+* Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Segments]** dans le volet de navigation supérieur.
 * Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**.
 
 ## Vidéo pratique {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Cette [vidéo YouTube d’Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&index=6&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) explique brièvement comment utiliser le Gestionnaire de segments.
+Cette [vidéo YouTube d’Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) explique brièvement comment utiliser le Gestionnaire de segments.
 
-## Interface utilisateur du Gestionnaire de segments {#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## Interface utilisateur du Gestionnaire de segments  {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
