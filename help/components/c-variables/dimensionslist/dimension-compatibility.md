@@ -1,7 +1,7 @@
 ---
 title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -9,17 +9,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Compatibilité des dimensions Analytics
 
-Cet article de référence répertorie les dimensions/rapports pris en charge dans les rapports et analyses et Analysis Workspace, dans Analysis Workspace uniquement et dans les rapports et analyses uniquement.
+Cet article de référence répertorie les dimensions/rapports pris en charge à la fois dans Reports &amp; Analytics et dans Analysis Workspace, dans Analysis Workspace uniquement et dans Reports &amp; Analytics uniquement.
 
 Gardez à l’esprit les éléments suivants.
 
 * Ces listes ne sont pas exhaustives. Chaque suite de rapports peut ou non avoir un ensemble donné de variables de produit activées. En outre, toute suite de rapports donnée peut comporter un nombre quelconque de variables personnalisées activées ou désactivées ou mappées à des variables de produit. Nous avons également omis les attributs et classifications des visiteurs, car ils sont uniques pour chaque suite de rapports.
 
-* There are some cases of overlap, where Analytics tools use different terms for what is essentially the same thing, for example: `browserwidth` and `browserwidthbucketed`.
+* Il existe quelques cas de chevauchement pour lesquels les outils d’Analytics utilisent des termes différents pour ce qui est essentiellement la même chose, par exemple : « `browserwidth` » et « `browserwidthbucketed` ».
 
 ## Dimensions prises en charge à la fois dans Reports &amp; Analytics et Analysis Workspace
 
-| Nom de dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
+| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |---|---|
 | Analytics pour Target | targetraw |
 | ID Audiences | mcaudiences |
@@ -44,7 +44,7 @@ Gardez à l’esprit les éléments suivants.
 | Lien de sortie | exitlink |
 | Canal Première touche | firsttouchchannel |
 | Détails du canal Première touche | firsttouchchanneldetail |
-| Java activé | javaenabled |
+| Compatible Java | javaenabled |
 | Langue | language |
 | Canal Dernière touche | lasttouchchannel |
 | Détails du canal Dernière touche | lasttouchchanneldetail |
@@ -68,7 +68,7 @@ Gardez à l’esprit les éléments suivants.
 | Résolution de l’écran | monitorresolution |
 | Systèmes d’exploitation | operatingsystem |
 | Domaine référent initial | referringdomainoriginal |
-| Activity Map | page |
+| Page | page |
 | Pages introuvables | pagesnotfound |
 | Produit | product |
 | Référent | referrer |
@@ -216,7 +216,7 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 * Types de systèmes d’exploitation
 * Profondeur de page
 * Résumé de la page
-* PathFinder
+* Pathfinder
 * Flux Page précédente
 * Page précédente
 * PTT
@@ -358,14 +358,14 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 | AMO EF ID | amo_ef_id |
 | ID AMO | amo_cid |
 
-### Activity Map 
+### Activity Map
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Lien d’Activity Map par région | clickmaplinkbyregion |
 | Région d’Activity Map | clickmapregion |
 | Lien d’Activity Map | clickmaplink |
-| Page Activity Map | clickmappage |
+| Activity Map  Page | clickmappage |
 
 ### Intégration Nielsen
 
