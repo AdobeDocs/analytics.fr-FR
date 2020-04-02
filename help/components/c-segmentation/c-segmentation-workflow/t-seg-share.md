@@ -3,7 +3,7 @@ description: Selon vos autorisations, vous pouvez partager des segments avec l�
 title: Partage des segments
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Selon vos autorisations, vous pouvez partager des segments avec l’ensemble de l’entreprise, des groupes ou des utilisateurs individuels.
 
-| Administrateur | Peut partager des segments avec l’ensemble de l’entreprise, avec des groupes et avec des utilisateurs. Les groupes sont configurés en tant que groupes d’autorisations dans la console d’administration. |
+| Administrateur | Peut partager des segments avec l’ensemble de l’entreprise, avec des groupes et avec des utilisateurs. Les groupes sont configurés en tant que groupes d’autorisations dans la Admin Console. |
 |---|---|
 | Non administrateur | Peut partager les segments uniquement avec des utilisateurs individuels. |
 
@@ -36,4 +36,4 @@ Selon vos autorisations, vous pouvez partager des segments avec l’ensemble de 
 
    L’icône Partagé s’affiche en regard du segment : ![](assets/share_icon.png)
 
-1. Vous pouvez filtrer par segments partagés avec vous en accédant à **[!UICONTROL Filtres]** &gt; **[!UICONTROL Autres filtres]** &gt; **[!UICONTROL Partagés avec moi]**.
+1. Vous pouvez filtrer par segments partagés avec vous en accédant à **[!UICONTROL Filtres]** > **[!UICONTROL Autres filtres]** > **[!UICONTROL Partagés avec moi]**.
