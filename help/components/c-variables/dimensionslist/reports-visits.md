@@ -3,7 +3,7 @@ description: Affiche le nombre de visites effectuées sur l’ensemble de votre 
 title: Visites
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,12 +21,12 @@ Affiche le nombre de visites effectuées sur l’ensemble de votre site web au c
 * Une visite débute par la première demande d’image en provenance d’un nouveau visiteur ou l’expiration de la visite d’un utilisateur existant. Cela peut être identifié comme étant la page d’entrée.
 * La fin d’une visite est la dernière demande d’image avant l’expiration d’une visite. Cela peut être identifié comme étant la page de sortie.
 
-   Voir [Rapports Entrées et Sorties](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
+   Voir  [Rapports Entrées et Sorties](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * Les ventilations horaires sont basées sur le fuseau horaire de la suite de rapports.
 * Ce rapport ne contient pas d’éléments. Il ne peut être visualisé qu’au format « tendance ».
 * Vous pouvez appliquer une granularité horaire, quotidienne, hebdomadaire, mensuelle, trimestrielle et annuelle. Ces paramètres de granularité sont disponibles en fonction de la plage de dates des rapports.
 
-Voir [Mesure Visite](/help/components/c-variables/c-metrics/metrics-visit.md) pour plus d’informations sur la manière dont Experience Cloud traite cette mesure.
+Voir  [Mesure Visite](/help/components/c-variables/c-metrics/metrics-visit.md) pour plus d’informations sur la manière dont Experience Cloud traite cette mesure.
 
 **Informations sur les rapports propres au produit**
 
