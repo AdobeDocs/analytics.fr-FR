@@ -1,8 +1,8 @@
 ---
-description: Les sessions contextuelles dans les suites de rapports virtuelles modifient la manière dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
+description: Les sessions contextuelles dans les suites de rapports virtuelles modifient la façon dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
 title: Sessions contextuelles
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,19 +10,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Sessions contextuelles
 
-Les sessions contextuelles dans les suites de rapports virtuelles modifient la manière dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
+Les sessions contextuelles dans les suites de rapports virtuelles modifient la façon dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
 
 Vous pouvez définir une visite comme vous le souhaitez sans modifier les données sous-jacentes, afin de correspondre à la façon dont vos visiteurs interagissent avec vos applications mobiles.
 
-## Paramètre de l’URL de la perspective client {#section_8B298006362341E3AC16A148422D1F65}
+## Paramètre de l’URL de la perspective client  {#section_8B298006362341E3AC16A148422D1F65}
 
 Le processus de collecte de données Adobe Analytics permet de définir un paramètre de chaîne de requête indiquant la perspective client (appelé paramètre de chaîne de requête « cp »). Ce champ indique l’état de l’application numérique de l’utilisateur final. Il permet de savoir si un accès a été généré alors qu’une application mobile était dans un état d’arrière-plan.
 
-## Traitement des accès en arrière-plan {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
+## Traitement des accès en arrière-plan  {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
 
 Un accès en arrière-plan est un type d’accès envoyé à Analytics depuis le SDK Adobe Mobile version 4.13.6 (et supérieure) lorsque l’application émet une demande de suivi dans un état d’arrière-plan. Des exemples types incluent :
 
-* Données envoyées lors d’une croisement de géo-barrières
+* Données envoyées lors d’un croisement de géo-barrières
 * Une interaction de notification Push
 
 Les exemples suivants décrivent la logique utilisée pour déterminer quand une visite commence et se termine pour un visiteur lorsque le paramètre « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est ou n’est pas activé pour une suite de rapports virtuelle.
@@ -115,15 +115,15 @@ De même, si une série d’accès en arrière-plan se produit avant une série 
 
 Les accès en arrière-plan se comportent de cette manière afin de conserver les effets d’affectation provenant des eVars ou d’autres variables définies lors des accès en arrière-plan. Cela permet d’affecter des événements de conversion de premier plan en aval à des actions entreprises lorsqu’une application se trouvait à l’état d’arrière-plan. Cela permet également à un conteneur de segments de visite d’inclure des accès en arrière-plan qui ont abouti à une session de premier plan en aval, ce qui est utile pour mesurer l’efficacité des messages push.
 
-## Comportement de la mesure des visites {#section_50B82618A39B454493B33B1450CCBD3E}
+## Comportement de la mesure des visites  {#section_50B82618A39B454493B33B1450CCBD3E}
 
 Le nombre de visites est basé uniquement sur le nombre de visites comprenant au moins un accès de premier plan. Cela signifie que les accès en arrière-plan orphelins ou les « visites en arrière-plan » ne sont pas prises en compte dans la mesure des visites.
 
-## Temps passé par comportement de la mesure des visites {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
+## Temps passé par comportement de la mesure des visites  {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
 
 Le temps passé est toujours calculé d’une manière analogue à la façon dont il l’est sans accès en arrière-plan, en utilisant le temps entre les accès. Néanmoins, si une visite inclut des accès en arrière-plan (car ils se sont produits suffisamment proches des accès de premier plan), ces accès sont inclus dans le calcul du temps passé par visite comme s’il s’agissait d’accès de premier plan.
 
-## Paramètres du traitement des accès en arrière-plan {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
+## Paramètres du traitement des accès en arrière-plan  {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
 
 Comme le traitement des accès en arrière-plan est uniquement disponible pour les suites de rapports virtuelles utilisant le paramètre Reporter le traitement du temps, Adobe Analytics prend en charge deux méthodes de traitement des accès en arrière-plan afin de conserver les nombres de visites dans la suite de rapports de base (parente) qui n’utilise pas le paramètre Reporter le traitement du temps. Pour accéder à ce paramètre, accédez à l’Admin Console d’Adobe Analytics, puis aux paramètres de la suite de rapports de base applicable, puis au menu « Gestion mobile », et enfin au sous-menu « Rapports d’applications mobiles ».
 
@@ -134,6 +134,6 @@ Comme le traitement des accès en arrière-plan est uniquement disponible pour l
 
 Dans les deux cas, les accès en arrière-plan sont facturés au même coût que tout autre accès envoyé à Analytics.
 
-## Démarrage de nouvelles visites à chaque lancement d’une application {#section_9DA9A8B9758248A6B311EFBA06AECA80}
+## Démarrage de nouvelles visites à chaque lancement d’une application  {#section_9DA9A8B9758248A6B311EFBA06AECA80}
 
 En plus du traitement des accès en arrière-plan, les suites de rapports virtuelles peuvent forcer une nouvelle visite à démarrer chaque fois que le SDK Mobile envoie un événement de lancement d’une application. Lorsque ce paramètre est activé, chaque fois qu’un événement de lancement d’une application est envoyé à partir du SDK, ce dernier force le démarrage d’une nouvelle visite, qu’une visite ouverte ait atteint son délai ou non. L’accès contenant l’événement de lancement d’une application est inclus comme premier accès lors de la prochaine visite, incrémente le nombre de visites et crée un conteneur de visites distinct pour la segmentation.
