@@ -3,7 +3,7 @@ description: Les mesures sont la base des rapports ; elles vous aident à conna
 title: Mesures - Aperçu
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,4 +17,4 @@ Les mesures et les données associées s’affichent dans les colonnes des rappo
 
 Voici un aperçu des [mesures Analytics standard](/help/components/c-variables/c-metrics/metrics-overview.md).
 
-[Les mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) sont créées en combinant des mesures.
+[Les mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/) sont créées en combinant des mesures.
