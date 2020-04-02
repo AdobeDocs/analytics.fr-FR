@@ -3,7 +3,7 @@ description: Affiche des informations sur l’accès aux sites web depuis un app
 title: Mobile
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -83,7 +83,7 @@ Les rapports pour mobiles suivants sont disponibles :
    <td colname="col2"> <p> Groupe les appareils mobiles en fonction des protocoles réseau (GPRS, CSD, EDGE, HSCSD, etc.) qu’ils prennent en charge. Le rapport inclut également un groupe Inconnu pour les protocoles réseau non identifiés. </p> <p>Lorsqu’un visiteur accède à votre site sur un appareil mobile, le rapport Protocoles réseau est incrémenté d’au moins une unité. Si le téléphone prend en charge plusieurs protocoles réseau, chacun de ces groupes du rapport est incrémenté. La somme des groupes peut donc être supérieure au total affiché au bas du rapport. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Système d’exploitation (obsolète) </td> 
+   <td colname="col1"> Système d’exploitation  (obsolète) </td> 
    <td colname="col2"> <p> Groupe les appareils mobiles en fonction du système d’exploitation mobile du périphérique. Les systèmes d’exploitation mobiles comprennent Windows, RIM, iOS, Symbian, etc. Le rapport inclut également un groupe Inconnu pour les systèmes d’exploitation mobiles non identifiés. </p> <p>Remarque : Ce rapport est devenu obsolète lorsque le rapport Technologie &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  >Systèmes d’exploitation</a> a été mis à jour pour inclure tous les systèmes d’exploitation, y compris les systèmes d’exploitation mobiles. Vous pouvez créer un segment dans lequel « appareil mobile » existe et l’appliquer au rapport Technologie &gt; Systèmes d’exploitation pour n’afficher que les systèmes d’exploitation mobiles. </p> </td> 
   </tr> 
   <tr> 
