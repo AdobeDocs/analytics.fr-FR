@@ -2,7 +2,7 @@
 description: Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’une mesure, vous pouvez spécifier le type de mesure et le modèle d’attribution.
 title: Type de mesure et attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,25 +22,25 @@ Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’u
 
 | Type de mesure | Définition |
 |---|---|
-| Standard | These metrics are the same metrics used in standard [!DNL Analytics] reporting. Si une formule est composée d’une seule mesure standard, elle affiche des données identiques à sa contrepartie de mesure non calculée. Les mesures standard sont utiles pour créer des mesures calculées spécifiques à chaque ligne. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item. |
-| Total | Utilisez le total correspondant à la période de création de rapports de chaque ligne. Si une formule est composée d’un nombre total de mesures unique, elle affiche le même nombre total sur chaque ligne. Le nombre total de mesures est utile pour la création de mesures calculées qui sont comparées au nombre total de données du site. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item. |
+| Standard | Ces mesures sont les mêmes mesures que celles utilisées dans la création de rapports standard [!DNL Analytics]. Si une formule est composée d’une seule mesure standard, elle affiche des données identiques à sa contrepartie de mesure non calculée. Les mesures standard sont utiles pour créer des mesures calculées spécifiques à chaque ligne. Par exemple, [Commandes] / [Visites] utilise des commandes pour cette ligne spécifique et la divise par le nombre de visites correspondant à cette ligne spécifique. |
+| Total | Utilisez le total correspondant à la période de création de rapports de chaque ligne. Si une formule est composée d’un nombre total de mesures unique, elle affiche le même nombre total sur chaque ligne. Le nombre total de mesures est utile pour la création de mesures calculées qui sont comparées au nombre total de données du site. Par exemple, [Commandes] / [Nombre total de visites] affiche la proportion des commandes par rapport à TOUTES les visites sur votre site, et non juste les visites sur la ligne spécifique objet. |
 
 ## Modèle d’attribution de colonnes {#section_F9690FD1943B403AB28E2FAC54EFE032}
 
 >[!IMPORTANT]
 >
->In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
+>En juillet 2018, [!DNL Analytics] a ajouté la nouvelle fonctionnalité [Attribution IQ](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/attribution.html), qui a revu la manière dont les modèles d’attribution dans les mesures calculées sont évalués. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
 >
->* Pour obtenir la liste complète des modèles d’attribution qui ne sont pas par défaut et les intervalles de recherche en amont pris en charge, consultez la documentation d’[Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html).
->* Les modèles d’attribution "Dernière touche du canal marketing" et "Première touche du canal marketing" seront migrés respectivement vers les nouveaux modèles d’attribution "Dernière touche" et "Première touche" (Remarque : Les "canaux marketing" ne seront pas abandonnés ; seuls les deux modèles d’attribution qui apparaissent dans les mesures calculées le seront).
->* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution "linéaires", les rapports peuvent légèrement changer pour refléter le nouveau modèle d’attribution corrigé. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Pour plus d’informations, voir la section [Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Pour obtenir la liste complète des modèles d’attribution qui ne sont pas par défaut et les intervalles de recherche en amont pris en charge, consultez la documentation d’[Attribution IQ](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/attribution.html).
+>* Les modèles d’attribution « Dernière touche canal marketing » et « Première touche canal marketing » seront migrés vers les nouveaux modèles d’attribution « Dernière touche » et « Première touche », respectivement. (Remarque : les rapports « Canaux marketing » ne seront pas obsolètes, seuls les deux modèles d’attribution qui apparaissent dans les mesures calculées le seront.)
+>* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. Cette modification des mesures calculées sera reflétée dans Analysis Workspace, [!UICONTROL Reports &amp; Analytics], l’API de création de rapports, Report Builder et Ad Hoc Analysis. Pour plus d’informations, voir la section [Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 >
 
 
 
-## Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
+## Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018)  {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-En juillet 2018, Adobe a modifié la manière dont l’attribution linéaire est rapportée pour les mesures calculées. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. Elle concernera essentiellement les eVars et autres dimensions présentant une persistance. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
+En juillet 2018, Adobe a modifié la manière de générer des rapports sur l’affectation linéaire pour les mesures calculées. Cette modification a un impact sur Analysis Workspace, sur l’Ad Hoc Analysis, sur les [!UICONTROL Reports &amp; Analytics], sur le Report Builder, sur Activity Map et sur les API de création de rapports. Elle concernera essentiellement les eVars et autres dimensions présentant une persistance. Notez que ces changements s’appliqueront uniquement aux mesures calculées et n’auront pas d’impact sur les autres rapports utilisant l’affectation linéaire (notamment le rapport Pages de [!UICONTROL Reports &amp; Analytics]). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
 
 L’exemple suivant explique comment les mesures calculées avec l’affectation linéaire changeront dans les rapports :
 
@@ -112,13 +112,13 @@ Pour l’eVar de première touche ci-dessus, les 10 $ auraient été entièreme
 | Valeurs | eVar de dernière touche actuelle | eVar de première touche actuelle | Prop actuelle |
 |---|---|---|---|
 | PROMO A | 5,00 $ | 10,00 $ | 5,00 $ |
-| PROMO B | 3,33 $ | 0 $ | 2,50 $ |
-| PROMO C | 1,67 $ | 0 $ | 2,50 $ |
+| PROMO B | 3,33 $ | $0 | 2,50 $ |
+| PROMO C | 1,67 $ | $0 | 2,50 $ |
 | Total | 10,00 $ | 10,00 $ | 10,00 $ |
 
 **Résumé du fonctionnement de l’affectation linéaire à partir du 19 juillet 2018**
 
-À compter du 19 juillet, nous avons corrigé ce comportement dans les mesures calculées. Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). En tant que tels, les paramètres d’affectation de dimension n’ont plus d’impact sur la manière dont l’affectation linéaire est calculée (autrement dit, les Props et les eVars sont traitées de la même manière), et les résultats reflètent ce qui a été passé à l’origine plutôt que les valeurs de première touche et de dernière touche qui peuvent avoir persisté. Ainsi, dans les trois cas, A = 10 * (2/4) = 5 $, B = 10 * (1/4) = 2,50 $ et C = 10 * (1/4) = 2,50 $.
+À compter du 19 juillet, nous avons corrigé ce comportement dans les mesures calculées. Au lieu d’utiliser les valeurs qui ont persisté sur la base de la dernière ou de la première touche, [!DNL Analytics] utilise maintenant uniquement les valeurs qui ont été passées (première ligne en haut du tableau). En tant que tels, les paramètres d’affectation de dimension n’ont plus d’impact sur la manière dont l’affectation linéaire est calculée (autrement dit, les Props et les eVars sont traitées de la même manière), et les résultats reflètent ce qui a été passé à l’origine plutôt que les valeurs de première touche et de dernière touche qui peuvent avoir persisté. Ainsi, dans les trois cas, A = 10 * (2/4) = 5 $, B = 10 * (1/4) = 2,50 $ et C = 10 * (1/4) = 2,50 $.
 
 | Valeurs | Nouvelle eVar de dernière touche | Nouvelle eVar de première touche | Nouvelle Prop |
 |---|---|---|---|
