@@ -3,7 +3,7 @@ description: Les mesures calculées ou calculées avancées (ou dérivées) sont
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Mesures calculées ou calculées avancées (dérivées)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,15 +15,15 @@ Les mesures calculées ou calculées avancées (ou dérivées) sont des mesures 
 
 >[!IMPORTANT]
 >
->In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
+>En juillet 2018, Adobe a ajouté la nouvelle fonctionnalité [Attribution IQ](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/attribution.html), qui a revu la manière dont les modèles d’attribution dans les mesures calculées sont évalués. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
 >
->* Les modèles d’attribution "Canal marketing Dernière touche" et "Canal marketing Première touche" ont été migrés respectivement vers les nouveaux modèles d’attribution "Dernière touche" et "Première touche" (Remarque : Les "canaux marketing" n’ont pas été abandonnés - seuls les deux modèles d’allocation qui apparaissent dans les mesures calculées l’ont été).
->* De plus, nous avons corrigé la façon dont l’allocation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution "linéaires", les rapports peuvent légèrement changer pour refléter le nouveau modèle d’attribution corrigé. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Pour plus d’informations, consultez la section [Fonctionnement de l’affectation linéaire à partir du 19 juillet 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Les modèles d’attribution « Dernière touche canal marketing » et « Première touche canal marketing » ont été migrés vers les nouveaux modèles d’attribution « Dernière touche » et « Première touche », respectivement. (Remarque : les rapports « Canaux marketing » ne sont pas devenus obsolètes, seuls les deux modèles d’attribution qui apparaissent dans les mesures calculées le sont devenus.)
+>* De plus, nous avons corrigé la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. Ce changement apporté aux mesures calculées est pris en compte dans [!UICONTROL Analysis Workspace], dans les [!UICONTROL Reports &amp; Analytics], dans l’API de création de rapports dans Report Builder et dans les Ad Hoc Analysis. Pour plus d’informations, consultez la section [Fonctionnement de l’affectation linéaire à partir du 19 juillet 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
-Nos outils de mesures calculées offrent un moyen bien plus souple pour créer, gérer et organiser les mesures. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
+Nos outils de mesures calculées offrent un moyen bien plus souple pour créer, gérer et organiser les mesures. Ils vous permettent, en tant que responsables du marketing, chefs de produits et analystes, de poser des questions relatives aux données sans avoir à modifier votre implémentation [!DNL Analytics]. Les mesures personnalisées disponibles dans chaque module [!DNL Analytics] sont les suivantes :
 
-* Adobe [!DNL Analytics] Foundation: Calculated
+* Adobe [!DNL Analytics] Foundation : calculées
 * [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html) : calculées  + calculées avancées
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) : calculées + calculées avancées
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) : calculées + calculées avancées
@@ -40,28 +40,28 @@ Dans le tableau ci-dessous, vous trouverez une comparaison des fonctionnalités 
 | [Fonctions de base (décompte, valeur absolue, moyenne, etc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | Non | Oui |
 | [Fonctions avancées (régression, si/alors, score normalisé, etc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | Non | Oui |
 
-## Fonctionnalités {#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## Fonctionnalités  {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 Vous pouvez
 
-* Create metrics across [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Anomaly Detection], and [!UICONTROL Contribution Analysis].
+* Créer des mesures dans [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL détection des anomalies] et [!UICONTROL analyse des contributions].
 * Créer des mesures segmentées qui sont dérivées au moment de l’exécution du rapport, [sans avoir à modifier l’implémentation](https://youtu.be/CuQTm9RaUpY). Elles peuvent être consultées de manière historique car elles sont basées sur des segments.
 * Partagez des mesures dans l’ensemble des suites de rapports. Cela signifie que toutes les mesures nouvellement créées s’appliquent à toutes les suites de rapports de la même société de connexion.
 * (Mesures calculées avancées uniquement) Segmenter sur les mesures. Par exemple, vous pouvez créer une mesure « Nouveaux visiteurs », avec un décompte des personnes pour lesquelles il s’agit de la première session.
 * (Mesures calculées avancées uniquement) Incorporer les fonctions statistiques afin de vous aider à mieux décrire les données. Par exemple, vous pouvez comptabiliser le nombre d’éléments d’un rapport ou ajouter le nombre d’écarts types pour chaque élément.
-* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
+* Utilisez les mesures créées dans les [!UICONTROL Ad Hoc Analysis] dans les autres outils d’[!DNL Analytics] et vice versa.
 
    >[!NOTE]
    >
-   >Vous pouvez continuer à créer des mesures dans les analyses ad hoc. Son interface utilisateur de créateur de mesures calculées est désormais similaire au nouveau créateur de mesures.
+   >Vous pouvez continuer à créer des mesures dans les Ad Hoc Analysis. Son interface utilisateur de créateur de mesures calculées est désormais similaire au nouveau créateur de mesures.
 
 ## Limites {#section_CB878B02451541D68A68B508D4DBD19A}
 
-Some [!DNL Analytics] features let you use events but not calculated metrics:
+Certaines fonctions d’[!DNL Analytics] permettent d’utiliser des événements, mais pas des mesures calculées :
 
-* Entonnoirs dans Reports &amp; Analytics
-* Abandons dans Analysis Workspace
-* [!UICONTROL Analyse de cohortes dans Analysis Workspace]
+* [!UICONTROL Entonnoirs] dans [!UICONTROL Reports &amp; Analytics]
+* [!UICONTROL Abandons] dans [!UICONTROL Analysis Workspace]
+* [!UICONTROL Analyse de cohortes] dans Analysis Workspace
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL Segments]
 * [!UICONTROL Rapports en temps réel]
@@ -70,7 +70,7 @@ Some [!DNL Analytics] features let you use events but not calculated metrics:
 
 ## Outils {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
+Vous trouverez un bref aperçu des outils de [!UICONTROL mesures calculées] :
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
@@ -108,11 +108,11 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> Rail Sélecteur de mesure </td> 
-   <td colname="col2"> <p>Remplace la fenêtre contextuelle <span class="uicontrol">Afficher les mesures</span><span class="uicontrol"> dans les Reports &amp; Analytics</span>. </p> <p>Il permet de rechercher et d’ajouter/appliquer des mesures au rapport. Vous pouvez également modifier l’ordre de <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >tri</a> (les options sont : Alphabétique, Recommandés, Fréquemment utilisés, Récemment utilisés). En outre, vous pouvez filtrer selon les suites de rapports pour n’afficher que les mesures créées dans une suite de rapports spécifique. </p> <p>Pour accéder à ce sélecteur de mesures, cliquez sur l’icône Mesures <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> située à gauche d’un rapport. Le sélecteur de mesure ressemble à ceci : </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Remplace la fenêtre contextuelle <span class="uicontrol">Afficher les mesures</span> dans les <span class="uicontrol">Reports &amp; Analytics</span>. </p> <p>Il permet de rechercher et d’ajouter/appliquer des mesures au rapport. Vous pouvez également modifier l’ordre de  <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >tri</a> (les options sont : Alphabétique, Recommandés, Fréquemment utilisés, Récemment utilisés). En outre, vous pouvez filtrer selon les suites de rapports pour n’afficher que les mesures créées dans une suite de rapports spécifique. </p> <p>Pour accéder à ce sélecteur de mesures, cliquez sur l’icône Mesures <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> située à gauche d’un rapport. Le sélecteur de mesure ressemble à ceci : </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API pour les mesures calculées</a> </td> 
-   <td colname="col2"> <p>Partie du jeu d’API d’Adobe Analytics 2.0. </p> </td> 
+   <td colname="col2"> <p>Partie du jeu d’API d’Adobe Analytics 2.0. </p> </td> 
   </tr> 
  </tbody> 
 </table>
