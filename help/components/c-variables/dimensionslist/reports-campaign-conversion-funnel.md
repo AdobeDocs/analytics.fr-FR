@@ -3,7 +3,7 @@ description: Affiche les moyennes des mesures du groupe de rapports des campagne
 title: Entonnoir de conversion de campagne
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Affiche les moyennes des mesures du groupe de rapports des campagnes. Les mesures par défaut sont les clics publicitaires, les ventes totales, les commandes et les recettes.
 
-**[!UICONTROL Campagnes]** &gt; **[!UICONTROL Entonnoir de conversion de campagne]**
+**[!UICONTROL Campagnes]** > **[!UICONTROL Entonnoir de conversion de campagne]**
 
 Le haut d’un graphique en forme d’entonnoir affiche les données de conversion. La partie inférieure affiche les statistiques pour tous les événements de la zone du haut, en fonction des commandes et éventuellement de deux autres mesures : recettes et unités.
 
