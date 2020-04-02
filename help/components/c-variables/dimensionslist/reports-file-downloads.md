@@ -3,7 +3,7 @@ description: Les Téléchargements de fichiers vous permettent de comprendre la 
 title: Téléchargements de fichiers
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Les Téléchargements de fichiers vous permettent de comprendre la fréquence à
 
 **Navigation**
 
-**[!UICONTROL Rapports]** &gt; **[!UICONTROL Contenu du site]** &gt; **[!UICONTROL Liens]** &gt; **[!UICONTROL Téléchargements de fichiers]**
+**[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Liens]** > **[!UICONTROL Téléchargements de fichiers]**
 
 Si ce rapport n’est pas disponible à l’emplacement par défaut, contactez vos administrateurs. Ils ont peut-être modifié la structure de menus par défaut pour mieux l’adapter aux besoins de votre entreprise.
 
