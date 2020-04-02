@@ -3,7 +3,7 @@ description: Indique le nombre de visiteurs uniques ayant accédé à votre site
 title: Visiteurs uniques
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -54,7 +54,7 @@ Pour consulter des exemples de cette page, reportez-vous au tableau suivant. Le 
  </tbody> 
 </table>
 
-## Rapport Visiteurs uniques - Mesure avec tendance {#section_372C08A881D34BBF811C1DE0A1460617}
+## Rapport Visiteurs uniques - Mesure avec tendance  {#section_372C08A881D34BBF811C1DE0A1460617}
 
 Les rapports [!UICONTROL Visiteurs uniques] se comportent de la même manière dans les Ad Hoc Analysis. Pour chaque accès donnant lieu à une visite, le visiteur est comptabilisé. Chaque page reçoit du crédit pour le visiteur.
 
@@ -126,7 +126,7 @@ Chaque date reçoit également du crédit pour ce visiteur.
  </tbody> 
 </table>
 
-**[!UICONTROL Rapport Visiteurs uniques]ventilé par *`Page`*.**
+**[!UICONTROL Rapport Visiteurs uniques] ventilé par *`Page`*.**
 
 Vous pouvez également sélectionner une page pour le [!UICONTROL Rapport Visiteurs uniques]. Dans le rapport suivant, on constate que le visiteur a consulté la page A aux dates indiquées :
 
@@ -161,7 +161,7 @@ Vous pouvez également sélectionner une page pour le [!UICONTROL Rapport Visite
  </tbody> 
 </table>
 
-## Visiteurs uniques périodiques (tendance) {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
+## Visiteurs uniques périodiques (tendance)  {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
 
 Vous pouvez exécuter des rapports [!UICONTROL Visiteurs uniques] (tendance) horaires, quotidiens, hebdomadaires, mensuels, trimestriels et annuels.
 
@@ -332,7 +332,7 @@ Dans le cas des visiteurs uniques par semaine où Page = B, le 2 janvier cons
  </tbody> 
 </table>
 
-## Mesures Visiteur unique périodiques sur des rapports n’affichant pas de tendance {#section_90B784F4E49F4930B3F0923B95958BA2}
+## Mesures Visiteur unique périodiques sur des rapports n’affichant pas de tendance  {#section_90B784F4E49F4930B3F0923B95958BA2}
 
 Vous pouvez ajouter des mesures Visiteur unique périodiques sur des rapports n’affichant pas de tendance ; il peut s’agir, par exemple, d’une mesure Visiteurs uniques par semaine sur un [!UICONTROL rapport Pages].
 
@@ -417,7 +417,7 @@ Une mesure Visiteurs uniques par jour sur un [!UICONTROL rapport Pages] se prés
  </tbody> 
 </table>
 
-Pour ventiler un attribut par un autre (comme par exemple *`page`* par *`eVar`*), Analytics alloue un visiteur unique périodique pour chaque instance de la période et de la page (ou de l’attribut qui fait l’objet de la corrélation).
+Pour ventiler un attribut par un autre (comme par exemple  *`page`* par *`eVar`*), Analytics alloue un visiteur unique périodique pour chaque instance de la période et de la page (ou de l’attribut qui fait l’objet de la corrélation).
 
 Si vous ventilez la page A selon les eVars T, U, la date du 2 janvier est exclue, car la page A a été consultée le 1er janvier. Les résultats suivants s’affichent pour les visiteurs uniques par semaine :
 
@@ -444,8 +444,8 @@ Si vous ventilez la page A selon les eVars T, U, la date du 2 janvier est excl
  </tbody> 
 </table>
 
-## Cookies persistants {#section_81E139F08AEB4E30A06472856975EA1E}
+## Cookies persistants  {#section_81E139F08AEB4E30A06472856975EA1E}
 
-Les cookies persistants restent sur l’ordinateur du visiteur entre les visites afin qu’Adobe puisse identifier les visiteurs lors de leurs visites suivantes. Pour consulter le pourcentage d’utilisateurs qui acceptent et n’acceptent pas les cookies persistants, sélectionnez **[!UICONTROL Filtre]** &gt; **[!UICONTROL Cookies persistants]**.
+Les cookies persistants restent sur l’ordinateur du visiteur entre les visites afin qu’Adobe puisse identifier les visiteurs lors de leurs visites suivantes. Pour consulter le pourcentage d’utilisateurs qui acceptent et n’acceptent pas les cookies persistants, sélectionnez **[!UICONTROL Filtre]** > **[!UICONTROL Cookies persistants]**.
 
 Le graphique ainsi que l’affichage des détails ci-dessous présentent à la fois les visiteurs acceptant les cookies persistants et ceux qui les refusent. La plupart du temps, le nombre de visiteurs refusant les cookies non persistants est négligeable.
