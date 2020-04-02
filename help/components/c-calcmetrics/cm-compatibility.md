@@ -2,7 +2,7 @@
 description: Explique les trois options de compatibilité des produits.
 title: Compatibilité des mesures
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -24,7 +24,7 @@ Lorsque vous créez une mesure calculée ou calculée avancée dans le créateur
  <tbody> 
   <tr> 
    <td colname="col1"> Données actives </td> 
-   <td colname="col2"> <p>Grâce à l’option Inclure les données actives d’Analytics, vous pouvez afficher les données d’Analytics les plus récentes, souvent avant même qu’elles ne soient entièrement traitées et finalisées.  Les <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  >données actives</a> présentent la plupart des mesures en quelques minutes, ce qui vous permet de disposer d’informations exploitables pour une prise de décisions rapide. </p> <p>Les données actives prennent en charge les mesures calculées uniquement (celles incluant la multiplication, la division, l’addition et la soustraction). Les données actives ne prennent pas en charge les mesures calculées avancées (comportant des segments ou des fonctions). </p> </td> 
+   <td colname="col2"> <p>Grâce à l’option Inclure les données actives d’Analytics, vous pouvez afficher les données d’Analytics les plus récentes, souvent avant même qu’elles ne soient entièrement traitées et finalisées. Les <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/data_latency.html"  >données actives</a> présentent la plupart des mesures en quelques minutes, ce qui vous permet de disposer d’informations exploitables pour une prise de décisions rapide. </p> <p>Les données actives prennent en charge les mesures calculées uniquement (celles incluant la multiplication, la division, l’addition et la soustraction). Les données actives ne prennent pas en charge les mesures calculées avancées (comportant des segments ou des fonctions). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Données entièrement traitées </td> 
