@@ -3,7 +3,7 @@ description: Affiche la liste des mots-clés de recherche payante qui ont été 
 title: Mots-clés de recherche payante
 topic: Reports
 uuid: e8a2c075-e6e4-41ce-8e1f-0b77d278e9aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
