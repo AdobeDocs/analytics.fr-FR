@@ -2,7 +2,7 @@
 description: Le créateur de mesures calculées permet d’appliquer des fonctions statistiques et mathématiques afin de créer des mesures calculées avancées.
 title: 'Référence : fonctions de base'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
