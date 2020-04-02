@@ -3,7 +3,7 @@ description: Affiche des informations sur les pages et les sections de votre sit
 title: Contenu du site
 topic: Reports
 uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
