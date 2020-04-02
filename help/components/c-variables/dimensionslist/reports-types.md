@@ -3,7 +3,7 @@ description: Description des catégories de rapports utilisées dans Experience�
 title: Catégories de rapports
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ Un rapport de produits est un exemple de rapport de tendance. Vous pouvez affich
 Un rapport Totaux est un rapport destiné aux décideurs qui affiche des chiffres essentiels. Il contient les données relatives aux recettes totales, aux pages vues et aux commandes. Vous pouvez segmenter ce rapport et y ajouter d’autres mesures pour afficher des données supplémentaires.
 Les flux affichent les chemins empruntés le plus souvent par les utilisateurs pour parcourir les pages, sections de site et serveurs.
 
-Pour plus d’informations sur la manière dont le flux fonctionne dans Analysis Workspace, voir [Itinéraires des internautes – Flux](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html).
+Pour plus d’informations sur la manière dont le flux fonctionne dans Analysis Workspace, voir [Itinéraires des internautes – Flux](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/flow.html).
 
 **Flux suivant**
 
@@ -33,4 +33,4 @@ Le groupe de rapports Flux suivant comprend trois rapports : Flux de page suiva
 **Flux précédent**
 
 Les rapports Flux précédent sont semblables aux rapports Flux suivant, si ce n’est qu’au lieu de voir où se rendent les visiteurs après une page sélectionnée, vous pouvez voir l’emplacement d’où ils proviennent avant d’accéder à une page spécifique. Les commandes permettant d’utiliser ce rapport sont identiques à celles des rapports de flux suivant.
-Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution). Pour plus d’informations, voir [Abandons](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) dans Analysis Workspace.
+Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution). Pour plus d’informations, voir [Abandons](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/fallout_flow.html) dans Analysis Workspace.
