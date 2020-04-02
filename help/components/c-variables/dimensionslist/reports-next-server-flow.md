@@ -3,7 +3,7 @@ description: Affiche les données de navigation entre des serveurs sur votre sit
 title: Flux de serveur suivant
 topic: Reports
 uuid: d2ead6a9-9b64-434b-963e-6c66b94ae662
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
