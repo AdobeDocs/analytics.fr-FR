@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Hiérarchies de classification
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ Un rapport [!UICONTROL Hiérarchie] permet de naviguer dans des jeux de données
 
 Vous pouvez créer des hiérarchies de classification pour des pages Web, des campagnes, des produits ou toute autre variable de rapport. Le rapport Hiérarchie affiche les unités, les commandes et les recettes pour chaque classification des variables de la hiérarchie.
 
-Par exemple, si une hiérarchie de produits contient Vêtements &gt; Vêtements pour homme &gt; Chemises &gt; Polos &gt; Polos taille XL, le rapport Hiérarchie affiche les données de vente de la classification Vêtements. Vous pourrez ensuite approfondir l’analyse pour afficher les données relatives à Vêtements pour homme, Chemises, Polos et Polos taille XL. Les hiérarchies de classification vous permettent d’identifier rapidement la contribution de chaque classification de la hiérarchie aux performances de la catégorie Vêtements.
+Par exemple, si une hiérarchie de produits contient Vêtements > Vêtements pour homme > Chemises > Polos > Polos taille XL, le rapport Hiérarchie affiche les données de vente de la classification Vêtements. Vous pourrez ensuite approfondir l’analyse pour afficher les données relatives à Vêtements pour homme, Chemises, Polos et Polos taille XL. Les hiérarchies de classification vous permettent d’identifier rapidement la contribution de chaque classification de la hiérarchie aux performances de la catégorie Vêtements.
 
 Créez les classifications avant de les ajouter à une hiérarchie.
 
@@ -34,9 +34,9 @@ t_classification_heirarchy.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Admin]** &gt; **[!UICONTROL Suites de rapports]**.
+1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Sélectionnez une suite de rapports.
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Hiérarchies de classification]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Hiérarchies de classification]**.
 1. Dans la liste déroulante **[!UICONTROL Construire une hiérarchie pour]**, sélectionnez la variable qui doit contenir une hiérarchie de classifications.
 
    La liste des classifications affiche automatiquement les classifications disponibles pour la variable sélectionnée.
