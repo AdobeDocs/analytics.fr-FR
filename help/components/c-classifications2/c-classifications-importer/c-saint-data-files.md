@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Fichiers de données de classification
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
 * Les classifications ne peuvent pas contenir une valeur nulle (zéro).
 * Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
 * Les fichiers téléchargés doivent utiliser UTF-8 sans codage des caractères de nomenclature.
-* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule soit correctement [placée dans une séquence d’échappement](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
+* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule soit correctement  [placée dans une séquence d’échappement](/help/components/c-classifications2/c-classifications-importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
 
    ```
    \t     tab character 
@@ -43,7 +43,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
    La virgule n’est pas un caractère spécial.
 
 * Les classifications ne peuvent pas contenir de caret (^) puisque ce caractère est utilisé pour indiquer une sous-classification.
-* Faites attention lorsque vous utilisez un trait d’union. Par exemple, si vous utilisez un trait d’union (-) dans un terme de réseau social, Social le considère comme un opérateur [!DNL Not] (signe moins). Si, par exemple, vous spécifiez le terme *`fragrance-free`* à l’aide de Importer, Social reconnaît le terme comme étant fragrance *`minus`* free et rassemble les messages qui mentionnent *`fragrance`*, mais pas *`free`*.
+* Faites attention lorsque vous utilisez un trait d’union. Par exemple, si vous utilisez un trait d’union (-) dans un terme de réseau social, Social le considère comme un opérateur [!DNL Not] (signe moins). Si, par exemple, vous spécifiez le terme *`fragrance-free`* à l’aide de l’importation, Social reconnaît le terme comme étant fragrance *`minus`* free et rassemble les messages qui mentionnent *`fragrance`*, mais pas *`free`*.
 * Des limites de caractères sont appliquées afin de classer les données de rapport. Par exemple, si vous téléchargez un fichier texte de classification pour des produits ( *`s.products`*) dont les noms comportent plus de 100 caractères (octets), les produits en question ne sont pas affichés dans les rapports. Les codes de suivi et toutes les variables de conversions (eVars) autorisent 255 octets.
 * Il doit s’agir d’un fichier délimité par des tabulations (créez le fichier de modèle dans tout tableur ou éditeur de texte).
 * Il doit être doté de l’extension de fichier [!DNL .tab] ou [!DNL .txt].
@@ -52,9 +52,9 @@ Un fichier de données doit respecter les règles de structure suivantes :
 * Les exportations de classification peuvent comporter des clés en double en raison des caractères de saut de page de la clé. Dans une exportation FTP ou de navigateur, ce problème peut être résolu en activant la création de guillemets pour le compte FTP. Cette activation place des guillemets entourant chaque clé comportant des caractères de saut de page.
 * La cellule C1 de la première ligne du fichier d’importation comporte un identifiant de version qui détermine la façon dont les classifications traitent l’utilisation des guillemets dans le reste du fichier.
 
-   * Le format v2.0 ignore les guillemets et présume qu’ils font tous partie des clés et valeurs indiquées. Étudions par exemple cette valeur : "C’est ""une valeur""". Le format v2.0 interprète cette valeur littéralement : "C’est ""une valeur""".
-   * Le format v2.1 indique aux classifications de présumer que les guillemets font partie du formatage des fichiers utilisé dans les fichiers Excel. De ce fait, le format v2.1 formate l’exemple ci-dessus ainsi : C’est "une valeur".
-   * Des problèmes peuvent survenir lorsque le format v2.1 est indiqué dans le fichier alors que c’est le format v2.0 qui est voulu - à savoir lorsque des guillemets sont utilisés de façon non autorisée au format Excel. Par exemple, si vous avez la valeur : "VP NO REPS" S/l Dress w/ Overlay. Avec le format v2.1, ce formatage est incorrect (la valeur devrait être entourée de guillemets ouvrant et fermant et les guillemets qui font partie de la valeur réelle devraient être codés par échappement par des guillemets) et les classifications ne fonctionneront pas au-delà de ce point.
+   * Le format v2.0 ignore les guillemets et présume qu’ils font tous partie des clés et valeurs indiquées. Étudions par exemple cette valeur : &quot;C’est &quot;&quot;une valeur&quot;&quot;&quot;. Le format v2.0 interprète cette valeur littéralement : &quot;C’est &quot;&quot;une valeur&quot;&quot;&quot;.
+   * Le format v2.1 indique aux classifications de présumer que les guillemets font partie du formatage des fichiers utilisé dans les fichiers Excel. De ce fait, le format v2.1 formate l’exemple ci-dessus ainsi : C’est &quot;une valeur&quot;.
+   * Des problèmes peuvent survenir lorsque le format v2.1 est indiqué dans le fichier alors que c’est le format v2.0 qui est voulu - à savoir lorsque des guillemets sont utilisés de façon non autorisée au format Excel. Par exemple, si vous avez la valeur : &quot;VP NO REPS&quot; S/l Dress w/ Overlay. Avec le format v2.1, ce formatage est incorrect (la valeur devrait être entourée de guillemets ouvrant et fermant et les guillemets qui font partie de la valeur réelle devraient être codés par échappement par des guillemets) et les classifications ne fonctionneront pas au-delà de ce point.
    * Assurez-vous de procéder à l’une des opérations suivantes : modifiez le format du fichier sur v2.0 en modifiant l’en-tête (cellule C1) dans les fichiers que vous téléchargez OU implémentez correctement les guillemets Excel dans l’ensemble des fichiers.
 
 * La première ligne (qui ne soit pas un commentaire) du fichier de données contient les en-têtes de colonne utilisés pour identifier les données de classification contenues dans cette colonne. L’importateur nécessite un format spécifique pour les en-têtes de colonne. Pour en savoir plus, reportez-vous à la section [Format d’en-tête de colonne](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
@@ -94,7 +94,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
 
 >[!MORELIKETHIS]
 >
->* [Problèmes de téléchargement de courants](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
+>* [Problèmes de téléchargement de courants](https://helpx.adobe.com/fr/analytics/kb/common-saint-upload-issues.html)
 
 
 ## Format d’un en-tête de colonne
@@ -165,7 +165,7 @@ Pour plus d’informations, reportez-vous à la section [Classifications des con
 
 ## Utilisation de dates en association avec des [!UICONTROL classifications ] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-Vous pouvez utiliser les [!UICONTROL classifications] pour affecter des périodes à vos campagnes ou autres [!UICONTROL classifications] de conversion ce qui permet une mesure plus précise des campagnes. Une fois la période d’une valeur indiquée, toute valeur correspondante qui se produit en dehors de la période ne sera pas classée. Cela est utile pour la mesure de campagne qui souhaite utiliser les dates exactes auxquelles une campagne était active et non tous les accès correspondant à la campagne elle-même. Afin de classer avec succès une valeur dans une période, les critères suivants doivent être respectés :
+Vous pouvez utiliser les [!UICONTROL classifications] pour affecter des périodes à vos campagnes ou autres [!UICONTROL classifications] de conversion ce qui permet une mesure plus précise des campagnes. Une fois la période d’une valeur indiquée, toute valeur correspondante qui se produit en dehors de la période ne sera pas classée. Cela est utile pour la mesure de campagne qui souhaite utiliser les dates exactes auxquelles une campagne était active et non tous les accès correspondant à la campagne elle-même. Afin de classer avec succès une valeur dans une période, les critères suivants doivent être respectés :
 
 * La [!UICONTROL classification] doit être basée sur une variable de conversion.
 * La [!UICONTROL classification] utilisée doit être définie en tant que Date d’activation Numérique 2.
@@ -173,7 +173,7 @@ Vous pouvez utiliser les [!UICONTROL classifications] pour affecter des période
 
 Pour classer les campagnes selon une période :
 
-1. Connectez-vous à [!DNL Analytics] et accédez à Admin &gt; Classifications.
+1. Connectez-vous à [!DNL Analytics] et accédez à Admin > Classifications.
 1. Cliquez sur l’onglet **[!UICONTROL Exportation navigateur]**, assurez-vous que les paramètres de votre classification Date d’activation sont corrects, puis cliquez sur Exporter un fichier.
 1. Ouvrez ce fichier dans Microsoft Excel ou un autre éditeur de feuilles de calcul familier.
 1. Une des colonnes se termine par
@@ -195,5 +195,5 @@ Pour classer les campagnes selon une période :
 
 ## Résolution des problèmes affectant les classifications
 
-* [Problèmes de chargement des courants](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) : article de la base de connaissance décrivant les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.
+* [Problèmes de chargement des courants](https://helpx.adobe.com/fr/analytics/kb/common-saint-upload-issues.html) : article de la base de connaissance décrivant les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.
 
