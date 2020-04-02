@@ -3,7 +3,7 @@ description: Comment appliquer un ou plusieurs segments à un rapport depuis le 
 title: Sélection et application des segments
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,7 +28,7 @@ Comment appliquer un ou plusieurs segments à un rapport depuis le rail de segme
    >
    >Le fait de cliquer sur l’icône d’informations (i) en regard du nom du segment permet de prévisualiser les mesures clés afin de vérifier si votre segment est valide et d’en connaître la largeur.
 
-1. Vous pouvez filtrer par suite de rapports en cochant la case **[!UICONTROL (Uniquement)`<report suite name>`]**. Seuls les segments qui ont été enregistrés en dernier dans la suite de rapports s’affichent.
+1. Vous pouvez filtrer par suite de rapports en cochant la case **[!UICONTROL (Uniquement) `<report suite name>`]**. Seuls les segments qui ont été enregistrés en dernier dans la suite de rapports s’affichent.
 1. Cliquez sur **[!UICONTROL Appliquer un segment]** et le rapport s’actualise. Le segment ou les segments appliqués s’affichent désormais dans la partie supérieure du rapport :
 
    ![](assets/applied_segments.png)
