@@ -3,7 +3,7 @@ description: Événement au cours duquel le contenu du panier est affiché par l
 title: Consultations du panier
 topic: Metrics
 uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
