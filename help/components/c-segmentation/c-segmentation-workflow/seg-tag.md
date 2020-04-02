@@ -3,7 +3,7 @@ description: Dans le Gestionnaire de segments, le marquage de segments permet de
 title: Balisage des segments
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ Tous les utilisateurs peuvent créer des balises pour les segments et en appliqu
 
    ![](assets/segment_mgmt_toolbar.png)
 
-1. Cliquez sur **[!UICONTROL Balise]et**
+1. Cliquez sur **[!UICONTROL Balise]** et
 
    * effectuez une sélection dans les balises existantes, ou
    * ajoutez une nouvelle balise et appuyez sur **[!UICONTROL Entrée]**.
@@ -35,4 +35,4 @@ Tous les utilisateurs peuvent créer des balises pour les segments et en appliqu
 
 La balise doit à présent apparaître dans la colonne Balises. (Cliquez sur l’icône en forme d’engrenage dans la partie supérieure droite pour gérer vos colonnes.)
 
-Vous pouvez également filtrer par balises en accédant à **[!UICONTROL Filtres]** &gt; **[!UICONTROL Balises]**.
+Vous pouvez également filtrer par balises en accédant à **[!UICONTROL Filtres]** > **[!UICONTROL Balises]**.
