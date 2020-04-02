@@ -2,7 +2,7 @@
 description: La segmentation de mesures individuelles permet d’effectuer des comparaisons de mesures dans le même rapport. (Mesures dérivées uniquement)
 title: Mesures segmentées
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,11 +28,11 @@ Explorons la première question : qu’obtient-on en termes de comparaison du c
 
    >[!NOTE]
    >
-   >You can also do this in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
+   >Vous pouvez également effectuer cette opération dans le [Créateur de segments](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_build.html), mais nous avons simplifié le processus en rendant les dimensions disponibles dans le créateur de mesures calculées.
 
    >[!NOTE]
    >
-   >"Internal" means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. Vous pouvez néanmoins le rendre public en pointant sur l’icône « i » en regard et en cliquant sur **[!UICONTROL Rendre public]**.
+   >« Interne » signifie que le segment n’est pas visible dans la liste **[!UICONTROL Segments]** du rail de gauche. Vous pouvez néanmoins le rendre public en pointant sur l’icône « i » en regard et en cliquant sur **[!UICONTROL Rendre public]**.
 
 1. Si vous n’avez pas de segment à comparer, créez un segment appelé « Visiteurs internationaux » où « Pays » n’est pas « Allemagne ».
 1. Créez et enregistrez une mesure appelée « Visiteurs allemands » en faisant glisser le segment Allemagne dans le canevas Définition et en y faisant glisser la mesure Visiteurs uniques :
@@ -40,11 +40,11 @@ Explorons la première question : qu’obtient-on en termes de comparaison du c
    ![](assets/german-visitors.png)
 
 1. Répétez l’étape 3 avec le segment Visiteurs internationaux et la mesure Visiteurs uniques afin de créer une mesure Visiteurs internationaux.
-1. Dans Analysis Workspace, faites glisser la dimension **[!UICONTROL Page]dans un tableau à structure libre, puis faites glisser les 2 nouvelles mesures calculées l’une à côté de l’autre dans la partie supérieure :**
+1. Dans Analysis Workspace, faites glisser la dimension **[!UICONTROL Page]** dans un tableau à structure libre, puis faites glisser les 2 nouvelles mesures calculées l’une à côté de l’autre dans la partie supérieure :
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports &amp; Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. Ou, dans les [!UICONTROL Reports &amp; Analytics], ouvrez le rapport [!UICONTROL Pages] et cliquez sur **[!UICONTROL Afficher les mesures]**, puis appliquez les nouvelles mesures segmentées Visiteurs E.U. et Visiteurs internationaux pour comparer leur comportement de navigation du contenu.
 
    ![](assets/pages-report.png)
 
@@ -65,7 +65,7 @@ Vous pouvez introduire un autre niveau de requête en comparant le comportement 
 
 Si vous souhaitez visualiser les plus grandes différences de comportement de navigation entre les visiteurs E.U. et internationaux en un coup d’œil, vous pouvez créer une autre mesure qui soustrait les pourcentages les uns des autres. Pour ce faire, vous pouvez utiliser la fonctionnalité Conteneur qui agit effectivement comme des parenthèses autour des 2 ensembles de mesures.
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** &gt; **[!UICONTROL Container]**:
+1. Dans le canevas [!UICONTROL Définition], cliquez sur **[!UICONTROL Ajouter]** > **[!UICONTROL Conteneur]** :
 
    ![](assets/cm_add_container.png)
 
