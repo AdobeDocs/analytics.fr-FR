@@ -3,7 +3,7 @@ description: Nombre de visiteurs (comptés une seule fois) ayant fréquenté vot
 title: Visiteurs uniques par mois
 topic: Metrics
 uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Visiteurs uniques par mois
 
-Nombre de visiteurs non dupliqués (comptés une seule fois, par exemple) sur votre site Web au cours d’un seul mois.
+Nombre de visiteurs non dupliqués (c’est-à-dire comptés une seule fois) ayant fréquenté votre site en un mois.
 
 | Utilisations | Description |
 |---|---|
