@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Questions fréquentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,8 +18,8 @@ Répond aux questions fréquemment posées sur les fonctionnalités de segmentat
 
 * Segmentation dans Analysis Workspace :
 
-   * Vous pouvez [comparer des segments](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html).
-   * Utilisez les [segments comme dimensions](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) dans une comparaison.
+   * Vous pouvez [comparer des segments](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/segment-comparison.html).
+   * Utilisez les [segments comme dimensions](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/segments_as_dimensions.html) dans une comparaison.
    * Utilisez des segments dans [l’analyse des abandons](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
 
 * Vous pouvez [appliquer plusieurs segments à un rapport ou à un projet](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
@@ -52,7 +52,7 @@ Accédez au Créateur de segments en procédant comme suit :
 
 Accédez au Gestionnaire de segments en procédant comme suit :
 
-* Sélectionnez **[!UICONTROL Analytics]** &gt; **[!UICONTROL Composants]** dans le volet de navigation supérieur. Cliquez ensuite sur **[!UICONTROL Segments]**, ou
+* sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** dans le volet de navigation supérieur. Cliquez ensuite sur **[!UICONTROL Segments]**, ou
 
 * Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**, ou
 
@@ -74,7 +74,7 @@ Le menu déroulant des suites de rapports a été déplacé en regard du sélect
 
 **Quels droits et privilèges dois-je posséder pour utiliser, créer et gérer des segments ?**
 
-Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
+Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://marketing.adobe.com/resources/help/fr_FR/reference/groups.html) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
 
 Les administrateurs peuvent modifier n’importe quel segment et partager les segments avec des groupes et toute personne de l’entreprise. [Plus...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
@@ -82,7 +82,7 @@ Les administrateurs peuvent modifier n’importe quel segment et partager les se
 
 Oui, les administrateurs peuvent voir tous les segments dans les interfaces utilisateur d’[!DNL Analysis Workspace] et d’[!DNL Reports & Analytics].
 
-Les analyses ad hoc et le Report Builder affichent les segments que vous possédez et les segments qui sont partagés avec vous.
+Ad Hoc Analyics et Report Builder affichent les segments que vous possédez et les segments qui sont partagés avec vous.
 
 **Puis-je gérer tous les segments Analytics dans le Gestionnaire de segments ?**
 
@@ -90,7 +90,7 @@ Oui, vous pouvez gérer tous les segments dans le Gestionnaire de segments dans 
 
 Les administrateurs peuvent voir tous les segments dans les interfaces utilisateur d’Analysis Workspace et d’[!DNL Reports & Analytics].
 
-Les analyses ad hoc et le Créateur de rapports affichent uniquement les segments que vous avez créés ou les segments qui ont été partagés avec vous.
+Ad Hoc Analysis et Report Builder affichent uniquement les segments que vous avez créés ou les segments qui ont été partagés avec vous.
 
 **Pourquoi ne puis-je pas supprimer ce segment ?**
 
@@ -109,7 +109,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/c-segment
 * Examinez les segments à votre disposition.
 * Ajoutez les segments à la bibliothèque de segments lorsque cela est possible.
 * Approuvez les segments canoniques.
-* Marquez les segments en fonction des [bonnes pratiques](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+* Marquez les segments en fonction des  [bonnes pratiques](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Gestion des segments existants {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -117,7 +117,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/c-segment
 
 Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement. [Plus...](/help/components/c-segmentation/seg-transition.md)
 
-La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
+La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de  modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
 Les modèles de segments sont marqués par une icône spéciale dans le Créateur de segments :
 
@@ -125,7 +125,7 @@ Les modèles de segments sont marqués par une icône spéciale dans le Créateu
 
 **Qu’est-il advenu de mes dossiers de segments existants ?**
 
-À la place des dossiers (analyses ad hoc), le Gestionnaire de segments utilise des balises. Les noms de dossiers sont automatiquement convertis en balises et ces balises sont appliquées aux segments respectifs.
+À la place des dossiers (Ad Hoc Analysis), le Gestionnaire de segments utilise des balises. Les noms de dossiers sont automatiquement convertis en balises et ces balises sont appliquées aux segments respectifs.
 
 **Qu’est-il advenu des rapports planifiés auxquels des segments avaient été appliqués ?**
 
@@ -173,7 +173,7 @@ Les rapports existants auxquels sont appliqués ces segments continueront de fon
 * Visites avec 5+ visites précédentes*
 * Visites depuis Facebook*
 
-La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
+La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
 
 Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
 
@@ -326,7 +326,7 @@ Le tableau suivant contient une liste de dimensions renommées dans le Créateur
  </tbody> 
 </table>
 
-## Modifications apportées à des dimensions basées sur des chaînes possédant des valeurs connues {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Modifications apportées à des dimensions basées sur des chaînes possédant des valeurs connues  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Les dimensions basées sur des chaînes dotées d’un jeu connu de valeurs ont été modifiées en types énumérés. Lors de la création d’un segment utilisant ces dimensions, la liste est pré-remplie avec toutes les valeurs connues et le seul opérateur pris en charge est « égal à ». Vous pouvez ainsi segmenter rapidement les valeurs exactes que vous recherchiez sans sélectionner des valeurs non voulues lors de l’utilisation d’une correspondance moins stricte.
 
@@ -348,7 +348,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 | longueur du signet du périphérique mobile | compatible java | recherche payante |
 | longueur de l’URL du périphérique mobile | langage |  |
 
-## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Les dimensions basées sur des entiers (la largeur du navigateur par exemple) avec un jeu connu de valeurs ont été fractionnées en plages énumérées afin que vous puissiez définir rapidement les segments pour une plage spécifique. « - Regroupement » est ajouté à ces listes énumérées après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées en utilisant les interfaces du Créateur de segments antérieure et nouvelle :
 
