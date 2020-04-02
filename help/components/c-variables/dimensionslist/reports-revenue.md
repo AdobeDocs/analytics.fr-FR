@@ -3,7 +3,7 @@ description: Mesure le volume des revenus générés par tous les produits sur u
 title: Recettes
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ Utilisez les recettes pour afficher le succès et la tendance généraux de votr
 
 * Il convient de respecter certaines exigences pour que ce rapport puisse collecter correctement des données. Les conditions suivantes doivent être réunies au sein de la même demande d’image :
 
-   * Un événement d’[!UICONTROL achat] doit être déclenché dans la variable Variable `s.events`.
+   * Un événement d’[!UICONTROL achat] doit être déclenché dans la variable  Variable `s.events`.
 
    * Une `products`valeur numérique doit être renseignée dans le champ de prix de la variable .
    * Dans l’exemple ci-dessous, la somme de 35,99 $ est transmise dans le rapport de recettes :
@@ -40,7 +40,7 @@ Utilisez les recettes pour afficher le succès et la tendance généraux de votr
 
 * Les [!UICONTROL Recettes] arrondissent le montant total d’une période à la valeur monétaire la plus proche. Elle n’arrondit pas chaque accès ou produit individuellement.
 * Comme Analytics arrondit chaque jour à la valeur monétaire entière la plus proche, la comparaison de la somme journalière par rapport au montant mensuel fait apparaître un très léger écart. Cela est dû au fait que le total mensuel ne correspond pas à la somme de chaque jour arrondi. Il s’agit de la somme absolue arrondie à la valeur monétaire entière la plus proche.
-* Vous pouvez créer un rapport qui n’arrondit pas les recettes à la valeur monétaire entière la plus proche en utilisant une [mesure calculée](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+* Vous pouvez créer un rapport qui n’arrondit pas les recettes à la valeur monétaire entière la plus proche en utilisant une  [mesure calculée](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/).
 * L’actualisation de la page peut entraîner une augmentation exagérée des recettes, dans la mesure où ces données sont envoyées à plusieurs reprises à Adobe ; sauf si la variable `purchaseID` est utilisée.
 * Les ventilations horaires sont basées sur le fuseau horaire de la suite de rapports.
 * Ce rapport ne contient pas d’éléments. Il ne peut être affiché que sous la forme d’un rapport de tendance.
@@ -62,17 +62,17 @@ Utilisez les recettes pour afficher le succès et la tendance généraux de votr
 
 * Les ventilations ne sont pas disponibles par heure.
 
-## Propriétés propres aux produits {#section_ED87FFD020634453AABE86B0248BE69B}
+## Propriétés propres aux produits  {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* Ce rapport est accessible sous **[!UICONTROL Conversion]** &gt; **[!UICONTROL Achats]** &gt; **[!UICONTROL Recettes]**.
+* Ce rapport est accessible sous **[!UICONTROL Conversion]** > **[!UICONTROL Achats]** > **[!UICONTROL Recettes]**.
 
 * Les ventilations [!UICONTROL Sources de trafic] sont disponibles sous [!UICONTROL Méthodes de recherche].
 
-* Ce rapport est accessible sous **[!UICONTROL Mesures du site]** &gt; **[!UICONTROL Achats]** &gt; **[!UICONTROL Recettes]**.
+* Ce rapport est accessible sous **[!UICONTROL Mesures du site]** > **[!UICONTROL Achats]** > **[!UICONTROL Recettes]**.
 
 * Outre les ventilations susmentionnées, des ventilations [!UICONTROL Canal marketing Première touche et Dernière touche] sont disponibles.
 
-* Ce rapport est également accessible sous **[!UICONTROL Mesures du site]** &gt; **[!UICONTROL Achats]** &gt; **[!UICONTROL Recettes]**.
+* Ce rapport est également accessible sous **[!UICONTROL Mesures du site]** > **[!UICONTROL Achats]** > **[!UICONTROL Recettes]**.
 
 * Outre les ventilations susmentionnées, vous pouvez utiliser les variables [!UICONTROL Liste] et les variables [!UICONTROL Vidéo] en cours.
 
