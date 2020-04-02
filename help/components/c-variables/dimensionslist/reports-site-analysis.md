@@ -3,7 +3,7 @@ description: Rapport d’Ad Hoc Analysis. Le rapport Analyse de site indique le 
 title: Analyse de site
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
