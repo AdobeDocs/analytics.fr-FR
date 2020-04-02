@@ -3,7 +3,7 @@ description: Le Créateur de segments permet de comparer et de contraindre les v
 title: Opérateurs de comparaison pour les segments
 topic: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
