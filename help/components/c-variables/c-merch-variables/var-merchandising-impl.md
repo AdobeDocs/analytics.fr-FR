@@ -3,7 +3,7 @@ description: Description de l’activation et de l’implémentation d’une var
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: Implémentation d’une variable de marchandisage
 topic: Developer and implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,21 +15,21 @@ Description de l’activation et de l’implémentation d’une variable de marc
 
 ## Activation d’une variable de marchandisage
 
-Le marchandisage peut être activé pour toute eVar personnalisée sous **[!UICONTROL Outils d’administration]** &gt; **[!UICONTROL Suites de rapports]** &gt; **[!UICONTROL Variables de conversion]**.
+Le marchandisage peut être activé pour toute eVar personnalisée sous **[!UICONTROL Outils d’administration]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Variables de conversion]**.
 
 ![](assets/merch-enable.png)
 
 | Paramètre | Description |
 |--- |--- |
 | Expire après | Définit la durée de vie des valeurs de marchandisage. |
-| Marchandisage | **Syntaxe du produit** : valeur définie dans `s.products`.<br>**Syntaxe de la variable de conversion** : valeur définie dans l’eVar de marchandisage désignée. |
+| Marchandisage | **Syntaxe du produit** : valeur définie dans `s.products`.<br>**Syntaxe de la variable de conversion ** : valeur définie dans l’eVar de marchandisage désignée. |
 | Evénement de liaison de marchandisage (Syntaxe de la variable de conversion uniquement) | Indique à quel moment un produit doit être lié à la catégorie de marchandisage actuelle. Il est possible de sélectionner plusieurs événements en cliquant sur plusieurs éléments de la liste tout en maintenant la touche Ctrl enfoncée. Vous ne pouvez sélectionner un élément que lorsque le paramètre « Syntaxe de la variable de conversion » est actif. |
 
 ## Implémentation à l’aide de la syntaxe du produit
 
 Lorsque le paramètre Syntaxe du produit est activé, la catégorie de marchandisage est directement remplie dans la variable products. La sélection et la définition d’un événement de liaison ne sont donc pas requises. Il est vivement conseillé d’utiliser cette méthode, à moins que la valeur ne soit pas disponible pour être définie dans la variable `s.products` lorsque l’événement de succès se produit.
 
-### du lien personnalisé
+### Syntaxe
 
 ```js
 s.products="category;product;quantity;price;event_incrementer;eVarN=merch_category|eVarM=merch_category2";
@@ -50,7 +50,7 @@ La variable de syntaxe de conversion doit être utilisée lorsque la valeur eVar
 
 Lorsque l’événement de liaison sélectionné en cours de configuration se produit, la valeur persistante de l’eVar est associée au produit. Par exemple, si prodView est spécifié en tant qu’événement de liaison, la catégorie de marchandisage n’est liée à la liste des produits en cours qu’au moment où l’événement se produit. Seuls les événements de liaison ultérieurs pourront mettre à jour une eVar de marchandisage qui a déjà été affectée à un produit.
 
-### du lien personnalisé
+### Syntaxe
 
 Place sur la même page ou la page précédente avant l’événement de liaison :
 
