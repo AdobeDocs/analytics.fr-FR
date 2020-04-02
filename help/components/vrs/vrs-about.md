@@ -2,7 +2,7 @@
 description: Les suites de rapports virtuelles segmentent les données Adobe Analytics afin que vous puissiez contrôler l’accès à chaque segment.
 title: Suites de rapports virtuelles - Aperçu
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -24,9 +24,9 @@ Une suite de rapports virtuelle hérite de la plupart des niveaux de service de 
 * Nom de la suite de rapports
 * Groupes d’autorisations (les suites de rapports virtuelles peuvent être affectées à leurs propres groupes d’autorisations)
 
-## Avantages des suites de rapports virtuelles {#section_3420422FE6DF46EAB151FD9442AAFDC4}
+## Avantages des suites de rapports virtuelles  {#section_3420422FE6DF46EAB151FD9442AAFDC4}
 
-Les clients paient pour les appels au serveur secondaires. L’élimination de ces appels peut donc entraîner des économies importantes. Une suite de rapports virtuelle est également complètement rétroactive. Si la suite de rapports globale contient déjà des données, les données pertinentes sont automatiquement incluses dans une nouvelle suite de rapports virtuelle. Une nouvelle suite de rapports secondaire ne commence à collecter des données qu’après sa création, de sorte qu’elle n’inclut aucune donnée historique. Lorsque vous implémentez Analytics, il vous suffit d’envoyer des données à une seule suite de rapports plutôt que de devoir créer des implémentations pour la suite de rapports globale et chaque suite de rapports secondaire.
+Les clients paient pour les appels au serveur secondaire. L’élimination de ces appels peut donc entraîner des économies importantes. Une suite de rapports virtuelle est également complètement rétroactive. Si la suite de rapports globale contient déjà des données, les données pertinentes sont automatiquement incluses dans une nouvelle suite de rapports virtuelle. Une nouvelle suite de rapports secondaire ne commence à collecter des données qu’après sa création, de sorte qu’elle n’inclut aucune donnée historique. Lorsque vous implémentez Analytics, il vous suffit d’envoyer des données à une seule suite de rapports plutôt que de devoir créer des implémentations pour la suite de rapports globale et chaque suite de rapports secondaire.
 
 Les suites de rapports virtuelles bénéficient des avantages suivants :
 
@@ -38,7 +38,7 @@ Les suites de rapports virtuelles bénéficient des avantages suivants :
 * Une vue client unique des données (à l’avenir).
 * La possibilité de créer des suites de rapports virtuelles illimitées pour segmenter les données.
 
-## Limites des suites de rapports virtuelles {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Limites des suites de rapports virtuelles  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Les suites de rapports virtuelles comportent les limites suivantes :
 
@@ -48,7 +48,7 @@ Les suites de rapports virtuelles comportent les limites suivantes :
 * Rapport en temps réel
 * Les paramètres et noms de variables ne peuvent pas être personnalisés comme dans une suite de rapports complète
 
-## Suites de rapports virtuelles par rapport au balisage multi-suite {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Suites de rapports virtuelles par rapport au balisage multi-suite  {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Fonctionnalité | Suite de rapports virtuelle | Balisage multi-suite |
 |--- |--- |--- |
@@ -57,9 +57,9 @@ Les suites de rapports virtuelles comportent les limites suivantes :
 | Peut télécharger des données vers celle-ci (par le biais des classifications, des flux de données, etc.) | Non | Oui |
 | Prend en charge la création de rapports, de signets, de tableaux de bord, de cibles, d’alertes, de segments, de mesures calculées, etc. | Oui | Oui |
 | Peut être séparément ajoutée à des groupes d’autorisations | Oui | Oui |
-| Peut utiliser les fonctions d’administration pour modifier des paramètres spécifiques de cette suite de rapports (Admin &gt; Suites de rapports) | Non (les paramètres sont hérités du parent) | Oui |
+| Peut utiliser les fonctions d’administration pour modifier des paramètres spécifiques de cette suite de rapports (Admin > Suites de rapports) | Non (les paramètres sont hérités du parent) | Oui |
 
-## Combine Virtual Report Suites and Multisuite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Combiner les suites de rapports virtuelles et le balisage multi-suite {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 Dans certains cas, il est avantageux d’utiliser à la fois les suites de rapports virtuelles et le balisage multi-suite.
 
