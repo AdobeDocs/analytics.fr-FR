@@ -4,7 +4,7 @@ keywords: visit
 title: Visite
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Séquence de pages vues lors d’une session unique. Cette mesure est généralement utilisée dans les rapports qui affichent le nombre de sessions utilisateurs au cours de la période sélectionnée.
 
-> [!NOTE] Pour en savoir plus sur le calcul des visites et des lancements d’application mobile, voir [Comparaison des visites et des lancements d’application mobile](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) dans la base de connaissances.
+> [!NOTE] Pour en savoir plus sur le calcul des visites et des lancements d’application mobile, voir [Comparaison des visites et des lancements d’application mobile](https://helpx.adobe.com/fr/analytics/kb/compare-visits-and-mobile-app-launches.html) dans la base de connaissances.
 
 Cette mesure est toujours associée à une période afin que vous sachiez si vous comptabilisez ou non une nouvelle visite si le même visiteur revient sur votre site. Une session débute lors de la première visite de l’utilisateur sur votre site et se termine lorsque l’un des scénarios suivants se présente :
 
@@ -34,9 +34,9 @@ Une visite ne coïncide pas nécessairement avec une session de navigateur. Par 
 
 Lorsqu’une visite se termine, toutes les variables comportant une expiration de visite expirent et ne persistent pas. La mesure du nombre de visites est incrémentée lors de la visite suivante de ce visiteur.
 
-> [!NOTE] Si vous utilisez Analytics en tant que source des rapports pour Adobe Target, reportez-vous à la section [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) dans la documentation [!DNL Target].
+> [!NOTE] Si vous utilisez Analytics en tant que source des rapports pour Adobe Target, reportez-vous à la section [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) dans la documentation [!DNL Target].
 
-Pour plus d’informations, voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) dans le guide Mise en œuvre d’Adobe Analytics.
+Pour plus d’informations, voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/visid_overview.html) dans le guide Mise en œuvre d’Adobe Analytics.
 
 **Périodes**
 
