@@ -3,7 +3,7 @@ description: Affiche le stade auquel chaque valeur a été déclenchée, en moye
 title: Profondeur moyenne de page
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Affiche le stade auquel chaque valeur a été déclenchée, en moyenne, au sein d’une visite. Cette mesure se révèle particulièrement utile pour déterminer le niveau auquel votre audience a atteint une page ou une valeur de propriété donnée au cours d’une visite. Profondeur moyenne de page est disponible sur toute variable dans laquelle le cheminement est activé.
 
-Si, par exemple, une visite comprend le chemin suivant : Page A &gt; Page B &gt; Page C &gt; Page D &gt; Page E &gt; Page F, la profondeur est un indice de là où se situe la page. Par exemple, la page A a une profondeur de 0, tandis que la page F a une profondeur de 5. La moyenne est fondée sur une combinaison de toutes les visites. Une profondeur de page avec une valeur inférieure à 1 (0,9, par exemple) est la valeur moyenne de toutes les pages consultées avant la page en question.
+Si, par exemple, une visite comprend le chemin suivant : Page A > Page B > Page C > Page D > Page E > Page F, la profondeur est un indice de là où se situe la page. Par exemple, la page A a une profondeur de 0, tandis que la page F a une profondeur de 5. La moyenne est fondée sur une combinaison de toutes les visites. Une profondeur de page avec une valeur inférieure à 1 (0,9, par exemple) est la valeur moyenne de toutes les pages consultées avant la page en question.
 
 La [!UICONTROL profondeur de page] vous permet de comprendre où aboutit généralement une page donnée dans le cheminement d’un utilisateur, quelles que soient les pages précédentes ou suivantes dans ce cheminement. En l’occurrence, elle fournit des renseignements sur la manière dont la page se situe dans l’expérience globale de l’utilisateur sur votre site. L’affichage de ces renseignements est optimal dans un rapport [!UICONTROL Pages].
 
