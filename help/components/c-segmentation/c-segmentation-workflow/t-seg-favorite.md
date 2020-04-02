@@ -3,7 +3,7 @@ description: Le marquage des segments en tant que favoris est une autre manière
 title: Marquage des segments comme favoris
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,4 +17,4 @@ Le marquage des segments en tant que favoris est une autre manière de les organ
 
    ![](assets/favorites.png)
 
-1. Vous pouvez également filtrer par favoris en accédant à **[!UICONTROL Filtres]** &gt; **[!UICONTROL Autres filtres]** &gt; **[!UICONTROL Favoris]**.
+1. Vous pouvez également filtrer par favoris en accédant à **[!UICONTROL Filtres]** > **[!UICONTROL Autres filtres]** > **[!UICONTROL Favoris]**.
