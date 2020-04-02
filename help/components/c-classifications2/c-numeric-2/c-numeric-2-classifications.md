@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Classifications numériques 2 - Aperçu
 topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
