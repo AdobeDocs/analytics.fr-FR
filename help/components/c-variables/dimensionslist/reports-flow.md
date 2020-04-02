@@ -3,7 +3,7 @@ description: Les flux affichent les chemins empruntés le plus souvent par les u
 title: Flux
 topic: Reports
 uuid: d114d117-b5cc-483d-a169-c56d615fa1c4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
