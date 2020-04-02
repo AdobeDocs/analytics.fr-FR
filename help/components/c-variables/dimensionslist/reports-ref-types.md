@@ -3,7 +3,7 @@ description: En suivant et en enregistrant les sites de référence des visiteur
 title: Type de référent
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ La liste ci-dessous définit les divers types de référents :
 
 **Moteurs de recherche** : les référents de moteur de recherche sont enregistrés lorsque les visiteurs utilisent un moteur de recherche pour accéder à votre site. La valeur de référence doit être considérée comme un moteur de recherche par Adobe et ne peut pas être un sous-domaine qui n’est pas considéré comme un moteur de recherche ([!DNL mail.yahoo.com], par exemple, n’est pas un moteur de recherche, car il s’agit du domaine utilisé pour le courrier électronique).
 
-**[!UICONTROL Réseaux sociaux]** : la valeur de référence doit être considérée comme un réseau social par Adobe. Voir [Liste des réseaux sociaux](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
+**[!UICONTROL Réseaux sociaux]** : la valeur de référence doit être considérée comme un réseau social par Adobe. Voir [Liste des réseaux sociaux](https://helpx.adobe.com/fr/analytics/kb/list-social-networks.html).
 
 **Courrier électronique** : un domaine référent est considéré comme un domaine référent de courrier électronique lorsque les visiteurs cliquent sur un lien dans un courrier électronique contenant le protocole [!DNL imap://] ou [!DNL mail://] et arrivent sur votre site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
 
@@ -72,7 +72,7 @@ La liste ci-dessous définit les divers types de référents :
 * Le référent, le type de référent et le domaine de référent sont définis au premier accès de la visite ou durant une visite lorsque le référent est externe (par exemple, si un visiteur quitte votre site, utilise un moteur de recherche, puis revient sur votre site avant l’expiration de la première visite). Ces valeurs sont définies en même temps et persistent pendant toute la visite.
 * Tous les types de référents ne sont pas répertoriés dans ce rapport. En d’autres termes, les visites à l’échelle du site ne correspondent pas aux visites sur ce rapport.
 
-## Historique des rapports {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## Historique des rapports  {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 | Date | Changement |
 |---|---|
