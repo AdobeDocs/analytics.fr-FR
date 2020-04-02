@@ -3,7 +3,7 @@ description: Capture le paramètre linguistique du navigateur du visiteur, ce qu
 title: Langue
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Capture le paramètre linguistique du navigateur du visiteur, ce qui vous permet de visualiser les recettes et les visiteurs uniques qui y sont associés. Lorsque vous connaissez l’incidence des langues préférées sur les mesures de succès de votre site, vous pouvez choisir la manière de présenter votre site dans d’autres langues. Par exemple, si vous observez qu’un nombre important de clients germanophones effectuent des ajouts au panier sur votre site, vous pouvez faire traduire votre site en allemand et mettre en place une campagne marketing pour générer du trafic sur votre site en allemand.
 
-**[!UICONTROL Profil du visiteur]** &gt; **[!UICONTROL Langues]**
+**[!UICONTROL Profil du visiteur]** > **[!UICONTROL Langues]**
 
 Nous alimentons ce rapport en fonction de la partie acceptant les langues de la demande d’en-tête http. L’en-tête HTTP acceptant les langues est configuré selon les paramètres de préférences linguistiques de chaque navigateur :
 
