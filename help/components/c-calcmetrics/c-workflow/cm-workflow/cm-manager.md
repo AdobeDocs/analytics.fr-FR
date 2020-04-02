@@ -2,7 +2,7 @@
 description: Le Gestionnaire de mesures calculées offre plusieurs manières d’organiser les mesures, par exemple le partage, le filtrage, le balisage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
 title: Gestionnaire de mesures calculées
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ Le Gestionnaire de mesures calculées offre plusieurs manières d’organiser le
 
 Le Gestionnaire de mesures calculées vous présente tous les segments que vous possédez et qui ont été partagés avec vous. Les utilisateurs de niveau administrateur peuvent consulter toutes les mesures personnalisées de l’entreprise. Cet aperçu présente l’interface utilisateur et les fonctionnalités du Gestionnaire de mesures calculées. Pour y accéder
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the left navigation. Puis, cliquez sur **[!UICONTROL Mesures calculées]**.
+* Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** dans le volet de navigation de gauche. Puis, cliquez sur **[!UICONTROL Mesures calculées]**.
 
 ![](assets/calcmet_mgr_ui.png)
 
