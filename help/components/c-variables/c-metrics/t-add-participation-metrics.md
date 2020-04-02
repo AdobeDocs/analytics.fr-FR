@@ -3,7 +3,7 @@ description: Description de la procédure d’ajout de mesures de participation.
 title: Ajout de mesures de participation
 topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Description de la procédure d’ajout de mesures de participation.
 
 La participation doit être [activée](/help/components/c-variables/c-metrics/metrics-participation.md) pour les événements (1 à 100) dans Outils d’administration avant de pouvoir les ajouter à un rapport.
 
-De plus, vous pouvez créer des mesures de participation dans le créateur de [mesures calculées](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
+De plus, vous pouvez créer des mesures de participation dans le créateur de [mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/participation_metric.html).
 
 1. Connectez-vous et accédez au rapport de conversion ou de trafic sur lequel vous avez demandé des mesures de participation.
 1. Cliquez sur **[!UICONTROL Ajouter des mesures]**.
