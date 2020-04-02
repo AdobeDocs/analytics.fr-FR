@@ -3,7 +3,7 @@ description: Le tableau suivant spécifie si le pays comporte des régions ou de
 title: Utilisation des régions et codes postaux de géosegmentation par pays
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
