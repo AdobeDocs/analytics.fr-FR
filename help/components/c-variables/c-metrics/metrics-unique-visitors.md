@@ -3,7 +3,7 @@ description: Dans la version 14, un visiteur unique se rapporte à un visiteur 
 title: Visiteurs uniques
 topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
