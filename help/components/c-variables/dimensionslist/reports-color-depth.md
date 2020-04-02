@@ -3,7 +3,7 @@ description: Groupe les accès des appareils mobiles en fonction du nombre de co
 title: Profondeur de couleur
 topic: Reports
 uuid: 6143a37c-2452-4107-a855-d97aebd9f778
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
