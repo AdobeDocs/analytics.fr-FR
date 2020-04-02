@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Création des suites de rapports virtuelles
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Avant de créer des suites de rapports virtuelles, vous devez tenir compte des q
 * Les suites de rapports virtuelles ne peuvent pas être partagées. Le « partage » est effectué par le biais de groupes/autorisations.
 * Dans le Gestionnaire de suites de rapports virtuelles, vous ne pouvez afficher que vos propres suites de rapports virtuelles. Vous devez cliquer sur « Tout afficher » pour afficher les suites de rapports virtuelles des autres utilisateurs.
 
-1. Accédez à **[!UICONTROL Composants]** &gt; **[!UICONTROL Suites de rapports virtuelles]**.
+1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**.
 1. Cliquez sur **[!UICONTROL Ajouter +]**.
 
    ![](assets/new_vrs.png)
@@ -59,7 +59,7 @@ Avant de créer des suites de rapports virtuelles, vous devez tenir compte des q
   </tr> 
   <tr> 
    <td colname="col1"> Segments </td> 
-   <td colname="col2"> <p>Vous pouvez ajouter un seul segment ou <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >empiler des segments</a>. </p> <p> <p>Remarque : Lors de l’empilement de deux segments, ils sont associés par une instruction ET, qui ne peut pas être changée en instruction OU. </p> </p> <p>Lorsque vous essayez de supprimer ou de modifier un segment qui est actuellement utilisé dans une suite de rapports virtuelle, un avertissement s’affiche. </p> </td> 
+   <td colname="col2"> <p>Vous pouvez ajouter un seul segment ou <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_stack.html"  >empiler des segments</a>. </p> <p> <p>Remarque : Lors de l’empilement de deux segments, ils sont associés par une instruction ET, qui ne peut pas être changée en instruction OU. </p> </p> <p>Lorsque vous essayez de supprimer ou de modifier un segment qui est actuellement utilisé dans une suite de rapports virtuelle, un avertissement s’affiche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
