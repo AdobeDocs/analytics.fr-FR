@@ -3,7 +3,7 @@ description: Indique les zones de votre site qui sont les plus consultées par l
 title: Sections du site
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ Indique les zones de votre site qui sont les plus consultées par les utilisateu
    * **Toutes les variables de commerce électronique standard** : Recettes, Commandes, Unités, Paniers, Consultations du panier, Passages en caisse, Ajouts au panier, Retraits du panier.
    * **Tous les événements personnalisés** : Événements 1-80, et Événements 81-100 si le code est H22 ou supérieur.
 
-Tous les événements de conversion du [!UICONTROL rapport Sections du site] utilisent la dernière affectation. La conversion est divisée entre les pages de votre implémentation qui ne contiennent pas d’événements de succès. Il s’agit d’une différence comparé au [rapport Pages](/help/components/c-variables/dimensionslist/reports-pages.md) qui utilise l’allocation linéaire.
+Tous les événements de conversion du [!UICONTROL rapport Sections du site] utilisent la dernière affectation. La conversion est divisée entre les pages de votre implémentation qui ne contiennent pas d’événements de succès. Il s’agit d’une différence comparé au  [rapport Pages](/help/components/c-variables/dimensionslist/reports-pages.md) qui utilise l’allocation linéaire.
 
 **Informations propres au produit**
 
