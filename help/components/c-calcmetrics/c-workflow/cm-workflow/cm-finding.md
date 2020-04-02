@@ -1,8 +1,8 @@
 ---
-description: Décrit les deux principales méthodes de recherche des mesures de tri et de filtrage.
+description: 'Décrit les deux moyens principaux de recherche de mesures : le tri et le filtrage.'
 title: Recherche de mesures
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Décrit les deux moyens principaux de recherche de mesures : le tri et le filtrage.
 
-## Tri {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## Tri  {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures ![](assets/metrics_icon.png) située à gauche d’un rapport pour afficher le rail Mesures, la liste déroulante **Trier par]du sélecteur de mesures propose quatre options de tri :[!UICONTROL **
+Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures ![](assets/metrics_icon.png) située à gauche d’un rapport pour afficher le rail Mesures, la liste déroulante **[!UICONTROL Trier par]** du sélecteur de mesures propose quatre options de tri :
 
 ![](assets/cm_sort.png)
 
@@ -25,7 +25,7 @@ Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures ![](assets/metr
 | Fréquemment utilisés | Utile si vous êtes un utilisateur novice et que vous avez besoin de consulter ce qui est couramment utilisé dans le rapport. |
 | Utilisés récemment | Utile si vous travaillez sur un projet et utilisez sans arrêt le même jeu de mesures. |
 
-## Filtrage : sélection avancée {#section_33818CC048C04F098703AC229693F8CA}
+## Filtrage - sélection avancée  {#section_33818CC048C04F098703AC229693F8CA}
 
 Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures, cliquez sur **[!UICONTROL Gérer]**. Cliquez maintenant sur l’icône Filtrer. Vous pouvez appliquer un filtre de plusieurs façons différentes.
 
