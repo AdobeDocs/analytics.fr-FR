@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Modèle de classification
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 (Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Ce fichier de données utilise les classifications voulues sous la forme d’en-têtes de colonne, puis classe le jeu de données de rapport sous les en-têtes de classification adéquats.
 
-**[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**.
+**[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 
 | Élément | Description |
 |---|---|
@@ -40,7 +40,7 @@ Le modèle fournit le format de fichier que vous devez respecter pour les classi
 
 > [!NOTE] La méthode Modèle limite le téléchargement des données à une seule suite de rapports.
 
-1. Cliquez sur **[!UICONTROL Admin]** &gt; **[!UICONTROL Importateur de classifications]**.
+1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 1. Sous l’onglet **[!UICONTROL Télécharger un modèle]**, spécifiez la [configuration du modèle de données](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 1. Cliquez sur **[!UICONTROL Télécharger]**.
 1. Enregistrez le fichier de modèle sur votre système local.
