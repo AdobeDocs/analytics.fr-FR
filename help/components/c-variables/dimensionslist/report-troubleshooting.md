@@ -5,7 +5,7 @@ title: Bonnes pratiques et dépannage de la création de rapports
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: dca5bac72a2cf5f5ded5072e1867676392a7850e
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analytics offre une interface de  souple qui vous permet de générer dive
 
 >[!Note] :
 >ces recommandations s’appliquent à Reports &amp; Analytics, à Ad Hoc Analysis et à Report Builder.
->Elles ne s’appliquent pas à Analysis Workspace, qui possède son propre ensemble de [bonnes pratiques](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md). Elles ne s’appliquent pas non plus aux [bonnes pratiques](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html) de Data Warehouse. Un ensemble supplémentaire de
+>Elles ne s’appliquent pas à Analysis Workspace, qui possède son propre ensemble de [bonnes pratiques](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). Elles ne s’appliquent pas non plus aux [bonnes pratiques](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html) de Data Warehouse. Un ensemble supplémentaire de
 >[bonnes pratiques](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) est disponible dans l’API de création de rapports d’Adobe Analytics.
 
 ## Délais d’expiration des rapports et file d’attente des demandes {#section_A42AD7E487C749B7B879BAFA814FFEF9}
