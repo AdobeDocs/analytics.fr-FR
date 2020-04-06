@@ -2,8 +2,8 @@
 description: Le déploiement de cette intégration est un processus simple qui nécessite les actions suivantes.
 title: Déploiement de l’intégration
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -65,15 +65,15 @@ Pour activer l’intégration, vous devez exécuter l’assistant de configurati
    1. Ne modifiez **PAS** les noms des 8 dimensions standard (c’est-à-dire le code SID Demandbase, le nom de la société, le secteur industriel, etc.).
 
 1. Cochez la case pour que le tableau de bord d’intégration Demandbase soit automatiquement créé (recommandé).
-1. Vérifiez tous les éléments de configuration et cliquez sur **[!UICONTROL Activer maintenant]**.
+1. Review all configuration items and click **[!UICONTROL Activate Now]**.
 
 ## Déploiement du code d’intégration {#deploying-the-integration-code}
 
 Après avoir exécuté l’assistant d’intégration, vous devez déployer le code d’intégration dans votre code de déploiement Adobe Analytics (s_code).
 
-> [!NOTE] Si vous avez utilisé Adobe TagManager ou Dynamic Tag Management pour déployer Adobe Analytics, vous pouvez facilement ajouter le code d’intégration à l’aide de l’un de ces outils.
+>[!NOTE] Si vous avez utilisé Adobe TagManager ou Dynamic Tag Management pour déployer Adobe Analytics, vous pouvez facilement ajouter le code d’intégration à l’aide de l’un de ces outils.
 
-1. Accédez à l’onglet **[!UICONTROL Assistance]** et téléchargez puis enregistrez la ressource `integration code v2_0_1` depuis la zone Ressources de l’intégration.
+1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration.
 
 1. Le cas échéant, apportez les modifications nécessaires au code. Pour plus d’informations, voir Modification du code d’intégration (sur cette page).
 1. Incluez le module Integrate s’il n’est pas déjà présent dans votre code de déploiement Adobe Analytics.
@@ -155,7 +155,7 @@ Si vous ne disposez pas déjà du module Integrate dans le cadre de votre déplo
 
 ### Pour AppMeasurement v1.0+ {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. Décompressez le fichier zip AppMeasurement que vous avez téléchargé depuis **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
+1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
 
 1. Ouvrez le fichier nommé [!DNL AppMeasurement_Module_Integrate.js].
 1. Copiez et collez le contenu de ce fichier dans votre fichier principal [!DNL AppMeasurement.js].
@@ -199,7 +199,7 @@ Consultez vos rapports Demandbase dans Adobe Analytics à l’aide du tableau de
 
 Vous pouvez également accéder à la création de rapports Demandbase dans la structure de menus d’Adobe Analytics - voir copies d’écran ci-dessous.
 
-> [!NOTE] Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
+>[!NOTE] Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
 
 ![](assets/reporting1.png)
 
