@@ -2,8 +2,8 @@
 description: Prise en main d’Ad Hoc Analysis.
 title: Prise en main
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,11 +11,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # Prise en main d’Ad Hoc Analysis {#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
 >[!Important]
->Le 6 août 2018, Adobe a annoncé la prochaine fin de vie d’Ad Hoc Analysis, dont la date sera communiquée dès que possible. Pour plus d’informations, notamment sur les versions de Java compatibles durant cette période, voir [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>Le 6 août 2018, Adobe a annoncé son intention de mettre fin à la vie des ad hoc  . La date de fin de vie sera communiquée dès que possible. Pour plus d’informations, notamment sur les versions de Java compatibles durant cette période, voir [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
-Vous pouvez effectuer une analyse avancée instantanée de l’activité d’un site Web. Vous pouvez consulter plusieurs rapports simultanément et appliquer des segments sur plusieurs dimensions. Vous pouvez analyser les données du point de vue micro et macro afin de mesurer leur impact sur les mesures importantes d’un point de vue commercial.
+Vous pouvez exécuter des  avancés instantanés  sur les de  Web. Vous pouvez simultanément plusieurs rapports et appliquer des segments sur plusieurs dimensions. Vous pouvez analyser les données à la fois sous l’angle micro et macro afin d’en  l’impact sur vos importantes mesures commerciales.
 
-Grâce à ces fonctionnalités, vous pouvez répondre aux questions sur le trafic du site, la répartition démographique des visiteurs, les recettes et les mouvements de produits. Vous pouvez ensuite filtrer, trier et segmenter les données afin de répondre à des questions précises. Les résultats sont pratiquement instantanés, ce qui permet d’analyser rapidement les effets d’une combinaison de différents facteurs.
+Ces fonctionnalités vous permettent de répondre à des questions sur le trafic du site, la démographie des, les recettes et le mouvement des produits. Vous pouvez ensuite filtrer, trier et segmenter vos données pour trouver les réponses à des questions précises. Les résultats sont presque instantanés, ce qui vous permet d’analyser rapidement les effets d’une combinaison de facteurs.
 
 <table id="table_C9C0444687FC418580F996E1D2ADB61A"> 
  <thead> 
@@ -38,14 +38,14 @@ Grâce à ces fonctionnalités, vous pouvez répondre aux questions sur le trafi
    <td colname="col2"> <p>Sélectionnez une suite de rapports sur la page de démarrage, puis cliquez sur <span class="uicontrol">Créer un projet</span>. </p> <p>Voir <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >Projets et espaces de travail</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4. Ouverture d’un rapport. </p> </td> 
-   <td colname="col2"> <p>Recherchez un rapport à l’aide du menu standard du rapport Marketing Cloud. Vous pouvez également choisir un modèle. </p> <p>Pour plus d’informations, voir <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >Modèles de rapport</a>. </p> </td> 
+   <td colname="col1"> <p>4. Ouvrez un rapport. </p> </td> 
+   <td colname="col2"> <p>Recherchez un rapport à l’aide du menu de rapport Cloud standard. Vous pouvez également choisir un modèle. </p> <p>Voir Modèles <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > de</a>rapport. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>5. Configuration du rapport. </p> </td> 
-   <td colname="col2"> <p>Effectuez les tâches suivantes pour configurer des rapports : </p> 
+   <td colname="col1"> <p>5. Configurez le rapport. </p> </td> 
+   <td colname="col2"> <p>Configurez les rapports en effectuant des , comme par exemple : </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
-     <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Créer des segments afin d’effectuer une analyse plus approfondie des données </li> 
+     <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Création de segments pour approfondir les données </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Ajouter des mesures, des dimensions et des segments au <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   >Générateur de tableau</a> </li> 
      <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuration des <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   >plages de dates</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Planifier</a> l’envoi des rapports </li> 
@@ -64,35 +64,35 @@ c_sys_reqs.xml
 
  -->
 
-> [!NOTE] À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter Ad Hoc Analysis sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre mise en œuvre d’Ad Hoc Analysis.
+>[!NOTE] À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter Ad Hoc Analysis sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre mise en œuvre d’Ad Hoc Analysis.
 
-* Carte vidéo compatible avec OpenGL 2.0
-* Cookies : obligatoires
-* Système d’exploitation : Windows et Mac OS.
-* Macromedia Flash Player : version 6 ou ultérieure
-* Résolution du moniteur : 800 x 600 (résolution de 1 024 x 768 recommandée)
-* Profondeur de couleur : 16 bits ou plus élevée
-* JavaScript : activé
-* Version Java : Java 1.7 ou version ultérieure (Voir la remarque ci-dessus)
+* Carte vidéo prenant en charge OpenGL 2.0
+* Cookies : Obligatoire
+* Système d’exploitation : Windows et Mac OS.
+* Macromedia Flash Player : version 6 ou ultérieure
+* Résolution de l&#39;écran : 800 x 600 (1 024 x 768 recommandé)
+* Profondeur de couleur : 16 bits ou plus
+* JavaScript : Activé
+* Version Java : Java 1.7 ou version ultérieure (voir la remarque ci-dessus)
 
-   Si vous ne disposez pas de la version Java appropriée, le système l’installe automatiquement. Si la version de Java installée n’est pas compatible, les Ad Hoc Analysis téléchargent les mises à jour et vous invitent à les installer.
+   Si vous n’avez pas installé la version correcte de Java, celle-ci est installée pour vous. Si une version non compatible de Java est installée sur votre ordinateur, les ad hoc  téléchargent les mises à jour et vous invitent à les installer.
 
 ## Instructions de mise à niveau de Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
 À compter de juillet 2018, Ad Hoc Analysis ne prendra en charge que Java 8 ou version ultérieure. Si vous choisissez d’exécuter Ad Hoc Analysis sur Java 7 après la version de maintenance de juillet 2018, Adobe ne prendra plus en charge votre mise en œuvre d’Ad Hoc Analysis.
 
-Nos fichiers .jar sont protégés par un chiffrement sécurisé de 256 bits qui n’est pas pris en charge par les versions de Java antérieures à 1.7.0_76. Ce certificat 256 bits nous permet de vous offrir une sécurité optimale.
+Nos fichiers .jar sont signés avec un chiffrement sécurisé de 256 bits qui n’est pas pris en charge par les versions Java inférieures à 1.7.0_76. Ce certificat 256 bits nous permet de vous servir avec une sécurité renforcée.
 
 Si vous disposez toujours de Java 7, vous devez le mettre à niveau avant la version de maintenance de juillet 2018. Procédez comme suit :
 
-* Si vous êtes autorisé à installer des programmes sur votre machine :
+* Si vous êtes autorisé à installer des  sur votre ordinateur :
 
    1. Rendez-vous sur https://www.java.com.
-   1. Cliquez sur **[!UICONTROL Téléchargement gratuit de Java]**.
-   1. Cliquez sur **[!UICONTROL Accepter et lancer le téléchargement gratuit]**.
-   1. Installez la dernière version de Java correspondant à votre système d’exploitation.
+   1. Cliquez sur **[!UICONTROL Free Java Download]**.
+   1. Cliquez sur **[!UICONTROL Agree and Start Free Download]**.
+   1. Installez la dernière version Java spécifique à votre système d’exploitation.
 
-* Si vous **n’êtes pas** autorisé à installer des programmes sur votre machine :
+* Si vous **n’êtes pas** autorisé à installer des  de sur votre ordinateur :
 
    1. Contactez votre service informatique pour installer la dernière version de Java.
 
@@ -104,7 +104,7 @@ c_login.xml
 
  -->
 
-Vous pouvez vous connecter à partir d’[!DNL Experience Cloud] ou d’une URL. Si vous vous connectez à partir des Reports and Analytics, vous êtes automatiquement connecté. La connexion à l’aide d’une URL est nécessaire seulement si vous accédez à l’URL des Ad Hoc Analysis à partir d’un autre emplacement, comme un lien ou un menu de favoris.
+Vous pouvez vous connecter à partir d’[!DNL Experience Cloud] ou d’une URL. Si vous vous connectez à partir des rapports et analyses, vous êtes automatiquement connecté. La connexion à l’aide d’une URL n’est nécessaire que si vous accédez à l’URL du ad hoc à partir d’un autre emplacement, tel qu’un lien ou à partir d’un menu de favoris.
 
 ## Connexion à partir d’Experience Cloud {#task_128ED319F3AE49ED886EA3DFA8D0987F}
 
@@ -117,18 +117,18 @@ t_login_suite.xml
  -->
 
 1. Dans un navigateur, accédez à [!DNL marketing.adobe.com].
-1. Entrez le nom de votre société et vos nom d’utilisateur et mot de passe. Cliquez ensuite sur **[!UICONTROL Se connecter]**.
-1. Cliquez sur **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Outils]** > **[!UICONTROL Ad Hoc Analysis]**.
+1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
+1. Cliquez sur **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
 
    Si vous ne voyez pas le bouton **Lancer Ad Hoc Analysis** sur cette page, assurez-vous que l’administrateur vous a ajouté au groupe *Utilisateurs de la licence Ad Hoc Analysis* dans les outils d’administration.
-1. Cliquez sur **[!UICONTROL Lancer Ad Hoc Analysis]**.
+1. Cliquez sur **[!UICONTROL Launch Ad Hoc Analysis]**.
 1. Enregistrez le fichier [!DNL discover.jnlp] en local.
 
    Vous pouvez exécuter ce fichier enregistré lorsque vous souhaitez lancer les Ad Hoc Analysis.
 
 ## Projets et espaces de travail {#concept_FAE346335B0347A192C6C806C775D72B}
 
-Un projet définit le jeu de données importé, y compris une suite de rapports et une période. Il se compose d’un nombre indéterminé de rapports, avec tous leurs paramètres, mesures, dimensions et segments. Vous pouvez démarrer un nouveau projet, charger un projet enregistré ou charger le projet enregistré automatiquement.
+Un projet définit le jeu de données importé, y compris une suite de rapports et une plage de dates. Un projet est constitué de plusieurs rapports avec toutes leurs mesures, paramètres, dimensions et segments. Vous pouvez démarrer un nouveau projet, charger un projet enregistré ou charger le projet qui enregistre automatiquement.
 
 <!-- 
 
@@ -136,13 +136,13 @@ c_projects.xml
 
  -->
 
-Vous pouvez regrouper des rapports au sein d’un *espace de travail*. Un projet peut contenir plusieurs espaces de travail composés, à leur tour, de plusieurs rapports. La relation entre ces éléments se présente sous une forme imbriquée :
+Vous regroupez les rapports dans un espace de *travail*. Un projet peut contenir plusieurs espaces de travail et un espace de travail peut contenir plusieurs rapports. La relation entre ces éléments est mieux comprise comme une relation imbriquée :
 
 ![](assets/project_workspace.png)
 
-Vous ne pouvez ouvrir qu’un seul projet à la fois. Vous pouvez cependant ouvrir plusieurs espaces de travail dans un projet. Plusieurs rapports peuvent être ouverts dans chaque espace de travail.
+Vous ne pouvez ouvrir qu’un seul projet à la fois. Vous pouvez toutefois ouvrir plusieurs espaces de travail dans un projet. Dans chaque espace de travail, plusieurs rapports peuvent être ouverts.
 
-La période par défaut d’un nouveau projet équivaut aux [!UICONTROL 90 derniers jours].
+La plage de dates par défaut d’un nouveau projet est [!UICONTROL Last 90 Days].
 
 ## Commencer un projet {#task_918A4539134E4E62B00486DCB8D3D403}
 
@@ -155,7 +155,7 @@ t_project_start.xml
  -->
 
 1. Connectez-vous.
-1. Ouvrez un projet enregistré ou cliquez sur **[!UICONTROL Créer un projet]**.
+1. Open a saved project or click **[!UICONTROL Create Project]**.
 1. Recherchez un rapport ou sélectionnez un modèle.
 
 ## Ouvrir un espace de travail récemment enregistré {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,9 +168,9 @@ t_recent_workspace.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Espace de travail récent]**.
+1. Cliquez sur **[!UICONTROL File]** > **[!UICONTROL Recent Workspace]**.
 
-   Vous pouvez ouvrir jusqu’à cinq espaces de travail récents. Les espaces de travail récents ne sont plus disponibles après la fermeture de la session.
+   Vous pouvez ouvrir jusqu’à cinq espaces de travail récents. Les espaces de travail récents ne sont pas disponibles après la fermeture de la session.
 
 ## Partage de projets {#task_5911780D90164F3A8A677C8BC719750D}
 
@@ -182,14 +182,14 @@ t_share_projects.xml
 
  -->
 
-1. Accédez à **[!UICONTROL Fichier]** > **[!UICONTROL Enregistrer sous]**.
-1. Sélectionnez **[!UICONTROL Projets partagés]** dans le menu déroulant **[!UICONTROL Enregistrer dans :]**.
+1. Accédez à **[!UICONTROL File]** > **[!UICONTROL Save As]**.
+1. Sélectionnez **[!UICONTROL Shared Projects]** dans la **[!UICONTROL Save in:]** liste déroulante.
 
    ![](assets/shared_projects.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le projet.
+1. Click **[!UICONTROL Save]** to save the project.
 
-   Les projets partagés peuvent être ouverts en sélectionnant **[!UICONTROL Fichier]** > **[!UICONTROL Ouvrir]** > **[!UICONTROL Projets partagés]**.
+   Les projets partagés peuvent être ouverts via **[!UICONTROL File]** > **[!UICONTROL Open]** > **[!UICONTROL Shared Projects]**.
 
    >[!NOTE]
    >
@@ -206,7 +206,7 @@ t_rename_workspace.xml
  -->
 
 1. Cliquez sur le nom de l’espace de travail avec le bouton droit de la souris.
-1. Sélectionnez **[!UICONTROL Renommer l’espace de travail]**.
+1. Sélectionner **[!UICONTROL Rename Workspace]**.
 1. Entrez un nom, puis cliquez sur **[!UICONTROL OK]**.
 
 ## Ouverture d’un projet local {#task_1B3EF63A80C74776B24B99D80EAC74AC}
@@ -219,12 +219,12 @@ t_open_local_project.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Ouvrir la copie locale]**.
-1. Naviguez jusqu’au fichier local [!DNL .dproj], puis cliquez sur **[!UICONTROL Ouvrir]**.
+1. Cliquez sur **[!UICONTROL File]** > **[!UICONTROL Open Local Copy]**.
+1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
 
 ## Modèles de rapport {#concept_370F674C5B4C45368731AA801C5A45F8}
 
-Les modèles constituent les points de départ du type d’analyse que vous souhaitez effectuer. Un modèle peut être un canevas vierge (tel qu’un rapport Abandon ou Classement). Il peut également s’agir d’un rapport qui commence par des mesures et des dimensions par défaut.
+Les modèles sont des points de départ pour le type de  que vous  exécuter. Un modèle peut être un canevas vierge, tel qu’un rapport Classement ou Abandon. Ou bien, le modèle est un rapport qui  avec des mesures et des dimensions par défaut.
 
 <!-- 
 
@@ -232,22 +232,22 @@ c_templates.xml
 
  -->
 
-Vous pouvez accéder à des modèles lors de la création d’un projet (**[!UICONTROL Fichier]** > **[!UICONTROL Nouveau projet]**) ou en ajoutant un espace de travail ou un rapport.
+You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report.
 
 | Modèle | Description |
 |--- |--- |
-| Classement | Fournit un canevas vierge sur lequel vous pouvez construire un tableau. Par exemple, un rapport Pages classe les pages de votre site en fonction du trafic, tandis que le tableau détaillé affiche les pourcentages et valeurs numériques pour des mesures telles que Pages vues et Recettes. |
-| Tendance | Ces rapports vous permettent d’examiner la tendance des conversions et des événements selon une granularité temporelle sélectionnée (Heure, Jour, Semaine, Mois, Trimestre ou Année) au cours d’une période de rapport. |
-| Totaux | Rapport destiné aux décideurs qui affiche des chiffres essentiels. Il contient les données relatives aux recettes totales, aux pages vues et aux commandes. |
-| Abandon | Ce modèle vous permet de créer un entonnoir qui affiche des taux de conversion et d’abandon entre des points de contrôle. Vous pouvez, par exemple, effectuer le suivi des points d’abandon d’un visiteur au cours d’un processus d’achat. |
+| Classement | Fournit un canevas vierge dans lequel vous pouvez construire un tableau. Par exemple, un rapport Pages classe les pages de votre site en fonction du trafic, tandis que le tableau détaillé affiche les pourcentages et valeurs numériques pour des mesures telles que Pages vues et Recettes. |
+| Tendance | Vous permet d’examiner la manière dont les conversions et les  tendances de l’suivent une granularité temporelle sélectionnée (Heure, Jour, Semaine, Mois, Trimestre ou Année) au cours d’une  de. |
+| Totaux | Rapport de niveau exécutif qui montre les chiffres de base. Il contient des données pour les recettes totales, les  de page et les commandes. |
+| Abandon | Vous permet de créer un entonnoir qui affiche les taux de conversion et d’abandon entre les points de contrôle. Vous pouvez, par exemple, effectuer le suivi d’un  points d’abandon au cours d’un processus d’achat. |
 | Flux | Affiche les chemins empruntés le plus souvent par les utilisateurs pour parcourir les pages, sections de site et serveurs. |
-| Entonnoir de conversion | Affiche des pourcentages de conversion entre des événements de mesure spécifiques. Vous pouvez utiliser ces rapports pour connaître le nombre de clics publicitaires qui génèrent des ventes et le nombre d’unités vendues. |
-| Analyse de site | Outil de cheminement de site en trois dimensions qui affiche le cheminement des visiteurs sur des pages et événements spécifiés. |
-| Groupe d’orientation virtuel | Ce rapport sélectionne, de manière aléatoire, une visite parmi les autres et fournit de nombreuses informations à son sujet. Vous pouvez utiliser ce rapport pour créer des groupes d’orientation à partir de votre population de visiteurs. |
+| Entonnoir de conversion | Affiche les pourcentages de conversion entre des  de mesures spécifiques. Vous pouvez utiliser ce rapport pour comprendre le nombre de clics publicitaires qui génèrent des ventes et le nombre d&#39;unités vendues. |
+| Analyse de site | Outil de cheminement de site en trois dimensions qui affiche la manière dont les se déplacent dans des pages et des  de spécifiques. |
+| Groupe d&#39;orientation virtuel | Prend une visite au hasard à partir de vos visites et vous montre une quantité importante de données sur la visite. Vous pouvez utiliser le rapport pour créer des groupes de discussion à partir de votre population. |
 
 ## Ouvrir un rapport {#task_0AC455CDA198497AA546622FB05F300D}
 
-Vous pouvez ouvrir un rapport ou un modèle lors de la création d’un projet ou à partir d’un projet existant. Utilisez un modèle pour créer un rapport en partant de zéro.
+Vous pouvez ouvrir un rapport ou un modèle lorsque vous créez un projet ou à partir d’un projet existant. Utilisez un modèle pour configurer un rapport à partir de zéro.
 
 <!-- 
 
@@ -255,8 +255,8 @@ t_reports_opening.xml
 
  -->
 
-Plusieurs méthodes permettent d’ouvrir un rapport :
+Plusieurs méthodes permettent d’ouvrir un rapport :
 
-* Sur la page [!UICONTROL Nouveau rapport], recherchez un rapport ou sélectionnez un modèle.
-* Cliquez sur **[!UICONTROL Rapports]** dans le menu, puis sélectionnez un rapport ou un modèle de rapport.
-* Lancez un rapport à partir d’une dimension : cliquez sur le nom d’une dimension avec le bouton droit de la souris, puis sélectionnez **[!UICONTROL Exécuter le rapport]** > **`report name`**.
+* Sur la [!UICONTROL New Report] page, recherchez un rapport ou choisissez un modèle.
+* Cliquez sur **[!UICONTROL Reports]** dans le menu, puis sélectionnez un rapport ou un modèle de rapport.
+* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > **`report name`**.
