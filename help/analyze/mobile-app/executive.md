@@ -1,152 +1,152 @@
 ---
-description: Instructions pour configurer les cartes de performance des applications mobiles.
-title: Guide du conservateur d’application mobile Adobe Analytics
-translation-type: tm+mt
+description: Instructions de configuration des Fiches d’évaluation pour l’application mobile.
+title: Guide du curateur pour l’application mobile Adobe Analytics
+translation-type: ht
 source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
 
-# Application mobile Analytics : Guide de démarrage rapide de l’utilisateur exécutif
+# Application mobile Analytics : guide de démarrage rapide de l’utilisateur en charge de l’exécution
 
 ## Introduction
 
-L’application mobile Adobe Analytics fournit des informations à tout moment et en tout lieu à partir d’Adobe Analytics.  L’application permet aux utilisateurs d’accéder à des cartes de performance intuitives à partir d’un appareil mobile. Les tableaux de bord sont un ensemble de mesures clés et d’autres composants présentés dans une disposition en mosaïque que vous pouvez appuyer pour obtenir des ventilations plus détaillées et des rapports de tendances. L’application mobile est prise en charge sur les systèmes d’exploitation iOS et Android.
+L’application mobile Adobe Analytics fournit des insights d’Adobe Analytics à tout moment, où que vous soyez.  L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
 
 ## À propos de ce guide
 
- Ce guide a pour but d’aider les utilisateurs de la direction à lire et à interpréter les cartes de performance dans l’application mobile Analytics. L’application permet aux utilisateurs de visualiser rapidement et facilement un grand rendu des données récapitulatives importantes sur leurs propres périphériques mobiles.
+L’objectif de ce guide est d’aider les utilisateurs en charge de l’exécution à lire et à interpréter les Fiches d’évaluation de l’application mobile Analytics. L’application permet aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles.
 
-## Glossaire
+## Glossaire terminologique
 
 | Terme | Définition |
 |--- |--- |
-| Consommateur | Personnalité exécutive affichant les mesures clés et les informations d’Analytics sur un périphérique mobile |
-| Curateur | Personne qui identifie et distribue les statistiques d’Analytics et configure les cartes de performance à afficher par le consommateur |
-| Traitement | Acte de création ou de modification d’une carte de performance mobile contenant les mesures, dimensions et autres composants pertinents pour le consommateur |
-| Fiche d’évaluation | Une vue d’application mobile contenant une ou plusieurs mosaïques |
-| Mosaïque | Rendu d’une mesure dans une vue de carte de performance |
-| Ventilation | Vue secondaire accessible en appuyant sur une mosaïque dans la carte de performance. Cette vue s’étend sur la mesure affichée sur la mosaïque et génère éventuellement des rapports sur des dimensions de ventilation supplémentaires. |
-| Période | Plage de dates principale pour la création de rapports sur les applications mobiles |
-| Plage de dates de comparaison | Plage de dates comparée à la plage de dates principale |
+| Consommateur | Personne en charge de l’exécution affichant les mesures clés et les insights d’Analytics sur un appareil mobile |
+| Curateur | Personne possédant des compétences en littératie des données qui découvre et distribue des insights d’Analytics et configure les Fiches d’évaluation que verra le consommateur |
+| Traitement | L’acte de création ou de modification d’une Fiche d’évaluation mobile contenant des mesures, des dimensions ainsi que d’autres composants pertinents pour le consommateur |
+| Fiche d’évaluation | Un affichage dans l’application mobile contenant une ou plusieurs mosaïques |
+| Mosaïque | Un rendu d’une mesure dans un affichage de la Fiche d’évaluation |
+| Ventilation | Un affichage secondaire accessible en appuyant sur une mosaïque de la Fiche d’évaluation. Cet affichage étend la mesure affichée sur la mosaïque et peut de manière facultative gérer des dimensions de ventilation supplémentaires. |
+| Période | La période principale du rapport dans l’application mobile |
+| Période de comparaison | La période comparée à la période principale |
 
-## Configuration de l’application sur votre périphérique
+## Configurer l’application sur votre appareil
 
-Pour utiliser efficacement l’application, vous devez disposer de l’aide de votre conservateur de carte de performance pour la configurer. Cette section fournit des informations pour vous aider à vous installer avec l'aide de votre conservateur.
+Pour utiliser efficacement l’application, vous devrez demander l’aide de votre curateur de Fiches d’évaluation pour la configurer. Cette section fournit des informations pour vous aider à la configurer avec l’aide de votre curateur.
 
-### Accès
+### Obtenir l’accès
 
-Pour accéder aux Scorecards dans l’application, assurez-vous que :
+Pour accéder aux Fiches d’évaluation sur l’application, assurez-vous que :
 
-* Vous disposez d’une connexion valide à Adobe Analytics.
-* Votre conservateur a correctement créé des cartes de performance mobiles et les a partagées avec vous.
+* vous disposez d’identifiants de connexion valides à Adobe Analytics ;
+* votre curateur a créé correctement les Fiches d’évaluation mobiles et les a partagées avec vous.
 
-### Téléchargement et installation de l’application
+### Télécharger et installer l’application
 
-Pour télécharger et installer l’application, suivez les étapes décrites dans le système d’exploitation de votre périphérique.
+Pour télécharger et installer l’application, suivez les étapes correspondant au système d’exploitation de votre appareil.
 
-**Pour les périphériques iOS :**
+**Pour les appareils iOS :**
 
-1. Cliquez sur le lien public suivant (il est également disponible dans Analytics sous **Outils** &gt; Application **** mobile) :
+1. Cliquez sur le lien public suivant (celui-ci est également disponible dans Analytics dans **Outils** > **Application mobile**) :
 
-   [Lien](https://testflight.apple.com/join/WtXMQxlI)iOS : `https://testflight.apple.com/join/WtXMQxlI`
+   [Lien iOS](https://testflight.apple.com/join/WtXMQxlI) : `https://testflight.apple.com/join/WtXMQxlI`
 
-   Après avoir cliqué sur le lien, l’écran Testflight suivant s’affiche :
+   Lorsque vous cliquez sur le lien, l’écran Testflight suivant s’affiche :
 
-   ![Ecran Testflight](assets/testflight1.png)
+   ![Écran Testflight](assets/testflight1.png)
 
-2. Appuyez sur le lien **Afficher dans l’App Store** sur l’écran pour télécharger l’application Testflight.
+2. Appuyez sur le lien **Afficher dans l’App Store** à l’écran pour télécharger l’application Testflight.
 
-3. Après avoir installé l’application Testflight, recherchez et installez l’application mobile Adobe Analytics depuis Testflight, comme indiqué ci-dessous :
+3. Une fois que vous avez installé l’application Testflight, cherchez et installez l’application mobile Adobe Analytics depuis Testfilght comme illustré ci-dessous :
 
-   ![Ecran Testflight](assets/testflight2.png)
+   ![Écran Testflight](assets/testflight2.png)
 
-**Pour les périphériques Android :**
+**Pour les appareils Android :**
 
-1. Appuyez sur le lien Play Store suivant sur le périphérique de l’utilisateur (il est également disponible dans Analytics sous **Outils** &gt; Application **** mobile) :
+1. Appuyez sur le lien Play Store suivant sur l’appareil de l’utilisateur (celui-ci se trouve également dans Analytics dans **Outils** > **Application mobile**) :
 
 
-   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp) : `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-   Après avoir appuyé sur le lien, appuyez sur le lien Devenir un testeur dans l’écran suivant :
+   Après avoir appuyé sur le lien, appuyez sur le lien Devenir testeur sur l’écran suivant :
 
-   ![Ecran Plate-forme](assets/play.png)
+   ![Écran Play Store](assets/play.png)
 
-2. Appuyez sur le lien **Télécharger sur Google Play** sur l’écran suivant :
+2. Appuyez sur le lien de **téléchargement sur Google Play** sur l’écran suivant :
 
    ![Lien de téléchargement](assets/playnext.png)
 
-## Utilisation de l’application
+## Utiliser l’application
 
-Pour utiliser l’application :
+Pour utiliser l’application :
 
-1. Connectez-vous à l’application. L’écran de connexion s’affiche au lancement de l’application. Suivez les invites à l’aide de vos informations d’identification Adobe Analytics existantes. Nous prenons en charge les ID Adobe et Enterprise/Federated.
+1. Connectez-vous à l’application. L’écran de connexion apparaîtra au lancement de l’application. Suivez les instructions et utilisez vos informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
 
    ![Séquence de connexion](assets/signseq.png)
 
-2. Choisissez une entreprise. Une fois connecté à l’application, l’écran **Choisir une société** s’affiche. Cet écran répertorie les sociétés de connexion auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associée à la carte de performance partagée avec vous.
+2. Choisissez une entreprise. Lorsque vous êtes connecté à l’application, l’écran **Choisir une entreprise** apparaît. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
 
-3. La liste Tableau de bord affiche alors toutes les cartes de performance qui ont été partagées avec vous. Appuyez sur la carte de performance que vous souhaitez afficher.
+3. La liste de Fiches d’évaluation affiche ensuite toutes les Fiches d’évaluation partagées avec vous. Appuyez sur la Fiche d’évaluation que vous souhaitez afficher.
 
    ![Choisissez une entreprise](assets/accesscard.png)
 
-   *Remarque : Si vous vous connectez et voyez un message indiquant que rien n’a été partagé, vérifiez ce qui suit avec votre conservateur :*
+   *Remarque : si vous vous connectez et que vous voyez un message indiquant que rien n’a été partagé, vérifiez les éléments suivants avec votre curateur :*
 
-   * *Vous pouvez vous connecter à l’instance Analytics appropriée.*
-   * *La carte de performance a été partagée avec vous.*
+   * *Vous pouvez vous connecter à la bonne instance Analytics.*
+   * *La fiche d’évaluation a été partagée avec vous.*
 
-      ![Rien n’est partagé](assets/nothing.png)
+      ![Rien n’a été partagé](assets/nothing.png)
 
-4. Examinez l’aspect des mosaïques dans la carte de performance.
+4. Examinez la manière dont les mosaïques apparaissent dans la fiche d’évaluation.
 
-   ![Mosaïque expliquée](assets/newexplain.png)
+   ![Explication des mosaïques](assets/newexplain.png)
 
-   Informations supplémentaires sur les mosaïques :
+   Informations supplémentaires sur les mosaïques :
 
-   * La granularité des graphiques sparkline dépend de la longueur de la plage de dates :
-   * Un jour affiche une tendance horaire
-   * Plus d’une journée et moins d’un an affiche une tendance quotidienne
-   * Un an ou plus affiche une tendance hebdomadaire
-   * La formule de changement de valeur en pourcentage est le total de la mesure (période actuelle) - total de la mesure (période de comparaison) / total de la mesure (période de comparaison).
-   * Vous pouvez descendre l’écran pour actualiser la carte de performance.
+   * La granularité des graphiques sparkline dépend de la longueur de la période :
+   * Une tendance horaire s’affiche pour les plages d’une journée.
+   * Une tendance quotidienne s’affiche pour les plages comprises entre une journée et un an.
+   * Une tendance hebdomadaire s’affiche pour les plages supérieures à un an.
+   * La formule de modification de la valeur de pourcentage est calculée de la manière suivante : total de la mesure (période en cours) - total de la mesure (période de comparaison)/total de la mesure (période de comparaison).
+   * Vous pouvez tirer l’écran vers le bas pour actualiser la Fiche d’évaluation.
 
-5. Appuyez sur une mosaïque pour afficher le mode de fonctionnement d’une ventilation détaillée pour la mosaïque.
+5. Appuyez sur une mosaïque pour afficher comment fonctionne une ventilation détaillée sur la mosaïque.
 
-   ![Ventilation](assets/sparkline.png)
+   ![Vue Ventilation](assets/sparkline.png)
 
 
-6. Pour modifier les plages de dates de votre carte de performance :
+6. Pour modifier les périodes de votre fiche d’évaluation :
 
    ![Modifier les dates](assets/changedate.png)
 
-   *Remarque : Vous pouvez également modifier les plages de dates dans la vue Ventilation illustrée ci-dessus de la même manière.*
+   *Remarque : vous pouvez également modifier les périodes dans la vue Ventilation affichée ci-dessus de la même manière.*
 
-   Selon l’intervalle que vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année), deux options s’affichent pour les plages de dates : soit la période actuelle, soit la période qui l’précède immédiatement.** Appuyez sur l’une de ces deux options pour sélectionner la première plage. Sous la liste **COMPARER** à, appuyez sur l’une des options présentées pour comparer les données de cette période avec la première plage de dates que vous avez sélectionnée. Appuyez sur **Terminé** dans l’angle supérieur droit de l’écran. Le champ **Plages** de dates et les mosaïques Scorecard sont mis à jour avec les nouvelles données de comparaison des nouvelles plages sélectionnées.
+   Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **COMPARER À**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **Terminé** en haut à droite de l’écran. Le champ **Périodes** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
-7. Obtenez les mises à jour de Scorecard. Si une carte de performance n’inclut pas toutes les mesures ou ventilations qui peuvent vous intéresser, contactez votre équipe Analytics pour que la carte de performance soit mise à jour. Une fois la carte mise à jour, vous pouvez l’actualiser et charger les données récemment ajoutées.
+7. Récupérer les mises à jour des Fiches d’évaluation. Si une Fiche d’évaluation ne contient pas toutes les mesures ou les ventilations qui vous intéressent, demandez une mise à jour de la fiche d’évaluation à votre équipe Analytics. Une fois la fiche mise à jour, vous pouvez tirer sur la fiche à l’écran pour l’actualiser et charger les données récemment ajoutées.
 
 
 
-8. Laissez vos commentaires. Pour laisser vos commentaires :
+8. Laisser un commentaire. Pour laisser un commentaire :
 
-   1. Appuyez sur l’icône de l’utilisateur dans l’angle supérieur droit de l’écran de l’application.
-   2. Dans l’écran **Mon compte** , appuyez sur l’option **Commentaires** .
-   3. Appuyez sur pour afficher les options permettant de laisser un commentaire.
-   ![Laissez vos commentaires](assets/feedback.png)
+   1. Appuyez sur l’icône utilisateur en haut à droite de l’écran de l’application.
+   2. Sur l’écran **Mon compte**, appuyez sur l’option **Commentaires**.
+   3. Appuyez pour afficher les options permettant de laisser un commentaire.
+   ![Laisser un commentaire](assets/feedback.png)
    ![Options de commentaires](assets/feedback_option.png)
 
 
-**Pour signaler un bogue**:
+**Pour signaler un bogue** :
 
-Appuyez sur l’option et choisissez une sous-catégorie du bogue. Dans le formulaire pour signaler un bogue, indiquez votre adresse électronique dans le champ supérieur et votre description du bogue dans le champ situé en dessous. Une capture d’écran des informations de votre compte est automatiquement jointe au message, mais vous pouvez la supprimer si vous le souhaitez en appuyant sur le **X** dans l’image de la pièce jointe. Vous avez également la possibilité de prendre un enregistrement d’écran, d’ajouter d’autres captures d’écran ou de joindre des fichiers. Pour envoyer le rapport, appuyez sur l’icône du plan de papier dans l’angle supérieur droit du formulaire.
+Appuyez sur l’option, puis choisissez une sous-catégorie de bogue. Dans le formulaire de signalement d’un bogue, indiquez votre adresse électronique dans le champ supérieur et votre description du bogue dans le champ qui suit. Une capture d’écran des informations de votre compte est jointe automatiquement au message, mais vous pouvez la supprimer en appuyant sur le **X** dans l’image de la pièce jointe. Vous disposez également d’options pour effectuer un enregistrement de l’écran, ajouter davantage de captures d’écran ou joindre des fichiers. Pour envoyer le rapport, appuyez sur l’icône en forme d’avion en papier en haut à droite du formulaire.
 
 
-![Rapport de bogue](assets/newbug.png)
+![Signaler un bogue](assets/newbug.png)
 
-**Pour suggérer une amélioration**:
+**Pour suggérer une amélioration** :
 
-Appuyez sur l’option et choisissez une sous-catégorie pour la suggestion. Dans le formulaire de suggestion, indiquez votre adresse électronique dans le champ supérieur et votre description du bogue dans le champ situé en dessous. Une capture d’écran des informations de votre compte est automatiquement jointe au message, mais vous pouvez la supprimer si vous le souhaitez en appuyant sur le **X** dans l’image de la pièce jointe. Vous avez également la possibilité de prendre un enregistrement d’écran, d’ajouter d’autres captures d’écran ou de joindre des fichiers. Pour envoyer la suggestion, appuyez sur l’icône du plan de papier dans l’angle supérieur droit du formulaire.
+Appuyez sur l’option et choisissez une sous-catégorie de suggestion. Dans le formulaire de suggestion, indiquez votre adresse électronique dans le champ supérieur et votre description de la suggestion dans le champ qui suit. Une capture d’écran des informations de votre compte est jointe automatiquement au message, mais vous pouvez la supprimer en appuyant sur le **X** dans l’image de la pièce jointe. Vous disposez également d’options pour effectuer un enregistrement de l’écran, ajouter davantage de captures d’écran ou joindre des fichiers. Pour envoyer la suggestion, appuyez sur l’icône en forme d’avion en papier en haut à droite du formulaire.
 
-**Pour poser une question**:
+**Pour poser une question** :
 
-Appuyez sur l’option et indiquez votre adresse électronique dans le champ supérieur et votre question dans le champ situé en dessous. Une capture d’écran est automatiquement jointe au message, mais vous pouvez la supprimer si vous le souhaitez en appuyant sur le **X** dans l’image de pièce jointe. Vous avez également la possibilité de prendre un enregistrement d’écran, d’ajouter d’autres captures d’écran ou de joindre des fichiers. Pour envoyer la question, appuyez sur l’icône du plan de papier dans l’angle supérieur droit du formulaire.
+Appuyez sur l’option et indiquez votre adresse électronique dans le champ supérieur et votre question dans le champ qui suit. Une capture d’écran est jointe automatiquement au message, mais vous pouvez la supprimer en appuyant sur le **X** dans l’image de la pièce jointe. Vous disposez également d’options pour effectuer un enregistrement de l’écran, ajouter davantage de captures d’écran ou joindre des fichiers. Pour envoyer la question, appuyez sur l’icône en forme d’avion en papier en haut à droite du formulaire.
