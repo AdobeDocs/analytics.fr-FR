@@ -2,31 +2,31 @@
 title: cookieDomain
 description: La variable cookieDomain permet de déterminer le domaine sur lequel les cookies doivent être définis.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # cookieDomain
 
-> [!IMPORTANT] Cette variable est retirée. Utilisez [`trackingServer`](trackingserver.md) plutôt.
+>[!IMPORTANT] Cette variable a été abandonnée. Utilisez [`trackingServer`](trackingserver.md) à la place.
 
-La `cookieDomain` variable détermine le domaine dans lequel AppMeasurement définit les cookies. Vous pouvez utiliser cette variable pour définir explicitement le domaine du cookie au lieu d’utiliser la [`cookieDomainPeriods`](cookiedomainperiods.md) variable.
+La variable `cookieDomain` détermine le domaine dans lequel AppMeasurement définit les cookies. Vous pouvez utiliser cette variable pour définir explicitement le domaine du cookie au lieu d’utiliser la variable [`cookieDomainPeriods`](cookiedomainperiods.md).
 
-Cette variable ne doit être utilisée que lorsque **les deux** conditions suivantes sont remplies :
+Cette variable ne doit être utilisée que lorsque **les deux** conditions suivantes sont réunies :
 
-* Si votre implémentation utilise des cookies propriétaires. Cette variable n’est pas requise avec les implémentations utilisant une [`trackingServer`](trackingserver.md) valeur contenant `sc.omtrdc.net`.
-* Si votre domaine comporte un point dans son suffixe. Par exemple, `example.co.uk` vous pouvez utiliser la `cookieDomain` variable pour indiquer explicitement que le domaine du cookie est `example.co.uk` et non `co.uk`.
+* Votre mise en œuvre utilise des cookies propriétaires. Cette variable n’est pas requise avec les mises en œuvre utilisant une valeur [`trackingServer`](trackingserver.md) contenant `sc.omtrdc.net`.
+* Votre domaine comporte un point dans son suffixe. Par exemple, `example.co.uk` peut utiliser la variable `cookieDomain` pour indiquer explicitement que le domaine du cookie est `example.co.uk` et non `co.uk`.
 
-Seul un petit nombre d’implémentations ont été utilisées pour la `cookieDomain` variable. D’autres variables, telles que [`cookieDomainPeriods`](cookiedomainperiods.md) peuvent être utilisées à la place.
+Seul un petit nombre de mises en œuvre ont été utilisées pour la variable `cookieDomain`. D’autres variables, telles que [`cookieDomainPeriods`](cookiedomainperiods.md), peuvent être utilisées à la place.
 
 ## Domaine du cookie dans Adobe Experience Platform Launch
 
-Il n’existe pas de champ dédié dans Lancer pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans Launch pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.cookieDomain dans AppMeasurement et lancement de l’éditeur de code personnalisé
+## s.cookieDomain dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
-La `cookieDomain` variable est une chaîne et est définie sur le domaine sur lequel vous souhaitez stocker les cookies.
+La variable `cookieDomain` est une chaîne qui est définie sur le domaine sur lequel vous souhaitez conserver les cookies.
 
 ```js
 s.cookieDomain = "stats.example.com";
