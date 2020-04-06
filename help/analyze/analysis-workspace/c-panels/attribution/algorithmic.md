@@ -2,14 +2,14 @@
 title: Attribution algorithmique
 description: Détails sur le modèle d’attribution algorithmique dans Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 59ca7a8b6f067d62c4abea572c199fb95897d854
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Attribution algorithmique
 
-> [!NOTE] L’attribution algorithmique n’est actuellement disponible que dans [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html). La fonctionnalité fera finalement partie d’une version générale.
+>[!NOTE] L’attribution algorithmique n’est actuellement disponible que dans [Adobe Analytics Labs](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/tech-previews/overview.html). La fonctionnalité fera finalement partie d’une version générale.
 
 Le modèle [d’](attribution.md) attribution algorithmique dans  Workspace  diffère des autres modèles en ce sens qu’il utilise des techniques statistiques pour attribuer le crédit entre les valeurs de dimension dans votre rapport ou tableau à structure libre. Comme tous les autres modèles d’attribution de   Workspace, il peut être utilisé sur n’importe quelle dimension ou mesure et prend en charge la segmentation et les ventilations illimitées et distribue 100 % des conversions aux dimensions du tableau (également appelées attribution fractionnelle).
 
@@ -20,4 +20,4 @@ L&#39;algorithme utilisé pour l&#39;attribution est basé sur le Dividend Harsa
 * Shapley, Lloyd S. (1953). Valeur des jeux en personne. *Contributions à la théorie des jeux, 2(28)*, 307-317.
 * Harsanyi, John C. (1963). Un modèle de négociation simplifié pour le jeu coopératif en personne. *International Economic Review 4(2)*, 194-220.
 
-> [!NOTE] Le résultat de l’attribution algorithmique diffère uniquement des autres modèles lorsque plusieurs points de contact existent dans la fenêtre de recherche donnée. Les conversions avec un seul point de contact reçoivent un crédit de 100 %, quel que soit le modèle d’attribution.
+>[!NOTE] Le résultat de l’attribution algorithmique diffère uniquement des autres modèles lorsque plusieurs points de contact existent dans la fenêtre de recherche donnée. Les conversions avec un seul point de contact reçoivent un crédit de 100 %, quel que soit le modèle d’attribution.
