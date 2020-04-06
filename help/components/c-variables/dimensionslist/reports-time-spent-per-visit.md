@@ -3,8 +3,8 @@ description: valeur nulle
 title: Durée de la visite
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -35,8 +35,8 @@ La durée de la visite mesure le temps total passé lors d’une visite. Il exis
    * 2-5 heures
    * 5-10 heures
    * 10-15 heures
-   * Plus de 15 heures
+   * Plus de 15 heures
 
-> [!NOTE] [Les visites](../c-metrics/metrics-visit.md) se terminent généralement après 12 heures d’activité. Toutefois, les visites peuvent dépasser 12 heures si vous utilisez des sources de données ou des accès horodatés.
+>[!NOTE] [Les visites](../c-metrics/metrics-visit.md) se terminent généralement après 12 heures d’activité. Toutefois, les visites peuvent dépasser 12 heures si vous utilisez des sources de données ou des accès horodatés.
 
 Cette dimension est basée sur les visites. Comparez cette dimension à la [durée de consultation de la page](reports-time-spent-on-page.md), qui est une dimension basée sur les accès.
