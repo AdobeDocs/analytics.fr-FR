@@ -4,8 +4,8 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Mesures calculées
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Décrit la méthode de calcul de mesures courantes à l’aide de flux de données.
 
-> [!IMPORTANT] Les accès qui sont exclus d’Adobe Analytics en temps normal sont inclus dans les flux de données. Utilisez `exclude_hit > 0` pour supprimer les accès exclus des requêtes sur les données brutes. Les données sourcées sont également incluses dans les flux de données. Si vous souhaitez exclure les sources de données, excluez toutes les lignes comportant `hit_source = 5,7,8,9`.
+>[!IMPORTANT] Les accès qui sont exclus d’Adobe Analytics en temps normal sont inclus dans les flux de données. Utilisez `exclude_hit > 0` pour supprimer les accès exclus des requêtes sur les données brutes. Les données sourcées sont également incluses dans les flux de données. Si vous souhaitez exclure les sources de données, excluez toutes les lignes comportant `hit_source = 5,7,8,9`.
 
 ## Pages vues
 
@@ -25,7 +25,7 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 1. Concaténez `post_visid_high`, `post_visid_low`, `visit_num`et `visit_start_time_gmt`.
 1. Comptez le nombre unique de valeurs.
 
-> [!NOTE] Les irrégularités Internet, les irrégularités système ou l’utilisation d’identifiants visiteur personnalisés peuvent rarement utiliser les mêmes valeurs `visit_num` pour des visites différentes. Lorsque du comptage des visites, utilisez `visit_start_time_gmt` pour vous assurer la comptabilisation de ces visites.
+>[!NOTE] Les irrégularités Internet, les irrégularités système ou l’utilisation d’identifiants visiteur personnalisés peuvent rarement utiliser les mêmes valeurs `visit_num` pour des visites différentes. Lorsque du comptage des visites, utilisez `visit_start_time_gmt` pour vous assurer la comptabilisation de ces visites.
 
 ## Visiteurs
 
