@@ -3,7 +3,7 @@ description: valeur nulle
 title: Panneau Attribution - Aperçu
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Le panneau d’attribution est une fonction d’[Attribution IQ](../../attributi
 | ![Décroissance temporelle](assets/time_decay.png) | Décroissance temporelle | Suit une atténuation exponentielle avec un paramètre de demi-vie personnalisé, où la valeur par défaut est de sept jours. La pondération de chaque canal dépend de la durée écoulée entre l’initiation du point de contact et la conversion éventuelle. La formule utilisée pour déterminer le crédit est `2^(-t/halflife)`, où `t` correspond à la durée entre un point de contact et une conversion. Tous les points de contact sont alors normalisés à 100 %. | L’idéal pour les équipes qui exécutent régulièrement de la publicité vidéo ou qui font du marketing pour des événements avec une date prédéterminée. Plus une conversion se produit après un événement marketing, plus faible sera le crédit attribué. |
 | ![Participation](assets/participation.png) | Participation | Attribue un crédit de 100 % à tous les points de contact uniques. Le nombre total de conversions est gonflé par rapport aux autres modèles d’attribution. La participation déduplique les canaux qui sont vus à plusieurs reprises. | Excellent pour comprendre la fréquence à laquelle les clients sont exposés à une interaction donnée. Les sociétés de médias utilisent fréquemment ce modèle pour calculer la vitesse du contenu. Les sociétés de vente au détail utilisent souvent ce modèle pour comprendre les parties de leur site qui sont essentielles à la conversion. |
 
-> [!NOTE] Le modèle d’attribution algorithmique suivant est actuellement disponible dans [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) et fera éventuellement partie d’une version générale.
+>[!NOTE] Le modèle d’attribution algorithmique suivant est actuellement disponible dans [Adobe Analytics Labs](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/tech-previews/overview.html) et fera éventuellement partie d’une version générale.
 
 | Icône de l’interface utilisateur | Modèle d’attribution | Définition | Conditions d’utilisation |
 | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ Selon votre intervalle de recherche en amont et votre modèle d’attribution, l
       * Réseaux sociaux : 18,6 %, gain de 9,32 $
       * Référencement payant : 13,8 %, gain de 6,92 $
 
-> [!TIP] D’autres événements de conversion, tels que des commandes ou des événements personnalisés, sont également divisés si le crédit appartient à plusieurs canaux. Par exemple, si deux canaux contribuent à un événement personnalisé à l’aide d’un modèle d’attribution linéaire, les deux canaux obtiennent 0,5 de l’événement personnalisé. Ces fractions d’événement sont additionnées pour toutes les visites, puis arrondies à l’entier le plus proche à des fins de création de rapports.
+>[!TIP] D’autres événements de conversion, tels que des commandes ou des événements personnalisés, sont également divisés si le crédit appartient à plusieurs canaux. Par exemple, si deux canaux contribuent à un événement personnalisé à l’aide d’un modèle d’attribution linéaire, les deux canaux obtiennent 0,5 de l’événement personnalisé. Ces fractions d’événement sont additionnées pour toutes les visites, puis arrondies à l’entier le plus proche à des fins de création de rapports.
 
 ## Utilisation de l’attribution avec des canaux marketing
 
@@ -97,4 +97,4 @@ Par exemple, si vous créez une suite de rapports virtuelle avec un segment « 
 
 ![Suite de rapports virtuelle, affichage uniquement](assets/vrs-aiq-example.png)
 
-> [!NOTE] Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masquera simplement certaines valeurs de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment et un filtre avec des définitions comparables peuvent parfois renvoyer des valeurs inférieures pour le segment.
+>[!NOTE] Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masquera simplement certaines valeurs de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment et un filtre avec des définitions comparables peuvent parfois renvoyer des valeurs inférieures pour le segment.
