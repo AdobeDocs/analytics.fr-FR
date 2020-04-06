@@ -3,7 +3,7 @@ description: valeur nulle
 title: Déploiement de l’intégration
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ Pour activer l’intégration, exécutez l’assistant de configuration dans l�
 
 Une fois l’assistant d’intégration terminé, déployez l’objet de configuration d’intégration sur votre propriété web. Dans de nombreux cas, le moyen le plus simple de déployer l’objet de configuration de l’intégration consiste à l’inclure dans votre code de déploiement Adobe Analytics.
 
-> [!NOTE] Si vous utilisez Adobe Experience Platform Launch, vous pouvez facilement ajouter l’objet de configuration de l’intégration à l’aide de cet outil.
+>[!NOTE] Si vous utilisez Adobe Experience Platform Launch, vous pouvez facilement ajouter l’objet de configuration de l’intégration à l’aide de cet outil.
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. Téléchargez et enregistrez la **[!UICONTROL Kampyle Integration Code (JS)]** ressource. Le code ressemble à ceci :
@@ -61,7 +61,7 @@ Vérifiez que l’intégration transfère correctement les données en effectuan
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
-> [!NOTE] Les entrées de journal s’affichent généralement dans les 24 heures suivant le déploiement réussi.
+>[!NOTE] Les entrées de journal s’affichent généralement dans les 24 heures suivant le déploiement réussi.
 
 ![Journal  du d’intégration](assets/integration_activity_log.png)
 
@@ -69,6 +69,6 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 Affichez vos rapports de retour Kampyle avec Adobe Analytics en accédant aux rapports Kampyle dans la structure de menus appropriée.
 
-> [!NOTE] Les données de création de rapports doivent apparaître dans les 24 à 48 heures suivant le déploiement réussi, en supposant que les formulaires de retour intégrés reçoivent activement des soumissions.
+>[!NOTE] Les données de création de rapports doivent apparaître dans les 24 à 48 heures suivant le déploiement réussi, en supposant que les formulaires de retour intégrés reçoivent activement des soumissions.
 
 ![Données  Adobe](assets/adobe_reporting_data.png)
