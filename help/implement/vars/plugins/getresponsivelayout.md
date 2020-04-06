@@ -1,48 +1,48 @@
 ---
 title: getResponsiveLayout
-description: Déterminer la mise en page d’un site Web actuellement consulté.
+description: Permet de déterminer la mise en page d’un site web actuellement consulté.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Module externe Adobe : getResponsiveLayout
+# Plug-in Adobe : getResponsiveLayout
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+>[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
-Le `getResponsiveLayout` module vous permet de suivre la version de votre site Web réactif basé sur la conception qu’un examine actuellement. Adobe recommande d’utiliser ce module externe si votre site utilise une conception adaptée et si vous souhaitez effectuer le suivi de la version du site affichée par un. Ce module externe n’est pas nécessaire si votre site n’utilise pas de conception adaptée.
+Le plug-in `getResponsiveLayout` vous permet de savoir quelle version de votre site web basé sur une conception adaptée est actuellement consultée par un visiteur. Adobe recommande d’utiliser ce plug-in si votre site utilise une conception adaptée et que vous souhaitez effectuer le suivi de la version du site consultée par un visiteur. Ce plug-in n’est pas nécessaire si votre site n’utilise pas de conception adaptée.
 
-## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
+## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
-1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
-1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
-   * Condition : Aucun
-   *  : Core - Bibliothèque chargée (Haut de la page)
-1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
-   * Extension : Plug-ins Analytics courants
-   * Type d&#39;action : Initialiser getResponsiveLayout
+1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
+   * Condition : aucune
+   * Événement : Core - Bibliothèque chargée (Haut de la page)
+1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   * Extension : plug-ins Analytics communs
+   * Type d’action : initialisation de getResponsiveLayout
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du module externe à l’aide de l’éditeur de code personnalisé Lancer
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
 
-Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de votre choix.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
-1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
+1. Ouvrez l’éditeur de code personnalisé et collez le code de plug-in fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
-## Installation du module externe à l’aide d’AppMeasurement
+## Installation du plug-in à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide de [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre mise en œuvre permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,49 +51,49 @@ var getResponsiveLayout=function(ppw,plw,tw){if(!(isNaN(ppw)||isNaN(plw)||isNaN(
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilisation du module externe
+## Utilisation du plug-in
 
-La `getResponsiveLayout` méthode utilise les arguments suivants :
+La méthode `getResponsiveLayout` utilise les arguments suivants :
 
-* **`ppw`** (obligatoire, entier) : Largeur maximale de pixels qu’une fenêtre du navigateur peut avoir avant que la page ne passe d’une mise en page portrait pour smartphone à une mise en page paysage pour smartphone.
-* **`plw`** (obligatoire, entier) : Largeur maximale de pixels qu’une fenêtre du navigateur peut avoir avant que la page ne passe d’une disposition paysage pour smartphone à une disposition pour tablette
-* **`tw`** (obligatoire, booléen) : Largeur maximale de pixels qu’une fenêtre du navigateur peut avoir avant que la page ne passe d’une mise en page pour tablette à une mise en page pour ordinateur de bureau.
+* **`ppw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode portrait au mode paysage.
+* **`plw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode paysage au mode tablette.
+* **`tw`** (obligatoire, booléen) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode tablette au mode bureau.
 
-L’appel de cette méthode renvoie une chaîne contenant deux parties. La première partie utilise les valeurs suivantes, selon la largeur du navigateur et les arguments ci-dessus :
+L’appel de cette méthode renvoie une chaîne contenant deux parties. La première partie utilise les valeurs suivantes, selon la largeur de la fenêtre du navigateur et les arguments ci-dessus :
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
-* `"phone layout"` (pour les sites qui n’ont pas de mise en page portrait et paysage)
+* `"phone layout"` (pour les sites qui n’ont pas de format portrait et paysage)
 * `"tablet layout"`
 * `"desktop layout"`
 
-La deuxième partie de la chaîne renvoyée correspond aux dimensions de largeur et de hauteur du navigateur. Par exemple : `"desktop layout:1243x700"`.
+La deuxième partie de la chaîne renvoyée correspond aux dimensions en largeur et en hauteur du navigateur. Par exemple : `"desktop layout:1243x700"`.
 
 ## Exemples d’appels
 
-### Exemple n° 1
+### Exemple 1
 
-Si la variable...
+Si…
 
-* Votre site passe du mode Portrait du téléphone au mode Paysage du téléphone lorsque la largeur du navigateur est supérieure à 500 pixels.
-* Votre site passe du mode paysage pour smartphone au mode tablette lorsque la largeur du navigateur est supérieure à 700 pixels
-* Votre site passe du mode Tablette au mode Bureau lorsque la largeur du navigateur est supérieure à 1 000 pixels
+* Votre site passe du mode portrait au mode paysage lorsque la largeur de la fenêtre du navigateur est supérieure à 500 pixels
+* Votre site passe du mode paysage au mode tablette lorsque la largeur de la fenêtre du navigateur est supérieure à 700 pixels
+* Votre site passe du mode tablette au mode bureau lorsque la largeur de la fenêtre du navigateur est supérieure à 1 000 pixels
 
-...le code suivant définit eVar10 sur la disposition de la conception adaptée actuelle comme expérience du, ainsi que sur la largeur et les dimensions du navigateur.
+…le code suivant définit eVar10 sur la disposition actuelle de la conception adaptée selon l’expérience du visiteur ainsi que la largeur et les dimensions du navigateur.
 
 ```js
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
 ```
 
-### Exemple n° 2
+### Exemple 2
 
-Si la variable...
+Si…
 
-* Votre site ne dispose que d’un mode pour smartphone, d’un mode pour tablette et d’un mode pour ordinateur de bureau.
-* Votre site passe du mode smartphone au mode tablette lorsque la largeur du navigateur est supérieure à 500 pixels
-* Votre site passe du mode Tablette au mode Bureau lorsque la largeur du navigateur est supérieure à 1 100 pixels
+* Votre site ne dispose que d’un mode téléphone, d’un mode tablette et d’un mode bureau
+* Votre site passe du mode téléphone au mode tablette lorsque la largeur de la fenêtre du navigateur est supérieure à 500 pixels
+* Votre site passe du mode tablette au mode bureau lorsque la largeur de la fenêtre du navigateur est supérieure à 1 100 pixels
 
-...le code suivant définit eVar10 sur la disposition de la conception adaptée actuelle comme expérience du, ainsi que sur la largeur et les dimensions du navigateur.
+…le code suivant définit eVar10 sur la disposition actuelle de la conception adaptée selon l’expérience du visiteur ainsi que la largeur et les dimensions du navigateur.
 
 ```js
 s.eVar10 = getResponsiveLayout(500, 500, 1100);
@@ -101,6 +101,6 @@ s.eVar10 = getResponsiveLayout(500, 500, 1100);
 
 ## Historique des versions
 
-### 1.0 (2 mai 2018)
+### 1.0 (2 mai 2018)
 
 * Version initiale.
