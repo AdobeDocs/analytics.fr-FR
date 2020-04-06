@@ -1,8 +1,8 @@
 ---
 title: Module Integrate
 description: Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation.
-translation-type: ht
-source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation. Cette intégration donne la possibilité d’établir une connexion de données bidirectionnelle. En règle générale, l’utilisation du module Integrate est gérée par un partenaire Adobe.
 
-> [!NOTE] La demande de données de partenaire dans votre mise en œuvre peut augmenter les délais entre le chargement de pages et l’envoi de données aux serveurs de collecte de données Adobe. Si un visiteur charge une nouvelle page avant l’envoi des données, cette page n’est pas enregistrée.
+>[!NOTE] La demande de données de partenaire dans votre mise en œuvre peut augmenter les délais entre le chargement de pages et l’envoi de données aux serveurs de collecte de données Adobe. Si un visiteur charge une nouvelle page avant l’envoi des données, cette page n’est pas enregistrée.
 
 ## Processus du module Integrate
 
@@ -30,7 +30,7 @@ L’obtention du code de module requiert un utilisateur disposant de l’accès 
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur l’icône à 9 carrés dans l’angle supérieur droit, puis sur le logo Analytics coloré.
-1. Dans le volet de navigation supérieur, cliquez sur [!UICONTROL Administration] > [!UICONTROL Gestionnaire de code].
+1. Dans le volet de navigation supérieur, cliquez sur [!UICONTROL Admin] > [!UICONTROL Code Manager].
 1. Téléchargez la bibliothèque AppMeasurement pour JavaScript la plus récente.
 1. Une fois le fichier téléchargé, décompressez-le et recherchez `AppMeasurement_Module_Integrate.js`.
 
