@@ -1,8 +1,8 @@
 ---
 title: purchaseID
 description: Permet de dédupliquer les accès en fonction d’un identifiant d’achat unique.
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -29,4 +29,4 @@ Cette variable peut stocker un maximum de 20 octets ; les valeurs de plus de 2
 s.purchaseID = "ABC123";
 ```
 
-> [!NOTE] N’utilisez pas de fonction d’organisation aléatoire pour générer un identifiant d’achat. Adobe recommande d’utiliser une [couche de données](../../prepare/data-layer.md) pour stocker un identifiant d’achat donné.
+>[!NOTE] N’utilisez pas de fonction d’organisation aléatoire pour générer un identifiant d’achat. Adobe recommande d’utiliser une [couche de données](../../prepare/data-layer.md) pour stocker un identifiant d’achat donné.
