@@ -1,48 +1,48 @@
 ---
 title: getGeoCoordinates
-description: Effectuez le suivi d’un  géoLocation.
+description: Permet d’assurer le suivi de la géolocalisation d’un visiteur.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Module externe Adobe : getGeoCoordinates
+# Plug-in Adobe : getGeoCoordinates
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+>[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
-Le `getGeoCoordinates` module externe vous permet de capturer la latitude et la longitude des périphériques . Adobe recommande d’utiliser ce module externe si vous souhaitez capturer des données de géolocalisation dans des variables Analytics.
+Le plug-in `getGeoCoordinates` vous permet de relever la latitude et la longitude des appareils des visiteurs. Adobe recommande d’utiliser ce plug-in si vous souhaitez collecter des données de géolocalisation dans des variables Analytics.
 
-## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
+## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
-1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
-1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
-   * Condition : Aucun
-   *  : Core - Bibliothèque chargée (Haut de la page)
-1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
-   * Extension : Plug-ins Analytics courants
-   * Type d&#39;action : Initialisation de getGeoCoordinates
+1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
+   * Condition : aucune
+   * Événement : Core - Bibliothèque chargée (Haut de la page)
+1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   * Extension : plug-ins Analytics communs
+   * Type d’action : initialisation de getGeoCoordinates
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du module externe à l’aide de l’éditeur de code personnalisé Lancer
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
 
-Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de votre choix.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
-1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
+1. Ouvrez l’éditeur de code personnalisé et collez le code de plug-in fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
-## Installation du module externe à l’aide d’AppMeasurement
+## Installation du plug-in à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide de [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre mise en œuvre permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,33 +51,33 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilisation du module externe
+## Utilisation du plug-in
 
-La `getGeoCoordinates` méthode n’utilise aucun argument. Elle renvoie l’une des valeurs suivantes :
+La méthode `getGeoCoordinates` n’utilise aucun argument. Elle renvoie l’une des valeurs suivantes :
 
-* `"geo coordinates not available"`: Pour les périphériques qui ne disposent pas de données de géolocalisation disponibles au moment de l’exécution du module. Cette valeur est courante lors du premier accès de la visite, en particulier lorsque les doivent d’abord donner leur consentement lors du suivi de leur emplacement.
-* `"error retrieving geo coordinates"`: Lorsque le module externe rencontre des erreurs lors de la tentative de récupération de l’emplacement du périphérique
-* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Où [LATITUDE]/[LONGITUDE] sont respectivement la latitude et la longitude,
+* `"geo coordinates not available"` : pour les appareils qui ne disposent pas de données de géolocalisation au moment de l’exécution du plug-in. Cette valeur est courante lors du premier accès de la visite, en particulier lorsque les visiteurs doivent d’abord donner leur consentement pour le suivi de leur emplacement.
+* `"error retrieving geo coordinates"` : lorsque le plug-in rencontre des erreurs lors de la tentative de récupération de l’emplacement de l’appareil.
+* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"` : où [LATITUDE]/[LONGITUDE] sont respectivement la latitude et la longitude.
 
-> [!NOTE] Les valeurs de coordonnées sont arrondies à la quatrième décimale la plus proche. Par exemple, la valeur de `"40.438635333"` est arrondie `"40.4386"` pour limiter le nombre de valeurs uniques à capturer. Les valeurs sont suffisamment proches pour indiquer l’emplacement exact de l’appareil dans un rayon d’environ 6 mètres.
+>[!NOTE] Les valeurs des coordonnées sont arrondies à la quatrième décimale la plus proche. Par exemple, la valeur de `"40.438635333"` est arrondie à `"40.4386"` pour limiter le nombre de valeurs uniques à saisir. Les valeurs sont suffisamment proches pour déterminer l’emplacement exact de l’appareil dans un rayon d’environ 6 mètres.
 
-Ce module externe utilise un cookie nommé `"s_ggc"` pour stocker les coordonnées entre les accès, le cas échéant.
+Ce plug-in utilise un cookie nommé `"s_ggc"` pour stocker les coordonnées entre les accès si nécessaire.
 
 ## Exemples d’appels
 
-### Exemple n° 1
+### Exemple 1
 
-Le code suivant...
+Le code suivant…
 
 ```js
 s.eVar1 = s.getGeoCoordinates();
 ```
 
-...définit eVar1 sur l’une des valeurs renvoyées ci-dessus, en fonction de l’état du périphérique 
+…définit eVar1 sur l’une des valeurs renvoyées ci-dessus, selon l’état de l’appareil du visiteur.
 
-### Exemple n° 2
+### Exemple 2
 
-Le code suivant extrait la latitude et la longitude dans leurs propres variables appelées finalLatitude et finalLongitude pour les utiliser dans d&#39;autres codes/applications
+Le code suivant extrait la latitude et la longitude dans leurs propres variables appelées finalLatitude et finalLongitude pour les utiliser dans d’autres codes/applications.
 
 ```js
 var coordinates = s.getGeoCoordinates();
@@ -88,7 +88,7 @@ if(coordinates.indexOf("latitude") > -1)
 }
 ```
 
-A partir de là, vous pouvez déterminer si un se trouve, par exemple, à la Statue de la Liberté :
+De là, vous pouvez déterminer si un visiteur se trouve, par exemple, à la Statue de la Liberté :
 
 ```js
 if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongtude >= -74.0446 && finalLongitude <= -74.0444)
@@ -99,6 +99,6 @@ else
 
 ## Historique des versions
 
-### 1.0 (25 mai 2015)
+### 1.0 (25 mai 2015)
 
 * Version initiale.
