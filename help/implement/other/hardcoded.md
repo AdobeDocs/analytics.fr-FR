@@ -1,8 +1,8 @@
 ---
 title: Mise en œuvre avec des demandes d’image codées en dur
 description: Mise en œuvre d’Adobe Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur)
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Les bibliothèques AppMeasurement fournies par Adobe compilent les variables pr�
 
 Cette méthode de mise en œuvre peut être utilisée sur n’importe quelle plateforme qui affiche des images provenant de sources externes. Elle ne dépend pas du tout de JavaScript.
 
-> [!NOTE] Bien que les demandes d’image codées en dur soient faciles à configurer, il est difficile de les déboguer, de les gérer et de les mettre à l’échelle dans des projets de grande envergure. Assurez-vous que les demandes d’image codées en dur sont la meilleure option pour vous avant de continuer.
+>[!NOTE] Bien que les demandes d’image codées en dur soient faciles à configurer, il est difficile de les déboguer, de les gérer et de les mettre à l’échelle dans des projets de grande envergure. Assurez-vous que les demandes d’image codées en dur sont la meilleure option pour vous avant de continuer.
 
 ## Syntaxe de la demande d’image
 
