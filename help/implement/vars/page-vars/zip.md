@@ -1,17 +1,17 @@
 ---
 title: zip
 description: Permet de renseigner manuellement la dimension « Code postal » si les paramètres de la suite de rapports le permettent.
-translation-type: ht
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # zip
 
-La variable `zip` vous permet de renseigner manuellement la dimension « Code postal » si l’[!UICONTROL option de code postal] des paramètres de la suite de rapports l’autorise. Dans les versions précédentes d’Adobe Analytics, cette variable ne pouvait être définie manuellement que lors de la saisie d’informations d’expédition sur un site de vente au détail. Les améliorations apportées à Adobe Analytics permettent de définir automatiquement cette variable à l’aide des données de géolocalisation. Cette variable ne persiste pas au-delà de l’accès auquel elle est définie.
+The `zip` variable allows you to manually populate the &#39;Zip Code&#39; dimension if the [!UICONTROL Zip Option] in report suite settings allows it. Dans les versions précédentes d’Adobe Analytics, cette variable ne pouvait être définie manuellement que lors de la saisie d’informations d’expédition sur un site de vente au détail. Les améliorations apportées à Adobe Analytics permettent de définir automatiquement cette variable à l’aide des données de géolocalisation. Cette variable ne persiste pas au-delà de l’accès auquel elle est définie.
 
-> [!IMPORTANT] Assurez-vous que l’[!UICONTROL option de code postal] des paramètres de la suite de rapports est définie sur la valeur souhaitée. Vous ne pouvez pas utiliser cette variable si [!UICONTROL geo zip] est toujours utilisé. Pour plus d’informations, consultez la section [Paramètres généraux du compte](/help/admin/admin/general-acct-settings-admin.md) du guide d’utilisation Administrateur.
+>[!IMPORTANT] Assurez-vous que les paramètres [!UICONTROL Zip Option] de la suite de rapports sont définis sur la valeur souhaitée. Vous ne pouvez pas utiliser cette variable si [!UICONTROL geo zip] est toujours utilisé. Pour plus d’informations, consultez la section [Paramètres généraux du compte](/help/admin/admin/general-acct-settings-admin.md) du guide d’utilisation Administrateur.
 
 ## Code postal dans Adobe Experience Platform Launch
 
@@ -19,10 +19,10 @@ Vous pouvez définir le code postal lors de la configuration de l’extension An
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
-4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
-6. Recherchez la section [!UICONTROL Code postal].
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Sous [!UICONTROL Actions], cliquez sur une [!UICONTROL Adobe Analytics - Set Variables] action existante ou cliquez sur l’icône &quot;+&quot;.
+5. Définissez la [!UICONTROL Extension] liste déroulante sur Adobe Analytics et la [!UICONTROL Action Type] sur [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Zip] section.
 
 Vous pouvez définir le code postal sur n’importe quelle valeur de chaîne, y compris les éléments de données.
 
