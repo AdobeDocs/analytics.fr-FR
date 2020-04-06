@@ -2,8 +2,8 @@
 description: valeur nulle
 title: Générateur d’alertes
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Accès au Générateur d’alertes
 
-Le Générateur d’alertes peut être ouvert de l’une des quatre façons suivantes :
+Accédez au Générateur d’alertes de l’une des quatre manières suivantes :
 
-* En utilisant le raccourci clavier suivant dans Analysis Workspace :
+* En utilisant le raccourci ci suivant dans   Workspace de :
 
    `ctrl (or cmd) + shift + a`
-* En sélectionnant **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
-* En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
-* Dans un rapport Reports &amp; Analytics, en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
+* En sélectionnant **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
+* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
+* Dans un rapport Rapports et analyses, sélectionnez **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 
 ## Générer des alertes
 
@@ -35,17 +35,17 @@ Les utilisateurs qui ont déjà créé des segments ou calculé des mesures dans
 
 **Nom d’alerte**
 
-Spécifiez le nom de l’alerte. Le nom de l’alerte doit contenir le nom du rapport ou le seuil des mesures.
+Attribuez un nom à l’alerte. Le nom de l&#39;alerte peut contenir le nom du rapport ou le seuil des mesures.
 
 **Granularité du temps**
 
 Spécifiez quand vérifier la mesure : chaque heure, chaque jour, chaque semaine ou chaque mois.
 
-> [!NOTE] Dans le Générateur d’alertes, il n’est pas possible de sélectionner la granularité mensuelle pour les suites de rapports dotées d’un calendrier personnalisé.
+>[!NOTE] Dans le Générateur d’alertes, il n’est pas possible de sélectionner la granularité mensuelle pour les suites de rapports dotées d’un calendrier personnalisé.
 
 **Destinataires**
 
-Spécifiez où envoyer l’alerte. Une alerte peut être envoyée à un utilisateur ou à un groupe Analytics, à une adresse électronique brute ou à un numéro de téléphone.
+Spécifiez où envoyer l’alerte. Une alerte peut être envoyée à un utilisateur Analytics, à un groupe Analytics, à une adresse électronique brute ou à un numéro de téléphone.
 
 >[!IMPORTANT]
 >
@@ -66,21 +66,21 @@ Spécifiez la date d’expiration de l’alerte.
 * Faites glisser et déplacez les mesures dans la zone de travail des déclencheurs.
 
    Un message **« composants incompatibles »** s’affiche si certains composants (mesures/dimensions/segments) de l’alerte ne sont pas compatibles avec la suite de rapports actuellement sélectionnée.
-* Déterminez le seuil que la mesure doit dépasser avant l’envoi d’une alerte. Vous pouvez définir un seuil, puis l’une des conditions suivantes :
+* Déterminez le seuil que la mesure doit dépasser avant la définition d’une alerte. Vous pouvez définir cette valeur sur un seuil, puis sur l’une des conditions suivantes :
 
    * il existe une anomalie
    * l’anomalie est supérieure à celle prévue
    * l’anomalie est inférieure à celle prévue
-   * est supérieur ou égal
-   * est inférieur ou égal
-   * change de
+   * est supérieur ou égal à
+   * est inférieur ou égal à
+   * modifications par
    * Le seuil peut être défini à 90 %, 95 %, 99 %, 99,75 % ou 99,90 %.
    Vous pouvez également utiliser les mesures calculées.
 
 *Avec tous ces filtres*
 
-* Faites glisser et déplacez les segments ou dimensions pour ajouter des filtres. Par exemple, ajoutez un segment « Appareils mobiles seulement » afin de signifier que la règle se déclenche uniquement pour les appareils mobiles.
-* Pour ajouter d’autres filtres, utilisez une instruction ET.
+* Faites glisser des segments ou des dimensions pour ajouter des . Par exemple, l’ajout d’un segment &quot;Périphériques mobiles uniquement&quot; signifie que la règle se déclenche uniquement pour les périphériques mobiles.
+* Des  supplémentaires seront ajoutées à l’aide d’une instruction ET.
 
 **Ajouter une règle**
 
@@ -88,10 +88,10 @@ Pour ajouter des règles AND ou OR, cliquez sur l’icône d’engrenage.
 
 ## Aperçu des alertes {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-Dans l’aperçu interactif des alertes, vous pouvez déterminer à quelle fréquence, approximativement, une alerte sera déclenchée en fonction d’une expérience antérieure.
+Le d’alertes interactif vous  la fréquence, approximativement, de déclenchement d’une alerte en fonction de l’expérience passée.
 
-Si, par exemple, vous définissez une granularité temporelle quotidienne, l’aperçu indique que, pour une certaine mesure, l’alerte aurait été déclenchée x fois durant les 30 ou 31 derniers jours.
+Si, par exemple, vous définissez la granularité temporelle sur quotidienne, le peut vous indiquer que l’alerte aurait été déclenchée pour une certaine mesure x fois au cours des 30 ou 31 derniers jours.
 
-Pour réduire le nombre d’alertes déclenchées, réglez le seuil dans le [Gestionnaire d’alertes](/help/components/c-alerts/alert-manager.md).
+Si vous constatez qu’un trop grand nombre d’alertes auraient été déclenchées, vous pouvez ajuster le seuil dans le Gestionnaire d’ [alertes](/help/components/c-alerts/alert-manager.md).
 
 ![](assets/alert_preview.png)
