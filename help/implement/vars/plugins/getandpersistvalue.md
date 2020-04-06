@@ -1,48 +1,48 @@
 ---
 title: getAndPersistValue
-description: Stockez une valeur qui peut être récupérée ultérieurement à tout moment.
+description: Permet de stocker une valeur qui peut être récupérée ultérieurement à tout moment.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Module externe Adobe : getAndPersistValue
+# Plug-in Adobe : getAndPersistValue
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+>[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
-Le `getAndPersistValue` module externe vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle similaire à celui de la [!UICONTROL Storage duration] fonctionnalité de lancement d’Adobe Experience Platform. Adobe conseille d’utiliser ce module externe si vous souhaitez conserver automatiquement une variable Analytics à la même valeur dans les accès suivants une fois la variable définie. Ce module externe n’est pas nécessaire si la [!UICONTROL Storage duration] fonction de lancement est suffisante ou si vous n’avez pas besoin de définir et de conserver des variables avec la même valeur dans les accès suivants. La persistance intégrée des eVars ne nécessite pas l’utilisation de ce module externe, car ces variables persistent côté serveur par Adobe.
+Le plug-in `getAndPersistValue` vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. It serves a similar role to the [!UICONTROL Storage duration] feature in Adobe Experience Platform Launch. Adobe conseille d’utiliser ce plug-in si vous souhaitez conserver automatiquement une variable Analytics à la même valeur lors d’accès ultérieurs une fois la variable définie. This plug-in is not necessary if Launch&#39;s [!UICONTROL Storage duration] feature is sufficient, or if you do not need to set and persist variables to the same value in subsequent hits. La persistance intégrée des eVars ne nécessite pas l’utilisation de ce plug-in, car ces variables sont conservées côté serveur par Adobe.
 
-## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
+## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
-1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
-1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
-   * Condition : Aucun
-   *  : Core - Bibliothèque chargée (Haut de la page)
-1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
-   * Extension : Plug-ins Analytics courants
-   * Type d&#39;action : Initialize getAndPersistValue
+1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
+   * Condition : aucune
+   * Événement : Core - Bibliothèque chargée (Haut de la page)
+1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   * Extension : plug-ins Analytics communs
+   * Type d’action : initialisation de getAndPersistValue
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du module externe à l’aide de l’éditeur de code personnalisé Lancer
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
 
-Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de votre choix.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
-1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
+1. Ouvrez l’éditeur de code personnalisé et collez le code de plug-in fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
-## Installation du module externe à l’aide d’AppMeasurement
+## Installation du plug-in à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide de [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre mise en œuvre permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,84 +51,84 @@ s.getAndPersistValue=function(vtp,cn,ex){var b=new Date;cn=cn?cn:"s_gapv";(ex=ex
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilisation du module externe
+## Utilisation du plug-in
 
-La `getAndPersist` méthode utilise les arguments suivants :
+La méthode `getAndPersist` utilise les arguments suivants :
 
-* **`vtp`** (obligatoire) : Valeur à conserver d’une page à l’autre
-* **`cn`** (facultatif) : Nom du cookie pour stocker la valeur. Si cet argument n’est pas défini, le cookie est nommé `"s_gapv"`
-* **`ex`** (facultatif) : Nombre de jours avant l’expiration du cookie. Si cet argument est `0` ou n’est pas défini, le cookie expire à la fin de la visite (30 minutes d’inactivité).
+* **`vtp`** (obligatoire) : valeur à conserver d’une page à l’autre.
+* **`cn`** (facultatif) : nom du cookie permettant de stocker la valeur. Si cet argument n’est pas défini, le cookie est nommé `"s_gapv"`.
+* **`ex`** (facultatif) : nombre de jours avant l’expiration du cookie. Si cet argument est défini sur `0` ou n’est pas défini, le cookie expire à la fin de la visite (30 minutes d’inactivité).
 
-Si la variable de l’ `vtp` argument est définie, le plug-in définit le cookie, puis renvoie la valeur du cookie. Si la variable de l’ `vtp` argument n’est pas définie, le module externe renvoie uniquement la valeur du cookie.
+Si la variable de l’argument `vtp` est définie, alors le plug-in définit le cookie puis renvoie la valeur du cookie. Si la variable de l’argument `vtp` n’est pas définie, alors le plug-in renvoie uniquement la valeur du cookie.
 
 ## Exemples
 
-### Exemple n° 1
+### Exemple 1
 
-Le code suivant définit eVar21 sur la valeur de &quot;hello&quot;.  Le code définira alors le cookie ev21gapv, qui expirera dans 28 jours, égal à la valeur d’eVar21 (c.-à-d. &quot;bonjour&quot;).  Le code définira alors (re)eVar21 sur la valeur du cookie ev21gapv.
+Le code suivant définit eVar21 sur la valeur de « hello ».  Le code définit alors le cookie ev21gapv, qui expirera dans 28 jours, sur la valeur d’eVar21 (c’est-à-dire « hello »).  Le code définit (ou réinitialise) alors eVar21 sur la valeur du cookie ev21gapv.
 
 ```js
 s.eVar21 = "hello";
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Exemple n° 2
+### Exemple 2
 
-Supposons que l’eVar21 n’ait pas encore été définie sur la page active, mais qu’elle ait été définie sur &quot;salut&quot; sur une page précédente au cours des 28 derniers jours.   Le code suivant définit uniquement eVar21 sur la valeur du cookie ev21gapv (c.-à-d. &quot;bonjour&quot;).  Le cookie ev21gapv n’est pas réinitialisé, car eVar21 n’était pas définie sur la page active avant l’appel de la fonction.
+Supposons qu’eVar21 n’ait pas encore été défini sur la page active, mais qu’il ait été défini sur « hello » sur une page précédente au cours des 28 derniers jours.   Le code suivant définit uniquement eVar21 sur la valeur du cookie ev21gapv (c’est-à-dire « hello »).  Le cookie ev21gapv n’est pas réinitialisé, car eVar21 n’était pas défini sur la page active avant l’appel de la fonction.
 
 ```js
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Exemple n° 3
+### Exemple 3
 
-Supposons que l’eVar21 n’ait pas encore été définie sur la page active, mais qu’elle ait été définie sur &quot;salut&quot; sur une page précédente au cours des 28 derniers jours.  Le code suivant définit uniquement prop35 sur la valeur du cookie ev21gapv (c.-à-d. &quot;bonjour&quot;).  Il ne définit pas eVar21.
+Supposons qu’eVar21 n’ait pas encore été défini sur la page active, mais qu’il ait été défini sur « hello » sur une page précédente au cours des 28 derniers jours.  Le code suivant définit uniquement prop35 sur la valeur du cookie ev21gapv (c’est-à-dire « hello »).  Il ne définit pas eVar21.
 
 ```js
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Exemple n° 4
+### Exemple 4
 
-Le code suivant définit eVar21 sur la valeur de &quot;howdy&quot;.  Le code définira ensuite (ou réinitialisera) le cookie ev21gapv, qui expirera dans 28 jours, égal à la valeur d’eVar21 (c.-à-d. &quot;howdy&quot;).  Le code définira ensuite prop35 comme la valeur du cookie ev21gapv (c.-à-d. &quot;howdy&quot;).
+Le code suivant définit eVar21 sur la valeur de « howdy ».  Le code définit (ou réinitialise) alors le cookie ev21gapv, qui expirera dans 28 jours, sur la valeur d’eVar21 (c’est-à-dire « howdy »).  Le code définit alors prop35 sur la valeur du cookie ev21gapv (c’est-à-dire « howdy »).
 
 ```js
 s.eVar21 = "howdy";
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Exemple n° 5
+### Exemple 5
 
-Supposons que s.eVar21 n&#39;ait été défini sur aucune page au cours des 28 derniers jours.  Le code suivant définit s.eVar21 comme étant nul, car le cookie ev21gapv aurait expiré 28 jours après sa dernière définition.
+Supposons que s.eVar21 n’ait été défini sur aucune page au cours des 28 derniers jours.  Le code suivant définit s.eVar21 comme étant nul, car le cookie ev21gapv aurait expiré 28 jours après sa dernière définition.
 
 ```js
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Exemple n° 6
+### Exemple 6
 
-Le code suivant définit eVar30 sur &quot;shopping&quot;.  Il définira ensuite le cookie s_gapv, qui expirera à la fin de la session du navigateur, comme la valeur de s.eVar30 (c.-à-d. &quot;shopping&quot;).  Il définira ensuite s.eVar30 sur la valeur du cookie s_gapv (c&#39;est-à-dire que l&#39;appel getAndPersistValue renvoie la valeur du cookie s_gapv, qui est dans ce cas &quot;shopping&quot;).
+Le code suivant définit eVar30 sur « shopping ».  Il définit alors le cookie s_gapv, qui expire à la fin de la session du navigateur, sur la valeur de s.eVar30 (c’est-à-dire « shopping »).  Il définit ensuite s.eVar30 sur la valeur du cookie s_gapv (autrement dit, l’appel getAndPersistValue renvoie la valeur du cookie s_gapv, qui dans ce cas est « shopping »).
 
 ```js
 s.eVar30 = "shopping";
 s.eVar30 = s.getAndPersistValue(s.eVar30);
 ```
 
-Si s.eVar30 n’est pas définie sur une valeur explicite sur des pages supplémentaires affichées pendant la session, mais est définie (dans doPlugins) via le code suivant...
+Si s.eVar30 n’est pas défini sur une valeur explicite sur des pages supplémentaires affichées pendant la session, mais est défini (dans doPlugins) via le code suivant…
 
 ```js
 s.eVar30 = s.getAndPersistValue(s.eVar30);
 ```
 
-...s.eVar30 sera définie sur &quot;shopping&quot; (c&#39;est-à-dire la valeur persistante du cookie s_gapv).
+…alors s.eVar30 sera défini sur « shopping » (soit la valeur persistante du cookie s_gapv).
 
 ## Historique des versions
 
-### 2.0 (16 avril 2018)
+### 2.0 (16 avril 2018)
 
-* Publication ponctuelle (taille de code réduite)
-* La transmission de 0 dans l’ `ex` argument force désormais l’expiration après 30 minutes d’inactivité plutôt que l’expiration à la fin de la session du navigateur.
+* Nouvelle version (taille de code réduite).
+* La transmission de 0 dans l’argument `ex` force désormais l’expiration après 30 minutes d’inactivité plutôt que l’expiration à la fin de la session du navigateur.
 
-### 1.0 (18 janvier 2016)
+### 1.0 (18 janvier 2016)
 
 * Version initiale.
