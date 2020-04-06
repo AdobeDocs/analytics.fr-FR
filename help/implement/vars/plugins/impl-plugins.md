@@ -1,35 +1,35 @@
 ---
 title: Présentation des plug-ins
-description: Collez le code sur votre site pour introduire de nouvelles fonctionnalités.
+description: Vous permet d’ajouter de nouvelles fonctionnalités en collant le code sur votre site.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Présentation des plug-ins
 
-Les plug-ins sont des fragments de code qui exécutent plusieurs fonctions avancées pour faciliter la mise en oeuvre d’Analytics. Ces modules externes étendent les capacités de votre fichier JavaScript en apportant des fonctionnalités qui ne sont pas disponibles avec l’implémentation de base. Adobe propose de nombreux autres modules dans le cadre de solutions avancées.
+Les plug-ins sont des fragments de code qui exécutent plusieurs fonctions avancées pour faciliter la mise en œuvre d’Analytics. Ces plug-ins étendent les capacités de votre fichier JavaScript en apportant des fonctionnalités qui ne sont pas disponibles avec la mise en œuvre de base. Adobe propose de nombreux autres plug-ins dans le cadre de solutions avancées.
 
-> [!IMPORTANT] Les plug-ins sont fournis par Adobe Consulting à titre gracieux pour vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit aucune assistance pour ces modules externes, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur un module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+>[!IMPORTANT] Les plug-ins sont fournis par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ces plug-ins, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur un plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
-Adobe  plusieurs  manières d’installer un module externe donné :
+Adobe propose plusieurs méthodes pour installer un plug-in donné :
 
-1. Utilisation de l’extension Common Analytics Plugins à l’aide d’Adobe Experience Platform Launch
-2. Coller le code du module externe à l’aide de l’éditeur de code personnalisé Lancer
-3. Collez le code du module externe dans votre `AppMeasurement.js` fichier
+1. Utiliser l’extension « Plug-ins Analytics communs » à l’aide d’Adobe Experience Platform Launch.
+2. Coller le code du plug-in à l’aide de l’éditeur de code personnalisé de Launch.
+3. Coller le code du plug-in dans le fichier `AppMeasurement.js`.
 
-Chaque organisation a des besoins d’implémentation différents. Vous pouvez donc décider de la manière dont vous souhaitez les inclure dans votre implémentation. Veillez à respecter les critères suivants lorsque vous incluez le code sur votre site :
+Chaque organisation a des besoins différents en matière de mise en œuvre. Vous pouvez donc décider de la manière dont vous souhaitez les prendre en compte dans votre mise en œuvre. Veillez à respecter les critères suivants lorsque vous intégrez le code dans votre site :
 
-1. Instanciez d’abord l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)).
-   * Lancer instancie automatiquement l’objet de suivi au chargement d’Adobe Analytics.
-   * Implémentations utilisant `AppMeasurement.js` généralement l’initialisation de l’objet de suivi en haut du fichier JavaScript.
-2. Insérez le code du module externe en deuxième.
-   * L’extension &quot;Plugins Analytics communs&quot; dispose d’une configuration d’action dans laquelle vous pouvez initialiser les plug-ins.
-   * Si vous ne souhaitez pas utiliser le module externe, vous pouvez coller le code du module dans l’éditeur de code personnalisé lors de la configuration de l’extension Analytics.
-   * Si votre implémentation n’utilise pas le paramètre Lancer, vous pouvez coller le code du module externe n’importe où `AppMeasurement.js` après avoir appelé l’objet de suivi.
-3. Appelez le module externe tiers.
-   * Toutes les implémentations, à l’intérieur et à l’extérieur de Launch, utilisent JavaScript pour appeler des modules externes. Appelez le module externe au format indiqué sur la page de ce module.
-4. Validez votre mise en oeuvre et publiez-la.
+1. Instanciez d’abord l’objet de suivi Analytics (avec [`s_gi`](../functions/s-gi.md)).
+   * Launch instancie automatiquement l’objet de suivi au chargement d’Adobe Analytics.
+   * Les mises en œuvre utilisant `AppMeasurement.js` initialisent généralement l’objet de suivi en haut du fichier JavaScript.
+2. Deuxièmement, intégrez le code du plug-in.
+   * L’extension « Plug-ins Analytics communs » dispose d’une configuration d’action qui permet d’initialiser des plug-ins.
+   * Si vous ne souhaitez pas utiliser le plug-in, vous pouvez coller le code du plug-in dans l’éditeur de code personnalisé lors de la configuration de l’extension Analytics.
+   * Si votre mise en œuvre n’utilise pas Launch, vous pouvez coller le code du plug-in dans `AppMeasurement.js` n’importe où après avoir instancié l’objet de suivi.
+3. Troisièmement, appelez le plug-in.
+   * Toutes les mises en œuvre, aussi bien internes qu’externes à Launch, utilisent JavaScript pour faire appel aux plug-ins. Appelez le plug-in en respectant le format indiqué sur la page de ce plug-in.
+4. Pour finir, validez votre mise en œuvre et publiez-la.
 
-De nombreuses organisations appellent des plug-ins à l’aide de la [`doPlugins`](../functions/doplugins.md) fonction. Bien que cette fonction ne soit pas requise, Adobe considère qu’il est préférable de l’utiliser. AppMeasurement appelle cette fonction juste avant de compiler et d’envoyer une demande d’image, ce qui est idéal car plusieurs plug-ins dépendent d’autres variables Analytics.
+De nombreuses entreprises utilisent la fonction [`doPlugins`](../functions/doplugins.md) pour faire appel à des plug-ins. Bien que cette fonction ne soit pas requise, Adobe considère qu’il est préférable de l’utiliser. AppMeasurement appelle cette fonction juste avant de compiler et d’envoyer une demande d’image, ce qui est idéal puisque plusieurs plug-ins dépendent d’autres variables Analytics.
