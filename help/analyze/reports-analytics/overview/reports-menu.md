@@ -1,61 +1,61 @@
 ---
-description: Une présentation du menu Rapports dans Reports & Analytics.
+description: Présentation du menu Rapports dans Rapports et analyses.
 title: Menu Rapports
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Menu Rapports{#reports-menu}
 
-Une présentation du menu Rapports dans Reports &amp; Analytics.
+Présentation du menu Rapports dans Rapports et analyses.
 
-Le menu Rapports permet ce qui suit :
+Le menu Rapports contient les éléments suivants :
 
-* Accès à un jeu complet de rapports
-* Capacité de définir des rapports favoris pour y accéder rapidement
-* Accès aux rapports fréquemment consultés
-* Recherche optimisée
+* Accès à l’ensemble complet des rapports
+* Possibilité de définir des rapports favoris pour un accès rapide
+* Rapports fréquemment consultés
+* Recherche améliorée
 
 ![](assets/menu-mainnav.png)
 
-Les options Mes favoris, Fréquemment affichés et Historique des rapports sont spécifiques à une suite de rapports. Si vous changez de suite de rapports, les listes de ces trois options changent.
+Mes favoris, Fréquemment affichés et Historique des rapports sont tous spécifiques à une suite de rapports. Si vous changez de suite de rapports, les trois  de changent.
 
-Vous pouvez naviguer dans les rapports en utilisant une colonne hiérarchique. Cliquez sur **[!UICONTROL Afficher tous les rapports]** ou appuyez sur la touche Barre oblique (/), puis sur la touche Flèche vers le bas (↓) pour afficher et parcourir rapidement le menu à l’aide des touches fléchées. Appuyez sur la touche Échap pour fermer le menu sans changer le rapport actif ou appuyez sur Entrée pour charger le rapport sélectionné.
+La navigation dans les rapports s’effectue à l’aide d’un de colonne hiérarchique. Cliquez sur **[!UICONTROL View All Reports]**, ou appuyez sur la touche Barre oblique (/), puis appuyez sur la touche Flèche vers le bas (?). pour afficher et parcourir rapidement le menu à l’aide des touches fléchées. Appuyez sur la touche Echap pour fermer le menu sans modifier le rapport actuel ou appuyez sur Entrée pour charger le rapport sélectionné.
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Pour obtenir plus de détails sur les rapports, voir [Description des rapports](https://marketing.adobe.com/resources/help/fr_FR/reference/reports_descriptions.html).
+Pour plus d’informations sur les rapports individuels, voir Description des [rapports](https://marketing.adobe.com/resources/help/fr_FR/reference/reports_descriptions.html).
 
 ## Recherche de rapports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-Le menu Rapports permet d’effectuer des recherches de manière plus optimale. Cliquez sur **[!UICONTROL Afficher tous les rapports]** ou appuyez sur la touche Barre oblique (/), puis commencez à saisir le nom du rapport à rechercher. La recherche de rapports a été étendue afin d’inclure tous les éléments du volet de navigation de gauche d’Analytics (Administration, Composants, etc.).
+Le menu Rapports permet d’effectuer des recherches de manière plus optimale. Cliquez sur **[!UICONTROL View All Reports]** , ou appuyez sur la touche Barre oblique (/) , puis commencez à taper pour trouver rapidement un rapport. La recherche de rapports a été étendue pour inclure tout ce qui se trouve dans le volet de navigation de gauche d’Analytics (Administration, Composants, etc.).
 
 ![](assets/menu-search.png)
 
-Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcourir la liste des rapports. Appuyez sur la touche Échap pour fermer la recherche sans changer le rapport actif ou appuyez sur Entrée pour charger le rapport sélectionné.
+Appuyez sur la touche de tabulation ou sur la touche fléchée Bas (?). pour naviguer dans le  des rapports. Appuyez sur la touche Echap pour fermer la recherche sans modifier le rapport actuel ou appuyez sur Entrée pour charger le rapport sélectionné.
 
-> [!NOTE] Vous pouvez également filtrer la liste de rapports par numéro de prop, d’eVar et d’événement. Dans la barre de recherche, entrez le numéro de prop, d’eVar ou d’événement.
+>[!NOTE] Vous pouvez également filtrer la liste de rapports par numéro de prop, d’eVar et d’événement. Dans la barre de recherche, saisissez le numéro de la prop, de l’eVar ou du .
 
 ## Aperçu de la navigation {#section_A6A0A369207149BABE504753B48A42D7}
 
 <table id="table_3BA295966BBC4C94ABDC3718D1894698"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Élément de menu </th> 
+   <th colname="col1" class="entry"> Elément de menu </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Menu des solutions Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Menu Solutions Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> Cliquer sur cette icône vous permet d’étendre le menu Experience Cloud et d’accéder à d’autres solutions Marketing Cloud. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Activer/désactiver le menu Rapports <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
-   <td colname="col2"> Cliquez sur ce bouton pour développer ou réduire le menu Rapports, afin d’afficher un rapport en pleine largeur de la fenêtre du navigateur. </td> 
+   <td colname="col1">Basculer vers le menu Rapports <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col2"> Le fait de cliquer sur ce bouton permet de développer ou de réduire le menu Rapports afin de pouvoir  un rapport en utilisant toute la largeur de la fenêtre du navigateur. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segments <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
@@ -71,19 +71,19 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1">Barre de recherche dans <span class="uicontrol">Afficher tous les rapports</span> </td> 
-   <td colname="col2"> <p> Vous permet de rechercher la ressource dont vous avez besoin. Utilise la recherche approximative afin que vous n’ayez pas à entrer le libellé exact du terme que vous recherchez. Les résultats de la recherche s’affichent dans une liste que vous pouvez parcourir à l’aide des touches fléchées. Appuyez sur <span class="uicontrol">Entrée</span> sur un résultat de la recherche pour accéder directement à ce rapport. </p> </td> 
+   <td colname="col2"> <p> Permet de rechercher la ressource dont vous avez besoin. Il utilise la recherche dite "floue", vous n'avez donc pas besoin de saisir la formulation exacte que vous recherchez. Les résultats de la recherche s’affichent dans un droit, que vous pouvez parcourir à l’aide des flèches vers le haut, le bas et le côté. Appuyez sur <span class="uicontrol">Entrée</span> sur un résultat de la recherche pour accéder directement à ce rapport. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Mes favoris</span> </td> 
-   <td colname="col2">Dans cette section, vous pouvez facilement récupérer les rapports que vous avez marqués comme <span class="uicontrol">Favoris</span>. Classée par utilisateur ou par suite de rapports, cette section présente dix favoris et un lien <span class="uicontrol">Plus...</span> si vous avez plus de dix favoris. <p>Remarque : Dans cette section, vous pouvez renommer les rapports mais pas les tableaux de bord. </p> <p>Les favoris sont semblables aux signets, mais ils ne sont pas stockés dans un dossier ni gérés dans le  <a href="/help/analyze/reports-analytics/bookmarks.md"  > Gestionnaire de signets</a> comme le sont les signets. </p> </td> 
+   <td colname="col2">Dans cette section, vous pouvez facilement récupérer les rapports que vous avez marqués comme <span class="uicontrol">Favoris</span>. Classée par utilisateur ou par suite de rapports, cette section présente dix favoris et un lien <span class="uicontrol">Plus...</span> si vous avez plus de dix favoris. <p>Notez que vous pouvez renommer les rapports mais pas les  dans Mes favoris. </p> <p>Les favoris sont semblables aux signets, mais ils ne sont pas stockés dans un dossier ni gérés dans le  <a href="/help/analyze/reports-analytics/bookmarks.md"  > Gestionnaire de signets</a> comme le sont les signets. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Fréquemment affichés</span> </td> 
-   <td colname="col2"> Adobe Analytics effectue un suivi sur les dix rapports que vous avez le plus souvent générés durant les 90 derniers jours et les répertorie ici, triés par fréquence de génération. Si vous n’avez pas consulté cette suite de rapports depuis plus de 90 jours, les dix rapports les plus populaires sont répertoriés. </td> 
+   <td colname="col2"> Adobe Analytics effectue le suivi des dix rapports que vous avez exécutés le plus souvent au cours des 90 derniers jours et les affiche ici, triés en fonction de la fréquence d’exécution. Si vous n’êtes pas dans cette suite de rapports depuis plus de 90 jours, elle remplit le  d’un général  de dix rapports populaires. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Historique des rapports</span> </td> 
-   <td colname="col2"> Ici, vous pouvez savoir quels sont les dix rapports ou tableaux de bord auxquels vous avez accédé en dernier au cours des 90 jours passés. Vous pouvez facilement retracer votre cheminement vers une étape précédente dans votre analyse ou création de rapports. </td> 
+   <td colname="col2"> Vous trouverez ici les dix rapports ou  les plus récents auxquels vous avez accédé au cours des 90 derniers jours. Vous pouvez facilement retrouver votre chemin vers une étape précédente dans votre  de  ou de . </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Télécharger</span> </td> 
@@ -91,7 +91,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Envoyer</span> </td> 
-   <td colname="col2">Vous permet d’envoyer le rapport par courrier électronique immédiatement ou de programmer son envoi ponctuellement ou sur une base récurrente. Vous pouvez envoyer des rapports au format PDF, CSV, Excel, HTML, Word ou Mobile (texte uniquement).</td> 
+   <td colname="col2">Vous permet d’envoyer le rapport par courrier électronique immédiatement ou de programmer son envoi ponctuellement ou sur une base récurrente. Les options de format sont PDF, CSV, Excel, HTML, Word ou Mobile (texte uniquement).</td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Signet...</span> </td> 
@@ -103,10 +103,10 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Plus...</span> </td> 
-   <td colname="col2"> Vous permet d’effectuer certaines ou l’intégralité des actions suivantes : imprimer le rapport, en extraire des données, ajouter une alerte au rapport, créer un rapport personnalisé, copier un graphique, créer un lien à ce rapport et ouvrir une nouvelle fenêtre. </td> 
+   <td colname="col2"> Vous permet d’effectuer l’ensemble ou une partie des actions suivantes : imprimez-le, extrayez-en les données, ajoutez une alerte, créez un rapport personnalisé, copiez un graphique, créez un lien vers ce rapport et ouvrez une nouvelle fenêtre. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Sélecteur de Report Suites <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
+   <td colname="col1">Sélecteur de suites de rapports <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
    <td colname="col2">Vous permet de sélectionner des <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/report_suites_admin.html"  >suites de rapports de base</a> ou des <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/virtual-report-suites.html"  >suites de rapports virtuelles</a>. </td> 
   </tr> 
   <tr> 
@@ -118,4 +118,4 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
 
 ## Personnalisation du menu Tous les rapports {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/customize-menus.translate.html) dans l’aide destinée aux administrateurs.
+Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la page Personnalisation [des](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/customize-menus.translate.html) menus dans l’aide de l’administrateur.
