@@ -1,8 +1,8 @@
 ---
 title: maxDelay
 description: Déterminez la durée maximale pendant laquelle AppMeasurement attend une réponse de DFA avant d’envoyer une demande d’image.
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,4 +31,4 @@ s.maxDelay = 750;
 * La diminution du délai d’attente limite le risque de perte des données d’accès Analytics, mais peut diminuer le nombre de données DFA envoyées avec les données d’accès.
 * La perte des données d’intégration DFA survient lorsque la période `s.maxDelay` ne permet pas à l’hôte DFA de répondre.
 
-> [!NOTE] Adobe ne contrôle pas le temps de réponse de DFA. Si vous rencontrez des problèmes même après avoir augmenté le délai de la variable, contactez l’administrateur de compte DFA de votre société.
+>[!NOTE] Adobe ne contrôle pas le temps de réponse de DFA. Si vous rencontrez des problèmes même après avoir augmenté le délai de la variable, contactez l’administrateur de compte DFA de votre société.
