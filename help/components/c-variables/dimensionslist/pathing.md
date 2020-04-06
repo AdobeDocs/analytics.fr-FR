@@ -1,25 +1,25 @@
 ---
-description: Groupe de rapports basés sur l’analyse des chemins. D’un point de vue technique, le terme cheminement désigne le passage d’une page à une autre (d’une valeur à une autre).
+description: Groupe de rapports basé sur le chemin d’accès  . Techniquement, le cheminement signifie passer d’un nom de page à un autre (d’une valeur à une autre).
 title: Cheminement
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Cheminement
 
-Groupe de rapports basés sur l’analyse des chemins. D’un point de vue technique, le terme cheminement désigne le passage d’une page à une autre (d’une valeur à une autre).
+Groupe de rapports basé sur le chemin d’accès  . Techniquement, le cheminement signifie passer d’un nom de page à un autre (d’une valeur à une autre).
 
 Utilisez le [Flux d’Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/flow.html) pour des options de cheminement souples.
 
-> [!NOTE] Pour activer le cheminement, accédez à **[!UICONTROL Admin > Suites de rapports > Modifier les paramètres > Trafic > Variables de trafic]**. Pour activer le cheminement pour les rapports Section Site et Serveur, contactez le service à la clientèle.
+>[!NOTE] Pour activer le cheminement, accédez à **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Pour activer le cheminement pour les rapports Section Site et Serveur, contactez le service à la clientèle.
 
-Pour connaître l’ordre de collecte des valeurs, vous devez activer le cheminement pour la variable qui procède à leur collecte. Le cheminement est activé par défaut pour les pages. Par défaut, il n’est pas activé pour les props, car il n’est approprié que dans certains cas. Pour activer le cheminement sur une prop, contactez le service d’assistance clientèle.
+Si vous devez connaître l’ordre dans lequel les valeurs sont collectées, vous devez activer le cheminement pour la variable qui collecte ces valeurs. Le cheminement est activé par défaut pour les pages. Par défaut, le cheminement n’est activé pour aucune props, car il n’est approprié que dans certains cas. Contactez le service à la clientèle pour activer le cheminement sur une prop.
 
-> [!NOTE] Dans les Ad Hoc Analysis, lorsque vous activez des classifications sur une prop, les mesures de cheminement sont disponibles pour l’ensemble des classifications configurées.
+>[!NOTE] Dans les Ad Hoc Analysis, lorsque vous activez des classifications sur une prop, les mesures de cheminement sont disponibles pour l’ensemble des classifications configurées.
 
 **Exemple - Cheminement sur les sections de site**
 
@@ -27,7 +27,7 @@ L’activation du cheminement pour la variable  *`s.channel`* vous permet de sui
 
 ![](assets/path_sections.png)
 
-Le cheminement est alors disponible dans divers rapports sur les chemins, dont [!UICONTROL Flux section suivante], lequel affiche le mode de déplacement des visiteurs entre les groupes de pages ou sections de votre site.
+Le cheminement est ensuite disponible dans divers rapports de chemins, tels que [!UICONTROL Next Site Section Flow], qui indique comment les se déplacent dans des groupes de pages ou des sections de votre site.
 
 ![](assets/paths_report.png)
 
@@ -37,7 +37,7 @@ Le concept de déplacement entre plusieurs valeurs s’applique également à d�
 
 **Exemple - Cheminement par état de connexion**
 
-Vous pouvez identifier comment les internautes parcourent votre site sur la base de l’état de connexion d’un visiteur. Pour connaître ces informations, ne vous basez pas sur l’état de connexion spécifié dans les rapports de cheminement. Ces rapports indiquent, en effet, la manière dont les visiteurs y ont modifié des valeurs ou sont passés de l’état « connecté » à « déconnecté ». Concaténez plutôt la valeur du segment avec la variable  *`s.pageName`* puis tracez la variable obtenue. Voici un exemple de code de cheminement de page par état de membre :
+Vous souhaitez peut-être savoir comment les visiteurs parcourent votre site en fonction de l’état de connexion  du. Pour afficher ces informations, vous ne devez pas consulter les rapports de cheminement pour connaître l’état de connexion, car ils indiquent comment les ont modifié les valeurs de ce rapport, ni comment les ont pu changer du statut de connexion à celui de déconnecté. Concaténez plutôt la valeur du segment avec la variable  *`s.pageName`* puis tracez la variable obtenue. Voici un exemple de code de cheminement de page par état de membre :
 
 ```js
 s.pageName="Home Page"; 
@@ -47,5 +47,5 @@ s.prop19=s.prop18 + ":" + s.pageName;
 
 Activez ensuite le cheminement pour que la variable  *`s.prop19`* visualise le cheminement des membres à travers les différentes pages.
 
-> [!NOTE] Si vous effectuez des Ad Hoc Analysis, vous pouvez segmenter les chemins de page sans avoir à concaténer des valeurs de segment et appliquer tout segment à des rapports de cheminement.
+>[!NOTE] Si vous effectuez des Ad Hoc Analysis, vous pouvez segmenter les chemins de page sans avoir à concaténer des valeurs de segment et appliquer tout segment à des rapports de cheminement.
 
