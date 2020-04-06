@@ -1,19 +1,19 @@
 ---
 title: Présentation de la mise en œuvre JavaScript du code H
 description: Découvrez le flux de travail pour mettre en œuvre le code H sur votre site.
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Présentation de la mise en œuvre JavaScript du code H
 
-> [!IMPORTANT] Cette version de la collecte de données n’est plus prise en charge. Effectuez la mise à niveau vers [Adobe Experience Platform Launch](../../launch/overview.md) ou [AppMeasurement pour JavaScript](../overview.md).
+>[!IMPORTANT] Cette version de la collecte de données n’est plus prise en charge. Effectuez la mise à niveau vers [Adobe Experience Platform Launch](../../launch/overview.md) ou [AppMeasurement pour JavaScript](../overview.md).
 
 Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre correctement une page avec du code pour collecter des données. Les étapes suivantes vous invitent à parcourir une mise en œuvre de base du code H d’Analytics.
 
-> [!NOTE] Vous devez déjà disposer d’une copie existante de `s_code.js` pour suivre ces instructions. Adobe ne propose plus d’option pour télécharger le code H dans le Gestionnaire de code.
+>[!NOTE] Vous devez déjà disposer d’une copie existante de `s_code.js` pour suivre ces instructions. Adobe ne propose plus d’option pour télécharger le code H dans le Gestionnaire de code.
 
 1. **Mettez à jour les variables de fichier JS principal** : modifiez le fichier `s_code.js` et assurez-vous que les variables suivantes sont mises à jour :
    * `s_account` contient l’identifiant de suite de rapports auquel vous souhaitez envoyer des données. Voir
@@ -26,7 +26,7 @@ Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre c
 
 ## Mise en cache
 
-Le fichier JavaScript est mis en cache dans le navigateur du visiteur après son chargement initial. En règle générale, il n’est pas téléchargé plus d’une fois par session. Il n’est pas téléchargé sur chaque page, même s’il est utilisé par toutes les pages du site. Sur la plupart des sites Web, les utilisateurs visualisent, en moyenne, plus de quelques pages par session. Dès lors, le transfert de code JavaScript utilisé plusieurs fois dans ce fichier peut générer un nombre moins important de données téléchargées globales.
+Le fichier JavaScript est mis en cache dans le navigateur  du après son chargement initial et n’est généralement pas téléchargé plus d’une fois par session. Il n’est pas téléchargé sur chaque page, même s’il est utilisé par toutes les pages du site. Sur la plupart des sites Web, les utilisateurs  en moyenne plus de quelques pages par session, de sorte que le transfert de code JavaScript utilisé plusieurs fois dans ce fichier peut entraîner une diminution du nombre total de données téléchargées.
 
 ## Compression du code H
 
