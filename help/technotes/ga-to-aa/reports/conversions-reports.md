@@ -1,8 +1,8 @@
 ---
 title: Rapports de conversion dans Adobe Analytics
 description: Découvrez comment utiliser des rapports de conversion dans Adobe Analytics.
-translation-type: ht
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Des modifications de mise en œuvre personnalisées sont nécessaires pour utili
 
 Les rapports Entonnoir multicanaux fournissent des données de canal marketing supplémentaires à celles des rapports d’acquisition. Ces rapports se concentrent sur la façon dont les visiteurs se convertissent plutôt que sur la façon dont ils arrivent sur votre site.
 
-> [!NOTE]
+>[!NOTE]
 >
 > L’utilisation de rapports multicanaux dans Adobe Analytics nécessite la configuration de canaux marketing et une mise en œuvre personnalisée pour prendre en compte la variable produits et l’événement d’achat. Adobe conseille de travailler avec un consultant en mise en œuvre si ces fonctionnalités ne sont pas encore configurées pour votre suite de rapports.
 
