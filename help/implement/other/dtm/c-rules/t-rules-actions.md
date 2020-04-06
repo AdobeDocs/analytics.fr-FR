@@ -4,8 +4,8 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Configuration des actions que la condition doit déclencher
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -20,20 +20,20 @@ Outre les outils intégrés tels qu’[!DNL Adobe Analytics] et Google Analytics
 
 Chaque règle peut déclencher autant de scripts ou d’injections HTML que vous le souhaitez.
 
-> [!NOTE] Dans la mesure où DTM permet d’injecter du code personnalisé dans votre page, veillez à ne pas créer de vulnérabilités de script de site à site (voir le [guide d’OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) pour plus d’informations). L’utilisation d’éléments de données dans un script demande une attention toute particulière. Vous devez toujours supposer que les valeurs des éléments de données proviennent d’une source non fiable.
+>[!NOTE] Dans la mesure où DTM permet d’injecter du code personnalisé dans votre page, veillez à ne pas créer de vulnérabilités de script de site à site (voir le [guide d’OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) pour plus d’informations). L’utilisation d’éléments de données dans un script demande une attention toute particulière. Supposons toujours que les valeurs des éléments de données proviennent d’une source non approuvée.
 
 **Pour configurer les actions que la condition doit déclencher**
 
-1. Cliquez sur **[!UICONTROL Balises JavaScript / tierces]** pour ajouter un nouveau script à la règle.
+1. Cliquez sur **[!UICONTROL JavaScript / Third Party Tags]** pour ajouter un nouveau script à votre règle.
 
    ![](assets/scripts-actions.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter un nouveau script]**.
+1. Cliquez sur **[!UICONTROL Add New Script]**.
 
    ![](assets/scripts-actions2.png)
 
 1. Attribuez un nom au script.
 1. Indiquez le mode de déclenchement du script, puis collez le contenu souhaité dans la zone de texte. ![](assets/scripts-actions3.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer le code]**. Le script est alors ajouté à la file d’attente de la règle. ![](assets/scripts-actions4.png)
+1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
 
