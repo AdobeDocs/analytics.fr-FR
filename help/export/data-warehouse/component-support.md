@@ -1,8 +1,8 @@
 ---
 title: Prise en charge des composants dans Data Warehouse
 description: Découvrez quelles sont les dimensions et les mesures supplémentaires disponibles dans Data Warehouse et celles qui ne sont pas prises en charge.
-translation-type: ht
-source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,7 +31,7 @@ Certaines dimensions et mesures peuvent être utilisées dans Data Warehouse alo
 
 Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse.
 
-> [!NOTE] Si une dimension ou une mesure n’est pas prise en charge dans Data Warehouse, les segments utilisant ces composants ne sont pas non plus pris en charge. Vérifiez toujours la compatibilité du produit lors de la création ou de la modification d’un segment.
+>[!NOTE] Si une dimension ou une mesure n’est pas prise en charge dans Data Warehouse, les segments utilisant ces composants ne sont pas non plus pris en charge. Vérifiez toujours la compatibilité du produit lors de la création ou de la modification d’un segment.
 
 ### Dimensions non prises en charge
 
@@ -52,8 +52,8 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
    * Détail des accès
    * Fréquence des retours
    * Durée avant événement
-   * Durée de consultation de la page – Regroupement
-   * Durée par visite – Regroupement
+   * Durée de consultation de la page – Regroupement
+   * Durée par visite – Regroupement
    * Profondeur de visite
 * Classement de toutes les pages de recherche
 * Variables de hiérarchie
@@ -62,7 +62,7 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
 * Recherche payante
 * Visites sur une seule page
 * Suivi du motif d’exclusion
-* États américains
+* Etats américains
 
 ### Mesures non prises en charge
 
