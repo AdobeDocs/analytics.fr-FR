@@ -4,7 +4,7 @@ title: Publication de segments dans Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,23 +15,23 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 Désormais, le traitement peut prendre jusqu’à 8 heures, mais en fonction du trafic et de la taille du segment, il peut être encore plus rapide. (Toutefois, nous n’avons actuellement pas de moyen de vous informer du moment où le segment est disponible. Vous devrez donc le vérifier manuellement.) Nous avons également porté le nombre maximum de segments publiables à 75 (contre 20). Vous pouvez afficher les segments publiés dans Composants > Segments.
 
-> [!NOTE] Adobe Campaign (Classic et Standard) se comporte différemment dans le sens où il génère une latence supplémentaire de 24 heures en plus de la latence de 8 heures.
+>[!NOTE] Adobe Campaign (Classic et Standard) se comporte différemment dans le sens où il génère une latence supplémentaire de 24 heures en plus de la latence de 8 heures.
 
 
 ## Conditions préalables
 
-* Vérifiez si la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Sinon, vous ne pouvez pas la publier dans Experience Cloud.
-* Vérifiez que vous travaillez dans une suite de rapports [mappée à votre ](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)organisation Experience Cloud.
+* Vérifiez si la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/t-publish-audience-segment.html). Sinon, vous ne pouvez pas la publier dans Experience Cloud.
+* Vérifiez que vous travaillez dans une suite de rapports [mappée à votre organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html).
 * Assurez-vous que votre entreprise utilise des Experience Cloud ID.
-* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
+* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
 
 
 ## Considérations
 
 * **Limites de suites de rapports** : vous pouvez publier jusqu’à 75 segments par suite de rapports. Cette limite est appliquée. Si 75 segments ont déjà été publiés, vous ne pouvez pas en publier d’autres tant que vous n’avez pas annulé la publication de suffisamment de segments pour arriver sous le seuil de 75 segments.
 * **Limites d’abonnements** : les audiences partagées avec [!DNL Experience Cloud] depuis Analytics ne doivent pas dépasser 20 millions de membres.
-* **Confidentialité des données** : les audiences ne sont pas filtrées d’après l’état d’authentification d’un visiteur. Si un visiteur peut parcourir votre site qu’il soit authentifié ou non, les actions qui se produisent lorsqu’il n’est pas authentifié peuvent avoir pour conséquence que le visiteur est inclus dans une audience. Examinez la [politique de confidentialité d’Adobe Experience Cloud](https://www.adobe.com/privacy/experience-cloud.html) pour bien comprendre toutes les implications du partage des audiences en matière de confidentialité.
-* Pour une discussion sur les **différences entre les segments dans[!DNL Adobe Analytics]et[!DNL Audience Manager]**, consultez[ce lien](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
+* **Confidentialité des données** : les audiences ne sont pas filtrées d’après l’état d’authentification d’un visiteur. Si un visiteur peut parcourir votre site qu’il soit authentifié ou non, les actions qui se produisent lorsqu’il n’est pas authentifié peuvent avoir pour conséquence que le visiteur est inclus dans une audience. Examinez la [politique de confidentialité d’Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html) pour bien comprendre toutes les implications du partage des audiences en matière de confidentialité.
+* Pour une discussion sur les **différences entre les segments dans [!DNL Adobe Analytics]et[!DNL Audience Manager]**, consultez [ce lien](https://docs.adobe.com/content/help/fr-FR/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Journal de publication des segments
 
@@ -43,7 +43,7 @@ Désormais, le traitement peut prendre jusqu’à 8 heures, mais en fonction du
 
 ## Publication de segments dans [!UICONTROL Segment Builder]
 
-1. Navigate to **[!UICONTROL Analytics > Workspace > Components > Segments]> +**
+1. Accédez à **[!UICONTROL Analytics > Workspace > Components > Segments]> +**
 1. Créez un segment dans le [!UICONTROL Segment Builder].
 1. Fournissez un titre et une description pour le segment. Sinon, vous ne pourrez pas l’enregistrer.
 1. Vérifier la suite **[!UICONTROL Publish this segment to the Experience Cloud (for *de *rapports)]**.
@@ -56,7 +56,7 @@ Désormais, le traitement peut prendre jusqu’à 8 heures, mais en fonction du
 >
 >![](assets/seg-vis-ecid.png)
 
-| Élément | Description |
+| Elément | Description |
 |---|---|
 | **[!UICONTROL Publish this segment to the Experience Cloud (for *<report suite>*)]** | Lorsque cette option est activée, le titre et la définition du segment (c’est-à-dire l’audience du shell aussi souvent utilisée dans les plateformes publicitaires) sont partagés instantanément avec Experience Cloud, tandis que l’adhésion au segment est évaluée et partagée toutes les quatre heures. <br> Lorsque cette audience est associée à une activité dans [!DNL Target], par exemple, [!DNL Analytics] commence à envoyer les identifiants des visiteurs à inclure dans cette audience Experience Cloud et [!DNL Target]. À ce stade, le nom de l’audience et les données correspondantes commencent à s’afficher sur la page Audiences d’Experience Cloud. </br> |
 | **[!UICONTROL Audience Creation Window]** | La période sélectionnée sert à créer l’audience selon un calendrier variable. Par exemple, « 30 derniers jours » (par défaut) inclut les visiteurs qui se sont qualifiés pour l’audience au cours des 30 derniers jours à compter de la date du jour (PAS à partir de la date d’origine de la création du segment). |
@@ -68,7 +68,7 @@ Désormais, le traitement peut prendre jusqu’à 8 heures, mais en fonction du
 
 Pour supprimer un segment qui a été publié dans Experience Cloud, vous devez tout d’abord en annuler la publication. Pour annuler la publication d’un segment, il vous suffit **de désactiver la case à cocher** que vous avez cochée pour le publier.
 
-> [!NOTE]Vous **ne pouvez pas** annuler la publication d’un segment qui est actuellement utilisé par l’une des solutions Adobe suivantes : [!DNL Analytics] (dans [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (pour les utilisateurs de [!DNL Core Service] et d’[!DNL Audience Manager]) et tous les autres partenaires externes (pour les utilisateurs de [!DNL Audience Manager]). Vous **pouvez** annuler la publication d’un segment utilisé par [!DNL Target].
+>[!NOTE]Vous **ne pouvez pas** annuler la publication d’un segment qui est actuellement utilisé par l’une des solutions Adobe suivantes : [!DNL Analytics] (dans [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (pour les utilisateurs de [!DNL Core Service] et d’[!DNL Audience Manager]) et tous les autres partenaires externes (pour les utilisateurs de [!DNL Audience Manager]). Vous **pouvez** annuler la publication d’un segment utilisé par [!DNL Target].
 
 ## View segment publishing status in the [!UICONTROL Segment Manager]
 
@@ -88,7 +88,7 @@ Les captures d’écran suivantes montrent comment récupérer l’UUID AAM sur 
 
 **Méthode 1 : utiliser Adobe Experience Cloud Debugger**
 
-1. Téléchargez et installez [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) dans Chrome Web Store.
+1. Téléchargez et installez [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/testing-and-validation/debugger.html) dans Chrome Web Store.
 1. Lancez le débogueur lors du chargement d’une page.
 1. Accédez à la section Audience Manager et recherchez l’UUID AAM défini sur la page du navigateur actuelle
 (`50814298273775797762943354787774730612` dans l’exemple ci-dessous).
@@ -99,7 +99,7 @@ Les captures d’écran suivantes montrent comment récupérer l’UUID AAM sur 
 
 1. Lancer Chrome Developer Tools avant le chargement d’une page
 1. Chargez la page et cochez Applications > Cookies. L’UUID AAM doit être défini dans le cookie tiers
-Demdex ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) dans l’exemple ci-dessous). Le champ Demdex est l’UUID AAM défini sur le
+Demdex ([adobe.demdex.net](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reference/demdex-calls.translate.html) dans l’exemple ci-dessous). Le champ Demdex est l’UUID AAM défini sur le
 navigateur (`50814298273775797762943354787774730612` dans l’exemple ci-dessous).
 
 ![Chrome Developer Tools](assets/ggogle-uuid.png)
