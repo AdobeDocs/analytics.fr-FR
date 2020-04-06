@@ -2,53 +2,53 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # currencyCode
 
-Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, en particulier ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la `currencyCode` variable pour vous assurer que les attributs de recettes correspondent à la devise appropriée.
+Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la variable `currencyCode` pour vous assurer que les attributs de recettes correspondent à la devise appropriée.
 
-Si `currencyCode` n’est pas défini, les valeurs monétaires définies pour la [`products`](../page-vars/products.md) variable et les  de devise sont traitées comme si elles étaient identiques à la devise de la suite de rapports. Voir Paramètres [du compte](/help/admin/admin/general-acct-settings-admin.md) général dans le guide de l’utilisateur Admin pour consulter la devise de la suite de rapports.
+Si `currencyCode` n’est pas défini, les valeurs monétaires définies pour la variable [`products`](../page-vars/products.md) et les événements de devise sont traitées comme si elles étaient identiques à la devise de la suite de rapports. Voir [Paramètres du compte général](/help/admin/admin/general-acct-settings-admin.md) dans le guide d’utilisation Administrateur pour consulter la devise de la suite de rapports.
 
 Si `currencyCode` est défini et correspond à la devise de la suite de rapports, aucune conversion de devise n’est appliquée.
 
-Si `currencyCode` est défini et différent de la devise de la suite de rapports, Adobe applique une conversion de devise basée sur le taux de change du jour en cours. Adobe collabore avec [XE](https://xe.com) pour convertir chaque jour des devises. Toutes les valeurs stockées dans les serveurs de collecte de données sont stockées en fin de compte dans la devise de la suite de rapports.
+Si `currencyCode` est défini et différent de la devise de la suite de rapports, Adobe applique une conversion de devise basée sur le taux de change du jour en cours. Adobe collabore avec [XE](https://xe.com) pour convertir chaque jour des devises. Toutes les valeurs stockées dans les serveurs de collecte de données sont finalement conservées dans la devise de la suite de rapports.
 
-> [!IMPORTANT] Si `currencyCode` contient une valeur non valide, l’accès complet est ignoré, ce qui entraîne une perte de données. Assurez-vous que cette variable est correctement définie si vous l’utilisez dans votre implémentation.
+>[!IMPORTANT] Si `currencyCode` contient une valeur non valide, l’accès complet est ignoré, ce qui entraîne une perte de données. Assurez-vous que cette variable est correctement définie si vous l’utilisez dans votre mise en œuvre.
 
-Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des  de devise.
+Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des événements de devise.
 
 ## Code de devise dans Adobe Experience Platform Launch
 
-Le code de devise est un champ sous l’ [!UICONTROL General] accordéon lors de la configuration de l’extension Adobe Analytics.
+Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Développez l’ [!UICONTROL General] accordéon, ce qui révèle le [!UICONTROL Currency Code] champ.
 
 Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
 
-## s.currencyCode dans AppMeasurement et lancement de l’éditeur de code personnalisé
+## s.currencyCode dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
-La `s.currencyCode` variable est une chaîne contenant un code en majuscules de 3 lettres représentant la devise sur la page.
+La variable `s.currencyCode` est une chaîne contenant un code en majuscules de 3 lettres représentant la devise sur la page.
 
 ```js
 s.currencyCode = "USD";
 ```
 
-Les codes de devise suivants sont valides :
+Les codes de devise suivants sont valides :
 
-| Code de devise | Description de la devise |
+| Code de devise | Description de devise |
 | --- | --- |
 | `AED` | Émirats arabes unis, dirams |
 | `AFA` | Afghanistan, afghanis |
 | `ALL` | Albanie, leks |
 | `AMD` | Arménie, drams |
-| `ANG` | Florin des Antilles néerlandaises |
+| `ANG` | Antilles néerlandaises, florins |
 | `AOA` | Angola, kwanza |
 | `ARS` | Argentine, pesos |
 | `AUD` | Australie, dollars |
@@ -151,7 +151,7 @@ Les codes de devise suivants sont valides :
 | `MZM` | Mozambique, meticais |
 | `NAD` | Namibie, dollars |
 | `NGN` | Nigéria, nairas |
-| `NIO` | Nicaragua Cordobas doré |
+| `NIO` | Nicaragua, cordobas d’or |
 | `NOK` | Norvège, couronnes |
 | `NPR` | Népal, roupies |
 | `NZD` | Nouvelle-Zélande, dollars |
@@ -181,7 +181,7 @@ Les codes de devise suivants sont valides :
 | `SPL` | Seborga, luigino |
 | `SRD` | Surinam, dollars |
 | `SRG` | Suriname, livres |
-| `STD` | Sao Tomé-et-Principe Dobras |
+| `STD` | Sao Tomé-et-Principe, dobras |
 | `SVC` | El Salvador, colons |
 | `SYP` | Syrie, livres |
 | `SZL` | Swaziland, emalangeni |
@@ -204,16 +204,16 @@ Les codes de devise suivants sont valides :
 | `VND` | Vietnam, dong |
 | `VUV` | Vanuatu, vatu |
 | `WST` | Samoa, tala |
-| `XAF` | Communauté Financière Africaine Francs B |
+| `XAF` | Communauté Financière Africaine, francs B |
 | `XAG` | Argent, onces |
 | `XAU` | Or, onces |
 | `XCD` | Caraïbes orientales, dollars |
 | `XDR` | Unité panier de compte du FMI |
-| `XOF` | Communauté Financière Africaine Francs B |
+| `XOF` | Communauté Financière Africaine, francs B |
 | `XPD` | Palladium, onces |
 | `XPF` | Comptoirs Français du Pacifique Francs |
 | `XPT` | Platine, onces |
 | `YER` | Yémen, rials |
 | `ZAR` | Afrique du Sud, rands |
 | `ZMK` | Zambie, kwacha |
-| `ZWD` | Zimbabwe Dollar |
+| `ZWD` | Zimbabwe, dollar |
