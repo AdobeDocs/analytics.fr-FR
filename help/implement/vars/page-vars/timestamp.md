@@ -1,8 +1,8 @@
 ---
 title: timestamp
 description: Permet de définir manuellement l’horodatage de l’accès.
-translation-type: ht
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 La variable `timestamp` définit manuellement l’horodatage de l’accès pour les suites de rapports horodatées.
 
-> [!WARNING] N’utilisez pas cette variable si votre suite de rapports n’est pas explicitement configurée pour accepter les accès horodatés. AppMeasurement définit automatiquement l’heure d’un accès pour les suites de rapports qui ne prennent pas en charge les accès horodatés. Si vous envoyez un accès avec cette variable à une suite de rapports qui ne prend pas en charge les horodatages, ces données sont définitivement perdues.
+>[!WARNING] N’utilisez pas cette variable si votre suite de rapports n’est pas explicitement configurée pour accepter les accès horodatés. AppMeasurement définit automatiquement l’heure d’un accès pour les suites de rapports qui ne prennent pas en charge les accès horodatés. Si vous envoyez un accès avec cette variable à une suite de rapports qui ne prend pas en charge les horodatages, ces données sont définitivement perdues.
 
 ## Horodatage dans Adobe Experience Platform Launch
 
