@@ -5,27 +5,27 @@ subtopic: Visitors
 title: Exemple d’identification des visiteurs sur plusieurs appareils
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Exemple d’identification des visiteurs sur plusieurs appareils
 
-> [!IMPORTANT] Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/cda-home.md) dans le guide d’utilisation Composants.
+>[!IMPORTANT] Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/cda-home.md) dans le guide d’utilisation Composants.
 
 L’exemple suivant illustre le fonctionnement de l’identification des visiteurs sur plusieurs appareils à l’aide d’un exemple d’appels serveur envoyés dans le cadre d’une interaction client commune.
 
-| Appel au serveur | Action | Cookie identifiant visiteur | Variable d’identifiant visiteur | Identifiant visiteur effectif | Numéro de page de la visite | Nombre de visites |
+| Appel serveur | Action | Cookie d’ID | Variable d’identifiant visiteur | ID effectif | Nombre de pages de la visite | Nombre de visites |
 |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Un visiteur clique sur un lien contenu dans un courrier électronique marketing et consulte votre site à partir de son ordinateur personnel. Ce visiteur a déjà visité votre site 7 fois auparavant. | 1 | - | 1 | 1 | 8 |
-| 2-8 | Consulte 7 autres pages de votre site. | 1 | - | 1 | 2-8 | 8 |
-| 9 | Authentifie un ordinateur de bureau. | 1 | CID1 | CID1 | 9 <br>(Il s’agit du tout premier accès de CID1, qui prend donc le contrôle et continue sur le profil du visiteur portant l’identifiant 1.) | 8 |
+| 1 | Un visiteur clique sur un lien contenu dans un courrier électronique marketing et consulte votre site à partir de son ordinateur personnel. Ce a déjà visité votre site 7 fois par le passé. | 1 | N/A | 1 | 1 | 8 |
+| 2-8 | Visite 7 pages supplémentaires sur votre site. | 1 | N/A | 1 | 2-8 | 8 |
+| 9 | Authentifie sur l’ordinateur domestique. | 1 | CID1 | CID1 | 9 <br>(Il s’agit du tout premier accès de CID1, qui prend donc le contrôle et continue sur le profil du visiteur portant l’identifiant 1.) | 8 |
 | 10 | Visite 1 page supplémentaire. | 1 | CID1 | CID1 | 10 | 8 |
-| 11 | Ouvre un site à partir d’un ordinateur portable sur son lieu de travail. Ce visiteur n’a pas visité votre site avant d’utiliser cet appareil. | 2 | - | 2 | 1 | 1 |
-| 12 | Authentifie un ordinateur portable. | 2 | CID1 | CID1 | 1 | 9 |
-| 13 | Affiche 1 page supplémentaire. | 2 | CID1 | CID1 | 2 | 9 |
+| 11 | Ouvre un site à partir d’un ordinateur portable sur son lieu de travail. Ce visiteur n’a pas visité votre site avant d’utiliser cet appareil. | 2 | N/A | 2 | 1 | 1 |
+| 12 | Authentifie sur ordinateur portable. | 2 | CID1 | CID1 | 1 | 9 |
+| 13 |  1 page supplémentaire. | 2 | CID1 | CID1 | 2 | 9 |
 
 ## Comptabilisation des visites
 
