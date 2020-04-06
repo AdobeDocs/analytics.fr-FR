@@ -2,7 +2,7 @@
 title: Mise en correspondance des éléments de données de lancement avec les variables Analytics
 description: Affectez des éléments de données à des variables Analytics afin que vous puissiez les utiliser comme dimensions dans  espace de travail .
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Les variables globales sont idéales lorsque vous souhaitez définir des valeurs
 
 ### Définition de variables dans les règles
 
-Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. See [Rules](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/manage-resources/rules.translate.html) in the Adobe Experience Platform Launch user guide.
 
 1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
 1. Cliquez sur la propriété Launch de votre choix.
@@ -43,7 +43,7 @@ Les variables définies dans les règles sont idéales lorsque vous ne souhaitez
 1. Sélectionnez l’élément de données souhaité dans la fenêtre modale. Cliquez sur [!UICONTROL Select].
 1. Le nom de l’élément de données est ajouté au champ de texte entouré de `%` signes. Par exemple, si vous avez nommé votre élément de données &quot;Nom de page&quot;, la chaîne s’affichera `%Page name%` lors de l’affectation d’un élément de données à une variable.
 
-> [!TIP] Vous pouvez concaténer des éléments de données dans la même variable. Par exemple, si vous disposez d’un élément de données &quot;Nom d’hôte&quot; et d’un élément de données &quot;Nom de chemin&quot;, vous pouvez combiner les deux dans une variable unique à l’aide de `%Hostname%%Pathname%`.
+>[!TIP] Vous pouvez concaténer des éléments de données dans la même variable. Par exemple, si vous disposez d’un élément de données &quot;Nom d’hôte&quot; et d’un élément de données &quot;Nom de chemin&quot;, vous pouvez combiner les deux dans une variable unique à l’aide de `%Hostname%%Pathname%`.
 
 ## Étapes suivantes
 
