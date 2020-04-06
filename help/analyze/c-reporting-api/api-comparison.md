@@ -2,7 +2,7 @@
 description: Tableau de comparaison des API de création de rapports dans Analytics. Vous y trouverez également des liens vers la documentation afférente.
 title: Comparaison des API de création de rapports dans Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Tableau de comparaison des API de création de rapports dans Analytics. Vous y trouverez également des liens vers la documentation afférente.
 
-> [!NOTE] En ce qui concerne la latence, Analytics pour Target (A4T) combine les données Analytics et Target sur le même accès pour la création de rapports intégrée. Les appels à Analytics et à Target pouvant survenir à différents moments, les accès sont stockés avant tout traitement de collecte des données dans les deux solutions. Pour cette raison, le temps de latence de tous les points de contrôle est de **7 à 10 minutes** plus long.
+> [!NOTE] À propos de la latence, Analytics pour Target (A4T) combine sur le même accès les données d’Analytics et de Target pour les rapports intégrés. Les appels à Analytics et à Target pouvant survenir à différents moments, les accès sont stockés avant tout traitement de collecte des données dans les deux solutions. Pour cette raison, le temps de latence de tous les points de contrôle est de **7 à 10 minutes** plus long.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -21,7 +21,7 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
    <th colname="col2" class="entry"> Traitement complet </th> 
    <th colname="col3" class="entry"> Temps réel </th> 
    <th colname="col4" class="entry"> Livestream </th> 
-   <th colname="col5" class="entry"> Data Warehouse </th> 
+   <th colname="col5" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -47,7 +47,7 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
    <td colname="col5"> Complet </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > Interfaces de création de rapports</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/"  > Interfaces de création de rapports</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Rapport en temps réel dans les Reports &amp; Analytics, le Report Builder, l’API </td> 
    <td colname="col4"> API seulement </td> 
@@ -86,7 +86,7 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Services web</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Rapports Temps réel</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Aperçu de Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/fr_FR/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
