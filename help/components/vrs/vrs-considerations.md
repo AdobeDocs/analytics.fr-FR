@@ -4,8 +4,8 @@ keywords: Virtual Report Suite,VRS
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ Les suites de rapports virtuelles vous permettent d’afficher les données d’
 
 Dans de nombreux cas, vous pouvez utiliser des suites de rapports virtuelles pour remplacer le balisage multisuite. Le passage à des suites de rapports virtuelles peut effectivement supprimer la nécessité d’effectuer des [appels au serveur secondaire](/help/admin/c-server-call-usage/overage-overview.md). Par exemple, votre entreprise dispose de 6 sites Web différents, chacun envoyant des données à sa propre suite de rapports, ainsi qu’une suite de rapports globale combinée. Chaque site déclenche un appel au serveur secondaire ; l’un à la suite de rapports de marque individuelle, l’autre à la suite de rapports globale. Au lieu de cela, vous pouvez envoyer des données de tous les sites uniquement à la suite de rapports globale, puis utiliser plusieurs suites de rapports virtuelles pour séparer chaque marque.
 
-Le remplacement d’un balisage multisuite par une suite de rapports globale et une suite de rapports virtuelle vous permet de simplifier votre implémentation Adobe Analytics et de réduire la consommation d’appel au serveur. Cette opération est recommandée comme une bonne pratique. Toutefois, il y a d’importantes limites à prendre en considération pour les suites de rapports virtuelles. Les conseils suivants vous aideront à décider si l’implémentation des suites de rapports virtuelles créées sur une suite de rapports globale est la bonne approche pour vous.
+Le remplacement d’un balisage multisuite par une suite de rapports globale et une suite de rapports virtuelle vous permet de simplifier votre implémentation Adobe Analytics et de réduire la consommation d’appel au serveur. Cette opération est recommandée comme une bonne pratique. Toutefois, il y a d’importantes limites à prendre en considération pour les suites de rapports virtuelles. Les recommandations suivantes peuvent vous aider à déterminer si l’implémentation de suites de rapports virtuelles créées sur une suite de rapports globale constitue la bonne approche pour vous.
 
 ## Instructions
 
@@ -52,7 +52,7 @@ Des sites différents ont des besoins d’implémentation différents. Certains 
 
 Assurez-vous que le nombre de dimensions et de mesures uniques peut tenir dans une seule suite de rapports globale. Si vous constatez qu’il existe trop de dimensions ou de mesures uniques, passez en revue chaque dimension dans chaque implémentation. Il y a probablement des chevauchements et des dimensions qui ne sont pas essentiels à la réussite de l’entreprise. Pensez également à utiliser [des classifications](/help/components/c-classifications2/c-classifications.md). Par exemple, au lieu de capturer « Nom du produit » dans eVar5, créez une classification « Nom du produit » en fonction de la dimension du « Produit ». Les classifications d’une suite de rapports source sont automatiquement disponibles pour toutes les suites de rapports virtuelles dépendantes.
 
-> [!TIP] Avec l’introduction de la [conservation](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), vous pouvez modifier le nom d’une dimension ou d’une mesure sur une base de suite de rapports virtuelle.
+>[!TIP] Avec l’introduction de la [conservation](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), vous pouvez modifier le nom d’une dimension ou d’une mesure sur une base de suite de rapports virtuelle.
 
 ### Nuances de segmentation
 
@@ -82,7 +82,7 @@ Par exemple, un seul DCM Google est autorisé par suite de rapports. De nombreus
 
 Les sources de données récapitulatives vous permettent d’importer des mesures fusionnées dans Adobe Analytics au niveau de la suite de rapports. Étant donné que les sources de données récapitulatives contiennent des mesures fusionnées, elles ne peuvent pas être segmentées. Puisque les suites de rapports virtuelles (VRS) utilisent la segmentation, toutes les données importées à l’aide de sources de données récapitulatives ne sont pas disponibles dans les suites de rapports virtuelles. Les sources de données récapitulatives ne sont visibles que dans la suite de rapports source.
 
-> [!TIP] Les sources de données entièrement traitées prennent en charge la segmentation et peuvent être utilisées dans des suites de rapports virtuelles.
+>[!TIP] Les sources de données entièrement traitées prennent en charge la segmentation et peuvent être utilisées dans des suites de rapports virtuelles.
 
 ## Étapes à suivre si vous avez choisi d’utiliser des suites de rapports virtuelles
 
