@@ -3,8 +3,8 @@ description: Vous pouvez différencier des liens en personnalisant l’ID de lie
 title: Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module Activity Map d’AppMeasurement.
 
-Par exemple, admettons que vous possédiez plusieurs liens « Buy » identifiés par Activity Map sous le même ID de lien et la même région :
+Supposons, par exemple, que vous ayez plusieurs liens &quot;Acheter&quot; identifiés par   Map sous le même ID de lien et la même région :
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -38,17 +38,17 @@ Par exemple, admettons que vous possédiez plusieurs liens « Buy » identifi�
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation panel <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Acheter <p> </p> <p> </p> <p>Acheter </p> <p> </p> <p> </p> <p>Acheter </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>panneau de recommandation <p> </p> <p> </p> <p>panneau de recommandation </p> <p> </p> <p> </p> <p>panneau de recommandation </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Comment pouvez-vous personnaliser votre page web et le balisage pour différencier les valeurs de ces liens ? Trois options s’offrent à vous : vous pouvez personnaliser l’ID de lien, la région ou le fichier du module Activity Map d’AppMeasurement.
+Comment pouvez-vous personnaliser votre page Web et votre balisage pour différencier les valeurs de ces liens ? Vous disposez de trois options : Vous pouvez personnaliser l’ID de lien, la région ou le fichier du module Carte d’activités d’AppMeasurement.
 
 ## Personnalisation de l’ID de lien à l’aide de s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-En créant un identifiant d’objet unique pour un lien ou emplacement de lien sur une page, vous pouvez améliorer le suivi d’Activity Map ou utiliser Activity Map pour créer des rapports sur un emplacement ou un type de lien plutôt que sur l’URL du lien. Pour plus d’informations sur la variable s_objectID, rendez-vous [ici](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/s_objectID.html).
+En créant un identifiant d’objet unique pour un lien ou un emplacement de lien sur une page, vous pouvez soit améliorer le suivi de la  de carte du, soit utiliser la carte de  du pour créer des rapports sur un emplacement ou un type de lien, plutôt que sur l’URL du lien. Cliquez [ici](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/s_objectID.html) pour plus d’informations sur la variable s_objectID.
 
 >[!IMPORTANT]
 >
@@ -78,16 +78,16 @@ En créant un identifiant d’objet unique pour un lien ou emplacement de lien s
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>panneau de recommandation </p> <p> </p> <p> </p> <p>panneau de recommandation </p> <p> </p> <p> </p> <p>panneau de recommandation </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Personnalisation de la région {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Vous pouvez personnaliser la région en vous assurant que la région de chaque lien « Buy » est définie. Pour ce faire, ajoutez un paramètre « id » à l’un des parents de chaque balise d’ancrage « Buy ».
+Vous pouvez personnaliser la région en vous assurant que chaque lien &quot;acheter&quot; a sa propre région définie. Pour ce faire, ajoutez un paramètre &quot;id&quot; à l’un des parents de chaque balise d’ancrage &quot;Buy&quot;.
 
-> [!NOTE] L’identifiant de région n’est pas strictement limité au paramètre « id ». Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript « s.ActivityMap.regionIDAttribute ».
+>[!NOTE] L’identifiant de région n’est pas strictement limité au paramètre « id ». Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript « s.ActivityMap.regionIDAttribute ».
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
@@ -112,8 +112,8 @@ Vous pouvez personnaliser la région en vous assurant que la région de chaque l
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Acheter </p> <p> </p> <p> </p> <p>Acheter </p> <p> </p> <p> </p> <p>Acheter </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p>région a <p> </p> <p> </p> <p>région b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
