@@ -2,8 +2,8 @@
 description: 'Si vous avez sélectionné la méthode de collecte de données du plug-in JavaScript, copiez les lignes de code suivantes et ajoutez-les au code Analytics sur vos pages. '
 title: Code du plug-in Analytics
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
-translation-type: ht
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -22,4 +22,4 @@ Si vous avez sélectionné la méthode de collecte de données du plug-in JavaSc
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
-> [!NOTE] Le plug-in ci-dessus considère que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le plug-in ci-dessus ne sont pas disponibles dans votre déploiement Analytics, remplacez-les par les variables disponibles.
+>[!NOTE] Le plug-in ci-dessus considère que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le plug-in ci-dessus ne sont pas disponibles dans votre déploiement Analytics, remplacez-les par les variables disponibles.
