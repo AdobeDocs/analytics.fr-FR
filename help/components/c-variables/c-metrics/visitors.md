@@ -1,26 +1,26 @@
 ---
-description: Nombre de visiteurs uniques de votre site pour une heure, un jour, une semaine, un mois, un trimestre ou une année sélectionné(e).
+description: Nombre d’uniques sur votre site pour une heure, un jour, une semaine, un mois, un trimestre ou une année sélectionnés.
 keywords: visitors
 title: Visiteurs
 topic: Metrics
 uuid: 098beb78-5294-42b4-8875-f3908aa646ca
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Visiteurs
 
-Nombre de visiteurs uniques de votre site pour une heure, un jour, une semaine, un mois, un trimestre ou une année sélectionné(e).
+Nombre d’uniques sur votre site pour une heure, un jour, une semaine, un mois, un trimestre ou une année sélectionnés.
 
 | Utilisations | Description |
 |---|---|
-| Trafic | Un visiteur est une personne qui se rend sur votre site web. Ne nécessite pas un cookie permanent. |
-| Conversion | Un visiteur est une personne qui se rend sur votre site web. Est compté lorsqu’un événement lié à une conversion ou une action s’effectue. |
-| Ad Hoc Analysis | Un visiteur est une personne qui se rend sur votre site web. Ne nécessite pas un cookie permanent. |
+| Trafic | Un est une personne qui vient sur votre site Web. Ne nécessite pas de cookie persistant. |
+| Conversion | Un est une personne qui vient sur votre site Web. Est comptabilisé lorsqu’une  ou une action liée à une conversion se produit. |
+|  ad hoc  | Un est une personne qui vient sur votre site Web. Ne nécessite pas de cookie persistant. |
 
-> [!NOTE] Si vous utilisez Analytics en tant que source des rapports pour Adobe Target, reportez-vous à la section [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) dans la documentation [!DNL Target].
+>[!NOTE] Si vous utilisez Analytics en tant que source des rapports pour Adobe Target, reportez-vous à la section [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) dans la documentation [!DNL Target].
 
 Pour plus d’informations, voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/visid_overview.html) dans le guide Mise en œuvre d’Adobe Analytics.
 
