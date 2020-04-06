@@ -1,273 +1,272 @@
 ---
-description: Instructions pour configurer les cartes de performance des applications mobiles.
-title: Guide du conservateur d’application mobile Adobe Analytics
-translation-type: tm+mt
+description: Instructions de configuration des Fiches d’évaluation pour l’application mobile.
+title: Guide du curateur pour l’application mobile Adobe Analytics
+translation-type: ht
 source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
 
 
-# BETA : Guide du conservateur pour les applications mobiles Analytics
+# BÊTA : Guide du curateur pour l’application mobile Analytics
 
 
 ## Introduction
 
-L’application mobile Adobe Analytics fournit des informations à tout moment et en tout lieu à partir d’Adobe Analytics.   L’application permet aux utilisateurs mobiles d’accéder à des cartes de performance intuitives, que vous créez et partagez à partir de l’interface utilisateur de bureau d’Adobe Analytics. Les tableaux de bord sont un ensemble de mesures clés et d’autres composants présentés dans une disposition en mosaïque que vous pouvez appuyer pour obtenir des ventilations plus détaillées et des rapports de tendances. Vous pouvez personnaliser les cartes de performance en fonction des données les plus importantes pour vous. L’application mobile est prise en charge sur les systèmes d’exploitation iOS et Android.
+L’application mobile Adobe Analytics fournit des insights d’Adobe Analytics à tout moment, où que vous soyez.   L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives, que vous créez et partagez à partir de l’interface utilisateur de bureau d’Adobe Analytics. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Vous pouvez personnaliser les Fiches d’évaluation en fonction des données qui comptent le plus pour vous. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
 
 ## À propos de ce guide
 
-Ce guide a pour but d’aider les responsables de la configuration des données Adobe Analytics à configurer des cartes de performance pour leurs utilisateurs cadres dans l’application mobile Analytics. Les administrateurs peuvent être des administrateurs d’entreprise ou des personnes occupant d’autres rôles chargés de configurer des feuilles de calcul d’application, ce qui permet aux utilisateurs de visualiser rapidement et facilement un grand nombre de données de synthèse importantes sur leurs propres périphériques mobiles. Bien que les administrateurs soient les utilisateurs finaux de l’application mobile Analytics, ce guide aidera les gestionnaires de données à configurer l’application de manière efficace pour ces utilisateurs.
+L’objectif de ce guide est d’aider les curateurs de données Adobe Analytics à configurer des Fiches d’évaluation pour les utilisateurs en charge de l’exécution sur l’application mobile Analytics. Les curateurs peuvent être des administrateurs de l’entreprise ou des personnes occupant d’autres rôles chargés de configurer des Fiches d’évaluation dans l’application qui permettent aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles. Bien que les utilisateurs en charge de l’exécution soient les utilisateurs finaux de l’application mobile Analytics, ce guide aidera les curateurs de données à configurer efficacement l’application pour ces utilisateurs.
 
 
-## Glossaire
+## Glossaire terminologique
 
-Le tableau suivant décrit les termes permettant de comprendre l’audience, les fonctions et le fonctionnement de l’application mobile Analytics.
+Le tableau suivant décrit les termes nécessaires à la compréhension de l’audience, des fonctionnalités et du fonctionnement de l’application mobile Analytics.
 
 | Terme | Définition |
 |--- |--- |
-| Consommateur | Personnalité exécutive affichant les mesures clés et les informations d’Analytics sur un périphérique mobile |
-| Curateur | Personne qui identifie et distribue les statistiques d’Analytics et configure les cartes de performance à afficher par le consommateur |
-| Traitement | Acte de création ou de modification d’une carte de performance mobile contenant les mesures, dimensions et autres composants pertinents pour le consommateur |
-| Fiche d’évaluation | Une vue d’application mobile contenant une ou plusieurs mosaïques |
-| Mosaïque | Rendu d’une mesure dans une vue de carte de performance |
-| Ventilation | Vue secondaire accessible en appuyant sur une mosaïque dans la carte de performance. Cette vue s’étend sur la mesure affichée sur la mosaïque et génère éventuellement des rapports sur des dimensions de ventilation supplémentaires. |
-| Période | Plage de dates principale pour la création de rapports sur les applications mobiles |
-| Plage de dates de comparaison | Plage de dates comparée à la plage de dates principale |
+| Consommateur | Personne en charge de l’exécution affichant les mesures clés et les insights d’Analytics sur un appareil mobile |
+| Curateur | Personne possédant des compétences en littératie des données qui découvre et distribue des insights d’Analytics et configure les Fiches d’évaluation que verra le consommateur |
+| Traitement | L’acte de création ou de modification d’une Fiche d’évaluation mobile contenant des mesures, des dimensions ainsi que d’autres composants pertinents pour le consommateur |
+| Fiche d’évaluation | Un affichage dans l’application mobile contenant une ou plusieurs mosaïques |
+| Mosaïque | Un rendu d’une mesure dans un affichage de la Fiche d’évaluation |
+| Ventilation | Un affichage secondaire accessible en appuyant sur une mosaïque de la Fiche d’évaluation. Cet affichage étend la mesure affichée sur la mosaïque et peut de manière facultative gérer des dimensions de ventilation supplémentaires. |
+| Période | La période principale du rapport dans l’application mobile |
+| Période de comparaison | La période comparée à la période principale |
 
  
-## Création d’une carte de performance pour les utilisateurs cadres
+## Créer une Fiche d’évaluation à destination des utilisateurs en charge de l’exécution dans l’application
 
-Une carte de performance mobile affiche les visualisations de données clés pour les utilisateurs cadres dans une mise en page en mosaïque, comme illustré ci-dessous :
-
-
-![Exemple de tableau de bord](assets/intro_scorecard.png)
+Une Fiche d’évaluation mobile affiche les visualisations de données principales pour les utilisateurs en charge de l’exécution dans l’application sous la forme d’une mosaïque comme indiqué ci-dessous :
 
 
-En tant que conservateur de cette carte de performance, vous pouvez utiliser le Créateur de cartes de performance pour configurer les mosaïques qui apparaissent sur la carte de performance pour votre consommateur. Vous pouvez également configurer la manière dont les vues détaillées, ou les ventilations, peuvent être ajustées une fois les mosaïques sur lesquelles vous appuyez. L’interface du créateur de cartes de performance est présentée ci-dessous :
-
-![Générateur de cartes de performance](assets/scorecard_builder.png)
+![Exemple de Fiche d’évaluation](assets/intro_scorecard.png)
 
 
-Pour créer la carte de performance, procédez comme suit :
+En tant que curateur de cette Fiche d’évaluation, vous pouvez utiliser le Créateur de Fiches d’évaluations pour configurer les mosaïques qui apparaissent sur la Fiche d’évaluation de votre consommateur. Vous pouvez également configurer la manière dont l’affichage des détails ou les ventilations s’ajustent lorsque l’utilisateur appuie sur les mosaïques. L’interface du Créateur de Fiche d’évaluation est illustrée ci-dessous :
 
-1. Accédez au modèle de carte de performance mobile vierge.
-2. Configurez la carte de performance avec des données et enregistrez-la.
-
-
-### Accès au modèle de carte de performance mobile vierge
-
-Vous pouvez accéder au modèle de carte de performance mobile vierge de l’une des manières suivantes :
-
-**Créer un projet**
-
-1. Ouvrez Adobe Analytics et cliquez sur l’onglet **Workspace** .
-2. Cliquez sur le bouton **Créer un projet** et sélectionnez le modèle de projet **Carte de performance mobile** vierge.
-3. Cliquez sur le bouton **Créer un**.
-
-![Modèle Scorecard](assets/new_template.png)
+![Créateur de Fiche d’évaluation](assets/scorecard_builder.png)
 
 
-*Remarque : Si vous ne voyez pas le modèle de carte de performance mobile vierge, comme illustré ci-dessous, votre entreprise n’a pas encore été activée pour la version bêta. Contactez votre responsable clientèle.*
+Pour créer la Fiche d’évaluation, vous devrez effectuer les opérations suivantes :
+
+1. Accéder au modèle de Fiche d’évaluation mobile vierge.
+2. Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
 
 
-**Ajout d’un projet**
+### Accéder au modèle de Fiche d’évaluation vierge
 
-Dans l’écran **Projets** , sous l’onglet **Composants** , cliquez sur le bouton **Ajouter** et sélectionnez Carte de performance **mobile.**
+Vous pouvez accéder au modèle de Fiche d’évaluation mobile vierge de l’une des manières suivantes :
 
-![Ajout de projets](assets/add_project.png)
+**Créer un nouveau projet**
+
+1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **Workspace**.
+2. Cliquez sur le bouton **Créer un nouveau projet**, puis sélectionnez le modèle de projet **Fiche d’évaluation mobile vierge**.
+3. Cliquez sur le bouton **Créer**.
+
+![Modèle de Fiche d’évaluation](assets/new_template.png)
+
+
+*Remarque : si le modèle de Fiche d’évaluation vierge n’apparaît pas comme indiqué ci-dessous, cela signifie que votre entreprise n’a pas encore accès à la bêta. Veuillez contacter votre responsable du service à la clientèle.*
+
+
+**Ajouter un projet**
+
+Depuis l’écran **Projets**, dans l’onglet **Composants**, cliquez sur le bouton **Ajouter**, puis sélectionnez **Fiche d’évaluation mobile.**
+
+![Ajouter des projets](assets/add_project.png)
 
 **Utilisation des outils Analytics**
 
-Dans Analytics, cliquez sur le menu **Outils** et sélectionnez Application **** mobile. Dans l’écran suivant, cliquez sur le bouton **Créer une carte de performance** .
+Dans Analytics, cliquez sur le menu **Outils**, puis sélectionnez **Application mobile**. Sur l’écran suivant, cliquez sur le bouton **Créer une Fiche d’évaluation**.
 
-### Configurez la carte de performance avec des données et enregistrez-la.
+### Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
 
-Pour mettre en oeuvre le modèle Scorecard :
+Pour implémenter le modèle de Fiche d’évaluation :
 
-1. Sous **Propriétés** (dans le rail droit), spécifiez une Report Suite **de** projet à partir de laquelle vous souhaitez utiliser les données.
+1. Dans **Propriétés** (dans le rail droit), précisez la **suite de rapports du projet** depuis laquelle vous souhaitez utiliser les données.
 
-   ![Sélection de suites de rapports](assets/properties_save.png)
+   ![Sélection de la suite de rapports](assets/properties_save.png)
 
-2. Pour ajouter une nouvelle mosaïque à votre carte de performance, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **Faire glisser les mesures ici** . Vous pouvez également insérer une mesure entre deux mosaïques à l’aide d’un processus similaire.
+2. Pour ajouter une nouvelle mosaïque à votre Fiche d’évaluation, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **Faire glisser et déposer les mesures ici**. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
 
-   ![Ajout de mosaïques](assets/build_list.png)
-
-
-   *Depuis chaque volet, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure, telles que les principaux éléments d’une liste de dimensions connexes.*
+   ![Ajouter des mosaïques](assets/build_list.png)
 
 
-3. Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche et déposez-la sur une mosaïque. Par exemple, vous pouvez ajouter des dimensions appropriées (comme la région **** DMA, dans cet exemple) à la mesure Visiteurs **** uniques en le faisant glisser sur la mosaïque ; les dimensions que vous ajoutez apparaissent sous la section de ventilation des **propriétés** spécifiques à la mosaïque. Vous pouvez ajouter plusieurs dimensions à chaque mosaïque.
-
-   ![Ajout de dimensions](assets/layer_dimensions.png)
-
-   *Remarque : Vous pouvez également ajouter une dimension à toutes les mosaïques en la faisant glisser sur le canevas Scorecard.*
-
-   Lorsque vous cliquez sur une mosaïque dans le créateur de cartes de performance, le rail droit affiche les propriétés et les caractéristiques associées à cette mosaïque. Dans ce rail, vous pouvez fournir un nouveau **titre** pour la mosaïque et configurer la mosaïque en spécifiant les composants au lieu de les faire glisser depuis le rail gauche.
+   *Depuis chaque mosaïque, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure comme les éléments principaux pour une liste de dimensions associées.*
 
 
-   En outre, si vous cliquez sur des mosaïques, une fenêtre contextuelle dynamique affiche l’affichage de la vue Ventilation pour l’utilisateur dans l’application. Si aucune dimension n’a été appliquée à la mosaïque, la dimension de ventilation sera **heure** ou **jours**, selon la plage de dates par défaut.
+3. Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque. Par exemple, vous pouvez ajouter des dimensions appropriées (comme **DMA region** dans cet exemple) à la mesure **Unique Visitors** en la faisant glisser et en la déposant sur la mosaïque. Les dimensions que vous ajoutez apparaîtront dans la section de ventilation des **Propriétés** spécifiques à la mosaïque. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
+
+   ![Ajouter des dimensions](assets/layer_dimensions.png)
+
+   *Remarque : vous pouvez également ajouter une dimension à toutes les mosaïques en la déposant sur la zone de travail de la Fiche d’évaluation.*
+
+   Lorsque vous cliquez sur une mosaïque du Créateur de la Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **Titre** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
+
+
+   En outre, si vous cliquez sur les mosaïques, une fenêtre pop-up dynamique affichera comment l’utilisateur en charge de l’exécution voit la vue de ventilation dans l’application. Si aucune dimension n’a été appliquée à la mosaïque, la dimension de ventilation sera **heure** ou **jours**, en fonction de la période par défaut.
 
    ![Breakdown_view](assets/break_view.png)
 
-   *Notez comment chaque dimension ajoutée à la mosaïque s’affiche dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur exécutif peut alors choisir parmi les options répertoriées dans la liste déroulante.*
+   *Notez comment chaque dimension ajoutée à la mosaïque apparaît dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.*
 
-4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment depuis le panneau de gauche et déposez-le directement au-dessus de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la carte de performance, déposez la mosaïque au-dessus de la carte de performance.
+4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’évaluation, déposez la mosaïque en haut de la Fiche d’évaluation.
 
-5. De même, pour supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur la carte de performance en dehors des mosaïques, puis supprimez-le en cliquant sur la **croix** qui s’affiche lorsque vous passez la souris sur le composant, comme illustré ci-dessous pour le segment Clients **** mobiles :
+5. De même, si vous souhaitez supprimer un composant appliqué à la totalité de la Fiche d’évaluation, cliquez n’importe où sur la Fiche d’évaluation en dehors des mosaïques, puis supprimez-le en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris sur le composant, comme indiqué ci-dessous pour le segment **Clients mobiles** :
 
    ![Remove_components](assets/new_remove.png)
 
-6. Sous **Propriétés** du tableau de bord, vous pouvez également spécifier les éléments suivants :
+6. Dans les **Propriétés** de la Fiche d’évaluation, vous pouvez également préciser en option les éléments suivants :
 
-   * Plage **de dates** par défaut. Les plages spécifiées ici seront les mêmes que celles appliquées au premier accès de l’utilisateur exécutif à la carte de performance dans son application.
+   * Une **période par défaut**. Les périodes que vous précisez ici seront identiques à celles appliquées lorsque l’utilisateur en charge de l’exécution accède pour la première fois à la Fiche d’évaluation dans l’application.
 
-   * Plage de dates **de comparaison**
+   * Une **période de comparaison**
 
-   * Tout **segment** à appliquer à l’ensemble de la carte de performance
+   * Tout **segment** à appliquer à la totalité de la Fiche d’évaluation
 
-7. Pour nommer la carte de performance, cliquez sur l’espace de noms dans l’angle supérieur gauche de l’écran et saisissez le nouveau nom.
+7. Pour nommer la Fiche d’évaluation, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
 
    ![Naming_Scorecards](assets/new_name.png)
 
-## Partage de la carte de performance
+## Partager la Fiche d’évaluation
 
-Pour partager la carte de performance avec un utilisateur exécutif :
+Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exécution :
 
-1. Cliquez sur le menu **Partager** et sélectionnez **Partager la carte de performance**.
+1. Cliquez sur le menu **Partager**, puis sélectionnez **Partager la Fiche d’évaluation**.
 
-2. Dans le formulaire **Partager** , renseignez les champs en procédant comme suit :
+2. Dans le formulaire **Partager**, complétez les champs en :
 
-   * Attribution du nom de la carte de performance
-   * Description de la carte de performance
-   * Ajout de balises appropriées
-   * Spécification des destinataires de la carte de performance
-   * Sélectionnez l’option **Partager les composants incorporés avec les destinataires** pour vous assurer que l’utilisateur exécutif a accès à tous les composants de la carte de performance.
+   * indiquant le nom de la Fiche d’évaluation ;
+   * indiquant une description de la Fiche d’évaluation ;
+   * ajoutant des balises pertinentes ;
+   * précisant les destinataires de la Fiche d’évaluation.
+   * Sélectionnez l’option **Partager les composants incorporés avec les destinataires** pour vous assurer que l’utilisateur en charge de l’exécution a accès à tous les composants de la Fiche d’évaluation.
 
 3. Cliquez sur **Partager**.
 
 ![Share_Scorecards](assets/new_share.png)
 
 
-Une fois que vous avez partagé une carte de performance, les destinataires peuvent y accéder sur leur application mobile Analytics. Si vous apportez des modifications ultérieures à la carte de performance dans le créateur de cartes de performance, elles seront automatiquement mises à jour dans la carte de performance partagée. Les utilisateurs de l’administration verront alors les modifications après avoir actualisé la carte de performance dans leur application.
+Après avoir partagé une Fiche d’évaluation, vos destinataires peuvent y accéder depuis leur application mobile Analytics. Si, par la suite, vous apportez des modifications à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, celles-ci seront mises à jour automatiquement dans la Fiche d’évaluation que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
 
-*Remarque : Si vous mettez à jour la carte de performance en ajoutant de nouveaux composants, vous souhaiterez peut-être partager à nouveau la carte de performance (et cochez l’option Partager **automatiquement les composants incorporés avec les destinataires**) afin de vous assurer que vos cadres supérieurs ont accès à ces modifications.*
+*Remarque : si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous pouvez vouloir partager à nouveau la Fiche d’évaluation (et cocher l’option **Partager automatiquement les composants incorporés avec les destinataires**) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.*
 
-## Configuration des utilisateurs cadres avec l’application
+## Configurer des utilisateurs en charge de l’exécution dans l’application
 
-Dans certains cas, les utilisateurs finaux peuvent avoir besoin d’une aide supplémentaire pour accéder à l’application et l’utiliser. Cette section fournit des informations pour vous aider à fournir cette aide.
+Dans certains cas, les utilisateurs en charge de l’exécution peuvent avoir besoin d’aide pour accéder à l’application et l’utiliser. Cette section fournit des informations pour vous aider à apporter cette aide.
 
-### Aider les utilisateurs cadres à accéder à
+### Aider les utilisateurs en charge de l’exécution à obtenir les accès à l’application
 
-Pour aider les cadres à accéder à vos cartes de performance dans l’application, assurez-vous que :
+Pour aider les utilisateurs en charge de l’exécution à accéder à vos Fiches d’évaluation sur l’application, assurez-vous des points suivants :
 
-* La configuration minimale requise pour les systèmes d’exploitation mobiles sur leurs appareils est iOS version 10 ou supérieure, ou Android version 4.4 (KitKat) ou supérieure
-* Ils disposent d’une connexion valide à Adobe Analytics.
-* Vous avez correctement créé des cartes de performance mobiles pour elles et vous les partagez avec elles.
-* Ils ont accès à Analysis Workspace et à la suite de rapports sur laquelle le tableau de bord repose
-* Ils ont accès aux composants inclus dans la carte de performance. Remarque : Vous pouvez sélectionner une option lors du partage de vos feuilles de calcul pour partager **automatiquement les composants incorporés avec les destinataires**.
+* Les spécifications minimales en matière de systèmes d’exploitation mobile sur leurs appareils sont la version 10 ou ultérieure d’iOS ou la version 4.4 (KitKat) ou ultérieure d’Android.
+* Ils possèdent des identifiants de connexion valides à Adobe Analytics.
+* Vous avez créé et partagé correctement des Fiches d’évaluation avec eux.
+* Ils ont accès à Analysis Workspace et à la suite de rapports sur laquelle la Fiche d’évaluation est basée.
+* Ils ont accès aux composants que la Fiche d’évaluation inclut. Remarque : lorsque vous partagez vos Fiches d’évaluation, vous pouvez sélectionnez l’option **Partager automatiquement les composants incorporés avec les destinataires**.
 
-### Aider les utilisateurs de l’application
+### Aider les utilisateurs en charge de l’exécution à utiliser l’application
 
-Pendant la phase bêta, et avant que l’application ne soit dévoilée au public, vous pouvez contrôler qui a accès à l’application.
+Pendant la phase de bêta et avant que l’application ne soit dévoilée au public, vous pouvez contrôler qui a accès à l’application.
 
-1. Aidez les utilisateurs à télécharger et installer l’application. Pour ce faire, suivez les étapes ci-après pour étendre l’accès à vos cadres, selon qu’ils utilisent un iOS ou un périphérique Android.
+1. Aidez les utilisateurs en charge de l’exécution à télécharger et à installer l’application. Pour ce faire, indiquez-leur les étapes suivantes pour étendre l’accès à vos utilisateurs en charge de l’exécution selon qu’ils utilisent un appareil iOS ou Android.
 
-   **Pour les cadres supérieurs sur iOS :**
+   **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-   1. Cliquez sur le lien public suivant (il est également disponible dans Analytics sous **Outils** &gt; Application **** mobile) :
+   1. Cliquez sur le lien public suivant (celui-ci est également disponible dans Analytics dans **Outils** > **Application mobile**) :
 
-      [Lien](https://testflight.apple.com/join/WtXMQxlI)iOS : `https://testflight.apple.com/join/WtXMQxlI`
+      [Lien iOS](https://testflight.apple.com/join/WtXMQxlI) : `https://testflight.apple.com/join/WtXMQxlI`
 
-      Après avoir cliqué sur le lien, l’écran Testflight suivant s’affiche :
+      Lorsque vous cliquez sur le lien, l’écran Testflight suivant s’affiche :
 
-      ![Ecran Testflight](assets/testflight1.png)
+      ![Écran Testflight](assets/testflight1.png)
 
-   2. Appuyez sur le lien **Afficher dans l’App Store** sur l’écran pour télécharger l’application Testflight.
+   2. Appuyez sur le lien **Afficher dans l’App Store** à l’écran pour télécharger l’application Testflight.
 
-   3. Après avoir installé l’application Testflight, recherchez et installez l’application mobile Adobe Analytics depuis Testflight, comme indiqué ci-dessous :
+   3. Une fois que vous avez installé l’application Testflight, cherchez et installez l’application mobile Adobe Analytics depuis Testfilght comme illustré ci-dessous :
 
-      ![Ecran Testflight](assets/testflight2.png)
-      
-   **Pour les cadres supérieurs sur Android :**
+      ![Écran Testflight](assets/testflight2.png)
+   **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-   1. Appuyez sur le lien Play Store suivant sur le périphérique de l’utilisateur (il est également disponible dans Analytics sous **Outils** &gt; Application ****mobile) :
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+   1. Appuyez sur le lien Play Store suivant sur l’appareil de l’utilisateur (celui-ci se trouve également dans Analytics dans **Outils** > **Application mobile**) :
+      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp) : `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-      Après avoir appuyé sur le lien, appuyez sur le lien Devenir un testeur dans l’écran suivant :
+      Après avoir appuyé sur le lien, appuyez sur le lien Devenir testeur sur l’écran suivant :
 
-      ![Ecran Plate-forme](assets/play.png)
+      ![Écran Play Store](assets/play.png)
 
-   2. Appuyez sur le lien **Télécharger sur Google Play** sur l’écran suivant :
+   2. Appuyez sur le lien de **téléchargement sur Google Play** sur l’écran suivant :
       ![Lien de téléchargement](assets/playnext.png)
 
    3. Téléchargez et installez l’application.
-Une fois téléchargés et installés, les utilisateurs finaux peuvent se connecter à l’application à l’aide de leurs identifiants Adobe Analytics existants ; nous prenons en charge les ID Adobe et Enterprise/Federated.
-   ![Ecran de bienvenue de l’application](assets/welcome.png)
+Une fois l’application téléchargée et installée, les utilisateurs en charge de l’exécution peuvent se connecter à l’application en utilisant leurs informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
+   ![Écran de bienvenue de l’application](assets/welcome.png)
 
-2. Aidez-les à accéder à votre carte de performance. Une fois que les administrateurs se sont connectés à l’application, l’écran **Choisir une société** s’affiche. Cet écran répertorie les sociétés de connexion auxquelles appartient l’utilisateur exécutif. Pour les aider à accéder à Scorecard :
+2. Aidez-les à accéder à votre Fiche d’évaluation. Lorsque les utilisateurs en charge de l’exécution sont connectés à l’application, l’écran **Choisir une entreprise** apparaît. Cet écran répertorie les entreprises connectées auxquelles l’utilisateur en charge de l’exécution appartient. Pour les aider à accéder à la Fiche d’évaluation :
 
-   * Appuyez sur le nom de la société de connexion ou de l’organisation Experience Cloud qui s’applique à la carte de performance que vous avez partagée. La liste Scorecard affiche alors toutes les Scorecards qui ont été partagées avec le cadre exécutif sous cette société de connexion.
-   * Aidez-les à trier cette liste par **Dernière modification**, le cas échéant.
-   * Appuyez sur le nom de la carte de performance pour l’afficher.
+   * Appuyez sur le nom de l’entreprise connectée ou de l’organisation Experience Cloud auquel la Fiche d’évaluation que vous avez créée s’applique. La liste des Fiches d’évaluation affiche alors toutes les Fiches d’évaluation partagées avec la personne en charge de l’exécution pour cette entreprise connectée.
+   * Aidez-les à trier cette liste selon la **Modification la plus récente**, le cas échéant.
+   * Appuyez sur le nom de la Fiche d’évaluation pour l’afficher.
    ![Choisissez une entreprise](assets/accesscard.png)
 
-   Remarque : Si l'utilisateur exécutif se connecte et voit un message disant que rien n'a été partagé :
+   Remarque : si l’utilisateur en charge de l’exécution se connecte et qu’un message s’affiche indiquant que rien n’a été partagé :
 
-   * L’utilisateur exécutif a peut-être sélectionné une instance Analytics incorrecte.
-   * La carte de performance n’a peut-être pas été partagée avec l’utilisateur exécutif.
+   * L’utilisateur en charge de l’exécution peut avoir sélectionné la mauvaise instance Analytics.
+   * La Fiche d’évaluation peut ne pas avoir été partagée avec l’utilisateur en charge de l’exécution.
 
-      ![Rien n’est partagé](assets/nothing.png)
-   Vérifiez que l’utilisateur exécutif peut se connecter à l’instance Analytics appropriée et que la carte de performance a été partagée.
+      ![Rien n’a été partagé](assets/nothing.png)
+   Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Analytics et que la Fiche d’évaluation a bien été partagée.
 
-3. Expliquez à l’utilisateur exécutif comment les mosaïques apparaissent dans les cartes de performance que vous partagez.
+3. Expliquez à l’utilisateur en charge de l’exécution comment les mosaïques apparaissent dans les Fiches d’évaluation que vous partagez.
 
    ![Explication des mosaïques](assets/newexplain.png)
 
 
-   Informations supplémentaires sur les mosaïques :
+   Informations supplémentaires sur les mosaïques :
 
-   * La granularité des graphiques sparkline dépend de la longueur de la plage de dates :
-      * Un jour affiche une tendance horaire
-      * Plus d’une journée et moins d’un an affiche une tendance quotidienne
-      * Un an ou plus affiche une tendance hebdomadaire
-   * La formule de changement de valeur en pourcentage est le total de la mesure (période actuelle) - total de la mesure (période de comparaison) / total de la mesure (période de comparaison).
-   * Vous pouvez descendre l’écran pour actualiser la carte de performance.
-
-
-4. Appuyez sur une mosaïque pour afficher le mode de fonctionnement d’une ventilation détaillée pour la mosaïque.
-
-   ![Vue de ventilation](assets/sparkline.png)
+   * La granularité des graphiques sparkline dépend de la longueur de la période :
+      * Une tendance horaire s’affiche pour les plages d’une journée.
+      * Une tendance quotidienne s’affiche pour les plages comprises entre une journée et un an.
+      * Une tendance hebdomadaire s’affiche pour les plages supérieures à un an.
+   * La formule de modification de la valeur de pourcentage est calculée de la manière suivante : total de la mesure (période en cours) - total de la mesure (période de comparaison)/total de la mesure (période de comparaison).
+   * Vous pouvez tirer l’écran vers le bas pour actualiser la Fiche d’évaluation.
 
 
-5. Pour modifier les plages de dates de votre carte de performance :
+4. Appuyez sur une mosaïque pour afficher comment fonctionne une ventilation détaillée sur la mosaïque.
+
+   ![Vue Ventilation](assets/sparkline.png)
+
+
+5. Pour modifier les périodes de votre fiche d’évaluation :
 
    ![Modifier les dates](assets/changedate.png)
 
-   *Remarque : Vous pouvez également modifier les plages de dates dans la vue Ventilation illustrée ci-dessus de la même manière.*
+   *Remarque : vous pouvez également modifier les périodes dans la vue Ventilation affichée ci-dessus de la même manière.*
 
-   Selon l’intervalle que vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année), deux options s’affichent pour les plages de dates : soit la période actuelle, soit la période qui l’précède immédiatement.** Appuyez sur l’une de ces deux options pour sélectionner la première plage. Sous la liste **COMPARER** à, appuyez sur l’une des options présentées pour comparer les données de cette période avec la première plage de dates que vous avez sélectionnée. Appuyez sur **Terminé** dans l’angle supérieur droit de l’écran. Le champ **Plages** de dates et les mosaïques Scorecard sont mis à jour avec les nouvelles données de comparaison des nouvelles plages sélectionnées.
+   Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **COMPARER À**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **Terminé** en haut à droite de l’écran. Le champ **Périodes** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
-6. Pour laisser vos commentaires sur cette application :
+6. Pour faire part de vos commentaires sur cette application :
 
-   1. Appuyez sur l’icône de l’utilisateur dans l’angle supérieur droit de l’écran de l’application.
-   2. Dans l’écran **Mon compte** , appuyez sur l’option **Commentaires** .
-   3. Appuyez sur pour afficher les options permettant de laisser un commentaire.
-   ![Laissez vos commentaires](assets/feedback.png)
+   1. Appuyez sur l’icône utilisateur en haut à droite de l’écran de l’application.
+   2. Sur l’écran **Mon compte**, appuyez sur l’option **Commentaires**.
+   3. Appuyez pour afficher les options permettant de laisser un commentaire.
+   ![Laisser un commentaire](assets/feedback.png)
    ![Options de commentaires](assets/feedback_option.png)
 
 
-**Pour signaler un bogue**:
+**Pour signaler un bogue** :
 
-Appuyez sur l’option et choisissez une sous-catégorie du bogue. Dans le formulaire pour signaler un bogue, indiquez votre adresse électronique dans le champ supérieur et votre description du bogue dans le champ situé en dessous. Une capture d’écran des informations de votre compte est automatiquement jointe au message, mais vous pouvez la supprimer si vous le souhaitez en appuyant sur le **X** dans l’image de la pièce jointe. Vous avez également la possibilité de prendre un enregistrement d’écran, d’ajouter d’autres captures d’écran ou de joindre des fichiers. Pour envoyer le rapport, appuyez sur l’icône du plan de papier dans l’angle supérieur droit du formulaire.
+Appuyez sur l’option, puis choisissez une sous-catégorie de bogue. Dans le formulaire de signalement d’un bogue, indiquez votre adresse électronique dans le champ supérieur et votre description du bogue dans le champ qui suit. Une capture d’écran des informations de votre compte est jointe automatiquement au message, mais vous pouvez la supprimer en appuyant sur le **X** dans l’image de la pièce jointe. Vous disposez également d’options pour effectuer un enregistrement de l’écran, ajouter davantage de captures d’écran ou joindre des fichiers. Pour envoyer le rapport, appuyez sur l’icône en forme d’avion en papier en haut à droite du formulaire.
 
 
-![Rapport de bogue](assets/newbug.png)
+![Signaler un bogue](assets/newbug.png)
 
-**Pour suggérer une amélioration**:
+**Pour suggérer une amélioration** :
 
-Appuyez sur l’option et choisissez une sous-catégorie pour la suggestion. Dans le formulaire de suggestion, indiquez votre adresse électronique dans le champ supérieur et votre description du bogue dans le champ situé en dessous. Une capture d’écran des informations de votre compte est automatiquement jointe au message, mais vous pouvez la supprimer si vous le souhaitez en appuyant sur le **X** dans l’image de la pièce jointe. Vous avez également la possibilité de prendre un enregistrement d’écran, d’ajouter d’autres captures d’écran ou de joindre des fichiers. Pour envoyer la suggestion, appuyez sur l’icône du plan de papier dans l’angle supérieur droit du formulaire.
+Appuyez sur l’option et choisissez une sous-catégorie de suggestion. Dans le formulaire de suggestion, indiquez votre adresse électronique dans le champ supérieur et votre description de la suggestion dans le champ qui suit. Une capture d’écran des informations de votre compte est jointe automatiquement au message, mais vous pouvez la supprimer en appuyant sur le **X** dans l’image de la pièce jointe. Vous disposez également d’options pour effectuer un enregistrement de l’écran, ajouter davantage de captures d’écran ou joindre des fichiers. Pour envoyer la suggestion, appuyez sur l’icône en forme d’avion en papier en haut à droite du formulaire.
 
-**Pour poser une question**:
+**Pour poser une question** :
 
-Appuyez sur l’option et indiquez votre adresse électronique dans le champ supérieur et votre question dans le champ situé en dessous. Une capture d’écran est automatiquement jointe au message, mais vous pouvez la supprimer si vous le souhaitez en appuyant sur le **X** dans l’image de pièce jointe. Vous avez également la possibilité de prendre un enregistrement d’écran, d’ajouter d’autres captures d’écran ou de joindre des fichiers. Pour envoyer la question, appuyez sur l’icône du plan de papier dans l’angle supérieur droit du formulaire.
+Appuyez sur l’option et indiquez votre adresse électronique dans le champ supérieur et votre question dans le champ qui suit. Une capture d’écran est jointe automatiquement au message, mais vous pouvez la supprimer en appuyant sur le **X** dans l’image de la pièce jointe. Vous disposez également d’options pour effectuer un enregistrement de l’écran, ajouter davantage de captures d’écran ou joindre des fichiers. Pour envoyer la question, appuyez sur l’icône en forme d’avion en papier en haut à droite du formulaire.
