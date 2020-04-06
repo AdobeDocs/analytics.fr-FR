@@ -1,8 +1,8 @@
 ---
 description: Instructions de configuration des Fiches d’évaluation pour l’application mobile.
 title: Guide du curateur pour l’application mobile Adobe Analytics
-translation-type: ht
-source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
+translation-type: tm+mt
+source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
 
 ---
 
@@ -198,6 +198,7 @@ Pendant la phase de bêta et avant que l’application ne soit dévoilée au pub
       ![Écran Play Store](assets/play.png)
 
    2. Appuyez sur le lien de **téléchargement sur Google Play** sur l’écran suivant :
+
       ![Lien de téléchargement](assets/playnext.png)
 
    3. Téléchargez et installez l’application.
