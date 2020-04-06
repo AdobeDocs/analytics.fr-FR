@@ -1,18 +1,18 @@
 ---
-description: Tableau de comparaison des API de création de rapports dans Analytics. Vous y trouverez également des liens vers la documentation afférente.
+description: Tableau de comparaison pour les API de  Analytics. Des liens vers la documentation à l’appui sont fournis.
 title: Comparaison des API de création de rapports dans Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Comparaison des API de création de rapports dans Analytics
 
-Tableau de comparaison des API de création de rapports dans Analytics. Vous y trouverez également des liens vers la documentation afférente.
+Tableau de comparaison pour les API de  Analytics. Des liens vers la documentation à l’appui sont fournis.
 
-> [!NOTE] À propos de la latence, Analytics pour Target (A4T) combine sur le même accès les données d’Analytics et de Target pour les rapports intégrés. Les appels à Analytics et à Target pouvant survenir à différents moments, les accès sont stockés avant tout traitement de collecte des données dans les deux solutions. Pour cette raison, le temps de latence de tous les points de contrôle est de **7 à 10 minutes** plus long.
+>[!NOTE] À propos de la latence, Analytics pour Target (A4T) combine sur le même accès les données d’Analytics et de Target pour les rapports intégrés. Comme les appels Analytics et  se produisent à des moments différents, les accès sont stockés avant tout traitement destiné à collecter des données à partir des deux solutions. Ce processus ajoute **7 à 10 minutes** de latence supplémentaire à tous les points de contrôle.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -27,55 +27,55 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Description</b> </td> 
-   <td colname="col2"> Données finalisées intégralement traitées disponibles dans toutes les interfaces d’Analytics. </td> 
+   <td colname="col2"> Données finalisées entièrement traitées disponibles dans toutes les interfaces Analytics. </td> 
    <td colname="col3"> Mesures limitées partiellement traitées disponibles quelques secondes après la collecte. </td> 
    <td colname="col4"> Données d’accès partiellement traitées disponibles quelques secondes après la collecte. </td> 
-   <td colname="col5"> Données finalisées entièrement traitées utilisées pour l’extraction d’exportations volumineuses de données. </td> 
+   <td colname="col5"> Données finalisées entièrement traitées utilisées pour extraire des exportations de données volumineuses. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > Latence</a> </p> </td> 
-   <td colname="col2"> 30 à 90 minutes </td> 
-   <td colname="col3"> * Secondes -10 minutes </td> 
-   <td colname="col4"> Secondes -10 minutes </td> 
-   <td colname="col5"> 90 minutes et + </td> 
+   <td colname="col2"> 30-90 Minutes </td> 
+   <td colname="col3"> * Secondes -10 minutes </td> 
+   <td colname="col4"> Secondes -10 minutes </td> 
+   <td colname="col5"> 90 minutes + </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Traitement</b> </td> 
-   <td colname="col2"> Complet </td> 
+   <td colname="col1"> <b>Traitement terminé</b> </td> 
+   <td colname="col2"> Complète </td> 
    <td colname="col3"> Partiel </td> 
    <td colname="col4"> Partiel </td> 
-   <td colname="col5"> Complet </td> 
+   <td colname="col5"> Complète </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/"  > Interfaces de création de rapports</a> </td> 
-   <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
-   <td colname="col3"> Rapport en temps réel dans les Reports &amp; Analytics, le Report Builder, l’API </td> 
-   <td colname="col4"> API seulement </td> 
-   <td colname="col5"> Data Warehouse et API </td> 
+   <td colname="col2"> Rapports et analyses, créateur de rapports, API </td> 
+   <td colname="col3"> Rapport en temps réel dans les rapports et analyses, le créateur de rapports, l’API </td> 
+   <td colname="col4"> API uniquement </td> 
+   <td colname="col5"> Entrepôt de données et API </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Granularité des données</b> </td> 
-   <td colname="col2"> Récapitulatif </td> 
-   <td colname="col3"> Récapitulatif </td> 
-   <td colname="col4"> Au niveau des accès </td> 
-   <td colname="col5"> Récapitulatif </td> 
+   <td colname="col2"> Résumé </td> 
+   <td colname="col3"> Résumé </td> 
+   <td colname="col4"> Niveau d’accès </td> 
+   <td colname="col5"> Résumé </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Traitement du profil du visiteur</b> </td> 
+   <td colname="col1"> <b>de</b> </td> 
    <td colname="col2"> Oui </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Non </td> 
-   <td colname="col5"> Oui </td> 
+   <td colname="col5"> Oui  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Prise en charge des segments</b> </td> 
+   <td colname="col1"> <b>Prend en charge les segments</b> </td> 
    <td colname="col2"> Oui </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Non </td> 
-   <td colname="col5"> Oui (mais seulement les segments compatibles avec Data Warehouse) </td> 
+   <td colname="col5"> Oui (mais uniquement les segments compatibles avec l’entrepôt de données) </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Analytics SKU</b> </td> 
+   <td colname="col1"> <b>SKU Analytics</b> </td> 
    <td colname="col2"> Standard+ </td> 
    <td colname="col3"> Standard+ </td> 
    <td colname="col4"> Premium Complete ou Predictive Intelligence </td> 
@@ -93,6 +93,6 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
 
 **Aide connexe**
 
-* [Adobe/IO](https://www.adobe.io/) - Source exhaustive de documentation technique et d’outils nécessaires pour intégrer les technologies Adobe à vos applications.
-* [API de requête des Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
+* [Adobe/IO](https://www.adobe.io/) - Source complète de documentation technique et d’outils nécessaires à l’intégration des technologies Adobe dans vos applications.
+* [API de des outils de données](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 
