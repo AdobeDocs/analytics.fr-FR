@@ -1,32 +1,32 @@
 ---
 title: s_gi()
-description: Créez et effectuez le suivi des instances d’AppMeasurement.
+description: Permet de créer des instances d’AppMeasurement et d’en effectuer le suivi.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s_gi
 
-La `s_gi()` fonction instancie ou trouve une instance d’AppMeasurement par identifiant de suite de rapports. AppMeasurement keeps track of every instance created, and `s_gi()` returns the existing instance for a report suite if one exists. Si une instance n’existe pas, une nouvelle instance est créée.
+La fonction `s_gi()` instancie ou trouve une instance d’AppMeasurement par identifiant de suite de rapports. AppMeasurement effectue le suivi de toutes les instances créées, tandis que la fonction `s_gi()` renvoie l’instance existante pour une suite de rapports, le cas échéant. S’il n’existe aucune instance, une nouvelle instance est créée.
 
 ## s_gi() dans Adobe Experience Platform Launch
 
-L’extension Analytics instancie et gère l’objet de suivi à votre place. Cependant, vous pouvez également définir un objet de suivi global dans l’ [!UICONTROL Library Management] accordéon lors de la configuration de l’extension Adobe Analytics.
+L’extension Analytics instancie et gère l’objet de suivi à votre place. However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous Adobe Analytics.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Développez l’ [!UICONTROL Library Management] accordéon, puis sélectionnez un bouton radio autre que [!UICONTROL Manage the library for me].
 
-Le champ de texte de variable globale vous permet de définir un objet de suivi personnalisé. Its default value is `s`.
+Le champ de texte de variable globale vous permet de définir un objet de suivi personnalisé. Sa valeur par défaut est `s`.
 
-## s_gi() dans l’éditeur de code personnalisé AppMeasurement et Launch
+## s_gi() dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
-Appelez la `s_gi()` fonction pour instancier un objet de suivi. Son seul argument contient une chaîne délimitée par des virgules d’ID de suite de rapports. L&#39;argument ID de suite de rapports est obligatoire.
+Appelez la fonction `s_gi()` pour instancier un objet de suivi. Son seul argument contient une chaîne délimitée par des virgules d’identifiant de suite de rapports. L’argument d’identifiant de suite de rapports est obligatoire.
 
-> [!TIP] Adobe recommande d’utiliser la `s` variable comme objet de suivi. Adobe utilise `s` dans sa documentation, ses exemples d’implémentation et ses modules externes. Cependant, vous pouvez utiliser n’importe quelle variable tant que vous êtes cohérent sur l’ensemble de votre site.
+>[!TIP] Adobe recommande d’utiliser la variable `s` comme objet de suivi. Adobe utilise `s` dans sa documentation, ses exemples de mise en œuvre et ses plug-ins. Vous pouvez toutefois utiliser n’importe quelle variable tant que vous êtes cohérent sur l’ensemble de votre site.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,11 +36,11 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!CAUTION] Les sections et exemples suivants contiennent des rubriques d’implémentation complexes. Testez minutieusement votre mise en oeuvre et effectuez le suivi des personnalisations importantes dans le de conception de [solution de votre entreprise](../../prepare/solution-design.md).
+>[!CAUTION] Les sections et exemples suivants contiennent des rubriques de mise en œuvre complexes. Testez minutieusement votre mise en œuvre et effectuez le suivi des personnalisations importantes dans le [document de conception de solution](../../prepare/solution-design.md) de votre organisation.
 
-## Gestion de plusieurs implémentations à l’aide de différents objets de suivi
+## Gestion de plusieurs mises en œuvre à l’aide de différents objets de suivi
 
-Vous pouvez envoyer différentes données à différentes suites de rapports si vous instanciez plusieurs objets de suivi. Ces deux objets de suivi fonctionnent indépendamment les uns des autres.
+Vous pouvez envoyer différentes données à différentes suites de rapports si vous instanciez plusieurs objets de suivi. Ces deux objets de suivi fonctionnent indépendamment l’un de l’autre.
 
 ```js
 // Instantiate two separate tracking objects to two different report suites
@@ -58,9 +58,9 @@ s.t();
 z.t();
 ```
 
-## Restaurer les variables AppMeasurement après avoir remplacé l’objet s
+## Restauration des variables AppMeasurement après avoir remplacé l’objet s
 
-Certains outils tiers peuvent également utiliser l’objet JavaScript `s` . Si vous écrasez accidentellement l’ `s` objet sur votre site, vous pouvez appeler `s_gi` avec le même argument de chaîne RSID pour restaurer toutes les variables et méthodes remplacées.
+Certains outils tiers peuvent également utiliser l’objet JavaScript `s`. Si vous écrasez accidentellement l’objet `s` sur votre site, vous pouvez appeler `s_gi` avec le même argument de chaîne RSID pour restaurer toutes les variables et méthodes remplacées.
 
 ```js
 // Step 1: Instantiate the tracking object
@@ -79,9 +79,9 @@ s = s_gi("examplersid");
 s.t();
 ```
 
-## Référencer le même objet de suivi avec plusieurs variables
+## Référencement du même objet de suivi avec plusieurs variables
 
-Si deux variables font référence à la même `s_gi()` fonction avec la même suite de rapports, vous pouvez les utiliser de manière interchangeable.
+Si deux variables font référence à la même fonction `s_gi()` avec la même suite de rapports, vous pouvez les utiliser de manière interchangeable.
 
 ```js
 // If the RSID is the same, any variables set in the 's' tracking object also get set in 'z' tracking object
