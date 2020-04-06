@@ -1,8 +1,8 @@
 ---
 title: Mise en œuvre avec AMP
 description: Mettez en œuvre Adobe Analytics sur les pages AMP.
-translation-type: ht
-source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,16 +25,16 @@ Le tableau suivant compare ces deux méthodes :
 |  | **modèle &quot;adobeanalytics&quot;** | **modèle &quot;adobeanalytics_nativeConfig&quot;** |
 |---|---|---|
 | Nombre de visiteurs/visites dans la suite de rapports existante | Gonflement élevé | Gonflement minimal |
-| Utilisation d’une suite de rapports distincte | Recommandée | Pas nécessaire |
-| Visiteurs nouveaux/récurrents | Non pris en charge | Pris en charge |
-| Service d’identification des visiteurs | Non pris en charge | Pris en charge |
+| Utilisation d’une suite de rapports distincte | Recommandé | Pas nécessaire |
+| Nouveaux vs. de retour | Non pris en charge | Pris en charge |
+| Service d’ID | Non pris en charge | Pris en charge |
 | Suivi des vidéos et des liens | Prise en charge partielle | Pas encore pris en charge |
-| Difficulté de mise en œuvre | Parfois difficile | Relativement facile |
+| Difficulté de mise en oeuvre | Plutôt difficile | Relativement facile |
 | Intégrations Adobe Experience Cloud | Non pris en charge | Prise en charge partielle |
 
 Pesez les avantages et les inconvénients au sein de votre organisation pour déterminer la méthode à utiliser. Pour obtenir un exemple de code, reportez-vous aux [exemples AMP](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) du référentiel GitHub d’Adobe.
 
-> [!WARNING] N’utilisez pas à la fois les modèles `"adobeanalytics"` et `"adobeanalytics_nativeConfig"` sur la même page à l’aide d’AMP. Si vous tentez de le faire, vous pouvez générer des erreurs dans la console du navigateur et comptabiliser deux fois les visiteurs.
+>[!WARNING] N’utilisez pas à la fois les modèles `"adobeanalytics"` et `"adobeanalytics_nativeConfig"` sur la même page à l’aide d’AMP. Si vous tentez de le faire, vous pouvez générer des erreurs dans la console du navigateur et comptabiliser deux fois les visiteurs.
 
 ## Méthode 1 : utilisez la balise amp-analytics avec le modèle « adobeanalytics »
 
@@ -77,11 +77,11 @@ Dans le déclencheur `click`, vous pouvez spécifier un sélecteur afin de vous 
 
 En outre, `amp-analytics` prend en charge un certain nombre de substitutions de variables de sorte que le projet AMP puisse fournir des valeurs de données qu’il connaît. Pour plus d’informations, voir les [variables prises en charge dans amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md) sur GitHub.
 
-> [!NOTE] Les demandes d’image envoyées à Adobe à l’aide de cette méthode n’incluent pas les données de nombreux rapports par défaut (navigateur, taille d’écran ou référent, par exemple). Si vous souhaitez inclure ces informations dans les accès, veillez à les inclure dans la chaîne de requête de demande d’image. Voir [Paramètres de requête de la collecte de données](../validate/query-parameters.md) pour plus d’informations.
+>[!NOTE] Les demandes d’image envoyées à Adobe à l’aide de cette méthode n’incluent pas les données de nombreux rapports par défaut (navigateur, taille d’écran ou référent, par exemple). Si vous souhaitez inclure ces informations dans les accès, veillez à les inclure dans la chaîne de requête de demande d’image. Voir [Paramètres de requête de la collecte de données](../validate/query-parameters.md) pour plus d’informations.
 
 Adobe identifie les visiteurs à l’aide d’une fonction AMP intégrée et définit le cookie `adobe_amp_id`. Cet identifiant visiteur est unique à tout autre identifiant défini par Adobe Analytics (le cookie `s_vi`, par exemple). Le service Adobe Experience Cloud ID n’est pas pris en charge à l’aide de cette méthode de mise en œuvre.
 
-> [!NOTE] AMP utilise des CDN pour diffuser du contenu. Celui-ci est structuré de manière à comptabiliser un visiteur unique différent pour chaque réseau de diffusion de contenu à partir duquel un visiteur récupère du contenu, ce qui peut gonfler le nombre de visiteurs uniques.
+>[!NOTE] AMP utilise des CDN pour diffuser du contenu. Celui-ci est structuré de manière à comptabiliser un visiteur unique différent pour chaque réseau de diffusion de contenu à partir duquel un visiteur récupère du contenu, ce qui peut gonfler le nombre de visiteurs uniques.
 
 Il est recommandé d’utiliser une suite de rapports distincte pour les pages AMP en raison de la manière dont AMP identifie les visiteurs uniques.
 
@@ -147,7 +147,7 @@ Cette méthode envoie des données à une page web utilitaire au moyen de param�
 
 Le modèle `"adobeanalytics_nativeConfig"` ajoute également des paramètres de chaîne de requête en fonction des variables répertoriées dans la section `extraUrlParams` de la balise amp-analytics. Dans l’exemple ci-dessus, les paramètres `pageName` et `v1` sont inclus.
 
-> [!IMPORTANT] Votre page `stats.html` doit être hébergée sur un sous-domaine distinct du domaine sur lequel l’AMP elle-même est hébergée. L’infrastructure AMP n’autorise pas les iframes issues du même sous-domaine que celui où existe la page AMP même. Par exemple, si votre fichier AMP est hébergé sur `amp.example.com`, hébergez votre page `stats.html` sur un sous-domaine distinct, tel que `ampmetrics.example.com`.
+>[!IMPORTANT] Votre page `stats.html` doit être hébergée sur un sous-domaine distinct du domaine sur lequel l’AMP elle-même est hébergée. L’infrastructure AMP n’autorise pas les iframes issues du même sous-domaine que celui où existe la page AMP même. Par exemple, si votre fichier AMP est hébergé sur `amp.example.com`, hébergez votre page `stats.html` sur un sous-domaine distinct, tel que `ampmetrics.example.com`.
 
 Avec cette méthode, si un utilisateur choisit de ne pas effectuer le suivi sur votre site principal, il est également désabonné du suivi sur tous vos fichiers AMP. L’utilisation de cette page utilitaire signifie également qu’AMP peut prendre en charge le service Adobe Experience Cloud ID. Une suite de rapports distincte n’est pas requise.
 
@@ -161,7 +161,7 @@ Non. La norme AMP ne prend en charge que les déclencheurs pour « visible »,
 
 **Comment puis-je différencier les visiteurs AMP des autres dans mes données ?**
 
-Pour toutes les pages AMP, la dimension [!UICONTROL Version de JavaScript] collecte une valeur similaire à `AMP vX.X`. Vous pouvez également définir une dimension personnalisée sur « AMP » afin de segmenter ces visiteurs.
+For all AMP pages, the [!UICONTROL JavaScript Version] dimension collects a value similar to `AMP vX.X`. Vous pouvez également définir une dimension personnalisée sur « AMP » afin de segmenter ces visiteurs.
 
 **Comment cette méthode de mise en œuvre se compare-t-elle aux Instant Articles de Facebook ?**
 
