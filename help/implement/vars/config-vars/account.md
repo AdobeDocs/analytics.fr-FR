@@ -2,16 +2,16 @@
 title: account
 description: Utilisez la variable de compte pour déterminer la suite de rapports à laquelle les données sont envoyées.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # account
 
-> [!IMPORTANT] Cette variable est retirée. Utilisez la [`s.sa()`](../functions/sa-method.md) fonction si votre implémentation nécessite de modifier la destination de la suite de rapports.
+>[!IMPORTANT] Cette variable a été abandonnée. Utilisez la fonction [`s.sa()`](../functions/sa-method.md) si votre mise en œuvre nécessite de modifier la destination de la suite de rapports.
 
-Dans les versions précédentes d’Adobe Analytics, la `account` variable déterminait la suite de rapports à laquelle vous souhaitez envoyer des données. Un identifiant de suite de rapports est nécessaire pour envoyer des données à Adobe Analytics.
+Dans les versions précédentes d’Adobe Analytics, la variable `account` déterminait la suite de rapports à laquelle vous souhaitiez envoyer des données. Un identifiant de suite de rapports est nécessaire pour envoyer des données à Adobe Analytics.
 
-* Si vous utilisez Adobe Experience Platform Launch, les suites de rapports résident sous l’ [!UICONTROL Library Management] accordéon lors de la configuration de l’extension Adobe Analytics.
-* Si vous utilisez la [`s_gi()`](../functions/s-gi.md) fonction pour instancier un objet de suivi Analytics, les identifiants de suite de rapports existent déjà en tant qu’argument obligatoire dans la fonction.
+* If you use Adobe Experience Platform Launch, report suites reside under the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
+* Si vous utilisez la fonction [`s_gi()`](../functions/s-gi.md) pour instancier un objet de suivi Analytics, les identifiants de suite de rapports existent déjà en tant qu’argument obligatoire dans la fonction.
