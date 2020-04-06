@@ -1,34 +1,34 @@
 ---
 title: linkName
-description: Définissez le nom de l’accès au lien personnalisé.
+description: Permet de définir le nom de l’accès au lien personnalisé.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkName
 
-Utilisez la `linkName` variable pour déterminer la valeur de dimension des liens personnalisés, des liens de téléchargement ou des liens de sortie lors de l’exécution de la [`tl()`](../functions/tl-method.md) méthode suivante.
+Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
-Si cette variable est vide, AppMeasurement revient à la [`linkURL`](linkurl.md) variable.
+Si cette variable est vide, AppMeasurement revient à la variable [`linkURL`](linkurl.md).
 
 ## Nom du lien dans Adobe Experience Platform Launch
 
 Vous pouvez définir le champ du nom du lien lors de la configuration d’une règle pour envoyer une balise.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’ [!UICONTROL Rules] onglet, puis cliquez sur la règle souhaitée (ou créez une règle).
-4. Sous [!UICONTROL Actions], cliquez sur l’icône &quot;+&quot;
-5. Définissez la [!UICONTROL Extension] liste déroulante sur Adobe Analytics et [!UICONTROL Action Type] sur Envoyer la balise.
-6. Cliquez sur le `s.tl()` bouton radio qui affiche le [!UICONTROL Link Name] champ.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Name] field.
 
-## s.linkName dans l’éditeur de code personnalisé AppMeasurement et Lancement
+## s.linkName dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
-La `s.linkName` variable est une chaîne qui détermine la valeur de dimension pour les liens personnalisés, les liens de téléchargement ou les liens de sortie (selon ce qui [`s.linkType`](linktype.md) est). Il peut contenir jusqu&#39;à 100 octets.
+La variable `s.linkName` est une chaîne qui détermine la valeur de dimension pour les liens personnalisés, les liens de téléchargement ou les liens de sortie (selon ce à quoi [`s.linkType`](linktype.md) correspond). Celle-ci peut contenir jusqu’à 100 octets.
 
-> [!TIP] Cette variable est le troisième paramètre de la `tl()` méthode et n’a généralement pas besoin d’être définie en tant que variable autonome. Cependant, vous pouvez utiliser la `linkName` variable si vous ne souhaitez pas définir de valeurs comme arguments dans la `tl()` méthode.
+>[!TIP] Cette variable est le troisième paramètre de la `tl()` méthode et n’a généralement pas besoin d’être définie en tant que variable autonome. However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
 
 ```js
 s.linkName = "Example custom link";
