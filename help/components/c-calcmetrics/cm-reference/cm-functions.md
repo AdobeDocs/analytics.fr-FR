@@ -2,8 +2,8 @@
 description: Le créateur de mesures calculées permet d’appliquer des fonctions statistiques et mathématiques afin de créer des mesures calculées avancées.
 title: 'Référence : fonctions de base'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,15 +14,15 @@ Le créateur de mesures calculées permet d’appliquer des fonctions statistiqu
 
 Vous trouverez ci-dessous une liste alphabétique des fonctions ainsi que leur définition.
 
-> [!NOTE] Lorsque [!DNL metric] est identifié en tant qu’argument d’une fonction, d’autres expressions des mesures sont également autorisées. Par exemple, [!DNL MAXV(metrics)] autorise également [!DNL MAXV(PageViews + Visits).].
+>[!NOTE] Lorsque [!DNL metric] est identifié en tant qu’argument d’une fonction, d’autres expressions des mesures sont également autorisées. Par exemple, [!DNL MAXV(metrics)] autorise également [!DNL MAXV(PageViews + Visits).].
 
 ## Fonctions de tableau et fonctions de ligne {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-Une fonction de tableau consiste à ce que la sortie soit la même pour chaque ligne du tableau. Une fonction de ligne consiste à ce que la sortie soit différente pour chaque ligne du tableau.
+Une fonction de tableau est une fonction dont la sortie est la même pour chaque ligne du tableau. Une fonction de ligne est une fonction dont la sortie est différente pour chaque ligne du tableau.
 
 ## Valeur absolue (ligne) {#concept_4CC47884F7CA49D5B84AC898EA596673}
 
-Renvoie la valeur absolue d’un nombre. La valeur absolue d’un nombre est le nombre doté d’une valeur positive.
+Renvoie la valeur absolue d’un nombre. La valeur absolue d’un nombre est ce nombre avec une valeur positive.
 
 ```
 ABS(metric)
@@ -30,11 +30,11 @@ ABS(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la valeur absolue. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la valeur absolue. |
 
 ## Max. colonne {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
-Renvoie la valeur la plus grande d’un ensemble d’éléments de dimension pour une colonne de mesures. MAXV évalue verticalement dans une seule colonne (mesure) sur l’ensemble des éléments de dimension.
+Renvoie la valeur la plus élevée d’un ensemble d’éléments de dimension pour une colonne de mesure. MAXV procède à l’évaluation dans le sens vertical parmi les éléments de dimension d’une même colonne (mesure).
 
 ```
 MAXV(metric)
@@ -42,11 +42,11 @@ MAXV(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure que vous souhaiteriez faire évaluer. |
+| *mesure* | Mesure que vous souhaitez évaluer. |
 
 ## Min. colonne {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
-Renvoie la valeur la plus petite d’un ensemble d’éléments de dimension pour une colonne de mesures. MINV évalue verticalement dans une seule colonne (mesure) sur l’ensemble des éléments de dimension.
+Renvoie la valeur la plus faible d’un ensemble d’éléments de dimension pour une colonne de mesure. MINV procède à l’évaluation dans le sens vertical parmi les éléments de dimension d’une même colonne (mesure).
 
 ```
 MINV(metric)
@@ -54,11 +54,11 @@ MINV(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure que vous souhaiteriez faire évaluer. |
+| *mesure* | Mesure que vous souhaitez évaluer. |
 
 ## Somme de la colonne {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
-Ajoute toutes les valeurs numériques pour une mesure dans une colonne (sur l’ensemble des éléments d’une dimension).
+Ajoute toutes les valeurs numériques pour une mesure dans une colonne (parmi les éléments d’une dimension).
 
 ```
 SUM(metric)
@@ -66,11 +66,11 @@ SUM(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la valeur totale ou la somme. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la valeur totale ou la somme. |
 
 ## Décompte (tableau) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
-Renvoie le nombre, ou le décompte, des valeurs différentes de zéro pour une mesure dans une colonne (le nombre d’éléments uniques signalés dans une dimension).
+Renvoie le nombre de valeurs différentes de zéro pour une mesure dans une colonne (le nombre d’éléments uniques pris en compte dans une dimension).
 
 ```
 COUNT(metric)
@@ -78,11 +78,11 @@ COUNT(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure que vous souhaitez décompter. |
+| *mesure* | Mesure à compter. |
 
 ## Exposant (ligne) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
-Renvoie *e* élevé à la puissance d’un nombre donné. La constante *e* est égale à 2,71828182845904, la base du logarithme népérien. EXP est l’inverse de LN, l’algorithme népérien d’un nombre.
+Returns *e* raised to the power of a given number. The constant *e* equals 2.71828182845904, the base of the natural logarithm. EXP is the inverse of LN, the natural logarithm of a number.
 
 ```
 EXP(metric)
@@ -90,7 +90,7 @@ EXP(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Exposant appliqué à la base *e*. |
+| *mesure* | The exponent applied to the base *e*. |
 
 ## Elévation à une puissance {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -102,7 +102,7 @@ pow(x,y) =<sup>xy</sup> = x*x*x*... (y fois)
 
 ## Moyenne (tableau) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
-Renvoie la moyenne arithmétique, ou moyenne, pour une mesure dans une colonne.
+Renvoie la moyenne arithmétique pour une mesure dans une colonne.
 
 ```
 MEAN(metric)
@@ -110,11 +110,11 @@ MEAN(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la moyenne. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la moyenne. |
 
 ## Médiane (tableau) {#concept_183EC31208524EDB8463D986DE2E895F}
 
-Renvoie la médiane pour une mesure dans une colonne. La médiane est le nombre au milieu d’un ensemble de nombres, c’est-à-dire que la moitié des nombres ont une valeur supérieure ou égale à la médiane et la moitié une valeur inférieure ou égale à la médiane.
+Renvoie la médiane pour une mesure dans une colonne. La médiane est le nombre séparant un ensemble de nombres en deux parties égales, c’est-à-dire que la moitié des valeurs sont supérieures ou égales à la médiane, et que l’autre moitié des valeurs sont inférieures ou égales à la médiane.
 
 ```
 MEDIAN(metric)
@@ -122,19 +122,19 @@ MEDIAN(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la médiane. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la médiane. |
 
 ## Modulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
-Reste de col1 / col2, en utilisant la division euclidienne.
+Le reste de col1 / col2, en utilisant la division euclidienne.
 
-Renvoie le reste après la division de x par y.
+Renvoie le reste après avoir divisé x par y.
 
 ```
 x = floor(x/y) + modulo(x,y)
 ```
 
-La valeur de renvoi comporte le même signe que l’entrée (ou est égale à zéro).
+La valeur renvoyée a le même signe que l’entrée (ou est égale à zéro).
 
 ```
 modulo(4,3) = 1 
@@ -142,7 +142,7 @@ modulo(-4,3) = -1
 modulo(-3,3) = 0
 ```
 
-Pour obtenir systématiquement un nombre positif, utilisez
+Pour toujours obtenir un nombre positif, utilisez
 
 ```
 modulo(modulo(x,y)+y,y)
@@ -165,8 +165,8 @@ PERCENTILE(metric,k)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> Colonne de mesures qui définit l’étendue relative. </td> 
+   <td colname="col1"> <i>mesure</i> </td> 
+   <td colname="col2"> Colonne de mesures qui définit l'étendue relative. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
@@ -177,7 +177,7 @@ PERCENTILE(metric,k)
 
 ## Quartile (tableau) {#concept_BFD37F0F23A24AD181407142233FA151}
 
-Renvoie le quartile des valeurs pour une mesure. Par exemple, les quartiles peuvent être utilisés pour trouver les 25 % de produits générant le plus de recettes. MINV, MEDIAN et MAXV renvoient la même valeur que QUARTILE lorsque quart est égal à 0 (zéro), 2 et 4, respectivement.
+Renvoie le quartile des valeurs pour une mesure. Par exemple, les quartiles peuvent être utilisés pour identifier les 25 % de produits qui génèrent le plus de recettes. MINV, MEDIAN et MAXV renvoient la même valeur que QUARTILE lorsque le quart est égal à 0 (zéro), 2 et 4, respectivement.
 
 ```
 QUARTILE(metric,quart)
@@ -192,21 +192,21 @@ QUARTILE(metric,quart)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col1"> <i>mesure</i> </td> 
    <td colname="col2"> Mesure pour laquelle vous souhaitez obtenir la valeur du quartile. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> Indique la *valeur à retourner. </td> 
+   <td colname="col2"> Indique la *valeur à renvoyer. </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Si *quart* = 0, QUARTILE renvoie la valeur minimale. Si *quart* = 1, QUARTILE renvoie le premier quartile (25e percentile). Si *quart* = 2, QUARTILE renvoie le premier quartile (50e percentile). Si *quart* = 3, QUARTILE renvoie le premier quartile (75e percentile). Si *quart* = 4, QUARTILE renvoie la valeur maximale.
+*If *quart* = 0, QUARTILE returns the minimum value. Si *quart* = 1, QUARTILE renvoie le premier quartile (25e percentile). Si *quart* = 2, QUARTILE renvoie le premier quartile (50e percentile). Si *quart* = 3, QUARTILE renvoie le premier quartile (75e percentile). Si *quart* = 4, QUARTILE renvoie la valeur maximale.
 
 ## Tour {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-Renvoie l’entier le plus proche pour une valeur donnée. Par exemple, si vous souhaitez éviter de signaler les décimales de devise pour les recettes et qu’un produit a une recette de 569,34 $, utilisez la formule Arrondi(*Recettes*) pour arrondir la recette au dollar le plus proche, soit 569 $. Un produit à 569,51 $ est arrondi au dollar le plus proche, soit 570 $.
+Renvoie l’entier le plus proche pour une valeur donnée. Par exemple, si vous souhaitez éviter de signaler les décimales de devise pour les recettes et qu’un produit a une recette de 569,34 $, utilisez la formule Arrondi(*Recettes*) pour arrondir la recette au dollar le plus proche, soit 569 $. Un de produit  569,51 $ sera arrondi au dollar le plus proche, soit 570 $.
 
 ```
 ROUND(metric)
@@ -214,7 +214,7 @@ ROUND(metric)
 
 | Argument | Description |
 |---|---|
-| *number* | Mesure que vous souhaitez arrondir. |
+| *nombre* | Mesure que vous souhaitez arrondir. |
 
 Un arrondi sans paramètre de positions décimales est identique à un arrondi avec 0 position décimale, soit un arrondi au nombre entier le plus proche. Avec un paramètre de positions décimales, la valeur renvoyée contient ce nombre de positions à droite de la décimale. Si le paramètre est négatif, il renvoie des 0 à gauche de la décimale.
 
@@ -251,17 +251,17 @@ SQRT(metric)
 
 | Argument | Description |
 |---|---|
-| *number* | Mesure pour laquelle vous souhaitez obtenir la racine carrée. |
+| *nombre* | Mesure pour laquelle vous souhaiter obtenir la racine carrée. |
 
 ## Écart type (tableau) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
-Renvoie l’écart type, ou la racine carrée de l’écart, selon l’échantillon de population de données.
+Renvoie la déviation standard, ou la racine carrée de la variance, en fonction d’un échantillon de population de données.
 
-L’équation pour l’écart type (STDEV) est la suivante :
+L’équation pour STDEV est la suivante :
 
 ![](assets/std_dev.png)
 
-où x est l’exemple de moyenne (*metric*) et *n* l’exemple de taille.
+où x est la moyenne de l’échantillon (*mesure*) et *n* la taille de l’échantillon.
 
 ```
 STDEV(metric)
@@ -274,21 +274,21 @@ STDEV(metric)
    <td> <b> Description</b> </td> 
   </tr> 
   <tr> 
-   <td> <b> <i> metric</i> </b> </td> 
-   <td> <p> Mesure pour laquelle vous souhaitez obtenir l’écart type. </p> </td> 
+   <td> <b> <i> mesure</i></b> </td> 
+   <td> <p> Mesure pour laquelle vous souhaitez obtenir l'écart type. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Variance (tableau) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
-Renvoie la variance basée sur un échantillon de population de données.
+Renvoie la variance en fonction d’un échantillon de population de données.
 
-L’équation pour la VARIANCE est la suivante :
+L’équation de VARIANCE est la suivante :
 
 ![](assets/variance_eq.png)
 
-où x est l’exemple de moyenne MOYENNE(*mesure*) et *n* l’exemple de taille.
+où x est la moyenne de l’échantillon, MEAN(*mesure*) et *n* est la taille de l’échantillon.
 
 ```
 VARIANCE(metric)
@@ -296,9 +296,9 @@ VARIANCE(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la variance. |
+| *mesure* | Mesure pour laquelle vous souhaiter obtenir la variance. |
 
-Pour calculer une variance, vous prenez une colonne entière de nombres. Vous calculez d’abord la moyenne de cette série de nombres. Une fois que vous avez obtenu la moyenne, vous effectuez les opérations suivantes avec chaque entrée :
+Pour calculer une variance, vous prenez une colonne entière de nombres. Vous calculez d’abord la moyenne de cette série de nombres. Une fois la moyenne obtenue, vous accédez à chaque entrée et procédez comme suit :
 
 1. Vous soustrayez la moyenne du nombre.
 
@@ -306,9 +306,9 @@ Pour calculer une variance, vous prenez une colonne entière de nombres. Vous ca
 
 3. Vous ajoutez ce résultat au total.
 
-Une fois que vous avez effectué ces opérations sur la colonne entière, vous obtenez un total unique. Vous divisez ensuite ce total par le nombre d’éléments de la colonne. Ce nombre est la variance de la colonne. Il s’agit d’un seul nombre. Il est toutefois présenté sous la forme d’une colonne de nombres.
+Une fois que vous avez effectué ces opérations sur la colonne entière, vous obtenez un total unique. Vous divisez ensuite ce total par le nombre d’éléments de la colonne. Ce nombre est la variance de la colonne. Il s’agit d’un seul nombre. Elle est toutefois affichée sous forme d’une colonne de nombres.
 
-Prenons comme exemple une colonne de 3 éléments :
+Prenons l’exemple d’une colonne à trois éléments :
 
 1
 
@@ -316,7 +316,7 @@ Prenons comme exemple une colonne de 3 éléments :
 
 3
 
-La moyenne de cette colonne est 2. La variance de la colonne est ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Dans les Ad Hoc Analysis, vous verrez :
+La moyenne de cette colonne est 2. La variance de la colonne est ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Dans les  ad hoc  ceci se présente comme suit :
 
 1 2/3
 
