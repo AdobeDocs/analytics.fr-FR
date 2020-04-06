@@ -1,8 +1,8 @@
 ---
 title: trackOffline
 description: Permet d’activer ou de désactiver le suivi hors ligne, qui modifie la manière dont AppMeasurement collecte les données.
-translation-type: ht
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Le suivi hors ligne est une méthode facultative de collecte de données dans Ad
 
 La variable `trackOffline` détermine si vous souhaitez utiliser le suivi hors ligne dans votre mise en œuvre.
 
-> [!IMPORTANT] Vous devez configurer votre suite de rapports pour accepter les accès horodatés avant d’activer cette variable. Si une suite de rapports n’accepte pas les accès horodatés et que cette variable est activée, ces données sont perdues et ne peuvent pas être récupérées.
+>[!IMPORTANT] Vous devez configurer votre suite de rapports pour accepter les accès horodatés avant d’activer cette variable. Si une suite de rapports n’accepte pas les accès horodatés et que cette variable est activée, ces données sont perdues et ne peuvent pas être récupérées.
 
 Lorsqu’il est activé, AppMeasurement utilise le processus suivant pour envoyer des données à Adobe :
 
