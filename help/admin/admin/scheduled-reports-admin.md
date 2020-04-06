@@ -3,8 +3,8 @@ description: Permet aux utilisateurs de niveau administrateur d’afficher et de
 title: File d’attente des rapports planifiés
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,39 +13,39 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Permet aux utilisateurs de niveau administrateur d’afficher et de gérer des rapports planifiés à l’échelle de l’organisation.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Rapports programmés]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**
 
 Les fonctionnalités de niveau administrateur dans le gestionnaire de rapports programmés incluent :
 
-* L’option [Afficher tous les rapports planifiés](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) de votre organisation.
-* Des [fonctionnalités de filtrage avancées](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) à l’échelle de votre organisation.
-* Le nouvel onglet [File d’attente des rapports](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) qui répertorie tous les rapports mis en file d’attente pour exécution sur les serveurs de création de rapports.
-* Fourniture de l’[ID de planification](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) dans l’interface de file d’attente des rapports.
+* L’option permettant d’ [afficher tous les rapports](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) planifiés de votre organisation.
+* [Fonctionnalités](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) de filtrage avancées au sein de votre entreprise.
+* Le nouvel onglet File d’attente [des](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) rapports qui  tous les rapports placés en file d’attente pour exécution sur les serveurs .
+* Exposition de l’ID [de](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) planification dans l’interface de file d’attente des rapports.
 
 ## Affichage de tous les rapports planifiés {#section_3F167CAAEEC24140B476CF95B7402690}
 
-Dans l’onglet **[!UICONTROL Liste des rapports]**, vous pouvez **[!UICONTROL Afficher tous les rapports planifiés]** de votre organisation en plus de ceux que vous avez personnellement planifiés.
+Sur l’ **[!UICONTROL Report List]** onglet, vous pouvez **[!UICONTROL Show All Scheduled Reports]** faire partie de votre organisation, en plus de celles que vous avez personnellement planifiées.
 
-> [!NOTE] La colonne **[!UICONTROL Nom de rapport]** affiche le nom du rapport planifié et la colonne **[!UICONTROL Nom de fichier]** affiche tout nom de fichier personnalisé défini par vous dans les Options de remise avancées. En conséquence, si vous planifiez plusieurs rapports du même type et que vous indiquez des noms personnalisés pour chacun, le gestionnaire de rapports programmés affiche plusieurs entrées avec le même nom de rapport mais avec des noms de fichiers différents. En effet, le rapport de fin en cours de planification étant le même, la colonne Nom de rapport comporte les mêmes noms de rapports pour tous les rapports sauf les noms des fichiers personnalisés (tels que définis).
+>[!NOTE] La **[!UICONTROL Report Name]** colonne affiche le nom du rapport planifié et la **[!UICONTROL File Name]** colonne affiche le nom de fichier personnalisé que vous avez défini dans Options de avancées. Par conséquent, si vous planifiez plusieurs rapports du même type et spécifiez des noms personnalisés pour chacun d’eux, le Gestionnaire de rapports planifiés affichera plusieurs entrées avec le même nom de rapport, mais avec des noms de fichier différents. Cela est dû au fait que le rapport principal planifié est le même, de sorte que la colonne Nom du rapport aurait les mêmes noms de rapport pour tous les rapports sauf les noms de fichiers personnalisés (tels qu’ils sont définis).
 
 ![](assets/show_all_scheduled_reports.png)
 
 ## Fonctionnalités de filtrage avancées {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-Par exemple, si vous souhaitez filtrer selon tous les rapports planifiés par heure, indiquez **[!UICONTROL Fréquence égale par heure]** dans le filtre **[!UICONTROL Avancé]** et cliquez sur **[!UICONTROL Appliquer]** :
+For example, if you wanted to filter on all reports that are scheduled hourly, you would specify **[!UICONTROL Frequency equals Hourly]** in the **[!UICONTROL Advanced]** filter and click **[!UICONTROL Apply]**:
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
 ## File d’attente des rapports {#section_03C866115D354BB182E90BF4D52F1E0B}
 
-Cette file d’attente permet de gérer et potentiellement supprimer tous les rapports planifiés qui « bouchent » la file d’attente. (Généralement, le délai d’expiration des rapports est de 4 heures.)
+Cette file d’attente vous permet de gérer et potentiellement de supprimer les rapports planifiés qui &quot;bloquent&quot; la file d’attente. (Généralement, les rapports expirent au bout de 4 heures.)
 
 ![](assets/scheduled_reports_2.png)
 
-La file d’attente des rapports vous permet également d’« Ignorer le rapport planifié une fois ». Cliquez simplement sur l’icône bleue dans la colonne **[!UICONTROL Gérer]**.
+La file d’attente des rapports vous permet également d’ignorer un rapport planifié une fois. Just click the blue icon in the **[!UICONTROL Manage]** column.
 
 ## ID de planification {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-La fourniture de l’**[!UICONTROL ID de planification]** dans l’interface de file d’attente des rapports est utile lorsque vous devez contacter le service à la clientèle Adobe pour la résolution d’un problème de rapports planifiés.
+Having the **[!UICONTROL Schedule ID]** exposed in the Report Queue interface helps when you need to contact Adobe Client Care for resolution of a scheduled reports issue.
 
 ![](assets/schedule_id.png)
