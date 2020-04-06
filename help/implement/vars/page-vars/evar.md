@@ -2,7 +2,7 @@
 title: eVar
 description: Variables personnalisées que vous pouvez utiliser dans votre mise en œuvre.
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon vous semble.
 
-> [!TIP] Dans la plupart des cas, Adobe recommande d’utiliser des eVars plutôt que des props. Dans les versions précédentes d’Adobe Analytics, les props et eVars présentaient des avantages et des inconvénients les uns pour les autres. Toutefois, Adobe a amélioré les eVars afin qu’elles répondent à presque tous les cas d’utilisation des props.
+>[!TIP] Dans la plupart des cas, Adobe recommande d’utiliser des eVars plutôt que des props. Dans les versions précédentes d’Adobe Analytics, les props et eVars présentaient des avantages et des inconvénients les uns pour les autres. Toutefois, Adobe a amélioré les eVars afin qu’elles répondent à presque tous les cas d’utilisation des props.
 
 Veillez à enregistrer la manière dont vous utilisez chaque eVar et sa logique dans le [document de conception de solution](../../prepare/solution-design.md).
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 S’il y a plus de deux décimales, le compteur eVar arrondit la valeur à deux décimales. Un compteur eVar ne peut pas contenir de nombres négatifs.
 
-> [!IMPORTANT] Vous devez d’abord configurer les eVars sur Compteur dans la Console d’administration avant d’utiliser les eVars de compteur. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
+>[!IMPORTANT] Vous devez d’abord configurer les eVars sur Compteur dans la Console d’administration avant d’utiliser les eVars de compteur. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
 
 ## Avantages exclusifs aux props et aux eVars
 
