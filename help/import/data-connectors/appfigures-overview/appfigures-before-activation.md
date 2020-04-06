@@ -2,8 +2,8 @@
 description: Avant d’activer cette intégration, comparez les éléments suivants à vos déploiements d’Adobe Analytics® et de votre logiciel de messagerie électronique.
 title: Avant l’activation de cette intégration
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -56,9 +56,9 @@ Le tableau suivant décrit les variables Analytics automatiquement activées pou
 
 ### Variables obligatoires {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
-> [!NOTE] Cette intégration utilise des variables dédiées pour les données de la boutique d’applications. Vous n’avez donc pas besoin d’attribuer des variables et des événements de commerce personnalisés.
+>[!NOTE] Cette intégration utilise des variables dédiées pour les données de la boutique d’applications. Vous n’avez donc pas besoin d’attribuer des variables et des événements de commerce personnalisés.
 
-| Type de variable | Nom | Méthode de remplissage | Description |
+| Type de variable | Nom | Méthode de population | Description |
 |---|---|---|---|
 | eVar | ID d’objet de la boutique d’applications | Importation à partir d’appFigures. | Configurez cette eVar en indiquant l’expiration de la visite, l’attribution la plus récente et les sous-relations de base. |
 | Événement (numérique) | Téléchargements de la boutique d’applications | Importation à partir d’appFigures. | Nombre de téléchargements d’applications mobiles. |
