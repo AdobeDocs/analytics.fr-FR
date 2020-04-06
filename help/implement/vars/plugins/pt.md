@@ -1,48 +1,48 @@
 ---
 title: pt
-description: Exécute une fonction sur un  de variables.
+description: Permet d’exécuter une fonction sur une liste de variables.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Module externe Adobe : pt
+# Plug-in Adobe : pt
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+>[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
-Le `pt` module externe exécute une fonction ou une méthode sur un de variables Analytics. Par exemple, vous pouvez exécuter la [`clearVars`](../functions/clearvars.md) méthode de manière sélective sur plusieurs variables sans appeler manuellement la méthode à chaque fois. Plusieurs autres plug-ins dépendent de ce code pour s’exécuter correctement. Ce module externe n’est pas nécessaire si vous n’avez pas besoin d’exécuter une fonction spécifique sur plusieurs variables Analytics à la fois, ou si vous n’utilisez aucun module externe dépendant.
+Le plug-in `pt` exécute une fonction ou une méthode dans une liste de variables Analytics. Par exemple, vous pouvez exécuter la méthode [`clearVars`](../functions/clearvars.md) de manière sélective sur plusieurs variables sans avoir à l’appeler manuellement à chaque fois. Plusieurs autres plug-ins dépendent de ce code pour s’exécuter correctement. Ce plug-in n’est pas nécessaire si vous n’avez pas besoin d’exécuter une fonction spécifique sur plusieurs variables Analytics à la fois, ou si vous n’utilisez aucun plug-in dépendant.
 
-## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
+## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
-1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
-1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
-   * Condition : Aucun
-   *  : Core - Bibliothèque chargée (Haut de la page)
-1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
-   * Extension : Plug-ins Analytics courants
-   * Type d&#39;action : Initialiser pt
+1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
+   * Condition : aucune
+   * Événement : Core - Bibliothèque chargée (Haut de la page)
+1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   * Extension : plug-ins Analytics communs
+   * Type d’action : initialisation de pt
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du module externe à l’aide de l’éditeur de code personnalisé Lancer
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
 
-Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de votre choix.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
-1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
+1. Ouvrez l’éditeur de code personnalisé et collez le code de plug-in fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
-## Installation du module externe à l’aide d’AppMeasurement
+## Installation du plug-in à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide de [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre mise en œuvre permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,28 +51,28 @@ Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement 
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilisation du module externe
+## Utilisation du plug-in
 
-La `pt` méthode utilise les arguments suivants :
+La méthode `pt` utilise les arguments suivants :
 
-* **`l`** (obligatoire, chaîne) : de variables sur lequel la fonction contenue dans l’ `cf` argument peut s’exécuter.
-* **`de`** (facultatif, chaîne) : Délimiteur qui sépare le de variables dans l’ `l` argument. La valeur par défaut est une virgule (`,`).
-* **`cf`** (obligatoire, chaîne) : Nom de la fonction de rappel contenue dans l’objet AppMeasurement à appeler par rapport à chacune des variables contenues dans l’ `l` argument.
-* **`fa`** (facultatif, chaîne) : Si la fonction de l’ `cf` argument appelle des arguments supplémentaires lors de son exécution, incluez-les ici. Par défaut, `undefined`.
+* **`l`** (obligatoire, chaîne) : liste des variables sur lesquelles la fonction contenue dans l’argument `cf` peut s’exécuter.
+* **`de`** (facultatif, chaîne) : délimiteur qui sépare la liste des variables dans l’argument `l`. Par défaut, il s’agit d’une virgule (`,`).
+* **`cf`** (obligatoire, chaîne) : nom de la fonction de rappel contenue dans l’objet AppMeasurement à appeler par rapport à chacune des variables contenues dans l’argument `l`.
+* **`fa`** (facultatif, chaîne) : si la fonction de l’argument `cf` appelle des arguments supplémentaires lors de son exécution, incluez-les ici. La valeur par défaut est `undefined`.
 
-L’appel de cette méthode renvoie une valeur si la fonction de rappel (dans l’ `cf` argument) renvoie une valeur.
+L’appel de cette méthode renvoie une valeur si la fonction de rappel (dans l’argument `cf`) en renvoie une.
 
 ## Exemples d’appels
 
-### Exemple n° 1
+### Exemple 1
 
-Le code suivant fait partie du plug-in getQueryParam.  Elle exécute la fonction d’aide getParameterValue sur chacune des paires clé-valeur contenues dans la chaîne de requête de l’URL (fullQueryString).  Pour extraire chaque paire clé-valeur, fullQueryString doit être délimité et séparé par un caractère d’esperluette &quot;&amp;&quot;. Le paramètreKey fait référence au paramètre de chaîne de  du que le module externe tente spécifiquement d’extraire de la chaîne de 
+Le code suivant fait partie du plug-in getQueryParam.  Il exécute la fonction d’assistance getParameterValue sur chacune des paires clé-valeur contenues dans la chaîne de requête de l’URL (fullQueryString).  Pour extraire chaque paire clé-valeur, la chaîne fullQueryString doit être délimitée et séparée par une esperluette « &amp; ». parameterKey fait référence au paramètre de chaîne de requête que le plug-in cherche spécifiquement à extraire de la chaîne de requête.
 
 ```javascript
 returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
-La ligne ci-dessus est un raccourci pour l’exécution du code qui ressemble à ce qui suit :
+La ligne ci-dessus est un raccourci pour exécuter un code semblable à celui présenté ci-dessous :
 
 ```js
 var returnValue = "",
@@ -87,15 +87,15 @@ for(var i = 0; i < parametersLength; i++)
 
 ## Historique des versions
 
-### 2.01 (24 septembre 2019)
+### 2.01 (24 septembre 2019)
 
-* Modifications mineures du code pour réduire la taille globale
+* Modifications mineures du code pour réduire la taille globale.
 
-### 2.0 (17 avril 2018)
+### 2.0 (17 avril 2018)
 
-* Publication ponctuelle (recompilée, taille de code réduite).
-* Ajout de la prise en charge du code H et d’AppMeasurement.
+* Nouvelle version (recompilé, taille de code réduite).
+* Ajout de la prise en charge du code H et d’AppMeasurement.
 
-### 1.0 (23 septembre 2013)
+### 1.0 (23 septembre 2013)
 
 * Version initiale.
