@@ -1,27 +1,27 @@
 ---
-description: Lorsque vous planifiez un rapport, vous pouvez choisir une liste de publication à utiliser dans le cadre de la distribution.
+description: Lorsque vous planifiez un rapport, vous pouvez choisir un de publication à utiliser pour la distribution.
 title: Autoriser les remplacements de la liste de publication
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Autoriser les remplacements de la liste de publication
 
-Lorsque vous planifiez un rapport, vous pouvez choisir une liste de publication à utiliser dans le cadre de la distribution.
+Lorsque vous planifiez un rapport, vous pouvez choisir un de publication à utiliser pour la distribution.
 
-Les listes de publication sont configurées dans les outils d’administration d’Analytics.
+Les  de publication sont configurées dans les outils d’administration d’Analytics.
 
-Voir la section [Gestionnaire de listes de publication](https://marketing.adobe.com/resources/help/fr_FR/reference/publishing_list.html) dans Références Analytics.
+Voir [Publication du Gestionnaire](https://marketing.adobe.com/resources/help/fr_FR/reference/publishing_list.html) de publication dans la référence Analytics.
 
-Pour activer cette fonctionnalité, accédez à la fenêtre [!UICONTROL Assistant Requête : Étape 1]
+Pour activer cette fonctionnalité, accédez à la [!UICONTROL Request Wizard: Step 1] fenêtre.
 
-Si vous activez la fonction [!UICONTROL Autoriser le remplacement de la liste de publication], la suite de rapports affectée à chaque destinataire de la liste remplace celle qui est associée à cette requête. De plus, si le classeur contient plusieurs suites de rapports, l’identifiant de suite de rapports associé à la liste de publication est utilisé.
+If you enable [!UICONTROL Allow Publishing List Override], the report suite assigned to each recipient in the publishing list replaces the report suite for this request. En outre, si le classeur contient plusieurs suites de rapports, l’identifiant de suite de rapports associé au de publication est utilisé.
 
-Cette option n’est pas disponible pour les suites de rapports sélectionnées à partir de cellules.
+Cette option n’est pas disponible pour les suites de rapports que vous sélectionnez dans les cellules.
 
-> [!NOTE] Si vous envoyez le rapport planifié à plusieurs listes de publication, il s’exécute une fois pour chaque liste. Les suites de rapports variables sont remplacées par celle qui est affectée à la liste de publication.
+>[!NOTE] Si vous envoyez le rapport planifié à plusieurs listes de publication, il s’exécute une fois pour chaque liste. Les suites de rapports variables sont remplacées par celle qui est affectée à la liste de publication.
 
