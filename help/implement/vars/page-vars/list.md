@@ -1,8 +1,8 @@
 ---
 title: list
 description: Variables personnalisées qui contiennent plusieurs valeurs dans le même accès.
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Les variables de liste sont des variables personnalisées que vous pouvez utilis
 
 Veillez à consigner dans votre [document de conception de solution](../../prepare/solution-design.md) la manière dont vous utilisez chaque variable de liste et sa logique.
 
-> [!NOTE] Les variables de liste stockent les 250 valeurs les plus récentes par visiteur. S’il existe plus de 250 valeurs uniques pour un visiteur donné, les valeurs les plus anciennes ne sont pas attribuées aux mesures.
+>[!NOTE] Les variables de liste stockent les 250 valeurs les plus récentes par visiteur. S’il existe plus de 250 valeurs uniques pour un visiteur donné, les valeurs les plus anciennes ne sont pas attribuées aux mesures.
 
 ## Configuration de variables de liste dans les paramètres de la suite de rapports
 
@@ -32,7 +32,7 @@ Chaque variable de liste est une chaîne qui contient des valeurs personnalisée
 s.list1 = "Example value 1,Example value 2,Example value 3";
 ```
 
-> [!TIP] Si vous définissez des valeurs en double dans le même accès, Adobe déduplique toutes les instances de ces valeurs. Par exemple, si vous définissez `s.list1 = "Example,Example";`, une instance est comptabilisée dans les rapports.
+>[!TIP] Si vous définissez des valeurs en double dans le même accès, Adobe déduplique toutes les instances de ces valeurs. Par exemple, si vous définissez `s.list1 = "Example,Example";`, une instance est comptabilisée dans les rapports.
 
 ## Comparer les props de liste et les variables de liste
 
