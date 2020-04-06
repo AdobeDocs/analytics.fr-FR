@@ -5,7 +5,7 @@ title: À propos des sous-classifications
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Adobe Analytics prend en charge les modèles de classification à niveau unique et à plusieurs niveaux. Une hiérarchie de classification vous permet d’appliquer une classification à une autre classification.
 
-> [!NOTE] Une sous-classification fait référence à la possibilité de créer des classifications de classification. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Pour plus d’informations sur les hiérarchies de classification, voir [Hiérarchies de classification](classification-hierarchies.md).
+>[!NOTE] Une sous-classification fait référence à la possibilité de créer des classifications de classification. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Pour plus d’informations sur les hiérarchies de classification, voir [Hiérarchies de classification](classification-hierarchies.md).
 
 Par exemple :
 
@@ -52,9 +52,9 @@ Par exemple :
 
 Bien que le modèle de fichier d’une classification à plusieurs niveaux soit plus complexe, la puissance des classifications à plusieurs niveaux réside dans le fait que des niveaux distincts peuvent être téléchargés sous forme de fichiers distincts. Cette approche peut être utilisée pour minimiser la quantité de données à télécharger périodiquement (quotidiennement, hebdomadairement, etc.) en regroupant les données dans des niveaux de classification qui changent au fil du temps par rapport à ceux qui ne changent pas.
 
-> [!NOTE] Si la [!UICONTROL Key] colonne d’un fichier de données est vide, Adobe génère automatiquement des clés uniques pour chaque ligne de données. Pour éviter toute corruption de fichier lors du transfert d’un fichier de données avec des données de classification de deuxième niveau ou de niveau supérieur, utilisez un astérisque (*) pour remplir chaque ligne de la [!UICONTROL Key] colonne.
+>[!NOTE] Si la [!UICONTROL Key] colonne d’un fichier de données est vide, Adobe génère automatiquement des clés uniques pour chaque ligne de données. Pour éviter toute corruption de fichier lors du transfert d’un fichier de données avec des données de classification de deuxième niveau ou de niveau supérieur, utilisez un astérisque (*) pour remplir chaque ligne de la [!UICONTROL Key] colonne.
 
-Pour plus d’informations sur la résolution des problèmes, reportez-vous à la section [Problèmes de téléchargement de classifications courants](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues).
+Pour plus d’informations sur la résolution des problèmes, reportez-vous à la section [Problèmes de téléchargement de classifications courants](https://marketing.adobe.com/resources/help/fr_FR/home/index.html#kb-common-saint-upload-issues).
 
 ## Exemples
 
