@@ -3,8 +3,8 @@ description: Les suites de rapports de cumul combinent les données de plusieurs
 title: Suites de rapports globales et de cumul
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -20,13 +20,13 @@ Les suites de rapports de cumul combinent les données de plusieurs suites de ra
 **Suite de rapports de cumul** : elle est créée dans les outils d’administration. Cette suite calcule la somme de chaque mesure à la fin de chaque journée.
 
 * Les cumuls sont gratuits et n’augmentent pas l’utilisation des appels au serveur.
-* Les cumuls fournissent des données totales, mais ne génèrent pas de rapports sur des valeurs individuelles. Ainsi, les valeurs eVar1 ne sont pas incluses, mais le total cumulé peut l’être.
+* Les cumuls fournissent des données totales, mais ne génèrent pas de rapports sur des valeurs individuelles. Par exemple, les valeurs eVar1 ne sont pas incluses, mais le total de ses  de  peut l’être.
 * Les données ne sont pas dédupliquées lorsqu’elles sont combinées dans des suites de rapports.
 * Les cumuls sont exécutés de nuit.
 * Lors de l’ajout d’une suite de rapports à un cumul existant, les données historiques ne sont pas intégrées au cumul.
-* Toutes les suites de rapports affiliées doivent comporter des données pour qu’un cumul fonctionne. Si vous intégrez de nouvelles suites de rapports dans un cumul, veillez à leur envoyer au moins une page vue.
-* Les suites de rapports de cumul sont limitées à 40 suites enfants.
-* Les suites de rapports de cumul sont limitées à 100 événements.
+* Toutes les suites de rapports enfants doivent comporter des données pour qu’un cumul fonctionne. Si de nouvelles suites de rapports sont incluses dans un cumul, veillez à envoyer au moins un de page à ces suites de rapports.
+* Les suites de rapports de cumul sont limitées à un maximum de 40 suites enfants.
+* Les suites de rapports de cumul sont limitées à un maximum de 100 .
 * Les données contenues dans les suites de rapports de cumul ne prennent pas en charge les répartitions ou les segments.
 * Le rapport Pages est remplacé par le rapport Sites les plus populaires, qui tient compte des mesures au niveau de la suite enfant.
 
@@ -34,13 +34,13 @@ Les suites de rapports de cumul combinent les données de plusieurs suites de ra
 
 **Deuxième appel serveur** : les cumuls n’impliquent aucun appel au serveur supplémentaire au-delà de ce qu’une seule suite de rapports collecte. Si votre entreprise utilise le balisage multisuite, un deuxième appel serveur est effectué pour chaque suite de rapports supplémentaire incluse dans une demande d’image.
 
-> [!TIP] Si vous utilisez uniquement une suite de rapports globale avec des [suites de rapports virtuelles](../../components/vrs/vrs-considerations.md), aucun deuxième appel serveur n’est nécessaire.
+>[!TIP] Si vous utilisez uniquement une suite de rapports globale avec des [suites de rapports virtuelles](../../components/vrs/vrs-considerations.md), aucun deuxième appel serveur n’est nécessaire.
 
 **Modifications de l’implémentation** : les cumuls ne nécessitent aucune modification de l’implémentation, tandis que les suites de rapports globales nécessitent que vous incluiez l’identifiant de suite de rapports globale dans votre implémentation.
 
-**Duplication** : contrairement aux cumuls, les suites de rapports globales dédupliquent les visiteurs uniques. Ainsi, si un utilisateur visite trois ou quatre de vos domaines le même jour, les cumuls comptabilisent trois visiteurs uniques par jour. Quant aux suites de rapports globales, elles n’en comptabilisent qu’un seul.
+**Duplication**: Les suites de rapports globales dédupliquent les uniques, contrairement aux cumuls. Par exemple, si un utilisateur visite trois de vos domaines le même jour, les cumuls comptabilisent trois uniques quotidiens. Les suites de rapports globales enregistreraient un unique.
 
-**Période** : les cumuls ne sont traités qu’à minuit, tous les jours, alors que les suites de rapports globales génèrent des rapports sur les données avec une latence standard.
+**Période**: Les cumuls ne sont traités qu’à minuit chaque nuit, tandis que les suites de rapports globales génèrent des rapports de données avec une latence standard.
 
 **Étendue** : les cumuls n’offrent aucun moyen de communiquer entre les suites de rapports. Les suites de rapports globales peuvent non seulement allouer du crédit à des variables de conversion entre des suites de rapports, mais aussi fournir un cheminement entre les suites.
 
