@@ -1,52 +1,52 @@
 ---
 title: getTimeParting
-description: Mesurez le temps d’exécution d’une action spécifique.
+description: Permet de mesurer le moment où une action spécifique a lieu.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Module externe Adobe : getTimeParting
+# Plug-in Adobe : getTimeParting
 
-> [!IMPORTANT] Ce module externe est fourni par le service de conseil d’Adobe afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce module externe, y compris l’installation ou le dépannage. Si vous avez besoin d’aide sur ce module externe, contactez le gestionnaire de compte de votre entreprise. Ils peuvent organiser une réunion avec un consultant pour obtenir de l&#39;aide.
+>[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
-Le `getTimeParting` module externe vous permet de capturer les détails du moment où un  mesurable se produit sur votre site. Ce module externe est utile lorsque vous souhaitez ventiler les mesures en fonction d’une division répétable du temps sur une période donnée. Par exemple, vous pouvez comparer les  entre deux jours différents de la semaine, par exemple tous les dimanches et tous les jeudis. Vous pouvez également comparer les périodes de la journée, par exemple tous les matins et toutes les soirées.
+Le plug-in `getTimeParting` vous permet de saisir les détails du moment où une activité mesurable a lieu sur votre site. Ce plug-in est utile lorsque vous souhaitez ventiler des mesures en fonction d’une division répétable du temps sur une période donnée. Ainsi, vous pouvez comparer les taux de conversion entre deux jours différents de la semaine, par exemple tous les dimanches contre tous les jeudis. Vous pouvez également comparer les périodes de la journée, par exemple tous les matins contre tous les soirs.
 
-Workspace fournit des dimensions prêtes à l’emploi similaires, légèrement formatées différemment de ce module externe. Pour plus d’informations, voir Dimensions [de répartition du](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) temps dans le guide de l’utilisateur Analyser. Certaines organisations estiment que  dimensions prêtes à l’emploi de l’espace de travail  sont suffisantes.
+Analysis Workspace fournit des dimensions similaires, prêtes à l’emploi, dont le format est légèrement différent de celui de ce plug-in. Pour plus d’informations, consultez la section [Dimensions de répartition du temps](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) dans le guide d’utilisation Analyser. Certaines organisations estiment que les dimensions prêtes à l’emploi d’Analysis Workspace sont suffisantes.
 
-> [IMPORTANT] version 4.0+ de ce module externe est significativement différent des versions antérieures. Adobe recommande vivement de mettre en oeuvre ce module externe &quot;à partir de zéro&quot;. Le code référençant le module externe avant la version 4.0 n’est pas compatible avec la version actuelle de ce module externe.
+>[IMPORTANT] La version 4.0+ de ce plug-in est sensiblement différente par rapport aux versions précédentes. Adobe recommande vivement de mettre en œuvre ce plug-in de A à Z. Le code référençant le plug-in avant la version 4.0 n’est pas compatible avec la version actuelle de ce plug-in.
 
-## Installation du module externe à l’aide de l’extension Adobe Experience Platform Launch
+## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
 
-Adobe   une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
-1. Accédez à l&#39; [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Catalog] bouton
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. Installation et publication de l’ [!UICONTROL Common Analytics Plugins] extension
-1. Si vous ne l’avez pas déjà fait, créez une règle intitulée &quot;Initialiser les modules externes&quot; avec la configuration suivante :
-   * Condition : Aucun
-   *  : Core - Bibliothèque chargée (Haut de la page)
-1. Ajouter une action à la règle ci-dessus avec la configuration suivante :
-   * Extension : Plug-ins Analytics courants
-   * Type d&#39;action : Initialisation de getTimeParting
+1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
+   * Condition : aucune
+   * Événement : Core - Bibliothèque chargée (Haut de la page)
+1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   * Extension : plug-ins Analytics communs
+   * Type d’action : initialisation de getTimeParting
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du module externe à l’aide de l’éditeur de code personnalisé Lancer
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
 
-Si vous ne souhaitez pas utiliser l’extension du module externe, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
-1. Cliquez sur la propriété souhaitée.
-1. Accédez à l’ [!UICONTROL Extensions] onglet, puis cliquez sur le [!UICONTROL Configure] bouton sous l’extension Adobe Analytics.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de votre choix.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Développez l’ [!UICONTROL Configure tracking using custom code] accordéon, ce qui révèle le [!UICONTROL Open Editor] bouton.
-1. Ouvrez l’éditeur de code personnalisé et collez le code du module externe fourni ci-dessous dans la fenêtre de modification.
+1. Ouvrez l’éditeur de code personnalisé et collez le code de plug-in fourni ci-dessous dans la fenêtre de modification.
 1. Enregistrez et publiez les modifications apportées à l’extension Analytics.
 
-## Installation du module externe à l’aide d’AppMeasurement
+## Installation du plug-in à l’aide d’AppMeasurement
 
-Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre implémentation permet à Adobe de résoudre les éventuels problèmes.
+Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement après l’instanciation de l’objet de suivi Analytics (à l’aide de [`s_gi`](../functions/s-gi.md)). La conservation des commentaires et des numéros de version du code dans votre mise en œuvre permet à Adobe de résoudre les éventuels problèmes.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,54 +55,54 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilisation du module externe
+## Utilisation du plug-in
 
-La `getTimeParting` méthode utilise l’argument suivant :
+La méthode `getTimeParting` utilise l’argument suivant :
 
-**`t`** (Facultatif mais recommandé, chaîne) : Nom du fuseau horaire auquel convertir l’heure locale  du.  Par défaut, heure UTC/GMT. Voir  [des fuseaux horaires](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) de la base de données TZ sur Wikipedia pour un complet de valeurs valides.
+**`t`** (facultatif mais recommandé, chaîne) : nom du fuseau horaire auquel convertir l’heure locale du visiteur.  Par défaut, il s’agit de l’heure UTC/GMT. Consultez la [liste des fuseaux horaires de la tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) sur Wikipédia pour obtenir une liste complète des valeurs valides.
 
-Les valeurs valides courantes sont les suivantes :
+Les valeurs valides courantes sont les suivantes :
 
 * `"America/New_York"` pour l’heure de l’Est
-* `"America/Chicago"` pour le temps central
-* `"America/Denver"` pour le temps de montagne
-* `"America/Los_Angeles"` pour le Pacifique
+* `"America/Chicago"` pour l’heure normale du Centre
+* `"America/Denver"` pour l’heure des Rocheuses
+* `"America/Los_Angeles"` pour l’heure du Pacifique
 
-L’appel de cette méthode renvoie une chaîne contenant les éléments suivants délimités par une barre verticale (`|`) :
+L’appel de cette méthode renvoie une chaîne contenant les éléments suivants délimités par une barre verticale (`|`) :
 
-* L&#39;année en cours
+* L’année en cours
 * Le mois en cours
-* Jour du mois
-* Jour de la semaine
-* Heure actuelle (AM/PM)
+* Le jour du mois
+* Le jour de la semaine
+* L’heure actuelle (matin/après-midi)
 
 ## Exemples d’appels
 
 ### Exemples de fuseaux horaires spécifiques
 
-Utilisez l’exemple de code suivant si le client se trouve à Paris, en France :
+Utilisez l’exemple de code suivant si le client se trouve à Paris, en France :
 
 ```js
 s.eVarX = getTimeParting("Europe/Paris");
 ```
 
-Si le client se trouve à San Jose, en Californie :
+Si le client se trouve à San José, en Californie :
 
 ```js
 s.eVarX = getTimeParting("America/Los_Angeles");
 ```
 
-Si le client se trouve dans le pays africain du Ghana :
+Si le client se trouve dans le pays africain du Ghana :
 
 ```js
 s.eVarX = getTimeParting();
 ```
 
-Le Ghana se trouve dans le fuseau horaire UTC/GMT.  Cet exemple montre qu&#39;aucun argument de module externe ne sera nécessaire dans de telles circonstances.
+Le Ghana se trouve dans le fuseau horaire UTC/GMT.  Cet exemple montre qu’aucun argument de plug-in ne sera nécessaire dans de telles circonstances.
 
-### Comptabilisation des navigateurs Internet Explorer
+### Prise en compte des navigateurs Internet Explorer
 
-Utilisez l’exemple suivant si vous souhaitez exclure les données de division du temps des Internet Explorer (puisque la valeur renvoyée par les navigateurs IE ne peut être que l’heure locale du).
+Utilisez l’exemple suivant si vous souhaitez exclure les données relatives à la répartition du temps des visiteurs d’Internet Explorer (puisque la valeur renvoyée par les navigateurs IE ne peut être que l’heure locale du visiteur).
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -111,60 +111,60 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Résultats des appels
 
-Si un de Denver se rend sur un site le 31 août 2020 à 9h15,
+Si un visiteur de Denver, dans le Colorado, se rend sur un site le 31 août 2020 à 9 h 15 :
 
-Exécution du code suivant...
+En exécutant le code suivant…
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
 ```
 
-...définirait s.eVar10 sur &quot;year=2020| month=August| date=31| day=Friday| time=18:15 PM&quot;
+…s.eVar10 serait défini sur « year=2020 | month=August | date=31 | day=Friday | time=6:15 PM ».
 
-Pendant que le code suivant...
+Alors que le code suivant…
 
 ```js
 s.eVar10 = getTimeParting("America/Nome");
 ```
 
-...définirait s.eVar10 sur &quot;year=2020| month=August| date=31| day=Friday| time=6:15 AM&quot;
+…définirait s.eVar10 sur « year=2020 | month=August | date=31 | day=Friday | time=6:15 AM ».
 
-Le code suivant...
+Le code suivant…
 
 ```js
 s.eVar10 = getTimeParting("Asia/Calcutta");
 ```
 
-...définirait s.eVar10 sur &quot;year=2020| month=August| date=31| day=Friday| heure=20h45&quot;
+…définirait s.eVar10 sur « year=2020 | month=August | date=31 | day=Friday | time=8:45 PM ».
 
-Et le code suivant...
+Et le code suivant…
 
 ```js
 s.eVar10 = getTimeParting("Australia/Sydney");
 ```
 
-...définirait s.eVar10 sur &quot;year=2020| month=Septembre| date=1| day=samedi| time=1:15 AM&quot;
+…définirait s.eVar10 sur « year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM ».
 
 ## Historique des versions
 
-### 6.2 (5 novembre 2019)
+### 6.2 (5 novembre 2019)
 
-* Correctifs pour petits bogues
+* Corrections de bogues mineurs
 * Réduction de la taille globale du code
 
-### 6.1 (26 novembre 2018)
+### 6.1 (26 novembre 2018)
 
-* Correctif pour les navigateurs Internet Explorer. Ils peuvent revenir l’heure, mais seulement l’heure locale du.
+* Correctif pour les navigateurs Internet Explorer. Ils peuvent indiquer l’heure, mais uniquement en fonction de l’heure locale du visiteur.
 
-### 6.0 (14 août 2018)
+### 6.0 (14 août 2018)
 
-* Réécrire pour répondre aux normes internationales. Convertit désormais correctement l’économie de lumière du jour et tous les fuseaux horaires.
+* Réécriture complète pour tenir compte des normes internationales. L’heure d’été et tous les fuseaux horaires sont désormais convertis correctement.
 
-### 5.0 (17 avril 2018)
+### 5.0 (17 avril 2018)
 
-* Version ponctuelle (recompilée, taille de code réduite)
-* Suppression du besoin du `tpDST` paramètre, puisque les dates de /fin du d’épargne du jour sont désormais détectées automatiquement
+* Nouvelle version (recompilé, taille de code réduite).
+* Suppression de la nécessité du paramètre `tpDST`, puisque les dates de début et de fin de l’heure d’été sont désormais détectées automatiquement.
 
-### 4.0 (22 août 2016)
+### 4.0 (22 août 2016)
 
 * Fournit une toute nouvelle solution et inclut désormais des informations sur l’année, le mois et la date.
