@@ -1,8 +1,8 @@
 ---
 title: Suites de rapports globales dans Adobe Analytics
 description: Découvrez les avantages et les conditions requises pour utiliser une suite de rapports globale.
-translation-type: ht
-source-git-commit: d7c4412feb85f4381d8811b29fc23c9c85d23555
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -23,7 +23,7 @@ Dans la plupart des cas, Adobe recommande de mettre en œuvre une suite de rappo
 * **Attribution inter-marques plus précise :** si un visiteur commence sur un site, puis clique sur un autre de vos sites avant de déclencher un événement de succès, l’attribution est collectée avec précision. Par exemple, un visiteur clique sur un lien de recherche payante et accède au site A. Il clique ensuite sur un lien vers le site B, puis effectue un achat. Une suite de rapports globale attribue correctement les attributs qui rachètent à la recherche payante.
 * **Mise en œuvre simplifiée :** puisque toutes les marques/tous les sites envoient des données dans la même suite de rapports, vos mises en œuvre sur chaque site sont alignées. Cette gouvernance appliquée garantit qu’une dimension ou une mesure spécifique est enregistrée dans la même eVar ou le même événement. Les administrateurs, les testeurs, les propriétaires de la gestion des balises et les analystes bénéficient de cette simplification.
 
-> [!NOTE] La coordination d’une mise en œuvre globale d’une suite de rapports est un projet volumineux. Adobe conseille de travailler avec un consultant afin de réduire les complications et les problèmes qui surviennent.
+>[!NOTE] La coordination d’une mise en œuvre globale d’une suite de rapports est un projet volumineux. Adobe conseille de travailler avec un consultant afin de réduire les complications et les problèmes qui surviennent.
 
 ## Démarrage d’une nouvelle mise en œuvre avec une suite de rapports globale
 
