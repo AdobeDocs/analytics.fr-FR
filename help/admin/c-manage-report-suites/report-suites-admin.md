@@ -1,30 +1,30 @@
 ---
-description: Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages Web. Une suite de rapports correspond habituellement à un site web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports). Une suite de rapports peut également être plus petite qu’un site web si vous souhaitez générer des rapports pour une partie seulement de votre site. Les solutions d’Analytics combinent des données et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
+description: Une suite de rapports définit le  indépendant complet sur un site Web, un ensemble de sites Web ou un sous-ensemble de pages Web choisi. Généralement, une suite de rapports est un site Web, mais il peut s’agir d’un segment global dans lequel vous avez combiné les nombres de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports). En outre, une suite de rapports peut être plus petite qu’un site Web si vous souhaitez exécuter des rapports pour une partie de votre site. Les solutions Analytics  les  et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
 title: Gestionnaire de suites de rapports
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Gestionnaire de suites de rapports
 
-Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages web. Une suite de rapports correspond habituellement à un site web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports). Une suite de rapports peut également être plus petite qu’un site web si vous souhaitez générer des rapports pour une partie seulement de votre site. Les solutions d’Analytics combinent des données et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
+Une suite de rapports définit le  indépendant complet sur un site Web, un ensemble de sites Web ou un sous-ensemble de pages Web choisi. Généralement, une suite de rapports est un site Web, mais il peut s’agir d’un segment global dans lequel vous avez combiné les nombres de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports). En outre, une suite de rapports peut être plus petite qu’un site Web si vous souhaitez exécuter des rapports pour une partie de votre site. Les solutions Analytics  les  et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
 
-> [!NOTE] Les suites de rapports virtuelles sont gérées via **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**. Reportez-vous à la [documentation sur les suites de rapports virtuelles](/help/components/vrs/vrs-about.md).
+>[!NOTE] Les suites de rapports virtuelles sont gérées par **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Reportez-vous à la [documentation sur les suites de rapports virtuelles](/help/components/vrs/vrs-about.md).
 
 ## Descriptions du Gestionnaire de suites de rapports {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gestionnaire de Report Suites].
+Le tableau suivant décrit les éléments de la [!UICONTROL Report Suite Manager] page.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Élément </th> 
+   <th colname="col1" class="entry"> Elément </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -39,11 +39,11 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Recherche</span> </td> 
-   <td colname="col2"> Permet de localiser une suite de rapports spécifique dans la liste des suites. L’outil de recherche s’accompagne d’une fonction de recherche de base par nom et d’une fonction de recherche avancée pour des recherches approfondies. </td> 
+   <td colname="col2"> Permet de localiser une suite de rapports spécifique dans le  de la suite de rapports. L'outil de recherche comprend une recherche par nom de base et une page de recherche avancée pour des recherches approfondies. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Groupes</span> </td> 
-   <td colname="col2"> <p>Permet d’organiser vos suites de rapports en groupes personnalisés. Vous pouvez accéder rapidement à plusieurs suites de rapports qui partagent des paramètres similaires ou que vous modifiez habituellement ensemble. </p> </td> 
+   <td colname="col2"> <p>Vous permet d’organiser vos suites de rapports en groupes personnalisés. Vous pouvez accéder rapidement à plusieurs suites de rapports qui partagent des paramètres similaires ou que vous modifiez généralement ensemble. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Recherches enregistrées</span> </td> 
@@ -51,7 +51,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Cumuls</span> </td> 
-   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites. </p> <p>Voir <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Suites de rapports de cumul</a>. </p> </td> 
+   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites de rapports. </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifier les paramètres</span> </td> 
