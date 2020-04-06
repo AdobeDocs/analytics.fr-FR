@@ -1,27 +1,27 @@
 ---
-description: Capture le paramètre linguistique du navigateur du visiteur, ce qui vous permet de visualiser les recettes et les visiteurs uniques qui y sont associés. Lorsque vous connaissez l’incidence des langues préférées sur les mesures de succès de votre site, vous pouvez choisir la manière de présenter votre site dans d’autres langues. Par exemple, si vous observez qu’un nombre important de clients germanophones effectuent des ajouts au panier sur votre site, vous pouvez faire traduire votre site en allemand et mettre en place une campagne marketing pour générer du trafic sur votre site en allemand.
+description: Capture le paramètre de langue dans le navigateur de  du, ce qui vous permet de voir les recettes et les uniques liés au paramètre de langue. Lorsque vous connaissez l’effet que les langues préférées ont sur les mesures de réussite de votre site, vous pouvez décider comment présenter votre site dans d’autres langues. Si, par exemple, vous constatez qu’un grand nombre de clients germanophones génèrent un panier d’achat   sur votre site, vous pouvez traduire votre site dans cette langue et mettre en oeuvre une campagne marketing pour attirer le trafic vers votre site en allemand.
 title: Langue
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Langue
 
-Capture le paramètre linguistique du navigateur du visiteur, ce qui vous permet de visualiser les recettes et les visiteurs uniques qui y sont associés. Lorsque vous connaissez l’incidence des langues préférées sur les mesures de succès de votre site, vous pouvez choisir la manière de présenter votre site dans d’autres langues. Par exemple, si vous observez qu’un nombre important de clients germanophones effectuent des ajouts au panier sur votre site, vous pouvez faire traduire votre site en allemand et mettre en place une campagne marketing pour générer du trafic sur votre site en allemand.
+Capture le paramètre de langue dans le navigateur de  du, ce qui vous permet de voir les recettes et les uniques liés au paramètre de langue. Lorsque vous connaissez l’effet que les langues préférées ont sur les mesures de réussite de votre site, vous pouvez décider comment présenter votre site dans d’autres langues. Si, par exemple, vous constatez qu’un grand nombre de clients germanophones génèrent un panier d’achat   sur votre site, vous pouvez traduire votre site dans cette langue et mettre en oeuvre une campagne marketing pour attirer le trafic vers votre site en allemand.
 
-**[!UICONTROL Profil du visiteur]** > **[!UICONTROL Langues]**
+**[!UICONTROL Visitor Profile]** > **[!UICONTROL Languages]**
 
 Nous alimentons ce rapport en fonction de la partie acceptant les langues de la demande d’en-tête http. L’en-tête HTTP acceptant les langues est configuré selon les paramètres de préférences linguistiques de chaque navigateur :
 
 [https://www.w3.org/International/questions/qa-lang-priorities.en.php](https://www.w3.org/International/questions/qa-lang-priorities.en.php)
 
-Si aucune langue n’est précisée dans le navigateur ou si le navigateur renvoie ID=0, le rapport fait apparaître la mention « Non spécifié » dans le graphique. La prise en charge de ce paramètre par le navigateur peut avoir une incidence sur le nombre de mentions « Non spécifié » renvoyées.
+Si aucune langue n’est spécifiée dans un navigateur ou si le navigateur renvoie un ID de langue=0, le rapport affiche &quot;Non spécifié&quot; dans le graphique. La prise en charge de ce paramètre par le navigateur peut affecter le nombre de retours &quot;Non spécifié&quot;.
 
-Certains éléments de ligne de ce rapport incluent des régions. Il s’agit de sous-balises de régions.
+Certains éléments de ligne de ce rapport incluent des régions. Il s’agit de sous-balises de région.
 
-> [!NOTE] La granularité Horaire n’est pas prise en charge.
+>[!NOTE] La granularité Horaire n’est pas prise en charge.
 
