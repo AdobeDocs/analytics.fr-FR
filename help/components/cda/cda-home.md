@@ -2,14 +2,14 @@
 title: Analyses entre appareils
 description: Les analyses entre appareils font en sorte que vos données ne soient plus axées sur l’appareil, mais plutôt sur la personne, en regroupant les données de l’appareil.
 translation-type: tm+mt
-source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Analyses entre appareils
 
-> [!NOTE] La documentation des analyses entre appareils peut être modifiée au fur et à mesure que la fonctionnalité est développée. Consultez régulièrement les mises à jour.
+>[!NOTE] La documentation des analyses entre appareils peut être modifiée au fur et à mesure que la fonctionnalité est développée. Consultez régulièrement les mises à jour.
 
 Les analyses entre appareils sont une fonctionnalité qui transforme les analyses, en passant d’une vue axée sur l’appareil à une vue axée sur la personne. Cette fonctionnalité utilise le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform pour ainsi identifier les appareils appartenant à des personnes et les regrouper. Dès lors, les analystes peuvent comprendre le comportement des utilisateurs qui s’étend sur plusieurs navigateurs, appareils ou applications. Grâce à CDA, vous pouvez répondre à des questions telles que :
 
@@ -27,7 +27,7 @@ Voir [Journey IQ : page de lancement des analyses entre appareils](http://adobe
 
 Depuis septembre 2019, les analyses entre appareils imposent les conditions suivantes. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
 
-> [!IMPORTANT] Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
+>[!IMPORTANT] Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
 * Les données de votre entreprise doivent se trouver dans le centre de données du Nord-Ouest du Pacifique d’Adobe. La prise en charge de centres de données dans d’autres régions du monde est prévue.
 * Contactez le gestionnaire de compte de votre entreprise pour déterminer les points clés suivants :
@@ -38,8 +38,8 @@ Depuis septembre 2019, les analyses entre appareils imposent les conditions suiv
    * La suite de rapports ne peut pas contenir plus de 500 millions d’accès par jour.
    * Adobe recommande qu’une suite de rapports contienne des données interpériphériques, ce qui signifie qu’elles proviennent de plusieurs types d’appareils (web, applications, etc.). Certaines entreprises considèrent ce concept comme une suite de rapports « globale », bien que les analyses entre appareils ne doivent pas nécessairement être globales du point de vue géographique. Les analyses entre appareils ne fonctionnent pas entre les suites de rapports et ne combinent pas non plus les données de plusieurs suites de rapports.
 * Votre mise en œuvre doit satisfaire aux exigences suivantes :
-   * La dernière version du service Experience Cloud ID doit être déployée. Consultez la [page d’accueil](https://docs.adobe.com/content/help/en/id-service/using/home.html) du guide de l’utilisateur du service d’identité d’Experience Cloud. La plupart des implémentations utilisant Adobe Experience Platform Launch disposent déjà probablement d’un ECID déployé.
-   * Appelez la fonction `setCustomerIDs` chaque fois qu’une personne peut être identifiée, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Voir [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html) dans le guide de l’utilisateur du service d’identité d’Experience Cloud.
+   * La dernière version du service Experience Cloud ID doit être déployée. Consultez la [page d’accueil](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) du guide de l’utilisateur du service d’identité d’Experience Cloud. La plupart des implémentations utilisant Adobe Experience Platform Launch disposent déjà probablement d’un ECID déployé.
+   * Appelez la fonction `setCustomerIDs` chaque fois qu’une personne peut être identifiée, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Voir [setCustomerIDs](https://docs.adobe.com/content/help/fr-FR/id-service/using/id-service-api/methods/setcustomerids.html) dans le guide de l’utilisateur du service d’identité d’Experience Cloud.
 
 ## Limites
 
@@ -49,12 +49,12 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * Le regroupement ne peut pas se produire entre les suites de rapports, comme décrit dans les conditions préalables ci-dessus.
 * Les suites de rapports Adobe Analytics ne peuvent pas mapper à plusieurs organisations IMS. Étant donné que les analyses entre appareils regroupent des appareils dans une suite de rapports donnée, il est impossible de les utiliser pour regrouper des données entre plusieurs organisations IMS.
 * Les analyses entre appareils ne sont actuellement pas compatibles avec les attributs du client. Les attributs du client ne peuvent pas être utilisés pour créer une suite de rapports virtuelle d’analyses entre appareils, dans des segments interpériphériques, ou pour la création de rapports dans un projet Analysis Workspace basé sur une suite de rapports virtuelle d’analyses entre appareils.
-   > [!TIP] Bien que les attributs du client ne puissent pas être utilisés dans CDA, les deux fonctionnalités dépendent de la `setCustomerIDs` fonction. Ces deux fonctionnalités peuvent coïncider dans des suites de rapports distinctes (virtuelles).
-* L&#39;ADC a besoin du graphique coopératif ou du graphique privé. Les graphiques d’appareils tiers ne sont pas pris en charge.
+   > [!TIP] Bien que les attributs du client ne puissent pas être utilisés dans les analyses entre appareils, les deux fonctionnalités dépendent de la fonction `setCustomerIDs`. Ces deux fonctionnalités peuvent coïncider dans des suites de rapports distinctes (virtuelles).
+* Les analyses entre appareils ont besoin d’un graphique Co-op ou Privé. Les graphiques d’appareils tiers ne sont pas pris en charge.
 * Les identifiants Analytics hérités ne sont pas pris en charge. Seuls les visiteurs avec un Experience Cloud ID sont regroupés.
 * L’assistance clientèle ne prend pas encore entièrement en charge cette fonctionnalité. Le forum [Analyses entre appareils](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) peut être utilisé pour la prise en charge de cette fonctionnalité, qui inclut une participation active et directe des responsables produits Adobe.
 * Les analyses entre appareils utilisent une suite de rapports virtuelle et le traitement du temps de la période de rapport, qui ont leurs propres limites. Voir [Suites de rapports virtuelles](../vrs/vrs-about.md) et [traitement de la période de rapport](../vrs/vrs-report-time-processing.md) pour en savoir plus sur ces limitations.
-* L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le créateur de rapports reposent tous deux sur l’API 1.4 et ne sont donc pas compatibles avec CDA.
+* L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le Report Builder reposent tous les deux sur l’API 1.4 et ne sont donc pas compatibles avec les analyses entre appareils.
 * Si votre entreprise utilise le graphique privé, les nouveaux périphériques peuvent être assemblés pendant 24 heures.
 * Les nouveaux appareils qui visitent votre site peuvent prendre jusqu&#39;à deux semaines pour être traités par le graphique Co-op. Le niveau de groupement dans les analyses entre appareils pour les deux dernières semaines est généralement inférieur à celui des plages de dates datant de plus de deux semaines. Adobe prévoit d’améliorer à l’avenir le graphique Co-op pour le mettre à jour quotidiennement.
 * Les données historiques de la suite de rapports virtuelle changent en fonction de la reconnaissance par Adobe des périphériques et de leur regroupement. Les données de la suite de rapports source ne changent pas.
