@@ -5,8 +5,8 @@ subtopic: Visitors
 title: Identification des visiteurs uniques
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: ht
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -17,9 +17,9 @@ Adobe utilise un cookie pour effectuer le suivi des navigateurs/appareils unique
 
 ## Classement des identifiants visiteur Analytics {#section_DE1DC9FC9B6D4388995B70E35B8BCDDF}
 
-Adobe Analytics fournit plusieurs mécanismes permettant d’identifier les visiteurs, répertoriés dans le tableau suivant par ordre de préférence :
+Adobe Analytics fournit plusieurs mécanismes permettant d’identifier les visiteurs, Le tableau suivant  les différentes manières d’identifier un dans Analytics (par ordre de préférence) :
 
-| Ordre utilisé | Paramètre de requête (méthode de collecte) | Présent quand |
+| Ordre utilisé | Paramètre  (méthode de collecte) | Présenter quand |
 |---|---|---|
 | 1 | vid (s.visitorID) | s.visitorID est défini. |
 | 2 | aid (cookie s_vi) | Le visiteur avait un cookie s_vi existant avant le déploiement du service d’identification des visiteurs, ou vous avez configuré une période de grâce d’identification des visiteurs. |
@@ -27,22 +27,22 @@ Adobe Analytics fournit plusieurs mécanismes permettant d’identifier les visi
 | 4 | fid (cookie de secours) | Le navigateur du visiteur accepte les cookies (propriétaires). |
 | 5 | Adresse IP, Agent utilisateur, Adresse IP de passerelle | Le navigateur du visiteur n’accepte pas les cookies. |
 
-Dans de nombreux scénarios, il se peut qu’il y ait 2 ou 3 identifiants distincts pour un appel ; Analytics utilisera comme identifiant visiteur officiel le premier identifiant présent de cette liste. Par exemple, si vous définissez un identifiant visiteur personnalisé (y compris dans le paramètre de requête « vid »), cet identifiant sera utilisé avant les autres identifiants susceptibles d’être présents pour ce même accès.
+Dans de nombreux cas, vous pouvez voir 2 ou 3 identifiants différents lors d’un appel, mais Analytics utilisera le premier identifiant présent dans le tableau précédent comme identifiant de officiel. Par exemple, si vous définissez un identifiant visiteur personnalisé (y compris dans le paramètre de requête « vid »), cet identifiant sera utilisé avant les autres identifiants susceptibles d’être présents pour ce même accès.
 
-> [!NOTE] Chaque identifiant visiteur Analytics est associé à un profil de visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
+>[!NOTE] Chaque identifiant visiteur Analytics est associé à un profil de visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
 
 ## Identifiant visiteur personnalisé
 
 Vous pouvez mettre en œuvre une méthode personnalisée pour identifier les visiteurs en définissant la variable s.visitorID.
 
-Vous pouvez utiliser un identifiant visiteur personnalisé sur des sites pour lesquels vous avez un moyen unique d’identifier les visiteurs. Il s’agit, par exemple, de l’identifiant généré lorsqu’un utilisateur se connecte à un site web à l’aide de son nom d’utilisateur et de son mot de passe.
+Un ID de personnalisé peut être utilisé sur les sites où vous disposez d’un moyen unique d’identifier les. Il s’agit, par exemple, de l’identifiant généré lorsqu’un utilisateur se connecte à un site web à l’aide de son nom d’utilisateur et de son mot de passe.
 
-Si vous pouvez dériver et gérer les [!UICONTROL identifiants visiteur] de vos utilisateurs, vous pouvez utiliser les méthodes suivantes pour définir l’identifiant :
+Si vous avez la possibilité de dériver et de gérer les utilisateurs [!UICONTROL visitor IDs] de votre site, vous pouvez utiliser les méthodes suivantes pour définir l’ID :
 
 | Méthode | Description |
 |---|---|
-| Variable [s.visitorID](../implement/vars/config-vars/visitorid.md) | Si JavaScript est utilisé dans le navigateur, ou si vous utilisez toute autre bibliothèque AppMeasurement, vous pouvez définir l’identifiant visiteur dans une variable de collecte de données. |
-| Paramètre de chaîne de requête dans la demande d’image | Elle permet de transmettre l’[!UICONTROL identifiant visiteur] à Adobe via le paramètre de [!UICONTROL chaîne de requête vide] dans une demande d’image codée en dur. |
+| Variable [s.visitorID](../implement/vars/config-vars/visitorid.md) | Si JavaScript est utilisé dans le navigateur ou si vous utilisez une autre bibliothèque AppMeasurement, vous pouvez définir l’ID du dans une variable de collecte de données. |
+| Paramètre de chaîne de  sur la demande d’image | Vous pouvez ainsi transmettre le fichier [!UICONTROL visitor ID] à Adobe via le [!UICONTROL vid query string] paramètre d’une demande d’image codée en dur. |
 | API d’insertion de données | Sur les périphériques utilisant des protocoles sans fil qui n’acceptent pas JavaScript, vous pouvez envoyer une publication XML contenant l’élément XML `<visitorid/>` aux serveurs de collecte d’Adobe depuis vos serveurs. |
 | Réécriture d’URL et VISTA | Certaines architectures de déploiement prennent en charge l’utilisation de la réécriture d’URL pour gérer l’état de session lorsqu’un cookie ne peut pas être défini. Dans de tels cas, les services d’ingénierie d’Adobe peuvent implémenter une règle [!DNL VISTA] qui recherche la valeur de session dans l’URL de la page, puis la formate et la place dans les valeurs [!UICONTROL visid]. |
 >[!CAUTION]
@@ -52,7 +52,7 @@ Si vous pouvez dériver et gérer les [!UICONTROL identifiants visiteur] de vos 
 
 Lorsqu’un utilisateur visite votre site, le serveur web d’Adobe définit un cookie persistant en l’incluant dans la réponse HTTP au navigateur. Ce cookie est défini sur le domaine de collecte de données spécifié.
 
-Lors de l’envoi d’une demande au serveur de collecte de données d’Adobe, le cookie de l’identifiant visiteur `s_vi` est recherché dans l’en-tête. S’il est présent dans la demande, il est utilisé pour identifier le visiteur. Dans le cas contraire, le serveur génère un identifiant visiteur unique, le définit comme cookie dans l’en-tête de réponse HTTP, puis le renvoie avec la demande. Le cookie est stocké dans le navigateur et renvoyé au serveur de collecte de données lors des visites ultérieures, ce qui permet d’identifier le visiteur au cours de différentes visites.
+Lors de l’envoi d’une demande au serveur de collecte de données d’Adobe, le cookie de l’identifiant visiteur `s_vi` est recherché dans l’en-tête. S’il est présent dans la demande, il est utilisé pour identifier le visiteur. Si le cookie ne figure pas dans la requête, le serveur génère un ID de unique, le définit comme un cookie dans l’en-tête de réponse HTTP et le renvoie avec la requête. Le cookie est stocké dans le navigateur et renvoyé au serveur de collecte de données au cours des visites suivantes sur le site, ce qui permet d’identifier le entre plusieurs visites.
 
 ### Cookies tiers et enregistrements CNAME {#section_61BA46E131004BB2B75929C1E1C93139}
 
@@ -62,29 +62,29 @@ Pour éviter ce cas de figure, de nombreux clients ont implémenté des enregist
 
 ### Cookies sur les périphériques mobiles {#section_7D05AE259E024F73A95C48BD1E419851}
 
-Lorsque vous effectuez le suivi des périphériques mobiles à l’aide de cookies, vous pouvez utiliser certains paramètres pour modifier le mode d’exécution des mesures. La durée de vie par défaut d’un cookie est de 5 ans, mais vous pouvez utiliser la variable de paramètre de requête CL (`s.cookieLifetime`) pour la modifier. Pour définir l’emplacement du cookie pour les implémentations cname, utilisez la chaîne de requête CDP `s.cookieDomainPeriods`. Si aucune valeur n’est spécifiée, le paramètre par défaut est 2 et l’emplacement par défaut est domain.com. Dans le cas des implémentations qui n’utilisent pas CNAME, l’emplacement du cookie Identifiant visiteur est le domaine 207.net.
+Lorsque vous effectuez le suivi des périphériques mobiles à l’aide de cookies, vous pouvez utiliser certains paramètres pour modifier le mode d’exécution des mesures. La durée de vie par défaut d’un cookie est de 5 ans, mais vous pouvez utiliser la variable de paramètre de requête CL (`s.cookieLifetime`) pour la modifier. Pour définir l’emplacement du cookie pour les implémentations cname, utilisez la chaîne de requête CDP `s.cookieDomainPeriods`. La valeur par défaut est 2 si aucune valeur n’est spécifiée. et l’emplacement par défaut est domain.com. Pour les implémentations qui n’utilisent pas CNAME, l’emplacement du cookie ID de se trouve dans le domaine 207.net.
 
 ## Identity Service
 
-Identity Service remplace le mécanisme d’identification des visiteurs hérité d’Analytics. Il est requis avec la mesure Vidéo – [!UICONTROL Pulsation], avec Analytics pour Target, ainsi qu’avec les services principaux et les intégrations à venir d’Experience Cloud.
+The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
 
 Voir [Identity Service](https://marketing.adobe.com/resources/help/fr_FR/mcvid/) pour consulter la documentation produit de ce service.
 
 ## Identification des appareils mobiles
 
-La plupart des périphériques mobiles acceptent les cookies des navigateurs. Néanmoins, dans les cas où les périphériques n’acceptent pas les cookies, une autre méthode est utilisée pour identifier de manière unique les périphériques sans fil.
+La plupart des périphériques mobiles acceptent les cookies des navigateurs. Toutefois, lorsque les périphériques n’acceptent pas les cookies, une autre méthode est utilisée pour identifier de manière unique les périphériques sans fil.
 
-Adobe a identifié un certain nombre d’en-têtes d’identifiant abonné HTTP qui identifient, de façon unique, la majorité des périphériques mobiles. Ces en-têtes comprennent souvent le numéro de téléphone du périphérique (ou une version hachée du numéro) ou d’autres identifiants. La majorité des périphériques actuels possèdent un ou plusieurs en-têtes qui les identifient de façon unique. Tous les serveurs de collecte de données Adobe utilisent automatiquement ces en-têtes au lieu d’un identifiant visiteur.
+Adobe a identifié un certain nombre d’en-têtes d’identifiant abonné HTTP qui identifient, de façon unique, la majorité des périphériques mobiles. Ces en-têtes comprennent souvent le numéro de téléphone du périphérique (ou une version hachée du numéro) ou d’autres identifiants. La majorité des périphériques actuels comporte un ou plusieurs en-têtes qui identifient de manière unique le périphérique. Tous les serveurs de collecte de données Adobe utilisent automatiquement ces en-têtes à la place d’un ID de.
 
-Dans une demande d’image habituelle, un « 1 » figurant dans le chemin (`/b/ss/rsid/1`) donne l’ordre aux serveurs Adobe de retourner une image gif et de tenter de définir un cookie d’[!UICONTROL identifiant visiteur] persistant (`AMCV_` ou `s_vi`). Néanmoins, si le périphérique est reconnu en tant que périphérique mobile sur la base des en-têtes HTTP, un « 5 » est transmis à la place du « 1 », ce qui indique qu’une image au format wbmp doit être retournée et que notre liste d’en-têtes sans fil reconnus (pas un cookie) doit être utilisée pour identifier le périphérique.
+In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). Cependant, si le périphérique est reconnu comme un périphérique mobile basé sur les en-têtes HTTP, un &quot;5&quot; est transmis à la place du &quot;1&quot;, ce qui indique qu’une image au format wbmp doit être renvoyée et que notre d’en-têtes sans fil reconnus (et non un cookie) doit être utilisé pour identifier le périphérique.
 
-Le tableau suivant répertorie l’ordre des méthodes d’identifiant utilisées sur la base de la valeur du type d’image de retour (« 1 » ou « 5 ») dans le chemin :
+Le tableau suivant  l’ordre des méthodes d’ID utilisées en fonction de la valeur de type d’image renvoyée (&quot;1&quot; ou &quot;5&quot;) dans le chemin d’accès :
 
 <table id="table_07B0E55D5DAA4552A5CBC6937D47A857"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Paramètre </th> 
-   <th colname="col2" class="entry"> Ordre de la méthode d’identifiant </th> 
+   <th colname="col2" class="entry"> Ordre de la méthode d’ID </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -94,8 +94,8 @@ Le tableau suivant répertorie l’ordre des méthodes d’identifiant utilisée
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">Identifiant visiteur personnalisé </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
-     <li id="li_52706792FAD14F459266E3A672F92EA1">En-tête d’identifiant abonné </li> 
-     <li id="li_ECAD713D22314338BB5C92167DC0BB02"> Adresse IP-Agent utilisateur-Adresse IP de passerelle </li> 
+     <li id="li_52706792FAD14F459266E3A672F92EA1">En-tête d’ID d’abonné </li> 
+     <li id="li_ECAD713D22314338BB5C92167DC0BB02"> Adresse IP-Agent utilisateur-Adresse IP de passerelle </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -103,49 +103,49 @@ Le tableau suivant répertorie l’ordre des méthodes d’identifiant utilisée
    <td colname="col2"> <p>Appareil qui a été identifié en tant qu’appareil sans fil, ou <code> /5/</code> a été envoyé manuellement dans la demande d’image : </p> 
     <ul id="ul_624BEDFA3E1243CF9B42081D8B8EFFFB"> 
      <li id="li_D65761D23B684DB59BC23E92C9098122">Identifiant visiteur personnalisé </li> 
-     <li id="li_ADBA806B74CA43EFA8612301E06106C6">En-tête d’identifiant abonné </li> 
+     <li id="li_ADBA806B74CA43EFA8612301E06106C6">En-tête d’ID d’abonné </li> 
      <li id="li_79DFD0DEAA1242C09A03E8134A40F799">Cookie </li> 
-     <li id="li_A462B9120FC6443480D62F37D456747E">Adresse IP-Agent utilisateur-Adresse IP de passerelle </li> 
+     <li id="li_A462B9120FC6443480D62F37D456747E">Adresse IP-Agent utilisateur-Adresse IP de passerelle </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Vous pouvez également transmettre un « 1 » ou un « 5 » dans les demandes d’image manuelles mais gardez à l’esprit que ces codes sont mutuellement exclusifs. De ce fait, toujours transmettre « 5 » ne produit pas de cookie lorsqu’il est pris en charge. Vous pouvez incorporer votre propre mécanisme pour déterminer si un périphérique prend en charge les cookies, et si c’est le cas, transmettre « 1 » dans l’image plutôt que « 5 ». Dans cette situation, l’amélioration en termes de précision est limitée au nombre de périphériques mobiles prenant en charge les cookies.
+Vous pouvez également transmettre un &quot;1&quot; ou un &quot;5&quot; dans les demandes d’image manuelles, mais gardez à l’esprit que ces codes sont mutuellement exclusifs. Par conséquent, le fait de toujours transmettre &quot;5&quot; n’utilise pas de cookie lorsqu’il est pris en charge. Vous pouvez incorporer votre propre mécanisme pour déterminer si un périphérique prend en charge les cookies et, dans l’affirmative, transmettre un &quot;1&quot; dans l’image plutôt qu’un &quot;5&quot;. Dans cette situation, l’amélioration en termes de précision est limitée au nombre de périphériques mobiles prenant en charge les cookies.
 
 ### En-têtes d’identifiant abonné {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
-S’agissant de l’identification des utilisateurs, la méthode de l’identifiant abonné se révèle généralement plus fiable qu’un cookie, compte tenu des problèmes de suppression et d’acceptation des cookies, ainsi que de ceux liés à la gestion des cookies de passerelle.
+La méthode d’ID d’abonné est généralement plus fiable qu’un cookie pour l’identification des utilisateurs en raison de la suppression de cookies, des problèmes d’acceptation de cookies et des problèmes de gestion des cookies de passerelle.
 
-Vous pouvez améliorer les changements d’identification d’un visiteur ajouté à la liste blanche pour l’opérateur utilisé par vos visiteurs mobiles. Pour accéder à l’identifiant visiteur de l’opérateur, contactez ce dernier pour qu’il ajoute votre domaine à sa liste blanche. Si vous figurez sur la liste blanche de l’opérateur, vous avez également accès aux en-têtes d’identifiant abonné auxquels vous ne pourriez peut-être pas accéder autrement.
+Vous pouvez améliorer les modifications d’identification d’un en ajoutant le blanc de l’opérateur utilisé par vos mobiles. Pour accéder à l’ID d’de l’opérateur, contactez l’opérateur pour ajouter votre domaine à son blanc. Si vous êtes sur le  blanc d’un opérateur, vous avez également accès aux en-têtes d’ID d’abonné auxquels vous ne pourriez peut-être pas accéder autrement.
 
-La liste ci-dessous d’en-têtes est utilisée pour identifier les périphériques sans fil. L’algorithme de traitement des en-têtes consiste à
+Le d&#39;en-têtes suivant est utilisé pour identifier les périphériques sans fil. L’algorithme de traitement des en-têtes est le suivant :
 
-1. extraire la clé d’en-tête HTTP (nom de l’en-tête, tel que « X-Up-Calling-Line-ID ») ;
-1. supprimer tous les caractères non alphanumériques (A-Z et a-z) ;
-1. convertir la clé d’en-tête en minuscules ;
-1. comparer la fin de la clé à celles du tableau suivant afin de trouver une correspondance :
+1. extraire la clé d’en-tête HTTP (nom de l’en-tête, par exemple, &quot;X-Up-Calling-Line-ID&quot;) ;
+1. supprimer tous les caractères non alphanumériques (A-Z et a-z) ;
+1. convertir la clé d’en-tête en minuscules
+1. comparez la fin de la clé à celles du tableau suivant pour rechercher une correspondance :
 
 | En-tête | Type | Exemple |
 |---|---|---|
-| callinglineid | ID | X-Up-Calling-Line-ID: 8613802423312 |
-| subno | ID | x-up-subno: swm_10448371100_vmag.mycingular.net |
-| clientid | ID | ClientID: eGtUpsqEO19zVHmbOkgaPVI-@sprintpcs.com |
-| uid | ID | x-jphone-uid: a2V4Uh21XQH9ECNN |
-| clid | ID | X-Hts_clid: 595961714786 |
-| deviceid | ID | rim-device-id: 200522ae |
-| forwardedfor | ID ou adresse IP | X-Forwarded-For: 127.0.0.1 |
-| msisdn | ID ou adresse IP | X-Wap-msisdn: 8032618185 |
-| clientip | Adresse IP | Client-ip: 10.9.41.2 |
-| wapipaddr | Adresse IP | X-WAPIPADDR: 10.48.213.162 |
-| huaweinasip | Adresse IP | x-huawei-NASIP: 211.139.172.70 |
-| userip | Adresse IP | UserIP: 70.214.81.241 |
-| ipaddress | Adresse IP | X-Nokia-ipaddress: 212.97.227.125 |
-| subscriberinfo | Adresse IP | X-SUBSCRIBER-INFO: IP=10.103.132.128 |
+| callinglineid | ID | X-Up-Calling-Line-ID : 8613802423312 |
+| subno | ID | x-up-subno : swm_10448371100_vmag.mycingular.net |
+| clientid | ID | ClientID : eGtUpsqEO19zVHmbOkgaPVI-@sprintpcs.com |
+| uid | ID | x-jphone-uid : a2V4Uh21XQH9ECNN |
+| clid | ID | X-Hts_clid : 595961714786 |
+| deviceid | ID | rim-device-id : 200522ae |
+| redirigé pour | ID ou adresse IP | X-Forwarded-For : 127.0.0.1 |
+| msisdn | ID ou adresse IP | X-Wap-msisdn : 8032618185 |
+| clientip | Adresse IP | Client-ip : 10.9.41.2 |
+| wapipaddr | Adresse IP | X-WAPIPADDR : 10.48.213.162 |
+| huaweinasip | Adresse IP | x-huawei-NASIP : 211.139.172,70 |
+| userip | Adresse IP | UserIP : 70.214.81.241 |
+| ipaddress | Adresse IP | X-Nokia-ipaddress : 212.97.227.125 |
+| subscriberinfo | Adresse IP | X-SUBSCRIBER-INFO : IP=10.103.132.128 |
 
-Par exemple, « callinglineid » correspond à « X-Up-Calling-Line-ID » et « nokia-callinglineid ». Le type d’en-tête indique ce qu’il doit contenir. L’ordre de priorité des en-têtes est répertorié ici (si un en-tête « callinglineid » est présent, il est utilisé à la place de « subno »).
+Par exemple, « callinglineid » correspond à « X-Up-Calling-Line-ID » et « nokia-callinglineid ». Le type d’en-tête indique ce qu’il doit contenir. L’ordre de priorité de l’en-tête est répertorié ici (si un en-tête &quot;callinglineid&quot; est présent, il est utilisé à la place de &quot;subno&quot;).
 
-Vous pouvez utiliser [les variables dynamiques](../implement/vars/page-vars/dynamic-variables.md) pour extraire des valeurs spécifiques d’un en-tête.
+You can use [Dynamic Variables](../implement/vars/page-vars/dynamic-variables.md) to extract specific values from a header.
 
 ## Méthodes d’identifiant de secours
 
