@@ -1,8 +1,8 @@
 ---
 title: Fenêtre modale de mise en œuvre
 description: Si vous êtes un nouvel utilisateur, découvrez ce que vous devez savoir sur la mise en œuvre d’Adobe Analytics.
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,13 +25,13 @@ Accédez à la fenêtre modale pour créer une suite de rapports à l’aide des
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur l’icône à neuf carrés en haut de l’écran, puis sur [!UICONTROL Adobe Analytics].
-3. Si vous n’avez pas encore créé de suite de rapports, la fenêtre modale s’affiche automatiquement. S’il existe une suite de rapports pour cette société de connexion, cliquez sur l’icône Aide en haut à droite, puis sur [!UICONTROL Bienvenue dans Adobe Analytics].
+3. Si vous n’avez pas encore créé de suite de rapports, la fenêtre modale s’affiche automatiquement. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] L’option [!UICONTROL Bienvenue dans Adobe Analytics] s’affiche uniquement si vous vous connectez via Adobe Experience Cloud. Si vous vous connectez par le biais de domaines hérités, la fenêtre modale n’est pas disponible.
+>[!NOTE] L’ [!UICONTROL Welcome to Adobe Analytics] option s’affiche uniquement si vous vous connectez via Adobe Experience Cloud. Si vous vous connectez par le biais de domaines hérités, la fenêtre modale n’est pas disponible.
 
 ## Création d’une suite de rapports
 
-Cliquez sur le bouton [!UICONTROL Démarrer la configuration] pour lancer le processus de création de la suite de rapports.
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
 ![Assistant RS](assets/analytics-implementation-rs-wizard.png)
 
@@ -67,7 +67,7 @@ Estimez le volume de trafic de votre site web ou de votre application par jour. 
 
 Déterminez dans quelle devise la suite de rapports stocke les valeurs monétaires.
 
-> [!IMPORTANT] Veillez à indiquer la devise appropriée, en particulier si vous avez des exigences de création de rapports concernant les recettes. Il est difficile de modifier la devise de base une fois la collecte des données commencée.
+>[!IMPORTANT] Veillez à indiquer la devise appropriée, en particulier si vous avez des exigences de création de rapports concernant les recettes. Il est difficile de modifier la devise de base une fois la collecte des données commencée.
 
 ## Ressources de mise en œuvre
 
