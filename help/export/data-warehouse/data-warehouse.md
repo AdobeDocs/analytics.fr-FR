@@ -1,25 +1,25 @@
 ---
-description: Data Warehouse fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports qui présentent un niveau avancé de relations entre les données brutes, en fonction de vos questions. Les rapports d’entrepôt de données sont envoyés par courriel ou par FTP. Leur traitement peut prendre jusqu’à 72 heures. La durée de traitement dépend de la complexité de la requête et de la quantité de données demandées.
+description: Data Warehouse fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports pour afficher des relations de données avancées à partir de données brutes en fonction de vos questions uniques. Les rapports de l’entrepôt de données sont envoyés par courriel ou par FTP. Leur traitement peut prendre jusqu’à 72 heures. La durée de traitement dépend de la complexité de la requête et de la quantité de données demandées.
 title: Data Warehouse - Aperçu
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Data Warehouse - Aperçu
 
-Data Warehouse fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports qui présentent un niveau avancé de relations entre les données brutes, en fonction de vos questions. Les rapports d’entrepôt de données sont envoyés par courriel ou par FTP. Leur traitement peut prendre jusqu’à 72 heures. La durée de traitement dépend de la complexité de la requête et de la quantité de données demandées.
+L’entrepôt de données fait référence à la copie des données Analytics pour les  de  et les rapports personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports pour afficher des relations de données avancées à partir de données brutes en fonction de vos questions uniques. Les rapports de l’entrepôt de données sont envoyés par courriel ou par FTP. Leur traitement peut prendre jusqu’à 72 heures. La durée de traitement dépend de la complexité de la requête et de la quantité de données demandées.
 
-Adobe active Data Warehouse pour les seuls utilisateurs de niveau administrateur, et ce, pour des suites de rapports spécifiques. (Cette API peut être activée pour les suites de rapports globales et secondaires, mais pas pour les suites de rapports de cumul.) L’administrateur peut créer un groupe ayant accès à Data Warehouse, puis y associer des utilisateurs qui ne sont pas administrateurs.
+Adobe active Data Warehouse pour les seuls utilisateurs de niveau administrateur, et ce, pour des suites de rapports spécifiques. (Il peut être activé pour les suites de rapports globales et enfants, mais pas pour les suites de rapports de cumul.) L’administrateur peut créer un groupe ayant accès à l’entrepôt de données, puis y associer des utilisateurs non administrateurs.
 
-Data Warehouse compresse automatiquement les fichiers de plus de 1 Mo. La taille totale des pièces jointes d’un courrier électronique ne peut pas dépasser 10 Mo.
+L’entrepôt de données compresse automatiquement les fichiers de plus de 1 Mo. La taille maximale des pièces jointes du courrier électronique est de 10 Mo.
 
-Data Warehouse peut traiter un nombre illimité de lignes dans une seule demande pour des rapports distincts téléchargés et planifiés.
+L’entrepôt de données peut traiter un nombre illimité de lignes dans une seule requête pour des rapports planifiés et téléchargés individuels.
 
-> [!NOTE] Data Warehouse consigne la première valeur rencontrée dans la période de création du rapport.
+>[!NOTE] Data Warehouse consigne la première valeur rencontrée dans la période de création du rapport.
 
 >[!IMPORTANT]
 >
@@ -27,12 +27,12 @@ Data Warehouse peut traiter un nombre illimité de lignes dans une seule demand
 
 ## Description des demandes de Data Warehouse {#section_F21C78ED36884C389C852E876AF5CDE8}
 
-Ce tableau décrit les champs et options de l’onglet [!UICONTROL Demande Data Warehouse].
+Ce tableau décrit les champs et options de l’ [!UICONTROL Data Warehouse Request] onglet.
 
 <table id="table_7325A2466866460E8B0AF7D696152713"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Élément </th> 
+   <th colname="col1" class="entry"> Elément </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
@@ -48,15 +48,15 @@ Ce tableau décrit les champs et options de l’onglet [!UICONTROL Demande Data 
      <li id="li_4D7C26812DF94ED7B64F985309541F46"> <span class="wintitle"> Personnalisée</span> : plage de dates que vous configurez dans le calendrier. </li> 
      <li id="li_2B272087006847148A936350D1B2D523"> <span class="wintitle"> Prédéfinie</span> : plage prédéfinie. Cette plage dépend de la date du rapport. </li> 
      <li id="li_745989965BB94D489FF7046587E13C42"> <span class="wintitle"> Granularité</span> : granularité temporelle. Les valeurs valides sont Aucune, Horaire, Journalière, Hebdomadaire, Mensuelle, Trimestrielle et Annuelle. </li> 
-    </ul> <p>Dans Data Warehouse, la création de rapports sur les suites de rapports virtuelles prend en charge le fuseau horaire alternatif configuré dans la suite de rapports virtuelle. </p> </td> 
+    </ul> <p>Le de l'entrepôt de données sur les suites de rapports virtuelles prend en charge le fuseau horaire alternatif configuré sur la suite de rapports virtuelle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Segments disponibles</span> </td> 
-   <td colname="col2"> <p>Permet de sélectionner la population de visiteurs que vous souhaitez étudier et de générer des segments complexes. Vous pouvez charger des segments préconfigurés, créer des segments et stocker les composants de segments dans une bibliothèque afin de les utiliser pour générer des segments supplémentaires. </p> <p>Vous pouvez désormais empiler les segments. Lors de la sélection de plusieurs segments, la zone d’aperçu, le Gestionnaire de requêtes et la fenêtre contextuelle Détail de la demande affichent une liste des noms séparés par des virgules (Segment1, Segment2, par exemple). </p> <p>Pour plus d’informations, consultez le <a href="/help/components/c-segmentation/seg-home.md"> Guide de segmentation</a>. </p> <p>Remarque : vous ne pouvez pas inclure un filtre de segment et une ventilation sur un même segment dans un même rapport Data Warehouse. Sinon, une erreur se produira. </p> </td> 
+   <td colname="col2"> <p>Permet de sélectionner la partie de la population de à examiner et de générer des segments complexes. Vous pouvez charger des segments préconfigurés, créer de nouveaux segments et stocker des composants de segments dans une bibliothèque afin de les utiliser pour créer des segments supplémentaires. </p> <p>Vous pouvez désormais empiler des segments. Lors de la sélection de plusieurs segments, la zone  du, le Gestionnaire de requêtes et la fenêtre contextuelle Détails de la requête affichent un de noms séparé par des virgules (Segment1, Segment2, par exemple). </p> <p>Pour plus d’informations, consultez le <a href="/help/components/c-segmentation/seg-home.md"> Guide de segmentation</a>. </p> <p>Remarque : vous ne pouvez pas inclure un filtre de segment et une ventilation sur un même segment dans un même rapport Data Warehouse. Sinon, une erreur se produira. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ventilations</span> </td> 
-   <td colname="col2"> <p>Permet de catégoriser des données à l’aide de ventilations. Les segments se distinguent des ventilations dans la mesure où ils filtrent les données d’un jeu de données, tandis qu’une ventilation classe des données par catégorie entre toutes les valeurs pertinentes. </p> Vous pouvez également ventiler un rapport selon un ou plusieurs segments. Vous ne pouvez pas toutefois inclure un filtre de segment et une ventilation sur un même segment dans un même rapport Data Warehouse. Sinon, une erreur se produira. <p> Utilisez, par exemple, les segments pour retirer un sexe de l’ensemble des données et une ventilation pour afficher les données réparties par sexe. </p> <p>Lorsqu’une demande Data Warehouse est envoyée avec plusieurs dimensions à plusieurs valeurs (par ex. plusieurs rapports mobiles), un nombre exponentiel de lignes peut être généré à partir d’un seul accès. Le nombre de lignes pouvant être généré par un seul accès est plafonné à 100 (1 000 auparavant). </p> </td> 
+   <td colname="col2"> <p>Vous permet de classer les données par catégorie à l’aide de ventilations. Les segments et les ventilations diffèrent en ce qu’un segment  des données d’un jeu de données, tandis qu’une ventilation compartimente les données de toutes les valeurs valides pour la ventilation. </p> Vous pouvez également ventiler un rapport selon un ou plusieurs segments. Cependant, vous ne pouvez pas inclure à la fois un filtre de segment et une ventilation sur le même segment, dans le même rapport Entrepôt de données. Sinon, une erreur se produira. <p> Par exemple, utilisez les segments pour supprimer un sexe du jeu de données et utilisez une ventilation pour afficher les données séparées par sexe. </p> <p>Lorsqu’une demande d’entrepôt de données est envoyée avec plusieurs dimensions à plusieurs valeurs (par exemple, divers rapports mobiles), un nombre exponentiel de lignes peut être généré à partir d’un seul accès. Le nombre de lignes pouvant être générées à partir d’un seul accès est plafonné à 100 (1 000 auparavant). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Mesures</span> </td> 
@@ -68,7 +68,7 @@ Ce tableau décrit les champs et options de l’onglet [!UICONTROL Demande Data 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Planifier la livraison du rapport</span> </td> 
-   <td colname="col2"> <p>Permet de planifier une remise automatique des demandes à des intervalles sélectionnés ou de programmer un rapport unique ponctuel. Avec le format par défaut, le rapport est envoyé par courriel au format .csv. </p> <p>Pour ajouter la plage de dates, indiquez <span class="filepath">%R</span> dans le nom du fichier. Cette valeur représente les valeurs de dates demandées dans le rapport. Si, par exemple, vous demandez des données du 1er mai 2013 au 7 mai 2013, la variable <span class="filepath">%R</span> présente un nom de fichier contenant la plage de dates 20130501 - 20130507. </p> </td> 
+   <td colname="col2"> <p>Vous permet de planifier des demandes de  automatique à des intervalles sélectionnés ou sous la forme d’un rapport unique. Si vous utilisez le format par défaut, le rapport est envoyé par courrier électronique sous la forme d’un fichier .csv. </p> <p>Pour ajouter la plage de dates, indiquez <span class="filepath">%R</span> dans le nom du fichier. Cette valeur représente les valeurs de dates demandées dans le rapport. Si, par exemple, vous demandez des données du 1er mai 2013 au 7 mai 2013, la variable <span class="filepath">%R</span> présente un nom de fichier contenant la plage de dates 20130501 - 20130507. </p> </td> 
   </tr> 
  </tbody> 
 </table>
