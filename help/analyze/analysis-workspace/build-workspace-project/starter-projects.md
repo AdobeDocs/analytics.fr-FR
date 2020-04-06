@@ -3,7 +3,7 @@ description: valeur nulle
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -52,7 +52,7 @@ Lorsque vous ouvrez un Workspace pour la première fois, les modèles sont dispo
 
 Vous pouvez utiliser ces modèles préremplis tels quels ou les adapter à vos besoins (en ajoutant ou en remplaçant des mesures ou des visualisations, par exemple) et les enregistrer sous un nouveau nom.
 
-[Modèles standard dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[Modèles standard dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
 Voici les modèles disponibles et les questions auxquelles chaque modèle peut répondre.
 
@@ -106,7 +106,7 @@ Voici les modèles disponibles et les questions auxquelles chaque modèle peut r
 
 ### Personnes
 
-> [!NOTE] Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+>[!NOTE] Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/fr_FR/mcdc/mcdc-people.html).
 
 Ce modèle est basé sur la mesure Personnes, qui est une version dédupliquée de la mesure uniques. La mesure Personnes fournit une mesure de la fréquence à laquelle les consommateurs utilisant plusieurs périphériques interagissent avec votre marque. Le modèle vous permet de
 
@@ -122,7 +122,7 @@ Ce modèle est basé sur la mesure Personnes, qui est une version dédupliquée 
 
 <!-->This content is mirrored in the CDA doc.<-->
 
-Ce modèle vous permet d’afficher des données de performances interpériphériques essentielles. Il est uniquement disponible pour les clients qui ont accès à Analytics [](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) sur plusieurs périphériques (CDA).
+Ce modèle vous permet d’afficher des données de performances interpériphériques essentielles. Il est disponible uniquement pour les clients qui ont accès à Analytics [](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-home.html) multipériphériques (CDA).
 
 * **Note spéciale à l&#39;intention des membres du Graphique** coopératif : Indique la partie de votre suite de rapports qui contient des dans les régions où le graphique coopératif est pris en charge et les régions où il n’est pas pris en charge.
 * **Identification des utilisateurs**: Indique la fréquence à laquelle les de votre site sont identifiés à l’aide de méthodes basées sur les analyses multipériphériques.
