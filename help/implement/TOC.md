@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics Implementation Guide
+user-guide-title: Guide de mise en œuvre Analytics
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
+source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
    + [Aperçu](vars/overview.md)
    + Variables de configuration {#config-vars}
       + [Présentation des variables de configuration](vars/config-vars/configuration-variables.md)
-      + [avorter](vars/config-vars/abort.md)
+      + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
-      + [charSet.](vars/config-vars/charset.md)
+      + [charSet](vars/config-vars/charset.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
@@ -58,8 +58,8 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [Variables dynamiques](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
       + events {#events}
-         + [de](vars/page-vars/events/events-overview.md)
-         + [Evénement achat](vars/page-vars/events/event-purchase.md)
+         + [Présentation des événements](vars/page-vars/events/events-overview.md)
+         + [Événement d’achat](vars/page-vars/events/event-purchase.md)
          + [Sérialisation d’événements](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
       + [list](vars/page-vars/list.md)
@@ -74,7 +74,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [server](vars/page-vars/server.md)
       + [state](vars/page-vars/state.md)
       + [timestamp](vars/page-vars/timestamp.md)
-      + [stockage](vars/page-vars/transactionid.md)
+      + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + Fonctions et méthodes {#functions}
       + [Présentation des fonctions](vars/functions/overview.md)
@@ -91,7 +91,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Modules externes {#plugins}
+   + Plug-ins {#plugins}
       + [Présentation des plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -111,26 +111,26 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [getTimeParting](vars/plugins/gettimeparting.md)
       + [getTimeSinceLastVisit](vars/plugins/gettimesincelastvisit.md)
       + [getTimeToComplete](vars/plugins/gettimetocomplete.md)
-      + [getValOnce](vars/plugins/getvalonce.md).
+      + [getValOnce](vars/plugins/getvalonce.md)
       + [getVisitDuration](vars/plugins/getvisitduration.md)
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
-      + [manageVars  ](vars/plugins/managevars.md)
-      + [Nombres Suite](vars/plugins/numberssuite.md)
+      + [manageVars](vars/plugins/managevars.md)
+      + [Numbers Suite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
-      + [pt](vars/plugins/pt.md)
+      + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Module Integrate](vars/integrate.md)
-+ Prepare to implement Adobe Analytics {#prepare}
++ Préparation à la mise en œuvre d’Adobe Analytics {#prepare}
    + [Création d’une couche de données](prepare/data-layer.md)
    + [Considérations relatives aux suites de rapports globales](prepare/global-rs.md)
-   + [Mode de mise en oeuvre](prepare/implementation-modal.md)
+   + [Fenêtre modale de mise en œuvre](prepare/implementation-modal.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
 + Mise en œuvre d’Analytics avec JavaScript {#js}
    + [Présentation de JavaScript](js/overview.md)
-   + [Mise en oeuvre des liens d’exclusion](js/opt-out.md)
+   + [Mise en œuvre des liens d’exclusion](js/opt-out.md)
    + [Remplacements de variables](js/overrides.md)
-   + [Migrer du code H](js/migrate-from-hcode.md)
+   + [Migration du code H](js/migrate-from-hcode.md)
    + Code H {#h-code}
       + [Présentation du code H](js/h-code/overview.md)
       + Comptes dynamiques {#dynamicaccount}
@@ -139,22 +139,22 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Dépannage du code H](js/h-code/troubleshooting.md)
-   + Identification héritée de plusieurs périphériques {#xdevice-visid}
-      + [Présentation de la connexion des utilisateurs sur plusieurs périphériques](js/xdevice-visid/xdevice-connecting.md)
+   + Identification héritée de plusieurs appareils {#xdevice-visid}
+      + [Présentation de la connexion des utilisateurs à l’ensemble des appareils](js/xdevice-visid/xdevice-connecting.md)
       + [Persistance des variables](js/xdevice-visid/variable-persistence.md)
       + [Exemple de visite](js/xdevice-visid/visit-example.md)
-      + [FAQ sur les périphériques croisés hérités](js/xdevice-visid/xdevice-faq.md)
+      + [FAQ sur l’identification héritée de plusieurs appareils](js/xdevice-visid/xdevice-faq.md)
    + [Dépannage d’AppMeasurement](js/troubleshooting.md)
-+ Implement Analytics using Adobe Experience Platform Launch {#launch}
++ Mise en œuvre d’Analytics avec Adobe Experience Platform Launch {#launch}
    + [Présentation de Launch](launch/overview.md)
    + [Création d’une propriété Analytics](launch/create-analytics-property.md)
-   + [Déploiement sur un  de développement](launch/deploy-dev.md)
-   + [Valider et publier sur prod](launch/validate-publish-prod.md)
+   + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
+   + [Validation et publication en production](launch/validate-publish-prod.md)
    + [Mappage des objets de couche de données aux éléments de données](launch/layer-to-elements.md)
    + [Mise en correspondance des éléments de données de lancement avec les variables Analytics](launch/elements-to-variable.md)
-+ Mise en oeuvre d’Analytics sur d’autres plateformes {#other}
-   + [Mise en oeuvre d’Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
-   + Implement Analytics using DTM {#dtm}
++ Mise en œuvre d’Analytics sur d’autres plateformes {#other}
+   + [Mise en œuvre d’Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
+   + Mise en œuvre d’Analytics avec DTM {#dtm}
       + [Mise en œuvre de Dynamic Tag Management - Aperçu](other/dtm/dtm-implementation-overview.md)
       + [Création d’une propriété web](other/dtm/t-create-web-property.md)
       + [Configuration des options d’hébergement](other/dtm/t-configure-hosting.md)
@@ -183,16 +183,16 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [Configuration des actions que la condition doit déclencher](other/dtm/c-rules/t-rules-actions.md)
          + [Test des règles non publiées pour l’hébergement Akamai](other/dtm/c-rules/t-test-rules-akamai.md)
          + [Test de règles pour le téléchargement de bibliothèque ou FTP](other/dtm/c-rules/t-test-rules-ftp.md)
-   + [Mise en oeuvre d’Analytics sur Ajax](other/ajax.md)
-   + [Mise en oeuvre d’Analytics sur AMP](other/amp.md)
-   + [Mise en oeuvre d’Analytics sur les assistants numériques](other/digital-assistants.md)
-   + [Mise en oeuvre d’Analytics sur les Instant Articles de Facebook](other/fb-instant-articles.md)
-+ [Mise en oeuvre d’Analytics sur des périphériques mobiles](mobile-device-sdk.md)
-+ Cas d’utilisation d’implémentation {#use-cases}
+   + [Mise en œuvre d’Analytics sur Ajax](other/ajax.md)
+   + [Mise en œuvre d’Analytics sur AMP](other/amp.md)
+   + [Mise en œuvre d’Analytics pour les assistants numériques](other/digital-assistants.md)
+   + [Mise en œuvre d’Analytics sur les Instant Articles de Facebook](other/fb-instant-articles.md)
++ [Mise en œuvre d’Analytics sur des appareils mobiles](mobile-device-sdk.md)
++ Cas d’utilisation de mise en œuvre {#use-cases}
    + [Suivi sur différents types de mises en œuvre](use-cases/cross-type-implementation.md)
    + [Suivi des courriers électroniques externes](use-cases/email-external.md)
-+ Validate your implementation {#validate}
-   + [Débogueur hérité d’Adobe Experience Cloud](validate/debugger.md)
++ Validation de votre mise en œuvre {#validate}
+   + [Débogueur Adobe Experience Cloud hérité](validate/debugger.md)
    + [Paramètres de requête de la collecte de données](validate/query-parameters.md)
    + [Moniteurs de paquets](validate/packet-monitor.md)
    + [Collisions de hachage](validate/hash-collisions.md)
