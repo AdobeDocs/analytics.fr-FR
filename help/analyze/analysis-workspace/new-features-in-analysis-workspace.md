@@ -5,7 +5,7 @@ title: Nouveautés d’Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
 
 ---
 
@@ -307,8 +307,8 @@ Nouvelles fonctionnalités et améliorations au 12 avril 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Paramètre d’affichage « 100 % empilé »</a> </p> </td> 
-   <td colname="col2"> <p>Un nouveau paramètre d’affichage appliqué aux graphiques à zones empilées, à barres empilées ou à barres horizontales empilées offre un aperçu « 100 % empilé » du diagramme, ce qui vous permet d’évaluer les proportions relatives. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>Un nouveau paramètre d’affichage appliqué aux graphiques à zones empilées, à barres empilées ou à barres horizontales empilées offre un aperçu « 100 % empilé » du diagramme, ce qui vous permet d’évaluer les proportions relatives. </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  > La détection des anomalies et l’analyse des contributions </a> sont désormais uniquement disponibles dans Analysis Workspace. </p> </td> 
    <td colname="col2"> <p>La détection des anomalies et l’analyse des contributions ont été supprimées de l’ensemble de fonctionnalités Reports &amp; Analytics et sont désormais disponibles uniquement via Analysis Workspace. </p> <p>Remarque : les clients Adobe Analytics Select et Adobe Analytics Foundation ne profitent que d’une détection des anomalies « à granularité journalière » dans Workspace. </p> </td> 
