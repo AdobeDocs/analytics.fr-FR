@@ -1,8 +1,8 @@
 ---
 title: Guide d’utilisation de Labs
 description: Prévisualiser des projets de prototype pour Adobe Analytics
-translation-type: ht
-source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
+translation-type: tm+mt
+source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
 
 ---
 
@@ -58,7 +58,7 @@ Pour lancer et évaluer un prototype :
 
 1. Pour essayer un prototype différent ou pour quitter l’environnement de prototype, cliquez sur le bouton **Quitter le prototype** en haut à droite de l’écran, puis complétez l’enquête brève au sujet du prototype. Toute modification apportée à un projet de prototype est perdue lorsque vous quittez l’environnement du prototype.
 
-   ![nouvelle boîte de commentaires](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![nouvelle boîte de commentaires](assets/short-survey.png)
 
 1. Cliquez sur **Soumettre** pour revenir au portail principal des Aperçus.
 
