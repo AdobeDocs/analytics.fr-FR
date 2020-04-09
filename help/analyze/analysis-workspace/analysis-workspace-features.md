@@ -1,10 +1,10 @@
 ---
 keywords: Analysis Workspace
-title: Analysis Workspace  - Aperçu
+title: Aperçu d’Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5161ccaf333908525c261b73419899918554b91c
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-## Vidéo de présentation {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## Vidéo de présentation
 
->[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
 Vous trouverez [ici](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) la liste complète de sélections YouTube.
 
@@ -25,7 +25,7 @@ Vous trouverez [ici](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOt
 >
 >Voir [Nouveautés d’Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) pour des mises à jour des fonctionnalités.
 
-## Contrôle complet des éléments et des composants de projet {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## Contrôle complet des éléments et des composants de projet
 
   Workspace offre liberté et flexibilité :
 
@@ -37,7 +37,7 @@ Vous trouverez [ici](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOt
 
 Voir [Création d’un projet Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) pour en savoir plus.
 
-## Visualisations multiples dans un projet {#section_B7670740C2D44130B21DAF0873280DA5}
+## Visualisations multiples dans un projet
 
 Faites glisser autant de visualisations que vous le souhaitez sur un projet.
 
@@ -49,7 +49,7 @@ Créez un projet présentant le pourcentage de changement, avec plusieurs visual
 
 Voir [Création d’un projet Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) pour en savoir plus.
 
-## Intra-liens vers les panneaux et les visualisations {#section_253EA04E067F4A29A8B54CE2B7631086}
+## Intra-liens vers les panneaux et les visualisations
 
 En plus des capacités de [modification de texte enrichi](/help/analyze/analysis-workspace/visualizations/text.md) d’Analysis Workspace, vous pouvez insérer des liens vers des panneaux et des visualisations spécifiques dans un projet depuis une zone de texte, par exemple pour créer une table des matières d’un projet. Ces liens peuvent être partagés comme n’importe quel lien de projet, afin de rediriger un utilisateur vers une visualisation ou un panneau spécifique au sein d’un projet. De nouvelles options contextuelles, nommées « Obtenir un lien vers le panneau » et « Obtenir un lien vers la visualisation », ont été ajoutées. Pour ajouter une liaison interne à votre projet :
 
@@ -69,17 +69,17 @@ Si des panneaux ou des visualisations sont réduits dans votre projet, cliquez s
 
 >[!NOTE] Vous pouvez également utiliser cette fonctionnalité dans l’option de clic **[!UICONTROL Edit Description]** droit.
 
-## Lien vers d’autres projets {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## Lien vers d’autres projets
 
 You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
 
-## Visualisation dynamique des cellules sélectionnées {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## Visualisation dynamique des cellules sélectionnées
 
 Sélectionnez des cellules individuelles et observez les visualisations changer dynamiquement. [Synchronisez et verrouillez](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) une visualisation avec les cellules sélectionnées.
 
 ![](assets/visualize-selected-cells.png)
 
-## Verrouillage d’éléments ou de positions sélectionnés {#section_9D66A001586F49CEB0C565581E44957C}
+## Verrouillage d’éléments ou de positions sélectionnés
 
 Verrouillez les visualisations pour contrôler quelles sources de tableaux de données à structure libre correspondent aux visualisations.
 
@@ -87,7 +87,7 @@ Verrouillez les visualisations pour contrôler quelles sources de tableaux de do
 
 Voir [Gestion des sources de données](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
-## Visualisations des tendances d’après les cellules sélectionnées {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## Visualisations des tendances d’après les cellules sélectionnées
 
 Créez une visualisation d’après les cellules sélectionnées (Cliquez avec le bouton droit de la souris > **[!UICONTROL Trend Selection]**.)
 
@@ -97,7 +97,7 @@ Les sélections de tendances sont maintenant **liées** au tableau ci-dessous, d
 
 ![](assets/trend-selection2.png)
 
-## Dimensions et ventilations d’éléments de dimension {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## Dimensions et ventilations d’éléments de dimension
 
 En tant que détaillant, vous pouvez approfondir davantage encore l’analyse de vos campagnes afin de comprendre comment mieux mobiliser vos clients. Ventilez vos données de manière illimitée en fonction de vos besoins spécifiques ; créez des  à l’aide de mesures, de dimensions, de segments, de lignes de temps et d’autres  de valeurs de ventilation de  appropriées.
 
@@ -105,7 +105,7 @@ En tant que détaillant, vous pouvez approfondir davantage encore l’analyse de
 
 Voir [Ventilation des dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-## Segments des sélections de tableaux {#section_73BC3688089B426D969B3D5B606DA970}
+## Segments des sélections de tableaux
 
 Sélectionnez des cellules dans le tableau à structure libre et créez un segment à partir de la sélection.
 
@@ -119,7 +119,7 @@ Déposez un segment dans le panneau à structure libre au niveau du projet et le
 
 Voir [Segments](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
-## Balisage des projets et des composants {#section_F54D688132A541F2982326D5E022B90D}
+## Balisage des projets et des composants
 
 Vous pouvez appliquer des balises aux projets et aux composants dans Analysis Workspace :
 
@@ -128,7 +128,7 @@ Vous pouvez appliquer des balises aux projets et aux composants dans Analysis Wo
 * Cliquez avec le bouton droit sur les composants à baliser (ou créez des balises) à partir du panneau Composants.
 * Utilisez # dans le champ Rechercher pour localiser les balises.
 
-## Actions des composants {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## Actions des composants
 
 Dans le menu Actions, vous réalisez les actions au niveau du composant en haut du rail gauche des composants. Sélectionnez un composant, puis cliquez sur **[!UICONTROL Actions]** pour afficher les actions.
 
@@ -142,7 +142,7 @@ Dans le menu Actions, vous réalisez les actions au niveau du composant en haut 
 
 See [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) for more information.
 
-## Descriptions d’autres fonctions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## Descriptions d’autres fonctions
 
 **Ce que vous pouvez faire glisser et empiler**
 
@@ -187,4 +187,4 @@ Un segment par défaut propre à Analysis Workspace. *`All Visits`* présente le
 
 Utilisez les calculs de la même manière que les mesures standard.
 
-Voir Mesures [calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/).
+Voir Mesures [calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html).
