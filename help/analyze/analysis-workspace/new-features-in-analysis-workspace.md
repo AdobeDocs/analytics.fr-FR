@@ -5,12 +5,20 @@ title: Nouveautés d’Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
+source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 ---
 
 
 # Nouveautés d’Analysis Workspace
+
+## Avril 2020
+
+Nouvelle fonctionnalité publiée le 16 avril 2020.
+
+| Fonctionnalité | Description |
+|--- |--- |
+| Créer automatiquement [!UICONTROL Freeform Tables] à partir d’un état vide | Auparavant, vous ne pouviez pas déposer les composants directement dans un projet vierge ou un panneau vierge ; il fallait d&#39;abord ajouter un tableau à structure libre. Vous pouvez désormais déposer les composants directement dans un projet ou un panneau vierge. Un tableau à structure libre sera automatiquement créé pour vous dans un format recommandé. En outre, des améliorations ont été apportées à la façon dont les types de composants mixtes (par exemple, dimensions et mesures) sont traités lorsqu’ils sont déposés dans un blanc [!UICONTROL Freeform Table] ensemble. |
 
 ## Mars 2020
 
@@ -425,7 +433,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
      <li id="li_16C7938EDC8F422EA006FB63F2881EF1">Contient l’expression </li> 
      <li id="li_5130EBE9A7A54CCFA313F3C3C268B367">Ne contient aucun terme </li> 
      <li id="li_861825154EDC49EBA57514FD0A2AE462">Ne contient pas l’expression </li> 
-     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">Est égal à </li> 
+     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">Est égal </li> 
      <li id="li_1EBF3119B6364842A35D39BAD645F4AF">N’est pas égal à </li> 
      <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">Commence par </li> 
      <li id="li_A73F54DFBAAB44D4A4134342A3124E47">Se termine par </li> 
@@ -577,7 +585,7 @@ Nouvelles fonctionnalités au 21 septembre 2017.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md"  > Dimensions de répartition du temps dans Analysis Workspace </a> </p> </td> 
    <td colname="col2"> <p>Les dimensions basées sur l’horodatage ont été ajoutées prêtes à l’emploi dans  Workspace . Les dimensions incluent : </p> 
     <ul id="ul_9BDBC0B344504E85840040E493873A47"> 
-     <li id="li_826A8CBF4FDB4C98AC176C7145C09DB2">Heure du jour (p. ex. 01, 12, 15, 23) </li> 
+     <li id="li_826A8CBF4FDB4C98AC176C7145C09DB2">Heure du jour (p. ex. : 01, 12, 15, 23) </li> 
      <li id="li_FD6AAD4D3F544224A757D8124F973BE5">AM/PM (p. ex. AM PM) </li> 
      <li id="li_5CAE35FB8E3E490A8FCF72DF8AC619CC">Jour de la semaine (par exemple lundi, mardi, mercredi, etc.) </li> 
      <li id="li_930DFC6BFCC740A392EC7FA859FF0E73">Week-end/Jour de la semaine (p. ex. week-end, jour de la semaine) </li> 
