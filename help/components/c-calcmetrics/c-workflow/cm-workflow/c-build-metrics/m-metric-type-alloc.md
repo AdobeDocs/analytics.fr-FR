@@ -1,9 +1,9 @@
 ---
-description: La sélection de l’icône d’engrenage en regard d’une mesure vous permet de spécifier le type de mesure et le modèle d’attribution.
+description: 'En savoir plus sur '
 title: Type de mesure et attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ La sélection de l’icône d’engrenage en regard d’une mesure vous permet d
 * [Modèle d’attribution de colonnes](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## Type de mesure {#section_34A86FB402F94E988724232283BF18B7}
+## Type de mesure
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ La sélection de l’icône d’engrenage en regard d’une mesure vous permet d
 | Standard | Ces mesures sont les mêmes mesures que celles utilisées dans la création de rapports standard [!DNL Analytics]. Si une formule est composée d’une seule mesure standard, elle affiche des données identiques à sa contrepartie de mesure non calculée. Les mesures standard sont utiles pour créer des mesures calculées spécifiques à chaque élément de ligne. Par exemple, [Commandes] / [Visites] utilise des commandes pour cette ligne spécifique et la divise par le nombre de visites correspondant à cette ligne spécifique. |
 | Total | Utilisez le total pour la période du  de chaque ligne. Si une formule est composée d’un nombre total de mesures unique, elle affiche le même nombre total sur chaque ligne. Les mesures totales sont utiles pour créer des mesures calculées qui se comparent aux données totales du site. Par exemple, [Commandes] / [Nombre total de visites] affiche la proportion des commandes par rapport à TOUTES les visites sur votre site, et non juste les visites sur la ligne spécifique objet. |
 
-## Modèle d’attribution de colonnes {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## Modèle d’attribution de colonnes
 
 >[!IMPORTANT]
 >
@@ -38,70 +38,27 @@ La sélection de l’icône d’engrenage en regard d’une mesure vous permet d
 
 
 
-## Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018) 
+## Fonctionnement de l’attribution linéaire (au 19 juillet 2018)
 
-En juillet 2018, Adobe a modifié la manière de générer des rapports sur l’affectation linéaire pour les mesures calculées. Cette modification a un impact sur Analysis Workspace, sur l’Ad Hoc Analysis, sur les Reports &amp; Analytics, sur le Report Builder, sur Activity Map et sur les API de création de rapports. Elle concernera essentiellement les eVars et autres dimensions présentant une persistance. Notez que ces changements s’appliqueront uniquement aux mesures calculées et n’auront pas d’impact sur les autres rapports utilisant l’affectation linéaire (notamment le rapport Pages de Reports &amp; Analytics). D’autres rapports utilisant l’attribution linéaire continueront d’utiliser la méthode existante d’attribution linéaire.
+En juillet 2018, Adobe a modifié la manière de générer des rapports sur l’affectation linéaire pour les mesures calculées. Cette modification a un impact sur Analysis Workspace, sur l’Ad Hoc Analysis, sur les Reports &amp; Analytics, sur le Report Builder, sur Activity Map et sur les API de création de rapports. Le changement a principalement un impact sur les eVars et autres dimensions qui ont une persistance. Notez que ces modifications s’appliquent uniquement aux mesures calculées et n’affectent pas les autres rapports utilisant l’attribution linéaire (comme le rapport Pages dans les Rapports et analyses). D’autres rapports utilisant l’attribution linéaire continueront d’utiliser la méthode existante d’attribution linéaire.
 
 L’exemple suivant illustre la manière dont les mesures calculées avec attribution linéaire changeront dans les  de :
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Accès 1 </th> 
-   <th colname="col3" class="entry"> Accès 2 </th> 
-   <th colname="col4" class="entry"> Accès 3 </th> 
-   <th colname="col5" class="entry"> Accès 4 </th> 
-   <th colname="col6" class="entry"> Accès 5 </th> 
-   <th colname="col7" class="entry"> Accès 6 </th> 
-   <th colname="col8" class="entry"> Accès 7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Données envoyées dans </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> N/A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> N/A </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>eVar Dernière touche </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> PROMO B </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>eVar Première touche </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> PROMO A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO A </td> 
-   <td colname="col6"> PROMO A </td> 
-   <td colname="col7"> PROMO A </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Exemple de prop </p> </td> 
-   <td colname="col2"> PROMO A </td> 
-   <td colname="col3"> N/A </td> 
-   <td colname="col4"> PROMO A </td> 
-   <td colname="col5"> PROMO B </td> 
-   <td colname="col6"> N/A </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Accès 1 | Accès 2 | Accès 3 | Accès 4 | Accès 5 | Accès 6 | Accès 7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| Données envoyées dans | PROMO A | N/A | PROMO A | PROMO B | N/A | PROMO C | $10 |
+| eVar Dernière touche | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
+| eVar Première touche | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
+| Exemple de prop | PROMO A | N/A | PROMO A | PROMO B | N/A | PROMO C | $10 |
 
 Dans cet exemple, les valeurs A, B et C ont été envoyées dans une variable sur les accès 1, 3, 4 et 6 avant qu’un achat de 10 euros ne soit effectué sur l’accès 7. Sur la deuxième ligne, ces valeurs persistent sur l’ensemble des accès lors d’une visite Dernière touche. La troisième ligne illustre une persistance de visite Première touche. Enfin, la dernière ligne illustre comment les données seraient enregistrées pour une prop qui n’a pas de persistance.
+
+## Différences entre le fonctionnement de l’attribution linéaire dans les rapports et analyses et l’espace de travail
+
+Il existe des différences dans le fonctionnement de l’attribution linéaire entre ces deux outils :
+
+* Dans les rapports et analyses, l’attribution linéaire (traitée) est toujours basée sur les visites, tandis que dans Workspace, elle peut être basée sur les visites ou les.
+* Dans les rapports et analyses, si aucune valeur n’était transmise au premier accès d’une visite, la valeur (initiale) persistait à partir de la visite précédente. Ceci n’est PAS le cas dans Workspace (QI d’attribution). Si aucune valeur n’est transmise au premier accès d’une visite, &quot;Aucun&quot; est la valeur initiale.
 
 ## Fonctionnement de l&#39;attribution linéaire avant juillet 2018
 
