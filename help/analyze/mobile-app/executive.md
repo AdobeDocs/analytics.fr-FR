@@ -1,21 +1,21 @@
 ---
-description: Instructions de configuration des Fiches d’évaluation pour l’application mobile.
-title: Guide du curateur pour l’application mobile Adobe Analytics
-translation-type: ht
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+description: Instructions relatives à l’utilisation des cartes de performance .
+title: Guide de l’ d’Adobe Analytics
+translation-type: tm+mt
+source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
 
 ---
 
 
-# Application mobile Analytics : guide de démarrage rapide de l’utilisateur en charge de l’exécution
+# Adobe Analytics  : guide de  rapide pour les utilisateurs cadres
 
 ## Introduction
 
-L’application mobile Adobe Analytics fournit des insights d’Adobe Analytics à tout moment, où que vous soyez.  L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
+Le Adobe Analytics  fournit des informations à tout moment et en tout lieu à partir d’Adobe Analytics.  L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Les  sont pris en charge sur les systèmes d’exploitation iOS et Android.
 
 ## À propos de ce guide
 
-L’objectif de ce guide est d’aider les utilisateurs en charge de l’exécution à lire et à interpréter les Fiches d’évaluation de l’application mobile Analytics. L’application permet aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles.
+Ce guide a pour but d’aider les utilisateurs de la direction à lire et à interpréter les tableaux de bord sur les  d’Analytics. L’application permet aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles.
 
 ## Glossaire terminologique
 
@@ -24,30 +24,30 @@ L’objectif de ce guide est d’aider les utilisateurs en charge de l’exécut
 | Consommateur | Personne en charge de l’exécution affichant les mesures clés et les insights d’Analytics sur un appareil mobile |
 | Curateur | Personne possédant des compétences en littératie des données qui découvre et distribue des insights d’Analytics et configure les Fiches d’évaluation que verra le consommateur |
 | Traitement | L’acte de création ou de modification d’une Fiche d’évaluation mobile contenant des mesures, des dimensions ainsi que d’autres composants pertinents pour le consommateur |
-| Fiche d’évaluation | Un affichage dans l’application mobile contenant une ou plusieurs mosaïques |
+| Fiche d’évaluation | Un   contenant une ou plusieurs mosaïques |
 | Mosaïque | Un rendu d’une mesure dans un affichage de la Fiche d’évaluation |
 | Ventilation | Un affichage secondaire accessible en appuyant sur une mosaïque de la Fiche d’évaluation. Cet affichage étend la mesure affichée sur la mosaïque et peut de manière facultative gérer des dimensions de ventilation supplémentaires. |
-| Période | La période principale du rapport dans l’application mobile |
+| Période | Plage de dates principale pour   |
 | Période de comparaison | La période comparée à la période principale |
 
-## Configurer l’application sur votre appareil
+## Obtenir des  configurés sur votre périphérique
 
-Pour utiliser efficacement l’application, vous devrez demander l’aide de votre curateur de Fiches d’évaluation pour la configurer. Cette section fournit des informations pour vous aider à la configurer avec l’aide de votre curateur.
+Pour utiliser le efficacement, vous devez disposer de l’aide de votre conservateur Scorecard pour le configurer. Cette section fournit des informations pour vous aider à la configurer avec l’aide de votre curateur.
 
 ### Obtenir l’accès
 
-Pour accéder aux Fiches d’évaluation sur l’application, assurez-vous que :
+Pour accéder aux Scorecards sur , assurez-vous que :
 
 * vous disposez d’identifiants de connexion valides à Adobe Analytics ;
 * votre curateur a créé correctement les Fiches d’évaluation mobiles et les a partagées avec vous.
 
-### Télécharger et installer l’application
+### Téléchargement et installation des  de
 
 Pour télécharger et installer l’application, suivez les étapes correspondant au système d’exploitation de votre appareil.
 
 **Pour les appareils iOS :**
 
-1. Cliquez sur le lien public suivant (celui-ci est également disponible dans Analytics dans **Outils** > **Application mobile**) :
+1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
 
    [Lien iOS](https://testflight.apple.com/join/WtXMQxlI) : `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -57,13 +57,13 @@ Pour télécharger et installer l’application, suivez les étapes correspondan
 
 2. Appuyez sur le lien **Afficher dans l’App Store** à l’écran pour télécharger l’application Testflight.
 
-3. Une fois que vous avez installé l’application Testflight, cherchez et installez l’application mobile Adobe Analytics depuis Testfilght comme illustré ci-dessous :
+3. Après avoir installé l’application Testflight, recherchez et installez le Adobe Analytics  depuis Testflight, comme illustré ci-dessous :
 
    ![Écran Testflight](assets/testflight2.png)
 
 **Pour les appareils Android :**
 
-1. Appuyez sur le lien Play Store suivant sur l’appareil de l’utilisateur (celui-ci se trouve également dans Analytics dans **Outils** > **Application mobile**) :
+1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp) : `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -76,15 +76,15 @@ Pour télécharger et installer l’application, suivez les étapes correspondan
 
    ![Lien de téléchargement](assets/playnext.png)
 
-## Utiliser l’application
+## Utiliser 
 
-Pour utiliser l’application :
+Pour utiliser les  de :
 
-1. Connectez-vous à l’application. L’écran de connexion apparaîtra au lancement de l’application. Suivez les instructions et utilisez vos informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
+1. Connectez-vous à l’application. L’écran de connexion s’affiche au lancement du. Suivez les instructions et utilisez vos informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
 
    ![Séquence de connexion](assets/signseq.png)
 
-2. Choisissez une entreprise. Lorsque vous êtes connecté à l’application, l’écran **Choisir une entreprise** apparaît. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
+2. Choisissez une entreprise. After you sign into dashboards, the **Choose a company** screen appears. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
 
 3. La liste de Fiches d’évaluation affiche ensuite toutes les Fiches d’évaluation partagées avec vous. Appuyez sur la Fiche d’évaluation que vous souhaitez afficher.
 
@@ -129,7 +129,7 @@ Pour utiliser l’application :
 
 8. Laisser un commentaire. Pour laisser un commentaire :
 
-   1. Appuyez sur l’icône utilisateur en haut à droite de l’écran de l’application.
+   1. Appuyez sur l’icône de l’utilisateur dans l’angle supérieur droit de l’écran de  du.
    2. Sur l’écran **Mon compte**, appuyez sur l’option **Commentaires**.
    3. Appuyez pour afficher les options permettant de laisser un commentaire.
    ![Laisser un commentaire](assets/feedback.png)
