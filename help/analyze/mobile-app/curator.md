@@ -1,44 +1,44 @@
 ---
-description: Instructions de configuration des Fiches d’évaluation pour l’application mobile.
-title: Guide du curateur pour l’application mobile Adobe Analytics
+description: Instructions pour configurer les cartes de performance  des.
+title: Guide de l’administrateur de  d’Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
+source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
 
 ---
 
 
 
-# BÊTA : Guide du curateur pour l’application mobile Analytics
+# BETA : Guide du conservateur pour les  d’Adobe Analytics
 
 
 ## Introduction
 
-L’application mobile Adobe Analytics fournit des insights d’Adobe Analytics à tout moment, où que vous soyez.   L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives, que vous créez et partagez à partir de l’interface utilisateur de bureau d’Adobe Analytics. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Vous pouvez personnaliser les Fiches d’évaluation en fonction des données qui comptent le plus pour vous. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
+Le Adobe Analytics  fournit des informations à tout moment et en tout lieu à partir d’Adobe Analytics. L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives, que vous créez et partagez à partir de l’interface utilisateur de bureau d’Adobe Analytics. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Vous pouvez personnaliser les Fiches d’évaluation en fonction des données qui comptent le plus pour vous. Les  Analytics sont prises en charge sur les systèmes d’exploitation iOS et Android.
 
 ## À propos de ce guide
 
-L’objectif de ce guide est d’aider les curateurs de données Adobe Analytics à configurer des Fiches d’évaluation pour les utilisateurs en charge de l’exécution sur l’application mobile Analytics. Les curateurs peuvent être des administrateurs de l’entreprise ou des personnes occupant d’autres rôles chargés de configurer des Fiches d’évaluation dans l’application qui permettent aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles. Bien que les utilisateurs en charge de l’exécution soient les utilisateurs finaux de l’application mobile Analytics, ce guide aidera les curateurs de données à configurer efficacement l’application pour ces utilisateurs.
+Ce guide a pour but d’aider les responsables de la configuration des données Adobe Analytics à configurer des feuilles de performance pour leurs utilisateurs de la  Analytics. Les curateurs peuvent être des administrateurs de l’entreprise ou des personnes occupant d’autres rôles chargés de configurer des Fiches d’évaluation dans l’application qui permettent aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles. Bien que les administrateurs soient les utilisateurs finaux des  de Analytics, ce guide aidera les gestionnaires de données à configurer l’application de manière efficace pour ces utilisateurs.
 
 
 ## Glossaire terminologique
 
-Le tableau suivant décrit les termes nécessaires à la compréhension de l’audience, des fonctionnalités et du fonctionnement de l’application mobile Analytics.
+Le tableau ci-dessous décrit les termes permettant de comprendre le  , les fonctions et le fonctionnement du Analytics.
 
 | Terme | Définition |
 |--- |--- |
 | Consommateur | Personne en charge de l’exécution affichant les mesures clés et les insights d’Analytics sur un appareil mobile |
 | Curateur | Personne possédant des compétences en littératie des données qui découvre et distribue des insights d’Analytics et configure les Fiches d’évaluation que verra le consommateur |
-| Traitement | L’acte de création ou de modification d’une Fiche d’évaluation mobile contenant des mesures, des dimensions ainsi que d’autres composants pertinents pour le consommateur |
-| Fiche d’évaluation | Un affichage dans l’application mobile contenant une ou plusieurs mosaïques |
+| Traitement | Acte de création ou de modification d’une carte de performance mobile contenant les mesures, dimensions et autres composants pertinents pour le consommateur |
+| Fiche d’évaluation | Un   contenant une ou plusieurs mosaïques |
 | Mosaïque | Un rendu d’une mesure dans un affichage de la Fiche d’évaluation |
 | Ventilation | Un affichage secondaire accessible en appuyant sur une mosaïque de la Fiche d’évaluation. Cet affichage étend la mesure affichée sur la mosaïque et peut de manière facultative gérer des dimensions de ventilation supplémentaires. |
-| Période | La période principale du rapport dans l’application mobile |
+| Période | Plage de dates principale pour   |
 | Période de comparaison | La période comparée à la période principale |
 
  
 ## Créer une Fiche d’évaluation à destination des utilisateurs en charge de l’exécution dans l’application
 
-Une Fiche d’évaluation mobile affiche les visualisations de données principales pour les utilisateurs en charge de l’exécution dans l’application sous la forme d’une mosaïque comme indiqué ci-dessous :
+Une Fiche d’évaluation affiche les visualisations de données principales pour les utilisateurs en charge de l’exécution dans l’application sous la forme d’une mosaïque comme indiqué ci-dessous :
 
 
 ![Exemple de Fiche d’évaluation](assets/intro_scorecard.png)
@@ -79,7 +79,7 @@ Depuis l’écran **Projets**, dans l’onglet **Composants**, cliquez sur le bo
 
 **Utilisation des outils Analytics**
 
-Dans Analytics, cliquez sur le menu **Outils**, puis sélectionnez **Application mobile**. Sur l’écran suivant, cliquez sur le bouton **Créer une Fiche d’évaluation**.
+In Analytics, click the **Tools** menu and select **dashboards**. Sur l’écran suivant, cliquez sur le bouton **Créer une Fiche d’évaluation**.
 
 ### Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
 
@@ -149,7 +149,7 @@ Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exé
 ![Share_Scorecards](assets/new_share.png)
 
 
-Après avoir partagé une Fiche d’évaluation, vos destinataires peuvent y accéder depuis leur application mobile Analytics. Si, par la suite, vous apportez des modifications à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, celles-ci seront mises à jour automatiquement dans la Fiche d’évaluation que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
+Une fois que vous avez partagé une carte de performance, vos peuvent y accéder sur leur  Analytics. Si, par la suite, vous apportez des modifications à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, celles-ci seront mises à jour automatiquement dans la Fiche d’évaluation que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
 
 *Remarque : si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous pouvez vouloir partager à nouveau la Fiche d’évaluation (et cocher l’option **Partager automatiquement les composants incorporés avec les destinataires**) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.*
 
@@ -175,7 +175,7 @@ Pendant la phase de bêta et avant que l’application ne soit dévoilée au pub
 
    **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-   1. Cliquez sur le lien public suivant (celui-ci est également disponible dans Analytics dans **Outils** > **Application mobile**) :
+   1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
 
       [Lien iOS](https://testflight.apple.com/join/WtXMQxlI) : `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -185,13 +185,12 @@ Pendant la phase de bêta et avant que l’application ne soit dévoilée au pub
 
    2. Appuyez sur le lien **Afficher dans l’App Store** à l’écran pour télécharger l’application Testflight.
 
-   3. Une fois que vous avez installé l’application Testflight, cherchez et installez l’application mobile Adobe Analytics depuis Testfilght comme illustré ci-dessous :
+   3. Après avoir installé l’application Testflight, recherchez et installez le Adobe Analytics  depuis Testflight, comme indiqué ci-dessous :
 
       ![Écran Testflight](assets/testflight2.png)
-
    **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-   1. Appuyez sur le lien Play Store suivant sur l’appareil de l’utilisateur (celui-ci se trouve également dans Analytics dans **Outils** > **Application mobile**) :
+   1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp) : `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Après avoir appuyé sur le lien, appuyez sur le lien Devenir testeur sur l’écran suivant :
