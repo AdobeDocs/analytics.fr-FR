@@ -4,14 +4,14 @@ title: Publication de segments dans Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: f516be8395f7e7c0398f1ebb1d1e019e905d67ee
+source-git-commit: 3b7e79cf26c8dccd9c8090df48a556419995ebd7
 
 ---
 
 
 # Publication de segments dans Experience Cloud
 
-Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. Les mises à jour récentes ont considérablement optimisé le processus de publication. Vous pouvez désormais publier des segments Analytics dans Experience Cloud en moins de 8 heures. Utilisez ces segments pour activer   de dans le Gestionnaire de de  vers toutes les destinations en aval.
+La publication d’un segment Adobe Analytics dans Experience Cloud vous permet d’utiliser ce segment pour le marketing   dans [!DNL Audience Manager] et dans d’autres  de, y compris Adobe [!DNL Advertising Cloud], [!DNL Target] et [!DNL Campaign]. Les mises à jour récentes ont considérablement optimisé le processus de publication. Vous pouvez désormais publier des segments Analytics dans Experience Cloud en moins de 8 heures. Utilisez ces segments pour activer   de dans le Gestionnaire de de  vers toutes les destinations en aval.
 
 Nous avons également porté à 75 le nombre maximum de segments Adobe Analytics publiables (contre 20). Vous pouvez  segments publiés dans [!UICONTROL Analytics > Components > Segments].
 
