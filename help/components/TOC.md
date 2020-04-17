@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -38,12 +38,10 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
    + Cas d’utilisation {#use-cases}
       + [Exclure des dates spécifiques](c-segmentation/use-cases/exclude-date-range.md)
    + [Questions fréquentes](c-segmentation/seg-transition.md)
-   + [Nouveautés de la segmentation dans Analytics](c-segmentation/whats-new-segmentation.md)
+   + [Nouveautés de la segmentation Analytics](c-segmentation/whats-new-segmentation.md)
    + [Guide de transition relatif aux Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Mesures calculées {#calculated-metrics}
-   + [Mesures calculées ou calculées avancées (dérivées)](c-calcmetrics/cm-overview.md)
-   + [Questions fréquentes](c-calcmetrics/cm-transition.md)
-   + [Vidéos pratiques](c-calcmetrics/cm-videos.md)
+   + [Mesures calculées et avancées (dérivées)](c-calcmetrics/cm-overview.md)
    + Workflow des mesures calculées {#calcmetric-workflow}
       + [Workflow des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Recherche de mesures](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -66,6 +64,9 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
       + [Compatibilité des mesures](c-calcmetrics/cm-compatibility.md)
       + [Mesures calculées : droits en fonction du rôle](c-calcmetrics/cm-role-based-rights.md)
       + [Totaux des mesures calculées](c-calcmetrics/cm-totals.md)
+   + [Dériver les données affectées par les](c-calcmetrics/cm-events.md)
+   + [Questions fréquentes](c-calcmetrics/cm-transition.md)
+   + [Vidéos pratiques](c-calcmetrics/cm-videos.md)
 + Suites de rapports virtuelles {#virtual-report-suites}
    + [Suites de rapports virtuelles - Aperçu](vrs/vrs-about.md)
    + [Traitement des composants des suites de rapports virtuelles](vrs/vrs-components.md)
