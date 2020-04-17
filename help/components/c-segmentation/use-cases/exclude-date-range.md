@@ -2,16 +2,14 @@
 title: 'Exclure des dates spécifiques dans  '
 description: Conseils pour exclure les dates ou les plages de dates si vous ne souhaitez pas les inclure dans les rapports.
 translation-type: tm+mt
-source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
+source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 ---
 
 
 # Exclure des dates spécifiques dans  
 
-Il arrive qu’une plage de dates contienne des données que vous ne souhaitez pas analyser. Par exemple, un robot envoie un accès aberrant contenant un montant de recettes incorrect, ce qui gonfle considérablement la mesure. Si votre site a rencontré des problèmes d’implémentation ou d’autres lacunes dans les données, vous pouvez l’exclure des  pour éviter de prendre des décisions sur des données partielles.
-
-Vous pouvez utiliser un segment pour exclure les plages de dates que vous ne souhaitez pas inclure dans vos rapports.
+Si des données sont [affectées par une](/help/technotes/event-impacted.md), vous pouvez utiliser un segment pour exclure les plages de dates que vous ne souhaitez pas inclure dans vos rapports. La segmentation des dates affectées par les  peut empêcher votre entreprise de prendre des décisions sur des données partielles.
 
 ## Isoler les jours affectés
 
@@ -67,15 +65,3 @@ Vous pouvez utiliser le segment dans une suite [de rapports](../../vrs/vrs-about
 5. Cliquez sur **[!UICONTROL Continue]** dans l’angle supérieur droit, puis sur **[!UICONTROL Save]**.
 
 ![Segment appliqué à VRS](../assets/exclude_segment_vrs.png)
-
-## Alternatives dans d’autres outils
-
-Si vous utilisez les rapports et analyses, vous pouvez utiliser un de [calendrier](../../t-calendar-event.md) pour mettre en évidence les jours affectés dans n’importe quel rapport de tendances.
-
->[!NOTE] Cette méthode ne s’applique pas à   Workspace.
-
-1. Accédez à **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Entrez le titre, la plage de dates et le texte de la note de votre choix.
-3. Cliquez sur **[!UICONTROL Save]**.
-
-![de calendrier](../assets/exclude_calendar_event.jpg)
