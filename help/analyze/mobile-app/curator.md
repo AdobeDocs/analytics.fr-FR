@@ -188,6 +188,7 @@ Pendant la phase de bêta et avant que l’application ne soit dévoilée au pub
    3. Après avoir installé l’application Testflight, recherchez et installez le Adobe Analytics  depuis Testflight, comme indiqué ci-dessous :
 
       ![Écran Testflight](assets/testflight2.png)
+   
    **Pour les utilisateurs en charge de l’exécution sur Android :**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
