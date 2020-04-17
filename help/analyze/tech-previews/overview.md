@@ -2,7 +2,7 @@
 title: Guide d’utilisation de Labs
 description: Prévisualiser des projets de prototype pour Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
+source-git-commit: 5209751a8b771b92f82bab9b170ac76a077e4b87
 
 ---
 
@@ -52,7 +52,7 @@ Pour lancer et évaluer un prototype :
 
 1. Cliquez sur le bouton **Laisser un commentaire** si vous souhaitez, à tout moment, nous faire part de vos commentaires dans la zone de message lorsque vous travaillez avec le prototype.
 
-   ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
+   ![feedback_box](assets/give_feedback.png)
 
 1. Cliquez sur **Soumettre** pour envoyer vos commentaires.
 
