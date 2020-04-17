@@ -2,7 +2,7 @@
 title: 'Analyser les données affectées par les '
 description: Comprenez comment les données affectées par un  contribuent à la qualité globale des données.
 translation-type: tm+mt
-source-git-commit: e3360e15de14f594e62b4be6316f8b095091ec1f
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -13,7 +13,7 @@ Il arrive qu’un ait un impact sur la qualité des données de votre entreprise
 
 * Un robot qui envoie des données plus anciennes, telles que des millions de dollars de recettes
 * Votre entreprise a envoyé une mise à jour de votre site Web qui a eu un impact négatif sur votre implémentation Analytics.
-* Les pannes qui affectent la qualité du serveur, soit du côté de votre entreprise, soit du côté d’Adobe
+* Autres problèmes affectant la qualité ou l’exhaustivité des données
 
 Si votre site a rencontré des problèmes de qualité des données, de mise en oeuvre ou d’autres lacunes dans les données, vous pouvez l’exclure du afin d’éviter de prendre des décisions sur des données partielles. Utilisez ces sections pour évaluer l’impact du sur vos données et déterminer comment vous souhaitez procéder.
 
