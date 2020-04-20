@@ -2,7 +2,7 @@
 title: 'Analyser les données affectées par les '
 description: Comprenez comment les données affectées par un  contribuent à la qualité globale des données.
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 
 ---
 
@@ -25,16 +25,10 @@ Adobe Analytics  un moyen simple et robuste de se concentrer sur ou d’exclure 
 
 Si vous souhaitez en savoir plus sur l’impact d’un sur vos données au fil du temps, vous pouvez utiliser la comparaison de dates dans  Workspace. Cette fonctionnalité vous permet de comparer les données jour par jour, semaine par semaine ou mois par mois pour comparer les plages précédentes. Vous pouvez ensuite utiliser cette comparaison pour déterminer l’impact d’un  sur les tendances. Voir [Comparaison des dates affectées par un aux plages](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) précédentes dans le guide de l’utilisateur Analyser.
 
-## Corriger les données de tendances à l’aide de mesures calculées
+## Dériver des données à l’aide de mesures calculées
 
 Une fois que vous avez créé des segments et utilisé la comparaison de dates, vous pouvez combiner ces deux concepts pour corriger les données de tendances à l’aide de mesures calculées. Incluez les segments dans une mesure calculée, puis multipliez les jours affectés par le décalage trouvé lors de la comparaison des dates. Voir [Dériver les données affectées par les](/help/components/c-calcmetrics/cm-events.md) dans le guide de l’utilisateur Composants.
 
-## Utilisation d’un de calendrier dans les rapports et analyses
+## Communiquer l’impact aux utilisateurs de votre entreprise
 
-Si vous utilisez les rapports et analyses, vous pouvez utiliser un de [calendrier](/help/components/t-calendar-event.md) pour mettre en évidence les jours affectés dans n’importe quel rapport de tendances. Cette méthode ne s’applique pas à   Workspace.
-
-1. Accédez à **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Entrez le titre, la plage de dates et le texte de la note de votre choix.
-3. Cliquez sur **[!UICONTROL Save]**.
-
-![de calendrier](assets/exclude_calendar_event.jpg)
+Une fois que vous êtes prêt à gérer un  de, vous pouvez [communiquer avec les utilisateurs de votre organisation](event/event-communicate.md). Adobe  plusieurs emplacements  dans Analytics où vous pouvez placer du texte pour communiquer aux utilisateurs ce qui s’est passé et les composants qu’ils peuvent utiliser.
