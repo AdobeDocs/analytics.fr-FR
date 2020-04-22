@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 77b126b2add78113c266265f413240f27f89bced
+source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: 77b126b2add78113c266265f413240f27f89bced
    + Panneaux {#panels}
       + [Panneaux - Aperçu](analysis-workspace/c-panels/panels.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
-      + [Créateur d’informations rapide](analysis-workspace/c-panels/quickinsight.md)
+      + [Créateur de rapports rapides](analysis-workspace/c-panels/quickinsight.md)
       + Attribution {#attribution}
          + [Présentation des attributs](analysis-workspace/c-panels/attribution/attribution.md)
          + [Utilisation du panneau Attribution](analysis-workspace/c-panels/attribution/use-attribution.md)
