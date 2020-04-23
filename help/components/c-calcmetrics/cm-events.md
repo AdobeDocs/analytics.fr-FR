@@ -2,14 +2,14 @@
 title: 'Dériver les données affectées par les '
 description: Utilisez les mesures calculées pour corriger les données de tendance affectées par un .
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
 
 ---
 
 
 # Dériver les données affectées par les 
 
-Si des données sont [affectées par une](/help/technotes/event-impacted.md), vous pouvez utiliser des mesures calculées pour dériver des valeurs de tendance pour la durée du . Si, par exemple, vous avez eu un  qui a provoqué une baisse de 25 % des données, vous pouvez l’utiliser comme multiplicateur dans une mesure calculée.
+Si des données sont [affectées par une](/help/technotes/event-impacted.md), vous pouvez utiliser des mesures calculées pour dériver des valeurs de tendance pour la durée du . Si, par exemple, vous avez eu un  qui a provoqué une baisse de 25 % des données, vous pouvez l’utiliser comme multiplicateur dans une mesure calculée. Cette méthode est utile si vous ne disposez pas du temps ni des ressources nécessaires pour insérer des données dans Adobe Analytics à l’aide de sources [de](/help/import/c-data-sources/datasrc-home.md) données ou de l’API [d’insertion de](/help/import/c-data-insertion-api/c-data-insertion-api.md)données.
 
 >[!NOTE] Ces étapes fonctionnent mieux lorsque vous comprenez l’impact d’un , à la fois du point de vue de la segmentation et de la comparaison de dates. Veillez à suivre la [comparaison des dates affectées par un aux plages](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) précédentes et à [exclure des dates spécifiques dans](../c-segmentation/use-cases/exclude-date-range.md) avant de suivre cette page.
 
