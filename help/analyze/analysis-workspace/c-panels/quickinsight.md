@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Créateur de rapports rapides
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ---
 
@@ -59,7 +59,6 @@ Voici quelques-uns des termes de base que vous devez connaître. Chaque tableau 
 
    * Tableau à structure libre avec la dimension (ici, Etats-Unis) verticalement et la mesure (ici, Visites) horizontalement en haut. Consultez ce tableau :
    ![](assets/qibuilder3.png)
-
 
    * Visualisation connexe, dans ce cas un graphique à [barres](/help/analyze/analysis-workspace/visualizations/bar.md). La visualisation qui est générée dépend du type de données que vous avez ajoutées au tableau. Vous pouvez modifier le type de visualisation en cliquant sur la flèche déroulante en regard de **[!UICONTROL Bar]**.
 
