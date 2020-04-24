@@ -15,18 +15,18 @@ Le gestionnaire de requêtes permet d’afficher, de dupliquer et de reclasser p
 
 Dans l’entrepôt de données, sélectionnez l’ **[!UICONTROL Request Manager]** onglet.
 
-L’utilisation de cet onglet vous permet de
+L’utilisation de cet onglet permet :
 
-*  demandes de rapport récentes par nom de rapport, segment appliqué, demandeur, date et état de la demande.
-* demandes . Cliquez **[!UICONTROL Duplicate]** en regard de la requête.
+* D’afficher les requêtes de rapports récentes par nom de rapport, segment appliqué, demandeur et date et statut de la demande.
+* De dupliquer les requêtes. Click **[!UICONTROL Duplicate]** next to the request.
 
    >[!NOTE]
    >
    >Cette action ne duplique que la requête, pas les détails de planification ou de diffusion.
 
-* Recherchez les rapports par nom de rapport ou par nom de connexion du demandeur.
-* Redéfinissez la priorité des rapports en les faisant glisser vers un nouvel emplacement de la file d’attente.
-* Pour savoir quand une requête a commencé à être traitée, cliquez sur un ID de requête planifiée et examinez la fenêtre contextuelle qui s’ouvre.
+* De rechercher des rapports par nom de rapport ou par nom de connexion du demandeur.
+* De reclasser les rapports par priorité en les faisant glisser et en les déposant à un nouvel emplacement dans la file d’attente.
+* Pour savoir à quel moment a commencé le traitement d’une demande, cliquez sur un ID de demande planifiée et observez la fenêtre contextuelle qui s’ouvre.
 
 >[!NOTE] Pour annuler une requête Data Warehouse, [suivez ces étapes](https://helpx.adobe.com/fr/analytics/kb/cancel-data-warehouse-requests.html).
 
