@@ -2,7 +2,7 @@
 title: 'Analyser les données affectées par les '
 description: Comprenez comment les données affectées par un  contribuent à la qualité globale des données.
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -32,3 +32,9 @@ Une fois que vous avez créé des segments et utilisé la comparaison de dates, 
 ## Communiquer l’impact aux utilisateurs de votre entreprise
 
 Une fois que vous êtes prêt à gérer un  de, vous pouvez [communiquer avec les utilisateurs de votre organisation](event/event-communicate.md). Adobe  plusieurs emplacements  dans Analytics où vous pouvez placer du texte pour communiquer aux utilisateurs ce qui s’est passé et les composants qu’ils peuvent utiliser.
+
+## Vidéo
+
+Cette vidéo décrit chacune des étapes ci-dessus.
+
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
