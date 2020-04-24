@@ -2,7 +2,7 @@
 title: Communiquer l’impact aux utilisateurs
 description: Découvrez des moyens efficaces de communiquer l'impact d'un  dans votre entreprise.
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -31,4 +31,4 @@ Si vous utilisez les rapports et analyses, vous pouvez utiliser un de [calendrie
 2. Entrez le titre, la plage de dates et le texte de la note de votre choix.
 3. Cliquez sur **[!UICONTROL Save]**.
 
-![de calendrier](../assets/exclude_calendar_event.jpg)
+![de calendrier](../assets/exclude_calendar_event.png)
