@@ -1,7 +1,7 @@
 ---
 title: Interface utilisateur du flux de données
 description: Découvrez comment naviguer dans l’interface de flux de données.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -15,7 +15,7 @@ Pour accéder à la gestion des flux de données, procédez comme suit :
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Cliquez sur le menu à 9 cases en haut à droite, puis sur [!UICONTROL Analytics].
-3. Dans le menu supérieur, cliquez sur [!UICONTROL Admin] > [!UICONTROL Flux de données].
+3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
 
 ![Menu du flux de données](assets/AdminMenu.png)
 
@@ -25,7 +25,7 @@ Lorsque vous atteignez la page du gestionnaire des flux de données, l’interfa
 
 ![Flux de données](assets/feeds.png)
 
-Si aucun flux n’a été défini, la page affiche un bouton [!UICONTROL Créer un flux de données].
+Si aucun flux n’a été configuré, la page affiche un [!UICONTROL Create New Data Feed] bouton.
 
 ### Filtres et recherches
 
@@ -45,7 +45,7 @@ Cliquez sur l’onglet Tâche pour afficher les tâches individuelles créées p
 
 ### Ajouter
 
-Cliquez sur le bouton + [!UICONTROL Ajouter] à proximité des onglets des flux et des tâches pour créer un nouveau flux. Pour plus d’informations, reportez-vous à [Ajouter un flux](create-feed.md).
+Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. Pour plus d’informations, reportez-vous à [Ajouter un flux](create-feed.md).
 
 ### Colonnes
 
@@ -78,7 +78,7 @@ Chaque flux créé affiche plusieurs colonnes fournissant des informations la co
 Cochez la case en regard d’un flux de données pour afficher les actions possibles.
 
 * **Historique des tâches** : affiche toutes les tâches liées à ces flux de données. Vous emmène automatiquement à l’[interface de gestions des tâches](df-manage-jobs.md).
-* **Supprimer** : supprime le flux de données et définit son statut sur [!UICONTROL Supprimé].
+* **Supprimer**: Supprime le flux de données, en définissant son état sur [!UICONTROL Deleted].
 * **Copier** : vous permet de [créer un nouveau flux](create-feed.md) avec tous les paramètres du flux actuel. Si plusieurs flux sont sélectionnés, il n’est pas possible de copier.
-* **Pause** : arrête le traitement de ce flux et définit son statut sur [!UICONTROL Inactif].
+* **Pause**: Arrête le traitement du flux, en définissant son état sur [!UICONTROL Inactive].
 * **Activer** : disponible uniquement pour les flux inactifs. Récupère les données de traitement là où elles ont été laissées en renvoyant des dates lorsque cela est nécessaire.
