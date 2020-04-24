@@ -3,7 +3,7 @@ description: SFTP est un protocole sécurisé de transfert des données, grâce 
 keywords: ftp;sftp
 title: Protocole de transfert de fichiers sécurisé - Aperçu
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
