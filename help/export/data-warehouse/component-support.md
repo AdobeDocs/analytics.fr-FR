@@ -52,8 +52,8 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
    * Détail des accès
    * Fréquence des retours
    * Durée avant événement
-   * Durée de consultation de la page – Regroupement
-   * Durée par visite – Regroupement
+   * Durée de consultation de la page – Regroupement
+   * Durée par visite – Regroupement
    * Profondeur de visite
 * Classement de toutes les pages de recherche
 * Variables de hiérarchie
@@ -62,7 +62,7 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
 * Recherche payante
 * Visites sur une seule page
 * Suivi du motif d’exclusion
-* Etats américains
+* États américains
 
 ### Mesures non prises en charge
 
