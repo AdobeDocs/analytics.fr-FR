@@ -1,7 +1,7 @@
 ---
 title: Aide sur l’exportation dans Analytics
 description: valeur nulle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -24,7 +24,7 @@ Ce guide décrit comment extraire des données d’Adobe Analytics. Il inclut :
 
 ## Plus de guides de l’utilisateur Analytics
 
-[Guides de l’utilisateur Analytics](/help/landing/home.md)
+[Guides d’utilisation d’Analytics](/help/landing/home.md)
 
 ## Principales ressources Analytics
 
