@@ -3,7 +3,7 @@ description: Description des champs Paramètres du compte général d’une suit
 title: Paramètres du compte général
 topic: Admin tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fde56828eafad8b7668a854170cd9ee3a8c7ed6b
 
 ---
