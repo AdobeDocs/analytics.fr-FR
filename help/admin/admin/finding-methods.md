@@ -1,5 +1,5 @@
 ---
-description: La page Méthodes de recherche identifie comment divers rapports de méthodes de recherche reçoivent le crédit du de réussite de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
+description: La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
 title: Méthodes de recherche
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
@@ -11,27 +11,27 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Méthodes de recherche
 
-La page Méthodes de recherche identifie comment divers rapports de méthodes de recherche reçoivent le crédit du de réussite de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
+La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Méthodes de recherche]**.
 
 ## Description des méthodes de recherche {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
 <table id="table_8ABC1C9BD63F419082E4C4C69E401526"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Elément </th> 
+   <th colname="col1" class="entry"> Élément </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> Nom </td> 
-   <td colname="col2"> Méthode de recherche que vous souhaitez modifier </td> 
+   <td colname="col2"> Méthode de recherche que vous souhaitez modifier. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Attribution </td> 
-   <td colname="col2"> Indique comment appliquer le crédit d’une référence. Les options d’attribution prises en charge sont les suivantes : <p> <span class="uicontrol"> Le plus récent (Dernier) :</span> accorde tout le crédit au dernier référent (par défaut). </p> <p> <span class="uicontrol"> Valeur d’origine :</span> attribue tout le crédit au premier référent. </p> <p> <span class="uicontrol"> Linéaire :</span> répartit le crédit uniformément entre tous les référents. </p> </td> 
+   <td colname="col2"> Indique comment appliquer du crédit pour un renvoi. Les options d’affectation prises en charge sont les suivantes : <p> <span class="uicontrol"> Le plus récent (Dernier) :</span> accorde tout le crédit au dernier référent (par défaut). </p> <p> <span class="uicontrol"> Valeur d’origine :</span> attribue tout le crédit au premier référent. </p> <p> <span class="uicontrol"> Linéaire :</span> répartit le crédit uniformément entre tous les référents. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Expire après </td> 
@@ -52,5 +52,5 @@ La page Méthodes de recherche identifie comment divers rapports de méthodes de
  </tbody> 
 </table>
 
->[!NOTE] Toutes les méthodes de recherche expirent à la fin d’une visite. Si vous choisissez Expire après un autre  (par exemple, Passage en caisse), la méthode de recherche expire lorsque le Passage en caisse survient pendant la visite. Si aucun passage en caisse ne se produit pendant la visite, la méthode de recherche expire quand même à la fin de la visite.
+>[!NOTE] Toutes les méthodes de recherche expirent à la fin d’une visite. Si vous choisissez l’option d’expiration après un autre événement (le Passage en caisse, par exemple), la Méthode de recherche expire quand le Passage en caisse survient pendant la visite. Si le Passage en caisse ne se produit pas pendant la visite, la Méthode de recherche expire quand même à la fin de la visite.
 
