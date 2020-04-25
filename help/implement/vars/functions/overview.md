@@ -1,6 +1,6 @@
 ---
 title: Fonctions et méthodes
-description: Découvrez comment utiliser les fonctions et les méthodes qu’Adobe   dans votre implémentation.
+description: Découvrez comment utiliser les fonctions et méthodes proposées par Adobe dans votre mise en œuvre.
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
