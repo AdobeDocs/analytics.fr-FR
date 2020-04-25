@@ -51,8 +51,8 @@ Adobe  un modèle  pour afficher des données de performances interpériphériqu
 
 1. Accédez à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) et connectez-vous à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur l’icône à neuf grilles en haut de l’écran, puis sur Analytics.
-1. Cliquez [!UICONTROL Workspace] en haut, puis sur [!UICONTROL Create New Project].
-1. Localisez le &quot;Journey IQ: Modèle Analytics sur plusieurs périphériques, puis cliquez sur [!UICONTROL Create].
+1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
+1. Localisez le &quot;Journey IQ: Modèle Analytics sur plusieurs périphériques, puis cliquez sur [!UICONTROL Créer].
 1. Si vous y êtes invité, remplacez la suite de rapports par une suite prenant en charge CDA.
 
 Un projet   Workspace est créé, qui contient plusieurs panneaux. En haut, une table des matières et une introduction s’affichent, permettant ainsi le contexte du rapport et la navigation vers des rapports individuels. Cliquez sur un lien dans la table des matières ou développez l’accordéon d’un panneau pour ces rapports.
