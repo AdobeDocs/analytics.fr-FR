@@ -20,13 +20,13 @@ Les suites de rapports de cumul combinent les données de plusieurs suites de ra
 **Suite de rapports de cumul** : elle est créée dans les outils d’administration. Cette suite calcule la somme de chaque mesure à la fin de chaque journée.
 
 * Les cumuls sont gratuits et n’augmentent pas l’utilisation des appels au serveur.
-* Les cumuls fournissent des données totales, mais ne génèrent pas de rapports sur des valeurs individuelles. Par exemple, les valeurs eVar1 ne sont pas incluses, mais le total de ses  de  peut l’être.
+* Les cumuls fournissent des données totales, mais ne génèrent pas de rapports sur des valeurs individuelles. Ainsi, les valeurs eVar1 ne sont pas incluses, mais le total cumulé peut l’être.
 * Les données ne sont pas dédupliquées lorsqu’elles sont combinées dans des suites de rapports.
 * Les cumuls sont exécutés de nuit.
 * Lors de l’ajout d’une suite de rapports à un cumul existant, les données historiques ne sont pas intégrées au cumul.
-* Toutes les suites de rapports enfants doivent comporter des données pour qu’un cumul fonctionne. Si de nouvelles suites de rapports sont incluses dans un cumul, veillez à envoyer au moins un de page à ces suites de rapports.
-* Les suites de rapports de cumul sont limitées à un maximum de 40 suites enfants.
-* Les suites de rapports de cumul sont limitées à un maximum de 100 .
+* Toutes les suites de rapports affiliées doivent comporter des données pour qu’un cumul fonctionne. Si vous intégrez de nouvelles suites de rapports dans un cumul, veillez à leur envoyer au moins une page vue.
+* Les suites de rapports de cumul sont limitées à 40 suites enfants.
+* Les suites de rapports de cumul sont limitées à 100 événements.
 * Les données contenues dans les suites de rapports de cumul ne prennent pas en charge les répartitions ou les segments.
 * Le rapport Pages est remplacé par le rapport Sites les plus populaires, qui tient compte des mesures au niveau de la suite enfant.
 
@@ -38,9 +38,9 @@ Les suites de rapports de cumul combinent les données de plusieurs suites de ra
 
 **Modifications de l’implémentation** : les cumuls ne nécessitent aucune modification de l’implémentation, tandis que les suites de rapports globales nécessitent que vous incluiez l’identifiant de suite de rapports globale dans votre implémentation.
 
-**Duplication**: Les suites de rapports globales dédupliquent les uniques, contrairement aux cumuls. Par exemple, si un utilisateur visite trois de vos domaines le même jour, les cumuls comptabilisent trois uniques quotidiens. Les suites de rapports globales enregistreraient un unique.
+**Duplication** : contrairement aux cumuls, les suites de rapports globales dédupliquent les visiteurs uniques. Ainsi, si un utilisateur visite trois ou quatre de vos domaines le même jour, les cumuls comptabilisent trois visiteurs uniques par jour. Quant aux suites de rapports globales, elles n’en comptabilisent qu’un seul.
 
-**Période**: Les cumuls ne sont traités qu’à minuit chaque nuit, tandis que les suites de rapports globales génèrent des rapports de données avec une latence standard.
+**Période** : les cumuls ne sont traités qu’à minuit, tous les jours, alors que les suites de rapports globales génèrent des rapports sur les données avec une latence standard.
 
 **Étendue** : les cumuls n’offrent aucun moyen de communiquer entre les suites de rapports. Les suites de rapports globales peuvent non seulement allouer du crédit à des variables de conversion entre des suites de rapports, mais aussi fournir un cheminement entre les suites.
 
