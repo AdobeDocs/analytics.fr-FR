@@ -3,7 +3,7 @@ description: Dans le Gestionnaire de segments, le marquage de segments permet de
 title: Balisage des segments
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
