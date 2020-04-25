@@ -16,7 +16,7 @@ La fonction Alertes intelligentes permet de contrôler plus précisément les al
 
 ## Aperçu
 
-Les nouveaux Générateur d’alertes et Gestionnaire d’alertes dans  Espace de travail  remplacent la fonctionnalité d’alerte existante dans les Rapports et analyses. Grâce aux alertes intelligentes, vous pouvez :
+Les nouveaux Générateur d’alertes et Gestionnaire d’alertes d’Analysis Workspace remplacent la fonction des alertes des Reports &amp; Analytics. Grâce aux alertes intelligentes, vous pouvez :
 
 * créer des alertes d’après les anomalies (seuils de 90 %, 95 %, 99 %, 99,75 % et 99,90 % ; % de changement ; au-dessus/au-dessous) ;
 * prévisualiser le nombre de fois où une alerte sera déclenchée ;
