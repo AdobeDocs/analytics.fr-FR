@@ -15,7 +15,7 @@ La ligne &quot;Aucun&quot; est un élément fourre-tout qui représente toutes l
 
 **Pourquoi est-ce que je vois parfois des dates hors de mon créneau de rapport lors de l’utilisation de modèles d’attribution ?**
 
-Ces dates supplémentaires sont dues à l’intervalle de recherche en amont de rapport de visiteurs. Pour plus d’informations, voir [Données apparaissant hors du créneau de rapport](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) dans la base de connaissances d’Analytics. Adobe prévoit de filtrer ces rangées supplémentaires dans une prochaine version.
+Ces dates supplémentaires sont dues à l’intervalle de recherche en amont de rapport de visiteurs. Pour plus d’informations, voir [Données apparaissant hors du créneau de rapport](https://helpx.adobe.com/fr/analytics/kb/data-appearing-outside-reporting-window.html) dans la base de connaissances d’Analytics. Adobe prévoit de filtrer ces rangées supplémentaires dans une prochaine version.
 
 **Puis-je utiliser un intervalle de recherche en amont personnalisé avec mes modèles d’attribution ?**
 
@@ -45,7 +45,7 @@ Le panneau d’attribution prend en charge toutes les dimensions. Voici les mesu
 * Visites
 * Occurrences
 * Pages vues
-* Mesures A4T
+* Mesures d’A4T
 * Mesures de durée de la visite
 * Rebonds
 * Taux de rebond
