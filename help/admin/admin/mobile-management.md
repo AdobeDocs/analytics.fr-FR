@@ -3,7 +3,7 @@ description: L’application de la gestion mobile active les variables des solut
 title: Gestion mobile
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -56,7 +56,7 @@ Les classifications permettent de classer des valeurs dans des groupes et de gé
 |--- |--- |
 | Date du premier lancement | Date du premier lancement après installation ou réinstallation.   MM/JJ/AAAA |
 | ID application | Stocke le nom et la version de l’application au format suivant :   `[AppName] [BundleVersion]`  Par exemple : `myapp 1.1.` |
-| Nombre de lancements | Nombre de fois où l’application a été lancée ou mise en premier plan. |
+| Numéro de lancement | Nombre de fois où l’application a été lancée ou mise en premier plan. |
 | Jours depuis la première utilisation | Nombre de jours depuis la première exécution. |
 | Jours depuis la dernière utilisation | Nombre de jours depuis la dernière exécution. |
 | Heure du jour | Mesure l’heure de lancement de l’application suivant le format numérique de 24 heures. Utilisée pour le découpage temporel afin de déterminer les heures hautes d’utilisation. |
