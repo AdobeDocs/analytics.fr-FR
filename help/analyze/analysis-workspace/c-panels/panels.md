@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Panneaux - Aperçu
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -43,7 +43,7 @@ N’oubliez pas ce qui suit :
 
    ![](assets/dropdown.png)
 
-1. Sélectionnez l’une des options de la liste déroulante ci-dessous pour modifier les données du panneau. (Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Pas de filtre]**.)
+1. Sélectionnez l’une des options de la liste déroulante ci-dessous pour modifier les données du panneau. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
 1. Par exemple, si vous souhaitez également répartir les données par canal marketing, vous pouvez ajouter une autre liste déroulante appelée « Canal marketing » :
 
    ![](assets/mc_dropdown.png)
