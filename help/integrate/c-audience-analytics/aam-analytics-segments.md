@@ -2,7 +2,7 @@
 description: Analytics et Audience Manager utilisent tous deux les segments. Cependant, un segment Analytics ne représente pas exactement la même chose qu’un segment Audience Manager. Ces différences contribuent en partie aux incohérences que vous constaterez dans vos rapports Analytics et Audience Manager. C’est pourquoi il est important et utile d’essayer de comprendre ces différences lorsque vous commencerez à travailler avec les segments dans ces deux solutions.
 title: Présentation des segments dans Analytics et Audience Manager
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
