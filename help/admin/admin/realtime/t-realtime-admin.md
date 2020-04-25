@@ -3,7 +3,7 @@ description: Cette rubrique décrit les étapes d’administration pour configur
 title: Configuration des rapports en temps réel
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ La configuration des rapports en temps réel dans les Reports &amp; Analytics co
 
 1. Cliquez sur **[!UICONTROL Configurer]** (icône représentant un engrenage) pour exécuter le [!UICONTROL Gestionnaire de suites de rapports].
 
-   (Également disponible sous **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Temps réel]**.)
+   (Également disponible sous **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Temps réel]**.)
 
 1. Activez le paramètre **[!UICONTROL Activer le temps réel]**.
 1. Configurez la collecte de données en temps réel pour trois rapports au maximum, avec une mesure et trois dimensions ou classifications par rapport.
