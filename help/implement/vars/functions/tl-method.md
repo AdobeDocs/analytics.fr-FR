@@ -19,9 +19,9 @@ Launch a un emplacement dédié défini un appel de suivi des liens.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
-1. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-1. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+1. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
+1. Sous [!UICONTROL Actions], cliquez sur l’icône « + ».
+1. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur Envoyer la balise.
 1. Cochez la case `s.tl()`.
 
 Vous ne pouvez pas définir d’arguments facultatifs dans Launch.
