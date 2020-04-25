@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Identifiant visiteur
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Voir [Intégration de données hors ligne](/help/import/c-data-sources/datasrc-i
 | Catégorie | Nom de la catégorie.  Si vous définissez une catégorie, vous devez également sélectionner un produit. |
 | Canal | Nom du canal. |
 | eVarn | Nom de la variable eVarn. Valeurs valides de n : nombre entier entre 1 et 75. |
-| Produit | Nom du produit. |
+| Product | Nom du produit. |
 | État | Nom de l’état. |
 | Zip | Code postal. |
 
