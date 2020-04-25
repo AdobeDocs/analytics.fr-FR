@@ -14,15 +14,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Description de la méthode de comptabilisation des instances sur les variables de marchandisage.
 
-Les instances ne sont actuellement pas prises en charge pour les variables de marchandisage. Si vous remarquez des instances dans un rapport contenant une variable de marchandisage, cela indique que l’eVar est définie à certains emplacements en dehors de la chaîne de produits et ne doit pas être considérée comme un nombre réel d’instances pour la variable de marchandisage sélectionnée.
+Les instances ne sont actuellement pas prises en charge pour les variables de marchandisage. Si vous observez des instances dans un rapport contenant une variable de marchandisage, ceci indique que l’eVar est définie en certains emplacements en dehors de la chaîne de produits et ne doit pas être considérée comme un nombre réel d’instances pour la variable de marchandisage sélectionnée.
 
-Si vous utilisez la syntaxe des variables de conversion, une instance est comptabilisée chaque fois que la variable est définie. Toutefois, l’instance est attribuée à &quot;None&quot;, sauf si les événements suivants se produisent chaque fois que la variable est définie :
+Si vous utilisez le paramètre Syntaxe de la variable de conversion, une instance est comptabilisée chaque fois que la variable est définie. Cependant, l’instance est attribuée à « Aucun », sauf si les événements suivants se produisent chaque fois que la variable est définie :
 
-* Un  de liaison est défini.
+* Un événement de liaison est défini.
 * La variable products est définie.
-* L’eVar de marchandisage a une valeur.
+* L’eVar de marchandisage comporte une valeur.
 
-Par exemple, l’instance suivante d’eVar1 est allouée à &quot;Extérieur:Lunettes de ski&quot; :
+Par exemple, l’instance suivante d’eVar1 est allouée à « Extérieur:Lunettes de ski » :
 
 ```js
 s.eVar1="Outdoors:Ski Goggles" 
@@ -30,22 +30,22 @@ s.events="prodView"
 s.products=";Fernie Snow Goggles"
 ```
 
-Cependant, dans l’exemple suivant, l’instance d’eVar1 est allouée à &quot;Aucun&quot;, car toutes les conditions ne sont pas remplies lorsque l’eVar est définie (il n’existe pas de  de liaison et la variable products n’est pas définie) :
+Cependant, dans l’exemple suivant, l’instance d’eVar1 est allouée à « Aucun », étant donné que toutes les conditions ne sont pas remplies lorsque l’eVar est définie (aucun événement de liaison n’est présent et la variable products n’est pas définie) :
 
-Page 1 de la visite :
+Page 1 de la visite :
 
 ```js
 s.eVar1="Outdoors:Ski Goggles"
 ```
 
-Page 2 de la visite :
+Page 2 de la visite :
 
 ```js
 s.events="prodView" 
 s.products=";Fernie Snow Goggles"
 ```
 
-L’attribution à &quot;Aucun&quot; se produit si vous définissez une valeur pour une eVar sur une page où aucun de liaison ne se produit ou si vous définissez la valeur de l’eVar dans la chaîne de produits sans de liaison.
+L’instance n’est allouée à « Aucun » que si vous définissez une valeur pour une eVar sur une page sur laquelle aucun événement de liaison ne survient ou si vous définissez la valeur d’eVar dans la chaîne de produits sans événement de liaison.
 
 >[!NOTE] L’actuelle fonctionnalité de comptabilisation des instances sur des variables de marchandisage fait l’objet d’une révision. Sa modification est prévue pour une prochaine version.
 
