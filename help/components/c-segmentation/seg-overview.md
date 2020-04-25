@@ -3,7 +3,7 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments et des conteneurs
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -126,7 +126,7 @@ Vous pouvez utiliser l’imbrication de conteneurs ainsi que de règles dans un 
 |---|---|
 | Accès | Événements uniquement |
 | Visite | Conteneur d’accès, Événements |
-| Visiteur | Conteneur de visites, Conteneur d’accès, Événements |
+| Visitor. | Conteneur de visites, Conteneur d’accès, Événements |
 | Groupe logique | Conteneur de visiteurs, conteneur de visites, conteneur d’accès |
 
 **Inclure plusieurs conteneurs dans une seule définition**
@@ -151,7 +151,7 @@ La segmentation séquentielle utilise les mêmes conteneurs de base, notamment [
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Visiteurs] est le conteneur dont l’ordre est le plus élevé dans la segmentation séquentielle ; [!UICONTROL Visites] se trouvant dans le conteneur [!UICONTROL Visiteurs] et [!UICONTROL Accès] se trouvant dans les conteneurs [!UICONTROL Visiteurs] ou [!UICONTROL Visites]. Cette   [hiérarchie de conteneurs](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) doit être conservée pour créer des segments séquentiels bien ordonnés.
+[!UICONTROL Visiteurs] est le conteneur dont l’ordre est le plus élevé dans la segmentation séquentielle ; [!UICONTROL Visites] se trouvant dans le conteneur [!UICONTROL Visiteurs] et [!UICONTROL Accès] se trouvant dans les conteneurs [!UICONTROL Visiteurs] ou [!UICONTROL Visites]. Cette  [hiérarchie de conteneurs](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) doit être conservée pour créer des segments séquentiels bien ordonnés.
 
 **Pour créer des segments séquentiels**, les conteneurs sont imbriqués et la séquence logique est associée à l’aide de l’opérateur [!UICONTROL ALORS] qui exige que chaque conteneur soit défini sur « vrai » sur la base de la séquence du visiteur.
 
@@ -250,7 +250,7 @@ L’utilisation d’un segment avec un conteneur plus petit que la portée de la
 
 Le filtrage par dimensions qui persistent dans une plage de pages, une eVar de campagne ou une dimension référente par exemple, affecte les données collectées au niveau du conteneur et doit être compris afin de garantir la précision de la création de rapports.
 
-Les données de segment peuvent varier selon la persistance d’une dimension ou d’une variable appliquée dans des pages sélectionnées. Certaines dimensions, comme la dimension Page, fournissent des valeurs uniques au niveau de la page et sont filtrées selon les données provenant du conteneur d’accès. (Voir  [l’exemple Rapports basés sur les données de conteneur](/help/components/c-segmentation/seg-overview.md)). D’autres dimensions, telle la dimension Domaine référent, persistent dans plusieurs pages pour une visite. Certaines dimensions ou variables appliquées, comme la Durée de la visite, s’étalent sur l’ensemble de l’historique du visiteur.
+Les données de segment peuvent varier selon la persistance d’une dimension ou d’une variable appliquée dans des pages sélectionnées. Certaines dimensions, comme la dimension Page, fournissent des valeurs uniques au niveau de la page et sont filtrées selon les données provenant du conteneur d’accès. (Voir [l’exemple Rapports basés sur les données de conteneur](/help/components/c-segmentation/seg-overview.md)). D’autres dimensions, telle la dimension Domaine référent, persistent dans plusieurs pages pour une visite. Certaines dimensions ou variables appliquées, comme la Durée de la visite, s’étalent sur l’ensemble de l’historique du visiteur.
 
 ![](assets/RefDomain_aol.png)
 
