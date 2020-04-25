@@ -18,13 +18,13 @@ Voici des instructions pour vous aider à trouver les ID de votre compte Google 
 >
 >Google AdWords utilise deux types de comptes : a) compte MCC (My Client Center) et b) compte standard. Pour cette intégration avec Adobe Analytics, **vous devez utiliser la connexion de votre compte standard et pas celle de votre compte MCC**. Cela tient au fait que les comptes MCC fonctionnent comme un compte « parapluie » qui peut accéder à de nombreux comptes AdWords grâce à une seule connexion, alors qu’un compte standard ne peut accéder qu’à un seul compte AdWords par connexion.
 
-Cliquez sur l’icône Compte en haut à droite pour du numéro de compte AdWords (ID de client).
+Cliquez sur l’icône Compte en haut à droite pour afficher le numéro de compte AdWords (ID de client).
 
 ![](assets/google_account.png)
 
 ## Bing  {#section_F1B9C7E997444746936599732CD62665}
 
-L’ID de compte et l’ID de client sont tous deux obligatoires. Ils sont répertoriés dans l’onglet Comptes.
+L’ID de compte, ainsi que celui du client sont requis. Ils sont répertoriés dans l’onglet Comptes.
 
 >[!NOTE] Le numéro de compte n’est pas le même que l’ID de compte.
 
