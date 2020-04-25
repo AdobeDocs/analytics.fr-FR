@@ -1,5 +1,5 @@
 ---
-description: Les taux de conversion mesurent généralement la conversion entre les  de début, de fin et de jalon ou les points d’un processus de conversion. Une fois que vous avez codé le de réussite sur votre site, le rapport crée les ratios entre ces différents  de réussite et les affiche dans un rapport Entonnoir de conversion.
+description: Les taux de conversion mesurent généralement la conversion entre le début, la fin et les événements ou points qui jalonnent un processus de conversion. Une fois les événements de succès codés sur votre site, le rapport crée les taux applicables et les présente dans un rapport Entonnoir de conversion.
 title: Entonnoir de conversion
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
@@ -11,16 +11,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Entonnoir de conversion
 
-Les taux de conversion mesurent généralement la conversion entre les  de début, de fin et de jalon ou les points d’un processus de conversion. Une fois que vous avez codé le de réussite sur votre site, le rapport crée les ratios entre ces différents  de réussite et les affiche dans un rapport Entonnoir de conversion.
+Les taux de conversion mesurent généralement la conversion entre le début, la fin et les événements ou points qui jalonnent un processus de conversion. Une fois les événements de succès codés sur votre site, le rapport crée les taux applicables et les présente dans un rapport Entonnoir de conversion.
 
-Les rapports Entonnoir suivants sont disponibles :
+Les rapports d’entonnoir suivants sont disponibles :
 
-* [!UICONTROL Purchase Conversion Funnel]: Affiche les visites (propres au rapport), les paniers, les commandes, les unités et les recettes.
-* [!UICONTROL Cart Conversion Funnel]: Affiche les visites (propres au rapport), les paniers, les passages en caisse, les commandes et les recettes.
-* [!UICONTROL Custom Event Funnel]: Affiche des  personnalisées sur votre site. Il affiche le personnalisé  1 à 5 par défaut.
-* [!UICONTROL Campaign Conversion Funnel]: Affiche les clics publicitaires, les passages en caisse, les commandes et les recettes.
+* [!UICONTROL Entonnoir de conversion d’achat] : affiche Visites (Propre au rapport), Paniers, Commandes, Unités et Recettes.
+* [!UICONTROL Entonnoir de conversion de panier d’achats] : affiche Visites (Propre au rapport), Paniers, Passages en caisse, Commandes et Recettes.
+* [!UICONTROL Entonnoir d’événements personnalisés] : affiche des événements personnalisés sur votre site. Ce rapport affiche, par défaut, les événements personnalisés de 1 à 5.
+* [!UICONTROL Entonnoir de conversion de campagne] : affiche Clics publicitaires, Passages en caisse, Commandes et Recettes.
 
-Ce rapport est également personnalisable, de sorte que vous puissiez ajouter des  de conversion personnalisée à l&#39;entonnoir de conversion pour voir si les de votre site le font d&#39;une étape à l&#39;autre. Les de réussite  sont de bons candidats pour ce type de   si elles se produisent presque toujours dans un ordre spécifique. Sur un site de vente au détail, par exemple, les de réussite se  généralement dans l’ordre suivant :
+Ce rapport peut également être personnalisé. Vous pouvez ainsi ajouter des événements Conversion personnalisée au rapport Entonnoir de conversion pour savoir si les visiteurs de votre site parviennent à passer d’une étape à l’autre. Les événements de succès constituent les candidats idéaux pour ce type d’analyse s’ils surviennent presque toujours dans un ordre bien défini. Sur un site de vente au détail, par exemple, les événements de succès surviennent généralement dans cet ordre :
 
 1. Consultations produits
 
@@ -30,7 +30,7 @@ Ce rapport est également personnalisable, de sorte que vous puissiez ajouter de
 
 4. Achats
 
-Le tableau du rapport présente les statistiques relatives aux ventes moyennes par clic publicitaire et aux unités moyennes vendues par clic publicitaire. Vous pouvez ajouter à ces rapports des mesures et des  de personnalisés provenant d’autres groupes de . Ces entonnoirs présentent de nombreuses similitudes, mais ils sont basés sur différentes variables et différents . Vous pouvez utiliser ces rapports pour déterminer les pourcentages et les tendances générales des utilisateurs qui déclenchent des spécifiques que vous spécifiez. Vous pouvez déterminer où les utilisateurs ne suivent pas les  du, ce qui permet d’obtenir des informations sur ce point spécifique du processus de conversion.
+Le tableau de rapport affiche des statistiques sur les ventes moyennes par clic publicitaire et sur le nombre moyen d’unités vendues par clic publicitaire. Vous pouvez ajouter des mesures et des événements personnalisés d’autres groupes de rapports à ces rapports. Ces entonnoirs présentent de nombreuses similitudes, mais ils sont basés sur des variables et des événements différents. Vous pouvez utiliser ces rapports pour afficher les tendances générales et les pourcentages d’utilisateurs qui déclenchent les événements spécifiques que vous indiquez. Vous pouvez également identifier les endroits où les utilisateurs ne poursuivent pas jusqu’aux événements, ce qui vous éclaire sur ce point précis dans le processus de conversion.
 
 >[!NOTE] Les instances dans le contexte de ces rapports équivalent au nombre total de visites où une eVar ou un événement a été défini.
 
