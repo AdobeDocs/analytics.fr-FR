@@ -3,7 +3,7 @@ description: Affiche une ventilation des mots-clés de recherche.
 title: Mots-clés de recherche
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ Affiche une ventilation des mots-clés de recherche.
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </th> 
    <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
-   <th colname="col4" class="entry"> Data Warehouse </th> 
+   <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
  <tbody> 
