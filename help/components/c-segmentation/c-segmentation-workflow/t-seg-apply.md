@@ -3,7 +3,7 @@ description: Comment appliquer un ou plusieurs segments à un rapport depuis le 
 title: Sélection et application des segments
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
