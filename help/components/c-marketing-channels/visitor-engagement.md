@@ -28,10 +28,10 @@ Par exemple, les visiteurs cliquent souvent sur une campagne de recherche payant
 
 Spécifiez le délai d’expiration de l’engagement des visiteurs.
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
+1. Dans le [!UICONTROL Gestionnaire de suites de rapports], cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Expiration du canal marketing]**.
 
    ![](assets/mchannel_expiration.png)
 
 1. Configurez les champs d’expiration de l’engagement des visiteurs.
-1. Cliquez sur **[!UICONTROL Save.]**
+1. Cliquez sur **[!UICONTROL Enregistrer.]**
