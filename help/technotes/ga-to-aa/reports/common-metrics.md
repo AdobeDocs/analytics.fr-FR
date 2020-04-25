@@ -1,7 +1,7 @@
 ---
 title: Guide de traduction des mesures couramment utilisées sur d’autres plateformes
 description: Découvrez comment extraire des données de mesure pour de nombreux rapports courants en utilisant une terminologie plus familière aux utilisateurs de Google Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
