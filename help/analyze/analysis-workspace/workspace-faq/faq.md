@@ -18,24 +18,24 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Quelles sont les exigences en matière d’administration et d’accès pour   Workspace ? </p> </td> 
-   <td colname="col2"> <p>Voir <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  > Exigencesd’administration</a>. </p> </td> 
+   <td colname="col1"> <p>Quelles sont les exigences en matière d’administration et d’accès concernant Analysis Workspace ? </p> </td> 
+   <td colname="col2"> <p>Voir <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  > Configuration requise pour l’administration</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Combien de suites de rapports peut-on afficher dans un projet   Workspace ? </p> </td> 
-   <td colname="col2"> <p>Actuellement, vous ne pouvez afficher qu’une seule suite de rapports par projet. </p> </td> 
+   <td colname="col1"> <p>Combien peut-on afficher de suites de rapports dans un projet Analysis Workspace ? </p> </td> 
+   <td colname="col2"> <p>Actuellement, vous pouvez afficher une seule suite de rapports par projet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Comment implémentez-vous   Workspace ? </p> </td> 
-   <td colname="col2"> <p>Aucune mise en œuvre spéciale n’est requise.  Espace de travail  est disponible pour tous les avec Analytics Standard ou Premium. Néanmoins, des autorisations standard d’accès au contenu (par exemple aux suites de rapports et aux composants des projets) s’appliquent ainsi qu’au traitement et au partage des projets. Voir <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  > Administration et exigences d’accès</a>. </p> </td> 
+   <td colname="col1"> <p>Comment mettre en œuvre Analysis Workspace ? </p> </td> 
+   <td colname="col2"> <p>Aucune mise en œuvre spéciale n’est requise. Analysis Workspace est mis à la disposition de toutes les entreprises possédant Analytics Standard ou Premium. Néanmoins, des autorisations standard d’accès au contenu (par exemple aux suites de rapports et aux composants des projets) s’appliquent ainsi qu’au traitement et au partage des projets. Voir <a href="/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md"  > Administration et exigences d’accès</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> l’espace de travail -t-il de modifier les rapports préconfigurés dans Adobe Analytics ? </p> </td> 
-   <td colname="col2"> <p>Non. Puisqu’il s’agit d’un  de  distinct, aucun changement n’est apporté à vos rapports existants ou préconfigurés dans Adobe Analytics. Vous pouvez toujours utiliser les rapports Rapports et analyses et Créateur de rapports standard à l’aide de   Espace de travail de. </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace change-t-il les rapports préconfigurés dans Adobe Analytics ? </p> </td> 
+   <td colname="col2"> <p>Non. Puisqu’il s’agit d’un environnement distinct, vos rapports existants ou préconfigurés dans Adobe Analytics ne seront pas modifiés. Vous pouvez continuer à utiliser les rapports générés avec les fonctionnalités Reports &amp; Analytics et Report Builder à l’aide d’Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Puis-je utiliser  Espace de travail  pour l’entrepôt de données ? </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace n’est pas recommandé pour l’exportation en masse de données. Il s’agit d’un espace de travail de visualisation qui crée des projets de type  . </p> </td> 
+   <td colname="col1"> <p>Puis-je utiliser Analysis Workspace pour le Data Warehouse ? </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace n’est pas recommandé pour l’exportation en masse de données. Il s’agit d’un espace de travail de visualisation destiné à la création de projets d’analyse du style tableau de bord. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>Comment optimiser les performances d’Analysis Workspace ? </p> </td> 
