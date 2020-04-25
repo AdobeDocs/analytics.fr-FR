@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Heure de traitement des sources de données
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
