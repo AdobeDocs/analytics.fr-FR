@@ -2,7 +2,7 @@
 description: La segmentation de mesures individuelles permet d’effectuer des comparaisons de mesures dans le même rapport. (Mesures dérivées uniquement)
 title: Mesures segmentées
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
