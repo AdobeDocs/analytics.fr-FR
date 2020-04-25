@@ -2,7 +2,7 @@
 description: Les rapports Cibles vous permettent de mesurer les performances de votre site web et de suivre leur progression par rapport aux objectifs cibles. Vous pouvez par exemple augmenter le nombre de visiteurs provenant d’une zone géographique donnée, les recettes par commande ou le nombre de visites provenant d’un référent spécifique.
 title: Cibles
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
