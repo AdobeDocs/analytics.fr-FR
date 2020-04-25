@@ -3,7 +3,7 @@ description: Les rapports standard affichent des données relatives à l’activ
 title: Rapports - Aperçu
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -41,7 +41,7 @@ Les rapports de conversion fournissent une analyse exhaustive, précise et déta
 
 **Rapports sur le trafic**
 
-Les rapports sur le trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site Web.
+Les rapports sur le trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site web.
 
 * d’analyser les aspects critiques du comportement des visiteurs ;
 * de surveiller et de comprendre les schémas de trafic ;
