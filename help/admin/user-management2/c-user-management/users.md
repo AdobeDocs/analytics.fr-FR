@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: Gestion des utilisateurs - Aperçu
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -47,7 +47,7 @@ La gestion des groupes et des utilisateurs de rapports sur la page Gestion utili
 | [!UICONTROL Nom] | Nom de l’utilisateur. |
 | [!UICONTROL Titre] | (Facultatif) Fonction de l’utilisateur. |
 | [!UICONTROL Numéro de téléphone] | (Facultatif) Numéro de téléphone professionnel de l’utilisateur. |
-| [!UICONTROL Adresse de courriel] | Adresse de courriel professionnelle de l’utilisateur. |
+| [!UICONTROL Adresse électronique] | Adresse de courriel professionnelle de l’utilisateur. |
 
 **Tableaux de bord par défaut**
 
