@@ -9,7 +9,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 # Référents
 
-La dimension &quot;&quot; indique l’URL d’où sont venus vos avant qu’ils n’arrivent sur votre site. Si, par exemple, un clique sur un lien `example.com/example-page.html` et arrive sur votre site, `example.com/example-page.html` est le s’il n’est pas défini comme faisant partie de votre domaine.
+La dimension &quot;&quot; indique l’URL d’où sont venus vos avant qu’ils n’arrivent sur votre site. For example, if a visitor clicks a link from `example.com/example-page.html` and arrives on your site, `example.com/example-page.html` is the referrer if it is not defined as part of your domain.
 
 Cette dimension requiert que vous configuriez la URL [interne de votre suite de rapports](/help/admin/admin/internal-url-filter-admin.md). Si vous ne configurez pas de  d’URL internes, Adobe Analytics considère tous les domaines comme internes à votre site.
 
