@@ -1,14 +1,14 @@
 ---
-description: Cette dimension Analytics est fournie prête à l’emploi avec Analysis Workspace.
+description: Jours depuis la dernière visite  est une dimension Analytics prête à l’emploi avec Analysis Workspace.
 title: Jours depuis la dernière visite
 uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Jours depuis la dernière visite
+# Jours depuis la dernière visite 
 
 Jours depuis la dernière visite  est une dimension Analytics prête à l’emploi avec Analysis Workspace.
 
