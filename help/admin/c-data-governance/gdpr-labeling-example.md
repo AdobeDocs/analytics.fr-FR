@@ -12,58 +12,58 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Exemple de données d’accès
 
-Supposons que vous disposiez des données d’accès suivantes :
+Supposons que vous avez les données d’accès suivantes :
 
-* La première ligne contient les libellés de chaque variable.
-* La deuxième ligne est le nom de la variable. S’il possède un libellé d’ID, il contient le  de  assigné entre parenthèses.
-* de données d’accès dans la troisième ligne.
+* La première ligne contient les étiquettes pour chaque variable.
+* La deuxième ligne correspond au nom de la variable. Si elle comporte une étiquette d’identification, elle contient l’espace de noms attribué entre parenthèses.
+* Les données d’accès commencent à partir de la troisième ligne.
 
 | Étiquettes | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
 | **Nom de variable **<br>**(espace de noms)** | **MyProp1 **<br>**(utilisateur)** | **Identifiant visiteur **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
-| Données d’accès | Marie | 77 | A  | L | X |
-|  | Marie | 88 | B | N | Y |
-|  | Marie | 99 | C  | O | Z |
-|  | John | 77 | D | P | Me |
+| Données d’accès | Mary | 77 | A  | M | X |
+|  | Mary | 88 | B | N | Y |
+|  | Mary | 99 | C  | O | Z |
+|  | John | 77 | D | P | W |
 |  | John | 88 | E | N | U |
-|  | John | 44 | Ve | Q | V |
+|  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A  | N | Z |
 
 ## Exemple de demande d’accès
 
-Si j&#39;envoie une demande d&#39;accès, le fichier récapitulatif contiendra les valeurs indiquées dans le tableau ci-dessous. Une requête ne peut renvoyer qu’un fichier de périphérique, qu’un fichier de personne ou l’un des deux. Deux fichiers de résumé ne sont renvoyés que si un ID de personne est utilisé et que la variable expandedIds est vraie.
+Si je soumets une demande d’accès, le fichier récapitulatif contiendra les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et que « expandIDs » a la valeur « true ».
 
-| Valeurs API | Valeurs API | Type de fichier renvoyé | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif |
+| Valeurs de l’API | Valeurs de l’API | Type de fichier renvoyé | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif |
 |--- |--- |--- |---|---|---|---|---|
 | **Espace de noms/ID** | **expandIDs** |  | **MyProp1** | **Identifiant visiteur** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| AAID=77 | false | périphérique | Variable absente | 77 | Variable absente | M, P | X, W |
-| AAID=77 | true | périphérique | Variable absente | 77 | Variable absente | M, P | X, W |
-| user=Mary | false | personne | Marie | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary | true | personne | Marie | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary | true | périphérique | non présent | 77, 88 | non présent | N, P | U, W |
-| user=Mary  AAID=66 | true | personne | Marie | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  AAID=66 | true | périphérique | non présent | 66, 77, 88 | non présent | N, P | U, W, Z |
-| xyz=X | false | périphérique | non présent | 55, 77 | non présent | M, R | X |
-| xyz=X | true | périphérique | non présent | 55, 77 | non présent | M, P, R | W, X |
+| AAID=77 | false | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
+| AAID=77 | true | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
+| user=Mary | false | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | true | périphérique | non présente | 77, 88 | non présente | N, P | U, W |
+| user=Mary  AAID=66 | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary  AAID=66 | true | périphérique | non présente | 66, 77, 88 | non présente | N, P | U, W, Z |
+| xyz=X | false | périphérique | non présente | 55, 77 | non présente | M, R | X |
+| xyz=X | true | périphérique | non présente | 55, 77 | non présente | M, P, R | W, X |
 
-Notez que le paramètre pour expandedIDs n’a aucune incidence sur la sortie lorsqu’un ID de cookie est utilisé.
+Notez que le paramètre des expandIDs n’influence pas le résultat lorsqu’un ID de cookie est utilisé.
 
 ## Exemple de demande de suppression
 
-Avec une requête de suppression utilisant les valeurs de l’API dans la première ligne du tableau, le tableau des accès sera mis à jour pour ressembler à ceci :
+Avec une demande de suppression qui utilise les valeurs de l’API de la première ligne du tableau, le tableau d’accès sera mis à jour comme suit :
 
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Marie | 42 | A  | Privacy-7398 | Privacy-9152 |
-| Marie | 88 | B | N | Y |
-| Marie | 99 | C  | O | Z |
+| Mary | 42 | A  | Privacy-7398 | Privacy-9152 |
+| Mary | 88 | B | N | Y |
+| Mary | 99 | C  | O | Z |
 | John | 42 | D | Privacy-1866 | Privacy-8216 |
 | John | 88 | E | N | U |
-| John | 44 | Ve | Q | V |
+| John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | A  | N | Me |
+| Alice | 66 | A  | N | W |
 
 >[!NOTE] Seules les cellules des lignes contenant AAID = 77 et une étiquette DEL-DEVICE sont impactées.
 
@@ -73,11 +73,11 @@ Avec une requête de suppression utilisant les valeurs de l’API dans la premi�
 | Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
 | Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
 | Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
-| John | 77 | D | P | Me |
+| John | 77 | D | P | W |
 | John | 88 | E | N | U |
-| John | 44 | Ve | Q | V |
+| John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | A  | N | Me |
+| Alice | 66 | A  | N | W |
 
 >[!NOTE] Seules les cellules des lignes contenant user=Mary et une étiquette DEL-PERSON sont impactées. Dans la pratique, la variable contenant A_ID serait probablement une prop ou une eVar, et sa valeur de remplacement serait une chaîne commençant par « Privacy- » suivi d’un numéro aléatoire (GUID), plutôt que de remplacer la valeur numérique par une valeur numérique aléatoire différente.
 
@@ -89,9 +89,9 @@ Avec une requête de suppression utilisant les valeurs de l’API dans la premi�
 | Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
 | John | 09 | D | Privacy-8454 | Privacy-8216 |
 | John | 16 | E | Privacy-2911 | Privacy-2930 |
-| John | 44 | Ve | Q | V |
+| John | 44 | F | Q | V |
 | John | 55 | G | R | X |
-| Alice | 66 | A  | N | Me |
+| Alice | 66 | A  | N | W |
 
 Prenez note des points suivants :
 
