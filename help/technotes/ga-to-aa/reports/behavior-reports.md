@@ -1,7 +1,7 @@
 ---
 title: Rapports de comportement dans Adobe Analytics
 description: Découvrez comment créer des rapports de comportement dans Adobe Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
