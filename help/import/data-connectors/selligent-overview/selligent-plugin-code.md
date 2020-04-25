@@ -2,7 +2,7 @@
 description: Réservez les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant d’utiliser le code ci-dessous.
 title: Code du plug-in de paramètre de chaîne de requête
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
