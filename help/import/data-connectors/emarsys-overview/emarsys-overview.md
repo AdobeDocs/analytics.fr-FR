@@ -2,7 +2,7 @@
 description: Cette intégration des courriers électroniques d’Adobe® Data Connectors™ combine des informations comportementales d’Analytics® avec la solution de marketing par courrier électronique emarsys afin de créer un outil puissant permettant de redéfinir la mesure de succès et de cibler les audiences avec des messages plus pertinents.
 title: Connecteur de données emarsys pour Adobe Analytics
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
