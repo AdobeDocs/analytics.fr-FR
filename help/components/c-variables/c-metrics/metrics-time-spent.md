@@ -1,5 +1,5 @@
 ---
-description: Adobe Analytics   différentes mesures et dimensions Durée de la visite. Découvrez ce qu'ils sont et comment ils sont calculés.
+description: Adobe Analytics propose différentes mesures et dimensions de durée de la visite. Découvrez-les ainsi que leur mode de calcul.
 title: Durée
 topic: Metrics
 translation-type: tm+mt
@@ -8,44 +8,44 @@ source-git-commit: 8df1fdfb048dd69b4926b7b812ec5dfea4a97b89
 ---
 
 
-# [!UICONTROL Time spent]
+# [!UICONTROL Durée]
 
-Various [!UICONTROL 'time spent'] metrics and dimensions are offered across Adobe Analytics products.
+Diverses mesures et dimensions de [!UICONTROL « durée de la visite »] sont proposées dans les produits Adobe Analytics.
 
-## [!UICONTROL 'Time spent'] mesures
+## Mesures de [!UICONTROL « durée de la visite »]
 
 | Mesure | Définition | Disponible dans |
 |---|---|---|
-| [!UICONTROL Total seconds spent] | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique. Inclut l’instance d’une valeur et la persistance sur tous les accès suivants. Dans le cas des props, la durée de la visite est également prise en compte dans les événements de lien ultérieurs. | Analysis Workspace, Reports &amp; Analytics, Report Builder (appelé « durée totale passée »), Data Warehouse, Ad Hoc Analysis |
-| [!UICONTROL Time spent per visit] (Secondes) | *Durée totale en secondes / (visite-rebonds)*<br>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique lors de chaque visite. | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
-| [!UICONTROL Time spent per visitor] (Secondes) | *Durée totale en secondes / visiteur unique *<br>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
-| [!UICONTROL Average time spent on site] (Secondes) | Représente la durée totale pendant laquelle les interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Il ne se limite pas uniquement aux moyennes &quot;site&quot; comme le nom l’indique. Pour plus d’informations sur les séquences, voir le « Mode de calcul de la durée de la visite ».<br>**Remarque :** Cette mesure diffère très probablement de la « durée de la visite » au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. | Analysis Workspace, Reports &amp; Analytics (en minutes), Report Builder (en minutes), Ad Hoc Analysis |
-| [!UICONTROL Average time spent on page] | Mesure obsolète.<br> Nous vous recommandons plutôt d’utiliser la « Durée moyenne de la visite du site » si la durée moyenne d’un élément de dimension est requise. | Report Builder (lorsqu’une dimension figure dans la demande) |
-| [!UICONTROL Total session length], alias [!UICONTROL Previous session length] | SDK d’applications mobiles uniquement. <br>Déterminée la prochaine fois que l’application est lancée, pour la session précédente. Calculée en secondes, cette mesure ne compte pas lorsque l’application est en arrière-plan, mais uniquement lorsqu’elle est utilisée. Il s’agit d’une mesure au niveau de la session.<br>Par exemple : vous installez l’application ABC et la lancez. Vous l’utilisez pendant 2 minutes, puis vous la fermez. Aucune donnée n’est envoyée sur la durée de cette session. The next time we launch the app, [!UICONTROL Previous Session Length] will be sent with a value of 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Mobile Services UI |
-| [!UICONTROL Average session length] (mobile) | *Durée de session totale / (Lancements - Premiers lancements)*<br>Kit SDK d’applications mobiles uniquement. Il s’agit d’une mesure au niveau de la session. | Report Builder, Mobile Services UI, Ad Hoc Analysis |
+| [!UICONTROL Durée totale en secondes] | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique. Inclut l’instance d’une valeur et la persistance sur tous les accès suivants. Dans le cas des props, la durée de la visite est également prise en compte dans les événements de lien ultérieurs. | Analysis Workspace, Reports &amp; Analytics, Report Builder (appelé « durée totale passée »), Data Warehouse, Ad Hoc Analysis |
+| [!UICONTROL Durée de la visite] (en secondes) | *Durée totale en secondes / (visite-rebonds)*<br>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique lors de chaque visite. | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
+| [!UICONTROL Durée par visiteur] (en secondes) | *Durée totale en secondes / visiteur unique *<br>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
+| [!UICONTROL Durée moyenne de la visite du site] (en secondes) | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Cette option n’est pas limitée aux moyennes de la visite du « site » comme son nom l’indique. Pour plus d’informations sur les séquences, voir le « Mode de calcul de la durée de la visite ».<br>**Remarque :** Cette mesure diffère très probablement de la « durée de la visite » au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. | Analysis Workspace, Reports &amp; Analytics (en minutes), Report Builder (en minutes), Ad Hoc Analysis |
+| [!UICONTROL Durée de consultation moyenne de la page] | Mesure obsolète.<br> Nous vous recommandons plutôt d’utiliser la « Durée moyenne de la visite du site » si la durée moyenne d’un élément de dimension est requise. | Report Builder (lorsqu’une dimension figure dans la demande) |
+| [!UICONTROL Durée totale de la session], alias [!UICONTROL Durée de session précédente] | SDK d’applications mobiles uniquement. <br>Déterminée la prochaine fois que l’application est lancée, pour la session précédente. Calculée en secondes, cette mesure ne compte pas lorsque l’application est en arrière-plan, mais uniquement lorsqu’elle est en cours d’utilisation. Il s’agit d’une mesure au niveau de la session.<br>Par exemple : vous installez l’application ABC et la lancez. Vous l’utilisez pendant 2 minutes, puis vous la fermez. Aucune donnée n’est envoyée sur la durée de cette session. La prochaine fois que vous lancez l’application, la [!UICONTROL Durée de la session précédente] est envoyée avec une valeur de 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Mobile Services UI |
+| [!UICONTROL Durée de session moyenne] (mobile) | *Durée de session totale / (Lancements - Premiers lancements)*<br>Kit SDK d’applications mobiles uniquement. Il s’agit d’une mesure au niveau de la session. | Report Builder, Mobile Services UI, Ad Hoc Analysis |
 
 ## Dimensions de « durée de la visite »
 
 | Dimension | Définition | Disponible dans |
 |---|---|---|
-| [!UICONTROL Time spent per visit - granular] | Durée totale passée lors la visite arrondie à la seconde la plus proche et appliquée à chaque accès qui faisait partie de la visite. Il s’agit d’une dimension du niveau de la visite. | Analysis Workspace, Ad Hoc Analysis |
-| [!UICONTROL Time spent per visit - bucketed] | La dimension granulaire est regroupée en 9 plages différentes. Il s’agit d’une dimension du niveau de la visite. Les plages incluent :<ul><li>Moins de 1 minute</li><li>1-5 minutes</li><li>5-10 minutes</li><li>10-30 minutes</li><li>30-60 minutes</li><li>1-2 heures</li><li>2-5 heures</li><li>5-10 heures</li><li>10-15 heures</li></ul>**Remarque** : Il n’existe pas de regroupement plus élevé, car une visite expire après 12 heures d’activité. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Ad Hoc Analysis |
-| [!UICONTROL Time spent on page - granular] | Durée totale passée sur chaque accès, arrondie à la seconde la plus proche. Il s’agit d’une dimension du niveau de l’accès. Elle comprend à la fois des pages vues et des événements de lien. Malgré son nom, elle ne se limite pas à la dimension « page ». | Analysis Workspace, Ad Hoc Analysis |
-| [!UICONTROL Time spent on page - bucketed] | La dimension granulaire est regroupée en 10 plages différentes; toutefois, la dimension avec empilement ne compte que les  de page (et exclut les de liens). Il s’agit d’une dimension de niveau accès. Les plages incluent :<ul><li>moins de 15 secondes</li><li>15 à 29 secondes</li><li>30 à 59 secondes</li><li>1 à 3 minutes</li><li>3 à 5 minutes</li><li>5 à 10 minutes</li><li>10 à 15 minutes</li><li>15 à 20 minutes</li><li>20 à 30 minutes</li><li>plus de 30 minutes</li></ul> | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
+| [!UICONTROL Temps passé par visite - Valeur granulaire] | Durée totale passée lors la visite arrondie à la seconde la plus proche et appliquée à chaque accès qui faisait partie de la visite. Il s’agit d’une dimension du niveau de la visite. | Analysis Workspace, Ad Hoc Analysis |
+| [!UICONTROL Durée par visite – Regroupement] | Dimension granulaire regroupée en 9 plages différentes. Il s’agit d’une dimension du niveau de la visite. Les plages incluent :<ul><li>Moins de 1 minute</li><li>1-5 minutes</li><li>5-10 minutes</li><li>10-30 minutes</li><li>30-60 minutes</li><li>1-2 heures</li><li>2-5 heures</li><li>5-10 heures</li><li>10-15 heures</li></ul>**Remarque** : Il n’existe pas de regroupement plus élevé, car une visite expire après 12 heures d’activité. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Ad Hoc Analysis |
+| [!UICONTROL Durée de consultation de la page - Granulaire] | Durée totale passée sur chaque accès, arrondie à la seconde la plus proche. Il s’agit d’une dimension du niveau de l’accès. Elle comprend à la fois des pages vues et des événements de lien. Malgré son nom, elle ne se limite pas à la dimension « page ». | Analysis Workspace, Ad Hoc Analysis |
+| [!UICONTROL Durée de consultation de la page – Regroupement] | La dimension granulaire a été regroupée en 10 plages. Cependant, la dimension regroupée ne décompte que les pages vues (et exclut les événements de lien). Il s’agit d’une dimension du niveau de l’accès. Les plages incluent :<ul><li>moins de 15 secondes</li><li>15 à 29 secondes</li><li>30 à 59 secondes</li><li>1 à 3 minutes</li><li>3 à 5 minutes</li><li>5 à 10 minutes</li><li>10 à 15 minutes</li><li>15 à 20 minutes</li><li>20 à 30 minutes</li><li>plus de 30 minutes</li></ul> | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
 
 ## Mode de calcul de la « durée de la visite »
 
-Adobe Analytics uses explicit values (including link events and video views) to calculate [!UICONTROL Time Spent].
+Adobe Analytics utilise des valeurs explicites (y compris les événements de lien et les affichages de vidéos) pour calculer la [!UICONTROL durée de la visite].
 
 >[!NOTE]
 >
->Without link events like [!UICONTROL Video Views] or [!UICONTROL Exit Links], time spent on the last hit of a visit cannot be known. For similar reasons, [!UICONTROL Bounce Visits] (i.e. visits with a single hit) also does not have a &#39;time spent&#39; associated with it.
+>Sans les événements de lien tels que [!UICONTROL Affichages de vidéos] ou [!UICONTROL Liens de sortie], la durée de la visite sur le dernier accès d’une visite ne peut pas être connue. Pour des raisons similaires, les [!UICONTROL Visites de rebond] (c’est-à-dire les visites avec un seul accès) n’ont pas de « Durée de la visite » associée.
 
 Le **numérateur** dans tous les calculs de durée de la visite est la durée totale en secondes.
 
 Le **dénominateur** n’est pas disponible comme mesure distincte dans Adobe Analytics. Pour les mesures de « durée de la visite » au niveau de l’accès, les séquences sont utilisées comme dénominateur. Une séquence est un jeu consécutif d’accès pour lequel une variable donnée contient la même valeur (qu’elle soit définie, propagée ou persistante). Le terme « propagé » fait référence à la persistance des props entre les pages vues (c’est-à-dire entre les événements de lien suivants), dans le but de calculer la durée de la visite.
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
+* Par exemple, dans le cas du [!UICONTROL Nom de page] ou d’autres dimensions au niveau des accès, le dénominateur correspond essentiellement aux [!UICONTROL Instances] ou aux [!UICONTROL Pages vues], mais avec des actualisations et des valeurs non définies (par exemple, les événements de lien) comptabilisées comme une seule interaction (une séquence).
 
 * Les accès Rebond et Sortie sont également supprimés du dénominateur car la « durée de la visite » ne peut pas être connue.
 
@@ -55,40 +55,40 @@ Le **dénominateur** n’est pas disponible comme mesure distincte dans Adobe An
 
 R : Les mesures de « durée de la visite » qui peuvent être appliquées à n’importe quelle dimension sont les suivantes :
 
-* [!UICONTROL Total seconds spent]
+* [!UICONTROL Durée totale en secondes]
 
-* [!UICONTROL Time spent per visit] (Secondes)
+* [!UICONTROL Durée de la visite] (en secondes)
 
-* [!UICONTROL Time spent per visitor] (Secondes)
+* [!UICONTROL Durée par visiteur] (en secondes)
 
-* [!UICONTROL Average time spent on site] (Secondes)
+* [!UICONTROL Durée moyenne de la visite du site] (en secondes)
 
 **Q2 : Quelle dimension de durée de la visite est la plus appropriée pour une utilisation dans les ventilations avec d’autres dimensions ?**
 
-A : La [!UICONTROL Time Spent on Page – granular] dimension est une dimension de niveau accès. La ventilation de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de ventilation était également présente.
+R : La dimension [!UICONTROL Durée de consultation de la page - Granulaire] est une dimension du niveau de l’accès. La ventilation de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de ventilation était également présente.
 Dans l’exemple ci-dessous, le terme de recherche « classifieds » est associé à des durées d’accès de 54 secondes, 59 secondes, etc., indiquant peut-être que les visiteurs passent du temps à lire le contenu renvoyé par ce terme.
 
 ![](assets/time-spent1.png)
 
-**Q3 : Quelle mesure convient-il par rapport à la dimension de[!UICONTROL Time Spent on Page – granular]?**
+**Q3 : Quelle mesure est appropriée par rapport à la dimension [!UICONTROL Durée de consultation de la page - Granulaire] ?**
 
 R : N’importe quelle mesure. La dimension indiquera la durée de la visite sur l’accès exact où l’événement s’est produit. Une durée plus longue de la visite signifie qu’un visiteur est resté plus longtemps sur une page (accès) où l’événement s’est produit.
 
 ![](assets/time-spent2.png)
 
-**Q4 : En quoi cela[!UICONTROL Average Time Spent on Site]diffère-t-il[!UICONTROL Time Spent per Visit]?**
+**Q4 : En quoi la [!UICONTROL Durée moyenne de la visite du site] diffère-t-elle de la [!UICONTROL Durée de la visite] ?**
 
 R : La différence est le dénominateur de la mesure :
 
-* [!UICONTROL Average time spent on site] utilise les séquences qui incluent un élément de dimension.
+* La [!UICONTROL Durée moyenne de la visite du site] utilise les séquences qui incluent un élément de dimension.
 
-* [!UICONTROL Time spent per visit] utilise le nombre de visites
+* La [!UICONTROL Durée de la visite] utilise le nombre de visites.
 
 Par conséquent, ces mesures peuvent donner des résultats similaires au niveau de la visite, mais elles seront différentes au niveau de l’accès.
 
-**Q5 : Pourquoi les totaux de ventilation ne correspondent-ils[!UICONTROL Average Time Spent on Site]pas à l’élément de ligne parent ?**
+**Q5 : Pourquoi les totaux de ventilation avec la Durée[!UICONTROL moyenne de la visite du site]ne correspondent-ils pas à l’élément de ligne parent ?**
 
-A : Parce que [!UICONTROL Average Time Spent on Site] dépend de séquences ininterrompues d’une dimension et que le rapport interne ne dépend pas du rapport externe lors du calcul de ces exécutions.
+A : Etant donné que la durée [!UICONTROL moyenne de la visite du site] dépend de séquences ininterrompues d’une dimension et que le rapport interne ne dépend pas du rapport externe lors du calcul de ces exécutions.
 
 Prenons l’exemple de la visite suivante.
 |hit#|1|2|3||—|—|—|—|||**Secondes passées**|30|100|10||Nom **de** page|Accueil|Produit|Accueil||**date**|1 janvier|1 janvier|1 janvier|1 janvier|
@@ -97,22 +97,22 @@ Lors du calcul du temps passé pour la page d&#39;accueil, il serait (30+10)/2=2
 
 Par conséquent, ces mesures peuvent donner des résultats similaires au niveau de la visite, mais elles seront différentes au niveau de l’accès.
 
-## Exemples de [!UICONTROL Time Spent] calculs
+## Exemples de calculs de [!UICONTROL durée de la visite]
 
 Supposons que le jeu d’appels au serveur suivant concerne un seul visiteur au cours d’une visite unique :
 
 | Accès de la visite | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
 | **Temps écoulé de la visite (en secondes)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
-| **Secondes passées** | 30 | 50 | 100 | 10 | 40 | 60 | N/A |
+| **Secondes écoulées** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Type d’accès** | Page | Lien | Page | Page | Page | Page | Page |
-| **Nom de la page** | Accueil | N/A | Product | Accueil | Accueil  (recharge) | Panier | Confirmation de commande |
+| **Nom de la page** | Accueil | - | Product | Accueil | Accueil  (recharge) | Panier | Confirmation de commande |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A  (définie) | A (propagée) | non définie | B (définie) | B (définie) | A(set) | C  (définie) |
-| **prop1 secondes passées** | 30 | 50 | N/A | 10 | 40 | 60 | N/A |
+| **secondes écoulées prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
-| **eVar1** | Rouge (définie) | Rouge (persistante) | (expiré) | Bleu (définie) | Bleu (définie) | Bleu (persistante) | Rouge (définie) |
-| **secondes écoulées eVar1** | 30 | 50 | N/A | 10 | 40 | 60 | N/A |
+| **eVar1** | Rouge (définie) | Rouge (persistante) | (expirée) | Bleu (définie) | Bleu (définie) | Bleu (persistante) | Rouge (définie) |
+| **secondes écoulées eVar1** | 30 | 50 | - | 10 | 40 | 60 | - |
 
 Sur la base du tableau ci-dessus, les mesures de durée de la visite sont calculées comme suit :
 
@@ -121,13 +121,13 @@ Sur la base du tableau ci-dessus, les mesures de durée de la visite sont calcul
 | A  | 30+50+60=140 | 140/1=140 | 140/1=140 | 2 | 140/2=70 |
 | B | 10+40=50 | 50/1=50 | 50/1=50 | 1 | 50/1=50 |
 | C  | 0 | 0 | 0 | 0 | 0 |
-| Heure non attribuée | 100 | N/A | N/A | N/A | N/A |
+| Durée non attribuée | 100 | - | - | - | - |
 
 | eVar1 | Durée totale en secondes | Durée de la visite | Durée par visiteur | Nombre de séquences | Durée moyenne de la visite du site |
 |---|---|---|---|---|---|
 | Rouge  | 30+50=80 | 80/1=80 | 80/1=80 | 1 | 80/1=80 |
 | Bleu  | 10+40+60=110 | 110/1=110 | 110/1=110 | 1 | 110/1=110 |
-| Heure non attribuée | 100 | N/A | N/A | N/A | N/A |
+| Durée non attribuée | 100 | - | - | - | - |
 
 Durée de la visite (granulaire) : 290
 Durée par page (granulaire) : 10, 30, 40, 50, 60, 100
@@ -136,9 +136,9 @@ Quelques remarques supplémentaires à l’appui de l’exemple :
 
 * Tous les calculs de durée de la visite sont basés sur le temps écoulé de la visite qui commence à zéro lors du premier accès de la visite.
 
-* Les « secondes écoulées » correspondent à la différence entre l’horodatage de l’accès actuel et l’horodatage de l’accès suivant. En conséquence, le dernier accès de la visite (et les rebonds) n’ont pas de temps passé.
+* Les « secondes écoulées » correspondent à la différence entre l’horodatage de l’accès actuel et l’horodatage de l’accès suivant. En conséquence, le dernier accès de la visite (et rebonds) ne comporte pas de durée de la visite.
 
-* Une &quot;séquence&quot; est un ensemble consécutif d’accès où une variable donnée contient la même valeur (qu’elle soit définie, propagée vers l’avant ou persistante). Par exemple, prop1 &quot;A&quot; comporte deux séquences : accès 1 et 2 et accès 6. Les valeurs du dernier accès de la visite ne  pas de nouvelle séquence, car le dernier accès n’a pas de temps passé. Le temps moyen passé sur le site utilise des séquences dans le dénominateur.
+* Une « séquence » est un jeu consécutif d’accès pour lequel une variable donnée contient la même valeur (qu’elle soit définie, propagée ou persistante). Par exemple, prop1 « A » comporte deux séquences : accès 1 et 2 et accès 6. Les valeurs du dernier accès de la visite ne démarrent pas une nouvelle séquence car le dernier accès ne comporte pas de durée de la visite. La durée moyenne de la visite du site utilise des séquences du dénominateur.
 
    * Pour les besoins de la durée de la visite uniquement, les props sont « propagées » à partir des accès à la page vers les accès au lien suivants, comme indiqué ci-dessus pour prop1 sur l’accès 2. Cela permet à la valeur qui a été définie pour prop1 sur l’accès 1 (« A ») d’accumuler de la durée de visite sur l’accès 2.
 
