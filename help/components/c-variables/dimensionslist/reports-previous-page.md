@@ -3,7 +3,7 @@ description: Rapport qui fournit une analyse détaillée des chemins du site en 
 title: Page précédente
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Vous souhaitez peut-être connaître la provenance des personnes qui ont visité
 <table id="table_25A2182ACEC94E2190F21B82249577E8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Produit </th> 
+   <th colname="col1" class="entry"> Product </th> 
    <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
