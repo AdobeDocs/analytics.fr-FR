@@ -3,7 +3,7 @@ description: Répertorie les mesures et les dimensions prises en charge par les 
 title: Mesures et dimensions en temps réel prises en charge
 topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Répertorie les mesures et les dimensions prises en charge par les rapports Temps réel. Si vous les avez définies, les classifications sont également prises en charge.
 
-## Mesures prises en charge {#section_514ED8B382494C47BFC0657894D1AF94}
+## Mesures prises en charge  {#section_514ED8B382494C47BFC0657894D1AF94}
 
 * Recettes
 * Commandes
@@ -26,22 +26,22 @@ Répertorie les mesures et les dimensions prises en charge par les rapports Temp
 * Instances
 * Événements personnalisés 1 à 100 (s’ils sont activés dans la suite de rapports)
 
-## Dimensions prises en charge {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Dimensions prises en charge  {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
-* Activity Map
-* Rechercher mot de passe
+* Page
+* Mot-clé de recherche
 * Moteur de recherche
 * Domaine référent
 * Géosegmentation – Pays
 * Région de géosegmentation
 * Géosegmentation – Ville
 * DMA E.U. de géosegmentation
-* Produit
-* Serveur
+* Product
+* Server (Serveur)
 * Section du site
 * Code de suivi
 * Lien personnalisé
 * Téléchargement de fichier(s)
-* Lien de sortie
+* Exit Link (Lien de sortie)
 * Variables d’aperçu personnalisées (props) 1 à 75 (si elles sont activées dans la suite de rapports)
 
