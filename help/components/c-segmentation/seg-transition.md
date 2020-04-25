@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Questions fréquentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,7 +30,7 @@ Répond aux questions fréquemment posées sur les fonctionnalités de segmentat
 * Vous pouvez [marquer les segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers. Par le passé, vous utilisiez des dossiers (dans les [!DNL Ad Hoc Analysis]) pour organiser vos segments.
 
 * Vous pouvez créer des [segments séquentiels](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) en dehors des Ad Hoc Analysis.
-* Le conteneur de pages vues a été renommé « conteneur d’accès » afin d’indiquer que ce conteneur segmente tous les types de données et pas uniquement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès. Notez qu’aucune modification n’a été apportée au fonctionnement de ce conteneur, il a simplement été renommé.
+* Le conteneur Page vue a été renommé en conteneur Accès pour indiquer qu’il segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès. Notez qu’aucune modification n’a été apportée au fonctionnement de ce conteneur, il a simplement été renommé.
 
 Voir l’article [Amélioration de la segmentation dans Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) sur le blog de Digital Marketing pour en savoir plus.
 
