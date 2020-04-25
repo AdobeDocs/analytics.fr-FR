@@ -2,7 +2,7 @@
 description: Vous pouvez afficher les anomalies dans un tableau ou un graphique en courbes.
 title: Affichage des anomalies dans Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -37,7 +37,7 @@ Si le graphique en courbes comporte plusieurs mesures, seules les anomalies sont
 
 L’intervalle de confiance Détection des anomalies ne met pas automatiquement à l’échelle l’axe des ordonnées d’une visualisation afin de rendre le graphique potentiellement plus lisible.
 
-Vous avez la possibilité de configurer l’intervalle de confiance pour qu’il mette le graphique à l’échelle. Cliquez simplement sur l’icône d’engrenage Paramètres et cochez l’option **[!UICONTROL Autoriser la détection des anomalies pour mettre à l’échelle l’axe des ordonnées]**.
+Vous avez la possibilité de configurer l’intervalle de confiance pour qu’il mette le graphique à l’échelle. Il vous suffit de cliquer sur l&#39;icône Paramètres (engrenage) et de cocher **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**.
 
 ![](assets/scale-y-axis.png)
 
