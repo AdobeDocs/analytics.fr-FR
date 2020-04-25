@@ -65,7 +65,7 @@ Pour activer l’intégration, vous devez exécuter l’assistant de configurati
    1. Ne modifiez **PAS** les noms des 8 dimensions standard (c’est-à-dire le code SID Demandbase, le nom de la société, le secteur industriel, etc.).
 
 1. Cochez la case pour que le tableau de bord d’intégration Demandbase soit automatiquement créé (recommandé).
-1. Review all configuration items and click **[!UICONTROL Activate Now]**.
+1. Vérifiez tous les éléments de configuration et cliquez sur **[!UICONTROL Activer maintenant]**.
 
 ## Déploiement du code d’intégration {#deploying-the-integration-code}
 
@@ -73,7 +73,7 @@ Après avoir exécuté l’assistant d’intégration, vous devez déployer le c
 
 >[!NOTE] Si vous avez utilisé Adobe TagManager ou Dynamic Tag Management pour déployer Adobe Analytics, vous pouvez facilement ajouter le code d’intégration à l’aide de l’un de ces outils.
 
-1. Go to the **[!UICONTROL Support]** tab and download and save the `integration code v2_0_1` resource from the Resources area of the integration.
+1. Accédez à l’onglet **[!UICONTROL Assistance]** et téléchargez puis enregistrez la ressource `integration code v2_0_1` depuis la zone Ressources de l’intégration.
 
 1. Le cas échéant, apportez les modifications nécessaires au code. Pour plus d’informations, voir Modification du code d’intégration (sur cette page).
 1. Incluez le module Integrate s’il n’est pas déjà présent dans votre code de déploiement Adobe Analytics.
@@ -155,7 +155,7 @@ Si vous ne disposez pas déjà du module Integrate dans le cadre de votre déplo
 
 ### Pour AppMeasurement v1.0+ {#section-f28d090bf2404cabaae34cd9c66fc575}
 
-1. Unzip the AppMeasurement zip file that you downloaded from **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
+1. Décompressez le fichier zip AppMeasurement que vous avez téléchargé depuis **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL CodeManager]**.
 
 1. Ouvrez le fichier nommé [!DNL AppMeasurement_Module_Integrate.js].
 1. Copiez et collez le contenu de ce fichier dans votre fichier principal [!DNL AppMeasurement.js].
