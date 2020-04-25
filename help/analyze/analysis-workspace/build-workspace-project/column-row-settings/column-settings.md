@@ -2,7 +2,7 @@
 description: Grâce aux paramètres de colonne, vous pouvez configurer la mise en forme des colonnes, dont certains éléments peuvent être conditionnels.
 title: Paramètres des colonnes
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ Grâce aux paramètres de colonne, vous pouvez configurer la mise en forme des c
 
 ## Paramètres des colonnes {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-Pour accéder aux [!UICONTROL Paramètres de colonne], faites glisser un tableau à structure libre vers le projet, puis cliquez sur l’icône en forme d’engrenage dans l’en-tête de la colonne.
+To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
 
 ![](assets/column_settings.png)
 
