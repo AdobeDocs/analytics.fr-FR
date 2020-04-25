@@ -3,7 +3,7 @@ description: Pour vérifier que le transfert côté serveur est correctement act
 solution: Audience Manager
 title: Comment vérifier l’implémentation du transfert côté serveur
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
