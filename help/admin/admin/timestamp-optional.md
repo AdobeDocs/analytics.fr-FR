@@ -13,11 +13,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Combinez les données horodatées et non horodatées au sein d’une seule suite de rapports.
 
-Le paramètre Horodatages facultatifs vous permet d’effectuer les opérations suivantes :
+Avec les horodatages facultatifs, vous pouvez faire ce qui suit :
 
-* Combinez des données horodatées et non horodatées dans la même suite de rapports globale.
+* Ajoutez des données horodatées et non horodatées à la même suite de rapports globale.
 * Envoyez des données horodatées d’une application mobile vers une suite de rapports globale.
-* Mettez à niveau les applications pour utiliser le suivi hors ligne sans avoir à créer de suite de rapports.
+* Mettez à niveau les applications afin d’utiliser le suivi hors ligne sans avoir à créer une suite de rapports.
 
 >[!IMPORTANT] Si vous utilisez le paramètre Horodatages (facultatif), ne définissez pas [s.visitorID](/help/implement/vars/config-vars/visitorid.md) sur les données qui sont déjà horodatées. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de rapports de cheminement.
 
@@ -25,21 +25,21 @@ Le paramètre Horodatages facultatifs vous permet d’effectuer les opérations 
 
 ## Nouvelles suites de rapports {#section_095A7CFBD280494593B9BEC1592B73A6}
 
-* Si elle est créée à partir d’un modèle, une nouvelle suite de rapports prend par défaut la valeur Horodatages facultatifs.
+* Si elles sont créées à partir d’un modèle, le paramètre Horodatages (facultatif) est activé par défaut pour les nouvelles suites de rapports.
 
    (Pour créer une suite de rapports à partir d’un modèle, sélectionnez **Admin > Suites de rapports > Nouveau > Suite de rapports**.)
-* Si elle est copiée à partir d’une suite de rapports existante, la nouvelle suite de rapports hérite du paramètre d’horodatage d’origine, notamment :
+* Si elle est copiée à partir d’une suite de rapports existante, la nouvelle suite de rapports hérite des paramètres d’horodatage de l’original, y compris :
 
    * **Horodatages non autorisés** (paramètre s.visitorID pris en charge)
    * **Horodatages requis** (paramètre s.visitorID non pris en charge)
-   * **Horodatages facultatifs** (paramètre s.visitorID pris en charge mais pas sur les accès horodatés)
+   * **Horodatages facultatifs** (paramètre s.visitorID pris en charge sauf sur les accès horodatés)
 
 ## Pour activer le paramètre Horodatages (facultatif) pour des suites de rapports existantes, procédez comme suit : {#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. Sélectionnez **Admin > Suites de rapports > Modifier les paramètres > Général > Configuration de l’horodatage**.
-1. Sélectionnez la zone **Convertir les suites de rapports sélectionnées en horodatages (facultatif** ).
+1. Cochez la case **Convertir les suites de rapports sélectionnées en horodatages (facultatif)**
 
-   La suite de rapports sera remplacée par Horodatages facultatifs.
+   Le paramètre Horodatages (facultatif) est activé pour la suite de rapports.
 
 >[!NOTE] Si une suite de rapports a été définie sur **Horodatages facultatifs**, contactez le service à la clientèle Adobe si vous souhaitez modifier ce paramètre.
 
