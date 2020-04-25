@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Ventilation des dimensions
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Ventilez les dimensions et les éléments de dimension dans Analysis Workspace.
 Ventilez vos données de différentes manières en fonction de vos besoins ; créez des requêtes à l’aide de mesures, de dimensions, de segments, de chronologies pertinentes et autres valeurs de ventilation d’analyse.
 
 1. [Créez un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) avec un tableau de données.
-1. Dans le tableau de données, cliquez avec le bouton droit de la souris sur une ligne et sélectionnez **[!UICONTROL Ventilation]** > *`<item>`*.
+1. In the data table, right-click a line item and select **[!UICONTROL Breakdown]** > *`<item>`*.
 
    ![Résultat de l’étape](assets/fa_data_table_actions.png)
 
