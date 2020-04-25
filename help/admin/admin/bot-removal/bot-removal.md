@@ -13,11 +13,11 @@ Dans Adobe Analytics, vous disposez de plusieurs options pour supprimer le trafi
 
 ## Utiliser des règles de robots
 
-Both standard and custom bot filtering methods are supported in **[!UICONTROL Analytics]**>**[!UICONTROL  Admin]** > **[!UICONTROL Report Suites]**>**[!UICONTROL  Edit Settings]** > **[!UICONTROL General]**>**[!UICONTROL  Bot Rules]**:
+Les méthodes de filtrage de robots standard et personnalisées sont prises en charge dans **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de robots]** :
 
 | Type de règle | Description |
 |--- |--- |
-| Règles de robots IAB standard | En sélectionnant l’option **[!UICONTROL Activer les règles de filtrage de robots IAB]**, vous utilisez la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’[IAB](https://www.iab.com/)(Bureau international de la publicité) pour supprimer le trafic de robots. La plupart des clients sélectionnent au moins cette option. |
+| Règles de robots IAB standard | En sélectionnant l’option **[!UICONTROL Activer les règles de filtrage de robots IAB]**, vous utilisez la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’[IAB](https://www.iab.com/) (Bureau international de la publicité) pour supprimer le trafic de robots. La plupart des clients sélectionnent au moins cette option. |
 | Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateurs, des adresses IP ou des plages d’adresses IP. |
 
 Pour plus d’informations, voir [Présentation des règles de robots](/help/admin/admin/bot-removal/bot-rules.md).
@@ -28,7 +28,7 @@ En outre, comme les robots se transforment rapidement, Adobe propose plusieurs a
 
 ### Étape 1 : transférer l’Experience Cloud ID de vos visiteurs dans un nouvel ID déclaré
 
-Pour commencer, vous souhaiterez créer un ID déclaré dans le [service clé People](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html). Vous devrez transmettre l’Experience Cloud ID de votre visiteur à ce nouvel ID déclaré, ce qui peut être effectué rapidement et facilement à l’aide d’[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Utilisons le nom « ECID » pour l’ID déclaré.
+Pour commencer, vous souhaiterez créer un ID déclaré dans le [service clé People](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html). Vous devrez transmettre l’Experience Cloud ID de votre visiteur à ce nouvel ID déclaré, ce qui peut être effectué rapidement et facilement à l’aide d’[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/implement/solutions/idservice-save.html). Utilisons le nom « ECID » pour l’ID déclaré.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -36,17 +36,17 @@ Voici la manière de capturer cet ID via l’élément de données. Veillez à r
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Une fois cet élément de données configuré, suivez [ces instructions](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) pour transmettre les ID déclarés à l’outil ECID dans Launch.
+Une fois cet élément de données configuré, suivez [ces instructions](https://docs.adobe.com/content/help/fr-FR/launch/using/implement/solutions/idservice-save.html) pour transmettre les ID déclarés à l’outil ECID dans Launch.
 
 ### Étape 2 : utiliser la segmentation pour identifier les robots
 
-Maintenant que l’ECID de votre visiteur est transmis dans un ID déclaré, vous pouvez utiliser la [segmentation dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) pour identifier les visiteurs qui se comportent comme des robots. Les robots sont souvent définis par leur comportement : visites à accès unique, agents utilisateurs inhabituels, informations inconnues de l’appareil ou du navigateur, aucun référent, nouveaux visiteurs, pages d’entrée inhabituelles, etc. Utilisez les fonctions d’exploration et de segmentation de Workspace pour identifier les robots qui ont échappé au filtrage IAB et les règles de robots de votre suite de rapports. Par exemple, voici une capture d’écran d’un segment que vous pouvez utiliser :
+Maintenant que l’ECID de votre visiteur est transmis dans un ID déclaré, vous pouvez utiliser la [segmentation dans Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) pour identifier les visiteurs qui se comportent comme des robots. Les robots sont souvent définis par leur comportement : visites à accès unique, agents utilisateurs inhabituels, informations inconnues de l’appareil ou du navigateur, aucun référent, nouveaux visiteurs, pages d’entrée inhabituelles, etc. Utilisez les fonctions d’exploration et de segmentation de Workspace pour identifier les robots qui ont échappé au filtrage IAB et les règles de robots de votre suite de rapports. Par exemple, voici une capture d’écran d’un segment que vous pouvez utiliser :
 
 ![](assets/bot-filter-seg1.png)
 
 ### Étape 3 : exporter tous les [!DNL Experience Cloud IDs] du segment via Data Warehouse
 
-Maintenant que vous avez identifié les robots à l’aide de segments, l’étape suivante consiste à tirer parti de Data Warehouse pour extraire tous les Experience Cloud ID associés à ce segment. Voici comment configurer votre demande [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) :
+Maintenant que vous avez identifié les robots à l’aide de segments, l’étape suivante consiste à tirer parti de Data Warehouse pour extraire tous les Experience Cloud ID associés à ce segment. Voici comment configurer votre demande [Data Warehouse](https://docs.adobe.com/content/help/fr-FR/analytics/export/data-warehouse/data-warehouse.html) :
 
 ![](assets/bot-dwh-3.png)
 
