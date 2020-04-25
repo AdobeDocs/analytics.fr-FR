@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Carte
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ La visualisation des cartes dans Analysis Workspace :
 
 ## Génération d’une visualisation des cartes {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. Dans la liste des visualisations, faites glisser la **[!UICONTROL Carte]** vers le panneau à structure libre :
+1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +42,7 @@ La visualisation des cartes dans Analysis Workspace :
  </tbody> 
 </table>
 
-1. Cliquez sur **[!UICONTROL Créer]**.
+1. Cliquez sur **[!UICONTROL Build]**.
 
    La première vue qui s’affiche est une vue mondiale avec une carte à bulles, similaire à celle-ci.
 
