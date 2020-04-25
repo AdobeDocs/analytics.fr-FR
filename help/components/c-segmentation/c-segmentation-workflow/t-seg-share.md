@@ -3,7 +3,7 @@ description: Selon vos autorisations, vous pouvez partager des segments avec lâ€
 title: Partage des segments
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
