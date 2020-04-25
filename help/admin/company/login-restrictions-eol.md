@@ -1,7 +1,7 @@
 ---
 title: Fin de vie de la fonction [!UICONTROL Exiger des restrictions d’identification par IP]
 description: Découvrez la date de fin de vie de la fonction [!UICONTROL Exiger des restrictions d’identification par IP] et les répercussions à attendre.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
