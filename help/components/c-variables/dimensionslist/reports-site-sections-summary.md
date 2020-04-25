@@ -3,7 +3,7 @@ description: Rapport résumé relatif aux sections du site qui affiche le point 
 title: Résumé des sections du site
 topic: Reports
 uuid: 5bee04ea-5414-4538-b0d1-120700982762
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
