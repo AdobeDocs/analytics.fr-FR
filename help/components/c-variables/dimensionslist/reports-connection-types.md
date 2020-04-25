@@ -17,7 +17,7 @@ Affiche des mesures pour le type de connexion Internet, y compris le modem, le r
 
 ## Exemple
 
-Le rapport suivant compare les types de connexion pour les mesures [Visites](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) et [Pages vues](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html):
+Le rapport suivant compare les types de connexion pour les mesures [Visites](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/metrics/metrics-visit.html) et [de](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html)page :
 
 ![rapport](assets/contype_compare.png)
 
