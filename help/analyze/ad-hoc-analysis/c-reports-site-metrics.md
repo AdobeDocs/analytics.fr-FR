@@ -1,9 +1,9 @@
 ---
 description: Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
-title: Mesures du site rapports
+title: Rapports sur les mesures du site
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
 
-## Mesures du site rapports {#concept_0639CA16551749A693F49ADED4842CCE}
+## Rapports sur les mesures du site {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Affiche des informations quantitatives concernant votre site Web, comme le nombre de visiteurs qui ont consulté certaines pages, le nombre global des achats effectués à partir de pages particulières et des informations quantitatives similaires. Chacun de ces rapports est une mesure que vous pouvez placer dans d’autres rapports portant sur les éléments.
 
@@ -33,7 +33,7 @@ Rapport de tendance qui affiche le nombre de fois où les pages de votre site We
 
 ## Rapport Visites {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
-Affiche le nombre de visites effectuées sur l’ensemble de votre site Web au cours d’une période spécifiée. Une *visite* correspond à une séquence de pages vues. Elle débute lorsque le visiteur charge une page et se termine après 30 minutes d’inactivité. Une visite peut durer plusieurs heures, pour autant que le visiteur charge au moins une page avant l’expiration du délai. Une visite ne coïncide pas nécessairement avec une session de navigateur. Par exemple, si un visiteur ferme le navigateur, l’ouvre de nouveau et se rend sur votre site dans les cinq minutes qui suivent, cette visite est considérée comme étant la suite de celle entamée quelques minutes plus tôt. Cela signifie également que si un visiteur consulte une page pendant 35 minutes, la visite est fermée et traitée, et une nouvelle visite commence s’il clique sur un lien vers une autre page. Le suivi des visites est réalisé par des cookies. Il est mis fin à une visite après 12 heures d’activité continue.
+Affiche le nombre de visites effectuées sur l’ensemble de votre site web au cours d’une période spécifiée. Une *visite* correspond à une séquence de pages vues. Elle débute lorsque le visiteur charge une page et se termine après 30 minutes d’inactivité. Une visite peut durer plusieurs heures, pour autant que le visiteur charge au moins une page avant l’expiration du délai. Une visite ne coïncide pas nécessairement avec une session de navigateur. Par exemple, si un visiteur ferme le navigateur, l’ouvre de nouveau et se rend sur votre site dans les cinq minutes qui suivent, cette visite est considérée comme étant la suite de celle entamée quelques minutes plus tôt. Cela signifie également que si un visiteur consulte une page pendant 35 minutes, la visite est fermée et traitée, et une nouvelle visite commence s’il clique sur un lien vers une autre page. Le suivi des visites est réalisé par des cookies. Il est mis fin à une visite après 12 heures d’activité continue.
 
 <!-- 
 
