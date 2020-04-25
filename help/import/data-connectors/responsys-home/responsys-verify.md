@@ -2,7 +2,7 @@
 description: Après le déploiement, vous devez vérifier que l’intégration transfère correctement les données en procédant aux vérifications suivantes.
 title: Vérification de l’intégration
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
