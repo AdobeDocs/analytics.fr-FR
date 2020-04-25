@@ -2,7 +2,7 @@
 description: Le nouveau système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 title: Alertes intelligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
