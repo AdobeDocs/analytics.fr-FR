@@ -2,7 +2,7 @@
 description: Une intégration appFigures est souvent mise en œuvre afin de collecter des données pour plusieurs applications dans différentes boutiques d’applications. Vous pouvez créer des segments afin d’isoler les données de rapport pour une application ou une boutique d’applications spécifique.
 title: Segmentation des données des applications
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
