@@ -1,7 +1,7 @@
 ---
 title: Aide sur les Data Connectors Analytics
 description: aide sur les connecteurs de données
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,9 +18,9 @@ Il inclut :
 
 * Liste ici
 
-## Plus de guides de l’utilisateur Analytics
+## Plus de guides d’utilisation d’Analytics
 
-[Guides de l’utilisateur Analytics](/help/landing/home.md)
+[Guides d’utilisation d’Analytics](/help/landing/home.md)
 
 ## Principales ressources Analytics
 
