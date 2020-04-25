@@ -3,7 +3,7 @@ description: valeur nulle
 title: Exemple de code de mise en œuvre
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
