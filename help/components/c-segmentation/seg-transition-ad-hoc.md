@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Guide de transition relatif aux Ad Hoc Analysis
 topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -40,7 +40,7 @@ Lorsque vous supprimez un segment, les rapports planifiés et les tableaux de bo
 
 ## Qu’est-ce qu’un conteneur d’accès ? Est-ce différent d’un conteneur Page vue ?  {#section_65BBE60A836C4001938830DDA15DC256}
 
-Le conteneur de pages vues a été renommé « conteneur d’accès » afin d’indiquer que ce conteneur segmente tous les types de données et pas uniquement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès.
+Le conteneur Page vue a été renommé en conteneur Accès pour indiquer qu’il segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès.
 
 Notez qu’aucune modification n’a été apportée au fonctionnement de ce conteneur, il a simplement été renommé.
 
