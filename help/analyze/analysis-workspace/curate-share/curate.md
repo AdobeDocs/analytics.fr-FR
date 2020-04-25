@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Traitements et partages - Aperçu
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,24 +18,24 @@ Le traitement permet de limiter les composants avant de partager un projet. Vous
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Partager]** > **[!UICONTROL Traiter les données du projet]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Share]**> **[!UICONTROL Curate Project Data]**
 
 ## Traiter les données du projet
 
 1. Spécifiez les autorisations afin de créer et de traiter des projets.
 
-   Avant de créer ou de traiter un projet Analysis Workspace, les administrateurs doivent vous ajouter à un [groupe](https://marketing.adobe.com/resources/help/fr_FR/reference/groups.html) avec l’autorisation **[!UICONTROL Accès à Analysis Workspace]** activée ou au groupe d’utilisateurs **[!UICONTROL Accès à tous les rapports]**. (**[!UICONTROL Administration]** > **[!UICONTROL Gestion utilisateur]** > **[!UICONTROL Groupes]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/fr_FR/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
 
-1. [Créez et enregistrez](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) un projet, puis cliquez sur **[!UICONTROL Partager]** > **[!UICONTROL Traiter les données du projet]**.
-1. Faites glisser les composants à partager depuis la pile de composants déplaçables à gauche vers le champ **[!UICONTROL Composants traités]**.
+1. [Créez et enregistrez](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) un projet, puis cliquez sur **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL Curated Components]** field.
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >Il n’est pas obligatoire de traiter les composants pour partager un projet. Vous pouvez partager un projet avec tous les composants par défaut disponibles ou avec certains composants sélectionnés. Pour préserver tous les composants par défaut d’un projet, il est recommandé de se créer une copie dudit projet (à l’aide de l’option **[!UICONTROL Enregistrer sous]**) avant de traiter les composants. Une fois les composants traités dans un projet, vous n’avez plus accès aux autres composants pour ce même projet.
+   >Il n’est pas obligatoire de traiter les composants pour partager un projet. Vous pouvez partager un projet avec tous les composants par défaut disponibles ou avec certains composants sélectionnés. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Une fois les composants traités dans un projet, vous n’avez plus accès aux autres composants pour ce même projet.
 
-1. Cliquez sur **[!UICONTROL Terminé]**.
+1. Cliquez sur **[!UICONTROL Done]**.
 
 Le projet généré se comporte comme un projet type dans Analysis Workspace, mais uniquement avec les composants spécifiés.
 
@@ -43,7 +43,7 @@ Le projet généré se comporte comme un projet type dans Analysis Workspace, ma
 
 Le partage rend ce projet disponible pour d’autres utilisateurs d’Analysis Workspace de votre entreprise. Tout traitement que vous avez effectué est reflété lorsque d’autres utilisateurs utilisent le projet.
 
-1. Après avoir traité les composants d’un rapport, cliquez sur **[!UICONTROL Partager]** > **[!UICONTROL Partager le projet]**.
+1. After you curate the components of a report, click **[!UICONTROL Share]** > **[!UICONTROL Share Project]**.
 
    ![](assets/share_component.png)
 
@@ -60,7 +60,7 @@ Le partage rend ce projet disponible pour d’autres utilisateurs d’Analysis W
    >
    >Ce paramètre est ponctuel ; c’est une action unique au moment du partage.
 
-1. Cliquez sur **[!UICONTROL Partager]**.
+1. Cliquez sur **[!UICONTROL Share]**.
 
 <!-- 
 
