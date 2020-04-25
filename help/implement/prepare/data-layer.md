@@ -1,6 +1,6 @@
 ---
 title: Création d’une couche de données
-description: Découvrez quelle couche de données se trouve dans votre implémentation Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
+description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
 translation-type: tm+mt
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
@@ -9,27 +9,27 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 # Création d’une couche de données
 
-Une couche de données est une structure d’objets JavaScript sur votre site qui contient toutes les valeurs de variable utilisées dans votre implémentation. Il permet un meilleur contrôle et une maintenance plus facile dans votre implémentation.
+Une couche de données désigne une structure d’objets JavaScript sur votre site qui contient toutes les valeurs de variable utilisées dans votre mise en œuvre. Il permet un meilleur contrôle et une maintenance plus facile dans votre mise en œuvre.
 
 ## Conditions préalables
 
-[Créer un](solution-design.md) de conception de solution : il est important que votre entreprise s&#39;aligne sur les exigences de suivi. Assurez-vous d’être préparé avec un de conception de solution avant de vous adresser aux équipes de développement de votre entreprise.
+[Créer un document de conception de solution :](solution-design.md) il est important que votre entreprise s’aligne sur les exigences de suivi. Assurez-vous d’être préparé avec un document de conception de solution avant de contacter les équipes de développement de votre entreprise.
 
 ## Processus
 
-La mise en oeuvre d’Adobe Analytics à l’aide d’une couche de données suit généralement les étapes suivantes :
+La mise en œuvre d’Adobe Analytics à l’aide d’une couche de données suit généralement les étapes suivantes :
 
-1. **Collaborez avec votre équipe de développement de site pour mettre en oeuvre une couche** de données : Votre équipe de développement de site est principalement chargée de s’assurer que l’objet de couche de données est renseigné avec les valeurs correctes. Consultez cette page avec votre équipe de développement de site pour vous assurer que les attentes sont alignées entre les équipes.
+1. **Collaborez avec votre équipe de développement de site pour mettre en œuvre une couche de données :** votre équipe de développement de site est principalement chargée de s’assurer que l’objet de couche de données est renseigné avec les valeurs correctes. Consultez cette page avec votre équipe de développement de site pour vous assurer que les attentes sont harmonisées entre les équipes.
    > [!NOTE] Le respect des spécifications de couche de données recommandées par Adobe est facultatif. Si vous disposez déjà d’une couche de données ou si vous choisissez de ne pas respecter les spécifications d’Adobe, assurez-vous que votre entreprise s’aligne sur les spécifications à suivre.
-2. **Validez la couche de données à l’aide d’une console** de navigateur : Une fois une couche de données créée, vous pouvez vérifier qu’elle fonctionne à l’aide de la console de développement de n’importe quel navigateur. Vous pouvez ouvrir la console de développement dans la plupart des navigateurs à l’aide de la `F12` clé. Un exemple de valeur de variable serait `digitalData.page.pageInfo.pageID`.
-3. **Utilisez Adobe Experience Platform Launch pour mapper les objets de couche de données aux éléments** de données Launch : Créez des éléments de données dans Lancer, puis mappez-les aux attributs JavaScript décrits dans votre couche de données.
-4. **Utilisez l’extension Adobe Analytics dans Launch pour mapper les éléments de données aux variables** Analytics : En suivant votre  de conception de solution, affectez chaque élément de données à la variable Analytics appropriée.
+2. **Validez la couche de données à l’aide d’une console de navigateur :** une fois une couche de données créée, vous pouvez vérifier qu’elle fonctionne à l’aide de la console de développement de n’importe quel navigateur. Vous pouvez ouvrir la console de développement dans la plupart des navigateurs à l’aide de la clé `F12`. Un exemple de valeur de variable serait `digitalData.page.pageInfo.pageID`.
+3. **Utilisez Adobe Experience Platform Launch pour mapper les objets de couche de données aux éléments de données Launch** : créez des éléments de données dans Launch, puis mappez-les aux attributs JavaScript décrits dans votre couche de données.
+4. **Utilisez l’extension Adobe Analytics dans Launch pour mapper les éléments de données aux variables Analytics** : en suivant le document de conception de la solution, affectez chaque élément de données à la variable Analytics appropriée.
 
 ## Spécifications
 
-Adobe recommande de suivre la couche [de données](https://www.w3.org/2013/12/ceddl-201312.pdf) numériques de l’expérience [client décrite par le groupe](https://www.w3.org/community/custexpdata/)de la communauté de données numériques de l’expérienceclient. Utilisez les sections suivantes pour comprendre comment les éléments de couche de données interagissent avec Adobe Analytics.
+Adobe recommande de suivre la [couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf) décrite par le [groupe de la communauté de données numériques de l’expérience client](https://www.w3.org/community/custexpdata/). Utilisez les sections suivantes pour comprendre comment les éléments de couche de données interagissent avec Adobe Analytics.
 
-L’objet de couche de données globale recommandé est `digitalData`. L’exemple suivant  un objet JSON de couche de données assez complet avec des exemples de valeurs :
+L’objet de couche de données globale recommandé est `digitalData`. L’exemple suivant répertorie un objet JSON de couche de données assez complet avec des exemples de valeurs :
 
 ```js
 digitalData = {
@@ -160,13 +160,13 @@ digitalData = {
 }
 ```
 
-Utilisez le rapport [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) pour plus d’informations sur chaque objet et sous-objet. Tous les sites n’utilisent pas tous les objets ; par exemple, si vous hébergez un site d’actualités, il est peu probable que vous ayez recours à l’ `digitalData.product` objet.
+Utilisez le rapport [Couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf) pour plus d’informations sur chaque objet et sous-objet. Tous les sites n’utilisent pas tous les objets ; par exemple, si vous hébergez un site d’actualités, il est peu probable que vous ayez recours à l’objet `digitalData.product`.
 
-Les couches de données sont extensibles ; si vous avez des exigences spécifiques à votre entreprise, vous pouvez inclure des objets dans la couche de données pour répondre à ces besoins.
+Les couches de données sont extensibles ; si vous avez des exigences spécifiques à votre entreprise, vous pouvez inclure des objets dans la couche de données pour répondre à ces besoins.
 
 ## Définition des valeurs de couche de données
 
-Les couches de données génèrent généralement des données côté serveur, référençant les mêmes objets que ceux utilisés pour créer le contenu du site. Définissez la couche de données du site en fonction des exigences de suivi définies dans le de conception de [solution de votre entreprise](solution-design.md).
+Les couches de données génèrent généralement des données côté serveur, référençant les mêmes objets que ceux utilisés pour créer le contenu du site. Définissez la couche de données du site en fonction des exigences de suivi définies dans le [document de conception de solution](solution-design.md) de votre entreprise.
 
 ## Étapes suivantes
 
