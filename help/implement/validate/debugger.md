@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Cet outil de débogage n’est plus pris en charge. Adobe recommande plutôt d’utiliser l’extension [Chrome du débogueur Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html).
 
-The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. L’utilisation du débogueur vous permet de voir quelles données sont envoyées à Adobe sur une page donnée de votre site. Vous pouvez utiliser ces informations pour dépanner ou valider la mise en œuvre de votre entreprise.
+Le [!UICONTROL débogueur hérité] examine les balises pour la plupart des services Adobe Experience Cloud. L’utilisation du débogueur vous permet de voir quelles données sont envoyées à Adobe sur une page donnée de votre site. Vous pouvez utiliser ces informations pour dépanner ou valider la mise en œuvre de votre entreprise.
 
 ## Installation du débogueur hérité
 
