@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Integration Guide
+user-guide-title: Guide d’intégration Analytics
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
 source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
@@ -16,7 +16,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
    + [Audience Analytics - Aperçu](c-audience-analytics/mc-audiences-aam.md)
    + Workflow Audience Analytics {#audience-analytics-workflow}
       + [Workflow - Aperçu](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Créer une destination Analytics - Guide AAM](https://docs.adobe.com/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [Guide AAM : Créer une destination Analytics](https://docs.adobe.com/help/fr-FR/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [Utilisation des données d’audience dans Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Cas d’utilisation d’Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Questions fréquentes](c-audience-analytics/mc-audiences-faqs.md)
@@ -34,8 +34,8 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
       + [Gestion des comptes Advertising](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Résolution des problèmes d’Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Questions fréquentes](c-advertising-analytics/aa-faq.md)
-+ [Analytics pour Target - A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html)
++ [A4T : Analytics pour Target](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/a4t.html)
 + [Rapports Adobe Campaign](adobe-campaign.md)
 + [Compte rendu des performances d’AEM Assets](aem-assets-reporting.md)
-+ [Compte rendu des performances d’Activity Map](activitmap-reporting.md)
++ [Compte rendu des performances d’Activity Map](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
