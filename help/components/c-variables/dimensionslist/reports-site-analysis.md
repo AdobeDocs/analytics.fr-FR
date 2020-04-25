@@ -3,7 +3,7 @@ description: Rapport d’Ad Hoc Analysis. Le rapport Analyse de site indique le 
 title: Analyse de site
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -69,7 +69,7 @@ Cliquez avec le bouton droit sur des cylindres pour les modifier ou les supprime
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Modifier </p> </td> 
+   <td colname="col1"> <p>Modifier  </p> </td> 
    <td colname="col2"> <p>Permet d’ajouter des pages à un cylindre ou d’en supprimer. </p> </td> 
   </tr> 
   <tr> 
