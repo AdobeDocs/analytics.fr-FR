@@ -15,7 +15,7 @@ Si des données sont [affectées par une](/help/technotes/event-impacted.md), vo
 
 Créez un segment qui isole le jour ou la période affectés. Ce segment s’avère utile si vous souhaitez vous concentrer sur les jours problématiques pour afficher plus d’informations sur son impact.
 
-1. Ouvrez le créateur de segments en sélectionnant **[!UICONTROL Components]** > **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Add]**.
+1. Ouvrez le créateur de segments en accédant à **[!UICONTROL Composants]** > **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajouter]**.
 2. Faites glisser la dimension &quot;Jour&quot; sur le canevas de définition et définissez-la sur le jour à isoler.
 3. Répétez l’étape ci-dessus pour chaque jour que vous souhaitez isoler dans votre rapport.
 
@@ -29,8 +29,8 @@ Adobe recommande d’utiliser les composants de dimension orange, et non les com
 
 Créez un segment qui exclut le jour ou la période affectés. Ce segment est utile si vous souhaitez exclure les jours qui ont rencontré des problèmes afin de minimiser l’impact sur les  d’ensemble des.
 
-1. Ouvrez le créateur de segments en sélectionnant **[!UICONTROL Components]** > **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Add]**.
-2. Dans le coin supérieur droit du canevas de définition de segment, cliquez sur **[!UICONTROL Options]** > **[!UICONTROL Exclude]**.
+1. Ouvrez le créateur de segments en accédant à **[!UICONTROL Composants]** > **[!UICONTROL Segments]**, puis cliquez sur **[!UICONTROL Ajouter]**.
+2. Dans le coin supérieur droit du canevas de définition de segment, cliquez sur **[!UICONTROL Options]** > **[!UICONTROL Exclure]**.
 3. Faites glisser la dimension &quot;Jour&quot; sur le canevas de définition et définissez-la sur le jour à supprimer.
 4. Répétez l’étape ci-dessus pour chaque jour que vous souhaitez supprimer dans votre rapport.
 
@@ -50,7 +50,7 @@ Vous pouvez appliquer les segments &quot;Jours affectés&quot; et &quot;Exclure 
 
 Vous pouvez appliquer le segment &quot;Exclure les jours affectés&quot; à un projet Workspace. Faites glisser le segment d’exclusion vers la section Zone de travail intitulée *Déposer un segment ici*.
 
->[!TIP] Insérez une note sur les données exclues dans la description du panneau pour aider les personnes qui consultent le rapport. Cliquez avec le bouton droit sur le titre d’un panneau, puis cliquez sur **[!UICONTROL Edit description]**.
+>[!TIP] Insérez une note sur les données exclues dans la description du panneau pour aider les personnes qui consultent le rapport. Cliquez avec le bouton droit sur le titre d’un panneau, puis cliquez sur **[!UICONTROL Modifier la description]**.
 
 ![Segment appliqué à un panneau](../assets/exclude_segment_panel.jpg)
 
@@ -58,10 +58,10 @@ Vous pouvez appliquer le segment &quot;Exclure les jours affectés&quot; à un p
 
 Vous pouvez utiliser le segment dans une suite [de rapports](../../vrs/vrs-about.md) virtuelle pour exclure plus facilement les données. Cette option est idéale en ce sens que vous n’avez pas besoin de vous rappeler d’appliquer le segment pour chaque rapport qui inclut la plage de dates affectée. Si vous utilisez déjà des suites de rapports virtuelles comme source principale de données, vous pouvez ajouter le segment à une suite de rapports virtuelle existante.
 
-1. Accédez à **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
-2. Cliquez sur **[!UICONTROL Add]**.
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
+2. Cliquez sur **[!UICONTROL Ajouter]**.
 3. Entrez le nom et la description de la suite de rapports virtuelle.
-4. Faites glisser le segment d’exclusion vers la zone étiquetée **[!UICONTROL Add segment]**.
-5. Cliquez sur **[!UICONTROL Continue]** dans l’angle supérieur droit, puis sur **[!UICONTROL Save]**.
+4. Faites glisser le segment d’exclusion vers la zone intitulée **[!UICONTROL Ajouter segment]**.
+5. Cliquez sur **[!UICONTROL Continuer]** dans l’angle supérieur droit, puis sur **[!UICONTROL Enregistrer]**.
 
 ![Segment appliqué à VRS](../assets/exclude_segment_vrs.png)
