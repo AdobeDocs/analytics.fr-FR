@@ -3,7 +3,7 @@ description: Répertorie quelques considérations que vous devez connaître avan
 title: Suppression des segments
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
