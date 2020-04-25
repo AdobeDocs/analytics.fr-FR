@@ -61,6 +61,6 @@ Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et
 
 1. (Facultatif) Vous pouvez également accéder à d’autres créateurs de composants Analytics et vous assurer qu’ils affichent désormais un libellé de suite de rapports indiquant :
 
-   * L’emplacement de création d’un segment : [Créateur de segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * L’emplacement de création d’une mesure calculée : [Créateur de mesures calculées](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * L’emplacement de création d’une alerte : [Générateur d’alertes](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
+   * L’emplacement de création d’un segment : [Créateur de segments](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * L’emplacement de création d’une mesure calculée : [Créateur de mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * L’emplacement de création d’une alerte : [Générateur d’alertes](https://docs.adobe.com/content/help/fr-FR/analytics/components/alerts/alert-builder.html).
