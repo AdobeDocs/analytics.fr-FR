@@ -20,14 +20,14 @@ Vous pouvez créer un projet d’après :
 
 ## Création d’un modèle personnalisé {#create-custom-template}
 
-Les utilisateurs disposant des droits d’administration peuvent transformer n’importe quel projet qu’ils créent en modèle personnalisé. Procédez comme suit :
+Les utilisateurs dotés de droits d’administration peuvent convertir n’importe quel projet qu’ils créent en un modèle personnalisé. Procédez comme suit :
 
 1. Ouvrez le projet.
 1. Accédez à **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
-   Le projet enregistré sera nommé avec le nom du projet en cours suivi du mot « (Modèle) ». Les administrateurs peuvent modifier ce nom en modifiant le modèle.
+   Le projet enregistré sera nommé avec le nom du projet en cours suivi du mot « (Modèle) ». Les administrateurs peuvent changer ce nom en modifiant le modèle.
 
    >[!NOTE]
    >
@@ -39,18 +39,18 @@ Les utilisateurs disposant des droits d’administration peuvent transformer n�
 
 | Action | Description |
 |--- |--- |
-| Modifier  le modèle | Permet à un administrateur de modifier le modèle en modifiant sa source de données, ses composants, ses visualisations, ses plages de dates, etc.  Pour modifier un modèle personnalisé, procédez comme suit :<ul><li>affichez la liste des modèles personnalisés dans Analysis Workspace, sélectionnez-en un, puis cliquez sur Modifier le modèle ; ou</li><li>dans Analytics, sélectionnez Composants > Projets, puis filtrez les projets en fonction des Modèles. Cliquez sur le nom du modèle à modifier.</li></ul>**Remarque :** Après avoir modifié un modèle, vous disposez de deux options selon les cas : Enregistrez, Enregistrez Sous. En voici les différences :<ul><li>**Enregistrer :** Met à jour le modèle personnalisé pour tous les utilisateurs. Lorsqu’une autre personne crée un projet à partir de ce modèle personnalisé, elle voit les modifications que vous avez apportées.</li><li>**Enregistrer sous :** Crée une copie du modèle personnalisé avec vos modifications. (En mode de modification, le menu Partager > Partager le projet est désactivé.)</li></ul> |
+| Modifier  le modèle | Permet à un administrateur de modifier le modèle en changeant sa source de données, en modifiant les composants, les visualisations, les plages de dates, etc.  Pour modifier un modèle personnalisé, procédez de l’une des manières suivantes :<ul><li>affichez la liste des modèles personnalisés dans Analysis Workspace, sélectionnez-en un, puis cliquez sur Modifier le modèle ; ou</li><li>dans Analytics, sélectionnez Composants > Projets, puis filtrez les projets en fonction des Modèles. Cliquez sur le nom du modèle à modifier.</li></ul>**Remarque :** Après avoir modifié un modèle, deux options se présentent, selon le cas : Enregistrer ou Enregistrer sous. Ces deux options diffèrent comme suit :<ul><li>**Enregistrer :** Met à jour le modèle personnalisé pour tous les utilisateurs. Si quelqu’un crée un projet d’après ce modèle personnalisé, il verra les modifications que vous avez apportées.</li><li>**Enregistrer sous :** Crée une copie du modèle personnalisé avec vos modifications. (En mode de modification, le menu Partager > Partager le projet est désactivé.)</li></ul> |
 | Rechercher des modèles | Dans la boîte de dialogue Modèles personnalisés, cliquez sur Rechercher des modèles. |
-| Trier les modèles | Vous pouvez trier les modèles par ordre alphabétique, par pertinence et par date de création.  Dans la boîte de dialogue Modèles personnalisés, cliquez sur Tri :. |
+| Trier des modèles | Vous pouvez trier les modèles par ordre alphabétique, par pertinence et par date de création.  Dans la boîte de dialogue Modèles personnalisés, cliquez sur Tri :. |
 | Appliquer des balises à un modèle | Ouvrez le modèle et sélectionnez Projet > Informations et paramètres du projet. Cliquez sur Ajouter des balises. |
 | Modifier la description du modèle | Ouvrez le modèle et sélectionnez Projet > Informations et paramètres du projet. Double-cliquez sur la description pour la modifier. |
 
 
 ## Modèles standard
 
-Lorsque vous ouvrez un Workspace pour la première fois, les modèles sont disponibles dans le rail de gauche.  les modèles de l’espace de travail  de l’espace de travail couvrent les cas d’utilisation courants. Ils sont regroupés selon la verticale à laquelle ils appartiennent et sont renseignés avec des dimensions, des segments, des mesures et des visualisations différents, selon la suite de rapports que vous avez sélectionnée.
+Lorsque vous ouvrez un Workspace pour la première fois, les modèles sont disponibles dans le rail de gauche. Les modèles Analysis Workspace couvrent les cas d’utilisation courants. Ils sont groupés selon le marché vertical auquel ils appartiennent et comprennent différents segments, dimensions, mesures et visualisations, selon la suite de rapports sélectionnée.
 
-Vous pouvez utiliser ces modèles préremplis tels quels ou les adapter à vos besoins (en ajoutant ou en remplaçant des mesures ou des visualisations, par exemple) et les enregistrer sous un nouveau nom.
+Utilisez ces modèles prérenseignés tels quels ou adaptez-les en fonction de vos besoins (en ajoutant des mesures ou des visualisations, ou en les remplaçant, par exemple) et enregistrez-les sous un nouveau nom.
 
 [Modèles standard dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
@@ -108,21 +108,21 @@ Voici les modèles disponibles et les questions auxquelles chaque modèle peut r
 
 >[!NOTE] Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/fr_FR/mcdc/mcdc-people.html).
 
-Ce modèle est basé sur la mesure Personnes, qui est une version dédupliquée de la mesure uniques. La mesure Personnes fournit une mesure de la fréquence à laquelle les consommateurs utilisant plusieurs périphériques interagissent avec votre marque. Le modèle vous permet de
+Ce modèle est basé sur la mesure Personnes, qui est une version dédupliquée de la mesure uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit :
 
-* Segmentez vos données pour les Etats-Unis et le Canada par rapport au reste du monde. Le Device Co-op est actuellement disponible uniquement en Amérique du Nord.
-* Comparez côte à côte les mesures Personnes et uniques.
-* Voir le &quot;taux de compression&quot;, une mesure calculée qui calcule la taille de la mesure Personnes sous la forme d’un pourcentage de uniques.
-* Comparer les totaux des types de périphériques utilisés par vos clients
-* déterminer le nombre moyen de périphériques utilisés par personne ;
-* Découvrez comment utiliser l’empilement de segments avec la mesure Personnes.
-* Découvrez comment l’utilisation de l’ID Experience Cloud dans votre   améliore l’efficacité de la mesure Personnes.
+* Segmenter vos données pour les États-Unis/le Canada et le reste du monde. Device Co-op est actuellement uniquement disponible aux États-Unis.
+* Comparer côte à côte les mesures Personnes et Visiteurs uniques.
+* Afficher le « taux de compression », une mesure calculée qui détermine à quel point le résultat de la mesure Personnes, en pourcentage, est plus petit que celui de la mesure Visiteurs uniques.
+* Comparer les nombres totaux de types de périphériques utilisés par vos clients.
+* Afficher le nombre moyen de périphériques utilisés par personne.
+* Découvrir comment utiliser l’empilement des segments avec la mesure Personnes.
+* Découvrir comment l’utilisation d’Experience Cloud ID dans votre environnement améliore l’efficacité de la mesure Personnes.
 
 ### Journey IQ : Modèle Analytics sur plusieurs périphériques
 
 <!-->This content is mirrored in the CDA doc.<-->
 
-Ce modèle vous permet d’afficher des données de performances interpériphériques essentielles. Il est disponible uniquement pour les clients qui ont accès à Analytics [](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-home.html) multipériphériques (CDA).
+Ce modèle vous permet d’afficher des données de performances interpériphériques essentielles. Il est uniquement disponible pour les clients qui ont accès à Analytics [](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-home.html) sur plusieurs périphériques (CDA).
 
 * **Note spéciale à l&#39;intention des membres du Graphique** coopératif : Indique la partie de votre suite de rapports qui contient des dans les régions où le graphique coopératif est pris en charge et les régions où il n’est pas pris en charge.
 * **Identification des utilisateurs**: Indique la fréquence à laquelle les de votre site sont identifiés à l’aide de méthodes basées sur les analyses multipériphériques.
