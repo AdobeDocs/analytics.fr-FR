@@ -3,7 +3,7 @@ description: Indique le nombre de visiteurs uniques ayant accédé à votre site
 title: Visiteurs uniques
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,11 +33,11 @@ Pour consulter des exemples de cette page, reportez-vous au tableau suivant. Le 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Activity Map </p> </td> 
-   <td colname="col2"> <p>A </p> </td> 
-   <td colname="col3"> <p>C </p> </td> 
-   <td colname="col4"> <p>A </p> </td> 
+   <td colname="col2"> <p>A  </p> </td> 
+   <td colname="col3"> <p>C  </p> </td> 
+   <td colname="col4"> <p>A  </p> </td> 
    <td colname="col5"> <p>B </p> </td> 
-   <td colname="col6"> <p>C </p> </td> 
+   <td colname="col6"> <p>C  </p> </td> 
    <td colname="col7"> <p>D </p> </td> 
    <td colname="col8"> <p>E </p> </td> 
   </tr> 
@@ -67,7 +67,7 @@ Les rapports [!UICONTROL Visiteurs uniques] se comportent de la même manière d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>A </p> </td> 
+   <td colname="col1"> <p>A  </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Les rapports [!UICONTROL Visiteurs uniques] se comportent de la même manière d
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>C </p> </td> 
+   <td colname="col1"> <p>C  </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -346,7 +346,7 @@ Vous pouvez ajouter des mesures Visiteur unique périodiques sur des rapports n�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>A </p> </td> 
+   <td colname="col1"> <p>A  </p> </td> 
    <td colname="col02"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
@@ -356,7 +356,7 @@ Vous pouvez ajouter des mesures Visiteur unique périodiques sur des rapports n�
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>C </p> </td> 
+   <td colname="col1"> <p>C  </p> </td> 
    <td colname="col02"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
@@ -390,7 +390,7 @@ Une mesure Visiteurs uniques par jour sur un [!UICONTROL rapport Pages] se prés
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>A </p> </td> 
+   <td colname="col1"> <p>A  </p> </td> 
    <td colname="col02"> <p>Janvier 1 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
@@ -400,7 +400,7 @@ Une mesure Visiteurs uniques par jour sur un [!UICONTROL rapport Pages] se prés
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>C </p> </td> 
+   <td colname="col1"> <p>C  </p> </td> 
    <td colname="col02"> <p>Janvier 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
