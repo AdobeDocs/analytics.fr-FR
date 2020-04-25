@@ -1,6 +1,6 @@
 ---
 title: Variables de liste
-description: Créez et configurez des variables de liste à utiliser dans les rapports.
+description: Créez et configurez des variables  à utiliser dans les .
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
@@ -9,13 +9,13 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 # Variables de liste
 
-Créez et configurez des variables de liste à utiliser dans les rapports. Définissez ici leurs valeurs de délimiteur, d’expiration, d’attribution et de plafond.
+Créez et configurez des variables  à utiliser dans les . Définissez ici leurs valeurs de délimiteur, d’expiration, d’attribution et de plafond.
 
 Vous pouvez accéder à la configuration dans la console d’administration :
 
-1. Sélectionnez **[!UICONTROL Analytics]** >**[!UICONTROL  Administration]** > **[!UICONTROL Report Suites]**.
+1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suites]**.
 2. Sélectionnez la suite de rapports.
-3. Cliquez sur **[!UICONTROL Modifier les paramètres]** >**[!UICONTROL  Conversion]** > **[!UICONTROL Variables de liste]**.
+3. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Variables de liste]** .
 
 * **Nom** : chaque valeur délimitée peut contenir, au maximum, 255 caractères (ou moins en cas d’utilisation de caractères codés sur plusieurs octets). Il s’agit de la longueur maximale de chaque élément.
 * **Délimiteur de valeurs** : caractère utilisé pour séparer les valeurs dans la variable de liste. Il s’agit généralement de caractères tels que des virgules, deux-points, barres verticales, etc.
