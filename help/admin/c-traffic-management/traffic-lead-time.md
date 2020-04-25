@@ -1,5 +1,5 @@
 ---
-description: Adobe exige un préavis pour les nouvelles configurations de compte, les pics de trafic et les augmentations de trafic. Le matériel doit être alloué à l'avance afin de minimiser la latence et les impacts négatifs possibles sur l'ensemble du système.
+description: Adobe requiert d’être informée à l’avance de la configuration de nouveaux comptes, ainsi que des pics et augmentations de trafic. Le matériel doit être alloué à l’avance afin de minimiser la latence et les impacts négatifs sur l’ensemble du système.
 title: Délai d’avance requis pour les augmentations de trafic
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
@@ -11,29 +11,29 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Délai d’avance requis pour les augmentations de trafic
 
-Adobe exige un préavis pour les nouvelles configurations de compte, les pics de trafic et les augmentations de trafic. Le matériel doit être alloué à l&#39;avance afin de minimiser la latence et les impacts négatifs possibles sur l&#39;ensemble du système.
+Adobe requiert d’être informée à l’avance de la configuration de nouveaux comptes, ainsi que des pics et augmentations de trafic. Le matériel doit être alloué à l’avance afin de minimiser la latence et les impacts négatifs sur l’ensemble du système.
 
 L’allocation du matériel dépend des alertes envoyées au moyen de l’interface utilisateur des Reports &amp; Analytics.
 
 >[!IMPORTANT] Adobe ne peut pas prendre en charge les demandes de modification du trafic « d’espace réservé ». Sauf indication contraire, respectez autant que possible le délai d’avance suggéré, y compris en n’envoyant pas d’alerte trop tôt. Voir [Prévision d’un pic de trafic](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ou [Indication d’une augmentation permanente du trafic](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
-Suivez les instructions suivantes pour déterminer à quel moment vous devez envoyer une alerte de trafic à l’avance :
+Suivez les directives suivantes pour déterminer à quel moment envoyer une alerte de trafic :
 
-## Délais d&#39;avance de l&#39;allocation matériel
+## Délais d’avance de l’allocation matériel
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Estimations du trafic quotidien (accès) </th>
+   <th colname="col1" class="entry"> Estimations (accès) du trafic QUOTIDIEN </th>
    <th colname="col2" class="entry"> <p>Délai d’avance requis (janvier à octobre) </p> </th>
    <th colname="col3" class="entry"> <p>Délai d’avance requis (novembre à décembre) </p> </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Jusqu'à 1 000 000 </td>
-   <td colname="col2"> Aucun délai d'avance requis </td>
-   <td colname="col3"> Aucun délai d'avance requis </td>
+   <td colname="col1"> Jusqu’à 1 000 000 </td>
+   <td colname="col2"> Pas de délai d’avance requis </td>
+   <td colname="col3"> Pas de délai d’avance requis </td>
   </tr>
   <tr>
    <td colname="col1"> 1 000 000 - 5 000 000 </td>
@@ -49,22 +49,22 @@ Suivez les instructions suivantes pour déterminer à quel moment vous devez env
    <td colname="col2"> Deux semaines calendaires </td>
   </tr>
   <tr>
-   <td colname="col1"> <p>Plus de 25 000 000 </p> </td>
+   <td colname="col1"> <p>Au-dessus de 25 000 000 </p> </td>
    <td colname="col2"> Un ou plusieurs mois </td>
   </tr>
  </tbody>
 </table>
 
-Autres points à prendre en compte :
+Autres éléments à prendre en compte :
 
-* Si plusieurs suites de rapports commencent ou augmentent et correspondent aux nombres répertoriés ci-dessus, le délai d’avance s’applique sous forme de somme du trafic attendu pour chacune d’elles.
-* Disposer des informations suivantes pour envoyer un changement de trafic :
+* Si vous possédez plusieurs suites de rapports commençant aux nombres répertoriés ci-dessus, ou les atteignant par ajouts, le délai d’avance s’applique à ces suites sous la forme de la somme du trafic attendu pour chacune d’elle.
+* Les informations suivantes sont requises pour soumettre un changement de trafic :
 
    * Identifiant de suite de rapports
    * Estimation des accès par jour
-   * Date d&#39;activation
+   * Date d’activation
 
-* Des alertes client sont également nécessaires lorsque le trafic diminue ou qu’une suite de rapports est obsolète.
+* Les alertes client sont également requises lorsque le trafic augmente ou qu’une suite de rapports devient obsolète.
 
 ## Réallocation de matériel en raison d’un trafic non réalisé
 
