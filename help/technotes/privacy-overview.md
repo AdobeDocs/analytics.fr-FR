@@ -3,7 +3,7 @@ description: Vue d’ensemble des données collectées par Adobe Analytics et au
 keywords: privacy
 title: Confidentialité - Présentation
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -30,7 +30,7 @@ Adobe Analytics collecte les données suivantes :
 | URL de la page sur laquelle était le visiteur avant de consulter la page du client | Oui |
 | Requête de recherche lorsque le visiteur clique sur un lien sur la page du client | Oui |
 | Type de navigateur | Oui |
-| Type de périphérique | Oui |
+| Device Type (Type de périphérique) | Oui |
 | Système d’exploitation | Oui |
 | Débit FAI/connexion | Oui |
 | Paramètres d’affichage (taille et résolution de l’écran) | Oui |
