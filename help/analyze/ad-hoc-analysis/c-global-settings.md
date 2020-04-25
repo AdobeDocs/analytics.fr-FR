@@ -2,7 +2,7 @@
 description: Configurez les paramètres de comportement globaux. Vous pouvez, par exemple, configurer la fonction d’enregistrement automatique, les paramètres de graphique et de tableau, ou encore indiquer la police et les paramètres régionaux.
 title: Paramètres
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
