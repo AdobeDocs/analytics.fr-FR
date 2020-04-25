@@ -3,7 +3,7 @@ description: Classe les pages de votre site en fonction du niveau de trafic. Si 
 title: Pages
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -37,10 +37,10 @@ Remarque : dans les Reports &amp; Analytics, les mesures sur le rapport Pages o
   </tr> 
   <tr> 
    <td colname="col1"> Valeurs Expire après </td> 
-   <td colname="col2"> Page vue </td> 
-   <td colname="col3"> Page vue </td> 
-   <td colname="col4"> Page vue </td> 
-   <td colname="col5"> Page vue </td> 
+   <td colname="col2"> Page view (Page vue) </td> 
+   <td colname="col3"> Page view (Page vue) </td> 
+   <td colname="col4"> Page view (Page vue) </td> 
+   <td colname="col5"> Page view (Page vue) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Valeur Limites </td> 
@@ -63,7 +63,7 @@ Dans les Reports &amp; Analytics, si vous appliquez un événement personnalisé
 
 Ainsi, même si cet événement a été envoyé avec un appel s.tl(), il obtient l’attribution linéaire de tout appel s.t() précédent. Exemple :
 
-| Nom de page | Page_event | Événements |
+| Nom de la page | Page_event | Événements |
 |---|---|---|
 | Page 1 | **s.t()** |  |
 | Page 1 | s.tl() | Événement 1 |
