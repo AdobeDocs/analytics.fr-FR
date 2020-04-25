@@ -12,25 +12,25 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 # Référents et campagnes
 
-Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
+Cette section décrit les champs de [!UICONTROL Dynamic Tag Management] pour les options de référent et de campagne lors du déploiement de [!UICONTROL Dynamic Tag Management] dans Adobe [!DNL Analytics].
 
-**[!UICONTROL  *`Property`*]** > ![Icône](assets/settings_gear.png) **[!UICONTROL Edit Tool]** de l’engrenage > **[!UICONTROL Referrers & Campaigns]**
+**[!UICONTROL *`Property`*]** > ![Icône engrenage](assets/settings_gear.png)**[!UICONTROL  Modifier l’outil ]** > **[!UICONTROL  Référents et campagnes ]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Elément </th>
+   <th colname="col1" class="entry"> Élément </th>
    <th colname="col2" class="entry"> Description </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Remplacement des  </td>
-   <td colname="col2"> <p>Permet de remplacer la valeur définie dans la variable Variable <span class="varname"> s.referrer,</span>, qui correspond généralement au référent défini dans le navigateur. </p> <p>Voir  <a href="../../../vars/page-vars/referrer.md"></a>. </p> </td>
+   <td colname="col1"> Remplacement du référent </td>
+   <td colname="col2"> <p>Permet de remplacer la valeur définie dans la variable Variable <span class="varname"> s.referrer,</span>, qui correspond généralement au référent défini dans le navigateur. </p> <p>Voir <a href="../../../vars/page-vars/referrer.md">referrer</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Campagne </td>
-   <td colname="col2"> <p>Variable qui identifie les campagnes marketing utilisées pour rediriger les utilisateurs vers votre site. La valeur de la campagne provient généralement d’un paramètre de chaîne de . </p> <p>Voir <a href="../../../vars/page-vars/campaign.md">campagne</a>. </p> </td>
+   <td colname="col2"> <p>Variable qui identifie les campagnes marketing utilisées pour rediriger les utilisateurs vers votre site. La valeur de cette variable provient généralement d’un paramètre de chaîne de requête. </p> <p>Voir <a href="../../../vars/page-vars/campaign.md">campaign</a>. </p> </td>
   </tr>
  </tbody>
 </table>
