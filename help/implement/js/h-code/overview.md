@@ -26,7 +26,7 @@ Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre c
 
 ## Mise en cache
 
-Le fichier JavaScript est mis en cache dans le navigateur  du après son chargement initial et n’est généralement pas téléchargé plus d’une fois par session. Il n’est pas téléchargé sur chaque page, même s’il est utilisé par toutes les pages du site. Sur la plupart des sites Web, les utilisateurs  en moyenne plus de quelques pages par session, de sorte que le transfert de code JavaScript utilisé plusieurs fois dans ce fichier peut entraîner une diminution du nombre total de données téléchargées.
+Le fichier JavaScript est mis en cache dans le navigateur du visiteur après son chargement initial. En règle générale, il n’est pas téléchargé plus d’une fois par session. Il n’est pas téléchargé sur chaque page, même s’il est utilisé par toutes les pages du site. Sur la plupart des sites Web, les utilisateurs visualisent, en moyenne, plus de quelques pages par session. Dès lors, le transfert de code JavaScript utilisé plusieurs fois dans ce fichier peut générer un nombre moins important de données téléchargées globales.
 
 ## Compression du code H
 
