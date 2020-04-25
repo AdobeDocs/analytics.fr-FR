@@ -2,7 +2,7 @@
 description: Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
 title: Nouveautés de la segmentation dans Analytics
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -103,7 +103,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace &gt; Comparaison de segments </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace &gt; Comparaison de segments </p> </td> 
    <td colname="col2"> <p> Le panneau de <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/segment-comparison.html"  >comparaison de segments</a> (Segment IQ) d’Analysis Workspace permet aux clients de comparer rapidement deux segments Analytics pour trouver les différences les plus significatives entre eux dans tous les points de données. </p> </td> 
   </tr> 
  </tbody> 
