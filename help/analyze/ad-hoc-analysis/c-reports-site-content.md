@@ -2,7 +2,7 @@
 description: Présente des informations sur les pages et les sections les plus actives de votre site et sur les serveurs les plus sollicités.
 title: Contenu du site rapports
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
