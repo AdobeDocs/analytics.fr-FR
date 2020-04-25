@@ -1,7 +1,7 @@
 ---
 title: Personnalisation des rapports dans Adobe Analytics
 description: Découvrez comment personnaliser des rapports dans Adobe Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
