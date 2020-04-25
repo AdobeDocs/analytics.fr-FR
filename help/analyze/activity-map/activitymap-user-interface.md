@@ -3,7 +3,7 @@ description: 'L’interface utilisateur d’Activity Map est composée de deux 
 title: Interface utilisateur d’Activity Map
 topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
