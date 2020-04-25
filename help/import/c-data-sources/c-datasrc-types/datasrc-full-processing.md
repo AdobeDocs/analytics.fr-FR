@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Traitement complet
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -97,7 +97,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>pageName </p> </td> 
    <td colname="col2"> <p>pageName </p> </td> 
-   <td colname="col3"> <p>Nom de page </p> </td> 
+   <td colname="col3"> <p>Nom de la page </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageType </p> </td> 
