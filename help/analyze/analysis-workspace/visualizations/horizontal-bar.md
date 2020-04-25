@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Barre horizontale et barres empilées horizontales
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,11 +18,11 @@ Dans cette visualisation, des barres horizontales représentent plusieurs valeur
 
 ## Barres empilées horizontales  {#section_50C08E9E20A94024A6553BC352ADB597}
 
-Cette visualisation ressemble au [!UICONTROL graphique à barres horizontales], mais les barres de chaque série semblent être empilées.
+This visualization is like the [!UICONTROL Horizontal Bar Chart], but the series bars appear stacked.
 
 ![](assets/horizontal-bar-stacked.png)
 
-Un nouveau paramètre d’affichage [!UICONTROL Barres empilées horizontales] appliqué aux graphiques à barres empilées offre un aperçu « 100 % empilé » du diagramme :
+The [!UICONTROL Horizontal Bar Stacked] visualization setting on bar stacked visualizations turns the chart into a &quot;100% stacked&quot; visualization:
 
 ![](assets/horizstacked100.png)
 
