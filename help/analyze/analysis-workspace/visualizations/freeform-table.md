@@ -1,7 +1,7 @@
 ---
 title: Tableau à structure libre
 description: En savoir plus sur les tableaux à structure libre et le créateur de tableaux à structure libre
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 ---
@@ -25,14 +25,14 @@ Vous pouvez personnaliser le tableau de différentes manières :
 
 ## Créateur de tableau à structure libre
 
-Si vous préférez d’abord ajouter plusieurs composants à votre tableau, puis effectuer le rendu des données, vous pouvez activer le Créateur de tableau à structure libre. Une fois le créateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques plus complexes. Les données ne sont pas mises à jour à la volée, elles le sont une fois que vous avez cliqué sur **[!UICONTROL Créer]**.
+Si vous préférez d’abord ajouter plusieurs composants à votre tableau, puis effectuer le rendu des données, vous pouvez activer le Créateur de tableau à structure libre. Une fois le créateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques plus complexes. Data will not update on-the-fly, it will update once you click **[!UICONTROL Build]**.
 
 Le Créateur de tableau est une option qui vous permet de gagner du temps lorsque vous avez une question complexe et que vous avez une idée du tableau à construire pour y répondre. Le créateur de tableau offre d’autres avantages :
 
 * Organisez le tableau dans le format exact dont vous avez besoin, sans avoir à attendre le rendu de chaque action.
 * Exécutez rapidement jusqu’à 4 niveaux de ventilation.
 * Définissez les paramètres Ligne et Ventilation pour chaque ligne de tableau et colonne de dimension.
-* Réalisez une **[!UICONTROL Ventilation par position]** pour chaque niveau du tableau par défaut (dans les tableaux à structure libre classiques, la valeur par défaut est **[!UICONTROL Ventilation par élément]**).
+* **[!UICONTROL Breakdown by Position]** pour chaque niveau du tableau par défaut (dans les tableaux à structure libre traditionnels, la valeur par défaut est **[!UICONTROL Breakdown by Item]**).
 * Organisez manuellement les lignes statiques dans le tableau. Par exemple, si vous souhaitez que les lignes de mesure apparaissent dans un certain ordre.
 * Prévisualisez le format de votre tableau avant de générer des données réelles.
 
@@ -42,6 +42,6 @@ Découvrez le Créateur de tableau à structure libre en action [ici](https://yo
 
 Les données d’un tableau à structure libre peuvent être copiées depuis Analysis Workspace de plusieurs manières :
 
-* Cliquez avec le bouton droit sur l’en-tête du tableau et sélectionnez **[!UICONTROL Copier dans le Presse-papiers]**. Le tableau complet (visible) est alors exporté.
-* Mettez en surbrillance des cellules spécifiques du tableau, cliquez avec le bouton droit de la souris et sélectionnez **[!UICONTROL Copier dans le Presse-papiers]** ou utilisez le raccourci Ctrl + C.
-* **[!UICONTROL Projet > Télécharger CSV]**. Cette opération exporte tous les tableaux visibles du projet au format CSV.
+* Cliquez avec le bouton droit sur l’en-tête du tableau et sélectionnez **[!UICONTROL Copy to Clipboard]**. Le tableau complet (visible) est alors exporté.
+* Highlight specific cells in the table, right-click and select **[!UICONTROL Copy to Clipboard]**, or use the Ctrl + C hotkey.
+* **[!UICONTROL Project > Download CSV]**. Cette opération exporte tous les tableaux visibles du projet au format CSV.
