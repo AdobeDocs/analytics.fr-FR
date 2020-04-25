@@ -1,7 +1,7 @@
 ---
 title: Rapports d’audience dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur les audiences à l’aide d’Analysis Workspace.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
