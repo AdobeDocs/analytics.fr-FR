@@ -13,46 +13,46 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Personnalisation des autorisations liées aux dimensions
 
->[!IMPORTANT] La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>[!IMPORTANT] La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
 
 Personnalisez l’accès des utilisateurs à un niveau plus détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de cheminement.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**
+**[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]** > **[!UICONTROL Accès aux rapports]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Personnaliser]**
 
->[!IMPORTANT] Certaines dimensions ne requièrent pas d’autorisation à l’heure actuelle. Ces dimensions sont les suivantes : Longueur des signets mobiles ; Numéro de dispositif portable; DRM mobile ;  mobiles ; Java VM mobile ; Mobile Mail Decoration ; Protocoles réseau mobile; SE mobile ; Pression mobile pour parler.
+>[!IMPORTANT] Certaines dimensions ne requièrent pas d’autorisation à l’heure actuelle. Il s’agit des dimensions suivantes : Longueur du signet mobile ; Numéro d’appareil mobile ; DRM mobile ; Services d’informations mobiles ; Java VM de mobile ; Mobile – Décoration de courrier ; Protocoles Net mobile ; SE Mobile ; Mobile – Presser pour parler.
 >
->Ces dimensions sont disponibles pour tous les utilisateurs, indépendamment des autres autorisations.
+>Ces dimensions sont disponibles pour tous les utilisateurs, quelles que soient les autres autorisations.
 
-Les paramètres de cette page concernent les suites de rapports sélectionnées sur la [!UICONTROL Define User Groups] page.
+Les paramètres sur cette page se rapportent aux suites de rapports sélectionnées sur la page [!UICONTROL Définir un groupe d’utilisateurs].
 
 ![](assets/permissions-dimensions.png)
 
-Découvrez les informations suivantes sur le de dimensions pour les autorisations.
+Consultez les informations suivantes au sujet de la catégorie Dimension en ce qui a trait aux autorisations.
 
-* Les eVars 1 à 250 sont autorisées individuellement.
-* Tous les rapports de trafic sont des dimensions.
+* Les eVars 1 à 250 sont autorisées individuellement.
+* Tous les rapports sur le trafic sont des dimensions.
 * Les rapports Vidéo et Mobile sont des dimensions, ainsi que d’autres rapports de solutions Analytics (Experience Manager, Advertising Cloud, Social, etc.).
-* Les rapports de cheminement sont disponibles si un utilisateur a accès à la dimension parent.
-* Toutes les dimensions et mesures actuelles dans les groupes personnalisés ont été automatiquement migrées vers le nouveau  de. Si des mesures sont activées pour un groupe existant, toutes les nouvelles dimensions (eVars et reconnaissance du contenu) et mesures qui peuvent faire l’objet de droits d’accès sont attribuées par défaut.
+* Les rapports de cheminement sont accessibles aux utilisateurs qui ont accès à la dimension parente.
+* Toutes les dimensions et les mesures actuelles des groupes personnalisés ont été automatiquement transférées dans les nouvelles catégories. Si un groupe comprend des mesures actives, il obtiendra par défaut toutes les dimensions (eVars et reconnaissance du contenu) et mesures nouvellement autorisables.
 * Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la [variable](https://marketing.adobe.com/resources/help/fr_FR/reference/c_classifications.html) sur laquelle repose la classification.
 
-Pour plus d’informations, voir Questions [fréquentes sur les modifications](https://marketing.adobe.com/resources/help/fr_FR/reference/permissions_faq.html)des autorisations.
+Pour en savoir plus, voir [Questions fréquentes sur les modifications de droits d’accès](https://marketing.adobe.com/resources/help/fr_FR/reference/permissions_faq.html).
 
-**Personnaliser les dimensions**
+**Personnalisation des dimensions**
 
-Les éléments suivants sont des dimensions que vous pouvez autoriser.
+Les éléments suivants sont des dimensions pour lesquelles vous pouvez accorder des autorisations.
 
 <table id="table_F37D74A1619A4560A5F5651E855DAF1C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Elément </th> 
+   <th colname="col1" class="entry"> Élément </th> 
    <th colname="col2" class="entry"> Descriptions </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md"> eVars </a> </p> </td> 
-   <td colname="col2"> <p>Les eVars 1 à 250 sont autorisées individuellement. Les eVars sont des variables de conversion personnalisées que vous utilisez pour segmenter les mesures de réussite de conversion dans les rapports personnalisés. </p> </td> 
+   <td colname="col2"> <p>Les eVars 1 à 250 sont autorisées individuellement. Les eVars sont des variables de conversion personnalisées que vous utilisez pour segmenter les mesures de succès de conversion des segments dans les rapports personnalisés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/fr_FR/sc/implement/props_eVars.html"> Propriétés </a> </p> </td> 
@@ -64,7 +64,7 @@ Les éléments suivants sont des dimensions que vous pouvez autoriser.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/fr_FR/sc/implement/listN.html"> Listvar </a> </p> </td> 
-   <td colname="col2"> <p> Tout comme la fonction  Props, les variables  de autorisent plusieurs valeurs dans la même demande d’image. </p> </td> 
+   <td colname="col2"> <p> À l’instar de la fonction Propriétés de liste, les variables de liste permettent la définition de plusieurs valeurs dans une même demande d’image. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Standard </p> </td> 
