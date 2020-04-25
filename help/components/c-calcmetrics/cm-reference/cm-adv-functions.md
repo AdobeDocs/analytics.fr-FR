@@ -10,23 +10,23 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Référence : fonctions avancées
 
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+Accédez à ces fonctions en cochant **[!UICONTROL Afficher les options avancées]** dans la liste déroulante **[!UICONTROL Fonctions]**.
 
 ## Fonctions de tableau et fonctions de ligne {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-Une fonction de tableau est une fonction dont la sortie est la même pour chaque ligne du tableau. Une fonction de ligne est une fonction dont la sortie est différente pour chaque ligne du tableau.
+Une fonction de tableau consiste à ce que la sortie soit la même pour chaque ligne du tableau. Une fonction de ligne consiste à ce que la sortie soit différente pour chaque ligne du tableau.
 
 ## Que signifie le paramètre d’inclusion de zéros ?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
-Il indique s’il faut inclure des zéros dans le calcul. Parfois zéro signifie &quot;rien&quot;, mais parfois c&#39;est important.
+Il indique s’il faut inclure des zéros dans le calcul. Parfois, zéro signifie « rien » mais parfois, il est important.
 
-Si, par exemple, vous disposez d’une mesure Recettes, puis ajoutez une mesure  de page au rapport, vous obtenez soudainement plus de lignes pour vos recettes, qui sont toutes nulles. Vous ne voulez probablement pas que cela affecte un MOYEN, un MIN, un QUARTILE, etc. les calculs que vous avez dans la colonne des recettes. Dans ce cas, vous devez vérifier le paramètre include-zeros.
+Par exemple, en présence d’une mesure Recettes, vous ajoutez une mesure Pages Vues au rapport. Soudainement, des lignes supplémentaires apparaissent pour votre recette, qui contiennent toutes zéro. Vous souhaitez probablement que cela n’affecte pas les calculs de MOYENNE, de MINIMUM, de QUARTILE, etc. de la colonne des recettes. Dans ce cas, vous devez activer le paramètre d’inclusion de zéros.
 
-D’un autre côté, si vous avez deux mesures qui vous intéressent, il n’est peut-être pas juste de dire que l’une d’elles a une moyenne ou un minimum plus élevé car certaines de ses lignes étaient des zéros. Vous ne devriez donc pas vérifier le paramètre pour inclure les zéros.
+D’un autre côté, si deux mesures vous intéressent, il n’est pas juste d’indiquer que l’une dispose d’une moyenne ou d’un minimum supérieur car certaines de ses lignes sont des zéros. Dans ce cas, n’activez pas le paramètre permettant d’inclure des zéros.
 
 ## ET {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
-Renvoie la valeur de son argument. Utilisez NOT pour vous assurer qu’une valeur n’est pas égale à une valeur particulière.
+Renvoie la valeur de son argument. Utilisez SAUF pour vous assurer qu’une valeur est différente d’une valeur spécifique.
 
 >[!NOTE] 0 (zéro) signifie False, et toute autre valeur est True.
 
@@ -36,12 +36,12 @@ AND(logical_test1,[logical_test2],...)
 
 | Argument | Description |
 |---|---|
-| *logical_test1* | Obligatoire. N&#39;importe quelle valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
-| *logical_test2* | Facultatif. Conditions supplémentaires que vous souhaitez évaluer comme VRAI ou FALSE |
+| *logical_test1* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
+| *logical_test2* | Facultatif. Conditions supplémentaires que vous souhaitez évaluer en tant TRUE ou FALSE. |
 
 ## Nombre distinct approximatif (dimension) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Renvoie le nombre approximatif d&#39;éléments distincts de la dimension sélectionnée. La fonction utilise la méthode HyperLogLog (HLL) d’approximation des nombres distincts.  Elle est configurée pour garantir que la valeur est comprise dans les 5 % de la valeur réelle 95 % du temps.
+Renvoie le nombre distinct approximatif d’éléments de dimension pour la dimension sélectionnée. La fonction utilise la méthode HyperLogLog (HLL) d’approximation des nombres distincts.  Elle est configurée pour garantir que la valeur est comprise dans les 5 % de la valeur réelle 95 % du temps.
 
 ```
 Approximate Count Distinct (dimension)
@@ -49,7 +49,7 @@ Approximate Count Distinct (dimension)
 
 | Argument |  |
 |---|---|
-| *dimension* | Dimension pour laquelle vous souhaitez obtenir un nombre d’éléments distinct approximatif. |
+| *dimension* | Dimension pour laquelle vous souhaitez obtenir le nombre distinct approximatif d’éléments. |
 
 ## Exemple de cas d’utilisation  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
@@ -65,17 +65,17 @@ Voici comment cette mesure pourrait être utilisée dans les rapports :
 
 ## Valeurs uniques dépassées  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Comme Count() et RowCount(), Rapprochement de Count Distinct() est sujet aux limites [](https://marketing.adobe.com/resources/help/fr_FR/reference/metrics_uniques_high_numbers.html)&quot;dépassées&quot;. Si la limite &quot;dépassé&quot; est atteinte au cours d’un mois donné pour une dimension, la valeur est comptée comme un élément de dimension 1.
+Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://marketing.adobe.com/resources/help/fr_FR/reference/metrics_uniques_high_numbers.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
 
 ## Comparaison des fonctions de comptage  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
-La fonction Rapprocher le décompte distinct() est une amélioration par rapport aux fonctions Count() et RowCount(), car la mesure créée peut être utilisée dans n’importe quel rapport dimensionnel pour générer un nombre approximatif d’éléments pour une dimension distincte. Par exemple, nombre d’ID de client utilisés dans un rapport Type de périphérique mobile.
+La fonction Approximate Count Distinct() est une amélioration des fonctions Count() et RowCount(), car vous pouvez utiliser la mesure créée dans un rapport de dimensions pour générer un nombre approximatif d’éléments pour une dimension distincte. Par exemple, un nombre d’ID de client utilisés dans un rapport Type de périphérique mobile.
 
-Cette fonction sera légèrement moins précise que Count() et RowCount(), car elle utilise la méthode HLL, tandis que Count() et RowCount() sont des valeurs exactes.
+Cette fonction sera légèrement moins précise que Count() et RowCount(), car elle utilise la méthode HLL alors que Count() et RowCount() sont des nombres exacts.
 
 ## Arc cosinus (ligne) {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
 
-Renvoie l’arc cosinus, ou le cosinus inverse, d’un nombre. L’arc cosinus d’un nombre est l’angle dont le cosinus correspond à ce nombre. L’angle renvoyé est donné en radians dans la plage 0 (zéro) à pi. Si vous souhaitez convertir le résultat en degrés, multipliez-le par 180/PI( ).
+Renvoie l’arc cosinus, ou l’inverse du cosinus, d’une mesure. L’arc cosinus d’un nombre est l’angle dont le cosinus vaut ce nombre. L’angle renvoyé est donné en radians dans la plage 0 (zéro) à pi. Si vous souhaitez convertir le résultat de radians en degrés, multipliez-le par 180/PI( ).
 
 ```
 ACOS(metric)
@@ -83,11 +83,11 @@ ACOS(metric)
 
 | Argument |  |
 |---|---|
-| *mesure* | Cosinus de l&#39;angle que vous souhaitez obtenir de -1 à 1. |
+| *metric* | Cosinus de l’angle que vous souhaitez obtenir de -1 à 1. |
 
 ## Arc sinus (ligne) {#concept_90F00DEC46BA47F8A21493647D9668CD}
 
-Renvoie l’arc sinus, ou le sinus inverse, d’un nombre. L’arc sinus d’un nombre est l’angle dont le sinus vaut ce nombre. L’angle renvoyé est donné en radians dans la plage -pi/2 à pi/2. Pour exprimer l&#39;arc sinus en degrés, multipliez le résultat par 180/PI( ).
+Renvoie l’arc sinus, ou le sinus inverse, d’un nombre. L’arc sinus d’un nombre est l’angle dont le sinus vaut ce nombre. L’angle renvoyé est donné en radians dans la plage -pi/2 à pi/2. Pour exprimer l’arc sinus en degrés, multipliez le résultat par 180/PI( ).
 
 ```
 ASIN(metric) 
@@ -95,11 +95,11 @@ ASIN(metric)
 
 | Argument |  |
 |---|---|
-| *mesure* | Cosinus de l&#39;angle que vous souhaitez obtenir de -1 à 1. |
+| *metric* | Cosinus de l’angle que vous souhaitez obtenir de -1 à 1. |
 
 ## Arc tangent (ligne) {#concept_3408520673774A10998E9BD8B909E90C}
 
-Renvoie l’arc tangent, ou la tangente inverse, d’un nombre. L’arc tangent d’un nombre est l’angle dont la tangente vaut ce nombre. L’angle renvoyé est donné en radians dans la plage -pi/2 à pi/2. Pour exprimer l&#39;arc tangent en degrés, multipliez le résultat par 180/PI( ).
+Renvoie l’arc tangent, ou la tangente inverse, d’un nombre. L’arc tangent d’un nombre est l’angle dont la tangente vaut ce nombre. L’angle renvoyé est donné en radians dans la plage -pi/2 à pi/2. Pour exprimer l’arc tangent en degrés, multipliez le résultat par 180/PI( ).
 
 ```
 ATAN(metric)
@@ -107,7 +107,7 @@ ATAN(metric)
 
 | Argument |  |
 |---|---|
-| *mesure* | Cosinus de l&#39;angle que vous souhaitez obtenir de -1 à 1. |
+| *metric* | Cosinus de l’angle que vous souhaitez obtenir de -1 à 1. |
 
 ## Régression exponentielle : Y prédit (ligne) {#concept_25615693312B4A7AB09A2921083502AD}
 
@@ -157,11 +157,11 @@ CEILING(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Mesure que vous souhaitez arrondir. |
+| *metric* | Mesure que vous souhaitez arrondir. |
 
 ## Cosinus (ligne) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
-Renvoie le cosinus de l’angle donné. Si l’angle est en degrés, multipliez-le par PI( )/180.
+Renvoie le cosinus de l’angle donné. Si l’angle est en degrés, multipliez l’angle par PI( )/180.
 
 ```
 COS(metric)
@@ -169,7 +169,7 @@ COS(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Angle en radians pour lequel vous souhaitez obtenir le cosinus. |
+| *metric* | Angle en radians que vous souhaitez obtenir pour le cosinus. |
 
 ## Racine cubique {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
@@ -181,13 +181,13 @@ CBRT(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Mesure pour laquelle vous souhaitez obtenir la racine cubique. |
+| *metric* | Mesure pour laquelle vous souhaitez obtenir la racine cubique. |
 
 ## Cumulé {#concept_3D3347797B6344CE88B394C3E39318ED}
 
-Renvoie la somme de x pour les N dernières lignes (selon l’ordre de la dimension, à l’aide de valeurs de hachage pour les champs basés sur des chaînes).
+Renvoie la somme des x pour les N dernières lignes (dans l’ordre défini par la dimension, en utilisant des valeurs d’empreinte pour les champs basés sur des chaînes).
 
-Si N &lt;= 0, elle utilise toutes les lignes précédentes. Comme il est classé par la dimension, il n&#39;est utile que pour les dimensions qui ont un ordre naturel, comme la date ou la longueur du chemin.
+Si N &lt;= 0, elle utilise toutes les lignes précédentes. Puisque la moyenne cumulée est triée selon la dimension, elle n’est utile que pour les dimensions qui possèdent un ordre naturel, comme la date ou la longueur de chemin.
 
 ```
 | Date | Rev  | cumul(0,Rev) | cumul(2,Rev) | 
@@ -200,9 +200,9 @@ Si N &lt;= 0, elle utilise toutes les lignes précédentes. Comme il est classé
 
 ## Moyenne cumulée {#concept_ABB650962DC64FD58A79C305282D3E61}
 
-Renvoie la moyenne des N dernières lignes.
+Renvoie la moyenne des N dernières lignes.
 
-Si N &lt;= 0, elle utilise toutes les lignes précédentes. Comme il est classé par la dimension, il n&#39;est utile que pour les dimensions qui ont un ordre naturel, comme la date ou la longueur du chemin.
+Si N &lt;= 0, elle utilise toutes les lignes précédentes. Puisque la moyenne cumulée est triée selon la dimension, elle n’est utile que pour les dimensions qui possèdent un ordre naturel, comme la date ou la longueur de chemin.
 
 >[!NOTE] La moyenne cumulée ne fonctionne pas comme vous pourriez l’attendre avec des mesures de taux comme recettes/visiteur : elle fait la moyenne des taux au lieu d’additionner les recettes sur le dernier N et les visiteurs sur le dernier N, puis les diviser. À la place, utilisez
 
@@ -224,8 +224,8 @@ CORREL.EXP(metric_X, metric_Y)
 
 | Argument | Description |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Mesure que vous souhaitez corréler à *metric_Y*. |
+| *metric_Y* | Mesure que vous souhaitez corréler à *metric_X*. |
 
 ## Régression exponentielle : ordonnée à l’origine (tableau) {#concept_0047206C827841AD936A3BE58EEE1514}
 
@@ -263,7 +263,7 @@ FLOOR(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Mesure que vous souhaitez arrondir. |
+| *metric* | Mesure que vous souhaitez arrondir. |
 
 ## Supérieur à {#concept_A83734A0C0C14646B76D2CC5E677C644}
 
@@ -283,7 +283,7 @@ COSH(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Angle en radians pour lequel vous souhaitez obtenir le cosinus hyperbolique. |
+| *metric* | Angle en radians pour lequel vous souhaitez obtenir le cosinus hyperbolique. |
 
 ## Sinus hyperbolique (ligne) {#concept_96230731600C45E3A4E823FE155ABA85}
 
@@ -295,7 +295,7 @@ SINH(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Angle en radians pour lequel vous souhaitez obtenir le sinus hyperbolique. |
+| *metric* | Angle en radians pour lequel vous souhaitez obtenir le sinus hyperbolique. |
 
 ## Tangente hyperbolique (ligne) {#concept_BD249013732F462B9863629D142BCA6A}
 
@@ -307,11 +307,11 @@ TANH(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Angle en radians pour lequel vous souhaitez trouver la tangente hyperbolique. |
+| *metric* | Angle en radians pour lequel vous souhaitez obtenir la tangente hyperbolique. |
 
 ## SI (ligne) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
-La fonction IF renvoie une valeur si une condition que vous spécifiez est évaluée sur TRUE, et une autre valeur si cette condition est évaluée sur FALSE.
+La fonction SI renvoie une valeur si une condition que vous spécifiez est évaluée sur TRUE, et une autre valeur si cette condition est évaluée sur FALSE.
 
 ```
 IF(logical_test, [value_if_true], [value_if_false])
@@ -319,9 +319,9 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | Argument | Description |
 |---|---|
-| *logical_test* | Obligatoire. N&#39;importe quelle valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
-| *[value_if_true]* | The value that you want to be returned if the *logical_test* argument evaluates to TRUE. (This argument defaults to 0 if not included.) |
-| *[value_if_false]* | The value that you want to be returned if the *logical_test* argument evaluates to FALSE. (This argument defaults to 0 if not included.) |
+| *logical_test* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
+| *[value_if_true]* | Valeur que vous souhaitez voir renvoyer si l’argument *logical_test* est évalué sur VRAI. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
+| *[value_if_false]* | Valeur que vous souhaitez voir renvoyer si l’argument *logical_test* est évalué sur FAUX. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
 
 ## Inférieur à {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
@@ -349,7 +349,7 @@ Y = a X + b. Renvoie a.
 
 ## Logarithme de base 10 {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
 
-Renvoie le logarithme décimal d’un nombre.
+Renvoie le logarithme de base 10 d’un nombre.
 
 ```
 LOG10(metric)
@@ -357,7 +357,7 @@ LOG10(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme en base 10. |
+| *metric* | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme de base 10. |
 
 ## Régression logarithmique : coefficient de corrélation (tableau) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -369,8 +369,8 @@ CORREL.LOG(metric_X,metric_Y)
 
 | Argument | Description |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Mesure que vous souhaitez corréler à *metric_Y*. |
+| *metric_Y* | Mesure que vous souhaitez corréler à *metric_X*. |
 
 ## Régression logarithmique : ordonnée à l’origine (tableau) {#concept_75A3282EDF54417897063DC26D4FA363}
 
@@ -415,7 +415,7 @@ SLOPE.LOG(metric_A, metric_B)
 
 ## Logarithme népérien {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
-Returns the natural logarithm of a number. Natural logarithms are based on the constant *e* (2.71828182845904). LN is the inverse of the EXP function.
+Renvoie le logarithme népérien d’un nombre. Les logarithmes népériens sont basés sur la constante *e* (2,71828182845904). LN est l’inverse de la fonction EXP.
 
 ```
 LN(metric)
@@ -423,11 +423,11 @@ LN(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme naturel. |
+| *metric* | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme népérien. |
 
 ## SAUF {#concept_BD954C455A8148A3904A301EC4DC821E}
 
-Renvoie 1 si le nombre est 0 ou renvoie 0 si un autre nombre.
+Renvoie 1 si le nombre est 0 ou renvoie 0 si autre nombre.
 
 ```
 NOT(logical)
@@ -435,9 +435,9 @@ NOT(logical)
 
 | Argument | Description |
 |---|---|
-| *logique* | Obligatoire. Valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
+| *logical* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
 
-L’utilisation de SAUF nécessite de savoir si le   (&lt;, >, =, &lt;> , etc.) renvoient des valeurs 0 ou 1.
+L’utilisation de SAUF nécessite de connaître si les expressions (&lt;, >, =, &lt;> , etc.) renvoient la valeur 0 ou 1.
 
 ## Différent de {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -455,8 +455,8 @@ OR(logical_test1,[logical_test2],...)
 
 | Argument | Description |
 |---|---|
-| *logical_test1* | Obligatoire. N&#39;importe quelle valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
-| *logical_test2* | Facultatif. Conditions supplémentaires que vous souhaitez évaluer comme VRAI ou FALSE |
+| *logical_test1* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
+| *logical_test2* | Facultatif. Conditions supplémentaires que vous souhaitez évaluer en tant TRUE ou FALSE. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
@@ -478,8 +478,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | Argument | Description |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Mesure que vous souhaitez corréler à *metric_Y*. |
+| *metric_Y* | Mesure que vous souhaitez corréler à *metric_X*. |
 
 ## Régression puissance : ordonnée à l’origine (tableau) {#concept_7781C85597D64D578E19B212BDD1764F}
 
@@ -530,8 +530,8 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 | Argument | Description |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Mesure que vous souhaitez corréler à *metric_Y*. |
+| *metric_Y* | Mesure que vous souhaitez corréler à *metric_X*. |
 
 ## Régression quadratique : ordonnée à l’origine (tableau) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
@@ -582,8 +582,8 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 | Argument | Description |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Mesure que vous souhaitez corréler à *metric_Y*. |
+| *metric_Y* | Mesure que vous souhaitez corréler à *metric_X*. |
 
 ## Régression réciproque : ordonnée à l’origine (tableau) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
@@ -626,7 +626,7 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 ## Sinus (ligne) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
-Renvoie le sinus de l’angle donné. Si l’angle est en degrés, multipliez-le par PI( )/180.
+Renvoie le sinus de l’angle donné. Si l’angle est en degrés, multipliez l’angle par PI( )/180.
 
 ```
 SIN(metric)
@@ -634,7 +634,7 @@ SIN(metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Angle en radians pour lequel vous souhaitez obtenir le sinus. |
+| *metric* | Angle en radians pour lequel vous souhaitez obtenir pour le sinus. |
 
 ## Score normalisé {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
@@ -650,7 +650,7 @@ Ici, `m` correspond au nombre de queues et `n`, aux degrés de liberté. Il doit
 
 `X` est la statistique du test en t. Il s’agira généralement d’une formule (zscore, par exemple) basée sur une mesure et évaluée sur chaque ligne.
 
-La valeur renvoyée est la probabilité de voir la statistique de test x compte tenu des degrés de liberté et du nombre de queues.
+La valeur renvoyée est la probabilité de voir la statistique de test x, étant donné les degrés de liberté et le nombre de queues.
 
 **Exemples:**
 
@@ -668,7 +668,7 @@ La valeur renvoyée est la probabilité de voir la statistique de test x compte 
 
 ## Tangente {#concept_C25E00CB17054263AB0460D9EF94A700}
 
-Renvoie la tangente de l’angle donné. Si l’angle est en degrés, multipliez-le par PI( )/180.
+Renvoie la tangente de l’angle donné. Si l’angle est en degrés, multipliez l’angle par PI( )/180.
 
 ```
 TAN (metric)
@@ -676,13 +676,13 @@ TAN (metric)
 
 | Argument | Description |
 |---|---|
-| *mesure* | Angle en radians pour lequel vous souhaitez obtenir la tangente. |
+| *metric* | Angle en radians pour lequel vous souhaitez obtenir pour la tangente. |
 
 ## Score centré réduit (ligne) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
-Renvoie le score centré réduit, ou score normal, en fonction d’une distribution normale. Le score centré réduit est le nombre d’écarts types par rapport à la moyenne. Un score centré réduit de 0 (zéro) signifie que le score est le même que la moyenne. Un score centré réduit peut être positif ou négatif, indiquant s’il est supérieur ou inférieur à la moyenne et selon le nombre d’écarts types.
+Renvoie le score centré réduit, ou score normal, selon une distribution normale. Le score centré réduit est le nombre d’écarts types où une observation se trouve depuis la moyenne. Un score centré réduit de 0 (zéro) signifie que le score est le même que la moyenne. Un score centré réduit peut être positif ou négatif, indiquant s’il est au-dessus ou en-dessous de la moyenne et par quel nombre d’écarts types.
 
-L’équation du score centré réduit est la suivante :
+L’équation pour le score centré réduit est la suivante :
 
 ![](assets/z_score.png)
 
@@ -701,17 +701,17 @@ Score centré réduit (mesure)
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <i>mesure</i> </td> 
-   <td colname="col2"> <p> Renvoie la valeur du premier argument non nul. </p> </td> 
+   <td colname="col1"> <i>metric</i> </td> 
+   <td colname="col2"> <p> Renvoie la valeur de son premier argument différent de zéro. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Test Z {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
 
-Exécute un test Z n-latéral avec un score centré réduit de A.
+Exécute un test Z n-latéral avec un score centré réduit de A.
 
-Renvoie la probabilité que la ligne active puisse être vue par hasard dans la colonne.
+Renvoie la probabilité que la ligne actuelle puisse être vue par hasard dans la colonne.
 
 >[!NOTE] Présume que les valeurs sont distribuées normalement.
 
