@@ -17,7 +17,7 @@ Certains facteurs peuvent influencer les performances d’un projet dans Analysi
 Des segments complexes peuvent avoir un impact significatif sur la performance des projets. Les facteurs qui ajoutent de la complexité à un segment (dans l’ordre décroissant d’impact) incluent les éléments suivants :
 
 * Les opérateurs de type « contains », « contains any of », « matches », « starts with » ou « ends with »
-* Segmentation séquentielle, en particulier lorsque des restrictions de dimension (Dans/Après) sont utilisées
+* La segmentation séquentielle, en particulier lorsque des restrictions dimensionnelles (Within/After) sont utilisées
 * Le nombre d’éléments de dimensions uniques dans les dimensions utilisées dans le segment (par exemple, Page = ’A’ lorsque Page comporte 10 éléments uniques sera plus rapide que Page = ’A’ lorsque la page a 100 000 éléments uniques)
 * Le nombre de dimensions différentes utilisées (par exemple, Page = ’Home’ et Page = ’Search results’ seront plus rapides que eVar 1 = ’red’ et eVar 2 = ’blue’)
 * Beaucoup d’opérateurs OR (au lieu de AND)
@@ -27,7 +27,7 @@ Des segments complexes peuvent avoir un impact significatif sur la performance d
 
 Bien qu’il soit impossible d’éviter certains facteurs de complexité, pensez aux possibilités de réduire la complexité de vos segments. En général, plus vous pouvez être précis dans vos critères de segment, mieux c’est. Par exemple :
 
-* Avec les , l’utilisation d’un seul  en haut du segment sera plus rapide qu’une série de  imbriquées.
+* Avec les conteneurs, l’utilisation d’un seul conteneur en haut du segment sera plus rapide qu’une série de conteneurs imbriqués.
 * Avec les opérateurs, « equals » sera plus rapide que « contains » et « equals any of » sera plus rapide que « contains any of ».
 * Avec de nombreux critères, les opérateurs AND seront plus rapides qu’une série d’opérateurs OR. Recherchez également des occasions de réduire plusieurs instructions OR en une seule instruction « equals any of ».
 
@@ -51,17 +51,17 @@ Le nombre de visualisations graphiques contenues dans un projet affecte la réac
 
 **Bonne pratique pour le nombre de visualisations**
 
-Réduisez le nombre de visualisations dans votre projet.  l’espace de travail  effectue un grand nombre de traitements en arrière-plan pour chaque visuel que vous ajoutez, de sorte que vous établissiez par priorité les visuels les plus importants pour le consommateur du rapport et que les visuels de prise en charge soient ventilés dans un projet distinct, plus détaillé si nécessaire.
+Réduisez le nombre de visualisations dans votre projet. Pour chaque visuel que vous ajoutez, Analysis Workspace exécute un traitement conséquent en arrière-plan. Par conséquent, donnez la priorité aux visuels les plus importants pour l’utilisateur du rapport et, si nécessaire, répartissez les visuels connexes dans un projet distinct plus détaillé.
 
 ## Complexité des visualisations (segments, mesures, filtres)
 
-Le type de visualisation (abandons ou tableau à structure libre) ajouté à un projet n’a pas de réelle incidence sur les performances du projet. Le temps de traitement dépend de la complexité de la visualisation. Les facteurs qui ajoutent de la complexité à une visualisation sont les suivants :
+Le type de visualisation (abandons ou tableau à structure libre) ajouté à un projet n’a pas de réelle incidence sur les performances du projet. Le temps de traitement dépend de la complexité de la visualisation. Voici quelques-uns des facteurs qui rendent une visualisation plus complexe :
 
-* Plage de données demandées, comme indiqué ci-dessus
-* Nombre de segments appliqués; par exemple, segments utilisés comme lignes d’un tableau à structure libre
+* Plage de données demandée, comme mentionné ci-dessus
+* Nombre de segments appliqués ; par exemple, les segments utilisés comme des lignes d’un tableau à structure libre
 * Utilisation de segments complexes
-* Lignes ou colonnes d’éléments statiques dans les tableaux à structure libre
-*  appliquée aux lignes des tableaux à structure libre
+* Lignes ou colonnes de postes statiques dans les tableaux de forme libre
+* Filtres appliqués aux lignes des tableaux à structure libre
 * Nombre de mesures incluses, en particulier les mesures calculées qui utilisent des segments
 
 **Bonne pratique pour la complexité de la visualisation**
@@ -80,10 +80,10 @@ N’ajoutez rien à un projet. Créez plutôt des projets distincts ayant un obj
 
 Si vous devez classer davantage les projets, vous pouvez [lier directement](https://www.youtube.com/watch?v=6IOEewflG2U) votre projet. Créez un index interne des projets, de sorte que les participants puissent facilement trouver ce qu’ils recherchent.
 
-Si vous devez ajouter de nombreux panneaux dans un Workspace, réduisez-les avant d’enregistrer et de partager le projet. Quand un projet est chargé, Analysis Workspace charge seulement le contenu correspondant aux panneaux développés. Les panneaux réduits ne sont pas chargés tant que l’utilisateur ne les développe pas. Cette approche est utile de deux manières :
+Si vous devez ajouter de nombreux panneaux dans un Workspace, réduisez-les avant d’enregistrer et de partager le projet. Quand un projet est chargé, Analysis Workspace charge seulement le contenu correspondant aux panneaux développés. Les panneaux réduits ne sont pas chargés tant que l’utilisateur ne les développe pas. Cette approche présente deux avantages :
 
 * le temps de chargement général d’un projet est optimisé ;
-* Les panneaux réduits constituent un excellent moyen d’organiser vos projets de manière logique pour le consommateur du rapport.
+* grâce aux panneaux réduits, organisez vos projets de manière logique pour l’utilisateur du rapport.
 
 ## Taille de la suite de rapports
 
