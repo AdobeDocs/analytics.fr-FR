@@ -2,7 +2,7 @@
 description: Indique comment empiler et remplacer des segments dans le créateur de mesures calculées.
 title: Empilage et remplacement des segments
 uuid: f6d4db9e-d982-4731-b342-7e49dee02035
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
