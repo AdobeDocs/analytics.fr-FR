@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Ajouter une sous-catégorie en concaténant le nom de page et de catégorie
 topic: Admin tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,7 +28,7 @@ Vous pouvez utiliser l’option de concaténation pour renseigner des valeurs en
   </tr> 
   <tr> 
    <td colname="col1"> Action </td> 
-   <td colname="col2">Remplacer la valeur de sous-catégorie par une valeur concaténée <p>Catégorie </p> <p>Nom de page </p> </td> 
+   <td colname="col2">Remplacer la valeur de sous-catégorie par une valeur concaténée <p>Catégorie </p> <p>Nom de la page </p> </td> 
   </tr> 
  </tbody> 
 </table>
