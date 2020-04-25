@@ -3,7 +3,7 @@ description: Les mesures sont la base des rapports ; elles vous aident à conna
 title: Mesures - Aperçu
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
