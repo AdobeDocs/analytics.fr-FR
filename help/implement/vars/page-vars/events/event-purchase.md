@@ -1,36 +1,36 @@
 ---
-title: Evénement achat
-description: Utilisez le d’achat pour collecter des données pour les mesures "Commandes", "Unités" et "Recettes".
+title: Événement d’achat
+description: Utilisez l’événement d’achat pour collecter des données pour les mesures Commandes, Unités et Recettes.
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Evénement achat
+# Événement d’achat
 
-Le  d’achat est une valeur de la `events` variable. Cette valeur est utile pour les entreprises qui souhaitent collecter des données sur les recettes générées par leur site. Elle dépend fortement des [`products`](../products.md) variables et [`purchaseID`](../purchaseid.md) des variables.
+L’événement d’achat est une valeur de la variable `events`. Cette valeur est utile pour les entreprises qui souhaitent collecter des données sur les recettes générées par leur site. Elle dépend fortement des variables [`products`](../products.md) et [`purchaseID`](../purchaseid.md).
 
-Lorsque vous définissez un  d’achat, il affecte les mesures suivantes :
+Lorsque vous définissez un événement d’achat, celui-ci affecte les mesures suivantes :
 
 * La mesure Commandes est incrémentée de 1
-* La mesure &quot;Unités&quot; est incrémentée en fonction du nombre de produits dans la `products` variable
-* La mesure &quot;Recettes&quot; augmente de la somme des paramètres de prix dans la `products` variable
+* La mesure Unités est incrémentée en fonction du nombre de produits dans la variable `products`
+* La mesure Recettes augmente de la somme des paramètres de prix dans la variable `products`
 
-## Définition du  d’achat dans Adobe Experience Platform Launch
+## Définition de l’événement d’achat dans Adobe Experience Platform Launch
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants AdobeID.
+1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’ [!UICONTROL Rules] onglet, puis cliquez sur la règle souhaitée (ou créez une règle).
-4. Sous [!UICONTROL Actions], cliquez sur une [!UICONTROL Adobe Analytics - Set Variables] action existante ou cliquez sur l’icône &quot;+&quot;.
-5. Définissez la [!UICONTROL Extension] liste déroulante sur Adobe Analytics et la [!UICONTROL Action Type] sur [!UICONTROL Set Variables].
-6. Localisez la [!UICONTROL Events] section et définissez la liste déroulante des  sur [!UICONTROL purchase].
+3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
+4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
+6. Recherchez la section [!UICONTROL Événements] et définissez la liste déroulante des événements sur [!UICONTROL achat].
 
-D’autres variables dépendantes, telles que `products` et `purchaseID` n’ont pas de champs dédiés dans Launch. Utilisez l’éditeur de code personnalisé suivant la syntaxe AppMeasurement pour ces variables.
+D’autres variables dépendantes, telles que `products` et `purchaseID`, n’ont pas de champs dédiés dans Launch. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement pour ces variables.
 
-## Définition du  d’achat dans AppMeasurement et lancement de l’éditeur de code personnalisé
+## Définition de l’événement d’achat dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
-Le  d’achat est une chaîne définie dans le cadre de la variable .
+L’événement d’achat est une chaîne définie dans le cadre de la variable d’événements.
 
 ```js
 // Set the purchase event by itself
@@ -40,10 +40,10 @@ s.events = "purchase";
 s.events = "purchase,event1,event2";
 ```
 
-## Achat  déduplication
+## Déduplication des événements d’achat
 
-Lorsque vous déclenchez un  d’achat, Adobe vérifie les éléments suivants :
+Lorsque vous déclenchez un événement d’achat, Adobe vérifie les éléments suivants :
 
-* L’accès contient-il la `purchaseID` variable ? Dans le cas contraire, Adobe utilise les informations de l’accès pour créer un &quot;ID d’achat temporaire&quot;. Cet ID d’achat temporaire s’applique uniquement au de l’accès. Les 5 identifiants d’achat temporaires précédents sont stockés pour chaque identifiant de par suite de rapports.
-* L’ID d’achat temporaire correspond-il à l’un des cinq derniers ID d’achat temporaire stockés ? Si tel est le cas, la demande d’image est considérée comme un achat en double. Aucune variable de conversion, y compris l’événement d’achat, ne figure dans les rapports.
-* Si la `purchaseID` variable est définie, correspond-elle à une valeur déjà collectée dans la suite de rapports dans tous les ? Si tel est le cas, la demande d’image est considérée comme un achat en double. Aucune variable de conversion, y compris l’événement d’achat, ne figure dans les rapports.
+* L’accès contient-il la variable `purchaseID` ? Dans le cas contraire, Adobe utilise les informations de l’accès pour créer un « identifiant d’achat temporaire ». Cet identifiant d’achat temporaire s’applique uniquement au visiteur de l’accès. Les cinq identifiants d’achat temporaires précédents sont stockés pour chaque identifiant visiteur par suite de rapports.
+* L’identifiant d’achat temporaire correspond-il à l’un des cinq derniers identifiants d’achat temporaire stockés ? Si tel est le cas, la demande d’image est considérée comme un achat en double. Aucune variable de conversion, y compris l’événement d’achat, ne figure dans les rapports.
+* Si la variable `purchaseID` est définie, correspond-elle à une valeur déjà collectée dans la suite de rapports pour tous les visiteurs ? Si tel est le cas, la demande d’image est considérée comme un achat en double. Aucune variable de conversion, y compris l’événement d’achat, ne figure dans les rapports.
