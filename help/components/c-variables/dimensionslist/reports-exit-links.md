@@ -21,4 +21,4 @@ Il convient de respecter certaines exigences pour que cette page soit renseigné
 * Comme pour tous les accès de suivi de liens personnalisés, la variable [pageName](/help/implement/vars/page-vars/pagename.md) est supprimée de la demande d’image afin d’éviter le gonflement vers la mesure  de la page.
 * Ce rapport est visible en tant que rapport de tendance et avec classement.
 * Ce rapport peut utiliser un filtre de recherche afin de localiser des éléments spécifiques.
-* Vous pouvez créer des  [ventilations](/help/analyze/reports-analytics/reports-customize/breakdowns.md) avec toute autre variable.
+* Vous pouvez créer des [ventilations](/help/analyze/reports-analytics/reports-customize/breakdowns.md) avec toute autre variable.
