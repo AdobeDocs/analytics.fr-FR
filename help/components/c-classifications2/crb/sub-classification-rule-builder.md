@@ -11,23 +11,23 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Vous pouvez combiner le Créateur de règles de classification avec des sous-classifications si vous vous assurez que chaque sous-classification possède une valeur parent.
 
-La combinaison du Créateur de règles de classification et des sous-classifications peut simplifier la gestion des classifications et réduire le nombre de règles requises. Vous pouvez le faire si votre code de suivi est constitué de codes que vous souhaitez classer séparément.
+La combinaison du Créateur de règles de classification et des sous-classifications peut simplifier la gestion des classifications et réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
 
 Voir [Sous-classifications](/help/components/c-classifications2/c-sub-classifications.md) pour obtenir des informations conceptuelles sur les sous-classifications.
 
 ## Exemple
 
-Supposons le code de suivi suivant :
+Prenons comme exemple le code de suivi ci-dessous :
 
 `channel:broad_campaign:creative`
 
-Une hiérarchie de classification vous permet d’appliquer une classification à une autre (appelée *`sub-classification`*). En d’autres termes, vous pouvez utiliser l’importateur comme une base de données relationnelle, avec plusieurs tables. Un tableau met en correspondance les codes de suivi complets avec les clés, et un autre les met en correspondance avec d&#39;autres tableaux.
+Une hiérarchie de classification vous permet d’appliquer une classification à une autre (appelée *`sub-classification`*). En d’autres termes, vous pouvez utiliser l’importateur comme une base de données relationnelle, avec plusieurs tables. Une table fait correspondre des codes de suivi complets à des clés, tandis qu’une autre fait correspondre ces clés à d’autres tables.
 
 ![](assets/sub_class_table.png)
 
-Une fois cette structure en place, vous pouvez utiliser le  [Créateur de règles de classifications](/help/components/c-classifications2/crb/classification-rule-builder.md) pour télécharger des petits fichiers qui mettent uniquement à jour les tables de recherche (tables de couleurs verte et rouge dans l’image précédente). Vous pouvez ensuite utiliser le créateur de règles pour tenir le tableau de classification principal à jour.
+Une fois cette structure en place, vous pouvez utiliser le  [Créateur de règles de classifications](/help/components/c-classifications2/crb/classification-rule-builder.md) pour télécharger des petits fichiers qui mettent uniquement à jour les tables de recherche (tables de couleurs verte et rouge dans l’image précédente). Vous pouvez ensuite utiliser le créateur de règles pour assurer la mise à jour du tableau de classification principal.
 
-Le suivant décrit la  à suivre.
+La tâche ci-dessous décrit la marche à suivre.
 
 ## Configurer des sous-classifications à l’aide du Créateur de règles {#task_2D9016D8B4E84DBDAF88555E5369546F}
 
@@ -37,7 +37,7 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 >
 >Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
-1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
+1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://marketing.adobe.com/resources/help/fr_FR/reference/classifications.html).
 
    Exemple :
 
@@ -47,7 +47,7 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
    Pour ce faire, utilisez une expression régulière. Dans cet exemple, la règle servant à compléter  *`Broad Campaign code`* utilisera cette expression régulière :
 
-   | `#` | Type de règle | Correspondre | Définir la classification | À |
+   | `#` | Type de règle | Correspond à | Définir la classification | À |
    |---|---|---|---|---|
    |  | Expression régulière | `[^\:]:([^\:]):([^\:]`) | Code de campagne large | `$1` |
    |  | Expression régulière | `[^\:]:([^\:]):([^\:]`) | Code de création | `$2` |
@@ -71,4 +71,4 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
    Le téléchargement de ce fichier sera effectué, par exemple, lors de l’insertion d’un nouveau *`Broad Campaign code`*. Ce fichier s’appliquera aux valeurs classées précédemment. De même, si vous créez une sous-classification (telle que  *`Creative Theme`* en tant que sous-classification de *`Creative code`*), vous ne téléchargerez que le fichier de sous-classification, au lieu de l’intégralité du fichier de classification.
 
-   Pour  ces sous-classifications fonctionnent exactement comme des classifications de niveau supérieur. Cela réduit la charge de gestion nécessaire pour les utiliser.-->
+   Dans le cadre de la création de rapports, ces sous-classifications se comportent exactement comme des classifications de niveau supérieur. Cela a pour effet d’alléger la charge de gestion associée à leur utilisation.-->
