@@ -3,7 +3,7 @@ description: Fichiers journaux permettant de savoir quand se connectent les util
 title: Journaux
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -29,7 +29,7 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Connexion | Vous pouvez filtrer le journal par nom d’utilisateur. |
 | IP | Vous pouvez filtrer le journal par adresse IP. |
 | Suite de rapports | Vous pouvez filtrer le journal selon un identifiant de suite de rapports spécifique. |
-| Type d’événement | Vous pouvez filtrer le journal selon un type d’événement. Sélectionnez un type d’événement dans la liste déroulante. |
+| Event Type (Type d’événement) | Vous pouvez filtrer le journal selon un type d’événement. Sélectionnez un type d’événement dans la liste déroulante. |
 | Événement | Vous pouvez filtrer le journal sur la base d’un mot ou d’une expression de la description de l’événement. |
 | Télécharger le rapport | Exporte le contenu du [!UICONTROL journal d’utilisation et des accès] dans un fichier délimité par des tabulations. |
 
