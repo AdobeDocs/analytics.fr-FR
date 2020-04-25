@@ -3,7 +3,7 @@ description: Réponses aux questions pouvant survenir lors de la mise en œuvre 
 solution: Experience Cloud
 title: Questions fréquentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
@@ -136,11 +136,11 @@ Pour plus de questions fréquentes sur ce sujet, consultez la [FAQ sur la redire
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Q : Pourquoi les nombres de visiteurs de segments diffèrent-ils entre Audience Manager et Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Voir  <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Différences entre les nombres de visiteurs </a>. </p> </td> 
+   <td colname="col2"> <p>Voir <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Différences entre les nombres de visiteurs </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Quelle est la différence entre « audiences » dans AAM et « segments » dans Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Voir  <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Présentation des segments dans Analytics et Audience Manager </a>. </p> <p>Les audiences AAM sont envoyées et partagées en tant que composants « Dimension » pour une utilisation dans Analytics. Elles n’apparaîtront pas en tant que segments dans le Créateur de segments, mais en tant que dimensions que vous pouvez utiliser pour créer des segments. </p> </td> 
+   <td colname="col2"> <p>Voir <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Présentation des segments dans Analytics et Audience Manager </a>. </p> <p>Les audiences AAM sont envoyées et partagées en tant que composants « Dimension » pour une utilisation dans Analytics. Elles n’apparaîtront pas en tant que segments dans le Créateur de segments, mais en tant que dimensions que vous pouvez utiliser pour créer des segments. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Quelle est la différence entre les attributs du client et les données de clients intégrées à partir d’AAM ?</b> </p> </td> 
