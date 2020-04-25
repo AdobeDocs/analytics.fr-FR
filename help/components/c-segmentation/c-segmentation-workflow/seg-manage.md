@@ -3,7 +3,7 @@ description: Le Gestionnaire de segments offre plusieurs manières d’organiser
 title: Gestion des segments
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
