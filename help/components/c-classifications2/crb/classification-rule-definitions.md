@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Règles de classification – Définitions
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -84,14 +84,14 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Numéro de rôle. </p> <p>Voir  <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Méthode de traitement des règles</a>. </p> </td> 
+   <td colname="col2"> <p>Numéro de rôle. </p> <p>Voir <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Méthode de traitement des règles</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Sélectionner le type de règle</span> </td> 
    <td colname="col2"> <p>Chaque règle s’applique à une variable spécifique. Les sélections valides sont les suivantes : </p> 
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
-     <li id="li_5C702D4F460841D38A59621A5161A3BC">Commence par </li> 
-     <li id="li_8052A741D9F34A2FBC136C181600193E">Se termine par </li> 
+     <li id="li_5C702D4F460841D38A59621A5161A3BC">Starts With (Commence par) </li> 
+     <li id="li_8052A741D9F34A2FBC136C181600193E">Ends With (Se termine par) </li> 
      <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">Contient </li> 
      <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Expression régulière </a> </li> 
     </ul> </td> 
@@ -129,7 +129,7 @@ Vous pouvez modifier des expressions régulières sur la page [!UICONTROL Expres
 | Groupes correspondants | Affiche la correspondance entre l’expression régulière et les caractères d’identification de la campagne, de sorte que vous puissiez classer une position dans l’identifiant de campagne. |
 | Résultat correspondant | Affiche les parties d’une chaîne qui correspondent à l’expression régulière. |
 
-Voir  [Expressions régulières dans les règles de classification](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+Voir [Expressions régulières dans les règles de classification](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 ## Page Tests {#section_EC926F97901C4E65901413F9683AA70A}
 
