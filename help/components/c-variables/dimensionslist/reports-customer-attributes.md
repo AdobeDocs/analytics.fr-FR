@@ -3,7 +3,7 @@ description: Questions fréquentes liées à Analytics portant sur les attributs
 solution: Experience Cloud,Analytics
 title: Attributs du client
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
