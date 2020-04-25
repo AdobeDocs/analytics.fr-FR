@@ -3,7 +3,7 @@ description: Les API de services Web offrent un accès par programmation à des 
 title: Services web
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
