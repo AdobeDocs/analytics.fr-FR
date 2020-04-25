@@ -1,7 +1,7 @@
 ---
 title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -38,10 +38,10 @@ Gardez à l’esprit les éléments suivants.
 | Jours avant le premier achat | daysbeforefirstpurchase |
 | Jours depuis le dernier achat | dayssincelastpurchase |
 | Domaine | filtereddomain |
-| Lien de téléchargement | downloadlink |
+| Download Link (Lien de téléchargement) | downloadlink |
 | Page d’accès | entrypage |
 | Page d’accès d’origine | entrypageoriginal |
-| Lien de sortie | exitlink |
+| Exit Link (Lien de sortie) | exitlink |
 | Canal Première touche | firsttouchchannel |
 | Détails du canal Première touche | firsttouchchanneldetail |
 | Compatible Java | javaenabled |
@@ -70,8 +70,8 @@ Gardez à l’esprit les éléments suivants.
 | Domaine référent initial | referringdomainoriginal |
 | Page | page |
 | Pages introuvables | pagesnotfound |
-| Produit | product |
-| Référent | referrer |
+| Product | product |
+| Referrer (Référent) | referrer |
 | Type de référent | referrertype |
 | Domaine référent | referringdomain |
 | Régions | georegion |
@@ -84,7 +84,7 @@ Gardez à l’esprit les éléments suivants.
 | Mot-clé de recherche - Naturel | searchenginenaturalkeyword |
 | Mot-clé de recherche - Payant | searchenginepaidkeyword |
 | Classement de toutes les pages de recherche | searchenginepagerank |
-| Serveur | server |
+| Server (Serveur) | server |
 | Visites sur une seule page | singlepagevisits |
 | Section du site | sitesections |
 | Temps passé par visite - Valeur granulaire | sitetime |
@@ -297,7 +297,7 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | Termes | socialterm |
-| Plateformes sociales / Propriétés | socialcontentprovider |
+| Plateformes sociales/Propriétés | socialcontentprovider |
 | Auteurs | socialauthor |
 | Langue | sociallanguage |
 | Latitude / Longitude | sociallatlong |
