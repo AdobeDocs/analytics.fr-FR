@@ -3,7 +3,7 @@ description: Le marquage des segments en tant que favoris est une autre manière
 title: Marquage des segments comme favoris
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
