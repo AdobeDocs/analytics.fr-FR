@@ -2,7 +2,7 @@
 description: Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations (ou rechargements), la durée moyenne de consultation, les dates, les unités, les commandes, les recettes, etc. Les mesures et les données associées s’affichent dans les colonnes des rapports.
 title: Mesures
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
