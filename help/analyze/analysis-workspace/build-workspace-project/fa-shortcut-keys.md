@@ -30,8 +30,8 @@ Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dan
 | Créer un projet | ctrl (ou cmd) + maj + p |
 | Créer un segment | ctrl (ou cmd) + maj + e |
 | Traiter les données du projet | ctrl (ou cmd) + maj + g |
-| Téléchargement au format CSV | ctrl (ou cmd) + maj + v |
-| Télécharger au format PDF | ctrl (ou cmd) + maj + b |
+| Téléchargement au format CSV | ctrl (ou cmd) + maj + v |
+| Téléchargement au format PDF | ctrl (ou cmd) + maj + b |
 | Obtenir le lien du projet | alt + l |
 | Accéder au volet Panneaux | alt + maj + 1 |
 | Accéder au volet Visualisations | alt + maj + 2 |
