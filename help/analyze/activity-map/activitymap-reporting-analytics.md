@@ -3,7 +3,7 @@ description: Décrit la façon de définir les autorisations ainsi que les dimen
 title: Création de rapports Activity Map dans Analytics
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ Vous pouvez [personnaliser l’accès des utilisateurs aux dimensions](https://m
 
 | Dimension | Description |
 |---|---|
-| Activity Map Activity Map | Répertorie les pages sur lesquelles un utilisateur a cliqué sur un lien. |
+| Activity Map   Activity Map | Répertorie les pages sur lesquelles un utilisateur a cliqué sur un lien. |
 | Région d’Activity Map | Répertorie toutes les régions de lien collectées sur l’ensemble du site web. Notez que si une région apparaît sur plusieurs pages, la mesure sera intégrée à chacune d’entre elles. |
 | Liens d’Activity Map | Répertorie tous les liens collectés sur l’ensemble du site web. |
 | Liens et région d’Activity Map | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
