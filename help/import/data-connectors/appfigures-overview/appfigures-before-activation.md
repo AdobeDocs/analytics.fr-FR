@@ -58,7 +58,7 @@ Le tableau suivant décrit les variables Analytics automatiquement activées pou
 
 >[!NOTE] Cette intégration utilise des variables dédiées pour les données de la boutique d’applications. Vous n’avez donc pas besoin d’attribuer des variables et des événements de commerce personnalisés.
 
-| Type de variable | Nom | Méthode de population | Description |
+| Type de variable | Nom | Méthode de remplissage | Description |
 |---|---|---|---|
 | eVar | ID d’objet de la boutique d’applications | Importation à partir d’appFigures. | Configurez cette eVar en indiquant l’expiration de la visite, l’attribution la plus récente et les sous-relations de base. |
 | Événement (numérique) | Téléchargements de la boutique d’applications | Importation à partir d’appFigures. | Nombre de téléchargements d’applications mobiles. |
