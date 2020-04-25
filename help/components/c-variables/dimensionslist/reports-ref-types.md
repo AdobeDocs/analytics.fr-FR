@@ -3,7 +3,7 @@ description: En suivant et en enregistrant les sites de référence des visiteur
 title: Type de référent
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ La liste ci-dessous définit les divers types de référents :
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> Reports &amp; Analytics marketing (SiteCatalyst) </th> 
    <th colname="col3" class="entry"> Analyses ad hoc </th> 
-   <th colname="col4" class="entry"> Data Warehouse </th> 
+   <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr>
  </thead>
  <tbody> 
