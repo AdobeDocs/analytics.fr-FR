@@ -1,7 +1,7 @@
 ---
 title: Aide sur les composants d’Analytics
 description: valeur nulle
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -27,9 +27,9 @@ Les composants Analytics permettent d’affiner et d’optimiser l’analyse des
 * [Référence de dimension](c-variables/dimensionslist/reports-descriptions.md)
 * [Référence des mesures](c-variables/c-metrics/metricslist.md)
 
-## Plus de guides de l’utilisateur Analytics
+## Plus de guides d’utilisation d’Analytics
 
-[Guides de l’utilisateur Analytics](/help/landing/home.md)
+[Guides d’utilisation d’Analytics](/help/landing/home.md)
 
 ## Principales ressources Analytics
 
