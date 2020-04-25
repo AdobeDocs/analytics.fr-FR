@@ -2,7 +2,7 @@
 description: Affiche le temps passé par les visiteurs sur la page.
 title: Durée de consultation de la page
 topic: Reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
