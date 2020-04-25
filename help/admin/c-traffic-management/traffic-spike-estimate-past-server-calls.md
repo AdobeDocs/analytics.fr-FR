@@ -2,7 +2,7 @@
 description: Vous pouvez obtenir, par exemple, une moyenne des appels quotidiens au serveur de l’année passée durant un intervalle de temps précis, ainsi que l’augmentation prévue du volume d’appels au serveur de cette année. Vous pouvez ainsi prévoir un pic de trafic d’après ce facteur de multiplication.
 title: Estimation des appels au serveur précédents et planification d’un pic de trafic
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
