@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Dimensions disponibles pour les règles de traitement
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -66,7 +66,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
    <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Serveur </p> </td> 
+   <td colname="col1"> <p>Server (Serveur) </p> </td> 
    <td colname="col2"> <p> <code> s.server </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
    <td colname="col2"> <p>Suite de rapports sur laquelle est exécutée la règle de traitement, qui doit être différente de la suite d’origine spécifiée dans AppMeasurement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nom de page </p> </td> 
+   <td colname="col1"> <p>Nom de la page </p> </td> 
    <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Remarque : une page vue est comptabilisée sur tous les accès pour lesquels le nom de page n’est pas vide. Lorsqu’un lien est suivi, le serveur de collecte des données supprime le nom de page de l’accès afin que les pages vues ne soient pas comptabilisées. Si vous réinsérez un nom de page dans ces appels à l’aide des règles de traitement, une page vue est comptabilisée. Nous vous recommandons de vérifier que le nom de page est déjà défini avant de le modifier. </p> </td> 
   </tr> 
   <tr> 
