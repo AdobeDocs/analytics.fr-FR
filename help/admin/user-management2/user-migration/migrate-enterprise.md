@@ -2,7 +2,7 @@
 description: Comment migrer des comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID vers l’Admin Console.
 title: Migration de comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID
 uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
