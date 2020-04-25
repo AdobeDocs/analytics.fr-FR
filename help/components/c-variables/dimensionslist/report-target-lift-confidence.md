@@ -2,7 +2,7 @@
 description: Vous permet d’évaluer le succès des campagnes dans Adobe Analytics comme vous le faisiez auparavant dans Target Classic.
 title: Effet élévateur et degré de confiance Target
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
