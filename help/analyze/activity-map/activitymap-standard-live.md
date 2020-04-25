@@ -3,7 +3,7 @@ description: Activity Map propose deux modes de base permettant la création de 
 title: Mode standard et mode réel
 topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
