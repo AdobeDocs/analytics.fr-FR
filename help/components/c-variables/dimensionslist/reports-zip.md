@@ -1,7 +1,7 @@
 ---
 title: Codes postaux du visiteur
 description: Ce rapport indique les codes postaux des visiteurs qui ont eu le plus grand impact sur les mesures de succès. Les informations de ce rapport sont généralement collectées au cours du processus d’achat, lorsque vous connaissez le code postal du lieu où l’achat est effectué. Vous pouvez utiliser ce rapport pour déterminer le succès d’une campagne de publicité locale jusqu’au niveau d’une ville.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
