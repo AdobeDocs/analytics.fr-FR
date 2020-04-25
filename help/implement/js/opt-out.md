@@ -23,8 +23,8 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
 
 * Dans Adobe Experience Platform Launch :
    1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) et cliquez sur une propriété.
-   2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
-   3. Cliquez sur l’ [!UICONTROL General] accordéon et notez la [!UICONTROL Tracking Server] valeur.
+   2. Cliquez sur l’onglet [!UICONTROL Extensions], puis sur [!UICONTROL Configurer] sous Adobe Analytics.
+   3. Cliquez sur l’accordéon [!UICONTROL Général], puis notez la valeur [!UICONTROL Serveur de suivi].
 
 * Dans une mise en œuvre JavaScript :
    1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
@@ -32,8 +32,8 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
 
 * Installez [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html) :
    1. Accédez à votre site à l’aide du navigateur Chrome.
-   2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
-   3. Note the [!UICONTROL Request URL - Hostname] value.
+   2. Ouvrez Experience Cloud Debugger, puis accédez à l’[!UICONTROL onglet Réseau].
+   3. Notez la valeur [!UICONTROL Request URL - Hostname].
 
 Une fois que vous avez trouvé le domaine `trackingServer` de votre mise en œuvre, ajoutez le chemin `/optout.html` à la fin. Par exemple :
 
