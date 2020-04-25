@@ -17,8 +17,8 @@ Le taux de rebond utilise la mesure  [des rebonds](/help/components/c-variables/
 
 `Bounces divided by Entries`
 
-Le taux de rebonds n’inclut pas les visites au cours desquelles plusieurs actions se sont produites sur une seule page. Par exemple, une visite avec un vidéo  sur une seule page est un accès unique, mais pas un rebond.
+Le taux de rebond n’inclut pas les visites dans lesquelles plusieurs actions se sont produites sur une seule page. Par exemple, une visite avec un affichage de vidéo sur une seule page est un accès unique, mais pas un rebond.
 
->[!NOTE] Les implémentations existantes peuvent parfois comporter une mesure calculée qui diffère de la mesure par défaut d’Analytics. Vérifiez la définition de la mesure calculée pour vous assurer qu’il n’y a aucune différence.
+>[!NOTE] Les implémentations existantes peuvent parfois comporter une mesure calculée qui diffère de la mesure par défaut d’Analytics. Vérifiez la définition de la mesure calculée pour vous assurer de l’absence de différence.
 
-Consultez cet article [de la base de](https://marketing.adobe.com/resources/help/fr_FR/home/index.html#kb-analytics-comparing-bounces-and-single-access) connaissances pour en savoir plus.
+Pour plus d’informations, voir cet [article de la base de connaissance](https://marketing.adobe.com/resources/help/fr_FR/home/index.html#kb-analytics-comparing-bounces-and-single-access).
