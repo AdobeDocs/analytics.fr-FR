@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Guide d’administration Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
@@ -15,7 +15,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 + Administration d’Analytics - Aperçu {#admin-overview}
    + [Quel outil Adobe Analytics dois-je utiliser ?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Configuration requise et comparaison des produits Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [Configuration requise](c-system-requirements/sys-reqs.md)
++ [Configuration système requise](c-system-requirements/sys-reqs.md)
 + Outils d’administration {#admin-tools}
    + [Outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
@@ -119,7 +119,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [Alliance de marques](company/co-branding-admin.md)
    + [Masquage des suites de rapports](company/c-hide-report-suites.md)
    + [Gestionnaire de sécurité](company/security-manager.md)
-   + [Fin de vie pour &quot;Mettre en place les restrictions d&#39;identification par IP&quot;](company/login-restrictions-eol.md)
+   + [Fin de vie de la fonction « Exiger des restrictions d’identification par IP »](company/login-restrictions-eol.md)
 + Gestion des suites de rapports {#manage-report-suites}
    + [Gestionnaire de suites de rapports](c-manage-report-suites/report-suites-admin.md)
    + [Suites de rapports globales et de cumul](c-manage-report-suites/rollup-report-suite.md)
