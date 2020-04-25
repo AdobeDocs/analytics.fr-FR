@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Gestionnaire des sources de données
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -49,7 +49,7 @@ La sélection que vous effectuez sur l’onglet Créer détermine les champs ini
    <td colname="col2"> <p> Indique au moteur de traitement des sources de données d’interrompre le traitement en cas d’erreur. Le traitement ne reprend que lorsque vous sélectionnez Nouveau traitement. L’option Arrêter le traitement en cas d’avertissement s’applique uniquement au <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Traitement complet</a>. </p> <p>Si la fonctionnalité Sources de données détecte une erreur de fichier, elle vous en informe. Le système déplace le fichier Sources de données comportant l’erreur dans un dossier intitulé <span class="filepath">files_with_errors</span> sur le serveur FTP. Une fois le problème résolu, renvoyez le fichier pour qu’il soit traité. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Configurer </p> </td> 
+   <td colname="col1"> <p>Configurez les </p> </td> 
    <td colname="col2"> <p>Vous permet de modifier le modèle de source de données ou tout autre paramètre spécifique à cette source de données. </p> </td> 
   </tr> 
   <tr> 
