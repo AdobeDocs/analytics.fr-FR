@@ -26,7 +26,7 @@ Date de publication : **5 mars 2020**
 
 Date de publication : **21 février 2020**
 
-* Mise à jour  module Gestion  vers DIL 9.4. (AN-209341)
+* Mise à jour du module Gestion de l’audience vers DIL 9.4. (AN-209341)
 
 ## Version 2.18.0
 
@@ -75,7 +75,7 @@ Date de publication : **10 avril 2019**
 
 Date de publication : **22 février 2019**
 
-* Mise à jour  module Gestion  vers DIL 9.1. (AN-175255)
+* Mise à jour du module Gestion de l’audience vers DIL 9.1. (AN-175255)
 * La stratégie de sécurité GTM n’autorise pas le module Activity Map. (AN-174679)
 * Amélioration d’AppMeasurement afin d’honorer le droit d’opposition quand le service d’identité n’est pas approuvé dans l’accord préalable. (AN-175259)
 
@@ -84,7 +84,7 @@ Date de publication : **22 février 2019**
 Date de publication : **11 février 2019**
 
 * Ajout de la prise en charge des nouveaux services de souscription Adobe dans AppMeasurement. (AN-163546)
-* Ajout de la prise en charge du stockage des données de suivi des liens sur les   session. (AN-162272)
+* Ajout de la prise en charge du stockage des données de suivi des liens pour le stockage de session. (AN-162272)
 * Ajout de la prise en charge du type de flux multimédia pour Audio Analytics. (AN-173265)
 
 ## Version 2.10.0
@@ -94,7 +94,7 @@ Date de publication : **20 septembre 2018**
 Cette version garantit l’envoi correct des cookies par la bibliothèque [!DNL AppMeasurement] pour tous les types de connexions.
 
 * [!DNL AppMeasurement] bloque les transmissions de cookies durant les instructions POST. (AN-165538)
-* Supprimez la prise en charge de XDomainRequest. (AN-165733)
+* Prise en charge de la fonction Déposer pour XDomainRequest. (AN-165733)
 * Réduction de la durée de vie par défaut des cookies d’[!DNL AppMeasurement] de cinq à deux ans. (AN-158572)
 * Suppression du module média du Gestionnaire de code ([!DNL AppMeasurement]) (AN-166590)
 
@@ -113,7 +113,7 @@ Date de publication : **24 mai 2018**
 Date de publication : **12 avril 2018**
 
 * Mise à jour d’[!DNL AppMeasurement] permettant d’utiliser l’interface visiteur mise à jour pour demander des identifiants. (AN-151483)
-* Le cookie de suivi de lien continue à être écrit une fois le suivi des liens désactivé. (AN-156332)
+* Le cookie de suivi des liens continue à être écrit une fois que le suivi des liens est désactivé. (AN-156332)
 * Réduction de la durée de vie par défaut des cookies d’[!DNL AppMeasurement] de cinq à deux ans. (AN-158572)
 
 ## Version 2.8.1
@@ -129,15 +129,15 @@ Date de publication : **15 mars 2018**
 Recompilation de l’API visiteur 3.1.0 (AN-159524) avec les correctifs suivants : (CORE-11390, CORE-10634)
 
 * Compilation de VAPI v3.1 avec [!DNL AppMeasurement] v2.8. (AN-158353)
-* Refacturez la création du point de fin de collecte de données pour faciliter le partage. (AN-156647)
+* Refactorisation de la création du point de terminaison de la collecte de données afin de faciliter le partage. (AN-156647)
 * Ajout des mesures de minutage en boucle des demandes dans [!DNL AppMeasurement]. (AN-158343)
 
 ## Version 2.7.0
 
 Date de publication : **18 janvier 2018**
 
-* Suppression de la prise en charge d’IE 6 à 9
-* Inclusion de l’API v3.0.0
+* Fin de la prise en charge d’IE 6 à 9
+* Inclusion de l’API visiteur version 3.0.0
 * Inclusion de DIL v7.00   
 
 ## Version 2.6.0
@@ -157,7 +157,7 @@ Date de publication : **21 septembre 2017**
 
 Date de publication : **17 août 2017**
 
-* Inclure dil.js v6.11
+* dil.js v6.11 inclus
 * API Visiteur 2.4.0 inclus
 
 ## Version 2.3.0
@@ -180,7 +180,7 @@ Date de publication : **20 avril 2017**
 
 * Comprend la dernière version de `dil.js` (AN-140396)
 * Ajout de la prise en charge du paramètre `adobe_mc_ref` qui remplace le référent de la page. (AN-131920)
-* Nouvelle API 2.1.0. (AN-140873)
+* API Visiteur 2.1.0. de nouveau inclus. (AN-140873)
 * Ajout du paramètre `mcorgid`. (AN-139586)
 * Paramètre cp (customerPerspective) ajouté. (AN-140897)
 
@@ -195,8 +195,8 @@ Date de la version : **9 mars 2017**
 
 Date de publication : **19 janvier 2017**
 
-* Inclure VisitorAPI 2.0.0
-* Appels et vérifications de fonction reséquencés afin que le SDID soit consommé une fois la vérification de l’abandon terminée. (AN-134364)
+* Inclusion de VisitorAPI 2.0.0
+* Appels et vérifications de fonctions reséquencés de façon à ce que la consommation du SDID ait lieu une fois la vérification de l’abandon terminée. (AN-134364)
 * Ajout des crochets `s.registerPreTrackCallback` et `s.registerPostTrackCallback`. (AN-134567)
 
 ## Version 1.7.0
@@ -245,7 +245,7 @@ Date de publication : **16 juin 2016**
 
 Date de publication : **21 avril 2016**
 
-* Le module [!DNL AppMeasurement] d’Activity Map a été intégré au module standard d’[!DNL AppMeasurement], afin que vous n’ayez à référencer qu’un seul fichier [!DNL .js]. De plus,  suivi  carte de est activé par défaut. (AN-112689)
+* Le module [!DNL AppMeasurement] d’Activity Map a été intégré au module standard d’[!DNL AppMeasurement], afin que vous n’ayez à référencer qu’un seul fichier [!DNL .js]. En outre, le suivi d’Activity Map est activé par défaut. (AN-112689)
 * Correction d’un problème de troncation lié à l’ordre des variables de chaîne de requête dans [!DNL AppMeasurement], afin que *`pageURLRest`* soit le dernier. (AN-114647)
 
 ## Version 1.5.4
@@ -260,7 +260,7 @@ Date de publication : **17 mars 2016**
 Date de publication : **21 janvier 2016**
 
 * Correction de la gestion du module [!DNL Audience Manager] lors de l’utilisation de POST pour les appels de suivi. (AN-115381)
-* Déplacement du reste de l’URL de la page (&quot;-g&quot;) vers la fin de la chaîne de de demande de suivi. (AN-114647)
+* Déplacement du reste de l’URL de la page (&quot;-g&quot;) à la fin de la chaîne de requête de demande de suivi. (AN-114647)
 
 ## Version 1.5.2
 
@@ -291,7 +291,7 @@ Date de publication : **21 mai 2015**
 * Depuis le SDK iOS version 4.5, une nouvelle extension iOS permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension iOS. Reportez-vous à la section [Mise en œuvre des extensions iOS](https://docs.adobe.com/content/help/fr-FR/mobile-services/ios/ios-ext/ios-ext.html) dans le guide d’utilisation des Mobile Services.
 * À compter de la version 4.5 du SDK Android, une nouvelle extension Android permet de collecter des données à partir de l’application Android Wearable. Reportez-vous à la page [Android Wearable](https://docs.adobe.com/content/help/fr-FR/mobile-services/android/wearables-android/android-wearable.html) dans le guide d’utilisation des Mobile Services.
 * Inclusion de l’API visiteur version 1.4.
-* Mise à jour du module AudienceManagement pour utiliser DIL version 6.0.
+* Mise à jour du module AudienceManagement afin de permettre l’utilisation de DIL version 6.0.
 
 >[!NOTE]**Problème connu** : dans les intégrations API visiteur / module [!DNL AppMeasurement] [!DNL Audience Manager], deux demandes iFrame de publication de destination seront effectuées dans IE6-9 : `//fast.<subdomain>.demdex.net/dest5.html` et `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
 
@@ -315,7 +315,7 @@ Date de publication : **19 février 2015**
 
 Date de publication : **15 janvier 2015**
 
-* Correction de la gestion du prérendu WebKit pour empêcher le suivi des pages prérendues qui ne sont pas affichées.
+* Correction d’un problème lors de la gestion du prérendu WebKit afin d’empêcher le suivi des pages prérendues qui ne sont pas consultées.
 * Le fichier compressé de distribution a été mis à jour afin d’inclure l’API visiteur 1.3.4 et un module **[!UICONTROL AudienceManagement]** mis à jour qui inclut la bibliothèque d’intégration des données (DIL) version 5.5.
 
 ## Version 1.4.1
@@ -332,12 +332,12 @@ Date de publication : **18 septembre 2014**
    //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
    ```
 
-   Les 4 caractères sont limités aux caractères autorisés dans les chemins d’accès aux fichiers URL, tels que les caractères alphanumériques et les points.
+   Les 4 caractères se limitent aux caractères autorisés dans les URL d’accès aux fichiers, tels les caractères alphanumériques et le point.
 
-* Sur les pages à balisage double avec du code H, correction d’une boucle pouvant survenir durant le suivi automatique des liens (téléchargement et sortie) alors que le suivi forcé des liens est activé (par défaut dans les navigateurs Webkit). En outre, ajout d’une protection générale autour du suivi automatique des liens afin d’empêcher la survenue de telles boucles. Cette protection limite le suivi automatique des liens des clics répétés au *même* objet à une fois toutes les 10 secondes. Cette protection s’applique uniquement au suivi automatique des liens, de sorte que les appels de suivi manuel des liens (s.tl) ne sont pas limités. Les clics vers différents objets ne sont pas non plus affectés par cette protection et seront suivis.
-* Correction de la gestion de l’objet sur lequel l’utilisateur a cliqué lorsqu’un délai est nécessaire.
-* Correction d’un problème qui provoquait un nombre  de  de de page lorsque s.t était appelé à partir d’une fonction onclick de lien, si l’API dene possédait pas encore les valeurs nécessaires.
-* Prise en charge HTTP POST.
+* Sur les pages à balisage double avec du code H, correction d’une boucle pouvant survenir durant le suivi automatique des liens (téléchargement et sortie) alors que le suivi forcé des liens est activé (par défaut dans les navigateurs Webkit). En outre, ajout d’une protection générale autour du suivi automatique des liens afin d’empêcher la survenue de telles boucles. Cette protection limite à une fois toutes les 10 secondes le suivi automatique des liens pour les clics répétés vers le *même* objet. Cette protection s’applique uniquement au suivi automatique des liens, de sorte que les appels de suivi manuel des liens (s.tl) ne sont pas limités. Les clics vers d’autres objets ne sont pas non plus concernés par cette protection et feront l’objet d’un suivi.
+* Correction de la gestion des objets sur lesquels l’utilisateur a cliqué lorsqu’un délai est nécessaire.
+* Correction d’un problème en raison duquel le nombre de pages vues était double lorsque la variable s.t était invoquée à partir d’une fonction onclick, si l’API visiteur n’avait pas encore les valeurs requises.
+* Prise en charge de HTTP POST.
 
    > [!IMPORTANT] Pour qu’un appel [!DNL Analytics] utilise la méthode POST plutôt que la méthode GET dans [!DNL AppMeasurement] (une méthode de résolution des [URL tronquées dans IE](https://helpx.adobe.com/fr/analytics/kb/shortening-image-request-urls.html)), vous devez utiliser la mise en œuvre la plus récente du service d’identification des visiteurs pour Experience Cloud.
 
@@ -374,13 +374,13 @@ Date de publication : **17 avril 2014**
 
 Date de publication : **13 mars 2014**
 
-* Correctifs de bogues pour la vidéo de pulsation.
+* Correctifs de bogues pour la vidéo Pulsation.
 
 ## Version 1.2.3
 
 Date de publication : **20 février 2014**
 
-* Correctifs de bogues pour la vidéo de pulsation.
+* Correctifs de bogues pour la vidéo Pulsation.
 
 ## Version 1.2.2
 
@@ -438,7 +438,7 @@ Date de publication : **23 mai 2013**
 
 Une nouvelle bibliothèque [!DNL JavaScript] [!DNL AppMeasurement] est désormais disponible dans le Gestionnaire de code. Cette bibliothèque fournit les mêmes fonctionnalités de base que le fichier [!DNL s_code.js] ; elle est toutefois plus légère et plus rapide sur les sites pour mobiles comme sur les sites pour Bureau.
 
-* 3 à 7 fois plus rapide que le code H.25.
+* 3 à 7 fois plus rapide que le code H.25.
 * Décompressée : 21 Ko uniquement ; 8 Ko dans un fichier gzip (code H.25 : 33 Ko décompressé et 13 Ko dans un fichier gzip).
-* Prise en charge native pour obtenir des paramètres , lire et écrire des cookies et effectuer un suivi avancé des liens.
-* Suffisamment petit et rapide pour être utilisé avec les sites pour mobiles et suffisamment robuste pour être utilisé sur le web pour ordinateur de bureau complet, ce qui vous permet de tirer parti d’une seule bibliothèque sur tous les  de  Web.
+* Prise en charge native pour l’obtention des paramètres de requête, la lecture et l’écriture de cookies et le suivi avancé des liens.
+* Suffisamment petite et rapide pour être utilisée sur les sites pour mobiles et suffisamment robuste pour être utilisée sur les sites pour Bureau, ce qui vous permet d’exploiter une seule et même bibliothèque dans tous les environnements web.
