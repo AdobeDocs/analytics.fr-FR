@@ -3,7 +3,7 @@ description: Participation des visiteurs est une mesure qui vous permet de visua
 title: Participation des visiteurs – Ad Hoc Analysis
 topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -40,7 +40,7 @@ Dans le cadre de la génération de rapports, l’attribution de conversion se p
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>A </p> </td> 
+   <td colname="col1"> <p>A  </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
    <td colname="col3"> <p>60 $ </p> </td> 
    <td colname="col4"> <p>60 $ </p> </td> 
@@ -52,7 +52,7 @@ Dans le cadre de la génération de rapports, l’attribution de conversion se p
    <td colname="col4"> <p>60 $ </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>C </p> </td> 
+   <td colname="col1"> <p>C  </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>60 $ </p> </td> 
