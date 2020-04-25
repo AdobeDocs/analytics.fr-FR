@@ -15,4 +15,4 @@ Les variables de trafic Aperçu personnalisé (ou prop) vous permettent d’éta
 
 Utilisez la page [!UICONTROL Variables de trafic] pour activer, désactiver ou renommer des rapports de variables de trafic. Une fois désactivé, le rapport d’une variable de trafic n’apparaît plus dans l’interface utilisateur.
 
-Voir également [prop](../../../implement/vars/page-vars/prop.md) dans le guide de l’utilisateur Mise en oeuvre.
+Voir also [prop](../../../implement/vars/page-vars/prop.md) in the Implement user guide.
