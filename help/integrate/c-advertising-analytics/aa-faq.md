@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Questions fréquentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
