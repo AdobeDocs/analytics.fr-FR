@@ -2,7 +2,7 @@
 description: Ajoutez ou gérez toutes les alertes d’utilisation du serveur. Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
 title: Alerte d’utilisation des appels au serveur
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -73,6 +73,6 @@ Pour gérer des alertes :
    | Renommer | Vous pouvez renommer toutes les alertes sauf les alertes par défaut. |
    | Approuver | Approuvez les alertes pour les rendre &quot;officielles&quot;. |
    | Activer/Désactiver | Vous pouvez activer ou désactiver toutes les alertes sauf les alertes par défaut. |
-   | Renouveler | Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées. Cela prolonge leur date d’expiration d’un an à partir du moment où vous avez cliqué sur l’option [!UICONTROL Renouveler], quelle que soit leur date d’expiration d’origine. |
+   | Renouveler | When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
    | Exporter dans un fichier CSV | Reportez-vous à [Télécharger le rapport d’utilisation](/help/admin/c-server-call-usage/report-suite-usage.md). |
 
