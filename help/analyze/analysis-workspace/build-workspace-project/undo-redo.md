@@ -2,7 +2,7 @@
 description: Modification et amélioration de l’option Annuler dans Analysis Workspace.
 title: Paramètres d’annulation et de rétablissement
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Paramètres d’annulation et de rétablissement
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Projet]** > **[!UICONTROL Annuler/Rétablir]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
 
-* L’option **[!UICONTROL Rétablir]** (pour rétablir une action annulée) figure dans le menu **[!UICONTROL Édition]**.
+* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
 
-* Le fait de cliquer sur **[!UICONTROL Enregistrer]** n’efface pas la pile **[!UICONTROL Annuler]**.
+* Le fait de cliquer **[!UICONTROL Save]** n’efface pas la **[!UICONTROL Undo]** pile.
 
-* **[!UICONTROL Si vous cliquez sur Nouveau projet]** ou **[!UICONTROL Ouvrir le projet existant]**, en revanche, la pile **[!UICONTROL Annuler]** est effacée.
+* **[!UICONTROL New Project]** ou **[!UICONTROL Open Existing Project]** effacer la **[!UICONTROL Undo]** pile
 
 * Vous pouvez annuler/rétablir une modification de la suite de rapports.
 * Un message d’annulation/de rétablissement s’affiche à côté du nom du projet, indiquant quand une annulation ou un rétablissement est en cours.
@@ -31,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * Effacer tout
 * Période
 * Analyse des contributions
-* Comparaison des segments
+* Comparaison des segments 
 * Nom du projet
 * Sélection de suites de rapports
 * Ajout/suppression de visualisation
