@@ -38,7 +38,7 @@ Lors de la détermination des données à collecter, il est facile de dire « t
 
 ## Ressources supplémentaires
 
-La définition d’un document de conception de solution est un projet assez complexe, surtout pour les organisations qui n’en avaient pas encore créé. Si vous avez besoin d’une assistance supplémentaire, Adobe fournit des services de conseil spécialisés pour aider votre organisation à exécuter Adobe Analytics. Contactez votre gestionnaire de compte si vous souhaitez bénéficier des services professionnels d’Adobe. Vous pouvez remplir un [questionnaire technique préalable à l’implémentation](assets/technical-pre-implementation-questionnaire.pdf) afin qu’Adobe sache exactement comment vous aider en fonction des besoins de votre organisation.
+La définition d’un document de conception de solution est un projet assez complexe, surtout pour les organisations qui n’en avaient pas encore créé. Si vous avez besoin d’une assistance supplémentaire, Adobe fournit des services de conseil spécialisés pour aider votre organisation à exécuter Adobe Analytics. Contactez votre gestionnaire de compte si vous souhaitez bénéficier des services professionnels d’Adobe. Vous pouvez remplir un [questionnaire technique préalable à la mise en œuvre](assets/technical-pre-implementation-questionnaire.pdf) afin qu’Adobe sache exactement comment vous aider en fonction des besoins de votre organisation.
 
 Plusieurs partenaires Adobe se spécialisent également dans la création d’un document de conception de solution, ainsi que dans la mise en œuvre d’Adobe Analytics sur votre site.
 
