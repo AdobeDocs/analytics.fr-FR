@@ -17,7 +17,7 @@ Une fois que votre entreprise a établi et mis en oeuvre une couche de données 
 
 ## Utilisation d’Adobe Experience Platform Launch pour créer des éléments de données
 
-[Les éléments](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) de données sont des composants dans Lancement que vous pouvez utiliser dans l’ensemble de l’outil. Vous pouvez affecter des valeurs de variable dans l’extension Adobe Analytics à l’aide d’éléments de données.
+[Les éléments](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/manage-resources/data-elements.translate.html#create-a-data-element) de données sont des composants dans Lancement que vous pouvez utiliser dans l’ensemble de l’outil. Vous pouvez affecter des valeurs de variable dans l’extension Adobe Analytics à l’aide d’éléments de données.
 
 1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
 1. Cliquez sur la propriété Launch de votre choix.
@@ -26,10 +26,10 @@ Une fois que votre entreprise a établi et mis en oeuvre une couche de données 
    ![créer un élément de données](assets/createelement.png)
 
 1. Entrez un nom pour votre élément de données. Il peut s’agir d’un libellé simple qui correspond à une variable JavaScript dans la couche de données dont vous souhaitez effectuer le suivi.
-1. Dans la [!UICONTROL Extension] liste déroulante, sélectionnez [!UICONTROL Core].
-1. Dans la [!UICONTROL Data Element Type] liste déroulante, sélectionnez [!UICONTROL JavaScript Variable]. Un champ de texte s’affiche à droite et vous permet de saisir la variable JavaScript à mapper à cet élément de données.
+1. Dans la liste déroulante [!UICONTROL Extension] , sélectionnez [!UICONTROL Core].
+1. Under the [!UICONTROL Data Element Type] dropdown, select [!UICONTROL JavaScript Variable]. Un champ de texte s’affiche à droite et vous permet de saisir la variable JavaScript à mapper à cet élément de données.
 1. Entrez la variable JavaScript souhaitée, généralement dans la couche de données. Par exemple, si la couche de données de votre entreprise correspond étroitement à la pratique recommandée par Adobe, une valeur peut être `digitalData.page.pageInfo.pageName`. Vous pouvez utiliser la console de votre navigateur pour valider la syntaxe et les valeurs des variables JavaScript.
-1. Cliquez sur [!UICONTROL Save].
+1. Cliquez sur [!UICONTROL Enregistrer].
 
 ## Étapes suivantes
 
