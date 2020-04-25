@@ -3,7 +3,7 @@ description: Le rapport Présentation du canal marketing est conçu pour fournir
 title: Présentation des canaux marketing
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
