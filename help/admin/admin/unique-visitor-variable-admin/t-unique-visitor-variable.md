@@ -3,7 +3,7 @@ description: Cette procédure explique comment désigner l’eVar qui contient v
 title: Définition de la variable Visiteur unique
 topic: Admin tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
