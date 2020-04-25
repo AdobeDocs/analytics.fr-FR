@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Gestionnaire d’alertes
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**) ressemble à celle du [Gestionnaire de segments](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_manage.html) et du [Gestionnaire de mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/cm_manager.html) et permet d’accomplir ce qui suit :
+The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_manage.html) and the [Calculated Metric Manager](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/cm_manager.html) and allows you to
 
 ![](assets/alert-manager-tasks.png)
 
-* Accéder au Générateur d’alertes en cliquant sur **[!UICONTROL + Ajouter]**
+* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
 * Marquer les alertes ; permet d’organiser les alertes pour plus de facilité
 * Supprimer des alertes
 * Renommer les alertes
