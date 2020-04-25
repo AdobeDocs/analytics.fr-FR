@@ -2,7 +2,7 @@
 description: L’assistant d’intégration des Data Connectors vous guide tout au long du processus d’intégration.
 title: Intégration de Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
