@@ -3,7 +3,7 @@ description: Regroupe le trafic web selon le système d’exploitation utilisé 
 title: Systèmes d’exploitation
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -55,7 +55,7 @@ Ce rapport utilise les données dynamiques de périphérique qui sont continuell
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 18 novembre 2013 </td> 
+   <td colname="col1"> 18 novembre 2013 </td> 
    <td colname="col2"> Les systèmes d’exploitation mobiles ont été ajoutés au rapport Systèmes d’exploitation. Auparavant, les systèmes d’exploitation mobiles étaient identifiés comme « Non précisé ». Après cette date, « Non précisé » a été remplacé par les versions spécifiques des systèmes d’exploitation mobiles. </td> 
   </tr> 
  </tbody> 
