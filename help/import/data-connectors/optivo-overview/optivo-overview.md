@@ -2,7 +2,7 @@
 description: Cette intégration associe la puissance du système de retour intégré du logiciel de marketing par courrier électronique et le reporting comportemental d’Adobe Analytics afin de créer de puissantes opportunités d’analyse et d’optimisation pour votre entreprise.
 title: Connecteur de données optivo® broadmail pour Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
