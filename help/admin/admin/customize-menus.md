@@ -1,5 +1,5 @@
 ---
-description: Cette fonctionnalité vous permet de personnaliser les menus des rapports visibles par l’utilisateur dans les rapports et analyses. Vous pouvez afficher ou masquer des rapports, ainsi que les déplacer dans différents dossiers de tous les utilisateurs. Cette fonctionnalité est particulièrement utile si votre entreprise utilise uniquement certains rapports et ne souhaite pas encombrer votre menu de gauche avec des données inutilisées ou non pertinentes.
+description: Avec cette fonction, vous pouvez personnaliser les menus des rapports auxquels les utilisateurs auront accès dans les Reports & Analytics. Vous pouvez afficher ou masquer des rapports, ainsi que les déplacer dans différents dossiers parmi tous les utilisateurs. Cette fonctionnalité se révèle particulièrement utile si votre entreprise utilise uniquement certains rapports et ne souhaite pas encombrer le menu de gauche avec des données inusitées ou superflues.
 title: Personnalisation des menus
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
@@ -11,9 +11,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Personnalisation des menus
 
-Cette fonctionnalité vous permet de personnaliser les menus des rapports visibles par l’utilisateur dans les rapports et analyses. Vous pouvez afficher ou masquer des rapports, ainsi que les déplacer dans différents dossiers de tous les utilisateurs. Cette fonctionnalité est particulièrement utile si votre entreprise utilise uniquement certains rapports et ne souhaite pas encombrer votre menu de gauche avec des données inutilisées ou non pertinentes.
+Avec cette fonction, vous pouvez personnaliser les menus des rapports auxquels les utilisateurs auront accès dans les Reports &amp; Analytics. Vous pouvez afficher ou masquer des rapports, ainsi que les déplacer dans différents dossiers parmi tous les utilisateurs. Cette fonctionnalité se révèle particulièrement utile si votre entreprise utilise uniquement certains rapports et ne souhaite pas encombrer le menu de gauche avec des données inusitées ou superflues.
 
-Les modifications apportées au menu s’appliquent à tous les utilisateurs qui accèdent à la suite de rapports. Toutefois, les utilisateurs peuvent restaurer la configuration par défaut d’un menu lors de l’utilisation de la suite de rapports.
+Les modifications apportées au menu s’appliquent à tous les utilisateurs qui accèdent à la suite de rapports. Les utilisateurs peuvent toutefois restaurer la configuration par défaut d’un menu lors de l’utilisation de la suite de rapports.
 
 >[!NOTE] Les changements apportés à la structure de menus n’ont aucune incidence sur le Report Builder et Ad Hoc Analysis. En revanche, le changement du nom d’un rapport se répercute dans les deux outils.
 
@@ -29,7 +29,7 @@ Les modifications apportées au menu s’appliquent à tous les utilisateurs qui
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Nouveau dossier</span> </td> 
-   <td colname="col2"> <p> Ajoute un nouveau dossier au-dessus de l’élément actuellement sélectionné. Notez que vous devez ajouter au moins un rapport à un dossier avant que ce dernier ne soit visible. </p> </td> 
+   <td colname="col2"> <p> Ajoute un nouveau dossier au-dessus de l’élément sélectionné. Remarque : Vous devez ajouter au moins un rapport dans un dossier avant que celui-ci ne soit visible. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Renommer</span> </td> 
@@ -41,7 +41,7 @@ Les modifications apportées au menu s’appliquent à tous les utilisateurs qui
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Activer/désactiver la visibilité</span> </td> 
-   <td colname="col2"> <p> Masque (affiche) l’élément sélectionné. Les éléments masqués apparaissent avec un motif de ligne gris dans la page Personnalisation des menus. </p> </td> 
+   <td colname="col2"> <p> Masque (affiche) l’élément sélectionné. Les options de menu masquées sont affichées sous la forme de lignes grises dans la page de personnalisation des menus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Supprimer</span> </td> 
