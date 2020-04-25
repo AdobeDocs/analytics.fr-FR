@@ -20,7 +20,7 @@ Le premier clic sur un de calendrier  une sélection de plage de dates. Le deuxi
 
 Vous pouvez également faire glisser des dates (et des dimensions temporelles) dans un projet Workspace. Sélectionnez des jours, des semaines, des mois ou des années spécifiques ou encore une date variable.
 
-[Utilisation des périodes et des calendriers dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
+[Utilisation des périodes et des calendriers dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28) (4:07)
 
 | Paramètre | Description |
 |--- |--- |
