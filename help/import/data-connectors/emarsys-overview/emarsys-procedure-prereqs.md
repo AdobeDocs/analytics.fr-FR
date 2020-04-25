@@ -2,7 +2,7 @@
 description: À l’aide d’un assistant « plug and play », des processus intuitifs vous guideront pas à pas à travers les points de synchronisation du système et débuteront l’intégration.
 title: Procédure d’intégration et conditions préalables
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
