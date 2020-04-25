@@ -20,11 +20,11 @@ Migration des utilisateurs du système de gestion des utilisateurs Analytics hé
 
 **Pour migrer des utilisateurs Analytics**
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Migration de l’ID utilisateur]**.
 
    ![](assets/migration-progress.png)
 
-   La page de migration des ID utilisateur comporte deux sections : Progression *de* la migration et informations sur l’ *utilisateur*.
+   Deux sections composent la page Migration de l’ID utilisateur : *Progression de la migration* et *Informations sur l’utilisateur*.
 
    **Progression de la migration**
 
@@ -38,30 +38,30 @@ Migration des utilisateurs du système de gestion des utilisateurs Analytics hé
    <tbody> 
    <tr> 
       <td colname="col1"> <p>Migrations terminées </p> </td> 
-      <td colname="col2"> <p>Les utilisateurs ont accepté l’invitation. </p> </td> 
+      <td colname="col2"> <p>Les utilisateurs acceptent l’invitation. </p> </td> 
    </tr> 
    <tr> 
-      <td colname="col1"> <p>Connexion héritée désactivée </p> </td> 
-      <td colname="col2"> <p>La connexion héritée à l’aide d’un ID de  est désactivée. Les utilisateurs accèdent désormais à Experience Cloud à l’aide de leur Adobe ID ou Enterprise ID. Lorsque tous vos utilisateurs ont atteint cette phase, vous avez terminé la migration. </p> <p>Lors de la migration, la connexion héritée est désactivée. Les utilisateurs sont redirigés vers <span class="filepath"> experiencecloud.adobe.com</span> et doivent se connecter à l’aide de l’Adobe ID ou de l’Enterprise ID. </p> </td> 
+      <td colname="col1"> <p>Compte hérité désactivé </p> </td> 
+      <td colname="col2"> <p>Le compte hérité utilisant un ID d’entreprise est désactivé. Les utilisateurs accèdent désormais à Experience Cloud en utilisant leur Adobe ID ou Enterprise ID. Lorsque tous vos utilisateurs ont atteint cette phase, vous avez terminé la migration. </p> <p>Lors de la migration, la connexion héritée est désactivée. Les utilisateurs sont redirigés vers <span class="filepath"> experiencecloud.adobe.com</span> et doivent se connecter à l’aide de l’Adobe ID ou de l’Enterprise ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
-   **Informations utilisateur**
+   **Informations sur l’utilisateur**
 
-   Les informations utilisateur indiquent les utilisateurs de votre entreprise, séparés par un nom de domaine.
+   Informations sur l’utilisateur est un condensé d’informations sur les utilisateurs dans votre organisation, séparées par nom de domaine.
 
    <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
    <thead> 
    <tr> 
-      <th colname="col1" class="entry"> Elément </th> 
+      <th colname="col1" class="entry"> Élément </th> 
       <th colname="col2" class="entry"> Description </th> 
    </tr>
    </thead>
    <tbody> 
    <tr> 
       <td colname="col1"> <p>Domaine </p> </td> 
-      <td colname="col2"> <p>Les domaines sont spécifiques aux ID de courrier électronique de la base d’utilisateurs Analytics actuelle. Un domaine ne peut être déposé que par une seule organisation et seuls les administrateurs système peuvent déposer un domaine. Pour plus d’informations, voir <a href="https://helpx.adobe.com/fr/enterprise/help/request-access-to-claimed-domain.html"> Demande d’accès à un domaine déposé</a>. </p> </td> 
+      <td colname="col2"> <p>Les domaines sont spécifiques aux ID de message électronique de la base d’utilisateurs Analytics actuelle. Un domaine ne peut être déposé que par une seule organisation et seuls les administrateurs système peuvent déposer un domaine. Pour plus d’informations, voir <a href="https://helpx.adobe.com/fr/enterprise/help/request-access-to-claimed-domain.html"> Demande d’accès à un domaine déposé</a>. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Domaine déposé </p> </td> 
@@ -70,10 +70,10 @@ Migration des utilisateurs du système de gestion des utilisateurs Analytics hé
    </tbody> 
    </table>
 
-1. Locate the domain containing the user IDs you want to migrate, then, under **[!UICONTROL Requiring Migration]**, click **[!UICONTROL Select Users]**.
-1. On the [!DNL Users] page, select the users you want to migrate, then click **[!UICONTROL Migrate]**.
+1. Localisez le domaine contenant les ID utilisateur que vous souhaitez migrer, puis sous **[!UICONTROL Migration requise]**, cliquez sur **[!UICONTROL Sélectionner les utilisateurs]**.
+1. Sur la page [!DNL Users], sélectionnez les utilisateurs que vous souhaitez migrer, puis cliquez sur **[!UICONTROL Migrer]**.
 
-   When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. L’état de leur ID utilisateur passe alors à Migration terminée. Vous pouvez alors désactiver l’accès à `[!DNL my.omniture.com].` de leur compté hérité
+   Lorsque vous cliquez sur **[!UICONTROL Migrer]**, les utilisateurs reçoivent une invitation (Migration commencée) et doivent l’accepter. L’état de leur ID utilisateur passe alors à Migration terminée. Vous pouvez alors désactiver l’accès à `[!DNL my.omniture.com].` de leur compté hérité
 
    ![](assets/user-info.png)
 
