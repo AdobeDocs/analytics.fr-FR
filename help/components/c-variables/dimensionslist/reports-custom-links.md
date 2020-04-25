@@ -3,7 +3,7 @@ description: Affiche les liens préférés des visiteurs de votre site. La page 
 title: Syntaxe
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
