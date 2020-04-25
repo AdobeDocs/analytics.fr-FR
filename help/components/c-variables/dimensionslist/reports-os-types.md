@@ -3,7 +3,7 @@ description: Regroupe les versions spécifiques provenant du rapport Systèmes d
 title: Types de systèmes d’exploitation
 topic: Reports
 uuid: 2f442d6b-6bcc-4667-a853-3715a5379ec5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Types de systèmes d’exploitation
 
-Regroupe les versions spécifiques provenant du rapport Systèmes d’exploitation dans les types principaux de système d’exploitation pour une création de rapports et une segmentation simplifiées.
+Regroupe les versions spécifiques provenant du rapport Systèmes d’exploitation dans les types principaux de systèmes d’exploitation pour une création de rapports et une segmentation simplifiées.
 
 Par exemple :
 
