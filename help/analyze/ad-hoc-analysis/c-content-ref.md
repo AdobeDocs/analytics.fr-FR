@@ -3,7 +3,7 @@ description: Ad Hoc Analysis s’intègre à l’environnement de segmentation A
 title: Création de segments
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -54,19 +54,19 @@ La plupart des segments prédéfinis et de suite précédents seront migrés sou
 
 ## Qu’est-il advenu de mes dossiers de segments existants ? {#section_FB04DCF775694E69B761DCA53F301C30}
 
-Le gestionnaire de segments utilise des [balises](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_tag.html) à la place de dossiers (Ad Hoc Analysis). Les noms de vos dossiers sont automatiquement convertis en balises qui sont appliquées aux segments respectifs.
+Le gestionnaire de segments utilise des [balises](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_tag.html) à la place de dossiers (Ad Hoc Analysis). Les noms de dossiers sont automatiquement convertis en balises et ces balises sont appliquées aux segments respectifs.
 
 ## Puis-je gérer tous les segments Analytics dans le Gestionnaire de segments ? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 Dans le gestionnaire de segments des Ad Hoc Analysis, vous pouvez uniquement afficher les segments qui vous appartiennent (ceux que vous avez créés) et ceux qui sont directement partagés avec vous.
 
-## Qu’est-ce qu’un conteneur d’accès ? Est-ce différent d’un conteneur Page vue ? {#section_65BBE60A836C4001938830DDA15DC256}
+## Qu’est-ce qu’un conteneur d’accès ? Est-ce différent d’un conteneur Page vue ?  {#section_65BBE60A836C4001938830DDA15DC256}
 
 Le conteneur Page vue a été renommé en conteneur Accès pour indiquer qu’il segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi de lien et les appels [!DNL trackAction] des kits SDK mobiles sont tous inclus ou exclus par le conteneur Accès.
 
 Notez qu’aucune modification n’a été apportée au fonctionnement de ce conteneur, il a simplement été renommé.
 
-## Quels droits et privilèges dois-je posséder pour utiliser, créer et gérer des segments ? {#section_648DFA3A882146C485A84ED014EEC707}
+## Quels droits et privilèges dois-je posséder pour utiliser, créer et gérer des segments ?  {#section_648DFA3A882146C485A84ED014EEC707}
 
 Tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
 
@@ -79,7 +79,7 @@ Comme les segments fonctionnent dans plusieurs suites de rapports, il est possib
 * renommer les segments portant le même nom mais ayant des définitions différentes, ou
 * supprimer les segments qui ne sont plus utiles.
 
-## Quels sont les conseils d’Adobe pour nettoyer les segments ? {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## Quels sont les conseils d’Adobe pour nettoyer les segments ?  {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * Marquez tous les segments avec une balise héritée.
 * Examinez les segments à votre disposition.
@@ -91,7 +91,7 @@ Comme les segments fonctionnent dans plusieurs suites de rapports, il est possib
 
 Si le segment a été [publié sur Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/t_publish_audience_segment.html), vous ne pouvez pas le supprimer ni le modifier. Vous pouvez toutefois le copier et modifier la version copiée.
 
-## Informations supplémentaires sur vos segments existants {#section_83ACAB256F394DCD8B424D8920BDD853}
+## Informations supplémentaires sur vos segments existants  {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
