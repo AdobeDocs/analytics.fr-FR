@@ -21,23 +21,23 @@ R : Veuillez consulter [Activation d’Activity Map](/help/analyze/activity-ma
 
 **Q : Tous les clients Analytics ont-ils accès à la page d’activation d’Activity Map dans les outils d’administration ?**
 
-R : Les clients Adobe SiteCatalyst n’ont pas accès à la page d’activation d’Activity Map dans Admin Console. Seuls les sous contrat Adobe Analytics Standard et Adobe Analytics Premium ont accès à cette page de configuration.
+R : Les clients Adobe SiteCatalyst n’ont pas accès à la page d’activation d’Activity Map dans Admin Console. Seules les entreprises sous contrat Adobe Analytics Standard et Adobe Analytics Premium ont accès à cette page de configuration.
 
-**Q : Le nouveau code AppMeasurement peut-il être configuré via la gestion dynamique des balises (DTM) ?**
+**Q : Le nouveau code AppMeasurement peut-il être configuré à l’aide de la Dynamic Tag Management ?**
 
-A : Oui, vous pouvez implémenter [](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) manuellement le nouveau code AppMeasurement.
+R : Oui, vous pouvez [mettre en œuvre manuellement](https://marketing.adobe.com/resources/help/fr_FR/dtm/analytics_dtm.html) le nouveau code AppMeasurement.
 
-**Q : Quels sont les grands changements dans la bibliothèque AppMeasurement v1.6 ?**
+**Q : Quels sont les principaux changements apportés à la bibliothèque AppMeasurement version 1.6 ?**
 
-A : La seule modification dans AppMeasurement v1.6 se trouve dans la méthodologie de processus de suivi des liens de  Carte de qui nécessite la collecte du nom de page, de l’ID de lien et de l’ID de région.
+R : Le seul changement apporté à AppMeasurement version 1.6 est la méthodologie du processus de suivi des liens d’Activity Map qui nécessite la collecte du nom de la page, de l’ID de lien et de l’ID de région.
 
-**Q : AppMeasurement sera-t-il déployé au niveau du domaine plutôt que sur des pages spécifiques ?**
+**Q : AppMeasurement sera-t-il déployé au niveau du domaine plutôt que sur des pages spécifiques ?**
 
-A : AppMeasurement est déployé au niveau de la suite de rapports. Le niveau de la suite de rapports est généralement associé à un niveau de domaine, mais cela diffère pour chaque implémentation.
+R : AppMeasurement est déployé au niveau des suites de rapports. Celui-ci est généralement associé à un niveau de domaine, mais cela varie pour chaque mise en œuvre.
 
-**Q : La gestion dynamique des balises charge automatiquement une version plus ancienne (1.3.4) de l’API du que  Carte  ne le souhaite (1.5.1). Est-ce un problème ?**
+**Q : La gestion dynamique des balises charge automatiquement une version (1.3.4) de l’API visiteur plus ancienne que celle requise par Activity Map (1.5.1). Est-ce un problème ?**
 
-R : Non.  fonctionnalité de  de carte de ne dépend pas de l’API visiteur.
+R : Non. La fonctionnalité d’Activity Map ne dépend pas de l’API visiteur.
 
 ## Application Activity Map
 
@@ -55,72 +55,72 @@ A:
 
 A : Non, Adobe ne suit pas les liens qui ont été consultés.
 
-**Q : Puis-je utiliser  Carte  si je n&#39;utilisais pas auparavant Carte des clics sur mon site Web ?**
+**Q : Puis-je utiliser Activity Map si je n’utilisais pas la carte des clics des visiteurs auparavant sur mon site web ?**
 
-A : L&#39;installation de la version héritée (désormais simplement appelée ClickMap) n&#39;est pas une condition préalable à la mise en oeuvre de la nouvelle version. Adobe continuera de prendre en charge la version héritée pendant une période limitée.
+R : La version héritée (désormais simplement appelée ClickMap) n’a pas besoin d’être préalablement installée pour mettre en œuvre la nouvelle version. Adobe continuera à prendre en charge la version héritée pour une période limitée.
 
-**Q : Quels sont les navigateurs et versions pris en charge par   Map ?**
+**Q : Quels navigateurs et versions sont pris en charge par Activity Map ?**
 
 A : Nous prenons en charge la dernière version des quatre principaux navigateurs (Chrome, Firefox, Safari et IE).
 
-**Q : Quels sont les paramètres d’incrustation par défaut ?**
+**Q : Quels sont les paramètres de superposition par défaut ?**
 
-A : Par défaut,   Map affiche TOUS les liens qui ont collecté des données.
+R : Par défaut, Activity Map affiche TOUS les liens qui ont collecté des données.
 
-Lorsque des panneaux contextuels s’affichent au-dessus des pages Web des clients, des incrustations appartenant aux liens situés sous le panneau contextuel peuvent s’afficher au-dessus du panneau contextuel.
+Lorsque des panneaux contextuels s’affichent au-dessus des pages web des clients, les superpositions appartenant aux liens situés en dessous du panneau contextuel peuvent s’afficher au-dessus de celui-ci.
 
-**Q : Pourquoi certaines incrustations d’éléments de classement sont-elles manquantes ?**
+**Q : Pourquoi manque-t-il les superpositions de certains éléments avec classement ?**
 
-A : Certains liens avec classement peuvent être masqués dans la page (liens de sous-menu, par exemple). Par conséquent, les incrustations de lien correspondantes ne s’afficheront pas. Vous pouvez donc vous attendre à voir des classements d’incrustation qui ne contiennent pas certaines valeurs de classement spécifiques, car le classement est calculé pour tous les liens de la page (le lien actuel + les liens masqués).
+R : Certains liens avec classement peuvent être masqués sur la page (par exemple des liens de sous-menu). Par conséquent, les superpositions de lien correspondantes ne s’afficheront pas. Vous pouvez donc vous attendre à voir des classements de superpositions auxquels manquent certaines valeurs de classement spécifiques, car le classement est calculé pour tous les liens de la page (le lien visible + les liens masqués).
 
-**Q : Comment le classement des liens est-il déterminé dans le rapport Tous les liens ?**
+**Q : Comment le classement des liens est-il déterminé dans le rapport Tous les liens ?**
 
-* En mode **Dégradé** et **Bulle** : Le classement est déterminé par la colonne de mesures. Pour les liens avec la même valeur de mesure, le classement est basé davantage sur l’ordre alphabétique des ID de lien.
-* En mode **gagnant et perdant** , le classement est principalement déterminé par la colonne % gain. Pour les liens avec le même gain, le classement est basé davantage sur l’ordre alphabétique de l’ID de lien.
+* En mode **dégradé** et **bulle**, le classement est déterminé par la colonne de mesures. Pour les liens disposant de la même valeur de mesure, le classement est déterminé selon l’ordre alphabétique des ID de lien.
+* En mode **gagnant et perdant**, le classement est principalement déterminé par la colonne de % de gain. Pour les liens disposant du même gain, le classement est déterminé selon l’ordre alphabétique des ID de lien.
 
-**Q : Pourquoi les données de clic sur les liens ne sont-elles pas collectées lorsque  Carte  est en cours d’exécution ?**
+**Q : Pourquoi les données de clic sur les liens ne sont-elles pas collectées lors de l’exécution d’Activity Map ?**
 
-A :  carte  de est en cours d’utilisation, mais les données de clic sur les liens ne sont pas collectées par la balise Analytics. Ce comportement est conforme au comportement du module ClickMap.
+R : Lors de l’utilisation d’Activity Map, les données de clic sur les liens ne sont pas collectées par la balise Analytics. Ce comportement est conforme au comportement du module ClickMap.
 
-**Q : Comment le rapport de mise en  de tous les liens de  est-il comparé aude mise en correspondance de  de rapports et analyses avec les rapports et analyses ?**
+**Q : Comment le rapport Tous les liens d’Activity Map se compare-t-il à la création de rapports d’Activity Map de Reports &amp; Analytics ?**
 
 R : Pour récupérer le rapport Tous les liens dans Activity Map, nous créons une demande de ventilation telle que la suivante : Page Activity Map = « visitedpage », ventilée par lien et région d’Activity Map dans `<list of link&regions present in the page at rendering time>`.
 
-Pour obtenir un rapport équivalent dans les rapports et analyses, vous devez d’abord accéder au rapport de page de  de carte du. Vous pouvez alors filtrer le nom de la page visitée dans   Map. Le nom de la page visitée est indiqué dans la colonne de gauche du panneau inférieur des détails de la page de  de mise en correspondance . Une fois la page trouvée, vous pouvez la ventiler à partir de cette page et choisir   mettre en correspondance les liens et les régions comme dimension secondaire.
+Pour obtenir un rapport équivalent dans Reports &amp; Analytics, vous devez d’abord naviguer vers le rapport Page d’Activity Map. Vous pouvez appliquer un filtre pour le nom de la page visitée dans Activity Map. Celui-ci s’affiche dans la colonne gauche du panneau inférieur des détails de la page d’Activity Map. Une fois la page trouvée, vous pouvez ventiler à partir de cette page et choisir les liens et régions d’Activity Map comme dimension secondaire.
 
-Toutefois, il est important de noter que le rapport obtenu dans R&amp;A tous les liens et régions collectés pour cette page. Mais  Carte des  de ne rapporte que les liens et les régions qui sont actuellement présents dans la page Web. Donc si vous avez un site d&#39;informations, il ne montrera que les données pour l&#39;actualité présente à ce moment-là, et non les nouvelles qui étaient présentes plus tôt dans la journée.
+Cependant, il est important de noter que le rapport obtenu dans Rapports et analyses répertoriera tous les liens et régions collectés pour cette page. Les rapports d’Activity Map tiennent uniquement compte des liens et régions figurant actuellement sur la page web. Si vous possédez un site d’actualités, seules les données pour l’actualité figurant sur la page à ce moment-là s’afficheront, et non les actualités qui y figuraient plus tôt dans la journée.
 
-**Q : Comment   Map fonctionne-t-il avec les pages contenant plusieurs balises répertoriant plusieurs suites de rapports ?**
+**Q : Comment Activity Map fonctionne-t-elle avec les pages contenant plusieurs balises répertoriant plusieurs suites de rapports ?**
 
-A : Par défaut,   Map utilise la suite de rapports associée à la première balise envoyée par la page. Vous pouvez sélectionner une suite de rapports balisée différente dans l’onglet Paramètres d’Activity Map > Autres.
+R : Par défaut, Activity Map utilise la suite de rapports associée à la première balise envoyée par la page. Vous pouvez sélectionner une suite de rapports balisée différente dans l’onglet Paramètres d’Activity Map > Autres.
 
-**Q : Pendant combien de temps   Map analyse-t-il la balise Analytics ?**
+**Q : Pendant combien de temps Activity Map analyse-t-elle la balise Analytics ?**
 
-A : Nous analysons la balise Analytics pendant 20 secondes au maximum après la fin d’un  de page.
+R : Nous analysons la balise Analytics jusqu’à 20 secondes après un événement de page.
 
-**Q : Comment  Carte  gère-t-elle le contenu dynamique ?**
+**Q : Comment Activity Map gère-t-elle le contenu dynamique ?**
 
-A :  Carte  vérifie toutes les 2 secondes si des modifications ont été apportées à l’état de la page Web, telles que :
+R : Activity Map vérifie toutes les 2 secondes si des changements ont été apportés à l’état de la page web, par exemple :
 
-* Contenu HTML devenu visible
-* Contenu HTML masqué
-* Nouveau contenu HTML injecté
+* le contenu HTML devenu visible ;
+* le contenu HTML masqué ;
+* le nouveau contenu HTML injecté.
 
-Si le contenu est masqué ou affiché, l’application modifie automatiquement l’état des liens affectés (et donc des recouvrements) de masqué à affiché ou de affiché à masqué.
+Si le contenu est masqué ou visible, l’application modifie automatiquement l’état des liens affectés (et donc des superpositions) de masqué à visible ou de visible à masqué.
 
-Si du nouveau contenu est injecté, l’application récupère les liens associés, extrait les données d’analyse pour eux et ajoute des superpositions pour ces liens.
+Si du nouveau contenu a été injecté, l’application récupère les liens associés et les données d’analyse correspondantes et ajoute des superpositions pour ces liens.
 
-**Q : Sur quelle mesure le rapport Flux de page repose-t-il ?**
+**Q : Sur quelle mesure se base le rapport Flux de page ?**
 
-A : Toutes les données affichées sont basées sur les  de page.
+R : Toutes les données affichées se basent sur les pages vues.
 
-**Q : Pouvez-vous expliquer  comportement de Carte  avec différents types de pages ?**
+**Q : Pouvez-vous décrire le comportement d’Activity Map avec différents types de pages ?**
 
-*Page Web sans balise Analytics*
+*Page web sans balise Analytics*
 
-Un message d’avertissement s’affiche sous la barre d’outils pour indiquer qu’aucune balise n’est présente.
+Un message d’avertissement s’affiche sous la barre d’outils et indique qu’aucune balise n’est présente.
 
-*Page Web avec balise Analytics incompatible (AppMeasurement version 1.5 ou antérieure)*
+*Page web avec balise Analytics incompatible (AppMeasurement version 1.5 ou antérieure)*
 
 Un message d’avertissement s’affiche, indiquant que vous devez mettre à niveau le code de page vers la version 1.6 ou plus.
 
@@ -134,16 +134,16 @@ R : Non.
 
 ## Segmentation dans Activity Map
 
-**Q : Les segments sont-ils liés aux segments d’utilisateurs individuels ? Les segments partagés sont-ils disponibles dans   Map ?**
+**Q : Les segments sont-ils liés aux segments utilisateurs individuels ? Are shared segments available in Activity Map?**
 
 A :   Carte de hérite de vos segments de  d’Analytics.
 
-**Q : Les segments fonctionnent-ils en mode réel ?**
+**Q : Les segments fonctionnent-ils en mode réel ?**
 
-A : Non, les segments ne fonctionnent pas en mode réel. Cette fonctionnalité est équivalente à celle des  en temps réel dans les rapports et analyses.
+R : Non, les segments ne fonctionnent pas en mode réel. La fonctionnalité est similaire à celle de la création de rapports en temps réel dans Reports &amp; Analytics.
 
 ## Suites de rapports virtuelles
 
-**Q :  carte  est-elle compatible avec les suites de rapports virtuelles ?**
+**Q : Activity Map est-elle compatible avec les suites de rapports virtuelles ?**
 
-R : Oui. Toutefois, en raison des limitations des suites de rapports virtuelles,  mode en direct de  Carte d’n’est pas compatible avec les suites de rapports virtuelles.
+R : Oui. Cependant, en raison des limitations des suites de rapports virtuelles, le mode réel d’Activity Map n’est pas compatible avec celles-ci.
