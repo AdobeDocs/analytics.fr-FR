@@ -1,5 +1,5 @@
 ---
-description: (Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Le fichier de données utilise les classifications de votre choix comme en-têtes de colonne, puis classe le jeu de données  sous les en-têtes de classification appropriés.
+description: (Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Ce fichier de données utilise les classifications voulues sous la forme d’en-têtes de colonne, puis classe le jeu de données de rapport sous les en-têtes de classification adéquats.
 subtopic: Classifications
 title: Modèle de classification
 topic: Admin tools
@@ -12,23 +12,23 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Modèle de classification
 
-(Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Le fichier de données utilise les classifications de votre choix comme en-têtes de colonne, puis classe le jeu de données  sous les en-têtes de classification appropriés.
+(Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Ce fichier de données utilise les classifications voulues sous la forme d’en-têtes de colonne, puis classe le jeu de données de rapport sous les en-têtes de classification adéquats.
 
 ## Modèle de classification {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
-(Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Le fichier de données utilise les classifications de votre choix comme en-têtes de colonne, puis classe le jeu de données  sous les en-têtes de classification appropriés.
+(Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Ce fichier de données utilise les classifications voulues sous la forme d’en-têtes de colonne, puis classe le jeu de données de rapport sous les en-têtes de classification adéquats.
 
-**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+**[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 
-| Elément | Description |
+| Élément | Description |
 |---|---|
 | Sélectionner une suite de rapports | Sélectionnez la suite de rapports à utiliser dans le modèle. La suite de rapports et l’ensemble de données doivent correspondre. |
-| Données à classer | Sélectionnez le type de données pour le fichier de données. Le menu inclut tous les rapports de vos suites de rapports qui sont configurés pour les classifications. |
-| Exporter Numérique 2 | Vous pouvez importer des classifications numériques 2 dans le système par l’intermédiaire de l’importateur. Les classifications numériques 2 sont utiles pour les variables qui changent au fil du temps pour différents éléments, comme les valeurs de coût et de budget pour le [!UICONTROL Marketing Channel] rapport. Voir [Classifications numériques 2](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) pour plus d’informations sur le chargement de données utilisant les classifications numériques 2. |
-| Codage  | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est UTF-8. |
+| Données à classer | Sélectionnez le type de données pour le fichier de données. Le menu comprend tous les rapports des suites de rapports qui sont configurés pour les classifications. |
+| Exporter Numérique 2 | Vous pouvez importer les classifications numériques 2 dans le système à l’aide de l’importateur. Les classifications numériques 2 s’avèrent utiles lorsque les variables de différents articles changent de temps à autre, comme les valeurs de coût et de budget pour le rapport [!UICONTROL Canal marketing]. Voir [Classifications numériques 2](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) pour plus d’informations sur le chargement de données utilisant les classifications numériques 2. |
+| Encodage | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est UTF-8. |
 | Télécharger | Télécharge le fichier de modèle. |
 
-Le modèle inclut les classifications actuellement définies (en-têtes de colonne) d’un jeu de données spécifique sans inclure les données associées à chaque classification.
+Ce modèle comprend les classifications actuellement définies (en-têtes de colonne) pour un ensemble de données spécifiques sans inclure les données associées à chaque classification.
 
 >[!NOTE] La méthode Modèle limite le téléchargement des données de classification à une seule suite de rapports.
 
@@ -40,9 +40,9 @@ Le modèle fournit le format de fichier que vous devez respecter pour les classi
 
 >[!NOTE] La méthode Modèle limite le téléchargement des données à une seule suite de rapports.
 
-1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
-1. On the **[!UICONTROL Download Template]** tab, specify the [data template configuration](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
-1. Cliquez sur **[!UICONTROL Download]**.
+1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
+1. Sous l’onglet **[!UICONTROL Télécharger un modèle]**, spécifiez la [configuration du modèle de données](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
+1. Cliquez sur **[!UICONTROL Télécharger]**.
 1. Enregistrez le fichier de modèle sur votre système local.
 
    Le fichier de modèle est un fichier de données délimité par des tabulations (extension de nom de fichier [!DNL .tab] ) qui est pris en charge par la plupart des tableurs.
