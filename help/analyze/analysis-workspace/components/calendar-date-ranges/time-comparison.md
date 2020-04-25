@@ -2,7 +2,7 @@
 description: 'Dans Analysis Workspace, appliquez une comparaison des dates commune à partir de n’importe quelle colonne contenant une période, par exemple : année par année, trimestre par trimestre, mois par mois, etc.'
 title: Comparaison des dates
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ Dans Analysis Workspace, appliquez une comparaison des dates commune à partir d
 Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question « Où nous situons-nous par rapport à la même date l’an dernier ? Mieux ou pire ? » est essentielle pour bien comprendre vos activités. La comparaison des dates inclut automatiquement une colonne « différence », qui présente le pourcentage de changement par rapport à une période donnée.
 
 1. Créez un tableau à structure libre, avec les dimensions et mesures à comparer sur une certaine période.
-1. Cliquez avec le bouton droit de la souris dans une ligne de tableau, puis sélectionnez **[!UICONTROL Comparer des périodes]**.
+1. Cliquez avec le bouton droit de la souris sur une rangée de tableau et sélectionnez **[!UICONTROL Compare Time Periods]**.
 
    ![](assets/compare-time.png)
 
@@ -29,13 +29,13 @@ Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce conte
 
    | Option | Description |
    |---|---|
-   | **[!UICONTROL Semaine/Mois/Trimestre/Année précédent(e) à cette période]** | Compare les données à la semaine/au mois/etc. précédant immédiatement cette plage de dates. |
-   | **[!UICONTROL Cette semaine/ce mois/ce trimestre/cette année l’an dernier]** | Compare les données à la même période il y a un an. |
-   | **[!UICONTROL Sélectionner une plage]** | Permet de sélectionner une période personnalisée. |
+   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Compare les données à la semaine/au mois/etc. précédant immédiatement cette plage de dates. |
+   | **[!UICONTROL This week/month/quarter/year last year]** | Compare les données à la même période il y a un an. |
+   | **[!UICONTROL Select range]** | Permet de sélectionner une période personnalisée. |
 
    >[!NOTE]
    >
-   >Lorsque vous sélectionnez un nombre de jours personnalisé (par exemple, du 7 au 20 octobre, soit 14 jours), seules deux options sont proposées : **[!UICONTROL 14 jours précédant cette période]** et **[!UICONTROL Sélectionner une plage]**.
+   >Lorsque vous sélectionnez un nombre personnalisé de jours, par exemple du 7 au 20 octobre (période de 14 jours), vous obtenez uniquement 2 options : **[!UICONTROL Prior 14 days before this date range]**, et **[!UICONTROL Select range]**.
 
 1. La comparaison qui en résulte ressemble à ceci :
 
@@ -47,25 +47,25 @@ Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce conte
 
    ![](assets/compare-time-barchart.png)
 
-   Pour afficher le pourcentage de changement dans ce graphique à barres, le paramètre [!UICONTROL Pourcentages] doit être activé dans les [!UICONTROL Paramètres de visualisation].
+   Note that in order to show the percentage change in the bar chart, you have to have the [!UICONTROL Percentages] setting checked in the [!UICONTROL Visualization Settings].
 
 ## Ajout d’une colonne de période à la comparaison {#section_93CC2B4F48504125BEC104046A32EB93}
 
 Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce qui permet d’ajouter une période différente de celle configurée pour votre calendrier. Cette fonctionnalité offre un autre moyen de comparer les dates.
 
-1. Cliquez avec le bouton droit de la souris dans le tableau, puis sélectionnez **[!UICONTROL Ajouter une colonne de périodes]**![](assets/add-time-period-column.png).
+1. Cliquez avec le bouton droit sur une colonne du tableau et sélectionnez **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png)
 
 1. Selon la façon dont sont définies les plages de dates du tableau, les options de comparaison suivantes sont disponibles :
 
    | Option | Description |
    |---|---|
-   | **[!UICONTROL Semaine/Mois/Trimestre/Année précédent(e) à cette période]** | Ajoute une colonne avec la semaine/le mois/etc. précédant immédiatement cette plage de dates. |
-   | **[!UICONTROL Cette semaine/ce mois/ce trimestre/cette année l’an dernier]** | Ajoute la même période il y a un an. |
-   | **[!UICONTROL Sélectionner une plage]** | Permet de sélectionner une période personnalisée. |
+   | **[!UICONTROL Prior week/month/quarter/year to this date range]** | Ajoute une colonne avec la semaine/le mois/etc. précédant immédiatement cette plage de dates. |
+   | **[!UICONTROL This week/month/quarter/year last year]** | Ajoute la même période il y a un an. |
+   | **[!UICONTROL Select range]** | Permet de sélectionner une période personnalisée. |
 
    >[!NOTE]
    >
-   >Lorsque vous sélectionnez un nombre de jours personnalisé (par exemple, du 7 au 20 octobre, soit 14 jours), seules deux options sont proposées : **[!UICONTROL 14 jours précédant cette période]** et **[!UICONTROL Sélectionner une plage]**.
+   >Lorsque vous sélectionnez un nombre personnalisé de jours, par exemple du 7 au 20 octobre (période de 14 jours), vous obtenez uniquement 2 options : **[!UICONTROL Prior 14 days before this date range]**, et **[!UICONTROL Select range]**.
 
 1. La période sera insérée en haut de la colonne sélectionnée :
 
@@ -79,7 +79,7 @@ Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce
 
 ## Harmonisation des dates de colonnes pour qu’elles commencent sur la même ligne {#section_5085E200082048CB899C3F355062A733}
 
-Un nouveau paramètre disponible pour tous les tableaux permet d’**[!UICONTROL Aligner les dates de chaque colonne afin qu’elles commencent toutes sur la même ligne (s’applique à l’ensemble du tableau)]**. « S’applique à l’ensemble du tableau » signifie que si, par exemple, vous définissez ce paramètre pour la ventilation des données d’un tableau, il s’applique également au reste du tableau.
+Un nouveau paramètre pour toutes les tables vous permet **[!UICONTROL Align Dates from each column to all start on the same row (applies to entire table)]**. « S’applique à l’ensemble du tableau » signifie que si, par exemple, vous définissez ce paramètre pour la ventilation des données d’un tableau, il s’applique également au reste du tableau.
 
 ![](assets/date-comparison-setting.png)
 
