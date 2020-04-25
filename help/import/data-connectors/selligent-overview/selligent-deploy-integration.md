@@ -2,7 +2,7 @@
 description: Le déploiement de cette intégration est un processus simple composé de trois étapes.
 title: Déploiement de l’intégration
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
