@@ -1,9 +1,9 @@
 ---
-description: Les mesures personnalisées vous permettent d’appliquer d’autres mesures de réussite sur votre site.
+description: Les mesures personnalisées vous permettent d’appliquer d’autres mesures de succès sur votre site.
 title: Mesures personnalisées
 topic: Metrics
 uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
