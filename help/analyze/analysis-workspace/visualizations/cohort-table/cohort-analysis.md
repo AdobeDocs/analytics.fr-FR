@@ -17,15 +17,15 @@ Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants
 
 Exemples d’utilisation de l’analyse des cohortes :
 
-* Lancez des campagnes conçues pour déclencher une action.
-* Déplacez le budget marketing exactement au bon moment du cycle de vie du client.
-* Reconnaissez quand terminer un essai ou un  , pour maximiser la valeur.
-* Obtenez des idées pour les tests A/B dans des domaines tels que la tarification, le cheminement de mise à niveau, etc.
-* d’un rapport   de cohorte  de dans un rapport de guidé.
+* Lancez des campagnes conçues pour déclencher une action spécifique.
+* Ajustez le budget marketing exactement au bon moment au cours du cycle de vie des clients.
+* Reconnaissez quand terminer un essai ou une offre pour en optimiser la valeur.
+* Trouvez des idées de test A/B dans des domaines tels que le prix, le cheminement de mise à niveau, etc.
+* Affichez un rapport d’analyse des cohortes au sein d’un rapport d’analyse guidée.
 
- de cohortes  est disponible pour tous les clients Analytics ayant des droits d’accès à  Espace de travail de.
+L’analyse des cohortes est disponible pour tous les clients Analytics avec des droits d’accès à Analysis Workspace.
 
-[Analyse des cohortes sur YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Analyse des cohortes sur YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Exemples d’utilisation de l’analyse des cohortes :
 
 ## Fonctions de l’analyse des cohortes
 
-En janvier 2019, Adobe a publié une nouvelle version considérablement améliorée de l’analyse des cohortes. Il permet un contrôle beaucoup plus précis sur les cohortes que vous construisez. Voici les améliorations proposées :
+En janvier 2019, Adobe a publié une nouvelle version considérablement améliorée de l’analyse des cohortes. Celle-ci offre un contrôle plus affiné sur les cohortes que vous créez. Voici les améliorations présentées :
 
 ### Tableau de rétention
 
@@ -55,13 +55,13 @@ Permet de calculer la rétention ou la perte de clientèle en fonction de la col
 
 ### Tableau de latence
 
-Mesure le temps qui s’est écoulé avant et après la  d’inclusion. C&#39;est un excellent outil pour pré/post  . La colonne &quot;Inclus&quot; se trouve au centre du tableau et les périodes précédant et suivant le d’inclusion sont affichées de part et d’autre.
+Mesure le temps qui s’est écoulé avant et après l’événement d’inclusion. Il s’agit d’un excellent outil pré-/post-analyse. La colonne « Inclus » se trouve au centre du tableau, tandis que les périodes avant et après l’événement d’inclusion sont affichées des deux côtés.
 
 ![](assets/cohort-latency.png)
 
 ### Cohorte de dimension personnalisée
 
-Créez des cohortes en fonction d’une dimension sélectionnée, et non des cohortes temporelles, qui sont par défaut. Utilisez des dimensions telles que les  marketing, la campagne, le produit, la page, la région ou toute autre dimension dans Adobe Analytics pour montrer comment la rétention change en fonction des différentes valeurs de ces dimensions.
+Créez des cohortes sur la base d’une dimension sélectionnée, et non des cohortes en fonction du temps, qui sont les cohortes par défaut. Utilisez des dimensions telles que le canal marketing, la campagne, le produit, la page, la région ou toute autre dimension dans Adobe Analytics de façon à afficher l’évolution de la rétention en fonction des différentes valeurs de ces dimensions.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
