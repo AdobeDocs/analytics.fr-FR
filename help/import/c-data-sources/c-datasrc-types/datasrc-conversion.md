@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Conversion
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Les portées de données de conversion suivantes, ainsi que les mesures pour les types de données traités comme conversion, sont prises en charge.
 
-## Dimensions et mesures de conversion {#section_FA1731B232B246DABEDF5A5D84159084}
+## Conversion Dimensions and Metrics {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Si vous définissez un événement de consultation, vous devez également définir la portée de données correspondante (eVar). Si, par exemple, vous incluez des consultations eVar2, vous devez configurer la variable eVar2. Le nombre d’événements personnalisés et de consultations eVar pris en charge par une suite de rapports est contractuel et varie d’une entreprise à une autre.
 
@@ -27,7 +27,7 @@ Si vous définissez un événement de consultation, vous devez également défin
 | Catégorie | Nom de la catégorie.  Si vous définissez une catégorie, vous devez également sélectionner un produit. |
 | Canal | Nom du canal. |
 | eVarn | Nom de la variable eVarn. Valeurs valides de n : nombre entier entre 1 et 75. |
-| Produit | Nom du produit. |
+| Product | Nom du produit. |
 | État | Nom de l’état. |
 | Zip | Code postal. |
 
