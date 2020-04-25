@@ -24,12 +24,12 @@ Pour activer l’intégration, vous devez exécuter l’assistant de configurati
 
    ![](assets/data_connectors.png)
 
-1. Sous **[!UICONTROL Add Integration]**, sous Lyris HQ, cliquez sur **[!UICONTROL Activate]**.
+1. Sous **[!UICONTROL Ajouter une intégration]**, sous Lyris HQ, cliquez sur **[!UICONTROL Activer]**.
 
    ![](assets/add_integration.png)
 
-1. Under **[!UICONTROL General Settings]**, choose the desired Report Suite and provide a name for the integration.
-1. Fill in all your Lyris account-related information under **[!UICONTROL Custom Values]**.
+1. Sous **[!UICONTROL Paramètres généraux]**, choisissez une suite de rapports et attribuez un nom à l’intégration.
+1. Renseignez toutes les informations relatives à votre compte Lyris sous **[!UICONTROL Valeurs personnalisées]**.
 
    ![](assets/general_settings.png)
 
@@ -37,9 +37,9 @@ Pour activer l’intégration, vous devez exécuter l’assistant de configurati
 
    ![](assets/variable_mapping.png)
 
-1. You may choose your own segments under **[!UICONTROL Your Segments]** - apart from the 3 automated Partner segments.
-1. Cette intégration peut nécessiter le téléchargement de quelques points de données vers votre compte Lyris. You may choose to give access for this under **[!UICONTROL Access Request]**.
-1. Under **[!UICONTROL Data Collection]**, you can choose to have an automated or a manual solution (JavaScript Plug-in) to collect query string parameters from the landing page URL. Si vous optez pour une solution automatisée, saisissez le paramètre de chaîne de requête pour l’ID de message et l’ID de destinataire. Pour un plug-in JavaScript, contactez votre consultant Adobe.
+1. Vous pouvez choisir vos propres segments sous **[!UICONTROL Vos segments]**, à l’exception des trois segments de partenaire automatisés.
+1. Cette intégration peut nécessiter le téléchargement de quelques points de données vers votre compte Lyris. Vous pouvez choisir d’autoriser cet accès sous **[!UICONTROL Demande d’accès]**.
+1. Sous **[!UICONTROL Collecte de données]**, vous pouvez choisir une solution automatisée ou manuelle (plug-in JavaScript) pour collecter les paramètres de chaîne de requête à partir de l’URL de la page d’entrée. Si vous optez pour une solution automatisée, saisissez le paramètre de chaîne de requête pour l’ID de message et l’ID de destinataire. Pour un plug-in JavaScript, contactez votre consultant Adobe.
 
    ![](assets/data_collection.png)
 
@@ -47,7 +47,7 @@ Pour activer l’intégration, vous devez exécuter l’assistant de configurati
 
    ![](assets/dashboard_generation.png)
 
-1. Review the integration summary and click **[!UICONTROL Activate]**.
+1. Passez en revue le résumé de l’intégration et cliquez sur **[!UICONTROL Activer]**.
 
 ## Configuration dans les EmailLabs de Lyris {#configuration-within-the-lyris-emaillabs}
 
@@ -74,13 +74,13 @@ Une fois toutes les étapes du déploiement terminées, vous pouvez vérifier qu
 
 >[!NOTE] Quelques jours sont nécessaires pour que l’échange de données commence. Assurez-vous de contacter Lyris après avoir activé l’intégration.
 
-1. Accédez à votre intégration Lyris dans les Data Connectors. Sous l’ **[!UICONTROL Support]** onglet > **[!UICONTROL Integration Activity Log]**, vous devriez voir les  comme **[!UICONTROL Metric data imported successfully]** et/ou **[!UICONTROL Classification data imported successfully]**:
+1. Accédez à votre intégration Lyris dans les Data Connectors. Sous l’onglet **[!UICONTROL Assistance]** > **[!UICONTROL Journal d’activité d’intégration]**, vous devriez voir des événements tels que les **[!UICONTROL données de mesure importées avec succès]** et/ou les **[!UICONTROL données de classification importées avec succès]** :
 
    ![](assets/integration_info.png)
 
-1. Affichez maintenant vos rapports de messages Lyris avec les mesures appropriées. In the Adobe Experience Cloud, select **[!UICONTROL Reports & Analytics]**.
+1. Affichez maintenant vos rapports de messages Lyris avec les mesures appropriées. Dans Adobe Experience Cloud, sélectionnez **[!UICONTROL Reports &amp; Analytics]**.
 1. Sélectionnez la suite de rapports appropriée.
-1. Sous **[!UICONTROL Custom Conversions]**, sélectionnez le **[!UICONTROL Message ID Reports]** et choisissez **[!UICONTROL Message ID/Message Name]**.
+1. Sous **[!UICONTROL Conversions personnalisées]**, sélectionnez **[!UICONTROL Rapports d’ID de message]** et choisissez **[!UICONTROL ID/Nom du message]**.
 
 ## Code du plug-in de paramètre de chaîne de requête {#query-string-param-plug-in-code}
 
