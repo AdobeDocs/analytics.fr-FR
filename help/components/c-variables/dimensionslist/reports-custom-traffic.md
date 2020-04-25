@@ -18,4 +18,4 @@ Les rapports Trafic personnalisé permettent à chaque société de générer de
 * Ces rapports peuvent être visualisés sous la forme de rapports de tendance ou avec classement.
 * Vous pouvez utiliser des filtres de recherche pour localiser des éléments spécifiques.
 * Vous pouvez utiliser des classifications dans ces rapports afin de renommer et de consolider des éléments.
-* L’emplacement de chaque rapport Trafic personnalisé varie en fonction de la valeur numérique affectée à la variable prop. En général, ils se trouvent sous [!UICONTROL Traffic] ou [!UICONTROL Custom Traffic] dossier).
+* L’emplacement de chaque rapport Trafic personnalisé varie en fonction de la valeur numérique affectée à la variable prop. Elle se trouve généralement dans le dossier [!UICONTROL Trafic] ou [!UICONTROL Trafic personnalisé].
