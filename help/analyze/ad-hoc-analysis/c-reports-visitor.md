@@ -15,7 +15,7 @@ Affiche des informations concernant les visiteurs, notamment leur nombre, leurs 
 
 ## Fréquence des retours {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
-Indique le temps qui s’écoule entre les visites des de retour et le nombre de visites qui entrent dans chaque de durée. Utilisez le rapport pour connaître la durée moyenne pendant laquelle les réguliers passent sans consulter votre site, ainsi que les tendances des clients réguliers.
+Ce rapport indique le délai qui s’écoule entre chaque visite des visiteurs qui reviennent sur votre site, ainsi que le nombre de visites repris dans chaque catégorie de durée. Utilisez ce rapport pour afficher la période moyenne pendant laquelle les visiteurs réguliers n’ont pas visité votre site, ainsi que les tendances au niveau des clients réguliers.
 
 <!-- 
 
@@ -23,18 +23,18 @@ c_reports_return_freq.xml
 
  -->
 
-Par exemple, l’affichage de la mesure Commandes dans ce rapport permet à un site de vente au détail de comprendre le temps le plus efficace entre les visites pour générer des conversions. Utilisez ces informations pour commercialiser efficacement les qui ont passé un certain temps sans consulter votre site.
+Dans le cas d’un site de vente au détail, le fait d’afficher la mesure Commandes dans ce rapport permet de déterminer le moment le plus efficace pour générer une conversion entre des visites. Utilisez ces informations pour proposer plus efficacement vos produits aux visiteurs qui n’ont plus consulté votre site depuis un certain temps.
 
 Vous pouvez :
 
-* Identifiez le nombre de visiteurs de retour et la fréquence de leurs visites de retour.
-* Évaluez l&#39;attrait de votre site Web et la pertinence pour les au fil du temps.
-* Prenez conscience de l&#39;attractivité de votre site sur les visiteurs et de la fréquence à laquelle ils se sentent obligés d&#39;y revenir pour une interaction supplémentaire ou des mises à jour.
-* Identifiez l’impact du contenu et des promotions de votre site Web sur vos.
+* Identifier le nombre de visiteurs récurrents et la fréquence de leurs visites.
+* Évaluer l’attrait de votre site web et l’intérêt qu’il présente pour les visiteurs au fil du temps.
+* Prendre conscience de l’attractivité de votre site sur les visiteurs et de la fréquence à laquelle ils se sentent obligés d’y revenir pour une interaction supplémentaire ou des mises à jour.
+* Identifier l’impact du contenu et des promotions de votre site web sur vos visiteurs.
 
-Par défaut, ce rapport a les durées suivantes :
+Par défaut, les durées de ce rapport sont les suivantes :
 
-* Moins d’un jour
+* Moins d’une journée
 * Un à trois jours
 * Trois à sept jours
 * Sept à quatorze jours
@@ -43,7 +43,7 @@ Par défaut, ce rapport a les durées suivantes :
 
 ## Nombre de visites {#concept_BBB614072FD74379B1A8520ACB75AE9A}
 
-Indique le nombre de visites des clients sur votre site qui a le plus influencé vos mesures de réussite. Un qui effectue une première visite sur votre site est comptabilisé à la ligne Nombre de visites 1. Les qui reviennent sur le site pour une seconde visite sont comptabilisés dans la ligne Nombre de visites 2, etc.
+Indique les numéros des visites effectuées sur votre site dont l’incidence a été la plus importante sur vos mesures de succès. Un utilisateur qui effectue une première visite sur votre site est comptabilisé à la ligne « Visite numéro 1 ». Ceux qui reviennent sur votre site une seconde fois sont comptabilisés à la ligne « Visite numéro 2 », et ainsi de suite.
 
 <!-- 
 
@@ -51,22 +51,22 @@ c_reports_visit_number.xml
 
  -->
 
-Vous pouvez utiliser ce rapport comme rapport d’abandons pour savoir si les reviennent. Vous pouvez également ajouter une mesure des recettes pour savoir si vous générez davantage de recettes à partir des visites initiales ou des visites ultérieures.
+Vous pouvez utiliser ce rapport comme rapport d’abandons afin de déterminer si les visiteurs reviennent sur votre site. Vous pouvez également ajouter une mesure de recette au rapport afin de déterminer si vous générez plus de recettes à partir des visites initiales ou à partir des visites suivantes.
 
-Par exemple, ce rapport peut répondre à des questions telles que : Les clients qui ont effectué des achats lors de leur quatrième visite ont-ils généré plus de recettes que ceux qui ont effectué des achats lors de leur première visite ?
+Ce rapport peut, par exemple, répondre à des questions du type : « Les clients qui ont effectué un achat au cours de leur quatrième visite génèrent-ils plus de recettes que ceux qui ont acheté un produit lors de leur première visite ? »
 
-Vous pouvez ventiler ce rapport en fonction d’un autre rapport ou variable afin de déterminer :
+Vous pouvez ventiler ce rapport selon tout autre rapport ou variable afin de déterminer :
 
-* Combien de visites prend généralement un utilisateur qui a cliqué sur la campagne XYZ pour effectuer un achat ?
-* Si les utilisateurs de Tokyo, par exemple, effectuent plus de visites avant de générer une piste que les utilisateurs de Londres.
+* le nombre de visites effectuées généralement par un utilisateur qui a parcouru la campagne XYZ avant d’effectuer un achat.
+* si les utilisateurs tokyoïtes, par exemple, effectuent davantage de visites que les utilisateurs londoniens avant de générer une piste.
 
 >[!NOTE] Si un même visiteur se rend plusieurs fois sur votre site Web au cours de la même période, chaque numéro de visite spécifié est incrémenté pour chaque visite.
 
-Ce rapport est basé sur les données d’ID de transmises à Adobe à chaque accès effectué par les. Lorsque ces données sont reçues, Adobe les compare aux données historiques d’ID de afin de déterminer si l’accès est :
+Ce rapport s’articule autour des données d’identifiant des visiteurs transmises à Adobe lors chaque accès à votre site. A la réception de ces données, Adobe les compare aux identifiants des visiteurs historiques afin de déterminer si l’accès correspond à :
 
-* Un nouveau (nombre de visites = 1).
-* précédent qui poursuit une visite (le nombre de visites n’est pas incrémenté).
-* précédent qui effectue une nouvelle visite (nombre de visites incrémenté d’une unité).
+* un nouveau visiteur (nombre de visites égal à 1).
+* un visiteur précédent qui continue une visite en cours (nombre de visites non incrémenté),
+* un visiteur précédent qui effectue une nouvelle visite (nombre de visites incrémenté d’une unité).
 
 >[!NOTE] Chaque identifiant visiteur Analytics est associé à un profil du visiteur sur les serveurs Adobe. Les profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit la date d’expiration des cookies d’identifiant de visiteur.
 
@@ -80,20 +80,20 @@ c_reports_customerloyalty.xml
 
  -->
 
-Le [!UICONTROL Customer Loyalty] rapport affiche les modèles d’achat des clients en fonction de quatre  de fidélité :
+Le rapport [!UICONTROL Fidélité de la clientèle] affiche des schémas de clients sur la base de quatre catégories de fidélité :
 
-* **Pas un client**: n’ayant jamais effectué d’achat
-* **Nouveau client**: ayant effectué un seul achat
-* **Client** régulier : ayant effectué 2 achats
-* **Client** fidèle : ayant effectué 3 achats ou plus
+* **Pas un client** : visiteurs n’ayant jamais effectué d’achat
+* **Nouveau client** : visiteurs qui ont effectué un seul achat
+* **Client régulier** : visiteurs qui ont effectué deux achats
+* **Client fidèle** : visiteurs qui ont effectué trois achats ou plus
 
 >[!NOTE] Lorsque vous utilisez ces mesures, toutes les visites de l’utilisateur (ou tous les visiteurs) sont représentées dans ce rapport et ce, qu’un achat ait été effectué ou non.
 
-L’état de fidélité change après la fin de la visite au cours de laquelle un d’achat se produit. Par exemple, un nouveau client (1 achat) effectue un achat, puis s’inscrit à un bulletin d’information après cet achat au cours de la même visite. L’événement d’inscription au bulletin d’information est toujours considéré comme une interaction Nouveau client, car l’état de fidélité du client ne changera pas avant la prochaine visite.
+L’état de fidélité change à la fin de la visite au cours de laquelle s’est produit un événement d’achat. Par exemple, un nouveau client (1 achat) effectue un achat, puis s’inscrit ensuite au bulletin d’information, au cours de la même visite. L’événement d’inscription au bulletin d’information est toujours considéré comme une interaction Nouveau client, car l’état de fidélité du client ne changera pas avant la prochaine visite.
 
 ## Profil du visiteur {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
-Affiche des informations sur le type de qui arrive sur votre site. Vous pouvez voir des éléments tels que l&#39;emplacement du, le type de navigateur et de matériel informatique utilisés, les langues utilisées et les données de Internet pour vos.
+Affichent des informations sur le type de visiteurs qui se rendent sur votre site. Ils présentent des renseignements tels que l’emplacement des visiteurs, le type de navigateur et de matériel informatique utilisés, la langue employée, ainsi que des informations sur leurs fournisseurs de services Internet.
 
 <!-- 
 
@@ -101,13 +101,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Languages]**: Indique les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues les plus utilisées par les visiteurs de votre site.
+**[!UICONTROL Langues]** : indique les langues préférées des visiteurs, capture la langue par défaut du navigateur et affiche les langues les plus utilisées par les visiteurs du site.
 
-**[!UICONTROL Domains]**:  les organisations et les FAI que vos utilisent pour accéder à votre site. This report differs from the [!UICONTROL Full Domains] report in that the Full Domains report registers the full ISP domain, whereas this report lists the secondary domain.
+**[!UICONTROL Domaines]** : répertorie les organisations et les fournisseurs de services Internet que les visiteurs utilisent pour accéder à votre site. Ce rapport diffère du rapport [!UICONTROL Domaines complets], en ce sens qu’il répertorie le domaine secondaire. Le rapport des domaines complets, lui, enregistre le domaine complet des fournisseurs d’accès Internet.
 
-**[!UICONTROL Top Level Domains]**: Identifie les régions du monde d’où proviennent les en fonction de leur extension de domaine d’origine et indique combien de viennent de ces pays. Les domaines se terminant par Commercial (.com), Network (.net), Education (.edu), Government (.gov) et Organization (.org) sont généralement basés aux États-Unis et sont répertoriés séparément des autres domaines.
+**[!UICONTROL Domaines de haut niveau]** : présente les régions du monde d’où viennent les visiteurs sur la base de l’extension de leur domaine d’origine et indique combien de visiteurs viennent de ces pays. Les domaines finissant par Commercial (.com), Network (.net), Education (.edu), Government (.gov) et Organization (.org) sont généralement basés aux Etats-Unis et font l’objet d’une liste distincte des autres domaines.
 
-**[!UICONTROL Visitor ZIP/Postal Code]**: Affiche les codes postaux des clients qui ont eu le plus grand impact sur les mesures de réussite des achats.
+**[!UICONTROL Code postal du visiteur]** : indique les codes postaux des visiteurs qui ont le plus influencé les mesures de réussite d’achats.
 
 ## Géosegmentation {#concept_7C1B930F90F945B49205D3855CAE1813}
 
@@ -117,4 +117,4 @@ c_reports_geosegmentation.xml
 
  -->
 
-Affiche la dynamique géographique de vos en temps réel, y compris les pays, les états et les villes d’où ils naviguent. Vous pouvez également obtenir des informations importantes sur la technologie et les préférences du  de votre site Web.
+Affiche la dynamique géographique de vos visiteurs en temps réel, notamment les pays, les départements et les villes à partir desquels ils naviguent. Ce type de rapport vous donne également une bonne idée de la technologie dont dispose votre public Internet, ainsi que de leurs préférences.
