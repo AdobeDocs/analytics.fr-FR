@@ -35,7 +35,7 @@ La durée de la visite mesure le temps total passé lors d’une visite. Il exis
    * 2-5 heures
    * 5-10 heures
    * 10-15 heures
-   * Plus de 15 heures
+   * Plus de 15 heures
 
 >[!NOTE] [Les visites](../c-metrics/metrics-visit.md) se terminent généralement après 12 heures d’activité. Toutefois, les visites peuvent dépasser 12 heures si vous utilisez des sources de données ou des accès horodatés.
 
