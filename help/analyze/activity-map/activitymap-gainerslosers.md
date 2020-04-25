@@ -13,37 +13,37 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Les superpositions proposent plusieurs manières de configurer la visualisation de données afin de consulter et de comprendre facilement la popularité des liens sur une page.
 
-Les superpositions vous permettent de visualiser les données de clic directement sur la page. C’est ce qui sépare un outil de  visuel  tel que  Carte de de , des outils principalement tabulaires et graphiques tels que les Rapports et analyses.
+Les superpositions vous permettent de visualiser les données de clic directement sur la page. C’est ce qui distingue un outil d’analyse visuelle tel qu’Activity Map d’outils principalement tabulaires et graphiques tels que Reports &amp; Analytics.
 
-  de mappage de  trois types d’incrustations :
+Activity Map propose trois types de superpositions :
 
-* Incrustation en dégradé (carte thermique)
-* Incrustation bulle
+* Superposition en dégradé (carte thermique)
+* Superposition bulle
 * Superposition des gagnants et des perdants
 
 Vous pouvez également configurer [le rendu des superpositions pour le contenu dynamique](/help/analyze/activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md).
 
-Pour apporter des modifications aux incrustations, ouvrez le panneau [Paramètres d’](/help/analyze/activity-map/activitymap-overlay-settings.md) incrustation et modifiez les options disponibles.
+Pour modifier les superpositions, ouvrez le [panneau Paramètres de superposition](/help/analyze/activity-map/activitymap-overlay-settings.md) et modifiez les options disponibles.
 
-Placer le pointeur sur une incrustation affiche ses [détails](/help/analyze/activity-map/activitymap-overlay-details.md).
+Survolez une superposition pour afficher ses [détails](/help/analyze/activity-map/activitymap-overlay-details.md).
 
 ## Superposition en dégradé (carte thermique) {#section_06AF13DE05A1454D960176CD0DA921A6}
 
-Avec l’incrustation en dégradé, l’intensité des couleurs dépend de la popularité du lien. Cette intensité peut être normalisée pour les 30 premiers classements ou une fonction de la valeur de mesure absolue.
+Avec la superposition en dégradé, l’intensité des couleurs dépend de la popularité du lien. Cette intensité peut être normalisée pour les 30 premiers classements ou dépendre de la valeur de mesure absolue.
 
-Ces mesures sont superposées au-dessus des liens de la page sous la forme d&#39;une sorte de &quot;carte thermique&quot; pour répondre à des questions critiques, notamment :
+Ces mesures sont superposées au-dessus des liens de la page sous la forme d’une sorte de « carte thermique » afin de répondre à des questions critiques, notamment :
 
-* Quelle est la valeur d’une page individuelle ?
-* Quelle est la valeur d’un élément individuel d’une page ?
-* Quel est le &quot;domaine numérique&quot; le plus précieux d&#39;une page ?
+* Quelle est la valeur d’une page spécifique ?
+* Quelle est la valeur d’un élément spécifique sur une page ?
+* Quels sont les « biens numériques » les plus précieux sur la page ?
 
 ![](assets/gradient.png)
 
 ## Superposition bulle {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
 
-L’incrustation Bulle affiche le contenu de l’incrustation (mesure, pourcentage ou classement) dans une petite bulle de légende.
+La superposition bulle affiche le contenu de la superposition (mesure, pourcentage ou classement) dans une petite bulle de légende.
 
-Les incrustations bulles s’affichent lorsque vous sélectionnez cette incrustation dans le type d’incrustation de la barre d’outils. . Les superpositions bulles s’affichent pour tous les liens qui correspondent à la sélection dans [Paramètres](/help/analyze/activity-map/activitymap-overlay-settings.md) de  de zone cliquable (30 premiers, 50 premiers, tous...). Les superpositions en dégradé s’affichent si cette option n’est pas sélectionnée.
+Les superpositions bulle s’affichent lorsque vous sélectionnez cette superposition dans Type de superposition dans la barre d’outils. Elles répertorient tous les liens correspondant à la sélection dans [Paramètres d’Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) (30 premiers, 50 premiers, tous...). Les superpositions en dégradé s’affichent si cette option n’est pas sélectionnée.
 
 ![](assets/bubble_overlay.png)
 
@@ -53,9 +53,9 @@ Les incrustations bulles s’affichent lorsque vous sélectionnez cette incrusta
 
 ## Superpositions des gagnants et des perdants {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL Gainers and losers overlays]** sont disponibles uniquement en mode réel. Ils signalent les modifications en temps réel des liens  des en comparant les mesures de la période en cours aux mesures de la dernière période. Ils vous offrent un moyen visuellement attrayant de en temps réel.
+**[!UICONTROL Les superpositions des gagnants et des perdants]** sont uniquement disponibles en mode réel. Elles signalent les changements de l’activité des liens en temps réel en comparant les mesures de la période actuelle à celles de la dernière période. Elles offrent une manière visuellement attractive d’afficher les tendances en temps réel.
 
-Cette incrustation en temps réel classe les clics en fonction des modifications de la valeur de la mesure entre les périodes précédente et actuelle.
+Cette superposition en temps réel établit le classement des clics en fonction des changements de la valeur de mesure entre la période précédente et la période actuelle.
 
 ![](assets/gainers_losers.png)
 
