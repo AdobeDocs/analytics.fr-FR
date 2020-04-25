@@ -2,7 +2,7 @@
 description: 'Décrit les deux moyens principaux de recherche de mesures : le tri et le filtrage.'
 title: Recherche de mesures
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,7 +21,7 @@ Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures ![](assets/metr
 | Option | Quand l’utiliser |
 |---|---|
 | Alphabétique | Utile si vous connaissez le nom. |
-| Recommandés | Mesures courantes que les personnes utilisent dans le rapport : rassemblées par le serveur principal auprès des utilisateurs des mesures couramment utilisées avec ce rapport. |
+| Recommandé | Mesures courantes que les personnes utilisent dans le rapport : rassemblées par le serveur principal auprès des utilisateurs des mesures couramment utilisées avec ce rapport. |
 | Fréquemment utilisés | Utile si vous êtes un utilisateur novice et que vous avez besoin de consulter ce qui est couramment utilisé dans le rapport. |
 | Utilisés récemment | Utile si vous travaillez sur un projet et utilisez sans arrêt le même jeu de mesures. |
 
