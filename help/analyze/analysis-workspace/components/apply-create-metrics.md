@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Dans Analysis Workspace, vous pouvez utiliser les mesures de deux façons.
 
-Vous pouvez faire glisser une mesure standard, une mesure calculée ou un modèle de mesure calculée du [!UICONTROL Components] menu vers le tableau :
+You can either drag a standard metric, calculated metric, or calculated metric template from the [!UICONTROL Components] menu to the table:
 
 ![](assets/metrics_icons.png)
 
