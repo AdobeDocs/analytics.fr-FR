@@ -13,7 +13,7 @@ Si des données sont [affectées par une](../event-impacted.md), il est importan
 
 ## Communiquer par le biais de descriptions de panneau ou de visualisation
 
-Si un projet Workspace est partagé par des utilisateurs de votre entreprise, vous pouvez communiquer l’impact d’un  par le biais de descriptions de panneau ou de visualisation. Cliquez avec le bouton droit de la souris sur un panneau ou un en-tête de visualisation, puis sélectionnez **[!UICONTROL Edit description]**.
+Si un projet Workspace est partagé par des utilisateurs de votre entreprise, vous pouvez communiquer l’impact d’un  par le biais de descriptions de panneau ou de visualisation. Cliquez avec le bouton droit de la souris sur un panneau ou un en-tête de visualisation, puis sélectionnez **[!UICONTROL Modifier la description]**.
 
 ![Description du panneau](../assets/panel_description.png)
 
@@ -27,8 +27,8 @@ Vous pouvez également communiquer l’impact d’un  à l’aide de visualisati
 
 Si vous utilisez les rapports et analyses, vous pouvez utiliser un de [calendrier](/help/components/t-calendar-event.md) pour mettre en évidence les jours affectés dans n’importe quel rapport de tendances. Cette méthode ne s’applique pas à   Workspace.
 
-1. Accédez à **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
+1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL de]** calendrier.
 2. Entrez le titre, la plage de dates et le texte de la note de votre choix.
-3. Cliquez sur **[!UICONTROL Save]**.
+3. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![de calendrier](../assets/exclude_calendar_event.png)
