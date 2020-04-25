@@ -3,7 +3,7 @@ description: Les mesures sont calculées selon des méthodes d’attribution sta
 title: Calculs de mesures
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ Les mesures sont calculées selon des méthodes d’attribution standard, de par
   </tr> 
   <tr> 
    <td colname="col1"> Participation </td> 
-   <td colname="col2"> <p>Attribue tout le crédit à chaque valeur de variable qui a contribué à l’événement de succès au cours d’une visite. Ce calcul peut également s’appliquer à plusieurs sessions de visiteurs, si vous utilisez des mesures de participation inter-visites. </p> <p>Voir  <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Participation</a> pour plus d’informations. </p> </td> 
+   <td colname="col2"> <p>Attribue tout le crédit à chaque valeur de variable qui a contribué à l’événement de succès au cours d’une visite. Ce calcul peut également s’appliquer à plusieurs sessions de visiteurs, si vous utilisez des mesures de participation inter-visites. </p> <p>Voir <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Participation</a> pour plus d’informations. </p> </td> 
   </tr> 
  </tbody> 
 </table>
