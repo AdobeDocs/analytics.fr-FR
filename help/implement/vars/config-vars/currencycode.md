@@ -23,12 +23,12 @@ Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable
 
 ## Code de devise dans Adobe Experience Platform Launch
 
-Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
+Le code de devise correspond à un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Développez l’ [!UICONTROL General] accordéon, ce qui révèle le [!UICONTROL Currency Code] champ.
+3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+4. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Code de devise].
 
 Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
 
