@@ -26,10 +26,10 @@ Le tableau suivant compare ces deux méthodes :
 |---|---|---|
 | Nombre de visiteurs/visites dans la suite de rapports existante | Gonflement élevé | Gonflement minimal |
 | Utilisation d’une suite de rapports distincte | Recommandé | Pas nécessaire |
-| Nouveaux vs. de retour | Non pris en charge | Pris en charge |
-| Service d’ID | Non pris en charge | Pris en charge |
+| Visiteurs nouveaux/récurrents | Non pris en charge | Pris en charge |
+| Service d’identification des visiteurs | Non pris en charge | Pris en charge |
 | Suivi des vidéos et des liens | Prise en charge partielle | Pas encore pris en charge |
-| Difficulté de mise en oeuvre | Plutôt difficile | Relativement facile |
+| Difficulté de mise en œuvre | Parfois difficile | Relativement facile |
 | Intégrations Adobe Experience Cloud | Non pris en charge | Prise en charge partielle |
 
 Pesez les avantages et les inconvénients au sein de votre organisation pour déterminer la méthode à utiliser. Pour obtenir un exemple de code, reportez-vous aux [exemples AMP](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) du référentiel GitHub d’Adobe.
@@ -161,7 +161,7 @@ Non. La norme AMP ne prend en charge que les déclencheurs pour « visible »,
 
 **Comment puis-je différencier les visiteurs AMP des autres dans mes données ?**
 
-For all AMP pages, the [!UICONTROL JavaScript Version] dimension collects a value similar to `AMP vX.X`. Vous pouvez également définir une dimension personnalisée sur « AMP » afin de segmenter ces visiteurs.
+Pour toutes les pages AMP, la dimension [!UICONTROL Version de JavaScript] collecte une valeur similaire à `AMP vX.X`. Vous pouvez également définir une dimension personnalisée sur « AMP » afin de segmenter ces visiteurs.
 
 **Comment cette méthode de mise en œuvre se compare-t-elle aux Instant Articles de Facebook ?**
 
