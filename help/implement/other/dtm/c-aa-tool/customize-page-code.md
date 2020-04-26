@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;customize page code;open editor;execute
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Personnalisation du code de page
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -27,7 +27,7 @@ Modifier l’outil]** > **[!UICONTROL Personnaliser le code de page]**
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Ouvrir l’éditeur </p> </td> 
+   <td colname="col1"> <p>Open Editor (Ouvrir l’éditeur) </p> </td> 
    <td colname="col2"> <p>Vous pouvez insérer un appel JavaScript qui doit être déclenché avant l’appel final de <code> s.t()</code> contenu dans <code> s_code</code>. </p> </td> 
   </tr> 
   <tr> 
