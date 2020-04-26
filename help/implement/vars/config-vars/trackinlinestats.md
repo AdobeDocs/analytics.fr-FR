@@ -1,7 +1,7 @@
 ---
 title: trackInlineStats
 description: Permet d’activer ou de désactiver Activity Map dans votre mise en œuvre.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 ---
