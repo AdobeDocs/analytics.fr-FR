@@ -27,10 +27,10 @@ Vous pouvez définir des eVars lors de la configuration de l’extension Analyti
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Sous [!UICONTROL Actions], cliquez sur une [!UICONTROL Adobe Analytics - Set Variables] action existante ou cliquez sur l’icône &quot;+&quot;.
-5. Définissez la [!UICONTROL Extension] liste déroulante sur Adobe Analytics et la [!UICONTROL Action Type] sur [!UICONTROL Set Variables].
-6. Locate the [!UICONTROL eVars] section.
+3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
+4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
+6. Recherchez la section [!UICONTROL eVars].
 
 Vous pouvez sélectionner une eVar pour définir une valeur ou un élément de données. Vous pouvez également copier la valeur d’une autre variable Analytics.
 
