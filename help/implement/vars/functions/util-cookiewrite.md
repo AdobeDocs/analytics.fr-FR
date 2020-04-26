@@ -1,6 +1,6 @@
 ---
 title: Util.cookieWrite
-description: Ecrit une valeur pour un cookie.
+description: Permet d’inscrire une valeur dans un cookie.
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
@@ -9,15 +9,15 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # Util.cookieWrite
 
-Les cookies peuvent stocker et récupérer des informations sur plusieurs pages du même domaine. Utilisez la `Util.cookieWrite()` méthode pour définir une valeur sur un cookie. Vous pouvez utiliser la [`Util.cookieRead()`](util-cookieread.md) méthode pour récupérer les valeurs définies à l’aide `Util.cookieWrite()`.
+Les cookies peuvent stocker et récupérer des informations sur plusieurs pages du même domaine. Utilisez la méthode `Util.cookieWrite()` pour définir une valeur sur un cookie. Vous pouvez utiliser la méthode [`Util.cookieRead()`](util-cookieread.md) pour récupérer les valeurs définies à l’aide de `Util.cookieWrite()`.
 
-## Définition de cookies dans Adobe Experience Platform Launch
+## Définir des cookies dans Adobe Experience Platform Launch
 
 Launch ne permet pas de définir des cookies dans l’interface. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.Util.cookieWrite() dans l’éditeur de code personnalisé AppMeasurement et de lancement
+## s.Util.cookieWrite() dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
-Appelez la `s.Util.cookieWrite()` méthode pour définir un cookie sur la valeur souhaitée.
+Appelez la méthode `s.Util.cookieWrite()` pour définir un cookie sur la valeur souhaitée.
 
 ```js
 s.Util.cookieWrite("example_cookie","Example cookie value")
