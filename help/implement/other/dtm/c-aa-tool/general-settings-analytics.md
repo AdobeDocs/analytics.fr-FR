@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Général
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -39,7 +39,7 @@ Description des champs pour les paramètres Général dans DTM, pour déploiemen
      </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Jeu de caractères </p> </td> 
+   <td colname="col1"> <p>Character Set (Jeu de caractères) </p> </td> 
    <td colname="col2"> <p>Affiche les jeux de codage de caractères disponible. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Description des champs pour les paramètres Général dans DTM, pour déploiemen
    <td colname="col2"> <p>Domaine au niveau duquel sont écrits le cookie et la demande d’image. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Serveur de suivi SSL </p> </td> 
+   <td colname="col1"> <p>SSL Tracking Server (Serveur de suivi SSL) </p> </td> 
    <td colname="col2"> <p>Domaine au niveau duquel sont écrits le cookie et la demande d’image. Cet élément est utilisé pour les pages sécurisées. Si la variable n’est pas défini, les données SSL sont envoyées à la variable  <span class="term">trackingServer</span>.  </p> </td> 
   </tr> 
   <tr> 
