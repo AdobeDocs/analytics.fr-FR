@@ -17,12 +17,12 @@ Dans les versions précédentes d’Adobe Analytics, AppMeasurement utilisait la
 
 ## Espace de nom du visiteur dans Adobe Experience Platform Launch
 
-[!UICONTROL Visitor Namespace] est un champ sous l’ [!UICONTROL Cookies] accordéon lors de la configuration de l’extension Adobe Analytics.
+[!UICONTROL L’espace de nom du visiteur] est un champ situé sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Développez l’ [!UICONTROL Cookies] accordéon, ce qui révèle le [!UICONTROL Visitor Namespace] champ.
+3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+4. Développez l’accordéon [!UICONTROL Cookies], qui affiche le champ [!UICONTROL Espace de nom du visiteur].
 
 Adobe recommande de ne pas utiliser ce champ. Utilisez `trackingServer` et `trackingServerSecure` à la place.
 
