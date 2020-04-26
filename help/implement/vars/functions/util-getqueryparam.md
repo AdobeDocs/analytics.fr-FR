@@ -17,8 +17,8 @@ Vous pouvez obtenir des données de paramètre de chaîne de requête en défini
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
-4. Définissez la [!UICONTROL Extension] liste déroulante sur [!UICONTROL Core]et la [!UICONTROL Data Element Type] sur [!UICONTROL Query String Parameter].
+3. Accédez à l’onglet [!UICONTROL Éléments de données], puis cliquez sur l’élément de données souhaité (ou créez un élément de données).
+4. Définissez la liste déroulante [!UICONTROL Extension] sur [!UICONTROL Core] et le [!UICONTROL Type d’élément de données] sur [!UICONTROL Paramètre de chaîne de requête].
 5. Entrez le paramètre de chaîne de requête dans le champ de texte.
 
 La valeur du paramètre de chaîne de requête est stockée dans l’élément de données. Vous pouvez ensuite référencer l’élément de données dans les règles pour affecter des variables Analytics.
