@@ -13,12 +13,12 @@ La fonction `s_gi()` instancie ou trouve une instance d’AppMeasurement par ide
 
 ## s_gi() dans Adobe Experience Platform Launch
 
-L’extension Analytics instancie et gère l’objet de suivi à votre place. However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
+L’extension Analytics instancie et gère l’objet de suivi à votre place. Cependant, vous pouvez également définir un objet de suivi global dans l’accordéon [!UICONTROL Gestion des bibliothèques] lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Développez l’ [!UICONTROL Library Management] accordéon, puis sélectionnez un bouton radio autre que [!UICONTROL Manage the library for me].
+3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+4. Développez l’accordéon [!UICONTROL Gestion des bibliothèques], puis cochez une case autre que [!UICONTROL Gérer la bibliothèque pour moi].
 
 Le champ de texte de variable globale vous permet de définir un objet de suivi personnalisé. Sa valeur par défaut est `s`.
 
