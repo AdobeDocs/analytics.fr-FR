@@ -39,9 +39,9 @@ Launch a un emplacement dédié défini un appel de suivi des pages vues.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
+4. Sous [!UICONTROL Actions], cliquez sur l’icône « + ».
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur Envoyer la balise.
 6. Cochez la case `s.t()`.
 
 ## s.t() dans AppMeasurement et l’éditeur de code personnalisé de Launch
