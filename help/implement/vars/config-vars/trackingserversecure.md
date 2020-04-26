@@ -15,12 +15,12 @@ Adobe collecte des données sur votre site en recevant une demande d’image gé
 
 ## Serveur de suivi SSL dans Adobe Experience Platform Launch
 
-[!UICONTROL SSL Tracking Server] est un champ sous l’ [!UICONTROL General] accordéon lors de la configuration de l’extension Adobe Analytics.
+[!UICONTROL Le serveur de suivi SSL] est un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Développez l’ [!UICONTROL General] accordéon, ce qui révèle le [!UICONTROL SSL Tracking Server] champ.
+3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+4. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Serveur de suivi SSL].
 
 Si ce champ n’est pas renseigné, la valeur de la variable [`trackingServer`](trackingserver.md) est utilisée par défaut.
 
