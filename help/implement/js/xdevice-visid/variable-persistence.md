@@ -17,10 +17,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 Lorsque des profils du visiteur sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
 
 * Lorsque la variable `s.visitorID` est définie et envoyée sur un accès, Adobe recherche les autres profils du visiteur ayant un identifiant visiteur correspondant.
-* S’il existe un , le  de qui se trouve déjà dans le système est utilisé à partir de ce moment et le précédent de l’n’est plus utilisé.
-* Si aucun ID de correspondant n’est trouvé, un nouveau  de est créé.
+* Si un profil existe, le profil du visiteur qui figure déjà dans le système est utilisé à partir de ce moment et le profil précédent est abandonné.
+* Si aucun identifiant visiteur correspondant n’est trouvé, un nouveau profil est créé.
 
-Lorsqu’un client non authentifié arrive pour la première fois sur votre site, Adobe Analytics lui affecte un de . Lorsque le nouveau profil est créé, une visite se termine et une autre visite commence.
+Lorsqu’un client non authentifié arrive pour la première fois sur votre site, Adobe Analytics lui affecte un profil du visiteur. Lorsque le nouveau profil est créé, une visite se termine et une autre visite commence.
 
 ## Exemple 1
 
@@ -34,9 +34,9 @@ L’exemple ci-dessous explique comment les données sont envoyées à Adobe Ana
 
 ![Exemple 1 sur plusieurs appareils](assets/xdevice_first.jpg)
 
-Lors de la première connexion de données contenant une valeur `s.visitorID` précédemment non reconnue (`u999` ci-dessus), un nouveau profil est créé. Les valeurs persistantes du  précédent sont transférées vers le nouvel  de.
+Lors de la première connexion de données contenant une valeur `s.visitorID` précédemment non reconnue (`u999` ci-dessus), un nouveau profil est créé. Les valeurs persistantes du profil précédent sont transférées vers le nouveau profil.
 
-* Les eVars définies pour expirer lors de la visite ne sont pas copiées dans le  authentifié. Notez que la valeur `car` ci-dessus n’est pas conservée.
+* Les eVars définies pour expirer à la fin de la visite ne sont pas copiées vers le profil authentifié. Notez que la valeur `car` ci-dessus n’est pas conservée.
 * Les eVars définies pour expirer selon d’autres mesures sont copiées vers le profil authentifié. Notez que la valeur `apple` n’est pas conservée.
 * Pour les eVars persistantes, aucune mesure d’instance n’est enregistrée. Cela signifie que lors de l’utilisation de l’identification des visiteurs sur plusieurs appareils, il est possible d’afficher des rapports pour lesquels la mesure Visites uniques d’une valeur eVar est supérieure à la mesure d’instance.
 
@@ -51,5 +51,5 @@ L’exemple ci-dessous explique comment les données sont envoyées à Adobe Ana
 Lorsque le client s’authentifie, il est mis en correspondance avec le profil « authentifié » précédent - `2947539300`. Le profil utilisé au début de cette visite (`5477766334477`) n’est plus utilisé et aucune donnée du fichier n’est conservée.
 
 * Les données de géosegmentation sont enregistrées selon le premier accès de la visite. Elles ne changent pas pour une même visite, quel que soit l’appareil utilisé. Cela signifie que, lors d’une connexion de données suivante sur un nouvel appareil, la géosegmentation n’est généralement pas incluse.
-* Les colonnes de technologie telles que le navigateur, le système d’exploitation et la profondeur de couleur sont enregistrées lors du premier accès d’une visite. Comme les valeurs de géosegmentation, elles ne sont pas copiées sur le profil associé.
+* Les colonnes relatives aux technologies, par exemple, le navigateur, le système d’exploitation, l’intensité de couleur, sont enregistrées lors du premier accès d’une visite. Comme les valeurs de géosegmentation, elles ne sont pas copiées sur le profil associé.
 * Les canaux marketing remplacent d’autres canaux lors d’une connexion de données ultérieure contenant une première authentification pour cet appareil.
