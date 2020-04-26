@@ -1,7 +1,7 @@
 ---
 title: Remplacements de variables
 description: Les remplacements de variables permettent de modifier une valeur de variable pour un seul suivi ou un appel de lien de suivi.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
 
 ---
