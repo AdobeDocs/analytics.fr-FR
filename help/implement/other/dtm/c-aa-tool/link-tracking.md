@@ -14,14 +14,14 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Cette section contient la description des champs de Dynamic Tag Management pour le suivi des liens lors du déploiement d’Analytics.
 
-**[!UICONTROL  *`Property`*]**  > **[!UICONTROL   ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** > **[!UICONTROL![](assets/settings_gear.png)
 
-Edit Tool]** > **[!UICONTROL Link Tracking]**
+Modifier l’outil]** > **[!UICONTROL Suivi de liens]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Elément </th>
+   <th colname="col1" class="entry"> Élément </th>
    <th colname="col2" class="entry"> Description </th>
   </tr> 
  </thead>
@@ -32,11 +32,11 @@ Edit Tool]** > **[!UICONTROL Link Tracking]**
   </tr>
   <tr>
    <td colname="col1"> Track download links (Suivi des liens de téléchargement) </td>
-   <td colname="col2"> <p>Permet d’effectuer le suivi des liens vers des fichiers téléchargeables de votre site. </p> <p>Voir <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
+   <td colname="col2"> <p>Permet d’effectuer le suivi des liens vers des fichiers téléchargeables de votre site. </p> <p>See <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Download Extensions (Téléchargement d’extensions) </td> 
-   <td colname="col2"> <p>Si votre site contient des liens vers des fichiers avec l’une des extensions répertoriées, les URL de ces liens s’affichent dans les  de votre. </p>Voir <a href="../../../vars/config-vars/linkdownloadfiletypes.md">linkDownloadFileTypes</a>. </p> </td>
+   <td colname="col2"> <p>Si votre site contient des liens vers des fichiers dotés des extensions répertoriées, les URL de ceux-ci figurent dans les rapports. </p>Voir <a href="../../../vars/config-vars/linkdownloadfiletypes.md">linkDownloadFileTypes</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> Track outbound links (Suivi des liens sortants) </td>
