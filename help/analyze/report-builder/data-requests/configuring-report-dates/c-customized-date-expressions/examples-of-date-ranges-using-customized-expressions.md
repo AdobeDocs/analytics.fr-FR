@@ -17,7 +17,7 @@ Dans ce tableau, on suppose que nous sommes aujourd’hui le lundi 10 novembre
 
 | Exemple | Période | Expression personnalisée | Période du rapport |
 |---|---|---|---|
-|  |  | **Du** | **À** |  |
+|  |  | **De** | **À** |  |
 | 1 | ll y a deux semaines | cw-2w | cw-1w-1d | 26 oct. au 1er nov. |
 | 2 | 3 premiers jours du cinquième mois de l’année dernière | cy-1y+4m | cy-1y+4m+2d | 1er mai au 3 mai 2010 |
 | 3 | Une semaine complète, commençant il y a 4 semaines | cw-4w | cw-3w-1d | 12 oct. au 18 oct. |
@@ -25,7 +25,7 @@ Dans ce tableau, on suppose que nous sommes aujourd’hui le lundi 10 novembre
 | 5 | Un mois commençant il y a 2 mois | cm-2m | cm-1m-1d | 1er sept. au 30 sept. |
 | 6 | Il y a 12 mois au cours de l’année précédente | cm-12m | cm-11m-1d | 1 nov. au 30 nov. 2010 |
 
-## Notes on examples {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
+## Remarques sur les exemples {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
 **Exemple 1**
 
@@ -35,7 +35,7 @@ Si nous sommes aujourd’hui le lundi 10 novembre 2011, prenez la date actuell
 
 Ajoutez quatre mois au début de l’année (le mois de janvier) afin d’obtenir le mois de mai ; ajoutez deux jours au premier jour du mois pour obtenir le troisième jour du mois.
 
-## Syntax notes {#section_555D6563B2D94FA3BDD801DC0B8C289D}
+## Remarques sur la syntaxe {#section_555D6563B2D94FA3BDD801DC0B8C289D}
 
 Il est possible de créer des expressions personnalisées couvrant la plupart des périodes en liant deux termes à l’aide d’un opérateur. Un terme est la combinaison d’un multiplicateur entier et d’une abréviation de période. Exemple de terme : 18d ; exemple d’opérateur : +.
 
