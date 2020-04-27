@@ -2,7 +2,7 @@
 description: Les attributs du client sont stockés dans un nouveau type d’élément appelé VisAttr, qui peut être configuré comme une dimension ou une mesure.
 title: Attributs du client
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
