@@ -3,7 +3,7 @@ description: Les mesures sont la base des rapports ; elles vous aident à conna
 title: Mesures
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,12 +35,12 @@ t_metrics_set_default.xml
 
 1. Exécutez un rapport.
 1. Ajoutez les mesures à enregistrer comme mesures par défaut.
-1. Cliquez sur la liste déroulante **[!UICONTROL Ajouter des mesures]**, puis sélectionnez **[!UICONTROL Configurer comme valeur par défaut]**.
+1. Cliquez sur le  **[!UICONTROL Add Metrics]** déroulant, puis sélectionnez **[!UICONTROL Set as Default]**.
 
    Les mesures sélectionnées sont enregistrées comme valeurs par défaut pour ce rapport. Les informations suivantes s’appliquent aux mesures par défaut :
 
 * Les mesures par défaut s’appliquent à tous les comptes d’utilisateur, mais sont appliquées par rapport et suite de rapports. Par exemple, tous les utilisateurs qui affichent un rapport spécifique dans la même suite de rapports voient les mesures définies à l’aide de la procédure ci-dessus.
-* Si vous changez de rapport, les mesures affichées dans le rapport consulté le plus récemment persistent. Pour afficher les mesures par défaut dans ce nouveau rapport, cliquez sur la liste déroulante [!UICONTROL Ajouter des mesures], puis sur [!UICONTROL Afficher les valeurs par défaut].
+* Si vous changez de rapport, les mesures affichées dans le rapport consulté le plus récemment persistent. To display default metrics in that new report, click the [!UICONTROL Add Metrics] drop-down list, then click [!UICONTROL Show Defaults].
 
-* Si vous cliquez sur [!UICONTROL Supprimer les valeurs par défaut], les mesures par défaut sont supprimées pour ce rapport, et les mesures par défaut d’origine sont restaurées ([!UICONTROL Page vues] pour les props, et ce que vous avez défini dans les Outils d’administration pour les eVars).
+* Clicking [!UICONTROL Clear Defaults] removes the default metrics for that report and reverts them to the original default metrics for that report ( [!UICONTROL Page Views] for props, and whatever you have set in Admin Tools for eVars).
 
