@@ -3,7 +3,7 @@ description: Outre les options de mise en forme de cellules standard disponibles
 title: Mise en forme de la date
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ Outre les options de mise en forme de cellules standard disponibles par le biais
 
 Après avoir [ajouté des dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) à la grille Libellés de lignes, cliquez sur **[!UICONTROL Format]**.
 
-Dans le menu **[!UICONTROL Format]**, cliquez sur **[!UICONTROL Format personnalisé]** pour appliquer des formats personnalisés aux dates ; de la même manière que la fonction d’ajout de texte en préfixe ou suffixe. Vous pouvez, par exemple, entrer du texte qui s’affiche toujours après la date (tel que « av. J.-C. », « apr. J.-C. », etc.). Il vous est également possible d’ajouter du texte avant la date ; par exemple, [!UICONTROL Date de début] et [!UICONTROL Date de début et de fin]. Vous pouvez, en outre, créer une expression de date personnalisée à partir des abréviations jour, mois et année, et utiliser un séparateur personnalisé entre les différentes parties de la date. Tous les formats de date doivent être constitués de trois abréviations, placées entre crochets.
+In the **[!UICONTROL Format]** menu, click **[!UICONTROL Custom Format]** to apply customized formats for dates similar to the prepend and postpend feature. Vous pouvez, par exemple, entrer du texte qui s’affiche toujours après la date (tel que « av. J.-C. », « apr. J.-C. », etc.). Vous pouvez ajouter du texte avant la date, par exemple [!UICONTROL Start Date] et [!UICONTROL Start and End Date]. Vous pouvez, en outre, créer une expression de date personnalisée à partir des abréviations jour, mois et année, et utiliser un séparateur personnalisé entre les différentes parties de la date. Tous les formats de date doivent être constitués de trois abréviations, placées entre crochets.
 
-Le tableau suivant décrit l’utilisation des abréviations de date dans le champ [!UICONTROL Format personnalisé] :
+The following table describes how you can use date abbreviations in the [!UICONTROL Custom Format] field:
 
 | Abréviation | Signification | Exemple   en utilisant, comme exemple, le mercredi 14 mars 2012 |
 |--- |--- |--- |
