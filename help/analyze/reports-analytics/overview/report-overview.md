@@ -3,7 +3,7 @@ description: Cette section présente les fonctionnalités d’un rapport, notamm
 title: Fonctionnalités d’un rapport
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Cette section présente les fonctionnalités d’un rapport, notamment la barre d’outils, le calendrier et le tableau détaillé.
 
-Cet exemple présente un [!UICONTROL rapport Pages]. Les options de configuration peuvent varier, selon le rapport à exécuter. Par exemple, plutôt que de sélectionner Tendance ou Classement dans un rapport [!UICONTROL Contenu du site], vous pouvez préciser la granularité et le nom de la page pour un rapport [!UICONTROL Mesures du site].
+This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
 
 ## Exemple de rapport Pages {#section_288CC85536684C2DB184141358481EF0}
 
-Exemple d’un rapport Pages (**[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Rapports Pages]** > **[!UICONTROL Pages]**).
+Exemple d’un rapport Pages ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -77,4 +77,4 @@ Les détails forment l’essentiel des données du rapport. Dans ce cas, les pag
 
 Dans le tableau des détails, vous pouvez filtrer les données, créer des ventilations, ajouter des mesures, etc.
 
-Reportez-vous à la section  [Personnalisation des rapports](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Voir la section [Personnalisation des rapports](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
