@@ -3,7 +3,7 @@ description: valeur nulle
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ---
 
@@ -58,7 +58,11 @@ Voici les modèles disponibles et les questions auxquelles chaque modèle peut r
 
 ### Formation
 
-* **Didacticiel** de formation : Ce modèle standard vous guide tout au long de la terminologie et des étapes courantes pour créer votre premier   dans Workspace. Il est disponible sous forme de modèle standard dans le modal Nouveau projet et remplace l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste.
+Ces modèles standard vous guident à travers la terminologie et les étapes courantes pour créer votre premier   dans Workspace. Ils sont disponibles sous forme de modèle standard dans le module Nouveau projet et remplacent l’exemple de projet existant aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur .
+
+* **Didacticiel de formation - Recherche interne**: Le didacticiel de recherche interne vous aide à comprendre ce que vos recherchent sur le site Web ou dans l’application, mais pas dans l’application. L’analyse de ce type de données peut faire apparaître des opportunités d’optimisation du contenu.
+
+* **Didacticiel de formation - de  marketing**: Ce didacticiel explique comment assembler un de  marketing pour vos cadres, y compris les dimensions et mesures personnalisées qui sont importantes.
 
 ### Publicité
 
@@ -118,7 +122,7 @@ Ce modèle est basé sur la mesure Personnes, qui est une version dédupliquée 
 * Découvrir comment utiliser l’empilement des segments avec la mesure Personnes.
 * Découvrir comment l’utilisation d’Experience Cloud ID dans votre environnement améliore l’efficacité de la mesure Personnes.
 
-### Journey IQ : Modèle Analytics sur plusieurs périphériques
+### Journey IQ : Modèle de  sur plusieurs périphériques
 
 <!-->This content is mirrored in the CDA doc.<-->
 
