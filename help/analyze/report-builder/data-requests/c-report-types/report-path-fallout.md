@@ -3,7 +3,7 @@ description: Décrit la façon dont le Créateur de rapports prend en charge les
 title: Rapports Chemin et Abandon de chemin dans le Report Builder
 topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
