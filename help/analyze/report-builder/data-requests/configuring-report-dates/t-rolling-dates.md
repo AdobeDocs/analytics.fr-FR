@@ -3,7 +3,7 @@ description: Procédure de personnalisation d’une date roulante pour votre req
 title: Dates roulantes
 topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Procédure de personnalisation d’une date roulante pour votre requête.
 
-1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 1], sélectionnez **[!UICONTROL Dates roulantes]**.
-1. Cliquez sur le lien **[!UICONTROL Variable]** pour choisir le type de roulement, puis utilisez les liens de date pour configurer les dates roulantes.
+1. Sur le [!UICONTROL Request Wizard: Step 1], sélectionnez **[!UICONTROL Rolling Dates]**.
+1. Click the **[!UICONTROL Rolling]** link to choose the rolling type, then use the date links to configure rolling dates.
 
-   Les paramètres disponibles pour l’option [!UICONTROL Dates roulantes] varient en fonction des sélections. Par exemple, lorsque vous sélectionnez [!UICONTROL Hebdomadaire variable], le Créateur de rapports propose des paramètres spécifiques à ce créneau temporel, que vous pouvez utiliser comme schéma de roulement.
+   The settings for [!UICONTROL Rolling Dates] change depending on your selections. For example, when you select [!UICONTROL Rolling Weekly], report builder provides week-specific settings you can select as the rolling pattern.
 
 1. Configurez les options avancées suivant vos besoins.
