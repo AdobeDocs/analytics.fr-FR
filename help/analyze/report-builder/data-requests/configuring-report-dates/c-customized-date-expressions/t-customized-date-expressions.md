@@ -13,11 +13,11 @@ source-git-commit: fa1b0b7fb24d0cd2c205fbbb6a1e526f243531f8
 
 Vous pouvez préciser une période complexe en créant une expression personnalisée.
 
-Nous vous recommandons de consulter un calendrier lors de la création d’expressions afin de spécifier correctement le nombre de semaines et de jours. Excel est doté de plusieurs fonctions intégrées qui permettent de calculer le nombre de jours, de jours ouvrables, de mois et d’années entre les dates. Vous pouvez appliquer ces fonctions dans des formules afin de calculer d’autres intervalles, tels que des semaines et des trimestres.
+Nous vous recommandons de vous référer à un calendrier lors de la création   de afin de spécifier correctement le nombre de semaines et de jours. Excel est doté de plusieurs fonctions intégrées qui permettent de calculer le nombre de jours, de jours ouvrables, de mois et d’années entre les dates. Vous pouvez appliquer ces fonctions dans des formules afin de calculer d’autres intervalles, tels que des semaines et des trimestres.
 
 **Pour activer des expressions personnalisées**
 
-Voici un exemple d&#39;utilisation **[!UICONTROL Rolling Dates]**.
+C&#39;est un exemple d&#39;utilisation **[!UICONTROL Rolling Dates]**.
 
 1. Sur la [!UICONTROL Request Wizard: Step 1], au lieu d’utiliser **[!UICONTROL Preset Dates]**, sélectionnez **[!UICONTROL Rolling Dates]**.
 
@@ -32,8 +32,8 @@ Voici un exemple d&#39;utilisation **[!UICONTROL Rolling Dates]**.
 
    ![](assets/rolldatesfor3.png)
 
-1. Activer **[!UICONTROL Customize Expression]**. En sélectionnant des options sous **[!UICONTROL Rolling Dates]**, vous pouvez facilement voir la syntaxe des expressions de date personnalisées.
+1. Activer **[!UICONTROL Customize Expression]**. En sélectionnant des options sous **[!UICONTROL Rolling Dates]**, vous pouvez facilement voir la syntaxe de la date personnalisée  le .
 
    ![](assets/rolldatesfor5.png)
 
-   Vous pouvez utiliser les options avancées pour combiner et faire correspondre des expressions de date personnalisées. Par exemple, si vous souhaitez afficher les données du premier de l’année jusqu’à la fin du dernier mois complet, vous pouvez saisir les informations suivantes : `From: cy``To: cm-1d`. Dans l’assistant, ces dates s’affichent sous la forme 1/1/2020-1/31/2020.
+   Vous pouvez utiliser les options avancées pour combiner et faire correspondre des dates personnalisées  des . Par exemple, si vous souhaitez afficher les données du premier de l’année jusqu’à la fin du dernier mois complet, vous pouvez saisir les informations suivantes : `From: cy``To: cm-1d`. Dans l’assistant, ces dates s’affichent sous la forme 1/1/2020-1/31/2020.
