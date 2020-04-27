@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Tous les rapports mis en signet et de tableau de bord sont désormais répertoriés en tant que dimensions à l’étape 1 de l’Assistant Requête et peuvent être importés en tant que requêtes du Créateur de rapports.
 
-Lorsque vous sélectionnez un rapport mis en signet, l’Assistant Requête remplit toutes les dimensions et mesures qui définissent ce rapport mis en signet. La plage de dates, la granularité et le segment sélectionné sont également mis à jour en fonction du signet sélectionné.
+Lorsque vous sélectionnez un rapport mis en signet, l’Assistant Requête remplit toutes les dimensions et mesures qui définissent ce rapport mis en signet. La période, la granularité et le segment sélectionné sont également mis à jour selon le signet choisi..
 
-Voici comment l’étape 1 de l’Assistant Requête affiche un  et ses petits rapports :
+Voici la façon dont l’étape 1 de l’Assistant Requête présente un tableau de bord et ses mini-rapports :
 
 ![](assets/import_dashboard_reportlet.png)
 
@@ -25,7 +25,7 @@ Lorsque vous cliquez **[!UICONTROL Retrieve your Dashboards]** ou **[!UICONTROL 
 
 >[!NOTE] Seules les données sont importées. En conséquence, si le signet comporte un graphique, ou si le mini-rapport de tableau de bord n’est composé que d’un seul graphique, seules les données utilisées pour remplir le graphique sont importées.
 
-Une fois que vous avez créé une requête en important un mini-rapport  (ou un signet), la requête est alors associée à la dimension principale du mini-rapport (ou du signet). Par conséquent, si vous modifiez la requête, l’arborescence  ne sélectionne plus le noeud de l’arborescence du petit rapport  (ou noeud de signet), le noeud  (ou noeud de signet) : il sélectionne plutôt sa dimension principale.
+Une fois que vous avez créé une requête en important un mini-rapport de tableau de bord (ou un signet), la requête est alors associée à la dimension principale du mini-rapport (ou signet). En conséquence, si vous modifiez la requête, l’arborescence ne sélectionne plus le nœud d’arborescence du mini-rapport de tableau de bord (ou nœud du signet) mais la dimension principale.
 
 Le signet d’applet importé va définir correctement la suite de rapports, le segment sélectionné, la dimension et les mesures sélectionnées sur les mêmes paramètres que ceux du signet des Reports &amp; Analytics.
 
