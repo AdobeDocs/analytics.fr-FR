@@ -4,7 +4,7 @@ subtopic: Get started
 title: Prise en main de Reports & Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -56,14 +56,14 @@ Procédure décrivant comment se connecter avec Adobe Experience Cloud.
 
 1. Ouvrez un navigateur sur un ordinateur connecté à Internet.
 1. Accédez à [!DNL https://login.experiencecloud.adobe.com/].
-1. Sur la page [!UICONTROL Se connecter], cliquez sur **[!UICONTROL Connexion unique]**.
-1. Renseignez les informations suivantes, puis cliquez sur **[!UICONTROL Se connecter]**.
+1. Sur la [!UICONTROL Sign In] page, cliquez sur **[!UICONTROL Single Sign-On]**.
+1. Complete the following information, then click **[!UICONTROL Sign In]**.
 
-   **[!UICONTROL Société]** : précisez le nom de l’entreprise.
+   **[!UICONTROL Company]**: Spécifiez l’ID  du.
 
-   **[!UICONTROL Nom d’utilisateur]** : précisez votre identifiant de compte. 
+   **[!UICONTROL Username]**: Indiquez votre ID de compte.
 
-   **[!UICONTROL Mot de passe]** : précisez le mot de passe de votre compte. 
+   **[!UICONTROL Password]**: Indiquez le mot de passe de votre compte.
 1. Depuis la page d’accueil Experience Cloud, allez dans **Analytics > Rapports**.
 
    Experience Cloud vous déconnecte automatiquement après 30 minutes d’inactivité.
@@ -72,11 +72,11 @@ Procédure décrivant comment se connecter avec Adobe Experience Cloud.
 
 Cette section décrit la procédure à suivre pour générer un rapport.
 
-1. Ouvrez une session dans [!UICONTROL Reports &amp; Analytics].
+1. Log in to [!UICONTROL Reports & Analytics].
 
    Le menu Rapports s’affiche ou un [tableau de bord](/help/analyze/reports-analytics/dashboard.md) s’affiche si vous en avez configuré un.
 
-1. Cliquez sur **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]** (par exemple).
+1. Cliquez sur **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** (par exemple).
 
    ![](assets/pages_report.png)
 
@@ -88,9 +88,9 @@ Informations concernant la modification des comptes utilisateur, la réinitialis
 
 Vous pouvez afficher et modifier les coordonnées, définir un mot de passe, afficher les informations sur les services web et exclure cet ordinateur de la collecte de données.
 
-Cliquez sur l’icône Compte ![](assets/account.png)en haut à droite, puis cliquez sur l’icône **[!UICONTROL Paramètres du compte]** (en forme de rouage) près de votre nom d’utilisateur.
+Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
 
-Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte]. Les informations suivantes peuvent être modifiées ou affichées :
+All users have access to the [!UICONTROL Account Information] page. Les informations suivantes peuvent être modifiées ou affichées :
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -130,7 +130,7 @@ Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte].
 
 Cette section décrit la procédure à suivre pour modifier la langue de l’interface. Vous pouvez afficher l’interface de Reports &amp; Analytics dans la langue de votre choix.
 
-1. Connectez-vous à Analytics, puis sélectionnez l’onglet **[!UICONTROL Rapports]**.
-1. Dans le pied de page, cliquez sur la langue active dans le menu **[!UICONTROL Langue]**, puis sélectionnez votre langue préférée.
+1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
+1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
 
-Vous pouvez y accéder, ainsi qu’à la page d’accueil, depuis Adobe Experience Cloud. (**[!UICONTROL Aide]** > **[!UICONTROL Page d’accueil de l’aide]**.)
+Vous pouvez y accéder, ainsi qu’à la page d’accueil, depuis Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
