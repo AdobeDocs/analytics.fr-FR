@@ -3,7 +3,7 @@ description: Les cibles vous permettent de mesurer les performances de votre sit
 title: Cibles
 topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,9 +23,9 @@ Par exemple, il est possible de mesurer le nombre de visiteurs uniques de votre 
 
 ## Description des champs de cible  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Cibles]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
 
-Vous trouverez ci-dessous une description des champs et des options de la page [!UICONTROL Ajouter/modifier une cible].
+Description des champs et options de la [!UICONTROL Add/Edit Target] page.
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -72,14 +72,14 @@ t_add_a_target.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Cibles]**.
-1. Sur la page [!UICONTROL Gestionnaire des cibles], cliquez sur **[!UICONTROL Ajouter nouveau]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+1. Sur la [!UICONTROL Target Manager] page, cliquez sur **[!UICONTROL Add New]**.
 1. Configurez les options décrites dans la section [Description des champs de cible](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Cliquez sur **[!UICONTROL OK]**.
 
 ## Modification d’une cible {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Cibles]**.
-1. Dans la colonne **[!UICONTROL Gérer]**, cliquez sur l’icône **[!UICONTROL Modifier]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
 1. Configurez les options décrites dans la section [Description des champs de cible](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Cliquez sur **[!UICONTROL OK]**.
