@@ -2,7 +2,7 @@
 description: La fonctionnalité Modifier les mesures de plusieurs demandes vous permet d’ajouter, de supprimer ou de remplacer facilement des mesures dans des demandes préexistantes ou parmi un groupe de demandes.
 title: Modification des mesures de plusieurs demandes
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
@@ -17,14 +17,14 @@ La fonctionnalité Modifier les mesures de plusieurs demandes vous permet d’aj
 Gardez à l’esprit que :
 
 * Les mesures peuvent uniquement être ajoutées à des demandes de type Disposition croisée dynamique. Si certaines des demandes sélectionnées sont de type Disposition personnalisée, les mesures ne peuvent pas être ajoutées. En effet, la disposition étant personnalisée, le Report Builder ne sait pas où placer la nouvelle mesure dans la feuille de calcul.
-* Par conséquent, si vous avez uniquement sélectionné demandes de type Disposition personnalisée, l’option **[!UICONTROL Ajouter des mesures]** n’est pas disponible.
+* Accordingly, if you have selected only Custom Layout requests, the **[!UICONTROL Add Metric/s]** option is not available.
 * L’ajout de mesures augmente la taille de la demande, si bien qu’elle risque d’en chevaucher une autre. Assurez-vous que la demande dispose de suffisamment d’espace pour permettre l’ajout de mesures.
 * Si la mesure ajoutée est déjà présente dans l’une des demandes sélectionnées, elle n’est pas ajoutée à celle-ci.
 
 Pour ajouter une ou plusieurs mesures :
 
-1. Sélectionnez une ou plusieurs demandes dans Excel et cliquez avec le bouton droit pour sélectionner **[!UICONTROL Modifier les mesures]**. (Ou cliquez sur **[!UICONTROL Gérer]** > **[!UICONTROL Modifier plusieurs]** > `<choose metric>` > **[!UICONTROL Modifier le groupe]** pour sélectionner le groupe de demandes à modifier.)
-1. Sélectionnez **[!UICONTROL Ajouter des mesures]** et sélectionnez les mesures à ajouter.
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Ou cliquez sur **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** pour sélectionner le groupe de requêtes à modifier.)
+1. Sélectionnez **[!UICONTROL Add Metric(s)]**et sélectionnez les mesures à ajouter.
 
    ![](assets/add_metric.png)
 
@@ -45,9 +45,9 @@ Gardez à l’esprit que :
 
 Pour remplacer une mesure
 
-1. Sélectionnez une ou plusieurs demandes dans Excel et cliquez avec le bouton droit pour sélectionner **[!UICONTROL Modifier les mesures]**. (Ou cliquez sur **[!UICONTROL Gérer]** > **[!UICONTROL Modifier plusieurs]** > **`<choose metric>`** > **[!UICONTROL Modifier le groupe]** pour sélectionner le groupe de demandes à modifier.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Ou cliquez sur **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** pour sélectionner le groupe de requêtes à modifier.)
 
-1. Sélectionnez **[!UICONTROL Remplacer la mesure]**.
+1. Select **[!UICONTROL Replace Metric]**.
 
    ![](assets/replace_metric.png)
 
@@ -65,9 +65,9 @@ Gardez à l’esprit que :
 
 Pour supprimer des mesures :
 
-1. Sélectionnez une ou plusieurs demandes dans Excel et cliquez avec le bouton droit pour sélectionner **[!UICONTROL Modifier les mesures]**. (Ou cliquez sur **[!UICONTROL Gérer]** > **[!UICONTROL Modifier plusieurs]** > **`<choose metric>`** > **[!UICONTROL Modifier le groupe]** pour sélectionner le groupe de demandes à modifier.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Ou cliquez sur **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** pour sélectionner le groupe de requêtes à modifier.)
 
-1. Sélectionnez **[!UICONTROL Supprimer des mesures]**.
+1. Select **[!UICONTROL Remove Metric(s)]**.
 
    ![](assets/remove_metric.png)
 
