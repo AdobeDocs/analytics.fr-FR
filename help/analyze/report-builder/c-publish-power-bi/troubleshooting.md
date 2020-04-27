@@ -2,7 +2,7 @@
 description: Voici quelques-unes des difficultés courantes qui peuvent survenir lors de l’utilisation du Report Builder avec Power BI.
 title: Dépannage de l’intégration de Power BI
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
