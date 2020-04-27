@@ -2,26 +2,26 @@
 title: 'Dériver les données affectées par les '
 description: Utilisez les mesures calculées pour corriger les données de tendance affectées par un .
 translation-type: tm+mt
-source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
+source-git-commit: 8d1a67f0c05afb66b6a961059101f5c889b52790
 
 ---
 
 
 # Dériver les données affectées par les 
 
-Si des données sont [affectées par une](/help/technotes/event-impacted.md), vous pouvez utiliser des mesures calculées pour dériver des valeurs de tendance pour la durée du . Si, par exemple, vous avez eu un  qui a provoqué une baisse de 25 % des données, vous pouvez l’utiliser comme multiplicateur dans une mesure calculée. Cette méthode est utile si vous ne disposez pas du temps ni des ressources nécessaires pour insérer des données dans Adobe Analytics à l’aide de sources [de](/help/import/c-data-sources/datasrc-home.md) données ou de l’API [d’insertion de](/help/import/c-data-insertion-api/c-data-insertion-api.md)données.
+Si des données sont [affectées par une](/help/technotes/event-impacted.md), vous pouvez utiliser des mesures calculées pour dériver des valeurs de tendance pour la durée du . Si, par exemple, vous avez eu un  qui a provoqué une baisse de 25 % des données, vous pouvez l’utiliser comme multiplicateur dans une mesure calculée.
 
 >[!NOTE] Ces étapes fonctionnent mieux lorsque vous comprenez l’impact d’un , à la fois du point de vue de la segmentation et de la comparaison de dates. Veillez à suivre la [comparaison des dates affectées par un aux plages](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) précédentes et à [exclure des dates spécifiques dans](../c-segmentation/use-cases/exclude-date-range.md) avant de suivre cette page.
 
 1. Créez deux segments pour &quot;Jours affectés&quot; et &quot;Exclure les jours affectés&quot;, comme indiqué dans la section [Exclure des dates spécifiques dans ](../c-segmentation/use-cases/exclude-date-range.md)du.
-2. Accédez à **[!UICONTROL Composants]** > Mesures **** calculées.
-3. Cliquez sur **[!UICONTROL Ajouter]**.
+2. Accédez à **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**.
+3. Cliquez sur **[!UICONTROL Add]**.
 4. Faites glisser les deux segments ci-dessus vers le canevas de définition. Modifiez l’opérateur entre eux sur un `+` pour les additionner.
 5. Ajouter la mesure souhaitée dans les deux segments. Par exemple, vous pouvez utiliser la mesure Visites.
 
    ![Créateur de segments](assets/event_segment_builder.png)
 
-6. Cliquez sur **[!UICONTROL Ajouter]** dans l’angle supérieur droit du &quot;Jours affectés&quot;, puis sur Nombre **** statique. Définissez le nombre statique sur le pourcentage de décalage de vos données, comme indiqué sous [Comparer les dates affectées par un aux plages](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)précédentes. Dans cet exemple, le décalage est de 25 %, soit 1,25.
+6. Cliquez **[!UICONTROL Add]** dans l&#39;angle supérieur droit du  &quot;Jours affectés&quot;, puis cliquez sur **[!UICONTROL Static number]**. Définissez le nombre statique sur le pourcentage de décalage de vos données, comme indiqué sous [Comparer les dates affectées par un aux plages](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)précédentes. Dans cet exemple, le décalage est de 25 %, soit 1,25.
 
    ![Nombre statique](assets/event_static_number.png)
 
