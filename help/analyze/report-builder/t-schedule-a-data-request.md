@@ -43,14 +43,14 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 | Champ | Description |
 |--- |--- |
-| Sélectionner le rapport | Nom du classeur. Pour les nouveaux rapports planifiés, ce champ est rempli avec le nom du classeur actif. |
-| Sélectionner | Affiche la page Sélectionner le rapport. Vous pouvez sélectionner un rapport sur le serveur (où sont stockés tous les classeurs déjà programmés) ou sur votre machine locale. Si vous sélectionnez un classeur sur le disque local au format .xls, le système convertit le fichier au format .xlsx. Dans le cadre de cette conversion, le fichier est ouvert dans Excel et rendu actif. Si le classeur sélectionné pour le rapport planifié porte le même nom de fichier que le classeur actuellement ouvert dans Excel, le système sélectionne le fichier local au lieu du fichier précédemment téléchargé. Si vous sélectionnez un rapport dans le référentiel de planification, une copie du classeur est créée sur le serveur (le chiffre 1 est ajouté à son nom de fichier). Le nouveau rapport planifié utilise le classeur copié. |
-| Personnaliser | Permet de personnaliser le format de date. |
-| À | Affiche votre carnet d&#39;adresses Outlook, le cas échéant. |
-| Envoyer à : Courriel | Adresse électronique du destinataire du classeur. |
-| Envoyer à :  de publication | Affiche un  de de distribution disponible  pour ce. |
-| Power BI | Voir [Publier le classeur sur Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) pour plus d’informations. |
-| Sujet | Description définie par l’utilisateur. |
+| Sélectionner le rapport | Nom du classeur. Dans le cas des nouveaux rapports programmés, ce champ contient le nom du classeur actif. |
+| Sélectionner | Affiche la page Sélectionner le rapport. Vous pouvez sélectionner un rapport sur le serveur (où sont stockés tous les classeurs déjà programmés) ou sur votre machine locale. Si vous sélectionnez un classeur sur le disque local au format .xls, le système convertit le fichier au format .xlsx. Dans le cadre de cette conversion, le fichier est ouvert dans Excel et rendu actif. Si le classeur sélectionné pour le rapport planifié porte le même nom de fichier que celui ouvert actuellement dans Excel, le système sélectionne le fichier local au lieu de celui transféré précédemment. Si vous sélectionnez un rapport dans le référentiel de planification, une copie du classeur est créée sur le serveur (le chiffre 1 est ajouté à son nom de fichier). Le nouveau rapport planifié utilise le classeur copié. |
+| Personnaliser | Vous permet de personnaliser le format de date. |
+| À | Affiche le Carnet d’adresses Outlook, le cas échéant. |
+| Envoyer à : Courriel | Adresse électronique du destinataire du classeur. |
+| Envoyer à : Liste de publication | Répertorie les listes de distribution disponibles pour cette société. |
+| Power BI | Voir [Publier le classeur sur Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) pour en savoir plus. |
+| Objet | Description définie par l’utilisateur. |
 | Planification | Vous permet d’indiquer le moment où le classeur doit être envoyé (Immédiatement, Horaire, Quotidiennement, Hebdomadairement, Mensuellement et Annuellement). |
 
 ## Options de remise avancées
@@ -60,19 +60,19 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Champ | Description |
 |--- |--- |
 | Onglet **Planification** |  |
-| Heure de remise | Cette option permet d’envoyer immédiatement le classeur ou de planifier une remise différée. L’heure dépend du fuseau horaire défini sur votre ordinateur. |
+| Heure de remise | Cette option permet d’envoyer immédiatement le classeur ou de planifier une remise différée. L’heure indiquée est fonction du fuseau horaire défini sur votre ordinateur. |
 | Modèle de répétition | Le classeur est envoyé sur la base des options sélectionnées. |
 | Plage de répétition | Vous permet d’indiquer les heures de début et de fin de réception du classeur.   Remarque : si vous planifiez un classeur le premier jour d’une période en cours (semaine, mois, trimestre ou année), le système renverra uniquement les données relatives à ce jour. |
 | Onglet **Options de fichier** |  |
 | Format du fichier | Permet de sélectionner le format de remise : Excel 2007 (.xlsx) ou 2003 (.xls), .pdf, .csv, .mht, .txt et .xml. |
-| Destination du fichier | Indique Courriel ou FTP. Les options de la page changent en fonction de votre sélection. Pour FTP, vous devez vous assurer que l’hôte est disponible en externe. |
+| Description du fichier | Précise E-mail ou FTP. Les options disponibles sur cette page varient en fonction de la sélection. Dans le cas de FTP, vous devez vous assurer que l’hôte est disponible en externe. |
 | Liste de publication | Si vous envoyez le classeur planifié à plusieurs listes de publication, il s’exécute une fois pour chaque liste. Les suites de rapports variables sont remplacées par celle qui est affectée à la liste de publication. |
-| Langue du contenu du fichier | Indique la langue que vous souhaitez utiliser pour la lettre d’envoi. Vous pouvez sélectionner chinois (simplifié ou traditionnel), allemand, français, japonais, coréen, portugais brésilien ou espagnol. |
+| Langue du contenu du fichier | Indique la langue que vous souhaitez utiliser pour la lettre d’envoi. Vous avez le choix entre l’allemand, le portugais (du Brésil), le chinois (simplifié ou traditionnel), le coréen, l’espagnol, le français ou le japonais. |
 | Onglet **Options de publication** |  |
 | Publication sur Power BI | <ul><li>Publier le classeur sur Power BI</li><li>Publier toutes les requêtes du Report Builder sous forme de jeux de données Power BI</li><li>Publier tous les tableaux formatés sous forme de jeux de données Power BI</li></ul> |
-| Nommer ce rapport Power BI comme | Détails de l’étiquette |
+| Intituler ce rapport Power BI par | Informations d’intitulé |
 
-1. Cliquez sur **[!UICONTROL OK]**, puis sur **[!UICONTROL Exit]**.
+1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
    Le Report Builder affiche le classeur planifié dans le [Gestionnaire de tâches planifiées](/help/analyze/report-builder/r-arb-scheduled-reports.md).
 
