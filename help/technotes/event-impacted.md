@@ -2,7 +2,7 @@
 title: 'Analyser les données affectées par les '
 description: Comprenez comment les données affectées par un  contribuent à la qualité globale des données.
 translation-type: tm+mt
-source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
+source-git-commit: 65f5fad547558cc9dc481f0eca72873815c9d13a
 
 ---
 
@@ -38,3 +38,8 @@ Une fois que vous êtes prêt à gérer un  de, vous pouvez [communiquer avec le
 Cette vidéo décrit chacune des étapes ci-dessus.
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**: Exclure des données à l’aide de la segmentation
+* **2:55**: Comparaison d’un  avec des plages précédentes
+* **8:42**: Dériver des données à l’aide de mesures calculées
+* **11:46**: Communiquer l’impact aux utilisateurs
