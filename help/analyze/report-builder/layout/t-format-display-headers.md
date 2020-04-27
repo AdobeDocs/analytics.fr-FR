@@ -3,7 +3,7 @@ description: Vous pouvez attribuer un nom à votre rapport et configurer le mode
 title: Mise en forme des en-têtes d’affichage
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichage des en-têtes de lignes et de colonnes. Le lien Options de format est disponible pour les types Disposition personnalisée et Disposition croisée dynamique.
 
-1. Créez une requête dans la fenêtre [!UICONTROL Assistant Requête : Étape 1].
-1. Cliquez sur **[!UICONTROL Suivant]**.
-1. Sur le formulaire [!UICONTROL Assistant Requête : Étape 2], ajoutez des dimensions et des données de mesure à la requête, suivant vos besoins.
-1. Cliquez sur **[!UICONTROL Options de format]**.
-1. Configurez les options d’[!UICONTROL affichage] :
+1. Créez une requête sur le [!UICONTROL Request Wizard: Step 1].
+1. Cliquez sur **[!UICONTROL Next]**.
+1. On the [!UICONTROL Request Wizard: Step 2] form, add dimensions and metrics data to the request, as desired.
+1. Cliquez sur **[!UICONTROL Format Options]**.
+1. Configure the [!UICONTROL Display] options:
 
    | Élément | Description |
    |--- |--- |
@@ -26,7 +26,7 @@ Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichag
    | Segment | Affiche le paramètre de segment. |
    | récence des données | Affiche les paramètres de récence des données. Par exemple :    Récence des données : Pages vues (il y a 1,5 heure), Sorties (il y a 30 minutes)  Voir la section [Options](/help/analyze/report-builder/options.md) pour plus d’informations sur le traitement des données actives. |
 
-   En ce qui concerne l’ordre d’affichage, si la grille [!UICONTROL Libellé de ligne] (Étape 2) contient un élément, il s’affiche en premier dans la requête. Dans le cas contraire, le système utilise le premier élément présent dans la grille [!UICONTROL Libellé de colonne]. S’il n’existe aucun élément de ligne ou de colonne, le premier élément de la grille [!UICONTROL Valeurs de mesure] est affiché.
+   Regarding display order, if the [!UICONTROL Row Label] grid (on Step 2) contains an item, it is displayed first in the request. If not, the system uses the first item present in the [!UICONTROL Column Label] grid. If no row or column items exist, the first item in the [!UICONTROL Metrics] grid is displayed.
 
    **Afficher les en-têtes des lignes et des colonnes** : ajoute une ligne et une colonne pour afficher ces éléments.
 
@@ -40,6 +40,6 @@ Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichag
 
    **Effectuer un synopsis automatique** : transforme la date renvoyée par le Créateur de rapports du mode Liste en mode Arborescence.
 
-   **Donnez un nom à cette requête** : permet de saisir un nom personnalisé pour la requête ou d’utiliser le nom par défaut sélectionné à l’étape 1 de l’Assistant. Ce nom s’affiche comme nom de [!UICONTROL rapport] dans le [!UICONTROL Gestionnaire de requêtes]. Reportez-vous à la section [Nommer une requête](/help/analyze/report-builder/layout/name-a-request.md).
+   **Donnez un nom à cette requête** : permet de saisir un nom personnalisé pour la requête ou d’utiliser le nom par défaut sélectionné à l’étape 1 de l’Assistant. Ce nom apparaît comme [!UICONTROL Report] nom dans la [!UICONTROL Request Manager]. See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Cliquez sur **[!UICONTROL OK]**.
