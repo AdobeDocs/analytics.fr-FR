@@ -3,7 +3,7 @@ description: Paramètres qui définissent la manière dont tous les rapports app
 title: Paramètres d’affichage des rapports et navigation
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Paramètres qui définissent la manière dont tous les rapports apparaissent et 
 
 ## Paramètres d’affichage des rapports et navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Paramètres de rapport]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
 
 <!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
@@ -80,7 +80,7 @@ Si vous êtes habitué au menu par défaut, le tableau suivant facilite la reche
 |  | Pages introuvables | Navigation > Pages introuvables |
 | **Mobile** |  |  |
 |  | Périphériques | Audience > Mobile > Périphériques |
-|  | Type de périphérique | Audience > Mobile > Type de périphérique |
+|  | Device Type (Type de périphérique) | Audience > Mobile > Type de périphérique |
 |  | Fabricant | Audience > Mobile > Fabricant |
 |  | Taille d’écran | Audience > Mobile > Taille d’écran |
 |  | Hauteur d’écran | Audience > Mobile > Hauteur d’écran |
@@ -135,15 +135,15 @@ Si vous êtes habitué au menu par défaut, le tableau suivant facilite la reche
 | **Trafic personnalisé** |  |  |
 |  | Trafic personnalisé 1-10 | Contenu > Trafic personnalisé > Trafic personnalisé 1-10 |
 | **Test&amp;Target** |  | Conversion > Test&amp;Target |
-| **Survey** |  | Audience > Survey |
+| **Enquête** |  | Audience > Survey |
 | **Canaux marketing** |  |  |
 |  | Rapport Aperçu d’un canal | Sources de trafic > Canaux marketing > Rapport Aperçu d’un canal |
 |  | Canal Première touche | Sources de trafic > Canaux marketing > Canal Première touche |
 |  | Détails du canal Première touche | Sources de trafic > Canaux marketing > Détails du canal Première touche |
 |  | Canal Dernière touche | Sources de trafic > Canaux marketing > Canal Dernière touche |
 |  | Détails du canal Dernière touche | Sources de trafic > Canaux marketing > Détails du canal Dernière touche |
-| **Applications mobiles** |  |  |
-|  | Présentation des applications mobiles | Contenu > Application mobile > Présentation des applications mobiles |
+| **Application mobile** |  |  |
+|  | Présentation de l’application mobile | Contenu > Application mobile > Présentation des applications mobiles |
 |  | Rapports du cycle de vie | Contenu > Application mobile > Rapports du cycle de vie |
 | **Rapports personnalisés** |  |  |
 |  | Les rapports personnalisés n’affichent que ce que vous avez configuré. | Rapports personnalisés |
