@@ -3,7 +3,7 @@ description: Vous pouvez copier une feuille de calcul entière d’un classeur s
 title: Copie de requêtes et de feuilles de calcul entre des classeurs
 topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,8 +14,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Vous pouvez copier une feuille de calcul entière d’un classeur source dans une feuille de calcul d’un ou de plusieurs classeurs cibles.
 
 Pour ce faire, au moins deux classeurs doivent être ouverts dans la même instance d’Excel : le premier classeur source contient une feuille de calcul avec les requêtes en correspondance avec les cellules, tandis que les classeurs cibles supplémentaires sont les destinations. Pour chaque nouveau classeur cible, vous devez vous connecter à la même suite de rapports que le classeur source avant de pouvoir coller les feuilles de calcul contenant les requêtes.
-1. Cliquez avec le bouton droit sur la feuille de calcul dans le classeur source, puis sélectionnez **[!UICONTROL Copier la feuille de calcul avec les requêtes]**.
-1. Cliquez avec le bouton droit sur la feuille de calcul dans le classeur de destination, puis sélectionnez **[!UICONTROL Coller la feuille de calcul avec les requêtes]**.
+1. Cliquez avec le bouton droit sur la feuille de calcul dans le classeur source et sélectionnez **[!UICONTROL Copy Worksheet w/Requests]**.
+1. Dans le classeur de destination, cliquez avec le bouton droit sur la feuille de calcul et sélectionnez **[!UICONTROL Paste Worksheet w/Requests]**.
 
    La même instance d’Excel signifie qu’un seul processus Excel ([!DNL excel.exe]) est en cours d’exécution sur l’ordinateur. Si deux instances d’Excel sont en cours d’exécution et que vous tentez de copier une feuille de calcul d’un classeur de la première instance dans un classeur de la deuxième instance, l’option de collage d’une feuille de calcul du Créateur de rapports n’apparaît pas dans le menu contextuel de la deuxième instance d’Excel.
 
