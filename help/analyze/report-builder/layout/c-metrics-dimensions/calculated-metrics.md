@@ -14,25 +14,25 @@ La version 5.2 du Report Builder prend en charge les mesures calculées unifié
 
 >[!NOTE] Il est possible que les classeurs existants pointent vers des demandes avec des identifiants de mesure hérités. Lorsque vous utilisez la version 5.2 du Report Builder, ces identifiants de mesure hérités sont convertis en nouvel identifiant global. Si vous partagez ce classeur avec un utilisateur de la version 5.1 ou antérieure du Report Builder, il ne verra pas les mesures calculées.
 
-Pour en savoir plus sur la création et la gestion des mesures calculées à l’aide du nouveau créateur et gestionnaire de mesures calculées, consultez le Guide des mesures [](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics) calculées.
+Pour en savoir plus sur la manière de créer et de gérer des mesures calculées à l’aide du nouveau créateur et gestionnaire de mesures calculées, reportez-vous au guide des [mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics).
 
-A l’étape 2 de l’Assistant Requête, vous pouvez filtrer et appliquer des mesures calculées.
+À la deuxième étape de l’Assistant Requête, vous pouvez filtrer et appliquer les mesures calculées.
 
 ## Filtrage des mesures calculées {#section_376E986D3E684999A7CDB08E53854159}
 
 **Filtrez** les mesures calculées en cliquant sur l’icône Filtrer :  ![](assets/segment_filter.png)
 
-. La boîte de dialogue  avancé est renseignée avec des mesures standard et calculées.
+. La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
 
- de disponibles :
+Les filtres disponibles incluent :
 
 ![](assets/advanced_filters.png)
 
 | Nom du filtre | Description |
 |---|---|
-| Balises | Permet de filtrer les mesures calculées à l’aide de balises spécifiques. Notez que le de balises  utilise l’opérateur ET. Si vous cochez deux balises, le volet de droite affiche les mesures qui ont été balisées avec les **deux** balises. |
+| Balises | Permet de filtrer les mesures calculées selon des balises spécifiques. Notez que les filtres de type balise utilisent l’opérateur ET. Si vous cochez deux balises, le panneau de droite répertorie les mesures qui ont été marquées avec **les deux** balises. |
 | Suites de rapports | Si vous appliquez le filtre « Uniquement le *nom de la suite de rapports* » dans le Créateur de mesures calculées dans [!DNL Reports & Analytics], puis affichez le filtre avancé dans [!DNL Report Builder], le filtre avancé affiche uniquement les mesures calculées correspondant à la suite de rapports sélectionnée. |
-| Propriétaires | Permet de filtrer les mesures par propriétaire. Notez que les propriétaires  utilisent l’opérateur OU. Si vous cochez deux propriétaires, le volet de droite affiche les mesures détenues par **l’un ou l’autre** des propriétaires. |
+| Propriétaires | Permet de filtrer les mesures par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OU. Si vous cochez deux propriétaires, le panneau de droite répertorie les mesures détenues par **n’importe quel** propriétaire. |
 | Autres filtres > Approuvés | Affiche toutes les mesures officiellement approuvées. |
 | Autres filtres > Favoris | Affiche toutes les mesures que vous avez marquées comme Favoris. |
 | Autres filtres > À moi | Affiche toutes les mesures que vous possédez. |
@@ -40,7 +40,7 @@ A l’étape 2 de l’Assistant Requête, vous pouvez filtrer et appliquer des m
 
 ## Appliquer les mesures calculées {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-After you have selected the filters, click **[!UICONTROL Apply]** to apply them to your request. Les mesures sélectionnées sont maintenant ajoutées à la disposition du rapport.
+After you have selected the filters, click **[!UICONTROL Apply]** to apply them to your request. Les mesures sélectionnées sont maintenant ajoutées à la disposition des rapports.
 
 ![](assets/filtering_for_metric.png)
 
