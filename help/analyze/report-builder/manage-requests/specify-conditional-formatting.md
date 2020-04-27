@@ -13,11 +13,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Après avoir créé des rapports avec des requêtes intégrées, vous pouvez appliquer aux cellules du classeur une mise en forme conditionnelle.
 
-On the report builder Toolbar, click **[!UICONTROL Format]**.
+Dans la barre d’outils du Créateur de rapports, cliquez sur **[!UICONTROL Format]**.
 
-La mise en forme conditionnelle vous permet d’identifier les cellules qui contiennent des résultats ou des valeurs à surveiller. Par exemple, vous pouvez appliquer un ombrage rouge (ou une mise en surbrillance) à une cellule spécifique si les recettes sont inférieures aux attentes et un ombrage bleu si les recettes dépassent les montants prévus. Si une modification des plages de dates pour les requêtes supprime les conditions qui provoquent l’application d’une mise en forme conditionnelle aux valeurs de cellule, les formats qui mettent cette condition en surbrillance sont temporairement désactivés. Bien que les formats conditionnels que vous spécifiez ne modifient pas l’affichage du format de cellule, car aucune condition n’est remplie, ils continuent à être appliqués aux cellules jusqu’à ce que vous les supprimiez.
+La mise en forme conditionnelle vous permet d’identifier les cellules qui contiennent des résultats ou des valeurs à surveiller. Vous pouvez, par exemple, appliquer à une cellule particulière un ombrage (ou un surlignage) rouge si les recettes sont inférieures aux prévisions et un ombrage bleu si les recettes excèdent les prévisions. Si une modification des plages de dates des requêtes élimine les conditions à l’origine de la mise en forme conditionnelle à appliquer aux valeurs des cellules, les formats qui mettent en évidence cette condition sont temporairement désactivés. Même si les formats conditionnels que vous définissez ne modifient pas l’affichage du format des cellules lorsqu’aucune condition n’est remplie, ils continuent de s’appliquer aux cellules jusqu’à ce que vous les supprimiez.
 
-Pour des raisons de sécurité, les macros que vous écrivez pour le classeur à l’aide du langage Visual Basic pour Applications (VBA) d’Excel sont désactivées.
+Pour des raisons de sécurité, les macros que vous créez pour le classeur à l’aide du langage VBA (Visual Basic pour Applications) d’Excel sont désactivées.
 
 >[!NOTE] La mise en forme conditionnelle est une fonction d’Excel. Consultez la documentation d’Excel pour en savoir plus sur la création de règles de mise en forme.
 
