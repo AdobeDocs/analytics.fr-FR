@@ -3,7 +3,7 @@ description: 'Il convient de prendre en compte deux facteurs importants lorsque 
 title: Considérations sur les dates personnalisées
 topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,13 +18,13 @@ Il convient de prendre en compte deux facteurs importants lorsque vous définiss
 
 La disponibilité des données dépend de la période du rapport et de la date à laquelle vous actualisez les requêtes du rapport. Veillez, par conséquent, à exécuter le rapport le jour approprié afin d’extraire les informations souhaitées. Les exemples ci-dessous illustrent ces deux considérations.
 
-Supposons que vous exécutiez une requête pour [!UICONTROL Pages vues] avec la granularité Agrégé. En Amérique du Nord, la semaine commence le dimanche. Afin d’obtenir des rapports à jour pour la période du dimanche au samedi (par exemple, du 23 novembre au 29 novembre 2008), exécutez le rapport (actualisez les requêtes) le dimanche (30 novembre) pour la semaine précédente (23/11 au 29/11).
+Assume you make a request for [!UICONTROL Page Views] using Aggregated granularity. En Amérique du Nord, la semaine commence le dimanche. Afin d’obtenir des rapports à jour pour la période du dimanche au samedi (par exemple, du 23 novembre au 29 novembre 2008), exécutez le rapport (actualisez les requêtes) le dimanche (30 novembre) pour la semaine précédente (23/11 au 29/11).
 
 Utilisez cette expression personnalisée :
 
 *Du :* cw-1w *Au :* cw-1d
 
-Analyse de l’expression personnalisée lorsque la [!UICONTROL Date de fin] incluse de la requête est le 30/11 :
+An analysis of the customize expression when the inclusive [!UICONTROL End Date] for the request is 11/30:
 
 *Du :* cw-1w
 
@@ -34,11 +34,11 @@ jour de la semaine en cours commençant le dimanche 30 novembre moins sept jou
 
 jour de la semaine en cours commençant le dimanche 30 novembre moins un jour = samedi 29 novembre
 
-Une fois l’expression personnalisée mise en correspondance avec la feuille de calcul, actualisez la requête en utilisant le dimanche 30 novembre 2008 comme [!UICONTROL Date de fin] incluse pour la requête flottante. Les données se rapportent à une période d’une semaine.
+After the customized expression is mapped to the spreadsheet, refresh the request using Sunday, November 30, 2008 as the inclusive [!UICONTROL End Date] for the floating request. Les données se rapportent à une période d’une semaine.
 
-Si, au contraire vous actualisez l’expression et précisez samedi 29 novembre comme [!UICONTROL Date de fin] pour la requête flottante, les données se rapportent à la semaine du 16/11 au 22/11. Cela est dû au fait que la date de référence pour l’actualisation de la requête tombe un jour plus tôt.
+Si, au lieu de cela, vous actualisez le   et spécifiez samedi 29 novembre comme date [!UICONTROL End Date] de la requête flottante, les données reflètent la semaine du 16/11 au 22/11. En effet, la date de référence de l’actualisation de la requête est un jour plus tôt.
 
-Voici les différences quand la [!UICONTROL Date de fin] incluse de la requête est le 29/11 :
+Here are the differences when the inclusive [!UICONTROL End Date] for the request is 11/29:
 
 *Du :* cw-1w
 
