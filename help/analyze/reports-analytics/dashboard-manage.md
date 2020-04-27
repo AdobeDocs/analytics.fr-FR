@@ -24,17 +24,17 @@ Utilisez le Gestionnaire de tableaux de bord pour copier, partager, archiver et 
 
 Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 
-| Elément | Description |
+| Élément | Description |
 |--- |--- |
-| Partagé | Indique si le  est partagé. |
-| Planifié | Vous permet de programmer le  pour les  de. |
+| Partagé | Indique si le tableau de bord est partagé. |
+| Planifié | Permet de programmer la remise du tableau de bord. |
 | Afficher l’archive | Cette fonctionnalité n’est plus disponible. |
-| Envoyer aux utilisateurs | Vous permet de partager un . |
-| Gérer | Permet de modifier, copier et supprimer un  de. |
+| Envoyer aux utilisateurs | Permet de partager un tableau de bord. |
+| Gérer | Permet de modifier, de copier et de supprimer un tableau de bord.  |
 
-## Gestion des  partagées
+## Gestion des tableaux de bord partagés
 
-Cette section décrit la procédure à suivre pour utiliser les options de gestion des  partagées.
+Étapes décrivant comment utiliser les options de gestion du tableau de bord partagé.
 
 1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
 1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
@@ -50,11 +50,11 @@ Cette section décrit la procédure à suivre pour utiliser les options de gesti
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Lecteur du tableau de bord</strong></td> 
-  <td class="chdesc stentry"> <p>Les serveurs SiteCatalyst 14 ne répondront plus aux demandes de données du lecteur . Tout actuellement affiché dans  Player est accessible dans l’interface standard des rapports et analyses ou recréé sous la forme d’un  en temps réel. Les  en temps réel sont spécialement conçues pour un affichage en continu et incluent un mode plein écran pour vous permettre d’afficher sur les télévisions ou d’autres périphériques grand écran. </p> <p>Action utilisateur requise : Vous devez cesser d'utiliser  Player. </p> </td> 
+  <td class="chdesc stentry"> <p>Les serveurs SiteCatalyst 14 ne répondront désormais plus aux requêtes de données du lecteur de tableau de bord. Tous les tableaux de bord actuellement affichés dans le lecteur du tableau de bord peuvent être accessibles depuis l’interface Reports &amp; Analytics standard ou recréés en tant que tableaux de bord en temps réel. Les tableaux de bord en temps réel ont été spécifiquement conçus pour un affichage en continu et incluent un mode plein écran qui vous permet d’afficher l’écran sur des télévisions ou d’autres périphériques avec un grand écran. </p> <p>Action utilisateur requise : vous devez arrêter l’utilisation du lecteur de tableau de bord. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Mettez-moi en copie</strong></td> 
-  <td class="chdesc stentry"> Ajoute une copie à votre  de  de, en utilisant le même nom que l’original. Toutefois, vous ne pouvez pas voir les mises à jour/modifications effectuées par le propriétaire du . La copie d’un hérité  ouvre un  vierge dans lequel vous pouvez ajouter du contenu hérité. <p>Important : si les utilisateurs partagés de votre tableau de bord ne voient pas les modifications que vous avez apportées au tableau de bord, consultez votre Gestionnaire de tableaux de bord pour savoir si les utilisateurs ont activé l’option <span class="uicontrol">Mettez-moi en copie</span>. Si tel est le cas, ils ne peuvent pas voir les mises à jour ou changements que vous avez apportés. Pour afficher tous les changements ou modifications, les utilisateurs partagés doivent cocher l’option <span class="uicontrol">Au menu</span> dans le Gestionnaire de tableaux de bord. </p> </td> 
+  <td class="chdesc stentry"> Ajoute une copie à la liste des tableaux de bord, en utilisant le même nom que pour l’original. Néanmoins, vous ne pouvez pas afficher les mises à jour/modifications effectuées par le propriétaire du tableau de bord. La copie d’un tableau de bord hérité ouvre un tableau de bord vierge, dans lequel vous pouvez ajouter du contenu hérité. <p>Important : si les utilisateurs partagés de votre tableau de bord ne voient pas les modifications que vous avez apportées au tableau de bord, consultez votre Gestionnaire de tableaux de bord pour savoir si les utilisateurs ont activé l’option <span class="uicontrol">Mettez-moi en copie</span>. Si tel est le cas, ils ne peuvent pas voir les mises à jour ou changements que vous avez apportés. Pour afficher tous les changements ou modifications, les utilisateurs partagés doivent cocher l’option <span class="uicontrol">Au menu</span> dans le Gestionnaire de tableaux de bord. </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Au menu</strong></td> 
@@ -66,28 +66,28 @@ Cette section décrit la procédure à suivre pour utiliser les options de gesti
  </tr> 
 </table>
 
-## Migration d’un hérité 
+## Migration d’un tableau de bord hérité
 
-Les  héritées existantes continueront à être exécutées et vous pourrez toujours les modifier, les télécharger et les planifier ; toutefois, vous ne pouvez plus créer de nouveaux  hérités. Nous vous encourageons vivement à mettre à niveau les hérités existants vers le nouveau format  de.
+Les tableaux de bord hérités existants continueront à être exécutés et vous serez toujours en mesure de les modifier, télécharger et programme. Toutefois, vous ne pourrez plus créer de nouveaux tableaux de bord hérités. Nous vous recommandons fortement de mettre à niveau les tableaux de bord hérités existants vers le format de tableau de bord plus récent.
 
 >[!NOTE] Désormais, nous vous invitons à utiliser les [projets d’Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/) et leurs fonctionnalités de téléchargement et de planification.
 
-Lorsque vous copiez le  de hérité, le système ouvre le hérité pour modification, où vous pouvez ajouter du contenu hérité ou du nouveau contenu. Lorsque vous copiez un hérité, l’original est conservé dans le de l’ de l’ancienne .
+Lorsque vous copiez le tableau de bord hérité, le système l’ouvre pour modification et vous pouvez y ajouter du contenu hérité ou du nouveau contenu. Lorsque vous copiez un tableau de bord hérité, l’original est préservé dans la liste des tableaux de bord hérités.
 
->[!NOTE] L’ajout à un tableau de bord d’un contenu hérité crée un tableau de bord reposant sur la dernière fonctionnalité du tableau de bord. Cependant, le petit rapport hérité peut contenir des données basées sur la plateforme de données précédente.
+>[!NOTE] L’ajout à un tableau de bord d’un contenu hérité crée un tableau de bord reposant sur la dernière fonctionnalité du tableau de bord. Le mini-rapport hérité peut toutefois contenir des données reposant sur la plateforme de données précédentes.
 
-**Pour migrer un hérité version 14.x**
+**Pour migrer un tableau de bord hérité version 14.x**
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
 1. Dans la [!UICONTROL Manage] colonne, sous [!UICONTROL Legacy Dashboards], cliquez sur **[!UICONTROL Copy to New Dashboard]**.
 
-   Le  copié s’ouvre dans l’éditeur de mise en page  du.
+   Le tableau de bord copié s’ouvre dans l’éditeur de présentation des tableaux de bord.
 
-   See [Editing Dashboard and Reportlet Data](/help/analyze/reports-analytics/dashboard.md).
+   Reportez-vous à la section [Modification des données d’un tableau de bord et d’un petit rapport](/help/analyze/reports-analytics/dashboard.md).
 
-## Partage d’un 
+## Partage d’un tableau de bord
 
-Cette section décrit la procédure à suivre par un administrateur pour partager (ou pousser) un vers plusieurs utilisateurs. Lorsque vous poussez le  vers les utilisateurs, le  devient disponible dans le [!UICONTROL Shared Dashboards] menu de l’utilisateur.
+Cette section explique comment un administrateur peut partager (ou pousser) un tableau de bord vers plusieurs utilisateurs. When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
 
 1. Dans la [!UICONTROL Dashboard Manager], recherchez le , puis activez **[!UICONTROL Shared]**.
 1. Cliquez sur **[!UICONTROL Push To Users]**.  ![](assets/push.png)
@@ -97,9 +97,9 @@ Cette section décrit la procédure à suivre par un administrateur pour partage
 
 If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. Si tel est le cas, ils ne peuvent pas voir les mises à jour ou changements que vous avez apportés. To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager.
 
-## Planification d’un  pour les
+## Planification de la remise d’un tableau de bord
 
-Dans la [!UICONTROL Dashboard Manager], vous pouvez voir si un  est planifié pour l’ et modifier la planification. Les options de  de sont identiques aux options de  de rapport.
+In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. Les options de remise du tableau de bord sont identiques aux options de remise d’un rapport.
 
 1. Ouvrez un tableau de bord.
 1. Cliquez sur **[!UICONTROL More]** > **[!UICONTROL Send]**.
@@ -110,11 +110,11 @@ Dans la [!UICONTROL Dashboard Manager], vous pouvez voir si un  est planifié po
 
 >[!NOTE] Cette fonctionnalité ne sera plus disponible en janvier 2020.
 
-Cette section décrit la procédure à suivre pour archiver un envoyé au format PDF. Le système stocke le fichier archivé pendant deux ans ou jusqu’à ce que vous ayez atteint la limite maximale de 4 Go de rapports archivés, selon ce qui survient en premier.
+Cette section décrit comment archiver n’importe quel tableau de bord envoyé en tant que fichier PDF. Le système conserve le fichier archivé pendant deux ans ou jusqu’à ce que vous ayez atteint la limite maximum de 4 Go de rapports archivés, le premier événement à survenir prévalant.
 
 1. Ouvrez un tableau de bord.
 1. Cliquez sur **[!UICONTROL More]** > **[!UICONTROL Send]**.
 1. Dans le [!UICONTROL Email Report] groupe, activez **[!UICONTROL Archive]**.
 1. Specify delivery options, then click **[!UICONTROL Send]**.
 
-   Vous pouvez  archivé  dans le Gestionnaire de  de l’. Vous pouvez également ouvrir un  et cliquer sur **[!UICONTROL More]** > **[!UICONTROL View Archive]**.
+   Vous pouvez afficher les tableaux de bord archivés dans le Gestionnaire de tableaux de bord. Vous pouvez également ouvrir un  et cliquer sur **[!UICONTROL More]** > **[!UICONTROL View Archive]**.
