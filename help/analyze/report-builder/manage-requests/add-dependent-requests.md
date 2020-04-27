@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Une requête dépendante est une requête qui dépend d’une requête existante.
 
-Pour les rapports pour lesquels les ventilations de corrélation sont activées dans le tableau du rapport, vous pouvez examiner de plus près un élément en cliquant avec le bouton droit dans la cellule et en cliquant sur **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
+For reports with correlation breakdowns enabled within the report table, you can take a closer look at an item by right-clicking in the cell and clicking **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
 
 >[!NOTE] Vous pouvez également ajouter une requête de ventilation lors de la création de la requête d’origine. Reportez-vous à la section [Création d’une requête de données](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
