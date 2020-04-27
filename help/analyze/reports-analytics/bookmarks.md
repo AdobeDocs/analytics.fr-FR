@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: Gestionnaire de signets
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Exécutez un rapport, puis cliquez sur **[!UICONTROL Mettre un signet]**.
+1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
        |Nom|Un nom d’utilisateur facile à retenir pour ce signet.|
        |---|---|
@@ -34,7 +34,7 @@ t_bookmarks_creating.xml
    
 ## Gestion des signets {#task_1EE793CB52EA467787817BBD98DEF150}
 
-Une fois les signets du rapport créés, vous pouvez les gérer dans le [!UICONTROL Gestionnaire de signets]. Vous pouvez modifier, supprimer et classer les signets et dossiers à partir d’un seul et même emplacement. 
+After you create report bookmarks, you can manage them in the [!UICONTROL Bookmark Manager]. Vous pouvez modifier, supprimer et classer les signets et dossiers à partir d’un seul et même emplacement. 
 
 <!-- 
 
@@ -42,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Signets]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Bookmarks]**.
 
 **Mes signets**
 
