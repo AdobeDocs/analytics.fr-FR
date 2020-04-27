@@ -20,7 +20,7 @@ Pour les rapports de tendances au fil du temps, vous pouvez afficher les événe
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Cliquez sur **[!UICONTROL Add New]**.
    1. Under **[!UICONTROL Title]**, name the calendar event.
-   1. Spécifiez le **[!UICONTROL Event Date]**.
+   1. Indiquez les **[!UICONTROL Event Date]**.
    1. Choose the **[!UICONTROL Report Suite]** to which this event applies.
    1. (Facultatif) Ajouter n’importe quel **[!UICONTROL Note Text]** pour ce  de.
    1. Sélectionnez une icône et une couleur d’affichage.
@@ -30,7 +30,7 @@ Pour les rapports de tendances au fil du temps, vous pouvez afficher les événe
    1. Cliquez sur **[!UICONTROL Push To Users]**.
    1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. Cliquez sur **[!UICONTROL Save]**.
-   Ainsi, les événements de calendrier sont beaucoup plus faciles à utiliser. Les analystes peuvent désormais forcer un recouvrement sur les rapports de leurs utilisateurs afin de fournir un contexte plus large.
+   Ainsi, les événements de calendrier sont beaucoup plus faciles à utiliser. Les analystes peuvent maintenant forcer un recouvrement sur les rapports des utilisateurs afin de donner plus de contexte.
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. Sous Calendrier des événements partagés, indiquez l’une de ces options :
 
