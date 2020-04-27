@@ -4,7 +4,7 @@ subtopic: Alerts
 title: Alertes
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Grâce aux alertes intelligentes du nouveau système d’alerte d’Adobe Analyt
 * Envoyer des alertes par e-mail ou par SMS, avec des liens pour générer automatiquement les projets Analysis Workspace.
 * Créer des alertes « empilées » qui présentent plusieurs mesures dans une seule alerte.
 
-Pour accéder à ce nouveau système d’alertes, cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Alertes]** dans n’importe quel rapport de Reports &amp; Analytics.
+You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
 Pour en savoir plus, consultez la documentation d’Analysis Workspace à propos des [alertes intelligentes](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/intellligent_alerts.html).
 
@@ -35,21 +35,21 @@ t_add_an_alert.xml
 
  -->
 
-Accédez au nouveau Générateur d’alertes dans le menu **[!UICONTROL Analytics]** > **[!UICONTROL Composants]**. Vous pouvez aussi y accéder depuis des rapports dans Reports &amp; Analytics :
+Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. Vous pouvez aussi y accéder depuis des rapports dans Reports &amp; Analytics :
 
 1. Dans Reports &amp; Analytics, ouvrez le rapport dans lequel définir une alerte.
-1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
+1. Cliquez sur **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 1. Le [nouveau Générateur d’alertes](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/alert-builder.html) s’ouvre.
 
 ## Affichage ou modification des alertes existantes {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Contexte de la tâche
 
-1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**. Le nouveau [Gestionnaire d’alertes](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/alert-manager.html) s’ouvre.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. Le nouveau [Gestionnaire d’alertes](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/alert-manager.html) s’ouvre.
 
 ## Migration des alertes héritées {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
-Certaines des fonctions d’alertes actuelles d’Analytics ne seront pas incluses dans le nouveau Gestionnaire d’alertes, qui sera publié à l’automne 2016 (dans le cadre d’Analysis Workspace). Le tableau suivant répertorie les fonctions d’alerte obsolètes ainsi que certaines fonctions d’alerte qui seront migrées sous une autre forme dans le nouveau Gestionnaire d’alertes.
+Plusieurs fonctions d’alertes d’Analytics existantes ne seront pas incluses dans le nouveau Gestionnaire d’alertes, qui sera publié à l’automne 2016 (dans Analysis Workspace). Le tableau suivant répertorie les fonctions d’alerte obsolètes ainsi que certaines fonctions d’alerte qui seront migrées sous une autre forme dans le nouveau Gestionnaire d’alertes.
 
 <!-- 
 
@@ -110,7 +110,8 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertes mensuelles pour les suites de rapports avec calendrier personnalisé </p> </td> 
-   <td colname="col2"> <p>Seuls les clients qui ont configuré des alertes pour les suites de rapports dont les <a href="https://marketing.adobe.com/resources/help/fr_FR/arb/custom_calendar.html"  >dates de début de mois sont personnalisées</a> (types NRF/National Retail Federation et Calendrier personnalisé) sont concernés. </p> <p>Les suites de rapports reposant sur un calendrier grégorien ou grégorien modifié ne sont pas concernées. Auparavant, ces alertes étaient envoyées le premier jour du mois grégorien (1er janvier, 1er février, etc.). Ceci ne fonctionnera plus avec la nouvelle fonction d’alertes de la détection des anomalies, qui prend en compte les données des mois précédents lors de la détection des anomalies. À l’avenir, nous comptons prendre en charge dans notre système de planification les calendriers personnalisés afin qu’il soit possible de planifier l’envoi des alertes et des projets planifiés le premier jour du mois du calendrier personnalisé, plutôt que simplement le premier jour du mois grégorien. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Seuls les clients qui ont configuré des alertes pour les suites de rapports dont les <a href="https://marketing.adobe.com/resources/help/fr_FR/arb/custom_calendar.html
+"  > dates de début de mois sont personnalisées </a> (types NRF/National Retail Federation et Calendrier personnalisé) sont concernés. </p> <p>Les suites de rapports reposant sur un calendrier grégorien ou grégorien modifié ne sont pas concernées. Auparavant, ces alertes étaient envoyées le premier jour du mois grégorien (1er janvier, 1er février, etc.). Ceci ne fonctionnera plus avec la nouvelle fonction d’alertes de la détection des anomalies, qui prend en compte les données des mois précédents lors de la détection des anomalies. À l’avenir, nous comptons prendre en charge dans notre système de planification les calendriers personnalisés afin qu’il soit possible de planifier l’envoi des alertes et des projets planifiés le premier jour du mois du calendrier personnalisé, plutôt que simplement le premier jour du mois grégorien. </p> <p> </p> </td> 
    <td colname="col3"> <p>Indisponible pour l’instant dans le nouveau Gestionnaire d’alertes. </p> </td> 
   </tr> 
   <tr> 
