@@ -3,7 +3,7 @@ description: Le Report Builder Adobe propose désormais des paramètres de gesti
 title: Autorisations d’accès utilisateur pour les dimensions et les mesures
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ Suivez ces instructions pour **chaque** classeur du Report Builder que vous cons
 
 1. Ouvrez le classeur.
 1. Actualisez toutes les requêtes.
-1. Si une erreur d’autorisation d’accès utilisateur s’affiche, cliquez sur **[!UICONTROL Ouvrir un fichier CSV (Open CSV File)]** pour accéder à la liste des erreurs d’autorisation limitée.
+1. Si une erreur d’autorisation d’accès utilisateur s’affiche, cliquez sur **[!UICONTROL Open CSV File]** Ouvrir un fichier CSV ( ) pour accéder à la liste des erreurs d’autorisation limitée.
 1. Créez un fichier « AllRestrictedPermissionErrors.xlsx » et copiez/collez la liste des erreurs d’autorisation limitée du fichier CSV vers ce fichier.
 1. Fermez le classeur du Report Builder.
 
