@@ -2,7 +2,7 @@
 title: 'Exclure des dates spécifiques dans  '
 description: Conseils pour exclure les dates ou les plages de dates si vous ne souhaitez pas les inclure dans les rapports.
 translation-type: tm+mt
-source-git-commit: 29f6b302fecd18a9be70c2246c0d1227af82d00f
+source-git-commit: b244a74e2514472e8c3896bed9c5cbdd60abc8ff
 
 ---
 
@@ -48,7 +48,7 @@ Vous pouvez appliquer les segments &quot;Jours affectés&quot; et &quot;Exclure 
 
 Si vous ne souhaitez pas afficher de zéros dans le tableau ou les visualisations (qui provoquent des creux), activez cette option **[!UICONTROL Interpret zero as no value]** sous les paramètres de colonne.
 
-![Interpréter zéro](../assets/interpret_zero.jpg)
+![Interpréter zéro](../assets/interpret_zero.png)
 
 ### Appliquer le segment d’exclusion à un projet
 
