@@ -188,6 +188,7 @@ Pendant la phase de bêta et avant que l’application ne soit dévoilée au pub
    3. Après avoir installé l’application Testflight, recherchez et installez le Adobe Analytics  depuis Testflight, comme indiqué ci-dessous :
 
       ![Écran Testflight](assets/testflight2.png)
+
    **Pour les utilisateurs en charge de l’exécution sur Android :**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -203,6 +204,7 @@ Pendant la phase de bêta et avant que l’application ne soit dévoilée au pub
 
    3. Téléchargez et installez l’application.
 Une fois l’application téléchargée et installée, les utilisateurs en charge de l’exécution peuvent se connecter à l’application en utilisant leurs informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
+
    ![Écran de bienvenue de l’application](assets/welcome.png)
 
 2. Aidez-les à accéder à votre Fiche d’évaluation. Lorsque les utilisateurs en charge de l’exécution sont connectés à l’application, l’écran **Choisir une entreprise** apparaît. Cet écran répertorie les entreprises connectées auxquelles l’utilisateur en charge de l’exécution appartient. Pour les aider à accéder à la Fiche d’évaluation :
@@ -210,6 +212,7 @@ Une fois l’application téléchargée et installée, les utilisateurs en charg
    * Appuyez sur le nom de l’entreprise connectée ou de l’organisation Experience Cloud auquel la Fiche d’évaluation que vous avez créée s’applique. La liste des Fiches d’évaluation affiche alors toutes les Fiches d’évaluation partagées avec la personne en charge de l’exécution pour cette entreprise connectée.
    * Aidez-les à trier cette liste selon la **Modification la plus récente**, le cas échéant.
    * Appuyez sur le nom de la Fiche d’évaluation pour l’afficher.
+
    ![Choisissez une entreprise](assets/accesscard.png)
 
    Remarque : si l’utilisateur en charge de l’exécution se connecte et qu’un message s’affiche indiquant que rien n’a été partagé :
@@ -218,6 +221,7 @@ Une fois l’application téléchargée et installée, les utilisateurs en charg
    * La Fiche d’évaluation peut ne pas avoir été partagée avec l’utilisateur en charge de l’exécution.
 
       ![Rien n’a été partagé](assets/nothing.png)
+
    Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Analytics et que la Fiche d’évaluation a bien été partagée.
 
 3. Expliquez à l’utilisateur en charge de l’exécution comment les mosaïques apparaissent dans les Fiches d’évaluation que vous partagez.
@@ -253,6 +257,7 @@ Une fois l’application téléchargée et installée, les utilisateurs en charg
    1. Appuyez sur l’icône utilisateur en haut à droite de l’écran de l’application.
    2. Sur l’écran **Mon compte**, appuyez sur l’option **Commentaires**.
    3. Appuyez pour afficher les options permettant de laisser un commentaire.
+
    ![Laisser un commentaire](assets/feedback.png)
    ![Options de commentaires](assets/feedback_option.png)
 
