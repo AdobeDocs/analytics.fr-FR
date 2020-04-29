@@ -3,7 +3,7 @@ description: Le nouveau système d’alertes intelligentes permet de contrôler 
 title: Alertes intelligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,19 +25,19 @@ Les nouveaux Générateur d’alertes et Gestionnaire d’alerte remplacent la f
 * Envoyer des alertes par e-mail ou par SMS, avec des liens pour générer automatiquement les projets Analysis Workspace.
 * Créer des alertes « empilées » qui présentent plusieurs mesures dans une seule alerte.
 
-Le nouveau système d’alerte se compose des éléments suivants : Générateur d’alertes, Gestionnaire d’alertes, Aperçu des alertes, ainsi qu’un meilleur accès en contexte à la création des alertes. L’interface utilisateur de l’ancien système d’alerte ne sera plus accessible, mais les alertes seront migrées. Toutefois, certaines de leurs fonctions héritées [ne seront plus disponibles](https://marketing.adobe.com/resources/help/fr_FR/sc/user/deprecated_alerts.html).
+Le nouveau système d’alerte se compose des éléments suivants : Générateur d’alertes, Gestionnaire d’alertes, Aperçu des alertes, ainsi qu’un meilleur accès en contexte à la création des alertes. L’interface utilisateur de l’ancien système d’alerte ne sera plus accessible, mais les alertes seront migrées. Toutefois, certaines de leurs fonctions héritées [ne seront plus disponibles](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
 
 Vous pouvez accéder au Générateur d’alertes de quatre façons :
 
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
    `ctrl (or cmd) + shift + a`
-* En sélectionnant directement le Générateur d’alertes : **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]** .
-* En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**. Le Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du tableau. Vous pouvez ensuite modifier l’alerte, si nécessaire.
+* En accédant directement au Générateur d’alertes :  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
+* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. Le Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du tableau. Vous pouvez ensuite modifier l’alerte, si nécessaire.
 
    ![](assets/create-alert-from-selection.png)
 
-* Dans un rapport [!UICONTROL Reports &amp; Analytics], en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**. Le nouveau Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du rapport. Vous pouvez ensuite modifier l’alerte, si nécessaire.
+* Dans un [!UICONTROL Reports & Analytics] rapport, en sélectionnant **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Le nouveau Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du rapport. Vous pouvez ensuite modifier l’alerte, si nécessaire.
 
    ![](assets/add-alert.png)
 
@@ -73,7 +73,7 @@ Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts type
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Puis-je obtenir un tableau des « valeurs attendues » incluant la ligne pointillée ou un résultat quelconque indiquant à quoi correspondent ces valeurs ?</b> </p> </td> 
-   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Il applique une période de formation fixe de 30 jours, un intervalle fixe de 95 % et est semblable à la <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/anomaly.html"  >détection des anomalies des <span class="uicontrol">Reports &amp; Analytics</span> </a>. </p> </td> 
+   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Il applique une période de formation fixe de 30 jours, un intervalle fixe de 95 % et est semblable à la <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  >détection des anomalies des <span class="uicontrol">Reports &amp; Analytics</span> </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
