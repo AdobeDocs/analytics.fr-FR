@@ -4,7 +4,7 @@ title: Types de périphérique
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,5 +21,5 @@ Cette dimension utilise des données de périphérique dynamiques qui sont conti
 
 Les données de ce rapport sont renseignées à l’aide de la chaîne d’agent utilisateur du visiteur.
 
->[!Note] :
+>[!NOTE]
 >seules les modifications apportées à un identifiant mobile existant sont rétroactives. Si le périphérique est nouveau et dépourvu d’identifiant mobile, les seules données qui sont liées à ce périphérique commencent à la date d’ajout d’un identifiant à la base de données des périphériques.
