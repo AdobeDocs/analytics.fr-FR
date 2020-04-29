@@ -4,7 +4,7 @@ title: Personnalisation des rapports - Aperçu
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,7 +35,7 @@ Seuls les administrateurs peuvent créer un rapport personnalisé. Lorsque vous 
 
 >[!MORELIKETHIS]
 >
->* [Personnalisation des menus](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/customize-menus.translate.html)
+>* [Personnalisation des menus](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## Sélection d’une date ou d’une période {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -81,7 +81,7 @@ t_reports_comparing_dates.xml
 
 Il est impossible de comparer les dates entre des rapports de tendances.
 
->[!NOTE] Si vous souhaitez réaliser une comparaison de dates sur des mesures clés d’un tableau de bord, vous pouvez extraire les données dans [Report Builder](https://marketing.adobe.com/resources/help/fr_FR/arb/) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
+>[!NOTE] Si vous souhaitez réaliser une comparaison de dates sur des mesures clés d’un tableau de bord, vous pouvez extraire les données dans [Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/home.html) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
 
 Pour comparer les dates entre des rapports de classement dans Reports &amp; Analytics :
 
@@ -218,4 +218,4 @@ La plupart des rapports dans Reports &amp; Analytics contiennent désormais un
 
 Actuellement, le bouton n’est disponible que si votre nom d’utilisateur dispose des droits complets dans Analysis Workspace.
 
-Pour plus d’informations sur tous les moyens de personnaliser votre rapport, reportez-vous au guide [Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/).
+Pour plus d’informations sur tous les moyens de personnaliser votre rapport, reportez-vous au guide [Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/analysis-workspace-features.html).
