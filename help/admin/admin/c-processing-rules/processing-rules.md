@@ -5,7 +5,7 @@ title: Règles de traitement - Aperçu
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,8 +33,8 @@ Désormais, les administrateurs disposent des droits d’utiliser les règles de
 
 1. Si vous ne l’avez pas déjà fait, [créez un groupe](/help/admin/user-management2/c-user-groups/groups.md) qui inclut seulement les non-administrateurs qui doivent disposer de l’autorisation d’utiliser les règles de traitement.
 1. [Ajoutez les non-administrateurs à ce groupe](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Ensuite, sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]** > **[!UICONTROL [nom du groupe]]** > **[!UICONTROL Modifier]** > **[!UICONTROL Accès aux rapports]** > **[!UICONTROL Outils de suites de rapports]** > **[!UICONTROL Personnaliser]** > **[!UICONTROL Gestion des suites de rapports]**.
-1. Cochez la case en regard de [!UICONTROL Règles de traitement] et cliquez sur **[!UICONTROL OK]**.
+1. Accédez ensuite à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** >  >  > .**[!UICONTROL Report Suite Tools]****[!UICONTROL Customize]****[!UICONTROL Report Suite Management]**
+1. Cochez la case en regard de [!UICONTROL Processing Rules] et cliquez sur **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
 
@@ -48,7 +48,7 @@ Les variables de données contextuelles sont un nouveau type de variable, dispon
 
 ![](assets/evar-context-map.png)
 
-Reportez-vous à la rubrique [Variables Données contextuelles](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/context_data_variables.html) dans l’aide d’implémentation.
+Reportez-vous à la rubrique [Variables Données contextuelles](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) dans l’aide d’implémentation.
 
 ## Utiliser des règles de traitement pour transformer des données d’accès et des événements de déclenchement {#section_8284E72E999244E091CD7FB1A22342B6}
 
