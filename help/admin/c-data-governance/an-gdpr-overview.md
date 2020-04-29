@@ -3,7 +3,7 @@ description: Ce document décrit la marche à suivre dans Adobe Analytics pour 
 title: Adobe Analytics et le Règlement général sur la protection des données (RGPD)
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -41,8 +41,8 @@ Voir [Étiqueter les données d’une suite de rapports](/help/admin/c-data-gove
 ## Conditions préalables {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
 * Familiarisez-vous avec la [terminologie relative au règlement général sur la protection des données (RGPD).](/help/admin/c-data-governance/gdpr-terminology.md)
-* Associez votre société de connexion à une organisation Experience Cloud, si ce n’est pas déjà fait. Contactez l’assistance clientèle d’Adobe et reportez-vous à la section [Organisations et liaison de comptes.](https://marketing.adobe.com/resources/help/fr_FR/mcloud/organizations.html)
-* Mappez toute suite de rapports Adobe Analytics que vous souhaitez configurer pour la gouvernance des données dans [votre organisation Experience Cloud.](https://marketing.adobe.com/resources/help/fr_FR/mcloud/report-suite-mapping.html)
+* Associez votre société de connexion à une organisation Experience Cloud, si ce n’est pas déjà fait. Contactez l’assistance clientèle d’Adobe et reportez-vous à la section [Organisations et liaison de comptes.](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/organizations.html)
+* Mappez toute suite de rapports Adobe Analytics que vous souhaitez configurer pour la gouvernance des données dans [votre organisation Experience Cloud.](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html)
 * Définissez une politique de conservation des données pour chaque suite de rapports afin que les demandes d’accès et de suppression en vertu du RGPD puissent être honorées.
 
    > [!NOTE] Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative au règlement général sur la protection des données (RGPD), c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie dans Adobe Analytics. Veuillez contacter votre gestionnaire du succès client pour définir votre période de conservation des données.
