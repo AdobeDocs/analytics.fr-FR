@@ -4,7 +4,7 @@ keywords: privacy
 title: Confidentialité - Présentation
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Analytics collecte les données suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Europe </td> 
-   <td colname="col2"> Pour tous les clients ayant une suite de rapports configurée dans la région EMEA, Adobe a activé par défaut le paramètre Obscurcissement d’IP sur Activé - suppression d’IP (x.x.x.x). Avec ce paramètre, l’adresse IP sera complètement remplacée par la valeur (x.x.x.x) après recherche géographique et ne sera plus disponible comme point de données. <p>Avec cette méthode de remplacement de base, l’adresse IP spécifique unique ne peut pas être rétablie par rétroconception. Ni le client ni Adobe ne peuvent accéder à l’adresse IP ; elle est irrémédiablement rendue anonyme. Pour en savoir plus sur les paramètres d’obscurcissement de l’adresse IP, voir </p> <p> <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/index.html#General_Account_Settings"  >https://marketing.adobe.com/resources/help/fr_FR/reference/index.html#General_Account_Settings</a> </p> </td> 
+   <td colname="col2"> Pour tous les clients ayant une suite de rapports configurée dans la région EMEA, Adobe a activé par défaut le paramètre Obscurcissement d’IP sur Activé - suppression d’IP (x.x.x.x). Avec ce paramètre, l’adresse IP sera complètement remplacée par la valeur (x.x.x.x) après recherche géographique et ne sera plus disponible comme point de données. <p>Avec cette méthode de remplacement de base, l’adresse IP spécifique unique ne peut pas être rétablie par rétroconception. Ni le client ni Adobe ne peuvent accéder à l’adresse IP ; elle est irrémédiablement rendue anonyme. Pour en savoir plus sur les paramètres d’obscurcissement de l’adresse IP, voir </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mondial </td> 
