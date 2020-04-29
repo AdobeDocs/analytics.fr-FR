@@ -4,7 +4,7 @@ title: Sections du site
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,21 +13,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Indique les zones de votre site qui sont les plus consultées par les utilisateurs. Les sections du site peuvent inclure des groupes de produits, similaires aux catégories que vous définissez. Vous pouvez, par exemple, définir un groupe de pages Caméras, un groupe Ordinateurs, etc. Les données relatives au rapport Sections du site de conversion sont importées du rapport Section du site dans le groupe Trafic, lequel reçoit ses informations de la variable de canal dans le code de suivi. Utilisez ce rapport pour identifier le plus grand impact sur les statistiques du site des éléments de différentes sections.
 
-* Ce rapport fait directement référence à des données de la variable [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) implémentée sur votre site web.
+* Ce rapport fait directement référence à des données de la variable [s.channel](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/channel.html) implémentée sur votre site web.
 * Ce rapport peut être visualisé sous la forme d’un rapport de tendance ou avec classement.
 * Ce rapport peut utiliser un filtre de recherche afin de localiser des éléments spécifiques.
 * Vous pouvez utiliser des classifications dans ce rapport afin de renommer et de consolider des éléments.
 * Vous pouvez créer des corrélations avec n’importe quelle autre variable de trafic au moyen des outils d’administration.
 * Ce rapport peut utiliser les mesures suivantes :
 
-   * **Pages vues** : nombre de fois où la variable [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) ou l’URL a été définie (configurée comme mesure par défaut).
+   * **Pages vues** : nombre de fois où la variable [pageName](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagename.html) ou l’URL a été définie (configurée comme mesure par défaut).
 
    * **Toutes les mesures de cheminement** : Visites, Profondeur moyenne de page, Durée de consultation moyenne de la page, Entrées, Sorties, Actualisations et Accès unique.
    * En fonction des paramètres de votre suite de rapports et de votre entreprise : les mesures Visiteurs uniques par jour, par semaine, par mois et par trimestre peuvent être activées sur ce rapport.
    * **Toutes les variables de commerce électronique standard** : Recettes, Commandes, Unités, Paniers, Consultations du panier, Passages en caisse, Ajouts au panier, Retraits du panier.
    * **Tous les événements personnalisés** : Événements 1-80, et Événements 81-100 si le code est H22 ou supérieur.
 
-Tous les événements de conversion du [!UICONTROL rapport Sections du site] utilisent la dernière affectation. La conversion est divisée entre les pages de votre implémentation qui ne contiennent pas d’événements de succès. Il s’agit d’une différence comparé au  [rapport Pages](/help/components/c-variables/dimensionslist/reports-pages.md) qui utilise l’allocation linéaire.
+Tous les de conversion  dans la [!UICONTROL Site Sections Report] dernière affectation d’utilisation. La conversion est divisée entre les pages de votre implémentation qui ne contiennent pas d’événements de succès. Il s’agit d’une différence comparé au  [rapport Pages](/help/components/c-variables/dimensionslist/reports-pages.md) qui utilise l’allocation linéaire.
 
 **Informations propres au produit**
 
