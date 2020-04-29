@@ -2,7 +2,7 @@
 title: Configuration d’un compte Advertising
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,14 +15,14 @@ Les administrateurs peuvent également [accorder l’accès à des non-administr
 
 ![](assets/aa_accounts.png)
 
-1. Dans Adobe Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Comptes Advertising]**.
+1. Dans Adobe Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 1. Acceptez les conditions du contrat de licence de l’utilisateur final (uniquement lors de la première utilisation).
-1. Cliquez sur **[!UICONTROL + Ajouter]**.
-1. La boîte de dialogue [!UICONTROL Nouveau compte de moteur de recherche] s’affiche :
+1. Cliquez sur **[!UICONTROL + Add]**.
+1. La [!UICONTROL New Search Engine Account] boîte de dialogue s’affiche :
 
    ![](assets/aa_new_se_account.png)
 
-1. Définissez les **[!UICONTROL Paramètres du moteur de recherche]** en procédant comme suit :
+1. Renseignez les **[!UICONTROL Search Engine Settings]** lignes directrices suivantes :
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,8 +54,8 @@ Les administrateurs peuvent également [accorder l’accès à des non-administr
     </tbody> 
     </table>
 
-1. Dans la section **[!UICONTROL Suivi]**, vous fournissez des informations sur la façon dont les données du moteur de recherche sont suivies par votre implémentation Adobe Analytics. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
-Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit :
+1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
+Renseignez les **[!UICONTROL Tracking Settings]** lignes directrices suivantes :
 
    <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
     <thead> 
@@ -80,13 +80,13 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
     </tbody> 
     </table>
 
-1. Dans la section **[!UICONTROL Mappage]**, vous sélectionnerez les suites de rapport à lier à ce compte de moteur de recherche. Vous devez fournir au moins une suite de rapports pour pouvoir enregistrer votre compte Advertising. Vous pouvez mapper plusieurs comptes à plusieurs suites de rapports (1:1, 1:plusieurs, plusieurs:plusieurs). Remarque : Les données qu’AMO extrait du moteur de recherche sont simplement copiées dans toutes les suites de rapports mappées, il n’y a donc aucun partage de données.
+1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. Vous devez fournir au moins une suite de rapports pour pouvoir enregistrer votre compte Advertising. Vous pouvez mapper plusieurs comptes à plusieurs suites de rapports (1:1, 1:plusieurs, plusieurs:plusieurs). Remarque : Les données qu’AMO extrait du moteur de recherche sont simplement copiées dans toutes les suites de rapports mappées, il n’y a donc aucun partage de données.
 
    >[!IMPORTANT]
    >
-   >Seules les suites de rapports qui ont été [mappées à une organisation Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) pourront être sélectionnées. Si la suite de rapports ne figure pas dans la liste, consultez la [résolution des problèmes d’Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Seules les suites de rapports qui ont été [mappées à une organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html) pourront être sélectionnées. Si la suite de rapports ne figure pas dans la liste, consultez la [résolution des problèmes d’Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
-   Définissez les **[!UICONTROL Paramètres du mappage]** en procédant comme suit :
+   Pour les **[!UICONTROL Mapping Settings]** lignes directrices suivantes :
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -98,12 +98,12 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Suite de rapports Correspondance </p> </td> 
-      <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> <p>Si la suite de rapports ne figure pas dans la liste, vous pouvez <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >mapper votre suite de rapports à une organisation Experience Cloud</a> en utilisant cet outil. </p> </td> 
+      <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> <p>Si la suite de rapports ne figure pas dans la liste, vous pouvez <a href="https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html"  >mapper votre suite de rapports à une organisation Experience Cloud</a> en utilisant cet outil. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Save]**.
 1. Après l’enregistrement, une clause de non-responsabilité affiche une liste d’avertissements. Vous devez confirmer que vous avez lu et compris cet accord. Cochez la case, puis cliquez sur **[!UICONTROL OK]**.
 
    Vous êtes maintenant dirigé vers l’[interface utilisateur de gestion](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) des comptes Advertising, où le nouveau compte doit apparaître.
