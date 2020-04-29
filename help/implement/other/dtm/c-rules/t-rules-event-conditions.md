@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Création de conditions pour les règles basées sur un événement
 uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,7 +18,7 @@ Les conditions déterminent à quel moment une règle basée sur un événement 
 
    ![](assets/condition-event-based.png)
 
-   Pour plus d’informations, voir [Types d’événements](https://marketing.adobe.com/resources/help/fr_FR/dtm/event_types.html) dans la documentation du produit Tag Management d’Adobe.
+   Pour plus d’informations, voir [Types d’événements](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html) dans la documentation du produit Tag Management d’Adobe.
 
 1. Activez les options suivantes si besoin est :
 
@@ -35,7 +35,7 @@ Les conditions déterminent à quel moment une règle basée sur un événement 
 
    ![](assets/condition-event-based2.png)
 
-   Voir [Utilisation du sélecteur CSS](https://marketing.adobe.com/resources/help/fr_FR/dtm/css-selector.html) dans la documentation du produit Dynamic Tag Management pour plus d’informations sur la détermination de la balise d’élément appropriée.
+   Voir [Utilisation du sélecteur CSS](https://docs.adobe.com/content/help/en/dtm/using/resources/rules/t-rules-event-conditions.html#concept_DDF500DCB8214658AEDECDE69ED1D4AF) dans la documentation du produit Dynamic Tag Management pour plus d’informations sur la détermination de la balise d’élément appropriée.
 
 1. Sélectionnez d’autres types de condition ou de critère à lier à la règle, puis configurez-les.
 
