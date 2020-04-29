@@ -5,7 +5,7 @@ title: Conditions requises et limites de transfert
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -57,7 +57,7 @@ La fonctionnalité Sources de données prend en charge le codage multioctet. Ell
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Pris en charge. La suite de rapports utilisée avec la fonctionnalité Sources de données doit prendre en charge les caractères multioctets. </p> <p>Voir <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/new_report_suite.html"  >Nouvelle suite de rapports</a> dans l’Aide. </p> </td> 
+   <td colname="col2"> <p>Pris en charge. La suite de rapports utilisée avec la fonctionnalité Sources de données doit prendre en charge les caractères multioctets. </p> <p>Voir <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Nouvelle suite de rapports</a> dans l’Aide. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 avec marque d’ordre d’octet (EF BB BF) </td> 
