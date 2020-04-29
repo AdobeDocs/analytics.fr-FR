@@ -4,7 +4,7 @@ title: Cheminement
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Groupe de rapports basés sur l’analyse des chemins. D’un point de vue technique, le terme cheminement désigne le passage d’une page à une autre (d’une valeur à une autre).
 
-Utilisez le [Flux d’Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/flow.html) pour des options de cheminement souples.
+Utilisez le [Flux d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) pour des options de cheminement souples.
 
->[!NOTE] Pour activer le cheminement, accédez à **[!UICONTROL Admin > Suites de rapports > Modifier les paramètres > Trafic > Variables de trafic]**. Pour activer le cheminement pour les rapports Section Site et Serveur, contactez le service à la clientèle.
+>[!NOTE] Pour activer le cheminement, accédez à **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Pour activer le cheminement pour les rapports Section Site et Serveur, contactez le service à la clientèle.
 
 Pour connaître l’ordre de collecte des valeurs, vous devez activer le cheminement pour la variable qui procède à leur collecte. Le cheminement est activé par défaut pour les pages. Par défaut, il n’est pas activé pour les props, car il n’est approprié que dans certains cas. Pour activer le cheminement sur une prop, contactez le service d’assistance clientèle.
 
@@ -27,7 +27,7 @@ L’activation du cheminement pour la variable  *`s.channel`* vous permet de sui
 
 ![](assets/path_sections.png)
 
-Le cheminement est alors disponible dans divers rapports sur les chemins, dont [!UICONTROL Flux section suivante], lequel affiche le mode de déplacement des visiteurs entre les groupes de pages ou sections de votre site.
+Pathing is then available in various paths reports, such as [!UICONTROL Next Site Section Flow], which displays how visitors move through page groups, or sections of your site.
 
 ![](assets/paths_report.png)
 
