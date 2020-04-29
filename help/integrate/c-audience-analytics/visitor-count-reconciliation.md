@@ -3,7 +3,7 @@ description: Certaines mesures des visiteurs d’Adobe Analytics et d’Adobe Au
 title: Différences entre les nombres de visiteurs
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -23,11 +23,11 @@ Les mesures des visiteurs sont :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM : Population totale du segment</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM : Population totale du segment</a> </p> </td> 
    <td colname="col3"> <p>Nombre de périphériques (Experience Cloud ID) qui étaient membres de votre segment pendant la période de recherche en amont. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM : Population des segments en temps réel</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM : Population des segments en temps réel</a> </p> </td> 
    <td colname="col3"> <p>Nombre de périphériques (Experience Cloud ID) qui étaient membres de votre segment et ont atteint vos propriétés pendant la période de recherche en amont. </p> </td> 
   </tr> 
   <tr> 
