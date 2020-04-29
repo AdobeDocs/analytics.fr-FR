@@ -4,7 +4,7 @@ title: Personnalisé
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ Pour un analyste, les rapports personnalisés peuvent être d’une grande utili
 
 Vous pouvez en outre enregistrer les rapports que vous jugez importants. Ces rapports s’appellent des signets. Vous pouvez aussi placer plusieurs rapports sur un canevas pour identifier immédiatement les rapports les plus importants. Ce sont les tableaux de bord qui sont eux aussi spécifiques à l’utilisateur. L’interface affiche au-dessus de la liste des graphiques une barre qui répertorie vos signets et tableaux de bord.
 
-Pour plus d’informations, reportez-vous aux sections [Signets](https://marketing.adobe.com/resources/help/fr_FR/sc/user/c_bookmarks.html) et [Tableaux de bord et petits rapports](https://marketing.adobe.com/resources/help/fr_FR/sc/user/c_dashboard.html)
+See [Bookmarks Manager](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html) and [Dashboards and Reportlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) for more information.
