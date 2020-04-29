@@ -3,7 +3,7 @@ description: Découvrez les fonctionnalités de segmentation d’Analysis Worksp
 title: Fonctionnalités de segmentation d’Analysis Workspace
 uuid: ed1d95e2-bd32-4f03-a007-1d3e4ca08a5b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -12,6 +12,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Découvrez les fonctionnalités de segmentation d’Analysis Workspace.
 
-[Comparaison de segments (Segment IQ)](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/segment-comparison.html)
+[Comparaison de segments (Segment IQ)](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)
 
-[Application de segments dans l’analyse des abandons](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/compare-segments-fallout.html)
+[Application de segments dans l’analyse des abandons](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
