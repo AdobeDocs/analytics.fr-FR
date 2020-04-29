@@ -5,7 +5,7 @@ title: Visite
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ Une visite ne coïncide pas nécessairement avec une session de navigateur. Par 
 
 Lorsqu’une visite se termine, toutes les variables comportant une expiration de visite expirent et ne persistent pas. La mesure du nombre de visites est incrémentée lors de la visite suivante de ce visiteur.
 
->[!NOTE] Si vous utilisez Analytics en tant que source des rapports pour Adobe Target, reportez-vous à la section [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) dans la documentation [!DNL Target].
+>[!NOTE] Si vous utilisez Analytics en tant que source des rapports pour Adobe Target, reportez-vous à la section [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) dans la documentation [!DNL Target].
 
-Pour plus d’informations, voir [Identification des visiteurs uniques](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/visid_overview.html) dans le guide Mise en œuvre d’Adobe Analytics.
+Pour plus d’informations, voir [Identification des visiteurs uniques](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/visitor-identification.html) dans le guide Mise en œuvre d’Adobe Analytics.
 
 **Périodes**
 
