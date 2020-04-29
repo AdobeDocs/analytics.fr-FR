@@ -4,7 +4,7 @@ title: Taux de rebond
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ Le taux de rebond n’inclut pas les visites dans lesquelles plusieurs actions s
 
 >[!NOTE] Les implémentations existantes peuvent parfois comporter une mesure calculée qui diffère de la mesure par défaut d’Analytics. Vérifiez la définition de la mesure calculée pour vous assurer de l’absence de différence.
 
-Pour plus d’informations, voir cet [article de la base de connaissance](https://marketing.adobe.com/resources/help/fr_FR/home/index.html#kb-analytics-comparing-bounces-and-single-access).
+Pour plus d’informations, voir cet [article de la base de connaissance](https://helpx.adobe.com/analytics/kb/comparing-bounces-and-single-access.html).
