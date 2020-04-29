@@ -3,7 +3,7 @@ description: Dans Analysis Workspace, vous pouvez utiliser les mesures de deux f
 title: Mesures
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -18,7 +18,7 @@ You can either drag a standard metric, calculated metric, or calculated metric t
 
 >[!NOTE] Bien que cela paraisse simple, l’utilisation des mesures est plutôt performante. Vous pouvez ajouter des mesures à un rapport en faisant glisser la mesure appropriée vers la section des mesures d’un tableau. Vous pouvez également ventiler les dimensions par mesures, ce qui vous confère un contrôle précis au niveau de l’affichage du tableau. De plus, vous pouvez insérer une mesure sous forme de dimension et une dimension sous forme de mesure pour créer un rapport d’heures supplémentaires. Jouez avec les différents composants et voyez ce qu’ils vous proposent. Les possibilités sont infinies.
 
-Vous pouvez également cliquer sur **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. Le [Créateur de mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/) s’ouvre, où vous pouvez personnaliser les mesures existantes.
+Vous pouvez également cliquer sur **[!UICONTROL Components]** > **[!UICONTROL New Metric]**. Le [Créateur de mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html) s’ouvre, où vous pouvez personnaliser les mesures existantes.
 
 To make it easier to quickly create calculated metrics, **[!UICONTROL Create metric from selection]** has been added to the column right-click menu in Freeform Tables. Cette option s’affiche lorsqu’une ou plusieurs cellules de colonne d’en-tête sont sélectionnées.
 
