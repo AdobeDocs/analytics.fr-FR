@@ -3,7 +3,7 @@ description: Les droits des mesures calculées diffèrent entre les utilisateurs
 title: 'Mesures calculées : droits en fonction du rôle'
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Les droits des mesures calculées diffèrent entre les utilisateurs administrate
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Administrateurs</b> </td> 
-   <td colname="col02"> Les administrateurs peuvent créer des mesures calculées ainsi que des <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/groups.html"  >groupes</a> pour limiter les droits de création de mesures calculées des utilisateurs. </td> 
+   <td colname="col02"> Les administrateurs peuvent créer des mesures calculées ainsi que des <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html"  >groupes</a> pour limiter les droits de création de mesures calculées des utilisateurs. </td> 
    <td colname="col2"> Peuvent effectuer un partage avec l’ensemble de l’entreprise, avec des groupes d’utilisateurs et avec des utilisateurs individuels. </td> 
    <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span> : peuvent afficher/modifier/supprimer, etc. leurs propres mesures calculées et celles des autres utilisateurs. <p> <span class="keyword"> Ad Hoc Analysis</span> et <span class="keyword">Report Builder</span> : peuvent afficher/modifier/supprimer, etc. leurs propres mesures calculées et celles partagées avec eux. </p> </td> 
    <td colname="col4"> Peuvent approuver les mesures calculées comme étant canoniques. </td> 
