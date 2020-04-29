@@ -6,7 +6,7 @@ title: Personnalisation des autorisations liées aux outils de suites de rapport
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -15,19 +15,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Activez les autorisations d’utilisateurs pour l’accès aux API, la gestion des suites de rapports, les outils et les rapports, ainsi que les éléments de tableau de bord.
 
-**[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]** > **[!UICONTROL Accès aux rapports]** > **[!UICONTROL Outils de suites de rapports]** > **[!UICONTROL Personnaliser]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
 
-La page [!UICONTROL Personnaliser Outils de génération de rapports] permet d’octroyer aux membres d’un groupe l’accès aux éléments ci-après.
+La [!UICONTROL Customize Report Suite Tools] page accorde aux membres d’un groupe l’accès aux éléments suivants.
 
 ![](assets/report-suite-tools.png)
 
 ## Descriptions des champs
 
-Les paramètres sur cette page se rapportent aux suites de rapports sélectionnées sur la page [!UICONTROL Définir un groupe d’utilisateurs].
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | Élément | Description |
 |--- |--- |
@@ -65,8 +65,8 @@ Les paramètres sur cette page se rapportent aux suites de rapports sélectionn�
 | [Détection des anomalies](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/anomaly_detection.html) | Autorisation d’accès au rapport Détection des anomalies, qui fournit une méthode statistique pour déterminer le degré de modification d’une mesure donnée par rapport à des données antérieures. |
 | [Rapport Canal](https://marketing.adobe.com/resources/help/fr_FR/mchannel/index.html) | Autorisation d’accès aux rapports Canal marketing sous Rapports > Rapports Canal marketing. |
 | [Rapport en temps réel](/help/admin/admin/realtime/t-realtime-admin.md) | Autorisation d’accès au rapport en temps réel. |
-| [Pages de robots](/help/admin/admin/bot-removal/bot-rules.md) | Les règles de robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web. |
-| [Robots](/help/admin/admin/bot-removal/bot-rules.md) | Les règles de robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web. |
+| [Pages de robots](/help/admin/admin/bot-removal/bot-rules.md) | **Remarque : Les pages de robots sont destinées à des rapports et analyses spécifiques, et non à la gestion de règles de robots. Actuellement, il n’existe aucune autorisation pour autoriser la modification des règles de robots.** Les règles de robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web. |
+| [Robots](/help/admin/admin/bot-removal/bot-rules.md) | **Remarque : Les robots sont destinés à des rapports et analyses spécifiques, et non à la gestion de règles de robots. Actuellement, il n’existe aucune autorisation pour autoriser la modification des règles de robots.** Les robots vous permettent de supprimer de votre suite de rapports le trafic généré par les araignées et les robots connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web. |
 | [Rapport personnalisé de Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse fait référence à la copie de données brutes non traitées pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports qui présentent un niveau avancé de relations entre les données brutes, en fonction de vos questions. |
 | [Visites retours quotidiennes](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Hérité) Ce rapport présente le nombre de visiteurs ayant fréquenté votre site plusieurs fois en une journée. Un jour est défini comme la période des dernières 24 heures. |
 | [Gestionnaire des sources de données](/help/admin/admin/data-sources.md) | La fonction Sources de données vous permet d’importer des données dans Analytics à partir de sources hors ligne. |
