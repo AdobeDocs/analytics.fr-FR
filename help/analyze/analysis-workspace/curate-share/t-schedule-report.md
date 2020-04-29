@@ -5,7 +5,7 @@ title: Envoi d’un fichier – Planification de la livraison d’un projet
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Envoyez un projet Analysis Workspace par courrier électronique ou planifiez une livraison.
 
-1. [Créez un projet Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/t_freeform_project.html) et enregistrez-le.
+1. [Créez un projet Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) et enregistrez-le.
 1. Cliquez sur **[!UICONTROL Share]** > **[!UICONTROL Send File On Schedule]**.
 
    ![Résultat de l’étape](assets/send-file.png)
