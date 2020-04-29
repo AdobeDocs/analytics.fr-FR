@@ -4,7 +4,7 @@ title: Rapports sur les mesures du site
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ Affiche des informations quantitatives concernant votre site Web, comme le nombr
 
 Les rapports de mesures indiquent les tendances au fil du temps. Vous pouvez détailler ces rapports par heure et par jour. Vous pouvez également analyser la durée de visite sur votre site, les achats et les recettes et d’autres mesures similaires.
 
-Les rapports Mesures du site ci-dessous sont disponibles dans le menu [!UICONTROL Mesures du site].
+The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu.
 
 ## Rapport des pages vues {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
@@ -29,7 +29,7 @@ c_reports_pageviews.xml
 
  -->
 
-Rapport de tendance qui affiche le nombre de fois où les pages de votre site Web ont été consultées pour une période donnée (heure, jour, semaine, mois, trimestre ou année). Une [!UICONTROL Page vue] est une requête pour une page entière, plutôt qu’un élément d’une page (image ou vidéo, par exemple). Par exemple, si un visiteur unique consulte 15 pages durant une visite, 15 pages vues sont comptabilisées. Si un visiteur affiche la même page trois fois durant une visite, trois pages vues sont comptabilisées. Ce rapport vous permet de suivre chaque page vue pour chaque page de votre site, ainsi qu’un groupe de pages vues pour la totalité du site.
+Rapport de tendance qui affiche le nombre de fois où les pages de votre site web ont été consultées pour une période donnée (heure, jour, semaine, mois, trimestre ou année). A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. Par exemple, si un visiteur unique consulte 15 pages durant une visite, 15 pages vues sont comptabilisées. Si un visiteur affiche la même page trois fois durant une visite, trois pages vues sont comptabilisées. Ce rapport vous permet de suivre chaque page vue pour chaque page de votre site, ainsi qu’un groupe de pages vues pour la totalité du site.
 
 ## Rapport Visites {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -41,7 +41,7 @@ c_reports_visits.xml
 
  -->
 
-Dans les Reports and Analytics marketing, vous pouvez exécuter un [!UICONTROL Rapport des visites] sur une page sélectionnée. Dans les Ad Hoc Analysis, vous pouvez segmenter les données afin d’afficher des pages spécifiques.
+In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. Dans les Ad Hoc Analysis, vous pouvez segmenter les données afin d’afficher des pages spécifiques.
 
 ## Rapport Visiteurs uniques {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -69,7 +69,7 @@ c_reports_visitors.xml
 
  -->
 
-La valeur totale affichée en bas du tableau est la somme de toutes les visites pour une période spécifiée et ne reflète pas toujours le nombre de visiteurs uniques. Si vous exécutez, par exemple, un rapport [!UICONTROL Visiteurs uniques par jour] avec une période de plusieurs jours, le total peut inclure les visites répétées, étant donné que le même visiteur peut revenir le jour suivant et être comptabilisé à nouveau. Toutefois, si vous exécutez un rapport [!UICONTROL Visiteurs uniques par mois], la valeur de la colonne Totaux reflète exactement le nombre de visiteurs uniques venus au cours du mois.
+La valeur totale affichée en bas du tableau est la somme de toutes les visites pour une période spécifiée et ne reflète pas toujours le nombre de visiteurs uniques. For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month.
 
 ## Rapport Durée de visite {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
@@ -112,7 +112,7 @@ c_reports_shopping_cart.xml
 
  -->
 
-Utilisez le rapport [!UICONTROL Panier] pour :
+Vous pouvez utiliser la variable [!UICONTROL Carts Report] pour :
 
 * Déterminer les modèles, les hauts ou les bas au niveau du nombre de paniers ouverts sur le site.
 * Analyser des périodes spécifiques afin d’en savoir plus sur les mesures qui ont contribué à l’ouverture du panier.
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Chaque suite de rapports d’analyse étant unique, cet ensemble de rapports est utilisé différemment par chaque client. Un rapport [!UICONTROL Événement personnalisé] peut servir de compteur pour montrer le nombre de fois où un événement se produit. Si, par exemple, **[!UICONTROL événement1]** est défini pour compter le nombre de fois où un document est téléchargé, le rapport [!UICONTROL Événement personnalisé] pour l’événement 1 indique alors le nombre total de fois où l’événement (ou téléchargement) se produit. Vous pouvez créer plusieurs rapports d’événement personnalisé.
+Chaque suite de rapports d’analyse étant unique, cet ensemble de rapports est utilisé différemment par chaque client. A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. Vous pouvez créer plusieurs rapports d’événement personnalisé.
 
 ## Rapports de conversion {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -159,8 +159,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL Rapport Canal Première touche ou Dernière touche]** : affiche les mesures qui présentent les données d’un canal Première touche ou Dernière touche spécifique. Dans ces rapports, vous pouvez séparer un canal et en afficher les détails. Si AdLens est activé, les classifications apparaîtront dans les rapports de canal des Reports and Analytics marketing.
+**[!UICONTROL First or Last Touch Channel Report]**: Affiche les mesures montrant les données d’un canal Première touche ou Dernière touche spécifique. Dans ces rapports, vous pouvez séparer un canal et en afficher les détails. Si AdLens est activé, les classifications apparaîtront dans les rapports de canal des Reports and Analytics marketing.
 
-**[!UICONTROL Rapports détaillés Canal Première touche ou Dernière touche]** : affichent des informations comme le nom et le référent des pages, repris des valeurs de canal figurant dans l’option [!UICONTROL Définir la valeur du canal comme] lors de la configuration des règles. Les rapports Canal détaillés vous permettent de mieux examiner les valeurs détaillées de canal du rapport Présentation.
+**[!UICONTROL First or Last Touch Channel Detail Reports]**: Affiche des détails tels que les noms de page et les  de, qui proviennent des valeurs  que vous avez configurées dans l’ [!UICONTROL Set the channel's value to] option lors de la configuration des règles. Les rapports Canal détaillés vous permettent de mieux examiner les valeurs détaillées de canal du rapport Présentation.
 
-Pour des informations plus détaillées concernant la configuration du canal marketing dans les rapports et analyses marketing, voir le système d’aide [Canal marketing](https://marketing.adobe.com/resources/help/fr_FR/mchannel/index.html).
+Pour des informations plus détaillées concernant la configuration du canal marketing dans les rapports et analyses marketing, voir le système d’aide [Canal marketing](/help/components/c-marketing-channels/analyze-mc.md).
