@@ -2,7 +2,7 @@
 title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -369,7 +369,7 @@ Reports &amp; Analytics contient plusieurs rapports préconfigurés qui ne cor
 
 ### Intégration Nielsen
 
-Pour plus d’informations sur la manière d’implémenter cette intégration, consultez la section [Partenariat Nielsen](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html).
+Pour plus d’informations sur la manière d’implémenter cette intégration, consultez la section [Partenariat Nielsen](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html).
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
