@@ -4,7 +4,7 @@ title: Filtrage des données de rapport
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -49,7 +49,7 @@ Correspond si le terme se trouve dans l’élément de ligne. Opère de la même
 
 **Ne contient pas**
 
-Correspond si le terme ne se trouve pas dans l’élément de ligne. Vous pouvez utiliser les filtres « non spécifié », « aucun », « mot-clé indisponible » ainsi que d’autres [valeurs spéciales](https://marketing.adobe.com/resources/help/fr_FR/reference/none-unspecified-unknown-other.html) depuis les rapports utilisant « Ne contient pas ».
+Correspond si le terme ne se trouve pas dans l’élément de ligne. Vous pouvez utiliser les filtres « non spécifié », « aucun », « mot-clé indisponible » ainsi que d’autres [valeurs spéciales](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) depuis les rapports utilisant « Ne contient pas ».
 
 Ne contient pas : `none`
 
