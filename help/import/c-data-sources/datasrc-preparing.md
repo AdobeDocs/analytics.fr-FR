@@ -5,7 +5,7 @@ title: Préparation à l’utilisation des sources de données
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Il est important de comprendre les mesures contenues dans vos sources de donnée
 
 Une fois les associations appropriées de mesure/événement déterminées pour les données des sources de données, renommez les événements à l’aide de noms explicites correspondant à la mesure concernée.
 
-Voir [Événements de succès](https://marketing.adobe.com/resources/help/fr_FR/reference/success_event.html) dans l’aide des outils d’administration.
+Voir [Événements de succès](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide des outils d’administration.
 
 >[!NOTE] Adobe recommande vivement d’utiliser de nouveaux événements vides avec les données de sources de données ; toutefois, dans de rares cas, il peut s’avérer judicieux d’utiliser un événement préexistant.
 
@@ -44,7 +44,7 @@ Après avoir défini les portées de données à utiliser avec une source de don
 
 Lors de l’utilisation d’eVar, vous pouvez utiliser comme portées de données des eVar existantes ou nouvelles. Après avoir sélectionné une eVar pour recevoir une portée de données à partir des sources de données, veillez à la nommer de façon appropriée.
 
-Voir [Événements de succès](https://marketing.adobe.com/resources/help/fr_FR/reference/success_event.html) dans l’aide d’Analytics.
+Voir [Événements de succès](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide d’Analytics.
 
 ## Code de suivi de campagne {#section_468222796FF449ABAA90D88EB3264CB1}
 
