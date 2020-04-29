@@ -3,7 +3,7 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -76,7 +76,7 @@ Les **[sources de données](/help/import/c-data-sources/datasrc-home.md)**doiven
 
 * Lorsque vous collaborez avec un fournisseur tiers qui a établi une connexion prise en charge par Adobe Analytics. En général, Data Connectors intègre périodiquement des données sommaires dans Adobe Analytics de façon permanente et automatique.
 
-L’**[API d’insertion de données](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**doit être utilisée :
+L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-insertion-api.md)**doit être utilisée :
 
 * Lorsque vous devez transférer des données dans Adobe Analytics et que vous ne pouvez pas utiliser le code Adobe AppMeasurement ou SDK mobile.
 
@@ -114,11 +114,11 @@ L’**[API d’insertion de données](https://marketing.adobe.com/developer/docu
 * Si le client souhaite que les données Adobe soient stockées dans une base de données côté client, au niveau le plus granulaire que nous pouvons envoyer.
 * Si le client souhaite développer un outil de veille stratégique ou saisir des données Adobe de niveau accès dans un outil tiers.
 
-Les **[API de création de rapports](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**doivent être utilisées lorsque les autres options de visualisation ne répondent pas à vos besoins. Les 3 options d’API incluent :
+Les **[API de création de rapports](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**doivent être utilisées lorsque les autres options de visualisation ne répondent pas à vos besoins. Les 3 options d’API incluent :
 
 * **Données entièrement traitées** : lorsque vous souhaitez des données riches en fonctionnalités (notamment des visites, des visiteurs et des segments). Il s’agit généralement de données résumées de l’interface utilisateur d’Analytics disponibles sous 30 à 90 minutes. Utilisation possible par l’intermédiaire du Report Builder.
 * **Temps réel** : lorsque vous souhaitez voir quelques mesures et dimensions avec des secondes de latence. Il s’agit de données limitées, partiellement traitées et résumées, disponibles sous 30 secondes environ. Inclut des algorithmes uniques, des plus populaires, des gagnants et des perdants. Utilisation possible par l’intermédiaire du Report Builder.
-* **[!UICONTROL Livestream]** : lorsque vous souhaitez un flux de données Analytics de niveau accès traitées partiellement, dans les secondes suivant la collecte. Il s’agit de données partiellement traitées, disponibles sous 30 secondes environ. Disponible pour Analytics Premium uniquement. Nécessite une méthode de visualisation des données, généralement par l’intermédiaire de services d’ingénierie.
+* **[!UICONTROL Live Stream]** : lorsque vous souhaitez un flux de données Analytics de niveau accès traitées partiellement, dans les secondes suivant la collecte. Il s’agit de données partiellement traitées, disponibles sous 30 secondes environ. Disponible pour Analytics Premium uniquement. Nécessite une méthode de visualisation des données, généralement par l’intermédiaire de services d’ingénierie.
 
 ## Solutions personnalisées {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +131,4 @@ Les services d’ingénierie doivent être utilisés lorsque :
 * Vous disposez de plusieurs sources de données.
 * Vous êtes contraint par des exigences ETL (Extract-Transform-Load) de données complexes.
 * Vous voulez une valorisation de marque personnalisée.
-* Vous voulez visualiser [!UICONTROL Analytics Live Stream].
+* Vous souhaitez visualiser [!UICONTROL Analytics Live Stream].
