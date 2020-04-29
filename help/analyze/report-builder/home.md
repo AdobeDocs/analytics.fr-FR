@@ -3,7 +3,7 @@ title: Aide du Report Builder d’Adobe
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ Le Report Builder [!DNL Adobe] est un complément externe pour Microsoft Excel.
 >
 >Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
->See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
+>See [Analytics User Migration to the Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) for migration information.
 
 >[!IMPORTANT]
 >
@@ -40,15 +40,17 @@ Le Report Builder [!DNL Adobe] est un complément externe pour Microsoft Excel.
 ## Ressources Experience Cloud
 
 * [Communauté Adobe Analytics](https://helpx.adobe.com/fr/marketing-cloud/analytics.html)
-* [Notes de mise à jour d’Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/index.html#Current%20Release%20Notes)
-* [Page d’accueil de la documentation du produit](https://marketing.adobe.com/resources/help/fr_FR/home/index.html)
-* [Développeur](https://marketing.adobe.com/resources/help/fr_FR/home/index.html#Developer)
+* [Notes de mise à jour d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html)
+* [Page d’accueil de la documentation du produit](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html)
+* [Développeur](https://www.adobe.io/apis/experiencecloud.html)
 * [Échange d’idées](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Formations et didacticiels Adobe](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK)
 * [Centre de solutions incitatives](https://www.omniture.com/en/products/online_business_optimization)
 
+<!--Meike Russ Replace the omniture links above?-->
+
 ## Aide de Reports &amp; Analytics
 
-* [Aide d’Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/)
-* [Aide sur les Reports &amp; Analytics](https://marketing.adobe.com/resources/help/fr_FR/sc/user/index.html)
-* [Références Analytics](https://marketing.adobe.com/resources/help/fr_FR/reference/index.html) Aide sur les Outils d’administration, les rapports et les mesures.
+* [Aide d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/analysis-workspace-features.html)
+* [Aide sur les Reports &amp; Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/getting-started.html)
+* [Références Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html) Aide sur les Outils d’administration, les rapports et les mesures.
