@@ -5,7 +5,7 @@ title: Configuration requise pour l’administration
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -34,7 +34,7 @@ Configuration requise pour Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Utilisateurs </td> 
-   <td colname="col2"> <p>Pour activer l’accès à l’onglet Analysis Workspace dans Analytics, les administrateurs doivent ajouter des utilisateurs au groupe <span class="uicontrol"> Analysis Workspace Access</span> (Accès à Analysis Workspace) sous <span class="uicontrol"> Administration</span> &gt; <span class="uicontrol"> Gestion des utilisateurs</span> &gt; <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/groups.html"  > Groupes</a>. </p> </td> 
+   <td colname="col2"> <p>Pour activer l’accès à l’onglet Analysis Workspace dans Analytics, les administrateurs doivent ajouter des utilisateurs au groupe <span class="uicontrol"> Analysis Workspace Access</span> (Accès à Analysis Workspace) sous <span class="uicontrol"> Administration</span> &gt; <span class="uicontrol"> Gestion des utilisateurs</span> &gt; <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html"  > Groupes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transfert de projets </td> 
