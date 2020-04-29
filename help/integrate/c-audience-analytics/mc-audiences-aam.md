@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics - Aperçu
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -44,7 +44,7 @@ Assurez-vous que les conditions préalables suivantes sont réunies :
 * Vous êtes à la fois client d’Audience Manager et d’Adobe Analytics.
 * Vous êtes un administrateur d’Audience Manager.
 * Vous utilisez Identity Service version 1.5 ou ultérieure.
-* Les suites de rapports AAM et Adobe Analytics sont [mappées sur la même organisation Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/report-suite-mapping.html).
-* Vous utilisez la [redirection côté serveur](/help/admin/admin/c-server-side-forwarding/ssf.md) et avez mis en œuvre le [module de gestion de l’audience](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (pas de code DIL) - AppMeasurement 1.5 ou une version ultérieure.
+* Les suites de rapports AAM et Adobe Analytics sont [mappées sur la même organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html).
+* Vous utilisez la [redirection côté serveur](/help/admin/admin/c-server-side-forwarding/ssf.md) et avez mis en œuvre le [module de gestion de l’audience](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (pas de code DIL) - AppMeasurement 1.5 ou une version ultérieure.
 
 Ces conditions préalables sont décrites dans le [Workflow Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
