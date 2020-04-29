@@ -3,7 +3,7 @@ description: Une fois l’intégration déployée, vous pouvez commencer à util
 title: Utilisation de l’intégration
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,6 +32,6 @@ Vous pouvez, par exemple, créer un segment qui inclura uniquement les visites d
 
 L’audience est égale à PME.
 
-Pour plus d’informations sur la création de segments, consultez le [guide de segmentation Analytics](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/).
+Pour plus d’informations sur la création de segments, consultez le [guide de segmentation Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html).
 
 Ce segment peut ensuite être appliqué à pratiquement n’importe quel rapport. Par exemple, le rapport Durée de la visite est présenté ici : ![](assets/segment_applied_report.png)
