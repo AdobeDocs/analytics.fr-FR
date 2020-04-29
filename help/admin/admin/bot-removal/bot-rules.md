@@ -5,7 +5,7 @@ title: Règles de robots - Aperçu
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ Les règles de robots vous permettent de supprimer du trafic de votre suite de r
 
 Une fois les règles de robots définies, elles servent de critères de comparaison pour tout le trafic entrant. Le trafic qui correspond à l’une de ces règles n’est ni collecté dans la suite de rapports, ni inclus dans les mesures de trafic.
 
-Pour mettre à jour ou télécharger des règles de robots, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**. Sélectionnez la suite de rapports correcte, puis accédez à **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de robots]**.
+To update or upload bot rules, navigate to **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Sélectionnez la suite de rapports appropriée, puis cliquez sur **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
 
 En règle générale, la suppression du trafic de robots réduit le volume des mesures de trafic et de conversion. Pour de nombreux utilisateurs, la suppression du trafic de robots se traduit par une augmentation des taux de conversion et d’autres mesures d’utilisation. Avant de supprimer le trafic de robots, contactez les parties intéressées afin de vous assurer qu’elles sont en mesure d’apporter les modifications nécessaires aux indicateurs de performance clés à la suite de ce changement. Si possible, nous vous conseillons d’abord de supprimer le trafic de robots d’une petite suite de rapports afin d’évaluer l’impact potentiel.
 
@@ -24,12 +24,12 @@ Les données de trafic de robots sont stockées dans un référentiel distinct e
 
 | Type de règle | Description |
 |--- |--- |
-| Règles de robots IAB standard | En sélectionnant l’option [!UICONTROL Activer les règles de filtrage de robots IAB], vous utilisez la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’[IAB](https://www.iab.com) (Bureau international de la publicité) pour supprimer le trafic de robots. La plupart des clients sélectionnent au moins cette option. |
+| Règles de robots IAB standard | Selecting [!UICONTROL Enable IAB Bot Filtering Rules] uses the [IAB&#39;s](https://www.iab.com) (International Advertising Bureau&#39;s) International Spiders &amp; Bots List to remove bot traffic. La plupart des clients sélectionnent au moins cette option. |
 | Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateurs, des adresses IP ou des plages d’adresses IP. |
 
 ## Règles de robots IAB standard
 
-Activez les règles de robots IAB standard en cochant la case [!UICONTROL Activer les règles de filtrage de robots IAB]. Cette sélection va supprimer les robots de la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’IAB (Bureau international de la publicité) pour supprimer le trafic de robots. L’IAB met cette liste à jour tous les mois.
+Les règles de robots IAB standard peuvent être activées en cochant la [!UICONTROL Enable IAB Bot Filtering Rules] case. Cette sélection va supprimer les robots de la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’IAB (Bureau international de la publicité) pour supprimer le trafic de robots. L’IAB met cette liste à jour tous les mois.
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -37,7 +37,7 @@ Adobe n’est pas en mesure de fournir la liste des robots IAB détaillée aux c
 
 ## Règles de robots personnalisées
 
->[!Note] : il est possible de définir manuellement 500 règles dans l’interface utilisateur. Au-delà de cette limite, les règles doivent être gérées en bloc au moyen des options Importer un fichier et Exporter des règles de robots.
+>[!NOTE] : il est possible de définir manuellement 500 règles dans l’interface utilisateur. Au-delà de cette limite, les règles doivent être gérées en bloc au moyen des options Importer un fichier et Exporter des règles de robots.
 
 Les règles de robots personnalisées vous permettent de filtrer le trafic sur la base des conditions que vous avez définies.
 
@@ -51,11 +51,11 @@ Plusieurs conditions peuvent être définies pour une seule règle. Dans le cas 
 
 ### Agent utilisateur
 
-Une condition Agent utilisateur vérifie la valeur correspondante afin de déterminer si elle **[!UICONTROL contient]** ou **[!UICONTROL commence par]** la chaîne spécifiée. En cas de sélection de l’option **[!UICONTROL contient]**, une correspondance est établie avec la sous-chaîne si elle est présente dans l’agent utilisateur.
+A User Agent condition checks the user agent value to see if it **[!UICONTROL starts with]** or **[!UICONTROL contains]** the specified string. If **[!UICONTROL contains]** is selected, the substring is matched if it occurs anywhere in the user agent.
 
-Des valeurs facultatives peuvent être incluses dans la liste **[!UICONTROL ne contient pas]** afin de définir les valeurs qui ne peuvent pas se trouver dans l’agent utilisateur pour qu’une correspondance soit établie. Vous pouvez inclure plusieurs valeurs, à raison d’une valeur par ligne. Si l’agent utilisateur répond aux critères spécifiés dans la chaîne de correspondance, mais contient également une chaîne reprise dans la liste « ne contient pas », il n’est pas considéré comme une correspondance.
+Optional values can be included in the **[!UICONTROL does not contain]** list to define values that the user agent must not contain for a successful match. Vous pouvez inclure plusieurs valeurs, à raison d’une valeur par ligne. Si l’agent utilisateur répond aux critères spécifiés dans la chaîne de correspondance, mais contient également une chaîne reprise dans la liste « ne contient pas », il n’est pas considéré comme une correspondance.
 
-Le champ **[!UICONTROL contient]** est limité à 100 caractères. La liste « ne contient pas » est limitée à 255 caractères, moins un caractère de séparation pour chaque nouvelle ligne. (Cela équivaut au nombre de chaînes - 1. Si vous indiquez 4 chaînes *ne contient pas*, 3 caractères de séparation sont obligatoires.) Les correspondances de chaînes ne sont pas sensibles à la casse.
+The **[!UICONTROL contains]** field is limited to 100 characters. La liste « ne contient pas » est limitée à 255 caractères, moins un caractère de séparation pour chaque nouvelle ligne. (Cela équivaut au nombre de chaînes - 1. Si vous indiquez 4 chaînes *ne contient pas*, 3 caractères de séparation sont obligatoires.) Les correspondances de chaînes ne sont pas sensibles à la casse.
 
 ### Adresse IP (avec correspondances de caractères génériques)
 
@@ -72,9 +72,9 @@ Indiquez les plages de début et de fin des adresses IP avec lesquelles vous so
 
 ### Définir une règle de robot personnalisée
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**, sélectionnez une ou plusieurs suites de rapports, puis cliquez sur **[!UICONTROL Général]** > **[!UICONTROL Règles de robots]**.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** et définissez ensuite une ou plusieurs conditions de correspondance.
-1. Cliquez sur **[!UICONTROL Enregistrer]**. La modification doit normalement être prise en compte dans les 30 minutes.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**, sélectionnez une ou plusieurs suites de rapports et cliquez sur **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
+1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
+1. Cliquez sur **[!UICONTROL Save]**. La modification doit normalement être prise en compte dans les 30 minutes.
 
 ## Télécharger des règles de robots
 
@@ -106,11 +106,11 @@ Pour établir une correspondance avec un robot à l’aide d’une combinaison d
 
 ### Remplacer toutes les règles par un fichier de téléchargement
 
-Cochez la case **[!UICONTROL Remplacer les règles existantes]** pour supprimer toutes les règles existantes et les remplacer par celles définies dans le fichier de téléchargement.
+Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all existing rules and replace them with the rules defined in the upload file.
 
 ### Exporter des règles
 
-Le bouton **[!UICONTROL Exporter le fichier de robot téléchargé]** exporte toutes les règles définies dans l’interface utilisateur au format CSV.
+The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
 
 
 ## Incidence des règles de robots sur la collecte de données {#section_F01A3130E7A04A9993371CF26F6586F2}
