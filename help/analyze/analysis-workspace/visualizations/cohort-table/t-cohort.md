@@ -5,7 +5,7 @@ title: Exécution d’un rapport d’analyse des cohortes
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -46,7 +46,7 @@ Créez une cohorte et générez un rapport d’analyse des cohortes dans Analysi
 
    Sélectionnez des cellules (contiguës ou non contiguës), puis cliquez avec le bouton droit de la souris > **[!UICONTROL Create Segment From Selection]**.
 
-1. In the [Segment Builder](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_build.html), further edit the segment, then click **[!UICONTROL Save]**.
+1. In the [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), further edit the segment, then click **[!UICONTROL Save]**.
 
    Le enregistré est disponible pour utilisation dans le panneau [!UICONTROL Segment]Segment d’Analysis Workspace.
 1. Nommez et enregistrez votre projet de cohorte.
