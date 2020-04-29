@@ -5,7 +5,7 @@ title: Traitement complet
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -64,7 +64,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Par exemple : </p> 
+   <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Par exemple : </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -167,7 +167,7 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. </p> <p>Voir le livre blanc « <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
+   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. </p> <p>Voir le livre blanc « <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
