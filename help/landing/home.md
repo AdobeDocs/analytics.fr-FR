@@ -2,7 +2,7 @@
 title: Documentation technique d’Adobe Analytics
 description: Ressources et guides de l’utilisateur d’Analytics
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 
 | Nouveautés et points forts | Principales ressources Analytics |
 | --- | --- |
-| <ul><li>[Collecte de données régionale](/help/technotes/rdc/regional-data-collection.md)</li><li>[Optimisation des performances de Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Comparaison des produits Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Voir aussi : [Mises à jour de la documentation 2019](doc-updates.md) | <ul><li> [Notes de mise à jour](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/)</li><li> [Chaîne YouTube d’Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Tutoriels et vidéos Analytics](https://helpx.adobe.com/fr/analytics/kt/index/analytics-videos.html)</li><li>[Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Formations en personne et cours à distance](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contacter l’assistance clientèle](https://helpx.adobe.com/fr/support/analytics.html)</li></ul> |
+| <ul><li>[Collecte de données régionale](/help/technotes/rdc/regional-data-collection.md)</li><li>[Optimisation des performances de Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Comparaison des produits Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Voir aussi : [Mises à jour de la documentation 2019](doc-updates.md) | <ul><li> [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html)</li><li> [Chaîne YouTube d’Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Tutoriels et vidéos Analytics](https://helpx.adobe.com/fr/analytics/kt/index/analytics-videos.html)</li><li>[Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Formations en personne et cours à distance](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contacter l’assistance clientèle](https://helpx.adobe.com/fr/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
