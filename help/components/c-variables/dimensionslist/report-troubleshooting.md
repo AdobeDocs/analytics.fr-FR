@@ -5,7 +5,7 @@ title: Bonnes pratiques et dépannage de la création de rapports
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Adobe Analytics offre une interface de création de rapports souple qui permet de générer un large éventail de rapports complexes. Bien que la plupart des rapports soient générés très rapidement, vous pouvez rencontrer des rapports en dépassement de délai ou dont la génération a échoué. Pour permettre d’éviter les échecs de génération de rapport, cette rubrique présente de nombreux facteurs qui affectent la vitesse de génération des rapports. La connaissance de ces informations peut vous permettre de structurer les rapports de manière à ce qu’ils soient moins plus susceptibles d’échouer.
 
->[!Note] :
+>[!NOTE]
 >ces recommandations s’appliquent à Reports &amp; Analytics, à Ad Hoc Analysis et à Report Builder.
->Elles ne s’appliquent pas à Analysis Workspace, qui possède son propre ensemble de [bonnes pratiques](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). Elles ne s’appliquent pas non plus aux [bonnes pratiques](https://marketing.adobe.com/resources/help/fr_FR/reference/data_warehouse_bp.html) de Data Warehouse. Un ensemble supplémentaire de
->[bonnes pratiques](https://marketing.adobe.com/developer/fr_FR/get-started/best-practices/c-best-practices) est disponible dans l’API de création de rapports d’Adobe Analytics.
+>Elles ne s’appliquent pas à Analysis Workspace, qui possède son propre ensemble de [bonnes pratiques](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). Elles ne s’appliquent pas non plus aux [bonnes pratiques](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html) de Data Warehouse. Un ensemble supplémentaire de
+>[bonnes pratiques](https://www.adobe.io) est disponible dans l’API de création de rapports d’Adobe Analytics.
 
 ## Délais d’expiration des rapports et file d’attente des demandes {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
