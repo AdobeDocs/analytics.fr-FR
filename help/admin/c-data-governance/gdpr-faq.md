@@ -3,7 +3,7 @@ description: 'null'
 title: Questions fréquentes
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment les contrôleurs de données doivent-ils envisager la conservation des données dans le cadre de la Confidentialité des données ?</b> </p> </td> 
-   <td colname="col2"> <p>La Confidentialité des données prévoit généralement que les données personnelles ne doivent pas être conservées plus longtemps que la durée nécessaire pour atteindre l’objectif pour lequel elles ont été collectées. </p> <p>Comme Adobe l’a expliqué dans sa communication aux clients en février, nous appliquons un plan de conservation des données de 25 mois pour la plupart des clients, à moins que d’autres dispositions n’aient été prises (soumises à notification et autorisation du client). Il sera demandé aux clients de définir leur politique de conservation des données avant qu’Adobe puisse traiter les demandes relatives à la Confidentialité des données. </p> <p>Adobe Analytics exige que les clients définissent leurs pratiques de conservation des données pour traiter leurs demandes relatives à la Confidentialité des données. La politique actuelle de conservation des données de chaque suite de rapports figure dans la nouvelle interface utilisateur d’administration de la Gouvernance des données. Les clients doivent contacter leur représentant Adobe s’ils ont besoin de modifier leur politique de conservation des données. Veuillez vous reporter à la section <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/data-retention-client-table-faq.html">FAQ sur la conservation des données d’Adobe Analytics. </a> </p> </td> 
+   <td colname="col2"> <p>La Confidentialité des données prévoit généralement que les données personnelles ne doivent pas être conservées plus longtemps que la durée nécessaire pour atteindre l’objectif pour lequel elles ont été collectées. </p> <p>Comme Adobe l’a expliqué dans sa communication aux clients en février, nous appliquons un plan de conservation des données de 25 mois pour la plupart des clients, à moins que d’autres dispositions n’aient été prises (soumises à notification et autorisation du client). Il sera demandé aux clients de définir leur politique de conservation des données avant qu’Adobe puisse traiter les demandes relatives à la Confidentialité des données. </p> <p>Adobe Analytics exige que les clients définissent leurs pratiques de conservation des données pour traiter leurs demandes relatives à la Confidentialité des données. La politique actuelle de conservation des données de chaque suite de rapports figure dans la nouvelle interface utilisateur d’administration de la Gouvernance des données. Les clients doivent contacter leur représentant Adobe s’ils ont besoin de modifier leur politique de conservation des données. Veuillez vous reporter à la section <a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html">FAQ sur la conservation des données d’Adobe Analytics. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Un client peut-il réduire ou prolonger la période de conservation des données par défaut ?</b> </p> </td> 
