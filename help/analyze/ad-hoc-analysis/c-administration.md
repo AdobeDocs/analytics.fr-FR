@@ -3,7 +3,7 @@ description: Cette section vous explique comment configurer des utilisateurs et 
 title: Administration
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Cette section vous explique comment configurer des utilisateurs et vous en apprend davantage sur l’échantillonnage des données.
 
-Pour obtenir de l’aide sur [!DNL Admin Console], voir la [référence sur les analyses](https://marketing.adobe.com/resources/help/fr_FR/reference/index.html).
+Pour obtenir de l’aide sur [!DNL Admin Console], voir la [référence sur les analyses](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html).
 
 ## Licences d’utilisateur {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -37,14 +37,14 @@ t_user_licenses.xml
  -->
 
 1. Connectez-vous à [!DNL Experience Cloud].
-1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Gestion des utilisateurs]**.
-1. Cliquez sur **[!UICONTROL Modifier les groupes]**.
+1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. Cliquez sur **[!UICONTROL Edit Groups]**.
 
-   Si votre société a acheté des licences utilisateur le groupe [!UICONTROL Utilisateurs sous licence Ad Hoc Analysis] apparaît dans la colonne [!UICONTROL Nom du groupe]. Le nombre de licences disponibles pour la connexion des utilisateurs est également indiqué.
+   Si votre a acheté des licences d’utilisateur, le [!UICONTROL Ad Hoc Analysis License Users] groupe apparaît dans la [!UICONTROL Group Name] colonne. Le nombre de licences disponibles pour la connexion des utilisateurs est également indiqué.
 
-1. Cliquez sur **[!UICONTROL Modifier]**.
-1. Sous [!UICONTROL Affecter les identifications utilisateur], sélectionnez les utilisateurs que vous souhaitez ajouter au groupe, puis cliquez sur **[!UICONTROL Ajouter.]**
-1. Cliquez sur **[!UICONTROL Enregistrer le groupe]**.
+1. Cliquez sur **[!UICONTROL Edit]**.
+1. Under [!UICONTROL Assign User Logins], select the users you want to add to the group, then click **[!UICONTROL Add.]**
+1. Cliquez sur **[!UICONTROL Save Group]**.
 
    Le système d’octroi de licences n’impose pas de limite quant au nombre d’utilisateurs pouvant être ajoutés à un groupe. L’utilisation simultanée est limitée au nombre de licences d’utilisateur achetées.
 
@@ -58,10 +58,10 @@ t_managing_users.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gestion des utilisateurs]**, puis sur **[!UICONTROL Gérer les utilisateurs]**.
-1. Recherchez l’utilisateur, puis cliquez sur **[!UICONTROL Terminer.]**
+1. Cliquez sur **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]**, puis sur **[!UICONTROL Manage Users]**.
+1. Locate the user, then click **[!UICONTROL Terminate.]**
 
-   Sur la page [!UICONTROL Sessions Ad Hoc Analysis actives], l’utilisateur qui est resté inactif le plus longtemps est affiché en haut de la liste.
+   On the [!UICONTROL Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list.
 
 ## Autorisations {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
@@ -84,10 +84,10 @@ t_permissions.xml
  -->
 
 1. Connectez-vous à **[!UICONTROL Experience Cloud]**.
-1. Cliquez sur **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Modifier les groupes]**.
-1. Cliquez sur **[!UICONTROL Accès à tous les rapports]**.
-1. Dans [!UICONTROL Utilisateurs disponibles], sélectionnez l’utilisateur, puis cliquez sur **[!UICONTROL Ajouter]**.
-1. Cliquez sur **[!UICONTROL Enregistrer le groupe]**.
+1. Cliquez sur **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+1. Cliquez sur **[!UICONTROL All Report Access]**.
+1. Dans [!UICONTROL Available Users], sélectionnez l’utilisateur, puis cliquez sur **[!UICONTROL Add.]**
+1. Cliquez sur **[!UICONTROL Save Group]**.
 
 ## Créer des groupes d’autorisations {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -100,10 +100,10 @@ t_permission_groups.xml
  -->
 
 1. Connectez-vous à **[!UICONTROL Experience Cloud]**.
-1. Cliquez sur **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Modifier les groupes]**.
+1. Cliquez sur **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 1. Créez un groupe d’autorisations pour les utilisateurs non administrateurs dans lequel seront stockées les suites de rapports activées par les Ad Hoc Analysis que vous souhaitez mettre à la disposition des utilisateurs.
 
-   Les suites de rapports disponibles pour l’utilisateur s’affichent dans le menu [!UICONTROL Cloud de rapports] lors de la création d’un projet.
+   The report suites available to the user are displayed in the [!UICONTROL Report Cloud] menu when you create a new project.
 
 ## Configurer des stratégies de proxy en langage Java {#task_3B03F58519544025B55CF54FACF8F4F5}
 
@@ -117,10 +117,10 @@ t_proxy_policies.xml
 
 Les Ad Hoc Analysis utilisent HTTP pour communiquer avec le serveur. Il est soumis aux mêmes stratégies de proxy que tout autre trafic HTTP.
 
-1. Dans [!DNL Windows Control Panel], lancez le [!UICONTROL Panneau de configuration Java].
-1. Dans l’onglet **[!UICONTROL Général]**, cliquez sur **[!UICONTROL Paramètres réseau]**.
-1. Sélectionnez **[!UICONTROL Utiliser les paramètres du navigateur]** ou configurez manuellement les paramètres du serveur proxy.
-1. Cliquez sur **[!UICONTROL OK]**, puis à nouveau sur **[!UICONTROL OK]** dans le [!UICONTROL Panneau de configuration Java].
+1. Dans le [!DNL Windows Control Panel], lancez le [!UICONTROL Java Control Panel].
+1. Sur l’ **[!UICONTROL General]** onglet, cliquez sur **[!UICONTROL Network Settings]**.
+1. Sélectionnez **[!UICONTROL Use browser settings]** ou configurez manuellement les paramètres du proxy.
+1. Cliquez sur **[!UICONTROL OK]**, puis sur **[!UICONTROL OK]** le [!UICONTROL Java Control Panel].
 
 ## Échantillonnage des données {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
