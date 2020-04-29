@@ -3,7 +3,7 @@ description: Une présentation du menu Rapports dans Reports & Analytics.
 title: Menu Rapports
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez naviguer dans les rapports en utilisant une colonne hiérarchique. C
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Pour obtenir plus de détails sur les rapports, voir [Description des rapports](https://marketing.adobe.com/resources/help/fr_FR/reference/reports_descriptions.html).
+Pour obtenir plus de détails sur les rapports, voir [Description des rapports](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html).
 
 ## Recherche de rapports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -59,7 +59,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segments <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Permet d’afficher le rail des segments qui vous permet d’ajouter ou de gérer des segments. Vous pouvez également accéder aux interfaces du <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_build_ui.html"  >créateur de segments</a> et du <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/seg_manage.html"  >gestionnaire de segments</a> à partir de ce rail. </td> 
+   <td colname="col2">Permet d’afficher le rail des segments qui vous permet d’ajouter ou de gérer des segments. Vous pouvez également accéder aux interfaces du <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >créateur de segments</a> et du <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >gestionnaire de segments</a> à partir de ce rail. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Mesures <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -107,7 +107,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1">Sélecteur de Report Suites <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Vous permet de sélectionner des <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/report_suites_admin.html"  >suites de rapports de base</a> ou des <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/virtual-report-suites.html"  >suites de rapports virtuelles</a>. </td> 
+   <td colname="col2">Vous permet de sélectionner des <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/manage-report-suites/report-suites-admin.html"  >suites de rapports de base</a> ou des <a href="https://docs.adobe.com/help/fr-FR/analytics/components/virtual-report-suites/vrs-about.html"  >suites de rapports virtuelles</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendrier <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
 
 ## Personnalisation du menu Tous les rapports {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/customize-menus.translate.html) dans l’aide destinée aux administrateurs.
+Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) dans l’aide destinée aux administrateurs.
