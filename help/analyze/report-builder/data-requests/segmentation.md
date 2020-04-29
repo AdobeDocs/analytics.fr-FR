@@ -4,7 +4,7 @@ title: Gestion des segments
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Le Report Builder inclut un panneau de segmentation à l’étape 1 de l’Assi
 >[!NOTE] Pour ajouter ou modifier des segments, l’interface de segments du Report Builder lance le Créateur de segments d’Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, consultez la page [https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/).
+1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, reportez-vous à la segmentation [](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html)Analytics.
 1. Une fois le segment défini et enregistré, retournez à l’Assistant Requête.
 1. Cliquez sur l’icône Actualiser afin d’actualiser la liste des segments.
 
@@ -39,7 +39,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
    ![](assets/seg_in_context.png)
 
-   Pour plus d’informations sur les conteneurs, voir le [Guide de segmentation](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/).
+   Pour plus d’informations sur les conteneurs, voir le [Guide de segmentation](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html).
 
 1. L’interface utilisateur du Créateur de segments est à présent lancée dans Internet Explorer. Elle est initialisée avec le conteneur et le filtre que vous avez indiqués.
 1. Une fois que vous avez ajouté un nom et une description au segment, enregistrez-le.
