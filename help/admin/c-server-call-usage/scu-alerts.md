@@ -3,7 +3,7 @@ description: Ajoutez ou gérez toutes les alertes d’utilisation du serveur. Lo
 title: Alerte d’utilisation des appels au serveur
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ Lorsque vous configurez une alerte, elle s’applique à toutes les suites de ra
 
 ## Aperçu
 
-Une nouvelle catégorie d’alertes appelée **[!UICONTROL Alertes d’utilisation de l’appel au serveur]** fait partie de l’interface utilisateur existante [Gestion des alertes](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/intellligent_alerts.html).
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) user interface.
 
 Elle contient déjà **une alerte par défaut** qui apparaît dans toutes les sociétés de connexion qui ont accès à la fonctionnalité d’utilisation de l’appel au serveur. Cette alerte déclenche l’envoi d’une notification à tous les administrateurs de la société de connexion si l’un des critères suivants est rempli :
 
@@ -26,14 +26,14 @@ Elle contient déjà **une alerte par défaut** qui apparaît dans toutes les so
 
 Vous pouvez accéder aux alertes d’utilisation des appels au serveur de deux façons :
 
-* cliquez sur **[!UICONTROL Gérer les alertes]** dans le coin supérieur droit de l’onglet Utilisation actuelle ou Suite de rapports d’utilisation ; ou
-* accédez à **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** dans Adobe Analytics.
+* Click **[!UICONTROL Manage Alerts]** in the upper right corner on the Current Usage tab or the Report Suite usage tab, or
+* Accédez à **[!UICONTROL Components]** > **[!UICONTROL Alerts]** dans Adobe Analytics.
 
 ## Créer des alertes d’utilisation des appels au serveur {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
 Pour créer des alertes supplémentaires :
 
-1. Cliquez sur **[!UICONTROL + Ajouter]** et sélectionnez **[!UICONTROL Alertes d’utilisation de l’appel au serveur]**.
+1. Cliquez sur **[!UICONTROL + Add]** puis sélectionnez **[!UICONTROL Server Call Usage Alert]**.
 
    ![](assets/server_call_alert.png)
 
@@ -54,7 +54,7 @@ Ajoute le type d’appel au serveur en tant que mesure et spécifie le seuil de 
       * Avec
 Spécifie le seuil et la condition (est supérieur ou égal ou est inférieur ou égal) pour la période d’utilisation passée.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Save]**.
 
 ## Gérer des alertes d’utilisation de l’appel au serveur {#section_8FF98170763C4B5CBEC6DD43F893177A}
 
@@ -67,12 +67,12 @@ Pour gérer des alertes :
 
    | Action | Définition |
    |--- |--- |
-   | + Ajouter | Accédez au [Générateur d’alertes](/help/admin/c-server-call-usage/scu-alerts.md) en cliquant sur [!UICONTROL + Ajouter] |
+   | + Ajouter | Access the [Alert Builder](/help/admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add]. |
    | Baliser | Ajoutez des balises aux alertes pour les organiser et les utiliser plus facilement. |
    | Supprimer | Vous pouvez supprimer toutes les alertes sauf les alertes par défaut. |
    | Renommer | Vous pouvez renommer toutes les alertes sauf les alertes par défaut. |
    | Approuver | Approuvez les alertes pour les rendre &quot;officielles&quot;. |
    | Activer/Désactiver | Vous pouvez activer ou désactiver toutes les alertes sauf les alertes par défaut. |
-   | Renouveler | When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
+   | Renouveler | Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
    | Exporter dans un fichier CSV | Reportez-vous à [Télécharger le rapport d’utilisation](/help/admin/c-server-call-usage/report-suite-usage.md). |
 
