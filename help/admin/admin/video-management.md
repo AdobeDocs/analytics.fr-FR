@@ -4,7 +4,7 @@ title: Gestion des vidéos
 topic: Admin tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -13,6 +13,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Vous pouvez désigner une série de variables de conversion (eVars) et d’événements personnalisés à utiliser dans le suivi et l’établissement de rapports vidéo.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion des vidéos]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Video Management]**.
 
-Voir [Mesure de vidéos dans Analytics](https://marketing.adobe.com/resources/help/fr_FR/sc/appmeasurement/video/index.html).
+Voir [Mesure de vidéos dans Analytics](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html).
