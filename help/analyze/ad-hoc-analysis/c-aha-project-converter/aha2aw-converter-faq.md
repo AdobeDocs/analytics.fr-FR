@@ -3,7 +3,7 @@ description: valeur nulle
 title: FAQ Convertisseur de projets
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -50,9 +50,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>R : Veuillez noter que les diagrammes et les graphiques sont appelés « visualisations » dans Workspace. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Paramètres</b> : les paramètres de visualisations tels que « Nombre d’éléments » ou « Nombre de barres » ne sont pas pris en charge par Workspace. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Graphique en secteurs</b> : exportation en tant que <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/donut.html"  >visualisation en anneau</a>. Cette visualisation dans Workspace est limitée à 19 sections. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Graphique à bulles</b> : exporté en tant que <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/scatterplot.html"  >visualisation de dispersion</a>. Par défaut, la visualisation de dispersion déplace la première mesure sur l’axe X et la deuxième sur l’axe Y. S’il n’existe qu’une mesure, le graphique à bulles sera converti en visualisation en lignes. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramme</b> : prise en charge d’un raisonnement différent par intervalles dans Workspace comparé à Ad Hoc Analysis. Par conséquent, il est converti en <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/bar.html"  >visualisation en barres</a>. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Graphique en secteurs</b> : exportation en tant que <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  >visualisation en anneau</a>. Cette visualisation dans Workspace est limitée à 19 sections. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Graphique à bulles</b> : exporté en tant que <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >visualisation de dispersion</a>. Par défaut, la visualisation de dispersion déplace la première mesure sur l’axe X et la deuxième sur l’axe Y. S’il n’existe qu’une mesure, le graphique à bulles sera converti en visualisation en lignes. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramme</b> : prise en charge d’un raisonnement différent par intervalles dans Workspace comparé à Ad Hoc Analysis. Par conséquent, il est converti en <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  >visualisation en barres</a>. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Graphique de dispersion</b> : dans les projets exportés dans Analysis Workspace, l’axe Y correspond à la première colonne, l’axe X à la seconde et le diamètre à la troisième. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Tableaux Abandons</b> : pour afficher les tableaux Diminutions ou Abandons, faites un clic droit sur le point de contrôle et sélectionnez l’option Ventilation. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Périodes des rapports d’Abandons</b> : les périodes personnalisables de rapports n’ont pas été appliquées aux visualisations des Abandons. </li> 
@@ -68,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Les segments des espaces de travail Ad Hoc Analysis sont appliqués à l’échelle du projet / de l’espace de travail dans Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Les segments des rapports Ad Hoc Analysis sont appliqués à l’échelle des colonnes de tableau dans Workspace. </li> 
      <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Les segments des tableaux Ad Hoc Analysis sont appliqués à l’échelle des colonnes dans Workspace. </li> 
-    </ul> <p>Les segments peuvent être modifiés dans le <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/"  >créateur de segments</a>. </p> </td> 
+    </ul> <p>Les segments peuvent être modifiés dans le <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html"  >créateur de segments</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Comment sont converties les périodes ?</b> </p> </td> 
@@ -86,7 +86,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_010572F793F54680ABE64117DAB7E800">Les mesures calculées sont internes au projet converti (non publiques). Elles peuvent être rendues publiques en effectuant un clic droit sur la mesure puis en cliquant sur <span class="uicontrol">Rendre public</span>. <p><img placement="inline"  src="assets/calc_metric_internal.png" id="image_EA19BA55B161499CBDB9275A5C94BA90" width="200px" /> </p> </li> 
      <li id="li_930546EC8FEB432C8810FAF93556FC9A">Tous les types de mesures calculées sont prises en charge pour l’exportation. </li> 
      <li id="li_DFF7C6F8BB2344928D49194DA0F6EC38"><b>Types d’attribution</b> : bien qu’Analysis Workspace n’affiche pas explicitement le type d’attribution des mesures calculées, l’exportation crée un type d’attribution qui correspond à celui présent dans Ad Hoc Analysis. </li> 
-    </ul> <p>Les attributions peuvent être modifiées dans le <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/"  >créateur de mesures calculées</a> en cliquant sur l’icône de modification (crayon). </p> </td> 
+    </ul> <p>Les attributions peuvent être modifiées dans le <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html"  >créateur de mesures calculées</a> en cliquant sur l’icône de modification (crayon). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Comment sont appliqués les paramètres des données globales d’Ad Hoc aux projets convertis ?</b> </p> </td> 
@@ -99,10 +99,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   <tr> 
    <td colname="col1"> <p><b>Q : Si mon projet Ad Hoc Analysis est programmé, la programmation sera-t-elle convertie dans Analysis Workspace ?</b> </p> </td> 
    <td colname="col2"> <p>Non, les programmations ne sont pas converties. Dans Analysis Workspace, ouvrez le projet que vous désirez programmer et allez dans <span class="uicontrol">Partager</span> &gt; <span class="uicontrol">Envoyer un fichier en programmation</span> afin de définir une nouvelle programmation. Assurez-vous d’annuler le projet programmé dans Ad Hoc Analysis. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Existe-t-il des différences de noms entre les deux outils ?</b> </p> </td> 
-   <td colname="col2"> <p>R : Oui. Reportez-vous à la <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  >Comparaison des termes clés</a> dans la documentation d’Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
