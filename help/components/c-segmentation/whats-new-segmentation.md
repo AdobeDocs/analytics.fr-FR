@@ -3,7 +3,7 @@ description: Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
 title: Nouveautés de la segmentation dans Analytics
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -73,7 +73,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
    <td colname="col2"> <p>Dans une clause « dans » entre des instructions ALORS, vous pouvez ajouter par exemple « dans une instance de mot-clé de recherche », « dans une instance eVar 47 ». Le segment est ainsi limité à une instance d’une dimension. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace : <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/fallout_flow.html"  >Utilisation des segments dans l’analyse des abandons </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace : <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  >Utilisation des segments dans l’analyse des abandons </a> </p> </td> 
    <td colname="col2"> <p>Dans Analysis Workspace, vous pouvez créer des segments d’après un point de contact, ajouter des segments comme points de contact et comparer des processus clés pour plusieurs segments. </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; Comparaison de segments </p> </td> 
-   <td colname="col2"> <p> Le panneau de <a href="https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/segment-comparison.html"  >comparaison de segments</a> (Segment IQ) d’Analysis Workspace permet aux clients de comparer rapidement deux segments Analytics pour trouver les différences les plus significatives entre eux dans tous les points de données. </p> </td> 
+   <td colname="col2"> <p> Le panneau de <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  >comparaison de segments</a> (Segment IQ) d’Analysis Workspace permet aux clients de comparer rapidement deux segments Analytics pour trouver les différences les plus significatives entre eux dans tous les points de données. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Autorisation <span class="wintitle">Créer un segment</span> </p> </td> 
-   <td colname="col2"> <p>Les utilisateurs qui ne disposent pas de l’autorisation <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/groups.html"  >Créer un segment</a> ne peuvent plus accéder au Créateur de segments. </p> </td> 
+   <td colname="col2"> <p>Les utilisateurs qui ne disposent pas de l’autorisation <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html"  >Créer un segment</a> ne peuvent plus accéder au Créateur de segments. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Nouvelles fonctionnalités de la segmentation dans Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Modifications apportées aux autorisations du Créateur de segments </p> </td> 
-   <td colname="col2"> <p>L’utilisateur Admin peut limiter les utilisateurs autorisés à créer de nouveaux segments. Par défaut, tous les utilisateurs peuvent créer des segments. <a href="https://marketing.adobe.com/resources/help/fr_FR/reference/groups.html"  > Plus...</a> </p> </td> 
+   <td colname="col2"> <p>L’utilisateur Admin peut limiter les utilisateurs autorisés à créer de nouveaux segments. Par défaut, tous les utilisateurs peuvent créer des segments. <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html"  > Plus...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
