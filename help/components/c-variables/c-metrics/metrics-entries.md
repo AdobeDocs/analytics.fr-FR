@@ -4,7 +4,7 @@ title: Entrées
 topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,4 +15,4 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 
 Dans Analysis Workspace, depuis mars 2020, nous avons modifié la manière dont la valeur « Aucun » interagit avec les entrées/sorties.  Comme vous pouvez désormais activer et désactiver l’option &quot;Non&quot; dans  Workspace , nous appliquons l’option &quot;Aucun&quot; après l’entrée ou la sortie, alors que (pour les eVars) elle était appliquée avant.  Par exemple, supposons que le premier accès d’une visite n’ait aucune valeur pour, par exemple, eVar21, mais que le second accès l’est. Dans Reports &amp; Analytics, il s’affichera comme « Non spécifié » pour l’entrée, mais dans Analysis Workspace, il affichera la valeur pour le second accès.
 
-Les pages d’entrée comportent une portée de ventilation de visites, signifiant qu’elles persistent sur l’ensemble des accès pour une visite. Pour plus d’informations, voir [Conteneurs de ventilation et de segmentation](https://marketing.adobe.com/resources/help/en_US/sc/user/c_Breakdown_and_segmentation_containers.html).
+Les pages d’entrée comportent une portée de ventilation de visites, signifiant qu’elles persistent sur l’ensemble des accès pour une visite. Pour plus d’informations, voir [Conteneurs de ventilation et de segmentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-overview.html).
