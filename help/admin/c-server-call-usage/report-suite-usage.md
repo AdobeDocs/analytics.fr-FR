@@ -3,7 +3,7 @@ description: L’onglet Suite de rapports d’utilisation fournit des données d
 title: Affichage de l’utilisation des suites de rapports
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Utilisation de l’appel au serveur]** > **[!UICONTROL Suite de rapports d’utilisation]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Report Suite Usage]**
 
 >[!IMPORTANT]
 >
->Si une suite de rapports n’est [pas liée à une organisation Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/report-suite-mapping.html), ses données d’utilisation ne seront pas reflétées dans le tableau de bord. De plus, un ID de facturation pourrait être associé à plusieurs organisations Experience Cloud, il ne s’agit pas toujours d’une relation 1:1 entre l’organisation et l’ID de facturation.
+>Si une suite de rapports n’est [pas liée à une organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html), ses données d’utilisation ne seront pas reflétées dans le tableau de bord. De plus, un ID de facturation pourrait être associé à plusieurs organisations Experience Cloud, il ne s’agit pas toujours d’une relation 1:1 entre l’organisation et l’ID de facturation.
 
 Le tableau de bord de la suite de rapports d’utilisation :
 
@@ -24,7 +24,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 * affiche le pourcentage de l’utilisation générale par catégories d’appels au serveur ;
 * est mis à jour quotidiennement ;
 * est téléchargeable ;
-* vous permet d’accéder à l’interface utilisateur de la **[!UICONTROL Gestion des alertes]**.
+* Vous permet d’accéder à l’ **[!UICONTROL Manage Alerts]** interface utilisateur.
 
 ![](assets/report-suite-usage.png)
 
@@ -43,7 +43,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 Cette option vous permet de télécharger les données d’utilisation actuelles, ainsi que les données de périodes antérieures (en remontant jusqu’à janvier 2015). Le rapport est téléchargé au format .cvs.
 
 1. Sélectionnez au moins une suite de rapports.
-1. Cliquez sur **[!UICONTROL Télécharger un rapport]**.
+1. Cliquez sur **[!UICONTROL Download Report]**.
 
    ![](assets/download_report.png)
 
@@ -54,7 +54,7 @@ Cette option vous permet de télécharger les données d’utilisation actuelles
 | Types d’appels inclus | Spécifiez n’importe quelle combinaison entre : Tous les appels (par défaut), Principal, Secondaire, Principal mobile, Principal secondaire. |
 | Période | Vous pouvez sélectionner la période d’utilisation actuelle ou indiquer une période spécifique.  Pour définir une période personnalisée, indiquez le début de la période et la fin de la période. <br>**Remarque :**vous ne pouvez pas télécharger des données d’utilisation antérieures à janvier 2015</br>. |
 
-1. Cliquez sur **[!UICONTROL Télécharger]**.
+1. Cliquez sur **[!UICONTROL Download]**.
 
 Voici une capture d’écran de ce à quoi ressemble le fichier .csv téléchargé. Il comprend une colonne pour l’identifiant de la suite de rapports. L’identifiant de la suite de rapports spécifie un identifiant unique pouvant uniquement contenir des caractères alphanumériques. Cet identifiant ne peut pas être modifié après la création d’une suite de rapports.
 
