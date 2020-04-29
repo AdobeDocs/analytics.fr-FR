@@ -5,7 +5,7 @@ title: Ordre de traitement
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -34,7 +34,7 @@ Les tableaux suivants répertorient les données qui sont généralement disponi
 | Données ajoutées par VISTA | Les règles de traitement sont appliquées avant VISTA. |
 | Numéro de page de la visite | Généralement, les règles de traitement ne sont informées que des données contenues dans l’accès actuel. Le numéro de page de la visite est compilé après l’application des règles de traitement. |
 | Une URL propre est ajoutée comme nom de page si aucun nom n’est défini | Après l’application des règles de traitement et VISTA, l’URL propre est ajoutée comme nom de page si aucun nom n’est défini. Dans la mesure où cela se produit après l’application des règles, il est conseillé d’ajouter une condition afin de vérifier si le nom de page est vide.  Si, après l’exécution de Contenu du site > Rapport Pages, des valeurs https:// sont présentées pour les noms de pages, il est probable que le nom de page soit vide et que l’URL soit en cours d’utilisation.  Vous pouvez configurer une condition afin de rechercher un nom de page vide ou de vérifier si le nom de page ou l’URL de la page contient une valeur spécifique. Le nom de la page peut alors être défini selon vos besoins. |
-| Règles de traitement des canaux marketing | Vous pouvez utiliser des règles de traitement afin de préparer les données en vue de leur traitement par des [règles Canaux marketing](https://marketing.adobe.com/resources/help/fr_FR/mchannel/c_rules.html). |
+| Règles de traitement des canaux marketing | Vous pouvez utiliser des règles de traitement afin de préparer les données en vue de leur traitement par des [règles Canaux marketing](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-rules.html). |
 | Recherche GEO | Inclut les valeurs État du visiteur et Code postal du visiteur. |
 | Persistance des variables eVar | Les variables eVar qui étaient contenues dans un accès précédent ne sont pas conservées dans chacun des accès au cours du traitement des règles. Seules les variables eVar qui sont définies sur l’accès en cours de traitement sont disponibles. |
 
