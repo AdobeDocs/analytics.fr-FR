@@ -3,7 +3,7 @@ description: valeur nulle
 title: Configuration d’une visualisation Abandons
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,7 +16,7 @@ Il est possible en outre d’ajouter des segments dans un point de contact, par 
 
 Il n’existe aucune restriction quant au nombre d’étapes pouvant être ajoutées ou au nombre de dimensions utilisées.
 
-Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars de marchandisage et les [listVars](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/listN.html) (variables pouvant avoir plusieurs valeurs par accès, tels les produits, listVars, les eVars de marchandisage et les props de liste). Supposons par exemple qu’un visiteur consulte sur une page la séquence chaussures, chemise puis, sur la page suivante, la séquence chemise, chaussettes. Le prochain rapport de flux de produits généré à partir des chaussures portera sur chemise et chaussettes, SAUF chemise.
+Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars de marchandisage et les [listVars](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html) (variables pouvant avoir plusieurs valeurs par accès, tels les produits, listVars, les eVars de marchandisage et les props de liste). Supposons par exemple qu’un visiteur consulte sur une page la séquence chaussures, chemise puis, sur la page suivante, la séquence chemise, chaussettes. Le prochain rapport de flux de produits généré à partir des chaussures portera sur chemise et chaussettes, SAUF chemise.
 
 1. Faites glisser une [!UICONTROL Fallout] visualisation de la liste déroulante Visualisations vers une [!UICONTROL Freeform Table].
 
