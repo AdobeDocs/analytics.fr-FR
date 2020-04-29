@@ -4,7 +4,7 @@ title: Vidéo
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -44,4 +44,4 @@ Affiche des informations sur vos statistiques d’accès aux médias en ligne. C
  </tbody> 
 </table>
 
-Voir [Mesures audio et vidéo dans Adobe Analytics](https://marketing.adobe.com/resources/help/fr_FR/sc/appmeasurement/hbvideo/).
+Voir [Mesures audio et vidéo dans Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html).
