@@ -3,7 +3,7 @@ description: L’histogramme est un nouveau type de visualisation d’Analysis 
 title: Histogramme
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -37,7 +37,9 @@ Pour régler les paramètres de l’histogramme, cliquez sur l’icône d’engr
 | Intervalle de début | Détermine par quel intervalle commence l’histogramme. « 1 » par défaut. Peut être défini sur 0 à l’infini (aucun nombre négatif). |
 | Intervalles de mesures | Permet d’augmenter ou de réduire le nombre de classes de données (intervalles). Il ne peut pas y avoir plus de 50 intervalles. |
 | Taille de l’intervalle de mesures | Permet de définir la taille de chaque intervalle. Vous pouvez par exemple modifier la taille de l’intervalle d’une page vue à deux pages vues. |
-| Méthode de comptage | Choisissons entre [Visiteur](https://marketing.adobe.com/resources/help/fr_FR/reference/visitors.html), [Visite](https://marketing.adobe.com/resources/help/fr_FR/reference/metrics_visit.html) ou [Accès](https://marketing.adobe.com/resources/help/fr_FR/reference/hit.html). Par exemple, pages vues par visite ou pages vues par visiteur ou pages vues par accès. Pour l’accès, la mesure « Occurrences » est utilisée comme mesure de l’axe Y dans un tableau à structure libre. |
+| Méthode de comptage | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). Par exemple, pages vues par visite ou pages vues par visiteur ou pages vues par accès. Pour l’accès, la mesure « Occurrences » est utilisée comme mesure de l’axe Y dans un tableau à structure libre. |
+
+<!--Russ or Meike - Check Hit Type link above. -->
 
 **Exemples** :
 
@@ -54,4 +56,4 @@ Les segments prédéfinis du tableau sont des segments internes ; ils n’appar
 
 ![](assets/prebuilt_segments.png)
 
-Pour découvrir d’autres façons de générer des tableaux de données à structure libre et d’autres visualisations (ventilations de données, par exemple), cliquez [ici](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/freeform-analysis-visualizations.html).
+Pour découvrir d’autres façons de générer des tableaux de données à structure libre et d’autres visualisations (ventilations de données, par exemple), cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
