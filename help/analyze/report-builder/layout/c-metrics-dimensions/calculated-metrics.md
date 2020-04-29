@@ -3,7 +3,7 @@ description: La version 5.2 du Report Builder prend en charge les mesures calcu
 title: Mesures calculées
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ La version 5.2 du Report Builder prend en charge les mesures calculées unifié
 
 >[!NOTE] Il est possible que les classeurs existants pointent vers des demandes avec des identifiants de mesure hérités. Lorsque vous utilisez la version 5.2 du Report Builder, ces identifiants de mesure hérités sont convertis en nouvel identifiant global. Si vous partagez ce classeur avec un utilisateur de la version 5.1 ou antérieure du Report Builder, il ne verra pas les mesures calculées.
 
-Pour en savoir plus sur la manière de créer et de gérer des mesures calculées à l’aide du nouveau créateur et gestionnaire de mesures calculées, reportez-vous au guide des [mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics).
+Pour en savoir plus sur la manière de créer et de gérer des mesures calculées à l’aide du nouveau créateur et gestionnaire de mesures calculées, reportez-vous au guide des [mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html).
 
 À la deuxième étape de l’Assistant Requête, vous pouvez filtrer et appliquer les mesures calculées.
 
