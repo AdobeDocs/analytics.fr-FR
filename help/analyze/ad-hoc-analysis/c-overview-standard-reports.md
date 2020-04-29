@@ -4,7 +4,7 @@ title: Rapports - Aperçu
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ Si vous utilisez des Reports and Analytics marketing, les types de rapports et l
 
 **Rapports récapitulatifs**
 
-Inclut des rapports, tels que [!UICONTROL Totaux], qui affichent des données d’aperçu rapide. Ces rapports sont destinés aux cadres qui veulent accéder à une vue d’ensemble des données.
+Includes reports such as the [!UICONTROL Totals Report], which shows data designed for quick overviews. Ces rapports sont destinés aux cadres qui veulent accéder à une vue d’ensemble des données.
 
 **Rapports de conversion**
 
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-Ces rapports sont généralement personnalisés et diffèrent par conséquent d’un analyste à l’autre. Pour plus d’informations, voir [Gestionnaire de campagnes](https://marketing.adobe.com/resources/help/fr_FR/reference/campaign_manager_admin.html) dans l’aide d’[!DNL Admin Console].
+Ces rapports sont généralement personnalisés et diffèrent par conséquent d’un analyste à l’autre. Pour plus d’informations, consultez l’aide [de la Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) d’administration.
 
 ## Calculs statistiques {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,12 +74,12 @@ D’autres calculs statistiques par défaut peuvent être ajoutés aux rapports 
 
 **Pour ouvrir les calculs statistiques pour les rapports de classement :**
 
-1. Dans le menu, sélectionnez **[!UICONTROL Outils]** > **[!UICONTROL Classement]**.
+1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu.
 
-1. Sélectionnez **[!UICONTROL Paramètres]**.
-1. Sélectionnez **[!UICONTROL Statistiques par défaut]**.
+1. Select **[!UICONTROL Settings]**.
+1. Select **[!UICONTROL Default Statistics]**.
 
-**[!UICONTROL Ignorer les zéros dans les calculs statistiques]**. Sélectionnez cette option pour ignorer les zéros et veiller à ce que les moyennes déjà calculées ne soient pas modifiées par l’ajout d’une autre mesure. Toutes les statistiques sont concernées par ce paramètre (il n’a toutefois aucun effet sur la fonction Somme).
+**[!UICONTROL Ignore zeros in statistical calculations]**. Sélectionnez cette option pour ignorer les zéros et veiller à ce que les moyennes déjà calculées ne soient pas modifiées par l’ajout d’une autre mesure. Toutes les statistiques sont concernées par ce paramètre (il n’a toutefois aucun effet sur la fonction Somme).
 
 | Calcul | Description |
 |--- |--- |
@@ -141,7 +141,7 @@ c_overlay_calculations.xml
 
  -->
 
-Dans un rapport qui identifie les données sur une période donnée, le bouton **[!UICONTROL Statistiques]** permet de sélectionner des calculs qui s’affichent sous forme de superpositions dans la chronologie du rapport.
+In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line.
 
 ![](assets/overlay_calculations.png)
 
@@ -149,7 +149,7 @@ En plus des [calculs statistiques](/help/analyze/ad-hoc-analysis/c-overview-stan
 
 ## Gestionnaire de groupe {#concept_E1433974A61144858E87334C006982B2}
 
-Plutôt que d’utiliser des pages uniques dans votre rapport, vous pouvez regrouper plusieurs pages et les utiliser comme catégories pour les emplacements de début, intermédiaires ou de destination dans les rapports [!UICONTROL Abandon] et [!UICONTROL Analyse de site]. Vous pouvez modifier les groupes à partir du menu principal ou du rapport. Les catégories que vous avez créées dans les Reports and Analytics marketing apparaissent également dans la liste [!UICONTROL Sélecteur de points de contrôle].
+Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. Vous pouvez modifier les groupes à partir du menu principal ou du rapport. Categories that you have created in marketing reports and analytics also appear in the [!UICONTROL Checkpoint Selector] list.
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Gestionnaire de groupe]**.
+Cliquez sur **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**.
