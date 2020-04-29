@@ -5,7 +5,7 @@ title: Questions fréquentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,9 +18,9 @@ Répond aux questions fréquemment posées sur les fonctionnalités de segmentat
 
 * Segmentation dans Analysis Workspace :
 
-   * Vous pouvez [comparer des segments](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/segment-comparison.html).
-   * Utilisez les [segments comme dimensions](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/segments_as_dimensions.html) dans une comparaison.
-   * Utilisez des segments dans [l’analyse des abandons](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
+   * Vous pouvez [comparer des segments](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
+   * Utilisez les [segments comme dimensions](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html) dans une comparaison.
+   * Utilisez des segments dans [l’analyse des abandons](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Vous pouvez [appliquer plusieurs segments à un rapport ou à un projet](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Les segments fonctionnent dans toutes les suites de rapports.
@@ -40,9 +40,9 @@ Voir l’article [Amélioration de la segmentation dans Adobe Analytics](https:
 
 Accédez au Créateur de segments en procédant comme suit :
 
-* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. Dans le rail du segment qui s’affiche, cliquez ensuite sur **[!UICONTROL Ajouter]**, ou
+* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. In the segment rail that displays, then click **[!UICONTROL Add]**, or
 
-* Dans la partie supérieure du Gestionnaire de segments, cliquez sur **[!UICONTROL + Ajouter]**.  ![](assets/add_button.png)
+* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
 
    ou
 
@@ -52,9 +52,9 @@ Accédez au Créateur de segments en procédant comme suit :
 
 Accédez au Gestionnaire de segments en procédant comme suit :
 
-* sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** dans le volet de navigation supérieur. Cliquez ensuite sur **[!UICONTROL Segments]**, ou
+* Going to  **[!UICONTROL Analytics]** > **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or
 
-* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**, ou
+* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. Then click **[!UICONTROL Manage]**, or
 
 * appuyez sur la barre oblique « / » n’importe où dans l’interface et recherchez le Gestionnaire de segments.
 
@@ -74,7 +74,7 @@ Le menu déroulant des suites de rapports a été déplacé en regard du sélect
 
 **Quels droits et privilèges dois-je posséder pour utiliser, créer et gérer des segments ?**
 
-Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://marketing.adobe.com/resources/help/fr_FR/reference/groups.html) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
+Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
 
 Les administrateurs peuvent modifier n’importe quel segment et partager les segments avec des groupes et toute personne de l’entreprise. [Plus...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
