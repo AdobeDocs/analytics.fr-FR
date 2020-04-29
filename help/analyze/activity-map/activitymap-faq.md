@@ -4,7 +4,7 @@ title: Questions fréquentes sur Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,7 +25,7 @@ R : Les clients Adobe SiteCatalyst n’ont pas accès à la page d’activation
 
 **Q : Le nouveau code AppMeasurement peut-il être configuré à l’aide de la Dynamic Tag Management ?**
 
-R : Oui, vous pouvez [mettre en œuvre manuellement](https://marketing.adobe.com/resources/help/fr_FR/dtm/analytics_dtm.html) le nouveau code AppMeasurement.
+R : Oui, vous pouvez [mettre en œuvre manuellement](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) le nouveau code AppMeasurement.
 
 **Q : Quels sont les principaux changements apportés à la bibliothèque AppMeasurement version 1.6 ?**
 
