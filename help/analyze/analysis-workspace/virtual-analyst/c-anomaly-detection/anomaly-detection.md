@@ -3,7 +3,7 @@ description: Dans Analysis Workspace, vous pouvez afficher et analyser les anom
 title: Détection des anomalies - Aperçu
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -31,7 +31,7 @@ Voici quelques exemples d’anomalies dont vous pouvez rechercher l’origine :
 * Pic des événements de mémoire tampon pour la vidéo
 * Pic des faibles débits en bits pour la vidéo
 
-La détection des anomalies et l’[analyse des contributions](https://marketing.adobe.com/resources/help/fr_FR/analytics/contribution/ca_main.html) sont des processus de base d’Analysis Workspace. Vous pouvez exécuter l’analyse des contributions par rapport à n’importe quelle anomalie quotidienne, puis incorporer le résultat dans un projet Analysis Workspace.
+La détection des anomalies et l’[analyse des contributions](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) sont des processus de base d’Analysis Workspace. Vous pouvez exécuter l’analyse des contributions par rapport à n’importe quelle anomalie quotidienne, puis incorporer le résultat dans un projet Analysis Workspace.
 
 L’algorithme de détection des anomalies d’Analysis Workspace inclut
 
