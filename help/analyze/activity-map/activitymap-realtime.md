@@ -3,7 +3,7 @@ description: Les analyses des pages en temps réel (mode réel) vous permettent 
 title: Analyse des pages en temps réel (mode réel)
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 Si vous souhaitez vérifier l’élément sur lequel les utilisateurs cliquent le plus souvent en mode réel :
 
-1. Sélectionnez la période sur la ligne de tendance Mode **** réel de la barre d’outils que vous souhaitez analyser.
+1. Sélectionnez la période sur la ligne de **[!UICONTROL Live Mode]** tendance de la barre d’outils que vous souhaitez analyser.
 1. Cliquez sur l&#39;icône &quot;OEil&quot; dans la barre d&#39;outils pour accéder au tableau du rapport Liens.
 1. Organisez le tableau selon le lien.
 
@@ -39,6 +39,6 @@ Cette augmentation se reflète dans tous les services et outils d’Adobe Analyt
 * Pour la diffusion en continu active, les rapports en temps réel, les requêtes d’API et les données actives pour les variables de trafic, seuls les accès avec un ID supplémentaire sont retardés.
 * Pour les données actives sur les mesures de conversion, les données finalisées et les flux de données, tous les accès sont retardés de 5 à 7 minutes supplémentaires.
 
-Gardez à l’esprit que l’augmentation de latence débute une fois que vous avez implémenté le [service d’identité](https://marketing.adobe.com/resources/help/fr_FR/mcvid/), même si vous n’avez pas entièrement implémenté cette intégration.
+Gardez à l’esprit que l’augmentation de latence débute une fois que vous avez implémenté le [service d’identité](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html), même si vous n’avez pas entièrement implémenté cette intégration.
 
 Plus d&#39;infos [ici](/help/analyze/activity-map/activitymap-standard-live.md).
