@@ -2,16 +2,16 @@
 title: Licences de certificat SSL
 description: Procédures de certificat pour les certificats gérés par le client
 translation-type: tm+mt
-source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Licences de certificat SSL/TLS
 
-Adobe vous conseille de gérer le certificat sans frais supplémentaires via le [programme de certificat géré Adobe](https://marketing.adobe.com/resources/help/fr_FR/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).  Le programme de certificat géré Adobe est entièrement automatisé et garantit que les certificats sont renouvelés en temps voulu afin qu’il n’y ait pas d’incidence en raison de l’expiration des certificats.
+Adobe vous conseille de gérer le certificat sans frais supplémentaires via le [programme de certificat géré Adobe](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html). Le programme de certificat géré Adobe est entièrement automatisé et garantit que les certificats sont renouvelés en temps voulu afin qu’il n’y ait pas d’incidence en raison de l’expiration des certificats.
 
-Si vous choisissez de ne pas utiliser le [programme de certificat géré Adobe](https://marketing.adobe.com/resources/help/fr_FR/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html), vous devez fournir un certificat SSL/TLS à utiliser pour les cookies propriétaires.
+Si vous choisissez de ne pas utiliser le [programme de certificat géré Adobe](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html), vous devez fournir un certificat SSL/TLS à utiliser pour les cookies propriétaires.
 
 Si vous fournissez vos propres certificats, il vous incombe de les acheter et de les gérer.  Votre certificat SSL/TLS doit inclure une licence de serveur illimitée.
 
