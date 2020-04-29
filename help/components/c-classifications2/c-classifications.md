@@ -5,7 +5,7 @@ title: À propos des classifications
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,13 +16,13 @@ Une classification est une méthode permettant de catégoriser des données de v
 
 Présentation vidéo des [classifications Analytics](https://video.tv.adobe.com/v/16853/?captions=fre_fr).
 
-**[!UICONTROL Admin]** > **[!UICONTROL Suite de rapports]** > **[!UICONTROL Modifier les paramètres]** >*`<Traffic or Conversion>`*
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > *`<Traffic or Conversion>`*
 
 Lors de la classification, vous établissez une relation entre la variable et les métadonnées qui y sont liées. Les classifications sont le plus souvent utilisées dans des campagnes. Les données collectées à l’aide de variables (eVars, props et événements) peuvent être collationnées en appliquant des métadonnées aux valeurs collectées dans les variables.
 
 ![Infos sur l’étape](assets/sub_class_create.png)
 
-Une fois classifié, tout rapport pouvant être généré en utilisant la variable clé peut aussi l’être en utilisant les attributs associés. Par exemple, il est possible de classer les [!UICONTROL ID de produits] avec des attributs de produit supplémentaires, tels que le nom, la couleur, la taille, la description et la référence du produit. Enrichir les données de rapports et analyses avec des attributs supplémentaires vous permet de disposer de rapports plus approfondis et complexes.
+Une fois classifié, tout rapport pouvant être généré en utilisant la variable clé peut aussi l’être en utilisant les attributs associés. For example, you can classify [!UICONTROL Product IDs] with additional product attributes, such as product name, color, size, description, and SKU. Enrichir les données de rapports et analyses avec des attributs supplémentaires vous permet de disposer de rapports plus approfondis et complexes.
 
 >[!IMPORTANT]
 >
@@ -38,7 +38,7 @@ Supposons qu’au lieu de visualiser des campagnes sur la seule base du code de 
 
 Les rapports et analyses contiennent des classifications prédéfinies pour la variable Code de suivi, ce qui génère des rapports basés sur les classifications appelés Éléments créatifs et Campagnes. Vous devez configurer manuellement les classifications pour toutes les autres variables de conversion et de trafic.
 
-Reportez-vous aux sections [Classifications de trafic](/help/admin/admin/c-traffic-variables/traffic-classifications.md) et [Classifications des conversions](https://marketing.adobe.com/resources/help/fr_FR/reference/conversion_classifications.html).
+Reportez-vous aux sections [Classifications de trafic](/help/admin/admin/c-traffic-variables/traffic-classifications.md) et [Classifications des conversions](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 Le tableau ci-après décrit les différents types de classifications disponibles et les types de variables les prenant en charge. Consultez les informations de la section  [Structure générale d’un fichier](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) avant de télécharger les fichiers de données.
 
