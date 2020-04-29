@@ -5,7 +5,7 @@ title: Utilisation du paramètre Horodatages (facultatif)
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Le paramètre Horodatages (facultatif) est défini par défaut pour toutes les n
 
 >[!NOTE] Le paramètre Horodatages (facultatif) est le paramètre par défaut pour toutes les nouvelles suites de rapports générées à partir d’un modèle. Les nouvelles suites de rapports copiées à partir d’une suite de rapports existante héritent des paramètres de la suite de rapports d’origine.
 
-Voir [Horodatages (facultatif)](https://marketing.adobe.com/resources/help/fr_FR/reference/timestamp-optional.html) pour en savoir plus sur la configuration.
+Voir [Horodatages (facultatif)](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/timestamp-optional.html) pour en savoir plus sur la configuration.
 
 ## Horodatages (facultatif) : intégration de données horodatées et non horodatées {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques et autres exigences et restr
 
    Les données qui ne sont pas dans l’ordre peuvent inclure des données arrivées tardivement issues de collections de données hors ligne et d’accès tardifs, ou encore d’horloges désynchronisées sur les appareils mobiles hors ligne. Ceci risquerait de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de cheminement.
 
-* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/visid_custom.html) est défini. Ceci risque de désordonner les données.
+* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/visitor-identification.html) est défini. Ceci risque de désordonner les données.
 
 * Il est préférable de ne pas avoir recours aux horodatages dans les applications hybrides composées d’une application (données hors ligne horodatées) ouvrant un navigateur web (données en direct non horodatées). Il en résulterait des rapports de session inexacts.
 
