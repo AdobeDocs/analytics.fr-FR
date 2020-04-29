@@ -4,7 +4,7 @@ title: Méthodologie de suivi des liens
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: abf808e956ca78c9e7ceaa5240d4e1ea20f90aec
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ Cette section s’adresse aux administrateurs Adobe Analytics. Elle se concentre
 
 >[!IMPORTANT]
 >
->Tout lien dont le texte (pas le href) est susceptible de contenir des informations d’identification personnelles doit être mis en œuvre de façon explicite à l’aide de [s_objectID](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/s_objectID.html) ou en excluant la collecte des liens Activity Map à l’aide de [s.ActivityMap.linkExclusions ou de s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Pour obtenir plus d’informations sur la façon dont Activity Map collecte des données relatives aux informations d’identification personnelles, [cliquez ici](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Tout lien dont le texte (pas le href) est susceptible de contenir des informations d’identification personnelles doit être mis en œuvre de façon explicite à l’aide de [s_objectID](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html) ou en excluant la collecte des liens Activity Map à l’aide de [s.ActivityMap.linkExclusions ou de s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Pour obtenir plus d’informations sur la façon dont Activity Map collecte des données relatives aux informations d’identification personnelles, [cliquez ici](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map base son suivi des liens sur ces deux ID :
 
