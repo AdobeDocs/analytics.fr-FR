@@ -2,7 +2,7 @@
 title: Détails  du marketing - Première touche et Dernière touche
 description: Attribuez les mesures de réussite et les recettes à divers détails  du, sans tenir compte du global  dans lequel elles se trouvent.
 translation-type: tm+mt
-source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Ces rapports fournissent des renseignements sur les campagnes ou mots-clés qui 
 
 * Ce rapport s’exécute sur la base de règles définies dans des canaux marketing. Reportez-vous à la section [Canaux et règles](/help/components/c-marketing-channels/c-channels.md).
 
-   Pour être plus précis, le rapport utilise la partie **[!UICONTROL Définir la valeur pour le canal]** de chaque règle. Si vous modifiez ces règles ou la définition de la valeur du canal, le mode de calcul des données de ce rapport est également modifié. Pour plus d’informations, consultez la section [Questions-réponses](/help/components/c-marketing-channels/c-faq.md) des règles de traitement du canal marketing.
+   Plus précisément, le rapport utilise la **[!UICONTROL Set the channel's value to]** partie de chaque règle. Si vous modifiez ces règles ou la définition de la valeur du canal, le mode de calcul des données de ce rapport est également modifié. Pour plus d’informations, consultez la section [Questions-réponses](/help/components/c-marketing-channels/c-faq.md) des règles de traitement du canal marketing.
 
 * Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
@@ -32,4 +32,4 @@ Ces rapports fournissent des renseignements sur les campagnes ou mots-clés qui 
    * Toutes les variables de commerce électronique standard : Recettes, Commandes, Unités, Paniers, Consultations du panier, Passages en caisse, Ajouts au panier, Retraits du panier.
    * Tous les événements personnalisés : Événements 1-80, et Événements 81-100 si le code est H22 ou supérieur.
    * Visites et Visiteurs : la disponibilité dépend de la société et de la suite de rapports. Pour plus d’informations, contactez votre gestionnaire de compte.
-   Reportez-vous à la rubrique [Mesures](https://marketing.adobe.com/resources/help/fr_FR/mchannel/c_overview_metrics.html) dans l’aide de [!UICONTROL Canal marketing].
+   See [Metrics](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
