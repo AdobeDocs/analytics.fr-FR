@@ -5,7 +5,7 @@ title: Fichiers de données de classification
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -109,19 +109,19 @@ Chaque valeur doit être unique dans l’ensemble du système. La valeur de ce c
 
 ### En-tête de colonne de classification
 
-Par exemple, les Reports &amp; Analytics incluent automatiquement deux classifications pour les variables [!UICONTROL Campagne], à savoir : [!UICONTROL Campagnes] et [!UICONTROL Éléments créatifs]. Pour ajouter des données à la classification [!UICONTROL Campagnes], l’en-tête de colonne dans le fichier de données doit être [!UICONTROL Campagnes].
+Par exemple, les rapports et analyses incluent automatiquement deux classifications pour [!UICONTROL Campaign] les variables : [!UICONTROL Campaigns] et [!UICONTROL Creative Elements]. To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
 
->[!NOTE] Les valeurs de l’en-tête de colonne de [!UICONTROL classification] doivent respecter la convention d’affectation des noms de la classification, sinon l’importation échoue. Par exemple, si l’administrateur remplace [!UICONTROL Campagnes] par [!UICONTROL Noms de campagnes internes] dans le [!UICONTROL Gestionnaire de configuration de campagne], l’en-tête de colonne doit aussi être remplacé.
+>[!NOTE] Les valeurs de l’en-tête de [!UICONTROL Classifications] colonne doivent correspondre exactement à la convention d’affectation des noms de la classification, sinon l’importation échoue. Par exemple, si l’administrateur passe [!UICONTROL Campaigns] à [!UICONTROL Internal Campaign Names] dans le [!UICONTROL Campaign Set-up Manager], l’en-tête de colonne du fichier doit changer pour correspondre.
 
 De plus, le fichier de données prend en charge des conventions d’en-tête supplémentaires pour identifier les sous-classifications et d’autres colonnes de données spécialisées :
 
 ### En-tête de sous-classification
 
-Par exemple, [!UICONTROL Campaigns^Owner] est l’en-tête de la colonne contenant les valeurs du [!UICONTROL propriétaire des campagnes]. De même, [!UICONTROL Creative Elements^Size] est l’en-tête de la colonne contenant la sous-classification de [!UICONTROL taille] de la classification des [!UICONTROL éléments créatifs].
+For example, [!UICONTROL Campaigns^Owner] is a column heading for the column containing [!UICONTROL Campaign Owner] values. Similarly, [!UICONTROL Creative Elements^Size] is a column heading for the column containing the [!UICONTROL Size] sub-classification of the [!UICONTROL Creative Elements] classification.
 
 ### En-têtes de mesure de classification
 
-Par exemple, [!UICONTROL Campaigns^~Cost] fait référence à la mesure de [!UICONTROL coût] de la classification des [!UICONTROL campagnes].
+For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric in the [!UICONTROL Campaigns] classification.
 
 ### En-tête de modificateur PER
 
@@ -141,9 +141,9 @@ Ces caractères ont une signification spéciale dans un fichier de données. Lor
 
 **REVENUE :** multiplier la valeur par le montant des recettes de l’article dans le rapport.
 
-**SCADD :** multiplier la valeur par le nombre de fois que l’événement d’[!UICONTROL ajout au panier d’achat] a été appelé par article dans le rapport.
+**SCADD :** Multiplier la valeur par le nombre de fois où le [!UICONTROL Shopping Cart Add] a été appelé par élément de ligne dans le rapport.
 
-**SCREMOVE :** multiplier la valeur par le nombre de fois que l’événement de [!UICONTROL retrait du panier] a été appelé par article dans le rapport.
+**SCREMOVE :** Multiplier la valeur par le nombre de fois où le [!UICONTROL Shopping Cart Remove] a été appelé par élément de ligne dans le rapport.
 
 **INSTANCE :** multiplier la valeur par le nombre d’instances de l’article dans le rapport.
 
@@ -151,21 +151,21 @@ Ces caractères ont une signification spéciale dans un fichier de données. Lor
 
 **EVENT :** multiplier la valeur par le nombre de fois que l’événement personnalisé spécifié s’est produit par article dans le rapport.
 
-**Exemple** : si Campagne A a un coût de 10 000 euros, la colonne [!UICONTROL Campaigns^~Cost] contient une valeur de 10 000 et la colonne [!UICONTROL Campaigns^~Cost~per] comporte le mot-clé [!UICONTROL FIXED]. Lors de l’affichage du coût de la Campagne A dans les rapports, la somme de 10 000 euros est indiquée comme coût fixe de la Campagne A pour la période.
+**Exemple :** Si Campaign A coûte 10 000 euros, la [!UICONTROL Campaigns^~Cost] colonne contient une valeur de 10 000 et la colonne [!UICONTROL Campaigns^~~Coût] contient [!UICONTROL FIXED]. Lors de l’affichage du coût de la Campagne A dans les rapports, la somme de 10 000 euros est indiquée comme coût fixe de la Campagne A pour la période.
 
-**Exemple** : si Campagne B a un coût d’environ 2 euros par clic, la colonne [!UICONTROL Campaigns^~Cost] contient 2 et la colonne **[!UICONTROL Campaigns^~Cost~per]** comporte le mot-clé [!UICONTROL CLICK]. Lors de l’affichage du coût de la Campagne B dans les rapports, Adobe calcule (2 * [nombre de clics]) à la volée pour la période du rapport. Vous obtenez alors le coût total en fonction du nombre de clics enregistrés pendant la Campagne B.
+**Exemple :** Si Campaign B coûte environ 2 euros par clic, la [!UICONTROL Campaigns^~Cost] colonne contient 2 et la colonne **[!UICONTROL Campaigns^~~Coût]** contient [!UICONTROL CLICK]. Lors de l’affichage du coût de la Campagne B dans les rapports, Adobe calcule (2 * [nombre de clics]) à la volée pour la période du rapport. Vous obtenez alors le coût total en fonction du nombre de clics enregistrés pendant la Campagne B.
 
 ### Date
 
 Les dates de campagne sont généralement des périodes (dates de début et de fin) associées à chaque campagne. Elles doivent apparaître au format AAAA/MM/JJ. Par exemple, 2013/06/15-2013/06/30.
 
-Pour plus d’informations, reportez-vous à la section [Classifications des conversions](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications).
+Pour plus d’informations, reportez-vous à la section [Classifications des conversions](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 >[!NOTE] Dans la version de maintenance du 10 mai 2018 d’[!DNL Analytics], Adobe a commencé à limiter les fonctionnalités des classifications activées par date et numériques. Ces types de classifications ont été supprimés des interfaces Administration et Importateur de classifications. Il n’est plus possible d’ajouter de nouvelles classifications numériques et activées par date. Il sera possible de continuer à gérer les classifications actuelles (les transférer, les supprimer) par l’intermédiaire des processus de classification standard et elles resteront disponibles dans le reporting.
 
-## Utilisation de dates en association avec des [!UICONTROL classifications ] {#section_966A07B228CD4643B258E73FB8BA150A}
+## Utilisation de dates en association avec des [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-Vous pouvez utiliser les [!UICONTROL classifications] pour affecter des périodes à vos campagnes ou autres [!UICONTROL classifications] de conversion ce qui permet une mesure plus précise des campagnes. Une fois la période d’une valeur indiquée, toute valeur correspondante qui se produit en dehors de la période ne sera pas classée. Cela est utile pour la mesure de campagne qui souhaite utiliser les dates exactes auxquelles une campagne était active et non tous les accès correspondant à la campagne elle-même. Afin de classer avec succès une valeur dans une période, les critères suivants doivent être respectés :
+Vous pouvez utiliser les [!UICONTROL Classifications] pour affecter des périodes à vos campagnes ou autres [!UICONTROL classifications] de conversion ce qui permet une mesure plus précise des campagnes. Une fois la période d’une valeur indiquée, toute valeur correspondante qui se produit en dehors de la période ne sera pas classée. Cela est utile pour la mesure de campagne qui souhaite utiliser les dates exactes auxquelles une campagne était active et non tous les accès correspondant à la campagne elle-même. Afin de classer avec succès une valeur dans une période, les critères suivants doivent être respectés :
 
 * La [!UICONTROL classification] doit être basée sur une variable de conversion.
 * La [!UICONTROL classification] utilisée doit être définie en tant que Date d’activation Numérique 2.
@@ -174,7 +174,7 @@ Vous pouvez utiliser les [!UICONTROL classifications] pour affecter des périod
 Pour classer les campagnes selon une période :
 
 1. Connectez-vous à [!DNL Analytics] et accédez à Admin > Classifications.
-1. Cliquez sur l’onglet **[!UICONTROL Exportation navigateur]**, assurez-vous que les paramètres de votre classification Date d’activation sont corrects, puis cliquez sur Exporter un fichier.
+1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
 1. Ouvrez ce fichier dans Microsoft Excel ou un autre éditeur de feuilles de calcul familier.
 1. Une des colonnes se termine par
 
