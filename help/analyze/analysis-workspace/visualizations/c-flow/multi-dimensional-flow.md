@@ -3,7 +3,7 @@ description: Dans un flux interdimensionnel, vous pouvez examiner le cheminement
 title: Flux interdimensionnels
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ---
 
@@ -59,5 +59,3 @@ Faites glisser la dimension Nom de la campagne dans un nouveau flux :
 Je souhaite maintenant savoir quelles pages de ces campagnes attirent le plus de trafic ; je fais donc glisser la dimension Page sur la droite des résultats du flux pour l’ajouter à la visualisation :
 
 ![](assets/multi-dimensional-flow9.png)
-
-Vous pouvez ensuite ventiler ce résultat selon d’autres dimensions ou mesures (recettes, visites, etc.).
