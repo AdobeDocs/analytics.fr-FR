@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide d’intégration Analytics
 user-guide-url: /content/help/en/analytics/integration/home.html
 translation-type: tm+mt
-source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 440b75f03e34ac3ccf75671323502b6e2bb50fdc
       + [Gestion des comptes Advertising](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Résolution des problèmes d’Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Questions fréquentes](c-advertising-analytics/aa-faq.md)
-+ [A4T : Analytics pour Target](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/a4t.html)
++ [A4T : Analytics pour Target](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/a4t.html)
 + [Rapports Adobe Campaign](adobe-campaign.md)
 + [Compte rendu des performances d’AEM Assets](aem-assets-reporting.md)
 + [Compte rendu des performances d’Activity Map](activitmap-reporting.md)
