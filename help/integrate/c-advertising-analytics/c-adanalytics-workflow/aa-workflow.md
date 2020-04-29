@@ -3,7 +3,7 @@ description: valeur nulle
 title: Workflow - Aperçu
 uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/step1_icon.png) Mappez toutes les suites de rapports Analytics dans lesquelles vous souhaitez afficher les données de recherche Google/Bing à votre organisation Experience Cloud.
 
-Voir [Mappage de suites de rapports à une organisation](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
+Voir [Mappage de suites de rapports à une organisation](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Activation du reporting Advertising Analytics par suite de rapports](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
