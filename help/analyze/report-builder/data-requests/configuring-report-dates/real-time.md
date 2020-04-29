@@ -4,7 +4,7 @@ title: Rapports en temps réel
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez :
 * Utiliser tout événement personnalisé, événement de panier ou instance.
 * Afficher jusqu’à 20 heures de données historiques, en temps réel.
 
-Le temps réel respecte les autorisations pour les utilisateurs et les groupes. Par exemple, si vous n’avez pas les droits permettant de consulter le revenu, vous ne pouvez pas consulter un rapport en temps réel qui inclut les données de revenu. Les eVars (mesures de conversion) ne sont pas prises en charge. Les autorisations en temps réel sont activées dans les [outils d’administration](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html).
+Le temps réel respecte les autorisations pour les utilisateurs et les groupes. Par exemple, si vous n’avez pas les droits permettant de consulter le revenu, vous ne pouvez pas consulter un rapport en temps réel qui inclut les données de revenu. Les eVars (mesures de conversion) ne sont pas prises en charge. Les autorisations en temps réel sont activées dans les [outils d’administration](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
->[!NOTE] ne [!UICONTROL Real-Time Reports] sont pas identiques à la fonction [Inclure les données](https://marketing.adobe.com/resources/help/fr_FR/arb/options.html) actives (récence des données) publiée précédemment, qui réduisait la latence pour les  de standard en affichant les données avant qu’elles ne soient finalisées.
+>[!NOTE] ne [!UICONTROL Real-Time Reports] sont pas identiques à la fonction [Inclure les données](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) actives (récence des données) publiée précédemment, qui réduisait la latence pour les  de standard en affichant les données avant qu’elles ne soient finalisées.
 
