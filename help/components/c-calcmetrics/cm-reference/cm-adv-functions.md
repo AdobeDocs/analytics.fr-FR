@@ -3,14 +3,14 @@ description: Accédez à ces fonctions en cochant Afficher les options avancées
 title: 'Référence : fonctions avancées'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Référence : fonctions avancées
 
-Accédez à ces fonctions en cochant **[!UICONTROL Afficher les options avancées]** dans la liste déroulante **[!UICONTROL Fonctions]**.
+Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
 
 ## Fonctions de tableau et fonctions de ligne {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -65,7 +65,7 @@ Voici comment cette mesure pourrait être utilisée dans les rapports :
 
 ## Valeurs uniques dépassées  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://marketing.adobe.com/resources/help/fr_FR/reference/metrics_uniques_high_numbers.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
+Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
 
 ## Comparaison des fonctions de comptage  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
