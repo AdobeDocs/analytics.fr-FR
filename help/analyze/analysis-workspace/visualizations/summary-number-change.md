@@ -3,7 +3,7 @@ description: valeur nulle
 title: Synthèse des chiffres et synthèse des changements
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 * Si une rangée de cellules est sélectionnée, la première et la dernière cellules de la rangée sont comparées.
 * Si la colonne est sélectionnée, la première valeur est comparée à elle-même ; 0 s’affiche.
 * Les couleurs verte et rouge du résumé des changements peuvent être contrôlées par :
-   * [la polarité des événements personnalisés](https://marketing.adobe.com/resources/help/fr_FR/reference/success_event.html) ;
-   * l’option [Tendance à la hausse affichée](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/cm_build_metrics.html) d’une mesure calculée.
+   * [la polarité des événements personnalisés](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/success-events/success-event.html) ;
+   * l’option [Tendance à la hausse affichée](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) d’une mesure calculée.
 
 ## Paramètres du résumé des changements {#section_2581AC0107634FB4990AB8347E5897AA}
 
