@@ -3,7 +3,7 @@ description: Mise en route avec Adobe Analytics.
 keywords: Analysis Workspace
 title: Guide de prise en main
 translation-type: tm+mt
-source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -97,6 +97,6 @@ Il existe de nombreuses instructions pour approfondir votre compréhension d’A
 
 ### Pour les analystes et les administrateurs qui souhaitent améliorer la qualité de Workspace dans leur organisation
 
-* [Autorisations d’Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/mcloud/admin_getting_started.html) : attribuez des autorisations d’utilisateur à Workspace via Adobe Admin Console.
+* [Autorisations d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html) : attribuez des autorisations d’utilisateur à Workspace via Adobe Admin Console.
 * [Modèles dans Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) : créez des modèles pour que vos collègues puissent commencer avec un espace de projet adapté à leurs besoins.
 * [Traitement de Workspace](/help/analyze/analysis-workspace/curate-share/curate.md) : créez un projet qui limite les composants disponibles, en rendant Workspace plus accessible aux personnes moins familières avec l’outil.
