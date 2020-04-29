@@ -6,7 +6,7 @@ title: Redirections et alias
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -31,18 +31,18 @@ Il existe uniquement deux types de redirection, mais elles peuvent être implém
 
 Prenons l’hypothèse suivante, selon laquelle aucune redirection ne se présente à l’utilisateur :
 
-1. L’utilisateur pointe son navigateur vers `www.google.com` et saisit « billets d’avion réduits » (discount airline tickets) dans le champ de recherche, puis clique sur le bouton **[!UICONTROL Recherche]**.
+1. User points his or her browser to `www.google.com`, and types, &quot;discount airline tickets&quot; into the search field, and then clicks the **[!UICONTROL Search]** button.
 1. Le navigateur affiche les résultats de la recherche, notamment un lien vers votre site [!DNL https://www.example.com/]. Après avoir affiché les résultats de la recherche, la barre d’adresse du navigateur affiche les termes recherchés entrés par l’utilisateur dans le champ de recherche ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Notez que les termes recherchés sont inclus dans les paramètres de la chaîne de requête de l’URL qui suit `https://www.google.com/search?`.
 1. L’utilisateur clique sur le lien vers votre site hypothétique [!DNL https://www.example.com/]. Lorsque l’utilisateur clique sur ce lien et arrive sur le site web [!DNL example.com], [!DNL Analytics] utilise JavaScript pour collecter l’URL de référence (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) ainsi que l’URL active (`https://www.example.com/`).
-1. [!DNL Analytics] rapporte les informations collectées durant cette interaction dans divers rapports, tels que [!UICONTROL Domaines référents], [!UICONTROL Moteurs de recherche] et [!DNL Search Keywords].
+1. [!DNL Analytics] rapporte les informations collectées au cours de cette interaction dans divers rapports, tels que [!UICONTROL Referring Domains], [!UICONTROL Search Engines]et [!DNL Search Keywords].
 
 ## Exemple : navigation avec redirections {#section_921DDD32932847848C4A901ACEF06248}
 
 En raison des redirections, le navigateur peut masquer la véritable URL de référence. Prenons l’exemple suivant :
 
-1. L’utilisateur pointe son navigateur vers `https://www.google.com` et saisit *billets d’avion réduits* (discount airline tickets) dans le champ de recherche, puis clique sur le bouton **[!UICONTROL Recherche]**.
+1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
 1. La barre d’adresse du navigateur affiche les termes recherchés entrés par l’utilisateur dans le champ de recherche `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Notez que les termes recherchés sont inclus dans les paramètres de la chaîne de requête de l’URL qui suit `https://www.google.com/search?`. Le navigateur affiche également une page qui contient les résultats de recherche, y compris un lien vers l’un de vos noms de domaine : [!DNL https://www.flytohawaiiforfree.com/]. Ce domaine *de redirection vers un microsite* est configuré pour rediriger l’utilisateur vers `https://www.example.com/`.
-1. L’utilisateur clique sur le lien `https://www.flytohawaiiforfree.com/` et est redirigé par le serveur vers votre site principal, `https://www.example.com`. Au moment de la redirection, les données importantes pour la collecte de données [!DNL Analytics] sont perdues puisque le navigateur efface l’URL de référence. En conséquence, les informations de la recherche d’origine utilisées dans les rapports [!DNL Analytics] (par exemple, [!UICONTROL Domaines référents], [!UICONTROL Moteurs de recherche], [!UICONTROL Mots-clés de la recherche]) sont perdues.
+1. L’utilisateur clique sur le lien `https://www.flytohawaiiforfree.com/` et est redirigé par le serveur vers votre site principal, `https://www.example.com`. Au moment de la redirection, les données importantes pour la collecte de données [!DNL Analytics] sont perdues puisque le navigateur efface l’URL de référence. Ainsi, les informations de recherche d’origine utilisées dans les [!DNL Analytics] rapports (par exemple, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]) sont perdues.
 
 ## Implémentation des redirections {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
