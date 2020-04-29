@@ -4,7 +4,7 @@ title: Participation
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -20,7 +20,7 @@ Les mesures de participation présentent deux paramètres par événement de con
 * **Désactivé** : état par défaut de chaque événement de conversion. Les données de participation ne sont pas rassemblées pour cet événement.
 * **Activé** : les données de participation sont collectées pour cet événement.
 
->[!NOTE] Vous pouvez activer la participation pour 100 événements personnalisés au maximum. De plus, vous pouvez créer des mesures de participation dans le créateur de [mesures calculées](https://marketing.adobe.com/resources/help/fr_FR/analytics/calcmetrics/participation_metric.html).
+>[!NOTE] Vous pouvez activer la participation pour 100 événements personnalisés au maximum. De plus, vous pouvez créer des mesures de participation dans le créateur de [mesures calculées](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/participation-metric.html).
 
 Aussitôt la participation activée, les mesures de participation sont disponibles automatiquement dans tous les rapports de conversion. Cependant, ces mesures peuvent également être affichées, à votre demande, dans des rapports de trafic spécifiques. Vous pouvez éventuellement demander que des mesures de participation soient disponibles dans certains rapports de trafic personnalisés.
 
