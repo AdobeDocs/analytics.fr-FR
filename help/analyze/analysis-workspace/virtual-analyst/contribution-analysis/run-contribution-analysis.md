@@ -3,7 +3,7 @@ description: valeur nulle
 title: Exécution de l’analyse des contributions
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,9 +35,9 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 
    * Visualisation qui présente le nombre de **Visites** ce jour-là.
    * **Ligne de tendance des visites** mensuelle en fonction du contexte.
-   * Les **principaux éléments** à l’origine de cette anomalie, triés par [note de contribution](https://marketing.adobe.com/resources/help/fr_FR/analytics/contribution/ca_contribution_score.html), plus la mesure en question, ainsi qu’une mesure Visiteurs uniques qui replace la mesure dans son contexte du point de vue de la taille.
+   * Les **principaux éléments** à l’origine de cette anomalie, triés par [note de contribution](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus la mesure en question, ainsi qu’une mesure Visiteurs uniques qui replace la mesure dans son contexte du point de vue de la taille.
 
-   * Le tableau [Segments générés](https://marketing.adobe.com/resources/help/fr_FR/analytics/contribution/ca_workflow_premium.html) (grappes des principaux éléments) identifie les associations des principaux éléments en fonction de la note de contribution, des occurrences de l’anomalie et du pourcentage global contribuant à la mesure anormale. Ces données sont ensuite regroupées dans un segment d’audience (Segment de contribution 1, Segment de contribution 2, etc.). Cliquez sur le bouton « i » (informations) pour afficher une définition de chaque segment automatique, y compris les principaux éléments qui le composent :
+   * Le tableau [Segments générés](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-build.html) (grappes des principaux éléments) identifie les associations des principaux éléments en fonction de la note de contribution, des occurrences de l’anomalie et du pourcentage global contribuant à la mesure anormale. Ces données sont ensuite regroupées dans un segment d’audience (Segment de contribution 1, Segment de contribution 2, etc.). Cliquez sur le bouton « i » (informations) pour afficher une définition de chaque segment automatique, y compris les principaux éléments qui le composent :
 
       ![](assets/auto_segment.png)
 
