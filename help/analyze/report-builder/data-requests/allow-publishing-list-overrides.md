@@ -4,7 +4,7 @@ title: Autoriser les remplacements de la liste de publication
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Lorsque vous planifiez un rapport, vous pouvez choisir une liste de publication 
 
 Les listes de publication sont configurées dans les outils d’administration d’Analytics.
 
-Voir la section [Gestionnaire de listes de publication](https://marketing.adobe.com/resources/help/fr_FR/reference/publishing_list.html) dans Références Analytics.
+Voir la section [Gestionnaire de listes de publication](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html) dans Références Analytics.
 
 Pour activer cette fonctionnalité, accédez à la [!UICONTROL Request Wizard: Step 1] fenêtre.
 
