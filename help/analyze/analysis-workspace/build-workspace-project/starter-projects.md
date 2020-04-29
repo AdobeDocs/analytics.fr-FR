@@ -3,7 +3,7 @@ description: valeur nulle
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -110,7 +110,7 @@ Ces modèles standard vous guident à travers la terminologie et les étapes cou
 
 ### Personnes
 
->[!NOTE] Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/fr_FR/mcdc/mcdc-people.html).
+>[!NOTE] Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html).
 
 Ce modèle est basé sur la mesure Personnes, qui est une version dédupliquée de la mesure uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit :
 
