@@ -5,7 +5,7 @@ title: Gestionnaire de tableaux de bord
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -70,7 +70,7 @@ Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICON
 
 Les tableaux de bord hérités existants continueront à être exécutés et vous serez toujours en mesure de les modifier, télécharger et programme. Toutefois, vous ne pourrez plus créer de nouveaux tableaux de bord hérités. Nous vous recommandons fortement de mettre à niveau les tableaux de bord hérités existants vers le format de tableau de bord plus récent.
 
->[!NOTE] Désormais, nous vous invitons à utiliser les [projets d’Analysis Workspace](https://marketing.adobe.com/resources/help/fr_FR/analytics/analysis-workspace/) et leurs fonctionnalités de téléchargement et de planification.
+>[!NOTE] Désormais, nous vous invitons à utiliser les [projets d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/analysis-workspace-features.html) et leurs fonctionnalités de téléchargement et de planification.
 
 Lorsque vous copiez le tableau de bord hérité, le système l’ouvre pour modification et vous pouvez y ajouter du contenu hérité ou du nouveau contenu. Lorsque vous copiez un tableau de bord hérité, l’original est préservé dans la liste des tableaux de bord hérités.
 
