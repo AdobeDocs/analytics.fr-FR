@@ -3,7 +3,7 @@ description: Affiche une liste des versions actuelles et antérieures et de leur
 title: Nouvelles fonctionnalités du Report Builder
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -44,15 +44,15 @@ L’association de la fonctionnalité de génération de rapports du Report Buil
 
 ## Report Builder 5.3 {#rb-5-3-section}
 
-* [Suites de rapports virtuelles](https://marketing.adobe.com/resources/help/fr_FR/reference/virtual-report-suites.html)
-* [Audiences Experience Cloud dans Analytics](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html)
-* [Création des rapports AEM Assets](https://marketing.adobe.com/resources/help/fr_FR/reference/aem-assets-reporting.html)
+* [Suites de rapports virtuelles](https://docs.adobe.com/help/fr-FR/analytics/components/virtual-report-suites/vrs-about.html)
+* [Audiences Experience Cloud dans Analytics](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html)
+* [Création des rapports AEM Assets](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
 
 ## Report Builder 5.2 {#rb-5-2-section}
 
 * **Mesures calculées** La version 5.2 du Report Builder prend en charge les [mesures calculées unifiées](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md) d’Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 
-* **Recherche de rapports et de mesures plus efficace** Davantage d’[eVars et d’événements](https://marketing.adobe.com/resources/help/fr_FR/sc/implement/evars_events.html) ont été ajoutés à Adobe Analytics ; par conséquent, le nombre de rapports et de mesures proposés dans le Report Builder d’Adobe a considérablement augmenté. Afin de simplifier la recherche, deux nouvelles barres de recherche ont été ajoutées à l’Assistant Requête : une pour la [recherche de rapports](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) et une pour la recherche de [mesures](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
+* **Recherche de rapports et de mesures plus efficace** Davantage d’[eVars et d’événements](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) ont été ajoutés à Adobe Analytics ; par conséquent, le nombre de rapports et de mesures proposés dans le Report Builder d’Adobe a considérablement augmenté. Afin de simplifier la recherche, deux nouvelles barres de recherche ont été ajoutées à l’Assistant Requête : une pour la [recherche de rapports](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) et une pour la recherche de [mesures](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
 
-* **Attributs du client** Les attributs du client sont stockés dans un nouveau type d’élément appelé VisAttr, qui peut être configuré comme une dimension ou comme une mesure. Pour obtenir des informations plus détaillées sur le transfert des attributs du client, reportez-vous à l’[aide d’Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/attributes.html).
+* **Attributs du client** Les attributs du client sont stockés dans un nouveau type d’élément appelé VisAttr, qui peut être configuré comme une dimension ou comme une mesure. Pour obtenir des informations plus détaillées sur le transfert des attributs du client, reportez-vous à l’[aide d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html).
 
