@@ -3,7 +3,7 @@ description: valeur nulle
 title: 'Requêtes de données - Assistant Requête : Étape 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -18,7 +18,7 @@ Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la su
 
 1. **Sélecteur de plage** : permet de sélectionner un identifiant de suite de rapports à partir d’une cellule dans Excel. Reportez-vous à la section [Sélectionner des suites de rapports](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segment** : les segments sont des sous-ensembles personnalisés de données ou des données filtrées selon des règles que vous créez. Les segments dépendent des accès, des visites et des visiteurs. Pour plus d’informations sur les segments, voir le [guide de segmentation d’Analytics](https://marketing.adobe.com/resources/help/fr_FR/analytics/segment/).
+1. **Segment** : les segments sont des sous-ensembles personnalisés de données ou des données filtrées selon des règles que vous créez. Les segments dépendent des accès, des visites et des visiteurs. Pour plus d’informations sur les segments, voir le [guide de segmentation d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html).
 
    For example, you can run a [!UICONTROL Pages Report], and then apply a First Time Visits segment.
 
