@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Notes techniques d’Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ea1927827c0615b085a440bc86116b438594e448
+source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ---
 
@@ -26,9 +26,12 @@ source-git-commit: ea1927827c0615b085a440bc86116b438594e448
       + [Conversions](ga-to-aa/reports/conversions-reports.md)
    + [Questions fréquentes](ga-to-aa/faq.md)
    + [Traitement des différences entre plateformes](ga-to-aa/processing-differences.md)
-+ [Analyser les données affectées par les](event-impacted.md)
-+ Analyser les données affectées par les {#event}
-   + [Communiquer l’impact aux utilisateurs](event/event-communicate.md)
++ Analyser les données affectées par les événements {#event}
+   + [Analyser les données affectées par la présentation des événements](event/overview.md)
+   + [Exclure des dates spécifiques dans l’analyse](event/segments.md)
+   + [Comparer les dates aux plages précédentes](event/compare-dates.md)
+   + [Dériver les données affectées par les événements](event/calcmetrics.md)
+   + [Communiquer des événements aux utilisateurs](event/communicate.md)
 + [Cookies de navigateur](cookies.md)
 + [Rétention des données](data-retention.md)
 + [Latence](latency.md)
