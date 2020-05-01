@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
+source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
 
@@ -35,10 +35,8 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [Compatibilité des segments avec Data Warehouse](c-segmentation/seg-reference/seg-compatibility.md)
       + [Droits des segments par rôle](c-segmentation/seg-reference/seg-rights.md)
       + [Résolution des problèmes](c-segmentation/seg-reference/c-troubleshooting.md)
-   + Cas d’utilisation {#use-cases}
-      + [Exclure des dates spécifiques](c-segmentation/use-cases/exclude-date-range.md)
    + [Questions fréquentes](c-segmentation/seg-transition.md)
-   + [Nouveautés de la segmentation Analytics](c-segmentation/whats-new-segmentation.md)
+   + [Nouveautés de la segmentation dans Analytics](c-segmentation/whats-new-segmentation.md)
    + [Guide de transition relatif aux Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Mesures calculées {#calculated-metrics}
    + [Mesures calculées et avancées (dérivées)](c-calcmetrics/cm-overview.md)
@@ -64,7 +62,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [Compatibilité des mesures](c-calcmetrics/cm-compatibility.md)
       + [Mesures calculées : droits en fonction du rôle](c-calcmetrics/cm-role-based-rights.md)
       + [Totaux des mesures calculées](c-calcmetrics/cm-totals.md)
-   + [Dériver les données affectées par les](c-calcmetrics/cm-events.md)
    + [Questions fréquentes](c-calcmetrics/cm-transition.md)
    + [Vidéos pratiques](c-calcmetrics/cm-videos.md)
 + Suites de rapports virtuelles {#virtual-report-suites}
@@ -331,11 +328,11 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
    + [Configuration de rapports en temps réel](c-real-time-reporting/t-realtime-admin.md)
    + [Mesures et dimensions en temps réel prises en charge](c-real-time-reporting/realtime-metrics.md)
 + Canaux marketing {#marketing-channels}
-   + [Commencer avec le marketing](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Commencer avec les Canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
    + [Gestion des canaux marketing](c-marketing-channels/c-channels.md)
    + [Règles de traitement des canaux marketing](c-marketing-channels/c-rules.md)
    + [Classifications des canaux marketing](c-marketing-channels/classifictions-mchannel.md)
    + [Expiration de l’engagement des visiteurs](c-marketing-channels/visitor-engagement.md)
-   + [Analyser les  marketing](c-marketing-channels/analyze-mc.md)
-   + [d’autorisations du marketing](c-marketing-channels/c-channel-report-access.md)
-   + [FAQ et exemples sur les  marketing](c-marketing-channels/c-faq.md)
+   + [Analyser les Canaux marketing](c-marketing-channels/analyze-mc.md)
+   + [Autorisations des Canaux marketing](c-marketing-channels/c-channel-report-access.md)
+   + [FAQ et exemples sur les Canaux marketing](c-marketing-channels/c-faq.md)
