@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
 
@@ -44,7 +44,6 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
          + [Calendrier et plages de dates - Aperçu](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Création de plages de dates personnalisées](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Comparaison des dates](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-         + [Comparaison des dates affectées par un](analysis-workspace/components/calendar-date-ranges/compare-event.md)
    + Visualisations {#visualizations}
       + [Visualisations - Aperçu](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gestion des sources de données](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -79,15 +78,15 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
    + Panneaux {#panels}
       + [Panneaux - Aperçu](analysis-workspace/c-panels/panels.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
-      + [Créateur de rapports rapides](analysis-workspace/c-panels/quickinsight.md)
+      + [Générateur d’informations rapides](analysis-workspace/c-panels/quickinsight.md)
       + Attribution {#attribution}
-         + [Présentation des attributs](analysis-workspace/c-panels/attribution/attribution.md)
+         + [Présentation de l’attribution](analysis-workspace/c-panels/attribution/attribution.md)
          + [Utilisation du panneau Attribution](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [FAQ sur l’Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
          + [Attribution algorithmique](analysis-workspace/c-panels/attribution/algorithmic.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
-         + [Présentation de la comparaison des segments](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [Présentation de la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Cas d’utilisation de la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Traitement et partage de projets {#curate-share}
@@ -330,9 +329,9 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
 + Labs {#tech-previews}
    + [Présentation de Labs](tech-previews/overview.md)
 + dashboards {#mobapp}
-   + [de](mobile-app/home.md)
-   + [Guide du conservateur](mobile-app/curator.md)
-   + [Guide de  rapide pour les utilisateurs expérimentés](mobile-app/executive.md)
+   + [Présentation des tableaux de bord](mobile-app/home.md)
+   + [Curateur, guide](mobile-app/curator.md)
+   + [Guide de début rapide pour les utilisateurs de la direction](mobile-app/executive.md)
 + Applications web progressives {#pwa}
    + [Applications web progressives](pwa/pwa.md)
 + API de création de rapports dans Analytics {#analytics-reporting-api}
