@@ -6,7 +6,7 @@ title: Personnalisation des autorisations liées aux outils Analytics
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -51,14 +51,14 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | Connexion unique (héritée) | Permet d’octroyer l’accès à la page d’authentification unique dans les outils d’administration.<br>**Remarque :**dans Adobe Experience Cloud, l’authentification unique est mise en œuvre en[associant les comptes](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/organizations.html)d’Experience Cloud et des solutions. |
 | [Actions en attente](/help/admin/company/pending-actions-admin.md) | Grants permission to manage pending actions in [!UICONTROL Company Settings]. |
 | [Alliance de marques](/help/admin/company/co-branding-admin.md) | Permet d’autoriser l’alliance des marques Analytics. |
-| [Préférences](/help/admin/admin/preferences-manager.md) | Permet d’octroyer l’autorisation au [!UICONTROL Preference Manager]. |
+| [Préférences](/help/admin/admin/preferences-manager.md) | Accorde l’autorisation à la [!UICONTROL Preference Manager]société. |
 | [Masquage des suites de rapports](/help/admin/company/c-hide-report-suites.md) | Permet d’autoriser le masquage des suites de rapports dans l’interface utilisateur d’Adobe Analytics. |
 | **Outils** | Ces paramètres donnent accès aux outils Analytics (interfaces et applications) et aux fonctionnalités avancées telles que la segmentation et les mesures calculées. |
 | [Données actives](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html) | Permet d’autoriser l’utilisation de la fonction Données actives dans les rapports. |
 | [Utilisateurs de la licence d’Ad Hoc Analysis](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | Grants permission to access [!UICONTROL Ad Hoc Analysis]. |
 | Accès aux services Web | Permet aux non-administrateurs d’accéder aux services web. Génère les informations de connexion des services web. |
 | [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Grants members of this group access to [!UICONTROL Report Builder] licenses. |
-| [Accès à Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/analysis-workspace-features.html) | Octroie aux utilisateurs un accès à Analysis Workspace, l’interface de création de rapports recommandée pour [!DNL Adobe Analytics]. |
+| [Accès à Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) | Octroie aux utilisateurs un accès à Analysis Workspace, l’interface de création de rapports recommandée pour [!DNL Adobe Analytics]. |
 | [Reports &amp; Analytics](https://docs.adobe.com/content/help/en/analytics/landing/an-key-concepts.html) | Octroie aux utilisateurs l’accès aux Reports &amp; Analytics. |
 | [Création de mesure calculée](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html) | Octroie aux utilisateurs l’autorisation de créer des mesures calculées. |
 | [Création de segment](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html) | Octroie aux utilisateurs l’autorisation de créer des segments. |
