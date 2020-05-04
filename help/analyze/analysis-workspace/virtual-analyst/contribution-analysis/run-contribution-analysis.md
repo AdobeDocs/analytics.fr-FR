@@ -3,7 +3,7 @@ description: valeur nulle
 title: Exécution de l’analyse des contributions
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -44,7 +44,7 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 1. Puisque l’analyse des contributions fait maintenant partie d’Analysis Workspace, vous pouvez mettre à profit plusieurs de ses fonctions depuis un menu contextuel afin de rendre votre analyse plus significative, par exemple :
 
    * [Ventiler chaque élément de dimension par une autre dimension.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [Déterminer la tendance d’une ou de plusieurs lignes](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [Déterminer la tendance d’une ou de plusieurs lignes](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [Ajouter de nouvelles visualisations.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [Créer des alertes.](/help/components/c-alerts/intellligent-alerts.md)
    * [Créer ou comparer des segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -57,7 +57,7 @@ Parfois, vous souhaiterez exclure certaines dimensions de l’analyse des contri
 
 1. Une fois que vous avez cliqué **[!UICONTROL Run Contribution Analysis]** (ou **[!UICONTROL Analyze]** dans un graphique en courbes), le **[!UICONTROL Excluded Dimensions]** panneau s’affiche.
 
-1. Faites glisser les dimensions indésirables dans le **[!UICONTROL Excluded Dimensions]** panneau, puis enregistrez le  en cliquant **[!UICONTROL Set as Default]**. Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
+1. Faites simplement glisser les dimensions indésirables dans le **[!UICONTROL Excluded Dimensions]** panneau, puis enregistrez la liste en cliquant sur **[!UICONTROL Set as Default]**. Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
 
    ![](assets/exclude_dimensions.png)
 
