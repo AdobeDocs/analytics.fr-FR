@@ -2,7 +2,7 @@
 description: Cette section présente des concepts clés liés à Adobe Analytics, une brève description du concept et un lien vers une documentation spécifique comprenant des détails supplémentaires sur le sujet.
 title: Adobe Analytics – Concepts clés
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -15,7 +15,7 @@ Cette section présente des concepts clés liés à Adobe Analytics, une brève
 
 | Product | Description | Lien vers la documentation |
 |--- |--- |--- |
-| Analysis Workspace | Solution de navigateur pour créer des projets d’analyse personnalisés et fiables et démocratiser les informations. Offre une meilleure flexibilité que Reports &amp; Analytics | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Analysis Workspace | Solution de navigateur pour créer des projets d’analyse personnalisés et fiables et démocratiser les informations. Offre une meilleure flexibilité que Reports &amp; Analytics | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) |
 | Reports &amp; Analytics (anciennement SiteCatalyst) | Solution de navigateur pour la création de rapports et l’analyse. Outil de démarrage de la solution Analytics. | [Accueil de Reports &amp; Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | Module complémentaire Excel qui permet de créer des requêtes personnalisées à partir de données Adobe Analytics et de les visualiser à l’aide de Microsoft Excel. | [Accueil de Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis (anciennement Discover) | Outil Java pour les analyses digitales avancées. | [Accueil d’Ad Hoc Analysis](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
