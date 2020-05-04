@@ -5,7 +5,7 @@ title: Nouveautés d’Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -26,8 +26,8 @@ Nouvelles fonctionnalités publiées le 12 mars 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Prise en charge de plusieurs suites de rapports dans Workspace | Vous pouvez désormais importer côte à côte les données de plusieurs suites de rapports dans un projet unique afin de  les données de plusieurs suites de rapports. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| Modèle de didacticiel de formation | Ce nouveau modèle standard vous guide tout au long de la terminologie commune et des étapes nécessaires à la création de votre premier   dans Workspace. Il est disponible sous forme de modèle standard dans le modal Nouveau projet et remplace l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste. [En savoir plus...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| Prise en charge de plusieurs suites de rapports dans Workspace | Vous pouvez désormais importer côte à côte les données de plusieurs suites de rapports dans un seul projet de vue. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Modèle de didacticiel de formation | Ce nouveau modèle standard vous guide tout au long de la terminologie et des étapes courantes pour créer votre première analyse dans Workspace. Il est disponible sous forme de modèle standard dans le modal Nouveau projet et remplace l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste. [En savoir plus...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Février 2020
 
@@ -35,9 +35,9 @@ Nouvelles fonctionnalités publiées le 20 février 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Nouveau modèle Workspace pour les organisations qui utilisent Analytics sur plusieurs périphériques | Ce modèle montre l&#39;efficacité de l&#39;ADC à assembler les visites et vous informe sur les dimensions et les mesures exclusives de l&#39;ADC. Une suite de rapports utilisant CDA est requise. Voir [Configuration d’Analytics sur l’ensemble des appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-setup.html) pour plus d’informations. |
+| Nouveau modèle Workspace pour les organisations qui utilisent Analytics sur plusieurs périphériques | Ce modèle montre l&#39;efficacité de l&#39;ADC pour rassembler les visites et vous informe sur les dimensions et les mesures exclusives à l&#39;ADC. Une suite de rapports utilisant CDA est requise. Voir [Configuration d’Analytics sur l’ensemble des appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-setup.html) pour plus d’informations. |
 | Nouvelles touches d’accès rapide dans Workspace | <ul><li>Réduire/Développer tous les panneaux : `alt + m`</li><li>Réduire/Développer le panneau actif : `alt + ctrl + m`</li><li>Rechercher dans le rail de gauche : `ctrl + /`</li><li>Accéder au panneau suivant : `alt + Right Key`</li><li>Accéder au panneau précédent : `alt + Left Key`</li></ul>[En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| Autres améliorations de Workspace | <ul><li>Lorsqu’un panneau ou une visualisation est déposé dans Workspace, le rail de gauche passe désormais automatiquement aux composants pour un flux de travail plus fluide.</li><li>Les composants de modèle peuvent désormais être utilisés (balisés, favoris, approuvés, par exemple).</li><li>Le de mesures et de segments filtrés  le bouton + pour ajouter un nouveau composant si vous ne trouvez pas ce dont vous avez besoin.</li></ul> |
+| Autres améliorations apportées à Workspace | <ul><li>Lorsqu’un panneau ou une visualisation est déposé dans Workspace, le rail de gauche passe désormais automatiquement aux composants pour un flux de travail plus fluide.</li><li>Les composants de modèle peuvent désormais être actionnés (par exemple balisés, favoris, approuvés).</li><li>Les listes de mesures et de segments filtrées offre le bouton + pour ajouter un nouveau composant si vous ne trouvez pas ce dont vous avez besoin.</li></ul> |
 | Débogueur Workspace | Le débogueur Workspace a été ajouté au menu Aide, ce qui vous permet de l’activer plus facilement pour le débogage des requêtes Workspace. [En savoir plus...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## Janvier 2020
@@ -54,9 +54,9 @@ Améliorations publiées le 10 octobre 2019.
 
 | Amélioration | Description |
 |--- |--- |
-| Mise à jour des totaux des tableaux à structure libre | Les tableaux à structure libre comprennent désormais deux totaux, a **[!UICONTROL Table total]** et a **[!UICONTROL Grand total]**. La ligne Total du tableau tient compte des [filtres de rapport](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) appliqués. Avant la mise à jour, seule la segmentation affectait les totaux. [En savoir](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>plusEn outre, **[!UICONTROL Show Totals]** et **[!UICONTROL Show Grand Total]** des options ont été ajoutées à **[!UICONTROL Column Settings]**.<br/>Avec cette modification des totaux de forme libre, les visualisations dépendantes seront mises à jour (par exemple, **[!UICONTROL Summary Number]** visualisations liées), ainsi que les données CSV et PDF exportées. |
+| Mise à jour des totaux des tableaux à structure libre | Les tableaux à structure libre comprennent désormais deux totaux, a **[!UICONTROL Table total]** et a **[!UICONTROL Grand total]**. La ligne Total du tableau tient compte des [filtres de rapport](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) appliqués. Avant la mise à jour, seule la segmentation affectait les totaux. [En savoir](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>plusEn outre, **[!UICONTROL Show Totals]** et **[!UICONTROL Show Grand Total]** des options ont été ajoutées à **[!UICONTROL Column Settings]**.<br/>Avec cette modification des totaux de forme libre, les visualisations dépendantes seront mises à jour (par exemple, les **[!UICONTROL Summary Number]** visualisations liées), ainsi que les données CSV et PDF exportées. |
 | Option de suppression pour Non spécifié/Aucun | La possibilité de supprimer facilement « Non spécifié (Aucun) » a été ajoutée en tant qu’option des filtres de rapport. |
-| Abandon des composants de granularité violets | Les composants temporels de granularité violets (minute, heure, jour, semaine, mois, trimestre, année) ont été abandonnés. Les composants temporels violets se sont toujours comportés exactement comme leurs homologues de dimension orange, ce changement simplifiera donc l’expérience. **Aucune action** n’est nécessaire si vous avez déjà utilisé l’un des composants temporels violets.<br/>Grâce à ce changement, la section violette **[!UICONTROL Time]** a également été renommée **[!UICONTROL Date Ranges]**. |
+| Abandon des composants de granularité violets | Les composants temporels de granularité violets (minute, heure, jour, semaine, mois, trimestre, année) ont été abandonnés. Les composants temporels violets se sont toujours comportés exactement comme leurs homologues de dimension orange, ce changement simplifiera donc l’expérience. **Aucune action** n’est nécessaire si vous avez déjà utilisé l’un des composants temporels violets.<br/>Avec cette modification, la section violette **[!UICONTROL Time]** a également été renommée **[!UICONTROL Date Ranges]**. |
 
 ## Août 2019
 
@@ -682,7 +682,7 @@ Nouvelles fonctionnalités au 20 juillet 2017.
    <td colname="col2"> <p>Permet de modifier les paramètres de police (gras, italique, etc.) et le lien hypertexte dans les visualisations de zone de texte et les descriptions des panneaux/visualisations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-liens (liens de visualisation rapide) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intra-liens (liens de visualisation rapide) </a></b> </p> </td> 
    <td colname="col2"> <p>La création d’<b>intra-liens</b> permet de renvoyer depuis une zone de texte à des panneaux et visualisations spécifiques au sein d’un projet, par exemple pour créer une table des matières de projet. Ces liens peuvent être partagés comme n’importe quel lien de projet, afin de rediriger un utilisateur vers une visualisation ou un panneau spécifique au sein d’un projet. De nouvelles options contextuelles, nommées « Obtenir un lien vers le panneau » et « Obtenir un lien vers la visualisation », ont été ajoutées. </p> </td> 
   </tr> 
   <tr> 
@@ -973,12 +973,12 @@ Nouvelles fonctionnalités au 20 octobre 2016 :
 
 Nouvelles fonctionnalités au 16 juin 2016 :
 
-* [Nouvelle autorisation](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html) de groupe qui permet aux administrateurs d’autoriser ou de refuser l’accès à l’onglet **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** pour les utilisateurs. Depuis le 16 juin 2016, tous les utilisateurs ont accès à cet onglet. Pour refuser l’accès, il vous suffit de supprimer les utilisateurs du groupe Analysis Workspace Access (Accès à Analysis Workspace).
+* [Nouvelle autorisation](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html) de groupe qui permet aux administrateurs d’autoriser ou de refuser l’accès à l’ **[!UICONTROL Analytics]** onglet > **[!UICONTROL Workspace]** pour les utilisateurs. Depuis le 16 juin 2016, tous les utilisateurs ont accès à cet onglet. Pour refuser l’accès, il vous suffit de supprimer les utilisateurs du groupe Analysis Workspace Access (Accès à Analysis Workspace).
 * Le [Panneau Comparaison des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) détecte les différences les plus importantes sur le plan statistique entre deux segments, au moyen d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès.
 * [Nouvelle structure du menu Projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) : le menu supérieur est réorganisé et plus extensible. Par exemple, la création d’un **panneau de cohortes** nécessite maintenant de créer un panneau vierge et de le faire glisser dans une visualisation du tableau de cohortes.
 * [Nouveau rail de gauche](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) : panneaux, visualisations, composants
 * Un nouveau [type de visualisation de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) permet de faire glisser jusqu’à trois segments et une mesure et de générer un diagramme de Venn.
-* Le graphique en courbes [Sélection de tendances](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) sur un tableau de classement est désormais lié.
+* Le graphique en courbes [Sélection de tendances](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) sur un tableau de classement est désormais lié.
 * [Icône Créer un visuel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) : lorsque vous cliquez sur cette icône, le programme devine votre prochaine action (graphique à barres, de Venn...).
 * Fonction [Lignes manuelles](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) étendue
 * Zone de dépôt [Ajouter un segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)
@@ -1042,7 +1042,7 @@ Vous pouvez également utiliser les [raccourcis clavier](/help/analyze/analysis-
 
 Actions *`not`* inutilisables :
 
-* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). Vous pouvez toutefois cliquer **[!UICONTROL Undo]** après avoir cliqué **[!UICONTROL Run]**.
+* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). Vous pouvez toutefois cliquer **[!UICONTROL Undo]** après avoir cliqué sur **[!UICONTROL Run]**.
 
 * Le redimensionnement ou le déplacement des panneaux et sous-panneaux.
 
@@ -1095,7 +1095,7 @@ When editing an existing (saved) segment the Analysis Workspace Segment Builder,
 
 The new segment displays in the [!UICONTROL Segments] group in the [!UICONTROL Components] panel.
 
-*`Save As`* est également disponible pour les [!UICONTROL Calculated Metric Builder] et [!UICONTROL Date Range Builder].
+*`Save As`* est également disponible pour le [!UICONTROL Calculated Metric Builder] et [!UICONTROL Date Range Builder].
 
 ## Bouton Ajouter un nouveau segment {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
@@ -1155,7 +1155,7 @@ Dans [!UICONTROL Visualization Settings] l’ **[!UICONTROL Legend Visible]** op
 
 ## Axe Y de l’ancre à zéro {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-Selon les chiffres des graphiques en courbes et des diagrammes de surface, la partie inférieure de l’axe des ordonnées (Y) peut ne pas être zéro. L’activation **[!UICONTROL Anchor Y Axis at Zero]** de [!UICONTROL Visualization Settings] l’axe des ordonnées force l’axe des ordonnées sur zéro, afin d’obtenir un de tendances plus précis. Les exemples suivants présentent les modifications d’un diagramme des recettes en fonction de l’activation ou de la désactivation de ce paramètre.
+Selon les chiffres des graphiques en courbes et des diagrammes de surface, la partie inférieure de l’axe des ordonnées (Y) peut ne pas être zéro. L’activation **[!UICONTROL Anchor Y Axis at Zero]** de [!UICONTROL Visualization Settings] l’axe des ordonnées force l’axe des ordonnées à zéro, pour une vue plus précise des tendances. Les exemples suivants présentent les modifications d’un diagramme des recettes en fonction de l’activation ou de la désactivation de ce paramètre.
 
 **Option Axe Y de l’ancre à zéro désactivée**
 
