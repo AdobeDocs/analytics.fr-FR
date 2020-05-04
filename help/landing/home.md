@@ -2,7 +2,7 @@
 title: Documentation technique d’Adobe Analytics
 description: Ressources et guides de l’utilisateur d’Analytics
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -19,7 +19,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 
 [![Composants](assets/components_50px.png)](/help/components/home.md) [Guide des composants](/help/components/home.md) : présentation des fonctionnalités qui permettent d’organiser les données. Les composants comprennent les segments, les mesures calculées, les suites de rapports virtuelles, les alertes, etc. Ce guide comprend également une référence sur les variables, expliquant toutes les dimensions et mesures disponibles.
 
-[![Guide](assets/export_50px.png)](/help/export/home.md)d’[exportation](/help/export/home.md) - Obtenez des données à partir d’Adobe Analytics : Servez-vous [!UICONTROL Data Feeds] pour recevoir une exportation horaire ou quotidienne de données brutes. Retrieve a spreadsheet output of data using [!UICONTROL Data Warehouse].
+[![Guide](assets/export_50px.png)](/help/export/home.md)d’exportation[](/help/export/home.md) de l’exportation - Extraction des données d’Adobe Analytics : Servez-vous [!UICONTROL Data Feeds] pour recevoir une exportation horaire ou quotidienne de données brutes. Retrieve a spreadsheet output of data using [!UICONTROL Data Warehouse].
 
 [![Importation](assets/import_50px.png)](/help/import/home.md) [Guide d’importation](/help/import/home.md) : importez des données dans Analytics à partir de sources externes, en bloc ou en temps réel. Inclut [!UICONTROL Data Sources], [!UICONTROL Data Insertion API]et [!UICONTROL Data Connectors].
 
@@ -41,7 +41,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 
 Here is a comprehensive list of and links to all the reporting capabilities in Adobe Analytics.
 
-* [Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
