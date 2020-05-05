@@ -1,38 +1,41 @@
 ---
-description: Instructions pour configurer les cartes de performance  des.
-title: Guide de l’administrateur de  d’Adobe Analytics
+description: Instructions pour configurer les fiches de performance des tableaux de bord.
+title: Guide de l’administrateur des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 84c2d3534828b4c8d84d18de9168a46317a8b372
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 
-# BETA : Guide du conservateur pour les  d’Adobe Analytics
+# Guide du conservateur pour les tableaux de bord Adobe Analytics
 
+>[!IMPORTANT]
+>
+>Les tableaux de bord Adobe Analytics ne sont pas publiés et ne sont disponibles que pour les tests bêta parmi les clients invités. Cette documentation est destinée >uniquement aux utilisateurs de la version bêta et ne représente pas la fonctionnalité complète de la fonctionnalité. Si vous souhaitez devenir un utilisateur bêta pour cette >fonctionnalité, veuillez contacter Ashok Gorrepatio (gorrepati@adobe.com).
 
 ## Introduction
 
-Le Adobe Analytics  fournit des informations à tout moment et en tout lieu à partir d’Adobe Analytics. L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives, que vous créez et partagez à partir de l’interface utilisateur de bureau d’Adobe Analytics. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Vous pouvez personnaliser les Fiches d’évaluation en fonction des données qui comptent le plus pour vous. Les  Analytics sont prises en charge sur les systèmes d’exploitation iOS et Android.
+Les tableaux de bord Adobe Analytics fournissent des informations à tout moment et en tout lieu à partir d’Adobe Analytics. L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives, que vous créez et partagez à partir de l’interface utilisateur de bureau d’Adobe Analytics. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Vous pouvez personnaliser les Fiches d’évaluation en fonction des données qui comptent le plus pour vous. Les tableaux de bord Analytics sont pris en charge sur les systèmes d’exploitation iOS et Android.
 
 ## À propos de ce guide
 
-Ce guide a pour but d’aider les responsables de la configuration des données Adobe Analytics à configurer des feuilles de performance pour leurs utilisateurs de la  Analytics. Les curateurs peuvent être des administrateurs de l’entreprise ou des personnes occupant d’autres rôles chargés de configurer des Fiches d’évaluation dans l’application qui permettent aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles. Bien que les administrateurs soient les utilisateurs finaux des  de Analytics, ce guide aidera les gestionnaires de données à configurer l’application de manière efficace pour ces utilisateurs.
+Ce guide a pour but d’aider les responsables de la configuration des données Adobe Analytics à configurer des cartes de performance pour leurs utilisateurs cadres dans les tableaux de bord Analytics. Les curateurs peuvent être des administrateurs de l’entreprise ou des personnes occupant d’autres rôles chargés de configurer des Fiches d’évaluation dans l’application qui permettent aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles. Bien que les administrateurs soient les utilisateurs finaux des tableaux de bord Analytics, ce guide aide les responsables de la gestion des données à configurer l’application de manière efficace pour ces utilisateurs.
 
 
 ## Glossaire terminologique
 
-Le tableau ci-dessous décrit les termes permettant de comprendre le  , les fonctions et le fonctionnement du Analytics.
+Le tableau suivant décrit les termes permettant de comprendre l’audience, les fonctions et le fonctionnement des tableaux de bord Analytics.
 
 | Terme | Définition |
 |--- |--- |
 | Consommateur | Personne en charge de l’exécution affichant les mesures clés et les insights d’Analytics sur un appareil mobile |
 | Curateur | Personne possédant des compétences en littératie des données qui découvre et distribue des insights d’Analytics et configure les Fiches d’évaluation que verra le consommateur |
-| Traitement | Acte de création ou de modification d’une carte de performance mobile contenant les mesures, dimensions et autres composants pertinents pour le consommateur |
-| Fiche d’évaluation | Un   contenant une ou plusieurs mosaïques |
+| Traitement | Action de création ou de modification d’une carte de performance mobile contenant des mesures, des dimensions et d’autres composants pertinents pour le consommateur |
+| Fiche d’évaluation | vue de tableaux de bord contenant une ou plusieurs mosaïques |
 | Mosaïque | Un rendu d’une mesure dans un affichage de la Fiche d’évaluation |
 | Ventilation | Un affichage secondaire accessible en appuyant sur une mosaïque de la Fiche d’évaluation. Cet affichage étend la mesure affichée sur la mosaïque et peut de manière facultative gérer des dimensions de ventilation supplémentaires. |
-| Période | Plage de dates principale pour   |
+| Période | Plage de dates principale pour le rapports des tableaux de bord |
 | Période de comparaison | La période comparée à la période principale |
 
  
@@ -149,7 +152,7 @@ Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exé
 ![Share_Scorecards](assets/new_share.png)
 
 
-Une fois que vous avez partagé une carte de performance, vos peuvent y accéder sur leur  Analytics. Si, par la suite, vous apportez des modifications à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, celles-ci seront mises à jour automatiquement dans la Fiche d’évaluation que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
+Une fois que vous avez partagé une carte de performance, vos destinataires peuvent y accéder sur leurs tableaux de bord Analytics. Si, par la suite, vous apportez des modifications à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, celles-ci seront mises à jour automatiquement dans la Fiche d’évaluation que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
 
 *Remarque : si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous pouvez vouloir partager à nouveau la Fiche d’évaluation (et cocher l’option **Partager automatiquement les composants incorporés avec les destinataires**) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.*
 
@@ -185,10 +188,9 @@ Pendant la phase de bêta et avant que l’application ne soit dévoilée au pub
 
    2. Appuyez sur le lien **Afficher dans l’App Store** à l’écran pour télécharger l’application Testflight.
 
-   3. Après avoir installé l’application Testflight, recherchez et installez le Adobe Analytics  depuis Testflight, comme indiqué ci-dessous :
+   3. Après avoir installé l’application Testflight, recherchez et installez les tableaux de bord Adobe Analytics depuis Testflight, comme indiqué ci-dessous :
 
       ![Écran Testflight](assets/testflight2.png)
-
    **Pour les utilisateurs en charge de l’exécution sur Android :**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -204,7 +206,6 @@ Pendant la phase de bêta et avant que l’application ne soit dévoilée au pub
 
    3. Téléchargez et installez l’application.
 Une fois l’application téléchargée et installée, les utilisateurs en charge de l’exécution peuvent se connecter à l’application en utilisant leurs informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
-
    ![Écran de bienvenue de l’application](assets/welcome.png)
 
 2. Aidez-les à accéder à votre Fiche d’évaluation. Lorsque les utilisateurs en charge de l’exécution sont connectés à l’application, l’écran **Choisir une entreprise** apparaît. Cet écran répertorie les entreprises connectées auxquelles l’utilisateur en charge de l’exécution appartient. Pour les aider à accéder à la Fiche d’évaluation :
@@ -212,7 +213,6 @@ Une fois l’application téléchargée et installée, les utilisateurs en charg
    * Appuyez sur le nom de l’entreprise connectée ou de l’organisation Experience Cloud auquel la Fiche d’évaluation que vous avez créée s’applique. La liste des Fiches d’évaluation affiche alors toutes les Fiches d’évaluation partagées avec la personne en charge de l’exécution pour cette entreprise connectée.
    * Aidez-les à trier cette liste selon la **Modification la plus récente**, le cas échéant.
    * Appuyez sur le nom de la Fiche d’évaluation pour l’afficher.
-
    ![Choisissez une entreprise](assets/accesscard.png)
 
    Remarque : si l’utilisateur en charge de l’exécution se connecte et qu’un message s’affiche indiquant que rien n’a été partagé :
@@ -221,7 +221,6 @@ Une fois l’application téléchargée et installée, les utilisateurs en charg
    * La Fiche d’évaluation peut ne pas avoir été partagée avec l’utilisateur en charge de l’exécution.
 
       ![Rien n’a été partagé](assets/nothing.png)
-
    Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Analytics et que la Fiche d’évaluation a bien été partagée.
 
 3. Expliquez à l’utilisateur en charge de l’exécution comment les mosaïques apparaissent dans les Fiches d’évaluation que vous partagez.
@@ -257,7 +256,6 @@ Une fois l’application téléchargée et installée, les utilisateurs en charg
    1. Appuyez sur l’icône utilisateur en haut à droite de l’écran de l’application.
    2. Sur l’écran **Mon compte**, appuyez sur l’option **Commentaires**.
    3. Appuyez pour afficher les options permettant de laisser un commentaire.
-
    ![Laisser un commentaire](assets/feedback.png)
    ![Options de commentaires](assets/feedback_option.png)
 
