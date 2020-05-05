@@ -1,13 +1,13 @@
 ---
-title: Présentation des tableaux de bord
+title: tableaux de bord Adobe Analytics - Présentation
 description: Documentation du produit et aide autonome pour les tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 7c1f35d92bfaccaf4d2bb7e16e93314d739545d3
 
 ---
 
 
-# Présentation des tableaux de bord Adobe Analytics
+# tableaux de bord Adobe Analytics - Présentation
 
 >[!IMPORTANT]
 >
