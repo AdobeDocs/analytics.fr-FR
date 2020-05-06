@@ -4,16 +4,19 @@ title: Aperçu d’Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 225bc7022af656db5ad61bac2daf454c89ba1867
+source-git-commit: 20e5273ba5a2c3416f13fd91e18621e5dd0eeac7
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 98%
 
 ---
 
 
 # Aperçu d’Analysis Workspace
 
-Analysis Workspace élimine toutes les limites courantes d’un rapport Analytics unique. Il offre un canevas robuste et souple permettant de créer des projets d’analyses personnalisés. Faites glisser des tableaux de données, des visualisations et des composants (dimensions, mesures, segments et granularités temporelles) sur un projet. Créez instantanément des ventilations et des segments, des cohortes pour analyse, ainsi que des alertes, comparez des segments, analysez les flux et les abandons, et traitez et planifiez les rapports pour les partager avec n’importe qui dans votre entreprise.
+Analysis Workspace élimine toutes les limites courantes d’un rapport Analytics unique. Il offre un canevas robuste et souple permettant de créer des projets d’analyses personnalisés. Faites glisser des tableaux de données, des visualisations et des composants (dimensions, mesures, segments et granularités temporelles) sur un projet. Créez instantanément des ventilations et des segments, des cohortes pour analyse, ainsi que des alertes, comparez des segments, analysez les flux et les abandons, et traitez et planifiez les rapports pour les partager avec n’importe qui dans votre entreprise. Les fonctionnalités avancées incluent l’ID d’attribution,
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
 ## Vidéo de présentation
 
@@ -59,7 +62,7 @@ En plus des capacités de [modification de texte enrichi](/help/analyze/analysis
    ![](assets/intra-linking1.png)
 
 1. Accédez à ce panneau ou à cette visualisation, puis cliquez avec le bouton droit sur son en-tête.
-1. Faites défiler la page vers le bas et sélectionnez **[!UICONTROL Get Panel Link]** ou **[!UICONTROL Get Visualization Link]**:
+1. Faites défiler l’écran et sélectionnez **[!UICONTROL Obtenir un lien vers le panneau]** ou **[!UICONTROL Obtenir un lien vers la visualisation]** :
 
    ![](assets/intra-linking2.png)
 
@@ -67,11 +70,11 @@ En plus des capacités de [modification de texte enrichi](/help/analyze/analysis
 
 Quand un utilisateur clique sur un lien, les panneaux ou visualisations réduits dans le projet sont agrandis afin d’être visibles.
 
->[!NOTE] Vous pouvez également utiliser cette fonction dans l’option de clic **[!UICONTROL Edit Description]** droit.
+>[!NOTE] Cette option est disponible également depuis l’option contextuelle **[!UICONTROL Modifier la description]**.
 
 ## Lien vers d’autres projets
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+Pour renvoyer les utilisateurs vers d’autres projets susceptibles de les intéresser, sélectionnez **[!UICONTROL Partager]** > **[!UICONTROL Obtenir le lien du projet]** puis incorporez ce lien dans les descriptions du projet, par exemple.
 
 ## Visualisation dynamique des cellules sélectionnées
 
@@ -89,7 +92,7 @@ Voir [Gestion des sources de données](/help/analyze/analysis-workspace/visualiz
 
 ## Visualisations des tendances d’après les cellules sélectionnées
 
-Créez une visualisation d’après les cellules sélectionnées (Cliquez avec le bouton droit de la souris > **[!UICONTROL Trend Selection]**.)
+Créez une visualisation d’après les cellules sélectionnées (clic droit > **[!UICONTROL Sélection de tendances]**).
 
 ![](assets/trend-selection.png)
 
