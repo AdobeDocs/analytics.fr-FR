@@ -4,7 +4,10 @@ title: Qu’est-ce que l’analyse des cohortes ?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +32,7 @@ L’analyse des cohortes est disponible pour tous les clients Analytics avec des
 
 >[!IMPORTANT]
 >
->L’analyse des cohortes ne prend pas en charge les mesures calculées.
+>L’Analyse de cohortes ne prend pas en charge les mesures non segmentables, telles que les mesures calculées, les mesures non entières ou les [!UICONTROL occurrences]. Seules les mesures pouvant être utilisées dans les segments peuvent être utilisées dans l’Analyse de cohortes et elles ne peuvent être incrémentées que de 1 à la fois.
 
 ## Fonctions de l’analyse des cohortes
 
