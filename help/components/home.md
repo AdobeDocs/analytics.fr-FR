@@ -2,7 +2,10 @@
 title: Aide sur les composants d’Analytics
 description: valeur nulle
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +19,7 @@ Les composants Analytics permettent d’affiner et d’optimiser l’analyse des
 * **Segmentation :** Concentrez-vous sur un sous-ensemble de vos données.
 * **Mesures calculées :** Utilisez des formules simples pour combiner des mesures ou des fonctions avancées pour vos analyses statistiques.
 * **Suites de rapports virtuelles :** Créez un silo virtuel de données basé sur une suite de rapports. Permet de nettoyer ou de segmenter les données pour une meilleure expérience utilisateur. Certaines fonctionnalités ne peuvent être utilisées que dans des suites de rapports virtuelles.
+* **Analyses** sur plusieurs périphériques : Un type spécial de suite de rapports virtuelle vous permet de configurer Analytics sur plusieurs périphériques.
 * **Alertes :** Recevez des notifications à chaque fois que les données sont supérieures ou inférieures à un seuil.
 * **Classifications :** Réorganisez et groupez les dimensions pour obtenir des informations supplémentaires.
 * **Variables :** Guide de référence pour toutes les dimensions et mesures disponibles dans les rapports.
