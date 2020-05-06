@@ -2,76 +2,81 @@
 title: Fenêtre modale de mise en œuvre
 description: Si vous êtes un nouvel utilisateur, découvrez ce que vous devez savoir sur la mise en œuvre d’Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 50%
 
 ---
 
 
 # Fenêtre modale de mise en œuvre
 
-<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
+Reportez-vous à la page [Création d&#39;une suite](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)de rapports.
 
-La fenêtre modale « Bienvenue dans Adobe Analytics » simplifie le processus de création d’une suite de rapports. Adobe conseille d’utiliser ce processus chaque fois que davantage de suites de rapports sont nécessaires dans votre entreprise.
+<!-- https://activation.adobedtm.com/index.php?redirected=1 
 
-![Copie d’écran de la fenêtre modale](assets/implementation-modal.png)
+The 'Welcome to Adobe Analytics' modal window provides a simplified workflow to create a report suite. Adobe recommends using this workflow whenever more report suites are needed in your organization.
 
-## Conditions préalables
+![Modal screenshot](assets/implementation-modal.png)
 
-Votre Adobe ID doit avoir accès à Adobe Analytics et à Adobe Experience Platform Launch. Si vous n’avez pas accès à Launch, vous pouvez être placé dans une boucle d’authentification où il vous est demandé de vérifier vos informations d’identification indéfiniment. Contactez un administrateur système de votre entreprise pour obtenir l’accès à Launch.
+## Prerequisites
 
-## Accès à la fenêtre modale
+Your Adobe ID must have access to both Adobe Analytics and Adobe Experience Platform Launch. If you do not have access to Launch, you can be placed into an authentication loop where it asks to verify your credentials indefinitely. Talk to a system admin in your organization to obtain access to Launch.
 
-Accédez à la fenêtre modale pour créer une suite de rapports à l’aide des étapes suivantes.
+## Access the modal
 
-1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur l’icône à neuf carrés en haut de l’écran, puis sur [!UICONTROL Adobe Analytics].
-3. Si vous n’avez pas encore créé de suite de rapports, la fenêtre modale s’affiche automatiquement. S’il existe une suite de rapports pour cette société de connexion, cliquez sur l’icône Aide en haut à droite, puis sur [!UICONTROL Bienvenue dans Adobe Analytics].
+Access the modal to create a report suite using the following steps.
 
->[!NOTE] L’option [!UICONTROL Bienvenue dans Adobe Analytics] s’affiche uniquement si vous vous connectez via Adobe Experience Cloud. Si vous vous connectez par le biais de domaines hérités, la fenêtre modale n’est pas disponible.
+1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
+2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
+3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-## Création d’une suite de rapports
+>[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
-Cliquez sur le bouton [!UICONTROL Démarrer la configuration] pour lancer le processus de création de la suite de rapports.
+## Create a report suite
 
-![Assistant RS](assets/analytics-implementation-rs-wizard.png)
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
-### Type de propriété
+![RS wizard](assets/analytics-implementation-rs-wizard.png)
 
-Le type de propriété permet à Adobe de déterminer certains paramètres d’arrière-plan en fonction de l’emplacement de mise en œuvre d’Analytics.
+### Property type
 
-* **Site web** : si vous avez l’intention de mettre en œuvre Adobe Analytics uniquement pour un site web.
-* **Application mobile native** : si vous avez l’intention de mettre en œuvre Adobe Analytics uniquement pour une application mobile.
-* **Les deux** : si cette suite de rapports contient des données pour un site web et une application mobile.
+Property type helps Adobe determine some backend settings based on where you intend to implement Analytics.
 
-### Secteurs d’activité
+* **Website**: If you intend to implement Adobe Analytics just for a website.
+* **Native Mobile App**: If you intend to implement Adobe Analytics just for a mobile app.
+* **Both**: If this report suite contains data for both a website and a mobile app.
 
-Spécifiez votre modèle d’entreprise principal. Ce paramètre permet à Adobe de préconfigurer certains noms de variable et paramètres en fonction de votre modèle commercial principal.
+### Industries
 
-### Couche de données
+Specify your primary business model. This setting helps Adobe pre-configure some variable names and settings based on your primary business model.
 
-Une [couche de données](data-layer.md) désigne un objet JavaScript qui classe toutes les variables utilisées dans votre mise en œuvre dans un seul emplacement utile. Pour plus d’informations, reportez-vous à la section [Couches de données](data-layer.md).
+### Data layer
 
-### Référentiel de données
+A [Data layer](data-layer.md) is a JavaScript object that organizes all variables used in your implementation into a single helpful location. See [Data layers](data-layer.md) for more information.
 
-Donnez un nom convivial à votre suite de rapports. L’identifiant de votre suite de rapports (RSID) est généré automatiquement en fonction du nom convivial et du nom de la société de connexion.
+### Data repository
 
-### Fuseau horaire
+Give your report suite a friendly name. Your report suite ID (RSID) automatically generates based on the friendly name and login company.
 
-Vérifiez qu’Adobe a détecté le bon fuseau horaire pour la suite de rapports.
+### Time zone
 
-### Estimation du nombre de pages vues par jour
+Verify that Adobe detected the correct time zone for the report suite.
 
-Estimez le volume de trafic de votre site web ou de votre application par jour. Ces informations permettent à Adobe d’allouer le montant correct des ressources de traitement à votre suite de rapports.
+### Estimated page views per day
 
-### Devise de base
+Estimate how much traffic your website or app gets per day. This information allows Adobe to allocate the correct amount of processing resources to your report suite.
 
-Déterminez dans quelle devise la suite de rapports stocke les valeurs monétaires.
+### Base currency
 
->[!IMPORTANT] Veillez à indiquer la devise appropriée, en particulier si vous avez des exigences de création de rapports concernant les recettes. Il est difficile de modifier la devise de base une fois la collecte des données commencée.
+Determine what currency the report suite stores monetary values in.
 
-## Ressources de mise en œuvre
+>[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
-Une fois la suite de rapports créée, vous disposez de l’une des deux options pour poursuivre votre mise en œuvre :
+## Implementation resources
 
-* **Accéder à Adobe Experience Platform Launch** : vous redirige vers [launch.adobe.com](https://launch.adobe.com) pour configurer votre mise en œuvre et télécharger le code de déploiement. Voir [Mise en œuvre avec Launch](../launch/overview.md). Adobe recommande d’utiliser Launch dans la plupart des cas.
-* **Télécharger le code de mise en œuvre** : fournit un lien direct pour télécharger des fichiers JavaScript pour une mise en œuvre manuelle de JavaScript. Voir [AppMeasurement pour JavaScript](../js/overview.md).
+After the report suite is created, you have one of two options to proceed with your implementation:
+
+* **Go to Adobe Experience Platform Launch**: Links you to [launch.adobe.com](https://launch.adobe.com) to configure your implementation and download deploy code. See [Implement with Launch](../launch/overview.md). Adobe recommends using Launch in most cases.
+* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md). -->
