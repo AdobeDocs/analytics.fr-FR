@@ -2,7 +2,10 @@
 title: Transition d’une plateforme d’analyse tierce vers Adobe Analytics
 description: Découvrez les concepts clés pour obtenir des rapports destinés aux utilisateurs familiarisés avec d’autres plateformes, comme Google Analytics.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +21,7 @@ Dans Adobe Analytics, il existe deux méthodes principales pour extraire les rap
 * **Reports &amp; Analytics** est la méthode historique d’extraction des rapports de base. Le menu de gauche fournit une liste de rapports préfabriqués et permet à l’utilisateur d’accéder au rapport souhaité et d’obtenir des données. Les segments et les mesures peuvent fournir des personnalisations supplémentaires. Les utilisateurs qui ont l’habitude des rapports Google Analytics trouveront sûrement cette disposition familière.
 * **Analysis Workspace** est la méthode actuellement recommandée pour extraire la plupart des rapports. Le menu de gauche permet à l’utilisateur de glisser et déposer des composants pour créer son propre rapport. Il offre une plus grande liberté pour répondre à besoins précis en matière de rapports. Les utilisateurs qui ont l’habitude de créer des tableaux de bord et des rapports personnalisés Google Analytics trouveront sûrement cette disposition familière.
 
-La plupart des rapports peuvent être créés à la fois dans Reports &amp; Analytics et dans Analysis Workspace. Cependant, certains rapports peuvent être extraits uniquement à l’aide d’une des plateformes. Dans la plupart des cas, Adobe conseille d’utiliser Analysis Workspace, sauf si une fonction spécifique n’est disponible que dans Reports &amp; Analytics.
+Most reports can be created in both [!UICONTROL Reports &amp; Analytics] and [!UICONTROL Analysis Workspace]. Cependant, certains rapports peuvent être extraits uniquement à l’aide d’une des plateformes. In most cases, Adobe recommends using [!UICONTROL Analysis Workspace], unless a specific feature is only available in [!UICONTROL Reports &amp; Analytics].
 
 ## Parcours d’apprentissage recommandé
 
@@ -26,7 +29,7 @@ Adobe recommande de commencer par les principes de base absolus de l’obtention
 
 * [Création d’un rapport de base dans Analysis Workspace pour les utilisateurs de GA](reports/create-report.md)
 
-Une fois familiarisé avec les composants d’Analysis Workspace, vous pouvez apprendre à recréer la plupart des rapports à l’aide des composants appropriés.
+Once you are familiar with components in [!UICONTROL Analysis Workspace], you can learn how to recreate most reports using the right components.
 
 * [Création de rapports en temps réel dans Adobe Analytics](reports/realtime-reports.md)
 * [Création de rapports Audience dans Adobe Analytics](reports/audience-reports.md)
