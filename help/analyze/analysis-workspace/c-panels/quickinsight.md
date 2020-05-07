@@ -2,7 +2,10 @@
 description: Le créateur d’aperçus rapides est un outil destiné aux nouveaux utilisateurs de Workspace qui les guide dans la création de tableaux de données et de visualisations.
 title: Générateur d’informations rapides
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 2%
 
 ---
 
@@ -11,19 +14,19 @@ source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** est actuellement limitée dans les tests et n’est pas encore accessible à tous les clients Adobe Analytics.
+>**[!UICONTROL Quick Insights]** est actuellement soumis à des tests limités et n’est pas encore disponible pour tous les clients d’Adobe Analytics.
 
-[!UICONTROL Quick Insights] fournit des conseils aux non-analystes et aux nouveaux utilisateurs de [!UICONTROL Analysis Workspace] pour apprendre à répondre rapidement et facilement aux questions commerciales. C&#39;est aussi un outil idéal pour les utilisateurs expérimentés qui veulent répondre rapidement à une question simple sans avoir à construire eux-mêmes un tableau.
+[!UICONTROL Quick Insights] fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’ [!UICONTROL Analyse Workspace] pour savoir comment répondre rapidement et facilement aux questions de l’entreprise. C&#39;est aussi un outil idéal pour les utilisateurs expérimentés qui veulent répondre rapidement à une question simple sans avoir à construire eux-mêmes un tableau.
 
-Lors de votre premier début d’utilisation de cette [!UICONTROL Analysis Workspace]méthode, vous pouvez vous demander quelles visualisations seraient les plus utiles, quelles dimensions et mesures pourraient faciliter les statistiques, où faire glisser et déposer des éléments, où créer un segment, etc.
+Lorsque vous utilisez pour la première fois cet espace de travail Analyse, vous pouvez vous demander quelles visualisations seraient les plus utiles, quelles dimensions et mesures pourraient faciliter les statistiques, où faire glisser et déposer des éléments, où créer un segment, etc.
 
-Pour y remédier, et en fonction de l’utilisation des composants de données dans votre propre société, [!UICONTROL Analysis Workspace][!UICONTROL Quick Insights] utilisez un algorithme qui vous présentera les dimensions, mesures, segments et plages de dates les plus populaires que votre société utilise.
+Pour y remédier, et en fonction de l’utilisation des composants de données par votre propre société dans [!UICONTROL Analyse Workspace], [!UICONTROL Quick Insights] utilise un algorithme qui vous présente les dimensions, mesures, segments et plages de dates les plus populaires que votre société utilise.
 
-[!UICONTROL Quick Insights] vous aide
+[!UICONTROL Les statistiques] rapides vous aident à
 
-* Créez correctement un tableau de données et une visualisation correspondante dans [!UICONTROL Analysis Workspace].
-* Apprenez la terminologie et le vocabulaire pour les composants de base et les éléments de [!UICONTROL Analysis Workspace]base.
-* Réalisez des ventilations simples de dimensions, ajoutez plusieurs mesures ou comparez facilement des segments au sein d’un même [!UICONTROL Freeform table]groupe.
+* Créez correctement un tableau de données et une visualisation connexe dans [!UICONTROL Analyse Workspace].
+* Découvrez la terminologie et le vocabulaire des composants de base et des éléments d’ [!UICONTROL Analyse Workspace].
+* Effectuez des ventilations simples de dimensions, ajoutez plusieurs mesures ou comparez facilement des segments dans un tableau [!UICONTROL à structure]libre.
 * Modifiez ou testez divers types de visualisation pour trouver rapidement et intuitivement l&#39;outil de recherche pour votre analyse.
 
 ## Terminologie clé de base
@@ -33,27 +36,29 @@ Voici quelques-uns des termes de base que vous devez connaître. Chaque tableau 
 | Bloc de création (composant) | Définition |
 |---|---|
 | [!UICONTROL Dimension] | Les dimensions sont des descriptions ou des caractéristiques des données de mesure qui peuvent être visualisées, ventilées et comparées dans un projet. Il s’agit de valeurs et de dates non numériques qui se divisent en éléments de dimension. Par exemple, &quot;navigateur&quot; ou &quot;page&quot; sont des dimensions. |
-| [!UICONTROL Dimension item] | Les éléments de dimension sont des valeurs individuelles pour une dimension. Par exemple, les éléments de dimension pour la dimension de navigateur seraient &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, etc. |
-| [!UICONTROL Metric] | Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, les recettes, etc. |
-| [!UICONTROL Visualization] | Workspace offre [un certain nombre de visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) pour créer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des diagrammes en courbes, des cartes, des tracés différés, etc. |
-| [!UICONTROL Breakdown] | Une ventilation permet de ventiler une dimension selon d’autres dimensions. Dans notre exemple, vous pouvez ventiler les États américains en fonction des périphériques mobiles pour obtenir les visites des périphériques mobiles par état, ou vous pouvez ventiler les périphériques mobiles en fonction des types de périphériques mobiles, des régions, des campagnes internes, etc. |
-| [!UICONTROL Segment] | Les segments vous permettent d’identifier des sous-ensembles de visiteurs en fonction de caractéristiques ou d’interactions sur le site Web. Par exemple, vous pouvez créer [!UICONTROL Visitor] des segments basés sur des attributs : type de navigateur, périphérique, nombre de visites, pays, sexe ou selon les interactions : campagnes, recherche de mots-clés, moteur de recherche ou en fonction des sorties et des entrées : visiteurs de Facebook, d’un landing page défini, d’un domaine référent ou basés sur des variables personnalisées : champ de formulaire, catégories définies, ID de client. |
+| [!UICONTROL Élément de dimension] | Les éléments de dimension sont des valeurs individuelles pour une dimension. Par exemple, les éléments de dimension pour la dimension de navigateur seraient &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, etc. |
+| [!UICONTROL Mesure] | Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, les recettes, etc. |
+| [!UICONTROL Visualisation] | Workspace offre [un certain nombre de visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) pour créer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des diagrammes en courbes, des cartes, des tracés différés, etc. |
+| [!UICONTROL Ventilation] | Une ventilation permet de ventiler une dimension selon d’autres dimensions. Dans notre exemple, vous pouvez ventiler les États américains en fonction des périphériques mobiles pour obtenir les visites des périphériques mobiles par état, ou vous pouvez ventiler les périphériques mobiles en fonction des types de périphériques mobiles, des régions, des campagnes internes, etc. |
+| [!UICONTROL Segment] | Les segments vous permettent d’identifier des sous-ensembles de visiteurs en fonction de caractéristiques ou d’interactions sur le site Web. Par exemple, vous pouvez créer des segments de [!UICONTROL Visiteurs] en fonction d’attributs : type de navigateur, périphérique, nombre de visites, pays, sexe ou selon les interactions : campagnes, recherche de mots-clés, moteur de recherche ou en fonction des sorties et des entrées : visiteurs de Facebook, d’un landing page défini, d’un domaine référent ou basés sur des variables personnalisées : champ de formulaire, catégories définies, ID de client. |
 
 ## Prise en main de Quick Insights
 
 1. Connectez-vous à Adobe Analytics à l’aide des informations d’identification qui vous ont été fournies.
-1. Accédez à [!UICONTROL Workspace] , cliquez sur **[!UICONTROL Create New Project]** , puis sur **[!UICONTROL Quick Insights]**.
+1. Accédez à [!UICONTROL Workspace] et cliquez sur **[!UICONTROL Créer un nouveau projet]** , puis cliquez sur **[!UICONTROL Quick Insights]**(Statistiques rapides). (Vous pouvez également accéder à ce panneau à partir du menu **[!UICONTROL Panneau]** dans le rail de gauche.)
 
    ![](assets/qibuilder.png)
 
-1. Lorsque vous sortez du début, passez en revue le court didacticiel qui vous enseigne certaines des [!UICONTROL Quick Insights panel] bases. Ou cliquez sur pour **[!UICONTROL Skip Tutorial]**.
+   ![](assets/qi-panel.png)
+
+1. Lors de votre premier début, passez en revue le court didacticiel qui vous apprend quelques-uns des concepts de base du panneau  Aperçu rapide. Ou cliquez sur pour **[!UICONTROL Ignorer le didacticiel]**.
 1. Sélectionnez vos blocs de création (également appelés composants) : dimensions (orange), mesures (vert), segments (bleu) ou plages de dates (violet) Vous devez sélectionner au moins une dimension et une mesure pour qu’un tableau soit automatiquement créé.
 
    ![](assets/qibuilder2.png)
 
    Vous pouvez sélectionner les blocs de création de trois manières différentes :
    * Faites-les glisser depuis le rail de gauche.
-   * Si vous savez ce que vous cherchez : Tapez un Début et [!UICONTROL Quick Insights] remplissez les blancs pour vous.
+   * Si vous savez ce que vous cherchez : Si vous tapez un Début et [!UICONTROL Quick Insights] , vous n&#39;aurez qu&#39;à remplir les champs vides.
    * Cliquez sur la liste déroulante et recherchez la liste.
 
 1. Lorsque vous avez ajouté au moins une dimension et une mesure, les éléments suivants sont créés pour vous :
@@ -61,18 +66,20 @@ Voici quelques-uns des termes de base que vous devez connaître. Chaque tableau 
    * Tableau à structure libre avec la dimension (ici, Etats-Unis) verticalement et la mesure (ici, Visites) horizontalement en haut. Consultez ce tableau :
    ![](assets/qibuilder3.png)
 
-   * Visualisation connexe, dans ce cas un graphique [à](/help/analyze/analysis-workspace/visualizations/bar.md)barres. La visualisation qui est générée dépend du type de données que vous avez ajoutées au tableau. Vous pouvez modifier le type de visualisation en cliquant sur la flèche de liste déroulante en regard de **[!UICONTROL Bar]**.
+   * Visualisation connexe, dans ce cas un graphique [à](/help/analyze/analysis-workspace/visualizations/bar.md)barres. La visualisation qui est générée dépend du type de données que vous avez ajoutées au tableau. Vous pouvez modifier le type de visualisation en cliquant sur la flèche de liste déroulante en regard de **[!UICONTROL Barre]**.
 
 
 1. (Facultatif) Recherchez les dimensions et affichez les éléments de dimension en cliquant sur la flèche > à droite en regard de la dimension.
 
-1. Essayez d&#39;ajouter d&#39;autres perfectionnements comme décrit ci-dessous sous &quot;Autres options utiles&quot;.
+1. Essayez d&#39;ajouter d&#39;autres perfectionnements comme décrit ci-dessous sous &quot;Autres conseils&quot;.
 
-## Autres options utiles
+1. Enregistrez votre projet en cliquant sur **[!UICONTROL Projet > Enregistrer]**.
 
-D&#39;autres conseils utiles apparaîtront dans le [!UICONTROL Quick Insights Builder], certains selon votre dernière action.
+## Plus de conseils
 
-* Commencez par suivre le **[!UICONTROL More tips]** didacticiel : Accédez-y via l’aide (?) en regard du [!UICONTROL Quick Insights Panel] titre.
+D’autres conseils utiles s’affichent dans le créateur [!UICONTROL d’aperçus]rapides, certains en fonction de votre dernière action.
+
+* Pour commencer, suivez le didacticiel **[!UICONTROL Plus de conseils]** : Accédez-y via l’aide (?) en regard du titre [!UICONTROL Quick Insights] . Ce didacticiel s’affiche 24 heures après la création d’un projet avec au moins une dimension et une mesure.
 
    ![](assets/qibuilder4.png)
 
@@ -88,9 +95,13 @@ D&#39;autres conseils utiles apparaîtront dans le [!UICONTROL Quick Insights Bu
 
    ![](assets/qibuilder7.png)
 
+## Ouverture/chargement d’un projet d’aperçu rapide
+
+
+
 ## Limites connues
 
-Si vous tentez de modifier directement le tableau, le [!UICONTROL Quick Insights] panneau (l’outil de remplissage du blanc) ne sera plus synchronisé. Vous pouvez restaurer les paramètres précédents en cliquant [!UICONTROL Quick Insights] **[!UICONTROL Resync Builder]** en haut à droite du panneau.
+Si vous essayez de modifier directement dans le tableau, le panneau [!UICONTROL Aperçu] rapide (outil de remplissage de l’outil vide) ne sera plus synchronisé. Vous pouvez rétablir les paramètres [!UICONTROL Quick Insights] précédents en cliquant sur **[!UICONTROL Resync Builder]** dans la partie supérieure droite du panneau.
 
 ![](assets/qibuilder9.png)
 
