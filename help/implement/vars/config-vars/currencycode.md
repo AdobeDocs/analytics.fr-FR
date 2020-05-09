@@ -2,7 +2,10 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +32,16 @@ Le code de devise correspond à un champ sous l’accordéon [!UICONTROL Génér
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Code de devise].
+
+Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
+
+## Code de devise dans le SDK mobile Adobe Experience Platform
+
+Le code de devise est transmis aux SDK mobiles Adobe Experience Platform par le biais de variables de données contextuelles dans l’extension Adobe Analytics.
+
+1. Définissez le code de devise dans une variable de données contextuelles pendant `trackState` ou `trackAction`.
+2. Créez une règle de traitement dans la console d’administration Adobe Analytics pour la suite de rapports. Définissez la règle pour remplacer la variable Code de devise.
+3. Transmettez le code de devise à la `products` variable dans votre appel à `trackState` ou `trackAction`.
 
 Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
 
