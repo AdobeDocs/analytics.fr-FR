@@ -2,7 +2,10 @@
 title: FAQ sur l’Attribution
 description: Obtenez des réponses aux questions les plus fréquentes au sujet de l’attribution.
 translation-type: tm+mt
-source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 88%
 
 ---
 
@@ -11,15 +14,11 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 **Qu’est-ce que l’élément de ligne « Aucun » lors de l’utilisation de l’attribution ?**
 
-La ligne &quot;Aucun&quot; est un élément fourre-tout qui représente toutes les conversions survenues sans points de contact dans la fenêtre de recherche. Essayez d’inclure une période plus longue dans votre créneau de rapport.
+La ligne Aucun est un élément fourre-tout qui représente toutes les conversions survenues sans points de contact dans la fenêtre de recherche. Essayez d’inclure une période plus longue dans votre créneau de rapport.
 
 **Pourquoi est-ce que je vois parfois des dates hors de mon créneau de rapport lors de l’utilisation de modèles d’attribution ?**
 
 Ces dates supplémentaires sont dues à l’intervalle de recherche en amont de rapport de visiteurs. Pour plus d’informations, voir [Données apparaissant hors du créneau de rapport](https://helpx.adobe.com/fr/analytics/kb/data-appearing-outside-reporting-window.html) dans la base de connaissances d’Analytics. Adobe prévoit de filtrer ces rangées supplémentaires dans une prochaine version.
-
-**Puis-je utiliser un intervalle de recherche en amont personnalisé avec mes modèles d’attribution ?**
-
-Les modèles d’attribution reposent actuellement sur un intervalle de recherche en amont des visiteurs ou des visites. Ces intervalles de recherche peuvent être ajustés en modifiant la période de rapport (pour la recherche en amont des visiteurs) ou en utilisant une définition de visite personnalisée dans les suites de rapports virtuelles. Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](../../../../components/vrs/vrs-report-time-processing.md).
 
 **Quand dois-je utiliser une recherche en amont de l’attribution de visites ou de visiteurs ?**
 
@@ -58,7 +57,7 @@ Le panneau d’attribution prend en charge toutes les dimensions. Voici les mesu
 
 **Puis-je utiliser un intervalle de recherche en amont personnalisé avec mes modèles d’attribution ?**
 
-Oui, à l&#39;aide de l&#39;option de fenêtre de recherche personnalisée, vous pouvez configurer les fenêtres de recherche jusqu&#39;à 90 jours avant la date de votre . Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
+Oui, à l&#39;aide de l&#39;option de fenêtre de recherche en amont personnalisée, les fenêtres de recherche en amont peuvent être configurées jusqu&#39;à 90 jours avant la date de votre rapports. Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html).
 
 **L’attribution fonctionne-t-elle avec des classifications ?**
 
