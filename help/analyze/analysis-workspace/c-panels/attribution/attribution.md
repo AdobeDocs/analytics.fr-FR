@@ -3,10 +3,10 @@ description: valeur nulle
 title: Panneau Attribution - Aperçu
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 91%
+source-wordcount: '1805'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ Le panneau d’attribution est une fonction d’[Attribution IQ](../../attributi
 | ![Personnalisé](assets/custom.png) | Personnalisé | Permet de spécifier les pondérations à attribuer aux premiers points de contact, aux derniers points de contact et à tous les points de contact intermédiaires. Les valeurs spécifiées sont normalisées à 100 %, même si les nombres personnalisés saisis ne totalisent pas 100. Pour les conversions avec un point de contact unique, un crédit de 100 % est attribué. Pour les interactions avec deux points de contact, le paramètre du milieu est ignoré. Les premiers et derniers points de contact sont ensuite normalisés à 100 % et le crédit est attribué en conséquence. | Ce modèle est parfait pour ceux qui souhaitent un contrôle total sur leur modèle d’attribution et qui ont des besoins spécifiques que d’autres modèles d’attribution ne remplissent pas. |
 | ![Décroissance temporelle](assets/time_decay.png) | Décroissance temporelle | Suit une atténuation exponentielle avec un paramètre de demi-vie personnalisé, où la valeur par défaut est de sept jours. La pondération de chaque canal dépend de la durée écoulée entre l’initiation du point de contact et la conversion éventuelle. La formule utilisée pour déterminer le crédit est `2^(-t/halflife)`, où `t` correspond à la durée entre un point de contact et une conversion. Tous les points de contact sont alors normalisés à 100 %. | L’idéal pour les équipes qui exécutent régulièrement de la publicité vidéo ou qui font du marketing pour des événements avec une date prédéterminée. Plus une conversion se produit après un événement marketing, plus faible sera le crédit attribué. |
 | ![Participation](assets/participation.png) | Participation | Attribue un crédit de 100 % à tous les points de contact uniques. Le nombre total de conversions est gonflé par rapport aux autres modèles d’attribution. La participation déduplique les canaux qui sont vus à plusieurs reprises. | Excellent pour comprendre la fréquence à laquelle les clients sont exposés à une interaction donnée. Les sociétés de médias utilisent fréquemment ce modèle pour calculer la vitesse du contenu. Les sociétés de vente au détail utilisent souvent ce modèle pour comprendre les parties de leur site qui sont essentielles à la conversion. |
-| ![Algorithmique](assets/algorithmic.png) | [Algorithmique](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Utilise des techniques statistiques pour déterminer de manière dynamique l’allocation optimale du crédit pour la mesure sélectionnée. | Utile pour éviter les conjectures ou les heuristiques lors du choix du modèle d’attribution approprié pour votre entreprise. |
+| ![Algorithmique](assets/algorithmic.png) | [Algorithmique](/help/analyze/analysis-workspace/c-panels/attribution/algorithmic.md) | (Remarque : Les tests d’attribution algorithmique sont actuellement limités.) Utilise des techniques statistiques pour déterminer de manière dynamique l’allocation optimale du crédit pour la mesure sélectionnée. | Utile pour éviter les conjectures ou les heuristiques lors du choix du modèle d’attribution approprié pour votre entreprise. |
 
 ## Intervalles de recherche en amont
 
@@ -44,7 +44,7 @@ Un intervalle de recherche en amont est la durée pendant laquelle une conversio
 
 * **Intervalles de recherche en amont des visiteurs :** recherchent toutes les visites en amont jusqu’au 1er du mois de la période en cours. Les intervalles de recherche en amont des visiteurs sont larges, car ils peuvent porter sur plusieurs visites. Par exemple, si la période du rapport s’étend du 15 au 30 septembre, la période de recherche en amont des visiteurs est du 1er au 30 septembre.
 
-* **Fenêtre de recherche personnalisée :** Permet d’étendre la fenêtre d’attribution au-delà de la plage de dates du rapports jusqu’à un maximum de 90 jours. Les fenêtres de recherche personnalisées sont évaluées pour chaque conversion au cours de la rapports. Par exemple, pour une conversion survenant le 20 février, une fenêtre de recherche de 10 jours évalue tous les points de contact de dimension du 10 au 20 février dans le modèle d’attribution.
+* **Fenêtre de recherche personnalisée :** (Remarque : La fenêtre de recherche personnalisée est actuellement en test limité.) Permet d’étendre la fenêtre d’attribution au-delà de la plage de dates du rapports jusqu’à un maximum de 90 jours. Les fenêtres de recherche personnalisées sont évaluées pour chaque conversion au cours de la rapports. Par exemple, pour une conversion survenant le 20 février, une fenêtre de recherche de 10 jours évalue tous les points de contact de dimension du 10 au 20 février dans le modèle d’attribution.
 
 ## Exemple
 
