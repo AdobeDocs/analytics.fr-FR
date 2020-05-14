@@ -1,24 +1,24 @@
 ---
 description: Explique la nouvelle stratégie de mise à jour continue des fonctionnalités d’Adobe Analytics.
-title: Adobe Analytics - Stratégie de mise à jour des fonctionnalités
+title: Versions des fonctionnalités d’Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 0b00405e9e27a427a85b0f4a0d970671ada4aa67
+source-git-commit: dcca8559c9e730c9e04981d69068786878062561
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '358'
 ht-degree: 4%
 
 ---
 
 
-# Adobe Analytics - Stratégie de mise à jour des fonctionnalités
+# Versions des fonctionnalités d’Adobe Analytics
 
-Historiquement, les versions des fonctionnalités d’Adobe Analytics suivaient un calendrier mensuel fixe. À compter d’avril 2020, Adobe Analytics évolue vers un modèle de diffusion continu qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités.
+Historiquement, les versions des fonctionnalités d’Adobe Analytics suivaient un calendrier mensuel fixe. À compter d’avril 2020, Adobe Analytics a adopté un modèle de diffusion continu qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités.
 
 ## Stratégie de publication
 
 [!UICONTROL Analyse Workspace] utilise des indicateurs de fonctionnalité (également appelés &quot;bascules&quot;) pour contrôler la visibilité des nouvelles fonctionnalités, ce qui permet des tests d’échelle contrôlés avant la version complète. Cette stratégie de mise à jour comprend les phases suivantes :
 
-* **Mise en production (RTP)**: Le code est remis en production, la visibilité des fonctions étant désactivée dans l’espace de travail d’Analyse. **Remarque**: Actuellement, la fonctionnalité peut être disponible dans l’API Analytics 2.0.
+* **Mise en production (RTP)**: Le code est remis en production, la visibilité des fonctions étant désactivée dans l’espace de travail d’Analyse. **Remarque**: Dans RTP, la fonction peut être disponible dans l’API Analytics 2.0.
 
 * **Tests** limités : Une version par étapes commence par un test effectué par les utilisateurs internes d’Adobe. La mise à jour est alors passée de 0 % à 100 % de disponibilité en quelques mois. Le déploiement par phases se produit au niveau de l’organisation Experience Cloud, de sorte que tous les utilisateurs autorisés d’une organisation bénéficient de la même expérience.
 
