@@ -3,7 +3,10 @@ description: valeur nulle
 title: Exécution de l’analyse des contributions
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ L’analyse des contributions est un processus intensif d’apprentissage automa
 
 Dans un projet, vous pouvez invoquer l’analyse des contributions de deux façons :
 
-* In a freeform table with daily granularity, right-click any row and select **[!UICONTROL Run Contribution Analysis]**. Vous pouvez également l’exécuter sur les lignes qui ne présentent aucune anomalie.
+* Dans un tableau à structure libre avec une granularité quotidienne, cliquez avec le bouton droit de la souris sur une ligne, puis sélectionnez **[!UICONTROL Exécuter l’analyse des contributions]**. Vous pouvez également l’exécuter sur les lignes qui ne présentent aucune anomalie.
 
    >[!NOTE]
    >
@@ -24,11 +27,11 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 
    ![](assets/run_ca.png)
 
-* Dans un graphique en courbes, pointez avec la souris sur un point de données présentant une anomalie. Click the **[!UICONTROL Analyze]** link that appears.
+* Dans un graphique en courbes, pointez avec la souris sur un point de données présentant une anomalie. Cliquez sur le lien **[!UICONTROL Analyser]** qui s’affiche.
 
    ![](assets/contribution-analysis.png)
 
-1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Facultatif) Après avoir cliqué sur **[!UICONTROL Exécuter l’analyse des contributions]** dans un tableau ou un graphique en courbes, vous pouvez réduire la portée de l’analyse (et donc l’accélérer) en [excluant des dimensions](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Patientez pendant le chargement de l’analyse des contributions. Selon la taille de la suite de rapports et le nombre de dimensions, cette opération peut être longue. L’analyse des contributions traite les 50 000 premiers éléments par dimension.
 1. Analysis Workspace charge ensuite un nouveau panneau Analyse des contributions directement dans ce projet. Si vous avez déjà utilisé l’analyse des contributions dans Reports &amp; Analytics, de nombreux panneaux vous seront familiers :
@@ -55,16 +58,16 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 
 Parfois, vous souhaiterez exclure certaines dimensions de l’analyse des contributions. Par exemple, vous pouvez ne pas attacher d’importance à des dimensions liées au navigateur ou au matériel et vous souhaitez accélérer l’analyse en les supprimant.
 
-1. Une fois que vous avez cliqué **[!UICONTROL Run Contribution Analysis]** (ou **[!UICONTROL Analyze]** dans un graphique en courbes), le **[!UICONTROL Excluded Dimensions]** panneau s’affiche.
+1. Une fois que vous avez cliqué sur **[!UICONTROL Exécuter l’analyse des contributions]** (ou **[!UICONTROL Analyser]** dans un graphique en courbes), le panneau **[!UICONTROL Dimensions exclues]** s’affiche.
 
-1. Faites simplement glisser les dimensions indésirables dans le **[!UICONTROL Excluded Dimensions]** panneau, puis enregistrez la liste en cliquant sur **[!UICONTROL Set as Default]**. Or, click **[!UICONTROL Clear All]** to start over with selecting dimensions to exclude.
+1. Faites tout simplement glisser les dimensions non voulues dans le panneau **[!UICONTROL Dimensions exclues]**, puis enregistrez la liste en cliquant sur **[!UICONTROL Définir comme valeur par défaut]**. Ou bien, cliquez sur **[!UICONTROL Effacer tout]** pour recommencer la sélection des dimensions à exclure.
 
    ![](assets/exclude_dimensions.png)
 
-1. After you have added dimensions to exclude (or chosen not to), click **[!UICONTROL Run Contribution Analysis]** again.
+1. Après avoir ajouté des dimensions à exclure (ou choisi de ne pas exclure), cliquez de nouveau sur **[!UICONTROL Exécuter l’analyse des contributions]**.
 1. Si vous avez besoin de réviser la liste des dimensions exclues, double-cliquez simplement sur Dimensions, et la liste des dimensions exclues s’affiche :
 
    ![](assets/excluded-dimensions.png)
 
-1. Just delete any unwanted dimensions by clicking the x next to them, then save the list by clicking **[!UICONTROL Set as Default]**.
+1. Supprimez simplement les dimensions non voulues en cliquant sur le x en regard, puis enregistrez la liste en cliquant sur **[!UICONTROL Définir comme valeur par défaut]**.
 
