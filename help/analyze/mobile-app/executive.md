@@ -1,25 +1,27 @@
 ---
-description: Instructions pour l'utilisation des cartes de performance des tableaux de bord.
-title: Guide d’administration d’Adobe Analytics tableaux de bord
+description: Instructions pour l’utilisation des fiches d’évaluation des tableaux de bord.
+title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 98%
 
 ---
 
 
-# tableaux de bord Adobe Analytics : guide de début rapide destiné aux utilisateurs
+# Tableaux de bord Adobe Analytics : Guide de démarrage rapide de l’utilisateur en charge de l’exécution
 
->[!IMPORTANT]
->
->Les tableaux de bord Adobe Analytics ne sont pas publiés et ne sont disponibles que pour les tests bêta parmi les clients invités. Cette documentation est destinée >uniquement aux utilisateurs de la version bêta et ne représente pas la fonctionnalité complète de la fonctionnalité. Si vous souhaitez devenir un utilisateur bêta pour cette >fonctionnalité, veuillez contacter Ashok Gorrepatio (gorrepati@adobe.com).
+Les informations suivantes fournissent aux utilisateurs cadres des informations sur les meilleures pratiques d’utilisation et d’affichage des tableaux de bord Adobe Analytics.
+
 
 ## Introduction
 
-Adobe Analytics tableaux de bord fournit des informations à tout moment et en tout lieu à partir d’Adobe Analytics.  L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Les Tableaux de bord sont pris en charge sur les systèmes d’exploitation iOS et Android.
+Les tableaux de bord Adobe Analytics fournissent des informations à tout moment et où que vous soyez à partir d’Adobe Analytics. L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Les tableaux de bord sont pris en charge sur les systèmes d’exploitation iOS et Android.
 
-## À propos de ce guide
+## En savoir plus sur ce guide
 
-Ce guide est destiné à aider les utilisateurs de la direction à lire et à interpréter les tableaux de bord sur les tableaux de bord Analytics. L’application permet aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles.
+L’objectif de ce guide est d’aider les utilisateurs en charge de l’exécution à lire et à interpréter les Fiches d’évaluation des tableaux de bord Analytics. L’application permet aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles.
 
 ## Glossaire terminologique
 
@@ -28,30 +30,30 @@ Ce guide est destiné à aider les utilisateurs de la direction à lire et à in
 | Consommateur | Personne en charge de l’exécution affichant les mesures clés et les insights d’Analytics sur un appareil mobile |
 | Curateur | Personne possédant des compétences en littératie des données qui découvre et distribue des insights d’Analytics et configure les Fiches d’évaluation que verra le consommateur |
 | Traitement | L’acte de création ou de modification d’une Fiche d’évaluation mobile contenant des mesures, des dimensions ainsi que d’autres composants pertinents pour le consommateur |
-| Fiche d’évaluation | vue de tableaux de bord contenant une ou plusieurs mosaïques |
+| Fiche d’évaluation | Un affichage dans les tableaux de bord contenant une ou plusieurs mosaïques |
 | Mosaïque | Un rendu d’une mesure dans un affichage de la Fiche d’évaluation |
-| Ventilation | Un affichage secondaire accessible en appuyant sur une mosaïque de la Fiche d’évaluation. Cet affichage étend la mesure affichée sur la mosaïque et peut de manière facultative gérer des dimensions de ventilation supplémentaires. |
-| Période | Plage de dates principale pour le rapports des tableaux de bord |
+| Ventilation | Un affichage secondaire accessible en appuyant sur une mosaïque de la Fiche d’évaluation. Cet affichage étend la mesure affichée sur la mosaïque et peut de manière facultative gérer des dimensions de ventilation supplémentaires |
+| Période | La période principale pour la création de rapports dans les tableaux de bord |
 | Période de comparaison | La période comparée à la période principale |
 
-## Configuration des tableaux de bord sur votre périphérique
+## Configuration des tableaux de bord sur votre appareil
 
-Pour utiliser efficacement les tableaux de bord, vous devez disposer de l’aide du conservateur de Scorecard pour les configurer. Cette section fournit des informations pour vous aider à la configurer avec l’aide de votre curateur.
+Pour utiliser efficacement les tableaux de bord, vous devrez demander l’aide de votre curateur de Fiches d’évaluation pour les configurer. Cette section fournit des informations pour vous aider à la configurer avec l’aide de votre curateur.
 
 ### Obtenir l’accès
 
-Pour accéder aux cartes de performance sur les tableaux de bord, assurez-vous que :
+Pour accéder aux Fiches d’évaluation sur les tableaux de bord, assurez-vous que :
 
 * vous disposez d’identifiants de connexion valides à Adobe Analytics ;
 * votre curateur a créé correctement les Fiches d’évaluation mobiles et les a partagées avec vous.
 
-### Téléchargement et installation de tableaux de bord
+### Téléchargement et installation des tableaux de bord
 
 Pour télécharger et installer l’application, suivez les étapes correspondant au système d’exploitation de votre appareil.
 
 **Pour les appareils iOS :**
 
-1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
+1. Cliquez sur le lien public suivant (celui-ci est également disponible dans Analytics dans **Outils** > **Tableaux de bord**) :
 
    [Lien iOS](https://testflight.apple.com/join/WtXMQxlI) : `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -61,13 +63,13 @@ Pour télécharger et installer l’application, suivez les étapes correspondan
 
 2. Appuyez sur le lien **Afficher dans l’App Store** à l’écran pour télécharger l’application Testflight.
 
-3. Après avoir installé l’application Testflight, recherchez et installez Adobe Analytics tableaux de bord depuis Testflight, comme indiqué ci-dessous :
+3. Une fois que vous avez installé l’application Testflight, cherchez et installez les tableaux de bord Adobe Analytics depuis Testfilght comme illustré ci-dessous :
 
    ![Écran Testflight](assets/testflight2.png)
 
 **Pour les appareils Android :**
 
-1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
+1. Appuyez sur le lien Play Store suivant sur l’appareil de l’utilisateur (celui-ci se trouve également dans Analytics dans **Outils** > **Tableaux de bord**) :
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp) : `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -80,15 +82,15 @@ Pour télécharger et installer l’application, suivez les étapes correspondan
 
    ![Lien de téléchargement](assets/playnext.png)
 
-## Utiliser des tableaux de bord
+## Utilisation des tableaux de bord
 
-Pour utiliser des tableaux de bord :
+Pour utiliser les tableaux de bord :
 
-1. Connectez-vous à l’application. L&#39;écran de connexion s&#39;affiche au lancement des tableaux de bord. Suivez les instructions et utilisez vos informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
+1. Connectez-vous à l’application. L’écran de connexion apparaîtra au lancement des tableaux de bord. Suivez les instructions et utilisez vos informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
 
    ![Séquence de connexion](assets/signseq.png)
 
-2. Choisissez une entreprise. After you sign into dashboards, the **Choose a company** screen appears. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
+2. Choisissez une entreprise. Lorsque vous êtes connecté aux tableaux de bord, l’écran **Choisir une entreprise** apparaît. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
 
 3. La liste de Fiches d’évaluation affiche ensuite toutes les Fiches d’évaluation partagées avec vous. Appuyez sur la Fiche d’évaluation que vous souhaitez afficher.
 
@@ -133,7 +135,7 @@ Pour utiliser des tableaux de bord :
 
 8. Laisser un commentaire. Pour laisser un commentaire :
 
-   1. Appuyez sur l’icône utilisateur dans l’angle supérieur droit de l’écran tableaux de bord.
+   1. Appuyez sur l’icône utilisateur en haut à droite de l’écran des tableaux de bord.
    2. Sur l’écran **Mon compte**, appuyez sur l’option **Commentaires**.
    3. Appuyez pour afficher les options permettant de laisser un commentaire.
    ![Laisser un commentaire](assets/feedback.png)
