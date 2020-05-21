@@ -2,17 +2,17 @@
 description: Instructions pour l’utilisation des fiches d’évaluation des tableaux de bord.
 title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 98%
+source-wordcount: '1287'
+ht-degree: 75%
 
 ---
 
 
 # Tableaux de bord Adobe Analytics : Guide de démarrage rapide de l’utilisateur en charge de l’exécution
 
-Les informations suivantes fournissent aux utilisateurs cadres des informations sur les meilleures pratiques d’utilisation et d’affichage des tableaux de bord Adobe Analytics.
+Les informations suivantes fournissent aux utilisateurs cadres des informations sur les meilleures pratiques d’utilisation et d’affichage des tableaux de bord Adobe Analytics. Pour visionner une vidéo illustrant ces informations, reportez-vous à la section Expérience [intégrée des tableaux de bord](https://youtu.be/QXqQ_PkArbA)Adobe Analytics.
 
 
 ## Introduction
@@ -51,36 +51,21 @@ Pour accéder aux Fiches d’évaluation sur les tableaux de bord, assurez-vous 
 
 Pour télécharger et installer l’application, suivez les étapes correspondant au système d’exploitation de votre appareil.
 
-**Pour les appareils iOS :**
+**Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-1. Cliquez sur le lien public suivant (celui-ci est également disponible dans Analytics dans **Outils** > **Tableaux de bord**) :
+Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
-   [Lien iOS](https://testflight.apple.com/join/WtXMQxlI) : `https://testflight.apple.com/join/WtXMQxlI`
+[Lien iOS](https://apple.co/2zXq0aN)
 
-   Lorsque vous cliquez sur le lien, l’écran Testflight suivant s’affiche :
+**Pour les utilisateurs en charge de l’exécution sur Android :**
 
-   ![Écran Testflight](assets/testflight1.png)
+Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
-2. Appuyez sur le lien **Afficher dans l’App Store** à l’écran pour télécharger l’application Testflight.
+[Lien Android](https://bit.ly/2LM38Oo)
 
-3. Une fois que vous avez installé l’application Testflight, cherchez et installez les tableaux de bord Adobe Analytics depuis Testfilght comme illustré ci-dessous :
+Une fois téléchargés et installés, les utilisateurs de l’équipe exécutive peuvent se connecter à l’application à l’aide de leurs identifiants Adobe Analytics existants.
 
-   ![Écran Testflight](assets/testflight2.png)
-
-**Pour les appareils Android :**
-
-1. Appuyez sur le lien Play Store suivant sur l’appareil de l’utilisateur (celui-ci se trouve également dans Analytics dans **Outils** > **Tableaux de bord**) :
-
-
-   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp) : `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-
-   Après avoir appuyé sur le lien, appuyez sur le lien Devenir testeur sur l’écran suivant :
-
-   ![Écran Play Store](assets/play.png)
-
-2. Appuyez sur le lien de **téléchargement sur Google Play** sur l’écran suivant :
-
-   ![Lien de téléchargement](assets/playnext.png)
+![Écran de bienvenue de l’application](assets/welcome.png)
 
 ## Utilisation des tableaux de bord
 
@@ -94,29 +79,33 @@ Pour utiliser les tableaux de bord :
 
 3. La liste de Fiches d’évaluation affiche ensuite toutes les Fiches d’évaluation partagées avec vous. Appuyez sur la Fiche d’évaluation que vous souhaitez afficher.
 
-   ![Choisissez une entreprise](assets/accesscard.png)
+   ![Choisissez une entreprise](assets/nextseq.png)
 
-   *Remarque : si vous vous connectez et que vous voyez un message indiquant que rien n’a été partagé, vérifiez les éléments suivants avec votre curateur :*
+   Si vous vous connectez et voyez un message indiquant que rien n’a été partagé, vérifiez ce qui suit avec votre conservateur :
 
-   * *Vous pouvez vous connecter à la bonne instance Analytics.*
-   * *La fiche d’évaluation a été partagée avec vous.*
+   * Vous pouvez vous connecter à la bonne instance Analytics.
+   * La fiche d’évaluation a été partagée avec vous.
+   ![Rien n’a été partagé](assets/nothing.png)
 
-      ![Rien n’a été partagé](assets/nothing.png)
-
-4. Examinez la manière dont les mosaïques apparaissent dans la fiche d’évaluation.
+4. Examiner l’aspect des mosaïques dans la carte de performance (la première carte de performance s’affiche en mode sombre); pour plus d’informations, voir **Préférences** ci-dessous).
 
    ![Explication des mosaïques](assets/newexplain.png)
 
    Informations supplémentaires sur les mosaïques :
 
    * La granularité des graphiques sparkline dépend de la longueur de la période :
-   * Une tendance horaire s’affiche pour les plages d’une journée.
-   * Une tendance quotidienne s’affiche pour les plages comprises entre une journée et un an.
-   * Une tendance hebdomadaire s’affiche pour les plages supérieures à un an.
-   * La formule de modification de la valeur de pourcentage est calculée de la manière suivante : total de la mesure (période en cours) - total de la mesure (période de comparaison)/total de la mesure (période de comparaison).
-   * Vous pouvez tirer l’écran vers le bas pour actualiser la Fiche d’évaluation.
 
-5. Appuyez sur une mosaïque pour afficher comment fonctionne une ventilation détaillée sur la mosaïque.
+      * Une tendance horaire s’affiche pour les plages d’une journée.
+      * Plus d&#39;une journée et moins d&#39;un an affiche une tendance quotidienne
+      * Une tendance hebdomadaire s’affiche pour les plages supérieures à un an.
+   * La formule de modification de la valeur de pourcentage est calculée de la manière suivante : total de la mesure (période en cours) - total de la mesure (période de comparaison)/total de la mesure (période de comparaison).
+
+   * Vous pouvez tirer l’écran vers le bas pour actualiser la Fiche d’évaluation.
+   L’exemple suivant illustre le mode normal de la carte de performance :
+
+   ![Exemple de tableau de bord](assets/intro_scorecard.png)
+
+5. Appuyez sur une mosaïque pour voir comment fonctionne une ventilation détaillée de la mosaïque.
 
    ![Vue Ventilation](assets/sparkline.png)
 
@@ -125,21 +114,27 @@ Pour utiliser les tableaux de bord :
 
    ![Modifier les dates](assets/changedate.png)
 
-   *Remarque : vous pouvez également modifier les périodes dans la vue Ventilation affichée ci-dessus de la même manière.*
+   * Vous pouvez également modifier les plages de dates dans la vue de ventilation illustrée ci-dessus de la même manière.
 
-   Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **COMPARER À**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **Terminé** en haut à droite de l’écran. Le champ **Périodes** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
+   * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **COMPARER À**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **Terminé** en haut à droite de l’écran. Le champ **Périodes** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
-7. Récupérer les mises à jour des Fiches d’évaluation. Si une Fiche d’évaluation ne contient pas toutes les mesures ou les ventilations qui vous intéressent, demandez une mise à jour de la fiche d’évaluation à votre équipe Analytics. Une fois la fiche mise à jour, vous pouvez tirer sur la fiche à l’écran pour l’actualiser et charger les données récemment ajoutées.
+7. Pour appliquer un filtre de segment à votre carte de performance, appuyez sur la liste déroulante de filtrage et sélectionnez un segment qui a été configuré par votre conservateur. [Les Filtres](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de l’application fonctionnent de la même manière que dans Analytics Workspace.
 
+   ![Filtre de segments](assets/segment_filter.png)
 
+8. Récupérer les mises à jour des Fiches d’évaluation. Si une Fiche d’évaluation ne contient pas toutes les mesures ou les ventilations qui vous intéressent, demandez une mise à jour de la fiche d’évaluation à votre équipe Analytics. Une fois la fiche mise à jour, vous pouvez tirer sur la fiche à l’écran pour l’actualiser et charger les données récemment ajoutées.
 
-8. Laisser un commentaire. Pour laisser un commentaire :
+9. Pour faire part de vos commentaires sur cette application :
 
-   1. Appuyez sur l’icône utilisateur en haut à droite de l’écran des tableaux de bord.
-   2. Sur l’écran **Mon compte**, appuyez sur l’option **Commentaires**.
+   1. Appuyez sur l’icône des paramètres dans l’angle supérieur droit de l’écran de l’application.
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. Appuyez pour afficher les options permettant de laisser un commentaire.
-   ![Laisser un commentaire](assets/feedback.png)
-   ![Options de commentaires](assets/feedback_option.png)
+
+      ![Ecran Paramètres](assets/settings.png)
+
+10. Pour modifier les préférences, appuyez sur l’option **Préférences** illustrée ci-dessus. Dans les préférences, vous pouvez activer la connexion biométrique ou définir l’application pour le mode foncé comme indiqué ci-dessous :
+
+   ![Mode sombre](assets/darkmode.png)
 
 
 **Pour signaler un bogue** :
