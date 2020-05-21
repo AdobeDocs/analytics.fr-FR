@@ -3,7 +3,10 @@ description: valeur nulle
 title: Analyse des contributions - Aperçu
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +23,9 @@ La [détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c
 
 L’analyse des contributions permet d’élaborer une narration afin de décrire la raison d’une anomalie et la manière d’y réagir, en capturant les mesures pertinentes et en repérant les points latents qui présentent une raison globale aux interactions des audiences et aux tendances des intérêts des clients. Il est parfois aisé de repérer et de corriger une anomalie, par exemple une commande ponctuelle de 2 000 kayaks. Cela peut aussi être complexe, par exemple en identifiant une tendance émergente sur une période donnée dans une région donnée, qui réagit uniquement à une campagne ciblée spécifique. L’assemblage d’éléments de contribution à l’échelle de mesures pour diverses dimensions et de leurs associations vous donne une idée générale des interactions de votre audience et vous aide à préciser un contexte pour les points de données irréguliers.
 
-Voici quelques idées :
+Voici quelques cas d’utilisation :
 
-* Identifiez le potentiel de remarketing en surveillant les changements en termes de demande d’un produit.
+* Identifier le potentiel de remarketing en surveillant les changements de la demande de produits.
 * Améliorez les conditions d’utilisation des clients en réagissant à des intérêts spécifiques de l’audience.
 * Repérez les commandes frauduleuses rapidement au moyen d’un rapport sur les hors limite.
 * Protégez-vous contre l’espionnage industriel en détectant les taux élevés d’utilisation et de téléchargements.
@@ -52,7 +55,7 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Pourquoi Adobe a-t-il introduit des jetons ? </b> </p> </td> 
-   <td colname="col2"> <p>L’analyse des contributions a été l’une des fonctionnalités les plus intéressantes d’Adobe Analytics depuis sa sortie en 2015. En autorisant un petit nombre d’exécutions « complètes » par mois (plutôt que seulement trois dimensions pour certains produits Analytics), vous pouvez mieux voir ce que l’analyse des contributions complète illimitée peut vous apporter. </p> </td> 
+   <td colname="col2"> <p>L’Analyse des contributions a été l’une des fonctionnalités les plus intéressantes d’Adobe Analytics. En autorisant un petit nombre d’exécutions « complètes » par mois (plutôt que seulement trois dimensions pour certains produits Analytics), vous pouvez mieux voir ce que l’analyse des contributions complète illimitée peut vous apporter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment fonctionnent les jetons dans l’analyse des contributions ? Le chargement d’un projet avec une analyse des contributions existante coûte-t-il un jeton ? Ou ce coût existe-t-il uniquement lors de l’exécution d’une nouvelle analyse ?</b> </p> </td> 
