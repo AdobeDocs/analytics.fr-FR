@@ -2,9 +2,9 @@
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
+source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2328'
 ht-degree: 82%
 
 ---
@@ -113,6 +113,8 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
 4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’évaluation, déposez la mosaïque en haut de la Fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les plages de dates. Vous [configurez et appliquez des filtres pour vos cartes de performance](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la même manière que dans Adobe Analytics Workspace.
 
+   ![Créer des segments pour le filtre](assets/segment_ui.png)
+
 5. De même, si vous souhaitez supprimer un composant appliqué à la totalité de la Fiche d’évaluation, cliquez n’importe où sur la Fiche d’évaluation en dehors des mosaïques, puis supprimez-le en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris sur le composant, comme indiqué ci-dessous pour le segment **Clients mobiles** :
 
    ![Remove_components](assets/new_remove.png)
@@ -174,14 +176,14 @@ Pour aider les utilisateurs :
 
    **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-   1. Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+   * Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
       [Lien iOS](https://apple.co/2zXq0aN)
    **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-   1. Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+   * Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
-      [Android](https://bit.ly/2LM38Oo)
+      [Lien Android](https://bit.ly/2LM38Oo)
    Une fois l’application téléchargée et installée, les utilisateurs en charge de l’exécution peuvent se connecter à l’application en utilisant leurs informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
 
    ![Écran de bienvenue de l’application](assets/welcome.png)
