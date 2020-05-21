@@ -2,9 +2,9 @@
 description: Le créateur d’aperçus rapides est un outil destiné aux nouveaux utilisateurs de Workspace qui les guide dans la création de tableaux de données et de visualisations.
 title: Générateur d’informations rapides
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** est actuellement soumis à des tests limités et n’est pas encore disponible pour tous les clients d’Adobe Analytics.
+>**[!UICONTROL Quick Insights]** est actuellement en test limité. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’ [!UICONTROL Analyse Workspace] pour savoir comment répondre rapidement et facilement aux questions de l’entreprise. C&#39;est aussi un outil idéal pour les utilisateurs expérimentés qui veulent répondre rapidement à une question simple sans avoir à construire eux-mêmes un tableau.
 
@@ -39,7 +39,7 @@ Voici quelques-uns des termes de base que vous devez connaître. Chaque tableau 
 | [!UICONTROL Élément de dimension] | Les éléments de dimension sont des valeurs individuelles pour une dimension. Par exemple, les éléments de dimension pour la dimension de navigateur seraient &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, etc. |
 | [!UICONTROL Mesure] | Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, les recettes, etc. |
 | [!UICONTROL Visualisation] | Workspace offre [un certain nombre de visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) pour créer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des diagrammes en courbes, des cartes, des tracés différés, etc. |
-| [!UICONTROL Ventilation] | Une ventilation permet de ventiler une dimension selon d’autres dimensions. Dans notre exemple, vous pouvez ventiler les États américains en fonction des périphériques mobiles pour obtenir les visites des périphériques mobiles par état, ou vous pouvez ventiler les périphériques mobiles en fonction des types de périphériques mobiles, des régions, des campagnes internes, etc. |
+| [!UICONTROL Ventilation des dimensions] | Une ventilation de dimension est un moyen de ventiler une dimension selon d’autres dimensions. Dans notre exemple, vous pouvez ventiler les États américains en fonction des périphériques mobiles pour obtenir les visites des périphériques mobiles par état, ou vous pouvez ventiler les périphériques mobiles en fonction des types de périphériques mobiles, des régions, des campagnes internes, etc. |
 | [!UICONTROL Segment] | Les segments vous permettent d’identifier des sous-ensembles de visiteurs en fonction de caractéristiques ou d’interactions sur le site Web. Par exemple, vous pouvez créer des segments de [!UICONTROL Visiteurs] en fonction d’attributs : type de navigateur, périphérique, nombre de visites, pays, sexe ou selon les interactions : campagnes, recherche de mots-clés, moteur de recherche ou en fonction des sorties et des entrées : visiteurs de Facebook, d’un landing page défini, d’un domaine référent ou basés sur des variables personnalisées : champ de formulaire, catégories définies, ID de client. |
 
 ## Prise en main de Quick Insights
@@ -66,7 +66,7 @@ Voici quelques-uns des termes de base que vous devez connaître. Chaque tableau 
    * Tableau à structure libre avec la dimension (ici, Etats-Unis) verticalement et la mesure (ici, Visites) horizontalement en haut. Consultez ce tableau :
    ![](assets/qibuilder3.png)
 
-   * Visualisation connexe, dans ce cas un graphique [à](/help/analyze/analysis-workspace/visualizations/bar.md)barres. La visualisation qui est générée dépend du type de données que vous avez ajoutées au tableau. Vous pouvez modifier le type de visualisation en cliquant sur la flèche de liste déroulante en regard de **[!UICONTROL Barre]**.
+   * Visualisation connexe, dans ce cas un graphique [à](/help/analyze/analysis-workspace/visualizations/bar.md)barres. La visualisation qui est générée dépend du type de données que vous avez ajoutées au tableau. Par défaut, toutes les données temporelles (telles que [!UICONTROL Visites] par jour/mois) correspondent à un graphique [!UICONTROL linéaire] . Par défaut, toutes les données non temporelles (telles que [!UICONTROL Visites] par [!UICONTROL périphérique]) correspondent à un graphique à [!UICONTROL barres] . Vous pouvez modifier le type de visualisation en cliquant sur la flèche de liste déroulante en regard du type de visualisation.
 
 
 1. (Facultatif) Recherchez les dimensions et affichez les éléments de dimension en cliquant sur la flèche > à droite en regard de la dimension.
@@ -94,10 +94,6 @@ D’autres conseils utiles s’affichent dans le créateur [!UICONTROL d’aper�
 * **Ajouter d’autres segments**: Vous pouvez ajouter jusqu’à 2 segments supplémentaires en utilisant les opérateurs ET ou OU pour les ajouter au tableau. Regardez ce qui se passe dans le tableau lorsque vous ajoutez des utilisateurs mobiles OU des Visiteurs fidèles. Ils sont situés les uns à côté des autres, au-dessus des mesures. Si vous ajoutiez Utilisateurs mobiles ET Visiteurs fidèles, les résultats des deux segments s’afficheraient ensemble et ils seraient empilés les uns sur les autres dans le tableau.
 
    ![](assets/qibuilder7.png)
-
-## Ouverture/chargement d’un projet d’aperçu rapide
-
-
 
 ## Limites connues
 
