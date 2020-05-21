@@ -1,6 +1,9 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '650'
+ht-degree: 98%
 
 ---
 # Outils de suites de rapports répertoriés dans les autorisations de profil de produit
@@ -59,3 +62,4 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Petit rapport récapitulatif de l’utilisation | Inutilisé. |
 | Ressources web | Inutilisé. |
 | Social | Inutilisé. |
+| API de réparation des données | Accorde l’accès à l’API de réparation des données (version ultérieure) |
