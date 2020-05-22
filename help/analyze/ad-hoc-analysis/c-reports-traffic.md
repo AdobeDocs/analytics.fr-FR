@@ -3,7 +3,7 @@ description: Les rapports de source de trafic vous donnent une vue détaillée d
 title: Rapports sur les sources de trafic
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -26,7 +26,7 @@ Ils permettent :
 
 **Persistance commune**
 
-In [!UICONTROL Traffic Sources], all report values persist and receive credit until they are overwritten or until the visit ends, whichever comes first. Auparavant, seuls les mots-clés et les domaines référents étaient persistants. Par exemple, si un visiteur recherche dans Google « DVD », qui l’amène sur votre site pour tout achat de 100 $, le rapport alloue un crédit de 100 $ au mot-clé « DVD » ainsi qu’au moteur de recherche Google. Cette fonctionnalité est inaltérable, quels que soient les paramètres d’[!DNL Admin Console].
+Dans [!UICONTROL Sources de trafic], toutes les valeurs de rapport sont persistantes et reçoivent du crédit jusqu’à ce qu’elles soient remplacées ou jusqu’à la fin de la visite, selon la condition qui se présente en premier. Auparavant, seuls les mots-clés et les domaines référents étaient persistants. Par exemple, si un visiteur recherche dans Google « DVD », qui l’amène sur votre site pour tout achat de 100 $, le rapport alloue un crédit de 100 $ au mot-clé « DVD » ainsi qu’au moteur de recherche Google. Cette fonctionnalité est inaltérable, quels que soient les paramètres d’[!DNL Admin Console].
 
 ## Mots-clés de recherche {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -38,11 +38,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Search Keywords - All]**: Affiche une ventilation de chaque mot-clé de recherche qui a été utilisé pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
+**[!UICONTROL Mots-clés de recherche – Tous]** : ce rapport répertorie chaque mot-clé de recherche qui a été utilisé pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
 
-**[!UICONTROL Search Keywords - Paid]**: Affiche la liste des mots-clés de recherche payante qui ont été utilisés pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
+**[!UICONTROL Mots-clés de recherche – Payée]** : répertorie les mots-clés de recherche payante qui ont été utilisés pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
 
-**[!UICONTROL Search Keywords - Natural]**: Affiche une ventilation de chaque mot-clé de recherche naturelle qui a été utilisé pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
+**[!UICONTROL Mots-clés de recherche – Naturelle]** : répertorie les mots-clés de recherche naturelle qui ont été utilisés pour trouver votre site. Vous pouvez trier cette liste par pages vues ou mots-clés de recherche en cliquant sur le titre de la colonne. Cliquez sur la loupe en regard d’un mot-clé de recherche afin d’afficher les écrans de résultats pour votre site.
 
 ## Moteurs de recherche {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -54,11 +54,11 @@ c_reports_search_engines.xml
 
  -->
 
-**[!UICONTROL Search Engines - All]**: Répertorie les moteurs de recherche que les visiteurs utilisent pour trouver votre page web. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
+**[!UICONTROL Moteurs de recherche - Tous]** : répertorie les moteurs de recherche que les visiteurs utilisent pour trouver votre page Web. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
 
-**[!UICONTROL Search Engines - Paid]**: Répertorie les moteurs de recherche avec mots-clés payés que les visiteurs utilisent pour trouver votre page web. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
+**[!UICONTROL Moteurs de recherche - Payés]** : répertorie les moteurs de recherche avec mots-clés payés que les visiteurs utilisent pour trouver votre page Web. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
 
-**[!UICONTROL Search Engines - Natural]**: Répertorie les moteurs de recherche avec mots-clés naturels que les visiteurs utilisent pour trouver votre page web. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
+**[!UICONTROL Moteurs de recherche - Naturels]** : affiche les moteurs de recherche avec mots-clés naturels que les visiteurs utilisent pour trouver votre page Web. Le graphique présente la répartition en pourcentage des moteurs de recherche qui sont utilisés pour trouver votre site.
 
 ## Domaines référents {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -94,7 +94,7 @@ Si, par exemple, un visiteur clique sur un lien du Site A et arrive sur votre s
 
 Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont considérés comme des référents. Par exemple, les pages Web A et Web B sont ajoutées au filtre URL interne, mais la page web C ne l’est pas. Dans ce cas, la page web C est considérée comme un référent.
 
-Pour plus d’informations, voir la rubrique [Filtres URL internes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html) dans l’aide d’[!DNL Admin Console].
+Pour plus d’informations, voir la rubrique [Filtres URL internes](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/internal-url-filter-admin.translate.html) dans l’aide d’[!DNL Admin Console].
 
 >[!NOTE] Les rapports et analyses marketing considèrent un domaine référent comme adresse e-mail lorsque les visiteurs cliquent sur un lien de message envoyé par e-mail contenant le protocole [!DNL imap://] ou [!DNL mail://] et arrivent sur votre site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
 
@@ -129,5 +129,5 @@ Les options suivantes peuvent s’afficher lors de l’exécution de ce rapport�
 
 **USENET (groupes de discussion)** : cela signifie que l’URL d’un référent commençait par `news://`. Dès lors, le lien de référence a été publié sur un groupe de discussion Usenet plutôt que sur une page Web.
 
->[!NOTE] La logique Type de  correspond à d’autres rapports de sources de trafic (tels que [!UICONTROL Referrers] et [!UICONTROL Referring Domains]). This should reduce or eliminate the occurrences of the Inside Your Site and No JavaScript line items in the [!UICONTROL Referrer Type] report.
+>[!NOTE] La logique Type de référent correspond à d’autres rapports de sources de trafic (tels que [!UICONTROL Référents] et [!UICONTROL Domaines référents]). Cela devrait réduire, voire éliminer, les occurrences d’éléments Dans votre site et Pas de JavaScript dans le rapport [!UICONTROL Type de référent].
 
