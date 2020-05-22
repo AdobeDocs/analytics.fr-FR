@@ -2,7 +2,7 @@
 description: Tableau de comparaison des API de création de rapports dans Analytics. Vous y trouverez également des liens vers la documentation afférente.
 title: Comparaison des API de création de rapports dans Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -33,7 +33,7 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
    <td colname="col5"> Données finalisées entièrement traitées utilisées pour l’extraction d’exportations volumineuses de données. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > Latence</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/technotes/latency.translate.html"  > Latence</a> </p> </td> 
    <td colname="col2"> 30 à 90 minutes </td> 
    <td colname="col3"> * Secondes -10 minutes </td> 
    <td colname="col4"> Secondes -10 minutes </td> 
@@ -65,7 +65,7 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
    <td colname="col2"> Oui </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Non </td> 
-   <td colname="col5"> Oui  </td> 
+   <td colname="col5"> Oui </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Prise en charge des segments</b> </td> 
@@ -86,13 +86,13 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Services web</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Rapports Temps réel</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Aperçu de Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/export/data-warehouse/data-warehouse.translate.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Aide connexe**
 
-* [Adobe/IO](https://www.adobe.io/) - Source exhaustive de documentation technique et d’outils nécessaires pour intégrer les technologies Adobe à vos applications.
+* [Adobe I/O](https://www.adobe.io/) - Source exhaustive de documentation technique et d’outils nécessaires pour intégrer les technologies Adobe à vos applications.
 * [API de requête des Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 
