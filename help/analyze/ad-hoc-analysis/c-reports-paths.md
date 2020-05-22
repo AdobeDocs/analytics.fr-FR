@@ -3,7 +3,7 @@ description: Affichent des informations sur l’ordre de consultation des pages 
 title: Rapports sur les chemins
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -84,7 +84,7 @@ t_fallout.xml
    D’autres rapports d’abandons sont disponibles dans **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]**.
 
 1. (Facultatif) Faites glisser un segment dans le champ [!UICONTROL Faire glisser le segment ici] si vous souhaitez filtrer les données selon un segment spécifique.
-1. Faites glisser un élément de dimension dans le champ [!UICONTROL Déposer les éléments d’événement ou de dimension ici.]
+1. Faites glisser un élément de dimension dans le champ [!UICONTROL Déposer les éléments d’événement ou de dimension ici].
 1. Cliquez sur **[!UICONTROL Afficher abandon au niveau]** visite ou Niveau du visiteur, selon si vous souhaitez afficher l’abandon au niveau du site ou entre différentes sessions visiteurs.
 1. Ajoutez des éléments de dimension, tels que des pages, au rapport.
 
@@ -99,7 +99,7 @@ t_fallout_assign_pages.xml
  -->
 
 1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Abandon]**.
-1. Dans le volet [!UICONTROL Dimensions], recherchez les pages à ajouter, puis faites-les glisser dans le champ [!UICONTROL Déposer l’événement ou la dimension ici.]
+1. Dans le volet [!UICONTROL Dimensions], recherchez les pages à ajouter, puis faites-les glisser dans le champ [!UICONTROL Déposer l’événement ou la dimension ici].
 
 ## Rapport d’abandons - Descriptions des champs {#reference_74255CC8D6134F349FEBFEC72934C866}
 
