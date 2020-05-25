@@ -3,7 +3,7 @@ description: 'Activity Map effectue le suivi des liens à l’aide d’un algor
 title: Suivi des liens robuste
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Suivi des liens robuste
 
-Activity Map effectue le suivi des liens à l’aide d’un algorithme plus robuste qui:
+Activity Map effectue le suivi des liens à l’aide d’un algorithme plus robuste qui :
 
 * comprend le suivi des régions de page pour éviter la confusion d’un même lien entre différents appareils car le lien ne s’affiche pas au même endroit sur la page ;
 * garantit l’unicité du lien, ce qui signifie que des liens distincts ne peuvent pas être confondus à cause de problèmes liés à l’ID de lien ou à plusieurs navigateurs différents.
