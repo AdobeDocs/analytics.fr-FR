@@ -3,7 +3,7 @@ description: Vous pouvez différencier des liens en personnalisant l’ID de lie
 title: Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -124,7 +124,7 @@ Vous pouvez personnaliser la région en vous assurant que la région de chaque l
 >
 >Testez le code modifié pour vous assurer qu’il fonctionne correctement. Adobe n’est pas responsable du comportement du code modifié.
 
-Voici quelques exemples de** fonctions de lien/région génériques** que vous pouvez inclure (sous une forme modifiée) dans votre fichier AppMeasurement.js.
+Voici quelques exemples de fonctions de lien/région **génériques** que vous pouvez inclure (sous une forme modifiée) dans votre fichier AppMeasurement.js.
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
