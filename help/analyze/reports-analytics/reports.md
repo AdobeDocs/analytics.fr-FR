@@ -3,7 +3,7 @@ description: Cette section contient des informations sur les types de rapports d
 title: Types de rapports
 topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -27,7 +27,7 @@ Cette section contient des informations sur les types de rapports de base, notam
   </tr> 
   <tr> 
    <td colname="col1"> Conversion </td> 
-   <td colname="col2"> <p>Affiche des informations sur les indicateurs de succès définis. Lors de l’acquisition initiale des licences, vous avez la possibilité de définir des mesures qui indiquent ou fournissent des informations supplémentaires sur les remises de contenu ou les ventes réussies. Ces rapports présentent les chiffres relatifs à ces mesures, par exemple les types de paiement, les frais d’expédition et les bons de réduction en ligne utilisés. </p> <p>Reportez-vous à la section <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html"  >Rapports de conversion</a>. </p> </td> 
+   <td colname="col2"> <p>Affiche des informations sur les indicateurs de succès définis. Lors de l’acquisition initiale des licences, vous avez la possibilité de définir des mesures qui indiquent ou fournissent des informations supplémentaires sur les remises de contenu ou les ventes réussies. Ces rapports présentent les chiffres relatifs à ces mesures, par exemple les types de paiement, les frais d’expédition et les bons de réduction en ligne utilisés. </p> <p>Reportez-vous à la section <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-conversion.translate.html"  >Rapports de conversion</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Chemins </td> 
@@ -38,4 +38,4 @@ Cette section contient des informations sur les types de rapports de base, notam
 
 Reportez-vous à la section [Fonctionnalités d’un rapport](/help/analyze/reports-analytics/overview/report-overview.md) pour en savoir plus sur les fonctionnalités d’interface.
 
-Reportez-vous à la section [Description des rapports ](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) dans *`Analytics Reference Help`* pour obtenir les descriptions.
+Reportez-vous à la section [Description des rapports ](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/c-variables.translate.html) dans *`Analytics Reference Help`* pour obtenir les descriptions.
