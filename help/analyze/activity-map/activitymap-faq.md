@@ -3,7 +3,7 @@ description: Questions fréquentes sur l’installation, la configuration et l�
 title: Questions fréquentes sur Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ R : Les clients Adobe SiteCatalyst n’ont pas accès à la page d’activation
 
 **Q : Le nouveau code AppMeasurement peut-il être configuré à l’aide de la Dynamic Tag Management ?**
 
-R : Oui, vous pouvez [mettre en œuvre manuellement](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) le nouveau code AppMeasurement.
+R : Oui, vous pouvez [mettre en œuvre manuellement](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/analytics-dtm.translate.html) le nouveau code AppMeasurement.
 
 **Q : Quels sont les principaux changements apportés à la bibliothèque AppMeasurement version 1.6 ?**
 
@@ -51,17 +51,17 @@ A:
 
 * When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
-**Q :  carte  de l&#39;fournit-elle des données sur &quot;&quot; ?**
+**Q : Est-ce qu’Activity Map fournit des données sur les « vues » ?**
 
-A : Non, Adobe ne suit pas les liens qui ont été consultés.
+A : Non, Adobe ne suit pas les liens qui ont été vus.
 
-**Q : Puis-je utiliser Activity Map si je n’utilisais pas la carte des clics des visiteurs auparavant sur mon site web ?**
+**Q : Puis-je utiliser Activity Map si je n’utilisais pas la ClickMap des visiteurs auparavant sur mon site web ?**
 
 R : La version héritée (désormais simplement appelée ClickMap) n’a pas besoin d’être préalablement installée pour mettre en œuvre la nouvelle version. Adobe continuera à prendre en charge la version héritée pour une période limitée.
 
 **Q : Quels navigateurs et versions sont pris en charge par Activity Map ?**
 
-A : Nous prenons en charge la dernière version des quatre principaux navigateurs (Chrome, Firefox, Safari et IE).
+R : La dernière version des quatre navigateurs principaux (Chrome, Firefox, Safari et IE) est prise en charge.
 
 **Q : Quels sont les paramètres de superposition par défaut ?**
 
@@ -80,9 +80,9 @@ R : Certains liens avec classement peuvent être masqués sur la page (par exem
 
 **Q : Pourquoi les données de clic sur les liens ne sont-elles pas collectées lors de l’exécution d’Activity Map ?**
 
-R : Lors de l’utilisation d’Activity Map, les données de clic sur les liens ne sont pas collectées par la balise Analytics. Ce comportement est conforme au comportement du module ClickMap.
+R : Lors de l’utilisation d’Activity Map, les données de clic sur les liens ne sont pas collectées par la balise Analytics. Ce comportement est identique à celui du module ClickMap.
 
-**Q : Comment le rapport Tous les liens d’Activity Map se compare-t-il à la création de rapports d’Activity Map de Reports &amp; Analytics ?**
+**Q : Quelle est la différence entre le rapport Tous les liens d’Activity Map et la création de rapports d’Activity Map de Reports &amp; Analytics ?**
 
 R : Pour récupérer le rapport Tous les liens dans Activity Map, nous créons une demande de ventilation telle que la suivante : Page Activity Map = « visitedpage », ventilée par lien et région d’Activity Map dans `<list of link&regions present in the page at rendering time>`.
 
@@ -122,21 +122,21 @@ Un message d’avertissement s’affiche sous la barre d’outils et indique qu�
 
 *Page web avec balise Analytics incompatible (AppMeasurement version 1.5 ou antérieure)*
 
-Un message d’avertissement s’affiche, indiquant que vous devez mettre à niveau le code de page vers la version 1.6 ou plus.
+Un message d’avertissement s’affiche et indique que vous devez mettre à niveau le code de page vers la version 1.6 ou ultérieure.
 
 *Page web avec balise Analytics compatible (AppMeasurement version 1.6 ou ultérieure), mais la création de rapports d’Activity Map n’a pas été activée dans les outils d’administration*
 
 Un message d’avertissement s’affiche et indique que vous devez demander à votre administrateur d’\[Activer les rapports d’Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;).
 
-**Q : Puis-je exporter les données d’Activity Map (contextData) par l’intermédiaire du [flux de données Analytics](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-overview.html) ?**
+**Q : Puis-je exporter les données d’Activity Map (contextData) par l’intermédiaire du [flux de données Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/export/analytics-data-feed/data-feed-overview.translate.html) ?**
 
 R : Non.
 
 ## Segmentation dans Activity Map
 
-**Q : Les segments sont-ils liés aux segments utilisateurs individuels ? Are shared segments available in Activity Map?**
+**Q : Les segments sont-ils liés aux segments utilisateurs individuels ? Les segments partagés sont-ils disponibles dans Activity Map ?**
 
-A :   Carte de hérite de vos segments de  d’Analytics.
+R : Activity Map hérite de vos segments de création de rapports à partir d’Analytics.
 
 **Q : Les segments fonctionnent-ils en mode réel ?**
 
