@@ -4,7 +4,7 @@ subtopic: Dashboards
 title: Tableaux de bord et petits rapports
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,9 +18,9 @@ Un tableau de bord est une série de rapports miniatures nommés mini-rapports. 
 
 Un tableau de bord est une série de rapports miniatures nommés *`reportlets`*. Il s’avère particulièrement utile s’il contient des mini-rapports connexes, qui fournissent des vues d’ensemble complètes de certains aspects de votre site (méthodes de recherche, profils du visiteur, etc.).
 
-Vous pouvez ajouter la plupart des rapports marketing à un , y compris des rapports graphiques intenses comme le [!UICONTROL Fallout Report], [!UICONTROL Conversion Funnel Report]et le [!UICONTROL Pathfinder Report].
+La plupart des rapports marketing peuvent être ajoutés au tableau de bord, y compris les rapports avec de nombreux graphiques, tels que les rapports sur les [!UICONTROL abandons], [!UICONTROL Entonnoir de conversion] et [!UICONTROL PathFinder].
 
-Vous pouvez également définir un tableau de bord comme page d’entrée, partager les tableaux de bord avec d’autres utilisateurs et programmer leur remise. If you do not set a dashboard (or a bookmark) as a landing page, the [!UICONTROL My Recommended Reports] dashboard displays. **[!UICONTROL My Recommended Reports]** La illustre le **[!UICONTROL Key Metrics]** rapport ainsi que vos cinq rapports les plus consultés. Cet affichage est dynamique.
+Vous pouvez également définir un tableau de bord comme page d’entrée, partager les tableaux de bord avec d’autres utilisateurs et programmer leur remise. Si vous n’avez défini aucun tableau de bord (ni aucun signet) comme page d’entrée, le tableau de bord [!UICONTROL Mes rapports recommandés] s’affiche. La page **[!UICONTROL Mes rapports recommandés]** présente le rapport **[!UICONTROL Mesures clés]**, ainsi que les cinq rapports que vous consultez le plus souvent. Cet affichage est dynamique.
 
 Remarque : Certains rapports fréquemment consultés ne peuvent pas être inclus dans un tableau de bord et ne s’afficheront pas. Ces cas comprennent notamment :
 
@@ -31,18 +31,18 @@ Remarque : Certains rapports fréquemment consultés ne peuvent pas être inclu
 * Rapports en temps réel
 * Autres tableaux de bord
 
->[!NOTE] Le **[!UICONTROL Site Overview]** n’est plus répertorié dans les rapports et analyses. Toutefois, certains ou tous les mini-rapports afférents peuvent encore s’afficher, dans certains cas.
+>[!NOTE] Le tableau de bord **[!UICONTROL Aperçu du site]** n’est plus répertorié dans Reports &amp; Analytics. Toutefois, certains ou tous les mini-rapports afférents peuvent encore s’afficher, dans certains cas.
 
-* If you have, say, only three frequently viewed reports, Reports &amp; Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard.
-* Par ailleurs, les nouvelles suites de rapports présentent initialement uniquement les mini-rapports Aperçu du site, jusqu’à ce qu’ils soient remplacés par vos rapports fréquemment consultés. Malgré cela, le  sera désormais appelé **[!UICONTROL My Recommended Reports]**.
+* Si, par exemple, vous avez uniquement trois rapports fréquemment consultés, Reports &amp; Analytics récupère deux rapports du tableau de bord Aperçu du site pour remplir le tableau de bord **[!UICONTROL Mes rapports recommandés]**.
+* Par ailleurs, les nouvelles suites de rapports présentent initialement uniquement les mini-rapports Aperçu du site, jusqu’à ce qu’ils soient remplacés par vos rapports fréquemment consultés. Néanmoins, le tableau de bord sera intitulé **[!UICONTROL Mes rapports recommandés]**.
 
 Outre les tableaux de bord que vous créez, les tableaux de bord prédéfinis suivants sont inclus pour chaque utilisateur :
 
-**[!UICONTROL Components]>[!UICONTROL Dashboards]>[!UICONTROL Shared Dashboards]>[!UICONTROL Local Sites]**
+**[!UICONTROL Composants] > [!UICONTROL Tableaux de bord] > [!UICONTROL Tableaux de bord partagés] > [!UICONTROL Sites locaux]**
 
 Ce tableau de bord personnalisable vous permet de déposer les mini-rapports dans le modèle fourni.
 
-**[!UICONTROL Components]>[!UICONTROL Dashboards]>[!UICONTROL Shared Dashboards]>[!UICONTROL Site Operations Dashboard]**
+**[!UICONTROL Composants] > [!UICONTROL Tableaux de bord] > [!UICONTROL Tableaux de bord partagés] > [!UICONTROL Tableau de bord des opérations sur le site]**
 
 Ce tableau de bord présente un aperçu des mesures clés liées aux opérations sur votre site web. Il contient les rapports suivants :
 
@@ -53,7 +53,7 @@ Ce tableau de bord présente un aperçu des mesures clés liées aux opérations
 * Petit rapport texte
 * Petit rapport récapitulatif pour la société
 
-Use the [!UICONTROL Dashboard Manager] to edit and manage dashboards, and enable them for DirectAccess.
+Utilisez le [!UICONTROL Gestionnaire de tableaux de bord] pour modifier et gérer les tableaux de bord et les activer pour DirectAccess.
 
 Voir [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md).
 
@@ -67,26 +67,26 @@ t_dashboard_add.xml
 
  -->
 
-Avant d’ajouter un rapport (comme mini-rapport) à un tableau de bord, vous devez définir la mise en page de ce dernier. 
+Avant d’ajouter un rapport (comme mini-rapport) à un tableau de bord, vous devez définir la mise en page de ce dernier.
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. Cliquez sur **[!UICONTROL Add Dashboard]**.
-1.  Nommez le tableau de bord.
-1. Cliquez sur **[!UICONTROL 3 x 2]** ou sur **[!UICONTROL 2 x 2]** afin de préciser combien de petits rapports inclure sur la page du tableau de bord.
+1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Gérer les tableaux de bord]**.
+1. Cliquez sur **[!UICONTROL Ajouter tableau de bord]**.
+1. Nommez le tableau de bord.
+1. Cliquez sur **[!UICONTROL 3 x 2]** ou sur **[!UICONTROL 2 x 2]** afin de préciser combien de petits rapports inclure sur la page du tableau de bord.
 1. Configurez la présentation de la page du tableau de bord :
 
-   * **[!UICONTROL Add Page]**: Ajoute une page vierge au , sur laquelle vous pouvez faire glisser le contenu pour créer des petits rapports.
-   * **[!UICONTROL Paper]**: Vous permet de spécifier un format de papier, tel que paysage, portrait et A4.
-   * **[!UICONTROL Find Content]**: Permet de rechercher du contenu dans les [!UICONTROL Add Content] menus et [!UICONTROL Dashboard Contents] les menus.
+   * **[!UICONTROL Ajouter une page]** : ajoute une page vierge au tableau de bord, sur laquelle vous pouvez faire glisser le contenu pour créer des mini-rapports.
+   * **[!UICONTROL Papier]** : permet de préciser un format de papier (paysage, portrait et A4, par exemple).
+   * **[!UICONTROL Trouver du contenu]** : permet de rechercher le contenu dans les menus [!UICONTROL Ajouter du contenu] et [!UICONTROL Contenu des tableaux de bord].
 
 1. Ajoutez le contenu disponible au tableau de bord en faisant glisser les éléments sur le canevas du mini-rapport.
 
    Consultez les sections [Création d’un petit rapport](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) et [Modification des paramètres du tableau de bord](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
-1. Cliquez sur **[!UICONTROL Save.]**
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Saving a dashboard makes it available in the **[!UICONTROL Dashboard]** menu. The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** > **[!UICONTROL Dashboards]** > **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Voir [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md).)
+   Quand vous enregistrez un tableau de bord, il s’affiche dans le menu **[!UICONTROL Tableau de bord]**. Le nouveau tableau de bord est également disponible dans le [!UICONTROL Gestionnaire de tableaux de bord] (**[!UICONTROL Favoris]** > **[!UICONTROL Tableaux de bord]** > **[!UICONTROL Gestionnaire]**), où vous pouvez modifier, organiser, partager, planifier et archiver les tableaux de bord, et plus encore. (Voir [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md).)
 
-1. (Facultatif) Pour définir le  comme votre  de, cliquez sur **[!UICONTROL More Options]** > **[!UICONTROL Set as Landing Page]**.
+1. (Facultatif) Pour définir le tableau de bord comme page d’entrée, cliquez sur **[!UICONTROL Autres options]** > **[!UICONTROL Définir comme page d’entrée]**.
 
 ## Création d’un petit rapport {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
@@ -99,20 +99,20 @@ t_dashboard_add_report.xml
  -->
 
 1. Exécutez un rapport.
-1. Cliquez sur **[!UICONTROL Dashboard.]**
-1. Sur la [!UICONTROL Add Reportlet] page, nommez le rapport, puis sélectionnez un  de **[!UICONTROL Place in Dashboard]**.
+1. Cliquez sur **[!UICONTROL Tableau de bord]**.
+1. Sur la page [!UICONTROL Ajouter un petit rapport], nommez le rapport, puis sélectionnez un tableau de bord dans **[!UICONTROL Placer sur le tableau de bord]**.
 1. (Facultatif) Configurez la plage de dates.
 
-   * **[!UICONTROL Rolling]**: Modifie la date au fil du temps, en fonction de la période (quotidienne, mensuelle, etc.). Si, par exemple, nous sommes aujourd’hui le 17 janvier, vous pouvez définir la plage de dates 15 – 16 janvier. Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
-   * **[!UICONTROL Fixed]**: Empêche la date de progresser au fil du temps.
+   * **[!UICONTROL Variable]** : change la date au fil des jours, selon l’étendue temporelle (quotidien, mensuel, etc.). Si, par exemple, nous sommes aujourd’hui le 17 janvier, vous pouvez définir la plage de dates 15 – 16 janvier. Si vous avez sélectionné **[!UICONTROL Variable]**, le rapport affichera le 27 janvier la plage de dates 25 – 26 janvier.
+   * **[!UICONTROL Fixe]** : empêche la date de changer au fil du temps.
 
 1. (Facultatif) Activez le Contournement de la liste de publication.
 
-   **[!UICONTROL Publishing List Override]**: Si vous activez cette option, la suite de rapports référencée dans ce petit rapport est toujours utilisée lors de l’envoi à une liste de publication. Si vous désactivez cette option, la suite de rapports identifiée dans la liste de publication remplace la suite de rapports dans ce mini-rapport.
+   **[!UICONTROL Contournement de la liste de publication]** : si vous activez cette option, la suite de rapports référencée dans ce mini-rapport est toujours utilisée lors de l’envoi vers une liste de publication. Si vous désactivez cette option, la suite de rapports identifiée dans la liste de publication remplace la suite de rapports dans ce mini-rapport.
 
-1. Cliquez sur **[!UICONTROL Create New]**.
+1. Cliquez sur **[!UICONTROL Créer]**.
 
-   The reportlet is added to the **[!UICONTROL Dashboard Contents]** menu in the dashboard editor.
+   Ce petit rapport est ajouté au menu **[!UICONTROL Contenu des tableaux de bord]** dans l’éditeur du tableau de bord.
 
 ## Ajout de contenu à un tableau de bord {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
@@ -124,10 +124,10 @@ t_dashboard_content.xml
 
  -->
 
-1. Open a dashboard, then click **[!UICONTROL Layout]**.
-1. Click **[!UICONTROL Add Content]**, then drag items to the dashboard.
+1. Ouvrez un tableau de bord, puis cliquez sur **[!UICONTROL Mise en page]**.
+1. Cliquez sur **[!UICONTROL Ajouter du contenu]**, puis faites glisser les éléments sur le tableau de bord.
 
-   The [!UICONTROL Add Content] menu displays reportlet content from other dashboards, legacy dashboards, and shared dashboards.
+   Le menu [!UICONTROL Ajouter du contenu] affiche le contenu des petits rapports des autres tableaux de bord et des tableaux de bord hérités ou partagés.
 
    >[!NOTE]
    >
@@ -167,7 +167,7 @@ Vous pouvez créer les petits rapports de contenu d’utilisateur ci-après en i
 
    Affiche les éléments que vous avez déjà ajoutés au tableau de bord.
 
-1. Cliquez sur **[!UICONTROL Save.]**
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Modification des données d’un tableau de bord et d’un petit rapport {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
@@ -181,22 +181,22 @@ t_dashboard_edit.xml
 
 **Pour modifier les données d’un tableau de bord et d’un mini-rapport**
 
-1. Click **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
-1. Cliquez sur **[!UICONTROL Layout]**.
+1. Cliquez sur **[!UICONTROL Composants]** > **[!UICONTROL Tableaux de bord]** > *nom du tableau de bord* pour ouvrir un tableau de bord.
+1. Cliquez sur **[!UICONTROL Mise en page]**.
 
 | À | Procédez comme suit : |
 |--- |--- |
 | Modifier la suite de rapports d’un tableau de bord | Cliquez sur le menu dans l’en-tête d’Experience Cloud, puis sélectionnez une suite de rapports. |
 | Modifier la suite de rapports d’un petit rapport | Dans le petit rapport, cliquez sur le nom de la suite de rapports, puis sélectionnez une suite dans le menu [!UICONTROL Report Suite] |
-| Appliquer un segment à un tableau de bord | In the Experience Cloud header, click [!UICONTROL Show Segments], then select a segment. |
+| Appliquer un segment à un tableau de bord | Dans l’en-tête d’Experience Cloud, cliquez sur [!UICONTROL Afficher segments], puis sélectionnez un segment. |
 | Appliquer un segment à un petit rapport | Dans le tableau de bord, cliquez sur Mise en page pour modifier un tableau de bord.   Dans le petit rapport, cliquez sur le nom de la suite de rapports, sélectionnez une valeur dans le champ Segment, puis cliquez sur Mettre à jour. |
-| Verrouiller une suite de rapports (empêche la modification de la suite de rapports dans un mini-rapport) | In the reportlet, click the report suite name, then enable [!UICONTROL Lock Report Suite]. Cliquez sur Mettre à jour. |
+| Verrouiller une suite de rapports (empêche la modification de la suite de rapports dans un mini-rapport) | Dans le mini-rapport, cliquez sur le nom de la suite de rapports, puis cochez l’option [!UICONTROL Verrouiller la Report Suite]. Cliquez sur Mettre à jour. |
 | Modifier la date d’un rapport | Pour un tableau de bord, cliquez sur le calendrier (la modification se répercute sur tous les mini-rapports du tableau de bord.)<br>Pour un petit rapport, cliquez sur le lien de la date, puis configurez le calendrier. |
-| Nommer un tableau de bord | Open a dashboard, then click  [!UICONTROL More] >  [!UICONTROL Rename]. |
-| Afficher une archive du tableau de bord | Cliquez sur  [!UICONTROL More] >  [!UICONTROL View Archive]. |
-| Définir le tableau de bord comme page d’entrée | In a dashboard, click  [!UICONTROL More] > [!UICONTROL Set As Landing Page]. |
-| Télécharger un tableau de bord | In a dashboard, click  [!UICONTROL More] >  Download. |
-| Imprimer un tableau de bord | In a dashboard, click  [!UICONTROL More] >  Print. |
+| Nommer un tableau de bord | Ouvrez un tableau de bord, puis cliquez sur [!UICONTROL Plus] > [!UICONTROL Renommer]. |
+| Afficher une archive du tableau de bord | Cliquez sur [!UICONTROL Plus] > [!UICONTROL Afficher l’archive]. |
+| Définir le tableau de bord comme page d’entrée | Dans un tableau de bord, cliquez sur [!UICONTROL Plus] > [!UICONTROL Définir comme page d’entrée]. |
+| Télécharger un tableau de bord | Dans un tableau de bord, cliquez sur [!UICONTROL Plus] > Télécharger. |
+| Imprimer un tableau de bord | Dans un tableau de bord, cliquez sur [!UICONTROL Plus] > Imprimer. |
 | Enregistrer un tableau de bord | Dans un tableau de bord, cliquez sur Enregistrer sous, puis précisez un nom. |
 
 ## Alliance de marques sur un tableau de bord {#task_603BDE7700B945699AF5514C2DEB81F7}
@@ -209,10 +209,10 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]**.
-1. Sur la [!UICONTROL Company Settings] page, cliquez sur **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
-1. Cliquez sur **[!UICONTROL Enable Co-Branding]**.
-1. Browse to upload the image, then click **[!UICONTROL Save.]**
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Paramètres de la société]**.
+1. Sur la page [!UICONTROL Paramètres de la société], cliquez sur **[!UICONTROL Co-marquer la suite Adobe Experience Cloud]**.
+1. Cliquez sur **[!UICONTROL Activer l’alliance de marques]**.
+1. Sélectionnez l’image à télécharger, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Afin d’optimiser l’affichage dans un navigateur, chargez une image de 100 x 30 pixels. Pour de meilleurs résultats en sortie PDF, chargez une image de 417 x 125 pixels (300 ppp). Les images trop grandes sont réduites tout en conservant leurs proportions.
 
@@ -228,5 +228,5 @@ segments_dashboards.xml
 
 Les segments peuvent être appliqués à deux niveaux : à l’ensemble d’un tableau de bord ou à un petit rapport spécifique.
 
-* **Niveau** du petit rapport : Cliquez sur **[!UICONTROL Layout]**, puis sur la suite de rapports du petit rapport que vous souhaitez segmenter. Une fenêtre modale s’affiche ; elle vous permet d’ajouter ou de modifier le ou les segments que le petit rapport utilise.
+* **Au niveau d’un petit rapport** : cliquez sur **[!UICONTROL Mise en page]**, puis sur la suite de rapports du petit rapport que vous souhaitez segmenter. Une fenêtre modale s’affiche ; elle vous permet d’ajouter ou de modifier le ou les segments que le petit rapport utilise.
 * **Au niveau d’un tableau de bord** : cliquez sur l’icône Segment dans le menu de navigation de gauche, sélectionnez le ou les segments que vous souhaitez utiliser, puis cliquez sur Appliquer. Les segments sélectionnés remplacent tout segment appliqué au niveau d’un petit rapport.
