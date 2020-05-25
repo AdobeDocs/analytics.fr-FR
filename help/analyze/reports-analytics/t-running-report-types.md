@@ -3,7 +3,7 @@ description: Procédure d’exécution de différents types de rapports
 title: Exécution de différents types de rapports
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,8 +24,8 @@ t_reports_ranked.xml
 
  -->
 
-1. Générez un rapport, par exemple [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**).
-1. In the report header, click **[!UICONTROL Ranked.]**
+1. Générez un rapport, tel qu’un [!UICONTROL Rapport Pages] (**[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]**).
+1. Dans l’en-tête du rapport, cliquez sur **[!UICONTROL Classement]**.
 1. Pour classer le rapport, cliquez sur un en-tête de colonne dans le tableau.
 
    Le tableau d’un rapport de classement peut comprendre jusqu’à 200 éléments (par exemple, produits, catégories, pages web, etc.) et dix mesures (recettes, commandes, vues, etc.).
@@ -40,12 +40,12 @@ t_reports_trended.xml
 
  -->
 
-Pour la plupart des rapports de conversion et de trafic, une vue Tendance est disponible. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Les rapports de tendances affichent les tendances relatives à une mesure unique (recettes, commandes, vues, etc.) de cinq éléments au maximum (par exemple, produits, catégories, pages web, etc.).
+Pour la plupart des rapports de conversion et de trafic, une vue Tendance est disponible. L’outil [!UICONTROL Calendrier] permet d’afficher l’amélioration de la ventilation pour n’importe quelle période, y compris les jours d’un mois, les semaines de l’année, les semaines d’un trimestre, les mois de l’année, et ainsi de suite. Les rapports de tendances affichent les tendances relatives à une mesure unique (recettes, commandes, vues, etc.) de cinq éléments au maximum (par exemple, produits, catégories, pages web, etc.).
 
 **Pour exécuter un rapport de tendances**
 
-1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
-1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+1. Exécutez un rapport de conversion ou de trafic, tel que **[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]**.
+1. Sous **[!UICONTROL Type de rapport]**, cliquez sur **[!UICONTROL Tendance]**.
 
 ## Exécution d’un rapport Entonnoir de conversion {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,13 +57,13 @@ t_reports_conversion_funnel.xml
 
  -->
 
-Pour exécuter ce rapport, sélectionnez un rapport, tel qu’un rapport Pages ( **[!UICONTROL Reports]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** > **[!UICONTROL Campaign Conversion Funnel]**).
+Pour exécuter ce rapport, sélectionnez un rapport, par exemple un rapport Pages (**[!UICONTROL Rapports]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Code de suivi]** > **[!UICONTROL Entonnoir de conversion de campagne]**).
 
-Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html).
+Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-conversion.translate.html).
 
 ## Exécution d’un rapport sur les abandons {#task_8FD97C8260464F9DA731A93DB8F80184}
 
-The [!UICONTROL Fallout Report] shows the number of visitors who visited a pre-specified sequence of pages. Il indique également les taux de conversions et d’abandons entre deux étapes.
+Le [!UICONTROL rapport sur les abandons] indique le nombre de visiteurs qui ont consulté une séquence de pages prédéfinie. Il indique également les taux de conversions et d’abandons entre deux étapes.
 
 <!-- 
 
@@ -73,19 +73,19 @@ t_reports_fallout.xml
 
 Découvrez le nouveau panneau [Analyse des abandons](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
 
-1. Dans [!UICONTROL Adobe Analytics], cliquez sur **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Fallout]**.
-1. Sur la [!UICONTROL Fallout Report] page, cliquez sur **[!UICONTROL Launch the Fallout Report Builder]**.
+1. Dans [!UICONTROL Adobe Analytics], cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Abandon]**.
+1. Sur la page du [!UICONTROL rapport sur les abandons], cliquez sur le bouton de **[!UICONTROL lancement du Report Builder d’abandons]**.
 
    ![Résultat de l’étape](assets/fallout_add_items.png)
 
-1. On the [!UICONTROL Define Checkpoints] page, specify the checkpoints that you want to use for the report.
-1. Cliquez sur **[!UICONTROL Run Report]**.
+1. Sur la page [!UICONTROL Définir les points de contrôle], spécifiez les points de contrôle à utiliser pour votre rapport.
+1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
 
    ![Résultat de l’étape](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
->* [Description du rapport sur les abandons](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [Description du rapport sur les abandons](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-fallout.translate.html)
 
 
 ## Exécution d’un rapport de flux de page {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -96,7 +96,7 @@ Découvrez la nouvelle [visualisation Flux](https://docs.adobe.com/content/help/
 
 Exécutez un rapport [Chemins](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-paths.html).
 
-Par exemple, cliquez sur **[!UICONTROL Reports]** > **[!UICONTROL Paths]** > **[!UICONTROL Pages]** > **[!UICONTROL Next Page Flow]**.
+Par exemple, cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Flux page suivante]**.
 
 ![](assets/page_flow.png)
 
@@ -104,7 +104,7 @@ Ce rapport se lit de gauche à droite, en commençant par la page sélectionnée
 
 Le pourcentage d’affichage de chaque page consécutive est indiqué en regard du nom de la page. La largeur de la ligne reliée à chaque page suivante représente ce pourcentage relatif.
 
-**[!UICONTROL Path Views]**: Indique le nombre de fois où une page a été consultée, lorsqu’elle est restreinte aux chemins affichés.
+**[!UICONTROL Vues chemins]** : indique le nombre de fois où une page a été vue, selon un chemin spécifique indiqué.
 
 La politique de confidentialité pourrait, par exemple, générer un total de 10 000 pages vues, mais seulement 500 de ces pages ont été affichées immédiatement après la page d’accueil. On emploie alors le terme « vue chemin ».
 
@@ -112,7 +112,7 @@ Le pourcentage relatif est représenté par la largeur relative de la ligne. Par
 
 ## Exécution d’un rapport Entonnoir {#task_2BBF6FACD48F479E8B2EE458919941CB}
 
-Vous pouvez sélectionner des  de réussite et les ajouter à un [!UICONTROL Purchase Conversion Funnel] rapport ou à un [!UICONTROL Product Conversion Funnel] rapport.
+Vous pouvez sélectionner des événements de succès et les ajouter à un rapport [!UICONTROL Entonnoir de conversion d’achat] ou [!UICONTROL Entonnoir de conversion de produits].
 
 <!-- 
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** > **[!UICONTROL Products]** > [Products Conversion Funnel](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
+1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Produits]** > [Entonnoir de conversion de produits](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-conversion-funnel.translate.html).
 
 ## Exécution d’un rapport Canal marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -146,11 +146,11 @@ t_anomaly_view.xml
 
 Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse des contributions](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) d’Analysis Workspace.
 
-**[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Anomaly Detection]** .
+**[!UICONTROL Rapports]** > **[!UICONTROL Mesures du site]** > **[!UICONTROL Détection des anomalies]** .
 
 >[!NOTE] Vous pouvez également exécuter la détection des anomalies directement depuis les projets Analysis Workspace. [Plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-Pour plus d’informations sur la configuration de la détection des anomalies, voir le [Guide de référence](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
+Pour plus d’informations sur la configuration de la détection des anomalies, voir le [Guide de référence](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
 La détection des anomalies présente deux types de graphiques : un graphique synthétique et des graphiques de mesures individuels. Les graphiques de mesures individuels ne s’affichent que si au moins une anomalie a été détectée pour la mesure.
 
@@ -211,11 +211,11 @@ t_anomaly_config.xml
 
 Configurez la détection des anomalies indépendamment pour chaque suite de rapports.
 
-1. Accédez à **[!UICONTROL Analytics > Reports > Site Metrics > Anomaly Detection]** .
+1. Accédez à **[!UICONTROL Analytics > Rapports > Mesures du site > Détection des anomalies]** .
 1. Sélectionnez la suite de rapports pour laquelle vous souhaitez suivre quotidiennement la détection des anomalies. Pour afficher une liste des suites de rapports, cliquez sur le menu déroulant du sélecteur de suite de rapports.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
+1. Pour sélectionner les mesures et/ou définir des mesures filtrées, cliquez sur **[!UICONTROL Modifier des mesures]** dans la partie supérieure droite de l’écran :  ![](assets/metrics_icon.png).
 
-   Vous pouvez sélectionner des mesures dans la liste (y compris des mesures calculées) de toutes les mesures ou dans une liste de mesures suivies. Vous pouvez également filtrer des termes spécifiques afin de préciser les résultats. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (Considérez la période de formation en tant que « période d’apprentissage » pour l’algorithme.)
+   Vous pouvez sélectionner des mesures dans la liste (y compris des mesures calculées) de toutes les mesures ou dans une liste de mesures suivies. Vous pouvez également filtrer des termes spécifiques afin de préciser les résultats. 1. Une fois le rapport généré, définissez la **[!UICONTROL période de formation]** et la **[!UICONTROL période d’affichage]** pour la détection des anomalies. (Considérez la période de formation en tant que « période d’apprentissage » pour l’algorithme.)
 
    ![](assets/view_training_periods.png)
 
@@ -226,12 +226,12 @@ Configurez la détection des anomalies indépendamment pour chaque suite de rapp
 * l’extension de la période de formation place vos données dans un contexte plus étendu et peut réduire la taille d’une anomalie.
 
    Le rapport des mesures de détection des anomalies s’actualise chaque fois que vous modifiez un paramètre.
-1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
+1. (Facultatif) Appliquez les segments au rapport en cliquant sur **[!UICONTROL Afficher les segments]** et en sélectionnant un ou plusieurs segments existants ou en créant un nouveau segment et en l’appliquant.
 
    ![](assets/ad_top_menu.png)
 
    Voir le [guide de segmentation d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html) pour en savoir plus sur la création et la gestion des segments. 1. (Facultatif) Définissez le rapport comme favori ou signet.
-1. (Facultatif) Modifiez la date de fin de la période d’affichage. La valeur par défaut est « hier ». 
+1. (Facultatif) Modifiez la date de fin de la période d’affichage. La valeur par défaut est « hier ».
 1. Vous pouvez à présent commencer à interpréter le rapport. [Affichage des graphiques de détection des anomalies](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
 ## Exécution d’un rapport en temps réel {#task_5D25929C918E40B18965222FA94176B0}
@@ -244,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Reports > Site Metrics > Real-Time]** .
+**[!UICONTROL Rapports > Mesures du site > Temps réel]**.
 
 La création de rapports en temps réel offre deux rapports principaux : un rapport d’aperçu et un rapport détaillé. Ils sont chacun composés de plusieurs mini-rapports.
 
-Pour plus d’informations sur la configuration des rapports en temps réel, voir le [Guide de référence d’Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html#RealTime_Reports_Configuration).
+Pour plus d’informations sur la configuration des rapports en temps réel, voir le [Guide de référence d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.translate.html#RealTime_Reports_Configuration).
 
-1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
+1. Étudiez le rapport **[!UICONTROL Aperçu]** et ses composants :  ![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -259,7 +259,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Sélectionner une suite de rapports</strong></td> 
-   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Configuration de rapports en temps réel </a>. </td> 
+   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.translate.html"  >Configuration de rapports en temps réel </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Basculer entre les rapports</strong></td> 
@@ -314,7 +314,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
+1. Cliquez sur un élément de liste dans le petit rapport principal pour lancer la vue **[!UICONTROL Détails]** pour cet élément de liste :  ![](assets/rtr_detail_report.png)
 
    | **Mini-rapport Tendance des éléments** | Présente la ligne de tendance de l’élément qui a été sélectionné dans le rapport Aperçu pendant les N dernières minutes. Vous pouvez configurer N par l’intermédiaire du sélecteur de période. |
    |---|---|
