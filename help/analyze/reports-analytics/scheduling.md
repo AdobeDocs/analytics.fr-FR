@@ -4,7 +4,7 @@ subtopic: Schedule
 title: Planification et distribution des rapports
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -36,29 +36,29 @@ Ces limites s’appliquent aux rapports téléchargés et planifiés individuels
 
 ## Envoi d’un rapport {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-Cette section décrit la procédure à suivre pour télécharger des rapports et les envoyer par courrier électronique dans divers formats et pour planifier la remise d’un rapport. 
+Cette section décrit la procédure à suivre pour télécharger des rapports et les envoyer par courrier électronique dans divers formats et pour planifier la remise d’un rapport.
 
-1. Run a report, then click **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. Définissez les options de remise : 
+1. Exécutez un rapport, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Envoyer]**.
+1. Définissez les options de remise :
 
    | Option | Description |
    |--- |--- |
-   | Format | Sélectionnez le format PDF ou HTML.. |
-   | Envoyer à | Précisez une adresse de courriel où recevoir le rapport.. |
-   | Sujet | Objet du courriel.. |
-   | Planification | Choisissez d’envoyer le rapport immédiatement ou à un autre intervalle.. |
+   | Format | Sélectionnez le format PDF ou HTML. |
+   | Envoyer à | Précisez une adresse de courriel où recevoir le rapport. |
+   | Sujet | Objet du courriel. |
+   | Planification | Choisissez d’envoyer le rapport immédiatement ou à un autre intervalle. |
 
-1. Cliquez sur **[!UICONTROL Advanced Delivery Options]** pour spécifier un planning de .
+1. Cliquez sur **[!UICONTROL Options de remise avancées]** afin de préciser un calendrier de remise.
 
 | Option | Description |
 |--- |--- |
-| Nom de fichier du rapport | Spécifie le nom du rapport. Le format par défaut est `<report name> for <suite> - <report date range>`. To specify a custom name, select [!UICONTROL Custom]. |
+| Nom de fichier du rapport | Spécifie le nom du rapport. Le format par défaut est `<report name> for <suite> - <report date range>`. Pour définir un nom personnalisé, sélectionnez [!UICONTROL Personnalisé]. |
 | Format de rapport | Vous permet de définir les formats PDF, CSV, Excel, HTML, Word ou Mobile pour la remise. Si vous sélectionnez CSV, vous pouvez également définir le codage CSV :<ul><li>Shift-JIS : codage des caractères japonais.</li><li>EUC-JP : code Unix étendu, principalement pour le japonais, le coréen et le chinois simplifié.</li></ul> |
 | Contenu du rapport | <ul><li>Nombre de lignes dans la table : définit le nombre de lignes visibles dans le tableau du rapport que vous envoyez.</li><li>Langue de l’en-tête et du pied de page : définit la langue de l’en-tête et du pied de page.</li><li>Commentaires : spécifie le texte qui apparaît au début du rapport.</li></ul> |
 | Envoyer le fichier de signature numérique | Lorsque vous demandez un rapport, tel un rapport marqué ou des demandes de Data Warehouse, vous pouvez exiger une signature de données. La signature numérique d’Adobe ne limite pas l’accès aux données ; le fichier de signature numérique (.sig) a pour but de vérifier la validité du fichier de rapport remis. Avec la signature numérique, les destinataires du rapport peuvent vérifier que le fichier provient bien d’Adobe et qu’il n’a pas été modifié. |
 | Destination du rapport | <ul><li>Courriel : vous permet de configurer l’adresse de courriel, l’objet et les remarques.</li><li>FTP : vous permet de configurer les paramètres FTP, notamment l’hôte, le port, le répertoire, le nom d’utilisateur et le mot de passe.</li></ul> |
 
-1. Cliquez sur **[!UICONTROL Scheduling Options]**.
+1. Cliquez sur **[!UICONTROL Options de planification]**.
 
 | Option | Description |
 |--- |--- |
@@ -73,14 +73,14 @@ Cette section décrit la procédure à suivre pour télécharger des rapports et
 Cette section décrit la procédure à suivre pour imprimer un rapport.
 
 1. Exécutez un rapport.
-1. Cliquez sur **[!UICONTROL More]** > **[!UICONTROL Print]**.  ![](assets/print.png)
+1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Imprimer]**.  ![](assets/print.png)
 
 ## Téléchargement d’un rapport à l’aide des options de base {#task_43660107A1C9485D92981CD75B562577}
 
 Téléchargez des informations détaillées sur un rapport spécifique au format d’exportation de données PDF, CSV, Excel ou données brutes.
 
-1. In  **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** , select a report to view.
-1. Cliquez sur **[!UICONTROL Download]**.
+1. Sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, sélectionnez un rapport à afficher.
+1. Cliquez sur **[!UICONTROL Télécharger]**.
 
    ![](assets/download_basic.png)
 
@@ -88,7 +88,7 @@ Téléchargez des informations détaillées sur un rapport spécifique au format
 
    * **[!UICONTROL PDF]** : le rapport sera téléchargé au format Adobe PDF. Vous pourrez ainsi le partager avec d’autres utilisateurs, quelle que soit leur plateforme informatique.
    * **[!UICONTROL CSV]** : le rapport sera téléchargé au format [!DNL .csv] (format de valeurs séparées par des virgules).
-   * **[!UICONTROL Excel]**  : le rapport sera téléchargé au format Microsoft Excel. Vous aurez ainsi la possibilité de le partager avec d’autres utilisateurs qui pourront l’ouvrir dans un tableur.
+   * **[!UICONTROL Excel]** : le rapport sera téléchargé au format Microsoft Excel. Vous aurez ainsi la possibilité de le partager avec d’autres utilisateurs qui pourront l’ouvrir dans un tableur.
    * **[!UICONTROL Word]** : le rapport sera téléchargé au format Microsoft Word.
    >[!NOTE]
    >
@@ -98,11 +98,11 @@ Téléchargez des informations détaillées sur un rapport spécifique au format
 
 Cette section contient des informations sur la gestion des rapports planifiés.
 
-In the [!UICONTROL Schedule Reports Manager], you can edit and delete recurring report deliveries. Vous pouvez créer des calendriers de remise pour envoyer les rapports par courrier électronique ou FTP vers une adresse spécifiée. Vous pouvez configurer ces calendriers pour l’envoi automatique des rapports à des intervalles donnés pendant une période définie ou indéfiniment, ou arrêter la distribution d’un rapport récurrent.
+Dans le [!UICONTROL Gestionnaire de planification des rapports], vous pouvez modifier et supprimer les remises répétitives de rapports. Vous pouvez créer des calendriers de remise pour envoyer les rapports par courrier électronique ou FTP vers une adresse spécifiée. Vous pouvez configurer ces calendriers pour l’envoi automatique des rapports à des intervalles donnés pendant une période définie ou indéfiniment, ou arrêter la distribution d’un rapport récurrent.
 
-The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. Si le compte d’utilisateur est désactivé dans l’application, toutes les livraisons planifiées sont interrompues.
+Le [!UICONTROL Gestionnaire de planification des rapports] affiche les éléments créés par un utilisateur spécifique. Si le compte d’utilisateur est désactivé dans l’application, toutes les livraisons planifiées sont interrompues.
 
-1. Pour accéder au gestionnaire, cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**.
+1. Pour accéder au gestionnaire, cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Rapports programmés]**.
 
 ## Partage d’un lien vers un rapport {#task_9711DDE9E140451B8C914EC5513E21EC}
 
@@ -113,7 +113,7 @@ Lorsque le destinataire clique sur le lien, le système demande les informations
 **Pour partager un lien vers un rapport**
 
 1. Exécutez un rapport.
-1. Cliquez sur **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
+1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Lien vers ce rapport]**.
 
 ## Se désabonner des rapports planifiés {#concept_6B48360F935740B6851BA85D32DEF637}
 
@@ -129,7 +129,7 @@ Pour vous désabonner d’un rapport planifié :
 
    ![](assets/unsubscribe-email.png)
 
-1. Cliquez sur le **[!UICONTROL click here]** lien en regard de **[!UICONTROL To cancel automatic delivery of this report]**.
+1. Cliquez sur le lien **[!UICONTROL cliquez ici]** en regard de **[!UICONTROL Pour annuler la réception automatique de ce rapport]**.
 
 1. Confirmez que vous souhaitez annuler l’envoi de ce rapport.
 
