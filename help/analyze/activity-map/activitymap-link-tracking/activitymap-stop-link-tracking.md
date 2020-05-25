@@ -1,9 +1,9 @@
 ---
-description: Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
+description: Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de ClickMap.
 title: Arrêt du suivi des liens
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # Arrêt du suivi des liens
 
-Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de Carte des clics.
+Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de ClickMap.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -23,8 +23,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> Supprimez le contenu suivant du fichier Appmeasurement.js :  
-     
+   <td colname="col2"> Supprimez le contenu suivant du fichier Appmeasurement.js : 
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
@@ -40,8 +39,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Carte des clics (anciennement Carte des clics des visiteurs) </td> 
-   <td colname="col2"> <p>Définissez la variable <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> sur false (valeur par défaut). La syntaxe est la suivante :       <code>
+   <td colname="col1"> ClickMap (anciennement ClickMap des visiteurs) </td> 
+   <td colname="col2"> <p>Définissez la variable <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/config-vars/configuration-variables.translate.html"  >trackInlineStats</a> sur false (valeur par défaut). La syntaxe est la suivante :       <code>
        s.trackInlineStats=false
      </code> </p> </td> 
   </tr> 
