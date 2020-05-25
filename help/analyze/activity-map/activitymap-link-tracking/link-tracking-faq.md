@@ -3,7 +3,7 @@ description: Questions fréquentes sur le suivi des liens dans Activity Map.
 title: Questions fréquentes sur le suivi des liens
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -45,11 +45,11 @@ Vous trouverez ci-dessous certains cas connus de collecte des données relatives
    <td colname="col1"> <b>Q : Comment Activity Map suit-elle d’autres éléments HTML visuels ?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Par le biais de la fonction <code> s.tl() </code></b> <p>Si le clic s’est produit par le biais d’un appel s.tl, Activity Map recevra également cet événement de clic et déterminera si une variable de chaîne linkName a été trouvée. Lors de l’exécution de s.tl, ce linkName sera défini comme l’ID de lien d’Activity Map. L’élément sur lequel l’utilisateur a cliqué et qui est à l’origine de l’appel s.tl() sera utilisé pour déterminer la région. Exemple : </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Par le biais de la<code> s.tl() </code> fonction</b> <p>Si le clic s’est produit par le biais d’un appel s.tl, Activity Map recevra également cet événement de clic et déterminera si une variable de chaîne linkName a été trouvée. Lors de l’exécution de s.tl, ce linkName sera défini comme l’ID de lien d’Activity Map. L’élément sur lequel l’utilisateur a cliqué et qui est à l’origine de l’appel s.tl() sera utilisé pour déterminer la région. Exemple : </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Par le biais de la variable <code> s_objectID </code></b> <p>Exemple : </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>Par le biais de la<code> s_objectID </code> variable</b> <p>Exemple : </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>Important : Notez qu’un point-virgule (;) de fin est requis lorsque la variable s_objectID est utilisée dans Activity Map. </p> </li> 
@@ -85,8 +85,7 @@ Vous trouverez ci-dessous certains cas connus de collecte des données relatives
    <td colname="col1"> <b>Q : Pouvez-vous me donner des exemples de liens qui ne seront PAS suivis ?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
-     <li id="li_99372060646B43EF94C13A9C682CE693">Raison : la balise d’ancrage ne possède pas de href valide  
-       
+     <li id="li_99372060646B43EF94C13A9C682CE693">Raison : la balise d’ancrage ne possède pas de href valide 
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
