@@ -3,7 +3,7 @@ description: Les filtres permettent de limiter le rapport en incluant ou en excl
 title: Filtrage des données de rapport
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Les filtres permettent de limiter le rapport en incluant ou en excluant des éléments de ligne qui correspondent à un filtre.
 
-## Filtre simple  {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## Filtre simple {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
@@ -49,7 +49,7 @@ Correspond si le terme se trouve dans l’élément de ligne. Opère de la même
 
 **Ne contient pas**
 
-Correspond si le terme ne se trouve pas dans l’élément de ligne. Vous pouvez utiliser les filtres « non spécifié », « aucun », « mot-clé indisponible » ainsi que d’autres [valeurs spéciales](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) depuis les rapports utilisant « Ne contient pas ».
+Correspond si le terme ne se trouve pas dans l’élément de ligne. Vous pouvez utiliser les filtres « non spécifié », « aucun », « mot-clé indisponible » ainsi que d’autres [valeurs spéciales](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/unspecified.translate.html) depuis les rapports utilisant « Ne contient pas ».
 
 Ne contient pas : `none`
 
@@ -87,11 +87,11 @@ Est égal : `mens:desk & travel`
 
 `Mens:Desk & Travel`
 
-**Starts With (Commence par)**
+**Commence par**
 
 Correspond si l’élément de ligne, y compris les espaces et autres caractères, commence par la phrase indiquée.
 
-Commence par: `mens`
+Commence par : `mens`
 
 Correspond aux pages suivantes :
 
@@ -103,11 +103,11 @@ Mens Perfume Spray
 Mens Hemp/Bamboo Flip Flops
 ```
 
-**Ends With (Se termine par)**
+**Se termine par**
 
 Correspond si l’élément de ligne, y compris les espaces et autres caractères, se termine par la phrase indiquée.
 
-Se termine par: `jean`
+Se termine par : `jean`
 
 Correspond aux pages suivantes :
 
@@ -142,16 +142,16 @@ t_reports_filter_specific.xml
 
  -->
 
-Certains rapports contiennent un filtre qui leur est spécifique. Par exemple, un [!UICONTROL Purchase Conversion Funnel Report] filtre permet de filtrer par pages Web. A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. D’autres rapports comprennent d’autres filtres qui leur sont spécifiques.
+Certains rapports contiennent un filtre qui leur est spécifique. Le rapport [!UICONTROL Entonnoir de conversion d’achat], par exemple, vous permet de filtrer les données par pages web. Un [!UICONTROL rapport de géosegmentation] vous permet de filtrer les données par région géographique. D’autres rapports comprennent d’autres filtres qui leur sont spécifiques.
 
 Lorsque vous accédez à ces filtres, vous pouvez afficher les mesures des éléments spécifiés dans la liste.
 
 **Pour créer des filtres spécifiques aux rapports**
 
-1. Générez un rapport, par exemple [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
-1. In the report header, click the **[!UICONTROL Filter]** link.
-1. Sur la [!UICONTROL Filter Selector] page, cliquez sur **[!UICONTROL Apply a Filter]**, puis sélectionnez un type de filtre.
-1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
+1. Générez un rapport, tel un [!UICONTROL rapport d’achats] (**[!UICONTROL Mesures du site]** > **[!UICONTROL Achats]** > **[!UICONTROL Entonnoir de conversion d’achat]**).
+1. Dans l’en-tête du rapport, cliquez sur le lien **[!UICONTROL Filtre]**.
+1. Sur la page [!UICONTROL Sélecteur de filtre], cliquez sur **[!UICONTROL Appliquer un filtre]** puis spécifiez le type.
+1. Pour rechercher un élément, saisissez une chaîne de caractères dans le champ **[!UICONTROL Rechercher]**.
 1. Cliquez sur **[!UICONTROL OK]**.
 
 ## Ajout d’un filtre de corrélation {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -164,13 +164,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-Certains rapports vous permettent de leur ajouter des filtres de corrélation personnalisés. For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women&#39;s page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
+Certains rapports vous permettent de leur ajouter des filtres de corrélation personnalisés. Si, par exemple, vous visualisez le [!UICONTROL rapport Pages] pour une suite de rapports contenant des sections du site mises en corrélation avec une page Femmes, vous pouvez créer un filtre qui génère un rapport affichant les pages les plus populaires quand Sections du site = Femmes.
 
 Vous pouvez filtrer les données illustrées dans le rapport de corrélation avec toutes les corrélations disponibles. L’exemple ici illustre l’ajout d’un filtre de corrélation pour moteur de recherche.
 
 **Pour ajouter un filtre de corrélation**
 
 1. Exécutez un rapport qui prend en charge les corrélations. (Voir [Exécution d’un rapport de ventilation](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
-1. Sous [!UICONTROL Filter Rule Creator], sélectionnez un  à corréler avec un élément.
-1. Cliquez sur **[!UICONTROL OK.]**
+1. Dans l’en-tête du rapport, cliquez sur le lien **[!UICONTROL Filtre de corrélation]**.
+1. Sous [!UICONTROL Créateur de règles de filtrage], sélectionnez une catégorie à corréler avec un élément.
+1. Cliquez sur **[!UICONTROL OK]**.
