@@ -4,7 +4,7 @@ subtopic: Data sources
 title: FAQ sur les sources de données
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ Cette rubrique fournit des réponses aux questions courantes.
 
 ## Comment lier les données hors ligne aux événements en ligne ? {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
-Pour que les sources de données d’ID de transaction lient des données hors ligne aux événements en ligne, vous devez activer l’enregistrement des identifiants de transaction. Voir [Enregistrement des identifiants de transaction](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) pour en savoir plus.
+Pour que les sources de données d’ID de transaction lient des données hors ligne aux événements en ligne, vous devez activer l’enregistrement des identifiants de transaction. Voir [Enregistrement des ID de transaction](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) pour en savoir plus.
 
 ## Quel est le coût de l’utilisation de la fonctionnalité Sources de données ? {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 
