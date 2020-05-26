@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Préparation à l’utilisation des sources de données
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -15,10 +15,10 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 Procédure de préparation à l’utilisation des sources de données
 
 * [Identification des mesures et attribution de nouveaux noms](/help/import/c-data-sources/datasrc-preparing.md#section_0D1DA6D7768E4C4CB6E9A2F4639C0135)
-* [Identification de la portée des données](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
+* [Identification des dimensions des données](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
 * [Code de suivi de campagne](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1)
 * [ID de transaction](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
-* [Identification d’une plage de dates valide pour des données de source de données](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
+* [Identification d’une période valide pour des données de source de données](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
 ## Identification des mesures et attribution de nouveaux noms {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
