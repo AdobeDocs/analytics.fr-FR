@@ -3,7 +3,7 @@ description: La connexion sans mot de passe à un compte FTP est possible seule
 keywords: ftp;sftp
 title: Connexion à Adobe via SFTP sans mot de passe
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
