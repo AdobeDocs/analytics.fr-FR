@@ -1,9 +1,9 @@
 ---
-description: Découvrez comment utiliser le protocole FTP et sFTP pour transférer des fichiers entre ordinateurs et serveurs.
+description: Découvrez comment utiliser le protocole FTP et SFTP pour transférer des fichiers entre ordinateurs et serveurs.
 keywords: ftp;sftp
 title: Utilisation de FTP et SFTP avec Adobe Experience Cloud
 uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Utilisation de FTP et SFTP avec Adobe Experience Cloud
 
-Découvrez comment utiliser le protocole FTP et sFTP pour transférer des fichiers entre ordinateurs et serveurs.
+Découvrez comment utiliser le protocole FTP et SFTP pour transférer des fichiers entre ordinateurs et serveurs.
 
 Vous pouvez utiliser le protocole FTP avec les solutions et les produits Adobe des manières suivantes :
 
