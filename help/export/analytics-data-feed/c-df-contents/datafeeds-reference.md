@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Référence des colonnes de données
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -77,7 +77,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `geo_region` | Nom de l’état ou de la région d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et l’état/la région. | char(32) |
 | `geo_zip` | Le code postal d’origine de l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le code postal. | varchar(16) |
 | `hier1 - hier5` | Utilisée par les variables hiérarchiques. Contient une liste délimitée de valeurs. Le délimiteur est sélectionné dans les paramètres de la suite de rapports. | varchar(255) |
-| `hit_source` | Indique la source de l’accès. <br>1 : Requête image standard sans horodatage <br>2 : Requête image standard avec horodatage <br>3 : Chargement de source de données actif avec horodatage <br>4 : Inutilisé <br>5 : Chargement de source de données générique <br>6 : Chargement de source de données de traitement complet <br>7 : Chargement de source de données TransactionID <br>8 : N’est plus utilisée ; Versions précédentes des sources de données Adobe Advertising Cloud <br>9: N’est plus utilisée ; mesures de résumé Adobe Social | tinyint sans signe |
+| `hit_source` | Indique la source de l’accès. <br>1 : Requête image standard sans horodatage <br>2 : Requête image standard avec horodatage <br>3 : Chargement de source de données actif avec horodatage <br>4 : Inutilisé <br>5 : Chargement de source de données générique <br>6 : Chargement de source de données de traitement complet <br>7 : Chargement de source de données TransactionID <br>8 : N’est plus utilisée ; Versions précédentes des sources de données Adobe Advertising Cloud <br>9 : N’est plus utilisée ; mesures de résumé Adobe Social | tinyint sans signe |
 | `hit_time_gmt` | L’horodatage des serveurs de collecte de données Adobe ayant reçu l’accès, basé sur l’heure Unix. | int |
 | `hitid_high` | Utilisée en combinaison avec hitid_low pour identifier de manière unique un accès. | bigint sans signe |
 | `hitid_low` | Utilisée en combinaison avec hitid_high pour identifier de manière unique un accès. | bigint sans signe |
@@ -90,7 +90,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `javascript` | Identifiant de recherche de la version JavaScript, basé sur j_jscript. Utilise une table de recherche. | tinyint sans signe |
 | `language` | Identifiant numérique de la langue. Utilise la table de recherche de languages.tsv. | smallint sans signe |
 | `last_hit_time_gmt` | Horodatage (en heure Unix) de l’accès précédent. Utilisé pour calculer la dimension Jours depuis la dernière visite. | int |
-| `last_purchase_num` | Variable utilisée dans la dimension Fidélisation des clients. Indique le nombre d’achats précédents effectués par le visiteur. <br>0 : Aucun achat auparavant (n’est pas client) <br>1 : 1 achat précédent (nouveau client) <br>2 : 2 achats précédents (client de retour) <br>3: 3 achats précédents ou plus (client fidèle) | int sans signe |
+| `last_purchase_num` | Variable utilisée dans la dimension Fidélisation des clients. Indique le nombre d’achats précédents effectués par le visiteur. <br>0 : Aucun achat auparavant (n’est pas client) <br>1 : 1 achat précédent (nouveau client) <br>2 : 2 achats précédents (client de retour) <br>3 : 3 achats précédents ou plus (client fidèle) | int sans signe |
 | `last_purchase_time_gmt` | Utilisée dans la dimension Jours depuis le dernier achat. Horodatage (en heure Unix) du dernier achat effectué. Pour les premiers achats et les visiteurs qui n’avaient jamais effectué d’achat auparavant, cette valeur est de 0. | int |
 | `latlon1` | Lieu (jusqu’à 10 km) | varchar(255) |
 | `latlon23` | Lieu (jusqu’à 100 m) | varchar(255) |
@@ -166,8 +166,8 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `purchaseid` | Identificateur unique pour un achat, tel qu’il est défini à l’aide de la variable s_purchaseID. Utilisé par la colonne duplicate_purchase. | char(20) |
 | `quarterly_visitor` | Indicateur qui détermine si l’accès est un nouveau visiteur trimestriel. | tinyint sans signe |
 | `ref_domain` | Basée sur la colonne Référent. Domaine référent de l’accès. | varchar(100) |
-| `ref_type` | Identifiant numérique représentant le type de référence pour l’accès.<br>1 : à l’intérieur de votre site<br>2 : autres sites Web <br>3 : moteurs de recherche <br>4 : disque dur <br>5 : USENET <br>6: saisi/marqué d’un signet (sans référent) <br>7 : courrier électronique <br>8 : sans JavaScript <br>9 : réseaux sociaux | tinyint sans signe |
-| `referrer` | URL de la page précédente. Notez que, bien que `referrer` utilise un type de données de varchar(255), `post_referrer` utilise un type de données de varchar(244). | varchar(255) |
+| `ref_type` | Identifiant numérique représentant le type de référence pour l’accès.<br>1 : à l’intérieur de votre site<br>2 : autres sites Web <br>3 : moteurs de recherche <br>4 : disque dur <br>5 : USENET <br>6 : saisi/marqué d’un signet (sans référent) <br>7 : courrier électronique <br>8 : sans JavaScript <br>9 : réseaux sociaux | tinyint sans signe |
+| `referrer` | URL de la page précédente. Notez que, bien que `referrer` utilise un type de données varchar(255), `post_referrer` utilise un type de données varchar(244). | varchar(255) |
 | `resolution` | Identifiant numérique représentant la résolution de l’écran. Indique la dimension Résolution de l’écran. Utilise la table de recherche de resolution.tsv. | smallint sans signe |
 | `s_kwcid` | Identifiant du mot-clé dans les intégrations Adobe Advertising Cloud. | varchar(255) |
 | `s_resolution` | Valeur brute de la résolution de l’écran. Collectée à l’aide de la fonction JavaScript screen.width x screen.height. | char(20) |
@@ -269,7 +269,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `visit_referrer` | Le premier référent de la visite. | varchar(255) |
 | `visit_search_engine` | Identifiant numérique du premier moteur de recherche de la visite. Utilise la table de recherche de search_engines.tsv. | smallint sans signe |
 | `visit_start_page_url` | La première URL de la visite. | varchar(255) |
-| `visit_start_pagename` | Nom de la première page de la visite. | varchar(100) |
+| `visit_start_pagename` | Le premier Nom de page de la visite. | varchar(100) |
 | `visit_start_time_gmt` | Horodatage (en heure Unix) du premier accès de la visite. | int |
 | `weekly_visitor` | Indicateur qui détermine si l’accès est un nouveau visiteur hebdomadaire. | tinyint sans signe |
 | `yearly_visitor` | Indicateur qui détermine si l’accès est un nouveau visiteur annuel. | tinyint sans signe |
