@@ -1,7 +1,7 @@
 ---
 description: Importation des données de suivi à partir d’applications tierces dans Analytics.
 title: Prise en main des connecteurs de données Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
