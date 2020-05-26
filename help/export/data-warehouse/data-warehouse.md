@@ -3,7 +3,7 @@ description: Data Warehouse fait référence à la copie de données Analytics p
 title: Data Warehouse - Aperçu
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Data Warehouse fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports qui présentent un niveau avancé de relations entre les données brutes, en fonction de vos questions. Les rapports d’entrepôt de données sont envoyés par courriel ou par FTP. Leur traitement peut prendre jusqu’à 72 heures. La durée de traitement dépend de la complexité de la requête et de la quantité de données demandées.
 
-Adobe active Data Warehouse pour les seuls utilisateurs de niveau administrateur, et ce, pour des suites de rapports spécifiques. (Cette API peut être activée pour les suites de rapports globales et secondaires, mais pas pour les suites de rapports de cumul.) L’administrateur peut créer un groupe ayant accès à Data Warehouse, puis y associer des utilisateurs qui ne sont pas administrateurs.
+Adobe active Data Warehouse pour les seuls utilisateurs de niveau administrateur, et ce, pour des suites de rapports spécifiques. (Data Warehouse peut être activée pour les suites de rapports globales et secondaires, mais pas pour les suites de rapports de cumul.) L’administrateur peut créer un groupe ayant accès à Data Warehouse, puis y associer des utilisateurs qui ne sont pas administrateurs.
 
 Data Warehouse compresse automatiquement les fichiers de plus de 1 Mo. La taille totale des pièces jointes d’un courrier électronique ne peut pas dépasser 10 Mo.
 
@@ -27,7 +27,7 @@ Data Warehouse peut traiter un nombre illimité de lignes dans une seule demand
 
 ## Description des demandes de Data Warehouse {#section_F21C78ED36884C389C852E876AF5CDE8}
 
-This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab.
+Ce tableau décrit les champs et options de l’onglet [!UICONTROL Demande Data Warehouse].
 
 <table id="table_7325A2466866460E8B0AF7D696152713"> 
  <thead> 
