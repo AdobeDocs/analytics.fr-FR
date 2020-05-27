@@ -4,7 +4,10 @@ title: Géosegmentation
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Affiche des données sur l’emplacement des visiteurs. Les rapports de géosegmentation incluent les pays, régions, villes, états et provinces et zones marketing numériques aux États-Unis. Les rapports de géosegmentation sont activés pour tous les clients.
 
-Toutes les mesures disponibles à d’autres emplacements dans les Reports &amp; Analytics sont automatiquement incluses dans les rapports Pays, Régions, Villes, États américains et DMA : mesures de conversion et basées sur les visites ainsi que les mesures calculées. Pour plus d’informations, voir cette publication du [blog](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/) Adobe.
+Toutes les mesures disponibles à d’autres emplacements dans les Reports &amp; Analytics sont automatiquement incluses dans les rapports Pays, Régions, Villes, États américains et DMA : mesures de conversion et basées sur les visites ainsi que les mesures calculées. Pour plus d’informations, voir cette publication du [blog](https://theblog.adobe.com/introducing-new-metrics-in-geosegmentation-and-more/) Adobe.
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
