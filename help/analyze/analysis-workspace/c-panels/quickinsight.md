@@ -1,16 +1,16 @@
 ---
-description: Le créateur d’aperçus rapides est un outil destiné aux nouveaux utilisateurs de Workspace qui les guide dans la création de tableaux de données et de visualisations.
-title: Générateur d’informations rapides
+description: Quick Insights est un outil destiné aux nouveaux utilisateurs de Workspace qui les guide dans la création de tableaux de données et de visualisations.
+title: Panneau Aperçu rapide
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1046'
+ht-degree: 2%
 
 ---
 
 
-# Générateur d’informations rapides
+# Panneau Aperçu rapide
 
 >[!IMPORTANT]
 >
@@ -87,7 +87,7 @@ D’autres conseils utiles s’affichent dans le créateur [!UICONTROL d’aper�
 
    ![](assets/qibuilder5.png)
 
-* **Ajouter plus de mesures**: Vous pouvez ajouter jusqu’à 2 mesures supplémentaires en utilisant l’opérateur ET pour les ajouter au tableau.
+* **Ajouter d’autres mesures**: Vous pouvez ajouter jusqu’à 2 mesures supplémentaires en utilisant l’opérateur ET pour les ajouter au tableau.
 
    ![](assets/qibuilder6.png)
 
@@ -97,7 +97,7 @@ D’autres conseils utiles s’affichent dans le créateur [!UICONTROL d’aper�
 
 ## Limites connues
 
-Si vous essayez de modifier directement dans le tableau, le panneau [!UICONTROL Aperçu] rapide (outil de remplissage de l’outil vide) ne sera plus synchronisé. Vous pouvez rétablir les paramètres [!UICONTROL Quick Insights] précédents en cliquant sur **[!UICONTROL Resync Builder]** dans la partie supérieure droite du panneau.
+Si vous essayez de modifier directement dans le tableau, le panneau [!UICONTROL Aperçu] rapide ne sera plus synchronisé. Vous pouvez rétablir les paramètres [!UICONTROL Quick Insights] précédents en cliquant sur **[!UICONTROL Resync Builder]** dans la partie supérieure droite du panneau.
 
 ![](assets/qibuilder9.png)
 
