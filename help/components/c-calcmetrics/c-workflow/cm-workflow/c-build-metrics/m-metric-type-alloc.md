@@ -3,7 +3,10 @@ description: 'En savoir plus sur les '
 title: Type de mesure et attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 80%
 
 ---
 
@@ -11,10 +14,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 # Type de mesure et attribution
 
 Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’une mesure, vous pouvez spécifier le type de mesure et le modèle d’attribution.
-
-* [Type de mesure](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [Modèle d’attribution de colonnes](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [Fonctionnement de l’allocation linéaire (à partir du 19 juillet 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## Type de mesure
 
@@ -40,16 +39,16 @@ Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’u
 
 ## Fonctionnement de l’attribution linéaire (au 19 juillet 2018)
 
-En juillet 2018, Adobe a modifié la manière de générer des rapports sur l’affectation linéaire pour les mesures calculées. Cette modification a un impact sur Analysis Workspace, sur l’Ad Hoc Analysis, sur les Reports &amp; Analytics, sur le Report Builder, sur Activity Map et sur les API de création de rapports. Le changement a principalement un impact sur les eVars et autres dimensions qui ont une persistance. Notez que ces modifications s’appliquent uniquement aux mesures calculées et n’affectent pas les autres rapports utilisant l’attribution linéaire (comme le rapport Pages dans les Rapports et analyses). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
+En juillet 2018, Adobe a modifié la manière de générer des rapports sur l’affectation linéaire pour les mesures calculées. Cette modification a un impact sur Analysis Workspace, sur l’Ad Hoc Analysis, sur les Reports &amp; Analytics, sur le Report Builder, sur Activity Map et sur les API de création de rapports. Ce changement a principalement un impact sur les eVars et les autres dimensions qui ont une persistance. Notez que ces modifications s’appliquent uniquement aux mesures calculées et n’affectent pas les autres rapports à l’aide d’une attribution linéaire (comme le rapport Pages dans les rapports et analyses). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
 
 L’exemple suivant explique comment les mesures calculées avec l’affectation linéaire changeront dans les rapports :
 
 |  | Accès 1 | Accès 2 | Accès 3 | Accès 4 | Accès 5 | Accès 6 | Accès 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| Données envoyées dans | PROMO A | - | PROMO A | PROMO B | - | PROMO C | 10 $ |
-| eVar de dernière touche | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | 10 $ |
-| eVar de première touche | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | 10 $ |
-| Exemple de Prop | PROMO A | - | PROMO A | PROMO B | - | PROMO C | 10 $ |
+| Données envoyées dans | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| eVar de dernière touche | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
+| eVar de première touche | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
+| Exemple de Prop | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 
 Dans cet exemple, les valeurs A, B et C ont été envoyées dans une variable aux accès 1, 3, 4 et 6 avant la réalisation d’un achat de 10 $ à l’accès 7. Dans la deuxième ligne, ces valeurs persistent dans les accès sur une base de visite de dernière touche. La troisième ligne représente une persistance de visite de première touche. Enfin, la dernière ligne indique comment les données seraient enregistrées pour une Prop qui ne présente pas de persistance.
 
@@ -57,8 +56,8 @@ Dans cet exemple, les valeurs A, B et C ont été envoyées dans une variable au
 
 Il existe des différences dans le fonctionnement de l’attribution linéaire entre ces deux outils :
 
-* Dans les rapports et analyses, l’attribution linéaire (traitée) est toujours basée sur les visites, tandis que dans Workspace, elle peut être basée sur les visites ou les.
-* Dans les rapports et analyses, si aucune valeur n’était transmise au premier accès d’une visite, la valeur (initiale) persistait à partir de la visite précédente. Ceci n’est PAS le cas dans Workspace (QI d’attribution). Si aucune valeur n’est transmise au premier accès d’une visite, &quot;Aucun&quot; est la valeur initiale.
+* Dans les rapports et analyses, l’attribution linéaire (traitée) est toujours basée sur les visites, tandis que dans Workspace, elle peut être basée sur les visites ou les visiteurs.
+* Dans les rapports et analyses, si aucune valeur n’a été transmise lors du premier accès d’une visite, la valeur (initiale) persiste lors de la visite précédente. Ceci n’est PAS le cas dans Workspace (Attribution IQ). Si aucune valeur n’est transmise lors du premier accès d’une visite, &quot;Aucun&quot; est la valeur initiale.
 
 ## Fonctionnement de l&#39;attribution linéaire avant juillet 2018
 
