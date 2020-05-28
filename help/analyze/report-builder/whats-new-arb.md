@@ -2,7 +2,7 @@
 description: Affiche une liste des versions actuelles et antérieures et de leurs fonctionnalités.
 title: Nouvelles fonctionnalités du Report Builder
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -32,7 +32,7 @@ L’association de la fonctionnalité de génération de rapports du Report Buil
 
 ## Report Builder 5.4 {#rb-5-4-section}
 
-* **Amélioration de la gestion et de l’édition des segments à travers plusieurs demandes.** Les nouvelles options sous [!UICONTROL Edit Multiple Requests] permettent d’ajouter, de supprimer, de remplacer et de remplacer tous les segments dans plusieurs demandes de  de. [Plus...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **Amélioration de la gestion et de l’édition des segments à travers plusieurs demandes.** Les nouvelles options, sous [!UICONTROL Edit Multiple Requests] vous permettent d’ajouter, de supprimer et de remplacer un ou tous les segments dans plusieurs requêtes cibles. [Plus...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **Nouveau lien vers la communauté du Report Builder Adobe** Cliquez sur le lien Communauté Adobe sous Aide pour accéder au forum de la communauté Adobe ; les résultats de la recherche sont alors limités aux problèmes du Report Builder. La communauté Adobe représente un excellent moyen de poser à d’autres utilisateurs du Report Builder des questions sur l’application et de rechercher ou de partager les bonnes pratiques.
 
@@ -40,19 +40,19 @@ L’association de la fonctionnalité de génération de rapports du Report Buil
    >
    >Pour changer de région, rendez-vous sur la [page d’accueil des forums Adobe](https://forums.adobe.com/welcome), sous International Forums (forums internationaux).
 
-* **Sécurité de connexion améliorée** Outre un [nouvel écrande connexion](/help/analyze/report-builder/setup/login.md), la connexion au Report Builder standard offre un processus d’authentification plus sécurisé, basé sur la structure d’autorisation OAuth.
+* **Sécurité de connexion améliorée** Outre un [nouvel écran de connexion](/help/analyze/report-builder/setup/login.md), la connexion au Report Builder standard offre un processus d’authentification plus sécurisé, basé sur la structure d’autorisation OAuth.
 
 ## Report Builder 5.3 {#rb-5-3-section}
 
 * [Suites de rapports virtuelles](https://docs.adobe.com/help/fr-FR/analytics/components/virtual-report-suites/vrs-about.html)
 * [Audiences Experience Cloud dans Analytics](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html)
-* [Création des rapports AEM Assets](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
+* [Création des rapports AEM Assets](https://docs.adobe.com/content/help/fr-FR/analytics/integration/aem-assets-reporting.html)
 
 ## Report Builder 5.2 {#rb-5-2-section}
 
 * **Mesures calculées** La version 5.2 du Report Builder prend en charge les [mesures calculées unifiées](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md) d’Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 
-* **Recherche de rapports et de mesures plus efficace** Davantage d’[eVars et d’événements](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) ont été ajoutés à Adobe Analytics ; par conséquent, le nombre de rapports et de mesures proposés dans le Report Builder d’Adobe a considérablement augmenté. Afin de simplifier la recherche, deux nouvelles barres de recherche ont été ajoutées à l’Assistant Requête : une pour la [recherche de rapports](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) et une pour la recherche de [mesures](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
+* **Recherche de rapports et de mesures plus efficace** Davantage d’[eVars et d’événements](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/events/event-serialization.html) ont été ajoutés à Adobe Analytics ; par conséquent, le nombre de rapports et de mesures proposés dans le Report Builder d’Adobe a considérablement augmenté. Afin de simplifier la recherche, deux nouvelles barres de recherche ont été ajoutées à l’Assistant Requête : une pour la [recherche de rapports](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) et une pour la recherche de [mesures](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
 
 * **Attributs du client** Les attributs du client sont stockés dans un nouveau type d’élément appelé VisAttr, qui peut être configuré comme une dimension ou comme une mesure. Pour obtenir des informations plus détaillées sur le transfert des attributs du client, reportez-vous à l’[aide d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html).
 
