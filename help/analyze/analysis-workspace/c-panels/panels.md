@@ -1,18 +1,20 @@
 ---
 description: valeur nulle
 title: Panneaux - Aperçu
-uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 87%
 
 ---
 
 
 # Panneaux - Aperçu
 
-Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace. Les panneaux vous permettent d’organiser vos projets selon les périodes, les unités opérationnelles, la géographie, etc. Les quatre types de panneaux suivants sont disponibles dans Analysis Workspace : Panneau vierge, Attribution, Panneau à structure libre et Comparaison des segments.
+Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace. Les panneaux vous permettent d’organiser vos projets selon les périodes, les unités opérationnelles, la géographie, etc. Ces six types de panneaux sont disponibles dans l’espace de travail des Analyses : [Panneau](/help/analyze/analysis-workspace/c-panels/blank-panel.md)vierge, panneau [d’informations](/help/analyze/analysis-workspace/c-panels/quickinsight.md) rapides (à venir), panneau [Analytics pour la Cible (à venir), panneau](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) [](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)Attribution, panneau à structure libre et panneau Comparaison des segments.[](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)[](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-Le Panneau vierge et le Panneau à structure libre sont des emplacements pour démarrer votre analyse, tandis que l’Attribution IQ et la Comparaison des segments se prêtent aux analyses plus avancées. Nous avons également ajouté un bouton de panneau « + » pour que vous puissiez à tout moment ajouter de nouveaux panneaux vierges.
+Les panneaux d’informations rapides, à structure vierge et à structure libre sont des endroits idéaux pour début votre analyse, tandis qu’Analytics pour la Cible, l’identification d’attribution et la comparaison de segments se prêtent à des analyses plus avancées. Nous avons également ajouté un bouton de panneau « + » pour que vous puissiez à tout moment ajouter de nouveaux panneaux vierges.
 
 Le panneau de démarrage par défaut est le Panneau à structure libre, mais vous pouvez également choisir d’utiliser le [Panneau vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) par défaut.
 
@@ -43,7 +45,7 @@ N’oubliez pas ce qui suit :
 
    ![](assets/dropdown.png)
 
-1. Sélectionnez l’une des options de la liste déroulante ci-dessous pour modifier les données du panneau. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
+1. Sélectionnez l’une des options de la liste déroulante ci-dessous pour modifier les données du panneau. (Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Pas de filtre]**.)
 1. Par exemple, si vous souhaitez également répartir les données par canal marketing, vous pouvez ajouter une autre liste déroulante appelée « Canal marketing » :
 
    ![](assets/mc_dropdown.png)
