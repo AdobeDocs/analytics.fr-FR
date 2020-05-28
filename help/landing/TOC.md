@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Documentation Adobe Analytics
 user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: dcca8559c9e730c9e04981d69068786878062561
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 77%
+source-wordcount: '146'
+ht-degree: 87%
 
 ---
 
@@ -24,9 +24,10 @@ ht-degree: 77%
 * [Guide d’importation](https://docs.adobe.com/content/help/fr-FR/analytics/import/home.html)
 * [Guide d’intégration](https://docs.adobe.com/content/help/fr-FR/analytics/integration/home.html)
 * [Guide des notes techniques](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/home.html)
-* [Guide Media Analytics](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html)
-* [Guide des outils de données](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
-* [Guide d’analyse du parcours du client](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html)
+* [Guide de Media Analytics](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html)
+* [Guide de Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/home.html)
+* [Guide d’analyse du parcours du client](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-landing.html)
 * [Mises à jour de la documentation Analytics](doc-updates.md)
 * [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html)
 * [Versions des fonctionnalités d’Adobe Analytics](an-releases.md)
+* [Accessibilité dans l’espace de travail des Analyses](accessibility.md)
