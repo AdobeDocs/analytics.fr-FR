@@ -3,7 +3,7 @@ description: Méthodes pour optimiser le Créateur de rapports et liste des mess
 title: Résolution des problèmes et bonnes pratiques pour le Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -76,7 +76,7 @@ Les paramètres suivants peuvent avoir un impact sur la vitesse de traitement :
 |--- |--- |--- |
 | Ventilations et ordre de ventilation | Peu | Beaucoup |
 |  | Exemple : si vous ventilez A par Z, le nombre d’éléments d’A doit être toujours inférieur à celui de Z. Dans le cas contraire, la durée de la requête peut augmenter de façon significative. |
-| Date range (Plage de dates) | Courte période | Longue période |
+| Période | Courte période | Longue période |
 | Filtrage | Filtrage spécifique | Filtrage de type « Le plus populaire » |
 | Granularité | Agrégé | Toutes les heures<ul><li>Quotidien</li><li>Hebdomadaire</li><li>Mensuel</li><li>Trimestriel</li><li>Annuel</li></ul> |
 | Nombre d’entrées | Petit jeu de données | Jeu de données volumineux |
@@ -96,9 +96,9 @@ Planifiez les requêtes volumineuses et plus complexes tôt le matin pour permet
 
 Les rapports planifiés expirent au bout de quatre heures. Le système tente d’effectuer la planification trois autres fois, ce qui peut entraîner un échec. (En règle générale, plus le jeu de données est volumineux, plus l’exécution prend du temps.) Ces informations sont affichées dans les rapports [!DNL Analytics] et le Report Builder :
 
-* [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
+* [!DNL Analytics] : **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
 
-* Report Builder: Click **[!UICONTROL Management]** in the [!UICONTROL Add-ins] tab in Excel.
+* Report Builder : cliquez sur **[!UICONTROL Management]** sous l’onglet [!UICONTROL Add-ins] dans Excel.
 
 ## Description des messages d’erreur {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -110,15 +110,15 @@ Liste des messages d’erreur qui peuvent s’afficher lors de l’utilisation d
 
 Ce message s’affiche si aucun classeur (feuilles de calcul) n’est ouvert dans Excel et que vous cliquez sur l’une des icônes de la barre d’outils du Créateur de rapports. En outre, la barre d’outils devient inactive jusqu’à ce que vous ouvriez une feuille de calcul. Vous pouvez toutefois cliquer sur l’icône de l’aide en ligne lorsque la barre d’outils est encore active sans engendrer cette erreur.
 
-**Vous devez d’abord quitter le fichier[!UICONTROL Request Wizard]avant d’activer le[!UICONTROL Request Manager].**
+**Vous devez d’abord quitter le [!UICONTROL Request Wizard] avant d’activer le [!UICONTROL Request Manager].**
 
-Bien que les [!UICONTROL Request Manager] et les [!UICONTROL Request Wizard] soient liés sur le plan fonctionnel, il n’est pas possible d’de travailler avec le [!UICONTROL Request Manager] avant d’exécuter ou d’annuler les actions entreprises dans le [!UICONTROL Request Wizard].
+Même si le [!UICONTROL Request Manager] et le [!UICONTROL Request Wizard] sont liés fonctionnellement, il n’est pas possible de commencer à travailler avec le [!UICONTROL Request Manager] avant d’achever ou d’annuler les actions entreprises dans le [!UICONTROL Request Wizard].
 
-**Aucune requête n’est associée à cette plage.**
+**Aucune requête n’est associée à cette période.**
 
-This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
+Ce message d’erreur s’affiche si vous cliquez sur le bouton [!UICONTROL From Sheet] dans le [!UICONTROL Request Manager] alors qu’une cellule de la feuille de calcul ne contient aucune requête.
 
-To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. Si la requête sélectionnée dans le tableau est associée aux cellules, celles-ci sont surlignées.
+Afin d’identifier les cellules de la feuille de calcul qui contiennent des requêtes, cliquez sur les requêtes individuelles répertoriées dans le tableau du [!UICONTROL Request Manager]. Si la requête sélectionnée dans le tableau est associée aux cellules, celles-ci sont surlignées.
 
 **La plage sélectionnée n’est pas valide. Sélectionnez une autre plage.**
 
@@ -128,12 +128,12 @@ Si vous souhaitez supprimer les cellules, il est important de localiser celles q
 
 **Veuillez quitter la cellule Excel active avant d’utiliser cette fonctionnalité.**
 
-Cette erreur s’affiche si vous êtes en *mode d’édition* dans une cellule Excel et que vous cliquez sur l’une des icônes du Report Builder. Le mode d’édition dans une cellule Excel signifie que la cellule est sélectionnée et que le curseur s’affiche à l’intérieur de celle-ci. You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
+Cette erreur s’affiche si vous êtes en *mode d’édition* dans une cellule Excel et que vous cliquez sur l’une des icônes du Report Builder. Le mode d’édition dans une cellule Excel signifie que la cellule est sélectionnée et que le curseur s’affiche à l’intérieur de celle-ci. Vous êtes également en mode d’édition dans une cellule Excel lorsque vous entrez directement des données dans la barre [!UICONTROL Formula] ou dans la zone [!UICONTROL Name Box] en haut de la fenêtre Excel.
 
 **La plage sélectionnée chevauche une autre plage de la requête. Veuillez modifier votre sélection.**
 
-Cette erreur s’affiche si vous avez déjà mappé un ensemble de cellules à la feuille de calcul.
+Cette erreur s’affiche si vous avez déjà mis en correspondance un ensemble de cellules à la feuille de calcul.
 
-One way to determine which cells are mapped before adding new requests is to close the [!UICONTROL Request Wizard] and open the [!UICONTROL Request Manager]. Sélectionnez ensuite un par un les éléments répertoriés dans le tableau récapitulatif des requêtes. Chaque fois que vous sélectionnez une requête de la liste, les cellules associées contenant les correspondances de requêtes dans la feuille de calcul sont surlignées.
+Pour déterminer les cellules qui sont mises en correspondance avant d’ajouter de nouvelles requêtes, fermez le [!UICONTROL Request Wizard] et ouvrez le [!UICONTROL Request Manager]. Sélectionnez ensuite un par un les éléments répertoriés dans le tableau récapitulatif des requêtes. Chaque fois que vous sélectionnez une requête de la liste, les cellules associées contenant les correspondances de requêtes dans la feuille de calcul sont surlignées.
 
 C’est pourquoi il est conseillé de marquer les cellules avec un surlignage, des informations de ligne ou de colonne ou un style de mise en forme avant de mapper plusieurs cellules sur plusieurs zones.
