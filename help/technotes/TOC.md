@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Notes techniques d’Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ---
@@ -26,12 +26,12 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
       + [Conversions](ga-to-aa/reports/conversions-reports.md)
    + [Questions fréquentes](ga-to-aa/faq.md)
    + [Traitement des différences entre plateformes](ga-to-aa/processing-differences.md)
-+ Analyser les données affectées par les événements {#event}
-   + [Analyser les données affectées par la présentation des événements](event/overview.md)
-   + [Exclure des dates spécifiques dans l’analyse](event/segments.md)
-   + [Comparer les dates aux plages précédentes](event/compare-dates.md)
-   + [Dériver les données affectées par les événements](event/calcmetrics.md)
-   + [Communiquer des événements aux utilisateurs](event/communicate.md)
++ Analyse des données affectées par les événements {#event}
+   + [Analyse des données affectées par les événements - présentation ](event/overview.md)
+   + [Exclusion de dates spécifiques dans l’analyse](event/segments.md)
+   + [Comparaison de dates aux plages précédentes](event/compare-dates.md)
+   + [Dérivation de données affectées par les événements](event/calcmetrics.md)
+   + [Communication d’événements aux utilisateurs](event/communicate.md)
 + [Cookies de navigateur](cookies.md)
 + [Rétention des données](data-retention.md)
 + [Latence](latency.md)
