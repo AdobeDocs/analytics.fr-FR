@@ -3,7 +3,7 @@ description: Vue d’ensemble des données collectées par Adobe Analytics et au
 keywords: privacy
 title: Confidentialité - Présentation
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -30,7 +30,7 @@ Adobe Analytics collecte les données suivantes :
 | URL de la page sur laquelle était le visiteur avant de consulter la page du client | Oui |
 | Requête de recherche lorsque le visiteur clique sur un lien sur la page du client | Oui |
 | Type de navigateur | Oui |
-| Device Type (Type de périphérique) | Oui |
+| Type de périphérique | Oui |
 | Système d’exploitation | Oui |
 | Débit FAI/connexion | Oui |
 | Paramètres d’affichage (taille et résolution de l’écran) | Oui |
@@ -89,7 +89,7 @@ Adobe Analytics collecte les données suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Europe </td> 
-   <td colname="col2"> Pour tous les clients ayant une suite de rapports configurée dans la région EMEA, Adobe a activé par défaut le paramètre Obscurcissement d’IP sur Activé - suppression d’IP (x.x.x.x). Avec ce paramètre, l’adresse IP sera complètement remplacée par la valeur (x.x.x.x) après recherche géographique et ne sera plus disponible comme point de données. <p>Avec cette méthode de remplacement de base, l’adresse IP spécifique unique ne peut pas être rétablie par rétroconception. Ni le client ni Adobe ne peuvent accéder à l’adresse IP ; elle est irrémédiablement rendue anonyme. Pour en savoir plus sur les paramètres d’obscurcissement de l’adresse IP, voir </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Pour tous les clients ayant une suite de rapports configurée dans la région EMEA, Adobe a activé par défaut le paramètre Obscurcissement d’IP sur Activé - suppression d’IP (x.x.x.x). Avec ce paramètre, l’adresse IP sera complètement remplacée par la valeur (x.x.x.x) après recherche géographique et ne sera plus disponible comme point de données. <p>Avec cette méthode de remplacement de base, l’adresse IP spécifique unique ne peut pas être rétablie par rétroconception. Ni le client ni Adobe ne peuvent accéder à l’adresse IP ; elle est irrémédiablement rendue anonyme. Pour en savoir plus sur les paramètres d’obscurcissement de l’adresse IP, voir </p> <p> <a href="https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.translate.html#General_Account_Settings"  >https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.translate.html#General_Account_Settings</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mondial </td> 
@@ -126,7 +126,7 @@ Les centres de données de la région EMEA suivants hébergent actuellement des 
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>Pays-Bas </p> </td> 
    <td colname="col3"> <p>Établissement en colocation </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>Analyses multicanaux, </p> <p>analyses numériques </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.fr/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
