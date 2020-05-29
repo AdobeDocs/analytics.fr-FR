@@ -5,12 +5,17 @@ title: Traitement complet
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 93%
 
 ---
 
 
 # Traitement complet
+
+>[!NOTE] Adobe recommande aux clients d’utiliser l’API [d’insertion de données en bloc (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. Les sources de données à traitement complet seront désormais abandonnées.
 
 Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
@@ -64,7 +69,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>events </p> </td> 
-   <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Par exemple : </p> 
+   <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Par exemple : </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
