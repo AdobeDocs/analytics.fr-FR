@@ -1,21 +1,21 @@
 ---
 description: valeur nulle
-title: Panneau Attribution - Aperçu
+title: Présentation de l’Attribution
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: d880ad666eb42940147a453d8c3f04cdf9c629df
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 90%
+source-wordcount: '1809'
+ht-degree: 88%
 
 ---
 
 
-# Panneau Attribution - Aperçu
+# Présentation de l’Attribution
 
->[!IMPORTANT] Le panneau Attribution est accessible à tous les utilisateurs des produits Adobe Analytics Ultimate, Prime, Select et Foundation.
+>[!IMPORTANT] L’attribution est disponible pour tous les clients des SKU Adobe Analytics Ultimate, Prime, Select et Foundation.
 
-Le panneau d’attribution est une fonction d’[Attribution IQ](../../attribution-iq.md) qui vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. Tous les modèles d’attribution ont deux composants :
+[L’QI](../../attribution-iq.md) d’attribution est un ensemble de fonctionnalités qui vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. Tous les modèles d’attribution ont deux composants :
 
 * **Modèles d’attribution :** le modèle décrit la distribution des conversions pour les accès dans un groupe. Par exemple, Première touche ou Dernière touche.
 * **Intervalle de recherche en amont d’attribution :** l’intervalle de recherche en amont décrit les groupes d’accès pris en compte pour chaque modèle. Par exemple, visite ou visiteur.
@@ -44,7 +44,7 @@ Un intervalle de recherche en amont est la durée pendant laquelle une conversio
 
 * **Intervalles de recherche en amont des visiteurs :** recherchent toutes les visites en amont jusqu’au 1er du mois de la période en cours. Les intervalles de recherche en amont des visiteurs sont larges, car ils peuvent porter sur plusieurs visites. Par exemple, si la période du rapport s’étend du 15 au 30 septembre, la période de recherche en amont des visiteurs est du 1er au 30 septembre.
 
-* **Fenêtre de recherche personnalisée :** (Remarque : La fenêtre de recherche personnalisée est actuellement en test limité.) Permet d’étendre la fenêtre d’attribution au-delà de la plage de dates du rapports jusqu’à un maximum de 90 jours. Les fenêtres de recherche personnalisées sont évaluées pour chaque conversion au cours de la rapports. Par exemple, pour une conversion survenant le 20 février, une fenêtre de recherche de 10 jours évalue tous les points de contact de dimension du 10 au 20 février dans le modèle d’attribution.
+* **Fenêtre de recherche personnalisée :** (Remarque : La fenêtre de recherche personnalisée est actuellement en test limité.[En savoir plus](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)) Permet d’étendre la fenêtre d’attribution au-delà de la plage de dates du rapports jusqu’à un maximum de 90 jours. Les fenêtres de recherche personnalisées sont évaluées pour chaque conversion au cours de la rapports. Par exemple, pour une conversion survenant le 20 février, une fenêtre de recherche de 10 jours évalue tous les points de contact de dimension du 10 au 20 février dans le modèle d’attribution.
 
 ## Exemple
 
