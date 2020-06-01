@@ -2,9 +2,9 @@
 description: Fonctionnalités de prise en charge de l’accessibilité dans Analyse Workspace
 title: Accessibilité dans l’espace de travail des Analyses
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '521'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ Découvrez la prise en charge de l’accessibilité dans [!UICONTROL Analyse Wor
 
 L&#39;accessibilité se rapporte à la mise en place de produits utilisables par les personnes ayant des déficiences visuelles, auditives, motrices et autres. Parmi les exemples de fonctionnalités d’accessibilité pour les logiciels, citons la prise en charge des lecteurs d’écran, les équivalents de texte pour les graphiques, les raccourcis clavier, le changement des couleurs d’affichage en contraste élevé, etc.
 
-[!UICONTROL Analyse Workspace] fournit des outils qui les rendent accessibles et des outils qui vous aident à créer du contenu accessible.
+[!UICONTROL Analyse Workspace] fournit quelques outils qui le rendent accessible à l’utilisation, notamment :
 
 ## Navigation dans [!UICONTROL Workspace] à l’aide du clavier
 
@@ -60,7 +60,7 @@ La navigation dans [!UICONTROL Analyse Workspace] fonctionne en haut > bas, puis
 | Ctrl + Maj + D | Nouvelle plage de dates |
 | Ctrl + Maj + E | Nouveau segment |
 | Ctrl + Z | Annuler |
-| Maintenir la touche Maj enfoncée (dans la zone de dépôt des segments du panneau) | Créez un filtre [](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)déroulant. |
+| Maintenir la touche Maj enfoncée (dans la zone de dépôt des segments du panneau) | Création d’un filtre [déroulant](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### Démocratisation
 
