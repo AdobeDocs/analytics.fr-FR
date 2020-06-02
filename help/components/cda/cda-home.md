@@ -2,21 +2,19 @@
 title: Analyses entre appareils
 description: Les analyses entre appareils font en sorte que vos données ne soient plus axées sur l’appareil, mais plutôt sur la personne, en regroupant les données de l’appareil.
 translation-type: tm+mt
-source-git-commit: 40d4dae0c54b8a71325846ae7f1c02947f9d36ea
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 90%
+source-wordcount: '965'
+ht-degree: 87%
 
 ---
 
 
 # Analyses entre appareils
 
->[!NOTE] La documentation des analyses entre appareils peut être modifiée au fur et à mesure que la fonctionnalité est développée. Consultez régulièrement les mises à jour.
-
 Les analyses entre appareils sont une fonctionnalité qui transforme les analyses, en passant d’une vue axée sur l’appareil à une vue axée sur la personne. Cette fonctionnalité utilise le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform pour ainsi identifier les appareils appartenant à des personnes et les regrouper. Dès lors, les analystes peuvent comprendre le comportement des utilisateurs qui s’étend sur plusieurs navigateurs, appareils ou applications. Grâce à CDA, vous pouvez répondre à des questions telles que :
 
-* Combien de personnes interagissent avec ma marque ? Combien de types de périphériques utilisent-elles ? Comment se superposent-elles ?
+* Combien de personnes interagissent avec ma marque ? Combien de types de périphériques utilisent-elles ? Comment se superposent-elles ?
 * À quelle fréquence les utilisateurs commencent-ils une tâche sur un périphérique mobile, puis passent-ils ensuite à un PC de bureau pour terminer la tâche ? Les clics publicitaires de campagne amenant à un périphérique conduisent-ils à une conversion ailleurs ?
 * Comment ma compréhension de l’efficacité de la campagne change-t-elle si je prends en compte les trajets entre plusieurs périphériques ? Comment mon analyse d’entonnoir change-t-elle ?
 * Quels sont les chemins les plus courants empruntés par les utilisateurs d’un périphérique à l’autre ? Où abandonnent-ils ? Où réussissent-ils ?
@@ -28,7 +26,7 @@ Voir [Journey IQ : page de lancement des analyses entre appareils](http://adobe
 
 ## Conditions préalables
 
-Depuis septembre 2019, les analyses entre appareils imposent les conditions suivantes. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
+Analytics sur plusieurs périphériques requiert les éléments suivants. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
 
 >[!IMPORTANT] Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
@@ -36,8 +34,8 @@ Depuis septembre 2019, les analyses entre appareils imposent les conditions suiv
 * Contactez le gestionnaire de compte de votre entreprise pour déterminer les points clés suivants :
    * Un contrat doit être signé avec Adobe et inclure Adobe Analytics Ultimate.
    * Votre entreprise doit utiliser le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform. Consultez la [page d’accueil](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) du guide de l’utilisateur Device Co-op.
-   * Dans un esprit de partenariat et de transparence, nous voulons que nos clients soient conscients de notre utilisation de Microsoft Azure en association avec les analyses multipériphériques. Adobe utilise Azure pour stocker les données graphiques des périphériques et pour effectuer des assemblages sur plusieurs périphériques. Ainsi, les données Adobe Analytics sont transmises entre le centre de traitement des données d’Adobe et les instances configurées de Microsoft Azure par Adobe.
-* Les analyses entre appareils sont activées sur base des suites de rapports. Les suites de rapports qui ont été activées pour les analyses entre appareils exigent ce qui suit :
+   * Dans un esprit de partenariat et de transparence, nous voulons que nos clients soient conscients de notre utilisation de Microsoft Azure en association avec les analyses multipériphériques. Adobe utilise Azure pour stocker les données graphiques des périphériques et pour effectuer des assemblages sur plusieurs périphériques. Ainsi, les données Adobe Analytics sont transmises entre le centre de traitement de données Adobe et les instances configurées de Adobe de Microsoft Azure.
+* Les analyses entre appareils sont activées sur base des suites de rapports. Les suites de rapports activées pour CDA nécessitent les éléments suivants :
    * La suite de rapports ne peut pas contenir plus de 500 millions d’accès par jour.
    * Adobe recommande qu’une suite de rapports contienne des données interpériphériques, ce qui signifie qu’elles proviennent de plusieurs types d’appareils (web, applications, etc.). Certaines entreprises considèrent ce concept comme une suite de rapports « globale », bien que les analyses entre appareils ne doivent pas nécessairement être globales du point de vue géographique. Les analyses entre appareils ne fonctionnent pas entre les suites de rapports et ne combinent pas non plus les données de plusieurs suites de rapports.
 * Votre mise en œuvre doit satisfaire aux exigences suivantes :
@@ -52,10 +50,9 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * Le regroupement ne peut pas se produire entre les suites de rapports, comme décrit dans les conditions préalables ci-dessus.
 * Les suites de rapports Adobe Analytics ne peuvent pas mapper à plusieurs organisations IMS. Étant donné que les analyses entre appareils regroupent des appareils dans une suite de rapports donnée, il est impossible de les utiliser pour regrouper des données entre plusieurs organisations IMS.
 * Les analyses entre appareils ne sont actuellement pas compatibles avec les attributs du client. Les attributs du client ne peuvent pas être utilisés pour créer une suite de rapports virtuelle d’analyses entre appareils, dans des segments interpériphériques, ou pour la création de rapports dans un projet Analysis Workspace basé sur une suite de rapports virtuelle d’analyses entre appareils.
-   > [!TIP] Bien que les attributs du client ne puissent pas être utilisés dans les analyses entre appareils, les deux fonctionnalités dépendent de la fonction `setCustomerIDs`. Ces deux fonctionnalités peuvent coïncider dans des suites de rapports distinctes (virtuelles).
+   > [!TIP] Bien que les attributs du client ne puissent pas être utilisés dans les analyses entre appareils, les deux fonctionnalités dépendent de la fonction `setCustomerIDs`. Ces deux fonctionnalités peuvent coïncider dans des suites de rapports virtuelles distinctes.
 * Les analyses entre appareils ont besoin d’un graphique Co-op ou Privé. Les graphiques d’appareils tiers ne sont pas pris en charge.
 * Les identifiants Analytics hérités ne sont pas pris en charge. Seuls les visiteurs avec un Experience Cloud ID sont regroupés.
-* L’assistance clientèle ne prend pas encore entièrement en charge cette fonctionnalité. Le forum [Analyses entre appareils](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) peut être utilisé pour la prise en charge de cette fonctionnalité, qui inclut une participation active et directe des responsables produits Adobe.
 * Les analyses entre appareils utilisent une suite de rapports virtuelle et le traitement du temps de la période de rapport, qui ont leurs propres limites. Voir [Suites de rapports virtuelles](../vrs/vrs-about.md) et [traitement de la période de rapport](../vrs/vrs-report-time-processing.md) pour en savoir plus sur ces limitations.
 * L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le Report Builder reposent tous les deux sur l’API 1.4 et ne sont donc pas compatibles avec les analyses entre appareils.
 * Si votre entreprise utilise le graphique privé, les nouveaux périphériques peuvent prendre jusqu’à 24 heures pour être assemblés.
