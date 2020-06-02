@@ -2,14 +2,15 @@
 title: Configuration des analyses entre appareils
 description: Découvrez comment configurer les analyses entre appareils une fois que vous avez satisfait aux conditions préalables.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '827'
+ht-degree: 63%
 
 ---
 
 
 # Configuration des analyses entre appareils
-
->[!NOTE] La documentation des analyses entre appareils peut être modifiée au fur et à mesure que la fonctionnalité est développée. Consultez régulièrement les mises à jour.
 
 Une fois toutes les conditions préalables remplies, procédez comme suit pour activer les analyses entre appareils. Vous devez appartenir à un groupe d’administrateurs de profil de produit ou disposer de droits d’administrateur dans Adobe Analytics pour suivre cette procédure.
 
@@ -40,34 +41,34 @@ Les administrateurs ayant accès à la création de suites de rapports virtuelle
 Lorsque les analyses entre appareils sont activées sur une suite de rapports virtuelle, notez les modifications suivantes :
 
 * Une nouvelle icône interpériphérique apparaît en regard du nom de la suite de rapports virtuelle. Cette icône est réservée aux suites de rapports virtuelles sur plusieurs appareils.
-* Une nouvelle dimension intitulée &quot;État identifié&quot; est disponible. Cette dimension détermine si l’ID Experience Cloud sur cet accès est connu par le graphique de l’appareil à ce moment-là.
+* Une nouvelle dimension intitulée &quot;État identifié&quot; est disponible. Cette dimension détermine si l’ID Experience Cloud sur cet accès est connu par le graphique du périphérique à ce moment.
 * De nouvelles mesures intitulées « Personnes » et « Appareils uniques » sont disponibles.
-* La mesure &quot; de unique n’est pas disponible, car elle est remplacée par &quot;Personnes&quot; et &quot;Dispositifs uniques&quot;.
+* La mesure &quot;Visiteurs uniques&quot; n’est pas disponible, car elle est remplacée par &quot;Personnes&quot; et &quot;Périphériques uniques&quot;.
 * Lors de la création de segments, le conteneur de segments « Visiteur » est remplacé par un conteneur « Personne ».
 
 ## Modèle Espace de travail CDA
 
-Adobe  un modèle  pour afficher des données de performances interpériphériques essentielles.
+Adobe offre un modèle pour afficher les données de performances vitales sur plusieurs périphériques.
 
 1. Accédez à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) et connectez-vous à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur l’icône à neuf grilles en haut de l’écran, puis sur Analytics.
 1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
-1. Localisez le &quot;Journey IQ: Modèle Analytics sur plusieurs périphériques, puis cliquez sur [!UICONTROL Créer].
+1. Localisez le &quot;Journey IQ : Modèle Analytics sur plusieurs périphériques, puis cliquez sur [!UICONTROL Créer].
 1. Si vous y êtes invité, remplacez la suite de rapports par une suite prenant en charge CDA.
 
-Un projet   Workspace est créé, qui contient plusieurs panneaux. En haut, une table des matières et une introduction s’affichent, permettant ainsi le contexte du rapport et la navigation vers des rapports individuels. Cliquez sur un lien dans la table des matières ou développez l’accordéon d’un panneau pour ces rapports.
+Un projet Analyse Workspace est créé et contient plusieurs panneaux. Dans la partie supérieure, une table des matières et une introduction s’affichent, permettant de replacer le contexte du rapport et de naviguer jusqu’aux rapports individuels. Cliquez sur un lien dans la table des matières ou développez l’accordéon d’un panneau pour vue de ces rapports.
 
 <!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
-* **Note spéciale à l&#39;intention des membres du Graphique** coopératif : Indique la partie de votre suite de rapports qui contient des dans les régions où le graphique coopératif est pris en charge et les régions où il n’est pas pris en charge.
-* **Identification des utilisateurs**: Indique la fréquence à laquelle les de votre site sont identifiés à l’aide de méthodes basées sur les analyses multipériphériques.
-* **Mesure  taille** du : Affiche une comparaison entre &quot;Dispositifs uniques&quot; et &quot;Personnes&quot;. La proportion de ces deux nombres est connue sous le nom de &quot;compression inter-périphériques&quot;, une mesure calculée visible dans ce panneau. Cette mesure de compression dépend d’un large éventail de facteurs :
+* **Note spéciale à l&#39;intention des membres du graphique** Co-op : Indique la partie de votre suite de rapports qui contient des visiteurs dans les régions où le graphique coopératif est pris en charge et les régions où il n’est pas pris en charge.
+* **Identification des utilisateurs**: Indique la fréquence à laquelle les visiteurs de votre site sont identifiés à l’aide de méthodes basées sur les analyses multipériphériques.
+* **Mesure de la taille** des audiences : Affiche une comparaison entre &quot;Périphériques uniques&quot; et &quot;Personnes&quot;. La proportion de ces deux nombres est connue sous le nom de &quot;compression multipériphériques&quot;, une mesure calculée visible dans ce panneau. Cette mesure de compression dépend d’un large éventail de facteurs :
    * Utilisation du graphique Co-op ou du graphique Privé : en général, les entreprises qui utilisent le Device Co-op ont tendance à voir de meilleurs taux de compression que les celles qui utilisent le graphique Privé.
    * Taux de connexion : plus les utilisateurs se connectent sur votre site, plus Adobe est en mesure d’identifier et de regrouper les visiteurs entre plusieurs appareils. Les sites qui présentent un faible taux de connexion ont aussi de faibles taux de compression.
    * Couverture d’Experience Cloud ID : seuls les visiteurs avec un ECID peuvent être regroupés. Un pourcentage plus faible de visiteurs qui accèdent à votre site en utilisant un ECID correspond à des taux de compression plus faibles.
    * Utilisation de plusieurs appareils : si les visiteurs qui se rendent sur votre site n’utilisent pas plusieurs appareils, les taux de compression sont plus faibles.
    * Granularité des rapports : la compression par jour est généralement plus petite que la compression par mois ou par année. Les chances qu’une personne utilise plusieurs appareils sont moindres au cours d’un seul jour qu’au cours d’un mois entier. La segmentation, le filtrage ou l’utilisation de dimensions de ventilation peuvent également indiquer un taux de compression plus faible.
-* **Segments** basés sur les personnes : Contient une liste déroulante de segments qui vous permet de  données spécifiques au périphérique. Ce panneau encourage l’expérimentation de segments afin de voir comment l’inclusion ou l’exclusion des types de périphériques affectent les rapports.
-* **Analyse du parcours** inter-périphériques : Fournit des rapports de flux et d’abandons en fonction du type de périphérique.
-* **Attribution** sur plusieurs périphériques : Combinez les caractéristiques de Journey IQ et d’Attribution IQ.
-* **Autres conseils et astuces**: Rubriques utiles sur l&#39;ADC qui vous permettent de mieux l&#39;utiliser.
+* **Segments** basés sur les personnes : Contient une liste déroulante de segments qui vous permet de vue des données spécifiques au périphérique. Ce panneau encourage l’expérimentation de segments afin de déterminer comment l’inclusion ou l’exclusion de types de périphérique affectent les rapports.
+* **Analyse du parcours** sur plusieurs périphériques : Fournit des rapports de flux et d&#39;abandons en fonction du type de périphérique.
+* **Attribution** sur plusieurs périphériques : Combinez les fonctionnalités de QI de voyage et QI d&#39;attribution.
+* **Autres conseils et astuces**: Rubriques utiles sur l&#39;ADC qui vous permettent de mieux les utiliser.
