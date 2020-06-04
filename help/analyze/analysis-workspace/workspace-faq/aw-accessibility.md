@@ -2,9 +2,9 @@
 description: Fonctionnalités de prise en charge de l’accessibilité dans Analyse Workspace
 title: Accessibilité dans l’espace de travail des Analyses
 translation-type: tm+mt
-source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Découvrez la prise en charge de l’accessibilité dans [!UICONTROL Analyse Workspace], le principal outil d’analyse pour Adobe Analytics.
 
-L&#39;accessibilité se rapporte à la mise en place de produits utilisables par les personnes ayant des déficiences visuelles, auditives, motrices et autres. Parmi les exemples de fonctionnalités d’accessibilité pour les logiciels, citons la prise en charge des lecteurs d’écran, les équivalents de texte pour les graphiques, les raccourcis clavier, le changement des couleurs d’affichage en contraste élevé, etc.
+L&#39;accessibilité se rapporte à rendre des produits utilisables par les personnes ayant des déficiences visuelles, auditives, cognitives, motrices et autres. Parmi les exemples de fonctionnalités d’accessibilité pour les logiciels, citons la prise en charge des lecteurs d’écran, les équivalents de texte pour les graphiques, les raccourcis clavier, le changement des couleurs d’affichage en contraste élevé, etc.
 
 [!UICONTROL Analyse Workspace] fournit quelques outils qui le rendent accessible à l’utilisation, notamment :
 
