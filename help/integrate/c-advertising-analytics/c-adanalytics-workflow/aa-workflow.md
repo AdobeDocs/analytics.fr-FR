@@ -1,22 +1,24 @@
 ---
-description: valeur nulle
+description: Présentation du flux de travaux Advertising Analytics.
 title: Workflow - Aperçu
-uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 75%
 
 ---
 
 
 # Workflow - Aperçu
 
-![](assets/step1_icon.png) Mappez toutes les suites de rapports Analytics dans lesquelles vous souhaitez afficher les données de recherche Google/Bing à votre organisation Experience Cloud.
+![](assets/step1_icon.png) Faites correspondre toute suite de rapports Adobe Analytics dans laquelle vous souhaitez vue les données de recherche Google/Bing à votre organisation Experience Cloud.
 
 Voir [Mappage de suites de rapports à une organisation](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Activation du reporting Advertising Analytics par suite de rapports](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Active la création de rapports Advertising Analytics pour les suites de rapports compatibles avec l’Experience Cloud.
+Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
 
 ![](assets/step3_icon.png) [Configuration d’un compte Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -28,7 +30,7 @@ Remarque : les données de recherche sont extraites du moteur de recherche vers
 
 La création de rapports est disponible dans :
 
-* Analysis Workspace – modèle de « Performance de référencement payant »
+* Analysis Workspace: [!UICONTROL Paid Search Performance] template
 * Reports &amp; Analytics
 * Report Builder
 * API de création de rapports dans Analytics
