@@ -2,7 +2,10 @@
 title: Configuration d’un compte Advertising
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 81%
 
 ---
 
@@ -15,14 +18,14 @@ Les administrateurs peuvent également [accorder l’accès à des non-administr
 
 ![](assets/aa_accounts.png)
 
-1. Dans Adobe Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
+1. Dans Adobe Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Comptes Advertising]**.
 1. Acceptez les conditions du contrat de licence de l’utilisateur final (uniquement lors de la première utilisation).
-1. Cliquez sur **[!UICONTROL + Add]**.
-1. La [!UICONTROL New Search Engine Account] boîte de dialogue s’affiche :
+1. Cliquez sur **[!UICONTROL + Ajouter]**.
+1. La boîte de dialogue [!UICONTROL Nouveau compte de moteur de recherche] s’affiche :
 
    ![](assets/aa_new_se_account.png)
 
-1. Renseignez les **[!UICONTROL Search Engine Settings]** lignes directrices suivantes :
+1. Définissez les **[!UICONTROL Paramètres du moteur de recherche]** en procédant comme suit :
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,39 +57,20 @@ Les administrateurs peuvent également [accorder l’accès à des non-administr
     </tbody> 
     </table>
 
-1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
-Renseignez les **[!UICONTROL Tracking Settings]** lignes directrices suivantes :
+1. Dans la section **[!UICONTROL Suivi]**, vous fournissez des informations sur la façon dont les données du moteur de recherche sont suivies par votre implémentation Adobe Analytics. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
+Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit :
 
-   <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Paramètre </th> 
-      <th colname="col2" class="entry"> Description </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Type </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Automatique</span> : laisse le moteur Advertising Cloud décider comment les paramètres de suivi sont ajoutés aux modèles de suivi/URL de destination du moteur de recherche. Il s’agit de l’approche la plus simple, même si elle ne produit pas toujours le meilleur jeu de données intégré. <p>Important : pour configurer un compte de moteur de recherche en « mode automatique », vous devez prendre les mesures suivantes : 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">Le paramètre et la valeur « s_kwcid » seront ajoutés aux modèles de suivi de comptes ou aux URL de pages d’entrée dans le compte ajouté. Ils seront alors insérés à la fin de l’URL. Par conséquent, vous devrez peut-être prendre une mesure supplémentaire si votre serveur web requiert une certaine paire clé=valeur à la fin de l’URL OU une mise à jour pour prendre en charge n’importe quelle nouvelle paire clé=valeur dans l’URL. </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">De plus, les mots-clés peuvent être insérés dans l’URL d’entrée avec la valeur « s_kwcid », donc s’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères (par exemple, le « + » est un caractère spécial courant utilisé dans les mots-clés en « requête large modifiée »). </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manuel</span> : permet de gérer la façon dont les paramètres de suivi sont ajoutés aux modèles de suivi/URL de destination du moteur de recherche. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Consultez ces exemples de suivi manuel pour chaque moteur de recherche</a>. </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | Paramètre | Description |
+   |--- |--- |
+   | Type | <ul><li>**Auto :** Permet au moteur Advertising Cloud de décider comment les paramètres de suivi sont ajoutés aux modèles de suivi/URL de destination du moteur de recherche. Il s’agit de l’approche la plus simple, même si elle ne produit pas toujours le meilleur jeu de données intégré.<br>**Important :**Pour configurer un compte de moteur de recherche en mode automatique, vous devez effectuer les actions suivantes :<br>- Le paramètre et la valeur &quot;s_kwcid&quot; seront ajoutés aux modèles de suivi de compte ou aux URL de landing page du compte ajouté. Ils seront alors insérés à la fin de l’URL. Par conséquent, vous devrez peut-être prendre une mesure supplémentaire si votre serveur web requiert une certaine paire clé=valeur à la fin de l’URL OU une mise à jour pour prendre en charge n’importe quelle nouvelle paire clé=valeur dans l’URL.** Remarque :**En savoir plus sur l’ajout de ce paramètre à votre stratégie[de sécurité du](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)contenu.<br>- En outre, les mots-clés peuvent être insérés dans l&#39;URL de destination dans le cadre de la valeur &quot;s_kwcid&quot;. Par conséquent, s&#39;ils contiennent des caractères ou des symboles spéciaux, veuillez confirmer que votre serveur Web peut les prendre en charge (un exemple de caractères spéciaux courants est &quot;+&quot;, qui est utilisé dans les mots-clés &quot;Correspondance large modifiée&quot;).</li><li>**Manuel :** Permet de gérer la manière dont les paramètres de suivi sont ajoutés aux modèles de suivi/URL de destination du moteur de recherche. [Consultez ces exemples de suivi manuel pour chaque moteur de recherche](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
-1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. Vous devez fournir au moins une suite de rapports pour pouvoir enregistrer votre compte Advertising. Vous pouvez mapper plusieurs comptes à plusieurs suites de rapports (1:1, 1:plusieurs, plusieurs:plusieurs). Remarque : Les données qu’AMO extrait du moteur de recherche sont simplement copiées dans toutes les suites de rapports mappées, il n’y a donc aucun partage de données.
+1. Dans la section **[!UICONTROL Mappage]**, vous sélectionnerez les suites de rapport à lier à ce compte de moteur de recherche. Vous devez fournir au moins une suite de rapports pour pouvoir enregistrer votre compte Advertising. Vous pouvez mapper plusieurs comptes à plusieurs suites de rapports (1:1, 1:plusieurs, plusieurs:plusieurs). Remarque : Les données qu’AMO extrait du moteur de recherche sont simplement copiées dans toutes les suites de rapports mappées, il n’y a donc aucun partage de données.
 
    >[!IMPORTANT]
    >
    >Seules les suites de rapports qui ont été [mappées à une organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html) pourront être sélectionnées. Si la suite de rapports ne figure pas dans la liste, consultez la [résolution des problèmes d’Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
-   Pour les **[!UICONTROL Mapping Settings]** lignes directrices suivantes :
+   Définissez les **[!UICONTROL Paramètres du mappage]** en procédant comme suit :
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -97,13 +81,13 @@ Renseignez les **[!UICONTROL Tracking Settings]** lignes directrices suivantes :
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Suite de rapports Correspondance </p> </td> 
+      <td colname="col1"> <p>Suite de rapports Mappage </p> </td> 
       <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> <p>Si la suite de rapports ne figure pas dans la liste, vous pouvez <a href="https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html"  >mapper votre suite de rapports à une organisation Experience Cloud</a> en utilisant cet outil. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Après l’enregistrement, une clause de non-responsabilité affiche une liste d’avertissements. Vous devez confirmer que vous avez lu et compris cet accord. Cochez la case, puis cliquez sur **[!UICONTROL OK]**.
 
    Vous êtes maintenant dirigé vers l’[interface utilisateur de gestion](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) des comptes Advertising, où le nouveau compte doit apparaître.
