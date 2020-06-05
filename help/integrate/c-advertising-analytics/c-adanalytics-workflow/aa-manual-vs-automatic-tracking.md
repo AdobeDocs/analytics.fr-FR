@@ -1,9 +1,11 @@
 ---
 description: Le suivi détermine la façon dont les données du moteur de recherche sont suivies par votre implémentation Adobe Analytics. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
 title: Suivi en mode manuel et mode automatique
-uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +22,14 @@ En mode automatique, vous laissez le moteur Advertising Cloud décider comment g
 
 C’est pourquoi vous devez cocher une case de confirmation quand vous sélectionnez le mode automatique avant de pouvoir sauvegarder la configuration du compte.
 
-
 Notez que pour configurer un compte de moteur de recherche en « mode automatique », vous devez prendre les mesures suivantes :
 
-* Le paramètre et la valeur « s_kwcid » seront ajoutés aux modèles de suivi de comptes ou aux URL de pages d’entrée dans le compte ajouté. Ils seront alors insérés à la fin de l’URL. Vous devrez peut-être prendre une mesure supplémentaire si votre serveur web requiert une certaine paire clé=valeur à la fin de l’URL OU une mise à jour pour prendre en charge n’importe quelle nouvelle paire clé=valeur dans l’URL. **Il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée.**
-* De plus, les mots-clés peuvent être insérés dans l’URL d’entrée avec la valeur « s_kwcid ». S’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères. Exemple : le « + » est un caractère spécial courant utilisé dans les mots-clés en « requête large modifiée ».
+* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. Ils seront alors insérés à la fin de l’URL. Vous devrez peut-être prendre une mesure supplémentaire si votre serveur web requiert une certaine paire clé=valeur à la fin de l’URL OU une mise à jour pour prendre en charge n’importe quelle nouvelle paire clé=valeur dans l’URL. **Il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée.**
+* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. S’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères. Exemple : le « + » est un caractère spécial courant utilisé dans les mots-clés en « requête large modifiée ».
+
+>[!IMPORTANT]
+>
+>En savoir plus sur l’ajout ou non du `s_kwcid` paramètre à votre stratégie [de sécurité](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)du contenu.
 
 ## Suivi en mode manuel  {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
