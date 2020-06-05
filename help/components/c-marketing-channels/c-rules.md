@@ -2,27 +2,30 @@
 title: Règles de traitement des canaux marketing
 description: Les règles de traitement des canaux marketing déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal. Les règles traitent tous les accès qu’un visiteur effectue sur votre site. Si une règle ne satisfait pas les critères d’un canal, ou si les règles ne sont pas configurées correctement, le système affecte l’accès à « Aucun canal identifié ».
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+workflow-type: tm+mt
+source-wordcount: '2048'
+ht-degree: 70%
 
 ---
 
 
 # Règles de traitement des canaux marketing
 
-Les règles de traitement des canaux marketing déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal. Les règles traitent tous les accès qu’un visiteur effectue sur votre site. Si une règle ne satisfait pas les critères d’un canal, ou si les règles ne sont pas configurées correctement, le système affecte l’accès à « Aucun canal identifié ».
+Les règles de traitement du Canal marketing déterminent si un accès visiteur satisfait aux critères affectés à un canal en traitant chaque accès d’un visiteur sur votre site. Les règles sont traitées dans l’ordre indiqué et lorsqu’une règle est respectée, le système arrête de traiter les règles restantes.
 
-Voici quelques consignes importantes pour la création des règles :
+![](assets/buckets_2.png)
 
-* Triez les règles dans l’ordre où elles doivent être appliquées.
-*  Insérez une règle fourre-tout en fin de liste, telle que « Autre ». Cette règle identifie uniquement le trafic externe.
-
-   Consultez la section [Aucun canal identifié.](/help/components/c-marketing-channels/c-faq.md)
-
->[!NOTE] Bien que ces règles n’affectent pas les rapports en dehors des canaux marketing, elles ont un impact sur la collecte de données des canaux marketing. Les données collectées à l’aide de ces règles sont permanentes. De plus, les règles modifiées après la collecte des données ne sont pas rétroactives. Il est donc vivement conseillé d’étudier tous les cas et de les prendre en compte avant d’enregistrer les [!UICONTROL règles de traitement des canaux marketing] afin de limiter la collecte de données dans des canaux incorrects.
+Remarques supplémentaires sur le traitement :
+* Les données collectées à l’aide de ces règles sont permanentes. De plus, les règles modifiées après la collecte des données ne sont pas rétroactives. Il est donc vivement conseillé d’étudier tous les cas et de les prendre en compte avant d’enregistrer les [!UICONTROL règles de traitement des canaux marketing] afin de limiter la collecte de données dans des canaux incorrects.
+* Le rapport peut traiter jusqu’à 25 canaux simultanément.
+* Les règles peuvent accéder aux variables que VISTA a définies, mais pas aux données que VISTA a supprimées.
+* Un même événement (tel qu’un achat ou un clic) n’est jamais porté au crédit de deux canaux marketing. En cela, les canaux marketing diffèrent des eVars (car deux eVars peuvent recevoir le crédit d’un seul et même événement).
+* S’il existe une couverture d’écart de vos règles, vous pouvez voir [Aucun Canal identifié.](/help/components/c-marketing-channels/c-faq.md)
 
 ## Conditions préalables
 
-* Passez en revue les informations conceptuelles dans [Prise en main des](/help/components/c-marketing-channels/c-getting-started-mchannel.md)marketing.
+* Consultez les informations conceptuelles de la section [Prise en main des Canaux](/help/components/c-marketing-channels/c-getting-started-mchannel.md)marketing.
 * Créez un ou plusieurs canaux auxquels attribuer des règles. Reportez-vous à la section [Ajout de canaux marketing.](/help/components/c-marketing-channels/c-channels.md)
 
 ## Création de règles de traitement des canaux marketing
@@ -32,43 +35,37 @@ Créez des règles de traitement des canaux marketing qui déterminent si l’ac
 Elle utilise une règle de courriel comme exemple. Cet exemple part du principe que vous avez ajouté un canal de courriel à votre liste de canaux sur la page Gestionnaire de canaux marketing.
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
-1. Sélectionnez une suite de rapports.
+2. Sélectionnez une suite de rapports.
 
    La page [!UICONTROL Canaux marketing : Configuration automatique] s’affiche si aucun canal n’est défini dans votre suite de rapports.
 
    Reportez-vous à la section [Exécution de la configuration automatique](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**.
+3. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**.
 
    ![Résultat de l’étape](assets/marketing_channel_rules.png)
 
-1. Dans le menu **[!UICONTROL Ajouter un nouveau jeu de règles]**, sélectionnez **[!UICONTROL Courriel]**.
+4. Dans le menu **[!UICONTROL Ajouter un nouveau jeu de règles]**, sélectionnez **[!UICONTROL Courriel]**.
 
-   Dans le cas présent, vous ne sélectionnez pas le canal, mais le modèle qui renseigne quelques-uns des paramètres nécessaires de la règle.
+   Dans le cas présent, vous ne sélectionnez pas le canal, mais le modèle qui renseigne quelques-uns des paramètres nécessaires de la règle. Vous pouvez modifier ce modèle si nécessaire.
 
    ![Résultat de l’étape](assets/example_email.png)
 
-   Utilisez la logique booléenne (instructions si / alors) pour configurer une règle. Par exemple, dans une règle de canal de courriel, indiquez les paramètres ou les informations mis en évidence dans l’instruction de règle suivante :
+5. Pour continuer à créer des règles, cliquez sur **[!UICONTROL Ajouter une règle]**.
+6. Pour classer les règles par priorité, faites-les glisser à l’emplacement souhaité.
+7. Cliquez sur **[!UICONTROL Enregistrer.]**
 
-   `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
+Continuez sur cette page pour afficher des recommandations concernant l’ordre des règles de canal ainsi que d’autres exemples de définition.
 
-   `"Then identify the channel as **[!UICONTROL Email]**...`
+### Définir la valeur du canal marketing
 
-   `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
+**[!UICONTROL Ajouter une ]**règleDéfinissez la valeur du canal]**définit la dimension détaillée du canal marketing disponible pour ce canal. Vous pouvez ainsi ventiler les dimensions du canal marketing et afficher des informations plus détaillées sur le canal.
 
-   Dans cet exemple, *`<value>`* est le paramètre de chaîne de requête utilisé pour votre campagne par courrier électronique, tel que *`eml`*,
-1. Pour continuer à créer des règles, cliquez sur **[!UICONTROL Ajouter une règle]**.
-1. Pour classer les règles par priorité, faites-les glisser à l’emplacement souhaité.
-1. Cliquez sur **[!UICONTROL Enregistrer.]**
+Il est recommandé de définir la valeur du canal selon les mêmes critères que ceux utilisés pour définir le canal lui-même. Par exemple, si le paramètre de chaîne de requête est utilisé pour définir le canal, définissez également le paramètre de chaîne de requête comme valeur de canal.
 
->[!MORELIKETHIS]
->
->* [Questions fréquentes et exemples](/help/components/c-marketing-channels/c-faq.md)
+### Critères de règle
 
-
-## Critères de règle de marketing
-
-Ce tableau de référence définit les champs, options et attributs de visite que vous pouvez sélectionner sur la page Règles de traitement des canaux marketing.
+Ce tableau de référence définit les champs, options et attributs d’accès que vous pouvez utiliser pour définir les règles de traitement du Canal marketing.
 
 | Terme | Définition |
 |--- |--- |
@@ -101,67 +98,79 @@ Ce tableau de référence définit les champs, options et attributs de visite qu
 | Moteur de recherche - Mots-clés | Une concaténation de « Mot-clé de recherche » et de « Moteur de recherche » pour identifier avec exactitude le moteur de recherche. Par exemple, si vous cherchez le mot « ordinateur », le moteur de recherche et le mot-clé sont identifiés comme suit : `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Remarque ** : n = naturelle ; p = payante |
 | Définir la valeur du canal comme | Outre le fait de savoir quel canal marketing dirige un visiteur sur le site, vous pouvez connaître la bannière publicitaire, le mot-clé ou la campagne par courrier électronique du canal qui reçoit le crédit de l’activité d’un visiteur sur le site. Cet identifiant est une valeur de canal enregistrée avec le canal. Cette valeur correspond le plus souvent à un identifiant de campagne intégré dans la page d’entrée ou dans l’URL de renvoi ; dans d’autres cas, c’est la combinaison du moteur de recherche et du mot-clé de recherche, ou encore l’URL de renvoi, qui identifient avec le plus de précision le visiteur en provenance d’un canal donné. |
 
-## Canal interne (actualisation de session)
+## Ordre et définitions des règles du Canal marketing {#channel-rules}
 
-Le canal Interne (souvent renommé Actualisation de session) comprend les visites sur le site où l’URL de référence correspond aux filtres d’URL internes configurés dans Admin Console. Cela signifie que le visiteur a commencé sa visite depuis le site.
+Les règles de Canal sont traitées dans l’ordre indiqué. Il est recommandé de placer les canaux payants ou gérés en premier lieu (recherche payée, recherche naturelle, affichage, courrier électronique, par exemple) afin qu’ils reçoivent du crédit, suivi de canaux organiques (par exemple, domaines directs, internes, référents).
+
+Vous trouverez ci-dessous l’ordre recommandé pour les règles de canal ainsi que des exemples de définitions :
+
+### Recherche payante {#paid-search}
+
+La recherche payante est un mot ou une expression que vous payez à un moteur de recherche pour son placement dans les résultats de la recherche. Ce canal est généralement défini en fonction du paramètre de chaîne de requête (voir l’exemple de canal d’affichage) ou des règles de détection de recherche payante. La décision dépend des détails du canal marketing que vous souhaitez enregistrer.
+
+#### Détection de recherche payante
+
+Pour créer une correspondance avec les règles de détection de recherche payante, le canal marketing utilise les paramètres configurés sur la page [!UICONTROL Détection de recherche payante]. ( **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Détection de recherche payée]**). L’URL de destination correspond à la règle de détection de la recherche payante existante pour ce moteur de recherche.
+
+Pour la règle du canal marketing, les paramètres de la [!UICONTROL recherche payante] sont les suivants :
+
+![](assets/example_paid_search.png)
+
+Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
+
+### Recherche naturelle  {#natural-search}
+
+Une recherche naturelle est comptabilisée quand les visiteurs trouvent votre site Internet à la suite d’une recherche sur le Web, où le moteur de recherche a classé votre site sans que vous ayez eu à payer pour figurer dans la liste.
+
+La détection de recherche naturelle n’existe pas dans Analytics. Lorsque vous avez configuré la détection de recherche payante, le système sait que si le référent de recherche n’était pas un référent de recherche payante, il doit s’agir d’un référent de recherche naturelle. Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
+
+Pour la règle du canal marketing, les paramètres de la recherche naturelle sont les suivants :
+
+![](assets/example_natural_search.png)
+
+### Afficher  {#display}
+
+Cette règle identifie les visiteurs provenant de bannières publicitaires. Elle est identifiée par un paramètre de chaîne de requête dans l’URL de destination, dans ce cas  *`Ad_01`*.
+
+![](assets/example_display.png)
+
+### Courriel  {#email}
+
+Cette règle identifie les visiteurs provenant de campagnes par courrier électronique. Elle est identifiée par un paramètre de chaîne de requête dans l’URL de destination, dans ce cas *`eml`*:
+
+![](assets/example_email.png)
+
+### Affilié  {#afilliates}
+
+Cette règle identifie les visiteurs qui proviennent d’un ensemble spécifié de domaines référents. Faites figurer dans la règle la liste des domaines d’affiliés dont vous souhaitez effectuer le suivi, de la manière suivante :
+
+![](assets/example_affiliates.png)
+
+### Autres campagnes {#other-campaigns}
+
+Une bonne pratique consiste à inclure un canal &quot;Autres campagnes&quot; qui suit toutes les règles de canal payé. Ce canal sert de fourre-tout pour le trafic payant non classé.
+
+### Réseaux sociaux  {#social-networks}
+
+Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook*. Le canal est souvent renommé Organique Social. Les paramètres peuvent être les suivants :
+
+![](assets/example_social.png)
+
+### Canal interne (actualisation de session){#internal}
+
+Cette règle s’applique aux visiteurs dont l’URL de référence correspond aux Filtres d’URL internes configurés dans la Console d’administration, ce qui signifie que le visiteur est venu du site pour y début. Ce canal est souvent renommé Actualisation de la session.
 
 ![](assets/int-channel1.png)
 
-### Bonnes pratiques : le remplacement
+Pour plus d’informations sur les raisons [de ce canal, reportez-vous à la section Raisons de l’actualisation de la session](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html) interne.
 
-Il est recommandé de désélectionner l’option de remplacement Dernière touche pour les canaux Directs et Internes, afin qu’ils ne puissent pas s’attribuer le crédit d’autres canaux Dernière touche persistants (ou les uns des autres).
+### Direct  {#direct}
 
->[!NOTE]Ce document part du principe que les paramètres de remplacement des canaux Directs et d’Actualisation de session sont désactivés.
+Cette règle identifie les visiteurs qui n’ont aucun domaine référent, ce qui inclut les visiteurs qui se rendent directement sur votre site, par exemple à partir d’un lien Favoris ou en collant un lien dans leur navigateur. Ce canal est souvent renommé Direct Tapé/Signet.
 
-![](assets/int-channel2.png)
+![](assets/example_direct.png)
 
-### Période d’engagement
+### canal Domaines référents {#referring-domains}
 
-Les canaux Première touche et Dernière touche d’un visiteur sont réinitialisés après 30 jours d’inactivité sur ce navigateur.
+Le canal Domaines référents identifie les visiteurs qui ont un domaine référent. Ensemble, les canaux de domaines internes, directs et référents agissent comme un fourre-tout pour tous les accès restants qui n’ont pas encore été classés en canal.
 
->[!NOTE] 30 jours correspond à la valeur par défaut. Elle peut être modifiée selon les besoins via les paramètres d’administration.
-
-Si le visiteur utilise fréquemment le site, la fenêtre d’engagement s’adaptera en fonction. Ils doivent être inactifs pendant 30 jours pour que la période arrive à expiration et que les canaux soient réinitialisés.
-Exemple :
-
-* Jour 1 : l’utilisateur accède au site par le biais de l’Affichage. Les canaux Première touche et Dernière touche seront définis sur Affichage.
-
-* Jour 2 : l’utilisateur se rend sur le site par le biais d’une Recherche naturelle. La première touche reste sur Affichage et la dernière touche est définie sur Recherche naturelle.
-
-* Jour 35 : l’utilisateur ne s’est pas rendu sur le site depuis 33 jours et y retourne en utilisant l’onglet qu’il a ouvert dans son navigateur. En supposant une fenêtre d’engagement de 30 jours, la fenêtre se serait fermée et les cookies Marketing Channel auraient expiré. Les canaux Première touche et Dernière touche seront réinitialisés et seront définis sur Actualisation de session puisque l’utilisateur provient d’une URL interne.
-
-### Relation entre Première touche et Dernière touche
-
-Pour comprendre l’interaction entre la première et la dernière touche et confirmer que les remplacements fonctionnent comme prévu, vous pouvez extraire un rapport du canal Première touche, sous-lié à un rapport du canal Dernière touche, en ajoutant votre mesure de succès clé (voir l’exemple ci-dessous). Cet exemple illustre l’interaction entre les canaux Première touche et Dernière touche.
-
-![](assets/int-channel3.png)
-
-L’intersection où la Première touche est égale à la Dernière touche est surlignée en orange. Les canaux Direct et Actualisation de session n’obtiennent le crédit Dernière touche que s’ils étaient également le canal Première touche, car ils ne peuvent pas obtenir de crédit d’autres canaux persistants (lignes surlignées en gris).
-
-### Pourquoi l’Actualisation de session se produit-elle ?
-
-Puisque nous savons que l’Actualisation de session pour la dernière touche ne peut avoir lieu que si elle était également la première touche, les scénarios ci-dessous expliquent comment l’Actualisation de session peut être un canal Première touche.
-
-**Scénario 1 : délai d’expiration de la session**
-
-Un visiteur se rend sur un site Web, puis laisse l’onglet ouvert dans son navigateur pour y retourner ultérieurement. La période d’engagement du visiteur expire (ou bien il supprime volontairement ses cookies) et il utilise l’onglet ouvert pour se rendre à nouveau sur le site Web. L’URL de référence étant un domaine interne, la visite est classée comme Actualisation de session.
-
-**Scénario 2 : les pages d’un site ne sont pas toutes balisées**
-
-Un visiteur arrive sur la page A qui n’est pas balisée, puis passe à la page B qui est balisée. La page A serait considérée comme le référent interne et la visite serait classée comme Actualisation de session.
-
-**Scénario 3 : redirections**
-
-Si une redirection n’est pas configurée pour transmettre les données du référent à la nouvelle page d’entrée, les données d’entrée réelle du référent sont perdues et la page de redirection (probablement une page interne) apparaît désormais comme domaine référent. La visite sera classée comme Actualisation de session.
-
-**Scénario 4 : trafic inter-domaines**
-
-Un visiteur passe d’un domaine qui se déclenche vers la suite A à un autre domaine qui se déclenche vers la suite B. Si, dans la suite B, les filtres d’URL internes incluent le premier domaine, la visite dans la suite B est enregistrée comme Interne, puisque les canaux marketing la considèrent comme une nouvelle visite dans la deuxième suite. La visite sera classée comme Actualisation de session.
-
-**Scénario 5 : temps de chargement long de la page d’entrée**
-
-Un visiteur accède à la page A, qui contient beaucoup de contenu, et le code Adobe Analytics se trouve au bas de la page. Avant que tout le contenu (y compris la demande d’images Adobe Analytics) puisse être chargé, le visiteur clique sur la page B. La page B déclenche sa demande d’images Adobe Analytics. Comme la demande d’images de la page A n’a jamais abouti, la deuxième page apparaît comme le premier accès de la visite dans Adobe Analytics, avec la page A comme référent. La visite est classée comme Actualisation de session.
-
-**Scénario 6 : effacement des cookies durant la visite**
-
-Un visiteur se rend sur le site et efface ses cookies durant la visite. Les canaux Première touche et Dernière touche seront réinitialisés et la visite sera classée comme Actualisation de session (car le référent est interne).
