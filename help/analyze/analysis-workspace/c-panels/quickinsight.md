@@ -2,9 +2,9 @@
 description: Quick Insights est un outil destiné aux nouveaux utilisateurs de Workspace qui les guide dans la création de tableaux de données et de visualisations.
 title: Panneau Aperçu rapide
 translation-type: tm+mt
-source-git-commit: 04a91d3ba2778336a8f32c99604b32d440e41674
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** est actuellement en test limité. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Le panneau Aperçu]** rapide est actuellement en cours de test limité. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’ [!UICONTROL Analyse Workspace] pour savoir comment répondre rapidement et facilement aux questions de l’entreprise. C&#39;est aussi un outil idéal pour les utilisateurs expérimentés qui veulent répondre rapidement à une question simple sans avoir à construire eux-mêmes un tableau.
 
@@ -64,6 +64,7 @@ Voici quelques-uns des termes de base que vous devez connaître. Chaque tableau 
 1. Lorsque vous avez ajouté au moins une dimension et une mesure, les éléments suivants sont créés pour vous :
 
    * Tableau à structure libre avec la dimension (ici, Etats-Unis) verticalement et la mesure (ici, Visites) horizontalement en haut. Consultez ce tableau :
+
    ![](assets/qibuilder3.png)
 
    * Visualisation connexe, dans ce cas un graphique [à](/help/analyze/analysis-workspace/visualizations/bar.md)barres. La visualisation qui est générée dépend du type de données que vous avez ajoutées au tableau. Par défaut, toutes les données temporelles (telles que [!UICONTROL Visites] par jour/mois) correspondent à un graphique [!UICONTROL linéaire] . Par défaut, toutes les données non temporelles (telles que [!UICONTROL Visites] par [!UICONTROL périphérique]) correspondent à un graphique à [!UICONTROL barres] . Vous pouvez modifier le type de visualisation en cliquant sur la flèche de liste déroulante en regard du type de visualisation.
