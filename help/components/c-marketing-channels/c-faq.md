@@ -1,13 +1,16 @@
 ---
 description: Découvrez les bonnes pratiques et les exemples utilisables pour renseigner les différentes règles que vous pouvez configurer pour vos canaux marketing.
-title: FAQ et exemples sur les  marketing
+title: FAQ sur les Canaux marketing
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d26edeed2f8d2c78c6e8cddaf8973870372a8b3d
+workflow-type: tm+mt
+source-wordcount: '1129'
+ht-degree: 88%
 
 ---
 
 
-# FAQ et exemples sur les  marketing
+# FAQ sur les Canaux marketing
 
 Reportez-vous à la section [Création de règles de traitement des canaux marketing](/help/components/c-marketing-channels/c-rules.md) pour connaître la définition des champs affichés sur la page [!UICONTROL Règles de traitement des canaux marketing].
 
@@ -54,7 +57,15 @@ Vérifiez que vous disposez d’un canal pour ces trois possibilités. Créez, p
 
 Enfin, créez un canal *Other* qui capture les autres accès, comme indiqué dans la section [Aucun canal identifié](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
-## Aucun canal identifié  {#no-channel-identified}
+## Relation entre Première touche et Dernière touche
+
+Pour comprendre l’interaction entre les dimensions Première touche et Dernière touche héritées et confirmer que les remplacements fonctionnent comme prévu, vous pouvez extraire un rapport canal Première touche, sous-lié à un rapport canal Dernière touche, avec votre mesure de réussite clé ajoutée dans (voir l’exemple ci-dessous). Cet exemple illustre l’interaction entre les canaux Première touche et Dernière touche.
+
+![](assets/int-channel3.png)
+
+L’intersection où first est égal à last touch est la diagonale du tableau. Direct et Session Refresh n&#39;obtiennent le crédit Dernière touche que s&#39;ils étaient également le canal Première touche, car ils ne peuvent pas prendre le crédit d&#39;autres canaux persistants (lignes surlignées).
+
+## Raisons pour lesquelles aucun Canal n&#39;a été identifié {#no-channel-identified}
 
 Lorsque les règles ne capturent pas de données, ou si les règles ne sont pas configurées correctement, le rapport affiche les données sur la ligne [!UICONTROL Aucun canal identifié] du rapport. Vous pouvez créer un ensemble de règles nommé *Autre*, par exemple, à la fin de l’ordre de traitement, pour identifier également le trafic interne.
 
@@ -64,65 +75,31 @@ Ce type de règle « fourre-tout » permet de s’assurer que le trafic des ca
 
 >[!NOTE] Il est possible qu’une certaine partie du trafic de canaux soit classée dans la catégorie Aucun canal identifié. Par exemple : un visiteur sur le site marque une page comme favori puis, au cours de la même visite, revient sur cette page en passant par les favoris. Puisqu’il ne s’agit pas de la première page de la visite, le trafic ne sera pas inclus dans la catégorie des canaux directs ni dans celle des autres canaux, puisqu’il n’y a aucun domaine référent.
 
-## Recherche payante {#paid-search}
+## Raisons de l’interne (actualisation de session) {#internal}
 
-Une recherche payante est un mot ou une expression pour lequel (laquelle) vous payez un certain montant à un moteur de recherche en vue de son positionnement dans les résultats de la recherche. Pour créer une correspondance avec les règles de détection de recherche payante, le canal marketing utilise les paramètres configurés sur la page [!UICONTROL Détection de recherche payante]. ( **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Détection de recherche payée]**). L’URL de destination correspond à la règle de détection de la recherche payante existante pour ce moteur de recherche.
+L’actualisation de la session Dernière touche ne peut avoir lieu que si elle a également été la première touche - voir &quot;Relation entre la première et la dernière touche&quot; ci-dessus. Les scénarios ci-dessous expliquent comment l’actualisation de session peut être un canal Première touche.
 
-Pour la règle du canal marketing, les paramètres de la [!UICONTROL recherche payante] sont les suivants :
+**Scénario 1 : délai d’expiration de la session**
 
-![](assets/example_paid_search.png)
+Un visiteur se rend sur un site Web, puis laisse l’onglet ouvert dans son navigateur pour y retourner ultérieurement. La période d’engagement du visiteur expire (ou bien il supprime volontairement ses cookies) et il utilise l’onglet ouvert pour se rendre à nouveau sur le site Web. L’URL de référence étant un domaine interne, la visite est classée comme Actualisation de session.
 
-Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
+**Scénario 2 : les pages d’un site ne sont pas toutes balisées**
 
-## Recherche naturelle  {#natural-search}
+Un visiteur arrive sur la page A qui n’est pas balisée, puis passe à la page B qui est balisée. La page A serait considérée comme le référent interne et la visite serait classée comme Actualisation de session.
 
-Une recherche naturelle est comptabilisée quand les visiteurs trouvent votre site Internet à la suite d’une recherche sur le Web, où le moteur de recherche a classé votre site sans que vous ayez eu à payer pour figurer dans la liste. Vous pouvez contrôler l’URL de destination utilisée par le moteur de recherche pour le lien vers votre site, ce qui permet à Analytics de déterminer si une recherche est naturelle.
+**Scénario 3 : redirections**
 
-La détection de recherche naturelle n’existe pas dans Analytics. Lorsque vous avez configuré la détection de recherche payante, le système sait que si le référent de recherche n’était pas un référent de recherche payante, il doit s’agir d’un référent de recherche naturelle. Pour une recherche naturelle, l’URL de destination ne correspond pas à la règle de détection de recherche payante existante pour ce moteur de recherche.
+Si une redirection n’est pas configurée pour transmettre les données du référent à la nouvelle page d’entrée, les données d’entrée réelle du référent sont perdues et la page de redirection (probablement une page interne) apparaît désormais comme domaine référent. La visite sera classée comme Actualisation de session.
 
-Pour la règle du canal marketing, les paramètres de la recherche naturelle sont les suivants :
+**Scénario 4 : trafic inter-domaines**
 
-![](assets/example_natural_search.png)
+Un visiteur passe d’un domaine qui se déclenche vers la suite A à un autre domaine qui se déclenche vers la suite B. Si, dans la suite B, les filtres d’URL internes incluent le premier domaine, la visite dans la suite B est enregistrée comme Interne, puisque les canaux marketing la considèrent comme une nouvelle visite dans la deuxième suite. La visite sera classée comme Actualisation de session.
 
-Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
+**Scénario 5 : temps de chargement long de la page d’entrée**
 
-## Affilié  {#afilliates}
+Un visiteur accède à la page A, qui contient beaucoup de contenu, et le code Adobe Analytics se trouve au bas de la page. Avant que tout le contenu (y compris la demande d’images Adobe Analytics) puisse être chargé, le visiteur clique sur la page B. La page B déclenche sa demande d’images Adobe Analytics. Comme la demande d’images de la page A n’a jamais abouti, la deuxième page apparaît comme le premier accès de la visite dans Adobe Analytics, avec la page A comme référent. La visite est classée comme Actualisation de session.
 
-Une règle d’affilié identifie les visiteurs envoyés par un ensemble donné de domaines référents. Faites figurer dans la règle la liste des domaines d’affiliés dont vous souhaitez effectuer le suivi, de la manière suivante :
+**Scénario 6 : effacement des cookies durant la visite**
 
-![](assets/example_affiliates.png)
-
-## Réseaux sociaux  {#social-networks}
-
-Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook*. Les paramètres peuvent être les suivants :
-
-![](assets/example_social.png)
-
-## Afficher  {#display}
-
-Cette règle identifie les visiteurs provenant de bannières publicitaires. Elle est identifiée par un paramètre de chaîne de requête dans l’URL de destination, dans ce cas  *`Ad_01`*.
-
-![](assets/example_display.png)
-
-## Interne {#internal}
-
-Cette règle identifie les visiteurs renvoyés par un référent qui correspond aux filtres d’URL internes de la suite de rapports.
-
-![](assets/example_internal.png)
-
-## Courriel  {#email}
-
-Pour configurer cette règle, indiquez le paramètre de chaîne de requête de votre campagne par courriel. Dans cet exemple, le paramètre est  *`eml`* :
-
-![](assets/example_email.png)
-
-Si votre règle contient Codes de suivi, entrez une valeur par ligne, comme illustré ici :
-
-![](assets/tracking_code.png)
-
-## Direct  {#direct}
-
-Cette règle identifie les visiteurs sans domaine référent. Elle inclut les visiteurs venus sur votre site directement, depuis un lien Favoris ou en collant un lien dans leur navigateur, par exemple.
-
-![](assets/example_direct.png)
+Un visiteur se rend sur le site et efface ses cookies durant la visite. Les canaux Première touche et Dernière touche seront réinitialisés et la visite sera classée comme Actualisation de session (car le référent est interne).
 
