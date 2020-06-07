@@ -2,9 +2,9 @@
 description: Le panneau Analyses pour la Cible (A4T) vous permet d’analyser vos activités et expériences de Cible Adobe dans l’espace de travail des Analyses.
 title: Panneau Analyses pour la Cible (A4T)
 translation-type: tm+mt
-source-git-commit: 516557c04acbc7300925ed3d13ac3c087f3ed3de
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '613'
 ht-degree: 14%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Le panneau]** Analytics pour la Cible est actuellement soumis à des tests limités. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Le panneau Analyses pour la Cible (A4T)]** est actuellement en cours de test limité. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 Le panneau Analyses de Cible (A4T) vous permet d’analyser vos activités et expériences de Cible Adobe dans l’espace de travail des Analyses. Il vous permet également d’afficher l’effet élévateur et la fiabilité pour 3 mesures de réussite au maximum. Pour accéder au panneau A4T, accédez à une suite de rapports avec les composants A4T activés. Cliquez ensuite sur l’icône du panneau située à l’extrême gauche et faites glisser le panneau Analyses de Cible dans votre projet Analyse Workspace.
 
