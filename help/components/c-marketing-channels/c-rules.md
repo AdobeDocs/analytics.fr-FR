@@ -2,7 +2,7 @@
 title: Règles de traitement des canaux marketing
 description: Les règles de traitement des canaux marketing déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal. Les règles traitent tous les accès qu’un visiteur effectue sur votre site. Si une règle ne satisfait pas les critères d’un canal, ou si les règles ne sont pas configurées correctement, le système affecte l’accès à « Aucun canal identifié ».
 translation-type: tm+mt
-source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 70%
@@ -150,6 +150,8 @@ Cette règle identifie les visiteurs qui proviennent d’un ensemble spécifié 
 
 Une bonne pratique consiste à inclure un canal &quot;Autres campagnes&quot; qui suit toutes les règles de canal payé. Ce canal sert de fourre-tout pour le trafic payant non classé.
 
+![](assets/other-campaigns.png)
+
 ### Réseaux sociaux  {#social-networks}
 
 Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook*. Le canal est souvent renommé Organique Social. Les paramètres peuvent être les suivants :
@@ -174,3 +176,4 @@ Cette règle identifie les visiteurs qui n’ont aucun domaine référent, ce qu
 
 Le canal Domaines référents identifie les visiteurs qui ont un domaine référent. Ensemble, les canaux de domaines internes, directs et référents agissent comme un fourre-tout pour tous les accès restants qui n’ont pas encore été classés en canal.
 
+![](assets/referring-domains.png)
