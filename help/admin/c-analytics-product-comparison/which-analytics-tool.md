@@ -3,7 +3,10 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+workflow-type: tm+mt
+source-wordcount: '1093'
+ht-degree: 98%
 
 ---
 
@@ -21,22 +24,12 @@ Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/hel
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**doit être utilisé :
 
 * Pour les utilisateurs débutants qui ont besoin d’accéder à des rapports pré-créés plus faciles à parcourir.
-* Pour comprendre l’effet élévateur et le degré de confiance de l’activité Target (Analytics pour Target/A4T).
 * Pour accéder aux données en temps réel dans l’interface utilisateur.
 * Pour configurer les événements du calendrier.
 * Pour configurer les cibles.
 * Pour afficher les rapports des robots.
 * Pour accéder à des visualisations vidéo uniques en fonction de la Visionneuse simultanée, de la Tranche horaire de la vidéo et de l’Abandon du visionnage.
 * Pour tirer parti des Listes de publication dans les rapports programmés.
-
-L’**[interface utilisateur de Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html)**doit être utilisée :
-
-* Si un affichage cloisonné des données des applications mobiles est souhaité.
-* Gérer l’implémentation de votre SDK d’applications mobiles.
-* Configurer la publicité mobile, comme la messagerie in-app, la messagerie Push et le ciblage géographique.
-* Si des visualisations interactives supplémentaires sont souhaitées pour les données des applications (rayons).
-* Visualiser des points ciblés sur une carte.
-* Pour les mesures de valeur de durée de vie.
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**doit être utilisé :
 
@@ -118,7 +111,7 @@ Les **[API de création de rapports](https://www.adobe.io/apis/experiencecloud/a
 
 * **Données entièrement traitées** : lorsque vous souhaitez des données riches en fonctionnalités (notamment des visites, des visiteurs et des segments). Il s’agit généralement de données résumées de l’interface utilisateur d’Analytics disponibles sous 30 à 90 minutes. Utilisation possible par l’intermédiaire du Report Builder.
 * **Temps réel** : lorsque vous souhaitez voir quelques mesures et dimensions avec des secondes de latence. Il s’agit de données limitées, partiellement traitées et résumées, disponibles sous 30 secondes environ. Inclut des algorithmes uniques, des plus populaires, des gagnants et des perdants. Utilisation possible par l’intermédiaire du Report Builder.
-* **[!UICONTROL Live Stream]** : lorsque vous souhaitez un flux de données Analytics de niveau accès traitées partiellement, dans les secondes suivant la collecte. Il s’agit de données partiellement traitées, disponibles sous 30 secondes environ. Disponible pour Analytics Premium uniquement. Nécessite une méthode de visualisation des données, généralement par l’intermédiaire de services d’ingénierie.
+* **[!UICONTROL Livestream]** : lorsque vous souhaitez un flux de données Analytics de niveau accès traitées partiellement, dans les secondes suivant la collecte. Il s’agit de données partiellement traitées, disponibles sous 30 secondes environ. Disponible pour Analytics Premium uniquement. Nécessite une méthode de visualisation des données, généralement par l’intermédiaire de services d’ingénierie.
 
 ## Solutions personnalisées {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +124,4 @@ Les services d’ingénierie doivent être utilisés lorsque :
 * Vous disposez de plusieurs sources de données.
 * Vous êtes contraint par des exigences ETL (Extract-Transform-Load) de données complexes.
 * Vous voulez une valorisation de marque personnalisée.
-* Vous souhaitez visualiser [!UICONTROL Analytics Live Stream].
+* Vous voulez visualiser [!UICONTROL Analytics Live Stream].
