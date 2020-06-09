@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: Identification des visiteurs uniques
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +21,7 @@ Adobe utilise un cookie pour effectuer le suivi des navigateurs/appareils unique
 
 Adobe Analytics fournit plusieurs mécanismes permettant d’identifier les visiteurs, répertoriés dans le tableau suivant par ordre de préférence :
 
-| Ordre utilisé | Paramètre de requête (méthode de collecte) | Présent quand |
+| Ordre utilisé | Paramètre de requête (méthode de collecte) | Présenter quand |
 |---|---|---|
 | 1 | vid (s.visitorID) | s.visitorID est défini. |
 | 2 | aid (cookie s_vi) | Le visiteur avait un cookie s_vi existant avant le déploiement du service d’identification des visiteurs, ou vous avez configuré une période de grâce d’identification des visiteurs. |
@@ -117,7 +119,7 @@ Vous pouvez également transmettre un « 1 » ou un « 5 » dans les demande
 
 S’agissant de l’identification des utilisateurs, la méthode de l’identifiant abonné se révèle généralement plus fiable qu’un cookie, compte tenu des problèmes de suppression et d’acceptation des cookies, ainsi que de ceux liés à la gestion des cookies de passerelle.
 
-Vous pouvez améliorer les changements d’identification d’un visiteur ajouté à la liste blanche pour l’opérateur utilisé par vos visiteurs mobiles. Pour accéder à l’identifiant visiteur de l’opérateur, contactez ce dernier pour qu’il ajoute votre domaine à sa liste blanche. Si vous figurez sur la liste blanche de l’opérateur, vous avez également accès aux en-têtes d’identifiant abonné auxquels vous ne pourriez peut-être pas accéder autrement.
+Vous pouvez améliorer les modifications d’identification d’un visiteur en étant ajouté à la liste &quot;autorisée&quot; de l’opérateur utilisé par vos visiteurs mobiles. Pour accéder à l’ID de visiteur de l’opérateur, contactez l’opérateur pour ajouter votre domaine à sa liste &quot;autorisée&quot;. Si vous utilisez la liste autorisée d&#39;un opérateur, vous avez également accès à des en-têtes d&#39;ID d&#39;abonné auxquels vous ne pourriez peut-être pas accéder autrement.
 
 La liste ci-dessous d’en-têtes est utilisée pour identifier les périphériques sans fil. L’algorithme de traitement des en-têtes consiste à
 
