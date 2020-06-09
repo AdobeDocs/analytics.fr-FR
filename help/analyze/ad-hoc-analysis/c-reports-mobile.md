@@ -3,7 +3,10 @@ description: Affiche des informations sur l’accès aux sites Web depuis un pé
 title: Rapports sur les périphériques mobiles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1379'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ Affiche des informations sur l’accès aux sites Web depuis un périphérique m
 
 Affiche des informations sur l’accès aux sites Web depuis un périphérique mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les périphériques mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
 
-Afin d’améliorer l’identification des visiteurs de périphériques mobiles, vous devez figurer sur la liste de l’opérateur (liste blanche) pour envoyer des ID d’abonné à un domaine (vous pouvez afficher l’opérateur dans le rapport **[!UICONTROL Profil du visiteur]** > **[!UICONTROL Domaines]**).
+Pour améliorer l&#39;identification des visiteurs pour les périphériques mobiles, vous devez être sur la liste de l&#39;opérateur (&quot;liste autorisée&quot;) pour envoyer des ID d&#39;abonné à un domaine. (vous pouvez afficher l’opérateur dans le rapport **[!UICONTROL Profil du visiteur]** > **[!UICONTROL Domaines]**).
 
 >[!NOTE] Pour afficher les rapports sur un appareil mobile, connectez-vous à [Experience Cloud](https://login.experiencecloud.adobe.com).
 
