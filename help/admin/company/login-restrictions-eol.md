@@ -1,21 +1,24 @@
 ---
-title: Fin de vie pour [ ! UICONTROL Appliquer les restrictions d'identification IP]
-description: Découvrez le timing et les implications de fin de vie pour [ ! UICONTROL Mettre en place les restrictions d'identification IP]
+title: Fin de vie de la fonction [!UICONTROL Exiger des restrictions d’identification par IP]
+description: Découvrez la date de fin de vie de la fonction [!UICONTROL Exiger des restrictions d’identification par IP] et les répercussions à attendre.
 translation-type: tm+mt
-source-git-commit: 940638b77f800b471f1ce4097a8ca6de98d518d3
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 85%
 
 ---
 
 
-# Fin de vie pour [!UICONTROL Enforce IP login restrictions]
+# Fin de vie de la fonction [!UICONTROL Exiger des restrictions d’identification par IP]
 
-La fonction **[Exiger des restrictions d’identification par IP](/help/admin/company/security-manager.md)**dans Adobe Analytics vous permet de mettre certaines adresses IP (considérées comme sécurisées) sur liste blanche afin d’assurer la connexion et l’accès à votre environnement Adobe Analytics. Dans de nombreux cas, cette fonctionnalité est utilisée pour configurer une adresse IP d’entreprise comme la seule adresse IP sécurisée à partir de laquelle les utilisateurs peuvent se connecter. Par conséquent, pour utiliser Adobe Analytics, les utilisateurs doivent se trouver dans un bureau d’entreprise ou se connecter au réseau via VPN.
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an &quot;allowed&quot; list, so as to allow successful logins and access to your Adobe Analytics environment. Dans de nombreux cas, cette fonctionnalité est utilisée pour configurer une adresse IP d’entreprise comme la seule adresse IP sécurisée à partir de laquelle les utilisateurs peuvent se connecter. Par conséquent, pour utiliser Adobe Analytics, les utilisateurs doivent se trouver dans un bureau d’entreprise ou se connecter au réseau via VPN.
 
 Nous prévoyons la fin de vie de cette fonctionnalité en janvier 2021.
 
 ## Pourquoi cette fonctionnalité est-elle abandonnée ?
 
-Cette fonctionnalité est parfois non fonctionnelle en raison de la migration de la connexion à Experience Cloud et/ou par la connexion à Experience Cloud. Il est connu pour rompre pour les clients utilisant **[!UICONTROL Customer Attributes]** ou **[!UICONTROL Audience Library]**.
+Cette fonctionnalité est parfois non fonctionnelle en raison de la migration de la connexion à Experience Cloud et/ou par la connexion à Experience Cloud. Elle fonctionne généralement mal pour les clients qui utilisent les **[!UICONTROL Attributs du client]** ou la **[!UICONTROL Bibliothèque d’audiences]**.
 
 De plus, si vous possédez plusieurs solutions Experience Cloud, vous pouvez contourner cette exigence en vous connectant à Experience Cloud avec l’une des autres solutions, car cette fonctionnalité n’existe pas ou n’est pas prise en charge en dehors d’Analytics. Les utilisateurs peuvent également contourner ce problème en usurpant les adresses IP.
 
@@ -23,9 +26,9 @@ Enfin, Adobe propose une solution alternative fonctionnelle et bien plus perform
 
 ## En quoi la suppression de cette fonction vous concerne-t-elle ?
 
-Pour tout client qui a **[!UICONTROL Enforce IP login restrictions]** configuré cette fonctionnalité, elle sera supprimée en janvier 2021. À ce moment-là, les restrictions d’identification par IP toujours en vigueur ne seront plus appliquées. Si vous devez encore limiter la connexion par adresse IP, vous devez examiner et mettre en œuvre une solution recommandée : l’authentification unique ou Federated ID (plus d’informations et de ressources ci-dessous).
+For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. À ce moment-là, les restrictions d’identification par IP toujours en vigueur ne seront plus appliquées. Si vous devez encore limiter la connexion par adresse IP, vous devez examiner et mettre en œuvre une solution recommandée : l’authentification unique ou Federated ID (plus d’informations et de ressources ci-dessous).
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below).
+En outre, le paramètre **[!UICONTROL Exiger des restrictions d’identification par IP]** sera supprimé de **[!UICONTROLAAdmin > Paramètres de la société > Gestionnaire de sécurité]** dans l’interface utilisateur d’Analytics (comme illustré ci-dessous).
 
 ![](assets/sec-manager2.png)
 
