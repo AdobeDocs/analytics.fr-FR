@@ -2,10 +2,10 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 72%
+source-wordcount: '1192'
+ht-degree: 71%
 
 ---
 
@@ -50,7 +50,7 @@ Dans certains cas, il est possible que plusieurs personnes se connectent à part
 
 **Comment le graphique de l’appareil gère-t-il les situations où une seule personne a BEAUCOUP d’appareils/d’ECID ?**
 
-Dans certains cas, un utilisateur individuel peut s’associer à un grand nombre d’ECID. Cela peut se produire s’il utilise un grand nombre de navigateurs ou d’applications et peut être exacerbé s’il lui arrive régulièrement de supprimer les cookies ou d’utiliser le mode de navigation privé ou incognito du navigateur. Le Device Graph limite à 200 le nombre d’ECID liés à un ID utilisateur donné. Si un ID utilisateur est associé à un trop grand nombre d’ECID, le Device Graph suppose que l’ID utilisateur n’est pas valide et supprime la grappe qui lui est associée. L’ID utilisateur est alors mis sur liste noire afin de ne plus être mis en grappe à l’avenir. Par conséquent, le comportement de l’ID utilisateur n’est pas regroupé sur plusieurs appareils.
+Dans certains cas, un utilisateur individuel peut s’associer à un grand nombre d’ECID. Cela peut se produire s’il utilise un grand nombre de navigateurs ou d’applications et peut être exacerbé s’il lui arrive régulièrement de supprimer les cookies ou d’utiliser le mode de navigation privé ou incognito du navigateur. Le Device Graph limite à 200 le nombre d’ECID liés à un ID utilisateur donné. Si un ID utilisateur est associé à un trop grand nombre d’ECID, le Device Graph suppose que l’ID utilisateur n’est pas valide et supprime la grappe qui lui est associée. L’ID utilisateur est ensuite ajouté à une liste &quot;bloquée&quot; afin d’éviter qu’elle ne soit reorganisée en grappe à l’avenir. Par conséquent, le comportement de l’ID utilisateur n’est pas regroupé sur plusieurs appareils.
 
 **Quelle est la différence entre la mesure &quot;Personnes&quot; de l&#39;ADC et la mesure &quot;Visiteurs uniques en dehors de l&#39;ADC ?**
 
