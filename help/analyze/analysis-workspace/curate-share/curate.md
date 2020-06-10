@@ -1,66 +1,63 @@
 ---
-description: Le traitement permet de limiter les composants avant de partager un projet. Vous pouvez traiter et partager un projet et ses composants avec les marketeurs et d’autres personnes qui ne sont pas des analystes de votre entreprise. Annotez et appliquez des balises aux projets.
-keywords: Analysis Workspace
-title: Traitements et partages - Aperçu
-topic: Reports and analytics
-uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
+description: Le traitement vous permet de limiter les composants avant de partager un projet.
+keywords: Analysis Workspace curation
+title: Traiter les projets Workspace
 translation-type: tm+mt
-source-git-commit: 1e7d36e48f6ee3b9066e3933d831dd4d28f670c6
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 39%
 
 ---
 
 
-# Traitements et partages - Aperçu
+# Traiter les projets Workspace
 
-Le traitement permet de limiter les composants avant de partager un projet. Vous pouvez traiter et partager un projet et ses composants avec les marketeurs et d’autres personnes qui ne sont pas des analystes de votre entreprise. Annotez et appliquez des balises aux projets.
+Le traitement vous permet de limiter les composants (dimensions, mesures, segments, plages de dates) avant de partager un projet. Lorsqu’un destinataire ouvre le projet, il voit un ensemble limité de composants que vous avez traités pour eux. Le traitement est une étape facultative mais recommandée avant de partager un projet.
 
-**Vue d’ensemble des vidéos**
+>[!NOTE]
+> Les profils de produit constituent le principal mécanisme contrôlant ce que voit un utilisateur. Ils sont gérés au moyen d’Admin Console. Le traitement est un filtre secondaire.
 
->[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+## Appliquer le traitement du projet
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Partager]** > **[!UICONTROL Traiter les données du projet]**
-
-## Traiter les données du projet
-
-1. Spécifiez les autorisations afin de créer et de traiter des projets.
-
-   Avant de créer ou de traiter un projet Analysis Workspace, les administrateurs doivent vous ajouter à un [groupe](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html) avec l’autorisation **[!UICONTROL Accès à Analysis Workspace]** activée ou au groupe d’utilisateurs **[!UICONTROL Accès à tous les rapports]**. (**[!UICONTROL Administration]** > **[!UICONTROL Gestion utilisateur]** > **[!UICONTROL Groupes]**).
-
-1. [Créez et enregistrez](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) un projet, puis cliquez sur **[!UICONTROL Partager]** > **[!UICONTROL Traiter les données du projet]**.
-1. Faites glisser les composants à partager depuis la pile de composants déplaçables à gauche vers le champ **[!UICONTROL Composants traités]**.
-
-   ![](assets/curated-components.png)
-
-   >[!IMPORTANT]
-   >
-   >Il n’est pas obligatoire de traiter les composants pour partager un projet. Vous pouvez partager un projet avec tous les composants par défaut disponibles ou avec certains composants sélectionnés. Pour préserver tous les composants par défaut d’un projet, il est recommandé de se créer une copie dudit projet (à l’aide de l’option **[!UICONTROL Enregistrer sous]**) avant de traiter les composants. Une fois les composants traités dans un projet, vous n’avez plus accès aux autres composants pour ce même projet.
-
+1. Click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+Les composants utilisés dans le projet seront automatiquement ajoutés.
+   **Remarque**: Si un projet comporte plusieurs suites de rapports, un champ de traitement s’affiche pour chaque suite de rapports du projet.
+1. (Facultatif) Pour ajouter d’autres composants, faites glisser les composants que vous souhaitez partager depuis le rail de gauche vers le champ [!UICONTROL Traiter les composants] .
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
-Le projet généré se comporte comme un projet type dans Analysis Workspace, mais uniquement avec les composants spécifiés.
+![](assets/curation-field.png)
 
-## Partage d’un projet traité
+Lorsqu’un destinataire ouvre un projet traité, il ne voit que l’ensemble de composants traités que vous avez définis :
 
-Le partage rend ce projet disponible pour d’autres utilisateurs d’Analysis Workspace de votre entreprise. Tout traitement que vous avez effectué est reflété lorsque d’autres utilisateurs utilisent le projet.
+![](assets/curate-project.png)
 
-1. Après avoir traité les composants d’un rapport, cliquez sur **[!UICONTROL Partager]** > **[!UICONTROL Partager le projet]**.
+Le traitement peut également être appliqué à partir du menu [!UICONTROL Partager] en cliquant sur **[!UICONTROL Traiter et Partager]**. Cette option traite automatiquement le projet en fonction des composants utilisés dans le projet. Vous pouvez ajouter d’autres composants en suivant les étapes ci-dessus.
 
-   ![](assets/share_component.png)
+## Supprimer la gestion du projet
 
-1. Ajoutez des destinataires.
-1. (Facultatif) Vous pouvez partager avec tous les destinataires les composants de projet incorporés (segments, mesures calculées et plages de dates). Une fois partagés, ces composants apparaîtront dans le menu déroulant des composants du Workspace du destinataire.
+Pour supprimer la gestion du projet et restaurer l&#39;ensemble complet des composants dans le rail de gauche :
+1. Click **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. Cliquez sur **[!UICONTROL Supprimer le traitement]**.
+1. Cliquez sur **[!UICONTROL Terminé]**.
 
-   >[!IMPORTANT]
-   >
-   >Ce paramètre est ponctuel ; c’est une action unique au moment du partage.
+## Traitement de la suite de rapports virtuelle
 
-1. Vous pouvez également définir cette page comme page d’entrée pour les destinataires.
+Pour appliquer la gestion au niveau d’une suite de rapports, de sorte qu’elle s’applique simultanément à de nombreux projets, vous pouvez [traiter des composants dans une suite de rapports virtuelle](https://docs.adobe.com/content/help/fr-FR/analytics/components/virtual-report-suites/vrs-components.html).
 
-   >[!IMPORTANT]
-   >
-   >Ce paramètre est ponctuel ; c’est une action unique au moment du partage.
+>[!NOTE]
+> Le traitement des suites de rapports virtuelles est toujours appliqué avant le traitement du projet. Cela signifie que même si votre projet traité inclut certains composants, ils seront exclus si la suite de rapports virtuelle traitée ne les inclut pas.
 
-1. Cliquez sur **[!UICONTROL Partager]**.
+### Afficher tous les composants
+
+Dans un projet organisé ou une suite de rapports virtuelle, le destinataire aura la possibilité d&#39; **[!UICONTROL afficher tous les]** composants dans le rail de gauche. [!UICONTROL Tout] afficher révèle différents jeux de composants, en fonction des éléments suivants :
+
+* niveau d’autorisation de l’utilisateur (administrateur ou non-administrateur)
+* rôle de projet (propriétaire/éditeur ou non)
+* type de traitement appliqué
+
+| Type de traitement | Administrateurs | Propriétaires de projets non-administrateurs | Non-administrateurs |
+|---|---|---|---|
+| Suites de rapports virtuelles non traitées | Tous les composants de suites de rapports virtuelles non traités | Composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés | Composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés |
+| Projet traité | Tous les composants de projets non traités | Tous les composants de projets non traités | Composants de projets non traités possédés par ce rôle ou avec lequel ils ont été partagés |
+| Projet traité dans une de suite de rapports virtuelle traitée | Tous les composants non traités ci-dessous  **[!UICONTROL Composants de projets non traités]** et **[!UICONTROL Composants de suites de rapports virtuelles non traités]** | Tous les composants de projets non traités ET les composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés | Composants de projets et de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés |
