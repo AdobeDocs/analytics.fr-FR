@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f29a9eef7dcdb0568a947521ca32f7aa0c2ce5b7
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 97%
+source-wordcount: '1099'
+ht-degree: 96%
 
 ---
 
@@ -93,8 +93,9 @@ ht-degree: 97%
          + [Cas d’utilisation de la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Traitement et partage de projets {#curate-share}
-      + [Traitements et partages - Aperçu](analysis-workspace/curate-share/curate.md)
-      + [Traitement des suites de rapports virtuelles et des projets](analysis-workspace/curate-share/curate-projects-vrs.md)
+      + [Traitement d’un projet Workspace](analysis-workspace/curate-share/curate.md)
+      + [Projets Share Workspace](analysis-workspace/curate-share/share-projects.md)
+      + [Projets Workspace à Vue seule](analysis-workspace/curate-share/view-only-projects.md)
       + [Téléchargement de fichiers PDF ou CSV](analysis-workspace/curate-share/download-send.md)
       + [Partage et planification de fichiers de projet](analysis-workspace/curate-share/send-schedule-files.md)
       + [Envoi d’un fichier – Planification de la livraison d’un projet](analysis-workspace/curate-share/t-schedule-report.md)
