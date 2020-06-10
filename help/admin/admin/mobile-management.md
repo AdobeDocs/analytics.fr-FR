@@ -1,19 +1,21 @@
 ---
-description: L’application de la gestion mobile active les variables des solutions mobiles qui capturent le cycle de vie et d’autres mesures des applications mobiles.
-title: Gestion mobile
+description: L’activation de la gestion des applications active les variables de solution mobile qui capturent le cycle de vie et d’autres mesures des applications mobiles.
+title: Gestion des applications
 topic: Admin tools
-uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 91%
 
 ---
 
 
-# Gestion mobile
+# Gestion des applications
 
-L’application de la gestion mobile active les variables des solutions mobiles qui capturent le cycle de vie et d’autres mesures des applications mobiles.
+L’activation de la gestion des applications active les variables de solution mobile qui capturent le cycle de vie et d’autres mesures des applications mobiles.
 
-Cette intégration entre Adobe Analytics et Mobile Services
+Cette intégration entre Adobe Analytics et Mobile Services:
 
 * permet de partager vos données IPC (Indicateur de performance clé) provenant de Mobile Services avec Adobe Analytics ;
 * permet d’activer le suivi de l’emplacement ;
@@ -23,7 +25,7 @@ Cette intégration entre Adobe Analytics et Mobile Services
 * ajoute de nouvelles dimensions Adobe Mobile ;
 * synchronise les données avec Analytics toutes les 15 minutes
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion mobile]** > **[!UICONTROL Rapports d’applications mobiles]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > Suites **[!UICONTROL de]** rapports > **[!UICONTROL Modifier les paramètres]** > Gestion des applications > Rapports de l’application .********
 
 ## Étape 1. Activation d’App Reports {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -48,7 +50,7 @@ L’activation du suivi de l’emplacement permet :
 L’activation des accès en arrière-plan (accès générés lorsque l’application est en arrière-plan) signifie qu’ils ont été traités comme des accès de premier plan. Ils s’affichent maintenant dans les rapports normaux, ce qui impacte également l’affectation. Cette configuration est généralement souhaitable uniquement pour maintenir la cohérence avec les implémentations héritées.
 
 Au lieu de cela, il est recommandé d’inclure les « accès en arrière-plan » dans une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md). Vous pouvez ainsi afficher les accès mais ils n’affecteront pas défavorablement le nombre de visites et de visiteurs.
-Les classifications mobiles sont activées une fois que vous avez activé **[!UICONTROL Gestion mobile]** > **[!UICONTROL Rapports d’applications mobiles]**.
+Mobile classifications are enabled after you enable **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
 
 Les classifications permettent de classer des valeurs dans des groupes et de générer des rapports au niveau du groupe. Par exemple, vous pouvez classifier toutes les campagnes de recherches payantes dans une catégorie « termes de pop music » et générer des rapports sur le succès de cette catégorie par rapport à des mesures de type Instances (ou Clics publicitaires), ainsi qu’à la conversion en événements de succès.
 
