@@ -1,10 +1,10 @@
 ---
 title: Utilisation des données XDM avec Analytics
-description: 'Présentation de l’utilisation des données XDM de la plate-forme d’expérience dans Adobe Analytics '
+description: 'Présentation de l’utilisation des données XDM de la plateforme d’expérience dans Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 3526d9f98b545e5f720a0cb127857e7fd5d5388e
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '259'
 ht-degree: 4%
 
 ---
@@ -17,17 +17,15 @@ Vous pouvez utiliser le SDK [Web d’](https://docs.adobe.com/content/help/fr-FR
 Analytics collecte les données XDM de deux manières :
 
 * Mappage automatique à partir de schémas XDM
-
 * Mappage manuel des données contextuelles
 
 ## Mappage automatique
 
-[Le mappage](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/help/implement/aep-edge/xdm-manual.md) automatique repose sur un [schéma](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) par défaut dans XDM qui renseigne automatiquement les objets JSON inclus dans la collecte de données Analytics standard. Les variables [Analytics automatiquement mises en correspondance depuis XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) avec les suites de rapports configurées ne nécessitent aucune prise en charge de développeur pour être incorporées.
+[Le mappage](xdm-manual.md) automatique repose sur un [schéma](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) par défaut dans XDM qui renseigne automatiquement les objets JSON inclus dans la collecte de données Analytics standard. Les variables Analytics qui sont automatiquement mises en correspondance entre XDM et vos suites de rapports configurées ne nécessitent aucune prise en charge de développeur pour être incorporées.
 
 ## Mappage manuel
 
-Le mappage manuel des données XDM avec Analytics repose sur les variables de données [contextuelles](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) Analytics. Ces variables sont placées dans des objets JSON correspondant aux schémas applicables. En règle générale, votre équipe de développement ajoute des données contextuelles lors de l’implémentation, puis les administrateurs définissent des règles [de](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) traitement pour appliquer ces données à des suites de rapports spécifiées.
-
+Le mappage manuel des données XDM avec Analytics repose sur les variables de données [contextuelles](../vars/page-vars/contextdata.md) Analytics. Ces variables sont placées dans des objets JSON correspondant aux schémas applicables. En règle générale, votre équipe de développement ajoute des données contextuelles lors de l’implémentation, puis les administrateurs définissent des règles [de](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) traitement pour appliquer ces données à des suites de rapports spécifiées.
 
 ## Configuration
 
@@ -35,5 +33,4 @@ Pour configurer Analytics pour recevoir des données XDM :
 
 1. Installez et [configurez](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/configuring-the-sdk.html) le SDK [Web](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/installing-the-sdk.html)Adobe Experience Platform.
 
-2. Assurez-vous que les suites de rapports applicables sont mises en correspondance avec les données de votre choix. Les données XDM sont automatiquement transférées à la suite de rapports depuis la plateforme Adobe Experience.
-
+2. Assurez-vous que les suites de rapports applicables sont mises en correspondance avec les données de votre choix. Les données XDM sont automatiquement transférées vers la suite de rapports à partir de la plateforme Adobe Experience.
