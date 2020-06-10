@@ -5,9 +5,9 @@ subtopic: Visitors
 title: Identification des visiteurs uniques
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 96%
 
 ---
@@ -119,7 +119,7 @@ Vous pouvez également transmettre un « 1 » ou un « 5 » dans les demande
 
 S’agissant de l’identification des utilisateurs, la méthode de l’identifiant abonné se révèle généralement plus fiable qu’un cookie, compte tenu des problèmes de suppression et d’acceptation des cookies, ainsi que de ceux liés à la gestion des cookies de passerelle.
 
-Vous pouvez améliorer les modifications d’identification d’un visiteur en étant ajouté à la liste &quot;autorisée&quot; de l’opérateur utilisé par vos visiteurs mobiles. Pour accéder à l’ID de visiteur de l’opérateur, contactez l’opérateur pour ajouter votre domaine à sa liste &quot;autorisée&quot;. Si vous utilisez la liste autorisée d&#39;un opérateur, vous avez également accès à des en-têtes d&#39;ID d&#39;abonné auxquels vous ne pourriez peut-être pas accéder autrement.
+Vous pouvez améliorer les modifications d&#39;identification d&#39;un visiteur en étant ajouté à la liste d&#39;autorisations de l&#39;opérateur utilisé par vos visiteurs mobiles. Pour accéder à l&#39;ID de visiteur de l&#39;opérateur, contactez l&#39;opérateur pour ajouter votre domaine à sa liste d&#39;autorisations. Si vous vous trouvez sur la liste d’autorisations d’un opérateur, vous avez également accès à des en-têtes d’ID d’abonné auxquels vous ne pourrez peut-être pas accéder autrement.
 
 La liste ci-dessous d’en-têtes est utilisée pour identifier les périphériques sans fil. L’algorithme de traitement des en-têtes consiste à
 
