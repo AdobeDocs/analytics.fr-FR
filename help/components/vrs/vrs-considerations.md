@@ -5,7 +5,10 @@ title: Points à prendre en compte concernant le balisage multisuite et les suit
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '1735'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +55,7 @@ Des sites différents ont des besoins d’implémentation différents. Certains 
 
 Assurez-vous que le nombre de dimensions et de mesures uniques peut tenir dans une seule suite de rapports globale. Si vous constatez qu’il existe trop de dimensions ou de mesures uniques, passez en revue chaque dimension dans chaque implémentation. Il y a probablement des chevauchements et des dimensions qui ne sont pas essentiels à la réussite de l’entreprise. Pensez également à utiliser [des classifications](/help/components/c-classifications2/c-classifications.md). Par exemple, au lieu de capturer « Nom du produit » dans eVar5, créez une classification « Nom du produit » en fonction de la dimension du « Produit ». Les classifications d’une suite de rapports source sont automatiquement disponibles pour toutes les suites de rapports virtuelles dépendantes.
 
->[!TIP] Avec l’introduction de la [conservation](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), vous pouvez modifier le nom d’une dimension ou d’une mesure sur une base de suite de rapports virtuelle.
+>[!TIP] Avec l’introduction de la [conservation](/help/analyze/analysis-workspace/curate-share/curate.md), vous pouvez modifier le nom d’une dimension ou d’une mesure sur une base de suite de rapports virtuelle.
 
 ### Nuances de segmentation
 
