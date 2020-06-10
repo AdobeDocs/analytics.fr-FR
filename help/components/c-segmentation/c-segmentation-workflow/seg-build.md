@@ -4,21 +4,17 @@ title: Création de segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: f50f33b456656200b4492e6fec2a441d4c29dfa3
+source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
 workflow-type: tm+mt
-source-wordcount: '2436'
-ht-degree: 99%
+source-wordcount: '2139'
+ht-degree: 92%
 
 ---
 
 
 # Créateur de segments
 
-Le [!UICONTROL Créateur de segments] propose un canevas permettant de faire glisser et de déposer des mesures, des dimensions, des segments et des événements afin de segmenter les visiteurs en fonction d’opérateurs, de règles et d’une logique de hiérarchie de conteneurs. Cet outil de développement intégré vous permet de créer et d’enregistrer des segments simples ou complexes qui identifient les attributs et actions des visiteurs entre les visites et accès aux pages.
-
->[!IMPORTANT]
->
->Nous avons introduit des modèles d’attribution de dimension dans la version de juin 2019. Voir #6 sous Fonctionnalités de l’interface utilisateur Web ci-dessous.
+Le [!UICONTROL Créateur de segments] permet de créer des segments simples ou complexes qui identifient les attributs et actions des visiteurs lors les visites et accès aux pages. Il offre un canevas permettant de faire glisser et de déposer des dimensions de mesure, des événements ou d’autres segments afin de segmenter les visiteurs selon une logique de hiérarchie, des règles et des opérateurs.
 
 Il existe plusieurs façons d’accéder au Créateur de segments :
 
@@ -28,43 +24,38 @@ Il existe plusieurs façons d’accéder au Créateur de segments :
 * **[!UICONTROL Ad Hoc Analysis]** : [créer des segments dans Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
 * **[!UICONTROL Report Builder]** : [ajouter ou modifier des segments dans le créateur de segments](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html).
 
-## Interface utilisateur du Créateur de segments {#concept_643F2DF74C544796B58F4656ABC5F726}
+## Critères du créateur {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-Le [!UICONTROL Créateur de segments] permet de créer des segments simples ou complexes qui identifient les attributs et actions des visiteurs lors des visites et accès aux pages. Il offre un canevas permettant de faire glisser et de déposer des dimensions de mesure, des événements ou d’autres segments afin de segmenter les visiteurs selon une logique de hiérarchie, des règles et des opérateurs.
-
-## Fonctionnalités de l’interface utilisateur Web  {#section_F61C4268A5974C788629399ADE1E6E7C}
-
-Le [!UICONTROL Créateur de segments] permet de créer et de modifier des segments dans l’interface utilisateur Web (ou dans une [interface utilisateur Java des analyses ad hoc](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)). Vous pouvez ajouter des définitions de règle et des conteneurs afin d’affiner vos segments en les empilant et les imbriquant. Vous pouvez également valider le nombre de pages vues, de visites et de visiteurs uniques qui a résulté de votre définition de segment active. Le segment pourra alors être enregistré en vue d’une utilisation ultérieure.
-
-Accédez au Créateur de segments en procédant comme suit ::
-
-* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. Dans le rail du segment qui s’affiche, cliquez sur **[!UICONTROL Ajouter]**.
-
-* Dans le Gestionnaire de segments, cliquez sur **[!UICONTROL + Ajouter]**.
-* Cliquez sur le titre d’un segment existant dans le Gestionnaire de segments afin de modifier le segment dans le Créateur de segments.
+Vous pouvez ajouter des définitions de règles et des conteneurs pour définir vos segments.
 
 ![](assets/segment_builder_ui.png)
 
-1. **[!UICONTROL Titre]** : permet de nommer ou de renommer le segment.
-1. **[!UICONTROL Description]** : fournissez une description du segment. Vous devez fournir une description si vous souhaitez partager le segment.
+1. **[!UICONTROL Titre]**: Nommez le segment.
+1. **[!UICONTROL Description]** : fournissez une description du segment.
 1. **[!UICONTROL Balises]** : [marquez le segment](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) que vous créez en effectuant une sélection depuis une liste de balises existantes ou en créant une balise.
-1. **[!UICONTROL Définitions]** : il s’agit de l’espace de travail dans lequel vous [créez et configurez des segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), ajoutez des règles, et imbriquez et séquencez des conteneurs. Permet de fournir une description du nouveau segment en sélectionnant le conteneur et en faisant glisser-déposer les dimensions, segments ou mesures dans la définition.
+1. **[!UICONTROL Définitions]** : il s’agit de l’espace de travail dans lequel vous [créez et configurez des segments](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), ajoutez des règles, et imbriquez et séquencez des conteneurs.
 1. **[!UICONTROL Afficher]** : (Sélecteur Conteneur supérieur.) Permet de sélectionner le [conteneur de niveau supérieur](/help/components/c-segmentation/seg-overview.md) ([!UICONTROL Visiteur], [!UICONTROL Visite], [!UICONTROL Accès]). Le conteneur de niveau supérieur par défaut est le conteneur Accès.
 1. **[!UICONTROL Options]** : icône (engrenage)
 
    * **[!UICONTROL + Ajouter un conteneur]** : permet d’ajouter un nouveau conteneur (sous le conteneur de niveau supérieur) à la définition de segment.
-   * **[!UICONTROL + Ajouter un conteneur d’après la sélection]** : permet de créer un nouveau conteneur à partir des éléments que vous avez sélectionnés dans le champ Définitions.
    * **[!UICONTROL Exclure]** : permet de définir le segment en excluant un ou plusieurs segments, dimensions ou mesures.
 
-1. **[!UICONTROL Modèles d’attribution]** : pour la segmentation des dimensions. Les modèles de dimension sont particulièrement utiles pour la segmentation séquentielle, comme dans ceux qui prennent en charge les visualisations de flux :
+1. **[!UICONTROL Modèles]** d&#39;attribution : Disponibles uniquement pour les dimensions, ces modèles déterminent les valeurs d’une dimension pour lesquelles effectuer un segment. Les modèles de dimension sont particulièrement utiles pour la segmentation séquentielle.
 
-   * **[!UICONTROL Répétition]** ((par défaut )) : inclut des instances et des valeurs persistantes pour la dimension.
+   * **[!UICONTROL Répétition]** (par défaut) : Inclut des instances et des valeurs conservées pour la dimension.
    * **[!UICONTROL Instance]** : inclut des instances pour la dimension.
-   * **[!UICONTROL Instance non répétée]** : inclut des instances uniques (non répétées) pour la dimension.
-
+   * **[!UICONTROL Instance non répétée]** : inclut des instances uniques (non répétées) pour la dimension. Il s’agit du modèle appliqué dans le flux lorsque des instances de répétition sont exclues.
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL Comparaison]** : vous pouvez comparer et contraindre des valeurs en utilisant certains opérateurs.
+   **Exemple : Segment d’accès où eVar1 = A**
+
+   | Exemple | A  | A  | A (persistante) | B | A  | C  |
+   |---|---|---|---|---|---|---|
+   | Répétition | X | X | X | - | X | - |
+   | Instance | X | X | - | - | X | - |
+   | Instance qui ne se répète pas | X | - | - | - | X | - |
+
+1. **[!UICONTROL Opérateur]**: Vous pouvez comparer et contraindre des valeurs à l’aide d’opérateurs sélectionnés.
 1. **[!UICONTROL Dimensions]** : les dimensions sont glissées et déposées depuis la liste Dimensions (barre latérale orange).
 1. **[!UICONTROL Valeur]** : valeur que vous avez saisie ou sélectionnée pour la dimension, le segment ou la mesure.
 1. **[!UICONTROL Et/Ou/Alors]** : affecte les opérateurs [!UICONTROL ET/OU/ALORS] entre des conteneurs ou règles. L’opérateur ALORS permet de [définir des segments séquentiels](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
@@ -114,7 +105,7 @@ Les segments avec des plages de dates incorporées fonctionnent toujours différ
 
 Vous accédez maintenant au [Gestionnaire de segments](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md), où vous pouvez marquer, partager et gérer votre segment de différentes manières.
 
-## Créer et imbriquer des conteneurs {#section_1C38F15703B44474B0718CEF06639EFD}
+## conteneurs de Ajoute {#section_1C38F15703B44474B0718CEF06639EFD}
 
 Vous pouvez [créer une structure de conteneurs](/help/components/c-segmentation/seg-overview.md) et y placer des règles logiques et des opérateurs.
 
@@ -134,7 +125,7 @@ Vous pouvez [créer une structure de conteneurs](/help/components/c-segmentation
 
    Sélectionnez une ou plusieurs règles, puis cliquez sur **[!UICONTROL Options]** > **[!UICONTROL Ajouter un conteneur d’après la sélection]**. Votre sélection devient ainsi un conteneur distinct.
 
-## Utiliser des périodes dans les segments {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
+## Utiliser des plages de dates {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
 Vous pouvez créer des segments qui contiennent des périodes flottantes afin d’obtenir des réponses sur les campagnes ou les événements en cours.
 
@@ -146,7 +137,7 @@ Vous pouvez créer un conteneur Visite et dans celui-ci ajouter la période [!UI
 
 ## Empiler des segments {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-L’empilement de segments fonctionne en associant les critères de chaque segment en utilisant un opérateur « et », puis en appliquant les critères associés.
+L’empilement de segments fonctionne en associant les critères de chaque segment en utilisant un opérateur « et », puis en appliquant les critères associés. Vous pouvez effectuer cette opération dans un projet Workspace directement ou dans le créateur de segments.
 
 Par exemple, l’empilement d’un segment « utilisateurs de téléphone mobile » et d’un segment « géographie États-Unis » renvoie des données uniquement pour les utilisateurs de téléphone mobile aux États-Unis.
 
@@ -176,17 +167,11 @@ Envisagez ces segments comme des blocs de création ou des modules que vous pouv
 
    Résultat de l’étape
 
-## Utiliser des modèles de segments {#concept_5098446CC78D441E93B8E4D1D1EA6558}
+## Segment templates {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Les modèles représentent les anciens segments préconfigurés et de suite.
+Les modèles de segments sont fournis pour les cas d’utilisation courants de la segmentation, tels que &quot;Premières visites&quot; ou &quot;Visites depuis des périphériques mobiles&quot;. Ils sont disponibles dans les projets Workspace et dans le créateur de segments en tant que blocs de création pour les nouveaux segments.
 
-Dans le Gestionnaire de segments sur **[!UICONTROL Ajouter]** afin d’accéder au Créateur de segments. Cliquez maintenant sur l’icône Segments ![](assets/segment_icon.png)
-
-pour afficher le rail des segments. Les modèles de segments apparaissent au bas de la liste de segments. Ils sont indiqués par une icône en forme de dossier à gauche du nom du modèle :
-
-![](assets/seg_template.png)
-
-Vous pouvez faire glisser ces modèles dans le canevas Définitions et les utiliser tels qu’ils ont été définis, ou les modifier.
+Les modèles sont identifiés par le logo &quot;A&quot; de l&#39;Adobe. Vous trouverez ci-dessous un exemple des modèles :
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -271,14 +256,3 @@ Vous pouvez faire glisser ces modèles dans le canevas Définitions et les utili
  </tbody> 
 </table>
 
-## Exemple : segment de visiteurs de campagnes {#concept_61AC6115097B4EB3AEFE8CE98F38315D}
-
-Présente un exemple de ce segment fréquemment utilisé.
-
-De nombreux clients souhaitent consulter les mesures des visiteurs qui ont répondu à des campagnes spécifiques. La création d’un segment de visiteurs de campagnes est un moyen facile de récupérer ces données.
-
-La création de ce segment dans le Créateur de segments signifie que, depuis un conteneur de visites de niveau supérieur, vous faites glisser une dimension de campagne, dans ce cas Nom de la campagne :
-
-![](assets/seg_campaign_visitor.png)
-
-(Facultatif) Vous pouvez également appliquer une balise Campagnes à ce segment si vous souhaitez facilement appliquer un filtre sur tous les segments associés à la campagne.
