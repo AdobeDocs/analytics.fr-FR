@@ -4,10 +4,10 @@ title: Création de segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
+source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 92%
+source-wordcount: '2037'
+ht-degree: 90%
 
 ---
 
@@ -45,6 +45,7 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
    * **[!UICONTROL Répétition]** (par défaut) : Inclut des instances et des valeurs conservées pour la dimension.
    * **[!UICONTROL Instance]** : inclut des instances pour la dimension.
    * **[!UICONTROL Instance non répétée]** : inclut des instances uniques (non répétées) pour la dimension. Il s’agit du modèle appliqué dans le flux lorsque des instances de répétition sont exclues.
+
    ![](assets/attribution-models.jpg)
 
    **Exemple : Segment d’accès où eVar1 = A**
@@ -74,19 +75,7 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 
 Les segments avec des plages de dates incorporées fonctionnent toujours différemment dans Analysis Workspace par rapport au composant [!UICONTROL Reports &amp; Analytics] : dans Workspace, un segment avec une plage de dates incorporée remplace la plage de dates du panneau. En revanche, le composant [!UICONTROL Reports &amp; Analytics] indique l’intersection de la plage de dates du rapport avec la plage de dates incorporée du segment.
 
-**[!UICONTROL Publier dans Experience Cloud (pour`<report suite name>`)]** : (Non affiché à l’écran) cette option ne s’affiche que si la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Quand vous publiez un segment dans Experience Cloud, vous pouvez l’utiliser pour une activité marketing dans la [!UICONTROL bibliothèque d’audiences], dans [!DNL Target] et dans [!DNL Audience Manager]. Un titre et une description du segment sont requis.
-
->[!NOTE]Dans Analytics, vous pouvez modifier ou supprimer un segment publié. Si le segment est en cours d’utilisation, un message d’avertissement s’affiche lorsque vous le modifiez. Vous ne pouvez pas supprimer un segment publié en cours d’utilisation par Adobe [!DNL Target].
-
-![](assets/segment_publish_to_mac_copy.png)
-
->[!IMPORTANT]
->
->Vous devez limiter à 20 le nombre d’audiences partagées depuis Analytics pour éviter des retards de traitement supplémentaires. Les audiences partagées avec Experience Cloud depuis Analytics ne doivent pas dépasser 20 millions de membres. De plus, en raison de la mise en cache, les suites de rapports supprimées dans Analytics ne disparaîtront pas d’Experience Cloud avant 12 heures.
-
->[!IMPORTANT]
->
->Une fois qu’un visiteur se qualifie pour l’audience partagée depuis Analytics, un délai de 24 à 48 heures est nécessaire avant que les informations soient exploitables dans [!DNL Target], [!DNL Advertising Cloud] et [!DNL Campaign].
+**[!UICONTROL Publication]** d’Experience Cloud : (Non affiché à l’écran) Cette option s’affiche uniquement si la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Quand vous publiez un segment dans Experience Cloud, vous pouvez l’utiliser pour une activité marketing dans la [!UICONTROL bibliothèque d’audiences], dans [!DNL Target] et dans [!DNL Audience Manager]. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-publish.html) sur la publication Experience Cloud.
 
 ## Création de segments {#build-segments}
 
