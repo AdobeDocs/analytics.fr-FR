@@ -5,8 +5,11 @@ subtopic: data feeds
 title: Référence des colonnes de données
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 99%
 
 ---
 
@@ -256,8 +259,8 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `videoshow` | Affichage de la vidéo | varchar(255) |
 | `videoshowtype` | Type d’affichage de la vidéo | varchar(255) |
 | `videostreamtype` | Type de flux vidéo | varchar(255) |
-| `visid_high` | Utilisée en combinaison avec visid_low pour identifier de manière unique une visite. | bigint sans signe |
-| `visid_low` | Utilisée en combinaison avec visid_high pour identifier de manière unique une visite. | bigint sans signe |
+| `visid_high` | Utilisé en combinaison avec visid_low pour identifier de manière unique un visiteur. | bigint sans signe |
+| `visid_low` | Utilisé en combinaison avec visid_high pour identifier de manière unique un visiteur. | bigint sans signe |
 | `visid_new` | Indicateur pour identifier si l’accès contient un identifiant visiteur nouvellement généré. | char(1) |
 | `visid_timestamp` | Si l’identifiant visiteur a été récemment généré, cette variable fournit l’horodatage (en heure Unix) du moment où l’identifiant visiteur a été généré. | int |
 | `visid_type` | Identifiant numérique représentant la méthode utilisée pour identifier le visiteur. <br>0 : visitorID personnalisé <br>1 : solution de secours de l’IP et de l’agent utilisateur <br>2 : en-tête de l’abonné mobile HTTP <br>3 : valeur du cookie hérité (s_vi) <br>4 : valeur du cookie de solution de secours (s_fid) <br>5 : service d’identité | tinyint sans signe |
