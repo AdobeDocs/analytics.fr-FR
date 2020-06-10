@@ -4,6 +4,9 @@ title: Traitement des composants des suites de rapports virtuelles
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 100%
 
 ---
 
@@ -12,14 +15,14 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Les suites de rapports virtuelles peuvent être traitées de manière à inclure et à exclure des composants d’Analysis Workspace.
 
->[!NOTE]Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, tout le monde pouvait voir les composants non traités en cliquant sur **[!UICONTROL Show all Components]**. La [mise à jour de l’expérience de traitement](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permet de mieux contrôler quels composants sont visibles.
+>[!NOTE]Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, les composants non traités étaient visibles par tous en cliquant sur le bouton **[!UICONTROL Afficher tous les composants]**. La [mise à jour de l’expérience de traitement](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permet de mieux contrôler quels composants sont visibles.
 
 Pour activer le traitement des composants,
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
-1. Après avoir défini le **[!UICONTROL Settings]**, cliquez sur l’ **[!UICONTROL Components]** onglet.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]** > **[!UICONTROL Créer une suite de rapport virtuelle]**.
+1. Après avoir défini les **[!UICONTROL Paramètres]**, cliquez sur l’onglet **[!UICONTROL Composants]**.
 
-1. Cochez la case **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. Cochez la case **[!UICONTROL Activer la personnalisation des composants de suites de rapports virtuelles]** :
 
    ![](assets/vrs-enable.png)
 
@@ -27,22 +30,24 @@ Pour activer le traitement des composants,
    >
    >Si la personnalisation des composants est activée, la suite de rapports virtuelle est **accessible uniquement dans Analysis Workspace** et ne l’est pas dans :
 
-   * [!UICONTROL Reports & Analytics]
+   * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL Data Warehouse]
+   * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * API de création de rapports dans Analytics
+
    Une fois la case activée, vous pouvez ajouter les composants que vous souhaitez inclure dans la suite de rapports virtuelle en les faisant glisser de la colonne « exclus » vers la colonne « inclus ». Les composants pouvant être inclus et exclus sont les suivants :
 
    * Dimensions
    * Mesures
    * Segments
    * Périodes
+
    >[!NOTE]
    >
    >Il n’est plus nécessaire de *partager* les composants traités (segments, mesures calculées, plages de dates). S’ils sont traités pour la suite de rapports virtuelle, ils seront visibles dans Analysis Workspace, même s’ils ne sont pas partagés.
 
-1. Additionally, you can filter or search the components and add the entire filtered selection to the included column by clicking **[!UICONTROL Add All]**.
+1. En outre, vous pouvez filtrer ou rechercher les composants et ajouter la totalité de la sélection filtrée à la colonne « inclus » en cliquant sur **[!UICONTROL Tout ajouter]**.
 
    ![](assets/vrs-add-all.png)
 
