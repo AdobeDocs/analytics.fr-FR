@@ -3,7 +3,10 @@ description: Grâce aux paramètres de colonne, vous pouvez configurer la mise e
 title: Paramètres des colonnes
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +17,7 @@ Grâce aux paramètres de colonne, vous pouvez configurer la mise en forme des c
 
 ## Paramètres des colonnes {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
+Pour accéder aux [!UICONTROL Paramètres de colonne], faites glisser un tableau à structure libre vers le projet, puis cliquez sur l’icône en forme d’engrenage dans l’en-tête de la colonne.
 
 ![](assets/column_settings.png)
 
@@ -46,6 +49,19 @@ La mise en forme conditionnelle applique la mise en forme aux limites supérieur
 | Génération automatique | Génère automatiquement des limites pour la mise en forme conditionnelle. La limite supérieure est la valeur la plus élevée de cette colonne. La limite inférieure est la valeur la plus faible et la valeur moyenne est la moyenne entre les limites supérieure et inférieure. |
 | Personnalisé | Vous pouvez affecter manuellement les valeurs des champs Limite supérieure, Milieu et Limite inférieure pour la mise en forme conditionnelle. Vous disposez ainsi de la flexibilité nécessaire pour déterminer si la valeur d’une colonne devient bonne, moyenne ou mauvaise. |
 | Aperçu des cellules de tableau | Affiche un aperçu de l’aspect de chaque cellule après application des options de mise en forme actuellement sélectionnées. |
+
+## Utiliser le modèle d’attribution différent du modèle par défaut
+
+Analyse Workspace prend en charge [l’attribution](../../attribution/overview.md) pour presque toutes les mesures.
+
+1. Cliquez sur l’icône Paramètres (en forme d’engrenage) dans une colonne d’un tableau à structure libre.
+
+   ![Case à cocher Attribution](assets/attribution-checkbox.png)
+
+2. Sous **[!UICONTROL Paramètres des données]**, cochez **[!UICONTROL Utiliser un modèle d’attribution autre que celui par défaut]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+
+   ![Sélectionner le modèle d’attribution](assets/attribution-select.png)
+
 
 >[!MORELIKETHIS]
 >
