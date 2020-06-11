@@ -3,17 +3,17 @@ description: Partage de projets et rôles de projets dans Workspace
 keywords: Analysis Workspace sharing
 title: Projets Share Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 8%
+source-wordcount: '658'
+ht-degree: 9%
 
 ---
 
 
 # Projets Share Workspace
 
-Le partage rend un projet accessible à d’autres utilisateurs de l’espace de travail d’Analyse de votre entreprise. Tout traitement effectué est reflété lorsque les destinataires ouvrent le projet.
+Le partage rend un projet accessible à d’autres utilisateurs de l’espace de travail d’Analyse de votre entreprise. Les [traitements](curate.md) appliqués sont répercutés lorsque les destinataires ouvrent le projet.
 
 ## Rôles de projet
 
@@ -28,15 +28,15 @@ Vous pouvez ajouter des destinataires à l’un des trois rôles de projet. Les 
 | Peut dupliquer | Les destinataires peuvent Enregistrer sous et ont accès au rail de gauche. Les interactions ne sont pas limitées.<br>Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui comprennent les données de votre entreprise et comment utiliser Analyse Workspace, mais que vous ne souhaitez pas que votre projet enregistré soit modifié. |
 | Peut afficher | Les Destinataires ne peuvent pas enregistrer sous et n’ont pas accès au rail de gauche. Les interactions sont également limitées.<br>Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui connaissent moins bien la structure de données de votre entreprise, l’espace de travail des Analyses ou Adobe Analytics en général. Cependant, vous souhaitez toujours qu’ils consomment des données et des informations dans un environnement sûr.<br>En savoir plus sur l’expérience [du projet](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can vue. |
 
-**Aucun rôle affecté**
+### Aucun rôle affecté
 
 Si un destinataire n&#39;est pas affecté à un rôle et reçoit un lien vers le projet ([!UICONTROL Partager] > [!UICONTROL Obtenir le lien]du projet), il sera placé par défaut dans le rôle [!UICONTROL &quot;Peut vue&quot;] .
 
-**Plusieurs rôles attribués**
+### Plusieurs rôles attribués
 
 Si un destinataire est placé dans plusieurs rôles, il obtient toujours le meilleur contrôle. Cela peut se produire si un utilisateur est ajouté à la fois en tant qu’individu et dans le cadre d’un groupe. Par exemple, si l’utilisateur 1 reçoit les rôles Can edit et [!UICONTROL &quot;Can vue&quot;] , il aura [!UICONTROL &quot;Can edit&quot;] contrôle of the project.
 
-**Administrateurs et rôles**
+### Administrateurs et rôles
 
 Les administrateurs placés dans un rôle [!UICONTROL&quot;Can duplicata&quot;] ou [!UICONTROL &quot;Can vue&quot;] recevront ces expériences limitées lorsqu’ils ouvriront un projet. Si vous le souhaitez, un administrateur peut augmenter son rôle en [!UICONTROL &quot;Peut modifier&quot;] à tout moment via [!UICONTROL Composants] > [!UICONTROL Projets].
 
@@ -75,9 +75,4 @@ Si plusieurs projets sont sélectionnés pour être partagés, des destinataires
 * Les projets A et B étant sélectionnés, les utilisateurs 4 et 7 sont ajoutés aux listes destinataires. La nouvelle liste de destinataire pour chaque projet est désormais :
    * Projet A : 1, 2, 3, 4, 7
    * Projet B : 4, 5, 6, 7
-
    ![](assets/mult-proj-sharing.png)
-
-## Planification des projets
-
-Vous pouvez également programmer des projets à partir du menu [!UICONTROL Partager] , soit [!UICONTROL Envoyer le fichier maintenant] , soit [!UICONTROL Envoyer le fichier selon la planification]. Le format du fichier livré peut être un fichier PDF ou CSV. En savoir plus sur la planification [des](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)projets.
