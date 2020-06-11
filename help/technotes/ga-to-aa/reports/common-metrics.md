@@ -2,7 +2,10 @@
 title: Guide de traduction des mesures couramment utilisées sur d’autres plateformes
 description: Découvrez comment extraire des données de mesure pour de nombreux rapports courants en utilisant une terminologie plus familière aux utilisateurs de Google Analytics.
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ Pour ajouter plusieurs mesures à un tableau à structure libre d’espace de tr
 
 ## Mesures d’acquisition
 
-**Utilisateurs** est à peu près équivalent à **Visiteurs uniques** dans Workspace. Pour en savoir plus, voir la mesure [Visiteurs uniques](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) dans le guide d’utilisation des composants.
+**Utilisateurs** est à peu près équivalent à **Visiteurs uniques** dans Workspace. Pour en savoir plus, voir la mesure [Visiteurs uniques](/help/components/metrics/unique-visitors.md) dans le guide d’utilisation des composants.
 
 Il est possible d’obtenir les **nouveaux utilisateurs** en procédant de la façon suivante :
 
@@ -26,13 +29,13 @@ Il est possible d’obtenir les **nouveaux utilisateurs** en procédant de la fa
 
    ![Premières visites](../assets/first_time_visits.png)
 
-**Sessions** est à peu près équivalent à **Visites** dans Analysis Workspace. Pour en savoir plus, voir la mesure [Visites](/help/components/c-variables/c-metrics/metrics-visit.md) dans le guide d’utilisation des composants.
+**Sessions** est à peu près équivalent à **Visites** dans Analysis Workspace. Pour en savoir plus, voir la mesure [Visites](/help/components/metrics/visits.md) dans le guide d’utilisation des composants.
 
 ![Mesures d’acquisition](../assets/acquisition_metrics.png)
 
 ## Mesures de comportement
 
-Le **Taux de rebond** est disponible en tant que mesure dans Analysis Workspace. Pour en savoir plus, voir la mesure [Taux de rebonds](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) dans le guide d’utilisation des composants.
+Le **Taux de rebond** est disponible en tant que mesure dans Analysis Workspace. Pour en savoir plus, voir la mesure [Taux de rebonds](/help/components/metrics/bounce-rate.md) dans le guide d’utilisation des composants.
 
 **Pages/Session** est une mesure calculée. Elle peut être obtenue en procédant de la manière suivante :
 
@@ -48,9 +51,9 @@ Le **Taux de rebond** est disponible en tant que mesure dans Analysis Workspace.
 7. Cliquez sur Enregistrer pour revenir à votre espace de travail.
 8. Faites glisser la mesure calculée nouvellement définie sur l’espace de travail.
 
-   Pour en savoir plus sur les [mesures calculées](/help/components/c-variables/c-metrics/calculated-metric.md), voir le guide d’utilisation des composants.
+   Pour en savoir plus sur les [mesures calculées](/help/components/c-calcmetrics/cm-overview.md), voir le guide d’utilisation des composants.
 
-La **Durée de session moyenne** est à peu près équivalente à la **Durée de la visite (en secondes)**. Pour en savoir plus sur les mesures [Tranche de temps](/help/components/c-variables/c-metrics/metrics-time-spent.md), voir le guide d’utilisation des composants.
+La **Durée de session moyenne** est à peu près équivalente à la **Durée de la visite (en secondes)**. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
 
 ## Mesures de conversion
 
