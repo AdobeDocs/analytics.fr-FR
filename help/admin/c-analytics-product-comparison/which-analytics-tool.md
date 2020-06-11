@@ -3,10 +3,10 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 98%
+source-wordcount: '1102'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-i
 
 * Lorsque vous devez transférer des données dans Adobe Analytics et que vous ne pouvez pas utiliser le code Adobe AppMeasurement ou SDK mobile.
 
-**[Les attributs du client](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**doivent être utilisés :
+**[Les attributs du client](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html)**doivent être utilisés :
 
 * Si vous capturez les données des clients d’une entreprise dans une base de données de gestion de la relation client et que vous souhaitez transférer ces informations dans Experience Cloud.
 * Si vous souhaitez utiliser les données de gestion de la relation client pour une analyse plus approfondie dans Analytics ou comme critère de ciblage dans Adobe Target.
