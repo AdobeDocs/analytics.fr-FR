@@ -2,7 +2,10 @@
 title: visitorID
 description: Permet d’utiliser un identifiant visiteur personnalisé.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 71%
 
 ---
 
@@ -33,3 +36,5 @@ La variable `s.visitorID` est une chaîne qui contient un identifiant unique per
 ```js
 s.visitorID = "abc123";
 ```
+
+>[!CAUTION] Une mise en oeuvre non valide des identifiants de visiteur personnalisés peut entraîner des données incorrectes et des performances de rapports médiocres. Si cette variable contient une valeur par défaut (telle que `"0"` ou `"NULL"`), Adobe traite ces accès comme s’ils étaient du même visiteur. Cette situation génère des données incorrectes, avec un faible nombre de visiteurs et des segments au niveau du visiteur qui ne fonctionnent pas comme prévu. Les identifiants de visiteur personnalisés incorrectement implémentés entraînent également une charge importante sur les serveurs de traitement, augmentant la [latence](/help/technotes/latency.md) et réduisant les performances des rapports.
