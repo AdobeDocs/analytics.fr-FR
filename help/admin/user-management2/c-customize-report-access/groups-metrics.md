@@ -6,7 +6,10 @@ title: Personnalisation des autorisations liées aux mesures
 topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
 
@@ -15,25 +18,25 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
 
 Activez les autorisations pour les mesures de trafic, les mesures de conversion, les événements personnalisés, les événements de solution et la reconnaissance de contenu.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Metrics]** > **[!UICONTROL Customize]**
+**[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]** > **[!UICONTROL Accès aux rapports]** > **[!UICONTROL Mesures]** > **[!UICONTROL Personnaliser]**
 
-The settings on the Customize Metrics page apply to the report suites selected on the [!UICONTROL Define User Groups] page.
+Les paramètres sur la page Personnaliser Mesures s’appliquent aux suites de rapports sélectionnées sur la page [!UICONTROL Définition des groupes d’utilisateurs].
 
 ![](assets/customize-metrics.png)
 
 ## Événements de solution
 
-Outre les [événements personnalisés](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html), cette catégorie comprend des événements de solution Analytics, y compris Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Vidéo et Social. Pour chaque groupe personnalisé qui comprend des mesures, tous les événements de solution Analytics sont ajoutés comme de nouvelles mesures.
+Outre les [événements personnalisés](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/events/event-serialization.html), cette catégorie comprend des événements de solution Analytics, y compris Experience Manager (AEM), Advertising Cloud (AMO), Mobile, Vidéo et Social. Pour chaque groupe personnalisé qui comprend des mesures, tous les événements de solution Analytics sont ajoutés comme de nouvelles mesures.
 
 Vous pouvez définir des autorisations pour les événements personnalisés et les événements de solution Analytics (AEM, AMO, Mobile, Vidéo et Social).
 
 Pour chaque groupe personnalisé qui comprend des mesures, tous les événements de solution Analytics sont ajoutés comme de nouvelles mesures.
 
-Pour plus d’informations sur les mesures utilisées dans Analytics, voir [Aperçu des mesures](/help/components/c-variables/c-metrics/metricslist.md).
+Pour plus d’informations sur les mesures utilisées dans Analytics, voir [Aperçu des mesures](/help/components/metrics/overview.md).
 
 ## Reconnaissance du contenu
 
