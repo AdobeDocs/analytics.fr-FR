@@ -2,7 +2,10 @@
 title: events
 description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 92%
 
 ---
 
@@ -34,13 +37,13 @@ Plusieurs fonctionnalités sont disponibles :
 La variable `s.events` est une chaîne qui contient une liste d’événements délimités par des virgules à inclure dans l’accès. Il n’y a pas de limite d’octets pour cette variable. Elle n’est donc pas tronquée. Les valeurs valides sont les suivantes :
 
 * `event1` - `event1000` : événements personnalisés, définissez la valeur souhaitée. Enregistrez la manière dont vous utilisez chaque événement dans le [document de conception de solution](../../../prepare/solution-design.md) de votre organisation. Le nombre d’événements disponibles dépend du contrat Analytics de votre organisation. La plupart des organisations utilisant des contrats non hérités disposent de 1 000 événements personnalisés. Contactez le gestionnaire de compte de votre organisation si vous ne savez pas combien d’événements personnalisés vous sont accessibles.
-* `purchase` : incrémente la mesure Commandes de 1 et prend les valeurs définies dans la variable `products` pour calculer les unités et les recettes. Voir [Événement d’achat](event-purchase.md) pour en savoir plus.
-* `prodView` : incrémente la mesure Consultations produits.
-* `scOpen` : incrémente la mesure Paniers.
-* `scAdd` : incrémente la mesure Ajouts au panier.
-* `scRemove` : incrémente la mesure Retraits du panier.
-* `scView` : incrémente la mesure Consultations du panier.
-* `scCheckout` : incrémente la mesure Passages en caisse.
+* `purchase`: Incrémente la mesure [&quot;Commandes&quot;](/help/components/metrics/orders.md) de 1 et prend les valeurs définies dans la `products` variable pour calculer les [&quot;Unités&quot;](/help/components/metrics/units.md) et les [&quot;Recettes&quot;](/help/components/metrics/revenue.md). Voir [Événement d’achat](event-purchase.md) pour en savoir plus.
+* `prodView`: Incrémente la mesure [&#39;Vues](/help/components/metrics/product-views.md) de produits.
+* `scOpen`: Incrémente la mesure [&quot;Paniers&quot;](/help/components/metrics/carts.md) .
+* `scAdd`: Incrémente la mesure [&quot;Ajouts au panier&quot;](/help/components/metrics/cart-additions.md) .
+* `scRemove`: Incrémente la mesure [&quot;Retraits du panier&quot;](/help/components/metrics/cart-removals.md) .
+* `scView`: Incrémente la [mesure](/help/components/metrics/cart-views.md) &#39;Vues de panier.
+* `scCheckout`: Incrémente la mesure [&quot;Passages en caisse&quot;](/help/components/metrics/checkouts.md) .
 
 >[!NOTE] Cette variable est sensible à la casse. Évitez de mettre en majuscules les valeurs d’événement de manière à garantir la collecte exacte des données.
 
