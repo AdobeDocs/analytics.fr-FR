@@ -3,9 +3,9 @@ description: Projets Vues uniquement dans Workspace
 keywords: View-only projects
 title: Projets Workspace à Vue seule
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -23,12 +23,13 @@ Les interactions désactivées dans un projet à vue seule sont les suivantes :
 
 * Rail de gauche masqué
 * Suite de rapports
-* Période du calendrier du panneauRemarque : Si vous souhaitez accorder un contrôle de calendrier aux destinataires, ajoutez un filtre [déroulant avec des plages](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)de dates.
+* Période du calendrier du panneau. Remarque : Si vous souhaitez accorder un contrôle de calendrier aux destinataires, ajoutez un filtre [déroulant avec des plages](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)de dates.
 * Filtrage libre
 * Forme libre Nombre de lignes visibles
 * Paramètres de ligne, de colonne ou de visualisation à structure libre
 * Segments de panneau
 * Menus Modifier, Insérer et Composant
+* Conseils relatifs à Workspace
 
 ## Interactions activées
 
