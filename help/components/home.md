@@ -2,10 +2,10 @@
 title: Aide sur les composants d’Analytics
 description: valeur nulle
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 92%
+source-wordcount: '202'
+ht-degree: 84%
 
 ---
 
@@ -16,22 +16,23 @@ ht-degree: 92%
 
 Les composants Analytics permettent d’affiner et d’optimiser l’analyse des données. Les composants incluent :
 
+* **Dimensions :** Référence pour les dimensions utilisables dans Adobe Analytics.
+* **Mesures :** Référence pour les mesures utilisables dans Adobe Analytics.
 * **Segmentation :** Concentrez-vous sur un sous-ensemble de vos données.
 * **Mesures calculées :** Utilisez des formules simples pour combiner des mesures ou des fonctions avancées pour vos analyses statistiques.
 * **Suites de rapports virtuelles :** Créez un silo virtuel de données basé sur une suite de rapports. Permet de nettoyer ou de segmenter les données pour une meilleure expérience utilisateur. Certaines fonctionnalités ne peuvent être utilisées que dans des suites de rapports virtuelles.
 * **Analyses** sur plusieurs périphériques : Un type spécial de suite de rapports virtuelle vous permet de configurer Analytics sur plusieurs périphériques.
 * **Alertes :** Recevez des notifications à chaque fois que les données sont supérieures ou inférieures à un seuil.
 * **Classifications :** Réorganisez et groupez les dimensions pour obtenir des informations supplémentaires.
-* **Variables :** Guide de référence pour toutes les dimensions et mesures disponibles dans les rapports.
 * **Création de rapports en temps réel :** Obtenez des tendances et des rapports dès qu’ils sont disponibles.
 * **Canaux marketing :** Comprenez comment les visiteurs arrivent sur votre site et déterminez les canaux les plus performants.
 
 ## Principaux articles sur les composants Analytics
 
-* [Référence de dimension](c-variables/dimensionslist/reports-descriptions.md)
-* [Référence des mesures](c-variables/c-metrics/metricslist.md)
+* [Dimensions](dimensions/overview.md)
+* [Mesures](metrics/overview.md)
 
-## Plus de guides d’utilisation d’Analytics
+## Plus de guides d’utilisation Analytics
 
 [Guides d’utilisation d’Analytics](/help/landing/home.md)
 
