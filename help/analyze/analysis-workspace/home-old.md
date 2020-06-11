@@ -3,7 +3,10 @@ description: Mise en route avec Adobe Analytics.
 keywords: Analysis Workspace
 title: Guide de prise en main
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 98%
 
 ---
 
@@ -26,9 +29,9 @@ Effectuez l’extraction d’un rapport de classement de base à l’aide d’An
 4. Cliquez sur le bouton « Créer un projet ».
 5. Dans la fenêtre contextuelle modale, assurez-vous que l’option « Projet vierge » est sélectionnée, puis cliquez sur Créer.
 6. Sur la gauche, vous devriez voir une liste de dimensions, de mesures, de segments et de périodes. Recherchez la dimension Pages (de couleur orange), puis faites-la glisser sur la zone de travail qui indique « Déposer la dimension ici ».
-7. Notez que si la suite de rapports contient des données, il est possible de consulter un rapport présentant les pages principales pour ce mois. Analysis Workspace a automatiquement renseigné la mesure [Occurrences](/help/components/c-variables/c-metrics/metrics-occurrences.md) dans le rapport.
+7. Notez que si la suite de rapports contient des données, il est possible de consulter un rapport présentant les pages principales pour ce mois. Analysis Workspace a automatiquement renseigné la mesure [Occurrences](/help/components/metrics/occurrences.md) dans le rapport.
 8. Recherchez la mesure Visites (de couleur verte) et faites-la glisser **sur** ou **en regard** de l’en-tête de la mesure Occurrences (évitez de la placer au-dessus de la mesure). Si vous faites glisser la mesure Visites au-dessus de la mesure Occurrences, elle est remplacée dans les rapports. Si vous faites glisser la mesure Visites en regard de la mesure Occurrences, les deux mesures s’affichent côte à côte.
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+9. Si vous souhaitez enregistrer votre projet, cliquez sur *[!UICONTROL Projet] > [!UICONTROL Enregistrer]* dans le menu supérieur gauche.
 
 ## Extraire un rapport de tendance de base dans Workspace
 
@@ -44,13 +47,13 @@ Effectuez l’extraction d’un rapport de tendance de base à l’aide d’Anal
 8. Recherchez la période Semaine (de couleur violette) dans la liste des composants de périodes sur la gauche. Cliquez sur le titre de la période pour développer et afficher tous les composants de la période ou utilisez la barre de recherche.
 9. Faites glisser la période Semaine au-dessus de l’en-tête de la période Jour sur la zone de travail afin de la remplacer.
 10. Notez que votre rapport de tendance est désormais agrégé par semaine plutôt que par jour.
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+11. Si vous souhaitez enregistrer votre projet, cliquez sur *[!UICONTROL Projet] > [!UICONTROL Enregistrer]* dans le menu supérieur gauche.
 
 ## Tester l’outil
 
 Analysis Workspace étant un outil de reporting, il n’a aucun impact sur la collecte de données. Il n’y a aucune répercussion si vous faites glisser sans distinction des composants dans un projet pour voir ce qui fonctionne. Faites glisser différentes combinaisons de dimensions et de mesures dans votre projet Workspace pour voir ce qui est mis à votre disposition.
 
-Si vous faites glisser accidentellement un composant non valide vers votre projet Workspace ou souhaitez revenir en arrière d’une étape, appuyez sur ctrl+Z (Windows) ou sur cmd+Z (Mac) pour annuler la dernière action effectuée. You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+Si vous faites glisser accidentellement un composant non valide vers votre projet Workspace ou souhaitez revenir en arrière d’une étape, appuyez sur ctrl+Z (Windows) ou sur cmd+Z (Mac) pour annuler la dernière action effectuée. Vous pouvez également commencer à zéro en cliquant sur *[!UICONTROL Projet] > [!UICONTROL Nouveau]* dans le menu supérieur gauche.
 
 ## Résolution des problèmes
 
@@ -71,7 +74,7 @@ Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant 
 
 * [Notes de mise à jour d’Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) : prenez connaissance des dernières fonctionnalités intégrées à l’outil.
 * [Analysis Workspace sur YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) : découvrez comment utiliser la plupart des fonctionnalités d’Analysis Workspace à l’aide de cette liste de lecture exhaustive.
-* Conseils intégrés au produit : des conseils du jour, ainsi que de courtes vidéos, s’affichent parfois dans le coin inférieur droit d’Analysis Workspace. If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
+* Conseils intégrés au produit : des conseils du jour, ainsi que de courtes vidéos, s’affichent parfois dans le coin inférieur droit d’Analysis Workspace. Si vous ignorez ces conseils, vous pouvez y accéder à tout moment via *[!UICONTROL Aide] >[!UICONTROL Conseils]*.
 * [Communauté Analysis Workspace](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace) : discutez d’Analysis Workspace avec d’autres utilisateurs et votez à propos des fonctionnalités que vous souhaitez voir apparaître dans l’outil.
 * Publications du blog :
    * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/) (Doter les entreprises d’outils nécessaires grâce à Smarter Analysis, en anglais)
