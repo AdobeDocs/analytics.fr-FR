@@ -3,7 +3,7 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 44112013e049e6e76554530ba438c71fee902841
 workflow-type: tm+mt
 source-wordcount: '7261'
 ht-degree: 97%
@@ -27,7 +27,7 @@ Nouvelles fonctionnalités publiées le 12 mars 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Prise en charge de plusieurs suites de rapports dans Workspace | You can now bring in data from multiple report suites into a single project to view side by side. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Prise en charge de plusieurs suites de rapports dans Workspace | Vous pouvez désormais importer côte à côte les données de plusieurs suites de rapports dans un seul projet de vue. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | Modèle de didacticiel de formation | Ce nouveau modèle standard vous guide tout au long de la terminologie et des étapes courantes pour créer votre première analyse dans Workspace. Il est disponible sous forme de modèle standard dans le modal Nouveau projet et remplace l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste. [En savoir plus...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Février 2020
@@ -109,7 +109,7 @@ Nouvelles fonctionnalités et améliorations au 17 janvier 2019.
 |--- |--- |
 | [Analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Les améliorations considérables apportées à l’analyse des cohortes vous permettent :<ul><li>d’appliquer à un segment des mesures d’inclusion et de retour de manière séparée ; </li><li>d’afficher l’attrition au lieu de la fidélisation ;</li><li>d’afficher les tables de latence (temps écoulé avant et après un évènement d’inclusion) ;</li><li>de personnaliser les dimensions des cohortes (vers des groupes de visiteurs basés sur une eVar et pas seulement sur une heure) ;</li><li>de calculer la rétention/la perte de clientèle sur la base de la période précédente et non de la cohorte d’origine ; </li><li>d’ajouter plusieurs mesures dans les champs d’inclusion et de retour, ainsi que d’appliquer des segments ; (Les mesures calculées ne sont pas prises en charge)</li></ul> |
 | [Densité d’affichage](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Le nouveau paramètre vous permet de voir plus de données sur un seul écran en réduisant l’espacement vertical du rail gauche, dans les tableaux à structure libre et dans les tableaux de cohortes. Accessible via Projet > Informations et paramètres du projet. |
-| [Prise en charge de variables à valeurs multiples dans l’Attribution IQ](attribution-iq.md) | Certaines dimensions dans Analytics peuvent contenir plusieurs valeurs pour un seul accès, telles que les variables de liste (listVars), la variable product, les propriétés de liste (list props) ou l’eVar de marchandisage. Analysis Workspace vous permet d’appliquer l’Attribution IQ à n’importe quel type de ces variables au niveau de l’accès. |
+| [Prise en charge de variables à valeurs multiples dans l’Attribution IQ](attribution/overview.md) | Certaines dimensions dans Analytics peuvent contenir plusieurs valeurs pour un seul accès, telles que les variables de liste (listVars), la variable product, les propriétés de liste (list props) ou l’eVar de marchandisage. Analysis Workspace vous permet d’appliquer l’Attribution IQ à n’importe quel type de ces variables au niveau de l’accès. |
 | Améliorations des performances | Amélioration de la vitesse de ventilation des visualisations : les projets comportant de nombreuses ventilations se chargeront plus rapidement. |
 
 ## Novembre 2018
@@ -210,7 +210,7 @@ Nouvelles fonctionnalités et améliorations au 19 juillet 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > Attribution IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Attribution IQ vous permet de réaliser des analyses plus complexes et plus intelligentes de la performance marketing. De nouveaux modèles d’attribution peuvent être utilisés pour les mesures dans Analysis Workspace (dans n’importe quel tableau ou ventilation) et pour les mesures calculées. Un nouveau panneau Attribution permet une meilleure visualisation et comparaison. </p> </td> 
   </tr> 
   <tr> 
