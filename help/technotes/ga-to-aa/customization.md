@@ -2,7 +2,7 @@
 title: Personnalisation des rapports dans Adobe Analytics
 description: Découvrez comment personnaliser des rapports dans Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 78%
@@ -68,7 +68,7 @@ Pour créer une mesure calculée :
 4. Une fois que la mesure calculée contient la formule souhaitée, cliquez sur Enregistrer pour revenir à votre espace de travail.
 5. Faites glisser la mesure calculée nouvellement définie sur l’espace de travail.
 
-   Pour en savoir plus sur les [mesures calculées](/help/components/c-variables/c-metrics/calculated-metric.md), voir le guide d’utilisation des composants.
+   Pour en savoir plus sur les [mesures calculées](/help/components/c-calcmetrics/cm-overview.md), voir le guide d’utilisation des composants.
 
 ## Alertes personnalisées
 
