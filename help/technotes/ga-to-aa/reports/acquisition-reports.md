@@ -2,7 +2,10 @@
 title: Rapports d’acquisition dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur l’acquisition à l’aide d’Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -53,9 +56,9 @@ Les rapports Source et Support indiquent les domaines qui ont conduit le trafic 
 
 Pour plus d’informations sur leurs dimensions respectives, voir les pages suivantes du guide d’utilisation des composants :
 
-* [Domaine référent](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Type de référent](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [Mot-clé de recherche](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Domaine référent](/help/components/dimensions/referring-domain.md)
+* [Type de référent](/help/components/dimensions/referrer-type.md)
+* [Mot-clé de recherche](/help/components/dimensions/search-keyword.md)
 
 ## Tout le trafic - Références
 
@@ -65,7 +68,7 @@ Pour plus d’informations sur leurs dimensions respectives, voir les pages suiv
 1. Dans le menu Composants, recherchez la dimension **Domaine référent** ou **Page d’accès** et faites-la glisser sur la grande zone de tableau à structure libre intitulée « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations sur la dimension [Domaine référent](/help/components/c-variables/dimensionslist/reports-referring-domains.md), voir le guide d’utilisation des composants.
+Pour plus d’informations sur la dimension [Domaine référent](/help/components/dimensions/referring-domain.md), voir le guide d’utilisation des composants.
 
 ## Rapports Google Ads et Google Search Console
 
