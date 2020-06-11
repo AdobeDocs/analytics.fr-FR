@@ -2,7 +2,10 @@
 title: Rapports de conversion dans Adobe Analytics
 description: Découvrez comment utiliser des rapports de conversion dans Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ La visualisation d’abandons ne se limite pas à la dimension Pages. N’import
 
 Les rapports d’e-commerce sont généralement utilisés par les sites qui vendent des produits ou des services pour mesurer les commandes et le chiffre d’affaires sur les articles achetés. Cette fonctionnalité, disponible dans Adobe Analytics, est connue sous le nom de Rapports sur les produits.
 
-Des modifications de mise en œuvre personnalisées sont nécessaires pour utiliser les rapports d’e-commerce dans Google Analytics et les rapports de produits dans Adobe Analytics. Pour plus d’informations, voir la dimension [Produits](/help/components/c-variables/dimensionslist/reports-products.md) dans le guide d’utilisation des composants.
+Des modifications de mise en œuvre personnalisées sont nécessaires pour utiliser les rapports d’e-commerce dans Google Analytics et les rapports de produits dans Adobe Analytics. Pour plus d’informations, voir la dimension [Produits](/help/components/dimensions/product.md) dans le guide d’utilisation des composants.
 
 ## Rapports Entonnoir multicanaux
 
