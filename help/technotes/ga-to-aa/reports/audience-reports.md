@@ -2,7 +2,10 @@
 title: Rapports d’audience dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur les audiences à l’aide d’Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1715'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ Pour obtenir un graphique linéaire des visiteurs uniques, suivez les étapes ci
 2. Cliquez sur l’icône Composants à gauche, puis faites glisser la mesure **Visiteurs uniques** sur le petit espace « Déposer une mesure ici ».
 3. Si vous souhaitez une granularité différente, faites glisser la période souhaitée (par exemple **Jour**, **Semaine**, **Mois**, etc.) au-dessus de l’en-tête de dimension de date existant.
 
-Voir [Visiteurs uniques](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) dans le guide d’utilisation des composants pour plus de détails sur la manière dont Adobe calcule les visiteurs uniques.
+Voir [Visiteurs uniques](/help/components/metrics/unique-visitors.md) dans le guide d’utilisation des composants pour plus de détails sur la manière dont Adobe calcule les visiteurs uniques.
 
 ## Valeur de durée de vie
 
@@ -69,7 +72,7 @@ Pour créer un rapport linguistique :
 1. Dans le menu Composants, recherchez la dimension **Langue** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations, voir la dimension [Langue](/help/components/c-variables/dimensionslist/reports-languages.md) dans le guide d’utilisation des composants.
+Pour plus d’informations, voir la dimension [Langue](/help/components/dimensions/language.md) dans le guide d’utilisation des composants.
 
 ## Géolocalisation
 
@@ -86,7 +89,7 @@ Si vous souhaitez obtenir le tableau en plus de la carte :
 1. Dans le menu Composants, recherchez la dimension **Pays** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations, voir la dimension [Géosegmentation](/help/components/c-variables/dimensionslist/reports-geosegmentation.md) dans le guide d’utilisation des composants.
+See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
 
 ## Comportement - Visites nouvelles ou renouvelées
 
@@ -111,7 +114,7 @@ Le rapport Fréquence et récence est à peu près équivalent à la dimension *
 1. Dans le menu Composants, recherchez la dimension **Nombre de visites** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations, voir la dimension [Nombre de visites](/help/components/c-variables/dimensionslist/reports-visitor-number.md) dans le guide d’utilisation des composants.
+Pour plus d’informations, voir la dimension [Nombre de visites](/help/components/dimensions/visit-number.md) dans le guide d’utilisation des composants.
 
 ## Comportement - Engagement
 
@@ -120,7 +123,7 @@ Le rapport Engagement est à peu près équivalent à la dimension **Durée de l
 1. Dans le menu Composants, recherchez la dimension **Durée de la visite - Valeur cumulée** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations, voir la dimension [Durée de la visite](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md) dans le guide d’utilisation des composants.
+Pour plus d’informations, voir la dimension [Durée de la visite](/help/components/dimensions/time-spent-per-visit.md) dans le guide d’utilisation des composants.
 
 ## Technologie - Navigateur et système d’exploitation
 
@@ -137,10 +140,10 @@ Plusieurs dimensions principales sont disponibles dans le rapport Navigateur et 
 
 Pour plus d’informations sur leurs dimensions respectives, voir les pages suivantes du guide d’utilisation des composants :
 
-* [Navigateur](/help/components/c-variables/dimensionslist/reports-browsers.md)
-* [Système d’exploitation](/help/components/c-variables/dimensionslist/reports-operating-system.md)
-* [Résolution de l’écran](/help/components/c-variables/dimensionslist/reports-technology.md)
-* [Codage des couleurs](/help/components/c-variables/dimensionslist/reports-color-depth.md)
+* [Navigateur](/help/components/dimensions/browser.md)
+* [Système d’exploitation](/help/components/dimensions/operating-systems.md)
+* [Résolution de l’écran](/help/components/dimensions/monitor-resolution.md)
+* [Codage des couleurs](/help/components/dimensions/color-depth.md)
 
 ## Technologie - Réseau
 
@@ -149,7 +152,7 @@ Le rapport Réseau est à peu près équivalent à la dimension **Domaine**.
 1. Dans le menu Composants, recherchez la dimension **Domaine** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations, voir la dimension [Domaine](/help/components/c-variables/dimensionslist/reports-domains.md) dans le guide d’utilisation des composants.
+Pour plus d’informations, voir la dimension [Domaine](/help/components/dimensions/domain.md) dans le guide d’utilisation des composants.
 
 ## Mobile - Présentation
 
@@ -158,7 +161,7 @@ Le rapport Présentation mobile est à peu près équivalent à la dimension **T
 1. Dans le menu Composants, recherchez la dimension **Type d’appareil mobile** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations, voir la dimension [Type d’appareil mobile](/help/components/c-variables/dimensionslist/reports-device-types.md) dans le guide d’utilisation des composants.
+See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## Mobile - Appareils
 
@@ -167,7 +170,7 @@ Le rapport Appareils mobiles est à peu près équivalent à la dimension **Appa
 1. Dans le menu Composants, recherchez la dimension **Appareil mobile** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations, voir la dimension [Appareil mobile](/help/components/c-variables/dimensionslist/reports-devices.md) dans le guide d’utilisation des composants.
+See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## Rapports personnalisés
 
