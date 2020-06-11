@@ -6,7 +6,10 @@ title: Personnalisation des autorisations liées aux outils de suites de rapport
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1162'
+ht-degree: 91%
 
 ---
 
@@ -15,19 +18,19 @@ source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
 
 Activez les autorisations d’utilisateurs pour l’accès aux API, la gestion des suites de rapports, les outils et les rapports, ainsi que les éléments de tableau de bord.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
+**[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]** > **[!UICONTROL Accès aux rapports]** > **[!UICONTROL Outils de suites de rapports]** > **[!UICONTROL Personnaliser]**
 
-La [!UICONTROL Customize Report Suite Tools] page accorde aux membres d’un groupe l’accès aux éléments suivants.
+La page [!UICONTROL Personnaliser Outils de génération de rapports] permet d’octroyer aux membres d’un groupe l’accès aux éléments ci-après.
 
 ![](assets/report-suite-tools.png)
 
 ## Descriptions des champs
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+Les paramètres sur cette page se rapportent aux suites de rapports sélectionnées sur la page [!UICONTROL Définir un groupe d’utilisateurs].
 
 | Élément | Description |
 |--- |--- |
@@ -65,16 +68,16 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [Détection des anomalies](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Autorisation d’accès au rapport Détection des anomalies, qui fournit une méthode statistique pour déterminer le degré de modification d’une mesure donnée par rapport à des données antérieures. |
 | [Rapport Canal](/help/components/c-marketing-channels/analyze-mc.md) | Autorisation d’accès aux rapports Canal marketing sous Rapports > Rapports Canal marketing. |
 | [Rapport en temps réel](/help/admin/admin/realtime/t-realtime-admin.md) | Autorisation d’accès au rapport en temps réel. |
-| [Pages de robots](/help/admin/admin/bot-removal/bot-rules.md) | **Remarque : Les pages de robots sont destinées à des rapports et analyses spécifiques, et non à la gestion de règles de robots. Actuellement, il n’existe aucune autorisation pour autoriser la modification des règles de robots.** Les règles de robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web. |
-| [Robots](/help/admin/admin/bot-removal/bot-rules.md) | **Remarque : Les robots sont destinés à des rapports et analyses spécifiques, et non à la gestion de règles de robots. Actuellement, il n’existe aucune autorisation pour autoriser la modification des règles de robots.** Les robots vous permettent de supprimer de votre suite de rapports le trafic généré par les araignées et les robots connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web. |
+| [Pages de robots](/help/admin/admin/bot-removal/bot-rules.md) | **Remarque : Les pages de robots sont destinées à des rapports Rapports et analyses spécifiques et non à la gestion de règles de robots. Actuellement, il n’existe aucune autorisation pour autoriser la modification des règles de robots.** Les règles de robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web. |
+| [Robots](/help/admin/admin/bot-removal/bot-rules.md) | **Remarque : Les robots sont destinés à des rapports Rapports et analyses spécifiques, et non à la gestion de règles de robots. Actuellement, il n’existe aucune autorisation pour autoriser la modification des règles de robots.** Les robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web. |
 | [Rapport personnalisé de Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse fait référence à la copie de données brutes non traitées pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports qui présentent un niveau avancé de relations entre les données brutes, en fonction de vos questions. |
-| [Visites retours quotidiennes](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Hérité) Ce rapport présente le nombre de visiteurs ayant fréquenté votre site plusieurs fois en une journée. Un jour est défini comme la période des dernières 24 heures. |
+| Visites retours quotidiennes | (Hérité) Ce rapport présente le nombre de visiteurs ayant fréquenté votre site plusieurs fois en une journée. Un jour est défini comme la période des dernières 24 heures. |
 | [Gestionnaire des sources de données](/help/admin/admin/data-sources.md) | La fonction Sources de données vous permet d’importer des données dans Analytics à partir de sources hors ligne. |
 | [Exclure par adresse IP](/help/admin/admin/exclude-ip.md) | Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). |
 | ClickMap hérité | Autorisation d’accès au menu de l’outil de superposition ClickMap hérité. |
 | Installation ClickMap héritée | Autorisation d’installer l’outil hérité ClickMap. |
-| [Visites retours](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Rapport indiquant le nombre de visites lorsque cette valeur est supérieure à 1. Le rapport Visites récurrentes comprend les visiteurs sans cookies. |
-| [Classifications Importer/Exporter](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) et [créateur de règles](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidé en classifications (voir ci-dessous). |
+| Visites retours | Rapport indiquant le nombre de visites lorsque cette valeur est supérieure à 1. Le rapport Visites récurrentes comprend les visiteurs sans cookies. |
+| [Classifications Importer/Exporter](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/classifications-importer/c-working-with-saint.translate.html) et [créateur de règles](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidé en classifications (voir ci-dessous). |
 | Gestionnaire des flux de données | Accorde des droits au Flux de données Analytics. |
 | Classifications | Combine les autorisations suivantes : Classifications de trafic, Classifications des vidéos, Classifications des conversions, Hiérarchies de classification, Gestionnaire de classifications et Classifications Importer/Exporter et créateur de règles.  Remarque : grâce à cette autorisation, les utilisateurs peuvent modifier les classifications pour toutes les suites de rapports, pas seulement celles sélectionnées. |
 | [Analyse des contributions](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Accorde les droits d’utilisation de l’analyse des contributions dans Analysis Workspace. |
