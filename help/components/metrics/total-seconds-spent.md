@@ -1,0 +1,31 @@
+---
+title: Durée totale en secondes
+description: Nombre total cumulé de secondes passées sur la valeur de dimension.
+translation-type: tm+mt
+source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 9%
+
+---
+
+
+# Durée totale en secondes
+
+La mesure &quot;Total secondes passées&quot; montre le nombre agrégé de secondes passées par un visiteur sur une valeur de dimension donnée. Cette mesure s’avère utile lorsque vous souhaitez utiliser la quantité brute de temps passée sur une valeur de dimension donnée, et non pas des moyennes comme d’autres offres de mesures de temps passé.
+
+Dans le créateur de rapports, cette mesure est nommée &quot;Durée totale de la visite&quot;.
+
+## Méthode de calcul de cette mesure
+
+Cette mesure utilise les étapes suivantes pour mesurer le calcul :
+
+1. Pour un accès donné, observez l’horodatage.
+2. Comparez cet accès à l’horodatage du prochain accès de la visite. La vue de page et le suivi des liens comptabilisent tous les accès.
+3. La durée en secondes écoulée entre les deux accès contribue à la valeur de dimension.
+
+Les variables persistantes, telles que les [eVars](../dimensions/evar.md), comptent pour le total des secondes passées. Les variables de trafic, telles que [props](../dimensions/prop.md), incluent les secondes passées lors des appels de suivi de liens suivants.
+
+>[!TIP] La durée de la visite n’est pas mesurée pour le dernier accès de la visite, car aucune demande d’image ultérieure ne permet de mesurer le temps écoulé. Ce concept s’applique également aux visites consistant en un seul accès (un rebond).
+
+Voir Présentation [de la](time-spent.md) durée de la visite pour obtenir des informations plus générales sur la durée de la visite.
