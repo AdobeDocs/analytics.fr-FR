@@ -4,7 +4,10 @@ title: Mesures
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +24,7 @@ Les mesures et les données associées s’affichent dans les colonnes des rappo
 
 [Les mesures calculées](/help/components/c-calcmetrics/cm-overview.md) sont créées en combinant des mesures.
 
-Pour obtenir des définitions, consultez la section [Aperçu des mesures](/help/components/c-variables/c-metrics/metricslist.md)
+Pour une liste complète des mesures, voir Présentation [des](/help/components/metrics/overview.md) mesures dans le guide de l’utilisateur Composants.
 
 ## Sélection des mesures de rapport par défaut
 
@@ -35,12 +38,12 @@ t_metrics_set_default.xml
 
 1. Exécutez un rapport.
 1. Ajoutez les mesures à enregistrer comme mesures par défaut.
-1. Cliquez sur le  **[!UICONTROL Add Metrics]** déroulant, puis sélectionnez **[!UICONTROL Set as Default]**.
+1. Cliquez sur la liste déroulante **[!UICONTROL Ajouter des mesures]**, puis sélectionnez **[!UICONTROL Configurer comme valeur par défaut]**.
 
    Les mesures sélectionnées sont enregistrées comme valeurs par défaut pour ce rapport. Les informations suivantes s’appliquent aux mesures par défaut :
 
 * Les mesures par défaut s’appliquent à tous les comptes d’utilisateur, mais sont appliquées par rapport et suite de rapports. Par exemple, tous les utilisateurs qui affichent un rapport spécifique dans la même suite de rapports voient les mesures définies à l’aide de la procédure ci-dessus.
-* Si vous changez de rapport, les mesures affichées dans le rapport consulté le plus récemment persistent. To display default metrics in that new report, click the [!UICONTROL Add Metrics] drop-down list, then click [!UICONTROL Show Defaults].
+* Si vous changez de rapport, les mesures affichées dans le rapport consulté le plus récemment persistent. Pour afficher les mesures par défaut dans ce nouveau rapport, cliquez sur la liste déroulante [!UICONTROL Ajouter des mesures], puis sur [!UICONTROL Afficher les valeurs par défaut].
 
-* Clicking [!UICONTROL Clear Defaults] removes the default metrics for that report and reverts them to the original default metrics for that report ( [!UICONTROL Page Views] for props, and whatever you have set in Admin Tools for eVars).
+* Si vous cliquez sur [!UICONTROL Supprimer les valeurs par défaut], les mesures par défaut sont supprimées pour ce rapport, et les mesures par défaut d’origine sont restaurées ([!UICONTROL Page vues] pour les props, et ce que vous avez défini dans les Outils d’administration pour les eVars).
 
