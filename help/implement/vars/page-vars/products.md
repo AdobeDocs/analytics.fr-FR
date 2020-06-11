@@ -2,7 +2,10 @@
 title: products
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 89%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La variable `products` effectue le suivi des produits et des propriétés qui leur sont liées. Cette variable est généralement définie sur des pages de produit individuelles, des pages de panier d’achat et des pages de confirmation d’achat. Il s’agit d’une variable à plusieurs valeurs, ce qui signifie que vous pouvez envoyer plusieurs produits dans le même accès et qu’Adobe analyse la valeur dans des valeurs de dimension distinctes.
 
->[!NOTE] Si cette variable est définie dans un accès sans événement de panier d’achat dans la variable [`events`](events/events-overview.md), la mesure « Consultations produits » est incrémentée de 1. Assurez-vous de définir l’événement approprié pour le panier d’achat pour chaque accès.
+> [!NOTE] Si cette variable est définie dans un accès sans événement de panier dans la [`events`](events/events-overview.md) variable, la mesure Vues [](/help/components/metrics/product-views.md) de produit est incrémentée de 1. Assurez-vous de définir le événement de panier approprié pour chaque accès avec la `products` variable.
 
 ## Produits dans Adobe Experience Platform Launch
 
@@ -33,7 +36,7 @@ La variable `s.products` est une chaîne qui contient plusieurs champs délimit�
 * **Quantité** (facultatif) : quantité de ce produit dans le panier ? Ce champ s’applique uniquement aux accès avec l’événement d’achat.
 * **Prix** (facultatif) : prix total du produit sous forme de décimale. Si la quantité est supérieure à un, définissez le prix sur le total et non sur le prix du produit individuel. Alignez la devise de cette valeur pour qu’elle corresponde à la variable [`currencyCode`](../config-vars/currencycode.md). N’incluez pas le symbole de devise dans ce champ. Ce champ s’applique uniquement aux accès avec l’événement d’achat.
 * **Événements** (facultatif) : événements liés au produit. Délimitez plusieurs événements à l’aide d’une barre verticale (`|`). Voir [Événements](events/events-overview.md) pour plus d’informations.
-* **eVars** (facultatif) : eVars de marchandisage liées au produit. Délimitez plusieurs eVars de marchandisage à l’aide d’une barre verticale (`|`). Voir [eVars de marchandisage](../../../components/c-variables/c-merch-variables/var-merchandising.md) pour en savoir plus.
+* **eVars** (facultatif) : eVars de marchandisage liées au produit. Délimitez plusieurs eVars de marchandisage à l’aide d’une barre verticale (`|`). Voir [eVars de marchandisage](evar-merchandising.md) pour en savoir plus.
 
 ```js
 // Set a single product using all available fields
@@ -47,7 +50,7 @@ Cette variable prend en charge plusieurs produits dans le même accès. Celle-ci
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
->[!IMPORTANT] Supprimez tous les points-virgules, virgules et tuyaux des noms de produits, des  de et des valeurs d’eVar de marchandisage. Si un nom de produit comporte une virgule, AppMeasurement l’analyse comme le début d’un nouveau produit. Cette analyse incorrecte renvoie le reste de la chaîne du produit, provoquant des données incorrectes dans les dimensions et les rapports.
+> [!IMPORTANT] Éliminez tous les points-virgules, virgules et tuyaux des noms de produits, des catégories et des valeurs d’eVar de marchandisage. Si un nom de produit comporte une virgule, AppMeasurement l’analyse comme le début d’un nouveau produit. Cette analyse incorrecte renvoie le reste de la chaîne du produit, provoquant des données incorrectes dans les dimensions et les rapports.
 
 ## Exemples
 
@@ -61,7 +64,7 @@ s.products = "Example category;Example product";
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = "Example category;Example product,;Example product";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
