@@ -2,10 +2,10 @@
 description: Quick Insights est un outil destiné aux nouveaux utilisateurs de Workspace qui les guide dans la création de tableaux de données et de visualisations.
 title: Panneau Aperçu rapide
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 3%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Le panneau Aperçu]** rapide est actuellement en cours de test limité. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL Le panneau Aperçu]** rapide est actuellement en cours de test limité. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.translate.html)
 
 [!UICONTROL Quick Insights] fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’ [!UICONTROL Analyse Workspace] pour savoir comment répondre rapidement et facilement aux questions de l’entreprise. C&#39;est aussi un outil idéal pour les utilisateurs expérimentés qui veulent répondre rapidement à une question simple sans avoir à construire eux-mêmes un tableau.
 
 Lorsque vous utilisez pour la première fois cet espace de travail Analyse, vous pouvez vous demander quelles visualisations seraient les plus utiles, quelles dimensions et mesures pourraient faciliter les statistiques, où faire glisser et déposer des éléments, où créer un segment, etc.
 
-Pour y remédier, et en fonction de l’utilisation des composants de données par votre propre société dans [!UICONTROL Analyse Workspace], [!UICONTROL Quick Insights] utilise un algorithme qui vous présente les dimensions, mesures, segments et plages de dates les plus populaires que votre société utilise.
+Pour y remédier, et en fonction de l’utilisation des composants de données par votre propre société dans [!UICONTROL Analyse Workspace], [!UICONTROL Quick Insights] utilise un algorithme qui vous présente les dimensions, mesures, segments et plages de dates les plus populaires que votre société utilise. En fait, vous verrez des dimensions, des mesures et des segments balisés comme [!UICONTROL populaires] dans la liste déroulante, comme indiqué ici :
+
+![](assets/popular-tag.png)
 
 [!UICONTROL Les statistiques] rapides vous aident à
 
