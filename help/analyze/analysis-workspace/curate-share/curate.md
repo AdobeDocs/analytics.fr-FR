@@ -3,10 +3,10 @@ description: Le traitement vous permet de limiter les composants avant de partag
 keywords: Analysis Workspace curation
 title: Traiter les projets Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 39%
+source-wordcount: '491'
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 39%
 Le traitement vous permet de limiter les composants (dimensions, mesures, segments, plages de dates) avant de partager un projet. Lorsqu’un destinataire ouvre le projet, il voit un ensemble limité de composants que vous avez traités pour eux. Le traitement est une étape facultative mais recommandée avant de partager un projet.
 
 >[!NOTE]
-> Les profils de produit constituent le principal mécanisme contrôlant ce que voit un utilisateur. Ils sont gérés au moyen d’Admin Console. Le traitement est un filtre secondaire.
+> Les profils de produit constituent le principal mécanisme contrôlant ce que voit un utilisateur. Ils sont gérés via la console d’administration Adobe Experience Cloud. Le traitement est un filtre secondaire.
 
 ## Appliquer le traitement du projet
 
@@ -26,13 +26,15 @@ Les composants utilisés dans le projet seront automatiquement ajoutés.
 1. (Facultatif) Pour ajouter d’autres composants, faites glisser les composants que vous souhaitez partager depuis le rail de gauche vers le champ [!UICONTROL Traiter les composants] .
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
+Le traitement peut également être appliqué à partir du menu [!UICONTROL Partager] en cliquant sur **[!UICONTROL Traiter et Partager]**. Cette option traite automatiquement le projet en fonction des composants utilisés dans le projet. Vous pouvez ajouter d’autres composants en suivant les étapes ci-dessus.
+
 ![](assets/curation-field.png)
+
+## vue de projet traitée
 
 Lorsqu’un destinataire ouvre un projet traité, il ne voit que l’ensemble de composants traités que vous avez définis :
 
 ![](assets/curate-project.png)
-
-Le traitement peut également être appliqué à partir du menu [!UICONTROL Partager] en cliquant sur **[!UICONTROL Traiter et Partager]**. Cette option traite automatiquement le projet en fonction des composants utilisés dans le projet. Vous pouvez ajouter d’autres composants en suivant les étapes ci-dessus.
 
 ## Supprimer la gestion du projet
 
@@ -48,15 +50,15 @@ Pour appliquer la gestion au niveau d’une suite de rapports, de sorte qu’ell
 >[!NOTE]
 > Le traitement des suites de rapports virtuelles est toujours appliqué avant le traitement du projet. Cela signifie que même si votre projet traité inclut certains composants, ils seront exclus si la suite de rapports virtuelle traitée ne les inclut pas.
 
-### Afficher tous les composants
+## Afficher tous les composants, option
 
 Dans un projet organisé ou une suite de rapports virtuelle, le destinataire aura la possibilité d&#39; **[!UICONTROL afficher tous les]** composants dans le rail de gauche. [!UICONTROL Tout] afficher révèle différents jeux de composants, en fonction des éléments suivants :
 
-* niveau d’autorisation de l’utilisateur (administrateur ou non-administrateur)
-* rôle de projet (propriétaire/éditeur ou non)
-* type de traitement appliqué
+* Niveau d’autorisation de l’utilisateur (administrateur ou non-administrateur)
+* Rôle du projet (propriétaire/éditeur ou non)
+* Type de traitement appliqué (SRV ou projet)
 
-| Type de traitement | Administrateurs | Propriétaires de projets non-administrateurs | Non-administrateurs |
+| Type de traitement | Administrateurs | Propriétaire ou rôle de modification du projet non administrateur | Rôle duplicata ou vue non administrateur |
 |---|---|---|---|
 | Suites de rapports virtuelles non traitées | Tous les composants de suites de rapports virtuelles non traités | Composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés | Composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés |
 | Projet traité | Tous les composants de projets non traités | Tous les composants de projets non traités | Composants de projets non traités possédés par ce rôle ou avec lequel ils ont été partagés |
