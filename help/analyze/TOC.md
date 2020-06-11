@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
+source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1101'
 ht-degree: 96%
 
 ---
@@ -80,11 +80,7 @@ ht-degree: 96%
    + Panneaux {#panels}
       + [Panneaux - Aperçu](analysis-workspace/c-panels/panels.md)
       + [Panneau Analyses pour la Cible (A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + Attribution panel {#attribution}
-         + [Présentation de l’Attribution](analysis-workspace/c-panels/attribution/attribution.md)
-         + [Utilisation du panneau Attribution](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [FAQ sur l’Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [Attribution algorithmique](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [Panneau Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panneau Aperçu rapide](analysis-workspace/c-panels/quickinsight.md)
@@ -100,7 +96,11 @@ ht-degree: 96%
       + [Partage et planification de fichiers de projet](analysis-workspace/curate-share/send-schedule-files.md)
       + [Envoi d’un fichier – Planification de la livraison d’un projet](analysis-workspace/curate-share/t-schedule-report.md)
       + [Gestionnaire de projets planifiés](analysis-workspace/curate-share/schedule-projects.md)
-   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + Attribution IQ {#attribution}
+      + [Présentation de l’Attribution](analysis-workspace/attribution/overview.md)
+      + [Modèles d’attribution et fenêtres de recherche](analysis-workspace/attribution/models.md)
+      + [Attribution algorithmique](analysis-workspace/attribution/algorithmic.md)
+      + [FAQ](analysis-workspace/attribution/faq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Analyste virtuel {#virtual-analyst}
       + [Présentation de Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
@@ -295,12 +295,14 @@ ht-degree: 96%
    + [Tableaux de bord et mini-rapports](reports-analytics/dashboard.md)
    + [Gestionnaire de tableaux de bord](reports-analytics/dashboard-manage.md)
    + [Extraction de données](reports-analytics/data-extract.md)
+   + [Rapports Entonnoir](reports-analytics/funnels.md)
    + [Mesures](reports-analytics/metrics.md)
    + [Cibles](reports-analytics/targets.md)
    + [Alertes](reports-analytics/alerts.md)
    + [Événements du calendrier](reports-analytics/t-calendar-event.md)
    + [Requêtes Data Warehouse](reports-analytics/data-warehouse.md)
    + [Questions fréquentes](reports-analytics/frequently-asked-questions.md)
+   + [Résolution des problèmes](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
    + Convertisseur de projets d’Ad Hoc Analysis {#aha-project-converter}
       + [Convertisseur de projets d’Ad Hoc Analysis - Aperçu](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
