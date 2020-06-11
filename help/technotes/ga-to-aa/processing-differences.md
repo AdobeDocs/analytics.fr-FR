@@ -2,7 +2,7 @@
 title: Différences de traitement et d’architecture entre les plateformes Analytics
 description: Découvrez les différentes façons dont certaines données sont collectées et affichées dans différentes plateformes, telles qu’Adobe Analytics et Google Analytics.
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 66%
@@ -25,7 +25,7 @@ Sur les deux plateformes, si plusieurs accès sont envoyés au cours d’une mê
 
 To achieve better parity between reporting tools, use the [!UICONTROL Single Page Visits] metric in Adobe Analytics instead of [!UICONTROL Bounces] as part of a calculated metric. The [!UICONTROL Single Page Visits] metric includes the total number of visits that only included one-page view, or visits that enter the website but do not include a click to another page.
 
-Pour plus d’informations sur la mesure [Taux de rebond](/help/components/c-variables/c-metrics/metrics-bounce-rate.md), voir le guide d’utilisation des composants.
+Pour plus d’informations sur la mesure [Taux de rebond](/help/components/metrics/bounce-rate.md), voir le guide d’utilisation des composants.
 
 ## [!UICONTROL Visites et sessions]
 
@@ -34,6 +34,6 @@ Pour plus d’informations sur la mesure [Taux de rebond](/help/components/c-var
 * **Fin de journée :** toutes les sessions de Google Analytics expirent après 23 h 59. Si l’utilisateur est toujours actif sur votre site après minuit, une nouvelle session est créée. Adobe Analytics compte une visite qui se poursuit sur le jour suivant comme une seule visite.
 * **Campagnes différentes :** dans Google Analytics, une nouvelle session commence si la source de campagne d’un utilisateur change. If a new [!UICONTROL Tracking Code] value is seen in Adobe Analytics, it is considered part of the same visit.
 * **Remplacement manuel de session :** dans Google Analytics, une nouvelle session commence si vous utilisez `sessionControl` pour démarrer ou terminer une session manuellement. [!UICONTROL Dans Adobe Analytics, ce n’est pas possible de terminer une visite manuellement.]
-* **Détection des visites aberrantes dans Adobe Analytics :** Une nouvelle [!UICONTROL visite] dans Adobe Analytics se début automatiquement si un utilisateur atteint 12 heures d’activité continue, 2 500 accès ou 100 accès en 100 secondes. Ces comportements indiquent généralement l’activité de bots.
+* **Détection des visites en amont dans Adobe Analytics :** Une nouvelle [!UICONTROL visite] dans Adobe Analytics s’début automatiquement si un utilisateur atteint 12 heures d’activité continue, 2 500 accès ou 100 accès en 100 secondes. Ces comportements indiquent généralement l’activité de bots.
 
-Pour plus d’informations sur la mesure [Visites](/help/components/c-variables/c-metrics/metrics-visit.md), voir le guide d’utilisation des composants.
+Pour plus d’informations sur la mesure [Visites](/help/components/metrics/visits.md), voir le guide d’utilisation des composants.
