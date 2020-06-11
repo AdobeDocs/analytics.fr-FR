@@ -4,7 +4,7 @@ title: Événements du calendrier
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 739368320e73d3b441151ce7e912fe74d3f8308b
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
@@ -38,8 +38,8 @@ Pour les rapports de tendances au fil du temps, vous pouvez afficher les événe
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Événements calendrier]**.
 1. Sous **[!UICONTROL Calendrier des événements partagés]**, indiquez l’une de ces options :
 
-       | **Mettez-moi en copie** | Ajoute une copie à votre liste d’événements, en utilisant le même nom que l’original. Néanmoins, vous ne pouvez pas voir les mises à jour/modifications effectuées par le propriétaire de l’événement. |
-       |---|---|
-       | **Au rapport** | Permet d’afficher les modifications/mises à jour effectuées par le propriétaire de l’événement. |
-       | **Départager** | Supprime cet événement de la liste des événements partagés. |
-   
+   | **Mettez-moi en copie** | Ajoute une copie à votre liste d’événements, en utilisant le même nom que l’original. Néanmoins, vous ne pouvez pas voir les mises à jour/modifications effectuées par le propriétaire de l’événement. |
+   |---|---|
+   | **Au rapport** | Permet d’afficher les modifications/mises à jour effectuées par le propriétaire de l’événement. |
+   | **Annuler le partage** | Supprime cet événement de la liste des événements partagés. |
+
