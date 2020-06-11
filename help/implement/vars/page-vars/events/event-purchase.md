@@ -2,7 +2,10 @@
 title: Événement d’achat
 description: Utilisez l’événement d’achat pour collecter des données pour les mesures Commandes, Unités et Recettes.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +19,8 @@ Lorsque vous définissez un événement d’achat, celui-ci affecte les mesures 
 * La mesure Commandes est incrémentée de 1
 * La mesure Unités est incrémentée en fonction du nombre de produits dans la variable `products`
 * La mesure Recettes augmente de la somme des paramètres de prix dans la variable `products`
+
+>[!NOTE] Les recettes ne sont pas multipliées par le champ de quantité. For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. Par exemple : `s.products="Womens;Socks;5;22.50"`.
 
 ## Définition de l’événement d’achat dans Adobe Experience Platform Launch
 
