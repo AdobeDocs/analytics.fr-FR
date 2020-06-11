@@ -3,7 +3,10 @@ description: valeur nulle
 title: Optimisation des performances d’Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 100%
 
 ---
 
@@ -103,5 +106,5 @@ Vous pouvez rencontrer des erreurs au moment d’interagir avec Analysis Workspa
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe rencontre un problème qui doit être résolu. Nous vous recommandons d’envoyer le code d’erreur en adressant une demande à l’assistance clientèle. |
 | `The request is too complex.` | Votre requête de création de rapports est trop volumineuse et ne peut pas être exécutée. Les facteurs à l’origine de cette erreur sont les dépassements de délai en raison de la taille de la requête, du nombre trop élevé d’éléments correspondants dans un segment ou un filtre de recherche, du nombre trop élevé de mesures incluses, des combinaisons de dimensions et de mesures incompatibles, etc. Nous vous recommandons de simplifier votre requête. |
 | `One of the segments or the search in this visualization contains a text search that returned too many results.` | Nous vous recommandons de limiter vos critères de texte de recherche et d’effectuer une nouvelle requête. |
-| `This dimension does not currently support non-default attribution models.` | Nous vous recommandons de remplacer la dimension de votre tableau par une dimension compatible avec [Attribution IQ](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md). |
+| `This dimension does not currently support non-default attribution models.` | Nous vous recommandons de remplacer la dimension de votre tableau par une dimension compatible avec [Attribution IQ](../attribution/overview.md). |
 | `Your request failed as a result of too many columns or pre-configured rows.` | Nous vous recommandons de supprimer certaines colonnes ou lignes ou de les diviser en visualisations distinctes. |
