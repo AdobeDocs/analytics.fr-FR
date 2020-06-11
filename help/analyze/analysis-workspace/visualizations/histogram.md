@@ -3,7 +3,10 @@ description: L’histogramme est un nouveau type de visualisation d’Analysis 
 title: Histogramme
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 97%
 
 ---
 
@@ -16,9 +19,9 @@ Un histogramme est semblable à un graphique à barres, à ceci près qu’il r�
 
 Pour créer un histogramme, procédez comme suit :
 
-1. Click **[!UICONTROL Visualizations]** in the left rail.
-1. Drag **[!UICONTROL Histogram]** to the panel.
-1. Choose a Metric to drag to the Histogram visualization and click **[!UICONTROL Build]**.
+1. Cliquez sur **[!UICONTROL Visualisations]** dans le rail de gauche.
+1. Faites glisser **[!UICONTROL Histogramme]** sur le panneau.
+1. Faites glisser une mesure sur la visualisation Histogramme, puis cliquez sur **[!UICONTROL Créer]**.
 
 ![](assets/histogram.png)
 
@@ -37,7 +40,7 @@ Pour régler les paramètres de l’histogramme, cliquez sur l’icône d’engr
 | Intervalle de début | Détermine par quel intervalle commence l’histogramme. « 1 » par défaut. Peut être défini sur 0 à l’infini (aucun nombre négatif). |
 | Intervalles de mesures | Permet d’augmenter ou de réduire le nombre de classes de données (intervalles). Il ne peut pas y avoir plus de 50 intervalles. |
 | Taille de l’intervalle de mesures | Permet de définir la taille de chaque intervalle. Vous pouvez par exemple modifier la taille de l’intervalle d’une page vue à deux pages vues. |
-| Méthode de comptage | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). Par exemple, pages vues par visite ou pages vues par visiteur ou pages vues par accès. Pour l’accès, la mesure « Occurrences » est utilisée comme mesure de l’axe Y dans un tableau à structure libre. |
+| Méthode de comptage | Lets you choose among [Visitor](/help/components/metrics/unique-visitors.md), [Visit](/help/components/metrics/visits.md), or [Hit Type](/help/components/dimensions/hit-type.md). Par exemple, pages vues par visite ou pages vues par visiteur ou pages vues par accès. Pour l’accès, la mesure « Occurrences » est utilisée comme mesure de l’axe Y dans un tableau à structure libre. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -48,11 +51,11 @@ Pour régler les paramètres de l’histogramme, cliquez sur l’icône d’engr
 
 ## Affichage et modification des données de l’histogramme {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-To view or change the data source for the histogram chart, click the dot next to the Histogram header to go to **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
+Pour afficher ou modifier la source de données de l’histogramme, cliquez sur le point en regard de l’en-tête Histogramme pour accéder à **[!UICONTROL Paramètres de source de données]** > **[!UICONTROL Afficher la source de données]**.
 
 ![](assets/manage-data-source.png)
 
-Les segments prédéfinis du tableau sont des segments internes ; ils n’apparaîtront pas dans le sélecteur de segments. Click the &quot;i&quot; icon next to the segment name, then click **[!UICONTROL Make public]** to make the segment public.
+Les segments prédéfinis du tableau sont des segments internes ; ils n’apparaîtront pas dans le sélecteur de segments. Cliquez sur l’icône « i » en regard du nom du segment, puis, pour le rendre public, cliquez sur **[!UICONTROL Rendre public]**.
 
 ![](assets/prebuilt_segments.png)
 
