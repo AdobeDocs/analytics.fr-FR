@@ -5,7 +5,10 @@ title: Variables de conversion (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '1579'
+ht-degree: 90%
 
 ---
 
@@ -48,7 +51,7 @@ Description des champs utilisés lors de la [modification des variables de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">Attribution</span> </p> </td> 
-   <td colname="col2"> <p>Détermine la manière dont Analytics attribue le crédit d’un événement de succès si une variable reçoit plusieurs valeurs avant l’événement. Les valeurs acceptables sont : </p> <p> <b>Le plus récent</b> : la dernière valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b>Valeur d’origine</b> : la première valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b> Linéaire</b> : attribue uniformément les événements de succès sur toutes les valeurs eVar. Puisque l’attribution linéaire ne répartit précisément les valeurs que dans une visite, utilisez-la avec une expiration d’eVar de visite. </p> <p>Remarque : l’activation ou la désactivation d’une attribution de type Linéaire empêche l’affichage des données historiques. Mélanger divers types d’attribution dans l’interface de création de rapports peut se traduire par des données erronées dans les rapports. Il se peut, par exemple, qu’une attribution linéaire divise les recettes entre plusieurs valeurs eVar différentes. Après avoir rétabli le type d’attribution sur « Le plus récent », 100 % des recettes seront associées à la valeur unique la plus récente. Cette association peut mener à des conclusions incorrectes de la part des utilisateurs. </p> <p>Pour éviter tout risque de confusion dans les rapports, les données historiques ne sont pas mises à la disposition des utilisateurs dans l’interface. Elles peuvent être visualisées si vous décidez de redéfinir l’eVar sur le paramètre d’attribution initial, même s’il est déconseillé de modifier les paramètres d’attribution de l’eVar aux seules fins d’accéder aux données historiques. Adobe recommande d’utiliser une nouvelle eVar lorsque de nouveaux paramètres d’attribution sont souhaités pour des données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution sur une eVar qui a déjà accumulé une certaine quantité de données historiques. </p> </td> 
+   <td colname="col2"> <p>Détermine la manière dont parcours  Analytics attribue le crédit d’un événement de succès si une variable reçoit plusieurs valeurs avant l’événement. Les valeurs acceptables sont : </p> <p> <b>Le plus récent</b> : la dernière valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b>Valeur d’origine</b> : la première valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b> Linéaire</b> : attribue uniformément les événements de succès sur toutes les valeurs eVar. Puisque l’attribution linéaire ne répartit précisément les valeurs que dans une visite, utilisez-la avec une expiration d’eVar de visite. </p> <p>Remarque : l’activation ou la désactivation d’une attribution de type Linéaire empêche l’affichage des données historiques. Mélanger divers types d’attribution dans l’interface de création de rapports peut se traduire par des données erronées dans les rapports. Il se peut, par exemple, qu’une attribution linéaire divise les recettes entre plusieurs valeurs eVar différentes. Après avoir rétabli le type d’attribution sur « Le plus récent », 100 % des recettes seront associées à la valeur unique la plus récente. Cette association peut mener à des conclusions incorrectes de la part des utilisateurs. </p> <p>Pour éviter tout risque de confusion dans les rapports, les données historiques ne sont pas mises à la disposition des utilisateurs dans l’interface. Elles peuvent être visualisées si vous décidez de redéfinir l’eVar sur le paramètre d’attribution initial, même s’il est déconseillé de modifier les paramètres d’attribution de l’eVar aux seules fins d’accéder aux données historiques. Adobe recommande d’utiliser une nouvelle eVar lorsque de nouveaux paramètres d’attribution sont souhaités pour des données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution sur une eVar qui a déjà accumulé une certaine quantité de données historiques. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Expire après</span> </p> </td> 
@@ -88,7 +91,7 @@ Description des champs utilisés lors de la [modification des variables de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Événement de liaison de marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Si le marchandisage est défini sur <span class="uicontrol"> Syntaxe de la variable de conversion</span>, les événements sélectionnés lieront la valeur de l’eVar active à un produit. </p> <p>Pour utiliser un événement de liaison, définissez l’attribution sur <span class="uicontrol"> Le plus récent</span>. Si <span class="uicontrol">l’attribution est définie sur Valeur d’origine</span>, la première liaison de produit eVar demeure jusqu’à l’expiration de l’eVar. </p> </td> 
+   <td colname="col2"> <p>Si le marchandisage est défini sur <span class="uicontrol"> Syntaxe de la variable de conversion</span>, les événements sélectionnés lieront la valeur de l’eVar active à un produit. </p> <p>Pour utiliser un événement de liaison, définissez l’attribution sur <span class="uicontrol"> Le plus récent</span>. Si <span class="uicontrol">l’attribution est définie sur Valeur d’origine</span>, la première liaison de produit eVar demeure jusqu’à l’expiration de l’eVar. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. Vous ne pouvez sélectionner un élément que lorsque le paramètre « Syntaxe de la variable de conversion » est actif.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,11 +103,11 @@ Les `eVars` arrivent à expiration après une période que vous avez spécifiée
 Il existe deux méthodes pour faire expirer une eVar :
 
 * Vous pouvez la configurer de manière à ce qu’elle arrive à expiration après une période ou un événement spécifique.
-* Vous pouvez forcer l’expiration d’une eVar en la réinitialisant, ce qui s’avère utile lors de la réaffectation d’une variable.
+* Vous pouvez forcer l&#39;expiration d&#39;une eVar en la réinitialisant, ce qui s&#39;avère utile lorsque vous redéfinissez l&#39;objectif d&#39;une variable.
 
-Par exemple, si vous modifiez l’expiration d’une eVar de 30 à 90 jours, les valeurs d’eVar collectées continueront à persister pendant la durée du nouveau jeu d’expiration (dans ce cas, 90 jours). Le système examine simplement le paramètre d’expiration actuel et le dernier horodatage défini de la valeur eVar collectée pour déterminer l’expiration. Seule l’ **[!UICONTROL Reset]** option expire les valeurs et le fait immédiatement.
+Par exemple, si vous passez de 30 à 90 jours l’expiration d’une eVar, les valeurs d’eVar collectées continueront à persister pendant la durée du nouveau jeu d’expiration (dans ce cas, 90 jours). Le système examine simplement le paramètre d’expiration actuel et le dernier horodatage défini de la valeur eVar collectée pour déterminer l’expiration. Seule l’option **[!UICONTROL Réinitialiser]** expire les valeurs et le fait immédiatement.
 
-Autre exemple : Si une eVar est utilisée en mai pour refléter les promotions internes et expire après 21 jours, et qu’en juin elle est utilisée pour capturer les mots-clés de recherche interne, le 1er juin, vous devez forcer l’expiration de la variable ou la réinitialiser. De cette manière, les valeurs de promotion interne ne figureront pas dans les rapports du mois de juin.
+Autre exemple : Si une eVar est utilisée en mai pour refléter les promotions internes et arrive à expiration après 21 jours et qu&#39;en juin elle est utilisée pour capturer des mots-clés de recherche interne, le 1er juin, vous devez forcer l&#39;expiration de la variable ou la réinitialiser. De cette manière, les valeurs de promotion interne ne figureront pas dans les rapports du mois de juin.
 
 **Respect de la casse**
 
