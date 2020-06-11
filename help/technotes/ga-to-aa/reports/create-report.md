@@ -2,7 +2,10 @@
 title: Création d’un rapport de base dans Analysis Workspace
 description: Découvrez comment créer un rapport de base dans Analysis Workspace dans un format adapté aux utilisateurs habitués aux outils tiers tels que Google Analytics.
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +39,7 @@ Créez un rapport Toutes les pages (similaire à celui de Google Analytics) en f
 1. Cliquez sur le bouton « Créer un projet ».
 1. Dans la fenêtre contextuelle modale, assurez-vous que l’option « Projet vierge » est sélectionnée, puis cliquez sur Créer.
 1. À gauche, une liste de dimensions, mesures, segments et périodes s’affiche. Recherchez la dimension Pages (en orange), puis faites-la glisser sur le canevas « Déposer une dimension ici ».
-1. Un rapport montrant les principales pages du mois s’affiche. Analysis Workspace renseigne automatiquement la mesure [Occurrences](/help/components/c-variables/c-metrics/metrics-occurrences.md) dans le rapport.
+1. Un rapport montrant les principales pages du mois s’affiche. Analysis Workspace renseigne automatiquement la mesure [Occurrences](/help/components/metrics/occurrences.md) dans le rapport.
 1. Un tableau Google Analytics contient généralement 7 à 8 mesures. Recherchez la mesure Taux de rebonds (en vert) et faites-la glisser en regard de l’en-tête de mesure Occurrences. Si vous faites glisser la mesure Taux de rebond en regard de la mesure Occurrences, les deux mesures s’affichent côte à côte.
 1. De nombreuses mesures peuvent être placées côte à côte en faisant glisser les mesures en regard des en-têtes de mesure existants. Pour plus d’informations sur la manière d’obtenir des mesures généralement utilisées dans Google Analytics, voir [Mesures fréquemment utilisées](common-metrics.md).
 
