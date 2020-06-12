@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Questions fréquentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Quels <b>SKU d’Adobe Analytics</b> permettent d’utiliser Advertising Analytics ? </p> </td> 
-   <td colname="col2"> <p>R. : Advertising Analytics est disponible pour les SKU <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> ou <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> d’Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>R. : Advertising Analytics est disponible pour les SKU <a href="https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html"  >Prime</a> ou <a href="https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> d’Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Dois-je <b>payer un supplément</b> pour utiliser Advertising Analytics ? </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Utilisation d’Advertising Analytics  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Utilisation d’Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -126,7 +126,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Suivi automatique vs. manuel  {#section_7437C4698A6D482EB7ED94A948390119}
+## Suivi automatique vs. manuel {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
