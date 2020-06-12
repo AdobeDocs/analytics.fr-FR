@@ -3,7 +3,7 @@ description: Réponses aux questions pouvant survenir lors de la mise en œuvre 
 solution: Experience Cloud
 title: Questions fréquentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -22,7 +22,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">Si des adresses postales ou électroniques sont contenues dans une entité prop ou eVar, envisagez d’effectuer un hachage des données lors de la collecte. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Si votre pays considère l’adresse IP comme une information personnelle, <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/exclude-ip.html"  >activez la dissimulation d’adresses IP </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Si votre pays considère l’adresse IP comme une information personnelle, <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/exclude-ip.html"  >activez la dissimulation d’adresses IP </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Pour voir les données recueillies, adressez-vous à votre administrateur Analytics. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Contactez votre service juridique pour savoir ce qu’il considère comme des informations d’identification personnelle. </li> 
     </ul> </td> 
@@ -39,13 +39,13 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
  </tbody> 
 </table>
 
-## Questions fréquentes spécifiques à AAM  {#section_6BDF746BA6464359A6A89A64EB025D12}
+## Questions fréquentes spécifiques à AAM {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q : Comment créer une destination Analytics dans Audience Manager ?</b> </p> </td> 
-   <td colname="col2"> Reportez-vous à la section <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >Configuration d’une destination Analytics dans AAM</a>. </td> 
+   <td colname="col2"> Reportez-vous à la section <a href="https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >Configuration d’une destination Analytics dans AAM</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Une fois une destination Analytics créée et enregistrée, combien de temps faut-il pour que les données apparaissent dans mes suites de rapports sélectionnées ?</b> </p> </td> 
@@ -53,7 +53,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : J’ai créé une nouvelle destination Analytics mais je ne la vois pas dans la section Mises en correspondance de destinations de mes segments disponibles. Où cette destination est-elle passée et comment la trouver ?</b> </p> </td> 
-   <td colname="col2"> <p>Une destination Analytics disparaît de la section Mises en correspondance de destinations d’un segment lorsque vous sélectionnez l’option <span class="uicontrol">Mapper automatiquement tous les segments actuels et futurs</span> dans <span class="uicontrol">Mappages des segments </span>. </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>Pour éviter ceci, sélectionnez <span class="uicontrol">Mapper les segments manuellement</span> au lieu de l’option de mappage automatique. </p> </td> 
+   <td colname="col2"> <p>Une destination Analytics disparaît de la section Mises en correspondance de destinations d’un segment lorsque vous sélectionnez l’option <span class="uicontrol">Mapper automatiquement tous les segments actuels et futurs</span> dans <span class="uicontrol">Mappages des segments</span>. </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>Pour éviter ceci, sélectionnez <span class="uicontrol">Mapper les segments manuellement</span> au lieu de l’option de mappage automatique. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Q : Toutes les informations d’AAM seront-elles disponibles dans Analytics ?</b> </p> </td> 
@@ -74,7 +74,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
  </tbody> 
 </table>
 
-## Questions fréquentes spécifiques à Analytics  {#section_67BFB1B1E48D4113A38B075C020931BA}
+## Questions fréquentes spécifiques à Analytics {#section_67BFB1B1E48D4113A38B075C020931BA}
 
 <table id="table_19AEAE0A3575423CB4F5F164DB5626D5"> 
  <tbody> 
@@ -113,7 +113,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
  </tbody> 
 </table>
 
-## Questions fréquentes sur la redirection côté serveur  {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## Questions fréquentes sur la redirection côté serveur {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
