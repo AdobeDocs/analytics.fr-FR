@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Rapports Adobe Campaign
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ Cette intégration entre Adobe Analytics et Adobe Campaign
 
 * permet de partager vos données IPC (Indicateur de performance clé) provenant d’Adobe Campaign Standard avec Adobe Analytics ;
 * enrichit les formules de suivi avec les paramètres d’Adobe Analytics ;
-* ajoute un nouveau rapport sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** > **[!UICONTROL Adobe Campaign.]**
+* ajoute un nouveau rapport sous **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Adobe Campaign.]**
 * ajoute 5 nouvelles classifications Adobe Campaign ;
 * ajoute 10 nouvelles mesures Adobe Campaign ;
 * ajoute 6 nouvelles dimensions Adobe Campaign ;
@@ -26,14 +26,14 @@ Cette intégration entre Adobe Analytics et Adobe Campaign
 
 Pour afficher les données de Campaign dans Analytics, vous devez d’abord activer les rapports Campaign.
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Rapports Adobe Campaign]** .
-1. Cliquez sur **[!UICONTROL Activer les rapports Adobe Campaign]**.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]**.
+1. Cliquez sur **[!UICONTROL Enable Campaign Reporting]**.
 
    ![](assets/enable-campaign.png)
 
 ## Étape 2. Affichage des rapports Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
-L’intégration entre Adobe Campaign Standard et Adobe Analytics ajoute le rapport suivant sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**
+L’intégration entre Adobe Campaign Standard et Adobe Analytics ajoute le rapport suivant sous **[!UICONTROL Analytics]** >**[!UICONTROL Reports]**
 
 <table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
  <thead> 
@@ -52,7 +52,7 @@ L’intégration entre Adobe Campaign Standard et Adobe Analytics ajoute le r
 
 ## Étape 3. Utilisation des classifications Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Classifications Adobe Campaign]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
 
 Une fois votre suite de rapports activée pour Adobe Campaign, les classifications suivantes sont disponibles :
 
@@ -62,7 +62,7 @@ Une fois votre suite de rapports activée pour Adobe Campaign, les classificati
 * Libellé de la campagne (campagne dans Adobe Campaign)
 * Libellé de la diffusion exécutée (liste des diffusions individuelles exécutées)
 
-## Dimensions et mesures Adobe Campaign disponibles dans Adobe Analytics  {#section_F33385C9660644AF84172EC39601469B}
+## Dimensions et mesures Adobe Campaign disponibles dans Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
 
 Les **mesures** suivantes sont disponibles depuis Campaign dans les suites de rapports d’Adobe Analytics :
 
@@ -81,7 +81,7 @@ Les **dimensions** suivantes sont disponibles depuis Campaign dans les suites de
 
 | Nom de la dimension | Définition |
 |--- |--- |
-| ID de campagne | ID de toutes les campagnes pour lesquelles des IPC ont été envoyés pendant la durée |
+| ID de campagne | ID de toutes les campagnes pour lesquelles des IPC ont été envoyés pendant la durée. |
 | Libellé de la campagne | Libellés des ID de campagne |
 | Identifiant de la diffusion | Identifiant de toutes les diffusions pour lesquelles des IPC ont été envoyés pendant la durée. Inclut également les identifiants des diffusions maîtres de la diffusion récurrente et de la diffusion des transactions. Exemple : une diffusion récurrente DM1 était planifiée et DM2, DM3, DM4 et DM5 étaient des diffusions enfants de la diffusion récurrente.  L’identifiant de la diffusion affiche les résultats pour toutes les diffusions, de DM1 à DM5. |
 | Libellé de la diffusion | Libellés des identifiants de diffusion |
