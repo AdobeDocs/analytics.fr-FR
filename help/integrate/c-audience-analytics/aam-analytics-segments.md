@@ -2,7 +2,7 @@
 description: Analytics et Audience Manager utilisent tous deux les segments. Cependant, un segment Analytics ne représente pas exactement la même chose qu’un segment Audience Manager. Ces différences contribuent en partie aux incohérences que vous constaterez dans vos rapports Analytics et Audience Manager. C’est pourquoi il est important et utile d’essayer de comprendre ces différences lorsque vous commencerez à travailler avec les segments dans ces deux solutions.
 title: Présentation des segments dans Analytics et Audience Manager
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ L’appartenance aux segments Audience Manager est fluctuante. Les utilisateurs
 
 Un segment Audience Manager est désigné en tant qu’audience dans Analytics.
 
-Pour plus d’informations, voir les sections [Données de population des caractéristiques et des segments dans le Créateur de segments](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html) et [Signaux, caractéristiques et segments](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/signal-trait-segment.html).
+Pour plus d’informations, voir les sections [Données de population des caractéristiques et des segments dans le Créateur de segments](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/segments/segment-builder-data.html) et [Signaux, caractéristiques et segments](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Segments Analytics {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
