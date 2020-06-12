@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Advertising Analytics - Aperçu
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -25,18 +25,18 @@ Cette intégration est destinée aux audiences ci-dessous :
 
 ## Conditions préalables {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
 
-* Advertising Analytics est disponible pour les SKU [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) ou [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) d’Adobe Analytics.
+* Advertising Analytics est disponible pour les SKU [Select](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html) ou [Ultimate](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html) d’Adobe Analytics.
 
 * Cette fonctionnalité est disponible pour les clients ne bénéficiant pas d’Advertising Cloud ni d’AMO.
 * Vous devez être un administrateur Adobe Analytics pour accéder à Advertising Analytics. Par la suite, vous pourrez [accorder des autorisations d’accès](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) à des non-administrateurs.
 * Toutes les suites de rapports Analytics dans lesquelles vous souhaitez afficher les données de recherche Google/Bing doivent être [mappées à votre organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html).
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
+* Pour toute suite de rapports dans laquelle vous souhaitez afficher les données de recherche Google/Bing, vous devez [activer ces suites de rapports pour Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * Vous avez besoin des informations de connexion pour un utilisateur autorisé à modifier le ou les comptes de recherche que vous souhaitez intégrer à Adobe Analytics, telles qu’un ID de compte Google et un mot de passe.
 * Dans le cas de Bings Ads, les ID de client Bing sont également requis.
 * Si vous utilisez Internet Explorer 11 (ou une version antérieure), vous ne parviendrez pas à [configurer un compte publicitaire](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) pour aucun des trois moteurs de recherche. Utilisez d’autres navigateurs web en remplacement.
 
-## Autorisations Advertising Analytics  {#section_FCC58EB635954A32990D4E67B52B4369}
+## Autorisations Advertising Analytics {#section_FCC58EB635954A32990D4E67B52B4369}
 
 Avec Analytics, deux autorisations sont automatiquement accordées aux administrateurs Analytics. Ceux-ci peuvent ensuite choisir d’accorder ces autorisations à des non-administrateurs.
 
@@ -82,7 +82,7 @@ Advertising Analytics ajoute les dimensions et les mesures suivantes à Analysis
 | Type de correspondance de mot-clé (AMO ID) | Le type de correspondance de mot-clé. Les valeurs seront généralement Large, Expression, Exact ou Aucune valeur si le type d’annonce n’a aucune correspondance. |
 | Plateforme d’annonces publicitaires (AMO ID) | Le nom du moteur de recherche. Les valeurs peuvent inclure Google AdWords ou Microsoft Bing Ads. |
 | Compte (AMO ID) | Le nom du compte de moteur de recherche qui est suivi. |
-| Campaign (AMO ID) | Le nom de la campagne dans votre compte de moteur de recherche. |
+| Campaign (AMO ID) | Le nom de la campagne dans votre compte de moteur de recherche. |
 | Groupe d’annonces (AMO ID) | Le nom du groupe d’annonces dans vos campagnes de moteur de recherche. |
 | Annonce (AMO ID) | Le titre de l’annonce + la description de l’annonce utilisés dans votre annonce. |
 | Mot-clé (AMO ID) | La valeur mot-clé de votre compte de moteur de recherche. |
@@ -114,4 +114,4 @@ Advertising Analytics ajoute les dimensions et les mesures suivantes à Analysis
 | Clics AMO | Le nombre de clics sur les annonces comme indiqué par le moteur de recherche. |
 | Coût AMO | Le coût payé pour chaque mot-clé/annonce comme indiqué par le moteur de recherche. |
 | Pos. moy. | Une mesure calculée qui reflète la position moyenne des annonces comme indiqué par le moteur de recherche. |
-| La Durée note de qualité moyenne | Une mesure calculée qui reflète la note de qualité moyenne comme indiqué par le moteur de recherche. |
+| Temps moyen note de qualité moyenne | Une mesure calculée qui reflète la note de qualité moyenne comme indiqué par le moteur de recherche. |
