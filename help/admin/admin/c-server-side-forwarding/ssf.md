@@ -3,7 +3,7 @@ description: Le transfert côté serveur est conçu pour les clients qui souhait
 solution: Audience Manager
 title: Transfert côté serveur - Aperçu
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -31,12 +31,12 @@ Pour comprendre où se situe votre organisation en termes d’implémentation du
 
 ## ![image step1_icon.png](assets/step1_icon.png) Vérifiez l’implémentation du service ECID
 
-Vérifiez si le service Experience Cloud ID (ECID) est implémenté en examinant la [demande de suivi Analytics](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html).
+Vérifiez si le service Experience Cloud ID (ECID) est implémenté en examinant la [demande de suivi Analytics](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/test-verify.html).
 
 Dans l’onglet Requête, vérifiez qu’une valeur ECID est en cours de définition. Cela vous indique si le service d’identité est correctement implémenté, ce qui est une condition requise du transfert côté serveur.
 
 * Si vous voyez une valeur ECID, passez à l’étape 2.
-* Si vous ne voyez pas de valeur ECID, [implémentez Identity Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) avant de passer à l’étape 2.
+* Si vous ne voyez pas de valeur ECID, [implémentez Identity Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/implementation-guides.html) avant de passer à l’étape 2.
 
 ## ![image step2_icon.png](assets/step2_icon.png) Vérification de la version de l’implémentation du transfert côté serveur
 
@@ -50,9 +50,9 @@ Dans l’onglet « Réponse », vérifiez que la réponse contient les donnée
 
    * **Clients du module de gestion de l’audience (AAM) avec collecte de données côté client (DIL)** : coordonnez les deux éléments suivants en conjonction étroite :
 
-      1. Supprimez le code DIL et installez le code de la page du [module de gestion de l’audience](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
+      1. Supprimez le code DIL et installez le code de la page du [module de gestion de l’audience](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
       1. Activez le transfert côté serveur dans l’interface utilisateur d’administration d’Analytics comme décrit à l’étape 3. L’activation de ce paramètre avant la suppression du code DIL duplique les données et crée des appels serveur facturés supplémentaires à Audience Manager.
-   * **Nouveaux clients du module de gestion de l’audience (AAM)** : installez la page de code du [module de gestion de l’audience](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) et passez à l’étape 3. Les données ne sont pas envoyées à Audience Manager tant que le transfert côté serveur n’est pas activé à l’étape 3.
+   * **Nouveaux clients du module de gestion de l’audience (AAM)** : installez la page de code du [module de gestion de l’audience](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) et passez à l’étape 3. Les données ne sont pas envoyées à Audience Manager tant que le transfert côté serveur n’est pas activé à l’étape 3.
 
 
 ## ![image step3_icon.png](assets/step3_icon.png) Vérification de l’implémentation du transfert côté serveur de la suite de rapports
