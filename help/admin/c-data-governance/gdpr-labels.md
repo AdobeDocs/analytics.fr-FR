@@ -2,7 +2,7 @@
 description: 'null'
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -20,11 +20,11 @@ Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à te
 
 La mise en œuvre de la Confidentialité des données pour Adobe Analytics prend en charge les étiquettes suivantes pour les données d’identification, les données sensibles et la gouvernance des données.
 
-## Étiquettes DULE  {#section_B2E78130957647338495EF37DE21D6BC}
+## Étiquettes DULE {#section_B2E78130957647338495EF37DE21D6BC}
 
 >[!NOTE] Le cadre DULE (Data Usage Labeling &amp; Enforcement) est conçu pour fournir un moyen uniforme au sein de l’ensemble des Solutions/Services/Plateformes Adobe pour capturer, communiquer et utiliser les métadonnées relatives aux données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données. Dans cette version initiale, Analytics révèle uniquement les étiquettes DULE pertinentes pour la Confidentialité des données. Les étiquettes DULE étant prises en charge par d’autres produits Adobe, les versions futures introduiront des étiquettes de données sensibles supplémentaires, ainsi que des étiquettes contractuelles, qui aideront à garantir que les données partagées entre les produits sont exclusivement utilisées de manière légalement admissible.
 
-## Étiquettes de données d’identification (DULE)  {#identity-data-labels}
+## Étiquettes de données d’identification (DULE) {#identity-data-labels}
 
 Les étiquettes « I » pour les données d’identification sont utilisées pour catégoriser les données qui peuvent identifier ou servir à contacter une personne spécifique.
 
@@ -58,7 +58,7 @@ Les étiquettes « I » pour les données d’identification sont utilisées p
  </tbody> 
 </table>
 
-## Étiquettes de données sensibles (DULE)  {#sensitive-data-labels}
+## Étiquettes de données sensibles (DULE) {#sensitive-data-labels}
 
 Les étiquettes « S » pour les données sensibles sont utilisées pour catégoriser les données sensibles telles que les données géographiques. D’autres étiquettes de données sensibles seront introduites à l’avenir pour identifier d’autres types d’informations sensibles.
 
@@ -200,7 +200,7 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
  </tbody> 
 </table>
 
-## Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes invité à fournir un espace de noms. Vous pouvez utiliser un espace de noms défini précédemment ou en définir un nouveau.
 
@@ -208,8 +208,8 @@ Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes in
 
 Si vous aviez précédemment défini une étiquette d’identification pour d’autres variables dans des suites de rapports de votre société de connexion, vous pouvez sélectionner un espace de noms existant. Vous devez réutiliser l’espace de noms si cette variable contient le même type d’ID que les autres variables déjà étiquetées avec cet espace de noms et que vous souhaitez toutes les rechercher lorsque vous soumettez une demande.
 
-1. Cliquez sur **[!UICONTROL Sélectionner un espace de noms]**, puis sélectionnez un espace de noms existant.
-1. Cliquez sur **[!UICONTROL Appliquer]**.
+1. Cliquez sur **[!UICONTROL Select Namespace]**, puis sélectionnez un espace de noms existant.
+1. Cliquez sur **[!UICONTROL Apply]**.
 
 ![](assets/namespace.png)
 
@@ -217,12 +217,12 @@ Si vous aviez précédemment défini une étiquette d’identification pour d’
 
 Vous pouvez également définir un nouvel espace de noms. Nous vous recommandons de limiter les chaînes d’espace de noms à des caractères alphanumériques, plus le trait de soulignement, la barre oblique et l’espace. Ceux-ci seront tous convertis en minuscules.
 
-1. Cliquez sur **[!UICONTROL Sélectionner un espace de noms]**, puis tapez le titre de l’espace de noms.
+1. Cliquez sur **[!UICONTROL Select Namespace]**, puis tapez le titre de l’espace de noms.
 
    ![](assets/namespace2.png)
 
-1. Appuyez sur **[!UICONTROL Entrée]** pour ajouter cet espace de noms. Le bouton Appliquer devient alors actif.
-1. Cliquez sur **[!UICONTROL Appliquer]**.
+1. Appuyez sur **[!UICONTROL Enter]** pour ajouter cet espace de noms. Le bouton Appliquer devient alors actif.
+1. Cliquez sur **[!UICONTROL Apply]**.
 
 La chaîne que vous spécifiez comme espace de noms est la même que celle que vous devez utiliser pour soumettre des demandes via l’API relative à la Confidentialité des données comme valeur du paramètre « espace de noms ». Suite à cette demande, Adobe Analytics recherchera toutes les variables de toutes vos suites de rapports qui partagent cet espace de noms pour l’identifiant spécifié avec la demande.
 
@@ -288,7 +288,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
  </tbody> 
 </table>
 
-## Variables auxquelles des étiquettes autres que ACC-ALL/ACC-PERSON peuvent être attribuées/modifiées  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variables auxquelles des étiquettes autres que ACC-ALL/ACC-PERSON peuvent être attribuées/modifiées {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -323,7 +323,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensions et événements relatifs aux solutions </p> </td> 
-   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Activity Map  Activity Map </p> </td> 
+   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Activity Map Page </p> </td> 
    <td colname="col3"> <p>Aucune/I1/I2 </p> <p>Aucune/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre mise en œuvre ne collecte pas de données directement ou indirectement identifiables dans ces variables, alors elles n’ont pas besoin d’étiquettes d’identité ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
   </tr> 
@@ -344,14 +344,14 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
    <td colname="col4"> <p>Vous ne pouvez pas supprimer l’étiquette DEL, mais vous pouvez la modifier en DEL-DEVICE ou DEL-PERSON, ou les deux. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Action ClickMap (héritée), </p> <p>Contexte ClickMap (hérité), </p> <p>Activity Map, </p> <p>URL de la page, </p> <p>URL de la page d’accès originale, </p> <p>Referrer, </p> <p>URL de la page de début de la visite </p> </td> 
+   <td colname="col2"> <p>Action ClickMap (héritée), </p> <p>Contexte ClickMap (hérité), </p> <p>Page, </p> <p>URL de la page, </p> <p>URL de la page d’accès originale, </p> <p>Referrer, </p> <p>URL de la page de début de la visite </p> </td> 
    <td colname="col3"> <p>Aucune/I1/I2 </p> <p>Aucune/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre mise en œuvre ne collecte pas de données directement ou indirectement identifiables dans ces variables, alors elles n’ont pas besoin d’étiquettes d’identité ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gestion des suppressions  {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Gestion des suppressions {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 La prise en charge par Adobe Analytics des demandes de suppression relatives à la Confidentialité des données est conçue pour minimiser l’impact sur la génération de rapports. Dans la plupart des cas, les mesures qui apparaissent dans les rapports ne devraient pas changer. Ainsi, un rapport antérieur exécuté avant la suppression relative à la Confidentialité des données restera le même une fois la suppression effectuée. En effet, les données supprimées sont complètement dissociées du sujet des données et les données non identifiables restent en place pour que les valeurs rapportées soient toujours cohérentes.
 
@@ -382,7 +382,7 @@ Le tableau suivant décrit comment différentes variables sont « supprimées 
    <td colname="col2"> <p>La valeur est effacée (définie sur une chaîne vide ou 0 selon le type de variable). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• Action ClickMap (héritée) </p> <p>• Contexte ClickMap (hérité) </p> <p>• Activity Map </p> <p>• URL de la page </p> <p>• URL de la page d’accès originale </p> <p>• Referrer </p> <p>• URL de la page de début de la visite </p> </td> 
+   <td colname="col1"> <p>• Action ClickMap (héritée) </p> <p>• Contexte ClickMap (hérité) </p> <p>• Page </p> <p>• URL de la page </p> <p>• URL de la page d’accès originale </p> <p>• Referrer </p> <p>• URL de la page de début de la visite </p> </td> 
    <td colname="col2"> <p>Les paramètres d’URL sont effacés/supprimés. Si la valeur ne ressemble pas à une URL, elle est effacée (définie sur une chaîne vide). </p> </td> 
   </tr> 
   <tr> 
@@ -439,7 +439,7 @@ Cette section vise à clarifier les informations concernant les variables Analyt
  </tbody> 
 </table>
 
-## Champs de date pour les demandes d’accès  {#section_6678FB4FF42B481C9B78E64F61782397}
+## Champs de date pour les demandes d’accès {#section_6678FB4FF42B481C9B78E64F61782397}
 
 Il existe cinq variables standard qui contiennent des horodatages :
 
@@ -476,4 +476,4 @@ Il existe cinq variables standard qui contiennent des horodatages :
 
 Le code permettant de générer les fichiers renvoyés lors des demandes d’accès relatives à la Confidentialité des données nécessite qu’au moins l’une des trois premières variables d’horodatage soit incluse dans la demande d’accès (et dispose d’une étiquette ACC s’appliquant au type de demande). Si aucune d’elles n’est incluse, l’heure d’accès personnalisée UTC sera traitée comme si elle possédait une étiquette ACC-ALL.
 
-Le fichier CSV d’accès renvoyé lors des demandes d’accès relatives à la Confidentialité des données convertira les valeurs de ces champs pour passer d’horodatages uniques en champs date/heure au format AAAA-MM-JJ HH:MM:SS (par exemple, 2018-05-01 13:49:22). Dans le fichier de résumé HTML, ces valeurs d’horodatage seront tronquées pour n’inclure que la date (AAAA-MM-JJ), afin de réduire le nombre de valeurs uniques possibles pour ces champs.
+Le fichier CSV d’accès renvoyé lors des demandes d’accès relatives à la Confidentialité des données convertira les valeurs de ces champs pour passer d’horodatages uniques en champs date/heure au format JJ-MM-AAAA HH:MM:SS (par exemple, 01-05-2018 13:49:22). Dans le fichier de résumé HTML, ces valeurs d’horodatage seront tronquées pour n’inclure que la date (AAAA-MM-JJ), afin de réduire le nombre de valeurs uniques possibles pour ces champs.
