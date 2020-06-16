@@ -3,7 +3,7 @@ description: Si vous avez copié des paramètres d’une suite de rapports exist
 title: Paramètres non copiés depuis une suite de rapports source
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ Les paramètres suivants ne sont pas copiés à partir de suites de rapports mod
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Données de classification (la structure de classification est copiée) </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentation Importateur de classifications (Télécharger)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentation Importateur de classifications (Télécharger)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation de l’enregistrement des identifiants de transaction </p> </td> 
@@ -68,7 +68,7 @@ Les paramètres suivants ne sont pas copiés à partir de suites de rapports mod
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gestionnaire ClickMap des visiteurs </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Passer à Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Passer à Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Règles VISTA </p> </td> 
