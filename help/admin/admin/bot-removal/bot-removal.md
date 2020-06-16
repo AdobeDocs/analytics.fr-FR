@@ -1,7 +1,7 @@
 ---
 title: Suppression de robots dans Adobe Analytics
 description: Trois méthodes pour supprimer des robots dans Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
@@ -28,7 +28,7 @@ En outre, comme les robots se transforment rapidement, Adobe propose plusieurs a
 
 ### Étape 1 : transférer l’Experience Cloud ID de vos visiteurs dans un nouvel ID déclaré
 
-Pour commencer, vous souhaiterez créer un ID déclaré dans le [service clé People](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html). Vous devrez transmettre l’Experience Cloud ID de votre visiteur à ce nouvel ID déclaré, ce qui peut être effectué rapidement et facilement à l’aide d’[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/implement/solutions/idservice-save.html). Utilisons le nom « ECID » pour l’ID déclaré.
+Pour commencer, vous souhaiterez créer un ID déclaré dans le [service clé People](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html). Vous devrez transmettre l’Experience Cloud ID de votre visiteur à ce nouvel ID déclaré, ce qui peut être effectué rapidement et facilement à l’aide d’[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Utilisons le nom « ECID » pour l’ID déclaré.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -36,7 +36,7 @@ Voici la manière de capturer cet ID via l’élément de données. Veillez à r
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Une fois cet élément de données configuré, suivez [ces instructions](https://docs.adobe.com/content/help/fr-FR/launch/using/implement/solutions/idservice-save.html) pour transmettre les ID déclarés à l’outil ECID dans Launch.
+Une fois cet élément de données configuré, suivez [ces instructions](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) pour transmettre les ID déclarés à l’outil ECID dans Launch.
 
 ### Étape 2 : utiliser la segmentation pour identifier les robots
 
