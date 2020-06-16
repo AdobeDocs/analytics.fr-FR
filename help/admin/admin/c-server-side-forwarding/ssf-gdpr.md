@@ -2,7 +2,7 @@
 description: 'null'
 title: Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -41,8 +41,8 @@ Pour configurer ce type de reporting, mappez la nouvelle variable contextuelle �
 1. Utilisez les règles de traitement pour mapper la variable contextuelle à la prop.
 
    1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
-   1. Cliquez sur **[!UICONTROL Modifier la Report Suite]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de traitement]** .
-   1. Cliquez sur **[!UICONTROL Ajouter une règle.]**
+   1. Cliquez sur **[!UICONTROL Modifier la Report Suite]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de traitement]**.
+   1. Cliquez sur **[!UICONTROL Ajouter une règle]**.
    1. Sous **[!UICONTROL Toujours exécuter]**, remplacez la valeur de la prop que vous avez activée par la variable contextuelle « cm.ssf(Context Data) ».
    1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
