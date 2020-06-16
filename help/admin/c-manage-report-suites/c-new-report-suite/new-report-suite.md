@@ -3,7 +3,7 @@ description: Vous pouvez créer une suite de rapports en sélectionnant un modè
 title: Paramètres d’une nouvelle suite de rapports
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
