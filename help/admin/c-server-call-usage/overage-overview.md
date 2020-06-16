@@ -2,7 +2,7 @@
 description: 'null'
 title: Aperçu de l’utilisation de l’appel au serveur
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -98,13 +98,13 @@ La permission de l’utilisation de l’appel au serveur est automatiquement acc
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Connectez-vous à Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Gestion des utilisateurs </span> &gt; <span class="uicontrol"> Groupes </span> &gt; <span class="uicontrol"> Modifier tous les accès aux rapports </span> &gt; <span class="uicontrol"> Outils Analytics </span> &gt; <span class="uicontrol"> Personnaliser </span> &gt; <span class="uicontrol"> Utilisation de l’appel au serveur </span> </span>. </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Gestion des utilisateurs </span> &gt; <span class="uicontrol"> Groupes </span> &gt; <span class="uicontrol"> Modifier tous les accès aux rapports </span> &gt; <span class="uicontrol"> Outils Analytics </span> &gt; <span class="uicontrol"> Personnaliser </span> &gt; <span class="uicontrol"> Utilisation de l’appel au serveur</span></span>. </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Connectez-vous à login.experiencecloud.adobe.com.</li> 
-     <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Cliquez sur <span class="uicontrol">Analytics </span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Accédez à <span class="ignoretag"> <span class="uicontrol"> Produits</span> &gt; <span class="uicontrol"> Profil du produit </span> &gt; <span class="uicontrol"> Permissions </span> &gt; <span class="uicontrol"> Outils Analytics </span> &gt; <span class="uicontrol"> Utilisation de l’appel au serveur </span> </span>. </li> 
+     <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Cliquez sur <span class="uicontrol">Analytics</span>. </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Accédez à <span class="ignoretag"> <span class="uicontrol"> Produits</span> &gt; <span class="uicontrol"> Profil du produit </span> &gt; <span class="uicontrol"> Permissions </span> &gt; <span class="uicontrol"> Outils Analytics </span> &gt; <span class="uicontrol"> Utilisation de l’appel au serveur</span></span>. </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
