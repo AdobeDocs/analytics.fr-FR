@@ -2,7 +2,7 @@
 description: Étiqueter les données de la suite de rapports signifie que vous attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports donnée. Assurez-vous d’abord de vous familiariser avec les étiquettes et leurs définitions.
 title: Étiqueter les données d’une suite de rapports
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **Exemple** : en tant que contrôleur des données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des sujets des données pour traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics. Pour créer une étiquette pour les adresses électroniques et les ID de cookie, vous devez utiliser le cadre DULE (Data Usage Labeling &amp; Enforcement) d’Adobe Cloud Platform dans Analytics.
 
-1. Dans Analytics, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Gouvernance des données]** > **[!UICONTROL (sélectionnez la suite de rapports)]** ![](assets/privacy_rs_settings.png)
+1. Dans Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
 
 1. Sélectionnez le groupe de variables que vous voulez étiqueter.
 
@@ -37,7 +37,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/info.png)
 
-1. Sélectionnez une ou plusieurs variables en cochant leurs cases, puis sélectionnez l’icône **[!UICONTROL Modifier]** (à droite) pour modifier une ou plusieurs variables.
+1. Sélectionnez une ou plusieurs variables en cochant leurs cases, puis sélectionnez l’icône **[!UICONTROL Edit]** (à droite) pour modifier une ou plusieurs variables.
 
    ![](assets/edit.png)
 
@@ -57,7 +57,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/privacy_labels.png)
 
-1. Cliquez sur **[!UICONTROL Appliquer]** lorsque vous avez entièrement terminé l’étiquetage.
+1. Cliquez sur **[!UICONTROL Apply]** lorsque vous avez entièrement terminé l’étiquetage.
 
 ## Copier des étiquettes dans une ou plusieurs suites de rapports {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -65,11 +65,11 @@ Si vous souhaitez appliquer les mêmes paramètres DULE/Confidentialité des don
 
 1. Sélectionnez le groupe de variables (Dimensions standard, Dimensions de conversion, etc.) contenant la variable que vous souhaitez copier. Notez que vous ne pouvez copier les étiquettes que d’un seul groupe de variables à la fois.
 1. Sélectionnez certaines ou toutes les variables de ce groupe.
-1. Cliquez sur **[!UICONTROL Copier des étiquettes dans une ou plusieurs suites de rapports]** en haut à droite de la boîte de dialogue Gouvernance des données.
+1. Cliquez sur **[!UICONTROL Copy Labels to Report Suite(s)]** en haut à droite de la boîte de dialogue Gouvernance des données.
 
    ![](assets/apply_as_template.png)
 
-1. Cochez **[!UICONTROL Sélectionner tout]** pour copier les étiquettes pour les variables sélectionnées dans toutes les suites de rapports ou sélectionnez les suites de rapports dans lesquelles vous voulez copier les étiquettes.
+1. Cochez **[!UICONTROL Select All]** pour copier les étiquettes pour les variables sélectionnées dans toutes les suites de rapports ou sélectionnez les suites de rapports dans lesquelles vous voulez copier les étiquettes.
 
    >[!IMPORTANT]
    >
@@ -87,5 +87,5 @@ Si vous souhaitez appliquer les mêmes paramètres DULE/Confidentialité des don
    >
    >Vous devez toujours vérifier les suites de rapports de destination pour vous assurer que les étiquettes sont copiées correctement. Ceci est particulièrement important pour les variables possédant des étiquettes ID ou DEL.
 
-1. Cliquez sur **[!UICONTROL Appliquer]**.
+1. Cliquez sur **[!UICONTROL Apply]**.
 
