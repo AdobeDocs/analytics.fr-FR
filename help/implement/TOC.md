@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 92%
+source-wordcount: '443'
+ht-degree: 91%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 92%
       + [contextData](vars/page-vars/contextdata.md)
       + [Variables dynamiques](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
+      + [eVar (marchandisage)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [Présentation des événements](vars/page-vars/events/events-overview.md)
          + [Événement d’achat](vars/page-vars/events/event-purchase.md)
@@ -200,6 +201,6 @@ ht-degree: 92%
    + [Moniteurs de paquets](validate/packet-monitor.md)
    + [Collisions de hachage](validate/hash-collisions.md)
 + [Questions fréquentes](faq.md)
-+ Utilisation des données XDM avec Analytics {#aep-edge}
++ Utiliser des données XDM avec Analytics {#aep-edge}
    + [Utiliser le SDK Web AEP](aep-edge/xdmoverview.md)
-   + [Faire correspondre manuellement les données XDM à Analytics](aep-edge/xdm-manual.md)
+   + [Mappage manuel des données XDM vers Analytics](aep-edge/xdm-manual.md)
