@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 72%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 72%
    + [canal Première touche](dimensions/first-touch-channel.md)
    + [Détails du canal Première touche](dimensions/first-touch-detail.md)
    + [Profondeur d’accès](dimensions/hit-depth.md)
+   + [Type d’accès](dimensions/hit-type.md)
    + [Heure du jour](dimensions/hour-of-day.md)
    + [Heure](dimensions/hour.md)
    + [Compatible Java](dimensions/java-enabled.md)
@@ -75,7 +76,7 @@ ht-degree: 72%
    + [Trimestre de l&#39;année](dimensions/quarter-of-year.md)
    + [Trimestre](dimensions/quarter.md)
    + [Type de Parrain](dimensions/referrer-type.md)
-   + [Referrer](dimensions/referrer.md)
+   + [Référent](dimensions/referrer.md)
    + [Domaine référent](dimensions/referring-domain.md)
    + [Régions](dimensions/regions.md)
    + [Fréquence des retours](dimensions/return-frequency.md)
