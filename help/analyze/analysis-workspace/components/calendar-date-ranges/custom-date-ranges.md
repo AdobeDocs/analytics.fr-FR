@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Création de périodes personnalisées
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ La période personnalisée suivante présente une période pour « deux mois au
 
 ![](assets/date-range-two-months-ago.png)
 
-The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
+La période personnalisée s’affiche au haut du panneau du composant [!UICONTROL Date Range] dans votre projet :
 
 ![](assets/date-range-panel-two-months-ago.png)
 
@@ -42,7 +42,7 @@ Par exemple, vous pouvez créer une plage de dates qui spécifie un créneau var
 
 ![](assets/create_date_range.png)
 
-Sélectionnez l’option  *`rolling daily`*.
+Sélectionnez l’option *`rolling daily`*.
 
 * Le paramètre Début correspondrait à *`current day minus 14 days`*.
 
