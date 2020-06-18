@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Flux - Aperçu
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -28,6 +28,6 @@ Vous pouvez afficher le [flux entre plusieurs dimensions](/help/analyze/analysis
 
 Chaque colonne peut présenter une dimension distincte. Faites glisser une dimension et ajoutez-la au diagramme en la déposant dans une zone de dépôt.
 
-## Exportation de diagrammes de flux dans des fichiers .CSV de projet  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Exportation de diagrammes de flux dans des fichiers .CSV de projet {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Flow diagrams are part of a project&#39;s .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Vous pouvez ainsi analyser les résultats des flux dans Microsoft Excel (dans un tableau) ou ailleurs.
+Les diagrammes de flux font partie d’un fichier CSV de projet, que vous créez en sélectionnant **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Vous pouvez ainsi analyser les résultats des flux dans Microsoft Excel (dans un tableau) ou ailleurs.
