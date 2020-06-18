@@ -2,7 +2,7 @@
 description: Synchronisez les visualisations pour contrôler quel tableau de données ou source de données correspond à une visualisation.
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Gestion des sources de données
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
@@ -18,7 +18,7 @@ La gestion d’une source de données permet d’afficher la source de données 
 
 1. [Créez un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) avec un tableau de données et une [visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. Dans le tableau de données, sélectionnez les cellules (source de données) à associer à la visualisation.
-1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Sélectionnez **[!UICONTROL Show Data Source]** ou **[!UICONTROL Lock Selection]**.
+1. Dans la visualisation, cliquez sur le point en regard du titre pour ouvrir la boîte de dialogue **[!UICONTROL Data Source]**. Sélectionnez **[!UICONTROL Show Data Source]** ou **[!UICONTROL Lock Selection]**.
 
    ![](assets/manage-data-source.png)
 
