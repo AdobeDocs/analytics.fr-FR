@@ -69,4 +69,4 @@ Utilisez les groupes de composants pour ajouter des composants en vrac à la sui
 
 ## Comportement de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Pour plus d’informations sur le traitement dans Analysis Workspace, voir [Traitement et partage d’un projet](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.translate.html).
+Pour plus d’informations sur le traitement dans Analysis Workspace, voir [Traitement et partage d’un projet](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.html).
