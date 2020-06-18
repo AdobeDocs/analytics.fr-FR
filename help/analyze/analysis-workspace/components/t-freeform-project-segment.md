@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Segments
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -16,7 +16,7 @@ Le rail des segments sous le menu Composants affiche les segments, ainsi que les
 
 ![](assets/segment_icons.png)
 
-[Utilisation de segments dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46)
+[Utilisation de segments dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=QlUCdQDnni4) (6:46)
 
 ## Création de segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -37,7 +37,7 @@ Gardez les éléments suivants à l’esprit :
 Pour rendre ces segments publics (globaux), procédez comme suit :
 
 1. Pointez sur le segment de la zone de dépôt, puis cliquez sur l’icône « i ».
-1. In the information panel that displays, click **[!UICONTROL Make public]**.
+1. Dans le panneau Informations qui s’affiche, cliquez sur **[!UICONTROL Make public]**.
 
    ![](assets/segment-info.png)
 
