@@ -2,7 +2,7 @@
 description: Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Visualisations - Aperçu
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
@@ -10,34 +10,34 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 # Visualisations - Aperçu
 
-Workspace  un certain nombre de visualisations qui vous permettent de générer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des diagrammes en courbes, des cartes, des diagrammes différés, etc. Chaque visualisation possède ses propres paramètres que vous pouvez gérer. Cliquez sur le nom de la visualisation pour obtenir des informations plus détaillées.
+Workspace offre un certain nombre de visualisations qui vous permettent de générer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des graphiques en courbes, des cartes, des tracés différés, etc. Chaque visualisation possède ses propres paramètres que vous pouvez gérer. Cliquez sur le nom de la visualisation pour obtenir des informations plus détaillées.
 
-Vidéo YouTube : Types [de visualisation dans   Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) de (2:57)
+Vidéo YouTube : [Types de visualisation dans Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 | Nom de la visualisation | Description |
 |---|---|
-| [Surface](/help/analyze/analysis-workspace/visualizations/area.md) | comme un graphique linéaire, mais avec une zone colorée sous la ligne. Utilisez un diagramme de surface si vous avez plusieurs mesures et souhaitez visualiser la zone exprimée par l’intersection de plusieurs mesures. |
-| [Barre](/help/analyze/analysis-workspace/visualizations/bar.md) | Affiche des barres verticales représentant diverses valeurs sur une ou plusieurs mesures. |
-| [Graphique à puces](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Indique comment une valeur qui vous intéresse peut être comparée ou mesurée par rapport à d’autres plages de performances (objectifs). |
+| [Surface](/help/analyze/analysis-workspace/visualizations/area.md) | Semblable à un graphique linéaire, mais avec une zone colorée sous la ligne. Utilisez un diagramme de surface si vous avez plusieurs mesures et souhaitez visualiser la zone exprimée par l’intersection de plusieurs mesures. |
+| [Barre](/help/analyze/analysis-workspace/visualizations/bar.md) | Des barres verticales représentent plusieurs valeurs pour une ou plusieurs mesures. |
+| [Graphique à puces](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Permet de comparer ou de mesurer une valeur qui vous intéresse par rapport à d’autres plages de performances (objectifs). |
 | [Tableau de cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’analyse des cohortes s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. |
 | [Anneau](/help/analyze/analysis-workspace/visualizations/donut.md) | Semblable à un graphique circulaire, cette visualisation présente les données comme des portions ou des segments d’un tout. |
-| [Abandon](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution).  |
-| [Flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Affiche les chemins d’accès des clients à travers vos sites Web et applications. |
-| [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Un tableau à structure libre n’est pas seulement un tableau de données, mais aussi une visualisation interactive. |
+| [Abandon](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution). |
+| [Flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Présente les parcours des clients sur vos sites web et dans vos applications. |
+| [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Un tableau à structure libre n’est pas simplement un tableau de données, mais également une visualisation interactive. |
 | [Histogramme](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un histogramme est semblable à un graphique à barres, à ceci près qu’il répartit les chiffres en classes (intervalles). |
-| [Barre horizontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Affiche des barres horizontales représentant diverses valeurs sur une ou plusieurs mesures. |
-| [Ligne](/help/analyze/analysis-workspace/visualizations/line.md) | Représente les mesures à l’aide d’une ligne afin d’indiquer comment les valeurs changent au fil du temps. Pour pouvoir utiliser un graphique en courbes, le temps doit être défini comme une dimension. |
-| [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | permet de créer une carte visuelle de n’importe quelle mesure (y compris les mesures calculées) ; |
+| [Barre horizontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures. |
+| [Ligne](/help/analyze/analysis-workspace/visualizations/line.md) | Les mesures sont représentées sous la forme d’une ligne afin d’indiquer de quelle façon changent les valeurs au fil du temps. Pour pouvoir utiliser un graphique en courbes, le temps doit être défini comme une dimension. |
+| [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permet de créer une carte visuelle de n’importe quelle mesure (y compris les mesures calculées) ; |
 | [Graphique de dispersion](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Affiche la relation entre les valeurs de dimension et trois mesures au maximum. |
 | [Numéro de résumé](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Selon la cellule sélectionnée, cette visualisation affiche les totaux et les résumés. |
-| [Modification du résumé](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Selon les cellules sélectionnées, cette visualisation compare les cellules les unes aux autres. |
-| [Texte](/help/analyze/analysis-workspace/visualizations/text.md) | Permet d’ajouter du texte défini par l’utilisateur dans l’Workspace. |
+| [Résumé des changements](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Selon les cellules sélectionnées, cette visualisation compare les cellules les unes aux autres. |
+| [Texte](/help/analyze/analysis-workspace/visualizations/text.md) | Permet d’ajouter du texte défini par l’utilisateur dans Workspace. |
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Présente les données hiérarchiques (structurées en arbre) sous la forme d’un ensemble de rectangles imbriqués. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Vous permet de faire glisser jusqu’à 3 segments (depuis Composants) et une mesure pour créer un diagramme de Venn. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Vous permet de faire glisser jusqu’à trois segments (depuis les composants) et une mesure afin de générer un diagramme de Venn. |
 
 ## Panneau Visualisations {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-To display the Visualizations panel, click **[!UICONTROL Visualizations]** in the side panel.
+Pour afficher le panneau Visualisations, cliquez sur **[!UICONTROL Visualizations]** dans le panneau latéral.
 
 ![Résultat de l’étape](assets/visualizations.png)
 
@@ -45,7 +45,7 @@ Si vous utilisez Adobe Analytics, vous connaissez sans doute déjà la plupart d
 
 ## Paramètres de visualisation {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Pour y accéder [!UICONTROL Visualization Settings], faites glisser une visualisation [!UICONTROL Freeform Panel], puis cliquez sur l’icône [!UICONTROL Visualization Settings] d’engrenage.
+Pour accéder à [!UICONTROL Visualization Settings], faites glisser une visualisation vers le [!UICONTROL Freeform Panel], puis cliquez sur l’icône d’engrenage [!UICONTROL Visualization Settings].
 
 >[!IMPORTANT]
 >
@@ -66,7 +66,7 @@ Pour y accéder [!UICONTROL Visualization Settings], faites glisser une visualis
 
 ## Icône Créer un visuel {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row. Cette icône s’affiche quand vous pointez sur la ligne du tableau. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Si, par exemple, trois segments sont sélectionnés, un diagramme de Venn est créé. S’il y a plus de trois segments, un graphique à barres est créé. Pour d’autres types de données, cela peut aussi être un graphique linéaire, etc.
+Si vous ne savez pas quelle visualisation choisir, cliquez sur l’icône **[!UICONTROL Create Visual]** dans une ligne de tableau. Cette icône s’affiche quand vous pointez sur la ligne du tableau. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Si, par exemple, trois segments sont sélectionnés, un diagramme de Venn est créé. S’il y a plus de trois segments, un graphique à barres est créé. Pour d’autres types de données, cela peut aussi être un graphique linéaire, etc.
 
 ![](assets/create-visual.png)
 
