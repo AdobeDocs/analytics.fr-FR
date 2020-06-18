@@ -3,30 +3,30 @@ description: Partage de projets et rôles de projets dans Workspace
 keywords: Analysis Workspace sharing
 title: Projets Share Workspace
 translation-type: tm+mt
-source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
+source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 9%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
 
 # Projets Share Workspace
 
-Le partage rend un projet accessible à d’autres utilisateurs de l’espace de travail d’Analyse de votre entreprise. Les [traitements](curate.md) appliqués sont répercutés lorsque les destinataires ouvrent le projet.
+Le partage met un projet à la disposition d’autres utilisateurs Analysis Workspace de votre entreprise. Les [traitements](curate.md) appliqués sont répercutés lorsque les destinataires ouvrent le projet.
 
 ## Rôles de projet
 
-Vous pouvez ajouter des destinataires à l’un des trois rôles de projet. Les rôles de projet sont liés à l’utilisateur et à un ID de projet spécifique.
-
->[!NOTE]
-> Les rôles de projet sont indépendants des autorisations d’utilisateur gérées dans la console d’administration d’Experience Cloud.
+Vous pouvez ajouter des destinataires à l’un des trois rôles de projet. Les rôles de projet sont liés à l’utilisateur et à un ID de projet spécifique. Les rôles de projet sont indépendants des autorisations d’utilisateur gérées dans la console [d’administration](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html)Experience Cloud.
 
 | Rôle | Contrôle du projet |
 |---|---|
 | Peut modifier | Les destinataires peuvent Enregistrer les modifications dans un projet et agir en tant que copropriétaires.<br>Ce rôle est utile si vous souhaitez collaborer avec des collègues sur un projet. |
-| Peut dupliquer | Les destinataires peuvent Enregistrer sous et ont accès au rail de gauche. Les interactions ne sont pas limitées.<br>Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui comprennent les données de votre entreprise et comment utiliser Analyse Workspace, mais que vous ne souhaitez pas que votre projet enregistré soit modifié. |
-| Peut afficher | Les Destinataires ne peuvent pas enregistrer sous et n’ont pas accès au rail de gauche. Les interactions sont également limitées.<br>Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui connaissent moins bien la structure de données de votre entreprise, l’espace de travail des Analyses ou Adobe Analytics en général. Cependant, vous souhaitez toujours qu’ils consomment des données et des informations dans un environnement sûr.<br>En savoir plus sur l’expérience [du projet](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can vue. |
+| Peut dupliquer | Les destinataires peuvent Enregistrer sous et ont accès au rail de gauche. Les interactions ne sont pas limitées.<br>Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui comprennent les données de votre entreprise et comment utiliser l’Analysis Workspace, mais que vous ne souhaitez pas que votre projet enregistré soit modifié. |
+| Peut afficher | Les Destinataires ne peuvent pas enregistrer sous et n’ont pas accès au rail de gauche. Les interactions sont également limitées.<br>Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui connaissent moins bien la structure de données de votre entreprise, Analysis Workspace ou Adobe Analytics en général. Cependant, vous souhaitez toujours qu’ils consomment des données et des informations dans un environnement sûr.<br>En savoir plus sur l’expérience [du projet](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can vue. |
+
+>[!IMPORTANT]
+> Les destinataires de projet ajoutés avant le 18 juin 2020 ont été migrés dans un rôle de projet. Les administrateurs ont effectué la migration vers le rôle de modification Can et les non-administrateurs vers le rôle de vue Can. Ces rôles offrent la même expérience de projet qu&#39;auparavant.
 
 ### Aucun rôle affecté
 
@@ -53,7 +53,7 @@ Une fois partagés, ces composants s’affichent dans la liste déroulante Compo
 1. (Facultatif) Définissez cette page comme landing page pour les destinataires.
 Ce paramètre est ponctuel ; c’est une action unique au moment du partage.
 1. Cliquez sur Partager.
-Vous pouvez également cliquer sur **[!UICONTROL Traiter et Partager]** pour appliquer automatiquement la gestion du projet. Si un projet a déjà été partagé, ces boutons indiqueront **[!UICONTROL Mettre à jour]** et **[!UICONTROL Traiter et mettre à jour]**. En savoir plus sur la gestion [des](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.translate.html)projets.
+Vous pouvez également cliquer sur **[!UICONTROL Traiter et Partager]** pour appliquer automatiquement la gestion du projet. Si un projet a déjà été partagé, ces boutons indiqueront **[!UICONTROL Mettre à jour]** et **[!UICONTROL Traiter et mettre à jour]**. En savoir plus sur la gestion [des](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.html)projets.
 
 ![](assets/share-proj-modal.png)
 
