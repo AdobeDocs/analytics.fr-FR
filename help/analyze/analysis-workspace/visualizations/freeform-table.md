@@ -1,7 +1,7 @@
 ---
 title: Tableau à structure libre
 description: En savoir plus sur les tableaux à structure libre et le créateur de tableaux à structure libre
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 ---
@@ -25,7 +25,7 @@ Vous pouvez personnaliser le tableau de différentes manières :
 
 ## Créateur de tableau à structure libre
 
-Si vous préférez d’abord ajouter plusieurs composants à votre tableau, puis effectuer le rendu des données, vous pouvez activer le Créateur de tableau à structure libre. Une fois le créateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques plus complexes. Data will not update on-the-fly, it will update once you click **[!UICONTROL Build]**.
+Si vous préférez d’abord ajouter plusieurs composants à votre tableau, puis effectuer le rendu des données, vous pouvez activer le Créateur de tableau à structure libre. Une fois le créateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques plus complexes. Les données ne sont pas mises à jour à la volée, elles le sont une fois que vous avez cliqué sur **[!UICONTROL Build]**.
 
 Le Créateur de tableau est une option qui vous permet de gagner du temps lorsque vous avez une question complexe et que vous avez une idée du tableau à construire pour y répondre. Le créateur de tableau offre d’autres avantages :
 
@@ -43,5 +43,5 @@ Découvrez le Créateur de tableau à structure libre en action [ici](https://yo
 Les données d’un tableau à structure libre peuvent être copiées depuis Analysis Workspace de plusieurs manières :
 
 * Cliquez avec le bouton droit sur l’en-tête du tableau et sélectionnez **[!UICONTROL Copy to Clipboard]**. Le tableau complet (visible) est alors exporté.
-* Highlight specific cells in the table, right-click and select **[!UICONTROL Copy to Clipboard]**, or use the Ctrl + C hotkey.
+* Mettez en surbrillance des cellules spécifiques du tableau, cliquez avec le bouton droit de la souris et sélectionnez **[!UICONTROL Copy to Clipboard]** ou utilisez le raccourci Ctrl + C.
 * **[!UICONTROL Project > Download CSV]**. Cette opération exporte tous les tableaux visibles du projet au format CSV.
