@@ -2,7 +2,7 @@
 description: Dans Analysis Workspace, utilisez les abandons pour combiner et associer des dimensions et des mesures comme points de contact dans les entonnoirs et les processus. Vous disposez ainsi d’une plus grande flexibilité pour définir les étapes des utilisateurs sur lesquelles vous souhaitez en savoir plus.
 title: Abandons interdimensionnels
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
