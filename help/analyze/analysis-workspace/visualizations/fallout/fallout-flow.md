@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Abandon - Aperçu
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,12 +10,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Abandon - Aperçu
 
-Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution). 
+Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution).
 
 Grâce aux visualisations Abandons, vous pouvez :
 
 * Comparer en vis-à-vis deux segments du même rapport
-* Faire glisser, déposer et réorganiser les étapes de l’entonnoir (points de contact)
+* Faire glisser, déposer et réorganiser les étapes de l’entonnoir (points de contact).
 * Combiner et associer des valeurs issues de différentes dimensions et mesures
 * Créer un rapport multidimensionnel sur les abandons
 * Déterminer où se rendent les clients immédiatement après un abandon
