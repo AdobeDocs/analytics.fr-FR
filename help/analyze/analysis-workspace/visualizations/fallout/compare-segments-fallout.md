@@ -3,7 +3,7 @@ description: Dans Analysis Workspace, vous pouvez créer des segments d’après
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: Application de segments dans l’analyse des abandons
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -21,7 +21,7 @@ Dans Analysis Workspace, vous pouvez créer des segments d’après un point de 
 
 ## Création d’un segment à partir d’un point de contact {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. Créez un segment d’après un point de contact donné qui vous intéresse particulièrement et qu’il peut être utile d’appliquer à d’autres rapports. Pour ce faire, cliquez avec le bouton droit sur le point de contact et sélectionnez **[!UICONTROL Create segment from touchpoint]**.
+1. Créez un segment d’après un point de contact donné qui vous intéresse particulièrement et qu’il peut être utile d’appliquer à d’autres rapports. Pour ce faire, cliquez avec le bouton droit de la souris sur le point de contact et sélectionnez **[!UICONTROL Create segment from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -45,7 +45,7 @@ Vous pouvez aussi créer un point de contact ET en faisant glisser le segment d
 
 Vous pouvez comparer un nombre illimité de segments dans la visualisation Abandons.
 
-1. Sélectionnez les que vous souhaitez comparer dans le rail [!UICONTROL Segments]Segments de gauche. Dans notre exemple, nous avons sélectionné deux segments : Utilisateurs aux États-Unis et Utilisateurs hors des États-Unis.
+1. Sélectionnez les que vous souhaitez comparer dans le rail [!UICONTROL Segments]sur la gauche. Dans notre exemple, nous avons sélectionné deux segments : Utilisateurs aux États-Unis et Utilisateurs hors des États-Unis.
 1. Faites-les glisser dans la zone de dépôt Segment en haut de l’écran.
 
    ![](assets/segment-drop.png)
