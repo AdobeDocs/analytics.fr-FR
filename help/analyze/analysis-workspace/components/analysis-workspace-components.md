@@ -2,7 +2,7 @@
 description: Les composants d’Analysis Workspace sont constitués des mesures, dimensions, segments et granularités du temps que vous pouvez faire glisser sur un projet. Les composants personnalisés que vous créez sont ajoutés à ces panneaux, par exemple les plages de dates personnalisées.
 title: Aperçu des composants
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Les composants d’Analysis Workspace sont constitués des mesures, dimensions, segments et granularités du temps que vous pouvez faire glisser sur un projet. Les composants personnalisés que vous créez sont ajoutés à ces panneaux, par exemple les plages de dates personnalisées.
 
-To access the Components panel, click the **[!UICONTROL Components]** icon in the left rail. Vous pouvez passer d’un panneau à un autre (panneau vierge, [panneau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) ou panneau de [comparaison de segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)), les [visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) et les composants à l’aide des icônes du rail de gauche ou des [touches d’accès rapide](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Pour accéder au panneau Composants, cliquez sur l’icône **[!UICONTROL Components]** dans le rail de gauche. Vous pouvez passer d’un panneau à un autre (panneau vierge, [panneau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) ou panneau de [comparaison de segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)), les [visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) et les composants à l’aide des icônes du rail de gauche ou des [touches d’accès rapide](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
