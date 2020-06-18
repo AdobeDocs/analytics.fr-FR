@@ -33,7 +33,6 @@ Pour les rapports de tendances au fil du temps, vous pouvez afficher les événe
    1. Cliquez sur **[!UICONTROL Envoyer aux utilisateurs]**.
    1. Cliquez sur **[!UICONTROL Cocher tout]** ou cochez un ou plusieurs noms d’utilisateur.
    1. Cliquez sur **[!UICONTROL Enregistrer]**.
-
    Ainsi, les événements de calendrier sont beaucoup plus faciles à utiliser. Les analystes peuvent maintenant forcer un recouvrement sur les rapports des utilisateurs afin de donner plus de contexte.
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Événements calendrier]**.
 1. Sous **[!UICONTROL Calendrier des événements partagés]**, indiquez l’une de ces options :
