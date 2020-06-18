@@ -2,7 +2,7 @@
 description: valeur nulle
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Vous pouvez créer un projet d’après :
 
-* **Projet vierge (par défaut)**: Pour plus d’informations, voir [Création d’un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)d’espace de travail  .
-* **Modèle** standard : Ces modèles sont créés par Adobe et livrés avec le produit.
-* **Modèle** personnalisé : Ces modèles peuvent être créés, partagés ou supprimés par les utilisateurs disposant de droits d’administration ou par des non-administrateurs, à condition qu’ils aient obtenu l’autorisation [!UICONTROL Analysis Workspace: Save as Template] dans la Console d’administration. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
+* **Projet vierge (par défaut)** : Pour obtenir des instructions, voir [Création d’un projet Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+* **Modèle standard** : Ces modèles sont créés par Adobe et livrés avec le produit.
+* **Modèle personnalisé** : Ces modèles peuvent être créés, partagés ou supprimés par les utilisateurs disposant ou non de droits d’administration, à condition qu’ils aient reçu l’autorisation [!UICONTROL Analysis Workspace: Save as Template] dans l’Admin Console. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -23,7 +23,7 @@ Vous pouvez créer un projet d’après :
 Les utilisateurs dotés de droits d’administration peuvent convertir n’importe quel projet qu’ils créent en un modèle personnalisé. Procédez comme suit :
 
 1. Ouvrez le projet.
-1. Accédez à **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
+1. Accédez à **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
@@ -31,7 +31,7 @@ Les utilisateurs dotés de droits d’administration peuvent convertir n’impor
 
    >[!NOTE]
    >
-   >Par défaut, toutes les personnes de l’organisation ont accès aux modèles de projet. Vous pouvez organiser les modèles en leur appliquant des balises. (Accédez à **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** pour modifier les balises et les descriptions.)
+   >Par défaut, toutes les personnes de l’organisation ont accès aux modèles de projet. Vous pouvez organiser les modèles en leur appliquant des balises. (Accédez à **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** pour modifier les balises et les descriptions.)
 
 ### Actions possibles sur les modèles personnalisés
 
@@ -39,9 +39,9 @@ Les utilisateurs dotés de droits d’administration peuvent convertir n’impor
 
 | Action | Description |
 |--- |--- |
-| Modifier  le modèle | Permet à un administrateur de modifier le modèle en changeant sa source de données, en modifiant les composants, les visualisations, les plages de dates, etc.  Pour modifier un modèle personnalisé, procédez de l’une des manières suivantes :<ul><li>affichez la liste des modèles personnalisés dans Analysis Workspace, sélectionnez-en un, puis cliquez sur Modifier le modèle ; ou</li><li>dans Analytics, sélectionnez Composants > Projets, puis filtrez les projets en fonction des Modèles. Cliquez sur le nom du modèle à modifier.</li></ul>**Remarque :** Après avoir modifié un modèle, deux options se présentent, selon le cas : Enregistrer ou Enregistrer sous. Ces deux options diffèrent comme suit :<ul><li>**Enregistrer :** Met à jour le modèle personnalisé pour tous les utilisateurs. Si quelqu’un crée un projet d’après ce modèle personnalisé, il verra les modifications que vous avez apportées.</li><li>**Enregistrer sous :** Crée une copie du modèle personnalisé avec vos modifications. (En mode de modification, le menu Partager > Partager le projet est désactivé.)</li></ul> |
+| Modifier le modèle | Permet à un administrateur de modifier le modèle en changeant sa source de données, en modifiant les composants, les visualisations, les périodes, etc.  Pour modifier un modèle personnalisé, procédez de l’une des manières suivantes :<ul><li>affichez la liste des modèles personnalisés dans Analysis Workspace, sélectionnez-en un, puis cliquez sur Modifier le modèle ; ou</li><li>dans Analytics, sélectionnez Composants > Projets, puis filtrez les projets en fonction des Modèles. Cliquez sur le nom du modèle à modifier.</li></ul>**Remarque :** après avoir modifié un modèle, deux options se présentent, selon le cas : Enregistrer ou Enregistrer sous. Ces deux options diffèrent comme suit :<ul><li>**Enregistrer :** met à jour le modèle personnalisé pour tous les utilisateurs. Si quelqu’un crée un projet d’après ce modèle personnalisé, il verra les modifications que vous avez apportées.</li><li>**Enregistrer sous :** crée une copie du modèle personnalisé avec vos modifications. (En mode de modification, le menu Partager > Partager le projet est désactivé.)</li></ul> |
 | Rechercher des modèles | Dans la boîte de dialogue Modèles personnalisés, cliquez sur Rechercher des modèles. |
-| Trier des modèles | Vous pouvez trier les modèles par ordre alphabétique, par pertinence et par date de création.  Dans la boîte de dialogue Modèles personnalisés, cliquez sur Tri :. |
+| Trier des modèles | Vous pouvez trier les modèles par ordre alphabétique, par pertinence et par date de création.  Dans la boîte de dialogue Modèles personnalisés, cliquez sur Tri. |
 | Appliquer des balises à un modèle | Ouvrez le modèle et sélectionnez Projet > Informations et paramètres du projet. Cliquez sur Ajouter des balises. |
 | Modifier la description du modèle | Ouvrez le modèle et sélectionnez Projet > Informations et paramètres du projet. Double-cliquez sur la description pour la modifier. |
 
@@ -54,15 +54,15 @@ Utilisez ces modèles prérenseignés tels quels ou adaptez-les en fonction de v
 
 [Modèles standard dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
-Voici les modèles disponibles et les questions auxquelles chaque modèle peut répondre.
+Voici les modèles disponibles et les questions auxquelles chaque modèle peut contribuer à répondre.
 
 ### Formation
 
-Ces modèles standard vous guident à travers la terminologie et les étapes courantes pour créer votre premier   dans Workspace. Ils sont disponibles sous forme de modèle standard dans le module Nouveau projet et remplacent l’exemple de projet existant aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur .
+Ces modèles standard vous guident dans la terminologie et les étapes courantes de création de votre première analyse dans Workspace. Il sont disponibles sous forme de modèle standard dans le modal Nouveau projet et remplacent l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste.
 
-* **Didacticiel de formation - Recherche interne**: Le didacticiel de recherche interne vous aide à comprendre ce que vos recherchent sur le site Web ou dans l’application, mais pas dans l’application. L’analyse de ce type de données peut faire apparaître des opportunités d’optimisation du contenu.
+* **Tutoriel de formation - Analyse de recherche interne** : Le tutoriel de recherche interne vous aide à comprendre ce que vos visiteurs recherchent sur le site Web ou dans l’application, sans le trouver. L’analyse de ce type de données peut faire apparaître des opportunités d’optimisation du contenu.
 
-* **Didacticiel de formation - de  marketing**: Ce didacticiel explique comment assembler un de  marketing pour vos cadres, y compris les dimensions et mesures personnalisées qui sont importantes.
+* **Tutoriel de formation - Analyse marketing** : Ce tutoriel vous explique comment assembler une analyse marketing pour vos cadres, y compris les dimensions et mesures personnalisées importantes.
 
 ### Publicité
 
@@ -70,11 +70,11 @@ Ces modèles standard vous guident à travers la terminologie et les étapes cou
 >
 >Les modèles Publicité sont accessibles uniquement si votre suite de rapports est activée pour Advertising Cloud.
 
-* **Moteurs** de recherche payante : Ce modèle ventile les tendances publicitaires, les plateformes publicitaires, les mots-clés, les comptes, les campagnes, etc.
+* **Moteurs de recherche payante** : ce modèle ventile les tendances publicitaires, les plateformes publicitaires, les mots-clés, les comptes, les campagnes, etc.
 
 ### Commerce
 
-* **Magento : Marketing et commerce** : ce modèle ventile la conversion de votre commerce électronique en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, page d’entrée, emplacement géographique, etc. Pour une présentation vidéo, voir >[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento : Marketing et commerce** : ce modèle ventile la conversion de votre commerce électronique en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, page d’entrée, emplacement géographique, etc. Pour une présentation vidéo, voir > [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Média
 
@@ -110,9 +110,9 @@ Ces modèles standard vous guident à travers la terminologie et les étapes cou
 
 ### Personnes
 
->[!NOTE] Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html).
+>[!NOTE] Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/data/people.html).
 
-Ce modèle est basé sur la mesure Personnes, qui est une version dédupliquée de la mesure uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit :
+Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de la mesure Visiteurs uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit :
 
 * Segmenter vos données pour les États-Unis/le Canada et le reste du monde. Device Co-op est actuellement uniquement disponible aux États-Unis.
 * Comparer côte à côte les mesures Personnes et Visiteurs uniques.
@@ -122,21 +122,21 @@ Ce modèle est basé sur la mesure Personnes, qui est une version dédupliquée 
 * Découvrir comment utiliser l’empilement des segments avec la mesure Personnes.
 * Découvrir comment l’utilisation d’Experience Cloud ID dans votre environnement améliore l’efficacité de la mesure Personnes.
 
-### Journey IQ : Modèle de  sur plusieurs périphériques
+### Journey IQ : Modèle d’analyse entre appareils
 
 <!-->This content is mirrored in the CDA doc.<-->
 
-Ce modèle vous permet d’afficher des données de performances interpériphériques essentielles. Il est uniquement disponible pour les clients qui ont accès à Analytics [](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-home.html) sur plusieurs périphériques (CDA).
+Ce modèle vous permet de visualiser des données de performances cruciales entre appareils. Il est disponible uniquement pour les clients qui ont accès à [l’Analyse entre appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-home.html) (CDA).
 
-* **Note spéciale à l&#39;intention des membres du Graphique** coopératif : Indique la partie de votre suite de rapports qui contient des dans les régions où le graphique coopératif est pris en charge et les régions où il n’est pas pris en charge.
-* **Identification des utilisateurs**: Indique la fréquence à laquelle les de votre site sont identifiés à l’aide de méthodes basées sur les analyses multipériphériques.
-* **Mesure  taille** du : Affiche une comparaison entre &quot;Dispositifs uniques&quot; et &quot;Personnes&quot;. La proportion de ces deux nombres est connue sous le nom de &quot;compression inter-périphériques&quot;, une mesure calculée visible dans ce panneau. Cette mesure de compression dépend d’un large éventail de facteurs :
-   * **Utilisation du graphique coopératif ou du graphique** privé : En général, les organisations qui utilisent la coopérative de l&#39;appareil ont tendance à voir de meilleurs taux de compression que les organisations qui utilisent le graphique privé.
-   * **Taux** de connexion : Plus les utilisateurs se connectent sur votre site, plus Adobe peut identifier et assembler des sur plusieurs périphériques. Les sites qui présentent un faible taux de connexion ont aussi de faibles taux de compression.
-   * **Couverture** d’ID Experience Cloud : Seuls les avec un ECID peuvent être assemblés. Un pourcentage plus faible de visiteurs qui accèdent à votre site en utilisant un ECID correspond à des taux de compression plus faibles.
-   * **Utilisation** de plusieurs périphériques : Si les de votre site n’utilisent pas plusieurs périphériques, les taux de compression sont plus faibles.
-   * **de granularité** du : La compression par jour est généralement plus petite que la compression par mois ou par année. Les chances qu’une personne utilise plusieurs appareils sont moindres au cours d’un seul jour qu’au cours d’un mois entier. La segmentation, le filtrage ou l’utilisation de dimensions de ventilation peuvent également indiquer un taux de compression plus faible.
-* **Segments** basés sur les personnes : Contient une liste déroulante de segments qui vous permet de  données spécifiques au périphérique. Ce panneau encourage l’expérimentation de segments afin de voir comment l’inclusion ou l’exclusion des types de périphériques affectent les rapports.
-* **Analyse du parcours** inter-périphériques : Fournit des rapports de flux et d’abandons en fonction du type de périphérique.
-* **Attribution** sur plusieurs périphériques : Combinez les caractéristiques de Journey IQ et d’Attribution IQ.
-* **Autres conseils et astuces**: Rubriques utiles sur l&#39;ADC qui vous permettent de mieux l&#39;utiliser.
+* **Note spéciale à l’intention des membres du graphique Co-op** : Indique la partie de votre suite de rapports qui contient des visiteurs dans les régions où le graphique Co-op est pris en charge et les régions où il n’est pas pris en charge.
+* **Identification des utilisateurs** : indique la fréquence à laquelle les visiteurs de votre site sont identifiés à l’aide de méthodes basées sur les analyses entre appareils.
+* **Mesure de la taille des audiences** : affiche une comparaison entre « Appareils uniques » et « Personnes ». La proportion de ces deux nombres est connue sous le nom de « Compression entre appareils », une mesure calculée visible dans ce panneau. Cette mesure de compression dépend d’un large éventail de facteurs :
+   * **Utilisation du graphique Co-op ou du graphique Privé** : En général, les entreprises qui utilisent le Device Co-op ont tendance à voir de meilleurs taux de compression que les celles qui utilisent le graphique Privé.
+   * **Taux de connexion** : plus les utilisateurs se connectent sur votre site, plus Adobe est en mesure d’identifier et de regrouper les visiteurs entre plusieurs appareils. Les sites qui présentent un faible taux de connexion ont aussi de faibles taux de compression.
+   * **Couverture d’Experience Cloud ID** : seuls les visiteurs avec un ECID peuvent être regroupés. Un pourcentage plus faible de visiteurs qui accèdent à votre site en utilisant un ECID correspond à des taux de compression plus faibles.
+   * **Utilisation de plusieurs appareils** : si les visiteurs qui se rendent sur votre site n’utilisent pas plusieurs appareils, les taux de compression sont plus faibles.
+   * **Granularité des rapports** : la compression par jour est généralement plus petite que la compression par mois ou par année. Les chances qu’une personne utilise plusieurs appareils sont moindres au cours d’un seul jour qu’au cours d’un mois entier. La segmentation, le filtrage ou l’utilisation de dimensions de ventilation peuvent également indiquer un taux de compression plus faible.
+* **Segments basés sur les personnes** : contient une liste déroulante de segments qui vous permet d’afficher des données spécifiques à l’appareil. Ce panneau encourage l’expérimentation de segments afin de déterminer comment l’inclusion ou l’exclusion de types d’appareils affectent les rapports.
+* **Analyse du parcours entre appareils** : fournit des rapports de flux et d’abandons en fonction du type d’appareil.
+* **Attribution entre appareils** : combine les fonctionnalités Journey IQ et Attribution IQ.
+* **Autres conseils et astuces** : rubriques utiles sur la CDA qui vous permettent de mieux l’utiliser.
