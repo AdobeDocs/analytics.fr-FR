@@ -2,10 +2,10 @@
 description: Le panneau Analytics for Cible (A4T) vous permet d’analyser vos activités d’Adobe Target et vos expériences dans l’Analysis Workspace.
 title: Panneau Analytics for Cible (A4T)
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 16%
+source-wordcount: '855'
+ht-degree: 15%
 
 ---
 
@@ -61,8 +61,9 @@ Comme pour n’importe quel panneau de l’Analysis Workspace, vous pouvez conti
 | Question | Réponse |
 |---|---|
 | Quels types d’activité sont pris en charge dans A4T ? | [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) sur les types d’activité pris en charge. |
-| Les mesures calculées sont-elles prises en charge dans le rapports A4T ? | Non. [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sur les raisons pour lesquelles les mesures calculées ne sont pas prises en charge. |
+| Les mesures calculées sont-elles prises en charge dans les calculs d’effet élévateur et de fiabilité ? | Non. [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sur les raisons pour lesquelles les mesures calculées ne sont pas prises en charge dans l’effet élévateur et la fiabilité. Les mesures calculées peuvent toutefois être utilisées dans un rapports A4T en dehors de ces mesures. |
 | Pourquoi les visiteurs uniques varieraient-ils entre la Cible et le Analytics ? | [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sur les écarts de visiteurs uniques entre les produits. |
 | Lorsque j’applique un segment d’accès pour une activité de Cible spécifique dans mon analyse, pourquoi est-ce que les expériences sans rapport sont renvoyées ? | La dimension A4T est une variable de liste, ce qui signifie qu’elle peut contenir de nombreuses activités (et expériences) en même temps. [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| La mesure de confiance tient-elle compte des commandes extrêmes ou applique-t-elle une correction Bonferroni pour plusieurs offres ? | Non. [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sur la façon dont Analytics calcule la fiabilité. |
 
 Pour plus d’informations sur Analytics for Cible rapports, consultez le rapports [A4T.](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
