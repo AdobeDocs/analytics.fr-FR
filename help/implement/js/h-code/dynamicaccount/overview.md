@@ -1,7 +1,7 @@
 ---
 title: Présentation des comptes dynamiques
 description: Découvrez le processus de sélection dynamique d’une suite de rapports à l’aide du code H.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
