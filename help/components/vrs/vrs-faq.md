@@ -1,16 +1,16 @@
 ---
 description: Cette section contient des conseils et des bonnes pratiques à l’intention des nouveaux utilisateurs de suites de rapports virtuelles.
 keywords: Virtual Report Suite
-title: Questions fréquentes sur les suites de rapports virtuelles
+title: FAQ sur les suites de rapports virtuelles
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
 
 
-# Questions fréquentes sur les suites de rapports virtuelles
+# FAQ sur les suites de rapports virtuelles
 
 Cette section contient des conseils et des bonnes pratiques à l’intention des nouveaux utilisateurs de suites de rapports virtuelles.
 
@@ -32,7 +32,7 @@ Cette section contient des conseils et des bonnes pratiques à l’intention des
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Quels paramètres des suites de rapports virtuelles sont hérités de la suite de rapports parente ?</b>  </td> 
+   <td colname="col1"> <b>Quels paramètres des suites de rapports virtuelles sont hérités de la suite de rapports parente ?</b> </td> 
    <td colname="col2"> <p>Une suite de rapports virtuelle hérite de la plupart des niveaux de service de la suite de rapports parente, tels que les paramètres d’eVar, les règles de traitement, les classifications, etc. </p> <p>Les paramètres suivants <b>NE sont PAS</b> hérités : </p> 
     <ul> 
      <li>Identifiant de suite de rapports </li> 
@@ -51,7 +51,7 @@ Cette section contient des conseils et des bonnes pratiques à l’intention des
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Comment les suites de rapports virtuelles sont-elles traitées dans l’Admin Console et l’API Admin ? Puis-je y enregistrer des fonctionnalités à l’instar des suites de rapports de base ?</b>  </td> 
+   <td colname="col1"> <b>Comment les suites de rapports virtuelles sont-elles traitées dans l’Admin Console et l’API Admin ? Puis-je y enregistrer des fonctionnalités à l’instar des suites de rapports de base ?</b> </td> 
    <td colname="col2"> <p>Non, les suites de rapports virtuelles <b>ne sont pas prises en charge pour la plupart des fonctionnalités d’administration</b>. Comme nous l’avons mentionné plus haut, une suite de rapports virtuelle hérite de la plupart des niveaux de service et des fonctionnalités (paramètres d’eVar, règles de traitement, classifications, par exemple). Pour modifier ces paramètres hérités dans une suite de rapports virtuelle, vous devez donc apporter les modifications à la suite de rapports parente. </p> <p>Par conséquent, les suites de rapports s’affichent <b>uniquement à cet emplacement</b> dans l’interface utilisateur : </p> 
     <ul> 
      <li>Gestionnaire de suites de rapports virtuelles où vous pouvez créer et modifier des suites de rapports virtuelles. <p>( <span class="ignoretag"> <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Composants</span> &gt; <span class="uicontrol">Suites de rapports virtuelles </span> </span>) </p> </li> 
