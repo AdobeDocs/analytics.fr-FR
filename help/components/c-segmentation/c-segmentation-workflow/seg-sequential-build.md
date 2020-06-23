@@ -3,7 +3,7 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -25,10 +25,10 @@ Lors de la création d’un segment pour lequel « Inclure tout le monde » es
 
 | Si le résultat… | Séquence |
 |--- |--- |
-| Correspond à | A puis B<br>A puis B (lors d’une autre visite)<br>A puis D puis B |
+| Correspond à | A puis B<br>A puis (lors d’une autre visite) B<br>A puis D puis B |
 | Ne correspond pas à | B puis A |
 
-## Seulement avant la séquence et Seulement après la séquence  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## Seulement avant la séquence et Seulement après la séquence {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 Les options **[!UICONTROL Seulement avant la séquence]** et **[!UICONTROL Seulement après la séquence]** filtrent le segment en un sous-ensemble de données avant ou après la séquence spécifiée.
 
@@ -39,19 +39,19 @@ Par exemple, considérons une séquence de B -> D. Les trois filtres identifier
 
 **Exemple 1 : B puis D apparaissent une fois**
 
-| Exemple | A  | B | C  | D | E | F |
+| Exemple | A | B | C | D | E | F |
 |---|---|---|---|---|---|---|
-| Inclure tout le monde | A  | B | C  | D | E | F |
-| Seulement avant la séquence | A  | B |  |  |  |  |
+| Inclure tout le monde | A | B | C | D | E | F |
+| Seulement avant la séquence | A | B |  |  |  |  |
 | Seulement après la séquence |  |  |  | D | E | F |
 
 **Exemple 2 : B puis D apparaissent plusieurs fois**
 
-| Exemple | A  | B | C  | D | B | C  | D | E |
+| Exemple | A | B | C | D | B | C | D | E |
 |---|---|---|---|---|---|---|---|---|
-| Inclure tout le monde | A  | B | C  | D | B | C  | D | E |
-| Seulement avant la séquence | A  | B | C  | D | B |  |  |  |
-| Seulement après la séquence |  |  |  | D | B | C  | D | E |
+| Inclure tout le monde | A | B | C | D | B | C | D | E |
+| Seulement avant la séquence | A | B | C | D | B |  |  |  |
+| Seulement après la séquence |  |  |  | D | B | C | D | E |
 
 Formulons également ce concept avec la dimension de Détail des accès.
 
@@ -70,7 +70,7 @@ Définir une clause « Dans la dimension » entre des règles permet à un seg
 | Si le résultat… | Séquence |
 |--- |--- |
 | Correspond à | A puis B |
-| Ne correspond pas à | A puis C puis B (car B ne se trouvait pas à moins d’une page de A)<br>**Remarque ** : si la restriction de dimension est levée, « A puis B » et « A puis C puis B » correspondent tous les deux. |
+| Ne correspond pas à | A puis C puis B (car B ne se trouvait pas à moins d’une page de A) <br>**Remarque :** si la restriction de dimension est levée, « A puis B » et « A puis C puis B » correspondent tous les deux. |
 
 ## Séquence simple de pages vues
 
@@ -176,11 +176,11 @@ Les règles de segmentation incluent toutes les données, à moins que vous n’
 
 Par exemple :
 
-* **Exclure des pages**. Utilisez une règle de segmentation afin d’exclure une page spécifique  *`Home Page`*) d’un rapport. Créez une règle Accès dans laquelle la page est égale à « Page d’accueil », puis excluez-la. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
+* **Exclure des pages**. Utilisez une règle de segmentation afin d’exclure une page spécifique *`Home Page`*) d’un rapport. Créez une règle Accès dans laquelle la page est égale à « Page d’accueil », puis excluez-la. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
 * **Exclure des domaines référents**. Utilisez une règle qui inclut uniquement des domaines référents de Google.com et exclut tous les autres.
 * **Identifier les non-acheteurs**. Identifiez les commandes dont la valeur est supérieure à zéro et excluez ensuite le [!UICONTROL Visiteur].
 
-L’opérateur [!UICONTROL Exclure] peut être utilisé pour identifier une séquence dans laquelle des visites ou des accès spécifiques ne sont pas effectués par le visiteur. Les [!UICONTROL points de contrôle d’exclusion] peuvent également être inclus dans un conteneur  [Groupe logique](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
+L’opérateur [!UICONTROL Exclure] peut être utilisé pour identifier une séquence dans laquelle des visites ou des accès spécifiques ne sont pas effectués par le visiteur. Les [!UICONTROL points de contrôle d’exclusion] peuvent également être inclus dans un conteneur [Groupe logique](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ### Exclure entre les points de contrôle
 
@@ -197,7 +197,7 @@ Vous trouverez ci-dessous des exemples d’utilisation de ce type de segment :
 
 **Créer ce segment**
 
-Créez un segment comme vous le feriez pour un segment  segment séquentiel simple, de niveau mixte ou imbriqué, puis définissez l’opérateur [!UICONTROL EXCLURE] pour l’élément de conteneur. L’exemple ci-dessous illustre un segment agrégé dans lequel les trois conteneurs [!UICONTROL Accès] sont déplacés vers le canevas, l’opérateur [!UICONTROL ALORS] est affecté pour joindre la logique du conteneur, puis le conteneur de pages vues intermédiaire est exclu afin de n’inclure que les visiteurs qui sont passés de la page A à la page C dans la séquence.
+Créez un segment comme vous le feriez pour un segment segment séquentiel simple, de niveau mixte ou imbriqué, puis définissez l’opérateur [!UICONTROL EXCLURE] pour l’élément de conteneur. L’exemple ci-dessous illustre un segment agrégé dans lequel les trois conteneurs [!UICONTROL Accès] sont déplacés vers le canevas, l’opérateur [!UICONTROL ALORS] est affecté pour joindre la logique du conteneur, puis le conteneur de pages vues intermédiaire est exclu afin de n’inclure que les visiteurs qui sont passés de la page A à la page C dans la séquence.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -351,7 +351,7 @@ Utilisez les opérateurs [!UICONTROL Dans] et [!UICONTROL Après] intégrés dan
 
 Vous pouvez limiter la correspondance à une durée spécifique en utilisant les conteneurs [!UICONTROL Dans] et [!UICONTROL Après], et en indiquant une granularité et un nombre. L’opérateur [!UICONTROL Dans] est utilisé pour spécifier une limite de temps maximale entre deux points de contrôle. L’opérateur [!UICONTROL Après] est, pour sa part, utilisé pour spécifier une limite de temps minimale entre deux points de contrôle.
 
-### Opérateurs Après et Dans  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### Opérateurs Après et Dans {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 La durée est spécifiée par une seule lettre majuscule représentant la granularité, suivie d’un nombre indiquant le nombre de répétitions de la granularité.
 
@@ -363,7 +363,7 @@ La durée est spécifiée par une seule lettre majuscule représentant la granul
 |--- |--- |
 | APRES | L’opérateur Après est utilisé pour spécifier une limite de temps minimale entre deux points de contrôle. Lorsque vous définissez des valeurs Après, la durée commence au moment où le segment est appliqué. Par exemple, si l’opérateur Après est défini sur un conteneur afin d’identifier des visiteurs qui consultent la page A, mais ne visualisent pas la page B avant au moins un jour, ce jour commence au moment où le visiteur quitte la page A. Pour que le visiteur soit inclus dans le segment, au moins 1 440 minutes (soit un jour) doivent s’écouler entre le moment où le visiteur quitte la page A et celui où il consulte la page B. |
 | DANS | L’opérateur Dans est utilisé pour spécifier une limite de temps maximale entre deux points de contrôle. Par exemple, si l’opérateur Dans est défini sur un conteneur afin d’identifier les visiteurs qui consultent la page A, puis reviennent sur le site dans les 24 heures, cette période commence au moment où le visiteur quitte la page A. Pour que le visiteur soit inclus dans le segment, il dispose au maximum de 24 heures pour ouvrir la page B. Pour que le visiteur soit inclus dans le segment, la consultation de la page B doit avoir lieu, au maximum, 1 440 minutes (soit un jour) après avoir quitté la page A. |
-| APRÈS/DANS | Lorsque vous utilisez les opérateurs Après et Dans, il importe de comprendre que tous les deux commencent et se terminent en parallèle, et non de manière séquentielle.   Par exemple, si vous créez un segment en définissant le conteneur sur: <br>`After = 1 Week(s) and Within = 2 Week(s)`<br>, les conditions d’identification des visiteurs dans le segment sont réunies uniquement entre 1 et 2 semaines. Les deux conditions sont appliquées à compter du premier accès à la page. |
+| APRÈS/DANS | Lorsque vous utilisez les opérateurs Après et Dans, il importe de comprendre que tous les deux commencent et se terminent en parallèle, et non de manière séquentielle.   Par exemple, si vous créez un segment en définissant le conteneur sur : <br>`After = 1 Week(s) and Within = 2 Week(s)`<br>, les conditions d’identification des visiteurs dans le segment sont réunies uniquement entre 1 et 2 semaines. Les deux conditions sont appliquées à compter du premier accès à la page. |
 
 ### Utilisation de l’opérateur Après
 
