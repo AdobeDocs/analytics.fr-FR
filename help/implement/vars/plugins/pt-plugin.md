@@ -1,7 +1,7 @@
 ---
 title: pt
 description: Permet d’exécuter une fonction sur une liste de variables.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e2afe854a4141510fe2ecd85aa6df59f6751d0f5
 
 ---
