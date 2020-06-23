@@ -1,7 +1,7 @@
 ---
 title: getTimeBetweenEvents
 description: Permet de mesurer le temps qui s’écoule entre deux événements.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
