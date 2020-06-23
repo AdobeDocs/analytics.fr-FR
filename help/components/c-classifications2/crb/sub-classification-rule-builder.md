@@ -1,17 +1,17 @@
 ---
 description: Vous ne pouvez pas combiner le Créateur de règles de classification avec des sous-classifications.
-title: Sous-classifications et Créateur de règles
-translation-type: tm+mt
+title: Sous-classifications et le Créateur de règles
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
 
-# Sous-classifications et Créateur de règles
+# Sous-classifications et le Créateur de règles
 
-Vous pouvez combiner le Créateur de règles de classification avec des sous-classifications si vous vous assurez que chaque sous-classification possède une valeur parent.
+Vous pouvez combiner le Créateur de règles de classification avec des sous-classifications si vous vous assurez que chaque sous-classification comporte une valeur parente.
 
-La combinaison du Créateur de règles de classification et des sous-classifications peut simplifier la gestion des classifications et réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
+Le fait de combiner le Créateur de règles de classifications à des sous-classifications peut simplifier la gestion des classifications et de réduire le nombre de règles requises. Vous pouvez procéder de la sorte si votre code de suivi se compose de codes que vous souhaitez classer séparément.
 
 Voir [Sous-classifications](/help/components/c-classifications2/c-sub-classifications.md) pour obtenir des informations conceptuelles sur les sous-classifications.
 
@@ -25,7 +25,7 @@ Une hiérarchie de classification vous permet d’appliquer une classification �
 
 ![](assets/sub_class_table.png)
 
-Une fois cette structure en place, vous pouvez utiliser le  [Créateur de règles de classifications](/help/components/c-classifications2/crb/classification-rule-builder.md) pour télécharger des petits fichiers qui mettent uniquement à jour les tables de recherche (tables de couleurs verte et rouge dans l’image précédente). Vous pouvez ensuite utiliser le créateur de règles pour assurer la mise à jour du tableau de classification principal.
+Une fois cette structure en place, vous pouvez utiliser le [Créateur de règles de classifications](/help/components/c-classifications2/crb/classification-rule-builder.md) pour télécharger des petits fichiers qui mettent uniquement à jour les tables de recherche (tables de couleurs verte et rouge dans l’image précédente). Vous pouvez ensuite utiliser le créateur de règles pour assurer la mise à jour du tableau de classification principal.
 
 La tâche ci-dessous décrit la marche à suivre.
 
@@ -37,15 +37,15 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 >
 >Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
-1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).
+1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.translate.html).
 
-   Exemple :
+   Exemple :
 
    ![Infos sur l’étape](assets/sub_class_create.png)
 
 1. Dans [Créateur de règles de classifications](/help/components/c-classifications2/crb/classification-rule-builder.md), classez la clé de sous-classification à partir du code de suivi d’origine.
 
-   Pour ce faire, utilisez une expression régulière. Dans cet exemple, la règle servant à compléter  *`Broad Campaign code`* utilisera cette expression régulière :
+   Pour ce faire, utilisez une expression régulière. Dans cet exemple, la règle servant à compléter *`Broad Campaign code`* utilisera cette expression régulière :
 
    | `#` | Type de règle | Correspond à | Définir la classification | À |
    |---|---|---|---|---|
@@ -60,7 +60,7 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
    Voir [Classifications à plusieurs niveaux](/help/components/c-classifications2/c-sub-classifications.md).
 
-   Exemple :
+   Exemple :
 
    | Clé | Canal | Code de campagne large | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
@@ -69,6 +69,6 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
 1. Pour gérer les tables de recherche, téléchargez un petit fichier (comme illustré ci-dessus).
 
-   Le téléchargement de ce fichier sera effectué, par exemple, lors de l’insertion d’un nouveau *`Broad Campaign code`*. Ce fichier s’appliquera aux valeurs classées précédemment. De même, si vous créez une sous-classification (telle que  *`Creative Theme`* en tant que sous-classification de *`Creative code`*), vous ne téléchargerez que le fichier de sous-classification, au lieu de l’intégralité du fichier de classification.
+   Le téléchargement de ce fichier sera effectué, par exemple, lors de l’insertion d’un nouveau *`Broad Campaign code`*. Ce fichier s’appliquera aux valeurs classées précédemment. De même, si vous créez une sous-classification (telle que *`Creative Theme`* en tant que sous-classification de *`Creative code`*), vous ne téléchargerez que le fichier de sous-classification, au lieu de l’intégralité du fichier de classification.
 
    Dans le cadre de la création de rapports, ces sous-classifications se comportent exactement comme des classifications de niveau supérieur. Cela a pour effet d’alléger la charge de gestion associée à leur utilisation.-->
