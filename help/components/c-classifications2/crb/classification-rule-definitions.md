@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Règles de classification – Définitions
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -32,7 +32,7 @@ Cette page affiche les règles d’un jeu.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Sélection de suites de rapports et de variables </p> </td> 
-   <td colname="col2"> <p><b>Suite de rapports</b> </p> <p>Suites de rapports auxquelles s’applique le jeu de règles. </p> <p><b>Variable</b> </p> <p>Vous ne pouvez appliquer qu’une seule variable lors de la création d’un jeu de règles de classification. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports. </p> <p>Remarque : Vous ne pouvez utiliser que les variables auxquels vous avez accès dans vos suites de rapports. Les variables s’affichent dans le panneau <span class="wintitle">Nouveau jeu de règles</span> uniquement une fois qu’au moins une classification est définie pour la variable. </p> <p>Par exemple, pour que <span class="term"> Pages</span> soit disponible sous forme de variable pour le jeu de règles, assurez-vous que les <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >classifications de trafic</a> de la suite de rapports sont mises en œuvre pour <span class="term"> Page</span>. </p> <p> Vous pouvez créer des classifications sur une variable dans <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Trafic</span> &gt; <span class="uicontrol">Classifications de trafic</span> (ou <span class="uicontrol">Conversion</span> &gt; <span class="uicontrol">Classifications des conversions</span>). Sélectionnez ensuite la variable et cliquez sur <span class="uicontrol">Ajouter une classification</span>. </p> <p>Reportez-vous aux rubriques <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >Classifications de trafic</a> et <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >Classifications des conversions</a> dans l’Aide de l’administration. </p> </td> 
+   <td colname="col2"> <p><b>Suite de rapports</b> </p> <p>Suites de rapports auxquelles s’applique le jeu de règles. </p> <p><b>Variable</b> </p> <p>Vous ne pouvez appliquer qu’une seule variable lors de la création d’un jeu de règles de classification. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports. </p> <p>Remarque : Vous ne pouvez utiliser que les variables auxquels vous avez accès dans vos suites de rapports. Les variables s’affichent dans le panneau <span class="wintitle">Nouveau jeu de règles</span> uniquement une fois qu’au moins une classification est définie pour la variable. </p> <p>Par exemple, pour que <span class="term"> Pages</span> soit disponible sous forme de variable pour le jeu de règles, assurez-vous que les <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/traffic-classifications.translate.html"  >classifications de trafic</a> de la suite de rapports sont mises en œuvre pour <span class="term"> Page</span>. </p> <p> Vous pouvez créer des classifications sur une variable dans <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Trafic</span> &gt; <span class="uicontrol">Classifications de trafic</span> (ou <span class="uicontrol">Conversion</span> &gt; <span class="uicontrol">Classifications des conversions</span>). Sélectionnez ensuite la variable et cliquez sur <span class="uicontrol">Ajouter une classification</span>. </p> <p>Reportez-vous aux rubriques <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/traffic-classifications.translate.html"  >Classifications de trafic</a> et <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.translate.html"  >Classifications des conversions</a> dans l’Aide de l’administration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activer</span> </p> </td> 
@@ -90,8 +90,8 @@ Cette page affiche les règles d’un jeu.
    <td colname="col1"> <span class="wintitle"> Sélectionner le type de règle</span> </td> 
    <td colname="col2"> <p>Chaque règle s’applique à une variable spécifique. Les sélections valides sont les suivantes : </p> 
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
-     <li id="li_5C702D4F460841D38A59621A5161A3BC">Starts With (Commence par) </li> 
-     <li id="li_8052A741D9F34A2FBC136C181600193E">Ends With (Se termine par) </li> 
+     <li id="li_5C702D4F460841D38A59621A5161A3BC">Commence par </li> 
+     <li id="li_8052A741D9F34A2FBC136C181600193E">Se termine par </li> 
      <li id="li_D0FA6EA4F09644FFBC9E6BC568BE80AC">Contient </li> 
      <li id="li_48675FE5253942ED887C6A72D1DCEF54"> <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Expression régulière </a> </li> 
     </ul> </td> 
@@ -117,7 +117,7 @@ Cette page affiche les règles d’un jeu.
 
 ## Page Expression régulière {#section_C932A5469E774841B2229965A154163C}
 
-You can edit regular expressions on the [!UICONTROL Regular Expression] page.
+Vous pouvez modifier des expressions régulières sur la page [!UICONTROL Expression régulière].
 
 ![](assets/regex_tracking_code.png)
 
@@ -140,5 +140,5 @@ Cette page vous permet de tester des règles d’un jeu.
 | Élément | Description |
 |---|---|
 | Exécuter le test | Lorsque vous testez le jeu de règles, utilisez des clés du rapport afin de déterminer l’impact sur celles-ci. |
-| Filtrer | Filters the values in the [!UICONTROL Results] panel. |
+| Filtrer | Filtre les valeurs du panneau [!UICONTROL Résultats]. |
 
