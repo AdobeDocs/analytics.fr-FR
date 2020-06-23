@@ -1,7 +1,7 @@
 ---
 title: server
 description: Permet de renseigner la dimension « Serveurs ».
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 ---
