@@ -3,7 +3,7 @@ description: Répertorie quelques considérations que vous devez connaître avan
 title: Suppression des segments
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -24,6 +24,6 @@ Lorsque vous supprimez un segment :
 
 ## Modifier des segments supprimés incorporés dans les Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
 
-Les analyses ad hoc vous permettent désormais de modifier un segment supprimé incorporé dans le [Créateur de mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html) et d’effectuer une opération « Enregistrer sous » sur ce segment.
+Ad Hoc Analysis vous permet désormais de modifier un segment supprimé incorporé dans le [Créateur de mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html) et d’effectuer une opération « Enregistrer sous » sur ce segment.
 
 Cependant, tout autre segment supprimé faisant référence au segment supprimé restera inchangé.
