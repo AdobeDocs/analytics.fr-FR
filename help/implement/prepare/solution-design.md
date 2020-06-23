@@ -1,7 +1,7 @@
 ---
 title: Création d’un document de conception de solution
 description: Découvrez ce qu’est un document de conception de solution et comment l’utiliser dans votre entreprise.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -28,7 +28,7 @@ Lors de la détermination des données à collecter, il est facile de dire « t
 1. **Déterminez les données les plus importantes à collecter.** Posez des questions auxquelles vous souhaitez des réponses spécifiques. Les réponses à ces questions vous donneraient des informations sur la manière d’améliorer vos indicateurs de performances clés.
 1. **Considérez ces questions et déterminez vos besoins en matière de suivi.** Regroupez-les en dimensions et en mesures.
    * Les dimensions sont des variables qui contiennent du texte. À titre d’exemple, citons un terme pour la recherche interne, une catégorie de produit ou le nom d’une section sur laquelle a cliqué un visiteur.
-   * Les mesures sont des événements spécifiques que vous souhaitez voir réalisés par un visiteur. Par exemple, lorsqu’il effectue l’action que vous souhaitez, le nombre augmente de un. À titre d’exemple, citons l’envoi d’une commande, l’inscription à un bulletin d’information ou l’envoi d’une réponse à une enquête.
+   * Les mesures sont des événements spécifiques que vous souhaitez voir réalisés par un visiteur. Par exemple, lorsqu’il effectue l’action que vous souhaitez, le nombre augmente d’un. À titre d’exemple, citons l’envoi d’une commande, l’inscription à un bulletin d’information ou l’envoi d’une réponse à une enquête.
 1. **Mappez les dimensions et les mesures dans une page ou une feuille de calcul.** Cette page ou ce tableau deviendra à terme votre document de conception de solution. Certaines colonnes ou puces utiles à inclure :
    * Statut de la mise en œuvre : planifiée, active, inactive, problèmes, etc. Cela permet d’informer les utilisateurs du document du statut de la variable, si elle a été implémentée ou s’il existe des problèmes liés à la collecte de données.
    * Nom de la variable : par exemple, « Termes pour la recherche interne ». Cette valeur correspond à ce que voient les analystes lorsqu’ils travaillent dans Analytics.
@@ -46,4 +46,4 @@ Plusieurs partenaires Adobe se spécialisent également dans la création d’un
 
 Mettez en œuvre les variables dans votre document de conception de solution.
 
-[Créez une couche](data-layer.md)de données : Traduisez les variables de votre de conception en variables JavaScript sur votre site.
+[Créer une couche de données](data-layer.md) : Traduisez les variables de votre document de conception en variables JavaScript sur votre site.
