@@ -1,7 +1,7 @@
 ---
 title: Util.getQueryParam
 description: Renvoie la valeur d’un paramètre de chaîne de requête.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -50,4 +50,4 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
->[!TIP] Un module externe similaire nommé [`s.getQueryParam`](../plugins/getqueryparam.md) est disponible. Ce module externe contient des fonctionnalités plus avancées, mais il est également plus complexe et n’est pas inclus par défaut dans AppMeasurement.
+>[!TIP] Un plug-in similaire nommé [`s.getQueryParam`](../plugins/getqueryparam.md) est disponible. Ce plug-in contient des fonctionnalités plus avancées, mais il est également plus complexe et n’est pas inclus par défaut dans AppMeasurement.
