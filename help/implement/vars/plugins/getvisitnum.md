@@ -1,7 +1,7 @@
 ---
 title: getVisitNum
 description: Permet d’assurer le suivi du nombre de visites actuelles d’un visiteur.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -165,5 +165,5 @@ Dans ce cas, le plug-in crée trois cookies différents, un pour chacune des dif
 
 ### 3.0 (5 juin 2016)
 
-* Révision complète
+* Révision complète.
 * Combinaison de toutes les solutions précédentes disponibles dans les différentes versions du plug-in `getVisitNum`.
