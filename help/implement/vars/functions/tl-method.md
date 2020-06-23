@@ -1,7 +1,7 @@
 ---
 title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -99,13 +99,13 @@ Envoyez un appel de suivi de lien de base directement dans un lien HTML :
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-Utilisez JavaScript pour effectuer un appel de suivi de lien de base à l’aide d’arguments de méthode :
+Utilisez JavaScript pour effectuer un appel de suivi de lien de base à l’aide d’arguments de méthode :
 
 ```JavaScript
 s.tl(true,"o","Example link");
 ```
 
-Utilisez JavaScript pour effectuer le même appel de suivi des liens de base à l’aide de variables distinctes :
+Utilisez JavaScript pour effectuer le même appel de suivi de lien de base à l’aide de variables distinctes :
 
 ```js
 s.linkType = "o";
