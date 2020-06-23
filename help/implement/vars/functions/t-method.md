@@ -1,7 +1,7 @@
 ---
 title: t
 description: Permet d’envoyer un appel de suivi des pages vues à Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
