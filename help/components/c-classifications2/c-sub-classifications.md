@@ -4,7 +4,7 @@ subtopic: Classifications
 title: À propos des sous-classifications
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # À propos des sous-classifications
 
-Adobe Analytics prend en charge les modèles de classification à niveau unique et à plusieurs niveaux. Une hiérarchie de classification vous permet d’appliquer une classification à une autre classification.
+Adobe Analytics prend en charge les modèles de classifications à un seul niveau et à plusieurs niveaux. Une hiérarchie de classification vous permet d’appliquer une classification à une autre classification.
 
->[!NOTE] Une sous-classification fait référence à la possibilité de créer des classifications de classification. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Pour plus d’informations sur les hiérarchies de classification, voir [Hiérarchies de classification](classification-hierarchies.md).
+>[!NOTE] Une sous-classification fait référence à la possibilité de créer des classifications de classification. Toutefois, il ne s’agit pas de la même [!UICONTROL hiérarchie de classification] que celle utilisée pour créer des rapports de [!UICONTROL hiérarchie]. Pour plus d’informations sur les hiérarchies de classification, voir [Hiérarchies de classification](classification-hierarchies.md).
 
 Par exemple :
 
@@ -27,15 +27,15 @@ Chaque classification de ce modèle est indépendante et correspond à un nouvea
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Pour plus d’informations sur le fichier de données, consultez  [Fichiers de données de classification](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+Pour plus d’informations sur le fichier de données, consultez [Fichiers de données de classification](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 Les classifications à plusieurs niveaux comprennent les classifications parentes et filles. Par exemple :
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique (Voir  [Classifications à niveau unique](/help/components/c-classifications2/c-sub-classifications.md)).
+**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique (Voir [Classifications à niveau unique](/help/components/c-classifications2/c-sub-classifications.md)).
 
-**Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications filles fournissent des informations supplémentaires sur leur classification parente. For example, a [!UICONTROL Campaigns] classification might have a Campaign Owner child classification. [!UICONTROL Numeric] les classifications fonctionnent également comme des mesures dans les rapports de classification.
+**Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications filles fournissent des informations supplémentaires sur leur classification parente. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification fille de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
 
 Chaque classification, parent ou enfant, constitue une colonne de données dans le fichier de données. L’en-tête de colonne d’une classification fille utilise le format d’affectation de nom suivant :
 
@@ -48,11 +48,11 @@ Par exemple :
 | CLÉ | PROPRIÉTÉ 1 | Property 1&amp;Hat;Property 1-1 | Property 1&amp;Hat;Property 1-2 | Propriété 2 |
 |---|---|---|---|---|
 | 123 | ABC | Vert | Petit | A12B |
-| 456 | DEF | Rouge  | Grand | C3D4 |
+| 456 | DEF | Rouge | Grand | C3D4 |
 
 Bien que le modèle de fichier d’une classification à plusieurs niveaux soit plus complexe, l’avantage des classifications à plusieurs niveaux réside dans le fait que les différents niveaux peuvent être transférés sous forme de fichiers séparés. Il est possible d’utiliser cette approche pour réduire au minimum la quantité de données à charger périodiquement (chaque jour, chaque semaine, etc.) en regroupant les données par niveaux de classification qui changent au fil du temps et ceux qui ne changent pas.
 
->[!NOTE] Si la [!UICONTROL Key] colonne d’un fichier de données est vide, Adobe génère automatiquement des clés uniques pour chaque ligne de données. To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (*).
+>[!NOTE] Si la colonne [!UICONTROL Clé] d’un fichier de données est laissée vide, Adobe génère automatiquement des clés uniques pour chaque ligne de données. Pour éviter toute corruption de fichier lors du chargement d’un fichier de données avec des données de classification de deuxième niveau ou de niveau supérieur, ajoutez un astérisque (*) à chaque ligne de la colonne [!UICONTROL Clé].
 
 Pour plus d’informations sur la résolution des problèmes, reportez-vous à la section [Problèmes de téléchargement de classifications courants](https://helpx.adobe.com/fr/analytics/kb/common-saint-upload-issues.html).
 
@@ -72,7 +72,7 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 | Bruyère |
 | 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | S | 23 | Bleu-vert |
 
-### Classification de produit - plusieurs fichiers (fichier 1)  {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Classification de produit - plusieurs fichiers (fichier 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | CLÉ | NOM DU PRODUIT | DÉTAILS DU PRODUIT | SEXE | TAILLE | CODE |
 |---|---|---|---|---|---|
@@ -80,7 +80,7 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 |
 | 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | S | 23 |
 
-### Classification de produit - plusieurs fichiers (fichier 2)  {#section_19ED95C33B174A9687E81714568D56A3}
+### Classification de produit - plusieurs fichiers (fichier 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
 | CLÉ | CODE | CODE&amp;Hat;COLOR |
 |---|---|---|
