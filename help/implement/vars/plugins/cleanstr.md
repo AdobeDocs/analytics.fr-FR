@@ -1,7 +1,7 @@
 ---
 title: cleanStr
 description: Permet de supprimer ou de remplacer tous les caractères superflus d’une chaîne.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
-Le plug-in `cleanStr` supprime ou remplace tous les caractères superflus d’une chaîne, y compris les caractères de la balise HTML, les espaces supplémentaires, les tabulations et les retours (chariot/à la ligne). It also replaces left/right single quotes (`‘` and `’`) with straight single quotes (`'`). Adobe recommande d’utiliser ce plug-in si vous souhaitez supprimer les caractères superflus des valeurs de variable et si la fonction « Texte clair » de Launch ne répond pas à vos besoins en matière de mise en œuvre. Ce plug-in n’est pas nécessaire si les données collectées ne contiennent pas de caractères superflus ou si la fonction « Texte clair » de Launch est suffisante.
+Le plug-in `cleanStr` supprime ou remplace tous les caractères superflus d’une chaîne, y compris les caractères de la balise HTML, les espaces supplémentaires, les tabulations et les retours (chariot/à la ligne). Il remplace également les guillemets simples gauches/droits (`‘` et `’`) par des guillemets simples droits (`'`). Adobe recommande d’utiliser ce plug-in si vous souhaitez supprimer les caractères superflus des valeurs de variable et si la fonction « Texte clair » de Launch ne répond pas à vos besoins en matière de mise en œuvre. Ce plug-in n’est pas nécessaire si les données collectées ne contiennent pas de caractères superflus ou si la fonction « Texte clair » de Launch est suffisante.
 
 ## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
 
