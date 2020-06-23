@@ -1,7 +1,7 @@
 ---
 title: linkType
 description: Utilisez la variable linkType pour déterminer à quelle dimension de suivi de lien appartient l’accès.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -32,13 +32,13 @@ Vous pouvez définir cette liste déroulante sur [!UICONTROL Lien personnalisé]
 
 ## s.linkType dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
-La variable `s.linkType` est une chaîne qui accepte l’une des trois valeurs à caractère unique suivantes : `o`, `d` ou `e`. If a `tl()` method is called without a link type, it defaults to Custom link.
+La variable `s.linkType` est une chaîne qui accepte l’une des trois valeurs à caractère unique suivantes : `o`, `d` ou `e`. Si une méthode `tl()` est appelée sans type de lien, le lien personnalisé est défini par défaut.
 
 * `o` - Liens personnalisés
 * `d` - Liens de téléchargement
 * `e` - Liens de sortie
 
->[!TIP] Cette variable est le deuxième paramètre de la `tl()` méthode et n’a généralement pas besoin d’être définie en tant que variable autonome. However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP] Cette variable correspond au deuxième paramètre de la méthode `tl()` et n’a généralement pas besoin d’être définie en tant que variable autonome. Cependant, vous pouvez utiliser la variable `linkType` si vous ne souhaitez pas définir de valeurs comme arguments dans la méthode `tl()`.
 
 ```js
 s.linkType = "e";
