@@ -1,7 +1,7 @@
 ---
 title: getTimeParting
 description: Permet de mesurer le moment où une action spécifique a lieu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
