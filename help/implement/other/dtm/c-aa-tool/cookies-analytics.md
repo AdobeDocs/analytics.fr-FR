@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -29,7 +29,7 @@ Cette section contient la description des champs des paramètres généraux des 
    <td colname="col2"> <p>Valeur unique qui représente un client dans les systèmes en ligne et hors ligne. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visitor Namespace (Espace de nom du visiteur) </td> 
+   <td colname="col1"> Espace de nom du visiteur </td> 
    <td colname="col2"> <p>Variable permettant d’identifier le domaine avec lequel les cookies sont définis. </p> </td>
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Cette section contient la description des champs des paramètres généraux des 
    <td colname="col2"> <p>Valeur unique qui représente une transaction en ligne issue d’une activité hors ligne. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Cookie Lifetime (Durée de vie du cookie) </td> 
+   <td colname="col1"> Durée de vie du cookie </td> 
    <td colname="col2"> <p>Permet de déterminer la durée de vie d’un cookie. </p> </td> 
   </tr> 
  </tbody> 
