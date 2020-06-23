@@ -1,7 +1,7 @@
 ---
 title: trackingServer
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -58,4 +58,4 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 Sélectionnez un sous-domaine unique à votre organisation, qui ne sera probablement pas choisi par une autre organisation qui utilise Adobe Analytics. Assurez-vous que toutes les mises en œuvre de votre entreprise utilisent le même serveur de suivi. Il peut s’avérer utile de conserver ces informations dans un [document de conception de solution](../../prepare/solution-design.md).
 
->[!NOTE] N’utilisez aucun sous-domaine plus profond que `example.sc.omtrdc.net`. Par exemple, `custom.example.sc.omtrdc.net` il ne s’agit pas d’un serveur de suivi valide.
+>[!NOTE] N’utilisez aucun sous-domaine plus profond que `example.sc.omtrdc.net`. Par exemple, `custom.example.sc.omtrdc.net` n’est pas un serveur de suivi valide.
