@@ -1,7 +1,7 @@
 ---
 title: sa
 description: Permet de modifier la suite de rapports à tout moment de votre mise en œuvre.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
