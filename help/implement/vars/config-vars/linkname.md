@@ -1,7 +1,7 @@
 ---
 title: linkName
 description: Permet de définir le nom de l’accès au lien personnalisé.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkName
 
-Use the `linkName` variable to determine the dimension value of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
+Utilisez la variable `linkName` pour déterminer la valeur de dimension des liens personnalisés, des liens de téléchargement ou des liens de sortie lors de l’exécution de la méthode [`tl()`](../functions/tl-method.md) suivante.
 
 Si cette variable est vide, AppMeasurement revient à la variable [`linkURL`](linkurl.md).
 
@@ -28,7 +28,7 @@ Vous pouvez définir le champ du nom du lien lors de la configuration d’une r�
 
 La variable `s.linkName` est une chaîne qui détermine la valeur de dimension pour les liens personnalisés, les liens de téléchargement ou les liens de sortie (selon ce à quoi [`s.linkType`](linktype.md) correspond). Celle-ci peut contenir jusqu’à 100 octets.
 
->[!TIP] Cette variable est le troisième paramètre de la `tl()` méthode et n’a généralement pas besoin d’être définie en tant que variable autonome. However, you can use the `linkName` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP] Cette variable correspond au troisième paramètre de la méthode `tl()` et n’a généralement pas besoin d’être définie en tant que variable autonome. Cependant, vous pouvez utiliser la variable `linkName` si vous ne souhaitez pas définir de valeurs comme arguments dans la méthode `tl()`.
 
 ```js
 s.linkName = "Example custom link";
