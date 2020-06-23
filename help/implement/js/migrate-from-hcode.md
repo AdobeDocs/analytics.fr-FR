@@ -1,7 +1,7 @@
 ---
 title: Migration vers AppMeasurement pour JavaScript
 description: Déterminez ce qui est nécessaire pour migrer votre mise en œuvre hors du code H.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
