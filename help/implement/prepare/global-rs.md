@@ -1,7 +1,7 @@
 ---
 title: Suites de rapports globales dans Adobe Analytics
 description: Découvrez les avantages et les conditions requises pour utiliser une suite de rapports globale.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
