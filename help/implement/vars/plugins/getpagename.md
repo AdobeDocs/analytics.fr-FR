@@ -1,7 +1,7 @@
 ---
 title: getPageName
 description: Permet de créer un pageName facile à lire à partir du chemin d’accès au site web actuel.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
