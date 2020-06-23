@@ -1,7 +1,7 @@
 ---
 title: getPageLoadTime
 description: Permet d’assurer le suivi du temps nécessaire au chargement d’une page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
