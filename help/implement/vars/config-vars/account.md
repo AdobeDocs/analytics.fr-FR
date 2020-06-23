@@ -1,7 +1,7 @@
 ---
 title: account
 description: Utilisez la variable de compte pour déterminer la suite de rapports à laquelle les données sont envoyées.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
