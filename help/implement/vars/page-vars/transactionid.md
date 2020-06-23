@@ -1,7 +1,7 @@
 ---
 title: transactionID
 description: Utilisez cette variable pour lier des données en ligne et hors ligne.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
