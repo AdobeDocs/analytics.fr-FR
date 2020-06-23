@@ -1,7 +1,7 @@
 ---
 title: getPreviousValue
 description: Permet de récupérer la dernière valeur transmise dans une variable.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
