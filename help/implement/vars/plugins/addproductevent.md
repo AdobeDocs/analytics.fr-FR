@@ -1,7 +1,7 @@
 ---
 title: addProductEvent
 description: Permet d’ajouter des événements personnalisés aux variables products et events.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -75,7 +75,7 @@ Le plug-in addProductEvent ne crée ni n’utilise de cookies.
 
 ### Exemple 1
 
-Le code suivant définit la `s.products` variable sur `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
+Le code suivant définit la variable `s.products` sur `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
@@ -83,22 +83,22 @@ s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-Le code ci-dessus définit également la `s.events` variable sur `"purchase,event35"`
+Le code ci-dessus définit également la variable `s.events` sur `"purchase,event35"`
 
 ### Exemple 2
 
-Le code suivant définit la `s.products` variable sur `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
+Le code suivant définit la variable `s.products` sur `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-Lorsque le troisième argument de l&#39; `addProductEvent` appel est `true` (ou `1`), chaque entrée de produit a le  spécifié dans l&#39;appel ajouté à sa valeur.
+Lorsque le troisième argument de l’appel `addProductEvent`est `true` (ou `1`), l’événement spécifié dans l’appel est ajouté à la valeur de chaque entrée de produit.
 
 ### Exemple 3
 
-Le code suivant définit la `s.products` variable sur `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
+Le code suivant définit la variable `s.products` sur `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
@@ -108,11 +108,11 @@ s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-Le code ci-dessus définit également la `s.events` variable sur `"purchase,event2,event33,event34,event35"`
+Le code ci-dessus définit également la variable `s.events` sur `"purchase,event2,event33,event34,event35"`
 
 ### Exemple 4
 
-Le code suivant définit la `s.products` variable sur `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
+Le code suivant définit la variable `s.products` sur `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
@@ -122,9 +122,9 @@ s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-Le code ci-dessus définit également la `s.events` variable sur `"purchase,event2,event33,event34,event35"`.
+Le code ci-dessus définit également la variable `s.events` sur `"purchase,event2,event33,event34,event35"`.
 
->[!NOTE] Le deuxième argument de l’appel peut être un entier **ou** une chaîne représentant un nombre entier.
+>[!NOTE] Le second argument de l’appel peut être un entier **ou** une chaîne représentant un nombre entier
 
 ### Exemple 5
 
@@ -134,7 +134,7 @@ Si `s.products` n’est pas déjà défini, le code suivant le définit sur `";;
 s.addProductEvent("event35", "25");
 ```
 
-Le code ci-dessus s’ajoute également `"event35"` à la fin de `s.events` ou, si **ce n’est pas déjà fait, le code ci-dessus se définit**`s.events` `s.events` sur `"event35"`
+Le code ci-dessus ajoute également `"event35"` à la fin de `s.events` **ou**, si `s.events` n’est pas déjà défini, le code ci-dessus définit `s.events` sur `"event35"`
 
 ## Historique des versions
 
