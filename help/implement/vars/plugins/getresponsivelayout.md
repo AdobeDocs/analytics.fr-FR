@@ -1,7 +1,7 @@
 ---
 title: getResponsiveLayout
 description: Permet de déterminer la mise en page d’un site web actuellement consulté.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
