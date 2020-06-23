@@ -1,7 +1,7 @@
 ---
 title: Module Integrate
 description: Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -41,7 +41,7 @@ La mise en œuvre du module Integrate sur votre site nécessite l’accès à Ad
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété Launch que vous souhaitez modifier.
 3. Cliquez sur l’onglet Extensions, puis sur Configurer sous Adobe Analytics.
-4. Ouvrez l’accordéon « Configurer l’outil de suivi à l’aide du code personnalisé », puis cliquez sur « &lt;/> Ouvrir l’éditeur ».
+4. Ouvrez l’accordéon « Configurer l’outil de suivi à l’aide du code personnalisé », puis cliquez sur « Ouvrir l’éditeur ».
 5. Collez le code du module Integrate dans la fenêtre modale du code. Lorsque vous avez terminé, cliquez sur Enregistrer.
 
 ## Méthodes du module Integrate
