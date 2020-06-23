@@ -1,7 +1,7 @@
 ---
 title: linkDownloadFileTypes
 description: Permet de déterminer les extensions de fichier qui sont automatiquement suivies comme liens de téléchargement.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkDownloadFileTypes
 
-When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clicks on a link, AppMeasurement checks the URL of the link for filetype extensions. Si l’URL du lien contient un type de fichier trouvé dans `linkDownloadFileTypes`, une demande d’image de lien de téléchargement est automatiquement envoyée.
+Lorsque [`trackDownloadLinks`](trackdownloadlinks.md) est activé et qu’un visiteur clique sur un lien, AppMeasurement vérifie que l’URL du lien contient des extensions de type de fichier. Si l’URL du lien contient un type de fichier trouvé dans `linkDownloadFileTypes`, une demande d’image de lien de téléchargement est automatiquement envoyée.
 
 Utilisez `linkDownloadFileTypes` pour personnaliser les extensions de fichier que vous souhaitez compter comme liens de téléchargement.
 
@@ -21,7 +21,7 @@ Utilisez `linkDownloadFileTypes` pour personnaliser les extensions de fichier qu
 > * Liens utilisant JavaScript, tels que `javascript:openLink()`
 >
 > 
-For these download types, you can manually call the [`tl()`](../functions/tl-method.md) method.
+Pour ces types de téléchargement, vous pouvez appeler manuellement la méthode [`tl()`](../functions/tl-method.md).
 
 Si un lien cliqué correspond à la fois aux critères de lien de sortie et de lien de téléchargement, le type de lien de téléchargement est prioritaire.
 
@@ -34,7 +34,7 @@ Les extensions de téléchargement désignent une liste d’extensions de fichie
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Suivi des liens], qui affiche le champ [!UICONTROL Télécharger les extensions].
 
-Ajoutez des extensions de fichier à la liste en saisissant du texte dans le champ et en cliquant sur [!UICONTROL Ajouter]. Supprimez les extensions de fichier du  en cliquant sur l’icône &quot;X&quot; correspondante.
+Ajoutez des extensions de fichier à la liste en saisissant du texte dans le champ et en cliquant sur [!UICONTROL Ajouter]. Supprimez les extensions de fichier de la liste en cliquant sur leur icône « X » respective.
 
 ## s.linkDownloadFileTypes dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
