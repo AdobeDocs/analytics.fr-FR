@@ -1,7 +1,7 @@
 ---
 title: linkLeaveQueryString
 description: Permet de conserver les chaînes de requête dans les dimensions de suivi des liens.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkLeaveQueryString
 
-AppMeasurement supprime par défaut les chaînes de requête des URL de suivi des liens. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
+AppMeasurement supprime par défaut les chaînes de requête des URL de suivi des liens. Utilisez la variable `linkLeaveQueryString` pour conserver les chaînes de requête dans les dimensions de suivi des liens.
 
 Pour certains rapports Liens de sortie et Téléchargements de fichiers, la partie importante de l’URL peut se trouver dans la chaîne de requête. Par exemple, un lien de téléchargement tel que `https://example.com/download.asp?filename=myfile.exe` contient des informations de lien importantes dans la chaîne de requête.
 
