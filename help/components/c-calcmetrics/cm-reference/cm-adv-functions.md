@@ -3,10 +3,10 @@ description: Accédez à ces fonctions en cochant Afficher les options avancées
 title: 'Référence : fonctions avancées'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
 workflow-type: tm+mt
 source-wordcount: '2911'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Accédez à ces fonctions en cochant **[!UICONTROL Afficher les options avancée
 
 Une fonction de tableau consiste à ce que la sortie soit la même pour chaque ligne du tableau. Une fonction de ligne consiste à ce que la sortie soit différente pour chaque ligne du tableau.
 
-## Que signifie le paramètre d’inclusion de zéros ?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Que signifie le paramètre d’inclusion de zéros ? {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Il indique s’il faut inclure des zéros dans le calcul. Parfois, zéro signifie « rien » mais parfois, il est important.
 
@@ -44,7 +44,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Nombre distinct approximatif (dimension) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Renvoie le nombre distinct approximatif d’éléments de dimension pour la dimension sélectionnée. La fonction utilise la méthode HyperLogLog (HLL) d’approximation des nombres distincts.  Elle est configurée pour garantir que la valeur est comprise dans les 5 % de la valeur réelle 95 % du temps.
+Renvoie le nombre distinct approximatif d’éléments de dimension pour la dimension sélectionnée. La fonction utilise la méthode HyperLogLog (HLL) d’approximation des nombres distincts. Elle est configurée pour garantir que la valeur est comprise dans les 5 % de la valeur réelle 95 % du temps.
 
 ```
 Approximate Count Distinct (dimension)
@@ -54,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | Dimension pour laquelle vous souhaitez obtenir le nombre distinct approximatif d’éléments. |
 
-## Exemple de cas d’utilisation  {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Exemple de cas d’utilisation {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Le nombre distinct approximatif (eVar ID de client) est un cas d’utilisation courant pour cette fonction.
 
@@ -66,11 +66,11 @@ Voici comment cette mesure pourrait être utilisée dans les rapports :
 
 ![](assets/approx-customers.png)
 
-## Valeurs uniques dépassées  {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Valeurs uniques dépassées {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
+Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/low-traffic.translate.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
 
-## Comparaison des fonctions de comptage  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparaison des fonctions de comptage {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 La fonction Approximate Count Distinct() est une amélioration des fonctions Count() et RowCount(), car vous pouvez utiliser la mesure créée dans un rapport de dimensions pour générer un nombre approximatif d’éléments pour une dimension distincte. Par exemple, un nombre d’ID de client utilisés dans un rapport Type de périphérique mobile.
 
@@ -213,7 +213,7 @@ Si N &lt;= 0, elle utilise toutes les lignes précédentes. Puisque la moyenne c
 cumul(revenue)/cumul(visitor)
 ```
 
-## equal (égal à) {#concept_A3B97152B5F74E04A97018B35734BEEB}
+## Égal à {#concept_A3B97152B5F74E04A97018B35734BEEB}
 
 Renvoie des éléments qui correspondent exactement à une valeur numérique ou de chaîne.
 
@@ -232,7 +232,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## Régression exponentielle : ordonnée à l’origine (tableau) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Renvoie l’ordonnée à l’origine, *b*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour.
+Renvoie l’ordonnée à l’origine, *b*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -245,7 +245,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## Régression exponentielle : inclinaison (tableau) {#concept_230991B0371E44308C52853EFA656F04}
 
-Renvoie l’inclinaison, *a*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour.
+Renvoie l’inclinaison, *a*, entre deux colonnes de mesures (*metric_X* et *metric_Y*) pour
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -655,7 +655,7 @@ Ici, `m` correspond au nombre de queues et `n`, aux degrés de liberté. Il doit
 
 La valeur renvoyée est la probabilité de voir la statistique de test x, étant donné les degrés de liberté et le nombre de queues.
 
-**Exemples:**
+**Exemples :**
 
 1. Utilisez-la pour trouver des valeurs aberrantes :
 
