@@ -2,7 +2,7 @@
 description: Le créateur de mesures calculées fournit un canevas où faire glisser et déposer des dimensions, des mesures, des segments et des fonctions permettant de créer des mesures personnalisées en fonction de la logique de hiérarchie des conteneurs, des règles et des opérateurs. Grâce à cet outil de développement intégré, vous pouvez créer et enregistrer des mesures calculées simples ou des mesures calculées avancées complexes.
 title: Création de mesures
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -14,12 +14,12 @@ Le créateur de mesures calculées fournit un canevas où faire glisser et dépo
 
 Il existe plusieurs manières d’afficher le créateur de mesures calculées :
 
-* Dans  Espace de travail , ouvrez un projet et cliquez sur **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
-* Dans [!DNL Analytics], accédez à **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
+* Dans Analysis Workspace, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** > **[!UICONTROL Créer une mesure]** .
+* Dans [!DNL Analytics], accédez à **[!UICONTROL Composants]** > **[!UICONTROL Mesures calculées]**.
 
-* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or
+* Cliquez sur **[!UICONTROL + Ajouter]** dans la partie supérieure du [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) ou
 
-* Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](assets/metrics_icon.png) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
+* Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, ouvrez un rapport, cliquez sur l’icône Mesures ![](assets/metrics_icon.png) pour afficher le rail Mesures, puis cliquez sur **[!UICONTROL Ajouter]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -85,7 +85,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Compatibilité des produits </span> </td> 
-   <td colname="col3"> <p>La compatibilité des produits montre si la mesure est compatible avec les <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  >données actives</a>, avec les données entièrement traitées, ou uniquement avec les rapports Canaux marketing (allocation de première touche). <p>Remarque : Les données actives ne prennent pas en charge toutes les mesures. Les mesures qui comportent des segments ou des fonctions ne sont pas compatibles avec les données actives. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Plus... </a> </p> </p> </td> 
+   <td colname="col3"> <p>La compatibilité des produits montre si la mesure est compatible avec les <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/current-data.translate.html"  >données actives</a>, avec les données entièrement traitées, ou uniquement avec les rapports Canaux marketing (allocation de première touche). <p>Remarque : Les données actives ne prennent pas en charge toutes les mesures. Les mesures qui comportent des segments ou des fonctions ne sont pas compatibles avec les données actives. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Plus... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Ajouter </span> </td> 
@@ -128,11 +128,11 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste des segments </p> </td> 
-   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Si vous êtes l’administrateur, cette liste affiche tous les segments créés dans votre société utilisée pour la connexion. Si vous êtes un utilisateur non administrateur, cette liste affiche les segments que vous possédez et ceux que vous partagez. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  > Plus... </a> </p> </td> 
+   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Si vous êtes l’administrateur, cette liste affiche tous les segments créés dans votre société utilisée pour la connexion. Si vous êtes un utilisateur non administrateur, cette liste affiche les segments que vous possédez et ceux que vous partagez. <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segment-reference/seg-rights.translate.html"  > Plus... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste des fonctions </p> </td> 
-   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Les fonctions sont divisées en deux listes :  <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > De base</a> (utilisée le plus souvent) et <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Avancée</a>. </p> </td> 
+   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Les fonctions sont divisées en deux listes : <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > De base</a> (utilisée le plus souvent) et <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Avancée</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Sélecteur de suite de rapports </p> </td> 
