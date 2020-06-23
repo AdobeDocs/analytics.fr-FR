@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountList
 description: Permet de définir une logique sur la manière dont votre mise en œuvre détermine sa suite de rapports.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
