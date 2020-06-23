@@ -1,7 +1,7 @@
 ---
 title: Création d’une couche de données
 description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -170,4 +170,4 @@ Les couches de données génèrent généralement des données côté serveur, r
 
 ## Étapes suivantes
 
-[Mappez les objets de couche de données aux éléments](../launch/layer-to-elements.md)de données : Utilisez la couche de données de votre site dans Adobe Experience Platform Launch.
+[Mise en correspondance des objets de couche de données avec les éléments de données](../launch/layer-to-elements.md) : Utilisez la couche de données de votre site dans Adobe Experience Platform Launch.
