@@ -1,7 +1,7 @@
 ---
 title: s_objectID
 description: Permet d’aider Activity Map à identifier les liens uniques de votre site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
