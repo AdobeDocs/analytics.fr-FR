@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Référents et campagnes
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
@@ -26,7 +26,7 @@ Cette section décrit les champs de [!UICONTROL Dynamic Tag Management] pour l
  <tbody>
   <tr>
    <td colname="col1"> Remplacement du référent </td>
-   <td colname="col2"> <p>Permet de remplacer la valeur définie dans la variable Variable <span class="varname"> s.referrer,</span>, qui correspond généralement au référent défini dans le navigateur. </p> <p>Voir <a href="../../../vars/page-vars/referrer.md">referrer</a>. </p> </td>
+   <td colname="col2"> <p>Permet de remplacer la valeur définie dans la variable Variable <span class="varname">s.referrer,</span>, qui correspond généralement au référent défini dans le navigateur. </p> <p>Voir <a href="../../../vars/page-vars/referrer.md">referrer</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Campagne </td>
