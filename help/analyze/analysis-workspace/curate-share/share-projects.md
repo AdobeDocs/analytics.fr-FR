@@ -3,9 +3,9 @@ description: Partage de projets et rôles de projets dans Workspace
 keywords: Analysis Workspace sharing
 title: Projets Share Workspace
 translation-type: tm+mt
-source-git-commit: 324460b89adf55c450d68bdb4fdc884e53f86257
+source-git-commit: 3592544843d6c5e64eb0d009a2526ae41689c575
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1050'
 ht-degree: 6%
 
 ---
@@ -28,13 +28,13 @@ Vous pouvez ajouter des destinataires à l’un des trois rôles de projet. Les 
 >[!IMPORTANT]
 > Les destinataires de projet ajoutés avant le 18 juin 2020 ont été migrés dans un rôle de projet. Les utilisateurs administrateurs ont effectué la migration vers le rôle **[!UICONTROL Can edit]** et les utilisateurs non administrateurs ont effectué la migration vers le rôle de duplicata **** Can. Ces rôles offrent la même expérience de projet qu&#39;auparavant. En outre, tous les groupes (y compris &quot;Tous&quot;) ont migré vers le rôle duplicata **** Can.
 
-### Aucun rôle affecté
+### Aucun rôle n&#39;est affecté (destinataires de lien de projet)
 
-Si un destinataire n’est pas affecté à un rôle et reçoit un lien vers le projet (**[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet), il sera placé par défaut dans le rôle de vue **** Can.
+Si un destinataire n’est pas affecté à un rôle et reçoit un lien vers le projet (**[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet), il sera placé par défaut dans le rôle duplicata **** Can.
 
 ### Plusieurs rôles attribués
 
-Si un destinataire est placé dans plusieurs rôles, il obtient toujours l’expérience la plus élevée. Cela peut se produire si un utilisateur est ajouté à la fois en tant qu’individu et dans le cadre d’un groupe. Par exemple, si un utilisateur se voit attribuer le rôle **[!UICONTROL Peut modifier]** en tant qu’individu et le rôle vue **** Can en tant que membre d’un groupe, il recevra une expérience **[!UICONTROL Can modifier]** le projet.
+Si un destinataire est placé dans plusieurs rôles, il obtient toujours l’expérience la plus élevée. Cela peut se produire si un destinataire est ajouté à la fois en tant qu’individu et dans le cadre d’un groupe. Par exemple, si un destinataire reçoit le rôle **[!UICONTROL Peut modifier]** en tant qu’individu et le rôle vue **** Can en tant que membre d’un groupe, il reçoit un contenu **[!UICONTROL Peut modifier]** le projet.
 
 ### Administrateurs et rôles
 
@@ -46,7 +46,7 @@ Pour ajouter des destinataires à votre projet partagé :
 
 1. Cliquez sur **[!UICONTROL Partager]** > **[!UICONTROL Partager le projet]**.
 S&#39;il y a des modifications non enregistrées, vous serez invité à enregistrer d&#39;abord votre projet.
-1. Ajoutez des destinataires ou des groupes d’utilisateurs.
+1. Ajoutez des destinataires ou des groupes de destinataires.
 Pour obtenir la description de chaque rôle, reportez-vous à l’icône d’aide en haut de l’écran.
 1. (Facultatif) Partagez des composants de projet incorporés (segments, mesures calculées et plages de dates) avec tous les destinataires.
 Une fois partagés, ces composants s’affichent dans la liste déroulante Composants de l’espace de travail du destinataire. Notez que ce paramètre n’est pas conservé. Il s’agit d’une action unique au moment du partage.
@@ -64,19 +64,27 @@ Tous les utilisateurs peuvent partager des projets dans des groupes, qui sont un
 * Les administrateurs peuvent partager des données avec n’importe quel groupe, y compris &quot;Tous&quot;.
 * Les non-administrateurs peuvent partager avec des groupes dont ils sont membres, à l’exception de &quot;Tous&quot;.
 
+## Share a project link {#Links}
+
+Vous pouvez obtenir un lien vers un projet sous **[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet. Lorsque vous cliquez dessus, les destinataires doivent se connecter avant d’accéder au projet. Si le destinataire n&#39;a pas été placé dans un rôle de projet, il recevra par défaut une expérience de projet **[!UICONTROL Can duplicata]** .
+
+Les projets peuvent également être partagés à partir de **[!UICONTROL Composants]>[!UICONTROL Projets]**. Un seul projet peut être partagé en suivant les mêmes étapes ci-dessus.
+
 ## Partage de projets dans le gestionnaire de projets {#Manager}
 
-Les projets peuvent également être partagés à partir de **[!UICONTROL Composants]>[!UICONTROL Projets]**. Un seul projet peut être partagé en suivant les mêmes étapes que celles décrites ci-dessus.
+Les projets peuvent également être partagés à partir de **[!UICONTROL Composants]>[!UICONTROL Projets]**. Un seul projet peut être partagé en suivant les mêmes étapes que celles décrites ci-dessus.  Si plusieurs projets sont sélectionnés pour être partagés, des destinataires seront ajoutés à la liste existante de destinataires pour chaque projet.
 
-Si plusieurs projets sont sélectionnés pour être partagés, des destinataires seront ajoutés à la liste existante de destinataires pour chaque projet. Par exemple :
+Par exemple :
 
-* Le projet A est partagé avec les utilisateurs 1, 2, 3
-* Le projet B est partagé avec les utilisateurs 4, 5, 6
-* Les projets A et B étant sélectionnés, les utilisateurs 4 et 7 sont ajoutés aux listes destinataires. La nouvelle liste de destinataire pour chaque projet est désormais :
-   * Projet A : 1, 2, 3, 4, 7
-   * Projet B : 4, 5, 6, 7
+* Le projet A est partagé aux destinataires 1, 2, 3
+* Le projet B est partagé aux destinataires 4, 5, 6
 
-   ![](assets/mult-proj-sharing.png)
+Si les projets A et B sont sélectionnés, les destinataires 4 et 7 sont ajoutés aux listes de partage. La nouvelle liste de partage pour chaque projet est désormais la suivante :
+
+* Projet A : 1, 2, 3, 4, 7
+* Projet B : 4, 5, 6, 7
+
+![](assets/mult-proj-sharing.png)
 
 ## Questions fréquentes {#FAQs}
 
@@ -84,5 +92,5 @@ Si plusieurs projets sont sélectionnés pour être partagés, des destinataires
 |---|---|
 | Que se passe-t-il si deux éditeurs enregistrent un projet en même temps ? | Les modifications ne sont pas fusionnées et la dernière version enregistrée du projet sera conservée. Analysis Workspace ne prend actuellement pas en charge la collaboration en direct. |
 | En tant qu’administrateur, quelle expérience de projet vais-je voir ? | Les administrateurs placés dans un duplicata **** Can ou une vue **** Can recevront ces expériences limitées lorsqu’ils ouvriront un projet. Si vous le souhaitez, un administrateur peut augmenter son rôle pour **[!UICONTROL pouvoir modifier]** à tout moment via **[!UICONTROL Composants]>[!UICONTROL Projets]**. |
-| Que se passe-t-il si un utilisateur est placé dans un rôle individuel et un autre rôle en tant que membre d’un groupe ? | Si un destinataire est placé dans plusieurs rôles, il recevra toujours l’expérience la plus élevée. Par exemple, si un utilisateur se voit attribuer le rôle **[!UICONTROL Peut modifier]** en tant qu’individu et le rôle vue **** Can en tant que membre d’un groupe, il recevra une expérience **[!UICONTROL Can modifier]** le projet. |
-| Pourquoi un utilisateur reçoit-il une expérience de Vue uniquement lorsqu’il obtient un lien vers un projet ? | Si un destinataire n’est pas affecté à un rôle et reçoit un lien vers le projet (**[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet), il sera placé par défaut dans le rôle de vue **** Can. Si l’utilisateur souhaite un rôle de projet accru, le propriétaire ou l’éditeur du projet peut les ajouter au duplicata de disponibilité ou peut modifier le rôle par l’intermédiaire du module Partage de projet. |
+| Que se passe-t-il si un destinataire est placé dans un rôle en tant qu&#39;individu et un autre rôle en tant que membre d&#39;un groupe ? | Si un destinataire est placé dans plusieurs rôles, il recevra toujours l’expérience la plus élevée. Par exemple, si un destinataire reçoit le rôle **[!UICONTROL Peut modifier]** en tant qu’individu et le rôle vue **** Can en tant que membre d’un groupe, il reçoit un contenu **[!UICONTROL Peut modifier]** le projet. |
+| Quelle expérience obtient un destinataire s’il ouvre un lien de projet ? | Si un destinataire n’est pas affecté à un rôle et reçoit un lien vers le projet (**[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet), il sera placé par défaut dans le rôle duplicata **** Can. |
