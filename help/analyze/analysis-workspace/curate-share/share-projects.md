@@ -3,10 +3,10 @@ description: Partage de projets et rôles de projets dans Workspace
 keywords: Analysis Workspace sharing
 title: Projets Share Workspace
 translation-type: tm+mt
-source-git-commit: 3592544843d6c5e64eb0d009a2526ae41689c575
+source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 6%
+source-wordcount: '1073'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ Vous pouvez ajouter des destinataires à l’un des trois rôles de projet. Les 
 
 | Rôle | Contrôle du projet |
 |---|---|
-| Peut modifier | Les destinataires peuvent Enregistrer les modifications dans un projet et agir en tant que copropriétaires. Ce rôle est utile si vous souhaitez co-modifier des projets avec d’autres collègues.<br>Remarque : L’Analysis Workspace ne prend actuellement pas en charge la collaboration en direct. Il est donc recommandé qu’un seul utilisateur modifie un projet à la fois. Si les projets sont enregistrés en même temps, la dernière version est conservée. |
-| Peut dupliquer | Les Destinataires peuvent enregistrer sous et avoir accès au rail de gauche. Les interactions de projet ne sont pas limitées dans ce rôle. Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui comprennent les données de votre entreprise et comment utiliser l’Analysis Workspace, mais que vous ne souhaitez pas que votre projet soit modifié. |
+| Peut modifier | Recipients can **[!UICONTROL Save]** changes to a project and function as co-owners. Ce rôle est utile si vous souhaitez cogérer un projet avec d&#39;autres collègues ; cela inclut la modification, la suppression et la modification des listes de destinataire pour un projet partagé. <br>Remarque : L’Analysis Workspace ne prend actuellement pas en charge la collaboration en direct. Il est donc recommandé qu’un seul utilisateur modifie un projet à la fois. Si les projets sont enregistrés en même temps, la dernière version est conservée. |
+| Peut dupliquer | Les Destinataires peuvent **[!UICONTROL enregistrer sous]** et avoir accès au rail de gauche. Les interactions de projet ne sont pas limitées dans ce rôle. Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui comprennent les données de votre entreprise et comment utiliser l’Analysis Workspace, mais que vous ne souhaitez pas que votre projet soit modifié. |
 | Peut afficher | Les Destinataires ne peuvent pas enregistrer sous et n’ont pas accès au rail de gauche. Les interactions avec les projets sont également limitées. Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui connaissent moins bien la structure de données de votre entreprise, Analysis Workspace ou Adobe Analytics en général. Cependant, vous souhaitez toujours qu’ils consomment des données et des informations dans un environnement sûr.<br>En savoir plus sur l’expérience [du projet](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can vue. |
 
 >[!IMPORTANT]
@@ -30,7 +30,7 @@ Vous pouvez ajouter des destinataires à l’un des trois rôles de projet. Les 
 
 ### Aucun rôle n&#39;est affecté (destinataires de lien de projet)
 
-Si un destinataire n’est pas affecté à un rôle et reçoit un lien vers le projet (**[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet), il sera placé par défaut dans le rôle duplicata **** Can.
+Si un destinataire n’est pas affecté à un rôle et reçoit un lien vers le projet (**[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet), il sera placé dans un rôle par défaut. Les administrateurs reçoivent **[!UICONTROL Can edit]** et les non-administrateurs reçoivent **[!UICONTROL Can duplicata]**.
 
 ### Plusieurs rôles attribués
 
@@ -66,9 +66,7 @@ Tous les utilisateurs peuvent partager des projets dans des groupes, qui sont un
 
 ## Share a project link {#Links}
 
-Vous pouvez obtenir un lien vers un projet sous **[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet. Lorsque vous cliquez dessus, les destinataires doivent se connecter avant d’accéder au projet. Si le destinataire n&#39;a pas été placé dans un rôle de projet, il recevra par défaut une expérience de projet **[!UICONTROL Can duplicata]** .
-
-Les projets peuvent également être partagés à partir de **[!UICONTROL Composants]>[!UICONTROL Projets]**. Un seul projet peut être partagé en suivant les mêmes étapes ci-dessus.
+Vous pouvez obtenir un lien vers un projet sous **[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet. Lorsque vous cliquez dessus, les destinataires doivent se connecter avant d’accéder au projet. Si le destinataire n’a pas été placé dans un rôle, il recevra un rôle par défaut. Les administrateurs reçoivent **[!UICONTROL Can edit]** et les non-administrateurs reçoivent **[!UICONTROL Can duplicata]**.
 
 ## Partage de projets dans le gestionnaire de projets {#Manager}
 
@@ -93,4 +91,4 @@ Si les projets A et B sont sélectionnés, les destinataires 4 et 7 sont ajouté
 | Que se passe-t-il si deux éditeurs enregistrent un projet en même temps ? | Les modifications ne sont pas fusionnées et la dernière version enregistrée du projet sera conservée. Analysis Workspace ne prend actuellement pas en charge la collaboration en direct. |
 | En tant qu’administrateur, quelle expérience de projet vais-je voir ? | Les administrateurs placés dans un duplicata **** Can ou une vue **** Can recevront ces expériences limitées lorsqu’ils ouvriront un projet. Si vous le souhaitez, un administrateur peut augmenter son rôle pour **[!UICONTROL pouvoir modifier]** à tout moment via **[!UICONTROL Composants]>[!UICONTROL Projets]**. |
 | Que se passe-t-il si un destinataire est placé dans un rôle en tant qu&#39;individu et un autre rôle en tant que membre d&#39;un groupe ? | Si un destinataire est placé dans plusieurs rôles, il recevra toujours l’expérience la plus élevée. Par exemple, si un destinataire reçoit le rôle **[!UICONTROL Peut modifier]** en tant qu’individu et le rôle vue **** Can en tant que membre d’un groupe, il reçoit un contenu **[!UICONTROL Peut modifier]** le projet. |
-| Quelle expérience obtient un destinataire s’il ouvre un lien de projet ? | Si un destinataire n’est pas affecté à un rôle et reçoit un lien vers le projet (**[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet), il sera placé par défaut dans le rôle duplicata **** Can. |
+| Quelle expérience obtient un destinataire s’il ouvre un lien de projet ? | Les Destinataires reçoivent le rôle que vous leur avez attribué dans le module de partage. Si un destinataire n’est pas affecté à un rôle et reçoit un lien vers le projet (**[!UICONTROL Partager]>[!UICONTROL Obtenir le lien]** du projet), il sera placé dans un rôle par défaut. Les administrateurs reçoivent **[!UICONTROL Can edit]** et les non-administrateurs reçoivent **[!UICONTROL Can duplicata]**. |
