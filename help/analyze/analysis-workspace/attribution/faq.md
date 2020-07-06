@@ -2,7 +2,7 @@
 title: FAQ sur l’Attribution
 description: Obtenez des réponses aux questions les plus fréquentes au sujet de l’attribution.
 translation-type: tm+mt
-source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 76%
@@ -87,4 +87,6 @@ Par exemple, si vous créez une suite de rapports virtuelle avec un segment « 
 
 ![Suite de rapports virtuelle, affichage uniquement](assets/vrs-aiq-example.png)
 
->[!NOTE] Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masquera simplement certaines valeurs de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment peut renvoyer des valeurs inférieures à un filtre avec une définition comparable.
+>[!NOTE]
+>
+>Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masquera simplement certaines valeurs de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment peut renvoyer des valeurs inférieures à un filtre avec une définition comparable.
