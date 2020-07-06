@@ -3,8 +3,11 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3842'
+ht-degree: 100%
 
 ---
 
@@ -244,7 +247,9 @@ Créer une séquence simple en faisant glisser deux conteneurs [!UICONTROL Accè
 Les conteneurs Groupe logique sont nécessaires pour regrouper des conditions dans un point de contrôle de segment séquentiel unique. Le conteneur Groupe logique spécial n’est disponible que dans la segmentation séquentielle, afin de garantir que ses conditions sont remplies après tout point de contrôle séquentiel précédent et avant tout point de contrôle séquentiel suivant. Les conditions dans le point de contrôle du groupe logique lui-même peuvent être remplies dans n’importe quel ordre. En revanche, les conteneurs non séquentiels (accès, visite, visiteur) ne nécessitent pas que leurs conditions soient remplies dans la séquence globale, ce qui produit des résultats non intuitifs s’ils sont utilisés avec un opérateur ALORS.
 Le conteneur [!UICONTROL Groupe logique] a été conçu pour traiter *plusieurs points de contrôle comme un groupe*, *sans aucun ordre* parmi les points de contrôle regroupés. En d’autres termes, nous ne nous soucions pas de l’ordre des points de contrôle dans ce groupe. Par exemple, vous ne pouvez pas imbriquer un conteneur [!UICONTROL Visiteur] dans un conteneur du même type. En revanche, vous pouvez imbriquer un conteneur [!UICONTROL Groupe logique] dans un conteneur [!UICONTROL Visiteur] avec des points de contrôle de niveaux [!UICONTROL Visite] et [!UICONTROL Accès] spécifiques.
 
->[!NOTE] Un [!UICONTROL groupe logique] ne peut être défini que dans un segment séquentiel, ce qui signifie que l’opérateur [!UICONTROL ALORS] est utilisé dans l’expression.
+>[!NOTE]
+>
+>Un [!UICONTROL groupe logique] ne peut être défini que dans un segment séquentiel, ce qui signifie que l’opérateur [!UICONTROL ALORS] est utilisé dans l’expression.
 
 | Hiérarchie des conteneurs | Illustration | Définition |
 |---|---|---|
