@@ -4,7 +4,7 @@ title: Entonnoir de conversion
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
@@ -27,10 +27,12 @@ Ce rapport peut également être personnalisé. Vous pouvez ainsi ajouter des é
 
 1. Consultations produits
 2. Ajouts au panier
-3. Achats
+3. Passages en caisse
 4. Achats
 
 Le tableau de rapport affiche des statistiques sur les ventes moyennes par clic publicitaire et sur le nombre moyen d’unités vendues par clic publicitaire. Vous pouvez ajouter des mesures et des événements personnalisés d’autres groupes de rapports à ces rapports. Ces entonnoirs présentent de nombreuses similitudes, mais ils sont basés sur des variables et des événements différents. Vous pouvez utiliser ces rapports pour afficher les tendances générales et les pourcentages d’utilisateurs qui déclenchent les événements spécifiques que vous indiquez. Vous pouvez également identifier les endroits où les utilisateurs ne poursuivent pas jusqu’aux événements, ce qui vous éclaire sur ce point précis dans le processus de conversion.
 
->[!NOTE] Les instances dans le contexte de ces rapports équivalent au nombre total de visites où une eVar ou un événement a été défini.
+>[!NOTE]
+>
+>Les instances dans le contexte de ces rapports équivalent au nombre total de visites où une eVar ou un événement a été défini.
 
