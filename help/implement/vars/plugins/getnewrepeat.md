@@ -1,15 +1,20 @@
 ---
 title: getNewRepeat
 description: Permet de suivre l’activité des nouveaux visiteurs par rapport aux visiteurs réguliers.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 100%
 
 ---
 
 
 # Plug-in Adobe : getNewRepeat
 
->[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
 Le plug-in `getNewRepeat` vous permet de déterminer si un visiteur sur le site est un nouveau visiteur ou un visiteur régulier pendant une période donnée. Adobe recommande d’utiliser ce plug-in si vous souhaitez identifier les visiteurs comme « nouveaux » sur la base d’un nombre de jours personnalisé. Ce plug-in n’est pas nécessaire si le traitement des visiteurs nouveaux/réguliers dans Analysis Workspace répond aux besoins de votre entreprise.
 
