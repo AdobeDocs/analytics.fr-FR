@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Importateur de classifications - Aperçu
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ Utilisez l’importateur pour télécharger vos classifications dans Adobe Analy
 
 Les données importées à l’aide de l’outil d’importation doivent être dans un format spécifique. Adobe vous offre la possibilité de télécharger un modèle de données contenant tous les détails d’en-tête appropriés dans un fichier de données délimité par des tabulations. Vous pouvez ajouter vos nouvelles données à ce modèle, puis importer le fichier de données dans le navigateur via FTP.
 
->[!NOTE] Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
+>[!NOTE]
+>
+>Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
 
 Voir [Classifications numériques 2](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) pour plus d’informations sur le chargement de données utilisant les classifications numériques 2.
 
