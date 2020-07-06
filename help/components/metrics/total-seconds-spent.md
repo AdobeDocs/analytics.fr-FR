@@ -2,7 +2,7 @@
 title: Durée totale en secondes
 description: Nombre total cumulé de secondes passées sur la valeur de dimension.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 9%
@@ -26,6 +26,8 @@ Cette mesure utilise les étapes suivantes pour mesurer le calcul :
 
 Les variables persistantes, telles que les [eVars](../dimensions/evar.md), comptent pour le total des secondes passées. Les variables de trafic, telles que [props](../dimensions/prop.md), incluent les secondes passées lors des appels de suivi de liens suivants.
 
->[!TIP] La durée de la visite n’est pas mesurée pour le dernier accès de la visite, car aucune demande d’image ultérieure ne permet de mesurer le temps écoulé. Ce concept s’applique également aux visites consistant en un seul accès (un rebond).
+>[!TIP]
+>
+>La durée de la visite n’est pas mesurée pour le dernier accès de la visite, car aucune demande d’image ultérieure ne permet de mesurer le temps écoulé. Ce concept s’applique également aux visites consistant en un seul accès (un rebond).
 
 Voir Présentation [de la](time-spent.md) durée de la visite pour obtenir des informations plus générales sur la durée de la visite.
