@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Préparation à l’utilisation des sources de données
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Une fois les associations appropriées de mesure/événement déterminées pour 
 
 Voir [Événements de succès](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide des outils d’administration.
 
->[!NOTE] Adobe recommande vivement d’utiliser de nouveaux événements vides avec les données de sources de données ; toutefois, dans de rares cas, il peut s’avérer judicieux d’utiliser un événement préexistant.
+>[!NOTE]
+>
+>Adobe recommande vivement d’utiliser de nouveaux événements vides avec les données de sources de données ; toutefois, dans de rares cas, il peut s’avérer judicieux d’utiliser un événement préexistant.
 
 ## Identification de la portée des données {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,7 +43,9 @@ Si, par exemple, une mesure de source de donnée évalue les impressions de publ
 
 Vous pouvez définir plusieurs portées de données pour une mesure ; toutefois, chaque mesure doit fournir une valeur ou combinaison de valeurs appropriée, pour chaque portée de données associée. Si, par exemple, vous importez une mesure Ventes hors ligne et l’associez aux portées de données *`Product`* et *`Partner`*, la mesure Ventes hors ligne doit correspondre à chaque combinaison de produit et de partenaire (par exemple, le total des recettes).
 
->[!NOTE] Il est possible d’importer les mesures de totaux qui ne peuvent pas être ventilées selon une dimension de données.
+>[!NOTE]
+>
+>Il est possible d’importer les mesures de totaux qui ne peuvent pas être ventilées selon une dimension de données.
 
 Après avoir défini les portées de données à utiliser avec une source de données, intégrez les données des portées aux rapports marketing en les faisant correspondre à une variable. Utilisez les rapports standard (par exemple, Produit, Code de suivi, Mot-clé de recherche) ou les variables de conversion Trafic (eVars).
 
