@@ -3,7 +3,10 @@ description: Migration des utilisateurs du système de gestion des utilisateurs 
 title: Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Migration des utilisateurs du système de gestion des utilisateurs Analytics hé
 
 Migration des utilisateurs du système de gestion des utilisateurs Analytics hérité vers Adobe Admin Console.
 
->[!NOTE] Si un administrateur qui n’est pas connecté via l’environnement Experience Cloud tente d’accéder à l’outil Migration de l’ID utilisateur, il est redirigé vers la page de connexion d’Experience Cloud.
+>[!NOTE]
+>
+>Si un administrateur qui n’est pas connecté via l’environnement Experience Cloud tente d’accéder à l’outil Migration de l’ID utilisateur, il est redirigé vers la page de connexion d’Experience Cloud.
 
 **Pour migrer des utilisateurs Analytics**
 
