@@ -5,7 +5,10 @@ title: Intégration DFA
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2598'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,9 @@ Afin de comprendre quand demander des données de clics publicitaires et d’aff
 
 L’intégration Genesis pour DFA met à profit l’identifiant de configuration DFA Floodlight (dfa_SPOTID), qui améliore la cohérence du rapport entre DFA et le système de collecte de données Adobe.
 
->[!NOTE] Le terme Spotlight a été remplacé par le terme Floodlight dans une version récente de Google DFA. Le paramètre JavaScript `dfa_SPOTID` a été nommé en fonction de la terminologie Spotlight, mais il est utilisé avec les deux versions.
+>[!NOTE]
+>
+>Le terme Spotlight a été remplacé par le terme Floodlight dans une version récente de Google DFA. Le paramètre JavaScript `dfa_SPOTID` a été nommé en fonction de la terminologie Spotlight, mais il est utilisé avec les deux versions.
 
 Pour activer l’intégration DFA sur votre site Web, vous devez mettre à jour le code de collecte de données JavaScript en ajoutant ce qui suit :
 
