@@ -3,7 +3,10 @@ description: Le déploiement de cette intégration est un processus simple qui n
 title: Déploiement de l’intégration
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1310'
+ht-degree: 100%
 
 ---
 
@@ -71,7 +74,9 @@ Pour activer l’intégration, vous devez exécuter l’assistant de configurati
 
 Après avoir exécuté l’assistant d’intégration, vous devez déployer le code d’intégration dans votre code de déploiement Adobe Analytics (s_code).
 
->[!NOTE] Si vous avez utilisé Adobe TagManager ou Dynamic Tag Management pour déployer Adobe Analytics, vous pouvez facilement ajouter le code d’intégration à l’aide de l’un de ces outils.
+>[!NOTE]
+>
+>Si vous avez utilisé Adobe TagManager ou Dynamic Tag Management pour déployer Adobe Analytics, vous pouvez facilement ajouter le code d’intégration à l’aide de l’un de ces outils.
 
 1. Accédez à l’onglet **[!UICONTROL Assistance]** et téléchargez puis enregistrez la ressource `integration code v2_0_1` depuis la zone Ressources de l’intégration.
 
@@ -199,7 +204,9 @@ Consultez vos rapports Demandbase dans Adobe Analytics à l’aide du tableau de
 
 Vous pouvez également accéder à la création de rapports Demandbase dans la structure de menus d’Adobe Analytics - voir copies d’écran ci-dessous.
 
->[!NOTE] Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
+>[!NOTE]
+>
+>Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement.
 
 ![](assets/reporting1.png)
 
