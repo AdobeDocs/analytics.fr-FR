@@ -1,8 +1,11 @@
 ---
 title: pageURL
 description: Permet de remplacer l’URL de page collectée automatiquement sur votre site.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 AppMeasurement collecte automatiquement l’URL de la page dans chaque accès. Si vous souhaitez remplacer l’URL de page collectée automatiquement par AppMeasurement, vous pouvez utiliser cette variable. Dans la plupart des cas, il n’est pas nécessaire de définir cette variable.
 
->[!NOTE] Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. Si vous souhaitez utiliser l’URL de page comme dimension dans Analysis Workspace, pensez à transmettre la variable `pageURL` dans une eVar à chaque accès.
+>[!NOTE]
+>
+>Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. Si vous souhaitez utiliser l’URL de page comme dimension dans Analysis Workspace, pensez à transmettre la variable `pageURL` dans une eVar à chaque accès.
 
 Les URL dépassent parfois 255 octets. AppMeasurement utilise le paramètre de chaîne de requête `g` pour les 255 premiers octets de l’URL dans les demandes d’image. Si une URL dépasse 255 octets, le reste de l’URL est stocké dans le paramètre de chaîne de requête `-g`. Les chaînes de protocole et de requête de l’URL sont incluses dans cette variable.
 
