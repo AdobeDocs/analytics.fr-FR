@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Segments
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
 
@@ -32,12 +35,14 @@ Gardez les éléments suivants à l’esprit :
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE] Les segments créés de cette façon sont internes au projet.
+>[!NOTE]
+>
+>Les segments créés de cette façon sont internes au projet.
 
 Pour rendre ces segments publics (globaux), procédez comme suit :
 
 1. Pointez sur le segment de la zone de dépôt, puis cliquez sur l’icône « i ».
-1. Dans le panneau Informations qui s’affiche, cliquez sur **[!UICONTROL Make public]**.
+1. Dans le panneau Informations qui s’affiche, cliquez sur **[!UICONTROL Rendre public]**.
 
    ![](assets/segment-info.png)
 
