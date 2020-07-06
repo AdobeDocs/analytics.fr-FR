@@ -1,25 +1,33 @@
 ---
 title: Présentation de la mise en œuvre JavaScript du code H
 description: Découvrez le flux de travail pour mettre en œuvre le code H sur votre site.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
 
 # Présentation de la mise en œuvre JavaScript du code H
 
->[!IMPORTANT] Cette version de la collecte de données n’est plus prise en charge. Effectuez la mise à niveau vers [Adobe Experience Platform Launch](../../launch/overview.md) ou [AppMeasurement pour JavaScript](../overview.md).
+>[!IMPORTANT]
+>
+>Cette version de la collecte de données n’est plus prise en charge. Effectuez la mise à niveau vers [Adobe Experience Platform Launch](../../launch/overview.md) ou [AppMeasurement pour JavaScript](../overview.md).
 
 Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre correctement une page avec du code pour collecter des données. Les étapes suivantes vous invitent à parcourir une mise en œuvre de base du code H d’Analytics.
 
->[!NOTE] Vous devez déjà disposer d’une copie existante de `s_code.js` pour suivre ces instructions. Adobe ne propose plus d’option pour télécharger le code H dans le Gestionnaire de code.
+>[!NOTE]
+>
+>Vous devez déjà disposer d’une copie existante de `s_code.js` pour suivre ces instructions. Adobe ne propose plus d’option pour télécharger le code H dans le Gestionnaire de code.
 
 1. **Mettez à jour les variables de fichier JS principal** : modifiez le fichier `s_code.js` et assurez-vous que les variables suivantes sont mises à jour :
    * `s_account` contient l’identifiant de suite de rapports auquel vous souhaitez envoyer des données. Voir
    * `s.trackingServer` contient l’emplacement où les cookies sont stockés. Voir [trackingServer](../../vars/config-vars/trackingserver.md).
 2. **Hébergez le fichier`s_code.js`sur votre site** : ce fichier réside généralement avec d’autres scripts sur votre serveur web.
 3. **Référence`s_code.js`sur toutes les pages** : assurez-vous que toutes les pages individuelles appellent le fichier JavaScript principal, et faites-le dans la balise HTML `<body>` (et non dans la balise `<head>`).
+
    > [!TIP] Le code H exige que le script `s_code.js` soit appelé dans la balise `<body>`. Il s’agit d’une méthode différente des autres méthodes de mise en œuvre, dont la plupart nécessitent des références de script dans la balise `<head>`.
 4. **Définissez des variables spécifiques à chaque page** : des variables individuelles doivent être définies pour chaque page, telles que le nom de page ou les eVars. Les variables individuelles sont généralement définies avec une balise `<script>` intégrée sur chaque page.
 5. **Utilisez le débogueur pour vérifier la collecte des données** : téléchargez et installez le [débogueur Experience Cloud](../../validate/debugger.md) pour vous assurer que les données sont envoyées à Adobe et que les variables de page sont correctement définies.
