@@ -2,7 +2,7 @@
 title: Durée de consultation de la page
 description: Durée passée par un visiteur sur la page.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 13%
@@ -20,7 +20,9 @@ La dimension &quot;Durée de consultation de la page&quot; enregistre la durée 
 
 Cette dimension est utile pour comprendre la durée d’interaction des visiteurs avec une mesure donnée sur votre site.
 
->[!TIP] La durée de la visite n’est pas mesurée pour le dernier accès de la visite, car aucune demande d’image ultérieure ne permet de mesurer le temps écoulé. Ce concept s’applique également aux visites consistant en un seul accès (un rebond).
+>[!TIP]
+>
+>La durée de la visite n’est pas mesurée pour le dernier accès de la visite, car aucune demande d’image ultérieure ne permet de mesurer le temps écoulé. Ce concept s’applique également aux visites consistant en un seul accès (un rebond).
 
 Cette dimension est basée sur les accès, ce qui signifie que la valeur est différente pour chaque accès. Comparez cette dimension à [Durée de la visite](time-spent-per-visit.md), qui est une dimension basée sur les visites. Plus le temps passé est long, plus le visiteur reste longtemps sur une page (accès).
 
