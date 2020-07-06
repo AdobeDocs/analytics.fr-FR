@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 90%
@@ -20,7 +20,9 @@ Si `currencyCode` est défini et correspond à la devise de la suite de rapports
 
 Si `currencyCode` est défini et différent de la devise de la suite de rapports, Adobe applique une conversion de devise basée sur le taux de change du jour en cours. Adobe collabore avec [XE](https://xe.com) pour convertir chaque jour des devises. Toutes les valeurs stockées dans les serveurs de collecte de données sont finalement conservées dans la devise de la suite de rapports.
 
->[!IMPORTANT] Si `currencyCode` contient une valeur non valide, l’accès complet est ignoré, ce qui entraîne une perte de données. Assurez-vous que cette variable est correctement définie si vous l’utilisez dans votre mise en œuvre.
+>[!IMPORTANT]
+>
+>Si `currencyCode` contient une valeur non valide, l’accès complet est ignoré, ce qui entraîne une perte de données. Assurez-vous que cette variable est correctement définie si vous l’utilisez dans votre mise en œuvre.
 
 Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des événements de devise.
 
@@ -37,7 +39,7 @@ Vous pouvez utiliser un code de devise prédéfini ou un code de devise personna
 
 ## Code de devise dans le SDK mobile Adobe Experience Platform
 
-Le code de devise est transmis aux SDK mobiles Adobe Experience Platform par le biais de variables de données contextuelles dans l’extension Adobe Analytics.
+Le code de devise est transmis aux Adobes Experience Platform SDK mobiles par le biais de variables de données contextuelles dans l’extension Analytics de Adobe.
 
 1. Définissez le code de devise dans une variable de données contextuelles pendant `trackState` ou `trackAction`.
 2. Créez une règle de traitement dans la console d’administration Adobe Analytics pour la suite de rapports. Définissez la règle pour remplacer la variable Code de devise.
