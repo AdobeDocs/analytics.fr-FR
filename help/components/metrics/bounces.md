@@ -2,7 +2,7 @@
 title: Retours
 description: Nombre de visites avec exactement un accès.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -18,4 +18,6 @@ La mesure Rebonds indique le nombre de visites qui contenaient exactement un acc
 
 Si une visite consiste exactement en un accès, l’accès est considéré comme un rebond.
 
->[!NOTE] Si un visiteur déclenche à la fois une vue de page et un appel de suivi de liens, la visite n’est pas considérée comme un rebond. Envisagez plutôt d’utiliser des visites [](single-page-visits.md) mono-page.
+>[!NOTE]
+>
+>Si un visiteur déclenche à la fois une vue de page et un appel de suivi de liens, la visite n’est pas considérée comme un rebond. Envisagez plutôt d’utiliser des visites [](single-page-visits.md) mono-page.
