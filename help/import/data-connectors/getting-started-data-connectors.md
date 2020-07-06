@@ -1,8 +1,11 @@
 ---
 description: Importation des données de suivi à partir d’applications tierces dans Analytics.
 title: Prise en main des connecteurs de données Analytics
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,9 @@ Pour mettre correctement en œuvre les segments de remarketing, les conditions s
    * Achats : événement `purchase`
    * Consultations produits : événement `prodView`
 
->[!NOTE] Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement. Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
+>[!NOTE]
+>
+> Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement. Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
 
 [!UICONTROL Abandon de panier] : se déclenche après l’ajout par l’utilisateur d’un produit au panier :
 
@@ -103,4 +108,6 @@ s.events="purchase";
 | Les fichiers de segment de remarketing n’ont pas été reçus. | Si vous ne recevez pas les fichiers, demandez à l’un des membre de l’assistance utilisateurs de contacter ClientCare pour rechercher la cause du problème. |
 
 
->[!IMPORTANT] Les consultants configurent couramment une demande Data Warehouse en tant que rapport planifié quotidien, en plus du fichier de segment de remarketing de l’intégration des connecteurs de données. Cette demande d’entrepôt de données contient les variables des connecteurs de données ainsi que des variables de connecteurs autres que de données. La demande peut être planifiée selon les besoins spécifiques de votre entreprise. Pour éviter toute confusion lors du dépannage, indiquez si le fichier en question est un fichier de segment de remarketing ou une demande d’entrepôt de données contenant des variables autres que Genesis.
+>[!IMPORTANT]
+>
+>Les consultants configurent couramment une demande Data Warehouse en tant que rapport planifié quotidien, en plus du fichier de segment de remarketing de l’intégration des connecteurs de données. Cette demande d’entrepôt de données contient les variables des connecteurs de données ainsi que des variables de connecteurs autres que de données. La demande peut être planifiée selon les besoins spécifiques de votre entreprise. Pour éviter toute confusion lors du dépannage, indiquez si le fichier en question est un fichier de segment de remarketing ou une demande d’entrepôt de données contenant des variables autres que Genesis.
