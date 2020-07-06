@@ -4,7 +4,7 @@ title: Événements du calendrier
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: 739368320e73d3b441151ce7e912fe74d3f8308b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
@@ -16,7 +16,9 @@ ht-degree: 100%
 
 Étapes permettant d’ajouter des événements de calendrier et de gérer des événements partagés.
 
->[!NOTE] Afin de garantir des performances optimales pour vos rapports, les 20 derniers événements du calendrier s’affichent sur des graphiques de tendance et d’historique.
+>[!NOTE]
+>
+>Afin de garantir des performances optimales pour vos rapports, les 20 derniers événements du calendrier s’affichent sur des graphiques de tendance et d’historique.
 
 Pour les rapports de tendances au fil du temps, vous pouvez afficher les événements sous forme graphique afin de déterminer si des campagnes ou d’autres événements ont eu un impact sur le trafic, les recettes ou toute autre mesure de votre site. Pour configurer un événement de calendrier, vous devez nommer l’événement, fixer les dates, ajouter des notes et choisir une icône. Avec Social, par exemple, vous pouvez créer un événement de calendrier afin d’indiquer qu’il existait une corrélation entre une augmentation du trafic sur le site et la mention d’un produit par une célébrité sur Twitter.
 
@@ -33,6 +35,7 @@ Pour les rapports de tendances au fil du temps, vous pouvez afficher les événe
    1. Cliquez sur **[!UICONTROL Envoyer aux utilisateurs]**.
    1. Cliquez sur **[!UICONTROL Cocher tout]** ou cochez un ou plusieurs noms d’utilisateur.
    1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
    Ainsi, les événements de calendrier sont beaucoup plus faciles à utiliser. Les analystes peuvent maintenant forcer un recouvrement sur les rapports des utilisateurs afin de donner plus de contexte.
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Événements calendrier]**.
 1. Sous **[!UICONTROL Calendrier des événements partagés]**, indiquez l’une de ces options :
