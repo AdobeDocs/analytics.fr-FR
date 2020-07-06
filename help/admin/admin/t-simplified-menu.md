@@ -4,7 +4,10 @@ title: Menu des rapports simplifié
 topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Le menu simplifié Reports &amp; Analytics d’Adobe vous permet de choisir d’
 
 ![](assets/simplified-menu.png)
 
->[!NOTE] N’oubliez pas que l’application du menu simplifié annule toutes les personnalisations que vous avez apportées à la structure du menu par défaut. En outre, elle met en œuvre la structure du menu simplifié pour tous les Marketing Reports &amp; Analytics dans votre organisation. Réfléchissez bien aux ramifications (par exemple à la formation développée autour de votre structure de menus existante) avant de mettre en œuvre ce nouveau menu. En effet, il n’est pas possible de rétablir une personnalisation dans votre structure de menu existante.
+>[!NOTE]
+>
+>N’oubliez pas que l’application du menu simplifié annule toutes les personnalisations que vous avez apportées à la structure du menu par défaut. En outre, elle met en œuvre la structure du menu simplifié pour tous les Marketing Reports &amp; Analytics dans votre organisation. Réfléchissez bien aux ramifications (par exemple à la formation développée autour de votre structure de menus existante) avant de mettre en œuvre ce nouveau menu. En effet, il n’est pas possible de rétablir une personnalisation dans votre structure de menu existante.
 
 1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** pour ouvrir le Gestionnaire de suites de rapports.
 1. Sélectionnez la suite de rapports pour laquelle mettre en œuvre la structure simplifiée du menu.
