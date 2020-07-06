@@ -2,10 +2,10 @@
 title: products
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 89%
 
 La variable `products` effectue le suivi des produits et des propriétés qui leur sont liées. Cette variable est généralement définie sur des pages de produit individuelles, des pages de panier d’achat et des pages de confirmation d’achat. Il s’agit d’une variable à plusieurs valeurs, ce qui signifie que vous pouvez envoyer plusieurs produits dans le même accès et qu’Adobe analyse la valeur dans des valeurs de dimension distinctes.
 
-> [!NOTE] Si cette variable est définie dans un accès sans événement de panier dans la [`events`](events/events-overview.md) variable, la mesure Vues [](/help/components/metrics/product-views.md) de produit est incrémentée de 1. Assurez-vous de définir le événement de panier approprié pour chaque accès avec la `products` variable.
+>[!NOTE]
+>
+>If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Assurez-vous de définir le événement de panier approprié pour chaque accès avec la `products` variable.
 
 ## Produits dans Adobe Experience Platform Launch
 
@@ -50,7 +52,9 @@ Cette variable prend en charge plusieurs produits dans le même accès. Celle-ci
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Éliminez tous les points-virgules, virgules et tuyaux des noms de produits, des catégories et des valeurs d’eVar de marchandisage. Si un nom de produit comporte une virgule, AppMeasurement l’analyse comme le début d’un nouveau produit. Cette analyse incorrecte renvoie le reste de la chaîne du produit, provoquant des données incorrectes dans les dimensions et les rapports.
+>[!IMPORTANT]
+>
+>Supprimez tous les points-virgules, virgules et tuyaux des noms de produits, des catégories et des valeurs d’eVar de marchandisage. Si un nom de produit comporte une virgule, AppMeasurement l’analyse comme le début d’un nouveau produit. Cette analyse incorrecte renvoie le reste de la chaîne du produit, provoquant des données incorrectes dans les dimensions et les rapports.
 
 ## Exemples
 
