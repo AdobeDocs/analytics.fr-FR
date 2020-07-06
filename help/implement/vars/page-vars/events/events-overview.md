@@ -2,7 +2,7 @@
 title: events
 description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 92%
@@ -45,7 +45,9 @@ La variable `s.events` est une chaîne qui contient une liste d’événements d
 * `scView`: Incrémente la [mesure](/help/components/metrics/cart-views.md) &#39;Vues de panier.
 * `scCheckout`: Incrémente la mesure [&quot;Passages en caisse&quot;](/help/components/metrics/checkouts.md) .
 
->[!NOTE] Cette variable est sensible à la casse. Évitez de mettre en majuscules les valeurs d’événement de manière à garantir la collecte exacte des données.
+>[!NOTE]
+>
+>Cette variable est sensible à la casse. Évitez de mettre en majuscules les valeurs d’événement de manière à garantir la collecte exacte des données.
 
 ```js
 // Set the events variable to a single value
@@ -67,7 +69,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
->[!NOTE] Les événements de compteur ne prennent pas en charge les valeurs monétaires ou décimales. Utilisez des événements de devise pour la devise ou des événements numériques pour les valeurs décimales.
+>[!NOTE]
+>
+>Les événements de compteur ne prennent pas en charge les valeurs monétaires ou décimales. Utilisez des événements de devise pour la devise ou des événements numériques pour les valeurs décimales.
 
 ### Utiliser des événements de devise
 
@@ -84,7 +88,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
->[!NOTE] Si vous définissez une valeur monétaire dans la variable `events` et la variable `products`, la valeur monétaire dans `events` est utilisée. Évitez de définir des valeurs de devise dans les variables `events` et `products`.
+>[!NOTE]
+>
+>Si vous définissez une valeur monétaire dans la variable `events` et la variable `products`, la valeur monétaire dans `events` est utilisée. Évitez de définir des valeurs de devise dans les variables `events` et `products`.
 
 ### Utiliser des événements numériques
 
@@ -99,4 +105,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
->[!NOTE] Si vous définissez une valeur numérique dans la variable `events` et la variable `products`, la valeur numérique `events` est utilisée. Évitez de définir des valeurs numériques dans les variables `events` et `products`.
+>[!NOTE]
+>
+>Si vous définissez une valeur numérique dans la variable `events` et la variable `products`, la valeur numérique `events` est utilisée. Évitez de définir des valeurs numériques dans les variables `events` et `products`.
