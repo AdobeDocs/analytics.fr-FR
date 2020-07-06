@@ -1,8 +1,8 @@
 ---
 title: Prop
-description: Dimension personnalisée que vous pouvez utiliser dans le rapports.
+description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 26%
@@ -12,11 +12,13 @@ ht-degree: 26%
 
 # Prop
 
-*Cette page d’aide décrit le fonctionnement des props en tant que dimension. Pour plus d’informations sur la mise en oeuvre des props, voir[props](/help/implement/vars/page-vars/prop.md)dans le guide de l’utilisateur Mise en oeuvre.*
+*Cette page d’aide décrit le fonctionnement des props en tant que dimension. For information on how to implement props, see[props](/help/implement/vars/page-vars/prop.md)in the Implement user guide.*
 
 Les props sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Ils ne persistent pas au-delà de l&#39;impact qu&#39;ils ont défini.
 
-> [!TIP][ Dans la plupart des cas, Adobe recommande d’utiliser des eVars. ](evar.md) Dans les versions précédentes d’Adobe Analytics, les props et eVars présentaient des avantages et des inconvénients les uns pour les autres. Toutefois, Adobe a amélioré les eVars afin qu’elles répondent à presque tous les cas d’utilisation des props.
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. Dans les versions précédentes d’Adobe Analytics, les props et eVars présentaient des avantages et des inconvénients les uns pour les autres. Toutefois, Adobe a amélioré les eVars afin qu’elles répondent à presque tous les cas d’utilisation des props.
 
 Si vous disposez d’un document [de conception de](/help/implement/prepare/solution-design.md)solution, vous pouvez allouer ces dimensions personnalisées aux valeurs propres à votre entreprise. Le nombre de props disponibles dépend de votre contrat avec Adobe. Jusqu’à 75 props sont disponibles si votre contrat avec Adobe le prend en charge.
 
