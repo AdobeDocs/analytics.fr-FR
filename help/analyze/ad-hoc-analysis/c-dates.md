@@ -3,7 +3,10 @@ description: Dans le calendrier, vous pouvez spécifier des dates et des plages 
 title: Dates et plages de dates
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Lors de la sélection d’une période au cours de la création d’un projet, l
 
 ![](assets/daterange.jpeg)
 
->[!NOTE] Si vous avez besoin d’aide pour exécuter des rapports existants, contactez votre gestionnaire de compte.
+>[!NOTE]
+>
+>Si vous avez besoin d’aide pour exécuter des rapports existants, contactez votre gestionnaire de compte.
 
 ## Tranches de dates héritées {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [Créez](/help/analyze/ad-hoc-analysis/c-getting-started.md) ou ouvrez un projet.
 1. Ouvrez le [calendrier](/help/analyze/ad-hoc-analysis/c-dates.md), puis sélectionnez **[!UICONTROL Trimestre]** ou **[!UICONTROL Année]**.
 
->[!NOTE] Les tranches de dates historiques se limitent à un trimestre ou à une année. Vous ne pouvez pas afficher les données chevauchant la limite entre les tranches de dates héritées et la nouvelle plateforme de traitement. Ceci entraînerait une erreur. En outre, les périodes s’appliquent uniquement au calendrier grégorien, et non aux calendriers personnalisés.
+>[!NOTE]
+>
+>Les tranches de dates historiques se limitent à un trimestre ou à une année. Vous ne pouvez pas afficher les données chevauchant la limite entre les tranches de dates héritées et la nouvelle plateforme de traitement. Ceci entraînerait une erreur. En outre, les périodes s’appliquent uniquement au calendrier grégorien, et non aux calendriers personnalisés.
 
