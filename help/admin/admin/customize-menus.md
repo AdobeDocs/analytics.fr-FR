@@ -4,7 +4,10 @@ title: Personnalisation des menus
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Avec cette fonction, vous pouvez personnaliser les menus des rapports auxquels l
 
 Les modifications apportées au menu s’appliquent à tous les utilisateurs qui accèdent à la suite de rapports. Les utilisateurs peuvent toutefois restaurer la configuration par défaut d’un menu lors de l’utilisation de la suite de rapports.
 
->[!NOTE] Les changements apportés à la structure de menus n’ont aucune incidence sur le Report Builder et Ad Hoc Analysis. En revanche, le changement du nom d’un rapport se répercute dans les deux outils.
+>[!NOTE]
+>
+>Les changements apportés à la structure de menus n’ont aucune incidence sur le Report Builder et Ad Hoc Analysis. En revanche, le changement du nom d’un rapport se répercute dans les deux outils.
 
 ## Descriptions de la personnalisation des menus {#section_B0D224DACB914A378902A4E0E1234889}
 
