@@ -2,8 +2,11 @@
 title: Panneau de comparaison des segments - Aperçu
 description: Découvrez comment utiliser le panneau de comparaison des segments, un composant de Segment IQ dans Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +30,11 @@ Le panneau de comparaison des segments est un composant d’outil de [Segment I
 
    ![Comparaison d’audiences](assets/compare-audiences.png)
 
-   Après avoir fait glisser le segment dans le panneau, Analytics crée automatiquement un segment [!UICONTROL 'Everyone Else'] qui comprend quiconque n’est PAS dans le segment que vous choisissez. Il s’agit d’un segment fréquemment utilisé dans le panneau de comparaison, mais vous avez la possibilité de le supprimer et de comparer un autre segment de votre choix.
+   Après avoir fait glisser le segment dans le panneau, Analytics crée automatiquement un segment [!UICONTROL « Tous les autres »] qui comprend quiconque N’est PAS dans le segment que vous choisissez. Il s’agit d’un segment fréquemment utilisé dans le panneau de comparaison, mais vous avez la possibilité de le supprimer et de comparer un autre segment de votre choix.
 
    ![Tous les autres](assets/everyone-else.png)
 
-1. Une fois que vous avez déterminé les deux segments à comparer, cliquez sur [!UICONTROL Build].
+1. Une fois que vous avez déterminé les deux segments à comparer, cliquez sur [!UICONTROL Créer].
 
    Cette action lance un processus principal qui recherche les différences statistiques entre les deux segments sélectionnés et l’ensemble des dimensions, des mesures et des autres segments. Une barre de progression en haut du panneau indique le temps restant jusqu’à ce que chaque mesure et dimension soit analysée. Les mesures, dimensions et segments les plus fréquemment utilisés s’exécutent en priorité. Dès lors, les résultats les plus pertinents sont renvoyés en temps voulu.
 
@@ -39,12 +42,12 @@ Le panneau de comparaison des segments est un composant d’outil de [Segment I
 
 Il est parfois souhaitable d’exclure certaines dimensions, mesures ou segments des comparaisons de segments. Par exemple, vous souhaitez comparer le segment « Utilisateurs mobiles américains » à « Utilisateurs mobiles allemands ». L’inclusion de dimensions liées à la géographie n’aurait aucun sens, puisque ces segments impliquent déjà ces différences.
 
-1. Une fois que les deux segments souhaités s’affichent dans le panneau, cliquez sur [!UICONTROL 'Show Advanced Options'].
-1. Faites glisser les composants que vous souhaitez exclure dans le panneau [!UICONTROL Excluded Components].
+1. Une fois que les deux segments souhaités s’affichent dans le panneau, cliquez sur [!UICONTROL « Afficher les options avancées »].
+1. Faites glisser les composants que vous souhaitez exclure dans le panneau [!UICONTROL Composants exclus].
 
    ![Composants exclus](assets/excluded-components.png)
 
-Cliquez sur [!UICONTROL 'Set as default'] pour exclure automatiquement vos composants actuels de toutes les futures comparaisons de segments. Si vous souhaitez modifier des composants exclus, cliquez sur un type de composant, puis sur le « X » en regard d’un composant afin de l’inclure à nouveau dans votre analyse. Cliquez sur « Effacer tout » pour inclure à nouveau tous les composants dans la comparaison de segments.
+Cliquez sur [!UICONTROL « Définir comme valeur par défaut »] pour exclure automatiquement vos composants actuels de toutes les futures comparaisons de segments. Si vous souhaitez modifier des composants exclus, cliquez sur un type de composant, puis sur le « X » en regard d’un composant afin de l’inclure à nouveau dans votre analyse. Cliquez sur « Effacer tout » pour inclure à nouveau tous les composants dans la comparaison de segments.
 
 ![Dimensions exclues](assets/excluded-dimensions.png)
 
@@ -74,7 +77,9 @@ Affiche les mesures les plus significatives sur le plan statistique entre les de
 
 Cette visualisation est similaire aux tableaux à structure libre dans Analysis Workspace. Si vous souhaitez approfondir l’analyse d’une mesure spécifique, passez la souris sur un élément de ligne et cliquez sur « Créer un visuel ». Un tableau est alors créé pour analyser cette mesure spécifique. Si une mesure n’est pas pertinente pour votre analyse, passez la souris sur l’élément de ligne et cliquez sur le « X » pour le supprimer.
 
->[!NOTE] Les mesures ajoutées à ce tableau au terme de la comparaison de segments ne reçoivent pas de score de différence.
+>[!NOTE]
+>
+>Les mesures ajoutées à ce tableau au terme de la comparaison de segments ne reçoivent pas de score de différence.
 
 ![Mesures principales](assets/top-metrics.png)
 
@@ -90,7 +95,9 @@ Affiche les valeurs de dimension les plus significatives sur le plan statistique
 
 Cette visualisation est similaire aux tableaux à structure libre dans Analysis Workspace. Si vous souhaitez approfondir l’analyse d’une valeur de dimension spécifique, passez la souris sur un élément de ligne et cliquez sur « Créer un visuel ». Un tableau est alors créé pour analyser cette valeur de dimension spécifique. Si une valeur de dimension n’est pas pertinente pour votre analyse, passez la souris sur l’élément de ligne et cliquez sur le « X » pour la supprimer.
 
->[!NOTE] Les valeurs de dimension ajoutées à ce tableau au terme de la comparaison de segments ne reçoivent pas de score de différence.
+>[!NOTE]
+>
+>Les valeurs de dimension ajoutées à ce tableau au terme de la comparaison de segments ne reçoivent pas de score de différence.
 
 ![Dimensions principales](assets/top-dimension-item1.png)
 
@@ -106,7 +113,9 @@ Indique quels autres segments (différents des deux segments sélectionnés pour
 
 Cette visualisation est similaire aux tableaux à structure libre dans Analysis Workspace. Si vous souhaitez approfondir l’analyse d’un segment spécifique, passez la souris sur un élément de ligne et cliquez sur « Créer un visuel ». Un tableau est alors créé pour analyser ce segment spécifique. Si un segment n’est pas pertinent pour votre analyse, passez la souris sur l’élément de ligne et cliquez sur le « X » pour le supprimer.
 
->[!NOTE] Les segments ajoutés à ce tableau au terme de la comparaison de segments ne reçoivent pas de score de différence.
+>[!NOTE]
+>
+>Les segments ajoutés à ce tableau au terme de la comparaison de segments ne reçoivent pas de score de différence.
 
 ![Segments principaux](assets/top-segments.png)
 
