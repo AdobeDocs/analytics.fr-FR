@@ -4,7 +4,10 @@ title: Personnalisation des rapports - Aperçu
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 100%
 
 ---
 
@@ -28,14 +31,14 @@ Seuls les administrateurs peuvent créer un rapport personnalisé. Lorsque vous 
 **Pour créer un rapport personnalisé**
 
 1. Exécutez un rapport et configurez-le selon vos besoins.
-1. Cliquez sur **[!UICONTROL More]** > **[!UICONTROL Create Custom Report]**.
-1. Name the report, then click **[!UICONTROL Save.]**
+1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Créer un rapport personnalisé]**.
+1. Nommez le rapport, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Vérifiez que ce nom n’existe pas déjà.
 
 >[!MORELIKETHIS]
 >
->* [Personnalisation des menus](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
+>* [Personnalisation des menus](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/customize-menus.translate.html)
 
 
 ## Sélection d’une date ou d’une période {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -64,10 +67,10 @@ Lorsque vous ouvrez un tableau de bord contenant des mini-rapports avec différe
    * Faire glisser le curseur sur les dates afin de sélectionner une plage.
    * Entrer les dates manuellement.
    * Cliquer sur le nom d’un mois afin de sélectionner ce dernier.
-   * Cliquez sur **[!UICONTROL Select Preset]** pour sélectionner une date prédéfinie.
+   * Cliquer sur **[!UICONTROL Sélectionner une valeur prédéfinie]** afin de sélectionner une date prédéfinie.
    * Comparaison de dates.
 
-1. Cliquez sur **[!UICONTROL Run Report]**.
+1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
 
 ## Comparaison de dates {#task_95155C3700774B709F5FB81AE96B0824}
 
@@ -81,15 +84,17 @@ t_reports_comparing_dates.xml
 
 Il est impossible de comparer les dates entre des rapports de tendances.
 
->[!NOTE] Si vous souhaitez réaliser une comparaison de dates sur des mesures clés d’un tableau de bord, vous pouvez extraire les données dans [Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/home.html) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
+>[!NOTE]
+>
+>Si vous souhaitez réaliser une comparaison de dates sur des mesures clés d’un tableau de bord, vous pouvez extraire les données dans [Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/home.html) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
 
 Pour comparer les dates entre des rapports de classement dans Reports &amp; Analytics :
 
 1. Exécutez un rapport.
 1. Cliquez sur le calendrier en haut à droite.
-1. Cliquez sur **[!UICONTROL Compare Dates]**.
+1. Cliquez sur **[!UICONTROL Comparer les dates]**.
 1. Sélectionnez les dates à utiliser.
-1. Cliquez sur **[!UICONTROL Run Report]**.
+1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
 
 ## Affichage d’un pourcentage sous forme de graphique {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -103,8 +108,8 @@ t_reports_graph_percent.xml
 
 Cette visualisation est également disponible dans les mini-rapports du tableau de bord.
 
-1. Run a report that supports percentages, such as a [!UICONTROL Pages Report].
-1. Cliquez sur **[!UICONTROL Percent Shown As: Graph]**.
+1. Exécutez un rapport qui prend les pourcentages en charge, tel qu’un [!UICONTROL rapport Pages].
+1. Cliquez sur **[!UICONTROL Pourcentage affiché comme : graphique]**.
 
 ## Normalisation des données de rapport {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
@@ -121,9 +126,9 @@ Après exécution d’un rapport de comparaison de dates, ou pour les comparaiso
 **Pour normaliser les données de rapport**
 
 1. Exécutez un rapport permettant les comparaisons de dates.
-1. Cliquez sur **[!UICONTROL Compare Dates]**, puis spécifiez la comparaison de dates.
-1. Cliquez sur **[!UICONTROL Run Report]**.
-1. Cliquez sur **[!UICONTROL Normalize Data: Yes]**.
+1. Cliquez sur **[!UICONTROL Comparer les dates]**, puis spécifiez les dates à comparer.
+1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
+1. Cliquez sur **[!UICONTROL Normaliser les données : oui]**.
 
 ## Sélection d’une page pour un rapport {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
@@ -135,11 +140,11 @@ t_reports_select_page.xml
 
  -->
 
-1. Générez un rapport, par exemple un [!UICONTROL Page Views Report] ( **[!UICONTROL Reports]** > **[!UICONTROL Site Metrics]** > **[!UICONTROL Page Views]**).
-1. Click the **[!UICONTROL Selected Page]** link.
-1. On [!UICONTROL Choose Page], select the pages you want to display.
+1. Générez un rapport, tel qu’un [!UICONTROL Rapport Pages vues] (**[!UICONTROL Rapports]** > **[!UICONTROL Mesures du site]** > **[!UICONTROL Pages vues]**).
+1. Cliquez sur le lien **[!UICONTROL Page sélectionnée]**.
+1. Sous [!UICONTROL Sélectionner les pages], sélectionnez celles que vous souhaitez afficher.
 1. Localisez la page.
-1. Cliquez sur **[!UICONTROL OK.]**
+1. Cliquez sur **[!UICONTROL OK]**.
 
 ## Comparaison de suites de rapports {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -168,9 +173,9 @@ Outre l’affichage graphique, le tableau du rapport donne une comparaison en po
 **Pour comparer des suites de rapports**
 
 1. Générez un rapport qui vous permette de comparer les rapports.
-1. Click the **[!UICONTROL Compare to Site]** link.
+1. Cliquez sur le lien **[!UICONTROL Comparer au site]**.
 1. Localisez la suite de rapports.
-1. Cliquez sur **[!UICONTROL OK.]**
+1. Cliquez sur **[!UICONTROL OK]**.
 
 ## Spécification de la granularité d’un rapport {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
@@ -182,12 +187,12 @@ t_reports_granularity.xml
 
  -->
 
-La période du rapport détermine quelles sont les options de granularité disponibles. For example, you can select only **[!UICONTROL Hourly]** if you have a one or two day time frame selected. You can select only **[!UICONTROL Yearly]** granularity if you have more than one year selected.
+La période du rapport détermine quelles sont les options de granularité disponibles. Par exemple, l’option **[!UICONTROL Heure]** peut être sélectionnée uniquement si vous avez choisi une période de 1 ou 2 jours. L’option **[!UICONTROL Année]** est visible uniquement si plus d’une année est sélectionnée.
 
 **Pour spécifier la granularité d’un rapport**
 
-1. Générez un rapport de tendances, tel que **[!UICONTROL Site Content]** > **[!UICONTROL Pages.]**
-1. Click the **[!UICONTROL View by]** link, then click a granularity.
+1. Générez un rapport de tendances, tel que **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]**.
+1. Cliquez sur le lien **[!UICONTROL Vue par]**, puis sur une granularité.
 
 ## Exécution d’un rapport Jour de la semaine {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
@@ -202,11 +207,11 @@ t_reports_day_of_week.xml
 Cette fonctionnalité s’applique uniquement aux rapports de tendances filtrés avec une plage de dates Semaine ou Jour.
 
 1. Exécutez un rapport de tendances pour une période spécifiée.
-1. Cliquez sur le **[!UICONTROL Day of Week]** lien, puis sur un jour.
+1. Cliquez sur le lien **[!UICONTROL Jour de la semaine]**, puis cliquez sur un jour.
 
 ## Bouton Essayer dans l’espace de travail {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Clicking the **[!UICONTROL Try In Workspace]** button at the top of a report will load the same report in Analysis Workspace.
+Un clic sur le bouton **[!UICONTROL Essayer dans l’espace de travail]** situé en haut d’un rapport entraîne le chargement de ce rapport dans Analysis Workspace.
 
 <!-- 
 
@@ -218,4 +223,4 @@ La plupart des rapports dans Reports &amp; Analytics contiennent désormais un
 
 Actuellement, le bouton n’est disponible que si votre nom d’utilisateur dispose des droits complets dans Analysis Workspace.
 
-Pour plus d’informations sur tous les moyens de personnaliser votre rapport, reportez-vous au guide [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
+Pour plus d’informations sur tous les moyens de personnaliser votre rapport, reportez-vous au guide [Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html).
