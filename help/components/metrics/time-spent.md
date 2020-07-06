@@ -2,7 +2,7 @@
 title: Durée
 description: Page agrégée de dimensions et de mesures de durée de la visite.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 93%
@@ -39,7 +39,9 @@ Diverses mesures et dimensions de [!UICONTROL « durée de la visite »] sont 
 
 Adobe Analytics utilise des valeurs explicites (y compris les événements de lien et les affichages de vidéos) pour calculer la [!UICONTROL durée de la visite].
 
->[!NOTE]Sans les événements de lien tels que [!UICONTROL Affichages de vidéos] ou [!UICONTROL Liens de sortie], la durée de la visite sur le dernier accès d’une visite ne peut pas être connue. Pour des raisons similaires, les [!UICONTROL Visites de rebond] (c’est-à-dire les visites avec un seul accès) n’ont pas de « Durée de la visite » associée.
+>[!NOTE]
+>
+>Sans les événements de lien tels que [!UICONTROL Affichages de vidéos] ou [!UICONTROL Liens de sortie], la durée de la visite sur le dernier accès d’une visite ne peut pas être connue. Pour des raisons similaires, les [!UICONTROL Visites de rebond] (c’est-à-dire les visites avec un seul accès) n’ont pas de « Durée de la visite » associée.
 
 Le **numérateur** dans tous les calculs de durée de la visite est la durée totale en secondes.
 
@@ -123,9 +125,9 @@ Sur la base du tableau ci-dessus, les mesures de durée de la visite sont calcul
 
 | prop1 | Durée totale en secondes | Durée de la visite | Durée par visiteur | Nombre de séquences | Durée moyenne de la visite du site |
 |---|---|---|---|---|---|
-| A  | 30+50+60=140 | 140/1=140 | 140/1=140 | 2 | 140/2=70 |
+| A | 30+50+60=140 | 140/1=140 | 140/1=140 | 2 | 140/2=70 |
 | B | 10+40=50 | 50/1=50 | 50/1=50 | 1 | 50/1=50 |
-| C  | 0 | 0 | 0 | 0 | 0 |
+| C | 0 | 0 | 0 | 0 | 0 |
 | Durée non attribuée | 100 | - | - | - | - |
 
 | eVar1 | Durée totale en secondes | Durée de la visite | Durée par visiteur | Nombre de séquences | Durée moyenne de la visite du site |
