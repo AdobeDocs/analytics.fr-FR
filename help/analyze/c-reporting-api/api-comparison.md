@@ -2,8 +2,11 @@
 description: Tableau de comparaison des API de création de rapports dans Analytics. Vous y trouverez également des liens vers la documentation afférente.
 title: Comparaison des API de création de rapports dans Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Tableau de comparaison des API de création de rapports dans Analytics. Vous y trouverez également des liens vers la documentation afférente.
 
->[!NOTE] À propos de la latence, Analytics pour Target (A4T) combine sur le même accès les données d’Analytics et de Target pour les rapports intégrés. Les appels à Analytics et à Target pouvant survenir à différents moments, les accès sont stockés avant tout traitement de collecte des données dans les deux solutions. Pour cette raison, le temps de latence de tous les points de contrôle est de **7 à 10 minutes** plus long.
+>[!NOTE]
+>
+>À propos de la latence, Analytics pour Target (A4T) combine sur le même accès les données d’Analytics et de Target pour les rapports intégrés. Les appels à Analytics et à Target pouvant survenir à différents moments, les accès sont stockés avant tout traitement de collecte des données dans les deux solutions. Pour cette raison, le temps de latence de tous les points de contrôle est de **7 à 10 minutes** plus long.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
