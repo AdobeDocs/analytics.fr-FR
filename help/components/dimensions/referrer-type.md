@@ -2,7 +2,7 @@
 title: Type de référent
 description: Type de parrain, en fonction de la provenance du visiteur.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Cette dimension fait référence à plusieurs tables de recherche internes à Ad
 
 Les valeurs de dimension incluent le type de parrain de l’accès. Les valeurs spécifiques sont les suivantes :
 
-* **Tapé/marqué**: Aucune donnée de parrain n’existe pour l’accès.
+* **Tapé/marqué**: Aucune donnée de parrain n&#39;existe pour l&#39;accès.
 * **Moteurs** de recherche : Le parrain provient d&#39;un moteur de recherche reconnu qui inclut une chaîne de requête de mot-clé.
 * **Réseaux sociaux:**: Les données de Parrain appartenaient à un réseau social reconnu par Adobe.
 * **Autres sites** Web : Les données de Parrain n&#39;appartenaient pas à un moteur de recherche ou à un réseau social reconnu par Adobe.
@@ -31,9 +31,11 @@ Les valeurs de dimension incluent le type de parrain de l’accès. Les valeurs 
 
 ### Réseaux sociaux
 
-La liste suivante fait référence au tableau de recherche &quot;Réseaux sociaux&quot; utilisé par Adobe. Adobe fournit cette liste à titre de politesse aux clients Adobe Analytics. Si vous souhaitez recommander à Adobe d’ajouter un domaine à cette liste, demandez à un délégué de l’assistance de votre entreprise de contacter le service d’assistance clientèle.
+La liste suivante fait référence au tableau de recherche &quot;Réseaux sociaux&quot; utilisé par Adobe. Adobe fournit cette liste à titre de courtoisie aux clients de Adobe Analytics. Si vous souhaitez recommander à Adobe d’ajouter un domaine à cette liste, demandez à un délégué de l’assistance de votre entreprise de contacter le service d’assistance clientèle.
 
->[!NOTE] Cette liste est différente de la liste par défaut des réseaux sociaux dans les règles [de traitement des canaux](../c-marketing-channels/c-rules.md)marketing.
+>[!NOTE]
+>
+>Cette liste est différente de la liste par défaut des réseaux sociaux dans les règles [de traitement des canaux](../c-marketing-channels/c-rules.md)marketing.
 
 * `12seconds.tv`
 * `t.163.com`
