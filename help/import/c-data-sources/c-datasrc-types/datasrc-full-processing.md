@@ -5,7 +5,7 @@ title: Traitement complet
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 93%
@@ -15,7 +15,9 @@ ht-degree: 93%
 
 # Traitement complet
 
->[!NOTE] Adobe recommande aux clients d’utiliser l’API [d’insertion de données en bloc (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. Les sources de données à traitement complet seront désormais abandonnées.
+>[!NOTE]
+>
+>Adobe recommande aux clients d’utiliser l’API [d’insertion de données en bloc (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. Les sources de données à traitement complet seront désormais abandonnées.
 
 Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
