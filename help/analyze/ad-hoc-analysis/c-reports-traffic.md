@@ -3,8 +3,11 @@ description: Les rapports de source de trafic vous donnent une vue détaillée d
 title: Rapports sur les sources de trafic
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +99,9 @@ Les domaines ou URL ne faisant pas partie de ces domaines et URL définis sont c
 
 Pour plus d’informations, voir la rubrique [Filtres URL internes](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/internal-url-filter-admin.translate.html) dans l’aide d’[!DNL Admin Console].
 
->[!NOTE] Les rapports et analyses marketing considèrent un domaine référent comme adresse e-mail lorsque les visiteurs cliquent sur un lien de message envoyé par e-mail contenant le protocole [!DNL imap://] ou [!DNL mail://] et arrivent sur votre site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
+>[!NOTE]
+>
+>Les rapports et analyses marketing considèrent un domaine référent comme adresse e-mail lorsque les visiteurs cliquent sur un lien de message envoyé par e-mail contenant le protocole [!DNL imap://] ou [!DNL mail://] et arrivent sur votre site. Par exemple, les messages provenant de [!DNL https://mail.yahoo.com] ne sont pas considérés comme des référents « courriel », car le protocole est [!DNL https://]. Les courriels d’Outlook sont signalés dans la ligne Tapé/Marqué, alors que les référents avec un protocole HTTP où le domaine est un moteur de recherche connu sont signalés dans la ligne Moteur de recherche.
 
 ## Type de référent {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -129,5 +134,7 @@ Les options suivantes peuvent s’afficher lors de l’exécution de ce rapport�
 
 **USENET (groupes de discussion)** : cela signifie que l’URL d’un référent commençait par `news://`. Dès lors, le lien de référence a été publié sur un groupe de discussion Usenet plutôt que sur une page Web.
 
->[!NOTE] La logique Type de référent correspond à d’autres rapports de sources de trafic (tels que [!UICONTROL Référents] et [!UICONTROL Domaines référents]). Cela devrait réduire, voire éliminer, les occurrences d’éléments Dans votre site et Pas de JavaScript dans le rapport [!UICONTROL Type de référent].
+>[!NOTE]
+>
+>La logique Type de référent correspond à d’autres rapports de sources de trafic (tels que [!UICONTROL Référents] et [!UICONTROL Domaines référents]). Cela devrait réduire, voire éliminer, les occurrences d’éléments Dans votre site et Pas de JavaScript dans le rapport [!UICONTROL Type de référent].
 
