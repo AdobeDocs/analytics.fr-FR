@@ -5,7 +5,10 @@ title: Fonctions d’intégration
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Une fois activée, l’intégration DFA des Data Connectors fournit les mesures 
 * (Facultatif) Données de coûts DFA
 * (Facultatif) Erreurs de requête DFA, dépassements de délai
 
->[!NOTE] Cette intégration ne propose aucune assistance pour les outils de suivi de clics (anciennement les commandes de clic). Les outils de suivi de clics servent à enregistrer le nombre de clics sur les liens de texte, les liens dans les messages électroniques ou d’autres éléments codés en dur sur un site Web.
+>[!NOTE]
+>
+>Cette intégration ne propose aucune assistance pour les outils de suivi de clics (anciennement les commandes de clic). Les outils de suivi de clics servent à enregistrer le nombre de clics sur les liens de texte, les liens dans les messages électroniques ou d’autres éléments codés en dur sur un site Web.
 
 L’intégration DFA Data Connectors construit automatiquement les codes de suivi DFA à partir des données renvoyées par DFA. Ces codes de suivi sont construits de façon à identifier de manière unique une publicité ainsi que son référencement et son créatif associés. L’illustration ci-après décrit la structure du code de suivi, selon la version de l’intégration. Version 1.5 :
 
@@ -55,5 +60,7 @@ Si l’option **[!UICONTROL SearchCenter]** > **[!UICONTROL Déduplication DFA]
 
 * Dans le cas d’un affichage publicitaire DFA, l’intégration renseignera la chaîne « DFA Viewthrough » (affichage publicitaire DFA) avec l’eVar SCM.
 
->[!NOTE] Si l’option SearchCenter > Déduplication DFA est activée et que le paramètre de chaîne de requête SearchCenter est défini, la visite n’est pas prise en compte pour le traitement DFA. Ceci signifie que le paramètre de chaîne de requête SearchCenter doit différer du paramètre de clic publicitaire DFA et qu’aucune publicité affichée ne doit définir le paramètre de chaîne de requête SearchCenter.
+>[!NOTE]
+>
+>Si l’option SearchCenter > Déduplication DFA est activée et que le paramètre de chaîne de requête SearchCenter est défini, la visite n’est pas prise en compte pour le traitement DFA. Ceci signifie que le paramètre de chaîne de requête SearchCenter doit différer du paramètre de clic publicitaire DFA et qu’aucune publicité affichée ne doit définir le paramètre de chaîne de requête SearchCenter.
 
