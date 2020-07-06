@@ -1,18 +1,18 @@
 ---
-title: Modèles d’attribution et fenêtres de recherche
+title: Modèles d’attribution et fenêtres de recherche arrière
 description: Comment les différents types d’attribution répartissent le crédit entre les valeurs de dimension.
 translation-type: tm+mt
-source-git-commit: d12ea12ffbf54e1af091ceff6ec671e6a09d0db3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1499'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
 
-# Modèles d’attribution et fenêtres de recherche
+# Modèles d’attribution et fenêtres de recherche arrière
 
-Le concept d’attribution dans Adobe Analytics nécessite deux composants :
+Le concept d&#39;attribution dans Adobe Analytics requiert deux composantes :
 
 * **Modèles d’attribution :** le modèle décrit la distribution des conversions pour les accès dans un groupe. Par exemple, Première touche ou Dernière touche.
 * **Intervalle de recherche en amont d’attribution :** l’intervalle de recherche en amont décrit les groupes d’accès pris en compte pour chaque modèle. Par exemple, visite ou visiteur.
@@ -43,7 +43,9 @@ Un intervalle de recherche en amont est la durée pendant laquelle une conversio
 
 * **Fenêtre de recherche personnalisée :** Permet d’étendre la fenêtre d’attribution au-delà de la plage de dates du rapports jusqu’à un maximum de 90 jours. Les fenêtres de recherche personnalisées sont évaluées pour chaque conversion au cours de la rapports. Par exemple, pour une conversion survenant le 20 février, une fenêtre de recherche de 10 jours évalue tous les points de contact de dimension du 10 au 20 février dans le modèle d’attribution.
 
->[!NOTE] **[!UICONTROL Les fenêtres]** de recherche personnalisées font actuellement l&#39;objet de tests limités. Pour plus d’informations, reportez-vous à la section Versions [des fonctionnalités](/help/landing/an-releases.md) Adobe Analytics.
+>[!NOTE]
+>
+>**[!UICONTROL Les fenêtres]** de recherche personnalisées font actuellement l&#39;objet de tests limités. Pour plus d’informations, reportez-vous à la page [Versions](/help/landing/an-releases.md) des fonctionnalités Adobe.
 
 ## Exemple
 
@@ -74,4 +76,6 @@ Selon votre intervalle de recherche en amont et votre modèle d’attribution, l
       * Réseaux sociaux : 18,6 %, gain de 9,32 $
       * Référencement payant : 13,8 %, gain de 6,92 $
 
->[!TIP] D’autres événements de conversion, tels que des commandes ou des événements personnalisés, sont également divisés si le crédit appartient à plusieurs canaux. Par exemple, si deux canaux contribuent à un événement personnalisé à l’aide d’un modèle d’attribution linéaire, les deux canaux obtiennent 0,5 de l’événement personnalisé. Ces fractions d’événement sont additionnées pour toutes les visites, puis arrondies à l’entier le plus proche à des fins de création de rapports.
+>[!TIP]
+>
+>D’autres événements de conversion, tels que des commandes ou des événements personnalisés, sont également divisés si le crédit appartient à plusieurs canaux. Par exemple, si deux canaux contribuent à un événement personnalisé à l’aide d’un modèle d’attribution linéaire, les deux canaux obtiennent 0,5 de l’événement personnalisé. Ces fractions d’événement sont additionnées pour toutes les visites, puis arrondies à l’entier le plus proche à des fins de création de rapports.
