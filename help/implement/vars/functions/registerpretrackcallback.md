@@ -1,8 +1,11 @@
 ---
 title: registerPreTrackCallback
 description: Permet de créer des fonctions de rappel avant d’envoyer un accès à Adobe.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
@@ -11,11 +14,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La variable `registerPreTrackCallback` permet à votre entreprise d’associer une fonction JavaScript après la compilation d’une URL de demande d’image, mais avant son envoi. Vous pouvez utiliser cette variable pour envoyer les données collectées par AppMeasurement à un partenaire ou à une infrastructure interne.
 
->[!IMPORTANT] N’appelez aucun appel de suivi tel que [`t()`](t-method.md) ou [`tl()`](tl-method.md) à l’intérieur de la variable [`registerPostTrackCallback`](registerposttrackcallback.md). Les fonctions de suivi de cette variable provoquent une boucle infinie de demandes d’image !
+>[!IMPORTANT]
+>
+> N’appelez aucun appel de suivi tel que [`t()`](t-method.md) ou [`tl()`](tl-method.md) à l’intérieur de la variable [`registerPostTrackCallback`](registerposttrackcallback.md). Les fonctions de suivi de cette variable provoquent une boucle infinie de demandes d’image !
 
 Chaque fois que vous appelez la variable `registerPreTrackCallback`, vous associez cette fonction pour qu’elle s’exécute chaque fois qu’une URL de demande d’image est compilée. Évitez d’enregistrer la même fonction plusieurs fois au même chargement de page.
 
->[!NOTE] Le timing et l’ordre des fonctions déclenchées entre `registerPreTrackCallback` et `registerPostTrackCallback` ne sont pas garantis. Évitez les dépendances entre ces deux fonctions.
+>[!NOTE]
+>
+>Le timing et l’ordre des fonctions déclenchées entre `registerPreTrackCallback` et `registerPostTrackCallback` ne sont pas garantis. Évitez les dépendances entre ces deux fonctions.
 
 ## Enregistrement d’un rappel de pré-suivi dans Adobe Experience Platform Launch
 
@@ -48,4 +55,6 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
->[!NOTE] La définition de variables de page ou la modification de la chaîne `requestUrl` dans cette fonction n’ont **pas** d’incidence sur la demande d’image envoyée peu après cet appel de fonction. Utilisez plutôt la variable [`doPlugins()`](doplugins.md).
+>[!NOTE]
+>
+>La définition de variables de page ou la modification de la chaîne `requestUrl` dans cette fonction n’ont **pas** d’incidence sur la demande d’image envoyée peu après cet appel de fonction. Utilisez plutôt la variable [`doPlugins()`](doplugins.md).
