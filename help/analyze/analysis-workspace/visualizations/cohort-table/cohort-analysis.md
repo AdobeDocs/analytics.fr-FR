@@ -1,11 +1,11 @@
 ---
 title: Qu’est-ce que l’analyse des cohortes ?
-description: En savoir plus sur les analyses de cohortes dans Analyse Workspace
+description: En savoir plus sur l'analyse des cohortes dans l'Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 49%
 
 Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. [!UICONTROL L’analyse des cohortes s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. ] Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants (dimensions, mesures et segments spécifiques), puis partager le rapport avec les personnes de votre choix. Voir  [Traitement et partage](/help/analyze/analysis-workspace/curate-share/curate.md).
+Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants (dimensions, mesures et segments spécifiques), puis partager le rapport avec les personnes de votre choix. Voir [Traitement et partage](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
@@ -24,13 +24,15 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 * Trouvez des idées de test A/B dans des domaines tels que le prix, le cheminement de mise à niveau, etc.
 * View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-[!UICONTROL L’Analyse] de cohortes est disponible pour tous les clients Adobe Analytics disposant de droits d’accès à [!UICONTROL Analyse Workspace].
+[!UICONTROL L’Analyse] de cohortes est disponible pour tous les clients Analytics de Adobe avec des droits d’accès à l’ [!UICONTROL Analysis Workspace].
 
 [Analyse des cohortes sur YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
->[!UICONTROL L’Analyse] de cohortes ne prend pas en charge les mesures non segmentables (y compris les mesures calculées), les mesures non entières (telles que Recettes) ou les occurrences. Seules les mesures pouvant être utilisées dans les segments peuvent être utilisées dans
+>[!UICONTROL Analyse des cohortes]
+>
+>ne prend pas en charge les mesures non segmentables (y compris les mesures calculées), les mesures non entières (telles que Recettes) ou les occurrences. Seules les mesures pouvant être utilisées dans les segments peuvent être utilisées dans
 >[!UICONTROL Cohort Analyse], et elles ne peuvent être incrémentées que de 1 à la fois.
 
 ## Fonctions de l’analyse des cohortes
@@ -67,5 +69,5 @@ Créez des cohortes sur la base d’une dimension sélectionnée, et non des coh
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Pour savoir comment configurer et exécuter un rapport de cohorte, accédez à  [Configuration d’un rapport d’analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Pour savoir comment configurer et exécuter un rapport de cohorte, accédez à [Configuration d’un rapport d’analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
