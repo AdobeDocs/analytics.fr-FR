@@ -2,7 +2,7 @@
 title: Sorties
 description: Instance de la dernière valeur d’une visite.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
@@ -20,4 +20,6 @@ La mesure &quot;Sorties&quot; indique le nombre de captures d’une valeur de di
 
 Après la fin d’une [visite](visits.md) , enregistrez la valeur de dimension la plus récente comme sortie. Il n’existe qu’une seule sortie par dimension par visite. Il ne s’agit pas nécessairement du dernier accès de la visite si la dimension a été définie dans les accès précédents. Il s’agit d’une mesure basée sur les visites ; elle s’applique rétroactivement à tous les accès de la visite.
 
->[!TIP] Si vous vue cette mesure sur une dimension qui n’est pas toujours définie à chaque visite, vous pouvez masquer la valeur de dimension Non spécifié dans Analyse Workspace. Cliquez sur l’icône de filtre, puis décochez la case [!UICONTROL Inclure non spécifié (Aucun)].
+>[!TIP]
+>
+>Si vous définissez cette mesure sur une dimension qui n’est pas toujours définie à chaque visite, vous pouvez masquer la valeur de dimension Non spécifié dans l’Analysis Workspace. Cliquez sur l’icône de filtre, puis décochez la case [!UICONTROL Inclure non spécifié (Aucun)].
