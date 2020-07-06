@@ -4,8 +4,11 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: Gestion des bibliothèques
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Description des champs et options des paramètres Gestion des bibliothèques dan
 
 **[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png)**[!UICONTROL  Modifier l’outil ]** > **[!UICONTROL  Gestion des bibliothèques ]**
 
->[!NOTE] Si plusieurs outils Adobe Analytics sont utilisés dans une seule propriété web, chaque outil doit disposer d’un nom de variable d’outil de suivi unique. Dans une propriété web, les noms de variable d’objet en double dans les outils Adobe Analytics entraînent des conflits.
+>[!NOTE]
+>
+>Si plusieurs outils Adobe Analytics sont utilisés dans une seule propriété web, chaque outil doit disposer d’un nom de variable d’outil de suivi unique. Dans une propriété web, les noms de variable d’objet en double dans les outils Adobe Analytics entraînent des conflits.
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
