@@ -3,8 +3,11 @@ description: Vous pouvez exclure de vos rapports les données d’adresses IP s
 title: Exclure par adresse IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclure par IP]**
 
->[!NOTE] Les accès exclus par adresse IP sont facturés en tant qu’[appels au serveur](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/terms.html).
+>[!NOTE]
+>
+>Les accès exclus par adresse IP sont facturés en tant qu’[appels au serveur](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/terms.html).
 
 ## Exclure par cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -27,7 +32,9 @@ Cette fonction vous permet (à vous ainsi qu’à vos collègues) de visiter vot
 |--- |--- |
 | [!UICONTROL Ajouter CNAME] | Génère un lien d’exclusion que vous pouvez utiliser pour exclure votre domaine. Pour obtenir de l’aide, veuillez contacter l’assistance clientèle de votre société. <br>Vous pouvez exclure votre trafic de la création de rapports dans vos suites de rapports en consultant la page d’exclusion de votre société et en choisissant d’exclure votre navigateur de la mesure. <br>Si votre implémentation utilise des cookies tiers, votre page d’exclusion se trouve [ici](https://democorp.112.2o7.net/optout.html?locale=fr_FR&amp;popup=true) : |
 
->[!NOTE] L’exclusion par ordinateur ne fonctionne que dans les cas suivants :
+>[!NOTE]
+>
+> L’exclusion par ordinateur ne fonctionne que dans les cas suivants :
 >
 > * Vous accédez au site web à partir du même poste de travail.
 > * Les cookies sont activés dans le navigateur que vous utilisez.
