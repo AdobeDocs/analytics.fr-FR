@@ -4,7 +4,10 @@ title: Segmentation des clients
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Vous permet d’appliquer un filtre de segments multiples dans Activity Map.
 
->[!NOTE] La commande Segment est uniquement disponible en mode standard, car la plateforme Adobe Analytics ne prend pas en charge la segmentation des données en temps réel.
+>[!NOTE]
+>
+>La commande Segment est uniquement disponible en mode standard, car la plateforme Adobe Analytics ne prend pas en charge la segmentation des données en temps réel.
 
 Vous pouvez sélectionner un ou plusieurs des segments dans le menu déroulant **[!UICONTROL Segments]** affiché ci-dessous. Les segments répertoriés correspondent à ceux que vous possédez ou qui ont été partagés avec vous par le biais de Reports &amp; Analytics pour la suite de rapports sélectionnée.
 
