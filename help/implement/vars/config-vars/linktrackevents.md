@@ -1,8 +1,11 @@
 ---
 title: linkTrackEvents
 description: Permet de déterminer les événements à inclure dans les demandes d’image de suivi de liens.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Cette variable n’est pas utilisée pour les appels de page vue (méthode [`t()
 
 Launch détecte automatiquement les événements définis dans l’interface et les inclut dans les accès de suivi de liens.
 
->[!IMPORTANT] Si vous définissez des événements dans Launch à l’aide de l’éditeur de code personnalisé, vous devez inclure l’événement dans `linkTrackEvents` en utilisant également le code personnalisé.
+>[!IMPORTANT]
+>
+>Si vous définissez des événements dans Launch à l’aide de l’éditeur de code personnalisé, vous devez inclure l’événement dans `linkTrackEvents` en utilisant également le code personnalisé.
 
 ## s.linkTrackEvents dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
@@ -33,7 +38,9 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 La valeur par défaut de cette variable est une chaîne vide. Si cette variable n’est pas définie, tous les événements sont inclus dans les demandes d’image de suivi des liens. Notez que Launch renseigne automatiquement cette variable en fonction des événements définis dans l’interface ; celle-ci est donc toujours définie dans les mises en œuvre à l’aide de Launch.
 
->[!TIP] Évitez d’utiliser l’identifiant d’objet Analytics (`s.`) lors de la spécification d’événements dans cette variable. Par exemple, `s.linkTrackEvents = "event1";` est correct, alors que `s.linkTrackEvents = "s.event1";` est incorrect.
+>[!TIP]
+>
+>Évitez d’utiliser l’identifiant d’objet Analytics (`s.`) lors de la spécification d’événements dans cette variable. Par exemple, `s.linkTrackEvents = "event1";` est correct, alors que `s.linkTrackEvents = "s.event1";` est incorrect.
 
 ## Exemple
 
