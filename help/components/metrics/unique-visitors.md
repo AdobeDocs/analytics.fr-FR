@@ -2,7 +2,7 @@
 title: Visiteurs uniques
 description: Nombre d’individus (ou de dispositifs) uniques.
 translation-type: tm+mt
-source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -34,7 +34,9 @@ Cette mesure comptabilise le nombre d’ID de visiteur uniques pour une valeur d
 | 4 | `fid` | Le Visiteur possède un [`s_fid`](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-analytics.html) cookie existant ou si `aid` et `mid` ne peuvent être définis pour aucune raison. |
 | 5 | Adresse IP, Agent utilisateur, Adresse IP de passerelle | Dernier recours pour identifier un visiteur unique si le navigateur du visiteur n’accepte pas les cookies. |
 
->[!NOTE] Chaque ID de visiteur Analytics est lié à un profil sur les serveurs Adobe. Ces profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit l’expiration du cookie d’ID de visiteur.
+>[!NOTE]
+>
+>Chaque ID de visiteur Analytics est lié à un profil sur les serveurs Adobe. Ces profils de visiteur sont supprimés après au moins 13 mois d’inactivité, quelle que soit l’expiration du cookie d’ID de visiteur.
 
 ## Comportement affectant le nombre de visiteurs uniques
 
