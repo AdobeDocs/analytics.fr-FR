@@ -5,7 +5,10 @@ title: Tests statistiques utilisés dans la comparaison de segments
 topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 100%
 
 ---
 
@@ -24,4 +27,6 @@ Dans le tableau Mesures principales, l’outil Comparaison des segments applique
 
 Pour calculer le score de différence des tableaux Principaux éléments de dimension et Principaux segments, un algorithme de différenciation des risques relatifs est appliqué (semblable au ratio de risque, bien qu’une différence soit utilisée à la place d’un ratio). Une différence de risque est calculée en soustrayant les incidences cumulées d’un élément de dimension (ou le chevauchement avec un segment du tableau de segments) du segment sélectionné par rapport à un autre. Un score de différence élevé (proche de 1) signifie que l’élément de dimension particulier ou le segment tertiaire était prédominant dans l’un des segments sélectionnés mais pas dans l’autre.
 
->[!NOTE] Dans les trois tableaux, la différence statistique repose sur un échantillon approprié de visiteurs afin que le processus s’exécute aussi rapidement que possible tout en restant statistiquement exact. Même si le score de différence repose sur un échantillon, les résultats présentés dans le tableau ne sont pas échantillonnés. Pour garantir une signification statistique, chaque test statistique s’appuie sur un algorithme d’allocation dynamique de sorte que le segment le plus petit contienne une taille d’échantillon garantissant une marge d’erreur de moins de 3 %. Si un segment contient très peu de visiteurs (moins de 1 000), nous utilisons toutes les données disponibles et ne les échantillons pas lors du calcul du score de différence.
+>[!NOTE]
+>
+>Dans les trois tableaux, la différence statistique repose sur un échantillon approprié de visiteurs afin que le processus s’exécute aussi rapidement que possible tout en restant statistiquement exact. Même si le score de différence repose sur un échantillon, les résultats présentés dans le tableau ne sont pas échantillonnés. Pour garantir une signification statistique, chaque test statistique s’appuie sur un algorithme d’allocation dynamique de sorte que le segment le plus petit contienne une taille d’échantillon garantissant une marge d’erreur de moins de 3 %. Si un segment contient très peu de visiteurs (moins de 1 000), nous utilisons toutes les données disponibles et ne les échantillons pas lors du calcul du score de différence.
