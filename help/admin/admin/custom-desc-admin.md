@@ -4,7 +4,10 @@ title: Descriptions des rapports personnalisés
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Vous pouvez fournir des descriptions des rapports personnalisés pour les eVars,
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL *variable *]**
 
->[!NOTE] L’ajout de descriptions est disponible pour la plupart des classifications traditionnelles, mais pas actuellement pour les classifications mobiles.
+>[!NOTE]
+>
+>L’ajout de descriptions est disponible pour la plupart des classifications traditionnelles, mais pas actuellement pour les classifications mobiles.
 
 ![](assets/report_descriptions.png)
 
