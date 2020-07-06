@@ -1,19 +1,26 @@
 ---
 title: visitorNameSpace
 description: Variable abandonnée qui déterminait le domaine du cookie.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 100%
 
 ---
 
 
 # visitorNamespace
 
->[!IMPORTANT] Cette variable a été abandonnée. Utilisez [`trackingServer`](trackingserver.md) à la place.
+>[!IMPORTANT]
+>
+>Cette variable a été abandonnée. Utilisez [`trackingServer`](trackingserver.md) à la place.
 
 Dans les versions précédentes d’Adobe Analytics, AppMeasurement utilisait la variable `visitorNameSpace` pour déterminer le sous-domaine de `2o7.net`, l’emplacement de stockage des cookies de visiteurs. L’augmentation des pratiques de confidentialité dans les navigateurs modernes rend les cookies tiers moins fiables. Avec l’introduction des variables `trackingServer` et [`trackingServerSecure`](trackingserversecure.md), `visitorNameSpace` n’est plus nécessaire.
 
->[!TIP] Adobe recommande d’utiliser des cookies propriétaires sur votre site. Les cookies propriétaires n’utilisent pas cette variable.
+>[!TIP]
+>
+>Adobe recommande d’utiliser des cookies propriétaires sur votre site. Les cookies propriétaires n’utilisent pas cette variable.
 
 ## Espace de nom du visiteur dans Adobe Experience Platform Launch
 
