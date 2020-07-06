@@ -2,7 +2,7 @@
 title: Catégorie
 description: catégorie de produit de l’accès.
 translation-type: tm+mt
-source-git-commit: bddfc52d460e87a70e7cff149f197570f405037a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -22,4 +22,6 @@ Cette dimension fait référence à la première partie de la chaîne dans la [`
 
 Cette variable étant basée sur une chaîne personnalisée dans votre implémentation, votre organisation détermine les valeurs de dimension. Adobe recommande de regrouper des produits individuels en catégories significatives, en utilisant à la fois les dimensions &quot;Produit&quot; et &quot;Catégorie&quot;.
 
-> [!TIP] Dans les versions précédentes d’Adobe Analytics, certaines limites à la dimension &quot;Catégorie&quot; étaient imposées en raison de son architecture de traitement. Ces limites ont été supprimées depuis, ce qui vous permet d’utiliser n’importe quelle mesure et toute ventilation.
+>[!TIP]
+>
+>Dans les versions précédentes d&#39;Adobe Analytics, certaines limites à la dimension &quot;Catégorie&quot; ont été imposées en raison de son architecture de traitement. Ces limites ont été supprimées depuis, ce qui vous permet d’utiliser n’importe quelle mesure et toute ventilation.
