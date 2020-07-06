@@ -4,8 +4,11 @@ keywords: Analysis Workspace
 title: Aperçu de la création d’un projet
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ La requête parvient directement au moteur de production de rapports. Vous pouve
 
 ## Page de liste de projets de l’Workspace {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-Quand vous sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** pour la première fois, la page répertorie tous les projets dont vous êtes responsable ou auxquels vous avez accès. Cliquez sur **[!UICONTROL Set as Landing Page]** pour définir cette page comme page d’entrée Adobe Analytics. (Si cette option n’est pas visible, comme dans l’illustration ci-après, cette page est déjà définie comme page d’entrée.)
+Quand vous sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** pour la première fois, la page répertorie tous les projets dont vous êtes responsable ou auxquels vous avez accès. Cliquez sur **[!UICONTROL Définir comme page d’entrée]** pour définir cette page comme page d’entrée d’Adobe Analytics. (Si cette option n’est pas visible, comme dans l’illustration ci-après, cette page est déjà définie comme page d’entrée.)
 
 ![](assets/sample-project.png)
 
@@ -32,27 +35,27 @@ La page de liste de projets de l’Workspace présente les informations suivante
 |---|---|
 | Projet [Modèles](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Utilisez ces modèles de projet prérenseignés tels quels ou adaptez-les en fonction de vos besoins (en ajoutant ou en remplaçant des mesures ou des visualisations, par exemple) et enregistrez-les sous un nouveau nom. |
 | [Créer un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Cliquez sur ce lien pour démarrer un projet entièrement nouveau. |
-| Gérer les projets | Cliquez sur ce lien pour accéder au Gestionnaire de composants des projets (**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Projects]**), où sont répertoriés tous les projets et où vous pouvez baliser, partager, supprimer, renommer, approuver ou copier les projets et les exporter au format CSV. |
+| Gérer les projets | Cliquez sur ce lien pour accéder au Gestionnaire de composants des projets (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Projets]**), où sont répertoriés tous les projets et où vous pouvez baliser, partager, supprimer, renommer, approuver ou copier les projets et les exporter au format CSV. |
 | Afficher les tutoriels | Permet d’accéder aux [vidéos YouTube Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Nom | Nom du projet de l’Workspace. |
 | Créé par | Personne qui a créé ce projet (vous ou quelqu’un qui a partagé le projet avec vous). |
-| Balises | Balises appliquées au projet, dans le Gestionnaire des composants des projets ou sous **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**. |
+| Balises | Balises appliquées au projet, dans le Gestionnaire des composants des projets ou sous **[!UICONTROL Espace de travail]** > **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**. |
 | Dernière modification | Date et heure de dernière modification du projet. |
 
 ## Informations et paramètres du projet {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**
+**[!UICONTROL Espace de travail]** > **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**
 
 ![](assets/projectinfo.png)
 
-**[!UICONTROL Project Info & Settings]** fournit des informations au niveau du projet sur le projet actuellement actif.
+Les **[!UICONTROL Informations et paramètres du projet]** fournissent des informations sur le projet actif.
 
 | Paramètre | Description |
 |---|---|
-| Nom du projet | Nom donné au projet. Double-cliquez dessus pour le modifier. |
+| Projet Nom | Nom donné au projet. Double-cliquez dessus pour le modifier. |
 | Créé par | Nom du titulaire du projet. |
 | Dernière modification | Date de la dernière modification du projet. |
-| Balises | Répertorie les balises appliquées à un projet afin de faciliter la catégorisation. Vous pouvez également baliser les projets tout en les enregistrant. Les balises d’un projet sont répertoriées dans la colonne [!UICONTROL Tags] de la page d’entrée de Workspace. |
+| Balises | Répertorie les balises appliquées à un projet afin de faciliter la catégorisation. Vous pouvez également baliser les projets tout en les enregistrant. Les balises d’un projet sont répertoriées dans la colonne [!UICONTROL Balises] de la page d’entrée de l’Workspace. |
 | Description | Une description est utile pour clarifier l’objet d’un projet. Double-cliquez dessus pour la modifier. |
 | Compter les instances répétées | Ce paramètre indique si les instances répétées sont comptabilisées dans les rapports. S’il existe plusieurs valeurs consécutives pour la même variable, vous pouvez les comptabiliser comme une seule instance ou comme plusieurs instances de la variable. |
 | Modèle de couleurs de visualisation | Vous pouvez modifier le modèle de couleurs utilisé dans Workspace en choisissant une autre palette de couleurs ou en spécifiant votre propre palette. Cette fonction affecte de nombreux éléments dans Workspace, y compris la plupart des visualisations. |
@@ -66,7 +69,9 @@ Le menu Projets supérieur ressemble à ce qui suit :
 
 Les sous-menus contiennent les options suivantes.
 
->[!NOTE] Les options marquées d’un astérisque (*) s’affichent uniquement avec les projets **enregistrés**.
+>[!NOTE]
+>
+>Les options marquées d’un astérisque (*) s’affichent uniquement avec les projets **enregistrés**.
 
 | Projet | Modifier | Insérer | Composants | Partager | Aide |
 |---|---|---|---|---|---|
@@ -86,4 +91,4 @@ Le rail de gauche comprend trois icônes, qui permettent d’accéder aux pannea
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-Un **[!UICONTROL Blank Panel]** a été ajouté à la liste des panneaux accessibles depuis le rail de gauche. Pour créer un **panneau de cohortes**, faites glisser un panneau vierge dans une visualisation Tableau de cohortes.
+Un **[!UICONTROL panneau vierge]** a été ajouté à la liste des panneaux accessibles depuis le rail de gauche. Pour créer un **panneau de cohortes**, faites glisser un panneau vierge dans une visualisation Tableau de cohortes.
