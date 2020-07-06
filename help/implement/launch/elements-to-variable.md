@@ -1,8 +1,11 @@
 ---
 title: Mise en correspondance des éléments de données Launch avec les variables Analytics
 description: Affectez des éléments de données à des variables Analytics afin de les utiliser comme dimensions dans Analysis Workspace.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,9 @@ Les variables définies dans les règles sont idéales lorsque vous ne souhaitez
 1. Sélectionnez l’élément de données de votre choix dans la fenêtre modale. Cliquez sur [!UICONTROL Sélectionner].
 1. Le nom de l’élément de données est ajouté au champ de texte entouré de signes `%`. Par exemple, si vous avez nommé votre élément de données « Nom de page », la chaîne `%Page name%` apparaît lors de l’affectation d’un élément de données à une variable.
 
->[!TIP] Vous pouvez concaténer des éléments de données dans la même variable. Par exemple, si vous disposez d’un élément de données « Nom d’hôte » et d’un élément de données « Nom de chemin », vous pouvez combiner les deux dans une variable unique à l’aide de `%Hostname%%Pathname%`.
+>[!TIP]
+>
+>Vous pouvez concaténer des éléments de données dans la même variable. Par exemple, si vous disposez d’un élément de données « Nom d’hôte » et d’un élément de données « Nom de chemin », vous pouvez combiner les deux dans une variable unique à l’aide de `%Hostname%%Pathname%`.
 
 ## Étapes suivantes
 
