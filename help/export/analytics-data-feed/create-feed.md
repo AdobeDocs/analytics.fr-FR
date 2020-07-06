@@ -2,7 +2,10 @@
 title: Création ou modification d’un flux de données
 description: Découvrez comment créer ou modifier un flux de données.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -59,7 +62,9 @@ Les 11 régions standard AWS suivantes sont prises en charge (en utilisant l’
 * eu-west-1
 * sa-east-1
 
->[!NOTE] La région cn-north-1 n’est pas prise en charge.
+>[!NOTE]
+>
+>La région cn-north-1 n’est pas prise en charge.
 
 ### Azure Blob
 
@@ -67,7 +72,9 @@ Les flux de données prennent en charge les destinations Azure Blob. Nécessite 
 
 ![Informations sur Azure](assets/azure.png)
 
->[!NOTE] Vous devez mettre en œuvre votre propre processus pour gérer l’espace disque sur la destination de flux. Adobe ne supprime pas les données du serveur.
+>[!NOTE]
+>
+>Vous devez mettre en œuvre votre propre processus pour gérer l’espace disque sur la destination de flux. Adobe ne supprime pas les données du serveur.
 
 ## Définitions des colonnes de données
 
@@ -77,6 +84,6 @@ Toutes les colonnes sont disponibles qu’elles contiennent des données ou non.
 * **Format de compression** : le type de compression utilisé. Fichiers de sortie Gzip au format `.tar.gz`. Fichiers de sortie Zip au format `.zip`.
 * **Type de groupement** : un fichier unique sort le fichier `hit_data.tsv` dans un fichier unique pouvant être volumineux. La fonction plusieurs fichiers met en page vos données par blocs de 2 Go (non compressés). Si vous avez sélectionné plusieurs fichiers, mais que la taille des données non compressées pour la fenêtre de création de rapports est inférieure à 2 Go, un seul fichier est envoyé. Adobe recommande d’utiliser plusieurs fichiers pour la plupart des flux de données.
 * **Modèles de colonnes** : lorsque vous créez plusieurs flux de données, Adobe vous recommande de créer un modèle de colonnes. La sélection d’un modèle de colonnes inclut automatiquement les colonnes indiquées dans le modèle. Adobe fournit également plusieurs modèles par défaut.
-* **Colonnes disponibles** : Toutes les colonnes de données disponibles dans Adobe Analytics. Click [!UICONTROL Add all] to include all columns in a data feed.
-* **Colonnes incluses** : les colonnes à inclure à un flux de données. Click [!UICONTROL Remove all] to remove all columns from a data feed.
+* **Colonnes disponibles** : Toutes les colonnes de données disponibles dans Adobe Analytics. Cliquez sur [!UICONTROL Toujours ajouter] pour inclure toutes les colonnes d’un flux de données.
+* **Colonnes incluses** : les colonnes à inclure à un flux de données. Cliquez sur [!UICONTROL Tout supprimer] pour supprimer toutes les colonnes d’un flux de données.
 * **Télécharger un fichier CSV** : télécharge un fichier CSV contenant toutes les colonnes incluses.
