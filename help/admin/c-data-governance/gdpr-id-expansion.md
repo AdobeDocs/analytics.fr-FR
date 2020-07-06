@@ -2,8 +2,11 @@
 description: 'Les ID que vous soumettez ne couvrent pas toujours toutes les données d’accès qu’Analytics peut associer au sujet des données. Analytics peut créer un ensemble étendu d’ID pour inclure ces données associées aux demandes relatives à la Confidentialité des données. Vous pouvez utiliser cette option avec un paramètre facultatif pour chaque demande que vous soumettez en vertu de la Confidentialité des données, ajoutée à la demande JSON. '
 title: Extension d’ID
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ En plus de l’indicateur « expandIDs », Analytics prend en charge deux autr
 
 En plus de sa valeur par défaut, le champ Priorité prend également en charge une valeur « low ». Vous devez spécifier cette valeur pour les demandes qui ne font pas suite à une demande du sujet des données et qui ne sont donc pas soumises à une obligation légale de traitement dans les 30 jours. Notez qu’Adobe déconseille l’utilisation de l’API relative aux Services de confidentialité pour des raisons autres que les demandes initiées par le sujet des données. L’API relative aux Services de confidentialité n’est pas un outil approprié pour le nettoyage ou la réparation des données et aura des conséquences imprévues.
 
->[!NOTE] L’[API relative aux Services de confidentialité](https://www.adobe.io/apis/experienceplatform/gdpr.html) a été fournie pour vous aider à répondre aux demandes relatives à la Confidentialité des données, qui sont urgentes. L’utilisation de cette API à d’autres fins n’est pas prise en charge par Adobe et peut avoir une incidence sur la capacité d’Adobe à traiter en temps voulu des demandes relatives à la Confidentialité des données pour d’autres clients Adobe. Nous vous demandons de ne pas utiliser l’API aux Services de confidentialité à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs.
+>[!NOTE]
+>
+>L’[API relative aux Services de confidentialité](https://www.adobe.io/apis/experienceplatform/gdpr.html) a été fournie pour vous aider à répondre aux demandes relatives à la Confidentialité des données, qui sont urgentes. L’utilisation de cette API à d’autres fins n’est pas prise en charge par Adobe et peut avoir une incidence sur la capacité d’Adobe à traiter en temps voulu des demandes relatives à la Confidentialité des données pour d’autres clients Adobe. Nous vous demandons de ne pas utiliser l’API aux Services de confidentialité à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs.
 
 Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions d’eVar seront réinitialisées, tout comme les informations telles que le nombre de visites, les référents, la première page visitée, etc. Cet inconvénient n’est pas souhaitable dans les situations où vous voulez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API relative aux Services de confidentialité ne convient pas à cet usage.
 
