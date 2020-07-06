@@ -2,8 +2,11 @@
 description: 'null'
 title: Soumettre des demandes d’accès et de suppression
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ Chaque fichier combine les données de toutes vos suites de rapports, supprimant
 
 Vous pouvez soumettre des demandes d’accès et de suppression relatives à la confidentialité des données par l’intermédiaire de notre [portail utilisateur de confidentialité des données](https://docs.adobe.com/content/help/fr-FR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ou de notre [API relative à la confidentialité des données.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
->[!NOTE] L’API relative à la Confidentialité des données prend en charge les soumissions par lots pour plusieurs utilisateurs dans une seule demande. La limite actuelle est de 1 000 utilisateurs individuels (il peut y avoir plusieurs ID par utilisateur) par fichier de demande JSON.
+>[!NOTE]
+>
+>L’API relative à la Confidentialité des données prend en charge les soumissions par lots pour plusieurs utilisateurs dans une seule demande. La limite actuelle est de 1 000 utilisateurs individuels (il peut y avoir plusieurs ID par utilisateur) par fichier de demande JSON.
 
 ## Exemple de demande JSON {#sample-json-request}
 
