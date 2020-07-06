@@ -1,8 +1,11 @@
 ---
 title: useLinkTrackSessionStorage
 description: Stockez les données de suivi des liens dans l’enregistrement de session plutôt que dans un cookie.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ L’utilisation de l’enregistrement de session d’un navigateur pour le suivi
 * L’enregistrement de session ne fonctionne pas entre protocoles. Par exemple, une page est diffusée sur HTTP et la page suivante sur HTTPS. AppMeasurement ne peut pas accéder aux données de suivi des liens dans l’enregistrement de session car les protocoles sont différents.
 * L’enregistrement de session ne fonctionne pas entre plusieurs sous-domaines. Par exemple, un visiteur accède à `store.example.com`, puis à `toys.example.com`. AppMeasurement ne peut pas accéder aux données de suivi des liens dans l’enregistrement de session car les sous-domaines sont différents.
 
->[!TIP] L’implémentation la plus fiable utilisant l’enregistrement de session pour le suivi des liens diffuse tout le contenu via HTTPS sur un seul sous-domaine.
+>[!TIP]
+>
+>L’implémentation la plus fiable utilisant l’enregistrement de session pour le suivi des liens diffuse tout le contenu via HTTPS sur un seul sous-domaine.
 
 AppMeasurement supprime les données de suivi des liens d’enregistrement de session après l’envoi d’un accès à Adobe. Il expire également automatiquement lorsque l’onglet du navigateur est fermé.
 
