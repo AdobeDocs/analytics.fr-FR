@@ -4,7 +4,10 @@ title: Widget de publication
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Un widget de publication est un conteneur qui vous permet d’intégrer des rapp
 
 Vous pouvez, par exemple, mettre à la disposition des cadres de la société un tableau de bord leur permettant de consulter le nombre de visiteurs, de visiteurs uniques, etc.
 
->[!CAUTION] Aucune authentification n’est requise pour afficher les données publiées par le biais du widget de publication. Vous devez donc tenir compte du fait que les données publiées ne sont pas plus protégées que celles envoyées à un groupe de courriel ou un serveur de liste. Utilisez le widget de publication uniquement en conformité avec les normes de sécurité de votre société, les conditions contractuelles existantes et la législation en vigueur. Le widget de publication permet de limiter l’emplacement de publication des données en fonction de l’adresse IP ou du chemin de domaine. Toutefois, ces mécanismes sont destinés uniquement à empêcher la distribution sans surveillance des données et ils ne sont pas efficaces pour sécuriser l’accès aux données distribuées via le widget de publication.
+>[!CAUTION]
+>
+>Aucune authentification n’est requise pour afficher les données publiées par le biais du widget de publication. Vous devez donc tenir compte du fait que les données publiées ne sont pas plus protégées que celles envoyées à un groupe de courriel ou un serveur de liste. Utilisez le widget de publication uniquement en conformité avec les normes de sécurité de votre société, les conditions contractuelles existantes et la législation en vigueur. Le widget de publication permet de limiter l’emplacement de publication des données en fonction de l’adresse IP ou du chemin de domaine. Toutefois, ces mécanismes sont destinés uniquement à empêcher la distribution sans surveillance des données et ils ne sont pas efficaces pour sécuriser l’accès aux données distribuées via le widget de publication.
 >
 > Adobe décline toute responsabilité quant aux données exposées via le widget de publication.
 
@@ -31,7 +36,9 @@ Si vous constatez des différences entre le widget de publication et l’interfa
 1. Cliquez sur **[!UICONTROL Enregistrer]** dans le widget.
 1. Exécutez à nouveau le widget. (Le mode d’aperçu n’utilise pas le cache du widget.)
 
->[!NOTE] La publication des widgets présente uniquement la première colonne des données d’un rapport.
+>[!NOTE]
+>
+>La publication des widgets présente uniquement la première colonne des données d’un rapport.
 
 ## Description des widgets de publication {#section_D67478AECCA946B19A3E4C7071EB4871}
 
