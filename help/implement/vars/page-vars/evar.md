@@ -2,19 +2,19 @@
 title: eVar
 description: Variables personnalisées que vous pouvez utiliser dans votre mise en œuvre.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 68%
+ht-degree: 86%
 
 ---
 
 
 # eVar
 
-*Cette page d’aide décrit la mise en oeuvre des eVars. Pour plus d’informations sur le fonctionnement des eVars en tant que dimension, voir[eVars](/help/components/dimensions/evar.md)dans le guide de l’utilisateur Composants.*
+*Cette page d’aide décrit comment implémenter des eVars. Pour plus d’informations sur le fonctionnement des eVars en tant que dimension, voir [eVars](/help/components/dimensions/evar.md) dans le guide d’utilisation Composants.*
 
-Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Si vous disposez d’un document [de conception de](/help/implement/prepare/solution-design.md)solution, la plupart des dimensions propres à votre entreprise se présentent sous la forme d’eVars. Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Vous pouvez personnaliser leur expiration et leur attribution sous Variables [de](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversion dans les paramètres de la suite de rapports.
+Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre entreprise se présentent sous la forme d’eVars. Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
 Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Jusqu’à 250 eVars sont disponibles si votre contrat avec Adobe le prend en charge.
 
@@ -57,4 +57,6 @@ s.eVar1 = "+12.49";
 
 S’il y a plus de deux décimales, le compteur eVar arrondit la valeur à deux décimales. Un compteur eVar ne peut pas contenir de nombres négatifs.
 
-> [!IMPORTANT] Vous devez d’abord configurer les eVars sur Compteur dans la console d’administration avant d’utiliser les eVars de compteur. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
+>[!IMPORTANT]
+>
+>Vous devez d’abord configurer les eVars sur « Compteur » dans l’Admin Console avant d’utiliser les eVars de compteur. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
