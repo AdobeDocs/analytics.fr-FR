@@ -3,7 +3,10 @@ description: Les modifications suivantes apportées à la manière dont les mesu
 title: Questions fréquentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2148'
+ht-degree: 100%
 
 ---
 
@@ -75,9 +78,13 @@ Vous voyez plusieurs mesures calculées avec le même nom (mais créées dans di
 
 Envisagez la consolidation des mesures calculées avec des noms et définitions similaires mais soyez prudent lors de cette opération. Vous pouvez vérifier la suite de rapports pour une mesure calculée dans le Gestionnaire de mesures calculées afin de vérifier sa suite de rapports d’origine. Vous devez également vérifier les définitions des mesures lors de la suppression des doublons potentiels pour garantir que vous consolidez correctement les mesures.
 
->[!NOTE] Même si les mesures calculées ne sont plus liées à une suite de rapports spécifique et peuvent être utilisées pour n’importe quelle suite de rapports visible de la société de connexion, la suite de rapports sous laquelle la mesure calculée a été créée ou enregistrée en dernier est toujours visible dans le Gestionnaire de mesures calculées.
+>[!NOTE]
+>
+>Même si les mesures calculées ne sont plus liées à une suite de rapports spécifique et peuvent être utilisées pour n’importe quelle suite de rapports visible de la société de connexion, la suite de rapports sous laquelle la mesure calculée a été créée ou enregistrée en dernier est toujours visible dans le Gestionnaire de mesures calculées.
 
->[!NOTE] Même si une mesure calculée est supprimée, tout rapport de signets ou de tableau de bord qui référence cette mesure fonctionne toujours.
+>[!NOTE]
+>
+>Même si une mesure calculée est supprimée, tout rapport de signets ou de tableau de bord qui référence cette mesure fonctionne toujours.
 
 ## Qu’est-il advenu de mes mesures calculées globales ? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -89,7 +96,9 @@ Les mesures calculées globales sont désormais possédées par le premier utili
 
 Rien. Néanmoins, le nouveau propriétaire administrateur doit être prudent lors de la modification ou de la suppression de ces mesures calculées : elles peuvent être utilisées dans plusieurs rapports ou tableaux de bord marqués.
 
->[!NOTE] Même si une mesure calculée est supprimée, tout rapport de signets ou de tableau de bord qui référence cette mesure fonctionne toujours.
+>[!NOTE]
+>
+>Même si une mesure calculée est supprimée, tout rapport de signets ou de tableau de bord qui référence cette mesure fonctionne toujours.
 
 ## Qu’est-il advenu des mesures calculées globales qui étaient partagées au sein des sociétés de connexion ? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -101,7 +110,9 @@ Les mesures calculées globales ne peuvent plus être partagées au sein des soc
 * prendront comme valeur par défaut « partagées avec tout le monde » ;
 * Seront des copies indépendantes de toutes les autres sociétés de connexion.
 
->[!NOTE] Si la mesure calculée a été utilisée dans un signet, un tableau de bord, une alerte ou un rapport planifié, la modification de la nouvelle copie N’affecte PAS l’ancienne mesure calculée conservée.
+>[!NOTE]
+>
+>Si la mesure calculée a été utilisée dans un signet, un tableau de bord, une alerte ou un rapport planifié, la modification de la nouvelle copie N’affecte PAS l’ancienne mesure calculée conservée.
 
 ## Qu’est-il advenu des mesures calculées avec une classification numérique ou numérique2 ? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
