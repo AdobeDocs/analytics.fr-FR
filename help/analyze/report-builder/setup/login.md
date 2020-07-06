@@ -3,8 +3,11 @@ description: Informations sur les trois façons de se connecter au Report Builde
 title: Ouverture de session dans le Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -47,5 +50,7 @@ La connexion Experience Cloud vous permet d’utiliser votre Enterprise ID (ad
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE] La connexion à Experience Cloud repose sur une session ; le jeton expire après 30 jours.
+>[!NOTE]
+>
+>La connexion à Experience Cloud repose sur une session ; le jeton expire après 30 jours.
 
