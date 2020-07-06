@@ -3,8 +3,11 @@ description: Permet d’utiliser le segment pour une activité marketing dans la
 title: Publication de segments dans Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1345'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ La publication d’un segment Adobe Analytics dans Experience Cloud vous perme
 
 Nous avons également porté le nombre maximum de segments Adobe Analytics publiables à 75 (contre 20). Vous pouvez afficher les segments publiés dans [!UICONTROL Analytics > Composants > Segments].
 
->[!NOTE] Adobe Campaign (Classic et Standard) se comporte différemment dans le sens où il génère une latence supplémentaire de 24 heures en plus de la latence de 8 heures.
+>[!NOTE]
+>
+>Adobe Campaign (Classic et Standard) se comporte différemment dans le sens où il génère une latence supplémentaire de 24 heures en plus de la latence de 8 heures.
 
 
 ## Conditions préalables
@@ -70,7 +75,9 @@ Nous avons également porté le nombre maximum de segments Adobe Analytics publ
 
 Pour supprimer un segment qui a été publié dans Experience Cloud, vous devez tout d’abord en annuler la publication. Pour annuler la publication d’un segment, il vous suffit de **désactiver** la case à cocher que vous avez cochée pour le publier.
 
->[!NOTE]Vous **ne pouvez pas** annuler la publication d’un segment qui est actuellement utilisé par l’une des solutions Adobe suivantes : [!DNL Analytics] (dans [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (pour les utilisateurs de [!DNL Core Service] et d’[!DNL Audience Manager]) et tous les autres partenaires externes (pour les utilisateurs de [!DNL Audience Manager]). Vous **pouvez** annuler la publication d’un segment utilisé par [!DNL Target].
+>[!NOTE]
+>
+>Vous **ne pouvez pas** annuler la publication d’un segment qui est actuellement utilisé par l’une des solutions Adobe suivantes : [!DNL Analytics] (dans [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (pour les utilisateurs de [!DNL Core Service] et d’[!DNL Audience Manager]) et tous les autres partenaires externes (pour les utilisateurs de [!DNL Audience Manager]). Vous **pouvez** annuler la publication d’un segment utilisé par [!DNL Target].
 
 ## Afficher l’état de publication des segments dans le [!UICONTROL Gestionnaire de segments]
 
