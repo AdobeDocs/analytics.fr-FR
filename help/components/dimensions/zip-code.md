@@ -2,7 +2,7 @@
 title: Code postal
 description: Code postal du visiteur.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Cette dimension est unique en ce qu’elle contient plusieurs manières de la re
 
 L’option  zip sous Paramètres [du compte](/help/admin/admin/general-acct-settings-admin.md) général contrôle la manière dont vous souhaitez renseigner cette dimension.
 
->[!IMPORTANT] Le paramètre de la suite de rapports est essentiel si vous souhaitez avoir un contrôle total sur la manière dont vous renseignez cette dimension.
+>[!IMPORTANT]
+>
+>Le paramètre de la suite de rapports est essentiel si vous souhaitez avoir un contrôle total sur la manière dont vous renseignez cette dimension.
 
 ## Valeurs de dimension
 
