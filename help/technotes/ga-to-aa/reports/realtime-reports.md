@@ -2,7 +2,10 @@
 title: Rapports en temps réel dans Adobe Analytics
 description: Découvrez comment extraire, dans Adobe Analytics, des rapports en temps réel destinés aux utilisateurs plus habitués à Google Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '979'
+ht-degree: 100%
 
 ---
 
@@ -65,7 +68,9 @@ Le contenu en temps réel vous indique les pages que vos visiteurs consultent ac
 
 Les événements en temps réel vous indiquent quels événements se produisent le plus sur votre site. Dans Google Analytics, un événement capture le nombre de fois qu’une action spécifique (généralement une action sans rapport avec une page vue) s’est produite. Les événements GA sont envoyés avec une catégorie, un libellé et une action. Dans Adobe Analytics, les événements personnalisés sont des mesures auxquelles sont attribués des noms conviviaux dans l’Admin Console et qui peuvent être analysés en même temps que n’importe quelle dimension. Dans Adobe Analytics, si vous recherchez une dimension similaire aux événements Google Analytics, appliquez la dimension Lien personnalisé, souvent utilisée comme fourre-tout pour collecter les données sans lien avec les pages vues (en plus des liens de sortie, pour les sorties, et des liens de téléchargement, pour les téléchargements).
 
->[!NOTE] En cas d’utilisation d’événements personnalisés dans des rapports en temps réel, la valeur de dimension doit être définie dans le même accès que l’événement personnalisé. Par exemple, si vous affichez un événement personnalisé « Enregistrement » pour la dimension « Domaine référent », aucune donnée ne sera renvoyée sans mise en œuvre supplémentaire. Étant donné que le domaine référent n’apparaît que lors du premier accès et qu’un événement personnalisé s’affiche généralement plus tard dans la visite, les données ne peuvent pas être associées à des rapports en temps réel. Ces données peuvent être consultées à dans Analysis Workspace en utilisant une latence de traitement standard, généralement comprise entre 30 et 90 minutes.
+>[!NOTE]
+>
+>En cas d’utilisation d’événements personnalisés dans des rapports en temps réel, la valeur de dimension doit être définie dans le même accès que l’événement personnalisé. Par exemple, si vous affichez un événement personnalisé « Enregistrement » pour la dimension « Domaine référent », aucune donnée ne sera renvoyée sans mise en œuvre supplémentaire. Étant donné que le domaine référent n’apparaît que lors du premier accès et qu’un événement personnalisé s’affiche généralement plus tard dans la visite, les données ne peuvent pas être associées à des rapports en temps réel. Ces données peuvent être consultées à dans Analysis Workspace en utilisant une latence de traitement standard, généralement comprise entre 30 et 90 minutes.
 
 ## Conversions en temps réel
 
@@ -79,4 +84,6 @@ Les conversions en temps réel présentent les données différemment selon les 
    * Pour les deux dimensions secondaires, utilisez les données supplémentaires de prédilection pour ce trafic. Les dimensions secondaires n’ont pas à être spécifiques aux conversions.
 3. Cliquez sur [!UICONTROL Enregistrer et afficher le rapport].
 
->[!NOTE] Si vous utilisez des événements en dehors des instances telles que Commandes, assurez-vous que votre mise en œuvre définit la dimension et l’événement sur le même accès. Si les dimensions et les événements ne se déclenchent pas sur le même accès, ces données peuvent être consultées dans Analysis Workspace en utilisant une latence de traitement standard, généralement comprise entre 30 et 90 minutes.
+>[!NOTE]
+>
+>Si vous utilisez des événements en dehors des instances telles que Commandes, assurez-vous que votre mise en œuvre définit la dimension et l’événement sur le même accès. Si les dimensions et les événements ne se déclenchent pas sur le même accès, ces données peuvent être consultées dans Analysis Workspace en utilisant une latence de traitement standard, généralement comprise entre 30 et 90 minutes.
