@@ -3,7 +3,10 @@ description: valeur nulle
 title: Générateur d’alertes
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ Le Générateur d’alertes peut être ouvert de l’une des quatre façons suiv
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
    `ctrl (or cmd) + shift + a`
-* En sélectionnant **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* Dans un rapport Rapports et analyses, sélectionnez **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+* En sélectionnant **[!UICONTROL Espace de travail]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
+* En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
+* Dans un rapport Reports &amp; Analytics, en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
 
 ## Générer des alertes
 
@@ -41,7 +44,9 @@ Spécifiez le nom de l’alerte. Le nom de l’alerte doit contenir le nom du ra
 
 Spécifiez quand vérifier la mesure : chaque heure, chaque jour, chaque semaine ou chaque mois.
 
->[!NOTE] Dans le Générateur d’alertes, il n’est pas possible de sélectionner la granularité mensuelle pour les suites de rapports dotées d’un calendrier personnalisé.
+>[!NOTE]
+>
+>Dans le Générateur d’alertes, il n’est pas possible de sélectionner la granularité mensuelle pour les suites de rapports dotées d’un calendrier personnalisé.
 
 **Destinataires**
 
@@ -75,6 +80,7 @@ Spécifiez la date d’expiration de l’alerte.
    * est inférieur ou égal
    * change de
    * Le seuil peut être défini à 90 %, 95 %, 99 %, 99,75 % ou 99,90 %.
+
    Vous pouvez également utiliser les mesures calculées.
 
 *Avec tous ces filtres*
