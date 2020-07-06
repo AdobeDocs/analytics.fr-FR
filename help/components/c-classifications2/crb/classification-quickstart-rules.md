@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Règles de classification
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2018'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,9 @@ about_classification_rules.xml
 * [Dans quels cas les règles ne classent-elles pas les clés ?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [À propos de la priorité des règles](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] Le [!UICONTROL Créateur de règles] ne prend pas en charge les classifications Numérique 2.
+>[!NOTE]
+>
+>Le [!UICONTROL Créateur de règles] ne prend pas en charge les classifications Numérique 2.
 
 ## Informations importantes concernant les règles
 
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [Expressions régulières – Exemple « Ne contient pas » ](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [Expressions régulières – Tableau de références](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE] Les expressions régulières sont mieux adaptées aux codes de suivi qui utilisent des délimiteurs.
+>[!NOTE]
+>
+>Les expressions régulières sont mieux adaptées aux codes de suivi qui utilisent des délimiteurs.
 
 ## Expression régulière – Exemple de code de suivi {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE] Si le code de suivi est en codage URL, il **n’est pas** classé par le Créateur de règles.
+>[!NOTE]
+>
+>Si le code de suivi est en codage URL, il **n’est pas** classé par le Créateur de règles.
 
 Pour les besoins de cet exemple, supposons que vous souhaitiez classer l’identifiant de campagne suivant :
 
@@ -370,6 +379,7 @@ Description de la procédure de test d’une règle ou d’un jeu de règles de 
 
    * Codes de suivi
    * Mots-clés ou expressions de recherche
+
    Voir [Expressions régulières dans des règles de classification](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 1. Cliquez sur **[!UICONTROL Exécuter le test]**.
 
