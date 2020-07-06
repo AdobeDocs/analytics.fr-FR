@@ -4,7 +4,7 @@ title: Création de segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '2037'
 ht-degree: 90%
@@ -22,7 +22,7 @@ Il existe plusieurs façons d’accéder au Créateur de segments :
 * **[!UICONTROL Analysis Workspace]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** > **[!UICONTROL Créer un segment]**.
 * **[!UICONTROL Reports &amp; Analytics]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, ouvrez un rapport existant et cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche, puis sur **[!UICONTROL Ajouter]**.
 * **[!UICONTROL Ad Hoc Analysis]** : [créer des segments dans Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
-* **[!UICONTROL Report Builder]** : [ajouter ou modifier des segments dans le créateur de segments](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]** : [ajouter ou modifier des segments dans le créateur de segments](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/data-requests/segmentation.translate.html).
 
 ## Critères du créateur {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -44,13 +44,13 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 
    * **[!UICONTROL Répétition]** (par défaut) : Inclut des instances et des valeurs conservées pour la dimension.
    * **[!UICONTROL Instance]** : inclut des instances pour la dimension.
-   * **[!UICONTROL Instance non répétée]** : inclut des instances uniques (non répétées) pour la dimension. Il s’agit du modèle appliqué dans le flux lorsque des instances de répétition sont exclues.
+   * **[!UICONTROL Instances non répétitives]** : inclut des instances uniques (non répétées) pour la dimension. Il s’agit du modèle appliqué dans le flux lorsque des instances de répétition sont exclues.
 
    ![](assets/attribution-models.jpg)
 
    **Exemple : Segment d’accès où eVar1 = A**
 
-   | Exemple | A  | A  | A (persistante) | B | A  | C  |
+   | Exemple | A | A | A (persistante) | B | A | C |
    |---|---|---|---|---|---|---|
    | Répétition | X | X | X | - | X | - |
    | Instance | X | X | - | - | X | - |
@@ -71,11 +71,11 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 1. **[!UICONTROL Segments]** : cliquez sur l’en-tête pour développer la liste.
 1. **[!UICONTROL Sélecteur de suite de rapports]** : permet de sélectionner la suite de rapports sous laquelle ce segment sera enregistré. Vous pouvez tout de même utiliser le segment dans toutes les suites de rapport.
 1. **[!UICONTROL Aperçu de segments]** : permet de prévisualiser les mesures clés afin de vérifier que votre segment est valide et consulter sa largeur. Représente la ventilation du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Affiche 3 cercles concentriques et une liste afin d’afficher le nombre et le pourcentage de correspondances pour [!UICONTROL Accès], [!UICONTROL Visites] et [!UICONTROL Visiteurs] pour une exécution de segment par rapport à un jeu de données. Ce graphique est mis à jour immédiatement une fois que vous avez créé ou apporté des modifications à votre définition de segment.
-1. **[!UICONTROL Compatibilité des produits]** : fournit une liste des produits Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Néanmoins, tous les opérateurs et dimensions ne sont pas compatibles avec l’ensemble des produits Analytics, notamment  [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
+1. **[!UICONTROL Compatibilité des produits]** : fournit une liste des produits Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Néanmoins, tous les opérateurs et dimensions ne sont pas compatibles avec l’ensemble des produits Analytics, notamment [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
 
 Les segments avec des plages de dates incorporées fonctionnent toujours différemment dans Analysis Workspace par rapport au composant [!UICONTROL Reports &amp; Analytics] : dans Workspace, un segment avec une plage de dates incorporée remplace la plage de dates du panneau. En revanche, le composant [!UICONTROL Reports &amp; Analytics] indique l’intersection de la plage de dates du rapport avec la plage de dates incorporée du segment.
 
-**[!UICONTROL Publication]** d’Experience Cloud : (Non affiché à l’écran) Cette option s’affiche uniquement si la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Quand vous publiez un segment dans Experience Cloud, vous pouvez l’utiliser pour une activité marketing dans la [!UICONTROL bibliothèque d’audiences], dans [!DNL Target] et dans [!DNL Audience Manager]. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-publish.html) sur la publication Experience Cloud.
+**[!UICONTROL Publication]** Experience Cloud : (Non affiché à l’écran) Cette option s’affiche uniquement si la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour l’Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Quand vous publiez un segment dans Experience Cloud, vous pouvez l’utiliser pour une activité marketing dans la [!UICONTROL bibliothèque d’audiences], dans [!DNL Target] et dans [!DNL Audience Manager]. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-publish.html) sur la publication Experience Cloud.
 
 ## Création de segments {#build-segments}
 
@@ -141,7 +141,9 @@ Envisagez ces segments comme des blocs de création ou des modules que vous pouv
 * un segment pour les utilisateurs de tablette
 * 20 segments pour les différents pays
 
->[!NOTE] Lors de l’empilement de deux segments, ils sont par défaut associés à une instruction ET, qui ne peut pas être changée en instruction OU.
+>[!NOTE]
+>
+> Lors de l’empilement de deux segments, ils sont par défaut associés à une instruction ET, qui ne peut pas être changée en instruction OU.
 
 1. Accédez au Créateur de segments.
 1. Fournissez un titre et une description du segment.
