@@ -3,7 +3,7 @@ description: Les suites de rapports virtuelles peuvent être traitées de maniè
 title: Traitement des composants des suites de rapports virtuelles
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 Les suites de rapports virtuelles peuvent être traitées de manière à inclure et à exclure des composants d’Analysis Workspace.
 
->[!NOTE]Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, les composants non traités étaient visibles par tous en cliquant sur le bouton **[!UICONTROL Afficher tous les composants]**. La [mise à jour de l’expérience de traitement](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permet de mieux contrôler quels composants sont visibles.
+>[!NOTE]
+>
+>Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, les composants non traités étaient visibles par tous en cliquant sur le bouton **[!UICONTROL Afficher tous les composants]**. La [mise à jour de l’expérience de traitement](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permet de mieux contrôler quels composants sont visibles.
 
 Pour activer le traitement des composants,
 
