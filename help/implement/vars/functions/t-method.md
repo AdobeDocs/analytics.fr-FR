@@ -1,8 +1,11 @@
 ---
 title: t
 description: Permet d’envoyer un appel de suivi des pages vues à Adobe.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 100%
 
 ---
 
@@ -60,4 +63,6 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
->[!NOTE] Les versions précédentes d’AppMeasurement utilisaient plusieurs lignes de code pour appeler cette fonction. Le code supplémentaire prenait auparavant en charge les solutions pour différents navigateurs. La normalisation et les bonnes pratiques des navigateurs modernes ne nécessitent plus ce bloc de code. Seul l’appel de méthode `s.t()` est désormais nécessaire.
+>[!NOTE]
+>
+>Les versions précédentes d’AppMeasurement utilisaient plusieurs lignes de code pour appeler cette fonction. Le code supplémentaire prenait auparavant en charge les solutions pour différents navigateurs. La normalisation et les bonnes pratiques des navigateurs modernes ne nécessitent plus ce bloc de code. Seul l’appel de méthode `s.t()` est désormais nécessaire.
