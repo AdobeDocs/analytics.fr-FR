@@ -5,15 +5,20 @@ subtopic: Visitors
 title: Connexion des utilisateurs à l’ensemble des appareils
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
 
 # Connexion des utilisateurs à l’ensemble des appareils
 
->[!IMPORTANT] Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/cda-home.md) dans le guide d’utilisation Composants.
+>[!IMPORTANT]
+>
+>Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/cda-home.md) dans le guide d’utilisation Composants.
 
 L’identification des visiteurs sur plusieurs appareils vous aide à connecter des visiteurs sur plusieurs appareils. La fonction d’identification des visiteurs sur plusieurs appareils utilise la variable `visitorID` pour associer des visiteurs. La variable `visitorID` a la priorité la plus élevée lors de l’identification des visiteurs uniques.
 
