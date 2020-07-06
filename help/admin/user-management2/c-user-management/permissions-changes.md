@@ -6,7 +6,10 @@ title: Modifications des autorisations d’utilisateur et des droits d’accès 
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1562'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +18,15 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
 
 ## Qu’est-ce qui a changé ? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
+**[!UICONTROL Administration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]**
 
->[!NOTE] En raison du nombre élevé de combinaisons d’autorisations possibles disponibles, nous ne pouvons pas fournir une documentation décrivant toutes les méthodes d’API pouvant être utilisées pour chaque combinaison d’autorisations. En général, les non-administrateurs qui se voient accorder un accès aux services web ne disposent que d’un accès en lecture seule aux méthodes d’API. Ils ne disposeront pas d’un accès en écriture aux méthodes.
+>[!NOTE]
+>
+>En raison du nombre élevé de combinaisons d’autorisations possibles disponibles, nous ne pouvons pas fournir une documentation décrivant toutes les méthodes d’API pouvant être utilisées pour chaque combinaison d’autorisations. En général, les non-administrateurs qui se voient accorder un accès aux services web ne disposent que d’un accès en lecture seule aux méthodes d’API. Ils ne disposeront pas d’un accès en écriture aux méthodes.
 
 Comme l’API et l’interface utilisent le même système d’autorisation, quelles que soit les autorisations qu’un administrateur de l’interface (Adobe Admin Console) a accordées à un particulier non-administrateur, il s’agira des mêmes autorisations que celles dont l’utilisateur dispose dans l’API.
 
@@ -61,7 +66,7 @@ Comme l’API et l’interface utilisent le même système d’autorisation, que
    <td colname="col2"> <p>Vous pouvez personnaliser les autorisations afin d’inclure ou d’exclure l’accès aux dimensions (outre les mesures). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Toutes les dimensions et les mesures actuelles des groupes personnalisés ont été automatiquement transférées dans les nouvelles catégories. Si un groupe comprend des mesures actives, il obtiendra par défaut toutes les dimensions (eVars et reconnaissance du contenu) et mesures nouvellement autorisables. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">variable</a> sur laquelle repose la classification. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.translate.html">variable</a> sur laquelle repose la classification. </li> 
     </ul> <p>Voir <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Personnalisation des autorisations liées aux dimensions</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +128,9 @@ Vous trouverez ci-dessous d’importantes nouvelles informations relatives aux m
 
 Le tableau suivant répertorie les tâches et où elles peuvent avoir lieu (selon l’état de l’entreprise).
 
->[!NOTE] Un *`migrated user`* et un *`Experience Cloud user`* se rapportent aux utilisateurs qui ont accepté une invitation par courrier électronique à rejoindre Experience Cloud. S’ils n’acceptent pas l’invitation par courrier électronique, ils restent des utilisateurs Analytics et il n’est pas possible de les gérer dans Admin Console (sauf si la migration utilise des [Entreprise ID ou Federated ID](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html), auquel cas l’utilisateur est migré quand l’administrateur migre les utilisateurs au cas par cas).
+>[!NOTE]
+>
+>Un *`migrated user`* et un *`Experience Cloud user`* se rapportent aux utilisateurs qui ont accepté une invitation par courrier électronique à rejoindre Experience Cloud. S’ils n’acceptent pas l’invitation par courrier électronique, ils restent des utilisateurs Analytics et il n’est pas possible de les gérer dans Admin Console (sauf si la migration utilise des [Entreprise ID ou Federated ID](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html), auquel cas l’utilisateur est migré quand l’administrateur migre les utilisateurs au cas par cas).
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
