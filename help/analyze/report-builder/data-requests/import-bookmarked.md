@@ -4,7 +4,10 @@ title: Importation de rapports marqués d’un signet et de mini-rapports de tab
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +22,15 @@ Voici la façon dont l’étape 1 de l’Assistant Requête présente un tablea
 
 ![](assets/import_dashboard_reportlet.png)
 
-Lorsque vous cliquez **[!UICONTROL Retrieve your Dashboards]** ou **[!UICONTROL Retrieve your Bookmarks]**, vos données de et/ou de signet existantes sont récupérées et collées dans la feuille de calcul.
+Lorsque vous cliquez sur **[!UICONTROL Récupérer vos tableaux de bord]** ou **[!UICONTROL Récupérer vos signets]**, les données des tableaux de bord et signets existants sont récupérées et collées dans la feuille de calcul.
 
->[!NOTE] Dans le Report Builder, la liste des tableaux de bord et signets disponibles est limitée à l’utilisateur, mais aussi aux tableaux de bord et signets qui s’appliquent à la suite de rapports sélectionnée à la première étape de l’assistant. Par comparaison, dans les rapports et analyses marketing, vous avez accès à tous les signets et tableaux de bord à votre disposition, quelles que soient les suites de rapports utilisées dans ces tableaux de bord et signets.
+>[!NOTE]
+>
+>Dans le Report Builder, la liste des tableaux de bord et signets disponibles est limitée à l’utilisateur, mais aussi aux tableaux de bord et signets qui s’appliquent à la suite de rapports sélectionnée à la première étape de l’assistant. Par comparaison, dans les rapports et analyses marketing, vous avez accès à tous les signets et tableaux de bord à votre disposition, quelles que soient les suites de rapports utilisées dans ces tableaux de bord et signets.
 
->[!NOTE] Seules les données sont importées. En conséquence, si le signet comporte un graphique, ou si le mini-rapport de tableau de bord n’est composé que d’un seul graphique, seules les données utilisées pour remplir le graphique sont importées.
+>[!NOTE]
+>
+>Seules les données sont importées. En conséquence, si le signet comporte un graphique, ou si le mini-rapport de tableau de bord n’est composé que d’un seul graphique, seules les données utilisées pour remplir le graphique sont importées.
 
 Une fois que vous avez créé une requête en important un mini-rapport de tableau de bord (ou un signet), la requête est alors associée à la dimension principale du mini-rapport (ou signet). En conséquence, si vous modifiez la requête, l’arborescence ne sélectionne plus le nœud d’arborescence du mini-rapport de tableau de bord (ou nœud du signet) mais la dimension principale.
 
