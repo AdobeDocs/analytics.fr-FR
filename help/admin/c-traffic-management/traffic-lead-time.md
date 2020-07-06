@@ -4,7 +4,10 @@ title: Délai d’avance requis pour les augmentations de trafic
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Adobe requiert d’être informée à l’avance de la configuration de nouveaux
 
 L’allocation du matériel dépend des alertes envoyées au moyen de l’interface utilisateur des Reports &amp; Analytics.
 
->[!IMPORTANT] Adobe ne peut pas prendre en charge les demandes de modification du trafic « d’espace réservé ». Sauf indication contraire, respectez autant que possible le délai d’avance suggéré, y compris en n’envoyant pas d’alerte trop tôt. Voir [Prévision d’un pic de trafic](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ou [Indication d’une augmentation permanente du trafic](/help/admin/c-traffic-management/t-traffic-permanent.md).
+>[!IMPORTANT]
+>
+> Adobe ne peut pas prendre en charge les demandes de modification du trafic « d’espace réservé ». Sauf indication contraire, respectez autant que possible le délai d’avance suggéré, y compris en n’envoyant pas d’alerte trop tôt. Voir [Prévision d’un pic de trafic](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ou [Indication d’une augmentation permanente du trafic](/help/admin/c-traffic-management/t-traffic-permanent.md).
 
 Suivez les directives suivantes pour déterminer à quel moment envoyer une alerte de trafic :
 
