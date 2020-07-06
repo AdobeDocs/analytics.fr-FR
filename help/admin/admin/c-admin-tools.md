@@ -2,8 +2,11 @@
 description: 'null'
 title: Outils d’administration
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
 
->[!IMPORTANT] N’ouvrez pas plusieurs onglets Admin dans le même navigateur. Vous pourriez par inadvertance enregistrer les paramètres dans la mauvaise suite de rapports. Si vous devez, par exemple, comparer des jeux de règles et les copier vers une nouvelle suite de rapports, nous suggérons que vous ouvriez un nouveau navigateur ou réalisiez une capture d’écran pour effectuer cette comparaison.
+>[!IMPORTANT]
+>
+>N’ouvrez pas plusieurs onglets Admin dans le même navigateur. Vous pourriez par inadvertance enregistrer les paramètres dans la mauvaise suite de rapports. Si vous devez, par exemple, comparer des jeux de règles et les copier vers une nouvelle suite de rapports, nous suggérons que vous ouvriez un nouveau navigateur ou réalisiez une capture d’écran pour effectuer cette comparaison.
 
 + [Facturation](billing-admin.md)
 + [Règles de robots - Aperçu](bot-removal/bot-rules.md)
