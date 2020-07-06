@@ -2,14 +2,19 @@
 title: Débogueur Adobe Experience Cloud hérité
 description: Installez le débogueur hérité Adobe Experience Cloud. Ce débogueur examine les balises pour Analytics, Target, Advertising Cloud, Identity Service, DTM et Launch.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
 
 # Débogueur Adobe Experience Cloud hérité
 
->[!IMPORTANT] Cet outil de débogage n’est plus pris en charge. Adobe recommande plutôt d’utiliser l’extension [Chrome du débogueur Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html).
+>[!IMPORTANT]
+>
+>Cet outil de débogage n’est plus pris en charge. Adobe recommande plutôt d’utiliser l’extension [Chrome du débogueur Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html).
 
 Le [!UICONTROL débogueur hérité] examine les balises pour la plupart des services Adobe Experience Cloud. L’utilisation du débogueur vous permet de voir quelles données sont envoyées à Adobe sur une page donnée de votre site. Vous pouvez utiliser ces informations pour dépanner ou valider la mise en œuvre de votre entreprise.
 
@@ -68,7 +73,9 @@ Safari ne peut pas créer manuellement un signet d’applet, mais une URL de sig
 
 Accédez à la page de votre site, puis cliquez sur le signet d’applet. Une fenêtre contextuelle s’affiche avec les données envoyées à Adobe.
 
->[!NOTE] Certains plug-ins de blocage des publicités et bloqueurs de fenêtres contextuelles peuvent interférer avec le chargement de la fenêtre du débogueur. Recherchez les fenêtres contextuelles bloquées dans votre navigateur et autorisez-les à fonctionner correctement pour le débogueur.
+>[!NOTE]
+>
+>Certains plug-ins de blocage des publicités et bloqueurs de fenêtres contextuelles peuvent interférer avec le chargement de la fenêtre du débogueur. Recherchez les fenêtres contextuelles bloquées dans votre navigateur et autorisez-les à fonctionner correctement pour le débogueur.
 
 Le débogueur dispose de plusieurs options, qui personnalisent toutes le mode d’affichage des données. Aucune de ces options n’affecte la collecte de données.
 
