@@ -2,7 +2,7 @@
 title: Mot-clé de recherche
 description: Mot-clé de recherche utilisé par le visiteur pour accéder à votre site.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 La dimension Mot-clé de recherche rapporte les mots-clés de recherche que les visiteurs utilisent pour accéder à votre site.
 
->[!IMPORTANT] La plupart des moteurs de recherche ne transmettent plus le mot-clé de recherche en raison des pratiques de confidentialité croissantes. Accès où Adobe reconnaît un moteur de recherche mais manque un groupe de mots-clés sous la valeur de dimension `"Keyword unavailable"`.
+>[!IMPORTANT]
+>
+>La plupart des moteurs de recherche ne transmettent plus le mot-clé de recherche en raison des pratiques de confidentialité croissantes. Accès où Adobe reconnaît un moteur de recherche mais manque un groupe de mots-clés sous la valeur de dimension `"Keyword unavailable"`.
 
 Un parrain doit répondre aux deux critères suivants pour être classé comme mot-clé de recherche :
 
