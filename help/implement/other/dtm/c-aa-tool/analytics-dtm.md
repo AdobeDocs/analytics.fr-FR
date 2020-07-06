@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Ajout de l’outil Adobe Analytics
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Déployez Adobe Analytics à l’aide de Dynamic Tag Management en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
 
->[!NOTE] Pour améliorer le suivi des visiteurs, nous vous recommandons vivement d’activer [Identity Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
+>[!NOTE]
+>
+>Pour améliorer le suivi des visiteurs, nous vous recommandons vivement d’activer [Identity Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
 
 ## Ajout d’un outil Adobe Analytics {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
