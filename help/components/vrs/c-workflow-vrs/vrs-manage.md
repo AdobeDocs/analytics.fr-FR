@@ -5,7 +5,10 @@ title: Gestion des suites de rapports virtuelles
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ Le Gestionnaire de suites de rapports virtuelles permet aux administrateurs de m
 
 ![](assets/vrs-manage.png)
 
->[!NOTE] Dans le Gestionnaire de suites de rapports virtuelles, vous ne pouvez afficher que vos propres suites de rapports virtuelles. Vous devez cliquer sur **[!UICONTROL Tout afficher]** pour afficher les suites de rapports virtuelles des autres utilisateurs.
+>[!NOTE]
+>
+>Dans le Gestionnaire de suites de rapports virtuelles, vous ne pouvez afficher que vos propres suites de rapports virtuelles. Vous devez cliquer sur **[!UICONTROL Tout afficher]** pour afficher les suites de rapports virtuelles des autres utilisateurs.
 
 | Tâche | Description |
 |--- |--- |
