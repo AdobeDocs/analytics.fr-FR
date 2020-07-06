@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Permet de créer des fonctions de rappel après l’envoi d’un accès à Adobe.
 translation-type: tm+mt
-source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 95%
@@ -14,11 +14,15 @@ ht-degree: 95%
 
 La variable `registerPostTrackCallback` permet à votre entreprise d’associer une fonction JavaScript immédiatement après l’envoi d’un accès à Adobe. Si un appel de suivi échoue, cette fonction ne s’exécute pas. Vous pouvez utiliser cette variable pour envoyer les données collectées par AppMeasurement à un partenaire ou à une infrastructure interne, ou nettoyer les valeurs de variable dans les applications d’une seule page.
 
->[!IMPORTANT] N’appelez aucun appel de suivi tel que [`t()`](t-method.md) ou [`tl()`](tl-method.md) à l’intérieur de la variable `registerPostTrackCallback`. Les fonctions de suivi de cette variable provoquent une boucle infinie de demandes d’image !
+>[!IMPORTANT]
+>
+> N’appelez aucun appel de suivi tel que [`t()`](t-method.md) ou [`tl()`](tl-method.md) à l’intérieur de la variable `registerPostTrackCallback`. Les fonctions de suivi de cette variable provoquent une boucle infinie de demandes d’image !
 
 Chaque fois que vous appelez la variable `registerPostTrackCallback`, vous pouvez associer cette fonction pour qu’elle s’exécute immédiatement après l’envoi réussi d’une demande d’image. Évitez d’enregistrer la même fonction plusieurs fois au même chargement de page.
 
->[!NOTE] Le timing et l’ordre des fonctions déclenchées entre [`registerPreTrackCallback`](registerpretrackcallback.md) et `registerPostTrackCallback` ne sont pas garantis. Évitez les dépendances entre ces deux fonctions.
+>[!NOTE]
+>
+>Le timing et l’ordre des fonctions déclenchées entre [`registerPreTrackCallback`](registerpretrackcallback.md) et `registerPostTrackCallback` ne sont pas garantis. Évitez les dépendances entre ces deux fonctions.
 
 ## Enregistrement d’un rappel de suivi de publication dans Adobe Experience Platform Launch
 
