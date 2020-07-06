@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Fonctionnement des sources de données
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Informations sur la façon dont Adobe fournit l’accès aux sources de données.
 
->[!NOTE] Une fois envoyées par l’intermédiaire de la fonctionnalité Sources de données, les données importées ne peuvent plus être distinguées des données des rapports collectées à l’aide d’autres méthodes (balise JavaScript, ActionSource, API d’insertion de données, etc.). Vous ne pouvez plus supprimer les données une fois qu’elles ont été importées.
+>[!NOTE]
+>
+>Une fois envoyées par l’intermédiaire de la fonctionnalité Sources de données, les données importées ne peuvent plus être distinguées des données des rapports collectées à l’aide d’autres méthodes (balise JavaScript, ActionSource, API d’insertion de données, etc.). Vous ne pouvez plus supprimer les données une fois qu’elles ont été importées.
 
 ![](assets/data_sources_overview.png)
 
