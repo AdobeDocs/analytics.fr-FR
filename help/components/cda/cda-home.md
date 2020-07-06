@@ -2,10 +2,10 @@
 title: Analyses entre appareils
 description: Les analyses entre appareils font en sorte que vos données ne soient plus axées sur l’appareil, mais plutôt sur la personne, en regroupant les données de l’appareil.
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -26,15 +26,17 @@ Voir [Journey IQ : page de lancement des analyses entre appareils](http://adobe
 
 ## Conditions préalables
 
-Analytics sur plusieurs périphériques requiert les éléments suivants. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
+L’Analytics sur plusieurs périphériques requiert les éléments suivants. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
 
->[!IMPORTANT] Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
+>[!IMPORTANT]
+>
+>Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
 * Les données de votre entreprise doivent se trouver dans le centre de données du Nord-Ouest du Pacifique d’Adobe. La prise en charge de centres de données dans d’autres régions du monde est prévue.
 * Contactez le gestionnaire de compte de votre entreprise pour déterminer les points clés suivants :
    * Un contrat doit être signé avec Adobe et inclure Adobe Analytics Ultimate.
-   * Votre entreprise doit utiliser le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform. Consultez la [page d’accueil](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) du guide de l’utilisateur Device Co-op.
-   * Dans un esprit de partenariat et de transparence, nous voulons que nos clients soient conscients de notre utilisation de Microsoft Azure en association avec les analyses multipériphériques. Adobe utilise Azure pour stocker les données graphiques des périphériques et pour effectuer des assemblages sur plusieurs périphériques. Ainsi, les données Adobe Analytics sont transmises entre le centre de traitement de données Adobe et les instances configurées de Adobe de Microsoft Azure.
+   * Votre entreprise doit utiliser le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform. Consultez la [page d’accueil](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html) du guide de l’utilisateur Device Co-op.
+   * Dans un souci de partenariat et de transparence, nous voulons que nos clients soient conscients de notre utilisation de Microsoft Azure en association avec les analyses entre appareils. Adobe utilise Azure pour stocker les données graphiques des appareils et effectuer le regroupement entre appareils. Ainsi, les données Adobe Analytics sont échangées entre le centre de traitement des données d’Adobe et les instances configurées d’Adobe dans Microsoft Azure.
 * Les analyses entre appareils sont activées sur base des suites de rapports. Les suites de rapports activées pour CDA nécessitent les éléments suivants :
    * La suite de rapports ne peut pas contenir plus de 500 millions d’accès par jour.
    * Adobe recommande qu’une suite de rapports contienne des données interpériphériques, ce qui signifie qu’elles proviennent de plusieurs types d’appareils (web, applications, etc.). Certaines entreprises considèrent ce concept comme une suite de rapports « globale », bien que les analyses entre appareils ne doivent pas nécessairement être globales du point de vue géographique. Les analyses entre appareils ne fonctionnent pas entre les suites de rapports et ne combinent pas non plus les données de plusieurs suites de rapports.
@@ -55,8 +57,8 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * Les identifiants Analytics hérités ne sont pas pris en charge. Seuls les visiteurs avec un Experience Cloud ID sont regroupés.
 * Les analyses entre appareils utilisent une suite de rapports virtuelle et le traitement du temps de la période de rapport, qui ont leurs propres limites. Voir [Suites de rapports virtuelles](../vrs/vrs-about.md) et [traitement de la période de rapport](../vrs/vrs-report-time-processing.md) pour en savoir plus sur ces limitations.
 * L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le Report Builder reposent tous les deux sur l’API 1.4 et ne sont donc pas compatibles avec les analyses entre appareils.
-* Si votre entreprise utilise le graphique privé, les nouveaux périphériques peuvent prendre jusqu’à 24 heures pour être assemblés.
-* Les nouveaux périphériques qui visitent votre site peuvent prendre jusqu&#39;à deux semaines pour être traités par le graphique Co-op. Le niveau de groupement dans les analyses entre appareils pour les deux dernières semaines est généralement inférieur à celui des plages de dates datant de plus de deux semaines.
+* Si votre entreprise utilise le graphique privé, les nouveaux appareils peuvent mettre jusqu’à 24 heures pour être regroupés.
+* Les nouveaux appareils qui visitent votre site peuvent prendre jusqu’à deux semaines pour être traités par le graphique Co-op. Le niveau de groupement dans les analyses entre appareils pour les deux dernières semaines est généralement inférieur à celui des plages de dates datant de plus de deux semaines.
 * Les données historiques de la suite de rapports virtuelle changent en fonction de la reconnaissance par Adobe des périphériques et de leur regroupement. Les données de la suite de rapports source ne changent pas.
 
 Une fois que toutes les conditions requises sont remplies et que vous avez compris les limites, vous pouvez commencer à [configurer Analytics sur plusieurs appareils](cda-setup.md).
