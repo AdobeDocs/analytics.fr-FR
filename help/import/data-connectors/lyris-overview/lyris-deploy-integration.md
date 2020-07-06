@@ -3,7 +3,10 @@ description: Décrit le processus de déploiement en trois étapes.
 title: Déploiement de l’intégration
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
@@ -72,7 +75,9 @@ Procédure à suivre pour vérifier que l’intégration de Lyris/Adobe Analytic
 
 Une fois toutes les étapes du déploiement terminées, vous pouvez vérifier que l’intégration transfère des données avec succès.
 
->[!NOTE] Quelques jours sont nécessaires pour que l’échange de données commence. Assurez-vous de contacter Lyris après avoir activé l’intégration.
+>[!NOTE]
+>
+>Quelques jours sont nécessaires pour que l’échange de données commence. Assurez-vous de contacter Lyris après avoir activé l’intégration.
 
 1. Accédez à votre intégration Lyris dans les Data Connectors. Sous l’onglet **[!UICONTROL Assistance]** > **[!UICONTROL Journal d’activité d’intégration]**, vous devriez voir des événements tels que les **[!UICONTROL données de mesure importées avec succès]** et/ou les **[!UICONTROL données de classification importées avec succès]** :
 
@@ -86,7 +91,9 @@ Une fois toutes les étapes du déploiement terminées, vous pouvez vérifier qu
 
 Affiche le code du plug-in Lyris à utiliser avec Adobe Analytics.
 
->[!NOTE] Veillez à réserver les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant de travailler avec le code ci-dessous. Une fois que vous avez identifié les eVars réservées, remplacez eVarN par l’eVar appropriée. eVar10, par exemple.
+>[!NOTE]
+>
+>Veillez à réserver les eVars nécessaires dans l’outil d’administration d’Adobe Analytics avant de travailler avec le code ci-dessous. Une fois que vous avez identifié les eVars réservées, remplacez eVarN par l’eVar appropriée. eVar10, par exemple.
 
 ```
 /* 
