@@ -2,10 +2,10 @@
 title: FAQ sur l’Attribution
 description: Obtenez des réponses aux questions les plus fréquentes au sujet de l’attribution.
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 78%
+source-wordcount: '757'
+ht-degree: 76%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 78%
 
 **Qu’est-ce que l’élément de ligne « Aucun » lors de l’utilisation de l’attribution ?**
 
-La ligne Aucun est un élément fourre-tout qui représente toutes les conversions survenues sans points de contact dans la fenêtre de recherche. Essayez d’inclure une période plus longue dans votre créneau de rapport.
+L’élément de ligne « Aucun » est un élement fourre-tout qui représente toutes les conversions survenues sans points de contact dans l’intervalle de recherche en amont. Pour réduire le nombre de conversions attribuées à l’élément de ligne &quot;Aucun&quot;, essayez d’utiliser une fenêtre de recherche personnalisée avec une période de recherche plus longue.
 
 **Pourquoi est-ce que je vois parfois des dates hors de mon créneau de rapport lors de l’utilisation de modèles d’attribution ?**
 
-Ces dates supplémentaires sont dues à l’intervalle de recherche en amont de rapport de visiteurs. Pour plus d’informations, voir [Données apparaissant hors du créneau de rapport](https://helpx.adobe.com/fr/analytics/kb/data-appearing-outside-reporting-window.html) dans la base de connaissances d’Analytics. Adobe prévoit de filtrer ces rangées supplémentaires dans une prochaine version.
+Ces dates supplémentaires sont dues à l’intervalle de recherche en amont de rapport de visiteurs. Pour plus d’informations, voir [Données apparaissant hors du créneau de rapport](https://helpx.adobe.com/fr/analytics/kb/data-appearing-outside-reporting-window.html) dans la base de connaissances d’Analytics.
 
-**Quand dois-je utiliser une recherche en amont de l’attribution de visites ou de visiteurs ?**
+**Quand dois-je utiliser une recherche d’attribution personnalisée, de visite ou de visiteur ?**
 
-Le choix d’une recherche en amont de l’attribution dépend de votre cas d’utilisation. Si les conversions prennent généralement plus longtemps qu’une visite unique, une recherche en amont des visiteurs est recommandée. La création d’une suite de rapports virtuelle avec une définition de visite plus longue est également une solution potentielle.
+Le choix d’une recherche en amont de l’attribution dépend de votre cas d’utilisation. Si les conversions prennent généralement plus d’une visite unique, il est recommandé d’effectuer une recherche en amont visiteur ou personnalisée. Pour les cycles de conversion plus longs, les fenêtres de recherche en amont personnalisées sont plus efficaces car elles sont le seul type capable d&#39;extraire des données avant la fenêtre de rapports.
 
 **Comment les props et les eVars se comparent-ils lors de l’utilisation de l’attribution ?**
 
