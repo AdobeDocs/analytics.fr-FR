@@ -3,8 +3,11 @@ description: Les filtres permettent de limiter le rapport en incluant ou en excl
 title: Filtrage des données de rapport
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +48,9 @@ Les filtres avancés vous permettent de contrôler la portée de votre recherche
 
 Correspond si le terme se trouve dans l’élément de ligne. Opère de la même manière que le filtre simple.
 
->[!NOTE] Les espaces ne peuvent pas être utilisés dans les filtres, car ils jouent le rôle de délimiteurs dans les recherches.
+>[!NOTE]
+>
+> Les espaces ne peuvent pas être utilisés dans les filtres, car ils jouent le rôle de délimiteurs dans les recherches.
 
 **Ne contient pas**
 
