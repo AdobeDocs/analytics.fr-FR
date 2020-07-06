@@ -1,8 +1,11 @@
 ---
 title: s_gi()
 description: Permet de créer des instances d’AppMeasurement et d’en effectuer le suivi.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ Le champ de texte de variable globale vous permet de définir un objet de suivi 
 
 Appelez la fonction `s_gi()` pour instancier un objet de suivi. Son seul argument contient une chaîne délimitée par des virgules d’identifiant de suite de rapports. L’argument d’identifiant de suite de rapports est obligatoire.
 
->[!TIP] Adobe recommande d’utiliser la variable `s` comme objet de suivi. Adobe utilise `s` dans sa documentation, ses exemples de mise en œuvre et ses plug-ins. Vous pouvez toutefois utiliser n’importe quelle variable tant que vous êtes cohérent sur l’ensemble de votre site.
+>[!TIP]
+>
+>Adobe recommande d’utiliser la variable `s` comme objet de suivi. Adobe utilise `s` dans sa documentation, ses exemples de mise en œuvre et ses plug-ins. Vous pouvez toutefois utiliser n’importe quelle variable tant que vous êtes cohérent sur l’ensemble de votre site.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +41,9 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
->[!CAUTION] Les sections et exemples suivants contiennent des rubriques de mise en œuvre complexes. Testez minutieusement votre mise en œuvre et effectuez le suivi des personnalisations importantes dans le [document de conception de solution](../../prepare/solution-design.md) de votre organisation.
+>[!CAUTION]
+>
+>Les sections et exemples suivants contiennent des rubriques de mise en œuvre complexes. Testez minutieusement votre mise en œuvre et effectuez le suivi des personnalisations importantes dans le [document de conception de solution](../../prepare/solution-design.md) de votre organisation.
 
 ## Gestion de plusieurs mises en œuvre à l’aide de différents objets de suivi
 
