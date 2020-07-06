@@ -3,7 +3,10 @@ description: La version 5.2 du Report Builder prend en charge les mesures calcu
 title: Mesures calculées
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 La version 5.2 du Report Builder prend en charge les mesures calculées unifiées d’Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 
->[!NOTE] Il est possible que les classeurs existants pointent vers des demandes avec des identifiants de mesure hérités. Lorsque vous utilisez la version 5.2 du Report Builder, ces identifiants de mesure hérités sont convertis en nouvel identifiant global. Si vous partagez ce classeur avec un utilisateur de la version 5.1 ou antérieure du Report Builder, il ne verra pas les mesures calculées.
+>[!NOTE]
+>
+>Il est possible que les classeurs existants pointent vers des demandes avec des identifiants de mesure hérités. Lorsque vous utilisez la version 5.2 du Report Builder, ces identifiants de mesure hérités sont convertis en nouvel identifiant global. Si vous partagez ce classeur avec un utilisateur de la version 5.1 ou antérieure du Report Builder, il ne verra pas les mesures calculées.
 
 Pour en savoir plus sur la manière de créer et de gérer des mesures calculées à l’aide du nouveau créateur et gestionnaire de mesures calculées, reportez-vous au guide des [mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html).
 
@@ -40,7 +45,7 @@ Les filtres disponibles incluent :
 
 ## Appliquer les mesures calculées {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-After you have selected the filters, click **[!UICONTROL Apply]** to apply them to your request. Les mesures sélectionnées sont maintenant ajoutées à la disposition des rapports.
+Après avoir sélectionné les filtres, cliquez sur **[!UICONTROL Appliquer]** pour les appliquer à votre demande. Les mesures sélectionnées sont maintenant ajoutées à la disposition des rapports.
 
 ![](assets/filtering_for_metric.png)
 
