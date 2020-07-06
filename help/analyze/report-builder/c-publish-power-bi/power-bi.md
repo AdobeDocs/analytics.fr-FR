@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Publication sur Power BI - Aperçu
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -55,13 +58,15 @@ Les classeurs planifiés sont des feuilles de calcul Excel renseignées avec des
 
    ![](assets/workbooks-power-bi.png)
 
-1. Vous pouvez désormais visualiser les données de tableau de bord du classeur. ![](assets/view-data-pbi.png)
+1. Vous pouvez désormais visualiser les données de tableau de bord du classeur.  ![](assets/view-data-pbi.png)
 
 1. Vous pouvez ensuite épingler une zone de ce classeur de façon à l’inclure dans l’un de vos tableaux de bord Power BI.
 
 ## Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE] Si le classeur contient une macro, l’option « Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI » sera désactivée.
+>[!NOTE]
+>
+>Si le classeur contient une macro, l’option « Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI » sera désactivée.
 
 Au lieu d’importer l’ensemble du classeur, vous pouvez n’importer que le contenu de l’ensemble des tableaux formatés de ce classeur.
 
