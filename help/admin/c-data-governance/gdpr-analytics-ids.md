@@ -2,15 +2,20 @@
 description: 'null'
 title: Bonnes pratiques en matière d’étiquetage
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2689'
+ht-degree: 100%
 
 ---
 
 
 # Bonnes pratiques en matière d’étiquetage
 
->[!NOTE] Souvenez-vous que l’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
+>[!NOTE]
+>
+>Souvenez-vous que l’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
 
 ## ID directement ou indirectement identifiables {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -66,7 +71,9 @@ Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors d
 
 ## Bonnes pratiques pour définir les étiquettes de suppression {#section_08166C99B48E49218392FAC18922C10E}
 
->[!NOTE] Les variables props sont toujours insensibles à la casse. Par défaut, les eVars sont insensibles à la casse, mais peuvent être configurées via l’assistance clientèle d’Adobe pour le devenir. Si vous avez une eVar sensible à la casse qui contient un ID, il est de votre responsabilité d’utiliser la casse appropriée lors de la soumission d’une demande relative à la Confidentialité des données afin que cette case corresponde à celle utilisée dans les accès contenant ces ID.
+>[!NOTE]
+>
+>Les variables props sont toujours insensibles à la casse. Par défaut, les eVars sont insensibles à la casse, mais peuvent être configurées via l’assistance clientèle d’Adobe pour le devenir. Si vous avez une eVar sensible à la casse qui contient un ID, il est de votre responsabilité d’utiliser la casse appropriée lors de la soumission d’une demande relative à la Confidentialité des données afin que cette case corresponde à celle utilisée dans les accès contenant ces ID.
 
 Les étiquettes de suppression DEL-DEVICE et DEL-PERSON doivent être utilisées modérément. Lorsqu’elles sont appliquées à une variable qui ne contient pas d’ID utilisé dans le cadre de la demande relative à la Confidentialité des données, les chiffres (mesures) des rapports antérieurs d’Analytics sont presque toujours modifiés.
 
