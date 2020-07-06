@@ -3,7 +3,10 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +23,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gesti
 
 Date de publication : **5 mars 2020**
 
-* Correction d’un problème lié à la sécurité en mettant à jour la détection d’Internet Explorer pour supprimer l’avertissement JSLint.
+* Correction d’un problème de sécurité en mettant à jour la détection d’Internet Explorer pour supprimer l’avertissement JSLint.
 
 ## Version 2.19.0
 
@@ -32,7 +35,7 @@ Date de publication : **21 février 2020**
 
 Date de publication : **13 février 2020**
 
-* AppMeasurement peut désormais forcer les cookies à inclure l’attribut Secure en définissant la [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variable. Cette variable nécessite que le site Web client entier soit servi de manière sécurisée (HTTPS). (AN-204604)
+* AppMeasurement peut désormais forcer les cookies à inclure l’attribut Secure en définissant la [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variable. Cette variable requiert que l’intégralité du site Web client soit diffusée en toute sécurité (HTTPS). (AN-204604)
 
 ## Version 2.17.0
 
@@ -102,7 +105,9 @@ Cette version garantit l’envoi correct des cookies par la bibliothèque [!DNL 
 
 Date de publication : **24 mai 2018**
 
->[!NOTE] L’API visiteur version 3.0 ou ultérieure est requise pour les clients utilisant le service [!DNL Experience Cloud] ID. Adobe recommande d’effectuer une mise à niveau vers la dernière version de l’API visiteur à chaque fois que des bibliothèques de code associées sont mises à jour ([!DNL at.js], [!DNL AppMeasurement.js] etc.).
+>[!NOTE]
+>
+>L’API visiteur version 3.0 ou ultérieure est requise pour les clients utilisant le service ID [!DNL Experience Cloud]. Adobe recommande d’effectuer une mise à niveau vers la dernière version de l’API visiteur à chaque fois que des bibliothèques de code associées sont mises à jour ([!DNL at.js], [!DNL AppMeasurement.js] etc.).
 
 * Mise à jour d’[!DNL AppMeasurement] permettant d’utiliser l’interface Visiteur mise à jour pour demander des identifiants. (AN-151483)
 * Correction d’un problème en raison duquel le cookie de suivi des liens continue à s’écrire alors que le suivi des liens est désactivé. (AN-156332)
@@ -216,7 +221,9 @@ Mise à jour : **18 août 2016**
 * Mise à jour d’[!DNL AppMeasurement] afin de pouvoir lire et écrire les cookies AMCV. (AN-127098)
 * Inclusion de l’API visiteur version 1.7.0.
 
->[!NOTE] Voir aussi les notes de mise à jour suivantes relatives à [!DNL JavaScript] version 1.6.3, qui décrivent les exigences à jour du service Experience Cloud ID.
+>[!NOTE]
+>
+>Voir aussi les notes de mise à jour suivantes relatives à [!DNL JavaScript] version 1.6.3, qui décrivent les exigences à jour du service Experience Cloud ID.
 
 ## Version 1.6.3
 
@@ -224,7 +231,9 @@ Mise à jour : **4 août 2016**
 
 * Correction d’un problème en raison duquel [!DNL AppMeasurement] mettait fin de manière prématurée aux connexions des requêtes. (AN-126448)
 
->[!IMPORTANT] La version 1.6.0 du service [!DNL Experience Cloud] ID *exige* [!DNL AppMeasurement] pour [!DNL JavaScript] version 1.6.3 ou supérieure. Pour effectuer la mise à niveau vers la version 1.6.0 du service Experience Cloud ID, veillez à utiliser le code [!DNL AppMeasurement] version 1.6.3 ou supérieure.
+>[!IMPORTANT]
+>
+>La version 1.6.0 du service [!DNL Experience Cloud] ID *exige* [!DNL AppMeasurement] pour [!DNL JavaScript] version 1.6.3 ou supérieure. Pour effectuer la mise à niveau vers la version 1.6.0 du service Experience Cloud ID, veillez à utiliser le code [!DNL AppMeasurement] version 1.6.3 ou supérieure.
 
 ## Version 1.6.2
 
@@ -293,7 +302,9 @@ Date de publication : **21 mai 2015**
 * Inclusion de l’API visiteur version 1.4.
 * Mise à jour du module AudienceManagement afin de permettre l’utilisation de DIL version 6.0.
 
->[!NOTE]**Problème connu** : dans les intégrations API visiteur / module [!DNL AppMeasurement] [!DNL Audience Manager], deux demandes iFrame de publication de destination seront effectuées dans IE6-9 : `//fast.<subdomain>.demdex.net/dest5.html` et `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE]
+>
+>**Problème connu** : dans les intégrations API visiteur / module [!DNL AppMeasurement] [!DNL Audience Manager], deux demandes iFrame de publication de destination seront effectuées dans IE6-9 : `//fast.<subdomain>.demdex.net/dest5.html` et `//fast.<subdomain>.demdex.net/dest4.html`. Le comportement correct, comme dans les autres navigateurs, consiste à charger uniquement `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Version 1.4.4
 
@@ -349,7 +360,9 @@ Date de publication : **21 août 2014**
 * Ajout du module **[!UICONTROL AudienceManagement]** dans le fichier compressé de téléchargement.
 * Ajout de la prise en charge des eVars (76 à 250) et événements (101 à 1000) supplémentaires.
 
->[!NOTE] Le code H ne prend pas en charge les eVars et événements supplémentaires.
+>[!NOTE]
+>
+>Le code H ne prend pas en charge les eVars et événements supplémentaires.
 
 ## Version 1.3.2
 
