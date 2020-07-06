@@ -1,15 +1,20 @@
 ---
 title: getTimeSinceLastVisit
 description: Permet de mesurer le temps écoulé entre deux visites.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 100%
 
 ---
 
 
 # Plug-in Adobe : getTimeSinceLastVisit
 
->[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
 Le plug-in `getTimeSinceLastVisit` vous permet de suivre le temps qu’un visiteur a mis pour revenir sur votre site après sa dernière visite.
 
@@ -66,7 +71,9 @@ La méthode `getTimeSinceLastVisit` n’utilise aucun argument. Elle renvoie le 
 * Le temps écoulé depuis plus d’un jour est arrondi à la référence de jour la plus proche. Par exemple, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`.
 * Si un visiteur ne s’est pas rendu sur le site avant ou si le temps écoulé est supérieur à deux ans, alors la valeur est définie sur `"New Visitor"`.
 
->[!NOTE] Ce plug-in renvoie uniquement une valeur au premier accès d’une visite.
+>[!NOTE]
+>
+>Ce plug-in renvoie uniquement une valeur au premier accès d’une visite.
 
 Ce plug-in crée un cookie propriétaire appelé `"s_tslv"` défini sur un horodatage Unix de l’heure actuelle. Le cookie expire après deux ans d’inactivité.
 
