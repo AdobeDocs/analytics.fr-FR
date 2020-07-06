@@ -1,8 +1,11 @@
 ---
 title: Module Integrate
 description: Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation. Cette intégration donne la possibilité d’établir une connexion de données bidirectionnelle. En règle générale, l’utilisation du module Integrate est gérée par un partenaire Adobe.
 
->[!NOTE] La demande de données de partenaire dans votre mise en œuvre peut augmenter les délais entre le chargement de pages et l’envoi de données aux serveurs de collecte de données Adobe. Si un visiteur charge une nouvelle page avant l’envoi des données, cette page n’est pas enregistrée.
+>[!NOTE]
+>
+>La demande de données de partenaire dans votre mise en œuvre peut augmenter les délais entre le chargement de pages et l’envoi de données aux serveurs de collecte de données Adobe. Si un visiteur charge une nouvelle page avant l’envoi des données, cette page n’est pas enregistrée.
 
 ## Processus du module Integrate
 
