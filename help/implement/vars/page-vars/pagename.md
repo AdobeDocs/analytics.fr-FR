@@ -1,8 +1,11 @@
 ---
 title: pageName
 description: Nom de la page de votre site.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La variable `pageName` stocke généralement le nom d’une page donnée. Il est utile de déterminer les pages les plus populaires. Cette variable renseigne la dimension « Nom de page ».
 
->[!NOTE] Cette dimension est toujours supprimée des appels de suivi de liens. Si vous souhaitez voir le nom de la page sur laquelle un lien a été suivi, pensez à copier cette variable dans une eVar.
+>[!NOTE]
+>
+>Cette dimension est toujours supprimée des appels de suivi de liens. Si vous souhaitez voir le nom de la page sur laquelle un lien a été suivi, pensez à copier cette variable dans une eVar.
 
 Si cette variable n’est pas définie sur un appel de suivi de page donné, la variable [`pageURL`](pageurl.md) est utilisée à la place.
 
