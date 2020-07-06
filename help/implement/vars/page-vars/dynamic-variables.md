@@ -1,8 +1,11 @@
 ---
 title: Variables dynamiques
 description: Copiez des variables sans augmenter la longueur de la demande d’image.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Les variables dynamiques prennent en charge les paramètres de chaîne de requê
 
 Lorsqu’Adobe reconnaît un préfixe de variable dynamique, il copie automatiquement la chaîne de requête ou la valeur d’en-tête HTTP dans votre suite de rapports. Cette action se produit avant tout autre traitement, y compris les règles de traitement et les règles VISTA.
 
->[!TIP] Gardez à l’esprit les limites maximales de caractères lors de la copie de variables. Par exemple, en cas de copie de `eVar1` vers `prop1`, `prop1` peut avoir une valeur tronquée puisqu’elle est limitée à 100 octets (alors que `eVar1` est limitée à 255 octets).
+>[!TIP]
+>
+>Gardez à l’esprit les limites maximales de caractères lors de la copie de variables. Par exemple, en cas de copie de `eVar1` vers `prop1`, `prop1` peut avoir une valeur tronquée puisqu’elle est limitée à 100 octets (alors que `eVar1` est limitée à 255 octets).
 
 ## Variables dynamiques dans Adobe Experience Platform Launch
 
@@ -48,4 +53,6 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
->[!NOTE] Les variables dynamiques apparaissent sous forme de chaînes lors du débogage de votre mise en œuvre. Les valeurs sont copiées côté serveur par les serveurs de collecte de données Adobe.
+>[!NOTE]
+>
+>Les variables dynamiques apparaissent sous forme de chaînes lors du débogage de votre mise en œuvre. Les valeurs sont copiées côté serveur par les serveurs de collecte de données Adobe.
