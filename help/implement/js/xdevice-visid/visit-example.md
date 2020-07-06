@@ -5,15 +5,20 @@ subtopic: Visitors
 title: Exemple d’identification des visiteurs sur plusieurs appareils
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 100%
 
 ---
 
 
 # Exemple d’identification des visiteurs sur plusieurs appareils
 
->[!IMPORTANT] Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/cda-home.md) dans le guide d’utilisation Composants.
+>[!IMPORTANT]
+>
+>Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/cda-home.md) dans le guide d’utilisation Composants.
 
 L’exemple suivant illustre le fonctionnement de l’identification des visiteurs sur plusieurs appareils à l’aide d’un exemple d’appels serveur envoyés dans le cadre d’une interaction client commune.
 
