@@ -2,7 +2,7 @@
 title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -14,9 +14,13 @@ ht-degree: 92%
 
 Cette page liste les dimensions prises en charge dans leurs fonctionnalités Analytics respectives.
 
->[!NOTE] Les noms de variable personnalisée, les classifications et les attributs de visiteur sont omis de cette liste. Ces valeurs de dimension sont spécifiques à des suites de rapports individuelles.
+>[!NOTE]
+>
+>Les noms de variable personnalisée, les classifications et les attributs de visiteur sont omis de cette liste. Ces valeurs de dimension sont spécifiques à des suites de rapports individuelles.
 
->[!NOTE] Il existe des chevauchements où les outils Analytics utilisent des termes différents pour des dimensions similaires. Par exemple, les rapports et analyses sont utilisés `browserwidth` alors que l’espace de travail d’Analyse l’est `browserwidthbucketed`.
+>[!NOTE]
+>
+>Il existe des chevauchements où les outils Analytics utilisent des termes différents pour des dimensions similaires. Par exemple, Reports &amp; Analytics utilise `browserwidth` alors que les utilisateurs Analysis Workspace `browserwidthbucketed`.
 
 ## Dimensions prises en charge à la fois dans Reports &amp; Analytics et Analysis Workspace
 
@@ -35,7 +39,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Fidélité de la clientèle | `customerloyalty` |
 | Variables de conversion personnalisées | `evar1`, `evar2`, etc. |
 | Variables Aperçu personnalisé | `prop1`, `prop2`, etc. |
-| Syntaxe | `customlink` |
+| Lien personnalisé | `customlink` |
 | Jours avant le premier achat | `daysbeforefirstpurchase` |
 | Jours depuis le dernier achat | `dayssincelastpurchase` |
 | Domaine | `filtereddomain` |
@@ -72,7 +76,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Page | `page` |
 | Pages introuvables | `pagesnotfound` |
 | Product | `product` |
-| Referrer | `referrer` |
+| Référent | `referrer` |
 | Type de référent | `referrertype` |
 | Domaine référent | `referringdomain` |
 | Régions | `georegion` |
@@ -85,7 +89,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Mot-clé de recherche - Naturel | `searchenginenaturalkeyword` |
 | Mot-clé de recherche - Payant | `searchenginepaidkeyword` |
 | Classement de toutes les pages de recherche | `searchenginepagerank` |
-| Server (Serveur) | `server` |
+| Serveur | `server` |
 | Visites sur une seule page | `singlepagevisits` |
 | Section du site | `sitesections` |
 | Temps passé par visite - Valeur granulaire | `sitetime` |
@@ -110,7 +114,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Jour de la semaine | `dayofweek` |
 | Jour de la semaine | `timepartdayofweek` |
 | Jour de l’année | `timepartdayofyear` |
-| Jours depuis la dernière visite  | `dayssincelastvisit` |
+| Jours depuis la dernière visite | `dayssincelastvisit` |
 | Accès Aperçu personnalisé | `entryprops` |
 | Accès aux variables de liste | `entrylistvariables` |
 | Serveur d’accès | `entryserver` |
@@ -302,7 +306,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Lien d’Activity Map par région | `clickmaplinkbyregion` |
 | Région d’Activity Map | `clickmapregion` |
 | Lien d’Activity Map | `clickmaplink` |
-| Activity Map  Page | `clickmappage` |
+| Activity Map Page | `clickmappage` |
 
 ### Intégration Nielsen
 
