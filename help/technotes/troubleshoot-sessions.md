@@ -2,7 +2,10 @@
 title: Sessions de dépannage dans Adobe Analytics
 description: Découvrez comment résoudre les problèmes liés à la déconnexion d’Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,9 @@ Adobe utilise un en-tête d’autorisation lors de l’envoi de requêtes à Ado
 
 Pour résoudre ce problème, Adobe conseille de travailler avec l’équipe informatique de votre entreprise afin d’autoriser l’en-tête d’autorisation via le proxy de votre entreprise.
 
->[!NOTE] Bien que les membres de la communauté Analytics aient trouvé les liens suivants utiles, ils ne sont pas la propriété d’Adobe. Tenez compte de cette remarque lorsque vous affichez leur contenu.
+>[!NOTE]
+>
+>Bien que les membres de la communauté Analytics aient trouvé les liens suivants utiles, ils ne sont pas la propriété d’Adobe. Tenez compte de cette remarque lorsque vous affichez leur contenu.
 
 Vous trouverez des informations sur les serveurs proxy et les en-têtes d’authentification Symantec à l’adresse suivante :
 
