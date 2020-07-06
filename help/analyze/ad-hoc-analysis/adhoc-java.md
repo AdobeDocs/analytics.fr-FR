@@ -1,8 +1,11 @@
 ---
 description: Instructions sur l’exécution d’Ad Hoc Analysis avec Java 11.
 title: Exécution de l’Ad Hoc Analysis sur Java 11
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,9 @@ Travaillez avec votre équipe informatique pour vous assurer que les éléments 
 1. **Exécutez le fichier sélectionné**. Pour PC : double-cliquez sur le fichier .bat. Pour Mac : cliquez avec le bouton droit de la souris sur le fichier .sh, puis sélectionnez **[!UICONTROL Ouvrir avec > Autre... > Utilitaires > (Activer toutes les applications) > sélectionnez Terminal > Ouvrir]**.
 1. Connectez-vous à Ad Hoc Analysis.
 
->[!NOTE] Les méthodes d’authentification Federated et Enterprise ID ne sont pas compatibles avec la version Java 11 d’Ad Hoc Analysis.
+>[!NOTE]
+>
+>Les méthodes d’authentification Federated et Enterprise ID ne sont pas compatibles avec la version Java 11 d’Ad Hoc Analysis.
 
 ## Fonctionnalités non prises en charge dans Ad Hoc Analysis (Java 11)
 
