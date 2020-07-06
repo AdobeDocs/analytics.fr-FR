@@ -5,7 +5,10 @@ title: Gestionnaire de tableaux de bord
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ Utilisez le Gestionnaire de tableaux de bord pour copier, partager, archiver et 
 
 Utilisez le Gestionnaire de tableaux de bord pour copier, partager, archiver et programmer la remise des tableaux de bord.
 
-Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tableaux de bord]**.
 
 | Élément | Description |
 |--- |--- |
@@ -30,14 +33,14 @@ Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICON
 | Planifié | Permet de programmer la remise du tableau de bord. |
 | Afficher l’archive | Cette fonctionnalité n’est plus disponible. |
 | Envoyer aux utilisateurs | Permet de partager un tableau de bord. |
-| Gérer | Permet de modifier, de copier et de supprimer un tableau de bord.  |
+| Gérer | Permet de modifier, de copier et de supprimer un tableau de bord. |
 
 ## Gestion des tableaux de bord partagés
 
 Étapes décrivant comment utiliser les options de gestion du tableau de bord partagé.
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
-1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
+1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tableaux de bord]**.
+1. Sous [!UICONTROL Tableaux de bord partagés], localisez le tableau de bord partagé (ou le tableau de bord hérité) que vous souhaitez gérer et sélectionnez une ou plusieurs des options suivantes :
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
@@ -70,16 +73,20 @@ Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICON
 
 Les tableaux de bord hérités existants continueront à être exécutés et vous serez toujours en mesure de les modifier, télécharger et programme. Toutefois, vous ne pourrez plus créer de nouveaux tableaux de bord hérités. Nous vous recommandons fortement de mettre à niveau les tableaux de bord hérités existants vers le format de tableau de bord plus récent.
 
->[!NOTE] Désormais, nous vous invitons à utiliser les [projets d’Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) et leurs fonctionnalités de téléchargement et de planification.
+>[!NOTE]
+>
+>Désormais, nous vous invitons à utiliser les [projets d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html) et leurs fonctionnalités de téléchargement et de planification.
 
 Lorsque vous copiez le tableau de bord hérité, le système l’ouvre pour modification et vous pouvez y ajouter du contenu hérité ou du nouveau contenu. Lorsque vous copiez un tableau de bord hérité, l’original est préservé dans la liste des tableaux de bord hérités.
 
->[!NOTE] L’ajout à un tableau de bord d’un contenu hérité crée un tableau de bord reposant sur la dernière fonctionnalité du tableau de bord. Le mini-rapport hérité peut toutefois contenir des données reposant sur la plateforme de données précédentes.
+>[!NOTE]
+>
+>L’ajout à un tableau de bord d’un contenu hérité crée un tableau de bord reposant sur la dernière fonctionnalité du tableau de bord. Le mini-rapport hérité peut toutefois contenir des données reposant sur la plateforme de données précédentes.
 
 **Pour migrer un tableau de bord hérité version 14.x**
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. Dans la [!UICONTROL Manage] colonne, sous [!UICONTROL Legacy Dashboards], cliquez sur **[!UICONTROL Copy to New Dashboard]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Gérer les tableaux de bord]**.
+1. Dans la colonne [!UICONTROL Gérer], sous [!UICONTROL Tableaux de bord hérités], cliquez sur **[!UICONTROL Copier vers le nouveau tableau de bord]**.
 
    Le tableau de bord copié s’ouvre dans l’éditeur de présentation des tableaux de bord.
 
@@ -87,34 +94,36 @@ Lorsque vous copiez le tableau de bord hérité, le système l’ouvre pour modi
 
 ## Partage d’un tableau de bord
 
-Cette section explique comment un administrateur peut partager (ou pousser) un tableau de bord vers plusieurs utilisateurs. When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
+Cette section explique comment un administrateur peut partager (ou pousser) un tableau de bord vers plusieurs utilisateurs. Dans ce cas, les tableaux de bord deviennent disponibles dans le menu [!UICONTROL Tableaux de bord partagés] des utilisateurs concernés.
 
-1. Dans la [!UICONTROL Dashboard Manager], recherchez le tableau de bord, puis activez **[!UICONTROL Shared]**.
-1. Cliquez sur **[!UICONTROL Push To Users]**.  ![](assets/push.png)
+1. Dans le [!UICONTROL Gestionnaire de tableaux de bord], recherchez le tableau de bord et activez l’option **[!UICONTROL Partagé]**.
+1. Cliquez sur **[!UICONTROL Envoyer aux utilisateurs]**.  ![](assets/push.png)
 
-1. Sur la [!UICONTROL Push Dashboard] page, sélectionnez les utilisateurs de la cible ou cliquez sur **[!UICONTROL Check All]**.
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Sur la page [!UICONTROL Envoyer le tableau de bord], sélectionnez les utilisateurs cibles ou cliquez sur **[!UICONTROL Cocher tout]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. Si tel est le cas, ils ne peuvent pas voir les mises à jour ou changements que vous avez apportés. To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager.
+Si les utilisateurs partagés de votre tableau de bord ne voient pas les modifications que vous avez apportées au tableau de bord, consultez le Gestionnaire de tableaux de bord pour savoir si les utilisateurs ont activé l’option **[!UICONTROL Mettez-moi en copie]**. Si tel est le cas, ils ne peuvent pas voir les mises à jour ou changements que vous avez apportés. Pour afficher tous les changements ou modifications, les utilisateurs partagés doivent cocher l’option **[!UICONTROL Au menu]** dans le Gestionnaire de tableaux de bord.
 
 ## Planification de la remise d’un tableau de bord
 
-In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. Les options de remise du tableau de bord sont identiques aux options de remise d’un rapport.
+Le [!UICONTROL Gestionnaire de tableaux de bord] permet de vérifier si la remise d’un tableau de bord est programmée et de modifier cette programmation. Les options de remise du tableau de bord sont identiques aux options de remise d’un rapport.
 
 1. Ouvrez un tableau de bord.
-1. Cliquez sur **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Envoyer]**.
 
    Pour en savoir plus, reportez-vous à la section [Planification et distribution](/help/analyze/reports-analytics/scheduling.md)
 
 ## Archivage d’un tableau de bord
 
->[!NOTE] Cette fonctionnalité ne sera plus disponible en janvier 2020.
+>[!NOTE]
+>
+>Cette fonctionnalité ne sera plus disponible en janvier 2020.
 
 Cette section décrit comment archiver n’importe quel tableau de bord envoyé en tant que fichier PDF. Le système conserve le fichier archivé pendant deux ans ou jusqu’à ce que vous ayez atteint la limite maximum de 4 Go de rapports archivés, le premier événement à survenir prévalant.
 
 1. Ouvrez un tableau de bord.
-1. Cliquez sur **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. Dans le [!UICONTROL Email Report] groupe, activez **[!UICONTROL Archive]**.
-1. Specify delivery options, then click **[!UICONTROL Send]**.
+1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Envoyer]**.
+1. Dans le groupe [!UICONTROL Envoyer le rapport par courriel], activez **[!UICONTROL Archivage]**.
+1. Définissez les options de remise, puis cliquez sur **[!UICONTROL Envoyer]**.
 
-   Vous pouvez afficher les tableaux de bord archivés dans le Gestionnaire de tableaux de bord. Vous pouvez également ouvrir un tableau de bord et cliquer sur **[!UICONTROL More]** > **[!UICONTROL View Archive]**.
+   Vous pouvez afficher les tableaux de bord archivés dans le Gestionnaire de tableaux de bord. Vous pouvez également ouvrir un tableau de bord, puis cliquer sur **[!UICONTROL Plus]** > **[!UICONTROL Afficher l’archive]**.
