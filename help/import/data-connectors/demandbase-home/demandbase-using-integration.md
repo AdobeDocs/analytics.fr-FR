@@ -3,7 +3,10 @@ description: Une fois l’intégration déployée, vous pouvez commencer à util
 title: Utilisation de l’intégration
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Une fois l’intégration déployée, vous pouvez commencer à utiliser les fonctionnalités supplémentaires qu’elle fournit.
 
->[!NOTE] Il peut s’écouler entre 24 et 48 heures avant que certaines données Demandbase ne commencent à apparaître dans les rapports Adobe Analytics.
+>[!NOTE]
+>
+>Il peut s’écouler entre 24 et 48 heures avant que certaines données Demandbase ne commencent à apparaître dans les rapports Adobe Analytics.
 
 Voici quelques actions que vous pouvez effectuer pour tirer parti de cette intégration dans Adobe Analytics :
 
