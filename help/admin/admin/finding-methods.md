@@ -4,7 +4,10 @@ title: Méthodes de recherche
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 100%
 
 ---
 
@@ -52,5 +55,7 @@ La page Méthodes de recherche identifie comment les divers rapports de méthode
  </tbody> 
 </table>
 
->[!NOTE] Toutes les méthodes de recherche expirent à la fin d’une visite. Si vous choisissez l’option d’expiration après un autre événement (le Passage en caisse, par exemple), la Méthode de recherche expire quand le Passage en caisse survient pendant la visite. Si le Passage en caisse ne se produit pas pendant la visite, la Méthode de recherche expire quand même à la fin de la visite.
+>[!NOTE]
+>
+>Toutes les méthodes de recherche expirent à la fin d’une visite. Si vous choisissez l’option d’expiration après un autre événement (le Passage en caisse, par exemple), la Méthode de recherche expire quand le Passage en caisse survient pendant la visite. Si le Passage en caisse ne se produit pas pendant la visite, la Méthode de recherche expire quand même à la fin de la visite.
 
