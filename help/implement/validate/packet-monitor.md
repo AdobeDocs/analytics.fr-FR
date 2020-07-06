@@ -2,7 +2,10 @@
 title: Analyseurs de paquets
 description: Les analyseurs de paquets vous permettent de voir les données envoyées par votre mise en œuvre aux serveurs de collecte de données Adobe.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ Il peut arriver, dans de très rares cas, que le débogueur signale une demande 
 
 Même si Adobe ne fournit pas un moniteur de paquets officiel, de nombreux moniteurs sont disponibles sur Internet. Voici quelques moniteurs de paquets que d’autres utilisateurs trouvent utiles.
 
->[!NOTE] Ces listes destinées à informer sur les moniteurs utilisés fréquemment n’ont pas vocation à être exhaustives. Si vous utilisez un moniteur de paquets qui vous donne entière satisfaction et que vous trouvez utile, n’hésitez pas à nous faire part de vos commentaires à l’aide du bouton [!UICONTROL Commentaires] situé dans la partie droite de cette fenêtre.
+>[!NOTE]
+>
+>Ces listes destinées à informer sur les moniteurs utilisés fréquemment n’ont pas vocation à être exhaustives. Si vous utilisez un moniteur de paquets qui vous donne entière satisfaction et que vous trouvez utile, n’hésitez pas à nous faire part de vos commentaires à l’aide du bouton [!UICONTROL Commentaires] situé dans la partie droite de cette fenêtre.
 
 | Firefox | Internet Explorer | Chrome | Programmes autonomes |
 |---|---|---|---|
@@ -32,7 +37,9 @@ Même si Adobe ne fournit pas un moniteur de paquets officiel, de nombreux monit
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE] Adobe NE prend PAS en charge et ne résout pas les problèmes que vous pouvez rencontrer avec ces moniteurs de paquets. Pour bénéficier d’une assistance, consultez le site d’origine de le moniteur de paquets.
+>[!NOTE]
+>
+>Adobe NE prend PAS en charge et ne résout pas les problèmes que vous pouvez rencontrer avec ces moniteurs de paquets. Pour bénéficier d’une assistance, consultez le site d’origine de le moniteur de paquets.
 
 ## NS_BINDING_ABORTED dans les codes de réponse
 
