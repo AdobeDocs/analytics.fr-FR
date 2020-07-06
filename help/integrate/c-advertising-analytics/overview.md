@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Advertising Analytics - Aperçu
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Advertising Analytics permet d’afficher toutes vos données de référencement payant Google et Bing côte à côte dans Adobe Analytics. Auparavant, toutes les données Google AdWords/DFA ou Microsoft Bing Ads devaient être affichées dans Adobe Advertising Cloud (AMO) ou dans Google/Bing. Vous obtiendrez maintenant les données suivantes dans Adobe Analytics : Impressions, Clics, Coûts, Note de qualité et Position moyenne directement à partir des moteurs de recherche ainsi que les Instances AMO ID (cliquez sur Instances).
 
->[!NOTE] Yahoo Gemini a été absorbé par Microsoft Bing le 31 mars 2019. Par conséquent, l’option de compte publicitaire Yahoo Gemini n’est plus disponible.
+>[!NOTE]
+>
+>Yahoo Gemini a été absorbé par Microsoft Bing le 31 mars 2019. Par conséquent, l’option de compte publicitaire Yahoo Gemini n’est plus disponible.
 
 En réunissant les données des moteurs de recherche dans Adobe Analytics, vous pouvez analyser les mêmes données en utilisant la puissance d’Analysis Workspace. Le nouveau modèle [Performance de référencement payant](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) dans Workspace facilite cette analyse.
 
@@ -30,7 +35,7 @@ Cette intégration est destinée aux audiences ci-dessous :
 * Cette fonctionnalité est disponible pour les clients ne bénéficiant pas d’Advertising Cloud ni d’AMO.
 * Vous devez être un administrateur Adobe Analytics pour accéder à Advertising Analytics. Par la suite, vous pourrez [accorder des autorisations d’accès](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) à des non-administrateurs.
 * Toutes les suites de rapports Analytics dans lesquelles vous souhaitez afficher les données de recherche Google/Bing doivent être [mappées à votre organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html).
-* Pour toute suite de rapports dans laquelle vous souhaitez afficher les données de recherche Google/Bing, vous devez [activer ces suites de rapports pour Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
+* Pour toute suite de rapports dans laquelle vous souhaitez afficher les données de recherche Google/Bing, vous devez [activer ces suites de rapports pour Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Configuration Advertising Analytics]**).
 
 * Vous avez besoin des informations de connexion pour un utilisateur autorisé à modifier le ou les comptes de recherche que vous souhaitez intégrer à Adobe Analytics, telles qu’un ID de compte Google et un mot de passe.
 * Dans le cas de Bings Ads, les ID de client Bing sont également requis.
