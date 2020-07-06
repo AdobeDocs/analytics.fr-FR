@@ -2,7 +2,7 @@
 title: Entrées
 description: Instance de la première valeur d’une visite.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 1%
@@ -20,4 +20,6 @@ La mesure Entrées indique le nombre de captures d’une valeur de dimension don
 
 Pour une dimension donnée, enregistrez la première valeur de dimension vue comme entrée dans une visite. Il n’existe qu’une seule entrée par dimension par visite. Il ne s’agit pas nécessairement du premier accès de la visite si la dimension n’est pas initialement définie. Il s’agit d’une mesure basée sur les visites ; une fois qu’il est lié à une valeur de dimension, il persiste pour le reste de la visite.
 
->[!TIP] Si vous vue cette mesure sur une dimension qui n’est pas toujours définie à chaque visite, vous pouvez masquer la valeur de dimension Non spécifié dans Analyse Workspace. Cliquez sur l’icône de filtre, puis décochez la case [!UICONTROL Inclure non spécifié (Aucun)].
+>[!TIP]
+>
+>Si vous définissez cette mesure sur une dimension qui n’est pas toujours définie à chaque visite, vous pouvez masquer la valeur de dimension Non spécifié dans l’Analysis Workspace. Cliquez sur l’icône de filtre, puis décochez la case [!UICONTROL Inclure non spécifié (Aucun)].
