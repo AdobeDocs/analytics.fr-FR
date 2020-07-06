@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guide d’administration Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 99%
@@ -18,7 +18,7 @@ ht-degree: 99%
 + Administration d’Analytics - Aperçu {#admin-overview}
    + [Quel outil Adobe Analytics dois-je utiliser ?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Configuration requise et comparaison des produits Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [Configuration système requise](c-system-requirements/sys-reqs.md)
++ [Configuration système requise](sys-reqs.md)
 + Outils d’administration {#admin-tools}
    + [Outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
