@@ -2,7 +2,7 @@
 title: Profondeur moyenne de page
 description: Nombre moyen de pages dans lesquelles la dimension existe.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -38,7 +38,9 @@ If 'Count repeat instances' is disabled:
 (1 + 4) / 2 = 2.5, rounded up to 3
 ```
 
->[!TIP] Si vous souhaitez afficher la profondeur moyenne de page avec une décimale, créez une mesure calculée en utilisant cette mesure comme seul élément de la formule. Augmentez le nombre de décimales de la mesure calculée pour atteindre le nombre de décimales souhaité.
+>[!TIP]
+>
+>Si vous souhaitez afficher la profondeur moyenne de page avec une décimale, créez une mesure calculée en utilisant cette mesure comme seul élément de la formule. Augmentez le nombre de décimales de la mesure calculée pour atteindre le nombre de décimales souhaité.
 
 ## Pourcentages supérieurs à 100 %
 
