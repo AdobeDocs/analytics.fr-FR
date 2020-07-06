@@ -3,8 +3,11 @@ description: Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit d
 title: Valeur de faible trafic dans Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,9 @@ Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionna
    * Si une valeur est déjà incluse dans les rapports, ajoutez-la comme d’habitude.
    * Si une valeur n’est pas encore incluse dans les rapports, vérifiez si elle a été consultée plus d’environ 100 fois aujourd’hui. Si c’est le cas, ajoutez la valeur aux rapports. Si ce n’est pas le cas, laissez-la en faible trafic.
 
->[!NOTE] Si une valeur de variable reçoit suffisamment de trafic pour quitter le compartiment à faible trafic, les premières valeurs collectées ne sont pas transmises à l’élément de ligne correspondant. Ces 10 à 100 premières instances restent en faible trafic.
+>[!NOTE]
+>
+>Si une valeur de variable reçoit suffisamment de trafic pour quitter le compartiment à faible trafic, les premières valeurs collectées ne sont pas transmises à l’élément de ligne correspondant. Ces 10 à 100 premières instances restent en faible trafic.
 
 ## Modification des seuils de limite uniques
 
