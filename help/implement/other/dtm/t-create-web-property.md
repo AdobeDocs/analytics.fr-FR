@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Création d’une propriété web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Une propriété web peut être n’importe quel regroupement d’un ou de plusieurs domaines et sous-domaines avec une bibliothèque de règles, inclus dans un code intégré.
 
->[!NOTE] Seul un utilisateur disposant des droits d’administrateur peut créer une propriété. Pour plus d’informations sur les rôles, voir [Création et gestion de groupes dans DTM](https://docs.adobe.com/content/help/fr-FR/dtm/using/admin/groups.html) dans la documentation du produit Dynamic Tag Management.
+>[!NOTE]
+>
+>Seul un utilisateur disposant des droits d’administrateur peut créer une propriété. Pour plus d’informations sur les rôles, voir [Création et gestion de groupes dans DTM](https://docs.adobe.com/content/help/fr-FR/dtm/using/admin/groups.html) dans la documentation du produit Dynamic Tag Management.
 
 Vous pouvez gérer ces ressources et en effectuer le suivi au moyen de la gestion dynamique des balises. Par exemple, supposons que vous disposez de plusieurs sites web reposant sur un modèle et que vous souhaitez effectuer le suivi des mêmes ressources sur tous les sites. Vous pouvez appliquer une propriété web à plusieurs domaines.
 
