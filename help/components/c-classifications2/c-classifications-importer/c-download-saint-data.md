@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Modèle de classification
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Ce modèle comprend les classifications actuellement définies (en-têtes de colonne) pour un ensemble de données spécifiques sans inclure les données associées à chaque classification.
 
->[!NOTE] La méthode Modèle limite le téléchargement des données de classification à une seule suite de rapports.
+>[!NOTE]
+>
+>La méthode Modèle limite le téléchargement des données de classification à une seule suite de rapports.
 
 Pour plus d’informations sur la structure d’un fichier de données, consultez la section [À propos des fichiers de données de classification](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
@@ -38,7 +43,9 @@ Pour plus d’informations sur la structure d’un fichier de données, consulte
 
 Le modèle fournit le format de fichier que vous devez respecter pour les classifications.
 
->[!NOTE] La méthode Modèle limite le téléchargement des données à une seule suite de rapports.
+>[!NOTE]
+>
+>La méthode Modèle limite le téléchargement des données à une seule suite de rapports.
 
 1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 1. Sous l’onglet **[!UICONTROL Télécharger un modèle]**, spécifiez la [configuration du modèle de données](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
