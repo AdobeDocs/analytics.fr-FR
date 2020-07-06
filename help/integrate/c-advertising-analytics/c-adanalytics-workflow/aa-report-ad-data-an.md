@@ -3,7 +3,10 @@ description: Détails sur le modèle Analysis Workspace et sur la création de r
 title: Rapport sur les données Advertising dans Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
@@ -12,11 +15,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Détails sur le modèle Analysis Workspace et sur la création de rapports dans Reports &amp; Analytics, ainsi que dans Report Builder.
 
->[!NOTE] Patientez 24 heures au moins avant que les données du moteur de recherche ne commencent à apparaître dans vos rapports Analytics. Notez également que le reporting Analytics ne renverra pas de données pour la granularité horaire, car les données AMO ne prennent pas en charge ce type de granularité.
+>[!NOTE]
+>
+>Patientez 24 heures au moins avant que les données du moteur de recherche ne commencent à apparaître dans vos rapports Analytics. Notez également que le reporting Analytics ne renverra pas de données pour la granularité horaire, car les données AMO ne prennent pas en charge ce type de granularité.
 
 ## Analysis Workspace : Moteurs de recherche {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Ce modèle permet à quiconque mettant en œuvre une intégration de moteur de recherche d’accéder à de nombreuses données de moteur de recherche dans Analytics. Vous pouvez y accéder via **[!UICONTROL Workspace]** > **[!UICONTROL Modèles]** > **[!UICONTROL Advertising]** > **[!UICONTROL Moteurs de recherche.]**
+Ce modèle permet à quiconque mettant en œuvre une intégration de moteur de recherche d’accéder à de nombreuses données de moteur de recherche dans Analytics. Vous pouvez y accéder via **[!UICONTROL Espace de travail]** > **[!UICONTROL Modèles]** > **[!UICONTROL Advertising]** > **[!UICONTROL Moteurs de recherche.]**
 
 >[!NOTE]
 >
