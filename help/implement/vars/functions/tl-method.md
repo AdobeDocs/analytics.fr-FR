@@ -1,8 +1,11 @@
 ---
 title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,9 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 L’argument d’objet du lien détermine si le navigateur attend jusqu’à 500 ms avant de quitter la page. Si une demande d’image est envoyée avant 500 ms, la page accède immédiatement au lien sur lequel l’utilisateur a cliqué.
 
->[!NOTE] AppMeasurement active automatiquement la variable [`useBeacon`](../config-vars/usebeacon.md) pour les liens de sortie, ce qui rend cet argument inutile dans les navigateurs modernes. Cet argument a été utilisé plus couramment dans les versions précédentes d’AppMeasurement.
+>[!NOTE]
+>
+>AppMeasurement active automatiquement la variable [`useBeacon`](../config-vars/usebeacon.md) pour les liens de sortie, ce qui rend cet argument inutile dans les navigateurs modernes. Cet argument a été utilisé plus couramment dans les versions précédentes d’AppMeasurement.
 
 * `this` : attendre jusqu’à 500 ms afin de laisser à AppMeasurement le temps d’envoyer une demande d’image. Valeur par défaut.
 * `true` : ne pas attendre.
