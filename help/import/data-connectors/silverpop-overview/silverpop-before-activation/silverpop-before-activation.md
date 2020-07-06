@@ -3,7 +3,10 @@ description: Avant d’activer cette intégration, comparez les éléments suiva
 title: Avant l’activation de cette intégration
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ Consultez les informations suivantes sur cette intégration des connecteurs de d
 * **Compte Silverpop valide :** afin de pouvoir utiliser l’intégration intégration de messagerie électronique des Data Connectors, un client doit disposer d’un compte Silverpop actif avec la fonction e-mail activée et d’informations d’identification d’utilisateur actives.
 * **Contacter votre représentant Silverpop**. Cette intégration n’est pas activée automatiquement par Silverpop. Vous devez contacter votre représentant Silverpop pour lancer la configuration Silverpop avant que les données ne soient importées ou exportées depuis Analytics.
 
->[!NOTE] Cette intégration fonctionne uniquement avec les organisations Engage (pas avec les Transact).
+>[!NOTE]
+>
+>Cette intégration fonctionne uniquement avec les organisations Engage (pas avec les Transact).
 
 ## Tarifs {#pricing}
 
