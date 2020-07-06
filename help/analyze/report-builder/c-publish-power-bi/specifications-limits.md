@@ -3,7 +3,10 @@ description: valeur nulle
 title: Limitations et spécifications
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Restrictions de publication de Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] Ces restrictions ne s’appliquent qu’à l’option « Publier les requêtes du Report Builder en tant que tableaux de jeu de données Power BI ».
+>[!NOTE]
+>
+> Ces restrictions ne s’appliquent qu’à l’option « Publier les requêtes du Report Builder en tant que tableaux de jeu de données Power BI ».
 
 * 100 requêtes du Report Builder peuvent être exportées au maximum vers Power BI par classeur.
 * Le processus de planification arrêtera l’exportation des requêtes une fois que la 101e requête sera atteinte.
@@ -20,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Modifier une requête du Report Builder après sa publication sur Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] Cette spécification s’applique aux options « Publier toutes les requêtes du Report Builder en tant que tableaux de jeu de données Power BI » et « Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI ».
+>[!NOTE]
+>
+> Cette spécification s’applique aux options « Publier toutes les requêtes du Report Builder en tant que tableaux de jeu de données Power BI » et « Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI ».
 
 La modification d’une requête du Report Builder après sa publication sur Power BI peut entraîner des problèmes.
 
@@ -38,6 +45,7 @@ La modification d’une requête du Report Builder après sa publication sur Pow
       1. Vérifiez qu’il a remplacé le jeu de données existant qui avait été créé lors de la première publication.
       1. Vérifiez que le tableau page_1 est correctement mis à jour avec les colonnes Page et Visites.
       1. Vérifiez que votre visualisation est corrompue, étant donné qu’elle fait référence à la colonne Pages vues qui n’existe plus dans le tableau page_1.
+
    **Voici un exemple de la façon dont la visualisation NE sera PAS corrompue :**
 
    1. Dans Report Builder, créez un classeur avec une requête, en utilisant la dimension Page et la mesure Pages vues.
@@ -62,5 +70,5 @@ Gardez à l’esprit que :
 
 * L’intitulé ne peut pas être une combinaison de lettres et de nombres qui pourrait être confondue avec une adresse de ligne et de colonne. Par exemple, A100 ne peut pas être un intitulé car il s’agit de l’adresse d’une cellule de feuille de calcul.
 * Les caractères suivants ne sont pas des caractères d’intitulé valides : ’#’, ’@’, ’!’, ’$’, ’^’, ’&amp;’, ’*’, ’`’, ’~’, ’ ’ . Ils seront remplacés par un caractère de soulignement.
-* Lorsque vous entrez un nom incorrect, un message d’avertissement s’affiche pour vous suggérer un nom généré automatiquement. If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* Lorsque vous entrez un nom incorrect, un message d’avertissement s’affiche pour vous suggérer un nom généré automatiquement. Si vous cliquez sur **[!UICONTROL Oui]**, ce nom sera utilisé. Si vous cliquez sur **[!UICONTROL Non]**, l’interface utilisateur de l’Assistant Options avancées vous permet d’entrer le nouveau nom.
 
