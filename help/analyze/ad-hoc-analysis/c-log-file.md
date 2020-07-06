@@ -4,7 +4,10 @@ title: Fichier journal
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
@@ -20,5 +23,7 @@ Pour enregistrer et afficher rapidement un fichier journal, procédez comme suit
 1. Cliquez sur le logo **[!UICONTROL Ad Hoc Analysis]**.
 1. Cliquez sur **[!UICONTROL Save Log File]** (Enregistrer le fichier journal).
 
->[!NOTE] Le journal que vous enregistrez selon cette procédure correspond à la session en cours.
+>[!NOTE]
+>
+>Le journal que vous enregistrez selon cette procédure correspond à la session en cours.
 
