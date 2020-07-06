@@ -1,19 +1,26 @@
 ---
 title: addProductEvar
 description: Permet d’ajouter des eVars de marchandisage à la variable products.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 100%
 
 ---
 
 
 # Plug-in Adobe : addProductEvar
 
->[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
 Le plug-in `addProductEvar` vous permet d’ajouter facilement une eVar de marchandisage Adobe Analytics qui utilise la syntaxe du produit à la variable products sans vous soucier de savoir si le contenu existant de la variable products sera modifié/déplacé/supprimé. Adobe recommande d’utiliser ce plug-in si vous souhaitez ajouter facilement des eVars de marchandisage de syntaxe de produit à la variable [`products`](../page-vars/products.md). Vous n’avez pas besoin d’utiliser le plug-in `addProductEvar` si vous n’utilisez pas d’eVars de marchandisage avec la syntaxe du produit.
 
->[!NOTE] Ce plug-in ne remplace pas les eVars qui existent déjà dans une entrée de produit. Il ajoute uniquement les valeurs que vous avez définies à l’aide de ce plug-in. Soyez prudent lorsque vous ajoutez des eVars qui existent déjà pour ce produit.
+>[!NOTE]
+>
+>Ce plug-in ne remplace pas les eVars qui existent déjà dans une entrée de produit. Il ajoute uniquement les valeurs que vous avez définies à l’aide de ce plug-in. Soyez prudent lorsque vous ajoutez des eVars qui existent déjà pour ce produit.
 
 ## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
 
