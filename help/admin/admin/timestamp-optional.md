@@ -4,7 +4,10 @@ title: Horodatages facultatifs
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +22,13 @@ Avec les horodatages facultatifs, vous pouvez faire ce qui suit :
 * Envoyez des données horodatées d’une application mobile vers une suite de rapports globale.
 * Mettez à niveau les applications afin d’utiliser le suivi hors ligne sans avoir à créer une suite de rapports.
 
->[!IMPORTANT] Si vous utilisez le paramètre Horodatages (facultatif), ne définissez pas [s.visitorID](/help/implement/vars/config-vars/visitorid.md) sur les données qui sont déjà horodatées. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de rapports de cheminement.
+>[!IMPORTANT]
+>
+>If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de rapports de cheminement.
 
->[!NOTE] Les données de la session avec horodatage sont conservées pendant 92 jours au maximum. Cela signifie qu’une visite/session sera « gardée ouverte » pendant 92 jours, tandis que tout accès supplémentaire, qui n’intervient pas 30 minutes après l’accès précédent (au cours de la période d’accès), peut toujours être inclus dans la même visite/session. Tout « ancien » accès qui est reçu sans ordre produira des résultats « inconnus », car plusieurs facteurs (segmentation, attribution, expiration, etc.) influencent l’inclusion ou non de ces accès dans les rapports.
+>[!NOTE]
+>
+>Les données de la session avec horodatage sont conservées pendant 92 jours au maximum. Cela signifie qu’une visite/session sera « gardée ouverte » pendant 92 jours, tandis que tout accès supplémentaire, qui n’intervient pas 30 minutes après l’accès précédent (au cours de la période d’accès), peut toujours être inclus dans la même visite/session. Tout « ancien » accès qui est reçu sans ordre produira des résultats « inconnus », car plusieurs facteurs (segmentation, attribution, expiration, etc.) influencent l’inclusion ou non de ces accès dans les rapports.
 
 ## Nouvelles suites de rapports {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -41,5 +48,7 @@ Avec les horodatages facultatifs, vous pouvez faire ce qui suit :
 
    Le paramètre Horodatages (facultatif) est activé pour la suite de rapports.
 
->[!NOTE] Si une suite de rapports a été définie sur **Horodatages facultatifs**, contactez le service à la clientèle Adobe si vous souhaitez modifier ce paramètre.
+>[!NOTE]
+>
+>Si une suite de rapports a été définie sur **Horodatages facultatifs**, contactez le service à la clientèle Adobe si vous souhaitez modifier ce paramètre.
 
