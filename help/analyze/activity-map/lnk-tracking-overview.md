@@ -3,8 +3,11 @@ description: 'Activity Map effectue le suivi des liens à l’aide d’un algor
 title: Suivi des liens robuste
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Pour plus d’informations sur le suivi des liens dans Activity Map, rendez-vou
 
 ## Méthodes de collecte des données relatives aux informations d’identification personnelles (PII) par le suivi des liens d’Activity Map {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION] En activant le suivi Activity Map, vous pouvez collecter des données d’informations d’identification personnelle (PII). Ces données peuvent être utilisées seules ou avec d’autres informations pour identifier, contacter ou localiser une seule personne, ou pour identifier une personne dans son contexte.
+>[!CAUTION]
+>
+>En activant le suivi Activity Map, vous pouvez collecter des données d’informations d’identification personnelle (PII). Ces données peuvent être utilisées seules ou avec d’autres informations pour identifier, contacter ou localiser une seule personne, ou pour identifier une personne dans son contexte.
 
 Vous trouverez ci-dessous certains cas connus de collecte des données relatives aux informations d’identification personnelles à l’aide du suivi Activity Map :
 
