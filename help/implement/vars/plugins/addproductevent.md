@@ -1,15 +1,20 @@
 ---
 title: addProductEvent
 description: Permet d’ajouter des événements personnalisés aux variables products et events.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 100%
 
 ---
 
 
 # Plug-in Adobe : addProductEvent
 
->[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
 Le plug-in `addProductEvent` ajoute un événement numérique ou monétaire à la variable [`products`](../page-vars/products.md). Adobe recommande d’utiliser ce plug-in si vous souhaitez ajouter un événement numérique ou monétaire à la variable `products` sans vous soucier du format de la chaîne de produit. Ce plug-in n’est pas nécessaire si vous n’utilisez pas d’événements numériques ou monétaires dans la variable `products`.
 
@@ -124,7 +129,9 @@ s.addProductEvent("event35", "15", 1);
 
 Le code ci-dessus définit également la variable `s.events` sur `"purchase,event2,event33,event34,event35"`.
 
->[!NOTE] Le second argument de l’appel peut être un entier **ou** une chaîne représentant un nombre entier
+>[!NOTE]
+>
+>Le second argument de l’appel peut être un entier **ou** une chaîne représentant un nombre entier
 
 ### Exemple 5
 
