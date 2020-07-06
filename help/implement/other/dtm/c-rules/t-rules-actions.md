@@ -4,8 +4,11 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Configuration des actions que la condition doit déclencher
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Outre les outils intégrés tels qu’[!DNL Adobe Analytics] et Google Analytics
 
 Chaque règle peut déclencher autant de scripts ou d’injections HTML que vous le souhaitez.
 
->[!NOTE] Dans la mesure où DTM permet d’injecter du code personnalisé dans votre page, veillez à ne pas créer de vulnérabilités de script de site à site (voir le [guide d’OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) pour plus d’informations). L’utilisation d’éléments de données dans un script demande une attention toute particulière. Vous devez toujours supposer que les valeurs des éléments de données proviennent d’une source non fiable.
+>[!NOTE]
+>
+>Dans la mesure où DTM permet d’injecter du code personnalisé dans votre page, veillez à ne pas créer de vulnérabilités de script de site à site (voir le [guide d’OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) pour plus d’informations). L’utilisation d’éléments de données dans un script demande une attention toute particulière. Vous devez toujours supposer que les valeurs des éléments de données proviennent d’une source non fiable.
 
 **Pour configurer les actions que la condition doit déclencher**
 
