@@ -4,7 +4,10 @@ title: Facturation
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La page Facturation vous permet d’accéder aux informations de facturation, dont les détails de trafic de chaque suite de rapports. Seul un administrateur autorisé peut accéder à cette page.
 
->[!NOTE] Si l’accès à l’onglet Facturation est désactivé pour votre société, contactez votre gestionnaire de compte.
+>[!NOTE]
+>
+>Si l’accès à l’onglet Facturation est désactivé pour votre société, contactez votre gestionnaire de compte.
 
 Les données de vue d’ensemble du trafic issues de la page de facturation vous permettent de mettre en relation les données des rapports et les appels serveur facturables figurant sur votre facture. La page [!UICONTROL Facturation] vous permet d’effectuer les opérations suivantes :
 
@@ -39,7 +44,9 @@ Le rapport [!UICONTROL Facture mensuelle] obtenu comprend les informations suiva
 | Liens personnalisés | Nombre total de liens personnalisés pour chaque suite de rapports. Vous pouvez vérifier les valeurs des liens personnalisés dans Contenu du site > Liens > Liens personnalisés. |
 | Liens de sortie | Nombre total de liens de sortie pour chaque suite de rapports. Vous pouvez vérifier les valeurs des liens de sortie dans Contenu du site > Liens > Liens de sortie. |
 
->[!NOTE] Pour obtenir une copie de travail du rapport [!UICONTROL Facture mensuelle], copiez ce dernier dans le presse-papiers, puis collez-le dans un tableur tel que Microsoft Excel*.
+>[!NOTE]
+>
+>Pour obtenir une copie de travail du rapport [!UICONTROL Facture mensuelle], copiez ce dernier dans le presse-papiers, puis collez-le dans un tableur tel que Microsoft Excel*.
 
 ## Comparaison de la date de création du rapport et de la date de traitement {#section_51A48C2F223F4904BE1407C13333C457}
 
