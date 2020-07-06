@@ -3,8 +3,11 @@ description: Les suites de rapports de cumul combinent les données de plusieurs
 title: Suites de rapports globales et de cumul
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ Les suites de rapports de cumul combinent les données de plusieurs suites de ra
 
 **Deuxième appel serveur** : les cumuls n’impliquent aucun appel au serveur supplémentaire au-delà de ce qu’une seule suite de rapports collecte. Si votre entreprise utilise le balisage multisuite, un deuxième appel serveur est effectué pour chaque suite de rapports supplémentaire incluse dans une demande d’image.
 
->[!TIP] Si vous utilisez uniquement une suite de rapports globale avec des [suites de rapports virtuelles](../../components/vrs/vrs-considerations.md), aucun deuxième appel serveur n’est nécessaire.
+>[!TIP]
+>
+>Si vous utilisez uniquement une suite de rapports globale avec des [suites de rapports virtuelles](../../components/vrs/vrs-considerations.md), aucun deuxième appel serveur n’est nécessaire.
 
 **Modifications de l’implémentation** : les cumuls ne nécessitent aucune modification de l’implémentation, tandis que les suites de rapports globales nécessitent que vous incluiez l’identifiant de suite de rapports globale dans votre implémentation.
 
