@@ -4,7 +4,10 @@ title: Ajout de requêtes dépendantes
 topic: Report builder
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -13,10 +16,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Une requête dépendante est une requête qui dépend d’une requête existante.
 
-For reports with correlation breakdowns enabled within the report table, you can take a closer look at an item by right-clicking in the cell and clicking **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Breakdown]**.
+Dans le cas des rapports pour lesquels des ventilations à corrélations sont activées dans le tableau de rapport, vous avez la possibilité de détailler un élément en cliquant avec le bouton droit dans la cellule, puis en cliquant sur **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Ventilation]**.
 
->[!NOTE] Vous pouvez également ajouter une requête de ventilation lors de la création de la requête d’origine. Reportez-vous à la section [Création d’une requête de données](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
+>[!NOTE]
+>
+>Vous pouvez également ajouter une requête de ventilation lors de la création de la requête d’origine. Reportez-vous à la section [Création d’une requête de données](/help/analyze/report-builder/data-requests/t-create-a-data-request.md).
 
->[!NOTE] Le Report Builder d’Adobe applique les dépendances de requête uniquement au sein d’une même feuille de calcul, et non entre plusieurs feuilles de calcul. Ceci garantit la rapidité de l’exécution.
+>[!NOTE]
+>
+>Le Report Builder d’Adobe applique les dépendances de requête uniquement au sein d’une même feuille de calcul, et non entre plusieurs feuilles de calcul. Ceci garantit la rapidité de l’exécution.
 
 Voir [Rapports de ventilation](/help/analyze/reports-analytics/reports-customize/breakdowns.md).
