@@ -2,8 +2,11 @@
 description: Le créateur de mesures calculées permet d’appliquer des fonctions statistiques et mathématiques afin de créer des mesures calculées avancées.
 title: 'Référence : fonctions de base'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ Le créateur de mesures calculées permet d’appliquer des fonctions statistiqu
 
 Vous trouverez ci-dessous une liste alphabétique des fonctions ainsi que leur définition.
 
->[!NOTE] Lorsque [!DNL metric] est identifié en tant qu’argument d’une fonction, d’autres expressions des mesures sont également autorisées. Par exemple, [!DNL MAXV(metrics)] autorise également [!DNL MAXV(PageViews + Visits).].
+>[!NOTE]
+>
+>Lorsque [!DNL metric] est identifié en tant qu’argument d’une fonction, d’autres expressions des mesures sont également autorisées. Par exemple, [!DNL MAXV(metrics)] autorise également [!DNL MAXV(PageViews + Visits).].
 
 ## Fonctions de tableau et fonctions de ligne {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -214,7 +219,7 @@ ROUND(metric)
 
 | Argument | Description |
 |---|---|
-| *number* | Mesure que vous souhaitez arrondir. |
+| *nombre* | Mesure que vous souhaitez arrondir. |
 
 Un arrondi sans paramètre de positions décimales est identique à un arrondi avec 0 position décimale, soit un arrondi au nombre entier le plus proche. Avec un paramètre de positions décimales, la valeur renvoyée contient ce nombre de positions à droite de la décimale. Si le paramètre est négatif, il renvoie des 0 à gauche de la décimale.
 
@@ -251,7 +256,7 @@ SQRT(metric)
 
 | Argument | Description |
 |---|---|
-| *number* | Mesure pour laquelle vous souhaitez obtenir la racine carrée. |
+| *nombre* | Mesure pour laquelle vous souhaitez obtenir la racine carrée. |
 
 ## Écart type (tableau) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
