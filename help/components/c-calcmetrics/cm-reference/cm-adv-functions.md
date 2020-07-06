@@ -3,7 +3,7 @@ description: Accédez à ces fonctions en cochant Afficher les options avancées
 title: 'Référence : fonctions avancées'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 100%
@@ -31,7 +31,9 @@ D’un autre côté, si deux mesures vous intéressent, il n’est pas juste d�
 
 Renvoie la valeur de son argument. Utilisez SAUF pour vous assurer qu’une valeur est différente d’une valeur spécifique.
 
->[!NOTE] 0 (zéro) signifie False, et toute autre valeur est True.
+>[!NOTE]
+>
+>0 (zéro) signifie False, et toute autre valeur est True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -207,7 +209,9 @@ Renvoie la moyenne des N dernières lignes.
 
 Si N &lt;= 0, elle utilise toutes les lignes précédentes. Puisque la moyenne cumulée est triée selon la dimension, elle n’est utile que pour les dimensions qui possèdent un ordre naturel, comme la date ou la longueur de chemin.
 
->[!NOTE] La moyenne cumulée ne fonctionne pas comme vous pourriez l’attendre avec des mesures de taux comme recettes/visiteur : elle fait la moyenne des taux au lieu d’additionner les recettes sur le dernier N et les visiteurs sur le dernier N, puis les diviser. À la place, utilisez
+>[!NOTE]
+>
+>La moyenne cumulée ne fonctionne pas comme vous pourriez l’attendre avec des mesures de taux comme recettes/visiteur : elle fait la moyenne des taux au lieu d’additionner les recettes sur le dernier N et les visiteurs sur le dernier N, puis les diviser. À la place, utilisez
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -450,7 +454,9 @@ Renvoie les éléments qui ne comportent pas une correspondance exacte avec la v
 
 Renvoie TRUE si un argument est VRAI ou renvoie FALSE si tous les arguments sont FAUX.
 
->[!NOTE] 0 (zéro) signifie False, et toute autre valeur est True.
+>[!NOTE]
+>
+>0 (zéro) signifie False, et toute autre valeur est True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -691,7 +697,9 @@ L’équation pour le score centré réduit est la suivante :
 
 où [!DNL x] est le score brut, [!DNL μ] la moyenne de la population et [!DNL σ] l’écart type de la population.
 
->[!NOTE] [!DNL μ] (mu) et[!DNL σ] (sigma) sont automatiquement calculés à partir de la mesure.
+>[!NOTE]
+>
+>[!DNL μ] (mu) et[!DNL σ] (sigma) sont automatiquement calculés à partir de la mesure.
 
 Score centré réduit (mesure)
 
@@ -716,5 +724,7 @@ Exécute un test Z n-latéral avec un score centré réduit de A.
 
 Renvoie la probabilité que la ligne actuelle puisse être vue par hasard dans la colonne.
 
->[!NOTE] Présume que les valeurs sont distribuées normalement.
+>[!NOTE]
+>
+>Présume que les valeurs sont distribuées normalement.
 
