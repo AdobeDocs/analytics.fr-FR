@@ -1,15 +1,20 @@
 ---
 title: state
 description: Permet de renseigner le « rapport État du visiteur » dans Reports and Analytics.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 100%
 
 ---
 
 
 # state
 
->[!IMPORTANT] Cette variable a été abandonnée et n’est pas une dimension disponible dans Analysis Workspace. Utilisez plutôt la dimension « États américains », que AppMeasurement collecte automatiquement en fonction de l’emplacement du visiteur.
+>[!IMPORTANT]
+>
+>Cette variable a été abandonnée et n’est pas une dimension disponible dans Analysis Workspace. Utilisez plutôt la dimension « États américains », que AppMeasurement collecte automatiquement en fonction de l’emplacement du visiteur.
 
 Dans les versions précédentes d’Adobe Analytics, la variable `state` était utilisée lorsque les visiteurs renseignaient les informations d’expédition sur les sites de vente au détail. Elle est fonctionnellement identique à une prop, mais n’est pas disponible dans Analysis Workspace.
 
