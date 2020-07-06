@@ -1,8 +1,11 @@
 ---
 title: Sérialisation d’événements
 description: Permet la déduplication des mesures sur votre site.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La sérialisation des événements est le processus consistant à implémenter des mesures pour empêcher les événements en double d’entrer dans la création de rapports d’Analytics. La déduplication des événements est importante lorsque vous ne souhaitez pas que les mesures soient exagérées par les visiteurs qui actualisent la page.
 
->[!NOTE] Les sources de données ne prennent pas en charge la sérialisation ou la déduplication des événements.
+>[!NOTE]
+>
+>Les sources de données ne prennent pas en charge la sérialisation ou la déduplication des événements.
 
 ## Configuration de la sérialisation des événements
 
@@ -23,7 +28,9 @@ Lors de l’utilisation des identifiants d’événement, la déduplication se p
 * La déduplication se produit globalement pour tous les visiteurs. Si le visiteur A envoie `event1:ABC` puis le visiteur B envoie également `event1:ABC`, Adobe ignore la deuxième instance du visiteur B.
 * La déduplication n’expire pas. Si un visiteur envoie `event1:ABC` puis revient 2 ans plus tard et renvoie `event1:ABC`, Adobe ignore la seconde instance.
 
->[!TIP] Si vous souhaitez dédupliquer l’événement [`purchase`](event-purchase.md), utilisez plutôt la variable [`purchaseID`](../purchaseid.md).
+>[!TIP]
+>
+> Si vous souhaitez dédupliquer l’événement [`purchase`](event-purchase.md), utilisez plutôt la variable [`purchaseID`](../purchaseid.md).
 
 ## Utilisation d’identifiants d’événement dans Adobe Experience Platform Launch
 
