@@ -3,7 +3,10 @@ description: Avant d’activer cette intégration, comparez les éléments suiva
 title: Avant l’activation de cette intégration
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ Le tableau suivant décrit les variables Analytics automatiquement activées pou
 
 ### Variables obligatoires {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE] Cette intégration utilise des variables dédiées pour les données de la boutique d’applications. Vous n’avez donc pas besoin d’attribuer des variables et des événements de commerce personnalisés.
+>[!NOTE]
+>
+>Cette intégration utilise des variables dédiées pour les données de la boutique d’applications. Vous n’avez donc pas besoin d’attribuer des variables et des événements de commerce personnalisés.
 
 | Type de variable | Nom | Méthode de remplissage | Description |
 |---|---|---|---|
