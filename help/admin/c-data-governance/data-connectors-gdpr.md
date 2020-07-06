@@ -2,8 +2,11 @@
 description: Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
 title: Confidentialité des données et Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Ces informations vous permettent d’identifier toute donnée directement ou ind
 
 Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous suffit de vérifier quelles variables/classifications partenaires de votre intégration peuvent potentiellement contenir des données directement ou indirectement identifiables.
 
->[!NOTE] Ces informations sont fournies pour vous aider à identifier les variables à [étiqueter](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), mais il vous incombe, en tant que contrôleur des données, d’appliquer les étiquettes appropriées ou de prendre d’autres mesures pour [vous préparer à la Confidentialité des données](/help/admin/c-data-governance/an-gdpr-overview.md) (mise à jour des classifications, etc.).
+>[!NOTE]
+>
+>Ces informations sont fournies pour vous aider à identifier les variables à [étiqueter](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), mais il vous incombe, en tant que contrôleur des données, d’appliquer les étiquettes appropriées ou de prendre d’autres mesures pour [vous préparer à la Confidentialité des données](/help/admin/c-data-governance/an-gdpr-overview.md) (mise à jour des classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
