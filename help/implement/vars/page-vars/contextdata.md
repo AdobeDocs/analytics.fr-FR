@@ -1,8 +1,11 @@
 ---
 title: contextData
 description: Les variables de données contextuelles vous permettent de définir des variables personnalisées sur chaque page que les règles de traitement peuvent lire.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,9 @@ s.contextData["example_variable"] = "Example value";
 
 ## Utiliser des règles de traitement pour renseigner les variables d’analyse
 
->[!IMPORTANT] Les variables de données contextuelles sont ignorées après l’exécution des règles de traitement. Si aucune règle de traitement n’est active, ce qui place les valeurs dans des variables, ces données sont définitivement perdues !
+>[!IMPORTANT]
+>
+>Les variables de données contextuelles sont ignorées après l’exécution des règles de traitement. Si aucune règle de traitement n’est active, ce qui place les valeurs dans des variables, ces données sont définitivement perdues !
 
 1. Mettez à jour votre mise en œuvre pour définir les noms et valeurs des variables de données contextuelles.
 2. Connectez-vous à Adobe Analytics et accédez à Administrateur > Suites de rapports.
