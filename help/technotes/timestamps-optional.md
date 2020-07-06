@@ -5,7 +5,10 @@ title: Utilisation du paramètre Horodatages (facultatif)
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Le paramètre Horodatages (facultatif) est défini par défaut pour toutes les n
 * Envoyez des données horodatées d’une application mobile vers une suite de rapports globale.
 * Mettez à niveau les applications afin d’utiliser les horodatages sans avoir à créer de suite de rapports.
 
->[!NOTE] Le paramètre Horodatages (facultatif) est le paramètre par défaut pour toutes les nouvelles suites de rapports générées à partir d’un modèle. Les nouvelles suites de rapports copiées à partir d’une suite de rapports existante héritent des paramètres de la suite de rapports d’origine.
+>[!NOTE]
+>
+>Le paramètre Horodatages (facultatif) est le paramètre par défaut pour toutes les nouvelles suites de rapports générées à partir d’un modèle. Les nouvelles suites de rapports copiées à partir d’une suite de rapports existante héritent des paramètres de la suite de rapports d’origine.
 
 Voir [Horodatages (facultatif)](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/timestamp-optional.html) pour en savoir plus sur la configuration.
 
@@ -52,7 +57,9 @@ Avec le paramètre **Horodatages (facultatif)**, vous pouvez intégrer des donn�
 
 Vous pouvez combiner les données dans une suite de rapports globale de plusieurs façons, notamment en utilisant le balisage multisuite, les règles Vista et les fichiers de lots importés à partir de sources hors ligne.
 
->[!IMPORTANT] Concevez avec soin chaque jeu de données de composant afin que la combinaison soit logique dans une suite de rapports globale.
+>[!IMPORTANT]
+>
+>Concevez avec soin chaque jeu de données du composant de sorte que la combinaison soit logique dans une suite de rapports globale.
 
 ## Bonnes pratiques lors du recours aux horodatages {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -62,7 +69,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques et autres exigences et restr
 
    Les données qui ne sont pas dans l’ordre peuvent inclure des données arrivées tardivement issues de collections de données hors ligne et d’accès tardifs, ou encore d’horloges désynchronisées sur les appareils mobiles hors ligne. Ceci risquerait de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de cheminement.
 
-* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/visitor-identification.html) est défini. Ceci risque de désordonner les données.
+* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](https://docs.adobe.com/content/help/fr-FR/analytics/components/metrics/unique-visitors.translate.html) est défini. Ceci risque de désordonner les données.
 
 * Il est préférable de ne pas avoir recours aux horodatages dans les applications hybrides composées d’une application (données hors ligne horodatées) ouvrant un navigateur web (données en direct non horodatées). Il en résulterait des rapports de session inexacts.
 
