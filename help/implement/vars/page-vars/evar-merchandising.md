@@ -2,7 +2,7 @@
 title: eVar (marchandisage)
 description: Variables personnalisées liées à des produits individuels.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 29%
@@ -12,13 +12,15 @@ ht-degree: 29%
 
 # eVar (marchandisage)
 
-*Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, voir[eVars (marchandisage)](/help/components/dimensions/evar-merchandising.md)dans le guide de l’utilisateur Composants.*
+*Cette page d’aide décrit comment implémenter des eVars de marchandisage. For information on how merchandising eVars work as a dimension, see[eVars (Merchandising)](/help/components/dimensions/evar-merchandising.md)in the Components user guide.*
 
 ## Configurer des eVars dans les paramètres de la suite de rapports
 
 Avant d’utiliser des eVars dans votre implémentation, veillez à configurer l’eVar selon la syntaxe souhaitée dans les paramètres de la suite de rapports. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
 
->[!IMPORTANT] Si les eVars de marchandisage ne sont pas correctement configurées, des valeurs inattendues ou des données perdues sont perdues pour la variable. Assurez-vous qu’il est correctement configuré pour votre mise en oeuvre.
+>[!IMPORTANT]
+>
+>Si les eVars de marchandisage ne sont pas correctement configurées, des valeurs inattendues ou des données perdues sont perdues pour la variable. Assurez-vous qu’il est correctement configuré pour votre mise en oeuvre.
 
 ## Mise en oeuvre à l’aide de la syntaxe du produit
 
