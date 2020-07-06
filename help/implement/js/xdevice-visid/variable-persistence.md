@@ -4,15 +4,20 @@ keywords: Analytics Implementation
 title: Attribution et persistance
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 100%
 
 ---
 
 
 # Attribution et persistance
 
->[!IMPORTANT] Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/cda-home.md) dans le guide d’utilisation Composants.
+>[!IMPORTANT]
+>
+>Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/cda-home.md) dans le guide d’utilisation Composants.
 
 Lorsque des profils du visiteur sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
 
@@ -40,7 +45,9 @@ Lors de la première connexion de données contenant une valeur `s.visitorID` pr
 * Les eVars définies pour expirer selon d’autres mesures sont copiées vers le profil authentifié. Notez que la valeur `apple` n’est pas conservée.
 * Pour les eVars persistantes, aucune mesure d’instance n’est enregistrée. Cela signifie que lors de l’utilisation de l’identification des visiteurs sur plusieurs appareils, il est possible d’afficher des rapports pour lesquels la mesure Visites uniques d’une valeur eVar est supérieure à la mesure d’instance.
 
->[!NOTE] Si un utilisateur est nouveau sur votre site (n’a jamais effectué de visites auparavant avec cet appareil) ET qu’il s’authentifie dans les 3 minutes (environ) suivant son arrivée, aucune valeur ne sera conservée dans le profil authentifié.
+>[!NOTE]
+>
+>Si un utilisateur est nouveau sur votre site (n’a jamais effectué de visites auparavant avec cet appareil) ET qu’il s’authentifie dans les 3 minutes (environ) suivant son arrivée, aucune valeur ne sera conservée dans le profil authentifié.
 
 ## Exemple 2
 
