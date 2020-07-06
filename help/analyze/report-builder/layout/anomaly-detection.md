@@ -4,7 +4,10 @@ title: Détection des anomalies
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ Voici quelques exemples d’anomalies dont vous pouvez rechercher l’origine :
 * Pic des événements de mémoire tampon pour la vidéo
 * Pic des faibles débits en bits pour la vidéo
 
->[!NOTE] La détection des anomalies n’est disponible que lorsque vous sélectionnez la granularité Jour.
+>[!NOTE]
+>
+>La détection des anomalies n’est disponible que lorsque vous sélectionnez la granularité Jour.
 
 <p class="head"> <b>Mesures de détection des anomalies</b> </p>
 
