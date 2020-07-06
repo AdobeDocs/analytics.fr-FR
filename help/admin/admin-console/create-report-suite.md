@@ -2,7 +2,10 @@
 title: Création d’une suite de rapports
 description: Créez un conteneur de base pour la collecte de données dans Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +22,9 @@ Cet article est destiné aux administrateurs au niveau du système ou aux admini
 
 ## Création d’une suite de rapports
 
->[!NOTE] Il existe également un moyen de créer une suite de rapports dans Adobe Analytics à l’aide de l’administrateur hérité. Adobe recommande d’utiliser l’assistant de configuration de suites de rapports présenté ici.
+>[!NOTE]
+>
+>Il existe également un moyen de créer une suite de rapports dans Adobe Analytics à l’aide de l’administrateur hérité. Adobe recommande d’utiliser l’assistant de configuration de suites de rapports présenté ici.
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur l’icône à 9 carrés dans l’angle supérieur droit, puis sur le logo Analytics coloré.
