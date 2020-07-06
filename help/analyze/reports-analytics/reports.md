@@ -1,8 +1,8 @@
 ---
 title: Rapports
-description: Dimensions et mesures utilisées par les rapports et analyses pour chaque rapport.
+description: Dimensions et mesures utilisées par les rapports et Analytics pour chaque rapport.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -12,9 +12,11 @@ ht-degree: 1%
 
 # Rapports
 
-Chaque rapport des rapports et analyses utilise une dimension dédiée et une mesure par défaut. Vous pouvez modifier la mesure dans chaque rapport et ajouter des ventilations si nécessaire. Les listes suivantes indiquent la dimension utilisée dans chaque rapport.
+Chaque rapport des rapports et Analytics utilise une dimension dédiée et une mesure par défaut. Vous pouvez modifier la mesure dans chaque rapport et ajouter des ventilations si nécessaire. Les listes suivantes indiquent la dimension utilisée dans chaque rapport.
 
-> [!NOTE] Le menu des rapports peut avoir un aspect différent en fonction des personnalisations effectuées par un administrateur de votre organisation. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>Le menu des rapports peut avoir un aspect différent en fonction des personnalisations effectuées par un administrateur de votre organisation. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
 ## Mesures du site
 
@@ -35,7 +37,7 @@ Contient des rapports qui affichent généralement des tendances à l’aide d�
 * Durée de la visite : Utilise la dimension [Durée de la visite - regroupée](/help/components/dimensions/time-spent-per-visit.md) .
 * Heure avant le événement : Utilise la dimension [Heure avant événement](/help/components/dimensions/time-prior-to-event.md) .
 * Achats : Contient des rapports sur les mesures basées sur les achats.
-   * Entonnoir de conversion d&#39;achat : Rapport sur les [visites](/help/components/metrics/visits.md), les [paniers](/help/components/metrics/carts.md), les [commandes](/help/components/metrics/orders.md), les [recettes et les unités dans un rapport Entonnoir. ](/help/components/metrics/revenue.md)[](/help/components/metrics/units.md) Une visualisation similaire est réalisée dans Analyse Workspace à l’aide de la visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
+   * Entonnoir de conversion d&#39;achat : Rapport sur les [visites](/help/components/metrics/visits.md), les [paniers](/help/components/metrics/carts.md), les [commandes](/help/components/metrics/orders.md), les [recettes et les unités dans un rapport Entonnoir. ](/help/components/metrics/revenue.md)[](/help/components/metrics/units.md) Une visualisation similaire est réalisée en Analysis Workspace à l’aide de la visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
    * Recettes : Tendances des [recettes](/help/components/metrics/revenue.md) de la mesure au fil du temps.
    * Commandes : Tendances de la mesure [Commandes](/help/components/metrics/orders.md) au fil du temps.
    * Unités : Tendances des [unités](/help/components/metrics/units.md) de mesure au fil du temps.
@@ -86,13 +88,13 @@ Contient des rapports sur les rapports mobiles hérités. Ces rapports fondent l
 
 Contient des rapports qui vous permettent d’afficher les données de cheminement pour les visiteurs.
 
-* Flux de page suivante : Utilise un rapport de flux sur la valeur de dimension de la page supérieure. Les vues de chemin sont similaires aux [instances](/help/components/metrics/instances.md). Vous pouvez modifier la valeur de dimension signalée. Un rapport similaire dans Analyse Workspace est disponible à l’aide d’une visualisation [de](../analysis-workspace/visualizations/c-flow/flow.md)flux.
+* Flux de page suivante : Utilise un rapport de flux sur la valeur de dimension de la page supérieure. Les vues de chemin sont similaires aux [instances](/help/components/metrics/instances.md). Vous pouvez modifier la valeur de dimension signalée. Un rapport similaire en Analysis Workspace est disponible à l’aide d’une visualisation [](../analysis-workspace/visualizations/c-flow/flow.md)Flux.
 * Page suivante : Prend la valeur de dimension de la première page et vous montre les pages suivantes auxquelles les visiteurs sont allés.
-* Flux de page précédente : Utilise un rapport de flux sur la valeur de dimension de la page supérieure Un rapport similaire dans l’espace de travail d’Analyse est disponible à l’aide d’une visualisation [de](../analysis-workspace/visualizations/c-flow/flow.md)flux.
+* Flux de page précédente : Utilise un rapport de flux sur la valeur de dimension de la page supérieure Un rapport similaire en Analysis Workspace est disponible à l’aide d’une visualisation [de](../analysis-workspace/visualizations/c-flow/flow.md)flux.
 * Page précédente : Prend la valeur de dimension de la page supérieure et vous montre les pages précédentes d’où viennent les visiteurs.
-* Abandon : Permet de sélectionner les valeurs de dimension de page en étapes et indique la proportion de personnes qui ont suivi et non suivi ce chemin. Un rapport similaire dans l’espace de travail d’Analyse est disponible à l’aide d’une visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
-* Chemins complets : Affiche les chemins individuels sous forme de valeurs de dimension. Retraité dans Analyse Workspace ; utilisez plutôt la visualisation [](../analysis-workspace/visualizations/c-flow/flow.md) Flux.
-* PathFinder : Fournit plusieurs types de rapports qui vous permettent d’analyser les chemins d’accès (retraités dans Analyse Workspace).
+* Abandon : Permet de sélectionner les valeurs de dimension de page en étapes et indique la proportion de personnes qui ont suivi et non suivi ce chemin. Un rapport similaire en Analysis Workspace est disponible à l’aide d’une visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
+* Chemins complets : Affiche les chemins individuels sous forme de valeurs de dimension. Retraité en Analysis Workspace ; utilisez plutôt la visualisation [](../analysis-workspace/visualizations/c-flow/flow.md) Flux.
+* PathFinder : Fournit plusieurs types de rapports qui vous permettent d&#39;analyser les chemins (retraité dans l&#39;Analysis Workspace).
 * Longueur de chemin : Utilise la dimension de profondeur [de](/help/components/dimensions/visit-depth.md) visite.
 * Analyse de page
    * Résumé de la page : Prend la valeur de dimension de la page supérieure et affiche une vue de tendance. Affiche également les points d’entrée, les pages précédentes, les points de sortie et les pages suivantes pour cette valeur de dimension de page supérieure.
@@ -105,7 +107,9 @@ Contient des rapports qui vous permettent d’afficher les données de chemineme
    * Visites mono-page : Utilise la dimension [Page](/help/components/dimensions/page.md) avec le segment &quot;Visites mono-page&quot; fourni par Adobe appliqué.
    * Pages de sortie : Utilise la dimension Pages [de](/help/components/dimensions/exit-dimensions.md) sortie.
 
-> [!NOTE] D’autres rapports peuvent apparaître dans ce dossier. Il s’agit d’autres dimensions, telles que les props, dans lesquelles le [cheminement est activé](../../admin/admin/c-traffic-variables/traffic-var.md) sous les paramètres de la suite de rapports.
+>[!NOTE]
+>
+>D’autres rapports peuvent apparaître dans ce dossier. Il s’agit d’autres dimensions, telles que les props, dans lesquelles le [cheminement est activé](../../admin/admin/c-traffic-variables/traffic-var.md) sous les paramètres de la suite de rapports.
 
 ## Sources de trafic
 
@@ -127,16 +131,16 @@ Contient un rapport qui indique d’où viennent les visiteurs avant d’arriver
 
 Contient des rapports principalement autour de la dimension Code [de](/help/components/dimensions/tracking-code.md) suivi.
 
-* Entonnoir de conversion Campaign : Signale les clics publicitaires, les [passages en caisse](/help/components/metrics/checkouts.md), les [commandes](/help/components/metrics/orders.md)et les [recettes](/help/components/metrics/revenue.md) dans un rapport Entonnoir. La mesure Clics publicitaires est similaire à la mesure [Instances](/help/components/metrics/instances.md) dans le contexte de la dimension Code [de](/help/components/dimensions/tracking-code.md) suivi. Une visualisation similaire est réalisée dans Analyse Workspace à l’aide de la visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
+* Entonnoir de conversion Campaign : Signale les clics publicitaires, les [passages en caisse](/help/components/metrics/checkouts.md), les [commandes](/help/components/metrics/orders.md)et les [recettes](/help/components/metrics/revenue.md) dans un rapport Entonnoir. La mesure Clics publicitaires est similaire à la mesure [Instances](/help/components/metrics/instances.md) dans le contexte de la dimension Code [de](/help/components/dimensions/tracking-code.md) suivi. Une visualisation similaire est réalisée en Analysis Workspace à l’aide de la visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
 * Code de suivi : Utilise la dimension de code [de](/help/components/dimensions/tracking-code.md) suivi.
 
 ## Produits
 
 Contient des rapports principalement autour de la dimension [Produit](/help/components/dimensions/product.md) .
 
-* Entonnoir de conversion de produits : Signale les vues [](/help/components/metrics/product-views.md)de produits, les ajouts [au](/help/components/metrics/cart-additions.md)panier, les [passages en caisse](/help/components/metrics/checkouts.md), les [commandes, Units et les recettes dans un rapport Entonnoir. ](/help/components/metrics/orders.md)[](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) Une visualisation similaire est réalisée dans Analyse Workspace à l’aide de la visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
+* Entonnoir de conversion de produits : Signale les vues [](/help/components/metrics/product-views.md)de produits, les ajouts [au](/help/components/metrics/cart-additions.md)panier, les [passages en caisse](/help/components/metrics/checkouts.md), les [commandes, Units et les recettes dans un rapport Entonnoir. ](/help/components/metrics/orders.md)[](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) Une visualisation similaire est réalisée en Analysis Workspace à l’aide de la visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
 * Produits : Utilise la dimension [Produits](/help/components/dimensions/product.md) .
-* Vente croisée : Affiche les produits couramment vendus ensemble (retraités dans Analyse Workspace).
+* Vente croisée : Affiche les produits couramment vendus ensemble (retraités en Analysis Workspace).
 * Catégories : Utilise la dimension [Catégorie](/help/components/dimensions/category.md) .
 
 ## Rétention des visiteurs
@@ -167,9 +171,9 @@ Contient des rapports sur les visiteurs de votre site.
    * Les États-Unis déclarent : Utilise la dimension Etats [](/help/components/dimensions/us-states.md) américains.
    * DMA US : Utilise la dimension DMA [](/help/components/dimensions/us-dma.md) US.
 * Langues : Utilise la dimension [Langage](/help/components/dimensions/language.md) .
-* Fuseaux horaires : Utilise la dimension de fuseau horaire (retiré dans l’espace de travail des Analyses). Les valeurs de dimension sont le décalage GMT de l’accès.
+* Fuseaux horaires : Utilise la dimension de fuseau horaire (retiré en Analysis Workspace). Les valeurs de dimension sont le décalage GMT de l’accès.
 * Domaine : Utilise la dimension [Domaine](/help/components/dimensions/domain.md) .
-* Domaine de niveau supérieur : Utilise la dimension de domaine de niveau supérieur (retirée dans l’espace de travail des Analyses). Il regroupe les [domaines](/help/components/dimensions/domain.md) en catégories de niveau supérieur, généralement par pays du domaine.
+* Domaine de niveau supérieur : Utilise la dimension de domaine de niveau supérieur (retirée en Analysis Workspace). Il regroupe les [domaines](/help/components/dimensions/domain.md) en catégories de niveau supérieur, généralement par pays du domaine.
 * Technologie : Dossier contenant des rapports sur les éléments utilisés par le visiteur pour accéder à votre site.
    * Navigateurs : Utilise la dimension [Navigateurs](/help/components/dimensions/browser.md) .
    * Type de navigateur : Utilise la dimension de type [](/help/components/dimensions/browser-type.md) Navigateur.
@@ -180,12 +184,12 @@ Contient des rapports sur les visiteurs de votre site.
    * Intensité des couleurs de l&#39;écran : Utilise la dimension de profondeur [de](/help/components/dimensions/color-depth.md) couleur.
    * Résolution de l&#39;écran : Utilise la dimension de résolution [de l’](/help/components/dimensions/monitor-resolution.md) écran.
    * Java : Utilise la dimension [Java activée](/help/components/dimensions/java-enabled.md) .
-   * JavaScript : Utilise la dimension JavaScript activée (désactivée dans Analyse Workspace). Les valeurs de dimension sont &quot;Activé&quot;, &quot;Désactivé&quot; ou &quot;Inconnu&quot;, selon si JavaScript est activé dans le navigateur.
-   * Version de JavaScript : utilise la dimension de version JavaScript (retraitée dans Analyse Workspace). Les valeurs de dimension indiquent la version de JavaScript utilisée par le navigateur.
+   * JavaScript : Utilise la dimension JavaScript activée (désactivée dans l’Analysis Workspace). Les valeurs de dimension sont &quot;Activé&quot;, &quot;Désactivé&quot; ou &quot;Inconnu&quot;, selon si JavaScript est activé dans le navigateur.
+   * Version de JavaScript : utilise la dimension de version JavaScript (retraitée en Analysis Workspace). Les valeurs de dimension indiquent la version de JavaScript utilisée par le navigateur.
    * Cookies : Utilise la dimension de prise en charge [des](/help/components/dimensions/cookie-support.md) cookies.
    * Types de connexion : Utilise la dimension de type [](/help/components/dimensions/connection-type.md) Connexion.
    * Opérateur de téléphonie mobile : Utilise la dimension Opérateur [de](/help/components/dimensions/mobile-dimensions.md) téléphonie mobile.
-* Etat du Visiteur : Utilise la dimension Etat (retiré dans l’espace de travail d’Analyse). Les valeurs de dimension proviennent de la [`state`](../../implement/vars/page-vars/state.md) variable.
+* Etat du Visiteur : Utilise la dimension Etat (retraité en Analysis Workspace). Les valeurs de dimension proviennent de la [`state`](../../implement/vars/page-vars/state.md) variable.
 * Code postal du Visiteur : Utilise la dimension de code [](/help/components/dimensions/zip-code.md) postal.
 
 ## Conversion personnalisée
@@ -200,7 +204,7 @@ Contient des rapports spécifiques à votre mise en oeuvre. Les rapports de traf
 
 Contient des rapports impliquant des canaux [](/help/components/c-marketing-channels/c-getting-started-mchannel.md)marketing.
 
-* Rapport d&#39;aperçu du Canal : Rapport personnalisé spécifique aux rapports et analyses. Utilise les canaux marketing comme valeurs de dimension, les mesures utilisant l’attribution Première touche ou Dernière touche.
+* Rapport d&#39;aperçu du Canal : Rapport personnalisé spécifique aux rapports et aux Analytics. Utilise les canaux marketing comme valeurs de dimension, les mesures utilisant l’attribution Première touche ou Dernière touche.
 * canal Première touche : Utilise la dimension canal [](/help/components/dimensions/first-touch-channel.md) Première touche.
 * Détails du canal Première touche : Utilise la dimension détaillée [du canal](/help/components/dimensions/first-touch-detail.md) Première touche.
 * canal Dernière touche : Utilise la dimension canal [](/help/components/dimensions/last-touch-channel.md) Dernière touche.
@@ -208,14 +212,16 @@ Contient des rapports impliquant des canaux [](/help/components/c-marketing-chan
 
 ## Signets
 
-Contient les rapports que vous avez mis en signet. Voir [Signets](bookmarks.md) pour plus d’informations.
+Contient les rapports que vous avez mis en signet. See [Bookmarks](bookmarks.md) for more information.
 
 ## Tableaux de bord
 
-Contient les tableaux de bord que vous avez créés. Voir [Tableaux de bord](dashboard.md) pour plus d’informations.
+Contient les tableaux de bord que vous avez créés. See [Dashboards](dashboard.md) for more information.
 
 ## Cibles 
 
-Contient les cibles que vous avez créées. Voir [Cibles](targets.md) pour plus d’informations.
+Contient les cibles que vous avez créées. See [Targets](targets.md) for more information.
 
-> [!NOTE] Si vous ne trouvez pas votre rapport sur cette page d&#39;aide, il est possible que votre administrateur ait renommé ou modifié des dossiers. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>Si vous ne trouvez pas votre rapport sur cette page d&#39;aide, il est possible que votre administrateur ait renommé ou modifié des dossiers. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
