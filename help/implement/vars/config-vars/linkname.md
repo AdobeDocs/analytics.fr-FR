@@ -1,8 +1,11 @@
 ---
 title: linkName
 description: Permet de définir le nom de l’accès au lien personnalisé.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Vous pouvez définir le champ du nom du lien lors de la configuration d’une r�
 
 La variable `s.linkName` est une chaîne qui détermine la valeur de dimension pour les liens personnalisés, les liens de téléchargement ou les liens de sortie (selon ce à quoi [`s.linkType`](linktype.md) correspond). Celle-ci peut contenir jusqu’à 100 octets.
 
->[!TIP] Cette variable correspond au troisième paramètre de la méthode `tl()` et n’a généralement pas besoin d’être définie en tant que variable autonome. Cependant, vous pouvez utiliser la variable `linkName` si vous ne souhaitez pas définir de valeurs comme arguments dans la méthode `tl()`.
+>[!TIP]
+>
+>Cette variable correspond au troisième paramètre de la méthode `tl()` et n’a généralement pas besoin d’être définie en tant que variable autonome. Cependant, vous pouvez utiliser la variable `linkName` si vous ne souhaitez pas définir de valeurs comme arguments dans la méthode `tl()`.
 
 ```js
 s.linkName = "Example custom link";
