@@ -4,7 +4,10 @@ title: Gestion des segments
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '919'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +22,11 @@ Le Report Builder inclut un panneau de segmentation à l’étape 1 de l’Assi
 
 ## Ajouter ou modifier des segments {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE] Pour ajouter ou modifier des segments, l’interface de segments du Report Builder lance le Créateur de segments d’Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
+>[!NOTE]
+>
+>Pour ajouter ou modifier des segments, l’interface de segments du Report Builder lance le Créateur de segments d’Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
 
-1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
+1. Dans le panneau des segments de l’étape 1 de l’Assistant Requête, cliquez sur **[!UICONTROL Ajouter]**.
 1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, reportez-vous à la segmentation [](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html)Analytics.
 1. Une fois le segment défini et enregistré, retournez à l’Assistant Requête.
 1. Cliquez sur l’icône Actualiser afin d’actualiser la liste des segments.
@@ -35,7 +40,7 @@ Le Report Builder inclut un panneau de segmentation à l’étape 1 de l’Assi
 Vous souhaitez peut-être transformer en segments des associations spécifiques de dimensions de rapport. Vous pouvez créer ces segments depuis l’interface du Report Builder. Par exemple, sélectionnez quelques pages depuis une sortie de la requête Page et créez un segment basé sur ces valeurs.
 
 1. Sélectionnez les éléments de sortie du rapport que vous souhaitez transformer en segment.
-1. Right-click to select **[!UICONTROL Create In-Context Segment in]** and specify the right container (Hits Container, Visits Container, Visitor Container).
+1. Cliquez avec le bouton droit pour sélectionner **[!UICONTROL Créer un segment dans le contexte dans]** et indiquez le conteneur approprié (Conteneur d’accès, Conteneur de visites, Conteneur de visiteurs).
 
    ![](assets/seg_in_context.png)
 
@@ -52,13 +57,15 @@ Chaque segment créé dans les Reports &amp; Analytics, dans Ad Hoc Analysis, da
 
 Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela inclut les segments séquentiels.
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]** box to display all the segments.
+1. Accédez à la liste déroulante **[!UICONTROL Segment]** et cliquez sur la petite flèche vers le bas dans la zone **[!UICONTROL Rechercher des segments]** afin d’afficher tous les segments.
 
    ![](assets/seg_list.png)
 
 1. Cochez le ou les segments que vous souhaitez appliquer.
 
->[!NOTE] Dans le Report Builder, que vous soyez administrateur ou non, vous ne pouvez consulter que les segments que vous possédez et ceux qui ont été partagés avec vous. (Dans l’interface utilisateur de Reports &amp; Analytics marketing, l’administrateur peut consulter tous les segments de l’entreprise.)
+>[!NOTE]
+>
+>Dans le Report Builder, que vous soyez administrateur ou non, vous ne pouvez consulter que les segments que vous possédez et ceux qui ont été partagés avec vous. (Dans l’interface utilisateur de Reports &amp; Analytics marketing, l’administrateur peut consulter tous les segments de l’entreprise.)
 
 ## Filtrage des segments {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -84,8 +91,8 @@ L’ajout d’un contrôle de segments vous permet de basculer entre les segment
 
    ![](assets/seg_control.png)
 
-1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
-1. Remarquez l&#39;option **[!UICONTROL Automatically refresh linked requests upon item selection]**.
+1. Cochez tous les segments que vous souhaitez inclure dans le contrôle de segments ou bien, cochez **[!UICONTROL Sélectionner tout]**.
+1. Notez l’option permettant d’**[!UICONTROL Actualiser automatiquement les requêtes liées lors de la sélection]**.
 
    * Si cette case est cochée, toutes les requêtes qui utilisent ce contrôle sont actualisées.
    * Si elle n’est pas cochée, les paramètres de requête associés sont mis à jour mais les requêtes ne sont pas actualisées.
@@ -106,7 +113,7 @@ Avant la version 5.4, les utilisateurs pouvaient modifier les segments pour plu
 Dans la version 5.4 du Report Builder, vous pouvez ajouter, supprimer et remplacer un ou tous les segments dans plusieurs demandes :
 
 1. Sélectionnez plusieurs demandes dans un classeur.
-1. Cliquez avec le bouton droit de la souris et sélectionnez **[!UICONTROL Edit Requests]** > **[!UICONTROL By Segment]**.
+1. Cliquez avec le bouton droit de la souris, puis sélectionnez **[!UICONTROL Modifier les requêtes]** > **[!UICONTROL Par segment]**.
 
    ![](assets/edit_by_segment.png)
 
