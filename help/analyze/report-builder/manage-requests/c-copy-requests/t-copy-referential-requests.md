@@ -4,7 +4,10 @@ title: Copie de requêtes référentielles
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 100%
 
 ---
 
@@ -17,20 +20,22 @@ Pour propager ou copier et coller les requêtes référentielles dans la feuille
 
 Vous pouvez également créer des requêtes qui renvoient à des filtres d’entrée issus de requêtes de différentes feuilles de calcul, mais dans un seul classeur. Par exemple, une requête dans la Feuille 2 peut utiliser une suite de rapports d’une cellule particulière de la Feuille 1 et une plage de dates d’une cellule dans une requête de la Feuille 2. Le nouveau résultat peut être placé dans l’une des deux feuilles ou dans une nouvelle feuille du même classeur. Lorsque vous collez une requête relative, si un filtre d’entrée réside dans une feuille de calcul autre que celle sur laquelle est situé le résultat de la requête copiée, le filtre est collé en tant que filtre absolu.
 
->[!NOTE] Vous ne pouvez pas générer les résultats d’une requête dans plusieurs feuilles de calcul. Par ailleurs, le système ne peut pas coller certaines des requêtes copiées dans les nouveaux classeurs, car ces requêtes contiennent des filtres d’entrée issus d’autres feuilles de calcul. Les filtres d’entrée incluent des suites de rapports issues des cellules, des plages de dates des cellules, des filtres des cellules et d’autres paramètres connexes.
+>[!NOTE]
+>
+>Vous ne pouvez pas générer les résultats d’une requête dans plusieurs feuilles de calcul. Par ailleurs, le système ne peut pas coller certaines des requêtes copiées dans les nouveaux classeurs, car ces requêtes contiennent des filtres d’entrée issus d’autres feuilles de calcul. Les filtres d’entrée incluent des suites de rapports issues des cellules, des plages de dates des cellules, des filtres des cellules et d’autres paramètres connexes.
 
 **Pour copier les requêtes référentielles**
 
 1. Sélectionnez les cellules contenant les requêtes à copier, y compris la cellule d’entrée ou la cellule référencée.
-1. Right-click within the highlighted cells and select **[!UICONTROL Copy Requests]** from the shortcut menu.
+1. Cliquez avec le bouton droit dans les cellules en surbrillance, puis sélectionnez **[!UICONTROL Copier les requêtes]** dans le menu contextuel.
 
    Après avoir sélectionné la zone où résident les requêtes et cellules d’entrée, le système surligne les cellules contenant ces éléments.
 1. Sélectionnez l’une des cellules ou une plage de cellules contiguës à remplir avec les requêtes collées.
 
    Assurez-vous que la cellule ou plage de cellules sélectionnée ne contient aucune autre donnée ou requête.
-1. Right-click the single cell or the top left-most cell in the range of cells and select **[!UICONTROL Paste Requests]**.
+1. Cliquez avec le bouton droit sur la cellule unique ou sur la cellule la plus en haut à gauche de la plage de cellules, puis sélectionnez **[!UICONTROL Coller les requêtes]**.
 
-   When pasting requests that include an input cell, the options under [!UICONTROL Paste Requests] include:
+   Si vous collez des requêtes qui incluent une cellule d’entrée, le menu [!UICONTROL Coller les requêtes] comprend les options suivantes :
 
    **Utiliser la cellule d’entrée absolue** : colle une copie des requêtes et de la mise en forme associée aux cellules sélectionnées dans la zone de collage en surbrillance. La cellule d’entrée (cellule référencée dans l’une des requêtes d’origine) n’est pas collée. Elle reste à la même position qu’auparavant.
 
