@@ -2,7 +2,10 @@
 title: Mise en œuvre à l’aide d’AJAX
 description: Découvrez comment mettre en œuvre Adobe Analytics sur un site à l’aide d’AJAX.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -24,13 +27,17 @@ Comme les pages qui utilisent AJAX ne se rechargent généralement pas, il exist
 * Si la réponse est **oui**, pensez à utiliser un appel de suivi des pages vues (`s.t()`).
 * Si la réponse est **non**, envisagez d’effectuer le suivi de cette interaction à l’aide d’un appel de suivi des liens (`s.tl()`).
 
->[!NOTE] Toutes les interactions ou tous les clics ne doivent pas être enregistrés. Examinez attentivement les actions qui sont les plus importantes à suivre et envoyez les données à Adobe en conséquence.
+>[!NOTE]
+>
+>Toutes les interactions ou tous les clics ne doivent pas être enregistrés. Examinez attentivement les actions qui sont les plus importantes à suivre et envoyez les données à Adobe en conséquence.
 
 ## Effacement des variables sur chaque page
 
 Les valeurs de variable persistent sur les pages utilisant AJAX, car la page ne se recharge pas. Par conséquent, des mesures d’adaptation spéciales sont nécessaires pour effacer les valeurs variables afin qu’elles ne persistent pas incorrectement dans les accès. Adobe offre la fonction [`clearVars`](../vars/functions/clearvars.md) permettant d’effacer facilement les valeurs de variable. Veillez à utiliser cette fonction après avoir envoyé chaque accès à Adobe et avant de définir les valeurs de variable pour le prochain accès.
 
->[!TIP] La fonction `clearVars()` n’est pas disponible dans le code H. Si vous n’avez pas effectué la mise à niveau vers AppMeasurement, définissez chaque valeur de variable Analytics sur une chaîne vide.
+>[!TIP]
+>
+>La fonction `clearVars()` n’est pas disponible dans le code H. Si vous n’avez pas effectué la mise à niveau vers AppMeasurement, définissez chaque valeur de variable Analytics sur une chaîne vide.
 
 ## Exemples
 
