@@ -3,7 +3,10 @@ description: 'Si vous avez sélectionné la méthode de collecte de données du 
 title: Code du plug-in Analytics
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 100%
 
 ---
 
@@ -22,4 +25,6 @@ Si vous avez sélectionné la méthode de collecte de données du plug-in JavaSc
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
->[!NOTE] Le plug-in ci-dessus considère que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le plug-in ci-dessus ne sont pas disponibles dans votre déploiement Analytics, remplacez-les par les variables disponibles.
+>[!NOTE]
+>
+>Le plug-in ci-dessus considère que certaines variables de commerce personnalisées (eVars) sont disponibles. Si les variables spécifiées dans le plug-in ci-dessus ne sont pas disponibles dans votre déploiement Analytics, remplacez-les par les variables disponibles.
