@@ -5,10 +5,10 @@ title: Variables de conversion (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1579'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,9 @@ Les eVars sont parfaitement adaptées à la mesure des causes et des effets, com
 
 Il est conseillé d’utiliser des variables de trafic si vous souhaitez procéder à une mesure du trafic ou utiliser le cheminement.
 
->[!NOTE] Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html).
+>[!NOTE]
+>
+>Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Variables de conversion - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -87,7 +89,7 @@ Description des champs utilisés lors de la [modification des variables de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes : </p> <p> <b>Syntaxe Produits</b> :</span> associe la valeur eVar à un produit. Remarque : si Syntaxe Produits est sélectionné, la section Événement de liaison de marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les événements de liaison ne sont pas applicables. </p> </p> <p> <b>Syntaxe de la variable de conversion</b> :</span> associe uniquement la valeur eVar à un produit si un événement de liaison survient. Dans ce cas, sélectionnez les événements qui se comportent comme des événements de liaison. </p> <p>Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html"> Variables de marchandisage</a>. </p> </td> 
+   <td colname="col2"> <p>Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes : </p> <p> <b>Syntaxe Produits</b> :</span> associe la valeur eVar à un produit. Remarque : si Syntaxe Produits est sélectionné, la section Événement de liaison de marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les événements de liaison ne sont pas applicables. </p> </p> <p> <b>Syntaxe de la variable de conversion</b> :</span> associe uniquement la valeur eVar à un produit si un événement de liaison survient. Dans ce cas, sélectionnez les événements qui se comportent comme des événements de liaison. </p> <p>Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/merchandising-variables/var-merchandising.html"> Variables de marchandisage</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Événement de liaison de marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
@@ -103,15 +105,15 @@ Les `eVars` arrivent à expiration après une période que vous avez spécifiée
 Il existe deux méthodes pour faire expirer une eVar :
 
 * Vous pouvez la configurer de manière à ce qu’elle arrive à expiration après une période ou un événement spécifique.
-* Vous pouvez forcer l&#39;expiration d&#39;une eVar en la réinitialisant, ce qui s&#39;avère utile lorsque vous redéfinissez l&#39;objectif d&#39;une variable.
+* Vous pouvez forcer l’expiration d’une eVar en la réinitialisant, ce qui se révèle utile pour redéfinir son objectif.
 
-Par exemple, si vous passez de 30 à 90 jours l’expiration d’une eVar, les valeurs d’eVar collectées continueront à persister pendant la durée du nouveau jeu d’expiration (dans ce cas, 90 jours). Le système examine simplement le paramètre d’expiration actuel et le dernier horodatage défini de la valeur eVar collectée pour déterminer l’expiration. Seule l’option **[!UICONTROL Réinitialiser]** expire les valeurs et le fait immédiatement.
+Par exemple, si vous faites passer de 30 à 90 jours l’expiration d’une eVar, les valeurs d’eVar collectées continueront à persister pendant la durée du nouveau jeu d’expiration (dans ce cas, 90 jours). Le système examine simplement le paramètre d’expiration actuel et le dernier horodatage défini de la valeur eVar collectée pour déterminer l’expiration. Seule l’option **[!UICONTROL Réinitialiser]** expire les valeurs et le fait immédiatement.
 
-Autre exemple : Si une eVar est utilisée en mai pour refléter les promotions internes et arrive à expiration après 21 jours et qu&#39;en juin elle est utilisée pour capturer des mots-clés de recherche interne, le 1er juin, vous devez forcer l&#39;expiration de la variable ou la réinitialiser. De cette manière, les valeurs de promotion interne ne figureront pas dans les rapports du mois de juin.
+Autre exemple : Une eVar, d’une durée de validité de 21 jours, est utilisée en mai pour faire état de promotions internes, et en juin, est utilisée pour capturer des mots-clés de recherche interne. Dans ce cas, le 1er juin, vous devez forcer l’expiration de cette variable ou la réinitialiser. De cette manière, les valeurs de promotion interne ne figureront pas dans les rapports du mois de juin.
 
 **Respect de la casse**
 
-Les eVars ne sont pas sensibles à la casse, mais elles respectent la mise en majuscules de la première occurrence. Ainsi, si la première instance de la variable eVar1 est définie sur « Connecté », mais que toutes les instances suivantes sont transmises sous la forme « connecté », les rapports affichent toujours « Connecté » comme valeur de l’eVar.
+Les eVars sont insensibles à la casse, mais elles respectent la mise en majuscules de la première occurrence. Ainsi, si la première instance de la variable eVar1 est définie sur « Connecté », mais que toutes les instances suivantes sont transmises sous la forme « connecté », les rapports affichent toujours « Connecté » comme valeur de l’eVar.
 
 **Compteurs**
 
