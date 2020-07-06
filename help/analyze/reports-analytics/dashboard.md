@@ -4,8 +4,11 @@ subtopic: Dashboards
 title: Tableaux de bord et petits rapports
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ Remarque : Certains rapports fréquemment consultés ne peuvent pas être inclu
 * Rapports en temps réel
 * Autres tableaux de bord
 
->[!NOTE] Le tableau de bord **[!UICONTROL Aperçu du site]** n’est plus répertorié dans Reports &amp; Analytics. Toutefois, certains ou tous les mini-rapports afférents peuvent encore s’afficher, dans certains cas.
+>[!NOTE]
+>
+>Le tableau de bord **[!UICONTROL Aperçu du site]** n’est plus répertorié dans Reports &amp; Analytics. Toutefois, certains ou tous les mini-rapports afférents peuvent encore s’afficher, dans certains cas.
 
 * Si, par exemple, vous avez uniquement trois rapports fréquemment consultés, Reports &amp; Analytics récupère deux rapports du tableau de bord Aperçu du site pour remplir le tableau de bord **[!UICONTROL Mes rapports recommandés]**.
 * Par ailleurs, les nouvelles suites de rapports présentent initialement uniquement les mini-rapports Aperçu du site, jusqu’à ce qu’ils soient remplacés par vos rapports fréquemment consultés. Néanmoins, le tableau de bord sera intitulé **[!UICONTROL Mes rapports recommandés]**.
@@ -144,6 +149,7 @@ t_dashboard_content.xml
    * Récapitulatif de la Report Suite : affiche pour une suite de rapports une mesure sélectionnée et son total ou ses valeurs plafond et plancher.
    * Résumé de l’utilisation : affiche les données sur l’interface accessible au personnel de votre entreprise. Ce petit rapport peut afficher les données par nom d’utilisateur, rapport ou suite de rapports.
 Vous pouvez créer les petits rapports de contenu d’utilisateur ci-après en indiquant les URL. Si une image ou une autre URL de ressources ne commence pas par https://, un avertissement destiné aux utilisateurs d’Internet Explorer peut apparaître pour vous aviser qu’il s’agit d’un contenu mixte. Vous pouvez désactiver l’avertissement de contenu mixte à partir des paramètres de sécurité du navigateur.
+
    *Contenu utilisateur :*
 
    * Rapport externe : vous permet d’ajouter un rapport externe aux formats .xml et .csv.
@@ -151,6 +157,7 @@ Vous pouvez créer les petits rapports de contenu d’utilisateur ci-après en i
    * Image : vous permet de créer un tableau de bord à partir d’une image URL. Si l’URL utilise le protocole HTTP, Internet Explorer génère un avertissement de contenu mixte. Une URL contenant le protocole HTTPS supprime l’avertissement. Tous les autres protocoles affichent une erreur `Specified URL could not be retrieved`.
    * RSS : vous permet d’ajouter un flux web RSS. Doit reposer sur le protocole HTTP ou HTTPS. Dans le cas contraire, une erreur `Specified URL could not be retrieved` s’affichera.
    * Texte : vous permet d’utiliser du code XHTML pour créer vos propres données. Utilisez HTTP ou HTTPS pour une URL. Si les images utilisées dans le contenu texte d’un petit rapport reposent sur le protocole HTTP, un avertissement de contenu mixte est envoyé aux utilisateurs d’IE. Les images incluses à l’aide d’autres protocoles ne s’affichent pas dans le petit rapport.
+
    **Mes tableaux de bord**
 
    Répertorie vos tableaux de bord mis à niveau, à partir desquels vous pouvez déplacer du contenu vers le nouveau tableau de bord.
