@@ -4,9 +4,9 @@ title: Compatibilité des segments avec Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 96%
 
 ---
@@ -91,7 +91,7 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
   <tr> 
    <td> <b>Empilement de segments</b> </td> 
    <td> Pris en charge </td> 
-   <td> Non pris en charge </td> 
+   <td> Pris en charge </td> 
   </tr>
   <tr>
     <td><b>Opérateurs "Est égal à l’un des" et "N’est égal à aucun des"</b></td>
