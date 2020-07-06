@@ -3,7 +3,7 @@ description: Affiche des informations sur l’accès aux sites Web depuis un pé
 title: Rapports sur les périphériques mobiles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 98%
@@ -19,9 +19,11 @@ Affiche des informations sur l’accès aux sites Web depuis un périphérique m
 
 Affiche des informations sur l’accès aux sites Web depuis un périphérique mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les périphériques mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
 
-Pour améliorer l’identification des visiteurs pour les périphériques mobiles, vous devez être sur la liste de l’opérateur (liste d’autorisations) pour envoyer des ID d’abonné à un domaine. (vous pouvez afficher l’opérateur dans le rapport **[!UICONTROL Profil du visiteur]** > **[!UICONTROL Domaines]**).
+Pour améliorer l’identification des visiteurs pour les périphériques mobiles, vous devez être sur la liste (liste autorisée) de l’opérateur pour envoyer des ID d’abonné à un domaine. (vous pouvez afficher l’opérateur dans le rapport **[!UICONTROL Profil du visiteur]** > **[!UICONTROL Domaines]**).
 
->[!NOTE] Pour afficher les rapports sur un appareil mobile, connectez-vous à [Experience Cloud](https://login.experiencecloud.adobe.com).
+>[!NOTE]
+>
+>Pour afficher les rapports sur un appareil mobile, connectez-vous à [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 Pour obtenir de plus amples informations sur le suivi de mobile, consultez le site [Analytics mobile](https://www.adobe.com/fr/experience-cloud/topics/mobile-analytics.html).
 
@@ -34,7 +36,7 @@ Pour obtenir de plus amples informations sur le suivi de mobile, consultez le si
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Périphériques Rapport </p> </td> 
+   <td colname="col1"> <p>Rapport Dispositifs </p> </td> 
    <td colname="col2"> <p>Affiche le nombre de visiteurs ayant accédé à votre site à l’aide de périphériques mobiles comme ceux exécutant iOS ou Android. Ce rapport peut vous aider à comprendre l’impact des initiatives mobiles pour effectuer une planification en conséquence. </p> <p>Vous pouvez utiliser ce rapport pour : </p> 
     <ul id="ul_76899F0390C64BF7BC8B3763E5E77CE9"> 
      <li id="li_0DB05A8459634EE59833540F67773298"> Élaborer des stratégies orientées vers les utilisateurs itinérants </li> 
@@ -43,8 +45,8 @@ Pour obtenir de plus amples informations sur le suivi de mobile, consultez le si
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Fabricant Rapport </p> </td> 
-   <td colname="col2"> <p>Groupe les accès des appareils mobiles sur votre site en fonction du fabricant du dispositif. Le rapport affiche le type de fabricant, le nombre de vues pour chaque fabricant et les pourcentages correspondants. </p> </td> 
+   <td colname="col1"> <p>Rapport Fabricant </p> </td> 
+   <td colname="col2"> <p>Groupe les accès des périphériques mobiles sur votre site en fonction du fabricant du dispositif. Le rapport affiche le type de fabricant, le nombre de vues pour chaque fabricant et les pourcentages correspondants. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Taille d’écran Rapport </p> </td> 
@@ -84,7 +86,7 @@ Pour obtenir de plus amples informations sur le suivi de mobile, consultez le si
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapport Protocoles réseau </p> </td> 
-   <td colname="col2"> <p>Groupe les périphériques mobiles en fonction des protocoles réseau (GPRS, CSD, EDGE, HSCSD, etc.) qu’ils prennent en charge. Le rapport inclut également un groupe Inconnu pour les protocoles réseau non identifiés. </p> <p>Lorsqu’un visiteur accède à votre site sur un périphérique mobile, le rapport <span class="wintitle">Protocoles réseau</span> est incrémenté d’au moins une unité. Si le téléphone prend en charge plusieurs protocoles réseau, chacun de ces groupes du rapport est incrémenté. La somme des groupes peut donc être supérieure au total affiché au bas du rapport. </p> </td> 
+   <td colname="col2"> <p>Groupe les appareils mobiles en fonction des protocoles réseau (GPRS, CSD, EDGE, HSCSD, etc.) qu’ils prennent en charge. Le rapport inclut également un groupe Inconnu pour les protocoles réseau non identifiés. </p> <p>Lorsqu’un visiteur accède à votre site sur un périphérique mobile, le rapport <span class="wintitle">Protocoles réseau</span> est incrémenté d’au moins une unité. Si le téléphone prend en charge plusieurs protocoles réseau, chacun de ces groupes du rapport est incrémenté. La somme des groupes peut donc être supérieure au total affiché au bas du rapport. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Système d’exploitation Rapport </td> 
