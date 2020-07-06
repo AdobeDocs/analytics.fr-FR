@@ -4,7 +4,10 @@ title: Autoriser les remplacements de la liste de publication
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 94%
 
 ---
 
@@ -17,11 +20,13 @@ Les listes de publication sont configurées dans les outils d’administration d
 
 Voir la section [Gestionnaire de listes de publication](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html) dans Références Analytics.
 
-Pour activer cette fonctionnalité, accédez à la [!UICONTROL Request Wizard: Step 1] fenêtre.
+Pour activer cette fonctionnalité, accédez à la fenêtre [!UICONTROL Assistant Requête : Étape 1]
 
-If you enable [!UICONTROL Allow Publishing List Override], the report suite assigned to each recipient in the publishing list replaces the report suite for this request. De plus, si le classeur contient plusieurs suites de rapports, l’identifiant de suite de rapports associé à la liste de publication est utilisé.
+Si vous activez la fonction [!UICONTROL Autoriser le remplacement de la liste de publication], la suite de rapports affectée à chaque destinataire de la liste remplace celle qui est associée à cette requête. De plus, si le classeur contient plusieurs suites de rapports, l’identifiant de suite de rapports associé à la liste de publication est utilisé.
 
 Cette option n’est pas disponible pour les suites de rapports sélectionnées à partir de cellules.
 
->[!NOTE] Si vous envoyez le rapport planifié à plusieurs listes de publication, il s’exécute une fois pour chaque liste. Les suites de rapports variables sont remplacées par celle qui est affectée à la liste de publication.
+>[!NOTE]
+>
+>Si vous envoyez le rapport planifié à plusieurs listes de publication, il s’exécute une fois pour chaque liste. Les suites de rapports variables sont remplacées par celle qui est affectée à la liste de publication.
 
