@@ -1,15 +1,20 @@
 ---
 title: getGeoCoordinates
 description: Permet d’assurer le suivi de la géolocalisation d’un visiteur.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 100%
 
 ---
 
 
 # Plug-in Adobe : getGeoCoordinates
 
->[!IMPORTANT] Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
 Le plug-in `getGeoCoordinates` vous permet de relever la latitude et la longitude des appareils des visiteurs. Adobe recommande d’utiliser ce plug-in si vous souhaitez collecter des données de géolocalisation dans des variables Analytics.
 
@@ -59,7 +64,9 @@ La méthode `getGeoCoordinates` n’utilise aucun argument. Elle renvoie l’une
 * `"error retrieving geo coordinates"` : lorsque le plug-in rencontre des erreurs lors de la tentative de récupération de l’emplacement de l’appareil.
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"` : où [LATITUDE]/[LONGITUDE] sont respectivement la latitude et la longitude.
 
->[!NOTE] Les valeurs des coordonnées sont arrondies à la quatrième décimale la plus proche. Par exemple, la valeur de `"40.438635333"` est arrondie à `"40.4386"` pour limiter le nombre de valeurs uniques à saisir. Les valeurs sont suffisamment proches pour déterminer l’emplacement exact de l’appareil dans un rayon d’environ 6 mètres.
+>[!NOTE]
+>
+>Les valeurs des coordonnées sont arrondies à la quatrième décimale la plus proche. Par exemple, la valeur de `"40.438635333"` est arrondie à `"40.4386"` pour limiter le nombre de valeurs uniques à saisir. Les valeurs sont suffisamment proches pour déterminer l’emplacement exact de l’appareil dans un rayon d’environ 6 mètres.
 
 Ce plug-in utilise un cookie nommé `"s_ggc"` pour stocker les coordonnées entre les accès si nécessaire.
 
