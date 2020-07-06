@@ -4,8 +4,11 @@ subtopic: Bot rules
 title: Règles de robots - Aperçu
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +40,9 @@ Adobe n’est pas en mesure de fournir la liste des robots IAB détaillée aux c
 
 ## Règles de robots personnalisées
 
->[!NOTE] : il est possible de définir manuellement 500 règles dans l’interface utilisateur. Au-delà de cette limite, les règles doivent être gérées en bloc au moyen des options Importer un fichier et Exporter des règles de robots.
+>[!NOTE]
+>
+> : il est possible de définir manuellement 500 règles dans l’interface utilisateur. Au-delà de cette limite, les règles doivent être gérées en bloc au moyen des options Importer un fichier et Exporter des règles de robots.
 
 Les règles de robots personnalisées vous permettent de filtrer le trafic sur la base des conditions que vous avez définies.
 
@@ -121,7 +126,9 @@ Les règles VISTA sont appliquées après les règles de robots (voir [Ordre de 
 
 **Traitement de visites enregistrant de nombreux accès** : si plus de 100 accès se produisent au cours d’une visite, la fonction de création de rapports détermine si la durée de la visite (en secondes) est inférieure ou égale au nombre d’accès. Dans ce cas, compte tenu des coûts de traitement des visites longues et intensives, la création de rapports recommence avec une nouvelle visite. Les visites qui enregistrent de nombreux accès sont généralement causées par des attaques de robots et ne sont pas considérées comme ses sessions de navigation normales effectuées par des visiteurs.
 
->[!NOTE] Les accès marqués comme *`bots`* sont facturés comme des [appels au serveur.](/help/admin/c-server-call-usage/overage-overview.md)
+>[!NOTE]
+>
+>Les accès marqués comme *`bots`* sont facturés comme des [appels au serveur.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact de l’obscurcissement des adresses IP sur le filtrage des robots {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
