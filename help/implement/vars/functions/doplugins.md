@@ -1,8 +1,11 @@
 ---
 title: doPlugins
 description: Permet de configurer la logique juste avant qu’un accès ne soit compilé et envoyé à Adobe.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Définissez la variable `s.doPlugins` sur une fonction contenant le code souhait
 s.doPlugins = function() {/* Desired code */};
 ```
 
->[!NOTE] Définissez une fonction sur la variable `doPlugins` une seule fois dans votre mise en œuvre. Si vous définissez la variable `doPlugins` plusieurs fois, seul le code le plus récent est utilisé.
+>[!NOTE]
+>
+>Définissez une fonction sur la variable `doPlugins` une seule fois dans votre mise en œuvre. Si vous définissez la variable `doPlugins` plusieurs fois, seul le code le plus récent est utilisé.
 
 ## Exemples
 
@@ -44,4 +49,6 @@ s.doPlugins = function() {
 }
 ```
 
->[!NOTE] Les versions précédentes d’AppMeasurement comportaient un code légèrement différent `doPlugins()`. Adobe recommande d’utiliser le format ci-dessus (bonne pratique).
+>[!NOTE]
+>
+> Les versions précédentes d’AppMeasurement comportaient un code légèrement différent `doPlugins()`. Adobe recommande d’utiliser le format ci-dessus (bonne pratique).
