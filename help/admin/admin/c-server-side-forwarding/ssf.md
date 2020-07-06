@@ -3,8 +3,11 @@ description: Le transfert côté serveur est conçu pour les clients qui souhait
 solution: Audience Manager
 title: Transfert côté serveur - Aperçu
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '850'
+ht-degree: 100%
 
 ---
 
@@ -67,5 +70,7 @@ Accédez à **Analytics** > **Admin** > **Suites de rapports** > (sélectionn
 * **Désactivée** : le nouveau transfert côté serveur n’est pas activé. Lisez le contenu de la page, puis procédez à l’activation de la fonctionnalité.
 * **Activée** : le nouveau transfert côté serveur est activé. Vous pouvez également configurer l’intégration d’Audience Analytics.
 
->[!NOTE] Les données n’apparaîtront pas dans les autres solutions Experience Cloud telles qu’[Audience Manager](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/aam-home.html) ou [Audiences](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html) tant que les 3 étapes ne sont pas terminées. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.
+>[!NOTE]
+>
+>Les données n’apparaîtront pas dans les autres solutions Experience Cloud telles qu’[Audience Manager](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/aam-home.html) ou [Audiences](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html) tant que les 3 étapes ne sont pas terminées. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.
 
