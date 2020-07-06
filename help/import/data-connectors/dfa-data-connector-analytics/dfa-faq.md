@@ -5,7 +5,10 @@ title: Questions fréquentes
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Si, passé ce délai de trois jours, vous n’avez pas reçu le message de confi
 
 Par exemple, supposons qu’il existe une intégration dans la suite de rapports A avec l’identifiant publicitaire Z auquel est affecté un CSID. Si une autre intégration est configurée ultérieurement dans la suite de rapports B avec l’identifiant publicitaire Z, le CSID ne sera PAS réaffecté à cette nouvelle intégration. L’assistance Google doit en être informée. D’un autre côté, prenons l’exemple d’une intégration dans la suite de rapports A, avec l’identifiant publicitaire Z, puis une intégration ultérieure dans la suite de rapports A, le publicitaire Z est configuré. Seule la première intégration recevra les données de l’intégration ; toutefois, dans ce cas, il est possible de désactiver la première intégration pour que les données soient distribuées à la seconde intégration.
 
->[!NOTE] Les CSID ne sont pas utilisés dans la version 2.0 de l’intégration ; ainsi, le processus de négociation des CSID ne s’applique pas.
+>[!NOTE]
+>
+>Les CSID ne sont pas utilisés dans la version 2.0 de l’intégration ; ainsi, le processus de négociation des CSID ne s’applique pas.
 
 ## J’utilise la version 2.0 de l’intégration et les mesures de coûts ne s’affichent pas pour mes publicités DFA. Pourquoi ? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
