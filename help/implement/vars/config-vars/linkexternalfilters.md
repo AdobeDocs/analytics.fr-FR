@@ -2,21 +2,23 @@
 title: linkExternalFilters
 description: Utilisez la variable linkExternalFilters pour faciliter le suivi automatique des liens de sortie.
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
 
 # linkExternalFilters
 
-AppMeasurement offre la possibilité de suivre automatiquement les liens qui renvoient en dehors de votre site. If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. Les variables `linkExternalFilters` et [`linkInternalFilters`](linkinternalfilters.md) déterminent quels liens sont considérés comme internes/externes.
+AppMeasurement offre la possibilité de suivre automatiquement les liens qui renvoient en dehors de votre site. Si [`trackExternalLinks`](trackexternallinks.md) est activé, une demande d’image est envoyée à Adobe dès qu’un visiteur clique sur un lien pour quitter votre site. Les variables `linkExternalFilters` et [`linkInternalFilters`](linkinternalfilters.md) déterminent quels liens sont considérés comme internes/externes.
 
-Si cette variable contient une valeur, le suivi automatique des liens de sortie se comporte comme une liste d’autorisations. Si un clic sur un lien ne correspond à aucune valeur `linkExternalFilters`, ce lien n’est pas considéré comme un lien de sortie. L’URL entière est examinée par rapport à cette variable. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
+Si cette variable contient une valeur, le suivi automatique des liens de sortie se comporte comme une liste autorisée. Si un clic sur un lien ne correspond à aucune valeur `linkExternalFilters`, ce lien n’est pas considéré comme un lien de sortie. L’URL entière est examinée par rapport à cette variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) est activé, la chaîne de requête est également examinée.
 
->[!TIP] Utilisez cette variable uniquement si vous savez exactement quels domaines vous souhaitez considérer comme des liens de sortie. De nombreuses organisations estiment que l’utilisation de `linkInternalFilters` est suffisante pour répondre à leurs besoins de suivi des liens de sortie et n’utilisent pas `linkExternalFilters`.
+>[!TIP]
+>
+>Utilisez cette variable uniquement si vous savez exactement quels domaines vous souhaitez considérer comme des liens de sortie. De nombreuses organisations estiment que l’utilisation de `linkInternalFilters` est suffisante pour répondre à leurs besoins de suivi des liens de sortie et n’utilisent pas `linkExternalFilters`.
 
 Si vous utilisez à la fois `linkInternalFilters` et `linkExternalFilters`, le lien sur lequel l’utilisateur a cliqué doit correspondre à `linkExternalFilters` **et** ne pas correspondre à `linkInternalFilters` pour être considéré comme un lien de sortie. Si un lien cliqué correspond à la fois aux critères de lien de sortie et de lien de téléchargement, le type de lien de téléchargement est prioritaire.
 
