@@ -3,7 +3,10 @@ description: 'null'
 title: Affichage de l’utilisation actuelle des appels au serveur
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Utilisation de l’appel au serveur]** > **[!UICONTROL Utilisation actuelle]**
 
->[!IMPORTANT] L’ensemble des chiffres affichés relatifs à l’utilisation et à l’engagement regroupent toutes vos sociétés de connexion et vos suites de rapports.
+>[!IMPORTANT]
+>
+>L’ensemble des chiffres affichés relatifs à l’utilisation et à l’engagement regroupent toutes vos sociétés de connexion et vos suites de rapports.
 
 Le tableau de bord de l’utilisation actuelle :
 
