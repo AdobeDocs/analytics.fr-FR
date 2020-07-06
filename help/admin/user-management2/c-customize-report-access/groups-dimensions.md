@@ -6,24 +6,31 @@ title: Personnalisation des autorisations liées aux dimensions
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 98%
 
 ---
 
 
 # Personnalisation des autorisations liées aux dimensions
 
->[!IMPORTANT] La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>[!IMPORTANT]
+>
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
 
 Personnalisez l’accès des utilisateurs à un niveau plus détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de cheminement.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**
+**[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]** > **[!UICONTROL Accès aux rapports]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Personnaliser]**
 
->[!IMPORTANT] Certaines dimensions ne requièrent pas d’autorisation à l’heure actuelle. Il s’agit des dimensions suivantes : Longueur du signet mobile ; Numéro d’appareil mobile ; DRM mobile ; Services d’informations mobiles ; Java VM de mobile ; Mobile – Décoration de courrier ; Protocoles Net mobile ; SE Mobile ; Mobile – Presser pour parler.
+>[!IMPORTANT]
+>
+>Certaines dimensions ne requièrent pas d’autorisation à l’heure actuelle. Il s’agit des dimensions suivantes : Longueur du signet mobile ; Numéro d’appareil mobile ; DRM mobile ; Services d’informations mobiles ; Java VM de mobile ; Mobile – Décoration de courrier ; Protocoles Net mobile ; SE Mobile ; Mobile – Presser pour parler.
 >
 >Ces dimensions sont disponibles pour tous les utilisateurs, quelles que soient les autres autorisations.
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+Les paramètres sur cette page se rapportent aux suites de rapports sélectionnées sur la page [!UICONTROL Définir un groupe d’utilisateurs].
 
 ![](assets/permissions-dimensions.png)
 
@@ -34,9 +41,9 @@ Consultez les informations suivantes au sujet de la catégorie Dimension en ce q
 * Les rapports Vidéo et Mobile sont des dimensions, ainsi que d’autres rapports de solutions Analytics (Experience Manager, Advertising Cloud, Social, etc.).
 * Les rapports de cheminement sont accessibles aux utilisateurs qui ont accès à la dimension parente.
 * Toutes les dimensions et les mesures actuelles des groupes personnalisés ont été automatiquement transférées dans les nouvelles catégories. Si un groupe comprend des mesures actives, il obtiendra par défaut toutes les dimensions (eVars et reconnaissance du contenu) et mesures nouvellement autorisables.
-* Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la [variable](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) sur laquelle repose la classification.
+* Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la [variable](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.translate.html) sur laquelle repose la classification.
 
-Pour plus d’informations, reportez-vous à la section Modifications [des autorisations](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-management/permissions-changes.html)Utilisateur et Groupe.
+Pour plus d’informations, voir Modifications [des autorisations](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-management/permissions-changes.html)Utilisateur et Groupe.
 
 **Personnalisation des dimensions**
 
