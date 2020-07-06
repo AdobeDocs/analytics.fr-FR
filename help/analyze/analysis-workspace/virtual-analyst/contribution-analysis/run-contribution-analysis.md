@@ -3,7 +3,7 @@ description: valeur nulle
 title: Exécution de l’analyse des contributions
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
@@ -52,7 +52,9 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
    * [Créer des alertes.](/help/components/c-alerts/intellligent-alerts.md)
    * [Créer ou comparer des segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
->[!NOTE] L’anomalie en cours d’analyse est mise en évidence au moyen d’un point bleu dans l’analyse des contributions et les projets avec alertes intelligentes qui y sont liés. Ceci permet d’indiquer plus clairement l’anomalie en cours d’analyse.
+>[!NOTE]
+>
+>L’anomalie en cours d’analyse est mise en évidence au moyen d’un point bleu dans l’analyse des contributions et les projets avec alertes intelligentes qui y sont liés. Ceci permet d’indiquer plus clairement l’anomalie en cours d’analyse.
 
 ## Exclusion de dimensions de l’analyse des contributions {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
