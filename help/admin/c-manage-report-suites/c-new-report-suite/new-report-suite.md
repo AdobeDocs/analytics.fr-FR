@@ -3,8 +3,11 @@ description: Vous pouvez créer une suite de rapports en sélectionnant un modè
 title: Paramètres d’une nouvelle suite de rapports
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Vous pouvez créer une suite de rapports en sélectionnant un modèle prédéfin
 
 Descriptions des éléments utilisés lors de la [création d’une suite de rapports](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
->[!NOTE] La [documentation sur les suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-create.md) indique comment créer des suites de rapports virtuelles.
+>[!NOTE]
+>
+>La [documentation sur les suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-create.md) indique comment créer des suites de rapports virtuelles.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
