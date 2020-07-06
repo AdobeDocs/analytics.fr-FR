@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Flux - Aperçu
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ Elle vous offre les possibilités suivantes :
 * Analyser où se rendent les clients avant et après les points de contrôle spécifiés, tels qu’une entrée, une dimension spécifique ou une sortie
 * Créer des segments en désignant un point spécifique dans un cheminement donné
 
->[!NOTE] Pour en savoir plus sur les différences de résultats de l’application des segments aux flux entre Analysis Workspace et les Reports &amp; Analytics/Ad Hoc Analysis, voir [Segmentation comme base des flux et des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>[!NOTE]
+>
+>Pour en savoir plus sur les différences de résultats de l’application des segments aux flux entre Analysis Workspace et les Reports &amp; Analytics/Ad Hoc Analysis, voir [Segmentation comme base des flux et des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 [Visualisation du flux sur YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:56)
 
@@ -30,4 +35,4 @@ Chaque colonne peut présenter une dimension distincte. Faites glisser une dimen
 
 ## Exportation de diagrammes de flux dans des fichiers .CSV de projet {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Les diagrammes de flux font partie d’un fichier CSV de projet, que vous créez en sélectionnant **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Vous pouvez ainsi analyser les résultats des flux dans Microsoft Excel (dans un tableau) ou ailleurs.
+Les diagrammes de flux font partie d’un fichier CSV de projet, que vous créez en sélectionnant **[!UICONTROL Projet]** > **[!UICONTROL Télécharger CSV]**. Vous pouvez ainsi analyser les résultats des flux dans Microsoft Excel (dans un tableau) ou ailleurs.
