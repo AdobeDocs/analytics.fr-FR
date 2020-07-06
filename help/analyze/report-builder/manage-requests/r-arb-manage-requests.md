@@ -4,7 +4,10 @@ title: Gestion des requêtes - Définitions
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,13 @@ Description des champs de gestion des requêtes dans le Report Builder.
 
 ## Aperçu {#section_75C288C945FA4781A4EDF806711A5660}
 
-The [!UICONTROL Request Manager] provides a detailed view of the status of all requests you have built for all sheets or just one sheet of the active workbook. You can also add, edit, refresh, and delete a request (functions typically associated with the [!UICONTROL Request Wizard] and [!UICONTROL Request Manager]) by right-clicking on an available cell in the Excel spreadsheet that contains previous requests.
+Le [!UICONTROL Gestionnaire de requêtes] présente une vue détaillée de l’état de toutes les requêtes générées pour toutes les feuilles ou pour une seule feuille du classeur actif. Il permet également d’ajouter, de modifier, d’actualiser et de supprimer une requête (fonctions généralement associées à l’[!UICONTROL Assistant Requête] et au [!UICONTROL Gestionnaire de requêtes]) en cliquant avec le bouton droit sur l’une des cellules disponibles de la feuille de calcul Excel qui contient les requêtes précédentes.
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur **[!UICONTROL Gérer]** ( ![](assets/edit_request.gif) dans la barre d’outils du Report Builder.
 
->[!NOTE] Le Report Builder d’Adobe applique les dépendances de requête uniquement au sein d’une même feuille de calcul, et non entre plusieurs feuilles de calcul. Ceci garantit la rapidité de l’exécution.
+>[!NOTE]
+>
+>Le Report Builder d’Adobe applique les dépendances de requête uniquement au sein d’une même feuille de calcul, et non entre plusieurs feuilles de calcul. Ceci garantit la rapidité de l’exécution.
 
 ## Définitions {#section_FD29D8614DE74F32A0027FA130F40304}
 
