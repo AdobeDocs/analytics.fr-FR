@@ -2,8 +2,11 @@
 description: 'null'
 title: Aperçu de l’utilisation de l’appel au serveur
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1038'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +64,7 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organisation Experience Cloud </p> </td> 
-   <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui s’étend sur tous les produits et solutions Experience Cloud. </p> <p>L’organisation correspond le plus souvent au nom de votre société. Toutefois, une société peut détenir plusieurs organisations. </p> </td> 
+   <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui s’étend sur tous les produits et solutions Experience Cloud. </p> <p>La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Engagement d’appel au serveur </p> </td> 
@@ -82,7 +85,9 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
 
 La permission de l’utilisation de l’appel au serveur est automatiquement accordée aux administrateurs Analytics. Elle permet aux utilisateurs de voir le tableau de bord et de créer des alertes d’appel au serveur. Les administrateurs peuvent choisir d’accorder cette permission à des non-administrateurs.
 
->[!NOTE] Votre société peut choisir quelles sociétés de connexion ont accès à l’utilisation de l’appel au serveur.
+>[!NOTE]
+>
+>Votre société peut choisir quelles sociétés de connexion ont accès à l’utilisation de l’appel au serveur.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
