@@ -1,8 +1,11 @@
 ---
 title: linkLeaveQueryString
 description: Permet de conserver les chaînes de requête dans les dimensions de suivi des liens.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ Si les informations de suivi des liens ne figurent pas dans les URL de votre sit
 
 L’activation de `linkLeaveQueryString` s’applique à toutes les dimensions de suivi des liens (y compris les liens personnalisés, les liens de sortie et les liens de téléchargement).
 
->[!TIP] Cette variable n’affecte pas les dimensions en dehors du suivi des liens. Elle affecte uniquement les liens personnalisés, les liens de sortie et les liens de téléchargement.
+>[!TIP]
+>
+>Cette variable n’affecte pas les dimensions en dehors du suivi des liens. Elle affecte uniquement les liens personnalisés, les liens de sortie et les liens de téléchargement.
 
 ## Conservation des paramètres d’URL dans Adobe Experience Platform Launch
 
