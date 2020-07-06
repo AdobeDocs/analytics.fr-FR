@@ -1,21 +1,28 @@
 ---
 title: Liens d’exclusion
 description: Découvrez comment créer et mettre en œuvre des liens d’exclusion pour les visiteurs de votre site.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
 
 # Mise en œuvre des liens d’exclusion
 
->[!IMPORTANT] Adobe recommande d’utiliser le service d’inclusion, en particulier pour les organisations concernées par la réglementation du RGPD. Voir [Aperçu du service d’inclusion](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/opt-in-service/optin-overview.html) dans le guide d’utilisation d’Experience Cloud Identity Service.
+>[!IMPORTANT]
+>
+>Adobe recommande d’utiliser le service d’inclusion, en particulier pour les organisations concernées par la réglementation du RGPD. Voir [Aperçu du service d’inclusion](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/opt-in-service/optin-overview.html) dans le guide d’utilisation d’Experience Cloud Identity Service.
 
 Certains visiteurs de votre site web préfèrent ne pas inclure leurs informations de navigation dans votre jeu de données. Adobe offre la possibilité de fournir aux visiteurs le moyen d’exclure leurs informations de la collecte effectuée. Tous les types de mise en œuvre sont pris en charge ; votre organisation est responsable de votre propre politique de protection de la vie privée et du respect des conditions que vous avez signées.
 
 Lorsqu’un visiteur atteint une URL d’exclusion, il est invité à installer un cookie d’exclusion. Si un utilisateur choisit de ne pas faire l’objet d’un suivi et qu’un cookie d’exclusion est défini, votre fichier JavaScript continue d’envoyer des données aux serveurs Adobe. Toutefois, ces données ne sont pas traitées ni incluses dans les rapports.
 
->[!TIP] Adobe propose également des paramètres de confidentialité par suite de rapports. Voir [Paramètres de confidentialité](../../admin/admin/privacy-settings.md) dans le guide d’utilisation Administrateur.
+>[!TIP]
+>
+>Adobe propose également des paramètres de confidentialité par suite de rapports. Voir [Paramètres de confidentialité](../../admin/admin/privacy-settings.md) dans le guide d’utilisation Administrateur.
 
 ## URL d’exclusion
 
@@ -73,7 +80,9 @@ Changer automatiquement la langue de la page d’exclusion en incluant le param�
 
 Par exemple, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` charge la page d’exclusion en coréen.
 
->[!TIP] La valeur de la chaîne de requête `en_US` n’est pas obligatoire, car la page se charge en anglais par défaut.
+>[!TIP]
+>
+>La valeur de la chaîne de requête `en_US` n’est pas obligatoire, car la page se charge en anglais par défaut.
 
 ### Fenêtre contextuelle
 
@@ -81,7 +90,9 @@ Ajoute un bouton Fermer la fenêtre à la page, ce qui permet de faire de la pag
 
 Par exemple, `https://example.sc.omtrdc.net/optout.html?popup=1` charge la page d’exclusion avec un bouton Fermer la fenêtre.
 
->[!NOTE] Historiquement, ce paramètre de chaîne de requête forçait une fenêtre contextuelle. Cependant, la plupart des navigateurs modernes permettent à l’utilisateur final de contrôler les fenêtres contextuelles.
+>[!NOTE]
+>
+>Historiquement, ce paramètre de chaîne de requête forçait une fenêtre contextuelle. Cependant, la plupart des navigateurs modernes permettent à l’utilisateur final de contrôler les fenêtres contextuelles.
 
 ### Exclusion par clic unique
 
