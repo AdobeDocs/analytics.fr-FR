@@ -2,7 +2,7 @@
 title: Dimensions mobiles
 description: Dimensions basées sur la chaîne user-agent du périphérique.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -12,17 +12,19 @@ ht-degree: 4%
 
 # Dimensions mobiles
 
-*Cette page fait référence aux propriétés des périphériques mobiles qui accèdent à votre site Web. Si vous souhaitez effectuer le suivi des périphériques sur une application mobile, reportez-vous à la section Mise en[oeuvre d’Analytics pour les périphériques](/help/implement/mobile-device-sdk.md)mobiles dans le guide d’utilisation Mise en oeuvre.*
+*Cette page fait référence aux propriétés des périphériques mobiles qui accèdent à votre site Web. Si vous souhaitez effectuer le suivi des périphériques sur une application mobile, reportez-vous à la section[Mise en oeuvre d’Analytics pour les périphériques](/help/implement/mobile-device-sdk.md)mobiles dans le guide d’utilisation Mise en oeuvre.*
 
 Les dimensions mobiles fournissent des informations sur les propriétés des périphériques mobiles qui visitent votre site. Vous pouvez utiliser ces dimensions pour mieux comprendre les fonctionnalités prises en charge par un périphérique mobile.
 
 ## Renseigner ces dimensions avec des données
 
-Ces dimensions font référence à des règles de recherche internes à Adobe. La valeur de recherche est basée sur l’en-tête `User-Agent` HTTP envoyé avec l’accès. Adobe travaille en partenariat avec [DeviceAtlas](https://deviceatlas.com/) pour gérer les recherches entre l’agent utilisateur et les dimensions mobiles. Si vous utilisez une bibliothèque AppMeasurement (par exemple via le lancement de la plate-forme Adobe Experience Platform), toutes les dimensions mobiles fonctionnent de manière standard.
+Ces dimensions font référence à des règles de recherche internes à Adobe. La valeur de recherche est basée sur l’en-tête `User-Agent` HTTP envoyé avec l’accès. Adobe travaille en partenariat avec [DeviceAtlas](https://deviceatlas.com/) pour gérer les recherches entre l’agent utilisateur et les dimensions mobiles. Si vous utilisez une bibliothèque AppMeasurement (par exemple, par le biais du lancement d’Adobe Experience Platform), toutes les dimensions mobiles sont prêtes à l’emploi.
 
 ## Descriptions des dimensions mobiles
 
->[!NOTE] Les valeurs de dimension étiquetées `"None"` sont des périphériques non mobiles. Si vous souhaitez un rapport qui ne comprend que les périphériques mobiles, faites glisser la dimension &quot;Périphérique mobile&quot; dans la zone de segment du canevas de l’espace de travail.
+>[!NOTE]
+>
+>Les valeurs de dimension étiquetées `"None"` sont des périphériques non mobiles. Si vous souhaitez un rapport qui ne comprend que les périphériques mobiles, faites glisser la dimension &quot;Périphérique mobile&quot; dans la zone de segment du canevas de l’espace de travail.
 
 * **Prise en charge** audio mobile : Détermine les formats de fichier que le périphérique peut lire. Les exemples de valeurs incluent `"MP3"`, `"AAC"`et `"MIDI Monophonic"`. Les valeurs de cette dimension ne s&#39;excluent pas mutuellement ; un accès unique peut être attribué à plusieurs valeurs de dimension.
 * **Opérateur** de téléphonie mobile : Si l’agent utilisateur contient un périphérique spécifique à l’opérateur, l’opérateur est une valeur de dimension. Les exemples de valeurs incluent `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`et `"Verizon"`.
