@@ -1,8 +1,11 @@
 ---
 title: abort
 description: La variable abort est une valeur booléenne qui empêche l’envoi d’un accès aux serveurs de collecte de données Adobe.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ La variable `abort` est une valeur booléenne. Sa valeur par défaut est `false`
 s.abort = true;
 ```
 
->[!NOTE] La variable `abort` est réinitialisée à `false` après chaque appel de suivi. Si vous devez abandonner les appels de suivi suivants sur la même page, définissez de nouveau `abort` sur `true`.
+>[!NOTE]
+>
+>La variable `abort` est réinitialisée à `false` après chaque appel de suivi. Si vous devez abandonner les appels de suivi suivants sur la même page, définissez de nouveau `abort` sur `true`.
 
 ## Exemple
 
