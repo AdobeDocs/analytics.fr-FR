@@ -5,7 +5,7 @@ title: Points à prendre en compte concernant le balisage multisuite et les suit
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -55,7 +55,9 @@ Des sites différents ont des besoins d’implémentation différents. Certains 
 
 Assurez-vous que le nombre de dimensions et de mesures uniques peut tenir dans une seule suite de rapports globale. Si vous constatez qu’il existe trop de dimensions ou de mesures uniques, passez en revue chaque dimension dans chaque implémentation. Il y a probablement des chevauchements et des dimensions qui ne sont pas essentiels à la réussite de l’entreprise. Pensez également à utiliser [des classifications](/help/components/c-classifications2/c-classifications.md). Par exemple, au lieu de capturer « Nom du produit » dans eVar5, créez une classification « Nom du produit » en fonction de la dimension du « Produit ». Les classifications d’une suite de rapports source sont automatiquement disponibles pour toutes les suites de rapports virtuelles dépendantes.
 
->[!TIP] Avec l’introduction de la [conservation](/help/analyze/analysis-workspace/curate-share/curate.md), vous pouvez modifier le nom d’une dimension ou d’une mesure sur une base de suite de rapports virtuelle.
+>[!TIP]
+>
+>Avec l’introduction de la [conservation](/help/analyze/analysis-workspace/curate-share/curate.md), vous pouvez modifier le nom d’une dimension ou d’une mesure sur une base de suite de rapports virtuelle.
 
 ### Nuances de segmentation
 
@@ -85,7 +87,9 @@ Par exemple, un seul DCM Google est autorisé par suite de rapports. De nombreus
 
 Les sources de données récapitulatives vous permettent d’importer des mesures fusionnées dans Adobe Analytics au niveau de la suite de rapports. Étant donné que les sources de données récapitulatives contiennent des mesures fusionnées, elles ne peuvent pas être segmentées. Puisque les suites de rapports virtuelles (VRS) utilisent la segmentation, toutes les données importées à l’aide de sources de données récapitulatives ne sont pas disponibles dans les suites de rapports virtuelles. Les sources de données récapitulatives ne sont visibles que dans la suite de rapports source.
 
->[!TIP] Les sources de données entièrement traitées prennent en charge la segmentation et peuvent être utilisées dans des suites de rapports virtuelles.
+>[!TIP]
+>
+>Les sources de données entièrement traitées prennent en charge la segmentation et peuvent être utilisées dans des suites de rapports virtuelles.
 
 ## Étapes à suivre si vous avez choisi d’utiliser des suites de rapports virtuelles
 
@@ -96,7 +100,7 @@ Si vous optez pour la suppression des appels au serveur secondaire au profit des
    * Une bonne pratique consiste à utiliser [l’empilement des segments](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) afin de pouvoir modifier un segment à un emplacement et de l’appliquer à toutes les suites de rapports virtuelles dépendantes.
    * Utilisez des conteneurs d’accès si vous souhaitez que les suites de rapports virtuelles restent mutuellement exclusives.
 2. Une fois que vous avez confirmé la configuration correcte des suites de rapports virtuelles, supprimez les identifiants des suites de rapports secondaires de votre implémentation. Pour supprimer les suites de rapports secondaires :
-   * Dans le lancement d’Adobe Experience Platform, cliquez sur le « X » en regard des suites de rapports que vous ne souhaitez plus utiliser.
+   * Dans le lancement d’Adobe Experience Platform Launch, cliquez sur le « X » en regard des suites de rapports que vous ne souhaitez plus utiliser.
    * Dans DTM, recherchez la propriété et l’outil Analytics. Dans les champs Identifiant de compte de production et Identifiant de compte intermédiaire, supprimez tous les identifiants de suite de rapports que vous ne souhaitez plus utiliser.
    * Dans les implémentations JavaScript héritées, recherchez la variable `s.account` et supprimez les identifiants de suite de rapports que vous ne souhaitez plus utiliser.
    * Dans tous les cas, laissez uniquement l’identifiant de suite de rapports globale/parente pour collecter les données de vos sites et applications.
