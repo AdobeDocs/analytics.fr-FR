@@ -4,8 +4,11 @@ subtopic: Schedule
 title: Planification et distribution des rapports
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1661'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ En raison des différences dans les mécanismes de traitement et les plateformes
 
 Ces limites s’appliquent aux rapports téléchargés et planifiés individuels. Les tableaux de bord sont limités au volume d’espace disponible au sein d’un petit rapport.
 
->[!NOTE] L’« heure de remise »/« heure de la journée » saisie par l’utilisateur indique l’heure à laquelle le traitement du rapport doit commencer et non pas l’heure à laquelle il sera livré. L’heure réelle à laquelle le rapport sera livré est principalement basée sur la durée du traitement (les rapports complexes et de grande taille ont un temps de traitement plus long que les rapports plus simples). Par exemple, si le traitement d’un rapport prend 15 minutes, alors l’heure de remise actuelle sera au moins 15 minutes après l’« heure de remise »/« heure de la journée » indiquée au départ.
+>[!NOTE]
+>
+>L’« heure de remise »/« heure de la journée » saisie par l’utilisateur indique l’heure à laquelle le traitement du rapport doit commencer et non pas l’heure à laquelle il sera livré. L’heure réelle à laquelle le rapport sera livré est principalement basée sur la durée du traitement (les rapports complexes et de grande taille ont un temps de traitement plus long que les rapports plus simples). Par exemple, si le traitement d’un rapport prend 15 minutes, alors l’heure de remise actuelle sera au moins 15 minutes après l’« heure de remise »/« heure de la journée » indiquée au départ.
 >En outre, un certain nombre de facteurs peut contribuer à augmenter le retard avant la diffusion effective du rapport :
 >
 > * **L’exécution simultanée de nombreuses planifications du même type** (par exemple, plusieurs tableaux de bord, etc.) peut entraîner une surcharge du système. Le système de planification ne permet que l’exécution simultanée de quelques rapports (entre 5 et 10) d’un même type. Ainsi, si entre 5 et 10 rapports sont planifiés en même temps, certains devront attendre dans une file d’attente que les autres rapports soient terminés avant que leur traitement ne débute. Il est possible de limiter ce problème en planifiant les rapports d’une entreprise de manière échelonnée tout au long de la journée ou de l’heure, plutôt que simultanément.
@@ -90,6 +95,7 @@ Téléchargez des informations détaillées sur un rapport spécifique au format
    * **[!UICONTROL CSV]** : le rapport sera téléchargé au format [!DNL .csv] (format de valeurs séparées par des virgules).
    * **[!UICONTROL Excel]** : le rapport sera téléchargé au format Microsoft Excel. Vous aurez ainsi la possibilité de le partager avec d’autres utilisateurs qui pourront l’ouvrir dans un tableur.
    * **[!UICONTROL Word]** : le rapport sera téléchargé au format Microsoft Word.
+
    >[!NOTE]
    >
    >Si vous téléchargez un rapport dans l’un des formats d’exportation bruts et que le nom de la page est vierge, Adobe Analytics n’aura probablement pas le temps de traiter les données. Téléchargez le rapport ultérieurement.
