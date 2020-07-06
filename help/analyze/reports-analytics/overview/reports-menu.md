@@ -3,7 +3,10 @@ description: Une présentation du menu Rapports dans Reports & Analytics.
 title: Menu Rapports
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
@@ -23,21 +26,23 @@ Le menu Rapports permet ce qui suit :
 
 Les options Mes favoris, Fréquemment affichés et Historique des rapports sont spécifiques à une suite de rapports. Si vous changez de suite de rapports, les listes de ces trois options changent.
 
-Vous pouvez naviguer dans les rapports en utilisant une colonne hiérarchique. Cliquez sur **[!UICONTROL View All Reports]**, ou appuyez sur la touche Barre oblique (/), puis appuyez sur la touche Flèche vers le bas (?). pour afficher et parcourir rapidement le menu à l’aide des touches fléchées. Appuyez sur la touche Échap pour fermer le menu sans changer le rapport actif ou appuyez sur Entrée pour charger le rapport sélectionné.
+Vous pouvez naviguer dans les rapports en utilisant une colonne hiérarchique. Cliquez sur **[!UICONTROL Afficher tous les rapports]** ou appuyez sur la touche Barre oblique (/), puis sur la touche Flèche vers le bas (↓) pour afficher et parcourir rapidement le menu à l’aide des touches fléchées. Appuyez sur la touche Échap pour fermer le menu sans changer le rapport actif ou appuyez sur Entrée pour charger le rapport sélectionné.
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Pour obtenir plus de détails sur les rapports, voir [Description des rapports](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html).
+Pour obtenir plus de détails sur les rapports, voir [Description des rapports](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/c-variables.translate.html).
 
 ## Recherche de rapports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-Le menu Rapports permet d’effectuer des recherches de manière plus optimale. Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. La recherche de rapports a été étendue afin d’inclure tous les éléments du volet de navigation de gauche d’Analytics (Administration, Composants, etc.).
+Le menu Rapports permet d’effectuer des recherches de manière plus optimale. Cliquez sur **[!UICONTROL Afficher tous les rapports]** ou appuyez sur la touche Barre oblique (/), puis commencez à saisir le nom du rapport à rechercher. La recherche de rapports a été étendue afin d’inclure tous les éléments du volet de navigation de gauche d’Analytics (Administration, Composants, etc.).
 
 ![](assets/menu-search.png)
 
 Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcourir la liste des rapports. Appuyez sur la touche Échap pour fermer la recherche sans changer le rapport actif ou appuyez sur Entrée pour charger le rapport sélectionné.
 
->[!NOTE] Vous pouvez également filtrer la liste de rapports par numéro de prop, d’eVar et d’événement. Dans la barre de recherche, entrez le numéro de prop, d’eVar ou d’événement.
+>[!NOTE]
+>
+>Vous pouvez également filtrer la liste de rapports par numéro de prop, d’eVar et d’événement. Dans la barre de recherche, entrez le numéro de prop, d’eVar ou d’événement.
 
 ## Aperçu de la navigation {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -118,4 +123,4 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
 
 ## Personnalisation du menu Tous les rapports {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) dans l’aide destinée aux administrateurs.
+Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/customize-menus.translate.html) dans l’aide destinée aux administrateurs.
