@@ -1,33 +1,29 @@
 ---
 description: Quick Insights est un outil destiné aux nouveaux utilisateurs de Workspace qui les guide dans la création de tableaux de données et de visualisations.
-title: Panneau Aperçu rapide
+title: Panneau Quick Insights
 translation-type: tm+mt
-source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
+source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 3%
+source-wordcount: '1048'
+ht-degree: 5%
 
 ---
 
 
-# Panneau Aperçu rapide
+# Panneau Quick Insights
 
->[!IMPORTANT]
->
->**[!UICONTROL Le panneau Aperçu]** rapide est actuellement en cours de test limité. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.translate.html)
+[!UICONTROL Quick Insights] fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’[!UICONTROL Analysis Workspace] pour savoir comment répondre rapidement et facilement à des besoins professionnels. C&#39;est aussi un outil idéal pour les utilisateurs expérimentés qui veulent répondre rapidement à une question simple sans avoir à construire eux-mêmes un tableau.
 
-[!UICONTROL Quick Insights] fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’ [!UICONTROL Analyse Workspace] pour savoir comment répondre rapidement et facilement aux questions de l’entreprise. C&#39;est aussi un outil idéal pour les utilisateurs expérimentés qui veulent répondre rapidement à une question simple sans avoir à construire eux-mêmes un tableau.
+Lorsque vous utilisez cet [!UICONTROL Analysis Workspace]pour la première fois, vous pouvez vous demander quelles visualisations seraient les plus utiles, quelles dimensions et mesures pourraient faciliter les statistiques, où faire glisser des éléments, où créer un segment, etc.
 
-Lorsque vous utilisez pour la première fois cet espace de travail Analyse, vous pouvez vous demander quelles visualisations seraient les plus utiles, quelles dimensions et mesures pourraient faciliter les statistiques, où faire glisser et déposer des éléments, où créer un segment, etc.
-
-Pour y remédier, et en fonction de l’utilisation des composants de données par votre propre société dans [!UICONTROL Analyse Workspace], [!UICONTROL Quick Insights] utilise un algorithme qui vous présente les dimensions, mesures, segments et plages de dates les plus populaires que votre société utilise. En fait, vous verrez des dimensions, des mesures et des segments balisés comme [!UICONTROL populaires] dans la liste déroulante, comme indiqué ici :
+Pour y remédier, et en fonction de l’utilisation des composants de données par votre propre société dans l’ [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] utilise un algorithme qui vous présente les dimensions, mesures, segments et plages de dates les plus populaires que votre société utilise. En fait, vous verrez des dimensions, des mesures et des segments balisés comme [!UICONTROL populaires] dans la liste déroulante, comme indiqué ici :
 
 ![](assets/popular-tag.png)
 
 [!UICONTROL Les statistiques] rapides vous aident à
 
-* Créez correctement un tableau de données et une visualisation connexe dans [!UICONTROL Analyse Workspace].
-* Découvrez la terminologie et le vocabulaire des composants de base et des éléments d’ [!UICONTROL Analyse Workspace].
+* Créez correctement un tableau de données et une visualisation correspondante dans l’ [!UICONTROL Analysis Workspace].
+* Apprenez la terminologie et le vocabulaire des composants de base et des éléments d&#39; [!UICONTROL Analysis Workspace].
 * Effectuez des ventilations simples de dimensions, ajoutez plusieurs mesures ou comparez facilement des segments dans un tableau [!UICONTROL à structure]libre.
 * Modifiez ou testez divers types de visualisation pour trouver rapidement et intuitivement l&#39;outil de recherche pour votre analyse.
 
@@ -40,7 +36,7 @@ Voici quelques-uns des termes de base que vous devez connaître. Chaque tableau 
 | [!UICONTROL Dimension] | Les dimensions sont des descriptions ou des caractéristiques des données de mesure qui peuvent être visualisées, ventilées et comparées dans un projet. Il s’agit de valeurs et de dates non numériques qui se divisent en éléments de dimension. Par exemple, &quot;navigateur&quot; ou &quot;page&quot; sont des dimensions. |
 | [!UICONTROL Élément de dimension] | Les éléments de dimension sont des valeurs individuelles pour une dimension. Par exemple, les éléments de dimension pour la dimension de navigateur seraient &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, etc. |
 | [!UICONTROL Mesure] | Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, les recettes, etc. |
-| [!UICONTROL Visualisation] | Workspace offre [un certain nombre de visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) pour créer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des diagrammes en courbes, des cartes, des tracés différés, etc. |
+| [!UICONTROL Visualisation] | Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. |
 | [!UICONTROL Ventilation des dimensions] | Une ventilation de dimension est un moyen de ventiler une dimension selon d’autres dimensions. Dans notre exemple, vous pouvez ventiler les États américains en fonction des périphériques mobiles pour obtenir les visites des périphériques mobiles par état, ou vous pouvez ventiler les périphériques mobiles en fonction des types de périphériques mobiles, des régions, des campagnes internes, etc. |
 | [!UICONTROL Segment] | Les segments vous permettent d’identifier des sous-ensembles de visiteurs en fonction de caractéristiques ou d’interactions sur le site Web. Par exemple, vous pouvez créer des segments de [!UICONTROL Visiteurs] en fonction d’attributs : type de navigateur, périphérique, nombre de visites, pays, sexe ou selon les interactions : campagnes, recherche de mots-clés, moteur de recherche ou en fonction des sorties et des entrées : visiteurs de Facebook, d’un landing page défini, d’un domaine référent ou basés sur des variables personnalisées : champ de formulaire, catégories définies, ID de client. |
 
