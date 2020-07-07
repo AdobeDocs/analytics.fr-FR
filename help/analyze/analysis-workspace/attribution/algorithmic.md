@@ -2,19 +2,15 @@
 title: Attribution algorithmique
 description: Détails sur le modèle d’attribution algorithmique.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 54063d26875aee57ced7825f3427c6051c4f8686
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
 
 
 # Attribution algorithmique
-
->[!NOTE]
->
->**[!UICONTROL Les tests d’attribution]** algorithmique sont actuellement limités. Pour plus d’informations, reportez-vous à la page [Versions](/help/landing/an-releases.md) des fonctionnalités Adobe.
 
 Le modèle [d’](models.md) attribution algorithmique dans l’Analysis Workspace diffère des autres modèles en ce qu’il utilise des techniques statistiques pour allouer du crédit sur les valeurs de dimension dans votre rapport ou tableau à structure libre. Comme tous les autres modèles d’attribution en Analysis Workspace, il peut être utilisé sur n’importe quelle dimension ou mesure et prend en charge la segmentation et les ventilations illimitées et distribue 100 % des conversions à la ou aux dimensions du tableau (également appelée attribution fractionnelle).
 
