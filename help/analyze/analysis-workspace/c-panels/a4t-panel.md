@@ -2,19 +2,15 @@
 description: Le panneau Analytics for Cible (A4T) vous permet d’analyser vos activités d’Adobe Target et vos expériences dans l’Analysis Workspace.
 title: Panneau Analytics for Cible (A4T)
 translation-type: tm+mt
-source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
+source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 15%
+source-wordcount: '834'
+ht-degree: 14%
 
 ---
 
 
 # Panneau Analytics for Cible (A4T)
-
->[!IMPORTANT]
->
->**[!UICONTROL Le panneau Analytics for Cible (A4T)]** est actuellement en cours de test limité. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html)
 
 Le panneau Analytics for Target (A4T) vous permet d’analyser vos activités et expériences Adobe Target dans Analysis Workspace. Il vous permet également d’afficher l’effet élévateur et la fiabilité pour 3 mesures de réussite au maximum. Pour accéder au panneau A4T, accédez à une suite de rapports avec les composants A4T activés. Cliquez ensuite sur l’icône du panneau située à l’extrémité gauche et faites glisser le panneau Analytics for Cible dans votre projet Analysis Workspace.
 
