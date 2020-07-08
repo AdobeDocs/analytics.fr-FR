@@ -6,10 +6,10 @@ title: Référence des colonnes de données
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 97%
 
 ---
 
@@ -79,11 +79,11 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `first_hit_referrer` | La toute première URL de référence du visiteur. | varchar(255) |
 | `first_hit_time_gmt` | Horodatage du tout premier accès du visiteur en heure Unix. | int |
 | `geo_city` | Nom de la ville d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et la ville. | char(32) |
-| `geo_country` | Abréviation du pays d’origine de l’accès, basée sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le pays. | char(4) |
+| `geo_country` | Abréviation du pays d’où provient l’accès, selon l’adresse IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le pays. | char(4) |
 | `geo_dma` | Identifiant numérique de la zone démographique d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et la zone démographique. | int sans signe |
 | `geo_region` | Nom de l’état ou de la région d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et l’état/la région. | char(32) |
 | `geo_zip` | Le code postal d’origine de l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le code postal. | varchar(16) |
-| `hier1 - hier5` | Utilisée par les variables hiérarchiques. Contient une liste délimitée de valeurs. Le délimiteur est sélectionné dans les paramètres de la suite de rapports. | varchar(255) |
+| `hier1 - hier5` | Utilisé par les variables de hiérarchie. Contient une liste de valeurs délimitée. Le délimiteur est sélectionné dans les paramètres de la suite de rapports. | varchar(255) |
 | `hit_source` | Indique la source de l’accès. <br>1 : Requête image standard sans horodatage <br>2 : Requête image standard avec horodatage <br>3 : Chargement de source de données actif avec horodatage <br>4 : Inutilisé <br>5 : Chargement de source de données générique <br>6 : Chargement de source de données de traitement complet <br>7 : Chargement de source de données TransactionID <br>8 : N’est plus utilisée ; Versions précédentes des sources de données Adobe Advertising Cloud <br>9 : N’est plus utilisée ; mesures de résumé Adobe Social | tinyint sans signe |
 | `hit_time_gmt` | L’horodatage des serveurs de collecte de données Adobe ayant reçu l’accès, basé sur l’heure Unix. | int |
 | `hitid_high` | Utilisée en combinaison avec hitid_low pour identifier de manière unique un accès. | bigint sans signe |
@@ -157,7 +157,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `page_event_var2` | Uniquement utilisée dans les demandes d’image de suivi des liens. Nom personnalisé (le cas échéant) du lien. | varchar(100) |
 | `page_event_var3` | N’est plus utilisé. Contient les données des modules Survey et Media. Rapports vidéo hérités générés dans les versions précédentes d’Adobe Analytics. | text |
 | `page_type` | Utilisée pour indiquer la dimension Pages introuvables, utilisée exclusivement pour les pages 404. Cette variable doit être vide ou contenir « ErrorPage ». | char(20) |
-| `page_url` | URL de l’accès. N’est pas utilisée dans les demandes d’image du suivi des liens. | varchar(255) |
+| `page_url` | URL de l’accès à la N’est pas utilisée dans les demandes d’image du suivi des liens. | varchar(255) |
 | `pagename` | Utilisée pour indiquer la dimension Pages. Si la variable pagename est vide, Analytics utilise la variable page_url en remplacement. | varchar(100) |
 | `paid_search` | Indicateur qui est défini si l’accès correspond à la détection de recherche payante. | tinyint sans signe |
 | `partner_plugins` | Inutilisé. Partie d’une fonctionnalité mise au rebut il y a de nombreuses années. | varchar(255) |
@@ -175,12 +175,12 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `ref_domain` | Basée sur la colonne Référent. Domaine référent de l’accès. | varchar(100) |
 | `ref_type` | Identifiant numérique représentant le type de référence pour l’accès.<br>1 : à l’intérieur de votre site<br>2 : autres sites Web <br>3 : moteurs de recherche <br>4 : disque dur <br>5 : USENET <br>6 : saisi/marqué d’un signet (sans référent) <br>7 : courrier électronique <br>8 : sans JavaScript <br>9 : réseaux sociaux | tinyint sans signe |
 | `referrer` | URL de la page précédente. Notez que, bien que `referrer` utilise un type de données varchar(255), `post_referrer` utilise un type de données varchar(244). | varchar(255) |
-| `resolution` | Identifiant numérique représentant la résolution de l’écran. Indique la dimension Résolution de l’écran. Utilise la table de recherche de resolution.tsv. | smallint sans signe |
+| `resolution` | Identifiant numérique représentant la résolution du moniteur. Indique la dimension Résolution de l’écran. Utilise la table de recherche de resolution.tsv. | smallint sans signe |
 | `s_kwcid` | Identifiant du mot-clé dans les intégrations Adobe Advertising Cloud. | varchar(255) |
 | `s_resolution` | Valeur brute de la résolution de l’écran. Collectée à l’aide de la fonction JavaScript screen.width x screen.height. | char(20) |
 | `sampled_hit` | N’est plus utilisé. Anciennement utilisée pour l’échantillonnage dans Ad Hoc Analysis. | char(1) |
 | `search_engine` | Identifiant numérique représentant le moteur de recherche qui a référé le visiteur à votre site. Utilise la table de recherche de search_engines.tsv. | smallint sans signe |
-| `search_page_num` | Utilisée par la dimension Classement de toutes les pages de recherche. Indique sur quelle page de résultats de recherche votre site est apparu avant que l’utilisateur ne clique sur votre site. | smallint sans signe |
+| `search_page_num` | Variable utilisée par la dimension Classification globale des pages de recherche. Indique la page des résultats de recherche sur laquelle votre site est apparu avant que l’utilisateur n’ait cliqué sur votre site. | smallint sans signe |
 | `secondary_hit` | Indicateur qui suit les accès secondaires. Normalement, il provient du balisage multisuite et des règles VISTA qui copient les accès. | tinyint sans signe |
 | `service` | Inutilisé. Utilisez page_event à la place. | char(2) |
 | `socialaccountandappids` | N’est plus utilisé. Identifiants de comptes sociaux et d’application | varchar(255) |
@@ -267,13 +267,13 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `visid_low` | Utilisé en combinaison avec visid_high pour identifier de manière unique un visiteur. | bigint sans signe |
 | `visid_new` | Indicateur pour identifier si l’accès contient un identifiant visiteur nouvellement généré. | char(1) |
 | `visid_timestamp` | Si l’identifiant visiteur a été récemment généré, cette variable fournit l’horodatage (en heure Unix) du moment où l’identifiant visiteur a été généré. | int |
-| `visid_type` | Identifiant numérique représentant la méthode utilisée pour identifier le visiteur. <br>0 : visitorID personnalisé <br>1 : solution de secours de l’IP et de l’agent utilisateur <br>2 : en-tête de l’abonné mobile HTTP <br>3 : valeur du cookie hérité (s_vi) <br>4 : valeur du cookie de solution de secours (s_fid) <br>5 : service d’identité | tinyint sans signe |
+| `visid_type` | non destiné à un usage externe ; utilisé en interne par Adobe pour les optimisations de traitement. ID numérique représentant la méthode utilisée pour identifier le visiteur.<br>0 : Identifiant visiteur personnalisé ou Inconnu/non applicable<br>1 : Abandon IP et agent utilisateur <br>2 : En-tête d&#39;abonné mobile HTTP <br>3 : Valeur de cookie héritée (s_vi) <br>4 : Valeur du cookie de secours (s_fid) <br>5 : Service d&#39;identité | tinyint sans signe |
 | `visit_keywords` | Variable utilisée dans la dimension Mot-clé de recherche. Cette colonne utilise une limite de caractères non standard pour s’adapter à la logique de back-end utilisée par Adobe. | varchar(244) |
 | `visit_num` | Variable utilisée dans la dimension Nombre de visites. Commence à 1, et est incrémentée chaque fois qu’une nouvelle visite commence par visiteur. | int sans signe |
 | `visit_page_num` | Variable utilisée dans la dimension Détail des accès. Augmente de 1 pour chaque accès que l’utilisateur génère. Réinitialise chaque visite. | int sans signe |
 | `visit_ref_domain` | Basée sur la colonne visit_referrer. Le premier domaine référent de la visite. | varchar(100) |
-| `visit_ref_type` | Identifiant numérique représentant le type de référent du premier référent de la visite. Utilise la table de recherche de referrer_type.tsv. | tinyint sans signe |
-| `visit_referrer` | Le premier référent de la visite. | varchar(255) |
+| `visit_ref_type` | Identifiant numérique, représentant le type de référent du premier référent du visiteur. Utilise la table de recherche de referrer_type.tsv. | tinyint sans signe |
+| `visit_referrer` | Premier référent de la visite. | varchar(255) |
 | `visit_search_engine` | Identifiant numérique du premier moteur de recherche de la visite. Utilise la table de recherche de search_engines.tsv. | smallint sans signe |
 | `visit_start_page_url` | La première URL de la visite. | varchar(255) |
 | `visit_start_pagename` | Le premier Nom de page de la visite. | varchar(100) |
