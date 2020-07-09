@@ -2,7 +2,7 @@
 description: Le panneau Analytics for Cible (A4T) vous permet d’analyser vos activités d’Adobe Target et vos expériences dans l’Analysis Workspace.
 title: Panneau Analytics for Cible (A4T)
 translation-type: tm+mt
-source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
+source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 14%
@@ -26,7 +26,7 @@ Vous pouvez configurer le panneau A4T à l’aide des paramètres d’entrée su
 | Mesures de succès | Sélectionnez jusqu’à 3 événements de réussite standard (non calculés) dans les listes déroulantes ou faites glisser les mesures depuis le rail de gauche. Chaque mesure comporte un tableau et une visualisation dédiés dans le panneau rendu. |
 | Période du calendrier | Cette variable est automatiquement renseignée en fonction de la plage de dates d’Activité, à partir de l’Adobe Target. Vous pouvez le modifier, si nécessaire. |
 
-![Générateur de panneau](assets/a4t-panel-builder.png)
+![Générateur de panneau](assets/a4t-panel-builder2.png)
 
 ## Sortie de panneau {#Output}
 
