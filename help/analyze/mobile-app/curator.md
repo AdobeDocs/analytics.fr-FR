@@ -2,18 +2,18 @@
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
+source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2307'
 ht-degree: 78%
 
 ---
 
 
 
-# Guide du conservateur pour les tableaux de bord Adobe Analytics
+# Guide du conservateur pour les tableaux de bord Analytics Adobe
 
-Les informations suivantes indiquent aux responsables de la gestion des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les administrateurs. Pour visionner une vidéo présentant ces informations, reportez-vous à la page [Adobe Analytics tableaux de bord Scorecard Builder](https://youtu.be/tnnl6hrcP94).
+Les informations suivantes indiquent aux responsables de la gestion des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs cadres. Pour visionner une vidéo présentant ces informations, voir [Adobe tableaux de bord Scorecard Builder](https://youtu.be/tnnl6hrcP94).
 
 ## Introduction
 
@@ -64,7 +64,7 @@ Vous pouvez accéder au modèle de Fiche d’évaluation mobile vierge de l’un
 
 **Créer un nouveau projet**
 
-1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **Workspace**.
+1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **Espace de travail**.
 2. Cliquez sur le bouton **Créer un nouveau projet**, puis sélectionnez le modèle de projet **Fiche d’évaluation mobile vierge**.
 3. Cliquez sur le bouton **Créer**.
 
@@ -142,12 +142,10 @@ Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exé
    * indiquant une description de la Fiche d’évaluation ;
    * ajoutant des balises pertinentes ;
    * précisant les destinataires de la Fiche d’évaluation.
-   * Sélectionnez l’option **Partager les composants incorporés avec les destinataires** pour vous assurer que l’utilisateur en charge de l’exécution a accès à tous les composants de la Fiche d’évaluation.
 
 3. Cliquez sur **Partager**.
 
 ![Share_Scorecards](assets/new_share.png)
-
 
 Après avoir partagé une Fiche d’évaluation, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si, par la suite, vous apportez des modifications à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, celles-ci seront mises à jour automatiquement dans la Fiche d’évaluation que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
 
@@ -175,12 +173,12 @@ Pour aider les utilisateurs :
 
    **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-   * Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+   * Cliquez sur le lien suivant (il est également disponible en Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
       [Lien iOS](https://apple.co/2zXq0aN)
    **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-   * Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+   * Cliquez sur le lien suivant (il est également disponible en Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
       [Lien Android](https://bit.ly/2LM38Oo)
    Une fois l’application téléchargée et installée, les utilisateurs en charge de l’exécution peuvent se connecter à l’application en utilisant leurs informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
@@ -192,6 +190,7 @@ Pour aider les utilisateurs :
    * Appuyez sur le nom de l’entreprise connectée ou de l’organisation Experience Cloud auquel la Fiche d’évaluation que vous avez créée s’applique. La liste des Fiches d’évaluation affiche alors toutes les Fiches d’évaluation partagées avec la personne en charge de l’exécution pour cette entreprise connectée.
    * Aidez-les à trier cette liste selon la **Modification la plus récente**, le cas échéant.
    * Appuyez sur le nom de la Fiche d’évaluation pour l’afficher.
+
    ![Choisissez une entreprise](assets/accesscard.png)
 
    Si l&#39;utilisateur exécutif se connecte et voit un message disant que rien n&#39;a été partagé :
