@@ -3,8 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guide de mise en œuvre d’Analytics
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: 61da40f8b2c95b0ce34543ac0ff8b4cf598adb2f
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 99%
 
 ---
 
@@ -38,6 +41,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 + [API d’insertion de données](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Prise en main des Data Connectors Analytics](data-connectors/getting-started-data-connectors.md)
+   + [Fin de vie des connecteurs de données Analytics](data-connectors/data-connectors-eol.md)
    + Connecteur de données appFigures pour Adobe Analytics {#appfigures}
       + [Présentation d’appFigures](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Avant l’activation de cette intégration](data-connectors/appfigures-overview/appfigures-before-activation.md)
