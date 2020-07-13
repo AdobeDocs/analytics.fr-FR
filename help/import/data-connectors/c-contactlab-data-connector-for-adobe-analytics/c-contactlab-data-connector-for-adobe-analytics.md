@@ -3,12 +3,19 @@ description: valeur nulle
 title: Connecteur de données ContactLab pour Adobe Analytics
 uuid: 9e6ed7cd-dce1-4c00-9090-d4306202e3ea
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 93%
 
 ---
 
 
 # Connecteur de données ContactLab pour Adobe Analytics {#contactlab-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 L’intégration de ContactLab et d’Adobe Analytics permet aux clients actuels de ContactLab d’augmenter le rendement du marketing par e-mail. Grâce à elle, vous pouvez comprendre l’efficacité d’une campagne sous presque tous les angles, puis la commercialiser à nouveau auprès des clients en fonction de l’abandon de panier, des achats, des consultations de produits, etc.
 
