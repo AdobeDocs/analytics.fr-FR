@@ -5,12 +5,19 @@ title: Connecteur de données DFA pour Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1731'
+ht-degree: 99%
 
 ---
 
 
 # Connecteur de données DFA pour Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Sur le marché en ligne actuel, de plus en plus complexe et concurrentiel, les publicitaires et les agences doivent continuellement approfondir leur compréhension de l’environnement marketing en ligne et mieux comprendre leur retour sur les dépenses publicitaires. Les publicitaires, les agences et les éditeurs possèdent tous des outils spécifiques qui les aideront à réaliser ces objectifs. Toutefois, l’agrégation manuelle des données issues de systèmes et de processus de données disparates peut considérablement amoindrir l’efficacité des campagnes marketing en ligne, ce qui se traduit par des performances de la campagne, des données disparates et une certaine confusion.
 
@@ -89,13 +96,13 @@ Le tableau suivant résume les fonctions de chaque version de l’intégration.
 | Mesures de nuit de clics et d’impressions DFA | Oui | Oui | Oui |
 | Suivi des clics publicitaires et des affichages publicitaires | Oui | Oui | Oui |
 | L’intégration reçoit les données à un niveau Advertiser | Non | Oui | Oui |
-| L’intégration reçoit les données à un niveau de configuration Floodlight | Non | Non | Oui  |
-| Mesures de coûts | Non | Non | Oui  |
-| Mesures de créatifs | Non | Non | Oui  |
+| L’intégration reçoit les données à un niveau de configuration Floodlight | Non | Non | Oui |
+| Mesures de coûts | Non | Non | Oui |
+| Mesures de créatifs | Non | Non | Oui |
 | Chaînes de requête supérieures à 2 000 octets | Non | Oui | Oui |
 | Utilise le module Integrate pour une collecte optimale des données tierces | Non | Oui | Oui |
 | Suivi des dépassements de délai et des erreurs | Non | Oui | Oui |
-| Identifiant côté client négocié non nécessaire | Non | Non | Oui  |
+| Identifiant côté client négocié non nécessaire | Non | Non | Oui |
 
 ### Version 1.5 {#section-b5a3e967cfa141ea8f740612336181be}
 
@@ -127,5 +134,5 @@ Le tableau suivant décrit les propriétaires pour la migration vers les version
 
 | Migration | Propriétaire | Tâches |
 |---|---|---|
-| Version 1.0 à 1.5 | Client | Mettre en œuvre le code JavaScript de la version 1.5 avec le module Integrate |
-| Version 1.5 à 2.0 | Client | Le client commence la discussion avec Google au sujet des délais de mise à niveau. Après approbation, Google active la fonction AdServing avancée. |
+| Version 1.0 à 1.5 | client | Mettre en œuvre le code JavaScript de la version 1.5 avec le module Integrate |
+| Version 1.5 à 2.0 | client | Le client commence la discussion avec Google au sujet des délais de mise à niveau. Après approbation, Google active la fonction AdServing avancée. |
