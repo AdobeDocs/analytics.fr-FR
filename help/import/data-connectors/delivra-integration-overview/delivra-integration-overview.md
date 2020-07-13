@@ -3,12 +3,19 @@ description: Cette intégration des courriers électroniques de Data Connectors�
 title: Connecteur de données Delivra pour Adobe Analytics
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 98%
 
 ---
 
 
 # Connecteur de données Delivra pour Adobe Analytics {#delivra-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration des courriers électroniques de Data Connectors™ d’Adobe® combine des informations comportementales d’Analytics® avec la solution marketing par courrier électronique Delivra afin de créer un outil puissant permettant de redéfinir la mesure de succès et de cibler les audiences avec des messages plus pertinents.
 
