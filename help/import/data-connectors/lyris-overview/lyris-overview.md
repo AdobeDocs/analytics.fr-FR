@@ -3,14 +3,19 @@ description: Décrit les gains d’efficacité marketing réalisés grâce à l�
 title: Connecteur de données Lyris pour Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
 
 # Connecteur de données Lyris pour Adobe Analytics {#lyris-data-connector-for-adobe-analytics}
 
-Décrit les gains d’efficacité marketing réalisés grâce à l’intégration.
+>[!IMPORTANT]
+>
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 L’intégration des courriers électroniques Adobe® Data Connectors™ combine les informations comportementales d’Adobe Analytics avec le marketing par courrier électronique Lyris pour redéfinir la mesure de succès et cibler les audiences avec des messages plus pertinents.
 
