@@ -3,12 +3,19 @@ description: Cette intégration des courriers électroniques d’Adobe® Data Co
 title: Connecteur de données emarsys pour Adobe Analytics
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '951'
+ht-degree: 98%
 
 ---
 
 
 # Connecteur de données emarsys pour Adobe Analytics {#emarsys-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration des courriers électroniques d’Adobe® Data Connectors™ combine des informations comportementales d’Analytics® avec la solution de marketing par courrier électronique emarsys afin de créer un outil puissant permettant de redéfinir la mesure de succès et de cibler les audiences avec des messages plus pertinents.
 
