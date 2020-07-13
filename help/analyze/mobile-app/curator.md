@@ -2,9 +2,9 @@
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
+source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2301'
 ht-degree: 78%
 
 ---
@@ -149,7 +149,7 @@ Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exé
 
 Après avoir partagé une Fiche d’évaluation, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si, par la suite, vous apportez des modifications à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, celles-ci seront mises à jour automatiquement dans la Fiche d’évaluation que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
 ## Configurer des utilisateurs en charge de l’exécution dans l’application
 
@@ -163,7 +163,7 @@ Pour aider les utilisateurs en charge de l’exécution à accéder à vos Fiche
 * Ils possèdent des identifiants de connexion valides à Adobe Analytics.
 * Vous avez correctement créé des cartes de performance mobiles pour elles et partagé ces cartes avec elles
 * Ils ont accès à Analysis Workspace et à la suite de rapports sur laquelle la Fiche d’évaluation est basée.
-* Ils ont accès aux composants que la Fiche d’évaluation inclut. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* Ils ont accès aux composants que la Fiche d’évaluation inclut. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
 ### Aider les utilisateurs cadres à utiliser l’application
 
