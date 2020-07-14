@@ -2,10 +2,10 @@
 title: contextData
 description: Les variables de données contextuelles vous permettent de définir des variables personnalisées sur chaque page que les règles de traitement peuvent lire.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 44ee19e468b9455c8c510421e507dd3f091fbc88
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 88%
 
 ---
 
@@ -35,9 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Utiliser des règles de traitement pour renseigner les variables d’analyse
 
->[!IMPORTANT]
->
->Les variables de données contextuelles sont ignorées après l’exécution des règles de traitement. Si aucune règle de traitement n’est active, ce qui place les valeurs dans des variables, ces données sont définitivement perdues !
+>[!IMPORTANT] Les variables de données contextuelles sont ignorées après l’exécution des règles de traitement. Si aucune règle de traitement n’est active, ce qui place les valeurs dans des variables, ces données sont définitivement perdues !
 
 1. Mettez à jour votre mise en œuvre pour définir les noms et valeurs des variables de données contextuelles.
 2. Connectez-vous à Adobe Analytics et accédez à Administrateur > Suites de rapports.
@@ -55,4 +53,19 @@ Incluez la variable de données contextuelles comme propriété de `contextData`
 s.contextData["example_variable"] = "Example value";
 s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
+```
+
+## Incrémenter des événements à l’aide de variables de données contextuelles
+
+Lors de la création de règles de traitement, vous pouvez affecter des variables de données contextuelles à des événements.
+
+* Si une variable de données contextuelles contient n’importe quel type de texte, le événement est incrémenté d’une unité.
+* Si une variable de données contextuelles contient un entier, le événement est incrémenté de ce nombre entier.
+
+```js
+// Assigning this context data variable to an event increments it by one
+s.contextData["example_text"] = "Text value";
+
+// Assigning this context data variable to an event increments it by four
+s.contextData["example_number"] = "4";
 ```
