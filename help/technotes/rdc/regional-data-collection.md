@@ -1,8 +1,11 @@
 ---
 title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
-translation-type: ht
-source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
+translation-type: tm+mt
+source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
@@ -10,6 +13,10 @@ source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 # Collecte de données régionales
 
 Adobe Experience Cloud utilise la collecte de données régionales (RDC) afin que les interactions entre vos utilisateurs finaux et Adobe Experience Cloud se produisent le plus près possible de vos utilisateurs finaux. Cela améliore les performances du site ou de l’application et garantit que les données sont collectées le plus vite possible pour optimiser l’expérience de l’utilisateur final. Une fois que les données issues des propriétés numériques sont collectées au niveau régional dans un centre de collecte de données, elles sont transférées au moyen d’une connexion sécurisée à un centre de traitement de données, où elles sont traitées et mises à la disposition des produits dans Adobe Experience Cloud.
+
+>[!IMPORTANT]
+>
+>Le module de Ajoute sur la collecte de données régionale pour la Chine (China Performance Optimization) est un module complémentaire facturable à Adobe Analytics. Veuillez contacter votre représentant commercial Adobe pour plus d&#39;informations.
 
 La collecte de données régionale inclut les emplacements suivants (sujets à modification) :
 
