@@ -3,8 +3,11 @@ description: Si vous avez copié des paramètres d’une suite de rapports exist
 title: Paramètres non copiés depuis une suite de rapports source
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -55,15 +58,6 @@ Les paramètres suivants ne sont pas copiés à partir de suites de rapports mod
      <li id="li_E352211ABD3245EC8C06313221BA4B36"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Suites de rapports</span>, puis sélectionnez une suite de rapports. </li> 
      <li id="li_B19C4112D57D4D329A0774EBB345473B">Cliquez sur <span class="uicontrol"> Modifier les paramètres</span> &gt; <span class="uicontrol"> Trafic</span> &gt; <span class="uicontrol"> Variables de trafic</span>. </li> 
      <li id="li_B1CED2EC85FE4A8EB7D95076040B35E1">Cochez la case et sélectionnez un paramètre dans <span class="uicontrol"> Rapports de cheminement</span>. </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Gestionnaire des événements uniques </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_4A303E54A155471DA2B91A9504A3EB75"> 
-     <li id="li_A09C8947BD2B4F40ABA039DA9BBA629A"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Suites de rapports</span>, puis sélectionnez une suite de rapports. </li> 
-     <li id="li_052D8FF2347141F0A50FBCFDC37DB957">Cliquez sur <span class="uicontrol"> Modifier les paramètres</span> &gt; <span class="uicontrol"> Conversion</span> &gt; <span class="uicontrol"> Événements de succès</span>. </li> 
-     <li id="li_F224713229D74D9BB5BEEE30BF2C7343">Cochez la case et sélectionnez un paramètre dans <span class="uicontrol"> Enregistrement d’événement unique</span>. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
