@@ -3,15 +3,48 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
 workflow-type: tm+mt
-source-wordcount: '7261'
-ht-degree: 99%
+source-wordcount: '7820'
+ht-degree: 98%
 
 ---
 
 
 # Nouveautés d’Analysis Workspace
+
+## 2020 juillet
+
+Nouvelle fonctionnalité publiée le 16 juillet 2020.
+
+| Fonctionnalité | Description |
+|--- |--- |
+| Nouveaux paramètres prédéfinis de plage de dates | Ajouté 4 nouvelles plages de dates : ([!UICONTROL Cette semaine/ce mois/ce trimestre/cette année (à l’exclusion d’aujourd’hui)]). Cela vous permet de choisir parmi des plages de dates qui n’incluent pas de données d’une journée partielle à partir d’aujourd’hui. |
+
+## Juin 2020
+
+Nouvelles fonctionnalités au 18 juin 2020.
+
+| Fonctionnalité | Description |
+|--- |--- |
+| Attribution IQ : Attribution algorithmique | Le modèle d’attribution algorithmique d’Analysis Workspace utilise des techniques statistiques pour déterminer de manière dynamique la distribution optimale du crédit pour la mesure sélectionnée. Disponible pour les clients Adobe Analytics Ultimate. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ : intervalles de recherche en amont personnalisés | Vous pouvez désormais configurer n’importe quel modèle d’attribution dans Attribution IQ afin d’y inclure des points de contact jusqu’à 90 jours avant la période de création des rapports. Cela permet généralement d’accroître la précision de l’attribution pour les événements survenant au début de la période de création des rapports, en tenant compte des interactions qui se sont produites au cours du ou des mois précédents. Disponible pour les clients Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete et Ultimate. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Rôles de projet pour les projets Workspace partagés | Lors du partage d’un projet Workspace, vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience du projet que vous souhaitez leur proposer : Modifier, Dupliquer et Afficher. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Projets Workspace en lecture seule | Les projets Workspace peuvent être partagés avec les utilisateurs en autorisant uniquement l’Affichage. Lorsqu’un destinataire Afficher ouvre le projet partagé, il bénéficie d’une expérience de projet plus restreinte, sans rail gauche et avec des interactions limitées. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Possibilité de modifier des projets Workspace avec d’autres personnes | Les destinataires ajoutés au rôle « Modifications autorisées » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Panneau vierge mis à jour | Le panneau vierge comprend désormais des panneaux et des visualisations, ce qui vous permet de choisir plus facilement le processus d’analyse le mieux adapté à vos besoins. |
+| Panneau Aperçu rapide (25 juin 2020) | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Panneau Analytics pour Cible dans Workspace (25 juin 2020) | Le panneau Analytics for Target (A4T) vous permet d’analyser en toute confiance vos activités et expériences Adobe Target dans Analysis Workspace. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| À propos de la page Workspace | La page À propos de Workspace fournit des informations sur votre environnement Analysis Workspace, sur vos administrateurs Adobe Analytics (si vous avez besoin d’assistance) et un moyen de fournir des commentaires sur les produits. Ces informations se trouvent sous Workspace > Aide > À propos de Workspace. |
+
+## Mai 2020
+
+Nouvelles fonctionnalités publiées le 21 mai 2020.
+
+| Fonctionnalité | Description |
+|--- |--- |
+| Créer automatiquement des tableaux à structure libre à partir d’un état vide | Précédemment, vous ne pouviez pas déplacer des composants directement dans un projet ou un panneau vide, vous deviez d’abord ajouter un Tableau à structure libre. Vous pouvez désormais déplacer des composants directement dans un projet ou un panneau vide, ce qui entraînera alors la création pour vous d’un Tableau à structure libre au format recommandé. De plus, des améliorations ont été apportées à la manière dont les types de composants mixtes (par exemple, les dimensions et les mesures) sont traités lorsqu’ils sont déplacés simultanément dans un Tableau à structure libre. |
+| Améliorations de l’accessibilité | L’équipe Adobe Analytics a apporté plusieurs améliorations de l’accessibilité à Analysis Workspace, notamment une amélioration de la navigation au clavier, du contraste de la couleur et de la prise en charge des lecteurs d’écran. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## Avril 2020
 
@@ -434,7 +467,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
      <li id="li_16C7938EDC8F422EA006FB63F2881EF1">Contient l’expression </li> 
      <li id="li_5130EBE9A7A54CCFA313F3C3C268B367">Ne contient aucun terme </li> 
      <li id="li_861825154EDC49EBA57514FD0A2AE462">Ne contient pas l’expression </li> 
-     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">Est égal </li> 
+     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">Equals </li> 
      <li id="li_1EBF3119B6364842A35D39BAD645F4AF">N’est pas égal à </li> 
      <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">Commence par </li> 
      <li id="li_A73F54DFBAAB44D4A4134342A3124E47">Se termine par </li> 
