@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 96%
+source-wordcount: '1098'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 + [Guide sur les outils Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)
+   + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)
    + [Cas d’utilisation d’Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Nouveautés d’Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Création d’un projet Workspace {#build-workspace-project}
@@ -79,26 +79,26 @@ ht-degree: 96%
       + [Arborescence](analysis-workspace/visualizations/treemap.md)
    + Panneaux {#panels}
       + [Panneaux - Aperçu](analysis-workspace/c-panels/panels.md)
-      + [Panneau Analyses pour la Cible (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Panneau Analytics for Cible (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Panneau Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Panneau Aperçu rapide](analysis-workspace/c-panels/quickinsight.md)
+      + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Segment comparison panel {#segment-comparison}
          + [Comparaison des segments - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Cas d’utilisation de la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Traitement et partage de projets {#curate-share}
-      + [Traiter les projets Workspace](analysis-workspace/curate-share/curate.md)
-      + [Projets Share Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Projets Workspace à Vue seule](analysis-workspace/curate-share/view-only-projects.md)
+      + [Traitement des projets Workspace](analysis-workspace/curate-share/curate.md)
+      + [Partage des projets Workspace](analysis-workspace/curate-share/share-projects.md)
+      + [Projets Workspace en lecture seule](analysis-workspace/curate-share/view-only-projects.md)
       + [Téléchargement de fichiers PDF ou CSV](analysis-workspace/curate-share/download-send.md)
       + [Partage et planification de fichiers de projet](analysis-workspace/curate-share/send-schedule-files.md)
       + [Envoi d’un fichier – Planification de la livraison d’un projet](analysis-workspace/curate-share/t-schedule-report.md)
       + [Gestionnaire de projets planifiés](analysis-workspace/curate-share/schedule-projects.md)
    + Attribution IQ {#attribution}
       + [Présentation de l’Attribution](analysis-workspace/attribution/overview.md)
-      + [Modèles d’attribution et fenêtres de recherche](analysis-workspace/attribution/models.md)
+      + [Modèles d’attribution et fenêtres de recherche arrière](analysis-workspace/attribution/models.md)
       + [Attribution algorithmique](analysis-workspace/attribution/algorithmic.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [Comparaison entre Analysis Workspace et Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Limites d’Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Configuration requise pour l’administration](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Accessibilité dans l’espace de travail des Analyses](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Accessibilité dans Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Aide du Report Builder d’Adobe](report-builder/home.md)
    + [Nouvelles fonctionnalités de Report Builder](report-builder/whats-new-arb.md)
@@ -300,7 +300,6 @@ ht-degree: 96%
    + [Cibles](reports-analytics/targets.md)
    + [Alertes](reports-analytics/alerts.md)
    + [Événements du calendrier](reports-analytics/t-calendar-event.md)
-   + [Requêtes Data Warehouse](reports-analytics/data-warehouse.md)
    + [Questions fréquentes](reports-analytics/frequently-asked-questions.md)
    + [Résolution des problèmes](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
