@@ -4,15 +4,17 @@ title: Filtres URL internes
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+source-wordcount: '214'
+ht-degree: 89%
 
 ---
 
 
 # Filtres URL internes
+
+**[!UICONTROL Admin > Report Suites > Modifier les paramètres > Général > Filtres URL internes > Ajouter le filtre]**
 
 Les filtres URL internes identifient les référents que vous considérez comme internes à votre site. Ils permettent de compiler des données dans les rapports de sources de données et de filtrer le trafic interne.
 
