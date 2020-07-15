@@ -4,10 +4,10 @@ title: Création des segments séquentiels
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 100%
+source-wordcount: '3857'
+ht-degree: 98%
 
 ---
 
@@ -262,9 +262,9 @@ Les groupes logiques peuvent sembler décourageants. Voici quelques bonnes prati
 Si vous souhaitez regrouper des points de contrôle séquentiels, alors votre « conteneur » est Groupe logique. Toutefois, si ces points de contrôle séquentiels doivent se produire dans le cadre d’un accès ou d’une visite unique, des conteneurs « d’accès » ou « de visites » sont requis. (Bien sûr, un « accès » n’a aucun sens pour un groupe de points de contrôle séquentiels, lorsqu’un accès ne peut pas créditer plus d’un point de contrôle).
 
 **Les groupes logiques simplifient-ils la création de segments séquentiels ?**
-Oui, ils le peuvent. Supposons que vous essayiez de répondre à la question suivante : **Un visiteur a-t-il consulté la page B, la page C ou la page D après la page A ?**
+Oui, ils le peuvent. Supposons que vous essayez d’identifier ce segment de visiteurs : **Visiteurs qui ont consulté la page A, puis chacune des pages de B, C et D**
 
-Vous pouvez créer ce segment sans conteneur Groupe logique, mais cette opération est complexe et fastidieuse :
+Vous pouvez créer ce segment sans conteneur Groupe logique, mais il est complexe et laborieux. Vous devez spécifier chaque séquence de pages que le visiteur peut vue :
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
