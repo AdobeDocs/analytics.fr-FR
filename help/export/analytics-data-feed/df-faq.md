@@ -3,7 +3,10 @@ description: Questions fréquentes sur les flux de données
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: FAQ sur les flux de données
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 86%
 
 ---
 
@@ -23,3 +26,7 @@ Si une colonne ne contient pas de version `post_` (par exemple, `visit_num`), al
 Dans Adobe Analytics, la plupart des variables sont considérées comme ne respectant pas la casse à des fins de création de rapports. Par exemple, les valeurs « neige », « Neige », « NEIGE » et « nEige » sont toutes considérées comme étant la même valeur. Le respect de la casse est préservé dans les flux de données.
 
 Si vous observez différentes variations de la casse entre des colonnes « Post » et non « Post » (par exemple, « neige » dans la colonne « Pré » et « Neige » dans la colonne « Post »), cela signifie que votre implémentation utilise des valeurs à la fois en majuscules et en minuscules sur votre site. Les différences de casse dans la colonne « Post » étaient précédemment transmises puis stockées dans un cookie virtuel ou étaient traitées à peu près en même temps pour cette suite de rapports.
+
+## Les robots sont-ils filtrés par les règles de robots de la console d’administration incluses dans les flux de données ?
+
+Les flux de données n’incluent pas les robots filtrés par les règles [de robots de la console](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)d’administration.
