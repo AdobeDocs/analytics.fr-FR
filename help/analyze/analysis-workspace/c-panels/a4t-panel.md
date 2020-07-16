@@ -2,10 +2,10 @@
 description: Le panneau Analytics for Cible (A4T) vous permet d’analyser vos activités d’Adobe Target et vos expériences dans l’Analysis Workspace.
 title: Panneau Analytics for Cible (A4T)
 translation-type: tm+mt
-source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
+source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 14%
+source-wordcount: '912'
+ht-degree: 13%
 
 ---
 
@@ -61,5 +61,7 @@ Comme pour n’importe quel panneau de l’Analysis Workspace, vous pouvez conti
 | Pourquoi les visiteurs uniques varieraient-ils entre la Cible et le Analytics ? | [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sur les écarts de visiteurs uniques entre les produits. |
 | Lorsque j’applique un segment d’accès pour une activité de Cible spécifique dans mon analyse, pourquoi est-ce que les expériences sans rapport sont renvoyées ? | La dimension A4T est une variable de liste, ce qui signifie qu’elle peut contenir de nombreuses activités (et expériences) en même temps. [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | La mesure de confiance tient-elle compte des commandes extrêmes ou applique-t-elle une correction Bonferroni pour plusieurs offres ? | Non. [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sur la façon dont Analytics calcule la fiabilité. |
+| Les mesures d’effet élévateur et de confiance peuvent-elles être utilisées avec d’autres dimensions ou ventilations ? | L’effet élévateur et le degré de confiance sont des &quot;mesures verrouillées&quot; par rapport à la dimension Expériences de Cible, car ils nécessitent un contrôle et une variante à calculer sur l’ensemble. Ils ne peuvent donc pas être ventilés ou utilisés avec d’autres dimensions. |
+| Quand l’effet élévateur et la confiance sont-ils recalculés ? | L’effet élévateur et la confiance sont recalculés chaque fois que le panneau est exécuté (ou réexécuté), que la plage de dates du panneau est modifiée ou qu’un segment est appliqué au panneau ou au tableau. |
 
 Pour plus d’informations sur Analytics for Cible rapports, consultez le rapports [A4T.](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
