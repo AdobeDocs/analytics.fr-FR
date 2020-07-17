@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 769206cfc41c09b9e32fd2d1f317a8a6904fed00
+source-git-commit: 50ed50f951b6c7309359a19538323b1e12322a80
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '257'
 ht-degree: 94%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 94%
       + [Aperçu du contenu du flux de données](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Mesures calculées](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Référence des colonnes de données](analytics-data-feed/c-df-contents/datafeeds-reference.md)
+      + [Ressources d’en-tête](analytics-data-feed/c-df-contents/headers.md)
       + [Recherche d’événement de page](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Caractères spéciaux](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Accès tardifs](analytics-data-feed/c-df-contents/late-arriving-hits.md)
