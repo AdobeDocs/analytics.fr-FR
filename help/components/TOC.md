@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 72%
+source-wordcount: '632'
+ht-degree: 74%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 72%
    + [Fréquence des retours](dimensions/return-frequency.md)
    + [Moteur de recherche](dimensions/search-engine.md)
    + [Mot-clé de recherche](dimensions/search-keyword.md)
-   + [Server (Serveur)](dimensions/server.md)
+   + [Serveur](dimensions/server.md)
    + [Visites mono-page](dimensions/single-page-visits.md)
    + [Section du site](dimensions/site-section.md)
    + [Heure avant le événement](dimensions/time-prior-to-event.md)
@@ -197,7 +197,7 @@ ht-degree: 72%
    + [Prise en charge des suites de rapports virtuelles dans Mobile Services](vrs/vrs-mobile-services.md)
    + [Sessions contextuelles](vrs/vrs-mobile-visit-processing.md)
    + [Traitement de la période de rapport](vrs/vrs-report-time-processing.md)
-   + [Questions fréquentes sur les suites de rapports virtuelles](vrs/vrs-faq.md)
+   + [FAQ sur les suites de rapports virtuelles](vrs/vrs-faq.md)
    + [Considérations sur les suites de rapports virtuelles et le balisage global et multisuite](vrs/vrs-considerations.md)
    + Workflow des suites de rapports virtuelles {#vrs-workflow}
       + [Workflow des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-workflow.md)
@@ -205,9 +205,13 @@ ht-degree: 72%
       + [Gestion des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-manage.md)
       + [Affichage des informations relatives à une suite de rapports virtuelle](vrs/c-workflow-vrs/vrs-view.md)
 + Analyses entre appareils {#cda}
-   + [Présentation des analyses entre appareils](cda/cda-home.md)
-   + [Configuration des analyses entre appareils](cda/cda-setup.md)
-   + [FAQ sur les analyses entre appareils](cda/cda-faq.md)
+   + [Présentation des analyses entre appareils](cda/overview.md)
+   + [Accrochage basé sur les champs](cda/field-based-stitching.md)
+   + [Graphique du périphérique](cda/device-graph.md)
+   + [Configuration d’Analytics sur plusieurs périphériques](cda/setup.md)
+   + [Fonctionnement des répétitions](cda/replay.md)
+   + [Modèle CDA Workspace](cda/workspace-template.md)
+   + [FAQ sur les analyses entre appareils](cda/faq.md)
 + Alertes {#alerts}
    + [Alertes intelligentes](c-alerts/intellligent-alerts.md)
    + [Générateur d’alertes](c-alerts/alert-builder.md)
@@ -247,11 +251,11 @@ ht-degree: 72%
    + [Configuration de rapports en temps réel](c-real-time-reporting/t-realtime-admin.md)
    + [Mesures et dimensions en temps réel prises en charge](c-real-time-reporting/realtime-metrics.md)
 + Canaux marketing {#marketing-channels}
-   + [Commencer avec les Canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Prise en main des canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
    + [Gestion des canaux marketing](c-marketing-channels/c-channels.md)
    + [Règles de traitement des canaux marketing](c-marketing-channels/c-rules.md)
    + [Classifications des canaux marketing](c-marketing-channels/classifictions-mchannel.md)
    + [Expiration de l’engagement des visiteurs](c-marketing-channels/visitor-engagement.md)
-   + [Analyser les Canaux marketing](c-marketing-channels/analyze-mc.md)
-   + [Autorisations des Canaux marketing](c-marketing-channels/c-channel-report-access.md)
-   + [FAQ et exemples sur les Canaux marketing](c-marketing-channels/c-faq.md)
+   + [Analyse des canaux marketing](c-marketing-channels/analyze-mc.md)
+   + [Autorisations des canaux marketing](c-marketing-channels/c-channel-report-access.md)
+   + [FAQ et exemples sur les canaux marketing](c-marketing-channels/c-faq.md)
