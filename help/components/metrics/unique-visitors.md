@@ -2,7 +2,7 @@
 title: Visiteurs uniques
 description: Nombre d’individus (ou de dispositifs) uniques.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 La mesure &quot;visiteurs uniques&quot; indique le nombre d’ID de visiteur pour la valeur de dimension. Il s’agit de l’une des mesures les plus courantes utilisées pour déterminer le trafic, car il fournit un aperçu général de la popularité d’une valeur de dimension. Par exemple, un visiteur peut venir sur votre site tous les jours pendant un mois, mais il compte toujours comme un seul visiteur unique.
 
-Si vous utilisez les analyses [](../cda/cda-home.md)multipériphériques, cette mesure est renommée &quot;Périphériques uniques&quot;.
+Si vous utilisez les analyses [](../cda/overview.md)multipériphériques, cette mesure est renommée &quot;Périphériques uniques&quot;.
 
 ## visiteurs uniques quotidiens, hebdomadaires, mensuels, trimestriels et annuels
 
@@ -44,10 +44,10 @@ Les identifiants de visiteur uniques sont généralement stockés dans un cookie
 
 * Efface leur cache à tout moment
 * Ouvre un navigateur différent sur le même ordinateur. Un visiteur unique est comptabilisé par navigateur.
-* Même personne qui consulte votre site sur différents périphériques. Un visiteur unique distinct est comptabilisé par périphérique. Vous pouvez utiliser les analyses [](../cda/cda-home.md) inter-périphériques pour combiner des visiteurs à l’aide de la mesure [Personnes](people.md) .
+* Même personne qui consulte votre site sur différents périphériques. Un visiteur unique distinct est comptabilisé par périphérique. Vous pouvez utiliser les analyses [](../cda/overview.md) inter-périphériques pour combiner des visiteurs à l’aide de la mesure [Personnes](people.md) .
 * Ouvre une session de navigation privée (comme l’onglet Incognito de Chrome).
 
-Un nouveau visiteur unique *n’est* pas comptabilisé, tant que l’identifiant du cookie est conservé :
+Un nouveau visiteur unique *n’est* pas comptabilisé tant que l’identifiant du cookie est conservé :
 
 * Ferme leur navigateur pendant une période prolongée.
 * Met son navigateur à niveau vers la dernière version
