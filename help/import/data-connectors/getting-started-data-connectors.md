@@ -2,9 +2,9 @@
 description: Importation des données de suivi à partir d’applications tierces dans Analytics.
 title: Prise en main des connecteurs de données Analytics
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '976'
 ht-degree: 98%
 
 ---
@@ -18,7 +18,7 @@ Par exemple, une intégration de courrier électronique peut vouloir utiliser un
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la vie de la technologie Adobe Data Connector à la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Configuration requise**
 
