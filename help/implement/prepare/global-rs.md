@@ -2,7 +2,7 @@
 title: Suites de rapports globales dans Adobe Analytics
 description: Découvrez les avantages et les conditions requises pour utiliser une suite de rapports globale.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Une suite de rapports globale est une suite de rapports qui collecte des donnée
 Dans la plupart des cas, Adobe recommande de mettre en œuvre une suite de rapports globale.
 
 * **Données agrégées :** les suites de rapports globales vous permettent d’afficher les IPC et les événements de succès sur les sites que vous possédez. La segmentation et les suites de rapports virtuelles peuvent être utilisées pour afficher des données spécifiques au site.
-* **Prise en charge d’Analytics sur l’ensemble des appareils :** CDA nécessite une suite de rapports qui collecte des données à plusieurs endroits, comme votre site web et votre application mobile. Des appareils distincts peuvent assembler des données si leur mise en œuvre est correcte. Pour plus d’informations, reportez-vous à la section [Analytics sur l’ensemble des appareils](../../components/cda/cda-home.md) dans le guide d’utilisation Composants.
+* **Prise en charge d’Analytics sur l’ensemble des appareils :** CDA nécessite une suite de rapports qui collecte des données à plusieurs endroits, comme votre site web et votre application mobile. Des appareils distincts peuvent assembler des données si leur mise en œuvre est correcte. Pour plus d’informations, reportez-vous à la section [Analytics sur l’ensemble des appareils](../../components/cda/overview.md) dans le guide d’utilisation Composants.
 * **Pas besoin de plusieurs suites de rapports :** toutes les données peuvent être collectées dans une seule suite de rapports. Il est donc moins probable qu’un développeur envoie par erreur des données à la mauvaise suite de rapports.
 * **Pas besoin de cumuls :** les cumuls sont une fonctionnalité relativement ancienne qui agrège quotidiennement les données de chaque suite de rapports. Les cumuls ne dédupliquent pas les données de visite ou de visiteur, ce qui peut entraîner une augmentation de leur nombre. Voir [Cumuls](../../admin/c-manage-report-suites/rollup-report-suite.md) dans le guide d’utilisation Administrateur pour plus d’informations.
 * **Gagnez du temps :** les projets Workspace, les classifications, les segments et les mesures calculées sont liés à la même suite de rapports globale. Les administrateurs passent moins de temps à gérer ces composants et la gouvernance des données.
