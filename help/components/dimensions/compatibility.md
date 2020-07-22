@@ -2,10 +2,10 @@
 title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 
 >[!NOTE]
 >
->Les noms de variable personnalisée, les classifications et les attributs de visiteur sont omis de cette liste. Ces valeurs de dimension sont spécifiques à des suites de rapports individuelles.
+>Les noms de variable personnalisée, les classifications et les attributs de visiteur sont omis de cette liste. Ces éléments de dimension sont spécifiques à des suites de rapports individuelles.
 
 >[!NOTE]
 >
