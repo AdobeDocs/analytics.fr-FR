@@ -1,8 +1,8 @@
 ---
 title: Modèles d’attribution et fenêtres de recherche arrière
-description: Comment les différents types d’attribution répartissent le crédit entre les valeurs de dimension.
+description: Comment les différents types d’attribution répartissent le crédit entre les éléments de dimension.
 translation-type: tm+mt
-source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 93%
