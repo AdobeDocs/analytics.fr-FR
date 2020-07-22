@@ -2,7 +2,7 @@
 title: Durée de la visite
 description: Durée totale de la visite.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -34,11 +34,11 @@ Cette dimension est liée aux mesures de temps [moyen passé sur le site](../met
 
 Ces dimensions sont prêtes à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, ces dimensions fonctionnent.
 
-## Valeurs de dimension
+## Éléments de dimension
 
 Il existe plusieurs dimensions pour le temps passé par visite :
 
-* **Durée de la visite - cumulée**: La durée est cumulée. Les valeurs de dimension vont `"Less than 1 minute"` de à `"More than 15 hours"`. En règle générale, les visites ne durent pas plus de 12 heures ; toutefois, les visites peuvent dépasser 12 heures si vous utilisez des accès horodatés ou des sources de données.
-* **Durée de la visite - granulaire**: Chaque nombre de secondes est une valeur de dimension unique. Cette dimension n’est pas disponible dans les rapports et Analytics ni dans le Data warehouse.
+* **Durée de la visite - cumulée**: La durée est cumulée. Les éléments de dimension vont de `"Less than 1 minute"` à `"More than 15 hours"`. En règle générale, les visites ne durent pas plus de 12 heures ; toutefois, les visites peuvent dépasser 12 heures si vous utilisez des accès horodatés ou des sources de données.
+* **Durée de la visite - granulaire**: Chaque nombre de secondes est un élément de dimension unique. Cette dimension n’est pas disponible dans les rapports et Analytics ni dans le Data warehouse.
 
 Voir Présentation [de la](../metrics/time-spent.md) durée de la visite pour obtenir des informations plus générales sur la durée de la visite.
