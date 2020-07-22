@@ -2,7 +2,7 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 52%
@@ -92,4 +92,4 @@ Si vous souhaitez changer de méthode d&#39;identification de l&#39;ADC, contact
 
 ## Comment Adobe gère-t-il les limites uniques pour une eVar utilisée dans l’assemblage sur le terrain ?
 
-CDA extrait les valeurs de dimension eVar avant de les optimiser pour le rapports. Vous n&#39;avez pas à vous inquiéter des limites uniques pour les besoins de l&#39;ADC. Cependant, si vous avez essayé d’utiliser cette prop/eVar dans un projet Workspace, vous pouvez toujours voir la valeur de dimension [(Faible trafic)](/help/technotes/low-traffic.md) .
+CDA extrait les éléments de dimension eVar avant de les optimiser pour le rapports. Vous n&#39;avez pas à vous inquiéter des limites uniques pour les besoins de l&#39;ADC. Cependant, si vous avez essayé d’utiliser cette prop/eVar dans un projet Workspace, vous pouvez toujours voir l’élément de dimension [(Faible trafic)](/help/technotes/low-traffic.md) .
