@@ -2,7 +2,7 @@
 title: Type d’accès
 description: Détermine si l’accès est un accès en premier plan ou en arrière-plan.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
@@ -16,8 +16,8 @@ La dimension &quot;Type d’accès&quot; détermine si une application mobile se
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations de SDK mobiles sur la version 4.13.6 ou ultérieure. Si vous n’utilisez pas le SDK mobile, tous les accès se liste sous la valeur de dimension &quot;Premier plan&quot;. If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
+Cette dimension est prête à l’emploi pour toutes les implémentations de SDK mobiles sur la version 4.13.6 ou ultérieure. Si vous n’utilisez pas le SDK mobile, tous les accès se liste sous l’élément de dimension &quot;Premier plan&quot;. If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent `"Foreground"` et `"Background"`. Tout accès qui n’a pas été envoyé en arrière-plan d’une application mobile appartient à la valeur de `"Foreground"` dimension. Tout accès envoyé lorsque l’application mobile se trouvait en arrière-plan appartient à la valeur de `"Background"` dimension.
+Les éléments de dimension incluent `"Foreground"` et `"Background"`. Tout accès qui n’a pas été envoyé en arrière-plan d’une application mobile appartient à l’élément de `"Foreground"` dimension. Tout accès envoyé lorsque l’application mobile se trouvait en arrière-plan appartient à l’élément de `"Background"` dimension.
