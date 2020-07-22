@@ -2,7 +2,7 @@
 title: Jours depuis la dernière visite
 description: Nombre de jours entre l’accès en cours et la dernière visite.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 14%
@@ -24,6 +24,6 @@ Les nouveaux visiteurs ne sont pas inclus dans cette dimension.
 
 Cette dimension est prête à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, cette dimension fonctionne.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension comprennent le nombre de jours entre la dernière visite d’un visiteur et l’accès en cours. Chaque nombre de jours est une valeur de dimension distincte, `"Same day"` survenant lorsqu’un visiteur a effectué sa dernière visite et que l’accès en cours s’est produit le même jour.
+Les éléments de dimension comprennent le nombre de jours entre la dernière visite d’un visiteur et l’accès en cours. Chaque nombre de jours est un élément de dimension distinct, `"Same day"` survenant lorsqu’un visiteur a effectué sa dernière visite et que l’accès en cours s’est produit le même jour.
