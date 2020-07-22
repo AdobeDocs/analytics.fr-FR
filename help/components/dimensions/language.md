@@ -2,7 +2,7 @@
 title: Langue
 description: Paramètre de langue préféré dans le navigateur.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
@@ -22,6 +22,6 @@ La dimension &quot;Langue&quot; affiche les principales langues dans lesquelles 
 
 Cette dimension fait référence à une table de choix interne à Adobe. La valeur de recherche est basée sur l’en-tête `Accept-Language` HTTP dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par exemple par le biais du lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent des noms conviviaux des langues préférées du visiteur. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. Si une demande d’image ne contient pas de langue valide dans l’en-tête HTTP, la valeur de la dimension est `"None"`.
+Les éléments de dimension incluent des noms conviviaux des langues préférées du visiteur. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. Si une demande d’image ne contient pas de langue valide dans l’en-tête HTTP, l’élément de dimension est `"None"`défini.
