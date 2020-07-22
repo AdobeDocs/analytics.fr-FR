@@ -2,10 +2,10 @@
 title: Variables dynamiques
 description: Copiez des variables sans augmenter la longueur de la demande d’image.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -26,14 +26,14 @@ Lorsqu’Adobe reconnaît un préfixe de variable dynamique, il copie automatiqu
 
 ## Variables dynamiques dans Adobe Experience Platform Launch
 
-Vous pouvez utiliser des variables dynamiques dans n’importe quel champ de dimension qui accepte une chaîne. Les valeurs de dimension sont généralement définies lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
+Vous pouvez utiliser des variables dynamiques dans n’importe quel champ de dimension qui accepte une chaîne. Les éléments de dimension sont généralement définis lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
 5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
-6. Recherchez la valeur de dimension souhaitée.
+6. Localisez l’élément de dimension souhaité.
 
 Placez le préfixe de variable dynamique dans le champ de texte, suivi du paramètre de chaîne de requête ou de l’en-tête HTTP à référencer. Par défaut, le préfixe de variable dynamique est `D=`.
 
