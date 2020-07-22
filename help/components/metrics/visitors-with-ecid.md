@@ -2,7 +2,7 @@
 title: Visiteurs avec un Experience Cloud ID
 description: Nombre de visiteurs uniques utilisant le service Adobe Experience Cloud ID.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
@@ -38,4 +38,4 @@ En ajoutant la mesure calculée au rapport, vous pouvez trier le rapport Pages d
 
 ![Pages sans service d’ID](assets/metric-mcvid3.png)
 
-Notez que la valeur de dimension &quot;Vues rapides du produit&quot; n&#39;est pas correctement implémentée avec Identity Service. Vous pouvez collaborer avec les équipes appropriées de votre organisation pour mettre à jour ces pages le plus rapidement possible. Vous pouvez créer un rapport similaire avec n’importe quel type de dimension, tel que le type [de](../dimensions/browser-type.md)navigateur, la section [](../dimensions/site-section.md)Site ou toute [eVar](../dimensions/evar.md).
+Notez que l’élément de dimension &quot;Vues rapides du produit&quot; n’est pas correctement implémenté avec Identity Service. Vous pouvez collaborer avec les équipes appropriées de votre organisation pour mettre à jour ces pages le plus rapidement possible. Vous pouvez créer un rapport similaire avec n’importe quel type de dimension, tel que le type [de](../dimensions/browser-type.md)navigateur, la section [](../dimensions/site-section.md)Site ou toute [eVar](../dimensions/evar.md).
