@@ -2,10 +2,10 @@
 title: Rapports de conversion dans Adobe Analytics
 description: Découvrez comment utiliser des rapports de conversion dans Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Dans Analysis Workspace, il est possible de consulter ces données à l’aide d
 
 1. Cliquez sur l’icône Visualisations à gauche, puis faites glisser une visualisation des abandons sur l’espace de travail situé au-dessus du tableau à structure libre.
 2. Cliquez sur l’icône Composants à gauche, puis recherchez la dimension **Pages**.
-3. Cliquez sur l’icône en forme de flèche en regard de la dimension pages pour afficher les valeurs de page. Les valeurs de dimension sont en jaune.
+3. Cliquez sur l’icône en forme de flèche en regard de la dimension pages pour afficher les valeurs de page. Les éléments de dimension sont de couleur jaune.
 4. Localisez la page souhaitée pour agir comme premier point de contact et faites-la glisser sur l’espace « Ajouter un point de contact » dans la visualisation.
 5. Continuez à ajouter les points de contact souhaités en faisant glisser les valeurs de page sur la visualisation.
 
