@@ -2,7 +2,7 @@
 title: Mot-clé de recherche
 description: Mot-clé de recherche utilisé par le visiteur pour accéder à votre site.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -16,12 +16,12 @@ La dimension Mot-clé de recherche rapporte les mots-clés de recherche que les 
 
 >[!IMPORTANT]
 >
->La plupart des moteurs de recherche ne transmettent plus le mot-clé de recherche en raison des pratiques de confidentialité croissantes. Accès où Adobe reconnaît un moteur de recherche mais manque un groupe de mots-clés sous la valeur de dimension `"Keyword unavailable"`.
+>La plupart des moteurs de recherche ne transmettent plus le mot-clé de recherche en raison des pratiques de confidentialité croissantes. Accès où Adobe reconnaît un moteur de recherche mais manque un groupe de mots-clés sous l’élément de dimension `"Keyword unavailable"`.
 
 Un parrain doit répondre aux deux critères suivants pour être classé comme mot-clé de recherche :
 
 * Le domaine référent est reconnu par Adobe comme un moteur [de](search-engine.md)recherche valide ;
-* Il existe un paramètre de chaîne de requête de mot-clé dans l’URL de référence. Si la chaîne de requête de mot-clé existe mais ne contient pas de valeur, elle est regroupée sous la valeur de dimension `"Keyword unavailable"`.
+* Il existe un paramètre de chaîne de requête de mot-clé dans l’URL de référence. Si la chaîne de requête de mot-clé existe mais ne contient pas de valeur, elle est regroupée sous l’élément de dimension `"Keyword unavailable"`.
 
 Si vous souhaitez distinguer la recherche payée de la recherche naturelle, la détection [de la recherche](/help/admin/admin/paid-search-detection/paid-search-detection.md) payée est requise. Plusieurs dimensions sont disponibles pour les mots-clés de recherche :
 
@@ -33,6 +33,6 @@ Si vous souhaitez distinguer la recherche payée de la recherche naturelle, la d
 
 Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [parrain](referrer.md) de l’accès, qui dépend des filtres [d’URL](/help/admin/admin/internal-url-filter-admin.md)internes. Assurez-vous que la dimension de parrain et les filtres d’URL internes sont correctement configurés.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent les mots-clés de recherche utilisés pour atteindre votre site. La valeur `"Unspecified"` de dimension correspond à tout le trafic hors recherche.
+Les éléments de dimension incluent les mots-clés de recherche utilisés pour atteindre votre site. L’élément `"Unspecified"` de dimension est tout le trafic non lié à la recherche.
