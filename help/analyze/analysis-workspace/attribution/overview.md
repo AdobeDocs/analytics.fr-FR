@@ -1,8 +1,8 @@
 ---
 title: Présentation de l’Attribution
-description: concept d’attribution du crédit d’un événement de réussite à plusieurs valeurs de dimension.
+description: concept d’attribution du crédit d’un événement de réussite à plusieurs éléments de dimension.
 translation-type: tm+mt
-source-git-commit: 53f5c4273a7621f3b447e36b19010a797e4ddffe
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 52%
@@ -12,12 +12,12 @@ ht-degree: 52%
 
 # Présentation de l’Attribution
 
-L’attribution permet aux analystes de personnaliser la manière dont les valeurs de dimension obtiennent du crédit pour les événements de réussite. Par exemple :
+L’attribution permet aux analystes de personnaliser la manière dont les éléments de dimension obtiennent du crédit pour les événements de réussite. Par exemple :
 
 1. Un visiteur de votre site clique sur un lien de recherche payante pointant vers l’une de vos pages de produits. Ajoutez le produit au panier, mais ne l’achetez pas.
 2. Le lendemain, ils voient une publication sur les réseaux sociaux de l’un de leurs amis, cliquent sur le lien, puis terminent l’achat.
 
-Dans certains rapports, il est possible que la commande soit attribuée à la recherche payante. Dans d’autres rapports, il est possible que l’ordre soit attribué à Social. L’attribution vous permet de contrôler cet aspect du rapports. Il est disponible pour toutes les organisations sur Adobe Analytics Ultimate, Prime, Select et Foundation. Si vous ne savez pas quel type de contrat vous avez avec Adobe, contactez le gestionnaire de compte de votre entreprise.
+Dans certains rapports, il est possible que la commande soit attribuée à la recherche payante. Dans d’autres rapports, il est possible que l’ordre soit attribué à Social. L’attribution vous permet de contrôler cet aspect du rapports. Il est disponible pour toutes les organisations sur Adobe Ultimate, Prime, Select et Foundation. Si vous ne savez pas quel type de contrat vous avez avec Adobe, contactez le gestionnaire de compte de votre entreprise.
 
 ## Valeur du QI d’attribution
 
