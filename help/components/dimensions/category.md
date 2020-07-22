@@ -2,7 +2,7 @@
 title: Catégorie
 description: catégorie de produit de l’accès.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -18,9 +18,9 @@ La dimension &quot;Catégorie&quot; rapporte la catégorie de produit de l’acc
 
 Cette dimension fait référence à la première partie de la chaîne dans la [`products`](/help/implement/vars/page-vars/products.md) variable. Tout ce qui précède le premier point-virgule (`;`) renseigne cette dimension.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Cette variable étant basée sur une chaîne personnalisée dans votre implémentation, votre organisation détermine les valeurs de dimension. Adobe recommande de regrouper des produits individuels en catégories significatives, en utilisant à la fois les dimensions &quot;Produit&quot; et &quot;Catégorie&quot;.
+Cette variable étant basée sur une chaîne personnalisée dans votre implémentation, votre organisation détermine les éléments de dimension. Adobe recommande de regrouper des produits individuels en catégories significatives, en utilisant à la fois les dimensions &quot;Produit&quot; et &quot;Catégorie&quot;.
 
 >[!TIP]
 >
