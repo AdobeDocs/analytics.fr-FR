@@ -2,7 +2,7 @@
 title: Intensité des couleurs
 description: Profondeur de couleur du périphérique.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -18,9 +18,9 @@ La dimension &quot;Intensité des couleurs&quot; indique le nombre de couleurs p
 
 Cette dimension fait référence à une table de choix, traduisant la valeur en bits dans un format plus lisible. Elle collecte les données de la chaîne [`c` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement utilise la `screen.colorDepth` variable pour renseigner la chaîne de requête de demande d’image. Si vous utilisez AppMeasurement (par le biais du lancement d’Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `c` requête sur chaque accès avec une valeur de bit valide.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension comprennent le nombre de couleurs prises en charge par le périphérique. Les exemples de valeurs incluent `"16 million (24-bit)"`, `"16 million (32-bit)"`et `"65,536 (16-bit)"`. Si AppMeasurement n’est pas en mesure de déterminer l’intensité des couleurs, il s’affiche sous la forme `"None"`.
+Les éléments de dimension incluent le nombre de couleurs prises en charge par le périphérique. Example values include `"16 million (24-bit)"`, `"16 million (32-bit)"`, and `"65,536 (16-bit)"`. Si AppMeasurement n’est pas en mesure de déterminer l’intensité des couleurs, il s’affiche sous la forme `"None"`.
 
 >[!TIP]
 >
