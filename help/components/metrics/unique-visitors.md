@@ -2,7 +2,7 @@
 title: Visiteurs uniques
 description: Nombre d’individus (ou de dispositifs) uniques.
 translation-type: tm+mt
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 # Visiteurs uniques
 
-La mesure &quot;visiteurs uniques&quot; indique le nombre d’ID de visiteur pour la valeur de dimension. Il s’agit de l’une des mesures les plus courantes utilisées pour déterminer le trafic, car il fournit un aperçu général de la popularité d’une valeur de dimension. Par exemple, un visiteur peut venir sur votre site tous les jours pendant un mois, mais il compte toujours comme un seul visiteur unique.
+La mesure &quot;visiteurs uniques&quot; indique le nombre d’ID de visiteur pour l’élément de dimension. Il s’agit de l’une des mesures les plus courantes utilisées pour déterminer le trafic, car il fournit un aperçu général de la popularité d’un élément de dimension. Par exemple, un visiteur peut venir sur votre site tous les jours pendant un mois, mais il compte toujours comme un seul visiteur unique.
 
 Si vous utilisez les analyses [](../cda/overview.md)multipériphériques, cette mesure est renommée &quot;Périphériques uniques&quot;.
 
@@ -20,11 +20,11 @@ Si vous utilisez les analyses [](../cda/overview.md)multipériphériques, cette 
 
 Les rapports et Analytics offrent des options pour les visiteurs uniques quotidiens, hebdomadaires, mensuels, trimestriels et annuels. Au lieu de comptabiliser un seul visiteur unique pour toute la période, les visiteurs uniques comptent en fonction de la mesure sélectionnée. Par exemple, vous souhaitez consulter les visiteurs uniques quotidiens de votre site. Si un visiteur vient sur votre site le matin et de nouveau la nuit, il compte comme un visiteur unique quotidien unique. Si un visiteur vient sur votre site le lundi et de nouveau le mardi, il compte comme deux visiteurs uniques par jour.
 
-L’Analysis Workspace traite les visiteurs uniques en fonction de la granularité du rapport. Par exemple, si vous utilisez la dimension [Jour](../dimensions/day.md) , vous verrez des visiteurs uniques quotidiens pour chaque valeur de dimension. Toutefois, pour le total du rapport, il est dédupliqué en visiteurs uniques pour la période du tableau à structure libre.
+L’Analysis Workspace traite les visiteurs uniques en fonction de la granularité du rapport. Par exemple, si vous utilisez la dimension [Jour](../dimensions/day.md) , vous verrez des visiteurs uniques quotidiens pour chaque élément de dimension. Toutefois, pour le total du rapport, il est dédupliqué en visiteurs uniques pour la période du tableau à structure libre.
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure comptabilise le nombre d’ID de visiteur uniques pour une valeur de dimension donnée. Il utilise plusieurs mécanismes avancés pour identifier les visiteurs uniques, puisqu&#39;il existe plusieurs façons de les identifier. Le tableau suivant liste les méthodes d’identification d’un visiteur, ainsi que sa priorité. Certains accès peuvent avoir plusieurs méthodes d&#39;identification des visiteurs ; dans ces cas, la méthode de priorité la plus élevée est utilisée.
+Cette mesure comptabilise le nombre d’ID de visiteur uniques pour un élément de dimension donné. Il utilise plusieurs mécanismes avancés pour identifier les visiteurs uniques, puisqu&#39;il existe plusieurs façons de les identifier. Le tableau suivant liste les méthodes d’identification d’un visiteur, ainsi que sa priorité. Certains accès peuvent avoir plusieurs méthodes d&#39;identification des visiteurs ; dans ces cas, la méthode de priorité la plus élevée est utilisée.
 
 | Ordre utilisé | Paramètre de requête (méthode de collecte) | Présenter quand |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Les identifiants de visiteur uniques sont généralement stockés dans un cookie
 * Même personne qui consulte votre site sur différents périphériques. Un visiteur unique distinct est comptabilisé par périphérique. Vous pouvez utiliser les analyses [](../cda/overview.md) inter-périphériques pour combiner des visiteurs à l’aide de la mesure [Personnes](people.md) .
 * Ouvre une session de navigation privée (comme l’onglet Incognito de Chrome).
 
-Un nouveau visiteur unique *n’est* pas comptabilisé tant que l’identifiant du cookie est conservé :
+Un nouveau visiteur unique *n’est* pas comptabilisé, tant que l’identifiant du cookie est conservé :
 
 * Ferme leur navigateur pendant une période prolongée.
 * Met son navigateur à niveau vers la dernière version
