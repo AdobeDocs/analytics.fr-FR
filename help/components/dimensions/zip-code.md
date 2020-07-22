@@ -2,7 +2,7 @@
 title: Code postal
 description: Code postal du visiteur.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -27,6 +27,6 @@ L’option  zip sous Paramètres [du compte](/help/admin/admin/general-acct-sett
 >
 >Le paramètre de la suite de rapports est essentiel si vous souhaitez avoir un contrôle total sur la manière dont vous renseignez cette dimension.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension comprennent le code postal du visiteur.
+Les éléments de dimension comprennent le code postal du visiteur.
