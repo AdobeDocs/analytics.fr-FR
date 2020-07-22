@@ -2,7 +2,7 @@
 title: Types de système d’exploitation
 description: Système d’exploitation, quelle que soit la version.
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -16,8 +16,8 @@ La dimension &quot;Types de système d’exploitation&quot; indique le système 
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension fait référence à une table de choix interne à Adobe. La valeur de recherche est basée sur l’en-tête `User-Agent` HTTP dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par exemple via le lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi.
+Cette dimension fait référence à une table de choix interne à Adobe. La valeur de recherche est basée sur l’en-tête `User-Agent` HTTP dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par exemple par le biais du lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent le type de systèmes d’exploitation utilisés. Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
+Les éléments de dimension incluent le type de systèmes d’exploitation utilisés. Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
