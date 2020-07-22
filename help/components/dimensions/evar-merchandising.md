@@ -2,7 +2,7 @@
 title: eVar (marchandisage)
 description: Variables personnalisées liées à la dimension products.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # eVar (marchandisage)
 
-*Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que dimension. Pour plus d’informations sur la mise en oeuvre des eVars de marchandisage, voir[eVars](/help/implement/vars/page-vars/evar.md)dans le guide de l’utilisateur Mise en oeuvre.*
+*Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que dimension. For information on how to implement merchandising eVars, see[eVars](/help/implement/vars/page-vars/evar.md)in the Implement user guide.*
 
 Lorsque vous mesurez le succès de termes de recherche ou de campagnes externes, vous voulez généralement qu’une seule valeur reçoive du crédit pour tout événement de succès qui se produit. Par exemple, si un client clique sur un lien d’une campagne par courriel pour visiter votre site Web, tous les achats effectués par ce biais doivent être crédités à cette campagne.
 
@@ -48,7 +48,7 @@ Voir eVars [de](/help/implement/vars/page-vars/evar-merchandising.md) marchandis
 La mesure [Instances](../metrics/instances.md) n’est pas recommandée pour les variables de marchandisage.
 
 * Pour les variables de marchandisage utilisant la syntaxe du produit, les instances ne sont pas du tout incrémentées.
-* Pour les variables de marchandisage utilisant la syntaxe des variables de conversion, les instances sont comptabilisées chaque fois que l’eVar est définie. Cependant, il attribue à la valeur de dimension `"None"` sauf si tous les événements suivants se produisent sur le même accès :
+* Pour les variables de marchandisage utilisant la syntaxe des variables de conversion, les instances sont comptabilisées chaque fois que l’eVar est définie. Cependant, il attribue à l’élément de dimension, sauf si tous les événements suivants se produisent sur le même accès : `"None"`
    * L’eVar de marchandisage est définie avec une valeur.
    * La `products` variable est définie avec une valeur.
    * Un événement de liaison est défini.
