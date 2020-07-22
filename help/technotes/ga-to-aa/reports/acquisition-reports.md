@@ -2,10 +2,10 @@
 title: Rapports d’acquisition dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur l’acquisition à l’aide d’Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ Le rapport Flux d’utilisateurs affiche les données de cheminement dans le con
 
 1. Cliquez sur l’icône Visualisations à gauche, puis faites glisser une visualisation de flux sur l’espace de travail situé au-dessus du tableau à structure libre.
 2. Cliquez sur l’icône Composants à gauche, puis faites glisser le segment **Visites issues des sites sociaux** sur la petite zone de tableau à structure libre intitulée « Déposer un segment ici ».
-3. Recherchez la dimension **Pages**, puis cliquez sur l’icône en forme de flèche pour afficher les valeurs de page. Les valeurs de dimension sont en jaune.
+3. Recherchez la dimension **Pages**, puis cliquez sur l’icône en forme de flèche pour afficher les valeurs de page. Les éléments de dimension sont de couleur jaune.
 4. Recherchez la valeur de page de votre choix et faites-la glisser sur l’espace « Dimension ou élément » au centre.
 5. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire des colonnes. Il est également possible d’utiliser différentes dimensions dans le même rapport de flux.
 
