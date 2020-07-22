@@ -2,7 +2,7 @@
 title: Fonctionnement des répétitions
 description: Comprendre le concept de "relecture" dans l’Analytics sur plusieurs périphériques
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Dès qu’un accès est collecté, CDA tente de le raccorder à des périphériq
 *Données telles qu’elles apparaissent le jour de leur collecte :*
 
 | Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure Personnes (cumulée) à l’aide du graphique de périphériques | Mesure des personnes (cumulative) à l’aide de l’assemblage basé sur les champs |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sur son ordinateur de bureau, non authentifié | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob se connecte sur son bureau | `1` (246) | `2` (246 et Bob) |
 | `3` | `3579` | - | Bob sur son appareil mobile, non authentifié | `2` (246 et 3579) | `3` (246, Bob et 3579) |
@@ -56,7 +56,7 @@ Environ une fois par semaine, l’ADC recalcule les données historiques en fonc
 *Les mêmes données après la relecture :*
 
 | Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure Personnes (cumulée) à l’aide du graphique de périphériques | Mesure des personnes (cumulative) à l’aide de l’assemblage basé sur les champs |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sur son ordinateur de bureau, non authentifié | `1` (Grappe1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob se connecte sur son bureau | `1` (Grappe1) | `1` (Bob) |
 | `3` | `3579` | - | Bob sur son appareil mobile, non authentifié | `1` (Grappe1) | `1` (Bob) |
