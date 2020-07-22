@@ -1,15 +1,18 @@
 ---
 title: Graphique de dispersion
-description: Visualisation qui montre la relation entre trois mesures au maximum.
+description: Visualisation qui présente la relation entre trois mesures au maximum.
 translation-type: tm+mt
-source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 2%
 
 ---
 
 
 # Graphique de dispersion
 
-La visualisation à dispersion montre la relation entre les valeurs de dimension et trois mesures au maximum. Il nécessite trois composants et prend en charge la visualisation de jusqu’à quatre composants.
+La visualisation du graphique à dispersion montre la relation entre les éléments de dimension et jusqu’à trois mesures. Il nécessite trois composants et prend en charge la visualisation de quatre composants au maximum.
 
 * Le composant de ligne (généralement une dimension) représente chaque point du graphique. Différentes rangées s’affichent sous forme de points de couleur différents.
 * La colonne la plus à gauche (généralement une mesure) trace la position du point sur l’axe Y (vertical).
