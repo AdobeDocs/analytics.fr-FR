@@ -2,7 +2,7 @@
 title: Rapports
 description: Dimensions et mesures utilisées par les rapports et Analytics pour chaque rapport.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -88,19 +88,19 @@ Contient des rapports sur les rapports mobiles hérités. Ces rapports fondent l
 
 Contient des rapports qui vous permettent d’afficher les données de cheminement pour les visiteurs.
 
-* Flux de page suivante : Utilise un rapport de flux sur la valeur de dimension de la page supérieure. Les vues de chemin sont similaires aux [instances](/help/components/metrics/instances.md). Vous pouvez modifier la valeur de dimension signalée. Un rapport similaire en Analysis Workspace est disponible à l’aide d’une visualisation [](../analysis-workspace/visualizations/c-flow/flow.md)Flux.
-* Page suivante : Prend la valeur de dimension de la première page et vous montre les pages suivantes auxquelles les visiteurs sont allés.
-* Flux de page précédente : Utilise un rapport de flux sur la valeur de dimension de la page supérieure Un rapport similaire en Analysis Workspace est disponible à l’aide d’une visualisation [de](../analysis-workspace/visualizations/c-flow/flow.md)flux.
-* Page précédente : Prend la valeur de dimension de la page supérieure et vous montre les pages précédentes d’où viennent les visiteurs.
-* Abandon : Permet de sélectionner les valeurs de dimension de page en étapes et indique la proportion de personnes qui ont suivi et non suivi ce chemin. Un rapport similaire en Analysis Workspace est disponible à l’aide d’une visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
-* Chemins complets : Affiche les chemins individuels sous forme de valeurs de dimension. Retraité en Analysis Workspace ; utilisez plutôt la visualisation [](../analysis-workspace/visualizations/c-flow/flow.md) Flux.
+* Flux de page suivante : Utilise un rapport de flux sur l’élément de dimension de la première page. Les vues de chemin sont similaires aux [instances](/help/components/metrics/instances.md). Vous pouvez modifier l’élément de dimension signalé. Un rapport similaire en Analysis Workspace est disponible à l’aide d’une visualisation [](../analysis-workspace/visualizations/c-flow/flow.md)Flux.
+* Page suivante : Prend l’élément de dimension de la première page et vous montre les pages suivantes auxquelles les visiteurs sont allés.
+* Flux de page précédente : Utilise un rapport de flux sur l’élément de dimension de la première page Un rapport similaire en Analysis Workspace est disponible à l’aide d’une visualisation [](../analysis-workspace/visualizations/c-flow/flow.md)Flux.
+* Page précédente : Prend l’élément de dimension de la première page et vous montre les pages précédentes d’où viennent les visiteurs.
+* Abandon : Permet de sélectionner des éléments de dimension de page en étapes et indique la proportion de personnes qui ont suivi et non suivi ce chemin. Un rapport similaire en Analysis Workspace est disponible à l’aide d’une visualisation [](../analysis-workspace/visualizations/fallout/fallout-flow.md)Abandons.
+* Chemins complets : Affiche les chemins individuels en tant qu’éléments de dimension. Retraité en Analysis Workspace ; utilisez plutôt la visualisation [](../analysis-workspace/visualizations/c-flow/flow.md) Flux.
 * PathFinder : Fournit plusieurs types de rapports qui vous permettent d&#39;analyser les chemins (retraité dans l&#39;Analysis Workspace).
 * Longueur de chemin : Utilise la dimension de profondeur [de](/help/components/dimensions/visit-depth.md) visite.
 * Analyse de page
-   * Résumé de la page : Prend la valeur de dimension de la page supérieure et affiche une vue de tendance. Affiche également les points d’entrée, les pages précédentes, les points de sortie et les pages suivantes pour cette valeur de dimension de page supérieure.
+   * Résumé de la page : Prend l’élément de dimension de la première page et affiche une vue de tendance. Affiche également les points d’entrée, les pages précédentes, les points de sortie et les pages suivantes pour cet élément de dimension de la première page.
    * Rechargements : Utilise la dimension [Page](/help/components/dimensions/page.md) avec la mesure [Rechargements](/help/components/metrics/reloads.md) .
    * Durée de consultation de la page : Utilise la dimension [Durée de consultation de la page - regroupée](/help/components/dimensions/time-spent-on-page.md) .
-   * Clics jusqu’à la page : Prend la valeur de dimension de la page supérieure et indique le nombre de clics nécessaires pour atteindre cette page au cours d’une visite donnée.
+   * Clics jusqu’à la page : Prend l’élément de dimension de la première page et indique le nombre de clics nécessaires pour atteindre cette page au cours d’une visite donnée.
 * Entrées et sorties
    * Pages d’entrée : Utilise la dimension Pages [](/help/components/dimensions/entry-dimensions.md) d’entrée.
    * Pages d&#39;entrée d&#39;origine : Utilise la dimension d’origine [de la page](/help/components/dimensions/entry-dimensions.md) d’entrée.
@@ -171,7 +171,7 @@ Contient des rapports sur les visiteurs de votre site.
    * Les États-Unis déclarent : Utilise la dimension Etats [](/help/components/dimensions/us-states.md) américains.
    * DMA US : Utilise la dimension DMA [](/help/components/dimensions/us-dma.md) US.
 * Langues : Utilise la dimension [Langage](/help/components/dimensions/language.md) .
-* Fuseaux horaires : Utilise la dimension de fuseau horaire (retiré en Analysis Workspace). Les valeurs de dimension sont le décalage GMT de l’accès.
+* Fuseaux horaires : Utilise la dimension de fuseau horaire (retiré en Analysis Workspace). Les éléments de dimension sont le décalage GMT de l’accès.
 * Domaine : Utilise la dimension [Domaine](/help/components/dimensions/domain.md) .
 * Domaine de niveau supérieur : Utilise la dimension de domaine de niveau supérieur (retirée en Analysis Workspace). Il regroupe les [domaines](/help/components/dimensions/domain.md) en catégories de niveau supérieur, généralement par pays du domaine.
 * Technologie : Dossier contenant des rapports sur les éléments utilisés par le visiteur pour accéder à votre site.
@@ -184,12 +184,12 @@ Contient des rapports sur les visiteurs de votre site.
    * Intensité des couleurs de l&#39;écran : Utilise la dimension de profondeur [de](/help/components/dimensions/color-depth.md) couleur.
    * Résolution de l&#39;écran : Utilise la dimension de résolution [de l’](/help/components/dimensions/monitor-resolution.md) écran.
    * Java : Utilise la dimension [Java activée](/help/components/dimensions/java-enabled.md) .
-   * JavaScript : Utilise la dimension JavaScript activée (désactivée dans l’Analysis Workspace). Les valeurs de dimension sont &quot;Activé&quot;, &quot;Désactivé&quot; ou &quot;Inconnu&quot;, selon si JavaScript est activé dans le navigateur.
-   * Version de JavaScript : utilise la dimension de version JavaScript (retraitée en Analysis Workspace). Les valeurs de dimension indiquent la version de JavaScript utilisée par le navigateur.
+   * JavaScript : Utilise la dimension JavaScript activée (désactivée dans l’Analysis Workspace). Les éléments de dimension sont &quot;Activé&quot;, &quot;Désactivé&quot; ou &quot;Inconnu&quot;, selon si JavaScript est activé dans le navigateur.
+   * Version de JavaScript : utilise la dimension de version JavaScript (retraitée en Analysis Workspace). Les éléments de dimension indiquent la version de JavaScript utilisée par le navigateur.
    * Cookies : Utilise la dimension de prise en charge [des](/help/components/dimensions/cookie-support.md) cookies.
    * Types de connexion : Utilise la dimension de type [](/help/components/dimensions/connection-type.md) Connexion.
    * Opérateur de téléphonie mobile : Utilise la dimension Opérateur [de](/help/components/dimensions/mobile-dimensions.md) téléphonie mobile.
-* Etat du Visiteur : Utilise la dimension Etat (retraité en Analysis Workspace). Les valeurs de dimension proviennent de la [`state`](../../implement/vars/page-vars/state.md) variable.
+* Etat du Visiteur : Utilise la dimension Etat (retraité en Analysis Workspace). Les éléments de dimension proviennent de la [`state`](../../implement/vars/page-vars/state.md) variable.
 * Code postal du Visiteur : Utilise la dimension de code [](/help/components/dimensions/zip-code.md) postal.
 
 ## Conversion personnalisée
@@ -204,7 +204,7 @@ Contient des rapports spécifiques à votre mise en oeuvre. Les rapports de traf
 
 Contient des rapports impliquant des canaux [](/help/components/c-marketing-channels/c-getting-started-mchannel.md)marketing.
 
-* Rapport d&#39;aperçu du Canal : Rapport personnalisé spécifique aux rapports et aux Analytics. Utilise les canaux marketing comme valeurs de dimension, les mesures utilisant l’attribution Première touche ou Dernière touche.
+* Rapport d&#39;aperçu du Canal : Rapport personnalisé spécifique aux rapports et aux Analytics. Utilise les canaux marketing comme éléments de dimension, les mesures utilisant l’attribution Première touche ou Dernière touche.
 * canal Première touche : Utilise la dimension canal [](/help/components/dimensions/first-touch-channel.md) Première touche.
 * Détails du canal Première touche : Utilise la dimension détaillée [du canal](/help/components/dimensions/first-touch-detail.md) Première touche.
 * canal Dernière touche : Utilise la dimension canal [](/help/components/dimensions/last-touch-channel.md) Dernière touche.
