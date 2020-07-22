@@ -2,7 +2,10 @@
 title: Rapports de comportement dans Adobe Analytics
 description: Découvrez comment créer des rapports de comportement dans Adobe Analytics
 translation-type: tm+mt
-source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +21,7 @@ Cette page part du principe que l’utilisateur maîtrise les bases de l’utili
 Le rapport Flux de comportement peut être recréé à l’aide de la visualisation de flux.
 
 1. Cliquez sur l’icône Visualisations à gauche, puis faites glisser une visualisation de flux sur l’espace de travail situé au-dessus du tableau à structure libre.
-2. Recherchez la dimension **Page**, puis cliquez sur l’icône de flèche pour afficher les valeurs de page. Les valeurs de dimension sont en jaune.
+2. Recherchez la dimension **Page**, puis cliquez sur l’icône de flèche pour afficher les valeurs de page. Les éléments de dimension sont de couleur jaune.
 3. Recherchez la valeur de page de votre choix et faites-la glisser sur l’espace « Dimension ou élément » au centre.
 4. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire des colonnes. Il est également possible d’utiliser différentes dimensions dans le même rapport de flux.
 
