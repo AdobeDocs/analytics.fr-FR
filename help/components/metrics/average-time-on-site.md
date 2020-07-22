@@ -1,8 +1,8 @@
 ---
 title: Temps moyen passé sur le site
-description: Durée moyenne pendant laquelle une valeur de dimension donnée existe entre les accès.
+description: Durée moyenne d’existence d’un élément de dimension donné entre les accès.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 1%
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 # Temps moyen passé sur le site
 
-La mesure Durée moyenne sur le site indique la durée écoulée entre les accès pour une valeur de dimension donnée. Cette mesure s’avère utile lorsque vous souhaitez afficher la durée moyenne passée pour des valeurs de dimension spécifiques. Vous pouvez également suivre la tendance de cette mesure au fil du temps pour voir comment change la durée globale de la visite. Cette mesure s’affiche au `HH:MM:SS` format.
+La mesure Durée moyenne sur le site indique la durée écoulée entre les accès pour un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez afficher la durée moyenne de consultation d’éléments de dimension spécifiques. Vous pouvez également suivre la tendance de cette mesure au fil du temps pour voir comment change la durée globale de la visite. Cette mesure s’affiche au `HH:MM:SS` format.
 
 Cette mesure est liée à la dimension [Durée de la visite](../dimensions/time-spent-per-visit.md) .
 
 ## Méthode de calcul de cette mesure
 
-Pour une valeur de dimension donnée, prenez l’horodatage de chaque accès où cette valeur de dimension existe. Comparez-la à l’horodatage du prochain accès de la visite. Si l’accès n’a pas d’accès consécutif, ne l’incluez pas dans cette mesure. Sur l’ensemble du temps passé pour la valeur de dimension, divisez-les tous par le nombre de &quot;séquences&quot; pour cette valeur de dimension. Une &quot;séquence&quot; est l’endroit où la valeur d’une dimension est la même pour un ou plusieurs accès consécutifs. Ce nombre obtenu correspond à la mesure affichée dans les rapports.
+Pour un élément de dimension donné, prenez l’horodatage de chaque accès où cet élément de dimension existe. Comparez-la à l’horodatage du prochain accès de la visite. Si l’accès n’a pas d’accès consécutif, ne l’incluez pas dans cette mesure. Sur tout le temps passé pour l’élément de dimension, divisez-les tous par le nombre de &quot;séquences&quot; pour cet élément de dimension. Une &quot;séquence&quot; désigne l’emplacement où un élément de dimension est identique pour un ou plusieurs accès consécutifs. Ce nombre obtenu correspond à la mesure affichée dans les rapports.
 
 Par exemple, considérez la visite suivante :
 
@@ -35,7 +35,7 @@ Par exemple, considérez la visite suivante :
 | `12:25:40` | `Product page A` |
 
 
-Si vous souhaitez obtenir une durée moyenne de consultation du site pour la valeur de la dimension `Product page A`, prenez tout d’abord la durée écoulée entre les accès pour cette dimension :
+Si vous souhaitez une durée moyenne de consultation du site pour l’élément de dimension `Product page A`, prenez d’abord la durée écoulée entre les accès pour cette dimension :
 
 * **12:04:20 - 12:05:30** - 1 minute 10 secondes
 * **12:05:30 - 12:07:00** - 1 minute 30 secondes
@@ -61,7 +61,7 @@ La mesure Durée moyenne sur le site utilise des séquences ininterrompues d’u
 | `12:02:10` | `Home` | `Foxes` |
 | `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
 
-Le calcul de la durée moyenne sur site pour la valeur de dimension `Home` utilise le calcul suivant :
+Le calcul de la durée moyenne sur site pour l’élément de dimension `Home` utilise le calcul suivant :
 
 ```text
 (30 + 10) / 2 = 20 seconds average time on site
@@ -77,6 +77,6 @@ Comme il n’y avait qu’une seule séquence dans la dimension de ventilation, 
 
 ## Pourcentages supérieurs à 100 %
 
-Cette mesure contient fréquemment des pourcentages supérieurs à 100 %. Le dénominateur correspond à la durée moyenne de la dimension sur le site et le numérateur à la durée moyenne de la dimension sur le site. Si la durée moyenne sur site de la dimension entière est inférieure à la durée moyenne sur site d’une valeur de dimension donnée, vous verrez des pourcentages supérieurs à 100 %. Le tri des rapports avec classement selon cette mesure montre la durée moyenne d’anomalie sur les valeurs du site, ce qui n’a généralement pas de valeur. Adobe recommande le tri selon une autre mesure, telle que [Visites](visits.md), dans les rapports avec classement.
+Cette mesure contient fréquemment des pourcentages supérieurs à 100 %. Le dénominateur correspond à la durée moyenne de la dimension sur le site et le numérateur à la durée moyenne de l’élément de dimension sur le site. Si la durée moyenne de visite sur site de la dimension entière est inférieure à la durée moyenne de visite sur site d’un élément de dimension donné, vous verrez des pourcentages supérieurs à 100 %. Le tri des rapports avec classement selon cette mesure montre la durée moyenne d’anomalie sur les valeurs du site, ce qui n’a généralement pas de valeur. Adobe recommande le tri selon une autre mesure, telle que [Visites](visits.md), dans les rapports avec classement.
 
 Voir Présentation [de la](time-spent.md) durée de la visite pour obtenir des informations plus générales sur la durée de la visite.
