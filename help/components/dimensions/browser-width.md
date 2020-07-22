@@ -2,7 +2,7 @@
 title: Largeur du navigateur - cumulé
 description: Largeur de la fenêtre du navigateur en pixels.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -24,10 +24,10 @@ La largeur du navigateur est toujours inférieure ou égale à la largeur d’é
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données de la chaîne [`bw` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerWidth` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par exemple via le lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `bw` requête au premier accès de chaque visite.
+Cette dimension récupère les données de la chaîne [`bw` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerWidth` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par exemple par le biais du lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `bw` requête au premier accès de chaque visite.
 
 Adobe conserve la largeur du navigateur pour une visite. Si la largeur du navigateur est ajustée en milieu de visite, l’ajustement n’est pas enregistré.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension comprennent toutes les largeurs de navigateur collectées, classées en groupes de 100 pixels. Par exemple, si la largeur du navigateur d’un accès est `1280`définie, elle est regroupée dans la valeur de dimension `1200 to 1299`.
+Les éléments de dimension comprennent toutes les largeurs de navigateur collectées, classées en groupes de 100 pixels. Par exemple, si la largeur du navigateur d’un accès est `1280`définie, il est regroupé dans l’élément de dimension `1200 to 1299`.
