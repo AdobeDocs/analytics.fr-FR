@@ -2,8 +2,11 @@
 title: Présentation des variables, fonctions, méthodes et plug-ins
 description: Découvrez les variables que vous pouvez inclure dans les données que vous envoyez à Adobe pour améliorer la création de rapports.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 Adobe Analytics fournit plusieurs variables pour collecter des données d’analyse. Les variables de cette section sont divisées en plusieurs sections :
 
 * **Les variables de page** sont des valeurs généralement utilisées directement dans les rapports. Les variables de page courantes sont `props`, `eVars` et `events`.
-* **Les variables de configuration** sont des valeurs de paramètres qui permettent de s’assurer que les données correctes parviennent à Adobe. Les variables de configuration courantes sont `trackingServerSecure`, `charSet` et `linkTrackVars`. En règle générale, les variables de configuration ne renseignent pas les valeurs de dimension.
+* **Les variables de configuration** sont des valeurs de paramètres qui permettent de s’assurer que les données correctes parviennent à Adobe. Les variables de configuration courantes sont `trackingServerSecure`, `charSet` et `linkTrackVars`. En règle générale, les variables de configuration ne renseignent pas les éléments de dimension.
 * **Les fonctions et méthodes** sont des éléments de code qui exécutent une tâche spécifique lorsqu’elles sont référencées. Les fonctions courantes sont `t()`, `tl()` et `clearVars()`.
 
 ## Variables et méthodes de mise en œuvre
