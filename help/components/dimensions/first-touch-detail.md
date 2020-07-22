@@ -2,7 +2,7 @@
 title: Détails du canal Première touche
 description: Détails du premier canal marketing dans l’expiration de l’engagement du visiteur.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -20,15 +20,15 @@ Cette dimension copie les valeurs d’autres variables. La variable utilisée r�
 
 Pour définir cette dimension sur une valeur spécifique, procédez comme suit :
 
-* Assurez-vous que la valeur de dimension souhaitée se trouve dans un attribut d’accès ou une variable personnalisée.
+* Assurez-vous que l’élément de dimension souhaité se trouve dans un attribut d’accès ou une variable personnalisée.
 * Définissez une règle de traitement du canal marketing qui contient les critères de votre choix pour l’accès.
 * Sélectionnez une valeur de liste déroulante sous [!UICONTROL Définir la valeur] du canal dans la règle de traitement du canal marketing.
 * L’visiteur qui a accédé à votre site doit correspondre aux critères décrits dans la règle de traitement du canal marketing __ et doit être la première valeur du canal marketing à le faire au cours de la période d’engagement du visiteur.
 
 Si un accès ultérieur correspond à des critères sous un autre canal marketing, cette dimension n’est pas remplacée par le nouveau canal marketing.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension dépendent de la liste déroulante des valeurs de canal. Par exemple, si vous définissez la valeur de canal sur &quot;URL de page&quot;, les valeurs de dimension incluent les URL de page sur votre site. Si vous définissez la valeur du canal sur Domaine référent, les valeurs de dimension incluent les domaines sur lesquels les visiteurs ont cliqué pour accéder à votre site. Cette dimension agrégat toutes les valeurs de dimension détaillées, quel que soit le canal dans lequel elles se trouvent.
+Les éléments de dimension dépendent de la liste déroulante des valeurs de canal. Par exemple, si vous définissez la valeur du canal sur &quot;URL de page&quot;, les éléments de dimension incluent les URL de page sur votre site. Si vous définissez la valeur du canal sur Domaine référent, les éléments de dimension incluent les domaines sur lesquels les visiteurs ont cliqué pour accéder à votre site. Cette dimension agrégat tous les éléments de dimension détaillés, quel que soit le canal dans lequel ils se trouvent.
 
 Adobe recommande de définir des valeurs de canal liées au canal marketing pour obtenir des informations détaillées sur les canaux.
