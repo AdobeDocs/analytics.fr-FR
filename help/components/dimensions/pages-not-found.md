@@ -2,7 +2,7 @@
 title: Pages introuvables
 description: URL qui ont renvoyé une erreur sur votre site.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -23,6 +23,6 @@ La dimension Pages introuvables affiche les URL qui contenaient une erreur. Cett
 
 Cette dimension récupère les données des chaînes [`pageType` `g` et](/help/implement/validate/query-parameters.md) de requête dans les demandes d’image. Si la chaîne de `pageType` requête est égale `errorPage`, la chaîne de `g` requête (URL de page) est enregistrée. AppMeasurement collecte ces données à l’aide de la [`pageType`](/help/implement/vars/page-vars/pagetype.md) variable. Si la `pageType` variable n’est pas définie ou définie sur autre chose `errorPage`, aucune donnée pour cette dimension n’est collectée.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent les URL des pages de votre site où une erreur s’est produite.
+Les éléments de dimension incluent les URL des pages de votre site où une erreur s’est produite.
