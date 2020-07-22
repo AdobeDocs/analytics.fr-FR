@@ -1,8 +1,8 @@
 ---
 title: Mesures - Aperçu
-description: Quantités de Vue des valeurs de dimension ou des données au fil du temps.
+description: Quantités de Vue des éléments de dimension ou des données au fil du temps.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Mesures - Aperçu
 
-Les mesures vous permettent de quantifier les valeurs de dimension, par exemple pour identifier les pages de votre site qui présentent le plus de vues de page. Vous pouvez également établir des tendances pour les mesures au fil du temps, par exemple pour déterminer le nombre de commandes passées par les visiteurs sur votre site chaque jour. Un rapport de base affiche des lignes de valeurs de chaîne (dimension), par rapport à une colonne de valeurs numériques (mesure).
+Les mesures vous permettent de quantifier les éléments de dimension, par exemple pour identifier les pages de votre site qui présentent le plus de vues de page. Vous pouvez également établir des tendances pour les mesures au fil du temps, par exemple pour déterminer le nombre de commandes passées par les visiteurs sur votre site chaque jour. Un rapport de base affiche des lignes de valeurs de chaîne (dimension), par rapport à une colonne de valeurs numériques (mesure).
 
 Par exemple, si vous combinez la dimension &quot;Page&quot; à la mesure &quot;Visites&quot;, vous obtenez un rapport avec classement présentant les pages les plus visitées :
 
