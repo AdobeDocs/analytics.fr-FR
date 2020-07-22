@@ -2,7 +2,7 @@
 title: Recherches
 description: Nombre de fois où un accès correspondait à des critères de recherche externe.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Recherches
 
-La mesure Recherches indique le nombre d’accès qui correspondent à la détection de recherche externe Adobe. Cette mesure s’avère utile lorsque vous souhaitez examiner les valeurs de dimension autres que la recherche et voir comment elles ont contribué au trafic des moteurs de recherche.
+La mesure Recherches indique le nombre d’accès qui correspondent à la détection de recherche externe Adobe. Cette mesure s’avère utile lorsque vous souhaitez examiner les éléments de dimension autres que la recherche et voir comment ils ont contribué au trafic des moteurs de recherche.
 
 ## Méthode de calcul de cette mesure
 
