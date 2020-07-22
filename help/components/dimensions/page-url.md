@@ -2,7 +2,7 @@
 title: URL de la page
 description: URL de la page.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -28,6 +28,6 @@ Adobe recommande de définir une eVar sur la chaîne concaténée `window.locati
 
 Si vous souhaitez que l’eVar corresponde exactement à la dimension &quot;URL de page&quot; dans le Data warehouse, vous pouvez utiliser des variables [](/help/implement/vars/page-vars/dynamic-variables.md) dynamiques et définir l’eVar sur `D=g` chaque accès. Notez que cette méthode ne fonctionne pas pour les accès aux liens personnalisés, car l’URL de la page est supprimée pour tous les [`tl()`](/help/implement/vars/functions/tl-method.md) appels.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent les URL des pages de votre site.
+Les éléments de dimension incluent les URL des pages de votre site.
