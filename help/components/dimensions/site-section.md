@@ -2,7 +2,7 @@
 title: Section du site
 description: Nom de la section du site.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -20,6 +20,6 @@ Cette dimension est liée aux dimensions [Page](page.md) et [Serveur](server.md)
 
 Cette dimension récupère les données de la chaîne [`ch` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la [`channel`](/help/implement/vars/page-vars/channel.md) variable.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent les noms des sections du site. Votre organisation détermine les valeurs de dimension spécifiques que vous souhaitez utiliser. Quelle que soit la méthode utilisée, assurez-vous qu’elle est cohérente et que vous l’enregistrez dans un document [de conception de](/help/implement/prepare/solution-design.md)solution.
+Les éléments de dimension incluent les noms des sections du site. Votre organisation détermine les éléments de dimension spécifiques que vous souhaitez utiliser. Quelle que soit la méthode utilisée, assurez-vous qu’elle est cohérente et que vous l’enregistrez dans un document [de conception de](/help/implement/prepare/solution-design.md)solution.
