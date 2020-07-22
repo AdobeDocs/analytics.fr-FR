@@ -2,7 +2,7 @@
 title: Operating system (Système d’exploitation)
 description: Système d’exploitation du visiteur.
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%
@@ -16,8 +16,8 @@ La dimension &quot;Système d’exploitation&quot; indique le système d’explo
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension fait référence à une table de choix interne à Adobe. La valeur de recherche est basée sur l’en-tête `User-Agent` HTTP dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par exemple via le lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi.
+Cette dimension fait référence à une table de choix interne à Adobe. La valeur de recherche est basée sur l’en-tête `User-Agent` HTTP dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par exemple par le biais du lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension comprennent les systèmes d’exploitation utilisés par les visiteurs. Par exemple, `"Windows 10"`, `"OS X 10.15"` et `"Android 9"`.
+Les éléments de dimension comprennent les systèmes d’exploitation utilisés par les visiteurs. Par exemple, `"Windows 10"`, `"OS X 10.15"` et `"Android 9"`.
