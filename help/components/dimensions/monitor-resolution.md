@@ -2,7 +2,7 @@
 title: Résolution de l’écran
 description: Résolution en pixels du moniteur du visiteur.
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 1%
@@ -24,8 +24,8 @@ Les dimensions du navigateur sont toujours plus petites que la résolution de l�
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données de la chaîne [`s` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `screen.width` et `screen.height` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par exemple via le lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `s` requête dans les demandes d’image.
+Cette dimension récupère les données de la chaîne [`s` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `screen.width` et `screen.height` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par exemple par le biais du lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `s` requête dans les demandes d’image.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent toutes les résolutions d&#39;écran collectées. Les exemples de valeurs incluent `1920 x 1080`, `1366 x 768`et `1280 x 720`.
+Les éléments de dimension incluent toutes les résolutions d&#39;écran collectées. Example values include `1920 x 1080`, `1366 x 768`, and `1280 x 720`.
