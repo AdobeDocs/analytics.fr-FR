@@ -1,8 +1,11 @@
 ---
 description: Dans Adobe Analytics, divers rapports peuvent afficher Non spécifié, Autre ou Inconnu selon le rapport spécifique consulté. En général, cet élément de ligne signifie que la variable n’a pas été définie ou n’est pas disponible.
 title: Non spécifié, Autre et Inconnu dans les rapports
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +20,7 @@ Non spécifié est un élément de ligne assez courant dans les rapports.
 
 * **Événement déclenché sans variable de conversion :** par exemple, un utilisateur accède à votre site et effectue un achat sans déclencher de valeur eVar1. Si vous consultez les commandes à l’aide de la dimension eVar1, aucune valeur ne peut être attribuée à cette commande. La valeur Non spécifié lui est donc automatiquement attribuée.
 * **Données non classifiées dans les rapports de classification :** lors de la consultation des données de classification, les valeurs dont les données ne sont pas associées à cette classification donnée renvoient la valeur Non spécifié. Pour résoudre ce problème, classifiez la valeur de la variable parente.
-* **Rapports de ventilation dans lesquels une seule variable est déclenchée :** lorsque vous appliquez une ventilation à une variable, chaque instance de cette variable doit être prise en compte. Si la seconde variable n’a pas pu être consultée ou si elle persiste d’un précédent accès, la valeur de dimension est Non spécifié.
+* **Rapports de ventilation dans lesquels une seule variable est déclenchée :** lorsque vous appliquez une ventilation à une variable, chaque instance de cette variable doit être prise en compte. Si la seconde variable n’a pas été vue ou si elle a persisté à partir d’un accès précédent, l’élément de dimension est &quot;Non spécifié&quot;.
 * **Accès non mobiles dans les rapports mobiles :** les accès non mobiles des rapports mobiles sont répertoriés comme Non spécifié (Non mobile dans Reports and Analytics).
 
 ## Valeur Autre dans les rapports
