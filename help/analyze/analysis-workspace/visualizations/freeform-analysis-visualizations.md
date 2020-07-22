@@ -2,8 +2,11 @@
 description: Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Visualisations - Aperçu
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,7 @@ Vidéo YouTube : [Types de visualisation dans Analysis Workspace](https://www.
 | [Barre horizontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures. |
 | [Ligne](/help/analyze/analysis-workspace/visualizations/line.md) | Les mesures sont représentées sous la forme d’une ligne afin d’indiquer de quelle façon changent les valeurs au fil du temps. Pour pouvoir utiliser un graphique en courbes, le temps doit être défini comme une dimension. |
 | [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permet de créer une carte visuelle de n’importe quelle mesure (y compris les mesures calculées) ; |
-| [Graphique de dispersion](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Affiche la relation entre les valeurs de dimension et trois mesures au maximum. |
+| [Graphique de dispersion](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Affiche la relation entre les éléments de dimension et trois mesures au maximum. |
 | [Numéro de résumé](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Selon la cellule sélectionnée, cette visualisation affiche les totaux et les résumés. |
 | [Résumé des changements](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Selon les cellules sélectionnées, cette visualisation compare les cellules les unes aux autres. |
 | [Texte](/help/analyze/analysis-workspace/visualizations/text.md) | Permet d’ajouter du texte défini par l’utilisateur dans Workspace. |
@@ -37,7 +40,7 @@ Vidéo YouTube : [Types de visualisation dans Analysis Workspace](https://www.
 
 ## Panneau Visualisations {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Pour afficher le panneau Visualisations, cliquez sur **[!UICONTROL Visualizations]** dans le panneau latéral.
+Pour afficher le panneau Visualisations, cliquez sur **[!UICONTROL Visualisations]** dans le panneau latéral.
 
 ![Résultat de l’étape](assets/visualizations.png)
 
@@ -45,7 +48,7 @@ Si vous utilisez Adobe Analytics, vous connaissez sans doute déjà la plupart d
 
 ## Paramètres de visualisation {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Pour accéder à [!UICONTROL Visualization Settings], faites glisser une visualisation vers le [!UICONTROL Freeform Panel], puis cliquez sur l’icône d’engrenage [!UICONTROL Visualization Settings].
+Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une visualisation sur le [!UICONTROL panneau Structure libre], puis cliquez sur l’icône d’engrenage [!UICONTROL Paramètres de visualisation].
 
 >[!IMPORTANT]
 >
@@ -66,7 +69,7 @@ Pour accéder à [!UICONTROL Visualization Settings], faites glisser une visuali
 
 ## Icône Créer un visuel {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-Si vous ne savez pas quelle visualisation choisir, cliquez sur l’icône **[!UICONTROL Create Visual]** dans une ligne de tableau. Cette icône s’affiche quand vous pointez sur la ligne du tableau. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Si, par exemple, trois segments sont sélectionnés, un diagramme de Venn est créé. S’il y a plus de trois segments, un graphique à barres est créé. Pour d’autres types de données, cela peut aussi être un graphique linéaire, etc.
+Si vous ne savez pas quelle visualisation choisir, cliquez sur l’icône **[!UICONTROL Créer un visuel]** dans une ligne de tableau. Cette icône s’affiche quand vous pointez sur la ligne du tableau. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Si, par exemple, trois segments sont sélectionnés, un diagramme de Venn est créé. S’il y a plus de trois segments, un graphique à barres est créé. Pour d’autres types de données, cela peut aussi être un graphique linéaire, etc.
 
 ![](assets/create-visual.png)
 
@@ -99,11 +102,11 @@ Permet de renommer les séries dans les légendes de visualisation (Abandons, Su
 Par exemple, pour modifier une étiquette de légende dans un graphique en ligne :
 
 1. Effectuez un clic droit sur l’une des étiquettes de légende.
-1. Cliquez sur **[!UICONTROL Edit Label]**.
+1. Cliquez sur **[!UICONTROL Modifier l’étiquette]**.
 
    ![](assets/edit-label.png)
 
 1. Saisissez le nouveau texte de l’étiquette.
-1. Appuyez sur **[!UICONTROL Enter]** pour enregistrer.
+1. Appuyez sur **[!UICONTROL Entrée]** pour enregistrer.
 
 Suivez le [lien vers la vidéo](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) relative à cette rubrique.
