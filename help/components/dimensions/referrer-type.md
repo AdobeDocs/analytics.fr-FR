@@ -2,7 +2,7 @@
 title: Type de référent
 description: Type de parrain, en fonction de la provenance du visiteur.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Type de référent
 
-La dimension &quot;type de Parrain&quot; signale les canaux génériques sur lesquels les visiteurs ont cliqué pour arriver sur votre site. Adobe conserve les règles pour chaque valeur de dimension, à la différence des canaux [](marketing-channel.md)marketing, où votre organisation conserve les règles pour chaque canal.
+La dimension &quot;type de Parrain&quot; signale les canaux génériques sur lesquels les visiteurs ont cliqué pour arriver sur votre site. Adobe conserve les règles pour chaque élément de dimension, contrairement aux canaux [](marketing-channel.md)marketing, où votre organisation conserve les règles pour chaque canal.
 
 ## Renseigner cette dimension avec des données
 
 Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [parrain](referrer.md) de l’accès, qui dépend des filtres [d’URL](/help/admin/admin/internal-url-filter-admin.md)internes. Assurez-vous que la dimension de parrain et les filtres d’URL internes sont correctement configurés.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent le type de parrain de l’accès. Les valeurs spécifiques sont les suivantes :
+Les éléments de dimension incluent le type de parrain de l’accès. Les valeurs spécifiques sont les suivantes :
 
 * **Tapé/marqué**: Aucune donnée de parrain n&#39;existe pour l&#39;accès.
 * **Moteurs** de recherche : Le parrain provient d&#39;un moteur de recherche reconnu qui inclut une chaîne de requête de mot-clé.
@@ -195,9 +195,9 @@ La liste suivante fait référence au tableau de recherche &quot;Réseaux sociau
 * `zooomr.com`
 * `zhihu.com`
 
-### Moteurs de recherche dans la valeur de dimension &quot;Autres sites Web&quot;
+### Moteurs de recherche dans l’élément de dimension &quot;Autres sites Web&quot;
 
 Lorsque vous vue des domaines spécifiques dans la dimension &quot;type de Parrain&quot;, il peut y avoir des domaines auxquels vous vous attendez sous &quot;moteurs de recherche&quot; répertoriés à la place sous &quot;Autres sites Web&quot;. Par exemple, vous pouvez voir `'google.com'` sous &quot;Autres sites Web&quot;.
 
-* **Domaines de moteurs de recherche dans la valeur** de dimension &quot;Moteurs de recherche&quot; : Le parrain répondait à tous les critères pour être classé comme moteur de recherche par Adobe. Le domaine référent est un moteur de recherche valide ** et l’URL référente contient un paramètre de chaîne de requête de mot-clé.
-* **Domaines de moteurs de recherche dans la valeur** de dimension &quot;Autres sites Web&quot; : L&#39;URL référente ne répondait pas à tous les critères de classification en tant que moteur de recherche. Les exemples courants incluent les sous-domaines dédiés à d’autres fonctionnalités en plus de la recherche. Par exemple, `mail.google.com` ou `autos.yahoo.com` ne sont pas des moteurs de recherche, mais résident sur un domaine de niveau supérieur généralement associé à la recherche. Ces sous-domaines n&#39;incluent pas de chaîne de requête de mots-clés, c&#39;est pourquoi ils sont inclus dans &quot;Autres sites Web&quot; au lieu de &quot;Moteurs de recherche&quot;.
+* **Domaines de moteurs de recherche dans l’élément** de dimension &quot;Moteurs de recherche&quot; : Le parrain répondait à tous les critères pour être classé comme moteur de recherche par Adobe. Le domaine référent est un moteur de recherche valide ** et l’URL référente contient un paramètre de chaîne de requête de mot-clé.
+* **Domaines de moteurs de recherche dans l’élément** de dimension &quot;Autres sites Web&quot; : L&#39;URL référente ne répondait pas à tous les critères de classification en tant que moteur de recherche. Les exemples courants incluent les sous-domaines dédiés à d’autres fonctionnalités en plus de la recherche. Par exemple, `mail.google.com` ou `autos.yahoo.com` ne sont pas des moteurs de recherche, mais résident sur un domaine de niveau supérieur généralement associé à la recherche. Ces sous-domaines n&#39;incluent pas de chaîne de requête de mots-clés, c&#39;est pourquoi ils sont inclus dans &quot;Autres sites Web&quot; au lieu de &quot;Moteurs de recherche&quot;.
