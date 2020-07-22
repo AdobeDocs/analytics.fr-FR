@@ -2,10 +2,10 @@
 title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### Nom du lien
 
-L’argument du nom du lien est une chaîne qui détermine la valeur de la dimension de suivi des liens. C’est la même chose que de définir la variable [`linkName`](../config-vars/linkname.md).
+L&#39;argument du nom du lien est une chaîne qui détermine l&#39;élément de dimension de suivi des liens. C’est la même chose que de définir la variable [`linkName`](../config-vars/linkname.md).
 
 ```js
 s.tl(true,"d","Example download link");
