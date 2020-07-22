@@ -2,7 +2,10 @@
 title: Comparer les dates affectées par un événement aux plages précédentes
 description: Découvrez l’impact d’un événement, tel qu’un problème d’implémentation ou une panne, en le comparant aux tendances précédentes.
 translation-type: tm+mt
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +18,9 @@ Si un événement [a des](overview.md)répercussions sur les données, vous pouv
 
 Créez une plage de dates qui englobe le événement pour commencer à étudier l&#39;impact de ce événement.
 
-1. Accédez à **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
-2. Cliquez sur **[!UICONTROL Add]**.
-3. Sélectionnez la période au cours de laquelle le événement a eu lieu. Cliquez sur **[!UICONTROL Save]**.
+1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Périodes]**.
+2. Cliquez sur **[!UICONTROL Ajouter]**.
+3. Sélectionnez la période au cours de laquelle le événement a eu lieu. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![Créateur de plages de dates](assets/date_range_builder.png)
 
@@ -29,7 +32,7 @@ Vous pouvez comparer n’importe quelle mesure entre la plage de dates du évén
 
    ![Mesure de plage de dates](assets/date_range_metric.png)
 
-2. Cliquez avec le bouton droit sur la plage de dates, puis cliquez sur **[!UICONTROL Add time period column]** > **[!UICONTROL Custom date range to this date range]**.
+2. Cliquez avec le bouton droit de la souris sur la plage de dates, puis cliquez sur **[!UICONTROL Ajouter la colonne]** de la période > **[!UICONTROL Personnaliser la plage de dates à cette plage]** de dates.
    * Pour une comparaison semaine après semaine, sélectionnez la plage du événement moins 7 jours. Assurez-vous que les jours de la semaine entre le événement et cette plage de dates sont alignés.
    * Pour une comparaison mensuelle, sélectionnez la plage du événement du mois dernier. Vous pouvez également sélectionner la plage du événement moins 28 jours si vous souhaitez aligner les jours de la semaine.
    * Pour une comparaison d’une année à l’autre, sélectionnez la plage du événement de l’année dernière.
@@ -39,13 +42,13 @@ Vous pouvez comparer n’importe quelle mesure entre la plage de dates du évén
 
 ## Calculer les différences de pourcentage entre le événement et des plages antérieures similaires
 
-Comparez les valeurs de dimension entre une plage de dates de événement et des plages de dates antérieures similaires à l’aide d’une visualisation de tableau à structure libre. Ces étapes illustrent un exemple semaine après semaine que vous pouvez suivre.
+Comparez les éléments de dimension entre une plage de dates de événement et des plages de dates antérieures similaires à l’aide d’une visualisation de tableau à structure libre. Ces étapes illustrent un exemple semaine après semaine que vous pouvez suivre.
 
 1. Ouvrez un projet Workspace et ajoutez une dimension **** non temporelle au tableau à structure libre. Par exemple, vous pouvez utiliser la dimension &quot;Type de périphérique mobile&quot;. Appliquez la période récemment créée empilée sur une mesure, telle que &quot;Occurrences&quot; :
 
    ![Type de périphérique mobile par plage de dates affectée](assets/mobile_device_type.png)
 
-2. Cliquez avec le bouton droit sur la plage de dates, puis cliquez sur **[!UICONTROL Compare time periods]** > **[!UICONTROL Custom date range to this date range]**. Sélectionnez la plage du événement moins 7 jours. Assurez-vous que les jours de la semaine entre le événement et cette plage de dates sont alignés.
+2. Cliquez avec le bouton droit sur la plage de dates, puis cliquez sur **[!UICONTROL Comparer les périodes]** > Période **[!UICONTROL personnalisée à cette plage]** de dates. Sélectionnez la plage du événement moins 7 jours. Assurez-vous que les jours de la semaine entre le événement et cette plage de dates sont alignés.
 
    ![Menu Comparer la période](assets/compare_time_custom.png)
 
@@ -59,15 +62,15 @@ Comparez les valeurs de dimension entre une plage de dates de événement et des
 
 Si vous souhaitez analyser plus en détail les modifications de pourcentage ci-dessus, vous pouvez les convertir en lignes.
 
-1. Ajouter une visualisation de tableau à structure libre et activez le créateur de tableaux. Cette action vous permet de placer les mesures de changement de pourcentage dans l’ordre souhaité.
+1. Ajoutez une visualisation de tableau à structure libre et activez le créateur de tableaux. Cette action vous permet de placer les mesures de changement de pourcentage dans l’ordre souhaité.
 2. Maintenez la touche `Ctrl` (Windows) ou `Cmd` (Mac) enfoncée et faites glisser les mesures de modification de 3 % dans les lignes du tableau, une par une.
 
    ![Générateur de tableau](assets/table_builder.png)
 
-3. Ajouter le segment &quot;Toutes les visites&quot; dans la colonne du tableau, ainsi que tout autre segment souhaité.
+3. Ajoutez le segment &quot;Toutes les visites&quot; dans la colonne du tableau, ainsi que les autres segments de votre choix.
 
    ![Segments du créateur de tableaux](assets/table_builder_segments.png)
 
-4. Cliquez sur **[!UICONTROL Build]**. Dans le tableau qui en résulte, vous pouvez vue les plages affectées par rapport à la semaine, au mois et à l’année précédents sur l’ensemble des segments de votre choix.
+4. Cliquez sur **[!UICONTROL Créer]**. Dans le tableau qui en résulte, vous pouvez vue les plages affectées par rapport à la semaine, au mois et à l’année précédents sur l’ensemble des segments de votre choix.
 
    ![Table terminée](assets/table_builder_finished.png)
