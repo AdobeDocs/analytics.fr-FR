@@ -2,7 +2,7 @@
 title: Lien de sortie
 description: Nom du lien de sortie.
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -24,6 +24,6 @@ Si vous souhaitez envoyer des données à cette dimension à l’aide d’AppMea
 * Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"e"`.
 * Envoyez une demande d’ [`tl()`](/help/implement/vars/functions/tl-method.md) image.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Cette variable étant basée sur une chaîne personnalisée dans votre implémentation, votre organisation détermine les valeurs de dimension. Adobe recommande de regrouper les liens en catégories significatives en fonction de vos besoins rapports.
+Cette variable étant basée sur une chaîne personnalisée dans votre implémentation, votre organisation détermine les éléments de dimension. Adobe recommande de regrouper les liens en catégories significatives en fonction de vos besoins rapports.
