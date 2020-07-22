@@ -3,10 +3,10 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -345,7 +345,7 @@ Nouvelles fonctionnalités et améliorations au 12 avril 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Nouvelle configuration des lignes </a> </p> </td> 
-   <td colname="col2"> <p>Le nouveau paramètre de <span class="uicontrol"> Calcul des pourcentages par ligne </span> oblige le tableau à structure libre à calculer les pourcentages des cellules par ligne, et non pas par colonne. Cette fonctionnalité est particulièrement utile pour les pourcentages de tendance. Par exemple, cela permet de voir la façon dont la valeur d’une dimension se positionne par rapport au reste sur la durée. Elle est activée par défaut lorsque vous cliquez sur l’icône <span class="uicontrol">Visualiser</span>. </p> </td> 
+   <td colname="col2"> <p>Le nouveau paramètre de <span class="uicontrol"> Calcul des pourcentages par ligne </span> oblige le tableau à structure libre à calculer les pourcentages des cellules par ligne, et non pas par colonne. Cela s’avère particulièrement utile pour les pourcentages de tendance, tels que les tendances de la manière dont un élément de dimension se positionne par rapport au reste au fil du temps. Elle est activée par défaut lorsque vous cliquez sur l’icône <span class="uicontrol">Visualiser</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Paramètre d’affichage « 100 % empilé »</a> </p> </td> 
@@ -515,7 +515,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Améliorations apportées à Aucun/Non spécifié </p> </td> 
-   <td colname="col2"> <p>Le comportement des attributs Aucun/Non spécifié dans Analysis Workspace a été modifié, de sorte qu’il soit cohérent avec le composant Reports &amp; Analytics, le créateur de segments et le menu des valeurs de dimensions dans Analysis Workspace. </p> <p>En d’autres termes, la valeur indiquera Non spécifié plutôt que Aucun dans la plupart des projets dans Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Modification du fonctionnement de Aucun/Non spécifié dans l’Analysis Workspace afin qu’il soit cohérent avec les rapports et Analytics, le créateur de segments et le menu des éléments de dimension dans l’Analysis Workspace. </p> <p>En d’autres termes, la valeur indiquera Non spécifié plutôt que Aucun dans la plupart des projets dans Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
