@@ -2,7 +2,7 @@
 title: Prop
 description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 26%
@@ -28,9 +28,9 @@ Chaque prop collecte les données de la chaîne [`c1` `c75` -](/help/implement/v
 
 AppMeasurement, qui compile des variables JavaScript dans une demande d’image pour la collecte de données, utilise les variables `prop1` - `prop75`. Voir [prop](/help/implement/vars/page-vars/prop.md) dans le guide de l’utilisateur Mise en oeuvre pour obtenir des instructions d’implémentation.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les props contenant des chaînes personnalisées dans votre implémentation, votre organisation détermine les valeurs de dimension de chaque prop. Veillez à enregistrer l’objectif de chaque valeur de prop et de dimension standard dans un document [de conception de](/help/implement/prepare/solution-design.md)solution.
+Les props contenant des chaînes personnalisées dans votre implémentation, votre organisation détermine les éléments de dimension de chaque prop. Veillez à enregistrer l’objectif de chaque élément de prop et de dimension typique dans un document [de conception de](/help/implement/prepare/solution-design.md)solution.
 
 ## Valeur des props sur les eVars
 
