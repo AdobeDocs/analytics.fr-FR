@@ -2,10 +2,10 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Canal :** peut faire référence :
    * À la variable channel, qui renseigne la dimension Sections du site. Voir [Variables de page](/help/implement/vars/page-vars/page-variables.md) dans le guide d’utilisation de la mise en œuvre.
    * Aux canaux marketing, composant permettant de comprendre comment les utilisateurs accèdent à votre site. Voir [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
-* **Classification :** une fonctionnalité d’Adobe Analytics qui permet le regroupement de valeurs de dimension. Voir [Classifications](/help/components/c-classifications2/c-classifications.md) dans le guide d’utilisation des composants.
+* **Classification :** Fonctionnalité d’Adobe Analytics qui permet le regroupement des éléments de dimension. Voir [Classifications](/help/components/c-classifications2/c-classifications.md) dans le guide d’utilisation des composants.
 * **Clickmap :** ce terme n’est plus utilisé. Module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Cet outil a été retiré en faveur d’Activity Map.
 * **Flux de données de parcours de navigation :** voir flux de données.
 * **Cohorte :** groupe de personnes partageant des caractéristiques communes sur une période donnée. Voir [Qu’est-ce que l’analyse des cohortes ?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) dans le guide d’utilisation Analyser.
@@ -75,7 +75,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Mesure :** type de composant contenant des données quantitatives. Les valeurs de mesure contiennent généralement des nombres, tels que Pages vues, Visites et Chiffre d’affaires. Leur contrepartie est souvent une dimension.
 * **Balisage multisuite :** pratique consistant à envoyer le même accès à plusieurs suites de rapports. Avec l’introduction des suites de rapports virtuelles, cette pratique n’est globalement plus nécessaire. La plupart des efforts de balisage multisuite permettent d’adapter une suite de rapports globale.
 * **Normalisation :** méthode d’organisation de visualisation qui prend toutes les mesures et force des proportions égales, permettant ainsi une comparaison plus facile des tendances.
-* **Occurrences :** type de mesure montrant le nombre d’accès à une valeur de dimension définie ou persistante. Voir la mesure [Occurrences](/help/components/metrics/occurrences.md) dans le guide de l’utilisateur Composants.
+* **Occurrences :** Type de mesure qui indique le nombre d’accès à un élément de dimension défini ou conservé. Voir la mesure [Occurrences](/help/components/metrics/occurrences.md) dans le guide de l’utilisateur Composants.
 * **Omniture :** ce terme n’est plus utilisé. Société détentrice d’Adobe Analytics avant son acquisition par Adobe en 2009.
 * **Cheminement :** voir Flux.
 * **Page vue :** type d’accès qui incrémente les pages vues. Voir la mesure vues [de](/help/components/metrics/page-views.md) page dans le guide de l’utilisateur Composants. Voir aussi Accès.
