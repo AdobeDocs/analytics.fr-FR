@@ -1,11 +1,11 @@
 ---
 title: Panneau Attribution
-description: Utilisation et interprétation du panneau d’attribution dans l’espace de travail des Analyses.
+description: Utilisation et interprétation du panneau d’attribution dans l’Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +36,7 @@ Le panneau d’attribution permet de créer aisément une analyse comparant diff
 * **Mesure** totale : Nombre total de conversions survenues au cours de la période du rapports. Il s’agit des conversions qui sont attribuées pour la dimension que vous avez sélectionnée.
 * **Graphique**&#x200B;à barres de comparaison d&#39;attribution des mesures : compare visuellement les conversions attribuées à chacun des éléments de dimension de la dimension sélectionnée. Chaque couleur de barre représente un modèle d’attribution distinct.
 * **Tableau**&#x200B;à structure libre Attribution de mesure : Affiche les mêmes données que le graphique à barres, représenté sous la forme d’un tableau. La sélection de différentes colonnes ou lignes dans ce tableau filtres le graphique à barres ainsi que plusieurs autres visualisations du panneau. Ce tableau se comporte de la même manière que tout autre tableau à structure libre de Workspace. Il vous permet d’ajouter des composants tels que des mesures, des segments ou des ventilations.
-* **Diagramme** de chevauchement des dimensions : Diagramme de Venn présentant les trois principales valeurs de dimension et la fréquence à laquelle elles participent conjointement à une conversion. Par exemple, la taille du chevauchement des bulles indique la fréquence des conversions lorsqu’un visiteur a été exposé aux deux valeurs de dimension. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
+* **Diagramme** de chevauchement des dimensions : Diagramme de Venn présentant les trois principaux éléments de dimension et la fréquence à laquelle ils participent conjointement à une conversion. Par exemple, la taille du chevauchement des bulles indique la fréquence des conversions lorsqu’un visiteur a été exposé aux deux éléments de dimension. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
 * **Points de contact marketing par parcours**: Histogramme indiquant le nombre de points de contact qu’un visiteur a eus dans la fenêtre de recherche en amont. Ceci est utile pour voir l’impact de l’attribution multi-touch pour votre jeu de données. Si presque tous les visiteurs n’ont qu’un seul point de contact, différents modèles d’attribution présentent probablement des données similaires.
 * **Détails** des performances du Canal marketing : Permet de comparer visuellement jusqu’à trois modèles d’attribution à l’aide d’un graphique de dispersion.
 * **Flux** de Canal marketing : Vous permet de déterminer les canaux qui interagissent le plus souvent et dans quel ordre d’un visiteur à l’autre.
