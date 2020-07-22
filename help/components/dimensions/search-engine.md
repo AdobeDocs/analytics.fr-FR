@@ -2,7 +2,7 @@
 title: Moteur de recherche
 description: Moteur de recherche utilisé par le visiteur pour accéder à votre site.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
@@ -27,6 +27,6 @@ Si vous souhaitez distinguer la recherche payée de la recherche naturelle, la d
 
 Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [parrain](referrer.md) de l’accès, qui dépend des filtres [d’URL](/help/admin/admin/internal-url-filter-admin.md)internes. Assurez-vous que la dimension de parrain et les filtres d’URL internes sont correctement configurés.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent les moteurs de recherche utilisés pour atteindre votre site. Les exemples de valeurs incluent `"Google"`, `"Microsoft Bing"`et `"DuckDuckGo"`. La valeur `"Unspecified"` de dimension correspond à tout le trafic hors recherche.
+Les éléments de dimension incluent les moteurs de recherche utilisés pour atteindre votre site. Example values include `"Google"`, `"Microsoft Bing"`, and `"DuckDuckGo"`. L’élément `"Unspecified"` de dimension est tout le trafic non lié à la recherche.
