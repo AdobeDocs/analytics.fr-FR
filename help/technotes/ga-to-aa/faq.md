@@ -2,10 +2,10 @@
 title: Questions fréquentes
 description: Obtenez des réponses aux questions fréquentes lorsque vous passez d’une plateforme tierce à Adobe.
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 75%
+ht-degree: 66%
 
 ---
 
@@ -29,6 +29,6 @@ Dropdown filters are a flexible and robust feature in [!UICONTROL Analysis Works
 
 Users accessing this [!UICONTROL Workspace] project can now use this dropdown to apply segments or other components to the project. See [Panels Overview](/help/analyze/analysis-workspace/c-panels/panels.md) in the Adobe Analytics Tools guide for more information.
 
-**J’ai l’habitude de cliquer sur la valeur d’une dimension pour qu’une analyse en profondeur s’affiche. Comment puis-je recréer ce processus simple dans Analysis Workspace ?**
+**J&#39;ai l&#39;habitude de cliquer sur un élément de dimension pour afficher une liste déroulante. Comment puis-je recréer ce processus simple dans Analysis Workspace ?**
 
-Les valeurs de dimension dans [!UICONTROL Analyse Workspace] ont également un processus de ventilation facile. Accédez-y en cliquant avec le bouton droit au lieu de cliquer avec le bouton gauche. Right-click on a dimension value, click **[!UICONTROL Breakdown], then select the desired component. Vous pouvez appliquer la même répartition pour plusieurs valeurs de dimension en faisant ctrl+clic (Windows) ou cmd+clic (Mac) sur chaque valeur.
+Les éléments de dimension dans [!UICONTROL l’Analysis Workspace] ont également un processus de ventilation facile. Accédez-y en cliquant avec le bouton droit au lieu de cliquer avec le bouton gauche. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. Vous pouvez appliquer la même ventilation à plusieurs éléments de dimension en appuyant sur les touches Ctrl+clic (Windows) ou cmd+clic (Mac) sur chaque valeur.
