@@ -2,7 +2,7 @@
 title: canal Première touche
 description: Le premier canal marketing dans l’expiration de l’engagement du visiteur.
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,12 +22,12 @@ Chaque accès envoyé aux serveurs de collecte de données Adobe s’exécute pa
 
 Pour définir cette dimension sur une valeur spécifique, procédez comme suit :
 
-* Définissez la valeur de dimension souhaitée en tant que canal dans le Gestionnaire de canaux marketing sous Paramètres de la suite de rapports.
+* Définissez l’élément de dimension de votre choix comme canal dans le Gestionnaire de canaux marketing sous Paramètres de la suite de rapports.
 * Définissez une règle de traitement du canal marketing qui contient les critères de votre choix pour l’accès.
 * L’visiteur qui a accédé à votre site doit correspondre aux critères décrits dans la règle de traitement du canal marketing __ et doit être la première valeur du canal marketing à le faire au cours de la période d’engagement du visiteur.
 
 Si un accès ultérieur correspond à des critères sous un autre canal marketing, cette dimension n’est pas remplacée par le nouveau canal marketing.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent tout nom de canal dans le Gestionnaire de canaux marketing. Par défaut, les valeurs comprennent `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`,  et . `"Social networks"``"Referring domains"` Vous pouvez ajouter ou supprimer des canaux dans le Gestionnaire de canaux marketing, ce qui affecte les valeurs de cette dimension.
+Les éléments de dimension incluent tout nom de canal dans le Gestionnaire de canaux marketing. Par défaut, les valeurs comprennent `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`,  et . `"Social networks"``"Referring domains"` Vous pouvez ajouter ou supprimer des canaux dans le Gestionnaire de canaux marketing, ce qui affecte les valeurs de cette dimension.
