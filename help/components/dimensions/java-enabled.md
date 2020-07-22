@@ -2,7 +2,7 @@
 title: Compatible Java
 description: Détermine si Java est activé dans le navigateur.
 translation-type: tm+mt
-source-git-commit: 226c54b782651ea8c6f4b7bb8030a1513c440a1d
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 1%
@@ -16,11 +16,11 @@ La dimension &quot;Java enabled&quot; détermine si Java est activé dans le nav
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données de la chaîne [`v` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données en détectant si Java est activé dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par exemple via le lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `v` requête contenant &quot;Y&quot; ou &quot;N&quot; si vous souhaitez utiliser cette dimension.
+Cette dimension récupère les données de la chaîne [`v` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données en détectant si Java est activé dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par exemple par le biais du lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `v` requête contenant &quot;Y&quot; ou &quot;N&quot; si vous souhaitez utiliser cette dimension.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension sont &quot;Activé&quot;, &quot;Désactivé&quot; et &quot;Inconnu&quot;.
+Les éléments de dimension sont &quot;Activé&quot;, &quot;Désactivé&quot; et &quot;Inconnu&quot;.
 
 * **Activé**: Java est activé dans le navigateur. La chaîne de `v` requête contenait la valeur &quot;Y&quot;.
 * **Désactivé**: Java est désactivé dans le navigateur ou n’est pas pris en charge par d’autres méthodes. La chaîne de `v` requête contenait la valeur &quot;N&quot;.
