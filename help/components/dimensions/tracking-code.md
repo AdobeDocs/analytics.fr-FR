@@ -2,7 +2,7 @@
 title: Code de suivi
 description: Nom du code de suivi ou de la campagne.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -18,6 +18,6 @@ La dimension &quot;Code de suivi&quot; liste les noms des codes de suivi sur vot
 
 Cette dimension récupère les données de la chaîne [`v0` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la [`campaign`](/help/implement/vars/page-vars/campaign.md) variable.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent les noms des codes de suivi sur votre site. Votre organisation détermine les valeurs de dimension spécifiques que vous souhaitez utiliser.
+Les éléments de dimension incluent les noms des codes de suivi sur votre site. Votre organisation détermine les éléments de dimension spécifiques que vous souhaitez utiliser.
