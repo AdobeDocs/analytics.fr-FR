@@ -2,7 +2,7 @@
 title: États américains
 description: L'état américain du visiteur.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Cette dimension fait référence aux règles de recherche internes à Adobe. La 
 >
 >Si votre entreprise applique des règles strictes de confidentialité lorsque l’ [obscurcissement d’une adresse](/help/admin/admin/general-acct-settings-admin.md) IP ne suffit pas, vous pouvez demander de désactiver entièrement les données de géolocalisation. Contactez le service à la clientèle avec l’identifiant de la suite de rapports et demandez de désactiver la fonction &quot;Géographie&quot; pour la suite de rapports.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent les régions et le pays dans lequel la région réside. Les exemples de valeurs incluent `"California"`, `"Texas"`ou `"Virginia"`. La valeur de dimension `"Unspecified"` inclut tout le trafic international en dehors des États-Unis.
+Les éléments de dimension incluent les régions et le pays dans lequel la région réside. Les exemples de valeurs incluent `"California"`, `"Texas"`ou `"Virginia"`. L’élément de dimension `"Unspecified"` inclut tout le trafic international en dehors des États-Unis.
 
 ## Différences entre l’emplacement signalé et l’emplacement réel
 
