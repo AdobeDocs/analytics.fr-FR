@@ -2,7 +2,7 @@
 title: Occurrences
 description: Nombre d’accès pour lesquels une variable a été définie ou conservée.
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 1%
@@ -16,9 +16,9 @@ La mesure &quot;Occurrences&quot; indique le nombre d’accès pour lesquels une
 
 ## Méthode de calcul de cette mesure
 
-Sur tous les accès d’une suite de rapports, incluez les accès pour lesquels une valeur de dimension est définie ou conservée. Certaines dimensions, telles que les [eVars](../dimensions/evar.md), persistent au-delà de l’accès défini. Les mesures telles que vues [de](page-views.md) page et [Occurrences](occurrences.md) comptabilisent à la fois les valeurs initiales et les valeurs persistantes. Cette mesure ne comptabilise pas les valeurs conservées.
+Sur tous les accès d’une suite de rapports, incluez les accès pour lesquels un élément de dimension est défini ou conservé. Certaines dimensions, telles que les [eVars](../dimensions/evar.md), persistent au-delà de l’accès défini. Les mesures telles que vues [de](page-views.md) page et [Occurrences](occurrences.md) comptabilisent à la fois les valeurs initiales et les valeurs persistantes. Cette mesure ne comptabilise pas les valeurs conservées.
 
 ## Comparaison avec des mesures similaires
 
-* **Occurrences vs[Instances](instances.md)**: Nombre d’occurrences où une valeur de dimension a été définie ou conservée. Les instances n’incluent pas les accès pour lesquels une valeur de dimension persiste.
+* **Occurrences vs[Instances](instances.md)**: Les occurrences comptabilisent les accès où un élément de dimension a été défini ou conservé. Les instances n’incluent pas les accès pour lesquels un élément de dimension persiste.
 * **Occurrences par rapport aux vues[de](page-views.md)**page : Les occurrences comprennent tous les types d’accès, y compris les appels de suivi de vue de page ([`t()`](/help/implement/vars/functions/t-method.md)) et les appels de suivi de liens ([`tl()`](/help/implement/vars/functions/tl-method.md)). La mesure vues de page inclut uniquement les appels de suivi de vue de page et exclut les appels de suivi de lien.
