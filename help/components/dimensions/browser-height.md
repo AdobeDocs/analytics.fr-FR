@@ -2,7 +2,7 @@
 title: Hauteur du navigateur - groupé
 description: Hauteur de la fenêtre du navigateur en pixels.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -24,10 +24,10 @@ La hauteur du navigateur est toujours inférieure ou égale à la hauteur d’é
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données de la chaîne [`bh` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerHeight` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par exemple via le lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `bh` requête au premier accès de chaque visite.
+Cette dimension récupère les données de la chaîne [`bh` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerHeight` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par exemple par le biais du lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `bh` requête au premier accès de chaque visite.
 
 Adobe conserve la hauteur du navigateur pour une visite. Si la hauteur du navigateur est ajustée à la mi-visite, l’ajustement n’est pas enregistré.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension comprennent toutes les hauteurs de navigateur collectées, classées en groupes de 100 pixels. Par exemple, si la hauteur du navigateur d’un accès est `720`définie, elle est regroupée dans la valeur de dimension `700 to 799`.
+Les éléments de dimension comprennent toutes les hauteurs de navigateur collectées, classées en groupes de 100 pixels. Par exemple, si la hauteur du navigateur d’un accès est `720`définie, elle est regroupée dans l’élément de dimension `700 to 799`.
