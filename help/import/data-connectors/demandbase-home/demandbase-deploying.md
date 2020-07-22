@@ -3,10 +3,10 @@ description: Le déploiement de cette intégration est un processus simple qui n
 title: Déploiement de l’intégration
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ Toutefois, si vous devez effectuer des ajustements, certains paramètres de code
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> Délimiteur utilisé pour séparer les valeurs de dimension Demandbase lorsqu’elles sont envoyées à Adobe Analytics. La modification de ce paramètre peut entraîner le mauvais fonctionnement des règles de classification par défaut. </td> 
+   <td colname="col2"> Délimiteur utilisé pour séparer les éléments de dimension Demandbase lorsqu’ils sont envoyés à Adobe Analytics. La modification de ce paramètre peut entraîner le mauvais fonctionnement des règles de classification par défaut. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
