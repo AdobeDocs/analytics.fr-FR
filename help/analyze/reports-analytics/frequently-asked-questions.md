@@ -3,8 +3,11 @@ description: Fournit des réponses et des suggestions en matière de dépannage 
 keywords: Troubleshooting Analytics
 title: Questions fréquentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 94%
 
 ---
 
@@ -43,7 +46,7 @@ Les périphériques Apple renvoient leur version du microprogramme dans leur ch
 
 **Pourquoi les totaux du bas de mon rapport ne correspondent-ils pas lorsque j’additionne les valeurs ?**
 
-Les valeurs de dimension peuvent souvent s’appliquer à plusieurs endroits, par exemple pour des visites qui s’étendent au-delà de minuit ou pour des commandes de plusieurs produits. La valeur de dimension est reprise sur tous les éléments de ligne pour lesquels elle s’applique, mais elle est dédupliquée du total du rapport. Pour en savoir plus, consultez la section [Comparer la somme des éléments de ligne par rapport au total du rapport](https://helpx.adobe.com/fr/analytics/kb/sum-line-items-different-from-total.html) dans la base de connaissances Analytics.
+Les éléments de dimension peuvent souvent s’appliquer à plusieurs endroits ; par exemple, les visites qui s’étendent sur minuit ou plusieurs produits appartenant à une seule commande. L’élément de dimension est reporté sur tous les éléments de ligne applicables, mais il est dédupliqué dans le total du rapport. Pour en savoir plus, consultez la section [Comparer la somme des éléments de ligne par rapport au total du rapport](https://helpx.adobe.com/fr/analytics/kb/sum-line-items-different-from-total.html) dans la base de connaissances Analytics.
 
 **Comment exclure des données d’une adresse IP en particulier dans ma suite de rapports ?**
 
