@@ -2,7 +2,7 @@
 title: Année
 description: Année au cours de laquelle la mesure a eu lieu.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 2%
@@ -12,12 +12,12 @@ ht-degree: 2%
 
 # Année
 
-La dimension &quot;Année&quot; rapporte l’année où une mesure donnée a eu lieu. La première valeur de dimension est la première année de la plage de dates et la dernière valeur de dimension est l’année la plus récente de la plage de dates.
+La dimension &quot;Année&quot; rapporte l’année où une mesure donnée a eu lieu. Le premier élément de dimension est la première année de la période et le dernier élément de dimension est l’année la plus récente de la période.
 
 ## Renseigner cette dimension avec des données
 
 Cette dimension est prête à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, cette dimension fonctionne.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent une année donnée, les dates étant incluses entre parenthèses.
+Les éléments de dimension comprennent une année donnée, avec les dates entre parenthèses.
