@@ -2,7 +2,7 @@
 title: Page
 description: Nom de la page.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -20,9 +20,9 @@ Cette dimension est liée à la section [](site-section.md) Site et aux dimensio
 
 Cette dimension récupère les données de la chaîne [`pageName` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la `pageName` variable. Si la `pageName` variable n’est pas définie, elle revient à utiliser l’URL de la page.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Les valeurs de dimension incluent le nom des pages de votre site. Votre organisation détermine les valeurs de dimension spécifiques que vous souhaitez utiliser. Certaines organisations utilisent directement `document.title`, tandis que d’autres formulent un chemin de navigation personnalisé. Quelle que soit la méthode utilisée, assurez-vous qu’elle est cohérente et que vous l’enregistrez dans un document [de conception de](/help/implement/prepare/solution-design.md)solution.
+Les éléments de dimension incluent le nom des pages de votre site. Votre organisation détermine les éléments de dimension spécifiques que vous souhaitez utiliser. Certaines organisations utilisent directement `document.title`, tandis que d’autres formulent un chemin de navigation personnalisé. Quelle que soit la méthode utilisée, assurez-vous qu’elle est cohérente et que vous l’enregistrez dans un document [de conception de](/help/implement/prepare/solution-design.md)solution.
 
 >[!NOTE]
 >
