@@ -3,7 +3,7 @@ description: Mise en route avec Adobe Analytics.
 keywords: Analysis Workspace
 title: Guide de prise en main
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 98%
@@ -21,7 +21,7 @@ Analysis Workspace est l’un des outils phares d’Adobe pour prendre des déci
 
 ## Extraction d’un rapport de classement de base dans Workspace
 
-Effectuez l’extraction d’un rapport de classement de base à l’aide d’Analysis Workspace. Un rapport de classement affiche une vue totale agrégée de chaque valeur de dimension, en indiquant d’abord les valeurs les plus élevées. Ces types de rapports sont utiles pour identifier les composants de votre site les plus efficaces, tels que les pages qui génèrent le plus de trafic ou les produits les plus vendus.
+Effectuez l’extraction d’un rapport de classement de base à l’aide d’Analysis Workspace. Un rapport avec classement affiche la vue totale agrégée de chaque élément de dimension, avec les valeurs les plus élevées en premier. Ces types de rapports sont utiles pour identifier les composants de votre site les plus efficaces, tels que les pages qui génèrent le plus de trafic ou les produits les plus vendus.
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur l’icône à 9 carrés dans le coin supérieur droit, puis sur le logo Analytics coloré.
@@ -35,7 +35,7 @@ Effectuez l’extraction d’un rapport de classement de base à l’aide d’An
 
 ## Extraire un rapport de tendance de base dans Workspace
 
-Effectuez l’extraction d’un rapport de tendance de base à l’aide d’Analysis Workspace. Un rapport de tendance affiche une vue de dépassement de délai à l’aide de la période sélectionnée. Ces types de rapports sont utiles pour identifier les tendances dans le temps et peuvent servir à évaluer l’issue positive ou négative des décisions professionnelles. Vous pouvez, par exemple, examiner un rapport de pages vues avec des tendances au fil du temps pour voir si un site repensé a contribué à augmenter ou à diminuer le trafic.
+Effectuez l’extraction d’un rapport de tendance de base à l’aide d’Analysis Workspace. Un rapport de tendance affiche une vue de dépassement de délai à l’aide de la période sélectionnée. Ces types de rapports sont utiles pour identifier les tendances dans le temps et peuvent servir à évaluer le succès ou l’échec des décisions professionnelles. Vous pouvez, par exemple, examiner un rapport de pages vues avec des tendances au fil du temps pour voir si un site repensé a contribué à augmenter ou à diminuer le trafic.
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur l’icône à 9 carrés dans le coin supérieur droit, puis sur le logo Analytics coloré.
@@ -98,8 +98,8 @@ Il existe de nombreuses instructions pour approfondir votre compréhension d’A
 * Partage de projets dans Workspace : montrez à votre collègue l’incroyable projet Workspace que vous avez créé.
 * [(Avancé) Panneaux dans Workspace](/help/analyze/analysis-workspace/c-panels/panels.md) : utilisez les fonctionnalités avancées de Workspace, telles que la comparaison d’attributs et de segments.
 
-### Pour les analystes et les administrateurs souhaitant améliorer la qualité de Workspace dans leur organisation
+### Pour les analystes et les administrateurs qui souhaitent améliorer la qualité de Workspace au sein de leur entreprise
 
-* [Autorisations d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html) : attribuez des autorisations d’utilisateur à Workspace via Adobe Admin Console.
+* [Autorisations d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/core-services/interface/manage-users-and-products/admin-getting-started.html) : attribuez des autorisations d’utilisateur à Workspace via l’Adobe Admin Console.
 * [Modèles dans Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) : créez des modèles pour que vos collègues puissent commencer avec un espace de projet adapté à leurs besoins.
 * [Traitement de Workspace](/help/analyze/analysis-workspace/curate-share/curate.md) : créez un projet qui limite les composants disponibles, en rendant Workspace plus accessible aux personnes moins familières avec l’outil.
