@@ -2,7 +2,7 @@
 title: Jour ouvrable/week-end
 description: Détermine si l’accès s’est produit pendant une semaine ou un week-end.
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 3%
@@ -18,6 +18,6 @@ La dimension &quot;Jour de la semaine/Fin de semaine&quot; permet de savoir si l
 
 Cette dimension est prête à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, cette dimension fonctionne.
 
-## Valeurs de dimension
+## Éléments de dimension
 
-Cette dimension contient toujours exactement deux valeurs de dimension : `"Weekday"` et `"Weekend"`. La valeur de dimension `"Weekday"` s’applique à tous les accès du lundi au vendredi, tandis que la valeur de dimension `"Weekend"` s’applique à tous les accès du samedi et du dimanche.
+Cette dimension contient toujours exactement deux éléments de dimension : `"Weekday"` et `"Weekend"`. L’élément de dimension `"Weekday"` s’applique à tous les accès du lundi au vendredi, tandis que l’élément de dimension `"Weekend"` s’applique à tous les accès les samedis et dimanches.
