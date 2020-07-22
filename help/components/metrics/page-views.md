@@ -2,7 +2,7 @@
 title: Pages vues
 description: Nombre de fois où une page a été consultée.
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Pages vues
 
-La mesure &quot;vues de page&quot; indique le nombre de fois où une valeur de dimension donnée a été définie ou conservée sur une page. Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
+La mesure &quot;vues de page&quot; indique le nombre de fois où un élément de dimension donné a été défini ou conservé sur une page. Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure comptabilise tous les appels de suivi de vue de page ([`t()`](/help/implement/vars/functions/t-method.md)) d’une suite de rapports. Pour les dimensions, elle inclut les accès pour lesquels une valeur de dimension est définie ou conservée. Il n’inclut pas les appels de suivi de liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Cette mesure comptabilise tous les appels de suivi de vue de page ([`t()`](/help/implement/vars/functions/t-method.md)) d’une suite de rapports. Pour les dimensions, il inclut les accès où un élément de dimension est défini ou conservé. Il n’inclut pas les appels de suivi de liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Comparaison avec des mesures similaires
 
