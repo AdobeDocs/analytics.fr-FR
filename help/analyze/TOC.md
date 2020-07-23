@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1100'
 ht-degree: 98%
 
 ---
@@ -101,6 +101,7 @@ ht-degree: 98%
       + [Modèles d’attribution et fenêtres de recherche arrière](analysis-workspace/attribution/models.md)
       + [Attribution algorithmique](analysis-workspace/attribution/algorithmic.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
+   + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Analyste virtuel {#virtual-analyst}
       + [Présentation de Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
