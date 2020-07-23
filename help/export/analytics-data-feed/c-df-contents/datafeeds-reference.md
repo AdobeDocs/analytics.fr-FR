@@ -6,9 +6,9 @@ title: Référence des colonnes de données
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '3664'
+source-wordcount: '3669'
 ht-degree: 97%
 
 ---
@@ -84,7 +84,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `geo_region` | Nom de l’état ou de la région d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et l’état/la région. | char(32) |
 | `geo_zip` | Le code postal d’origine de l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le code postal. | varchar(16) |
 | `hier1 - hier5` | Utilisé par les variables de hiérarchie. Contient une liste de valeurs délimitée. Le délimiteur est sélectionné dans les paramètres de la suite de rapports. | varchar(255) |
-| `hit_source` | Indique la source de l’accès. <br>1 : Requête image standard sans horodatage <br>2 : Requête image standard avec horodatage <br>3 : Chargement de source de données actif avec horodatage <br>4 : Inutilisé <br>5 : Chargement de source de données générique <br>6 : Chargement de source de données de traitement complet <br>7 : Chargement de source de données TransactionID <br>8 : N’est plus utilisée ; Versions précédentes des sources de données Adobe Advertising Cloud <br>9 : N’est plus utilisée ; mesures de résumé Adobe Social | tinyint sans signe |
+| `hit_source` | Indique la source de l’accès. <br>1 : Requête image standard sans horodatage <br>2 : Requête image standard avec horodatage <br>3 : Chargement de source de données actif avec horodatage <br>4 : Inutilisé <br>5 : Chargement de source de données générique <br>6 : Chargement de source de données de traitement complet <br>7 : Chargement de source de données TransactionID <br>8 : N’est plus utilisée ; Versions précédentes des sources de données Adobe Advertising Cloud <br>9 : N’est plus utilisée ; mesures de résumé Adobe Social <br>10 : Audience Manager de transfert côté serveur utilisée | tinyint sans signe |
 | `hit_time_gmt` | L’horodatage des serveurs de collecte de données Adobe ayant reçu l’accès, basé sur l’heure Unix. | int |
 | `hitid_high` | Utilisée en combinaison avec hitid_low pour identifier de manière unique un accès. | bigint sans signe |
 | `hitid_low` | Utilisée en combinaison avec hitid_high pour identifier de manière unique un accès. | bigint sans signe |
