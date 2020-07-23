@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 50ed50f951b6c7309359a19538323b1e12322a80
+source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 94%
+source-wordcount: '258'
+ht-degree: 92%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 94%
       + [Aperçu du contenu du flux de données](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Mesures calculées](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Référence des colonnes de données](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Ressources d’en-tête](analytics-data-feed/c-df-contents/headers.md)
-      + [Recherche d’événement de page](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Recherche de événement de page](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Recherche d’attributs mobiles](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [Caractères spéciaux](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Accès tardifs](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [FAQ sur les flux de données](analytics-data-feed/df-faq.md)
