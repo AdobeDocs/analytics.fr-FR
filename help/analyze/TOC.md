@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 98%
@@ -27,7 +27,7 @@ ht-degree: 98%
       + Paramètres des colonnes et des lignes {#column-row-settings}
          + [Paramètres des colonnes](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [Paramètres des lignes](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [Lignes manuelles et dynamiques](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Éléments dynamiques ou statiques](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [Paramètres d’annulation et de rétablissement](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Touches de raccourci dans Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Pagination, filtrage et tri des tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
