@@ -2,9 +2,9 @@
 title: Éléments de dimension dynamiques ou statiques
 description: Comment interagir avec des éléments de dimension dynamiques et statiques dans des tableaux.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,4 @@ Les éléments de dimension de différentes dimensions peuvent être ajoutés au
 Les lignes dynamiques et statiques se comportent différemment dans la ligne de total à structure libre. Par défaut:
 
 * Les lignes dynamiques sont additionnées de mesures côté serveur et de duplicata, telles que les visites ou les visiteurs.
-* Les lignes statiques sont additionnées côté client et **ne déduisent pas** les mesures de duplicata.
-
-[En savoir plus sur les options totales](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) de Workspace pour les lignes dynamiques et statiques.
+* Les lignes statiques sont additionnées côté client et **ne déduisent pas** les mesures de duplicata. Pour calculer le total des lignes côté serveur, définissez le paramètre Ligne sur **Afficher le total** général. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
