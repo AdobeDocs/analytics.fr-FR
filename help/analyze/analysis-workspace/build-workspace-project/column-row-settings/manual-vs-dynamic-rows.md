@@ -1,10 +1,10 @@
 ---
-title: Éléments de dimension dynamiques ou statiques
+title: Éléments de dimension dynamiques ou statiques dans les tableaux à structure libre
 description: Comment interagir avec des éléments de dimension dynamiques et statiques dans des tableaux.
 translation-type: tm+mt
-source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ Par exemple, lorsque vous faites glisser la dimension Type de navigateur dans le
 
 Les éléments de dimension dynamique disposent de l’option de filtre de ligne et n’ont **pas** de verrou et d’icônes X.
 
+![](assets/dynamic-items.png)
+
 ## Éléments de dimension statique
 
 Les éléments de dimension statique ne changent pas avec le temps ; il s’agit de composants fixes qui sont toujours renvoyés dans un tableau à structure libre. Les éléments de dimension statique sont préférés lorsque vous souhaitez toujours analyser le même élément, qu’il s’agisse de campagnes spécifiques ou de jours spécifiques dans la semaine.
@@ -37,9 +39,13 @@ Par exemple, lorsque vous faites glisser des éléments de type navigateur spéc
 
 Les éléments de dimension statique **ne disposent pas** de l’option de filtre de ligne. A la place, des icônes de verrouillage et X sont présentes sur chaque élément. Cliquez sur l’icône X pour supprimer cet élément de dimension du tableau.
 
+![](assets/static-items.png)
+
 ## Éléments de dimension mixtes
 
 Les éléments de dimension de différentes dimensions peuvent être ajoutés au même tableau. Dans ces cas, l’en-tête de ligne indique &quot;Dimensions mixtes&quot;. Ces éléments de dimension sont statiques. Par exemple, l’ajout d’éléments de dimension spécifiques de la dimension Type de navigateur et d’autres éléments de dimension de la dimension Navigateur.
+
+![](assets/mixed-dimensions.png)
 
 ## Lignes totales de forme libre
 
