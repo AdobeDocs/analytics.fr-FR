@@ -2,12 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Guide de mise en œuvre Analytics
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -154,8 +155,8 @@ ht-degree: 91%
    + [Création d’une propriété Analytics](launch/create-analytics-property.md)
    + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
    + [Validation et publication en production](launch/validate-publish-prod.md)
-   + [Mappage des objets de couche de données aux éléments de données](launch/layer-to-elements.md)
-   + [Mise en correspondance des éléments de données de lancement avec les variables Analytics](launch/elements-to-variable.md)
+   + [Mise en correspondance des objets de couche de données avec les éléments de données](launch/layer-to-elements.md)
+   + [Mise en correspondance des éléments de données Launch avec les variables Analytics](launch/elements-to-variable.md)
 + Mise en œuvre d’Analytics sur d’autres plateformes {#other}
    + [Mise en œuvre d’Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
    + Mise en œuvre d’Analytics avec DTM {#dtm}
@@ -201,6 +202,6 @@ ht-degree: 91%
    + [Moniteurs de paquets](validate/packet-monitor.md)
    + [Collisions de hachage](validate/hash-collisions.md)
 + [Questions fréquentes](faq.md)
-+ Utiliser des données XDM avec Analytics {#aep-edge}
-   + [Utiliser le SDK Web AEP](aep-edge/xdmoverview.md)
++ Utilisation des données XDM avec Analytics {#aep-edge}
+   + [Utilisation du SDK Web AEP](aep-edge/xdmoverview.md)
    + [Mappage manuel des données XDM vers Analytics](aep-edge/xdm-manual.md)
