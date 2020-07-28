@@ -3,7 +3,7 @@ description: 'null'
 title: Affichage de l’utilisation actuelle des appels au serveur
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Le tableau de bord de l’utilisation actuelle :
 
 * compare la période d’utilisation actuelle à celle de l’année précédente (ligne bleue) ; Bien entendu, la ligne bleue n’apparaitra que si votre société possède les données d’utilisation de l’appel au serveur de l’année précédente.
 
-   > [!NOTE] Si vous souhaitez afficher l’utilisation d’une période précédente, vous devez accéder à l’onglet [Suite de rapports d’utilisation](/help/admin/c-server-call-usage/report-suite-usage.md) et télécharger les données d’utilisation d’une période précédente.
+   >[!NOTE] Si vous souhaitez afficher l’utilisation d’une période précédente, vous devez accéder à l’onglet [Suite de rapports d’utilisation](/help/admin/c-server-call-usage/report-suite-usage.md) et télécharger les données d’utilisation d’une période précédente.
 
 * répertorie le pourcentage d’appels utilisé (en pourcentage et données brutes) et le pourcentage de la période d’utilisation passée (en pourcentage et données brutes) ;
 * est, par défaut, mis à jour quotidiennement, avec une latence de traitement de 5 jours ;
