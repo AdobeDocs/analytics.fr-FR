@@ -2,42 +2,37 @@
 description: Cette rubrique présente la configuration système requise et compare Analysis Workspace, les Reports & Analytics, les Ad Hoc Analysis, le Report Builder, Data Warehouse et Data Workbench.
 title: Configuration requise et comparaison des produits Analytics
 translation-type: tm+mt
-source-git-commit: 456459eab5ae26b49d16d9648a52e46a5818df44
+source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 83%
+source-wordcount: '662'
+ht-degree: 55%
 
 ---
 
 
 # Analytics Configuration requise et comparaison des produits 
 
-Configuration système requise et comparaison entre Analysis Workspace, Rapports et Analytics, créateur de rapports, Data warehouse, Data Workbench, API Analytics 2.0, flux de données et Customer Journey Analytics.
+Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Rapports et Analytics, Report Builder, Data warehouse, Data Workbench, Flux de données et API Analytics 2.0.
 
 Pour savoir quel produit Adobe Analytics utiliser, accédez à ce [lien](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
-| Nom du produit et lien d’aide | [Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/fr-FR/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/home.html) | API Analytics 2.0 | Flux de données |
+| Nom du produit et lien d’aide | [Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/fr-FR/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/home.html) | [Flux de données](https://docs.adobe.com/content/help/fr-FR/analytics/export/analytics-data-feed/data-feed-overview.html) | [API Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **Méthode d’accès** | Solution de navigateur pour créer des projets d’analyse personnalisés et fiables, et démocratiser les informations. | Solution de navigateur pour les analyses digitales. | Solution de navigateur qui génère des rapports au format .csv. Peut générer des fichiers de format Tableau. | Outil d’analyse multicanal pour des analyses avancées, comme la modélisation d’attribution personnalisée, l’analyse prédictive et l’analyse client avec vue à 360 degrés. |  |  |  |
-| **Ventilations des rapports** | Illimitées | Jusqu’à 2 corrélations | Jusqu’à 2 corrélations | Effectue des ventilations illimitées entièrement étendues (ventilation par segment). | Illimitées |  |  |
-| **Comparaisons des segments** | Illimitées | Jusqu’à 2 segments | Illimitées (empilement des requêtes de données) | 1 segment. Prise en charge de plusieurs segments (empilés). | Illimitées |  |  |
-| **Limite de sortie des lignes** | 400 | 200 | 50 000 | Illimitées | Personnalisable |  |  |
-| **** Limites de valeur unique (dans les rapports d’eVar/de prop) | 500 K-2 millions | 500 K-2 millions | 500 K-2 millions | Illimitées | Personnalisable |  |  |
-| **Entonnoir/cheminement** | Oui : [Abandon](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)/[flux](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/flow/flow.html) | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/reports.html) | Oui | Non | Oui |  |  |
-| **Analyse avancée du parcours client** | Yes: [Customer Journey Analytics](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-landing.html) | Non | Non | Non | Oui |  |  |
-| **Analyse des cohortes** | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | Non | Non | Non | Oui |  |  |
-| **Attribution avancée** | Oui : [QI de l’attribution](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution-iq.html) | Limitée - premier/dernier/linéaire | Limitée - premier/dernier/linéaire | Limitée - premier/dernier/linéaire | Oui |  |  |
-| **Options de visualisation améliorées** | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) | Non | Oui | Non | Oui |  |  |
-| **Mise en page personnalisable** | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html) | Oui - [Tableaux de bord](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/dashboard.html) | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/layout/configure-the-custom-layout.html) | Tri des résultats par ventilation ou mesure. | Oui |  |  |
-| **** Traitement des projets (simplifie les rapports pour les personnes qui ne sont pas analystes) | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.html) | Non | Oui | Non | Oui |  |  |
-| **Partage des projets** | [Oui : tous/n’importe quel utilisateur](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.html) | [Oui : tous/n’importe quel utilisateur](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/scheduling.html) | Oui : tous/n’importe quel utilisateur | Non | Oui |  |  |
-| **Diffusion de rapports** planifiée | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/schedule-projects.html) | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/scheduling.html) | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/t-schedule-a-data-request.html) | Oui | Oui |  |  |
-| **Configuration système requise** | <br>[BrowserMore...](https://docs.adobe.com/content/help/fr-FR/analytics/admin/sys-reqs.html) | <br>[BrowserMore...](https://docs.adobe.com/content/help/fr-FR/analytics/admin/sys-reqs.html) | Windows, MS<br>[ExcelPlus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | Navigateur et programme pour ouvrir des fichiers  .csv (MS Excel, par exemple). Peut générer des fichiers de format Tableau. | Windows 64 bit, good graphics adapter for OpenGL 3.2 [More...](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/install/c-data-workbench-client-install.html) |  |  |  |
-| **Compatibilité de la suite de rapports virtuelle (traitement du temps de rapport)** | Oui | Oui | Oui | Non | Oui? |  |  |
-| **Suites de rapports multiples** | Oui | Non | Non | Non | Oui? |  |  |
-| **Mesures calculées** | Oui | Oui | Oui | Oui | Oui |  |  |
-| **Compatibilité des Canaux marketing** | Oui | Oui | Oui | ? | ? |  |  |
-| **Niveau de granularité** |  |  |  |  |  |  |  |
-| **Détection des anomalies** | Oui | Non |  |  |  |  |  |
-| **Analyse des contributions** | Oui | Non | Non | Non | Oui |  |  |
-| **Types de segment** |  |  |  |  |  |  |  |
+| **Méthode d&#39;accès** | [Navigateur](https://docs.adobe.com/content/help/fr-FR/analytics/admin/sys-reqs.html) | [Navigateur](https://docs.adobe.com/content/help/fr-FR/analytics/admin/sys-reqs.html) | [MS Excel pour Windows](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | Configuration via le navigateur. Les destinations prises en charge sont FTP. Contactez le service à la clientèle pour obtenir une assistance sur les destinations supplémentaires. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/admin/sys-reqs.html) | [Windows 64 bits](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/install/c-data-workbench-client-install.html) | Configuration via le navigateur. Les destinations prises en charge sont FTP, SFTP, Azure Blob, S3. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/export/analytics-data-feed/data-feed-overview.html) | Outils d’API RESTful. Connectez-vous avec les informations d&#39;identification d&#39;E/S d&#39;Adobe. [En savoir plus](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **Format de données (granularité)** | Agrégé | Agrégé | Agrégé | ECID | Horodatage + ECID | Horodatage + ECID | Agrégé |
+| **Niveau de traitement** | Traitement complet | Traitement complet, avec rapport [en temps réel distinct](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | Traitement complet, avec rapport [en temps réel distinct](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | Traitement complet | Traitement complet | Traitement complet | Traitement complet |
+| **Données du filtre de robots d&#39;administration incluses** <br>[En savoir plus](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html) | Non | Oui - rapport de robots distinct | Oui - rapport de robots distinct | Non | Non | Non | Non |
+| **Faible trafic (valeurs uniques dépassées) apparaît** <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/low-traffic.translate.html) | Oui | Oui | Oui | Non | Non | Non | Oui |
+| **Limite des lignes visibles (avant pagination)** | 400 | 200 | 50000 | Illimitées | Illimitées | Illimitées | 50000 |
+| **Plusieurs suites de rapports** | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | Oui, avec des limites | Oui | Non | Oui | Non | Oui |
+| **Nombre de ventilations** | Illimitées | Jusqu’à 2 | Jusqu’à 2 | Illimitées | Illimitées | Illimitées | Illimité, exécuté sur plusieurs requêtes |
+| &quot;**Segmentation** <br>[En savoir plus](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | Oui | Oui | Oui | Oui, avec [restrictions](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | Oui | Non | Oui |
+| **Mesures** calculées <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html) | Oui, avec [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Oui | Oui | Non | Oui | Non | Oui, avec [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
+| **Canaux** marketing <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/components/marketing-channels/c-getting-started-mchannel.html) | Oui | Oui | Oui | Oui | Oui | Oui - va_finder, va_closer | Oui |
+| **analyse de cohortes** | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | Non | Non | Non | Oui | Non | Non |
+| **Attribution** | Oui, avec [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Limited | Limited | Non | Oui | Non | Oui, avec [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
+| **Fonctionnalités** d&#39;analyste virtuel <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/overview.translate.html) | Oui | Non | Non | Non | Non | Non | Oui |
+| **Traitement** <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.html) | Oui - Projet et suite de rapports virtuelle | Non | Non | Non | Non | Non | Oui - VRS uniquement |
+| **Partage** de projets <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Oui, avec des rôles de projet | Oui | Oui | Non | Oui | Non | Non |
+| **Livraison planifiée** | Oui | Oui | Oui | Oui | Oui | Oui | Non |
+| **Traitement** du temps des rapports VRS <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/components/virtual-report-suites/vrs-report-time-processing.html) | Oui | Non | Non | Non | Non | Non | Oui |
