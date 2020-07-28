@@ -1,8 +1,11 @@
 ---
 title: Création d’une couche de données
 description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
-translation-type: ht
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Une couche de données désigne une structure d’objets JavaScript sur votre si
 La mise en œuvre d’Adobe Analytics à l’aide d’une couche de données suit généralement les étapes suivantes :
 
 1. **Collaborez avec votre équipe de développement de site pour mettre en œuvre une couche de données :** votre équipe de développement de site est principalement chargée de s’assurer que l’objet de couche de données est renseigné avec les valeurs correctes. Consultez cette page avec votre équipe de développement de site pour vous assurer que les attentes sont harmonisées entre les équipes.
-   > [!NOTE] Le respect des spécifications de couche de données recommandées par Adobe est facultatif. Si vous disposez déjà d’une couche de données ou si vous choisissez de ne pas respecter les spécifications d’Adobe, assurez-vous que votre entreprise s’aligne sur les spécifications à suivre.
+   >[!NOTE] Le respect des spécifications de couche de données recommandées par Adobe est facultatif. Si vous disposez déjà d’une couche de données ou si vous choisissez de ne pas respecter les spécifications d’Adobe, assurez-vous que votre entreprise s’aligne sur les spécifications à suivre.
 2. **Validez la couche de données à l’aide d’une console de navigateur :** une fois une couche de données créée, vous pouvez vérifier qu’elle fonctionne à l’aide de la console de développement de n’importe quel navigateur. Vous pouvez ouvrir la console de développement dans la plupart des navigateurs à l’aide de la clé `F12`. Un exemple de valeur de variable serait `digitalData.page.pageInfo.pageID`.
 3. **Utilisez Adobe Experience Platform Launch pour mapper les objets de couche de données aux éléments de données Launch** : créez des éléments de données dans Launch, puis mappez-les aux attributs JavaScript décrits dans votre couche de données.
 4. **Utilisez l’extension Adobe Analytics dans Launch pour mapper les éléments de données aux variables Analytics** : en suivant le document de conception de la solution, affectez chaque élément de données à la variable Analytics appropriée.
