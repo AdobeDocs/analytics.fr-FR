@@ -2,7 +2,7 @@
 title: Suites de rapports globales dans Adobe Analytics
 description: Découvrez les avantages et les conditions requises pour utiliser une suite de rapports globale.
 translation-type: tm+mt
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Suivez les instructions générales suivantes pour comprendre le processus de mi
 1. Créez la suite de rapports globale dans Adobe Analytics. Voir [Création d’une suite de rapports](../../admin/admin-console/create-report-suite.md) dans le guide d’utilisation Administrateur pour en savoir plus.
 2. Travaillez avec les équipes de votre entreprise responsables de chaque domaine. De nombreuses équipes ont des exigences de rapport spécifiques à leur secteur d’activité.
 3. Enregistrez et consolidez toutes ces exigences dans un [document de conception de solution](solution-design.md). Si des équipes ont des exigences similaires pour une dimension, elles peuvent utiliser la même variable personnalisée. Par exemple, si les sites A et B nécessitent tous deux une dimension de chemin de navigation, les mises en œuvre des deux sites peuvent envoyer ces données par le biais d’eVar1.
-   > [!IMPORTANT] Assurez-vous que toute variable personnalisée donnée est utilisée de manière similaire dans les domaines. N’utilisez pas la même eVar ou le même événement à des fins différentes sur vos sites.
+   >[!IMPORTANT] Assurez-vous que toute variable personnalisée donnée est utilisée de manière similaire dans les domaines. N’utilisez pas la même eVar ou le même événement à des fins différentes sur vos sites.
 4. Assurez-vous que chaque domaine comporte une couche de données pour simplifier la collecte des données. Les données peuvent toujours être collectées sans couche de données, mais la fiabilité et la longévité de votre mise en œuvre diminuent, en particulier lors de la refonte de votre site.
 5. Utilisez Adobe Experience Platform Launch pour mettre en œuvre Analytics. Les différents sites nécessiteront probablement différents éléments de données. Utilisez des règles spécifiques à chaque domaine pour vous assurer que chaque élément de données est correctement renseigné, puis affectez ces éléments de données à leurs eVars et événements respectifs. Reportez-vous à la section [Présentation de Launch](https://docs.adobe.com/content/help/fr-FR/launch/using/overview.html) dans le guide d’utilisation d’Adobe Experience Platform Launch.
 6. Incluez le [service Adobe Experience Cloud ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) et utilisez la fonction [appendVisitorIDsTo](https://docs.adobe.com/content/help/fr-FR/id-service/using/id-service-api/methods/appendvisitorid.html). Cette fonction fusionne les données des visiteurs lorsque les utilisateurs effectuent des clics d’un domaine à un autre.
