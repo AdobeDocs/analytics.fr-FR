@@ -3,7 +3,7 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '2123'
 ht-degree: 97%
@@ -356,7 +356,7 @@ Date de publication : **18 septembre 2014**
 * Correction d’un problème en raison duquel le nombre de pages vues était double lorsque la variable s.t était invoquée à partir d’une fonction onclick, si l’API visiteur n’avait pas encore les valeurs requises.
 * Prise en charge de HTTP POST.
 
-   > [!IMPORTANT] Pour qu’un appel [!DNL Analytics] utilise la méthode POST plutôt que la méthode GET dans [!DNL AppMeasurement] (une méthode de résolution des [URL tronquées dans IE](https://helpx.adobe.com/fr/analytics/kb/shortening-image-request-urls.html)), vous devez utiliser la mise en œuvre la plus récente du service d’identification des visiteurs pour Experience Cloud.
+   >[!IMPORTANT] Pour qu’un appel [!DNL Analytics] utilise la méthode POST plutôt que la méthode GET dans [!DNL AppMeasurement] (une méthode de résolution des [URL tronquées dans IE](https://helpx.adobe.com/fr/analytics/kb/shortening-image-request-urls.html)), vous devez utiliser la mise en œuvre la plus récente du service d’identification des visiteurs pour Experience Cloud.
 
 ## Version 1.4
 
