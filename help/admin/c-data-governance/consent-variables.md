@@ -2,8 +2,11 @@
 description: Variables pour la création de rapports de confidentialité dans la Confidentialité des données.
 title: Variables de création de rapports de confidentialité
 topic: Admin tools
-translation-type: ht
-source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -35,14 +38,14 @@ Ces variables de création de rapports de confidentialité fournissent un cadre 
 Vous pouvez activer les variables de création de rapports de confidentialité à l’aide d’un nouveau paramètre de confidentialité disponible dans Analytics Admin Console.
 
 Chaque suite de rapports peut être configurée comme suit :
-1. Dans Reports &amp; Analytics, cliquez sur **[!UICONTROL Admin > Report Suites]**.
-1. Sélectionnez la ou les suite(s) de rapports à l’emplacement où vous effectuez la collecte de données multimédia, puis cliquez sur **[!UICONTROL Edit Settings > Privacy Management]**.
+1. Dans Reports &amp; Analytics, cliquez sur **[!UICONTROL Administration > Suites de rapports]**.
+1. Sélectionnez la ou les suite(s) de rapports à l’emplacement où vous effectuez la collecte de données multimédia, puis cliquez sur **[!UICONTROL Modifier les paramètres > Gestion de la confidentialité]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Enable Data Privacy Reports]**.
+1. Cliquez sur le bouton **[!UICONTROL Activer les rapports de confidentialité des données]**.
 
-   > [!NOTE] Une fois activées, ces variables ne peuvent pas être désactivées.
+   >[!NOTE] Une fois activées, ces variables ne peuvent pas être désactivées.
 
    ![](assets/rsm-privacy-enable.png)
 
