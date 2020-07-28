@@ -3,10 +3,10 @@ description: Prise en main d’Ad Hoc Analysis.
 title: Prise en main
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 100%
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -93,8 +93,8 @@ Si vous disposez toujours de Java 7, vous devez le mettre à niveau avant la ve
 * Si vous êtes autorisé à installer des programmes sur votre machine :
 
    1. Rendez-vous sur https://www.java.com.
-   1. Cliquez sur **[!UICONTROL Téléchargement gratuit de Java]**.
-   1. Cliquez sur **[!UICONTROL Accepter et lancer le téléchargement gratuit]**.
+   1. Click **[!UICONTROL Java Download]**.
+   1. Click **[!UICONTROL Agree and Start Download]**.
    1. Installez la dernière version de Java correspondant à votre système d’exploitation.
 
 * Si vous **n’êtes pas** autorisé à installer des programmes sur votre machine :
