@@ -2,7 +2,7 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 95%
@@ -32,7 +32,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Canal :** peut faire référence :
    * À la variable channel, qui renseigne la dimension Sections du site. Voir [Variables de page](/help/implement/vars/page-vars/page-variables.md) dans le guide d’utilisation de la mise en œuvre.
    * Aux canaux marketing, composant permettant de comprendre comment les utilisateurs accèdent à votre site. Voir [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
-* **Classification :** Fonctionnalité d’Adobe Analytics qui permet le regroupement des éléments de dimension. Voir [Classifications](/help/components/c-classifications2/c-classifications.md) dans le guide d’utilisation des composants.
+* **Classification :** Fonctionnalité en Adobe Analytics qui permet le regroupement des éléments de dimension. Voir [Classifications](/help/components/classifications/c-classifications.md) dans le guide d’utilisation des composants.
 * **Clickmap :** ce terme n’est plus utilisé. Module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Cet outil a été retiré en faveur d’Activity Map.
 * **Flux de données de parcours de navigation :** voir flux de données.
 * **Cohorte :** groupe de personnes partageant des caractéristiques communes sur une période donnée. Voir [Qu’est-ce que l’analyse des cohortes ?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) dans le guide d’utilisation Analyser.
