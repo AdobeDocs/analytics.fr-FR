@@ -3,7 +3,7 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 98%
@@ -48,7 +48,7 @@ Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/hel
 
 ## Importation de données dans Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-**[Les classifications](/help/components/c-classifications2/c-classifications.md)** doivent être utilisées :
+**[Les classifications](/help/components/classifications/c-classifications.md)** doivent être utilisées :
 
 * En présence de métadonnées que vous souhaitez associer à une valeur de collecte (eVar, prop, canal marketing).
 * Options :
@@ -99,7 +99,7 @@ L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-i
 * Pour accéder à des données plus granulaires que l’interface utilisateur (affichage de tableau dénormalisé)
 * Pour télécharger des données dans un format approprié à une entrée de tableau croisé dynamique (pivot)
 * Si le client souhaite saisir des données Adobe dans un outil de visualisation de données tiers (légèrement résumées et pas au niveau de l’accès)
-* Pour accéder à tous les éléments de dimension uniques si vous accédez à &quot;Faible trafic&quot; dans Adobe Analytics
+* Pour accéder à tous les éléments de dimension uniques si vous accédez à &quot;Faible trafic&quot; en Adobe Analytics
 
 **[Le flux de données Analytics](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** doit être utilisé :
 
