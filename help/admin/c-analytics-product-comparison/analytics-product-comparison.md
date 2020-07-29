@@ -2,10 +2,10 @@
 description: Cette rubrique présente la configuration système requise et compare Analysis Workspace, les Reports & Analytics, les Ad Hoc Analysis, le Report Builder, Data Warehouse et Data Workbench.
 title: Configuration requise et comparaison des produits Analytics
 translation-type: tm+mt
-source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
+source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 55%
+source-wordcount: '672'
+ht-degree: 54%
 
 ---
 
@@ -26,9 +26,9 @@ Pour savoir quel produit Adobe Analytics utiliser, accédez à ce [lien](/help/a
 | **Limite des lignes visibles (avant pagination)** | 400 | 200 | 50000 | Illimitées | Illimitées | Illimitées | 50000 |
 | **Plusieurs suites de rapports** | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | Oui, avec des limites | Oui | Non | Oui | Non | Oui |
 | **Nombre de ventilations** | Illimitées | Jusqu’à 2 | Jusqu’à 2 | Illimitées | Illimitées | Illimitées | Illimité, exécuté sur plusieurs requêtes |
-| &quot;**Segmentation** <br>[En savoir plus](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | Oui | Oui | Oui | Oui, avec [restrictions](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | Oui | Non | Oui |
+| **Segmentation** <br>[En savoir plus](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | Oui | Oui | Oui | Oui, avec [restrictions](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | Oui | Non | Oui |
 | **Mesures** calculées <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/cm-overview.html) | Oui, avec [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Oui | Oui | Non | Oui | Non | Oui, avec [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **Canaux** marketing <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/components/marketing-channels/c-getting-started-mchannel.html) | Oui | Oui | Oui | Oui | Oui | Oui - va_finder, va_closer | Oui |
+| **Canaux** marketing <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/components/marketing-channels/c-getting-started-mchannel.html) | Oui | Oui | Oui | Oui | Oui | Oui - [va_finder, va_closer](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html) | Oui |
 | **analyse de cohortes** | [Oui](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | Non | Non | Non | Oui | Non | Non |
 | **Attribution** | Oui, avec [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Limited | Limited | Non | Oui | Non | Oui, avec [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
 | **Fonctionnalités** d&#39;analyste virtuel <br>[En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/overview.translate.html) | Oui | Non | Non | Non | Non | Non | Oui |
