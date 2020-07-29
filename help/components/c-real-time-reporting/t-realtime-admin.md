@@ -4,7 +4,10 @@ title: Configuration de rapports en temps réel
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 Cette rubrique décrit les étapes d’administration pour configurer les rapports en temps réel.
 
-La configuration des rapports en temps réel dans les [!UICONTROL Reports & Analytics] consiste à sélectionner la suite de rapports et à configurer jusqu’à trois rapports pour cette suite.
+La configuration des rapports en temps réel dans les [!UICONTROL Reports &amp; Analytics] consiste à sélectionner la suite de rapports et à configurer jusqu’à trois rapports pour cette suite.
 
 1. Sélectionnez la suite de rapports pour laquelle activer les rapports en temps réel.
 
-   Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** et sélectionnez la suite de rapports dans la liste déroulante située en haut :
+   Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** > **[!UICONTROL Afficher tous les rapports > Mesures du site]** > **[!UICONTROL Temps réel]** et choisissez la suite de rapports dans le menu déroulant du haut :
 
    ![](assets/report_suite_selector.png)
 
@@ -25,11 +28,11 @@ La configuration des rapports en temps réel dans les [!UICONTROL Reports & Anal
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. Cliquez sur **[!UICONTROL Configure]** (icône d’engrenage) pour exécuter la [!UICONTROL Report Suite Manager].
+1. Cliquez sur **[!UICONTROL Configurer]** (icône représentant un engrenage) pour exécuter le [!UICONTROL Gestionnaire de suites de rapports].
 
-   (Également disponible sous **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**.)
+   (Également disponible sous **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Temps réel]**.)
 
-1. Activez le **[!UICONTROL Enable Real-Time]** paramètre.
+1. Activez le paramètre **[!UICONTROL Activer le temps réel]**.
 1. Configurez la collecte de données en temps réel pour trois rapports au maximum, avec une mesure et trois dimensions ou classifications par rapport.
 
    ![](assets/real_time_admin.png)
@@ -44,7 +47,7 @@ La configuration des rapports en temps réel dans les [!UICONTROL Reports & Anal
    >
    >Pour un rapport Temps réel unique, les dimensions en double ne sont pour l’instant pas prises en charge, même si une autre classification est sélectionnée pour chaque dimension.
 
-   Pour plus d’informations sur les classifications, voir [À propos des classifications](/help/components/c-classifications2/c-classifications.md).
+   Pour plus d’informations sur les classifications, voir [À propos des classifications](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
@@ -52,8 +55,8 @@ La configuration des rapports en temps réel dans les [!UICONTROL Reports & Anal
 
    ![](assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]** ou sur **[!UICONTROL Enregistrer et afficher le rapport]**.
 
-   Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles. Pour en savoir plus sur l’affichage des rapports Temps réel, voir [Exécution d’un rapport Temps réel](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles. Pour en savoir plus sur l’affichage des rapports Temps réel, voir [Exécution d’un rapport Temps réel](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/t-running-report-types.translate.html).
 
 1. Par défaut, tous les utilisateurs ont accès aux rapports Temps réel.
