@@ -3,7 +3,7 @@ description: valeur nulle
 title: Optimisation des performances d’Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -30,11 +30,11 @@ Des segments complexes peuvent avoir un impact significatif sur la performance d
 
 Bien qu’il soit impossible d’éviter certains facteurs de complexité, pensez aux possibilités de réduire la complexité de vos segments. En général, plus vous pouvez être précis dans vos critères de segment, mieux c’est. Par exemple :
 
-* Avec les conteneurs, l’utilisation d’un seul conteneur en haut du segment sera plus rapide qu’une série de conteneurs imbriqués.
-* Avec les opérateurs, « equals » sera plus rapide que « contains » et « equals any of » sera plus rapide que « contains any of ».
-* Avec de nombreux critères, les opérateurs AND seront plus rapides qu’une série d’opérateurs OR. Recherchez également des occasions de réduire plusieurs instructions OR en une seule instruction « equals any of ».
+* Avec les conteneurs, l’utilisation d’un seul conteneur en haut du segment sera plus rapide qu’une série de conteneurs imbriqués
+* Avec les opérateurs, « equals » sera plus rapide que « contains » et « equals any of » sera plus rapide que « contains any of »
+* Avec de nombreux critères, les opérateurs AND seront plus rapides qu’une série d’opérateurs OR. Recherchez également des occasions de réduire plusieurs instructions OR en une seule instruction « equals any of »
 
-En outre, l’utilisation de [classifications](/help/components/c-classifications2/c-classifications.md) peut contribuer à consolider de nombreuses valeurs en groupes concis à partir desquels vous pouvez créer des segments. La segmentation appliquée aux groupes de classifications optimise les performances par rapport aux segments qui contiennent de nombreuses instructions OR ou de critères « contains ».
+En outre, l’utilisation de [classifications](/help/components/classifications/c-classifications.md) peut contribuer à consolider de nombreuses valeurs en groupes concis à partir desquels vous pouvez créer des segments. La segmentation appliquée aux groupes de classifications optimise les performances par rapport aux segments qui contiennent de nombreuses instructions OR ou de critères « contains ».
 
 ## Plage de données demandée
 
