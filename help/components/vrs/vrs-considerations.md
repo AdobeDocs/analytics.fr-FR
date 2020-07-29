@@ -5,7 +5,7 @@ title: Points à prendre en compte concernant le balisage multisuite et les suit
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -53,7 +53,7 @@ Les suites de rapports virtuelles n’ont pas leur propre jeu de dimensions et d
 
 Des sites différents ont des besoins d’implémentation différents. Certains événements et dimensions peuvent être partagés entre deux sites. Par exemple, une inscription par courrier électronique peut utiliser le même événement sur plusieurs sites Web, déclenchant le même événement personnalisé. D’autres dimensions peuvent être spécifiques à un site. Par exemple, seul l’un de vos sites permet à l’utilisateur de modifier sa photo de profil. Cet événement personnalisé ne serait implémenté que sur le site Web qui le prend en charge.
 
-Assurez-vous que le nombre de dimensions et de mesures uniques peut tenir dans une seule suite de rapports globale. Si vous constatez qu’il existe trop de dimensions ou de mesures uniques, passez en revue chaque dimension dans chaque implémentation. Il y a probablement des chevauchements et des dimensions qui ne sont pas essentiels à la réussite de l’entreprise. Pensez également à utiliser [des classifications](/help/components/c-classifications2/c-classifications.md). Par exemple, au lieu de capturer « Nom du produit » dans eVar5, créez une classification « Nom du produit » en fonction de la dimension du « Produit ». Les classifications d’une suite de rapports source sont automatiquement disponibles pour toutes les suites de rapports virtuelles dépendantes.
+Assurez-vous que le nombre de dimensions et de mesures uniques peut tenir dans une seule suite de rapports globale. Si vous constatez qu’il existe trop de dimensions ou de mesures uniques, passez en revue chaque dimension dans chaque implémentation. Il y a probablement des chevauchements et des dimensions qui ne sont pas essentiels à la réussite de l’entreprise. Pensez également à utiliser [des classifications](/help/components/classifications/c-classifications.md). Par exemple, au lieu de capturer « Nom du produit » dans eVar5, créez une classification « Nom du produit » en fonction de la dimension du « Produit ». Les classifications d’une suite de rapports source sont automatiquement disponibles pour toutes les suites de rapports virtuelles dépendantes.
 
 >[!TIP]
 >
