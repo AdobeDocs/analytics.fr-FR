@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 Les filtres URL internes identifient les référents que vous considérez comme internes à votre site. Ils permettent de compiler des données dans les rapports de sources de données et de filtrer le trafic interne.
 
-Un référent, ou une page référente, est habituellement la page à partir de laquelle un visiteur arrive sur votre site. Pour éviter de biaiser les données, vous pouvez filtrer les référents. Les rapports excluent les référents filtrés du [Dimension Parrains](/help/components/dimensions/referrer.md) , la dimension Domaines [](/help/components/dimensions/referring-domain.md) référents et d’autres dimensions de source de trafic.
+Un référent, ou une page référente, est habituellement la page à partir de laquelle un visiteur arrive sur votre site. Pour éviter de biaiser les données, vous pouvez filtrer les référents. Les rapports excluent les référents filtrés de la dimension [Référent](/help/components/dimensions/referrer.md), de la dimension [domaines référents](/help/components/dimensions/referring-domain.md) et d’autres dimensions de source de trafic.
 
 Le plus souvent, les rapports de sources de trafic ne compilent aucune donnée car la liste Filtres URL internes n’est pas définie. Pour vérifier quels filtres URL internes ont été définis sur une suite de rapports, suivez les étapes ci-après. Pour éviter ce problème, supprimez la règle définissant un point (.) comme filtre, puis ajoutez votre propre site.
 
