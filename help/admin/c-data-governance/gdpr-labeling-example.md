@@ -70,7 +70,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Seules les cellules des lignes contenant AAID = 77 et une étiquette DEL-DEVICE sont impactées.
+>Seules les cellules des lignes contenant AAID=77 et une étiquette DEL-DEVICE sont impactées.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
