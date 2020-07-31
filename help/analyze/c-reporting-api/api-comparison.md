@@ -38,7 +38,7 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
    <td colname="col5"> Données finalisées entièrement traitées utilisées pour l’extraction d’exportations volumineuses de données. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/technotes/latency.translate.html"  > Latence</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/technotes/latency.html"  > Latence</a> </p> </td> 
    <td colname="col2"> 30 à 90 minutes </td> 
    <td colname="col3"> * Secondes -10 minutes </td> 
    <td colname="col4"> Secondes -10 minutes </td> 
@@ -84,7 +84,7 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > API Analytics</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > Rapports Temps réel</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Aperçu de Livestream</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/export/data-warehouse/data-warehouse.translate.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/fr-FR/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
