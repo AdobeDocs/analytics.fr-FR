@@ -1,11 +1,11 @@
 ---
 title: Création d’une suite de rapports
 description: Créez un conteneur de base pour la collecte de données dans Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Cet article est destiné aux administrateurs au niveau du système ou aux admini
 >Il existe également un moyen de créer une suite de rapports dans Adobe Analytics à l’aide de l’administrateur hérité. Adobe recommande d’utiliser l’assistant de configuration de suites de rapports présenté ici.
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur l’icône à 9 carrés dans l’angle supérieur droit, puis sur le logo Analytics coloré.
+1. Cliquez sur l’icône à 9 carrés dans le coin supérieur droit, puis sur le logo Analytics coloré.
 1. Une fenêtre modale « Bienvenue dans Adobe Analytics » devrait s’afficher automatiquement. Dans le cas contraire, cliquez sur l’icône d’aide dans le coin supérieur droit, puis sélectionnez « Bienvenue dans Adobe Analytics ».
 1. Dans la fenêtre modale, cliquez sur Commencer la configuration.
 1. Suivez chaque invite qui décrit les concepts de base tels que le type de propriété, les secteurs d’activité et le fuseau horaire. Cliquez sur Suivant.
@@ -36,7 +36,7 @@ Cet article est destiné aux administrateurs au niveau du système ou aux admini
 Nommez cette suite de rapports de la même manière, en ajoutant simplement « - DEV » à la fin. Cette suite de rapports ne recevant que du trafic interne, la taille estimée peut être la plus petite.
 1. Cliquez sur Suivant pour terminer la création de votre suite de rapports de développement.
 
-Pour plus d’informations sur les étapes de cette fenêtre modale, voir [Mise en oeuvre modale](/help/implement/prepare/implementation-modal.md) dans le guide de l’utilisateur Mise en oeuvre.
+Pour plus d’informations sur les étapes de cette fenêtre modale, consultez [Modal d’implémentation](/help/implement/prepare/implementation-modal.md) dans le guide d’utilisation de l’implémentation.
 
 ## Résolution des problèmes
 
