@@ -2,9 +2,9 @@
 description: Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du CCPA pour vos sujets des données.
 title: Adobe Analytics et le CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
 ht-degree: 100%
 
