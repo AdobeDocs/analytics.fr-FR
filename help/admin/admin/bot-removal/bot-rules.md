@@ -4,9 +4,9 @@ subtopic: Bot rules
 title: Règles de robots - Aperçu
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Adobe n’est pas en mesure de fournir la liste des robots IAB détaillée aux c
 
 >[!NOTE]
 >
-> : il est possible de définir manuellement 500 règles dans l’interface utilisateur. Au-delà de cette limite, les règles doivent être gérées en bloc au moyen des options Importer un fichier et Exporter des règles de robots.
+>Il est possible de définir manuellement 500 règles dans l’interface utilisateur. Au-delà de cette limite, les règles doivent être gérées en bloc au moyen des options Importer un fichier et Exporter des règles de robots.
 
 Les règles de robots personnalisées vous permettent de filtrer le trafic sur la base des conditions que vous avez définies.
 
