@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 71%
+ht-degree: 95%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 71%
 
 **Qu’est-ce que l’élément de ligne « Aucun » lors de l’utilisation de l’attribution ?**
 
-L’élément de ligne « Aucun » est un élement fourre-tout qui représente toutes les conversions survenues sans points de contact dans l’intervalle de recherche en amont. Pour réduire le nombre de conversions attribuées à l’élément de ligne &quot;Aucun&quot;, essayez d’utiliser une fenêtre de recherche personnalisée avec une période de recherche plus longue.
+L’élément de ligne « Aucun » est un élement fourre-tout qui représente toutes les conversions survenues sans points de contact dans l’intervalle de recherche en amont. Pour réduire le nombre de conversions attribuées à l’élément de ligne « Aucun », essayez d’utiliser un intervalle de recherche en amont personnalisé avec une période de recherche en amont plus longue.
 
 **Pourquoi est-ce que je vois parfois des dates hors de mon créneau de rapport lors de l’utilisation de modèles d’attribution ?**
 
 Ces dates supplémentaires sont dues à l’intervalle de recherche en amont de rapport de visiteurs. Pour plus d’informations, voir [Données apparaissant hors du créneau de rapport](https://helpx.adobe.com/fr/analytics/kb/data-appearing-outside-reporting-window.html) dans la base de connaissances d’Analytics.
 
-**Quand dois-je utiliser une recherche d’attribution personnalisée, de visite ou de visiteur ?**
+**Quand dois-je utiliser une recherche en amont de l’attribution de visites, de visiteurs ou personnalisée ?**
 
-Le choix d’une recherche en amont de l’attribution dépend de votre cas d’utilisation. Si les conversions prennent généralement plus d’une visite unique, il est recommandé d’effectuer une recherche en amont visiteur ou personnalisée. Pour les cycles de conversion plus longs, les fenêtres de recherche en amont personnalisées sont plus efficaces car elles sont le seul type capable d&#39;extraire des données avant la fenêtre de rapports.
+Le choix d’une recherche en amont de l’attribution dépend de votre cas d’utilisation. Si les conversions prennent généralement plus longtemps qu’une visite unique, une recherche en amont des visiteurs ou personnalisée est recommandée. Pour les cycles de conversion plus longs, il est préférable d’utiliser des intervalles de recherche en amont personnalisés, car ce sont les seuls types qui permettent d’extraire des données avant le créneau de rapport.
 
 **Comment les props et les eVars se comparent-ils lors de l’utilisation de l’attribution ?**
 
@@ -67,19 +67,19 @@ Oui, la plupart des sources de données sont prises en charge. L’attribution n
 
 Les dimensions des métadonnées, telles que le type de correspondance et le mot-clé, fonctionnent avec l’attribution. Cependant, les mesures (y compris les impressions, le coût, les clics, la position moyenne et la note de qualité moyenne) utilisent des sources de données de niveau résumé et sont donc incompatibles.
 
-**Comment l’attribution fonctionne-t-elle avec les canaux marketing ?**
+**Comment l’attribution fonctionne-t-elle avec les canaux marketing ?**
 
-Lorsque les canaux marketing ont été introduits pour la première fois, ils ne disposaient que des dimensions Première touche et Dernière touche. Les dimensions Première touche/Dernière touche explicites ne sont plus nécessaires avec la version actuelle de l’attribution. Adobe fournit des dimensions génériques &quot;Canal marketing&quot; et &quot;Détails du Canal marketing&quot; afin que vous puissiez les utiliser avec le modèle d’attribution de votre choix. Ces dimensions génériques se comportent de la même manière que les dimensions du Canal Dernière touche, mais sont étiquetées différemment afin d’éviter toute confusion lors de l’utilisation de canaux marketing avec un modèle d’attribution différent.
+Lorsque les canaux marketing ont été introduits pour la première fois, ils ne disposaient que des dimensions Première touche et Dernière touche. Les dimensions Première touche/Dernière touche explicites ne sont plus nécessaires avec la version actuelle de l’attribution. Adobe fournit des dimensions « Canal marketing » et « Détails sur les canaux marketing » génériques afin que vous puissiez les utiliser avec le modèle d’attribution de votre choix. Ces dimensions génériques se comportent de la même manière que les dimensions Canal Dernière touche, mais sont étiquetées différemment pour éviter toute confusion lors de l’utilisation de canaux marketing avec un modèle d’attribution différent.
 
 Étant donné que les dimensions Canal marketing dépendent d’une définition de visite traditionnelle (définie par leurs règles de traitement), la définition de visite ne peut pas être modifiée à l’aide de suites de rapports virtuelles.
 
-**Comment l’attribution fonctionne-t-elle avec les variables à plusieurs valeurs, telles que les variables de liste ?**
+**Comment l’attribution fonctionne-t-elle avec les variables à plusieurs valeurs, telles que les variables de liste ?**
 
 Certaines dimensions d’Analytics peuvent contenir plusieurs valeurs sur un seul accès. Les variables de liste et la variable Products sont des exemples courants.
 
 Lorsque l’attribution est appliquée à des accès à plusieurs valeurs, toutes les valeurs d’un même accès reçoivent le même crédit. Comme plusieurs valeurs peuvent recevoir ce crédit, le total du rapport peut être différent de celui de chaque élément de ligne. Le total du rapport est dédupliqué, tandis que chaque élément de dimension individuel reçoit le crédit approprié.
 
-**Comment l’attribution fonctionne-t-elle avec la segmentation ?**
+**Comment l’attribution fonctionne-t-elle avec la segmentation ?**
 
 L’attribution s’exécute toujours avant la segmentation et la segmentation s’exécute avant l’application des filtres de rapport. Ce concept s’applique également aux suites de rapports virtuelles utilisant des segments.
 
@@ -89,4 +89,4 @@ Par exemple, si vous créez une suite de rapports virtuelle avec un segment « 
 
 >[!NOTE]
 >
->Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masquera simplement certains éléments de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment peut renvoyer des valeurs inférieures à un filtre avec une définition comparable.
+>Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masquera simplement certains éléments de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment peut renvoyer des valeurs inférieures à celles d’un filtre avec une définition comparable.
