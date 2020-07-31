@@ -2,9 +2,9 @@
 description: Le traitement permet de limiter les composants avant de partager un projet.
 keywords: Analysis Workspace curation
 title: Traitement des projets Workspace
-translation-type: ht
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ Lorsqu’un destinataire ouvre un projet traité, il ne voit que l’ensemble de
 ## Suppression du traitement du projet
 
 Pour supprimer le traitement du projet et restaurer l’ensemble complet des composants dans le rail de gauche :
+
 1. Cliquez sur **[!UICONTROL Partager]** > **[!UICONTROL Traiter les données du projet]**.
 1. Cliquez sur **[!UICONTROL Supprimer le traitement]**.
 1. Cliquez sur **[!UICONTROL Terminé]**.
