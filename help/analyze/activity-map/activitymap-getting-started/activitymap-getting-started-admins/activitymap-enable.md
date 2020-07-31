@@ -3,9 +3,9 @@ description: Décrit la procédure à suivre par l’administrateur Analytics po
 title: Activation d’Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -37,11 +37,11 @@ Les données d’Activity Map ne peuvent pas être collectées si vous n’effe
 
 1. Ventilez ce rapport par **[!UICONTROL lien d’Activity Map par région]** pour afficher le lien/la région pour cette page : ![](assets/am_breakdown.png){width=&quot;400px&quot;}
 
-## Étape 2 : Activation des rapports d’Activity Map {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
+## Étape 2. Activation des rapports d’Activity Map {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 Vous devez d’abord activer les rapports d’Activity Map au niveau de la suite de rapports.
 
-1. Connectez-vous à Adobe Analytics et accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Suites de rapports > [sélectionnez la suite de rapports] > Modifier les paramètres > Activity Map]** > **[!UICONTROL  Création de rapports d’Activity Map ]** .
+1. Connectez-vous à Adobe Analytics et accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Suites de rapports > [sélectionnez la suite de rapports] > Modifier les paramètres > Activity Map]** > **[!UICONTROL  Création de rapports d’Activity Map ]**.
 1. Activity Map collecte les données des liens dans les rapports d’Activity Map. Pour que l’activation fonctionne, vous devez d’abord activer les variables en cliquant sur **[!UICONTROL Activer les rapports d’Activity Map]**.
 
    Cette étape permet d’ajouter toutes les dimensions Analytics dont vous avez besoin pour collecter des données.
@@ -56,8 +56,8 @@ Vous devez d’abord activer les rapports d’Activity Map au niveau de la suit
 
 1. [Ajoutez des utilisateurs à ce groupe](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html) et **[!UICONTROL enregistrez le groupe]**.
 
-1. Cela permet à vos utilisateurs de télécharger Activity Map depuis **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Outils]** > **[!UICONTROL Activity Map]** .
+1. Cela permet à vos utilisateurs de télécharger Activity Map depuis **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Outils]** > **[!UICONTROL Activity Map]**.
 
 >[!NOTE]
 >
-> Si vous souhaitez que les utilisateurs non-administrateurs téléchargent Activity Map, créez un groupe d’utilisateurs qui accorde l’autorisation d’accès aux outils et à l’installation ClickMap héritée. Ce niveau d’autorisation associé à l’accès à Activity Map permet de télécharger et d’utiliser l’outil.
+>Si vous souhaitez que les utilisateurs non-administrateurs téléchargent Activity Map, créez un groupe d’utilisateurs qui accorde l’autorisation d’accès aux « Outils » et à l’« Installation ClickMap héritée ». Ce niveau d’autorisation associé à l’accès à Activity Map permet de télécharger et d’utiliser l’outil.
