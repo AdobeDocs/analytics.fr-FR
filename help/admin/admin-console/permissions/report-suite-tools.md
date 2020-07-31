@@ -1,9 +1,9 @@
 ---
 source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '650'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Outils de suites de rapports répertoriés dans les autorisations de profil de produit
@@ -52,7 +52,7 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Installation ClickMap héritée | Inutilisé. Utilisez plutôt Activity Map sous Outils Analytics. |
 | Visites retours | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
 | Rapport d’aperçu des applications mobiles | Inutilisé. |
-| Classifications | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément d’autorisation inclut : <br>Trafic >Classifications du trafic<br>Conversion > Classifications des conversions<br>Conversion >Hiérarchies des classifications<br>Canaux marketing >Classifications des canaux marketing<br>Gestion des applications >Classifications des applications<br>Gestion des médias >Classifications des médias<br>AEM > Classifications des AEM Assets<br>Adobe Campaign > Classifications Adobe |
+| Classifications | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément d’autorisation inclut : <br>Trafic > Classifications du trafic<br>Conversion > Classifications des conversions<br>Conversion > Hiérarchies des classifications<br>Canaux marketing > Classifications des canaux marketing<br>Gestion des applications > Classifications des applications<br>Gestion des médias > Classifications des médias<br>AEM > Classifications des AEM Assets<br>Adobe Campaign > Classifications Adobe |
 | Mes rapports recommandés | Accorde l’accès à Mesures du site > Mes rapports recommandés dans les Reports &amp; Analytics. |
 | Petit rapport récapitulatif pour la société | Inutilisé. |
 | Image | Inutilisé. |
@@ -62,4 +62,4 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Petit rapport récapitulatif de l’utilisation | Inutilisé. |
 | Ressources web | Inutilisé. |
 | Social | Inutilisé. |
-| API de réparation des données | Accorde l’accès à l’API de réparation des données (version ultérieure) |
+| API de réparation des données | Accorde l’accès à l’API Data Repair (version ultérieure) |
