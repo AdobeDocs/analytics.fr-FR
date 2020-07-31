@@ -3,11 +3,11 @@ description: Combinez les données horodatées et non horodatées au sein d’un
 title: Horodatages facultatifs
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Avec les horodatages facultatifs, vous pouvez faire ce qui suit :
 
 >[!IMPORTANT]
 >
->If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de rapports de cheminement.
+>Si vous utilisez le paramètre Horodatages (facultatif), ne définissez pas l’attribut [s.visitorID](/help/implement/vars/config-vars/visitorid.md) pour les données déjà horodatées. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de rapports de cheminement.
 
 >[!NOTE]
 >
