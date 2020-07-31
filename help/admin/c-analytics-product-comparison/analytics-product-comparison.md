@@ -2,7 +2,7 @@
 description: Cette rubrique présente la configuration système requise et compare Analysis Workspace, les Reports & Analytics, les Ad Hoc Analysis, le Report Builder, Data Warehouse et Data Workbench.
 title: Configuration requise et comparaison des produits Analytics
 translation-type: tm+mt
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 53%
@@ -17,7 +17,7 @@ Cette page contient une comparaison de divers produits Adobe Analytics : Analysi
 Pour savoir quel produit Adobe Analytics utiliser, accédez à ce [lien](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 | Nom du produit et lien d’aide | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/home.html) | [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) | [API Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|---|---|---|---|---|
 | **Méthode d&#39;accès** | [Navigateur](/help/admin/sys-reqs.md) | [Navigateur](/help/admin/sys-reqs.md) | [MS Excel pour Windows](/help/analyze/report-builder/setup/system-requirements.md) | Configuration via le navigateur. [En savoir plus](/help/admin/sys-reqs.md) | [Windows 64 bits](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/install/c-data-workbench-client-install.html) | Configuration via le navigateur. [En savoir plus](/help/export/analytics-data-feed/data-feed-overview.md) | Outils d’API RESTful. Connectez-vous avec les informations d&#39;identification d&#39;E/S d&#39;Adobe. [En savoir plus](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **Granularité des données** | Agrégé | Agrégé | Agrégé | Agrégé | Accès | Accès | Agrégé |
 | **ECID (Experience Cloud ID) disponible** | Non | Non | Non | Oui | Oui | Oui | Non |
