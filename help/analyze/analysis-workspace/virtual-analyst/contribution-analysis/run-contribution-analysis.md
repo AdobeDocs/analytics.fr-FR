@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Exécution de l’analyse des contributions
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 1. Puisque l’analyse des contributions fait maintenant partie d’Analysis Workspace, vous pouvez mettre à profit plusieurs de ses fonctions depuis un menu contextuel afin de rendre votre analyse plus significative, par exemple :
 
    * [Ventiler chaque élément de dimension par une autre dimension.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [Déterminer la tendance d’une ou de plusieurs lignes](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [Déterminer la tendance d’une ou de plusieurs lignes.](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [Ajouter de nouvelles visualisations.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [Créer des alertes.](/help/components/c-alerts/intellligent-alerts.md)
    * [Créer ou comparer des segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
