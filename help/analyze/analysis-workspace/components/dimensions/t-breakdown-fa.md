@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 63%
+ht-degree: 93%
 
 ---
 
@@ -34,6 +34,6 @@ Ventilez vos données de différentes manières en fonction de vos besoins ; cr
 
 ## Application des modèles d’attribution aux ventilations
 
-Tout modèle d’attribution peut également être appliqué à toute ventilation d’un tableau. Ce modèle d’attribution peut être identique ou différent de la colonne parent. Par exemple, vous pouvez analyser les commandes linéaires sur votre dimension Canaux marketing, mais appliquer les commandes en forme de U aux codes de suivi spécifiques dans un Canal. To edit the attribution model applied to a breakdown, hover over the breakdown model and click **[!UICONTROL Edit]**:
+Il est également possible d’appliquer n’importe quel modèle d’attribution à n’importe quelle ventilation dans un tableau. Ce modèle d’attribution peut être identique ou non à la colonne parente. Par exemple, vous pouvez analyser les Commandes linéaires au niveau de la dimension de vos canaux marketing, mais appliquer les Commandes en forme de U aux codes de suivi spécifiques au sein d’un canal. Pour modifier le modèle d’attribution appliqué à une ventilation, il suffit de pointer la souris sur le modèle de ventilation et de cliquer sur **[!UICONTROL Modifier]** :
 
 ![Paramètres de ventilation](assets/breakdown_settings.png)
