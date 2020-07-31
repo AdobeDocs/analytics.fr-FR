@@ -4,9 +4,9 @@ subtopic: Schedule
 title: Planification et distribution des rapports
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1661'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Ces limites s’appliquent aux rapports téléchargés et planifiés individuels
 >En outre, un certain nombre de facteurs peut contribuer à augmenter le retard avant la diffusion effective du rapport :
 >
 > * **L’exécution simultanée de nombreuses planifications du même type** (par exemple, plusieurs tableaux de bord, etc.) peut entraîner une surcharge du système. Le système de planification ne permet que l’exécution simultanée de quelques rapports (entre 5 et 10) d’un même type. Ainsi, si entre 5 et 10 rapports sont planifiés en même temps, certains devront attendre dans une file d’attente que les autres rapports soient terminés avant que leur traitement ne débute. Il est possible de limiter ce problème en planifiant les rapports d’une entreprise de manière échelonnée tout au long de la journée ou de l’heure, plutôt que simultanément.
-> * En plus du type de rapport spécifique (Tableaux de bord, etc.), les rapports attendront également dans une file d’attente si l’entreprise a **plus de 15 à 20 rapports planifiés en même temps, quel que soit le type de rapports (parmi tous les types différents de rapports)**. Vous pouvez limiter ces délais en échelonnant les heures de planning au lieu plusieurs exécutions de rapports en même temps.
+> * En plus du type de rapport spécifique (Tableaux de bord, etc.), les rapports attendront également dans une file d’attente si l’entreprise a **plus de 15 à 20 rapports planifiés en même temps, quel que soit le type de rapports (parmi tous les types différents de rapports)**. Ceci peut être évité en échelonnant les heures de planification au lieu d’avoir plusieurs lancements en même temps.
 > * **Les problèmes sur les services en aval** sur lesquels le Planificateur compte peuvent également avoir des conséquences sur la diffusion des rapports. Par exemple, si vous utilisez indépendamment les API pour exécuter des rapports et remplir la file d’attente de requête API, alors la diffusion de vos rapports planifiés sera plus lente puisque les API sont en concurrence pour cette ressource.
 > * **La latence de suite de rapports** (un retard dans la collecte de données) peut également retarder certains rapports planifiés.
 
@@ -49,8 +49,8 @@ Cette section décrit la procédure à suivre pour télécharger des rapports et
    | Option | Description |
    |--- |--- |
    | Format | Sélectionnez le format PDF ou HTML. |
-   | Envoyer à | Précisez une adresse de courriel où recevoir le rapport. |
-   | Sujet | Objet du courriel. |
+   | Envoyer à | Précisez une adresse électronique où recevoir le rapport. |
+   | Objet | Objet du courrier électronique. |
    | Planification | Choisissez d’envoyer le rapport immédiatement ou à un autre intervalle. |
 
 1. Cliquez sur **[!UICONTROL Options de remise avancées]** afin de préciser un calendrier de remise.
@@ -71,7 +71,7 @@ Cette section décrit la procédure à suivre pour télécharger des rapports et
 | Le planifier pour plus tard | Affiche les options permettant de définir la période et les options de remise. |
 | Période du rapport | **Fixe** : empêche la date d’avancer au fil du temps. **Variable** : permet à la date d’avancer au fur et à mesure. Quelques considérations à prendre en compte :<ul><li>Si vous sélectionnez des dates de début et de fin variables et un rapport quotidien pour le jour précédent, vous recevrez chaque jour par courriel un rapport du jour précédent.</li><li>Si vous sélectionnez une date de début fixe et une date de fin variable, vous recevrez le premier jour un rapport pour le jour précédent. Le deuxième jour, vous recevrez un rapport pour les deux jours précédents ; le troisième jour, un rapport pour les trois jours précédents, etc.</li><li>Si vous sélectionnez des dates de début et de fin fixes, vous recevrez chaque jour un rapport identique pour les jours que vous avez définis.</li><li>Il n’est pas possible de sélectionner une date de début variable et une date de fin fixe.</li></ul> |
 | Fréquence de remise de rapport | <ul><li>**Par heure** : envoie le courriel chaque heure, une heure sur deux ou à tout autre intervalle horaire défini.</li><li>**Quotidiennement** : envoie le courriel tous les jours, tous les deux jours, tous les trois jours ou à la fréquence définie. Vous pouvez également l’envoyer chaque jour de la semaine.</li><li>**Hebdomadairement** : envoie le courriel toutes les semaines, toutes les deux semaines, toutes les trois semaines ou à la fréquence définie. Vous pouvez également définir un jour particulier de la semaine.</li><li>**Mensuellement** : spécifie l’intervalle en nombre de mois. Vous pouvez également sélectionner un jour particulier du mois ou un jour spécifique d’une semaine du mois.</li><li>**Annuellement** : indique un jour de l’année pour l’envoi du rapport. Vous pouvez également planifier l’envoi un jour d’une semaine spécifique dans l’année.</li><li>**Heure** : s’applique au fuseau horaire associé à la suite de rapports sélectionnée.</li></ul> |
-| Options de livraison | <ul><li>**Ne jamais expirer** : ne spécifie aucune fin.</li><li>**Expirer après`value` occurrences** : définit le nombre d’instances avant la fin de la remise.</li><li>**Expirer le** : vous permet de définir une date spécifique. Si vous traitez les données le même jour que les données du rapport, le rapport contient uniquement les informations qui ont été ajoutées dans la base de données au moment de l’envoi du rapport. Le traitement complet d’une journée peut durer jusqu’à 24 heures. Il est par conséquent possible que l’intégralité des données ne soit pas disponible au moment de l’envoi du rapport. Pour que les données soient complètes, définissez toujours le délai de traitement pour 24 heures après l’expiration de la période de rapport.</li></ul> |
+| Options de livraison | <ul><li>**Ne jamais expirer** : ne spécifie aucune fin.</li><li>**Expirer après `value` occurrences** : définit le nombre d’instances avant la fin de la remise.</li><li>**Expirer le** : vous permet de définir une date spécifique. Si vous traitez les données le même jour que les données du rapport, le rapport contient uniquement les informations qui ont été ajoutées dans la base de données au moment de l’envoi du rapport. Le traitement complet d’une journée peut durer jusqu’à 24 heures. Il est par conséquent possible que l’intégralité des données ne soit pas disponible au moment de l’envoi du rapport. Pour que les données soient complètes, définissez toujours le délai de traitement pour 24 heures après l’expiration de la période de rapport.</li></ul> |
 
 ## Impression d’un rapport {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
