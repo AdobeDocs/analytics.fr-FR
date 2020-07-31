@@ -3,9 +3,9 @@ description: Vous pouvez différencier des liens en personnalisant l’ID de lie
 title: Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ Vous pouvez personnaliser la région en vous assurant que la région de chaque l
 
 >[!NOTE]
 >
-> L’identifiant de région n’est pas strictement limité au paramètre « id ». Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript « s.ActivityMap.regionIDAttribute ».
+>L’identifiant de région n’est pas strictement limité au paramètre « id ». Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript « s.ActivityMap.regionIDAttribute ».
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
