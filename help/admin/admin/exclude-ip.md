@@ -3,9 +3,9 @@ description: Vous pouvez exclure de vos rapports les données d’adresses IP s
 title: Exclure par adresse IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -30,11 +30,11 @@ Cette fonction vous permet (à vous ainsi qu’à vos collègues) de visiter vot
 
 | Élément | Description |
 |--- |--- |
-| [!UICONTROL Ajouter CNAME] | Génère un lien d’exclusion que vous pouvez utiliser pour exclure votre domaine. Pour obtenir de l’aide, veuillez contacter l’assistance clientèle de votre société. <br>Vous pouvez exclure votre trafic de la création de rapports dans vos suites de rapports en consultant la page d’exclusion de votre société et en choisissant d’exclure votre navigateur de la mesure. <br>Si votre implémentation utilise des cookies tiers, votre page d’exclusion se trouve [ici](https://democorp.112.2o7.net/optout.html?locale=fr_FR&amp;popup=true) : |
+| [!UICONTROL Ajouter CNAME] | Génère un lien d’exclusion que vous pouvez utiliser pour exclure votre domaine. Pour obtenir de l’aide, veuillez contacter l’assistance clientèle de votre société. <br>Vous pouvez exclure votre trafic de la création de rapports dans vos suites de rapports en consultant la page d’exclusion de votre société et en choisissant d’exclure votre navigateur de la mesure. <br>Si votre implémentation utilise des cookies tiers, votre page d’exclusion se trouve [ici](https://democorp.112.2o7.net/optout.html?locale=fr_FR&amp;popup=true). |
 
 >[!NOTE]
 >
-> L’exclusion par ordinateur ne fonctionne que dans les cas suivants :
+>L’exclusion par ordinateur ne fonctionne que dans les cas suivants :
 >
 > * Vous accédez au site web à partir du même poste de travail.
 > * Les cookies sont activés dans le navigateur que vous utilisez.
@@ -47,7 +47,7 @@ Une adresse IP est une adresse Internet. Des adresses IP numériques sont attr
 
 Les pages vues sont comptabilisées et les visiteurs de pages uniques sont identifiés au moyen de leurs adresses IP. En excluant les adresses IP du comptage, vous pouvez empêcher Adobe d’effectuer le suivi des visiteurs fréquents. Cette fonction vous permet, ainsi qu’à vos collègues, de visiter votre site sans biaiser les données de trafic. Vous pouvez exclure jusqu’à 50 adresses IP différentes.
 
-Vous pouvez utiliser des caractères de remplacement pour exclure une plage d’adresses. Par exemple, `[!DNL 0.0.*.0]` exclut toutes les adresses IP comprises entre `[!DNL 0.0.0.0]` et `[!DNL 0.0.255.0]`. Vous pouvez exclure jusqu’à 50 adresses IP différentes.
+Vous pouvez utiliser des caractères de remplacement (*) pour exclure une plage d’adresses. Par exemple, `[!DNL 0.0.*.0]` exclut toutes les adresses IP comprises entre `[!DNL 0.0.0.0]` et `[!DNL 0.0.255.0]`. Vous pouvez exclure jusqu’à 50 adresses IP différentes.
 
 ## Exclure par pare-feu {#section_3E7BFB71ADD941D39F923DB9557AD9CD}
 
