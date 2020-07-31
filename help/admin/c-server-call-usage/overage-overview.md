@@ -2,9 +2,9 @@
 description: 'null'
 title: Aperçu de l’utilisation de l’appel au serveur
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1038'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Les principaux avantages de l’utilisation de l’appel au serveur incluent :
 * **Visibilité** de votre consommation d’appels au serveur et des données d’engagement, y compris votre consommation mobile, par rapport à votre limite contractuelle d’utilisation de l’appel au serveur.
 * **Alertes** afin d’être notifié en cas de risque ou de dépassement pour vous permettre de vous préparer/d’agir le cas échéant.
 
-Auparavant, vous pouviez accéder aux données mensuelles relatives à la consommation de l’appel au serveur sous **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Facturation]**. Ces données n’étaient mises à jour que six jours après la clôture de la facturation. De plus, les données n’incluaient pas la consommation mobile. Cette fonctionnalité remplacera également le rapport actuel **[!UICONTROL Informations de facturation]** sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** .
+Auparavant, vous pouviez accéder aux données mensuelles relatives à la consommation de l’appel au serveur sous **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Facturation]**. Ces données n’étaient mises à jour que six jours après la clôture de la facturation. De plus, les données n’incluaient pas la consommation mobile. Cette fonctionnalité remplacera également le rapport actuel **[!UICONTROL Informations de facturation]** sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**.
 
 ## Conditions préalables {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
@@ -63,7 +63,7 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
     </ul> <p>Remarque : les données de l’utilisation de l’appel au serveur pour <u>toutes</u> les suites de rapports d’une société de facturation sont visibles par tous les utilisateurs disposant d’une <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">permission</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organisation Experience Cloud </p> </td> 
+   <td colname="col1"> <p>Organisation Experience Cloud </p> </td> 
    <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui s’étend sur tous les produits et solutions Experience Cloud. </p> <p>La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations. </p> </td> 
   </tr> 
   <tr> 
