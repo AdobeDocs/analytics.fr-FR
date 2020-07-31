@@ -2,11 +2,11 @@
 description: Grâce aux paramètres de colonne, vous pouvez configurer la mise en forme des colonnes, dont certains éléments peuvent être conditionnels.
 title: Paramètres des colonnes
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,17 +50,17 @@ La mise en forme conditionnelle applique la mise en forme aux limites supérieur
 | Personnalisé | Vous pouvez affecter manuellement les valeurs des champs Limite supérieure, Milieu et Limite inférieure pour la mise en forme conditionnelle. Vous disposez ainsi de la flexibilité nécessaire pour déterminer si la valeur d’une colonne devient bonne, moyenne ou mauvaise. |
 | Aperçu des cellules de tableau | Affiche un aperçu de l’aspect de chaque cellule après application des options de mise en forme actuellement sélectionnées. |
 
-## Utiliser le modèle d’attribution différent du modèle par défaut
+## Utilisation d’un modèle d’attribution différent du modèle par défaut
 
-Analyse Workspace prend en charge [l’attribution](../../attribution/overview.md) pour presque toutes les mesures.
+Analysis Workspace prend en charge l’[attribution](../../attribution/overview.md) pour presque toutes les mesures.
 
 1. Cliquez sur l’icône Paramètres (en forme d’engrenage) dans une colonne d’un tableau à structure libre.
 
    ![Case à cocher Attribution](assets/attribution-checkbox.png)
 
-2. Sous **[!UICONTROL Paramètres des données]**, cochez **[!UICONTROL Utiliser un modèle d’attribution autre que celui par défaut]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+2. Sous **[!UICONTROL Paramètres des données]**, cochez **[!UICONTROL Utiliser un modèle d’attribution autre que celui par défaut]**. Pour plus d’informations sur les différents modèles d’attribution, reportez-vous à la section [Modèles d’attribution](../../attribution/models.md).
 
-   ![Sélectionner le modèle d’attribution](assets/attribution-select.png)
+   ![Sélection d’un modèle d’attribution](assets/attribution-select.png)
 
 
 >[!MORELIKETHIS]
