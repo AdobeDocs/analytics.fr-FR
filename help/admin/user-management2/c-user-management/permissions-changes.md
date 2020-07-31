@@ -5,9 +5,9 @@ subtopic: Users and groups
 title: Modifications des autorisations d’utilisateur et des droits d’accès de groupe
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1562'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Comme l’API et l’interface utilisent le même système d’autorisation, que
    <td colname="col2"> <p>Vous pouvez personnaliser les autorisations afin d’inclure ou d’exclure l’accès aux dimensions (outre les mesures). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Toutes les dimensions et les mesures actuelles des groupes personnalisés ont été automatiquement transférées dans les nouvelles catégories. Si un groupe comprend des mesures actives, il obtiendra par défaut toutes les dimensions (eVars et reconnaissance du contenu) et mesures nouvellement autorisables. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.translate.html">variable</a> sur laquelle repose la classification. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.html">variable</a> sur laquelle repose la classification. </li> 
     </ul> <p>Voir <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Personnalisation des autorisations liées aux dimensions</a>. </p> </td> 
   </tr> 
   <tr> 
