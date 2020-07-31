@@ -5,23 +5,23 @@ translation-type: tm+mt
 source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
 
 
-# Guide du conservateur pour les tableaux de bord Analytics Adobe
+# Guide du curateur pour les tableaux de bord Adobe Analytics
 
-Les informations suivantes indiquent aux responsables de la gestion des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs cadres. Pour visionner une vidéo présentant ces informations, voir [Adobe tableaux de bord Scorecard Builder](https://youtu.be/tnnl6hrcP94).
+Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs en charge de l’exécution. Pour regarder une vidéo présentant ces informations, reportez-vous à la section [Créateur de Fiche d’évaluation des tableaux de bord Adobe Analytics](https://youtu.be/tnnl6hrcP94).
 
 ## Introduction
 
-Les tableaux de bord Adobe Analytics fournissent des informations à tout moment et où que vous soyez à partir d’Adobe Analytics. L’application permet aux utilisateurs mobiles d’accéder à des cartes de performance intuitives que vous créez et partagez à partir de l’interface utilisateur de bureau d’Adobe Analytics. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Vous pouvez personnaliser les Fiches d’évaluation en fonction des données qui comptent le plus pour vous. Les tableaux de bord Analytics sont pris en charge sur les systèmes d’exploitation iOS et Android.
+Les tableaux de bord Adobe Analytics fournissent des informations à tout moment et où que vous soyez à partir d’Adobe Analytics. L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives, que vous créez et partagez à partir de l’interface utilisateur de bureau d’Adobe Analytics. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Vous pouvez personnaliser les Fiches d’évaluation en fonction des données qui comptent le plus pour vous. Les tableaux de bord Analytics sont pris en charge sur les systèmes d’exploitation iOS et Android.
 
 ## En savoir plus sur ce guide
 
-Ce guide a pour but d’aider les responsables de la configuration des données Adobe Analytics à configurer des cartes de performance pour leurs utilisateurs cadres sur les tableaux de bord. Les curateurs peuvent être des administrateurs de l’entreprise ou des personnes occupant d’autres rôles chargés de configurer des Fiches d’évaluation dans l’application qui permettent aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles. Bien que les utilisateurs en charge de l’exécution soient les utilisateurs finaux des tableaux de bord Analytics, ce guide aidera les curateurs de données à configurer efficacement l’application pour ces utilisateurs.
+L’objectif de ce guide est d’aider les curateurs de données Adobe Analytics à configurer des Fiches d’évaluation pour les utilisateurs en charge de l’exécution sur les tableaux de bord. Les curateurs peuvent être des administrateurs de l’entreprise ou des personnes occupant d’autres rôles chargés de configurer des Fiches d’évaluation dans l’application qui permettent aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles. Bien que les utilisateurs en charge de l’exécution soient les utilisateurs finaux des tableaux de bord Analytics, ce guide aidera les curateurs de données à configurer efficacement l’application pour ces utilisateurs.
 
 ## Glossaire terminologique
 
@@ -100,7 +100,7 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
    ![Ajouter des dimensions](assets/layer_dimensions.png)
 
-   Vous pouvez également ajouter une dimension à toutes les mosaïques en la déposant sur la trame de la carte de performance.
+   Vous pouvez également ajouter une dimension à toutes les mosaïques en la déposant sur la zone de travail de la Fiche d’évaluation.
 
    Lorsque vous cliquez sur une mosaïque du Créateur de la Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **Titre** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
 
@@ -108,11 +108,11 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
    ![Breakdown_view](assets/break_view.png)
 
-   Chaque dimension ajoutée à la mosaïque s’affiche dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
+   Chaque dimension ajoutée à la mosaïque apparaît dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
 
-4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’évaluation, déposez la mosaïque en haut de la Fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les plages de dates. Vous [configurez et appliquez des filtres pour vos cartes de performance](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la même manière que dans Adobe Analytics Workspace.
+4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’évaluation, déposez la mosaïque en haut de la Fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. Vous [configurez et appliquez des filtres pour vos Fiches d’évaluation](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la même manière que dans Adobe Analytics Workspace.
 
-   ![Créer des segments pour le filtre](assets/segment_ui.png)
+   ![Création de segments pour le filtre](assets/segment_ui.png)
 
 5. De même, si vous souhaitez supprimer un composant appliqué à la totalité de la Fiche d’évaluation, cliquez n’importe où sur la Fiche d’évaluation en dehors des mosaïques, puis supprimez-le en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris sur le composant, comme indiqué ci-dessous pour le segment **Clients mobiles** :
 
@@ -161,24 +161,24 @@ Pour aider les utilisateurs en charge de l’exécution à accéder à vos Fiche
 
 * Les spécifications minimales en matière de systèmes d’exploitation mobile sur leurs appareils sont la version 10 ou ultérieure d’iOS ou la version 4.4 (KitKat) ou ultérieure d’Android.
 * Ils possèdent des identifiants de connexion valides à Adobe Analytics.
-* Vous avez correctement créé des cartes de performance mobiles pour elles et partagé ces cartes avec elles
+* Vous avez créé et partagé correctement des Fiches d’évaluation avec eux.
 * Ils ont accès à Analysis Workspace et à la suite de rapports sur laquelle la Fiche d’évaluation est basée.
 * Ils ont accès aux composants que la Fiche d’évaluation inclut. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
-### Aider les utilisateurs cadres à utiliser l’application
+### Aider les utilisateurs en charge de l’exécution à utiliser l’application
 
-Pour aider les utilisateurs :
+Pour aider les utilisateurs en charge de l’exécution :
 
-1. Aidez-les à télécharger et installer l’application. Pour ce faire, indiquez-leur les étapes suivantes pour étendre l’accès à vos utilisateurs en charge de l’exécution selon qu’ils utilisent un appareil iOS ou Android.
+1. Aidez-les à télécharger et à installer l’application. Pour ce faire, indiquez-leur les étapes suivantes pour étendre l’accès à vos utilisateurs en charge de l’exécution selon qu’ils utilisent un appareil iOS ou Android.
 
    **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-   * Cliquez sur le lien suivant (il est également disponible en Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+   * Cliquez sur le lien suivant (il est également disponible dans Analytics sous **Outils** > **Tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
       [Lien iOS](https://apple.co/2zXq0aN)
    **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-   * Cliquez sur le lien suivant (il est également disponible en Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+   * Cliquez sur le lien suivant (il est également disponible dans Analytics sous **Outils** > **Tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
       [Lien Android](https://bit.ly/2LM38Oo)
    Une fois l’application téléchargée et installée, les utilisateurs en charge de l’exécution peuvent se connecter à l’application en utilisant leurs informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
@@ -193,7 +193,7 @@ Pour aider les utilisateurs :
 
    ![Choisissez une entreprise](assets/accesscard.png)
 
-   Si l&#39;utilisateur exécutif se connecte et voit un message disant que rien n&#39;a été partagé :
+   Si l’utilisateur en charge de l’exécution se connecte et qu’un message s’affiche indiquant que rien n’a été partagé :
 
    * L’utilisateur en charge de l’exécution peut avoir sélectionné la mauvaise instance Analytics.
 
@@ -205,17 +205,17 @@ Pour aider les utilisateurs :
    * Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Analytics et que la Fiche d’évaluation a bien été partagée.
 
 
-3. Expliquez à l’utilisateur exécutif comment les mosaïques apparaissent dans les cartes de performance que vous partagez (la première carte de performance ci-dessous est définie en mode noir ; voir **Préférences** ci-dessous si vous pensez que l’utilisateur exécutif préfère cette option d’affichage) :
+3. Expliquez à l’utilisateur en charge de l’exécution la façon dont les mosaïques apparaissent dans les Fiches d’évaluation que vous partagez (la première Fiche d’évaluation ci-dessous est configurée en mode sombre, consultez **Préférences** ci-dessous si vous pensez que l’utilisateur en charge de l’exécution préfère cette option d’affichage) :
 
    ![Explication des mosaïques](assets/newexplain.png)
 
-   ![Exemple de tableau de bord](assets/intro_scorecard.png)
+   ![Exemple de Fiche d’évaluation](assets/intro_scorecard.png)
 
    Informations supplémentaires sur les mosaïques :
 
    * La granularité des graphiques sparkline dépend de la longueur de la période :
       * Une tendance horaire s’affiche pour les plages d’une journée.
-      * Plus d&#39;une journée et moins d&#39;un an affiche une tendance quotidienne
+      * Une tendance quotidienne s’affiche pour les plages comprises entre une journée et un an.
       * Une tendance hebdomadaire s’affiche pour les plages supérieures à un an.
    * La formule de modification de la valeur de pourcentage est calculée de la manière suivante : total de la mesure (période en cours) - total de la mesure (période de comparaison)/total de la mesure (période de comparaison).
    * Vous pouvez tirer l’écran vers le bas pour actualiser la Fiche d’évaluation.
@@ -227,25 +227,25 @@ Pour aider les utilisateurs :
 
    * Appuyez sur n’importe quel point d’un graphique sparkline pour afficher les données associées à ce point sur la ligne.
 
-   * Un tableau est inclus pour afficher les données des dimensions ajoutées à la mosaïque. Appuyez sur la flèche vers le bas pour sélectionner les dimensions. Si aucune dimension n’a été ajoutée à la mosaïque, le tableau affiche les données du graphique.
+   * Un tableau est inclus pour afficher les données des dimensions ajoutées à la mosaïque. Appuyez sur la flèche vers le bas pour sélectionner les dimensions. Si aucune dimension n’a été ajoutée à la mosaïque, le tableau affiche les données de graphique.
 
 5. Pour modifier les périodes de votre fiche d’évaluation :
 
    ![Modifier les dates](assets/changedate.png)
 
-   * Vous pouvez également modifier les plages de dates dans la vue de ventilation illustrée ci-dessus de la même manière.
+   * Vous pouvez également modifier les périodes dans la vue Ventilation affichée ci-dessus de la même manière.
 
    * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **COMPARER À**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **Terminé** en haut à droite de l’écran. Le champ **Périodes** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
 6. Pour faire part de vos commentaires sur cette application :
 
-   1. Appuyez sur l’icône des paramètres dans l’angle supérieur droit de l’écran de l’application.
-   2. On the **Settings** screen, tap the **Feedback** option.
+   1. Appuyez sur l’icône des paramètres en haut à droite de l’écran de l’application.
+   2. Sur l’écran **Paramètres**, appuyez sur l’option **Commentaires**.
    3. Appuyez pour afficher les options permettant de laisser un commentaire.
 
-      ![Ecran Paramètres](assets/settings.png)
+      ![Écran Paramètres](assets/settings.png)
 
-7. Pour modifier les préférences, appuyez sur l’option **Préférences** illustrée ci-dessus. Dans les préférences, vous pouvez activer la connexion biométrique ou définir l’application pour le mode foncé comme indiqué ci-dessous :
+7. Pour modifier les préférences, appuyez sur l’option **Préférences** affichée ci-dessus. Dans les préférences, vous pouvez activer la connexion biométrique ou définir l’application pour le mode sombre comme illustré ci-dessous :
 
    ![Mode sombre](assets/darkmode.png)
 
