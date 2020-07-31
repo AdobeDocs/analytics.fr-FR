@@ -2,8 +2,11 @@
 description: valeur nulle
 title: FAQ Convertisseur de projets
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '908'
+ht-degree: 100%
 
 ---
 
@@ -50,9 +53,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>R : Veuillez noter que les diagrammes et les graphiques sont appelés « visualisations » dans Workspace. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Paramètres</b> : les paramètres de visualisations tels que « Nombre d’éléments » ou « Nombre de barres » ne sont pas pris en charge par Workspace. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Graphique en secteurs</b> : exportation en tant que <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  >visualisation en anneau</a>. Cette visualisation dans Workspace est limitée à 19 sections. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Graphique à bulles</b> : exporté en tant que <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >visualisation de dispersion</a>. Par défaut, la visualisation de dispersion déplace la première mesure sur l’axe X et la deuxième sur l’axe Y. S’il n’existe qu’une mesure, le graphique à bulles sera converti en visualisation en lignes. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramme</b> : prise en charge d’un raisonnement différent par intervalles dans Workspace comparé à Ad Hoc Analysis. Par conséquent, il est converti en <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  >visualisation en barres</a>. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Graphique en secteurs</b> : exportation en tant que <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/donut.html"  >visualisation en anneau</a>. Cette visualisation dans Workspace est limitée à 19 sections. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Graphique à bulles</b> : exporté en tant que <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >visualisation de dispersion</a>. Par défaut, la visualisation de dispersion déplace la première mesure sur l’axe X et la deuxième sur l’axe Y. S’il n’existe qu’une mesure, le graphique à bulles sera converti en visualisation en lignes. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histogramme</b> : prise en charge d’un raisonnement différent par intervalles dans Workspace comparé à Ad Hoc Analysis. Par conséquent, il est converti en <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/bar.html"  >visualisation en barres</a>. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Graphique de dispersion</b> : dans les projets exportés dans Analysis Workspace, l’axe Y correspond à la première colonne, l’axe X à la seconde et le diamètre à la troisième. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Tableaux Abandons</b> : pour afficher les tableaux Diminutions ou Abandons, faites un clic droit sur le point de contrôle et sélectionnez l’option Ventilation. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Périodes des rapports d’Abandons</b> : les périodes personnalisables de rapports n’ont pas été appliquées aux visualisations des Abandons. </li> 
