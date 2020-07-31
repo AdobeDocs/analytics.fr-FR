@@ -4,11 +4,11 @@ keywords: eVar
 title: Variables de conversion (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Description des champs utilisés lors de la [modification des variables de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">Attribution</span> </p> </td> 
-   <td colname="col2"> <p>Détermine la manière dont parcours  Analytics attribue le crédit d’un événement de succès si une variable reçoit plusieurs valeurs avant l’événement. Les valeurs acceptables sont : </p> <p> <b>Le plus récent</b> : la dernière valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b>Valeur d’origine</b> : la première valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b> Linéaire</b> : attribue uniformément les événements de succès sur toutes les valeurs eVar. Puisque l’attribution linéaire ne répartit précisément les valeurs que dans une visite, utilisez-la avec une expiration d’eVar de visite. </p> <p>Remarque : l’activation ou la désactivation d’une attribution de type Linéaire empêche l’affichage des données historiques. Mélanger divers types d’attribution dans l’interface de création de rapports peut se traduire par des données erronées dans les rapports. Il se peut, par exemple, qu’une attribution linéaire divise les recettes entre plusieurs valeurs eVar différentes. Après avoir rétabli le type d’attribution sur « Le plus récent », 100 % des recettes seront associées à la valeur unique la plus récente. Cette association peut mener à des conclusions incorrectes de la part des utilisateurs. </p> <p>Pour éviter tout risque de confusion dans les rapports, les données historiques ne sont pas mises à la disposition des utilisateurs dans l’interface. Elles peuvent être visualisées si vous décidez de redéfinir l’eVar sur le paramètre d’attribution initial, même s’il est déconseillé de modifier les paramètres d’attribution de l’eVar aux seules fins d’accéder aux données historiques. Adobe recommande d’utiliser une nouvelle eVar lorsque de nouveaux paramètres d’attribution sont souhaités pour des données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution sur une eVar qui a déjà accumulé une certaine quantité de données historiques. </p> </td> 
+   <td colname="col2"> <p>Détermine la manière dont Analytics attribue le crédit d’un événement de succès si une variable reçoit plusieurs valeurs avant l’événement. Les valeurs acceptables sont : </p> <p> <b>Le plus récent</b> : la dernière valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b>Valeur d’origine</b> : la première valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b> Linéaire</b> : attribue uniformément les événements de succès sur toutes les valeurs eVar. Puisque l’attribution linéaire ne répartit précisément les valeurs que dans une visite, utilisez-la avec une expiration d’eVar de visite. </p> <p>Remarque : l’activation ou la désactivation d’une attribution de type Linéaire empêche l’affichage des données historiques. Mélanger divers types d’attribution dans l’interface de création de rapports peut se traduire par des données erronées dans les rapports. Il se peut, par exemple, qu’une attribution linéaire divise les recettes entre plusieurs valeurs eVar différentes. Après avoir rétabli le type d’attribution sur « Le plus récent », 100 % des recettes seront associées à la valeur unique la plus récente. Cette association peut mener à des conclusions incorrectes de la part des utilisateurs. </p> <p>Pour éviter tout risque de confusion dans les rapports, les données historiques ne sont pas mises à la disposition des utilisateurs dans l’interface. Elles peuvent être visualisées si vous décidez de redéfinir l’eVar sur le paramètre d’attribution initial, même s’il est déconseillé de modifier les paramètres d’attribution de l’eVar aux seules fins d’accéder aux données historiques. Adobe recommande d’utiliser une nouvelle eVar lorsque de nouveaux paramètres d’attribution sont souhaités pour des données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution sur une eVar qui a déjà accumulé une certaine quantité de données historiques. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Expire après</span> </p> </td> 
@@ -93,7 +93,7 @@ Description des champs utilisés lors de la [modification des variables de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Événement de liaison de marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Si le marchandisage est défini sur <span class="uicontrol"> Syntaxe de la variable de conversion</span>, les événements sélectionnés lieront la valeur de l’eVar active à un produit. </p> <p>Pour utiliser un événement de liaison, définissez l’attribution sur <span class="uicontrol"> Le plus récent</span>. Si <span class="uicontrol">l’attribution est définie sur Valeur d’origine</span>, la première liaison de produit eVar demeure jusqu’à l’expiration de l’eVar. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. Vous ne pouvez sélectionner un élément que lorsque le paramètre « Syntaxe de la variable de conversion » est actif.</p> </td> 
+   <td colname="col2"> <p>Si le marchandisage est défini sur <span class="uicontrol"> Syntaxe de la variable de conversion</span>, les événements sélectionnés lieront la valeur de l’eVar active à un produit. </p> <p>Pour utiliser un événement de liaison, définissez l’attribution sur <span class="uicontrol"> Le plus récent</span>. Si <span class="uicontrol">l’attribution est définie sur Valeur d’origine</span>, la première liaison de produit eVar demeure jusqu’à l’expiration de l’eVar. Il est possible de sélectionner plusieurs événements en cliquant sur plusieurs éléments de la liste tout en maintenant la touche <code>ctrl</code> (Windows) ou <code>cmd</code> (Mac) enfoncée. Vous ne pouvez sélectionner un élément que lorsque le paramètre « Syntaxe de la variable de conversion » est actif.</p> </td> 
   </tr> 
  </tbody> 
 </table>
