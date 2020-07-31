@@ -2,9 +2,9 @@
 description: La version 5.2 du Report Builder prend en charge les mesures calculées unifiées d’Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 title: Mesures calculées
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Pour en savoir plus sur la manière de créer et de gérer des mesures calculée
 
 **Filtrez** les mesures calculées en cliquant sur l’icône Filtrer :  ![](assets/segment_filter.png)
 
-. La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
+  La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
 
 Les filtres disponibles incluent :
 
