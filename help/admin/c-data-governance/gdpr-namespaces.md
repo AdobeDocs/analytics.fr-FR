@@ -2,9 +2,9 @@
 description: Chaque ID que vous voulez pouvoir rechercher se voit attribuer un espace de noms, qui est une chaîne personnalisée qui identifie cet ID dans n’importe quelle variable de l’ensemble de vos suites de rapports.
 title: Espaces de noms
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Vous pouvez également voir les espaces de noms que vous avez précédemment dé
 
 >[!TIP]
 >
->Évitez d’utiliser le nom convivial d’une variable (nom affiché dans l’interface utilisateur de création de rapports) ou le numéro de la variable (par exemple, eVar12) lorsque vous spécifiez l’espace de noms dans l’API relative à la Confidentialité des données, sauf s’il s’agit de l’espace de noms spécifié lorsque vous avez appliqué l’étiquette ID-DEVICE ou ID-PERSON. L’utilisation de l’espace de noms au lieu du nom convivial permet au bloc d’identité du même utilisateur de spécifier la variable correcte pour plusieurs suites de rapports. Par exemple, si l’ID se trouve dans des eVars différentes dans certaines suites de rapports ou si les noms conviviaux ne correspondent pas (comme lorsque le nom convivial a été localisé pour une suite de rapports spécifique).
+>Évitez d’utiliser le nom convivial d’une variable (nom affiché dans l’interface utilisateur de création de rapports) ou le numéro de la variable (par exemple, eVar12) lorsque vous spécifiez l’espace de noms dans l’API Data Privacy, sauf s’il s’agit de l’espace de noms spécifié lorsque vous avez appliqué l’étiquette ID-DEVICE ou ID-PERSON. L’utilisation de l’espace de noms au lieu du nom convivial permet au bloc d’identité du même utilisateur de spécifier la variable correcte pour plusieurs suites de rapports. Par exemple, si l’ID se trouve dans des eVars différentes dans certaines suites de rapports ou si les noms conviviaux ne correspondent pas (comme lorsque le nom convivial a été localisé pour une suite de rapports spécifique).
 
 >[!CAUTION]
 >
