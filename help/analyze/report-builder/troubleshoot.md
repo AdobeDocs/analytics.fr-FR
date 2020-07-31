@@ -3,9 +3,9 @@ description: Méthodes pour optimiser le Créateur de rapports et liste des mess
 title: Résolution des problèmes et bonnes pratiques pour le Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -109,7 +109,7 @@ Liste des messages d’erreur qui peuvent s’afficher lors de l’utilisation d
 
 >[!NOTE]
 >
->Cette liste n’est pas exhaustive. Pour plus d’informations sur la résolution des erreurs, contactez votre administrateur.
+>Il ne s’agit que d’une sélection de messages d’erreur. Cette liste n’est pas exhaustive. Pour plus d’informations sur la résolution des erreurs, contactez votre administrateur.
 
 **Cette fonctionnalité peut uniquement être appliquée à un classeur ouvert.**
 
