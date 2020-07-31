@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 + [Guide sur les outils Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)
+   + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)
    + [Cas d’utilisation d’Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Nouveautés d’Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Création d’un projet Workspace {#build-workspace-project}
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [Arborescence](analysis-workspace/visualizations/treemap.md)
    + Panneaux {#panels}
       + [Panneaux - Aperçu](analysis-workspace/c-panels/panels.md)
-      + [Panneau Analytics for Cible (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Panneau Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Panneau Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
-      + Segment comparison panel {#segment-comparison}
+      + Panneau de comparaison des segments {#segment-comparison}
          + [Comparaison des segments - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Cas d’utilisation de la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -297,7 +297,7 @@ ht-degree: 98%
    + [Tableaux de bord et mini-rapports](reports-analytics/dashboard.md)
    + [Gestionnaire de tableaux de bord](reports-analytics/dashboard-manage.md)
    + [Extraction de données](reports-analytics/data-extract.md)
-   + [Rapports Entonnoir](reports-analytics/funnels.md)
+   + [Rapports entonnoir](reports-analytics/funnels.md)
    + [Mesures](reports-analytics/metrics.md)
    + [Cibles](reports-analytics/targets.md)
    + [Alertes](reports-analytics/alerts.md)
@@ -336,8 +336,8 @@ ht-degree: 98%
    + [Heure](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Présentation de Labs](tech-previews/overview.md)
-+ Tableaux de bord Adobe Analytics {#mobapp}
-   + [tableaux de bord Adobe Analytics - Présentation](mobile-app/home.md)
++ Tableaux de bord Adobe Analytics {#mobapp}
+   + [Tableaux de bord Adobe Analytics - Aperçu](mobile-app/home.md)
    + [Guide pour les curateurs](mobile-app/curator.md)
    + [Guide de début rapide destiné aux utilisateurs en charge de l’exécution](mobile-app/executive.md)
 + Applications web progressives {#pwa}
