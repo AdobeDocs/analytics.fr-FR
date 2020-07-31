@@ -97,7 +97,7 @@ Cette visualisation est similaire aux tableaux à structure libre dans Analysis 
 
 >[!NOTE]
 >
->Les éléments de dimension ajoutés à ce tableau une fois la comparaison de segments terminée ne reçoivent pas de note de différence.
+>Les éléments de Dimension ajoutés à ce tableau une fois la comparaison de segments terminée ne reçoivent pas de note de différence.
 
 ![Dimensions principales](assets/top-dimension-item1.png)
 
