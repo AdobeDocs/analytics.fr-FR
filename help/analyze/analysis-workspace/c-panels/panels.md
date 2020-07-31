@@ -1,31 +1,31 @@
 ---
 description: valeur nulle
 title: Panneaux - Aperçu
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Panneaux - Aperçu
 
-Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace. Les panneaux vous permettent d’organiser vos projets selon les périodes, les unités opérationnelles, la géographie, etc. Ces six types de panneaux sont disponibles dans l’espace de travail des Analyses :
+Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace. Les panneaux vous permettent d’organiser vos projets selon les périodes, les unités opérationnelles, la géographie, etc. Ces six types de panneaux sont disponibles dans Analysis Workspace :
 
 * [Panneau vierge](blank-panel.md)
-* [Panneau Aperçu rapide](quickinsight.md)
-* [Panneau](a4t-panel.md) Analytics pour la Cible (à venir)
-* [Panneau Attribution](attribution.md)
+* [Panneau Quick Insights](quickinsight.md)
+* [Panneau Analytics for Target](a4t-panel.md) (bientôt disponible)
+* [Panneau d’attribution](attribution.md)
 * [Panneau à structure libre](freeform-panel.md)
-* [Comparaison des segments](c-segment-comparison/segment-comparison.md)
+* [Panneau de comparaison des segments](c-segment-comparison/segment-comparison.md)
 
-Les panneaux d’informations rapides, à structure vierge et à structure libre sont des endroits idéaux pour début votre analyse, tandis qu’Analytics pour la Cible, l’identification d’attribution et la comparaison de segments se prêtent à des analyses plus avancées. Un `"+"` bouton est disponible dans les projets afin que vous puissiez ajouter des panneaux vides à tout moment.
+Les panneaux Quick Insights, vierges et à structure libre sont idéaux pour commencer votre analyse, tandis que les panneaux Analytics for Target, Attribution IQ et de comparaison des segments se prêtent à des analyses plus avancées. Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+Le panneau de démarrage par défaut est le Panneau à structure libre, mais vous pouvez également choisir d’utiliser le [Panneau vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) par défaut.
 
-## Filtres déroulants des panneaux  {#section_D2828EEDD52944528E87F470EAB581CF}
+## Filtres déroulants des panneaux {#section_D2828EEDD52944528E87F470EAB581CF}
 
 La zone de liste du panneau propose désormais une fonction de filtrage déroulante. Ces filtres vous permettent d’interagir avec les données du projet de manière contrôlée, afin de réaliser des analyses approfondies, simplifier vos projets et/ou partager des connaissances.
 
