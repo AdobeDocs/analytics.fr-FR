@@ -10,7 +10,7 @@ ht-degree: 53%
 ---
 
 
-# Analytics Configuration requise et comparaison des produits 
+# Analytics Configuration requise et comparaison des produits
 
 Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Rapports et Analytics, Report Builder, Data warehouse, Data Workbench, Flux de données et API Analytics 2.0.
 
