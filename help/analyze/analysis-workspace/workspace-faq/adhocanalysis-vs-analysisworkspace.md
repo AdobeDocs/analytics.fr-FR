@@ -100,7 +100,7 @@ Cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-ov
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>L’<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> dans Analysis Workspace vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. Il comprend plus de 10 modèles algorithmiques et basés sur des règles. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vidéo : QI d’attribution dans les tableaux à structure libre</a> </p> </td> 
+   <td colname="col2"> <p>L’<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> dans Analysis Workspace vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. Il comprend plus de 10 modèles algorithmiques et basés sur des règles. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vidéo : Attribution IQ dans les tableaux à structure libre</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
