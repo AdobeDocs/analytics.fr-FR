@@ -2,9 +2,9 @@
 description: Les composants d’Analysis Workspace sont constitués des mesures, dimensions, segments et granularités du temps que vous pouvez faire glisser sur un projet. Les composants personnalisés que vous créez sont ajoutés à ces panneaux, par exemple les plages de dates personnalisées.
 title: Aperçu des composants
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
