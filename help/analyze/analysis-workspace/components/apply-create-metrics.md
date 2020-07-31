@@ -2,11 +2,11 @@
 description: Dans Analysis Workspace, vous pouvez utiliser les mesures de deux façons.
 title: Mesures
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ Si vous souhaitez comparer rapidement et facilement deux modèles d’attributi
 
 ![Comparer l’attribution](assets/compare-attribution.png)
 
-Ce raccourci vous permet de comparer rapidement et facilement un modèle d’attribution à un autre sans faire glisser une mesure et en le configurant deux fois.
+Ce raccourci vous permet de comparer rapidement et facilement deux modèles d’attribution sans faire glisser une mesure et la configurer deux fois.
