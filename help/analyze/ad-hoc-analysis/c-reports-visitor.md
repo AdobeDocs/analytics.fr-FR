@@ -3,9 +3,9 @@ description: Affiche des informations concernant les visiteurs, notamment leur n
 title: Rapports sur les visiteurs
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Vous pouvez ventiler ce rapport selon tout autre rapport ou variable afin de dé
 
 >[!NOTE]
 >
->Si un même visiteur se rend plusieurs fois sur votre site Web au cours de la même période, chaque numéro de visite spécifié est incrémenté pour chaque visite.
+>Si un même visiteur se rend plusieurs fois sur votre site Web au cours de la même période, le nombre spécifié de visites est incrémenté pour chaque visite.
 
 Ce rapport s’articule autour des données d’identifiant des visiteurs transmises à Adobe lors chaque accès à votre site. A la réception de ces données, Adobe les compare aux identifiants des visiteurs historiques afin de déterminer si l’accès correspond à :
 
@@ -116,7 +116,7 @@ c_reports_visitor_profile.xml
 
 **[!UICONTROL Domaines de haut niveau]** : présente les régions du monde d’où viennent les visiteurs sur la base de l’extension de leur domaine d’origine et indique combien de visiteurs viennent de ces pays. Les domaines finissant par Commercial (.com), Network (.net), Education (.edu), Government (.gov) et Organization (.org) sont généralement basés aux Etats-Unis et font l’objet d’une liste distincte des autres domaines.
 
-**[!UICONTROL Code postal du visiteur]** : indique les codes postaux des visiteurs qui ont le plus influencé les mesures de réussite d’achats.
+**[!UICONTROL Code postal du visiteur]** : indique les codes postaux des visiteurs qui ont le plus influencé les mesures de succès d’achats.
 
 ## Géosegmentation {#concept_7C1B930F90F945B49205D3855CAE1813}
 
@@ -126,4 +126,4 @@ c_reports_geosegmentation.xml
 
  -->
 
-Affiche la dynamique géographique de vos visiteurs en temps réel, notamment les pays, les départements et les villes à partir desquels ils naviguent. Ce type de rapport vous donne également une bonne idée de la technologie dont dispose votre public Internet, ainsi que de leurs préférences.
+Affiche la dynamique géographique de vos visiteurs en temps réel, notamment les pays, les départements et les villes à partir desquels ils naviguent. Ce type de rapport vous donne également une bonne idée de la technologie dont dispose votre audience Internet, ainsi que de leurs préférences.
