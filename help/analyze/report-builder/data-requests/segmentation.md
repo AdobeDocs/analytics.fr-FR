@@ -3,11 +3,11 @@ description: Comment ajouter, modifier, appliquer et filtrer des segments Adobe�
 title: Gestion des segments
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Le Report Builder inclut un panneau de segmentation à l’étape 1 de l’Assi
 
 >[!NOTE]
 >
->Pour ajouter ou modifier des segments, l’interface de segments du Report Builder lance le Créateur de segments d’Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
+>Pour ajouter ou modifier des segments, l’interface de segments du Report Builder lance le Créateur de segments d’Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
 
 1. Dans le panneau des segments de l’étape 1 de l’Assistant Requête, cliquez sur **[!UICONTROL Ajouter]**.
-1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, reportez-vous à la segmentation [](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html)Analytics.
+1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, consultez [Segmentation Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html).
 1. Une fois le segment défini et enregistré, retournez à l’Assistant Requête.
 1. Cliquez sur l’icône Actualiser afin d’actualiser la liste des segments.
 
@@ -53,7 +53,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
 ## Recherche et application de segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Chaque segment créé dans les Reports &amp; Analytics, dans Ad Hoc Analysis, dans Report Builder ou dans Data Warehouse est répertorié dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser ( ![](assets/refresh_icon.png).
+Chaque segment créé dans les Reports &amp; Analytics, dans Ad Hoc Analysis, dans Report Builder ou dans Data Warehouse est répertorié dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser (![](assets/refresh_icon.png)).
 
 Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela inclut les segments séquentiels.
 
