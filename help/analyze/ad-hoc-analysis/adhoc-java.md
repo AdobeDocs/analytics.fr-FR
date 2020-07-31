@@ -1,9 +1,9 @@
 ---
 description: Instructions sur l’exécution d’Ad Hoc Analysis avec Java 11.
 title: Exécution de l’Ad Hoc Analysis sur Java 11
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
 ht-degree: 100%
 
