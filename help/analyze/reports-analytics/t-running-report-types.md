@@ -3,9 +3,9 @@ description: Procédure d’exécution de différents types de rapports
 title: Exécution de différents types de rapports
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 Pour exécuter ce rapport, sélectionnez un rapport, par exemple un rapport Pages (**[!UICONTROL Rapports]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Code de suivi]** > **[!UICONTROL Entonnoir de conversion de campagne]**).
 
-Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-conversion.translate.html).
+Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://docs.adobe.com/content/help/fr-FR/analytics/components/dimensions/evar.html).
 
 ## Exécution d’un rapport sur les abandons {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ Découvrez le nouveau panneau [Analyse des abandons](https://docs.adobe.com/cont
 
 >[!MORELIKETHIS]
 >
->* [Description du rapport sur les abandons](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-fallout.translate.html)
+>* [Description du rapport sur les abandons](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)
 
 
 ## Exécution d’un rapport de flux de page {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -97,7 +97,7 @@ Les rapports de flux de page indiquent l’ordre dans lequel les visiteurs accè
 
 Découvrez la nouvelle [visualisation Flux](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
 
-Exécutez un rapport [Chemins](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-paths.html).
+Exécutez un rapport [Chemins](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/flow/flow.html).
 
 Par exemple, cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Flux page suivante]**.
 
@@ -123,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Produits]** > [Entonnoir de conversion de produits](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-conversion-funnel.translate.html).
+1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Produits]** > [Entonnoir de conversion de produits](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 ## Exécution d’un rapport Canal marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -149,7 +149,7 @@ t_anomaly_view.xml
 
 Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse des contributions](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) d’Analysis Workspace.
 
-**[!UICONTROL Rapports]** > **[!UICONTROL Mesures du site]** > **[!UICONTROL Détection des anomalies]** .
+**[!UICONTROL Rapports]** > **[!UICONTROL Mesures du site]** > **[!UICONTROL Détection des anomalies]**.
 
 >[!NOTE]
 >
@@ -216,7 +216,7 @@ t_anomaly_config.xml
 
 Configurez la détection des anomalies indépendamment pour chaque suite de rapports.
 
-1. Accédez à **[!UICONTROL Analytics > Rapports > Mesures du site > Détection des anomalies]** .
+1. Accédez à **[!UICONTROL Analytics > Rapports > Mesures du site > Détection des anomalies]**.
 1. Sélectionnez la suite de rapports pour laquelle vous souhaitez suivre quotidiennement la détection des anomalies. Pour afficher une liste des suites de rapports, cliquez sur le menu déroulant du sélecteur de suite de rapports.
 1. Pour sélectionner les mesures et/ou définir des mesures filtrées, cliquez sur **[!UICONTROL Modifier des mesures]** dans la partie supérieure droite de l’écran :  ![](assets/metrics_icon.png).
 
@@ -253,7 +253,7 @@ reports_realtime.xml
 
 La création de rapports en temps réel offre deux rapports principaux : un rapport d’aperçu et un rapport détaillé. Ils sont chacun composés de plusieurs mini-rapports.
 
-Pour plus d’informations sur la configuration des rapports en temps réel, voir le [Guide de référence d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.translate.html#RealTime_Reports_Configuration).
+Pour plus d’informations sur la configuration des rapports en temps réel, voir le [Guide de référence d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html#RealTime_Reports_Configuration).
 
 1. Étudiez le rapport **[!UICONTROL Aperçu]** et ses composants :  ![](assets/rtr_overview_report.png)
 
@@ -264,7 +264,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Sélectionner une suite de rapports</strong></td> 
-   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.translate.html"  >Configuration de rapports en temps réel </a>. </td> 
+   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Configuration de rapports en temps réel </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Basculer entre les rapports</strong></td> 
