@@ -2,8 +2,11 @@
 title: Aide du Report Builder d’Adobe
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -51,6 +54,6 @@ Le Report Builder [!DNL Adobe] est un complément externe pour Microsoft Excel.
 
 ## Aide de Reports &amp; Analytics
 
-* [Aide d’Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
+* [Aide d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html)
 * [Aide sur les Reports &amp; Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/getting-started.html)
 * [Références Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html) Aide sur les Outils d’administration, les rapports et les mesures.
