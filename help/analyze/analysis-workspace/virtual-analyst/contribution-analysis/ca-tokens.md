@@ -2,11 +2,11 @@
 description: valeur nulle
 title: Analyse des contributions - Aperçu
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ Quelque chose s’est produit. Pourquoi ? Votre rapport Détection des anomalie
 
 L’analyse des contributions permet d’évaluer immédiatement les données afin de déterminer la cause d’une anomalie. Elle ventile en quelques secondes les contributions à une anomalie, là où il fallait autrefois plusieurs semaines, isole des schémas pour les segments d’audience et aide à élaborer une narration relative aux interactions des clients. Appliquez l’analyse des contributions de manière stratégique afin de détecter et de capturer des associations significatives pour élaborer de nouveaux segments d’audience ou avec tact pour identifier les activités extraordinaires ou frauduleuses qui ont déclenché une alerte.
 
-La [détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifie les pics de données et les creux statistiques extrêmes d’après les mesures et les segments d’audience sélectionnés. Elle établit une norme historique d’après une période de formation, puis trace les décalages extrêmes en corrélation avec les événements spécifiques. Elle peut repérer une hausse soudaine d’une mesure positive de commandes ou d’une mesure négative de rebonds, ou les creux dans les deux cas, afin de capturer les points de données statistiquement pertinents qui seront évalués par l’analyse des contributions. Une fois une anomalie statistique identifiée, l’analyse des contributions permet d’analyser davantage et d’évaluer les variables de campagne et de marketing pertinentes à l’échelle de tous les points de données irréguliers. Elle exécute des algorithmes et des processus d’apprentissage automatiques élaborés afin d’évaluer les associations qui ont contribué à un pic ou à un creux significatif. Ces  calculs sont ensuite présentés dans des visualisations interactives qui illustrent différentes perspectives afin de vous aider à déterminer la raison d’un événement et ce que vous pouvez faire à ce sujet.
+La [détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifie les pics de données et les creux statistiques extrêmes d’après les mesures et les segments d’audience sélectionnés. Elle établit une norme historique d’après une période de formation, puis trace les décalages extrêmes en corrélation avec les événements spécifiques. Elle peut repérer une hausse soudaine d’une mesure positive de commandes ou d’une mesure négative de rebonds, ou les creux dans les deux cas, afin de capturer les points de données statistiquement pertinents qui seront évalués par l’analyse des contributions. Une fois une anomalie statistique identifiée, l’analyse des contributions permet d’analyser davantage et d’évaluer les variables de campagne et de marketing pertinentes à l’échelle de tous les points de données irréguliers. Elle exécute des algorithmes et des processus d’apprentissage automatiques élaborés afin d’évaluer les associations qui ont contribué à un pic ou à un creux significatif. Ces calculs sont ensuite présentés dans des visualisations interactives qui illustrent différentes perspectives afin de vous aider à déterminer la raison d’un événement et ce que vous pouvez faire à ce sujet.
 
 L’analyse des contributions permet d’élaborer une narration afin de décrire la raison d’une anomalie et la manière d’y réagir, en capturant les mesures pertinentes et en repérant les points latents qui présentent une raison globale aux interactions des audiences et aux tendances des intérêts des clients. Il est parfois aisé de repérer et de corriger une anomalie, par exemple une commande ponctuelle de 2 000 kayaks. Cela peut aussi être complexe, par exemple en identifiant une tendance émergente sur une période donnée dans une région donnée, qui réagit uniquement à une campagne ciblée spécifique. L’assemblage d’éléments de contribution à l’échelle de mesures pour diverses dimensions et de leurs associations vous donne une idée générale des interactions de votre audience et vous aide à préciser un contexte pour les points de données irréguliers.
 
-Voici quelques cas d’utilisation :
+Voici quelques cas d’utilisation :
 
-* Identifier le potentiel de remarketing en surveillant les changements de la demande de produits.
+* Identifiez le potentiel de remarketing en surveillant les changements en termes de demande d’un produit.
 * Améliorez les conditions d’utilisation des clients en réagissant à des intérêts spécifiques de l’audience.
 * Repérez les commandes frauduleuses rapidement au moyen d’un rapport sur les hors limite.
 * Protégez-vous contre l’espionnage industriel en détectant les taux élevés d’utilisation et de téléchargements.
@@ -55,7 +55,7 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Pourquoi Adobe a-t-il introduit des jetons ? </b> </p> </td> 
-   <td colname="col2"> <p>L’Analyse des contributions a été l’une des fonctionnalités les plus intéressantes d’Adobe Analytics. En autorisant un petit nombre d’exécutions « complètes » par mois (plutôt que seulement trois dimensions pour certains produits Analytics), vous pouvez mieux voir ce que l’analyse des contributions complète illimitée peut vous apporter. </p> </td> 
+   <td colname="col2"> <p>L’analyse des contributions a été l’une des capacités les plus intéressantes d’Adobe Analytics. En autorisant un petit nombre d’exécutions « complètes » par mois (plutôt que seulement trois dimensions pour certains produits Analytics), vous pouvez mieux voir ce que l’analyse des contributions complète illimitée peut vous apporter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment fonctionnent les jetons dans l’analyse des contributions ? Le chargement d’un projet avec une analyse des contributions existante coûte-t-il un jeton ? Ou ce coût existe-t-il uniquement lors de l’exécution d’une nouvelle analyse ?</b> </p> </td> 
