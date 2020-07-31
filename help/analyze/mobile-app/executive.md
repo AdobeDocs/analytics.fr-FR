@@ -1,23 +1,23 @@
 ---
 description: Instructions pour l’utilisation des fiches d’évaluation des tableaux de bord.
 title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
-# Tableaux de bord Adobe Analytics : Guide de démarrage rapide de l’utilisateur en charge de l’exécution
+# Tableaux de bord Adobe Analytics : guide de démarrage rapide de l’utilisateur en charge de l’exécution
 
-Les informations suivantes fournissent aux utilisateurs cadres des informations sur les meilleures pratiques d’utilisation et d’affichage des tableaux de bord Adobe Analytics. Pour visionner une vidéo illustrant ces informations, reportez-vous à la section Expérience [intégrée des tableaux de bord](https://youtu.be/QXqQ_PkArbA)Adobe Analytics.
+Les informations suivantes fournissent aux utilisateurs en charge de l’exécution des informations sur les bonnes pratiques pour l’utilisation et l’affichage des tableaux de bord Adobe Analytics. Pour regarder une vidéo présentant ces informations, reportez-vous à la section [Experience in-app des tableaux de bord Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Introduction
 
-Les tableaux de bord Adobe Analytics fournissent des informations à tout moment et où que vous soyez à partir d’Adobe Analytics. L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Les tableaux de bord sont pris en charge sur les systèmes d’exploitation iOS et Android.
+Les tableaux de bord Adobe Analytics fournissent des informations à tout moment et où que vous soyez à partir d’Adobe Analytics.  L’application permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. Les tableaux de bord sont pris en charge sur les systèmes d’exploitation iOS et Android.
 
 ## En savoir plus sur ce guide
 
@@ -53,17 +53,17 @@ Pour télécharger et installer l’application, suivez les étapes correspondan
 
 **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+Cliquez sur le lien suivant (il est également disponible dans Analytics sous **Outils** > **Tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
 [Lien iOS](https://apple.co/2zXq0aN)
 
 **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-Cliquez sur le lien suivant (également disponible dans Analytics sous **Outils** > **tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+Cliquez sur le lien suivant (il est également disponible dans Analytics sous **Outils** > **Tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
 [Lien Android](https://bit.ly/2LM38Oo)
 
-Une fois téléchargés et installés, les utilisateurs de l’équipe exécutive peuvent se connecter à l’application à l’aide de leurs identifiants Adobe Analytics existants.
+Une fois l’application téléchargée et installée, les utilisateurs en charge de l’exécution peuvent se connecter à l’application à l’aide de leurs identifiants Adobe Analytics existants.
 
 ![Écran de bienvenue de l’application](assets/welcome.png)
 
@@ -81,13 +81,14 @@ Pour utiliser les tableaux de bord :
 
    ![Choisissez une entreprise](assets/nextseq.png)
 
-   Si vous vous connectez et voyez un message indiquant que rien n’a été partagé, vérifiez ce qui suit avec votre conservateur :
+   Si vous vous connectez et que vous voyez un message indiquant que rien n’a été partagé, vérifiez les éléments suivants avec votre curateur :
 
    * Vous pouvez vous connecter à la bonne instance Analytics.
    * La fiche d’évaluation a été partagée avec vous.
+
    ![Rien n’a été partagé](assets/nothing.png)
 
-4. Examiner l’aspect des mosaïques dans la carte de performance (la première carte de performance s’affiche en mode sombre); pour plus d’informations, voir **Préférences** ci-dessous).
+4. Examinez l’affichage des mosaïques dans la Fiche d’évaluation (la première Fiche d’évaluation s’affiche en mode sombre, consultez **Préférences** ci-dessous pour plus d’informations).
 
    ![Explication des mosaïques](assets/newexplain.png)
 
@@ -96,16 +97,17 @@ Pour utiliser les tableaux de bord :
    * La granularité des graphiques sparkline dépend de la longueur de la période :
 
       * Une tendance horaire s’affiche pour les plages d’une journée.
-      * Plus d&#39;une journée et moins d&#39;un an affiche une tendance quotidienne
+      * Une tendance quotidienne s’affiche pour les plages comprises entre une journée et un an.
       * Une tendance hebdomadaire s’affiche pour les plages supérieures à un an.
    * La formule de modification de la valeur de pourcentage est calculée de la manière suivante : total de la mesure (période en cours) - total de la mesure (période de comparaison)/total de la mesure (période de comparaison).
 
    * Vous pouvez tirer l’écran vers le bas pour actualiser la Fiche d’évaluation.
-   L’exemple suivant illustre le mode normal de la carte de performance :
 
-   ![Exemple de tableau de bord](assets/intro_scorecard.png)
+   L’exemple suivant de la Fiche d’évaluation est affiché en mode normal :
 
-5. Appuyez sur une mosaïque pour voir comment fonctionne une ventilation détaillée de la mosaïque.
+   ![Exemple de Fiche d’évaluation](assets/intro_scorecard.png)
+
+5. Appuyez sur une mosaïque pour voir comment fonctionne une ventilation détaillée sur la mosaïque.
 
    ![Vue Ventilation](assets/sparkline.png)
 
@@ -114,11 +116,11 @@ Pour utiliser les tableaux de bord :
 
    ![Modifier les dates](assets/changedate.png)
 
-   * Vous pouvez également modifier les plages de dates dans la vue de ventilation illustrée ci-dessus de la même manière.
+   * Vous pouvez également modifier les périodes dans la vue Ventilation affichée ci-dessus de la même manière.
 
    * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **COMPARER À**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **Terminé** en haut à droite de l’écran. Le champ **Périodes** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
-7. Pour appliquer un filtre de segment à votre carte de performance, appuyez sur la liste déroulante de filtrage et sélectionnez un segment qui a été configuré par votre conservateur. [Les Filtres](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de l’application fonctionnent de la même manière que dans Analytics Workspace.
+7. Pour appliquer un filtre de segment à votre Fiche d’évaluation, appuyez sur le filtre déroulant et sélectionnez un segment qui a été configuré par votre curateur. Les [filtres](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de l’application fonctionnent de la même manière que dans Analytics Workspace.
 
    ![Filtre de segments](assets/segment_filter.png)
 
@@ -126,13 +128,13 @@ Pour utiliser les tableaux de bord :
 
 9. Pour faire part de vos commentaires sur cette application :
 
-   1. Appuyez sur l’icône des paramètres dans l’angle supérieur droit de l’écran de l’application.
-   2. On the **Settings** screen, tap the **Feedback** option.
+   1. Appuyez sur l’icône des paramètres en haut à droite de l’écran de l’application.
+   2. Sur l’écran **Paramètres**, appuyez sur l’option **Commentaires**.
    3. Appuyez pour afficher les options permettant de laisser un commentaire.
 
-      ![Ecran Paramètres](assets/settings.png)
+      ![Écran Paramètres](assets/settings.png)
 
-10. Pour modifier les préférences, appuyez sur l’option **Préférences** illustrée ci-dessus. Dans les préférences, vous pouvez activer la connexion biométrique ou définir l’application pour le mode foncé comme indiqué ci-dessous :
+10. Pour modifier les préférences, appuyez sur l’option **Préférences** affichée ci-dessus. Dans les préférences, vous pouvez activer la connexion biométrique ou définir l’application pour le mode sombre comme illustré ci-dessous :
 
    ![Mode sombre](assets/darkmode.png)
 
