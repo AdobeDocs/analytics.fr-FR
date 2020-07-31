@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -33,8 +33,8 @@ Nouvelles fonctionnalités au 18 juin 2020.
 | Projets Workspace en lecture seule | Les projets Workspace peuvent être partagés avec les utilisateurs en autorisant uniquement l’Affichage. Lorsqu’un destinataire Afficher ouvre le projet partagé, il bénéficie d’une expérience de projet plus restreinte, sans rail gauche et avec des interactions limitées. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Possibilité de modifier des projets Workspace avec d’autres personnes | Les destinataires ajoutés au rôle « Modifications autorisées » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Panneau vierge mis à jour | Le panneau vierge comprend désormais des panneaux et des visualisations, ce qui vous permet de choisir plus facilement le processus d’analyse le mieux adapté à vos besoins. |
-| Panneau Aperçu rapide (25 juin 2020) | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Panneau Analytics pour Cible dans Workspace (25 juin 2020) | Le panneau Analytics for Target (A4T) vous permet d’analyser en toute confiance vos activités et expériences Adobe Target dans Analysis Workspace. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Panneau Aperçu rapide (25 juin 2020) | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Panneau Analytics for Target dans Workspace (25 juin 2020) | Le panneau Analytics for Target (A4T) vous permet d’analyser en toute confiance vos activités et expériences Adobe Target dans Analysis Workspace. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | À propos de la page Workspace | La page À propos de Workspace fournit des informations sur votre environnement Analysis Workspace, sur vos administrateurs Adobe Analytics (si vous avez besoin d’assistance) et un moyen de fournir des commentaires sur les produits. Ces informations se trouvent sous Workspace > Aide > À propos de Workspace. |
 
 ## Mai 2020
@@ -43,7 +43,7 @@ Nouvelles fonctionnalités publiées le 21 mai 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Créer automatiquement des tableaux à structure libre à partir d’un état vide | Précédemment, vous ne pouviez pas déplacer des composants directement dans un projet ou un panneau vide, vous deviez d’abord ajouter un Tableau à structure libre. Vous pouvez désormais déplacer des composants directement dans un projet ou un panneau vide, ce qui entraînera alors la création pour vous d’un Tableau à structure libre au format recommandé. De plus, des améliorations ont été apportées à la manière dont les types de composants mixtes (par exemple, les dimensions et les mesures) sont traités lorsqu’ils sont déplacés simultanément dans un Tableau à structure libre. |
+| Création automatique des tableaux à structure libre à partir d’un état vide | Précédemment, vous ne pouviez pas déplacer des composants directement dans un projet ou un panneau vide, vous deviez d’abord ajouter un Tableau à structure libre. Vous pouvez désormais déplacer des composants directement dans un projet ou un panneau vide, ce qui entraînera alors la création pour vous d’un Tableau à structure libre au format recommandé. De plus, des améliorations ont été apportées à la manière dont les types de composants mixtes (par exemple, les dimensions et les mesures) sont traités lorsqu’ils sont déplacés simultanément dans un Tableau à structure libre. |
 | Améliorations de l’accessibilité | L’équipe Adobe Analytics a apporté plusieurs améliorations de l’accessibilité à Analysis Workspace, notamment une amélioration de la navigation au clavier, du contraste de la couleur et de la prise en charge des lecteurs d’écran. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## Avril 2020
@@ -52,7 +52,7 @@ Nouvelles fonctionnalités au 16 avril 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Automatically build [!UICONTROL Freeform Tables] from a blank state | Précédemment, vous ne pouviez pas déplacer des composants directement dans un projet ou un panneau vierge, vous deviez d’abord ajouter un tableau à structure libre. Vous pouvez désormais déplacer des composants directement dans un projet ou un panneau vierge, ce qui entraînera alors la création pour vous d’un tableau à structure libre au format recommandé. Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| Création automatique des [!UICONTROL tableaux à structure libre] à partir d’un état vide | Précédemment, vous ne pouviez pas déplacer des composants directement dans un projet ou un panneau vierge, vous deviez d’abord ajouter un tableau à structure libre. Vous pouvez désormais déplacer des composants directement dans un projet ou un panneau vierge, ce qui entraînera alors la création pour vous d’un tableau à structure libre au format recommandé. De plus, des améliorations ont été apportées à la manière dont les types de composants mixtes (par exemple, les dimensions et les mesures) sont traités lorsqu’ils sont déplacés simultanément dans un [!UICONTROL tableau à structure libre]. |
 
 ## Mars 2020
 
@@ -70,7 +70,7 @@ Nouvelles fonctionnalités au 20 février 2020.
 | Fonctionnalité | Description |
 |--- |--- |
 | Nouveau modèle Workspace pour les organisations qui utilisent Analytics sur plusieurs appareils | Ce modèle montre l’efficacité de la CDA pour regrouper les visites et vous informe sur les dimensions et les mesures exclusives à la CDA. Une suite de rapports utilisant CDA est requise. Voir [Configuration d’Analytics sur l’ensemble des appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-setup.html) pour plus d’informations. |
-| Nouvelles touches de raccourci dans Workspace | <ul><li>Réduire/Développer tous les panneaux : `alt + m`</li><li>Réduire/Développer le panneau actif : `alt + ctrl + m`</li><li>Rechercher dans le rail de gauche : `ctrl + /`</li><li>Accéder au panneau suivant : `alt + Right Key`</li><li>Accéder au panneau précédent : `alt + Left Key`</li></ul>[En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Nouvelles touches de raccourci dans Workspace | <ul><li>Réduire/Développer tous les panneaux : `alt + m`</li><li>Réduire/Développer le panneau actif : `alt + ctrl + m`</li><li>Rechercher dans le rail de gauche: `ctrl + /`</li><li>Accéder au panneau suivant : `alt + Right Key`</li><li>Accéder au panneau précédent : `alt + Left Key`</li></ul>[En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Autres optimisations apportées à Workspace | <ul><li>Lorsqu’un panneau ou une visualisation est déposé dans Workspace, le rail de gauche passera désormais automatiquement aux composants pour accélérer le processus.</li><li>Des actions sont maintenant disponibles pour les composants de modèle (par exemple, ils peuvent être balisés, marqués comme favoris ou approuvés).</li><li>Les listes de mesures et de segments filtrées proposent le bouton + pour ajouter un nouveau composant si vous ne trouvez pas ce dont vous avez besoin.</li></ul> |
 | Débogueur Workspace | Le débogueur Workspace a été ajouté au menu Aide, ce qui vous permet de l’activer plus facilement pour le débogage des requêtes Workspace. [En savoir plus...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -773,7 +773,7 @@ Nouvelles fonctionnalités au 8 juin 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Modifications du calendrier</a></b> </td> 
+   <td colname="col1"> Modifications du <b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >calendrier</a></b> </td> 
    <td colname="col2"> Modifications apportées au calendrier pour l’aligner sur le calendrier de Reports &amp; Analytics : 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">Le premier clic démarre une sélection de plage de dates. Mettez en surbrillance la période dans l’une ou l’autre direction puis cliquez pour sélectionner la fin de la plage de dates. Si vous maintenez la touche Maj enfoncée (ou faites un clic droit) lorsque vous cliquez sur la première date, celle-ci est ajoutée à la plage. </li> 
@@ -1141,11 +1141,9 @@ Ajout du bouton **[!UICONTROL Ajouter un nouveau segment]** à l’emplacement o
 
 ![](assets/add-new-segment.png)
 
-Ceci s’avère pratique si vous préférez créer des segments directement quand vous travaillez dans un projet, plutôt que d’utiliser le panneau [!UICONTROL Segment]. 
-      
-     
+Ceci s’avère pratique si vous préférez créer des segments directement quand vous travaillez dans un projet, plutôt que d’utiliser le panneau [!UICONTROL Segment].
 
-## Mise en forme conditionnelle  {#section_5775B505D83041408B8C3EAEC5D7C32B}
+## Mise en forme conditionnelle {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
 Dans les paramètres de colonne, vous pouvez appliquer une mise en forme conditionnelle aux données des cellules.
 
@@ -1185,7 +1183,7 @@ Dans le panneau du composant [!UICONTROL Dimension], vous pouvez placer le point
 
 ![](assets/dimension-preview.png)
 
-## Légende visible  {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Légende visible {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 Dans [!UICONTROL Paramètres de visualisation], l’option **[!UICONTROL Légende visible]** affiche ou masque la légende des visualisations.
 
