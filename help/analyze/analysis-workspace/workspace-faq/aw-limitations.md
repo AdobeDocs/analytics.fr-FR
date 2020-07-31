@@ -1,9 +1,9 @@
 ---
 description: 'Liste des limites connues d’Adobe Analysis Workspace et ses composants connexes :'
 title: Limites connues dans Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
 ht-degree: 100%
 
