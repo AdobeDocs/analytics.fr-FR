@@ -2,11 +2,11 @@
 description: L’histogramme est un nouveau type de visualisation d’Analysis Workspace.
 title: Histogramme
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour régler les paramètres de l’histogramme, cliquez sur l’icône d’engr
 | Intervalle de début | Détermine par quel intervalle commence l’histogramme. « 1 » par défaut. Peut être défini sur 0 à l’infini (aucun nombre négatif). |
 | Intervalles de mesures | Permet d’augmenter ou de réduire le nombre de classes de données (intervalles). Il ne peut pas y avoir plus de 50 intervalles. |
 | Taille de l’intervalle de mesures | Permet de définir la taille de chaque intervalle. Vous pouvez par exemple modifier la taille de l’intervalle d’une page vue à deux pages vues. |
-| Méthode de comptage | Lets you choose among [Visitor](/help/components/metrics/unique-visitors.md), [Visit](/help/components/metrics/visits.md), or [Hit Type](/help/components/dimensions/hit-type.md). Par exemple, pages vues par visite ou pages vues par visiteur ou pages vues par accès. Pour l’accès, la mesure « Occurrences » est utilisée comme mesure de l’axe Y dans un tableau à structure libre. |
+| Méthode de comptage | Permet de choisir parmi [Visiteur](/help/components/metrics/unique-visitors.md), [Visite](/help/components/metrics/visits.md) ou [Type d’accès](/help/components/dimensions/hit-type.md). Par exemple, pages vues par visite ou pages vues par visiteur ou pages vues par accès. Pour l’accès, la mesure « Occurrences » est utilisée comme mesure de l’axe Y dans un tableau à structure libre. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
