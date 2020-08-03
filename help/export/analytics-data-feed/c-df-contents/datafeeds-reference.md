@@ -6,10 +6,10 @@ title: Référence des colonnes de données
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
+source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3674'
+ht-degree: 96%
 
 ---
 
@@ -84,7 +84,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `geo_region` | Nom de l’état ou de la région d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et l’état/la région. | char(32) |
 | `geo_zip` | Le code postal d’origine de l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le code postal. | varchar(16) |
 | `hier1 - hier5` | Utilisé par les variables de hiérarchie. Contient une liste de valeurs délimitée. Le délimiteur est sélectionné dans les paramètres de la suite de rapports. | varchar(255) |
-| `hit_source` | Indique la source de l’accès. Les sources d’accès 0, 1, 2 et 6 sont facturées. <br>1 : Demande d’image standard sans horodatage <br>2 : Demande d’image standard avec horodatage <br>3 : Chargement de la source de données en direct avec horodatages <br>4 : Non utilisé <br>5 : Transfert de source de données générique <br>6 : Transfert de source de données à traitement complet <br>7 : Transfert de la source de données TransactionID <br>8 : Plus utilisé ; Versions précédentes des sources de données Adobe Advertising Cloud <br>9 : Plus utilisé ; Mesures récapitulatives Adobe Social <br>10 : Audience Manager de transfert côté serveur utilisée | tinyint sans signe |
+| `hit_source` | Indique la source de l’accès. Les sources d’accès 1, 2 et 6 sont facturées. <br>1 : Demande d’image standard sans horodatage <br>2 : Demande d’image standard avec horodatage <br>3 : Chargement de la source de données en direct avec horodatages <br>4 : Non utilisé <br>5 : Transfert de source de données générique <br>6 : Transfert de source de données à traitement complet <br>7 : Transfert de la source de données TransactionID <br>8 : Plus utilisé ; Versions précédentes des sources de données Adobe Advertising Cloud <br>9 : Plus utilisé ; Mesures récapitulatives Adobe Social <br>10 : Audience Manager de transfert côté serveur utilisée | tinyint sans signe |
 | `hit_time_gmt` | L’horodatage des serveurs de collecte de données Adobe ayant reçu l’accès, basé sur l’heure Unix. | int |
 | `hitid_high` | Utilisée en combinaison avec hitid_low pour identifier de manière unique un accès. | bigint sans signe |
 | `hitid_low` | Utilisée en combinaison avec hitid_high pour identifier de manière unique un accès. | bigint sans signe |
