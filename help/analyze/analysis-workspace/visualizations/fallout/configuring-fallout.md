@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Configuration d’une visualisation Abandons
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ Il n’existe aucune restriction quant au nombre d’étapes pouvant être ajout
 
 Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars de marchandisage et les [listVars](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html) (variables pouvant avoir plusieurs valeurs par accès, tels les produits, listVars, les eVars de marchandisage et les props de liste). Supposons par exemple qu’un visiteur consulte sur une page la séquence chaussures, chemise puis, sur la page suivante, la séquence chemise, chaussettes. Le prochain rapport de flux de produits généré à partir des chaussures portera sur chemise et chaussettes, SAUF chemise.
 
-1. Faites glisser une visualisation [!UICONTROL Fallout] depuis la liste déroulante Visualisations vers un [!UICONTROL Freeform Table].
+1. Faites glisser une visualisation [!UICONTROL Abandons] de la liste déroulante des visualisations dans un [!UICONTROL tableau à structure libre].
 
-1. Faites glisser la dimension Page dans le tableau à structure libre puis, de là, faites glisser une page (dans ce cas, Home - JJEsquire) sur le champ **[!UICONTROL Add TouchPoint]** comme premier point de contact.
+1. Faites glisser la dimension Page dans le tableau à structure libre puis, de là, faites glisser une page (dans ce cas, Home - JJEsquire) sur le champ **[!UICONTROL Ajouter un point de contact]** comme premier point de contact.
 
    ![](assets/fallout1.png)
 
@@ -62,7 +65,6 @@ Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars 
 | Paramètre | Description |
 |--- |--- |
 | Conteneur d’abandons <ul><li>Visite</li><li>Visiteur</li></ul> | Permet de basculer entre Visite et Visiteur afin d’analyser le cheminement du visiteur. La valeur par défaut est Visiteur.  Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
-| Afficher « Tous les visiteurs » comme premier point de contact | Désactivez cette option si vous ne souhaitez pas que « Tous les visiteurs » soit le premier point de contact. |
 
 Lorsque vous **cliquez avec le bouton droit de la souris sur un point de contact**, les options suivantes s’affichent :
 
