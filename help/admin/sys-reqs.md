@@ -1,9 +1,9 @@
 ---
 title: Configuration requise
 description: Configuration requise pour l’utilisation d’Adobe Analytics.
-translation-type: ht
-source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
 
@@ -23,7 +23,9 @@ La plupart des solutions Adobe Analytics, y compris Analysis Workspace, sont bas
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE] Le 13 novembre 2018, Adobe a arrêté la prise en charge de Microsoft Internet Explorer 11 dans Adobe Analytics.
+>[!NOTE]
+>
+>Le 13 novembre 2018, Adobe a arrêté la prise en charge de Microsoft Internet Explorer 11 dans Adobe Analytics.
 
 ## Configuration requise pour les solutions hors navigateur
 
