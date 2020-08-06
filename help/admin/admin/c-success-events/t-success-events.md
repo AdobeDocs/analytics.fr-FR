@@ -3,9 +3,9 @@ description: Cette procédure décrit la configuration d’événements de succ�
 title: Configurer des événements de succès
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
-source-git-commit: 0df5a32a0cb0e38692e973f26b39e7a846225b12
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -25,7 +25,9 @@ Cette procédure décrit la configuration d’événements de succès.
 1. Dans la colonne **[!UICONTROL Nom]**, cochez la case en regard de chaque élément pour activer l’édition, puis indiquez le nom de votre choix.
 1. Dans la colonne **[!UICONTROL Type]**, cochez la case en regard de chaque élément pour activer la liste déroulante, puis sélectionnez le type de votre choix.
 
-   >[!NOTE] Avant de modifier un type d’événement, voir [Modifier le type d’événement](/help/admin/admin/c-success-events/event-type.md).
+   >[!NOTE]
+   >
+   >Avant de modifier un type d’événement, voir [Modifier le type d’événement](/help/admin/admin/c-success-events/event-type.md).
 
    Pour plus d’informations sur ces éléments, reportez-vous à la section [Page Événements de succès – Descriptions](/help/admin/admin/c-success-events/success-event.md).
 
@@ -37,7 +39,9 @@ Cette procédure décrit la configuration d’événements de succès.
 1. Vérifiez si l’événement doit être toujours enregistré.
 1. Activez ou désactivez les mesures de participation.
 
-   >[!NOTE] Vous pouvez activer la participation pour 100 événements personnalisés au maximum. De plus, vous pouvez créer des mesures de participation dans le créateur de [mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md).
+   >[!NOTE]
+   >
+   >Vous pouvez activer la participation pour 100 événements personnalisés au maximum. De plus, vous pouvez créer des mesures de participation dans le créateur de [mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
