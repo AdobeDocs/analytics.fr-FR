@@ -2,7 +2,7 @@
 title: Graphique du périphérique
 description: Comprendre les conditions préalables et les limites de l’assemblage de données à l’aide du graphique de périphérique.
 translation-type: tm+mt
-source-git-commit: eb2bee26dd58dcff13b4ddf41c6f6ab337d8d374
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 41%
@@ -12,20 +12,22 @@ ht-degree: 41%
 
 # Graphique du périphérique
 
-L’Analytics sur plusieurs périphériques fournit deux méthodes distinctes pour assembler les données. Cette méthode utilise le graphique coopératif Adobe Experience Platform Identity Service ou le graphique privé pour assembler les données. CDA communique régulièrement avec le graphique de l&#39;appareil pour relier les appareils.
+Analytics sur plusieurs périphériques fournit deux méthodes distinctes pour assembler les données. Cette méthode utilise le graphique coopératif Adobe Experience Platform Identity Service ou le graphique privé pour assembler les données. CDA communique régulièrement avec le graphique de l&#39;appareil pour relier les appareils.
 
 ## Différences entre graphique coopératif et graphique privé
 
-Adobe offre deux types de graphiques de périphériques dans le cadre du service d’ID :
+Adobe offre deux types de graphiques de périphérique dans le cadre du service d’ID :
 
 * **Graphique** coopératif : Référentiel des ID de périphérique hachés auquel tout client peut contribuer et référencer. Comme ce type de graphique de périphérique est collaboratif, il correspond généralement à plus de périphériques qu’un graphique privé.
 * **Graphique** privé : Référentiel des ID de périphérique hachés auxquels seule votre organisation fait référence.
 
 ## Conditions préalables spécifiques au graphique du périphérique
 
-Si vous prévoyez d’implémenter l’Analytics sur plusieurs périphériques à l’aide de la méthode de graphique de périphérique, les éléments suivants sont requis. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
+Si vous avez l’intention de mettre en oeuvre Analytics sur plusieurs périphériques à l’aide de la méthode de graphique des périphériques, les éléments suivants sont requis. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
 
->[!IMPORTANT] Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
+>[!IMPORTANT]
+>
+>Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
 * Toutes les conditions préalables sont répertoriées dans la page [](overview.md)d’aperçu.
 * Votre entreprise doit utiliser le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform. Consultez la [page d’accueil](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html) du guide de l’utilisateur Device Co-op.
