@@ -2,10 +2,10 @@
 title: Création d’une propriété Analytics dans Launch
 description: Créez un espace pour personnaliser la manière dont les données sont collectées à l’aide d’Adobe Experience Platform Launch.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -36,18 +36,21 @@ Les propriétés sont des conteneurs principaux que vous utilisez pour gérer le
 Les éléments de données sont des références à des composants spécifiques de votre site pour collecter des valeurs de variable.
 
 1. Accédez à [launch.adobe.com](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
-2. Cliquez sur la propriété Launch que vous prévoyez de mettre en œuvre sur votre site.
-3. Cliquez sur l’onglet Eléments de données, puis sur Créer un élément de données.
-4. Définissez les paramètres suivants pour l’élément de données :
+1. Cliquez sur la propriété Launch que vous prévoyez de mettre en œuvre sur votre site.
+1. Cliquez sur l’onglet Eléments de données, puis sur Créer un élément de données.
+1. Définissez les paramètres suivants pour l’élément de données :
+
    * Nom : nom de la page
    * Extension : Core
    * Type d’élément de données : variable JavaScript
    * Chemin d’accès à la variable : `window.document.title`
 
-      >[!NOTE] Remarque : il s’agit d’un exemple de valeur pour faciliter le démarrage. Si votre organisation définit une meilleure valeur pour le nom de la page, telle qu’une valeur de couche de données, vous pouvez la saisir ici.
+      >[!NOTE]
+      >
+      >Il s’agit d’une valeur d’exemple pour aider à démarrer. Si votre organisation définit une meilleure valeur pour le nom de la page, telle qu’une valeur de couche de données, vous pouvez la saisir ici.
    * Texte clair coché
    * Durée : Pageview
-5. Cliquez sur Enregistrer.
+1. Cliquez sur Enregistrer.
 
 ## Création de règles pour Adobe Analytics
 
