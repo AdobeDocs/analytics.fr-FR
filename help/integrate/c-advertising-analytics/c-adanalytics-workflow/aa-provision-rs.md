@@ -3,7 +3,7 @@ description: valeur nulle
 title: Activation de la suite de rapports pour Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
@@ -23,7 +23,9 @@ Afin d’afficher toutes les données de recherche Advertising Analytics dans An
 
    ![Création de rapports](assets/aa_reporting.png)
 
-   >[!IMPORTANT] AMO ID renvoie à la variable Adobe Advertising Cloud dans laquelle les données de recherche seront insérées.
+   >[!IMPORTANT]
+   >
+   >AMO ID renvoie à la variable Adobe Advertising Cloud dans laquelle les données de recherche seront insérées.
 
 1. Définissez la variable d’attribution et d’expiration que la variable AMO ID doit utiliser. Les variables de conversion (eVars) permettent à Adobe Analytics d’affecter des événements de succès à des valeurs de variables spécifiques. Parfois, les variables rencontrent plusieurs valeurs avant d’accéder à un événement de succès. Dans ce cas, l’affectation détermine la valeur de variable qui obtient un crédit pour l’événement.
 
