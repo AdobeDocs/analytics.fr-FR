@@ -2,7 +2,7 @@
 title: Configuration d’Analytics sur plusieurs périphériques
 description: Configurez une suite de rapports virtuelle pour activer CDA.
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 91%
@@ -14,7 +14,9 @@ ht-degree: 91%
 
 Une fois toutes les conditions préalables remplies, procédez comme suit pour activer les analyses entre appareils. Vous devez appartenir à un groupe d’administrateurs de profil de produit ou disposer de droits d’administrateur dans Adobe Analytics pour suivre cette procédure.
 
->[!IMPORTANT] Toutes les conditions préalables doivent être remplies avant de suivre cette procédure. Si toutes les conditions préalables ne sont pas remplies, la fonction n’est pas disponible ou ne fonctionne pas. Pour connaître les conditions préalables et les limites, consultez la page [](overview.md) d’aperçu et la méthode d’assemblage souhaitée (graphique[](field-based-stitching.md) [](device-graph.md)Périphérique ou graphique basé sur les champs).
+>[!IMPORTANT]
+>
+>Toutes les conditions préalables doivent être remplies avant de suivre cette procédure. Si toutes les conditions préalables ne sont pas remplies, la fonction n’est pas disponible ou ne fonctionne pas. Pour connaître les conditions préalables et les limites, consultez la page [](overview.md) d’aperçu et la méthode d’assemblage souhaitée (graphique[](field-based-stitching.md) [](device-graph.md)Périphérique ou graphique basé sur les champs).
 
 ## Choisissez la suite de rapports entre appareils qui sera activée pour les analyses entre appareils.
 
