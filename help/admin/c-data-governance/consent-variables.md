@@ -3,7 +3,7 @@ description: Variables pour la création de rapports de confidentialité dans la
 title: Variables de création de rapports de confidentialité
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
@@ -45,7 +45,9 @@ Chaque suite de rapports peut être configurée comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Activer les rapports de confidentialité des données]**.
 
-   >[!NOTE] Une fois activées, ces variables ne peuvent pas être désactivées.
+   >[!NOTE]
+   >
+   >Une fois activées, ces variables ne peuvent pas être désactivées.
 
    ![](assets/rsm-privacy-enable.png)
 
