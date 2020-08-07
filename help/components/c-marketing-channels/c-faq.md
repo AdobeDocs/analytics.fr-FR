@@ -2,10 +2,10 @@
 title: FAQ sur les Canaux marketing
 description: Questions fréquentes sur les canaux marketing.
 translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 49%
+source-wordcount: '1465'
+ht-degree: 52%
 
 ---
 
@@ -75,7 +75,7 @@ Ce type de règle « fourre-tout » permet de s’assurer que le trafic des ca
 
 ## Raisons de l’interne (actualisation de session) {#internal}
 
-L’actualisation de la session Dernière touche ne peut avoir lieu que si elle a également été la première touche - voir &quot;Relation entre la première et la dernière touche&quot; ci-dessus. Les scénarios ci-dessous expliquent comment l’actualisation de session peut être un canal Première touche.
+L’option Dernière touche interne (actualisation de la session) ne peut se produire que si elle était également la première touche - voir &quot;Relation entre la première et la dernière touche&quot; ci-dessus. Les scénarios ci-dessous expliquent comment l’actualisation de session peut être un canal Première touche.
 
 * **Délai d’expiration** de la session : Un visiteur se rend sur le site Web, puis laisse l’onglet ouvert dans son navigateur pour l’utiliser ultérieurement. La période d’engagement du visiteur expire (ou bien il supprime volontairement ses cookies) et il utilise l’onglet ouvert pour se rendre à nouveau sur le site Web. L’URL de référence étant un domaine interne, la visite est classée comme Actualisation de session.
 
@@ -85,9 +85,15 @@ L’actualisation de la session Dernière touche ne peut avoir lieu que si elle 
 
 * **Trafic** inter-domaines : Un visiteur passe d’un domaine qui se déclenche à la suite A, à un second domaine qui se déclenche à la suite B. Si, dans la Suite B, les filtres d’URL internes incluent le premier domaine, la visite dans la Suite B est enregistrée comme interne, puisque les Canaux marketing considèrent qu’il s’agit d’une nouvelle visite dans la deuxième suite. La visite sera classée comme Actualisation de session.
 
-( **Long entry-page load times**: A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Avant que tout le contenu (y compris la demande d’images Adobe Analytics) puisse être chargé, le visiteur clique sur la page B. La page B déclenche sa demande d’images Adobe Analytics. Comme la demande d’images de la page A n’a jamais abouti, la deuxième page apparaît comme le premier accès de la visite dans Adobe Analytics, avec la page A comme référent. La visite est classée comme Actualisation de session.
+* **Délais** de chargement des pages d&#39;entrée longs : Un visiteur arrive sur la page A, qui contient beaucoup de contenu, et le code Adobe Analytics se trouve au bas de la page. Avant que tout le contenu (y compris la demande d’images Adobe Analytics) puisse être chargé, le visiteur clique sur la page B. La page B déclenche sa demande d’images Adobe Analytics. Comme la demande d’images de la page A n’a jamais abouti, la deuxième page apparaît comme le premier accès de la visite dans Adobe Analytics, avec la page A comme référent. La visite est classée comme Actualisation de session.
 
 * **Effacement des cookies au milieu du site**: Un visiteur se rend sur le site et efface les cookies en milieu de session. Les canaux Première touche et Dernière touche seront réinitialisés et la visite sera classée comme Actualisation de session (car le référent est interne).
+
+Voici un exemple de canal interne (actualisation de session) défini comme premier et dernier  tactile :
+
+* Jour 1 : l’utilisateur accède au site par le biais de l’Affichage. Les canaux Première touche et Dernière touche seront définis sur Affichage.
+* Jour 2 : l’utilisateur se rend sur le site par le biais d’une Recherche naturelle. La première touche reste sur Affichage et la dernière touche est définie sur Recherche naturelle.
+* Jour 35 : l’utilisateur ne s’est pas rendu sur le site depuis 33 jours et y retourne en utilisant l’onglet qu’il a ouvert dans son navigateur. En supposant une fenêtre d’engagement de 30 jours, la fenêtre se serait fermée et les cookies Marketing Channel auraient expiré. Les canaux Première touche et Dernière touche seront réinitialisés et seront définis sur Actualisation de session puisque l’utilisateur provient d’une URL interne.
 
 ## Pourquoi certains canaux restent-ils inchangés après avoir modifié les règles de traitement du canal marketing ?
 
