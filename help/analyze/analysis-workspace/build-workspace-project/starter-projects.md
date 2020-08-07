@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de 
 
 ### Journey IQ : Modèle d’analyse entre appareils
 
-<!-->This content is mirrored in the CDA doc.<-->
+<!--This content is mirrored in the CDA doc.-->
 
 Ce modèle vous permet de visualiser des données de performances cruciales entre appareils. Il est disponible uniquement pour les clients qui ont accès à [l’Analyse entre appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-home.html) (CDA).
 
