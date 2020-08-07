@@ -2,10 +2,10 @@
 description: Vous pouvez télécharger des projets enregistrés et non enregistrés au format PDF ou CSV.
 title: Téléchargement de fichiers PDF ou CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
-workflow-type: ht
-source-wordcount: '363'
+translation-type: tm+mt
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,6 @@ Le 11 avril 2019, plusieurs modifications ont été apportées aux **[!UICONTR
 * Si un nombre n’est pas valide, une cellule vide s’affiche.
 * Aucun arrondissement n’est appliqué (même s’il est spécifié dans la mesure calculée), les valeurs brutes sont indiquées.
 
->[!NRemarque] :
+>[!NOTE]
 >
-> les valeurs numériques qui utilisent une virgule comme séparateur décimal continuent à être placées entre guillemets dans le fichier CSV exporté.
+>les valeurs numériques qui utilisent une virgule comme séparateur décimal continuent à être placées entre guillemets dans le fichier CSV exporté.
