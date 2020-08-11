@@ -1,50 +1,24 @@
 ---
-description: Vous pouvez partager et traiter des projets, et envoyer immédiatement ou programmer l’envoi de fichiers de projet (au format PDF ou CSV).
+description: Vous pouvez organiser, partager et planifier des projets PDF/CSV pour les destinataires de votre organisation.
 title: Menu Partager
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: ht
-source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 63efd2f046ac43640a9dd0fe2b3ee9fa3f182a8f
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 32%
 
 ---
 
 
 # Menu Partager
 
-Vous pouvez partager et traiter des projets, et envoyer immédiatement ou programmer l’envoi de fichiers de projet (au format PDF ou CSV).
+Vous pouvez traiter, partager et planifier des projets PDF/CSV en destinataires dans votre organisation dans le menu **** Partager de Workspace.
 
-**[!UICONTROL Espace de travail]** > **[!UICONTROL Partager]**
-
-<table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Option </th> 
-   <th colname="col2" class="entry"> Comment </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Partager le projet </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > Informations supplémentaires</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Obtenir le lien du projet </td> 
-   <td colname="col2"> <p>Copiez et partagez le lien pour permettre à d’autres personnes d’accéder directement à ce projet. Les utilisateurs devront se connecter. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Envoyer le fichier maintenant </td> 
-   <td colname="col2"> <p>Précisez le type de fichier, la description et les destinataires. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Envoyer le fichier selon le calendrier </td> 
-   <td colname="col2"> <p>Précisez la date de début, l’intervalle et la fréquence, puis la date de fin. <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > Informations supplémentaires</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Traiter les données du projet </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Informations supplémentaires</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Option de menu | Description |
+|---|---|
+| Partager le projet | Mettez un projet à la disposition d’autres utilisateurs Analysis Workspace de votre entreprise. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Obtenir le lien du projet | Créez un lien partageable pour accéder rapidement à un projet. Les utilisateurs devront se connecter. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) |
+| Envoyer le fichier maintenant | Envoyez immédiatement un projet au format CSV ou PDF à des destinataires spécifiés. |
+| Envoyer le fichier selon le calendrier | Envoyez un projet au format CSV ou PDF selon une planification à des destinataires spécifiés. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) |
+| Traiter les données du projet | Limitez les composants (dimensions, mesures, segments, plages de dates) disponibles dans un projet. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.html) |
