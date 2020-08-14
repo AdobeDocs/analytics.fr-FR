@@ -5,9 +5,9 @@ user-guide-title: Guide sur les outils Analytics
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 07652c76120fae6b3e7b10bbe55b84a9cfe8b8c7
+source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 99%
    + Création d’un projet Workspace {#build-workspace-project}
       + [Aperçu de la création d’un projet](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Création d’un projet Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
+      + [Enregistrer des projets](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modèles](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Suites de rapports multiples dans Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + Paramètres des colonnes et des lignes {#column-row-settings}
