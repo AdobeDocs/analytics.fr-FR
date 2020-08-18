@@ -5,10 +5,10 @@ title: À propos des sous-classifications
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Analytics prend en charge les modèles de classifications à un seul nive
 
 >[!NOTE]
 >
->Une sous-classification fait référence à la possibilité de créer des classifications de classification. Toutefois, il ne s’agit pas de la même [!UICONTROL hiérarchie de classification] que celle utilisée pour créer des rapports de [!UICONTROL hiérarchie]. Pour plus d’informations sur les hiérarchies de classification, voir [Hiérarchies de classification](classification-hierarchies.md).
+>Une sous-classification fait référence à la possibilité de créer des classifications de classification. Toutefois, il ne s’agit pas de la même [!UICONTROL hiérarchie de classification] que celle utilisée pour créer des rapports de [!UICONTROL hiérarchie]. Pour plus d’informations sur les hiérarchies de classification, voir [Hiérarchies de classification](/help/admin/admin/conversion-var-admin/classification-hierarchies.md).
 
 Par exemple :
 
@@ -38,7 +38,7 @@ Les classifications à plusieurs niveaux comprennent les classifications parente
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique (Voir  [Classifications à niveau unique](/help/components/classifications/c-sub-classifications.md)).
+**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent aux classifications à niveau unique.
 
 **Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications filles fournissent des informations supplémentaires sur leur classification parente. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification fille de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
 
@@ -50,7 +50,7 @@ Pour plus d’informations sur le format de fichier de données, voir [Fichiers 
 
 Par exemple :
 
-| CLÉ | PROPRIÉTÉ 1 | Property 1&amp;Hat;Property 1-1 | Property 1&amp;Hat;Property 1-2 | Propriété 2 |
+| CLÉ | PROPRIÉTÉ 1 | Propriété 1^Propriété 1-1 | Propriété 1^Propriété 1-2 | Propriété 2 |
 |---|---|---|---|---|
 | 123 | ABC | Vert | Petit | A12B |
 | 456 | DEF | Rouge | Grand | C3D4 |
@@ -61,20 +61,19 @@ Bien que le modèle de fichier d’une classification à plusieurs niveaux soit 
 >
 >Si la colonne [!UICONTROL Clé] d’un fichier de données est laissée vide, Adobe génère automatiquement des clés uniques pour chaque ligne de données. Pour éviter toute corruption de fichier lors du chargement d’un fichier de données avec des données de classification de deuxième niveau ou de niveau supérieur, ajoutez un astérisque (*) à chaque ligne de la colonne [!UICONTROL Clé].
 
-Pour plus d’informations sur la résolution des problèmes, reportez-vous à la section [Problèmes de téléchargement de classifications courants](https://helpx.adobe.com/fr/analytics/kb/common-saint-upload-issues.html).
-
 ## Exemples
 
 ![](assets/sample-product-classifications.png)
 
 >[!NOTE]
- Les données de classification de produit sont limitées aux attributs de données correspondant directement au produit, et non à la manière dont les produits sont classés ou vendus sur le site web. Les éléments de données tels que les catégories de vente, les nœuds de navigateur du site ou les articles en vente ne sont pas des données de classification de produit. Ces éléments sont capturés dans des variables de conversion de rapport.
+>
+> Les données de classification de produit sont limitées aux attributs de données correspondant directement au produit, et non à la manière dont les produits sont classés ou vendus sur le site web. Les éléments de données tels que les catégories de vente, les nœuds de navigateur du site ou les articles en vente ne sont pas des données de classification de produit. Ces éléments sont capturés dans des variables de conversion de rapport.
 
-Lors du téléchargement de fichiers de données pour cette classification de produit, vous pouvez télécharger les données de classification sous la forme d’un ou de plusieurs fichiers (vois ci-dessous). En séparant le code couleur du fichier 1 et le nom de la couleur dans le fichier 2, les informations concernant le nom de la couleur (qui peuvent n’occuper que quelques lignes) ne doivent être mises à jour que lors de la création de nouveaux codes couleur. Cela a pour effet d’éliminer le champ du nom de la couleur (CODE&amp;Hat;COLOR) du fichier 1, qui est mis à jour plus souvent, et de réduire la complexité et la taille du fichier lors de la création du fichier de données.
+Lors du téléchargement de fichiers de données pour cette classification de produit, vous pouvez télécharger les données de classification sous la forme d’un ou de plusieurs fichiers (vois ci-dessous). En séparant le code couleur du fichier 1 et le nom de la couleur dans le fichier 2, les informations concernant le nom de la couleur (qui peuvent n’occuper que quelques lignes) ne doivent être mises à jour que lors de la création de nouveaux codes couleur. Cela a pour effet d’éliminer le champ du nom de la couleur (CODE^COLOR) du fichier 1, qui est mis à jour plus souvent, et de réduire la complexité et la taille du fichier lors de la création du fichier de données.
 
 ### Classification de produit - fichier unique {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-| CLÉ | NOM DU PRODUIT | DÉTAILS DU PRODUIT | GENDER | TAILLE | CODE | CODE&amp;Hat;COLOR |
+| CLÉ | NOM DU PRODUIT | DÉTAILS DU PRODUIT | GENDER | TAILLE | CODE | CODE^COULEUR |
 |---|---|---|---|---|---|---|
 | 410390013 | Polo-MC | Polo homme, manches courtes (M,01) | M | M | 01 | Gris |
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 | Bruyère |
@@ -90,7 +89,7 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 
 ### Classification de produit - plusieurs fichiers (fichier 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
-| CLÉ | CODE | CODE&amp;Hat;COLOR |
+| CLÉ | CODE | CODE^COULEUR |
 |---|---|---|
 | * | 01 | Gris |
 | * | 03 | Bruyère |
