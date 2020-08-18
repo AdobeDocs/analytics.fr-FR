@@ -1,19 +1,16 @@
 ---
-description: Une classification est une méthode permettant de catégoriser des données de variables Analytics, puis de les afficher de différentes manières lors de la création de rapports.
-subtopic: Classifications
-title: À propos des classifications
-topic: Admin tools
-uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
+title: Présentation des classifications
+description: Personnalisez le regroupement des éléments de dimension.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 98%
 
 ---
 
 
-# À propos des classifications
+# Présentation des classifications
 
 Une classification est une méthode permettant de catégoriser des données de variables Analytics, puis de les afficher de différentes manières lors de la création de rapports.
 
@@ -27,17 +24,9 @@ Lors de la classification, vous établissez une relation entre la variable et le
 
 Une fois classifié, tout rapport pouvant être généré en utilisant la variable clé peut aussi l’être en utilisant les attributs associés. Par exemple, il est possible de classer les [!UICONTROL ID de produits] avec des attributs de produit supplémentaires, tels que le nom, la couleur, la taille, la description et la référence du produit. Enrichir les données de rapports et analyses avec des attributs supplémentaires vous permet de disposer de rapports plus approfondis et complexes.
 
->[!IMPORTANT]
->
->La possibilité d’importer des classifications numériques 2 et des classifications activées par date a été supprimée du code base. Cette modification prendra effet lors de la version de maintenance de juin 2019. S’il y a des colonnes numériques ou des colonnes activées par date dans le fichier d’importation, ces cellules seront ignorées et les autres données de ce fichier seront importées normalement. Les classifications existantes peuvent toujours être exportées par le biais du workflow de classification standard et sont toujours disponibles dans les rapports.
-
->[!NOTE]
->
->Dans la version de maintenance du 10 mai 2018 d’Analytics, Adobe a commencé à limiter les fonctionnalités des classifications activées par date et numériques. Ces types de classifications ont été supprimés des interfaces Administration et Importateur de classifications. Il n’est plus possible d’ajouter de nouvelles classifications numériques et activées par date. Il sera possible de continuer à gérer les classifications actuelles (les transférer, les supprimer) par l’intermédiaire des processus de classification standard et elles resteront disponibles dans le reporting.
-
 Après avoir créé les classifications, vous pouvez exploiter les nouveaux attributs de données dans Adobe Analytics.
 
-**Exemples de codes de suivi**
+## Exemples de codes de suivi
 
 Supposons qu’au lieu de visualiser des campagnes sur la seule base du code de suivi, vous souhaitiez afficher les résultats de campagne par Moteur de recherche, Mot-clé ou Canal de campagne. Plutôt que de consacrer des variables de conversion à chacun de ces éléments, vous pouvez créer trois classifications de la variable de campagne afin de représenter Moteur de recherche, Mot-clé ou Canal de campagne. Cette stratégie vous permet d’afficher les événements de succès du site selon les quatre variables, sans aucun balisage supplémentaire.
 
