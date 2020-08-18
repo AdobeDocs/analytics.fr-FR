@@ -2,7 +2,7 @@
 title: Rapports d’acquisition dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur l’acquisition à l’aide d’Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -80,7 +80,7 @@ La fonction d’analyse des publicités nécessite d’être configurée pour re
 
 Les rapports sur les réseaux sociaux fournissent des informations similaires aux rapports sur le comportement, pour ce qui est des réseaux sociaux. Ces données sont disponibles dans Analysis Workspace en combinant une dimension à un segment.
 
-Il arrive que des visiteurs arrivent sur votre site par le biais de plusieurs canaux au cours de la même session. Par exemple, un visiteur clique sur une page d’un réseau social, puis, quelques minutes plus tard, passe par un moteur de recherche pour accéder à votre site. Dans ce cas, des domaines qui ne correspondent pas à des réseaux sociaux peuvent apparaître dans ce rapport. Si vous souhaitez exclure des domaines qui ne correspondent pas à des réseaux sociaux, triez le rapport par visites ou créez une copie du segment en fonction des accès et non des visites. Pour plus d’informations, voir [Conteneurs et segmentation](/help/components/c-segmentation/seg-overview.md) dans le guide d’utilisation des composants.
+Il arrive que des visiteurs arrivent sur votre site par le biais de plusieurs canaux au cours de la même session. Par exemple, un visiteur clique sur une page d’un réseau social, puis, quelques minutes plus tard, passe par un moteur de recherche pour accéder à votre site. Dans ce cas, des domaines qui ne correspondent pas à des réseaux sociaux peuvent apparaître dans ce rapport. Si vous souhaitez exclure des domaines qui ne correspondent pas à des réseaux sociaux, triez le rapport par visites ou créez une copie du segment en fonction des accès et non des visites. Pour plus d’informations, voir [Conteneurs et segmentation](/help/components/segmentation/seg-overview.md) dans le guide d’utilisation des composants.
 
 ### Réseaux sociaux - Références réseau
 
@@ -112,7 +112,7 @@ Le rapport Flux d’utilisateurs affiche les données de cheminement dans le con
 
 1. Cliquez sur l’icône Visualisations à gauche, puis faites glisser une visualisation de flux sur l’espace de travail situé au-dessus du tableau à structure libre.
 2. Cliquez sur l’icône Composants à gauche, puis faites glisser le segment **Visites issues des sites sociaux** sur la petite zone de tableau à structure libre intitulée « Déposer un segment ici ».
-3. Recherchez la dimension **Pages**, puis cliquez sur l’icône en forme de flèche pour afficher les valeurs de page. Les éléments de dimension sont de couleur jaune.
+3. Recherchez la dimension **Pages**, puis cliquez sur l’icône en forme de flèche pour afficher les valeurs de page. Les éléments de Dimension sont de couleur jaune.
 4. Recherchez la valeur de page de votre choix et faites-la glisser sur l’espace « Dimension ou élément » au centre.
 5. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire des colonnes. Il est également possible d’utiliser différentes dimensions dans le même rapport de flux.
 
