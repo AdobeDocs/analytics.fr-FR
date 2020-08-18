@@ -4,7 +4,7 @@ title: Data Warehouse - Aperçu
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
@@ -57,7 +57,7 @@ Ce tableau décrit les champs et options de l’onglet [!UICONTROL Demande Data 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Segments disponibles</span> </td> 
-   <td colname="col2"> <p>Permet de sélectionner la population de visiteurs que vous souhaitez étudier et de générer des segments complexes. Vous pouvez charger des segments préconfigurés, créer des segments et stocker les composants de segments dans une bibliothèque afin de les utiliser pour générer des segments supplémentaires. </p> <p>Vous pouvez désormais empiler les segments. Lors de la sélection de plusieurs segments, la zone d’aperçu, le Gestionnaire de requêtes et la fenêtre contextuelle Détail de la demande affichent une liste des noms séparés par des virgules (Segment1, Segment2, par exemple). </p> <p>Pour plus d’informations, consultez le <a href="/help/components/c-segmentation/seg-home.md"> Guide de segmentation</a>. </p> <p>Remarque : vous ne pouvez pas inclure un filtre de segment et une ventilation sur un même segment dans un même rapport Data Warehouse. Sinon, une erreur se produira. </p> </td> 
+   <td colname="col2"> <p>Permet de sélectionner la population de visiteurs que vous souhaitez étudier et de générer des segments complexes. Vous pouvez charger des segments préconfigurés, créer des segments et stocker les composants de segments dans une bibliothèque afin de les utiliser pour générer des segments supplémentaires. </p> <p>Vous pouvez désormais empiler les segments. Lors de la sélection de plusieurs segments, la zone d’aperçu, le Gestionnaire de requêtes et la fenêtre contextuelle Détail de la demande affichent une liste des noms séparés par des virgules (Segment1, Segment2, par exemple). </p> <p>Pour plus d’informations, consultez le <a href="/help/components/segmentation/seg-home.md"> Guide de segmentation</a>. </p> <p>Remarque : vous ne pouvez pas inclure un filtre de segment et une ventilation sur un même segment dans un même rapport Data Warehouse. Sinon, une erreur se produira. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Ventilations</span> </td> 
