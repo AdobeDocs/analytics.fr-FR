@@ -4,7 +4,7 @@ keywords: Troubleshooting Analytics
 title: Questions fréquentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 94%
@@ -46,7 +46,7 @@ Les périphériques Apple renvoient leur version du microprogramme dans leur ch
 
 **Pourquoi les totaux du bas de mon rapport ne correspondent-ils pas lorsque j’additionne les valeurs ?**
 
-Les éléments de dimension peuvent souvent s’appliquer à plusieurs endroits ; par exemple, les visites qui s’étendent sur minuit ou plusieurs produits appartenant à une seule commande. L’élément de dimension est reporté sur tous les éléments de ligne applicables, mais il est dédupliqué dans le total du rapport. Pour en savoir plus, consultez la section [Comparer la somme des éléments de ligne par rapport au total du rapport](https://helpx.adobe.com/fr/analytics/kb/sum-line-items-different-from-total.html) dans la base de connaissances Analytics.
+Les articles de Dimension peuvent souvent s&#39;appliquer à plusieurs endroits ; par exemple, les visites qui s’étendent sur minuit ou plusieurs produits appartenant à une seule commande. L’élément de dimension est reporté sur tous les éléments de ligne applicables, mais il est dédupliqué dans le total du rapport. Pour en savoir plus, consultez la section [Comparer la somme des éléments de ligne par rapport au total du rapport](https://helpx.adobe.com/fr/analytics/kb/sum-line-items-different-from-total.html) dans la base de connaissances Analytics.
 
 **Comment exclure des données d’une adresse IP en particulier dans ma suite de rapports ?**
 
@@ -58,8 +58,8 @@ Il n’est pas possible de supprimer une suite de rapports. Néanmoins, il est p
 
 **Quel conteneur dois-je utiliser lorsque j’utilise la segmentation ? Page vue, visite ou visiteur ?**
 
-Le conteneur de segments que vous utilisez dépend de la largeur des données que vous souhaitez capturer. Les conteneurs Page vue ne contiennent que les accès correspondant à un critère de segment et sont utiles pour exclure les parties de visites que vous estimez peu pertinentes. Les conteneurs Visites incluent tous les accès d’une visite pour lesquels un ou plusieurs accès ont correspondu aux critères de segment et sont utiles pour examiner les sessions en général. Les conteneurs Visiteurs incluent toutes les visites pour lesquelles un accès a correspondu à un critère de segments et sont utiles pour étudier les personnes. En tant qu’analyste, le choix vous appartient de déterminer le conteneur de segments le mieux adapté à vos besoins. Pour plus d’informations, consultez la section [Aperçu de la segmentation](/help/components/c-segmentation/seg-overview.md) du guide d’utilisation des composants.
+Le conteneur de segments que vous utilisez dépend de la largeur des données que vous souhaitez capturer. Les conteneurs Page vue ne contiennent que les accès correspondant à un critère de segment et sont utiles pour exclure les parties de visites que vous estimez peu pertinentes. Les conteneurs Visites incluent tous les accès d’une visite pour lesquels un ou plusieurs accès ont correspondu aux critères de segment et sont utiles pour examiner les sessions en général. Les conteneurs Visiteurs incluent toutes les visites pour lesquelles un accès a correspondu à un critère de segments et sont utiles pour étudier les personnes. En tant qu’analyste, le choix vous appartient de déterminer le conteneur de segments le mieux adapté à vos besoins. Pour plus d’informations, consultez la section [Aperçu de la segmentation](/help/components/segmentation/seg-overview.md) du guide d’utilisation des composants.
 
 **Pourquoi mon segment ne s’affiche-t-il pas dans Data Warehouse ?**
 
-En raison de l’architecture de traitement unique de Data Warehouse, la plateforme n’est pas optimisée pour traiter certains types de données, comme le cheminement. Pour en savoir plus, consultez la section [Compatibilité des segments Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md) dans le guide d’utilisation des composants.
+En raison de l’architecture de traitement unique de Data Warehouse, la plateforme n’est pas optimisée pour traiter certains types de données, comme le cheminement. Pour en savoir plus, consultez la section [Compatibilité des segments Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md) dans le guide d’utilisation des composants.
