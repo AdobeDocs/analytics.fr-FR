@@ -2,8 +2,11 @@
 description: Le créateur de mesures calculées fournit un canevas où faire glisser et déposer des dimensions, des mesures, des segments et des fonctions permettant de créer des mesures personnalisées en fonction de la logique de hiérarchie des conteneurs, des règles et des opérateurs. Grâce à cet outil de développement intégré, vous pouvez créer et enregistrer des mesures calculées simples ou des mesures calculées avancées complexes.
 title: Création de mesures
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
       <li id="li_A8815F2D8D284874AD701A7B103D82A3">Des balises basées sur des <b>noms d’équipe</b>, par exemple Marketing des réseaux sociaux, Marketing des périphériques mobiles. </li> 
       <li id="li_A51A4515A541488E9D90296A955E9F4F">Les balises <b>Projet</b> (balises d’analyse), telle que l’analyse de la page d’accès. </li> 
       <li id="li_B4605470A7094026AC168420B64BBCC3">Les balises <b>Catégorie</b> : Hommes ; géographie. </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B">Les balises <b>Processus</b> : Sous réserve d’approbation ; Organisé pour (une unité opérationnelle spécifique) </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>Les balises Processus : Sous réserve d’approbation ; Organisé pour (une unité opérationnelle spécifique).</b> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +105,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + Nouveau </span> </td> 
-   <td colname="col3"> <p>Permet de créer un composant tel qu’un nouveau segment (grâce auquel vous accédez au <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >créateur de segments</a>). </p> </td> 
+   <td colname="col3"> <p>Permet de créer un composant tel qu’un nouveau segment (grâce auquel vous accédez au <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >créateur de segments</a>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Recherche de composants </p> </td> 
