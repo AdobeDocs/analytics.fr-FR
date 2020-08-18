@@ -5,7 +5,7 @@ title: Points à prendre en compte concernant le balisage multisuite et les suit
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -97,7 +97,7 @@ Si vous optez pour la suppression des appels au serveur secondaire au profit des
 
 1. Créez les suites de rapports virtuelles par rapport aux données de vos suites de rapports enfants. Segmenter selon une dimension personnalisée qui distingue vos sites les uns des autres.
    * Si vous effectuez une migration depuis une implémentation balisée multisuite existante, comparez les segments de la suite de rapports virtuelle à vos suites de rapports enfants existantes. Vous devez vous assurer que les données sont comparables avant de déplacer les utilisateurs vers la suite de rapports virtuelle.
-   * Une bonne pratique consiste à utiliser [l’empilement des segments](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) afin de pouvoir modifier un segment à un emplacement et de l’appliquer à toutes les suites de rapports virtuelles dépendantes.
+   * Une bonne pratique consiste à utiliser [l’empilement des segments](/help/components/segmentation/segmentation-workflow/seg-build.md) afin de pouvoir modifier un segment à un emplacement et de l’appliquer à toutes les suites de rapports virtuelles dépendantes.
    * Utilisez des conteneurs d’accès si vous souhaitez que les suites de rapports virtuelles restent mutuellement exclusives.
 2. Une fois que vous avez confirmé la configuration correcte des suites de rapports virtuelles, supprimez les identifiants des suites de rapports secondaires de votre implémentation. Pour supprimer les suites de rapports secondaires :
    * Dans le lancement d’Adobe Experience Platform Launch, cliquez sur le « X » en regard des suites de rapports que vous ne souhaitez plus utiliser.
