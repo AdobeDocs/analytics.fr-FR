@@ -2,9 +2,9 @@
 title: FAQ sur les classifications
 description: Questions fréquentes sur l’utilisation des classifications.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,24 @@ Les fichiers de classification chargés avec une valeur de clé ou une valeur de
 
 * **Demander une règle** VISTA : Un consultant en services d&#39;ingénierie vous configurez une règle côté serveur à un coût supplémentaire. Contactez le gestionnaire de compte de votre organisation pour demander une règle VISTA.
 
-## Puis-je utiliser le chargeur pour classer les éléments de dimension qui n’existent pas encore ?
+## Puis-je utiliser l’importateur de classifications pour classer les éléments de dimension qui n’existent pas encore ?
 
 Oui, *toutefois, cela comptabilise chaque élément de dimension comme un appel serveur facturable.*
 
 * Les articles de Dimension existants n&#39;impliquent aucun coût supplémentaire.
 * L’utilisation du créateur de règles de classification ne classe pas les éléments inexistants et n’entraîne donc aucun coût supplémentaire.
+
+## Comment classifier les valeurs qui contiennent des caractères spéciaux ?
+
+Il n’est généralement pas recommandé d’utiliser des caractères spéciaux tels que des virgules ou des guillemets de doublon dans le rapports. Cependant, dans certains cas, leur utilisation est nécessaire. Si vos valeurs de rapports contiennent des caractères que vous choisissez de classifier, procédez comme suit :
+
+1. Connectez-vous à Adobe Analytics, puis accédez à **[!UICONTROL Admin]** > Importateur **[!UICONTROL de]** classifications.
+2. Click the **[!UICONTROL Browser export]** tab.
+3. Configurez les paramètres d&#39;exportation et assurez-vous que l&#39;option Sortie du devis n&#39;est PAS sélectionnée.
+4. Cliquez sur **[!UICONTROL Exporter un fichier]**, puis ouvrez le fichier téléchargé dans un éditeur de feuille de calcul.
+5. À la ligne 1, localisez la cellule C1, qui contient la valeur `v:2.0`. Modifiez la valeur `v:2.1` et appliquez les classifications de votre choix au classeur.
+6. Téléchargez le fichier comme vous le feriez pour toute autre classification.
+
+## Que sont les classifications numériques 2 ?
+
+Les classifications numériques 2 vous permettent de classer les éléments de dimension en tant que mesures temporelles. Ils ont été retirés de l’interface utilisateur d’Analytics en juillet 2019.
