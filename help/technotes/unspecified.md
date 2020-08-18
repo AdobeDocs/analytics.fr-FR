@@ -1,22 +1,22 @@
 ---
-description: Dans Adobe Analytics, divers rapports peuvent afficher Non spécifié, Autre ou Inconnu selon le rapport spécifique consulté. En général, cet élément de ligne signifie que la variable n’a pas été définie ou n’est pas disponible.
-title: Non spécifié, Autre et Inconnu dans les rapports
+description: Divers rapports dans Adobe Analytics peuvent afficher Non spécifié, Aucun, Autre ou Inconnu, selon le rapport spécifique consulté. En général, cet élément de ligne signifie que la variable n’a pas été définie ou n’est pas disponible.
+title: Non spécifié, Aucun, Autre et Inconnu dans le rapports
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 96%
+source-wordcount: '515'
+ht-degree: 87%
 
 ---
 
 
-# Non spécifié, Autre et Inconnu dans les rapports
+# &quot;Non spécifié&quot;, &quot;Aucun&quot;, &quot;Autre&quot; et &quot;Inconnu&quot; dans le rapports
 
 Dans Adobe Analytics, de nombreux rapports peuvent afficher Non spécifié, Autre ou Inconnu selon le rapport spécifique consulté. En général, cet élément de ligne signifie que la variable n’a pas été définie ou n’est pas disponible. La liste complète suivante montre comment chaque rapport peut être associé à un de ces éléments de ligne.
 
-## Valeur Non spécifié dans les rapports
+## &quot;Non spécifié&quot; (ou &quot;Aucun&quot;) dans le rapports
 
-Non spécifié est un élément de ligne assez courant dans les rapports.
+Non spécifié est un élément de ligne assez courant dans les rapports. On parle aussi souvent de &quot;Néant&quot;.
 
 * **Événement déclenché sans variable de conversion :** par exemple, un utilisateur accède à votre site et effectue un achat sans déclencher de valeur eVar1. Si vous consultez les commandes à l’aide de la dimension eVar1, aucune valeur ne peut être attribuée à cette commande. La valeur Non spécifié lui est donc automatiquement attribuée.
 * **Données non classifiées dans les rapports de classification :** lors de la consultation des données de classification, les valeurs dont les données ne sont pas associées à cette classification donnée renvoient la valeur Non spécifié. Pour résoudre ce problème, classifiez la valeur de la variable parente.
