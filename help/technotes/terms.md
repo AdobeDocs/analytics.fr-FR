@@ -2,10 +2,10 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Cohorte :** groupe de personnes partageant des caractéristiques communes sur une période donnée. Voir [Qu’est-ce que l’analyse des cohortes ?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) dans le guide d’utilisation Analyser.
 * **Serveur de collecte :** voir Serveur de collecte de données.
 * **Variables de données contextuelles :** variables temporaires utilisées uniquement dans les règles de traitement. Les valeurs de variable de données contextuelles sont définitivement perdues si une règle de traitement ne les copie pas dans une variable de conversion ou de trafic. Voir [Variables de données contextuelles](../implement/vars/page-vars/contextdata.md) dans le guide d’utilisation de la mise en œuvre.
-* **Variable de conversion :** Egalement appelées eVars. Stocke une valeur personnalisée et conserve la valeur de variable jusqu’à ce qu’elle expire. Voir la dimension [eVar](/help/components/dimensions/evar.md) dans le guide de l’utilisateur Composants.
+* **Variable de conversion :** aussi connue sous le nom d’eVars. Stocke une valeur personnalisée et conserve la valeur de variable jusqu’à ce qu’elle expire. Voir la dimension [eVar](/help/components/dimensions/evar.md) dans le guide d’utilisation des composants.
 * **Corrélation :** terme remplacé par ventilations de dimensions. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
 * **Données actives :** option de certains rapports permettant d’inclure des données récemment collectées qui n’ont pas encore été totalement traitées. Voir [Données actives](/help/analyze/reports-analytics/current-data.md) dans le guide d’utilisation Analyser.
 * **Lien personnalisé :** type d’accès contenant des données de pages non vues. Voir la fonction [s.tl()](../implement/vars/functions/tl-method.md) du guide d’utilisation de la mise en œuvre. Voir aussi Accès.
@@ -75,10 +75,10 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Mesure :** type de composant contenant des données quantitatives. Les valeurs de mesure contiennent généralement des nombres, tels que Pages vues, Visites et Chiffre d’affaires. Leur contrepartie est souvent une dimension.
 * **Balisage multisuite :** pratique consistant à envoyer le même accès à plusieurs suites de rapports. Avec l’introduction des suites de rapports virtuelles, cette pratique n’est globalement plus nécessaire. La plupart des efforts de balisage multisuite permettent d’adapter une suite de rapports globale.
 * **Normalisation :** méthode d’organisation de visualisation qui prend toutes les mesures et force des proportions égales, permettant ainsi une comparaison plus facile des tendances.
-* **Occurrences :** Type de mesure qui indique le nombre d’accès à un élément de dimension défini ou conservé. Voir la mesure [Occurrences](/help/components/metrics/occurrences.md) dans le guide de l’utilisateur Composants.
+* **Occurrences :** Type de mesure qui indique le nombre d’accès à un élément de dimension défini ou conservé. Voir la mesure [Occurrences](/help/components/metrics/occurrences.md) dans le guide d’utilisation des composants.
 * **Omniture :** ce terme n’est plus utilisé. Société détentrice d’Adobe Analytics avant son acquisition par Adobe en 2009.
 * **Cheminement :** voir Flux.
-* **Page vue :** type d’accès qui incrémente les pages vues. Voir la mesure vues [de](/help/components/metrics/page-views.md) page dans le guide de l’utilisateur Composants. Voir aussi Accès.
+* **Page vue :** type d’accès qui incrémente les pages vues. Voir la mesure [Pages vues](/help/components/metrics/page-views.md) dans le guide d’utilisation des composants. Voir aussi Accès.
 * **Persistance :** concept abstrait pour les variables de conversion permettant de lier une valeur de variable à un événement survenant au cours d’accès distincts. Voir aussi Expiration.
 * **Premier appel au serveur :** autre nom de la demande d’image ou de l’accès, utilisé principalement dans le contexte de la facturation et du balisage multisuite. Lorsqu’un même accès est envoyé à plusieurs suites de rapports, la première suite de rapports est un premier appel au serveur, tandis que les autres sont des deuxièmes appels au serveur. Cette règle s’applique à tous les types d’accès, y compris au suivi des pages vues et des liens. Voir aussi Deuxièmes appels au serveur.
 * **Règles de traitement :** peut faire référence :
@@ -95,20 +95,20 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **s_code.js :** nom du fichier JavaScript utilisé dans les versions précédentes d’Adobe Analytics. Le nom actuel du fichier JavaScript utilisé est AppMeasurement.js.
 * **Satellite :** ce terme n’est plus utilisé. Ancien nom de produit de Dynamic Tag Management.
 * **Deuxième appel au serveur :** autre nom de la demande d’image ou de l’accès, utilisé principalement dans le contexte de la facturation et du balisage multisuite. Lorsqu’un même accès est envoyé à plusieurs suites de rapports, toutes les suites de rapports après la première sont des deuxièmes appels au serveur. Voir aussi Premiers appels au serveur.
-* **Segment :** permet de vous concentrer sur un sous-ensemble spécifique de vos données. Voir [Segmentation](/help/components/c-segmentation/seg-overview.md) dans le guide d’utilisation des composants.
-* **Conteneur de segments :** partie d’un segment déterminant la quantité de données à importer. Les conteneurs peuvent être basés sur les pages vues, les visites ou les visiteurs. Voir [Segmentation](/help/components/c-segmentation/seg-overview.md) dans le guide d’utilisation des composants.
+* **Segment :** permet de vous concentrer sur un sous-ensemble spécifique de vos données. Voir [Segmentation](/help/components/segmentation/seg-overview.md) dans le guide d’utilisation des composants.
+* **Conteneur de segments :** partie d’un segment déterminant la quantité de données à importer. Les conteneurs peuvent être basés sur les pages vues, les visites ou les visiteurs. Voir [Segmentation](/help/components/segmentation/seg-overview.md) dans le guide d’utilisation des composants.
 * **Sérialisation :** voir Sérialisation des événements.
 * **Appel serveur :** autre nom pour une demande d’image ou un accès, utilisé principalement dans le cadre de la facturation.
-* **Accès unique :** visite pour laquelle une dimension n’est associée qu’à une valeur unique. La visite peut avoir plusieurs accès, à condition qu’il n’y ait pas plusieurs valeurs uniques. Voir la mesure Accès [](/help/components/metrics/single-access.md) unique dans le guide de l’utilisateur Composants. Voir aussi Rebonds.
+* **Accès unique :** visite pour laquelle une dimension n’est associée qu’à une valeur unique. La visite peut avoir plusieurs accès, à condition qu’il n’y ait pas plusieurs valeurs uniques. Voir la mesure [Accès unique](/help/components/metrics/single-access.md) dans le guide d’utilisation des composants. Voir aussi Rebonds.
 * **SiteCatalyst :** ce terme n’est plus utilisé. Ancien nom de produit d’Adobe Analytics.
 * **Document de conception de la solution :** également appelé référence de conception de la solution, ou SDR. Document interne géré par une organisation décrivant l’utilisation des variables personnalisées et la logique utilisée pour les renseigner. Voir [Création d’un document de conception de solution](/help/implement/prepare/solution-design.md) dans le guide d’utilisation de la mise en œuvre.
 * **Sous-relation :** terme remplacé par ventilations de dimensions. Dans les versions précédentes d’Adobe Analytics, les sous-relations permettaient de ventiler les variables de conversions. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
 * **Événement de succès :** action suivie par un utilisateur. Votre organisation détermine les événements à suivre et les variables d’événement de succès que vous utilisez pour les suivre. Voir [Événements personnalisés](/help/components/metrics/custom-events.md) dans le guide d’utilisation des composants.
 * **Utilisateur pris en charge :** voir Délégué du service clientèle.
-* **Variable de trafic :** Également appelé props. Stocke une valeur personnalisée pour un accès unique. Les versions précédentes d’Adobe Analytics donnaient aux props une valeur unique, mais les améliorations apportées à la plateforme rendent les variables de trafic personnalisées globalement inutiles. Adobe conseille d’utiliser des variables de conversion personnalisées (eVars) dans la plupart des cas. Voir la dimension [Prop](/help/components/dimensions/prop.md) dans le guide de l’utilisateur Composants.
+* **Variable de trafic :** aussi connue sous le nom de props. Stocke une valeur personnalisée pour un accès unique. Les versions précédentes d’Adobe Analytics donnaient aux props une valeur unique, mais les améliorations apportées à la plateforme rendent les variables de trafic personnalisées globalement inutiles. Adobe conseille d’utiliser des variables de conversion personnalisées (eVars) dans la plupart des cas. Voir la dimension [Prop](/help/components/dimensions/prop.md) dans le guide d’utilisation des composants.
 * **Rapport de tendances :** format de rapport qui affiche généralement plusieurs périodes pour une mesure. Ce type de rapport vous permet de voir comment une mesure fonctionne au fil du temps. Voir aussi Rapport de classement.
-* **Visiteur unique** : représente le nombre de personnes uniques ayant visité votre site. Un visiteur unique peut avoir effectué plusieurs visites. See the [Unique visitors](/help/components/metrics/unique-visitors.md) metric in the Components user guide.
+* **Visiteur unique** : représente le nombre de personnes uniques ayant visité votre site. Un visiteur unique peut avoir effectué plusieurs visites. Voir la mesure [Visiteurs uniques](/help/components/metrics/unique-visitors.md) dans le guide d’utilisation des composants.
 * **Suite de rapports virtuelle :** conteneur virtuel de données faisant référence à une suite de rapports normale et permettant d’affiner les données. Les données ne sont pas envoyées à une suite de rapports virtuelle, mais à une suite de rapports normale et une suite de rapports virtuelle tire parti des données collectées. Voir [Suites de rapports virtuelles](/help/components/vrs/vrs-about.md) dans le guide d’utilisation des composants.
-* **Visite :** représente le nombre de sessions uniques qui ont eu lieu sur votre site. See the [Visits](/help/components/metrics/visits.md) metric in the Components user guide.
+* **Visite :** représente le nombre de sessions uniques qui ont eu lieu sur votre site. Voir la mesure [Visites](/help/components/metrics/visits.md) dans le guide d’utilisation des composants.
 * **Règle VISTA :** logique personnalisée créée par Adobe à la demande d’un client pour copier, analyser ou filtrer les données côté serveur. Les règles VISTA engendrent généralement des frais supplémentaires. Voir aussi Règles de traitement.
 * **Balise web :** voir Demande d’image.
