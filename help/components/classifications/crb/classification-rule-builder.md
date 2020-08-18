@@ -5,10 +5,10 @@ title: Workflow du créateur de règles de classification
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ Vous trouverez, ci-dessous, les étapes de haut niveau pour mettre en œuvre des
 
 | Étape | Emplacement de l’action | Description |
 |--- |--- |--- |
-| Étape 1 (condition préalable requise) : [Configurer votre schéma de classification](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.translate.html). | [!UICONTROL Admin] > [!UICONTROL Suites de rapports] > [!UICONTROL Modifier les paramètres] > &lt;Classifications de trafic ou Classifications des conversions> | Choisissez une variable et définissez les classifications à utiliser pour cette variable. <br>Au moins une colonne de classification doit être créée pour les variables pour qu’elles puissent être utilisées dans des règles.<br>Une fois les classifications activées, utilisez l’importateur et le créateur de règles pour classer des valeurs spécifiques. |
+| Étape 1 (condition préalable requise) : [Configurer votre schéma de classification](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Suites de rapports] > [!UICONTROL Modifier les paramètres] > &lt;Classifications de trafic ou Classifications des conversions> | Choisissez une variable et définissez les classifications à utiliser pour cette variable. <br>Au moins une colonne de classification doit être créée pour les variables pour qu’elles puissent être utilisées dans des règles.<br>Une fois les classifications activées, utilisez l’importateur et le créateur de règles pour classer des valeurs spécifiques. |
 | Étape 2 : [Créer un jeu de règles](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL Admin] > [!UICONTROL Créateur de règles de classification] > [!UICONTROL Ajouter un jeu de règles] | Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. |
 | Étape 3 : Configurer des suites de rapports et des variables. | [!UICONTROL Créateur de règles de classification] > &lt;votre jeu de règles> | Appliquez le jeu de règles aux suites de rapports et aux variables. |
 | Étape 4 : [Ajouter des règles de classification au jeu](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Créateur de règles de classification] > &lt;votre jeu de règles> | Fait correspondre une condition à une classification, puis précise l’action à effectuer pour la règle.  Familiarisez-vous avec les informations de la section [Méthode de traitement des règles](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | Étape 5 : [Tester un jeu de règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | Vous souhaitez tester les règles en vue de leur validation en les modifiant en mode préliminaire. Les règles ne peuvent pas être exécutées dans ce mode.<br>Cette étape est importante lorsque vous utilisez des [expressions régulières](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | Étape 6 : [Activer des règles valides](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Une fois les règles valides, activez le jeu de règles.  Vous pouvez, au besoin, remplacer des clés existantes. Reportez-vous à la section [Méthode de traitement des règles](/help/components/classifications/crb/classification-quickstart-rules.md). |
-| Étape 7 (Facultatif) : [Supprimer les règles non souhaitées](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Supprime les règles non souhaitées d’un jeu.<br>Remarque : La suppression des règles n’entraîne pas la suppression des données classées téléchargées.  Reportez-vous à la section [Supprimer des données de classification](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md) si vous devez supprimer des données classées. |
+| Étape 7 (Facultatif) : [Supprimer les règles non souhaitées](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Supprime les règles non souhaitées d’un jeu.<br>Remarque : La suppression des règles n’entraîne pas la suppression des données classées téléchargées.  Reportez-vous à la section [Supprimer des données de classification](/help/components/classifications/importer/t-delete-classification-data.md) si vous devez supprimer des données classées. |
 
 >[!NOTE]
 >
