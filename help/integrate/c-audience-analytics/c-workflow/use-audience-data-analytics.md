@@ -3,8 +3,11 @@ description: 'Vous pouvez utiliser les dimensions d’audience AAM dans l’ense
 solution: Experience Cloud
 title: Utilisation des données d’audience dans Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module
 
 Dans Analysis Workspace, les segments AAM apparaissent sous la forme de deux dimensions.
 
-1. Accédez à **[!UICONTROL Workspace]**.
+1. Accédez à **[!UICONTROL Espace de travail]**.
 1. Dans la liste des **[!UICONTROL Dimensions]**, sélectionnez les dimensions **[!UICONTROL ID d’audience]** ou **[!UICONTROL Nom d’audience]**. La dimension Nom d’audience est une classification conviviale de la dimension ID d’audience.
 
    ![](assets/aw-mcaudiences.png)
@@ -26,7 +29,7 @@ Dans Analysis Workspace, les segments AAM apparaissent sous la forme de deux di
 
 [Comparaison des segments](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) détecte les différences les plus importantes sur le plan statistique entre deux segments. Les données d’audience peuvent être utilisées dans Comparaison des segments de deux façons : 1) sous la forme des 2 segments comparés et 2) sous la forme des éléments du tableau « Principaux éléments de dimension ».
 
-1. Accédez à **[!UICONTROL Workspace]** et sélectionnez le panneau **[!UICONTROL Comparaison des segments]** dans le rail de gauche.
+1. Accédez à **[!UICONTROL Espace de travail]** et sélectionnez le panneau **[!UICONTROL Comparaison des segments]** dans le rail de gauche.
 
 1. Recherchez [!UICONTROL Nom d’audience] dans le menu **[!UICONTROL Composant]**.
 
@@ -43,7 +46,7 @@ Dans Analysis Workspace, les segments AAM apparaissent sous la forme de deux di
 
 Les données de segments AAM sont transmises à Analytics accès par accès et représentent l’appartenance d’audience d’un visiteur à ce moment précis. Cela signifie qu’un visiteur peut appartenir à un segment (p. ex. « Sensibilisation »), puis répondre aux conditions d’un segment plus qualifié ultérieurement (p. ex. « Considération »). Vous pouvez utiliser [Flux](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace pour visualiser le parcours d’un visiteur entre les audiences.
 
-1. Accédez à **[!UICONTROL Workspace]** et sélectionnez la visualisation **[!UICONTROL Flux]** dans le rail de gauche.
+1. Accédez à **[!UICONTROL Espace de travail]** et sélectionnez la visualisation **[!UICONTROL Flux]** dans le rail de gauche.
 
 1. Faites glisser la dimension [!UICONTROL Nom d’audience] dans le générateur de flux.
 1. Cliquez sur **[!UICONTROL Créer]**.
@@ -57,7 +60,7 @@ Les audiences peuvent également être utilisées dans les [Visualisations des a
 
 Les [visualisations de Venn](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/venn.html) affichent l’intersection entre 3 segments maximum.
 
-1. Accédez à **[!UICONTROL Workspace]** et sélectionnez la visualisation de **[!UICONTROL Venn]** dans le rail de gauche.
+1. Accédez à **[!UICONTROL Espace de travail]** et sélectionnez la visualisation de **[!UICONTROL Venn]** dans le rail de gauche.
 
 1. Recherchez [!UICONTROL Nom d’audience] dans le menu Composants.
 1. Ouvrez [!UICONTROL Nom d’audience] pour faire apparaître les éléments de dimension associés.
@@ -69,7 +72,7 @@ Les [visualisations de Venn](https://docs.adobe.com/content/help/fr-FR/analytics
 
 ## Créateur de segments {#section_2AA81852A1404AB894472CA8959461B6}
 
-Vous pouvez importer les dimensions d’audience dans le [Créateur de segments](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) Analytics, ainsi que les informations de comportement collectées par Analytics.
+Vous pouvez importer les dimensions d’audience dans le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) Analytics, ainsi que les informations de comportement collectées par Analytics.
 
 1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Segments]**.
 1. Cliquez sur **[!UICONTROL Ajouter]** pour définir un nouveau segment.
