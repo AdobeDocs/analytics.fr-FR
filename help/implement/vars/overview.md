@@ -3,7 +3,7 @@ title: Présentation des variables, fonctions, méthodes et plug-ins
 description: Découvrez les variables que vous pouvez inclure dans les données que vous envoyez à Adobe pour améliorer la création de rapports.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 97%
@@ -40,4 +40,4 @@ Les caractères et chaînes suivants ne sont jamais autorisés dans les variable
 * Nouvelle ligne (`0x0A`)
 * Balises HTML (`<b></b>` ou `&#153`, par exemple)
 
-Certaines variables ont des limitations ou des exigences de syntaxe supplémentaires. Par exemple, la variable `products` réserve des points-virgules et des virgules pour délimiter des produits et des catégories distincts.
+Certaines variables ont des limitations ou des exigences de syntaxe supplémentaires. Par exemple, la variable [`products`](page-vars/products.md) réserve des points-virgules et des virgules pour délimiter des produits et des catégories distincts.
