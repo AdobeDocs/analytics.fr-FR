@@ -2,10 +2,10 @@
 title: Mise en œuvre avec des demandes d’image codées en dur
 description: Mise en œuvre d’Adobe Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur)
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '655'
+ht-degree: 66%
 
 ---
 
@@ -29,26 +29,44 @@ Voici un exemple de demande d’image codée en dur à l’aide de code HTML :
 ```
 
 * `https://` désigne le protocole. Faites correspondre le protocole utilisé dans la demande d’image avec le protocole utilisé par le reste de votre site.
-* `example.sc.omtrdc.net` est la valeur contenue dans la variable `trackingServer`.
+* `example.sc.omtrdc.net` est la valeur contenue dans la variable [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
 * `/b/ss/` est inclus dans toutes les demandes d’image. Il fait partie de la structure de fichiers des images stockées sur les serveurs de collecte de données Adobe.
 * `examplersid` correspond à l’identifiant de la suite de rapports à laquelle vous souhaitez envoyer des données.
 * `/1/` est la source de l’accès. Voir `hit_source` dans la section [Référence des colonnes de données](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) du guide d’utilisation Exportation. Contrôle l’ordre que les cookies et les autres méthodes suivent pour identifier les visiteurs.
 * Tout ce qui suit le délimiteur de chaîne de requête (`?`) fait partie des données que vous souhaitez inclure dans les rapports. Voir [Paramètres de requête de collecte de données](../validate/query-parameters.md) pour obtenir la liste complète des paramètres que vous pouvez inclure dans une demande d’image.
 
+## Demandes d’image codées en dur dans Microsoft Outlook
+
+Comme la plupart des courriels sont basés sur HTML, il est possible de suivre les courriels ouverts et d&#39;envoyer ces données à Adobe Analytics. Si votre entreprise choisit d’utiliser cette méthode, tenez compte des points suivants :
+
+* Chaque rendu de courrier électronique peut incrémenter un appel serveur facturable.
+* Seuls les clients de messagerie qui prennent en charge le code HTML et autorisent les images sont suivis. Certains clients de messagerie, tels que Microsoft Outlook, bloquent par défaut les images externes. Ces messages électroniques ne sont pas suivis tant que le destinataire n’a pas choisi de télécharger des images externes.
+
+Pour composer un courrier électronique Outlook contenant une demande d&#39;image :
+
+1. Ouvrez un éditeur HTML. Si aucun éditeur HTML n’est disponible, un éditeur de texte brut fonctionne également.
+2. Dans un nouveau fichier HTML, insérez une balise de demande d’image codée en dur enveloppée dans une `<img>` `<body>` balise .
+3. Enregistrez le fichier HTML.
+4. Ouvrez Microsoft Outlook et rédigez un courrier électronique.
+5. Accédez à l’onglet Insertion et cliquez sur **Joindre un fichier**. Sélectionnez votre fichier HTML de demande d’image.
+6. Cliquez sur le menu contextuel en regard de Insérer, puis sélectionnez **Insérer comme texte**. Si vous cliquez sur le bouton Insérer sans le menu contextuel, le fichier HTML devient une pièce jointe, ce qui ne fonctionne pas.
+
+Votre adresse électronique ne semble pas changer, car la demande d’image est un pixel transparent de 1x1. Si vous souhaitez afficher la demande d’image à des fins de test, modifiez le fichier HTML pour y inclure une bordure, du texte supplémentaire ou tout autre contenu.
+
 ## FAQ
 
 Découvrez les questions courantes à l’aide de demandes d’image codées en dur.
 
-**Les paramètres de chaîne de requête sont-ils sensibles à la casse ?**
+### Les paramètres de chaîne de requête sont-ils sensibles à la casse ?
 
 Oui. Assurez-vous que les paramètres de chaîne de requête correspondent exactement, sinon ils ne sont pas enregistrés. Par exemple, `pagename` n’est pas un paramètre de chaîne de requête valide, alors que `pageName` en est un.
 
-**Puis-je inclure des espaces dans la chaîne de requête ?**
+### Puis-je inclure des espaces dans la chaîne de requête ?
 
 Les valeurs de chacun des paramètres de chaîne de requête sont codées au format URL. Le codage d’URL convertit les caractères normalement interdits dans les URL en caractères autorisés. Ainsi, un espace est converti en `%20`. Assurez-vous que tout caractère non alphanumérique est codé en URL. Adobe URL décode automatiquement les valeurs lorsque les demandes d’image atteignent les serveurs de collecte de données.
 
 Pour plus d’informations sur le fonctionnement du codage des URL, voir [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) (Référence sur le codage des URL HTML) sur W3Schools.
 
-**Quel est le nombre maximal de caractères qu’une seule valeur peut contenir ?**
+### Quel est le nombre maximal de caractères qu’une seule valeur peut contenir ?
 
 Une longueur maximale différente est associée à chaque variable. La plupart des variables de trafic peuvent contenir jusqu’à 100 octets, tandis que la plupart des variables de conversion peuvent contenir jusqu’à 255 octets. Lorsqu’une demande d’image atteint les serveurs de collecte de données, Adobe tronque automatiquement ces valeurs à leur longueur maximale.
