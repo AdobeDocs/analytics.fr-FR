@@ -5,7 +5,7 @@ title: À propos des classifications
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
@@ -43,9 +43,9 @@ Supposons qu’au lieu de visualiser des campagnes sur la seule base du code de 
 
 Les rapports et analyses contiennent des classifications prédéfinies pour la variable Code de suivi, ce qui génère des rapports basés sur les classifications appelés Éléments créatifs et Campagnes. Vous devez configurer manuellement les classifications pour toutes les autres variables de conversion et de trafic.
 
-Reportez-vous aux sections [Classifications de trafic](/help/admin/admin/c-traffic-variables/traffic-classifications.md) et [Classifications des conversions](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.translate.html).
+Reportez-vous aux sections [Classifications de trafic](/help/admin/admin/c-traffic-variables/traffic-classifications.md) et [Classifications des conversions](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
-Le tableau ci-après décrit les différents types de classifications disponibles et les types de variables les prenant en charge. Consultez les informations de la section  [Structure générale d’un fichier](/help/components/classifications/c-classifications-importer/c-saint-data-files.md) avant de télécharger les fichiers de données.
+Le tableau ci-après décrit les différents types de classifications disponibles et les types de variables les prenant en charge. Consultez les informations de la section   [Structure générale d’un fichier](/help/components/classifications/importer/c-saint-data-files.md) avant de télécharger les fichiers de données.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
