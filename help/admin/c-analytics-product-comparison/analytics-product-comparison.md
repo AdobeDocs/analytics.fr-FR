@@ -2,7 +2,7 @@
 description: Cette rubrique présente la configuration système requise et compare Analysis Workspace, les Reports & Analytics, les Ad Hoc Analysis, le Report Builder, Data Warehouse et Data Workbench.
 title: Configuration requise et comparaison des produits Analytics
 translation-type: tm+mt
-source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
+source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 53%
@@ -28,7 +28,7 @@ Pour savoir quel produit Adobe Analytics utiliser, accédez à ce [lien](/help/a
 | **Limite des lignes visibles (avant pagination)** | 400 | 200 | 50000 | Illimitées | Illimitées | Illimitées | 50000 |
 | **Plusieurs suites de rapports** | [Oui](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Oui, avec des limites | Oui | Non | Oui | Non | Oui |
 | **Nombre de ventilations** | Illimitées | Jusqu’à 2 | Jusqu’à 2 | Illimitées | Illimitées | Illimitées | Illimité, exécuté sur plusieurs requêtes |
-| **Segmentation** <br> [En savoir plus](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) | Oui | Oui | Oui | Oui, avec [restrictions](/help/components/c-segmentation/seg-reference/seg-compatibility.md) | Oui | Non | Oui |
+| **Segmentation** <br> [En savoir plus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Oui | Oui | Oui | Oui, avec [restrictions](/help/components/segmentation/seg-reference/seg-compatibility.md) | Oui | Non | Oui |
 | **Mesures calculées** <br> [En savoir plus](/help/components/c-calcmetrics/cm-overview.md) | Oui, avec [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Oui | Oui | Non | Oui | Non | Oui, avec [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canaux marketing** <br> [En savoir plus](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Oui | Oui | Oui | Oui | Oui | Oui - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Oui |
 | **Analyse de cohortes** | [Oui](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Non | Non | Non | Oui | Non | Non |
@@ -37,5 +37,5 @@ Pour savoir quel produit Adobe Analytics utiliser, accédez à ce [lien](/help/a
 | **Traitement** <br> [En savoir plus](/help/analyze/analysis-workspace/curate-share/curate.md) | Oui - Projet et suite de rapports virtuelle | Non | Non | Non | Non | Non | Oui - VRS uniquement |
 | **Partage de projet** <br> [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Oui, avec des rôles de projet | Oui | Oui | Non | Oui | Non | Non |
 | **Livraison planifiée** | Oui | Oui | Oui | Oui | Non | Oui | Non |
-| **Destinations des diffusions** | Courriel | Courriel | Courrier électronique, FTP, SFTP, [publication sur Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Courriel, FTP. Contactez le service à la clientèle pour obtenir une prise en charge de destination supplémentaire, notamment SFTP, Azure Blob, Amazon S3 | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
+| **Destinations des diffusions** | Courriel  | Courriel  | Courrier électronique, FTP, SFTP, [publication sur Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Courriel, FTP. Contactez le service à la clientèle pour obtenir une prise en charge de destination supplémentaire, notamment SFTP, Azure Blob, Amazon S3 | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
 | **Traitement du temps de rapport VRS** <br> [En savoir plus](/help/components/vrs/vrs-report-time-processing.md) | Oui | Non | Non | Non | Non | Non | Oui |
