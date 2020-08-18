@@ -5,7 +5,7 @@ title: À propos des sous-classifications
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 100%
@@ -32,13 +32,13 @@ Chaque classification de ce modèle est indépendante et correspond à un nouvea
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Pour plus d’informations sur le fichier de données, consultez [Fichiers de données de classification](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
+Pour plus d’informations sur le fichier de données, consultez  [Fichiers de données de classification](/help/components/classifications/importer/c-saint-data-files.md).
 
 Les classifications à plusieurs niveaux comprennent les classifications parentes et filles. Par exemple :
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique (Voir [Classifications à niveau unique](/help/components/classifications/c-sub-classifications.md)).
+**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique (Voir  [Classifications à niveau unique](/help/components/classifications/c-sub-classifications.md)).
 
 **Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications filles fournissent des informations supplémentaires sur leur classification parente. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification fille de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
 
@@ -46,7 +46,7 @@ Chaque classification, parent ou enfant, constitue une colonne de données dans 
 
 `<parent_name>^<child_name>`
 
-Pour plus d’informations sur le format de fichier de données, voir [Fichiers de données de classification](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
+Pour plus d’informations sur le format de fichier de données, voir [Fichiers de données de classification](/help/components/classifications/importer/c-saint-data-files.md).
 
 Par exemple :
 
@@ -80,7 +80,7 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 | Bruyère |
 | 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | S | 23 | Bleu-vert |
 
-### Classification de produit - plusieurs fichiers (fichier 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Classification de produit - plusieurs fichiers (fichier 1)  {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | CLÉ | NOM DU PRODUIT | DÉTAILS DU PRODUIT | GENDER | TAILLE | CODE |
 |---|---|---|---|---|---|
@@ -88,7 +88,7 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 |
 | 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | S | 23 |
 
-### Classification de produit - plusieurs fichiers (fichier 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### Classification de produit - plusieurs fichiers (fichier 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
 | CLÉ | CODE | CODE&amp;Hat;COLOR |
 |---|---|---|
