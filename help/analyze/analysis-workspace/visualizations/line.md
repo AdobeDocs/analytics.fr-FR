@@ -3,10 +3,10 @@ description: Utilisez la visualisation en ligne pour représenter les jeux de do
 title: Ligne
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 78ed02b7bb7a4dc042c837817d36fc8ce30dce79
+source-git-commit: 34db4e99589827fd41f642788e3409834b96d78a
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 17%
+source-wordcount: '446'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ Dans cette visualisation, les mesures sont représentées sous la forme d’une 
 
 >[!IMPORTANT]
 >
-> Certains paramètres de visualisation en ligne, tels que la courbe de tendance d’Ajoute, font actuellement l’objet de tests limités. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html).
+> Certains paramètres de visualisation en ligne, tels que Afficher la courbe de tendance, sont actuellement en cours de test limité. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html).
 
 Cliquez sur l’icône en forme d’engrenage en haut à droite de la visualisation en ligne pour accéder aux paramètres [**de**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html#section_D3BB5042A92245D8BF6BCF072C66624B) visualisation disponibles. Les paramètres sont classés par :
 
@@ -29,11 +29,15 @@ Cliquez sur l’icône en forme d’engrenage en haut à droite de la visualisat
 
 ### Modifier la granularité
 
-Une liste déroulante de granularité accessible dans les [paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) permet de modifier une visualisation avec suivi des tendances (ex. ligne, barre) de chaque jour à chaque mois, etc.
+Une liste déroulante de granularité accessible dans les [paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) permet de modifier une visualisation avec suivi des tendances (ex. ligne, barre) de chaque jour à chaque mois, etc. La granularité est également mise à jour dans le tableau de la source de données.
 
-### ajouter une incrustation de tendance
+### Afficher min ou max
 
-Sous Paramètres de **visualisation > Overlays > Ajouter la courbe de tendance**, vous pouvez choisir d’ajouter une courbe de tendance de régression à votre série de lignes. Les lignes de tendances permettent de représenter un schéma plus clair dans les données.
+Sous Paramètres de **visualisation > Overlays > Afficher min/max**, vous pouvez superposer une étiquette de valeur minimale et maximale pour mettre rapidement en surbrillance les pics et les vallées d’une mesure.
+
+### Afficher le recouvrement de tendance
+
+Sous Paramètres de **visualisation > Overlays > Afficher la courbe de tendance**, vous pouvez choisir d’ajouter une courbe de tendance de régression à votre série de lignes. Les lignes de tendances permettent de représenter un schéma plus clair dans les données.
 
 Tous les modèles sont ajustés en utilisant les moindres carrés ordinaires :
 
