@@ -1,27 +1,27 @@
 ---
-title: Visites mono-page
-description: Indicateur indiquant que la visite se composait d’une seule page.
+title: Visites sur une seule page
+description: Indicateur précisant que la visite ne comportait qu’une page.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
 
-# Visites mono-page
+# Visites sur une seule page
 
-*Cette page d’aide décrit le fonctionnement de la dimension &quot;Visites mono-page&quot;. Pour plus d’informations, voir la mesure Visites[](../metrics/single-page-visits.md)mono-page.*
+*Cette page d’aide décrit le fonctionnement de la dimension « Visites de page unique ». Pour plus d’informations, consultez la mesure[Visites de page unique](../metrics/single-page-visits.md).*
 
-La dimension &quot;Visites mono-page&quot; indique le nombre de visites qui consistaient en un seul élément de dimension [Page](page.md) unique. Il s’agit de la forme de dimension de la mesure Visites [sur une](../metrics/single-page-visits.md) seule page.
+The &#39;Single page visits&#39; dimension reports the number of visits that consisted of a single unique [Page](page.md) dimension item. Il s’agit de la forme de dimension correspondante à la mesure [Visites de page unique](../metrics/single-page-visits.md).
 
-Cette dimension est généralement utilisée comme composant dans [la segmentation](../c-segmentation/seg-home.md). Il n’est généralement pas utilisé comme dimension dans les rapports.
+Cette dimension est généralement utilisée comme composant dans la [segmentation](../segmentation/seg-home.md). Elle n’est généralement pas utilisée comme dimension dans les rapports.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, cette dimension fonctionne.
+Cette dimension est prête à l’emploi pour toutes les implémentations. Cette dimension fonctionne si une suite de rapports contient des données.
 
-## Éléments de dimension
+## Éléments de Dimension
 
-Le seul élément de dimension est `"Enabled"`. Si une visite se compose d’une seule page, l’accès est défini sur cette valeur. Tous les autres accès sont omis de ce rapport.
+The only dimension item is `"Enabled"`. Si une visite ne comporte qu’une page, l’accès est défini sur cette valeur. Tous les autres accès sont omis de ce rapport.
