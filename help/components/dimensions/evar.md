@@ -5,30 +5,30 @@ translation-type: tm+mt
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
 
 # eVar
 
-*Cette page d’aide décrit le fonctionnement des eVars en tant que dimension. Pour plus d’informations sur la mise en œuvre des eVars, voir[eVars](/help/implement/vars/page-vars/evar.md)dans le Guide d’utilisation de mise en œuvre.*
+*Cette page d’aide décrit le fonctionnement des eVars en tant que dimension. Pour plus d’informations sur la mise en œuvre des eVars, voir [eVars](/help/implement/vars/page-vars/evar.md) dans le Guide d’utilisation de mise en œuvre.*
 
-Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre entreprise se présentent sous la forme d’eVars. Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre entreprise se présentent sous la forme d’eVars. Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Vous pouvez personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports.
 
-Le nombre d’eVars disponibles dépend de votre contrat avec l’Adobe. Jusqu’à 250 eVars sont disponibles si votre contrat avec Adobe le prend en charge.
+Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 250 eVar.
 
-Les eVars ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), l’Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de rapports est utilisée. Data warehouse affiche la première valeur rencontrée pendant la période de demande.
+Les eVars ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de rapports est utilisée. Le Data Warehouse affiche la première valeur rencontrée pendant la période de demande.
 
-## Renseigner les eVars avec des données
+## Renseignement des eVars avec des données
 
-Chaque eVar collecte des données de la chaîne [`v1` `v250` -](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. Par exemple, le paramètre de chaîne de `v1` requête collecte des données pour l’eVar1, tandis que le paramètre de chaîne de `v222` requête collecte des données pour l’eVar222.
+Chaque eVar collecte des données de la chaîne de requête [`v1` - `v250` ](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `v1` collecte des données pour eVar1, tandis que le paramètre de chaîne de requête `v222` collecte des données pour eVar222.
 
-AppMeasurement, qui compile des variables JavaScript dans une demande d’image pour la collecte de données, utilise les variables `eVar1` - `eVar250`. Voir [eVar](/help/implement/vars/page-vars/evar.md) dans le guide de l’utilisateur Mise en oeuvre pour obtenir des instructions sur la mise en oeuvre.
+AppMeasurement, qui compile les variables JavaScript en une demande d’image pour la collecte de données, utilise les variables `eVar1` - `eVar250`. Consultez [eVar](/help/implement/vars/page-vars/evar.md) dans le guide d’utilisation de mise en œuvre pour obtenir des instructions de mise en œuvre.
 
 ## Éléments de Dimension
 
-Etant donné que les eVars contiennent des chaînes personnalisées dans votre implémentation, votre organisation détermine les éléments de dimension pour chaque eVar. Veillez à enregistrer l’objectif de chaque eVar et les éléments de dimension typiques dans un document [de conception de](/help/implement/prepare/solution-design.md)solution.
+Etant donné que les eVars contiennent des chaînes personnalisées dans votre implémentation, votre organisation détermine les éléments de dimension pour chaque eVar. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## Fonctionnement des eVars
 
@@ -44,7 +44,7 @@ Dans la plupart des cas, la colonne `post_evar` est utilisée dans les rapports.
 Les événements de succès et les eVars sont fréquemment définis dans différentes demandes d’image. La colonne `post_evar` permet aux valeurs eVar de se lier aux événements, affichant les données dans les rapports. Prenez par exemple la visite suivante :
 
 1. Un visiteur arrive sur votre site sur votre page d’accueil.
-2. Il cherche le mot-clé « chats » en utilisant la recherche interne de votre site. Votre mise en oeuvre utilise l’eVar1 pour la recherche interne.
+2. Il cherche le mot-clé « chats » en utilisant la recherche interne de votre site. Votre implémentation utilise eVar1 pour la recherche interne.
 3. Il consulte un produit et passe par le processus de passage en caisse.
 
 Une version simplifiée des données brutes se présenterait comme suit :
@@ -84,14 +84,14 @@ Comme l’attribution et l’expiration déterminent quelles valeurs persistent,
 * Par défaut, une eVar utilise la dernière attribution. Les nouvelles valeurs remplacent les valeurs conservées.
 * Par défaut, une eVar utilise une expiration de visite. Une fois la visite terminée, les valeurs ne sont plus copiées d’une ligne à l’autre dans la colonne `post_evar`.
 
-You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+Vous pouvez modifier l’attribution et l’expiration des eVars sous [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports.
 
 ## Valeur des eVars par rapport aux props
 
-Dans la plupart des cas, l’Adobe recommande d’utiliser des eVars, prises en charge par les moyens suivants :
+Dans la plupart des cas, Adobe recommande d’utiliser des eVars, prises en charge comme suit :
 
-* Les eVars sont limitées à 255 octets dans les rapports. Les props sont limitées à 100 octets.
+* Les eVar sont limitées à 255 octets dans les rapports. Les props sont limitées à 100 octets.
 * Par défaut, les props ne persistent pas au-delà de l’accès défini. Les eVars ont une expiration personnalisée, ce qui vous permet de déterminer quand une eVar n’obtient plus le crédit d’un événement ultérieur. Cependant, si vous utilisez le [traitement de l’heure des rapports](/help/components/vrs/vrs-report-time-processing.md), les props et les eVars peuvent utiliser un modèle d’attribution personnalisé.
-* Adobe prend en charge jusqu’à 250 eVars et seulement 75 props.
+* Adobe prend en charge jusqu’à 250 eVars et seulement 75 props.
 
-Voir [prop](prop.md) pour plus d’informations sur les comparaisons entre props et eVars.
+Consultez [prop](prop.md) pour plus de comparaisons entre les props et les eVars.
