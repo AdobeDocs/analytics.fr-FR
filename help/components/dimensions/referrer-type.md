@@ -1,41 +1,41 @@
 ---
 title: Type de référent
-description: Type de parrain, en fonction de la provenance du visiteur.
+description: Le type de référent en fonction de la provenance du visiteur.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
 
 # Type de référent
 
-La dimension &quot;type de Parrain&quot; signale les canaux génériques sur lesquels les visiteurs ont cliqué pour arriver sur votre site. Adobe conserve les règles pour chaque élément de dimension, contrairement aux canaux [](marketing-channel.md)marketing, où votre organisation conserve les règles pour chaque canal.
+La dimension « Type de référent » indique les canaux génériques sur lesquels les visiteurs ont cliqué pour arriver sur votre site. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [parrain](referrer.md) de l’accès, qui dépend des filtres [d’URL](/help/admin/admin/internal-url-filter-admin.md)internes. Assurez-vous que la dimension de parrain et les filtres d’URL internes sont correctement configurés.
+Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
 
-## Éléments de dimension
+## Éléments de Dimension
 
-Les éléments de dimension incluent le type de parrain de l’accès. Les valeurs spécifiques sont les suivantes :
+Les éléments de Dimension incluent le type de parrain de l’accès. Les valeurs spécifiques incluent les éléments suivants :
 
-* **Tapé/marqué**: Aucune donnée de parrain n&#39;existe pour l&#39;accès.
-* **Moteurs** de recherche : Le parrain provient d&#39;un moteur de recherche reconnu qui inclut une chaîne de requête de mot-clé.
-* **Réseaux sociaux:**: Les données de Parrain appartenaient à un réseau social reconnu par Adobe.
-* **Autres sites** Web : Les données de Parrain n&#39;appartenaient pas à un moteur de recherche ou à un réseau social reconnu par Adobe.
-* **Disque dur**: Le Parrain provient d&#39;une copie locale d&#39;une page Web sur le disque dur du visiteur.
-* **Courriel**: Le Parrain provient d’une URL avec un protocole de `imap://` ou `mail://`. N’inclut pas les services de messagerie en ligne, car ils utilisent généralement `https://` le protocole.
+* **Tapé/Marqué d’un signet** : l’accès ne contient aucune donnée de référent.
+* **Moteurs de recherche** : le référent provient d’un moteur de recherche reconnu comprenant une chaîne de requête de mot-clé.
+* **Réseaux sociaux** : les données de référent appartiennent à un réseau social reconnu par Adobe.
+* **Autres sites Web** : les données de référent n’appartiennent pas à un moteur de recherche ou à un réseau social reconnu par Adobe.
+* **Disque dur** : le référent est issu d’une copie locale d’une page Web sur le disque dur du visiteur.
+* **E-mail** : le référent est issu d’une URL avec un protocole `imap://` ou `mail://`. Ne comprend pas les services de messagerie en ligne, car ils utilisent généralement le protocole `https://`.
 
 ### Réseaux sociaux
 
-La liste suivante fait référence au tableau de recherche &quot;Réseaux sociaux&quot; utilisé par Adobe. Adobe fournit cette liste à titre de courtoisie aux clients de Adobe Analytics. Si vous souhaitez recommander à Adobe d’ajouter un domaine à cette liste, demandez à un délégué de l’assistance de votre entreprise de contacter le service d’assistance clientèle.
+La liste suivante fait référence à la table de recherche « Réseaux sociaux » utilisée par Adobe. Adobe fournit cette liste aux clients d’Adobe Analytics. Si vous souhaitez recommander à Adobe d’ajouter un domaine à cette liste, demandez à un délégué d’assistance de votre entreprise de contacter l’assistance clientèle.
 
 >[!NOTE]
 >
->Cette liste est différente de la liste par défaut des réseaux sociaux dans les règles [de traitement des canaux](../c-marketing-channels/c-rules.md)marketing.
+>Cette liste est différente de la liste par défaut des réseaux sociaux des [règles de traitement des canaux marketing](../c-marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `t.163.com`
@@ -197,7 +197,7 @@ La liste suivante fait référence au tableau de recherche &quot;Réseaux sociau
 
 ### Moteurs de recherche dans l’élément de dimension &quot;Autres sites Web&quot;
 
-Lorsque vous vue des domaines spécifiques dans la dimension &quot;type de Parrain&quot;, il peut y avoir des domaines auxquels vous vous attendez sous &quot;moteurs de recherche&quot; répertoriés à la place sous &quot;Autres sites Web&quot;. Par exemple, vous pouvez voir `'google.com'` sous &quot;Autres sites Web&quot;.
+Lorsque vous consultez des domaines spécifiques dans la dimension « Type de référent », il se peut que certains domaines soient répertoriés sous « Autres sites Web » et non sous « Moteurs de recherche ». Par exemple, `'google.com'` pourrait se trouver sous « Autres sites Web ».
 
-* **Domaines de moteurs de recherche dans l’élément** de dimension &quot;Moteurs de recherche&quot; : Le parrain répondait à tous les critères pour être classé comme moteur de recherche par Adobe. Le domaine référent est un moteur de recherche valide ** et l’URL référente contient un paramètre de chaîne de requête de mot-clé.
-* **Domaines de moteurs de recherche dans l’élément** de dimension &quot;Autres sites Web&quot; : L&#39;URL référente ne répondait pas à tous les critères de classification en tant que moteur de recherche. Les exemples courants incluent les sous-domaines dédiés à d’autres fonctionnalités en plus de la recherche. Par exemple, `mail.google.com` ou `autos.yahoo.com` ne sont pas des moteurs de recherche, mais résident sur un domaine de niveau supérieur généralement associé à la recherche. Ces sous-domaines n&#39;incluent pas de chaîne de requête de mots-clés, c&#39;est pourquoi ils sont inclus dans &quot;Autres sites Web&quot; au lieu de &quot;Moteurs de recherche&quot;.
+* **Domaines de moteurs de recherche dans l’élément** de dimension &quot;Moteurs de recherche&quot; : Le parrain répondait à tous les critères pour être classé comme moteur de recherche par Adobe. Le domaine référent est un moteur de recherche valide *et* l’URL de référence contient un paramètre de chaîne de requête de mot-clé.
+* **Domaines de moteurs de recherche dans l’élément** de dimension &quot;Autres sites Web&quot; : L&#39;URL référente ne répondait pas à tous les critères de classification en tant que moteur de recherche. Les exemples courants comprennent les sous-domaines dédiés à d’autres fonctionnalités que la recherche. Par exemple, `mail.google.com` ou `autos.yahoo.com` ne sont pas des moteurs de recherche, mais résident sur un domaine de niveau supérieur généralement associé à la recherche. Ces sous-domaines ne comprennent pas de chaîne de requête de mot-clé, c’est pourquoi ils se trouvent dans « Autres sites Web » au lieu de « Moteurs de recherche ».
