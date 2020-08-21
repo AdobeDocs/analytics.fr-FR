@@ -2,9 +2,9 @@
 description: Accédez à ces fonctions en cochant Afficher les options avancées dans la liste déroulante Fonctions.
 title: 'Référence : fonctions avancées'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Accédez à ces fonctions en cochant **[!UICONTROL Afficher les options avancée
 
 Une fonction de tableau consiste à ce que la sortie soit la même pour chaque ligne du tableau. Une fonction de ligne consiste à ce que la sortie soit différente pour chaque ligne du tableau.
 
-## Que signifie le paramètre d’inclusion de zéros ? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Que signifie le paramètre d’inclusion de zéros ?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Il indique s’il faut inclure des zéros dans le calcul. Parfois, zéro signifie « rien » mais parfois, il est important.
 
@@ -29,7 +29,7 @@ D’un autre côté, si deux mesures vous intéressent, il n’est pas juste d�
 
 ## ET {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
-Renvoie la valeur de son argument. Utilisez SAUF pour vous assurer qu’une valeur est différente d’une valeur spécifique.
+Renvoie la valeur de son argument. Utilisez NOT pour vous assurer qu’une valeur est différente d’une valeur spécifique.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | Dimension pour laquelle vous souhaitez obtenir le nombre distinct approximatif d’éléments. |
 
-### Exemple de cas d’utilisation {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Exemple de cas d’utilisation  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Le nombre distinct approximatif (eVar ID de client) est un cas d’utilisation courant pour cette fonction.
 
@@ -68,11 +68,11 @@ Voici comment cette mesure pourrait être utilisée dans les rapports :
 
 ![](assets/approx-customers.png)
 
-### Valeurs uniques dépassées {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Valeurs uniques dépassées  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/low-traffic.translate.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
+Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/low-traffic.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
 
-### Comparaison des fonctions de comptage {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparaison des fonctions de comptage  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 La fonction Approximate Count Distinct() est une amélioration des fonctions Count() et RowCount(), car vous pouvez utiliser la mesure créée dans un rapport de dimensions pour générer un nombre approximatif d’éléments pour une dimension distincte. Par exemple, un nombre d’ID de client utilisés dans un rapport Type de périphérique mobile.
 
@@ -316,9 +316,9 @@ TANH(metric)
 |---|---|
 | *metric* | Angle en radians pour lequel vous souhaitez obtenir la tangente hyperbolique. |
 
-## SI (ligne) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
+## IF (ligne) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
-La fonction SI renvoie une valeur si une condition que vous spécifiez est évaluée sur TRUE, et une autre valeur si cette condition est évaluée sur FALSE.
+La fonction IF renvoie une valeur si une condition que vous spécifiez est évaluée sur TRUE, et une autre valeur si cette condition est évaluée sur FALSE.
 
 ```
 IF(logical_test, [value_if_true], [value_if_false])
@@ -327,8 +327,8 @@ IF(logical_test, [value_if_true], [value_if_false])
 | Argument | Description |
 |---|---|
 | *logical_test* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
-| *[value_if_true]* | Valeur que vous souhaitez voir renvoyer si l’argument *logical_test* est évalué sur VRAI. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
-| *[value_if_false]* | Valeur que vous souhaitez voir renvoyer si l’argument *logical_test* est évalué sur FAUX. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
+| *[value_if_true]* | Valeur que vous souhaitez voir renvoyer si l’argument *logical_test* est évalué sur TRUE. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
+| *[value_if_false]* | Valeur que vous souhaitez voir renvoyer si l’argument *logical_test* est évalué sur FALSE. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
 
 ## Inférieur à {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
@@ -432,7 +432,7 @@ LN(metric)
 |---|---|
 | *metric* | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme népérien. |
 
-## SAUF {#concept_BD954C455A8148A3904A301EC4DC821E}
+## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
 Renvoie 1 si le nombre est 0 ou renvoie 0 si autre nombre.
 
@@ -444,7 +444,7 @@ NOT(logical)
 |---|---|
 | *logical* | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
 
-L’utilisation de SAUF nécessite de connaître si les expressions (&lt;, >, =, &lt;> , etc.) renvoient la valeur 0 ou 1.
+L’utilisation de NOT nécessite de connaître si les expressions (&lt;, >, =, &lt;> , etc.) renvoient la valeur 0 ou 1.
 
 ## Différent de {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -452,7 +452,7 @@ Renvoie les éléments qui ne comportent pas une correspondance exacte avec la v
 
 ## Ou (ligne) {#concept_AF81A33A376C4849A4C14F3A380639D2}
 
-Renvoie TRUE si un argument est VRAI ou renvoie FALSE si tous les arguments sont FAUX.
+Renvoie TRUE si un argument est TRUE ou renvoie FALSE si tous les arguments sont FALSE.
 
 >[!NOTE]
 >
