@@ -1,16 +1,16 @@
 ---
 title: Durée
-description: Page agrégée de dimensions et de mesures de durée de la visite.
-translation-type: tm+mt
+description: Une page agrégée des dimensions et mesures de durée de la visite.
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1577'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Présentation du temps passé
+# Présentation de la durée de la visite
 
 Diverses mesures et dimensions de [!UICONTROL « durée de la visite »] sont proposées dans les produits Adobe Analytics.
 
@@ -19,12 +19,12 @@ Diverses mesures et dimensions de [!UICONTROL « durée de la visite »] sont 
 | Mesure | Définition | Disponible dans |
 |---|---|---|
 | [!UICONTROL Durée totale en secondes] | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique. Inclut l’instance d’une valeur et la persistance sur tous les accès suivants. Dans le cas des props, la durée de la visite est également prise en compte dans les événements de lien ultérieurs. | Analysis Workspace, Reports &amp; Analytics, Report Builder (appelé « durée totale passée »), Data Warehouse, Ad Hoc Analysis |
-| [!UICONTROL Durée de la visite] (en secondes) | *Durée totale en secondes / (visite-rebonds)*<br>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique lors de chaque visite. | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
-| [!UICONTROL Durée par visiteur] (en secondes) | *Durée totale en secondes / visiteur unique *<br>Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
+| [!UICONTROL Durée de la visite] (en secondes) | *Durée totale en secondes / (visite-rebonds)*<br> Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique lors de chaque visite. | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
+| [!UICONTROL Durée par visiteur] (en secondes) | *Durée totale en secondes / visiteur unique*<br> Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
 | [!UICONTROL Durée moyenne de la visite du site] (en secondes) | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Cette option n’est pas limitée aux moyennes de la visite du « site » comme son nom l’indique. Pour plus d’informations sur les séquences, voir le « Mode de calcul de la durée de la visite ».<br>**Remarque :** Cette mesure diffère très probablement de la « durée de la visite » au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. | Analysis Workspace, Reports &amp; Analytics (en minutes), Report Builder (en minutes), Ad Hoc Analysis |
 | [!UICONTROL Durée de consultation moyenne de la page] | Mesure obsolète.<br> Nous vous recommandons plutôt d’utiliser la « Durée moyenne de la visite du site » si la durée moyenne d’un élément de dimension est requise. | Report Builder (lorsqu’une dimension figure dans la demande) |
 | [!UICONTROL Durée totale de la session], alias [!UICONTROL Durée de session précédente] | SDK d’applications mobiles uniquement. <br>Déterminée la prochaine fois que l’application est lancée, pour la session précédente. Calculée en secondes, cette mesure ne compte pas lorsque l’application est en arrière-plan, mais uniquement lorsqu’elle est en cours d’utilisation. Il s’agit d’une mesure au niveau de la session.<br>Par exemple : vous installez l’application ABC et la lancez. Vous l’utilisez pendant 2 minutes, puis vous la fermez. Aucune donnée n’est envoyée sur la durée de cette session. La prochaine fois que vous lancez l’application, la [!UICONTROL Durée de la session précédente] est envoyée avec une valeur de 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Mobile Services UI |
-| [!UICONTROL Durée de session moyenne] (mobile) | *Durée de session totale / (Lancements - Premiers lancements)*<br>Kit SDK d’applications mobiles uniquement. Il s’agit d’une mesure au niveau de la session. | Report Builder, Mobile Services UI, Ad Hoc Analysis |
+| [!UICONTROL Durée de session moyenne] (mobile) | *Durée de session totale / (Lancements - Premiers lancements)*<br> Kit SDK d’applications mobiles uniquement. Il s’agit d’une mesure au niveau de la session. | Report Builder, Mobile Services UI, Ad Hoc Analysis |
 
 ## Dimensions de « durée de la visite »
 
@@ -88,19 +88,19 @@ R : La différence est le dénominateur de la mesure :
 
 Par conséquent, ces mesures peuvent donner des résultats similaires au niveau de la visite, mais elles seront différentes au niveau de l’accès.
 
-**Q5 : Pourquoi les totaux de ventilation avec la Durée[!UICONTROL moyenne de la visite du site]ne correspondent-ils pas à l’élément de ligne parent ?**
+**Q5 : Pourquoi les totaux de ventilation avec la [!UICONTROL Durée moyenne de la visite du site] ne correspondent-ils pas à l’élément de ligne parent ?**
 
-A : Etant donné que la durée [!UICONTROL moyenne de la visite du site] dépend de séquences ininterrompues d’une dimension et que le rapport interne ne dépend pas du rapport externe lors du calcul de ces exécutions.
+R : Parce que la [!UICONTROL Durée moyenne de la visite du site] dépend de séquences ininterrompues d’une dimension et que le rapport interne ne dépend pas du rapport externe lors du calcul de ces exécutions.
 
-Prenons l’exemple de la visite suivante.
+Prenons pour exemple la visite suivante.
 
 | accès# | 1 | 2 | 3 |
 |---|---|---|---|
 | **Secondes écoulées** | 30 | 100 | 10 |
 | **Nom de la page** | Accueil | Product | Accueil |
-| **date** | 1er janvier | 1er janvier | 1er janvier |
+| **date** | 1er jan | 1er jan | 1er jan |
 
-Lors du calcul du temps passé pour la page d&#39;accueil, il serait (30+10)/2=20, mais la ventilation par jour donnerait (30+10)/1=40 puisque la journée a une seule exécution ininterrompue du 1er janvier.
+Le calcul du temps passé pour la page d’accueil correspondrait à (30+10)/2=20, mais la ventilation par jour donnerait (30+10)/1=40, puisque la journée comporte une seule exécution ininterrompue pour le 1er janvier.
 
 Par conséquent, ces mesures peuvent donner des résultats similaires au niveau de la visite, mais elles seront différentes au niveau de l’accès.
 
@@ -113,9 +113,9 @@ Supposons que le jeu d’appels au serveur suivant concerne un seul visiteur au 
 | **Temps écoulé de la visite (en secondes)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Secondes écoulées** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Type d’accès** | Page | Lien | Page | Page | Page | Page | Page |
-| **Nom de la page** | Accueil | - | Product | Accueil | Accueil  (recharge) | Panier | Confirmation de commande |
+| **Nom de la page** | Accueil | - | Product | Accueil | Accueil   (recharge) | Panier | Confirmation de commande |
 |  |  |  |  |  |  |  |  |
-| **prop1** | A  (définie) | A (propagée) | non définie | B (définie) | B (définie) | A (jeu) | C  (définie) |
+| **prop1** | A   (définie) | A (propagée) | non définie | B (définie) | B (définie) | A (définie) | C   (définie) |
 | **secondes écoulées prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Rouge (définie) | Rouge (persistante) | (expirée) | Bleu (définie) | Bleu (définie) | Bleu (persistante) | Rouge (définie) |
