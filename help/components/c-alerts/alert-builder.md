@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Générateur d’alertes
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Le Générateur d’alertes peut être ouvert de l’une des quatre façons suiv
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
    `ctrl (or cmd) + shift + a`
-* En sélectionnant **[!UICONTROL Espace de travail]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
+* En sélectionnant **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
 * En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
 * Dans un rapport [!UICONTROL Reports &amp; Analytics], en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
 
