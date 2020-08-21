@@ -1,19 +1,19 @@
 ---
-title: vues de panier
-description: Nombre d’accès pour lesquels un visiteur a consulté son panier.
-translation-type: tm+mt
+title: Consultations du panier
+description: Le nombre d’accès pendant lesquels un visiteur a consulté son panier.
+translation-type: ht
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# vues de panier
+# Consultations du panier
 
-La mesure &quot;vues de panier&quot; indique le nombre de fois où un visiteur a consulté son panier. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients vue le contenu de leur panier.
+La mesure « Consultations du panier » indique le nombre de fois qu’un visiteur a consulté son panier. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients consultent le contenu de leur panier.
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure compte le nombre d’accès où `scView` se trouve la [`events`](/help/implement/vars/page-vars/events/events-overview.md) variable.
+Cette mesure tient compte du nombre d’accès dans lesquels `scView` se trouve dans la variable [`events`](/help/implement/vars/page-vars/events/events-overview.md).
