@@ -1,27 +1,27 @@
 ---
 title: Catégorie
-description: catégorie de produit de l’accès.
+description: La catégorie de produits de l’accès.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 1%
+ht-degree: 85%
 
 ---
 
 
 # Catégorie
 
-La dimension &quot;Catégorie&quot; rapporte la catégorie de produit de l’accès. Il est utile pour les implémentations qui utilisent la `products` variable et souhaitent afficher les mesures autour de la catégorie de produits, telles que les meilleurs vendeurs ou les plus consultés. Cette dimension peut être volontairement vide si vous n’avez aucun produit sur votre site.
+La dimension « Catégorie » indique la catégorie de produits de l’accès. Elle est utile pour les implémentations qui utilisent la variable `products` et cherchent à obtenir des mesures de catégorie de produits, comme les articles les plus vendus ou les plus consultés. Il est possible que cette dimension reste délibérément vide si votre site ne contient aucun produit.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à la première partie de la chaîne dans la [`products`](/help/implement/vars/page-vars/products.md) variable. Tout ce qui précède le premier point-virgule (`;`) renseigne cette dimension.
+Cette dimension fait référence à la première partie de la chaîne dans la variable [`products`](/help/implement/vars/page-vars/products.md). Tout ce qui précède le premier point-virgule (`;`) renseigne cette dimension.
 
-## Éléments de dimension
+## Éléments de Dimension
 
-Cette variable étant basée sur une chaîne personnalisée dans votre implémentation, votre organisation détermine les éléments de dimension. Adobe recommande de regrouper des produits individuels en catégories significatives, en utilisant à la fois les dimensions &quot;Produit&quot; et &quot;Catégorie&quot;.
+Cette variable étant basée sur une chaîne personnalisée dans votre implémentation, votre organisation détermine les éléments de dimension. Adobe recommande de regrouper des produits individuels en catégories significatives, en utilisant à la fois les dimensions « Produit » et « Catégorie ».
 
 >[!TIP]
 >
->Dans les versions précédentes d&#39;Adobe Analytics, certaines limites à la dimension &quot;Catégorie&quot; ont été imposées en raison de son architecture de traitement. Ces limites ont été supprimées depuis, ce qui vous permet d’utiliser n’importe quelle mesure et toute ventilation.
+>Dans les versions précédentes d’Adobe Analytics, certaines limites à la dimension « Catégorie » étaient imposées en raison de son architecture de traitement. Ces limites ont depuis été supprimées, ce qui vous permet d’utiliser n’importe quelle mesure et n’importe quelle ventilation.
