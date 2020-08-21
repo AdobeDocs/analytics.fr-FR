@@ -2,11 +2,11 @@
 description: 'En savoir plus sur les '
 title: Type de mesure et attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -28,18 +28,19 @@ Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’u
 
 >[!IMPORTANT]
 >
->En juillet 2018, [!DNL Analytics] a ajouté la nouvelle fonctionnalité [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), qui a revu la manière dont les modèles d’attribution dans les mesures calculées sont évalués. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
+>En juillet 2018, [!DNL Analytics] a ajouté la nouvelle fonctionnalité [Attribution IQ](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/attribution/models.html), qui a revu la manière dont les modèles d’attribution dans les mesures calculées sont évalués. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
 >
->* Pour obtenir la liste complète des modèles d’attribution qui ne sont pas par défaut et les intervalles de recherche en amont pris en charge, consultez la documentation d’[Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
+>* Pour obtenir la liste complète des modèles d’attribution qui ne sont pas par défaut et les intervalles de recherche en amont pris en charge, consultez la documentation d’[Attribution IQ](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/attribution/models.html).
 >* Les modèles d’attribution « Dernière touche canal marketing » et « Première touche canal marketing » seront migrés vers les nouveaux modèles d’attribution « Dernière touche » et « Première touche », respectivement. (Remarque : les rapports « Canaux marketing » ne seront pas obsolètes, seuls les deux modèles d’attribution qui apparaissent dans les mesures calculées le seront.)
->* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. Cette modification des mesures calculées sera reflétée dans Analysis Workspace, Reports &amp; Analytics, l’API de création de rapports, Report Builder et Ad Hoc Analysis. For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
+>* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. Cette modification des mesures calculées sera reflétée dans Analysis Workspace, Reports &amp; Analytics, l’API de création de rapports, Report Builder et Ad Hoc Analysis. Pour plus d’informations, consultez la section **Fonctionnement de l’affectation linéaire (à partir du 19 juillet 2018)** ci-dessous.
+
 >
 
 
 
-## Fonctionnement de l’attribution linéaire (au 19 juillet 2018)
+## Fonctionnement de l’affectation linéaire (à partir du 19 juillet 2018)
 
-En juillet 2018, Adobe a modifié la manière de générer des rapports sur l’affectation linéaire pour les mesures calculées. Cette modification a un impact sur Analysis Workspace, sur l’Ad Hoc Analysis, sur les Reports &amp; Analytics, sur le Report Builder, sur Activity Map et sur les API de création de rapports. Ce changement a principalement un impact sur les eVars et les autres dimensions qui ont une persistance. Notez que ces modifications s’appliquent uniquement aux mesures calculées et n’affectent pas les autres rapports à l’aide d’une attribution linéaire (comme le rapport Pages dans les rapports et analyses). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
+En juillet 2018, Adobe a modifié la manière de générer des rapports sur l’affectation linéaire pour les mesures calculées. Cette modification a un impact sur Analysis Workspace, sur l’Ad Hoc Analysis, sur les Reports &amp; Analytics, sur le Report Builder, sur Activity Map et sur les API de création de rapports. Elle concerne essentiellement les eVars et autres dimensions présentant une persistance. Notez que ces changements s’appliquent uniquement aux mesures calculées et n’ont pas d’impact sur les autres rapports utilisant l’affectation linéaire (notamment le rapport Pages de Reports &amp; Analytics). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
 
 L’exemple suivant explique comment les mesures calculées avec l’affectation linéaire changeront dans les rapports :
 
@@ -52,14 +53,14 @@ L’exemple suivant explique comment les mesures calculées avec l’affectation
 
 Dans cet exemple, les valeurs A, B et C ont été envoyées dans une variable aux accès 1, 3, 4 et 6 avant la réalisation d’un achat de 10 $ à l’accès 7. Dans la deuxième ligne, ces valeurs persistent dans les accès sur une base de visite de dernière touche. La troisième ligne représente une persistance de visite de première touche. Enfin, la dernière ligne indique comment les données seraient enregistrées pour une Prop qui ne présente pas de persistance.
 
-## Différences entre le fonctionnement de l’attribution linéaire dans les rapports et analyses et l’espace de travail
+## Différences de fonctionnement de l’affectation linéaire dans Reports &amp; Analytics par rapport à Workspace
 
-Il existe des différences dans le fonctionnement de l’attribution linéaire entre ces deux outils :
+Ces deux outils présentent des différences de fonctionnement de l’attribution linéaire :
 
-* Dans les rapports et analyses, l’attribution linéaire (traitée) est toujours basée sur les visites, tandis que dans Workspace, elle peut être basée sur les visites ou les visiteurs.
-* Dans les rapports et analyses, si aucune valeur n’a été transmise lors du premier accès d’une visite, la valeur (initiale) persiste lors de la visite précédente. Ceci n’est PAS le cas dans Workspace (Attribution IQ). Si aucune valeur n’est transmise lors du premier accès d’une visite, &quot;Aucun&quot; est la valeur initiale.
+* Dans Reports &amp; Analytics, l’attribution linéaire (traitée) est toujours basée sur les visites, tandis que dans Workspace, elle peut être basée sur les visites ou les visiteurs.
+* Dans Reports &amp; Analytics, si aucune valeur n’est transmise lors du premier accès d’une visite, la valeur (initiale) persiste à partir de la visite précédente. Ce n’est PAS le cas dans Workspace (Attribution IQ). Si aucune valeur n’est transmise lors du premier accès d’une visite, « Aucun » est la valeur initiale.
 
-## Fonctionnement de l&#39;attribution linéaire avant juillet 2018
+## Fonctionnement de l’affectation linéaire avant le mois de juillet 2018
 
 Avant le 19 juillet 2018, l’attribution linéaire était calculée après que la persistance de première touche ou de dernière touche ait eu lieu. Cela signifiait que pour l’eVar de dernière touche ci-dessus, les 10 $ auraient été distribués comme suit : A = 10 * (3/6) = 5 $, B = 10 * (2/6) = 3,33 $, C = 10 * (1/6) = 1,67 $.
 
