@@ -1,22 +1,22 @@
 ---
-title: vues de produits
-description: Nombre de vues aux pages de produits.
-translation-type: tm+mt
+title: Consultations de produit
+description: Nombre de pages de produit vues.
+translation-type: ht
 source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# vues de produits
+# Consultations de produit
 
-La mesure &quot;vues de produits&quot; indique le nombre de fois où un produit a été consulté. Cette mesure s’avère utile lorsque vous souhaitez afficher vos produits les plus consultés ou déterminer l’évolution des vues totales de produits au fil du temps.
+La mesure « Consultations de produit » indique le nombre de fois où un produit a été consulté. Cette mesure s’avère utile lorsque vous souhaitez afficher vos produits les plus consultés ou déterminer l’évolution des pages de produit vues au fil du temps.
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure comptabilise le nombre d’accès qui correspondent à **l’une** des mesures suivantes :
+Cette mesure comptabilise le nombre d’accès correspondant à **n’importe laquelle** des options suivantes :
 
-* La valeur `prodView` existe dans la [`events`](/help/implement/vars/page-vars/events/events-overview.md) variable ; ou
-* La [`products`](/help/implement/vars/page-vars/products.md) variable est définie et aucun événement de panier n’existe dans la `events` variable. Tout événement non personnalisé (`event1` - `event1000`) est un événement de panier.
+* La valeur `prodView` existe dans la variable [`events`](/help/implement/vars/page-vars/events/events-overview.md), ou
+* La variable [`products`](/help/implement/vars/page-vars/products.md) est définie et aucun événement de panier n’existe dans la variable `events`. Tout événement non personnalisé (`event1` - `event1000`) est un événement de panier.
