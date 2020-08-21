@@ -3,6 +3,9 @@ title: Aide sur l’exportation dans Analytics
 description: valeur nulle
 translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '133'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ Ce guide décrit comment extraire des données d’Adobe Analytics. Il inclut :
 * [Data Warehouse](data-warehouse/data-warehouse.md)
 * [Exportation vers FTP](ftp-and-sftp/ftp-overview.md)
 
-## Plus de guides d’utilisation Analytics
+## Plus de guides d’utilisation d’Analytics
 
 [Guides d’utilisation d’Analytics](/help/landing/home.md)
 
