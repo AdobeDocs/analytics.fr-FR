@@ -1,8 +1,11 @@
 ---
 title: Adobe Analytics et les cookies de navigateur
 description: Découvrez comment Adobe Analytics gère les cookies d’un navigateur.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
+workflow-type: ht
+source-wordcount: '2286'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,7 @@ Pour mesurer l’impact sur les rapports et les tests, il est important de conna
 
 ## Quels sont les navigateurs que les visiteurs utilisent le plus ?
 
-Si vous souhaitez en savoir plus sur les navigateurs utilisés par vos visiteurs, vous pouvez utiliser la [dimension Navigateur](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-browsers.html) d’Analytics pour déterminer les navigateurs les plus utilisés pour vos sites. Vous pouvez également utiliser les dimensions Analytics pour identifier les navigateurs les plus utilisés selon les régions géographiques. Pour plus d’informations, voir [Géosegmentation](https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/dimensions-reports/reports-geosegmentation.html).
+Si vous souhaitez en savoir plus sur les navigateurs utilisés par vos visiteurs, vous pouvez utiliser la [dimension Navigateur](https://docs.adobe.com/content/help/fr-FR/analytics/components/dimensions/browser.html) d’Analytics pour déterminer les navigateurs les plus utilisés pour vos sites. Vous pouvez également utiliser les dimensions Analytics pour identifier les navigateurs les plus utilisés selon les régions géographiques. Pour plus d’informations, voir [Géosegmentation](https://docs.adobe.com/content/help/fr-FR/analytics/components/dimensions/countries.html).
 
 Selon [statcounter](https://gs.statcounter.com/browser-market-share/all), à la fin de 2019, la part de marché mondiale pour chaque navigateur était la suivante :
 
