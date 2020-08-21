@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -16,11 +16,11 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 
 >[!NOTE]
 >
->Les noms de variable personnalisée, les classifications et les attributs de visiteur sont omis de cette liste. Ces éléments de dimension sont spécifiques à des suites de rapports individuelles.
+>Les attributs de visiteur, les classifications et les noms de variable personnalisée sont omis de cette liste. Ces éléments de dimension sont spécifiques à des suites de rapports individuelles.
 
 >[!NOTE]
 >
->Il existe des chevauchements où les outils Analytics utilisent des termes différents pour des dimensions similaires. Par exemple, Reports &amp; Analytics utilise `browserwidth` alors que les utilisateurs Analysis Workspace `browserwidthbucketed`.
+>Il existe des chevauchements où les outils Analytics utilisent des termes différents pour des dimensions similaires. Par exemple, Reports &amp; Analytics utilise `browserwidth` alors qu’Analysis Workspace utilise `browserwidthbucketed`.
 
 ## Dimensions prises en charge à la fois dans Reports &amp; Analytics et Analysis Workspace
 
@@ -43,7 +43,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Jours avant le premier achat | `daysbeforefirstpurchase` |
 | Jours depuis le dernier achat | `dayssincelastpurchase` |
 | Domaine | `filtereddomain` |
-| Download Link (Lien de téléchargement) | `downloadlink` |
+| Lien de téléchargement | `downloadlink` |
 | Page d’accès | `entrypage` |
 | Page d’accès d’origine | `entrypageoriginal` |
 | Exit Link (Lien de sortie) | `exitlink` |
@@ -84,7 +84,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | SC-TnT | `tntbase` |
 | Moteur de recherche | `searchengine` |
 | Mot-clé de recherche | `searchenginekeyword` |
-| Moteur de recherche - Naturelle | `searchenginenatural` |
+| Moteur de recherche  - Naturel | `searchenginenatural` |
 | Moteur de recherche - Payant | `searchenginepaid` |
 | Mot-clé de recherche - Naturel | `searchenginenaturalkeyword` |
 | Mot-clé de recherche - Payant | `searchenginepaidkeyword` |
@@ -124,7 +124,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Quitter la page | `exitpage` |
 | Quitter le serveur | `exitserver` |
 | Quitter la section de site | `exitsitesections` |
-| Détail des accès | `hitdepth` |
+| Profondeur d’accès | `hitdepth` |
 | Type d’accès | `hittype` |
 | Heure | `daterangehour` |
 | Heure du jour | `timeparthourofday` |
@@ -306,11 +306,11 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Lien d’Activity Map par région | `clickmaplinkbyregion` |
 | Région d’Activity Map | `clickmapregion` |
 | Lien d’Activity Map | `clickmaplink` |
-| Activity Map Page | `clickmappage` |
+| Activity Map  Page | `clickmappage` |
 
 ### Intégration Nielsen
 
-For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
+Pour plus d’informations sur la manière d’implémenter cette intégration, consultez [Extension Nielsen](https://exchange.adobe.com/experiencecloud.details.101361.html).
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
