@@ -4,9 +4,9 @@ subtopic: Data sources
 title: Fonctionnement des sources de données
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
@@ -28,11 +28,11 @@ Vous pouvez envoyer des données de deux façons :
 * [FTP](/help/import/c-data-sources/datasrc-how-data-sources-works.md#section_0E70022648F94061AF5B4AD6C7145243)
 * [API](/help/import/c-data-sources/datasrc-how-data-sources-works.md#section_65DACC9CE00C437BBFDD02D19C25A4BD)
 
-## FTP {#section_0E70022648F94061AF5B4AD6C7145243}
+## FTP  {#section_0E70022648F94061AF5B4AD6C7145243}
 
 Vous pouvez créer et gérer des sources de données FTP au moyen de rapports marketing ; le transfert de fichier FTP est alors mis à profit pour importer des fichiers de données dans la fonctionnalité Sources de données. Après avoir créé une source de données, Adobe vous fournit un emplacement FTP que vous pouvez utiliser pour transférer les fichiers de source de données. Une fois ces fichiers transférés, ils sont automatiquement localisés et traités. Une fois le traitement terminé, les données sont disponibles pour les rapports marketing.
 
-## API {#section_65DACC9CE00C437BBFDD02D19C25A4BD}
+## API  {#section_65DACC9CE00C437BBFDD02D19C25A4BD}
 
 Adobe propose une API Sources de données qui permet de lier par programmation les applications dans les sources de données. Vous n’avez ainsi plus besoin d’un serveur FTP intermédiaire ; les données sont transférées par HTTP, SOAP et REST.
 
