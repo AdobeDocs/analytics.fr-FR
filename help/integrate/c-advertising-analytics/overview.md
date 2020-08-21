@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Advertising Analytics - Aperçu
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Cette intégration est destinée aux audiences ci-dessous :
 * Dans le cas de Bings Ads, les ID de client Bing sont également requis.
 * Si vous utilisez Internet Explorer 11 (ou une version antérieure), vous ne parviendrez pas à [configurer un compte publicitaire](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) pour aucun des trois moteurs de recherche. Utilisez d’autres navigateurs web en remplacement.
 
-## Autorisations Advertising Analytics {#section_FCC58EB635954A32990D4E67B52B4369}
+## Autorisations Advertising Analytics  {#section_FCC58EB635954A32990D4E67B52B4369}
 
 Avec Analytics, deux autorisations sont automatiquement accordées aux administrateurs Analytics. Ceux-ci peuvent ensuite choisir d’accorder ces autorisations à des non-administrateurs.
 
