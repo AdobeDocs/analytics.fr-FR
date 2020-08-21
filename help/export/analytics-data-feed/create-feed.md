@@ -1,9 +1,9 @@
 ---
 title: Création ou modification d’un flux de données
 description: Découvrez comment créer ou modifier un flux de données.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Les 11 régions standard AWS suivantes sont prises en charge (en utilisant l’
 
 ### Azure Blob
 
-Les flux de données prennent en charge les destinations Azure Blob. Nécessite un conteneur, un compte et une clé. Amazon chiffre automatiquement les données au repos. Les données que vous téléchargez sont automatiquement déchiffrées. Pour en savoir plus, consultez [Création d’un compte Azure Storage](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-create?tabs=azure-portal#view-and-copy-storage-access-keys) dans la documentation Microsoft Azure.
+Les flux de données prennent en charge les destinations Azure Blob. Nécessite un conteneur, un compte et une clé. Amazon chiffre automatiquement les données au repos. Les données que vous téléchargez sont automatiquement déchiffrées. Pour en savoir plus, consultez [Création d’un compte Azure Storage](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) dans la documentation Microsoft Azure.
 
 ![Informations sur Azure](assets/azure.png)
 
