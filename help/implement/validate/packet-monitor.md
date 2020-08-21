@@ -40,7 +40,7 @@ Même si Adobe ne fournit pas un moniteur de paquets officiel, de nombreux monit
 
 >[!NOTE]
 >
->Adobe ne prend PAS en charge ou ne résout pas les problèmes que vous rencontrez avec ces moniteurs de paquets. Consultez le site d’origine du moniteur de paquets pour obtenir de l’aide.
+>adobe ne prend PAS en charge ou ne résout pas les problèmes que vous rencontrez avec ces moniteurs de paquets. Consultez le site d’origine du moniteur de paquets pour obtenir de l’aide.
 
 ## Codes d’état de réponse HTTP standard
 
