@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Référence du fichier d’importation
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Générez un modèle d’importation à l’aide de l’Assistant des sources de
 
 Les titres de colonnes permettent d’identifier les données dans chaque colonne du fichier de source de données. Il existe trois types de titres de colonne :
 
-**Date**: (Obligatoire) Horodatage de chaque ligne de données du fichier, au format `m/d/yyyy`.
+**Date** : (requise) horodatage pour chaque ligne de données du fichier au format `m/d/yyyy`.
 
 **Variables** : nom des variables de rapports associées aux dimensions de données de la source de données.
 
