@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Conversion
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 Les portées de données de conversion suivantes, ainsi que les mesures pour les types de données traités comme conversion, sont prises en charge.
 
-## Conversion Dimensions and Metrics {#section_FA1731B232B246DABEDF5A5D84159084}
+## Conversion  de conversion {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Si vous définissez un événement de consultation, vous devez également définir la portée de données correspondante (eVar). Si, par exemple, vous incluez des consultations eVar2, vous devez configurer la variable eVar2. Le nombre d’événements personnalisés et de consultations eVar pris en charge par une suite de rapports est contractuel et varie d’une entreprise à une autre.
 
@@ -28,7 +28,7 @@ Si vous définissez un événement de consultation, vous devez également défin
 | Code de suivi | Nom du code de suivi. |
 | Date | Utilisez le format de date suivant : MM/JJ/AAAA/HH/mm/SS (par exemple, 01/01/2015/06/00/00). |
 | Catégorie | Nom de la catégorie.  Si vous définissez une catégorie, vous devez également sélectionner un produit. |
-| Channel | Nom du canal. |
+| Canal | Nom du canal. |
 | eVarn | Nom de la variable eVarn. Valeurs valides de n : nombre entier entre 1 et 250. |
 | Product | Nom du produit. |
 | État | Nom de l’état. |
@@ -48,5 +48,5 @@ Si vous définissez un événement de consultation, vous devez également défin
 | Consultations d’eVarn | Nombre de fois où la variable eVar n a été consultée. Valeurs valides de n : nombre entier entre 1 et 250. |
 | Prix | Prix du produit. |
 | Commandes | Nombre de commandes passées. |
-| Consultations produits | Nombre de consultations de produit. |
+| Consultations de produit | Nombre de consultations de produit. |
 | Quantité | Nombre d’unités vendues. |
