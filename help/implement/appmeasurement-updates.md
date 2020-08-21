@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '2123'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gesti
 
 Date de publication : **24 juin 2020**
 
-* Correction d’un problème en raison duquel le filtre linkExclusions du Activity Map n’était pas toujours appliqué pour Firefox.
+* Correction d’un problème en raison duquel le filtre linkExclusions d’Activity Map n’était pas toujours appliqué pour Firefox.
 
 ## Version 2.20.0
 
@@ -41,7 +41,7 @@ Date de publication : **21 février 2020**
 
 Date de publication : **13 février 2020**
 
-* AppMeasurement peut désormais forcer les cookies à inclure l’attribut Secure en définissant la [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variable. Cette variable requiert que l’intégralité du site Web client soit diffusée en toute sécurité (HTTPS). (AN-204604)
+* AppMeasurement peut désormais forcer les cookies à inclure l’attribut Sécurisé en définissant la variable [`writeSecureCookies`](vars/config-vars/writesecurecookies.md). Cette variable requiert la diffusion sécurisée (HTTPS) de l’intégralité du site Web client. (AN-204604)
 
 ## Version 2.17.0
 
@@ -325,7 +325,7 @@ Date de publication : **16 avril 2015**
 Date de publication : **19 février 2015**
 
 * Homogénéisation de la gestion de tous les appels de suivi retardés, avec correction des problèmes liés aux variables sauvegardées durant le retard (par exemple l’objet sur lequel on a cliqué).
-* Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
+* Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand  *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
 * Le fichier compressé de distribution a été mis à jour pour inclure l’API visiteur 1.3.5.
 
 ## Version 1.4.2
