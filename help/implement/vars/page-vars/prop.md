@@ -1,26 +1,26 @@
 ---
 title: prop
 description: Variables personnalisées que vous pouvez utiliser dans votre mise en œuvre.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # prop
 
-*Cette page d’aide décrit comment implémenter des props. For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
+*Cette page d’aide décrit comment implémenter des props. Pour plus d’informations sur le fonctionnement des props en tant que dimension, consultez[prop](/help/components/dimensions/prop.md)dans le guide d’utilisation Composants.*
 
-Les props sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Ils ne persistent pas au-delà de l&#39;impact qu&#39;ils ont défini.
+Les props sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Elles ne persistent pas au-delà de l’accès défini.
 
 >[!TIP]
 >
->Adobe recommends using [eVars](evar.md) in most cases. Dans les versions précédentes d’Adobe Analytics, les props et eVars présentaient des avantages et des inconvénients les uns pour les autres. Toutefois, Adobe a amélioré les eVars afin qu’elles répondent à presque tous les cas d’utilisation des props.
+>Dans la plupart des cas, Adobe recommande d’utiliser des [eVars](evar.md). Dans les versions précédentes d’Adobe Analytics, les props et eVars présentaient des avantages et des inconvénients les uns pour les autres. Toutefois, Adobe a amélioré les eVars afin qu’elles répondent à presque tous les cas d’utilisation des props.
 
-Si vous disposez d’un document [de conception de](/help/implement/prepare/solution-design.md)solution, vous pouvez allouer ces dimensions personnalisées aux valeurs propres à votre entreprise. Le nombre de props disponibles dépend de votre contrat avec Adobe. Jusqu’à 75 props sont disponibles si votre contrat avec Adobe le prend en charge.
+Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), vous pouvez attribuer ces dimensions personnalisées aux valeurs propres à votre entreprise. Le nombre de props disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 75 props.
 
 ## Props dans Adobe Experience Platform Launch
 
