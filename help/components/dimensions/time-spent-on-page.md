@@ -1,42 +1,42 @@
 ---
 title: Durée de consultation de la page
-description: Durée passée par un visiteur sur la page.
+description: Le temps passé par un visiteur sur la page.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 13%
+ht-degree: 92%
 
 ---
 
 
 # Durée de consultation de la page
 
-La dimension &quot;Durée de consultation de la page&quot; enregistre la durée passée par un visiteur sur la page. Elle utilise les étapes suivantes pour mesurer le calcul :
+La dimension « Durée de consultation de la page » enregistre le temps passé par un visiteur sur la page. Elle utilise les étapes suivantes pour mesurer le calcul :
 
-1. Pour un accès donné, observez l’horodatage.
-2. Comparez cet accès à l’horodatage du prochain accès de la visite. La vue de page et le suivi des liens comptabilisent tous les accès.
-3. La durée écoulée entre ces deux accès contribue au temps passé.
+1. Pour un accès donné, consultez la date et l’heure.
+2. Comparez cet accès à l’horodatage du prochain accès de la visite. L’accès de suivi des pages vues et des liens est important.
+3. Le temps écoulé entre ces deux accès contribue à la durée de consultation.
 
-Cette dimension est utile pour comprendre la durée d’interaction des visiteurs avec une mesure donnée sur votre site.
+Cette dimension est utile pour déterminer la durée d’interaction des visiteurs avec une mesure donnée sur votre site.
 
 >[!TIP]
 >
->La durée de la visite n’est pas mesurée pour le dernier accès de la visite, car aucune demande d’image ultérieure ne permet de mesurer le temps écoulé. Ce concept s’applique également aux visites consistant en un seul accès (un rebond).
+>Le temps passé n’est pas mesuré pour le dernier accès de la visite, puisqu’il n’existe aucune demande d’image ultérieure pour mesurer le temps écoulé. Ce concept s’applique également aux visites composées d’un seul accès (un rebond).
 
-Cette dimension est basée sur les accès, ce qui signifie que la valeur est différente pour chaque accès. Comparez cette dimension à [Durée de la visite](time-spent-per-visit.md), qui est une dimension basée sur les visites. Plus le temps passé est long, plus le visiteur reste longtemps sur une page (accès).
+Cette dimension est basée sur les accès, ce qui signifie que la valeur est différente pour chaque accès. Comparez cette dimension à [Durée de la visite](time-spent-per-visit.md), qui est une dimension basée sur les visites. Une durée de visite plus longue signifie qu’un visiteur a passé plus de temps sur une page (accès).
 
 ![Durée de consultation de la page](../metrics/assets/time-spent2.png)
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, cette dimension fonctionne.
+Cette dimension est prête à l’emploi pour toutes les implémentations. Cette dimension fonctionne si une suite de rapports contient des données.
 
-## Éléments de dimension
+## Éléments de Dimension
 
-Il existe plusieurs dimensions pour la durée de consultation de la page :
+Il existe plusieurs dimensions pour la durée de consultation de la page :
 
-* **Durée de consultation de la page - cumulée**: La durée est cumulée. Les éléments de dimension vont de `"Less than 15 seconds"` à `"More than 30 minutes"`. La durée entre les vues de page ne dure généralement pas plus de 30 minutes ; toutefois, le délai entre les vues de page peut dépasser 30 minutes si vous utilisez des accès horodatés ou des sources de données.
+* **Durée de consultation de la page - regroupée** : la durée est regroupée. Dimension items range from `"Less than 15 seconds"` to `"More than 30 minutes"`. La durée entre les pages vues ne dépasse généralement pas 30 minutes. Toutefois, la durée entre les pages vues peut dépasser 30 minutes si vous utilisez des accès horodatés ou des sources de données.
 * **Durée de consultation de la page - granulaire**: Chaque nombre de secondes est un élément de dimension unique.
 
-Voir Présentation [de la](../metrics/time-spent.md) durée de la visite pour obtenir des informations plus générales sur la durée de la visite.
+Consultez [Présentation de la durée de consultation](../metrics/time-spent.md) pour obtenir des informations plus générales sur la durée de consultation.
