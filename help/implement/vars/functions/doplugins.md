@@ -1,9 +1,9 @@
 ---
 title: doPlugins
 description: Permet de configurer la logique juste avant qu’un accès ne soit compilé et envoyé à Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # doPlugins
 
-La variable `doPlugins` agit comme un « dernier appel » pour définir des valeurs dans votre mise en œuvre. Si l(option [`usePlugins`](../config-vars/useplugins.md) est activée, celle-ci s’exécute automatiquement juste avant que n’importe quel type de demande d’image ne soit compilé et envoyé à Adobe, notamment :
+La variable `doPlugins` agit comme un « dernier appel » pour définir des valeurs dans votre mise en œuvre. Si l’option [`usePlugins`](../config-vars/useplugins.md) est activée, celle-ci s’exécute automatiquement juste avant que n’importe quel type de demande d’image ne soit compilé et envoyé à Adobe, notamment :
 
 * Tous les appels de page vue ([`t()`](t-method.md))
 * Tous les appels de suivi de liens ([`tl()`](tl-method.md)), y compris les liens de téléchargement et de sortie automatiques
