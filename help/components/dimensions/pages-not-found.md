@@ -1,28 +1,28 @@
 ---
 title: Pages introuvables
-description: URL qui ont renvoyé une erreur sur votre site.
+description: Adresses URL ayant renvoyé une erreur sur votre site.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 2%
+ht-degree: 92%
 
 ---
 
 
 # Pages introuvables
 
-*Cette page d&#39;aide décrit le fonctionnement de &quot;Pages introuvables&quot; en tant que dimension. Pour plus d’informations, voir la mesure[Pages introuvables](../metrics/pages-not-found.md).*
+*Cette page d’aide décrit le fonctionnement de la dimension « Pages introuvables ». Pour plus d’informations, consultez la mesure[Pages introuvables](../metrics/pages-not-found.md).*
 
-La dimension Pages introuvables affiche les URL qui contenaient une erreur. Cette dimension s’avère utile lorsque vous souhaitez réduire le nombre d’erreurs que les visiteurs rencontrent sur votre site.
+La dimension « Pages introuvables » indique les adresses URL qui contenaient une erreur. Cette dimension s’avère utile lorsque vous souhaitez réduire le nombre d’erreurs rencontrées par les visiteurs sur votre site.
 
-* Vous pouvez utiliser cette dimension dans une visualisation [](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) Flux pour identifier les pages que les visiteurs cliquent pour atteindre l’erreur. Vous pouvez ensuite travailler avec les équipes de développement de votre organisation pour corriger le lien sur chaque page.
-* Vous pouvez utiliser cette dimension avec la dimension [&quot;Parrain&quot;](referrer.md) pour déterminer où les visiteurs arrivent sur votre site à partir de liens externes. Vous pouvez ensuite implémenter des redirections vers l’emplacement souhaité ou travailler avec un tiers pour faire réparer le lien.
+* Vous pouvez utiliser cette dimension dans une [visualisation de flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) pour identifier les pages sur lesquelles les visiteurs cliquent pour atteindre l’erreur. Vous pouvez ensuite travailler avec les équipes de développement de votre organisation pour corriger le lien sur chaque page.
+* Vous pouvez utiliser cette dimension avec la dimension [Référent](referrer.md) pour déterminer la page de votre site sur laquelle les visiteurs arrivent depuis les liens externes. Vous pouvez ensuite implémenter des redirections vers l’emplacement souhaité ou travailler avec un tiers pour corriger le lien.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données des chaînes [`pageType` `g` et](/help/implement/validate/query-parameters.md) de requête dans les demandes d’image. Si la chaîne de `pageType` requête est égale `errorPage`, la chaîne de `g` requête (URL de page) est enregistrée. AppMeasurement collecte ces données à l’aide de la [`pageType`](/help/implement/vars/page-vars/pagetype.md) variable. Si la `pageType` variable n’est pas définie ou définie sur autre chose `errorPage`, aucune donnée pour cette dimension n’est collectée.
+Cette dimension récupère les données des chaînes de requête](/help/implement/validate/query-parameters.md) à partir de [`pageType` et `g` dans les demandes d’image. Si la chaîne de requête `pageType` est égale à `errorPage`, la chaîne de requête `g` (URL de la page) est enregistrée. AppMeasurement collecte ces données à l’aide de la variable [`pageType`](/help/implement/vars/page-vars/pagetype.md). Si la variable `pageType` n’est pas définie ou si elle est définie sur autre chose que `errorPage`, aucune donnée n’est collectée pour cette dimension.
 
-## Éléments de dimension
+## Éléments de Dimension
 
-Les éléments de dimension incluent les URL des pages de votre site où une erreur s’est produite.
+Les éléments de Dimension incluent les URL des pages de votre site où une erreur s’est produite.
