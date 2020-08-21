@@ -17,7 +17,7 @@ Les suites de rapports virtuelles peuvent être traitées de manière à inclure
 
 >[!NOTE]
 >
->Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, les composants non traités étaient visibles par tous en cliquant sur le bouton **[!UICONTROL Afficher tous les composants]**. La [mise à jour de l’expérience de traitement](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permet de mieux contrôler quels composants sont visibles.
+>Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, les composants non traités étaient visibles par tous en cliquant sur le bouton **[!UICONTROL Afficher tous les composants]**. La [mise à jour de l’expérience de traitement](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permet de mieux contrôler quels composants sont visibles.
 
 Pour activer le traitement des composants,
 
@@ -64,12 +64,12 @@ Dans Analysis Workspace, cliquez sur l’icône d’information pour tout compo
 
 ![](assets/vrs-aw-renamed.png)
 
-## Groupes de composants  {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Groupes de composants   {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 Utilisez les groupes de composants pour ajouter des composants en vrac à la suite de rapports virtuelle. Par exemple, si vous souhaitez importer un jeu de composants par défaut spécifique à l’analyse des applications mobiles, sélectionnez le groupe d’applications mobiles. Un jeu correspondant de dimensions et de mesures (déjà renommées) est automatiquement ajouté à la liste Inclus de la suite de rapports virtuelle.
 
 ![](assets/vrs-comp-grp.png)
 
-## Comportement de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Comportement de Workspace  {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 Pour plus d’informations sur le traitement dans Analysis Workspace, voir [Traitement et partage d’un projet](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.html).
