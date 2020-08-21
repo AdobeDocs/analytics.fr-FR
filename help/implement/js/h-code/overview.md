@@ -26,7 +26,7 @@ Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre c
    * `s_account` contient l’identifiant de suite de rapports auquel vous souhaitez envoyer des données. Voir
    * `s.trackingServer` contient l’emplacement où les cookies sont stockés. Voir [trackingServer](../../vars/config-vars/trackingserver.md).
 1. **Hébergez le fichier`s_code.js`sur votre site** : ce fichier réside généralement avec d’autres scripts sur votre serveur web.
-1. **Référence`s_code.js`sur toutes les pages** : assurez-vous que toutes les pages individuelles appellent le fichier JavaScript principal, et faites-le dans la balise HTML `<body>` (et non dans la balise `<head>`).
+1. **Référence `s_code.js` sur toutes les pages** : assurez-vous que toutes les pages individuelles appellent le fichier JavaScript principal, et faites-le dans la balise HTML `<body>` (et non dans la balise `<head>`).
 
    >[!TIP]
    >
