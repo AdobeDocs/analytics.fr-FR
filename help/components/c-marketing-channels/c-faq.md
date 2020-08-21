@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 52%
+ht-degree: 59%
 
 ---
 
@@ -16,7 +16,7 @@ Questions fréquentes sur les canaux marketing.
 
 ## Mes codes de suivi ne suivent pas de schéma, et j&#39;en ai des milliers qui doivent être spécifiées pour mon canal Affiliés.
 
-* Procédez par élimination. Si les canaux Courriel et Affilié utilisent le même paramètre de chaîne de requête, mais que vous n’avez que quelques codes de suivi, vous pouvez spécifier les codes de suivi par courriel dans un ensemble de règles définissant le courriel. Vous classez ensuite tous les autres codes de suivi avec *`affiliates.`*
+* Procédez par élimination. Si les canaux Courriel et Affilié utilisent le même paramètre de chaîne de requête, mais que vous n’avez que quelques codes de suivi, vous pouvez spécifier les codes de suivi par courriel dans un ensemble de règles définissant le courriel. Vous classez ensuite tous les autres codes de suivi avec  *`affiliates.`*
 * Dans votre système de messagerie, ajoutez un paramètre de chaîne de requête à toutes les URL de page d’accueil, comme *`&ch=eml`*. Créez un ensemble de règles qui détectera si le paramètre de requête ch est égal à *`eml`*. S’il ne contient pas *`eml`*, il s’agit d’un affilié.
 
 ## Les domaines référents contiennent plus de données que prévu.
@@ -31,7 +31,7 @@ Questions fréquentes sur les canaux marketing.
 
 ## Pourquoi tout mon trafic Dernière touche est-il attribué à un domaine interne ?
 
-* Vous avez une règle qui correspond au trafic interne. N’oubliez pas que ces règles traitent chaque accès d’un visiteur à votre site, et pas seulement sa première visite. Dans le cas d’une règle telle que *`Page URL exists`* sans aucun autre critère, une correspondance est établie avec ce canal lors de chaque visite successive sur votre site, car il existe toujours une URL de page.
+* Vous avez une règle qui correspond au trafic interne. N’oubliez pas que ces règles traitent chaque accès d’un visiteur à votre site, et pas seulement sa première visite. Dans le cas d’une règle telle que  *`Page URL exists`* sans aucun autre critère, une correspondance est établie avec ce canal lors de chaque visite successive sur votre site, car il existe toujours une URL de page.
 
 ## Comment déboguer le trafic qui s’affiche dans Aucun Canal identifié sur le rapport ?
 
@@ -55,13 +55,13 @@ Enfin, créez un canal *Other* qui capture les autres accès, comme indiqué dan
 
 ## Relation entre Première touche et Dernière touche
 
-Pour comprendre l’interaction entre les dimensions Première touche et Dernière touche héritées et confirmer que les remplacements fonctionnent comme prévu, vous pouvez extraire un rapport canal Première touche, sous-lié à un rapport canal Dernière touche, avec votre mesure de réussite clé ajoutée dans (voir l’exemple ci-dessous). Cet exemple illustre l’interaction entre les canaux Première touche et Dernière touche.
+Pour comprendre l’interaction entre les dimensions héritées de première et de dernière touche et confirmer que les remplacements fonctionnent comme prévu, vous pouvez extraire un rapport du canal Première touche, sous-lié à un rapport du canal Dernière touche, en ajoutant votre mesure de succès clé (voir l’exemple ci-dessous). Cet exemple illustre l’interaction entre les canaux Première touche et Dernière touche.
 
 ![](assets/int-channel3.png)
 
-L’intersection où first est égal à last touch est la diagonale du tableau. Direct et Session Refresh n&#39;obtiennent le crédit Dernière touche que s&#39;ils étaient également le canal Première touche, car ils ne peuvent pas prendre le crédit d&#39;autres canaux persistants (lignes surlignées).
+L’intersection où la première touche équivaut à la dernière touche correspond à la diagonale du tableau. Les canaux Direct et Actualisation de session n’obtiennent le crédit Dernière touche que s’ils étaient également les canaux Première touche, car ils ne peuvent pas obtenir de crédit d’autres canaux persistants (lignes surlignées).
 
-## Raisons pour lesquelles aucun Canal n&#39;a été identifié {#no-channel-identified}
+## Raisons pour lesquelles aucun canal n’est identifié {#no-channel-identified}
 
 Lorsque les règles ne capturent pas de données, ou si les règles ne sont pas configurées correctement, le rapport affiche les données sur la ligne [!UICONTROL Aucun canal identifié] du rapport. Vous pouvez créer un ensemble de règles nommé *Autre*, par exemple, à la fin de l’ordre de traitement, pour identifier également le trafic interne.
 
@@ -73,7 +73,7 @@ Ce type de règle « fourre-tout » permet de s’assurer que le trafic des ca
 >
 >Il est possible qu’une certaine partie du trafic de canaux soit classée dans la catégorie Aucun canal identifié. Par exemple : un visiteur sur le site marque une page comme favori puis, au cours de la même visite, revient sur cette page en passant par les favoris. Puisqu’il ne s’agit pas de la première page de la visite, le trafic ne sera pas inclus dans la catégorie des canaux directs ni dans celle des autres canaux, puisqu’il n’y a aucun domaine référent.
 
-## Raisons de l’interne (actualisation de session) {#internal}
+## Raisons d’utiliser le canal interne (actualisation de session) {#internal}
 
 L’option Dernière touche interne (actualisation de la session) ne peut se produire que si elle était également la première touche - voir &quot;Relation entre la première et la dernière touche&quot; ci-dessus. Les scénarios ci-dessous expliquent comment l’actualisation de session peut être un canal Première touche.
 
