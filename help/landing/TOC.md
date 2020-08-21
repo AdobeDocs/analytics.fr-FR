@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Documentation Adobe Analytics
 user-guide-url: /content/help/en/analytics/landing/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 90%
 * [Guide des notes techniques](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/home.html)
 * [Guide de Media Analytics](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html)
 * [Guide de Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/home.html)
-* [Guide d’analyse du parcours du client](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-landing.html)
+* [Guide de Customer Journey Analytics](https://docs.adobe.com/content/help/fr-FR/analytics-platform/using/cja-landing.html)
 * [Mises à jour de la documentation Analytics](doc-updates.md)
 * [Notes de mise à jour](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html)
-* [Versions des fonctionnalités d’Adobe Analytics](an-releases.md)
+* [Versions des fonctionnalités Adobe Analytics](an-releases.md)
 
