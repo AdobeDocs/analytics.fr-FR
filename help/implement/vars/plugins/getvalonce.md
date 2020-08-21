@@ -1,11 +1,11 @@
 ---
 title: getValOnce
 description: Permet d’empêcher la définition d’une variable Analytics sur la même valeur deux fois de suite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Ce code empêche la même valeur d’être transmise à s.eVar2 plusieurs fois d
 
 ### 2,01
 
-* Correction d’un problème lors de l’écriture de cookies.
+* Correction d’un problème lié à l’écriture de cookies.
 
 ### 2.0
 
