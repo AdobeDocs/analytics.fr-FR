@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
 
 # events
 
-Les dimensions et les mesures sont des composants essentiels des rapports. La variable `events` est responsable de la collecte de données de nombreuses mesures sur votre site. Les Événements incrémentent généralement [des mesures](/help/components/metrics/overview.md) dans les rapports.
+Les dimensions et les mesures sont des composants essentiels des rapports. La variable `events` est responsable de la collecte de données de nombreuses mesures sur votre site. Les événements incrémentent généralement [des mesures](/help/components/metrics/overview.md) dans les rapports.
 
 Avant d’implémenter des événements, veillez à les créer et à les configurer sous événements [de](/help/admin/admin/c-success-events/success-event.md) réussite dans les paramètres de la suite de rapports. Si vous prévoyez d’utiliser des événements personnalisés dans les accès de suivi de liens, assurez-vous que [`linkTrackVars`](../../config-vars/linktrackvars.md) et [`linkTrackEvents`](../../config-vars/linktrackevents.md) sont correctement définis.
 
@@ -39,13 +39,13 @@ Plusieurs fonctionnalités sont disponibles :
 La variable `s.events` est une chaîne qui contient une liste d’événements délimités par des virgules à inclure dans l’accès. Il n’y a pas de limite d’octets pour cette variable. Elle n’est donc pas tronquée. Les valeurs valides sont les suivantes :
 
 * `event1` - `event1000` : événements personnalisés, définissez la valeur souhaitée. Enregistrez la manière dont vous utilisez chaque événement dans le [document de conception de solution](../../../prepare/solution-design.md) de votre organisation. Le nombre d’événements disponibles dépend du contrat Analytics de votre organisation. La plupart des organisations utilisant des contrats non hérités disposent de 1 000 événements personnalisés. Contactez le gestionnaire de compte de votre organisation si vous ne savez pas combien d’événements personnalisés vous sont accessibles.
-* `purchase`: Incrémente la mesure [&quot;Commandes&quot;](/help/components/metrics/orders.md) de 1 et prend les valeurs définies dans la `products` variable pour calculer les [&quot;Unités&quot;](/help/components/metrics/units.md) et les [&quot;Recettes&quot;](/help/components/metrics/revenue.md). Voir [Événement d’achat](event-purchase.md) pour en savoir plus.
-* `prodView`: Incrémente la mesure [&#39;Vues](/help/components/metrics/product-views.md) de produits.
-* `scOpen`: Incrémente la mesure [&quot;Paniers&quot;](/help/components/metrics/carts.md) .
-* `scAdd`: Incrémente la mesure [&quot;Ajouts au panier&quot;](/help/components/metrics/cart-additions.md) .
-* `scRemove`: Incrémente la mesure [&quot;Retraits du panier&quot;](/help/components/metrics/cart-removals.md) .
-* `scView`: Incrémente la [mesure](/help/components/metrics/cart-views.md) &#39;Vues de panier.
-* `scCheckout`: Incrémente la mesure [&quot;Passages en caisse&quot;](/help/components/metrics/checkouts.md) .
+* `purchase` : incrémente la mesure [« Commandes »](/help/components/metrics/orders.md) de 1 et prend les valeurs définies dans la variable `products` pour calculer les [« Unités »](/help/components/metrics/units.md) et les [« Recettes »](/help/components/metrics/revenue.md). Voir [Événement d’achat](event-purchase.md) pour en savoir plus.
+* `prodView` : incrémente la mesure [« Consultations de produit »](/help/components/metrics/product-views.md).
+* `scOpen` : incrémente la mesure [« Paniers »](/help/components/metrics/carts.md).
+* `scAdd` : incrémente la mesure [« Ajouts au panier »](/help/components/metrics/cart-additions.md).
+* `scRemove` : incrémente la mesure [« Retraits du panier »](/help/components/metrics/cart-removals.md).
+* `scView` : incrémente la mesure [« Consultations du panier »](/help/components/metrics/cart-views.md).
+* `scCheckout` : incrémente la mesure [« Passages en caisse »](/help/components/metrics/checkouts.md).
 
 >[!NOTE]
 >
