@@ -3,6 +3,9 @@ title: Aide sur l’intégration d’Analytics
 description: valeur nulle
 translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
+workflow-type: ht
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Configurez des intégrations avec d’autres solutions Adobe Experience Cloud,
 * [Advertising Analytics](c-advertising-analytics/overview.md)
 * [Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
 
-## Plus de guides de l’utilisateur Analytics
+## Plus de guides d’utilisation d’Analytics
 
 [Guides d’utilisation d’Analytics](/help/landing/home.md)
 
