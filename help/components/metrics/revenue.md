@@ -1,21 +1,21 @@
 ---
 title: Recettes
-description: Montant monétaire des produits achetés dans toutes les commandes.
+description: La valeur monétaire des produits achetés dans l’ensemble des commandes.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 1%
+ht-degree: 84%
 
 ---
 
 
 # Recettes
 
-La mesure Recettes indique le montant monétaire des produits achetés au cours de toutes les commandes. Cette mesure est essentielle pour les sites de commerce électronique pour mesurer la conversion. Vous pouvez associer cette mesure à n’importe quelle dimension pour identifier les éléments de dimension qui ont contribué aux recettes. Par exemple, vous pouvez afficher les principales campagnes (à l’aide de la dimension Code [de](../dimensions/tracking-code.md) suivi) ou les principaux termes de recherche interne (à l’aide d’une [eVar](../dimensions/evar.md)).
+La mesure « Chiffre d’affaires » indique la valeur monétaire des produits achetés dans l’ensemble des commandes. Cette mesure est essentielle pour les sites d’e-commerce, car elle permet de mesurer la conversion. Vous pouvez associer cette mesure à n’importe quelle dimension pour identifier les éléments de dimension qui ont contribué aux recettes. Par exemple, vous pouvez afficher les principales campagnes (à l’aide de la dimension [Code de suivi](../dimensions/tracking-code.md)) ou les principaux termes de recherche interne (avec [eVar](../dimensions/evar.md)).
 
 ## Méthode de calcul de cette mesure
 
-Pour chaque accès où `purchase` se trouve la [`events`](/help/implement/vars/page-vars/events/event-purchase.md) variable, additionnez le champ Prix dans la [`products`](/help/implement/vars/page-vars/products.md) variable.
+Chaque accès dont la variable [`events`](/help/implement/vars/page-vars/events/event-purchase.md) contient `purchase`, additionnez les champs « Prix » dans la variable [`products`](/help/implement/vars/page-vars/products.md).
 
-Cette mesure repose sur la variable [currencyCode](/help/implement/vars/config-vars/currencycode.md) si la devise de la page est différente de la devise native de la suite de rapports.
+Cette mesure repose sur la variable [currencyCode](/help/implement/vars/config-vars/currencycode.md) si la devise de la page est différente de la devise d’origine de la suite de rapports.
