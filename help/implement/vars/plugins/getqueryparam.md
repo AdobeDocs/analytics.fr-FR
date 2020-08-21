@@ -1,9 +1,9 @@
 ---
 title: getQueryParam
 description: Permet d’extraire la valeur du paramètre de chaîne de requête d’une URL.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
 ht-degree: 100%
 
