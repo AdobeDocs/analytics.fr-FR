@@ -3,6 +3,9 @@ title: Aide sur les Data Connectors Analytics
 description: aide sur les connecteurs de données
 translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '60'
+ht-degree: 100%
 
 ---
 
