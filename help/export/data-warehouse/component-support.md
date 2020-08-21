@@ -1,9 +1,9 @@
 ---
 title: Prise en charge des composants dans Data Warehouse
 description: Découvrez quelles sont les dimensions et les mesures supplémentaires disponibles dans Data Warehouse et celles qui ne sont pas prises en charge.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
 * Certaines dimensions basées sur le cheminement, notamment :
    * Toutes les dimensions d’entrée, à l’exception de la page d’accès
    * Toutes les dimensions de sortie, à l’exception des pages de sortie et des liens de sortie
-   * Détail des accès
+   * Profondeur d’accès
    * Fréquence des retours
    * Durée avant événement
    * Durée de consultation de la page – Regroupement
@@ -77,4 +77,4 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
    * Sorties
    * Actualisations
    * Accès unique
-   * Mesures « Tranche de temps »
+   * Mesures de « durée de la visite »
