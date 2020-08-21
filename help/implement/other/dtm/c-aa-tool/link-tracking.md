@@ -4,11 +4,11 @@ keywords: Dynamic Tag Management;link tracking;enable clickmap;track download li
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Suivi des liens
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Cette section contient la description des champs de Dynamic Tag Management pour le suivi des liens lors du déploiement d’Analytics.
 
-**[!UICONTROL Propriété]** > Icône ![](assets/settings_gear.png) Gear > **[!UICONTROL Modifier l’outil]** > Suivi des **[!UICONTROL liens]**
+**[!UICONTROL Propriété]** > ![Icône d’engrenage](assets/settings_gear.png) > **[!UICONTROL Outil de modification]** > **[!UICONTROL Suivi des liens]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
@@ -28,19 +28,19 @@ Cette section contient la description des champs de Dynamic Tag Management pour 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Enable ClickMap (Activer ClickMap) </td>
-   <td colname="col2"> <p>Permet de déterminer si les données de mise en correspondance des clics des visiteurs sont collectées. </p> <p>Voir <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
+   <td colname="col1"> Activer ClickMap </td>
+   <td colname="col2"> <p>Permet de déterminer si les données de mise en correspondance des clics des visiteurs sont collectées. </p> <p>Voir  <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> Track download links (Suivi des liens de téléchargement) </td>
-   <td colname="col2"> <p>Permet d’effectuer le suivi des liens vers des fichiers téléchargeables de votre site. </p> <p>See <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
+   <td colname="col1"> Suivi des liens de téléchargement </td>
+   <td colname="col2"> <p>Permet d’effectuer le suivi des liens vers des fichiers téléchargeables de votre site. </p> <p>Voir <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> Download Extensions (Téléchargement d’extensions) </td> 
+   <td colname="col1"> Téléchargement d’extensions </td> 
    <td colname="col2"> <p>Si votre site contient des liens vers des fichiers dotés des extensions répertoriées, les URL de ceux-ci figurent dans les rapports. </p>Voir <a href="../../../vars/config-vars/linkdownloadfiletypes.md">linkDownloadFileTypes</a>. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> Track outbound links (Suivi des liens sortants) </td>
+   <td colname="col1"> Suivi des liens sortants </td>
    <td colname="col2"> <p>Permet de déterminer si un lien faisant l’objet d’un clic est un lien de sortie. </p> <p>Voir <a href="../../../vars/config-vars/trackexternallinks.md">trackExternalLinks</a>. </p> <p><b>Points à prendre en compte concernant les applications d’une seule page :</b> en raison du codage de certains sites web d’applications d’une seule page, un lien interne sur le site peut ressembler à un lien sortant. </p> <p>Vous pouvez utiliser l’une des méthodes suivantes pour suivre les liens sortants à partir des sites des applications d’une seule page : </p>
     <ul id="ul_A4179633ED0644C3BA5F548A58CA4EC9">
      <li id="li_1959FBF14E42469FA8724B37EB58BC54"> <p>Si vous ne souhaitez pas suivre les liens sortants à partir de vos applications monopages, insérez une entrée dans la section <span class="wintitle">Ne jamais effectuer de suivi</span>. </p> <p>Par exemple, <span class="filepath">https://testsite.com/spa/#</span> </p> <p>Tous les liens # vers cet hôte sont ignorés. Tous les autres liens sortants vers d’autres hôtes tels que <span class="filepath">https://www.google.com</span> sont suivis. </p> </li>
