@@ -5,28 +5,28 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 1%
+ht-degree: 91%
 
 ---
 
 
 # Moteur de recherche
 
-La dimension &quot;Moteur de recherche&quot; rapporte les moteurs de recherche que les visiteurs utilisent pour accéder à votre site. Un parrain doit répondre aux deux critères suivants pour être classé comme moteur de recherche :
+La dimension « Moteur de recherche » indique les moteurs de recherche que les visiteurs utilisent pour accéder à votre site. Un référent doit répondre aux deux critères suivants pour être classé comme moteur de recherche :
 
-* Le domaine référent est reconnu par Adobe comme un moteur de recherche valide ;
-* Il existe un paramètre de chaîne de requête de mot-clé dans l’URL de référence. Le paramètre de chaîne de requête peut être vide (comme c&#39;est le cas pour plusieurs moteurs de recherche en raison de pratiques de confidentialité).
+* Le domaine référent est reconnu par Adobe comme un moteur de recherche valide ;
+* Il existe un paramètre de chaîne de requête de mot-clé dans l’URL de référence. Le paramètre de chaîne de requête peut être vide (c’est le cas de plusieurs moteurs de recherche en raison de leurs pratiques de confidentialité).
 
-Si vous souhaitez distinguer la recherche payée de la recherche naturelle, la détection [de la recherche](/help/admin/admin/paid-search-detection/paid-search-detection.md) payée est requise. Plusieurs dimensions sont disponibles pour les moteurs de recherche :
+Si vous souhaitez distinguer le référencement payant du référencement naturel, la [détection de référencement payant](/help/admin/admin/paid-search-detection/paid-search-detection.md) est requise. Plusieurs dimensions sont disponibles pour les moteurs de recherche :
 
-* **Moteur** de recherche : Moteur de recherche utilisé pour atteindre votre site, qu&#39;il soit payant ou naturel.
-* **Moteur de recherche - payé**: Moteur de recherche utilisé pour atteindre votre site, qui correspondait à la détection des recherches payantes.
-* **Moteur de recherche - naturel**: Moteur de recherche utilisé pour atteindre votre site, qui ne correspondait pas à la détection des recherches payantes.
+* **Moteur de recherche** : moteur de recherche utilisé pour atteindre votre site, qu’il s’agisse d’une recherche payante ou naturelle.
+* **Moteur de recherche - Payant** : moteur de recherche utilisé pour atteindre votre site et ayant déclenché une détection de référencement payant.
+* **Moteur de recherche - Naturel** : moteur de recherche utilisé pour atteindre votre site et n’ayant pas déclenché de détection de référencement payant.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [parrain](referrer.md) de l’accès, qui dépend des filtres [d’URL](/help/admin/admin/internal-url-filter-admin.md)internes. Assurez-vous que la dimension de parrain et les filtres d’URL internes sont correctement configurés.
+Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
 
-## Éléments de dimension
+## Éléments de Dimension
 
-Les éléments de dimension incluent les moteurs de recherche utilisés pour atteindre votre site. Example values include `"Google"`, `"Microsoft Bing"`, and `"DuckDuckGo"`. L’élément `"Unspecified"` de dimension est tout le trafic non lié à la recherche.
+Les éléments de Dimension incluent les moteurs de recherche utilisés pour atteindre votre site. Les exemples de valeurs comprennent `"Google"`, `"Microsoft Bing"` et `"DuckDuckGo"`. The `"Unspecified"` dimension item is all non-search traffic.
