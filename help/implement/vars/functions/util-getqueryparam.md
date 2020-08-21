@@ -1,9 +1,9 @@
 ---
 title: Util.getQueryParam
 description: Renvoie la valeur d’un paramètre de chaîne de requête.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
