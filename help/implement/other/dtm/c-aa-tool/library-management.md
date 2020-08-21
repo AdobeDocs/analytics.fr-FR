@@ -4,9 +4,9 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: Gestion des bibliothèques
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Description des champs et options des paramètres Gestion des bibliothèques dans Dynamic Tag Management.
 
-**[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png)**[!UICONTROL  Modifier l’outil ]** > **[!UICONTROL  Gestion des bibliothèques ]**
+**[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png)**[!UICONTROL  Modifier l’outil ]** > **[!UICONTROL  Gestion des bibliothèques ]** 
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Description des champs et options des paramètres Gestion des bibliothèques dan
   </tr> 
   <tr> 
    <td colname="col1"> <p> Personnalisé </p> </td> 
-   <td colname="col2"> <p>Vous pouvez configurer le code de la bibliothèque. </p> <p>Lorsque vous sélectionnez cette option, les options suivantes deviennent disponibles : </p> <p> <b>Définir les suites de rapports avec le code personnalisé ci-dessous :</b> lorsque cette case est cochée, Dynamic Tag Management recherche dans le code personnalisé une variable appelée <span class="varname"> s_account</span>. Cette variable doit contenir une liste séparée par des virgules des suites de rapports auxquelles vous souhaitez envoyer des données. </p> <p> <b>Code hébergé :</b> sélectionnez une option pour héberger le fichier <span class="filepath">s_code</span> : </p> 
+   <td colname="col2"> <p>Vous pouvez configurer le code de la bibliothèque. </p> <p>Lorsque vous sélectionnez cette option, les options suivantes deviennent disponibles : </p> <p> <b>Définir les suites de rapports avec le code personnalisé ci-dessous :</b> lorsque cette case est cochée, Dynamic Tag Management recherche dans le code personnalisé une variable appelée  <span class="varname"> s_account</span>. Cette variable doit contenir une liste séparée par des virgules des suites de rapports auxquelles vous souhaitez envoyer des données. </p> <p> <b>Code hébergé :</b> sélectionnez une option pour héberger le fichier <span class="filepath">s_code</span> : </p> 
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>Dans Dynamic Tag Management</b> : vous pouvez héberger le fichier <span class="filepath">s_code</span> dans Dynamic Tag Management. Cliquez sur <span class="uicontrol">Modifier le code</span> pour couper le fichier et le coller directement dans l’éditeur. </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b> : si vous disposez déjà d’un fichier <span class="filepath">s_code</span> et que vous souhaitez le mettre à jour, indiquez l’URL vers le fichier ici. Dynamic Tag Management utilise ensuite ce fichier <span class="filepath">s_code</span> pour la mise en œuvre d’<span class="keyword">Adobe Analytics</span>. </li> 
