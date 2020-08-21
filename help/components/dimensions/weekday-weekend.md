@@ -1,23 +1,23 @@
 ---
 title: Jour ouvrable/week-end
-description: Détermine si l’accès s’est produit pendant une semaine ou un week-end.
+description: Détermine si l’accès s’est produit pendant un jour ouvrable ou le week-end.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 3%
+ht-degree: 68%
 
 ---
 
 
 # Jour ouvrable/week-end
 
-La dimension &quot;Jour de la semaine/Fin de semaine&quot; permet de savoir si l’accès s’est produit au cours d’un jour de la semaine (du lundi au vendredi) ou d’un week-end (du samedi au dimanche). The time of the hit is based on the [report suite&#39;s time zone](/help/admin/admin/general-acct-settings-admin.md).
+La dimension « Jour ouvrable/week-end » permet de savoir si l’accès s’est produit un jour ouvrable (du lundi au vendredi) ou le week-end (du samedi au dimanche). L’heure de l’accès est basée sur le [fuseau horaire de la suite de rapports](/help/admin/admin/general-acct-settings-admin.md).
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, cette dimension fonctionne.
+Cette dimension est prête à l’emploi pour toutes les implémentations. Cette dimension fonctionne si une suite de rapports contient des données.
 
-## Éléments de dimension
+## Éléments de Dimension
 
-Cette dimension contient toujours exactement deux éléments de dimension : `"Weekday"` et `"Weekend"`. L’élément de dimension `"Weekday"` s’applique à tous les accès du lundi au vendredi, tandis que l’élément de dimension `"Weekend"` s’applique à tous les accès les samedis et dimanches.
+This dimension always contains exactly two dimension items: `"Weekday"` and `"Weekend"`. The dimension item `"Weekday"` applies to all hits Monday through Friday, while the dimension item `"Weekend"` applies to all hits on Saturday and Sunday.
