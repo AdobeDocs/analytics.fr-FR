@@ -1,32 +1,32 @@
 ---
 title: Code postal
-description: Code postal du visiteur.
+description: Le code postal du visiteur.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
 
 # Code postal
 
-La dimension &quot;Code postal&quot; signale le code postal du visiteur. Vous pouvez utiliser cette dimension pour mieux comprendre la réussite de la publicité locale ou pour déterminer où votre site se comporte le mieux dans le monde.
+La dimension « Code postal » indique le code postal du visiteur. Vous pouvez utiliser cette dimension pour mieux comprendre les résultats positifs de la publicité locale ou déterminer les régions du monde dans lesquelles votre site est plus performant.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension est unique en ce qu’elle contient plusieurs manières de la renseigner avec des données. Vous pouvez utiliser l’une ou l’autre de ces combinaisons ou une combinaison des deux.
+Cette dimension est unique dans la mesure où elle présente plusieurs manières de la renseigner avec des données. Vous pouvez utiliser l’une ou l’autre, ou une combinaison des deux.
 
-* Définissez le code postal directement à l’aide de la `zip` variable ; ou
-* Configurez-le pour l’extraire des données de géosegmentation.
+* Définissez le code postal directement à l’aide de la variable `zip` ; ou
+* configurez-le pour extraire des données de géosegmentation.
 
-L’option  zip sous Paramètres [du compte](/help/admin/admin/general-acct-settings-admin.md) général contrôle la manière dont vous souhaitez renseigner cette dimension.
+L’[!UICONTROL option de code postal] sous [Paramètres généraux du compte](/help/admin/admin/general-acct-settings-admin.md) contrôle la manière dont vous souhaitez renseigner cette dimension.
 
 >[!IMPORTANT]
 >
->Le paramètre de la suite de rapports est essentiel si vous souhaitez avoir un contrôle total sur la manière dont vous renseignez cette dimension.
+>Le paramètre de la suite de rapports est essentiel si vous recherchez un contrôle total sur la manière de renseigner cette dimension.
 
-## Éléments de dimension
+## Éléments de Dimension
 
-Les éléments de dimension comprennent le code postal du visiteur.
+Les éléments de Dimension comprennent le code postal du visiteur.
