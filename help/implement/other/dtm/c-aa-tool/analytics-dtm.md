@@ -4,9 +4,9 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Ajout de l’outil Adobe Analytics
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Déployez Adobe Analytics à l’aide de Dynamic Tag Management en créant l’
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>Manuel</b> : permet de gérer le code AppMeasurement manuellement. Vous pouvez télécharger le code <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span> depuis <span class="ignoretag"><span class="uicontrol">Outils d’administration</span> &gt; <span class="uicontrol">Gestionnaire de code</span></span>. </p> <p>Cliquez sur <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/js/migrate-from-hcode.html">JavaScript (nouveau)</a> pour obtenir des informations sur le téléchargement du code en local afin de le copier et le coller dans le champ <span class="wintitle">Modifier le code</span> de <a href="/help/implement/other/dtm/c-aa-tool/library-management.md">Gestion des bibliothèques</a>. </p> <p>Renseignez les champs spécifiques à une configuration manuelle : </p> 
+   <td colname="col2"> <p> <b>Manuel</b> : permet de gérer le code AppMeasurement manuellement. Vous pouvez télécharger le code <span class="keyword">Analytics</span> <span class="keyword">AppMeasurement</span> depuis <span class="ignoretag"><span class="uicontrol"> Outils d’administration</span> &gt; <span class="uicontrol">Gestionnaire de code</span></span>. </p> <p>Cliquez sur <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/js/migrate-from-hcode.html">JavaScript (nouveau)</a> pour obtenir des informations sur le téléchargement du code en local afin de le copier et le coller dans le champ <span class="wintitle">Modifier le code</span> de <a href="/help/implement/other/dtm/c-aa-tool/library-management.md">Gestion des bibliothèques</a>. </p> <p>Renseignez les champs spécifiques à une configuration manuelle : </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID du compte de production :</b> (obligatoire) compte de production pour la collecte des données. Pour Analytics, il s’agit de votre identifiant de suite de rapports. Dynamic Tag Management installe automatiquement le compte correct dans l’environnement de production et d’évaluation. </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID du compte d’évaluation :</b> (obligatoire) utilisé dans l’environnement de développement ou de test. Pour Analytics, il s’agit de votre identifiant de suite de rapports. Un compte d’évaluation permet de séparer les données de test de la production. </p> </li> 
