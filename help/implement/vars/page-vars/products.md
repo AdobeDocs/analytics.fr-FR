@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
 
 # products
 
-La variable `products` effectue le suivi des produits et des propriétés qui leur sont liées. Cette variable est généralement définie sur des pages de produit individuelles, des pages de panier d’achat et des pages de confirmation d’achat. Il s’agit d’une variable à plusieurs valeurs, ce qui signifie que vous pouvez envoyer plusieurs produits dans le même accès et que Adobe analyse la valeur dans des éléments de dimension distincts.
+La variable `products` effectue le suivi des produits et des propriétés qui leur sont liées. Cette variable est généralement définie sur des pages de produit individuelles, des pages de panier d’achat et des pages de confirmation d’achat. Il s’agit d’une variable à plusieurs valeurs, ce qui signifie que vous pouvez envoyer plusieurs produits dans le même accès et que l’Adobe analyse la valeur dans des éléments de dimension distincts.
 
 >[!NOTE]
 >
->If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Assurez-vous de définir le événement de panier approprié pour chaque accès avec la `products` variable.
+>Si cette variable est définie dans un accès sans événement de panier dans la variable [`events`](events/events-overview.md), la mesure [Consultations de produit](/help/components/metrics/product-views.md) est incrémentée de 1. Assurez-vous de définir l’événement de panier approprié pour chaque accès avec la variable `products`.
 
 ## Produits dans Adobe Experience Platform Launch
 
