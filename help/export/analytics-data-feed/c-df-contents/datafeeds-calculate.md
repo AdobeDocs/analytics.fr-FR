@@ -61,7 +61,7 @@ Les accès doivent d’abord être regroupés par visite, puis classés selon le
 1. Concaténez `post_visid_high`, `post_visid_low`, `visit_num`et `visit_start_time_gmt`.
 2. Triez en fonction de cette valeur concaténée, puis appliquez un tri secondaire par `visit_page_num`.
 3. Si un accès n’est pas le dernier d’une visite, soustrayez la valeur `post_cust_hit_time` de la valeur `post_cust_hit_time` de l’accès suivant.
-4. Ce nombre correspond à la durée passée (en secondes) au cours de cet accès. Il est possible d’appliquer des Filtres pour se concentrer sur des éléments de dimension ou des événements.
+4. Ce nombre correspond à la durée passée (en secondes) au cours de cet accès. Il est possible d’appliquer des filtres pour se concentrer sur des éléments de dimension ou des événements.
 
 ## Commandes, unités et chiffre d’affaires
 
