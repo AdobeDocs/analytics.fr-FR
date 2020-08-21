@@ -1,27 +1,27 @@
 ---
 title: Profondeur de visite
-description: Dimension basée sur la visite qui indique la profondeur de la visite.
+description: Dimension basée sur la visite et qui indique la profondeur de la visite.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
 
 # Profondeur de visite
 
-La dimension &quot;Profondeur de visite&quot; indique le nombre de vues de page que le visiteur a vues au cours de toute la visite. La profondeur de visite augmente uniquement si l’accès est une vue de page et que la dimension [Page](page.md) n’est pas la même que l’élément de dimension Dernière vue de page. Il s’agit d’une dimension basée sur les visites, ce qui signifie qu’elle contient la même valeur pour la visite entière. Cette variable est définie pour tous les accès d’une visite une fois cette visite terminée.
+La dimension « Profondeur de visite » indique le nombre de pages vues par le visiteur au cours de toute la visite. Visit depth increases only if the hit is a page view, and the [Page](page.md) dimension is not the same as the last page view&#39;s dimension item. Il s’agit d’une dimension basée sur les visites, ce qui signifie qu’elle contient la même valeur pour toute la visite. Cette variable est définie pour tous les accès d’une visite une fois la visite terminée.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, cette dimension fonctionne.
+Cette dimension est prête à l’emploi pour toutes les implémentations. Cette dimension fonctionne si une suite de rapports contient des données.
 
-## Éléments de dimension
+## Éléments de Dimension
 
-Les éléments de dimension comprennent la chaîne `"Pages per visit"` suivie d’un nombre représentant le nombre de pages de la visite. L’élément de dimension de `"Pages per visit: 1"` représente une visite d’une seule page, tandis que l’élément de dimension `"Pages per visit: 8"` représente une visite de 8 vues de page (et tout nombre d’appels de suivi de liens).
+Dimension items include the string `"Pages per visit"` followed by a number representing the number of pages in the visit. The dimension item of `"Pages per visit: 1"` represents a single-page visit, while the dimension item `"Pages per visit: 8"` represents a visit with 8 page views (and any number of link tracking calls).
 
 ## Comparaison avec la profondeur d’accès
 
-Voir Profondeur [d’](hit-depth.md) accès pour une comparaison entre les dimensions.
+Consultez la [Profondeur d’accès](hit-depth.md) pour une comparaison entre les dimensions.
