@@ -5,7 +5,10 @@ title: Ordre de traitement
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -23,8 +26,8 @@ Les tableaux suivants répertorient les données qui sont généralement disponi
 | Dimension | Description |
 |--- |--- |
 | Recherche de variable dynamique | Les variables sont renseignées dynamiquement en extrayant des informations des en-têtes HTTP ou d’autres variables. Par exemple, `s.eVar5="D=c1"` insère la valeur de prop1 dans eVar5. |
-| AppMeasurement | Les fonctions et les plug-ins utilisés dans AppMeasurement sont exécutés dans le navigateur ou l’application cliente. |
-| Dynamic Tag Management | Les règles définies dans la Dynamic Tag Management sont exécutées comme définies. |
+| AppMeasurement | Les fonctions et modules complémentaires utilisés dans AppMeasurement sont exécutés dans le navigateur ou l’application cliente. |
+| Gestion des balises | Les règles définies dans Lancement d’Adobe ou Gestion dynamique des balises sont exécutées comme définies. |
 | Règles de robots | [Les règles de robots](/help/admin/admin/bot-removal/bot-rules.md) vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. |
 
 ## Après l’application de règles de traitement
@@ -40,6 +43,6 @@ Les tableaux suivants répertorient les données qui sont généralement disponi
 
 ## Méthode d’application des règles de traitement lors de la copie d’accès à l’aide de VISTA {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-Si une règle VISTA est configurée pour copier des accès vers une autre suite de rapports, les accès sont envoyés via toute règle de traitement définie sur l’autre suite.
+Si une règle VISTA est configurée pour copier les accès vers une autre suite de rapports, les accès sont envoyés par l’intermédiaire de toute règle de traitement définie dans l’autre suite de rapports.
 
 Si des règles de traitement sont définies sur la suite de rapports d’origine, leur application dépend de la manière dont la règle VISTA a été configurée par les services d’ingénierie. Pour le savoir, vous pouvez demander à votre spécialiste de la mise en œuvre si la règle VISTA copie les valeurs « pré » ou « post » dans la suite de rapports supplémentaire. Si la valeur « pré » est copiée, les règles de traitement définies sur la suite de rapport d’origine ne sont pas appliquées. Si la valeur « post » est copiée, les règles de traitement sont appliquées avant la copie de l’accès.
