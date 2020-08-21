@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Traitement complet
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Adobe recommande aux clients d’utiliser l’API [d’insertion de données en bloc (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. Les sources de données à traitement complet seront désormais abandonnées.
+>Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (insertion de données en bloc)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. Les sources de données à traitement complet seront abandonnées à l’avenir.
 
 Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
@@ -32,7 +32,7 @@ Les sources de données à traitement complet sont traitées en utilisant les pr
 
 Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se rend sur votre site à partir d’une campagne marketing nommée « Soldes de printemps », qui est stockée dans la variable de campagne. Si vous transférez par la suite une transaction à l’aide du même identifiant visiteur, la campagne « Soldes de printemps » n’est pas créditée pour les recettes ou les événements de succès transférés à l’aide de sources de données à traitement complet.
 
-## Référence de colonne {#section_92BAE76639E3404E97276B1BE0581078}
+## Référence de colonne  {#section_92BAE76639E3404E97276B1BE0581078}
 
 <table id="table_AAC04491D643467B9C80FDEF88130B13"> 
  <thead> 
@@ -66,7 +66,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, c.-à-d. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nom de la variable eVar de conversion. Vous pouvez avoir jusqu’à 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Vous pouvez définir le nom de l’eVar (eVar12) ou un nom convivial (Campagne publicitaire 3). </p> </td> 
+   <td colname="col3"> <p>Nom de la variable eVar de conversion. Vous pouvez avoir jusqu’à 75 eVars (  <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Vous pouvez définir le nom de l’eVar (eVar12) ou un nom convivial (Campagne publicitaire 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -79,7 +79,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, c.-à-d. &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Nom de la hiérarchie. Vous pouvez avoir jusqu’à 5 hiérarchies ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Vous pouvez définir le nom de hiérarchie par défaut (<span class="varname">hier2</span>) ou un nom convivial (<span class="term">Yankees </span>). </p> </td> 
+   <td colname="col3"> <p>Nom de la hiérarchie. Vous pouvez avoir jusqu’à 5 hiérarchies (  <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Vous pouvez définir le nom de hiérarchie par défaut (<span class="varname">hier2</span>) ou un nom convivial (<span class="term">Yankees </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -124,7 +124,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, c.-à-d. &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Chaîne du numéro de propriété (par exemple, <span class="term"> section Sports </span>). </p> </td> 
+   <td colname="col3"> <p>Chaîne du numéro de propriété (par exemple,  <span class="term"> section Sports </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -174,7 +174,7 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. </p> <p>Voir le livre blanc « <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
+   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. </p> <p>Voir le livre blanc « <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
