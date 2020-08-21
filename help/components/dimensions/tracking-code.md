@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
 
 # Code de suivi
 
-La dimension &quot;Code de suivi&quot; liste les noms des codes de suivi sur votre site. Cette dimension est généralement collectée à l’aide de paramètres de chaîne de requête. Vous pouvez placer des liens avec différentes valeurs de paramètre de chaîne de requête à différents endroits sur Internet. Cette dimension indique les liens qui ont généré le plus de trafic vers votre site.
+La dimension « Code de suivi » liste les noms des codes de suivi sur votre site. Cette dimension est généralement collectée à l’aide de paramètres de chaîne de requête. Vous pouvez placer des liens avec différentes valeurs de paramètre de chaîne de requête à différents endroits sur Internet. Cette dimension indique les liens qui ont généré le plus de trafic vers votre site.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la chaîne [`v0` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la [`campaign`](/help/implement/vars/page-vars/campaign.md) variable.
+Cette dimension récupère les données de la [`v0`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable [`campaign`](/help/implement/vars/page-vars/campaign.md).
 
 ## Éléments de Dimension
 
@@ -26,7 +26,7 @@ Les éléments de Dimension incluent les noms des codes de suivi sur votre site.
 
 Certains utilisateurs qui configurent des règles de traitement de canal marketing configurent une règle qui prend toutes les valeurs utilisées dans la dimension Code de suivi. Bien qu&#39;excellente pratique, elles sont différentes en raison des différences inhérentes au traitement et à l&#39;architecture. La liste suivante explique pourquoi ces deux dimensions, même si elles sont similaires d’un seul coup d’oeil, ne peuvent pas être comparées.
 
-* **canaux antérieurs dans les règles** de traitement : Les règles de traitement des canaux marketing plus élevées dans la liste peuvent empêcher les accès d’être attribués à votre canal marketing Codes de suivi. Par exemple :
+* **Canaux antérieurs dans les règles** de traitement : Les règles de traitement des canaux marketing plus élevées dans la liste peuvent empêcher les accès d’être attribués à votre canal marketing Codes de suivi. Par exemple :
 
    1. Vous avez configuré les réseaux sociaux comme première règle et les codes de suivi comme seconde règle.
    2. Un utilisateur publie un lien vers votre site contenant un code de suivi sur un site de médias sociaux, et plusieurs de ses amis cliquent sur ce lien vers votre site.
