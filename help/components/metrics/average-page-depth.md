@@ -2,10 +2,10 @@
 title: Profondeur moyenne de page
 description: Le nombre moyen de pages dans lesquelles se trouve la dimension.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 59%
+source-wordcount: '369'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 59%
 
 La mesure &quot;Profondeur moyenne de page&quot; indique à quelle distance se trouve l’élément de dimension au cours d’une visite donnée. Par exemple, votre page d’accueil affiche généralement une profondeur moyenne de page inférieure à celle de votre page de confirmation d’achat, qui se trouve généralement à un stade plus avancé de la visite. Cette mesure s’avère utile lorsque vous souhaitez comprendre le nombre de pages d’un élément de dimension donné qui se trouvent en moyenne. Vous pouvez utiliser ces informations afin d’optimiser certaines pages pour les nouveaux visiteurs si la profondeur moyenne de la page est faible.
 
->[CONSEIL] Utilisez cette mesure avec une autre mesure ([Visites](visits.md), par exemple) pour obtenir de meilleures informations. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des profondeurs de page irrégulières, ce qui n’a généralement pas de valeur.
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des profondeurs de page irrégulières, ce qui n’a généralement pas de valeur.
 
 ## Méthode de calcul de cette mesure
 
