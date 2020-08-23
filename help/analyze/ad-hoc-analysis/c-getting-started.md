@@ -3,9 +3,9 @@ description: Prise en main d’Ad Hoc Analysis.
 title: Prise en main
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1329'
 ht-degree: 94%
 
 ---
@@ -13,7 +13,8 @@ ht-degree: 94%
 
 # Prise en main d’Ad Hoc Analysis {#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Important]
+>[!IMPORTANT]
+>
 >Le 6 août 2018, Adobe a annoncé la prochaine fin de vie d’Ad Hoc Analysis, La date de fin de vie sera communiquée dès que possible. Pour plus d’informations, notamment sur les versions de Java compatibles durant cette période, voir [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 Vous pouvez effectuer une analyse avancée instantanée de l’activité d’un site Web. Vous pouvez consulter plusieurs rapports simultanément et appliquer des segments sur plusieurs dimensions. Vous pouvez analyser les données du point de vue micro et macro afin de mesurer leur impact sur les mesures importantes d’un point de vue commercial.
