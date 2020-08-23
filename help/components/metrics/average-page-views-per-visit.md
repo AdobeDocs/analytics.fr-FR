@@ -2,10 +2,10 @@
 title: Moyenne de pages vues par visite
 description: Nombre moyen de fois où un élément de dimension donné s’est affiché dans une visite.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 53%
+source-wordcount: '212'
+ht-degree: 46%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 53%
 
 La dimension « Moyenne de pages vues par visite » indique le nombre moyen de pages vues en fonction de la dimension souhaitée. Pour les dimensions temporelles, vous pouvez suivre l’évolution du nombre moyen de pages vues au cours d’une visite et au fil du temps. Cette mesure s’avère utile lorsque vous souhaitez comprendre la fréquence à laquelle les éléments de dimension apparaissent au cours d’une visite.
 
->[CONSEIL] Utilisez cette mesure avec une autre mesure ([Visites](visits.md), par exemple) pour obtenir de meilleures informations. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des vues de page irrégulières par visite, ce qui n’a généralement pas de valeur.
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des vues de page irrégulières par visite, ce qui n’a généralement pas de valeur.
 
 ## Méthode de calcul de cette mesure
 
