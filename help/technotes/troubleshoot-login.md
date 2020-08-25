@@ -1,16 +1,16 @@
 ---
-title: Résolution des problèmes de connexion à Adobe Analytics
+title: Dépannage de la connexion à Adobe Analytics
 description: Etapes à suivre lorsque vous ne pouvez pas vous connecter à Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 3%
+source-wordcount: '609'
+ht-degree: 2%
 
 ---
 
 
-# Résolution des problèmes de connexion à Adobe Analytics
+# Dépannage de la connexion à Adobe Analytics
 
 adobe analytics utilise plusieurs méthodes d’authentification pour se connecter :
 
@@ -34,7 +34,7 @@ Résolvez les problèmes liés à la connexion à Adobe Analytics à l’aide de
 
 ## Identifiant Analytics hérité
 
-Il arrive qu’un utilisateur de votre organisation reçoive le message d’erreur suivant lorsqu’il se connecte :
+Un utilisateur de votre organisation peut recevoir l’erreur suivante lorsqu’il tente de se connecter :
 
 *Par mesure de sécurité, ce compte a été verrouillé en raison d’un trop grand nombre d’échecs de connexion.*
 
@@ -53,6 +53,14 @@ Si l’effacement des cookies/du cache du navigateur ne résout pas le problème
 ## Authentification unique
 
 Contactez un administrateur de votre entreprise pour résoudre les problèmes de connexion unique.
+
+## Connexions expirées
+
+Un utilisateur de votre organisation peut recevoir l’erreur suivante lorsqu’il tente de se connecter :
+
+*Erreur : Cette connexion a expiré.*
+
+Cette erreur fonctionne comme prévu. adobe analytics permet aux administrateurs de définir une plage de dates valide pour un compte d’utilisateur. Si la date actuelle se trouve en dehors de la plage de dates valide du compte, il n’est pas possible de se connecter. Adressez-vous à un administrateur Analytics de votre entreprise pour étendre la plage de dates valide de la connexion. Le service à la clientèle d’Adobe n’est pas autorisé à modifier les plages de dates de connexion valides pour les comptes d’utilisateurs.
 
 ## Autres problèmes de connexion
 
