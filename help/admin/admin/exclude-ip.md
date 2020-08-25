@@ -1,13 +1,11 @@
 ---
-description: Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). L’élimination de données améliore la précision du rapport en excluant des données d’adresse IP. De plus, vous pouvez supprimer les données des attaques par déni de service ou autres événements malveillants susceptibles de biaiser les résultats de vos rapports. Vous pouvez configurer l’exclusion en utilisant votre pare-feu.
 title: Exclure par adresse IP
-topic: Admin tools
-uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+description: Empêchez l’affichage des données générées par certaines adresses IP dans les rapports.
+translation-type: tm+mt
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 85%
 
 ---
 
@@ -22,38 +20,11 @@ Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (
 >
 >Les accès exclus par adresse IP sont facturés en tant qu’[appels au serveur](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/terms.html).
 
-## Exclure par cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
-
-Cette fonction vous permet d’exclure cet ordinateur du suivi dans votre compte. Si vous choisissez d’exclure votre ordinateur, aucune donnée générée à partir de celui-ci n’est prise en compte.
-
-Cette fonction vous permet (à vous ainsi qu’à vos collègues) de visiter votre site sans biaiser vos données de trafic. Utilisez cette fonctionnalité si vous n’avez pas d’adresse IP statique (connexion à Internet par ligne commutée via un fournisseur d’accès Internet, par exemple) et si vous souhaitez vous exclure des données de compte.
-
-| Élément | Description |
-|--- |--- |
-| [!UICONTROL Ajouter CNAME] | Génère un lien d’exclusion que vous pouvez utiliser pour exclure votre domaine. Pour obtenir de l’aide, veuillez contacter l’assistance clientèle de votre société. <br>Vous pouvez exclure votre trafic de la création de rapports dans vos suites de rapports en consultant la page d’exclusion de votre société et en choisissant d’exclure votre navigateur de la mesure. <br>Si votre implémentation utilise des cookies tiers, votre page d’exclusion se trouve [ici](https://democorp.112.2o7.net/optout.html?locale=fr_FR&amp;popup=true). |
-
->[!NOTE]
->
->L’exclusion par ordinateur ne fonctionne que dans les cas suivants :
->
-> * Vous accédez au site web à partir du même poste de travail.
-> * Les cookies sont activés dans le navigateur que vous utilisez.
-> * Les cookies ne sont pas supprimés. Si les cookies sont supprimés, vous devez vous exclure de nouveau.
-
-
-## Exclure par adresse IP {#section_609FB6461529409D840111A32FEF5C3D}
-
-Une adresse IP est une adresse Internet. Des adresses IP numériques sont attribuées à tous les utilisateurs d’Internet (généralement par l’intermédiaire de fournisseurs d’accès Internet). Ces adresses font office d’identifiants électroniques.
-
-Les pages vues sont comptabilisées et les visiteurs de pages uniques sont identifiés au moyen de leurs adresses IP. En excluant les adresses IP du comptage, vous pouvez empêcher Adobe d’effectuer le suivi des visiteurs fréquents. Cette fonction vous permet, ainsi qu’à vos collègues, de visiter votre site sans biaiser les données de trafic. Vous pouvez exclure jusqu’à 50 adresses IP différentes.
-
 Vous pouvez utiliser des caractères de remplacement (*) pour exclure une plage d’adresses. Par exemple, `[!DNL 0.0.*.0]` exclut toutes les adresses IP comprises entre `[!DNL 0.0.0.0]` et `[!DNL 0.0.255.0]`. Vous pouvez exclure jusqu’à 50 adresses IP différentes.
 
-## Exclure par pare-feu {#section_3E7BFB71ADD941D39F923DB9557AD9CD}
-
-Vous pouvez également bloquer la collecte de données à partir d’adresses IP spécifiques par le biais d’un pare-feu.
-
-Reportez-vous à l’article [Adresses IP utilisées dans Experience Cloud](https://helpx.adobe.com/fr/analytics/kb/adobe-ip-addresses.html).
+>[!TIP]
+>
+>Les adresses IP privées ne doivent pas être exclues. Seules les adresses IP externes atteignent les serveurs de collecte de données d’Adobe. Les adresses privées incluent `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`et `169.254.*.*`.
 
 ## Impact de l’obscurcissement des adresses IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
