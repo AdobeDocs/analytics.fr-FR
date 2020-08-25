@@ -3,10 +3,10 @@ description: valeur nulle
 title: Limitations et spécifications
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 98%
 
 ---
 
@@ -36,28 +36,28 @@ La modification d’une requête du Report Builder après sa publication sur Pow
    **Voici un exemple de la façon dont la visualisation SERA corrompue :**
 
    1. Dans Report Builder, créez un classeur avec une requête, en utilisant la dimension Page et la mesure Pages vues.
-   1. [Planifiez la publication de cette requête](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) sur Power BI.
-   1. Dans Power BI, créez une visualisation pour Page et Pages vues.
-   1. Maintenant, modifiez le classeur en supprimant Pages vues de la requête.
-   1. Modifiez la planification avec le classeur mis à jour et republiez la requête sur Power BI.
-   1. Une fois que le nouveau classeur est envoyé à Power BI
+   2. Planifiez la publication de cette demande au Power BI.
+   3. Dans Power BI, créez une visualisation pour Page et Pages vues.
+   4. Maintenant, modifiez le classeur en supprimant Pages vues de la requête.
+   5. Modifiez la planification avec le classeur mis à jour et republiez la requête sur Power BI.
+   6. Une fois que le nouveau classeur est envoyé à Power BI
 
       1. Vérifiez qu’il a remplacé le jeu de données existant qui avait été créé lors de la première publication.
-      1. Vérifiez que le tableau page_1 est correctement mis à jour avec les colonnes Page et Visites.
-      1. Vérifiez que votre visualisation est corrompue, étant donné qu’elle fait référence à la colonne Pages vues qui n’existe plus dans le tableau page_1.
+      2. Vérifiez que le tableau page_1 est correctement mis à jour avec les colonnes Page et Visites.
+      3. Vérifiez que votre visualisation est corrompue, étant donné qu’elle fait référence à la colonne Pages vues qui n’existe plus dans le tableau page_1.
 
    **Voici un exemple de la façon dont la visualisation NE sera PAS corrompue :**
 
    1. Dans Report Builder, créez un classeur avec une requête, en utilisant la dimension Page et la mesure Pages vues.
-   1. [Planifiez la publication de cette requête](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) sur Power BI.
-   1. Dans Power BI, créez une visualisation pour Page et Pages vues.
-   1. Maintenant, modifiez le classeur dans Report Builder, en ajoutant la mesure Visites tout en conservant Page et Pages vues.
-   1. Modifiez la planification avec le classeur mis à jour et republiez la requête sur Power BI.
-   1. Une fois que le nouveau classeur est envoyé à Power BI
+   2. Planifiez la publication de cette requête sur Power BI.
+   3. Dans Power BI, créez une visualisation pour Page et Pages vues.
+   4. Maintenant, modifiez le classeur dans Report Builder, en ajoutant la mesure Visites tout en conservant Page et Pages vues.
+   5. Modifiez la planification avec le classeur mis à jour et republiez la requête sur Power BI.
+   6. Une fois que le nouveau classeur est envoyé à Power BI
 
       1. Vérifiez qu’il a remplacé le jeu de données existant qui avait été créé lors de la première publication.
-      1. Vérifiez que le tableau page_1 est correctement mis à jour avec les colonnes Page, Pages vues et Visites.
-      1. Vérifiez que votre visualisation continue de fonctionner correctement, étant donné qu’elle fait référence à deux colonnes qui sont toujours présentes dans le tableau page_1.
+      2. Vérifiez que le tableau page_1 est correctement mis à jour avec les colonnes Page, Pages vues et Visites.
+      3. Vérifiez que votre visualisation continue de fonctionner correctement, étant donné qu’elle fait référence à deux colonnes qui sont toujours présentes dans le tableau page_1.
 
 
 * **Cas 2** : Vous épinglez une section de votre classeur dans un tableau de bord de Power BI ; par la suite, vous supprimez cette section épinglée (par exemple, un graphique ou un tableau) du classeur. Cela entraîne la corruption de la visualisation.
