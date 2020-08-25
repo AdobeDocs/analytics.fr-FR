@@ -2,10 +2,10 @@
 description: valeur nulle
 title: Publication sur Power BI - Aperçu
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1058'
+translation-type: tm+mt
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -20,12 +20,6 @@ Auparavant, en tant qu’analyste, vous deviez planifier la diffusion des classe
 L’association de la fonctionnalité de génération de rapports du Report Builder aux fonctionnalités de visualisation de Power BI rend les informations plus accessibles pour tous les membres de l’organisation. Grâce à Power BI, vous pouvez également intégrer Adobe Analytics à d’autres sources de données (par exemple, point de vente, gestion de la relation client) de façon à découvrir des statistiques sur les clients, des associations et des opportunités uniques.
 
 ![](assets/aaplusbi.png)
-
-L’intégration avec le Report Builder Adobe vous permet de
-
-* [Publier les classeurs du Report Builder planifiés sur Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Publier tous les tableaux formatés du classeur en tant que tableaux de jeu de données Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Publier toutes les requêtes du Report Builder sous forme de tableaux de jeu de données Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Configuration requise {#section_0B71092D853446F38FA36447DAC0D32B}
 
