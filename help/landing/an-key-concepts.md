@@ -2,9 +2,9 @@
 description: Cette section présente des concepts clés liés à Adobe Analytics, une brève description du concept et un lien vers une documentation spécifique comprenant des détails supplémentaires sur le sujet.
 title: Adobe Analytics – Concepts clés
 translation-type: tm+mt
-source-git-commit: 68826433e028825fc43c948d32456416b9d2a13e
+source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1863'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ Cliquez [ici](/help/technotes/terms.md) pour consulter un glossaire complet des 
 | Segments | Capacité de compiler, de gérer, de partager et d’appliquer des segments d’audience puissants et cadrés pour vos rapports Analytics. Les segments sont partagés à l’échelle des produits Analytics et peuvent aussi l’être à l’échelle d’Experience Cloud. | [Segmentation](/help/components/segmentation/seg-home.md) |
 | Heure (périodes) | Possibilité de filtrer la date à n’importe quelle période et de créer des périodes personnalisées qui peuvent être réutilisées dans votre analyse. | [Périodes](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | Visualisations | Des visuels riches qui peuvent donner vie aux données dans vos projets. | [Visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| Traitement | Possibilité de limiter les composants accessibles dans un projet ou une suite de rapports virtuelle. | [Traitement VRS](/help/components/vrs/vrs-components.md) <br> [Traitement du projet](/help/analyze/analysis-workspace/curate-share/curate.md) <br> [Comparaison](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) |
+| Traitement | Possibilité de limiter les composants accessibles dans un projet ou une suite de rapports virtuelle. | [Traitement VRS](/help/components/vrs/vrs-components.md) <br> [Traitement du projet](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## Rapports clés
 
