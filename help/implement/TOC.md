@@ -5,10 +5,10 @@ user-guide-title: Guide de mise en œuvre Analytics
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 99%
 
 ---
 
@@ -194,6 +194,7 @@ ht-degree: 100%
    + [Mise en œuvre d’Analytics sur les Instant Articles de Facebook](other/fb-instant-articles.md)
 + [Mise en œuvre d’Analytics sur des appareils mobiles](mobile-device-sdk.md)
 + Cas d’utilisation de mise en œuvre {#use-cases}
+   + [Utilisation d’AppMeasurement avec des iFrames](use-cases/iframe.md)
    + [Suivi sur différents types de mises en œuvre](use-cases/cross-type-implementation.md)
    + [Suivi des courriers électroniques externes](use-cases/email-external.md)
 + Validation de votre mise en œuvre {#validate}
