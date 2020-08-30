@@ -3,10 +3,10 @@ description: Utilisez les visualisations Synthèse des chiffres et Modifier pour
 title: Synthèse des chiffres et synthèse des changements
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 0a3c4a6839d0c6ee2d8a98394ed38c433ea811d1
+source-git-commit: f3f1fdda35552d23767cc9bd64d47c4b99a5900b
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 52%
+source-wordcount: '462'
+ht-degree: 47%
 
 ---
 
@@ -22,7 +22,15 @@ Utilisez la visualisation Synthèse des chiffres pour mettre en évidence un gra
 * Si plusieurs cellules sont sélectionnées, la première cellule sélectionnée s’affiche.
 * Si la colonne est sélectionnée, la valeur de la première cellule de la colonne est affichée.
 
-![](assets/summary-number.png)
+Cliquez sur l’engrenage Paramètres **de** visualisation en haut à droite pour configurer les paramètres Synthèse des chiffres :
+
+| Paramètre | Définition |
+|--- |--- |
+| Pourcentages | Affichez des pourcentages plutôt que des chiffres bruts. |
+| Légende visible | Affiche des informations sur la mesure affichée. |
+| Abréger la valeur | Choisissez d’abréger les valeurs et d’afficher jusqu’à 3 décimales. |
+| Résumer la valeur par | Choisissez d’afficher le maximum, le minimum, la moyenne, la médiane ou la somme pour une sélection de données. |
+
 
 Cliquez sur l’engrenage Paramètres **de** visualisation en haut à droite pour configurer les paramètres Synthèse des chiffres :
 
@@ -32,6 +40,7 @@ Cliquez sur l’engrenage Paramètres **de** visualisation en haut à droite pou
 | Légende visible | Affiche des informations sur la mesure affichée. |
 | Abréger la valeur | Choisissez d’abréger les valeurs et d’afficher jusqu’à 3 décimales. |
 | Résumer la valeur par | Choisissez d’afficher le maximum, le minimum, la moyenne, la médiane ou la somme pour une sélection de données. |
+
 
 ## Visualisation Résumé des changements {#summary-change}
 
@@ -46,7 +55,9 @@ Cette visualisation se comporte comme suit :
 * Si une rangée de cellules est sélectionnée, la première et la dernière cellules de la rangée sont comparées.
 * Si la colonne est sélectionnée, la première valeur est comparée à elle-même ; 0 s’affiche.
 
+
 ![](assets/summary-change.png)
+
 
 Cliquez sur l’engrenage Paramètres **de** visualisation dans la partie supérieure droite pour configurer les paramètres Résumé des modifications :
 
