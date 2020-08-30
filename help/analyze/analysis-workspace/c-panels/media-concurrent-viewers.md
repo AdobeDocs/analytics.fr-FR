@@ -1,16 +1,16 @@
 ---
-title: Panneau Visionneuses simultanées
-description: Utilisation et interprétation du panneau Visionneuses simultanées dans Analysis Workspace.
+title: Panneau Visionneuses simultanées de médias
+description: Utilisation et interprétation du panneau Visionneuses simultanées de médias en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 807c5e31b376799f4494ecc24cebfd9498c39e63
+source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '993'
 ht-degree: 9%
 
 ---
 
 
-# Panneau Visionneuses simultanées
+# Panneau Visionneuses simultanées de médias
 
 >[!IMPORTANT]
 >
