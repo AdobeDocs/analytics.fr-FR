@@ -2,10 +2,10 @@
 title: Panneau Visionneuses simultanées de médias
 description: Utilisation et interprétation du panneau Visionneuses simultanées de médias en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 9%
+source-wordcount: '1002'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est en cours de déploiement échelonné pour les clients Media Analytics.
+>Cette fonctionnalité est disponible dans les tests limités pour les clients d’analyse des médias. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html)
 
 Les clients Media Analytics peuvent analyser les visionneuses simultanées pour déterminer où s’est produit un pic d’accès simultané ou où des abandons se sont produits afin de fournir des informations précieuses sur la qualité du contenu et l’engagement des visiteurs, ainsi que pour vous aider à résoudre les problèmes ou à planifier le volume ou l’échelle.
 
