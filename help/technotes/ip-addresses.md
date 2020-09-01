@@ -1,18 +1,18 @@
 ---
-title: IP et domaines utilisés dans la Adobe Experience Cloud
+title: IP et domaines utilisés par l’Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d'Adobe, utilisez cette liste pour mettre à jour vos paramètres de pare-feu.
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 14%
+source-wordcount: '421'
+ht-degree: 16%
 
 ---
 
 
-# IP et domaines utilisés dans la Adobe Experience Cloud
+# IP et domaines utilisés par l’Adobe Analytics
 
-Certaines configurations de pare-feu bloquent les adresses IP provenant des serveurs de collecte de données d&#39;Adobe ou des serveurs responsables de l&#39;accès aux données. La liste suivante de blocs d&#39;adresses IP couvre les adresses connues impliquées dans le Adobe Experience Cloud. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise.
+Certaines configurations de pare-feu bloquent les adresses IP provenant des serveurs de collecte de données d&#39;Adobe ou des serveurs responsables de l&#39;accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise.
 
 >[!IMPORTANT]
 >
@@ -33,98 +33,87 @@ adobe analytics utilise les hôtes suivants pour améliorer les performances et 
 | Enregistrement Blob Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
 | CDN Microsoft Azure | `aauicdnva7.azureedge.net` |
 
-## Tous les blocs d’adresse IP d’Adobe
+## Tous les blocs d’adresse IP Adobe Analytics
 
-Le tableau suivant couvre toutes les adresses IP publiques de Adobe Experience Cloud détenues par l’Adobe. Ces plages comprennent des serveurs de collecte de données standard et des serveurs de collecte de données régionaux pour Adobe Analytics. Ils n’incluent pas les hôtes AWS individuels.
+Le tableau suivant couvre tous les serveurs de collecte de données standard et les serveurs de collecte de données régionaux pour Adobe Analytics. Ils n’incluent pas les hôtes AWS individuels.
 
-Un grand nombre de services et de capacités d&#39;Adobe partagent des blocs et des plages d&#39;adresses IP, mais certains ont leur propre espace dédié. Les blocs n&#39;utilisant qu&#39;une seule solution sont indiqués comme tels.
-
-| Bloc IP (NOTATION CIDR) | Remarques |
-| --- | --- |
-| `62.210.161.0/24` | Spécifique à l’Adobe Campaign |
-| `63.140.32.0/19` |  |
-| `66.117.16.0/20` |  |
-| `66.235.128.0/19` |  |
-| `67.226.212.0/23` | Spécifique à Adobe Advertising Cloud |
-| `103.202.219.0/24` | Spécifique à Adobe Advertising Cloud |
-| `130.248.0.0/16` |  |
-| `172.82.192.0/18` |  |
-| `185.34.188.0/22` |  |
-| `185.148.48.0/24` | Spécifique à Adobe Advertising Cloud |
-| `192.243.224.0/19` |  |
-| `198.98.22.0/23` | Spécifique à Adobe Advertising Cloud |
-| `205.219.231.0/24` |  |
-| `208.67.40.0/22` |  |
-| `208.77.136.0/22` |  |
-| `208.91.168.0/21` | Spécifique à Adobe Advertising Cloud |
+| Bloc IP (NOTATION CIDR) |
+| --- |
+| `63.140.32.0/19` |
+| `66.117.16.0/20` |
+| `66.235.128.0/19` |
+| `130.248.0.0/16` |
+| `172.82.192.0/18` |
+| `185.34.188.0/22` |
+| `192.243.224.0/19` |
+| `205.219.231.0/24` |
+| `208.67.40.0/22` |
+| `208.77.136.0/22` |
 
 ## Collecte de données et blocs d’adresses IP FTP
 
 Si votre organisation préfère autoriser des plages d’adresses IP spécifiques, vous pouvez utiliser le tableau suivant. Toutes les plages de cette section sont incluses dans le tableau ci-dessus.
 
-| Emplacement | Plage IP (NOTATION CIDR) | Remarques |
-| --- | --- | --- |
-| Amsterdam | `66.117.28.0/23` |  |
-| Dallas | `205.219.231.0/24` |  |
-| Dallas | `66.235.152.0/22` |  |
-| Dallas | `66.235.140.0/22` |  |
-| Dallas | `63.140.32.0/21` |  |
-| Dallas | `172.82.208.0/22` |  |
-| RAS de Hong Kong (Chine) | `66.117.24.0/22` |  |
-| Londres | `66.235.156.0/24` |  |
-| Londres | `66.235.148.0/23` |  |
-| Londres | `66.117.16.0/23` | Spécifique à l’Adobe Campaign |
-| Londres | `63.140.40.0/22` |  |
-| Londres | `208.67.41.0/24` |  |
-| Londres | `192.243.254.0/23` |  |
-| Londres | `192.243.244.0/22` |  |
-| Londres | `185.34.188.0/23` |  |
-| Londres | `130.248.152.0/21` |  |
-| Londres | `172.82.224.0/21` |  |
-| Londres | `172.82.232.0/21` |  |
-| Oregon | `192.243.240.0/22` |  |
-| Oregon | `192.243.232.0/21` |  |
-| Oregon | `192.243.224.0/21` |  |
-| Oregon | `130.248.160.0/21` |  |
-| Oregon | `130.248.148.0/22` |  |
-| Oregon | `172.82.192.0/21` |  |
-| Oregon | `172.82.216.0/21` |  |
-| Paris | `62.210.161.0/24` | Spécifique à l’Adobe Campaign |
-| Paris | `66.117.18.0/23` | Spécifique à l’Adobe Campaign |
-| Paris | `208.67.40.0/24` |  |
-| Singapour | `66.235.150.0/24` |  |
-| Singapour | `66.235.130.0/23` |  |
-| Singapour | `63.140.44.0/22` |  |
-| Singapour | `208.67.43.0/24` |  |
-| Singapour | `172.82.240.0/22` |  |
-| Singapour | `172.82.246.0/23` |  |
-| Singapour | `172.82.248.0/21` |  |
-| San Jose | `66.117.20.0/24` |  |
-| San Jose | `66.235.132.0/22` |  |
-| San Jose | `130.248.128.0/22` |  |
-| San Jose | `192.243.248.0/23` |  |
-| San Jose | `172.82.200.0/22` |  |
-| San Jose | `66.235.136.0/22` |  |
-| San Jose | `208.91.175.0/24` |  |
-| San Jose | `208.91.174.0/24` |  |
-| San Jose | `208.91.169.0/24` |  |
-| Sydney | `216.104.216.0/23` |  |
-| Tokyo | `66.235.159.0/24` |  |
-| Tokyo | `66.117.21.0/24` |  |
-| Tokyo | `63.140.52.0/24` |  |
-| Tokyo | `63.140.50.0/23` |  |
-| Virginie | `66.235.144.0/22` |  |
-| Virginie | `208.77.138.0/23` |  |
-| Virginie | `208.77.136.0/23` |  |
-| Virginie | `192.243.250.0/23` |  |
-| Virginie | `130.248.144.0/22` |  |
-| Virginie | `172.82.204.0/22` |  |
-| Virginie | `172.82.212.0/22` |  |
-| Virginie | Voir Hôtes AWS |  |
+| Emplacement | Plage IP (NOTATION CIDR) |
+| --- | --- |
+| Amsterdam | `66.117.28.0/23` |
+| Dallas | `205.219.231.0/24` |
+| Dallas | `66.235.152.0/22` |
+| Dallas | `66.235.140.0/22` |
+| Dallas | `63.140.32.0/21` |
+| Dallas | `172.82.208.0/22` |
+| RAS de Hong Kong (Chine) | `66.117.24.0/22` |
+| Londres | `66.235.156.0/24` |
+| Londres | `66.235.148.0/23` |
+| Londres | `63.140.40.0/22` |
+| Londres | `208.67.41.0/24` |
+| Londres | `192.243.254.0/23` |
+| Londres | `192.243.244.0/22` |
+| Londres | `185.34.188.0/23` |
+| Londres | `130.248.152.0/21` |
+| Londres | `172.82.224.0/21` |
+| Londres | `172.82.232.0/21` |
+| Oregon | `192.243.240.0/22` |
+| Oregon | `192.243.232.0/21` |
+| Oregon | `192.243.224.0/21` |
+| Oregon | `130.248.160.0/21` |
+| Oregon | `130.248.148.0/22` |
+| Oregon | `172.82.192.0/21` |
+| Oregon | `172.82.216.0/21` |
+| Paris | `208.67.40.0/24` |
+| Singapour | `66.235.150.0/24` |
+| Singapour | `66.235.130.0/23` |
+| Singapour | `63.140.44.0/22` |
+| Singapour | `208.67.43.0/24` |
+| Singapour | `172.82.240.0/22` |
+| Singapour | `172.82.246.0/23` |
+| Singapour | `172.82.248.0/21` |
+| San Jose | `66.117.20.0/24` |
+| San Jose | `66.235.132.0/22` |
+| San Jose | `130.248.128.0/22` |
+| San Jose | `192.243.248.0/23` |
+| San Jose | `172.82.200.0/22` |
+| San Jose | `66.235.136.0/22` |
+| San Jose | `208.91.175.0/24` |
+| San Jose | `208.91.174.0/24` |
+| San Jose | `208.91.169.0/24` |
+| Sydney | `216.104.216.0/23` |
+| Tokyo | `66.235.159.0/24` |
+| Tokyo | `66.117.21.0/24` |
+| Tokyo | `63.140.52.0/24` |
+| Tokyo | `63.140.50.0/23` |
+| Virginie | `66.235.144.0/22` |
+| Virginie | `208.77.138.0/23` |
+| Virginie | `208.77.136.0/23` |
+| Virginie | `192.243.250.0/23` |
+| Virginie | `130.248.144.0/22` |
+| Virginie | `172.82.204.0/22` |
+| Virginie | `172.82.212.0/22` |
+| Virginie | Voir Hôtes AWS |
 
 ## Hôtes AWS
 
-Certains Adobes utilisent les services Web Amazon pour collecter des données. Le tableau suivant comprend les hôtes AWS réservés à l’Adobe. Ces hôtes **ne sont pas** inclus dans la plage de blocs d&#39;agrégat ci-dessus.
+adobe analytics utilise les services Web Amazon dans le cadre de son processus de collecte de données. Le tableau suivant comprend les hôtes AWS réservés à l’Adobe. Ces hôtes **ne sont pas** inclus dans la plage de blocs d&#39;agrégat ci-dessus.
 
 | Emplacement | Hôte |
 | --- | --- |
