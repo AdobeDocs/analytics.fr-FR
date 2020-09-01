@@ -5,10 +5,10 @@ user-guide-title: Notes techniques d’Analytics
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 35952706f89bf70cd4fd5d33f83b4b2df5b8ffee
+source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 87%
+source-wordcount: '162'
+ht-degree: 83%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 87%
 + [Cookies de navigateur](cookies.md)
 + [Rétention des données](data-retention.md)
 + [Exclure des données](exclude-data.md)
++ [IP et domaines utilisés par l’Adobe Analytics](ip-addresses.md)
 + [Latence](latency.md)
 + [Valeur de faible trafic](low-traffic.md)
 + [Migration des règles de traitement Mobile Services vers Adobe Analytics](migrate-mobile.md)
