@@ -3,9 +3,9 @@ description: Utilisez la visualisation en ligne pour représenter les jeux de do
 title: Ligne
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 3ace7c4fc42e578b621433860ae3f0dba6be06fd
+source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '400'
 ht-degree: 12%
 
 ---
@@ -35,7 +35,7 @@ Une liste déroulante de granularité accessible dans les [paramètres de visual
 
 ## Afficher min ou max
 
-Sous Paramètres **[!UICONTROL de]** visualisation > **[!UICONTROL Overlays]** > **[!UICONTROL Afficher min/max]**, vous pouvez superposer une étiquette de valeur minimale et maximale pour mettre rapidement en surbrillance les pics et les vallées d’une mesure.
+Sous Paramètres **[!UICONTROL de]** visualisation > **[!UICONTROL Overlays]** > **[!UICONTROL Afficher min/max]**, vous pouvez superposer une étiquette de valeur minimale et maximale pour mettre rapidement en surbrillance les pics et les vallées d’une mesure. Remarque : Les valeurs min/max sont dérivées des points de données visibles dans la visualisation, et non du jeu complet de valeurs dans une dimension.
 
 ![Afficher min/max](assets/min-max-labels.png)
 
@@ -51,6 +51,6 @@ Tous les modèles sont ajustés en utilisant les moindres carrés ordinaires :
 |---|---|
 | Linéaire | Crée une ligne droite parfaitement adaptée aux jeux de données linéaires simples et est utile lorsque les données augmentent ou diminuent à un rythme régulier. Équation : `y = a + b * x` |
 | Logarithmique | Crée une ligne incurvée qui convient le mieux et s’avère utile lorsque le taux de changement des données augmente ou diminue rapidement, puis diminue. Une courbe de tendance logarithmique peut utiliser des valeurs négatives et positives. Équation : `y = a + b * log(x)` |
-| Exponentielle | Crée une ligne incurvée et est utile lorsque les données augmentent ou diminuent à un rythme constamment croissant. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a + e^(b * x)` |
-| Alimentation | Crée une ligne incurvée et est utile pour les jeux de données qui comparent les mesures qui augmentent à un rythme spécifique. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a * x^b` |
+| Exponentiel | Crée une ligne incurvée et est utile lorsque les données augmentent ou diminuent à un rythme constamment croissant. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a + e^(b * x)` |
+| Puissance | Crée une ligne incurvée et est utile pour les jeux de données qui comparent les mesures qui augmentent à un rythme spécifique. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a * x^b` |
 | Quadratique | Trouve le meilleur ajustement pour un jeu de données en forme de parabole (concave vers le haut ou vers le bas). Équation : `y = a + b * x + c * x^2` |
