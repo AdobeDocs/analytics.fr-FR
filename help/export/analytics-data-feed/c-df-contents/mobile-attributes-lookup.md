@@ -2,23 +2,23 @@
 title: Recherche d’attributs mobiles
 description: Fichier de recherche pour les attributs mobiles.
 translation-type: tm+mt
-source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
+source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
 
 # Recherche d’attributs mobiles
 
-Les attributs mobiles affichent les propriétés du périphérique mobile dans l’accès. Ce fichier apparaît lorsque :
+Les attributs mobiles indiquent les propriétés de l’appareil mobile dans l’accès. Ce fichier apparaît lorsque :
 
-* Les recherches dynamiques sont activées. Un délégué du service d’assistance de votre entreprise peut contacter le service d’assistance clientèle avec l’ID de flux souhaité pour activer les recherches dynamiques.
-* La `mobile_id` colonne est incluse.
-* La `user_agent` colonne est exclue. Cette exclusion est requise en raison d&#39;accords de licence avec DeviceAtlas.
+* Les recherches dynamiques sont activées. Un délégué de l’assistance de votre entreprise peut contacter le service d’assistance clientèle avec l’identifiant du flux pour lequel vous souhaitez activer les recherches dynamiques.
+* La colonne `mobile_id` est incluse.
+* La colonne `user_agent` est exclue. Cette exclusion est requise en raison d’accords de licence passés avec DeviceAtlas.
 
-Téléchargez `mobile_attributes_headers.tsv`ou référencez la liste ici :
+Téléchargez [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv) ou référez-vous à la liste ici :
 
 * `mobile_id`
 * `Manufacturer`
