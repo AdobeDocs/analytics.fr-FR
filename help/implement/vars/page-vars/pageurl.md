@@ -1,11 +1,11 @@
 ---
 title: pageURL
 description: Permet de remplacer l’URL de page collectée automatiquement sur votre site.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,7 @@ AppMeasurement collecte automatiquement l’URL de la page dans chaque accès. S
 
 >[!NOTE]
 >
->Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. Si vous souhaitez utiliser l’URL de page comme dimension dans Analysis Workspace, pensez à transmettre la variable `pageURL` dans une eVar à chaque accès.
-
-Les URL dépassent parfois 255 octets. AppMeasurement utilise le paramètre de chaîne de requête `g` pour les 255 premiers octets de l’URL dans les demandes d’image. Si une URL dépasse 255 octets, le reste de l’URL est stocké dans le paramètre de chaîne de requête `-g`. Les chaînes de protocole et de requête de l’URL sont incluses dans cette variable.
+>Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. En outre, les serveurs de collecte de données d’Adobe éliminent cette dimension de toutes les demandes d’image de suivi [de](/help/implement/vars/functions/tl-method.md) liens. Si vous souhaitez utiliser l’URL de page comme dimension en Analysis Workspace ou que cette dimension doit être utilisée dans les accès de suivi de liens, pensez à transmettre la `pageURL` variable dans un [eVar](evar.md) pour chaque accès.
 
 ## URL de page dans Adobe Experience Platform Launch
 
@@ -26,10 +24,10 @@ Launch renseigne automatiquement l’URL de la page. Vous pouvez toutefois défi
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
-4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
-6. Recherchez la section [!UICONTROL URL de la page].
+3. Accédez à l’onglet **[!UICONTROL Règles]**, puis cliquez sur une règle (ou créez une règle).
+4. Sous **[!UICONTROL Actions]**, cliquez sur une action existante **[!UICONTROL Adobe Analytics - Définir des variables]** ou cliquez sur l’icône « + ».
+5. Définissez la liste déroulante **[!UICONTROL Extension]** sur Adobe Analytics et le **[!UICONTROL type d’action]** sur **[!UICONTROL Définir des variables]**.
+6. Recherchez la section **[!UICONTROL URL de la page]**.
 
 Vous pouvez définir l’URL de la page sur n’importe quelle valeur de chaîne.
 
@@ -46,4 +44,10 @@ Si vous souhaitez utiliser l’URL de page comme dimension dans les rapports, pe
 ```js
 // Set eVar1 to page URL without protocol or query strings
 s.eVar1 = window.location.hostname + window.location.pathname;
+```
+
+Si vous utilisez la couche `digitalData` de [](../../prepare/data-layer.md)données :
+
+```js
+s.pageURL = digitalData.page.pageInfo.destinationURL;
 ```
