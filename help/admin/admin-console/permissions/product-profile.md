@@ -1,6 +1,9 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '514'
+ht-degree: 91%
 
 ---
 # Profils de produit dans Adobe Analytics
@@ -13,10 +16,10 @@ Voir [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise
 
 Les administrateurs de profil de produit sont un groupe facultatif qui peut ajouter des utilisateurs à ce profil de produit ou en supprimer. Notez qu’un administrateur de profil de produit n’est pas identique à un administrateur de produit :
 
-* Les administrateurs de profil de produit sont simplement responsables de la liste des utilisateurs d’un profil de produit.
 * Les administrateurs de profil de produit ne disposent pas d’un accès complet à Adobe Analytics. L’accès complet à Adobe Analytics est réservé aux administrateurs de produit.
-* Les administrateurs de profil de produit ne peuvent pas ajuster les éléments d’autorisation dans leur profil de produit, tandis qu’un administrateur de produit doit apporter des ajustements aux éléments d’autorisation.
-* Les administrateurs de profil de produit sont parfaits pour les chefs d’équipe ou les gestionnaires qui doivent simplement octroyer et gérer l’accès à Adobe Analytics pour leur équipe. Les utilisateurs n’ont pas besoin d’intervenir auprès des administrateurs système ou des administrateurs de produit pour octroyer l’accès à Adobe Analytics.
+* Les administrateurs de profil de produits peuvent ajuster les éléments d’autorisation dans leur profil de produits.
+* Les administrateurs de profil de produits peuvent affecter ou supprimer des profils de produits à des groupes d’utilisateurs.
+* Les administrateurs de profil de produits sont idéaux pour les chefs d’équipe ou les gestionnaires qui doivent accorder et gérer l’accès à Adobe Analytics pour leur équipe. Les utilisateurs n’ont pas besoin d’intervenir auprès des administrateurs système ou des administrateurs de produit pour octroyer l’accès à Adobe Analytics.
 
 ## Éléments d’autorisation Adobe Analytics
 
