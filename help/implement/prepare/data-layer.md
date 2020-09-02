@@ -2,10 +2,10 @@
 title: Création d’une couche de données
 description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ Une couche de données désigne une structure d’objets JavaScript sur votre si
 
 ## Conditions préalables
 
-[Créer un document de conception de solution :](solution-design.md) il est important que votre entreprise s’aligne sur les exigences de suivi. Assurez-vous d’être préparé avec un document de conception de solution avant de contacter les équipes de développement de votre entreprise.
+[Créer un document de conception de solution :](solution-design.md) il est important que votre entreprise s’aligne sur les exigences de suivi. Assurez-vous d’être prêt à utiliser un document de conception de solution avant de vous adresser aux équipes de développement de votre entreprise.
 
 ## Processus
 
@@ -61,14 +61,14 @@ digitalData = {
         },
         category: {
             primaryCategory: "Example page category",
-            subCategory1: "Sub-category example"
+            subCategory: "Sub-category example"
         },
         attributes: {
             country: "US",
             language: "en-US"
         }
     },
-    product1: {
+    product: [{
         productInfo: {
             productID: "4859",
             productName: "Example product",
@@ -77,13 +77,14 @@ digitalData = {
             productImage: "https://example.com/product_image.png",
             productThumbnail: "https://example.com/product_thumbnail.png",
             manufacturer: "Example manufacturer",
+            quantity: 1,
             size: "Product size"
         },
         category: {
             primaryCategory: "Example product category",
             subCategory: "Example sub-category"
         }
-    },
+    }],
     cart: {
         cartID: "934856",
         price: {
@@ -124,13 +125,13 @@ digitalData = {
             }
         }
     },
-    event1: {
+    event: [{
         category: {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    component1: {
+    }],
+    component: [{
         componentInfo: {
             componentID: "4921",
             componentName: "Example component"
@@ -139,10 +140,10 @@ digitalData = {
             primaryCategory: "Example event category",
             subCategory: "Example sub-category"
         }
-    },
-    user1: {
+    }],
+    user: [{
         segment: "Premium membership",
-        profile1: {
+        profile: [{
             profileInfo: {
                 profileID: "exampleprofile",
                 userName: "exampleusername",
@@ -154,19 +155,19 @@ digitalData = {
                 facebook: "examplefacebookid",
                 twitter: "exampletwitterhandle"
             }
-        }
-    },
+        }]
+    }],
     privacy: {
-        accessCategories1: {
+        accessCategories: [{
             categoryName: "Default",
             domains: "adobedtm.com"
-        }
+        }]
     },
     version: "1.0"
 }
 ```
 
-Utilisez le rapport [Couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf) pour plus d’informations sur chaque objet et sous-objet. Tous les sites n’utilisent pas tous les objets ; par exemple, si vous hébergez un site d’actualités, il est peu probable que vous ayez recours à l’objet `digitalData.product`.
+Utilisez le rapport [Couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf) pour plus d’informations sur chaque objet et sous-objet. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
 
 Les couches de données sont extensibles ; si vous avez des exigences spécifiques à votre entreprise, vous pouvez inclure des objets dans la couche de données pour répondre à ces besoins.
 
