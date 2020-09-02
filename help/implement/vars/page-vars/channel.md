@@ -1,8 +1,11 @@
 ---
 title: marketing
 description: Permet de renseigner la dimension « Sections du site ».
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 97%
 
 ---
 
@@ -30,4 +33,10 @@ La variable `s.channel` est une chaîne qui contient généralement la section d
 
 ```js
 s.channel = "Example site section";
+```
+
+Si vous utilisez la couche `digitalData` de [](../../prepare/data-layer.md)données :
+
+```js
+s.channel = digitalData.page.category.primaryCategory;
 ```
