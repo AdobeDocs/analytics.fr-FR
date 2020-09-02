@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Dimensions disponibles pour les règles de traitement
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '742'
+ht-degree: 86%
 
 ---
 
@@ -88,11 +91,11 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nom de la page </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Remarque : une page vue est comptabilisée sur tous les accès pour lesquels le nom de page n’est pas vide. Lorsqu’un lien est suivi, le serveur de collecte des données supprime le nom de page de l’accès afin que les pages vues ne soient pas comptabilisées. Si vous réinsérez un nom de page dans ces appels à l’aide des règles de traitement, une page vue est comptabilisée. Nous vous recommandons de vérifier que le nom de page est déjà défini avant de le modifier. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Remarque :  Les appels de suivi de lien dépouillent la <code>pageName</code> variable avant d’atteindre les règles de traitement. Si vous réinsérez une valeur de nom de page à l’aide de règles de traitement, l’accès est considéré comme une vue de page et non comme un appel de suivi de liens. adobe recommande de vérifier si le nom de page est déjà défini avant de le modifier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL de la page </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> ou URL de la page en cours si <code> s.pageURL</code> n’est pas spécifié. </td> 
+   <td colname="col2"> <code> s.pageURL</code> ou URL de la page en cours si <code> s.pageURL</code> n’est pas spécifié. <p>Remarque :  Les appels de suivi de lien dépouillent la <code>pageURL</code> variable avant d’atteindre les règles de traitement. Si vous réinsérez une valeur d’URL de page à l’aide de règles de traitement, l’accès est considéré comme une vue de page et non comme un appel de suivi de liens. L’Adobe recommande de vérifier si l’URL de la page est déjà définie avant de la modifier. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paramètre de chaîne de requête </p> </td> 
