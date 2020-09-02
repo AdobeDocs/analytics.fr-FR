@@ -1,11 +1,11 @@
 ---
 title: referrer
 description: Permet de remplacer le référent collecté automatiquement pour un accès.
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,15 @@ La variable `s.referrer` est une chaîne contenant l’URL de la page précéden
 s.referrer = "https://example.com";
 ```
 
-Évitez de définir cette variable sur des valeurs autres que les URL.
+Si vous utilisez la couche `digitalData` de [](../../prepare/data-layer.md)données :
+
+```js
+s.referrer = digitalData.page.pageInfo.referringURL;
+```
+
+>[!CAUTION]
+>
+>Évitez de définir cette variable sur des valeurs autres que les URL.
 
 ## Exemple
 
