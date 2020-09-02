@@ -2,9 +2,9 @@
 description: Découvrez comment migrer les règles de traitement Mobile Services vers Adobe Analytics
 title: Migration des règles de traitement Mobile Services vers Adobe Analytics
 translation-type: tm+mt
-source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
+source-git-commit: c2610bf25c960039ca8638cecbd05f3a8b28376f
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '700'
 ht-degree: 18%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 18%
 Avec le prochain crépuscule (non encore annoncé) de la fonctionnalité Adobe Mobile Services, ce document vous fournit des instructions sur la migration des règles de traitement supplémentaires - au-delà des mesures de cycle de vie - que vous avez créées dans l’interface utilisateur Mobile Services vers Adobe Analytics.
 
 Les règles de traitement servent à déplacer des valeurs des variables Données contextuelles vers des props et des eVars. Par exemple, vous pouvez placer la valeur d’une variable de données contextuelles de &quot;terme de recherche&quot; dans la valeur d’un eVar de variable Commerce et remplacer cette valeur sur chaque accès. Sans règles de traitement, les variables de données contextuelles n’ont aucun sens et ne renseignent des données dans aucun rapport dans Analytics.
+
+Ce document traite également du rapports d’utilisation des mobiles dans Analysis Workspace et examine la faisabilité de la migration d’autres fonctionnalités Mobile Services.
 
 ## Migrer les règles de traitement
 
