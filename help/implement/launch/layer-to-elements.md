@@ -1,8 +1,11 @@
 ---
 title: Mise en correspondance des objets de couche de données avec les éléments de données
 description: Configurez Launch pour lire à partir de votre couche de données.
-translation-type: ht
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 100%
 
 ---
 
@@ -21,15 +24,15 @@ Une fois que votre entreprise a établi et implémenté une couche de données s
 
 1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
 1. Cliquez sur la propriété Launch de votre choix.
-1. Cliquez sur l’onglet [!UICONTROL Éléments de données], puis sur [!UICONTROL Ajouter un élément de données].
+1. Cliquez sur l’onglet **[!UICONTROL Éléments de données]**, puis sur **[!UICONTROL Ajouter un élément de données]**.
 
    ![Création d’un élément de données](assets/createelement.png)
 
 1. Entrez un nom pour votre élément de données. Il peut s’agir d’un libellé simple qui correspond à une variable JavaScript dans la couche de données dont vous souhaitez effectuer le suivi.
-1. Dans la liste déroulante [!UICONTROL Extension], sélectionnez [!UICONTROL Core].
-1. Dans la liste déroulante [!UICONTROL Type d’élément de données], sélectionnez [!UICONTROL Variable JavaScript]. Un champ de texte s’affiche à droite et vous permet de saisir la variable JavaScript à faire correspondre à cet élément de données.
+1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Core]**.
+1. Dans la liste déroulante **[!UICONTROL Type d’élément de données]**, sélectionnez **[!UICONTROL Variable JavaScript]**. Un champ de texte s’affiche à droite et vous permet de saisir la variable JavaScript à faire correspondre à cet élément de données.
 1. Entrez la variable JavaScript souhaitée, généralement dans la couche de données. Par exemple, si la couche de données de votre entreprise correspond étroitement à la pratique recommandée par Adobe, une valeur `digitalData.page.pageInfo.pageName` peut être indiquée. Vous pouvez utiliser la console de votre navigateur pour valider la syntaxe et les valeurs des variables JavaScript.
-1. Cliquez sur [!UICONTROL Enregistrer].
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Étapes suivantes
 
