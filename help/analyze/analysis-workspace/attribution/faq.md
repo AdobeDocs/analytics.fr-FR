@@ -2,9 +2,9 @@
 title: FAQ sur l’Attribution
 description: Obtenez des réponses aux questions les plus fréquentes au sujet de l’attribution.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: c206095b8024db0e31586abdf9639fba3401ce3f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '760'
 ht-degree: 95%
 
 ---
@@ -40,6 +40,7 @@ Les modèles d’attribution sont disponibles en dehors des suites de rapports v
 
 Le panneau d’attribution prend en charge toutes les dimensions. Voici les mesures non prises en charge :
 
+* Toutes les mesures calculées
 * Visiteurs uniques
 * Visites
 * Occurrences
