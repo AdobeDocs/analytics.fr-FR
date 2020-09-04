@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Ajout de code d’en-tête et de pied de page
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Dynamic Tag Management crée du code incorporé d’évaluation et de production
 
    ![](assets/dtm-embed.png)
 
-   Placez le code aussi près que possible de la balise [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] d’ouverture. Ce fragment de code doit être ajouté à chaque page de votre site de production actif.
+   Placez le code aussi près que possible de la balise `<head>` d’ouverture. Ce fragment de code doit être ajouté à chaque page de votre site de production actif.
 
    >[!NOTE]
    >
