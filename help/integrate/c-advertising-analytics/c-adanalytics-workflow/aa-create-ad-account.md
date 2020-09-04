@@ -1,10 +1,10 @@
 ---
 title: Configuration d’un compte Advertising
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '851'
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -45,14 +45,11 @@ Les administrateurs peuvent également [accorder l’accès à des non-administr
       </tr> 
       <tr> 
       <td colname="col1"> <p>Jeton OAuth </p> </td> 
-      <td colname="col2"> <p>Remarque : OAuth est un protocole libre de délégation d’accès, utilisé généralement afin d’autoriser des sites web ou des applications à accéder à leurs informations à partir d’autres sites web sans leur donner les mots de passe. </p> <p>Remarque : vous serez redirigé vers une URL tierce (efrontier.com). Adobe utilise efrontier pour faire fonctionner le processus d’authentification OAuth pour les trois moteurs de recherche. </p> <p>Remarque : si vous utilisez Internet Explorer 11 (ou une version antérieure), vous ne parviendrez pas à récupérer le jeton OAuth pour aucun des trois moteurs de recherche. Utilisez d’autres navigateurs web en remplacement. </p> <p>Un clic sur <span class="uicontrol">Récupérer le jeton</span> lancera le processus d’authentification OAuth2. Cela signifie que vous devrez vous connecter à votre compte de recherche Google/Bing en utilisant vos identifiants. Selon le moteur de recherche utilisé, le processus sera légèrement différent : </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords : utilisez vos ID de compte Google. </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing : utilisez vos ID de compte Bing et vos ID de client Bing. </li> 
-        </ul> <p>Reportez-vous à la section  <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Trouver les ID de votre compte</a> pour obtenir des informations sur ces ID. </p> <p>Une fois connecté, le champ du jeton OAuth affichera 
-        <systemoutput>
-          Récupéré
-        </systemoutput>. </p> </td> 
+      <td colname="col2"> <p>Remarque : OAuth est un protocole libre de délégation d’accès, utilisé généralement afin d’autoriser des sites web ou des applications à accéder à leurs informations à partir d’autres sites web sans leur donner les mots de passe. </p> <p>Remarque : vous serez redirigé vers une URL tierce (efrontier.com). Adobe utilise efrontier pour faire fonctionner le processus d’authentification OAuth pour les trois moteurs de recherche. </p> <p>Remarque : si vous utilisez Internet Explorer 11 (ou une version antérieure), vous ne parviendrez pas à récupérer le jeton OAuth pour aucun des trois moteurs de recherche. Utilisez d’autres navigateurs web en remplacement. </p> <p>Un clic sur <span class="uicontrol">Récupérer le jeton</span> lancera le processus d’authentification OAuth2. Cela signifie que vous devrez vous connecter à votre compte de recherche Google/Bing en utilisant vos identifiants. Selon le moteur de recherche utilisé, le processus sera légèrement différent : </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords : utilisez vos ID de compte Google. </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing : utilisez vos ID de compte Bing et vos ID de client Bing. </li> 
+       </ul> <p>Reportez-vous à la section <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Trouver les ID de votre compte</a> pour obtenir des informations sur ces ID. </p> <p>Une fois connecté, le champ du jeton OAuth affichera <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
