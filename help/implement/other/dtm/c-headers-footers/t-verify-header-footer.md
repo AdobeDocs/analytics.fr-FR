@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Vérification du code d’en-tête et de pied de page
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
@@ -26,6 +29,6 @@ Vérifiez si la bibliothèque de Dynamic Tag Management se charge correctement s
 
    Si cette erreur s’affiche, vérifiez les points suivants :
 
-* Vous avez ajouté le code d’en-tête complet à la section [!DNL HEAD] de chaque page du site, en le plaçant aussi près que possible de la balise [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] d’ouverture.
+* Vous avez ajouté le code d’en-tête complet à la section [!DNL HEAD] de chaque page du site, en le plaçant aussi près que possible de la balise `<head>` d’ouverture.
 * Le fragment de code ne contient pas de caractères inattendus, pouvant provenir de la copie et du collage d’un document mis en forme.
 
