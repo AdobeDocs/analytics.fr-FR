@@ -3,10 +3,10 @@ description: Vous pouvez télécharger des données à partir d’Analysis Works
 title: Téléchargement de fichiers PDF ou CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
+source-git-commit: 1cad7c4338f346dddb12f52b49040d3606801646
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 7%
+source-wordcount: '1013'
+ht-degree: 8%
 
 ---
 
@@ -36,7 +36,7 @@ Pour les téléchargements de projet, gardez à l’esprit :
 
 L’option de clic droit **[!UICONTROL Copier dans le Presse-papiers]** vous permet de copier rapidement des données de Workspace et de les coller ailleurs.
 
-* Si vous souhaitez copier le tableau affiché, cliquez avec le bouton droit sur l’en-tête du tableau et choisissez **Copier les données affichées dans le Presse-papiers**.
+* Si vous souhaitez copier le tableau affiché, cliquez avec le bouton droit sur l’en-tête du tableau et choisissez **Copier les données dans le Presse-papiers**.
 * Si vous souhaitez copier un sous-ensemble de données, effectuez une sélection dans le tableau, puis cliquez avec le bouton droit de la souris > **Copier la sélection dans le Presse-papiers**.
 
 De plus, la touche d’accès rapide `Ctrl+C` copie votre sélection dans le Presse-papiers. Une fois copié, vous pouvez aller dans un autre outil et coller les informations (ou cliquer `Ctrl+V`).
@@ -47,13 +47,12 @@ De plus, la touche d’accès rapide `Ctrl+C` copie votre sélection dans le Pre
 
 L’option de clic droit **[!UICONTROL Télécharger les données au format CSV]** vous permet de télécharger un tableau de données ou la source de données de toute visualisation au format CSV.
 
-* Dans l’en-tête d’un tableau, cliquez avec le bouton droit de la souris sur **[!UICONTROL Télécharger les données affichées au format CSV]**. Cette opération télécharge les données affichées dans le tableau au format CSV.
+* Dans l’en-tête d’un tableau ou d’une visualisation, cliquez avec le bouton droit de la souris sur **[!UICONTROL Télécharger les données au format CSV]**. Cela télécharge les données affichées dans le tableau ou la source de données sous-jacente pour une visualisation au format CSV. Remarque : la visualisation de zone cliquable ne prend pas en charge cette option.
 * Si une sélection est effectuée dans le tableau, l’option indique **[!UICONTROL Télécharger la sélection au format CSV]**. Seule la sélection est téléchargée avec cette option, par opposition au tableau complet affiché.
-* Dans l’en-tête de toute visualisation, cliquez avec le bouton droit de la souris sur **[!UICONTROL Télécharger les données au format CSV]**. Le tableau de la source de données est alors téléchargé pour une visualisation au format CSV. Remarque : la visualisation de zone cliquable ne prend pas en charge cette option.
 
 ![](assets/download-data-viz.png)
 
-## Download items as CSV {#download-items}
+## Télécharger les éléments au format CSV {#download-items}
 
 Si vous souhaitez analyser plus de 400 lignes de données visibles dans un tableau, cliquez avec le bouton droit de la souris sur l’en-tête du tableau ou sur une ligne, puis sélectionnez **Télécharger les éléments au format CSV (nom de la Dimension)**. Cette option exporte jusqu’à 50 000 éléments de dimension (selon le tri du tableau) pour la dimension sélectionnée, avec des filtres et des segments appliqués. Si vous choisissez cette option dans la partie supérieure du tableau, la première dimension du tableau est exportée. Bien qu’aucune limite ne soit appliquée dans le tableau à structure libre, il est recommandé d’utiliser l’option Télécharger les éléments dans des tableaux de moins de 20 colonnes afin d’assurer des performances optimales.
 
