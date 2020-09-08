@@ -4,7 +4,10 @@ title: Journaux
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 96%
 
 ---
 
@@ -29,9 +32,50 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Connexion | Vous pouvez filtrer le journal par nom d’utilisateur. |
 | IP | Vous pouvez filtrer le journal par adresse IP. |
 | Suite de rapports | Vous pouvez filtrer le journal selon un identifiant de suite de rapports spécifique. |
-| Event Type (Type d’événement) | Vous pouvez filtrer le journal selon un type d’événement. Sélectionnez un type d’événement dans la liste déroulante. |
+| Type d’événement | Vous pouvez filtrer le journal selon un type d’événement. Sélectionnez un type d’événement dans la liste déroulante. Voir la liste complète des types d&#39;événement ci-dessous. |
 | Événement | Vous pouvez filtrer le journal sur la base d’un mot ou d’une expression de la description de l’événement. |
 | Télécharger le rapport | Exporte le contenu du [!UICONTROL journal d’utilisation et des accès] dans un fichier délimité par des tabulations. |
+
+### Types d&#39;événement
+
+| Type d&#39;événement | Description |
+| --- |--- |
+| Aucune catégorie |  |
+| Échec de l&#39;identification |  |
+| Identification réussie |  |
+| Action administrateur |  |
+| Changement des paramètres de sécurité |  |
+| Rapport affiché |  |
+| Rapport téléchargé |  |
+| Alerte envoyée |  |
+| Action utilisateur |  |
+| Outil affiché |  |
+| Action Omniture |  |
+| Récupération du mot de passe |  |
+| Signets |  |
+| Tableaux de bord |  |
+| Alertes |  |
+| Événements calendrier |  |
+| Cibles |  |
+| Paramètres des rapports |  |
+| Rapports programmés |  |
+| Exclure par IP |  |
+| Nommer pages |  |
+| Classifications |  |
+| Sources de données |  |
+| Projet Espace de travail |  |
+| Segment |  |
+| Mesure calculée |  |
+| Période |  |
+| Suite de rapports virtuelle |  |
+| Analyse des contributions |  |
+| Requête de bloc de données Excel |  |
+| Échec de connexion à Excel |  |
+| Connexion à Excel réussie |  |
+| Échec de connexion mobile |  |
+| Connexion mobile réussie |  |
+| Méthode API |  |
+
 
 ## Journal des modifications de la suite des rapports {#section_3864966639414BBEA871F4D0352F56B6}
 
