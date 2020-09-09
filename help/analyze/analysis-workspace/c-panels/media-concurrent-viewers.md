@@ -2,10 +2,10 @@
 title: Panneau Visionneuses simultanées de médias
 description: Utilisation et interprétation du panneau Visionneuses simultanées de médias en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
+source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 10%
+source-wordcount: '1068'
+ht-degree: 9%
 
 ---
 
@@ -77,6 +77,7 @@ Un tableau à structure libre n’est pas disponible dans cette vue.  Pour vue d
 | Puis-je exécuter la détection des anomalies ? | Non.  La détection des anomalies n’est pas disponible pour ce panneau. |
 | Pourquoi utiliser des visiteurs uniques plutôt que des sessions principales ? | L’utilisation de visiteurs uniques permet de supprimer les pics indésirables aux limites d’affichage (où les sessions se terminent et commencent simultanément). |
 | Qu’est-ce que cela signifie d’avoir des visionneuses simultanées avec une granularité supérieure à la minute ? | Avec une granularité supérieure à une minute, les visionneuses simultanées représentent la somme des visionneuses simultanées uniques pour toutes les minutes de cette période.  Par exemple, les visionneuses simultanées de granularité au niveau de l’heure représentent la somme des visionneuses simultanées uniques pour toutes les minutes de l’heure. |
-| Que se passe-t-il si je souhaite afficher plus d’un jour avec la granularité au niveau de la minute ? | Pour accéder aux données avec une granularité de niveau minute pendant un maximum de 1 mois à la fois, vous pouvez utiliser l’API du Rapports Analytics (2.0 ou 1.4). Pour plus d’informations sur les API Analytics, consultez le Guide [de l’utilisateur des rapports API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)Analytics. |
+| Que se passe-t-il si je souhaite afficher plus d’un jour avec la granularité au niveau de la minute ? | Pour accéder aux données avec une granularité de niveau minute pendant un maximum de 1 mois à la fois, vous pouvez utiliser les API Analytics 2.0. Pour plus d’informations, voir API [](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)Analytics 2.0. |
+| Le panneau Espace de travail affiche-t-il les mêmes informations que le rapport Visionneuses simultanées ? | Non.  En Analysis Workspace, les visionneuses simultanées sont définies comme le nombre de visiteurs uniques qui visualisent votre flux multimédia à un moment donné, quel que soit le nombre de sessions.<br></br>Il s’agit d’un rapports différent de celui de la visionneuse simultanée dans la section Rapports, qui utilise les sessions Principales simultanées.  L’utilisation de comptes de visiteurs uniques permet de supprimer les pics non désirés aux limites de l’affichage, où les sessions se terminent et commencent en même temps. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
