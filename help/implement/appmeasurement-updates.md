@@ -3,10 +3,10 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 100%
+source-wordcount: '2142'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,12 @@ Notes de mise à jour cumulées pour [!DNL AppMeasurement] pour JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gestionnaire de code](/help/admin/admin/code-manager-admin.md).
+
+## Version 2.22.0
+
+Date de publication : **4 août 2020**
+
+* Correction d’un parrain manquant lorsque le premier accès n’était pas envoyé en raison des préférences d’exclusion de l’utilisateur.
 
 ## Version 2.21.0
 
