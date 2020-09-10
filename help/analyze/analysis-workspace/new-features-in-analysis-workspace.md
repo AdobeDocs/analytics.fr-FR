@@ -3,7 +3,7 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7820'
 ht-degree: 98%
@@ -19,7 +19,7 @@ Nouvelle fonctionnalité publiée le 16 juillet 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Nouveaux paramètres prédéfinis de plage de dates | Ajouté 4 nouvelles plages de dates : ([!UICONTROL Cette semaine/ce mois/ce trimestre/cette année (à l’exclusion d’aujourd’hui)]). Cela vous permet de choisir parmi des plages de dates qui n’incluent pas de données d’une journée partielle à partir d’aujourd’hui. |
+| Nouveaux paramètres prédéfinis de plage de dates | ajouté 4 nouvelles plages de dates : ([!UICONTROL Cette semaine/ce mois/ce trimestre/cette année (à l’exclusion d’aujourd’hui)]). Cela vous permet de choisir parmi des plages de dates qui n’incluent pas de données d’une journée partielle à partir d’aujourd’hui. |
 
 ## Juin 2020
 
@@ -27,7 +27,7 @@ Nouvelles fonctionnalités au 18 juin 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Attribution IQ : Attribution algorithmique | Le modèle d’attribution algorithmique d’Analysis Workspace utilise des techniques statistiques pour déterminer de manière dynamique la distribution optimale du crédit pour la mesure sélectionnée. Disponible pour les clients Adobe Analytics Ultimate. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ : Attribution algorithmique | Le modèle d’attribution algorithmique d’Analysis Workspace utilise des techniques statistiques pour déterminer de manière dynamique la distribution optimale du crédit pour la mesure sélectionnée. Disponible pour les clients Adobe Analytics Ultimate. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | Attribution IQ : intervalles de recherche en amont personnalisés | Vous pouvez désormais configurer n’importe quel modèle d’attribution dans Attribution IQ afin d’y inclure des points de contact jusqu’à 90 jours avant la période de création des rapports. Cela permet généralement d’accroître la précision de l’attribution pour les événements survenant au début de la période de création des rapports, en tenant compte des interactions qui se sont produites au cours du ou des mois précédents. Disponible pour les clients Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete et Ultimate. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | Rôles de projet pour les projets Workspace partagés | Lors du partage d’un projet Workspace, vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience du projet que vous souhaitez leur proposer : Modifier, Dupliquer et Afficher. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Projets Workspace en lecture seule | Les projets Workspace peuvent être partagés avec les utilisateurs en autorisant uniquement l’Affichage. Lorsqu’un destinataire Afficher ouvre le projet partagé, il bénéficie d’une expérience de projet plus restreinte, sans rail gauche et avec des interactions limitées. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
@@ -515,7 +515,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Améliorations apportées à Aucun/Non spécifié </p> </td> 
-   <td colname="col2"> <p>Modification du fonctionnement de Aucun/Non spécifié dans l’Analysis Workspace afin qu’il soit cohérent avec les rapports et Analytics, le créateur de segments et le menu des éléments de dimension dans l’Analysis Workspace. </p> <p>En d’autres termes, la valeur indiquera Non spécifié plutôt que Aucun dans la plupart des projets dans Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Modification du fonctionnement de Aucun/Non spécifié en Analysis Workspace afin qu’il soit cohérent avec les rapports et analyses, le créateur de segments et le menu des éléments de dimension dans Analysis Workspace. </p> <p>En d’autres termes, la valeur indiquera Non spécifié plutôt que Aucun dans la plupart des projets dans Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -736,7 +736,7 @@ Nouvelles fonctionnalités au 20 juillet 2017.
    <td colname="col2"> <p>Auparavant, si vous étiez connecté à Experience Cloud et que vous accédiez à Analytics, la fonction <span class="ignoretag"> <span class="uicontrol">Partager</span> &gt; <span class="uicontrol">Obtenir le lien du projet </span> </span> n’était pas accessible. Nous avons corrigé ce problème. Vous devez toujours enregistrer le projet avant de pouvoir cliquer sur cette option. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >Filtre Projets expirés dans le gestionnaire de projets planifiés</a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >Filtre Projets expirés dans le gestionnaire de projets planifiés</a></b> </p> </td> 
    <td colname="col2"> <p>Vous pouvez désormais filtrer les projets expirés dans le gestionnaire de projets planifiés. Vous pouvez ensuite décider de redémarrer ou de supprimer ces projets. </p> </td> 
   </tr> 
  </tbody> 
