@@ -5,9 +5,9 @@ title: Projets planifiés
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '468'
 ht-degree: 9%
 
 ---
@@ -28,6 +28,8 @@ Pour envoyer un fichier immédiatement aux destinataires par courriel :
 1. Cliquez sur **Envoyer maintenant**.
 1. (Facultatif) Cliquez sur **Afficher les options** de planification pour spécifier une planification de diffusion.
 
+![Envoyer le fichier maintenant](assets/send-file-now.png)
+
 ## Envoyer le fichier selon le calendrier
 
 Pour envoyer un fichier selon un calendrier récurrent aux destinataires par courriel :
@@ -40,11 +42,15 @@ Pour envoyer un fichier selon un calendrier récurrent aux destinataires par cou
 1. Spécifiez la fréquence de diffusion. Chaque fréquence permet différentes personnalisations.
 1. Cliquez sur **Envoyer selon la planification**.
 
+![](assets/send-on-schedule.png)
+
 ## Gestionnaire de projets planifiés
 
 Les projets Analysis Workspace planifiés peuvent être gérés sous **Analytics > Composants > Projets** planifiés.
 
 Dans le Gestionnaire de projets planifiés, vous pouvez modifier et supprimer des planifications de projets récurrentes. Recherchez un calendrier dans la barre de recherche ou en utilisant les options de filtre dans le rail de gauche. Vous pouvez filtrer par balise, planifications approuvées, propriétaires, etc.
+
+![](assets/scheduled-project-manager.png)
 
 Les actions courantes suivantes sont répertoriées dans le Gestionnaire de projets planifiés :
 
