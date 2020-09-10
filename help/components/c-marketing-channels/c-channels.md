@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: Gestion des canaux marketing
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '789'
+translation-type: tm+mt
+source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -28,17 +28,9 @@ Voici quelques consignes concernant la création de canaux :
 
 ## Conditions préalables {#prereqs}
 
-En cas de besoin, contactez l’assistance clientèle pour obtenir de l’aide au sujet des conditions préalables :
-
-* Dans la Console d’administration (Paramètres généraux du compte), activez l’option **[!UICONTROL Niveau de conversion]** (commerce électronique) pour suite de rapports.
-
-   Pour plus d’informations, consultez la section [Paramètres généraux du compte](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/general-acct-settings-admin.html) dans l’aide d’Analytics.
-
 * Configuration de l’accès aux dimensions du Canal marketing.
 
    Voir [autorisations des canaux marketing](/help/components/c-marketing-channels/c-channel-report-access.md).
-
-* Vérifiez que le gestionnaire de compte a bien activé les **[!UICONTROL rapports Canal]** pour votre suite de rapports.
 
 ## Ajout de canaux marketing {#add-mktg-channels}
 
@@ -53,7 +45,7 @@ Ajoutez des canaux marketing dans le Gestionnaire de canaux marketing.
 
    Si vous sélectionnez plusieurs suites de rapports, choisissez un modèle à partir duquel copier les paramètres vers les suites de rapports sélectionnées.
 
-   Reportez-vous à la section  [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.
 
@@ -97,5 +89,5 @@ Lors d’une [configuration automatique](/help/components/c-marketing-channels/c
 >
 >Adobe conseille de définir le rapport dans une suite de rapports à utiliser comme modèle pour les tests. Le modèle sera ensuite utilisé pour appliquer les ensembles de canaux et de règles globalement à une ou plusieurs suites de rapports de production.
 >
->Reportez-vous à la section  [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
