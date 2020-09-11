@@ -1,59 +1,65 @@
 ---
-description: valeur nulle
+description: Un panneau est un ensemble de tableaux et de visualisations
 title: Panneaux - Aperçu
 translation-type: tm+mt
-source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+source-git-commit: 8cfd2106df3aed48136ec82bca7d2cb19a479d61
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 23%
 
 ---
 
 
 # Panneaux - Aperçu
 
-Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace. Les panneaux vous permettent d’organiser vos projets selon les périodes, les unités opérationnelles, la géographie, etc. Ces six types de panneaux sont disponibles dans Analysis Workspace :
+Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace. Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas d’utilisation des analyses. Les types de panneau suivants sont disponibles en Analysis Workspace :
 
-* [Panneau vierge](blank-panel.md)
-* [Panneau Quick Insights](quickinsight.md)
-* [Panneau Analytics for Target](a4t-panel.md)
-* [Panneau d’attribution](attribution.md)
-* [Panneau à structure libre](freeform-panel.md)
-* [Panneau de comparaison des segments](c-segment-comparison/segment-comparison.md)
+| Nom du panneau | Description |
+|---|---|
+| [Panneau vierge](blank-panel.md) | Choisissez parmi les panneaux et visualisations disponibles pour début votre analyse. |
+| [Panneau Quick Insights](quickinsight.md) | Construisez rapidement un tableau de forme libre et une visualisation d’accompagnement afin d’analyser et de découvrir des informations plus rapidement. |
+| [Panneau Analytics for Target](a4t-panel.md) | Analysez les activités et les expériences Target dans Analysis Workspace. |
+| [Panneau d’attribution](attribution.md) | Comparer et visualiser rapidement n’importe quel nombre de modèles d’attribution en utilisant n’importe quelle dimension ou mesure de conversion. |
+| [Panneau à structure libre](freeform-panel.md) | Procédez à des comparaisons et à des répartitions sans aucune restriction, puis ajoutez des visualisations pour enrichir vos données. |
+| [Panneau Visionneuses simultanées de médias](media-concurrent-viewers.md) | Analysez les viewers simultanés sur le long terme, avec des informations sur la simultanéité la plus élevée et sur la capacité à ventiler et à comparer. |
+| [Panneau de comparaison des segments](c-segment-comparison/segment-comparison.md) | Comparez rapidement deux segments sur tous les points de données afin de rechercher automatiquement les différences pertinentes. |
 
-Les panneaux Quick Insights, vierges et à structure libre sont idéaux pour commencer votre analyse, tandis que les panneaux Analytics for Target, Attribution IQ et de comparaison des segments se prêtent à des analyses plus avancées. Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
+Les panneaux d’informations rapides, à structure vierge et à structure libre constituent des emplacements idéaux pour début de votre analyse, tandis qu’Analytics pour la Cible, l’Attribution IQ, les visionneuses de simultanéité des médias et la comparaison de segments se prêtent à des analyses plus avancées. Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
 
 Le panneau de démarrage par défaut est le Panneau à structure libre, mais vous pouvez également choisir d’utiliser le [Panneau vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) par défaut.
 
-## Filtres déroulants des panneaux {#section_D2828EEDD52944528E87F470EAB581CF}
+## Suite de rapports de panneau {#report-suite}
 
-La zone de liste du panneau propose désormais une fonction de filtrage déroulante. Ces filtres vous permettent d’interagir avec les données du projet de manière contrôlée, afin de réaliser des analyses approfondies, simplifier vos projets et/ou partager des connaissances.
+Les tableaux et les visualisations d’un panneau dérivent des données de la suite de rapports sélectionnée dans l’angle supérieur droit du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou [plusieurs suites](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) de rapports en fonction des cas d’utilisation de vos analyses.
 
-Voici un exemple de projet simplifié : supposons que vous disposiez de plusieurs versions d’un projet/panneau afin d’effectuer du reporting spécifique à chaque pays. Vous pouvez désormais réduire ces projets/panneaux dans un panneau unique et ajouter une liste déroulante des pays à la place pour filtrer les différents jeux de données.
+## Calendrier du panneau {#calendar}
 
-![](assets/dropdowns.png)
+Le calendrier du panneau contrôle la plage de rapports des tableaux et des visualisations dans un panneau. Remarque : Si un composant de plage de dates (violet) est utilisé dans un tableau, une visualisation ou une zone de dépôt de panneau, il remplace le calendrier du panneau.
 
-N’oubliez pas ce qui suit :
+## Zone de liste déroulante {#dropzone}
 
-* Vous pouvez dérouler plusieurs composants (ou éléments de dimension), puis passer de l’un à l’autre dans une liste déroulante pour filtrer le contenu du panneau.
-* Vous pouvez également créer plusieurs listes déroulantes sur le même panneau.
-* Vous pouvez personnaliser le titre de la liste déroulante en cliquant sur le titre et en le modifiant, ou supprimer complètement le titre en cliquant sur le x à côté de ce dernier.
-* Vous pouvez créer des filtres déroulants avec n’importe quel type de composant : dimensions, périodes, segments et mesures. Notez que les périodes déroulantes écrasent toujours les périodes du panneau.
-* Nous maintenons les couleurs des composants du rail de gauche : jaune pour les listes déroulantes d’éléments de dimension, vert pour les mesures, bleu pour les segments et violet pour les périodes.
-* La zone de dépôt créé toujours des segments de niveau d’accès pour les éléments déplacés en tant que segments. Vous pouvez les modifier normalement en cliquant d’abord sur l’icône d’informations (i) à côté du segment, puis sur l’icône de modification en forme de crayon et en les modifiant dans le créateur de segments.
+La zone de liste déroulante des panneaux vous permet d’appliquer des filtres de segments et des menus déroulants à tous les tableaux et visualisations d’un panneau. Vous pouvez appliquer un ou plusieurs filtres à un panneau. Le titre au-dessus de chaque filtre peut être modifié en cliquant sur le crayon d&#39;édition ou vous pouvez cliquer avec le bouton droit pour le supprimer complètement.
 
-**Pour créer et utiliser des filtres déroulants :**
+### Filtres de segments
 
-1. Sélectionnez n’importe quel élément dans le rail de gauche puis, **tout en maintenant la touche enfoncée**, déposez-le dans la zone de dépôt du panneau.
+Faites glisser un segment du rail de gauche vers la zone de dépôt du panneau pour commencer à filtrer le panneau.
 
-   ![](assets/create_dropdown.png)
+### Filtres de segments ad hoc
 
-   Cela permet de transformer les composants en liste déroulante plutôt qu’en segment. (Vous pouvez toujours ajouter des segments en ne maintenant pas enfoncée la touche.)
+Vous pouvez également faire glisser des composants non liés aux segments directement dans la zone de dépôt afin de créer des segments **** ad hoc, ce qui vous permet de gagner du temps et d’économiser de l’énergie en accédant au créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Cette définition peut être modifiée en cliquant sur l’icône d’informations (i) en regard du segment, puis sur l’icône d’édition en forme de crayon et en la modifiant dans le créateur de segments.
 
-   ![](assets/dropdown.png)
+Les segments ad hoc sont locaux pour le projet et ne s’afficheront pas dans votre rail de gauche à moins que vous ne les rendiez publics.
 
-1. Sélectionnez l’une des options de la liste déroulante ci-dessous pour modifier les données du panneau. (Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Pas de filtre]**.)
-1. Par exemple, si vous souhaitez également répartir les données par canal marketing, vous pouvez ajouter une autre liste déroulante appelée « Canal marketing » :
+### Filtres déroulants {#dropdown-filter}
 
-   ![](assets/mc_dropdown.png)
+Outre les filtres de segments, les filtres **** déroulants vous permettent d’interagir avec les données de manière contrôlée. Par exemple, vous pouvez ajouter un filtre déroulant pour les types de périphériques mobiles afin de segmenter le panneau par tablette, téléphone mobile ou bureau.
 
+Les filtres déroulants peuvent également servir à consolider de nombreux projets en un seul. Par exemple, si plusieurs versions d’un même projet sont appliquées avec des segments Pays différents, vous pouvez consolider toutes les versions en un seul projet et ajouter un filtre déroulant Pays.
+
+**Créez et utilisez des filtres déroulants :**
+
+1. Pour créer un filtre déroulant à l’aide d’éléments de Dimension, tels que des valeurs dans la dimension Canal marketing, cliquez sur le chevron en regard de votre dimension dans le rail de gauche. Cette opération expose tous les éléments disponibles. Sélectionnez un ou plusieurs éléments de composant dans le rail de gauche et déposez-les dans la zone de dépôt du panneau **tout en maintenant la touche** Maj enfoncée. Les composants seront alors transformés en filtre déroulant, plutôt qu’en un seul segment.
+1. Pour créer un filtre déroulant à l’aide d’autres composants tels que les mesures, les segments ou les plages de dates, sélectionnez un type de composant dans le rail de gauche et déposez dans la zone de liste déroulante du panneau **tout en maintenant la touche** Maj enfoncée.
+1. Sélectionnez l’une des options de la liste déroulante pour modifier les données du panneau. Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Pas de filtre]**.
+
+[Regardez la vidéo](https://www.youtube.com/watch?v=vpJywtsFVPI) pour en savoir plus sur l&#39;ajout de filtres déroulants à votre projet.
