@@ -4,10 +4,10 @@ title: Journaux
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 96%
+source-wordcount: '613'
+ht-degree: 72%
 
 ---
 
@@ -40,41 +40,41 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 
 | Type d&#39;événement | Description |
 | --- |--- |
-| Aucune catégorie |  |
-| Échec de l&#39;identification |  |
-| Identification réussie |  |
-| Action administrateur |  |
-| Changement des paramètres de sécurité |  |
-| Rapport affiché |  |
-| Rapport téléchargé |  |
-| Alerte envoyée |  |
-| Action utilisateur |  |
-| Outil affiché |  |
-| Action Omniture |  |
-| Récupération du mot de passe |  |
-| Signets |  |
-| Tableaux de bord |  |
-| Alertes |  |
-| Événements calendrier |  |
-| Cibles |  |
-| Paramètres des rapports |  |
-| Rapports programmés |  |
-| Exclure par IP |  |
-| Nommer pages |  |
-| Classifications |  |
-| Sources de données |  |
-| Projet Espace de travail |  |
-| Segment |  |
-| Mesure calculée |  |
-| Période |  |
-| Suite de rapports virtuelle |  |
-| Analyse des contributions |  |
+| Aucune catégorie | Ça pourrait être n&#39;importe quel type d&#39;événement. |
+| Échec de l&#39;identification | Échec du processus de connexion de l&#39;utilisateur. |
+| Identification réussie | L&#39;utilisateur s&#39;est connecté correctement. |
+| Action administrateur | Une action d&#39;administration s&#39;est produite, telle que la modification d&#39;une suite de rapports, la modification des paramètres de société, la création d&#39;un utilisateur, etc. |
+| Changement des paramètres de sécurité | Un paramètre de sécurité a été modifié. |
+| Rapport affiché | Un rapport Rapports et analyses a été affiché. |
+| Rapport téléchargé | Un rapport Rapports et analyses a été téléchargé. |
+| Alerte envoyée | Une alerte a été envoyée. |
+| Action utilisateur | Les informations sur l’utilisateur ont été modifiées. |
+| Outil affiché | Un outil a été vu. |
+| Action Omniture | Une action a été exécutée par l&#39;Adobe. |
+| Récupération du mot de passe | Un mot de passe a été récupéré. |
+| Signets | Un signet a été géré. |
+| Tableaux de bord | Un tableau de bord a été géré. |
+| Alertes | Une alerte a été gérée. |
+| Événements calendrier | Un événement de calendrier a été géré. |
+| Cibles | Une cible a été gérée. |
+| Paramètres des rapports | Un paramètre de rapport a été géré. |
+| Rapports programmés | Un rapport planifié a été géré. |
+| Exclure par IP | Le paramètre IP a été modifié. |
+| Nommer pages | Obsolète. |
+| Classifications | Une classification a été gérée. |
+| Sources de données | Une source de données a été gérée. |
+| Projet Espace de travail | Un projet Workspace a été affiché ou modifié. |
+| Segment | Un segment a été créé/modifié. |
+| Mesure calculée | Une mesure calculée a été créée/modifiée. |
+| Période | Une plage de dates a été créée/modifiée. |
+| Suite de rapports virtuelle | Une suite de rapports virtuelle a été créée/modifiée. |
+| Analyse des contributions | Une tâche d&#39;analyse de contribution a été exécutée. |
 | Requête de bloc de données Excel |  |
 | Échec de connexion à Excel |  |
 | Connexion à Excel réussie |  |
 | Échec de connexion mobile |  |
 | Connexion mobile réussie |  |
-| Méthode API |  |
+| Méthode API | Un appel d&#39;API a été effectué. |
 
 
 ## Journal des modifications de la suite des rapports {#section_3864966639414BBEA871F4D0352F56B6}
