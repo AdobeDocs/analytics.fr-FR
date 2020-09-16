@@ -5,10 +5,10 @@ title: Raccourcis clavier (raccourcis) disponibles en Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: bbc137a8914afeba02af326fb3bb9b92c0f16eb3
+source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 73%
+source-wordcount: '285'
+ht-degree: 54%
 
 ---
 
@@ -17,14 +17,16 @@ ht-degree: 73%
 
 Des touches d&#39;accès rapide (raccourcis clavier) sont disponibles en Analysis Workspace pour une navigation, une analyse et une démocratisation sans faille.
 
-Remarque : `CTRL` = Windows et `command` = Mac
+Remarque :
+* `Ctrl` = Windows et `Command` = Mac
+* `Alt` = Windows et `Option` = Mac
 
 ## Actions de navigation
 
 | Action | Raccourci |
 |---|---|
-| Créer un projet | ctrl (ou cmd) + maj + p |
-| Ouvrir le projet existant | ctrl (ou cmd) + o |
+| Créer un projet | ctrl + maj + p |
+| Ouvrir le projet existant | ctrl + o |
 | Accéder au volet Panneaux | alt + maj + 1 |
 | Accéder au volet Visualisations | alt + maj + 2 |
 | Accéder au volet Composants | alt + maj + 3 |
@@ -38,19 +40,19 @@ Remarque : `CTRL` = Windows et `command` = Mac
 | Action | Raccourci |
 |---|---|
 | Rechercher dans le rail de gauche | ctrl + / |
-| Créer une alerte | ctrl (ou cmd) + maj + a |
-| Créer une mesure calculée | ctrl (ou cmd) + maj + c |
-| Créer une plage de dates | ctrl (ou cmd) + maj + d |
-| Créer un segment | ctrl (ou cmd) + maj + e |
+| Créer une alerte | ctrl + maj + a |
+| Créer une mesure calculée | ctrl + maj + c |
+| Créer une plage de dates | ctrl + maj + d |
+| Créer un segment | ctrl + maj + e |
 | Effacer tout | alt + w |
-| Copier | ctrl (ou cmd) + c |
-| Répéter | ctrl (ou cmd) + maj + z |
-| Annuler | ctrl (ou cmd) + z |
+| Copier | ctrl + c |
+| Répéter | ctrl + maj + z |
+| Annuler | ctrl + z |
 | Actualiser les composants | alt + maj + r |
 | Actualiser le projet | alt + r |
-| Définir comme page d’entrée | ctrl (ou cmd) + maj + l |
+| Définir comme page d’entrée | ctrl + maj + l |
 
-## Ajouter des panneaux et des actions de visualisation
+## ajouter des panneaux et des actions de visualisation
 
 | Action | Raccourci |
 |---|---|
@@ -69,13 +71,13 @@ Remarque : `CTRL` = Windows et `command` = Mac
 
 | Action | Raccourci |
 |---|---|
-| Enregistrer le projet | ctrl (ou cmd) + s |
-| Enregistrer le projet sous | ctrl (ou cmd) + maj + s |
+| Enregistrer le projet | ctrl + s |
+| Enregistrer le projet sous | ctrl + maj + s |
 | Enregistrer en tant que modèle | alt + t |
-| Téléchargement au format CSV | ctrl (ou cmd) + maj + v |
-| Téléchargement au format PDF | ctrl (ou cmd) + maj + b |
-| Traiter les données du projet | ctrl (ou cmd) + maj + g |
-| Partager le projet | ctrl (ou cmd) + g |
+| Téléchargement au format CSV | ctrl + maj + v |
+| Téléchargement au format PDF | ctrl + maj + b |
+| Traiter les données du projet | ctrl + maj + g |
+| Partager le projet | ctrl + g |
 | Obtenir le lien du projet | alt + l |
 | Envoyer le fichier maintenant | alt + s |
 | Envoyer le fichier selon le calendrier | maj + alt + s |
