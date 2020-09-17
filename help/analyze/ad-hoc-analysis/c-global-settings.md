@@ -3,12 +3,19 @@ description: Configurez les paramètres de comportement globaux. Vous pouvez, pa
 title: Paramètres
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
 
 # Paramètres
+
+>[!IMPORTANT]
+>
+>L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
 
 Configurez les paramètres de comportement globaux. Vous pouvez, par exemple, configurer la fonction d’enregistrement automatique, les paramètres de graphique et de tableau, ou encore indiquer la police et les paramètres régionaux.
 
@@ -16,7 +23,7 @@ Configurez les paramètres de comportement globaux. Vous pouvez, par exemple, co
 
 Configurez les paramètres de comportement globaux. Vous pouvez, par exemple, configurer la fonction d’enregistrement automatique, les paramètres de graphique et de tableau, ou encore indiquer la police et les paramètres régionaux.
 
-Cliquez sur **[!UICONTROL Tools]** > **[!UICONTROL Settings]** pour accéder [!UICONTROL Global Settings].
+Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Paramètres]** pour accéder à [!UICONTROL Paramètres généraux].
 
 ## Onglet Paramètres généraux - Définitions {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
