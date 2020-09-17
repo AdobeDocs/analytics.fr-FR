@@ -3,13 +3,20 @@ description: Affichent des informations sur l’ordre de consultation des pages 
 title: Rapports sur les chemins
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 99%
 
 ---
 
 
 # Rapports sur les chemins
+
+>[!IMPORTANT]
+>
+>L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
 
 Affichent des informations sur l’ordre de consultation des pages de votre site web. Vous pouvez recueillir des informations sur le chemin qu’emprunte un visiteur avant et après la consultation d’une page de votre site.
 
