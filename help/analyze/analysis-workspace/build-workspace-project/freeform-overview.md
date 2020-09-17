@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Aperçu de la création d’un projet
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 68246d319bdfa27a0fabda493b3550085d2e5528
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 88%
 
 ---
 
@@ -33,14 +33,18 @@ La page de liste de projets de l’Workspace présente les informations suivante
 
 | Élément | Description |
 |---|---|
-| Projet [Modèles](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Utilisez ces modèles de projet prérenseignés tels quels ou adaptez-les en fonction de vos besoins (en ajoutant ou en remplaçant des mesures ou des visualisations, par exemple) et enregistrez-les sous un nouveau nom. |
 | [Créer un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Cliquez sur ce lien pour démarrer un projet entièrement nouveau. |
 | Gérer les projets | Cliquez sur ce lien pour accéder au Gestionnaire de composants des projets (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Projets]**), où sont répertoriés tous les projets et où vous pouvez baliser, partager, supprimer, renommer, approuver ou copier les projets et les exporter au format CSV. |
+| Définir comme page d’entrée | Transforme cette page en votre landing page Workspace. |
 | Afficher les tutoriels | Permet d’accéder aux [vidéos YouTube Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Nom | Nom du projet de l’Workspace. |
-| Créé par | Personne qui a créé ce projet (vous ou quelqu’un qui a partagé le projet avec vous). |
+| Propriétaire | Personne qui a créé ce projet (vous ou quelqu’un qui a partagé le projet avec vous). |
+| Type | Indique s’il s’agit d’un projet Workspace ou d’une carte de performance [Mobile](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/mobapp/home.html). |
+| Rôle de projet | Indique si vous êtes le propriétaire, si vous pouvez modifier le projet ou s’il s’agit d’un projet Duplicata. |
 | Balises | Balises appliquées au projet, dans le Gestionnaire des composants des projets ou sous **[!UICONTROL Espace de travail]** > **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**. |
 | Dernière modification | Date et heure de dernière modification du projet. |
+| Mes projets favoris | Pour marquer un projet comme favori, ouvrez le projet et cliquez sur l’étoile en regard de son nom. Il s’affichera dans cette liste la prochaine fois que vous ouvrirez Workspace. |
+| Projets fréquemment consultés | Liste tous les projets que vous ouvrez fréquemment, pour en faciliter l’accès. |
 
 ## Informations et paramètres du projet {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
@@ -53,7 +57,7 @@ Les **[!UICONTROL Informations et paramètres du projet]** fournissent des infor
 | Paramètre | Description |
 |---|---|
 | Projet Nom | Nom donné au projet. Double-cliquez dessus pour le modifier. |
-| Créé par | Nom du titulaire du projet. |
+| Créée par | Nom du titulaire du projet. |
 | Dernière modification | Date de la dernière modification du projet. |
 | Balises | Répertorie les balises appliquées à un projet afin de faciliter la catégorisation. Vous pouvez également baliser les projets tout en les enregistrant. Les balises d’un projet sont répertoriées dans la colonne [!UICONTROL Balises] de la page d’entrée de l’Workspace. |
 | Description | Une description est utile pour clarifier l’objet d’un projet. Double-cliquez dessus pour la modifier. |
