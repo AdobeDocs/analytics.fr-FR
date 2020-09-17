@@ -2,18 +2,22 @@
 description: valeur nulle
 title: Conversion des projets dans Ad Hoc Analysis
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
 
 # Conversion des projets dans Ad Hoc Analysis
 
-## Conversion des projets dans Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+>[!IMPORTANT]
+>
+>L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+
+## Conversion de vos projets {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 Avant de convertir vos projets, veuillez noter que :
 
@@ -28,7 +32,7 @@ Deux options s’offrent à vous pour convertir des projets Ad Hoc Analysis :
 * sélectionner des projets à convertir dans une liste ;
 * convertir uniquement les projets ouverts.
 
-**Sélectionner des projets dans une liste**
+### Sélectionner des projets dans une liste
 
 1. Dans Ad Hoc Analysis, cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Convertir les projets en Analysis Workspace]**.
 
@@ -43,7 +47,7 @@ Deux options s’offrent à vous pour convertir des projets Ad Hoc Analysis :
 
    ![](assets/export_summary.png)
 
-**Convertir des projets en cours**
+### Convertir des projets en cours
 
 1. Dans Ad Hoc Analysis, ouvrez un projet que vous souhaitez convertir.
 1. Cliquez sur **[!UICONTROL Convertir un projet en cours en Analysis Workspace.]** ![](assets/export_current.png)
