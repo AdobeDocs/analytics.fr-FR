@@ -3,9 +3,9 @@ description: Dans le calendrier, vous pouvez spécifier des dates et des plages 
 title: Dates et plages de dates
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '477'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 Dans le calendrier, vous pouvez spécifier des dates et des plages de dates, ou sélectionner un paramètre prédéfini. Vous pouvez effectuer des sélections dans le calendrier aux niveaux du projet, de l’espace de travail et du rapport. La période d’un projet correspond à la date par défaut. Cependant, la période d’un espace de travail remplace celle du projet. De même, la période d’un projet remplace les paramètres de date d’un espace de travail et d’un projet. Vous ne pouvez pas sélectionner une période en dehors de la plage de disponibilité de vos données.
 
