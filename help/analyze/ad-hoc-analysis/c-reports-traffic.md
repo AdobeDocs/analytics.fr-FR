@@ -4,10 +4,10 @@ title: Rapports sur les sources de trafic
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 99%
+source-wordcount: '1176'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 Les rapports de source de trafic vous donnent une vue détaillée des visiteurs et de la façon dont ils interagissent avec votre site Web.
 
