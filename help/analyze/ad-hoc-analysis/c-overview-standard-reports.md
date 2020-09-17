@@ -4,12 +4,19 @@ title: Rapports - Aperçu
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 98%
 
 ---
 
 
 # Rapports - Aperçu
+
+>[!IMPORTANT]
+>
+>L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
 
 Les rapports standard affichent des données relatives à l’activité du site Web et des visiteurs, des schémas de trafic, des données de référence, des campagnes publicitaires, des données sur la fidélisation des visiteurs, des données de produit, etc. Vous pouvez exécuter des rapports et accéder ensuite à des outils pour configurer des segments, des mesures et des comparaisons de rapport.
 
@@ -33,7 +40,7 @@ Si vous utilisez des Reports and Analytics marketing, les types de rapports et l
 
 **Rapports récapitulatifs**
 
-Includes reports such as the [!UICONTROL Totals Report], which shows data designed for quick overviews. Ces rapports sont destinés aux cadres qui veulent accéder à une vue d’ensemble des données.
+Inclut des rapports, tels que [!UICONTROL Totaux], qui affichent des données d’aperçu rapide. Ces rapports sont destinés aux cadres qui veulent accéder à une vue d’ensemble des données.
 
 **Rapports de conversion**
 
@@ -58,7 +65,7 @@ c_reports_campaigns.xml
 
  -->
 
-Ces rapports sont généralement personnalisés et diffèrent par conséquent d’un analyste à l’autre. Pour plus d’informations, consultez l’aide [de la Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) d’administration.
+Ces rapports sont généralement personnalisés et diffèrent par conséquent d’un analyste à l’autre. See the [Admin Console help](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) for more information.
 
 ## Calculs statistiques {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,23 +81,23 @@ D’autres calculs statistiques par défaut peuvent être ajoutés aux rapports 
 
 **Pour ouvrir les calculs statistiques pour les rapports de classement :**
 
-1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu.
+1. Dans le menu, sélectionnez **[!UICONTROL Outils]** > **[!UICONTROL Classement]**.
 
-1. Select **[!UICONTROL Settings]**.
-1. Select **[!UICONTROL Default Statistics]**.
+1. Sélectionnez **[!UICONTROL Paramètres]**.
+1. Sélectionnez **[!UICONTROL Statistiques par défaut]**.
 
-**[!UICONTROL Ignore zeros in statistical calculations]**. Sélectionnez cette option pour ignorer les zéros et veiller à ce que les moyennes déjà calculées ne soient pas modifiées par l’ajout d’une autre mesure. Toutes les statistiques sont concernées par ce paramètre (il n’a toutefois aucun effet sur la fonction Somme).
+**[!UICONTROL Ignorer les zéros dans les calculs statistiques]**. Sélectionnez cette option pour ignorer les zéros et veiller à ce que les moyennes déjà calculées ne soient pas modifiées par l’ajout d’une autre mesure. Toutes les statistiques sont concernées par ce paramètre (il n’a toutefois aucun effet sur la fonction Somme).
 
 | Calcul | Description |
 |--- |--- |
 | Max | Identifie la valeur la plus grande dans toutes les lignes d’un jeu de données spécifié. |
 | min | Identifie la valeur la plus petite dans toutes les lignes d’un jeu de données spécifié. |
-| Somme | Calcul de toutes les valeurs de chaque ligne du jeu de données.  Par exemple, la somme agrège toutes les visites par visiteur plutôt que de comptabiliser le visiteur qu’une seule fois (indépendamment du nombre de visites). Il s’agit d’un total des points de données collectés. |
+| Sum | Calcul de toutes les valeurs de chaque ligne du jeu de données.  Par exemple, la somme agrège toutes les visites par visiteur plutôt que de comptabiliser le visiteur qu’une seule fois (indépendamment du nombre de visites). Il s’agit d’un total des points de données collectés. |
 | Moyenne | Il s’agit de la moyenne arithmétique des valeurs des lignes d’un jeu de données. Elle est calculée en divisant la somme par le nombre (somme/nombre). La moyenne est influencée par des données éloignées, contrairement à la médiane qui est généralement utilisée pour des répartitions obliques. |
 | Écart type | L’écart type montre l’écart qu’il existe par rapport à la moyenne attendue. Un écart type moins élevé indique que les points de données sont proches de la moyenne. Un écart type plus élevé indique que les points de données sont répartis dans une grande plage de valeurs. |
 | Médiane | La médiane correspond à la valeur numérique qui sépare la moitié supérieure des données à la moitié inférieure pour les lignes d’un jeu de données. Contrairement à la moyenne, la médiane est généralement utilisée pour éviter les valeurs éloignées. |
 | Quartiles | Un quartile est un ensemble de valeurs d’un jeu de données qui est identifié par trois points qui divisent le jeu de données en quatre groupes égaux, chacun comprenant un quart du jeu de données. Le premier quartile est le 25ème percentile et le troisième quartile, le 75ème percentile. (Le second quartile est la médiane et le quatrième quartile est la somme.) |
-| Nombre | Renvoie le nombre de lignes d’un jeu de données. |
+| Count | Renvoie le nombre de lignes d’un jeu de données. |
 
 ## Exemple de moyenne par rapport aux calculs des totaux d’une mesure {#section_7C49196503964FB0A429FA347BC92D09}
 
@@ -108,7 +115,7 @@ La fonction Moyenne utilise le même calcul que dans les colonnes de données de
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p>Juin 2013 </p> <p>Juillet 2013 </p> <p>Août 2013 </p> </td> 
+   <td colname="col1"> <p>Juin 2013 </p> <p>2013 juillet </p> <p>Août 2013 </p> </td> 
    <td colname="col2" align="center"> <p>344 </p> <p>297 </p> <p>41 </p> </td> 
    <td colname="col3" align="center"> <p>1000 </p> <p>1000 </p> <p>1000 </p> </td> 
    <td colname="col4" align="center"> <p>34.4% </p> <p>29.7% </p> <p>41.0% </p> </td> 
@@ -141,7 +148,7 @@ c_overlay_calculations.xml
 
  -->
 
-In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line.
+Dans un rapport qui identifie les données sur une période donnée, le bouton **[!UICONTROL Statistiques]** permet de sélectionner des calculs qui s’affichent sous forme de superpositions dans la chronologie du rapport.
 
 ![](assets/overlay_calculations.png)
 
@@ -149,7 +156,7 @@ En plus des [calculs statistiques](/help/analyze/ad-hoc-analysis/c-overview-stan
 
 ## Gestionnaire de groupe {#concept_E1433974A61144858E87334C006982B2}
 
-Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. Vous pouvez modifier les groupes à partir du menu principal ou du rapport. Categories that you have created in marketing reports and analytics also appear in the [!UICONTROL Checkpoint Selector] list.
+Plutôt que d’utiliser des pages uniques dans votre rapport, vous pouvez regrouper plusieurs pages et les utiliser comme catégories pour les emplacements de début, intermédiaires ou de destination dans les rapports [!UICONTROL Abandon] et [!UICONTROL Analyse de site]. Vous pouvez modifier les groupes à partir du menu principal ou du rapport. Les catégories que vous avez créées dans les Reports and Analytics marketing apparaissent également dans la liste [!UICONTROL Sélecteur de points de contrôle].
 
 <!-- 
 
@@ -157,4 +164,4 @@ c_groups.xml
 
  -->
 
-Cliquez sur **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**.
+Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Gestionnaire de groupe]**.
