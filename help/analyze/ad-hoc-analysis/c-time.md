@@ -3,10 +3,10 @@ description: 'Heure est une dimension de rapport qui s’avère particulièremen
 title: Heure
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 97%
+source-wordcount: '396'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 Heure est une dimension de rapport qui s’avère particulièrement utile pour établir des tendances sur diverses unités de temps : heures, jours, semaines et plages de dates. Par exemple, un rapport Produits affiche les recettes générées par un produit au cours de la période sélectionnée. Vous pouvez ajouter une dimension Jour afin d’afficher la tendance pour chaque jour de la période de rapport. Les options de granularité disponibles pour cette dimension sont : Heure, Jour, Semaine, Mois, Trimestre et Année. Les plages de dates prédéfinies sont notamment Aujourd’hui, Hier et 7 derniers jours.
 
