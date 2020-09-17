@@ -5,7 +5,7 @@ title: Raccourcis clavier (raccourcis) disponibles en Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 54%
@@ -24,7 +24,7 @@ Remarque :
 ## Actions de navigation
 
 | Action | Raccourci |
-|---|---|
+| --- | --- |
 | Créer un projet | ctrl + maj + p |
 | Ouvrir le projet existant | ctrl + o |
 | Accéder au volet Panneaux | alt + maj + 1 |
@@ -38,7 +38,7 @@ Remarque :
 ## Actions d’Analyse
 
 | Action | Raccourci |
-|---|---|
+| --- | --- |
 | Rechercher dans le rail de gauche | ctrl + / |
 | Créer une alerte | ctrl + maj + a |
 | Créer une mesure calculée | ctrl + maj + c |
@@ -55,7 +55,7 @@ Remarque :
 ## ajouter des panneaux et des actions de visualisation
 
 | Action | Raccourci |
-|---|---|
+| ---|---|
 | Nouveau panneau Analytics pour la Cible | alt + g |
 | Nouveau panneau d’attribution | alt + e |
 | Nouveau panneau vierge | alt + b |
@@ -70,7 +70,7 @@ Remarque :
 ## Actions de démocratisation
 
 | Action | Raccourci |
-|---|---|
+| --- | --- |
 | Enregistrer le projet | ctrl + s |
 | Enregistrer le projet sous | ctrl + maj + s |
 | Enregistrer en tant que modèle | alt + t |
