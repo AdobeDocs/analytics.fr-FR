@@ -4,12 +4,19 @@ title: Types de rapports
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1730'
+ht-degree: 99%
 
 ---
 
 
 # Types de rapports
+
+>[!IMPORTANT]
+>
+>L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
 
 Descriptions des types de rapport utilisés dans Experience Cloud.
 
@@ -218,7 +225,7 @@ Cliquez avec le bouton droit sur des cylindres pour les modifier ou les supprime
 
 | Option | Description |
 |--- |--- |
-| Modifier  | Permet d’ajouter des pages à un cylindre ou d’en supprimer. |
+| Modifier | Permet d’ajouter des pages à un cylindre ou d’en supprimer. |
 | Supprimer | Permet de supprimer un cylindre. |
 | Rapports | Permet de lancer un autre rapport à partir du cylindre. |
 | Enregistrer le diagramme sous | Permet d’enregistrer le diagramme au format .png ou .jpg. Si vous modifiez les propriétés du diagramme (angle, taille, etc.) avant l’enregistrement, les modifications sont conservées dans la sortie. |
