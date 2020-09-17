@@ -3,9 +3,9 @@ description: Configurez les paramètres de comportement globaux. Vous pouvez, pa
 title: Paramètres
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '612'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 Configurez les paramètres de comportement globaux. Vous pouvez, par exemple, configurer la fonction d’enregistrement automatique, les paramètres de graphique et de tableau, ou encore indiquer la police et les paramètres régionaux.
 
