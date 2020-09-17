@@ -3,9 +3,9 @@ description: Utilisez le Générateur de tableau pour créer un rapport avec n�
 title: Générateur de tableau
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 Utilisez le Générateur de tableau pour créer un rapport avec n’importe quelle configuration de mesures, de dimensions et de segments. Par exemple, vous pouvez ajouter plusieurs mesures au Générateur de tableau, puis appliquer le segment à toutes en même temps. Vous pouvez appliquer des options des volets d’outils sous forme de lignes, de ventilations ou de colonnes, puis faire pivoter le tableau pour obtenir une vue différente. Après avoir créé le tableau, vous pouvez interagir directement avec le tableau de données qui en résulte afin d’effectuer une analyse plus approfondie. Pour rappel, lorsque vous générez un tableau de données à partir du Générateur de tableau, une requête est exécutée et un nouveau tableau est créé.
 
