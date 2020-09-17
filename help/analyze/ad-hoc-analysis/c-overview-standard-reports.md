@@ -4,10 +4,10 @@ title: Rapports - Aperçu
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 98%
+source-wordcount: '996'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 Les rapports standard affichent des données relatives à l’activité du site Web et des visiteurs, des schémas de trafic, des données de référence, des campagnes publicitaires, des données sur la fidélisation des visiteurs, des données de produit, etc. Vous pouvez exécuter des rapports et accéder ensuite à des outils pour configurer des segments, des mesures et des comparaisons de rapport.
 
