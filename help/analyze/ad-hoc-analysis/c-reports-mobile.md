@@ -3,15 +3,19 @@ description: Affiche des informations sur l’accès aux sites Web depuis un pé
 title: Rapports sur les périphériques mobiles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 98%
+source-wordcount: '1394'
+ht-degree: 97%
 
 ---
 
 
 # Rapports sur les périphériques mobiles
+
+>[!IMPORTANT]
+>
+>L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
 
 Affiche des informations sur l’accès aux sites Web depuis un périphérique mobile. Ces rapports améliorent l’identification des visiteurs en collectant des données sur les périphériques mobiles utilisés pour se rendre sur votre site. Ils peuvent identifier le fabricant et les caractéristiques d’un appareil, telles que tailles d’écran, vidéo, audio, prise en charge des cookies et autres mesures. Ils sont disponibles pour toutes les suites de rapports.
 
