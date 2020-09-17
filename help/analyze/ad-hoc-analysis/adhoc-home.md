@@ -2,9 +2,9 @@
 description: Intro à Ad Hoc Analysis
 title: Ad Hoc Analysis - Aperçu
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '152'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ Ad Hoc Analysis vous permet d’identifier les segments de clients à forte vale
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 ## Nouvelles rubriques et thèmes populaires
 
