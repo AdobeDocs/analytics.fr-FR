@@ -2,10 +2,10 @@
 description: Intro à Ad Hoc Analysis
 title: Ad Hoc Analysis - Aperçu
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '151'
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ Ad Hoc Analysis vous permet d’identifier les segments de clients à forte vale
 
 >[!IMPORTANT]
 >
->Le 6 août 2018, Adobe a annoncé la prochaine fin de vie d’Ad Hoc Analysis, La date de fin de vie sera communiquée dès que possible. Pour plus d’informations, notamment sur les versions de Java compatibles durant cette période, voir [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
 
 ## Nouvelles rubriques et thèmes populaires
 
