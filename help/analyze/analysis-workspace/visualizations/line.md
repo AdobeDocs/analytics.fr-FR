@@ -3,10 +3,10 @@ description: Utilisez la visualisation en ligne pour représenter les jeux de do
 title: Ligne
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
+source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 12%
 La visualisation Ligne représente les mesures qui utilisent une ligne pour montrer comment les valeurs changent sur une période donnée. Pour pouvoir utiliser un graphique en courbes, le temps doit être défini comme une dimension.
 
 ![Visualisation en ligne](assets/line-viz.png)
-
->[!IMPORTANT]
->
->Certains paramètres de visualisation en ligne, tels que [!UICONTROL Afficher la courbe de tendance], sont actuellement limités dans les tests. [En savoir plus](/help/landing/an-releases.md)
 
 Cliquez sur l’icône en forme d’engrenage en haut à droite de la visualisation en ligne pour accéder aux paramètres [**de**](freeform-analysis-visualizations.md) visualisation disponibles. Les paramètres sont classés par :
 
@@ -42,6 +38,10 @@ Sous Paramètres **[!UICONTROL de]** visualisation > **[!UICONTROL Overlays]** >
 ## Afficher le recouvrement de tendance
 
 Sous Paramètres **[!UICONTROL de]** visualisation > **[!UICONTROL Overlays]** > **[!UICONTROL Afficher la courbe de tendance]**, vous pouvez choisir d’ajouter une courbe de tendance de régression à votre série de lignes. Les lignes de tendances permettent de représenter un schéma plus clair dans les données.
+
+>[!TIP]
+>
+>Nous vous recommandons d’appliquer des lignes de tendances aux données qui n’incluent pas de dates d’aujourd’hui (données partielles) ou futures, car elles faussent la ligne de tendance. Toutefois, si vous devez inclure des dates futures, supprimez des zéros des données afin d’éviter les bizutages de ces jours. Pour ce faire, accédez au tableau de source de données de la visualisation et choisissez votre colonne de mesures. Accédez ensuite à Paramètres [!UICONTROL de] colonne et cochez la case **[!UICONTROL Interpréter zéro comme aucune valeur]**.)
 
 ![Ligne de tendance linéaire](assets/show-linear-trendline.png)
 
