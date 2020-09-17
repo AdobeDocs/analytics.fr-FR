@@ -4,10 +4,10 @@ title: Rapports sur les produits
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 95%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 Affichent des informations sur les produits que vous vendez, distribuez ou affichez sur votre site Web. Ils fournissent des renseignements sur les commandes ou les téléchargements de vos produits, applications ou contenus.
 
