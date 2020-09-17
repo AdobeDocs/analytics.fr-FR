@@ -3,9 +3,9 @@ description: Grâce aux paramètres de colonne, vous pouvez configurer la mise e
 title: Paramètres des colonnes
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: dd14c576a6c447026c2389a864afce16e6bdc77d
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '720'
 ht-degree: 92%
 
 ---
@@ -25,6 +25,10 @@ Vous pouvez modifier les paramètres **pour plusieurs colonnes à la fois**. Sé
 
 | Élément | Description |
 | --- | --- |
+| **Cellules des totaux** |  |
+| Afficher les totaux | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. Elle reflète les filtres de tableau appliqués dans le tableau à structure libre, y compris l’option [!UICONTROL Inclure aucun]. |
+| Afficher le total général | Ce total représente tous les accès qui ont été collectés, parfois appelés &quot;total de la suite de rapports&quot;. Lorsqu’un segment est appliqué au niveau du panneau ou dans le tableau à structure libre, ce total s’ajuste pour refléter tous les accès qui correspondent aux critères de segment. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| **Cellules du tableau** |  |
 | Nombre | Détermine si une cellule affiche/masque la valeur numérique pour la mesure. Par exemple, si la mesure est Pages vues, la valeur numérique correspond au nombre de pages vues pour l’élément de ligne. |
 | Pourcentage | Détermine si une cellule affiche/masque la valeur de pourcentage pour la mesure. Par exemple, si la mesure est Pages vues, la valeur de pourcentage correspond au nombre de pages vues pour l’élément de ligne, divisé par le nombre total de pages vues pour la colonne.  Remarque : Nous pouvons désormais afficher les pourcentages supérieurs à 100 %, pour plus de précision. Nous avons également rehaussé le plafond supérieur à 1 000 % afin de garantir que les colonnes puissent s’adapter à une largeur trop importante. |
 | Anomalies | Détermine si la détection des anomalies est exécutée sur les valeurs de cette colonne. |
@@ -44,9 +48,9 @@ La mise en forme conditionnelle applique la mise en forme aux limites supérieur
 | Élément | Description |
 | --- | --- |
 | Mise en forme conditionnelle | Applique les couleurs suivantes aux cellules, selon la valeur des données : <ul><li>Vert : valeurs élevées</li><li>Jaune : valeurs moyennes</li><li>Rouge : faibles valeurs</li></ul> <br> Le remplacement d’une dimension du tableau réinitialise les limites de la mise en forme conditionnelle. Le remplacement d’une mesure recalcule les limites de cette colonne (lorsqu’une mesure se trouve sur l’axe des abscisses et une dimension sur l’axe des ordonnées). |
-| Utiliser des limites en pourcentage | Modifiez la plage de limites en fonction de pourcentages plutôt que de valeurs absolues. Cette option fonctionne avec les mesures qui reposent uniquement sur des pourcentages (comme Taux de rebond) et celles qui reposent sur un nombre et un pourcentage (comme Pages vues). |
-| Génération automatique | Calculez automatiquement les limites supérieure/moyenne/inférieure en fonction des données. La limite supérieure est la valeur la plus élevée de cette colonne. La limite inférieure est la valeur la plus faible et la valeur moyenne est la moyenne entre les limites supérieure et inférieure. |
-| Personnalisé | Attribuez manuellement des limites supérieures/moyennes/inférieures. Vous disposez ainsi de la flexibilité nécessaire pour déterminer si la valeur d’une colonne devient bonne, moyenne ou mauvaise. |
+| Utiliser des limites en pourcentage | Modifier la plage de limites pour qu’elle soit basée sur des pourcentages plutôt que sur des valeurs absolues. Cette option fonctionne avec les mesures qui reposent uniquement sur des pourcentages (comme Taux de rebond) et celles qui reposent sur un nombre et un pourcentage (comme Pages vues). |
+| Génération automatique | Calculer automatiquement les limites hautes/moyennes/basses en fonction des données. La limite supérieure est la valeur la plus élevée de cette colonne. La limite inférieure est la valeur la plus faible et la valeur moyenne est la moyenne entre les limites supérieure et inférieure. |
+| Personnalisé | Attribuer manuellement les limites hautes/inférieures/basses. Vous disposez ainsi de la flexibilité nécessaire pour déterminer si la valeur d’une colonne devient bonne, moyenne ou mauvaise. |
 
 ## Utilisation d’un modèle d’attribution différent du modèle par défaut {#attribution}
 
