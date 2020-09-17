@@ -4,9 +4,9 @@ title: Gestionnaire de planification
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 98%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 Vous pouvez personnaliser la planification de la distribution des rapports. Il est possible d’interrompre la distribution après un certain temps ou de spécifier le nombre d’envois d’un rapport. Les nouveaux programmes utilisent la période définie dans le rapport. Par exemple, si vous créez un rapport pour les 90 derniers jours et planifiez une exécution quotidienne, vous recevrez, chaque jour, un rapport portant sur les 90 derniers jours. Si vous créez un rapport avec une période statique à partir du calendrier, le même rapport sera affiché lors de chaque envoi.
 
