@@ -3,10 +3,10 @@ description: Questions fréquentes sur les flux de données
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: FAQ sur les flux de données
 translation-type: tm+mt
-source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 86%
+source-wordcount: '318'
+ht-degree: 66%
 
 ---
 
@@ -30,3 +30,9 @@ Si vous observez différentes variations de la casse entre des colonnes « Post
 ## Les robots sont-ils filtrés par les règles de robots de la console d’administration incluses dans les flux de données ?
 
 Les flux de données n’incluent pas les robots filtrés par les règles [de robots de la console](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)d’administration.
+
+## Pourquoi vois-je plusieurs `000` valeurs dans la colonne `event_list` ou `post_event_list` du flux de données ?
+
+Certains éditeurs de feuilles de calcul, en particulier Microsoft Excel, arrondissent automatiquement de très grands nombres. La `event_list` colonne contient de nombreux nombres délimités par des virgules, ce qui peut entraîner un traitement par Excel de ce nombre. Il arrondit les derniers chiffres à `000`.
+
+adobe recommande de ne pas ouvrir automatiquement `hit_data.tsv` les fichiers dans Microsoft Excel. Utilisez plutôt la boîte de dialogue Importer des données d’Excel et assurez-vous que tous les champs sont traités comme du texte.
