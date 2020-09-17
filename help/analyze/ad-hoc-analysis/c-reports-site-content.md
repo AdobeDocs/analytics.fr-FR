@@ -3,9 +3,9 @@ description: Présente des informations sur les pages et les sections les plus a
 title: Rapports sur le contenu du site
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '545'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 Présente des informations sur les pages et les sections les plus actives de votre site et sur les serveurs les plus sollicités.
 
