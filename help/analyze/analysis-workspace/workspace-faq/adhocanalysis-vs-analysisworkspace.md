@@ -3,15 +3,19 @@ description: Terminologie et tâches d’Ad Hoc Analysis comparées à celles d�
 title: Comparaison entre Analysis Workspace et Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
+source-git-commit: 0c934b0e1d6c1e862094737ad7ac504574c0c0d2
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 87%
+source-wordcount: '930'
+ht-degree: 86%
 
 ---
 
 
 # Comparaison entre Analysis Workspace et Ad Hoc Analysis
+
+>[!IMPORTANT]
+>
+>L&#39;Adobe a mis Ad Hoc Analysis en fin de vie le 1er mars 2021. [En savoir plus...](https://adobe.ly/discoverworkspace).
 
 Terminologie et tâches d’Ad Hoc Analysis comparées à celles d’Analysis Workspace.
 
@@ -26,7 +30,7 @@ Cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-ov
 | Projet | Workspace ou projet |
 | Workspace | Panneau |
 | Rapport | Tableau à structure libre |
-| Diagrammes/graphiques | Visualisation |
+| Graphique/Graphique | Visualisation |
 | Hiérarchie : Projet > Workspace > Rapports | Hiérarchie : Projet > Panneaux > Tableaux |
 | Modèles : rapports avec classement, de tendances, Totaux | Visualisation de tableau à structure libre |
 | Modèle de flux | Visualisation de flux |
@@ -57,7 +61,7 @@ Cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-ov
   </tr> 
   <tr> 
    <td colname="col1"> <p>Créer des segments temporaires ("ad hoc") </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. De plus, il est possible d’ajouter des filtres déroulants dans la zone de dépôt de panneau pour créer plusieurs segments temporaires en même temps, ce qui permet d’activer des interactions de projet contrôlées. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vidéo : Segments ad hoc dans Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vidéo : filtres déroulants dans l’Analysis Workspace</a> </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. De plus, il est possible d’ajouter des filtres déroulants dans la zone de dépôt de panneau pour créer plusieurs segments temporaires en même temps, ce qui permet d’activer des interactions de projet contrôlées. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vidéo : Segments ad hoc dans Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vidéo : Filtres déroulants en Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Choisir les plages de dates et les granularités </p> </td> 
@@ -83,7 +87,7 @@ Cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-ov
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Le flux peut couvrir une visite ou un visiteur. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Les statistiques clés s’affichent sous la forme de pourcentage de vues chemins. </li> 
-    </ul> <p>En outre, avec les flux, il est possible d’utiliser des <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensions mixtes</a> et de cliquer droit pour créer un segment, ce qui n’était pas le cas dans Ad Hoc Analysis. </p> <p>Actuellement, le flux dans l’Analysis Workspace <b>ne permet pas</b> aux utilisateurs de choisir un événement de réussite. </li> 
+    </ul> <p>En outre, avec les flux, il est possible d’utiliser des <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensions mixtes</a> et de cliquer droit pour créer un segment, ce qui n’était pas le cas dans Ad Hoc Analysis. </p> <p>Actuellement, le flux en Analysis Workspace <b>ne peut</b> pas permettre aux utilisateurs de choisir un événement de réussite. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Vidéo : Présentation de la visualisation Flux</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Vidéo : Flux multidimensionnel</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Vidéo : Création de segments à partir du flux</a> </p> </td> 
   </tr> 
   <tr> 
@@ -96,11 +100,11 @@ Cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-ov
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sélectionner des suites de rapports </p> </td> 
-   <td colname="col2"> <p>Plusieurs suites de rapports peuvent être ajoutées à un seul projet dans l’Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Vidéo : Plusieurs suites de rapports dans Workspace</a> </p></td> 
+   <td colname="col2"> <p>Plusieurs suites de rapports peuvent être ajoutées à un seul projet en Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Vidéo : Plusieurs suites de rapports dans Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>L’<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> dans Analysis Workspace vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. Il comprend plus de 10 modèles algorithmiques et basés sur des règles. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vidéo : Attribution IQ dans les tableaux à structure libre</a> </p> </td> 
+   <td colname="col2"> <p>L’<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> dans Analysis Workspace vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. Il comprend plus de 10 modèles algorithmiques et basés sur des règles. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vidéo : attribution iq dans les tableaux à structure libre</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
