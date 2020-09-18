@@ -3,11 +3,11 @@ description: Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit d
 title: Valeur de faible trafic dans Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 94%
 
 ---
 
@@ -50,4 +50,5 @@ Diverses fonctionnalités traitent des valeurs à faible trafic de différentes 
    * Dans un nombre limité de scénarios, des valeurs à faible trafic peuvent continuer à apparaître. Il peut s’agir de variables de liste, de props de liste, d’eVars de marchandisage et de dimensions détaillées des canaux marketing.
 * **Segmentation :** si les critères de segment incluent une variable avec un grand nombre de valeurs uniques, les valeurs capturées sous en trafic faible ne sont pas incluses.
 * **Classifications :** les rapports de classification sont également soumis à des limites uniques. Si la valeur de variable parente d’une classification est incluse dans le compartiment à faible trafic, la valeur n’est pas classée.
-   * Si vous classez des valeurs avant qu’elles ne soient affichées dans les données, elles sont comptabilisées dans le seuil unique pour ce mois.
+   * Les valeurs de classification à faible trafic obtenues par l’intermédiaire de l’importateur peuvent être affichées en Data Warehouse. <!-- AN-115871 -->
+   * Les valeurs de classification à faible trafic obtenues par l’intermédiaire du créateur de règles *ne peuvent* pas être affichées dans le Data Warehouse. <!-- AN-122872 -->
