@@ -4,20 +4,20 @@ subtopic: Data sources
 title: Traitement complet
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 97%
 
 ---
 
 
 # Traitement complet
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (insertion de données en bloc)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. Les sources de données à traitement complet seront abandonnées à l’avenir.
+>Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (insertion de données en bloc)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. L’Adobe prévoit d’abandonner à l’avenir les sources de données à traitement complet.
 
 Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
@@ -114,12 +114,12 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>URL de la page (par exemple, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>URL de la page (par exemple, <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Liste de produits (par exemple, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Liste de produits (par exemple, <code> "Sports;Ball;1;5.95"</code>). Peut contenir une valeur maximale de 4 096 octets par ligne.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
