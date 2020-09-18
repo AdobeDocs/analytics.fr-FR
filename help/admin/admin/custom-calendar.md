@@ -4,10 +4,10 @@ title: Personnalisation du calendrier
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Options de calendrier autres que le modèle grégorien. Les options incluent les
 
 >[!CAUTION]
 >
->Lorsque vous changez de calendrier, le mode de traitement des données est également modifié (c’est-à-dire la définition des visiteurs uniques par mois et par semaine). Les données historiques ne sont pas altérées quand la définition des semaines et des mois d’un calendrier est modifiée.
+>Lorsque vous changez de calendrier, le mode de traitement des données est également modifié (c’est-à-dire la définition des visiteurs uniques par mois et par semaine). Les données historiques ne sont pas altérées quand la définition des semaines et des mois d’un calendrier est modifiée. Ce paramètre affecte également les segments basés sur des plages de dates.
 
 Vous pouvez utiliser le calendrier pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la régulation de l’inventaire matériel. Par exemple, dans le domaine de la vente au détail, on utilise un calendrier comptable de type 4-5-4 pour tenir compte des saisons de vente spécifiques à ce secteur d’activités. Vous trouverez, ci-dessous, la description de chacun des formats calendaires.
 
