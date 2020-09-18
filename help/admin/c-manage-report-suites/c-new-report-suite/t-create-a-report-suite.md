@@ -3,8 +3,11 @@ description: Étapes décrivant comment créer une suite de rapports et copier l
 title: Création d’une suite de rapports
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 87%
 
 ---
 
@@ -25,7 +28,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. Renseignez les champs décrits à la section [Nouvelle suite de rapports.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Cliquez sur **[!UICONTROL Créer une suite de rapports]**.
 
->[!MORELIKETHIS]
->
->* [Création de suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-create.md)
-
+La longueur maximale d’un identifiant de suite de rapports est de 40 octets. Le nom convivial d’une suite de rapports ne doit pas dépasser 255 octets.
