@@ -3,11 +3,11 @@ description: Vous pouvez créer une suite de rapports en sélectionnant un modè
 title: Paramètres d’une nouvelle suite de rapports
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,7 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Page par défaut</span> </td> 
-   <td colname="col2"> <p>(Facultatif) Cette option élimine les occurrences de la valeur <span class="wintitle"> Page par défaut</span> des URL qu’elle rencontre. Si votre rapport <span class="wintitle">Pages les plus populaires</span> contient des URL plutôt que des noms de page, ce paramètre empêche l’existence de plusieurs URL pour la même page web. </p> <p>Par exemple, les URL <span class="filepath">https://monsite.com</span> et <span class="filepath">https://monsite.com/index.html</span> représentent généralement la même page. Vous pouvez supprimer des noms de fichier superflus, de sorte que ces URL s’affichent sous la forme <span class="filepath">https://monsite.com</span> dans vos rapports. </p> <p>Si vous ne définissez pas cette valeur, Analytics supprime automatiquement les noms de fichier suivants des URL : <span class="filepath"> index.htm</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span>, <span class="filepath"> default.html</span>, <span class="filepath"> default.cgi</span>, <span class="filepath"> default.asp</span>, <span class="filepath"> home.htm</span>, <span class="filepath"> home.html</span>, <span class="filepath"> home.cgi</span> et <span class="filepath"> home.asp</span>. </p> <p>Pour désactiver l’élimination du nom de fichier, indiquez une valeur Page par défaut qui ne se présentera jamais dans vos URL. </p> </td> 
+   <td colname="col2"> <p>(Facultatif) Cette option élimine les occurrences de la valeur <span class="wintitle"> Page par défaut</span> des URL qu’elle rencontre. Si votre rapport <span class="wintitle">Pages les plus populaires</span> contient des URL plutôt que des noms de page, ce paramètre empêche l’existence de plusieurs URL pour la même page web. </p> <p>For example, the URLs<span class="filepath"> https://example.com</span> and <span class="filepath"> https://example.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://example.com</span> in your reports. </p> <p>Si vous ne définissez pas cette valeur, Analytics supprime automatiquement les noms de fichier suivants des URL : <span class="filepath"> index.htm</span>, <span class="filepath"> index.html</span>, <span class="filepath"> index.cgi</span>, <span class="filepath"> index.asp</span>, <span class="filepath"> default.htm</span>, <span class="filepath"> default.html</span>, <span class="filepath"> default.cgi</span>, <span class="filepath"> default.asp</span>, <span class="filepath"> home.htm</span>, <span class="filepath"> home.html</span>, <span class="filepath"> home.cgi</span> et <span class="filepath"> home.asp</span>. </p> <p>Pour désactiver l’élimination du nom de fichier, indiquez une valeur Page par défaut qui ne se présentera jamais dans vos URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Date d’activation </p> </td> 
