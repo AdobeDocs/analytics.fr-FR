@@ -4,8 +4,11 @@ subtopic: Data sources
 title: FAQ sur les sources de données
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 95%
 
 ---
 
@@ -133,3 +136,14 @@ Non pour le traitement complet, oui pour l’ID de transaction. Les sources de d
 
 Non. Les eVars transférées au moyen des sources de données des ID de transaction liront uniquement les informations de profil stockées ; elles ne mettront pas à jour le profil.
 Non. Les eVars sont les seules variables enregistrées dans l’instantané du profil du visiteur.
+
+## Comment les événements numériques et monétaires fonctionnent-ils avec les sources de données ?
+
+Le traitement complet ne prend en charge que les formats de liste de événement hérités, à l’exclusion de la valeur de événement numérique/monétaire/compteur (supérieure à 1) directement dans la liste de événements, ce qui `"eventNN,eventKK"` ne correspond pas à `"eventNN=#.##"`la valeur. Cela signifie qu’il ne prend en charge un événement de compteur que s’il est transmis dans la colonne événements du fichier de source de données et s’il est incrémenté de 1.
+
+Si des événements numériques, monétaires ou de compteur (plus de 1) sont requis, utilisez la liste de produit :
+
+```js
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
+s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
+```
