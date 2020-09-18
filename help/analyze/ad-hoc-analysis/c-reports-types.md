@@ -4,7 +4,7 @@ title: Types de rapports
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs atteints par les utilisateurs. C’est également vrai pour les domaines de votre site web. Vous pouvez, par exemple, voir le nombre d’utilisateurs qui sont passés de `https://www.mysite.com` à `https://info.mysite.com`ou `https://sales.mysite.com`.
+Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs atteints par les utilisateurs. C’est également vrai pour les domaines de votre site web. Vous pouvez, par exemple, voir le nombre d’utilisateurs qui sont passés de `https://www.example.com` à `https://info.example.com`ou `https://sales.example.com`.
 
 ## Flux de section suivante {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs atteints par les utilisateurs. C’est également vrai pour les domaines de votre site web. Vous pouvez, par exemple, voir le nombre d’utilisateurs qui sont passés de `www.mysite.com` à `info.mysite.com`ou `sales.mysite.com`.
+Si, par exemple, des données spécifiques se trouvent sur des serveurs différents ou en miroir sur des serveurs distincts, le rapport indique le chemin suivi entre les serveurs atteints par les utilisateurs. C’est également vrai pour les domaines de votre site web. Vous pouvez, par exemple, voir le nombre d’utilisateurs qui sont passés de `www.example.com` à `info.example.com`ou `sales.example.com`.
 
 ## Rapports Entonnoir de conversion {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
