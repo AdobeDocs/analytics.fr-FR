@@ -2,10 +2,10 @@
 title: IP et domaines utilisés par l’Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d'Adobe, utilisez cette liste pour mettre à jour vos paramètres de pare-feu.
 translation-type: tm+mt
-source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
+source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 16%
+source-wordcount: '386'
+ht-degree: 17%
 
 ---
 
@@ -129,7 +129,6 @@ adobe analytics utilise les services Web Amazon dans le cadre de son processus d
 | Irlande | `52.17.94.37` |
 | Irlande | `52.49.253.16` |
 | Irlande | `52.51.63.15` |
-| Londres | `172.82.228.19` |
 | Oregon | `52.42.60.49` |
 | Oregon | `54.212.169.56` |
 | Oregon | `54.214.170.191` |
@@ -139,43 +138,9 @@ adobe analytics utilise les services Web Amazon dans le cadre de son processus d
 | Tokyo | `13.112.72.86` |
 | Tokyo | `18.178.74.225` |
 | Tokyo | `18.179.88.228` |
+| Virginie | `3.220.129.153` |
+| Virginie | `18.211.197.67` |
+| Virginie | `34.228.124.176` |
 | Virginie | `34.234.106.101` |
 | Virginie | `52.22.231.198` |
 | Virginie | `54.157.65.136` |
-| Virginie | `107.23.142.4` |
-| Virginie | `34.192.14.184` |
-| Virginie | `34.192.146.173` |
-| Virginie | `34.192.229.76` |
-| Virginie | `34.196.183.216` |
-| Virginie | `34.196.219.120` |
-| Virginie | `34.196.54.55` |
-| Virginie | `34.197.179.21` |
-| Virginie | `34.197.45.49` |
-| Virginie | `34.197.93.163` |
-| Virginie | `34.198.80.27` |
-| Virginie | `34.199.102.192` |
-| Virginie | `34.199.46.40` |
-| Virginie | `34.199.99.62` |
-| Virginie | `34.200.67.35` |
-| Virginie | `34.204.146.235` |
-| Virginie | `34.204.164.1` |
-| Virginie | `34.204.27.249` |
-| Virginie | `34.205.224.111` |
-| Virginie | `34.206.69.71` |
-| Virginie | `52.193.88.44` |
-| Virginie | `52.200.108.250` |
-| Virginie | `52.200.171.156` |
-| Virginie | `52.201.49.195` |
-| Virginie | `52.205.244.105` |
-| Virginie | `52.207.161.156` |
-| Virginie | `52.22.148.55` |
-| Virginie | `52.4.155.255` |
-| Virginie | `52.72.182.205` |
-| Virginie | `52.72.185.111` |
-| Virginie | `54.152.218.194` |
-| Virginie | `54.173.37.66` |
-| Virginie | `54.173.69.38` |
-| Virginie | `54.236.180.248` |
-| Virginie | `54.236.71.218` |
-| Virginie | `54.80.103.29` |
-| Virginie | `54.88.180.124` |
