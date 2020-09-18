@@ -6,10 +6,10 @@ title: Référence des colonnes de données
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '3674'
-ht-degree: 98%
+source-wordcount: '3667'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `ef_id` | ef_id utilisée dans les intégrations Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variables personnalisées 1-250. Chaque organisation utilise les eVars différemment. Le meilleur outil pour obtenir plus d’informations sur la façon dont votre organisation renseigne les eVars respectifs serait un document de conception de solution spécifique à votre organisation. | varchar(255) |
 | `event_list` | Liste séparée par des virgules d’identifiants numériques représentant les événements déclenchés lors de l’accès. Comprend à la fois les événements par défaut et les événements personnalisés 1-1000. Utilise la recherche d’event.tsv. | text |
-| `exclude_hit` | Indicateur signifiant que l’accès est exclu de la création de rapports. La colonne visit_num n’est pas incrémentée pour les accès exclus.<br>1 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>2 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>3 : n’est plus utilisée. Exclusion de l’agent utilisateur<br>4 : Exclusion basée sur l’adresse IP<br>5 : Information indispensable sur l’accès manquante telle que page_url, pagename, page_event, ou event_list<br>6 : JavaScript n’a pas traité l’accès correctement<br>7 : Exclusion spécifique au compte, comme dans les règles VISTA<br>8 : Inutilisée. Autre exclusion spécifique au compte.<br>9 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>10 : Code de devise invalide<br>11 : Horodatage manquant sur un accès pour une suite de rapport avec horodatage ou l’accès contenait un horodatage sur une suite de rapport sans horodatage<br>12 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>13 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>14 : Accès cible qui ne correspondait pas à un accès Analytics<br>15 : Inutilisé pour le moment.<br>16 : Accès Advertising Cloud qui ne correspondait pas à un accès Analytics | tinyint sans signe |
+| `exclude_hit` | Indicateur signifiant que l’accès est exclu de la création de rapports. La colonne visit_num n’est pas incrémentée pour les accès exclus.<br>1 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>2 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>3 : n’est plus utilisée. User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as `page_url`, `pagename`, `page_event`, or `event_list`<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. Autre exclusion spécifique au compte.<br>9 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>10 : Code de devise invalide<br>11 : Horodatage manquant sur un accès pour une suite de rapport avec horodatage ou l’accès contenait un horodatage sur une suite de rapport sans horodatage<br>12 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>13 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>14 : Accès cible qui ne correspondait pas à un accès Analytics<br>15 : Inutilisé pour le moment.<br>16 : Accès Advertising Cloud qui ne correspondait pas à un accès Analytics | tinyint sans signe |
 | `first_hit_page_url` | La toute première URL du visiteur. | varchar(255) |
 | `first_hit_pagename` | Variable utilisée dans la dimension Page d’accès d’origine. Le nom de la page d’entrée d’origine du visiteur. | varchar(100) |
 | `first_hit_ref_domain` | Variable utilisée dans la dimension Domaine référent initial. Basée sur first_hit_referrer. Le tout premier domaine référent du visiteur. | varchar(100) |
