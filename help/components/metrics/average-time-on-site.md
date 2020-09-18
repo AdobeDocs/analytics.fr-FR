@@ -2,10 +2,10 @@
 title: Durée moyenne de la visite du site
 description: Durée moyenne d’existence d’un élément de dimension donné entre les accès.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 63%
+source-wordcount: '538'
+ht-degree: 60%
 
 ---
 
@@ -45,6 +45,10 @@ If you want average time on site for the dimension item `Product page A`, first 
 La durée totale de la visite pour `Product page A` correspond à `00:03:10`. Cette visite comportait deux séquences ; la première séquence pour les deux valeurs consécutives et la seconde avant le passage en caisse. Le dernier accès de la visite n’est pas une séquence, puisqu’il n’existe pas de date et heure de fin.
 
 La durée moyenne de la visite du site pour `Product page A` correspond à `00:01:35`.
+
+>[!NOTE]
+>
+>Cette mesure indique la valeur de `"Invalid"` si l’élément de dimension contient uniquement les accès qui ont été les derniers au cours d’une visite. Cette mesure nécessite un accès ultérieur pour effectuer le suivi de la durée de la visite.
 
 ## Temps moyen passé sur le site (secondes)
 
