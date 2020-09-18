@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Conditions requises et limites de transfert
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -92,8 +95,8 @@ Si vous envoyez un fichier UTF-8 ou ISO-8859-1 et que votre suite de rapports n�
 * Les rapports de trafic, tels que les pages vues, constituent les rapports les plus utiles pour l’affichage de données de journaux Web.
 * Les noms de page s’affichent sous forme d’URL complète, incluant la chaîne de requête.
 * Chaque requête de fichier s’affiche sous forme d’une page distincte, comprenant les feuilles de style et les fichiers image.
-* Si vous annexez des informations à l’URL, les fichiers peuvent être enregistrés sous forme de pages distinctes. Par exemple, les rapports marketing enregistrent les URL suivantes comme deux pages distinctes :
+* Si vous annexez des informations à l’URL, les fichiers peuvent être enregistrés sous forme de pages distinctes. Par exemple, l’Adobe enregistre les URL suivantes comme deux pages distinctes :
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
