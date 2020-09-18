@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Règles de traitement - Aperçu
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 87%
 
 ---
 
@@ -40,11 +43,11 @@ Désormais, les administrateurs disposent des droits d’utiliser les règles de
 
 >[!IMPORTANT]
 >
->Les règles de traitement affectant en permanence les données d’Analytics, nous recommandons vivement que leurs administrateurs soient parfaitement formés à Adobe Analytics et connaissent toutes les sources de données de vos suites de rapports (sites web normalisés, sites mobiles, applications mobiles, API pour l’insertion de données, etc.). La connaissance des variables de données contextuelles et des variables standard renseignées sur différentes plateformes permettra de prévenir la suppression ou la modification accidentelle des données.
+>Les règles de traitement affectant de manière permanente les données Analytics, l’Adobe recommande vivement que les administrateurs des règles de traitement reçoivent une formation de certification dans Adobe Analytics et connaissent toutes les sources de données de vos suites de rapports (sites Web standard, sites mobiles, applications mobiles, API d’insertion de données, etc.). La connaissance des variables de données contextuelles et des variables standard renseignées sur différentes plateformes permettra de prévenir la suppression ou la modification accidentelle des données.
 
 ## Utilisation de données contextuelles afin de simplifier la collecte des données {#section_09EEA03612D24C15839631AA9E9668D8}
 
-Les variables de données contextuelles sont un nouveau type de variable, disponibles uniquement pour les règles de traitement. Pour utiliser les variables de données contextuelles, des paires de données clé/valeur sont envoyées par votre implémentation et les règles de traitement sont utilisées pour capturer ces valeurs dans des variables Analytics standard. De ce fait, les programmeurs ne doivent plus obligatoirement connaître la valeur contenue dans une variable prop et/ou eVar.
+Les variables de données contextuelles sont un type de variable disponible uniquement pour les règles de traitement. Pour utiliser les variables de données contextuelles, des paires de données clé/valeur sont envoyées par votre implémentation et les règles de traitement sont utilisées pour capturer ces valeurs dans des variables Analytics standard. De ce fait, les programmeurs ne doivent plus obligatoirement connaître la valeur contenue dans une variable prop et/ou eVar.
 
 ![](assets/evar-context-map.png)
 
