@@ -4,11 +4,11 @@ subtopic: Bot rules
 title: Règles de robots - Aperçu
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1351'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1356'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Les données de trafic de robots sont stockées dans un référentiel distinct e
 
 ## Règles de robots IAB standard
 
-Activez les règles de robots IAB standard en cochant la case [!UICONTROL Activer les règles de filtrage de robots IAB]. Cette sélection va supprimer les robots de la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’IAB (Bureau international de la publicité) pour supprimer le trafic de robots. L’IAB met cette liste à jour tous les mois.
+Activez les règles de robots IAB standard en cochant la case [!UICONTROL Activer les règles de filtrage de robots IAB]. Cette sélection va supprimer les robots de la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’IAB (Bureau international de la publicité) pour supprimer le trafic de robots. L&#39;Adobe met à jour cette liste de l&#39;IAB tous les mois.
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -49,7 +49,7 @@ Les règles de robots personnalisées vous permettent de filtrer le trafic sur l
 Les règles de robots personnalisées sont définies à l’aide des types de conditions suivants :
 
 * Agent utilisateur
-* Adresse IP
+* Adresse IP
 * Plage IP
 
 Plusieurs conditions peuvent être définies pour une seule règle. Dans le cas de conditions multiples, une correspondance est établie à l’aide de l’opérateur « OU ». Si vous indiquez, par exemple, une valeur pour Agent utilisateur et Adresse IP, le trafic est considéré comme du trafic de robots si l’une des conditions est remplie.
