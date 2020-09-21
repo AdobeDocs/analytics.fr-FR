@@ -2,8 +2,11 @@
 description: Le nouveau système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 title: Alertes intelligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '596'
+ht-degree: 100%
 
 ---
 
@@ -25,25 +28,25 @@ Les nouveaux Générateur d’alertes et Gestionnaire d’alerte remplacent la f
 * Envoyer des alertes par e-mail ou par SMS, avec des liens pour générer automatiquement les projets Analysis Workspace.
 * Créer des alertes « empilées » qui présentent plusieurs mesures dans une seule alerte.
 
-Le nouveau système d’alerte se compose des éléments suivants : Générateur d’alertes, Gestionnaire d’alertes, Aperçu des alertes, ainsi qu’un meilleur accès en contexte à la création des alertes. L’interface utilisateur de l’ancien système d’alerte ne sera plus accessible, mais les alertes seront migrées. Toutefois, certaines de leurs fonctions héritées [ne seront plus disponibles](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html).
+Le nouveau système d’alerte se compose des éléments suivants : Générateur d’alertes, Gestionnaire d’alertes, Aperçu des alertes, ainsi qu’un meilleur accès en contexte à la création des alertes. L’interface utilisateur de l’ancien système d’alerte ne sera plus accessible, mais les alertes seront migrées. Toutefois, certaines de leurs fonctions héritées [ne seront plus disponibles](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/alerts.html).
 
 Vous pouvez accéder au Générateur d’alertes de quatre façons :
 
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
    `ctrl (or cmd) + shift + a`
-* En accédant directement au Générateur d’alertes :  **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** .
-* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. Le Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du tableau. Vous pouvez ensuite modifier l’alerte, si nécessaire.
+* En sélectionnant directement le Générateur d’alertes : **[!UICONTROL Espace de travail]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]** .
+* En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**. Le Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du tableau. Vous pouvez ensuite modifier l’alerte, si nécessaire.
 
    ![](assets/create-alert-from-selection.png)
 
-* Dans un [!UICONTROL Reports & Analytics] rapport, en sélectionnant **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Le nouveau Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du rapport. Vous pouvez ensuite modifier l’alerte, si nécessaire.
+* Dans un rapport [!UICONTROL Reports &amp; Analytics], en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**. Le nouveau Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du rapport. Vous pouvez ensuite modifier l’alerte, si nécessaire.
 
    ![](assets/add-alert.png)
 
-## FAQ : Calcul et déclenchement des alertes  {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+## FAQ : Calcul et déclenchement des alertes {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts types et 99 % = 3 écarts types. Selon la granularité temporelle choisie,  [différents modèles](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) sont utilisés pour calculer à quel point chaque donnée s’écarte de la norme (le nombre d’écarts types). Si vous définissez un seuil inférieur (90 %, par exemple), vous obtiendrez davantage d’anomalies qu’avec un seuil plus élevé (99 %). Les seuils de 99,75 % et 99,99 % ont été introduits précisément pour la granularité horaire, afin de limiter le nombre d’anomalies déclenchées.
+Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts types et 99 % = 3 écarts types. Selon la granularité temporelle choisie, [différents modèles](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) sont utilisés pour calculer à quel point chaque donnée s’écarte de la norme (le nombre d’écarts types). Si vous définissez un seuil inférieur (90 %, par exemple), vous obtiendrez davantage d’anomalies qu’avec un seuil plus élevé (99 %). Les seuils de 99,75 % et 99,99 % ont été introduits précisément pour la granularité horaire, afin de limiter le nombre d’anomalies déclenchées.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -68,12 +71,12 @@ Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts type
    <td colname="col2"> <p>Le recours à la valeur absolue déclenche des alertes en cas de creux et de pics. Vous ne pouvez pas isoler les alertes pour les creux seulement ou les pics seulement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q : Puis-je configurer les alertes pour qu’elles se déclenchent uniquement durant certaines heures de la journée (heures ouvrables ou non ouvrables, par exemple) ?</b>  </p> </td> 
+   <td colname="col1"> <p><b>Q : Puis-je configurer les alertes pour qu’elles se déclenchent uniquement durant certaines heures de la journée (heures ouvrables ou non ouvrables, par exemple) ?</b> </p> </td> 
    <td colname="col2"> <p>Actuellement, non. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Puis-je obtenir un tableau des « valeurs attendues » incluant la ligne pointillée ou un résultat quelconque indiquant à quoi correspondent ces valeurs ?</b> </p> </td> 
-   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Il applique une période de formation fixe de 30 jours, un intervalle fixe de 95 % et est semblable à la <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  >détection des anomalies des <span class="uicontrol">Reports &amp; Analytics</span> </a>. </p> </td> 
+   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Il applique une période de formation fixe de 30 jours, un intervalle fixe de 95 % et est semblable à la <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/layout/t-anomaly.html"  >détection des anomalies des <span class="uicontrol">Reports &amp; Analytics</span> </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
