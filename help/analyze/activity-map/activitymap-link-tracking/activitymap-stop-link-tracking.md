@@ -5,6 +5,9 @@ topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (anciennement ClickMap des visiteurs) </td> 
-   <td colname="col2"> <p>Définissez la variable <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/config-vars/configuration-variables.translate.html"  >trackInlineStats</a> sur false (valeur par défaut). La syntaxe est la suivante :       <code>
+   <td colname="col2"> <p>Définissez la variable <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> sur false (valeur par défaut). La syntaxe est la suivante :       <code>
        s.trackInlineStats=false
      </code> </p> </td> 
   </tr> 
