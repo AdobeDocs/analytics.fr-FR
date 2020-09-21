@@ -20,4 +20,4 @@ Cette mesure comptabilise tous les appels de suivi des liens ([`tl()`](/help/imp
 
 ## Comparaison avec des mesures similaires
 
-* **Événements de page par rapport aux[Pages vues](page-views.md)** : les événements de page comptabilisent le nombre d’appels de suivi des liens (`tl()`) et excluent les appels de suivi de pages vues (`t()`). Les pages vues ont un fonctionnement contraire : elles comptabilisent le nombre d’appels de suivi de pages vues et excluent les liens.
+* **Événements de page par rapport aux [Pages vues](page-views.md)** : les événements de page comptabilisent le nombre d’appels de suivi des liens (`tl()`) et excluent les appels de suivi de pages vues (`t()`). Les pages vues ont un fonctionnement contraire : elles comptabilisent le nombre d’appels de suivi de pages vues et excluent les liens.
