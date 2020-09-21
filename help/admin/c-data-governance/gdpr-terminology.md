@@ -3,7 +3,10 @@ description: 'null'
 title: Terminologie relative au règlement général sur la protection des données (RGPD)
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '1034'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **Système de classement** : tout ensemble spécifique de données personnelles accessible selon des critères spécifiques ou pouvant être consulté.
 
-**RGPD** : le règlement général sur la protection des données (RGPD) est un cadre juridique qui définit des lignes directrices pour la collecte et le traitement des informations personnelles des individus au sein de l’Union européenne (UE). Le RGPD énonce les principes de la gestion des données et les droits des individus, tout en prévoyant des amendes susceptibles d’être calculées sur la base des revenus. Le RGPD couvre toutes les entreprises qui traitent les données des citoyens de l’UE. Il s’agit donc d’une réglementation essentielle pour les agents de conformité dans les banques, les assurances et d’autres sociétés financières. Le RGPD entrera en vigueur dans l’ensemble de l’UE le 25 mai 2018.
+**RGPD** : le règlement général sur la protection des données (RGPD) est un cadre juridique qui définit des lignes directrices pour la collecte et le traitement des informations personnelles des individus au sein de l’Union européenne (UE). Le RGPD énonce les principes de la gestion des données et les droits des individus, tout en prévoyant des amendes susceptibles d’être calculées sur la base des revenus. Le RGPD couvre toutes les entreprises qui traitent les données des citoyens de l’UE. Il s’agit donc d’une réglementation essentielle pour les agents de conformité dans les banques, les assurances et d’autres sociétés financières. Le RGPD entrera en vigueur dans toute l’UE le 25 mai 2018.
 
 **Données génétiques** : données concernant les caractéristiques, héritées ou acquises, d’un individu qui donnent des informations uniques sur sa santé ou sa physiologie.
 
