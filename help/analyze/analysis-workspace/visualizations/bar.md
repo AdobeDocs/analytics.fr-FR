@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Barre et barres empilées
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '81'
+ht-degree: 100%
 
 ---
 
