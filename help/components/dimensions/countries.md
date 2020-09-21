@@ -1,11 +1,11 @@
 ---
 title: Pays
 description: Le pays d’où provient l’accès.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Cette dimension fait référence aux règles de recherche internes à Adobe. La 
 >
 >Si votre entreprise suit des réglementations de confidentialité strictes dans lesquelles l’[obscurcissement d’adresse IP](/help/admin/admin/general-acct-settings-admin.md) ne suffit pas, vous pouvez demander la désactivation totale des données de géolocalisation. Contactez l’assistance clientèle avec l’identifiant de la suite de rapports et demandez la désactivation de l’option « Géographie » pour la suite de rapports.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Les Dimensions comprennent des pays du monde entier. Les exemples de valeurs comprennent `"United States"`, `"United Kingdom"` ou `"India"`.
+Les éléments de dimension incluent les pays du monde entier. Les exemples de valeurs comprennent `"United States"`, `"United Kingdom"` ou `"India"`.
 
 ## Différences entre l’emplacement signalé et l’emplacement réel
 
