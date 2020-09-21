@@ -32,7 +32,7 @@ Les sources de données à traitement complet sont traitées en utilisant les pr
 
 Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se rend sur votre site à partir d’une campagne marketing nommée « Soldes de printemps », qui est stockée dans la variable de campagne. Si vous transférez par la suite une transaction à l’aide du même identifiant visiteur, la campagne « Soldes de printemps » n’est pas créditée pour les recettes ou les événements de succès transférés à l’aide de sources de données à traitement complet.
 
-## Référence de colonne  {#section_92BAE76639E3404E97276B1BE0581078}
+## Référence de colonne {#section_92BAE76639E3404E97276B1BE0581078}
 
 <table id="table_AAC04491D643467B9C80FDEF88130B13"> 
  <thead> 
@@ -49,8 +49,8 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
    <td colname="col3"> <p>Code de suivi de campagne de conversion. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>marketing </p> </td> 
-   <td colname="col2"> <p>marketing </p> </td> 
+   <td colname="col1"> <p>channel </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
    <td colname="col3"> <p>Chaîne de canal (par exemple, section Sports). </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>, c.-à-d. &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>Nom de la variable eVar de conversion. Vous pouvez avoir jusqu’à 75 eVars (  <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Vous pouvez définir le nom de l’eVar (eVar12) ou un nom convivial (Campagne publicitaire 3). </p> </td> 
+   <td colname="col3"> <p>Nom de la variable eVar de conversion. Vous pouvez avoir jusqu’à 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Vous pouvez définir le nom de l’eVar (eVar12) ou un nom convivial (Campagne publicitaire 3). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -79,7 +79,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>, c.-à-d. &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>Nom de la hiérarchie. Vous pouvez avoir jusqu’à 5 hiérarchies (  <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Vous pouvez définir le nom de hiérarchie par défaut (<span class="varname">hier2</span>) ou un nom convivial (<span class="term">Yankees </span>). </p> </td> 
+   <td colname="col3"> <p>Nom de la hiérarchie. Vous pouvez avoir jusqu’à 5 hiérarchies ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Vous pouvez définir le nom de hiérarchie par défaut (<span class="varname">hier2</span>) ou un nom convivial (<span class="term">Yankees </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -124,7 +124,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>, c.-à-d. &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>Chaîne du numéro de propriété (par exemple,  <span class="term"> section Sports </span>). </p> </td> 
+   <td colname="col3"> <p>Chaîne du numéro de propriété (par exemple, <span class="term"> section Sports </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
