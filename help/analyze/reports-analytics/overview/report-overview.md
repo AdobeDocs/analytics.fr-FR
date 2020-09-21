@@ -3,8 +3,11 @@ description: Cette section présente les fonctionnalités d’un rapport, notamm
 title: Fonctionnalités d’un rapport
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '328'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Cette section présente les fonctionnalités d’un rapport, notamment la barre d’outils, le calendrier et le tableau détaillé.
 
-This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
+Cet exemple présente un [!UICONTROL rapport Pages]. Les options de configuration peuvent varier, selon le rapport à exécuter. Par exemple, plutôt que de sélectionner Tendance ou Classement dans un rapport [!UICONTROL Contenu du site], vous pouvez préciser la granularité et le nom de la page pour un rapport [!UICONTROL Mesures du site].
 
 ## Exemple de rapport Pages {#section_288CC85536684C2DB184141358481EF0}
 
-Exemple d’un rapport Pages ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
+Exemple d’un rapport Pages (**[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Rapports Pages]** > **[!UICONTROL Pages]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
