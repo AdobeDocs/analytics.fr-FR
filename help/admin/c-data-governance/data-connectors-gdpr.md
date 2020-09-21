@@ -3,7 +3,7 @@ description: Cette page répertorie toutes les variables partenaires de Data Con
 title: Confidentialité des données et Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
