@@ -5,7 +5,10 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Pages vues et contenu
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: ht
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
