@@ -100,6 +100,6 @@ if(s._pltPreviousPage)
 
 ## Historique des versions
 
-### 1.0 (22 mai 2018)
+### 1.0 (22 mai 2018)
 
 * Version initiale.
