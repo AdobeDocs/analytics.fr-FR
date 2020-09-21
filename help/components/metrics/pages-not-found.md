@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Pages introuvables
 
-*Cette page d’aide décrit le fonctionnement de la mesure « Pages introuvables ». Pour plus d’informations, consultez la dimension[Pages introuvables](../dimensions/pages-not-found.md).*
+*Cette page d’aide décrit le fonctionnement de la mesure « Pages introuvables ». Pour plus d’informations, consultez la dimension [Pages introuvables](../dimensions/pages-not-found.md).*
 
 La mesure « Pages introuvables » indique le nombre d’accès pour lesquels la page contenait une erreur. Cette mesure s’avère utile lorsque vous souhaitez identifier les pages ou les URL contenant des messages d’erreur (par exemple, 404). Vous pouvez ainsi déterminer la cause de l’erreur et la corriger.
 
