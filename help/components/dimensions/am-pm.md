@@ -1,11 +1,11 @@
 ---
 title: Matin/après-midi
 description: Détermine si l’accès s’est produit le matin ou l’après-midi.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ La dimension « Matin/Après-midi » permet de savoir si l’accès s’est pr
 
 Cette dimension est prête à l’emploi. Elle ne comporte aucun paramètre à modifier. Sa seule dépendance concerne le fuseau horaire de la suite de rapports, qui détermine les heures du matin et celles de l’après-midi.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-This dimension always contains exactly two dimension items: `"AM"` and `"PM"`. The dimension item `"AM"` applies to all hits from 12:00 AM to 11:59 AM, while the dimension item `"PM"` applies to all hits from 12:00 PM to 11:59 PM.
+Cette dimension contient toujours exactement deux éléments de dimension : `"AM"` et `"PM"`. L’élément de dimension `"AM"` s’applique à tous les accès de 00 h 00 à 11 h 59, tandis que l’élément de dimension `"PM"` s’applique à tous les accès de 12 h 00 à 23 h 59.
