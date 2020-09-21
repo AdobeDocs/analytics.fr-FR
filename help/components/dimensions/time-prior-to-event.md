@@ -1,11 +1,11 @@
 ---
 title: Durée avant événement
 description: Durée entre la mesure et le premier accès de la visite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ La dimension « Durée avant événement » indique le temps écoulé entre le
 
 Bien que cette dimension soit techniquement prête à l’emploi pour toutes les implémentations, elle fonctionne mieux avec les événements personnalisés et d’achat. Adobe recommande l’implémentation d’événements personnalisés sur votre site. Si vous implémentez des événements personnalisés, aucune implémentation supplémentaire n’est requise pour cette dimension.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Dimension items include time-based buckets ranging from `"Less than 1 minute"` to `"More than 15 hours"`. For example, if it took a visitor 23 minutes from their first hit to a purchase, it would belong under the `"10 to 30 minutes"` dimension item.
+Les éléments de dimension comprennent des intervalles temporels compris entre `"Less than 1 minute"` et `"More than 15 hours"`. Par exemple, si 23 minutes s’écoulent entre le premier accès d’un visiteur et un achat, l’élément de dimension serait `"10 to 30 minutes"`.
