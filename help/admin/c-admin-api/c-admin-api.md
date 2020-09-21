@@ -4,6 +4,9 @@ title: API d’administration
 uuid: 44f8bf4f-4973-46ed-9fe7-2f69fc789a33
 translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '19'
+ht-degree: 100%
 
 ---
 
