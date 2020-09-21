@@ -4,11 +4,11 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Mesures calculées
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Les accès doivent d’abord être regroupés par visite, puis classés selon le
 1. Concaténez `post_visid_high`, `post_visid_low`, `visit_num`et `visit_start_time_gmt`.
 2. Triez en fonction de cette valeur concaténée, puis appliquez un tri secondaire par `visit_page_num`.
 3. Si un accès n’est pas le dernier d’une visite, soustrayez la valeur `post_cust_hit_time` de la valeur `post_cust_hit_time` de l’accès suivant.
-4. Ce nombre correspond à la durée passée (en secondes) au cours de cet accès. Il est possible d’appliquer des filtres pour se concentrer sur des éléments de dimension ou des événements.
+4. Ce nombre correspond à la durée passée (en secondes) au cours de cet accès. Il est possible d’appliquer des filtres pour se concentrer sur les éléments ou les événements de dimension.
 
 ## Commandes, unités et chiffre d’affaires
 
