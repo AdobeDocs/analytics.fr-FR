@@ -1,11 +1,11 @@
 ---
 title: Détails du canal Dernière touche
 description: Détails du dernier canal marketing dans l’expiration de l’engagement du visiteur.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ Pour définir une valeur spécifique sur cette dimension, procédez comme suit 
 * Sélectionnez la valeur de liste déroulante souhaitée sous [!UICONTROL Définir la valeur du canal] dans la règle de traitement des canaux marketing.
 * L’accès du visiteur à votre site doit correspondre aux critères décrits dans la règle de traitement des canaux marketing.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Les éléments de Dimension dépendent de la liste déroulante des valeurs de canal. Par exemple, si vous définissez la valeur du canal sur &quot;URL de page&quot;, les éléments de dimension incluent les URL de page sur votre site. Si vous définissez la valeur du canal sur Domaine référent, les éléments de dimension incluent les domaines sur lesquels les visiteurs ont cliqué pour accéder à votre site. Cette dimension agrégat tous les éléments de dimension détaillés, quel que soit le canal dans lequel ils se trouvent.
+Les éléments de dimension dépendent de la liste déroulante des valeurs de canal. Par exemple, si vous définissez la valeur de canal sur « URL de page », les éléments de dimension comprennent les adresses URL de page sur votre site. Si vous définissez la valeur du canal sur Domaine référent, les éléments de dimension comprennent les domaines sur lesquels les visiteurs ont cliqué pour accéder à votre site. Cette dimension agrège tous les éléments de dimension détaillés, quel que soit le canal dans lequel ils se trouvent.
 
 Adobe recommande de définir des valeurs de canal liées au canal marketing pour obtenir des informations détaillées sur les canaux.
