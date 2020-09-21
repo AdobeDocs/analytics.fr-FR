@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Chaque tableau à structure libre affiche les colonnes de mesures suivantes :
 | Mesures de normalisation | Visiteurs uniques, Visites ou Impressions d’activité. |
 | Mesure de succès | La mesure sélectionnée dans le créateur. |
 | Taux de conversion | Mesure de succès/normalisation |
-| Effet élévateur | Compare le taux de conversion de chaque expérience à l’expérience de contrôle.<br>**Remarque :** L’effet élévateur est une &quot;mesure verrouillée&quot; des expériences de Cible ; il ne peut pas être ventilé ou utilisé avec d&#39;autres dimensions. |
+| Effet élévateur | Compare le taux de conversion de chaque expérience à l’expérience de contrôle.<br>**Remarque :** l’effet élévateur est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions. |
 | Effet élévateur (inférieur) | Représente le pire effet élévateur qu’une expérience de variante pourrait avoir sur l’expérience de contrôle. |
 | Effet élévateur (médian) | Représente l’effet élévateur moyen qu’une expérience de variante pourrait avoir sur l’expérience de contrôle, avec un intervalle de confiance de 95 %. Il s’agit d’« Effet élévateur » dans Reports &amp; Analytics. |
 | Effet élévateur (supérieur) | Représente le meilleur effet élévateur qu’une expérience de variante pourrait avoir sur l’expérience de contrôle. |
-| Degré de confiance | Le test T calcule le degré de confiance, qui indique la probabilité selon laquelle les résultats seraient dupliqués si le test était exécuté à nouveau. Une plage de mise en forme conditionnelle fixe de 75 %/85 %/95 % a été appliquée à la mesure. Si nécessaire, cette mise en forme peut être personnalisée sous Paramètres de colonne. <br>**Remarque :** La confiance est une &quot;mesure verrouillée&quot; des expériences de Cible ; il ne peut pas être ventilé ou utilisé avec d&#39;autres dimensions. |
+| Degré de confiance | Le test T calcule le degré de confiance, qui indique la probabilité selon laquelle les résultats seraient dupliqués si le test était exécuté à nouveau. Une plage de mise en forme conditionnelle fixe de 75 %/85 %/95 % a été appliquée à la mesure. Si nécessaire, cette mise en forme peut être personnalisée sous Paramètres de colonne. <br>**Remarque :** le degré de confiance est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions. |
 
 Comme pour n’importe quel panneau d’Analysis Workspace, vous pouvez continuer votre analyse en ajoutant des tableaux et [visualisations](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) supplémentaires qui vous aideront à analyser vos activités Adobe Target.
 
@@ -61,7 +61,7 @@ Comme pour n’importe quel panneau d’Analysis Workspace, vous pouvez continue
 | Pourquoi les visiteurs uniques varient-ils entre Target et Analytics ? | [En savoir plus](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sur les variations de visiteurs uniques entre les produits. |
 | Pourquoi des expériences sans rapport sont-elles renvoyées lorsque j’applique un segment d’accès pour une activité Target spécifique dans mon analyse ? | La dimension A4T est une variable de liste, ce qui signifie qu’elle peut contenir de nombreuses activités (et expériences) en même temps. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | La mesure de degré de confiance tient-elle compte des commandes extrêmes ou applique-t-elle une correction de Bonferroni pour plusieurs offres ? | Non. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sur la façon dont Analytics calcule le degré de confiance. |
-| Les mesures d’effet élévateur et de confiance peuvent-elles être utilisées avec d’autres dimensions ou ventilations ? | L’effet élévateur et le degré de confiance sont des &quot;mesures verrouillées&quot; par rapport à la dimension Expériences de Cible, car ils nécessitent un contrôle et une variante à calculer sur l’ensemble. Ils ne peuvent donc pas être ventilés ou utilisés avec d’autres dimensions. |
-| Quand l’effet élévateur et la confiance sont-ils recalculés ? | L’effet élévateur et la confiance sont recalculés chaque fois que le panneau est exécuté (ou réexécuté), que la plage de dates du panneau est modifiée ou qu’un segment est appliqué au panneau ou au tableau. |
+| Les mesures Effet élévateur et Degré de confiance peuvent-elles être utilisées avec d’autres dimensions ou ventilations ? | L’effet élévateur et le degré de confiance sont des « mesures verrouillées » des expériences Target, car ils nécessitent un contrôle et une variante pour effectuer les calculs. Ils ne peuvent donc pas être ventilés ou utilisés avec d’autres dimensions. |
+| Quand l’effet élévateur et le degré de confiance sont-ils recalculés ? | L’effet élévateur et le degré confiance sont recalculés chaque fois que le panneau est exécuté (ou exécuté à nouveau), que la plage de dates du panneau est modifiée ou qu’un segment est appliqué au panneau ou au tableau. |
 
 Pour plus d’informations sur les rapports Analytics for Target, consultez [Rapports A4T](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/reporting.html).
