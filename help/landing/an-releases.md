@@ -2,7 +2,7 @@
 description: Explique la nouvelle stratégie de mise à jour continue des fonctionnalités pour Adobe Analytics
 title: Mises à jour des fonctionnalités Adobe Analytics
 translation-type: ht
-source-git-commit: dcca8559c9e730c9e04981d69068786878062561
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
