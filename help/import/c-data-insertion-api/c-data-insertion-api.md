@@ -2,8 +2,11 @@
 description: valeur nulle
 title: API d’insertion de données
 uuid: 9c66c7a5-4d16-4e02-8e34-6031504b34d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '28'
+ht-degree: 100%
 
 ---
 
