@@ -1,11 +1,11 @@
 ---
 title: Mot-clé de recherche
 description: Le mot-clé de recherche utilisé par le visiteur pour accéder à votre site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ La dimension « Mot-clé de recherche » indique les mots-clés de recherche q
 
 >[!IMPORTANT]
 >
->La plupart des moteurs de recherche ne transmettent plus le mot-clé de recherche en raison de l’augmentation des pratiques de confidentialité. Hits where Adobe recognizes a search engine but is missing a keyword groups under the dimension item `"Keyword unavailable"`.
+>La plupart des moteurs de recherche ne transmettent plus le mot-clé de recherche en raison de l’augmentation des pratiques de confidentialité. Les accès dans lesquels Adobe reconnaît un moteur de recherche, mais ne trouve pas de mot-clé sont regroupés sous l’élément de dimension `"Keyword unavailable"`.
 
 Un référent doit répondre aux deux critères suivants pour être qualifié de mot-clé de recherche :
 
 * Le domaine référent est reconnu par Adobe comme un [moteur de recherche](search-engine.md) valide.
-* Il existe un paramètre de chaîne de requête de mot-clé dans l’URL de référence. If the keyword query string exists but does not contain a value, it groups under the dimension item `"Keyword unavailable"`.
+* Il existe un paramètre de chaîne de requête de mot-clé dans l’URL de référence. Si la chaîne de requête de mot-clé existe, mais ne contient pas de valeur, elle est classée sous l’élément de dimension `"Keyword unavailable"`.
 
 Si vous souhaitez distinguer le référencement payant du référencement naturel, la [détection de référencement payant](/help/admin/admin/paid-search-detection/paid-search-detection.md) est requise. Plusieurs dimensions sont disponibles pour les mots-clés de recherche :
 
@@ -33,6 +33,6 @@ Si vous souhaitez distinguer le référencement payant du référencement nature
 
 Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Les éléments de Dimension incluent les mots-clés de recherche utilisés pour atteindre votre site. The `"Unspecified"` dimension item is all non-search traffic.
+Les éléments de dimension comprennent les mots-clés de recherche utilisés pour accéder à votre site. L’élément de dimension `"Unspecified"` correspond à l’ensemble du trafic hors recherche.
