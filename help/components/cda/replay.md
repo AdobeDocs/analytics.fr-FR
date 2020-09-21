@@ -1,73 +1,73 @@
 ---
-title: Fonctionnement des répétitions
-description: Comprendre le concept de "relecture" dans l’Analytics sur plusieurs périphériques
-translation-type: tm+mt
-source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
-workflow-type: tm+mt
+title: Fonctionnement des relectures
+description: Comprendre le concept de « relecture » dans les analyses entre appareils
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Fonctionnement des répétitions
+# Fonctionnement des relectures
 
-Analytics sur plusieurs périphériques effectue deux passes sur les données dans une suite de rapports virtuelle :
+L’analyse entre appareils effectue deux passes de données dans une suite de rapports virtuelle :
 
-* **Densité** en direct : L’ADC tente d’assembler chaque accès au fur et à mesure. Nettoyez les nouveaux périphériques à la suite de rapports qui n’ont jamais été connectés et ne sont généralement pas assemblés à ce niveau. Les périphériques déjà reconnus sont assemblés immédiatement.
-* **Réexécuter**: Environ une fois par semaine, l&#39;ACD &quot;réexamine&quot; les données en fonction des identifiants uniques qu&#39;elle a appris. C&#39;est à cette étape que les nouveaux périphériques de la suite de rapports sont assemblés.
+* **groupement en direct** : l’analyse entre appareils tente de grouper chaque accès au fur et à mesure. Les nouveaux appareils réseau de la suite de rapports n’ayant jamais été connectés ne sont généralement pas groupés à ce niveau. Les appareils reconnus sont groupés immédiatement.
+* **Relecture** : environ une fois par semaine, l’analyse entre appareils « relit » les données en fonction des identifiants uniques appris. C’est à cette étape que les nouveaux appareils de la suite de rapports sont groupés.
 
 ## Exemple de tableau
 
-Les tableaux suivants illustrent comment les deux méthodes CDA (graphique[](field-based-stitching.md) Périphérique et [Field-based stitching](device-graph.md)) calculent le nombre de personnes uniques :
+Les tableaux suivants illustrent la façon dont les deux méthodes d’analyse entre appareils ([groupement basé sur les champs](field-based-stitching.md) et [graphique d’appareil](device-graph.md)) calculent le nombre de personnes uniques :
 
-### Accrochage en direct
+### Groupement en direct
 
-Dès qu’un accès est collecté, CDA tente de le raccorder à des périphériques connus. Prenons l’exemple suivant, où Bob utilise deux périphériques.
+Dès qu’un accès est collecté, l’analyse entre appareils tente de le grouper aux appareils connus. Prenons l’exemple suivant, où Bob utilise deux appareils.
 
-*Données telles qu’elles apparaissent le jour de leur collecte :*
+*Données telles qu’elles apparaissent le jour de leur collecte :*
 
-| Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure Personnes (cumulée) à l’aide du graphique de périphériques | Mesure des personnes (cumulative) à l’aide de l’assemblage basé sur les champs |
+| Horodatage | ECID | evar1 ou CustomerID | Explication de l’accès | Mesure « Personnes » (cumulée) à l’aide du graphique d’appareil | Mesure « Personnes » (cumulée) à l’aide du groupement basé sur les champs |
 | --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob sur son ordinateur de bureau, non authentifié | `1` (246) | `1` (246) |
-| `2` | `246` | `Bob` | Bob se connecte sur son bureau | `1` (246) | `2` (246 et Bob) |
-| `3` | `3579` | - | Bob sur son appareil mobile, non authentifié | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `4` | `3579` | `Bob` | Bob se connecte sur mobile | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `5` | `246` | - | Bob accède de nouveau à votre site sur le bureau, sans authentification | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `6` | `246` | `Bob` | Bob se reconnecte via le bureau | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `7` | `3579` | - | Bob accède de nouveau à votre site sur mobile | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `8` | `3579` | `Bob` | Bob se reconnecte via mobile | `2` (246 et 3579) | `3` (246, Bob et 3579) |
+| `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (246) | `1` (246) |
+| `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `1` (246) | `2` (246 et Bob) |
+| `3` | `3579` | - | Bob sur son appareil mobile, sans authentification | `2` (246 et 3579) | `3` (246, Bob et 3579) |
+| `4` | `3579` | `Bob` | Bob se connecte sur son appareil mobile | `2` (246 et 3579) | `3` (246, Bob et 3579) |
+| `5` | `246` | - | Bob accède à nouveau à votre site depuis son ordinateur de bureau, sans authentification | `2` (246 et 3579) | `3` (246, Bob et 3579) |
+| `6` | `246` | `Bob` | Bob se connecte à nouveau sur son ordinateur de bureau | `2` (246 et 3579) | `3` (246, Bob et 3579) |
+| `7` | `3579` | - | Bob accède à nouveau à votre site depuis son appareil mobile | `2` (246 et 3579) | `3` (246, Bob et 3579) |
+| `8` | `3579` | `Bob` | Bob se connecte à nouveau sur son appareil mobile | `2` (246 et 3579) | `3` (246, Bob et 3579) |
 
-Les accès non authentifiés et authentifiés sur les nouveaux périphériques sont comptabilisés comme des personnes distinctes (temporairement).
+Les accès authentifiés et non authentifiés sur les nouveaux appareils sont (temporairement) comptabilisés comme des personnes distinctes.
 
-* **Si vous utilisez le graphique de périphériques,** les accès non authentifiés sur les périphériques reconnus sont assemblés en direct une fois qu’une grappe est publiée par le graphique de périphériques. La publication en grappe dure entre trois heures et deux semaines.
+* **Si vous utilisez le graphique d’appareil**, les accès non authentifiés sur les appareils reconnus sont groupés en direct une fois qu’une grappe est publiée par le graphique d’appareil. La publication d’une grappe prend entre trois heures et deux semaines.
 
-   Une troisième personne cumulative est également ajoutée lorsqu’un cluster est publié. Cette troisième personne représente la grappe elle-même, en plus des différents périphériques. Cette troisième &quot;personne&quot; reste jusqu’à la relecture des données.
+   Lorsqu’une grappe est publiée, une troisième personne cumulative est également ajoutée. Cette troisième personne représente la grappe elle-même, en plus des différents appareils. Cette troisième « personne » reste jusqu’à la relecture des données.
 
-   L’attribution ne fonctionne pas sur tous les périphériques tant qu’une grappe n’a pas été publiée, et même après, elle ne fonctionne qu’à partir de ce moment. Dans l’exemple ci-dessus, aucun accès n’est encore assemblé sur plusieurs périphériques. L’attribution sur plusieurs périphériques sur les accès existants ne fonctionne qu’après la reprise de la lecture.
-* **Si vous utilisez l’assemblage sur le terrain,** les accès non authentifiés sur des périphériques reconnus sont assemblés en direct à partir de ce moment.
+   L’attribution ne fonctionne pas sur tous les appareils tant qu’une grappe n’a pas été publiée et, même en cas de publication, elle ne fonctionne qu’à partir de ce moment-là. Dans l’exemple ci-dessus, aucun accès n’a été groupé sur les appareils. L’attribution entre appareils sur les accès existants ne fonctionne qu’après le groupement de relecture.
+* **Si vous utilisez le groupement basé sur les champs**, les accès non authentifiés sur des appareils reconnus sont groupés en direct à partir de ce moment-là.
 
-   L’attribution fonctionne dès que la variable personnalisée d’identification se connecte à un périphérique. Dans l’exemple ci-dessus, tous les accès, à l’exception des accès 1 et 3, sont assemblés en direct (ils utilisent tous l’ `Bob` identifiant). L’attribution fonctionne sur les accès 1 et 3 après l’assemblage de relecture.
+   L’attribution fonctionne dès que la variable personnalisée d’identification est liée à un appareil. Dans l’exemple ci-dessus, tous les accès sauf l’accès 1 et l’accès 3 sont groupés en direct (ils utilisent tous l’identifiant `Bob`). L’attribution fonctionne sur les accès 1 et 3 après le groupement de relecture.
 
-### Relancer l’assemblage
+### Groupement de relecture
 
-Environ une fois par semaine, l’ADC recalcule les données historiques en fonction des périphériques qu’elle reconnaît maintenant. Si un périphérique envoie initialement des données alors qu’il n’est pas authentifié, puis se connecte, CDA associe ces accès non authentifiés à la bonne personne. Le tableau suivant représente les mêmes données que ci-dessus, mais affiche des nombres différents en fonction de la relecture des données.
+Environ une fois par semaine, l’analyse entre appareils recalcule les données historiques en fonction des appareils qu’elle reconnaît maintenant. Si un appareil envoie des données alors qu’il n’est pas authentifié, puis se connecte, l’analyse entre appareils associe ces accès non authentifiés à la bonne personne. Le tableau suivant représente les mêmes données que ci-dessus, mais affiche des nombres différents à cause de la relecture des données.
 
-*Les mêmes données après la relecture :*
+*Les mêmes données après relecture :*
 
-| Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure Personnes (cumulée) à l’aide du graphique de périphériques | Mesure des personnes (cumulative) à l’aide de l’assemblage basé sur les champs |
+| Horodatage | ECID | evar1 ou CustomerID | Explication de l’accès | Mesure « Personnes » (cumulée) à l’aide du graphique d’appareil | Mesure « Personnes » (cumulée) à l’aide du groupement basé sur les champs |
 | --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob sur son ordinateur de bureau, non authentifié | `1` (Grappe1) | `1` (Bob) |
-| `2` | `246` | `Bob` | Bob se connecte sur son bureau | `1` (Grappe1) | `1` (Bob) |
-| `3` | `3579` | - | Bob sur son appareil mobile, non authentifié | `1` (Grappe1) | `1` (Bob) |
-| `4` | `3579` | `Bob` | Bob se connecte sur mobile | `1` (Grappe1) | `1` (Bob) |
-| `5` | `246` | - | Bob accède de nouveau à votre site sur le bureau, sans authentification | `1` (Grappe1) | `1` (Bob) |
-| `6` | `246` | `Bob` | Bob se reconnecte via le bureau | `1` (Grappe1) | `1` (Bob) |
-| `7` | `3579` | - | Bob accède de nouveau à votre site sur mobile | `1` (Grappe1) | `1` (Bob) |
-| `8` | `3579` | `Bob` | Bob se reconnecte via mobile | `1` (Grappe1) | `1` (Bob) |
+| `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (grappe 1) | `1` (Bob) |
+| `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `1` (grappe 1) | `1` (Bob) |
+| `3` | `3579` | - | Bob sur son appareil mobile, sans authentification | `1` (grappe 1) | `1` (Bob) |
+| `4` | `3579` | `Bob` | Bob se connecte sur son appareil mobile | `1` (grappe 1) | `1` (Bob) |
+| `5` | `246` | - | Bob accède à nouveau à votre site depuis son ordinateur de bureau, sans authentification | `1` (grappe 1) | `1` (Bob) |
+| `6` | `246` | `Bob` | Bob se connecte à nouveau sur son ordinateur de bureau | `1` (grappe 1) | `1` (Bob) |
+| `7` | `3579` | - | Bob accède à nouveau à votre site depuis son appareil mobile | `1` (grappe 1) | `1` (Bob) |
+| `8` | `3579` | `Bob` | Bob se connecte à nouveau sur son appareil mobile | `1` (grappe 1) | `1` (Bob) |
 
-## Récupérer
+## Résumé
 
-* **Si vous utilisez un graphique de périphérique,** les données sont assemblées lorsqu’une grappe est publiée (généralement 3 à 2 semaines).
-* **Si vous utilisez l’assemblage basé sur les champs,** les données datant de moins d’une semaine piquent immédiatement les périphériques connus, mais ne rassemble pas immédiatement les périphériques nouveaux ou non reconnus.
-* Les données sont relues une fois par semaine et modifient les données historiques dans la suite de rapports virtuelle en fonction des périphériques qu’elle a appris à identifier.
+* **Si vous utilisez un graphique d’appareil**, les données sont groupées lorsqu’une grappe est publiée (généralement après 3 heures à 2 semaines).
+* **Si vous utilisez le groupement basé sur les champs**, les données datant de moins d’une semaine sont immédiatement groupées aux appareils connus, mais ne sont pas immédiatement groupées aux appareils nouveaux ou non reconnus.
+* Les données sont relues une fois par semaine, modifiant les données historiques dans la suite de rapports virtuelle en fonction des appareils désormais identifiés.
