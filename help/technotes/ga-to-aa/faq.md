@@ -1,11 +1,11 @@
 ---
 title: Questions fréquentes
 description: Obtenez des réponses aux questions fréquentes lorsque vous passez d’une plateforme tierce à Adobe.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,6 +29,6 @@ Les filtres déroulants sont une fonctionnalité flexible et robuste d’[!UICON
 
 Les utilisateurs accédant à ce projet [!UICONTROL Workspace] peuvent désormais utiliser cette liste déroulante pour appliquer des segments ou d’autres composants au projet. Pour plus d’informations, consultez la [Présentation des panneaux](/help/analyze/analysis-workspace/c-panels/panels.md) dans le guide sur les outils Analytics.
 
-**J&#39;ai l&#39;habitude de cliquer sur un élément de dimension pour afficher une liste déroulante. Comment puis-je recréer ce processus simple dans Analysis Workspace ?**
+**J’ai l’habitude de cliquer sur l’élément d’une dimension pour qu’une analyse en profondeur s’affiche. Comment puis-je recréer ce processus simple dans Analysis Workspace ?**
 
-Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. Accédez-y avec un clic droit au lieu d’un clic gauche. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. Vous pouvez appliquer la même ventilation à plusieurs éléments de dimension en appuyant sur les touches Ctrl+clic (Windows) ou cmd+clic (Mac) sur chaque valeur.
+Les éléments de dimension dans [!UICONTROL Analysis Workspace] offrent également un processus de ventilation facile. Accédez-y avec un clic droit au lieu d’un clic gauche. Faites un clic droit sur un élément de dimension, cliquez sur **[!UICONTROL Ventilation], puis sélectionnez le composant de votre choix. Vous pouvez appliquer la même ventilation à plusieurs éléments de dimension en faisant ctrl+clic (Windows) ou cmd+clic (Mac) sur chaque valeur.
