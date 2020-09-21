@@ -1,23 +1,23 @@
 ---
-title: Jour de l'année
+title: Jour de l’année
 description: Jour numérique de l’année, quelle que soit l’année.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Jour de l&#39;année
+# Jour de l’année
 
-La dimension Jour de l’année signale le jour numérique d’une année donnée en tant qu’élément de dimension. Ce rapport est utile si vous souhaitez qu’un rapport soit ventilé par jour de l’année, mais que vous ne souhaitez pas qu’une date statique soit considérée comme des éléments de dimension.
+La dimension « Jour de l’année » indique le jour numérique d’une année donnée comme élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par jour de l’année, mais ne souhaitez pas d’une date statique comme élément de dimension.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, cette dimension fonctionne.
+Cette dimension est prête à l’emploi pour toutes les implémentations. Cette dimension fonctionne si une suite de rapports contient des données.
 
 ## Éléments de dimension
 
-Les éléments de dimension comprennent les nombres `1` (1er janvier) à `366` (31 décembre de l’année bissextile), qui représentent le jour de l’année où l’accès a eu lieu.
+Les éléments de dimension comprennent les chiffres `1` (1er janvier) à `366` (31 décembre d’une année bissextile), qui représentent le jour de l’année où l’accès a eu lieu.
