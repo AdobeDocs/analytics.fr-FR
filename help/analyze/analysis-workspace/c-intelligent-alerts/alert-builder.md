@@ -24,7 +24,7 @@ Le Générateur d’alertes peut être ouvert de l’une des quatre façons suiv
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
    `ctrl (or cmd) + shift + a`
-* En sélectionnant **[!UICONTROL Espace de travail]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
+* En sélectionnant **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
 * En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
 * Dans un rapport Reports &amp; Analytics, en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
 
@@ -86,7 +86,7 @@ Spécifiez la date d’expiration de l’alerte.
 *Avec tous ces filtres*
 
 * Faites glisser et déplacez les segments ou dimensions pour ajouter des filtres. Par exemple, ajoutez un segment « Appareils mobiles seulement » afin de signifier que la règle se déclenche uniquement pour les appareils mobiles.
-* Pour ajouter d’autres filtres, utilisez une instruction ET.
+* Pour ajouter d’autres filtres, utilisez une instruction AND.
 
 **Ajouter une règle**
 
