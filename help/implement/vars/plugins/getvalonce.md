@@ -95,11 +95,11 @@ Ce code empêche la même valeur d’être transmise à s.eVar2 plusieurs fois d
 
 * Correction d’un problème lié à l’écriture de cookies.
 
-### 2.0
+### 2,0
 
 * Nouvelle version (recompilé, taille de code réduite).
 
-### 1.1
+### 1,1
 
 * Ajout de la possibilité de choisir des minutes ou des jours pour l’expiration via le paramètre `t`.
 * Correction de la portée de la variable `k` utilisée pour la limiter au plug-in uniquement. Cette modification permet d’éviter d’éventuelles interférences avec d’autres codes sur la page.
