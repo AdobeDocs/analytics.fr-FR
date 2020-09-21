@@ -3,6 +3,9 @@ title: campaign
 description: Permet de renseigner la dimension « Code de suivi ».
 translation-type: ht
 source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
+workflow-type: ht
+source-wordcount: '191'
+ht-degree: 100%
 
 ---
 
