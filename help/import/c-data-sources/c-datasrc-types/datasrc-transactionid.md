@@ -3,6 +3,9 @@ title: Sources de données des ID de transaction
 description: Découvrez le processus général d’utilisation des sources de données des ID de transaction.
 translation-type: ht
 source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
+workflow-type: ht
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
