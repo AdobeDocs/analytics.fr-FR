@@ -1,11 +1,11 @@
 ---
-title: FAQ sur l’implémentation
+title: FAQ sur la mise en œuvre
 description: Questions fréquemment posées sur la mise en œuvre et liens vers d’autres informations.
 translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 48%
+ht-degree: 71%
 
 ---
 
@@ -30,12 +30,12 @@ Non. Le fichier JavaScript n’est pas hébergé sur les serveurs Adobe. Par con
 
 AppMeasurement crée un objet image dans la page HTML, puis le navigateur demande l’objet image auprès des serveurs de collecte de données Adobe. Si les serveurs Adobe sont lents ou ne répondent pas, le thread gérant cette demande est retardé jusqu’à ce que l’image réapparaisse ou qu’une temporisation se produise. Les navigateurs gèrent les images avec plusieurs threads. Pour cette raison, les pannes de serveurs Adobe ont peu d’incidence sur le temps de chargement de la page puisqu’un seul thread est concerné tandis que les autres continuent à fonctionner.
 
-## Comment puis-je invalider ou supprimer une mise en oeuvre Analytics ?
+## Comment puis-je invalider ou supprimer une mise en œuvre Analytics ?
 
-Il arrive qu’une entreprise souhaite supprimer une implémentation en raison de l’expiration du contrat ou réduire le nombre d’appels au serveur.
+Il arrive qu’une entreprise souhaite supprimer une mise en œuvre en raison de l’expiration du contrat ou afin de réduire le nombre d’appels au serveur.
 
-* **Implémentations à l’aide du lancement**: Désactivez ou désinstallez l’extension Adobe Analytics dans l’onglet [!UICONTROL Extensions] , puis publiez.
-* **Implémentations** AppMeasurement héritées : Remplacez l’intégralité du contenu de votre `s_code.js` fichier par la ligne de code suivante :
+* **Mises en œuvre utilisant Launch** : désactivez ou désinstallez l’extension Adobe Analytics dans l’onglet [!UICONTROL Extensions], puis publiez.
+* **Mises en œuvre AppMeasurement héritées** : remplacez l’intégralité du contenu de votre fichier `s_code.js` par la ligne de code suivante :
 
 ```js
 var s = new Object();
@@ -43,11 +43,11 @@ var s = new Object();
 
 >[!WARNING]
 >
->Ne pas :
+>N’effectuez aucune des actions suivantes :
 >
->* Remplacez la suite de rapports par une valeur non valide, car elle crée une charge inutile sur les serveurs d’Adobe.
->* Supprimez complètement le `s_code.js` fichier, sauf si vous supprimez également toutes les références au fichier sur chaque page.
->* Modifiez la `trackingServer` variable pour qu’elle pointe loin de l’Adobe. AppMeasurement envoie toujours des demandes d’image, qui renvoient des erreurs 404.
+>* Remplacer la suite de rapports par une valeur non valide, car cela génère une charge inutile sur les serveurs d’Adobe.
+>* Supprimer complètement le fichier `s_code.js`, sauf si vous supprimez également toutes les références au fichier sur chaque page.
+>* Modifier la variable `trackingServer` afin qu’elle ne pointe plus vers Adobe. AppMeasurement continue à envoyer des demandes d’image, qui renvoient des erreurs 404.
 
 
 ## J’ai exécuté AppMeasurement par le biais d’un analyseur de code, et il a signalé son utilisation comme risque de sécurité potentiel `Math.random()` . Est-il `Math.random()` utilisé avec des données sensibles ?
