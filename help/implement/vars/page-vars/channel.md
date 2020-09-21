@@ -1,5 +1,5 @@
 ---
-title: marketing
+title: channel
 description: Permet de renseigner la dimension « Sections du site ».
 translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
@@ -10,7 +10,7 @@ ht-degree: 97%
 ---
 
 
-# marketing
+# channel
 
 La variable `channel` stocke généralement la section du site sur laquelle se trouve une page donnée. Il est utile de déterminer les groupes de votre site les plus populaires. Cette variable renseigne la dimension Sections du site.
 
