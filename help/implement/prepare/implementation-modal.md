@@ -1,18 +1,18 @@
 ---
 title: Fenêtre modale de mise en œuvre
 description: Si vous êtes un nouvel utilisateur, découvrez ce que vous devez savoir sur la mise en œuvre d’Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '30'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 
 # Fenêtre modale de mise en œuvre
 
-Reportez-vous à la page [Création d&#39;une suite](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)de rapports.
+Consultez [Création d’une suite de rapports](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-console/create-report-suite.html).
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
