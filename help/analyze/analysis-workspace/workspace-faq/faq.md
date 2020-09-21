@@ -2,7 +2,7 @@
 description: FAQ sur Workspace
 title: Questions fréquentes et résolution des problèmes dans Workspace
 translation-type: ht
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
