@@ -3,7 +3,10 @@ description: Les suites de rapports virtuelles segmentent les données Adobe An
 title: Suites de rapports virtuelles - Aperçu
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '792'
+ht-degree: 100%
 
 ---
 
