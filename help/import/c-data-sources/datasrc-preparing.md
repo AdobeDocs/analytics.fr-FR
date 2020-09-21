@@ -5,7 +5,7 @@ title: Préparation à l’utilisation des sources de données
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Procédure de préparation à l’utilisation des sources de données
 * [ID de transaction](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [Identification d’une période valide pour des données de source de données](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## Identification des mesures et attribution de nouveaux noms  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## Identification des mesures et attribution de nouveaux noms {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 Il est important de comprendre les mesures contenues dans vos sources de données, par exemple *`Off-line Sales Revenue by Product`*, *`Returns by Product`* ou *`Ad Impressions by Campaign`*. Il s’agit des noms que vous pouvez associer aux mesures des rapports (événements, props et eVar).
 
@@ -37,11 +37,11 @@ Voir [Événements de succès](https://docs.adobe.com/content/help/fr-FR/analyti
 
 ## Identification de la portée des données {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
-Identifiez et rassemblez les données (rapports) que vous souhaitez utiliser pour ventiler les mesures importées au moyen des sources de données. On parle alors de  *`data dimensions`*.
+Identifiez et rassemblez les données (rapports) que vous souhaitez utiliser pour ventiler les mesures importées au moyen des sources de données. On parle alors de *`data dimensions`*.
 
 Si, par exemple, une mesure de source de donnée évalue les impressions de publicité, votre portée de données est sans doute le code de suivi de campagne. Si vous mesurez les ventes hors ligne, vous pouvez utiliser le code de produit (unité de gestion des stocks) comme portée de données.
 
-Vous pouvez définir plusieurs portées de données pour une mesure ; toutefois, chaque mesure doit fournir une valeur ou combinaison de valeurs appropriée, pour chaque portée de données associée. Si, par exemple, vous importez une mesure Ventes hors ligne et l’associez aux portées de données  *`Product`* et *`Partner`*, la mesure Ventes hors ligne doit correspondre à chaque combinaison de produit et de partenaire (par exemple, le total des recettes).
+Vous pouvez définir plusieurs portées de données pour une mesure ; toutefois, chaque mesure doit fournir une valeur ou combinaison de valeurs appropriée, pour chaque portée de données associée. Si, par exemple, vous importez une mesure Ventes hors ligne et l’associez aux portées de données *`Product`* et *`Partner`*, la mesure Ventes hors ligne doit correspondre à chaque combinaison de produit et de partenaire (par exemple, le total des recettes).
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Si vous n’importez pas les mesures de sources de données avec une valeur d’
 
 L’ID de transaction permet de connecter un événement en ligne à un événement hors ligne.
 
-## Identification d’une plage de dates valide pour des données de source de données  {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## Identification d’une plage de dates valide pour des données de source de données {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 Une fois définies vos mesures de sources de données (événements personnalisés) et vos portées de données (eVars), passez en revue la plage de dates des données de sources de données à importer. Vous ne pouvez pas importer des sources de données qui se situent en dehors de la plage de vos données de rapport existantes.
 
