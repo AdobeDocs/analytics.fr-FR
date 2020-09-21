@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Gestionnaire d’alertes
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
 
@@ -12,11 +15,11 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ![](assets/alert-manager.png)
 
-The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) and allows you to
+La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**) ressemble à celle du [Gestionnaire de segments](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-manage.html) et du [Gestionnaire de mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) et permet d’accomplir ce qui suit :
 
 ![](assets/alert-manager-tasks.png)
 
-* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
+* Accéder au Générateur d’alertes en cliquant sur **[!UICONTROL + Ajouter]**
 * Marquer les alertes ; permet d’organiser les alertes pour plus de facilité
 * Supprimer des alertes
 * Renommer les alertes
