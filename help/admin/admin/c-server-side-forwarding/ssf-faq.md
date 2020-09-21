@@ -4,6 +4,9 @@ title: Questions fréquentes relatives au transfert côté serveur
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '688'
+ht-degree: 100%
 
 ---
 
