@@ -1,11 +1,11 @@
 ---
 title: Profondeur d’accès
 description: Numéro de l’accès lors de la visite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ La dimension « Profondeur d’accès » indique l’ordre des accès pendant 
 
 Cette dimension est prête à l’emploi pour toutes les implémentations. Cette dimension fonctionne si une suite de rapports contient des données.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Dimension items include the string `"Hit Depth"` followed by a number representing the number of hits into the visit. The dimension item of `"Hit Depth 1"` represents the first hit of the visit, while the dimension item `"Hit Depth 8"` represents the 8th hit of the visit.
+Les éléments de dimension comprennent la chaîne `"Hit Depth"` suivie d’un nombre représentant l’ordre d’accès lors de la visite. L’élément de dimension de `"Hit Depth 1"` représente le premier accès de la visite, tandis que l’élément de dimension `"Hit Depth 8"` représente le huitième accès de la visite.
 
 ## Comparaison avec la profondeur de visite
 
-La profondeur d’accès compte tous les types d’accès, y compris les vues de page et les accès de suivi des liens. Visit depth only increments for page view hits, _and_ the [Page](page.md) dimension item is not the same as the value on the previous page. La profondeur de visite est également une dimension basée sur la visite, ce qui signifie qu’elle a la même valeur pour tous les accès de la visite. Le tableau suivant illustre un exemple de visite et détaille la profondeur d’accès et la profondeur de visite :
+La profondeur d’accès compte tous les types d’accès, y compris les vues de page et les accès de suivi des liens. La profondeur de visite est uniquement incrémentée par les accès de type vue de page _et_ l’élément de dimension [Page](page.md) n’est pas le même que la valeur de la page précédente. La profondeur de visite est également une dimension basée sur la visite, ce qui signifie qu’elle a la même valeur pour tous les accès de la visite. Le tableau suivant illustre un exemple de visite et détaille la profondeur d’accès et la profondeur de visite :
 
 | Séquence de page | Profondeur d’accès | Compte dans la profondeur de visite ? | Profondeur de visite |
 | --- | --- | --- | --- |
