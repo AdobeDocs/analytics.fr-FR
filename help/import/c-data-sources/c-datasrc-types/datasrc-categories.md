@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Types et catégories de données - Aperçu
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '907'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +99,7 @@ Les catégories permettent de grouper les sources de données du point de vue de
    <td colname="col3"> <p>Vous permet d’intégrer des informations sur votre centre d’appels dans les rapports marketing. Les mesures généralement importées sont notamment le nombre d’appels, le temps passé au téléphone, l’agent et le total des ventes. </p> <p>Il s’agit de la source de données de centre d’appels générique qui doit être utilisée si votre logiciel de centre d’appels spécifique n’est pas pris en charge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </p> <p>Application générique d’assistance </p> <p>à la clientèle </p> </td> 
+   <td colname="col1"> <p> </p> <p>Application générique d’assistance </p> <p>Application </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversion </a> </p> </td> 
    <td colname="col3"> <p>Vous permet d’intégrer des informations issues des logiciels d’assistance à la clientèle dans les rapports marketing. Elle propose des mesures telles que le nombre de nouveaux incidents, le nombre d’incidents résolus et le temps consacré à la résolution d’incidents. </p> <p>Il s’agit de la source de données d’assistance à la clientèle générique qui doit être utilisée si votre application spécifique n’est pas prise en charge. </p> </td> 
   </tr> 
