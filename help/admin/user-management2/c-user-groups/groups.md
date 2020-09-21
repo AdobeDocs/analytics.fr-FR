@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Descriptions des éléments de la page Définir un groupe d’utilisateurs.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Accès complet, Personnaliser, Accès interdit) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Les autorisations sont prises en charge pour les clients qui détiennent des conteneurs <span class="keyword"> TagManager</span> actifs. Non disponible pour les nouveaux utilisateurs. </p> <p>Adobe recommande d’utiliser la <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> pour le déploiement. </p> </td> 
+   <td colname="col2"> <p>Les autorisations sont prises en charge pour les clients qui détiennent des conteneurs <span class="keyword"> TagManager</span> actifs. Non disponible pour les nouveaux utilisateurs. </p> <p>Adobe recommande d’utiliser la <a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> pour le déploiement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Affecter les identifications utilisateur</b> </td> 
