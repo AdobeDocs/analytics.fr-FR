@@ -1,21 +1,21 @@
 ---
 description: Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dans Analysis Workspace.
 keywords: Analysis Workspace
-title: Raccourcis clavier (raccourcis) disponibles en Analysis Workspace
+title: Touches de raccourci disponibles dans Analysis Workspace
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
 source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 54%
+ht-degree: 82%
 
 ---
 
 
-# Raccourcis clavier (raccourcis) disponibles en Analysis Workspace
+# Touches de raccourci disponibles dans Analysis Workspace
 
-Des touches d&#39;accès rapide (raccourcis clavier) sont disponibles en Analysis Workspace pour une navigation, une analyse et une démocratisation sans faille.
+Des touches de raccourci (raccourcis clavier) sont disponibles dans Analysis Workspace pour une navigation, une analyse et une démocratisation optimales.
 
 Remarque :
 * `Ctrl` = Windows et `Command` = Mac
@@ -30,16 +30,16 @@ Remarque :
 | Accéder au volet Panneaux | alt + maj + 1 |
 | Accéder au volet Visualisations | alt + maj + 2 |
 | Accéder au volet Composants | alt + maj + 3 |
-| Réduire/Développer tous les panneaux | alt + m |
-| Réduire/Développer le panneau Principal | alt + ctrl + m |
-| Passer au panneau suivant | alt + Touche Droite |
-| Passer au panneau précédent | alt + Touche gauche |
+| Réduire/Développer tous les panneaux | alt + m |
+| Réduire/Développer le panneau actif | alt + ctrl + m |
+| Accéder au panneau suivant | alt + touche droite |
+| Accéder au panneau précédent | alt + touche gauche |
 
-## Actions d’Analyse
+## Actions d’analyse
 
 | Action | Raccourci |
 | --- | --- |
-| Rechercher dans le rail de gauche | ctrl + / |
+| Rechercher dans le rail de gauche | ctrl + / |
 | Créer une alerte | ctrl + maj + a |
 | Créer une mesure calculée | ctrl + maj + c |
 | Créer une plage de dates | ctrl + maj + d |
@@ -52,16 +52,16 @@ Remarque :
 | Actualiser le projet | alt + r |
 | Définir comme page d’entrée | ctrl + maj + l |
 
-## ajouter des panneaux et des actions de visualisation
+## Ajouter des panneaux et des actions de visualisation
 
 | Action | Raccourci |
 | ---|---|
-| Nouveau panneau Analytics pour la Cible | alt + g |
+| Nouveau panneau Analytics for Target | alt + g |
 | Nouveau panneau d’attribution | alt + e |
 | Nouveau panneau vierge | alt + b |
 | Nouveau panneau à structure libre | alt + a |
-| Nouveau panneau des visionneuses simultanées de médias | alt + h |
-| Nouveau panneau d’informations rapides | alt + f |
+| Nouveau panneau des visionneuses simultanées de médias | alt + h |
+| Nouveau panneau Quick Insights | alt + f |
 | Nouveau panneau de comparaison des segments | alt + c |
 | Nouveau tableau à structure libre | alt + 1 |
 | Nouveau graphique linéaire | alt + 2 |
