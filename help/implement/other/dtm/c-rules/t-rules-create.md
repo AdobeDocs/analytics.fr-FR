@@ -6,6 +6,9 @@ title: Création d’une règle
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+workflow-type: ht
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -24,5 +27,6 @@ Cette section décrit la procédure à suivre pour créer des règles dans Dynam
    * **Règle basée sur un événement :** [création de conditions pour les règles basées sur un événement](/help/implement/other/dtm/c-rules/t-rules-event-conditions.md)
    * **Règle de chargement de page :** [création de conditions pour les règles de chargement de page](/help/implement/other/dtm/c-rules/t-rules-page-conditions.md)
    * **Règle d’appel direct :** [création de conditions pour les règles d’appel direct](/help/implement/other/dtm/c-rules/t-rules-direct-conditions.md)
+
    Le champ de catégorie est destiné uniquement à des fins organisationnelles et n’est pas obligatoire. Vous ne pouvez pas supprimer des catégories en cliquant sur l’icône x dans la catégorie.
 1. [Configuration des actions que la condition doit déclencher](/help/implement/other/dtm/c-rules/t-rules-actions.md).
