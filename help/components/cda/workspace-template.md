@@ -1,11 +1,11 @@
 ---
 title: Modèle CDA Workspace
 description: Décrit chaque champ du modèle CDA dans Analysis Workspace.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
