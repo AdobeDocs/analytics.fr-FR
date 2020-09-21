@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 66%
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,9 @@ Dans Adobe Analytics, la plupart des variables sont considérées comme ne respe
 
 Si vous observez différentes variations de la casse entre des colonnes « Post » et non « Post » (par exemple, « neige » dans la colonne « Pré » et « Neige » dans la colonne « Post »), cela signifie que votre implémentation utilise des valeurs à la fois en majuscules et en minuscules sur votre site. Les différences de casse dans la colonne « Post » étaient précédemment transmises puis stockées dans un cookie virtuel ou étaient traitées à peu près en même temps pour cette suite de rapports.
 
-## Les robots sont-ils filtrés par les règles de robots de la console d’administration incluses dans les flux de données ?
+## Les robots sont-ils filtrés par les règles de robots d’Admin Console incluses dans les flux de données ?
 
-Les flux de données n’incluent pas les robots filtrés par les règles [de robots de la console](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)d’administration.
+Les flux de données n’incluent pas les robots filtrés par les [règles de robots d’Admin Console](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
 ## Pourquoi vois-je plusieurs `000` valeurs dans la colonne `event_list` ou `post_event_list` du flux de données ?
 
