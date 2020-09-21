@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Pagination, filtrage et tri des tables
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '88'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,7 @@ Cliquer sur l’icône de filtrage, puis sur Afficher les options avancées, en 
 * Contient l’expression
 * Ne contient aucun terme
 * Ne contient pas l’expression
-* Est égal
+* Est égal à
 * N’est pas égal à
 * Commence par
 * Se termine par
