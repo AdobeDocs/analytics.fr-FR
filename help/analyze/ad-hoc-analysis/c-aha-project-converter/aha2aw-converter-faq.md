@@ -3,10 +3,10 @@ description: valeur nulle
 title: FAQ Convertisseur de projets
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 98%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Graphique de dispersion</b> : dans les projets exportés dans Analysis Workspace, l’axe Y correspond à la première colonne, l’axe X à la seconde et le diamètre à la troisième. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Tableaux Abandons</b> : pour afficher les tableaux Diminutions ou Abandons, faites un clic droit sur le point de contrôle et sélectionnez l’option Ventilation. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Périodes des rapports d’Abandons</b> : les périodes personnalisables de rapports n’ont pas été appliquées aux visualisations des Abandons. </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Rapport de flux</b> : les flux seront déplacés vers un panneau séparé afin de préserver les périodes et la segmentation. </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Rapport de flux</b> : les flux seront déplacés vers un panneau séparé afin de préserver les périodes et la segmentation. Les instances de répétition peuvent être incluses ou exclues sous Paramètres de flux. </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>Entonnoir de conversion</b> : conversion en tableau à structure libre puisque non pris en charge par Analysis Workspace. Nous recommandons de remplacer les entonnoirs de conversion par des visualisations des Abandons, mais ces derniers se comporteront d’une façon légèrement différente. </li> 
     </ul> </td> 
   </tr> 
@@ -74,14 +74,14 @@ ht-degree: 98%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">Les segments sont internes au projet converti (non publics). Ils peuvent être rendus publics, comme indiqué ici : <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Les segments des espaces de travail Ad Hoc Analysis sont appliqués à l’échelle du projet / de l’espace de travail dans Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Les segments des rapports Ad Hoc Analysis sont appliqués à l’échelle des colonnes de tableau dans Workspace. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Les segments des tableaux Ad Hoc Analysis sont appliqués à l’échelle des colonnes dans Workspace. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Les segments de tableau Ad Hoc Analysis sont appliqués au niveau des colonnes de tableau dans Workspace. </li> 
     </ul> <p>Les segments peuvent être modifiés dans le <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html"  >créateur de segments</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Comment sont converties les périodes ?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Les périodes « les X derniers jours » dans Ad Hoc Analysis <i>excluent</i> la date d’aujourd'hui, alors qu’Analysis Workspace <i>l’inclut</i>. Par conséquent, les périodes comme « les 90 derniers jours » peuvent ne pas correspondre parfaitement d’un outil à l’autre. Utilisez les périodes personnalisables pour retrouver la même période dans Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Les périodes « les X derniers jours » dans Ad Hoc Analysis <i>excluent</i> la date d’aujourd'hui, alors qu’Analysis Workspace <i>l’inclut</i>. Par conséquent, les plages de dates telles que "90 derniers jours" peuvent ne pas correspondre exactement entre les outils. Appliquez plutôt des plages "X derniers <b>jours </b> complets" en Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Les périodes des espaces de travail Ad Hoc Analysis sont appliquées à l’échelle du projet / de l’espace de travail dans Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Les périodes des rapports Ad Hoc Analysis sont appliquées à l’échelle des colonnes de tableau dans Workspace. </li> 
     </ul> <p>Les périodes personnalisables peuvent être modifiées sous <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Composants</span> &gt; <span class="uicontrol">Périodes</span>. </p> </td> 
