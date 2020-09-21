@@ -2,8 +2,11 @@
 description: Présente les données hiérarchiques (structurées en arbre) sous la forme d’un ensemble de rectangles imbriqués.
 title: Treemap
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '94'
+ht-degree: 100%
 
 ---
 
