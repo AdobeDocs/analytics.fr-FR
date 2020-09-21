@@ -4,11 +4,11 @@ keywords: event
 title: Événements de succès - Aperçu
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,6 +51,6 @@ La page Événements de succès vous permet de configurer les variables Événem
 | Polarité | La polarité permet d’indiquer si Adobe Analytics doit considérer comme un point positif ou négatif le fait qu’un événement personnalisé donné (mesure) augmente. Adobe Analytics pourra alors présenter des indicateurs de direction (flèches) pour diverses mesures afin d’ajouter du contexte (par exemple, comparaisons d’une semaine à l’autre).  Exemple : si l’événement « Bogues envoyés » augmente d’une semaine à l’autre, Adobe Analytics doit-il considérer cela comme un facteur positif ou négatif ? Une augmentation des inscriptions au publipostage est probablement bénéfique. En revanche, une augmentation des erreurs de soumission de formulaire est probablement mauvais signe.  Dans Analysis Workspace, la polarité est appliquée à : mise en forme conditionnelle de table de forme libre, visualisations de changement récapitulatives et modèle de couleur positif / négatif de la visualisation de mappage. |
 | Description | Brève description de l’objet et de l’usage d’un événement. |
 | Enregistrement d’événement unique | **Enregistrer une fois par visite** : Lie l’événement donné à la session du visiteur. Les comptes suivants effectués sur un événement donné au cours d’une même visite sont ignorés. Ce type de sérialisation d’événement ne nécessite aucune modification de l’implémentation.<br>**Utiliser l’ID d’événement :** Lie l’événement donné à un ID personnalisé. Les comptes suivants effectués sur un événement donné avec le même ID d’événement sont ignorés. Ce type de sérialisation d’événement nécessite un identifiant personnalisé dans les accès pour dédupliquer les valeurs. Voir [Sérialisation des ID d’événements](../../../implement/vars/page-vars/events/event-serialization.md) dans le guide d’utilisation de la mise en œuvre. |
-| Participation | Attribue un crédit d’attribution complet à tous les éléments de dimension de la visite. |
+| Participation | Accorde un crédit d’attribution complet à tous les éléments de dimension de la visite. |
 | Avertissement (événement de devise) | Lorsque vous définissez un événement sur le type monétaire ou définissez ce type d’événement sur un autre, un message s’affiche pour vous informer que les données historiques ne sont pas disponibles dans les rapports.  Les différents types d’événement utilisent des tableaux de données distincts, et ne peuvent pas être utilisés simultanément. Certaines données historiques peuvent être restaurées si l’utilisateur rétablit le type d’événement. Cependant, les données collectées après la modification initiale ne sont pas disponibles. Soyez prudent lorsque vous changez un type d’événement. |
 
