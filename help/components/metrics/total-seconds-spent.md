@@ -1,18 +1,18 @@
 ---
 title: Durée totale en secondes
-description: Nombre total cumulé de secondes passées sur l’élément de dimension.
-translation-type: tm+mt
+description: Le nombre total agrégé de secondes passées sur l’élément de dimension.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 
 # Durée totale en secondes
 
-La mesure &quot;Total secondes passées&quot; montre le nombre agrégé de secondes passées par un visiteur sur un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez obtenir la quantité brute de temps passé sur un élément de dimension donné et non pas des moyennes comme les autres offres des mesures de durée de la visite.
+La mesure « Durée totale en secondes » indique le nombre agrégé de secondes passées par un visiteur sur un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez connaître le temps brut passé sur un élément de dimension donné, et non pas des moyennes comme le proposent d’autres mesures de durée.
 
 Dans Report Builder, cette mesure est intitulée « Durée totale de la visite ».
 
@@ -22,7 +22,7 @@ Cette mesure utilise les étapes suivantes pour mesurer le calcul :
 
 1. Pour un accès donné, consultez la date et l’heure.
 2. Comparez cet accès à l’horodatage du prochain accès de la visite. L’accès de suivi des pages vues et des liens est important.
-3. La durée en secondes écoulée entre les deux accès contribue à l’élément de dimension.
+3. Le nombre de secondes écoulées entre les deux accès contribue à l’élément de dimension.
 
 Les variables persistantes, telles que les [eVars](../dimensions/evar.md), sont comptabilisées dans la durée totale en secondes. Les variables de trafic, telles que [props](../dimensions/prop.md), comprennent les secondes passées lors des appels de suivi des liens suivants.
 
