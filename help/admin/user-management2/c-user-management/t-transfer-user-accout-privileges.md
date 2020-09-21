@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: Transfert des éléments d’un compte d’utilisateur
 topic: Admin tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
@@ -20,8 +23,8 @@ source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gestion des utilisateurs]**.
 1. Cliquez sur **[!UICONTROL Modifier les utilisateurs]**.
-1. Recherchez l’utilisateur à partir duquel vous souhaitez transférer des fichiers et cochez la case en regard de la ligne de cet utilisateur.
-1. Sélectionnez **[!UICONTROL Transférer les fichiers]** dans la barre d’actions située en haut.
+1. Recherchez l’utilisateur à partir duquel vous souhaitez transférer des ressources et cochez la case en regard de la ligne de cet utilisateur.
+1. Sélectionnez **[!UICONTROL Transférer les ressources]** dans la barre d’actions située en haut de l’écran.
 1. Sur la page **[!UICONTROL Transférer]**, sélectionnez le compte d’utilisateur qui recevra les éléments de ce compte d’utilisateur.
 1. Sélectionnez les éléments du compte à transférer, puis cliquez sur **[!UICONTROL Transférer]**.
 1. Cliquez sur **[!UICONTROL OK]** pour confirmer le transfert des ressources de compte sélectionnées.
