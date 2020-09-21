@@ -1,11 +1,11 @@
 ---
 title: Présentation des plug-ins
 description: Vous permet d’ajouter de nouvelles fonctionnalités en collant le code sur votre site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Chaque organisation a des besoins différents en matière de mise en œuvre. Vou
    * Les mises en œuvre utilisant `AppMeasurement.js` initialisent généralement l’objet de suivi en haut du fichier JavaScript.
 2. Deuxièmement, intégrez le code du plug-in.
    * L’extension « Plug-ins Analytics communs » dispose d’une configuration d’action qui permet d’initialiser des plug-ins.
-   * Si vous ne souhaitez pas utiliser l’extension, vous pouvez coller le code du module externe dans l’éditeur de code personnalisé lors de la configuration de l’extension Analytics.
+   * Si vous ne souhaitez pas utiliser l’extension, vous pouvez coller le code de plug-in dans l’éditeur de code personnalisé lors de la configuration de l’extension Analytics.
    * Si votre mise en œuvre n’utilise pas Launch, vous pouvez coller le code du plug-in dans `AppMeasurement.js` n’importe où après avoir instancié l’objet de suivi.
 3. Troisièmement, appelez le plug-in.
    * Toutes les mises en œuvre, aussi bien internes qu’externes à Launch, utilisent JavaScript pour faire appel aux plug-ins. Appelez le plug-in en respectant le format indiqué sur la page de ce plug-in.
@@ -39,6 +39,6 @@ Chaque organisation a des besoins différents en matière de mise en œuvre. Vou
 
 De nombreuses entreprises utilisent la fonction [`doPlugins`](../functions/doplugins.md) pour faire appel à des plug-ins. Bien que cette fonction ne soit pas requise, Adobe considère qu’il est préférable de l’utiliser. AppMeasurement appelle cette fonction juste avant de compiler et d’envoyer une demande d’image, ce qui est idéal puisque plusieurs plug-ins dépendent d’autres variables Analytics.
 
-## Utilisation de modules externes avec des objets de suivi non standard
+## Utilisation de plug-ins avec des objets de suivi non standard
 
-Les modules externes ne fonctionnent pas par défaut avec les objets de suivi autres que `s`. Cependant, vous pouvez modifier le code du module externe pour l&#39;adapter à l&#39;objet de suivi personnalisé. Dans un module externe donné, remplacez toutes les références par `s` l’objet de suivi souhaité.
+Les plug-ins ne fonctionnent pas par défaut avec les objets de suivi autres que `s`. Cependant, vous pouvez modifier le code de plug-in pour l’adapter à l’objet de suivi personnalisé. Dans un plug-in donné, remplacez toutes les références à `s` par l’objet de suivi souhaité.
