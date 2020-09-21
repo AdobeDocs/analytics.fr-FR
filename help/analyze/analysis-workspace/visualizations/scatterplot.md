@@ -1,23 +1,23 @@
 ---
 title: Graphique de dispersion
-description: Visualisation qui présente la relation entre trois mesures au maximum.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+description: Visualisation qui représente la relation entre trois mesures au maximum.
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # Graphique de dispersion
 
-La visualisation du graphique à dispersion montre la relation entre les éléments de dimension et jusqu’à trois mesures. Il nécessite trois composants et prend en charge la visualisation de quatre composants au maximum.
+La visualisation en graphique à dispersion illustre la relation entre des éléments de dimension et trois mesures au maximum. Elle nécessite trois composants et prend en charge la visualisation de quatre composants au maximum.
 
-* Le composant de ligne (généralement une dimension) représente chaque point du graphique. Différentes rangées s’affichent sous forme de points de couleur différents.
-* La colonne la plus à gauche (généralement une mesure) trace la position du point sur l’axe Y (vertical).
-* La deuxième colonne trace la position du point sur l’axe X (horizontal).
+* Le composant de ligne (généralement une dimension) représente chaque point du graphique. Différentes lignes s’affichent sous forme de points de différentes couleurs.
+* La colonne la plus à gauche (généralement une mesure) trace la position du point sur l’axe Y (vertical).
+* La deuxième colonne trace la position du point sur l’axe X (horizontal).
 * La troisième colonne détermine le rayon du point.
-* Toutes les colonnes suivantes d’un tableau à structure libre sont ignorées par la visualisation du graphique de dispersion.
+* Toutes les colonnes suivantes d’un tableau à structure libre sont ignorées par la visualisation en graphique de dispersion.
 
 ![Graphique de dispersion](assets/scatter.png)
