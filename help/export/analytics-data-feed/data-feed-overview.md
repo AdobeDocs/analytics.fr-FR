@@ -3,8 +3,11 @@ description: Les données qui sont collectées sur des sites Web ou sur des appl
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Flux de données Analytics - Aperçu
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+workflow-type: ht
+source-wordcount: '567'
+ht-degree: 100%
 
 ---
 
@@ -24,28 +27,28 @@ Assurez-vous de respecter l’ensemble des exigences suivantes avant d’utilise
 ## Procédure de démarrage
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur l’icône à 9 carrés dans l’angle supérieur droit, puis sur le logo Analytics coloré.
+2. Cliquez sur l’icône à 9 carrés dans le coin supérieur droit, puis sur le logo Analytics coloré.
 3. Dans la barre de navigation en haut de l’écran, accédez à Admin > Flux de données.
-4. Cliquez sur [!UICONTROL Add]. Une nouvelle page s’affiche avec trois  principaux : [!UICONTROL Feed information], [!UICONTROL Destination]et [!UICONTROL Data Column Definitions].
-5. Fill out [!UICONTROL Feed Information] fields.
+4. Cliquez sur [!UICONTROL Ajouter]. Une nouvelle page comportant les trois catégories principales apparaît : [!UICONTROL Informations sur le flux], [!UICONTROL Destination], et [!UICONTROL Définitions des colonnes de données].
+5. Remplissez les champs [!UICONTROL Informations sur le flux].
    * Nom : le nom que vous souhaitez, par exemple « Flux de données de test ».
    * Suite de rapports : sélectionnez la suite de rapports souhaitée.
    * Envoyer par courrier électronique une fois terminé : saisissez votre adresse électronique.
    * Intervalle du flux : sélectionnez l’intervalle souhaité (horaire ou quotidien).
-   * Delay processing: Can be left as [!UICONTROL No Delay].
+   * Traitement du délai : peut être laissé sur [!UICONTROL pas de délai].
    * Dates de début et de fin : sélectionnez une date de début quelques jours auparavant et aujourd’hui comme date de fin.
-6. Fill out [!UICONTROL Destination] fields.
+6. Remplissez les champs [!UICONTROL Destination].
    * Type : FTP
    * Hôte : saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`.
    * Chemin d’accès : peut être laissé vide
    * Nom d’utilisateur : saisissez le nom d’utilisateur pour vous connecter au site FTP.
    * Mot de passe et mot de passe de confirmation : saisissez le mot de passe de connexion au site FTP.
-7. Remplir [!UICONTROL Data Column Definitions].
+7. Remplissez les [!UICONTROL définitions des colonnes de données].
    * Sélectionnez le dernier modèle « Toutes les Adobe columns » dans le menu déroulant.
    * Format de compression : Gzip
    * Type de groupement : plusieurs fichiers
    * Manifeste : aucun fichier
-8. Click [!UICONTROL Save] in the top right.
+8. Cliquez sur [!UICONTROL Enregistrer] en haut à droite.
 9. Une fois enregistré, le traitement des données historiques commence. Une fois le traitement des données terminé pour une journée, le fichier est placé sur le site FTP.
 10. Connectez-vous au site FTP en utilisant Windows Explorer ou un client FTP dédié.
 11. Téléchargez le fichier de flux de données compressé sur votre machine locale.
