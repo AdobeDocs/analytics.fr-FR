@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exé
 
 Après avoir partagé une Fiche d’évaluation, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si, par la suite, vous apportez des modifications à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, celles-ci seront mises à jour automatiquement dans la Fiche d’évaluation que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
+Si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous voudrez peut-être partager à nouveau la Fiche d’évaluation (et cocher l’option **Partager les composants incorporés**) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.
 
 ## Configurer des utilisateurs en charge de l’exécution dans l’application
 
@@ -163,7 +163,7 @@ Pour aider les utilisateurs en charge de l’exécution à accéder à vos Fiche
 * Ils possèdent des identifiants de connexion valides à Adobe Analytics.
 * Vous avez créé et partagé correctement des Fiches d’évaluation avec eux.
 * Ils ont accès à Analysis Workspace et à la suite de rapports sur laquelle la Fiche d’évaluation est basée.
-* Ils ont accès aux composants que la Fiche d’évaluation inclut. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
+* Ils ont accès aux composants que la Fiche d’évaluation inclut. Notez que lorsque vous partagez vos Fiches d’évaluation, vous pouvez sélectionnez l’option **Partager les composants incorporés**.
 
 ### Aider les utilisateurs en charge de l’exécution à utiliser l’application
 
