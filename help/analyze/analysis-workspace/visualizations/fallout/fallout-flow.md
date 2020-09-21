@@ -4,6 +4,9 @@ title: Abandon - Aperçu
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '519'
+ht-degree: 100%
 
 ---
 
