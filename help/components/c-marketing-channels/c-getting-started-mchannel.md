@@ -29,7 +29,7 @@ La définition des canaux que vous utilisez constitue l’une des tâches les pl
 * Voulez-vous regrouper tous les sites de réseau social ou souhaitez-vous en suivre certains séparément ?
 * Existe-t-il d’autres canaux pouvant avoir un impact sur les conversions dont vous souhaitez effectuer le suivi ?
 
-Vous trouverez une liste des canaux recommandés dans la section  [Questions fréquentes et exemples](/help/components/c-marketing-channels/c-faq.md). Établissez une liste des canaux que vous souhaitez utiliser pour simplifier leur définition lors de leur création.
+Vous trouverez une liste des canaux recommandés dans la section [Questions fréquentes et exemples](/help/components/c-marketing-channels/c-faq.md). Établissez une liste des canaux que vous souhaitez utiliser pour simplifier leur définition lors de leur création.
 
 ![](assets/step2_icon.png) Ajoutez des canaux marketing dans la page [!UICONTROL Gestionnaire de canaux marketing].
 
