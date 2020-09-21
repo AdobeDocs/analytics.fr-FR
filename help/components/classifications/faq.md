@@ -1,49 +1,49 @@
 ---
 title: FAQ sur les classifications
-description: Questions fréquentes sur l’utilisation des classifications.
-translation-type: tm+mt
+description: Forum aux questions sur l’utilisation des classifications.
+translation-type: ht
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # FAQ sur les classifications
 
-Questions fréquentes sur l’utilisation des classifications.
+Forum aux questions sur l’utilisation des classifications.
 
-## Comment puis-je classer l’élément de dimension &quot;0&quot; ?
+## Comment classer l’élément de dimension « 0 » ?
 
-Les fichiers de classification chargés avec une valeur de clé ou une valeur de classification de zéro (`0`) génèrent une erreur. Elle comprend toutes les valeurs qui ne contiennent que des zéros (`00`, `000`etc.). Il existe plusieurs méthodes pour résoudre ce problème :
+Les fichiers de classification transférés avec une valeur de clé ou une valeur de classification de zéro (`0`) génèrent une erreur. Cela comprend toutes les valeurs qui ne contiennent que des zéros (`00`, `000`, etc.). Plusieurs méthodes permettent de résoudre ce problème :
 
-* **Mettez en oeuvre des valeurs** alternatives : L’utilisation d’une valeur de texte autre que `"0"` celle de la méthode la plus simple et la plus efficace pour résoudre ce problème. Par exemple, remplacez `s.campaign = "0";` votre mise en oeuvre par `s.campaign = "Zero";`.
+* **Mise en œuvre de valeurs alternatives** : l’utilisation d’une valeur de texte autre que `"0"` constitue la méthode la plus simple et la plus efficace pour résoudre ce problème. Par exemple, remplacez `s.campaign = "0";` dans votre mise en œuvre par `s.campaign = "Zero";`.
 
-* **Utiliser les règles** de traitement : Vous pouvez modifier des éléments de dimension entre la collecte de données et leur enregistrement dans une suite de rapports. Créez la règle de traitement suivante :
+* **Utilisation des règles de traitement** : vous pouvez modifier des éléments de dimension entre la collecte de données et leur enregistrement dans une suite de rapports. Création de la règle de traitement suivante :
 
-   *Si la[dimension]est égale`0`, remplacez la valeur de[dimension]par la valeur personnalisée`Zero`.*
+   *Si la[dimension]est égale à`0`, remplacez la valeur de la[dimension]par la valeur personnalisée`Zero`.*
 
-* **Demander une règle** VISTA : Un consultant en services d&#39;ingénierie vous configurez une règle côté serveur à un coût supplémentaire. Contactez le gestionnaire de compte de votre organisation pour demander une règle VISTA.
+* **Demande d’une règle VISTA** : un conseiller des services d’ingénierie configure une règle côté serveur pour vous, moyennant un coût supplémentaire. Contactez le gestionnaire de compte de votre entreprise pour demander une règle VISTA.
 
-## Puis-je utiliser l’importateur de classifications pour classer les éléments de dimension qui n’existent pas encore ?
+## Puis-je utiliser l’importateur de classifications pour classer les éléments de dimension qui n’existent pas encore ?
 
-Oui, *toutefois, cela comptabilise chaque élément de dimension comme un appel serveur facturable.*
+Oui, *toutefois, cela comptabilise chaque élément de dimension comme un appel au serveur facturable.*
 
-* Les articles de Dimension existants n&#39;impliquent aucun coût supplémentaire.
+* Les éléments de dimension qui existent déjà n’entraînent aucun coût supplémentaire.
 * L’utilisation du créateur de règles de classification ne classe pas les éléments inexistants et n’entraîne donc aucun coût supplémentaire.
 
-## Comment classifier les valeurs qui contiennent des caractères spéciaux ?
+## Comment classer les valeurs contenant des caractères spéciaux ?
 
-Il n’est généralement pas recommandé d’utiliser des caractères spéciaux tels que des virgules ou des guillemets de doublon dans le rapports. Cependant, dans certains cas, leur utilisation est nécessaire. Si vos valeurs de rapports contiennent des caractères que vous choisissez de classifier, procédez comme suit :
+Il n’est généralement pas recommandé d’utiliser des caractères spéciaux tels que des virgules ou des guillemets doubles dans les rapports. Cependant, dans certains cas, leur utilisation est nécessaire. Si vos valeurs de rapports contiennent des caractères que vous choisissez de classer, procédez comme suit :
 
-1. Connectez-vous à Adobe Analytics, puis accédez à **[!UICONTROL Admin]** > Importateur **[!UICONTROL de]** classifications.
-2. Click the **[!UICONTROL Browser export]** tab.
-3. Configurez les paramètres d&#39;exportation et assurez-vous que l&#39;option Sortie du devis n&#39;est PAS sélectionnée.
+1. Connectez-vous à Adobe Analytics, puis accédez à **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
+2. Cliquez sur l’onglet **[!UICONTROL Exportation navigateur]**.
+3. Configurez les paramètres d’exportation et assurez-vous que l’option « Sortie entre guillemets » n’est PAS sélectionnée.
 4. Cliquez sur **[!UICONTROL Exporter un fichier]**, puis ouvrez le fichier téléchargé dans un éditeur de feuille de calcul.
-5. À la ligne 1, localisez la cellule C1, qui contient la valeur `v:2.0`. Modifiez la valeur `v:2.1` et appliquez les classifications de votre choix au classeur.
-6. Téléchargez le fichier comme vous le feriez pour toute autre classification.
+5. Sur la ligne 1, localisez la cellule C1, qui contient la valeur `v:2.0`. Remplacez la valeur par `v:2.1` et appliquez les classifications de votre choix au classeur.
+6. Transférez le fichier comme vous le feriez pour toute autre classification.
 
-## Que sont les classifications numériques 2 ?
+## Que sont les classifications numériques 2 ?
 
-Les classifications numériques 2 vous permettent de classer les éléments de dimension en tant que mesures temporelles. Ils ont été retirés de l’interface utilisateur d’Analytics en juillet 2019.
+Les classifications numériques 2 vous permettent de classer les éléments de dimension en tant que mesures basées sur le temps. Elles ont été retirées de l’interface utilisateur d’Analytics en juillet 2019.
