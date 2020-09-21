@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Fichiers de données de classification
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1771'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
 * Les classifications ne peuvent pas contenir une valeur nulle (zéro).
 * Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
 * Les fichiers téléchargés doivent utiliser UTF-8 sans codage des caractères de nomenclature.
-* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule soit correctement   [placée dans une séquence d’échappement](/help/components/classifications/importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
+* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule soit correctement [placée dans une séquence d’échappement](/help/components/classifications/importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
 
    ```
    \t     tab character 
@@ -76,11 +76,11 @@ Un fichier de données doit respecter les règles de structure suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Ce code demande à Adobe de générer automatiquement un ID unique pour cet élément. </p> <p>Dans le cadre d’une campagne, cette valeur de contrôle demande à Adobe d’attribuer un identificateur à chaque élément créatif. Voir <a href="/help/components/classifications/importer/c-saint-data-files.md"  > Clé </a>. </p> </td> 
+   <td colname="col2"> <p>Ce code demande à Adobe de générer automatiquement un ID unique pour cet élément. </p> <p>Dans le cadre d’une campagne, cette valeur de contrôle demande à Adobe d’attribuer un identificateur à chaque élément créatif. Voir <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Clé</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>Ce code indique que la colonne de données représente la période associée à l’élément. Voir <a href="/help/components/classifications/importer/c-saint-data-files.md"  > Date </a>. </p> </td> 
+   <td colname="col2"> <p>Ce code indique que la colonne de données représente la période associée à l’élément. Voir <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Date</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Champ vide </p> </td> 
@@ -185,8 +185,7 @@ Pour classer les campagnes selon une période :
 1. Ouvrez ce fichier dans Microsoft Excel ou un autre éditeur de feuilles de calcul familier.
 1. Une des colonnes se termine par
 
-   ^~period~,
- qui est la colonne dans laquelle il convient d’entrer la plage de dates.
+   ^~period~, qui est la colonne dans laquelle il convient d’entrer la plage de dates.
 1. Sous cette colonne, saisissez la période de chaque valeur au format suivant :
 
    `YYYY/MM/DD - YYYY/MM/DD`. Veillez à ce qui suit :
