@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
 source-wordcount: '7821'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -15,31 +15,31 @@ ht-degree: 97%
 
 ## 2020 juillet
 
-Nouvelle fonctionnalité publiée le 16 juillet 2020.
+Nouvelles fonctionnalités au 16 juillet 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Nouveaux paramètres prédéfinis de plage de dates | ajouté 4 nouvelles plages de dates : ([!UICONTROL Cette semaine/ce mois/ce trimestre/cette année (à l’exclusion d’aujourd’hui)]). Cela vous permet de choisir parmi des plages de dates qui n’incluent pas de données d’une journée partielle à partir d’aujourd’hui. |
+| Nouveaux paramètres prédéfinis de période | Ajout de 4 nouvelles périodes : ([!UICONTROL cette semaine/ce mois/ce trimestre/cette année (à l’exception d’aujourd’hui)]). Cela vous permet de choisir parmi des périodes ne comprenant pas de données de journée partielle pour la journée en cours. |
 
 ## Juin 2020
 
-Nouvelles fonctionnalités au 18 juin 2020.
+Nouvelles fonctionnalités au 18 juin 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Attribution IQ : Attribution algorithmique | Le modèle d’attribution algorithmique d’Analysis Workspace utilise des techniques statistiques pour déterminer de manière dynamique la distribution optimale du crédit pour la mesure sélectionnée. Disponible pour les clients Adobe Analytics Ultimate. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ : intervalles de recherche en amont personnalisés | Vous pouvez désormais configurer n’importe quel modèle d’attribution dans Attribution IQ afin d’y inclure des points de contact jusqu’à 90 jours avant la période de création des rapports. Cela permet généralement d’accroître la précision de l’attribution pour les événements survenant au début de la période de création des rapports, en tenant compte des interactions qui se sont produites au cours du ou des mois précédents. Disponible pour les clients Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete et Ultimate. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Attribution IQ : Attribution algorithmique | Le modèle d’attribution algorithmique d’Analysis Workspace utilise des techniques statistiques pour déterminer de manière dynamique la distribution optimale du crédit pour la mesure sélectionnée. Disponible pour les clients Adobe Analytics Ultimate. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ : intervalles de recherche en amont personnalisés | Vous pouvez désormais configurer n’importe quel modèle d’attribution dans Attribution IQ afin d’y inclure des points de contact jusqu’à 90 jours avant la période de création des rapports. Cela permet généralement d’accroître la précision de l’attribution pour les événements survenant au début de la période de création des rapports, en tenant compte des interactions qui se sont produites au cours du ou des mois précédents. Disponible pour les clients Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete et Ultimate. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | Rôles de projet pour les projets Workspace partagés | Lors du partage d’un projet Workspace, vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience du projet que vous souhaitez leur proposer : Modifier, Dupliquer et Afficher. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Projets Workspace en lecture seule | Les projets Workspace peuvent être partagés avec les utilisateurs en autorisant uniquement l’Affichage. Lorsqu’un destinataire Afficher ouvre le projet partagé, il bénéficie d’une expérience de projet plus restreinte, sans rail gauche et avec des interactions limitées. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Possibilité de modifier des projets Workspace avec d’autres personnes | Les destinataires ajoutés au rôle « Modifications autorisées » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Panneau vierge mis à jour | Le panneau vierge comprend désormais des panneaux et des visualisations, ce qui vous permet de choisir plus facilement le processus d’analyse le mieux adapté à vos besoins. |
-| Panneau Aperçu rapide (25 juin 2020) | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Panneau vierge mis à jour | Le panneau vierge comprend désormais des panneaux et des visualisations, vous permettant ainsi de choisir avec plus de transparence le processus d’analyse qui vous convient le mieux. |
+| Panneau Quick Insights (25 juin 2020) | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Panneau Analytics for Target dans Workspace (25 juin 2020) | Le panneau Analytics for Target (A4T) vous permet d’analyser en toute confiance vos activités et expériences Adobe Target dans Analysis Workspace. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
-| À propos de la page Workspace | La page À propos de Workspace fournit des informations sur votre environnement Analysis Workspace, sur vos administrateurs Adobe Analytics (si vous avez besoin d’assistance) et un moyen de fournir des commentaires sur les produits. Ces informations se trouvent sous Workspace > Aide > À propos de Workspace. |
+| À propos de la page Workspace | La page À propos de Workspace fournit des informations sur votre environnement Analysis Workspace, sur vos administrateurs Adobe Analytics (si vous avez besoin d’assistance) et permet de fournir des commentaires sur les produits. Ces informations se trouvent sous Workspace > Aide > À propos de Workspace. |
 
 ## Mai 2020
 
-Nouvelles fonctionnalités publiées le 21 mai 2020.
+Nouvelles fonctionnalités au 21 mai 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
@@ -48,7 +48,7 @@ Nouvelles fonctionnalités publiées le 21 mai 2020.
 
 ## Avril 2020
 
-Nouvelles fonctionnalités au 16 avril 2020.
+Nouvelles fonctionnalités au 16 avril 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
@@ -56,7 +56,7 @@ Nouvelles fonctionnalités au 16 avril 2020.
 
 ## Mars 2020
 
-Nouvelles fonctionnalités au 12 mars 2020.
+Nouvelles fonctionnalités au 12 mars 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
@@ -70,7 +70,7 @@ Nouvelles fonctionnalités au 20 février 2020.
 | Fonctionnalité | Description |
 |--- |--- |
 | Nouveau modèle Workspace pour les organisations qui utilisent Analytics sur plusieurs appareils | Ce modèle montre l’efficacité de la CDA pour regrouper les visites et vous informe sur les dimensions et les mesures exclusives à la CDA. Une suite de rapports utilisant CDA est requise. Voir [Configuration d’Analytics sur l’ensemble des appareils](https://docs.adobe.com/content/help/fr-FR/analytics/components/cda/cda-setup.html) pour plus d’informations. |
-| Nouvelles touches de raccourci dans Workspace | <ul><li>Réduire/Développer tous les panneaux : `alt + m`</li><li>Réduire/Développer le panneau actif : `alt + ctrl + m`</li><li>Rechercher dans le rail de gauche: `ctrl + /`</li><li>Accéder au panneau suivant : `alt + Right Key`</li><li>Accéder au panneau précédent : `alt + Left Key`</li></ul>[En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Nouvelles touches de raccourci dans Workspace | <ul><li>Réduire/Développer tous les panneaux : `alt + m`</li><li>Réduire/Développer le panneau actif : `alt + ctrl + m`</li><li>Rechercher dans le rail de gauche : `ctrl + /`</li><li>Accéder au panneau suivant : `alt + Right Key`</li><li>Accéder au panneau précédent : `alt + Left Key`</li></ul>[En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Autres optimisations apportées à Workspace | <ul><li>Lorsqu’un panneau ou une visualisation est déposé dans Workspace, le rail de gauche passera désormais automatiquement aux composants pour accélérer le processus.</li><li>Des actions sont maintenant disponibles pour les composants de modèle (par exemple, ils peuvent être balisés, marqués comme favoris ou approuvés).</li><li>Les listes de mesures et de segments filtrées proposent le bouton + pour ajouter un nouveau composant si vous ne trouvez pas ce dont vous avez besoin.</li></ul> |
 | Débogueur Workspace | Le débogueur Workspace a été ajouté au menu Aide, ce qui vous permet de l’activer plus facilement pour le débogage des requêtes Workspace. [En savoir plus...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -102,7 +102,7 @@ Amélioration publiée le 8 août 2019.
 
 ## Juillet 2019
 
-Améliorations publiées le 18 juillet 2019.
+Améliorations publiées le 18 juillet 2019.
 
 | Amélioration | Description |
 |--- |--- |
@@ -112,7 +112,7 @@ Améliorations publiées le 18 juillet 2019.
 
 ## Juin 2019
 
-Amélioration publiée le 13 juin 2019.
+Amélioration publiée le 13 juin 2019.
 
 | Amélioration | Description |
 |--- |--- |
@@ -120,7 +120,7 @@ Amélioration publiée le 13 juin 2019.
 
 ## Mai 2019
 
-Amélioration publiée le 9 mai 2019.
+Amélioration publiée le 9 mai 2019.
 
 | Amélioration | Description |
 |--- |--- |
@@ -128,7 +128,7 @@ Amélioration publiée le 9 mai 2019.
 
 ## Avril 2019
 
-Amélioration publiée le 11 avril 2019.
+Amélioration publiée le 11 avril 2019.
 
 | Amélioration | Description |
 |--- |--- |
@@ -155,7 +155,7 @@ Nouvelles fonctionnalités et améliorations au 1er novembre 2018.
 
 ## Octobre 2018
 
-Nouvelles fonctionnalités et améliorations au 11 octobre 2018.
+Nouvelles fonctionnalités et améliorations au 11 octobre 2018.
 
 <table id="table_3DDC812B2F66416F868004416D248BF3"> 
  <thead> 
@@ -183,7 +183,7 @@ Nouvelles fonctionnalités et améliorations au 11 octobre 2018.
 
 ## Septembre 2018
 
-Nouvelles fonctionnalités et améliorations au 13 septembre 2018.
+Nouvelles fonctionnalités et améliorations au 13 septembre 2018.
 
 <table id="table_137719BFA03C44A78FDE872DF8B228A4"> 
  <thead> 
@@ -209,7 +209,7 @@ Nouvelles fonctionnalités et améliorations au 13 septembre 2018.
 </table>
 ## Août 2018
 
-Nouvelles fonctionnalités et améliorations au 9 août 2018.
+Nouvelles fonctionnalités et améliorations au 9 août 2018.
 
 <table id="table_DD77C02344414DCD9AC0A6A22E648B72"> 
  <thead> 
@@ -232,7 +232,7 @@ Nouvelles fonctionnalités et améliorations au 9 août 2018.
 
 ## Juillet 2018
 
-Nouvelles fonctionnalités et améliorations au 19 juillet 2018.
+Nouvelles fonctionnalités et améliorations au 19 juillet 2018.
 
 <table id="table_336E121310204DC492EA004F40830B0F"> 
  <thead> 
@@ -269,7 +269,7 @@ Nouvelles fonctionnalités et améliorations au 19 juillet 2018.
 
 ## Juin 2018
 
-Nouvelles fonctionnalités et améliorations au 14 juin 2018.
+Nouvelles fonctionnalités et améliorations au 14 juin 2018.
 
 <table id="table_57035A06D99447A6BE6ED825A648ED3F"> 
  <thead> 
@@ -298,7 +298,7 @@ Nouvelles fonctionnalités et améliorations au 14 juin 2018.
 
 ## Mai 2018
 
-Nouvelles fonctionnalités et améliorations au 10 mai 2018.
+Nouvelles fonctionnalités et améliorations au 10 mai 2018.
 
 <table id="table_EE4C690A178B4F80BDAF2BB4424D6020"> 
  <thead> 
@@ -329,7 +329,7 @@ Nouvelles fonctionnalités et améliorations au 10 mai 2018.
 
 ## Avril 2018
 
-Nouvelles fonctionnalités et améliorations au 12 avril 2018.
+Nouvelles fonctionnalités et améliorations au 12 avril 2018.
 
 <table id="table_B9E784CD14A1453EB360FCCDC612250F"> 
  <thead> 
@@ -345,7 +345,7 @@ Nouvelles fonctionnalités et améliorations au 12 avril 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Nouvelle configuration des lignes </a> </p> </td> 
-   <td colname="col2"> <p>Le nouveau paramètre de <span class="uicontrol"> Calcul des pourcentages par ligne </span> oblige le tableau à structure libre à calculer les pourcentages des cellules par ligne, et non pas par colonne. Cela s’avère particulièrement utile pour les pourcentages de tendance, tels que les tendances de la manière dont un élément de dimension se positionne par rapport au reste au fil du temps. Elle est activée par défaut lorsque vous cliquez sur l’icône <span class="uicontrol">Visualiser</span>. </p> </td> 
+   <td colname="col2"> <p>Le nouveau paramètre de <span class="uicontrol"> Calcul des pourcentages par ligne </span> oblige le tableau à structure libre à calculer les pourcentages des cellules par ligne, et non pas par colonne. Cette fonctionnalité est particulièrement utile pour les pourcentages de tendance. Par exemple, cela permet de voir la façon dont l’élément d’une dimension se positionne par rapport au reste sur la durée. Elle est activée par défaut lorsque vous cliquez sur l’icône <span class="uicontrol">Visualiser</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Paramètre d’affichage « 100 % empilé »</a> </p> </td> 
@@ -360,7 +360,7 @@ Nouvelles fonctionnalités et améliorations au 12 avril 2018.
 
 ## Mars 2018
 
-Nouvelles fonctionnalités et améliorations au 8 mars 2018.
+Nouvelles fonctionnalités et améliorations au 8 mars 2018.
 
 <table id="table_580CF2C1322E4FB78870BE2B1F497B2F"> 
  <thead> 
@@ -448,7 +448,7 @@ Nouvelles fonctionnalités et améliorations au 8 février 2018.
 
 ## Janvier 2018
 
-Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
+Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
 
 <table id="table_7A2E678577F94BDABB1276C826E6554F"> 
  <thead> 
@@ -467,7 +467,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
      <li id="li_16C7938EDC8F422EA006FB63F2881EF1">Contient l’expression </li> 
      <li id="li_5130EBE9A7A54CCFA313F3C3C268B367">Ne contient aucun terme </li> 
      <li id="li_861825154EDC49EBA57514FD0A2AE462">Ne contient pas l’expression </li> 
-     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">Equals </li> 
+     <li id="li_5364BFB73ECF4B92A6663693ABD4BCF5">Est égal à </li> 
      <li id="li_1EBF3119B6364842A35D39BAD645F4AF">N’est pas égal à </li> 
      <li id="li_487886E0A6EC4245A0E85D2E8B4A20FB">Commence par </li> 
      <li id="li_A73F54DFBAAB44D4A4134342A3124E47">Se termine par </li> 
@@ -503,7 +503,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analyse des contributions : <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > notification des jetons </a> </p> </td> 
-   <td colname="col2"> <p>Si votre entreprise possède un nombre limité de jetons d’analyse des contributions, l’IU Analysis Workspace présente maintenant une notification lorsque vous en utilisez un. Elle indique également combien de jetons il vous reste.  </p> <p>(Utilisateurs administrateurs : vous pouvez désigner qui peut utiliser ces jetons en modifiant les autorisations des groupes. L’autorisation est appelée « Détection des anomalies et analyse des contributions » sous <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Gestion des utilisateurs </span> &gt; <span class="uicontrol"> Modifier les groupes </span> &gt; <span class="uicontrol"> Modifier l’accès à tous les rapports </span> &gt; <span class="uicontrol"> Personnaliser les outils de suites de rapports </span> &gt; <span class="uicontrol"> Outils et rapports</span>.)  </p> </td> 
+   <td colname="col2"> <p>Si votre entreprise possède un nombre limité de jetons d’analyse des contributions, l’IU Analysis Workspace présente maintenant une notification lorsque vous en utilisez un. Elle indique également combien de jetons il vous reste.  </p> <p>(Utilisateurs administrateurs : vous pouvez désigner qui peut utiliser ces jetons en modifiant les autorisations des groupes. L’autorisation est appelée « Détection des anomalies et analyse des contributions » sous <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Gestion des utilisateurs </span> &gt; <span class="uicontrol"> Modifier les groupes </span> &gt; <span class="uicontrol"> Modifier l’accès à tous les rapports </span> &gt; <span class="uicontrol"> Personnaliser les outils de suites de rapports </span> &gt; <span class="uicontrol"> Outils et rapports</span>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fichiers CSV contenant des caractères à plusieurs octets </p> </td> 
@@ -515,14 +515,14 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Améliorations apportées à Aucun/Non spécifié </p> </td> 
-   <td colname="col2"> <p>Modification du fonctionnement de Aucun/Non spécifié en Analysis Workspace afin qu’il soit cohérent avec les rapports et analyses, le créateur de segments et le menu des éléments de dimension dans Analysis Workspace. </p> <p>En d’autres termes, la valeur indiquera Non spécifié plutôt que Aucun dans la plupart des projets dans Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Le comportement des attributs Aucun/Non spécifié dans Analysis Workspace a été modifié, de sorte qu’il soit cohérent avec le composant Reports &amp; Analytics, le créateur de segments et le menu des éléments de dimensions dans Analysis Workspace. </p> <p>En d’autres termes, la valeur indiquera Non spécifié plutôt que Aucun dans la plupart des projets dans Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Novembre 2017
 
-Nouvelles fonctionnalités au 9 novembre 2017.
+Nouvelles fonctionnalités au 9 novembre 2017.
 
 <table id="table_C502E81253634E6CBAE7F12C7B62F7B6"> 
  <thead> 
@@ -541,7 +541,7 @@ Nouvelles fonctionnalités au 9 novembre 2017.
 
 ## Octobre 2017
 
-Nouvelles fonctionnalités au 26 octobre 2017.
+Nouvelles fonctionnalités au 26 octobre 2017.
 
 <table id="table_892279F2B4AF4DB38C64AA9AFC5657A7"> 
  <thead> 
@@ -605,7 +605,7 @@ Nouvelles fonctionnalités au 26 octobre 2017.
 
 ## Septembre 2017
 
-Nouvelles fonctionnalités au 21 septembre 2017.
+Nouvelles fonctionnalités au 21 septembre 2017.
 
 <table id="table_DC0DA93B8A3B481080FCB2BA8F985753"> 
  <thead> 
@@ -666,7 +666,7 @@ Nouvelles fonctionnalités au 21 septembre 2017.
 
 ## Août 2017
 
-Nouvelles fonctionnalités au 17 août 2017.
+Nouvelles fonctionnalités au 17 août 2017.
 
 <table id="table_C29887097C894B1C91AD7086F0DAEC73"> 
  <thead> 
@@ -701,7 +701,7 @@ Nouvelles fonctionnalités au 17 août 2017.
 
 ## Juillet 2017
 
-Nouvelles fonctionnalités au 20 juillet 2017.
+Nouvelles fonctionnalités au 20 juillet 2017.
 
 <table id="table_64E3A9960F314E2F9FFC738696EACDF7"> 
  <thead> 
@@ -744,7 +744,7 @@ Nouvelles fonctionnalités au 20 juillet 2017.
 
 ## Juin 2017
 
-Nouvelles fonctionnalités au 8 juin 2017.
+Nouvelles fonctionnalités au 8 juin 2017.
 
 <table id="table_5B859A64363A44A98FC55E7AFB3C1D0C"> 
  <thead> 
@@ -825,7 +825,7 @@ Nouvelles fonctionnalités au 8 juin 2017.
 
 ## Avril 2017
 
-Nouvelles fonctionnalités au 20 avril 2017.
+Nouvelles fonctionnalités au 20 avril 2017.
 
 <table id="table_53EEFB870ED943F5BFD71FAB2DBCE49B"> 
  <thead> 
@@ -867,7 +867,7 @@ Nouvelles fonctionnalités au 16 février 2017 :
 
 ## Janvier 2017
 
-Nouvelles fonctionnalités au 19 janvier 2017 :
+Nouvelles fonctionnalités au 19 janvier 2017 :
 
 <table id="table_0AB06B81BFA34521A9BF1150E64663C3"> 
  <thead> 
@@ -902,7 +902,7 @@ Nouvelles fonctionnalités au 19 janvier 2017 :
 
 ## Novembre 2016
 
-Nouvelles fonctionnalités au 10 novembre 2016 :
+Nouvelles fonctionnalités au 10 novembre 2016 :
 
 <table id="table_9B2B9CC7A3574A99A716BF1C9745E32B"> 
  <thead> 
@@ -1005,7 +1005,7 @@ Nouvelles fonctionnalités au 20 octobre 2016 :
 
 ## Juin 2016
 
-Nouvelles fonctionnalités au 16 juin 2016 :
+Nouvelles fonctionnalités au 16 juin 2016 :
 
 * [Nouvelle autorisation de groupe](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html) grâce à laquelle les administrateurs peuvent autoriser ou refuser l’accès à **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** pour les utilisateurs. Depuis le 16 juin 2016, tous les utilisateurs ont accès à cet onglet. Pour refuser l’accès, il vous suffit de supprimer les utilisateurs du groupe Analysis Workspace Access (Accès à Analysis Workspace).
 * Le [Panneau Comparaison des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) détecte les différences les plus importantes sur le plan statistique entre deux segments, au moyen d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès.
@@ -1024,7 +1024,7 @@ Nouvelles fonctionnalités au 16 juin 2016 :
 
 ## Avril 2016
 
-Nouvelles fonctionnalités au 21 avril 2016 :
+Nouvelles fonctionnalités au 21 avril 2016 :
 
 <table id="table_2649645FDED84B71952F741ABB3FC20E"> 
  <thead> 
@@ -1047,7 +1047,7 @@ Nouvelles fonctionnalités au 21 avril 2016 :
 
 ## Janvier 2016
 
-Nouvelles fonctionnalités au 21 janvier 2016.
+Nouvelles fonctionnalités au 21 janvier 2016 :
 
 * [Annulation des actions](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
 * [Lien vers ce projet](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
