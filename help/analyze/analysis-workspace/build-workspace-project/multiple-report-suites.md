@@ -3,6 +3,9 @@ title: Suites de rapports multiples dans Workspace
 description: Découvrez comment et pourquoi créer des projets dans Workspace avec plusieurs suites de rapports.
 translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+workflow-type: ht
+source-wordcount: '527'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ Cette fonctionnalité est utile si vous souhaitez, par exemple :
 
 ## Application d’une suite de rapports à tous les panneaux
 
-Vous pouvez appliquer une suite de rapports à tous les panneaux en même temps en cliquant avec le bouton droit de la souris sur l’en-tête d’un panneau et en sélectionnant **[!UICONTROL Apply Report Suite to All Panels]**.
+Vous pouvez appliquer une suite de rapports à tous les panneaux en même temps en cliquant avec le bouton droit de la souris sur l’en-tête d’un panneau et en sélectionnant **[!UICONTROL Application d’une suite de rapports à tous les panneaux]**.
 
 ![](assets/apply-rs-all-panels.png)
 
