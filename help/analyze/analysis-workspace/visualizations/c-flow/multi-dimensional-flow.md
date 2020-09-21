@@ -2,8 +2,11 @@
 description: Dans un flux interdimensionnel, vous pouvez examiner le cheminement des utilisateurs dans plusieurs dimensions.
 title: Flux interdimensionnels
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
+workflow-type: ht
+source-wordcount: '305'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Nous allons étudier deux exemples d’utilisation : sur le web et dans une app
 
 ## 1er exemple d’utilisation : Application {#section_3D31D37B9C9F4134AE46C96291E41294}
 
-The [!UICONTROL Action Name] dimension was added to the flow, with the top returned item being [!UICONTROL ItemAdded]:
+La dimension [!UICONTROL Nom de l’action] a été ajoutée au flux, le premier élément renvoyé étant [!UICONTROL ItemAdded] :
 
 ![](assets/multi-dimensional-flow.png)
 
