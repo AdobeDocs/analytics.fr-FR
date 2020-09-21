@@ -2,7 +2,7 @@
 title: Tableaux de bord Adobe Analytics - Aperçu
 description: Documentation sur le produit et auto-assistance pour les tableaux de bord Adobe Analytics
 translation-type: ht
-source-git-commit: a905f74dc3d809bbe1542d7547c75ee64c710fb9
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
