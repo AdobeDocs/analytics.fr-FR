@@ -1,8 +1,11 @@
 ---
 title: Gestion des tâches relatives aux flux de données
 description: Découvrez comment gérer des tâches individuelles dans les flux de données.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+workflow-type: ht
+source-wordcount: '495'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Pour accéder à la gestion des tâches des flux de données, procédez comme su
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Cliquez sur le menu à 9 cases en haut à droite, puis sur [!UICONTROL Analytics].
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. Dans le menu supérieur, cliquez sur [!UICONTROL Admin] > [!UICONTROL Flux de données].
 4. Cliquez sur l’onglet Tâches à proximité du haut de l’écran.
 
 ![Menu du flux de données](assets/AdminMenu.png)
