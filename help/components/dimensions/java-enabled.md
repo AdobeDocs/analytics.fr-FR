@@ -1,27 +1,27 @@
 ---
 title: Compatible Java
 description: Détermine si Java est activé dans le navigateur.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Compatible Java
 
-La dimension &quot;Java enabled&quot; détermine si Java est activé dans le navigateur à l’époque. Il s’avère utile lorsque vous souhaitez introduire des fonctionnalités Java sur votre site et que vous souhaitez savoir combien de visiteurs ont déjà activé Java. Pour ceux qui ont désactivé Java, vous pouvez fournir une alternative ou des instructions sur la manière de l’activer.
+La dimension « Compatible Java » détermine si Java est activé dans le navigateur. Elle s’avère utile lorsque vous souhaitez introduire des fonctionnalités Java sur votre site et savoir combien de visiteurs ont déjà activé Java. Pour ceux qui ont désactivé Java, vous pouvez fournir une alternative ou des instructions pour son activation.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la chaîne [`v` de](/help/implement/validate/query-parameters.md) requête dans les demandes d’image. AppMeasurement collecte ces données en détectant si Java est activé dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par exemple par le biais du lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (par exemple via l’API), veillez à inclure le paramètre de chaîne de `v` requête contenant &quot;Y&quot; ou &quot;N&quot; si vous souhaitez utiliser cette dimension.
+Cette dimension récupère les données de la [`v`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données en détectant si Java est activé dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais d’Adobe Experience Platform Launch, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `v` contenant « Y » ou « N » si vous souhaitez utiliser cette dimension.
 
 ## Éléments de dimension
 
-Les éléments de dimension sont &quot;Activé&quot;, &quot;Désactivé&quot; et &quot;Inconnu&quot;.
+Les éléments de dimension sont « Activé », « Désactivé » et « Inconnu ».
 
-* **Activé**: Java est activé dans le navigateur. La chaîne de `v` requête contenait la valeur &quot;Y&quot;.
-* **Désactivé**: Java est désactivé dans le navigateur ou n’est pas pris en charge par d’autres méthodes. La chaîne de `v` requête contenait la valeur &quot;N&quot;.
-* **Inconnu**: AppMeasurement n&#39;a pas pu déterminer la prise en charge de Java. La chaîne de `v` requête n&#39;était pas présente dans la demande d&#39;image.
+* **Activé** : Java est activé dans le navigateur. La chaîne de requête `v` contenait la valeur « Y ».
+* **Désactivé** : Java est désactivé dans le navigateur ou celui-ci n’est pas compatible avec Java. La chaîne de requête `v` contenait la valeur « N ».
+* **Inconnu** : AppMeasurement n’a pas pu déterminer la prise en charge de Java. La chaîne de requête `v` n’était pas présente dans la demande d’image.
