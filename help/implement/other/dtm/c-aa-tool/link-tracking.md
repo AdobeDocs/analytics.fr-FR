@@ -29,7 +29,7 @@ Cette section contient la description des champs de Dynamic Tag Management pour 
  <tbody> 
   <tr> 
    <td colname="col1"> Activer ClickMap </td>
-   <td colname="col2"> <p>Permet de déterminer si les données de mise en correspondance des clics des visiteurs sont collectées. </p> <p>Voir  <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
+   <td colname="col2"> <p>Permet de déterminer si les données de mise en correspondance des clics des visiteurs sont collectées. </p> <p>Voir <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Suivi des liens de téléchargement </td>
