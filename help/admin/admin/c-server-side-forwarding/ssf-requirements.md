@@ -3,8 +3,11 @@ description: Vous devez respecter les conditions requises de la solution, du ser
 solution: Audience Manager
 title: Conditions requises pour le transfert côté serveur
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
@@ -33,5 +36,5 @@ Le transfert côté serveur requiert la version 1.5 (ou plus récente) des bibl
 
 Tout outil qui surveille les requêtes HTTP émises par un navigateur peut afficher le numéro de version de votre code AppMeasurement et VisitorAPI. La bibliothèque `AppMeasurement_Module_AudienceManagement.js` ne contient ni ne renvoie un ID de version. Les exemples suivants montrent à quoi ressemblent les ID de version pour les codes `AppMeasurement.js` et `VisitorAPI.js`.
 
-* `AppMeasurement.js` : l’[outil de débogage Adobe](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html) renvoie la version d’AppMeasurement de la façon suivante : `Version of Code | JS-1.5.1`. D’autres outils peuvent utiliser un libellé différent, mais la valeur suit toujours le modèle `JS-X.X.X`, où `X` est un numéro de version.
+* `AppMeasurement.js` : l’[outil de débogage Adobe](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/validate/debugger.html) renvoie la version d’AppMeasurement de la façon suivante : `Version of Code | JS-1.5.1`. D’autres outils peuvent utiliser un libellé différent, mais la valeur suit toujours le modèle `JS-X.X.X`, où `X` est un numéro de version.
 * `VisitorAPI.js` : recherchez le paramètre `d_visid_ver`. Il vous montrera le service d’ID de visiteur comme ceci : `d_visid_ver: 1.5.5`. Le code VisitorAPI antérieur à la version 1.5.2 n’incluait pas de numéro de version. Vous utilisez probablement une bibliothèque de codes plus ancienne (et devez mettre à niveau) si les résultats de la surveillance ne renvoient pas de numéro de version.
