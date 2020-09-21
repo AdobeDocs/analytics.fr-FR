@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -47,7 +47,7 @@ Les éléments de données sont des références à des composants spécifiques 
 
       >[!NOTE]
       >
-      >Il s’agit d’une valeur d’exemple pour aider à démarrer. Si votre organisation définit une meilleure valeur pour le nom de la page, telle qu’une valeur de couche de données, vous pouvez la saisir ici.
+      >Il s’agit d’un exemple de valeur pour faciliter le démarrage. Si votre organisation définit une meilleure valeur pour le nom de la page, telle qu’une valeur de couche de données, vous pouvez la saisir ici.
    * Texte clair coché
    * Durée : Pageview
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
