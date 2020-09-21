@@ -1,11 +1,11 @@
 ---
 title: Visites
 description: Séquence de pages vues lors d’une session unique.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,4 +54,4 @@ Une visite compte pour chaque période impliquée. Par exemple, si un visiteur c
 
 ## Visites sur une dimension par rapport au nombre total de visites
 
-Les visites dans le contexte d’une dimension (par exemple, canal [](../dimensions/marketing-channel.md)marketing) indiquent le nombre de visites qui contenaient un élément de dimension spécifique à tout moment. Plusieurs éléments de dimension existent fréquemment sur différents accès au cours d’une même visite. Il n&#39;est généralement pas logique de tenter de additionner les visites qui génèrent des rapports sur les éléments de dimension.
+Dans le contexte d’une dimension (par exemple, un [canal marketing](../dimensions/marketing-channel.md)), les visites indiquent le nombre de visites qui contenaient un élément de dimension spécifique à tout moment. Il est fréquent que plusieurs éléments de dimension existent sur différents accès au cours d’une même visite. Il n’est généralement pas logique de tenter d’additionner les visites qui génèrent des rapports sur les éléments de dimension.
