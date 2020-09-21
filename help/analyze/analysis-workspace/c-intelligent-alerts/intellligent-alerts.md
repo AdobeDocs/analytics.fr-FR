@@ -3,7 +3,7 @@ description: Le nouveau système d’alertes intelligentes permet de contrôler 
 title: Alertes intelligentes - Aperçu
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '359'
 ht-degree: 100%
