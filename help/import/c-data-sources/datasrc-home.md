@@ -6,6 +6,9 @@ topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,6 @@ Utilisez cette fonctionnalité pour mieux comprendre les données de pré-clic e
 
 >[!IMPORTANT]
 >
->Afin que les sources de données des ID de transaction puissent lier les données hors ligne aux événements en ligne, le service à la clientèle doit avoir activé l’enregistrement des identifiants de transaction. Voir [Enregistrement des identifiants de transaction](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) pour en savoir plus.
+>Afin que les sources de données des ID de transaction puissent lier les données hors ligne aux événements en ligne, le service à la clientèle doit avoir activé l’enregistrement des identifiants de transaction. Voir [Enregistrement des ID de transaction](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) pour en savoir plus.
 
 Après l’importation, la plupart des données de la fonctionnalité Sources de données sont disponibles par l’intermédiaire de Digital Marketing Suite.
