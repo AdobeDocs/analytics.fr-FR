@@ -1,20 +1,20 @@
 ---
 title: events
 description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # events
 
-Les dimensions et les mesures sont des composants essentiels des rapports. La variable `events` est responsable de la collecte de données de nombreuses mesures sur votre site. Les événements incrémentent généralement [des mesures](/help/components/metrics/overview.md) dans les rapports.
+Les dimensions et les mesures sont des composants essentiels des rapports. La variable `events` est responsable de la collecte de données de nombreuses mesures sur votre site. Les événements incrémentent généralement les [mesures](/help/components/metrics/overview.md) dans les rapports.
 
-Avant d’implémenter des événements, veillez à les créer et à les configurer sous événements [de](/help/admin/admin/c-success-events/success-event.md) réussite dans les paramètres de la suite de rapports. Si vous prévoyez d’utiliser des événements personnalisés dans les accès de suivi de liens, assurez-vous que [`linkTrackVars`](../../config-vars/linktrackvars.md) et [`linkTrackEvents`](../../config-vars/linktrackevents.md) sont correctement définis.
+Avant d’implémenter des événements, veillez à les créer et à les configurer sous [Événements de succès](/help/admin/admin/c-success-events/success-event.md) dans les paramètres de la suite de rapports. Si vous prévoyez d’utiliser des événements personnalisés dans les accès de suivi de liens, assurez-vous que [`linkTrackVars`](../../config-vars/linktrackvars.md) et [`linkTrackEvents`](../../config-vars/linktrackevents.md) sont correctement configurés.
 
 ## Événements dans Adobe Experience Platform Launch
 
@@ -79,7 +79,7 @@ s.events = "event1=2,event2";
 
 Vous pouvez modifier un événement personnalisé pour utiliser une devise plutôt que des entiers. Les événements de devise sont automatiquement convertis en devise de la suite de rapports si la devise de la suite de rapports et la variable `currencyCode` ne correspondent pas. Elles sont utiles pour calculer les frais d’expédition, les remises ou les remboursements. Vous pouvez définir des événements de devise dans la variable `products` si vous souhaitez attribuer l’événement à ce produit uniquement.
 
-Avant de mettre en oeuvre des événements de devises, veillez à définir le événement de votre choix sur &quot;Devise&quot; sous événements [de](/help/admin/admin/c-success-events/success-event.md) réussite dans les paramètres de la suite de rapports.
+Avant d’implémenter des événements de devise, veillez à configurer l’événement de votre choix sur « Devise » sous [Événements de succès](/help/admin/admin/c-success-events/success-event.md) dans les paramètres de la suite de rapports.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -100,7 +100,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 Vous pouvez modifier un événement personnalisé en acceptant des valeurs décimales au lieu d’entiers. Les événements numériques se comportent de la même manière que les événements de devise, sauf qu’ils n’utilisent pas la conversion de devise. Vous pouvez définir des événements numériques dans la variable `products` si vous souhaitez attribuer l’événement à ce produit uniquement.
 
-Avant de mettre en oeuvre des événements numériques, veillez à définir le événement de votre choix sur &quot;Numérique&quot; sous événements [de](/help/admin/admin/c-success-events/success-event.md) réussite dans les paramètres de la suite de rapports.
+Avant d’implémenter des événements numériques, veillez à configurer l’événement de votre choix sur « Numérique » sous [Événements de succès](/help/admin/admin/c-success-events/success-event.md) dans les paramètres de la suite de rapports.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
