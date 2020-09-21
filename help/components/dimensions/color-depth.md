@@ -1,11 +1,11 @@
 ---
 title: Profondeur de couleur
 description: Profondeur de couleur de l’appareil.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ La dimension « Profondeur de couleur » indique le nombre de couleurs prises 
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à une table de recherche, convertissant la valeur en bits en un format plus lisible. Elle collecte les données de la [`c`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement utilise la variable `screen.colorDepth` pour renseigner la chaîne de requête de demande d’image. Si vous utilisez AppMeasurement (par le biais d’Adobe Experience Platform Launch, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `c` sur chaque accès avec une valeur en bits valide.
+Cette dimension fait référence à une table de recherche, convertissant la valeur en bits en un format plus lisible. Elle collecte les données de la [`c` chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement utilise la variable `screen.colorDepth` pour renseigner la chaîne de requête de demande d’image. Si vous utilisez AppMeasurement (par le biais d’Adobe Experience Platform Launch, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `c` sur chaque accès avec une valeur en bits valide.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Les éléments de Dimension incluent le nombre de couleurs prises en charge par le périphérique. Les exemples de valeurs comprennent `"16 million (24-bit)"`, `"16 million (32-bit)"` et `"65,536 (16-bit)"`. Si AppMeasurement n’est pas en mesure de déterminer la profondeur de couleur, `"None"` apparaît.
+Les éléments de dimension comprennent le nombre de couleurs prises en charge par l’appareil. Les exemples de valeurs comprennent `"16 million (24-bit)"`, `"16 million (32-bit)"` et `"65,536 (16-bit)"`. Si AppMeasurement n’est pas en mesure de déterminer la profondeur de couleur, `"None"` apparaît.
 
 >[!TIP]
 >
