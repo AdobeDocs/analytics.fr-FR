@@ -2,11 +2,11 @@
 description: valeur nulle
 title: 'Requêtes de données - Assistant Requête : Étape 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -35,16 +35,16 @@ Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la su
 
 ## Résolution des problèmes
 
-Il arrive que l’Assistant Requête s’affiche hors de l’écran, en particulier pour les utilisateurs qui passent d’une configuration de moniteur à une autre. Par exemple, vous utilisez une station d&#39;accueil au travail et votre écran d&#39;ordinateur portable à la maison. Si vous cliquez de nouveau sur &quot;Créer&quot; alors qu’un Assistant de requête est déjà ouvert, vous obtenez l’erreur suivante :
+Il arrive que l’Assistant Requête s’affiche hors de l’écran, en particulier pour les utilisateurs qui passent d’une configuration de moniteur à une autre. Par exemple, si vous utilisez une station d’accueil au travail et votre écran d’ordinateur portable à la maison. Si vous cliquez de nouveau sur « Créer » alors qu’un Assistant Requête est déjà ouvert, vous obtenez l’erreur suivante :
 
-&quot;Vous devez d’abord terminer le processus de l’Assistant Requête avant d’en lancer un nouveau.&quot;
+« Vous devez terminer le processus Assistant Requête avant d’en commencer un nouveau. »
 
-Le déplacement de l’Assistant Requête à l’écran résout ce problème.
+Il suffit de ramener l’Assistant Requête à l’écran pour résoudre ce problème.
 
-1. Ouvrez Microsoft Excel et connectez-vous au Report Builder.
+1. Ouvrez Microsoft Excel et connectez-vous à Report Builder.
 2. Cliquez sur [!UICONTROL Créer], ce qui ouvre l’Assistant Requête hors de l’écran.
-3. Appuyer sur `[Alt]` + `[Space]`.
-4. Appuyer sur `[M]`.
+3. Appuyez sur `[Alt]` + `[Space]`.
+4. Appuyez sur `[M]`.
 5. Appuyez sur l’une des touches fléchées.
-6. Déplacez la souris, qui associe l&#39;Assistant Requête à votre curseur.
-7. Cliquez sur la souris pour lancer l’Assistant Requête à l’écran.
+6. Déplacez votre souris, ce qui permet de fixer l’Assistant Requête à votre curseur.
+7. Cliquez sur la souris pour relâcher l’Assistant Requête sur l’écran.
