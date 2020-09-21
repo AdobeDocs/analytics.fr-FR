@@ -110,11 +110,11 @@ s.eVar1=s.getNewRepeat(365);
 
 ## Historique des versions
 
-### 2.1 (30 septembre 2019)
+### 2.1 (30 septembre 2019)
 
 * Réorganisation de la logique JavaScript pour réduire la taille du plug-in.
 
-### 2.0 (16 avril 2018)
+### 2.0 (16 avril 2018)
 
 * Recompilation avec une taille de code réduite.
 * Suppression de la possibilité de nommer le cookie pour stocker les informations relatives à la visite. Le plug-in nomme désormais dynamiquement le cookie en fonction de la valeur transmise à l’argument `d`.
