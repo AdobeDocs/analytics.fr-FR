@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Surface et aires empilées
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '84'
+ht-degree: 100%
 
 ---
 
