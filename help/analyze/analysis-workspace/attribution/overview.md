@@ -1,18 +1,18 @@
 ---
 title: Présentation d’Attribution
-description: concept d’attribution du crédit d’un événement de réussite à plusieurs éléments de dimension.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+description: Le concept d’attribution du crédit d’un événement de succès à plusieurs éléments de dimension.
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Présentation d’Attribution
 
-L’attribution permet aux analystes de personnaliser la manière dont les éléments de dimension obtiennent du crédit pour les événements de réussite. Par exemple :
+Attribution permet aux analystes de personnaliser la manière dont les éléments de dimension obtiennent du crédit pour les événements de succès. Par exemple :
 
 1. Un visiteur sur votre site clique sur un lien de référencement payant vers l’une de vos pages de produits. Il ajoute le produit au panier, mais ne l’achète pas.
 2. Le lendemain, il voit une publication d’un ami sur les médias sociaux, il clique sur le lien, puis effectue l’achat.
