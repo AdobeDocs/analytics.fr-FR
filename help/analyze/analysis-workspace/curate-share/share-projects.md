@@ -2,11 +2,11 @@
 description: Partage de projets et rôles de projets dans Workspace
 keywords: Analysis Workspace sharing
 title: Partage des projets Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez ajouter des destinataires à l’un des trois rôles de projet. Les 
 
 ### Aucun rôle attribué (destinataires de lien de projet)
 
-If a recipient is not assigned a role and receives a [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share]>[!UICONTROL Get project link]**), they will be placed into a role by default. Les administrateurs reçoivent **[!UICONTROL Peut modifier]** et les non-administrateurs reçoivent **[!UICONTROL Peut dupliquer]**.
+Si un destinataire ne se voit pas attribuer un rôle et reçoit un [lien](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) vers le projet (**[!UICONTROL Partager] >[!UICONTROL Obtenir le lien du projet]**), il se verra attribuer un rôle par défaut. Les administrateurs reçoivent **[!UICONTROL Peut modifier]** et les non-administrateurs reçoivent **[!UICONTROL Peut dupliquer]**.
 
 ### Plusieurs rôles attribués
 
@@ -66,7 +66,7 @@ Tous les utilisateurs peuvent partager des projets avec des groupes, qui représ
 
 ## Partage d’un lien de projet {#Links}
 
-Vous pouvez obtenir un lien vers un projet sous **[!UICONTROL Partager] >[!UICONTROL Obtenir le lien du projet]**. Lorsque vous cliquez dessus, les destinataires doivent se connecter avant d’accéder au projet. Si les destinataires n’ont pas reçu de rôle, ils recevront un rôle par défaut. Les administrateurs reçoivent **[!UICONTROL Peut modifier]** et les non-administrateurs reçoivent **[!UICONTROL Peut dupliquer]**. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) sur la création de liens partageables vers des projets Workspace.
+Vous pouvez obtenir un lien vers un projet sous **[!UICONTROL Partager] >[!UICONTROL Obtenir le lien du projet]**. Lorsque vous cliquez dessus, les destinataires doivent se connecter avant d’accéder au projet. Si les destinataires n’ont pas reçu de rôle, ils recevront un rôle par défaut. Les administrateurs reçoivent **[!UICONTROL Peut modifier]** et les non-administrateurs reçoivent **[!UICONTROL Peut dupliquer]**. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) sur la création de liens partageables vers des projets Workspace.
 
 ## Partage de projets dans le gestionnaire de projets {#Manager}
 
