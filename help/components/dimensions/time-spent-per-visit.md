@@ -1,44 +1,44 @@
 ---
 title: Durée de la visite
-description: Durée totale de la visite.
-translation-type: tm+mt
+description: La durée totale de la visite.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
 
 # Durée de la visite
 
-*Cette page d’aide décrit le fonctionnement de la mesure &quot;Durée de la visite&quot; en tant que dimensions respectives. Pour plus d’informations, voir la mesure[Durée de la visite](../metrics/time-spent-per-visit.md).*
+*Cette page d’aide décrit le fonctionnement des dimensions respectives de la « Durée de la visite ». Pour plus d’informations, consultez la mesure [Durée de la visite](../metrics/time-spent-per-visit.md).*
 
-Les dimensions &quot;Temps passé par visite&quot; enregistrent la durée passée par un visiteur sur la totalité de la visite. Elle utilise les étapes suivantes pour mesurer le calcul :
+Les dimensions « Durée de la visite » enregistrent le temps passé par un visiteur pendant l’intégralité de la visite. Elle utilise les étapes suivantes pour mesurer le calcul :
 
-1. Examinez l’horodatage du premier accès de la visite.
+1. Examinez l’heure et la date du premier accès de la visite.
 2. Comparez cet accès à l’horodatage du dernier accès de la visite.
-3. La durée écoulée entre ces deux accès contribue au temps passé.
+3. Le temps écoulé entre ces deux accès contribue à la durée de consultation.
 
-Ces dimensions sont utiles pour comprendre la durée d’interaction des visiteurs avec votre site en général.
+Ces dimensions sont utiles pour déterminer la durée d’interaction des visiteurs avec votre site en général.
 
 >[!TIP]
 >
->La durée de la visite nécessite au moins deux accès pour mesurer la durée. Les visites composées d’un seul accès n’apparaissent pas dans cette dimension.
+>Lors d’une visite, au moins deux accès sont nécessaires pour mesurer la durée. Les visites composées d’un seul accès n’apparaissent pas dans cette dimension.
 
-Cette dimension est basée sur les visites, ce qui signifie que la valeur s’applique à chaque accès de la visite et ne change pas. Comparez cette dimension à la [durée de consultation de la page](time-spent-on-page.md), qui est une dimension basée sur les accès.
+Cette dimension est basée sur les visites, ce qui signifie que la valeur s’applique à chaque accès lors de la visite et ne change pas. Comparez cette dimension à la [durée de consultation de la page](time-spent-on-page.md), qui est une dimension basée sur les accès.
 
-Cette dimension est liée aux mesures de temps [moyen passé sur le site](../metrics/average-time-on-site.md) et de [temps passé par visite](../metrics/time-spent-per-visit.md) .
+Cette dimension est liée aux mesures [Durée moyenne de la visite du site](../metrics/average-time-on-site.md) et [Durée de la visite](../metrics/time-spent-per-visit.md).
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
 Ces dimensions sont prêtes à l’emploi pour toutes les implémentations. Si une suite de rapports contient des données, ces dimensions fonctionnent.
 
 ## Éléments de dimension
 
-Il existe plusieurs dimensions pour le temps passé par visite :
+La durée de la visite comporte plusieurs dimensions :
 
-* **Durée de la visite - cumulée**: La durée est cumulée. Les éléments de dimension vont de `"Less than 1 minute"` à `"More than 15 hours"`. En règle générale, les visites ne durent pas plus de 12 heures ; toutefois, les visites peuvent dépasser 12 heures si vous utilisez des accès horodatés ou des sources de données.
-* **Durée de la visite - granulaire**: Chaque nombre de secondes est un élément de dimension unique. Cette dimension n’est pas disponible dans les rapports et Analytics ni dans le Data warehouse.
+* **Durée de la visite - regroupée** : la durée est regroupée. Les éléments de dimension sont compris entre `"Less than 1 minute"` et `"More than 15 hours"`. En règle générale, les visites ne durent pas plus de 12 heures. Toutefois, les visites peuvent dépasser 12 heures si vous utilisez des accès horodatés ou des sources de données.
+* **Durée de la visite - granulaire** : chaque nombre de secondes est un élément de dimension unique. Cette dimension n’est pas disponible dans Reports &amp; Analytics ni dans Data Warehouse.
 
-Voir Présentation [de la](../metrics/time-spent.md) durée de la visite pour obtenir des informations plus générales sur la durée de la visite.
+Consultez [Présentation de la durée de consultation](../metrics/time-spent.md) pour obtenir des informations plus générales sur la durée de consultation.
