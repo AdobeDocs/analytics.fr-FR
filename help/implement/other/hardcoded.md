@@ -1,11 +1,11 @@
 ---
 title: Mise en œuvre avec des demandes d’image codées en dur
 description: Mise en œuvre d’Adobe Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur)
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -37,21 +37,21 @@ Voici un exemple de demande d’image codée en dur à l’aide de code HTML :
 
 ## Demandes d’image codées en dur dans Microsoft Outlook
 
-Comme la plupart des courriels sont basés sur HTML, il est possible de suivre les courriels ouverts et d&#39;envoyer ces données à Adobe Analytics. Si votre entreprise choisit d’utiliser cette méthode, tenez compte des points suivants :
+Comme la plupart des courriers électroniques sont au format HTML, il est possible de suivre les courriers électroniques ouverts et d’envoyer ces données à Adobe Analytics. Si votre entreprise choisit d’utiliser cette méthode, tenez compte des points suivants :
 
-* Chaque rendu de courrier électronique peut incrémenter un appel serveur facturable.
-* Seuls les clients de messagerie qui prennent en charge le code HTML et autorisent les images sont suivis. Certains clients de messagerie, tels que Microsoft Outlook, bloquent par défaut les images externes. Ces messages électroniques ne sont pas suivis tant que le destinataire n’a pas choisi de télécharger des images externes.
+* Chaque expéditeur de courrier électronique peut incrémenter un appel au serveur facturable.
+* Seuls les clients de messagerie compatible avec HTML et autorisant les images sont suivis. Certains clients de messagerie, tels que Microsoft Outlook, bloquent les images externes par défaut. Ces messageries ne sont pas suivies tant que le destinataire n’a pas choisi de télécharger des images externes.
 
-Pour composer un courrier électronique Outlook contenant une demande d&#39;image :
+Pour rédiger un courrier électronique Outlook contenant une demande d’image :
 
-1. Ouvrez un éditeur HTML. Si aucun éditeur HTML n’est disponible, un éditeur de texte brut fonctionne également.
-2. Dans un nouveau fichier HTML, insérez une balise de demande d’image codée en dur enveloppée dans une `<img>` `<body>` balise .
+1. Ouvrez un éditeur HTML. Si aucun éditeur HTML n’est disponible, vous pouvez également utiliser un éditeur de texte brut.
+2. Dans un nouveau fichier HTML, insérez une balise `<img>` de demande d’image codée en dur enveloppée dans une balise `<body>`.
 3. Enregistrez le fichier HTML.
 4. Ouvrez Microsoft Outlook et rédigez un courrier électronique.
 5. Accédez à l’onglet Insertion et cliquez sur **Joindre un fichier**. Sélectionnez votre fichier HTML de demande d’image.
-6. Cliquez sur le menu contextuel en regard de Insérer, puis sélectionnez **Insérer comme texte**. Si vous cliquez sur le bouton Insérer sans le menu contextuel, le fichier HTML devient une pièce jointe, ce qui ne fonctionne pas.
+6. Cliquez sur le menu contextuel en regard de l’onglet Insertion, puis sélectionnez **Insérer comme texte**. Si vous cliquez sur le bouton Insérer sans le menu contextuel, le fichier HTML devient une pièce jointe et cela ne fonctionne pas.
 
-Votre adresse électronique ne semble pas changer, car la demande d’image est un pixel transparent de 1x1. Si vous souhaitez afficher la demande d’image à des fins de test, modifiez le fichier HTML pour y inclure une bordure, du texte supplémentaire ou tout autre contenu.
+L’apparence du courrier électronique ne change pas, car la demande d’image est un pixel transparent de 1x1. Si vous souhaitez afficher la demande d’image à des fins de test, modifiez le fichier HTML pour y inclure une bordure, du texte supplémentaire ou tout autre contenu.
 
 ## FAQ
 
