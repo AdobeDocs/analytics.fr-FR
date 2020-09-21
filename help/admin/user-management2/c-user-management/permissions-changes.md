@@ -6,7 +6,7 @@ title: Modifications des autorisations d’utilisateur et des droits d’accès 
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '1562'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Comme l’API et l’interface utilisent le même système d’autorisation, que
   </tr> 
   <tr> 
    <td colname="col1"> <p>Changements apportés aux groupes prédéfinis </p> </td> 
-   <td colname="col2"> <p> <b>Accès des administrateurs :</b> les groupes prédéfinis ne sont plus requis pour les administrateurs. Ces derniers ont maintenant accès à tous les éléments (outils, dimensions et mesures), ainsi qu’aux services web, au Report Builder, à Activity Map et aux Ad Hoc Analysis. </p> <p>Dorénavant, ces groupes permettent d’octroyer ou de restreindre l’accès des utilisateurs non-administrateurs. </p> <p> <b>Groupes personnalisés :</b> les groupes personnalisés remplacent les groupes prédéfinis. Les groupes prédéfinis existants seront migrés dans des groupes personnalisés du même nom. Tous les groupes personnalisés que vous avez créés seront préservés avec leurs paramètres. Toutefois, les paramètres ont été déplacés. Par exemple, les paramètres de la société (sous Personnaliser l’Admin Console) se trouvent maintenant sous <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personnaliser les outils Analytics</a>. </p> <p> Les utilisateurs appartenant à <span class="term"> Accès à tous les rapports</span> ont été migrés dans un groupe personnalisé ayant accès aux éléments suivants : </p> 
+   <td colname="col2"> <p> <b>Accès des administrateurs :</b> les groupes prédéfinis ne sont plus requis pour les administrateurs. Ces derniers ont maintenant accès à tous les éléments (outils, dimensions et mesures), ainsi qu’aux services web, au Report Builder, à Activity Map et aux Ad Hoc Analysis. </p> <p>Dorénavant, ces groupes permettent d’octroyer ou de restreindre l’accès des utilisateurs non-administrateurs. </p> <p> <b>Groupes personnalisés :</b> les groupes personnalisés remplacent les groupes prédéfinis. Les groupes prédéfinis existants seront migrés dans des groupes personnalisés du même nom. Tous les groupes personnalisés que vous avez créés seront préservés avec leurs paramètres. Toutefois, les paramètres ont été déplacés. Par exemple, les paramètres de la société (sous Personnaliser l’Admin Console) se trouvent maintenant sous <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">Personnaliser les outils Analytics</a>. </p> <p> Les utilisateurs appartenant à <span class="term"> Accès à tous les rapports</span> ont été migrés dans un groupe personnalisé ayant accès aux éléments suivants : </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">Toutes les dimensions </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">Toutes les mesures </li> 
