@@ -3,9 +3,9 @@ description: Décrit un processus suggéré pour les segments créés par le Cr�
 title: Workflow de segmentation - Aperçu
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ seg_workflow.xml
 
 Avez-vous posé toutes les questions appropriées avant de créer des segments et de configurer un environnement de gestion des segments ? Avez-vous conçu le segment en gardant à l’esprit son objectif prévu et son utilisation spécifique ?
 
-Voir la  liste de contrôle de la planification des segments pour obtenir de l’aide lors de la planification et de l’organisation de vos segments.
+Voir la liste de contrôle de la planification des segments pour obtenir de l’aide lors de la planification et de l’organisation de vos segments.
 
 ![](assets/step2_icon.png) [Création de segments](/help/components/segmentation/segmentation-workflow/seg-build.md)
 
