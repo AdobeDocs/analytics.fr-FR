@@ -6,6 +6,9 @@ title: Création de conditions pour les règles d’appel direct
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+workflow-type: ht
+source-wordcount: '77'
+ht-degree: 100%
 
 ---
 
