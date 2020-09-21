@@ -1,11 +1,11 @@
 ---
 description: Importation des données de suivi à partir d’applications tierces dans Analytics.
 title: Prise en main des connecteurs de données Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '976'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Par exemple, une intégration de courrier électronique peut vouloir utiliser un
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la vie de la technologie Adobe Data Connector à la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la technologie Adobe Data Connector vers le milieu ou la fin de 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Configuration requise**
 
@@ -86,7 +86,8 @@ Pour mettre correctement en œuvre les segments de remarketing, les conditions s
 
 >[!NOTE]
 >
-> Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement. Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
+>Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement.
+Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
 
 [!UICONTROL Abandon de panier] : se déclenche après l’ajout par l’utilisateur d’un produit au panier :
 
