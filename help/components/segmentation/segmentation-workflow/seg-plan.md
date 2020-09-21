@@ -3,9 +3,9 @@ description: Présente les étapes et bonnes pratiques à suivre lors de la plan
 title: Planification des segments
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
