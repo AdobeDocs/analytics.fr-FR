@@ -4,6 +4,9 @@ title: Questions fréquentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '1406'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Q. : Lors du paramétrage de mon compte Advertising, il est stipulé que le <b>Suivi automatique</b> peut entraîner des conséquences imprévues. Quel genre de conséquences peuvent survenir ? </p> </td> 
-   <td colname="col2"> <p>R. : 
+   <td colname="col2"> <p>A : 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
       <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">Le mode automatique tentera d’ajouter les paramètres d’URL à la fin du modèle de suivi ou de l’URL de destination dans un format correct. <b>Cependant, il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée. </b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">Le mode automatique peut insérer des mot-clés dans l’URL d’entrée et votre serveur web peut ne pas prendre en charge les mots-clés contenant des caractères spéciaux. </li> 
