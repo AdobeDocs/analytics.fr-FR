@@ -25,7 +25,7 @@ Permet à Analytics de collecter l’activité de l’utilisateur fournie par Ac
 
    | Rapport | Description |
    |---|---|
-   | Activity Map   Activity Map | Répertorie les pages contenant un lien qui a fait l’objet d’un clic. |
+   | Activity Map Page | Répertorie les pages contenant un lien qui a fait l’objet d’un clic. |
    | Région d’Activity Map | Répertorie toutes les régions de lien collectées sur l’ensemble du site web. Notez que si une région apparaît sur plusieurs pages, la mesure sera intégrée à chacune d’entre elles. |
    | Liens d’Activity Map | Répertorie tous les liens collectés sur l’ensemble du site web. |
    | Liens et région d’Activity Map | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
