@@ -23,7 +23,7 @@ Une propriété web peut être n’importe quel regroupement d’un ou de plusie
 
 Vous pouvez gérer ces ressources et en effectuer le suivi au moyen de la gestion dynamique des balises. Par exemple, supposons que vous disposez de plusieurs sites web reposant sur un modèle et que vous souhaitez effectuer le suivi des mêmes ressources sur tous les sites. Vous pouvez appliquer une propriété web à plusieurs domaines.
 
-Pour obtenir des informations générales sur les propriétés web et les bonnes pratiques, voir  [Propriétés web](https://docs.adobe.com/content/help/fr-FR/dtm/using/admin/web-property.html) dans la documentation du produit Dynamic Tag Management.
+Pour obtenir des informations générales sur les propriétés web et les bonnes pratiques, voir [Propriétés web](https://docs.adobe.com/content/help/fr-FR/dtm/using/admin/web-property.html) dans la documentation du produit Dynamic Tag Management.
 
 1. Accédez à la page Entreprises, puis cliquez sur **[!UICONTROL Ajouter une propriété]**.
 
