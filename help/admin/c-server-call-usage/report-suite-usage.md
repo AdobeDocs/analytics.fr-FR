@@ -2,8 +2,11 @@
 description: L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
 title: Affichage de l’utilisation des suites de rapports
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '441'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Report Suite Usage]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Utilisation de l’appel au serveur]** > **[!UICONTROL Suite de rapports d’utilisation]**
 
 >[!IMPORTANT]
 >
@@ -24,7 +27,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 * affiche le pourcentage de l’utilisation générale par catégories d’appels au serveur ;
 * est mis à jour quotidiennement ;
 * est téléchargeable ;
-* Vous permet d’accéder à l’ **[!UICONTROL Manage Alerts]** interface utilisateur.
+* vous permet d’accéder à l’interface utilisateur de la **[!UICONTROL Gestion des alertes]**.
 
 ![](assets/report-suite-usage.png)
 
@@ -43,7 +46,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 Cette option vous permet de télécharger les données d’utilisation actuelles, ainsi que les données de périodes antérieures (en remontant jusqu’à janvier 2015). Le rapport est téléchargé au format .cvs.
 
 1. Sélectionnez au moins une suite de rapports.
-1. Cliquez sur **[!UICONTROL Download Report]**.
+1. Cliquez sur **[!UICONTROL Télécharger un rapport]**.
 
    ![](assets/download_report.png)
 
@@ -52,9 +55,9 @@ Cette option vous permet de télécharger les données d’utilisation actuelles
 | Nom de fichier | Nom codé en dur : rapport d’utilisation `day and time of report creation.csv` |
 | Suites de rapports incluses | Toutes les suites de rapports que vous avez sélectionnées sur la page du rapport d’utilisation du serveur sont incluses dans cette liste. |
 | Types d’appels inclus | Spécifiez n’importe quelle combinaison entre : Tous les appels (par défaut), Principal, Secondaire, Principal mobile, Principal secondaire. |
-| Période | Vous pouvez sélectionner la période d’utilisation actuelle ou indiquer une période spécifique.  Pour définir une période personnalisée, indiquez le début de la période et la fin de la période. <br>**Remarque :**vous ne pouvez pas télécharger des données d’utilisation antérieures à janvier 2015</br>. |
+| Période | Vous pouvez sélectionner la période d’utilisation actuelle ou indiquer une période spécifique.  Pour définir une période personnalisée, indiquez le début de la période et la fin de la période. <br>**Remarque :** vous ne pouvez pas télécharger des données d’utilisation antérieures à janvier 2015 </br>. |
 
-1. Cliquez sur **[!UICONTROL Download]**.
+1. Cliquez sur **[!UICONTROL Télécharger]**.
 
 Voici une capture d’écran de ce à quoi ressemble le fichier .csv téléchargé. Il comprend une colonne pour l’identifiant de la suite de rapports. L’identifiant de la suite de rapports spécifie un identifiant unique pouvant uniquement contenir des caractères alphanumériques. Cet identifiant ne peut pas être modifié après la création d’une suite de rapports.
 
