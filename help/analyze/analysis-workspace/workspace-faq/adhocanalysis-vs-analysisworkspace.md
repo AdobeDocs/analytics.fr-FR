@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -60,8 +60,8 @@ Cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-ov
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > Vidéo : Utilisation de segments dans Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > Vidéo : Application de segments dans un panneau</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Créer des segments temporaires ("ad hoc") </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. De plus, il est possible d’ajouter des filtres déroulants dans la zone de dépôt de panneau pour créer plusieurs segments temporaires en même temps, ce qui permet d’activer des interactions de projet contrôlées. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vidéo : Segments ad hoc dans Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vidéo : Filtres déroulants en Analysis Workspace</a> </p> </td> 
+   <td colname="col1"> <p>Créer des segments temporaires (« ad hoc ») </p> </td> 
+   <td colname="col2"> <p>Vous pouvez <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >créer des segments instantanés et temporaires (« ad hoc »)</a> dans Analysis Workspace en faisant glisser les éléments de dimension sur la zone de dépôt des segments en haut du panneau. De plus, il est possible d’ajouter des filtres déroulants dans la zone de dépôt du panneau pour créer plusieurs segments temporaires en même temps, ce qui permet d’activer des interactions contrôlées avec le projet. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vidéo : Segments ad hoc dans Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vidéo : Filtres déroulants dans Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Choisir les plages de dates et les granularités </p> </td> 
@@ -77,7 +77,7 @@ Cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-ov
    <td colname="col2"> <p>Les <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >visualisations Abandons</a> sont accessibles dans Analysis Workspace sous le menu du composant Visualisation. Semblable à Ad Hoc Analysis : </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Les abandons peuvent couvrir une visite ou un visiteur ; toutes les visites peuvent être incluses, en option. Des tendances d’abandon peuvent rapidement être disponibles via le menu contextuel. </li> 
-     <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Les éléments de dimension peuvent être connectés par un opérateur OU (comme pour les groupes) ; les événements peuvent être utilisés dans l’entonnoir. </li> 
+     <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Les éléments de dimension peuvent être connectés par un opérateur OR (comme pour les groupes) ; les événements peuvent être utilisés dans l’entonnoir. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Les étapes suivantes des transferts et des abandons peuvent également être générées via le menu contextuel. </li> 
     </ol> <p>En outre, dans Analysis Workspace, les abandons permettent d’utiliser des <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensions mixtes</a> dans les étapes, ce qui n’était pas possible dans Ad Hoc Analysis. Les dimensions mixtes dans les étapes sont gérées avec un opérateur AND. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Vidéo : Abandons et entonnoirs</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Vidéo : Utilisation de plusieurs dimensions d’abandons</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Vidéo : Comparaison des segments dans les abandons</a> </p> </td> 
   </tr> 
@@ -87,7 +87,7 @@ Cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-ov
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Le flux peut couvrir une visite ou un visiteur. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Les statistiques clés s’affichent sous la forme de pourcentage de vues chemins. </li> 
-    </ul> <p>En outre, avec les flux, il est possible d’utiliser des <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensions mixtes</a> et de cliquer droit pour créer un segment, ce qui n’était pas le cas dans Ad Hoc Analysis. </p> <p>Actuellement, le flux en Analysis Workspace <b>ne peut</b> pas permettre aux utilisateurs de choisir un événement de réussite. </li> 
+    </ul> <p>En outre, avec les flux, il est possible d’utiliser des <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensions mixtes</a> et de cliquer droit pour créer un segment, ce qui n’était pas le cas dans Ad Hoc Analysis. </p> <p>Actuellement, dans Analysis Workspace, les flux <b>ne permettent pas</b> aux utilisateurs de choisir un événement de succès. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Vidéo : Présentation de la visualisation Flux</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Vidéo : Flux multidimensionnel</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Vidéo : Création de segments à partir du flux</a> </p> </td> 
   </tr> 
   <tr> 
@@ -100,11 +100,11 @@ Cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-ov
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sélectionner des suites de rapports </p> </td> 
-   <td colname="col2"> <p>Plusieurs suites de rapports peuvent être ajoutées à un seul projet en Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Vidéo : Plusieurs suites de rapports dans Workspace</a> </p></td> 
+   <td colname="col2"> <p>Vous pouvez ajouter plusieurs suites de rapports à un seul projet dans Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Vidéo : Suites de rapports multiples dans Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p>L’<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> dans Analysis Workspace vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. Il comprend plus de 10 modèles algorithmiques et basés sur des règles. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vidéo : attribution iq dans les tableaux à structure libre</a> </p> </td> 
+   <td colname="col2"> <p>L’<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >Attribution IQ</a> dans Analysis Workspace vous permet d’ajouter de nombreux nouveaux types de modèles d’attribution aux tableaux à structure libre, aux visualisations et aux mesures calculées. Il comprend plus de 10 modèles algorithmiques et basés sur des règles. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vidéo : Attribution IQ dans les tableaux à structure libre</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
