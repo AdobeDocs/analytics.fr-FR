@@ -1,11 +1,11 @@
 ---
 title: Guide sur les outils Analytics
-description: Documentation produit et aide autonome pour Analysis Workspace, Activity Map, Report Builder, l’API de création de Reports & Analytics (anciennement les produits Omniture Analytics).
-translation-type: ht
-source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
-workflow-type: ht
-source-wordcount: '224'
-ht-degree: 100%
+description: Documentation du produit et auto-assistance pour Analysis Workspace, Activity Map, Report Builder, API de Rapports et Rapports et analyses.
+translation-type: tm+mt
+source-git-commit: 847e4c58a64bcd31999fb3306bb819b774e100ca
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ Ce guide fournit de la documentation sur les produits et de l’aide autonome po
 
 * **[!UICONTROL Analysis Workspace] :** principale fonctionnalité d’Adobe Analytics. Workspace fournit un canevas sur lequel vous pouvez faire glisser des composants pour répondre à vos besoins en termes de rapports.
 * **[!UICONTROL Activity Map] :** module de navigateur qui affiche une superposition sur votre site montrant les éléments qui ont reçu le plus grand nombre de clics.
-* **[!UICONTROL Ad Hoc Analysis] :** application Java autonome avec de puissantes capacités de création de rapports. Cet outil n’est plus mis à jour et sera bientôt rendu caduc.
+* **[!UICONTROL Ad Hoc Analysis] :** application Java autonome avec de puissantes capacités de création de rapports. Cet outil n’est plus mis à jour et sera mis à jour [le 1er mars 2021](https://spark.adobe.com/page/S9Bhp66VJ2fEn/).
 * **[!UICONTROL API de création de rapports] :** créez des requêtes de rapport directement sur les serveurs d’Adobe et obtenez des réponses à utiliser dans vos outils de création de rapports client.
 * **[!UICONTROL Report Builder] :** module Excel complémentaire permettant de récupérer les données Analytics et de les placer directement dans un classeur.
 * **[!UICONTROL Reports &amp; Analytics] :** outil avec des dizaines de rapports prédéfinis. Adobe recommande d’utiliser Analysis Workspace pour la plupart des rapports.
