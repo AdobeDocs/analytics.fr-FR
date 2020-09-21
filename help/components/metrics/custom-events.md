@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Événements personnalisés
 
-*Cette page d’aide décrit le fonctionnement des événements personnalisés en tant que mesure. Pour plus d’informations sur le fonctionnement des événements personnalisés en tant que variable d’implémentation, consultez[Présentation des événements](/help/implement/vars/page-vars/events/events-overview.md)dans le guide d’utilisation de la mise en œuvre.*
+*Cette page d’aide décrit le fonctionnement des événements personnalisés en tant que mesure. Pour plus d’informations sur le fonctionnement des événements personnalisés en tant que variable d’implémentation, consultez [Présentation des événements](/help/implement/vars/page-vars/events/events-overview.md) dans le guide d’utilisation de la mise en œuvre.*
 
 Les mesures d’événements personnalisés indiquent le nombre d’accès pour lesquels un événement personnalisé donné a été défini dans une demande d’image. Ces mesures sont essentielles pour de nombreuses implémentations, car elles fournissent des informations sur les événements spécifiques à chaque organisation.
 
