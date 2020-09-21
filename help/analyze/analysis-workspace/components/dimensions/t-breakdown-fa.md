@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Ventilation des dimensions
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
