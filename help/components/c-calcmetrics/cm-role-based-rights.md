@@ -2,8 +2,11 @@
 description: Les droits des mesures calculées diffèrent entre les utilisateurs administrateur et non administrateur.
 title: 'Mesures calculées : droits en fonction du rôle'
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
