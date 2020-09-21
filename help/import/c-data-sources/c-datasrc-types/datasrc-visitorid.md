@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Identifiant visiteur
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '230'
+ht-degree: 100%
 
 ---
 
@@ -44,5 +47,5 @@ Voir [Intégration de données hors ligne](/help/import/c-data-sources/datasrc-i
 | Consultations d’eVarn | Nombre de fois où la variable eVar n a été consultée. Valeurs valides de n : nombre entier entre 1 et 75. |
 | Prix | Prix du produit. |
 | Commandes | Nombre de commandes passées. |
-| Consultations produits | Nombre de consultations de produit. |
+| Consultations de produit | Nombre de consultations de produit. |
 | Quantité | Nombre d’unités vendues. |
