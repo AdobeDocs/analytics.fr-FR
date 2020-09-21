@@ -2,11 +2,11 @@
 description: Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-i
 * Pour accéder à des données plus granulaires que l’interface utilisateur (affichage de tableau dénormalisé)
 * Pour télécharger des données dans un format approprié à une entrée de tableau croisé dynamique (pivot)
 * Si le client souhaite saisir des données Adobe dans un outil de visualisation de données tiers (légèrement résumées et pas au niveau de l’accès)
-* Pour accéder à tous les éléments de dimension uniques si vous accédez à &quot;Faible trafic&quot; en Adobe Analytics
+* Pour accéder à tous les éléments de dimension uniques si vous rencontrez un « faible trafic » dans Adobe Analytics
 
 **[Le flux de données Analytics](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** doit être utilisé :
 
