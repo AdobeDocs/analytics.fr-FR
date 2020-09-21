@@ -188,40 +188,40 @@ La valeur de 300 provient de la valeur du paramètre pos de la variable s.testUR
 
 ## Historique des versions
 
-### 3.3 (24 septembre 2019)
+### 3.3 (24 septembre 2019)
 
 * Contournement d’une logique inutile pour réduire la taille du code.
 
-### 3.2 (15 mai 2018)
+### 3.2 (15 mai 2018)
 
 * Déplacement des fonctions `findParameterValue` et `getParameterValue` dans la fonction `getQueryParam`.
 
-### 3.1 (10 mai 2018)
+### 3.1 (10 mai 2018)
 
 * Correction d’un problème lié à la récupération de paramètres de chaîne de requête sans valeur.
 
-### 3.0 (16 avril 2018)
+### 3.0 (16 avril 2018)
 
 * Nouvelle version (recompilé, taille de code réduite).
 * Fonctions d’assistance renommées en `findParameterValue` et `getParameterValue` à des fins de lisibilité.
 * Suppression de la nécessité d’ajouter un argument pour rechercher les paramètres contenus dans le hachage de l’URL.
 
-### 2.5 (8 janvier 2016)
+### 2.5 (8 janvier 2016)
 
 * Compatible avec le code H et AppMeasurement (nécessite `s.pt` avec AppMeasurement).
 
-### 2.4
+### 2,4
 
 * Ajout du paramètre `h`, permettant au code de rechercher les paramètres de chaîne de requête trouvés après le caractère de hachage (`#`).
 
-### 2.3
+### 2,3
 
 * Correction d’un problème de régression où le plug-in ne fonctionnait que lorsque le hachage se trouvait après le code de suivi.
 
-### 2.2
+### 2,2
 
 * Suppression des caractères de hachage (et de tout ce qui suit) contenus dans la valeur renvoyée.
 
-### 2.1
+### 2,1
 
 * Compatible avec le code H.10
