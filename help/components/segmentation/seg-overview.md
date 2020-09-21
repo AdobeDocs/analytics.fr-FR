@@ -3,9 +3,9 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments et des conteneurs
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3709'
 ht-degree: 100%
 
@@ -33,15 +33,15 @@ Les segments peuvent être basés sur les valeurs suivantes :
 * Visiteurs sur la base des sorties et des entrées : visiteurs provenant de Facebook, d’une page d’entrée définie, d’un domaine référent.
 * Visiteurs sur la base de variables personnalisées : champ de formulaire, catégories définies, ID de client.
 
-Lors de la création de segments d’audiences dans le Créateur de segments, vous définissez des conditions en utilisant les opérateurs [!UICONTROL ET] et [!UICONTROL OU] entre les conteneurs.
+Lors de la création de segments d’audiences dans le Créateur de segments, vous définissez des conditions en utilisant les opérateurs [!UICONTROL AND] et [!UICONTROL OR] entre les conteneurs.
 
 ![](assets/standard_segment_containers.png)
 
-Ce type de segment filtre les jeux de données en fonction de caractéristiques regroupées à l’aide des opérateurs [!UICONTROL ET] et [!UICONTROL OU].
+Ce type de segment filtre les jeux de données en fonction de caractéristiques regroupées à l’aide des opérateurs [!UICONTROL AND] et [!UICONTROL OR].
 
 ## Segments séquentiels {#section_EE5B14287FC44E0B96E77679A2438948}
 
-Les segments séquentiels permettent d’identifier les visiteurs selon la navigation et la page vue sur votre site, fournissant un segment d’actions et d’interactions définies. Les filtres séquentiels permettent d’identifier ce qu’aime un visiteur et ce qu’il évite. Lors de la création de segments séquentiels, l’opérateur [!UICONTROL ALORS] est utilisé pour définir et classer la navigation du visiteur.
+Les segments séquentiels permettent d’identifier les visiteurs selon la navigation et la page vue sur votre site, fournissant un segment d’actions et d’interactions définies. Les filtres séquentiels permettent d’identifier ce qu’aime un visiteur et ce qu’il évite. Lors de la création de segments séquentiels, l’opérateur [!UICONTROL THEN] est utilisé pour définir et classer la navigation du visiteur.
 
 ![](assets/sequential_seg.png)
 
@@ -56,7 +56,7 @@ Les segments séquentiels peuvent être basés sur les valeurs d’accès suivan
 
 ![](assets/sequential_segmentation_containers_view.png)
 
-Un segment séquentiel filtre des jeux de données sur la base des actions de l’utilisateur à l’aide de l’opérateur [!UICONTROL ALORS].
+Un segment séquentiel filtre des jeux de données sur la base des actions de l’utilisateur à l’aide de l’opérateur [!UICONTROL THEN].
 
 ## Vidéo pratique {#section_89D6184890AF4086A8056BFBB0B68C29}
 
@@ -154,9 +154,9 @@ La segmentation séquentielle utilise les mêmes conteneurs de base, notamment [
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Visiteurs] est le conteneur dont l’ordre est le plus élevé dans la segmentation séquentielle ; [!UICONTROL Visites] se trouvant dans le conteneur [!UICONTROL Visiteurs] et [!UICONTROL Accès] se trouvant dans les conteneurs [!UICONTROL Visiteurs] ou [!UICONTROL Visites]. Cette  [hiérarchie de conteneurs](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) doit être conservée pour créer des segments séquentiels bien ordonnés.
+[!UICONTROL Visiteurs] est le conteneur dont l’ordre est le plus élevé dans la segmentation séquentielle ; [!UICONTROL Visites] se trouvant dans le conteneur [!UICONTROL Visiteurs] et [!UICONTROL Accès] se trouvant dans les conteneurs [!UICONTROL Visiteurs] ou [!UICONTROL Visites]. Cette [hiérarchie de conteneurs](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) doit être conservée pour créer des segments séquentiels bien ordonnés.
 
-**Pour créer des segments séquentiels**, les conteneurs sont imbriqués et la séquence logique est associée à l’aide de l’opérateur [!UICONTROL ALORS] qui exige que chaque conteneur soit défini sur « vrai » sur la base de la séquence du visiteur.
+**Pour créer des segments séquentiels**, les conteneurs sont imbriqués et la séquence logique est associée à l’aide de l’opérateur [!UICONTROL THEN] qui exige que chaque conteneur soit défini sur « vrai » sur la base de la séquence du visiteur.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
