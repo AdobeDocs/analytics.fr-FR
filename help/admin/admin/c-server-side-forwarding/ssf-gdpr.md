@@ -4,6 +4,9 @@ title: Conformité au RGPD et à la directive vie privée et communications éle
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
