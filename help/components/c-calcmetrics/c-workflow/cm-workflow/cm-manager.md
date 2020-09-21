@@ -2,8 +2,11 @@
 description: Le Gestionnaire de mesures calculées offre plusieurs manières d’organiser les mesures, par exemple le partage, le filtrage, le balisage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
 title: Gestionnaire de mesures calculées
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '352'
+ht-degree: 100%
 
 ---
 
@@ -30,5 +33,5 @@ Le Gestionnaire de mesures calculées vous présente tous les segments que vous 
 | Balises | Affiche les balises qui ont été appliquées à la mesure, soit par vous, soit par des personnes qui ont partagé le segment avec vous. |
 | Partagé avec | Répertorie les individus ou les groupes (administrateur uniquement) ou toutes les personnes (administrateur uniquement) avec lesquelles vous avez partagé le segment. |
 | Sélecteur de colonnes | Permet de sélectionner ou désélectionner les colonnes du Gestionnaire de mesures calculées pour que vous puissiez personnaliser la vue. |
-| Icône Partagé  (non affichée) | Indique que cette mesure personnalisée est partagée par ou avec vous. |
-| Icône Approuvé  (non affichée) | Indique que cette mesure personnalisée a été approuvée par un administrateur. |
+| Icône Partagé (non affichée) | Indique que cette mesure personnalisée est partagée par ou avec vous. |
+| Icône Approuvé (non affichée) | Indique que cette mesure personnalisée a été approuvée par un administrateur. |
