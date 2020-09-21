@@ -3,8 +3,11 @@ description: Le gestionnaire de code permet de télécharger le code de collecte
 title: Gestionnaire de code
 topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
-translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
+source-wordcount: '137'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gestionnaire de code]**.
 
 Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. D’autres ressources d’implémentation sont disponibles dans le guide de l’utilisateur [Mise en œuvre](/help/implement/home.md).
 
@@ -21,7 +24,7 @@ Après avoir téléchargé la bibliothèque, vous devez configurer le code pour 
 
 | Colonne | Description |
 |--- |--- |
-| [!UICONTROL Name] | Le nom correspond à la plateforme sur laquelle vous souhaitez activer la collecte de données. Des bibliothèques sont fournies pour chaque plateforme répertoriée dans cette colonne. |
+| [!UICONTROL Nom] | Le nom correspond à la plateforme sur laquelle vous souhaitez activer la collecte de données. Des bibliothèques sont fournies pour chaque plateforme répertoriée dans cette colonne. |
 | [!UICONTROL Type] | Type des applications qui peuvent être mesurées à l’aide de chaque bibliothèque. |
 | [!UICONTROL Version] | Liste de la dernière version de la bibliothèque. Cliquez sur le numéro de version pour afficher l’[historique de publication](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/appmeasurement-updates.html). |
 | [!UICONTROL Documentation] | Affichez la documentation de référence sur la bibliothèque. |
