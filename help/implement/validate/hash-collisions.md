@@ -1,8 +1,11 @@
 ---
 title: Collisions de hachage
 description: Décrit ce qu’est une collision de hachage et de quelle façon elle se manifeste.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '443'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ La probabilité des collisions de hachage augmente avec le nombre de valeurs uni
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Valeur de chaîne eVar62 </th> 
-   <th colname="col2" class="entry"> Hash (Hachage) </th> 
+   <th colname="col2" class="entry"> Hash </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -51,7 +54,7 @@ Si vous créez un segment qui recherche les visites où eVar62=&quot;valeur 500
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Valeur de chaîne eVar62 </th> 
-   <th colname="col2" class="entry"> Hash (Hachage) </th> 
+   <th colname="col2" class="entry"> Hash </th> 
   </tr> 
  </thead>
  <tbody> 
