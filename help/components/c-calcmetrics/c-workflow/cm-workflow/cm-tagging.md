@@ -2,8 +2,11 @@
 description: Dans le Gestionnaire de mesures calculées, le balisage des segments permet de les organiser.
 title: Balisage des mesures calculées
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '200'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Tous les utilisateurs peuvent créer des balises pour les mesures calculées et 
 * Des balises basées sur des **noms d’équipe**, par exemple Marketing des réseaux sociaux, Marketing des périphériques mobiles.
 * Les balises **Projet** (balises d’analyse), telle que l’analyse de la page d’accès.
 * Les balises **Catégorie** : Hommes ; géographie.
-* Les balises **Processus** : Sous réserve d’approbation ; Organisé pour (une unité opérationnelle spécifique)
+* Les balises **Processus** : Sous réserve d’approbation ; Organisé pour (une unité opérationnelle spécifique).
 
 1. Dans le Gestionnaire de mesures calculées, cochez la case en regard de la mesure que vous souhaitez baliser. La barre d’outils de gestion apparaît :
 1. Cliquez sur **[!UICONTROL Balise]** et
