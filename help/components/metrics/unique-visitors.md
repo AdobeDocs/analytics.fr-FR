@@ -1,18 +1,18 @@
 ---
 title: Visiteurs uniques
 description: Nombre d’individus (ou d’appareils) uniques.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # Visiteurs uniques
 
-La mesure &quot;visiteurs uniques&quot; indique le nombre d’ID de visiteur pour l’élément de dimension. Il s’agit de l’une des mesures les plus courantes utilisées pour déterminer le trafic, car il fournit un aperçu général de la popularité d’un élément de dimension. Par exemple, un visiteur peut venir sur votre site tous les jours pendant un mois et, néanmoins, ne représenter qu’un visiteur unique.
+La mesure « Visiteurs uniques » indique le nombre d’identifiants de visiteur pour l’élément de dimension. Il s’agit de l’une des mesures les plus courantes utilisées pour déterminer le trafic, car elle fournit un aperçu général de la popularité d’un élément de dimension. Par exemple, un visiteur peut venir sur votre site tous les jours pendant un mois et, néanmoins, ne représenter qu’un visiteur unique.
 
 Si vous utilisez les [analyses entre appareils](../cda/overview.md), cette mesure est renommée « Appareils uniques ».
 
@@ -20,11 +20,11 @@ Si vous utilisez les [analyses entre appareils](../cda/overview.md), cette mesur
 
 Reports &amp; Analytics offre des options pour les visiteurs uniques quotidiens, hebdomadaires, mensuels, trimestriels et annuels. Au lieu de comptabiliser un seul visiteur unique pour toute la période, les visiteurs uniques sont comptabilisés en fonction de la mesure sélectionnée. Par exemple, vous pouvez consulter les visiteurs uniques quotidiens sur votre site. Si un visiteur consulte votre site le matin et à nouveau le soir, il compte comme un seul visiteur unique quotidien. Si un visiteur consulte votre site le lundi et à nouveau le mardi, il compte comme deux visiteurs uniques quotidiens.
 
-Analysis Workspace traite les visiteurs uniques en fonction de la granularité du rapport. For example, if you use the [Day](../dimensions/day.md) dimension, you&#39;ll see daily unique visitors for each dimension item. Toutefois, le total du rapport indique le nombre de visiteurs uniques dédupliqué pour la période du tableau à structure libre.
+Analysis Workspace traite les visiteurs uniques en fonction de la granularité du rapport. Par exemple, si vous utilisez la dimension [Jour](../dimensions/day.md), vous verrez les visiteurs uniques quotidiens pour chaque élément de dimension. Toutefois, le total du rapport indique le nombre de visiteurs uniques dédupliqué pour la période du tableau à structure libre.
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure comptabilise le nombre d’ID de visiteur uniques pour un élément de dimension donné. Elle utilise plusieurs mécanismes avancés pour identifier les visiteurs uniques, puisqu’il existe plusieurs façons de les identifier. Le tableau suivant liste les méthodes d’identification d’un visiteur, ainsi que leur priorité. Certains accès peuvent avoir plusieurs méthodes d’identification des visiteurs, auquel cas, la méthode à la priorité la plus élevée est utilisée.
+Cette mesure comptabilise le nombre d’identifiants de visiteur unique pour un élément de dimension donné. Elle utilise plusieurs mécanismes avancés pour identifier les visiteurs uniques, puisqu’il existe plusieurs façons de les identifier. Le tableau suivant liste les méthodes d’identification d’un visiteur, ainsi que leur priorité. Certains accès peuvent avoir plusieurs méthodes d’identification des visiteurs, auquel cas, la méthode à la priorité la plus élevée est utilisée.
 
 | Ordre utilisé | Paramètre de requête (méthode de collecte) | Présenter quand |
 | --- | --- | --- |
