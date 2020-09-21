@@ -75,8 +75,8 @@ Les filtres disponibles incluent :
 
 | Nom du filtre | Description |
 |---|---|
-| Balises | Permet de filtrer les segments selon des balises spécifiques balises. Notez que les filtres de type balise utilisent l’opérateur ET. Si vous cochez deux balises, le panneau de droite affiche les segments qui ont été marqués avec **les deux** balises. |
-| Propriétaires | Permet de filtrer les segments par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OU. Si vous cochez deux propriétaires, le panneau de droite affiche les segments qui sont possédés par **l’un** des propriétaires. |
+| Balises | Permet de filtrer les segments selon des balises spécifiques balises. Notez que les filtres de type balise utilisent l’opérateur AND. Si vous cochez deux balises, le panneau de droite affiche les segments qui ont été marqués avec **les deux** balises. |
+| Propriétaires | Permet de filtrer les segments par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OR. Si vous cochez deux propriétaires, le panneau de droite affiche les segments qui sont possédés par **l’un** des propriétaires. |
 | Autres filtres > Uniquement *le nom de la suite de rapports* | Si vous appliquez le filtre « Uniquement *le nom de la suite de rapports* » dans le Créateur de segments dans [!DNL marketing reports & analytics], puis affichez le filtre avancé dans [!DNL report builder], le filtre avancé affiche uniquement le segment correspondant à la suite de rapports sélectionnée. |
 | Autres filtres > À moi | Affiche tous les segments que vous possédez. |
 | Autres filtres > Partagés avec moi | Affiche tous les segments que d’autres ont partagé avec vous. |
