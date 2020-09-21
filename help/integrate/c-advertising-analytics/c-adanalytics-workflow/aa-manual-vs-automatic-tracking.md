@@ -1,9 +1,9 @@
 ---
 description: Le suivi détermine la façon dont les données du moteur de recherche sont suivies par votre implémentation Adobe Analytics. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
 title: Suivi en mode manuel et mode automatique
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Notez que pour configurer un compte de moteur de recherche en « mode automatiq
 >
 >Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/csp.html).
 
-## Suivi en mode manuel  {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## Suivi en mode manuel {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
 En mode manuel, vous devez spécifier la façon dont les données du moteur de recherche doivent être traitées par le processus d’intégration des données Advertising Analytics.
 
