@@ -2,9 +2,9 @@
 description: Variables pour la création de rapports de confidentialité dans la Confidentialité des données.
 title: Variables de création de rapports de confidentialité
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Chaque suite de rapports peut être configurée comme suit :
 
 Trois variables de données contextuelles ont été prédéfinies pour fonctionner avec les variables réservées à la gestion des rapports de confidentialité.  Il appartient à chaque ingénieur d’implémentation de déterminer comment gérer et conserver le paramétrage de ces variables.
 
-Voir [Variables de données contextuelles](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) pour obtenir des instructions générales sur l’implémentation des variables de données contextuelles.
+Voir [Variables de données contextuelles](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/contextdata.html) pour obtenir des instructions générales sur l’implémentation des variables de données contextuelles.
 
 ### SSF (transfert côté serveur)
 
