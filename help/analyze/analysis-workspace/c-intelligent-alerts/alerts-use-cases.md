@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Alertes intelligentes - Exemples d’utilisation
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '85'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ Update screenshots for better readability.
 
 ## Création d’une alerte d’après une sélection d’un tableau {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL Create Alert from Selection]**.
+Dans les tableaux à structure libre, vous pouvez maintenant créer des alertes dans le contexte en cliquant avec le bouton droit de la souris sur une ligne d’un tableau, puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
 
 ![](assets/alert_selection.png)
 
