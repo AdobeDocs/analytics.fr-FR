@@ -80,11 +80,11 @@ Spécifiez la date d’expiration de l’alerte.
 
 Faites glisser et déplacez les segments ou dimensions pour ajouter des filtres. Par exemple, ajoutez un segment « Appareils mobiles seulement » afin de signifier que la règle se déclenche uniquement pour les appareils mobiles.
 
-Pour ajouter d’autres filtres, utilisez une instruction ET.
+Pour ajouter d’autres filtres, utilisez une instruction AND.
 
 **Ajouter une règle**
 
-Pour ajouter des règles ET ou OU, cliquez sur l’icône d’engrenage.
+Pour ajouter des règles AND ou OR, cliquez sur l’icône d’engrenage.
 
 ## Aperçu des alertes {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
