@@ -1,11 +1,11 @@
 ---
 title: contextData
 description: Les variables de données contextuelles vous permettent de définir des variables personnalisées sur chaque page que les règles de traitement peuvent lire.
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,12 +57,12 @@ s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```
 
-## Incrémenter des événements à l’aide de variables de données contextuelles
+## Incrémentation des événements à l’aide de variables de données contextuelles
 
 Lors de la création de règles de traitement, vous pouvez affecter des variables de données contextuelles à des événements.
 
-* Si une variable de données contextuelles contient n’importe quel type de texte, le événement est incrémenté d’une unité.
-* Si une variable de données contextuelles contient un entier, le événement est incrémenté de ce nombre entier.
+* Si une variable de données contextuelles contient n’importe quel type de texte, l’événement est incrémenté d’une unité.
+* Si une variable de données contextuelles contient un entier, l’événement est incrémenté de ce nombre entier.
 
 ```js
 // Assigning this context data variable to an event increments it by one
