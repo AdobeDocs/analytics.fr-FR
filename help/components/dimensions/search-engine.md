@@ -1,11 +1,11 @@
 ---
 title: Moteur de recherche
 description: Moteur de recherche utilisé par le visiteur pour accéder à votre site.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,6 +27,6 @@ Si vous souhaitez distinguer le référencement payant du référencement nature
 
 Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Les éléments de Dimension incluent les moteurs de recherche utilisés pour atteindre votre site. Les exemples de valeurs comprennent `"Google"`, `"Microsoft Bing"` et `"DuckDuckGo"`. The `"Unspecified"` dimension item is all non-search traffic.
+Les éléments de dimension comprennent les moteurs de recherche utilisés pour accéder à votre site. Les exemples de valeurs comprennent `"Google"`, `"Microsoft Bing"` et `"DuckDuckGo"`. L’élément de dimension `"Unspecified"` correspond à l’ensemble du trafic hors recherche.
