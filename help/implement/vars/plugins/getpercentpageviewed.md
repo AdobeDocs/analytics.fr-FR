@@ -110,11 +110,11 @@ if(s._ppvPreviousPage)
 
 * Ajout des solutions `s._ppvFoldsSeen` et `s._ppvFoldsAvailable`.
 
-### v3.01 (13 août 2018)
+### v3.01 (13 août 2018)
 
 * Correction d’un problème pour les pages comportant plusieurs objets AppMeasurement sur une page.
 
-### v3.0 (13 avril 2018)
+### v3.0 (13 avril 2018)
 
 * Nouvelle version (recompilé, taille de code réduite).
 * Le plug-in crée maintenant des variables à attribuer aux variables Adobe Analytics plutôt que des valeurs renvoyées.
