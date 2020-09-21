@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 58%
+ht-degree: 98%
 
 ---
 
@@ -40,24 +40,24 @@ Même si Adobe ne fournit pas un moniteur de paquets officiel, de nombreux monit
 
 >[!NOTE]
 >
->adobe ne prend PAS en charge ou ne résout pas les problèmes que vous rencontrez avec ces moniteurs de paquets. Consultez le site d’origine du moniteur de paquets pour obtenir de l’aide.
+>Adobe ne prend PAS en charge et ne résout pas les problèmes que vous pouvez rencontrer avec ces moniteurs de paquets. Pour bénéficier d’une assistance, consultez le site d’origine du moniteur de paquets.
 
 ## Codes d’état de réponse HTTP standard
 
-Lorsque AppMeasurement envoie des données aux serveurs de collecte de données d’Adobe, les serveurs répondent avec un code d’état de réponse.
+Lorsqu’AppMeasurement envoie des données aux serveurs de collecte de données d’Adobe, les serveurs répondent avec un code d’état de réponse.
 
-* **200 OK**: Réponse la plus courante des serveurs de collecte de données. La demande d&#39;image a été reçue avec succès et une image transparente a été renvoyée.
-* **302 TROUVÉ**: Il y a deux ou trois raisons possibles de recevoir cette réponse :
-   * Première demande d’image d’un visiteur : Une redirection se produit si un utilisateur consulte votre site pour la première fois. Cette redirection consiste à obtenir un cookie visiteur. Elle n’affecte pas la collecte de données.
-   * Intégration entre Comscore et Adobe : Si votre entreprise utilise une intégration Comscore/Analytics, chaque demande d’image génère toujours une réponse 302.
-* **404 NON TROUVÉ**: Cette réponse signifie que la demande d’image est introuvable et que les données ne sont pas envoyées aux serveurs de collecte de données d’Adobe. Cette réponse est également possible lorsque les demandes d’image codées en dur ne sont pas correctement formatées. Collaborez avec la personne ou l’équipe qui a mis en oeuvre Analytics pour résoudre ce problème.
+* **200 OK** : réponse la plus courante des serveurs de collecte de données. La demande d’image a été reçue avec succès et une image transparente a été renvoyée.
+* **302 FOUND** : il existe plusieurs explications à cette réponse :
+   * Première demande d’image d’un visiteur : une redirection a lieu lorsqu’un utilisateur consulte votre site pour la première fois. Cette redirection consiste à obtenir un cookie de visiteur. Elle n’affecte pas la collecte de données.
+   * Intégration entre Comscore et Adobe : si votre entreprise utilise une intégration Comscore/Analytics, chaque demande d’image génère une réponse 302.
+* **404 NOT FOUND** : cette réponse signifie que la demande d’image est introuvable et que les données ne sont pas envoyées aux serveurs de collecte de données d’Adobe. Cette réponse est également possible lorsque les demandes d’image codées en dur ne sont pas correctement formatées. Collaborez avec la personne ou l’équipe responsable de la mise en œuvre d’Analytics pour résoudre ce problème.
 
 ## NS_BINDING_ABORTED dans les codes de réponse
 
-Ce message se produit car la demande d’image de suivi des liens est conçue pour permettre au navigateur de passer à la page suivante avant d’attendre une réponse des serveurs de collecte de données d’Adobe.
+Vous recevez ce message, car la demande d’image de suivi des liens est conçue pour autoriser le navigateur à passer à la page suivante avant d’avoir reçu une réponse des serveurs de collecte de données d’Adobe.
 
-La réponse d’Adobe à la demande d’image est une image transparente vide de 1x1 pixel, qui n’a pas de rapport avec le contenu de la page. If you see a line item in your packet monitor from Adobe, either with a **[!UICONTROL 200 OK]** response or an **[!UICONTROL NS_BINDING_ABORTED]** response, the data has reached Adobe&#39;s servers. Il n’est pas nécessaire que la page attende plus longtemps.
+La réponse d’Adobe à la demande d’image est une image transparente vide de 1x1 pixel, qui n’a pas de rapport avec le contenu de la page. Si un élément de ligne Adobe s’affiche dans le moniteur de paquets avec une réponse **[!UICONTROL 200 OK]** ou **[!UICONTROL NS_BINDING_ABORTED]**, cela signifie que les données ont atteint les serveurs d’Adobe. Il n’est pas nécessaire que la page attende plus longtemps.
 
 Les moniteurs de paquets intégrés en tant que plug-in affichent rarement la réponse complète. Ils tendent à considérer la demande comme ayant été abandonnée, car la réponse n’a pas été reçue intégralement. Il convient également d’ajouter qu’ils distinguent rarement l’élément qui a été abandonné, à savoir : la demande ou la réponse. Un moniteur de paquets autonome comporte généralement des messages plus détaillés et indique plus précisément l’état. Un utilisateur peut, par exemple, recevoir un message dans *Charles* indiquant que « le client a mis fin à la connexion avant d’avoir reçu toute la réponse ». Cela signifie que les données ont atteint les serveurs Adobe, mais que le navigateur est passé à la page suivante avant la réception du pixel 1x1.
 
-Si un moniteur de paquets externe signale que la demande de collecte de données est abandonnée, plutôt que la réponse, cela peut être source de préoccupation. Adobe [!DNL Customer Care] peut vous assister dans le cadre de la résolution des problèmes.
+Si un moniteur de paquets externe indique que la demande de collecte de données a été abandonnée, au lieu de la réponse, cela peut être une source de préoccupation. Adobe [!DNL Customer Care] peut vous assister dans le cadre de la résolution des problèmes.
