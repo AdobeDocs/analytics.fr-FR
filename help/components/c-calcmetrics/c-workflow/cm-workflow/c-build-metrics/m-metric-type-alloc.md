@@ -3,7 +3,7 @@ description: 'En savoir plus sur les '
 title: Type de mesure et attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: ht
-source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '914'
 ht-degree: 100%
@@ -68,10 +68,10 @@ Pour l’eVar de première touche ci-dessus, les 10 $ auraient été entièreme
 
 | Valeurs | eVar de dernière touche actuelle | eVar de première touche actuelle | Prop actuelle |
 |---|---|---|---|
-| PROMO A | 5,00 $ | 10,00 $ | 5,00 $ |
-| PROMO B | 3,33 $ | $0 | 2,50 $ |
-| PROMO C | 1,67 $ | $0 | 2,50 $ |
-| Total | 10,00 $ | 10,00 $ | 10,00 $ |
+| PROMO A | 5,00 $ | 10,00$ | 5,00 $ |
+| PROMO B | 3,33$ | $0 | 2,50$ |
+| PROMO C | 1,67$ | $0 | 2,50$ |
+| Total | 10,00$ | 10,00$ | 10,00$ |
 
 **Résumé du fonctionnement de l’affectation linéaire à partir du 19 juillet 2018**
 
@@ -80,7 +80,7 @@ Pour l’eVar de première touche ci-dessus, les 10 $ auraient été entièreme
 | Valeurs | Nouvelle eVar de dernière touche | Nouvelle eVar de première touche | Nouvelle Prop |
 |---|---|---|---|
 | PROMO A | 5,00 $ | 5,00 $ | 5,00 $ |
-| PROMO B | 2,50 $ | 2,50 $ | 2,50 $ |
-| PROMO C | 2,50 $ | 2,50 $ | 2,50 $ |
-| Total | 10,00 $ | 10,00 $ | 10,00 $ |
+| PROMO B | 2,50$ | 2,50$ | 2,50$ |
+| PROMO C | 2,50$ | 2,50$ | 2,50$ |
+| Total | 10,00$ | 10,00$ | 10,00$ |
 
