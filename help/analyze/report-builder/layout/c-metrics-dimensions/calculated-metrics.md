@@ -3,7 +3,7 @@ description: La version 5.2 du Report Builder prend en charge les mesures calcu
 title: Mesures calculées
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Pour en savoir plus sur la manière de créer et de gérer des mesures calculée
 
 **Filtrez** les mesures calculées en cliquant sur l’icône Filtrer :  ![](assets/segment_filter.png)
 
-  La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
+. La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
 
 Les filtres disponibles incluent :
 
@@ -35,9 +35,9 @@ Les filtres disponibles incluent :
 
 | Nom du filtre | Description |
 |---|---|
-| Balises | Permet de filtrer les mesures calculées selon des balises spécifiques. Notez que les filtres de type balise utilisent l’opérateur ET. Si vous cochez deux balises, le panneau de droite répertorie les mesures qui ont été marquées avec **les deux** balises. |
+| Balises | Permet de filtrer les mesures calculées selon des balises spécifiques. Notez que les filtres de type balise utilisent l’opérateur AND. Si vous cochez deux balises, le panneau de droite répertorie les mesures qui ont été marquées avec **les deux** balises. |
 | Suites de rapports | Si vous appliquez le filtre « Uniquement le *nom de la suite de rapports* » dans le Créateur de mesures calculées dans [!DNL Reports & Analytics], puis affichez le filtre avancé dans [!DNL Report Builder], le filtre avancé affiche uniquement les mesures calculées correspondant à la suite de rapports sélectionnée. |
-| Propriétaires | Permet de filtrer les mesures par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OU. Si vous cochez deux propriétaires, le panneau de droite répertorie les mesures détenues par **n’importe quel** propriétaire. |
+| Propriétaires | Permet de filtrer les mesures par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OR. Si vous cochez deux propriétaires, le panneau de droite répertorie les mesures détenues par **n’importe quel** propriétaire. |
 | Autres filtres > Approuvés | Affiche toutes les mesures officiellement approuvées. |
 | Autres filtres > Favoris | Affiche toutes les mesures que vous avez marquées comme Favoris. |
 | Autres filtres > À moi | Affiche toutes les mesures que vous possédez. |
