@@ -309,11 +309,11 @@ Comme les deux arguments du délimiteur sont différents, la valeur transmise se
 * Suppression des avertissements sur la console pour en réduire la taille.
 * Ajout de `inList 2.1`.
 
-### 3.1 (22 avril 2018)
+### 3.1 (22 avril 2018)
 
 * L’argument `d2` prend désormais par défaut la valeur de l’argument `d1` lorsqu’il n’est pas défini.
 
-### 3.0 (16 avril 2018)
+### 3.0 (16 avril 2018)
 
 * Réanalyse/réécriture complète du plug-in.
 * Ajout d’une vérification avancée des erreurs.
@@ -321,11 +321,11 @@ Comme les deux arguments du délimiteur sont différents, la valeur transmise se
 * Ajout de l’argument `d2` pour formater la valeur renvoyée.
 * Modification de l’argument `cc` en une valeur booléenne.
 
-### 2.5 (18 février 2016)
+### 2.5 (18 février 2016)
 
 * Utilisation de la méthode `inList` pour le traitement des comparaisons.
 
-### 2.0 (26 janvier 2016)
+### 2.0 (26 janvier 2016)
 
 * Argument `d` (délimiteur) désormais facultatif (par défaut, une virgule).
 * Argument `u` (indicateur de respect de la casse) désormais facultatif (par défaut, non-respect de la casse).
