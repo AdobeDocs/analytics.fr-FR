@@ -1,23 +1,23 @@
 ---
 title: Trimestre de l’année
 description: Trimestre numérique de l’année, quelle que soit l’année.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
 
 # Trimestre de l’année
 
-La dimension &quot;Trimestre de l&#39;année&quot; indique le trimestre d&#39;une année donnée comme élément de dimension. Ce rapport est utile si vous souhaitez qu’un rapport soit ventilé par trimestre de l’année, mais que vous ne souhaitez pas qu’une date statique soit considérée comme des éléments de dimension. Vous pouvez agrégat les rapports d’une année sur l’autre par trimestre, de sorte que les données du premier trimestre de cette année agrégats avec les données du premier trimestre de l’année dernière dans le même élément de dimension.
+La dimension « Trimestre de l’année » indique le trimestre d’une année donnée comme élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par trimestre de l’année, mais ne souhaitez pas une date statique comme élément de dimension. Vous pouvez consolider les rapports d’une année sur l’autre par trimestre, de sorte que les données du premier trimestre de cette année sont combinées avec les données du premier trimestre de l’année dernière dans le même élément de dimension.
 
 ## Renseignement de cette dimension avec des données
 
 Cette dimension est prête à l’emploi pour toutes les implémentations. Cette dimension fonctionne si une suite de rapports contient des données.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Dimension items include numeric quarters of the year (`1` to `4`), representing the quarter of the year that the hit occurred on.
+Les éléments de dimension comprennent les trimestres numériques de l’année (`1` à `4`), représentant le trimestre de l’année où l’accès a eu lieu.
