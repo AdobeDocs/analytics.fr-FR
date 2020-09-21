@@ -1,11 +1,11 @@
 ---
 title: DMA États-Unis
 description: Zone de marché désignée de l’accès.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Cette dimension fait référence aux règles de recherche internes à Adobe. La 
 >
 >Si votre entreprise suit des réglementations de confidentialité strictes dans lesquelles l’[obscurcissement d’adresse IP](/help/admin/admin/general-acct-settings-admin.md) ne suffit pas, vous pouvez demander la désactivation totale des données de géolocalisation. Contactez l’assistance clientèle avec l’identifiant de la suite de rapports et demandez la désactivation de l’option « Géographie » pour la suite de rapports.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Les éléments de Dimension incluent le code DMA et DMA du visiteur. Le code à 3 chiffres n’est pas un code postal, mais le code DMA de Nielsen. Les exemples de valeurs comprennent `"Dallas-Ft. Worth (623)"`, `"New York (501)"` ou `"Los Angeles (803)"`. The dimension item `"No Metro (0)"` includes all international traffic outside of the United States.
+Les éléments de dimension comprennent la DMA et le code DMA du visiteur. Le code à 3 chiffres n’est pas un code postal, mais le code DMA de Nielsen. Les exemples de valeurs comprennent `"Dallas-Ft. Worth (623)"`, `"New York (501)"` ou `"Los Angeles (803)"`. L’élément de dimension `"No Metro (0)"` inclut tout le trafic international en dehors des États-Unis.
 
 ## Différences entre l’emplacement signalé et l’emplacement réel
 
