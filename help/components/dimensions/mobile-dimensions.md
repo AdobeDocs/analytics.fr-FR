@@ -1,11 +1,11 @@
 ---
 title: Dimensions mobiles
 description: Dimensions basées sur la chaîne de l’agent utilisateur de l’appareil.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,17 @@ Ces dimensions font référence à des règles de recherche internes à Adobe. L
 
 >[!NOTE]
 >
->Dimension items labeled `"None"` are non-mobile devices. Si vous souhaitez un rapport qui ne comprend que les appareils mobiles, faites glisser la dimension « Appareil mobile » dans la zone de segment du canevas de Workspace.
+>Les éléments de dimension intitulés `"None"` sont des appareils non mobiles. Si vous souhaitez un rapport qui ne comprend que les appareils mobiles, faites glisser la dimension « Appareil mobile » dans la zone de segment du canevas de Workspace.
 
-* **Prise en charge de l’audio sur l’appareil mobile** : détermine les formats de fichiers que l’appareil peut lire. Les exemples de valeurs comprennent `"MP3"`, `"AAC"` et `"MIDI Monophonic"`. Les valeurs de cette dimension ne s&#39;excluent pas mutuellement ; un accès unique peut être attribué à plusieurs éléments de dimension.
-* **Opérateur** de téléphonie mobile : Si l&#39;agent utilisateur contient un périphérique spécifique à l&#39;opérateur, l&#39;opérateur est un élément de dimension. Les exemples de valeurs comprennent `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` et `"Verizon"`.
+* **Prise en charge de l’audio sur l’appareil mobile** : détermine les formats de fichiers que l’appareil peut lire. Les exemples de valeurs comprennent `"MP3"`, `"AAC"` et `"MIDI Monophonic"`. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un accès unique peut être attribué à plusieurs éléments de dimension.
+* **Opérateur de téléphonie mobile** : si l’agent utilisateur contient un appareil spécifique à l’opérateur, l’opérateur est un élément de dimension. Les exemples de valeurs comprennent `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` et `"Verizon"`.
 * **Profondeur de couleur mobile** : profondeur de couleur de l’appareil mobile, en bits.
-* **Prise en charge des cookies sur l’appareil mobile** : détermine si l’appareil mobile prend en charge les cookies. Ce rapport n’indique pas si le navigateur accepte les cookies. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **Prise en charge des cookies sur l’appareil mobile** : détermine si l’appareil mobile prend en charge les cookies. Ce rapport n’indique pas si le navigateur accepte les cookies. Les éléments de dimension comprennent `"Supported"`, `"Not supported"` et `"Unknown"`.
 * **Appareil mobile** : l’appareil mobile utilisé par le visiteur.
-* **Numéro de l’appareil mobile** : détermine si l’appareil mobile transmet son numéro. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **Numéro de l’appareil mobile** : détermine si l’appareil mobile transmet son numéro. Les éléments de dimension comprennent `"Supported"`, `"Not supported"` et `"Unknown"`.
 * **Type d’appareil mobile** : le type d’appareil mobile. Les exemples de valeurs comprennent `"Mobile phone"`, `"Tablet"`, `"Media player"` et `"Gaming console"`.
 * **DRM mobile** : le type de DRM pris en charge par l’appareil mobile. Les exemples de valeurs comprennent `"DRM OMA forward"`, `"DRM OMA combined delivery"` et `"DRM OMA separate delivery"`.
-* **Prise en charge des images sur l’appareil mobile** : les types d’images pris en charge par les appareils mobiles. Les exemples de valeurs comprennent `"PNG"`, `"JPEG"` et `"GIF 87"`. Les valeurs de cette dimension ne s&#39;excluent pas mutuellement ; un accès unique peut être attribué à plusieurs éléments de dimension.
+* **Prise en charge des images sur l’appareil mobile** : les types d’images pris en charge par les appareils mobiles. Les exemples de valeurs comprennent `"PNG"`, `"JPEG"` et `"GIF 87"`. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un accès unique peut être attribué à plusieurs éléments de dimension.
 * **Services d’informations mobiles** : les types de services d’actualités pris en charge par l’appareil. Les appareils récents n’indiquent généralement pas ces informations.
 * **Java VM mobile** : les versions de Java prises en charge par l’appareil.
 * **Décoration du courrier sur l’appareil mobile** : détermine si l’appareil prend en charge Decomail, une fonctionnalité autrefois populaire sur les appareils japonais.
@@ -48,7 +48,7 @@ Ces dimensions font référence à des règles de recherche internes à Adobe. L
 * **Hauteur d’écran de l’appareil mobile** : la hauteur de l’écran, en pixels. Notez que les iPhone indiquent toujours `"480"`, car il est impossible de déterminer la version de l’appareil iPhone. Reportez-vous à la section ci-dessous pour déterminer la version d’un appareil iPhone.
 * **Taille de l’écran de l’appareil mobile** : les dimensions complètes de l’appareil mobile en pixels. La taille d’écran figurant dans le rapport n’indique pas l’orientation du dispositif. Quelle que soit l’orientation, chaque dispositif est associé à une résolution d’écran fixe dans le rapport. Cette taille est basée sur des recherches qui déterminent l’orientation la plus probable. Les tailles, notamment `"768x1024"` et `"1024x768"`, apparaissent dans le même rapport, chacune d’elles représentant un ou plusieurs appareils différents.
 * **Largeur d’écran de l’appareil mobile** : la largeur de l’écran, en pixels.
-* **Prise en charge de la vidéo sur l’appareil mobile** : les formats de fichiers vidéo et codecs pris en charge par l’appareil mobile. Il existe plusieurs éléments de dimension pour différents codecs de fichiers MP4 et 3GPP. Les valeurs de cette dimension ne s&#39;excluent pas mutuellement ; un accès unique peut être attribué à plusieurs éléments de dimension.
+* **Prise en charge de la vidéo sur l’appareil mobile** : les formats de fichiers vidéo et codecs pris en charge par l’appareil mobile. Il existe plusieurs éléments de dimension pour les différents codecs de fichiers MP4 et 3GPP. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un accès unique peut être attribué à plusieurs éléments de dimension.
 
 ## Classement des iPhone par modèle ou version
 
