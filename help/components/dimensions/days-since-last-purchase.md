@@ -1,25 +1,25 @@
 ---
 title: Jours depuis le dernier achat
-description: Nombre de jours entre l’accès en cours et le dernier achat effectué.
-translation-type: tm+mt
+description: Le nombre de jours entre l’accès actif et le dernier achat.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Jours depuis le dernier achat
 
-La dimension &quot;Jours depuis le dernier achat&quot; mesure la durée écoulée entre l’accès actuel du visiteur et son achat le plus récent à ce moment. Cette dimension vous aide à comprendre le comportement des visiteurs après avoir acheté sur votre site quelque chose.
+La dimension « Jours depuis le dernier achat » mesure le temps écoulé entre l’accès actif du visiteur et son dernier achat. Cette dimension vous aide à comprendre le comportement des visiteurs après avoir effectué un achat sur votre site.
 
-Les Visiteurs qui n’ont jamais acheté quelque chose ne sont pas inclus dans cette dimension. De plus, les accès déclenchés avant l’achat d’un premier visiteur ne sont pas non plus inclus. Seuls les accès après l’achat du premier visiteur sont inclus.
+Les visiteurs qui n’ont jamais effectué d’achat ne sont pas inclus dans cette dimension. De plus, les accès déclenchés avant le premier achat d’un visiteur ne sont pas inclus non plus. Seuls les accès après le premier achat d’un visiteur sont inclus.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Adobe remplit automatiquement cette dimension en fonction du [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) événement de votre mise en oeuvre. Si vous implémentez le `purchase` événement sur votre site, cette dimension fonctionne toujours.
+Adobe renseigne automatiquement cette dimension en fonction de l’événement [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) de votre mise en œuvre. Si vous implémentez l’événement `purchase` sur votre site, cette dimension fonctionne toujours.
 
 ## Éléments de dimension
 
-Les éléments de dimension comprennent le nombre de jours entre un visiteur qui a effectué le plus d’achat récemment et l’accès actuel. Chaque nombre de jours est un élément de dimension distinct, &quot;Même jour&quot; se produisant lorsqu’un visiteur a effectué le plus d’achats récents et que l’accès en cours s’est produit le même jour.
+Les éléments de dimension comprennent le nombre de jours entre le dernier achat d’un visiteur et l’accès actif. Chaque nombre de jours est un élément de dimension distinct. « Même jour » survient lorsque le dernier achat d’un visiteur et l’accès actif ont lieu le même jour.
