@@ -4,6 +4,9 @@ title: Techniques statistiques de la détection des anomalies
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
 translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '794'
+ht-degree: 100%
 
 ---
 
