@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Définir un événement à l’aide d’une variable de données contextuelles
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Les variables de données contextuelles sont spécifiées dans AppMeasurement au
  s.contextData['search_term']
 ```
 
-The [!UICONTROL Context Variables] list contains all variables that were sent to the report suite in the previous 30 days. If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking **[!UICONTROL Add variable name context data]**:
+La liste [!UICONTROL Variables contextuelles] contient toutes les variables qui ont été envoyées à la suite de rapports au cours des 30 derniers jours. Si vous connaissez le nom de la variable de données contextuelles, mais ne l’avez pas envoyée dans la suite de rapports actuelle, vous pouvez ajouter une valeur en entrant le nom de la variable et en cliquant sur **[!UICONTROL Ajouter les données contextuelles nom de la variable]** :
 
 ![](assets/add-context-variable.png)
 
@@ -35,4 +38,4 @@ Par exemple :
 
 ![](assets/processing_rule_set_event.png)
 
-Reportez-vous à la rubrique [Variables Données contextuelles](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) dans l’aide d’implémentation.
+Reportez-vous à la rubrique [Variables Données contextuelles](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/contextdata.html) dans l’aide d’implémentation.
