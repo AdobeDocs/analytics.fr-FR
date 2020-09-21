@@ -2,8 +2,11 @@
 description: Une liste complète et des descriptions des variables de configuration, des en-têtes HTTP et des signaux de données dans les appels au transfert côté serveur.
 title: Données et référence de code du transfert côté serveur
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '610'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ Une liste complète et des descriptions des variables de configuration, des en-t
 
 ## Variables de configuration {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Les paramètres dotés du préfixe `d_*` identifient des paires clé-valeur spéciales au niveau du système utilisées par nos [serveurs de collecte de données](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Voir aussi [Supported Attributes for DCS API calls (Attributs pris en charge pour les appels de l’API DCS)](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Les paramètres dotés du préfixe `d_*` identifient des paires clé-valeur spéciales au niveau du système utilisées par nos [serveurs de collecte de données](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Voir aussi [Supported Attributes for DCS API calls (Attributs pris en charge pour les appels de l’API DCS)](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Paramètre | Description |
 |--- |--- |
@@ -29,7 +32,7 @@ Ces en-têtes sont des champs contenant des informations telles que des demandes
 
 <!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
 
-| En-tête HTTP | Description |
+| En-tête HTTP | Description |
 |--- |--- |
 | Hôte | Défini sur le nom d’hôte de la collecte de données spécifique du client indiqué dans le fichier de configuration de l’hôte Analytics. Il apparaît sous la forme   `host name .demdex.net` .  Voir Signification des appels vers le domaine Demdex (Understanding Calls to the Demdex Domain). |
 | User-Agent | Défini sur l’en-tête User-Agent transmis à Analytics. |
@@ -40,7 +43,7 @@ Ces en-têtes sont des champs contenant des informations telles que des demandes
 
 ## Signaux définis par le client {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signal | Description |
 |--- |--- |
@@ -65,7 +68,7 @@ Les paramètres dotés du préfixe `c_` identifient les variables définies par 
 | c_linkExitURL | URL du lien de sortie. |
 | c_list# | Variables de liste personnalisées. |
 | c_longitude | Longitude numérique. |
-| c_mediaPlayerType | Pour les demandes de suivi du flux multimédia. Les options incluent :  autre, primetime |
+| c_mediaPlayerType | Pour les demandes de suivi du flux multimédia. Les options incluent : autre, primetime |
 | c_pageName | Nom de la page (si défini). |
 | c_pageURL | Adresse de la page dans la barre d’adresse du navigateur. |
 | c_products | Chaîne de produit (définie par s.products ). |
