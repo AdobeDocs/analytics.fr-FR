@@ -1,11 +1,11 @@
 ---
 title: Prop
 description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
-translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ Chaque prop collecte des données de la chaîne de requête [`c1` - `c75` ](/hel
 
 AppMeasurement, qui compile les variables JavaScript en une demande d’image pour la collecte de données, utilise les variables `prop1` - `prop75`. Consultez [prop](/help/implement/vars/page-vars/prop.md) dans le guide d’utilisation de mise en œuvre pour obtenir des instructions de mise en œuvre.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Les props contenant des chaînes personnalisées dans votre implémentation, votre organisation détermine les éléments de dimension de chaque prop. Make sure you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Étant donné que les props contiennent des chaînes personnalisées dans votre mise en œuvre, votre organisation détermine les éléments de dimension de chaque prop. Veillez à enregistrer l’objectif de chaque prop et les éléments de dimension standards dans un [document de conception de solution](/help/implement/prepare/solution-design.md).
 
 ## Respect de la casse
 
-Par défaut, les props ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de rapports est utilisée. Le Data Warehouse affiche la première valeur rencontrée pendant la période de demande.
+Par défaut, les props ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de rapports est utilisée. Data Warehouse affiche la première valeur rencontrée pendant la période de demande.
 
-Vous pouvez rendre toute prop sensible à la casse. Vous pouvez également désactiver le respect de la casse pour toute prop une fois qu’elle est activée. Contactez le service à la clientèle d’Adobe avec l’identifiant de la suite de rapports et les variables souhaitées pour inverser la sensibilité à la casse.
+Vous pouvez rendre toute prop sensible à la casse. Vous pouvez également désactiver le respect de la casse pour toute prop où il est activé. Contactez l’assistance clientèle d’Adobe avec l’identifiant de suite de rapports et les variables souhaitées pour inverser le respect de la casse.
 
 >[!IMPORTANT]
 >
->Le basculement de la sensibilité à la casse peut masquer des éléments de dimension, provoquer des résultats inattendus avec des segments et provoquer des problèmes avec les filtres. L’Adobe recommande vivement de modifier ce paramètre entre deux périodes principales, telles que le début d’un mois ou d’une année.
+>Activer/désactiver le respect de la casse peut réduire drastiquement les éléments de dimension, provoquer des résultats inattendus avec des segments et provoquer des problèmes avec les filtres. Adobe recommande vivement de modifier ce paramètre entre deux périodes importantes, comme au début d’un mois ou d’une année.
 
 ## Valeur des props par rapport aux eVars
 
