@@ -1,26 +1,26 @@
 ---
 title: Type de référent
 description: Le type de référent en fonction de la provenance du visiteur.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # Type de référent
 
-La dimension « Type de référent » indique les canaux génériques sur lesquels les visiteurs ont cliqué pour arriver sur votre site. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
+La dimension « Type de référent » indique les canaux génériques sur lesquels les visiteurs ont cliqué pour arriver sur votre site. Adobe conserve les règles pour chaque élément de dimension, à la différence des [canaux marketing](marketing-channel.md), où votre entreprise conserve les règles pour chaque canal.
 
 ## Renseignement de cette dimension avec des données
 
 Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Les éléments de Dimension incluent le type de parrain de l’accès. Les valeurs spécifiques incluent les éléments suivants :
+Les éléments de dimension comprennent le type de référent de l’accès. Les valeurs spécifiques incluent les éléments suivants :
 
 * **Tapé/Marqué d’un signet** : l’accès ne contient aucune donnée de référent.
 * **Moteurs de recherche** : le référent provient d’un moteur de recherche reconnu comprenant une chaîne de requête de mot-clé.
@@ -195,9 +195,9 @@ La liste suivante fait référence à la table de recherche « Réseaux sociaux
 * `zooomr.com`
 * `zhihu.com`
 
-### Moteurs de recherche dans l’élément de dimension &quot;Autres sites Web&quot;
+### Moteurs de recherche dans l’élément de dimension « Autres sites Web »
 
 Lorsque vous consultez des domaines spécifiques dans la dimension « Type de référent », il se peut que certains domaines soient répertoriés sous « Autres sites Web » et non sous « Moteurs de recherche ». Par exemple, `'google.com'` pourrait se trouver sous « Autres sites Web ».
 
-* **Domaines de moteurs de recherche dans l’élément** de dimension &quot;Moteurs de recherche&quot; : Le parrain répondait à tous les critères pour être classé comme moteur de recherche par Adobe. Le domaine référent est un moteur de recherche valide *et* l’URL de référence contient un paramètre de chaîne de requête de mot-clé.
-* **Domaines de moteurs de recherche dans l’élément** de dimension &quot;Autres sites Web&quot; : L&#39;URL référente ne répondait pas à tous les critères de classification en tant que moteur de recherche. Les exemples courants comprennent les sous-domaines dédiés à d’autres fonctionnalités que la recherche. Par exemple, `mail.google.com` ou `autos.yahoo.com` ne sont pas des moteurs de recherche, mais résident sur un domaine de niveau supérieur généralement associé à la recherche. Ces sous-domaines ne comprennent pas de chaîne de requête de mot-clé, c’est pourquoi ils se trouvent dans « Autres sites Web » au lieu de « Moteurs de recherche ».
+* **Domaines de moteur de recherche dans l’élément de dimension « Moteurs de recherche »** : le référent répond à tous les critères pour être classé comme moteur de recherche par Adobe. Le domaine référent est un moteur de recherche valide *et* l’URL de référence contient un paramètre de chaîne de requête de mot-clé.
+* **Domaines de moteur de recherche dans l’élément de dimension « Autres sites Web »** : l’URL de référence ne répond pas à tous les critères pour être classés comme moteur de recherche. Les exemples courants comprennent les sous-domaines dédiés à d’autres fonctionnalités que la recherche. Par exemple, `mail.google.com` ou `autos.yahoo.com` ne sont pas des moteurs de recherche, mais résident sur un domaine de niveau supérieur généralement associé à la recherche. Ces sous-domaines ne comprennent pas de chaîne de requête de mot-clé, c’est pourquoi ils se trouvent dans « Autres sites Web » au lieu de « Moteurs de recherche ».
