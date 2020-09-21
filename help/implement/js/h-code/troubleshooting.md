@@ -18,7 +18,7 @@ Vous trouverez ci-dessous les étapes de dépannage spécifiques aux mises en œ
 
 >[!NOTE]
 >
-> Bien que les mises en œuvre du code H exigent que le code soit référencé dans la balise `<body>`, d’autres mises en œuvre (telles que l’utilisation d’Adobe Experience Platform Launch) nécessitent que le code soit référencé dans la balise `<head>`.
+>Bien que les mises en œuvre du code H exigent que le code soit référencé dans la balise `<body>`, d’autres mises en œuvre (telles que l’utilisation d’Adobe Experience Platform Launch) nécessitent que le code soit référencé dans la balise `<head>`.
 
 Le code Analytics crée une image invisible de 1x1 pixel. Auparavant, il était courant de placer la référence `s_code.js` dans la balise `<head>`. Le placement du code à cet endroit a empêché l’image d’affecter la mise en page de quelque manière que ce soit. Il s’exécute également plus tôt, ce qui permet de comptabiliser les pages vues pour les chargements de page partiels de façon plus efficace.
 
