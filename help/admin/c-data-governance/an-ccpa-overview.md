@@ -3,7 +3,7 @@ description: Ce document décrit la marche à suivre dans Adobe Analytics pour p
 title: Adobe Analytics et le CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '641'
 ht-degree: 100%
