@@ -1,11 +1,11 @@
 ---
 title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | SC-TnT | `tntbase` |
 | Moteur de recherche | `searchengine` |
 | Mot-clé de recherche | `searchenginekeyword` |
-| Moteur de recherche  - Naturel | `searchenginenatural` |
+| Moteur de recherche - Naturel | `searchenginenatural` |
 | Moteur de recherche - Payant | `searchenginepaid` |
 | Mot-clé de recherche - Naturel | `searchenginenaturalkeyword` |
 | Mot-clé de recherche - Payant | `searchenginepaidkeyword` |
@@ -275,8 +275,8 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Balise mineure | `mobilebeaconminor` |
 | UUID de la balise | `mobilebeaconuuid` |
 | Proximité de la balise | `mobilebeaconproximity` |
-| Lieu (jusqu’à 10 km) | `latlon1` |
-| Lieu (jusqu’à 100 m) | `latlon23` |
+| Lieu (jusqu’à 10 km) | `latlon1` |
+| Lieu (jusqu’à 100 m) | `latlon23` |
 | Lieu (jusqu’à 1 m) | `latlon45` |
 | Nom du point ciblé | `pointofinterest` |
 | Distance jusqu’au centre du point ciblé | `pointofinterestdistance` |
@@ -306,7 +306,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Lien d’Activity Map par région | `clickmaplinkbyregion` |
 | Région d’Activity Map | `clickmapregion` |
 | Lien d’Activity Map | `clickmaplink` |
-| Activity Map  Page | `clickmappage` |
+| Activity Map Page | `clickmappage` |
 
 ### Intégration Nielsen
 
