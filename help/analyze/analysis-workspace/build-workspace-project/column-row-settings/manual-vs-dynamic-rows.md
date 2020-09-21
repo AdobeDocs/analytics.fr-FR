@@ -1,55 +1,55 @@
 ---
 title: Éléments de dimension dynamiques ou statiques dans les tableaux à structure libre
-description: Comment interagir avec des éléments de dimension dynamiques et statiques dans des tableaux.
-translation-type: tm+mt
+description: Interaction avec des éléments de dimension dynamiques et statiques dans des tableaux.
+translation-type: ht
 source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # Éléments de dimension dynamiques ou statiques dans les tableaux à structure libre
 
-Dans les tableaux à structure libre, les rangées et les colonnes peuvent contenir diverses valeurs de composant. Ces valeurs peuvent être dynamiques (changer avec le temps) ou statiques (ne pas changer avec le temps), selon l’analyse que vous souhaitez construire.
+Dans les tableaux à structure libre, les lignes et les colonnes peuvent contenir diverses valeurs de composant. Ces valeurs peuvent être dynamiques (changent avec le temps) ou statiques (ne changent pas avec le temps), selon l’analyse que vous souhaitez créer.
 
-## Éléments de dimension dynamique
+## Éléments de dimension dynamiques
 
-Les éléments de dimension dynamique changent avec le temps et dépendent de la mesure triée par dans le tableau à structure libre. Les éléments de dimension dynamique sont préférés lorsque vous souhaitez analyser les principaux éléments pour une période donnée.
+Les éléments de dimension dynamiques changent avec le temps et dépendent de la mesure de tri dans le tableau à structure libre. Les éléments de dimension dynamiques sont recommandés lorsque vous souhaitez analyser les éléments principaux d’une période donnée.
 
-Lorsque vous déposez une dimension dans un tableau à structure libre, des lignes dynamiques sont renvoyées. Ils représentent les principaux éléments qui correspondent à la dimension pour une mesure et une période données. Vous pouvez également déposer une dimension dans des colonnes de tableau à structure libre et la dimension se développe automatiquement dans les 5 premiers éléments de dimension.
+Lorsque vous déposez une dimension dans un tableau à structure libre, des lignes dynamiques sont renvoyées. Elles représentent les éléments principaux qui correspondent à la dimension pour une mesure et une période données. Vous pouvez également déposer une dimension dans des colonnes de tableau à structure libre et la dimension se développe automatiquement dans les 5 premiers éléments de dimension.
 
-Par exemple, lorsque vous faites glisser la dimension Type de navigateur dans le tableau, les principaux éléments de dimension Type de navigateur (par exemple Microsoft, Apple, Google, etc.) revient dynamiquement aux rangées du tableau. Si vous les insérez dans une colonne, les 5 premiers éléments de dimension Type de navigateur renvoient dynamiquement.
+Par exemple, lorsque vous faites glisser la dimension Type de navigateur dans le tableau, les premiers éléments de dimension Type de navigateur (par exemple, Microsoft, Apple, Google, etc.) sont dynamiquement renvoyés aux lignes du tableau. Si vous les déposez dans une colonne, les 5 premiers éléments de dimension Type de navigateur sont dynamiquement renvoyés.
 
-Les éléments de dimension dynamique disposent de l’option de filtre de ligne et n’ont **pas** de verrou et d’icônes X.
+Les éléments de dimension dynamiques disposent de l’option de filtre de ligne, mais ne disposent **pas** de l’icône en forme de verrou et de l’icône X.
 
 ![](assets/dynamic-items.png)
 
-## Éléments de dimension statique
+## Éléments de dimension statiques
 
-Les éléments de dimension statique ne changent pas avec le temps ; il s’agit de composants fixes qui sont toujours renvoyés dans un tableau à structure libre. Les éléments de dimension statique sont préférés lorsque vous souhaitez toujours analyser le même élément, qu’il s’agisse de campagnes spécifiques ou de jours spécifiques dans la semaine.
+Les éléments de dimension statiques ne changent pas avec le temps. Il s’agit de composants fixes toujours renvoyés dans un tableau à structure libre. Les éléments de dimension statiques sont recommandés lorsque vous souhaitez toujours analyser le même élément, qu’il s’agisse de campagnes spécifiques ou de jours précis de la semaine.
 
-Chaque fois que vous sélectionnez et déposez manuellement des valeurs de composant spécifiques (dimension, mesure, segment, plage de dates) dans un tableau, le résultat est une liste statique de lignes ou de colonnes. Vous pouvez également créer des éléments de dimension statique si vous choisissez :
+Chaque fois que vous sélectionnez et déposez manuellement des valeurs de composant spécifiques (dimension, mesure, segment, période) dans un tableau, le résultat se présente sous la forme d’une liste statique de lignes ou de colonnes. Vous pouvez également créer des éléments de dimension statiques si vous le souhaitez, en procédant comme suit :
 
-* Dans les lignes, cliquez avec le bouton droit de la souris > [!UICONTROL Afficher uniquement les lignes sélectionnées.]
-* Dans les colonnes, cliquez avec le bouton droit de la souris > [!UICONTROL Rendre l’élément statique]
+* Dans les lignes, clic droit > [!UICONTROL Afficher uniquement les lignes sélectionnées]
+* Dans les colonnes, clic droit > [!UICONTROL Rendre l’élément statique]
 
-Par exemple, lorsque vous faites glisser des éléments de type navigateur spécifiques tels que Microsoft et Apple, ces deux éléments spécifiques sont toujours extraits dans le tableau.
+Par exemple, lorsque vous faites glisser des éléments Type de navigateur spécifiques tels que Microsoft et Apple, ces deux éléments spécifiques sont toujours extraits dans le tableau.
 
-Les éléments de dimension statique **ne disposent pas** de l’option de filtre de ligne. A la place, des icônes de verrouillage et X sont présentes sur chaque élément. Cliquez sur l’icône X pour supprimer cet élément de dimension du tableau.
+Les éléments de dimension statiques ne disposent **pas** de l’option de filtre de ligne. En revanche, chaque élément comporte l’icône en forme de verrou et l’icône X. Cliquez sur l’icône X pour supprimer cet élément de dimension du tableau.
 
 ![](assets/static-items.png)
 
 ## Éléments de dimension mixtes
 
-Les éléments de dimension de différentes dimensions peuvent être ajoutés au même tableau. Dans ces cas, l’en-tête de ligne indique &quot;Dimensions mixtes&quot;. Ces éléments de dimension sont statiques. Par exemple, l’ajout d’éléments de dimension spécifiques de la dimension Type de navigateur et d’autres éléments de dimension de la dimension Navigateur.
+Vous pouvez ajouter des éléments de dimension de différentes dimensions au même tableau. Dans ces cas, l’en-tête de ligne indique « Dimensions mixtes ». Ces éléments de dimension sont statiques. Par exemple, l’ajout d’éléments de dimension spécifiques de la dimension Type de navigateur et d’autres éléments de dimension de la dimension Navigateur.
 
 ![](assets/mixed-dimensions.png)
 
-## Lignes totales de forme libre
+## Lignes totales à structure libre
 
-Les lignes dynamiques et statiques se comportent différemment dans la ligne de total à structure libre. Par défaut:
+Les lignes dynamiques et statiques se comportent différemment dans la ligne de total à structure libre. Par défaut :
 
-* Les lignes dynamiques sont additionnées de mesures côté serveur et de duplicata, telles que les visites ou les visiteurs.
-* Les lignes statiques sont additionnées côté client et **ne déduisent pas** les mesures de duplicata. Pour calculer le total des lignes côté serveur, définissez le paramètre Ligne sur **Afficher le total** général. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
+* Les lignes dynamiques sont additionnées côté serveur et dédupliquent les mesures, telles que les visites ou les visiteurs.
+* Les lignes statiques sont additionnées côté client et ne dédupliquent **pas** les mesures. Pour calculer la ligne de total côté serveur, définissez le paramètre des lignes sur **Afficher le total général**. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
