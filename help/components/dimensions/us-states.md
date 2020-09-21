@@ -1,11 +1,11 @@
 ---
 title: États américains
 description: État américain du visiteur.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Cette dimension fait référence aux règles de recherche internes à Adobe. La 
 >
 >Si votre entreprise suit des réglementations de confidentialité strictes dans lesquelles l’[obscurcissement d’adresse IP](/help/admin/admin/general-acct-settings-admin.md) ne suffit pas, vous pouvez demander la désactivation totale des données de géolocalisation. Contactez l’assistance clientèle avec l’identifiant de la suite de rapports et demandez la désactivation de l’option « Géographie » pour la suite de rapports.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Les éléments de Dimension incluent les régions et le pays dans lequel la région réside. Les exemples de valeurs comprennent `"California"`, `"Texas"` ou `"Virginia"`. The dimension item `"Unspecified"` includes all international traffic outside of the United States.
+Les éléments de dimension comprennent les régions et le pays dans lequel se trouve la région. Les exemples de valeurs comprennent `"California"`, `"Texas"` ou `"Virginia"`. L’élément de dimension `"Unspecified"` inclut tout le trafic international en dehors des États-Unis.
 
-Cette dimension peut inclure `"AOL"`un prestataire Internet à ligne commutée. Un point d’accès est affecté aux abonnés à ce service. Les utilisateurs d’AOL utilisent l’adresse IP de ce point d’accès. Cette dimension étant basée sur l’adresse IP, la géolocalisation du point d’accès est utilisée à la place de l’emplacement réel de l’visiteur.
+Cette dimension peut inclure `"AOL"`, un fournisseur d’accès Internet. Un point d’accès est attribué aux abonnés à ce service. Les utilisateurs d’AOL utilisent l’adresse IP de ce point d’accès. Cette dimension étant basée sur l’adresse IP, la géolocalisation du point d’accès est utilisée à la place de l’emplacement réel du visiteur.
 
 ## Différences entre l’emplacement signalé et l’emplacement réel
 
