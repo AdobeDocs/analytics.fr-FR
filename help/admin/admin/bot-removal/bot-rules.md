@@ -105,9 +105,9 @@ Chaque ligne du fichier d’importation ne peut contenir que l’une des défini
 
 * **Correspondance de plage IP** : définissez une plage d’adresses IP à l’aide des colonnes Début IP et Fin IP. Vous pouvez utiliser des caractères génériques pour faire correspondre des plages d’adresses IP ; par exemple `10.10.10.*` avec `10.10.20.*`. Règle de correspondance de l’agent, Agent - Inclure et Agent - Exclure doivent être vides.
 
-### Combinaison de plusieurs règles avec l’opérateur « OU »
+### Combinaison de plusieurs règles avec l’opérateur « OR »
 
-Pour établir une correspondance avec un robot à l’aide d’une combinaison de règles associées par un opérateur « OU » (par exemple, agent utilisateur OU adresse IP), indiquez un nom identique pour toutes les règles à combiner dans le champ du nom de robot. Les correspondances « ET » ne sont pas prises en charge.
+Pour établir une correspondance avec un robot à l’aide d’une combinaison de règles associées par un opérateur « OU » (par exemple, agent utilisateur OU adresse IP), indiquez un nom identique pour toutes les règles à combiner dans le champ du nom de robot. Les correspondances « AND » ne sont pas prises en charge.
 
 ### Remplacer toutes les règles par un fichier de téléchargement
 
