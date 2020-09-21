@@ -3,7 +3,7 @@ description: Activer la gestion des applications permet d’activer les variable
 title: Gestion des applications
 topic: Admin tools
 translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
 workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
@@ -73,7 +73,7 @@ Les classifications permettent de catégoriser des valeurs dans des groupes et d
 | Contenu de l’acquisition |  |
 | Nom de l’acquisition |  |
 | Lieu (jusqu’à 10 km) | Renseigné par les méthodes trackLocation. |
-| Lieu (jusqu’à 100 km) | Renseigné par les méthodes trackLocation. |
+| Lieu (jusqu’à 100 m) | Renseigné par les méthodes trackLocation. |
 | Lieu (jusqu’à 1 m) | Renseigné par les méthodes trackLocation. |
 | Nom du point ciblé | Renseigné par les méthodes trackLocation lorsque l’appareil est dans un point ciblé défini. |
 | Distance jusqu’au centre du point ciblé | Renseigné par les méthodes trackLocation lorsque l’appareil est dans un point ciblé défini. |
