@@ -2,8 +2,11 @@
 description: Selon vos autorisations, vous pouvez partager des mesures calculées avec l’ensemble de l’entreprise, des groupes ou des utilisateurs individuels.
 title: Partage des mesures calculées
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '275'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ A quel moment devriez-vous partager des mesures calculées à l’échelle de l�
 
 * En tant qu’administrateur, partagez une mesure avec **[!UICONTROL Tous]** s’il est utile à l’ensemble de l’entreprise et si tout le monde sait l’utiliser correctement. Dans ce cas, vous devez également envisager d’en faire une mesure approuvée.
 * En tant qu’administrateur, partagez une mesure avec un **[!UICONTROL Groupe]** spécifique si la mesure offre une valeur ajoutée intéressante à l’équipe en question.
-* En tant qu’administrateur ou utilisateur individuel, le partage d’une mesure avec d’autres individus approuve et valide la mesure en question. S’il ne s’avère pas utile, elle peut être ignorée. N’approuvez pas officiellement ce type de mesure.
+* En tant qu’administrateur ou utilisateur individuel, le partage d’une mesure avec d’autres individus approuve et valide la mesure en question. S’il ne s’avère pas utile, il peut être ignoré. N’approuvez pas officiellement ce type de mesure.
 
 1. Dans le Gestionnaire de mesures calculées, cochez la case en regard de la mesure que vous souhaitez partager. La barre des tâches s’affiche :
 
