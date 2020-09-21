@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '3667'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -47,7 +47,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `click_context_type` | N’est plus utilisé. Indique si click_context avait un nom de page ou une URL de page par défaut.<br>0 : URL de la page<br>1 : Nom de la page | tinyint sans signe |
 | `click_sourceid` | N’est plus utilisé. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil hérité Clickmap. | int sans signe |
 | `click_tag` | N’est plus utilisé. Type d’élément HTML sur lequel on a cliqué. | char(10) |
-| `clickmaplink` | Activity Map  lien | varchar(255) |
+| `clickmaplink` | Activity Map lien | varchar(255) |
 | `clickmaplinkbyregion` | Lien d’Activity Map par région | varchar(255) |
 | `clickmappage` | Page d’Activity Map | varchar(255) |
 | `clickmapregion` | Région d’Activity Map | varchar(255) |
@@ -84,7 +84,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `geo_region` | Nom de l’état ou de la région d’où provient l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et l’état/la région. | char(32) |
 | `geo_zip` | Le code postal d’origine de l’accès, basé sur l’IP. Adobe travaille en partenariat avec Digital Envoy pour établir une correspondance entre l’adresse IP et le code postal. | varchar(16) |
 | `hier1 - hier5` | Utilisé par les variables de hiérarchie. Contient une liste délimitée de valeurs. Le délimiteur est sélectionné dans les paramètres de la suite de rapports. | varchar(255) |
-| `hit_source` | Indique la source de l’accès. Les sources d’accès 1, 2 et 6 sont facturées. <br>1 : Demande d’image standard sans horodatage <br>2 : Demande d’image standard avec horodatage <br>3 : Chargement de la source de données en direct avec horodatages <br>4 : Non utilisé <br>5 : Transfert de source de données générique <br>6 : Transfert de source de données à traitement complet <br>7 : Transfert de la source de données TransactionID <br>8 : Plus utilisé ; Versions précédentes des sources de données Adobe Advertising Cloud <br>9 : Plus utilisé ; Mesures récapitulatives Adobe Social <br>10 : audience manager de transfert côté serveur utilisée | tinyint sans signe |
+| `hit_source` | Indique la source de l’accès. Les sources d’accès 1, 2 et 6 sont facturées. <br>1 : demande d’image standard sans horodatage <br>2 : demande d’image standard avec horodatage <br>3 : chargement de source de données actif avec horodatage <br>4 : inutilisée <br>5 : chargement de source de données générique <br>6 : chargement de source de données de traitement complet <br>7 : chargement de source de données TransactionID <br>8 : n’est plus utilisée ; versions précédentes des sources de données Adobe Advertising Cloud <br>9 : n’est plus utilisée ; mesures de résumé Adobe Social <br>10 : transfert côté serveur Audience Manager utilisé | tinyint sans signe |
 | `hit_time_gmt` | L’horodatage des serveurs de collecte de données Adobe ayant reçu l’accès, basé sur l’heure Unix. | int |
 | `hitid_high` | Utilisée en combinaison avec hitid_low pour identifier de manière unique un accès. | bigint sans signe |
 | `hitid_low` | Utilisée en combinaison avec hitid_high pour identifier de manière unique un accès. | bigint sans signe |
@@ -99,8 +99,8 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `last_hit_time_gmt` | Horodatage (en heure Unix) de l’accès précédent. Utilisé pour calculer la dimension Jours depuis la dernière visite. | int |
 | `last_purchase_num` | Variable utilisée dans la dimension Fidélisation des clients. Indique le nombre d’achats précédents effectués par le visiteur. <br>0 : Aucun achat auparavant (n’est pas client) <br>1 : 1 achat précédent (nouveau client) <br>2 : 2 achats précédents (client de retour) <br>3 : 3 achats précédents ou plus (client fidèle) | int sans signe |
 | `last_purchase_time_gmt` | Utilisée dans la dimension Jours depuis le dernier achat. Horodatage (en heure Unix) du dernier achat effectué. Pour les premiers achats et les visiteurs qui n’avaient jamais effectué d’achat auparavant, cette valeur est de 0. | int |
-| `latlon1` | Lieu (jusqu’à 10 km) | varchar(255) |
-| `latlon23` | Lieu (jusqu’à 100 m) | varchar(255) |
+| `latlon1` | Lieu (jusqu’à 10 km) | varchar(255) |
+| `latlon23` | Lieu (jusqu’à 100 m) | varchar(255) |
 | `latlon45` | Lieu (jusqu’à 1 m) | varchar(255) |
 | `mc_audiences` | Liste des identifiants de segment Audience Manager auxquels le visiteur appartient. | text |
 | `mcvisid` | Identifiant visiteur Experience Cloud. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
@@ -200,7 +200,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `socialownedpropertypropertyvsapp` | N’est plus utilisé. Propriété détenue sur réseau social/application | varchar(255) |
 | `state` | Variable d’état. | varchar(50) |
 | `stats_server` | Inutilisable. Serveur interne d’Adobe qui a traité l’accès. | char(30) |
-| `t_time_info` | Heure locale pour le visiteur. Le format est le suivant :  M/J/AAAA HH:MM:SS Mois (0-11, 0=Janvier) Fuseau horaire (en minutes) | varchar(100) |
+| `t_time_info` | Heure locale pour le visiteur. Le format est le suivant : M/J/AAAA HH:MM:SS Mois (0-11, 0=Janvier) Fuseau horaire (en minutes) | varchar(100) |
 | `tnt` | Utilisée dans les intégrations Adobe Target. | text |
 | `tnt_action` | Utilisée dans les intégrations Adobe Target. | text |
 | `tnt_post_vista` | N’est plus utilisé. Utilisez post_tnt à la place. | text |
@@ -213,7 +213,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `user_hash` | Inutilisable. Hachage de l’identifiant de suite de rapports. Utilisez le nom d’utilisateur à la place. | int sans signe |
 | `user_server` | Variable utilisée dans la dimension Serveur. | varchar(100) |
 | `userid` | Inutilisable. Identifiant numérique pour l’identifiant de suite de rapports. Utilisez le nom d’utilisateur à la place. | int sans signe |
-| `username` | Identifiant de la suite de rapports  pour l’accès. | char(40) |
+| `username` | Identifiant de la suite de rapports pour l’accès. | char(40) |
 | `va_closer_detail` | Variable utilisée dans la dimension Détails de Dernière touche. | varchar(255) |
 | `va_closer_id` | Identifiant numérique qui identifie la dimension Canal Dernière touche. La recherche de cet identifiant se trouve dans le gestionnaire des canaux marketing. | tinyint sans signe |
 | `va_finder_detail` | Variable utilisée dans la dimension Détails de Première touche. | varchar(255) |
