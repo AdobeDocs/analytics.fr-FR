@@ -1,8 +1,11 @@
 ---
 title: Mise en œuvre d’Analytics pour les assistants numériques
 description: Mettez en œuvre Adobe Analytics sur des assistants numériques, tels qu’Amazon Alexa ou Google Home.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1266'
+ht-degree: 100%
 
 ---
 
