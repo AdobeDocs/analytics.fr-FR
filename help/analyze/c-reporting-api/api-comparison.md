@@ -2,11 +2,11 @@
 description: Tableau de comparaison des API de création de rapports dans Analytics. Vous y trouverez également des liens vers la documentation afférente.
 title: Comparaison des API de création de rapports dans Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,8 +53,8 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html"  > Interfaces de création de rapports</a> </td> 
-   <td colname="col2"> Analysis Workspace, rapports et Analytics, Report Builder, API </td> 
-   <td colname="col3"> Rapport en temps réel dans les rapports et Analytics, Report Builder, API 1.4 </td> 
+   <td colname="col2"> Analysis Workspace, Reports &amp; Analytics, Report Builder, API </td> 
+   <td colname="col3"> Rapport en temps réel dans Reports &amp; Analytics, Report Builder et l’API 1.4 </td> 
    <td colname="col4"> API seulement </td> 
    <td colname="col5"> Data Warehouse et API </td> 
   </tr> 
