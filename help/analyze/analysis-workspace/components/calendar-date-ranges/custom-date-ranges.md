@@ -6,6 +6,9 @@ topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Créez des périodes personnalisées dans Analysis Workspace et enregistrez-les sous la forme de composants de type Heure.
 
-**[!UICONTROL Components]** > **[!UICONTROL New Date Range]**
+**[!UICONTROL Composants]** > **[!UICONTROL Nouvelle période]**
 
 Une période s’applique au niveau du panneau. Pour ajouter une période au projet, cliquez sur **Panneaux** > *`<select panel>`*, puis spécifiez une nouvelle période.
 
@@ -24,7 +27,7 @@ La période personnalisée suivante présente une période pour « deux mois au
 
 ![](assets/date-range-two-months-ago.png)
 
-La période personnalisée s’affiche au haut du panneau du composant [!UICONTROL Date Range] dans votre projet :
+La plage de dates personnalisée s’affiche au haut du panneau du composant [!UICONTROL Plage de dates] dans votre projet :
 
 ![](assets/date-range-panel-two-months-ago.png)
 
