@@ -24,7 +24,7 @@ ht-degree: 98%
    + Création d’un projet Workspace {#build-workspace-project}
       + [Aperçu de la création d’un projet](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Création d’un projet Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
-      + [Enregistrer des projets](analysis-workspace/build-workspace-project/save-projects.md)
+      + [Enregistrement des projets](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modèles](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Suites de rapports multiples dans Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + Paramètres des colonnes et des lignes {#column-row-settings}
@@ -87,7 +87,7 @@ ht-degree: 98%
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panneau Visionneuses simultanées de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
+      + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Panneau de comparaison des segments {#segment-comparison}
          + [Comparaison des segments - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Cas d’utilisation de la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
@@ -241,7 +241,7 @@ ht-degree: 98%
       + [Bonnes pratiques](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Dépannage de l’intégration de Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Packs de contenu Adobe Analytics pour Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [macros Visual Basic](report-builder/vba.md)
+   + [Macros Visual Basic](report-builder/vba.md)
    + [Dépannage des Reports Builder](report-builder/troubleshoot.md)
    + [FAQ sur le Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
