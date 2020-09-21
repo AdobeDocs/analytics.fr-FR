@@ -4,6 +4,9 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: Gestion des sources de données
 translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+workflow-type: ht
+source-wordcount: '562'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ La gestion d’une source de données permet d’afficher la source de données 
 
 1. [Créez un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) avec un tableau de données et une [visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. Dans le tableau de données, sélectionnez les cellules (source de données) à associer à la visualisation.
-1. Dans la visualisation, cliquez sur le point en regard du titre pour ouvrir la boîte de dialogue **[!UICONTROL Data Source]**. Sélectionnez **[!UICONTROL Show Data Source]** ou **[!UICONTROL Lock Selection]**.
+1. Dans la visualisation, cliquez sur le point en regard du titre pour ouvrir la boîte de dialogue **[!UICONTROL Source de données]**. Sélectionnez **[!UICONTROL Afficher la source de données]** ou **[!UICONTROL Verrouiller la sélection]**.
 
    ![](assets/manage-data-source.png)
 
