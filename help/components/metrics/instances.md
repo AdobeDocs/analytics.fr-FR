@@ -1,18 +1,18 @@
 ---
-title: 'Instances '
+title: Instances
 description: Nombre d’accès pour lesquels une variable (non persistante) a été définie.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 
-# Instances 
+# Instances
 
-La mesure « Instances » indique le nombre de fois où une dimension a été explicitement définie dans une demande d’image. Some dimensions, such as [eVars](../dimensions/evar.md), persist dimension items past the hit they are set on. Cette mesure s’avère utile lorsque vous souhaitez voir le nombre de fois où un élément de dimension a été défini sans les accès pour lesquels cette valeur a persisté.
+La mesure « Instances » indique le nombre de fois où une dimension a été explicitement définie dans une demande d’image. Certaines dimensions, telles que les [eVars](../dimensions/evar.md), conservent les éléments de dimension au-delà de l’accès sur lequel ils sont définis. Cette mesure s’avère utile lorsque vous souhaitez voir le nombre de fois où un élément de dimension a été défini sans les accès pour lesquels cette valeur a été conservée.
 
 ## Méthode de calcul de cette mesure
 
