@@ -1,23 +1,23 @@
 ---
-title: Types de système d’exploitation
-description: Système d’exploitation, quelle que soit la version.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+title: Types de systèmes d’exploitation
+description: Le système d’exploitation, quelle que soit la version.
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Types de système d’exploitation
+# Types de systèmes d’exploitation
 
-La dimension &quot;Types de système d’exploitation&quot; indique le système d’exploitation global utilisé par le visiteur, quelles que soient les versions spécifiques. Cette dimension est utile pour comprendre non seulement quel système d’exploitation et quelle version spécifique sont les plus courants, mais aussi quelle plate-forme de système d’exploitation utilisent généralement les visiteurs.
+La dimension « Types de systèmes d’exploitation » indique le système d’exploitation global utilisé par le visiteur, quelle que soit la version spécifique. Cette dimension est utile pour identifier le système d’exploitation et la version spécifique les plus courants, mais aussi la plateforme de système d’exploitation généralement utilisée par les visiteurs.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à une table de choix interne à Adobe. La valeur de recherche est basée sur l’en-tête `User-Agent` HTTP dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par exemple par le biais du lancement d’Adobe Experience Platform), cette dimension est prête à l’emploi.
+Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par le biais d’Adobe Experience Platform Launch, par exemple), cette dimension est prête à l’emploi.
 
 ## Éléments de dimension
 
-Les éléments de dimension incluent le type de systèmes d’exploitation utilisés. Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
+Les éléments de dimension incluent le type de système d’exploitation utilisé. Par exemple, `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"` ou `"Apple iOS"`.
