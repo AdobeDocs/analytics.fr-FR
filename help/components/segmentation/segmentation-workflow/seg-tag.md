@@ -3,9 +3,9 @@ description: Dans le Gestionnaire de segments, le marquage de segments permet de
 title: Balisage des segments
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Tous les utilisateurs peuvent créer des balises pour les segments et en appliqu
 * Des balises basées sur des **noms d’équipe**, par exemple Marketing des réseaux sociaux, Marketing des périphériques mobiles.
 * Les balises **Projet** (balises d’analyse), telle que l’analyse de la page d’accès.
 * Les balises **Catégorie** : Hommes ; géographie.
-* **Les balises Processus : Sous réserve d’approbation ; Organisé pour (une unité opérationnelle spécifique).**
+* Les balises **Processus** : Sous réserve d’approbation ; Organisé pour (une unité opérationnelle spécifique).
 
 1. Dans le Gestionnaire de segments, cochez la case en regard du segment que vous souhaitez marquer. La barre d’outils de gestion des segments apparaît :
 
