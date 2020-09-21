@@ -1,11 +1,11 @@
 ---
 title: eVar
 description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon 
 
 Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 250 eVar.
 
-Les eVars ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de rapports est utilisée. Le Data Warehouse affiche la première valeur rencontrée pendant la période de demande.
+Les eVars ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de rapports est utilisée. Data Warehouse affiche la première valeur rencontrée pendant la période de demande.
 
 ## Renseignement des eVars avec des données
 
@@ -26,9 +26,9 @@ Chaque eVar collecte des données de la chaîne de requête [`v1` - `v250` ](/he
 
 AppMeasurement, qui compile les variables JavaScript en une demande d’image pour la collecte de données, utilise les variables `eVar1` - `eVar250`. Consultez [eVar](/help/implement/vars/page-vars/evar.md) dans le guide d’utilisation de mise en œuvre pour obtenir des instructions de mise en œuvre.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Etant donné que les eVars contiennent des chaînes personnalisées dans votre implémentation, votre organisation détermine les éléments de dimension pour chaque eVar. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Étant donné que les eVars contiennent des chaînes personnalisées dans votre implémentation, votre entreprise détermine les éléments de dimension de chaque eVar. Veillez à enregistrer l’objectif de chaque eVar et les éléments de dimension standard dans un [document de conception de solution](/help/implement/prepare/solution-design.md).
 
 ## Fonctionnement des eVars
 
