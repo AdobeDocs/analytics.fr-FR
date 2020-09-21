@@ -1,23 +1,23 @@
 ---
 title: Classement de toutes les pages de recherche
-description: Déterminez la page d'un moteur de recherche sur laquelle un visiteur a cliqué pour accéder à votre site.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+description: Déterminez la page de moteur de recherche sur laquelle un visiteur a cliqué pour accéder à votre site.
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Classement de toutes les pages de recherche
 
-La dimension &quot;Classement de toutes les pages de recherche&quot; fournit des informations sur la page des résultats de recherche sur laquelle un visiteur a cliqué pour accéder à votre site. Par exemple, si votre site apparaît sur la deuxième page des résultats de recherche d&#39;un moteur de recherche, l&#39;élément de dimension de cette variable est &quot;Recherche de la page 2&quot;.
+La dimension « Classement de toutes les pages de recherche » fournit des informations sur la page de résultats de recherche sur laquelle un visiteur a cliqué pour accéder à votre site. Par exemple, si votre site apparaît sur la deuxième page de résultats d’un moteur de recherche, l’élément de dimension de cette variable est « Page de recherche 2 ».
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Pour que cette dimension fonctionne uniquement, vous devez configurer correctement les filtres [URL](/help/admin/admin/internal-url-filter-admin.md) internes de votre suite de rapports. AppMeasurement renseigne automatiquement cette dimension sans modification du code de mise en oeuvre.
+Pour que cette dimension fonctionne, vous devez simplement configurer correctement les [filtres URL internes](/help/admin/admin/internal-url-filter-admin.md) de votre suite de rapports. AppMeasurement renseigne automatiquement cette dimension sans modification du code d’implémentation.
 
 ## Éléments de dimension
 
-Si un visiteur clique sur votre site à partir d’un moteur de recherche, la valeur de cette dimension est &quot;Page de recherche&quot; suivie du numéro de page sur lequel il a cliqué. Si un accès ne provient pas d&#39;un moteur de recherche, la valeur de cette dimension est &quot;Non spécifié&quot;.
+Si un visiteur utilise un moteur de recherche pour accéder à votre site, la valeur de cette dimension est « Page de recherche » suivie du numéro de la page sur laquelle il a cliqué. Si un accès ne provient pas d’un moteur de recherche, la valeur de cette dimension est « Non spécifié ».
