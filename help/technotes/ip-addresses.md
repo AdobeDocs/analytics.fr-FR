@@ -1,43 +1,43 @@
 ---
 title: IP et domaines utilisés par l’Adobe Analytics
-description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d'Adobe, utilisez cette liste pour mettre à jour vos paramètres de pare-feu.
+description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 translation-type: tm+mt
 source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 17%
+ht-degree: 87%
 
 ---
 
 
 # IP et domaines utilisés par l’Adobe Analytics
 
-Certaines configurations de pare-feu bloquent les adresses IP provenant des serveurs de collecte de données d&#39;Adobe ou des serveurs responsables de l&#39;accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise.
+Certaines configurations de pare-feu bloquent les adresses IP en provenance des serveurs de collecte de données d’Adobe ou des serveurs responsables de l’accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise.
 
 >[!IMPORTANT]
 >
->Bien que l&#39;Adobe fasse de son mieux pour maintenir ce document à jour, il ne peut garantir que la liste des plages d&#39;adresses IP reste la même. Les changements possibles incluent la croissance et l&#39;expansion de l&#39;entreprise, un registre Internet nécessite des modifications de l&#39;espace d&#39;adresse IP de l&#39;Adobe, ou un prestataire Internet cesse de fonctionner.
+>Bien qu’Adobe fasse de son mieux pour garder ce document à jour, il se peut que la liste des plages d’adresses IP fasse l’objet de modifications. Les changements possibles comprennent la croissance et l’expansion des activités, un registre Internet nécessitant des modifications de l’espace d’adressage IP d’Adobe ou l’arrêt du fonctionnement d’un fournisseur d’accès Internet.
 
-## Autoriser les domaines technologiques dépendants
+## Autorisation des domaines technologiques dépendants
 
-adobe analytics utilise les hôtes suivants pour améliorer les performances et l’expérience des produits. adobe recommande d’ajouter ces domaines à la liste autorisée de votre pare-feu afin d’optimiser l’utilisation de Adobe Analytics.
+Adobe Analytics utilise les hôtes suivants pour améliorer les performances et l’expérience du produit. Adobe recommande d’ajouter ces domaines à la liste autorisée de votre pare-feu pour une expérience optimale lors de l’utilisation d’Adobe Analytics.
 
 | Technologie | Domaine |
 | --- | --- |
 | Domaine Adobe Analytics | `adobe.com` |
 | Domaine hérité Adobe Analytics | `omniture.com` |
-| amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
-| amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
+| Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
+| Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Gainsight | `esp.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
-| Enregistrement Blob Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
-| CDN Microsoft Azure | `aauicdnva7.azureedge.net` |
+| Stockage Blob Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
+| Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
 ## Tous les blocs d’adresse IP Adobe Analytics
 
-Le tableau suivant couvre tous les serveurs de collecte de données standard et les serveurs de collecte de données régionaux pour Adobe Analytics. Ils n’incluent pas les hôtes AWS individuels.
+Le tableau suivant couvre tous les serveurs de collecte de données standard et les serveurs de collecte de données régionaux pour Adobe Analytics. Elles n’incluent pas les hôtes AWS individuels.
 
-| Bloc IP (NOTATION CIDR) |
+| Bloc d’adresse IP (notation CIDR) |
 | --- |
 | `63.140.32.0/19` |
 | `66.117.16.0/20` |
@@ -52,9 +52,9 @@ Le tableau suivant couvre tous les serveurs de collecte de données standard et 
 
 ## Collecte de données et blocs d’adresses IP FTP
 
-Si votre organisation préfère autoriser des plages d’adresses IP spécifiques, vous pouvez utiliser le tableau suivant. Toutes les plages de cette section sont incluses dans le tableau ci-dessus.
+Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques, vous pouvez utiliser le tableau suivant. Toutes les plages de cette section sont incluses dans le tableau ci-dessus.
 
-| Emplacement | Plage IP (NOTATION CIDR) |
+| Emplacement | Plage IP (notation CIDR) |
 | --- | --- |
 | Amsterdam | `66.117.28.0/23` |
 | Dallas | `205.219.231.0/24` |
@@ -62,7 +62,7 @@ Si votre organisation préfère autoriser des plages d’adresses IP spécifique
 | Dallas | `66.235.140.0/22` |
 | Dallas | `63.140.32.0/21` |
 | Dallas | `172.82.208.0/22` |
-| RAS de Hong Kong (Chine) | `66.117.24.0/22` |
+| Hong Kong (RAS de la Chine) | `66.117.24.0/22` |
 | Londres | `66.235.156.0/24` |
 | Londres | `66.235.148.0/23` |
 | Londres | `63.140.40.0/22` |
@@ -88,15 +88,15 @@ Si votre organisation préfère autoriser des plages d’adresses IP spécifique
 | Singapour | `172.82.240.0/22` |
 | Singapour | `172.82.246.0/23` |
 | Singapour | `172.82.248.0/21` |
-| San Jose | `66.117.20.0/24` |
-| San Jose | `66.235.132.0/22` |
-| San Jose | `130.248.128.0/22` |
-| San Jose | `192.243.248.0/23` |
-| San Jose | `172.82.200.0/22` |
-| San Jose | `66.235.136.0/22` |
-| San Jose | `208.91.175.0/24` |
-| San Jose | `208.91.174.0/24` |
-| San Jose | `208.91.169.0/24` |
+| San José | `66.117.20.0/24` |
+| San José | `66.235.132.0/22` |
+| San José | `130.248.128.0/22` |
+| San José | `192.243.248.0/23` |
+| San José | `172.82.200.0/22` |
+| San José | `66.235.136.0/22` |
+| San José | `208.91.175.0/24` |
+| San José | `208.91.174.0/24` |
+| San José | `208.91.169.0/24` |
 | Sydney | `216.104.216.0/23` |
 | Tokyo | `66.235.159.0/24` |
 | Tokyo | `66.117.21.0/24` |
@@ -109,11 +109,11 @@ Si votre organisation préfère autoriser des plages d’adresses IP spécifique
 | Virginie | `130.248.144.0/22` |
 | Virginie | `172.82.204.0/22` |
 | Virginie | `172.82.212.0/22` |
-| Virginie | Voir Hôtes AWS |
+| Virginie | Voir les hôtes AWS |
 
 ## Hôtes AWS
 
-adobe analytics utilise les services Web Amazon dans le cadre de son processus de collecte de données. Le tableau suivant comprend les hôtes AWS réservés à l’Adobe. Ces hôtes **ne sont pas** inclus dans la plage de blocs d&#39;agrégat ci-dessus.
+adobe analytics utilise les services Web Amazon dans le cadre de son processus de collecte de données. Le tableau suivant comprend les hôtes AWS réservés pour Adobe. Ces hôtes ne sont **pas** inclus dans la plage de blocs agrégés ci-dessus.
 
 | Emplacement | Hôte |
 | --- | --- |
