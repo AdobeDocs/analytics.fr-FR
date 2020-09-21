@@ -1,23 +1,23 @@
 ---
 title: Product
 description: Nom du produit.
-translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Product
 
-La dimension &quot;Produit&quot; rapporte le nom du produit dans l’accès. Il est utile pour les implémentations qui utilisent la `products` variable et souhaitent afficher des mesures autour des produits, tels que les meilleurs vendeurs ou les plus consultés. Cette dimension peut être volontairement vide si vous n’avez aucun produit sur votre site.
+La dimension « Produit » indique le nom du produit dans l’accès. Elle est utile pour les implémentations qui utilisent la variable `products` et cherchent à obtenir des mesures liées aux produits, comme les articles les plus vendus ou les plus consultés. Il est possible que cette dimension reste délibérément vide si votre site ne contient aucun produit.
 
-## Renseigner cette dimension avec des données
+## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à la deuxième partie de la chaîne dans la [`products`](/help/implement/vars/page-vars/products.md) variable. Les caractères entre le premier et le deuxième point-virgule (`;`) renseignent cette dimension.
+Cette dimension fait référence à la deuxième partie de la chaîne dans la variable [`products`](/help/implement/vars/page-vars/products.md). Les caractères entre le premier et le deuxième point-virgule (`;`) renseignent cette dimension.
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Cette variable étant basée sur une chaîne personnalisée dans votre implémentation, votre organisation détermine les éléments de dimension. Adobe vous recommande d’établir une convention d’affectation de nom cohérente pour les produits. [Les classifications](../classifications/c-classifications.md) sont disponibles si vous souhaitez regrouper les produits différemment ou fournir un nom plus convivial. Adobe recommande d&#39;utiliser les dimensions &quot;Produit&quot; et &quot;Catégorie&quot;.
+Cette variable étant basée sur une chaîne personnalisée de votre implémentation, votre entreprise détermine les éléments de dimension. Adobe recommande d’établir une convention d’affectation des noms cohérente pour les produits. Des [classifications](../classifications/c-classifications.md) sont disponibles si vous souhaitez regrouper les produits différemment ou fournir un nom plus convivial. Adobe recommande d’utiliser les dimensions « Produit » et « Catégorie ».
