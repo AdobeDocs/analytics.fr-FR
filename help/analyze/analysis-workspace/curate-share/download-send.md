@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez télécharger un projet complet en accédant à **[!UICONTROL Projet
 
 Pour les téléchargements de projet, gardez à l’esprit :
 
-* Le projet peut être enregistré ou non lorsque vous demandez un téléchargement de projet. Cependant, seuls les projets enregistrés peuvent être [planifiés](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
+* Le projet peut être enregistré ou non lorsque vous demandez un téléchargement de projet. Cependant, seuls les projets enregistrés peuvent être [planifiés](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
 * L’exportation des fichiers PDF téléchargés dans le navigateur peut prendre plusieurs minutes, car le projet est réexécuté sur les serveurs d’Adobe avant d’être rendu au format PDF. Nous vous recommandons de ne pas quitter le projet tant que le fichier PDF n’a pas été téléchargé dans votre navigateur. Cependant, vous pouvez continuer à apporter des modifications au projet pendant que vous patientez. Si le rendu d’un fichier PDF prend plus de 5 minutes, vous êtes invité à le faire parvenir par courrier électronique.
 * Les téléchargements PDF sont générés en une seule page sans pagination.
 * Lorsqu’un projet est rendu au format PDF, nous rendons ce qui se trouve sur la page. Si un projet comprend des panneaux et des visualisations aux dimensions personnalisées, vous devez définir leurs dimensions automatiquement (à l’aide du bouton dans le coin supérieur droit) afin d’éviter toute troncation du contenu.
