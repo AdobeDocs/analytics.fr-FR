@@ -30,7 +30,7 @@ Lors de l’utilisation des identifiants d’événement, la déduplication se p
 
 >[!TIP]
 >
-> Si vous souhaitez dédupliquer l’événement [`purchase`](event-purchase.md), utilisez plutôt la variable [`purchaseID`](../purchaseid.md).
+>Si vous souhaitez dédupliquer l’événement [`purchase`](event-purchase.md), utilisez plutôt la variable [`purchaseID`](../purchaseid.md).
 
 ## Utilisation d’identifiants d’événement dans Adobe Experience Platform Launch
 
