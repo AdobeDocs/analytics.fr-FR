@@ -1,11 +1,11 @@
 ---
 title: Lien de téléchargement
 description: Nom du lien de téléchargement.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ Si vous souhaitez envoyer des données à cette dimension à l’aide d’AppMea
 * Définissez la variable [`linkType`](/help/implement/vars/config-vars/linktype.md) sur `"d"`.
 * Envoyez une demande d’image [`tl()`](/help/implement/vars/functions/tl-method.md).
 
-## Éléments de Dimension
+## Éléments de dimension
 
-Cette variable étant basée sur une chaîne personnalisée dans votre implémentation, votre organisation détermine les éléments de dimension. Adobe recommande de regrouper les liens en catégories significatives en fonction de vos besoins pour les rapports.
+Cette variable étant basée sur une chaîne personnalisée de votre implémentation, votre entreprise détermine les éléments de dimension. Adobe recommande de regrouper les liens en catégories significatives en fonction de vos besoins pour les rapports.
