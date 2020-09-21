@@ -2,11 +2,11 @@
 title: Panneau de comparaison des segments - Aperçu
 description: Découvrez comment utiliser le panneau de comparaison des segments, un composant de Segment IQ dans Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1137'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -91,19 +91,19 @@ Une visualisation liée se trouve à droite du tableau de mesures. Vous pouvez c
 
 ### Dimensions principales
 
-Affiche les éléments de dimension les plus significatifs sur le plan statistique dans toutes vos dimensions. Chaque ligne présente le pourcentage de chaque segment exposant cet élément de dimension. Par exemple, ce tableau peut indiquer que 100 % des visiteurs du « segment A » avaient l’élément de dimension « Type de navigateur : Google », tandis que 19,6 % du « segment B » seulement ont cet élément de dimension. Un score de différence de 1 signifie qu’il est statistiquement significatif, tandis qu’un score de différence de 0 signifie qu’il n’y a aucune signification statistique.
+Affiche les éléments de dimension les plus significatifs sur le plan statistique pour toutes vos dimensions. Chaque ligne présente le pourcentage de chaque segment exposant cet élément de dimension. Par exemple, ce tableau peut indiquer que 100 % des visiteurs du « segment A » avaient l’élément de dimension « Type de navigateur : Google », tandis que 19,6 % du « segment B » seulement ont cet élément de dimension. Un score de différence de 1 signifie qu’il est statistiquement significatif, tandis qu’un score de différence de 0 signifie qu’il n’y a aucune signification statistique.
 
-Cette visualisation est similaire aux tableaux à structure libre dans Analysis Workspace. Si une analyse plus profonde sur un élément de dimension spécifique est souhaitée, passez la souris sur un élément de ligne et cliquez sur &quot;Créer un visuel&quot;. Un nouveau tableau est créé pour analyser cet élément de dimension spécifique. Si un élément de dimension n’est pas pertinent pour votre analyse, passez la souris sur l’élément de ligne et cliquez sur le X pour le supprimer.
+Cette visualisation est similaire aux tableaux à structure libre dans Analysis Workspace. Si vous souhaitez approfondir l’analyse d’un élément de dimension spécifique, passez la souris sur un élément de ligne et cliquez sur « Créer un visuel ». Un tableau est alors créé pour analyser cet élément de dimension spécifique. Si un élément de dimension n’est pas pertinent pour votre analyse, passez la souris sur l’élément de ligne et cliquez sur le « X » pour le supprimer.
 
 >[!NOTE]
 >
->Les éléments de Dimension ajoutés à ce tableau une fois la comparaison de segments terminée ne reçoivent pas de note de différence.
+>Les éléments de dimension ajoutés à ce tableau au terme de la comparaison de segments ne reçoivent pas de score de différence.
 
 ![Dimensions principales](assets/top-dimension-item1.png)
 
 ### Éléments de dimension par segment
 
-Une visualisation de graphique à barres liée se trouve à droite du tableau de dimensions. Il affiche tous les éléments de dimension affichés dans un graphique à barres. Cliquez sur un élément de ligne dans le tableau de gauche pour mettre à jour la visualisation sur la droite.
+Une visualisation de graphique à barres liée se trouve à droite du tableau de dimensions. Elle affiche tous les éléments de dimension affichés dans un graphique à barres. Cliquez sur un élément de ligne dans le tableau de gauche pour mettre à jour la visualisation sur la droite.
 
 ![Graphique à barres des dimensions principales](assets/top-dimension-item.png)
 
