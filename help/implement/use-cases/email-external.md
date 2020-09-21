@@ -1,8 +1,11 @@
 ---
 title: Suivi des courriers électroniques externes
 description: Utilisez Adobe Analytics pour effectuer le suivi du contenu des courriers électroniques.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '736'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,7 @@ Plusieurs étapes successives permettent d’afficher les données d’analyse d
    * sc_cid=A1123A321 > « A » correspond à campagne affiliée
    * sc_cid=EM033007 > « EM » correspond à campagne par courrier électronique
    * sc_cid=GG987123 > « GG » correspond à Google et il s’agit d’une campagne de recherche payante
+
    Pour obtenir des informations détaillées sur la configuration et l’utilisation des codes de suivi, contactez Adobe [!DNL Customer Care].
 
 1. Ajoutez des paramètres de chaîne de requête à des liens de courriers électroniques HTML.
