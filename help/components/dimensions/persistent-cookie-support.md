@@ -1,11 +1,11 @@
 ---
 title: Prise en charge des cookies persistants
 description: Détermine si le visiteur peut prendre en charge les cookies persistants.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bddfc52d460e87a70e7cff149f197570f405037a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
