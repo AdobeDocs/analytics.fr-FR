@@ -3,9 +3,9 @@ description: Comment appliquer un ou plusieurs segments à un rapport depuis le 
 title: Sélection et application des segments
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Comment appliquer un ou plusieurs segments à un rapport depuis le rail de segme
 
    >[!NOTE]
    >
-   >Vous pouvez appliquer plus d’un segment à un rapport (nommé « empilement de segments »). Lorsque plusieurs segments sont appliqués, les critères de chaque segment sont associés à l’aide de l’opérateur « et », puis appliqués. Le nombre de segments que vous pouvez empiler ne comporte pas de limite.
+   >Vous pouvez appliquer plus d’un segment à un rapport (nommé « empilement de segments »). Lorsque plusieurs segments sont appliqués, les critères de chaque segment sont associés à l’aide de l’opérateur « and », puis appliqués. Le nombre de segments que vous pouvez empiler ne comporte pas de limite.
 
    >[!NOTE]
    >
