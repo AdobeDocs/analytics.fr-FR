@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Répond aux questions fréquemment posées sur les fonctionnalités de segmentat
 
    * Vous pouvez [comparer des segments](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
    * Utilisez les [segments comme dimensions](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html) dans une comparaison.
-   * Utilisez des segments dans [l’analyse des abandons](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
+   * Utilisez des segments dans [l’analyse des abandons](https://docs.adobe.com/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Vous pouvez [appliquer plusieurs segments à un rapport ou à un projet](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 * Les segments fonctionnent dans toutes les suites de rapports.
@@ -111,7 +111,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/segmentat
 * Examinez les segments à votre disposition.
 * Ajoutez les segments à la bibliothèque de segments lorsque cela est possible.
 * Approuvez les segments canoniques.
-* Marquez les segments en fonction des  [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Marquez les segments en fonction des [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Gestion des segments existants {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -119,7 +119,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/segmentat
 
 Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement. [Plus...](/help/components/segmentation/seg-transition.md)
 
-La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de  modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
+La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
 Les modèles de segments sont marqués par une icône spéciale dans le Créateur de segments :
 
@@ -175,7 +175,7 @@ Les rapports existants auxquels sont appliqués ces segments continueront de fon
 * Visites avec 5+ visites précédentes*
 * Visites depuis Facebook*
 
-La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
+La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
 
 Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
 
@@ -258,7 +258,7 @@ Le tableau suivant contient une liste de dimensions renommées dans le Créateur
   <tr> 
    <td colname="col1"> - </td> 
    <td colname="col2"> "App - *" </td> 
-   <td colname="col3"> Les préfixes "App -" ont été supprimés de plusieurs types de dimensions. Les données des applications mobiles étant généralement capturées dans une suite de rapports qui ne contient pas de données Web, ces préfixes n’étaient pas nécessaires. </td> 
+   <td colname="col3"> Les préfixes « App - » ont été supprimés de plusieurs types de dimensions. Les données des applications mobiles étant généralement capturées dans une suite de rapports qui ne contient pas de données Web, ces préfixes n’étaient pas nécessaires. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Page d’accès d’origine </td> 
@@ -266,13 +266,13 @@ Le tableau suivant contient une liste de dimensions renommées dans le Créateur
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Java activé </td> 
+   <td colname="col1"> Compatible Java </td> 
    <td colname="col2"> Java </td> 
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mobile - Longueur max. d’URL de navigateur </td> 
-   <td colname="col2"> Mobile - Longueur . d’URL de navigateur </td> 
+   <td colname="col2"> Longueur d’URL de navigateur mobile </td> 
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
@@ -328,7 +328,7 @@ Le tableau suivant contient une liste de dimensions renommées dans le Créateur
  </tbody> 
 </table>
 
-## Modifications apportées à des dimensions basées sur des chaînes possédant des valeurs connues  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Modifications apportées à des dimensions basées sur des chaînes possédant des valeurs connues {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Les dimensions basées sur des chaînes dotées d’un jeu connu de valeurs ont été modifiées en types énumérés. Lors de la création d’un segment utilisant ces dimensions, la liste est pré-remplie avec toutes les valeurs connues et le seul opérateur pris en charge est « égal à ». Vous pouvez ainsi segmenter rapidement les valeurs exactes que vous recherchiez sans sélectionner des valeurs non voulues lors de l’utilisation d’une correspondance moins stricte.
 
@@ -342,7 +342,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 | prise en charge des images sur le périphérique mobile | services d’informations mobiles | type de référent |
 | intensité de couleur du périphérique mobile | type de périphérique mobile | moteur de recherche |
 | prise en charge de l’audio sur le périphérique mobile | type de navigateur | state |
-| prise en charge de la vidéo sur le périphérique mobile | browser | pays géo |
+| prise en charge de la vidéo sur le périphérique mobile | navigateur | pays géo |
 | DRM mobile | type de connexion | région géo |
 | protocoles Net mobile | opérateur de téléphonie mobile | ville géo |
 | SE Mobile | cookie | DMA géo |
@@ -350,7 +350,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 | longueur du signet du périphérique mobile | compatible java | recherche payante |
 | longueur de l’URL du périphérique mobile | langage |  |
 
-## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Les dimensions basées sur des entiers (la largeur du navigateur par exemple) avec un jeu connu de valeurs ont été fractionnées en plages énumérées afin que vous puissiez définir rapidement les segments pour une plage spécifique. « - Regroupement » est ajouté à ces listes énumérées après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées en utilisant les interfaces du Créateur de segments antérieure et nouvelle :
 
