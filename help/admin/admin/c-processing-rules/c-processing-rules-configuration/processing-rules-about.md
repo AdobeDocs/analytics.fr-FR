@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Fonctionnement des règles de traitement
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Concept </p> </th> 
-   <th colname="col2" class="entry"> <p>Informations </p> </th> 
+   <th colname="col2" class="entry"> <p>Détails </p> </th> 
   </tr> 
  </thead>
  <tbody> 
