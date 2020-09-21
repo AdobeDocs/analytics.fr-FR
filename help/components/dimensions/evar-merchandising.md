@@ -1,11 +1,11 @@
 ---
 title: eVar (marchandisage)
 description: Variables personnalisées liées à la dimension des produits.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Consultez [eVars de marchandisage](/help/implement/vars/page-vars/evar-merchandi
 La mesure [Instances](../metrics/instances.md) n’est pas recommandée pour les variables de marchandisage.
 
 * Pour les variables de marchandisage utilisant la syntaxe du produit, les instances ne sont pas du tout incrémentées.
-* Pour les variables de marchandisage utilisant la syntaxe des variables de conversion, les instances sont comptabilisées chaque fois que l’eVar est définie. However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
+* Pour les variables de marchandisage utilisant la syntaxe des variables de conversion, les instances sont comptabilisées chaque fois que l’eVar est définie. Cependant, elle l’attribue à l’élément de dimension `"None"`, sauf si tous les événements suivants se produisent sur le même accès :
    * L’eVar de marchandisage est définie avec une valeur.
    * La variable `products` est définie avec une valeur.
    * Un événement de liaison est défini.
