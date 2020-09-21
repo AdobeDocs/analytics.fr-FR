@@ -3,6 +3,9 @@ title: Présentation de la mise en œuvre avec Launch
 description: Découvrez comment mettre en œuvre Adobe Analytics à l’aide d’Adobe Experience Platform Launch
 translation-type: ht
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+workflow-type: ht
+source-wordcount: '302'
+ht-degree: 100%
 
 ---
 
