@@ -2,11 +2,11 @@
 description: valeur nulle
 title: Optimisation des performances d’Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-translation-type: tm+mt
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
+workflow-type: ht
 source-wordcount: '1306'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -40,15 +40,15 @@ En outre, l’utilisation de [classifications](/help/components/classifications/
 
 La plage de données demandée lors d’un projet influence les performances d’Analysis Workspace.
 
-**Recommandations relatives aux plages de dates**
+**Bonnes pratiques relatives aux périodes**
 
-Si possible, n’extrayez que les données dont vous avez besoin. Limitez le calendrier du panneau aux dates appropriées pour votre analyse ou utilisez des composants de plage de dates (composants violets) dans vos tableaux à structure libre. Les plages de dates utilisées dans un tableau remplacent la plage de dates du panneau. Par exemple, vous pouvez ajouter le mois dernier, la semaine dernière et hier aux colonnes du tableau pour demander ces plages de données spécifiques. Pour en savoir plus sur l’utilisation des plages de dates dans Analysis Workspace, [regardez cette vidéo](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
+Si possible, n’extrayez que les données dont vous avez besoin. Limitez le calendrier du panneau aux dates appropriées à votre analyse ou utilisez des composants de période (composants violets) dans vos tableaux à structure libre. Les périodes utilisées dans un tableau remplacent les périodes du panneau. Par exemple, vous pouvez ajouter le mois dernier, la semaine dernière et hier aux colonnes du tableau pour demander ces périodes spécifiques. Pour en savoir plus sur l’utilisation des plages de dates dans Analysis Workspace, [regardez cette vidéo](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
 
-Réduire au minimum le nombre de comparaisons d&#39;une année à l&#39;autre utilisées dans le projet. Lorsqu’une comparaison d’une année à l’autre est calculée, elle examine l’ensemble des données de 13 mois entre les mois d’intérêt. Cela a le même impact que de modifier la plage de dates du panneau pour qu’elle dure 13 mois.
+Réduisez le nombre de comparaisons d’une année à l’autre utilisées dans le projet. Lorsqu’une comparaison d’une année à l’autre est calculée, elle examine l’ensemble des données des 13 mois concernés. Cette action a le même impact que de définir la période du panneau sur les 13 derniers mois.
 
 ## Nombre de visualisations
 
-Le nombre de visualisations contenues dans un projet aura une incidence sur la réactivité globale de l’Analysis Workspace. En effet, chaque visualisation, qu’il s’agisse d’un tableau ou d’un graphique, dispose d’une source de données qui doit être demandée.
+Le nombre de visualisations contenues dans un projet affecte la réactivité globale d’Analysis Workspace. En effet, chaque visualisation, qu’il s’agisse d’un tableau ou d’un graphique, dispose d’une source de données qui doit être demandée.
 
 **Bonne pratique pour le nombre de visualisations**
 
@@ -81,14 +81,14 @@ N’ajoutez rien à un projet. Créez plutôt des projets distincts ayant un obj
 
 Si vous devez classer davantage les projets, vous pouvez [lier directement](https://www.youtube.com/watch?v=6IOEewflG2U) votre projet. Créez un index interne des projets, de sorte que les participants puissent facilement trouver ce qu’ils recherchent.
 
-Si plusieurs panneaux sont nécessaires dans un projet, réduisez les panneaux avant d’enregistrer et de partager. Quand un projet est chargé, Analysis Workspace charge seulement le contenu correspondant aux panneaux développés. Les panneaux réduits ne sont pas chargés tant que l’utilisateur ne les développe pas. Cette approche présente deux avantages :
+Si vous devez ajouter de nombreux panneaux dans un projet, réduisez-les avant d’enregistrer et de partager le projet. Quand un projet est chargé, Analysis Workspace charge seulement le contenu correspondant aux panneaux développés. Les panneaux réduits ne sont pas chargés tant que l’utilisateur ne les développe pas. Cette approche présente deux avantages :
 
 * le temps de chargement général d’un projet est optimisé ;
 * grâce aux panneaux réduits, organisez vos projets de manière logique pour l’utilisateur du rapport.
 
 ## Taille de la suite de rapports
 
-Même si la taille de la suite de rapports peut sembler être un facteur capital, son rôle en matière de performances du projet est en réalité mineur, en raison de la façon dont Adobe traite les données.  Il peut y avoir des exceptions à cette règle ; consultez votre équipe de mise en oeuvre ou un expert en Adobe pour déterminer si des améliorations peuvent être apportées à l’implémentation afin d’améliorer l’expérience globale dans Adobe Analytics.
+Même si la taille de la suite de rapports peut sembler être un facteur capital, son rôle en matière de performances du projet est en réalité mineur, en raison de la façon dont Adobe traite les données. Il peut y avoir des exceptions à cette règle. Consultez votre équipe de mise en œuvre ou un expert Adobe pour déterminer si des améliorations peuvent être apportées à l’implémentation afin d’améliorer l’expérience globale dans Adobe Analytics.
 
 ## Nombre d’utilisateurs qui accèdent en même temps à Analysis Workspace
 
