@@ -330,7 +330,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensions et événements relatifs aux solutions </p> </td> 
-   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Activity Map Page </p> </td> 
+   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Activity Map Page </p> </td> 
    <td colname="col3"> <p>Aucune/I1/I2 </p> <p>Aucune/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre mise en œuvre ne collecte pas de données directement ou indirectement identifiables dans ces variables, alors elles n’ont pas besoin d’étiquettes d’identité ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
   </tr> 
@@ -346,7 +346,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
      <li id="li_F70D969F83314A94BD8567449968EE2F">Dimensions standard </li> 
      <li id="li_6046764B19FF4679B51E55671C2C0ADB">Dimensions de traitement des données </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Adresse IP </p> <p>Adresse IP 2 </p> </td> 
+   <td colname="col2"> <p>Adresse IP </p> <p>Adresse IP 2 </p> </td> 
    <td colname="col3"> <p>DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Vous ne pouvez pas supprimer l’étiquette DEL, mais vous pouvez la modifier en DEL-DEVICE ou DEL-PERSON, ou les deux. </p> </td> 
   </tr> 
@@ -385,7 +385,7 @@ Le tableau suivant décrit comment différentes variables sont « supprimées 
    <td colname="col2"> <p>La valeur est un entier relatif de 128 octets et est remplacée par une valeur pseudo-aléatoire de 128 octets au chiffrement fort. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• MCID </p> <p>• Identifiant visiteur personnalisé </p> <p>• Adresse IP </p> <p>• Adresse IP 2 </p> </td> 
+   <td colname="col1"> <p>• MCID </p> <p>• Identifiant visiteur personnalisé </p> <p>• Adresse IP </p> <p>• Adresse IP 2 </p> </td> 
    <td colname="col2"> <p>La valeur est effacée (définie sur une chaîne vide ou 0 selon le type de variable). </p> </td> 
   </tr> 
   <tr> 
