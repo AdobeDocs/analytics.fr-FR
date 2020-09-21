@@ -4,8 +4,8 @@ description: Permet de mesurer le moment où une action spécifique a lieu.
 translation-type: tm+mt
 source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -154,24 +154,24 @@ s.eVar10 = getTimeParting("Australia/Sydney");
 
 ## Historique des versions
 
-### 6.2 (5 novembre 2019)
+### 6.2 (5 novembre 2019)
 
 * Corrections de bogues mineurs
 * Réduction de la taille globale du code
 
-### 6.1 (26 novembre 2018)
+### 6.1 (26 novembre 2018)
 
 * Correctif pour les navigateurs Internet Explorer. Ils peuvent indiquer l’heure, mais uniquement en fonction de l’heure locale du visiteur.
 
-### 6.0 (14 août 2018)
+### 6.0 (14 août 2018)
 
 * Réécriture complète pour tenir compte des normes internationales. L’heure d’été et tous les fuseaux horaires sont désormais convertis correctement.
 
-### 5.0 (17 avril 2018)
+### 5.0 (17 avril 2018)
 
 * Nouvelle version (recompilé, taille de code réduite).
 * Suppression de la nécessité du paramètre `tpDST`, puisque les dates de début et de fin de l’heure d’été sont désormais détectées automatiquement.
 
-### 4.0 (22 août 2016)
+### 4.0 (22 août 2016)
 
 * Fournit une toute nouvelle solution et inclut désormais des informations sur l’année, le mois et la date.
