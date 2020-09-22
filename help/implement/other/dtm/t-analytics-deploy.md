@@ -1,12 +1,12 @@
 ---
 description: Créez un outil Adobe Analytics pour le déploiement à l’aide de Dynamic Tag Management. Cette procédure décrit une mise en œuvre (héritée) manuelle.
 keywords: Dynamic Tag Management
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Mise en œuvre manuelle d’Adobe Analytics (héritée)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
