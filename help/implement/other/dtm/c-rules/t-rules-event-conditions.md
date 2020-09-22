@@ -1,12 +1,12 @@
 ---
 description: Les conditions déterminent à quel moment une règle basée sur un événement est déclenchée.
 keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;delay link activation;apply event handler directly to element;bubbling;event bubbling
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Création de conditions pour les règles basées sur un événement
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
