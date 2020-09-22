@@ -4,9 +4,8 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Implementation Guide
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics.
-breadcrumb-url: /docs/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 99%
@@ -58,7 +57,7 @@ ht-degree: 99%
    + Variables de page {page-vars}
       + [Présentation des variables de page](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
-      + [marketing](vars/page-vars/channel.md)
+      + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variables dynamiques](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
@@ -97,7 +96,7 @@ ht-degree: 99%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins  {#plugins}
+   + Plug-ins {#plugins}
       + [Présentation des plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
