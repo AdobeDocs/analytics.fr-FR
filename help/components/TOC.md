@@ -4,12 +4,11 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
-breadcrumb-url: /docs/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -208,11 +207,11 @@ ht-degree: 97%
       + [Affichage des informations relatives à une suite de rapports virtuelle](vrs/c-workflow-vrs/vrs-view.md)
 + Analyses entre appareils {#cda}
    + [Présentation des analyses entre appareils](cda/overview.md)
-   + [Accrochage basé sur les champs](cda/field-based-stitching.md)
-   + [Graphique du périphérique](cda/device-graph.md)
-   + [Configuration des analyses multipériphériques](cda/setup.md)
-   + [Fonctionnement des répétitions](cda/replay.md)
-   + [Modèle CDA Workspace](cda/workspace-template.md)
+   + [Groupement basé sur les champs](cda/field-based-stitching.md)
+   + [Graphique d’appareil](cda/device-graph.md)
+   + [Configuration des analyses entre appareils](cda/setup.md)
+   + [Fonctionnement des relectures](cda/replay.md)
+   + [Modèle CDA Workspace](cda/workspace-template.md)
    + [FAQ sur les analyses entre appareils](cda/faq.md)
 + Alertes {#alerts}
    + [Alertes intelligentes](c-alerts/intellligent-alerts.md)
@@ -221,7 +220,7 @@ ht-degree: 97%
    + [Alertes intelligentes - Exemples d’utilisation](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
    + [Présentation des classifications](classifications/c-classifications.md)
-   + Classifications importer {#classifications-importer}
+   + Importateur de classifications {#classifications-importer}
       + [Importateur de classifications - Aperçu](classifications/importer/c-working-with-saint.md)
       + [Fichiers de données de classification](classifications/importer/c-saint-data-files.md)
       + [Suppression des données de classification](classifications/importer/t-delete-classification-data.md)
