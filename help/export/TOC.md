@@ -4,12 +4,11 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Export Guide
 user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
-breadcrumb-url: /docs/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 94%
       + [Aperçu du contenu du flux de données](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Mesures calculées](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Référence des colonnes de données](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Recherche de événement de page](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Recherche d’événement de page](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Recherche d’attributs mobiles](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [Caractères spéciaux](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Accès tardifs](analytics-data-feed/c-df-contents/late-arriving-hits.md)
@@ -38,7 +37,7 @@ ht-degree: 94%
    + [Data Warehouse - Aperçu](data-warehouse/data-warehouse.md)
    + [Ajouter un groupe d’utilisateurs de l’Data Warehouse](data-warehouse/t-dw-group.md)
    + [Créer une demande d’Data Warehouse](data-warehouse/t-dw-create-request.md)
-   + [Heure de diffusion de la demande](data-warehouse/delivery-time.md)
+   + [Heure de remise de la demande](data-warehouse/delivery-time.md)
    + [Fichier de données Tableau](data-warehouse/t-tableau.md)
    + [Tri par mesure](data-warehouse/sorting-by-metric.md)
    + [Planifier une requête récurrente](data-warehouse/dw-schedule-recurring.md)
@@ -72,5 +71,5 @@ ht-degree: 94%
       + [Envoi de requêtes d’Data Warehouse vers les serveurs SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Connexion à Adobe via SFTP sans mot de passe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Téléchargements Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/download-send.html)
-+ [ API Adobe Analytics ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
++ [ API Adobe Analytics ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
 + [Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/home.html)
