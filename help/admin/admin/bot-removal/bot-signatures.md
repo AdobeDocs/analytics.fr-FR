@@ -2,9 +2,9 @@
 title: Signatures de bots courantes
 description: Reconnaissez les identifiants communs des robots.
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Les utilisateurs modernes ont des moniteurs à résolution beaucoup plus élevé
 
 ## Pays + Fuseau horaire non compatible
 
-Il y aura une discordance entre le pays d&#39;origine et le fuseau horaire. Par exemple, un emplacement des États-Unis mais a un fuseau horaire GMT.
+Vous remarquerez une incohérence entre le pays d’origine et le fuseau horaire. Par exemple, l&#39;emplacement peut être les États-Unis mais le fuseau horaire peut être GMT.
 
 ![](assets/bots-country-time-zone.png)
 
