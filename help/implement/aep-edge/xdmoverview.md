@@ -1,11 +1,11 @@
 ---
 title: Utilisation des données XDM avec Analytics
 description: 'Présentation de l’utilisation des données XDM d’Experience Platform dans Adobe Analytics '
-translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ La mise en correspondance manuelle des données XDM avec Analytics repose sur le
 
 ## Configuration
 
-Pour configurer Analytics pour recevoir des données XDM :
+Pour configurer Analytics pour recevoir des données XDM :
 
 1. Installez et [configurez](https://docs.adobe.com/content/help/fr-FR/experience-platform/edge/fundamentals/configuring-the-sdk.html) le [SDK Web d’Adobe Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/edge/fundamentals/installing-the-sdk.html).
 
