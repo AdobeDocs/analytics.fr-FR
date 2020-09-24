@@ -2,9 +2,9 @@
 description: 'Les composants d’Analysis Workspace se composent de dimensions, de mesures, de segments et de plages de dates que vous pouvez faire glisser sur un projet. '
 title: Aperçu des composants
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 13%
 
 ---
@@ -36,7 +36,7 @@ Parmi les exemples d’éléments de dimension, citons [!UICONTROL la page d’a
 
 [**Les mesures**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) sont des mesures quantitatives du comportement des visiteurs. Ils se trouvent dans le rail de composants de gauche (section verte) et sont généralement appliqués en tant que colonnes d’un tableau.
 
-Parmi les exemples de mesures, citons [ ! UICONTROL Page vues, [!UICONTROL Visites], [!UICONTROL Commandes], Durée [!UICONTROL moyenne de consultation]et [!UICONTROL Recettes/Commande. ] Les mesures sont fournies par Adobe, ou capturées via votre implémentation personnalisée (événements[!UICONTROL de]réussite), ou créées à l’aide du créateur de mesures [calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Parmi les mesures, citons [!UICONTROL les vues]de page, les [!UICONTROL visites], les [!UICONTROL commandes], la durée [!UICONTROL moyenne de consultation et Recettes/Commande. ] Les mesures sont fournies par Adobe, ou capturées via votre implémentation personnalisée (événements[!UICONTROL de]réussite), ou créées à l’aide du créateur de mesures [calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
