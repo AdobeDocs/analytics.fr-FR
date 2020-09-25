@@ -1,18 +1,18 @@
 ---
-description: Un panneau est un ensemble de tableaux et de visualisations
+description: Un panneau est un ensemble de tableaux et de visualisations.
 title: Panneaux - Aperçu
 translation-type: tm+mt
-source-git-commit: 8cfd2106df3aed48136ec82bca7d2cb19a479d61
+source-git-commit: 0a29fa005c7b86a399ab39f0b499d22b6f86e373
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 24%
+source-wordcount: '760'
+ht-degree: 19%
 
 ---
 
 
 # Panneaux - Aperçu
 
-Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace. Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas d’utilisation des analyses. Les types de panneau suivants sont disponibles en Analysis Workspace :
+A [!UICONTROL panel] is a collection of tables and visualizations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace. Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas d’utilisation des analyses. Les types de panneau suivants sont disponibles en Analysis Workspace :
 
 | Nom du panneau | Description |
 |---|---|
@@ -24,17 +24,25 @@ Un panneau est un ensemble de tableaux et de visualisations. Vous pouvez accéde
 | [Panneau Visionneuses simultanées de médias](media-concurrent-viewers.md) | Analysez les viewers simultanés sur le long terme, avec des informations sur la simultanéité la plus élevée et sur la capacité à ventiler et à comparer. |
 | [Panneau de comparaison des segments](c-segment-comparison/segment-comparison.md) | Comparez rapidement deux segments sur tous les points de données afin de rechercher automatiquement les différences pertinentes. |
 
-Les panneaux d’informations rapides, à structure vierge et à structure libre constituent des emplacements idéaux pour début de votre analyse, tandis qu’Analytics pour la Cible, l’Attribution IQ, les visionneuses de simultanéité des médias et la comparaison de segments se prêtent à des analyses plus avancées. Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
+![](assets/panel-overview.png)
 
-Le panneau de démarrage par défaut est le Panneau à structure libre, mais vous pouvez également choisir d’utiliser le [Panneau vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) par défaut.
+[!UICONTROL Les panneaux d’informations]rapides, [!UICONTROL vierges] et [!UICONTROL à structure libre] sont des emplacements idéaux pour début de votre analyse, tandis que les [!UICONTROL Analytics pour la Cible], Attribution IQ, les visionneuses simultanées de contenu multimédia et les de comparaison de segments se prêtent à des analyses plus avancées.  Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
+
+The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
 ## Suite de rapports de panneau {#report-suite}
 
-Les tableaux et les visualisations d’un panneau dérivent des données de la suite de rapports sélectionnée dans l’angle supérieur droit du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou [plusieurs suites](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) de rapports en fonction des cas d’utilisation de vos analyses.
+Les tableaux et les visualisations d’un panneau dérivent des données de la suite [!UICONTROL de] rapports sélectionnée dans l’angle supérieur droit du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou [plusieurs suites](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) de rapports en fonction des cas d’utilisation de vos analyses.
+
+![](assets/panel-report-suite.png)
 
 ## Calendrier du panneau {#calendar}
 
-Le calendrier du panneau contrôle la plage de rapports des tableaux et des visualisations dans un panneau. Remarque : Si un composant de plage de dates (violet) est utilisé dans un tableau, une visualisation ou une zone de dépôt de panneau, il remplace le calendrier du panneau.
+Le calendrier du panneau contrôle la plage de rapports des tableaux et des visualisations dans un panneau.
+
+Remarque : Si un composant de plage de dates (violet) est utilisé dans un tableau, une visualisation ou une zone de dépôt de panneau, il remplace le calendrier du panneau.
+
+![](assets/panel-calendar.png)
 
 ## Zone de liste déroulante {#dropzone}
 
@@ -44,11 +52,15 @@ La zone de liste déroulante des panneaux vous permet d’appliquer des filtres 
 
 Faites glisser un segment du rail de gauche vers la zone de dépôt du panneau pour commencer à filtrer le panneau.
 
+![](assets/segment-filter.png)
+
 ### Filtres de segments ad hoc
 
-Vous pouvez également faire glisser des composants non liés aux segments directement dans la zone de dépôt afin de créer des segments **** ad hoc, ce qui vous permet de gagner du temps et d’économiser de l’énergie en accédant au créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Cette définition peut être modifiée en cliquant sur l’icône d’informations (i) en regard du segment, puis sur l’icône d’édition en forme de crayon et en la modifiant dans le créateur de segments.
+Vous pouvez également faire glisser des composants non liés aux segments directement dans la zone de dépôt afin de créer des segments **** ad hoc, ce qui vous permet de gagner du temps et de gagner du temps dans le créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Cette définition peut être modifiée en cliquant sur l’icône d’informations (i) en regard du segment, puis sur l’icône d’édition en forme de crayon et en la modifiant dans le créateur de segments.
 
 Les segments ad hoc sont locaux pour le projet et ne s’afficheront pas dans votre rail de gauche à moins que vous ne les rendiez publics.
+
+![](assets/adhoc-segment-filter.png)
 
 ### Filtres déroulants {#dropdown-filter}
 
@@ -56,9 +68,13 @@ Outre les filtres de segments, les filtres **** déroulants vous permettent d’
 
 Les filtres déroulants peuvent également servir à consolider de nombreux projets en un seul. Par exemple, si plusieurs versions d’un même projet sont appliquées avec des segments Pays différents, vous pouvez consolider toutes les versions en un seul projet et ajouter un filtre déroulant Pays.
 
+![](assets/dropdown-filter-intro.png)
+
 **Créez et utilisez des filtres déroulants :**
 
-1. Pour créer un filtre déroulant à l’aide d’éléments de Dimension, tels que des valeurs dans la dimension Canal marketing, cliquez sur le chevron en regard de votre dimension dans le rail de gauche. Cette opération expose tous les éléments disponibles. Sélectionnez un ou plusieurs éléments de composant dans le rail de gauche et déposez-les dans la zone de dépôt du panneau **tout en maintenant la touche** Maj enfoncée. Les composants seront alors transformés en filtre déroulant, plutôt qu’en un seul segment.
+![](assets/create-dropdown.png)
+
+1. Pour créer un filtre déroulant à l’aide d’éléments [!UICONTROL de]Dimension, tels que des valeurs dans la dimension Canal  marketing, cliquez sur la flèche vers la droite en regard de votre dimension dans le rail de gauche. Cette opération expose tous les éléments disponibles. Sélectionnez un ou plusieurs éléments de composant dans le rail de gauche et déposez-les dans la zone de dépôt du panneau **tout en maintenant la touche** Maj enfoncée. Les composants seront alors transformés en filtre déroulant, plutôt qu’en un seul segment.
 1. Pour créer un filtre déroulant à l’aide d’autres composants tels que les mesures, les segments ou les plages de dates, sélectionnez un type de composant dans le rail de gauche et déposez dans la zone de liste déroulante du panneau **tout en maintenant la touche** Maj enfoncée.
 1. Sélectionnez l’une des options de la liste déroulante pour modifier les données du panneau. Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Pas de filtre]**.
 
