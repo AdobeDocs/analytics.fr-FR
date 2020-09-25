@@ -1,18 +1,18 @@
 ---
 description: Explique la nouvelle stratégie de mise à jour continue des fonctionnalités pour Adobe Analytics
 title: Mises à jour des fonctionnalités Adobe Analytics
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 79%
 
 ---
 
 
 # Mises à jour des fonctionnalités Adobe Analytics
 
-Historiquement, les mises à jour des fonctionnalités Adobe Analytics suivaient un calendrier mensuel fixe. Depuis avril 2020, Adobe Analytics a adopté un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités.
+Historiquement, les mises à jour des fonctionnalités Adobe Analytics suivaient un calendrier mensuel fixe. À partir d’avril 2020, Adobe Analytics a adopté un modèle de diffusion continue qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités.
 
 ## Stratégie de mise à jour
 
@@ -25,6 +25,12 @@ Historiquement, les mises à jour des fonctionnalités Adobe Analytics suivaient
 * **Disponibilité générale** : la fonctionnalité est disponible pour 100 % des organisations Experience Cloud autorisées et la mise à jour est terminée.
 
 Selon les mises à jour de fonctionnalité, la chronologie peut varier entre la mise en production et la disponibilité générale. L’objectif est que la mise à jour soit courte, afin qu’elle atteigne la disponibilité générale dans un délai de 2 mois à compter de la mise en production.
+
+## Indicateurs de fonctionnalités
+
+Les indicateurs de fonctionnalités permettent de contrôler la visibilité des nouvelles fonctionnalités au cours de la version. adobe recommande d’ajouter app.launchdarkly.com à la [liste autorisée](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) de votre pare-feu pour une expérience optimale lors de la publication. Peu de temps après avoir atteint GA, le drapeau est retiré.
+
+Vous pouvez à tout moment vue vos indicateurs de fonction principaux sous **Aide > A propos de Workspace > Indicateurs** de fonction Principaux.
 
 ## Avantages
 
