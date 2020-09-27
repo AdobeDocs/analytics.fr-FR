@@ -5,7 +5,7 @@ user-guide-title: Guide d’administration Analytics
 breadcrumb-title: Admin Guide
 user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, and more.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Guide d’administration Analytics {#admin}
 
-+ [Aide sur l’administration d’Analytics](home.md)
++ [Guide d’administration Analytics](home.md)
 + Administration d’Analytics - Aperçu {#admin-overview}
    + [Quel outil Adobe Analytics dois-je utiliser ?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Configuration requise et comparaison des produits Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
