@@ -5,7 +5,7 @@ user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Export Guide
 user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guide d’exportation Analytics {#export}
 
-+ [Accueil d’exportation Analytics](home.md)
++ [Guide d’exportation Analytics](home.md)
 + Flux de données Analytics {#analytics-data-feed}
    + [Aperçu des flux de données](analytics-data-feed/data-feed-overview.md)
    + [Création ou modification d’un flux de données](analytics-data-feed/create-feed.md)
