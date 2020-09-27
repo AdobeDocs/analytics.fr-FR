@@ -5,7 +5,7 @@ user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Implementation Guide
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Guide de mise en œuvre Analytics {#implementation}
 
-+ [Aide pour la mise en œuvre d’Analytics](home.md)
++ [Mise en œuvre d’Adobe Analytics](home.md)
 + [Notes de mise à jour d’AppMeasurement](appmeasurement-updates.md)
 + Variables, fonctions et méthodes Analytics {#vars}
    + [Aperçu](vars/overview.md)
