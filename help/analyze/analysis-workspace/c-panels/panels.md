@@ -2,9 +2,9 @@
 description: Un panneau est un ensemble de tableaux et de visualisations.
 title: Panneaux - Aperçu
 translation-type: tm+mt
-source-git-commit: 0a29fa005c7b86a399ab39f0b499d22b6f86e373
+source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '761'
 ht-degree: 19%
 
 ---
@@ -74,7 +74,7 @@ Les filtres déroulants peuvent également servir à consolider de nombreux proj
 
 ![](assets/create-dropdown.png)
 
-1. Pour créer un filtre déroulant à l’aide d’éléments [!UICONTROL de]Dimension, tels que des valeurs dans la dimension Canal  marketing, cliquez sur la flèche vers la droite en regard de votre dimension dans le rail de gauche. Cette opération expose tous les éléments disponibles. Sélectionnez un ou plusieurs éléments de composant dans le rail de gauche et déposez-les dans la zone de dépôt du panneau **tout en maintenant la touche** Maj enfoncée. Les composants seront alors transformés en filtre déroulant, plutôt qu’en un seul segment.
+1. Pour créer un filtre déroulant à l’aide d’éléments [!UICONTROL de]Dimension, tels que des valeurs dans la dimension Canal  marketing, cliquez sur l’icône de flèche vers la droite située en regard de votre dimension dans le rail de gauche. Cette opération expose tous les éléments disponibles. Sélectionnez un ou plusieurs éléments de composant dans le rail de gauche et déposez-les dans la zone de dépôt du panneau **tout en maintenant la touche** Maj enfoncée. Les composants seront alors transformés en filtre déroulant, plutôt qu’en un seul segment.
 1. Pour créer un filtre déroulant à l’aide d’autres composants tels que les mesures, les segments ou les plages de dates, sélectionnez un type de composant dans le rail de gauche et déposez dans la zone de liste déroulante du panneau **tout en maintenant la touche** Maj enfoncée.
 1. Sélectionnez l’une des options de la liste déroulante pour modifier les données du panneau. Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Pas de filtre]**.
 
