@@ -3,10 +3,10 @@ description: Fichiers journaux permettant de savoir quand se connectent les util
 title: Journaux
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
+source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 72%
+source-wordcount: '597'
+ht-degree: 71%
 
 ---
 
@@ -68,11 +68,6 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Période | Une plage de dates a été créée/modifiée. |
 | Suite de rapports virtuelle | Une suite de rapports virtuelle a été créée/modifiée. |
 | Analyse des contributions | Une tâche d&#39;analyse de contribution a été exécutée. |
-| Requête de bloc de données Excel |  |
-| Échec de connexion à Excel |  |
-| Connexion à Excel réussie |  |
-| Échec de connexion mobile |  |
-| Connexion mobile réussie |  |
 | Méthode API | Un appel d&#39;API a été effectué. |
 
 
