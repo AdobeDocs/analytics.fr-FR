@@ -3,15 +3,15 @@ description: Vous pouvez télécharger des données à partir d’Analysis Works
 title: Téléchargement de fichiers PDF ou CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Téléchargement de fichiers PDF ou CSV de Workspace
+# Téléchargement de fichiers PDF ou CSV
 
 Vous pouvez exporter des données à partir d’Analysis Workspace de plusieurs manières différentes, en fonction de l’ensemble de données que vous souhaitez analyser en dehors de l’outil et de la personne qui doit recevoir les informations. Les données exportées peuvent prendre la forme de données copiées, de fichiers CSV ou PDF. Il est généralement préférable d’utiliser un fichier PDF si vous souhaitez inclure des visualisations dans le fichier, tandis qu’un fichier CSV (ou des données copiées) est préférable si vous souhaitez simplement des données en texte brut.
 
