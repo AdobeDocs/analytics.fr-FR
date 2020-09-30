@@ -2,11 +2,11 @@
 description: Le nouveau système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 title: Alertes intelligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts type
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Puis-je obtenir un tableau des « valeurs attendues » incluant la ligne pointillée ou un résultat quelconque indiquant à quoi correspondent ces valeurs ?</b> </p> </td> 
-   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Il applique une période de formation fixe de 30 jours, un intervalle fixe de 95 % et est semblable à la <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/layout/t-anomaly.html"  >détection des anomalies des <span class="uicontrol">Reports &amp; Analytics</span> </a>. </p> </td> 
+   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Il utilise une période de formation de 30 jours fixe, un intervalle de 95 % fixe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
