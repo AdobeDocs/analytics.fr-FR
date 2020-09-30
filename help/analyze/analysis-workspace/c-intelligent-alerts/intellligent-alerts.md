@@ -2,11 +2,11 @@
 description: Le nouveau système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 title: Alertes intelligentes - Aperçu
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 La fonction Alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 
-[Alertes intelligentes sur YouTube](https://www.youtube.com/watch?v=UVH9xr_2REA) (5:34)
+Voici un didacticiel vidéo sur les alertes [](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) intelligentes (5:34)
 
 ## Aperçu
 
