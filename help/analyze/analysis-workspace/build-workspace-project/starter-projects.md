@@ -3,10 +3,10 @@ description: valeur nulle
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 100%
+source-wordcount: '1389'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ Lorsque vous ouvrez un Workspace pour la première fois, les modèles sont dispo
 
 Utilisez ces modèles prérenseignés tels quels ou adaptez-les en fonction de vos besoins (en ajoutant des mesures ou des visualisations, ou en les remplaçant, par exemple) et enregistrez-les sous un nouveau nom.
 
-[Modèles standard dans Analysis Workspace sur YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
+Voici un didacticiel vidéo sur les modèles [standard en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Voici les modèles disponibles et les questions auxquelles chaque modèle peut contribuer à répondre.
 
@@ -65,7 +65,7 @@ Ces modèles standard vous guident dans la terminologie et les étapes courantes
 
 * **Tutoriel de formation - Analyse de recherche interne** : Le tutoriel de recherche interne vous aide à comprendre ce que vos visiteurs recherchent sur le site Web ou dans l’application, sans le trouver. L’analyse de ce type de données peut faire apparaître des opportunités d’optimisation du contenu.
 
-* **Tutoriel de formation - Analyse marketing** : Ce tutoriel vous explique comment assembler une analyse marketing pour vos cadres, y compris les dimensions et mesures personnalisées importantes.
+* **Didacticiel de formation - Analyse** marketing : Ce didacticiel vous explique comment assembler une analyse marketing pour vos cadres, y compris les dimensions et mesures personnalisées importantes.
 
 ### Publicité
 
@@ -77,9 +77,9 @@ Ces modèles standard vous guident dans la terminologie et les étapes courantes
 
 ### Commerce
 
-* **Magento : Marketing et commerce** : ce modèle ventile la conversion de votre commerce électronique en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, page d’entrée, emplacement géographique, etc. Pour une présentation vidéo, voir:
+* **Magento : Marketing et commerce**: Ce modèle ventile la conversion de votre commerce électronique en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, landing page, emplacement géographique, etc. Pour une présentation vidéo, voir:
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Média
 
