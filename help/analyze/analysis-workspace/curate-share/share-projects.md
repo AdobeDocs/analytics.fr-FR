@@ -1,17 +1,17 @@
 ---
 description: Partage de projets et rôles de projets dans Workspace
 keywords: Analysis Workspace sharing
-title: Partage des projets Workspace
-translation-type: ht
-source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+title: Partage de projets
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Partage des projets Workspace
+# Partage de projets
 
 Le partage rend un projet disponible pour d’autres utilisateurs d’Analysis Workspace de votre entreprise. Les [traitements](curate.md) appliqués sont répercutés lorsque les destinataires ouvrent le projet.
 
