@@ -2,9 +2,9 @@
 description: Un panneau est un ensemble de tableaux et de visualisations.
 title: Panneaux - Aperçu
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '803'
 ht-degree: 18%
 
 ---
@@ -33,6 +33,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 ## Suite de rapports de panneau {#report-suite}
 
 Les tableaux et les visualisations d’un panneau dérivent des données de la suite [!UICONTROL de] rapports sélectionnée dans l’angle supérieur droit du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou [plusieurs suites](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) de rapports en fonction des cas d’utilisation de vos analyses.
+
+La liste des suites de rapports est triée en fonction de la pertinence. L’Adobe la définit en fonction de la fréquence et de la fréquence d’utilisation de la suite par l’utilisateur actuel et de la fréquence d’utilisation de la suite au sein de l’organisation.
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ Les filtres déroulants peuvent également servir à consolider de nombreux proj
 
 **Créez et utilisez des filtres déroulants :**
 
-![](assets/create-dropdown.png)
-
 1. Pour créer un filtre déroulant à l’aide d’éléments [!UICONTROL de]Dimension, tels que des valeurs dans la dimension Canal  marketing, cliquez sur l’icône de flèche vers la droite située en regard de votre dimension dans le rail de gauche. Cette opération expose tous les éléments disponibles. Sélectionnez un ou plusieurs éléments de composant dans le rail de gauche et déposez-les dans la zone de dépôt du panneau **tout en maintenant la touche** Maj enfoncée. Les composants seront alors transformés en filtre déroulant, plutôt qu’en un seul segment.
 1. Pour créer un filtre déroulant à l’aide d’autres composants tels que les mesures, les segments ou les plages de dates, sélectionnez un type de composant dans le rail de gauche et déposez dans la zone de liste déroulante du panneau **tout en maintenant la touche** Maj enfoncée.
 1. Sélectionnez l’une des options de la liste déroulante pour modifier les données du panneau. Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Pas de filtre]**.
 
+![](assets/create-dropdown.png)
+
 [Regardez la vidéo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) pour en savoir plus sur l&#39;ajout de filtres déroulants à votre projet.
+
