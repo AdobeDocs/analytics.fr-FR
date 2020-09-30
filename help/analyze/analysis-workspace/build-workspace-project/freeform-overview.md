@@ -5,10 +5,10 @@ title: Aperçu de la création d’un projet
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 68246d319bdfa27a0fabda493b3550085d2e5528
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 88%
+source-wordcount: '758'
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ La page de liste de projets de l’Workspace présente les informations suivante
 | [Créer un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Cliquez sur ce lien pour démarrer un projet entièrement nouveau. |
 | Gérer les projets | Cliquez sur ce lien pour accéder au Gestionnaire de composants des projets (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Projets]**), où sont répertoriés tous les projets et où vous pouvez baliser, partager, supprimer, renommer, approuver ou copier les projets et les exporter au format CSV. |
 | Définir comme page d’entrée | Transforme cette page en votre landing page Workspace. |
-| Afficher les tutoriels | Permet d’accéder aux [vidéos YouTube Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
+| Afficher les tutoriels | Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | Nom | Nom du projet de l’Workspace. |
 | Propriétaire | Personne qui a créé ce projet (vous ou quelqu’un qui a partagé le projet avec vous). |
 | Type | Indique s’il s’agit d’un projet Workspace ou d’une carte de performance [Mobile](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/mobapp/home.html). |
