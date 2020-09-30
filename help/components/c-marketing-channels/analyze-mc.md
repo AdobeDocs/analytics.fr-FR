@@ -1,11 +1,11 @@
 ---
 title: Analyse des canaux marketing
 description: Découvrez comment utiliser les dimensions des canaux marketing dans Workspace.
-translation-type: ht
-source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 94%
 
 ---
 
@@ -52,12 +52,10 @@ Vous pouvez utiliser [Attribution IQ](https://docs.adobe.com/content/help/fr-FR
 
 Notez comment une même mesure (Commandes en ligne) génère des résultats différents lorsque vous appliquez différents modèles d’attribution.
 
-Voici quelques vidéos expliquant en détail Attribution IQ : [Playlist Attribution IQ](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
-
 ## Analyse marketing entre onglets
 
 En utilisant le Canal Première touche et le Canal Dernière touche hérités, vous pouvez obtenir des informations utiles sur les interactions de canal :
 
 ![](assets/mc-viz6.png)
 
-Pour en savoir plus sur les analyses entre onglets, consultez [cette vidéo](https://www.youtube.com/watch?v=M3EOdONa-3E).
+Pour en savoir plus sur l’analyse marketing par onglets croisés, consultez cette vidéo : [Utilisation d’une Analyse à onglets croisés pour explorer l’attribution de base du marketing dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
