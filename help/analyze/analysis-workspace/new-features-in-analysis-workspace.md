@@ -3,9 +3,9 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '7821'
+source-wordcount: '7790'
 ht-degree: 99%
 
 ---
@@ -989,9 +989,7 @@ Nouvelles fonctionnalités au 20 octobre 2016 :
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->Dans le rail de navigation de gauche, ajout d’un bouton « Actions » qui présente les actions suivantes : Baliser, Favori, Approuver, <b>Partager (nouveauté).</b>, <b>Supprimer (nouveauté)</b>. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">Ajout d’un filtre dans la barre de recherche pour que vous puissiez filtrer les balises, les favoris, les éléments approuvés et les composants. </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Ajout d’une icône de prévisualisation sur les lignes manuelles (et non sur les lignes dynamiques qui répertorient les éléments de dimension) afin que vous puissiez prévisualiser les segments, les mesures et les périodes. </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Mise à jour du lien YouTube des didacticiels Analysis Workspace : <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>. </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Ajout d’une icône de prévisualisation sur les lignes manuelles (et non sur les lignes dynamiques qui répertorient les éléments de dimension) afin que vous puissiez prévisualiser les segments, les mesures et les périodes. </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->Nous avons ajouté pour les visualisations une option accessible par un clic droit dans le menu contextuel, nommée <span class="uicontrol"> Recommencer </span> (compatible avec Flux, Venn, Histogramme). Elle supprime la configuration de la visualisation en cours et ouvre un nouveau panneau dans lequel vous pouvez reconfigurer cette dernière. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">Un nouveau paramètre de visualisation nommé « Légende visible » permet de masquer le texte des détails de filtre pour la visualisation de Synthèse des chiffres/Résumé des changements. </li> 
