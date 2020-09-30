@@ -2,10 +2,10 @@
 description: Un panneau est un ensemble de tableaux et de visualisations.
 title: Panneaux - Aperçu
 translation-type: tm+mt
-source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 19%
+source-wordcount: '766'
+ht-degree: 18%
 
 ---
 
@@ -78,4 +78,4 @@ Les filtres déroulants peuvent également servir à consolider de nombreux proj
 1. Pour créer un filtre déroulant à l’aide d’autres composants tels que les mesures, les segments ou les plages de dates, sélectionnez un type de composant dans le rail de gauche et déposez dans la zone de liste déroulante du panneau **tout en maintenant la touche** Maj enfoncée.
 1. Sélectionnez l’une des options de la liste déroulante pour modifier les données du panneau. Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Pas de filtre]**.
 
-[Regardez la vidéo](https://www.youtube.com/watch?v=vpJywtsFVPI) pour en savoir plus sur l&#39;ajout de filtres déroulants à votre projet.
+[Regardez la vidéo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) pour en savoir plus sur l&#39;ajout de filtres déroulants à votre projet.
