@@ -1,17 +1,17 @@
 ---
 description: Le traitement permet de limiter les composants avant de partager un projet.
 keywords: Analysis Workspace curation
-title: Traitement des projets Workspace
-translation-type: ht
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+title: Traiter les projets
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Traitement des projets Workspace
+# Traiter les projets
 
 Le traitement vous permet de limiter les composants (dimensions, mesures, segments, périodes) avant de partager un projet. Lorsqu’un destinataire ouvre le projet, il voit un ensemble limité de composants que vous avez traités à sa place. Le traitement est une étape facultative mais recommandée avant de partager un projet.
 
