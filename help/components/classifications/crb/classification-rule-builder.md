@@ -4,11 +4,11 @@ subtopic: Classifications
 title: Workflow du créateur de règles de classification
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -52,4 +52,4 @@ Vous trouverez, ci-dessous, les étapes de haut niveau pour mettre en œuvre des
 
 **Blog** : pour plus d’informations sur cette fonctionnalité, consultez le blog Digital Marketing : [Classifications selon des règles](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Vidéo** : rendez-vous sur [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) pour consulter la vidéo [!UICONTROL Présentation des classifications].
+**Vidéo**: Vue de la vidéo Présentation [des](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) classifications.
