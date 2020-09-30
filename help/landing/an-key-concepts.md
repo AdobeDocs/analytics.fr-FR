@@ -2,10 +2,10 @@
 description: Cette section présente des concepts clés liés à Adobe Analytics, une brève description du concept et un lien vers une documentation spécifique comprenant des détails supplémentaires sur le sujet.
 title: Adobe Analytics – Concepts clés
 translation-type: tm+mt
-source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -113,5 +113,5 @@ Cliquez [ici](/help/technotes/terms.md) pour consulter un glossaire complet des 
 | DTM et Adobe Launch | Voir Outils Analytics. |  |
 | VISTA | Permet d’appliquer une logique côté serveur pour modifier ou segmenter les données au fur et à mesure de leur collecte. | [Règles VISTA](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Règles de traitement | Permet de définir, modifier et copier des variables dans l’interface utilisateur d’Analytics afin de modifier les données collectées. | [Règles de traitement](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| Options de débogage | Plusieurs débogueurs et renifleurs de paquets peuvent vous aider à valider votre mise en œuvre, notamment le débogueur Adobe Experience Cloud. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=fr) |
+| Options de débogage | Plusieurs débogueurs et renifleurs de paquets sont disponibles pour vous aider à valider votre mise en oeuvre, y compris le débogueur Adobe Experience Cloud. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=fr) |
 | API d’insertion de données | L’API d’insertion de données fournit aux serveurs Experience Cloud un mécanisme de collecte et d’envoi de données côté serveur. Plutôt que d’utiliser des balises JavaScript sur chaque page web pour transmettre aux serveurs Experience Cloud les données des visiteurs, la collecte de données côté serveur récupère les données uniquement en fonction des demandes du navigateur et des réponses du serveur. | [Procédure de mise en œuvre de l’API d’insertion de données d’Adobe Analytics à l’aide de POST](https://helpx.adobe.com/fr/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
