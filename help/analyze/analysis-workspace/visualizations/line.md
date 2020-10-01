@@ -3,10 +3,10 @@ description: Utilisation de la visualisation en ligne pour représenter les jeux
 title: Ligne
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
+source-git-commit: ac3a859a7ee54eb772b7cd947f3cdaad861b1078
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 64%
+source-wordcount: '511'
+ht-degree: 65%
 
 ---
 
@@ -41,7 +41,7 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 >[!TIP]
 >
->Nous vous recommandons d’appliquer des lignes de tendances aux données qui n’incluent pas de dates d’aujourd’hui (données partielles) ou futures, car elles faussent la ligne de tendance. Toutefois, si vous devez inclure des dates futures, supprimez des zéros des données afin d’éviter les bizutages de ces jours. Pour ce faire, accédez au tableau de source de données de la visualisation et choisissez votre colonne de mesures. Accédez ensuite à Paramètres [!UICONTROL de] colonne et cochez la case **[!UICONTROL Interpréter zéro comme aucune valeur]**.)
+>Il est recommandé d’appliquer des lignes de tendances à des données qui n’incluent pas de dates d’aujourd’hui (données partielles) ou futures, car elles faussent la ligne de tendance. Toutefois, si vous devez inclure des dates futures, supprimez des zéros des données afin d’éviter les bizutages de ces jours. Pour ce faire, accédez au tableau de source de données de la visualisation, choisissez votre colonne de mesures, puis activez Paramètres **[!UICONTROL de]** colonne > **[!UICONTROL Interpréter zéro comme aucune valeur]**.
 
 ![Courbe de tendance linéaire](assets/show-linear-trendline.png)
 
@@ -54,4 +54,4 @@ Toutes les lignes de tendances des modèles de régression sont ajustées en uti
 | Exponentiel | Crée une courbe. Utile lorsque les données augmentent ou diminuent à un rythme constamment croissant. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a + e^(b * x)` |
 | Puissance | Crée une courbe. Utile pour les jeux de données comparant des mesures qui augmentent à un rythme spécifique. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a * x^b` |
 | Quadratique | Trouve la courbe la plus adaptée pour un jeu de données en forme de parabole (concave vers le haut ou vers le bas). Équation : `y = a + b * x + c * x^2` |
-| Moyenne glissante | Crée une courbe de tendance lisse basée sur un ensemble de moyennes. Par exemple, une moyenne mobile de 7 jours ou de 4 semaines. Connue également sous le nom de moyenne variable, une moyenne mobile calcule la moyenne pour une plage précédente, l’utilise comme point de données de tendance, puis passe à la période suivante pour se répéter. L’entrée &quot;Périodes&quot; définit la plage pour calculer la moyenne sur l’ensemble. |
+| Moyenne glissante | Crée une courbe de tendance lisse basée sur un ensemble de moyennes. Connue également sous le nom de moyenne variable, une moyenne mobile utilise un nombre spécifique de points de données (déterminé par votre sélection &quot;Périodes&quot;), les calcule en moyenne et utilise la moyenne comme point de la ligne. Par exemple, une moyenne mobile de 7 jours ou de 4 semaines. |
