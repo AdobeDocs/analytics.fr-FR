@@ -3,10 +3,10 @@ description: Utilisation de la visualisation en ligne pour représenter les jeux
 title: Ligne
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
+source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 79%
+source-wordcount: '524'
+ht-degree: 64%
 
 ---
 
@@ -37,7 +37,7 @@ Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Superpositio
 
 ## Affichage de courbes de tendance superposées
 
-Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Superpositions]** > **[!UICONTROL Afficher la courbe de tendance]**, vous pouvez choisir d’ajouter une courbe de tendance de régression à votre série de lignes. Les courbes de tendance permettent d’illustrer plus clairement un schéma dans les données.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. Les courbes de tendance permettent d’illustrer plus clairement un schéma dans les données.
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Superpositio
 
 ![Courbe de tendance linéaire](assets/show-linear-trendline.png)
 
-Tous les modèles sont ajustés à l’aide de moindres carrés ordinaires :
+Toutes les lignes de tendances des modèles de régression sont ajustées en utilisant les moindres carrés ordinaires :
 
 | Modèle | Description |
 | --- | --- |
@@ -54,3 +54,4 @@ Tous les modèles sont ajustés à l’aide de moindres carrés ordinaires :
 | Exponentiel | Crée une courbe. Utile lorsque les données augmentent ou diminuent à un rythme constamment croissant. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a + e^(b * x)` |
 | Puissance | Crée une courbe. Utile pour les jeux de données comparant des mesures qui augmentent à un rythme spécifique. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a * x^b` |
 | Quadratique | Trouve la courbe la plus adaptée pour un jeu de données en forme de parabole (concave vers le haut ou vers le bas). Équation : `y = a + b * x + c * x^2` |
+| Moyenne glissante | Crée une courbe de tendance lisse basée sur un ensemble de moyennes. Par exemple, une moyenne mobile de 7 jours ou de 4 semaines. Connue également sous le nom de moyenne variable, une moyenne mobile calcule la moyenne pour une plage précédente, l’utilise comme point de données de tendance, puis passe à la période suivante pour se répéter. L’entrée &quot;Périodes&quot; définit la plage pour calculer la moyenne sur l’ensemble. |
