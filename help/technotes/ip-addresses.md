@@ -2,10 +2,10 @@
 title: IP et domaines utilisés par l’Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 translation-type: tm+mt
-source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
+source-git-commit: 436d0c2706f47a79cc70e4dcdbda6bd2c9a4d98c
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics utilise les hôtes suivants pour améliorer les performances et 
 
 | Technologie | Domaine |
 | --- | --- |
-| Domaine Adobe Analytics | `adobe.com` |
+| Domaines Adobe Analytics | `adobe.com`, `adobe.net`, `adobe.io` |
 | Domaine hérité Adobe Analytics | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
