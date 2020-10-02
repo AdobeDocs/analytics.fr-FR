@@ -5,10 +5,10 @@ title: Règles de traitement - Aperçu
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 87%
+source-wordcount: '362'
+ht-degree: 80%
 
 ---
 
@@ -24,20 +24,11 @@ Les règles de traitement simplifient la collecte de données et gèrent le cont
 * Corriger les sections de site mal orthographiées.
 * Extraire des termes de recherche internes ou un identifiant de campagne d’une requête de chaîne pour les placer dans une variable eVar.
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*Regardez l’aperçu des règles de traitement et la formation proposée par Adobe Summit pour découvrir pour quelles raisons vous devriez utiliser des règles de traitement.*
+## Autorisations des règles de traitement {#section_8A4846688050453784DAE4D89355169A}
 
-## Obtention de l’autorisation d’utiliser des règles de traitement {#section_8A4846688050453784DAE4D89355169A}
-
-Avant le 20 avril 2017, tous les utilisateurs (y compris les administrateurs) devaient réussir un examen et obtenir une autorisation de l’Assistance clientèle Adobe pour utiliser les règles de traitement.
-
-Désormais, les administrateurs disposent des droits d’utiliser les règles de traitement **par défaut**. L’examen n’est plus nécessaire. Les administrateurs peuvent également octroyer ces droits à des utilisateurs qui ne sont pas administrateurs à l’aide de l’interface des outils d’administration. Procédez comme suit :
-
-1. Si vous ne l’avez pas déjà fait, [créez un groupe](/help/admin/user-management2/c-user-groups/groups.md) qui inclut seulement les non-administrateurs qui doivent disposer de l’autorisation d’utiliser les règles de traitement.
-1. [Ajoutez les non-administrateurs à ce groupe](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Ensuite, sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]** > **[!UICONTROL `group name`]** > **[!UICONTROL Modifier]** > **[!UICONTROL Accès aux rapports]** > **[!UICONTROL Outils de suites de rapports]** > **[!UICONTROL Personnaliser]** > **[!UICONTROL Gestion des suites de rapports]**.
-1. Cochez la case en regard de [!UICONTROL Règles de traitement] et cliquez sur **[!UICONTROL OK]**.
+Administrators have rights to use processing rules **by default**. Les administrateurs peuvent également octroyer ces droits à des utilisateurs qui ne sont pas administrateurs à l’aide de l’interface des outils d’administration. Pour obtenir des instructions, voir []
 
 ![](assets/processing-rules.png)
 
