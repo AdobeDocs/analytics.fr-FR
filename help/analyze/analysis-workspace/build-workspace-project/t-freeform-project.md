@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Création d’un projet Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Créez un projet et ajoutez des composants (dimensions, mesures, segments et plages de dates) au panneau à structure libre.
 
-Cet article présente les éléments d’Analysis Workspace et explique comment créer un projet. Pour consulter des cas d’utilisation spécifiques, voir [Cas d’utilisation d’Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+Cet article présente les éléments d’Analysis Workspace et explique comment créer un projet.
 
 ## Création d’un projet
 
@@ -117,7 +117,7 @@ Cet article présente les éléments d’Analysis Workspace et explique comment 
   </tr> 
   <tr> 
    <td colname="col1"> Segments (bleu) </td> 
-   <td colname="col2"> <p>Vous pouvez les faire glisser uniquement au niveau du panneau, mais vous pouvez créer des segments incorporés dans le tableau de données. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Pour en savoir plus, voir <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Cas d’utilisation d’Analysis Workspace</a>. </p> </td> 
+   <td colname="col2"> <p>Vous pouvez les faire glisser uniquement au niveau du panneau, mais vous pouvez créer des segments incorporés dans le tableau de données. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segments </a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Plages de dates et granularités (violet) </td> 
