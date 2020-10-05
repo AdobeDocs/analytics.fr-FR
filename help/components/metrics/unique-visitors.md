@@ -1,11 +1,11 @@
 ---
 title: Visiteurs uniques
-description: Nombre d’individus (ou d’appareils) uniques.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+description: Nombre d’identifiants de visiteur uniques.
+translation-type: tm+mt
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 La mesure « Visiteurs uniques » indique le nombre d’identifiants de visiteur pour l’élément de dimension. Il s’agit de l’une des mesures les plus courantes utilisées pour déterminer le trafic, car elle fournit un aperçu général de la popularité d’un élément de dimension. Par exemple, un visiteur peut venir sur votre site tous les jours pendant un mois et, néanmoins, ne représenter qu’un visiteur unique.
 
-Si vous utilisez les [analyses entre appareils](../cda/overview.md), cette mesure est renommée « Appareils uniques ».
+Si vous utilisez les analyses [](../cda/overview.md)inter-périphériques, cette mesure est remplacée par la mesure Périphériques [](unique-devices.md) uniques.
 
 ## Visiteurs uniques quotidiens, hebdomadaires, mensuels, trimestriels et annuels
 
