@@ -3,10 +3,10 @@ description: valeur nulle
 title: Optimisation des performances d’Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 8ac408613d9aae1745cc6b876ef2a4c252f0665d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 98%
+source-wordcount: '1381'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Le type de visualisation (abandons ou tableau à structure libre) ajouté à un 
 * Plage de données demandée, comme mentionné ci-dessus
 * Nombre de segments appliqués ; par exemple, les segments utilisés comme des lignes d’un tableau à structure libre
 * Utilisation de segments complexes
-* [Lignes ou colonnes de postes statiques dans les tableaux de forme libre](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
+* [Lignes ou colonnes de postes statiques dans les tableaux de forme libre](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
 * Filtres appliqués aux lignes des tableaux à structure libre
 * Nombre de mesures incluses, en particulier les mesures calculées qui utilisent des segments
 
@@ -99,10 +99,10 @@ Le nombre d’utilisateurs accédant simultanément à Analysis Workspace ou à 
 Vous pouvez rencontrer des erreurs au moment d’interagir avec Analysis Workspace. Les erreurs peuvent se produire pour plusieurs raisons. Les erreurs répertoriées ci-dessous sont les plus courantes.
 
 | Message d’erreur | Quelle en est la raison ? |
-|---|---|
-| `The report suite is experiencing unusually heavy reporting. Please try again later.` | Votre entreprise essaie d’exécuter trop de requêtes simultanées sur une suite de rapports spécifique. Les facteurs à l’origine de cette erreur sont les demandes d’API, les projets planifiés, les rapports planifiés, les alertes planifiées et les utilisateurs qui effectuent simultanément des demandes de création de rapports. Nous vous recommandons de répartir plus uniformément vos demandes et vos plannings pour la suite de rapports tout au long de la journée. |
-| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe rencontre un problème qui doit être résolu. Nous vous recommandons d’envoyer le code d’erreur en adressant une demande à l’assistance clientèle. |
-| `The request is too complex.` | Votre requête de création de rapports est trop volumineuse et ne peut pas être exécutée. Les facteurs à l’origine de cette erreur sont les dépassements de délai en raison de la taille de la requête, du nombre trop élevé d’éléments correspondants dans un segment ou un filtre de recherche, du nombre trop élevé de mesures incluses, des combinaisons de dimensions et de mesures incompatibles, etc. Nous vous recommandons de simplifier votre requête. |
-| `One of the segments or the search in this visualization contains a text search that returned too many results.` | Nous vous recommandons de limiter vos critères de texte de recherche et d’effectuer une nouvelle requête. |
-| `This dimension does not currently support non-default attribution models.` | Nous vous recommandons de remplacer la dimension de votre tableau par une dimension compatible avec [Attribution IQ](../attribution/overview.md). |
-| `Your request failed as a result of too many columns or pre-configured rows.` | Nous vous recommandons de supprimer certaines colonnes ou lignes ou de les diviser en visualisations distinctes. |
+| --- | --- |
+| [!UICONTROL Établissement de rapports inhabituellement lourd pour la suite de rapports. Réessayez ultérieurement.] | Votre entreprise essaie d’exécuter trop de requêtes simultanées sur une suite de rapports spécifique. Les facteurs à l’origine de cette erreur sont les demandes d’API, les projets planifiés, les rapports planifiés, les alertes planifiées et les utilisateurs qui effectuent simultanément des demandes de création de rapports. Nous vous recommandons de répartir plus uniformément vos demandes et vos plannings pour la suite de rapports tout au long de la journée. |
+| [!UICONTROL Une erreur système s&#39;est produite. Veuillez enregistrer une demande du service d’assistance clientèle sous Aide > Envoyer le ticket d’assistance et inclure votre code d’erreur.] | Adobe rencontre un problème qui doit être résolu. Nous vous recommandons d’envoyer le code d’erreur en adressant une demande à l’assistance clientèle. |
+| [!UICONTROL La demande est trop complexe.] | Votre requête de création de rapports est trop volumineuse et ne peut pas être exécutée. Les facteurs à l’origine de cette erreur sont les dépassements de délai en raison de la taille de la requête, du nombre trop élevé d’éléments correspondants dans un segment ou un filtre de recherche, du nombre trop élevé de mesures incluses, des combinaisons de dimensions et de mesures incompatibles, etc. Nous vous recommandons de simplifier votre requête. |
+| [!UICONTROL L’un des segments ou la recherche de cette visualisation contient une recherche de texte qui a renvoyé trop de résultats.] | Nous vous recommandons de limiter vos critères de texte de recherche et d’effectuer une nouvelle requête. |
+| [!UICONTROL Actuellement, cette dimension ne prend pas en charge les modèles d’attribution autres que ceux par défaut.] | Nous vous recommandons de remplacer la dimension de votre tableau par une dimension compatible avec [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
+| [!UICONTROL Votre requête a échoué en raison d&#39;un trop grand nombre de colonnes ou de lignes préconfigurées.] | Nous vous recommandons de supprimer certaines colonnes ou lignes ou de les diviser en visualisations distinctes. |
