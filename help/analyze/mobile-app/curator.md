@@ -2,7 +2,7 @@
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
+source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
 ht-degree: 94%
@@ -11,10 +11,6 @@ ht-degree: 94%
 
 
 # Guide du curateur pour les tableaux de bord Adobe Analytics
-
->[!IMPORTANT]
->
->À partir d’octobre 2020, l’Adobe déploie progressivement une série d’améliorations pour optimiser les performances de l’application &quot;tableaux de bord Adobe Analytics&quot;. Ces améliorations portent principalement sur la mise en cache des données Analytics historiques utilisées pour remplir les cartes de performance avec des dates (à l’exception du jour en cours). Ces données seront mises en cache pendant 24 heures au maximum dans un compte d&#39;enregistrement de cloud public Microsoft Azure sécurisé. Veuillez contacter votre CSM si vous souhaitez opt-out de ces fonctions d&#39;amélioration des performances.
 
 Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs en charge de l’exécution. Pour visionner une vidéo présentant ces informations, visionnez la vidéo du créateur de cartes de performance des tableaux de bord Adobe Analytics :
 
@@ -263,3 +259,7 @@ Appuyez sur l’option et choisissez une sous-catégorie de suggestion. Dans le 
 **Pour poser une question** :
 
 Appuyez sur l’option et indiquez votre adresse électronique dans le champ supérieur et votre question dans le champ qui suit. Une capture d’écran est jointe automatiquement au message, mais vous pouvez la supprimer en appuyant sur le **X** dans l’image de la pièce jointe. Vous disposez également d’options pour effectuer un enregistrement de l’écran, ajouter davantage de captures d’écran ou joindre des fichiers. Pour envoyer la question, appuyez sur l’icône en forme d’avion en papier en haut à droite du formulaire.
+
+>[!IMPORTANT]
+>
+>À partir d’octobre 2020, l’Adobe déploie progressivement une série d’améliorations pour optimiser les performances de l’application &quot;tableaux de bord Adobe Analytics&quot;. Ces améliorations portent principalement sur la mise en cache des données Analytics historiques utilisées pour remplir les cartes de performance avec des dates (à l’exception du jour en cours). Ces données seront mises en cache pendant 24 heures au maximum dans un compte d&#39;enregistrement de cloud public Microsoft Azure sécurisé. Veuillez contacter votre CSM si vous souhaitez opt-out de ces fonctions d&#39;amélioration des performances.
