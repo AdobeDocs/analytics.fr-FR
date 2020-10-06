@@ -2,18 +2,23 @@
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
+source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 100%
+source-wordcount: '2376'
+ht-degree: 94%
 
 ---
 
 
-
 # Guide du curateur pour les tableaux de bord Adobe Analytics
 
-Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs en charge de l’exécution. Pour regarder une vidéo présentant ces informations, reportez-vous à la section [Créateur de Fiche d’évaluation des tableaux de bord Adobe Analytics](https://youtu.be/tnnl6hrcP94).
+>[!IMPORTANT]
+>
+>À partir d’octobre 2020, l’Adobe déploie progressivement une série d’améliorations pour optimiser les performances de l’application &quot;tableaux de bord Adobe Analytics&quot;. Ces améliorations portent principalement sur la mise en cache des données Analytics historiques utilisées pour remplir les cartes de performance avec des dates (à l’exception du jour en cours). Ces données seront mises en cache pendant 24 heures au maximum dans un compte d&#39;enregistrement de cloud public Microsoft Azure sécurisé. Veuillez contacter votre CSM si vous souhaitez opt-out de ces fonctions d&#39;amélioration des performances.
+
+Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs en charge de l’exécution. Pour visionner une vidéo présentant ces informations, visionnez la vidéo du créateur de cartes de performance des tableaux de bord Adobe Analytics :
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Introduction
 
@@ -38,25 +43,20 @@ Le tableau suivant décrit les termes nécessaires à la compréhension de l’a
 | Période | La période principale pour la création de rapports dans les tableaux de bord |
 | Période de comparaison | La période comparée à la période principale |
 
- 
 ## Créer une Fiche d’évaluation à destination des utilisateurs en charge de l’exécution dans l’application
 
 Une Fiche d’évaluation affiche les visualisations de données principales pour les utilisateurs en charge de l’exécution dans l’application sous la forme d’une mosaïque comme indiqué ci-dessous :
 
-
 ![Exemple de Fiche d’évaluation](assets/intro_scorecard.png)
-
 
 En tant que curateur de cette Fiche d’évaluation, vous pouvez utiliser le Créateur de Fiches d’évaluations pour configurer les mosaïques qui apparaissent sur la Fiche d’évaluation de votre consommateur. Vous pouvez également configurer la manière dont l’affichage des détails ou les ventilations s’ajustent lorsque l’utilisateur appuie sur les mosaïques. L’interface du Créateur de Fiche d’évaluation est illustrée ci-dessous :
 
 ![Créateur de Fiche d’évaluation](assets/scorecard_builder.png)
 
-
 Pour créer la Fiche d’évaluation, vous devrez effectuer les opérations suivantes :
 
 1. Accéder au modèle de Fiche d’évaluation mobile vierge.
 2. Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
-
 
 ### Accéder au modèle de Fiche d’évaluation vierge
 
@@ -151,7 +151,7 @@ Après avoir partagé une Fiche d’évaluation, vos destinataires peuvent y acc
 
 Si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous voudrez peut-être partager à nouveau la Fiche d’évaluation (et cocher l’option **Partager les composants incorporés**) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.
 
-## Configurer des utilisateurs en charge de l’exécution dans l’application
+## Configuration d’utilisateurs exécutifs avec l’application
 
 Dans certains cas, les utilisateurs en charge de l’exécution peuvent avoir besoin d’aide pour accéder à l’application et l’utiliser. Cette section fournit des informations pour vous aider à apporter cette aide.
 
@@ -205,7 +205,7 @@ Pour aider les utilisateurs en charge de l’exécution :
    * Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Analytics et que la Fiche d’évaluation a bien été partagée.
 
 
-3. Expliquez à l’utilisateur en charge de l’exécution la façon dont les mosaïques apparaissent dans les Fiches d’évaluation que vous partagez (la première Fiche d’évaluation ci-dessous est configurée en mode sombre, consultez **Préférences** ci-dessous si vous pensez que l’utilisateur en charge de l’exécution préfère cette option d’affichage) :
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
 
    ![Explication des mosaïques](assets/newexplain.png)
 
