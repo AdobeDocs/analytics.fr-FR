@@ -2,9 +2,9 @@
 title: Mises à jour de la documentation technique pour Adobe Analytics
 description: Mises à jour notables au référentiel de documentation Adobe Analytics.
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
 
