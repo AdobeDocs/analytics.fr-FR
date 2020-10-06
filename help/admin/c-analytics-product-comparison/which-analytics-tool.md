@@ -2,11 +2,11 @@
 description: Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
-source-wordcount: '1102'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 97%
 
 ---
 
@@ -28,12 +28,15 @@ Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/hel
 * Pour configurer les événements du calendrier.
 * Pour configurer les cibles.
 * Pour afficher les rapports des robots.
-* Pour accéder à des visualisations vidéo uniques en fonction de la Visionneuse simultanée, de la Tranche horaire de la vidéo et de l’Abandon du visionnage.
+* Pour accéder à des visualisations vidéo uniques de la partie horaire de la vidéo et au menu déroulant de la visionneuse.
 * Pour tirer parti des Listes de publication dans les rapports programmés.
 
 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** doit être utilisé :
 
-* Pour exporter 50 000 lignes de données
+>[!IMPORTANT]
+>
+>L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
+
 * Si une organisation des onglets du projet est requise.
 * Pour utiliser le rapport Analyse de site (rapport de cheminement 3D).
 
