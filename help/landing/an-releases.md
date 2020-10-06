@@ -1,18 +1,18 @@
 ---
 description: Explique la nouvelle stratégie de mise à jour continue des fonctionnalités pour Adobe Analytics
 title: Mises à jour des fonctionnalités Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Mises à jour des fonctionnalités Adobe Analytics
 
-Historiquement, les mises à jour des fonctionnalités Adobe Analytics suivaient un calendrier mensuel fixe. À partir d’avril 2020, Adobe Analytics a adopté un modèle de diffusion continue qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités.
+Historiquement, les mises à jour des fonctionnalités Adobe Analytics suivaient un calendrier mensuel fixe. Depuis avril 2020, Adobe Analytics a adopté un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités.
 
 ## Stratégie de mise à jour
 
@@ -28,9 +28,9 @@ Selon les mises à jour de fonctionnalité, la chronologie peut varier entre la 
 
 ## Indicateurs de fonctionnalités
 
-Les indicateurs de fonctionnalités permettent de contrôler la visibilité des nouvelles fonctionnalités au cours de la version. adobe recommande d’ajouter app.launchdarkly.com à la [liste autorisée](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) de votre pare-feu pour une expérience optimale lors de la publication. Peu de temps après avoir atteint GA, le drapeau est retiré.
+Les indicateurs de fonctionnalités permettent de contrôler la visibilité des nouvelles fonctionnalités pendant la mise à jour. Adobe recommande d’ajouter app.launchdarkly.com à la [liste autorisée](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/ip-addresses.translate.html) de votre pare-feu pour une expérience optimale lors de la mise à jour. Peu de temps après avoir atteint la disponibilité générale, l’indicateur est retiré.
 
-Vous pouvez à tout moment vue vos indicateurs de fonction principaux sous **Aide > A propos de Workspace > Indicateurs** de fonction Principaux.
+Vous pouvez à tout moment afficher vos indicateurs de fonctionnalités actifs sous **Aide > À propos de Workspace > Indicateurs de fonctionnalités actifs**.
 
 ## Avantages
 
