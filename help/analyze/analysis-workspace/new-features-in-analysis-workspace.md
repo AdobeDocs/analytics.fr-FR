@@ -3,9 +3,9 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7786'
 ht-degree: 99%
 
 ---
@@ -414,8 +414,7 @@ Nouvelles fonctionnalités et améliorations au 8 février 2018.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > Modèles Workspace personnalisés </a> </p> </td> 
    <td colname="col2"> <p>Vous pouvez désormais créer vos propres modèles Workspace et les enregistrer afin que d’autres utilisateurs de votre organisation puissent commencer par les données dont ils ont besoin. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Fenêtre modale Nouveau projet </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>Cliquez sur « Nouveau projet » pour ouvrir un nouvel écran vous permettant de démarrer à partir : </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">d’un projet vierge ; </li> 
@@ -498,7 +497,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
    <td colname="col2"> <p>La visualisation des cartes, introduite en octobre 2017, peut maintenant être générée au format PDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Liens internes relatifs </a> lors de la copie et de l’enregistrement en tant que projet </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Liens internes relatifs </a> lors de la copie et de l’enregistrement en tant que projet </p> </td> 
    <td colname="col2"> <p>Auparavant, lorsque vous copiiez un projet ou utilisiez l’option « Enregistrer sous », tous les liens internes enregistrés dans le projet pointaient vers le projet d’origine, et non vers le projet copié. </p> <p>Désormais, une fois le projet copié ou enregistré sous, les liens internes dépendent du projet dans lequel ils apparaissent. </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ Nouvelles fonctionnalités au 26 octobre 2017.
    <td colname="col2"> <p>Si des visualisations sont connectées à une table à structure libre ou de cohortes, le point supérieur gauche (paramètres de source de données) recensera désormais les visualisations connectées. Le passage du curseur mettra en surbrillance la visualisation associée à laquelle vous pourrez accéder par un simple clic. </p> <p>Par ailleurs, une case à cocher « Afficher/Masquer la table de données » permet d’afficher ou de masquer la table de données. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Dimension Event# ajoutée aux noms d’événement du rail gauche </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Dimension Event# ajoutée aux noms d’événement du rail gauche </a> </p> </td> 
    <td colname="col2"> <p>Avant octobre 2017, les dimensions evar# et prop# avaient été ajoutées aux noms des dimensions et vous pouviez en rechercher les numéros. La même fonctionnalité est désormais disponible pour les événements. </p> <p>Exemple : « Souscriptions » apparaît désormais dans le rail de gauche comme « Souscriptions (événement1) ». </p> <p>Remarque : </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">Le numéro de l’événement ne s’affiche pas dans la table (afin de conserver des titres courts). </li> 
@@ -576,7 +575,7 @@ Nouvelles fonctionnalités au 26 octobre 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Classement par défaut des dimensions prêtes à l’emploi dans l’ordre logique </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Classement par défaut des dimensions prêtes à l’emploi dans l’ordre logique </a> </p> </td> 
    <td colname="col2"> <p>L’ordre de classement par défaut de certaines dimensions prêtes à l’emploi a été mis à jour dans les cas suivants : </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">Lorsqu’elles sont déposées dans une table à structure libre. </li> 
@@ -677,7 +676,7 @@ Nouvelles fonctionnalités au 17 août 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Balisage d’un projet pendant l’enregistrement </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Balisage d’un projet pendant l’enregistrement </a> </p> </td> 
    <td colname="col2"> <p>Vous pouvez maintenant ajouter des balises à un projet tout en enregistrant ce dernier. </p> </td> 
   </tr> 
   <tr> 
