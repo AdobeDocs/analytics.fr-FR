@@ -5,7 +5,7 @@ title: Ventilation des dimensions
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 83%
@@ -19,7 +19,7 @@ Ventilez les dimensions et les éléments de dimension dans Analysis Workspace.
 
 Ventilez vos données de différentes manières en fonction de vos besoins ; créez des requêtes à l’aide de mesures, de dimensions, de segments, de chronologies pertinentes et autres valeurs de ventilation d’analyse.
 
-1. [Créez un projet](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) avec un tableau de données.
+1. [Créez un projet](/help/analyze/analysis-workspace/home.md) avec un tableau de données.
 1. Dans le tableau de données, cliquez avec le bouton droit de la souris sur une ligne et sélectionnez **[!UICONTROL Ventilation]** > *`<item>`*.
 
    ![Résultat de l’étape](assets/fa_data_table_actions.png)
@@ -30,7 +30,7 @@ Ventilez vos données de différentes manières en fonction de vos besoins ; cr
    >
    >Vous ne pouvez pas afficher plus de 200 ventilations dans le tableau. Cette limitation augmentera pour l’exportation des ventilations.
 
-[ajouter des Dimensions et des mesures à votre projet dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
+[Ajouter des Dimensions et des mesures à votre projet dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
 [Utilisation de Dimensions dans un tableau](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) à structure libre (15:35)
 
