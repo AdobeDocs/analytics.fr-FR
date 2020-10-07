@@ -1,11 +1,11 @@
 ---
 description: Importation des données de suivi à partir d’applications tierces dans Analytics.
 title: Prise en main des connecteurs de données Analytics
-translation-type: ht
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
-workflow-type: ht
-source-wordcount: '976'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 98%
 
 ---
 
@@ -86,8 +86,9 @@ Pour mettre correctement en œuvre les segments de remarketing, les conditions s
 
 >[!NOTE]
 >
->Si le produit est défini sans événement associé, l’événement prodView se déclenche automatiquement.
-Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
+>If the product is defined without an associated event, the `prodView` event automatically fires.
+>
+>Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
 
 [!UICONTROL Abandon de panier] : se déclenche après l’ajout par l’utilisateur d’un produit au panier :
 
