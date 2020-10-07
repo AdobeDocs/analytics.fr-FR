@@ -1,11 +1,11 @@
 ---
 title: Fonctionnement des relectures
 description: Comprendre le concept de « relecture » dans les analyses entre appareils
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '624'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 L’analyse entre appareils effectue deux passes de données dans une suite de rapports virtuelle :
 
-* **groupement en direct** : l’analyse entre appareils tente de grouper chaque accès au fur et à mesure. Les nouveaux appareils réseau de la suite de rapports n’ayant jamais été connectés ne sont généralement pas groupés à ce niveau. Les appareils reconnus sont groupés immédiatement.
+* **groupement en direct** : l’analyse entre appareils tente de grouper chaque accès au fur et à mesure. Les nouveaux périphériques réseau de la suite de rapports qui ne se sont jamais connectés ne sont généralement pas assemblés à ce niveau. Les appareils reconnus sont groupés immédiatement.
 * **Relecture** : environ une fois par semaine, l’analyse entre appareils « relit » les données en fonction des identifiants uniques appris. C’est à cette étape que les nouveaux appareils de la suite de rapports sont groupés.
 
 ## Exemple de tableau
