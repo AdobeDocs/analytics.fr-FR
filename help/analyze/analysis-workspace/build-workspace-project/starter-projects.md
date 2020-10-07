@@ -3,7 +3,7 @@ description: valeur nulle
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 93%
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 Vous pouvez créer un projet d’après :
 
-* **Projet vierge (par défaut)** : Pour obtenir des instructions, voir [Création d’un projet Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
+* **Projet vierge (par défaut)** : Pour obtenir des instructions, voir [Création d’un projet Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * **Modèle standard** : Ces modèles sont créés par Adobe et livrés avec le produit.
 * **Modèle personnalisé** : Ces modèles peuvent être créés, partagés ou supprimés par les utilisateurs disposant ou non de droits d’administration, à condition qu’ils aient reçu l’autorisation [!UICONTROL Analysis Workspace : enregistrer comme modèle] dans l’Admin Console. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-console/permissions/product-profile.html)
 
