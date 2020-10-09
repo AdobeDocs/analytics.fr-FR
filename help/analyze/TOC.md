@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1086'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 97%
       + [Panneau Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Panneau Visionneuses simultanées de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Panneau des visionneuses simultanées de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Panneau de comparaison des segments {#segment-comparison}
          + [Comparaison des segments - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -91,12 +91,12 @@ ht-degree: 97%
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Traitement et partage de projets {#curate-share}
       + [Menu Partager](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Traiter les projets](analysis-workspace/curate-share/curate.md)
+      + [Traitement des projets ](analysis-workspace/curate-share/curate.md)
       + [Partage de projets](analysis-workspace/curate-share/share-projects.md)
       + [Création de liens partageables](analysis-workspace/curate-share/shareable-links.md)
-      + [Projets à vue seule](analysis-workspace/curate-share/view-only-projects.md)
+      + [Projets en lecture seule](analysis-workspace/curate-share/view-only-projects.md)
       + [Téléchargement de fichiers PDF ou CSV](analysis-workspace/curate-share/download-send.md)
-      + [Planification des projets](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Planification de projets](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Présentation de l’Attribution](analysis-workspace/attribution/overview.md)
       + [Modèles d’attribution et fenêtres de recherche arrière](analysis-workspace/attribution/models.md)
@@ -239,8 +239,8 @@ ht-degree: 97%
       + [Dépannage de l’intégration de Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Packs de contenu Adobe Analytics pour Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Macros Visual Basic](report-builder/vba.md)
-   + [Dépannage des Reports Builder](report-builder/troubleshoot.md)
-   + [FAQ sur le Report Builder](report-builder/faq.md)
+   + [Dépannage de Report Builder](report-builder/troubleshoot.md)
+   + [FAQ sur Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map - Aperçu](activity-map/activity-map.md)
    + Prise en main {#getting-started}
@@ -271,7 +271,7 @@ ht-degree: 97%
    + [Paramétrage d’Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Interface utilisateur d’Activity Map](activity-map/activitymap-user-interface.md)
    + [Création de rapports Activity Map dans Analytics](activity-map/activitymap-reporting-analytics.md)
-   + [Résolution des problèmes liés à l&#39;extension du navigateur](activity-map/troubleshooting-browser-extensions.md)
+   + [Résolution des problèmes d’extension du navigateur](activity-map/troubleshooting-browser-extensions.md)
    + [Résolution des problèmes de collecte de données](activity-map/troubleshoot-data-collection.md)
    + [Ressources](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
