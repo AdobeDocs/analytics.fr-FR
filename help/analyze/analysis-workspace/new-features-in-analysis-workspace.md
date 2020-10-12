@@ -3,22 +3,48 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 60bc50752c307aa83c11885380e0962243025373
 workflow-type: tm+mt
-source-wordcount: '7786'
-ht-degree: 99%
+source-wordcount: '8103'
+ht-degree: 98%
 
 ---
 
 
 # Nouveautés d’Analysis Workspace
 
+Pour accéder aux Notes de mise à jour de Adobe Experience Cloud dans leur ensemble, rendez-vous [ici](https://docs.adobe.com/content/help/fr-FR/release-notes/experience-cloud/current.html).
+
+## Octobre 2020
+
+Nouvelles fonctionnalités publiées en octobre 2020.
+
+| Fonctionnalité | Description |
+| --- | --- |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL La moyenne glissante a été ajoutée aux paramètres de tendance de visualisation Ligne.]** Connue également sous le nom de moyenne mobile, une moyenne glissante utilise un nombre spécifique de points de données (déterminé par une sélection de **[!UICONTROL périodes]**), calcule leur moyenne et utilise cette moyenne comme point dans la ligne. |
+| [Page d’aide sur les performances](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.translate.html) | La page d’aide sur les performances Analysis Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. |
+
+## Septembre 2020
+
+Nouvelles fonctionnalités publiées en septembre 2020.
+
+| Fonctionnalité | Description |
+| --- | --- |
+| [Téléchargement de 50 000 éléments pour une seule dimension](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Vous pouvez maintenant télécharger 50 000 éléments pour une dimension unique dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
+| [Améliorations de la visualisation en ligne](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Vous pouvez afficher ou masquer l’axe des x et l’axe des y de n’importe quelle visualisation Ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations Ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation Ligne pour mettre rapidement en évidence les hausses et les baisses d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation Ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentielle], [!UICONTROL Puissance] et [!UICONTROL Quadratique].</li></ul> |
+| Nouvelles plages de dates | Nous avons ajouté 5 nouvelles plages de dates afin que vous puissiez choisir parmi des plages de dates qui n’incluent pas de données de jour partielles d’aujourd’hui : 7 derniers jours complets, 14 derniers jours complets, 30 derniers jours complets, 60 derniers jours complets, 90 derniers jours complets |
+
+
+## Août 2020
+
+Aucune nouvelle fonctionnalité n’a été ajoutée en août 2020.
+
 ## 2020 juillet
 
 Nouvelles fonctionnalités au 16 juillet 2020.
 
 | Fonctionnalité | Description |
-|--- |--- |
+| --- | --- |
 | Nouveaux paramètres prédéfinis de période | Ajout de 4 nouvelles périodes : ([!UICONTROL cette semaine/ce mois/ce trimestre/cette année (à l’exception d’aujourd’hui)]). Cela vous permet de choisir parmi des périodes ne comprenant pas de données de journée partielle pour la journée en cours. |
 
 ## Juin 2020
@@ -115,7 +141,7 @@ Améliorations publiées le 18 juillet 2019.
 Amélioration publiée le 13 juin 2019.
 
 | Amélioration | Description |
-|--- |--- |
+| --- |--- |
 | Nouveaux filtres prêts à l’emploi | Ajout de nouveaux filtres prêts à l’emploi dans la zone de recherche du rail gauche. Outre ce que vous voyez aujourd’hui (Dimensions, Mesures, Approuvé, etc.), de nouveaux filtres tels que Mesures calculées, Attributs du client, eVars, Props, Vidéo, etc. ont été ajoutés afin de faciliter la recherche des composants dont vous avez besoin. |
 
 ## Mai 2019
@@ -207,6 +233,7 @@ Nouvelles fonctionnalités et améliorations au 13 septembre 2018.
   </tr> 
  </tbody> 
 </table>
+
 ## Août 2018
 
 Nouvelles fonctionnalités et améliorations au 9 août 2018.
