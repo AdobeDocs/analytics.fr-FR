@@ -325,7 +325,8 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
    La page **[!UICONTROL Sélectionner une suite de rapports]** s’affiche.
 
    >[!NOTE]
-   Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont satisfaites :
+   >
+   >Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont satisfaites :
 
    * Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
    (Voir *`Variable`* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
