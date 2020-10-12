@@ -4,11 +4,11 @@ subtopic: Classifications
 title: Règles de classification
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+workflow-type: tm+mt
 source-wordcount: '2018'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -326,11 +326,14 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
 
    >[!NOTE]
    >
-   >Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont satisfaites :
-
-   * Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
-   (Voir *`Variable`* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
-
+   >Report suites display on this page *`only`* when the following conditions are met:
+   >
+   >* Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
+      >
+      >   
+      (Voir *`Variable`* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
+      >
+      >
    * Vous avez sélectionné la suite de rapports sur la page **[!UICONTROL Suites de rapports disponibles]**, qui s’affiche après avoir cliqué sur [Ajouter un jeu de règles](/help/components/classifications/crb/classification-rule-set.md) pour créer le jeu de règles.
 
 
