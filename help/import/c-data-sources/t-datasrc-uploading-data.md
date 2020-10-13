@@ -4,18 +4,16 @@ subtopic: Data sources
 title: Transfert d’un fichier de sources de données
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fb2a63432275c4ab621df263035400051ff6bb32
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 87%
 
 ---
 
 
 # Transfert d’un fichier de sources de données
-
-Procédure de transfert d’un fichier de sources de données.
 
 Une fois le fichier de données préparé, envoyez-le à la fonctionnalité Sources de données pour traitement. Adobe gère plusieurs serveurs FTP de sources de données, où vous pouvez transférer vos fichiers. Gardez à l’esprit ce qui suit au sujet des serveurs FTP de sources de données :
 
@@ -34,6 +32,7 @@ Une fois le fichier de données préparé, envoyez-le à la fonctionnalité Sour
    Le fichier [!DNL .fin] doit être nommé exactement de la même façon que le fichier de source de données, à l’exception de son extension. Le fichier de source de données n’est pas placé en file d’attente de traitement tant que le fichier [!DNL .fin] n’est pas transféré.
 
    Ne transférez pas le fichier tant que tous les fichiers de sources de données ne sont pas complètement transférés. Sinon, les sources de données peuvent tenter de traiter un fichier incomplet.
+1. Une fois le fichier .fin téléchargé, il est important de se déconnecter du site FTP Sources de données. La raison en est qu’Analytics utilise des événements de déconnexion comme déclencheur pour indiquer que les fichiers sont prêts pour le traitement.
 1. Vérifiez la présence éventuelle de messages durant le traitement du fichier de source de données.
 
    Le Gestionnaire des sources de données affiche des erreurs qui surviennent durant le traitement des fichiers.
