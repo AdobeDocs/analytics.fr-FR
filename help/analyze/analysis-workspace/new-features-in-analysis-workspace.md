@@ -3,7 +3,7 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 60bc50752c307aa83c11885380e0962243025373
+source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
 ht-degree: 98%
@@ -33,7 +33,6 @@ Nouvelles fonctionnalités publiées en septembre 2020.
 | [Téléchargement de 50 000 éléments pour une seule dimension](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Vous pouvez maintenant télécharger 50 000 éléments pour une dimension unique dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
 | [Améliorations de la visualisation en ligne](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Vous pouvez afficher ou masquer l’axe des x et l’axe des y de n’importe quelle visualisation Ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations Ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation Ligne pour mettre rapidement en évidence les hausses et les baisses d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation Ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentielle], [!UICONTROL Puissance] et [!UICONTROL Quadratique].</li></ul> |
 | Nouvelles plages de dates | Nous avons ajouté 5 nouvelles plages de dates afin que vous puissiez choisir parmi des plages de dates qui n’incluent pas de données de jour partielles d’aujourd’hui : 7 derniers jours complets, 14 derniers jours complets, 30 derniers jours complets, 60 derniers jours complets, 90 derniers jours complets |
-
 
 ## Août 2020
 
