@@ -2,13 +2,13 @@
 product: analytics
 audience: end-user
 user-guide-title: Guide des composants d’Analytics
-breadcrumb-title: Components Guide
-user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
+breadcrumb-title: Guide des composants
+user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
 translation-type: tm+mt
 source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 98%
+source-wordcount: '640'
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 98%
    + [Profondeur moyenne de page](metrics/average-page-depth.md)
    + [Moyenne de pages vues par visite](metrics/average-page-views-per-visit.md)
    + [Durée de session moyenne](metrics/average-session-length.md)
-   + [Durée moyenne de la visite du site](metrics/average-time-on-site.md)
+   + [Temps moyen passé sur le site](metrics/average-time-on-site.md)
    + [Taux de rebond](metrics/bounce-rate.md)
    + [Retours](metrics/bounces.md)
    + [Ajouts au panier](metrics/cart-additions.md)
@@ -137,7 +137,7 @@ ht-degree: 98%
    + [Durée par visiteur](metrics/time-spent-per-visitor.md)
    + [Présentation de la durée de la visite](metrics/time-spent.md)
    + [Durée totale en secondes](metrics/total-seconds-spent.md)
-   + [Périphériques uniques](metrics/unique-devices.md)
+   + [Appareils uniques](metrics/unique-devices.md)
    + [Visiteurs uniques](metrics/unique-visitors.md)
    + [Unités](metrics/units.md)
    + [Visiteurs avec un Experience Cloud ID](metrics/visitors-with-ecid.md)
