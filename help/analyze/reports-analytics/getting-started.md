@@ -4,10 +4,10 @@ subtopic: Get started
 title: Prise en main de Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '725'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '702'
 ht-degree: 100%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 100%
 # Prise en main de Reports &amp; Analytics
 
 Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
-
-## Prise en main de Reports &amp; Analytics
-
-Avant d’utiliser Reports and Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 
 Les rapports fournissent des informations sur vos canaux web classiques, ainsi que sur l’évolution des canaux tels que les réseaux mobiles, vidéo et sociaux. Voici quelques exemples de rapports marketing :
 
