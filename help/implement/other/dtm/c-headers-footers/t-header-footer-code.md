@@ -5,7 +5,7 @@ title: Ajout de code d’en-tête et de pied de page
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Dynamic Tag Management crée du code incorporé d’évaluation et de production
 
 1. Copiez le code de pied de page de production et collez-le dans la section [!DNL BODY] du code HTML de votre site.
 
-   Placez le code aussi près que possible de la balise [!DNL </body>] d’ouverture.
+   Placez le code aussi près que possible de la balise `</body>` d’ouverture.
 1. Copiez le code d’en-tête et de pied de page d’évaluation, puis répétez les étapes précédentes pour votre site d’évaluation.
 
    >[!NOTE]
