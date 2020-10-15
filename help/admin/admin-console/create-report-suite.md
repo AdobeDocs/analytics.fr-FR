@@ -1,9 +1,9 @@
 ---
 title: Création d’une suite de rapports
 description: Créez un conteneur de base pour la collecte de données dans Adobe Analytics.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Cet article est destiné aux administrateurs au niveau du système ou aux admini
 
 [Guide Adobe Analytics pour le premier administrateur](first-admin-guide.md) : assurez-vous qu’un administrateur au niveau du système vous a accordé l’accès à Adobe Analytics via Admin Console pour Experience Cloud.
 
-## Création d’une suite de rapports
+## Création d’une suite de rapports {#create-report-suite}
 
 >[!NOTE]
 >
