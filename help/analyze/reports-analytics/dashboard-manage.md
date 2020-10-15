@@ -4,10 +4,10 @@ subtopic: Dashboards
 title: Gestionnaire de tableaux de bord
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '807'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ Utilisez le Gestionnaire de tableaux de bord pour copier, partager, archiver et 
 >[!IMPORTANT]
 >
 >Lorsque vous utilisez le gestionnaire de tableaux de bord, l’une des bonnes pratiques consiste à ne pas avoir plus de 300 tableaux de bord pour un utilisateur unique. Notez également que le gestionnaire charge tous les tableaux de bord partagés ci-dessous, soyez donc judicieux lorsque vous partagez les tableaux de bord.
-
-## Gestionnaire de tableaux de bord
-
-Utilisez le Gestionnaire de tableaux de bord pour copier, partager, archiver et programmer la remise des tableaux de bord.
 
 Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tableaux de bord]**.
 
