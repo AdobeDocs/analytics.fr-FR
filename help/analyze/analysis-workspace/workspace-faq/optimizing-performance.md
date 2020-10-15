@@ -3,15 +3,15 @@ description: Facteurs qui influeront sur les performances et les optimisations d
 title: Facteurs de performances et optimisation Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 93eb4f4c8f2990c8a4485f75ef5c13a00a28f19d
+source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
 workflow-type: tm+mt
 source-wordcount: '2130'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
 
-# Optimisation des performances d’Analysis Workspace
+# Optimize [!UICONTROL Analysis Workspace performance]
 
 Divers facteurs peuvent influencer la performance d&#39;un projet à l&#39;intérieur de l&#39;Analysis Workspace. Il est important de savoir quels sont ces contributeurs avant que vous ne début de créer un projet afin que vous puissiez planifier et construire le projet de la manière la plus optimale. Cette page comprend une liste de facteurs qui auront un impact sur les performances et les optimisations que vous pouvez effectuer pour garantir des performances optimales dans Analysis Workspace.
 
@@ -19,9 +19,10 @@ Divers facteurs peuvent influencer la performance d&#39;un projet à l&#39;inté
 >
 >La page Performances d’Analysis Workspace est en version limitée. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/landing/an-releases.html)
 
-## Aide > Performances en Analysis Workspace
+## [!UICONTROL Aide] > [!UICONTROL Performances] en Analysis Workspace
 
-Sous **[!UICONTROL Analysis Workspace > Aide > Performances]**, vous pouvez voir les facteurs qui affectent les performances de votre projet, notamment les facteurs réseau, de navigateur et de projet. Pour obtenir des résultats plus précis, autorisez le projet à se charger complètement avant d’ouvrir la page Performances.
+Sous **Analysis Workspace > [!UICONTROL Aide] > [!UICONTROL Performance]**, vous pouvez voir les facteurs qui affectent les performances de votre projet, notamment les facteurs réseau, de navigateur et de projet. Pour obtenir des résultats plus précis, autorisez le projet à se charger complètement avant d’ouvrir la page Performances.
+
 * La colonne Projet actuel affiche les résultats de votre projet actuel et de votre environnement utilisateur.
 * La colonne Ligne directrice affiche le seuil recommandé par l’Adobe pour chaque facteur.
 
@@ -35,7 +36,7 @@ En outre, vous pouvez **télécharger en tant que fichier CSV** le contenu des p
 
 ## Facteurs réseau
 
-Aide > Facteurs du réseau de performances :
+[!UICONTROL Aide] > [!UICONTROL Performances] :
 
 | Facteur | Définition | Influencé par | Optimisation |
 | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ Aide > Facteurs du réseau de performances :
 
 ## Facteurs du navigateur
 
-Aide > Performances des navigateurs :
+[!UICONTROL Aide] > [!UICONTROL Performances] :
 
 | Facteur | Définition | Influencé par | Optimisation |
 | --- | --- | --- | --- |
@@ -56,7 +57,7 @@ Aide > Performances des navigateurs :
 
 ## Facteurs du projet
 
-Aide > Facteurs du projet de performance :
+[!UICONTROL Aide] > Facteurs du projet [!UICONTROL Performance] :
 
 | Facteur | Définition | Optimisation |
 | --- | --- | --- |
@@ -88,5 +89,5 @@ Vous pouvez rencontrer des erreurs lors de l’interaction avec Analysis Workspa
 | [!UICONTROL Une erreur système s&#39;est produite. Veuillez enregistrer une demande du service d’assistance clientèle sous Aide > Envoyer le ticket d’assistance et inclure votre code d’erreur.] | Adobe rencontre un problème qui doit être résolu. | Envoyez le code d’erreur au service à la clientèle. |
 | [!UICONTROL La demande est trop complexe.] | Votre requête de création de rapports est trop volumineuse et ne peut pas être exécutée. Les facteurs à l’origine de cette erreur sont les dépassements de délai en raison de la taille de la requête, du nombre trop élevé d’éléments correspondants dans un segment ou un filtre de recherche, du nombre trop élevé de mesures incluses, des combinaisons de dimensions et de mesures incompatibles, etc. | Simplifiez votre requête en supprimant certaines colonnes ou lignes du tableau ou en divisant le tableau en plusieurs requêtes distinctes. |
 | [!UICONTROL L’un des segments ou la recherche de cette visualisation contient une recherche de texte qui a renvoyé trop de résultats.] | Les critères de segment ou le filtre de rapport sont trop larges. | Affinez vos critères de recherche de texte et tentez de nouveau la requête. |
-| [!UICONTROL Actuellement, cette dimension ne prend pas en charge les modèles d’attribution autres que ceux par défaut.] | L’attribution autre que l’attribution par défaut n’est pas prise en charge pour la dimension que vous utilisez. | Replace the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md). |
+| [!UICONTROL Actuellement, cette dimension ne prend pas en charge les modèles d’attribution autres que ceux par défaut.] | L’attribution autre que l’attribution par défaut n’est pas prise en charge pour la dimension que vous utilisez. | Replace the dimension in your table with one that is compatible with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL Votre requête a échoué en raison d&#39;un trop grand nombre de colonnes ou de lignes préconfigurées.] | Votre tableau comporte trop de cellules à structure libre (ligne * colonnes). | Supprimez les colonnes ou les lignes du tableau ou envisagez de les diviser en requêtes distinctes. |
