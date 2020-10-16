@@ -1,11 +1,11 @@
 ---
 title: Règles de traitement des canaux marketing
 description: Les règles de traitement des canaux marketing déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal. Les règles traitent tous les accès qu’un visiteur effectue sur votre site. Si une règle ne satisfait pas les critères d’un canal, ou si les règles ne sont pas configurées correctement, le système affecte l’accès à « Aucun canal identifié ».
-translation-type: ht
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+workflow-type: tm+mt
+source-wordcount: '2138'
+ht-degree: 90%
 
 ---
 
@@ -32,8 +32,6 @@ Remarques supplémentaires sur le traitement :
 
 Créez des règles de traitement des canaux marketing qui déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal.
 
-Elle utilise une règle de courriel comme exemple. Cet exemple part du principe que vous avez ajouté un canal de courriel à votre liste de canaux sur la page Gestionnaire de canaux marketing.
-
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 2. Sélectionnez une suite de rapports.
 
@@ -41,17 +39,15 @@ Elle utilise une règle de courriel comme exemple. Cet exemple part du principe 
 
    Reportez-vous à la section [Exécution de la configuration automatique](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-3. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**.
+3. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**. Si vous avez exécuté la configuration automatique, un ensemble de canaux et de règles ont été automatiquement définis pour vous.
 
    ![Résultat de l’étape](assets/marketing_channel_rules.png)
 
-4. Dans le menu **[!UICONTROL Ajouter un nouveau jeu de règles]**, sélectionnez **[!UICONTROL Courriel]**.
-
-   Dans le cas présent, vous ne sélectionnez pas le canal, mais le modèle qui renseigne quelques-uns des paramètres nécessaires de la règle. Vous pouvez modifier ce modèle si nécessaire.
+4. Si vous souhaitez ajouter une nouvelle règle, sélectionnez-la dans le menu **[!UICONTROL Ajouter un nouveau jeu]** de règles. Si vous sélectionnez un canal, un modèle de règle vous est attribué et si vous sélectionnez Personnalisé, vous effectuez un début à partir d’une ardoise vide. Les deux options vous permettent de modifier le jeu de règles selon vos besoins.
 
    ![Résultat de l’étape](assets/example_email.png)
 
-5. Pour continuer à créer des règles, cliquez sur **[!UICONTROL Ajouter une règle]**.
+5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
 6. Pour classer les règles par priorité, faites-les glisser à l’emplacement souhaité.
 7. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -59,13 +55,17 @@ Continuez sur cette page pour afficher des recommandations concernant l’ordre 
 
 ### Définition de la valeur d’un canal marketing
 
-**[!UICONTROL Ajout d’une règle]** **Définition de la valeur du canal** définit la dimension détaillée du canal marketing disponible pour ce canal. Cela vous permet de ventiler les dimensions du canal marketing et d’afficher des informations détaillées sur le canal.
+**[!UICONTROL Définissez la valeur]** du canal pour définir la dimension détaillée du canal marketing disponible pour ce canal. Cela vous permet de ventiler les dimensions du canal marketing et d’afficher des informations détaillées sur le canal.
 
 Il est recommandé de définir la valeur du canal selon les mêmes critères que ceux utilisés pour définir le canal lui-même. Par exemple, si le paramètre de chaîne de requête est utilisé pour définir le canal, définissez également le paramètre de chaîne de requête comme valeur de canal.
 
 ### Critères de règle
 
 Ce tableau de référence définit les champs, options et attributs d’accès que vous pouvez utiliser pour définir les règles de traitement des canaux marketing.
+
+>[!NOTE]
+>
+>Tout champ de texte que vous définissez, tel que le paramètre de chaîne de requête ou les listes de valeurs à comparer, est évalué comme des valeurs **insensibles à la casse** . Par exemple, si vous disposez d’une règle dans laquelle le paramètre de chaîne de requête cmp = abc123, toutes les versions de &quot;cmp&quot; et &quot;abc123&quot; correspondent à la règle. Vous n’avez pas besoin de liste de plusieurs versions de casse de ces valeurs.
 
 | Terme | Définition |
 |--- |--- |
@@ -88,7 +88,7 @@ Ce tableau de référence définit les champs, options et attributs d’accès q
 | Domaine racine de page (TLD+1) | Domaine racine de la page à laquelle accède le visiteur, tel que exemple.co.uk . |
 | URL de la page | L’URL d’une page Web de votre site. |
 | Domaine référent | Le domaine d’où proviennent les visiteurs avant de visiter votre site ; par exemple, les référents provenant de `abcsite.com` par rapport à `xyzsite.com`. |
-| Paramètre de chaîne de requête | Si l’URL d’une page de votre site ressemble à `https://example.com/?page=12345&cat=1`, alors « page » et « chat » sont des paramètres de chaîne de requête. (Reportez-vous à la section `https://en.wikipedia.org/wiki/Query_string`.)  Vous ne pouvez spécifier qu’un seul paramètre de chaîne de requête par ensemble de règles. Pour ajouter des paramètres de chaîne de requête supplémentaires, utilisez `ANY` comme opérateur, puis ajoutez les nouveaux paramètres de chaîne de requête à la règle. |
+| Paramètre de chaîne de requête | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. (Reportez-vous à la section `https://en.wikipedia.org/wiki/Query_string`.)  Vous ne pouvez spécifier qu’un seul paramètre de chaîne de requête par ensemble de règles. Pour ajouter des paramètres de chaîne de requête supplémentaires, utilisez `ANY` comme opérateur, puis ajoutez les nouveaux paramètres de chaîne de requête à la règle. Les paramètres de chaîne de requête sont évalués comme non sensibles à la casse ; par exemple, &quot;cat&quot; et &quot;CAT&quot; seront évalués de la même manière. |
 | Référent | L’emplacement de la page Web (adresse URL complète) sur laquelle vos visiteurs se trouvaient avant de consulter votre site. Il existe un référent en dehors de votre domaine défini. |
 | Domaine et chemin référents | Une concaténation de « Domaine référent » et « Chemin d’accès à l’URL ». Voici quelques exemples :    `www.example.com/products/id/12345` ou `ad.example.com/foo` |
 | Paramètre de référent | Un paramètre de chaîne de requête sur l’URL de renvoi. Par exemple, si vos visiteurs proviennent de `example.com/?page=12345&cat=1`, alors « page » et « chat » sont les paramètres référents. |
@@ -130,7 +130,7 @@ Pour la règle du canal marketing, les paramètres de la recherche naturelle son
 
 ### Afficher {#display}
 
-Cette règle identifie les visiteurs provenant de bannières publicitaires. Elle est identifiée par un paramètre de chaîne de requête dans l’URL de destination, dans ce cas *`Ad_01`*.
+Cette règle identifie les visiteurs provenant de bannières publicitaires. Elle est identifiée par un paramètre de chaîne de requête dans l’URL de destination, dans ce cas *`Ad_01`*. Le paramètre de chaîne de requête et les valeurs recherchées sont évalués en tant que valeurs insensibles à la casse.
 
 ![](assets/example_display.png)
 
@@ -154,7 +154,7 @@ Une bonne pratique consiste à inclure un canal « Autres campagnes » qui sui
 
 ### Réseaux sociaux {#social-networks}
 
-Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook*. Le canal est souvent renommé Social organique. Les paramètres peuvent être les suivants :
+Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook;. Le canal est souvent renommé Social organique. Les paramètres peuvent être les suivants :
 
 ![](assets/example_social.png)
 
@@ -164,7 +164,7 @@ Cette règle s’applique aux visiteurs dont l’URL de référence correspond a
 
 ![](assets/int-channel1.png)
 
-Pour plus d’informations sur ce canal, consultez [Raisons d’utiliser le canal interne (actualisation de session)](https://docs.adobe.com/content/help/fr-FR/analytics/components/marketing-channels/c-faq.html).
+Pour plus d’informations sur ce canal, consultez [Raisons d’utiliser le canal interne (actualisation de session)](https://docs.adobe.com/content/help/fr-FR/analytics/components/marketing-channels/c-faq.html#internal).
 
 ### Direct {#direct}
 
