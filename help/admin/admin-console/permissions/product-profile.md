@@ -1,9 +1,9 @@
 ---
-source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '514'
-ht-degree: 91%
+source-wordcount: '643'
+ht-degree: 72%
 
 ---
 # Profils de produit dans Adobe Analytics
@@ -54,4 +54,6 @@ Les éléments d’autorisation liés aux outils Analytics octroient l’accès 
 
 ## Développeurs de profil de produit
 
-Les développeurs sont similaires aux utilisateurs, sauf qu’ils peuvent utiliser l’API Experience Cloud sur Adobe I/O. Pour plus d’informations, voir [Gestion des développeurs](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) dans le guide de l’utilisateur Enterprise.
+Les développeurs sont similaires aux utilisateurs, sauf qu’ils peuvent utiliser l’API Experience Cloud sur Adobe I/O. Pour plus d’informations, voir [Gestion des développeurs](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) dans le guide de l’utilisateur Enterprise. Si un utilisateur bénéficie de l’accès aux développeurs pour un profil quelconque, il peut accéder à la console de développement (console.adobe.io) et modifier les intégrations Adobe Analytics. Les appels d’API Analytics et les réponses autorisés pour l’utilisateur dépendront des autorisations réseau de tous les profils dans lesquels cet utilisateur a accès aux développeurs.
+
+Par exemple, avec des autorisations de profil incluant toutes les mesures, toutes les dimensions et une suite de rapports, un membre d’Accès développeur du profil peut envoyer des appels d’API pertinents à tout composant de la suite appropriée. Avec l’ajout de la détection des anomalies, les rapports peuvent inclure des réponses plus complètes, en ajoutant des données d’anomalie. En règle générale, si un profil accorde l&#39;accès à un scénario dans l&#39;interface Adobe Analytics, l&#39;accès des développeurs à un profil défini de la même manière active les appels d&#39;API et les réponses correspondantes.
