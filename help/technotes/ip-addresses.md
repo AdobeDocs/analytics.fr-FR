@@ -2,9 +2,9 @@
 title: IP et domaines utilisés par l’Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 translation-type: tm+mt
-source-git-commit: 436d0c2706f47a79cc70e4dcdbda6bd2c9a4d98c
+source-git-commit: a7955e7f6fd92fff7188711d8aef9526ebf3700f
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 86%
 
 ---
@@ -113,7 +113,7 @@ Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques
 
 ## Hôtes AWS
 
-adobe analytics utilise les services Web Amazon dans le cadre de son processus de collecte de données. Le tableau suivant comprend les hôtes AWS réservés pour Adobe. Ces hôtes ne sont **pas** inclus dans la plage de blocs agrégés ci-dessus.
+Adobe Analytics utilise les services Web Amazon dans le cadre de son processus de collecte de données. Le tableau suivant comprend les hôtes AWS réservés pour Adobe. Ces hôtes ne sont **pas** inclus dans la plage de blocs agrégés ci-dessus.
 
 | Emplacement | Hôte |
 | --- | --- |
@@ -144,3 +144,6 @@ adobe analytics utilise les services Web Amazon dans le cadre de son processus d
 | Virginie | `34.234.106.101` |
 | Virginie | `52.22.231.198` |
 | Virginie | `54.157.65.136` |
+| Virginie | `3.213.168.181` |
+| Virginie | `3.219.249.186` |
+| Virginie | `34.227.41.189` |
