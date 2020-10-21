@@ -2,9 +2,9 @@
 description: Synchronisez les visualisations pour contrôler quel tableau de données ou source de données correspond à une visualisation.
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Gestion des sources de données
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
 ht-degree: 100%
 
