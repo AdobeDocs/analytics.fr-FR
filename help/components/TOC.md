@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -214,7 +214,7 @@ ht-degree: 99%
    + [Configuration des analyses entre appareils](cda/setup.md)
    + [Fonctionnement des relectures](cda/replay.md)
    + [Modèle CDA Workspace](cda/workspace-template.md)
-   + [Limiter une suite de rapports virtuelle à certaines dates](cda/limit-vrs-date.md)
+   + [Limitation d’une suite de rapports virtuelle à certaines dates](cda/limit-vrs-date.md)
    + [FAQ sur les analyses entre appareils](cda/faq.md)
 + Alertes {#alerts}
    + [Alertes intelligentes](c-alerts/intellligent-alerts.md)
