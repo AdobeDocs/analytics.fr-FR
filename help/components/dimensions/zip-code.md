@@ -1,11 +1,11 @@
 ---
 title: Code postal
 description: Le code postal du visiteur.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 78%
 
 ---
 
@@ -30,3 +30,95 @@ L’[!UICONTROL option de code postal] sous [Paramètres généraux du compte](/
 ## Éléments de dimension
 
 Les éléments de dimension comprennent le code postal du visiteur.
+
+## Quels sont les codes postaux des pays sur lesquels vous pouvez vous reporter en Adobe Analytics ?
+
+* Îles Aland
+* Albanie
+* Algérie
+* Argentine
+* Arménie
+* Autriche
+* Australie
+* Bangladesh
+* Barbade
+* Belgique
+* Brésil
+* Bulgarie
+* Canada
+* Chili
+* Chine
+* Colombie
+* Costa Rica
+* Croatie
+* République tchèque
+* Danemark
+* Équateur
+* Egypte
+* Estonie
+* Finlande
+* France
+* Géorgie
+* Allemagne
+* Gibraltar
+* Grèce
+* Grenade
+* Guatemala
+* Hong Kong (RAS de la Chine)
+* Hongrie
+* Inde
+* Indonésie
+* Irlande
+* Israël
+* Italie
+* Japon
+* Jordanie
+* Kazakhstan
+* Kirghizistan
+* Lettonie
+* Liban
+* Lituanie
+* Luxembourg
+* Malaisie
+* Malte
+* Maurice
+* Mexique
+* Maroc
+* Mozambique
+* Népal
+* Pays-bas
+* Nouvelle-Zélande
+* Norvège
+* Pakistan
+* Panama
+* Pérou
+* Philippines
+* Pologne
+* Portugal
+* Puerto Rico
+* Qatar
+* Roumanie
+* Fédération de Russie
+* Arabie saoudite
+* Sénégal
+* Serbie
+* Singapour
+* Slovénie
+* Afrique du Sud
+* Corée du Sud
+* Espagne
+* Sri Lanka
+* Suède
+* Suisse
+* Région de Taïwan
+* Thaïlande
+* Tunisie
+* Turquie
+* Ukraine
+* Émirats arabes unis
+* Royaume-Uni
+* États-Unis
+* Uruguay
+* Ouzbékistan
+* Venezuela
+* Vietnam
