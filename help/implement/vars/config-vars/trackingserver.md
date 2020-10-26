@@ -1,11 +1,11 @@
 ---
 title: trackingServer
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 91%
 
 ---
 
@@ -51,22 +51,22 @@ La personne qui configure initialement la mise en œuvre des cookies propriétai
 s.trackingServer = "data.example.com";
 ```
 
-En règle générale, les enregistrements CNAME sont déjà configurés et renvoient vers `sc.omtrdc.net`. Le domaine `2o7.net` est également une destination CNAME valide, principalement utilisée dans les versions précédentes d’Adobe Analytics.
-
 ### Cookies tiers
 
 >[!TIP]
 >
 >L’augmentation des pratiques de confidentialité dans les navigateurs modernes rend les cookies tiers moins fiables. Adobe recommande de suivre le processus des cookies propriétaires.
 
-Si vous utilisez une mise en œuvre de cookies tiers, la valeur de `trackingServer` est un sous-domaine de `sc.omtrdc.net`. Par exemple :
+Si vous utilisez une mise en œuvre de cookies tiers, la valeur de `trackingServer` est un sous-domaine de `data.adobedc.net`. Par exemple :
 
 ```js
-s.trackingServer = "example.sc.omtrdc.net";
+s.trackingServer = "example.data.adobedc.net";
 ```
 
-Sélectionnez un sous-domaine unique à votre organisation, qui ne sera probablement pas choisi par une autre organisation qui utilise Adobe Analytics. Assurez-vous que toutes les mises en œuvre de votre entreprise utilisent le même serveur de suivi. Il peut s’avérer utile de conserver ces informations dans un [document de conception de solution](../../prepare/solution-design.md).
+Sélectionnez un sous-domaine unique à votre organisation, qui ne sera probablement pas choisi par une autre organisation qui utilise Adobe Analytics.  L’espace de nommage visiteur affecté à votre organisation est recommandé.  Assurez-vous que toutes les mises en œuvre de votre entreprise utilisent le même serveur de suivi. Il peut s’avérer utile de conserver ces informations dans un [document de conception de solution](../../prepare/solution-design.md).
+
+Votre entreprise utilise peut-être déjà un serveur de suivi tiers dans le `sc.omtrdc.net` ou les `2o7.net` domaines.  Elles ont été principalement utilisées dans les versions précédentes d&#39;Adobe Analytics et sont toujours valides.
 
 >[!NOTE]
 >
->N’utilisez aucun sous-domaine plus profond que `example.sc.omtrdc.net`. Par exemple, `custom.example.sc.omtrdc.net` n’est pas un serveur de suivi valide.
+>N’utilisez aucun sous-domaine plus profond que `example.data.adobedc.net`. Par exemple, `custom.example.data.adobedc.net` n’est pas un serveur de suivi valide.
