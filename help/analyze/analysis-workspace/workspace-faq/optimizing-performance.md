@@ -6,23 +6,23 @@ translation-type: tm+mt
 source-git-commit: 89036b44ed0e8d300e9bbadb5be2f64ae3c5d284
 workflow-type: tm+mt
 source-wordcount: '2130'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
 
-# Optimize [!UICONTROL Analysis Workspace performance]
+# Optimisation des [!UICONTROL performances d’Analysis Workspace]
 
 Différents facteurs peuvent influencer les performances d’un projet dans Analysis Workspace. Il convient de savoir quels sont ces facteurs avant de démarrer un projet, afin de planifier et d’élaborer le projet d’une manière optimale. Cette page comprend une liste de facteurs qui auront un impact sur les performances et les optimisations que vous pouvez effectuer pour garantir des performances optimales dans Analysis Workspace.
 
-## [!UICONTROL Aide] > [!UICONTROL Performances] en Analysis Workspace
+## [!UICONTROL Aide] > [!UICONTROL Performances] dans Analysis Workspace
 
-Under **Analysis Workspace > [!UICONTROL Help] > [!UICONTROL Performance]**, you can see factors that impact your project&#39;s performance, including network, browser, and project factors. Pour obtenir des résultats plus précis, laissez le projet à se charger complètement avant d’ouvrir la page Performances.
+Sous **Analysis Workspace > [!UICONTROL Aide] > [!UICONTROL Performances]**, vous pouvez voir les facteurs qui affectent les performances de votre projet, notamment les facteurs de réseau, de navigateur et de projet. Pour obtenir des résultats plus précis, laissez le projet à se charger complètement avant d’ouvrir la page Performances.
 
 * La colonne Projet actuel affiche les résultats de votre projet actuel et de votre environnement utilisateur.
 * La colonne Ligne directrice affiche le seuil recommandé par Adobe pour chaque facteur.
 
-En outre, vous pouvez **télécharger au format CSV** le contenu des performances à partager facilement avec l’Assistance clientèle d’Adobe ou vos équipes informatiques internes.
+En outre, vous pouvez **Télécharger au format CSV** le contenu des performances à partager facilement avec l’Assistance clientèle d’Adobe ou vos équipes informatiques internes.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ En outre, vous pouvez **télécharger au format CSV** le contenu des performance
 
 ## Facteurs réseau
 
-[!UICONTROL Aide] > [!UICONTROL Performances] :
+[!UICONTROL Aide] > [!UICONTROL Performances]. Les facteurs de performances du réseau incluent :
 
 | Facteur | Définition | Influencé par | Optimisation |
 | --- | --- | --- | --- |
@@ -42,7 +42,7 @@ En outre, vous pouvez **télécharger au format CSV** le contenu des performance
 
 ## Facteurs du navigateur
 
-[!UICONTROL Aide] > [!UICONTROL Performances] :
+[!UICONTROL Aide] > [!UICONTROL Performances]. Les facteurs de performances du navigateurs incluent :
 
 | Facteur | Définition | Influencé par | Optimisation |
 | --- | --- | --- | --- |
@@ -53,7 +53,7 @@ En outre, vous pouvez **télécharger au format CSV** le contenu des performance
 
 ## Facteurs du projet
 
-[!UICONTROL Aide] > Facteurs du projet [!UICONTROL Performance] :
+[!UICONTROL Aide] > [!UICONTROL Performances]. Les facteurs de performances du projet incluent :
 
 | Facteur | Définition | Optimisation |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ Les facteurs supplémentaires qui ne sont pas inclus dans Aide > Performances so
 
 | Facteur | Définition | Influencé par | Optimisation |
 | --- | --- | --- | --- |
-| Complexité des segments | Des segments complexes peuvent avoir un impact significatif sur la performance des projets. | Les facteurs qui ajoutent de la complexité à un segment (dans l’ordre décroissant d’impact) incluent les éléments suivants : <ul><li>Les opérateurs de type « contains », « contains any of », « matches », « starts with » ou « ends with » </li><li>La segmentation séquentielle, en particulier lorsque des restrictions dimensionnelles (Within/After) sont utilisées </li><li>Le nombre d’éléments de dimensions uniques dans les dimensions utilisées dans le segment (par exemple, Page = ’A’ lorsque Page comporte 10 éléments uniques sera plus rapide que Page = ’A’ lorsque la page a 100 000 éléments uniques) </li><li>Le nombre de dimensions différentes utilisées (par exemple, Page = ’Home’ et Page = ’Search results’ seront plus rapides que eVar 1 = ’red’ et eVar 2 = ’blue’)</li><li>Beaucoup d’opérateurs OR (au lieu de AND)</li><li>Des contenants imbriqués dont la portée varie (par ex., « Hit inside of Visit inside of Visitor »)</li></ul> | Bien qu’il soit impossible d’éviter certains facteurs de complexité, recherchez les possibilités de réduire la complexité de vos segments. En général, plus vous pouvez être précis dans vos critères de segment, mieux c’est. Par exemple :<ul><li>Avec les conteneurs, l’utilisation d’un seul conteneur en haut du segment sera plus rapide qu’une série de conteneurs imbriqués</li><li>Avec les opérateurs, « equals » sera plus rapide que « contains » et « equals any of » sera plus rapide que « contains any of »</li><li>Avec de nombreux critères, les opérateurs AND seront plus rapides qu’une série d’opérateurs OR.</li></ul> Recherchez également des occasions de réduire plusieurs instructions OR en une seule instruction « equals any of ». L’utilisation de <br><br>[classifications](/help/components/classifications/c-classifications.md) peut également contribuer à consolider de nombreuses valeurs en groupes concis à partir desquels vous pouvez créer des segments. La segmentation appliquée aux groupes de classifications optimise les performances par rapport aux segments qui contiennent de nombreuses instructions OR ou de critères « contains ». |
+| Complexité des segments | Des segments complexes peuvent avoir un impact significatif sur la performance des projets. | Les facteurs qui ajoutent de la complexité à un segment (dans l’ordre décroissant d’impact) incluent les éléments suivants : <ul><li>Les opérateurs de type « contient », « contient l’un des », « correspond à », « commence par » ou « se termine par » </li><li>La segmentation séquentielle, en particulier lorsque des restrictions dimensionnelles (Within/After) sont utilisées </li><li>Le nombre d’éléments de dimensions uniques dans les dimensions utilisées dans le segment (par exemple, Page = ’A’ lorsque Page comporte 10 éléments uniques sera plus rapide que Page = ’A’ lorsque la page a 100 000 éléments uniques) </li><li>Le nombre de dimensions différentes utilisées (par exemple, Page = ’Home’ et Page = ’Search results’ seront plus rapides que eVar 1 = ’red’ et eVar 2 = ’blue’)</li><li>Beaucoup d’opérateurs OR (au lieu de AND)</li><li>Des contenants imbriqués dont la portée varie (par ex., « Hit inside of Visit inside of Visitor »)</li></ul> | Bien qu’il soit impossible d’éviter certains facteurs de complexité, recherchez les possibilités de réduire la complexité de vos segments. En général, plus vous pouvez être précis dans vos critères de segment, mieux c’est. Par exemple :<ul><li>Avec les conteneurs, l’utilisation d’un seul conteneur en haut du segment sera plus rapide qu’une série de conteneurs imbriqués.</li><li>Avec les opérateurs, « est égal à » sera plus rapide que « contient » et « est égal à l’un(e) de » sera plus rapide que « contient l’un des ».</li><li>Avec de nombreux critères, les opérateurs AND seront plus rapides qu’une série d’opérateurs OR.</li></ul> Recherchez également des occasions de réduire plusieurs instructions OR en une seule instruction « est égal à l’un(e) de ». L’utilisation de <br><br>[classifications](/help/components/classifications/c-classifications.md) peut également contribuer à consolider de nombreuses valeurs en groupes concis à partir desquels vous pouvez créer des segments. La segmentation appliquée aux groupes de classifications optimise les performances par rapport aux segments qui contiennent de nombreuses instructions OR ou de critères « contient ». |
 | Complexité de la visualisation (segments, mesures, filtres) | Le type de visualisation (abandons ou tableau à structure libre) ajouté à un projet n’a pas de réelle incidence sur les performances du projet. Le temps de traitement dépend de la complexité de la visualisation. | Voici quelques-uns des facteurs qui rendent une visualisation plus complexe :<ul><li>Plage de données demandée</li><li>Nombre de segments appliqués ; par exemple, les segments utilisés comme des lignes d’un tableau à structure libre</li><li>Utilisation de segments complexes</li><li>[Lignes ou colonnes de postes statiques dans les tableaux de forme libre](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)</li><li>Filtres appliqués aux lignes des tableaux à structure libre</li><li>Nombre de mesures incluses, en particulier les mesures calculées qui utilisent des segments</li></ul> | Si vos projets ne se chargent pas aussi rapidement que prévu, remplacez si possible certains segments par des eVars et des filtres.<br><br>Si vous utilisez continuellement des segments et des mesures calculées pour les points de données importants dans le cadre de vos activités, envisagez d’améliorer votre mise en œuvre afin de capturer plus directement ces points de données. Envisagez d’utiliser un gestionnaire de balises tel qu’Adobe Experience Platform Launch et les règles de traitement d’Adobe pour faciliter et accélérer les modifications de la mise en œuvre. |
 | Taille de la suite de rapports | La quantité de données collectées dans votre suite de rapports. | - | Consultez votre équipe de mise en œuvre ou un expert Adobe pour déterminer si des améliorations peuvent être apportées à l’implémentation afin d’améliorer l’expérience globale dans Adobe Analytics. |
 
