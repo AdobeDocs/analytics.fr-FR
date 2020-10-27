@@ -2,16 +2,16 @@
 description: Grâce aux paramètres de colonne, vous pouvez configurer la mise en forme des colonnes, dont certains éléments peuvent être conditionnels.
 title: Paramètres des colonnes
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# [!UICONTROL Paramètres de colonne]
+# [!UICONTROL Paramètres des colonnes]
 
 Grâce aux [!UICONTROL paramètres de colonne], vous pouvez configurer la mise en forme des colonnes, dont certains éléments peuvent être conditionnels.
 
@@ -26,8 +26,8 @@ Vous pouvez modifier les paramètres **pour plusieurs colonnes à la fois**. Sé
 | Élément | Description |
 | --- | --- |
 | **Cellules des totaux** |  |
-| Afficher les totaux | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. Elle reflète les filtres de tableau appliqués dans le tableau à structure libre, y compris l’option [!UICONTROL Inclure aucun]. |
-| Afficher le total général | Ce total représente tous les accès qui ont été collectés, parfois appelés &quot;total de la suite de rapports&quot;. Lorsqu’un segment est appliqué au niveau du panneau ou dans le tableau à structure libre, ce total s’ajuste pour refléter tous les accès qui correspondent aux critères de segment. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| Afficher les totaux | Ce total est généralement égal au [!UICONTROL Total général] ou est un sous-ensemble de ce dernier. Il reflète les filtres de tableau appliqués dans le tableau à structure libre, y compris l’option [!UICONTROL Inclure aucun]. |
+| Afficher le total général | Ce total représente tous les accès qui ont été collectés. Il est parfois appelé « total de la suite de rapports ». Lorsqu’un segment est appliqué au niveau du panneau ou dans le tableau à structure libre, ce total s’ajuste pour refléter tous les accès qui correspondent aux critères de segment. Le total général n’est pas pris en charge pour les tableaux ou les ventilations avec des [lignes statiques](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
 | **Cellules du tableau** |  |
 | Nombre | Détermine si une cellule affiche/masque la valeur numérique pour la mesure. Par exemple, si la mesure est Pages vues, la valeur numérique correspond au nombre de pages vues pour l’élément de ligne. |
 | Pourcentage | Détermine si une cellule affiche/masque la valeur de pourcentage pour la mesure. Par exemple, si la mesure est Pages vues, la valeur de pourcentage correspond au nombre de pages vues pour l’élément de ligne, divisé par le nombre total de pages vues pour la colonne.  Remarque : Nous pouvons désormais afficher les pourcentages supérieurs à 100 %, pour plus de précision. Nous avons également rehaussé le plafond supérieur à 1 000 % afin de garantir que les colonnes puissent s’adapter à une largeur trop importante. |
