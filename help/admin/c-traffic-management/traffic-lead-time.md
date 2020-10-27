@@ -4,9 +4,9 @@ title: Délai d’avance requis pour les augmentations de trafic
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: a114bef4679da24d4fd6323a55c9ccf52ac772ed
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Suivez les directives suivantes pour déterminer à quel moment envoyer une aler
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Jusqu’à 1 000 000 </td>
+   <td colname="col1"> Jusqu’à 1,000,000 </td>
    <td colname="col2"> Pas de délai d’avance requis </td>
    <td colname="col3"> Pas de délai d’avance requis </td>
   </tr>
