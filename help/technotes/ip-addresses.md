@@ -2,7 +2,7 @@
 title: IP et domaines utilisés par l’Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 translation-type: tm+mt
-source-git-commit: 891bc69f924b95cfe0bba2797319b59e1874dfd1
+source-git-commit: 5115fb38815997842fcf6131755b9a0fc8f51fc9
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 86%
@@ -126,15 +126,15 @@ Adobe Analytics utilise les services Web Amazon dans le cadre de son processus d
 | Inde | `13.232.177.101` |
 | Inde | `13.235.4.163` |
 | Inde | `3.6.119.69` |
-| Irlande | `52.17.94.37` |
-| Irlande | `52.49.253.16` |
-| Irlande | `52.51.63.15` |
+| Irlande | `18.202.158.78` |
+| Irlande | `54.72.205.114` |
+| Irlande | `54.78.36.71` |
 | Oregon | `44.233.255.254` |
 | Oregon | `44.237.54.118` |
 | Oregon | `44.238.157.95` |
-| Singapour | `13.228.34.224` |
-| Singapour | `18.136.20.161` |
-| Singapour | `52.74.162.152` |
+| Singapour | `52.220.116.94` |
+| Singapour | `52.76.68.91` |
+| Singapour | `54.179.114.68` |
 | Tokyo | `13.112.72.86` |
 | Tokyo | `18.178.74.225` |
 | Tokyo | `18.179.88.228` |
