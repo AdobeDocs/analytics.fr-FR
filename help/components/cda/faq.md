@@ -1,11 +1,11 @@
 ---
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ Oui. Analysis Workspace utilise l’API 2.0 pour demander des données aux ser
 2. Cliquez sur l’icône de débogage dans le panneau de votre choix, puis sélectionnez la visualisation souhaitée et l’heure de la requête.
 3. Recherchez la demande JSON, que vous pouvez utiliser dans votre appel d’API à Adobe.
 
-## Les Analyses entre appareils peuvent regrouper des visiteurs uniques. Peuvent-elles regrouper des visites ?
+## Les Analyses entre appareils peuvent regrouper des visiteurs uniques. Peut-il réunir les visites ?
 
 Oui. Si une personne envoie des accès à partir de deux appareils distincts dans le délai d’expiration de visite de votre suite de rapports virtuelle (30 minutes par défaut), ils sont regroupés au sein de la même visite.
 
