@@ -5,9 +5,9 @@ user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Utilisez les flux de données pour recevoir une exportation horaire ou quotidienne de données brutes. Utilisez Data Warehouse pour afficher vos données sous forme de feuille de calcul.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '283'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,6 @@ ht-degree: 98%
    + [Planifier une requête récurrente](data-warehouse/dw-schedule-recurring.md)
    + [Gérer les demandes de Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Composants pris en charge dans Data Warehouse](data-warehouse/component-support.md)
-   + [Dimensions incompatibles avec les segments Data Warehouse](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [FAQ Data Warehouse](data-warehouse/faq.md)
    + [Bonnes pratiques relatives à Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP et SFTP {#ftp-and-sftp}
