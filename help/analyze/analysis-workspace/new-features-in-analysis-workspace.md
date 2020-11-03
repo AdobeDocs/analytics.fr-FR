@@ -3,10 +3,10 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '8103'
-ht-degree: 100%
+source-wordcount: '8106'
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ Nouvelles fonctionnalités au 16 janvier 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| [Créateur de tableau à structure libre](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Une fois le générateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques professionnelles plus complexes. Les données ne seront pas mises à jour immédiatement, mais après avoir cliqué sur **[!UICONTROL Créer]**, ce qui vous permet de gagner du temps une fois que vous savez quel tableau vous souhaitez construire. En outre, cette fonctionnalité offre les options suivantes :<ul><li>**Aperçu** : vous pouvez prévisualiser le format d’un tableau avant de passer du temps à générer des données réelles.</li><li>**Paramètres flexibles pour les rangées et la ventilation** : vous pouvez définir les niveaux de rangée et de ventilation pour chaque ligne de dimension. Auparavant, Workspace imposait des valeurs par défaut qui ne pouvaient pas être modifiées après le renvoi des données.</li><li>**Ventilation par position** : vous pouvez définir des rangées de dimension sur _ventilation par position_ et non _par élément spécifique_ (valeur par défaut).</li><li>**Agencement manuel des rangées statiques** : vous pouvez agencer manuellement les rangées statiques afin que les rangées du tableau s’affichent exactement comme vous en avez besoin. Auparavant, les lignes statiques pouvaient être triées uniquement par colonne de mesure ou par ordre alphabétique.</li></ul> |
+| [Créateur de tableau à structure libre](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Une fois le générateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques professionnelles plus complexes. Les données ne seront pas mises à jour immédiatement, mais après avoir cliqué sur **[!UICONTROL Créer]**, ce qui vous permet de gagner du temps une fois que vous savez quel tableau vous souhaitez construire. En outre, cette fonctionnalité offre les options suivantes :<ul><li>**Aperçu** : vous pouvez prévisualiser le format d’un tableau avant de passer du temps à générer des données réelles.</li><li>**Paramètres flexibles pour les rangées et la ventilation** : vous pouvez définir les niveaux de rangée et de ventilation pour chaque ligne de dimension. Auparavant, Workspace imposait des valeurs par défaut qui ne pouvaient pas être modifiées après le renvoi des données.</li><li>**Ventilation par position** : vous pouvez définir des rangées de dimension sur _ventilation par position_ et non _par élément spécifique_ (valeur par défaut).</li><li>**Agencement manuel des rangées statiques** : vous pouvez agencer manuellement les rangées statiques afin que les rangées du tableau s’affichent exactement comme vous en avez besoin. Auparavant, les lignes statiques pouvaient être triées uniquement par colonne de mesure ou par ordre alphabétique.</li></ul> |
 
 ## Octobre 2019
 
@@ -113,7 +113,7 @@ Améliorations publiées le 10 octobre 2019.
 
 | Amélioration | Description |
 |--- |--- |
-| Mise à jour des totaux des tableaux à structure libre | Les tableaux à structure libre comprennent désormais deux totaux, un **[!UICONTROL Total du tableau]** et un **[!UICONTROL Total général]**. La ligne Total du tableau tient compte des [filtres de rapport](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) appliqués. Avant la mise à jour, seule la segmentation affectait les totaux. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>De plus, les options **[!UICONTROL Afficher les totaux]** et **[!UICONTROL Afficher le total général]** ont été ajoutées aux **[!UICONTROL Paramètres des colonnes]**.<br/>Grâce à cette modification des totaux pour les tableaux à structure libre, les visualisations dépendantes sont mises à jour (par exemple, les visualisations **[!UICONTROL Nombre de résumés]**), ainsi que les données CSV et PDF exportées. |
+| Mise à jour des totaux des tableaux à structure libre | Les tableaux à structure libre comprennent désormais deux totaux, un **[!UICONTROL Total du tableau]** et un **[!UICONTROL Total général]**. La ligne Total du tableau tient compte des [filtres de rapport](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) appliqués. Avant la mise à jour, seule la segmentation affectait les totaux. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>De plus, les options **[!UICONTROL Afficher les totaux]** et **[!UICONTROL Afficher le total général]** ont été ajoutées aux **[!UICONTROL Paramètres des colonnes]**.<br/>Grâce à cette modification des totaux pour les tableaux à structure libre, les visualisations dépendantes sont mises à jour (par exemple, les visualisations **[!UICONTROL Nombre de résumés]**), ainsi que les données CSV et PDF exportées. |
 | Option de suppression pour Non spécifié/Aucun | La possibilité de supprimer facilement « Non spécifié (Aucun) » a été ajoutée en tant qu’option des filtres de rapport. |
 | Abandon des composants de granularité violets | Les composants temporels de granularité violets (minute, heure, jour, semaine, mois, trimestre, année) ont été abandonnés. Les composants temporels violets se sont toujours comportés exactement comme leurs homologues de dimension orange, ce changement simplifiera donc l’expérience. **Aucune action** n’est nécessaire si vous avez déjà utilisé l’un des composants temporels violets.<br/>Avec cette modification, la section **[!UICONTROL Heure]** violette a également été renommée en **[!UICONTROL Plages de dates]**. |
 
@@ -366,11 +366,11 @@ Nouvelles fonctionnalités et améliorations au 12 avril 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Retour à la ligne du texte d’en-tête activé par défaut </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Retour à la ligne du texte d’en-tête activé par défaut </a> </p> </td> 
    <td colname="col2"> <p>La configuration de colonnes sur <span class="uicontrol"> Retour à la ligne du texte d’en-tête </span> est désormais activée par défaut pour les tables de forme libre. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Nouvelle configuration des lignes </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Nouvelle configuration des lignes </a> </p> </td> 
    <td colname="col2"> <p>Le nouveau paramètre de <span class="uicontrol"> Calcul des pourcentages par ligne </span> oblige le tableau à structure libre à calculer les pourcentages des cellules par ligne, et non pas par colonne. Cette fonctionnalité est particulièrement utile pour les pourcentages de tendance. Par exemple, cela permet de voir la façon dont l’élément d’une dimension se positionne par rapport au reste sur la durée. Elle est activée par défaut lorsque vous cliquez sur l’icône <span class="uicontrol"> Visualiser </span>. </p> </td> 
   </tr> 
   <tr> 
@@ -397,7 +397,7 @@ Nouvelles fonctionnalités et améliorations au 8 mars 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Retour à la ligne du texte de l’en-tête </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Retour à la ligne du texte de l’en-tête </a> </p> </td> 
    <td colname="col2"> <p>Vous pouvez désormais renvoyer à la ligne le texte de l’en-tête dans les tableaux à structure libre afin de rendre les en-têtes plus lisibles et les tableaux plus faciles à partager. Nous avons ajouté dans les paramètres de colonne une option intitulée « Renvoyer à la ligne le texte d’en-tête ». Cette option est particulièrement utile pour le rendu .pdf et pour les mesures dont le nom est long. </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ Nouvelles fonctionnalités et améliorations au 8 février 2018.
    <td colname="col2"> <p>Nous avons ajouté une option « Copier dans le Presse-papiers » accessible par clic droit vous permettant de copier des cellules/tableaux. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > % des colonnes amélioré </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > % des colonnes amélioré </a> </p> </td> 
    <td colname="col2"> <p>Le « pourcentage du total » affiché dans les colonnes était plafonné à 100 %, même lorsque, dans certains scénarios, le total des lignes représentait plus de 100 % du total (avec les moyennes, par exemple). </p> <p>Nous affichons désormais les pourcentages supérieurs à 100 % pour plus de précision. Nous avons également rehaussé le plafond supérieur à 1 000 % afin de garantir que les colonnes puissent s’adapter à une largeur trop importante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Activation de la mise en forme conditionnelle sur les ventilations </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Activation de la mise en forme conditionnelle sur les ventilations </a> </p> </td> 
    <td colname="col2"> <p>L’application d’une mise en forme conditionnelle (couleurs, etc.) dans les tableaux à structure libre est désormais activée automatiquement sur les ventilations, sauf si des limites « personnalisées » sont sélectionnées. </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Plus d’<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  > options de filtrage </a> des éléments de dimensions dans les tables à structure libre </p> </td> 
+   <td colname="col1"> <p>Plus d’<a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > options de filtrage </a> des éléments de dimensions dans les tables à structure libre </p> </td> 
    <td colname="col2"> <p>Les options de filtrage (avancé) pour les éléments de dimensions suivantes ont été ajoutées (en plus des options préexistantes « contient » et « ne contient pas ») : </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contient tous les termes </li> 
@@ -515,7 +515,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
    <td colname="col2"> <p>Lorsque vous redimensionnez la colonne la plus à gauche, Workspace conserve désormais les pourcentages de largeur des autres colonnes (il ne se contente pas d’ajuster la largeur de la colonne suivante à droite). Ce changement accélère la création de tableaux pour l’analyse et le partage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Affichage de <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 400 lignes </a> dans un tableau </p> </td> 
+   <td colname="col1"> <p>Affichage de <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 400 lignes </a> dans un tableau </p> </td> 
    <td colname="col2"> <p>Vous pouvez maintenant afficher 400 lignes dans un tableau (au lieu de 200), ce qui permet d’obtenir des tendances sur 365 jours. </p> </td> 
   </tr> 
   <tr> 
@@ -655,7 +655,7 @@ Nouvelles fonctionnalités au 21 septembre 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Gestion de plusieurs colonnes à la fois dans des tableaux à structure libre </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Gestion de plusieurs colonnes à la fois dans des tableaux à structure libre </a> </p> </td> 
    <td colname="col2"> <p>Vous pouvez désormais modifier les paramètres de plusieurs colonnes à la fois. Sélectionnez plusieurs colonnes et cliquez sur l’icône des paramètres de n’importe laquelle de ces colonnes. Toute modification que vous apportez s’applique à toutes les colonnes comportant des cellules sélectionnées. </p> </td> 
   </tr> 
   <tr> 
@@ -814,7 +814,7 @@ Nouvelles fonctionnalités au 8 juin 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Case Utiliser des limites en pourcentage </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Case Utiliser des limites en pourcentage </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> Une case à cocher a été ajoutée pour indiquer les limites de pourcentages, notamment pour les estimations faites en pourcentage (fonctionne également avec les estimations qui ne sont pas exprimées en pourcentage). </li> 
@@ -866,7 +866,7 @@ Nouvelles fonctionnalités au 20 avril 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Améliorations apportées à l’option Annuler/Rétablir </p> </td> 
-   <td colname="col2"> <p>Ces listes indiquent ce que vous pouvez et ne pouvez pas <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > annuler/rétablir dans Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>Ces listes indiquent ce que vous pouvez et ne pouvez pas annuler/rétablir dans Analysis Workspace </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,7 +884,7 @@ Nouvelles fonctionnalités au 16 février 2017 :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Ventilation par position </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Ventilation par position </a> </p> </td> 
    <td colname="col2"> <p>Cette option permet de ventiler les données selon la position dans le tableau. Exemple : « Je veux toujours ventiler les sept premières lignes d’un tableau à structure libre ». Désormais, lorsque vous créez un tableau à structure libre, une case à cocher permet d’activer la fonction Ventilation par position. Ce paramètre est désactivé par défaut. </p> <p>Auparavant, la liste des valeurs de la ventilation était « verrouillée ». Par conséquent, si par exemple vous aviez une ventilation de <span class="wintitle"> date </span> par <span class="wintitle"> page </span>, vous obteniez une liste des 50 premières pages pour la période sélectionnée. </p> <p>Si vous enregistriez ce rapport puis l’exécutiez à nouveau un mois plus tard, il est probable que les 50 premières pages auraient changé. Toutefois, Analysis Workspace « faisait confiance » aux résultats de la ventilation d’origine et renvoyait les mêmes pages, avec pour période le mois en cours. </p> </td> 
   </tr> 
  </tbody> 
@@ -1037,7 +1037,7 @@ Nouvelles fonctionnalités au 16 juin 2016 :
 * Un nouveau [type de visualisation de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) permet de faire glisser jusqu’à trois segments et une mesure et de générer un diagramme de Venn.
 * Le graphique en courbes [Sélection de tendances](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) sur un tableau de classement est désormais lié.
 * [Icône Créer un visuel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) : lorsque vous cliquez sur cette icône, le programme devine votre prochaine action (graphique à barres, de Venn...).
-* Fonction [Lignes manuelles](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) étendue.
+* Fonction [Lignes manuelles](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) étendue.
 * Zone de dépôt [Ajouter un segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 * Mises à jour mineures :
 
