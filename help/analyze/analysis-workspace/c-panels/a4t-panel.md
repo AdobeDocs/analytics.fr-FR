@@ -2,10 +2,10 @@
 description: Le panneau Analytics for Target (A4T) vous permet d’analyser vos activités et expériences Adobe Target dans Analysis Workspace.
 title: Panneau Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 100%
+source-wordcount: '1022'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Vous pouvez configurer le panneau A4T à l’aide des paramètres d’entrée su
 
 | Paramètre | Description |
 |---|---|
-| Activité Target | Effectuez une sélection à partir d’une liste d’activités Target ou faites glisser et déposez une activité à partir du rail de gauche.<br>**Remarque :** la liste est remplie avec les 6 derniers mois d’activités qui comptent au moins 1 accès. Si vous ne voyez pas d’activité dans la liste, il se peut qu’elle remonte à plus de 6 mois. Elle peut encore être ajoutée à partir du rail gauche doté d’une période de retour en arrière de 18 mois. |
+| Activité Target | Effectuez une sélection à partir d’une liste d’activités Target ou faites glisser et déposez une activité à partir du rail de gauche. Remarque : la liste est remplie avec les 6 derniers mois d’activités qui comptent au moins 1 accès. Si vous ne voyez pas d’activité dans la liste, il se peut qu’elle remonte à plus de 6 mois. Elle peut encore être ajoutée à partir du rail gauche doté d’une période de retour en arrière de 18 mois. |
 | Expérience de contrôle | Sélectionnez votre expérience de contrôle. Vous pouvez la modifier si nécessaire dans la liste déroulante. |
 | Mesure de normalisation | Choisissez Visiteurs uniques, Visites ou Impressions d’activité. Visiteurs uniques est l’option recommandée pour la plupart des cas d’utilisation d’analyses. Cette mesure (également appelée méthodologie de comptage) devient le dénominateur du calcul de l’effet élévateur. Elle affecte également la manière dont les données sont agrégées avant l’application du calcul du degré de confiance. |
 | Mesures de succès | Sélectionnez jusqu’à 3 événements de succès standard (non calculés) dans les listes déroulantes ou faites glisser les mesures depuis le rail de gauche. Chaque mesure comporte une visualisation et un tableau dédiés dans le panneau généré. |
@@ -44,11 +44,11 @@ Chaque tableau à structure libre affiche les colonnes de mesures suivantes :
 | Mesures de normalisation | Visiteurs uniques, Visites ou Impressions d’activité. |
 | Mesure de succès | La mesure sélectionnée dans le créateur. |
 | Taux de conversion | Mesure de succès/normalisation |
-| Effet élévateur | Compare le taux de conversion de chaque expérience à l’expérience de contrôle.<br>**Remarque :** l’effet élévateur est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions. |
-| Effet élévateur (inférieur) | Représente le pire effet élévateur qu’une expérience de variante pourrait avoir sur l’expérience de contrôle. |
-| Effet élévateur (médian) | Représente l’effet élévateur moyen qu’une expérience de variante pourrait avoir sur l’expérience de contrôle, avec un intervalle de confiance de 95 %. Il s’agit d’« Effet élévateur » dans Reports &amp; Analytics. |
-| Effet élévateur (supérieur) | Représente le meilleur effet élévateur qu’une expérience de variante pourrait avoir sur l’expérience de contrôle. |
-| Degré de confiance | Le test T calcule le degré de confiance, qui indique la probabilité selon laquelle les résultats seraient dupliqués si le test était exécuté à nouveau. Une plage de mise en forme conditionnelle fixe de 75 %/85 %/95 % a été appliquée à la mesure. Si nécessaire, cette mise en forme peut être personnalisée sous Paramètres de colonne. <br>**Remarque :** le degré de confiance est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions. |
+| Effet élévateur | Compare le taux de conversion de chaque expérience à l’expérience de contrôle. Remarque : l’effet élévateur est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions. |
+| Effet élévateur (inférieur) | Représente le pire effet élévateur qu’une expérience de variante peut avoir sur le contrôle, à un intervalle de confiance de 95 %.<br>Calcul : (x/y ± 1.96 std_err(x,y)) / (x_control/y_control ∓ 1.96 std_err(x_control,y_control)). Ici std_err(x,y) est sqrt(xx/y - (x/y)^2), où le xx indique la somme des carrés. |
+| Effet élévateur (médian) | Représente l’effet élévateur moyen qu’une expérience de variante pourrait avoir sur l’expérience de contrôle, avec un intervalle de confiance de 95 %. Il s’agit d’« Effet élévateur » dans Reports &amp; Analytics.<br>Calcul : (x/y)/(x_control/y_control) - 1 |
+| Effet élévateur (supérieur) | Représente le meilleur effet élévateur qu’une expérience de variante puisse avoir sur le contrôle, à un intervalle de confiance de 95 %.<br>Calcul : voir Effet élévateur (inférieur). |
+| Degré de confiance | Le test T calcule le degré de confiance, qui indique la probabilité selon laquelle les résultats seraient dupliqués si le test était exécuté à nouveau. Une plage de mise en forme conditionnelle fixe de 75 %/85 %/95 % a été appliquée à la mesure. Si nécessaire, cette mise en forme peut être personnalisée sous Paramètres de colonne. Remarque : le degré de confiance est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions.<br>Calcul : Appliquez un test en t à 2 tailles avec y+y_control-2 degrés de liberté pour trouver la p-value si x/y est égal à x_control/y_control. Calculez le score en t, où stderr est sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control). Renvoie 1-p comme la confiance qu’ils sont différents. |
 
 Comme pour n’importe quel panneau d’Analysis Workspace, vous pouvez continuer votre analyse en ajoutant des tableaux et [visualisations](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) supplémentaires qui vous aideront à analyser vos activités Adobe Target.
 
