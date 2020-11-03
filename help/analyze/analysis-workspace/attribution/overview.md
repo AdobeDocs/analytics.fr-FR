@@ -1,9 +1,9 @@
 ---
 title: Présentation d’Attribution
 description: Le concept d’attribution du crédit d’un événement de succès à plusieurs éléments de dimension.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -41,6 +41,6 @@ Adobe Analytics améliore l’attribution en vous permettant de :
 Attribution IQ propose les fonctionnalités suivantes :
 
 * [Panneau Attribution](../c-panels/attribution.md) : comparez rapidement les dimensions et les mesures avec différents modèles d’attribution.
-* [Appliquer l’attribution à une mesure](../build-workspace-project/column-row-settings/column-settings.md) : utilisez une attribution autre que celle par défaut sur une mesure d’un projet.
+* [Appliquer l’attribution à une mesure](../visualizations/freeform-table/column-row-settings/column-settings.md) : utilisez une attribution autre que celle par défaut sur une mesure d’un projet.
 * [Appliquer l’attribution à une ventilation](../components/dimensions/t-breakdown-fa.md) : utilisez une attribution autre que celle par défaut sur une ventilation.
 * [Comparer des modèles d’attribution](../components/apply-create-metrics.md) : comparez rapidement les différents modèles d’attribution pour n’importe quelle mesure.
