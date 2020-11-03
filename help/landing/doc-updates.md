@@ -2,9 +2,9 @@
 title: Mises à jour de la documentation technique pour Adobe Analytics
 description: Mises à jour notables au référentiel de documentation Adobe Analytics.
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 12 février 2020 | Mises à jour et réorganisation de la documentation des [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | 7 février 2020 | Mises à jour de [Configuration des analyses entre appareils](/help/components/cda/setup.md) et [FAQ](/help/components/cda/faq.md). |
 | 4 février 2020 | Réécriture complète du [Guide de mise en œuvre](/help/implement/home.md). |
-| 22 janvier 2020 | Mise à jour de la page Tableau à structure libre pour inclure des informations sur le nouveau [Générateur de tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 22 janvier 2020 | Mise à jour de la page Tableau à structure libre pour inclure des informations sur le nouveau [Générateur de tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | 13 janvier 2020 | Ajout de [Adobe Analytics et les cookies de navigateur](/help/technotes/cookies.md). |
 | 29 novembre 2019 | Modification de la [documentation sur le flux de données](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 novembre 2019 | Nouvelle rubrique sur la [fin de vie des restrictions d’identification par IP](/help/admin/company/login-restrictions-eol.md). |
