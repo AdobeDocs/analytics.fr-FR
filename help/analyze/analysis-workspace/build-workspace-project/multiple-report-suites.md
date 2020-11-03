@@ -1,16 +1,16 @@
 ---
-title: Suites de rapports multiples dans Workspace
+title: Suites de rapports multiples
 description: Découvrez comment et pourquoi créer des projets dans Workspace avec plusieurs suites de rapports.
-translation-type: ht
-source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
-workflow-type: ht
-source-wordcount: '527'
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
 
 
-# Suites de rapports multiples dans Workspace
+# Suites de rapports multiples
 
 Vous pouvez désormais créer des projets dans Analysis Workspace à l’aide de données provenant de plusieurs suites de rapports. Les suites de rapports sont désormais sélectionnées au niveau du panneau. Vous pouvez donc choisir une suite de rapports différente pour chaque panneau du même projet Workspace.
 
