@@ -5,10 +5,10 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Report Builder et Activity Map.
 translation-type: tm+mt
-source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 100%
+source-wordcount: '1107'
+ht-degree: 99%
 
 ---
 
@@ -23,17 +23,10 @@ ht-degree: 100%
       + [Aperçu de la création d’un projet](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Enregistrement des projets](analysis-workspace/build-workspace-project/save-projects.md)
       + [Modèles](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [Suites de rapports multiples dans Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + Paramètres des colonnes et des lignes {#column-row-settings}
-         + [Paramètres des colonnes](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
-         + [Paramètres des lignes](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [Éléments dynamiques ou statiques](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-      + [Paramètres d’annulation et de rétablissement](analysis-workspace/build-workspace-project/undo-redo.md)
-      + [Touches de raccourci dans Analysis Workspace](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [Pagination, filtrage et tri des tables](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [Suites de rapports multiples](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [Raccourcis clavier](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palettes de couleurs](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Densité d’affichage](analysis-workspace/build-workspace-project/view-density.md)
-      + [Totaux de Workspace](analysis-workspace/build-workspace-project/workspace-totals.md)
    + Composants {#components}
       + [Aperçu des composants](analysis-workspace/components/analysis-workspace-components.md)
       + Dimensions {#dimensions}
@@ -49,7 +42,14 @@ ht-degree: 100%
    + Visualisations {#visualizations}
       + [Visualisations - Aperçu](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gestion des sources de données](analysis-workspace/visualizations/t-sync-visualization.md)
-      + [Tableau à structure libre](analysis-workspace/visualizations/freeform-table.md)
+      + Tableau à structure libre {#freeform-table}
+         + [Tableau à structure libre](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + Paramètres des colonnes et des lignes {#column-row-settings}
+            + [Paramètres des colonnes](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
+            + [Paramètres des lignes](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+            + [Éléments dynamiques ou statiques](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [Pagination, filtrage et tri des tables](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [Totaux de Workspace](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tableau de cohortes {#cohort-table}
          + [Qu’est-ce que l’analyse des cohortes ?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuration d’un rapport d’analyse des cohortes](analysis-workspace/visualizations/cohort-table/t-cohort.md)
