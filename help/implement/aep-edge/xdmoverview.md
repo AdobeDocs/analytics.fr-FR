@@ -2,7 +2,7 @@
 title: Utilisation des données XDM avec Analytics
 description: 'Présentation de l’utilisation des données XDM d’Experience Platform dans Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 96%
@@ -21,11 +21,11 @@ Analytics collecte les données XDM de deux manières :
 
 ## Mise en correspondance automatique
 
-[La mise en correspondance automatique](xdm-manual.md) repose sur un [schéma](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/schema/composition.html) par défaut dans XDM qui renseigne automatiquement les objets JSON inclus dans la collecte de données Analytics standard. Les variables Analytics automatiquement mises en correspondance depuis XDM vers vos suites de rapports configurées ne nécessitent aucun support développeur pour être incorporées.
+La mise en correspondance automatique repose sur un [schéma](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/schema/composition.html) par défaut dans XDM qui renseigne automatiquement les objets JSON inclus dans la collecte de données Analytics standard. Les variables Analytics automatiquement mises en correspondance depuis XDM vers vos suites de rapports configurées ne nécessitent aucun support développeur pour être incorporées.
 
 ## Mise en correspondance manuelle
 
-La mise en correspondance manuelle des données XDM avec Analytics repose sur les [variables de données contextuelles Analytics](../vars/page-vars/contextdata.md). Ces variables sont placées dans des objets JSON correspondant aux schémas applicables. En règle générale, votre équipe de développement ajoute des données contextuelles lors de l’implémentation, puis les administrateurs définissent des [règles de traitement](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) pour appliquer ces données à des suites de rapports spécifiées.
+[](xdm-manual.md)La mise en correspondance manuelle des données XDM avec Analytics repose sur les [variables de données contextuelles Analytics](../vars/page-vars/contextdata.md). Ces variables sont placées dans des objets JSON correspondant aux schémas applicables. En règle générale, votre équipe de développement ajoute des données contextuelles lors de l’implémentation, puis les administrateurs définissent des [règles de traitement](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) pour appliquer ces données à des suites de rapports spécifiées.
 
 ## Configuration
 
