@@ -39,7 +39,7 @@ La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le ba
 
 ### Raccourcis clavier (touches de raccourci)
 
-[!UICONTROL Analysis Workspace] offre un vaste ensemble de [raccourcis clavier](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) pour accélérer le processus. Voici quelques raccourcis courants pour la navigation, la création d’analyses et la démocratisation des informations.
+[!UICONTROL Analysis Workspace] offre un vaste ensemble de [raccourcis clavier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=fr-FR) pour accélérer le processus. Voici quelques raccourcis courants pour la navigation, la création d’analyses et la démocratisation des informations.
 
 #### Navigation
 
@@ -60,7 +60,7 @@ La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le ba
 | Ctrl+Maj+D | Nouvelle période |
 | Ctrl+Maj+E | Nouveau segment |
 | Ctrl+Z | Annuler |
-| Maintenir la touche Maj enfoncée (dans la zone de dépôt des segments du panneau) | Créer un [filtre déroulant](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| Maintenir la touche Maj enfoncée (dans la zone de dépôt des segments du panneau) | Créer un [filtre déroulant](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr-FR) |
 
 #### Démocratisation
 
@@ -81,7 +81,7 @@ Un lecteur d’écran lit le texte qui s’affiche sur l’écran de l’ordinat
 
 [!UICONTROL Analysis Workspace] s’efforce de respecter la norme WCAG 2.1 AA, y compris les exigences en matière de contraste des couleurs.
 
-En outre, les utilisateurs peuvent définir leur propre palette de couleurs préférée pour un projet sous **[!UICONTROL Projet]** > **[!UICONTROL Paramètres du projet]** > [Palette de couleurs du projet](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
+En outre, les utilisateurs peuvent définir leur propre palette de couleurs préférée pour un projet sous **[!UICONTROL Projet]** > **[!UICONTROL Paramètres du projet]** > [Palette de couleurs du projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=fr-FR).
 
 ## Validation des champs obligatoires dans les créateurs de composants
 
