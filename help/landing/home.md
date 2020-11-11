@@ -1,11 +1,11 @@
 ---
 title: Documentation technique d’Adobe Analytics
 description: Ressources et guides de l’utilisateur d’Analytics
-translation-type: ht
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 13fefcf8f743d1890044e2ac6b5864846d2c8cb7
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Bienvenue sur la page d’accueil du produit et de la documentation technique d�
 
 [![Intégration](assets/integrate_50px.png)](/help/integrate/home.md) [Guide d’intégration](/help/integrate/home.md) : configurez des intégrations avec d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud ou Target.
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html) [Guide de Media Analytics](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html) : mettez en œuvre Analytics sur des sources audio ou vidéo. Inclut le SDK Media et l’API Media Collection.
+[![Guide](assets/media_50px.png)](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html)d’analyse des médias en flux continu Analytics[](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html) en flux continu - Mise en oeuvre de Adobe Analytics pour la diffusion en flux continu de médias. Inclut le SDK Media et l’API Media Collection.
 
 [![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/home.html) [Guides de Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/home.html) : découvrez les fonctionnalités puissantes, flexibles et multi-canaux de [!UICONTROL Data Workbench]. Comprend le [!UICONTROL client Data Workbench], l’installation, les [!UICONTROL guides de configuration des jeux de données], etc.
 
