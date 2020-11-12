@@ -1,11 +1,11 @@
 ---
 title: Panneau d’attribution
 description: Utilisation et interprétation du panneau d’attribution dans Analysis Workspace.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 72%
 
 ---
 
@@ -34,9 +34,9 @@ Le panneau d’attribution permet de créer aisément une analyse comparant diff
 ## Visualisations d’attribution
 
 * **Mesure totale** : nombre total de conversions survenues pendant le créneau de rapport. Il s’agit des conversions qui sont attribuées pour la dimension que vous avez sélectionnée.
-* **Graphique à barres de comparaison d’attribution des mesures** : compare visuellement les conversions attribuées à chacun des éléments de dimension de la dimension sélectionnée. Chaque couleur de barre représente un modèle d’attribution distinct.
-* **Tableau à structure libre d’attribution des mesures** : affiche, sous forme de tableau, les mêmes données que le graphique à barres. La sélection de différentes colonnes ou lignes dans ce tableau permet de filtrer le graphique à barres ainsi que plusieurs autres visualisations du panneau. Ce tableau fonctionne de la même manière que tout autre tableau à structure libre de Workspace. Il vous permet d’ajouter des composants tels que des mesures, des segments ou des ventilations.
-* **Diagramme de chevauchement des dimensions** : diagramme de Venn présentant les trois principaux éléments de dimension et la fréquence à laquelle ils participent conjointement à une conversion. Par exemple, la taille du chevauchement des bulles indique la fréquence des conversions lorsqu’un visiteur a été exposé aux deux éléments de dimension. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
-* **Points de contact marketing par parcours** : histogramme indiquant le nombre de points de contact d’un visiteur dans l’intervalle de recherche en amont. Ceci est utile pour voir l’impact de l’attribution multi-touch pour votre jeu de données. Si presque tous les visiteurs n’ont qu’un seul point de contact, il est probable que différents modèles d’attribution affichent des données similaires.
-* **Détails sur les performances des canaux de marketing** : vous permet de comparer visuellement jusqu’à trois modèles d’attribution à l’aide d’un graphique de dispersion.
-* **Flux de canal marketing** : vous permet de voir avec quels canaux les visiteurs interagissent le plus souvent, et dans quel ordre au cours de leur parcours.
+* **Barre** de comparaison des attributs : compare visuellement les conversions attribuées à chacun des éléments de dimension de la dimension sélectionnée. Chaque couleur de barre représente un modèle d’attribution distinct.
+* **Tableau** de comparaison des attributs : Affiche les mêmes données que le graphique à barres, représenté sous la forme d’un tableau. La sélection de différentes colonnes ou lignes dans ce tableau permet de filtrer le graphique à barres ainsi que plusieurs autres visualisations du panneau. Ce tableau fonctionne de la même manière que tout autre tableau à structure libre de Workspace. Il vous permet d’ajouter des composants tels que des mesures, des segments ou des ventilations.
+* **Diagramme** de chevauchement : Diagramme de Venn présentant les trois principaux éléments de dimension et la fréquence à laquelle ils participent conjointement à une conversion. Par exemple, la taille du chevauchement des bulles indique la fréquence des conversions lorsqu’un visiteur a été exposé aux deux éléments de dimension. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
+* **Détails** des performances : Permet de comparer visuellement jusqu’à trois modèles d’attribution à l’aide d’un graphique de dispersion.
+* **Performances** de tendances : Affiche la tendance des conversions attribuées pour l’élément de dimension supérieur. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
+* **Flux**: Vous permet de déterminer les canaux qui interagissent le plus souvent et dans quel ordre d’un visiteur à l’autre.
