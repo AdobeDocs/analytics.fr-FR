@@ -5,10 +5,10 @@ user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '469'
+ht-degree: 97%
 
 ---
 
@@ -131,6 +131,7 @@ ht-degree: 99%
    + [Considérations relatives aux suites de rapports globales](prepare/global-rs.md)
    + [Fenêtre modale de mise en œuvre](prepare/implementation-modal.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
+   + [Prendre en charge une mise en oeuvre Adobe Analytics existante](prepare/existing-implementation.md)
 + Mise en œuvre d’Analytics avec JavaScript {#js}
    + [Présentation de JavaScript](js/overview.md)
    + [Mise en œuvre des liens d’exclusion](js/opt-out.md)
