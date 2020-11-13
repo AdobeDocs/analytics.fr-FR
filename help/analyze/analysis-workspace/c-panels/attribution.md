@@ -2,22 +2,22 @@
 title: Panneau d’attribution
 description: Utilisation et interprétation du panneau d’attribution dans Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 72%
+ht-degree: 66%
 
 ---
 
 
 # Panneau d’attribution
 
-Le panneau d’attribution permet de créer aisément une analyse comparant différents modèles d’attribution. Il s’agit d’une fonctionnalité d’[Attribution IQ](../attribution/overview.md) qui vous permet d’utiliser et de comparer des modèles d’attribution dans un espace de travail dédié.
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. Il s’agit d’une fonctionnalité d’[Attribution IQ](../attribution/overview.md) qui vous permet d’utiliser et de comparer des modèles d’attribution dans un espace de travail dédié.
 
 ## Création d’un panneau d’attribution
 
 1. Cliquez sur l’icône du panneau à gauche.
-1. Faites glisser le panneau d’attribution dans votre projet Analysis Workspace.
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
    ![Nouveau panneau d’attribution](assets/Attribution_Panel_1.png)
 
@@ -40,3 +40,4 @@ Le panneau d’attribution permet de créer aisément une analyse comparant diff
 * **Détails** des performances : Permet de comparer visuellement jusqu’à trois modèles d’attribution à l’aide d’un graphique de dispersion.
 * **Performances** de tendances : Affiche la tendance des conversions attribuées pour l’élément de dimension supérieur. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
 * **Flux**: Vous permet de déterminer les canaux qui interagissent le plus souvent et dans quel ordre d’un visiteur à l’autre.
+
