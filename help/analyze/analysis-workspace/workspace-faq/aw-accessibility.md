@@ -1,11 +1,11 @@
 ---
 description: Fonctionnalités de prise en charge de l’accessibilité dans Analysis Workspace
 title: Accessibilité dans Analysis Workspace
-translation-type: ht
-source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 82%
 
 ---
 
@@ -22,11 +22,20 @@ L’accessibilité consiste à rendre les produits utilisables pour les personne
 
 La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le bas et de gauche à droite. Les éléments de navigation suivants facilitent l’accessibilité :
 
-* La touche `F6` active des raccourcis de repère.
-* La touche `Tab` permet de se déplacer entre les éléments individuels.
+* La touche `Tab` active des raccourcis de repère., en passant d’une section à l’autre dans Workspace. Dans le rail de gauche, `Tab` vous permet également de passer d’une option déplaçable à l’autre.
+* Le `left/right arrows` déplacement entre les éléments individuels après `Tab` l&#39;a mis en évidence.
+* L’utilisateur `F6` navigue jusqu’au premier panneau du projet et se déplace entre les visualisations dans ce panneau. Ensuite, il passe au panneau suivant du projet et se répète.
 * Nous appliquons des indicateurs de ciblage afin que les utilisateurs de clavier à vue normale aient une indication claire de l’élément de l’interface utilisateur actuellement ciblé. L’indicateur correspond à une bordure bleue autour de l’élément sélectionné.
 
    ![Indicateur de ciblage](assets/focus-indicator.png)
+
+### Navigation au clavier pour la barre de menus
+
+1. Appuyez sur la touche de tabulation jusqu’à ce que vous ayez atteint la barre de menus.
+1. Utilisez les touches fléchées gauche/droite pour accéder au menu de votre choix.
+1. Appuyez sur `Enter` pour sélectionner le menu et afficher ses options.
+1. Utilisez les touches fléchées Haut/Bas pour accéder à l&#39;option de menu de votre choix.
+1. Appuyez sur `Enter` pour sélectionner l’option.
 
 ### Navigation au clavier pour les interactions de glisser-déposer
 
