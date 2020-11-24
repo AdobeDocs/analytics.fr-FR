@@ -2,7 +2,7 @@
 description: Un panneau est un ensemble de tableaux et de visualisations.
 title: Panneaux - Aperçu
 translation-type: tm+mt
-source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
+source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 12%
@@ -84,7 +84,11 @@ Pour créer des filtres déroulants :
 
 ## Menu contextuel {#right-click}
 
-Pour accéder à d’autres fonctionnalités d’un panneau, cliquez avec le bouton droit de la souris sur l’en-tête du panneau. Les paramètres suivants sont disponibles :
+Pour accéder à d’autres fonctionnalités d’un panneau, cliquez avec le bouton droit de la souris sur l’en-tête du panneau.
+
+![](assets/right-click-menu.png)
+
+Les paramètres suivants sont disponibles :
 
 | Paramètre | Description |
 | --- | --- |
