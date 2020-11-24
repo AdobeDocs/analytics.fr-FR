@@ -1,105 +1,67 @@
 ---
-description: Découvrez les visualisations et les paramètres de visualisation d’Analysis Workspace.
+description: Représenter visuellement vos données avec des visualisations.
 keywords: Analysis Workspace
 title: Visualisations - Aperçu
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 71cf46157917c77a815b8474bc635c01d6d13a25
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 97%
+source-wordcount: '1092'
+ht-degree: 42%
 
 ---
 
 
 # Visualisations - Aperçu
 
-Workspace offre un certain nombre de visualisations qui vous permettent de générer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des graphiques en courbes, des cartes, des tracés différés, etc. Chaque visualisation possède ses propres paramètres que vous pouvez gérer. Cliquez sur le nom de la visualisation pour obtenir des informations plus détaillées.
+Workspace offre un certain nombre de visualisations qui vous permettent de générer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des graphiques en courbes, des cartes, des tracés différés, etc. La plupart des types de visualisation vous seront familiers si vous utilisez Adobe Analytics. Néanmoins, Analysis Workspace fournit des paramètres de visualisation et de nombreux types de visualisation nouveaux ou uniques, dotés de fonctionnalités interactives.
 
-Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
+Vous pouvez accéder aux visualisations à partir de l’icône située en haut à gauche de Workspace, d’un panneau [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)vierge ou par le biais du menu contextuel de votre processus. Les types de visualisation suivants sont disponibles en Analysis Workspace :
 
 | Nom de la visualisation | Description |
-|---|---|
-| [Surface](/help/analyze/analysis-workspace/visualizations/area.md) | Semblable à un graphique linéaire, mais avec une zone colorée sous la ligne. Utilisez un diagramme de surface si vous avez plusieurs mesures et souhaitez visualiser la zone exprimée par l’intersection de plusieurs mesures. |
+| --- | --- |
+| [Surface](/help/analyze/analysis-workspace/visualizations/area.md) | Comme un graphique linéaire, mais avec une zone colorée sous la ligne. Utilisez un diagramme de surface si vous avez plusieurs mesures et souhaitez visualiser la zone exprimée par l’intersection de plusieurs mesures. |
 | [Barre](/help/analyze/analysis-workspace/visualizations/bar.md) | Des barres verticales représentent plusieurs valeurs pour une ou plusieurs mesures. |
 | [Graphique à puces](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Permet de comparer ou de mesurer une valeur qui vous intéresse par rapport à d’autres plages de performances (objectifs). |
-| [Tableau de cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’analyse des cohortes s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. |
+| [Tableau de cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’Analyse de cohortes est utile pour la rétention, l’exécution ou l’analyse de latence. |
 | [Anneau](/help/analyze/analysis-workspace/visualizations/donut.md) | Semblable à un graphique circulaire, cette visualisation présente les données comme des portions ou des segments d’un tout. |
-| [Abandon](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution). |
-| [Flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Présente les parcours des clients sur vos sites web et dans vos applications. |
-| [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Un tableau à structure libre n’est pas simplement un tableau de données, mais également une visualisation interactive. |
-| [Histogramme](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un histogramme est semblable à un graphique à barres, à ceci près qu’il répartit les chiffres en classes (intervalles). |
+| [Abandon](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution). Peut être défini sur des séquences éventuelles ou exactes |
+| [Flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Indique les chemins d’accès exacts des clients à travers vos sites Web et applications. |
+| [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Un tableau à structure libre n’est pas simplement un tableau de données, mais également une visualisation interactive. Il constitue la base de l’analyse des données dans Workspace. |
+| [Histogramme](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un histogramme regroupe les visiteurs, les visites ou les accès en intervalles en fonction d’un volume de mesures. |
 | [Barre horizontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures. |
-| [Ligne](/help/analyze/analysis-workspace/visualizations/line.md) | Les mesures sont représentées sous la forme d’une ligne afin d’indiquer de quelle façon changent les valeurs au fil du temps. Pour pouvoir utiliser un graphique en courbes, le temps doit être défini comme une dimension. |
+| [Ligne](/help/analyze/analysis-workspace/visualizations/line.md) | Les mesures sont représentées sous la forme d’une ligne afin d’indiquer de quelle façon changent les valeurs au fil du temps. Un graphique en courbes utilise le temps le long de l’axe X. |
 | [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permet de créer une carte visuelle de n’importe quelle mesure (y compris les mesures calculées) ; |
 | [Graphique de dispersion](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Affiche la relation entre les éléments de dimension et trois mesures au maximum. |
-| [Numéro de résumé](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Selon la cellule sélectionnée, cette visualisation affiche les totaux et les résumés. |
-| [Résumé des changements](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Selon les cellules sélectionnées, cette visualisation compare les cellules les unes aux autres. |
-| [Texte](/help/analyze/analysis-workspace/visualizations/text.md) | Permet d’ajouter du texte défini par l’utilisateur dans Workspace. |
+| [Numéro de résumé](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Affiche la cellule sélectionnée sous la forme d’un grand nombre. |
+| [Résumé des changements](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Affiche le changement entre les cellules sélectionnées sous la forme d’un grand nombre/pourcentage. |
+| [Texte](/help/analyze/analysis-workspace/visualizations/text.md) | Permet d’ajouter du texte défini par l’utilisateur dans l’Workspace. Utile pour ajouter du contexte supplémentaire à votre analyse et à vos informations, en plus de tirer parti des descriptions de panneau/visualisation |
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Présente les données hiérarchiques (structurées en arbre) sous la forme d’un ensemble de rectangles imbriqués. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Vous permet de faire glisser jusqu’à trois segments (depuis les composants) et une mesure afin de générer un diagramme de Venn. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Utilise des cercles pour représenter le chevauchement des mesures de 3 segments au maximum. |
 
-## Panneau Visualisations {#section_DC07F032FBEF4046A40F7B95C28DA018}
+## Paramètres {#settings}
 
-Pour afficher le panneau Visualisations, cliquez sur **[!UICONTROL Visualisations]** dans le panneau latéral.
-
-![Résultat de l’étape](assets/visualizations.png)
-
-Si vous utilisez Adobe Analytics, vous connaissez sans doute déjà la plupart des types de visualisation (les graphiques de surface, à barres, en anneau, en courbes). Néanmoins, Analysis Workspace fournit des paramètres de visualisation et de nombreux types de visualisation nouveaux ou uniques, dotés de fonctionnalités interactives.
-
-## Paramètres de visualisation {#section_D3BB5042A92245D8BF6BCF072C66624B}
-
-Pour accéder aux [!UICONTROL Paramètres de visualisation], faites glisser une visualisation sur le [!UICONTROL panneau Structure libre], puis cliquez sur l’icône d’engrenage [!UICONTROL Paramètres de visualisation].
-
->[!IMPORTANT]
->
->Les paramètres de visualisation visibles dépendent de la visualisation. Tous les paramètres ne s’appliquent pas à toutes les visualisations. En outre, certains paramètres avancés, tels les [paramètres d’histogramme](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477), apparaissent **uniquement** pour certaines visualisations.
-
-![](assets/visualization_settings.png)
+Chaque visualisation possède ses propres paramètres que vous pouvez gérer. Pour accéder aux Paramètres [!UICONTROL de]visualisation, cliquez sur l’icône d’engrenage Paramètres [!UICONTROL de] visualisation. Certains paramètres sont les suivants :
 
 | Paramètre | Description |
-|--- |--- |
+| --- | --- |
+| Type de visualisation | Modifiez le type de visuel utilisé pour représenter les données. |
+| Granularité | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) de cette liste déroulante. Cette modification s’applique également à la table de source de données. |
 | Pourcentages | Affiche les valeurs en pourcentages. |
-| 100 % empilé | Ce paramètre appliqué aux graphiques à zones empilées, à barres empilées ou à barres horizontales empilées offre un aperçu « 100 % empilé » du diagramme. Exemple : ![](assets/stacked_100_percent.png) |
-| Légende visible | Permet de masquer le texte des détails du filtre pour la visualisation Synthèse des chiffres/Résumé des changements. |
+| 100 % empilé | Ce paramètre sur les visualisations empilées, empilées ou empilées à barres horizontales transforme le graphique en une visualisation à 100 % empilée. Exemple : ![](assets/stacked_100_percent.png) |
+| Légende visible | Permet de masquer le texte de légende détaillé pour la visualisation Synthèse des chiffres/Résumé des changements. |
 | Nb max. d’éléments | Permet de limiter le nombre d’éléments affichés dans une visualisation. |
 | Axe Y de l’ancre à zéro | Si toutes les valeurs mappées dans le graphique sont considérablement supérieures à zéro, le seuil de l’axe des ordonnées est par défaut NON NUL. Si cette option est activée, l’axe des ordonnées est obligatoirement ancré à zéro (et le graphique est retracé). |
-| Normalisation | Force les mesures en proportions égales. |
-| Afficher l’axe double | S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des ordonnées sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). |
-| Afficher les anomalies | Affine les graphiques linéaires et les tableaux à structure libre afin d’afficher les anomalies des données. |
+| Normalisation | Force les mesures en proportions égales. Cela s’avère utile lorsque les mesures tracées présentent des dimensions très différentes. |
+| Afficher l’axe double | S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des ordonnées sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). Cela s’avère utile lorsque les mesures tracées présentent des dimensions très différentes. |
+| Afficher les anomalies | Améliore les graphiques en courbes et les tableaux à structure libre en affichant la décision d’anomalie. La détection des anomalies dans les visualisations en ligne comprend une valeur attendue (ligne en pointillé) et une plage attendue (bande ombrée). |
 
-## Icône Créer un visuel {#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## Légende {#legend}
 
-Si vous ne savez pas quelle visualisation choisir, cliquez sur l’icône **[!UICONTROL Créer un visuel]** dans une ligne de tableau. Cette icône s’affiche quand vous pointez sur la ligne du tableau. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Si, par exemple, trois segments sont sélectionnés, un diagramme de Venn est créé. S’il y a plus de trois segments, un graphique à barres est créé. Pour d’autres types de données, cela peut aussi être un graphique linéaire, etc.
+Une légende de visualisation vous permet de relier une date d’un tableau source à une série tracée dans la visualisation. La légende est interactive : vous pouvez cliquer sur un élément de légende pour afficher/masquer une série dans la visualisation. Cela s’avère utile si vous souhaitez simplifier les données visualisées.
 
-![](assets/create-visual.png)
+De plus, vous pouvez renommer les libellés de légende pour rendre les visuels plus consommables. Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
 
-## Clic droit sur le menu Visualisation/Panneau {#section_05B7914D4C9E443F97E2BFFDEC70240C}
-
-Les paramètres qui dépendent d’un graphique sont accessibles en cliquant avec le bouton droit de la souris près d’un en-tête de visualisation. Certains ou tous les paramètres suivants sont disponibles :
-
-![](assets/right-click_menu.png)
-
-| Paramètre | Description |
-|--- |--- |
-| Insérer une visualisation/un panneau copié | Permet de coller (« insérer ») l’élément copié à un autre emplacement du projet, ou dans un tout autre projet. |
-| Copier une visualisation/un panneau | Permet d’effectuer un clic droit et de copier une visualisation ou un panneau. |
-| Dupliquer une visualisation/un panneau | Crée un double exact de la visualisation actuelle, que vous pouvez ensuite modifier. |
-| Réduire tous les panneaux | Réduit tous les panneaux du projet. |
-| Réduire toutes les visualisations dans le panneau | Réduit toutes les visualisations dans ce panneau de projet. |
-| Développer tous les panneaux | Développe tous les projets du panneau. |
-| Développer toutes les visualisations dans le panneau | Développe toutes les visualisations dans ce panneau de projet. |
-| Modifier la description | Permet d’ajouter (ou de modifier) une description textuelle de la visualisation ou du panneau. Cette description s’affiche sous Projet > Informations et paramètres du projet. |
-| Obtenir un lien vers le panneau | Permet de renvoyer un utilisateur vers un panneau spécifique dans un projet. |
-| Obtenir le lien de la visualisation | Permet de copier et de partager le lien pour permettre à d’autres personnes d’accéder directement à cette visualisation. Les utilisateurs devront se connecter. |
-| Recommencer | (Flux, diagramme de Venn, histogramme) Permet de supprimer la configuration de la visualisation actuelle et ouvre un nouveau panneau d’où vous pouvez la reconfigurer. |
-
-## Modifier des étiquettes de légende {#section_94F1988CB4B9434BA1D9C6034062C3DE}
-
-Permet de renommer les séries dans les légendes de visualisation (Abandons, Surface, Aires empilées, Barre, Barres empilées, Anneau, Histogramme, Barre horizontale, Barres empilées horizontales, Ligne, Graphique de dispersion et Venn) afin de créer un environnement plus convivial.
-
-**Il n’est pas** possible de modifier les légendes pour les visualisations suivantes : Treemap, Puce, Résumé des changements, Synthèse des chiffres, Texte, Structure libre, Histogramme, Cohorte ou Flux.
-
-Par exemple, pour modifier une étiquette de légende dans un graphique en ligne :
+Pour modifier une étiquette de légende :
 
 1. Effectuez un clic droit sur l’une des étiquettes de légende.
 1. Cliquez sur **[!UICONTROL Modifier l’étiquette]**.
@@ -110,3 +72,26 @@ Par exemple, pour modifier une étiquette de légende dans un graphique en ligne
 1. Appuyez sur **[!UICONTROL Entrée]** pour enregistrer.
 
 Suivez le [lien vers la vidéo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) relative à cette rubrique.
+
+## Menu contextuel {#right-click}
+
+Pour accéder à d’autres fonctionnalités d’une visualisation, cliquez avec le bouton droit de la souris sur l’en-tête de visualisation. Les paramètres varient selon la visualisation. Certains des paramètres disponibles sont les suivants :
+
+![](assets/right-click_menu.png)
+
+| Paramètre | Description |
+| --- | --- |
+| Insérer un panneau copié/visualisation | Permet de coller (&quot;insérer&quot;) un panneau ou une visualisation copié à un autre emplacement du projet ou dans un projet complètement différent. |
+| Copier la visualisation | Permet de cliquer avec le bouton droit de la souris et de copier une visualisation afin de l’insérer à un autre emplacement du projet ou dans un projet complètement différent. |
+| [Télécharger les éléments au format CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Téléchargez jusqu’à 50 000 éléments de dimension pour la dimension sélectionnée au format CSV. |
+| [Télécharger les données au format CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Téléchargez la source de données de visualisation au format CSV. |
+| Dupliquer la visualisation | Crée un double exact de la visualisation actuelle, que vous pouvez ensuite modifier. |
+| Modifier la description | Ajoutez (ou modifiez) une description textuelle de la visualisation. |
+| Obtenir le lien de la visualisation | Permet d’orienter une personne vers une visualisation spécifique au sein d’un projet. Lorsque vous cliquez sur le lien, le destinataire doit se connecter avant d’être dirigé vers la visualisation exacte à laquelle il est lié. |
+| Recommencer | (Fonctionne pour le flux, l’affichage, l’histogramme) Supprime la configuration de la visualisation actuelle afin que vous puissiez la reconfigurer de zéro. |
+
+## Icône Créer un visuel {#quick-viz}
+
+If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). Il s’agit de la méthode la plus rapide pour ajouter une visualisation. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Par exemple, si 1 ligne est sélectionnée, un graphique de tendance est créé. Si 3 lignes de segment sont sélectionnées, un diagramme de Venn est créé.
+
+![](assets/create-visual.png)
