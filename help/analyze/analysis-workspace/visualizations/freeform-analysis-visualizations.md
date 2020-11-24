@@ -3,9 +3,9 @@ description: Représenter visuellement vos données avec des visualisations.
 keywords: Analysis Workspace
 title: Visualisations - Aperçu
 translation-type: tm+mt
-source-git-commit: 71cf46157917c77a815b8474bc635c01d6d13a25
+source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1089'
 ht-degree: 42%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 42%
 
 Workspace offre un certain nombre de visualisations qui vous permettent de générer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des graphiques en courbes, des cartes, des tracés différés, etc. La plupart des types de visualisation vous seront familiers si vous utilisez Adobe Analytics. Néanmoins, Analysis Workspace fournit des paramètres de visualisation et de nombreux types de visualisation nouveaux ou uniques, dotés de fonctionnalités interactives.
 
-Vous pouvez accéder aux visualisations à partir de l’icône située en haut à gauche de Workspace, d’un panneau [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)vierge ou par le biais du menu contextuel de votre processus. Les types de visualisation suivants sont disponibles en Analysis Workspace :
+Vous pouvez accéder aux visualisations à partir de l’icône située en haut à gauche de Workspace, d’un panneau [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)vierge ou par le biais du menu contextuel de votre processus.
+
+![](assets/viz-rail.png)
+
+Les types de visualisation suivants sont disponibles en Analysis Workspace :
 
 | Nom de la visualisation | Description |
 | --- | --- |
@@ -40,20 +44,22 @@ Vous pouvez accéder aux visualisations à partir de l’icône située en haut 
 
 ## Paramètres {#settings}
 
-Chaque visualisation possède ses propres paramètres que vous pouvez gérer. Pour accéder aux Paramètres [!UICONTROL de]visualisation, cliquez sur l’icône d’engrenage Paramètres [!UICONTROL de] visualisation. Certains paramètres sont les suivants :
+Chaque visualisation possède ses propres paramètres que vous pouvez gérer. Pour accéder aux Paramètres [!UICONTROL de]visualisation, cliquez sur l’icône d’engrenage Paramètres [!UICONTROL de] visualisation.
+
+![](assets/settings.png)
 
 | Paramètre | Description |
 | --- | --- |
 | Type de visualisation | Modifiez le type de visuel utilisé pour représenter les données. |
 | Granularité | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) de cette liste déroulante. Cette modification s’applique également à la table de source de données. |
 | Pourcentages | Affiche les valeurs en pourcentages. |
-| 100 % empilé | Ce paramètre sur les visualisations empilées, empilées ou empilées à barres horizontales transforme le graphique en une visualisation à 100 % empilée. Exemple : ![](assets/stacked_100_percent.png) |
+| 100 % empilé | Ce paramètre sur les visualisations empilées, empilées ou empilées à barres horizontales transforme le graphique en une visualisation à 100 % empilée. Exemple : ![Empilé à 100 %](assets/stacked_100_percent.png) |
 | Légende visible | Permet de masquer le texte de légende détaillé pour la visualisation Synthèse des chiffres/Résumé des changements. |
 | Nb max. d’éléments | Permet de limiter le nombre d’éléments affichés dans une visualisation. |
 | Axe Y de l’ancre à zéro | Si toutes les valeurs mappées dans le graphique sont considérablement supérieures à zéro, le seuil de l’axe des ordonnées est par défaut NON NUL. Si cette option est activée, l’axe des ordonnées est obligatoirement ancré à zéro (et le graphique est retracé). |
 | Normalisation | Force les mesures en proportions égales. Cela s’avère utile lorsque les mesures tracées présentent des dimensions très différentes. |
 | Afficher l’axe double | S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des ordonnées sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). Cela s’avère utile lorsque les mesures tracées présentent des dimensions très différentes. |
-| Afficher les anomalies | Améliore les graphiques en courbes et les tableaux à structure libre en affichant la décision d’anomalie. La détection des anomalies dans les visualisations en ligne comprend une valeur attendue (ligne en pointillé) et une plage attendue (bande ombrée). |
+| Afficher les anomalies | Améliore les graphiques en courbes et les tableaux à structure libre en affichant la détection des anomalies. La détection des anomalies dans les visualisations en ligne comprend une valeur attendue (ligne en pointillé) et une plage attendue (bande ombrée). |
 
 ## Légende {#legend}
 
@@ -77,7 +83,7 @@ Suivez le [lien vers la vidéo](https://docs.adobe.com/content/help/en/analytics
 
 Pour accéder à d’autres fonctionnalités d’une visualisation, cliquez avec le bouton droit de la souris sur l’en-tête de visualisation. Les paramètres varient selon la visualisation. Certains des paramètres disponibles sont les suivants :
 
-![](assets/right-click_menu.png)
+![](assets/right-click.png)
 
 | Paramètre | Description |
 | --- | --- |
@@ -94,4 +100,4 @@ Pour accéder à d’autres fonctionnalités d’une visualisation, cliquez avec
 
 If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). Il s’agit de la méthode la plus rapide pour ajouter une visualisation. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Par exemple, si 1 ligne est sélectionnée, un graphique de tendance est créé. Si 3 lignes de segment sont sélectionnées, un diagramme de Venn est créé.
 
-![](assets/create-visual.png)
+![](assets/quick-viz.png)
