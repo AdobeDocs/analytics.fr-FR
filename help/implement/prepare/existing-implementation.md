@@ -2,10 +2,10 @@
 title: Prendre en charge une mise en oeuvre Adobe Analytics existante
 description: Instructions destinées aux administrateurs qui ne connaissent pas une mise en oeuvre Adobe Analytics existante.
 translation-type: tm+mt
-source-git-commit: d3b05bddef89d7525c21f9f4686707daa27bc669
+source-git-commit: d77bb01d96ab0df2465927afc08739a3ce8c5c5f
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 1%
 
 ---
 
@@ -21,3 +21,9 @@ Reprenez-vous une implémentation Adobe Analytics de l’ancien propriétaire te
 Consultez ces conseils de Sarah Owen, une autre propriétaire technique. Sarah est une championne [](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) d’Adobe Analytics et partage ses idées sur la façon d’utiliser le manuel de mise en oeuvre hérité pour prendre en charge une mise en oeuvre existante :
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+Voir également :
+
+* [Liste de contrôle &quot;Révision mineure&quot; pour examiner votre mise en oeuvre après chaque publication du site Web](/help/implement/review/minor-review.md)
+* [Liste de contrôle &quot;Examen majeur&quot; pour examiner votre mise en oeuvre tous les 6 mois](/help/implement/review/major-review.md)
+* [Définition des 5 principaux indicateurs de performance clés](/help/implement/review/define-kpis.md)
