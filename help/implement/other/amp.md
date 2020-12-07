@@ -2,7 +2,7 @@
 title: Mise en œuvre avec AMP
 description: Mettez en œuvre Adobe Analytics sur les pages AMP.
 translation-type: tm+mt
-source-git-commit: 684e67203b2e3d5f0cb82cdbdda1f24d37a677f0
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
@@ -20,8 +20,8 @@ Dans la mesure où Adobe Analytics utilise une bibliothèque JavaScript pour com
 
 Adobe a créé deux méthodes pour mettre en œuvre Adobe Analytics sur les pages utilisant AMP. Toutes deux utilisent la balise HTML `<amp-analytics>`. Voir la [balise amp-analytics](https://github.com/ampproject/amphtml/tree/master/extensions/amp-analytics) sur le GitHub ampproject pour plus d’informations.
 
-* **Utiliser le`"adobeanalytics"`modèle de suivi** : générer la requête Analytics directement sur la page
-* **Utiliser le`"analytics_nativeConfig"`modèle de suivi** : utiliser un iframe contenant le même code AppMeasurement que celui que vous déployez sur votre site normal
+* **Utiliser le `"adobeanalytics"`modèle de suivi** : générer la requête Analytics directement sur la page
+* **Utiliser le `"analytics_nativeConfig"`modèle de suivi** : utiliser un iframe contenant le même code AppMeasurement que celui que vous déployez sur votre site normal
 
 Le tableau suivant compare ces deux méthodes :
 
@@ -55,7 +55,7 @@ Dans l’exemple de code suivant, deux déclencheurs sont définis : `pageLoad`
         "myClick": "${click}&v1=${eVar1}",
       },
       "vars": {
-        "host": "example.sc.omtrdc.net",
+        "host": "example.sc.adobedc.net",
         "reportSuites": "reportSuiteID",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
@@ -109,7 +109,7 @@ La balise `"adobeanalytics_nativeConfig"` est plus facile à mettre en œuvre, c
         "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
       },
       "vars": {
-        "host": "example.sc.omtrdc.net"
+        "host": "example.sc.adobedc.net"
       },
       "extraUrlParams": {
       "pageName": "Example AMP page",
@@ -133,7 +133,7 @@ Une page HTML hébergée sur vos serveurs web est également requise :
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.omtrdc.net";
+      var s_trackingServer = "example.sc.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
       var s = s_gi(s_account);
