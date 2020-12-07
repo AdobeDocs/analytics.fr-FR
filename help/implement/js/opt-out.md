@@ -1,9 +1,9 @@
 ---
 title: Liens d’exclusion
 description: Découvrez comment créer et mettre en œuvre des liens d’exclusion pour les visiteurs de votre site.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
 
 Une fois que vous avez trouvé le domaine `trackingServer` de votre mise en œuvre, ajoutez le chemin `/optout.html` à la fin. Par exemple :
 
-* Cookies tiers : `https://example.sc.omtrdc.net/optout.html`
+* Cookies tiers : `https://example.sc.adobedc.net/optout.html`
 * Cookies propriétaires : `https://stats.example.com/optout.html`
 
 ## Paramètres de chaîne de requête d’exclusion
@@ -78,7 +78,7 @@ Changer automatiquement la langue de la page d’exclusion en incluant le param�
 * sk_SK (slovaque)
 * es_ES (espagnol)
 
-Par exemple, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` charge la page d’exclusion en coréen.
+Par exemple, `https://example.sc.adobedc.net/optout.html?locale=ko_KR` charge la page d’exclusion en coréen.
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ Par exemple, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` charge la 
 
 Ajoute un bouton Fermer la fenêtre à la page, ce qui permet de faire de la page d’exclusion une fenêtre contextuelle. Utilisez le paramètre de chaîne de requête `popup` et donnez-lui la valeur `1`.
 
-Par exemple, `https://example.sc.omtrdc.net/optout.html?popup=1` charge la page d’exclusion avec un bouton Fermer la fenêtre.
+Par exemple, `https://example.sc.adobedc.net/optout.html?popup=1` charge la page d’exclusion avec un bouton Fermer la fenêtre.
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ Par exemple, `https://example.sc.omtrdc.net/optout.html?popup=1` charge la page 
 
 Permet à l’utilisateur de se désinscrire immédiatement du suivi. Ajoutez les deux paramètres de chaîne de requête `opt_out` et `confirm_change`, en attribuant à chacun une valeur de `1`.
 
-Par exemple, `https://example.sc.omtrdc.net/optout.html?opt_out=1&confirm_change=1` installe immédiatement le cookie d’exclusion sur la page du visiteur.
+Par exemple, `https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` installe immédiatement le cookie d’exclusion sur la page du visiteur.
 
 ### Inclusion par clic unique
 
 Permet à l’utilisateur de se reconnecter immédiatement au suivi en supprimant le cookie d’exclusion. Ajoutez les deux paramètres de chaîne de requête `opt_in` et `confirm_change`, en attribuant à chacun une valeur de `1`.
 
-Par exemple, `https://example.sc.omtrdc.net/optout.html?opt_in=1&confirm_change=1` supprime immédiatement le cookie d’exclusion du visiteur.
+Par exemple, `https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` supprime immédiatement le cookie d’exclusion du visiteur.
