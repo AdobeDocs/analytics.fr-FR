@@ -1,9 +1,9 @@
 ---
 title: AppMeasurement pour JavaScript
 description: Découvrez comment mettre en œuvre Adobe Analytics à l’aide de JavaScript sans système de gestion des balises.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ AppMeasurement pour JavaScript a toujours été une méthode courante de mise en
    var s_account = "examplersid";
    var s=s_gi(s_account);
    // Make sure data is sent to the correct location
-   s.trackingServer = "example.omtrdc.net";
+   s.trackingServer = "example.adobedc.net";
    ```
 
 3. Définissez des variables de niveau page dans le code de page de votre site. Ces variables déterminent des dimensions et des mesures spécifiques envoyées à Adobe. Voir [Variables de page](../vars/page-vars/page-variables.md) pour obtenir la liste complète des variables que vous pouvez définir.
