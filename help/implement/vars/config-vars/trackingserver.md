@@ -2,7 +2,7 @@
 title: trackingServer
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées.
 translation-type: tm+mt
-source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 91%
@@ -27,7 +27,7 @@ Le serveur de suivi est un champ sous l’accordéon [!UICONTROL Général] lors
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Serveur de suivi].
 
-Si ce champ n’est pas renseigné, il est défini par défaut sur `[rsid].112.2o7.net`.
+Si ce champ n’est pas renseigné, il est défini par défaut sur `[rsid]sc.adobedc.net`.
 
 ## s.trackingServer dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
@@ -65,7 +65,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Sélectionnez un sous-domaine unique à votre organisation, qui ne sera probablement pas choisi par une autre organisation qui utilise Adobe Analytics.  L’espace de nommage visiteur affecté à votre organisation est recommandé.  Assurez-vous que toutes les mises en œuvre de votre entreprise utilisent le même serveur de suivi. Il peut s’avérer utile de conserver ces informations dans un [document de conception de solution](../../prepare/solution-design.md).
 
-Votre entreprise utilise peut-être déjà un serveur de suivi tiers dans le `sc.omtrdc.net` ou les `2o7.net` domaines.  Elles ont été principalement utilisées dans les versions précédentes d&#39;Adobe Analytics et sont toujours valides.
+Votre entreprise utilise peut-être déjà un serveur de suivi tiers dans le `sc.adobedc.net` ou les `2o7.net` domaines.  Elles ont été principalement utilisées dans les versions précédentes d&#39;Adobe Analytics et sont toujours valides.
 
 >[!NOTE]
 >
