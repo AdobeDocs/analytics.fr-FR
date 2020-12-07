@@ -1,9 +1,9 @@
 ---
 title: Migration vers AppMeasurement pour JavaScript
 description: Déterminez ce qui est nécessaire pour migrer votre mise en œuvre hors du code H.
-translation-type: ht
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Les modifications notables suivantes sont présentes dans AppMeasurement par rap
 Les étapes suivantes décrivent un processus de migration type.
 
 1. **Téléchargez le nouveau fichier AppMeasurement** : accédez au nouveau fichier en vous connectant à Adobe Analytics, puis en accédant à Admin > Gestionnaire de code. Le fichier compressé téléchargé contient un fichier minifié `AppMeasurement.js`, ainsi que des modules Media et Integrate.
-1. **Copiez vos personnalisations`s_code.js`dans`AppMeasurement.js`** : déplacez tout le code situé avant la section `DO NOT ALTER ANYTHING BELOW THIS LINE` dans `s_code.js` au début de `AppMeasurement.js`.
+1. **Copiez vos personnalisations `s_code.js` dans`AppMeasurement.js`** : déplacez tout le code situé avant la section `DO NOT ALTER ANYTHING BELOW THIS LINE` dans `s_code.js` au début de `AppMeasurement.js`.
 1. **Mettre à jour tous les plug-ins** : vérifiez que vous utilisez la dernière version de chaque plug-in répertorié dans votre fichier `s_code.js`. Cela inclut les modules Media et Integrate.
 1. **Déployez le fichier AppMeasurement.js** : téléchargez votre fichier `AppMeasurement.js` sur votre serveur web.
 1. **Mettez à jour les références de script pour renvoyer vers`AppMeasurement.js`** : assurez-vous que toutes les pages font référence à `AppMeasurement.js` au lieu de `s_code.js`.
@@ -62,7 +62,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.omtrdc.net";
+s.trackingServer="example.sc.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
