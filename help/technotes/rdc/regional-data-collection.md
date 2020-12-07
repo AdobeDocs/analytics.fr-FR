@@ -2,10 +2,10 @@
 title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
 translation-type: tm+mt
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud utilise la collecte de données régionales (RDC) afin qu
 
 >[!IMPORTANT]
 >
->Le module de Ajoute sur la collecte de données régionale pour la Chine (China Performance Optimization) est un module complémentaire facturable à Adobe Analytics. L&#39;optimisation des performances d&#39;Adobe en Chine continentale permet aux clients en Chine d&#39;envoyer directement des données au noeud China Edge, plutôt qu&#39;à d&#39;autres emplacements à l&#39;échelle mondiale. Ceci améliore les temps de chargement des pages et la précision des données lors de l’envoi des données vers des noeuds en dehors de la Chine. Veuillez contacter votre représentant commercial Adobe pour plus d&#39;informations.
+>Le package d’Ajoute-on China RDC (China Performance Optimization) est un module complémentaire payant pour Adobe Analytics. L&#39;optimisation des performances de l&#39;Adobe en Chine continentale permet aux clients en Chine d&#39;envoyer directement des données au noeud de périphérie de la Chine, plutôt qu&#39;à d&#39;autres emplacements à l&#39;échelle mondiale. Ceci améliore les temps de chargement des pages et la précision des données lors de l’envoi des données vers des noeuds en dehors de la Chine. Pour plus d&#39;informations, contactez votre représentant commercial d&#39;Adobe.
 
 La collecte de données régionale inclut les emplacements suivants (sujets à modification) :
 
@@ -26,7 +26,7 @@ La collecte de données régionale inclut les emplacements suivants (sujets à m
 |---------------------|-------------------|
 | Par défaut | Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
 
-Remarque : si votre demande d’image Analytics est envoyée aux terminaux `2o7.net` ou `omtdrc.net`, vous disposez alors d’une collecte de données tierces. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
+Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
 
 ## Collecte de données HTTPS propriétaires
 
