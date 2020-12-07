@@ -1,9 +1,9 @@
 ---
 title: Mise en œuvre avec des demandes d’image codées en dur
 description: Mise en œuvre d’Adobe Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur)
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ Cette méthode de mise en œuvre peut être utilisée sur n’importe quelle pla
 Voici un exemple de demande d’image codée en dur à l’aide de code HTML :
 
 ```html
-<img src="https://example.sc.omtrdc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.sc.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` désigne le protocole. Faites correspondre le protocole utilisé dans la demande d’image avec le protocole utilisé par le reste de votre site.
-* `example.sc.omtrdc.net` est la valeur contenue dans la variable [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
+* `example.sc.adobedc.net` est la valeur contenue dans la variable [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
 * `/b/ss/` est inclus dans toutes les demandes d’image. Il fait partie de la structure de fichiers des images stockées sur les serveurs de collecte de données Adobe.
 * `examplersid` correspond à l’identifiant de la suite de rapports à laquelle vous souhaitez envoyer des données.
 * `/1/` est la source de l’accès. Voir `hit_source` dans la section [Référence des colonnes de données](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) du guide d’utilisation Exportation. Contrôle l’ordre que les cookies et les autres méthodes suivent pour identifier les visiteurs.
