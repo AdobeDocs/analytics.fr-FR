@@ -5,7 +5,10 @@ title: Migration des visiteurs
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +19,11 @@ La migration des visiteurs est une procédure par laquelle le cookie d’identif
 
 La migration des visiteurs vous permet de conserver les cookies d’identification des visiteurs lors du changement des domaines de collecte de données, ce qui peut se produire pour les raisons suivantes :
 
-* Passage de `2o7.net` à `omtrdc.net` ([collecte de données régionales](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
+* Passage de `2o7.net` à `adobedc.net` ([collecte de données régionales](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/rdc/regional-data-collection.html)).
 
-* Vous mettez en œuvre le [service d’identification des visiteurs d’Experience Cloud](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) et passez d’un domaine de collecte de données propriétaire/CNAME à un domaine `2o7.net` ou `omtrdc.net` ([collecte de données régionales](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net1`, `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/rdc/regional-data-collection.html))
 
-* Passage de `2o7.net` ou de `omtrdc.net` à une collecte de données propriétaire/CNAME ([Cookies propriétaires)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html).
+* Passage de `2o7.net` ou de `adobedc.net` à une collecte de données propriétaire/CNAME ([Cookies propriétaires)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Passage d’un CNAME à un autre (changement de domaines).
 
@@ -48,7 +51,7 @@ Les tâches nécessaires à la migration des visiteurs sont répertoriées dans 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6 heures ou plus après le changement de configuration</b> : mettez à jour les variables <code> s.trackingServer</code> et <code> s.trackingServerSecure</code> dans votre code JavaScript Analytics pour utiliser les nouveaux serveurs de collecte de données. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immédiatement après avoir mis à jour le code Analytics</b> : testez votre site afin de vérifier que la redirection vers l’ancien domaine de collecte de données a bien lieu. </p> </td> 
