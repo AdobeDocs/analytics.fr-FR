@@ -5,7 +5,7 @@ title: Présentation des projets
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 27%
@@ -44,6 +44,8 @@ La page de liste de projets Workspace présente les informations suivantes :
 
 Dans un projet, le menu propose des options de gestion du projet, d&#39;ajout de composants, de recherche d&#39;aide, etc. Chaque option de menu est également accessible par [raccourcis clavier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html).
 
+![](assets/menu.png)
+
 | Option de menu | Description |
 |---|---|
 | Projet  | Inclut des actions courantes pour la gestion de projet, notamment le modèle [Nouveau, Ouvrir, Enregistrer, Enregistrer sous et](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)Enregistrer sous. Vous pouvez également actualiser l’intégralité du projet pour récupérer les données et définitions les plus récentes en cliquant sur Actualiser le projet. [Les options de téléchargement CSV et PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) vous permettent d’exporter des données à partir de Workspace. [Informations et paramètres](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) du projet offre de nombreuses options de gestion de votre projet. |
@@ -81,6 +83,8 @@ Vous pouvez également accéder aux visualisations et aux panneaux à partir du 
 
 Les composants (Dimensions, mesures, segments, plages de dates) du rail de gauche se rapportent à la suite de rapports du principal panneau. Le panneau principal comporte une bordure bleue et la principale suite de rapports est répertoriée en haut du rail de composants.
 
+![](assets/left-rail.png)
+
 ## Canevas du projet {#canvas}
 
 Le canevas du projet est l’emplacement où vous rassemblez des panneaux, des tableaux, des visualisations et des composants pour créer votre analyse. Un projet peut contenir de nombreux panneaux et chaque panneau peut contenir de nombreux tableaux et visualisations.
@@ -89,11 +93,15 @@ Les panneaux sont utiles pour organiser vos projets en fonction des périodes, d
 
 En fonction du point de départ choisi pour vos projets, vous disposez soit d’un tableau [à structure](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) libre, soit d’un panneau [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) vierge dans le canevas pour commencer. Le moyen le plus rapide d&#39;analyser les débuts consiste à sélectionner un ou plusieurs composants et à simplement les faire glisser et les déposer dans le canevas du projet. Un tableau de données est automatiquement rendu. [Pour en savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) sur les différentes options de création d&#39;un tableau, ou pour tirer parti de notre tutoriel [de](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) formation pour plus d&#39;informations sur la création de votre premier projet.
 
+![](assets/canvas.png)
+
 ## Chef de projets {#manager}
 
 Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. Le gestionnaire de projets affiche les éléments créés par un utilisateur spécifique. La propriété du projet peut être transférée à un nouvel utilisateur sous Admin > Utilisateurs et ressources Analytics > Transférer des ressources.
 
 Dans le Gestionnaire de projets, vous pouvez ajouter, baliser, partager, duplicata/copie, etc. Recherchez un projet dans la barre de recherche ou à l’aide des options de filtre dans le rail de gauche. Vous pouvez filtrer par balise, propriétaires, type de projet, etc.
+
+![](assets/project-manager.png)
 
 Voici les actions courantes du gestionnaire de projets qui peuvent être exécutées simultanément sur un ou plusieurs projets :
 
