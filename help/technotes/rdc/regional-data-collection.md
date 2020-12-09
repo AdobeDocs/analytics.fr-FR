@@ -2,10 +2,10 @@
 title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 82%
+source-wordcount: '362'
+ht-degree: 77%
 
 ---
 
@@ -46,18 +46,3 @@ La liste suivante décrit le processus de collecte de données utilisé par Adob
 1. Le DNS résout automatiquement le nom d’hôte de la collecte à l’adresse IP du centre de collecte de données le plus proche du visiteur.
 1. Le visiteur envoie les données à cet emplacement.
 1. Les données sont immédiatement transférées au moyen d’une connexion sécurisée à un centre de traitement de données, où elles sont traitées et mises à la disposition des produits dans Adobe Experience Cloud.
-
-## Avantages de la collecte de données régionale
-
-| Avantage | Description |
-|---------|-----------|
-| Performances | Avec la collecte de données régionale, les visiteurs se connectent au centre de données le plus proche. Ainsi, les temps de réponse sur votre page diminuent (plus elle est basse, mieux c’est), ce qui entraîne un suivi plus précis et des temps de chargement plus courts. |
-| Redondance | En cas d’interruption de communication avec un centre de collecte de données, la collecte de données est automatiquement acheminée vers le prochain centre le plus proche, ce qui assure la continuité du service. |
-| Redondance | Dans le cas d’une interruption de communication entre le centre de collecte de données et votre centre de traitement de données, l’infrastructure de collecte de données régionale d’Adobe enregistre les données localement, puis les transmet au centre de traitement de données lorsque les communications sont restaurées. |
-
-## Historique des révisions de la documentation
-
-| Mise à jour | Description |
-|--------|---------|
-| 4 février 2020 | Mise à jour des emplacements RDC |
-| 20 février 2019 | Fin de la réécriture. Ajout d’informations sur le réseau RDC. |
