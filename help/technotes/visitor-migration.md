@@ -5,10 +5,10 @@ title: Migration des visiteurs
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 78%
 
 ---
 
@@ -19,11 +19,11 @@ La migration des visiteurs est une procédure par laquelle le cookie d’identif
 
 La migration des visiteurs vous permet de conserver les cookies d’identification des visiteurs lors du changement des domaines de collecte de données, ce qui peut se produire pour les raisons suivantes :
 
-* Passage de `2o7.net` à `adobedc.net` ([collecte de données régionales](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/rdc/regional-data-collection.html)).
+* Passons d&#39; `2o7.net` à `adobedc.net`.
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net1`, `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/rdc/regional-data-collection.html))
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net`, `2o7.net` or `omtrdc.net`
 
-* Passage de `2o7.net` ou de `adobedc.net` à une collecte de données propriétaire/CNAME ([Cookies propriétaires)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html).
+* Moving to a cname/first-party data collection ( [First-Party Cookies)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Passage d’un CNAME à un autre (changement de domaines).
 
@@ -51,7 +51,7 @@ Les tâches nécessaires à la migration des visiteurs sont répertoriées dans 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6 heures ou plus après le changement de configuration</b> : mettez à jour les variables <code> s.trackingServer</code> et <code> s.trackingServerSecure</code> dans votre code JavaScript Analytics pour utiliser les nouveaux serveurs de collecte de données. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use the <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immédiatement après avoir mis à jour le code Analytics</b> : testez votre site afin de vérifier que la redirection vers l’ancien domaine de collecte de données a bien lieu. </p> </td> 
@@ -63,7 +63,3 @@ Les tâches nécessaires à la migration des visiteurs sont répertoriées dans 
   </tr> 
  </tbody> 
 </table>
-
-## Variables visitorMigrationKey et visitorMigrationServer obsolètes {#section_32FCEE2575944D039EA0FEBFB5814259}
-
-À partir du mois de mars 2013, les variables de collecte de données `visitorMigrationKey`, `visitorMigrationServer` et `visitorMigrationServerSecure` ne seront plus utilisées. Les données contenues précédemment dans ces variables seront stockées dans les serveurs Adobe afin d’offrir un niveau de sécurité accru.
