@@ -1,11 +1,11 @@
 ---
 description: Instructions pour l’utilisation des fiches d’évaluation des tableaux de bord.
 title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord Adobe Analytics
-translation-type: ht
-source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: ht
-source-wordcount: '1287'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
+workflow-type: tm+mt
+source-wordcount: '1293'
+ht-degree: 95%
 
 ---
 
@@ -53,13 +53,13 @@ Pour télécharger et installer l’application, suivez les étapes correspondan
 
 **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-Cliquez sur le lien suivant (il est également disponible dans Analytics sous **Outils** > **Tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [Lien iOS](https://apple.co/2zXq0aN)
 
 **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-Cliquez sur le lien suivant (il est également disponible dans Analytics sous **Outils** > **Tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [Lien Android](https://bit.ly/2LM38Oo)
 
@@ -75,7 +75,7 @@ Pour utiliser les tableaux de bord :
 
    ![Séquence de connexion](assets/signseq.png)
 
-2. Choisissez une entreprise. Lorsque vous êtes connecté aux tableaux de bord, l’écran **Choisir une entreprise** apparaît. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
+2. Choisissez une entreprise. Lorsque vous êtes connecté aux tableaux de bord, l’écran **[!UICONTROL Choisir une entreprise]** apparaît. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
 
 3. La liste de Fiches d’évaluation affiche ensuite toutes les Fiches d’évaluation partagées avec vous. Appuyez sur la Fiche d’évaluation que vous souhaitez afficher.
 
@@ -88,7 +88,7 @@ Pour utiliser les tableaux de bord :
 
    ![Rien n’a été partagé](assets/nothing.png)
 
-4. Examinez l’affichage des mosaïques dans la Fiche d’évaluation (la première Fiche d’évaluation s’affiche en mode sombre, consultez **Préférences** ci-dessous pour plus d’informations).
+4. Examinez l’affichage des mosaïques dans la Fiche d’évaluation (la première Fiche d’évaluation s’affiche en mode sombre, consultez **[!UICONTROL Préférences]** ci-dessous pour plus d’informations).
 
    ![Explication des mosaïques](assets/newexplain.png)
 
@@ -118,7 +118,7 @@ Pour utiliser les tableaux de bord :
 
    * Vous pouvez également modifier les périodes dans la vue Ventilation affichée ci-dessus de la même manière.
 
-   * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **COMPARER À**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **Terminé** en haut à droite de l’écran. Le champ **Périodes** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
+   * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **[!UICONTROL COMPARER À]**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **[!UICONTROL Terminé]** en haut à droite de l’écran. Le champ **[!UICONTROL Périodes]** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
 7. Pour appliquer un filtre de segment à votre Fiche d’évaluation, appuyez sur le filtre déroulant et sélectionnez un segment qui a été configuré par votre curateur. Les [filtres](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de l’application fonctionnent de la même manière que dans Analytics Workspace.
 
@@ -129,12 +129,12 @@ Pour utiliser les tableaux de bord :
 9. Pour faire part de vos commentaires sur cette application :
 
    1. Appuyez sur l’icône des paramètres en haut à droite de l’écran de l’application.
-   2. Sur l’écran **Paramètres**, appuyez sur l’option **Commentaires**.
+   2. Sur l’écran **[!UICONTROL Paramètres]**, appuyez sur l’option **[!UICONTROL Commentaires]**.
    3. Appuyez pour afficher les options permettant de laisser un commentaire.
 
       ![Écran Paramètres](assets/settings.png)
 
-10. Pour modifier les préférences, appuyez sur l’option **Préférences** affichée ci-dessus. Dans les préférences, vous pouvez activer la connexion biométrique ou définir l’application pour le mode sombre comme illustré ci-dessous :
+10. Pour modifier les préférences, appuyez sur l’option **[!UICONTROL Préférences]** affichée ci-dessus. Dans les préférences, vous pouvez activer la connexion biométrique ou définir l’application pour le mode sombre comme illustré ci-dessous :
 
    ![Mode sombre](assets/darkmode.png)
 
