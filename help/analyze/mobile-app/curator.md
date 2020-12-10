@@ -2,10 +2,10 @@
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 94%
+source-wordcount: '2380'
+ht-degree: 85%
 
 ---
 
@@ -51,40 +51,40 @@ En tant que curateur de cette Fiche d’évaluation, vous pouvez utiliser le Cr�
 
 Pour créer la Fiche d’évaluation, vous devrez effectuer les opérations suivantes :
 
-1. Accéder au modèle de Fiche d’évaluation mobile vierge.
+1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
 
-### Accéder au modèle de Fiche d’évaluation vierge
+### Access the [!UICONTROL Blank Mobile Scorecard] template
 
-Vous pouvez accéder au modèle de Fiche d’évaluation mobile vierge de l’une des manières suivantes :
+You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
 
 **Créer un nouveau projet**
 
-1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **Espace de travail**.
-2. Cliquez sur le bouton **Créer un nouveau projet**, puis sélectionnez le modèle de projet **Fiche d’évaluation mobile vierge**.
-3. Cliquez sur le bouton **Créer**.
+1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **[!UICONTROL Espace de travail]**.
+2. Cliquez sur le bouton **[!UICONTROL Créer un nouveau projet]**, puis sélectionnez le modèle de projet **[!UICONTROL Fiche d’évaluation mobile vierge]**.
+3. Cliquez sur le bouton **[!UICONTROL Créer]**.
 
 ![Modèle de Fiche d’évaluation](assets/new_template.png)
 
 **Ajouter un projet**
 
-Depuis l’écran **Projets**, dans l’onglet **Composants**, cliquez sur le bouton **Ajouter**, puis sélectionnez **Fiche d’évaluation mobile.**
+Depuis l’écran **[!UICONTROL Projets]**, dans l’onglet **[!UICONTROL Composants]**, cliquez sur le bouton **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Fiche d’évaluation mobile.]**
 
 ![Ajouter des projets](assets/add_project.png)
 
-**Utilisation des outils Analytics**
+**Utilisation des [!DNL Analytics] outils**
 
-Dans Analytics, cliquez sur le menu **Outils**, puis sélectionnez **Tableaux de bord**. Sur l’écran suivant, cliquez sur le bouton **Créer une Fiche d’évaluation**.
+In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
 
 ### Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
 
 Pour implémenter le modèle de Fiche d’évaluation :
 
-1. Dans **Propriétés** (dans le rail droit), précisez la **suite de rapports du projet** depuis laquelle vous souhaitez utiliser les données.
+1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
 
    ![Sélection de la suite de rapports](assets/properties_save.png)
 
-2. Pour ajouter une nouvelle mosaïque à votre Fiche d’évaluation, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **Faire glisser et déposer les mesures ici**. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
+2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
 
    ![Ajouter des mosaïques](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Pour implémenter le modèle de Fiche d’évaluation :
    *Depuis chaque mosaïque, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure comme les éléments principaux pour une liste de dimensions associées.*
 
 
-3. Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque. Par exemple, vous pouvez ajouter des dimensions appropriées (comme **DMA region** dans cet exemple) à la mesure **Unique Visitors** en la faisant glisser et en la déposant sur la mosaïque. Les dimensions que vous ajoutez apparaîtront dans la section de ventilation des **Propriétés** spécifiques à la mosaïque. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
+3. Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque. Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL DMA Region]** dans cet exemple) à la mesure **[!UICONTROL Unique Visitors]** en la faisant glisser et en la déposant sur la mosaïque. Les dimensions que vous ajoutez apparaîtront dans la section de ventilation des **[!UICONTROL Propriétés]** spécifiques à la mosaïque. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
 
    ![Ajouter des dimensions](assets/layer_dimensions.png)
 
    Vous pouvez également ajouter une dimension à toutes les mosaïques en la déposant sur la zone de travail de la Fiche d’évaluation.
 
-   Lorsque vous cliquez sur une mosaïque du Créateur de la Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **Titre** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
+   Lorsque vous cliquez sur une mosaïque du Créateur de la Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **[!UICONTROL Titre]** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
 
    En outre, si vous cliquez sur les mosaïques, une fenêtre pop-up dynamique affichera comment l’utilisateur en charge de l’exécution voit la vue de ventilation dans l’application. Si aucune dimension n’a été appliquée à la mosaïque, la dimension de ventilation sera **heure** ou **jours**, en fonction de la période par défaut.
 
@@ -106,21 +106,21 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
    Chaque dimension ajoutée à la mosaïque apparaît dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
 
-4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’évaluation, déposez la mosaïque en haut de la Fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. Vous [configurez et appliquez des filtres pour vos Fiches d’évaluation](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la même manière que dans Adobe Analytics Workspace.
+4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’évaluation, déposez la mosaïque en haut de la Fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. Vous [configurez et appliquez des filtres pour vos Fiches d’évaluation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la même manière que dans Adobe Analytics Workspace.
 
    ![Création de segments pour le filtre](assets/segment_ui.png)
 
-5. De même, si vous souhaitez supprimer un composant appliqué à la totalité de la Fiche d’évaluation, cliquez n’importe où sur la Fiche d’évaluation en dehors des mosaïques, puis supprimez-le en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris sur le composant, comme indiqué ci-dessous pour le segment **Clients mobiles** :
+5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
 
    ![Remove_components](assets/new_remove.png)
 
-6. Dans les **Propriétés** de la Fiche d’évaluation, vous pouvez également préciser en option les éléments suivants :
+6. Dans les **[!UICONTROL Propriétés]** de la Fiche d’évaluation, vous pouvez également préciser en option les éléments suivants :
 
-   * Une **période par défaut**. Les périodes que vous précisez ici seront identiques à celles appliquées lorsque l’utilisateur en charge de l’exécution accède pour la première fois à la Fiche d’évaluation dans l’application.
+   * A **[!UICONTROL Default date range]**. Les périodes que vous précisez ici seront identiques à celles appliquées lorsque l’utilisateur en charge de l’exécution accède pour la première fois à la Fiche d’évaluation dans l’application.
 
-   * Une **période de comparaison**
+   * A **[!UICONTROL Comparison date range]**
 
-   * Tout **segment** à appliquer à la totalité de la Fiche d’évaluation
+   * Tout **[!UICONTROL segment]** à appliquer à la totalité de la Fiche d’évaluation
 
 7. Pour nommer la Fiche d’évaluation, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
 
@@ -130,22 +130,22 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
 Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exécution :
 
-1. Cliquez sur le menu **Partager**, puis sélectionnez **Partager la Fiche d’évaluation**.
+1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
 
-2. Dans le formulaire **Partager**, complétez les champs en :
+2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
    * indiquant le nom de la Fiche d’évaluation ;
    * indiquant une description de la Fiche d’évaluation ;
    * ajoutant des balises pertinentes ;
    * précisant les destinataires de la Fiche d’évaluation.
 
-3. Cliquez sur **Partager**.
+3. Cliquez sur **[!UICONTROL Partager]**.
 
 ![Share_Scorecards](assets/new_share.png)
 
 Après avoir partagé une Fiche d’évaluation, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si, par la suite, vous apportez des modifications à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, celles-ci seront mises à jour automatiquement dans la Fiche d’évaluation que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
 
-Si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous voudrez peut-être partager à nouveau la Fiche d’évaluation (et cocher l’option **Partager les composants incorporés**) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.
+Si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous voudrez peut-être partager à nouveau la Fiche d’évaluation (et cocher l’option **[!UICONTROL Partager les composants incorporés]**) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.
 
 ## Configuration d’utilisateurs exécutifs avec l’application
 
@@ -159,7 +159,7 @@ Pour aider les utilisateurs en charge de l’exécution à accéder à vos Fiche
 * Ils possèdent des identifiants de connexion valides à Adobe Analytics.
 * Vous avez créé et partagé correctement des Fiches d’évaluation avec eux.
 * Ils ont accès à Analysis Workspace et à la suite de rapports sur laquelle la Fiche d’évaluation est basée.
-* Ils ont accès aux composants que la Fiche d’évaluation inclut. Notez que lorsque vous partagez vos Fiches d’évaluation, vous pouvez sélectionnez l’option **Partager les composants incorporés**.
+* Ils ont accès aux composants que la Fiche d’évaluation inclut. Notez que lorsque vous partagez vos Fiches d’évaluation, vous pouvez sélectionnez l’option **[!UICONTROL Partager les composants incorporés]**.
 
 ### Aider les utilisateurs en charge de l’exécution à utiliser l’application
 
@@ -169,22 +169,22 @@ Pour aider les utilisateurs en charge de l’exécution :
 
    **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-   * Cliquez sur le lien suivant (il est également disponible dans Analytics sous **Outils** > **Tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Lien iOS](https://apple.co/2zXq0aN)
    **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-   * Cliquez sur le lien suivant (il est également disponible dans Analytics sous **Outils** > **Tableaux de bord**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Lien Android](https://bit.ly/2LM38Oo)
    Une fois l’application téléchargée et installée, les utilisateurs en charge de l’exécution peuvent se connecter à l’application en utilisant leurs informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
 
    ![Écran de bienvenue de l’application](assets/welcome.png)
 
-2. Aidez-les à accéder à votre Fiche d’évaluation. Lorsque les utilisateurs en charge de l’exécution sont connectés à l’application, l’écran **Choisir une entreprise** apparaît. Cet écran répertorie les entreprises connectées auxquelles l’utilisateur en charge de l’exécution appartient. Pour les aider à accéder à la Fiche d’évaluation :
+2. Aidez-les à accéder à votre Fiche d’évaluation. Lorsque les utilisateurs en charge de l’exécution sont connectés à l’application, l’écran **[!UICONTROL Choisir une entreprise]** apparaît. Cet écran répertorie les entreprises connectées auxquelles l’utilisateur en charge de l’exécution appartient. Pour les aider à accéder à la Fiche d’évaluation :
 
    * Appuyez sur le nom de l’entreprise connectée ou de l’organisation Experience Cloud auquel la Fiche d’évaluation que vous avez créée s’applique. La liste des Fiches d’évaluation affiche alors toutes les Fiches d’évaluation partagées avec la personne en charge de l’exécution pour cette entreprise connectée.
-   * Aidez-les à trier cette liste selon la **Modification la plus récente**, le cas échéant.
+   * Aidez-les à trier cette liste selon la **[!UICONTROL Modification la plus récente]**, le cas échéant.
    * Appuyez sur le nom de la Fiche d’évaluation pour l’afficher.
 
    ![Choisissez une entreprise](assets/accesscard.png)
@@ -201,7 +201,7 @@ Pour aider les utilisateurs en charge de l’exécution :
    * Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Analytics et que la Fiche d’évaluation a bien été partagée.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
 
    ![Explication des mosaïques](assets/newexplain.png)
 
@@ -231,17 +231,17 @@ Pour aider les utilisateurs en charge de l’exécution :
 
    * Vous pouvez également modifier les périodes dans la vue Ventilation affichée ci-dessus de la même manière.
 
-   * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **COMPARER À**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **Terminé** en haut à droite de l’écran. Le champ **Périodes** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
+   * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **[!UICONTROL COMPARER À]**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **[!UICONTROL Terminé]** en haut à droite de l’écran. Le champ **[!UICONTROL Périodes]** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
 6. Pour faire part de vos commentaires sur cette application :
 
    1. Appuyez sur l’icône des paramètres en haut à droite de l’écran de l’application.
-   2. Sur l’écran **Paramètres**, appuyez sur l’option **Commentaires**.
+   2. Sur l’écran **[!UICONTROL Paramètres]**, appuyez sur l’option **[!UICONTROL Commentaires]**.
    3. Appuyez pour afficher les options permettant de laisser un commentaire.
 
       ![Écran Paramètres](assets/settings.png)
 
-7. Pour modifier les préférences, appuyez sur l’option **Préférences** affichée ci-dessus. Dans les préférences, vous pouvez activer la connexion biométrique ou définir l’application pour le mode sombre comme illustré ci-dessous :
+7. Pour modifier les préférences, appuyez sur l’option **[!UICONTROL Préférences]** affichée ci-dessus. Dans les préférences, vous pouvez activer la connexion biométrique ou définir l’application pour le mode sombre comme illustré ci-dessous :
 
    ![Mode sombre](assets/darkmode.png)
 
