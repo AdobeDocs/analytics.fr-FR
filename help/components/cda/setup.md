@@ -2,10 +2,10 @@
 title: Configuration des analyses entre appareils
 description: Configurez une suite de rapports virtuelle pour activer les analyses entre appareils.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 91%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -18,9 +18,16 @@ Une fois toutes les conditions préalables remplies, procédez comme suit pour a
 >
 >Toutes les conditions préalables doivent être remplies avant de suivre cette procédure. Si toutes les conditions préalables ne sont pas remplies, la fonction n’est pas disponible ou ne fonctionne pas. Pour connaître les conditions préalables et les limites, consultez la [page d’aperçu](overview.md) et la méthode de regroupement souhaitée ([Regroupement basé sur les champs](field-based-stitching.md) ou [Graphique d’appareil](device-graph.md), respectivement).
 
-## Choisissez la suite de rapports entre appareils qui sera activée pour les analyses entre appareils.
+## Contactez votre gestionnaire de succès client pour que l’ACD soit configuré sur votre suite de rapports sur plusieurs périphériques.
 
-Lorsque votre entreprise est configurée pour utiliser les analyses entre appareils, vous choisissez la suite de rapports à utiliser. Ce choix peut être communiqué par l’intermédiaire de votre gestionnaire de compte Adobe. Adobe active ensuite la suite de rapports choisie pour le traitement des analyses entre appareils
+L’ADC est configuré sur votre suite de rapports sur plusieurs périphériques par ingénierie d’Adobe. Contactez votre responsable de succès client avec les informations suivantes :
+
+* Votre identifiant d’organisation Adobe Experience Cloud (chaîne alphanumérique se terminant par @AdobeOrg)
+* Identifiant de la suite de rapports pour la suite de rapports sur plusieurs périphériques que vous souhaitez activer avec CDA
+* Quelle méthode d&#39;ADC utiliser (assemblage sur le terrain, graphique privé d&#39;Adobe ou graphique de coopération d&#39;Adobe)
+* Si vous envisagez d’utiliser l’assemblage basé sur des champs, la prop ou l’eVar qui contient l’ID utilisateur
+
+Une fois que vous avez fourni ces informations à votre CSM, il travaille avec l&#39;ingénierie d&#39;Adobe pour activer la suite de rapports choisie pour le traitement de l&#39;ACD.
 
 ## Créer une suite de rapports virtuelle sur plusieurs appareils pour afficher la vue sur plusieurs appareils
 
@@ -43,7 +50,7 @@ Les administrateurs ayant accès à la création de suites de rapports virtuelle
 Lorsque les analyses entre appareils sont activées sur une suite de rapports virtuelle, notez les modifications suivantes :
 
 * Une nouvelle icône interpériphérique apparaît en regard du nom de la suite de rapports virtuelle. Cette icône est réservée aux suites de rapports virtuelles sur plusieurs appareils.
-* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. Cette dimension détermine si l’Experience Cloud ID sur cet accès est connu par le graphique de l’appareil à ce moment.
-* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
-* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
+* Une nouvelle dimension nommée [état identifié](../dimensions/identified-state.md) est disponible. Cette dimension détermine si l’Experience Cloud ID sur cet accès est connu par le graphique de l’appareil à ce moment.
+* De nouvelles mesures intitulées [Personnes](../metrics/people.md) et [Périphériques uniques](../metrics/unique-devices.md) sont disponibles.
+* La mesure [Visiteurs uniques](../metrics/unique-visitors.md) n&#39;est pas disponible, car elle est remplacée par &quot;Personnes&quot; et &quot;Périphériques uniques&quot;.
 * Lors de la création de segments, le conteneur de segments « Visiteur » est remplacé par un conteneur « Personne ».
