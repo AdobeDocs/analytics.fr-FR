@@ -2,11 +2,11 @@
 description: Le créateur de mesures calculées permet d’appliquer des fonctions statistiques et mathématiques afin de créer des mesures calculées avancées.
 title: 'Référence : fonctions de base'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1056'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Vous trouverez ci-dessous une liste alphabétique des fonctions ainsi que leur d
 
 >[!NOTE]
 >
->Lorsque [!DNL metric] est identifié en tant qu’argument d’une fonction, d’autres expressions des mesures sont également autorisées. Par exemple, [!DNL MAXV(metrics)] autorise également [!DNL MAXV(PageViews + Visits).].
+>Lorsque [!DNL metric] est identifié en tant qu’argument d’une fonction, d’autres expressions des mesures sont également autorisées. Par exemple, [!DNL MAXV(metrics)] autorise également [!DNL MAXV(PageViews + Visits)]..
 
 ## Fonctions de tableau et fonctions de ligne {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -101,9 +101,9 @@ EXP(metric)
 
 Opérateur de puissance
 
-<pre>
-pow(x,y) =<sup>xy</sup> = x*x*x*... (y fois)
-</pre>
+```
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+```
 
 ## Moyenne (tableau) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -161,24 +161,10 @@ Renvoie le percentile k-th des valeurs pour une mesure. Vous pouvez utiliser cet
 PERCENTILE(metric,k)
 ```
 
-<table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argument </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> Colonne de mesures qui définit l’étendue relative. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> Percentile dans la plage de 0 à 100, inclusif. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argument | Description |
+| --- | --- |
+| *metric* | Colonne de mesures qui définit l’étendue relative. |
+| *k* | Percentile dans la plage de 0 à 100, inclusif. |
 
 ## Quartile (tableau) {#concept_BFD37F0F23A24AD181407142233FA151}
 
@@ -188,24 +174,10 @@ Renvoie le quartile des valeurs pour une mesure. Par exemple, les quartiles peuv
 QUARTILE(metric,quart)
 ```
 
-<table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argument </th> 
-   <th colname="col2" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>metric</i> </td> 
-   <td colname="col2"> Mesure pour laquelle vous souhaitez obtenir la valeur du quartile. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> Indique la *valeur à retourner. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argument | Description |
+| --- | --- |
+| *metric* | Mesure pour laquelle vous souhaitez obtenir la valeur du quartile. |
+| *quart* | Indique la *valeur à retourner. |
 
 *Si *quart* = 0, QUARTILE renvoie la valeur minimale. Si *quart* = 1, QUARTILE renvoie le premier quartile (25e percentile). Si *quart* = 2, QUARTILE renvoie le premier quartile (50e percentile). Si *quart* = 3, QUARTILE renvoie le premier quartile (75e percentile). Si *quart* = 4, QUARTILE renvoie la valeur maximale.
 
@@ -224,9 +196,9 @@ ROUND(metric)
 Un arrondi sans paramètre de positions décimales est identique à un arrondi avec 0 position décimale, soit un arrondi au nombre entier le plus proche. Avec un paramètre de positions décimales, la valeur renvoyée contient ce nombre de positions à droite de la décimale. Si le paramètre est négatif, il renvoie des 0 à gauche de la décimale.
 
 ```
-round( 314.15, 0) = 314 
-round( 314.15, 1) = 314.1 
-round( 314.15, -1) = 310 
+round( 314.15, 0) = 314
+round( 314.15, 1) = 314.1
+round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
@@ -255,7 +227,7 @@ SQRT(metric)
 ```
 
 | Argument | Description |
-|---|---|
+| --- | --- |
 | *nombre* | Mesure pour laquelle vous souhaitez obtenir la racine carrée. |
 
 ## Écart type (tableau) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
@@ -266,24 +238,15 @@ L’équation pour l’écart type (STDEV) est la suivante :
 
 ![](assets/std_dev.png)
 
-où x est l’exemple de moyenne (*metric*) et *n* l’exemple de taille.
+Où *x* correspond à la valeur de chaque échantillon (*mesure*), *x̄* correspond à la moyenne de la population et *n* à la taille de la population.
 
 ```
 STDEV(metric)
 ```
 
-<table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
- <tbody> 
-  <tr> 
-   <td> <b> Argument</b> </td> 
-   <td> <b> Description</b> </td> 
-  </tr> 
-  <tr> 
-   <td> <b> <i> metric</i> </b> </td> 
-   <td> <p> Mesure pour laquelle vous souhaitez obtenir l’écart type. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argument | Description |
+| --- | --- |
+| *metric* | Mesure pour laquelle vous souhaitez obtenir l’écart type. |
 
 ## Variance (tableau) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -293,23 +256,21 @@ L’équation pour la VARIANCE est la suivante :
 
 ![](assets/variance_eq.png)
 
-où x est l’exemple de moyenne MOYENNE(*mesure*) et *n* l’exemple de taille.
+Où *x* correspond à la valeur de chaque échantillon (*mesure*), *x̄* correspond à la moyenne de la population et *n* à la taille de la population.
 
 ```
 VARIANCE(metric)
 ```
 
 | Argument | Description |
-|---|---|
+| --- | --- |
 | *metric* | Mesure pour laquelle vous souhaitez obtenir la variance. |
 
 Pour calculer une variance, vous prenez une colonne entière de nombres. Vous calculez d’abord la moyenne de cette série de nombres. Une fois que vous avez obtenu la moyenne, vous effectuez les opérations suivantes avec chaque entrée :
 
 1. Vous soustrayez la moyenne du nombre.
-
-2. Vous calculez le carré du résultat.
-
-3. Vous ajoutez ce résultat au total.
+1. Vous calculez le carré du résultat.
+1. Vous ajoutez ce résultat au total.
 
 Une fois que vous avez effectué ces opérations sur la colonne entière, vous obtenez un total unique. Vous divisez ensuite ce total par le nombre d’éléments de la colonne. Ce nombre est la variance de la colonne. Il s’agit d’un seul nombre. Il est toutefois présenté sous la forme d’une colonne de nombres.
 
@@ -321,10 +282,4 @@ Prenons comme exemple une colonne de 3 éléments :
 
 3
 
-La moyenne de cette colonne est 2. La variance de la colonne est ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. Dans les Ad Hoc Analysis, vous verrez :
-
-1 2/3
-
-2 2/3
-
-3 2/3
+La moyenne de cette colonne est 2. La variance de la colonne est ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
