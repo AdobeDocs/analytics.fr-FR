@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Permet de mesurer le moment où une action spécifique a lieu.
 translation-type: tm+mt
-source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
+source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 84%
+source-wordcount: '814'
+ht-degree: 85%
 
 ---
 
@@ -23,10 +23,6 @@ Analysis Workspace fournit des dimensions similaires, prêtes à l’emploi, don
 >[!IMPORTANT]
 >
 >La version 4.0+ de ce plug-in est sensiblement différente par rapport aux versions précédentes. Adobe recommande vivement de mettre en œuvre ce plug-in de A à Z. Le code référençant le plug-in avant la version 4.0 n’est pas compatible avec la version actuelle de ce plug-in.
-
->[!IMPORTANT]
->
->Les versions précédentes de ce module externe ne s’adaptaient pas à toutes les années à venir. Si vous utilisez une version précédente de ce module externe, l’Adobe recommande vivement d’effectuer la mise à niveau vers la dernière version afin d’éviter les erreurs JavaScript et la perte de données. Si la mise à niveau de ce module externe n&#39;est pas possible, veillez à ce que la variable `s._tpdst` du code du module contienne les années appropriées à l&#39;avenir. Cette variable n’est pas présente ou nécessaire dans la dernière version du module externe.
 
 ## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
 
@@ -157,6 +153,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * Nouvelle version (recompilé, taille de code réduite).
 * Suppression de la nécessité du paramètre `tpDST`, puisque les dates de début et de fin de l’heure d’été sont désormais détectées automatiquement.
+
+>[!CAUTION]
+>
+>Les versions précédentes de ce module externe ne s’adaptaient pas à toutes les années à venir. Si vous utilisez une version précédente de ce module externe, l’Adobe recommande vivement d’effectuer la mise à niveau vers la dernière version afin d’éviter les erreurs JavaScript et la perte de données. Si la mise à niveau de ce module externe n&#39;est pas possible, veillez à ce que la variable `s._tpdst` du code du module contienne les années appropriées à l&#39;avenir.
 
 ### 4.0 (22 août 2016)
 
