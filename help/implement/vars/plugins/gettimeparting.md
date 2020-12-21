@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Permet de mesurer le moment où une action spécifique a lieu.
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '828'
+ht-degree: 84%
 
 ---
 
@@ -23,6 +23,10 @@ Analysis Workspace fournit des dimensions similaires, prêtes à l’emploi, don
 >[!IMPORTANT]
 >
 >La version 4.0+ de ce plug-in est sensiblement différente par rapport aux versions précédentes. Adobe recommande vivement de mettre en œuvre ce plug-in de A à Z. Le code référençant le plug-in avant la version 4.0 n’est pas compatible avec la version actuelle de ce plug-in.
+
+>[!IMPORTANT]
+>
+>Les versions précédentes de ce module externe ne s’adaptaient pas à toutes les années à venir. Si vous utilisez une version précédente de ce module externe, l’Adobe recommande vivement d’effectuer la mise à niveau vers la dernière version afin d’éviter les erreurs JavaScript et la perte de données. Si la mise à niveau de ce module externe n&#39;est pas possible, veillez à ce que la variable `s._tpdst` du code du module contienne les années appropriées à l&#39;avenir. Cette variable n’est pas présente ou nécessaire dans la dernière version du module externe.
 
 ## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
 
@@ -105,11 +109,11 @@ Si le client se trouve dans le pays africain du Ghana :
 s.eVarX = getTimeParting();
 ```
 
-Le Ghana se trouve dans le fuseau horaire UTC/GMT.  Cet exemple montre qu’aucun argument de plug-in ne sera nécessaire dans de telles circonstances.
+Le Ghana se trouve dans le fuseau horaire UTC/GMT. Cet exemple montre qu&#39;aucun argument de module externe n&#39;est nécessaire pour UTC/GMT.
 
 ### Prise en compte des navigateurs Internet Explorer
 
-Utilisez l’exemple suivant si vous souhaitez exclure les données relatives à la répartition du temps des visiteurs d’Internet Explorer (puisque la valeur renvoyée par les navigateurs IE ne peut être que l’heure locale du visiteur).
+Utilisez l’exemple suivant si vous souhaitez exclure les données de division du temps des Visiteurs Internet Explorer. La valeur renvoyée par les navigateurs IE est uniquement disponible en heure locale pour le visiteur.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,39 +122,21 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Résultats des appels
 
-Si un visiteur de Denver, dans le Colorado, se rend sur un site le 31 août 2020 à 9 h 15 :
-
-En exécutant le code suivant…
+Supposons qu’un visiteur de Denver Colorado visite un site le 31 août 2020 à 9h15.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+
+s.eVar11 = getTimeParting("America/Nome");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+
+s.eVar12 = getTimeParting("Asia/Calcutta");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+
+s.eVar13 = getTimeParting("Australia/Sydney");
+// Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 ```
-
-…s.eVar10 serait défini sur « year=2020 | month=August | date=31 | day=Friday | time=6:15 PM ».
-
-Alors que le code suivant…
-
-```js
-s.eVar10 = getTimeParting("America/Nome");
-```
-
-…définirait s.eVar10 sur « year=2020 | month=August | date=31 | day=Friday | time=6:15 AM ».
-
-Le code suivant…
-
-```js
-s.eVar10 = getTimeParting("Asia/Calcutta");
-```
-
-…définirait s.eVar10 sur « year=2020 | month=August | date=31 | day=Friday | time=8:45 PM ».
-
-Et le code suivant…
-
-```js
-s.eVar10 = getTimeParting("Australia/Sydney");
-```
-
-…définirait s.eVar10 sur « year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM ».
 
 ## Historique des versions
 
