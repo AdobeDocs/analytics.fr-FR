@@ -1,20 +1,20 @@
 ---
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2380'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Guide du curateur pour les tableaux de bord Adobe Analytics
 
-Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs en charge de l’exécution. Pour visionner une vidéo présentant ces informations, visionnez la vidéo du créateur de cartes de performance des tableaux de bord Adobe Analytics :
+Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs en charge de l’exécution. Pour regarder une vidéo présentant ces informations, reportez-vous à la vidéo Créateur de fiches d’évaluation des tableaux de bord Adobe Analytics :
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+>[!VIDEO](https://video.tv.adobe.com/v/34544?captions=fre_fr)
 
 ## Introduction
 
@@ -51,12 +51,12 @@ En tant que curateur de cette Fiche d’évaluation, vous pouvez utiliser le Cr�
 
 Pour créer la Fiche d’évaluation, vous devrez effectuer les opérations suivantes :
 
-1. Access the [!UICONTROL Blank Mobile Scorecard] template.
+1. Accédez au modèle de [!UICONTROL Fiche d’évaluation mobile vierge].
 2. Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
 
-### Access the [!UICONTROL Blank Mobile Scorecard] template
+### Accéder au modèle de [!UICONTROL Fiche d’évaluation mobile vierge]
 
-You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
+Vous pouvez accéder au modèle de [!UICONTROL Fiche d’évaluation mobile vierge] de l’une des manières suivantes :
 
 **Créer un nouveau projet**
 
@@ -72,19 +72,19 @@ Depuis l’écran **[!UICONTROL Projets]**, dans l’onglet **[!UICONTROL Compos
 
 ![Ajouter des projets](assets/add_project.png)
 
-**Utilisation des [!DNL Analytics] outils**
+**Utiliser les outils [!DNL Analytics]**
 
-In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
+Dans [!DNL Analytics], cliquez sur le menu **[!UICONTROL Outils]**, puis sélectionnez **[!UICONTROL Tableaux de bord Analytics (application mobile)]**. Sur l’écran suivant, cliquez sur le bouton **[!UICONTROL Créer une fiche d’évaluation]**.
 
 ### Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
 
 Pour implémenter le modèle de Fiche d’évaluation :
 
-1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
+1. Dans **[!UICONTROL Propriétés]** (dans le rail droit), précisez la **[!UICONTROL suite de rapports du projet]** depuis laquelle vous souhaitez utiliser les données.
 
    ![Sélection de la suite de rapports](assets/properties_save.png)
 
-2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
+2. Pour ajouter une nouvelle mosaïque à votre fiche d’évaluation, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **[!UICONTROL Glisser-déposer les mesures ici]**. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
 
    ![Ajouter des mosaïques](assets/build_list.png)
 
@@ -106,19 +106,19 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
    Chaque dimension ajoutée à la mosaïque apparaît dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
 
-4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’évaluation, déposez la mosaïque en haut de la Fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. Vous [configurez et appliquez des filtres pour vos Fiches d’évaluation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la même manière que dans Adobe Analytics Workspace.
+4. Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque. Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’évaluation, déposez la mosaïque en haut de la Fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. Vous [configurez et appliquez des filtres pour vos Fiches d’évaluation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de la même manière que dans Adobe Analytics Workspace.
 
    ![Création de segments pour le filtre](assets/segment_ui.png)
 
-5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
+5. De même, si vous souhaitez supprimer un composant appliqué à la totalité de la fiche d’évaluation, cliquez n’importe où sur la fiche d’évaluation en dehors des mosaïques, puis supprimez-le en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris sur le composant, comme indiqué ci-dessous pour le segment **[!DNL Mobile Customers]** :
 
    ![Remove_components](assets/new_remove.png)
 
 6. Dans les **[!UICONTROL Propriétés]** de la Fiche d’évaluation, vous pouvez également préciser en option les éléments suivants :
 
-   * A **[!UICONTROL Default date range]**. Les périodes que vous précisez ici seront identiques à celles appliquées lorsque l’utilisateur en charge de l’exécution accède pour la première fois à la Fiche d’évaluation dans l’application.
+   * Une **[!UICONTROL période par défaut]**. Les périodes que vous précisez ici seront identiques à celles appliquées lorsque l’utilisateur en charge de l’exécution accède pour la première fois à la Fiche d’évaluation dans l’application.
 
-   * A **[!UICONTROL Comparison date range]**
+   * Une **[!UICONTROL période de comparaison]**
 
    * Tout **[!UICONTROL segment]** à appliquer à la totalité de la Fiche d’évaluation
 
@@ -130,9 +130,9 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
 Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exécution :
 
-1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
+1. Cliquez sur le menu **[!UICONTROL Partager]**, puis sélectionnez **[!UICONTROL Partager la fiche d’évaluation]**.
 
-2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
+2. Dans le formulaire **[!UICONTROL Partager la fiche d’évaluation mobile]**, complétez les champs en :
 
    * indiquant le nom de la Fiche d’évaluation ;
    * indiquant une description de la Fiche d’évaluation ;
@@ -147,7 +147,7 @@ Après avoir partagé une Fiche d’évaluation, vos destinataires peuvent y acc
 
 Si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous voudrez peut-être partager à nouveau la Fiche d’évaluation (et cocher l’option **[!UICONTROL Partager les composants incorporés]**) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.
 
-## Configuration d’utilisateurs exécutifs avec l’application
+## Configurer les utilisateurs en charge de l’exécution avec l’application
 
 Dans certains cas, les utilisateurs en charge de l’exécution peuvent avoir besoin d’aide pour accéder à l’application et l’utiliser. Cette section fournit des informations pour vous aider à apporter cette aide.
 
@@ -169,12 +169,12 @@ Pour aider les utilisateurs en charge de l’exécution :
 
    **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * Cliquez sur le lien suivant (il est également disponible dans Analytics sous **[!UICONTROL Outils]** > **[!UICONTROL Tableaux de bord Analytics (application mobile)]**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
       [Lien iOS](https://apple.co/2zXq0aN)
    **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
+   * Cliquez sur le lien suivant (il est également disponible dans Analytics sous **[!UICONTROL Outils]** > **[!UICONTROL Tableaux de bord Analytics (application mobile)]**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
       [Lien Android](https://bit.ly/2LM38Oo)
    Une fois l’application téléchargée et installée, les utilisateurs en charge de l’exécution peuvent se connecter à l’application en utilisant leurs informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
@@ -201,7 +201,7 @@ Pour aider les utilisateurs en charge de l’exécution :
    * Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Analytics et que la Fiche d’évaluation a bien été partagée.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
+3. Expliquez à l’utilisateur en charge de l’exécution la façon dont les mosaïques apparaissent dans les fiches d’évaluation que vous partagez (la première fiche d’évaluation ci-dessous est configurée en mode sombre, consultez les **[!UICONTROL Préférences]** ci-dessous si vous pensez que l’utilisateur en charge de l’exécution préfère cette option d’affichage) :
 
    ![Explication des mosaïques](assets/newexplain.png)
 
@@ -262,4 +262,4 @@ Appuyez sur l’option et indiquez votre adresse électronique dans le champ sup
 
 >[!IMPORTANT]
 >
->À partir d’octobre 2020, l’Adobe déploie progressivement une série d’améliorations pour optimiser les performances de l’application &quot;tableaux de bord Adobe Analytics&quot;. Ces améliorations portent principalement sur la mise en cache des données Analytics historiques utilisées pour remplir les cartes de performance avec des dates (à l’exception du jour en cours). Ces données seront mises en cache pendant 24 heures au maximum dans un compte d&#39;enregistrement de cloud public Microsoft Azure sécurisé. Veuillez contacter votre CSM si vous souhaitez opt-out de ces fonctions d&#39;amélioration des performances.
+>Depuis octobre 2020, Adobe déploie progressivement une série d’améliorations destinées à optimiser les performances de l’application « Tableaux de bord Adobe Analytics ». Ces améliorations portent principalement sur la mise en cache des données Analytics historiques utilisées pour remplir les fiches d’évaluation avec des dates (à l’exception du jour en cours). Ces données seront mises en cache pendant 24 heures maximum dans un compte de stockage cloud public Microsoft Azure sécurisé. Veuillez contacter votre CSM si vous souhaitez vous désabonner de ces fonctionnalités d’amélioration des performances.
