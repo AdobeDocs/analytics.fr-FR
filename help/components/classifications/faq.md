@@ -1,11 +1,11 @@
 ---
 title: FAQ sur les classifications
 description: Forum aux questions sur l’utilisation des classifications.
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Les fichiers de classification transférés avec une valeur de clé ou une valeu
 
 * **Utilisation des règles de traitement** : vous pouvez modifier des éléments de dimension entre la collecte de données et leur enregistrement dans une suite de rapports. Création de la règle de traitement suivante :
 
-   *Si la[dimension]est égale à`0`, remplacez la valeur de la[dimension]par la valeur personnalisée`Zero`.*
+   *Si la [dimension] est égale à `0`, remplacez la valeur de la [dimension] par la valeur personnalisée `Zero`.*
 
 * **Demande d’une règle VISTA** : un conseiller des services d’ingénierie configure une règle côté serveur pour vous, moyennant un coût supplémentaire. Contactez le gestionnaire de compte de votre entreprise pour demander une règle VISTA.
 
@@ -35,7 +35,7 @@ Oui, *toutefois, cela comptabilise chaque élément de dimension comme un appel 
 
 ## Comment classer les valeurs contenant des caractères spéciaux ?
 
-Il n’est généralement pas recommandé d’utiliser des caractères spéciaux tels que des virgules ou des guillemets doubles dans les rapports. Cependant, dans certains cas, leur utilisation est nécessaire. Si vos valeurs de rapports contiennent des caractères que vous choisissez de classer, procédez comme suit :
+Il est généralement déconseillé d’utiliser des caractères spéciaux, tels que des virgules ou des guillemets de doublon, dans le rapports. Cependant, dans certains cas, leur utilisation est nécessaire. Si vos valeurs de rapports contiennent des caractères que vous choisissez de classifier, procédez comme suit :
 
 1. Connectez-vous à Adobe Analytics, puis accédez à **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 2. Cliquez sur l’onglet **[!UICONTROL Exportation navigateur]**.
@@ -46,4 +46,4 @@ Il n’est généralement pas recommandé d’utiliser des caractères spéciaux
 
 ## Que sont les classifications numériques 2 ?
 
-Les classifications numériques 2 vous permettent de classer les éléments de dimension en tant que mesures basées sur le temps. Elles ont été retirées de l’interface utilisateur d’Analytics en juillet 2019.
+Les classifications numériques 2 vous permettent de classer les éléments de dimension en tant que mesures basées sur le temps. Ils ont été retirés de l&#39;interface utilisateur Adobe Analytics en juillet 2019.
