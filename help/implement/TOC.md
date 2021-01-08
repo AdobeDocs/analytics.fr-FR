@@ -5,10 +5,10 @@ user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 93%
+source-wordcount: '485'
+ht-degree: 94%
 
 ---
 
@@ -203,9 +203,9 @@ ht-degree: 93%
    + [Moniteurs de paquets](validate/packet-monitor.md)
    + [Collisions de hachage](validate/hash-collisions.md)
 + [Questions fréquentes](faq.md)
-+ Vérifier votre mise en oeuvre {#review}
-   + [Examen de la mise en oeuvre mineure (après chaque publication du site Web)](review/minor-review.md)
-   + [Examen majeur de la mise en oeuvre (tous les 6 mois)](review/major-review.md)
++ Examinez votre mise en oeuvre {#review}
+   + [Révision ciblée (après chaque publication du site Web)](review/focused-review.md)
+   + [Examen complet (tous les 6 mois)](review/full-review.md)
    + [Définition des 5 principaux indicateurs de performance clés](review/define-kpis.md)
 + Utilisation des données XDM avec Analytics {#aep-edge}
    + [Utilisation du SDK Web AEP](aep-edge/xdmoverview.md)
