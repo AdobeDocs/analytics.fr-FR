@@ -2,9 +2,9 @@
 title: Vérification complète
 description: Examinez votre mise en oeuvre tous les 6 mois pour vous assurer que l’alignement se poursuit avec les besoins de l’entreprise et les IPC.
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Rencontrez le propriétaire de l&#39;entreprise et/ou les analystes pour examine
 
 ## 2. Assurez-vous que vos mesures et variables fonctionnent toujours correctement.
 
-Examinez brièvement toutes vos mesures et variables, par ordre d’importance pour l’entreprise, pour vous assurer que les données sont correctement collectées. Début avec vos mesures et variables les plus importantes : celles associées à vos 5 principaux indicateurs de performance clés. Pour ce faire :
+Examinez brièvement toutes vos mesures et variables, par ordre d’importance pour l’entreprise, pour vous assurer que les données sont correctement collectées. Début avec vos mesures et variables les plus importantes : celles associées à vos [5 principaux IPC](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Pour ce faire :
 
 * Créez des tableaux de bord pour afficher les vues de tendances mensuelles de vos mesures et variables (ou définissez des alertes intelligentes pour chacune d&#39;elles) afin de vous assurer que vous obtenez les données attendues et que les données sont correctes. Si vous constatez des incohérences, examinez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
 * Réexécutez le [Tableau de bord d’intégrité d’Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) pour surveiller les tendances générales de vos mesures et variables.
