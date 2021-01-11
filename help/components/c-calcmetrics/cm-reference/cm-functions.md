@@ -2,11 +2,11 @@
 description: Le créateur de mesures calculées permet d’appliquer des fonctions statistiques et mathématiques afin de créer des mesures calculées avancées.
 title: 'Référence : fonctions de base'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Vous trouverez ci-dessous une liste alphabétique des fonctions ainsi que leur d
 
 >[!NOTE]
 >
->Lorsque [!DNL metric] est identifié en tant qu’argument d’une fonction, d’autres expressions des mesures sont également autorisées. Par exemple, [!DNL MAXV(metrics)] autorise également [!DNL MAXV(PageViews + Visits)]..
+>Lorsque [!DNL metric] est identifié en tant qu’argument d’une fonction, d’autres expressions des mesures sont également autorisées. Par exemple, [!DNL MAXV(metrics)] autorise également [!DNL MAXV(PageViews + Visits)].
 
 ## Fonctions de tableau et fonctions de ligne {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -35,7 +35,7 @@ ABS(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la valeur absolue. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la valeur absolue. |
 
 ## Max. colonne {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
@@ -47,7 +47,7 @@ MAXV(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure que vous souhaiteriez faire évaluer. |
+| *mesure* | Mesure que vous souhaiteriez faire évaluer. |
 
 ## Min. colonne {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
@@ -59,7 +59,7 @@ MINV(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure que vous souhaiteriez faire évaluer. |
+| *mesure* | Mesure que vous souhaiteriez faire évaluer. |
 
 ## Somme de la colonne {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
@@ -71,7 +71,7 @@ SUM(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la valeur totale ou la somme. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la valeur totale ou la somme. |
 
 ## Décompte (tableau) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
@@ -83,7 +83,7 @@ COUNT(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure que vous souhaitez décompter. |
+| *mesure* | Mesure que vous souhaitez décompter. |
 
 ## Exposant (ligne) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
@@ -95,7 +95,7 @@ EXP(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Exposant appliqué à la base *e*. |
+| *mesure* | Exposant appliqué à la base *e*. |
 
 ## Elévation à une puissance {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -115,7 +115,7 @@ MEAN(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la moyenne. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la moyenne. |
 
 ## Médiane (tableau) {#concept_183EC31208524EDB8463D986DE2E895F}
 
@@ -127,7 +127,7 @@ MEDIAN(metric)
 
 | Argument | Description |
 |---|---|
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la médiane. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la médiane. |
 
 ## Modulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
@@ -163,7 +163,7 @@ PERCENTILE(metric,k)
 
 | Argument | Description |
 | --- | --- |
-| *metric* | Colonne de mesures qui définit l’étendue relative. |
+| *mesure* | Colonne de mesures qui définit l’étendue relative. |
 | *k* | Percentile dans la plage de 0 à 100, inclusif. |
 
 ## Quartile (tableau) {#concept_BFD37F0F23A24AD181407142233FA151}
@@ -176,14 +176,14 @@ QUARTILE(metric,quart)
 
 | Argument | Description |
 | --- | --- |
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la valeur du quartile. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la valeur du quartile. |
 | *quart* | Indique la *valeur à retourner. |
 
 *Si *quart* = 0, QUARTILE renvoie la valeur minimale. Si *quart* = 1, QUARTILE renvoie le premier quartile (25e percentile). Si *quart* = 2, QUARTILE renvoie le premier quartile (50e percentile). Si *quart* = 3, QUARTILE renvoie le premier quartile (75e percentile). Si *quart* = 4, QUARTILE renvoie la valeur maximale.
 
 ## Tour {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-Renvoie l’entier le plus proche pour une valeur donnée. Par exemple, si vous souhaitez éviter de signaler les décimales de devise pour les recettes et qu’un produit a une recette de 569,34 $, utilisez la formule Arrondi(*Recettes*) pour arrondir la recette au dollar le plus proche, soit 569 $. Un produit à 569,51 $ est arrondi au dollar le plus proche, soit 570 $.
+Renvoie l’entier le plus proche pour une valeur donnée. Par exemple, si vous souhaitez éviter de signaler les décimales de devise pour les recettes et qu’un produit a une recette de 569,34 $, utilisez la formule Round(*Recettes*) pour arrondir la recette au dollar le plus proche, soit 569 $. Un produit à 569,51 $ est arrondi au dollar le plus proche, soit 570 $.
 
 ```
 ROUND(metric)
@@ -238,7 +238,7 @@ L’équation pour l’écart type (STDEV) est la suivante :
 
 ![](assets/std_dev.png)
 
-Où *x* correspond à la valeur de chaque échantillon (*mesure*), *x̄* correspond à la moyenne de la population et *n* à la taille de la population.
+Où *x* correspond à la valeur de chaque échantillon (*mesure*), *x̄* à la moyenne de la population et *n* à la taille de la population.
 
 ```
 STDEV(metric)
@@ -246,7 +246,7 @@ STDEV(metric)
 
 | Argument | Description |
 | --- | --- |
-| *metric* | Mesure pour laquelle vous souhaitez obtenir l’écart type. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir l’écart type. |
 
 ## Variance (tableau) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -256,7 +256,7 @@ L’équation pour la VARIANCE est la suivante :
 
 ![](assets/variance_eq.png)
 
-Où *x* correspond à la valeur de chaque échantillon (*mesure*), *x̄* correspond à la moyenne de la population et *n* à la taille de la population.
+Où *x* correspond à la valeur de chaque échantillon (*mesure*), *x̄* à la moyenne de la population et *n* à la taille de la population.
 
 ```
 VARIANCE(metric)
@@ -264,7 +264,7 @@ VARIANCE(metric)
 
 | Argument | Description |
 | --- | --- |
-| *metric* | Mesure pour laquelle vous souhaitez obtenir la variance. |
+| *mesure* | Mesure pour laquelle vous souhaitez obtenir la variance. |
 
 Pour calculer une variance, vous prenez une colonne entière de nombres. Vous calculez d’abord la moyenne de cette série de nombres. Une fois que vous avez obtenu la moyenne, vous effectuez les opérations suivantes avec chaque entrée :
 
