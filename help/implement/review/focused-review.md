@@ -2,9 +2,9 @@
 title: Révision ciblée (après chaque publication du site Web)
 description: Suivez ces étapes pour vous assurer que votre mise en oeuvre reste exempte d’erreurs et conforme à vos IPC.
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,13 @@ Connaître les 5 principaux indicateurs de performances (IPC) vous aidera à dé
 
 ## 2. Assurez-vous que vos mesures et variables IPC fonctionnent toujours correctement.
 
-N&#39;oubliez pas que les mises à jour du code au fil du temps peuvent avoir des ramifications inattendues. Vous souhaitez vous assurer que toutes les mesures et dimensions associées à [vos 5 principaux IPC](/help/implement/review/define-kpis.md) fonctionnent toujours correctement. Idéalement, cela devrait être fait juste après la publication d&#39;un site Web ; si vous ne l’avez pas fait au cours des derniers mois, faites-le *maintenant*. Pour ce faire :
+N&#39;oubliez pas que les mises à jour du code au fil du temps peuvent avoir des ramifications inattendues. Vous souhaitez vous assurer que toutes les mesures et dimensions associées à vos [5 principaux IPC](/help/implement/review/define-kpis.md) fonctionnent toujours correctement. Idéalement, cela devrait être fait juste après la publication d&#39;un site Web ; si vous ne l’avez pas fait au cours des derniers mois, faites-le *maintenant*. Pour ce faire :
 
-* **Créez** des tableaux de bord pour afficher les vues de tendances horaires de ces mesures et variables critiques. Vous pouvez également configurer des alertes intelligentes pour chaque mesure et les surveiller pendant un jour ou deux afin de vous assurer que vous obtenez les données attendues et que les données sont correctes. Recherchez les points d&#39;inflexion. Soyez prêt à résoudre immédiatement les problèmes critiques. Si vous constatez des incohérences, consultez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
-* **Réexécutez le** tableau de bord d’intégrité d’Analytics pour surveiller les tendances générales de vos mesures et variables d’indicateurs de performance clés.
+* Créez des tableaux de bord pour afficher les vues de tendances horaires de ces mesures et variables critiques (ou configurez des alertes intelligentes pour chaque mesure). Ensuite, surveillez-les pendant un jour ou deux pour vous assurer que vous obtenez les données attendues et que les données sont correctes.\
+   Recherchez les points d&#39;inflexion. Soyez prêt à résoudre immédiatement les problèmes critiques. Si vous constatez des incohérences, consultez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
+* Réexécutez le [Tableau de bord d’intégrité d’Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) pour surveiller les tendances générales de vos mesures et variables d’indicateurs de performance clés.
 
-Pour plus d&#39;informations sur la façon de vous assurer que vos mesures et variables fonctionnent correctement, [lisez ces conseils](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) de Sarah Owen, championne d&#39;Adobe Analytics.
+*Pour plus d’informations sur la manière de vous assurer que vos mesures et variables fonctionnent correctement,  [lisez ces ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) conseils de Sarah Owen, championne d’Adobe Analytics.*
 
 ## 3. Examinez attentivement les données de la section mise à jour de votre site.
 
@@ -40,6 +41,8 @@ Si vous ne disposez pas de la documentation de votre implémentation, exportez u
 ## 5. Réparez immédiatement les lacunes que vous constatez dans la qualité de vos données.
 
 Évaluer la situation et élaborer un plan pour corriger les données. Apportez ensuite les modifications nécessaires, mettez à jour votre documentation et informez vos parties prenantes des modifications que vous avez apportées.
+
+
 
 *Regardez cette vidéo de 2 minutes de Sarah Owen, championne d&#39;Adobe Analytics, qui décrit les moments naturels où vous pouvez intégrer les révisions de votre mise en oeuvre à votre programme chargé :*
 
