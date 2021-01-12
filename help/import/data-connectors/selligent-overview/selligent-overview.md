@@ -3,9 +3,9 @@ description: valeur nulle
 title: Connecteur de données Selligent pour Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '895'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration présente les principaux avantages suivants :
 
@@ -78,7 +78,7 @@ Outre ces eVars, certains événements peuvent être réservés en fonction des 
   </tr> 
   <tr> 
    <td colname="col1"> eVar </td> 
-   <td colname="col2"> Recipient ID </td> 
+   <td colname="col2"> ID destinataire </td> 
    <td colname="col3"> Pour capturer l’identification anonyme de votre client qui a cliqué sur la campagne par e-mail. </td> 
    <td colname="col4"> <p><b>État</b> : activé </p> <p><b>Attribution</b> : le plus récent </p> <p><b>Expire après</b> : « décision commerciale » </p> </td> 
   </tr> 
