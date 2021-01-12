@@ -3,9 +3,9 @@ description: valeur nulle
 title: Connecteur de données Demandbase pour Adobe Analytics
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '328'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration des Data Connectors Adobe® associe le service d’ID en temps réel de Demandbase aux informations comportementales d’Adobe Analytics afin de créer de puissantes opportunités d’analyse, d’optimisation et de personnalisation de contenu pour les entreprises B2B.
 
