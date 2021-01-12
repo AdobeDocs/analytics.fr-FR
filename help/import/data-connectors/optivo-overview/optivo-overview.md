@@ -3,9 +3,9 @@ description: Cette intégration associe la puissance du système de retour inté
 title: Connecteur de données optivo® broadmail pour Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1084'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration associe la puissance du système de retour intégré du logiciel de marketing par courrier électronique et le reporting comportemental d’Adobe Analytics afin de créer de puissantes opportunités d’analyse et d’optimisation pour votre entreprise.
 
