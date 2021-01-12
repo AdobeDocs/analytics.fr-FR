@@ -4,10 +4,10 @@ keywords: AppFigures
 title: Connecteur de données appFigures pour Adobe Analytics
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 94%
+source-wordcount: '236'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration des connecteurs de données Adobe associe la puissance de l’analyse de données intégrée pour les boutiques d’applications mobiles appFigures avec le suivi direct des applications par le biais d’Adobe Analytics, afin d’offrir de puissantes capacités d’analyse et d’optimisation à votre organisation.
 
