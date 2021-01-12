@@ -3,10 +3,10 @@ description: valeur nulle
 title: Connecteur de données VoiceStorm de Dynamic Signal pour Adobe Analytics
 uuid: 270b33f5-ea9f-4ab3-ba3e-de41a9e6ff7a
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 94%
+source-wordcount: '223'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration des Data Connectors Adobe® combine les fonctionnalités de marketing populaires de la plateforme VoiceStorm de Dynamic Signal avec les informations de l’expérience numérique d’Adobe Analytics. On obtient ainsi une nouvelle opportunité puissante d’analyse et d’optimisation.
 
