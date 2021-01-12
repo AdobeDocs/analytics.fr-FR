@@ -2,9 +2,9 @@
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 23%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 Depuis plus d&#39;une décennie, Adobe Analytics s&#39;efforce de fournir la solution d&#39;analyse Web et marketing la plus performante pour répondre aux besoins des clients. Au fur et à mesure que les besoins technologiques et commerciaux évoluent, nous nous efforçons d&#39;offrir et de satisfaire continuellement les normes les plus élevées.  Malheureusement, les API qui font fonctionner cette intégration ne répondent plus à ces normes et ne sont pas tenables dans l&#39;infrastructure technologique Adobe Analytics moderne.
 
-À compter du 1er août 2021, l’Adobe a l’intention d’interrompre les intégrations des connecteurs de données. La fin de vie fait partie du cycle de vie de tout produit technologique et l&#39;Adobe a pour objectif de rendre la transition aussi transparente que possible pour nos clients et partenaires. Un grand nombre de ces intégrations sont disponibles par le biais d&#39;échange d&#39;Adobes et peuvent continuer à être utilisées.
+**À compter du 1er août 2021**, l’Adobe a l’intention d’interrompre les intégrations des connecteurs de données. La fin de vie fait partie du cycle de vie de tout produit technologique et l&#39;Adobe vise à rendre la transition aussi transparente que possible pour nos clients et partenaires. Un grand nombre de ces intégrations sont disponibles par le biais d&#39;échange d&#39;Adobes et peuvent continuer à être utilisées.
 
 ## Pourquoi cette fonctionnalité est-elle abandonnée ?
 
@@ -41,7 +41,7 @@ Pour toute question ou assistance supplémentaire, contactez le service à la cl
 | Applications | Migration vers Adobe Exchange |
 | Appsee | Disponible sur Adobe Exchange |
 | AppsFlyer | Migration vers Adobe Exchange |
-| Engagement marketing d’entreprise Aprimo |
+| Engagement marketing d’entreprise Aprimo | Déconseillé |
 | Apteligent | Disponible sur Exchange |
 | Suite eMarketing BlueHornet | Déconseillé |
 | Branche | Migration vers Exchange |
