@@ -2,10 +2,10 @@
 description: Importation des données de suivi à partir d’applications tierces dans Analytics.
 title: Prise en main des connecteurs de données Analytics
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 98%
+source-wordcount: '973'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Par exemple, une intégration de courrier électronique peut vouloir utiliser un
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la technologie Adobe Data Connector vers le milieu ou la fin de 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la vie de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Configuration requise**
 
@@ -86,7 +86,7 @@ Pour mettre correctement en œuvre les segments de remarketing, les conditions s
 
 >[!NOTE]
 >
->If the product is defined without an associated event, the `prodView` event automatically fires.
+>Si le produit est défini sans événement associé, le événement `prodView` se déclenche automatiquement.
 >
 >Si les conditions ci-dessus ne sont pas remplies, les segments de remarketing correspondant ne sont pas signalés correctement.
 
