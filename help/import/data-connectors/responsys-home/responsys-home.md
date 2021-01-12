@@ -3,9 +3,9 @@ description: valeur nulle
 title: Connecteur de données Responsys pour Adobe Analytics
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '270'
 ht-degree: 95%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector d&#39;ici la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la mise en service de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Adobe Analytics offre une multitude de nouvelles opportunités de ciblage aux spécialistes du marketing par e-mail qui utilisent Responsys Interact. En délivrant des e-mails pertinents et en temps voulu aux segments de marketing dynamique identifiés par Adobe Analytics (anciennement SiteCatalyst), vous pouvez augmenter les conversions et le chiffre d’affaires de vos clients potentiels et actuels.
 
