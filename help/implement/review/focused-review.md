@@ -2,7 +2,7 @@
 title: Révision ciblée (après chaque publication du site Web)
 description: Suivez ces étapes pour vous assurer que votre mise en oeuvre reste exempte d’erreurs et conforme à vos IPC.
 translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
+source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -24,7 +24,8 @@ N&#39;oubliez pas que les mises à jour du code au fil du temps peuvent avoir de
 
 * Créez des tableaux de bord pour afficher les vues de tendances horaires de ces mesures et variables critiques (ou configurez [des alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) pour chaque mesure). Ensuite, surveillez-les pendant un jour ou deux pour vous assurer que vous obtenez les données attendues et que les données sont correctes. Recherchez les points d&#39;inflexion. Soyez prêt à résoudre immédiatement les problèmes critiques. Si vous constatez des incohérences, consultez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
 * Réexécutez le [Tableau de bord d’intégrité d’Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) pour surveiller les tendances générales de vos mesures et variables d’indicateurs de performance clés.
-   *Pour plus d’informations sur la manière de vous assurer que vos mesures et variables fonctionnent correctement,  [lisez ces ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) conseils de Sarah Owen, championne d’Adobe Analytics.*
+
+*Pour plus d’informations sur la manière de vous assurer que vos mesures et variables fonctionnent correctement,  [lisez ces ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) conseils de Sarah Owen, championne d’Adobe Analytics.*
 
 ## 3. Examinez attentivement les données de la section mise à jour de votre site.
 
