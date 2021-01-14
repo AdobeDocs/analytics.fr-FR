@@ -2,10 +2,10 @@
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 23%
+source-wordcount: '536'
+ht-degree: 26%
 
 ---
 
@@ -34,68 +34,68 @@ Pour toute question ou assistance supplémentaire, contactez le service à la cl
 
 | Partenaire | État |
 | --- | --- |
-| Acxiome | Disponible sur Adobe Exchange |
-| Adformer | Disponible sur Adobe Exchange |
+| Acxiome | Déconseillé |
+| Adformer | Déconseillé |
 | Ajuster | Migration vers Adobe Exchange |
 | Adobe Campaign | Migration vers Adobe Exchange |
 | Applications | Migration vers Adobe Exchange |
-| Appsee | Disponible sur Adobe Exchange |
+| Appsee | Déconseillé |
 | AppsFlyer | Migration vers Adobe Exchange |
 | Engagement marketing d’entreprise Aprimo | Déconseillé |
-| Apteligent | Disponible sur Exchange |
+| Apteligent | Déconseillé |
 | Suite eMarketing BlueHornet | Déconseillé |
 | Branche | Migration vers Exchange |
-| BrightEdge 2.0 | Disponible sur Exchange |
+| BrightEdge 2.0 | Déconseillé |
 | Bronto Software | Déconseillé |
 | CheetahMail par Experian | Migration vers Exchange |
-| ClickTale | Disponible sur Exchange |
+| ClickTale | Déconseillé |
 | Autorité de certification de clic | Déconseillé |
-| Conducteur 2.0 | Disponible sur Exchange |
-| ContactLab 2.0 (Contact Send Connector) | Disponible sur Exchange |
-| Coradiant TrueSight | Disponible sur Exchange |
-|  D&amp;B Visitor Intelligence | Disponible sur Exchange |
+| Conducteur 2.0 | Déconseillé |
+| ContactLab 2.0 (Contact Send Connector) | Déconseillé |
+| Coradiant TrueSight | Déconseillé |
+|  D&amp;B Visitor Intelligence | Déconseillé |
 | Datran Media | Déconseillé |
-| Aperçu de la décision | Disponible sur Exchange |
-| Décider | Disponible sur Exchange |
+| Aperçu de la décision | Déconseillé |
+| Décider | Déconseillé |
 | Delivra | Déconseillé |
-| Autorité de certification Demandbase | Disponible sur Exchange |
+| Autorité de certification Demandbase | Déconseillé |
 | Demandbase v3 | Déconseillé |
-| DialogTech | Disponible sur Exchange |
+| DialogTech | Déconseillé |
 | DoubleClick for Advertisers (DFA) | Obsolète (Plus d’informations ici **Lien vers la PAGE EOL DFA**) |
 | RÊVE | Déconseillé |
 | DREAMmail 2.0 | Déconseillé |
 | Signal dynamique (Vora numérique) | Migration vers Exchange |
 | eDialog Precision Central | Déconseillé |
 | eC-messenger | Déconseillé |
-| Emailvision Campaign Commander | Disponible sur Exchange |
+| Emailvision Campaign Commander | Déconseillé |
 | emarsys xpress | Déconseillé |
 | Epsilon Harmony | Migration vers Exchange |
-| Tout le mondeSocial pour Adobe Analytics | Disponible sur Exchange |
+| Tout le mondeSocial pour Adobe Analytics | Déconseillé |
 | Fiksu | Déconseillé |
 | Foresee (v2.0) | Déconseillé |
-| Foresee Feedback | Disponible sur Exchange |
-| Gigya | Disponible sur Exchange |
+| Foresee Feedback | Déconseillé |
+| Gigya | Déconseillé |
 | hybris | Déconseillé |
 | Kampyle (désormais Medallia) Commentaires Analytics (1.1) | Déconseillé |
 | Listrak | Migration vers Exchange |
 | Lyris HQ | Déconseillé |
-| MaritzCX (V 2.0) | Disponible sur Exchange |
-| Merkle | Disponible sur Exchange |
+| MaritzCX (V 2.0) | Déconseillé |
+| Merkle | Déconseillé |
 | Intégration officielle de Oracle Eloqua | Déconseillé |
 | optivo Broadmail (Episerver) | Migration vers Exchange |
 | Qualtrics v2 | Migration vers Exchange |
 | Responsys 2.0 | Déconseillé |
-| Selligent | Disponible sur Exchange |
-| seoClarity 2.0 | Disponible sur Exchange |
+| Selligent | Déconseillé |
+| seoClarity 2.0 | Déconseillé |
 | Silverpop Engage (v2.0) | Déconseillé |
-| Sizmek | Disponible sur Exchange |
-| SpotEffects | Disponible sur Exchange |
+| Sizmek | Déconseillé |
+| SpotEffects | Déconseillé |
 | StrongMail Systems, Inc | Déconseillé |
 | Syngergy !360 | Déconseillé |
 | ThinData EMS | Déconseillé |
-| TUNE | Disponible sur Exchange |
+| TUNE | Déconseillé |
 | Urban Airship | Déconseillé |
-| Outil Questionnaire UserZoom | Disponible sur Exchange |
-| WhatCounts Email | Disponible sur Exchange |
+| Outil Questionnaire UserZoom | Déconseillé |
+| WhatCounts Email | Déconseillé |
 | wywy | Déconseillé |
-| Yesmail Enterprise | Disponible sur Exchange |
+| Yesmail Enterprise | Déconseillé |
