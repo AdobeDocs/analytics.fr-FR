@@ -2,9 +2,9 @@
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 translation-type: tm+mt
-source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
+source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '528'
 ht-degree: 26%
 
 ---
@@ -61,7 +61,7 @@ Pour toute question ou assistance supplémentaire, contactez le service à la cl
 | Autorité de certification Demandbase | Déconseillé |
 | Demandbase v3 | Déconseillé |
 | DialogTech | Déconseillé |
-| DoubleClick for Advertisers (DFA) | Obsolète (Plus d’informations ici **Lien vers la PAGE EOL DFA**) |
+| DoubleClick for Advertisers (DFA) | Déconseillé |
 | RÊVE | Déconseillé |
 | DREAMmail 2.0 | Déconseillé |
 | Signal dynamique (Vora numérique) | Migration vers Exchange |
