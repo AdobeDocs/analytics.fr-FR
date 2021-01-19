@@ -1,32 +1,32 @@
 ---
-title: Vérification complète
-description: Examinez votre mise en oeuvre tous les 6 mois pour vous assurer que l’alignement se poursuit avec les besoins de l’entreprise et les IPC.
+title: Révision intégrale
+description: Passez votre implémentation en revue tous les 6 mois pour vous assurer qu’elle reste en phase avec les besoins de l’entreprise et les indicateurs clés de performance.
 translation-type: tm+mt
 source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 0%
+ht-degree: 83%
 
 ---
 
 
-# Révision complète (pour examiner votre mise en oeuvre deux fois par an)
+# Révision intégrale (pour une révision semestrielle de l’implémentation)
 
-Pourquoi devriez-vous examiner votre mise en oeuvre tous les 6 mois ? Parce que vous devez vous assurer que votre mise en oeuvre reste en phase avec vos besoins professionnels ! Vous souhaitez également résoudre tous les problèmes liés à la qualité des données lorsqu’elles sont petites et avant qu’elles ne se transforment en problèmes majeurs de données qui pourraient éroder la confiance des parties prenantes. Outre ces révisions complètes tous les 6 mois, vous devriez également effectuer des [révisions ciblées](/help/implement/review/focused-review.md) après chaque publication du site Web.
+Pourquoi devriez-vous passer votre implémentation en revue tous les 6 mois ? Pour vous assurer que cette implémentation reste en phase avec vos besoins professionnels ! Cela vous permettra également de résoudre tous les problèmes liés à la qualité des données à un stade précoce, avant qu’ils ne se transforment en problèmes majeurs pouvant éroder la confiance des parties prenantes. Outre ces révisions intégrales conduites tous les 6 mois, vous devriez également effectuer des [révisions ciblées](/help/implement/review/focused-review.md) après chaque mise à jour de site web.
 
-## 1. Assurez-vous que votre mise en oeuvre est toujours en phase avec nos besoins commerciaux.
+## 1. Assurez-vous que l’implémentation est toujours en phase avec les besoins de l’entreprise.
 
-Rencontrez le propriétaire de l&#39;entreprise et/ou les analystes pour examiner l&#39;évolution des besoins de l&#39;entreprise. Pour tous les besoins ou opportunités de mesure qui ne sont pas actuellement satisfaits par votre mise en oeuvre, déterminez comment mettre à jour vos IPC et vos plans de mesure. N&#39;oubliez pas d&#39;enregistrer vos modifications dans votre [BRD et votre DTS](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=en#implementation).
+Rencontrez le propriétaire de l’entreprise et/ou les analystes pour passer en revue l’évolution des besoins de l’entreprise. Si votre implémentation ne satisfait pas certains besoins ou opportunités de mesure, déterminez comment mettre à jour vos indicateurs clés de performance et vos plans de mesure. N’oubliez pas d’enregistrer vos modifications dans vos [BRD et SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=fr#implementation).
 
 ## 2. Assurez-vous que vos mesures et variables fonctionnent toujours correctement.
 
-Examinez brièvement toutes vos mesures et variables, par ordre d’importance pour l’entreprise, pour vous assurer que les données sont correctement collectées. Début avec vos mesures et variables les plus importantes : celles associées à vos [5 principaux IPC](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Pour ce faire :
+Passez brièvement en revue toutes vos mesures et variables selon leur ordre d’importance pour l’entreprise afin de vous assurer que les données sont collectées correctement. Début avec vos mesures et variables les plus importantes : celles associées à vos [5 principaux IPC](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Pour ce faire :
 
-* Créez des tableaux de bord pour afficher les vues de tendances mensuelles de vos mesures et variables (ou configurez [des alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) pour chacune d&#39;elles) afin de vous assurer que vous obtenez les données attendues et que les données sont correctes. Si vous constatez des incohérences, examinez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
-* Réexécutez le [Tableau de bord d’intégrité d’Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) pour surveiller les tendances générales de vos mesures et variables.
+* Créez des tableaux de bord pour afficher les vues de tendances mensuelles de vos mesures et variables (ou configurez [des alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) pour chacune d&#39;elles) afin de vous assurer que vous obtenez les données attendues et que les données sont correctes. Si vous constatez des incohérences, passez en revue la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
+* Exécutez à nouveau [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) pour surveiller les tendances générales de vos mesures et variables.
 
-Ne laissez pas votre mise en oeuvre gonflée avec des mesures et des variables dont vous n’avez pas besoin. Désactivez les mesures ou variables dont l’entreprise n’a plus besoin ou n’utilise plus. Vous souhaiterez peut-être les supprimer ou les réutiliser ultérieurement.
+Ne ralentissez pas votre implémentation avec des mesures et des variables dont vous n’avez pas besoin. Désactivez les mesures ou variables dont l’entreprise n’a plus besoin ou qu’elle n’utilise plus. Vous voudrez peut-être les supprimer ou les réutiliser ultérieurement.
 
-## 3. Actualisez vos IPC.
+## 3. Actualisez vos indicateurs clés de performance.
 
-Maintenant que vous disposez d&#39;une vue actualisée des objectifs commerciaux, réévaluez si vous avez effectivement choisi les 5 *plus* indicateurs de performances clés (IPC) importants. Vous ne pouvez en avoir que 5 ! Ces indicateurs de performance clés peuvent être des mesures telles que les recettes ou des mesures calculées telles que les recettes par visite, et les mesures peuvent également comporter des variables. Pour plus d&#39;informations, consultez [Définir vos 5 principaux IPC](/help/implement/review/define-kpis.md).
+Maintenant que vous disposez d’une vision actualisée des objectifs de l’entreprise, vérifiez que vous avez effectivement choisi les 5 indicateurs clés de performances (KPI) les *plus* importants. Vous ne pouvez en choisir que 5 ! Ces indicateurs clés de performance peuvent être des mesures comme le chiffre d’affaires ou des mesures calculées comme les revenus par visite. Les mesures peuvent également comporter des variables. Pour plus d’informations, consultez [Définition des 5 principaux indicateurs clés de performance](/help/implement/review/define-kpis.md).
