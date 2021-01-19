@@ -4,11 +4,11 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 94%
    + [Considérations relatives aux suites de rapports globales](prepare/global-rs.md)
    + [Fenêtre modale de mise en œuvre](prepare/implementation-modal.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
-   + [Prendre en charge une mise en oeuvre Adobe Analytics existante](prepare/existing-implementation.md)
+   + [Prise en charge d’une implémentation Adobe Analytics existante](prepare/existing-implementation.md)
 + Mise en œuvre d’Analytics avec JavaScript {#js}
    + [Présentation de JavaScript](js/overview.md)
    + [Mise en œuvre des liens d’exclusion](js/opt-out.md)
@@ -203,10 +203,10 @@ ht-degree: 94%
    + [Moniteurs de paquets](validate/packet-monitor.md)
    + [Collisions de hachage](validate/hash-collisions.md)
 + [Questions fréquentes](faq.md)
-+ Examinez votre mise en oeuvre {#review}
-   + [Révision ciblée (après chaque publication du site Web)](review/focused-review.md)
-   + [Examen complet (tous les 6 mois)](review/full-review.md)
-   + [Définition des 5 principaux indicateurs de performance clés](review/define-kpis.md)
++ Révision de votre implémentation {#review}
+   + [Révision ciblée (après chaque mise à jour de site web)](review/focused-review.md)
+   + [Révision intégrale (tous les 6 mois)](review/full-review.md)
+   + [Définition des 5 principaux indicateurs clés de performance](review/define-kpis.md)
 + Utilisation des données XDM avec Analytics {#aep-edge}
    + [Utilisation du SDK Web AEP](aep-edge/xdmoverview.md)
    + [Mappage manuel des données XDM vers Analytics](aep-edge/xdm-manual.md)
