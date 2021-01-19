@@ -1,17 +1,17 @@
 ---
 description: Le traitement permet de limiter les composants avant de partager un projet.
 keywords: Analysis Workspace curation
-title: 'Traitement des projets '
-translation-type: tm+mt
+title: Traitement des projets
+translation-type: ht
 source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Traitement des projets 
+# Traitement des projets
 
 Le traitement vous permet de limiter les composants (dimensions, mesures, segments, périodes) avant de partager un projet. Lorsqu’un destinataire ouvre le projet, il voit un ensemble limité de composants que vous avez traités à sa place. Le traitement est une étape facultative mais recommandée avant de partager un projet.
 
@@ -58,9 +58,9 @@ Dans un projet traité ou une suite de rapports virtuelle, le destinataire aura 
 * Niveau d’autorisation de l’utilisateur (administrateur ou non)
 * Rôle du projet (propriétaire/éditeur ou non)
 * Type de traitement appliqué (suite de rapports virtuelle ou projet)
-* Composants appartenant à l’utilisateur ou partagés avec lui. Les composants détenus/partagés incluent des segments, des mesures calculées et des plages de dates. Ils n’incluent pas les composants implémentés tels que les eVars, les props et les événements personnalisés.
+* Composants détenus par l’utilisateur ou partagés avec lui. Les composants détenus/partagés incluent des segments, des mesures calculées et des périodes. Ils n’incluent pas de composants implémentés tels que les eVars, les props et les événements personnalisés.
 
-Remarque : Les rôles de vue non administrateurs n’ont pas accès au rail de gauche dans un projet. Ils ont donc été omis du tableau ci-dessous.
+Remarque : les rôles de vue non administrateurs n’ont pas accès au rail de gauche dans un projet. Ils ont donc été omis du tableau ci-dessous.
 
 | Type de traitement | Administrateurs | Rôle de propriétaire ou d’éditeur de projet non-administrateur | Rôle duplicata non administrateur |
 |---|---|---|---|
