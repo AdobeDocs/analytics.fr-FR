@@ -1,102 +1,102 @@
 ---
-description: Un panneau est un ensemble de tableaux et de visualisations.
+description: Un panneau est un ensemble de tableaux et de visualisations
 title: Panneaux - Aperçu
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1004'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 
 # Panneaux - Aperçu
 
-Un [!UICONTROL panneau] est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône située en haut à gauche de Workspace ou d’un [panneau vierge](blank-panel.md). Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas d’utilisation des analyses. Les types de panneau suivants sont disponibles en Analysis Workspace :
+Un [!UICONTROL panneau] est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône située en haut à gauche dans Workspace ou à partir d’un [panneau vierge](blank-panel.md). Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas pratiques d’analyses. Voici les types de panneau disponibles dans Analysis Workspace :
 
 | Nom du panneau | Description |
 | --- | --- |
-| [Panneau vierge](blank-panel.md) | Choisissez parmi les panneaux et visualisations disponibles pour début votre analyse. |
+| [Panneau vierge](blank-panel.md) | Faites votre choix parmi les panneaux et visualisations disponibles pour démarrer votre analyse. |
 | [Panneau Quick Insights](quickinsight.md) | Construisez rapidement un tableau de forme libre et une visualisation d’accompagnement afin d’analyser et de découvrir des informations plus rapidement. |
 | [Panneau Analytics for Target](a4t-panel.md) | Analysez les activités et les expériences Target dans Analysis Workspace. |
-| [Panneau d’attribution](attribution.md) | Comparez et visualisez rapidement un certain nombre de modèles d’attribution à l’aide de n’importe quelle dimension et mesure de conversion. |
-| [Panneau à structure libre](freeform-panel.md) | Effectuez des comparaisons et des ventilations illimitées, puis ajoutez des visualisations pour raconter un riche historique de données. |
+| [Panneau d’attribution](attribution.md) | Comparez et visualisez rapidement de nombreux modèles d’attribution en utilisant n’importe quelle dimension ou mesure de conversion. |
+| [Panneau à structure libre](freeform-panel.md) | Effectuez des comparaisons et des ventilations illimitées, puis ajoutez des visualisations pour raconter une histoire riche en données. |
 | [Panneau des visionneuses simultanées de médias](media-concurrent-viewers.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
 | [Panneau de comparaison des segments](c-segment-comparison/segment-comparison.md) | Comparez rapidement deux segments sur tous les points de données afin de rechercher automatiquement les différences pertinentes. |
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights],   Blankand   Freeformpanneaux sont des emplacements idéaux pour début de votre analyse, tandis que  [!UICONTROL Analytics pour la Cible],  [!UICONTROL Attribution IQ], Media Concurrent Viewers et Segment Comparisonse prêtent à des analyses plus avancées.[!UICONTROL ] Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
+Les panneaux [!UICONTROL Quick Insights], [!UICONTROL vierges] et [!UICONTROL à structure libre] sont idéaux pour commencer votre analyse, tandis que les panneaux [!UICONTROL Analytics for Target], [!UICONTROL Attribution IQ], celui des [!UICONTROL observateurs simultanés de médias] et celui de [!UICONTROL comparaison des segments] se prêtent à des analyses plus avancées. Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
 
-Le panneau de démarrage par défaut est le panneau [!UICONTROL Structure libre], mais vous pouvez également définir le panneau [vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) comme panneau par défaut.
+Le panneau de démarrage par défaut est le panneau [!UICONTROL à structure libre], mais vous pouvez également choisir d’utiliser le [panneau vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) par défaut.
 
 ## Suite de rapports {#report-suite}
 
-Les tableaux et les visualisations au sein d’un panneau dérivent des données de la [!UICONTROL suite de rapports] sélectionnée en haut à droite du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou [plusieurs suites de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=fr-FR) selon les cas d’utilisation de votre analyse. Pour appliquer une suite de rapports unique à tous les panneaux d’un projet, **cliquez avec le bouton droit sur l’en-tête de panneau > Appliquer la suite de rapports à tous les panneaux**.
+Les tableaux et les visualisations au sein d’un panneau obtiennent des données de la [!UICONTROL suite de rapports] sélectionnée en haut à droite du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou [plusieurs suites de rapports](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) selon les cas pratiques de votre analyse. Pour appliquer une suite de rapports unique à tous les panneaux d’un projet, **faites un clic droit sur l’en-tête du panneau > Application de suites de rapports à tous les panneaux**.
 
-La liste des suites de rapports est triée en fonction de la pertinence. L’Adobe la définit en fonction de la fréquence et de la fréquence d’utilisation de la suite par l’utilisateur actuel et de la fréquence d’utilisation de la suite au sein de l’organisation.
+La liste des suites de rapports est triée en fonction de la pertinence. Adobe définit cette dernière selon le caractère récent et la fréquence d’utilisation de la suite par l’utilisateur, ainsi que selon sa fréquence d’utilisation au sein de l’organisation.
 
 ![](assets/panel-report-suite.png)
 
 ## Calendrier {#calendar}
 
-Le calendrier du panneau contrôle la plage de rapports des tableaux et des visualisations dans un panneau.
+Le calendrier du panneau contrôle la plage de compte-rendu des performances des tableaux et des visualisations dans un panneau.
 
-Remarque : Si un composant de plage de dates (violet) est utilisé dans un tableau, une visualisation ou une zone de dépôt de panneau, il remplace le calendrier du panneau.
+Remarque : si un composant de période (violet) est utilisé dans un tableau, une visualisation ou une zone de dépôt de panneau, il remplace le calendrier du panneau.
 
 ![](assets/panel-calendar.png)
 
-## Dropzone {#dropzone}
+## Zone de dépôt {#dropzone}
 
-La zone de liste déroulante des panneaux vous permet d’appliquer des filtres de segments et des menus déroulants à tous les tableaux et visualisations d’un panneau. Vous pouvez appliquer un ou plusieurs filtres à un panneau. Le titre au-dessus de chaque filtre peut être modifié en cliquant sur le crayon d&#39;édition ou vous pouvez cliquer avec le bouton droit pour le supprimer complètement.
+La zone de dépôt des panneaux vous permet d’appliquer des filtres de segments et de menus déroulants à tous les tableaux et visualisations d’un panneau. Vous pouvez appliquer un ou plusieurs filtres à un panneau. Le titre au-dessus de chaque filtre peut être modifié en cliquant sur le crayon de modification. Vous pouvez également faire un clic droit pour le supprimer complètement.
 
 ### Filtres de segments
 
-Faites glisser un segment du rail de gauche vers la zone de dépôt du panneau pour commencer à filtrer le panneau.
+Faites glisser et déposez un segment du rail de gauche dans la zone de dépôt du panneau pour commencer à filtrer le panneau.
 
 ![](assets/segment-filter.png)
 
 ### Filtres de segments ad hoc
 
-Vous pouvez également faire glisser directement les composants autres que les segments vers la zone de dépôt pour créer des segments ad hoc, ce qui vous permet de gagner du temps et de vous faire gagner du temps lors de votre passage au créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Cette définition peut être modifiée en cliquant sur l’icône d’informations (i) en regard du segment, puis sur l’icône d’édition en forme de crayon et en la modifiant dans le créateur de segments.
+Vous pouvez également faire glisser les composants qui ne sont pas des segments directement vers la zone de dépôt pour créer des segments ad hoc, ce qui vous permet de gagner du temps et vous évite de passer par le créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Vous pouvez modifier cette définition en cliquant sur l’icône d’informations (i) à côté du segment, puis sur l’icône de modification en forme de crayon, et la modifier dans le créateur de segments.
 
-Les segments ad hoc sont locaux pour le projet et ne s’afficheront pas dans votre rail de gauche à moins que vous ne les rendiez publics.
+Les segments ad hoc sont locaux au projet et ne s’afficheront pas dans le rail de gauche, à moins que vous ne les rendiez publics.
 
 ![](assets/adhoc-segment-filter.png)
 
-### Filtres déroulants {#dropdown-filter}
+### Filtres de menu déroulant {#dropdown-filter}
 
-Outre les filtres de segments, les filtres déroulants vous permettent d’interagir avec les données de manière contrôlée. Par exemple, vous pouvez ajouter un filtre déroulant pour les types de périphériques mobiles afin de segmenter le panneau par tablette, téléphone mobile ou bureau.
+Outre les filtres de segments, les filtres de menu déroulant vous permettent d’interagir avec les données de manière contrôlée. Par exemple, vous pouvez ajouter un filtre de menu déroulant pour les types d’équipement mobile afin de segmenter le panneau par tablette, téléphone mobile ou bureau.
 
-Les filtres déroulants peuvent également servir à consolider de nombreux projets en un seul. Par exemple, si plusieurs versions d’un même projet sont appliquées avec des segments Pays différents, vous pouvez consolider toutes les versions en un seul projet et ajouter un filtre déroulant Pays.
+Les filtres de menu déroulant peuvent également servir à fusionner plusieurs projets. Par exemple, si vous avez plusieurs versions d’un même projet avec des segments Pays différents, vous pouvez les fusionner en un seul projet et ajouter un filtre de menu déroulant Pays.
 
 ![](assets/dropdown-filter-intro.png)
 
-Pour créer des filtres déroulants :
+Pour créer des filtres de menu déroulant :
 
-1. Pour créer un filtre déroulant à l’aide d’[!UICONTROL éléments de Dimension], tels que des valeurs dans la dimension [!UICONTROL Canal marketing], cliquez sur l’icône de flèche vers la droite en regard de votre dimension dans le rail de gauche. Cette opération expose tous les éléments disponibles. Sélectionnez un ou plusieurs éléments de composant dans le rail de gauche et déposez-les dans la zone de dépôt de panneau **tout en maintenant la touche Maj** enfoncée. Les composants seront alors transformés en filtre déroulant, plutôt qu’en un seul segment.
-1. Pour créer un filtre déroulant à l’aide d’autres composants tels que les mesures, les segments ou les plages de dates, sélectionnez un type de composant dans le rail de gauche et déposez dans la zone de liste déroulante du panneau **tout en maintenant la touche Maj** enfoncée.
+1. Pour créer un filtre de menu déroulant à l’aide des [!UICONTROL éléments de dimension], comme les valeurs dans la dimension [!UICONTROL canal marketing], cliquez sur l’icône de flèche vers la droite située à côté de votre dimension dans le rail de gauche. Cette opération expose tous les éléments disponibles. Sélectionnez un ou plusieurs éléments de composant dans le rail de gauche et déposez-les dans la zone de dépôt du panneau **tout en maintenant la touche Maj enfoncée**. Cela permet de transformer les composants en filtre de menu déroulant plutôt qu’en segment.
+1. Pour créer un filtre de menu déroulant à l’aide d’autres composants tels que les mesures, les segments ou les périodes, sélectionnez un type de composant dans le rail de gauche et déposez-le dans la zone de dépôt du panneau **tout en maintenant la touche Maj enfoncée**.
 1. Sélectionnez l’une des options de la liste déroulante pour modifier les données du panneau. Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Pas de filtre]**.
 
 ![](assets/create-dropdown.png)
 
-[Regardez la ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) vidéo pour en savoir plus sur l&#39;ajout de filtres déroulants à votre projet.
+[Regardez la vidéo](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) pour en savoir plus sur l’ajout de filtres de menu déroulant à votre projet.
 
 ## Menu contextuel {#right-click}
 
-Pour accéder à d’autres fonctionnalités d’un panneau, cliquez avec le bouton droit de la souris sur l’en-tête du panneau.
+Pour accéder à d’autres fonctionnalités d’un panneau, faites un clic droit sur l’en-tête du panneau.
 
 ![](assets/right-click-menu.png)
 
-Les paramètres suivants sont disponibles :
+Les paramètres suivants sont disponibles :
 
 | Paramètre | Description |
 | --- | --- |
-| Insérer un panneau copié/visualisation | Permet de coller (&quot;insérer&quot;) un panneau ou une visualisation copié à un autre emplacement du projet ou dans un projet complètement différent. |
-| Copier le panneau | Permet de cliquer avec le bouton droit de la souris et de copier un panneau, de sorte que vous puissiez l’insérer à un autre emplacement du projet ou dans un projet complètement différent. |
-| Appliquer la suite de rapports à tous les panneaux | Vous permet d’appliquer la suite de rapports principale à tous les panneaux du projet. |
-| Panneau duplicata | Effectue un duplicata exact du panneau actif, que vous pouvez ensuite modifier. |
-| Réduire/Développer tous les panneaux | Réduit et développe tous les panneaux de projet. |
+| Insérer la copie du panneau/de la visualisation | Permet de coller (« insérer ») la copie d’un panneau ou d’une visualisation à un autre emplacement au sein du projet, ou dans un tout autre projet. |
+| Copier le panneau | Permet de faire un clic droit et de copier un panneau de sorte que vous puissiez l’insérer à un autre emplacement du projet, ou dans un tout autre projet. |
+| Application de suites de rapports à tous les panneaux | Vous permet d’appliquer la suite de rapports active à tous les panneaux du projet. |
+| Dupliquer le panneau | Crée un double exact du panneau actuel, que vous pouvez ensuite modifier. |
+| Réduire/Développer tous les panneaux | Réduit et développe tous les panneaux du projet. |
 | Réduire/Développer toutes les visualisations dans le panneau | Réduit et développe toutes les visualisations du panneau actif. |
-| Modifier la description | Ajoutez (ou modifiez) une description textuelle du panneau. |
+| Modifier la description | Ajouter (ou modifier) une description textuelle du panneau. |
 | Obtenir un lien vers le panneau | Permet de renvoyer un utilisateur vers un panneau spécifique dans un projet. Lorsque l’utilisateur clique sur le lien, le destinataire doit se connecter avant d’être dirigé vers le panneau exact auquel il est lié. |
