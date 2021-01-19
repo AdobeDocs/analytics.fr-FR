@@ -1,11 +1,11 @@
 ---
 title: FAQ sur les classifications
 description: Forum aux questions sur l’utilisation des classifications.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Oui, *toutefois, cela comptabilise chaque élément de dimension comme un appel 
 
 ## Comment classer les valeurs contenant des caractères spéciaux ?
 
-Il est généralement déconseillé d’utiliser des caractères spéciaux, tels que des virgules ou des guillemets de doublon, dans le rapports. Cependant, dans certains cas, leur utilisation est nécessaire. Si vos valeurs de rapports contiennent des caractères que vous choisissez de classifier, procédez comme suit :
+Il n’est généralement pas recommandé d’utiliser des caractères spéciaux tels que des virgules ou des guillemets dans les rapports. Cependant, dans certains cas, leur utilisation est nécessaire. Si vos valeurs de rapports contiennent des caractères que vous choisissez de classer, procédez comme suit :
 
 1. Connectez-vous à Adobe Analytics, puis accédez à **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 2. Cliquez sur l’onglet **[!UICONTROL Exportation navigateur]**.
@@ -46,4 +46,4 @@ Il est généralement déconseillé d’utiliser des caractères spéciaux, tels
 
 ## Que sont les classifications numériques 2 ?
 
-Les classifications numériques 2 vous permettent de classer les éléments de dimension en tant que mesures basées sur le temps. Ils ont été retirés de l&#39;interface utilisateur Adobe Analytics en juillet 2019.
+Les classifications numériques 2 vous permettent de classer les éléments de dimension en tant que mesures basées sur le temps. Elles ont été retirées de l’IU d’Adobe Analytics en juillet 2019.
