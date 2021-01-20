@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Comment envoyer l’accès aux données et supprimer des requêtes en Adobe Analytics.
 title: Soumettre des demandes d’accès et de suppression
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1302'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez également vous assurer que vos applications mobiles et vos sites we
 
 En tant que contrôleur des données, c’est à vous qu’il revient d’obtenir le consentement explicite de vos sujets de données avant de collecter des données à leur sujet (comprenant éventuellement des données Adobe Analytics) et [d’implémenter un mécanisme d’exclusion](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/opt-in.html) sur votre site web. Cela permet à vos sujets des données de ne plus participer à la future collecte de données d’Adobe Experience Cloud.
 
-## Valider les utilisateurs et leurs données {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## Valider les utilisateurs et leurs données  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 En tant que contrôleur des données, vous êtes chargé de vérifier que le sujet des données est bien qui il prétend être et qu’il a le droit d’accéder aux données demandées. En outre, il vous incombe de veiller à ce que les données correctes soient renvoyées au sujet des données et à ce qu’il ne reçoive pas par inadvertance des données concernant d’autres sujets des données.
 
@@ -32,7 +32,7 @@ Cela inclut la vérification des données renvoyées par Adobe Analytics dans le
 
 Chaque fichier combine les données de toutes vos suites de rapports, supprimant automatiquement les copies supplémentaires des accès répliqués. Vous pouvez décider parmi ces fichiers lequel renvoyer au sujet des données. Ou vous pouvez extraire certaines de ces données et les combiner à des données provenant d’autres systèmes avant de les renvoyer au sujet des données.
 
-## Soumettre des demandes {#submit-requests}
+## Soumettre des demandes  {#submit-requests}
 
 Vous pouvez soumettre des demandes d’accès et de suppression relatives à la confidentialité des données par l’intermédiaire de notre [portail utilisateur de confidentialité des données](https://docs.adobe.com/content/help/fr-FR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ou de notre [API relative à la confidentialité des données.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
@@ -40,7 +40,7 @@ Vous pouvez soumettre des demandes d’accès et de suppression relatives à la 
 >
 >L’API relative à la Confidentialité des données prend en charge les soumissions par lots pour plusieurs utilisateurs dans une seule demande. La limite actuelle est de 1 000 utilisateurs individuels (il peut y avoir plusieurs ID par utilisateur) par fichier de demande JSON.
 
-## Exemple de demande JSON {#sample-json-request}
+## Exemple de demande JSON  {#sample-json-request}
 
 Voici une configuration JSON qui pourrait être soumise via l’interface utilisateur ou l’API relative à la Confidentialité des données, demandant le traitement en vertu de la Confidentialité des données pour trois utilisateurs.
 
@@ -115,7 +115,7 @@ Gardez à l’esprit que :
 * Les champs « Description » sont ignorés.
 * Les champs « Clé » peuvent contenir la valeur de votre choix. Si vous utilisez un ID interne pour suivre les demandes relatives à la Confidentialité des données, vous pouvez saisir cette valeur ici pour faciliter la mise en correspondance des demandes du système Adobe et celles de vos propres systèmes.
 
-## Détails sur la réponse {#section_93F554F65DBB48A18B75EB5784056C96}
+## Détails sur la réponse  {#section_93F554F65DBB48A18B75EB5784056C96}
 
 Cette section contient des détails relatifs aux réponses d’accès et de suppression.
 
