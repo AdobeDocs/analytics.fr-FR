@@ -2,10 +2,10 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ Dans certains cas, un utilisateur individuel peut s’associer à un grand nombr
 
 ## Quelle est la différence entre la mesure Personnes des analyses entre appareils et la mesure Visiteurs uniques en dehors des analyses entre appareils ?
 
-La mesure [Personnes](/help/components/metrics/people.md) est similaire à la mesure [Visiteurs uniques](/help/components/metrics/unique-visitors.md) en ce sens qu’elle indique le nombre d’individus uniques. Toutefois, lors de l’utilisation d’Analyses entre appareils, les visiteurs uniques sont combinés lorsqu’ils sont enregistrés en tant que deux visiteurs uniques distincts en dehors des Analyses entre appareils. La mesure « Personnes » remplace la mesure « Visiteurs uniques » lorsque les Analyses entre appareils sont activées.
+La mesure [Personnes](/help/components/metrics/people.md) est similaire à la mesure [Visiteurs uniques](/help/components/metrics/unique-visitors.md) en ce sens qu’elle indique le nombre d’individus uniques. Toutefois, lors de l’utilisation d’Analyses entre appareils, les visiteurs uniques sont combinés lorsqu’ils sont enregistrés en tant que deux visiteurs uniques distincts en dehors des Analyses entre appareils. La mesure Personnes remplace la mesure Visiteurs uniques lorsque l’option Analyses sur plusieurs périphériques est activée. Une nouvelle mesure, [Périphériques uniques](/help/components/metrics/unique-devices.md), est disponible et est approximativement égale à Visiteurs uniques en dehors d’Analytics sur plusieurs périphériques.
 
 ## Quelle est la différence entre la mesure « Appareils uniques » des Analyses entre appareils et la mesure « Visiteurs uniques » hors Analyses entre appareils ?
 
