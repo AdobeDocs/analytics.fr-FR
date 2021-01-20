@@ -1,12 +1,12 @@
 ---
-description: valeur nulle
+description: FAQ sur le convertisseur de projet Ad Hoc Analysis vers Analysis Workspace
 title: FAQ Convertisseur de projets
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 93%
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
+>La fin de vie d’Ad Hoc Analysis a été fixée au 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 ## FAQ Convertisseur de projets {#topic_8231595303AD403E9322645A63632D57}
 
@@ -81,7 +81,7 @@ ht-degree: 93%
    <td colname="col1"> <p><b>Q : Comment sont converties les périodes ?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Les périodes « les X derniers jours » dans Ad Hoc Analysis <i>excluent</i> la date d’aujourd'hui, alors qu’Analysis Workspace <i>l’inclut</i>. Par conséquent, les plages de dates telles que "90 derniers jours" peuvent ne pas correspondre exactement entre les outils. Appliquez plutôt des plages "X derniers <b>jours </b> complets" en Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Les périodes « les X derniers jours » dans Ad Hoc Analysis <i>excluent</i> la date d’aujourd'hui, alors qu’Analysis Workspace <i>l’inclut</i>. Par conséquent, les plages de dates telles que "90 derniers jours" peuvent ne pas correspondre exactement entre les outils. Appliquez plutôt des plages "X derniers <b>jours complets </b> en Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Les périodes des espaces de travail Ad Hoc Analysis sont appliquées à l’échelle du projet / de l’espace de travail dans Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Les périodes des rapports Ad Hoc Analysis sont appliquées à l’échelle des colonnes de tableau dans Workspace. </li> 
     </ul> <p>Les périodes personnalisables peuvent être modifiées sous <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Composants</span> &gt; <span class="uicontrol">Périodes</span>. </p> </td> 
