@@ -1,18 +1,18 @@
 ---
 title: Groupement basé sur les champs
 description: Comprenez les conditions préalables et les limites du groupement de données à l’aide du groupement basé sur les champs.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 
 # Groupement basé sur les champs
 
-Les analyses entre appareils offrent deux méthodes distinctes pour regrouper les données. Cette méthode repose sur une variable Analytics, telle qu’une [prop](/help/implement/vars/page-vars/prop.md) ou une [eVar](/help/implement/vars/page-vars/evar.md), pour contenir un identifiant de personne. Elle utilise cette variable comme base pour lier les appareils.
+Analytics sur plusieurs périphériques fournit deux méthodes distinctes pour assembler les données. Cette méthode repose sur une variable Analytics, telle qu’une [prop](/help/implement/vars/page-vars/prop.md) ou une [eVar](/help/implement/vars/page-vars/evar.md), pour contenir un identifiant de personne. Elle utilise cette variable comme base pour lier les appareils.
 
 ## Conditions préalables spécifiques au groupement basé sur les champs
 
