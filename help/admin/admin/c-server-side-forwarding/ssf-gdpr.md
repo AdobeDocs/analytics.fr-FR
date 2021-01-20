@@ -1,23 +1,23 @@
 ---
-description: 'null'
+description: Explique les améliorations apportées au transfert côté serveur qui ont été apportées par la réglementation de conformité des cookies de l’UE.
 title: Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 91%
 
 ---
 
 
 # Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 
-Cette section décrit les récentes améliorations apportées au transfert côté serveur, rendues essentielles après l’entrée en vigueur le 30 septembre 2017 du [règlement de l’UE sur les cookies](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm).
+Cette section explique les améliorations apportées au transfert côté serveur, qui ont été apportées par le [règlement de conformité des cookies de l&#39;UE](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), entré en vigueur le 30 septembre 2017.
 
 Le transfert côté serveur permet de partager en temps réel des données d’Adobe Analytics vers d’autres [!DNL Experience Cloud Solutions], telles qu’Audience Manager. Une fois activé, le transfert côté serveur permet également à Analytics de transmettre des données vers d’autres solutions Experience Cloud et à ces solutions de transmettre des données à Analytics au cours du processus de collecte de données.
 
-Jusqu’à récemment, le transfert côté serveur ne pouvait pas faire la distinction entre les événements/accès postconsentement et préconsentement. Depuis le 1er novembre 2018, en tant que responsable du traitement des données (client Adobe Analytics), vous avez la possibilité de restreindre les données préconsentement à Adobe Analytics et d’empêcher qu’elles ne soient transférées à AAM. Une nouvelle variable contextuelle de mise en œuvre permet d’identifier les accès pour lesquels aucun consentement n’a été reçu. Une fois définie, la variable empêche l’envoi de ces accès vers AAM jusqu’à réception du consentement.
+Auparavant, le transfert côté serveur n’avait pas de moyen de délimiter les événements et accès de consentement préalable. Depuis le 1er novembre 2018, en tant que responsable du traitement des données (client Adobe Analytics), vous avez la possibilité de restreindre les données préconsentement à Adobe Analytics et d’empêcher qu’elles ne soient transférées à AAM. Une nouvelle variable contextuelle de mise en œuvre permet d’identifier les accès pour lesquels aucun consentement n’a été reçu. Une fois définie, la variable empêche l’envoi de ces accès vers AAM jusqu’à réception du consentement.
 
 Quand cette nouvelle variable contextuelle `cm.ssf=1` existe sur un accès, cet accès est identifié et n’est pas transféré côté serveur vers AAM. Inversement, si cette chaîne n’apparaît pas sur un accès, celui-ci est transféré à AAM.
 
