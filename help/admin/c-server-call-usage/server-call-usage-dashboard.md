@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Comment vue de l'utilisation actuelle des appels au serveur en Adobe Analytics.
 title: Affichage de l’utilisation actuelle des appels au serveur
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ Le tableau de bord de l’utilisation actuelle :
 ![](assets/server_call_dashboard.png)
 
 | Terme de l’interface utilisateur | Définition |
-|---|---|
+| --- | --- |
 | Période d’utilisation actuelle (vert) | La période actuelle est basée sur la [période d’utilisation](/help/admin/c-server-call-usage/overage-overview.md). |
 | Période d’utilisation précédente (bleu) | La période précédente est définie comme la période d’utilisation actuelle moins un an. |
 | Limite d’utilisation (rouge) | Votre limite d’utilisation contractuelle pour la période d’utilisation en question. |
