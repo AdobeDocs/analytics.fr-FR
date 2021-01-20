@@ -2,17 +2,17 @@
 title: Graphique d’appareil
 description: Découvrez les conditions préalables et les limites du regroupement de données à l’aide du graphique d’appareil.
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 
 # Graphique d’appareil
 
-Les analyses entre appareils offrent deux méthodes distinctes pour regrouper les données. Cette méthode utilise le graphique Privé ou le graphique Co-op d’Adobe Experience Platform Identity Service pour regrouper les données. Les analyses entre appareils communiquent régulièrement avec le graphique d’appareil pour relier les appareils.
+Analytics sur plusieurs périphériques fournit deux méthodes distinctes pour assembler les données. Cette méthode utilise le graphique Privé ou le graphique Co-op d’Adobe Experience Platform Identity Service pour regrouper les données. Les analyses entre appareils communiquent régulièrement avec le graphique d’appareil pour relier les appareils.
 
 ## Différences entre le graphique Co-op et le graphique Privé
 
