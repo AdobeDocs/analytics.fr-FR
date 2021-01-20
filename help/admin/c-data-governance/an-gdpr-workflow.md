@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Décrit les étapes permettant d’activer l’implémentation de votre Adobe Analytics pour prendre en charge l’accès à la confidentialité des données de vos personnes et les droits de suppression.
 title: Processus de confidentialité
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '399'
+ht-degree: 94%
 
 ---
 
