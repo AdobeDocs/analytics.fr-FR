@@ -4,11 +4,11 @@ keywords: Analytics Implementation
 title: Attribution et persistance
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/overview.md) dans le guide d’utilisation Composants.
+>Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Voir [Analyses sur plusieurs périphériques](/help/components/cda/overview.md) dans le guide de l’utilisateur Composants.
 
 Lorsque des profils du visiteur sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
 
