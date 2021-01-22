@@ -1,12 +1,11 @@
 ---
-description: valeur nulle
-title: Rapports Adobe Campaign
-uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
+description: Découvrez comment activer le rapports Adobe Campaign dans Adobe Analytics
+title: Comment intégrer l'Rapports Adobe Campaign dans le Adobe Analytics ?
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 95%
 
 ---
 
@@ -38,20 +37,9 @@ Pour afficher les données de Campaign dans Analytics, vous devez d’abord acti
 
 L’intégration entre Adobe Campaign Standard et Adobe Analytics ajoute le rapport suivant sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**
 
-<table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Rapport </th> 
-   <th colname="col2" class="entry"> Définition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Campaign Identifiant Diffusion exécutée </p> </td> 
-   <td colname="col2"> <p>Affiche les données importées depuis Adobe Campaign relatives à des e-mails envoyés depuis Adobe Campaign. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Rapport | Définition |
+|--- |--- |
+| Adobe Campaign Identifiant Diffusion exécutée | Affiche les données importées depuis Adobe Campaign relatives à des e-mails envoyés depuis Adobe Campaign. |
 
 ## Étape 3. Utilisation des classifications Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
