@@ -1,12 +1,11 @@
 ---
-description: FAQ sur le convertisseur de projet Ad Hoc Analysis vers Analysis Workspace
-title: FAQ Convertisseur de projets
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
+description: Questions fréquentes sur le convertisseur de projet Ad Hoc Analysis to Analysis Workspace
+title: FAQ sur le convertisseur de projet Ad Hoc Analysis-to-Analysis Workspace
 translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 94%
+source-wordcount: '951'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 94%
 ## Problèmes de conversion connus {#section_39C922A58B2E49C9877B363042801361}
 
 | Problème | Description |
-|--- |--- |
+| --- | --- |
 | Granularité détaillée avec ventilations ou en colonnes | Lorsque des ventilations sont appliquées à la granularité détaillée ou si une granularité détaillée est présente dans les colonnes, le projet ne peut pas être converti pour Analysis Workspace.  Une solution possible consiste à supprimer la ventilation sur la granularité détaillée et à la supprimer des colonnes, puis à convertir le projet. Vous pouvez ensuite appliquer des ventilations à la granularité détaillée dans Analysis Workspace. |
 | Mesure calculée interne utilisée avec un segment de colonne | Si vous utilisez une mesure calculée interne avec un segment de colonne, le projet ne peut pas être converti pour Analysis Workspace. Pour résoudre ce problème, supprimez les mesures calculées internes du projet avant la conversion, puis rajoutez-les dans Analysis Workspace. |
 
