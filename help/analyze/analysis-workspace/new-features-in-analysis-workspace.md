@@ -2,11 +2,11 @@
 description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8204'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 98%
 
 Pour accéder à l’ensemble des notes de mise à jour d’Adobe Experience Cloud, cliquez [ici](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr-FR).
 
-## Février 2021
+## Février 2021
 
-| Fonctionnalité | Date de cible | Description |
+| Fonctionnalité | Date cible | Description |
 | --- | --- | --- |
-| Sélection de composants | 4 février 2021 | Le composant de zone de liste déroulante/zone de dépôt figurant dans les statistiques rapides sera ajouté à toutes les zones de dépôt de Workspace. Cette amélioration vous permet de choisir parmi une liste déroulante de composants compatibles ou de continuer à utiliser l’espace comme zone de dépôt. |
+| Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante qui se trouve dans Quick Insights a été ajouté à toutes les zones de dépôt dans Workspace. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
 
 
 ## Janvier 2021
 
-| Fonctionnalité | Date de cible | Description |
+| Fonctionnalité | Date cible | Description |
 | --- | --- | --- |
-| URL d’image | 14 janvier 2021 | Vous pouvez ajouter des images à des projets Workspace en référençant une URL d’image publique. |
-| Gestionnaire des sources et des paramètres combinés pour les visualisations | 14 janvier 2021 | Le gestionnaire de source de données (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés en une seule fenêtre contextuelle afin que vous puissiez facilement gérer votre source et vos paramètres à partir du même emplacement. |
+| URL des images | 14 janvier 2021 | Vous pouvez ajouter des images à des projets Workspace en référençant une URL d’image publique. |
+| Gestionnaires de paramètres et de source combinés pour les visualisations | 14 janvier 2021 | Le gestionnaire de la source de données (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés en une seule fenêtre contextuelle. Vous pouvez ainsi facilement gérer votre source et vos paramètres à partir du même emplacement. |
 
 ## Octobre 2020
 
@@ -41,7 +41,7 @@ Pour accéder à l’ensemble des notes de mise à jour d’Adobe Experience Clo
 | Fonctionnalité | Description |
 | --- | --- |
 | [Téléchargement de 50 000 éléments pour une seule dimension](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr-FR#download-items) | Vous pouvez désormais télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
-| [Améliorations de la visualisation Ligne](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Vous pouvez afficher ou masquer l’axe des x et l’axe des y de n’importe quelle visualisation Ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations Ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation Ligne pour mettre rapidement en évidence les hausses et les baisses d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation Ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentielle], [!UICONTROL Puissance] et [!UICONTROL Quadratique].</li></ul> |
+| [Améliorations de la visualisation Ligne](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=fr-FR) | <ul><li>Vous pouvez afficher ou masquer l’axe des x et l’axe des y de n’importe quelle visualisation Ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations Ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation Ligne pour mettre rapidement en évidence les hausses et les baisses d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation Ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentielle], [!UICONTROL Puissance] et [!UICONTROL Quadratique].</li></ul> |
 | Nouvelles périodes | Nous avons ajouté 5 nouvelles périodes afin que vous puissiez choisir parmi des périodes qui n’incluent pas de données de jour partielles à partir d’aujourd’hui : 7 derniers jours complets, 14 derniers jours complets, 30 derniers jours complets, 60 derniers jours complets, 90 derniers jours complets. |
 
 ## Août 2020
@@ -66,7 +66,7 @@ Nouvelles fonctionnalités au 18 juin 2020.
 | Attribution IQ : intervalles de recherche en amont personnalisés | Vous pouvez désormais configurer n’importe quel modèle d’attribution dans Attribution IQ afin d’y inclure des points de contact jusqu’à 90 jours avant la période de création des rapports. Cela permet généralement d’accroître la précision de l’attribution pour les événements survenant au début de la période de création des rapports, en tenant compte des interactions qui se sont produites au cours du ou des mois précédents. Disponible pour les clients Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete et Ultimate. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=fr-FR#intervalles-de-recherche-en-amont) |
 | Rôles de projet pour les projets Workspace partagés | Lors du partage d’un projet Workspace, vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience du projet que vous souhaitez leur proposer : Modifier, Dupliquer et Afficher. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr-FR) |
 | Projets Workspace en lecture seule | Les projets Workspace peuvent être partagés avec les utilisateurs en autorisant uniquement l’Affichage. Lorsqu’un destinataire Afficher ouvre le projet partagé, il bénéficie d’une expérience de projet plus restreinte, sans rail gauche et avec des interactions limitées. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=fr-FR) |
-| Possibilité de modifier des projets Workspace avec d’autres personnes | Les destinataires ajoutés au rôle « Modifications autorisées » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. [En savoir plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Possibilité de modifier des projets Workspace avec d’autres personnes | Les destinataires ajoutés au rôle « Modifications autorisées » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr-FR) |
 | Panneau vierge mis à jour | Le panneau vierge comprend désormais des panneaux et des visualisations, vous permettant ainsi de choisir avec plus de transparence le processus d’analyse qui vous convient le mieux. |
 | Panneau Quick Insights (25 juin 2020) | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Panneau Analytics for Target dans Workspace (25 juin 2020) | Le panneau Analytics for Target (A4T) vous permet d’analyser en toute confiance vos activités et expériences Adobe Target dans Analysis Workspace. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -297,7 +297,7 @@ Nouvelles fonctionnalités et améliorations au 19 juillet 2018.
    <td colname="col2"> <p>Lorsque cela est possible, nous affichons désormais les totaux pour les mesures calculées, y compris les pourcentages. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Nouveau <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > paramètre prédéfini de la période </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Nouveau <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > paramètre prédéfini  </a>de la période </b> </p> </td> 
    <td colname="col2"> <p>Ajout de « Treize dernières semaines complètes » aux paramètres prédéfinis de la période dans Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -768,7 +768,7 @@ Nouvelles fonctionnalités au 20 juillet 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> « Obtenir le lien du projet » pour les connexions Experience Cloud</b> </p> </td> 
-   <td colname="col2"> <p>Auparavant, si vous étiez connecté à Experience Cloud et que vous accédiez à Analytics, la fonction <span class="ignoretag"> <span class="uicontrol">Partager</span> &gt; <span class="uicontrol">Obtenir le lien du projet </span> </span> n’était pas accessible. Nous avons corrigé ce problème. Vous devez toujours enregistrer le projet avant de pouvoir cliquer sur cette option. </p> </td> 
+   <td colname="col2"> <p>Auparavant, si vous étiez connecté à Experience Cloud et que vous accédiez à Analytics, la fonction <span class="ignoretag"> <span class="uicontrol">Partager</span> &gt; <span class="uicontrol">Obtenir le lien du projet </span></span> n’était pas accessible. Nous avons corrigé ce problème. Vous devez toujours enregistrer le projet avant de pouvoir cliquer sur cette option. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filtre Projets expirés dans le gestionnaire de projets planifiés </a></b> </p> </td> 
@@ -790,7 +790,7 @@ Nouvelles fonctionnalités au 8 juin 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Améliorations apportées aux <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > Abandons </a></b> </td> 
+   <td colname="col1"> Améliorations apportées aux <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > Abandons </a></b> </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">Nombre de segments illimité pour la comparaison. </li> 
@@ -801,14 +801,14 @@ Nouvelles fonctionnalités au 8 juin 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Améliorations apportées aux <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>flux</b></a> </td> 
+   <td colname="col1"> Améliorations apportées aux <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>flux</b></a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Ajout d’un nouveau paramètre de visualisation appelé <span class="wintitle"> Désactiver la troncation des étiquettes </span> (valeur par défaut = non coché). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Modifications du <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > calendrier </a></b> </td> 
+   <td colname="col1"> Modifications du <b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > calendrier </a></b> </td> 
    <td colname="col2"> Modifications apportées au calendrier pour l’aligner sur le calendrier de Reports &amp; Analytics : 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">Le premier clic démarre une sélection de plage de dates. Mettez en surbrillance la période dans l’une ou l’autre direction puis cliquez pour sélectionner la fin de la plage de dates. Si vous maintenez la touche Maj enfoncée (ou faites un clic droit) lorsque vous cliquez sur la première date, celle-ci est ajoutée à la plage. </li> 
@@ -838,7 +838,7 @@ Nouvelles fonctionnalités au 8 juin 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Améliorations apportées au <b><a href="/help/components/c-alerts/alert-manager.md"  > gestionnaire d’alertes </a> </b> </p> </td> 
+   <td colname="col1"> <p>Améliorations apportées au <b><a href="/help/components/c-alerts/alert-manager.md"  > gestionnaire d’alertes </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Ajout de la possibilité d’activer/désactiver des alertes. </li> 
@@ -1176,7 +1176,7 @@ La zone de dépôt **[!UICONTROL Déposer un segment ici]** a été ajoutée afi
 
 Ceci s’avère pratique si vous préférez créer des segments directement quand vous travaillez dans un projet, plutôt que d’utiliser le panneau [!UICONTROL Segment].
 
-## Mise en forme conditionnelle  {#section_5775B505D83041408B8C3EAEC5D7C32B}
+## Mise en forme conditionnelle {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
 Dans les paramètres de colonne, vous pouvez appliquer une mise en forme conditionnelle aux données des cellules.
 
@@ -1210,13 +1210,13 @@ Dans les paramètres de colonne, vous pouvez appliquer une mise en forme conditi
  </tbody> 
 </table>
 
-## Aperçu des dimensions  {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Aperçu des dimensions {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 Dans le panneau du composant [!UICONTROL Dimension], vous pouvez placer le pointeur de la souris sur l’icône d’informations située en regard d’une dimension pour afficher l’aperçu des cinq premières dimensions.
 
 ![](assets/dimension-preview.png)
 
-## Légende visible  {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Légende visible {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 Dans [!UICONTROL Paramètres de visualisation], l’option **[!UICONTROL Légende visible]** affiche ou masque la légende des visualisations.
 
@@ -1234,11 +1234,11 @@ Selon les chiffres des graphiques en courbes et des diagrammes de surface, la pa
 
 ![](assets/anchor_Y_axis.png)
 
-## Nom du projet dans le titre de l’onglet  {#section_497C61A030984BCCA2CEA553312C3226}
+## Nom du projet dans le titre de l’onglet {#section_497C61A030984BCCA2CEA553312C3226}
 
 Lors de l’enregistrement d’un projet, le titre sur l’onglet du navigateur s’affiche comme suit : « `<Project Name>` - Analysis Workspace ». Ceci s’avère pratique si vous ouvrez plusieurs projets dans plusieurs onglets de navigateur.
 
-## Transfert de la propriété du projet  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Transfert de la propriété du projet {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Les administrateurs peuvent transférer les projets [!UICONTROL Analysis Workspace] d’un utilisateur à un autre.
 
