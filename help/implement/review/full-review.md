@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ Pourquoi devriez-vous passer votre implémentation en revue tous les 6 mois ? P
 
 ## 1. Assurez-vous que l’implémentation est toujours en phase avec les besoins de l’entreprise.
 
-Rencontrez le propriétaire de l’entreprise et/ou les analystes pour passer en revue l’évolution des besoins de l’entreprise. Si votre implémentation ne satisfait pas certains besoins ou opportunités de mesure, déterminez comment mettre à jour vos indicateurs clés de performance et vos plans de mesure. N’oubliez pas d’enregistrer vos modifications dans vos [BRD et SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=fr#implementation).
+Rencontrez le propriétaire de l’entreprise et/ou les analystes pour passer en revue l’évolution des besoins de l’entreprise. Si votre implémentation ne satisfait pas certains besoins ou opportunités de mesure, déterminez comment mettre à jour vos indicateurs clés de performance et vos plans de mesure. N’oubliez pas d’enregistrer vos modifications dans vos [BRD et SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=fr-FR#implementation).
 
 ## 2. Assurez-vous que vos mesures et variables fonctionnent toujours correctement.
 
-Passez brièvement en revue toutes vos mesures et variables selon leur ordre d’importance pour l’entreprise afin de vous assurer que les données sont collectées correctement. Début avec vos mesures et variables les plus importantes : celles associées à vos [5 principaux IPC](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Pour ce faire :
+Passez brièvement en revue toutes vos mesures et variables selon leur ordre d’importance pour l’entreprise afin de vous assurer que les données sont collectées correctement. Démarrez par les mesures et variables les plus importantes : celles qui sont associées à vos [5 principaux indicateurs clés de performance](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=fr-FR#review). Pour ce faire :
 
-* Créez des tableaux de bord pour afficher les vues de tendances mensuelles de vos mesures et variables (ou configurez [des alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) pour chacune d&#39;elles) afin de vous assurer que vous obtenez les données attendues et que les données sont correctes. Si vous constatez des incohérences, passez en revue la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
+* Créez des tableaux de bord pour afficher les vues de tendances mensuelles de vos mesures et variables (ou définissez des [alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=fr-FR#analysis-workspace) pour chacune) afin de vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Si vous constatez des incohérences, passez en revue la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
 * Exécutez à nouveau [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) pour surveiller les tendances générales de vos mesures et variables.
 
 Ne ralentissez pas votre implémentation avec des mesures et des variables dont vous n’avez pas besoin. Désactivez les mesures ou variables dont l’entreprise n’a plus besoin ou qu’elle n’utilise plus. Vous voudrez peut-être les supprimer ou les réutiliser ultérieurement.
