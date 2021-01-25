@@ -1,20 +1,20 @@
 ---
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
-# Fin de vie des connecteurs de données Adobe
+# Fin de vie des Adobe Data Connectors
 
-Depuis plus d&#39;une décennie, Adobe Analytics s&#39;efforce de fournir la solution d&#39;analyse Web et marketing la plus performante pour répondre aux besoins des clients. Au fur et à mesure que les besoins technologiques et commerciaux évoluent, nous nous efforçons d&#39;offrir et de satisfaire continuellement les normes les plus élevées.  Malheureusement, les API qui font fonctionner cette intégration ne répondent plus à ces normes et ne sont pas tenables dans l&#39;infrastructure technologique Adobe Analytics moderne.
+Depuis plus d’une décennie, Adobe Analytics a pour ambition de fournir la solution d’analyse web et marketing la meilleure de sa catégorie afin de répondre aux besoins des clients. Au fur et à mesure de l’évolution des besoins technologiques et commerciaux, nous nous efforçons de proposer et de satisfaire continuellement aux normes les plus exigeantes.  Malheureusement, les API qui font fonctionner cette intégration ne répondent plus à ces normes et ne sont plus acceptables dans l’infrastructure technologique Adobe Analytics moderne.
 
-**À compter du 1er août 2021**, l’Adobe a l’intention d’interrompre les intégrations des connecteurs de données. La fin de vie fait partie du cycle de vie de tout produit technologique et l&#39;Adobe vise à rendre la transition aussi transparente que possible pour nos clients et partenaires. Un grand nombre de ces intégrations sont disponibles par le biais d&#39;échange d&#39;Adobes et peuvent continuer à être utilisées.
+**À compter du 1er août 2021**, Adobe a l’intention d’interrompre les intégrations des Data Connectors. La fin de vie fait partie du cycle de vie de tout produit technologique, et Adobe cherche à rendre la transition aussi transparente que possible pour ses clients et ses partenaires. Un grand nombre de ces intégrations sont disponibles via Adobe Exchange et peuvent continuer à être utilisées.
 
 ## Pourquoi cette fonctionnalité est-elle abandonnée ?
 
@@ -22,80 +22,80 @@ Cette fonctionnalité est alimentée par une technologie héritée qui n’est p
 
 ## En quoi la suppression de cette fonction vous concerne-t-elle ?
 
-Si vous êtes un partenaire d&#39;Adobe, vous trouverez des détails sur la migration de votre intégration vers notre nouveau programme Adobe Exchange [ici](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) dans notre documentation.
+Si vous êtes partenaire Adobe, vous trouverez des détails sur la migration de votre intégration vers notre nouveau programme Adobe Exchange [ici](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) dans notre documentation.
 
-Si vous êtes client Data Connector et souhaitez demander que l’intégration que vous utilisez soit migrée, vous devez *acheminer toutes les requêtes directement vers le partenaire d’intégration*. L’envoi de requêtes à Adobe via l’assistance clientèle n’aura pas l’effet escompté.
+Si vous utilisez les connecteurs de données et souhaitez demander la migration de l’intégration que vous utilisez, vous devez *adresser toutes vos requêtes directement à votre partenaire d’intégration*. L’envoi de requêtes à Adobe via l’assistance clientèle n’aura pas l’effet escompté.
 
-Chaque société fournissant une intégration a eu la possibilité de migrer son intégration vers Adobe Exchange ou d&#39;interrompre son intégration. Vous trouverez ci-dessous un résumé de chaque intégration en cours et de la décision qui l&#39;accompagne.
+Chaque société fournissant une intégration a eu la possibilité d’en effectuer la migration vers Adobe Exchange ou de l’interrompre. Vous trouverez ci-dessous un résumé de chaque intégration en cours et de la décision qui l’accompagne.
 
-Pour toute question ou assistance supplémentaire, contactez le service à la clientèle Adobe.
+Pour toute question ou assistance supplémentaire, contactez l’assistance clientèle Adobe.
 
 ## Statut du partenaire du connecteur de données
 
 | Partenaire | État |
 | --- | --- |
-| Acxiome | Déconseillé |
-| Adformer | Déconseillé |
-| Ajuster | Migration vers Adobe Exchange |
+| Acxiom | Abandon |
+| Adform | Abandon |
+| Adjust | Migration vers Adobe Exchange |
 | Adobe Campaign | Migration vers Adobe Exchange |
-| Applications | Migration vers Adobe Exchange |
-| Appsee | Déconseillé |
+| Appfigures | Migration vers Adobe Exchange |
+| Appsee | Abandon |
 | AppsFlyer | Migration vers Adobe Exchange |
-| Engagement marketing d’entreprise Aprimo | Déconseillé |
-| Apteligent | Déconseillé |
-| Suite eMarketing BlueHornet | Déconseillé |
+| Aprimo Enterprise Marketing Engagement | Abandon |
+| Apteligent | Abandon |
+| Suite eMarketing BlueHornet | Abandon |
 | Branche | Migration vers Exchange |
-| BrightEdge 2.0 | Déconseillé |
-| Bronto Software | Déconseillé |
+| BrightEdge 2.0 | Abandon |
+| Bronto Software | Abandon |
 | CheetahMail par Experian | Migration vers Exchange |
-| ClickTale | Déconseillé |
-| Autorité de certification de clic | Déconseillé |
-| Conducteur 2.0 | Déconseillé |
-| ContactLab 2.0 (Contact Send Connector) | Déconseillé |
-| Coradiant TrueSight | Déconseillé |
-|  D&amp;B Visitor Intelligence | Déconseillé |
-| Datran Media | Déconseillé |
-| Aperçu de la décision | Déconseillé |
-| Décider | Déconseillé |
-| Delivra | Déconseillé |
-| Autorité de certification Demandbase | Déconseillé |
-| Demandbase v3 | Déconseillé |
-| DialogTech | Déconseillé |
-| DoubleClick for Advertisers (DFA) | Déconseillé |
-| RÊVE | Déconseillé |
-| DREAMmail 2.0 | Déconseillé |
-| Signal dynamique (Vora numérique) | Migration vers Exchange |
-| eDialog Precision Central | Déconseillé |
-| eC-messenger | Déconseillé |
-| Emailvision Campaign Commander | Déconseillé |
-| emarsys xpress | Déconseillé |
+| ClickTale | Abandon |
+| Clicktale CA | Abandon |
+| Conductor 2.0 | Abandon |
+| ContactLab 2.0 (Contact Send Connector) | Abandon |
+| Coradiant TrueSight | Abandon |
+|  D&amp;B Visitor Intelligence | Abandon |
+| Datran Media | Abandon |
+| Decibel Insight | Abandon |
+| Decipher | Abandon |
+| Delivra | Abandon |
+| Demandbase CA | Abandon |
+| Demandbase v3 | Abandon |
+| DialogTech | Abandon |
+| DoubleClick for Advertisers (DFA) | Abandon |
+| DREAM | Abandon |
+| DREAMmail 2.0 | Abandon |
+| Dynamic Signal (Nital Vora) | Migration vers Exchange |
+| eDialog Precision Central | Abandon |
+| eC-messenger | Abandon |
+| Emailvision Campaign Commander | Abandon |
+| emarsys xpress | Abandon |
 | Epsilon Harmony | Migration vers Exchange |
-| Tout le mondeSocial pour Adobe Analytics | Déconseillé |
-| Fiksu | Déconseillé |
-| Foresee (v2.0) | Déconseillé |
-| Foresee Feedback | Déconseillé |
-| Gigya | Déconseillé |
-| hybris | Déconseillé |
-| Kampyle (désormais Medallia) Commentaires Analytics (1.1) | Déconseillé |
+| EveryoneSocial pour Adobe Analytics | Abandon |
+| Fiksu | Abandon |
+| ForeSee (v2.0) | Abandon |
+| Foresee Feedback | Abandon |
+| Gigya | Abandon |
+| hybris | Abandon |
+| Kampyle (désormais Medallia) Feedback Analytics (1.1) | Abandon |
 | Listrak | Migration vers Exchange |
-| Lyris HQ | Déconseillé |
-| MaritzCX (V 2.0) | Déconseillé |
-| Merkle | Déconseillé |
-| Intégration officielle de Oracle Eloqua | Déconseillé |
-| optivo Broadmail (Episerver) | Migration vers Exchange |
+| Lyris HQ | Abandon |
+| MaritzCX (V 2.0) | Abandon |
+| Merkle | Abandon |
+| Official Oracle Eloqua Integration | Abandon |
+| optivo broadmail (Episerver) | Migration vers Exchange |
 | Qualtrics v2 | Migration vers Exchange |
-| Responsys 2.0 | Déconseillé |
-| Selligent | Déconseillé |
-| seoClarity 2.0 | Déconseillé |
-| Silverpop Engage (v2.0) | Déconseillé |
-| Sizmek | Déconseillé |
-| SpotEffects | Déconseillé |
-| StrongMail Systems, Inc | Déconseillé |
-| Syngergy !360 | Déconseillé |
-| ThinData EMS | Déconseillé |
-| TUNE | Déconseillé |
-| Urban Airship | Déconseillé |
-| Outil Questionnaire UserZoom | Déconseillé |
-| WhatCounts Email | Déconseillé |
-| wywy | Déconseillé |
-| Yesmail Enterprise | Déconseillé |
+| Responsys 2.0 | Abandon |
+| Selligent | Abandon |
+| seoClarity 2.0 | Abandon |
+| Silverpop Engage (v2.0) | Abandon |
+| Sizmek | Abandon |
+| SpotEffects | Abandon |
+| StrongMail Systems, Inc | Abandon |
+| Syngergy!360 | Abandon |
+| ThinData EMS | Abandon |
+| TUNE | Abandon |
+| Urban Airship | Abandon |
+| Outil d’enquête UserZoom | Abandon |
+| WhatCounts Email | Abandon |
+| wywy | Abandon |
+| Yesmail Enterprise | Abandon |
