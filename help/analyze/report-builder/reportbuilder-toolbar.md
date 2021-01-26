@@ -4,10 +4,10 @@ title: Barre d’outils du Report Builder
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
+source-git-commit: 846a6a2d08f2f0a97ed44d724d16c852f5d8088c
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 98%
+source-wordcount: '301'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Après avoir installé le Report Builder et démarré Excel, cliquez sur **[!UIC
 
 ![](assets/report_builder_toolbar.png)
 
-**Se connecter** : affiche le formulaire [!UICONTROL Connexion] qui vous permet de vous connecter à l’aide de vos identifiants de connexion ou sous une autre identité. Affiche également le nom de votre société après la connexion. Reportez-vous à la section [Connexion à Report Builder](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md).
+**Se connecter :** affiche le   rapport de connexion afin que vous puissiez vous connecter avec vos identifiants ou en tant qu’utilisateur différent. Affiche également le nom de votre société après la connexion. Reportez-vous à la section [Ouverture de session dans Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **Créer** : lance l’[!UICONTROL Assistant Requête]. Si vous n’êtes pas encore connecté, le système vous y invite. Reportez-vous à la section [Requêtes de données](/help/analyze/report-builder/data-requests/data-requests.md).
 
