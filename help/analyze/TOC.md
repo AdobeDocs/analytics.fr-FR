@@ -5,9 +5,9 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Report Builder et Activity Map.
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 100%
       + Tableau de cohortes {#cohort-table}
          + [Qu’est-ce que l’analyse des cohortes ?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuration d’un rapport d’analyse des cohortes](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Cas d’utilisation de l’analyse des cohortes](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + Cas d’utilisation de l’[analyse des cohortes](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abandon {#fallout}
          + [Abandon - Aperçu](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configuration d’une visualisation d’abandon](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -135,7 +135,6 @@ ht-degree: 100%
       + [Installation de Report Builder](report-builder/setup/t-install-arb.md)
       + [Mise à niveau de Report Builder](report-builder/setup/upgrade-arb.md)
       + [Ouverture de session dans Report Builder](report-builder/setup/login.md)
-      + [Connexion à Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Désinstallation de Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [Appel de la fonctionnalité de Report Builder depuis les fonctions Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
    + [Barre d’outils de Report Builder](report-builder/reportbuilder-toolbar.md)
