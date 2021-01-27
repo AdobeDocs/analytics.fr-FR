@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 87%
 
 ---
 
@@ -34,16 +34,10 @@ Vous ne pouvez pas définir d’arguments facultatifs dans Launch.
 Appelez la méthode `s.tl()` lorsque vous souhaitez envoyer un appel de suivi à Adobe.
 
 ```js
-s.tl();
-```
-
-Cette méthode accepte éventuellement plusieurs arguments :
-
-```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Objet du lien
+### Objet Link (obligatoire)
 
 L’argument d’objet du lien détermine si le navigateur attend jusqu’à 500 ms avant de quitter la page. Si une demande d’image est envoyée avant 500 ms, la page accède immédiatement au lien sur lequel l’utilisateur a cliqué.
 
@@ -55,37 +49,42 @@ L’argument d’objet du lien détermine si le navigateur attend jusqu’à 500
 * `true` : ne pas attendre.
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### Type de lien
+### Type de lien (obligatoire)
 
-L’argument de type de lien est une chaîne d’une seule lettre qui détermine le type d’appel de suivi de lien. C’est la même chose que de définir la variable [`linkType`](../config-vars/linktype.md).
+L&#39;argument type de lien est une chaîne à caractère unique qui détermine le type d&#39;appel de suivi de lien. Il existe trois valeurs valides.
+
+* `o`: Le lien est un lien [ ](/help/components/dimensions/custom-link.md)personnalisé.
+* `d`: Il s’agit d’un lien [ de ](/help/components/dimensions/download-link.md)téléchargement.
+* `e`: Le lien est un lien [ de ](/help/components/dimensions/exit-link.md)sortie.
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### Nom du lien
+### Nom du lien (recommandé)
 
-L’argument du nom du lien est une chaîne qui détermine l’élément de dimension de suivi des liens. C’est la même chose que de définir la variable [`linkName`](../config-vars/linkname.md).
+L’argument du nom du lien est une chaîne qui détermine l’élément de dimension de suivi des liens. Lorsque vous utilisez les dimensions [Lien personnalisé](/help/components/dimensions/custom-link.md), [Lien de téléchargement](/help/components/dimensions/download-link.md) ou [Lien de sortie](/help/components/dimensions/exit-link.md) dans le rapports, cette chaîne contient l’élément de dimension. Si cet argument n&#39;est pas défini, la variable [linkURL](../config-vars/linkurl.md) est utilisée.
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### Remplacements de variables
+### Remplacements de variables (facultatif)
 
 Permet de modifier les valeurs de variable pour un appel unique. Pour plus d’informations, voir [Remplacements de variable](../../js/overrides.md).
 
@@ -108,14 +107,6 @@ Utilisez JavaScript pour effectuer un appel de suivi de lien de base à l’aide
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-Utilisez JavaScript pour effectuer le même appel de suivi de lien de base à l’aide de variables distinctes :
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### Effectuez des appels de suivi de lien dans une fonction personnalisée
