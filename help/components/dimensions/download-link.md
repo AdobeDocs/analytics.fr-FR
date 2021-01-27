@@ -1,11 +1,11 @@
 ---
 title: Lien de téléchargement
 description: Nom du lien de téléchargement.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 83%
 
 ---
 
@@ -22,11 +22,7 @@ La dimension « Lien de téléchargement » indique le nom des liens de télé
 
 Cette dimension collecte les données de la [`pev2` chaîne de requête ](/help/implement/validate/query-parameters.md) dans les demandes d’image pour les accès qui contiennent également la chaîne de requête `pe` avec la valeur `lnk_d`. Si la valeur de la chaîne de requête `pe` de l’accès est différente, cette dimension ne collecte pas de données.
 
-Si vous souhaitez envoyer des données à cette dimension à l’aide d’AppMeasurement :
-
-* Renseignez la variable [`linkName`](/help/implement/vars/config-vars/linkname.md) avec la valeur souhaitée.
-* Définissez la variable [`linkType`](/help/implement/vars/config-vars/linktype.md) sur `"d"`.
-* Envoyez une demande d’image [`tl()`](/help/implement/vars/functions/tl-method.md).
+Si vous souhaitez envoyer des données à cette dimension à l’aide d’AppMeasurement, envoyez une demande d’image [`tl()`](/help/implement/vars/functions/tl-method.md) avec un argument de type de lien `"d"`. Renseignez l’argument du nom de lien avec la valeur souhaitée.
 
 ## Éléments de dimension
 
