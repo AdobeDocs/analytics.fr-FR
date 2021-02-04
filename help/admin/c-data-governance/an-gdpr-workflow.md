@@ -1,12 +1,12 @@
 ---
-description: Décrit les étapes permettant d’activer l’implémentation de votre Adobe Analytics pour prendre en charge l’accès à la confidentialité des données de vos personnes et les droits de suppression.
+description: Décrit les étapes à suivre pour permettre à votre implémentation Adobe Analytics de prendre en charge les droits d’accès et de suppression relatifs à la confidentialité des données de vos titulaires de données.
 title: Processus de confidentialité
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
