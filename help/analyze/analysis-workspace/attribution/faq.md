@@ -1,11 +1,11 @@
 ---
 title: FAQ sur l’Attribution
 description: Obtenez des réponses aux questions les plus fréquentes au sujet de l’attribution.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ L’élément de ligne « Aucun » est un élement fourre-tout qui représente
 
 ## Pourquoi est-ce que je vois parfois des dates hors de mon créneau de rapport lors de l’utilisation de modèles d’attribution ?
 
-Certaines mesures basées sur les visites, telles que [Entrées](/help/components/metrics/entries.md) ou [Taux de rebonds](/help/components/metrics/bounce-rate.md), peuvent attribuer des données à une période antérieure à la plage de débuts de la fenêtre de rapports. Cette situation est due aux modèles d’attribution qui utilisent une fenêtre de recherche en amont, ce qui détermine à quel point l’attribution en aval doit être créditée pour les mesures. Le scénario le plus courant est lorsque les visites s’étendent sur minuit. Par exemple :
+Certaines mesures basées sur les visites, telles que les [entrées](/help/components/metrics/entries.md) ou le [taux de rebond](/help/components/metrics/bounce-rate.md), peuvent attribuer des données à une période antérieure à celle du créneau du compte rendu des performances. Cette situation est due aux modèles d’attribution qui utilisent une période de recherche arrière, ce qui détermine jusqu’où l’attribution doit remonter pour créditer les mesures. Le scénario le plus courant se produit lorsque les visites englobent minuit. Par exemple :
 
-1. Un utilisateur visite votre page d&#39;accueil à 23h55 le 7 septembre.
-1. Ils visitent plusieurs pages, dont la dernière s&#39;est produite à 12h05 le 8 septembre.
-1. Une semaine plus tard, vous lancez un rapport de tendance quotidien avec une plage de dates comprise entre le 8 et le 14 septembre.
+1. Un utilisateur visite votre page d’accueil le 7 septembre à 23 h 55.
+1. Il consulte plusieurs pages, et la dernière consultation a lieu le 8 septembre à 00 h 05.
+1. Une semaine plus tard, vous lancez un rapport de tendance quotidienne sur une période allant du 8 au 14 septembre.
 
-Les mesures basées sur les accès, telles que [vues de page](/help/components/metrics/page-views.md), produiraient la sortie attendue ; données de tendances chaque jour, du 8 septembre au 14 septembre. Cependant, les mesures basées sur les visites présenteraient également la visite ci-dessus le 7 septembre. L’entrée attribuée à la visite s’est produite le 7 septembre et la fenêtre de recherche en amont est, par défaut, comprise entre le 1er et le 31 septembre.
+Les mesures basées sur les accès, telles que les [pages vues](/help/components/metrics/page-views.md), produiraient la sortie attendue : les tendances de données quotidiennes du 8 au 14 septembre. Cependant, les mesures basées sur les visites afficheraient également la visite du 7 septembre ci-dessus. L’entrée attribuée à la visite s’est produite le 7 septembre et la période de recherche arrière est, par défaut, comprise entre le 1er et le 31 septembre.
 
-Dans cet exemple, le taux de rebonds affiche toujours 0 % le 7 septembre. Cette mesure est définie sous la forme `Bounces divided by Entries`, une mesure basée sur les accès divisée par une mesure basée sur les visites. Les rebonds se composent d’une seule demande d’image, de sorte qu’ils ne peuvent pas s’étendre sur plusieurs jours. Les rebonds du 7 septembre se sont produits en dehors de la fenêtre du rapports, provoquant ainsi le taux de rebonds garanti de 0 % pour cette journée. D’autres mesures basées sur les accès présenteraient également 0 pour le 7 septembre dans ce rapport, puisque ces accès ne se trouvent pas non plus dans la fenêtre de rapports.
+Dans cet exemple, le taux de rebond affiche toujours 0 % le 7 septembre. Cette mesure est définie sous la forme `Bounces divided by Entries`, une mesure basée sur les accès divisée par une mesure basée sur les visites. Les rebonds se composent d’une seule demande d’image, de sorte qu’ils ne peuvent pas s’étendre sur plusieurs jours. Les rebonds du 7 septembre se sont produits en dehors du créneau du compte rendu des performances, provoquant ainsi le taux de rebond garanti de 0 % pour cette journée. D’autres mesures basées sur les accès afficheraient également 0 pour le 7 septembre dans ce rapport, puisque ces accès ne se trouvent pas non plus dans le créneau du compte rendu des performances.
 
-Prenons un autre exemple similaire. La seule différence entre l’exemple suivant et l’exemple ci-dessus est les dates :
+Prenons un autre exemple semblable. La seule différence entre l’exemple suivant et celui ci-dessus se trouve au niveau des dates :
 
-1. Un utilisateur visite votre page d&#39;accueil à 23h55 le 31 août.
-1. Ils visitent plusieurs pages, dont la dernière s&#39;est produite à 12h05 le 1er septembre.
-1. Une semaine plus tard, vous lancez un rapport de tendance quotidien avec une plage de dates comprise entre le 1er septembre et le 7 septembre.
+1. Un utilisateur visite votre page d’accueil le 31 août à 23 h 55.
+1. Il consulte plusieurs pages, et la dernière consultation a lieu le 1er septembre à 00 h 05.
+1. Une semaine plus tard, vous lancez un rapport de tendance quotidienne sur une période allant du 1er au 7 septembre.
 
-Dans cet exemple, les entrées et le taux de rebonds n’affichaient pas les données du 31 août. La fenêtre de recherche et la fenêtre de rapports sont toutes les deux débuts le 1er septembre, de sorte que les données ne peuvent pas être attribuées à partir du 31 août.
+Dans cet exemple, les entrées et le taux de rebond n’afficheraient pas les données du 31 août. La période de recherche arrière et le créneau du compte rendu des performances démarrent tous les deux le 1er septembre, de sorte que les données ne peuvent pas être attribuées à partir du 31 août.
 
 ## Quand dois-je utiliser une recherche en amont de l’attribution de visites, de visiteurs ou personnalisée ?
 
