@@ -1,11 +1,11 @@
 ---
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1319'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Dans certains cas, un utilisateur individuel peut s’associer à un grand nombr
 
 ## Quelle est la différence entre la mesure Personnes des analyses entre appareils et la mesure Visiteurs uniques en dehors des analyses entre appareils ?
 
-La mesure [Personnes](/help/components/metrics/people.md) est similaire à la mesure [Visiteurs uniques](/help/components/metrics/unique-visitors.md) en ce sens qu’elle indique le nombre d’individus uniques. Toutefois, lors de l’utilisation d’Analyses entre appareils, les visiteurs uniques sont combinés lorsqu’ils sont enregistrés en tant que deux visiteurs uniques distincts en dehors des Analyses entre appareils. La mesure Personnes remplace la mesure Visiteurs uniques lorsque l’option Analyses sur plusieurs périphériques est activée. Une nouvelle mesure, [Périphériques uniques](/help/components/metrics/unique-devices.md), est disponible et est approximativement égale à Visiteurs uniques en dehors d’Analytics sur plusieurs périphériques.
+La mesure [Personnes](/help/components/metrics/people.md) est similaire à la mesure [Visiteurs uniques](/help/components/metrics/unique-visitors.md) en ce sens qu’elle indique le nombre d’individus uniques. Toutefois, lors de l’utilisation d’Analyses entre appareils, les visiteurs uniques sont combinés lorsqu’ils sont enregistrés en tant que deux visiteurs uniques distincts en dehors des Analyses entre appareils. La mesure « Personnes » remplace la mesure « Visiteurs uniques » lorsque la fonctionnalité Analytics sur l’ensemble des appareils est activée. Une nouvelle mesure, [Appareils uniques](/help/components/metrics/unique-devices.md), est disponible et est à peu près similaire à Visiteurs uniques en dehors d’Analytics sur l’ensemble des appareils.
 
 ## Quelle est la différence entre la mesure « Appareils uniques » des Analyses entre appareils et la mesure « Visiteurs uniques » hors Analyses entre appareils ?
 
@@ -75,7 +75,7 @@ Oui. Analysis Workspace utilise l’API 2.0 pour demander des données aux ser
 2. Cliquez sur l’icône de débogage dans le panneau de votre choix, puis sélectionnez la visualisation souhaitée et l’heure de la requête.
 3. Recherchez la demande JSON, que vous pouvez utiliser dans votre appel d’API à Adobe.
 
-## Les Analyses entre appareils peuvent regrouper des visiteurs uniques. Peut-il réunir les visites ?
+## Les Analyses entre appareils peuvent regrouper des visiteurs uniques. Peuvent-ils regrouper des visites ?
 
 Oui. Si une personne envoie des accès à partir de deux appareils distincts dans le délai d’expiration de visite de votre suite de rapports virtuelle (30 minutes par défaut), ils sont regroupés au sein de la même visite.
 
