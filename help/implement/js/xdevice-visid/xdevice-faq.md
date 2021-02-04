@@ -1,11 +1,11 @@
 ---
 title: FAQ sur l’identification des visiteurs sur plusieurs appareils
 description: Questions fréquentes sur l’identification des visiteurs sur plusieurs appareils
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 89%
 
 Questions fréquentes sur l’identification des visiteurs sur plusieurs appareils.
 
-**Quelle est la différence entre l’identification des visiteurs sur plusieurs périphériques et l’analyse entre plusieurs périphériques ?**
+**Quelle est la différence entre l’identification des visiteurs sur plusieurs appareils et Analytics sur l’ensemble des appareils ?**
 
 L’identification des visiteurs sur plusieurs appareils utilise la variable `visitorID` pour relier les appareils, avec plusieurs limitations majeures. L’une des plus grandes limites de cette méthode d’identification est que les accès non authentifiés sont isolés, sauf si l’appareil a déjà été reconnu. Ces accès non authentifiés peuvent gonfler le nombre de visiteurs uniques.
 
-Analytics sur plusieurs périphériques est la dernière méthode d’identification des visiteurs sur plusieurs périphériques utilisée par l’Adobe. Il utilise le service Experience Cloud ID et le graphique d’appareils pour assembler rétroactivement les visites de différents appareils. CDA exige l’utilisation de la fonction `setCustomerIDs` pour déterminer les appareils utilisés par le même visiteur.
+Analytics sur l’ensemble des appareils est la dernière méthode d’identification des visiteurs sur plusieurs appareils d’Adobe. Il utilise le service Experience Cloud ID et le graphique d’appareils pour assembler rétroactivement les visites de différents appareils. CDA exige l’utilisation de la fonction `setCustomerIDs` pour déterminer les appareils utilisés par le même visiteur.
 
 **Comment l’identification des visiteurs sur plusieurs appareils gère-t-elle les segments ?**
 
