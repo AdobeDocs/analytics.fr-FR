@@ -1,9 +1,9 @@
 ---
 title: Guide Adobe Analytics pour le premier administrateur
 description: Découvrez comment faire vos premiers pas avec Adobe Analytics, les types de rôles généraux et la connexion à l’interface utilisateur.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
@@ -58,6 +58,6 @@ L’accès administrateur de produit pour Experience Platform Launch est presque
 
 ## Étapes suivantes
 
-[Créer une suite de rapports](create-report-suite.md) : demandez à votre administrateur Analytics de se connecter à l’outil et de créer une suite de rapports pour la collecte de données.
+[Créer une suite de rapports](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) : demandez à votre administrateur Analytics de se connecter à l’outil et de créer une suite de rapports pour la collecte de données.
 
 [Créer une propriété dans Experience Platform Launch](/help/implement/launch/create-analytics-property.md) : demandez à votre administrateur Experience Platform Launch de se connecter à l’outil et de créer une propriété à implémenter sur votre site.
