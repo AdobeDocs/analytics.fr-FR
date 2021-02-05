@@ -5,9 +5,9 @@ user-guide-title: Guide d’administration Analytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez comment gérer les utilisateurs et les produits dans Experience Cloud Admin Console, comment configurer des suites de rapports, et bien plus encore.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '717'
 ht-degree: 99%
 
 ---
@@ -115,7 +115,6 @@ ht-degree: 99%
       + [Éléments d’autorisation liés aux outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
       + [Éléments d’autorisation liés aux outils Analytics](admin-console/permissions/analytics-tools.md)
    + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
-   + [Création d’une suite de rapports](admin-console/create-report-suite.md)
 + Paramètres de l’entreprise {#company-settings}
    + [Paramètres d’entreprise - Aperçu](company/c-company-settings.md)
    + [Niveaux d’accès aux fonctions](company/feature-access-levels.md)
