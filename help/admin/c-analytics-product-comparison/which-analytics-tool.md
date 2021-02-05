@@ -3,10 +3,10 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 97%
+source-wordcount: '1186'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/hel
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
+>La fin de vie d’Ad Hoc Analysis a été fixée au 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
 
 * Si une organisation des onglets du projet est requise.
 * Pour utiliser le rapport Analyse de site (rapport de cheminement 3D).
@@ -68,13 +68,17 @@ Les **[sources de données](/help/import/c-data-sources/datasrc-home.md)** doiv
    * ID de transaction : téléchargements de données qui connectent un point de terminaison en ligne à des données hors ligne et associent complètement des données importées à un instantané de visiteur capturé en ligne (par exemple, des commandes effectuées en ligne et retournées hors ligne).
    * Traitement complet : sources de données horodatées traitées comme s’il s’agissait d’un accès collecté par les serveurs Adobe. En d’autres termes, les données sont insérées directement dans le parcours du visiteur.
 
-**[Data Connectors ](https://www.adobeexchange.com/experiencecloud.html)(anciennement connus sous le nom de Genesis)** doit être utilisé :
+**[Les ](https://www.adobeexchange.com/experiencecloud.html)** connecteurs de données doivent être utilisés :
 
 * Lorsque vous collaborez avec un fournisseur tiers qui a établi une connexion prise en charge par Adobe Analytics. En général, Data Connectors intègre périodiquement des données sommaires dans Adobe Analytics de façon permanente et automatique.
 
 L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-insertion-api.md)** doit être utilisée :
 
 * Lorsque vous devez transférer des données dans Adobe Analytics et que vous ne pouvez pas utiliser le code Adobe AppMeasurement ou SDK mobile.
+
+API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* L&#39;API d&#39;insertion de données et l&#39;API d&#39;insertion de données en bloc sont deux méthodes pour envoyer des données de collecte côté serveur à Adobe Analytics. Les appels d&#39;API d&#39;insertion de données sont effectués un événement à la fois. L&#39;API d&#39;insertion de données en bloc accepte les fichiers au format CSV contenant des données de événement, un événement par ligne. Si vous travaillez sur une nouvelle implémentation de la collecte côté serveur, nous vous recommandons d&#39;utiliser l&#39;API d&#39;insertion de données en bloc.
 
 **[Les attributs du client](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html)** doivent être utilisés :
 
@@ -86,7 +90,7 @@ L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-i
 * Si vous souhaitez incorporer des données d’audience Adobe Audience Manager (AAM) telles que des données démographiques (par exemple, le sexe ou le niveau de revenu), des données psychographiques (par exemple, les centres d’intérêt et les loisirs), des données de gestion de la relation client ou des données d’impression publicitaire dans n’importe quel workflow d’Analytics.
 * Si vous souhaitez que les données de gestion de la relation client téléchargées soient basées sur le temps, car cette intégration envoie de nouvelles informations à Analytics après chaque accès.
 
-## Exportation de données depuis Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
+## Exportation de données depuis Adobe Analytics  {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** doit être utilisé :
 
