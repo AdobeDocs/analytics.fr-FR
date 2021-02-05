@@ -1,9 +1,9 @@
 ---
 title: Suites de rapports globales dans Adobe Analytics
 description: Découvrez les avantages et les conditions requises pour utiliser une suite de rapports globale.
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Dans la plupart des cas, Adobe recommande de mettre en œuvre une suite de rappo
 
 Suivez les instructions générales suivantes pour comprendre le processus de mise en œuvre d’une suite de rapports globale.
 
-1. Créez la suite de rapports globale dans Adobe Analytics. Voir [Création d’une suite de rapports](../../admin/admin-console/create-report-suite.md) dans le guide d’utilisation Administrateur pour en savoir plus.
+1. Créez la suite de rapports globale dans Adobe Analytics. Voir [Création d’une suite de rapports](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) dans le guide d’utilisation Administrateur pour en savoir plus.
 1. Travaillez avec les équipes de votre entreprise responsables de chaque domaine. De nombreuses équipes ont des exigences de rapport spécifiques à leur secteur d’activité.
 1. Enregistrez et consolidez toutes ces exigences dans un [document de conception de solution](solution-design.md). Si des équipes ont des exigences similaires pour une dimension, elles peuvent utiliser la même variable personnalisée. Par exemple, si les sites A et B nécessitent tous deux une dimension de chemin de navigation, les mises en œuvre des deux sites peuvent envoyer ces données par le biais d’eVar1.
 
