@@ -4,11 +4,11 @@ subtopic: Current Data
 title: Données actives
 topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Les données actives sont activées par défaut sur tous les rapports qui les pr
 
 * Utilisez Analysis Workspace qui utilise les données entièrement traitées.
 * Cliquez sur « Non » dans le paramètre du rapport des données actives pour n’utiliser que les données entièrement traitées.
-* Supprimez l’élément d’autorisation « Données actives » d’un profil produit dans la Admin Console pour empêcher les utilisateurs non administrateurs de voir cette option. Pour plus d’informations, consultez la section [Éléments d’autorisation des outils d’analyse](/help/admin/admin-console/permissions/analytics-tools.md) dans le guide d’utilisation destiné à l’administrateur.
+* Supprimez l’élément d’autorisation « Données actives » d’un profil produit dans la Admin Console pour empêcher les utilisateurs non administrateurs de voir cette option. Pour plus d’informations, voir [Autorisations de profil de produits pour les outils Analytics](/help/admin/admin-console/permissions/analytics-tools.md) dans le guide de l’utilisateur Admin.
 
 En raison de la priorisation de la disponibilité des données, les données actives ne peuvent pas être utilisées pour le moment avec les segments, les classifications, les ventilations, les cheminements et certaines mesures. Si vous utilisez l’une de ces fonctionnalités, les données actives sont forcées sur « Non » dans le rapport et un avertissement en jaune s’affiche pour vous expliquer la raison pour laquelle les données actives ne sont pas disponibles.
 
