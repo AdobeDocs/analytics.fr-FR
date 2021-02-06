@@ -1,14 +1,14 @@
 ---
-source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '643'
-ht-degree: 72%
+source-wordcount: '646'
+ht-degree: 67%
 
 ---
-# Profils de produit dans Adobe Analytics
+# Profils de produits pour Adobe Analytics
 
-Les profils de produit sont un paramètre d’autorisation prédéfini que les administrateurs de produit peuvent attribuer aux utilisateurs d’une entreprise. Si vous créez un profil de produit et que vous lui affectez un utilisateur Experience Cloud, il hérite des éléments d’autorisation contenus dans le profil de produit.
+Les profils de produits sont des paramètres prédéfinis d’autorisation que les administrateurs de produits peuvent affecter aux utilisateurs au sein d’une organisation. Si vous créez un profil de produit et que vous lui affectez un utilisateur Experience Cloud, il hérite des éléments d’autorisation contenus dans le profil de produit.
 
 Voir [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products-and-profiles.html) dans le guide de l’utilisateur Enterprise pour obtenir des informations générales sur les profils de produit.
 
@@ -50,7 +50,7 @@ Les éléments d’autorisation liés aux outils de suites de rapports octroient
 
 ### Outils Analytics
 
-Les éléments d’autorisation liés aux outils Analytics octroient l’accès à des fonctionnalités indépendantes des paramètres de suite de rapports. Pour obtenir la liste complète des descriptions et des éléments d’autorisation, reportez-vous à la section [Outils Analytics](analytics-tools.md).
+Les éléments d’autorisation liés aux outils Analytics octroient l’accès à des fonctionnalités indépendantes des paramètres de suite de rapports. Voir [Autorisations de profil de produits pour les outils Analytics](analytics-tools.md) pour obtenir une liste complète des éléments d’autorisation et des descriptions.
 
 ## Développeurs de profil de produit
 
