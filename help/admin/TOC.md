@@ -5,10 +5,10 @@ user-guide-title: Guide d’administration Analytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez comment gérer les utilisateurs et les produits dans Experience Cloud Admin Console, comment configurer des suites de rapports, et bien plus encore.
 translation-type: tm+mt
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 99%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -108,12 +108,12 @@ ht-degree: 99%
       + [Définition de la variable Visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Scénario d’utilisation - Extraction d’ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestion des vidéos](admin/video-management.md)
-+ Admin Console pour Experience Cloud {#admin-console}
-   + [Aide d’Admin Console pour Experience Cloud](admin-console/home.md)
++ Analytics dans Adobe Admin Console {#admin-console}
+   + [Analytics dans Adobe Admin Console](admin-console/home.md)
    + Autorisations {#permissions}
-      + [Aide sur le profil du produit](admin-console/permissions/product-profile.md)
-      + [Éléments d’autorisation liés aux outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
-      + [Éléments d’autorisation liés aux outils Analytics](admin-console/permissions/analytics-tools.md)
+      + [Profils de produits pour Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Autorisations de profil de produits pour les outils de Report Suite](admin-console/permissions/report-suite-tools.md)
+      + [Autorisations du profil de produits pour les outils Analytics](admin-console/permissions/analytics-tools.md)
    + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
 + Paramètres de l’entreprise {#company-settings}
    + [Paramètres d’entreprise - Aperçu](company/c-company-settings.md)
