@@ -1,9 +1,12 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '558'
+ht-degree: 98%
 
 ---
-# Éléments d’autorisation liés aux outils Analytics
+# Autorisations du profil de produits pour les outils Analytics
 
 Les éléments d’autorisation liés aux outils Analytics permettent d’accéder aux fonctionnalités d’Adobe Analytics. Les éléments d’autorisation liés aux outils Analytics ne s’appliquent pas à une suite de rapports, mais à Adobe Analytics dans son ensemble.
 
