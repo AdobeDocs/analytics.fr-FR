@@ -1,12 +1,12 @@
 ---
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-translation-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
-# Outils de suites de rapports répertoriés dans les autorisations de profil de produit
+# Autorisations de profil de produits pour les outils de Report Suite
 
 Utilisez cette page pour comprendre chaque élément d’autorisation sous Outils de suite de rapports.
 
