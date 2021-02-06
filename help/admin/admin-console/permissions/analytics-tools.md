@@ -1,9 +1,9 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '558'
-ht-degree: 98%
+source-wordcount: '559'
+ht-degree: 97%
 
 ---
 # Autorisations du profil de produits pour les outils Analytics
@@ -39,7 +39,7 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Accès à Analysis Workspace | Octroie l’accès à Analysis Workspace. Les utilisateurs doivent appartenir à ce groupe (préféré) ou disposer d’un accès aux Reports &amp; Analytics pour utiliser Adobe Analytics. |
 | Accès aux Reports &amp; Analytics | Octroie l’accès aux Reports &amp; Analytics. Les utilisateurs doivent appartenir à ce groupe ou disposer d’un accès aux Analysis Workspace (recommandé) pour utiliser Adobe Analytics. |
 | Analysis Workspace : enregistrer comme modèle | Accorde l’accès à Projet > Enregistrer comme modèle dans Analysis Workspace. |
-| Accès aux laboratoires | En cours de développement. Une fois sorti, il donnera l’accès à Labs. |
+| Accès aux laboratoires | Donnez aux utilisateurs l&#39;accès aux laboratoires et aux prototypes dans les laboratoires. |
 | Création de mesure calculée | Permet de créer des mesures calculées pour toutes les fonctionnalités d’Analytics. |
 | Création de segment | Permet de créer et de partager des segments dans toutes les fonctionnalités d’Analytics. |
 | Gestion Advertising Analytics | Inutilisé. |
