@@ -3,7 +3,7 @@ description: Les suites de rapports virtuelles peuvent être traitées de maniè
 title: Traitement des composants des suites de rapports virtuelles
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 780d1d70c1bef907ef3dc1a942eaf399c9d3ba48
+source-git-commit: 07aa9068e4500d11a80d1e340912b249156fd3b9
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
@@ -31,13 +31,14 @@ Pour activer le traitement des composants,
    >[!NOTE]
    >
    >Si la personnalisation des composants est activée, la suite de rapports virtuelle est **accessible uniquement dans Analysis Workspace** et ne l’est pas dans :
+   >
+   >* [!UICONTROL Reports &amp; Analytics]
+   >* [!UICONTROL Ad Hoc Analysis]
+   >* [!UICONTROL Data Warehouse]
+   >* [!UICONTROL Report Builder]
+   >* [!UICONTROL Activity Map ]
+   >* API de création de rapports dans Analytics
 
-   * [!UICONTROL Reports &amp; Analytics]
-   * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL Data Warehouse]
-   * [!UICONTROL Report Builder]
-   * [!UICONTROL Activity Map ]
-   * API de création de rapports dans Analytics
 
    Une fois la case activée, vous pouvez ajouter les composants que vous souhaitez inclure dans la suite de rapports virtuelle en les faisant glisser de la colonne « exclus » vers la colonne « inclus ». Les composants pouvant être inclus et exclus sont les suivants :
 
@@ -70,6 +71,6 @@ Utilisez les groupes de composants pour ajouter des composants en vrac à la sui
 
 ![](assets/vrs-comp-grp.png)
 
-## Comportement de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Comportement de Workspace  {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 Pour plus d’informations sur le traitement dans Analysis Workspace, voir [Traitement et partage d’un projet](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.html).
