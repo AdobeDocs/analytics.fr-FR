@@ -3,10 +3,10 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
+source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 93%
+source-wordcount: '1162'
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ Cette page d’aide comporte des cas d’utilisation recommandés pour chaque ou
 
 Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
-## Interfaces utilisateurs de la création de rapports Adobe Analytics {#section_8265460EBB47405AB19A3B2B0729C8A4}
+## Interfaces utilisateurs de la création de rapports Adobe Analytics {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** devrait être l’interface utilisateur de référence pour tous vos besoins en matière de création de rapports et d’analyse. Adobe continue d’investir dans ce produit et publie des mises à jour mensuelles. S’il y a une tâche que vous ne pouvez pas faire dans Analysis Workspace, considérez les autres interfaces ci-dessous.**
 
@@ -31,15 +31,6 @@ Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/hel
 * Pour accéder à des visualisations vidéo uniques de la partie horaire de la vidéo et au menu déroulant de la visionneuse.
 * Pour tirer parti des Listes de publication dans les rapports programmés.
 
-**[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** doit être utilisé :
-
->[!IMPORTANT]
->
->La fin de vie d’Ad Hoc Analysis a été fixée au 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
-
-* Si une organisation des onglets du projet est requise.
-* Pour utiliser le rapport Analyse de site (rapport de cheminement 3D).
-
 **[Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/home.html)** doit être utilisé :
 
 * En tant qu’option d’outil Analytics la plus souple (jusqu’à l’analyse au niveau des visiteurs et des accès).
@@ -49,7 +40,7 @@ Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/hel
 * Pour l’analyse de latence (durée avant/depuis un événement).
 * Pour l’identification et l’exportation de segments complexes par l’intermédiaire d’Adobe Experience Cloud.
 
-## Importation de données dans Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## Importation de données dans Adobe Analytics {#import}
 
 **[Les classifications](/help/components/classifications/c-classifications.md)** doivent être utilisées :
 
@@ -90,14 +81,14 @@ API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/
 * Si vous souhaitez incorporer des données d’audience Adobe Audience Manager (AAM) telles que des données démographiques (par exemple, le sexe ou le niveau de revenu), des données psychographiques (par exemple, les centres d’intérêt et les loisirs), des données de gestion de la relation client ou des données d’impression publicitaire dans n’importe quel workflow d’Analytics.
 * Si vous souhaitez que les données de gestion de la relation client téléchargées soient basées sur le temps, car cette intégration envoie de nouvelles informations à Analytics après chaque accès.
 
-## Exportation de données depuis Adobe Analytics  {#section_901C06ABF2014E92B2952906723DF235}
+## Exportation de données depuis Adobe Analytics  {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** doit être utilisé :
 
 * Si les options de disposition personnalisées de Workspace sont limitées (tout est possible dans le Report Builder, dans les limites d’Excel).
 * Pour lier vaguement des entrées utilisateur ou des sources de données hors ligne (impressions, coût) à des données Adobe. L’option Sources de données constitue une solution plus permanente pour lier les données (voir Importation de données dans Analytics).
 * Pour fusionner des données depuis différents rapports dimensionnels (par exemple un rapport d’impressions promo joint à un rapport clic jusqu’à la conversion promo).
-* Pour les affichages de suite de rapports croisés.
+* Pour fusionner les données de différentes suites de rapports, soit en additionnant, soit en les affichant dans le même tableau côte à côte.
 * Si l’automatisation par l’intermédiaire de la planification est souhaitée (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** doit être utilisé :
@@ -120,7 +111,7 @@ Les **[API de création de rapports](https://www.adobe.io/apis/experiencecloud/a
 * **Temps réel** : lorsque vous souhaitez voir quelques mesures et dimensions avec des secondes de latence. Il s’agit de données limitées, partiellement traitées et résumées, disponibles sous 30 secondes environ. Inclut des algorithmes uniques, des plus populaires, des gagnants et des perdants. Utilisation possible par l’intermédiaire du Report Builder.
 * **[!UICONTROL Livestream]** : lorsque vous souhaitez un flux de données Analytics de niveau accès traitées partiellement, dans les secondes suivant la collecte. Il s’agit de données partiellement traitées, disponibles sous 30 secondes environ. Disponible pour Analytics Premium uniquement. Nécessite une méthode de visualisation des données, généralement par l’intermédiaire de services d’ingénierie.
 
-## Solutions personnalisées {#section_4A212F26A15947599DFB0399A0440CB6}
+## Solutions personnalisées {#custom-solutions}
 
 Les services d’ingénierie doivent être utilisés lorsque :
 
