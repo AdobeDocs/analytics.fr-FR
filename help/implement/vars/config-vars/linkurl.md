@@ -1,11 +1,11 @@
 ---
 title: linkURL
 description: Permet de remplacer l’URL de lien générée automatiquement utilisée par AppMeasurement dans les appels de suivi des liens.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,4 @@ La variable `s.linkURL` est une chaîne contenant l’URL du navigateur lorsque 
 s.linkURL = "https://example.com";
 ```
 
-Si le troisième argument de la méthode [tl()](../functions/tl-method.md) n&#39;est pas défini, la variable `linkURL` est utilisée à la place.
+Si le troisième argument de la méthode [tl()](../functions/tl-method.md) n’est pas défini, la variable `linkURL` est utilisée à la place.
