@@ -1,36 +1,36 @@
 ---
-title: webBot
-description: Identifiez dynamiquement les robots à l’aide du mouvement de la souris.
-translation-type: tm+mt
+title: websiteBot
+description: Identifiez dynamiquement les robots à l’aide des mouvements de souris.
+translation-type: ht
 source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
-# Module externe Adobe : webBot
+# Module Adobe : websiteBot
 
 >[!IMPORTANT]
 >
 >Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
-Le module externe `websiteBot` vous permet d’identifier de manière dynamique si les visiteurs de bureau sont des robots. Vous pouvez utiliser ces données pour accroître la précision de tous les types de rapports, ce qui vous permet de mieux mesurer le trafic légitime du site.
+Le module `websiteBot` vous permet d’identifier de manière dynamique les visiteurs du bureau qui sont des robots. Vous pouvez utiliser ces données pour accroître la précision de tous les types de comptes rendus des performances, ce qui vous permet de mieux mesurer le trafic légitime sur le site.
 
-Ce module externe effectue deux vérifications :
+Ce module effectue deux vérifications :
 
-* Tout d&#39;abord, il détermine si le périphérique est un ordinateur de bureau ou un périphérique mobile à l&#39;aide de la variable `navigator.UserAgent`. Les périphériques mobiles sont ignorés.
-* S’il s’agit d’un périphérique de bureau, il ajoute un écouteur de événement pour le mouvement de la souris.
+* Tout d’abord, il détermine si l’appareil est un ordinateur ou un appareil mobile à l’aide de la variable `navigator.UserAgent`. Les appareils mobiles sont ignorés.
+* S’il s’agit d’un ordinateur, il ajoute un écouteur d’événements pour les mouvements de souris.
 
-Si l&#39;agent utilisateur se trouve sur un bureau et qu&#39;aucun mouvement de souris n&#39;est détecté, le module externe définit la variable `websiteBot` sur `true`. Si l&#39;agent utilisateur est un périphérique mobile ou si le mouvement de la souris est détecté, le module externe définit la variable `websiteBot` sur `false`.
+Si l’agent utilisateur se trouve sur un ordinateur de bureau et qu’aucun mouvement de souris n’est détecté, le module définit la variable `websiteBot` sur `true`. Si l’agent utilisateur est un appareil mobile ou si un mouvement de souris est détecté, le module définit la variable `websiteBot` sur `false`.
 
 ## Conditions préalables
 
-Adobe recommande les éléments suivants avant d’utiliser ce module externe :
+Adobe recommande d’effectuer les actions suivantes avant d’utiliser ce module :
 
-* **Configurez les paramètres** d&#39;eVar : Configurez un eVar sous  [Variables de ](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversion dans les paramètres de la suite de rapports. Définissez l’expiration sur **&quot;Visiteur&quot;** et l’attribution sur **&quot;Valeur d’origine (première)&quot;**.
-* **Collecte de l’agent utilisateur dans une variable** distincte : Collectez la chaîne de l’agent utilisateur dans une variable distincte pour contrôler l’efficacité de ce module externe. Définissez un eVar sur `navigator.UserAgent` pour chaque accès afin de collecter ces données.
+* **Configurez les paramètres d’eVar** : définissez une eVar sous [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports. Définissez l’expiration sur **« Visiteur »** et l’attribution sur **« Valeur d’origine (première) »**.
+* **Collectez l’agent utilisateur dans une variable distincte** : collectez la chaîne de l’agent utilisateur dans une variable distincte pour contrôler l’efficacité de ce module. Définissez une eVar sur `navigator.UserAgent` pour chaque accès afin de collecter ces données.
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
 
@@ -54,7 +54,7 @@ websiteBot=true;if(!/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|bla
 
 ## Utilisation du plug-in
 
-La variable `websiteBot` est une valeur booléenne. Elle renvoie `true` si le module externe détecte un bot ; sinon, elle renvoie `false`.
+La variable `websiteBot` est une valeur booléenne. Elle renvoie `true` si le module détecte un robot. Dans le cas contraire, elle renvoie `false`.
 
 ## Exemples
 
@@ -68,6 +68,6 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 
 ## Historique des versions
 
-### 0.1 (19 janvier 2021)
+### 0.1 (19 janvier 2021)
 
 * Version bêta.
