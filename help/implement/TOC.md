@@ -4,11 +4,11 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,11 +118,11 @@ ht-degree: 99%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [Suite de numéros](vars/plugins/numberssuite.md)
+      + [Numbers Suite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-      + [webBot](vars/plugins/websitebot.md)
+      + [websiteBot](vars/plugins/websitebot.md)
    + [Module Integrate](vars/integrate.md)
 + Préparation à la mise en œuvre d’Adobe Analytics {#prepare}
    + [Création d’une couche de données](prepare/data-layer.md)
