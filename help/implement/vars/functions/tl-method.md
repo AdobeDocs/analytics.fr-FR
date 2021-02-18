@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Appelez la méthode `s.tl()` lorsque vous souhaitez envoyer un appel de suivi à
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Objet Link (obligatoire)
+### Objet du lien (obligatoire)
 
 L’argument d’objet du lien détermine si le navigateur attend jusqu’à 500 ms avant de quitter la page. Si une demande d’image est envoyée avant 500 ms, la page accède immédiatement au lien sur lequel l’utilisateur a cliqué.
 
@@ -58,11 +58,11 @@ s.tl(true,"e","Example exit link");
 
 ### Type de lien (obligatoire)
 
-L&#39;argument type de lien est une chaîne à caractère unique qui détermine le type d&#39;appel de suivi de lien. Il existe trois valeurs valides.
+L’argument de type de lien est une chaîne d’un seul caractère qui détermine le type d’appel de suivi des liens. Il existe trois valeurs valides.
 
-* `o`: Le lien est un lien [ ](/help/components/dimensions/custom-link.md)personnalisé.
-* `d`: Il s’agit d’un lien [ de ](/help/components/dimensions/download-link.md)téléchargement.
-* `e`: Le lien est un lien [ de ](/help/components/dimensions/exit-link.md)sortie.
+* `o` : le lien est un [lien personnalisé](/help/components/dimensions/custom-link.md).
+* `d` : le lien est un [lien de téléchargement](/help/components/dimensions/download-link.md).
+* `e` : le lien est un [lien de sortie](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
@@ -77,7 +77,7 @@ s.tl(true,"e","Example exit link");
 
 ### Nom du lien (recommandé)
 
-L’argument du nom du lien est une chaîne qui détermine l’élément de dimension de suivi des liens. Lorsque vous utilisez les dimensions [Lien personnalisé](/help/components/dimensions/custom-link.md), [Lien de téléchargement](/help/components/dimensions/download-link.md) ou [Lien de sortie](/help/components/dimensions/exit-link.md) dans le rapports, cette chaîne contient l’élément de dimension. Si cet argument n&#39;est pas défini, la variable [linkURL](../config-vars/linkurl.md) est utilisée.
+L’argument du nom du lien est une chaîne qui détermine l’élément de dimension de suivi des liens. Cette chaîne contient l’élément de dimension lorsque vous utilisez les dimensions [Lien personnalisé](/help/components/dimensions/custom-link.md), [Lien de téléchargement](/help/components/dimensions/download-link.md) ou [Lien de sortie](/help/components/dimensions/exit-link.md) dans le compte rendu des performances. Si cet argument n’est pas défini, la variable [linkURL](../config-vars/linkurl.md) est utilisée.
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
