@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/hel
 * Pour configurer les événements du calendrier.
 * Pour configurer les cibles.
 * Pour afficher les rapports des robots.
-* Pour accéder à des visualisations vidéo uniques de la partie horaire de la vidéo et au menu déroulant de la visionneuse.
+* Pour accéder à des visualisations vidéo uniques relatives à la Tranche horaire de la vidéo et à l’Abandon du visionnage.
 * Pour tirer parti des Listes de publication dans les rapports programmés.
 
 **[Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/home.html)** doit être utilisé :
@@ -59,7 +59,7 @@ Les **[sources de données](/help/import/c-data-sources/datasrc-home.md)** doiv
    * ID de transaction : téléchargements de données qui connectent un point de terminaison en ligne à des données hors ligne et associent complètement des données importées à un instantané de visiteur capturé en ligne (par exemple, des commandes effectuées en ligne et retournées hors ligne).
    * Traitement complet : sources de données horodatées traitées comme s’il s’agissait d’un accès collecté par les serveurs Adobe. En d’autres termes, les données sont insérées directement dans le parcours du visiteur.
 
-**[Les ](https://www.adobeexchange.com/experiencecloud.html)** connecteurs de données doivent être utilisés :
+Les **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** doivent être utilisés :
 
 * Lorsque vous collaborez avec un fournisseur tiers qui a établi une connexion prise en charge par Adobe Analytics. En général, Data Connectors intègre périodiquement des données sommaires dans Adobe Analytics de façon permanente et automatique.
 
@@ -69,7 +69,7 @@ L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-i
 
 API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* L&#39;API d&#39;insertion de données et l&#39;API d&#39;insertion de données en bloc sont deux méthodes pour envoyer des données de collecte côté serveur à Adobe Analytics. Les appels d&#39;API d&#39;insertion de données sont effectués un événement à la fois. L&#39;API d&#39;insertion de données en bloc accepte les fichiers au format CSV contenant des données de événement, un événement par ligne. Si vous travaillez sur une nouvelle implémentation de la collecte côté serveur, nous vous recommandons d&#39;utiliser l&#39;API d&#39;insertion de données en bloc.
+* L’API d’insertion de données et l’API d’insertion de données en bloc sont deux méthodes d’envoi de données de collecte côté serveur à Adobe Analytics. Les appels de l’API d’insertion de données sont effectués un événement à la fois. L’API d’insertion de données en bloc accepte les fichiers au format CSV contenant des données d’événement, un événement par ligne. Si vous travaillez sur une nouvelle implémentation de la collecte côté serveur, nous vous recommandons d’utiliser l’API d’insertion de données en bloc.
 
 **[Les attributs du client](https://docs.adobe.com/content/help/fr-FR/core-services/interface/customer-attributes/attributes.html)** doivent être utilisés :
 
