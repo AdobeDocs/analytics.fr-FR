@@ -1,9 +1,9 @@
 ---
 title: Guide Adobe Analytics pour le premier administrateur
 description: Découvrez comment faire vos premiers pas avec Adobe Analytics, les types de rôles généraux et la connexion à l’interface utilisateur.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
 ht-degree: 100%
 
