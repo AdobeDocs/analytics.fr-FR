@@ -2,9 +2,9 @@
 description: Comment afficher l’utilisation actuelle des appels au serveur dans Adobe Analytics.
 title: Affichage de l’utilisation actuelle des appels au serveur
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 
