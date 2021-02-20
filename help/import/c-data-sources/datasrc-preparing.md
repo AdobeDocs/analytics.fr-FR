@@ -4,9 +4,9 @@ subtopic: Data sources
 title: Préparation à l’utilisation des sources de données
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Après avoir défini les portées de données à utiliser avec une source de don
 
 Lors de l’utilisation d’eVar, vous pouvez utiliser comme portées de données des eVar existantes ou nouvelles. Après avoir sélectionné une eVar pour recevoir une portée de données à partir des sources de données, veillez à la nommer de façon appropriée.
 
-Voir [Événements de succès](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide d’Analytics.
+Voir [Événements de succès](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide d’Analytics.
 
 ## Code de suivi de campagne {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +63,7 @@ Si vous n’importez pas les mesures de sources de données avec une valeur d’
 
 L’ID de transaction permet de connecter un événement en ligne à un événement hors ligne.
 
-## Identification d’une plage de dates valide pour des données de source de données {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## Identification d’une plage de dates valide pour des données de source de données  {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 Une fois définies vos mesures de sources de données (événements personnalisés) et vos portées de données (eVars), passez en revue la plage de dates des données de sources de données à importer. Vous ne pouvez pas importer des sources de données qui se situent en dehors de la plage de vos données de rapport existantes.
 
