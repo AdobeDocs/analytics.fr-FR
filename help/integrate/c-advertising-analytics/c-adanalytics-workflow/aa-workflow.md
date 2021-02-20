@@ -1,5 +1,5 @@
 ---
-description: Présentation du flux de travaux Advertising Analytics.
+description: Présentation du processus Advertising Analytics.
 title: Workflow - Aperçu
 translation-type: tm+mt
 source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
@@ -18,7 +18,7 @@ Voir [Mappage de suites de rapports à une organisation](https://docs.adobe.com/
 
 ![](assets/step2_icon.png) [Activation du reporting Advertising Analytics par suite de rapports](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
+Active le rapports [!UICONTROL Advertising Analytics] pour les suites de rapports activées pour Experience Cloud.
 
 ![](assets/step3_icon.png) [Configuration d’un compte Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -30,7 +30,7 @@ Remarque : les données de recherche sont extraites du moteur de recherche vers
 
 La création de rapports est disponible dans :
 
-* Analysis Workspace: [!UICONTROL Paid Search Performance] template
+* Analysis Workspace : [!UICONTROL Modèle Performance de recherche payante]
 * Reports &amp; Analytics
 * Report Builder
 * API de création de rapports dans Analytics
