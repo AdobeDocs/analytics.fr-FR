@@ -4,6 +4,9 @@ title: Activation de l’intégration
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
 translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 96%
 
 ---
 
@@ -12,8 +15,8 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Utilisez l’assistant de configuration des Data Connectors Adobe pour configurer l’intégration.
 
-1. Start [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
-1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
+1. Démarrez [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) et cliquez sur **[!UICONTROL + Ajouter nouveau]** pour [ajouter une nouvelle intégration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. Dans la liste **[!UICONTROL Affichage]**, sélectionnez **[!UICONTROL Par nom]** et faites glisser l’intégration du [!DNL ~Partner~] vers un emplacement de plug-in vide.
 1. Renseignez l’assistant d’intégration à l’aide des informations du tableau suivant :
 
 | Champ | Description |
@@ -25,7 +28,7 @@ Utilisez l’assistant de configuration des Data Connectors Adobe pour configure
 | Cliqué | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données Cliqué du courrier électronique importées du système de messagerie. L’événement Cliqué vous permet d’afficher le nombre de visiteurs qui ont cliqué sur le message électronique. |
 | ID de message | (Obligatoire) Stocke l’ID de publipostage unique. |
 | Ouvert | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données Ouvert du courrier électronique importées du système de messagerie. L’événement Ouvert vous permet d’afficher le nombre de visiteurs qui ont ouvert le message électronique. |
-| Recipient ID | (Obligatoire) Stocke l’identifiant visiteur unique. |
+| ID destinataire | (Obligatoire) Stocke l’identifiant visiteur unique. |
 | Envoyé | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données Envoyé du courrier électronique importées du système de messagerie. L’événement Envoyé vous permet d’afficher le nombre de messages électroniques envoyés. |
 | Retours | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données Rebonds au total du courrier électronique importées du système de messagerie. L’événement Rebonds au total vous permet d’afficher le nombre de messages électroniques qui n’ont pas été remis aux destinataires en raison d’un problème de livraison. |
 | Désabonné | (Obligatoire) Indiquez l’événement Adobe Analytics qui stocke les données Désabonné du courrier électronique importées du système de messagerie. L’événement Désabonné vous permet d’afficher le nombre de visiteurs qui ont ouvert le message électronique, mais qui ont cliqué sur le lien Se désabonner pour ne plus recevoir à l’avenir de messages électroniques de votre organisation. |
