@@ -137,7 +137,7 @@ Si vous devez migrer des comptes utilisateurs Adobe ID déjà existants vers un
  </tbody> 
 </table>
 
-Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/fr/enterprise/using/users.html)
+Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/enterprise/using/users.html)
 
 >[!NOTE]
 >
