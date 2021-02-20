@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Fichiers de données de classification
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1771'
 ht-degree: 100%
 
@@ -203,5 +203,5 @@ Pour classer les campagnes selon une période :
 
 ## Résolution des problèmes affectant les classifications
 
-* [Problèmes de chargement des courants](https://helpx.adobe.com/fr/analytics/kb/common-saint-upload-issues.html) : article de la base de connaissance décrivant les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.
+* [Problèmes de chargement des courants](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) : article de la base de connaissance décrivant les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.
 
