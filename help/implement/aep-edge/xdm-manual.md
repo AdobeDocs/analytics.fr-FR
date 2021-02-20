@@ -1,9 +1,9 @@
 ---
 title: Mappage manuel des données XDM vers Analytics
 description: 'Mappage manuel des données XDM d’Experience Platform vers Adobe Analytics '
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Pour être utilisées par Analytics, les données XDM sont aplaties à l’aide 
 
 ## Règles de traitement
 
-Toutes les données collectées par le réseau Edge sont accessibles via des [règles de traitement](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). Dans Analytics, vous pouvez utiliser des règles de traitement pour incorporer des données contextuelles dans des variables Analytics.
+Toutes les données collectées par le réseau Edge sont accessibles via des [règles de traitement](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). Dans Analytics, vous pouvez utiliser des règles de traitement pour incorporer des données contextuelles dans des variables Analytics.
 
 Par exemple, dans la règle suivante, Analytics est défini pour renseigner les **termes pour la recherche interne (eVar2)** avec les données associées à **a.x_atag.search.term(Context Data)**.
 
@@ -83,4 +83,4 @@ alloy("event",{
 });
 ```
 
-Pour plus d’informations sur le suivi des événements à l’aide du SDK Web AEP, consultez [Suivi des événements](https://docs.adobe.com/content/help/fr-FR/experience-platform/edge/fundamentals/tracking-events.html).
+Pour plus d’informations sur le suivi des événements à l’aide du SDK Web AEP, consultez [Suivi des événements](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html).
