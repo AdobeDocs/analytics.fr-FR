@@ -1,9 +1,9 @@
 ---
 description: Vous ne pouvez pas combiner le Créateur de règles de classification avec des sous-classifications.
 title: Sous-classifications et le Créateur de règles
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
