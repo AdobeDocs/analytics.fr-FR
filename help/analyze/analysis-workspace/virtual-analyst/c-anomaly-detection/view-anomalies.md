@@ -2,9 +2,9 @@
 description: Vous pouvez afficher les anomalies dans un tableau ou un graphique en courbes.
 title: Affichage des anomalies dans Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
