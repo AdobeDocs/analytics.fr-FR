@@ -1,12 +1,12 @@
 ---
 title: Présentation des variables, fonctions, méthodes et plug-ins
 description: Découvrez les variables que vous pouvez inclure dans les données que vous envoyez à Adobe pour améliorer la création de rapports.
-keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: ht
+keywords: appmeasurement,variables,vars,configuration,page,implémentation
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '318'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '324'
+ht-degree: 98%
 
 ---
 
