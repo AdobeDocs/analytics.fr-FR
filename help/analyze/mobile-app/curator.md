@@ -1,9 +1,9 @@
 ---
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2380'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs en charge de l’exécution. Pour regarder une vidéo présentant ces informations, reportez-vous à la vidéo Créateur de fiches d’évaluation des tableaux de bord Adobe Analytics :
 
->[!VIDEO](https://video.tv.adobe.com/v/34544?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Introduction
 
