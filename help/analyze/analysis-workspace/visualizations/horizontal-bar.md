@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Barre horizontale et barres empilées horizontales
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 100%
 
