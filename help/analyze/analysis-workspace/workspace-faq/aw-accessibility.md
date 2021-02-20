@@ -22,9 +22,9 @@ L’accessibilité consiste à rendre les produits utilisables pour les personne
 
 La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le bas et de gauche à droite. Les éléments de navigation suivants facilitent l’accessibilité :
 
-* La touche `Tab` active des raccourcis de repère., en passant d’une section à l’autre dans Workspace. Dans le rail de gauche, `Tab` vous permet également de passer d’une option déplaçable à l’autre.
-* Le `left/right arrows` déplacement entre les éléments individuels après `Tab` l&#39;a mis en évidence.
-* L’utilisateur `F6` navigue jusqu’au premier panneau du projet et se déplace entre les visualisations dans ce panneau. Ensuite, il passe au panneau suivant du projet et se répète.
+* La touche `Tab` active des raccourcis de repère., en passant d’une section à l’autre dans Workspace. Dans le rail de gauche, `Tab` vous permet également de passer d&#39;une option déplaçable à l&#39;autre.
+* Le déplacement de `left/right arrows` entre des éléments individuels après `Tab` l&#39;a mis en évidence.
+* `F6` accède au premier panneau du projet et se déplace entre les visualisations dans ce panneau. Ensuite, il passe au panneau suivant du projet et se répète.
 * Nous appliquons des indicateurs de ciblage afin que les utilisateurs de clavier à vue normale aient une indication claire de l’élément de l’interface utilisateur actuellement ciblé. L’indicateur correspond à une bordure bleue autour de l’élément sélectionné.
 
    ![Indicateur de ciblage](assets/focus-indicator.png)
@@ -35,7 +35,7 @@ La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le ba
 1. Utilisez les touches fléchées gauche/droite pour accéder au menu de votre choix.
 1. Appuyez sur `Enter` pour sélectionner le menu et afficher ses options.
 1. Utilisez les touches fléchées Haut/Bas pour accéder à l&#39;option de menu de votre choix.
-1. Appuyez sur `Enter` pour sélectionner l’option.
+1. Appuyez sur `Enter` pour sélectionner l&#39;option.
 
 ### Navigation au clavier pour les interactions de glisser-déposer
 
