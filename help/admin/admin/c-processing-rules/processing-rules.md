@@ -28,7 +28,7 @@ Les règles de traitement simplifient la collecte de données et gèrent le cont
 
 ## Autorisations des règles de traitement {#section_8A4846688050453784DAE4D89355169A}
 
-Administrators have rights to use processing rules **by default**. Les administrateurs peuvent également octroyer ces droits à des utilisateurs qui ne sont pas administrateurs à l’aide de l’interface des outils d’administration. Pour obtenir des instructions, voir []
+Les administrateurs ont le droit d&#39;utiliser les règles de traitement **par défaut**. Les administrateurs peuvent également octroyer ces droits à des utilisateurs qui ne sont pas administrateurs à l’aide de l’interface des outils d’administration. Pour obtenir des instructions, voir []
 
 ![](assets/processing-rules.png)
 
@@ -44,11 +44,11 @@ Les variables de données contextuelles sont un type de variable disponible uniq
 
 Reportez-vous à la rubrique [Variables Données contextuelles](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/contextdata.html) dans l’aide d’implémentation.
 
-## Utiliser des règles de traitement pour transformer des données d’accès et des événements de déclenchement {#section_8284E72E999244E091CD7FB1A22342B6}
+## Utiliser des règles de traitement pour transformer des données d’accès et des événements de déclenchement  {#section_8284E72E999244E091CD7FB1A22342B6}
 
 Les règles de traitement peuvent contrôler les valeurs entrantes afin de transformer les fautes de frappe courantes et définir des événements sur la base de données reprises dans un rapport. Les variables prop peuvent être copiées sur des eVars. Les valeurs peuvent être concaténées et des événements peuvent être définis.
 
-## Utilisation des variables de données contextuelles dans les rapports {#section_BD098BC503024A0B8703596628071134}
+## Utilisation des variables de données contextuelles dans les rapports  {#section_BD098BC503024A0B8703596628071134}
 
 Lorsque les variables de données contextuelles ont été définies dans votre implémentation, elles doivent être copiées dans des variables telles que des eVar pour être utilisées dans les rapports.
 
