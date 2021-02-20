@@ -14,19 +14,19 @@ ht-degree: 78%
 
 Sur les plateformes tierces, telles que Google Analytics, plusieurs options de personnalisation sont disponibles. Ces personnalisations permettent à l’utilisateur de créer des tableaux de bord, des rapports personnalisés, des rapports enregistrés et des alertes personnalisées. Comme Analysis Workspace permet aux utilisateurs de créer des rapports à partir d’un canevas vierge, la plupart des personnalisations sont directement intégrées à l’outil.
 
-This page assumes the user has a basic knowledge of using [!UICONTROL Analysis Workspace]. Voir [Création d’un rapport de base dans Analysis Workspace pour les utilisateurs de Google Analytics](reports/create-report.md) si vous ne connaissez pas encore l’outil dans Adobe Analytics.
+Cette page suppose que l’utilisateur possède une connaissance de base de l’utilisation de [!UICONTROL Analysis Workspace]. Voir [Création d’un rapport de base dans Analysis Workspace pour les utilisateurs de Google Analytics](reports/create-report.md) si vous ne connaissez pas encore l’outil dans Adobe Analytics.
 
 ## Tableaux de bord
 
-The [!UICONTROL Analysis Workspace] architecture is built similar to the concept of dashboard widgets. Projects in [!UICONTROL Analysis Workspace] are the approximate equivalent to dashboards in Google Analytics. Visualizations in [!UICONTROL Analysis Workspace] are the approximate equivalent of widgets in Google Analytics.
+L&#39;architecture [!UICONTROL Analysis Workspace] est construite de la même façon que le concept des widgets de tableau de bord. Les projets en [!UICONTROL Analysis Workspace] sont l&#39;équivalent approximatif des tableaux de bord en Google Analytics. Les visualisations dans [!UICONTROL Analysis Workspace] sont l&#39;équivalent approximatif des widgets en Google Analytics.
 
 ### Ajout de contenu à un projet
 
-1. Click the [!UICONTROL Visualizations] icon on the left and drag the desired visualization onto the workspace.
-2. Click the [!UICONTROL Components] icon on the left and drag the desired dimensions and metrics onto the visualization to populate it with data.
+1. Cliquez sur l’icône [!UICONTROL Visualisations] sur la gauche et faites glisser la visualisation souhaitée sur l’espace de travail.
+2. Cliquez sur l’icône [!UICONTROL Composants] sur la gauche et faites glisser les dimensions et mesures de votre choix sur la visualisation pour la remplir avec des données.
 3. Faites glisser les bords de la visualisation pour la redimensionner, et faites glisser le titre de la visualisation pour le déplacer.
 
-All Google Analytics widgets are available in [!UICONTROL Analysis Workspace]:
+Tous les widgets Google Analytics sont disponibles dans [!UICONTROL Analysis Workspace] :
 
 * Le **widget Mesure** est à peu près équivalent à la visualisation Synthèse des chiffres.
 * Le **widget Chronologie** est à peu près équivalent à la visualisation Ligne.
@@ -41,12 +41,12 @@ All Google Analytics widgets are available in [!UICONTROL Analysis Workspace]:
 
 Une fois que vous avez terminé d’ajouter du contenu à un projet, vous pouvez le partager.
 
-* To share the project with your colleagues, go to **[!UICONTROL Share > Share Project]**. Les destinataires sont d’autres utilisateurs de votre entreprise qui possèdent des comptes Adobe Analytics.
-* To share your project via a link, go to **[!UICONTROL Share > Get Project Link]**. Notez que cela nécessite également une connexion à Adobe Analytics au sein de votre entreprise.
+* Pour partager le projet avec vos collègues, accédez à **[!UICONTROL Partager > Partager le projet]**. Les destinataires sont d’autres utilisateurs de votre entreprise qui possèdent des comptes Adobe Analytics.
+* Pour partager votre projet via un lien, accédez à **[!UICONTROL Partager > Obtenir le lien du projet]**. Notez que cela nécessite également une connexion à Adobe Analytics au sein de votre entreprise.
 
 ### Exportation de projets
 
-In addition to PDF, [!UICONTROL Analysis Workspace] offers a CSV export.
+Outre le format PDF, [!UICONTROL Analysis Workspace] offre une exportation CSV.
 
 1. Cliquez sur *[!UICONTROL Partager]* > *[!UICONTROL Envoyer le fichier maintenant]*. Une fenêtre modale s’ouvre.
 2. Précisez le type de fichier et les destinataires.
