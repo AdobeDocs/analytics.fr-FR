@@ -1,9 +1,9 @@
 ---
 title: Classifications des canaux marketing
 description: Utilisez des classifications pour classer les valeurs en groupes apparentés et pour créer des rapports au niveau du groupe. Vous pouvez, par exemple, classer toutes les campagnes de recherche payante dans une catégorie telle que Cartes vidéo. Vous pouvez ensuite créer un rapport sur le succès de cette catégorie par rapport à des mesures du type Instances (ou Clics publicitaires).
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 
