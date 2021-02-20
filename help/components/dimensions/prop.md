@@ -1,9 +1,9 @@
 ---
 title: Prop
 description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Prop
 
-*Cette page d’aide décrit le fonctionnement des props en tant que dimension. Pour plus d’informations sur la mise en œuvre des props, voir[props](/help/implement/vars/page-vars/prop.md)dans le guide d’utilisation de mise en œuvre.*
+*Cette page d’aide décrit le fonctionnement des props en tant que dimension. Pour plus d’informations sur la mise en œuvre des props, voir [props](/help/implement/vars/page-vars/prop.md) dans le guide d’utilisation de mise en œuvre.*
 
 Les props sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Elles ne persistent pas au-delà de l’accès défini.
 
