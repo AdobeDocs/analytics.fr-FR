@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -21,8 +24,8 @@ Pour activer le mode hors ligne :
 
    ![](assets/offline_mode.png)
 
-1. Cochez la case en regard de **[!UICONTROL Turn on offline mode for creating and editing requests]**.
-1. In the **[!UICONTROL Display Metric Data as]** field, enter the placeholder data that you want returned in your request. Par exemple, saisissez « 1 ».
+1. Cochez la case en regard de l’option **[!UICONTROL Passez hors ligne pour créer/modifier des demandes]**.
+1. Dans le champ **[!UICONTROL Afficher les données de mesure au format]**, saisissez les données d’espace réservé que vous voulez renvoyer dans votre requête. Par exemple, saisissez « 1 ».
 1. Cliquez sur **[!UICONTROL OK]**.
 1. Maintenant, créez et exécutez votre requête (en mode hors ligne) à l’aide de l’Assistant Requête.
 1. Votre requête avec « 1 » en tant que donnée d’espace réservé ressemblera à ce tableau :
