@@ -1,9 +1,9 @@
 ---
 title: Événement d’achat
 description: Utilisez l’événement d’achat pour collecter des données pour les mesures Commandes, Unités et Recettes.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 
