@@ -2,9 +2,9 @@
 description: La boîte de dialogue Gouvernance des données dans les Outils d’administration offre un aperçu des suites de rapports configurées pour la gouvernance des données, indique si elles ont été mappées à une organisation Experience Cloud et si une politique de conservation des données est mise en place pour cette suite de rapports.
 title: Afficher/Gérer les paramètres de gouvernance des données de la suite de rapports
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%
 
