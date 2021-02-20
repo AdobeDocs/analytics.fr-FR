@@ -54,7 +54,7 @@ Dans l’onglet « Réponse », vérifiez que la réponse contient les donnée
 
       1. Supprimez le code DIL et installez le code de la page du [module de gestion de l’audience](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
       1. Activez le transfert côté serveur dans l’interface utilisateur d’administration d’Analytics comme décrit à l’étape 3. L’activation de ce paramètre avant la suppression du code DIL duplique les données et crée des appels serveur facturés supplémentaires à Audience Manager.
-   * **Nouveaux clients du module de gestion de l’audience (AAM)** : installez la page de code du [module de gestion de l’audience](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) et passez à l’étape 3. Les données ne sont pas envoyées à Audience Manager tant que le transfert côté serveur n’est pas activé à l’étape 3.
+   * **Nouveaux clients du module de gestion de l’audience (AAM)** : installez la page de code du [module de gestion de l’audience](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) et passez à l’étape 3. Les données ne sont pas envoyées à Audience Manager tant que le transfert côté serveur n’est pas activé à l’étape 3.
 
 
 ## ![image step3_icon.png](assets/step3_icon.png) Vérification de l’implémentation du transfert côté serveur de la suite de rapports
