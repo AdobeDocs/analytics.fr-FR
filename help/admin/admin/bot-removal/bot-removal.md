@@ -1,9 +1,9 @@
 ---
 title: Suppression de robots dans Adobe Analytics
 description: Trois méthodes pour supprimer des robots dans Adobe Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 100%
 
