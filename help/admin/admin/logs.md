@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Événement | Vous pouvez filtrer le journal sur la base d’un mot ou d’une expression de la description de l’événement. |
 | Télécharger le rapport | Exporte le contenu du [!UICONTROL journal d’utilisation et des accès] dans un fichier délimité par des tabulations. |
 
-### Types d&#39;événement
+### Types d’événements
 
 | Type d&#39;événement | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Nommer pages | Obsolète. |
 | Classifications | Une classification a été gérée. |
 | Sources de données | Une source de données a été gérée. |
-| Projet Espace de travail | Un projet Workspace a été affiché ou modifié. |
+| Projet espace de travail | Un projet Workspace a été affiché ou modifié. |
 | Segment | Un segment a été créé/modifié. |
 | Mesure calculée | Une mesure calculée a été créée/modifiée. |
 | Période | Une plage de dates a été créée/modifiée. |
@@ -71,7 +71,7 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Méthode API | Un appel d&#39;API a été effectué. |
 
 
-## Journal des modifications de la suite des rapports {#section_3864966639414BBEA871F4D0352F56B6}
+## Journal des modifications de la suite des rapports  {#section_3864966639414BBEA871F4D0352F56B6}
 
 Le journal des modifications de la suite de rapports affiche les modifications apportées à vos suites de rapports en dehors de l’Administration.
 
