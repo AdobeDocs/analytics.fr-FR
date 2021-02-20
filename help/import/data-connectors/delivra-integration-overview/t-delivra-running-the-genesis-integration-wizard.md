@@ -4,6 +4,9 @@ title: Exécution de l’assistant d’intégration des Data Connectors
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 100%
 
 ---
 
@@ -59,12 +62,12 @@ Pour configurer l’intégration :
    <td colname="col3"> <p>Identifiez l’eVar Analytics utilisée pour le suivi de l’ID de message du courrier électronique. </p> <p>L’ID de message est utilisé pour les campagnes de marketing/remarketing. L’ID de message est souvent appelé « Code de suivi ». </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>Recipient ID </p> </td> 
    <td colname="col3"> <p>Identifiez l’eVar Analytics utilisée pour le suivi de l’ID de destinataire du courrier électronique. </p> <p>L’ID de destinataire est utilisé pour les campagnes de marketing/remarketing. L’ID de message est souvent appelé « Code visiteur ». </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p>3 </p> </td> 
+   <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>Case à cocher Acceptation </p> </td> 
    <td colname="col3"> <p>Vérifiez les informations affichées en regard de la case à cocher Acceptation : </p> <p><i>Je comprends qu’en activant le suivi de l’« ID de destinataire », cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de notre site. Cela entraîne des répercussions en matière de confidentialité qui nécessitent la mise en œuvre de procédures appropriées de la part de mon organisation. Nous devons notamment en informer les visiteurs de notre site et obtenir leur consentement. </i> </p> <p>Si vous acceptez la déclaration d’acceptation, cochez la case, puis cliquez sur <b>Suivant</b> pour passer à l’étape 4 de l’assistant. </p> </td> 
   </tr> 
