@@ -1,17 +1,17 @@
 ---
 description: Envoyez un projet Analysis Workspace par courrier électronique ou planifiez une livraison.
 keywords: Analysis Workspace
-title: Planification des projets
+title: Planification de projets
 translation-type: tm+mt
 source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '470'
+ht-degree: 100%
 
 ---
 
 
-# Planification des projets
+# Planification de projets
 
 Dans le **menu Partager** de Workspace, vous pouvez envoyer des projets Analysis Workspace par courrier électronique aux destinataires sélectionnés. Les fichiers peuvent être envoyés au format CSV ou PDF.
 
