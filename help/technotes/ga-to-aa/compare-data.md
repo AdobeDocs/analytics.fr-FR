@@ -1,9 +1,9 @@
 ---
 title: Comparaison des données Adobe Analytics avec des produits tiers
 description: Découvrez les différentes possibilités qui s’offrent à vous lorsque vous comparez directement les données dans Adobe Analytics aux données collectées par d’autres solutions d’analyse.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 
