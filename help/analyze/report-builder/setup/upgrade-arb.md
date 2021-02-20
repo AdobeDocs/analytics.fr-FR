@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -34,14 +37,14 @@ R : Non, tous vos paramètres, y compris les paramètres d’authentification, 
 
    ![](assets/upgrade.png)
 
-1. If a new version is available, click **[!UICONTROL Update...]**. Le bouton présentera la version de la mise à jour, par exemple « Mettre à jour vers la version 5.0.50 ».
+1. Si une nouvelle version est disponible, cliquez sur **[!UICONTROL Mettre à jour]**. Le bouton présentera la version de la mise à jour, par exemple « Mettre à jour vers la version 5.0.50 ».
 
    >[!NOTE]
    >
    >Si ce bouton est grisé, aucune nouvelle version du Report Builder n’est disponible.
 
-1. Vous pouvez également cocher la **[!UICONTROL Update when a new version is available]** case. À l’avenir, le processus de mise à jour commencera automatiquement à chaque fois qu’une nouvelle version est disponible.
-1. When the setup screen appears, click **[!UICONTROL Next >]**.
+1. Vous pouvez également cocher la case **[!UICONTROL Mettre à jour lorsqu’une nouvelle version est disponible]**. À l’avenir, le processus de mise à jour commencera automatiquement à chaque fois qu’une nouvelle version est disponible.
+1. Quand l’écran de configuration s’ouvre, cliquez sur **[!UICONTROL Suivant >]**.
 
    ![](assets/setup.png)
 
@@ -51,8 +54,8 @@ R : Non, tous vos paramètres, y compris les paramètres d’authentification, 
 
 Vous pouvez toujours obtenir la dernière version du Report Builder dans Adobe Analytics.
 
-1. Log in to Adobe Analytics and go to **[!UICONTROL Tools]**.
+1. Connectez-vous à Adobe Analytics et sélectionnez **[!UICONTROL Outils]**.
 1. Cliquez sur **[!UICONTROL Report Builder]**.
-1. On the **[!UICONTROL Overview]** screen, select the 32-bit or 64-bit version.
-1. Cliquez sur **[!UICONTROL Download Now!]**.
+1. Dans l’écran **[!UICONTROL Aperçu]**, sélectionnez la version 32 bits ou 64 bits.
+1. Cliquez sur **[!UICONTROL Téléchargez dès maintenant !]**.
 
