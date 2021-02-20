@@ -1,11 +1,14 @@
 ---
 description: Vous permet de masquer les suites de rapports dans l’interface utilisateur d’Adobe Analytics.
-keywords: delete report suite
+keywords: supprimer une suite de rapports
 title: Masquage des suites de rapports
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 100%
 
 ---
 
