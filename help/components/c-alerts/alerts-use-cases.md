@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Alertes intelligentes - Exemples d’utilisation
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 
