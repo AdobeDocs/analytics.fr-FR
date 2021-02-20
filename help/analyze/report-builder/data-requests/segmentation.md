@@ -3,9 +3,9 @@ description: Comment ajouter, modifier, appliquer et filtrer des segments Adobe�
 title: Gestion des segments
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
    ![](assets/seg_in_context.png)
 
-   Pour plus d’informations sur les conteneurs, voir le [Guide de segmentation](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html).
+   Pour plus d’informations sur les conteneurs, voir le [Guide de segmentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
 
 1. L’interface utilisateur du Créateur de segments est à présent lancée dans Internet Explorer. Elle est initialisée avec le conteneur et le filtre que vous avez indiqués.
 1. Une fois que vous avez ajouté un nom et une description au segment, enregistrez-le.
@@ -102,7 +102,7 @@ L’ajout d’un contrôle de segments vous permet de basculer entre les segment
 
    ![](assets/seg_control2.png)
 
-## Actualisation de la liste de segments {#section_22E4A86789444B4A998532396B476EFB}
+## Actualisation de la liste de segments  {#section_22E4A86789444B4A998532396B476EFB}
 
 Chaque fois que vous ajoutez un nouveau segment ou en modifiez un existant, vous devez cliquer sur l’icône Actualiser (![](assets/refresh_icon.png) afin d’actualiser la liste mise en cache de segments.
 
@@ -121,7 +121,7 @@ Dans la version 5.4 du Report Builder, vous pouvez ajouter, supprimer et rempla
 
    | Option | Description |
    |---|---|
-   | Ajouter Segment | Vous permet de choisir un ou plusieurs segments à ajouter à la liste du ou des segments actifs. |
+   | Ajouter un segment | Vous permet de choisir un ou plusieurs segments à ajouter à la liste du ou des segments actifs. |
    | Remplacer les segments | Vous permet de choisir quel(s) segment(s) remplacer par un ou plusieurs segments. |
    | Remplacer tous les segments par | Vous permet de choisir un ou plusieurs segments à remplacer par le ou les segments actifs. |
    | Supprimer les segments | Vous permet de supprimer les segments des demandes. |
