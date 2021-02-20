@@ -1,12 +1,12 @@
 ---
 description: Le traitement permet de limiter les composants avant de partager un projet.
-keywords: Analysis Workspace curation
+keywords: Analysis Workspace
 title: Traitement des projets
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
-workflow-type: ht
-source-wordcount: '542'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 99%
 
 ---
 
