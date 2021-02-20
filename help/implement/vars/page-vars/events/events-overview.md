@@ -1,16 +1,16 @@
 ---
 title: events
 description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 100%
 
 ---
 
 
-# events
+# événements
 
 Les dimensions et les mesures sont des composants essentiels des rapports. La variable `events` est responsable de la collecte de données de nombreuses mesures sur votre site. Les événements incrémentent généralement les [mesures](/help/components/metrics/overview.md) dans les rapports.
 
