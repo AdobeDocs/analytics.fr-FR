@@ -37,11 +37,11 @@ Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Superpositio
 
 ## Affichage de courbes de tendance superposées
 
-Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. Les courbes de tendance permettent d’illustrer plus clairement un schéma dans les données.
+Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Overlays]** > **[!UICONTROL Afficher la courbe de tendance]**, vous pouvez choisir d&#39;ajouter une régression ou de déplacer la courbe de tendance moyenne à votre série de lignes. Les courbes de tendance permettent d’illustrer plus clairement un schéma dans les données.
 
 >[!TIP]
 >
->Il est recommandé d’appliquer des lignes de tendances à des données qui n’incluent pas de dates d’aujourd’hui (données partielles) ou futures, car elles faussent la ligne de tendance. Toutefois, si vous devez inclure des dates futures, supprimez des zéros des données afin d’éviter les bizutages de ces jours. Pour ce faire, accédez au tableau de source de données de la visualisation, choisissez votre colonne de mesures, puis activez Paramètres **[!UICONTROL de]** colonne > **[!UICONTROL Interpréter zéro comme aucune valeur]**.
+>Il est recommandé d’appliquer des lignes de tendances à des données qui n’incluent pas de dates d’aujourd’hui (données partielles) ou futures, car elles faussent la ligne de tendance. Toutefois, si vous devez inclure des dates futures, supprimez des zéros des données afin d’éviter les bizutages de ces jours. Pour ce faire, accédez au tableau de la source de données de la visualisation, choisissez votre colonne de mesures, puis activez **[!UICONTROL Paramètres de colonne]** > **[!UICONTROL Interpréter zéro comme aucune valeur]**.
 
 ![Courbe de tendance linéaire](assets/show-linear-trendline.png)
 
