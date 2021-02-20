@@ -6,6 +6,9 @@ topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +36,8 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
 |  Liste des réponses Qualtrics  | Sélectionnez une variable de liste disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
 |---|---|
 |  ID de réponse Qualtrics  | Sélectionnez une eVar ou une prop disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
-|  Serveur de suivi  |Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Utilisez le serveur de suivi `trackingServerSecure` s’il diffère du paramètre de serveur de suivi standard.  |
+|  Serveur de suivi  |Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Utilisez la variable 
+`trackingServerSecure` serveur de suivi s’il diffère de votre paramètre de serveur de suivi standard.  |
 |  Envois d’enquête Qualtrics  | Sélectionnez un événement disponible dans votre suite de rapports (vous aurez sans doute besoin d’activer un nouvel événement dans le Gestionnaire de suite de rapports).  |
 
 1. **Étape 3 de l’assistant** : aucune action n’est requise, étape informative uniquement.
@@ -61,6 +65,7 @@ Après avoir finalisé l’assistant d’intégration, vous devez activer l’in
 1. Sélectionnez la configuration d’Adobe Analytics, puis cliquez sur **[!UICONTROL Enregistrer]**. Si aucune configuration n’est disponible, il est probable que vous n’ayez pas encore finalisé l’assistant d’intégration Adobe.
    1. La case à cocher **[!UICONTROL Inclure les réponses partielles]** permet d’indiquer que vous souhaitez capturer des données dans Adobe Analytics après chaque écran d’enquête partielle. Si elle n’est pas cochée, les données sont transférées uniquement pour les enquêtes entièrement terminées.
    1. La case à cocher **[!UICONTROL Envoyer l’horodatage avec balise]** ne doit être utilisée que lors de l’intégration à une suite de rapports configurée pour recevoir des données horodatées (ce qui est rare).
+
    ![](assets/integration_config.png)
 
 ## Vérification de l’intégration {#verifying-the-integration}
