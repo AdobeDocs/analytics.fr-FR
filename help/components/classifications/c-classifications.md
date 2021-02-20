@@ -1,9 +1,9 @@
 ---
 title: Présentation des classifications
 description: Personnalisez le regroupement des éléments de dimension.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Une classification est une méthode permettant de catégoriser des données de variables Analytics, puis de les afficher de différentes manières lors de la création de rapports.
 
-Présentation vidéo des [classifications Analytics](https://video.tv.adobe.com/v/16853/?captions=fre_fr).
+Présentation vidéo des [classifications Analytics](https://video.tv.adobe.com/v/16853/).
 
 **[!UICONTROL Admin]** > **[!UICONTROL Suite de rapports]** > **[!UICONTROL Modifier les paramètres]** >*`<Traffic or Conversion>`*
 
