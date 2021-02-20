@@ -57,6 +57,6 @@ La configuration des rapports en temps réel dans les Reports &amp; Analytics co
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou sur **[!UICONTROL Enregistrer et afficher le rapport]**.
 
-   Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles. Pour en savoir plus sur l’affichage des rapports Temps réel, voir [Exécution d’un rapport Temps réel](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/t-running-report-types.translate.html).
+   Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles. Pour en savoir plus sur l’affichage des rapports Temps réel, voir [Exécution d’un rapport Temps réel](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. Par défaut, tous les utilisateurs ont accès aux rapports Temps réel.
