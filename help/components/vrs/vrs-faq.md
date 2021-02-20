@@ -1,13 +1,13 @@
 ---
 description: Cette section contient des conseils et des bonnes pratiques à l’intention des nouveaux utilisateurs de suites de rapports virtuelles.
-keywords: Virtual Report Suite
+keywords: Suite de rapports virtuelle
 title: FAQ sur les suites de rapports virtuelles
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
-workflow-type: ht
-source-wordcount: '898'
+workflow-type: tm+mt
+source-wordcount: '901'
 ht-degree: 100%
 
 ---
