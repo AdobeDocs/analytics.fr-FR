@@ -1,9 +1,9 @@
 ---
 title: Consultations du panier
 description: Le nombre d’accès pendant lesquels un visiteur a consulté son panier.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 
