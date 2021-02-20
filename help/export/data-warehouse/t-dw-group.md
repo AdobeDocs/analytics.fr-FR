@@ -3,9 +3,9 @@ description: Description de la procédure par laquelle les administrateurs peuve
 title: Ajouter un groupe d’utilisateurs dans Data Warehouse
 topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
 
