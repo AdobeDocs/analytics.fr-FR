@@ -3,9 +3,9 @@ description: Étapes pour arrêter le suivi des liens dans Activity Map ou la v
 title: Arrêt du suivi des liens
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 
