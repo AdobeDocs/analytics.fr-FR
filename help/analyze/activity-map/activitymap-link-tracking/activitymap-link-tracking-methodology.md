@@ -3,9 +3,9 @@ description: Cette section s’adresse aux administrateurs Adobe Analytics. Elle
 title: Méthodologie de suivi des liens
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Si le code HTML comprend une variable s_objectid, l’ID principal est remplacé
 * Src
 * Action
 
-## Utilisation du paramètre InnerText ou d’une action de lien (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+## Utilisation du paramètre InnerText ou d’une action de lien (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
 
 Une action de lien est l’action effectuée par la page web lorsque l’utilisateur clique sur le lien ; en général, il s’agit de l’URL visitée après le clic sur le lien. Il se peut que vous rencontriez les problèmes suivants lors de l’utilisation d’une action de lien :
 
