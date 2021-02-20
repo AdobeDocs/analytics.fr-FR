@@ -1,12 +1,12 @@
 ---
 description: Fournit des réponses et des suggestions en matière de dépannage pour certaines des questions d’analyses les plus fréquemment posées.
-keywords: Troubleshooting Analytics
+keywords: Dépannage d’Analytics
 title: Questions fréquentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '751'
+workflow-type: tm+mt
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
