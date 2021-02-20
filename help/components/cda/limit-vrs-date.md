@@ -1,16 +1,16 @@
 ---
-title: Limiter une suite de rapports virtuelle à certaines dates
+title: Limitation d’une suite de rapports virtuelle à certaines dates
 description: Comprenez comment limiter une plage de dates de la suite de rapports virtuelle pour vous concentrer uniquement sur les données assemblées.
 translation-type: tm+mt
 source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Limiter une suite de rapports virtuelle à certaines dates
+# Limitation d’une suite de rapports virtuelle à certaines dates
 
 Lorsque nous activons la couture, les débuts de couture sur une date spécifique. Supposons que la date soit le 1er juin. La SRV de l&#39;ADC contiendra des données non recoupées avant le 1er juin. Vous pouvez masquer les données de la suite de rapports virtuelle avant le 1er juin afin que votre analyse puisse se concentrer sur les plages de dates après le début de la sélection.
 
