@@ -24,8 +24,10 @@ Utilisez `linkDownloadFileTypes` pour personnaliser les extensions de fichier qu
 > * Téléchargements déclenchés à la suite d’une redirection
 > * Clic droit et sélection de l’option « Enregistrer la cible sous... »
 > * Liens utilisant JavaScript, tels que `javascript:openLink()`
+
 >
-> Pour ces types de téléchargement, vous pouvez appeler manuellement la méthode [`tl()`](../functions/tl-method.md).
+> 
+Pour ces types de téléchargement, vous pouvez appeler manuellement la méthode [`tl()`](../functions/tl-method.md).
 
 Si un lien cliqué correspond à la fois aux critères de lien de sortie et de lien de téléchargement, le type de lien de téléchargement est prioritaire.
 
