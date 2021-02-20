@@ -1,9 +1,9 @@
 ---
 description: Cette procédure décrit l’exécution du rapport Canal marketing, ainsi que l’octroi de privilèges d’administrateur limités et de permissions de groupe d’utilisateurs au rapport.
 title: Autorisations des Canaux marketing
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
