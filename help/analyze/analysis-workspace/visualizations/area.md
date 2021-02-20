@@ -2,9 +2,9 @@
 description: Cette visualisation Workspace est semblable à un graphique linéaire, mais avec une zone colorée sous la ligne.
 title: Surface et aires empilées
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1835f9063809cc780350b04dd018eb8cb6800152
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 100%
 
