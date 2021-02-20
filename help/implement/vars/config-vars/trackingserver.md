@@ -61,7 +61,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Sélectionnez un sous-domaine unique à votre organisation, qui ne sera probablement pas choisi par une autre organisation qui utilise Adobe Analytics.  L’espace de nommage visiteur affecté à votre organisation est recommandé.  Assurez-vous que toutes les mises en œuvre de votre entreprise utilisent le même serveur de suivi. Il peut s’avérer utile de conserver ces informations dans un [document de conception de solution](../../prepare/solution-design.md).
 
-Votre entreprise utilise peut-être déjà un serveur de suivi tiers dans le `sc.omtrdc.net` ou les `2o7.net` domaines.  Elles ont été principalement utilisées dans les versions précédentes d&#39;Adobe Analytics et sont toujours valides.
+Votre entreprise utilise peut-être déjà un serveur de suivi tiers dans les domaines `sc.omtrdc.net` ou `2o7.net`.  Elles ont été principalement utilisées dans les versions précédentes d&#39;Adobe Analytics et sont toujours valides.
 
 >[!NOTE]
 >
