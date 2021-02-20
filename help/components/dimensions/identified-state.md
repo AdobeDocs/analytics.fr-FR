@@ -1,9 +1,9 @@
 ---
 title: État identifié
 description: Indicateur déterminant la reconnaissance par le graphique d’appareil.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 
