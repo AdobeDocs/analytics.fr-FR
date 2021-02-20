@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Planifier une requête récurrente
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%
 
