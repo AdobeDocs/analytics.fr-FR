@@ -2,9 +2,9 @@
 description: L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
 title: Affichage de l’utilisation des suites de rapports
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 
 | Colonne | Définition |
 |--- |--- |
-| Suite de rapports Nom | Le nom convivial de la suite de rapports |
+| Nom de la suite de rapports | Le nom convivial de la suite de rapports |
 | Tous les appels (% du total) | Tous les appels au serveur effectués durant la période d’utilisation actuelle. |
 | Appels principaux (%) | Tous les appels au serveur principal (et leur pourcentage du total) effectués durant la période d’utilisation actuelle. |
 | Appels secondaires (%) | Tous les appels au serveur secondaire (et leur pourcentage du total) effectués durant la période d’utilisation actuelle. |
