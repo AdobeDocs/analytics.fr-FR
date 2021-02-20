@@ -2,9 +2,9 @@
 description: Les modifications suivantes apportées à la manière dont les mesures calculées fonctionnent dans Analytics peuvent avoir un impact sur vous.
 title: Questions fréquentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2148'
 ht-degree: 100%
 
