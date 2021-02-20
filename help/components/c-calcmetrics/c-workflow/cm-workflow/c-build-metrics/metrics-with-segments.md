@@ -17,7 +17,7 @@ Dans le créateur de mesures calculées, vous pouvez appliquer des segments dans
 
 ![](assets/german-visitors.png)
 
-## Création d’une mesure segmentée {#create}
+## Créer une mesure segmentée {#create}
 
 Supposons que vous souhaitiez comparer différents aspects d’un segment &quot;Visiteur allemand&quot; à ceux d’un segment &quot;Visiteurs internationaux&quot;. Vous pouvez créer des mesures qui vous donneront des informations telles que :
 
@@ -31,7 +31,7 @@ Supposons que vous souhaitiez comparer différents aspects d’un segment &quot;
 
    >[!NOTE]
    >
-   >Vous pouvez également effectuer cette opération dans le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md), mais nous avons simplifié le processus en rendant les dimensions disponibles dans le créateur de mesures calculées. &quot;Adhoc&quot; means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. Vous pouvez néanmoins le rendre public en pointant sur l’icône « i » en regard et en cliquant sur **[!UICONTROL Rendre public]**.
+   >Vous pouvez également effectuer cette opération dans le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md), mais nous avons simplifié le processus en rendant les dimensions disponibles dans le créateur de mesures calculées. &quot;Adhoc&quot; signifie que le segment n’est pas visible dans la liste **[!UICONTROL Segments]** du rail de gauche. Vous pouvez néanmoins le rendre public en pointant sur l’icône « i » en regard et en cliquant sur **[!UICONTROL Rendre public]**.
 
 1. Si vous n’avez pas de segment à comparer, créez un segment appelé « Visiteurs internationaux » où « Pays » n’est pas « Allemagne ».
 1. Créez et enregistrez une mesure appelée « Visiteurs allemands » en faisant glisser le segment Allemagne dans le canevas Définition et en y faisant glisser la mesure Visiteurs uniques :
