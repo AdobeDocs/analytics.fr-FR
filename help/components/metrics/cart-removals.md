@@ -1,9 +1,9 @@
 ---
 title: Retraits du panier
 description: Nombre d’accès pendant lesquels un visiteur a retiré un produit du panier.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 
