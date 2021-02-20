@@ -1,9 +1,9 @@
 ---
 title: Domaine référent initial
 description: Le premier domaine référent sur lequel se trouvait un visiteur avant d’effectuer un clic pour accéder à votre site.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
