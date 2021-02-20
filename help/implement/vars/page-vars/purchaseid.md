@@ -32,7 +32,7 @@ Cette variable peut stocker un maximum de 20 octets ; les valeurs de plus de 2
 s.purchaseID = "ABC123";
 ```
 
-Si vous utilisez la couche `digitalData` de [](../../prepare/data-layer.md)données :
+Si vous utilisez la couche de données `digitalData` [](../../prepare/data-layer.md) :
 
 ```js
 s.purchaseID = digitalData.transaction.transactionID;
