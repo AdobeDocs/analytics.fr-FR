@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: Fonctionnement des règles de traitement
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Vous pouvez créer une règle sans conditions de manière à toujours exécuter 
 
 La recherche de valeurs ne s’effectue pas automatiquement dans les variables avant l’exécution des actions. Ainsi, Prop1 contient une valeur « quelconque » et eVar1 est vide. Si vous configurez la valeur Prop1 pour qu’elle soit égale à eVar1, les deux valeurs seront vides. Si vous devez éviter ce cas de figure, ajoutez une condition qui recherche la présence d’une valeur.
 
-## Actions des règles de traitement {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## Actions des règles de traitement  {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 Les actions définissent des variables de page, suppriment de telles variables ou déclenchent des événements. Elles peuvent également concaténer des valeurs à afficher dans un rapport.
 
