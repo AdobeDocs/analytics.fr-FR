@@ -5,6 +5,9 @@ topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
 source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Prenons l’exemple de la ventilation d’un rapport de trafic personnalisé nom
 
 Si vous ventilez un rapport par  *`Referrer Type`*, un point de données peut s’afficher pour *`Inside Your Site`*. Cette valeur indique une page de référence qui figure sur la liste des filtres d’URL internes. Reportez-vous à la section [Filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md) dans la Référence d’administration.
 
-Vous pouvez ventiler toute variable Analytics (eVar ou prop) en fonction de toute autre variable. The **[!UICONTROL Breakdown By]** menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
+Vous pouvez ventiler toute variable Analytics (eVar ou prop) en fonction de toute autre variable. Le menu **[!UICONTROL Ventiler en fonction de]** dans le tableau des rapports correspond au menu de création de rapports Analytics standard, ce qui permet de préserver la cohérence.
 
 ## Exécution d’un rapport de ventilation {#task_F685624830E64C829C8BE6435A107F69}
 
@@ -29,11 +32,11 @@ t_reports_breakdown.xml
 
  -->
 
-1. Ouvrez le rapport, par exemple **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
-1. In the report table, click the **[!UICONTROL Breakdown By]** icon.
+1. Ouvrez un rapport, tel que **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]**.
+1. Cliquez sur l’icône **[!UICONTROL Ventiler en fonction de]** dans le tableau du rapport.
 
-   If the **[!UICONTROL Breakdown By]** icon is not visible, the feature is either not available or not enabled.
+   Si l’icône **[!UICONTROL Ventiler en fonction de]** n’est pas visible, la fonction n’est pas disponible ou pas activée.
 
    ![](assets/breakdown.png)
 
-   The **[!UICONTROL Breakdown By]** menu displays all available breakdown options available for the current report.
+   Le menu **[!UICONTROL Ventiler en fonction de]** affiche toutes les options de ventilation disponibles pour le rapport en cours.
