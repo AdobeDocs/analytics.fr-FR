@@ -1,9 +1,9 @@
 ---
 title: Analyse des données affectées par les événements
 description: Comprendre comment les données affectées par un événement contribuent à la qualité générale des données.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Une fois que vous êtes prêt à gérer un événement, vous pouvez [communiquer
 
 Cette vidéo présente chacune des étapes ci-dessus.
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
 
 * **0:27** : exclusion des données par segmentation
 * **02:55** : comparaison d’un événement avec les périodes précédentes
