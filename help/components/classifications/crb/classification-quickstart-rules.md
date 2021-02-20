@@ -37,7 +37,7 @@ Vous pouvez configurer trois règles dans un jeu pour identifier les parties de 
 | Sélectionner le type de règle | Entrer les critères de recherche | Définir la classification | À |
 |---|---|---|---|
 | Commence par | em : | Canal | Courriel |
-| Se termine par | Sale | Type | Sale |
+| Se termine par | Sale | Type | Vente |
 | Contient | 2013 | Année | 2013 |
 
 ## Méthode de traitement des règles {#how-rules-are-processed}
@@ -326,7 +326,7 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
 
    >[!NOTE]
    >
-   >Report suites display on this page *`only`* when the following conditions are met:
+   >Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont remplies :
    >
    >* Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
       >
