@@ -17,12 +17,12 @@ ht-degree: 75%
 Ce guide fournit de la documentation sur les produits et de l’aide autonome pour les outils d’analyse et de rapports Adobe Analytics suivants :
 
 * **[!UICONTROL Analysis Workspace] :** principale fonctionnalité d’Adobe Analytics. Workspace fournit un canevas sur lequel vous pouvez faire glisser des composants pour répondre à vos besoins en termes de rapports.
-* **[!UICONTROL tableaux de bord]Adobe Analytics :** Cette application mobile permet aux utilisateurs d’accéder à des cartes de performance intuitives avec des mesures clés et de pouvoir effectuer des ventilations plus détaillées et des rapports de tendances.
+* **[!UICONTROL tableaux de bord] Adobe Analytics :** Cette application mobile permet aux utilisateurs d’accéder à des cartes de performance intuitives avec des mesures clés et leur permet d’effectuer des ventilations plus détaillées et des rapports de tendances.
 * **[!UICONTROL Activity Map] :** module de navigateur qui affiche une superposition sur votre site montrant les éléments qui ont reçu le plus grand nombre de clics.
 * **[!UICONTROL Report Builder] :** module Excel complémentaire permettant de récupérer les données Analytics et de les placer directement dans un classeur.
 * **[!UICONTROL API de création de rapports] :** créez des requêtes de rapport directement sur les serveurs d’Adobe et obtenez des réponses à utiliser dans vos outils de création de rapports client.
 * **[!UICONTROL Reports &amp; Analytics] :** outil avec des dizaines de rapports prédéfinis. Adobe recommande d’utiliser Analysis Workspace pour la plupart des rapports.
-* **[!UICONTROL Ad Hoc Analysis] :** application Java autonome avec de puissantes capacités de création de rapports. Cet outil n’est plus mis à jour et sera mis à jour [le 1er mars 2021](https://spark.adobe.com/page/S9Bhp66VJ2fEn/).
+* **[!UICONTROL Ad Hoc Analysis] :** application Java autonome avec de puissantes capacités de création de rapports. Cet outil n&#39;est plus mis à jour et sera supprimé [le 1er mars 2021](https://spark.adobe.com/page/S9Bhp66VJ2fEn/).
 
 ## Principaux articles sur les outils d’Analytics
 
