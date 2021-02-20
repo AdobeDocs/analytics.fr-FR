@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Analyse des contributions - Aperçu
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
