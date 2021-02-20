@@ -54,9 +54,9 @@ Les données de segments AAM sont transmises à Analytics accès par accès et r
 
 ![](assets/flow-aamaudiences.png)
 
-Les audiences peuvent également être utilisées dans les [Visualisations des abandons](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
+Les audiences peuvent également être utilisées dans les [Visualisations des abandons](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
-## Visualisation de Venn dans Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Visualisation de Venn dans Analysis Workspace  {#section_E78AB764FB5047148B51DC1526B0DF89}
 
 Les [visualisations de Venn](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/venn.html) affichent l’intersection entre 3 segments maximum.
 
@@ -82,7 +82,7 @@ Vous pouvez importer les dimensions d’audience dans le [Créateur de segments]
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics et Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
+## Reports &amp; Analytics et Report Builder  {#section_04E8FD30F73344D7937AD3C6CD19E34A}
 
 1. Pour consulter le rapport Analytics, sélectionnez **[!UICONTROL Rapports]** > **[!UICONTROL Profil du visiteur]** > **[!UICONTROL Rapports ID d’audience]**.
 1. Ce dossier permet d’accéder aux dimensions ID d’audience et Nom d’audience.
