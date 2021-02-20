@@ -2,9 +2,9 @@
 description: Fournit des rapports de ventilation avec classement dans Data Warehouse, triés par valeurs de mesure décroissantes.
 title: Tri par mesure
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -33,9 +33,9 @@ Reportez-vous à la colonne Disposition du rapport dans ce tableau pour détermi
 | Non | Oui ou Non | Oui ou Non | Oui ou Non | Oui ou Non | 1 |
 | Oui | Non | Oui ou Non | Oui ou Non | Oui ou Non | 1 |
 | Oui | Oui | Non | Non | S.O. | 1 |
-| Oui | Oui | Non | Oui ou Non | Non | 1 |
+| Oui | Oui | Non | Oui ou Non | Non | 3 |
 | Oui | Oui | Oui | Non | Non | 2 |
 | Oui | Oui | Non | Oui | Oui | 3 |
-| Oui | Oui | Oui | Oui ou Non | Oui | 3 |
+| Oui | Oui | Oui | Oui ou Non | Oui | 1 |
 | Oui | Oui | Oui | Oui | Non | 4 |
 
