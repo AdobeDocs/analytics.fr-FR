@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
@@ -14,45 +14,45 @@ ht-degree: 13%
 
 Les composants d’Analysis Workspace se composent de dimensions, de mesures, de segments et de plages de dates que vous pouvez faire glisser sur un projet.
 
-To access the Components menu, click the **[!UICONTROL Components]** icon in the left rail. Vous pouvez permuter entre [Panneaux](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html), [Visualisations](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)et Composants à partir des icônes du rail de gauche ou en utilisant des [touches d’accès rapide](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Pour accéder au menu Composants, cliquez sur l&#39;icône **[!UICONTROL Composants]** dans le rail de gauche. Vous pouvez basculer entre les [panneaux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr-FR), [Visualisations](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) et les composants à partir des icônes du rail de gauche ou en utilisant [touches d&#39;accès rapide](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/component-overview.png)
 
-Vous pouvez également ajuster les paramètres [de densité de](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) Vue du projet pour afficher d’autres valeurs simultanément dans le rail de gauche en accédant à **[!UICONTROL Projet > Informations et paramètres du projet > Densité]** de la Vue.
+Vous pouvez également ajuster les [paramètres de densité de Vue](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) du projet pour afficher plus de valeurs dans le rail de gauche en même temps en accédant à **[!UICONTROL Projet > Informations et paramètres du projet > Densité de la Vue]**.
 
 ## Dimensions {#dimensions}
 
-[**Les Dimensions**](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) sont des attributs de texte qui décrivent votre comportement de visiteur et peuvent être visualisés, ventilés et comparés dans votre analyse. Ils se trouvent dans le rail Composant de gauche (section orange) et sont généralement appliqués en tant que lignes d’un tableau.
+[**Les**](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) dimensions sont des attributs de texte qui décrivent votre comportement de visiteur et peuvent être affichés, ventilés et comparés dans votre analyse. Ils se trouvent dans le rail Composant de gauche (section orange) et sont généralement appliqués en tant que lignes d’un tableau.
 
-Parmi les exemples de dimensions, citons [!UICONTROL Page Name], [!UICONTROL Marketing Canaux], [!UICONTROL Device Type]et [!UICONTROL Products. ] Les Dimensions sont fournies par Adobe et sont capturées par votre implémentation personnalisée (eVar, props, classifications, etc.).
+Parmi les exemples de dimensions, citons [!UICONTROL Nom de page], [!UICONTROL Canaux marketing], [!UICONTROL Type de périphérique] et [!UICONTROL Produits]. Les Dimensions sont fournies par Adobe et sont capturées par votre implémentation personnalisée (eVar, props, classifications, etc.).
 
-Chaque dimension contient également des éléments **de** dimension. Les éléments de Dimension se trouvent dans le rail de composant de gauche en cliquant sur la flèche de droite en regard de n’importe quel nom de dimension (les éléments sont jaunes).
+Chaque dimension contient également **des éléments de dimension**. Les éléments de Dimension se trouvent dans le rail de composant de gauche en cliquant sur la flèche de droite en regard de n’importe quel nom de dimension (les éléments sont jaunes).
 
-Parmi les exemples d’éléments de dimension, citons [!UICONTROL la page d’accueil] (dans la dimension [!UICONTROL Page] ), la recherche  payante (dans la dimension Canal [!UICONTROL marketing), Tablet (dans la dimension  de type de périphérique mobile), etc.]
+Parmi les exemples d&#39;éléments de dimension, citons [!UICONTROL Page d&#39;accueil] (dans la dimension [!UICONTROL Page]), [!UICONTROL Recherche payante] (dans la dimension [!UICONTROL Canal marketing]), [!UICONTROL Tablette] (dans le [!UICONTROL Type de périphérique mobile] > dimension), etc.
 
 ![](assets/dimensions.png)
 
 ## Mesures {#metrics}
 
-[**Les mesures**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) sont des mesures quantitatives du comportement des visiteurs. Ils se trouvent dans le rail de composants de gauche (section verte) et sont généralement appliqués en tant que colonnes d’un tableau.
+[**Les**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) mesures sont des mesures quantitatives sur le comportement des visiteurs. Ils se trouvent dans le rail de composants de gauche (section verte) et sont généralement appliqués en tant que colonnes d’un tableau.
 
-Parmi les mesures, citons [!UICONTROL les vues]de page, les [!UICONTROL visites], les [!UICONTROL commandes], la durée [!UICONTROL moyenne de consultation et Recettes/Commande. ] Les mesures sont fournies par Adobe, ou capturées via votre implémentation personnalisée (événements[!UICONTROL de]réussite), ou créées à l’aide du créateur de mesures [calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Parmi les exemples de mesures, citons [!UICONTROL vues de page], [!UICONTROL Visites], [!UICONTROL Commandes], [!UICONTROL Durée moyenne de consultation] et [!UICONTROL Recettes/Commande]. Les mesures sont fournies par Adobe ou capturées via votre implémentation personnalisée ([!UICONTROL événements de réussite]), ou créées à l’aide du [créateur de mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
 ## Segments {#segments}
 
-[**Les segments**](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) sont des filtres d’audience appliqués à votre analyse. Ils se trouvent dans le rail de composants de gauche (section bleue) et sont généralement appliqués en haut d’un panneau ou au-dessus des colonnes de mesures dans un tableau.
+[**Les**](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) segments sont des filtres d’audience appliqués à votre analyse. Ils se trouvent dans le rail de composants de gauche (section bleue) et sont généralement appliqués en haut d’un panneau ou au-dessus des colonnes de mesures dans un tableau.
 
-Parmi les exemples de segments, citons les Visiteurs [!UICONTROL de périphériques]mobiles, les [!UICONTROL visites à partir du courrier électronique]et les accès authentifiés. Les segments sont fournis par Adobe, créés dans la zone de dépôt [du](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)panneau ou créés à l’aide du créateur [de](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-build.html)segments.
+Parmi les exemples de segments, citons [!UICONTROL Visiteurs de périphériques mobiles], [!UICONTROL Visites à partir d’un courrier électronique] et [!UICONTROL Accès authentifiés]. Les segments sont fournis par Adobe, ou créés dans la zone de dépôt du panneau [a1/>, ou créés à l’aide du [créateur de segments](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-build.html).](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)
 
 ![](assets/segments.png)
 
 ## Périodes {#date-ranges}
 
-[**Les plages**](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) de dates sont la plage de dates à laquelle vous effectuez votre analyse. Ils se trouvent dans le rail de composant de gauche (section violet) et sont généralement appliqués dans le calendrier de chaque panneau.
+[**Les**](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) plages de dates correspondent à la plage de dates à laquelle vous effectuez votre analyse. Ils se trouvent dans le rail de composant de gauche (section violet) et sont généralement appliqués dans le calendrier de chaque panneau.
 
-Parmi les exemples de plages de dates, citons juillet 2019, [!UICONTROL 4 dernières semaines]et [!UICONTROL Ce mois]. Les plages de dates sont fournies par Adobe, appliquées dans le calendrier [du](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)panneau ou créées à l’aide du créateur [de plages de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)dates.
+Voici quelques exemples de plages de dates : juillet 2019, [!UICONTROL 4 dernières semaines] et [!UICONTROL Ce mois]. Les plages de dates sont fournies par Adobe, appliquées dans le [calendrier du panneau](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) ou créées à l’aide du [créateur de plages de dates](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
 
 ![](assets/date-ranges.png)
 
@@ -70,4 +70,4 @@ Vous pouvez gérer les composants (individuellement ou en sélectionnant plusieu
 | Partager | Partagez des composants avec des utilisateurs de votre entreprise. Cette option est disponible uniquement pour les composants personnalisés, tels que les segments ou les mesures calculées. |
 | Supprimer | Supprimez les composants dont vous n’avez plus besoin. Cette option est disponible uniquement pour les composants personnalisés, tels que les segments ou les mesures calculées. |
 
-Les composants personnalisés peuvent également être gérés par l’intermédiaire de leurs gestionnaires de composants respectifs. Par exemple, le Gestionnaire [de](/help/components/segmentation/segmentation-workflow/seg-manage.md)segments.
+Les composants personnalisés peuvent également être gérés par l’intermédiaire de leurs gestionnaires de composants respectifs. Par exemple, [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md).
