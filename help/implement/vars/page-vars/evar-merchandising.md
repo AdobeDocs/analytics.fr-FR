@@ -1,9 +1,9 @@
 ---
 title: eVar (marchandisage)
 description: Variables personnalisées liées à des produits individuels.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # eVar (marchandisage)
 
-*Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, consultez[eVars (marchandisage)](/help/components/dimensions/evar-merchandising.md)dans le guide d’utilisation Composants.*
+*Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, consultez [eVars (marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide d’utilisation Composants.*
 
 ## Configurer des eVars dans les paramètres de la suite de rapports
 
