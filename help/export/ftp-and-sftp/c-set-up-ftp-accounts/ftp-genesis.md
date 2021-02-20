@@ -5,17 +5,17 @@ title: Data Connectors
 translation-type: tm+mt
 source-git-commit: d5840838b092eb19165d4b716e808a1d2d1fc4dc
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 91%
+source-wordcount: '142'
+ht-degree: 98%
 
 ---
 
 
-# Data Connectors
+# Connecteurs de données
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la vie de la technologie Adobe Data Connector à la mi-2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la technologie Adobe Data Connector vers le milieu ou la fin de 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Lorsque vous créez une intégration avec un partenaire Adobe en utilisant les [connecteurs de données](https://www.adobeexchange.com/experiencecloud.html), Adobe peut transmettre à un compte FTP les données de remarketing ou d’autres données, que vous ou votre partenaire pouvez alors télécharger.
 
