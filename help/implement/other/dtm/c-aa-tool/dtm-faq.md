@@ -1,14 +1,14 @@
 ---
 description: Des FAQ relatives à la configuration automatique du déploiement d’Adobe Analytics. La méthode de configuration automatique gère le code AppMeasurement pour vous.
-keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
+keywords: Gestion dynamique des balises ; modules externes ; évaluation ; effets sur les paramètres actuels ; historique des révisions ; risques potentiels ; ID de suite de rapports ; code de devise ; serveur de suivi ; serveur de suivi ssl ; code personnalisé ; gestion de bibliothèque
 solution: Experience Cloud,Analytics,Target
 title: FAQ sur l’outil Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 93%
 
 ---
 
