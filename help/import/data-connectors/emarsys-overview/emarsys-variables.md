@@ -4,6 +4,9 @@ title: Variables Analytics
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ Après avoir identifié l’événement et les eVars à utiliser avec l’intég
   <tr> 
    <th colname="col1" class="entry"> Type de variable </th> 
    <th colname="col2" class="entry"> Nom </th> 
-   <th colname="col3" class="entry"> Méthode de remplissage </th> 
+   <th colname="col3" class="entry"> Méthode de population </th> 
    <th colname="col4" class="entry"> Description </th> 
   </tr>
  </thead>
@@ -60,10 +63,10 @@ Après avoir identifié l’événement et les eVars à utiliser avec l’intég
    <td colname="col1"> eVar </td> 
    <td colname="col2"> Recipient ID </td> 
    <td colname="col3"> <p>Collecté à partir des paramètres de requête dans les liens de courrier électronique par le biais de la méthode de collecte automatisée ou d’un plug-in JavaScript. </p> </td> 
-   <td colname="col4"> Recipient ID </td> 
+   <td colname="col4"> ID destinataire </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> eVar ou s.campaign </td> 
+   <td colname="col1"> eVar or s.campaign </td> 
    <td colname="col2"> ID de message </td> 
    <td colname="col3"> <p>Collecté à partir des paramètres de requête dans les liens de courrier électronique par le biais de la méthode de collecte automatisée ou d’un plug-in JavaScript. </p> </td> 
    <td colname="col4"> Cette valeur est souvent stockée dans la variable de campagne. </td> 
