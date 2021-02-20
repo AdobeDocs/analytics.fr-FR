@@ -3,11 +3,11 @@ description: Pour tous les comptes FTP Adobe, le stockage des données est limi
 keywords: ftp;sftp
 title: Limitations du FTP et conservation des données
 uuid: deb807c9-e988-4587-b518-881857cad1cf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 19de1233201bfeba88014209f5d288db67787f83
-workflow-type: ht
-source-wordcount: '80'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 97%
 
 ---
 
