@@ -1,9 +1,9 @@
 ---
 title: Guide d’utilisation de Labs
 description: Prévisualiser des projets de prototype pour Adobe Analytics
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
