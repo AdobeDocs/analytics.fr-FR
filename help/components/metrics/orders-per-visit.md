@@ -1,9 +1,9 @@
 ---
 title: Commandes par visite
 description: Le rapport entre les commandes et les visites.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 100%
 
