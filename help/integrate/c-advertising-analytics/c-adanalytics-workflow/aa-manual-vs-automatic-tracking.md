@@ -1,9 +1,9 @@
 ---
 description: Le suivi détermine la façon dont les données du moteur de recherche sont suivies par votre implémentation Adobe Analytics. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
 title: Suivi en mode manuel et mode automatique
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 100%
 
