@@ -41,8 +41,8 @@ Lorsque les clients avertissent l’Adobe des pics de trafic pour chaque suite d
 
 ## Actions que votre organisation peut entreprendre
 
-adobe veut s&#39;assurer que votre expérience avec un rapports à jour est cohérente. Pour que cette tâche soit la plus efficace possible, l&#39;Adobe recommande vivement les mesures suivantes :
+Adobe veut s&#39;assurer que votre expérience avec un rapports à jour est cohérente. Pour que cette tâche soit la plus efficace possible, l&#39;Adobe recommande vivement les mesures suivantes :
 
-* Planifiez toutes les pics de trafic en fonction du délai [requis pour les augmentations](traffic-lead-time.md)de trafic. **Il est particulièrement important que les pics de trafic prévus pour les mois de novembre à décembre soient prévus d&#39;ici le 15 septembre**. Si l&#39;échéance vous manque, planifiez votre pic le plus tôt possible. Un délai d’avance inférieur est préférable à aucun, et l’Adobe fonctionne avec les ressources actuelles pour mieux s’adapter à vos suites de rapports.
+* Planifiez toutes les pics de trafic en fonction du [délai requis pour les augmentations de trafic](traffic-lead-time.md). **Il est particulièrement important que les pics de trafic prévus pour les mois de novembre à décembre soient prévus d&#39;ici le 15 septembre**. Si l&#39;échéance vous manque, planifiez votre pic le plus tôt possible. Un délai d’avance inférieur est préférable à aucun, et l’Adobe fonctionne avec les ressources actuelles pour mieux s’adapter à vos suites de rapports.
 * Si l’Adobe vous contacte au sujet d’un pic de trafic planifié, veillez à communiquer si le rapports en temps réel ou le rapports de traitement complet est plus important. Certaines organisations dépendent plus du rapports en temps réel que d’autres. La compréhension du type de rapports utilisé peut aider l’Adobe à établir des priorités en conséquence.
 * Communiquer avec votre gestionnaire de compte pour obtenir les rapports les plus importants et le moment où vous les extrayez peut les aider à défendre leurs intérêts.
