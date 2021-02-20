@@ -14,7 +14,7 @@ ht-degree: 96%
 
 La mesure « Visiteurs uniques » indique le nombre d’identifiants de visiteur pour l’élément de dimension. Il s’agit de l’une des mesures les plus courantes utilisées pour déterminer le trafic, car elle fournit un aperçu général de la popularité d’un élément de dimension. Par exemple, un visiteur peut venir sur votre site tous les jours pendant un mois et, néanmoins, ne représenter qu’un visiteur unique.
 
-Si vous utilisez les analyses [](../cda/overview.md)inter-périphériques, cette mesure est remplacée par la mesure Périphériques [](unique-devices.md) uniques.
+Si vous utilisez [Analyses sur plusieurs périphériques](../cda/overview.md), cette mesure est remplacée par la mesure [Périphériques uniques](unique-devices.md).
 
 ## Visiteurs uniques quotidiens, hebdomadaires, mensuels, trimestriels et annuels
 
@@ -30,8 +30,8 @@ Cette mesure comptabilise le nombre d’identifiants de visiteur unique pour un 
 | --- | --- | --- |
 | 1 | `vid` | La variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) est définie. |
 | 2 | `aid` | Le visiteur a un cookie [`s_vi`](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-analytics.html) existant. Défini lors de l’implémentation, sans ou avant l’implémentation du service d’identifiant de visiteur. |
-| 3 | `mid` | Le visiteur a un cookie [`s_ecid`](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-analytics.html) existant. Défini lors de l’implémentation, à l’aide du service [Adobe Experience Cloud Identity](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html). |
-| 4 | `fid` | Le visiteur a un cookie [`s_fid`](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-analytics.html) existant, ou `aid` et `mid` ne peuvent être définis pour aucune raison. |
+| 3 | `mid` | Le visiteur a un cookie [`s_ecid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) existant. Défini lors de l’implémentation, à l’aide du service [Adobe Experience Cloud Identity](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html). |
+| 4 | `fid` | Le visiteur a un cookie [`s_fid`](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-analytics.html) existant, ou `aid` et `mid` ne peuvent être définis pour aucune raison. |
 | 5 | Adresse IP, Agent utilisateur, Adresse IP de passerelle | Dernier recours pour identifier un visiteur unique si le navigateur du visiteur n’accepte pas les cookies. |
 
 >[!NOTE]
