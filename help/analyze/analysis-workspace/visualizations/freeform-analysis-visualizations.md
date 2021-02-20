@@ -5,8 +5,8 @@ title: Visualisations - Aperçu
 translation-type: tm+mt
 source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 42%
+source-wordcount: '1091'
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 42%
 
 Workspace offre un certain nombre de visualisations qui vous permettent de générer des représentations visuelles de vos données, telles que des graphiques à barres, des graphiques en anneau, des histogrammes, des graphiques en courbes, des cartes, des tracés différés, etc. La plupart des types de visualisation vous seront familiers si vous utilisez Adobe Analytics. Néanmoins, Analysis Workspace fournit des paramètres de visualisation et de nombreux types de visualisation nouveaux ou uniques, dotés de fonctionnalités interactives.
 
-Vous pouvez accéder aux visualisations à partir de l’icône située en haut à gauche de Workspace, d’un panneau [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)vierge ou par le biais du menu contextuel de votre processus.
+Vous pouvez accéder aux visualisations à partir de l’icône située en haut à gauche de Workspace, d’un [panneau vierge](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) ou via le menu contextuel de votre flux de travail.
 
 ![](assets/viz-rail.png)
 
@@ -44,7 +44,7 @@ Les types de visualisation suivants sont disponibles en Analysis Workspace :
 
 ## Paramètres {#settings}
 
-Chaque visualisation possède ses propres paramètres que vous pouvez gérer. Pour accéder aux Paramètres [!UICONTROL de]visualisation, cliquez sur l’icône d’engrenage Paramètres [!UICONTROL de] visualisation.
+Chaque visualisation possède ses propres paramètres que vous pouvez gérer. Pour accéder à [!UICONTROL Paramètres de visualisation], cliquez sur l&#39;icône [!UICONTROL Paramètres de visualisation] de l&#39;engrenage.
 
 ![](assets/settings.png)
 
@@ -65,7 +65,7 @@ Chaque visualisation possède ses propres paramètres que vous pouvez gérer. Po
 
 Une légende de visualisation vous permet de relier une date d’un tableau source à une série tracée dans la visualisation. La légende est interactive : vous pouvez cliquer sur un élément de légende pour afficher/masquer une série dans la visualisation. Cela s’avère utile si vous souhaitez simplifier les données visualisées.
 
-De plus, vous pouvez renommer les libellés de légende pour rendre les visuels plus consommables. Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
+De plus, vous pouvez renommer les libellés de légende pour rendre les visuels plus consommables. Remarque : l&#39;édition de légende ne s&#39;applique pas à **not** : Visualisations Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogramme, Cohort ou Flux.
 
 Pour modifier une étiquette de légende :
 
@@ -87,7 +87,7 @@ Pour accéder à d’autres fonctionnalités d’une visualisation, cliquez avec
 
 | Paramètre | Description |
 | --- | --- |
-| Insérer un panneau copié/visualisation | Permet de coller (&quot;insérer&quot;) un panneau ou une visualisation copié à un autre emplacement du projet ou dans un projet complètement différent. |
+| Insérer la copie du panneau/de la visualisation | Permet de coller (« insérer ») la copie d’un panneau ou d’une visualisation à un autre emplacement au sein du projet, ou dans un tout autre projet. |
 | Copier la visualisation | Permet de cliquer avec le bouton droit de la souris et de copier une visualisation afin de l’insérer à un autre emplacement du projet ou dans un projet complètement différent. |
 | [Télécharger les éléments au format CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Téléchargez jusqu’à 50 000 éléments de dimension pour la dimension sélectionnée au format CSV. |
 | [Télécharger les données au format CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Téléchargez la source de données de visualisation au format CSV. |
@@ -98,6 +98,6 @@ Pour accéder à d’autres fonctionnalités d’une visualisation, cliquez avec
 
 ## Icône Créer un visuel {#quick-viz}
 
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). Il s’agit de la méthode la plus rapide pour ajouter une visualisation. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Par exemple, si 1 ligne est sélectionnée, un graphique de tendance est créé. Si 3 lignes de segment sont sélectionnées, un diagramme de Venn est créé.
+Si vous n’êtes pas sûr de la visualisation à sélectionner, cliquez sur l’icône **[!UICONTROL Créer un visuel]** dans une ligne de tableau (disponible au survol). Il s’agit de la méthode la plus rapide pour ajouter une visualisation. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Par exemple, si 1 ligne est sélectionnée, un graphique de tendance est créé. Si 3 lignes de segment sont sélectionnées, un diagramme de Venn est créé.
 
 ![](assets/quick-viz.png)
