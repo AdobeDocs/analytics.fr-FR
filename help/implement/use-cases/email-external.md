@@ -1,9 +1,9 @@
 ---
 title: Suivi des courriers électroniques externes
 description: Utilisez Adobe Analytics pour effectuer le suivi du contenu des courriers électroniques.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ Plusieurs étapes successives permettent d’afficher les données d’analyse d
       Il est important de garder en mémoire les points ci-après lors de la mise à jour de la bibliothèque JavaScript. Ces points sont énoncés ci-dessous.
 
       * Le paramètre de chaîne de requête [!UICONTROL sc_cid] doit être visible dans l’URL de la page d’entrée finale ; dans le cas contraire, aucune conversion de clic publicitaire ne sera enregistrée.
-      * Le paramètre [!UICONTROL sc_cid] est un exemple de paramètre de chaîne de requête. Tout paramètre de chaîne de requête peut être utilisé et capturé par le plug-in [!UICONTROL getQueryParam]. Assurez-vous que les paramètres de chaîne de requête ne sont utilisés que pour le suivi de campagne. Chaque fois que les paramètres figurent dans une chaîne de requête, leurs valeurs sont copiées dans *`campaign`*.
+      * Le paramètre [!UICONTROL sc_cid] est un exemple de paramètre de chaîne de requête. Tout paramètre de chaîne de requête peut être utilisé et capturé par le plug-in [!UICONTROL getQueryParam]. Assurez-vous que les paramètres de chaîne de requête ne sont utilisés que pour le suivi de campagne. Chaque fois que les paramètres figurent dans une chaîne de requête, leurs valeurs sont copiées dans  *`campaign`*.
 
 1. Utilisez [!UICONTROL SAINT] pour classifier les codes de suivi de campagne.
 
