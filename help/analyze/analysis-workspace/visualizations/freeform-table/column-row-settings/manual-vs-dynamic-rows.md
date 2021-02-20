@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,4 +52,4 @@ Vous pouvez ajouter des éléments de dimension de différentes dimensions au m�
 Les lignes dynamiques et statiques se comportent différemment dans la ligne de total à structure libre. Par défaut :
 
 * Les lignes dynamiques sont additionnées côté serveur et dédupliquent les mesures, telles que les visites ou les visiteurs.
-* Les lignes statiques sont additionnées côté client et ne dédupliquent **pas** les mesures. Pour calculer la ligne de total côté serveur, définissez le paramètre des lignes sur **Afficher le total général**. [En savoir plus](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Les lignes statiques sont additionnées côté client et ne dédupliquent **pas** les mesures. Pour calculer la ligne de total côté serveur, définissez le paramètre des lignes sur **Afficher le total général**. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
