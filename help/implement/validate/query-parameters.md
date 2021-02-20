@@ -1,9 +1,9 @@
 ---
 title: Paramètres de requête de la collecte de données
 description: Répertorie tous les paramètres de chaîne de requête utilisés dans les demandes d’image.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `c` | Aucun | Qualité des couleurs (en bits). Utilisé dans la dimension [Profondeur de couleur](/help/components/dimensions/color-depth.md). |
 | `c.` | [`contextData`](../vars/page-vars/contextdata.md) | Indique le début des variables de données contextuelles. Ne contient jamais de valeur. |
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | Indique la fin des variables de données contextuelles. Ne contient jamais de valeur. |
-| `c1` - `c75` | [`prop1` - `prop75`](../vars/page-vars/prop.md) | [Props](/help/components/dimensions/prop.md) ou variables de trafic personnalisées. |
+| `c1` - `c75` | [`prop1` -  `prop75`](../vars/page-vars/prop.md) | [Props](/help/components/dimensions/prop.md) ou variables de trafic personnalisées. |
 | `cc` | [`currencyCode`](../vars/config-vars/currencycode.md) | Type de devise utilisée sur l’accès. |
 | `cdp` | [`cookieDomainPeriods`](../vars/config-vars/cookiedomainperiods.md) | Nombre de points dans un domaine. Permet de stocker correctement les cookies. |
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | Codage de caractères de la demande d’image. |
@@ -41,11 +41,11 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | Les URL de plus de 255 octets sont fractionnées. Les 255 premiers octets apparaissent dans le paramètre `g` et tous les autres dans le paramètre `-g`. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Raccourci pour la chaîne de requête `pageName`. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Raccourci pour la chaîne de requête `pageType`. |
-| `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Dimensions hiérarchiques. |
+| `h1` -  `h5` | [`hier1` -  `hier5`](../vars/page-vars/hier.md) | Dimensions hiérarchiques. |
 | `hp` | Aucun | N’est plus utilisé. Dans les versions précédentes d’Adobe Analytics, déterminez si l’URL active était la page d’accueil du navigateur. |
 | `j` | Aucun | Version JavaScript installée dans le navigateur. |
 | `k` | Aucun | Utilisé dans la dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md). |
-| `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | Variables de liste. |
+| `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | Variables de liste. |
 | `mid` | Aucun | Identifiant visiteur Experience Cloud. |
 | `ndh` | Aucun | Indicateur précisant si la demande d’image provient d’AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Permet de déterminer l’emplacement des cookies. |
@@ -74,7 +74,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | L’horodatage personnalisé défini avec l’accès. Généralement utilisé pour le suivi hors ligne. |
 | `v` | Aucun | Utilisé dans la dimension [Compatible Java](/help/components/dimensions/java-enabled.md). |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimension [Code de suivi](/help/components/dimensions/tracking-code.md). |
-| `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) ou dimensions de conversion personnalisées. |
+| `v1` -  `v250` | [`evar1` -  `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) ou dimensions de conversion personnalisées. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variable d’identifiant visiteur. |
 | `vmk` | `vmk` | N’est plus utilisé. Clé de migration des visiteurs ayant participé à la migration des implémentations de cookies tiers vers des cookies internes. |
 | `vvp` | `variableProvider` | Utilisé dans Data Connectors. |
