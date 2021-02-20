@@ -1,9 +1,9 @@
 ---
 title: dynamicAccountSelection
 description: La variable dynamicAccountSelection active ou désactive la sélection de comptes dynamiques.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 
