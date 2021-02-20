@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Suppression des données de classification
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
