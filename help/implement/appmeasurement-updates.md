@@ -33,19 +33,19 @@ Date de publication : **24 juin 2020**
 
 ## Version 2.20.0
 
-Date de publication : **5 mars 2020**
+Date de publication : **5 mars 2020**
 
 * Correction d’un problème de sécurité en mettant à jour la détection d’Internet Explorer pour supprimer l’avertissement JSLint.
 
 ## Version 2.19.0
 
-Date de publication : **21 février 2020**
+Date de publication : **21 février 2020**
 
 * Mise à jour du module Gestion de l’audience vers DIL 9.4. (AN-209341)
 
 ## Version 2.18.0
 
-Date de publication : **13 février 2020**
+Date de publication : **13 février 2020**
 
 * AppMeasurement peut désormais forcer les cookies à inclure l’attribut Sécurisé en définissant la variable [`writeSecureCookies`](vars/config-vars/writesecurecookies.md). Cette variable requiert la diffusion sécurisée (HTTPS) de l’intégralité du site Web client. (AN-204604)
 
@@ -75,7 +75,7 @@ Date de publication : **15 juillet 2019**
 
 ## Version 2.14.0
 
-Date de publication : **21 mai 2019**
+Date de publication : **21 mai 2019**
 
 * Correction de problèmes liés à la gestion de l’état des paramètres de suivi lorsque plusieurs accès sont en attente. (AN-176931, AN-176629, DTM-12758)
 * Mise à jour d’AppMeasurement pour inclure Visitor.js 4.3.0 (AN-180049)
@@ -88,7 +88,7 @@ Date de publication : **10 avril 2019**
 
 ## Version 2.12.0
 
-Date de publication : **22 février 2019**
+Date de publication : **22 février 2019**
 
 * Mise à jour du module Gestion de l’audience vers DIL 9.1. (AN-175255)
 * La stratégie de sécurité GTM n’autorise pas le module Activity Map. (AN-174679)
@@ -96,7 +96,7 @@ Date de publication : **22 février 2019**
 
 ## Version 2.11.0
 
-Date de publication : **11 février 2019**
+Date de publication : **11 février 2019**
 
 * Ajout de la prise en charge des nouveaux services de souscription Adobe dans AppMeasurement. (AN-163546)
 * Ajout de la prise en charge du stockage des données de suivi des liens pour le stockage de session. (AN-162272)
@@ -104,7 +104,7 @@ Date de publication : **11 février 2019**
 
 ## Version 2.10.0
 
-Date de publication : **20 septembre 2018**
+Date de publication : **20 septembre 2018**
 
 Cette version garantit l’envoi correct des cookies par la bibliothèque [!DNL AppMeasurement] pour tous les types de connexions.
 
@@ -115,7 +115,7 @@ Cette version garantit l’envoi correct des cookies par la bibliothèque [!DNL 
 
 ## Version 2.9.0
 
-Date de publication : **24 mai 2018**
+Date de publication : **24 mai 2018**
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Date de publication : **24 mai 2018**
 
 ## Version 2.8.2
 
-Date de publication : **12 avril 2018**
+Date de publication : **12 avril 2018**
 
 * Mise à jour d’[!DNL AppMeasurement] permettant d’utiliser l’interface visiteur mise à jour pour demander des identifiants. (AN-151483)
 * Le cookie de suivi des liens continue à être écrit une fois que le suivi des liens est désactivé. (AN-156332)
@@ -135,13 +135,13 @@ Date de publication : **12 avril 2018**
 
 ## Version 2.8.1
 
-Date de publication : **29 mars 2018**
+Date de publication : **29 mars 2018**
 
 Recompilation de l’API visiteur 3.1.0 (AN-159524) avec les correctifs suivants : (CORE-11390, CORE-10634)
 
 ## Version 2.8.0
 
-Date de publication : **15 mars 2018**
+Date de publication : **15 mars 2018**
 
 Recompilation de l’API visiteur 3.1.0 (AN-159524) avec les correctifs suivants : (CORE-11390, CORE-10634)
 
@@ -151,49 +151,49 @@ Recompilation de l’API visiteur 3.1.0 (AN-159524) avec les correctifs suivant
 
 ## Version 2.7.0
 
-Date de publication : **18 janvier 2018**
+Date de publication : **18 janvier 2018**
 
 * Fin de la prise en charge d’IE 6 à 9
 * Inclusion de l’API visiteur version 3.0.0
-* Inclusion de DIL v7.00   
+* Inclusion de DIL v7.00
 
 ## Version 2.6.0
 
-Date de publication : **9 novembre 2017**
+Date de publication : **9 novembre 2017**
 
 Correction d’un problème en raison duquel la bibliothèque [!DNL AppMeasurement] ne définit pas toujours la combinaison de compte correcte lorsque s_gl est appelé. (AN-152153)
 
 ## Version 2.5.0
 
-Date de publication : **21 septembre 2017**
+Date de publication : **21 septembre 2017**
 
 * Inclusion de [!DNL dil.js 6.12] (module [!DNL Audience Manager])
 * Inclusion de l’API visiteur version 2.5.0.
 
 ## Version 2.4.0
 
-Date de publication : **17 août 2017**
+Date de publication : **17 août 2017**
 
 * dil.js v6.11 inclus
 * API Visiteur 2.4.0 inclus
 
 ## Version 2.3.0
 
-Date de publication : **20 juillet 2017**
+Date de publication : **20 juillet 2017**
 
 * Bug corrigé lorsqu’il est `s.Util.getQueryParam` capturé `#`
 * Ajout de la version 6.10 du fichier `dil.js` (AN-145701)
 
 ## Version 2.2.0
 
-Date de publication : **8 juin 2017**
+Date de publication : **8 juin 2017**
 
 * Prise en charge supplémentaire de plusieurs commandes d’instanciation d’[!DNL AppMeasurement]. (AN-138237)
 * Inclusion de l’API visiteur version 2.2.0. (AN-144042)
 
 ## Version 2.1.0
 
-Date de publication : **20 avril 2017**
+Date de publication : **20 avril 2017**
 
 * Comprend la dernière version de `dil.js` (AN-140396)
 * Ajout de la prise en charge du paramètre `adobe_mc_ref` qui remplace le référent de la page. (AN-131920)
@@ -210,7 +210,7 @@ Date de la version : **9 mars 2017**
 
 ## Version 1.8.0
 
-Date de publication : **19 janvier 2017**
+Date de publication : **19 janvier 2017**
 
 * Inclusion de VisitorAPI 2.0.0
 * Appels et vérifications de fonctions reséquencés de façon à ce que la consommation du SDID ait lieu une fois la vérification de l’abandon terminée. (AN-134364)
@@ -249,7 +249,7 @@ Mise à jour : **4 août 2016**
 
 ## Version 1.6.2
 
-Date de publication : **21 juillet 2016**
+Date de publication : **21 juillet 2016**
 
 * Inclusion de l’API visiteur version 1.6.0.
 * Correction d’un problème en raison duquel [!DNL AppMeasurement] appelait la méthode d’obscurcissement incorrecte dans l’API visiteur. (AN-126006)
@@ -257,42 +257,42 @@ Date de publication : **21 juillet 2016**
 
 ## Version 1.6.1
 
-Date de publication : **16 juin 2016**
+Date de publication : **16 juin 2016**
 
 * Inclusion de l’API visiteur version 1.5.7.
 * Correction de la prise en charge du suivi des clics sur les liens dans Firefox, qui ne couvrait pas l’événement complet.
 
 ## Version 1.6
 
-Date de publication : **21 avril 2016**
+Date de publication : **21 avril 2016**
 
 * Le module [!DNL AppMeasurement] d’Activity Map a été intégré au module standard d’[!DNL AppMeasurement], afin que vous n’ayez à référencer qu’un seul fichier [!DNL .js]. En outre, le suivi d’Activity Map est activé par défaut. (AN-112689)
 * Correction d’un problème de troncation lié à l’ordre des variables de chaîne de requête dans [!DNL AppMeasurement], afin que *`pageURLRest`* soit le dernier. (AN-114647)
 
 ## Version 1.5.4
 
-Date de publication : **17 mars 2016**
+Date de publication : **17 mars 2016**
 
 * Inclusion de l’API visiteur version 1.5.4
 * Prise en charge de l’exclusion de l’API visiteur version 1.5.4+
 
 ## Version 1.5.3
 
-Date de publication : **21 janvier 2016**
+Date de publication : **21 janvier 2016**
 
 * Correction de la gestion du module [!DNL Audience Manager] lors de l’utilisation de POST pour les appels de suivi. (AN-115381)
 * Déplacement du reste de l’URL de la page (&quot;-g&quot;) à la fin de la chaîne de requête de demande de suivi. (AN-114647)
 
 ## Version 1.5.2
 
-Date de publication : **5 novembre 2015**
+Date de publication : **5 novembre 2015**
 
 * Inclusion de l’API visiteur version 1.5.3.
 * Correction de la détection d’IE11 pour la troncation des URL 2047 (AN-114914)
 
 ## Version 1.5.1
 
-Date de publication : **17 septembre 2015**
+Date de publication : **17 septembre 2015**
 
 * Inclusion de l’API visiteur version 1.5.2
 * Mise à jour du module [!DNL Audience Manager] pour pouvoir utiliser les identifiants AAM DIL 6.2 - getCustomer de VisitorAPI.js et les transmettre dans l’appel d’événement à AAM. (AN-104978)
@@ -307,7 +307,7 @@ Date de publication : **18 juin 2015**
 
 ## Version 1.4.5
 
-Date de publication : **21 mai 2015**
+Date de publication : **21 mai 2015**
 
 * Depuis le SDK iOS version 4.5, une nouvelle extension iOS permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension iOS. Reportez-vous à la section [Mise en œuvre des extensions iOS](https://docs.adobe.com/content/help/fr-FR/mobile-services/ios/ios-ext/ios-ext.html) dans le guide d’utilisation des Mobile Services.
 * À compter de la version 4.5 du SDK Android, une nouvelle extension Android permet de collecter des données à partir de l’application Android Wearable. Reportez-vous à la page [Android Wearable](https://docs.adobe.com/content/help/fr-FR/mobile-services/android/wearables-android/android-wearable.html) dans le guide d’utilisation des Mobile Services.
@@ -320,7 +320,7 @@ Date de publication : **21 mai 2015**
 
 ## Version 1.4.4
 
-Date de publication : **16 avril 2015**
+Date de publication : **16 avril 2015**
 
 * Vous pouvez maintenant inclure des variables de données contextuelles personnalisées aux mesures de cycle de vie.
 * Les appels `trackBeacon` et `clearCurrentBeacon` sont maintenant disponibles dans PhoneGap.
@@ -328,22 +328,22 @@ Date de publication : **16 avril 2015**
 
 ## Version 1.4.3
 
-Date de publication : **19 février 2015**
+Date de publication : **19 février 2015**
 
 * Homogénéisation de la gestion de tous les appels de suivi retardés, avec correction des problèmes liés aux variables sauvegardées durant le retard (par exemple l’objet sur lequel on a cliqué).
-* Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand  *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
+* Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
 * Le fichier compressé de distribution a été mis à jour pour inclure l’API visiteur 1.3.5.
 
 ## Version 1.4.2
 
-Date de publication : **15 janvier 2015**
+Date de publication : **15 janvier 2015**
 
 * Correction d’un problème lors de la gestion du prérendu WebKit afin d’empêcher le suivi des pages prérendues qui ne sont pas consultées.
 * Le fichier compressé de distribution a été mis à jour afin d’inclure l’API visiteur 1.3.4 et un module **[!UICONTROL AudienceManagement]** mis à jour qui inclut la bibliothèque d’intégration des données (DIL) version 5.5.
 
 ## Version 1.4.1
 
-Date de publication : **18 septembre 2014**
+Date de publication : **18 septembre 2014**
 
 * Ajout d’une variable `tagContainerMarker` qui permet à la mise en œuvre de spécifier jusqu’à 4 caractères annexés à la chaîne de version avec un délimiteur de caractère (tiret) supplémentaire. Ceci est utilisé par la gestion dynamique des balises.
 
@@ -387,46 +387,46 @@ Date de publication : **19 juin 2014**
 
 ## Version 1.3.1
 
-Date de publication : **22 mai 2014**
+Date de publication : **22 mai 2014**
 
 * La fonction d’[!DNL AppMeasurement] pour [!DNL JavaScript] `s_gi` ne recherchait pas correctement les instances créées à l’aide du code H `s_gi`. Notez que ce problème avait uniquement une incidence sur certaines mises en œuvre de marquage double dans lesquelles le code [!DNL AppMeasurement] pour [!DNL JavaScript] et le code H figuraient dans une même page avec des instances distinctes et que `s_gi` était utilisé pour rechercher des instances par suite de rapports.
 
 ## Version 1.3
 
-Date de publication : **17 avril 2014**
+Date de publication : **17 avril 2014**
 
 * Prise en charge du service [d’identification des visiteurs Experience Cloud](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
 
 ## Version 1.2.4
 
-Date de publication : **13 mars 2014**
+Date de publication : **13 mars 2014**
 
 * Correctifs de bogues pour la vidéo Pulsation.
 
 ## Version 1.2.3
 
-Date de publication : **20 février 2014**
+Date de publication : **20 février 2014**
 
 * Correctifs de bogues pour la vidéo Pulsation.
 
 ## Version 1.2.2
 
-Date de publication : **6 février 2014**
+Date de publication : **6 février 2014**
 
 * Correction d’un problème de compatibilité avec le module [!DNL Audience Manager] DIL. Les utilisateurs d’[!DNL Audience Manager] doivent également effectuer la mise à jour vers la version 4.8 du module DIL.
 
 ## Version 1.2.1
 
-Date de publication : **15 novembre 2013**
+Date de publication : **15 novembre 2013**
 
 * Correction des événements de page utilisés par la mesure vidéo Pulsation.
 
 ## Version 1.2
 
-Date de publication : **14 novembre 2013**
+Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure vidéo Pulsation](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html).
-* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
+* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
 ## Version 1.1.1
 
@@ -435,7 +435,7 @@ Date de publication : **14 novembre 2013**
 
 ## Version 1.1
 
-Date de publication : **18 septembre 2013**
+Date de publication : **18 septembre 2013**
 
 * Correction de la prise en charge du positionnement du code de bibliothèque et de page dans la balise `head`.
 * Ajout de la prise en charge du module `onLoad` manquante.
@@ -449,7 +449,7 @@ Date de publication : **15 août 2013**
 
 ## Version 1.0.2
 
-Date de publication : **18 juillet 2013**
+Date de publication : **18 juillet 2013**
 
 * Le hachage/fragment est désormais ignoré par le suivi automatique des liens. Auparavant, l’URL suivante était automatiquement suivie puisque l’intégralité du contenu entre les balises `href` se terminait par `.pdf` :
 
@@ -461,7 +461,7 @@ Date de publication : **18 juillet 2013**
 
 ## Version 1.0.1
 
-Date de publication : **23 mai 2013**
+Date de publication : **23 mai 2013**
 
 Une nouvelle bibliothèque [!DNL JavaScript] [!DNL AppMeasurement] est désormais disponible dans le Gestionnaire de code. Cette bibliothèque fournit les mêmes fonctionnalités de base que le fichier [!DNL s_code.js] ; elle est toutefois plus légère et plus rapide sur les sites pour mobiles comme sur les sites pour Bureau.
 
