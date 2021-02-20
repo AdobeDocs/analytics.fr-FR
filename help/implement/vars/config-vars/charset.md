@@ -25,11 +25,11 @@ Le jeu de caractères désigne un champ sous l’accordéon [!UICONTROL Généra
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Jeu de caractères].
 
-Vous pouvez utiliser un jeu de caractères prédéfini ou un jeu de caractères personnalisé. Evitez de modifier la valeur à `UTF-8` moins que les valeurs ne soient altérées dans les rapports.
+Vous pouvez utiliser un jeu de caractères prédéfini ou un jeu de caractères personnalisé. Evitez de modifier la valeur `UTF-8`, sauf si les valeurs sont altérées dans les rapports.
 
 ## s.charSet dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
-La variable `charSet` est une chaîne. Si vous avez des valeurs altérées dans Adobe Analytics, définissez cette variable sur la même valeur que la balise `<meta charset="">` HTML de votre site.
+La variable `charSet` est une chaîne. Si vous avez des valeurs altérées en Adobe Analytics, définissez cette variable sur la même valeur que la balise HTML `<meta charset="">` de votre site.
 
 ```js
 s.charSet = "UTF-8";
