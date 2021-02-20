@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Modèle de classification
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 
