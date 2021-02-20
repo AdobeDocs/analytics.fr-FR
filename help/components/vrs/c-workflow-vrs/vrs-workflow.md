@@ -1,13 +1,13 @@
 ---
 description: Présentation des étapes requises pour planifier la mise en œuvre des suites de rapports virtuelles.
-keywords: Virtual Report Suite
+keywords: Suite de rapports virtuelle
 title: Workflow des suites de rapports virtuelles
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '260'
+workflow-type: tm+mt
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
