@@ -2,9 +2,9 @@
 description: Interprétez les identifiants capturés dans vos données Analytics et décidez lesquels utiliser pour les demandes relatives à la confidentialité des données.
 title: Bonnes pratiques en matière d’étiquetage
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2706'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Les étiquettes de suppression DEL-DEVICE et DEL-PERSON doivent être utilisées
 
    Ainsi, si vous avez trois accès contenant la valeur « foo » dans eVar7, mais que l’un d’entre eux contient également un identifiant dans une autre variable visée par une suppression, la valeur « foo » de cet accès sera alors modifiée en une valeur de type « Data Privacy-123456789 », tandis qu’il restera inchangé dans les deux autres accès. Un rapport mentionnant le nombre de valeurs uniques pour eVar7 indiquera désormais une valeur unique de plus que précédemment. Un rapport mentionnant les valeurs principales des eVars peut inclure « foo » avec seulement deux instances (au lieu de 3 précédemment) ; la nouvelle valeur apparaîtra également sous la forme d’une instance distincte.
 
-## Bonnes pratiques pour définir les étiquettes d’accès {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Bonnes pratiques pour définir les étiquettes d’accès  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Bien que très peu de champs comportent une des autres étiquettes, il arrive souvent que de nombreux champs disposent d’étiquettes ACC. Les étiquettes d’accès appropriées dépendront des ID que vous utilisez pour les demandes relatives à la Confidentialité des données.
 
