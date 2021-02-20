@@ -1,9 +1,9 @@
 ---
 title: Ajouts au panier
 description: Le nombre d’accès pendant lesquels un visiteur a ajouté un produit au panier.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 100%
 
