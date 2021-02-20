@@ -7,8 +7,8 @@ uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '742'
+ht-degree: 86%
 
 ---
 
@@ -91,11 +91,11 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nom de la page </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Remarque :  Les appels de suivi de lien dépouillent la <code>pageName</code> variable avant d’atteindre les règles de traitement. Si vous réinsérez une valeur de nom de page à l’aide de règles de traitement, l’accès est considéré comme une vue de page et non comme un appel de suivi de liens. adobe recommande de vérifier si le nom de page est déjà défini avant de le modifier. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Remarque :  Les appels de suivi de lien dépouillent la variable <code>pageName</code> avant d’atteindre les règles de traitement. Si vous réinsérez une valeur de nom de page à l’aide de règles de traitement, l’accès est considéré comme une vue de page et non comme un appel de suivi de liens. Adobe recommande de vérifier si le nom de page est déjà défini avant de le modifier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL de la page </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> ou URL de la page en cours si <code> s.pageURL</code> n’est pas spécifié. <p>Remarque :  Les appels de suivi de lien dépouillent la <code>pageURL</code> variable avant d’atteindre les règles de traitement. Si vous réinsérez une valeur d’URL de page à l’aide de règles de traitement, l’accès est considéré comme une vue de page et non comme un appel de suivi de liens. L’Adobe recommande de vérifier si l’URL de la page est déjà définie avant de la modifier. </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> ou URL de la page en cours si <code> s.pageURL</code> n’est pas spécifié. <p>Remarque :  Les appels de suivi de lien dépouillent la variable <code>pageURL</code> avant d’atteindre les règles de traitement. Si vous réinsérez une valeur d’URL de page à l’aide de règles de traitement, l’accès est considéré comme une vue de page et non comme un appel de suivi de liens. L’Adobe recommande de vérifier si l’URL de la page est déjà définie avant de la modifier. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paramètre de chaîne de requête </p> </td> 
@@ -131,7 +131,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domaine racine référent (lecture seule) </p> </td> 
-   <td colname="col2"> <p>Les deux dernières sections du nom d’hôte du référent. https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>Les deux dernières sections du nom d’hôte du référent. https://en.main.example.<span class="syntax codeph"> co.uk</span> /index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chaîne de requête de référent (lecture seule) </p> </td> 
@@ -176,7 +176,7 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de liste 1 à 3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identifiant d’achat </p> </td> 
@@ -211,7 +211,7 @@ Les règles de traitement peuvent définir des événements, mais elles ne peuve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Événement 1-1 000 </p> <p>(Pour les utilisateurs de SiteCatalyst 15, événement 1 à 100.) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase, scView, scAdd et autres événements de panier </p> </td> 
