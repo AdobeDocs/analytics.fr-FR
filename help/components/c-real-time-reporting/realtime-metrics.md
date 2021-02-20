@@ -3,9 +3,9 @@ description: Répertorie les mesures et les dimensions prises en charge par les 
 title: Mesures et dimensions en temps réel prises en charge
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Répertorie les mesures et les dimensions prises en charge par les rapports Temp
 * Instances
 * Événements personnalisés 1 à 100 (s’ils sont activés dans la suite de rapports)
 
-## Dimensions prises en charge {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Dimensions prises en charge  {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
 * Page
 * Mot-clé de recherche
