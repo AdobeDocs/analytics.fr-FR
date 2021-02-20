@@ -2,9 +2,9 @@
 description: Le Gestionnaire de mesures calculées offre plusieurs manières d’organiser les mesures, par exemple le partage, le filtrage, le balisage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
 title: Gestionnaire de mesures calculées
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 
