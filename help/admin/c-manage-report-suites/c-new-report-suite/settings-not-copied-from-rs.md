@@ -3,9 +3,9 @@ description: Si vous avez copié des paramètres d’une suite de rapports exist
 title: Paramètres non copiés depuis une suite de rapports source
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
