@@ -16,7 +16,7 @@ La mesure « Profondeur moyenne de page » indique le niveau auquel l’élém
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des profondeurs de page d’anomalie, qui sont généralement inutiles.
+>Utilisez cette mesure avec une autre mesure (telle que [Visites](visits.md)) pour obtenir de meilleures informations. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des profondeurs de page d’anomalie, qui sont généralement inutiles.
 
 ## Méthode de calcul de cette mesure
 
