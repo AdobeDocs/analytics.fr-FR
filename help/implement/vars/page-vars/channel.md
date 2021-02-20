@@ -10,7 +10,7 @@ ht-degree: 97%
 ---
 
 
-# channel
+# canal
 
 La variable `channel` stocke généralement la section du site sur laquelle se trouve une page donnée. Il est utile de déterminer les groupes de votre site les plus populaires. Cette variable renseigne la dimension Sections du site.
 
@@ -35,7 +35,7 @@ La variable `s.channel` est une chaîne qui contient généralement la section d
 s.channel = "Example site section";
 ```
 
-Si vous utilisez la couche `digitalData` de [](../../prepare/data-layer.md)données :
+Si vous utilisez la couche de données `digitalData` [](../../prepare/data-layer.md) :
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;
