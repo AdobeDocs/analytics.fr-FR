@@ -1,9 +1,9 @@
 ---
 description: Cette rubrique présente la configuration système requise et compare Analysis Workspace, les Reports & Analytics, les Ad Hoc Analysis, le Report Builder, Data Warehouse et Data Workbench.
 title: Configuration requise et comparaison des produits Analytics
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
