@@ -1,9 +1,9 @@
 ---
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 
