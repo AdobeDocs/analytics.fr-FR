@@ -53,7 +53,7 @@ Le **Taux de rebond** est disponible en tant que mesure dans Analysis Workspace.
 
    Pour en savoir plus sur les [mesures calculées](/help/components/c-calcmetrics/cm-overview.md), voir le guide d’utilisation des composants.
 
-La **Durée de session moyenne** est à peu près équivalente à la **Durée de la visite (en secondes)**. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
+La **Durée de session moyenne** est à peu près équivalente à la **Durée de la visite (en secondes)**. Pour en savoir plus sur les mesures [Durée de visite](/help/components/metrics/time-spent-per-visit.md) du guide d’utilisateur Composants.
 
 ## Mesures de conversion
 
