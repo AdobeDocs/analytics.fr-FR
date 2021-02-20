@@ -16,7 +16,7 @@ AppMeasurement collecte automatiquement l’URL de la page dans chaque accès. S
 
 >[!NOTE]
 >
->Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. En outre, les serveurs de collecte de données d’Adobe éliminent cette dimension de toutes les demandes d’image de suivi [de](/help/implement/vars/functions/tl-method.md) liens. Si vous souhaitez utiliser l’URL de page comme dimension en Analysis Workspace ou que cette dimension doit être utilisée dans les accès de suivi de liens, pensez à transmettre la `pageURL` variable dans un [eVar](evar.md) pour chaque accès.
+>Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. De plus, les serveurs de collecte de données d’Adobe éliminent cette dimension de toutes les demandes d’image [de suivi de liens](/help/implement/vars/functions/tl-method.md). Si vous souhaitez utiliser l’URL de page en tant que dimension en Analysis Workspace ou que cette dimension soit utilisée dans les accès de suivi de liens, pensez à transmettre la variable `pageURL` dans un [eVar](evar.md) pour chaque accès.
 
 ## URL de page dans Adobe Experience Platform Launch
 
@@ -46,7 +46,7 @@ Si vous souhaitez utiliser l’URL de page comme dimension dans les rapports, pe
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-Si vous utilisez la couche `digitalData` de [](../../prepare/data-layer.md)données :
+Si vous utilisez la couche de données `digitalData` [](../../prepare/data-layer.md) :
 
 ```js
 s.pageURL = digitalData.page.pageInfo.destinationURL;
