@@ -1,16 +1,16 @@
 ---
 title: list
 description: Variables personnalisées qui contiennent plusieurs valeurs dans le même accès.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
 ---
 
 
-# list
+# liste
 
 Les variables de liste sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Elles fonctionnent de la même manière que les eVars, sauf qu’elles peuvent contenir plusieurs valeurs dans le même accès. Les variables de liste n’ont pas de limite de caractères.
 
