@@ -1,9 +1,9 @@
 ---
 title: Interface utilisateur du flux de données
 description: Découvrez comment naviguer dans l’interface de flux de données.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
