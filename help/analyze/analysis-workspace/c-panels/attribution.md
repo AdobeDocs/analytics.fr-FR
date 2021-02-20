@@ -12,12 +12,12 @@ ht-degree: 66%
 
 # Panneau d’attribution
 
-The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. Il s’agit d’une fonctionnalité d’[Attribution IQ](../attribution/overview.md) qui vous permet d’utiliser et de comparer des modèles d’attribution dans un espace de travail dédié.
+Le panneau [!UICONTROL Attribution] est un moyen facile de créer une analyse comparant divers modèles d’attribution. Il s’agit d’une fonctionnalité d’[Attribution IQ](../attribution/overview.md) qui vous permet d’utiliser et de comparer des modèles d’attribution dans un espace de travail dédié.
 
 ## Création d’un panneau d’attribution
 
 1. Cliquez sur l’icône du panneau à gauche.
-1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
+1. Faites glisser le panneau [!UICONTROL Attribution] dans votre projet Analysis Workspace.
 
    ![Nouveau panneau d’attribution](assets/Attribution_Panel_1.png)
 
@@ -39,5 +39,5 @@ The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing
 * **Diagramme** de chevauchement : Diagramme de Venn présentant les trois principaux éléments de dimension et la fréquence à laquelle ils participent conjointement à une conversion. Par exemple, la taille du chevauchement des bulles indique la fréquence des conversions lorsqu’un visiteur a été exposé aux deux éléments de dimension. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
 * **Détails** des performances : Permet de comparer visuellement jusqu’à trois modèles d’attribution à l’aide d’un graphique de dispersion.
 * **Performances** de tendances : Affiche la tendance des conversions attribuées pour l’élément de dimension supérieur. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
-* **Flux**: Vous permet de déterminer les canaux qui interagissent le plus souvent et dans quel ordre d’un visiteur à l’autre.
+* **Flux** : Permet de déterminer les canaux qui interagissent le plus souvent et dans quel ordre parmi les visiteurs.
 
