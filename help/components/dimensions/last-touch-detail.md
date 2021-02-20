@@ -1,9 +1,9 @@
 ---
 title: Détails du canal Dernière touche
 description: Détails du dernier canal marketing dans l’expiration de l’engagement du visiteur.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
