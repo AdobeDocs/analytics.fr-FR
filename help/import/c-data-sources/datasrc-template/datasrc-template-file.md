@@ -4,9 +4,9 @@ subtopic: Data sources
 title: Modèle de sources de données - Aperçu
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
