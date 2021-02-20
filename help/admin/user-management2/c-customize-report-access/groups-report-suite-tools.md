@@ -1,6 +1,6 @@
 ---
 description: Activez les autorisations d’utilisateurs pour l’accès aux API, la gestion des suites de rapports, les outils et les rapports, ainsi que les éléments de tableau de bord.
-keywords: groups;permissions
+keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Personnalisation des autorisations liées aux outils de suites de rapports
 topic: Admin tools
@@ -8,7 +8,7 @@ uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
 source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1164'
 ht-degree: 93%
 
 ---
@@ -59,13 +59,13 @@ Les paramètres sur cette page se rapportent aux suites de rapports sélectionn�
 | [Méthodes de recherche](/help/admin/admin/finding-methods.md) | Vous permet de déterminer de quelle façon sont renseignés divers rapports sur les méthodes de recherche relatifs aux événements de succès de conversion sur votre site. |
 | [Classifications des conversions](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Consolidé en classifications (sous Outils et rapports). |
 | [Visiteur unique](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Autorisation de spécifier la variable Visiteur unique. |
-| [Événements de succès](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/success-events/success-event.html) | Actions qui peuvent être suivies (consultation de produits, passages en caisse et achats, notamment). |
+| [Événements de succès](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | Actions qui peuvent être suivies (consultation de produits, passages en caisse et achats, notamment). |
 | [Hiérarchies de classification](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | Consolidé en classifications (sous Outils et rapports). |
 | [Variables de liste](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html) | Connue également sous le nom de variable de liste. À l’instar de la fonction Propriétés de liste, les List Vars autorisent plusieurs valeurs dans la même demande d’image. |
 | [Mesures par défaut](/help/admin/admin/default-metrics.md) | Les Reports &amp; Analytics affichent un ensemble de mesures par défaut dans tous les rapports de conversion, sauf si un utilisateur sélectionne un ensemble personnalisé. Les mesures sélectionnées s’affichent pour tous les utilisateurs de la suite de rapports associée. |
-| [Règles de traitement](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Accorde l’accès aux règles de traitement, ce qui simplifie la collecte de données et la gestion du contenu lorsqu’il est envoyé aux rapports. |
+| [Règles de traitement](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Accorde l’accès aux règles de traitement, ce qui simplifie la collecte de données et la gestion du contenu lorsqu’il est envoyé aux rapports. |
 | **Outils et rapports** |  |
-| [Détection des anomalies](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Autorisation d’accès au rapport Détection des anomalies, qui fournit une méthode statistique pour déterminer le degré de modification d’une mesure donnée par rapport à des données antérieures. |
+| [Détection des anomalies](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=fr-FR) | Autorisation d’accès au rapport Détection des anomalies, qui fournit une méthode statistique pour déterminer le degré de modification d’une mesure donnée par rapport à des données antérieures. |
 | [Rapport Canal](/help/components/c-marketing-channels/analyze-mc.md) | Autorisation d’accès aux rapports Canal marketing sous Rapports > Rapports Canal marketing. |
 | [Rapport en temps réel](/help/admin/admin/realtime/t-realtime-admin.md) | Autorisation d’accès au rapport en temps réel. |
 | [Pages de robots](/help/admin/admin/bot-removal/bot-rules.md) | **Remarque : Les pages de robots sont destinées à des rapports Rapports et analyses spécifiques et non à la gestion de règles de robots. Actuellement, il n’existe aucune autorisation pour autoriser la modification des règles de robots.** Les règles de robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web. |
