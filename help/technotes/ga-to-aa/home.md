@@ -1,9 +1,9 @@
 ---
 title: Transition d’une plateforme d’analyse tierce vers Adobe Analytics
 description: Découvrez les concepts clés pour obtenir des rapports destinés aux utilisateurs familiarisés avec d’autres plateformes, comme Google Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 
