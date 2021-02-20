@@ -4,9 +4,9 @@ subtopic: Classifications
 title: À propos des sous-classifications
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 |
 | 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | S | 23 |
 
-### Classification de produit - plusieurs fichiers (fichier 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### Classification de produit - plusieurs fichiers (fichier 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
 | CLÉ | CODE | CODE^COULEUR |
 |---|---|---|
