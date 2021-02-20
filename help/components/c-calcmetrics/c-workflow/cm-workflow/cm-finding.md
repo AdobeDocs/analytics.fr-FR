@@ -2,9 +2,9 @@
 description: 'Décrit les deux moyens principaux de recherche de mesures : le tri et le filtrage.'
 title: Recherche de mesures
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures ![](assets/metr
 | Fréquemment utilisés | Utile si vous êtes un utilisateur novice et que vous avez besoin de consulter ce qui est couramment utilisé dans le rapport. |
 | Utilisés récemment | Utile si vous travaillez sur un projet et utilisez sans arrêt le même jeu de mesures. |
 
-## Filtrage - sélection avancée {#section_33818CC048C04F098703AC229693F8CA}
+## Filtrage - sélection avancée  {#section_33818CC048C04F098703AC229693F8CA}
 
 Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures, cliquez sur **[!UICONTROL Gérer]**. Cliquez maintenant sur l’icône Filtrer. Vous pouvez appliquer un filtre de plusieurs façons différentes.
 
