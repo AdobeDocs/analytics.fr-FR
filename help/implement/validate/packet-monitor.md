@@ -1,12 +1,12 @@
 ---
 title: Analyseurs de paquets
 description: Les analyseurs de paquets vous permettent de voir les données envoyées par votre mise en œuvre aux serveurs de collecte de données Adobe.
-keywords: packet sniffer, http status, 200, 302, charles
+keywords: renifleur de paquets, état http, 200, 302, charles
 translation-type: tm+mt
 source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 98%
+source-wordcount: '664'
+ht-degree: 97%
 
 ---
 
