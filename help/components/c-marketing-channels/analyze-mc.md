@@ -58,4 +58,4 @@ En utilisant le Canal Première touche et le Canal Dernière touche hérités, v
 
 ![](assets/mc-viz6.png)
 
-Pour en savoir plus sur l’analyse marketing par onglets croisés, consultez cette vidéo : [Utilisation d’une Analyse à onglets croisés pour explorer l’attribution de base du marketing dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Pour en savoir plus sur l’analyse marketing par onglets croisés, consultez cette vidéo : [Utilisation de l’Analyse à onglets croisés pour explorer l’attribution de base du marketing dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
