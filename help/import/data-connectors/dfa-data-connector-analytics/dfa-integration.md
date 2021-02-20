@@ -7,7 +7,7 @@ uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2599'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Les pages de configuration présentent un aperçu de l’intégration, ainsi que
 <table id="table_8F6F7F304C36431DA5FD6E5D54F60FC0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> N° de page de l’Assistant </th> 
+   <th colname="col1" class="entry"> Page de l’Assistant # </th> 
    <th colname="col2" class="entry"> Champ </th> 
    <th colname="col3" class="entry"> Description </th> 
   </tr> 
@@ -65,7 +65,7 @@ Les pages de configuration présentent un aperçu de l’intégration, ainsi que
   </tr> 
   <tr> 
    <td colname="col1"> 2 </td> 
-   <td colname="col2"> Identifiant publicitaire </td> 
+   <td colname="col2"> Identifiant annonceur </td> 
    <td colname="col3"> <p>Identifiant de publicitaire DFA ou identifiant de configuration Floodlight parent. La fonctionnalité Data Connectors utilise cet identifiant afin d’identifier le publicitaire DFA à suivre (version 1.5 de l’intégration). Cet identifiant publicitaire n’est pas utilisé dans la version 2.0 de l’intégration ; l’identifiant de configuration Floodlight parent sera recherché et utilisé à la place. Suivez les instructions à l’écran. </p> </td> 
   </tr> 
   <tr> 
