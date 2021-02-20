@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide d’intégration Analytics
 breadcrumb-title: Guide d’intégration
 user-guide-description: Configurez les intégrations avec d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud et Target.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 41d3cfb510fb7cac77abbe0a80046c96042d0946
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
