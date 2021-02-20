@@ -18,7 +18,7 @@ Si cette variable contient une valeur, le suivi automatique des liens de sortie 
 
 Si vous utilisez à la fois `linkInternalFilters` et `linkExternalFilters`, le lien sur lequel l’utilisateur a cliqué doit correspondre à `linkExternalFilters` **et** ne pas correspondre à `linkInternalFilters` pour être considéré comme un lien de sortie. Si un lien cliqué correspond à la fois aux critères de lien de sortie et de lien de téléchargement, le type de lien de téléchargement est prioritaire.
 
-La carte des Activités utilise cette variable pour aider à déterminer quels liens sont internes à votre site. adobe recommande de définir cette variable pour les implémentations qui utilisent le mappage des Activités.
+La carte des Activités utilise cette variable pour aider à déterminer quels liens sont internes à votre site. Adobe recommande de définir cette variable pour les implémentations qui utilisent le mappage des Activités.
 
 >[!NOTE]
 >
