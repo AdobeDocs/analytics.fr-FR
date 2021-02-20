@@ -1,9 +1,9 @@
 ---
 title: Canal marketing
 description: Canal marketing le plus récent dans l’expiration de l’engagement du visiteur.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
 
