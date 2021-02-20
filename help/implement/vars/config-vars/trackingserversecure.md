@@ -41,4 +41,4 @@ La personne qui configure initialement la mise en œuvre des cookies propriétai
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.adobedc.net` or `2o7.net`.
+Les enregistrements CNAME pointent généralement vers un sous-domaine sur `data.adobedc.net`, `sc.adobedc.net` ou `2o7.net`.
