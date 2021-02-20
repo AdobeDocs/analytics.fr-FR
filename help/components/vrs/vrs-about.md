@@ -2,9 +2,9 @@
 description: Les suites de rapports virtuelles segmentent les données Adobe Analytics afin que vous puissiez contrôler l’accès à chaque segment.
 title: Suites de rapports virtuelles - Aperçu
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Les suites de rapports virtuelles bénéficient des avantages suivants :
 * Une vue client unique des données (à l’avenir).
 * La possibilité de créer des suites de rapports virtuelles illimitées pour segmenter les données.
 
-## Limites des suites de rapports virtuelles {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Limites des suites de rapports virtuelles  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Les suites de rapports virtuelles comportent les limites suivantes :
 
@@ -51,7 +51,7 @@ Les suites de rapports virtuelles comportent les limites suivantes :
 * Rapport en temps réel
 * Les paramètres et noms de variables ne peuvent pas être personnalisés comme dans une suite de rapports complète
 
-## Suites de rapports virtuelles par rapport au balisage multi-suite {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Suites de rapports virtuelles par rapport au balisage multi-suite  {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Fonctionnalité | Suite de rapports virtuelle | Balisage multi-suite |
 |--- |--- |--- |
