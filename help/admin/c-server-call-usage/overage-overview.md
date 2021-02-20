@@ -2,9 +2,9 @@
 description: Présentation de la fonctionnalité d’utilisation des appels au serveur Adobe Analytics.
 title: Aperçu de l’utilisation de l’appel au serveur
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
 
