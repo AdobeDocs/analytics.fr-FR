@@ -43,11 +43,11 @@ Créez des règles de traitement des canaux marketing qui déterminent si l’ac
 
    ![Résultat de l’étape](assets/marketing_channel_rules.png)
 
-4. Si vous souhaitez ajouter une nouvelle règle, sélectionnez-la dans le menu **[!UICONTROL Ajouter un nouveau jeu]** de règles. Si vous sélectionnez un canal, un modèle de règle vous est attribué et si vous sélectionnez Personnalisé, vous effectuez un début à partir d’une ardoise vide. Les deux options vous permettent de modifier le jeu de règles selon vos besoins.
+4. Si vous souhaitez ajouter une nouvelle règle, sélectionnez dans le menu **[!UICONTROL Ajouter un nouveau jeu de règles]**. Si vous sélectionnez un canal, un modèle de règle vous est attribué et si vous sélectionnez Personnalisé, vous effectuez un début à partir d’une ardoise vide. Les deux options vous permettent de modifier le jeu de règles selon vos besoins.
 
    ![Résultat de l’étape](assets/example_email.png)
 
-5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
+5. Pour continuer à créer des règles, cliquez sur **[!UICONTROL Ajouter une nouvelle règle SetRule]**.
 6. Pour classer les règles par priorité, faites-les glisser à l’emplacement souhaité.
 7. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -55,7 +55,7 @@ Continuez sur cette page pour afficher des recommandations concernant l’ordre 
 
 ### Définition de la valeur d’un canal marketing
 
-**[!UICONTROL Définissez la valeur]** du canal pour définir la dimension détaillée du canal marketing disponible pour ce canal. Cela vous permet de ventiler les dimensions du canal marketing et d’afficher des informations détaillées sur le canal.
+**[!UICONTROL Définissez la]** valeur du canal pour définir la dimension détaillée du canal marketing disponible pour ce canal. Cela vous permet de ventiler les dimensions du canal marketing et d’afficher des informations détaillées sur le canal.
 
 Il est recommandé de définir la valeur du canal selon les mêmes critères que ceux utilisés pour définir le canal lui-même. Par exemple, si le paramètre de chaîne de requête est utilisé pour définir le canal, définissez également le paramètre de chaîne de requête comme valeur de canal.
 
@@ -65,7 +65,7 @@ Ce tableau de référence définit les champs, options et attributs d’accès q
 
 >[!NOTE]
 >
->Tout champ de texte que vous définissez, tel que le paramètre de chaîne de requête ou les listes de valeurs à comparer, est évalué comme des valeurs **insensibles à la casse** . Par exemple, si vous disposez d’une règle dans laquelle le paramètre de chaîne de requête cmp = abc123, toutes les versions de &quot;cmp&quot; et &quot;abc123&quot; correspondent à la règle. Vous n’avez pas besoin de liste de plusieurs versions de casse de ces valeurs.
+>Tout champ de texte que vous définissez, tel que le paramètre de chaîne de requête ou les listes de valeurs à comparer, est évalué comme des valeurs **insensibles à la casse**. Par exemple, si vous disposez d’une règle dans laquelle le paramètre de chaîne de requête cmp = abc123, toutes les versions de &quot;cmp&quot; et &quot;abc123&quot; correspondent à la règle. Vous n’avez pas besoin de liste de plusieurs versions de casse de ces valeurs.
 
 | Terme | Définition |
 |--- |--- |
@@ -88,7 +88,7 @@ Ce tableau de référence définit les champs, options et attributs d’accès q
 | Domaine racine de page (TLD+1) | Domaine racine de la page à laquelle accède le visiteur, tel que exemple.co.uk . |
 | URL de la page | L’URL d’une page Web de votre site. |
 | Domaine référent | Le domaine d’où proviennent les visiteurs avant de visiter votre site ; par exemple, les référents provenant de `abcsite.com` par rapport à `xyzsite.com`. |
-| Paramètre de chaîne de requête | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. (Reportez-vous à la section `https://en.wikipedia.org/wiki/Query_string`.)  Vous ne pouvez spécifier qu’un seul paramètre de chaîne de requête par ensemble de règles. Pour ajouter des paramètres de chaîne de requête supplémentaires, utilisez `ANY` comme opérateur, puis ajoutez les nouveaux paramètres de chaîne de requête à la règle. Les paramètres de chaîne de requête sont évalués comme non sensibles à la casse ; par exemple, &quot;cat&quot; et &quot;CAT&quot; seront évalués de la même manière. |
+| Paramètre de chaîne de requête | Si l&#39;URL d&#39;une page de votre site ressemble à `https://example.com/?page=12345&cat=1`, &quot;page&quot; et &quot;cat&quot; sont tous deux des paramètres de chaîne de requête. (Reportez-vous à la section `https://en.wikipedia.org/wiki/Query_string`.)  Vous ne pouvez spécifier qu’un seul paramètre de chaîne de requête par ensemble de règles. Pour ajouter des paramètres de chaîne de requête supplémentaires, utilisez `ANY` comme opérateur, puis ajoutez les nouveaux paramètres de chaîne de requête à la règle. Les paramètres de chaîne de requête sont évalués comme non sensibles à la casse ; par exemple, &quot;cat&quot; et &quot;CAT&quot; seront évalués de la même manière. |
 | Référent | L’emplacement de la page Web (adresse URL complète) sur laquelle vos visiteurs se trouvaient avant de consulter votre site. Il existe un référent en dehors de votre domaine défini. |
 | Domaine et chemin référents | Une concaténation de « Domaine référent » et « Chemin d’accès à l’URL ». Voici quelques exemples :    `www.example.com/products/id/12345` ou `ad.example.com/foo` |
 | Paramètre de référent | Un paramètre de chaîne de requête sur l’URL de renvoi. Par exemple, si vos visiteurs proviennent de `example.com/?page=12345&cat=1`, alors « page » et « chat » sont les paramètres référents. |
@@ -122,25 +122,25 @@ Pour plus d’informations, reportez-vous à la section [Détection de recherche
 
 Une recherche naturelle est comptabilisée quand les visiteurs trouvent votre site Internet à la suite d’une recherche sur le Web, où le moteur de recherche a classé votre site sans que vous ayez eu à payer pour figurer dans la liste.
 
-La détection de recherche naturelle n’existe pas dans Analytics. Lorsque vous avez configuré la détection de recherche payante, le système sait que si le référent de recherche n’était pas un référent de recherche payante, il doit s’agir d’un référent de recherche naturelle. Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
+La détection de recherche naturelle n’existe pas dans Analytics. Lorsque vous avez configuré la détection de recherche payante, le système sait que si le référent de recherche n’était pas un référent de recherche payante, il doit s’agir d’un référent de recherche naturelle. Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
 
 Pour la règle du canal marketing, les paramètres de la recherche naturelle sont les suivants :
 
 ![](assets/example_natural_search.png)
 
-### Afficher {#display}
+### Afficher  {#display}
 
 Cette règle identifie les visiteurs provenant de bannières publicitaires. Elle est identifiée par un paramètre de chaîne de requête dans l’URL de destination, dans ce cas *`Ad_01`*. Le paramètre de chaîne de requête et les valeurs recherchées sont évalués en tant que valeurs insensibles à la casse.
 
 ![](assets/example_display.png)
 
-### Courriel {#email}
+### Courriel  {#email}
 
 Cette règle identifie les visiteurs provenant de campagnes par e-mail. Elle est identifiée par un paramètre de chaîne de requête dans l’URL de destination, dans ce cas *`eml`* :
 
 ![](assets/example_email.png)
 
-### Affilié {#afilliates}
+### Affilié  {#afilliates}
 
 Cette règle identifie les visiteurs envoyés par un ensemble donné de domaines référents. Faites figurer dans la règle la liste des domaines d’affiliés dont vous souhaitez effectuer le suivi, de la manière suivante :
 
@@ -152,7 +152,7 @@ Une bonne pratique consiste à inclure un canal « Autres campagnes » qui sui
 
 ![](assets/other-campaigns.png)
 
-### Réseaux sociaux {#social-networks}
+### Réseaux sociaux  {#social-networks}
 
 Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook;. Le canal est souvent renommé Social organique. Les paramètres peuvent être les suivants :
 
@@ -166,7 +166,7 @@ Cette règle s’applique aux visiteurs dont l’URL de référence correspond a
 
 Pour plus d’informations sur ce canal, consultez [Raisons d’utiliser le canal interne (actualisation de session)](https://docs.adobe.com/content/help/fr-FR/analytics/components/marketing-channels/c-faq.html#internal).
 
-### Direct {#direct}
+### Direct  {#direct}
 
 Cette règle identifie les visiteurs sans domaine référent, dont les visiteurs venus sur votre site directement, depuis un lien Favoris ou en collant un lien dans leur navigateur, par exemple. Ce canal est souvent renommé Tapé/marqué directement.
 
