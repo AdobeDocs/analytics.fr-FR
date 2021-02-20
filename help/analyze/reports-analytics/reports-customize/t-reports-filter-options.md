@@ -84,11 +84,11 @@ Mens:Desk & TravelJewelry & Accessories:Accessories:Hats:Mens
 Sale & Values
 ```
 
-**Est égal**
+**Est égal à**
 
 Correspond si l’ensemble de l’élément de ligne, y compris les espaces et autres caractères, correspondent à la phrase indiquée.
 
-Est égal : `mens:desk & travel`
+Est égal à: `mens:desk & travel`
 
 `Mens:Desk & Travel`
 
