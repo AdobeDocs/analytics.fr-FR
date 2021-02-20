@@ -2,9 +2,9 @@
 description: Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
 title: Confidentialité des données et Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -49,22 +49,22 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>CheetahMail</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>ContactLab 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Recipient ID </p> </td> 
+   <td colname="col2"> <p>ID destinataire </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Datran Media</b> </p> </td> 
-   <td colname="col2"> <p>Recipient ID </p> </td> 
+   <td colname="col2"> <p>ID destinataire </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Delivra</b> </p> </td> 
-   <td colname="col2"> <p>Recipient ID </p> </td> 
+   <td colname="col2"> <p>ID destinataire </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -88,17 +88,17 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>eDialog Precision Central</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Emarsys Xpress</b> </p> </td> 
-   <td colname="col2"> <p>Recipient ID </p> </td> 
+   <td colname="col2"> <p>ID destinataire </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -112,7 +112,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exact Target</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -131,7 +131,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Listrak</b> </p> </td> 
-   <td colname="col2"> <p>Recipient ID </p> </td> 
+   <td colname="col2"> <p>ID destinataire </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -146,31 +146,31 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>optivo broadmail</b> </p> </td> 
-   <td colname="col2"> <p>Recipient ID </p> </td> 
+   <td colname="col2"> <p>ID destinataire </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Selligent</b> </p> </td> 
-   <td colname="col2"> <p>Recipient ID </p> </td> 
+   <td colname="col2"> <p>ID destinataire </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Recipient ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
+   <td colname="col2"> <p>ID destinataire -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -180,22 +180,22 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Synergy!360</b> </p> </td> 
-   <td colname="col2"> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>ID client </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>ThinData EMS</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>WhatCounts Email</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Yesmail Enterprise</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>ID visiteur </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
