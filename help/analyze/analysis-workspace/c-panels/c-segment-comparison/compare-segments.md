@@ -1,9 +1,9 @@
 ---
 title: Redirection
 description: Cette page a été déplacée.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+workflow-type: tm+mt
 source-wordcount: '15'
 ht-degree: 100%
 
