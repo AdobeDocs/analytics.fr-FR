@@ -79,7 +79,7 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Suite de rapports Mappage </p> </td> 
-      <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> <p>Si la suite de rapports ne figure pas dans la liste, vous pouvez <a href="https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html"  >mapper votre suite de rapports à une organisation Experience Cloud</a> en utilisant cet outil. </p> </td> 
+      <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> <p>Si la suite de rapports ne figure pas dans la liste, vous pouvez <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >mapper votre suite de rapports à une organisation Experience Cloud</a> en utilisant cet outil. </p> </td> 
       </tr> 
     </tbody> 
     </table>
