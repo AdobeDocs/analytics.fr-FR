@@ -20,7 +20,7 @@ Lors de l’application de la granularité dans une requête de Data Warehouse, 
 
 | Granularité | Format | Exemple |
 | --- | --- | --- |
-| Par heure | `mmmm d, yyyy` Heure `H` | 1er janvier, 20XX, heure 0 |
+| Toutes les heures | `mmmm d, yyyy` Heure `H` | 1er janvier, 20XX, heure 0 |
 | Quotidien | `mmmm d, yyyy` | 1er janvier 20XX |
 | Hebdomadaire | Semaine `w, yyyy` | Semaine 1, 20XX |
 | Mensuel | `mmmm yyyy` | 20XX janvier |
@@ -29,7 +29,7 @@ Lors de l’application de la granularité dans une requête de Data Warehouse, 
 
 ## Comment les segments en tant que dimensions fonctionnent-ils en Data Warehouse ?
 
-Lorsque vous utilisez un segment en tant que dimension dans le Data Warehouse, le rapport renvoie une colonne contenant `"0"` ou `"1"`:
+Lorsque vous utilisez un segment en tant que dimension dans le Data Warehouse, le rapport renvoie une colonne contenant `"0"` ou `"1"` :
 
 * **`"0"`**: L’élément de dimension ne répondait pas aux critères du segment.
 * **`"1"`**: L’élément de dimension répondait aux critères du segment.
