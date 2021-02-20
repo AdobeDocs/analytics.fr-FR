@@ -3,9 +3,9 @@ description: Décrit la procédure à suivre par l’administrateur Analytics po
 title: Activation d’Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 
