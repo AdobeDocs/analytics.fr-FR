@@ -1,9 +1,9 @@
 ---
 title: Domaine référent
 description: Le domaine global sur lequel se trouvait un visiteur avant d’effectuer un clic pour accéder à votre site.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
