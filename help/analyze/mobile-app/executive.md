@@ -1,9 +1,9 @@
 ---
 description: Instructions pour l’utilisation des fiches d’évaluation des tableaux de bord.
 title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord Adobe Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 100%
 
@@ -53,13 +53,13 @@ Pour télécharger et installer l’application, suivez les étapes correspondan
 
 **Pour les utilisateurs en charge de l’exécution sur iOS :**
 
-Cliquez sur le lien suivant (il est également disponible dans Analytics sous **[!UICONTROL Outils]** > **[!UICONTROL Tableaux de bord Analytics (application mobile)]**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+Cliquez sur le lien suivant (il est également disponible dans Analytics sous **[!UICONTROL Outils]** > **[!UICONTROL Tableaux de bord Analytics (application mobile)]**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
 [Lien iOS](https://apple.co/2zXq0aN)
 
 **Pour les utilisateurs en charge de l’exécution sur Android :**
 
-Cliquez sur le lien suivant (il est également disponible dans Analytics sous **[!UICONTROL Outils]** > **[!UICONTROL Tableaux de bord Analytics (application mobile)]**) et suivez les invites pour télécharger, installer et ouvrir l’application :
+Cliquez sur le lien suivant (il est également disponible dans Analytics sous **[!UICONTROL Outils]** > **[!UICONTROL Tableaux de bord Analytics (application mobile)]**) et suivez les invites pour télécharger, installer et ouvrir l’application :
 
 [Lien Android](https://bit.ly/2LM38Oo)
 
