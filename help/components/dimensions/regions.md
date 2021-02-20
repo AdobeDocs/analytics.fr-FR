@@ -1,9 +1,9 @@
 ---
 title: Régions
 description: La région géographique du visiteur.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
