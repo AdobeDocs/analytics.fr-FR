@@ -3,9 +3,9 @@ description: La page Facturation vous permet d’accéder aux informations de fa
 title: Facturation
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
