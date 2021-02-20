@@ -5,6 +5,9 @@ topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Q : Que se passe-t-il si une page contient des liens ayant le même nom dans de
 
 R : Cela dépend de la façon dont vous agrégez les données des liens. Dans Activity Map, nous tenons compte des informations ID de lien|Région pour une page donnée, de telle sorte que les données affectées s’appliquent à la combinaison « ID lien|Région ». Dans cette situation, étant donné que les régions sont distinctes, la combinaison lien|région sera différente et, par conséquent, toute recette affectée à la première combinaison lien|région sera différente de toute recette affectée pour le second lien. Mais dans l’interface utilisateur d’Adobe Analytics, vous pouvez simplement consulter le rapport sur l’ID de lien (au lieu du rapport Lien|Région) pour une page donnée (page ventilée par Lien). Dans ce cas, les recettes seront agrégées sur les deux régions.
 
-## Mode réel {#section_D619B77D89A840F0B1C2DEA2715A516A}
+## Mode réel  {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
 En **mode réel**, les données Analytics sont affichées par incréments de 1 à 15 minutes, sous forme de tendances. Ce mode vise à analyser et à contrôler les tendances à court terme sur la page web.
 
