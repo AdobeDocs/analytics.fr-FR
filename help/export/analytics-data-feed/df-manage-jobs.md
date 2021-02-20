@@ -1,9 +1,9 @@
 ---
 title: Gestion des tâches relatives aux flux de données
 description: Découvrez comment gérer des tâches individuelles dans les flux de données.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 100%
 
