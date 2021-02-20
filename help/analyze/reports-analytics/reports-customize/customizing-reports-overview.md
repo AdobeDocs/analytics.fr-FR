@@ -165,7 +165,7 @@ Outre l’affichage graphique, le tableau du rapport donne une comparaison en po
 * Produits
 * Rétention des visiteurs
 * Profil du visiteur
-* Conversion personnalisée
+* Conversion personnalisée 
 * Trafic personnalisé
 * Target
 * Enquête
