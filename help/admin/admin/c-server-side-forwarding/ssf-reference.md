@@ -2,9 +2,9 @@
 description: Une liste complète et des descriptions des variables de configuration, des en-têtes HTTP et des signaux de données dans les appels au transfert côté serveur.
 title: Données et référence de code du transfert côté serveur
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Ces en-têtes sont des champs contenant des informations telles que des demandes
 
 ## Signaux définis par le client {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signal | Description |
 |--- |--- |
