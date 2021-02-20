@@ -3,9 +3,9 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3857'
 ht-degree: 100%
 
@@ -356,7 +356,7 @@ Utilisez les opérateurs [!UICONTROL Within] et [!UICONTROL After] intégrés da
 
 Vous pouvez limiter la correspondance à une durée spécifique en utilisant les conteneurs [!UICONTROL Within] et [!UICONTROL After], et en indiquant une granularité et un nombre. L’opérateur [!UICONTROL Within] est utilisé pour spécifier une limite de temps maximale entre deux points de contrôle. L’opérateur [!UICONTROL After] est, pour sa part, utilisé pour spécifier une limite de temps minimale entre deux points de contrôle.
 
-### Opérateurs After et Within {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### Opérateurs After et Within  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 La durée est spécifiée par une seule lettre majuscule représentant la granularité, suivie d’un nombre indiquant le nombre de répétitions de la granularité.
 
