@@ -1,9 +1,9 @@
 ---
 title: Nouveaux engagements
 description: Le nombre de fois qu’un canal Première touche est défini.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 
