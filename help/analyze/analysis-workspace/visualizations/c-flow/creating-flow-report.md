@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Configuration d’une visualisation de flux
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
 
