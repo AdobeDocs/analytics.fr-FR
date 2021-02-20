@@ -29,11 +29,11 @@ Afin de faciliter la création rapide de mesures calculées, l’option **[!UICO
 
 ![](assets/calc_metrics.png)
 
-[Mesures calculées : Mesures](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) sans mise en oeuvre (3:42)
+[Mesures calculées : Mesures](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  sans mise en oeuvre (3:42)
 
 ## Comparaison de mesures avec différents modèles d’attribution
 
-If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Compare Attribution Models]**:
+Si vous souhaitez comparer rapidement et facilement un modèle d’attribution à un autre, cliquez avec le bouton droit sur une mesure et sélectionnez **[!UICONTROL Comparer les modèles d’attribution]** :
 
 ![Comparer l’attribution](assets/compare-attribution.png)
 
