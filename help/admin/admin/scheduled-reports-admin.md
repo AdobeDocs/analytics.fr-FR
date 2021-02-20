@@ -35,7 +35,7 @@ Dans l’onglet **[!UICONTROL Liste des rapports]**, vous pouvez **[!UICONTROL A
 
 ![](assets/show_all_scheduled_reports.png)
 
-## Fonctionnalités de filtrage avancées {#section_206A52A85DE84947AAB3AD082FBF6275}
+## Fonctionnalités de filtrage avancées  {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 Par exemple, si vous souhaitez filtrer selon tous les rapports planifiés par heure, indiquez **[!UICONTROL Fréquence égale par heure]** dans le filtre **[!UICONTROL Avancé]** et cliquez sur **[!UICONTROL Appliquer]** :
 
