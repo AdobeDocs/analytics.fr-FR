@@ -2,9 +2,9 @@
 description: Ajoutez ou gérez toutes les alertes d’utilisation du serveur. Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
 title: Alerte d’utilisation des appels au serveur
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
