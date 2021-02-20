@@ -1,13 +1,13 @@
 ---
 description: Lorsque des profils du visiteur sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
-keywords: Analytics Implementation
+keywords: Mise en œuvre d’Analytics
 title: Attribution et persistance
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '542'
+workflow-type: tm+mt
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
