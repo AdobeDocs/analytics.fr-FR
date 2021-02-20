@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Paramètres de flux
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
 
