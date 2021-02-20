@@ -2,9 +2,9 @@
 description: Présente des exemples sur la manière d’étiqueter les données relatives aux accès, aux demandes d’accès et aux demandes de suppression.
 title: Exemple d’étiquetage
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -25,8 +25,8 @@ Supposons que vous avez les données d’accès suivantes :
 |---|---|---|---|---|---|
 | **Nom de variable** <br> **(Espace de noms)** | **MyProp1** <br> **(utilisateur)** | **Identifiant visiteur** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Données d’accès | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
+|  | Marie | 88 | B | N | Y |
+|  | Marie | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
 |  | John | 88 | E | N | U |
 |  | John | 44 | F | Q | V |
@@ -42,10 +42,10 @@ Si je soumets une demande d’accès, le fichier récapitulatif contiendra les v
 | **Espace de noms/ID** | **expandIDs** |  | **MyProp1** | **Identifiant visiteur** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
 | AAID=77 | true | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
-| user=Mary | false | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | false | Personne | Marie | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary | true | Personne | Marie | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | périphérique | non présente | 77, 88 | non présente | N, P | U, W |
-| user=Mary AAID=66 | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary AAID=66 | true | Personne | Marie | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary AAID=66 | true | périphérique | non présente | 66, 77, 88 | non présente | N, P | U, W, Z |
 | xyz=X | false | périphérique | non présente | 55, 77 | non présente | M, R | X |
 | xyz=X | true | périphérique | non présente | 55, 77 | non présente | M, P, R | W, X |
@@ -59,9 +59,9 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | Privacy-7398 | Privacy-9152 |
-| Mary | 88 | B | N | Y |
-| Mary | 99 | C | O | Z |
+| Marie | 42 | A | Privacy-7398 | Privacy-9152 |
+| Marie | 88 | B | N | Y |
+| Marie | 99 | C | O | Z |
 | John | 42 | D | Privacy-1866 | Privacy-8216 |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
@@ -74,10 +74,10 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **MyProp1** | **AIDE** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
-| Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
-| Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
+| Confidentialité-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
+| Confidentialité-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
 | John | 77 | D | P | W |
 | John | 88 | E | N | U |
 | John | 44 | F | Q | V |
@@ -90,10 +90,10 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **MyProp1** | **AIDE** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
-| Privacy-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
-| Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
+| Confidentialité-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
+| Confidentialité-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
 | John | 09 | D | Privacy-8454 | Privacy-8216 |
 | John | 16 | E | Privacy-2911 | Privacy-2930 |
 | John | 44 | F | Q | V |
