@@ -1,9 +1,9 @@
 ---
 title: Accès unique
 description: Le nombre de fois qu’un élément de dimension n’a pas changé au cours d’une visite.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%
 
