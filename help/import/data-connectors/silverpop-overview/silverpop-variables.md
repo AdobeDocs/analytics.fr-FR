@@ -4,6 +4,9 @@ title: Variables d’intégration Analytics
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
 translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ Le tableau suivant décrit les variables Analytics nécessaires pour l’intégr
 
 ## Variables obligatoires {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
-| Type de variable | Nom | Méthode de remplissage | Description |
+| Type de variable | Nom | Méthode de population | Description |
 |---|---|---|---|
 | Événement (numérique) | Retours | Importé automatiquement depuis Silverpop. | L’événement Rebonds vous permet d’afficher le nombre de messages électroniques qui n’ont pas été remis aux destinataires en raison d’un problème de livraison. |
 | Événement (numérique) | Clics | Importé automatiquement depuis Silverpop. | L’événement Cliqué vous permet d’afficher le nombre de visiteurs qui ont cliqué sur le message électronique. |
@@ -30,7 +33,7 @@ Le tableau suivant décrit les variables Analytics nécessaires pour l’intégr
 
 ## Variables facultatives {#section-5f0a32b0a2084c87a64b5f90c0d0fb53}
 
-| Type de variable | Nom | Méthode de remplissage | Description |
+| Type de variable | Nom | Méthode de population | Description |
 |---|---|---|---|
 | Événement (compteur) | Fichier téléchargé | Collecté manuellement par le biais des balises Analytics. | Cet événement permet d’identifier les utilisateurs qui ont téléchargé un fichier sur le site. |
 | Événement (compteur) | Formulaire commencé | Collecté manuellement par le biais des balises Analytics. | Formulaire commencé permet d’identifier les utilisateurs qui commencent un formulaire, mais ne le remplissent pas entièrement. |
