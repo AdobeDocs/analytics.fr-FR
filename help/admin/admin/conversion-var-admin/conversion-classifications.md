@@ -20,7 +20,7 @@ Après avoir activé les classifications, utilisez [l’importateur de classific
 
 >[!WARNING]
 >
->Le changement de nom d’une classification peut entraîner des problèmes avec les règles existantes créées dans le créateur [de règles de](/help/components/classifications/crb/classification-rule-builder.md)classification. Si vous renommez une classification qui comporte des règles de classification, veillez à corriger chaque règle afin qu’elle pointe vers la classification renommée.
+>Le changement de nom d’une classification peut provoquer des problèmes avec les règles existantes créées dans le [créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md). Si vous renommez une classification qui comporte des règles de classification, veillez à corriger chaque règle afin qu’elle pointe vers la classification renommée.
 
 ## Descriptions des classifications de conversion
 
