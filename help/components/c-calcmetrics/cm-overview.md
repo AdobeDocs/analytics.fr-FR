@@ -1,12 +1,12 @@
 ---
 description: Les mesures calculées ou calculées avancées (ou dérivées) sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes.
-keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
+keywords: Mesures calculées;mesures dérivées;mesures calculées avancées
 title: Mesures calculées ou calculées avancées (dérivées)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
 source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '636'
 ht-degree: 100%
 
 ---
