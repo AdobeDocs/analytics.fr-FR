@@ -1,13 +1,13 @@
 ---
 description: La migration des visiteurs est une procédure par laquelle le cookie d’identifiant visiteur passe d’un domaine à un autre.
-keywords: Analytics Implementation
+keywords: Mise en œuvre d’Analytics
 title: Migration des visiteurs
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
 source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 78%
 
 ---
@@ -19,11 +19,11 @@ La migration des visiteurs est une procédure par laquelle le cookie d’identif
 
 La migration des visiteurs vous permet de conserver les cookies d’identification des visiteurs lors du changement des domaines de collecte de données, ce qui peut se produire pour les raisons suivantes :
 
-* Passons d&#39; `2o7.net` à `adobedc.net`.
+* Passage de `2o7.net` à `adobedc.net`.
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net`, `2o7.net` or `omtrdc.net`
+* Vous implémentez le [service d’ID de Visiteur Experience Cloud](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) et vous passez d’un domaine de collecte de données CNAME/propriétaire à `adobedc.net`, `2o7.net` ou `omtrdc.net`
 
-* Moving to a cname/first-party data collection ( [First-Party Cookies)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html).
+* Passage à une collecte de données cname/first-party ( [Cookies propriétaires)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Passage d’un CNAME à un autre (changement de domaines).
 
@@ -51,11 +51,11 @@ Les tâches nécessaires à la migration des visiteurs sont répertoriées dans 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6 heures ou plus après le changement de configuration</b> : mettez à jour les variables <code> s.trackingServer</code> et <code> s.trackingServerSecure</code> dans votre code JavaScript Analytics pour utiliser les nouveaux serveurs de collecte de données. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use the <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>Après avoir apporté cette modification, utilisez le <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> débogueur Experience Cloud</a> pour vérifier que la demande d’image Analytics va au serveur de collecte de données mis à jour. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immédiatement après avoir mis à jour le code Analytics</b> : testez votre site afin de vérifier que la redirection vers l’ancien domaine de collecte de données a bien lieu. </p> </td> 
-   <td colname="col3"> <p>Utilisez un <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that when you access your site for the first time, or after clearing cookies, you see two 302 (redirect) HTTP status codes before the 200 (OK) HTTP status code. S’il manque l’une de ces redirections, contactez immédiatement l’assistance clientèle afin de vous assurer que la migration est correctement configurée. </p> </td> 
+   <td colname="col3"> <p>Utilisez un  <a href="../implement/validate/packet-monitor.md"> moniteur de paquets pour vérifier que lorsque vous accédez à votre site pour la première fois, ou après avoir effacé les cookies, deux codes d’état HTTP 302 (redirection) s’affichent avant le code d’état HTTP 200 (OK). </a> S’il manque l’une de ces redirections, contactez immédiatement l’assistance clientèle afin de vous assurer que la migration est correctement configurée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Pendant toute la durée de la migration</b> : faites en sorte que l’enregistrement DNS du nom d’hôte précédent reste actif. </p> </td> 
