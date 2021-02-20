@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Sous **[!UICONTROL Paramètres de colonne]**, vous pouvez sélectionner les opti
 
 ![](assets/column-settings-total.png)
 
-## Paramètres Total de ligne statique {#static-row-total}
+## Paramètres Total de ligne statique  {#static-row-total}
 
-Les totaux de [ligne statique](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) se comportent différemment et peuvent être contrôlés sous **[!UICONTROL Paramètres de la ligne]**.
+Les totaux de [ligne statique](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=fr-FR) se comportent différemment et peuvent être contrôlés sous **[!UICONTROL Paramètres de la ligne]**.
 
 * **[!UICONTROL Afficher la somme des lignes actuelles en tant que total]** : affiche la somme des lignes du tableau côté client, ce qui signifie que le total ne dédupliquera **pas** de mesures telles que les visites ou les visiteurs.
 * **[!UICONTROL Afficher le total général]** : indique une somme côté serveur, ce qui signifie que le total dédupliquera les mesures telles que les visites ou les visiteurs.
