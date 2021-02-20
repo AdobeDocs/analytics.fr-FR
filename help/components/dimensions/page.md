@@ -18,9 +18,9 @@ Cette dimension est liée aux dimensions [Section du site](site-section.md) et [
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la chaîne [`pageName` de](/help/implement/validate/query-parameters.md) requête dans les appels de vue de [page (`t()`)](/help/implement/vars/functions/t-method.md). [Les appels de suivi de lien (`tl()`)](/help/implement/vars/functions/tl-method.md) dépouillent toujours cette dimension, même si la chaîne de `pageName` requête existe.
+Cette dimension récupère les données de la chaîne de requête [`pageName` ](/help/implement/validate/query-parameters.md) dans les appels de [vue de page (`t()`)](/help/implement/vars/functions/t-method.md). [Les appels de suivi de lien (`tl()`)](/help/implement/vars/functions/tl-method.md) dépouillent toujours cette dimension, même si la chaîne de  `pageName` requête existe.
 
-AppMeasurement collecte ces données à l’aide de la variable [`pageName`](/help/implement/vars/page-vars/pagename.md). If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+AppMeasurement collecte ces données à l’aide de la variable [`pageName`](/help/implement/vars/page-vars/pagename.md). Si la variable `pageName` n&#39;est pas définie, elle revient à utiliser la variable [`pageURL`](/help/implement/vars/page-vars/pageurl.md).
 
 ## Éléments de dimension
 
