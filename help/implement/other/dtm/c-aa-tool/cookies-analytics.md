@@ -1,14 +1,14 @@
 ---
 description: Cette section contient la description des champs des paramètres généraux des cookies utilisés pour le déploiement de Dynamic Tag Management dans Adobe Analytics.
-keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
+keywords: Dynamic Tag Management;cookies;identifiant visiteur;espace de noms du visiteur;nombre de points du domaine;nombres de points du domaine fp;id de transaction;durée de vie des cookies
 solution: Experience Cloud,Analytics
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
 source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 80%
+source-wordcount: '189'
+ht-degree: 82%
 
 ---
 
@@ -41,7 +41,7 @@ Cette section contient la description des champs des paramètres généraux des 
   </tr> 
   <tr> 
    <td colname="col1"> Nombre de points du domaine FP </td> 
-   <td colname="col2"> <p>La variable <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> adobedc.net</span> domain, or the legacy (but still valid) <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>Voir <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>La variable  <span class="term"> </span> fpCookieDomainPeriodsvariable est destinée aux cookies définis par JavaScript (<code> s_sq</code>,  <code> s_cc</code>, plug-ins) qui sont intrinsèquement des cookies propriétaires, même si votre implémentation utilise le domaine  <span class="filepath"> adobedc.</span> netdomain tiers ou les domaines hérités (mais toujours valides)  <span class="filepath"> 2o7.</span> netor omtrdc.netdomains.<span class="filepath"></span> </p> <p>Voir <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  > s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ID de transaction </td> 
