@@ -41,5 +41,5 @@ Lorsque des totaux sont affichés, ils sont souvent calculés côté serveur, ce
 * Lorsque des [lignes statiques](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) sont utilisées dans des tableaux à structure libre, l’option **[!UICONTROL Afficher comme somme des lignes actuelles]** (par défaut) est sélectionnée.
 * Dans la [visualisation Anneau](/help/analyze/analysis-workspace/visualizations/donut.md), afin que la somme des nombres s’élève à 100 %.
 
-Pour plus d’informations sur les totaux en Analysis Workspace, consultez les totaux [de](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total)Workspace.
+Pour plus d’informations sur les totaux en Analysis Workspace, consultez [Totaux de l’espace de travail](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=en#static-row-total).
 
