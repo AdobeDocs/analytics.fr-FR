@@ -36,6 +36,6 @@ Vous pouvez effectuer une recherche sur des éléments de dimension spécifiques
    * **À partir de la liste** : vous permet de sélectionner, dans une liste, des données auxquelles vous pouvez en ajouter d’autres.
 1. Si vous activez l’option **[!UICONTROL À partir de la liste]**, sélectionnez tout élément disponible dans la liste ou cliquez sur **[!UICONTROL Ajouter]**.
 
-   When you click **[!UICONTROL Add]**, the [!UICONTROL Select From List] form displays a list of available dimension items for the current request date range, limited to the first 10,000 items. Vous pouvez effectuer une recherche dans ces éléments ou cliquer sur **[!UICONTROL Plus...]** afin d’afficher le formulaire [!UICONTROL Rechercher] dans lequel vous pouvez créer une recherche plus détaillée pour les dimensions.
+   Lorsque vous cliquez sur **[!UICONTROL Ajouter]**, le formulaire [!UICONTROL Sélectionner à partir de la Liste] affiche une liste d’éléments de dimension disponibles pour la plage de dates de demande actuelle, limitée aux 10 000 premiers éléments. Vous pouvez effectuer une recherche dans ces éléments ou cliquer sur **[!UICONTROL Plus...]** afin d’afficher le formulaire [!UICONTROL Rechercher] dans lequel vous pouvez créer une recherche plus détaillée pour les dimensions.
 1. Cliquez sur **[!UICONTROL OK]** dans le formulaire [!UICONTROL Sélectionner dans la liste].
 1. Dans le formulaire [!UICONTROL Sélectionner les pages], enregistrez votre filtre spécifique, le cas échéant, puis cliquez sur **[!UICONTROL OK]**.
