@@ -2,8 +2,11 @@
 description: valeur nulle
 title: Cas d’utilisation d’Audience Analytics
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -22,11 +25,11 @@ En tant qu’entreprise de voyages, vous pouvez rapidement superposer les préf�
 
 En tant qu’éditeur multimédia, vous pouvez comparer vos audiences de tierce partie à l’aide de l’outil [Segment IQ](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) pour comprendre les principales caractéristiques de différenciation. Cela permet des créer des segments de première partie à forte valeur ajoutée que vous pouvez ensuite utiliser pour le ciblage.
 
-## Analyse des prospects {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
+## Analyse des prospects  {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
 En tant que détaillant interentreprises, vous pouvez désormais analyser en profondeur le comportement de votre audience cible avant qu’ils n’effectuent un achat à l’aide de la [segmentation séquentielle](https://docs.adobe.com/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html), qui vous aide à comprendre quelles actions favorisent la conversion.
 
 
-## Ciblage démographique {#section_F034DB721A06419283DBD29D4A1B444B}
+## Ciblage démographique  {#section_F034DB721A06419283DBD29D4A1B444B}
 
 En tant que station de villégiature, vous pouvez utiliser la fonction [Histogrammes d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/histogram.html) pour afficher la distribution des achats par tranche d’âge. Vous pouvez ainsi identifier l’audience idoine à cibler pour chacune des propriétés de votre station.
