@@ -5,6 +5,9 @@ topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +20,7 @@ Le formulaire Filtre sélectionné est renseigné selon l’élément et la mesu
 
 ## Définition d’un filtre - Valeurs et caractères spéciaux {#section_15840216A4044C40974945FAA435AD93}
 
-Informations sur les  de dans le panneau **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** .
+Des informations sur les filtres dont accessibles dans le panneau **[!UICONTROL Filtre le plus populaire]** > **[!UICONTROL Définir un filtre]**.
 
 ![](assets/define_filter.png)
 
@@ -26,7 +29,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
 <table id="table_8AC3A26FF02143DBA949B30F2A46CF11"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Filtrer </th> 
+   <th colname="col1" class="entry"> Filtre </th> 
    <th colname="col02" class="entry"> Description </th> 
    <th colname="col2" class="entry"> Exemple de filtre </th> 
    <th colname="col3" class="entry"> Résultats de la correspondance </th> 
@@ -85,7 +88,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>Se termine par </p> </td> 
    <td colname="col02"> <p>Renvoie des résultats qui se terminent par une valeur spécifique. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> wxyz</span> mais pas <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avancé (caractères spéciaux) </p> </td> 
@@ -114,7 +117,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " " </td> 
+   <td colname="col1"> " </td> 
    <td colname="col2"> Est égal à </td> 
    <td colname="col3"> <p>N’est pas ignoré sauf s’il n’est pas accompagné d’un autre guillemet double. Par exemple : <span class="term"> Affichage de 17 pouces</span> n’est pas une expression. </p> </td> 
   </tr> 
