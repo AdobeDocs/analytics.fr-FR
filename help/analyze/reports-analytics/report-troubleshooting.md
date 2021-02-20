@@ -1,11 +1,11 @@
 ---
 title: Bonnes pratiques et résolution des problèmes pour la création de rapports
 description: Bonnes pratiques et conseils de résolution des problèmes lors de la génération de rapports.
-keywords: best practices;failure;timeout;troubleshooting;slow
-translation-type: ht
+keywords: bonnes pratiques;échec;délai d’expiration;lent
+translation-type: tm+mt
 source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
-workflow-type: ht
-source-wordcount: '567'
+workflow-type: tm+mt
+source-wordcount: '573'
 ht-degree: 100%
 
 ---
