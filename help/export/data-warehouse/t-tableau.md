@@ -3,9 +3,9 @@ description: Data Warehouse peut fournir des rapports au format de fichier TDE (
 title: Fichier de données Tableau
 topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
 
