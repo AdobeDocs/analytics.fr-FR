@@ -1,9 +1,9 @@
 ---
 title: Modèles d’attribution et intervalles de recherche en amont
 description: La manière dont les différents types d’attributions répartissent le crédit entre les éléments de dimension.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1da5f5d0d82f8a84c28df3ed635502cbee1fd2db
+workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 100%
 
