@@ -1,9 +1,9 @@
 ---
 title: Débogueur Adobe Experience Cloud hérité
 description: Installez le débogueur hérité Adobe Experience Cloud. Ce débogueur examine les balises pour Analytics, Target, Advertising Cloud, Identity Service, DTM et Launch.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Chaque navigateur gère les signets de différentes manières, mais le concept e
 
 #### Chrome
 
-Si vous êtes sûr de ne pas vouloir utiliser l’[extension Chrome](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html), le signet d’applet du débogueur hérité peut être utilisé à la place.
+Si vous êtes sûr de ne pas vouloir utiliser l’[extension Chrome](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html), le signet d’applet du débogueur hérité peut être utilisé à la place.
 
 1. Cliquez sur les trois points en haut à droite, puis sélectionnez Signets > Gestionnaire de signets. Vous pouvez également appuyer sur `Ctrl` + `Shift` + `O` (Windows) ou `Cmd` + `Shift` + `O` (Mac).
 2. Dans le coin supérieur droit du gestionnaire de signets, cliquez sur les trois points, puis cliquez sur Ajouter un nouveau signet.
