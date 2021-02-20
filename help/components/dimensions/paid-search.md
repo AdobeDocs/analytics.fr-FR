@@ -1,9 +1,9 @@
 ---
 title: Référencement payant
 description: Permet de distinguer les mesures de référencement payant des mesures de référencement naturel.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 
