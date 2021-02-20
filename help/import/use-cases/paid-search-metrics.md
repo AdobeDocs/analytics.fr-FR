@@ -10,13 +10,13 @@ ht-degree: 8%
 ---
 
 
-# Importer des mesures de recherche  payante à l’aide de [!UICONTROL sources de données]
+# Importer des mesures [!UICONTROL Recherche payée] à l&#39;aide de [!UICONTROL Sources de données]
 
-Pour de nombreuses entreprises de marketing, la recherche payante est l&#39;un des moyens les plus précieux et les plus fiables à la fois &#x200B; atteindre de nouveaux clients et de conserver les clients existants. La fonctionnalité Sources [!UICONTROL de] données en Adobe Analytics facilite l’importation de données de recherche payante avancées à partir de plateformes de publicité numérique telles que Google AdWords. Vous pouvez l’intégrer au reste de vos données marketing, ainsi qu’aux données d’attributs comportementaux et clients sur site, afin de vous permettre de mieux comprendre les efforts de recherche payante de votre entreprise.
+Pour de nombreuses entreprises de marketing, la recherche payante est l&#39;un des moyens les plus précieux et les plus fiables à la fois &#x200B; atteindre de nouveaux clients et de conserver les clients existants. La fonctionnalité [!UICONTROL Sources de données] d’Adobe Analytics facilite l’importation de données de recherche payante avancées à partir de plateformes de publicité numérique telles que Google AdWords. Vous pouvez l’intégrer au reste de vos données marketing, ainsi qu’aux données d’attributs comportementaux et clients sur site, afin de vous permettre de mieux comprendre les efforts de recherche payante de votre entreprise.
 
 Ces étapes vous montrent comment configurer une intégration avec AdWords pour importer des données de mots-clés ainsi que des mesures telles que les impressions, les clics, le coût par clic, etc.
 
-Les étapes expliquent comment configurer une importation unique des données de paiement par clic. Cependant, la fonctionnalité Sources [!UICONTROL de] données permet l’importation continue de données en utilisant le format de fichier décrit ici. En fonction de votre plateforme de recherche payée, vous pouvez planifier des exportations périodiques (quotidiennes, mensuelles, etc.), configurer des processus automatisés pour transformer ces exportations en format de fichier requis par Adobe Analytics et télécharger ces fichiers dans Adobe Analytics pour un rapports d&#39;intégration de la recherche payante.
+Les étapes expliquent comment configurer une importation unique des données de paiement par clic. Cependant, [!UICONTROL Les sources de données] permettent l&#39;importation continue de données en utilisant le format de fichier décrit ici. En fonction de votre plateforme de recherche payée, vous pouvez planifier des exportations périodiques (quotidiennes, mensuelles, etc.), configurer des processus automatisés pour transformer ces exportations en format de fichier requis par Adobe Analytics et télécharger ces fichiers dans Adobe Analytics pour un rapports d&#39;intégration de la recherche payante.
 
 ## Conditions préalables
 
@@ -24,55 +24,56 @@ Les étapes expliquent comment configurer une importation unique des données de
 * Vous capturez des données de code de suivi.
 * Vous disposez de codes de suivi uniques pour chaque groupe publicitaire.
 
-## Configure [!UICONTROL Success Events]
+## Configurer [!UICONTROL Événements de réussite]
 
 Notre première étape est de préparer l&#39;Adobe Analytics à recevoir les mesures. Pour ce faire, vous devez configurer certains événements de réussite.
 
-[!UICONTROL Les événements de succès sont des actions dont le suivi peut être effectué. ] You determine what a [!UICONTROL success event] is. Pour le suivi des mesures de recherche  payée, nous voulons configurer des événements [!UICONTROL de] réussite autour des [!UICONTROL clics], des [!UICONTROL impressions, du coût total et des codes de suivi .]
+[!UICONTROL Les événements de succès sont des actions dont le suivi peut être effectué. ] Vous déterminez ce qu&#39;est un [!UICONTROL événement de réussite]. Pour suivre les [!UICONTROL mesures de recherche payée], nous voulons configurer des [!UICONTROL événements de réussite] autour de [!UICONTROL clics], [!UICONTROL impressions], [!UICONTROL coût total] et activer[!UICONTROL codes de suivi].
 
-1. Go to **[!UICONTROL Adobe Analytics > Admin > Report Suites]**.
+1. Accédez à **[!UICONTROL Adobe Analytics > Admin > Report Suites]**.
 1. Sélectionnez une suite de rapports.
 1. Cliquez sur **[!UICONTROL Modifier les paramètres > Conversion > Événements de succès]**.
 
    ![Événements de succès](assets/success-events.png)
 
-1. Sous Événements de réussite personnalisés, utilisez **[!UICONTROL Ajouter nouveau]** pour créer 3 événements de réussite personnalisés : [!UICONTROL Clics] (Compteur), [!UICONTROL Impressions] (Compteur) et Coût  total (Devise).
+1. Sous Événements de réussite personnalisés, utilisez **[!UICONTROL Ajouter New]** pour créer 3 événements de réussite personnalisés : [!UICONTROL Clics] (Compteur), [!UICONTROL Impressions] (Compteur) et [!UICONTROL Coût total] (Devise).
 
    ![Nouveau événement de réussite](assets/new-success-events.png)
 
 1. Cliquez sur Enregistrer.
 Vous devriez recevoir un message indiquant que vos enregistrements ont été approuvés.
-1. Accédez à **[!UICONTROL Admin > Report Suites > Modifier les paramètres > Conversion > Variables]** de conversion.
-1. Activez les codes de suivi en cochant la case en regard de Code **[!UICONTROL de]** suivi sous **[!UICONTROL Campaign > Variable]** Campaign.
+1. Accédez à **[!UICONTROL Admin > Report Suites > Modifier les paramètres > Conversion > Variables de conversion]**.
+1. Activez les codes de suivi en cochant la case en regard de **[!UICONTROL Code de suivi]** sous **[!UICONTROL Campaign > Variable Campaign]**.
 
    ![Variable de campagne](assets/campaign-variable.png)
 
 ## Configuration des sources de données
 
-[!UICONTROL Les sources] de données vous permettent de partager des données hors parcours de navigation avec Adobe Analytics. Dans ce cas, nous utilisons Adobe Analytics pour effectuer le suivi des mesures de recherche payante. Nous utilisons le code de suivi comme clé pour relier les deux éléments de données - les mesures de recherche payée et les mesures Adobe Analytics -.
+[!UICONTROL Les sources de données ] vous permettent de partager des données hors parcours de navigation avec Adobe Analytics. Dans ce cas, nous utilisons Adobe Analytics pour effectuer le suivi des mesures de recherche payante. Nous utilisons le code de suivi comme clé pour relier les deux éléments de données - les mesures de recherche payée et les mesures Adobe Analytics -.
 
-1. Accédez à **[!UICONTROL Adobe Analytics > Admin > Sources]** de données.
-1. Sélectionnez l’onglet **[!UICONTROL Créer]** pour début d’activation de nouvelles sources de données.
-1. Sous **[!UICONTROL Sélectionner une Catégorie]**, sélectionnez **[!UICONTROL Publicité Campaign]**.
+1. Accédez à **[!UICONTROL Adobe Analytics > Admin > Sources de données]**.
+1. Sélectionnez l&#39;onglet **[!UICONTROL Créer]** pour début d&#39;activation de nouvelles sources de données.
+1. Sous **[!UICONTROL Sélectionner la Catégorie]**, sélectionnez **[!UICONTROL Ad Campaign]**.
 
    ![Sources de données](assets/data-sources.png)
 
-1. Sous **[!UICONTROL Sélectionner un type]**, sélectionnez Service **[!UICONTROL de paiement par clic]** générique.
+1. Sous **[!UICONTROL Sélectionner un type]**, sélectionnez **[!UICONTROL Service générique de paiement par clic]**.
 1. Cliquez sur **[!UICONTROL Activer]**.
-The [!UICONTROL Data Source Activation Wizard] displays:
+L&#39;[!UICONTROL Assistant Activation de source de données] affiche :
 
    ![sources de données](assets/ds-activation-wizard.png)
 
 1. Cliquez sur **[!UICONTROL Suivant]** et nommez votre source de données. Ce nom apparaît dans le Gestionnaire des sources de données.
 1. Acceptez le contrat de service et cliquez sur **[!UICONTROL Suivant]**.
-1. Sélectionnez les trois mesures standard : [!UICONTROL Impressions], [!UICONTROL Clics] et Coût  total, puis cliquez sur **[!UICONTROL Suivant]**.
-1. Faites maintenant correspondre cette nouvelle source de données aux événements personnalisés que nous avons créés dans [Configurer les Événements](/help/admin/admin/c-success-events/t-success-events.md)de réussite.
+1. Sélectionnez les trois mesures standard : [!UICONTROL Impressions], [!UICONTROL Clics] et [!UICONTROL Coût total] et cliquez sur **[!UICONTROL Suivant]**.
+1. Désormais, &quot;mappez&quot; cette nouvelle source de données aux événements personnalisés que nous avons créés dans [Configurer des Événements de réussite](/help/admin/admin/c-success-events/t-success-events.md).
 
    ![Mappage](assets/data-source-mapping.png)
 
-1. Sélectionnez les dimensions de donnéesCochez la case en regard de Codes de suivi et cliquez sur **[!UICONTROL Suivant]**.
+1. Choix des dimensions de données
+Cochez la case en regard de Codes de suivi et cliquez sur **[!UICONTROL Suivant]**.
 1. Faites correspondre les Dimensions de données.
-Faites correspondre la dimension (attribut) de données importées à l’attribut Adobe Analytics dans lequel vous souhaitez la stocker. Il peut s&#39;agir d&#39;une dimension standard ou d&#39;un eVar. Une fois que vous avez cliqué sur **[!UICONTROL Suivant]**, les mappages résultants s’affichent dans le résumé :
+Faites correspondre la dimension (attribut) de données importées à l’attribut Adobe Analytics dans lequel vous souhaitez la stocker. Il peut s&#39;agir d&#39;une dimension standard ou d&#39;un eVar. Après avoir cliqué sur **[!UICONTROL Suivant]**, les mappages résultants sont affichés dans le résumé :
 
    ![Résumé](assets/data-source-summary.png)
 
@@ -90,7 +91,7 @@ Les étapes similaires à celles-ci fonctionnent pour les mots-clés Google, MSN
 
 1. Connectez-vous à votre compte PPC et créez un rapport ou exportez-le.
 Assurez-vous que l’exportation comprend les champs suivants : date, URL de destination (landing page), impressions, clics et coût. L’exportation peut inclure d’autres champs, mais vous allez les supprimer en suivant les étapes ci-dessous.
-1. Si possible, enregistrez le rapport dans un fichier `.csv` délimité par des tabulations. Il sera ainsi plus facile de travailler dans les étapes suivantes.
+1. Si possible, enregistrez le rapport dans un fichier `.csv` ou délimité par des tabulations. Il sera ainsi plus facile de travailler dans les étapes suivantes.
 1. Ouvrez le fichier dans Microsoft Excel.
 
 ### Modifier le fichier dans Microsoft Excel
@@ -99,7 +100,7 @@ Assurez-vous que l’exportation comprend les champs suivants : date, URL de des
 1. Supprimez toutes les lignes supplémentaires au-dessus.
 1. Pour isoler les codes de suivi des URL de destination :
 a. Copiez et collez les données de toutes les colonnes.
-b. Cliquez sur **[!UICONTROL Données > Texte en colonnes]**.
+b. Cliquez sur **[!UICONTROL Données > Texte aux colonnes]**.
 c. À l’étape 1 de l’assistant, assurez-vous que **[!UICONTROL Délimité]** est sélectionné et cliquez sur **[!UICONTROL Suivant]**.
 d. A l’étape 2 de l’assistant, spécifiez le délimiteur en fonction de la manière dont vous avez créé vos URL (ou ? ou &amp;) et cliquez sur **[!UICONTROL Suivant]**.
 e. À l’étape 3 de l’assistant, prévisualisation vos données et vérifiez que l’une des colonnes est &quot;trackingcodename=trackingcode&quot;. Si vous disposez de variables supplémentaires, répétez ces étapes (en utilisant &amp; comme délimiteur).
@@ -117,7 +118,7 @@ Revenez à l’Assistant Source de données pour obtenir des instructions et té
 
 Il sera utile d&#39;Ajouter les mesures calculées lors des décisions de paiement par clic.
 
-Par exemple, vous pouvez ajouter ces mesures [](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=en#calculated-metrics)calculées :
+Par exemple, vous pouvez ajouter les [mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=en#calculated-metrics) suivantes :
 
 | Nom | Formule | Type de mesure | Description |
 | --- | --- | --- | --- |
@@ -134,7 +135,7 @@ Par exemple, vous pouvez ajouter ces mesures [](https://experienceleague.adobe.c
 L’étape finale consiste à ajouter les mesures de source de données et les mesures calculées au rapport Code de suivi et à approfondir l’analyse d’une campagne afin d’obtenir une vue immédiate des performances de chaque groupe publicitaire.
 
 1. Dans **[!UICONTROL Adobe Analytics > Rapports]**, sélectionnez la suite de rapports dans laquelle vous avez importé des sources de données.
-1. Accédez à **[!UICONTROL Rapports > Campagnes > Code de suivi > Code]** de suivi.
+1. Accédez à **[!UICONTROL Rapports > Campagnes > Code de suivi > Code de suivi]**.
 1. Sélectionnez la plage de dates.
 1. Cliquez sur **[!UICONTROL Mesures > Ajouter]** et ajoutez vos mesures de source de données (Clics, Impressions, Coût total) à partir de la liste des mesures standard.
 1. Faites de même pour les mesures calculées que vous avez ajoutées. Le rapport sera mis à jour à mesure que vous ajouterez des mesures.
