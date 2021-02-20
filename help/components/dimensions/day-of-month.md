@@ -1,9 +1,9 @@
 ---
 title: Jour du mois
 description: Jour numérique du mois, quel que soit le mois.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
