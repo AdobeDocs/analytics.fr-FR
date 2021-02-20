@@ -26,7 +26,7 @@ La collecte de données régionale inclut les emplacements suivants (sujets à m
 |---------------------|-------------------|
 | Par défaut | Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney, Chine* |
 
-Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
+Remarque : Si votre demande d’image Analytics est envoyée aux points de terminaison `adobedc`, `2o7.net` ou `omtrdc.net`, vous disposez d’une collecte de données tierce. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
 
 *La collecte de données régionale pour la Chine nécessite le paquet Ajoute-On pour la Chine. Consultez la note &quot;Important&quot; ci-dessus.
 
