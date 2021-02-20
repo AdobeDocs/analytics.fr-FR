@@ -1,13 +1,13 @@
 ---
 description: Configuration des actions que la condition doit déclencher.
-keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
+keywords: Dynamic Tag Management;règle;créer une règle;nouvelle règle;balises javascript/de tierces parties;configurer des actions pour une condition;ajouter un nouveau script;javascript non séquentiel;javascript séquentiel;html non séquentiel
 solution: Experience Cloud,Analytics,Target
 title: Configuration des actions que la condition doit déclencher
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
