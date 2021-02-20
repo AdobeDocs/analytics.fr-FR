@@ -1,9 +1,9 @@
 ---
 title: Présentation de la mise en œuvre JavaScript du code H
 description: Découvrez le flux de travail pour mettre en œuvre le code H sur votre site.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre c
 1. **Mettez à jour les variables de fichier JS principal** : modifiez le fichier `s_code.js` et assurez-vous que les variables suivantes sont mises à jour :
    * `s_account` contient l’identifiant de suite de rapports auquel vous souhaitez envoyer des données. Voir
    * `s.trackingServer` contient l’emplacement où les cookies sont stockés. Voir [trackingServer](../../vars/config-vars/trackingserver.md).
-1. **Hébergez le fichier`s_code.js`sur votre site** : ce fichier réside généralement avec d’autres scripts sur votre serveur web.
+1. **Hébergez le fichier `s_code.js` sur votre site** : ce fichier réside généralement avec d’autres scripts sur votre serveur web.
 1. **Référence `s_code.js` sur toutes les pages** : assurez-vous que toutes les pages individuelles appellent le fichier JavaScript principal, et faites-le dans la balise HTML `<body>` (et non dans la balise `<head>`).
 
    >[!TIP]
