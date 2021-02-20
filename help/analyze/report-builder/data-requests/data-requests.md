@@ -2,9 +2,9 @@
 description: valeur nulle
 title: 'Requêtes de données - Assistant Requête : Étape 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 
