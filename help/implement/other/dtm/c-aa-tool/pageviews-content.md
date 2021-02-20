@@ -1,13 +1,13 @@
 ---
 description: Cette section contient la description des champs de Dynamic Tag Management pour les paramètres de pages vues et de contenu lors du déploiement d’Analytics.
-keywords: Dynamic Tag Management;page views;content;page name;page url override;channel;site section;hierarchy
+keywords: Dynamic Tag Management;pages vues;contenu;nom de page;remplacement d’url de page;canal;section de site;hiérarchie
 solution: Experience Cloud,Analytics
 title: Pages vues et contenu
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '110'
 ht-degree: 100%
 
 ---
