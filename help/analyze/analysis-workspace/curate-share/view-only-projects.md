@@ -1,17 +1,17 @@
 ---
 description: Projets en lecture seule dans Workspace
-keywords: View-only projects
-title: Projets à vue seule
+keywords: Projets en lecture seule
+title: Projets en lecture seule
 translation-type: tm+mt
 source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
 
-# Projets à vue seule
+# Projets en lecture seule
 
 Vous pouvez partager des projets « en lecture seule » avec des destinataires via le [processus de partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md). Les destinataires placés dans le rôle Peut afficher profiteront d’une expérience de projet plus limitée. Cela peut être utile si vous partagez un projet avec des utilisateurs qui connaissent moins bien la structure de données de votre entreprise, Analysis Workspace ou Adobe Analytics en général, tout en souhaitant qu’ils consomment des données et des informations dans un environnement sûr.
 
