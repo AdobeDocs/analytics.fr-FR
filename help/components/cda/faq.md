@@ -1,9 +1,9 @@
 ---
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 100%
 
