@@ -1,9 +1,9 @@
 ---
 title: Collisions de hachage
 description: Décrit ce qu’est une collision de hachage et de quelle façon elle se manifeste.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Si vous créez un segment qui recherche les visites où eVar62=&quot;valeur 500
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Valeur de chaîne eVar62 </th> 
-   <th colname="col2" class="entry"> Hash </th> 
+   <th colname="col2" class="entry"> Hachage </th> 
   </tr> 
  </thead>
  <tbody> 
