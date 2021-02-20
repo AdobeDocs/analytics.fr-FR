@@ -5,6 +5,9 @@ topic: Report builder
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -13,9 +16,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Décrit comment créer des rapports Chemin avec des filtres prédéfinis.
 
-Rapports et analyses marketing  de  de quelques rapports autonomes qui sont des rapports de cheminement principaux avec des, tels que [!UICONTROL Next] et [!UICONTROL Previous Site Section] des rapports, des rapports d’entrée et [!UICONTROL Exit Site Section] et des rapports [!UICONTROL Single Site Section] .
+Les Reports &amp; Analytics marketing proposent quelques rapports autonomes qui sont des rapports Chemin supérieurs avec des filtres prédéfinis, tels que les rapports [!UICONTROL Section de site suivante] et [!UICONTROL précédente], [!UICONTROL Section d’accès au site et de sortie du site] et le rapport [!UICONTROL Section de site unique].
 
-Report Builder does not offer these as standalone reports, but you can create them through the **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** context menus. Les rapports suivants sont disponibles :
+Le Report Builder ne propose pas ces rapports de manière autonome, mais vous pouvez les créer par l’intermédiaire des menus contextuels **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Chemin]**. Les rapports suivants sont disponibles :
 
 * Chemin > Page - Abandon
 * Chemin > Chemin d’accès
@@ -27,12 +30,12 @@ Report Builder does not offer these as standalone reports, but you can create th
 * Chemin > Chemin d’accès > En tant que page d’entrée
 * Chemin > Chemin de sortie > En tant que page de sortie
 
-1. Sélectionnez plusieurs lignes d’une requête existante, puis cliquez avec le bouton droit **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
+1. Sélectionnez plusieurs lignes à partir d’une requête existante, puis cliquez avec le bouton droit sur **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Chemin]**.
 
-   (Note that you have to select at least 3 rows if you want to see the **[!UICONTROL Page Fallout]** menu item.)
+   (Remarque : vous devez sélectionner au moins 3 lignes si vous souhaitez afficher l’option de menu **[!UICONTROL Page - Abandon]**.)
 
    ![](assets/dependen_request.png)
 
-1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
+1. Sélectionnez le filtre prédéfini, par exemple **[!UICONTROL Page précédente]**.
 
    L’Assistant Requête s’affiche, avec la mesure Page précédente déjà sélectionnée. 1. Continuez à préciser votre requête dans l’Assistant Requête avant de la générer.
