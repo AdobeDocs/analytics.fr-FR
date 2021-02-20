@@ -52,4 +52,4 @@ Vous trouverez, ci-dessous, les étapes de haut niveau pour mettre en œuvre des
 
 **Blog** : pour plus d’informations sur cette fonctionnalité, consultez le blog Digital Marketing : [Classifications selon des règles](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Vidéo**: Vue de la vidéo Présentation [des](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) classifications.
+**Vidéo** : Vue de la vidéo  [Présentation ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) des classifications.
