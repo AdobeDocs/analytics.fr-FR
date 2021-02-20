@@ -48,7 +48,7 @@ La durée moyenne de la visite du site pour `Product page A` correspond à `00:0
 
 >[!NOTE]
 >
->Cette mesure indique la valeur de `"Invalid"` si l’élément de dimension contient uniquement les accès qui ont été les derniers au cours d’une visite. Cette mesure nécessite un accès ultérieur pour effectuer le suivi de la durée de la visite.
+>Cette mesure affiche la valeur `"Invalid"` si l’élément de dimension contient uniquement les accès qui se trouvaient en dernier au cours d’une visite. Cette mesure nécessite un accès ultérieur pour effectuer le suivi de la durée de la visite.
 
 ## Temps moyen passé sur le site (secondes)
 
