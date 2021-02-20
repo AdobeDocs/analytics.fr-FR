@@ -1,12 +1,12 @@
 ---
 title: Dimensions de sortie
 description: Liste les dimensions de sortie et leur utilisation.
-keywords: exit page, exit site section, exit server, exit custom insight
-translation-type: ht
+keywords: page de sortie, section du site de sortie, serveur de sortie, sortie d’informations personnalisées
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 94%
 
 ---
 
