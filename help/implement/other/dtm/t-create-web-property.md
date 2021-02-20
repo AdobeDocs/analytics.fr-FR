@@ -1,13 +1,13 @@
 ---
 description: Une propriété web peut être n’importe quel regroupement d’un ou de plusieurs domaines et sous-domaines avec une bibliothèque de règles, inclus dans un code intégré.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
+keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;propriété web;propriété
 title: Création d’une propriété web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '466'
+workflow-type: tm+mt
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
