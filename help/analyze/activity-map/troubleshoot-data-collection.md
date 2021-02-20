@@ -18,9 +18,9 @@ Si vous ne voyez pas de données pour les dimensions de Activity Map, utilisez c
 
 Tout d’abord, assurez-vous qu’AppMeasurement collecte correctement les données du Activity Map.
 
-1. Download and install the [Adobe Experience Cloud Debugger Chrome Extension](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html).
+1. Téléchargez et installez [Adobe Experience Cloud Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr-FR).
 2. Accédez à votre page Web, puis cliquez sur un lien.
-3. Lors du chargement de la page suivante, ouvrez le débogueur. Vérifiez que les variables de données contextuelles Activity Map sont codées entre `activitymap.` et `.activitymap`:
+3. Lors du chargement de la page suivante, ouvrez le débogueur. Vérifiez que les variables de données contextuelles Activity Map sont codées entre `activitymap.` et `.activitymap` :
 
 ![Données du débogueur](assets/debugger.png)
 
@@ -29,8 +29,8 @@ Tout d’abord, assurez-vous qu’AppMeasurement collecte correctement les donn�
 Vérifiez chacun des éléments suivants pour vous assurer que les composants Activity Map sont présents :
 
 * **Version** d’AppMeasurement : Le Activity Map est pris en charge sur la version 1.6 et ultérieure. De nombreux problèmes liés aux périphériques sont résolus lorsque vous effectuez la mise à niveau vers la dernière version stable d’AppMeasurement.
-* **Module** Activity Map : Vérifiez si le `AppMeasurement_Module_Activity_Map` module est présent dans votre `AppMeasurement.js` fichier. Si votre mise en oeuvre utilise Adobe Experience Platform Launch, assurez-vous que l’option **[!UICONTROL Activer le ClickMap]** est cochée lors de la configuration de l’extension Analytics sous Suivi **[!UICONTROL des]** liens.
-* **Le`s_sq`cookie**: Le Activity Map dépend du `s_sq` cookie pour la collecte de données.
-   * Assurez-vous que la `cookieDomainPeriods` variable est correctement définie, en particulier pour les domaines régionaux tels que `*.co.uk` ou `*.co.jp`.
-   * Assurez-vous que la `linkInternalFilters` variable est définie sur les valeurs souhaitées. Si un lien cliqué ne correspond pas aux filtres internes, le Activity Map le considère comme un lien de sortie et ne collecte pas de données.
-* **Incrustation Activity Map en cours d’exécution**: AppMeasurement ne suit pas les données de clics pour votre page Web lorsque l’incrustation du Activity Map est activée.
+* **Module** Activity Map : Vérifiez si le  `AppMeasurement_Module_Activity_Map` module est présent dans votre  `AppMeasurement.js` fichier. Si votre implémentation utilise Adobe Experience Platform Launch, assurez-vous que **[!UICONTROL Activer le ClickMap]** est coché lors de la configuration de l’extension Analytics sous **[!UICONTROL Suivi de liens]**.
+* **Le  `s_sq` cookie** : Le Activity Map dépend du  `s_sq` cookie pour la collecte de données.
+   * Assurez-vous que la variable `cookieDomainPeriods` est correctement définie, en particulier pour les domaines régionaux tels que `*.co.uk` ou `*.co.jp`.
+   * Assurez-vous que la variable `linkInternalFilters` est définie sur les valeurs souhaitées. Si un lien cliqué ne correspond pas aux filtres internes, le Activity Map le considère comme un lien de sortie et ne collecte pas de données.
+* **Incrustation Activity Map en cours d’exécution** : AppMeasurement ne suit pas les données de clics pour votre page Web lorsque l’incrustation du Activity Map est activée.
