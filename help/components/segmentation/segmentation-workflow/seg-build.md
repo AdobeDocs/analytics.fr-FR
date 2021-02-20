@@ -3,9 +3,9 @@ description: Le Créateur de segments propose un canevas permettant de faire gli
 title: Création de segments
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 100%
 
