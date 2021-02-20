@@ -1,6 +1,6 @@
 ---
 description: Personnalisez l’accès des utilisateurs à un niveau plus détaillé, y compris les eVars, les rapports de trafic, les rapports de solution et les rapports de cheminement.
-keywords: groups;permissions
+keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Personnalisation des autorisations liées aux dimensions
 topic: Admin tools
@@ -8,7 +8,7 @@ uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '514'
 ht-degree: 98%
 
 ---
@@ -41,9 +41,9 @@ Consultez les informations suivantes au sujet de la catégorie Dimension en ce q
 * Les rapports Vidéo et Mobile sont des dimensions, ainsi que d’autres rapports de solutions Analytics (Experience Manager, Advertising Cloud, Social, etc.).
 * Les rapports de cheminement sont accessibles aux utilisateurs qui ont accès à la dimension parente.
 * Toutes les dimensions et les mesures actuelles des groupes personnalisés ont été automatiquement transférées dans les nouvelles catégories. Si un groupe comprend des mesures actives, il obtiendra par défaut toutes les dimensions (eVars et reconnaissance du contenu) et mesures nouvellement autorisables.
-* Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la [variable](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.translate.html) sur laquelle repose la classification.
+* Droits d’accès de l’importateur de classifications (anciennement SAINT) : l’accès aux classifications est déterminé par l’accès à la [variable](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.html) sur laquelle repose la classification.
 
-Pour plus d’informations, voir Modifications [des autorisations](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-management/permissions-changes.html)Utilisateur et Groupe.
+Pour plus d’informations, voir [Modifications des autorisations d’utilisateur et de groupe](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-management/permissions-changes.html).
 
 **Personnalisation des dimensions**
 
@@ -63,14 +63,14 @@ Les éléments suivants sont des dimensions pour lesquelles vous pouvez accorder
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/evar.html"> Propriétés </a> </p> </td> 
-   <td colname="col2"> <p>Les props sont des variables de trafic personnalisées. </p> <p>Voir <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/evar.html">Props de trafic et eVars de conversion</a> dans la mise en œuvre Analytics. </p> </td> 
+   <td colname="col2"> <p>Les props sont des variables de trafic personnalisées. </p> <p>Voir <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">Props de trafic et eVars de conversion</a> dans la mise en œuvre Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html"> Hiérarchie </a> </p> </td> 
    <td colname="col2"> <p> La variable de hiérarchie (hierN) détermine l’emplacement d’une page dans la hiérarchie de votre site ou la structure d’une page. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> À l’instar de la fonction Propriétés de liste, les variables de liste permettent la définition de plusieurs valeurs dans une même demande d’image. </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Les éléments suivants sont des dimensions pour lesquelles vous pouvez accorder
    <td colname="col2"> <p>Cette intégration de partenaire n’est plus active. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>Cette intégration de partenaire n’est plus active. </p> </td> 
   </tr> 
   <tr> 
