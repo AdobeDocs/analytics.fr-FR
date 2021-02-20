@@ -1,13 +1,13 @@
 ---
 description: Vous pouvez déployer Dynamic Tag Management en utilisant une ou plusieurs des options d’hébergement disponibles.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;hosting;hosting options;akamai;self hosting;self-hosting;ftp delivery;ftp hosting;library download
+keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;hébergement;options d’hébergement;akamai;auto-hébergement;auto hébergement;distribution ftp;hébergement ftp;téléchargement de bibliothèque
 title: Configuration des options d’hébergement
 topic: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '515'
+workflow-type: tm+mt
+source-wordcount: '536'
 ht-degree: 100%
 
 ---
