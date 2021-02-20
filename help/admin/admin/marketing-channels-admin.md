@@ -3,9 +3,9 @@ description: Les canaux marketing sont généralement utilisés pour savoir comm
 title: Canaux marketing
 topic: Admin tools
 uuid: 05a74391-b694-4ed3-9793-5538d6373db2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 79a3bd43171f982831120a5a9fe181dd2f8dec16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 100%
 
