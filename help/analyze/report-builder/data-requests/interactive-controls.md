@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 100%
 
 ---
 
@@ -23,6 +26,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 >La version 5.0 du Report Builder doit être installée pour que les contrôles interactifs fonctionnent. >
 >* Si vous exécutez Microsoft Excel sous Windows mais exécutez une version antérieure du Créateur de rapports, ou si le Créateur de rapports n’est pas installé, vous pouvez modifier la valeur du contrôle interactif mais cela n’actualise pas la requête associée, ni ne met à jour les paramètres associés à la requête.
 >* Si vous exécutez Excel sous Mac, la modification de la valeur dans le contrôle déclenche l’affichage du message suivant : « Macro ’Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39;. »
+
 >
 
 
@@ -34,7 +38,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 ## Implémentation du contrôle interactif de périodes {#section_39B228F2D2C44985863D31424C953280}
 
 1. À la première étape de l’Assistant Requête, sélectionnez, par exemple, le rapport **[!UICONTROL Page]**.
-1. En regard de la **[!UICONTROL Commonly Used Dates]** liste déroulante, cliquez sur l’ **[!UICONTROL Control Settings]** icône :
+1. En regard du menu déroulant **[!UICONTROL Dates courantes]**, cliquez sur l’icône **[!UICONTROL Paramètres de commande]** :
 
    ![](assets/date_range_control.png)
 
@@ -54,9 +58,9 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 1. Vous pouvez à présent modifier la période et la requête s’actualise avec cette période.
 1. Vous pouvez également copier la requête et cliquer avec le bouton droit afin d’utiliser une des deux options Coller la requête :
 
-   * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. Cela signifie que la requête copiée pointe vers le même contrôle interactif de périodes que la requête d’origine.
+   * **[!UICONTROL Coller la requête]** > **[!UICONTROL Utiliser la cellule d’entrée absolue]**. Cela signifie que la requête copiée pointe vers le même contrôle interactif de périodes que la requête d’origine.
 
-   * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. Cela signifie que la requête copiée pointe vers son propre contrôle.
+   * **[!UICONTROL Coller la requête]** > **[!UICONTROL Utiliser la cellule d’entrée relative]**. Cela signifie que la requête copiée pointe vers son propre contrôle.
 
       >[!NOTE]
       >
