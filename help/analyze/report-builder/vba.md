@@ -1,9 +1,9 @@
 ---
 title: Macros Visual Basic dans le Report Builder
 description: Développez les fonctionnalités des classeurs Excel et du Report Builder à l’aide de VBA.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
 
