@@ -3,9 +3,9 @@ description: Le gestionnaire de code permet de télécharger le code de collecte
 title: Gestionnaire de code
 topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 
