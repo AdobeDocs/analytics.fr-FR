@@ -1,9 +1,9 @@
 ---
 title: Occurrences
 description: Nombre d’accès pour lesquels une variable a été définie ou conservée.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -20,5 +20,5 @@ Sur tous les accès d’une suite de rapports, incluez les accès pour lesquels 
 
 ## Comparaison avec des mesures similaires
 
-* **Occurrences par rapport aux[Instances](instances.md)** : Occurrences comptabilise les accès où un élément de dimension a été défini ou conservé. Les instances n’incluent pas les accès pour lesquels un élément de dimension persiste.
-* **Occurrences par rapport aux[Pages vues](page-views.md)** : Occurrences inclut tous les types d’accès, y compris les appels de suivi de pages vues ([`t()`](/help/implement/vars/functions/t-method.md)) et les appels de suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)). La mesure Pages vues inclut uniquement les appels de suivi de pages vues et exclut les appels de suivi des liens.
+* **Occurrences par rapport aux [Instances](instances.md)** : Occurrences comptabilise les accès où un élément de dimension a été défini ou conservé. Les instances n’incluent pas les accès pour lesquels un élément de dimension persiste.
+* **Occurrences par rapport aux [Pages vues](page-views.md)** : Occurrences inclut tous les types d’accès, y compris les appels de suivi de pages vues ([`t()`](/help/implement/vars/functions/t-method.md)) et les appels de suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)). La mesure Pages vues inclut uniquement les appels de suivi de pages vues et exclut les appels de suivi des liens.
