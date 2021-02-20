@@ -1,9 +1,9 @@
 ---
 title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Pays | `geocountry` |
 | Fidélité de la clientèle | `customerloyalty` |
 | Variables de conversion personnalisées | `evar1`, `evar2`, etc. |
-| Variables Aperçu personnalisé | `prop1`, `prop2`, etc. |
+| Variables Aperçu personnalisé | `prop1`,  `prop2`, etc. |
 | Lien personnalisé | `customlink` |
 | Jours avant le premier achat | `daysbeforefirstpurchase` |
 | Jours depuis le dernier achat | `dayssincelastpurchase` |
