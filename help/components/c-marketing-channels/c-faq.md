@@ -1,9 +1,9 @@
 ---
 title: FAQ sur les canaux marketing
 description: Forum aux questions sur les canaux marketing.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 100%
 
