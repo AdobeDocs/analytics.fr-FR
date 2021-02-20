@@ -15,7 +15,7 @@ ht-degree: 95%
 
 La fonction Alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 
-Voici un didacticiel vidéo sur les alertes [](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) intelligentes (5:34)
+Voici un didacticiel vidéo sur [Alertes intelligentes](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Aperçu
 
