@@ -10,7 +10,7 @@ ht-degree: 95%
 ---
 
 
-# referrer
+# parrain
 
 La variable `referrer` remplace le référent collecté automatiquement dans les rapports. Cette variable s’avère utile lorsque le référent risque d’être perdu, par exemple lors des redirections ou du transfert temporaire du visiteur vers un processeur de paiement. Cette variable permet de renseigner les dimensions Référent et Domaine référent.
 
@@ -35,7 +35,7 @@ La variable `s.referrer` est une chaîne contenant l’URL de la page précéden
 s.referrer = "https://example.com";
 ```
 
-Si vous utilisez la couche `digitalData` de [](../../prepare/data-layer.md)données :
+Si vous utilisez la couche de données `digitalData` [](../../prepare/data-layer.md) :
 
 ```js
 s.referrer = digitalData.page.pageInfo.referringURL;
