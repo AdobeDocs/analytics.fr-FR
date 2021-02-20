@@ -24,7 +24,7 @@ Vous pouvez utiliser des caractères de remplacement (*) pour exclure une plage 
 
 >[!TIP]
 >
->Les adresses IP privées ne doivent pas être exclues. Seules les adresses IP externes atteignent les serveurs de collecte de données d’Adobe. Les adresses privées incluent `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`et `169.254.*.*`.
+>Les adresses IP privées ne doivent pas être exclues. Seules les adresses IP externes atteignent les serveurs de collecte de données d’Adobe. Les adresses privées sont `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` et `169.254.*.*`.
 
 ## Impact de l’obscurcissement des adresses IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
