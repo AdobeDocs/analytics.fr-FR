@@ -3,9 +3,9 @@ description: Réponses aux questions pouvant survenir lors de la mise en œuvre 
 solution: Experience Cloud
 title: Questions fréquentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
  </tbody> 
 </table>
 
-## Questions fréquentes spécifiques à Analytics {#section_67BFB1B1E48D4113A38B075C020931BA}
+## Questions fréquentes spécifiques à Analytics  {#section_67BFB1B1E48D4113A38B075C020931BA}
 
 <table id="table_19AEAE0A3575423CB4F5F164DB5626D5"> 
  <tbody> 
@@ -116,7 +116,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
  </tbody> 
 </table>
 
-## Questions fréquentes sur la redirection côté serveur {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## Questions fréquentes sur la redirection côté serveur  {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
