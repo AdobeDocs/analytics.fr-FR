@@ -3,10 +3,10 @@ keywords: Analysis Workspace
 title: Aperçu d’Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
-workflow-type: ht
-source-wordcount: '525'
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Analysis Workspace est un outil de navigation flexible qui vous permet de crée
 
 Si vous ne disposez que de quelques minutes, regardez ce bref aperçu pour découvrir l’ensemble des possibilités.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Connexion à Adobe Analytics {#login}
 
