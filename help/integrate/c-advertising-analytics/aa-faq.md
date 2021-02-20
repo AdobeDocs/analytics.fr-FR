@@ -2,9 +2,9 @@
 description: valeur nulle
 title: Questions fréquentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1406'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## Suivi automatique vs. manuel {#section_7437C4698A6D482EB7ED94A948390119}
+## Suivi automatique vs. manuel  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
