@@ -21,7 +21,7 @@ Cette page part du principe que l’utilisateur maîtrise les bases de l’utili
 Le rapport Flux de comportement peut être recréé à l’aide de la visualisation de flux.
 
 1. Cliquez sur l’icône Visualisations à gauche, puis faites glisser une visualisation de flux sur l’espace de travail situé au-dessus du tableau à structure libre.
-2. Recherchez la dimension **Page**, puis cliquez sur l’icône de flèche pour afficher les valeurs de page. Les éléments de dimension sont de couleur jaune.
+2. Recherchez la dimension **Page**, puis cliquez sur l’icône de flèche pour afficher les valeurs de page. Les éléments de Dimension sont de couleur jaune.
 3. Recherchez la valeur de page de votre choix et faites-la glisser sur l’espace « Dimension ou élément » au centre.
 4. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire des colonnes. Il est également possible d’utiliser différentes dimensions dans le même rapport de flux.
 
@@ -36,7 +36,7 @@ Le rapport de pages montre les performances de pages individuelles sur votre sit
 
 Adobe propose également plusieurs espaces de travail précréés appelés modèles. Le modèle Consommation de contenu (web) fournit une valeur similaire au rapport Toutes les pages.
 
-1. Cliquez sur *[!UICONTROL Projet] >[!UICONTROL Nouveau]* pour ouvrir une fenêtre modale incluant les options du projet.
+1. Cliquez sur *[!UICONTROL Projet] > [!UICONTROL Nouveau]* pour ouvrir une fenêtre modale incluant les options du projet.
 2. Cliquez sur le modèle Consommation de contenu (web), puis sur Créer.
 
 ## Contenu du site - Analyse en profondeur du contenu
