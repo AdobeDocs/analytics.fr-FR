@@ -1,9 +1,9 @@
 ---
 title: FAQ sur les classifications
 description: Forum aux questions sur l’utilisation des classifications.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
 
