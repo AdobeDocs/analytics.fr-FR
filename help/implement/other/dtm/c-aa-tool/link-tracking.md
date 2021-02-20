@@ -1,13 +1,13 @@
 ---
 description: Cette section contient la description des champs de Dynamic Tag Management pour le suivi des liens lors du déploiement d’Analytics.
-keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
+keywords: Dynamic Tag Management;suivi des liens;activer clickmap;suivre les liens de téléchargement;télécharger des extensions;suivre les liens sortants;conserver les paramètres d’URL
 solution: Experience Cloud,Analytics
 title: Suivi des liens
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
