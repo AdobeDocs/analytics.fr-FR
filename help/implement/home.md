@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics exige du code sur votre site web, votre application mobile ou to
 
 ## Principaux articles sur l’importation Analytics
 
-* [Prendre en charge une mise en oeuvre Adobe Analytics existante](/help/implement/prepare/existing-implementation.md)
+* [Prise en charge d’une implémentation Adobe Analytics existante](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
 * [Création d’une propriété dans Experience Platform Launch](launch/create-analytics-property.md)
 * [Mises à jour d’AppMeasurement](appmeasurement-updates.md)
