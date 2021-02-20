@@ -29,7 +29,7 @@ Les sections suivantes répertorient les contraintes qui s’appliquent aux sour
 
 * Chaque compte FTP est limité à un total de 50 Mo de données pour tous les fichiers. Le traitement s’interrompt au-delà de 50 Mo et ne reprend qu’une fois que le total est inférieur à 50 Mo.
 
-## Dates {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## Dates  {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
 * Chaque jour calendaire, vous pouvez transférer des données pour 90 dates uniques. Au-delà de cette limite, le chargement échoue et un message d’erreur s’affiche, indiquant que le nombre maximum de jours uniques a été dépassé.
 * Seules les données avec des dates en cours ou passées peuvent être importées. Ne tentez pas d’utiliser des dates futures dans vos données de sources de données.
@@ -90,7 +90,7 @@ Si vous envoyez un fichier UTF-8 ou ISO-8859-1 et que votre suite de rapports n�
 * L’erreur est détectée durant la conversion, auquel cas vous recevez un message du type « Caractère incorrect détecté dans le fichier à la position 18 lors de la conversion d’UTF-8 à ISO-8859-1 ».
 * Le fichier est traité sans erreur, mais des données altérées s’affichent dans le rapport.
 
-## Transfert de fichiers journaux Web {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Transfert de fichiers journaux Web  {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * Les rapports de trafic, tels que les pages vues, constituent les rapports les plus utiles pour l’affichage de données de journaux Web.
 * Les noms de page s’affichent sous forme d’URL complète, incluant la chaîne de requête.
