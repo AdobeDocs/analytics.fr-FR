@@ -2,9 +2,9 @@
 description: Tableau de comparaison des API de création de rapports dans Analytics. Vous y trouverez également des liens vers la documentation afférente.
 title: Comparaison des API de création de rapports dans Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 
