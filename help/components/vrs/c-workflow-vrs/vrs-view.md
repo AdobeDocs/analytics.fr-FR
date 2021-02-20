@@ -1,13 +1,13 @@
 ---
 description: Cliquez sur l’icône i (Informations) située en regard du nom de la suite de rapports pour obtenir des informations sur celle-ci.
-keywords: Virtual Report Suite
+keywords: Suite de rapports virtuelle
 title: Affichage des informations relatives à une suite de rapports virtuelle
 topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
-source-wordcount: '95'
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
