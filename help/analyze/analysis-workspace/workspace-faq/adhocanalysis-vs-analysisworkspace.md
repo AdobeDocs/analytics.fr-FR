@@ -2,9 +2,9 @@
 description: Terminologie et tâches d’Ad Hoc Analysis comparées à celles d’Analysis Workspace.
 title: Comparaison entre Analysis Workspace et Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Cliquez [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-over
 | Modèle de flux | Visualisation de flux |
 | Abandon | Visualisation des abandons |
 
-## Comparaison des tâches clés {#section_F31446F1DFA742D794A30D713E223440}
+## Comparaison des tâches clés  {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
