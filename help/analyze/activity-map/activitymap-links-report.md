@@ -3,9 +3,9 @@ description: Le rapport Liens tient compte des liens trouvés sur la page actuel
 title: Rapport sur les liens
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
+workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
 
