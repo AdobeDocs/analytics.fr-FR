@@ -51,4 +51,4 @@ Diverses fonctionnalités traitent des valeurs à faible trafic de différentes 
 * **Segmentation :** si les critères de segment incluent une variable avec un grand nombre de valeurs uniques, les valeurs capturées sous en trafic faible ne sont pas incluses.
 * **Classifications :** les rapports de classification sont également soumis à des limites uniques. Si la valeur de variable parente d’une classification est incluse dans le compartiment à faible trafic, la valeur n’est pas classée.
    * Les valeurs de classification à faible trafic obtenues par l’intermédiaire de l’importateur peuvent être affichées en Data Warehouse. <!-- AN-115871 -->
-   * Les valeurs de classification à faible trafic obtenues par l’intermédiaire du créateur de règles *ne peuvent* pas être affichées dans le Data Warehouse. <!-- AN-122872 -->
+   * Les valeurs de classification à faible trafic obtenues par l’intermédiaire du créateur de règles *ne peuvent pas* être affichées en Data Warehouse. <!-- AN-122872 -->
