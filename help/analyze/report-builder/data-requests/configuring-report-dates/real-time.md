@@ -25,7 +25,7 @@ Vous pouvez :
 * Utiliser tout événement personnalisé, événement de panier ou instance.
 * Afficher jusqu’à 20 heures de données historiques, en temps réel.
 
-Le temps réel respecte les autorisations pour les utilisateurs et les groupes. Par exemple, si vous n’avez pas les droits permettant de consulter le revenu, vous ne pouvez pas consulter un rapport en temps réel qui inclut les données de revenu. Les eVars (mesures de conversion) ne sont pas prises en charge. Les autorisations en temps réel sont activées dans les [outils d’administration](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.translate.html).
+Le temps réel respecte les autorisations pour les utilisateurs et les groupes. Par exemple, si vous n’avez pas les droits permettant de consulter le revenu, vous ne pouvez pas consulter un rapport en temps réel qui inclut les données de revenu. Les eVars (mesures de conversion) ne sont pas prises en charge. Les autorisations en temps réel sont activées dans les [outils d’administration](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
 >[!NOTE]
 >
