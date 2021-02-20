@@ -16,7 +16,7 @@ La dimension « Moyenne de pages vues par visite » indique le nombre moyen de
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des pages vues par visite anormales, qui sont généralement inutiles.
+>Utilisez cette mesure avec une autre mesure (telle que [Visites](visits.md)) pour obtenir de meilleures informations. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des pages vues par visite anormales, qui sont généralement inutiles.
 
 ## Méthode de calcul de cette mesure
 
