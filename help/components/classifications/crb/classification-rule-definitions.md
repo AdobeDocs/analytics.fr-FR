@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Règles de classification – Définitions
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
