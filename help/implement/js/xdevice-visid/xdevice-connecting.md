@@ -1,14 +1,14 @@
 ---
-description: L’identification des visiteurs sur plusieurs appareils vous aide à connecter des visiteurs sur plusieurs appareils. La fonction d’identification des visiteurs sur plusieurs appareils utilise la variable d’identifiant visiteur, s.visitorID, pour associer des visiteurs.
-keywords: Analytics Implementation
+description: L’identification des visiteurs sur plusieurs appareils vous aide à connecter des visiteurs sur plusieurs appareils. La fonction d’identification des visiteurs sur plusieurs périphériques utilise la variable d’identifiant visiteur, s.visitorID, pour associer des visiteurs.
+keywords: Mise en œuvre d’Analytics
 subtopic: Visitors
 title: Connexion des utilisateurs à l’ensemble des appareils
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '399'
+workflow-type: tm+mt
+source-wordcount: '401'
 ht-degree: 100%
 
 ---
