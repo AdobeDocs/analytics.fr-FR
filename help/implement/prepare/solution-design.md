@@ -1,9 +1,9 @@
 ---
 title: Création d’un document de conception de solution
 description: Découvrez ce qu’est un document de conception de solution et comment l’utiliser dans votre entreprise.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 100%
 
