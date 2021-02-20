@@ -1,9 +1,9 @@
 ---
 title: clearVars
 description: Elle efface les valeurs suivantes de l’objet d’instance. Cette fonction supprime les éléments (en les définissant comme « undefined »).
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ Certaines mises en œuvre, comme dans les applications d’une seule page, néce
 Cette méthode ne prend aucun argument et ne renvoie aucune valeur. Son seul objectif est d’effacer les valeurs de variable de l’objet d’instance. Cette méthode définit les éléments suivants sur `undefined` :
 
 * `prop1` - `prop75`
-* `eVar` - `eVar250`
-* `hier1` - `hier5`
-* `list1` - `list3`
+* `eVar` -  `eVar250`
+* `hier1` -  `hier5`
+* `list1` -  `list3`
 * `events`
 * `products`
 * `channel`
