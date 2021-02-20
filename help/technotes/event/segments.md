@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Exclusion de dates spécifiques dans l’analyse
 
-Si des données sont [affectées par un événement](overview.md), vous pouvez utiliser un segment pour exclure les plages de dates que vous ne souhaitez pas inclure dans vos rapports. La segmentation des dates affectées par le événement peut empêcher votre entreprise de prendre des décisions sur des données partielles.
+Si des données [sont affectées par un événement](overview.md), vous pouvez utiliser un segment pour exclure les plages de dates que vous ne souhaitez pas inclure dans vos rapports. La segmentation des dates affectées par le événement peut empêcher votre entreprise de prendre des décisions sur des données partielles.
 
 ## Isoler les jours affectés
 
@@ -33,7 +33,7 @@ Adobe recommande d’utiliser les composants de dimension orange, et non les com
 Créez un segment qui exclut le jour ou la plage de dates concernés. Ce segment est utile si vous souhaitez exclure les jours qui ont rencontré des problèmes afin de minimiser l’impact sur le rapports global.
 
 1. Ouvrez le créateur de segments en accédant à **[!UICONTROL Composants]** > **[!UICONTROL Segments]**, puis en cliquant sur **[!UICONTROL Ajouter]**.
-2. Dans l’angle supérieur droit du canevas de définition de segment, cliquez sur **[!UICONTROL Options]** > **[!UICONTROL Exclure]**.
+2. Dans le coin supérieur droit du canevas de définition de segment, cliquez sur **[!UICONTROL Options]** > **[!UICONTROL Exclure]**.
 3. Faites glisser la dimension &quot;Jour&quot; sur le canevas de définition et définissez-la sur la même valeur que le jour à supprimer.
 4. Répétez l’étape ci-dessus pour chaque jour que vous souhaitez supprimer dans votre rapport.
 
@@ -49,11 +49,11 @@ Vous pouvez appliquer les segments &quot;Jours affectés&quot; et &quot;Exclure 
 
 ![Les deux segments](assets/affected_and_exclude.png)
 
-Si vous ne souhaitez pas afficher de zéros dans le tableau ou les visualisations (provoquant des creux), activez l’option **[!UICONTROL Interpréter zéro comme aucune valeur]** sous les paramètres de colonne.
+Si vous ne souhaitez pas afficher de zéros dans le tableau ou les visualisations (provoquant des creux), activez **[!UICONTROL Interpréter zéro comme aucune valeur]** sous les paramètres de colonne.
 
 ![Interpréter zéro](assets/interpret_zero.png)
 
-Si vous ne souhaitez pas afficher de zéros dans le tableau ou les visualisations (provoquant des creux), activez l’option **[!UICONTROL Interpréter zéro comme aucune valeur]** sous les paramètres de colonne.
+Si vous ne souhaitez pas afficher de zéros dans le tableau ou les visualisations (provoquant des creux), activez **[!UICONTROL Interpréter zéro comme aucune valeur]** sous les paramètres de colonne.
 
 ![Interpréter zéro](assets/interpret_zero.png)
 
@@ -69,12 +69,12 @@ Vous pouvez appliquer le segment &quot;Exclure les jours affectés&quot; à un p
 
 ### Utiliser le segment d’exclusion dans une suite de rapports virtuelle
 
-Vous pouvez utiliser le segment dans une suite [de rapports](/help/components/vrs/vrs-about.md) virtuelle pour exclure plus facilement les données. Cette option est idéale en ce sens que vous n’avez pas besoin de vous souvenir d’appliquer le segment pour chaque rapport qui inclut la plage de dates affectée. Si vous utilisez déjà des suites de rapports virtuelles comme source principale de données, vous pouvez ajouter le segment à une suite de rapports virtuelle existante.
+Vous pouvez utiliser le segment dans une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) pour exclure plus facilement les données. Cette option est idéale en ce sens que vous n’avez pas besoin de vous souvenir d’appliquer le segment pour chaque rapport qui inclut la plage de dates affectée. Si vous utilisez déjà des suites de rapports virtuelles comme source Principale de données, vous pouvez ajouter le segment à une suite de rapports virtuelle existante.
 
-1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
+1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**.
 2. Cliquez sur **[!UICONTROL Ajouter]**.
 3. Entrez le nom et la description de la suite de rapports virtuelle.
-4. Faites glisser le segment d’exclusion vers la zone intitulée segment **[!UICONTROL de]** Ajoute.
+4. Faites glisser le segment d’exclusion vers la zone intitulée **[!UICONTROL Ajouter le segment]**.
 5. Cliquez sur **[!UICONTROL Continuer]** dans l’angle supérieur droit, puis sur **[!UICONTROL Enregistrer]**.
 
 ![Segment appliqué à la suite de rapports virtuelle](assets/exclude_segment_vrs.png)
