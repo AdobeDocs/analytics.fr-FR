@@ -15,9 +15,9 @@ ht-degree: 90%
 
 Dans Analysis Workspace vous pouvez afficher et analyser les anomalies de données de manière contextuelle.
 
-[Didacticiel](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) vidéo sur la détection des anomalies (4:53)
+[Didacticiel](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html)  vidéo sur la détection des anomalies (4:53)
 
-[Didacticiel](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) vidéo sur l’Analyse des contributions (3:20)
+[Didacticiel](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html)  vidéo sur l’Analyse des contributions (3:20)
 
 >[!IMPORTANT]
 >
