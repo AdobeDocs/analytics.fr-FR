@@ -12,15 +12,15 @@ ht-degree: 2%
 
 # Dépannage de la connexion à Adobe Analytics
 
-adobe analytics utilise plusieurs méthodes d’authentification pour se connecter :
+Adobe Analytics utilise plusieurs méthodes d’authentification pour se connecter :
 
-* adobe id par l&#39;Experience Cloud
+* Adobe ID par l&#39;Experience Cloud
 * Identifiant Analytics hérité
 * Authentification unique
 
 **Si vous accédez régulièrement à Analytics et que vous rencontrez des problèmes de connexion de manière aléatoire, effacer les cookies et le cache de votre navigateur résout la plupart des problèmes.**
 
-Parfois, des problèmes de disponibilité peuvent affecter la capacité de se connecter. Consultez [status.adobe.com](https://status.adobe.com) pour tout incident en cours. Sinon, utilisez la section appropriée en fonction de la méthode d’authentification de votre entreprise.
+Parfois, des problèmes de disponibilité peuvent affecter la capacité de se connecter. Consultez [status.adobe.com](https://status.adobe.com) pour connaître les incidents en cours. Sinon, utilisez la section appropriée en fonction de la méthode d’authentification de votre entreprise.
 
 ## Adobe ID
 
@@ -45,9 +45,9 @@ Si l’effacement des cookies/du cache du navigateur ne résout pas le problème
 >Les étapes suivantes pour réinitialiser le mot de passe d’un utilisateur s’appliquent uniquement aux identifiants Analytics hérités, et non à Adobe ID. Si votre entreprise utilise Adobe ID, vous pouvez gérer les comptes d’utilisateurs à l’adresse [adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Connectez-vous à Adobe Analytics avec un compte doté de droits d’administration.
-2. Accédez à **[!UICONTROL Admin]** > Gestion **** utilisateur.
-3. Cliquez sur l’onglet **[!UICONTROL Utilisateurs]** , puis sur **[!UICONTROL Modifier]** en regard de l’utilisateur concerné.
-4. Remplacez le mot de passe par n’importe quelle valeur et cochez la case **[!UICONTROL Exiger que l’utilisateur change de mot de passe lors de la prochaine connexion]**.
+2. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+3. Cliquez sur l’onglet **[!UICONTROL Utilisateurs]**, puis sur **[!UICONTROL Modifier]** en regard de l’utilisateur concerné.
+4. Remplacez le mot de passe par n’importe quelle valeur et cochez la case **[!UICONTROL Obliger l’utilisateur à changer de mot de passe lors de la prochaine connexion]**.
 5. Informer l’utilisateur du nouveau mot de passe.
 
 ## Authentification unique
@@ -60,7 +60,7 @@ Un utilisateur de votre organisation peut recevoir l’erreur suivante lorsqu’
 
 *Erreur : Cette connexion a expiré.*
 
-Cette erreur fonctionne comme prévu. adobe analytics permet aux administrateurs de définir une plage de dates valide pour un compte d’utilisateur. Si la date actuelle se trouve en dehors de la plage de dates valide du compte, il n’est pas possible de se connecter. Adressez-vous à un administrateur Analytics de votre entreprise pour étendre la plage de dates valide de la connexion. Le service à la clientèle d’Adobe n’est pas autorisé à modifier les plages de dates de connexion valides pour les comptes d’utilisateurs.
+Cette erreur fonctionne comme prévu. Adobe Analytics permet aux administrateurs de définir une plage de dates valide pour un compte d’utilisateur. Si la date actuelle se trouve en dehors de la plage de dates valide du compte, il n’est pas possible de se connecter. Adressez-vous à un administrateur Analytics de votre entreprise pour étendre la plage de dates valide de la connexion. Le service à la clientèle d’Adobe n’est pas autorisé à modifier les plages de dates de connexion valides pour les comptes d’utilisateurs.
 
 ## Autres problèmes de connexion
 
