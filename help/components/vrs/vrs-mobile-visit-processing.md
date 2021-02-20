@@ -2,9 +2,9 @@
 description: Les sessions contextuelles dans les suites de rapports virtuelles modifient la façon dont Adobe Analytics calcule les visites mobiles. Cet article décrit les implications du traitement des événements d’accès en arrière-plan et de lancement d’applications (toutes deux définies par le SDK Mobile) sur la façon dont les visites mobiles sont définies.
 title: Sessions contextuelles
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 100%
 
