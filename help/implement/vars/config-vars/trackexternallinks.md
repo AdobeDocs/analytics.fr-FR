@@ -1,8 +1,11 @@
 ---
 title: trackExternalLinks
 description: Permet d’activer ou de désactiver le suivi automatique des liens pour les liens de sortie.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
 
