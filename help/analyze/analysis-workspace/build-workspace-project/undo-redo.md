@@ -2,9 +2,9 @@
 description: Modification et amélioration de l’option Annuler dans Analysis Workspace.
 title: Paramètres d’annulation et de rétablissement
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Paramètres d’annulation et de rétablissement
 
-**[!UICONTROL Espace de travail]** > **[!UICONTROL Projet]** > **[!UICONTROL Annuler/Rétablir]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Projet]** > **[!UICONTROL Annuler/Rétablir]**
 
 * L’option **[!UICONTROL Rétablir]** (pour rétablir une action annulée) figure dans le menu **[!UICONTROL Édition]**.
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 * Sélection de suites de rapports
 * Ajout/suppression de visualisation
 * Réduction/développement de panneau ou visualisation
-* Insertion à l’aide des touches de raccourci (CTRL (CMD) + Z pour annuler, CTRL (CMD) + Z pour annuler)
+* Insertion à l’aide des touches de raccourci (CTRL (CMD) + Z pour annuler, CTRL (CMD)+Maj.+ Z pour refaire)
 * Insertion de panneau
 * Clic droit sur les options de panneau (Dupliquer le panneau, Réduire tous les panneaux, Développer tous les panneaux, Réduire toutes les visualisations dans le panneau, Développer toutes les visualisations dans le panneau, Modifier la description du panneau)
 * Modification du panneau Structure libre
