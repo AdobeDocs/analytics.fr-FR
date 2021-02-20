@@ -50,7 +50,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col2"> <p>canal </p> </td> 
    <td colname="col3"> <p>Chaîne de canal (par exemple, section Sports). </p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col2"> <p>événements </p> </td> 
    <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Par exemple : </p> 
     <code>
       scAdd,event1,event7 
