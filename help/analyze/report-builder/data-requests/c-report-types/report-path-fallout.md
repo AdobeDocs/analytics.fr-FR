@@ -5,6 +5,9 @@ topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +24,7 @@ Décrit la façon dont le Créateur de rapports prend en charge les rapports Che
 | Chemins complets | Non pris en charge. |
 | PathFinder | Non fourni en tant que rapport autonome. Peut être reproduit en tant que rapport de cheminement utilisant un filtre. |
 | Longueur de chemin | Pris en charge uniquement pour la dimension Page. |
-| Analyse de page >  résumé des dimensions | Non fourni en tant que rapport autonome. Peut être reproduit avec plusieurs requêtes avec la dimension Chemin et en utilisant un filtre. |
+| Analyse de page > Résumé des dimensions | Non fourni en tant que rapport autonome. Peut être reproduit avec plusieurs requêtes avec la dimension Chemin et en utilisant un filtre. |
 | Analyse de page > Actualisations | Non fourni en tant que rapport autonome. Peut être reproduit avec un rapport Dimension utilisant la mesure Actualisations. |
 | Analyse de page > Profondeur de dimension | Pris en charge uniquement pour la dimension Page. |
 | Analyse de page > Durée de consultation de la dimension | Non pris en charge. |
