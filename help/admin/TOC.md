@@ -26,7 +26,7 @@ ht-degree: 96%
    + Suppression de robots {#bot-removal}
       + [Suppression de robots](admin/bot-removal/bot-removal.md)
       + [Règles de robots - Aperçu](admin/bot-removal/bot-rules.md)
-      + [Signatures de bots courantes](admin/bot-removal/bot-signatures.md)
+      + [Signatures de robots courantes](admin/bot-removal/bot-signatures.md)
       + [Méthodes d’exclusion de robots](admin/bot-removal/bot-exclusion-methods.md)
    + [Gestionnaire de code](admin/code-manager-admin.md)
    + Variables de conversion {#conversion-variables}
