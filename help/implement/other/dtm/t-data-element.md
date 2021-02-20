@@ -1,13 +1,13 @@
 ---
 description: Création d’un élément de données dans Dynamic Tag Management.
-keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
+keywords: Dynamic Tag Management;élément de données;créer un élément de données;nom;type;valeur par défaut;forcer l’utilisation de minuscules pour la valeur;mémoriser cette valeur pour
 solution: Experience Cloud,Analytics,Target
 title: Création d’un élément de données
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Création d’un élément de données dans Dynamic Tag Management.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Type</strong></td> 
-      <td class="chdesc stentry"> <p> Indique d’où sont extraites les données : objet JS Object, sélecteur CSS, cookie, paramètres d’URL ou script personnalisé. </p> <p>Selon le type que vous avez sélectionné, différentes options s’affichent. Voir <a href="https://docs.adobe.com/content/help/fr-FR/dtm/using/resources/data-elements.html">Types d’éléments de données</a> dans la documentation du produit Dynamic Tag Management pour obtenir plus d’informations ainsi que des exemples. </p> </td> 
+      <td class="chdesc stentry"> <p> Indique d’où sont extraites les données : objet JS Object, sélecteur CSS, cookie, paramètres d’URL ou script personnalisé. </p> <p>Selon le type que vous avez sélectionné, différentes options s’affichent. Voir <a href="https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html">Types d’éléments de données</a> dans la documentation du produit Dynamic Tag Management pour obtenir plus d’informations ainsi que des exemples. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Valeur par défaut</strong></td> 
