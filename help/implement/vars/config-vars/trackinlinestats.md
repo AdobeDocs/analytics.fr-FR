@@ -1,12 +1,12 @@
 ---
 title: trackInlineStats
 description: Permet d’activer ou de désactiver Activity Map dans votre mise en œuvre.
-keywords: disable activity map
+keywords: désactiver la carte d’activité
 translation-type: tm+mt
 source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 98%
 
 ---
 
