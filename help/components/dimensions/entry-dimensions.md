@@ -1,12 +1,12 @@
 ---
 title: Dimensions d’entrée
 description: Liste les dimensions d’entrée et leur utilisation.
-keywords: entry page, entry site section, entry server, entry custom insight
-translation-type: ht
+keywords: page d’entrée, section du site d’entrée, serveur d’entrée, saisie d’informations personnalisées
+translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 95%
 
 ---
 
