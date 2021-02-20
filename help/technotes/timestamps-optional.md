@@ -1,13 +1,13 @@
 ---
 description: Découvrez-en plus sur les avantages et les contraintes liés à l’utilisation du paramètre Horodatages (facultatif).
-keywords: Analytics Implementation
+keywords: Mise en œuvre d’Analytics
 title: Utilisation du paramètre Horodatages (facultatif)
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques et autres exigences et restr
 
    Les données qui ne sont pas dans l’ordre peuvent inclure des données arrivées tardivement issues de collections de données hors ligne et d’accès tardifs, ou encore d’horloges désynchronisées sur les appareils mobiles hors ligne. Ceci risquerait de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de cheminement.
 
-* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](https://docs.adobe.com/content/help/fr-FR/analytics/components/metrics/unique-visitors.translate.html) est défini. Ceci risque de désordonner les données.
+* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](https://docs.adobe.com/content/help/fr-FR/analytics/components/metrics/unique-visitors.html) est défini. Ceci risque de désordonner les données.
 
 * Il est préférable de ne pas avoir recours aux horodatages dans les applications hybrides composées d’une application (données hors ligne horodatées) ouvrant un navigateur web (données en direct non horodatées). Il en résulterait des rapports de session inexacts.
 
