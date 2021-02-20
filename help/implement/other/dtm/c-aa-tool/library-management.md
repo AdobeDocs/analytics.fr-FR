@@ -1,13 +1,13 @@
 ---
 description: Description des champs et options des paramètres Gestion des bibliothèques dans Dynamic Tag Management.
-keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
+keywords: gestion des bibliothèques;code de page;charger une bibliothèque;géré par adobe;personnalisé;code hébergé;s_code hébergé
 solution: Experience Cloud
 title: Gestion des bibliothèques
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
