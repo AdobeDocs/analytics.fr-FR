@@ -1,9 +1,9 @@
 ---
 title: Accès tardifs
 description: Découvrez comment les flux de données traitent les accès tardifs.
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
 
