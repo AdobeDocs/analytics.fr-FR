@@ -1,14 +1,14 @@
 ---
 description: Table de recherche permettant de déterminer le type d’un accès d’après la valeur page_event.
-keywords: Data Feed;page;event;page_event;post_page_event
+keywords: Flux de données;page;événement;page_événement;post_page_événement
 title: Recherche d’événement de page
 topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 95%
 
 ---
 
