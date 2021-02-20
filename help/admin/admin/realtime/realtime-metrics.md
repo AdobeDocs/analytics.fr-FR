@@ -5,6 +5,9 @@ topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Répertorie les mesures et les dimensions prises en charge par les rapports Temps réel. Si vous les avez définies, les classifications sont également prises en charge.
 
-## Mesures prises en charge  {#section_514ED8B382494C47BFC0657894D1AF94}
+## Mesures prises en charge {#section_514ED8B382494C47BFC0657894D1AF94}
 
 * Recettes
 * Commandes
@@ -37,7 +40,7 @@ Répertorie les mesures et les dimensions prises en charge par les rapports Temp
 * Géosegmentation – Ville
 * DMA E.U. de géosegmentation
 * Product
-* Server (Serveur)
+* Serveur
 * Section du site
 * Code de suivi
 * Lien personnalisé
