@@ -7,7 +7,7 @@ uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
@@ -31,11 +31,11 @@ Par exemple, supposons qu’il existe une intégration dans la suite de rapports
 >
 >Les CSID ne sont pas utilisés dans la version 2.0 de l’intégration ; ainsi, le processus de négociation des CSID ne s’applique pas.
 
-## J’utilise la version 2.0 de l’intégration et les mesures de coûts ne s’affichent pas pour mes publicités DFA. Pourquoi ? {#section-805748111bbe4bbf918d6dbbb2641fff}
+## J’utilise la version 2.0 de l’intégration et les mesures de coûts ne s’affichent pas pour mes publicités DFA. Pourquoi ?  {#section-805748111bbe4bbf918d6dbbb2641fff}
 
 Les mesures de coûts doivent être activées côté DFA Google et spécifiées dans l’interface DFA, et être activées également dans l’assistant Data Connectors. Commencez par vérifier que vous avez mappé un événement Analytics pour le coût des médias DFA et que vous avez spécifié un code de devise. Si vous avez mappé l’événement Coût des médias, achevez et enregistrez l’assistant ; l’indicateur DFA omnitureCostData sera activé dans l’API DFA. Google saura ainsi que les mesures doivent être envoyées dans le fichier de nuit. Vous pouvez vérifier dans l’interface DFA qu’omnitureCostData est bien activé en observant les propriétés sur le serveur Floodlight intégré. Enfin, après avoir vérifié ces deux emplacements, vérifiez que les publicités qui font partie du serveur Floodlight intégré spécifient les données et les structures de coûts. Si les données de coûts ne sont pas spécifiées dans l’interface DFA, elles ne s’affichent pas dans Analytics.
 
-## Pourquoi certaines publicités ne présentent-elles aucune impression DFA ou affichage publicitaire, mais présentent des clics et des clics publicitaires ? {#section-39b2eeeefd7f43d1a373df0b987bacef}
+## Pourquoi certaines publicités ne présentent-elles aucune impression DFA ou affichage publicitaire, mais présentent des clics et des clics publicitaires ?  {#section-39b2eeeefd7f43d1a373df0b987bacef}
 
 Certaines publicités enregistrent uniquement les données de clics, appelées outils de suivi des clics. Ces types de publicités ne renvoient pas les dernières données d’impression issues de l’interrogation du serveur Floodlight. Pour vérifier si une certaine publicité est un outil de suivi des clics ou une publicité d’un clic seulement, contactez votre agence DFA ou votre représentant technique Google.
 
