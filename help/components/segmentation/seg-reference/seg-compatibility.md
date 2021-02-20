@@ -3,9 +3,9 @@ description: Tous les segments créés dans le Créateur de segments ne sont pas
 title: Compatibilité des segments avec Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -101,4 +101,4 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
  </tbody> 
 </table>
 
-*Remarque : Data Warehouse ne prend pas en charge tous les cas d’utilisation d’un conteneur`exclusion`ou`without`lors de l’utilisation de`AND/OR`. Lors de l’utilisation d’une telle combinaison, seuls les segments qui peuvent être réécrits en tant que `A AND NOT B` (ou **inclure cette caractéristique** et **exclure cette caractéristique**) sont pris en charge dans Data Warehouse.*
+*Remarque : Data Warehouse ne prend pas en charge tous les cas d’utilisation d’un conteneur `exclusion` ou `without` lors de l’utilisation de `AND/OR`. Lors de l’utilisation d’une telle combinaison, seuls les segments qui peuvent être réécrits en tant que `A AND NOT B` (ou **inclure cette caractéristique** et **exclure cette caractéristique**) sont pris en charge dans Data Warehouse.*
