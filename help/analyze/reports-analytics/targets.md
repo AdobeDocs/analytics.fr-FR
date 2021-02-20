@@ -5,6 +5,9 @@ topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 100%
 
 ---
 
@@ -21,11 +24,11 @@ Lorsque vous créez des cibles, vous sélectionnez quelles mesures d’attribut 
 
 Par exemple, il est possible de mesurer le nombre de visiteurs uniques de votre site web et d’utiliser cette valeur comme cible. Dans ce cas, choisissez la totalité du site web. Cependant, si vous souhaitez cibler le nombre de visiteurs uniques de votre site web venant de Chicago, vous pouvez spécifier cette eVar au lieu de surveiller la totalité de votre site.
 
-## Description des champs de cible  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## Description des champs de cible   {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Cibles]**.
 
-Description des champs et options de la [!UICONTROL Add/Edit Target] page.
+Vous trouverez ci-dessous une description des champs et des options de la page [!UICONTROL Ajouter/modifier une cible].
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -36,7 +39,7 @@ Description des champs et options de la [!UICONTROL Add/Edit Target] page.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Nom de la cible </td> 
+   <td colname="col1"> Target Nom </td> 
    <td colname="col2">Spécifie le nom de la cible affiché sur la page <span class="wintitle">Gestionnaire des cibles</span>. </td> 
   </tr> 
   <tr> 
@@ -72,14 +75,14 @@ t_add_a_target.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. Sur la [!UICONTROL Target Manager] page, cliquez sur **[!UICONTROL Add New]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Cibles]**.
+1. Sur la page [!UICONTROL Gestionnaire des cibles], cliquez sur **[!UICONTROL Ajouter nouveau]**.
 1. Configurez les options décrites dans la section [Description des champs de cible](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Cliquez sur **[!UICONTROL OK]**.
 
 ## Modification d’une cible {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Cibles]**.
+1. Dans la colonne **[!UICONTROL Gérer]**, cliquez sur l’icône **[!UICONTROL Modifier]**.
 1. Configurez les options décrites dans la section [Description des champs de cible](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Cliquez sur **[!UICONTROL OK]**.
