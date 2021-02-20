@@ -1,9 +1,9 @@
 ---
 title: Module Integrate
 description: Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
