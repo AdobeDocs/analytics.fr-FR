@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: Renseigner les termes de recherche interne à l’aide d’un paramètre de chaîne de requête
 topic: Admin tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
-translation-type: ht
-source-git-commit: 322e2e87ab532d5e8a864dc06613a9b275c71df5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 
