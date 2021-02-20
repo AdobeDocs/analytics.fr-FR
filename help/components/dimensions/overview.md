@@ -1,9 +1,9 @@
 ---
 title: Présentation des dimensions
 description: Variables contenant des valeurs de chaîne.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
 
