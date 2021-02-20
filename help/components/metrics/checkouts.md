@@ -1,9 +1,9 @@
 ---
 title: Achats
 description: Le nombre d’accès pendant lesquels un visiteur a démarré le processus de passage en caisse.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 100%
 
