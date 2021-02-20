@@ -30,7 +30,7 @@ Dans Analysis Workspace, il est possible de consulter ces données à l’aide d
 
 1. Cliquez sur l’icône Visualisations à gauche, puis faites glisser une visualisation des abandons sur l’espace de travail situé au-dessus du tableau à structure libre.
 2. Cliquez sur l’icône Composants à gauche, puis recherchez la dimension **Pages**.
-3. Cliquez sur l’icône en forme de flèche en regard de la dimension pages pour afficher les valeurs de page. Les éléments de dimension sont de couleur jaune.
+3. Cliquez sur l’icône en forme de flèche en regard de la dimension pages pour afficher les valeurs de page. Les éléments de Dimension sont de couleur jaune.
 4. Localisez la page souhaitée pour agir comme premier point de contact et faites-la glisser sur l’espace « Ajouter un point de contact » dans la visualisation.
 5. Continuez à ajouter les points de contact souhaités en faisant glisser les valeurs de page sur la visualisation.
 
