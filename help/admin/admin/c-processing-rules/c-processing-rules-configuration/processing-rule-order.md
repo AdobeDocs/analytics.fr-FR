@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: Ordre de traitement
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
