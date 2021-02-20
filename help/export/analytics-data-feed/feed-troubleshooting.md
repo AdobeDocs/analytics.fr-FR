@@ -1,13 +1,13 @@
 ---
 description: Cette section comprend des informations sur les problèmes courants.
-keywords: Data Feed;troubleshooting
+keywords: Flux de données ; résolution des problèmes
 title: Résolution des problèmes liés aux flux de données
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '938'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Si cette erreur survient, considérez les solutions suivantes :
 * Si possible, modifiez les dates
 * Si possible, modifiez la suite de rapports
 
-## Paramètre BucketOwnerFullControl pour les flux de données Amazon S3 {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Paramètre BucketOwnerFullControl pour les flux de données Amazon S3  {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
 Cas d’utilisation type d’Amazon S3 : le titulaire du compte AWS (Amazon Web Services) crée un compartiment, puis crée un utilisateur qui est autorisé à créer des objets dans ce compartiment, puis spécifie les informations d’identification pour cet utilisateur. Dans ce cas, les objets de l’utilisateur appartiennent au même compte et le titulaire du compte bénéficie implicitement du contrôle total de l’objet (lecture, suppression, etc.). Ceci fonctionne de la même manière que les remises par FTP.
 
@@ -54,7 +54,7 @@ Lors d’un changement d’heure STD > DST (« Bond en avant »), le client 
 
 Lors d’une transition DST > STD, (« Retour en arrière »), le client recevra 24 fichiers. Cependant, l’heure de transition contiendra l’équivalent de 2 heures de données. Par exemple, si le changement d’heure a lieu à 02h00, le fichier correspondant à 01h00 sera retardé d’une heure, mais il contiendra l’équivalent de deux heures de données ; entre 01h00 DST et 02h00 STD, qui aurait normalement été 03h00 DST. Le fichier suivant commencera à 02h00 STD.
 
-## Aucune donnée pour une tranche horaire {#section_72510794694D42A9A75C966B812AEB0F}
+## Aucune donnée pour une tranche horaire  {#section_72510794694D42A9A75C966B812AEB0F}
 
 Vous pouvez éventuellement configurer un fichier de données pour qu’il distribue un fichier de manifeste si aucune donnée n’est collectée pour une période spécifique. Si vous activez cette option, vous recevrez un fichier de manifeste semblable à ceci :
 
@@ -65,7 +65,7 @@ Datafeed-Manifest-Version: 1.0
  Total-Records: 0
 ```
 
-## Aucune information de domaine pour le rapport sur les domaines {#section_B7508D65370442C7A314EAED711A2C75}
+## Aucune information de domaine pour le rapport sur les domaines  {#section_B7508D65370442C7A314EAED711A2C75}
 
 Certains opérateurs mobiles (tels que T-Mobile et O1) ne fournissent plus d’informations sur les domaines pour les recherches DNS inversées. Par conséquent, ces données ne sont pas disponibles dans les rapports sur les domaines.
 
