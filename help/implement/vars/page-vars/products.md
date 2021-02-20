@@ -97,7 +97,7 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-Si vous utilisez la couche `digitalData` de [données, vous pouvez effectuer une itération dans le tableau](../../prepare/data-layer.md)`digitalData.product` d’objets :
+Si vous utilisez la couche de données `digitalData` [](../../prepare/data-layer.md), vous pouvez effectuer une itération dans le tableau d&#39;objets `digitalData.product` :
 
 ```js
 for(var i=0; i<digitalData.product.length; i++) {
