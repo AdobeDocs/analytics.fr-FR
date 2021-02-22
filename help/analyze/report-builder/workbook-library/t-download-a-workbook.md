@@ -24,7 +24,6 @@ Vous pouvez télécharger et modifier des classeurs partagés.
 >
 >* **Modifier** : télécharge et ouvre un classeur en vue de le modifier. Si vous souhaitez transférer un classeur téléchargé à des fins d’édition, vous devez effectuer cette opération manuellement.
 >* **Supprimer** : cette option permet de supprimer un classeur que vous avez transféré. Notez toutefois que cela n’est possible que si vous en êtes le propriétaire.
-
 >
 
 
