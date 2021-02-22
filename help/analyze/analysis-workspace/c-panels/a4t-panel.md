@@ -2,10 +2,10 @@
 description: Le panneau Analytics for Target (A4T) vous permet d’analyser vos activités et expériences Adobe Target dans Analysis Workspace.
 title: Panneau Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
+source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 86%
+source-wordcount: '1072'
+ht-degree: 82%
 
 ---
 
@@ -50,7 +50,7 @@ Chaque tableau à structure libre affiche les colonnes de mesures suivantes :
 | Effet élévateur (supérieur) | Représente le meilleur effet élévateur qu’une expérience de variante puisse avoir sur le contrôle, à un intervalle de confiance de 95 %.<br>Calcul : voir Effet élévateur (inférieur). |
 | Degré de confiance | Le test T calcule le degré de confiance, qui indique la probabilité selon laquelle les résultats seraient dupliqués si le test était exécuté à nouveau. Une plage de mise en forme conditionnelle fixe de 75 %/85 %/95 % a été appliquée à la mesure. Si nécessaire, cette mise en forme peut être personnalisée sous Paramètres de colonne. Remarque : le degré de confiance est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions.<br>Calcul : Appliquez un test en t à 2 tailles avec y+y_control-2 degrés de liberté pour trouver la p-value si x/y est égal à x_control/y_control. Calculez le score en t, où stderr est sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control). Renvoie 1-p comme la confiance qu’ils sont différents. |
 
-Comme pour n’importe quel panneau d’Analysis Workspace, vous pouvez continuer votre analyse en ajoutant des tableaux et [visualisations](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) supplémentaires qui vous aideront à analyser vos activités Adobe Target.
+Comme pour n’importe quel panneau d’Analysis Workspace, vous pouvez continuer votre analyse en ajoutant des tableaux et [visualisations](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) supplémentaires qui vous aideront à analyser vos activités Adobe Target. Vous pouvez également appliquer un segment au niveau du panneau ou dans le tableau à structure libre. Notez que si vous l’ajoutez dans le tableau à structure libre, vous devez le superposer sur l’ensemble du tableau pour conserver les calculs d’effet élévateur et de fiabilité. Pour le moment, les segments au niveau des colonnes ne sont pas pris en charge.
 
 ## Questions fréquentes {#FAQ}
 
