@@ -2,10 +2,10 @@
 description: Le panneau Analytics for Target (A4T) vous permet d’analyser vos activités et expériences Adobe Target dans Analysis Workspace.
 title: Panneau Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
+source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 82%
+source-wordcount: '1103'
+ht-degree: 78%
 
 ---
 
@@ -62,6 +62,6 @@ Comme pour n’importe quel panneau d’Analysis Workspace, vous pouvez continue
 | Pourquoi des expériences sans rapport sont-elles renvoyées lorsque j’applique un segment d’accès pour une activité Target spécifique dans mon analyse ? | La dimension A4T est une variable de liste, ce qui signifie qu’elle peut contenir de nombreuses activités (et expériences) en même temps. [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | La mesure de degré de confiance tient-elle compte des commandes extrêmes ou applique-t-elle une correction de Bonferroni pour plusieurs offres ? | Non. [En savoir plus](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sur la façon dont Analytics calcule le degré de confiance. |
 | Les mesures Effet élévateur et Degré de confiance peuvent-elles être utilisées avec d’autres dimensions ou ventilations ? | L’effet élévateur et le degré de confiance sont des « mesures verrouillées » des expériences Target, car ils nécessitent un contrôle et une variante pour effectuer les calculs. Ils ne peuvent donc pas être ventilés ou utilisés avec d’autres dimensions. |
-| Quand l’effet élévateur et le degré de confiance sont-ils recalculés ? | L’effet élévateur et le degré confiance sont recalculés chaque fois que le panneau est exécuté (ou exécuté à nouveau), que la plage de dates du panneau est modifiée ou qu’un segment est appliqué au panneau ou au tableau. |
+| Quand l’effet élévateur et le degré de confiance sont-ils recalculés ? | L’effet élévateur et le degré de confiance recalculent chaque fois que le panneau est exécuté (ou réexécuté), que la plage de dates du panneau change ou qu’un segment est appliqué au panneau ou au tableau. Lors de l’application d’un filtre de segment au tableau à structure libre, il doit être appliqué à toutes les colonnes, sinon l’effet élévateur et la confiance ne seront pas mis à jour correctement. Pour le moment, les segments au niveau des colonnes ne sont pas pris en charge. |
 
 Pour plus d’informations sur les rapports Analytics for Target, consultez [Rapports A4T](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/a4t/reporting.html).
