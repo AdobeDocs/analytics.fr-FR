@@ -1,12 +1,11 @@
 ---
-description: Dans Analysis Workspace, la détection des anomalies applique différentes techniques statistiques avancées afin de déterminer si une observation doit être considérée comme anormale.
+description: Les incohérences des données peuvent causer de gros problèmes. Découvrez comment identifier les anomalies statistiques à l’aide des techniques de détection des anomalies de l’Adobe. Commencez aujourd'hui.
 title: Techniques statistiques de la détection des anomalies
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 100%
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
