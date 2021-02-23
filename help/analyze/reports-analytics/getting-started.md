@@ -1,23 +1,20 @@
 ---
 description: Avant d’utiliser Reports and Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
-subtopic: Get started
 title: Prise en main de Reports and Analytics
-topic: Reports and analytics
-uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '701'
+ht-degree: 98%
 
 ---
 
 
-# Prise en main de Reports &amp; Analytics
+# Prise en main des rapports et analyses
 
 Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 
-Les rapports fournissent des informations sur vos canaux web classiques, ainsi que sur l’évolution des canaux tels que les réseaux mobiles, vidéo et sociaux. Voici quelques exemples de rapports marketing :
+Les rapports fournissent des informations sur vos canaux web classiques, ainsi que sur l’évolution des canaux tels que les réseaux mobiles, vidéo et sociaux. Voici quelques exemples de rapports 
 
 * Nombre de visiteurs sur votre site
 * Nombre de ces visiteurs qui sont uniques (comptabilisés une seule fois)
@@ -91,39 +88,12 @@ Cliquez sur l’icône Compte ![](assets/account.png) en haut à droite, puis 
 
 Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte]. Les informations suivantes peuvent être modifiées ou affichées :
 
-<table id="table_58F5D292485F45F9902B372E4E1E3103"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type d’informations </th> 
-   <th colname="col2" class="entry"> Définition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <p>Contact </p> </td> 
-   <td> <p>Précisez les informations personnelles suivantes pour votre compte : </p> 
-    <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
-     <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">Prénom (requis) </li> 
-     <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">Nom (requis) </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">Titre </li> 
-     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">Adresse de courriel (requis) </li> 
-     <li id="li_B764239241CE4F1CA74F77D796E7AB1D">Numéro de téléphone </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Connexion </p> </td> 
-   <td> <p>Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. </p> <p>Voir également : <a href="https://helpx.adobe.com/fr/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Comment réinitialiser le mot de passe du compte Reports &amp; Analytics</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Service web </p> </td> 
-   <td> <p>Affiche le nom d’utilisateur des services web et le secret partagé associé à ce compte. Utilisez ces informations d’identification lorsque vous accédez à Experience Cloud par l’intermédiaire des API de services web. Pour plus d’informations, consultez le site <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>. </p> <p> <p>Remarque : ces informations s’affichent uniquement si le compte est autorisé en tant qu’utilisateur de services web. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> Exclure cet ordinateur </p> </td> 
-   <td> <p>Applique un cookie sur l’ordinateur actuel afin de l’exclure de la collecte de données. Ceci s’avère utile si vous ne souhaitez pas que vos activités en ligne affectent les décomptes de pages vues et de visiteurs dans votre domaine. </p> <p> <p>Remarque : pour utiliser cette fonctionnalité, les cookies doivent être activés dans votre navigateur. Si vous supprimez les cookies sur votre ordinateur, vous devez réinitialiser à nouveau le cookie d’exclusion. </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Type d’informations | Définition |
+| --- | --- |
+| Contact | Précisez les informations personnelles suivantes pour votre compte :<ul><li>Prénom (requis)</li><li>Nom (requis)</li><li>Titre</li><li>Adresse de courriel (requis)</li><li>Numéro de téléphone</li></ul> |
+| Connexion | Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. Voir également : [Comment réinitialiser le mot de passe du compte Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en). |
+| Service web | Affiche le nom d’utilisateur des services web et le secret partagé associé à ce compte. Utilisez ces informations d’identification lorsque vous accédez à Experience Cloud par l’intermédiaire des API de services web. Pour plus d’informations, consultez le site Developer Connection. **Remarque :** Ces informations s’affichent uniquement si le compte est autorisé en tant qu’utilisateur de services web. |
+| Exclure cet ordinateur | Applique un cookie sur l’ordinateur actuel afin de l’exclure de la collecte de données. Ceci s’avère utile si vous ne souhaitez pas que vos activités en ligne affectent les décomptes de pages vues et de visiteurs dans votre domaine. **Remarque :** Pour utiliser cette fonctionnalité, les cookies doivent être activés dans votre navigateur. Si vous supprimez les cookies sur votre ordinateur, vous devez réinitialiser à nouveau le cookie d’exclusion. |
 
 ## Modification de la langue de l’interface
 
