@@ -1,9 +1,9 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+source-wordcount: '647'
+ht-degree: 97%
 
 ---
 # Autorisations de profil de produits pour les outils de Report Suite
@@ -62,4 +62,4 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Petit rapport récapitulatif de l’utilisation | Inutilisé. |
 | Ressources web | Inutilisé. |
 | Social | Inutilisé. |
-| API de réparation des données | Accorde l’accès à l’API Data Repair (version ultérieure) |
+| API de réparation des données | Accorde l&#39;accès à l&#39;API de réparation des données |
