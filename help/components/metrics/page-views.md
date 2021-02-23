@@ -1,16 +1,16 @@
 ---
-title: Pages vues
-description: Nombre de fois où une page a été consultée.
+title: 'Mesure Vues de page expliquée | Adobe Analytics '
+description: Découvrez comment la mesure vues de page est traitée dans Adobe Analytics et comprenez également la différence entre les vues de page et les visites.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 80%
 
 ---
 
 
-# Pages vues
+# En savoir plus sur les Vues de pages avec Adobe Analytics
 
 La mesure « Pages vues » indique le nombre de fois où un élément de dimension donné a été défini ou conservé sur une page. Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
 
