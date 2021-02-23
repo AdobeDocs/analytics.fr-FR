@@ -1,16 +1,16 @@
 ---
-title: Qu’est-ce que l’analyse des cohortes ?
-description: En savoir plus sur l’analyse des cohortes dans Analysis Workspace
+title: Qu'est-ce que l'Analyse de cohorte et comment fonctionne-t-elle ?
+description: Analysez plus précisément les données qui entourent votre audience et divisez-les en groupes apparentés avec l'Analyse de cohorte. En savoir plus sur l’analyse des cohortes dans Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '492'
+ht-degree: 90%
 
 ---
 
 
-# Qu’est-ce que l’[!UICONTROL analyse des cohortes] ?
+# Découvrez [!UICONTROL Analyse de cohortes] dans Adobe Analytics
 
 Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’[!UICONTROL analyse des cohortes] s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Vous trouverez des explications sur l’[!UICONTROL analyse des cohortes] sur le Web, tel le cours [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis) (en anglais).)
 
