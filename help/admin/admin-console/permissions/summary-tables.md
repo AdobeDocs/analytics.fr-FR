@@ -2,9 +2,9 @@
 title: Autorisations Adobe Analytics - tableaux récapitulatifs
 description: Tableaux qui résument les autorisations Adobe Analytics disponibles dans le Admin Console.
 translation-type: tm+mt
-source-git-commit: 5c300548b9677c7ffe21fa66b4b7c9859179ff8e
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1255'
 ht-degree: 94%
 
 ---
@@ -25,7 +25,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Coûts | x |  |  |  | Accorde l’accès à Canaux marketing > Coûts de canal marketing dans le Gestionnaire de suites de rapports. |
 | Calendrier personnalisé | x |  |  |  | Accorde l’accès à Général > Personnaliser le calendrier dans le Gestionnaire de suites de rapports. |
 | Gestionnaire des flux de données | x |  |  |  | Accorde l’accès à Admin > Flux de données dans la barre de navigation supérieure d’Analytics. |
-| API de réparation des données | x |  |  |  | Nouveau (en version bêta) - Accorde l&#39;accès à l&#39;API de réparation des données |
+| API de réparation des données | x |  |  |  | Accorde l&#39;accès à l&#39;API de réparation des données |
 | Gestionnaire des sources de données | x |  |  |  | Accorde l’accès à Admin > Sources de données dans le volet de navigation supérieur d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
 | Mesures par défaut | x |  |  |  | Accorde l’accès à Paramètres d’une suite de rapports spécifique > Mesures par défaut dans le Gestionnaire de suites de rapports. |
 | Exclure par adresse IP | x |  |  |  | Accorde l’accès à Admin > Exclure par IP dans le volet de navigation supérieur d’Analytics. |
