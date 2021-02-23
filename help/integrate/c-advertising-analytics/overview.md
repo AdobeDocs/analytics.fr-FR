@@ -1,17 +1,16 @@
 ---
-description: valeur nulle
-title: Advertising Analytics - Aperçu
-uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
+description: Découvrez tout ce que vous pouvez faire avec Advertising Analytics dans ce guide détaillé, y compris les autorisations requises et les dimensions et mesures disponibles.
+title: Un guide pour l'Advertising Analytics
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
 
-# Advertising Analytics - Aperçu
+# Un guide pour l&#39;Advertising Analytics
 
 Advertising Analytics permet d’afficher toutes vos données de référencement payant Google et Bing côte à côte dans Adobe Analytics. Auparavant, toutes les données Google AdWords/DFA ou Microsoft Bing Ads devaient être affichées dans Adobe Advertising Cloud (AMO) ou dans Google/Bing. Vous obtiendrez maintenant les données suivantes dans Adobe Analytics : Impressions, Clics, Coûts, Note de qualité et Position moyenne directement à partir des moteurs de recherche ainsi que les Instances AMO ID (cliquez sur Instances).
 
