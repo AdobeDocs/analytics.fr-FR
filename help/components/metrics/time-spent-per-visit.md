@@ -2,7 +2,7 @@
 title: Durée de la visite
 description: Durée de la visite pour l’élément de dimension.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: dc5c51f68ab22bd4f1368aa0656c66ee53d99103
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Cette mesure n’est pas disponible dans Data Warehouse en raison de sa différe
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure utilise la formule [`Total seconds spent`](total-seconds-spent.md) `divided by` ([`Visits`](visits.md) `minus` [`Bounces`](bounces.md)).
+Cette mesure utilise la formule [`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)`.
 
 ## Comparaison avec « Temps moyen passé sur le site »
 
