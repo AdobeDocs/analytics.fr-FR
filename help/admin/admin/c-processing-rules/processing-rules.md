@@ -2,13 +2,13 @@
 description: Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports.
 subtopic: Processing rules
 title: Règles de traitement - Aperçu
-topic: Admin tools
+topic: Outils d’administration
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 80%
+source-wordcount: '396'
+ht-degree: 68%
 
 ---
 
@@ -40,9 +40,19 @@ Les administrateurs ont le droit d&#39;utiliser les règles de traitement **par 
 
 Les variables de données contextuelles sont un type de variable disponible uniquement pour les règles de traitement. Pour utiliser les variables de données contextuelles, des paires de données clé/valeur sont envoyées par votre implémentation et les règles de traitement sont utilisées pour capturer ces valeurs dans des variables Analytics standard. De ce fait, les programmeurs ne doivent plus obligatoirement connaître la valeur contenue dans une variable prop et/ou eVar.
 
-![](assets/evar-context-map.png)
+```js
+s.contextData['author'] = "Robert Munch";
+s.contextData['section'] = "Books";
+s.contextData['genre'] = "Youth";
+```
 
-Reportez-vous à la rubrique [Variables Données contextuelles](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/contextdata.html) dans l’aide d’implémentation.
+Une fois le code défini, vous pouvez définir des règles de traitement pour affecter des valeurs à des variables. Par exemple :
+
+1. Faire correspondre `author` à `eVar2`
+2. Faire correspondre `section` à `prop1` et `eVar3`
+3. Si `author` et `section` existent, définissez `event5`
+
+Pour plus d’informations, voir [contextData](/help/implement/vars/page-vars/contextdata.md) dans le guide de l’utilisateur Mise en oeuvre.
 
 ## Utiliser des règles de traitement pour transformer des données d’accès et des événements de déclenchement  {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -52,4 +62,4 @@ Les règles de traitement peuvent contrôler les valeurs entrantes afin de trans
 
 Lorsque les variables de données contextuelles ont été définies dans votre implémentation, elles doivent être copiées dans des variables telles que des eVar pour être utilisées dans les rapports.
 
-Pour plus d’informations, accédez [ici](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) et [ici](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
+Voir [Copier une variable de données contextuelles dans un eVar](processing-rules-examples/processing-rules-copy-context-data.md) et [Définir un événement à l’aide d’une variable de données contextuelles](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md) pour plus d’informations.
