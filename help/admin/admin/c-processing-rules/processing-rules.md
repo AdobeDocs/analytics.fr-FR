@@ -5,7 +5,7 @@ title: Règles de traitement - Aperçu
 topic: Outils d’administration
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
@@ -62,4 +62,4 @@ Les règles de traitement peuvent contrôler les valeurs entrantes afin de trans
 
 Lorsque les variables de données contextuelles ont été définies dans votre implémentation, elles doivent être copiées dans des variables telles que des eVar pour être utilisées dans les rapports.
 
-Voir [Copier une variable de données contextuelles dans un eVar](processing-rules-examples/processing-rules-copy-context-data.md) et [Définir un événement à l’aide d’une variable de données contextuelles](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md) pour plus d’informations.
+Voir [Copier une variable de données contextuelles dans un eVar](processing-rules-examples/processing-rules-copy-context-data.md) et [Définir un événement à l’aide d’une variable de données contextuelles](processing-rules-examples/processing-rules-copy-context-data-event.md) pour plus d’informations.
