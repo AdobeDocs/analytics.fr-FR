@@ -5,10 +5,10 @@ user-guide-title: Guide d’administration Analytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez comment gérer les utilisateurs et les produits dans Experience Cloud Admin Console, comment configurer des suites de rapports, et bien plus encore.
 translation-type: tm+mt
-source-git-commit: 35f0f3fb9a349b7fceb035be771ee462ec0799aa
+source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 95%
+source-wordcount: '734'
+ht-degree: 96%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 95%
       + [Personnalisation des autorisations liées aux dimensions](user-management2/c-customize-report-access/groups-dimensions.md)
    + [Envoyer un courrier électronique aux utilisateurs](user-management2/t-email-users.md)
 + Gouvernance des données {#data-governance}
-   + [Aperçu de l&#39;Adobe Analytics et du RGPD](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics et le Règlement général sur la protection des données (RGPD)](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics et le CCPA](c-data-governance/an-ccpa-overview.md)
    + [Exonération du consentement CNIL](c-data-governance/cnil-consent-exemption.md)
    + [Questions fréquentes](c-data-governance/gdpr-faq.md)
