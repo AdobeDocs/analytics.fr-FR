@@ -3,10 +3,10 @@ description: Les suites de rapports virtuelles segmentent les données Adobe An
 title: Suites de rapports virtuelles - Aperçu
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '789'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Les suites de rapports virtuelles comportent les limites suivantes :
 | Fonctionnalité | Suite de rapports virtuelle | Balisage multi-suite |
 |--- |--- |--- |
 | Offre des rapports en temps réel ou de données actives | Non | Oui |
-| Fonctionne dans tous les outils d’Analytics (Analysis Workspace, Report Builder, Ad Hoc Analysis, etc.) | Oui.   Remarque : Vous pouvez modifier et identifier une suite de rapports virtuelle en tant que telle dans les Reports &amp; Analytics uniquement. Vous pouvez toutefois sélectionner des suites de rapports virtuelles dans les menus déroulants des suites de rapports dans d’autres outils. | Oui |
+| Fonctionne dans tous les outils Analytics (Analysis Workspace, Report Builder, etc.) | Oui. **Remarque :** Vous pouvez modifier et identifier une suite de rapports virtuelle en tant que telle dans les Reports &amp; Analytics uniquement. Vous pouvez toutefois sélectionner des suites de rapports virtuelles dans les menus déroulants des suites de rapports dans d’autres outils. | Oui |
 | Peut télécharger des données vers celle-ci (par le biais des classifications, des flux de données, etc.) | Non | Oui |
 | Prend en charge la création de rapports, de signets, de tableaux de bord, de cibles, d’alertes, de segments, de mesures calculées, etc. | Oui | Oui |
 | Peut être séparément ajoutée à des groupes d’autorisations | Oui | Oui |
