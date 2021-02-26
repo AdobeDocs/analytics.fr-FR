@@ -4,10 +4,10 @@ title: Compatibilité des segments avec Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '343'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis </th> 
+   <th> Analysis Workspace, rapports et analyses </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
   </tr> 
   <tr> 
    <td> <b>Dimensions</b> </td> 
-   <td>Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, les dimensions suivantes ne sont prises en charge que dans les Analysis Workspace, les Reports &amp; Analytics et les Ad Hoc Analysis : 
+   <td>Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, ces dimensions sont prises en charge uniquement dans Analysis Workspace, Reports &amp; Analytics : 
     <ul> 
      <li>Serveur d’accès </li> 
      <li>Catégorie d’accès </li> 
