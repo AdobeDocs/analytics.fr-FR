@@ -4,9 +4,9 @@ title: Workflow de segmentation - Aperçu
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Voir [Créer des segments séquentiels](/help/components/segmentation/segmentati
 
 ![](assets/step3_icon.png) [ Balisage des segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-Marquez les segments pour faciliter l’organisation et le partage. Le marquage remplace les hiérarchies de dossiers dans les analyses ad hoc. Apprenez à planifier et affecter des balises pour des recherches simples et avancées et pour l’entreprise.
+Marquez les segments pour faciliter l’organisation et le partage. Apprenez à planifier et affecter des balises pour des recherches simples et avancées et pour l’entreprise.
 
 ![](assets/step4_icon.png) [ Approbation des segments](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 
