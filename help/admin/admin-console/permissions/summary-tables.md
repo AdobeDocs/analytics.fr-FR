@@ -2,10 +2,10 @@
 title: Autorisations dʼAdobe Analytics - tableaux récapitulatifs
 description: Tableaux qui résument les autorisations disponibles pour Adobe Analytics dans Admin Console.
 translation-type: tm+mt
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 99%
+source-wordcount: '1243'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Gestion du trafic | x |  |  |  | Accorde l’accès à Admin > Gestion du trafic. |
 | Services web | x |  |  |  | Accorde l’accès à Admin > Paramètres de la société > Services web. |
 | Activity Map |  | x |  |  | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
-| Utilisateurs de la licence d’Ad Hoc Analysis |  | x |  |  | Active le bouton de téléchargement sous Outils > Ad Hoc Analysis et permet à l’utilisateur de s’authentifier à l’aide de l’outil. [Plus d’informations](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Utilisateurs de la licence d’Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis est en fin de vie. [Plus d’informations](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Accès à Analysis Workspace |  | x |  |  | Octroie l’accès à Analysis Workspace. Les utilisateurs doivent appartenir à ce groupe (préféré) ou disposer d’un accès aux Reports &amp; Analytics pour utiliser Adobe Analytics. |
 | Analysis Workspace : enregistrer comme modèle |  | x |  |  | Accorde l’accès à Projet > Enregistrer comme modèle dans Analysis Workspace. |
 | Création de mesure calculée |  | x |  |  | Permet de créer des mesures calculées pour toutes les fonctionnalités d’Analytics. |
