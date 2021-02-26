@@ -4,10 +4,10 @@ title: Questions fréquentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 100%
+source-wordcount: '2074'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,8 @@ Répond aux questions fréquemment posées sur les fonctionnalités de segmentat
 * Les segments fonctionnent dans toutes les suites de rapports.
 * Le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifie la création de segments.
 * Le [gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) permet de configurer des [processus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour le partage, le marquage, la vérification et l’approbation des segments.
-
-* Vous pouvez [marquer les segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers. Par le passé, vous utilisiez des dossiers (dans les [!DNL Ad Hoc Analysis]) pour organiser vos segments.
-
-* Vous pouvez créer des [segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) en dehors des Ad Hoc Analysis.
+* Vous pouvez [marquer les segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers.
+* Vous pouvez créer des [segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * Le conteneur Page vue a été renommé en conteneur Accès pour indiquer qu’il segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès. Notez qu’aucune modification n’a été apportée au fonctionnement de ce conteneur, il a simplement été renommé.
 
 Voir l’article [Amélioration de la segmentation dans Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) sur le blog de Digital Marketing pour en savoir plus.
@@ -88,11 +86,11 @@ Ad Hoc Analyics et Report Builder affichent les segments que vous possédez et l
 
 **Puis-je gérer tous les segments Analytics dans le Gestionnaire de segments ?**
 
-Oui, vous pouvez gérer tous les segments dans le Gestionnaire de segments dans Analysis Workspace, dans les Reports &amp; Analytics et dans les analyses ad hoc. Le Gestionnaire de segments affiche des segments que le propriétaire (utilisateur qui a créé le segment), les utilisateurs partagés et les administrateurs peuvent consulter. Le sélecteur de segments affiche les segments possédés par l’utilisateur et partagés avec ce dernier.
+Oui, tous les segments peuvent être gérés dans le Gestionnaire de segments. Le Gestionnaire de segments affiche des segments que le propriétaire (utilisateur qui a créé le segment), les utilisateurs partagés et les administrateurs peuvent consulter. Le sélecteur de segments affiche les segments possédés par l’utilisateur et partagés avec ce dernier.
 
 Les administrateurs peuvent voir tous les segments dans les interfaces utilisateur d’Analysis Workspace et d’[!DNL Reports & Analytics].
 
-Ad Hoc Analysis et Report Builder affichent uniquement les segments que vous avez créés ou les segments qui ont été partagés avec vous.
+Le Report Builder affiche uniquement les segments que vous avez créés ou ceux qui ont été partagés avec vous.
 
 **Pourquoi ne puis-je pas supprimer ce segment ?**
 
@@ -125,10 +123,6 @@ Les modèles de segments sont marqués par une icône spéciale dans le Créateu
 
 ![](assets/seg_templates.png)
 
-**Qu’est-il advenu de mes dossiers de segments existants ?**
-
-À la place des dossiers (Ad Hoc Analysis), le Gestionnaire de segments utilise des balises. Les noms de dossiers sont automatiquement convertis en balises et ces balises sont appliquées aux segments respectifs.
-
 **Qu’est-il advenu des rapports planifiés auxquels des segments avaient été appliqués ?**
 
 Les rapports planifiés continuent de fonctionner correctement avec les segments que vous avez définis.
@@ -143,15 +137,9 @@ Vous êtes doté d’un signet qui référence le segment pour la suite de rappo
 
 **Qu’advient-il des segments Data Warehouse ?**
 
-Tous les segments Data Warehouse existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments de Data Warehouse fonctionneront également dans d’autres composants tels qu’Analysis Workspace, Les Ad Hoc Analysis et les Reports &amp; Analytics.
+Tous les segments Data Warehouse existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments de Data Warehouse fonctionneront également dans d’autres composants tels que Analysis Workspace et les rapports et analyses.
 
 Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du Créateur de segments détermine automatiquement si un segment est compatible avec Data Warehouse.
-
-**Qu’advient-il des segments favoris (analyses ad hoc) ?**
-
-Ces segments des analyses ad hoc s’affichent sous forme de segments standard dans Adobe Analytics.
-
-Ils ne doivent pas être confondus avec la fonctionnalité Favoris du Gestionnaire de segments qui permet de marquer les segments comme favoris.
 
 **Qu’advient-il des segments préconfigurés ?**
 
@@ -161,9 +149,7 @@ Ils ne doivent pas être confondus avec la fonctionnalité Favoris du Gestionnai
 * **Visites d’une recherche payante**
 * **Visites avec cookie d’identifiant visiteur**
 
-Ces segments seront migrés sous forme de modèles de segments dans le Créateur de segments.
-
-Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
+Ces segments seront migrés sous forme de modèles de segments dans le Créateur de segments. Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
 
 **Qu’advient-il des segments Experience Cloud (Suite) ?**
 
