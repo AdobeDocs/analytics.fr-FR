@@ -1,13 +1,13 @@
 ---
 description: Avec cette fonction, vous pouvez personnaliser les menus des rapports auxquels les utilisateurs auront accès dans les Reports & Analytics. Vous pouvez afficher ou masquer des rapports, ainsi que les déplacer dans différents dossiers parmi tous les utilisateurs. Cette fonctionnalité se révèle particulièrement utile si votre entreprise utilise uniquement certains rapports et ne souhaite pas encombrer le menu de gauche avec des données inusitées ou superflues.
 title: Personnalisation des menus
-topic: Admin tools
+topic: Outils d’administration
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Les modifications apportées au menu s’appliquent à tous les utilisateurs qui
 
 >[!NOTE]
 >
->Les changements apportés à la structure de menus n’ont aucune incidence sur le Report Builder et Ad Hoc Analysis. En revanche, le changement du nom d’un rapport se répercute dans les deux outils.
+>Toute modification de la structure de menus n&#39;affecte pas le Report Builder. Le changement du nom d’un rapport est toutefois pris en compte dans cet outil.
 
 ## Descriptions de la personnalisation des menus {#section_B0D224DACB914A378902A4E0E1234889}
 
