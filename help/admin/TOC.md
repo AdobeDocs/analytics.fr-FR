@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -111,9 +111,9 @@ ht-degree: 96%
 + Analytics dans Adobe Admin Console {#admin-console}
    + [Analytics dans Adobe Admin Console](admin-console/home.md)
    + Autorisations {#permissions}
-      + [Autorisations Analytics dans le Admin Console](admin-console/permissions/summary-tables.md)
-      + [Profils de produits pour Adobe Analytics](admin-console/permissions/product-profile.md)
-      + [Autorisations de profil de produits pour les outils de Report Suite](admin-console/permissions/report-suite-tools.md)
+      + [Autorisations Analytics dans Admin Console](admin-console/permissions/summary-tables.md)
+      + [Profils de produit pour Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Autorisations du profil de produit pour les outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
       + [Autorisations du profil de produits pour les outils Analytics](admin-console/permissions/analytics-tools.md)
    + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
 + Paramètres de l’entreprise {#company-settings}
