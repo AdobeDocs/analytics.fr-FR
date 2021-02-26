@@ -3,10 +3,10 @@ description: Les modifications suivantes apportées à la manière dont les mesu
 title: Questions fréquentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2148'
-ht-degree: 100%
+source-wordcount: '2055'
+ht-degree: 98%
 
 ---
 
@@ -46,8 +46,6 @@ Les modifications suivantes apportées à la manière dont les mesures calculée
 [Pourquoi mes mesures calculées ne s’affichent-elles pas dans le rapport Canaux marketing ?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [Pourquoi certaines des mesures calculées affichent-elles des formules sans les parenthèses que j’ai ajoutées ?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
-
-[(Ad Hoc Analysis uniquement) Les mesures calculées avec des définitions de segment incorporées ou insérées sont-elles toujours prises en charge ?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
 [(Report Builder uniquement) Pourquoi les mesures calculées ont-elles disparu de mes demandes ?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
@@ -120,7 +118,7 @@ Les mesures calculées globales ne peuvent plus être partagées au sein des soc
 
 Désormais, les mesures calculées avec une classification numérique ou numérique2 continueront à être visibles dans les [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] et les API. Néanmoins, elles ne seront pas prises en charge dans un rapport avec un segment appliqué.
 
-En outre, les mesures calculées avec une classification numérique ou numérique2 ne seront pas prises en charge dans les composants suivants : [!UICONTROL Ad Hoc Analysis], [!UICONTROL Analysis Workspace], rapports en [!UICONTROL temps réel], [!UICONTROL détection des anomalies] et [!UICONTROL analyse des contributions]. Lorsque vous créez ou modifiez une mesure calculée avec une classification numérique ou numérique2, un avertissement de compatibilité s’affiche indiquant que la mesure calculée n’est pas compatible avec certaines zones du produit.
+En outre, les mesures calculées avec une classification numérique ou numérique 2 ne seront pas prises en charge dans les composants suivants : [!UICONTROL Analysis Workspace], [!UICONTROL Rapports en temps réel], [!UICONTROL Détection des anomalies] et [!UICONTROL Analyse des contributions]. Lorsque vous créez ou modifiez une mesure calculée avec une classification numérique ou numérique2, un avertissement de compatibilité s’affiche indiquant que la mesure calculée n’est pas compatible avec certaines zones du produit.
 
 **Ce que vous devez faire**
 
@@ -183,14 +181,6 @@ Désormais, seules les mesures calculées dont le type d’allocation est spéci
 ## Pourquoi certaines des mesures calculées affichent-elles des formules sans les parenthèses que j’ai ajoutées ? {#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
 Au cours de la migration, Adobe a éliminé les parenthèses superflues de certaines formules. Seules les parenthèses qui n’affectent pas la manière dont la mesure est calculée ont été supprimées. Cela ne modifie pas les données, mais simplifie juste la formule.
-
-## (Ad Hoc Analysis uniquement) Les mesures calculées avec des définitions de segment incorporées ou insérées sont-elles toujours prises en charge ? {#section_B25C924A282F49388AB604E3D826F44C}
-
-Les mesures calculées créées dans les Ad Hoc Analysis pouvaient antérieurement comporter des définitions de segment insérées. Cela n’est plus possible.
-
-**Ce que vous devez faire**
-
-Vous devez enregistrer explicitement le segment. Les mesures calculées existantes avec des définitions de segment insérées continuent à s’exécuter correctement et peuvent être visualisées dans les Ad Hoc Analysis mais elles ne peuvent pas être enregistrées sans enregistrer explicitement le segment.
 
 ## (Report Builder uniquement) Pourquoi les mesures calculées ont-elles disparu de mes demandes ? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
