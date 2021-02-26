@@ -3,12 +3,12 @@ description: Activez les autorisations d’utilisateurs pour les éléments gén
 keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Personnalisation des autorisations liées aux outils Analytics
-topic: Admin tools
+topic: Outils d’administration
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ Les paramètres sur cette page se rapportent aux suites de rapports sélectionn�
 | [Masquage des suites de rapports](/help/admin/company/c-hide-report-suites.md) | Permet d’autoriser le masquage des suites de rapports dans l’interface utilisateur d’Adobe Analytics. |
 | **Outils** | Ces paramètres donnent accès aux outils Analytics (interfaces et applications) et aux fonctionnalités avancées telles que la segmentation et les mesures calculées. |
 | [Données actives](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/current-data.html) | Permet d’autoriser l’utilisation de la fonction Données actives dans les rapports. |
-| Utilisateurs de la licence [d’Ad Hoc Analysis](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | Octroie l’autorisation d’accéder aux [!UICONTROL Ad Hoc Analysis]. |
 | Accès aux services Web | Permet aux non-administrateurs d’accéder aux services web. Génère les informations de connexion des services web. |
 | [Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Octroie aux membres de ce groupe un accès aux licences du [!UICONTROL Report Builder]. |
 | Accès à [Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html) | Octroie aux utilisateurs un accès à Analysis Workspace, l’interface de création de rapports recommandée pour [!DNL Adobe Analytics]. |
