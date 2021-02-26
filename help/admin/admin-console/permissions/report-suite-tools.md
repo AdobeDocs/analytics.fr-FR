@@ -3,10 +3,10 @@ source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 translation-type: tm+mt
 source-wordcount: '647'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
-# Autorisations de profil de produits pour les outils de Report Suite
+# Autorisations du profil de produit pour les outils de suites de rapports
 
 Utilisez cette page pour comprendre chaque élément d’autorisation sous Outils de suite de rapports.
 
@@ -35,7 +35,7 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Variables de liste | Accorde l’accès à Conversion > Variables de liste dans le Gestionnaire de suites de rapports. |
 | Mesures par défaut | Accorde l’accès à Paramètres d’une suite de rapports spécifique > Mesures par défaut dans le Gestionnaire de suites de rapports. |
 | Règles de traitement | Accorde l’accès à Général > Règles de traitement et à Général > Règles de robots dans le Gestionnaire de suites de rapports. |
-| Configuration des Advertising Analytics | Inutilisé. |
+| Configuration Advertising Analytics | Inutilisé. |
 | Détection des anomalies | Accorde l’accès à Détection des anomalies dans Analysis Workspace. |
 | Analyse des contributions | Accorde l’accès au menu contextuel « Exécuter l’analyse des contributions » dans Analysis Workspace. |
 | Rapport Canal | Accorde l’accès à Canaux marketing > Rapport Aperçu d’un canal dans Reports &amp; Analytics. |
