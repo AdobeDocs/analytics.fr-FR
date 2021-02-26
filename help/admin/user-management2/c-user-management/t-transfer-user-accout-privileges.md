@@ -2,12 +2,12 @@
 description: Étapes décrivant de quelle façon attribuer des éléments de compte d’utilisateur (tableaux de bord, mesures calculées, événements de calendrier, alertes, signets, segments, projets Analysis Workspace et projets programmés) d’un compte d’utilisateur à un autre.
 subtopic: Users and groups
 title: Transfert des éléments d’un compte d’utilisateur
-topic: Admin tools
+topic: Outils d’administration
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -30,8 +30,3 @@ ht-degree: 100%
 1. Cliquez sur **[!UICONTROL OK]** pour confirmer le transfert des ressources de compte sélectionnées.
 
    L’utilisateur destinataire reçoit tous les droits pour les ressources de compte sélectionnées appartenant à l’utilisateur d’origine, à l’exception des droits concernant les rapports planifiés.
-
-   >[!NOTE]
-   >
-   >Les ressources des Ad Hoc Analysis ne peuvent pas être transférées. Si votre organisation utilise plusieurs sociétés de connexion, vous ne pouvez rien transférer entre les sociétés de connexion.
-
