@@ -2,10 +2,10 @@
 description: Intro à Ad Hoc Analysis
 title: Ad Hoc Analysis - Aperçu
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 92%
+source-wordcount: '62'
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,4 @@ Ad Hoc Analysis vous permet d’identifier les segments de clients à forte vale
 
 >[!IMPORTANT]
 >
->L&#39;Adobe a mis Ad Hoc Analysis à la fin de sa vie le 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
-
-## Nouvelles rubriques et thèmes populaires
-
-* Vous pouvez maintenant facilement convertir vos projets Ad Hoc Analysis en projets Analysis Workspace. Rendez-vous sur la [présentation du convertisseur de projets Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) pour découvrir comment faire !
-* Consultez la section [Ad Hoc Analysis et Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md) : Analysis Workspace apporte une grande partie des fonctionnalités des Ad Hoc Analysis dans le processus du navigateur. Toutefois, si la terminologie et les fonctions des deux produits restent identiques, en partie du moins, Analysis Workspace introduit de nouveaux termes et de nouvelles approches en matière d’analyses.
-* [Administration](/help/analyze/ad-hoc-analysis/c-administration.md) : découvrez comment configurer des utilisateurs et des données d’exemple.
+>La fin de vie d’Ad Hoc Analysis a été fixée au 1er mars 2021. [En savoir plus](https://adobe.ly/discoverworkspace)
