@@ -5,9 +5,9 @@ user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Utilisez les flux de données pour recevoir une exportation horaire ou quotidienne de données brutes. Utilisez Data Warehouse pour afficher vos données sous forme de feuille de calcul.
 translation-type: tm+mt
-source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '278'
 ht-degree: 98%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 98%
       + [Sources de données](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Flux de données](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Rapports distribués sur les Ad Hoc Analysis](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Rapports distribués sur l’Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Rapports distribués sur le Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Contrats de services techniques Adobe Engineering Services à l’aide du FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
