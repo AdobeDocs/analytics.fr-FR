@@ -2,9 +2,9 @@
 title: Configuration requise
 description: Configuration requise pour l’utilisation d’Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 564263be46b8c4fef996381819b4b13abb865b7a
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -32,5 +32,4 @@ La plupart des solutions Adobe Analytics, y compris Analysis Workspace, sont bas
 Consultez la page de la solution liée pour connaître la configuration requise pour cette solution.
 
 * [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/c-getting-started.md)
 * [Data Workbench](https://docs.adobe.com/content/help/fr-FR/data-workbench/using/install/c-data-workbench-client-install.html)
