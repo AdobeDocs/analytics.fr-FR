@@ -1,9 +1,9 @@
 ---
-source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 98%
 
 ---
 # Autorisations du profil de produit pour les outils Analytics
@@ -32,7 +32,7 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Utilisateurs sous licence Excel | Inutilisé. |
 | Activity Map | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
 | Données actives | Permet d’afficher les données actives dans des rapports Reports &amp; Analytics. |
-| Utilisateurs de la licence d’Ad Hoc Analysis | Active le bouton de téléchargement sous Outils > Ad Hoc Analysis et permet à l’utilisateur de s’authentifier à l’aide de l’outil. Voir [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
+| Utilisateurs de la licence d’Ad Hoc Analysis | Ad Hoc Analysis est en fin de vie. Voir [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
 | Administration des applications mobiles | Inutilisé. |
 | Accès aux services Web | Permet d’utiliser l’API, notamment l’authentification auprès de sites tiers et l’envoi d’appels d’API. |
 | Report Builder | Active le bouton de téléchargement sous Outils > Report Builder et permet à l’utilisateur de s’authentifier dans Microsoft Excel. |
