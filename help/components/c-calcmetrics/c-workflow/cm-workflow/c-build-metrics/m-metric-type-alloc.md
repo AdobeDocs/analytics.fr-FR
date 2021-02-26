@@ -3,10 +3,10 @@ description: 'En savoir plus sur les '
 title: Type de mesure et attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '908'
+ht-degree: 96%
 
 ---
 
@@ -32,14 +32,15 @@ Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’u
 >
 >* Pour obtenir la liste complète des modèles d’attribution qui ne sont pas par défaut et les intervalles de recherche en amont pris en charge, consultez la documentation d’[Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
 >* Les modèles d’attribution « Dernière touche canal marketing » et « Première touche canal marketing » seront migrés vers les nouveaux modèles d’attribution « Dernière touche » et « Première touche », respectivement. (Remarque : les rapports « Canaux marketing » ne seront pas obsolètes, seuls les deux modèles d’attribution qui apparaissent dans les mesures calculées le seront.)
->* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. Cette modification des mesures calculées sera reflétée dans Analysis Workspace, Reports &amp; Analytics, l’API de création de rapports, Report Builder et Ad Hoc Analysis. Pour plus d’informations, consultez la section **Fonctionnement de l’affectation linéaire (à partir du 19 juillet 2018)** ci-dessous.
+>* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. Cette modification des mesures calculées sera répercutée dans Analysis Workspace, les rapports et analyses, l’API de Rapports et le Report Builder. Pour plus d’informations, consultez la section **Fonctionnement de l’affectation linéaire (à partir du 19 juillet 2018)** ci-dessous.
+
 >
 
 
 
 ## Fonctionnement de l’affectation linéaire (à partir du 19 juillet 2018)
 
-En juillet 2018, Adobe a modifié la manière de générer des rapports sur l’affectation linéaire pour les mesures calculées. Cette modification a un impact sur Analysis Workspace, sur l’Ad Hoc Analysis, sur les Reports &amp; Analytics, sur le Report Builder, sur Activity Map et sur les API de création de rapports. Elle concerne essentiellement les eVars et autres dimensions présentant une persistance. Notez que ces changements s’appliquent uniquement aux mesures calculées et n’ont pas d’impact sur les autres rapports utilisant l’affectation linéaire (notamment le rapport Pages de Reports &amp; Analytics). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
+En juillet 2018, Adobe a modifié la manière de générer des rapports sur l’affectation linéaire pour les mesures calculées. Cette modification a un impact sur Analysis Workspace, les rapports et analyses, le Report Builder, le Activity Map et les API de Rapports. Elle concerne essentiellement les eVars et autres dimensions présentant une persistance. Notez que ces changements s’appliquent uniquement aux mesures calculées et n’ont pas d’impact sur les autres rapports utilisant l’affectation linéaire (notamment le rapport Pages de Reports &amp; Analytics). Les autres rapports utilisant l’affectation linéaire continueront d’appliquer la méthode existante d’affectation linéaire.
 
 L’exemple suivant explique comment les mesures calculées avec l’affectation linéaire changeront dans les rapports :
 
