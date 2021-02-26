@@ -3,12 +3,12 @@ description: Tableau décrivant les colonnes du flux de données.
 keywords: Flux de données ; colonnes
 subtopic: data feeds
 title: Référence des colonnes de données
-topic: Reports and analytics
+topic: Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: f3b227e7d2f239076f7c38abd42af6e1a86b0069
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '3406'
+source-wordcount: '3396'
 ht-degree: 81%
 
 ---
@@ -178,7 +178,6 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `resolution` | Identifiant numérique représentant la résolution du moniteur. Utilisé dans la dimension [Résolution de l’écran](/help/components/dimensions/monitor-resolution.md). Utilise la table de choix `resolution.tsv`. | smallint sans signe |
 | `s_kwcid` | Identifiant du mot-clé dans les intégrations Adobe Advertising Cloud. | varchar(255) |
 | `s_resolution` | Valeur brute de la résolution de l’écran. Rassemblé à l’aide de la fonction JavaScript `screen.width x screen.height`. | char(20) |
-| `sampled_hit` | N’est plus utilisé. Anciennement utilisée pour l’échantillonnage dans Ad Hoc Analysis. | char(1) |
 | `search_engine` | Identifiant numérique représentant le moteur de recherche qui a référé le visiteur à votre site. Utilise la recherche `search_engines.tsv`. | smallint sans signe |
 | `search_page_num` | Utilisé par la dimension [Classement de toutes les pages de recherche](/help/components/dimensions/all-search-page-rank.md). Indique la page des résultats de recherche sur laquelle votre site est apparu avant que l’utilisateur n’ait cliqué sur votre site. | smallint sans signe |
 | `secondary_hit` | Indicateur qui suit les accès secondaires. Généralement provient du balisage multi-suite et des règles VISTA qui copient les accès. | tinyint sans signe |
