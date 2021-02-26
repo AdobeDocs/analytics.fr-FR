@@ -4,10 +4,10 @@ title: Droits des segments par rôle
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ La fonctionnalité de segment diffère désormais beaucoup entre les administrat
   <tr> 
    <td colname="col1"> <b>Administrateurs</b> </td> 
    <td colname="col2"> Peuvent effectuer un partage avec l’ensemble de l’entreprise, avec des groupes d’utilisateurs et avec des utilisateurs individuels. </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span> : peuvent afficher/modifier/supprimer, etc. leurs propres segments et ceux des autres. <p> <span class="keyword">Ad Hoc Analysis</span> et <span class="keyword">Report Builder</span> : peuvent afficher/modifier/supprimer, etc. leurs propres segments et ceux partagés avec eux. </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span> : peuvent afficher/modifier/supprimer, etc. leurs propres segments et ceux des autres. <p> <span class="keyword"> Report Builder  </span>: Peut vue/modifier/supprimer, etc. ses propres segments et ceux partagés avec lui. </p> </td> 
    <td colname="col4"> Peuvent approuver les segments sous la forme canonique. </td> 
    <td colname="col5"> Peuvent appliquer tout segment à l’échelle de l’entreprise. </td> 
   </tr> 
