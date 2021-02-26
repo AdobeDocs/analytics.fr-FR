@@ -1,26 +1,26 @@
 ---
-title: Autorisations Adobe Analytics - tableaux récapitulatifs
-description: Tableaux qui résument les autorisations Adobe Analytics disponibles dans le Admin Console.
+title: Autorisations dʼAdobe Analytics - tableaux récapitulatifs
+description: Tableaux qui résument les autorisations disponibles pour Adobe Analytics dans Admin Console.
 translation-type: tm+mt
 source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 source-wordcount: '1255'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
 
-# Autorisations Adobe Analytics - tableaux récapitulatifs
+# Autorisations dʼAdobe Analytics - tableaux récapitulatifs
 
-Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations Adobe Analytics dans le Admin Console, par groupes logiques.
+Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations dʼAdobe Analytics dans Admin Console par groupes logiques.
 
 ## Outils de suites de rapports
 
-| Outil Report Suite | Administration | contrôles d&#39;accès | Fonctionnalités des rapports uniquement | Obsolète | Description |
+| Outil Suite de rapports | Administration | Contrôles dʼaccès | Fonctionnalités des rapports uniquement | Obsolète | Description |
 | --- | --- | --- | --- | --- | --- |
 | Résumé du compte | x |  |  |  | Accorde l’accès à Général > Paramètres généraux du compte dans le Gestionnaire de suites de rapports. |
 | Canaux | x |  |  |  | Accorde l’accès à Canaux marketing, y compris Gestionnaire de canaux marketing, Règles de traitement des canaux marketing et Expiration du canal marketing dans le Gestionnaire de suites de rapports. |
-| Classifications | x |  |  |  | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément d&#39;autorisation comprend : |
+| Classifications | x |  |  |  | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément dʼautorisation comprend : |
 | Variables de conversion | x |  |  |  | Accorde l’accès à Conversion > Variables de conversion dans le Gestionnaire de suites de rapports. |
 | Coûts | x |  |  |  | Accorde l’accès à Canaux marketing > Coûts de canal marketing dans le Gestionnaire de suites de rapports. |
 | Calendrier personnalisé | x |  |  |  | Accorde l’accès à Général > Personnaliser le calendrier dans le Gestionnaire de suites de rapports. |
@@ -72,7 +72,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 
 ## Outils Analytics
 
-| Outil Analytics | Administration | contrôles d&#39;accès | Fonctionnalités des rapports uniquement | Obsolète | Description |
+| Outil Analytics | Administration | Contrôles dʼaccès | Fonctionnalités des rapports uniquement | Obsolète | Description |
 | --- | --- | --- | --- | --- | --- |
 | Gestionnaire de code | x |  |  |  | Conservé à des fins héritées. Permet d’accéder à Admin > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans Adobe Experience Platform Launch. |
 | Code Manager – Web Services | x |  |  |  | Accorde l’accès au Gestionnaire de code par le biais de l’API 1.4. |
@@ -93,7 +93,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Accès à Analysis Workspace |  | x |  |  | Octroie l’accès à Analysis Workspace. Les utilisateurs doivent appartenir à ce groupe (préféré) ou disposer d’un accès aux Reports &amp; Analytics pour utiliser Adobe Analytics. |
 | Analysis Workspace : enregistrer comme modèle |  | x |  |  | Accorde l’accès à Projet > Enregistrer comme modèle dans Analysis Workspace. |
 | Création de mesure calculée |  | x |  |  | Permet de créer des mesures calculées pour toutes les fonctionnalités d’Analytics. |
-| Accès aux laboratoires |  | x |  |  | Accorde l’accès aux laboratoires. |
+| Accès aux laboratoires |  | x |  |  | Octroie lʼaccès à Labs. |
 | Report Builder |  | x |  |  | Active le bouton de téléchargement sous Outils > Report Builder et permet à l’utilisateur de s’authentifier dans Microsoft Excel. |
 | Création de segment |  | x |  |  | Permet de créer et de partager des segments dans toutes les fonctionnalités d’Analytics. |
 | Publication de segment |  | x |  |  | Permet de faire d’un segment une audience Experience Cloud lors de la création ou de la modification d’un segment. |
