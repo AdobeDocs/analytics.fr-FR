@@ -5,9 +5,9 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
 translation-type: tm+mt
-source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '637'
 ht-degree: 99%
 
 ---
@@ -168,7 +168,6 @@ ht-degree: 99%
       + [Résolution des problèmes](segmentation/seg-reference/c-troubleshooting.md)
    + [Questions fréquentes](segmentation/seg-transition.md)
    + [Bonnes pratiques](segmentation/best-practices.md)
-   + [Guide de transition relatif aux Ad Hoc Analysis](segmentation/seg-transition-ad-hoc.md)
 + Mesures calculées {#calculated-metrics}
    + [Mesures calculées ou calculées avancées (dérivées)](c-calcmetrics/cm-overview.md)
    + [Questions fréquentes](c-calcmetrics/cm-transition.md)
