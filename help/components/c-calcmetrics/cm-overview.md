@@ -4,10 +4,10 @@ keywords: Mesures calculées;mesures dérivées;mesures calculées avancées
 title: Mesures calculées ou calculées avancées (dérivées)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 
@@ -39,16 +39,11 @@ Dans le tableau ci-dessous, vous trouverez une comparaison des fonctionnalités 
 
 Vous pouvez
 
-* Créer des mesures dans [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL détection des anomalies] et [!UICONTROL analyse des contributions].
+* Créez des mesures dans [!UICONTROL Analysis Workspace], [!UICONTROL Rapports et analyses], [!UICONTROL Report Builder], [!UICONTROL Détection des anomalies] et [!UICONTROL Analyse de contribution].
 * Créer des mesures segmentées qui sont dérivées au moment de l’exécution du rapport, [sans avoir à modifier l’implémentation](https://youtu.be/CuQTm9RaUpY). Elles peuvent être consultées de manière historique car elles sont basées sur des segments.
 * Partagez des mesures dans l’ensemble des suites de rapports. Cela signifie que toutes les mesures nouvellement créées s’appliquent à toutes les suites de rapports de la même société de connexion.
 * (Mesures calculées avancées uniquement) Segmenter sur les mesures. Par exemple, vous pouvez créer une mesure « Nouveaux visiteurs », avec un décompte des personnes pour lesquelles il s’agit de la première session.
 * (Mesures calculées avancées uniquement) Incorporer les fonctions statistiques afin de vous aider à mieux décrire les données. Par exemple, vous pouvez comptabiliser le nombre d’éléments d’un rapport ou ajouter le nombre d’écarts types pour chaque élément.
-* Utilisez les mesures créées dans les [!UICONTROL Ad Hoc Analysis] dans les autres outils d’[!DNL Analytics] et vice versa.
-
-   >[!NOTE]
-   >
-   >Vous pouvez continuer à créer des mesures dans les Ad Hoc Analysis. Son interface utilisateur de créateur de mesures calculées est désormais similaire au nouveau créateur de mesures.
 
 ## Limites {#section_CB878B02451541D68A68B508D4DBD19A}
 
