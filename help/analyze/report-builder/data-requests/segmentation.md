@@ -1,12 +1,12 @@
 ---
 description: Comment ajouter, modifier, appliquer et filtrer des segments Adobe Analytics dans le Report Builder.
 title: Gestion des segments
-topic: Report builder
+topic: Créateur de rapports
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
 ## Recherche et application de segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Chaque segment créé dans les Reports &amp; Analytics, dans Ad Hoc Analysis, dans Report Builder ou dans Data Warehouse est répertorié dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser (![](assets/refresh_icon.png)).
+Chaque segment créé dans les Reports &amp; Analytics, dans , dans Report Builder ou dans Data Warehouse est répertorié dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser (![](assets/refresh_icon.png)).
 
 Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela inclut les segments séquentiels.
 
