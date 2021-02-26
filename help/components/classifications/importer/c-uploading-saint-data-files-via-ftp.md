@@ -2,13 +2,13 @@
 description: Description de la procédure de téléchargement de fichiers de données via FTP.
 subtopic: Classifications
 title: Importation FTP
-topic: Admin tools
+topic: Outils d’administration
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 96%
+source-wordcount: '723'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Après un premier chargement dans une suite de rapports (pour une variable ou un
 
 Chaque nouvelle valeur de clé chargée compte comme valeur unique de cette variable pour le mois.
 
-Si vous avez dépassé les limites des valeurs uniques pour le mois, vous ne verrez pas les données de classifications correspondantes pour les valeurs dépassées dans les rapports. Ces classifications sont visibles dans Data Warehouse ou dans l’Ad Hoc Analysis.
+Si vous avez dépassé les limites des valeurs uniques pour le mois, vous ne verrez pas les données de classifications correspondantes pour les valeurs dépassées dans les rapports. Vous pouvez voir ces classifications dans le Data Warehouse.
 
 >[!NOTE]
 >
