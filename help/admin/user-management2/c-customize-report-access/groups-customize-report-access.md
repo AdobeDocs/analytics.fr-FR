@@ -3,13 +3,13 @@ description: Personnalisez l’accès d’un groupe aux outils Analytics, aux ou
 keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Personnalisation de l’accès aux rapports - Aperçu
-topic: Admin tools
+topic: Outils d’administration
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
+>La gestion des utilisateurs et des produits a désormais lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
 
 Personnalisez l’accès d’un groupe aux outils Analytics, aux outils de suites de rapports, aux mesures et aux dimensions.
 
@@ -42,7 +42,7 @@ Vous pouvez par exemple créer un groupe ayant accès à plusieurs outils Analyt
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Accès des administrateurs / groupes prédéfinis </p> </td> 
-   <td colname="col2"> <p> Les groupes prédéfinis ne sont plus requis pour les administrateurs. Ces derniers ont maintenant accès à tous les éléments (outils, dimensions et mesures), ainsi qu’aux services web, au Report Builder, à Activity Map et aux Ad Hoc Analysis. </p> <p>Ces groupes permettent d’autoriser ou de restreindre l’accès des utilisateurs non-administrateurs. </p> </td> 
+   <td colname="col2"> <p> Les groupes prédéfinis ne sont plus requis pour les administrateurs. Les administrateurs ont désormais accès à tous les éléments (outils, mesures, dimensions), ainsi qu’aux services Web, aux Reports Builder et aux Activity Map. </p> <p>Ces groupes permettent d’autoriser ou de restreindre l’accès des utilisateurs non-administrateurs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Groupes personnalisés </p> </td> 
