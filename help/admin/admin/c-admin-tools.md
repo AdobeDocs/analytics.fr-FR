@@ -3,9 +3,9 @@ description: Index des outils d’administration dans Adobe Analytics.
 title: Outils d’administration
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
 + [Exclure par adresse IP](exclude-ip.md)
 + [Méthodes de recherche](finding-methods.md)
 + [Paramètres du compte général](general-acct-settings-admin.md)
-+ [Gestion des groupes](group.md)
 + [Filtres URL internes](internal-url-filter-admin.md)
 + [Journaux](logs.md)
 + [Canaux marketing](marketing-channels-admin.md)
