@@ -1,13 +1,13 @@
 ---
 description: Les suites de rapports de cumul combinent les données de plusieurs suites de rapports affiliées et les affichent dans un jeu de données résumé.
 title: Suites de rapports globales et de cumul
-topic: Admin tools
+topic: Outils d’administration
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 98%
 
 ---
 
@@ -53,6 +53,6 @@ Les suites de rapports de cumul combinent les données de plusieurs suites de ra
 
 **Rapports** : les suites de rapports globales fournissent des données sur l’ensemble des dimensions. Les cumuls ne fournissent des données agrégées que sur les rapports de haut niveau.
 
-**Produits pris en charge** : les cumuls ne peuvent être utilisés que dans Reports &amp; Analytics. Ils ne sont pas pris en charge dans Analysis Workspace, Data Warehouse ou Ad Hoc Analysis. Les suites de rapports globales peuvent être utilisées pour tous les produits.
+**Produits pris en charge** : les cumuls ne peuvent être utilisés que dans Reports &amp; Analytics. Ils ne sont pas pris en charge en Analysis Workspace ou en Data Warehouse. Les suites de rapports globales peuvent être utilisées pour tous les produits.
 
 **Nombre de suites de rapports agrégées** : les cumuls ne prennent en charge que 40 suites de rapports enfants au maximum. Les suites de rapports globales peuvent être implémentées sur n’importe quel nombre de domaines ou d’applications que vous détenez.
