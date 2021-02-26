@@ -2,10 +2,10 @@
 title: Guide sur les outils Analytics
 description: Documentation du produit et aide autonome pour Analysis Workspace, Adobe Analytics tableaux de bord, Activity Map, Report Builder, API de Rapports et Rapports et analyses.
 translation-type: tm+mt
-source-git-commit: 378a1e8899722ce558677fdf2d57070d1a7ff965
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 75%
+source-wordcount: '235'
+ht-degree: 77%
 
 ---
 
@@ -22,7 +22,6 @@ Ce guide fournit de la documentation sur les produits et de l’aide autonome po
 * **[!UICONTROL Report Builder] :** module Excel complémentaire permettant de récupérer les données Analytics et de les placer directement dans un classeur.
 * **[!UICONTROL API de création de rapports] :** créez des requêtes de rapport directement sur les serveurs d’Adobe et obtenez des réponses à utiliser dans vos outils de création de rapports client.
 * **[!UICONTROL Reports &amp; Analytics] :** outil avec des dizaines de rapports prédéfinis. Adobe recommande d’utiliser Analysis Workspace pour la plupart des rapports.
-* **[!UICONTROL Ad Hoc Analysis] :** application Java autonome avec de puissantes capacités de création de rapports. Cet outil n&#39;est plus mis à jour et sera supprimé [le 1er mars 2021](https://spark.adobe.com/page/S9Bhp66VJ2fEn/).
 
 ## Principaux articles sur les outils d’Analytics
 
