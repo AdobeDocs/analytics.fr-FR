@@ -1,13 +1,13 @@
 ---
 description: Vous pouvez créer une suite de rapports en sélectionnant un modèle prédéfini ou en utilisant l’une de vos suites de rapports existantes pour servir de modèle.
 title: Paramètres d’une nouvelle suite de rapports
-topic: Admin tools
+topic: Outils d’administration
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 94%
+source-wordcount: '537'
+ht-degree: 93%
 
 ---
 
@@ -65,11 +65,7 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
   <tr> 
    <td colname="col1"> <span class="wintitle"> Désactiver la prise en charge de caractères complexes</span> </td> 
    <td colname="col2"> <p>Désactive la prise en charge des caractères complexes pour la suite de rapports. Si vous désactivez cette prise en charge, le système suppose que ces données sont au format ISO-8859-1. Les pages Web doivent spécifier leur jeu de caractères dans la Variable JavaScript <span class="varname">charSet</span>. </p> <p>La prise en charge des caractères complexes stocke les caractères dans la suite de rapports à l’aide du codage UTF-8. À la réception des données, le système les convertit depuis le jeu de caractères de la page web au format UTF-8, de sorte que vous puissiez utiliser n’importe quelle langue dans vos rapports marketing. </p> <p>Contactez votre gestionnaire de compte ou le service d’assistance clientèle pour modifier la prise en charge de caractères complexes (multi-octets) d’une suite de rapports existante. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> Activer l’Ad Hoc Analysis pour cette suite</span> </td> 
-   <td colname="col2"> Permet de visualiser cette suite de rapports lorsque vous effectuez une Ad Hoc Analysis. </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
