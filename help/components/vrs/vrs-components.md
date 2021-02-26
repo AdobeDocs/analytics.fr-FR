@@ -36,7 +36,7 @@ Pour activer le traitement des composants,
    >* [!UICONTROL Ad Hoc Analysis]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
-   >* [!UICONTROL Activity Map ]
+   >* [!UICONTROL Activity Map]
    >* API de création de rapports dans Analytics
 
 
