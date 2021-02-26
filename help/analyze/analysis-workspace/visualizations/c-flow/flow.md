@@ -3,10 +3,10 @@ description: valeur nulle
 title: Flux - Aperçu
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: '204'
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ Elle vous offre les possibilités suivantes :
 
 >[!NOTE]
 >
->Pour en savoir plus sur les différences de résultats de l’application des segments aux flux entre Analysis Workspace et Reports &amp; Analytics/Ad Hoc Analysis, consultez [Segmentation comme base des flux et des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Pour plus d’informations sur la manière dont les résultats de l’application de segments au flux peuvent différer entre Analysis Workspace et les rapports et analyses, voir [Segmentation en tant que fondement du flux et des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 [Didacticiel](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=fr-FR) vidéo sur la visualisation de flux (4:56)
 
