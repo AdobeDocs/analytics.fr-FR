@@ -1,13 +1,13 @@
 ---
 description: Description des champs Paramètres du compte général d’une suite de rapports dans Admin.
 title: Paramètres du compte général
-topic: Admin tools
+topic: Outils d’administration
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: d4ecb31e7a79546c97207772e9df3eb4d673c35f
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 89%
+source-wordcount: '672'
+ht-degree: 88%
 
 ---
 
@@ -29,5 +29,4 @@ Ces paramètres contiennent des options d’édition pour les fonctionnalités d
 | Remplacer le dernier octet des adresses IP par 0 | La suppression du dernier octet est effectuée avant tout traitement de l’accès, y compris avant le filtrage/exclusion IP, avant la vérification des règles de robots, avant les recherches de géosegmentation, etc. Par conséquent, le dernier octet est remplacé par un 0 et les règles d’exclusion IP doivent être mises à jour afin de correspondre aux adresses IP avec un zéro à la fin. Le * correspondant doit correspondre à 0. Par exemple, l’adresse IP 11.22.33.44 est remplacée par 11.22.33.0. Les données de géosegmentation ne sont pas aussi exactes que lorsque l’adresse IP complète est utilisée. Plus précisément, la précision au niveau de la ville va être plus affectée que la précision au niveau du pays ou de la région. Les règles de robot et les règles VISTA sont affectées puisqu’elles n’ont pas accès à l’adresse IP complète. En outre, les règles de traitement basées sur les adresses IP (y compris les règles de canaux marketing et les règles de traitement des suites de rapports) sont affectées par ce paramètre. <br> **Remarque** : ce paramètre est activé par défaut pour toutes les suites de rapports créées dans le centre de données de Londres après janvier 2019, mais seulement si les paramètres de ces suites de rapports sont copiés à partir d’un modèle répertorié dans Admin Console. Les suites de rapports dont les paramètres sont copiés depuis d’autres suites de rapports hériteront de tous les paramètres de la suite de rapports sélectionnée. |
 | Obscurcissement d’IP | Transforme les adresses IP en chaînes impossibles à reconnaître, en les supprimant essentiellement des entrepôts de données d’Adobe. Lorsque l’option Obscurcissement d’IP est activée, les adresses IP d’origine sont définitivement perdues.  <br> **Remarque** : les adresses IP sont obscurcies partout dans Analytics, y compris dans Data Warehouse. Toutefois, le paramètre IP dans Target est contrôlé individuellement, de sorte que ce paramètre n’a aucune incidence sur Target.<br> Si l’obscurcissement d’IP est activé, tous les traitements nécessaires, y compris le filtrage/l’exclusion IP, les règles de robots et les recherches de géosegmentation, sont effectués avant que l’adresse IP ne soit obscurcie. Il n’est pas nécessaire de modifier quoi que ce soit lorsque vous activez l’obscurcissement d’IP.<ul><li>Si **Désactivé** est coché, l’adresse IP est conservée dans les données.</li><li>Si vous cochez la case **Obscurcir l&#39;adresse IP**, l&#39;adresse IP devient deux points suivis d&#39;une valeur hachée (par exemple, `::1932023538`).</li><li>Cochez l’option **Supprimer les adresses IP**`::X.X.X.X` pour remplacer l’adresse IP par dans les données, après la recherche géographique.</li></ul>**Remarque** : ce paramètre peut nécessiter de modifier les [règles de robots personnalisées](/help/admin/admin/bot-removal/bot-rules.md) ou des [exclusions IP](/help/admin/admin/exclude-ip.md). |
 | Stockage de l’ID de transaction | Permet d’utiliser des sources de données [ID de transaction](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md). |
-| Activer les Ad Hoc Analysis | Indique si la suite de rapports en question est présentée comme une suite de rapports disponible dans les Ad Hoc Analysis. Utilisez ce paramètre pour contrôler quelles suites de rapports s’affichent comme une option pour les Ad Hoc Analysis. Par exemple, vous pouvez désactiver les Ad Hoc Analysis pour les suites de rapports de développement et de contrôle qualité. |
 | Activer Data Warehouse | Active l’interface utilisateur de Data Warehouse dans Analytics > Outils > Data Warehouse. |
