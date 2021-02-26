@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/
 * Si les options de disposition personnalisées de Workspace sont limitées (tout est possible dans le Report Builder, dans les limites d’Excel).
 * Pour lier vaguement des entrées utilisateur ou des sources de données hors ligne (impressions, coût) à des données Adobe. L’option Sources de données constitue une solution plus permanente pour lier les données (voir Importation de données dans Analytics).
 * Pour fusionner des données depuis différents rapports dimensionnels (par exemple un rapport d’impressions promo joint à un rapport clic jusqu’à la conversion promo).
-* Pour fusionner les données de différentes suites de rapports, soit en additionnant, soit en les affichant dans le même tableau côte à côte.
+* Pour fusionner les données provenant de différentes suites de rapports, soit en les additionnant, soit en les affichant côte à côte dans le même tableau.
 * Si l’automatisation par l’intermédiaire de la planification est souhaitée (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** doit être utilisé :
