@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
-user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Report Builder et Activity Map.
+user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que les Tableaux de bord Adobe Analytics, le Report Builder et le Activity Map.
 translation-type: tm+mt
-source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
+source-git-commit: a52f2f916db322ddb6226a5d3aa1f5585bf09539
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1017'
+ht-degree: 97%
 
 ---
 
@@ -306,15 +306,6 @@ ht-degree: 100%
    + [Événements du calendrier](reports-analytics/t-calendar-event.md)
    + [Questions fréquentes](reports-analytics/frequently-asked-questions.md)
    + [Résolution des problèmes](reports-analytics/report-troubleshooting.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
-   + Convertisseur de projets d’Ad Hoc Analysis {#aha-project-converter}
-      + [Convertisseur de projets d’Ad Hoc Analysis - Aperçu](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
-      + [Conversion des projets dans l’Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
-      + [Affichage des projets convertis dans Analysis Workspace](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
-      + [FAQ Convertisseur de projets](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
-   + [Ad Hoc Analysis - Aperçu](ad-hoc-analysis/adhoc-home.md)
-+ Labs {#tech-previews}
-   + [Présentation de Labs](tech-previews/overview.md)
 + Tableaux de bord Adobe Analytics {#mobapp}
    + [Tableaux de bord Adobe Analytics - Aperçu](mobile-app/home.md)
    + [Guide pour les curateurs](mobile-app/curator.md)
@@ -325,3 +316,5 @@ ht-degree: 100%
    + [API de création de rapports dans Analytics - Aperçu](c-reporting-api/c-reporting-api.md)
    + [Comparaison des API de création de rapports dans Analytics](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
++ Labs {#tech-previews}
+   + [Présentation de Labs](tech-previews/overview.md)
