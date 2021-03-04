@@ -2,10 +2,10 @@
 title: Analyses entre appareils
 description: Modifiez vos données pour passer des données axées sur les appareils aux données axées sur les personnes en regroupant les données des appareils.
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 95%
+source-wordcount: '667'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,7 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * Les analyses entre appareils ne fonctionnent pas entre les suites de rapports et ne combinent pas non plus les données de plusieurs suites de rapports.
 * Les suites de rapports Adobe Analytics ne peuvent pas mapper à plusieurs organisations IMS. Étant donné que les analyses entre appareils regroupent des appareils dans une suite de rapports donnée, il est impossible de les utiliser pour regrouper des données entre plusieurs organisations IMS.
 * Les analyses entre appareils ne sont actuellement pas compatibles avec les attributs du client. Ces deux fonctionnalités peuvent coïncider dans des suites de rapports virtuelles distinctes qui référencent la même suite de rapports source.
+* Actuellement, l’ADC n’est pas compatible avec A4T.
 * Les analyses entre appareils utilisent une suite de rapports virtuelle et le traitement du temps de la période de rapport, qui ont leurs propres limites. Voir [Suites de rapports virtuelles](../vrs/vrs-about.md) et [traitement de la période de rapport](../vrs/vrs-report-time-processing.md) pour en savoir plus sur ces limitations.
 * L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le Report Builder reposent tous les deux sur l’API 1.4 et ne sont donc pas compatibles avec les analyses entre appareils.
 * Les données historiques de la suite de rapports virtuelle changent en fonction de la reconnaissance par Adobe des périphériques et de leur regroupement. Les données de la suite de rapports source ne changent pas.
