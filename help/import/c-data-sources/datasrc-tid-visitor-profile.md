@@ -1,13 +1,13 @@
 ---
-description: valeur nulle
+description: Utilisez l’ID de transaction dans les sources de données pour associer les données en ligne et hors ligne.
 title: ID de transaction et profils du visiteur
-topic: Developer and implementation
+topic: Développeur et mise en œuvre
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
