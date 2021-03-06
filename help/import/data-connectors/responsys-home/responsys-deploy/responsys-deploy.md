@@ -1,12 +1,12 @@
 ---
-description: valeur nulle
+description: Déployez le connecteur de données Responsys pour l’utiliser dans Adobe Analytics.
 title: Déploiement de l’intégration
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 100%
+source-wordcount: '328'
+ht-degree: 96%
 
 ---
 
