@@ -1,14 +1,14 @@
 ---
-description: valeur nulle
+description: Découvrez les bases de l’utilisation d’un projet Workspace.
 keywords: Analysis Workspace
 title: Présentation des projets
-topic: Reports and analytics
+topic: Reports & Analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 30%
+source-wordcount: '1371'
+ht-degree: 29%
 
 ---
 
