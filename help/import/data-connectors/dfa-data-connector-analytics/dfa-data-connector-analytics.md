@@ -1,14 +1,14 @@
 ---
-description: valeur nulle
+description: Utilisez l’intégration DoubleClick for Advertisers avec Adobe Analytics.
 keywords: DFA
 title: Connecteur de données DFA pour Adobe Analytics
-topic: Data connectors
+topic: Connecteurs de données
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 99%
+source-wordcount: '1740'
+ht-degree: 98%
 
 ---
 
