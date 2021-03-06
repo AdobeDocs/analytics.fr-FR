@@ -1,12 +1,12 @@
 ---
-description: valeur nulle
+description: Vue des valeurs supérieures d’une dimension avant de l’utiliser dans un projet.
 title: Aperçu des dimensions
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 translation-type: tm+mt
-source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 93%
 
 ---
 
