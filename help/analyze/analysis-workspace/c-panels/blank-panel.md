@@ -1,11 +1,11 @@
 ---
-description: valeur nulle
+description: Créez un panneau vierge comme point de départ pour toute visualisation.
 title: Panneau vierge
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 100%
+source-wordcount: '57'
+ht-degree: 80%
 
 ---
 
