@@ -1,20 +1,20 @@
 ---
 description: Avant d’utiliser Reports and Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 title: Prise en main de Reports and Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Prise en main des rapports et analyses
+# Prise en main de Reports &amp; Analytics
 
 Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 
-Les rapports fournissent des informations sur vos canaux web classiques, ainsi que sur l’évolution des canaux tels que les réseaux mobiles, vidéo et sociaux. Voici quelques exemples de rapports 
+Les rapports fournissent des informations sur vos canaux web classiques, ainsi que sur l’évolution des canaux tels que les réseaux mobiles, vidéo et sociaux. Voici quelques exemples de rapports
 
 * Nombre de visiteurs sur votre site
 * Nombre de ces visiteurs qui sont uniques (comptabilisés une seule fois)
@@ -91,7 +91,7 @@ Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte].
 | Type d’informations | Définition |
 | --- | --- |
 | Contact | Précisez les informations personnelles suivantes pour votre compte :<ul><li>Prénom (requis)</li><li>Nom (requis)</li><li>Titre</li><li>Adresse de courriel (requis)</li><li>Numéro de téléphone</li></ul> |
-| Connexion | Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. Voir également : [Comment réinitialiser le mot de passe du compte Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en). |
+| Connexion | Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. Voir également : [Comment réinitialiser le mot de passe du compte Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=fr). |
 | Service web | Affiche le nom d’utilisateur des services web et le secret partagé associé à ce compte. Utilisez ces informations d’identification lorsque vous accédez à Experience Cloud par l’intermédiaire des API de services web. Pour plus d’informations, consultez le site Developer Connection. **Remarque :** Ces informations s’affichent uniquement si le compte est autorisé en tant qu’utilisateur de services web. |
 | Exclure cet ordinateur | Applique un cookie sur l’ordinateur actuel afin de l’exclure de la collecte de données. Ceci s’avère utile si vous ne souhaitez pas que vos activités en ligne affectent les décomptes de pages vues et de visiteurs dans votre domaine. **Remarque :** Pour utiliser cette fonctionnalité, les cookies doivent être activés dans votre navigateur. Si vous supprimez les cookies sur votre ordinateur, vous devez réinitialiser à nouveau le cookie d’exclusion. |
 
