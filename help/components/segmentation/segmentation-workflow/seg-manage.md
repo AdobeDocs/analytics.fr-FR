@@ -3,11 +3,11 @@ description: Le Gestionnaire de segments offre plusieurs manières d’organiser
 title: Gestion des segments
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Le Gestionnaire de segments Analytics vous présente tous les segments que vous 
 
 ## Vidéo pratique {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-Cette [vidéo d’Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) explique brièvement comment utiliser le Gestionnaire de segments.
+Cette [vidéo d’Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) explique brièvement comment utiliser le Gestionnaire de segments.
 
 ## Interface utilisateur du Gestionnaire de segments {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
