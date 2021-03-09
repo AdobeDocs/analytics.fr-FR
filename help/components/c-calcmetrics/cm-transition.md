@@ -2,11 +2,11 @@
 description: Les modifications suivantes apportées à la manière dont les mesures calculées fonctionnent dans Analytics peuvent avoir un impact sur vous.
 title: Questions fréquentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Les mesures calculées globales ne peuvent plus être partagées au sein des soc
 
 Désormais, les mesures calculées avec une classification numérique ou numérique2 continueront à être visibles dans les [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] et les API. Néanmoins, elles ne seront pas prises en charge dans un rapport avec un segment appliqué.
 
-En outre, les mesures calculées avec une classification numérique ou numérique 2 ne seront pas prises en charge dans les composants suivants : [!UICONTROL Analysis Workspace], [!UICONTROL Rapports en temps réel], [!UICONTROL Détection des anomalies] et [!UICONTROL Analyse des contributions]. Lorsque vous créez ou modifiez une mesure calculée avec une classification numérique ou numérique2, un avertissement de compatibilité s’affiche indiquant que la mesure calculée n’est pas compatible avec certaines zones du produit.
+En outre, les mesures calculées avec une classification numérique ou numérique2 ne seront pas prises en charge dans les composants suivants : [!UICONTROL Analysis Workspace], rapports [!UICONTROL en temps réel], [!UICONTROL détection des anomalies] et [!UICONTROL analyse des contributions]. Lorsque vous créez ou modifiez une mesure calculée avec une classification numérique ou numérique2, un avertissement de compatibilité s’affiche indiquant que la mesure calculée n’est pas compatible avec certaines zones du produit.
 
 **Ce que vous devez faire**
 
