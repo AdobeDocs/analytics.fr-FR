@@ -1,11 +1,11 @@
 ---
 title: Guide sur les outils Analytics
-description: Documentation du produit et aide autonome pour Analysis Workspace, Adobe Analytics tableaux de bord, Activity Map, Report Builder, API de Rapports et Rapports et analyses.
-translation-type: tm+mt
+description: Documentation sur les produits et aide autonome pour Analysis Workspace, Tableaux de bord Adobe Analytics, Activity Map, Report Builder, API de création de rapports et Reports & Analytics.
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 77%
 Ce guide fournit de la documentation sur les produits et de l’aide autonome pour les outils d’analyse et de rapports Adobe Analytics suivants :
 
 * **[!UICONTROL Analysis Workspace] :** principale fonctionnalité d’Adobe Analytics. Workspace fournit un canevas sur lequel vous pouvez faire glisser des composants pour répondre à vos besoins en termes de rapports.
-* **[!UICONTROL tableaux de bord] Adobe Analytics :** Cette application mobile permet aux utilisateurs d’accéder à des cartes de performance intuitives avec des mesures clés et leur permet d’effectuer des ventilations plus détaillées et des rapports de tendances.
+* **[!UICONTROL Tableaux de bord Adobe Analytics] :** Cette application mobile permet aux utilisateurs d’accéder à des cartes de performance intuitives avec des mesures clés et leur permet d’effectuer des ventilations et des rapports de tendances plus détaillés.
 * **[!UICONTROL Activity Map] :** module de navigateur qui affiche une superposition sur votre site montrant les éléments qui ont reçu le plus grand nombre de clics.
 * **[!UICONTROL Report Builder] :** module Excel complémentaire permettant de récupérer les données Analytics et de les placer directement dans un classeur.
 * **[!UICONTROL API de création de rapports] :** créez des requêtes de rapport directement sur les serveurs d’Adobe et obtenez des réponses à utiliser dans vos outils de création de rapports client.
@@ -27,7 +27,7 @@ Ce guide fournit de la documentation sur les produits et de l’aide autonome po
 
 * [Tableaux de bord Adobe Analytics - Aperçu](/help/analyze/mobile-app/home.md)
 * [Prise en main d’Analysis Workspace](analysis-workspace/home.md)
-* [Applications Web progressives pour l’Adobe Analytics](/help/analyze/pwa/pwa.md)
+* [Progressive Web Apps pour Adobe Analytics](/help/analyze/pwa/pwa.md)
 * [Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Prise en main de Report Builder](report-builder/home.md)
 * [Prise en main d’Activity Map](activity-map/activity-map.md)
