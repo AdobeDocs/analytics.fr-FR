@@ -1,16 +1,16 @@
 ---
-title: Qu'est-ce que l'Analyse de cohorte et comment fonctionne-t-elle ?
-description: Analysez plus précisément les données qui entourent votre audience et divisez-les en groupes apparentés avec l'Analyse de cohorte. En savoir plus sur l’analyse des cohortes dans Analysis Workspace.
-translation-type: tm+mt
+title: Quʼest-ce que lʼanalyse des cohortes et comment fonctionne-t-elle ?
+description: Analysez plus précisément les données sur votre audience et triez-les en groupes apparentés grâce à lʼanalyse des cohortes. En savoir plus sur l’analyse des cohortes dans Analysis Workspace.
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Découvrez [!UICONTROL Analyse de cohortes] dans Adobe Analytics
+# Découvrez [!UICONTROL lʼanalyse des cohortes] dans Adobe Analytics
 
 Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’[!UICONTROL analyse des cohortes] s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Vous trouverez des explications sur l’[!UICONTROL analyse des cohortes] sur le Web, tel le cours [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis) (en anglais).)
 
@@ -26,7 +26,7 @@ Exemples d’utilisation de l’[!UICONTROL analyse des cohortes] :
 
 L’[!UICONTROL analyse des cohortes] est disponible pour tous les clients Adobe Analytics avec des droits d’accès à [!UICONTROL Analysis Workspace].
 
-[Didacticiel](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html)  vidéo sur les Analyses de cohortes (4:36)
+[Tutoriel vidéo sur les analyses des cohortes](https://docs.adobe.com/content/help/fr/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
