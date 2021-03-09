@@ -2,11 +2,11 @@
 description: Les droits des mesures calculées diffèrent entre les utilisateurs administrateur et non administrateur.
 title: 'Mesures calculées : droits en fonction du rôle'
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Les droits des mesures calculées diffèrent entre les utilisateurs administrate
    <td colname="col1"> <b>Administrateurs</b> </td> 
    <td colname="col02"> Les administrateurs peuvent créer des mesures calculées ainsi que des <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html"  >groupes</a> pour limiter les droits de création de mesures calculées des utilisateurs. </td> 
    <td colname="col2"> Peuvent effectuer un partage avec l’ensemble de l’entreprise, avec des groupes d’utilisateurs et avec des utilisateurs individuels. </td> 
-   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span> : peuvent afficher/modifier/supprimer, etc. leurs propres mesures calculées et celles des autres utilisateurs. <p> <span class="keyword"> Report Builder  </span>: Peut vue/modifier/supprimer, etc. ses propres mesures calculées et celles partagées avec elle. </p> </td> 
+   <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span> : peuvent afficher/modifier/supprimer, etc. leurs propres mesures calculées et celles des autres utilisateurs. <p> <span class="keyword"> Report Builder </span> : peut, entre autres, consulter, modifier ou supprimer ses propres mesures calculées et celles partagées avec lui. </p> </td> 
    <td colname="col4"> Peuvent approuver les mesures calculées comme étant canoniques. </td> 
    <td colname="col5"> Peuvent appliquer toute mesure calculée à l’échelle de l’entreprise. </td> 
   </tr> 
