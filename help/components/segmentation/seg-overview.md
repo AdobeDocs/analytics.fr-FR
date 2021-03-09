@@ -3,11 +3,11 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments et des conteneurs
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Les segments vous permettent d’identifier des sous-ensembles de visiteurs selo
 
 Les segments sont basés sur une hiérarchie de niveau [!UICONTROL Visiteur], [!UICONTROL Visite] et [!UICONTROL Accès] en utilisant un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
 
-Vous pouvez créer et enregistrer des segments dans le créateur de segments ou générer des segments à partir d’un rapport d’abandons (dans  Analysis Workspace). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble en tant que [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport sur les abandons (dans  Analysis Workspace). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble en tant que [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segments {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -47,7 +47,7 @@ Les segments séquentiels permettent d’identifier les visiteurs selon la navig
 
 | Visite 1 | Visite 2 | Visite 3 |
 |---|---|---|
-| Lors de la première visite, le visiteur s’est rendu sur la page d’entrée principale (A), a exclu la page de la campagne (B), puis a consulté la page des produits (C). | Lors de la deuxième visite, le visiteur s’est à nouveau rendu sur la page d’entrée principale (A), a exclu la page de la campagne (B), est retourné sur la page des produits (C), puis a consulté une nouvelle page (D). | Lors de la troisième visite, le visiteur a suivi le même chemin que lors des première et deuxième visites, puis a exclu la page F pour se rendre directement à la page des produits ciblés (G). |
+| Lors de la première visite, le visiteur s’est rendu sur la page d’entrée principale (A), a exclu la page de la campagne (B), puis a consulté la page des produits (C). | Lors de la deuxième visite, le visiteur s’est à nouveau rendu sur la page d’entrée principale (A), a exclu la page de la campagne (B), est retourné sur la page des produits (C), puis a consulté une nouvelle page (D). | Lors de la troisième visite, le visiteur a suivi le même chemin que lors des première et deuxième visites, puis a exclu la page (F) pour se rendre directement à la page des produits ciblés (G). |
 
 Les segments séquentiels peuvent être basés sur les valeurs d’accès suivantes :
 
@@ -60,7 +60,7 @@ Un segment séquentiel filtre des jeux de données sur la base des actions de l�
 
 ## Vidéo pratique {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-Cette vidéo présente brièvement les conteneurs de segments et leur utilisation : [Conteneurs de segments dans Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+Cette vidéo présente rapidement les conteneurs de segments et leurs modes d’utilisation : [Conteneurs de segments dans Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## À propos des conteneurs {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
