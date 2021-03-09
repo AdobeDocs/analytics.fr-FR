@@ -1,9 +1,9 @@
 ---
 source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Autorisations du profil de produit pour les outils de suites de rapports
@@ -62,4 +62,4 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Petit rapport récapitulatif de l’utilisation | Inutilisé. |
 | Ressources web | Inutilisé. |
 | Social | Inutilisé. |
-| API de réparation des données | Accorde l&#39;accès à l&#39;API de réparation des données |
+| API de réparation des données | Accorde l’accès à l’API Data Repair |
