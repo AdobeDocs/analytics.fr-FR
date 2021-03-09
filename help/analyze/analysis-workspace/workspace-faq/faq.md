@@ -1,9 +1,9 @@
 ---
 description: FAQ sur Workspace
 title: Questions fréquentes et résolution des problèmes dans Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -36,4 +36,4 @@ Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant 
 * Vérifiez deux fois la suite de rapports et assurez-vous qu’elle contient des données.
 * Si vous avez appliqué un segment dans votre rapport, il se peut que les critères de segment ne correspondent à aucune donnée. Essayez de supprimer le segment ou d’ajuster la définition du segment.
 * Vérifiez la période dans le coin supérieur droit et assurez-vous qu’elle est définie sur la valeur attendue.
-* Accédez à votre site Web et utilisez [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr-FR) pour vérifier que la collecte des données s’effectue.
+* Accédez à votre site Web et utilisez [Debugger](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html) pour vérifier que la collecte des données s’effectue.
