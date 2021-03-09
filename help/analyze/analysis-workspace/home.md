@@ -1,18 +1,16 @@
 ---
-keywords: Analysis Workspace
-title: Aperçu d’Analysis Workspace
-topic: Reports and analytics
-uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
+title: Qu'est-ce que Analysis Workspace et comment l'utiliser ?
+description: Analysis Workspace est le premier outil d'analyse pour Adobe Analytics. Il vous permet d’utiliser des panneaux, des tableaux, des visualisations et d’autres composants pour donner vie aux données, traiter un jeu de données, partager et planifier des projets, entre autres fonctionnalités.
 translation-type: tm+mt
-source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 92%
 
 ---
 
 
-# Aperçu d’Analysis Workspace
+# Aperçu d’Analysis Workspace
 
 Analysis Workspace est un outil de navigation flexible qui vous permet de créer rapidement des analyses et de partager des informations. L’interface par glisser-déposer vous permet de concevoir votre analyse, d’ajouter des visualisations pour donner vie aux données, de traiter un jeu de données, de partager et de planifier des projets avec toute personne de votre organisation.
 
