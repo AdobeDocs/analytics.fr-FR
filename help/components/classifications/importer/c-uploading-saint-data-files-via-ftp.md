@@ -4,11 +4,11 @@ subtopic: Classifications
 title: Importation FTP
 topic: Outils d’administration
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Après un premier chargement dans une suite de rapports (pour une variable ou un
 
 Chaque nouvelle valeur de clé chargée compte comme valeur unique de cette variable pour le mois.
 
-Si vous avez dépassé les limites des valeurs uniques pour le mois, vous ne verrez pas les données de classifications correspondantes pour les valeurs dépassées dans les rapports. Vous pouvez voir ces classifications dans le Data Warehouse.
+Si vous avez dépassé les limites des valeurs uniques pour le mois, vous ne verrez pas les données de classifications correspondantes pour les valeurs dépassées dans les rapports. Vous pouvez voir ces classifications dans Data Warehouse.
 
 >[!NOTE]
 >
@@ -98,4 +98,4 @@ Une fois les comptes FTP créés, vous pouvez les modifier ou les supprimer en c
 
 >[!NOTE]
 >
->Les notifications ne sont pas envoyées si une importation n’introduit aucune modification à une classification. Un courrier électronique n’est envoyé que s’il réussit et entraîne des modifications d’une classification.
+>Les notifications ne sont pas envoyées si une importation n’introduit aucune modification à une classification. Un email est envoyé uniquement si cette opération réussit et entraîne des modifications au niveau d’une classification.
