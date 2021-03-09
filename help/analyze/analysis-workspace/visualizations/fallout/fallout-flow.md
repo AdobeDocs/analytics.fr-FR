@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -33,11 +33,11 @@ Une visualisation des abandons s’avère utile pour l’analyse des éléments 
 * Flux de trafic général de portée plus large : parmi les personnes qui ont consulté la page d’accueil, ce flux montre combien d’entre elles ont réalisé une recherche et combien d’entre elles ont consulté un article en particulier.
 * Corrélations entre les événements de votre site. Les corrélations indiquent quel pourcentage de personnes ayant consulté votre politique de confidentialité ont continué leur visite jusqu’à l’achat d’un produit.
 
-[Didacticiel](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=fr-FR)  vidéo sur la visualisation des abandons (4:15)
+[Tutoriel vidéo sur la visualisation des abandons](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=fr-FR) (4:15)
 
 ## Segmentation comme base des flux et des abandons {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Les segments appliqués aux panneaux Espace de travail fonctionnent légèrement différemment des segments appliqués aux rapports d’abandons et de flux dans les rapports et analyses. En général, ils génèrent exactement les mêmes résultats. La principale différence réside dans le fait que les rapports et analyses appliquent le segment à chaque étape de la séquence. C’est pourquoi il arrive que les résultats diffèrent légèrement.
+Le fonctionnement des segments appliqués aux panneaux Workspace diffère légèrement de celui des segments appliqués aux rapports Abandons et Flux dans Reports &amp; Analytics. En général, ils génèrent exactement les mêmes résultats. La principale différence réside dans le fait que Reports &amp; Analytics applique le segment à chaque étape de la séquence. C’est pourquoi il arrive que les résultats diffèrent légèrement.
 
 Prenons l’exemple d’un abandon avec deux étapes :
 
@@ -47,13 +47,13 @@ Si vous appliquez un segment au niveau du panneau Workspace, il est combiné ave
 
 ![](assets/fallout_seg.png)
 
-En revanche, lorsque les rapports et analyses calculent le segment, celui-ci est combiné de la manière suivante :
+En revanche, lorsque Reports &amp; Analytics calcule le segment, celui-ci est combiné de la manière suivante :
 
 ![](assets/fallout_segments3.png)
 
-Les rapports et analyses combinent le segment à chaque étape. Si les conteneurs sont au même niveau que l’abandon (par exemple, visite ou visiteur), le nombre de visites ou de visiteurs reste identique.
+Reports &amp; Analytics combine le segment à chaque étape. Si les conteneurs sont au même niveau que l’abandon (par exemple, visite ou visiteur), le nombre de visites ou de visiteurs reste identique.
 
-Si, toutefois, le segment appliqué au panneau est à un niveau inférieur à celui de l’abandon (par exemple, niveau des accès), il produit des résultats différents en raison de la façon dont il est combiné par le rapport. Pour répéter, dans la plupart des cas, les chiffres en Analysis Workspace correspondent à ceux des rapports et analyses. Ils ne seront **pas** identiques uniquement si toutes les conditions ci-après sont vraies :
+Si, toutefois, le segment appliqué au panneau est à un niveau inférieur à celui de l’abandon (par exemple, niveau des accès), il produit des résultats différents en raison de la façon dont il est combiné par le rapport. En résumé, dans la plupart des cas, les résultats dans Analysis Workspace sont identiques à ceux de Reports &amp; Analytics. Ils ne seront **pas** identiques uniquement si toutes les conditions ci-après sont vraies :
 
 * Le segment n’est pas au même niveau que l’abandon.
 * Le segment contient une variable où le visiteur/la visite peut avoir plusieurs valeurs durant une visite/un visiteur.
