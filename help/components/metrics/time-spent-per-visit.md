@@ -1,9 +1,9 @@
 ---
 title: Durée de la visite
 description: Durée de la visite pour l’élément de dimension.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dc5c51f68ab22bd4f1368aa0656c66ee53d99103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
 ht-degree: 100%
 
