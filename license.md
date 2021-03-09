@@ -1,182 +1,90 @@
 ---
 title: Licence Apache
+description: Termes de la licence Apache.
 translation-type: tm+mt
-source-git-commit: 8f17602b6295864d0391695061cdf2e381c954b2
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+workflow-type: tm+mt
+source-wordcount: '1576'
+ht-degree: 99%
 
 ---
 
 
 # Licence Apache
 
-    Version 2.0, janvier 2004
+    Version 2.0, janvier 2004
 <!--                        https://www.apache.org/licenses/  -->
 
-CONDITIONS GÉNÉRALES D'UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION
+CONDITIONS GÉNÉRALES D’UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION
 
 1. Définitions.
 
-   La « licence » doit signifier les conditions générales d'utilisation, de reproduction et de distribution définies par les sections 1 à 9 de ce document.
+   « Licence » désigne les conditions générales d’utilisation, de reproduction et de distribution définies aux sections 1 à 9 du présent document.
 
-   « Concédant » désigne le propriétaire ou l'entité du copyright autorisé par
-le propriétaire du copyright qui accorde la licence.
+   Le « Concédant » est le titulaire des droits d’auteur ou l’entité autorisée par le titulaire des droits d’auteur qui cède la Licence.
 
-   « Entité juridique » signifie l'union de l'entité qui agit et toutes
-les autres entités qui contrôlent, sont contrôlées par ou sont sous-jacentes à cette entité. Dans cette définition,
-« contrôle » signifie (i) la puissance, direct ou indirect, pour provoquer la
-direction ou la gestion d'une telle entité, par contrat ou
-autrement, ou (ii) propriété de 50 % (50 %) ou plus de partages en attente ou (iii) propriété bénéfique de cette entité.
+   « Personne morale » désigne la relation entre une entité et toute autre entité qui contrôle cette entité, qui est contrôlée par cette entité ou qui se trouve sous contrôle commun avec elle. Au sens de la présente définition, on entend par « contrôle » (i) le pouvoir, direct ou indirect, de diriger ou gérer cette entité, que cela soit contractuellement ou autrement, ou (ii) la détention de cinquante pour cent (50 %) ou plus de ses actions en circulation, ou (iii) la propriété effective de cette entité.
 
-   « Vous »
-(ou « Votre ») doit signifier qu'une personne physique ou morale exerce les autorisations accordées par cette licence.
+   « Vous » (ou « Votre/Vos ») signifie une personne ou une entité légale exerçant les autorisations accordées par cette Licence.
 
-   Le formulaire « Source » doit signifier le formulaire préféré pour apporter des modifications, y compris mais sans se limiter au code source du logiciel, à la source de documentation
-et aux fichiers de configuration.
+   « Forme Source » signifie la forme préférée pour effectuer des modifications, y compris, mais sans s’y limiter, le code source du logiciel, la documentation source et les fichiers de configuration.
 
-   Le formulaire « Objet » doit signifier tout formulaire résultant de la transformation ou de la traduction mécanique
-d'un formulaire Source, y compris mais
-sans être limité au code d'objet compilé, à la documentation générée et aux conversions dans d'autres types de supports.
+   « Forme Objet » signifie toute forme résultant d’une transformation mécanique ou de la traduction d’une forme source, y compris, mais sans s’y limiter, le code objet compilé, la documentation générée et les conversions vers d’autres types de support.
 
-   Le terme « Work » désigne le travail de l'auteur, que ce soit dans le formulaire Source ou
-Objet, rendu disponible sous Licence, comme indiqué par un
-avis de copyright inclus dans le travail ou associé au travail
-(un exemple figure dans l'Annexe ci-dessous).
+   « Œuvre » s’entend d’une œuvre protégée par le droit d’auteur, sous forme Source ou Objet, mise à disposition dans le cadre de la Licence, comme l’indique la mention de copyright inclus ou attaché à l’œuvre (un exemple est fourni dans l’Annexe ci-dessous).
 
-   Le terme « Œuvres dérivées » désigne tout travail, que ce soit dans le formulaire Source ou Objet,
-basé sur (ou dérivé) le travail et pour lequel les
-révisions, les annotations, les approbations ou toute autre modification
-représentent le travail d'origine de l'auteur. Dans le cadre de cette licence, les travaux dérivés ne doivent pas inclure les travaux qui restent
-séparés ou simplement lier (ou lier par nom) les interfaces de,
-travaux et dérivés.
+   « Œuvres dérivées » désigne toute œuvre sous forme source ou objet, fondée sur (ou dérivée de) l’Œuvre et dont les révisions éditoriales, les notes, les élaborations ou autres modifications représentent, dans leur ensemble, une œuvre originale au sens du droit d’auteur. Aux fins de la présente Licence, les Œuvres dérivées ne comprennent pas les œuvres qui restent séparables des Œuvres et des Œuvres dérivées, ou qui n’y sont liées que par les interfaces (ou les appellent par leur nom).
 
-   La « Contribution » désigne tout travail de l'auteur, y compris
-la version d'origine du travail et les modifications ou ajouts
-associés à ce travail ou à ces œuvres, qui sont délibérément
-envoyés au concédant pour inclusion dans le travail par le propriétaire
-du copyright ou par une personne physique ou morale autorisée à envoyer pour le compte du propriétaire du copyright. À des fins de cette définition, « envoyé »
-désigne toute forme de communication électronique, verbale ou écrite envoyée
-au concédant ou à ses représentants, y compris mais sans que la communication sur les listes de messagerie électronique, les systèmes de contrôle du code source et
-les systèmes de suivi de problèmes qui sont gérés par ou pour le compte du
-concédant pour l'objectif de discuter et d'améliorer le fonctionnement du concédant, mais
-exclut la communication marquée ou désignée
-de manière concise par le propriétaire du copyright « Pas une contribution.  » »
+   « Contribution » désigne toute œuvre au sens du droit d’auteur, y compris la version originale de l’Œuvre et toute modification ou ajout à cette Œuvre ou aux Œuvres dérivées, offerte de manière intentionnelle au Concédant de la Licence par l’auteur ou par une personne ou Personne morale autorisée à agir au nom de l’auteur afin d’être incorporée dans l’Œuvre. Aux fins de la présente définition, le terme « soumis » désigne toute forme de communication électronique, verbale ou écrite envoyée au Concédant ou à ses représentants, y compris, mais sans s’y limiter, les communications sur les listes de courriers électroniques, les systèmes de contrôle de code source et les systèmes de suivi de problèmes qui sont gérés par ou au nom du Concédant de la Licence dans le but de discuter et améliorer l’Œuvre, à l’exclusion de toute communication portant de manière visible la marque « Non-contribution » ou signalée par écrit d’une autre manière par l’auteur comme n’étant pas une contribution.
 
-   « Contributeur » signifie Concédant et toute Entité
-juridique ou Morale pour le compte d'où une Contribution a été reçue par Concédant puis
-incorporée dans le Travail.
+   « Contributeur » désigne le Concédant et toute personne physique ou morale au nom de laquelle une Contribution a été reçue par le Concédant et intégrée par la suite à l’Œuvre.
 
-2. Octroi de la licence de copyright. Conformément aux termes et conditions de
-cette licence, chaque contributeur accorde à Vous une licence perpétuelle,
-mondiale, non exclusive, sans redevance, sans redevance, sans
-redevance, pour reproduire, préparer les œuvres dérivées,
-afficher publiquement, exécuter publiquement, afficher publiquement, exécuter publiquement, exécuter une sous-relation et diffuser le formulaire dans le formulaire Source ou Objet.
+2. Concession de licence de copyright. Sous réserve des dispositions de la présente Licence, chaque Contributeur Vous accorde par la présente une licence de copyright perpétuelle, mondiale, non exclusive, sans frais et libre de redevance afin de reproduire l’Œuvre, de préparer des Œuvres dérivées, d’exécuter et afficher publiquement, sous-licencier et distribuer les Œuvres et les Œuvres dérivées sous forme de Code Source ou de Code Objet.
 
-3. Octroi de licence de brevet. Conformément aux termes et conditions de
-cette licence, chaque contributeur accorde, par la présente, à Vous un perpétuel et
-non exclusif, sans frais, sans frais, sans
-frais (sauf comme indiqué dans cette section) licence de brevet à créer, à vendre, à utiliser, offre de vente, de vente, d'importation et d'autre transfert du travail,
-où cette licence s'applique uniquement aux demandes de brevet par ce contributeur. (s) seul ou par combinaison de leur contribution avec le travail auquel ces contributions ont été envoyées. Si vous
-organisez des litiges de brevet à l'encontre d'une entité (y compris une demande croisée ou une requête contre-requête dans un procès), supposant que le travail
-ou une contribution incluse dans le Travail représente une violation de brevet directe
-ou contributive, toute licence
-de brevet accordée à Vous sous cette licence doit expirer
-à compter de la date de ce litige.
+3. Concession d’une Licence de brevet. Sous réserve des dispositions de la présente licence, chaque Contributeur Vous accorde par la présente une licence de brevet perpétuelle, mondiale, non exclusive, sans frais, libre de redevance et irrévocable (sauf mention contraire dans cette rubrique) selon laquelle vous êtes autorisé à fabriquer, faire fabriquer, utiliser, proposer à la vente, vendre, importer et transférer d’une autre manière l’Œuvre, dans la mesure où cette licence ne s’applique qu’aux revendications du brevet pouvant être distribué sous licence par ces Contributeurs qui doivent nécessairement être transgressées par leur(s) Contribution(s) seule(s) ou par une combinaison de leur(s) Contribution(s) et de l’Œuvre pour laquelle ces Contributions ont été soumises. Si Vous intentez une procédure contentieuse contre toute entité (y compris par une procédure croisée ou par demande reconventionnelle) en alléguant que l’Œuvre ou que des Contributions incorporés dans l’Œuvre constituent une contrefaçon de brevet directe ou par fourniture de moyen, toutes les licences de brevet qui vous ont été accordées en vertu de la présente Licence pour cette Œuvre seront résiliées à la date de l’enrôlement de cette procédure.
 
-4. Redistribution. Vous pouvez reproduire et distribuer des copies du travail ou des dérivés dans n'importe quel support, avec ou sans
-modifications, et dans le formulaire Source ou Objet, à condition que Vous
-respectiez les conditions suivantes :
+4. Redistribution. Vous pouvez reproduire et distribuer des copies de l’Œuvre ou des Œuvres dérivées de celle-ci sous quelque forme que ce soit, avec ou sans modification et dans la forme Source ou Objet, à condition que les conditions suivantes soient respectées :
 
-   (a) vous devez fournir à d'autres destinataires du Work ou
-de Dérivation une copie de cette licence ; et
+   (a) Vous devez donner à tout destinataire de l’Œuvre ou des Œuvres dérivées une copie de la présente Licence ; et
 
-   (b) vous devez faire en sorte que tous les fichiers modifiés contiennent des avis
-significatifs indiquant que vous avez modifié les fichiers ; et
+   (b) Vous devez faire en sorte que tout fichier modifié porte l’indication très claire du fait que Vous y avez apporté des modifications ; et
 
-   (c) vous devez conserver, dans la forme Source des œuvres
-dérivées que Vous distribuez, tous les avis de copyright, de brevet, de marque commerciale et d'attribution du formulaire Source du travail,
-à l'exception des avis qui ne concernent aucune partie de la variable Dérivée ; et
+   (c) Vous devez conserver, dans la Forme Source de toute Œuvre dérivée que vous distribuez, toutes les mentions de copyright, de brevet, de marques commerciales et les mentions d’attribution de la Forme Source de l’Œuvre, exception faite des mentions légales qui ne concernent aucune partie des Œuvres dérivées ; et
 
-   (d) Si le Travail inclut un fichier texte « NOTICE » dans le cadre de
-sa distribution, les œuvres dérivées que Vous distribuez doivent
-inclure une copie lisible des avis d'attribution contenus
-dans ce fichier avis, à l'exclusion des avis qui ne concernent aucune partie de l'élément Dérivés, dans au moins l'un
-des emplacements suivants : dans un fichier texte d'avis distribué
-dans le cadre de l'opération dérivée dans le formulaire source ou
-la documentation, si fourni avec le service dérivatif ; ou,
-dans un affichage généré par le service dérivés, si et
-quand ces notifications tierces apparaissent normalement. Le contenu
-du fichier NOTICE est fourni à titre d'information uniquement et
-ne modifie pas la licence. Vous pouvez ajouter vos propres avis d'attribution
-dans les travaux dérivés que Vous distribuez, avec
-ou comme addendum au texte AVIS du travail, à condition
-que ces notifications d'attribution supplémentaires ne puissent pas être interprétées
-comme modifiant la licence.
+   (d) Si l’Œuvre comprend un fichier texte « AVERTISSEMENT » faisant partie de sa distribution, toute Œuvre dérivée que vous distribuez doit alors inclure une copie lisible des mentions d’attribution présentes dans ce fichier « AVERTISSEMENT », exception faite des mentions qui ne concernent aucune partie des Œuvres dérivées, au moins dans l’un des sites suivants : dans un fichier de texte AVERTISSEMENT distribué comme une partie de l’Œuvre dérivée ; dans la Forme Source ou la documentation, si elle est fournie avec les Œuvres dérivées ; ou dans un affichage généré par les Œuvres dérivées, là où ces avis de tiers apparaissent normalement. Le contenu du fichier AVERTISSEMENT est publié à titre informatif uniquement et ne modifie pas la Licence. Vous pouvez ajouter vos propres mentions d’attribution dans les Œuvres dérivées que vous distribuez, avec ou en supplément du texte de l’AVERTISSEMENT de l’Œuvre, à condition que ces mentions supplémentaires d’attribution ne puissent pas être interprétées comme étant une modification de la Licence.
 
-   Vous pouvez ajouter votre propre déclaration de copyright à vos modifications et
-éventuellement fournir des conditions et conditions
-de licence supplémentaires ou différentes pour l'utilisation, la reproduction ou la distribution de vos modifications, ou
-pour une quelconque dérivation de ce type, à condition que Votre utilisation,
-la reproduction et la distribution du travail soient conformes aux conditions énoncées dans cette licence.
+   Vous pouvez ajouter Votre propre avertissement de copyright à Vos modifications et soumettre à des dispositions supplémentaires ou différentes la licence d’utilisation, de reproduction, ou de distribution de Vos modifications ou de toute Œuvre dérivée en entier, sous réserve que votre utilisation, reproduction et distribution de l’Œuvre respectent par ailleurs les dispositions de la présente Licence.
 
-5. Envoi des contributions. A moins que vous n'ayez explicitement état de votre état, toute contribution intentionnellement soumise à l'inclusion dans votre travail
-au concédant sera soumise aux termes et conditions de
-cette licence, sans aucun autre termes ou conditions.
-Nonobstant ce qui précède, rien ici ne doit remplacer ou modifier
-les termes de tout contrat de licence distinct que vous avez exécuté
-avec Concédant de licence concernant ces Contributions.
+5. Offre de Contributions. Sauf indication contraire de Votre part, toute contribution présentée de manière intentionnelle de Votre part au Concédant de la Licence pour être incorporée dans l’Œuvre sera soumise aux conditions générales de la présente Licence sans dispositions supplémentaires.
+Nonobstant ce qui précède, rien dans les présentes ne peut remplacer ni modifier les termes de tout contrat de licence séparé que vous pourriez avoir signé avec le Concédant concernant lesdites Contributions.
 
-6. Marques. Cette licence n'autorise pas l'utilisation des noms commerciaux,
-des marques, des marques de service ou des noms de produits du concédant,
-sauf si une utilisation raisonnable et usuelle est nécessaire pour décrire l'origine
-du travail et reproduire le contenu du fichier AVIS.
+6. Marques déposées. La présente Licence n’autorise pas l’utilisation des noms, marques déposées, marques de service ou noms de produits du Concédant, sauf dans la mesure nécessaire à l’utilisation raisonnable et habituelle pour la description de l’origine de l’Œuvre et la reproduction du contenu du fichier AVERTISSEMENT.
 
-7. Clause exonératoire de responsabilité. Sauf si la loi en vigueur ou
-acceptation par l'écrit est soumise à autorisation, concentrez le concédant de l'autorisation (et chaque
-contributeur fournit ses contributions) sur une BASE « TELLE QUEL »,
-SANS GARANTIE OU CONDITIONS D'AUCUNE SORTE, expresse ou
-implicite, y compris, sans aucune garantie, les
-conditions de TITRE, DE NON-VIOLATION, DE MARCHANDISABILITÉ OU d'ADÉQUATION À UNE FINALITÉ PARTICULIÈRE. Vous êtes seul responsable de l'utilisation ou de la redistribution du travail et assumez les
-risques inhérents à votre exercice des autorisations sous cette licence.
+7. Exclusion de Garantie. À moins que la loi ne l’exige expressément ou que cela soit prévu par écrit, le Concédant de la Licence fournit l’Œuvre (et chaque Contributeur fournit ses Contributions) « EN L’ÉTAT », SANS GARANTIES NI CONDITIONS DE QUELQUE SORTE QUE CE SOIT, explicites ou implicites, y compris, mais sans s’y limiter, toute garantie ou condition de TITULARITÉ, DE NON-CONTREFAÇON, DE QUALITÉ MARCHANDE ou D’ADÉQUATION À UN USAGE PARTICULIER. Vous devez déterminer sous votre entière responsabilité l’adéquation de l’usage ou de la redistribution de l’Œuvre et vous assumez tous les risques associés à Votre exercice des autorisations accordées par la présente Licence.
 
-8. Limite de responsabilité. En aucun cas et sans aucune théorie juridique,
-qu'il s'agisse d'un contrat mineur (négligence compris) ou d'un contrat ou d'une autre façon,
-sauf si la législation en vigueur (actes délibérés et négatients,
-par exemple) ou si elle est acceptée par écrit, doit être responsable de vos dommages, y compris les dommages directs, indirects, spéciaux,
-occasionnels ou consécutifs d'un caractère qui se produisent à la suite de cette licence ou de l'impossibilité d'utiliser le travail (y compris les dommages causés par la perte de goodwill, l'arrêt
-de travail, l'échec de l'ordinateur ou le dysfonctionnement, ou tout autre dommage ou perte commercial), même si tel est le cas Le contributeur
-a été informé du risque de dommage.
+8. Limitation de Responsabilité. En aucun cas et sur quelque moyen juridique que ce soit, qu’il s’agisse de responsabilité délictuelle (comprenant la négligence), contractuelle ou autre, et sauf en cas de responsabilité légalement obligatoire (telles que la responsabilité pour les actes délibérés ou les négligences graves) ou en cas d’accord écrit, les Contributeurs ne sauraient être tenus responsables à Votre égard de tous dommages, y compris tous dommages directs, indirects, spéciaux, accessoires ou consécutifs de quelque caractère que ce soit, résultant de cette Licence ou de l’utilisation ou de l’incapacité à utiliser l’Œuvre (notamment, mais sans que cette liste soit exhaustive, la perte de clientèle, les interruptions d’exploitation, les pannes ou dysfonctionnements d’ordinateur, ou tout autre dommage commercial ou perte), même si ces Contributeurs avaient été avertis de l’éventualité d’un tel dommage.
 
-9. Acceptation de la garantie ou de la responsabilité supplémentaire. Lors de la rediffusion
-du travail ou des dérivés, vous pouvez choisir d'offrir et
-d'imputer des frais pour l'acceptation de la prise en charge, de la garantie, de l'indemnité ou d'autres obligations de responsabilité et/ou des droits conformes à cette
-licence. Toutefois, en acceptant ces obligations, vous pouvez agir uniquement
-pour votre propre compte et à votre seule responsabilité, et non pour le compte
-d'un autre contributeur, et seulement si Vous acceptez d'indemniser,
-de défendre et de retenir chaque contributeur sans aucune déficience pour toute responsabilité liée à une responsabilité
-ou à une responsabilité de ce type contributeur.
+9. Acceptation de garanties ou Responsabilité additionnelle. Lors de la redistribution de l’Œuvre ou des Œuvres dérivées, vous pouvez choisir d’offrir et de prélever des frais pour le support, la garantie, l’indemnisation ou toute autre obligation de responsabilité et/ou droits compatibles avec la présente Licence. Cependant, lorsque vous acceptez lesdites obligations, vous agissez uniquement en votre nom et vous êtes seul responsable, vous n’engagez aucun autre Contributeur, vous vous engagez à indemniser, défendre et garantir chacun des Contributeurs en cas de réclamation ou de poursuite due au fait que vous avez accepté cette garantie ou responsabilité additionnelle.
 
 FIN DES CONDITIONS GÉNÉRALES
 
-ANNEXE : Comment appliquer la licence Apache à votre travail ?
+ANNEXE : Comment appliquer la Licence Apache à votre travail.
 
-    Pour appliquer la licence Apache à votre travail, joignez l'avertissement d'éligibilité
-    , avec les champs placés entre crochets « {} »
-    remplacés par vos propres informations d'identification. (Don't include
-    the brackets!)  The text should be enclosed in the appropriate
-    comment syntax for the file format. We also recommend that a
-    file or class name and description of purpose be included on the
-    same "printed page" as the copyright notice for easier
-    identification within third-party archives.
+    Pour appliquer la Licence Apache à votre travail, joignez l’
+    avis standard suivant, avec les champs entre crochets « {} »
+    remplacés par vos propres informations d’identification. (N’incluez pas 
+    les crochets !)  Le texte doit être inclus dans la syntaxe de commentaire
+    appropriée pour le format de fichier. Nous recommandons également d’inclure un
+    nom de fichier ou de classe, ainsi qu’une description de l’objectif sur la
+    même « page imprimée » que la mention de copyright en vue de simplifier 
+    l’identification dans les archives tierces.
 
 Copyright 2018 Adobe Systems, Inc
 
-Sous licence Apache, Version 2.0 (la « Licence ») ;
-vous ne pouvez pas utiliser ce fichier, sauf en conformité avec la licence.
-Vous pouvez obtenir une copie de la licence à
+Concédé sous la Licence Apache, version 2.0 (la « Licence ») ; vous ne pouvez pas utiliser ce fichier, sauf en conformité avec la Licence.
+Vous pouvez obtenir une copie de la Licence à l’adresse
 
     https://www.apache.org/licenses/LICENSE-2.0
 
-Sauf si la loi en vigueur ou acceptation par l'écriture est écrite, les logiciels
-distribués sous la licence sont distribués sur la base « AS IS »,
-SANS GARANTIE OU CONDITIONS D'AUCUNE SORTE, expresse ou implicite.
-Reportez-vous à la licence de la langue spécifique qui régit les autorisations et
-limites sous Licence.
+À moins que la loi applicable ne l’exige ou sauf disposition écrite, les logiciels distribués en vertu de la Licence sont distribués « TELS QUELS », SANS GARANTIE OU CONDITION D’AUCUNE SORTE, expresses ou implicites.
+Consultez la section Licence pour prendre connaissance du langage spécifique qui régit les autorisations et les restrictions soumises à la Licence.
