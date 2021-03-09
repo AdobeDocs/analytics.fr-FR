@@ -1,11 +1,11 @@
 ---
-title: Configuration d’un compte Advertising
-uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
+title: Configuration d’un compte publicitaire en Advertising Analytics
+description: Vous permet de créer des comptes publicitaires et de mapper plusieurs comptes à plusieurs suites de rapports.
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Suite de rapports Mappage </p> </td> 
+      <td colname="col1"> <p>Mappage de suites de rapports </p> </td> 
       <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> <p>Si la suite de rapports ne figure pas dans la liste, vous pouvez <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >mapper votre suite de rapports à une organisation Experience Cloud</a> en utilisant cet outil. </p> </td> 
       </tr> 
     </tbody> 
