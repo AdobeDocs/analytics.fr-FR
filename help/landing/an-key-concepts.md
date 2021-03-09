@@ -1,9 +1,9 @@
 ---
 description: Cette section présente des concepts clés liés à Adobe Analytics, une brève description du concept et un lien vers une documentation spécifique comprenant des détails supplémentaires sur le sujet.
 title: Adobe Analytics – Concepts clés
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1858'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Cliquez [ici](/help/technotes/terms.md) pour consulter un glossaire complet des 
 | Rapports sur les parcours clients | Affiche des informations sur le chemin suivi par vos utilisateurs sur votre site ou application. Les variables prop, eVar et les événements peuvent être utilisés dans cette analyse dans Analysis Workspace. | [Abandon dans Analysis Workspace](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Flux dans Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Cheminement dans Reports and Analytics](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | Canaux marketing | Ces rapports permettent de comprendre quels canaux externes orientent les utilisateurs vers votre site et lesquels sont plus efficaces pour engendrer une conversion. Les vues d’attribution Première touche et Dernière touche sont fournies. C’est le rapport de source de trafic externe privilégié dans Adobe Analytics (plutôt que les campagnes ou les sources de trafic), car il fournit la présentation la plus complète au niveau des canaux payants et organiques. | [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | Mobile | Présente des informations au sujet des sites web accessibles sur un appareil mobile ou une tablette. | [Rapport Mobile](/help/components/dimensions/mobile-dimensions.md) |
-| Application mobile | Présentent des informations d’utilisation de base liées à vos applications mobiles. Ces rapports sont disponibles une fois notre SDK mis en œuvre et la création de rapports activée.  En outre, Adobe Mobile Services a créé une interface distincte d’application mobile qui fournit des données d’application plus complètes, ce qui vous permet de comprendre et d’améliorer l’interaction des utilisateurs avec vos applications.  Vous pouvez accéder à l’interface [ici](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Application mobile | Présentent des informations d’utilisation de base liées à vos applications mobiles. Ces rapports sont disponibles une fois notre SDK mis en œuvre et la création de rapports activée.  En outre, Adobe Mobile Services a créé une interface distincte d’application mobile qui fournit des données d’application plus complètes, ce qui vous permet de comprendre et d’améliorer l’interaction des utilisateurs avec vos applications.  Vous pouvez accéder à l’interface [ici](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html) |
 | Produits | Identifient la manière dont les produits individuels et groupes de produits (catégories) influencent vos différentes mesures de conversion, comme les recettes ou les passages en caisse. | [Rapport Produits](/help/components/dimensions/product.md) |
 | Comparaison de segments | Détecte les différences les plus importantes sur le plan statistique entre deux segments au moyen d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès. | [Comparaison de segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | Rapport Contenu du site | Présente des informations sur les pages et les sections les plus actives de votre site et sur les serveurs les plus sollicités. | [Rapport Contenu du site](/help/components/dimensions/page.md) |
