@@ -1,11 +1,11 @@
 ---
-description: Les incohérences des données peuvent causer de gros problèmes. Découvrez comment identifier les anomalies statistiques à l’aide des techniques de détection des anomalies de l’Adobe. Commencez aujourd'hui.
+description: Les incohérences dans les données peuvent causer de gros problèmes. Apprenez comment identifier les anomalies statistiques à lʼaide des techniques de détection des anomalies dʼAdobe. Commencez dès aujourdʼhui.
 title: Techniques statistiques de la détection des anomalies
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Selon la granularité de date du rapport, trois différentes techniques statisti
 
 Dans les rapports avec une granularité quotidienne, l’algorithme prend en compte plusieurs facteurs importants afin de produire les résultats les plus exacts possible. L’algorithme détermine tout d’abord le type de modèle à appliquer, en fonction des données disponibles d’après lesquelles vous sélectionnez une classe : un modèle de série chronologique ou un modèle de détection des valeurs aberrantes (filtrage fonctionnel).
 
-Le modèle de série chronologique repose sur les combinaisons suivantes de type d’erreur, de tendance et de caractère saisonnier, comme décrit par [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). Plus particulièrement, l’algorithme tente les combinaisons suivantes :
+Le modèle de série chronologique repose sur les combinaisons suivantes de type d’erreur, de tendance et de caractère saisonnier, comme décrit par [Hyndman et al. (2008)](https://www.springer.com/fr/book/9783540719168). Plus particulièrement, l’algorithme tente les combinaisons suivantes :
 
 1. Erreur additive, aucune tendance, caractère saisonnier additif (ANA)
 1. Erreur additive, tendance additive, caractère saisonnier additif (AAA)
