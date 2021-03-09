@@ -1,11 +1,11 @@
 ---
 title: Autorisations dʼAdobe Analytics - tableaux récapitulatifs
 description: Tableaux qui résument les autorisations disponibles pour Adobe Analytics dans Admin Console.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Coûts | x |  |  |  | Accorde l’accès à Canaux marketing > Coûts de canal marketing dans le Gestionnaire de suites de rapports. |
 | Calendrier personnalisé | x |  |  |  | Accorde l’accès à Général > Personnaliser le calendrier dans le Gestionnaire de suites de rapports. |
 | Gestionnaire des flux de données | x |  |  |  | Accorde l’accès à Admin > Flux de données dans la barre de navigation supérieure d’Analytics. |
-| API de réparation des données | x |  |  |  | Accorde l&#39;accès à l&#39;API de réparation des données |
+| API de réparation des données | x |  |  |  | Accorde l’accès à l’API Data Repair |
 | Gestionnaire des sources de données | x |  |  |  | Accorde l’accès à Admin > Sources de données dans le volet de navigation supérieur d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
 | Mesures par défaut | x |  |  |  | Accorde l’accès à Paramètres d’une suite de rapports spécifique > Mesures par défaut dans le Gestionnaire de suites de rapports. |
 | Exclure par adresse IP | x |  |  |  | Accorde l’accès à Admin > Exclure par IP dans le volet de navigation supérieur d’Analytics. |
@@ -89,7 +89,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Gestion du trafic | x |  |  |  | Accorde l’accès à Admin > Gestion du trafic. |
 | Services web | x |  |  |  | Accorde l’accès à Admin > Paramètres de la société > Services web. |
 | Activity Map |  | x |  |  | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
-| Utilisateurs de la licence d’Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis est en fin de vie. [Plus d’informations](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Utilisateurs de la licence d’Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis tire sa révérence. [Plus d’informations](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Accès à Analysis Workspace |  | x |  |  | Octroie l’accès à Analysis Workspace. Les utilisateurs doivent appartenir à ce groupe (préféré) ou disposer d’un accès aux Reports &amp; Analytics pour utiliser Adobe Analytics. |
 | Analysis Workspace : enregistrer comme modèle |  | x |  |  | Accorde l’accès à Projet > Enregistrer comme modèle dans Analysis Workspace. |
 | Création de mesure calculée |  | x |  |  | Permet de créer des mesures calculées pour toutes les fonctionnalités d’Analytics. |
