@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 99%
    + [Canal Dernière touche](dimensions/last-touch-channel.md)
    + [Détails du canal Dernière touche](dimensions/last-touch-detail.md)
    + [Canal marketing](dimensions/marketing-channel.md)
-   + [Détails du canal marketing](dimensions/marketing-detail.md)
+   + [Détail des canaux marketing](dimensions/marketing-detail.md)
    + [Minute](dimensions/minute.md)
    + [Dimensions mobiles](dimensions/mobile-dimensions.md)
    + [Résolution de l’écran](dimensions/monitor-resolution.md)
