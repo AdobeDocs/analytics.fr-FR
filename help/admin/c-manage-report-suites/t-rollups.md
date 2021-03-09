@@ -1,13 +1,13 @@
 ---
 description: Description de la procédure de création d’une suite de rapports de cumul.
 title: Création d’une suite de rapports de cumul
-topic: Admin tools
+topic: Outils d’administration
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 42cdbdafdafb94b336253ff49dfa2fb77ed9f339
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 92%
+source-wordcount: '121'
+ht-degree: 76%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 92%
 # Création d’une suite de rapports de cumul
 
 Description de la procédure de création d’une suite de rapports de cumul.
+
+>[!NOTE]
+>
+>[!DNL Reports & Analytics] est le seul outil qui prend en charge les rapports de cumul et l’Adobe ne recommande plus l’utilisation de cumuls. Voir &quot;[Approches des suites de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)&quot; pour les alternatives.
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Dans le volet [!UICONTROL Groupes de suites de rapports], cliquez sur **[!UICONTROL Ajouter]** en regard de l’en-tête **[!UICONTROL Cumuls]**.
@@ -26,7 +30,3 @@ Description de la procédure de création d’une suite de rapports de cumul.
 
    **[!UICONTROL Fuseau horaire :]** fuseau horaire où les données font l’objet d’un rapport.
 1. Cliquez sur **[!UICONTROL Créer un cumul]**.
-
->[!NOTE]
->
->Les cumuls ne sont pas pris en charge en Analysis Workspace.
