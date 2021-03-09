@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
 source-wordcount: '2078'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ Oui, tous les segments peuvent être gérés dans le Gestionnaire de segments. L
 
 Les administrateurs peuvent voir tous les segments dans les interfaces utilisateur d’Analysis Workspace et d’[!DNL Reports & Analytics].
 
-Le Report Builder affiche uniquement les segments que vous avez créés ou ceux qui ont été partagés avec vous.
+Report Builder affiche uniquement les segments que vous avez conçus ou ceux qui ont été partagés avec vous.
 
 **Pourquoi ne puis-je pas supprimer ce segment ?**
 
@@ -137,7 +137,7 @@ Vous êtes doté d’un signet qui référence le segment pour la suite de rappo
 
 **Qu’advient-il des segments Data Warehouse ?**
 
-Tous les segments Data Warehouse existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments de Data Warehouse fonctionneront également dans d’autres composants tels que Analysis Workspace et les rapports et analyses.
+Tous les segments Data Warehouse existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments de Data Warehouse fonctionneront également dans d’autres composants tels qu’Analysis Workspace et Reports &amp; Analytics.
 
 Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du Créateur de segments détermine automatiquement si un segment est compatible avec Data Warehouse.
 
