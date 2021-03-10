@@ -5,10 +5,10 @@ title: Questions fréquentes
 topic: Connecteurs de données
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,6 @@ Commencez par vérifier que l’URL de la page d’entrée de la publicité en q
 
 Ensuite, vérifiez que vous disposez d’une intégration fonctionnelle en suivant les étapes décrites dans [Confirmation d’une intégration DFA réussie](../dfa-data-connector-analytics/dfa-integration.md). Si un code de suivi DFA apparaît avec l’accès Adobe sur la page d’entrée, le clic publicitaire doit apparaître dans le rapport des campagnes DFA. Si vous ne le voyez pas passer, vérifiez que les suites de rapports correspondent entre la variable *`s.account`* de la page d’entrée et la suite de rapports affichée dans Reports &amp; Analytics. Si elles correspondent, vérifiez les codes de suivi dans le rapport des eVar d’affichage publicitaire du type DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
 
-Ces codes indiquent que la règle VISTA DFA n’a pas réussi à digérer les données brutes de DFA. Ce problème peut être résolu en ouvrant un ticket d’assistance auprès de votre représentant de compte Adobe.
+Ces codes indiquent que la règle VISTA DFA n’a pas réussi à digérer les données brutes de DFA. Vous pouvez résoudre ce problème en ouvrant un ticket d&#39;assistance par l&#39;intermédiaire de votre représentant de compte d&#39;Adobe.
 
 Si aucune des solutions ci-dessus n’explique le problème, voir [Rapprochement des écarts de mesures](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) pour explorer d’autres possibilités.
