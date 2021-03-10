@@ -5,10 +5,10 @@ user-guide-title: Guide de mise en œuvre d’Analytics
 breadcrumb-title: Guide d’importation
 user-guide-description: 'Insérez des données dans Analytics à partir des sources externes, en masse ou en temps réel. '
 translation-type: tm+mt
-source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
+source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 98%
+source-wordcount: '529'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 98%
       + [Dimensions Demandbase standard](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Dimensions Demandbase personnalisées](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Connecteur de données DFA pour Adobe Analytics {#dfa}
+      + [Informations de fin de vie sur l’intégration DFA](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Connecteur de données DFA pour Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [Conditions préalables](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [Fonctions d’intégration](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
