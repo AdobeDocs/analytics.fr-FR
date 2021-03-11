@@ -2,10 +2,10 @@
 title: Fonctionnement des relectures
 description: Comprendre le concept de « relecture » dans les analyses entre appareils
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 92%
 
 ---
 
@@ -51,7 +51,12 @@ Les accès authentifiés et non authentifiés sur les nouveaux appareils sont (t
 
 ### Groupement de relecture
 
-Environ une fois par semaine, l’analyse entre appareils recalcule les données historiques en fonction des appareils qu’elle reconnaît maintenant. Si un appareil envoie des données alors qu’il n’est pas authentifié, puis se connecte, l’analyse entre appareils associe ces accès non authentifiés à la bonne personne. Le tableau suivant représente les mêmes données que ci-dessus, mais affiche des nombres différents à cause de la relecture des données.
+La relecture se produit tous les jours ou toutes les semaines, selon la façon dont vous avez demandé la configuration de CDA. Au cours de la relecture, CDA tente de retraiter les données historiques dans une fenêtre de recherche en amont définie :
+
+* La relecture quotidienne utilise une fenêtre de recherche en amont d’un jour.
+* La relecture hebdomadaire utilise une fenêtre de recherche en amont de 7 jours.
+
+Si un appareil envoie des données alors qu’il n’est pas authentifié, puis se connecte, l’analyse entre appareils associe ces accès non authentifiés à la bonne personne. Le tableau suivant représente les mêmes données que ci-dessus, mais affiche des nombres différents à cause de la relecture des données.
 
 *Les mêmes données après relecture :*
 
@@ -65,9 +70,3 @@ Environ une fois par semaine, l’analyse entre appareils recalcule les données
 | `6` | `246` | `Bob` | Bob se connecte à nouveau sur son ordinateur de bureau | `1` (grappe 1) | `1` (Bob) |
 | `7` | `3579` | - | Bob accède à nouveau à votre site depuis son appareil mobile | `1` (grappe 1) | `1` (Bob) |
 | `8` | `3579` | `Bob` | Bob se connecte à nouveau sur son appareil mobile | `1` (grappe 1) | `1` (Bob) |
-
-## Résumé
-
-* **Si vous utilisez un graphique d’appareil**, les données sont groupées lorsqu’une grappe est publiée (généralement après 3 heures à 2 semaines).
-* **Si vous utilisez le groupement basé sur les champs**, les données datant de moins d’une semaine sont immédiatement groupées aux appareils connus, mais ne sont pas immédiatement groupées aux appareils nouveaux ou non reconnus.
-* Les données sont relues une fois par semaine, modifiant les données historiques dans la suite de rapports virtuelle en fonction des appareils désormais identifiés.
