@@ -2,10 +2,10 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 100%
+source-wordcount: '1377'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,11 @@ L’utilisation du type de périphérique mobile comme illustré ci-dessus vous 
 
 ## Quelle est la durée de regroupement des visiteurs par les analyses entre appareils ?
 
-Adobe conserve les données de regroupement de périphériques pendant environ 30 jours. Si un appareil n’est pas initialement identifié, mais qu’il est identifié plus tard dans les 30 jours, les analyses entre appareils reviennent en arrière et indiquent à nouveau que cet appareil appartient à une personne identifiée jusqu’à 30 jours dans le passé. Si le comportement non identifié d’un utilisateur dépasse l’intervalle de recherche en amont de 30 jours, cette partie du parcours de l’utilisateur n’est pas regroupée.
+L&#39;assemblage multipériphériques de l&#39;ADC se produit dans deux processus simultanés.
+
+* Le premier processus est appelé &quot;assemblage en direct&quot;, qui se produit lorsque les données entrent en flux continu dans Adobe Analytics. Pendant l&#39;assemblage en direct, l&#39;ACD fait de son mieux pour retraiter les données au niveau de la personne. Cependant, si la personne est inconnue au moment de l&#39;assemblage en direct, l&#39;ADC revient à l&#39;ID de visiteur pour représenter la personne.
+
+* Le second processus s&#39;appelle &quot;replay&quot;. Au cours de la relecture, l’ADC revient en arrière dans le temps et redéclare les données historiques, si possible, dans une fenêtre de recherche en amont spécifiée. Cette fenêtre de recherche est de 1 jour ou 7 jours, selon la façon dont vous avez demandé la configuration de CDA. Au cours de la relecture, l’ADC tente de retraiter les accès où la personne était inconnue.
 
 * **Si vous utilisez un graphique d’appareil**, Adobe conserve les mappages de l’appareil dans le graphique Co-op et le graphique Privé pendant environ 6 mois. Un ECID sans activité depuis plus de six mois est supprimé du graphique. Les données déjà recoupées dans les analyses entre appareils ne sont pas affectées, mais les accès ultérieurs pour cet ECID sont considérés comme une nouvelle personne.
 
