@@ -2,10 +2,10 @@
 title: Groupement basé sur les champs
 description: Comprenez les conditions préalables et les limites du groupement de données à l’aide du groupement basé sur les champs.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '303'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,8 @@ Si vous envisagez d’implémenter les analyses entre appareils à l’aide du g
 ## Limites spécifiques au groupement basé sur les champs
 
 * Le groupement basé sur les champs fonctionne mieux sur les suites de rapports qui présentent un taux d’identification élevé. Si votre suite de rapports présente un taux d’identification ou de connexion faible, privilégiez le [graphique Co-op](device-graph.md).
+* Bien que les props et les eVars contiennent des règles de traitement des caractères en majuscules et en minuscules à des fins de rapports, l’assemblage basé sur des champs ne transforme en rien la prop ou l’eVar utilisé pour l’assemblage. L’assemblage basé sur les champs utilise la valeur du champ spécifié telle qu’elle existe après les règles VISTA et les règles de post-traitement. Par exemple, si le mot &quot;Bob&quot; apparaît parfois dans la prop/l&#39;eVar et que le mot &quot;BOB&quot; apparaît, il s&#39;agit de deux personnes distinctes.
 
 ## Étapes suivantes
 
-Une fois que toutes les conditions requises sont remplies et que vous avez compris les limites, vous pouvez commencer à [configurer les analyses entre appareils](setup.md).
+Une fois que votre entreprise a satisfait à toutes les exigences et a compris les limites, vous pouvez début [Configuration d’Analyses sur plusieurs périphériques](setup.md).
