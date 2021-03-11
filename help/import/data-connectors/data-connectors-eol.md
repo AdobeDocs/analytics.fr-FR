@@ -2,7 +2,7 @@
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 translation-type: tm+mt
-source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
+source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
@@ -61,7 +61,7 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | Demandbase CA | Abandon |
 | Demandbase v3 | Abandon |
 | DialogTech | Disponible sur Adobe Exchange |
-| DoubleClick for Advertisers (DFA) | Abandon |
+| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Abandon |
 | DREAM | Abandon |
 | DREAMmail 2.0 | Abandon |
 | Dynamic Signal (Nital Vora) | Migration vers Exchange |
