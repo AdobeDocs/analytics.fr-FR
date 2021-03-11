@@ -1,11 +1,11 @@
 ---
 description: Découvrez les directives et les recommandations concernant le consentement des utilisateurs quant au stockage ou à la lecture de cookies non essentiels sur des appareils ou des navigateurs.
 title: Quelles sont les directives de la CNIL concernant le consentement des utilisateurs et les cookies ?
-translation-type: ht
-source-git-commit: c5ebc92622e012699d64c27701b24a88429e9f4f
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 36259e3a36cad221d7264e5caa0a09a757dc4fe8
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,8 @@ Le 1er octobre 2020, l’autorité française de protection des données (la �
 Les Directives fournissent une exemption limitée à l’exigence de consentement (« Exemption de consentement »). L’Exemption de consentement s’applique aux cookies d’analyse dont le but est limité à mesurer l’audience du site ou de l’application uniquement pour le compte de l’éditeur web. Les Directives prévoient que les conditions suivantes doivent être mises en œuvre pour que l’exemption de consentement s’applique :
 
 * Période de rétention des données maximale de 25 mois. Vous pouvez consulter vos paramètres actuels de rétention des données sous Analytics > Admin > Gouvernance des données. [Rétention des données](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=fr)
-* Limite des cookies de 13 mois. Vous pouvez remplacer l’expiration de vos cookies d’analyse à l’aide de la variable `cookieLifetime`. [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=fr)
+* Désactivez les cookies tiers dans ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=en#id-service-api),  [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=en#id-service-api) et  [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=en#id-service-api)
+* La limite des cookies de 13 mois est définie sur une date statique et non variable.  Vous pouvez remplacer l’expiration de vos cookies d’analyse à l’aide de la variable `cookieLifetime`. [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=fr)
 * Portée limitée. La portée du cookie doit être limitée à un seul site ou une seule application. [Cookies de navigateur](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=fr&quot;\l&quot;third-party-cookie-implementations)
 * Anonymisation. Anonymisation du dernier octet de l’adresse IP. [Paramètres généraux du compte](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=fr)
 * Masquez l’ID du visiteur du rapport. Par défaut, les ID de visiteurs ne sont pas visibles dans Adobe Workspace ni dans Adobe Reports and Analytics. Les ID de visiteur sont disponibles dans les flux de données et dans Data Warehouse. L’accès aux flux de données et à Data Warehouse peut être limité par les [autorisations d’accès dans l’Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)
@@ -30,10 +31,12 @@ Les Directives fournissent une exemption limitée à l’exigence de consentemen
 
 Il convient également de tenir compte des considérations suivantes :
 
+* Envisagez de collecter l’état d’inclusion dans une variable Analytics afin de séparer les données d’inclusion des données d’exclusion pour la segmentation, les suites de rapports virtuelles ou d’acheminer vers des points de terminaison distincts.
 * Aucune mesure en dehors du site ou de l’application sans consentement préalable ; par exemple aucune campagne hors site, campagne par e-mail ni iFrame.
 * La collecte d’informations personnelles dans des variables n’est pas autorisée sans le consentement de l’intéressé.
 * Les données ne peuvent être utilisées que pour la production de statistiques anonymes, sans être combinées avec d’autres données.
 * Les données ne sont pas utilisées pour les actions de référence croisée.
 * Les données de géolocalisation par GPS ne sont pas collectées.
+* Lorsque l&#39;utilisateur final a donné son consentement, les paramètres ci-dessus peuvent être modifiés et les restrictions assouplies.
 
 Pour plus d’informations, consultez le site web sur l’[exemption de cookies de la CNIL](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications).
