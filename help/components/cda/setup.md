@@ -2,9 +2,9 @@
 title: Configuration des analyses entre appareils
 description: Configurez une suite de rapports virtuelle pour activer les analyses entre appareils.
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,7 @@ Les analyses entre appareils sont configurées sur votre suite de rapports conte
 * L’identifiant de la suite de rapports contenant des données de plusieurs appareils à laquelle vous souhaitez appliquer l’analyse entre appareils
 * La méthode d’analyses entre appareils que vous souhaitez utiliser (groupement basé sur les champs, Adobe Private Graph ou Adobe Co-Op Graph)
 * Si vous envisagez d’utiliser le groupement basé sur les champs, la prop ou l’eVar qui contient l’identifiant utilisateur
+* Votre préférence en matière de fréquence de relecture et de durée de période de recherche arrière. Les options incluent une relecture une fois par semaine avec une période de recherche arrière de 7 jours ou une relecture chaque jour avec une période de recherche arrière de 1 jour.
 
 Une fois que vous avez fourni ces informations à votre Customer Success Manager, ce dernier collabore avec les ingénieurs d’Adobe pour intégrer le traitement des analyses entre appareils à la suite de rapports choisie.
 
