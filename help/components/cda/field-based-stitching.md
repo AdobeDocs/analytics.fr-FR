@@ -2,10 +2,10 @@
 title: Groupement basé sur les champs
 description: Comprenez les conditions préalables et les limites du groupement de données à l’aide du groupement basé sur les champs.
 translation-type: tm+mt
-source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
+source-git-commit: beed7ffcc39b9b2628b1487b5e2eac42fa3a94d0
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 68%
+source-wordcount: '499'
+ht-degree: 35%
 
 ---
 
@@ -27,8 +27,14 @@ Si vous envisagez d’implémenter les analyses entre appareils à l’aide du g
 
 ## Limites spécifiques au groupement basé sur les champs
 
-* Le groupement basé sur les champs fonctionne mieux sur les suites de rapports qui présentent un taux d’identification élevé. Si votre suite de rapports présente un taux d’identification ou de connexion faible, privilégiez le [graphique Co-op](device-graph.md).
-* Bien que les props et les eVars contiennent des règles de traitement des caractères en majuscules et en minuscules à des fins de rapports, l’assemblage basé sur des champs ne transforme en rien la prop ou l’eVar utilisé pour l’assemblage. L’assemblage basé sur les champs utilise la valeur du champ spécifié telle qu’elle existe après les règles VISTA et les règles de post-traitement. Par exemple, si le mot &quot;Bob&quot; apparaît parfois dans la prop/l&#39;eVar et que le mot &quot;BOB&quot; apparaît, il s&#39;agit de deux personnes distinctes.
+* L’assemblage basé sur les champs fonctionne mieux sur les suites de rapports qui présentent un taux élevé d’identification/d’authentification des utilisateurs.
+* Bien que les props et les eVars contiennent des règles de traitement des caractères en majuscules et en minuscules à des fins de rapports, l’assemblage basé sur des champs ne transforme en rien la prop ou l’eVar utilisé pour l’assemblage. L’assemblage basé sur les champs utilise la valeur du champ spécifié telle qu’elle existe après les règles VISTA et les règles de post-traitement. Le processus de raccordement est sensible à la casse. Par exemple, si le mot &quot;Bob&quot; apparaît parfois dans la prop/l&#39;eVar et que le mot &quot;BOB&quot; apparaît, il sera traité comme deux personnes distinctes par le processus de sélection.
+* Etant donné que l’assemblage basé sur les champs est sensible à la casse, l’Adobe recommande de revoir les règles VISTA ou les règles de traitement qui s’appliquent à la variable prop ou à l’eVar utilisée pour l’assemblage basé sur les champs. Ils doivent être revus pour s&#39;assurer qu&#39;aucune de ces règles n&#39;introduit de nouvelles formes de même ID. Par exemple, vous devez vous assurer qu’aucune règle VISTA ou de traitement n’introduit une mise en minuscule de la prop ou de l’eVar sur une partie seulement des accès.
+* L’assemblage basé sur les champs ne prend pas en charge l’utilisation de plusieurs prop ou eVar à des fins d’assemblage. Par exemple, si eVar12 contient un identifiant de connexion et eVar20 un identifiant de messagerie, vous devez en choisir un.
+* L’assemblage basé sur les champs ne combine ni ne concatène les champs (par exemple, eVar10 + prop5).
+* La prop ou l’eVar doit contenir un seul type d’identifiant. Par exemple, la prop ou l’eVar ne doit pas contenir une combinaison d’ID de connexion et d’ID d’adresse électronique.
+* Si plusieurs accès se produisent avec le même horodatage pour le même visiteur, mais avec des valeurs différentes dans la prop de raccordement ou l’eVar, l’ADC choisit selon l’ordre alphabétique. Ainsi, si le visiteur A a deux accès avec le même horodatage et que l’un des accès spécifie Bob et l’autre spécifie Ann, CDA choisira Ann.
+
 
 ## Étapes suivantes
 
