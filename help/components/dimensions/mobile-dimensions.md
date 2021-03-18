@@ -1,11 +1,11 @@
 ---
 title: Dimensions mobiles
-description: Dimensions basées sur la chaîne de l’agent utilisateur de l’appareil.
+description: Dimensions basées sur l’adresse IP du périphérique.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,8 @@ Les dimensions mobiles fournissent des informations sur les propriétés des app
 
 ## Renseignement des données dans ces dimensions
 
-Ces dimensions font référence à des règles de recherche internes à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` envoyé avec l’accès. Adobe travaille en partenariat avec [DeviceAtlas](https://deviceatlas.com/) pour gérer les recherches entre l’agent utilisateur et les dimensions mobiles. Si vous utilisez une bibliothèque AppMeasurement (par le biais d’Adobe Experience Platform Launch, par exemple), toutes les dimensions mobiles sont prêtes à l’emploi.
+Ces dimensions font référence à des règles de recherche internes à Adobe. [!UICONTROL Les ] recherches d&#39;opérateurs mobiles sont déterminées par adresse IP, en utilisant les données que nous obtenons de NetAcuity (un produit Digital Element).
+Si vous utilisez une bibliothèque AppMeasurement (par le biais d’Adobe Experience Platform Launch, par exemple), toutes les dimensions mobiles sont prêtes à l’emploi.
 
 ## Descriptions des dimensions mobiles
 
