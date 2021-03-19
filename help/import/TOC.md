@@ -5,10 +5,10 @@ user-guide-title: Guide de mise en œuvre d’Analytics
 breadcrumb-title: Guide d’importation
 user-guide-description: 'Insérez des données dans Analytics à partir des sources externes, en masse ou en temps réel. '
 translation-type: tm+mt
-source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 97%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 97%
       + [ID de transaction](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
       + [Identifiant visiteur](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [Traitement complet](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
+      + [Fin de vie pour le traitement complet](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
    + [Intégration des transactions et des clients](c-data-sources/datasrc-integrating-offline-data.md)
    + [ID de transaction et profils du visiteur](c-data-sources/datasrc-tid-visitor-profile.md)
    + [FAQ sur les sources de données](c-data-sources/datasrc-faq.md)
