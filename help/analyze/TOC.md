@@ -5,9 +5,9 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que les Tableaux de bord Adobe Analytics, le Report Builder et le Activity Map.
 translation-type: tm+mt
-source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1012'
 ht-degree: 97%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 97%
       + Tableau de cohortes {#cohort-table}
          + [Qu’est-ce que l’analyse des cohortes ?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuration d’un rapport d’analyse des cohortes](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + Cas d’utilisation de l’[analyse des cohortes](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Cas d’utilisation de l’analyse des cohortes](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abandon {#fallout}
          + [Abandon - Aperçu](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configuration d’une visualisation d’abandon](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -120,6 +120,7 @@ ht-degree: 97%
          + [Générateur d’alertes](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Gestionnaire d’alertes](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertes intelligentes - Exemples d’utilisation](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + [Préférences de l’utilisateur](analysis-workspace/user-preferences.md)
    + FAQ sur Workspace {#workspace-faq}
       + [Questions fréquentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimisation des performances d’Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
