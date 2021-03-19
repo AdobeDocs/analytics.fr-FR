@@ -3,10 +3,10 @@ description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
 workflow-type: tm+mt
 source-wordcount: '8206'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Pour accéder à l’ensemble des notes de mise à jour d’Adobe Experience Clo
 
 | Fonctionnalité | Date cible | Description |
 | --- | --- | --- |
-| Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante qui se trouve dans Quick Insights a été ajouté à toutes les zones de dépôt dans Workspace. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
+| Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante trouvé dans [!UICONTROL Quick Insights] sera ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
 
 
 ## Janvier 2021
@@ -27,13 +27,13 @@ Pour accéder à l’ensemble des notes de mise à jour d’Adobe Experience Clo
 | Fonctionnalité | Date cible | Description |
 | --- | --- | --- |
 | URL des images | 14 janvier 2021 | Vous pouvez ajouter des images à des projets Workspace en référençant une URL d’image publique. |
-| Gestionnaires de paramètres et de source combinés pour les visualisations | 14 janvier 2021 | Le gestionnaire de la source de données (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés en une seule fenêtre contextuelle. Vous pouvez ainsi facilement gérer votre source et vos paramètres à partir du même emplacement. |
+| Gestionnaires de paramètres et de source combinés pour les visualisations | 14 janvier 2021 | Le gestionnaire [!UICONTROL Source de données] (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés en une seule fenêtre contextuelle afin que vous puissiez facilement gérer votre source et vos paramètres à partir du même emplacement. |
 
 ## Octobre 2020
 
 | Fonctionnalité | Description |
 | --- | --- |
-| Visualisation Ligne : [option de tendance de moyenne glissante](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=fr-FR) | **[!UICONTROL La moyenne glissante]** a été ajoutée aux paramètres de tendance de visualisation Ligne. Connue également sous le nom de moyenne mobile, une moyenne glissante utilise un nombre spécifique de points de données (déterminé par une sélection de **[!UICONTROL périodes]**), calcule leur moyenne et utilise cette moyenne comme point dans la ligne. |
+| Visualisation Ligne : [option de tendance de moyenne glissante](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=fr-FR) | **[!UICONTROL La moyenne glissante]**[!UICONTROL a été ajoutée aux paramètres de tendance de visualisation Ligne. ] Connue également sous le nom de moyenne mobile, une moyenne glissante utilise un nombre spécifique de points de données (déterminé par une sélection de **[!UICONTROL périodes]**), calcule leur moyenne et utilise cette moyenne comme point dans la ligne. |
 | [Page d’aide sur les performances ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=fr-FR) | La page d’aide sur les performances Analysis Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. |
 
 ## Septembre 2020
@@ -41,7 +41,7 @@ Pour accéder à l’ensemble des notes de mise à jour d’Adobe Experience Clo
 | Fonctionnalité | Description |
 | --- | --- |
 | [Téléchargement de 50 000 éléments pour une seule dimension](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr-FR#download-items) | Vous pouvez désormais télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre, avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
-| [Améliorations de la visualisation Ligne](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Vous pouvez afficher ou masquer l’axe des x et l’axe des y de n’importe quelle visualisation Ligne. Cela peut s’avérer particulièrement utile lorsque les visualisations Ligne sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation Ligne pour mettre rapidement en évidence les hausses et les baisses d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation Ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentielle], [!UICONTROL Puissance] et [!UICONTROL Quadratique].</li></ul> |
+| [Améliorations de la visualisation Ligne](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Vous pouvez afficher ou masquer l’axe des x et l’axe des y de n’importe quelle visualisation [!UICONTROL Ligne]. Cela peut s’avérer particulièrement utile lorsque les visualisations [!UICONTROL Ligne] sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation Ligne pour mettre rapidement en évidence les hausses et les baisses d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation Ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentielle], [!UICONTROL Puissance] et [!UICONTROL Quadratique].</li></ul> |
 | Nouvelles périodes | Nous avons ajouté 5 nouvelles périodes afin que vous puissiez choisir parmi des périodes qui n’incluent pas de données de jour partielles à partir d’aujourd’hui : 7 derniers jours complets, 14 derniers jours complets, 30 derniers jours complets, 60 derniers jours complets, 90 derniers jours complets. |
 
 ## Août 2020
