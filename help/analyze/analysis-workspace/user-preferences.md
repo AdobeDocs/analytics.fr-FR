@@ -2,10 +2,10 @@
 title: Comment définir les préférences utilisateur en Analysis Workspace
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,7 @@ Les préférences générales s’appliquent à votre expérience Adobe Analytic
 
 ## Préférences de projet
 
-Les préférences de projet s’appliquent aux nouveaux projets et aux nouveaux panneaux créés en Analysis Workspace. Les préférences peuvent également être gérées par projet sous Espace de travail > Projet > Informations et paramètres du projet.
+Les préférences de projet s’appliquent aux nouveaux projets et aux nouveaux panneaux créés en Analysis Workspace. Les préférences peuvent également être gérées par projet sous [!UICONTROL Espace de travail] > [!UICONTROL Projet] > [!UICONTROL Informations et paramètres du projet].
 
 | Section | Préférence | Options |
 | --- | --- | --- |
@@ -42,5 +42,5 @@ Les préférences de projet s’appliquent aux nouveaux projets et aux nouveaux 
 |  | [Suites de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | <ul><li>Le plus récent (par défaut)</li><li>Spécifique - choisi à partir d’une liste</li></ul> |
 |  | [Calendrier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Liste de plages de dates prêtes à l’emploi, y compris **[!UICONTROL Ce mois]** (par défaut) |
 |  | [Type de panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Structure libre (par défaut)</li><li>Vide</li><li>Aperçu rapide</li></ul> |
-|  | Format de nombre | <ul><li>1 000,00 (par défaut)</li><li>1 000 000</li><li>1 000 000</li></ul> |
+|  | Format du nombre | <ul><li>1 000,00 (par défaut)</li><li>1 000 000</li><li>1 000 000</li></ul> |
 |  | Séparateur CSV | <ul><li>Virgule (par défaut)</li><li>Point-virgule</li><li>Deux-points</li><li>Tube</li><li>Point</li><li>un espace</li><li>Tabulation</li></ul> |
