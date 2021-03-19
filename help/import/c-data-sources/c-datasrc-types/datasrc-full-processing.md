@@ -1,14 +1,11 @@
 ---
 description: Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
-subtopic: Data sources
-title: Traitement complet
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+title: Traitement complet option pour les sources de données
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 97%
+source-wordcount: '728'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (insertion de données en bloc)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. L’Adobe prévoit d’abandonner à l’avenir les sources de données à traitement complet.
+>Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (insertion de données en bloc)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. Adobe prévoit de rendre obsolètes les sources de données à traitement complet. [En savoir plus](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
