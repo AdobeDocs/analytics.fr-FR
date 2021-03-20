@@ -1,11 +1,11 @@
 ---
-title: null
-description: null
+title: Fin de vie des sources de données à traitement complet
+description: Raisons de la fin de vie et comparaisons entre l’API d’insertion de données en bloc et les sources de données à traitement complet.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 14%
+source-wordcount: '732'
+ht-degree: 13%
 
 ---
 
