@@ -1,11 +1,11 @@
 ---
 title: Comment définir les préférences utilisateur en Analysis Workspace
-description: null
+description: Vous pouvez définir des références de landing page et de projet dans un emplacement central.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 18%
+source-wordcount: '220'
+ht-degree: 17%
 
 ---
 
