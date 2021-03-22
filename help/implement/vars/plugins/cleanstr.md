@@ -2,10 +2,10 @@
 title: cleanStr
 description: Permet de supprimer ou de remplacer tous les caractères superflus d’une chaîne.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: cleanStr v1.0 */
-function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)/g,"");str=str.trim(); str=str.replace(/[\u2018\u2019\u201A]/g,"'");str=str.replace(/\t+/g,"");for(str=str.replace(/[\n\r]/g," ");-1<str.indexOf("  ");)str=str.replace(/\s\s/g," ");return str}return""};
+/* Adobe Consulting Plugin: cleanStr v2.0 (No Prerequisites Required) */
+function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2.0"};a:{if("undefined"!==typeof window.s_c_il){var b=0;for(var c;b<window.s_c_il.length;b++)if(c=window.s_c_il[b],c._c&&"s_c"===c._c){b=c;break a}}b=void 0}"undefined"!==typeof b&&(b.contextData.cleanStr="2.0");if("string"===typeof a){a=a.replace(/<\/?[^>]+(>|$)/g,"");a=a.trim();a=a.replace(/[\u2018\u2019\u201A]/g,"'");a=a.replace(/\t+/g,"");for(a=a.replace(/[\n\r]/g," ");-1<a.indexOf("  ");)a=a.replace(/\s\s/g," ");return a}return""}
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -105,6 +105,10 @@ cleanStr(s.eVar1)
 Exécuter le plug-in seul (sans attribuer la valeur renvoyée à une variable) ne « réinitialise » pas réellement la variable transmise par le biais de l’argument str.
 
 ## Historique des versions
+
+### 2.0 (19 mars 2021)
+
+* Numéro de version Ajouté en tant que données contextuelles.
 
 ### 1.0 (15 avril 2018)
 
