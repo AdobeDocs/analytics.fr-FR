@@ -2,10 +2,10 @@
 title: pt
 description: Permet d’exécuter une fonction sur une liste de variables.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '602'
+ht-degree: 98%
 
 ---
 
@@ -51,8 +51,8 @@ Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: pt v2.01 */
- s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
+/* Adobe Consulting Plugin: pt v3.0 */
+function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var c;a<window.s_c_il.length;a++)if(c=window.s_c_il[a],c._c&&"s_c"===c._c){a=c;break a}}a=void 0}if("undefined"!==typeof a&&(a.contextData.pt="3.0",b&&a[f])){b=b.split(d||",");d=b.length;for(var e=0;e<d;e++)if(c=a[f](b[e],g))return c}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -74,7 +74,7 @@ L’appel de cette méthode renvoie une valeur si la fonction de rappel (dans l�
 Le code suivant fait partie du plug-in getQueryParam.  Il exécute la fonction d’assistance getParameterValue sur chacune des paires clé-valeur contenues dans la chaîne de requête de l’URL (fullQueryString).  Pour extraire chaque paire clé-valeur, la chaîne fullQueryString doit être délimitée et séparée par une esperluette « &amp; ». parameterKey fait référence au paramètre de chaîne de requête que le plug-in cherche spécifiquement à extraire de la chaîne de requête.
 
 ```javascript
-returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
+returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
 La ligne ci-dessus est un raccourci pour exécuter un code semblable à celui présenté ci-dessous :
@@ -91,6 +91,10 @@ for(var i = 0; i < parametersLength; i++)
 ```
 
 ## Historique des versions
+
+### 3.0 (19 mars 2021)
+
+* Numéro de version Ajouté en tant que données contextuelles.
 
 ### 2.01 (24 septembre 2019)
 
