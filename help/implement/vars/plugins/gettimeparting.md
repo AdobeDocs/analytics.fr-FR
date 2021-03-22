@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Permet de mesurer le moment où une action spécifique a lieu.
 translation-type: tm+mt
-source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
+source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 85%
+source-wordcount: '821'
+ht-degree: 84%
 
 ---
 
@@ -57,8 +57,8 @@ Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getTimeParting v6.2 */
-var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:a, minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])};
+/* Adobe Consulting Plugin: getTimeParting v6.3 (No Prerequisites Needed) */
+function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",version:"6.3"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c){a=b;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.getTimeParting="6.3");c=document.documentMode?void 0:c||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:c,minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -135,6 +135,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 ```
 
 ## Historique des versions
+
+### 6.3 (19 mars 2021)
+
+* Numéro de version Ajouté en tant que données contextuelles.
 
 ### 6.2 (5 novembre 2019)
 
