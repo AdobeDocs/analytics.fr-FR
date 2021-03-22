@@ -12,11 +12,12 @@ tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.fr-FR
 type: Documentation
 index: true
+description: Inclut des métadonnées de niveau repo qui transmettent les fichiers de guide d’utilisateur TOC.md dans le repo.
 translation-type: tm+mt
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 90%
 
 ---
 
