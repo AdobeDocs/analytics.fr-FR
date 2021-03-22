@@ -2,10 +2,10 @@
 title: rfl
 description: Permet de supprimer une valeur spécifique d’une chaîne délimitée par des caractères.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 4c23f3cf764834636c1cdcefb2903efc9c90be7a
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 100%
+source-wordcount: '1054'
+ht-degree: 99%
 
 ---
 
@@ -56,8 +56,8 @@ Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: rfl (removeFromList) v2.01 */
-s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df=df?!0:!1;lv=lv.split(d1?d1:",");d1=lv.length;for(var c=0;c<d1;c++)-1<lv[c].indexOf(":")&&(b=lv[c].split(":"),b[1]=b[0]+":"+b[1],lv[c]=b[0]),-1<lv[c].indexOf("=")&&(b=lv[c].split("="), b[1]=b[0]+"="+b[1],lv[c]=b[0]),lv[c]!==vr&&b?d.push(b[1]):lv[c]!==vr?d.push(lv[c]):lv[c]===vr&&df&&(b?d.push(b[1]):d.push(lv[c]),df=!1),b="";return d.join(d2)};
+/* Adobe Consulting Plugin: rfl (removeFromList) v2.1  */
+function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plugin:"rfl",version:"2.1"};a:{if("undefined"!==typeof window.s_c_il){var c=0;for(var a;c<window.s_c_il.length;c++)if(a=window.s_c_il[c],a._c&&"s_c"===a._c){c=a;break a}}c=void 0}"undefined"!==typeof c&&(c.contextData.rfl="2.1");if(!b||!f)return"";c=[];a="";e=e||",";h=h||e;g=g||!1;b=b.split(e);e=b.length;for(var d=0;d<e;d++)-1<b[d].indexOf(":")&&(a=b[d].split(":"),a[1]=a[0]+":"+a[1],b[d]=a[0]),-1<b[d].indexOf("=")&&(a=b[d].split("="),a[1]=a[0]+"="+a[1],b[d]=a[0]),b[d]!==f&&a?c.push(a[1]):b[d]!==f?c.push(b[d]):b[d]===f&&g&&(a?c.push(a[1]):c.push(b[d]),g=!1),a="";return c.join(h)};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -403,6 +403,10 @@ s.events = "event22,event23,event24";
 Pour rappel, le plug-in renvoie uniquement une valeur. Il ne « réinitialise » pas réellement la variable transmise par le biais de l’argument lv.
 
 ## Historique des versions
+
+### 2.1 (19 mars 2021)
+
+* Numéro de version Ajouté en tant que données contextuelles.
 
 ### 2.01 (17 septembre 2019)
 
