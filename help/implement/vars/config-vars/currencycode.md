@@ -1,11 +1,11 @@
 ---
-title: Quelle est la variable currencyCode et comment l’utiliser ?
-description: Pour les sites de commerce électronique, définit la devise dans laquelle la page traite.
-translation-type: tm+mt
+title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
+description: Pour les sites d’e-commerce, définit la devise utilisée par la page.
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
