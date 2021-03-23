@@ -1,12 +1,12 @@
 ---
-description: Utilisez l’Analyse de contribution pour identifier les anomalies statistiques et les corrélations dans les données.
+description: Utilisation de l’analyse des contributions pour identifier les anomalies statistiques et les corrélations au sein des données.
 title: Analyse des contributions - Aperçu
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
