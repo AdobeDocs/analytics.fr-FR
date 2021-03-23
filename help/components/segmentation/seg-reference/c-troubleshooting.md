@@ -2,11 +2,11 @@
 description: Dépannage et correction des problèmes liés aux segments.
 title: Dépannage de la segmentation
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Raisons possibles :
 * Le rapport ne prend pas en charge la segmentation.
 * Aucune donnée ne correspond aux critères de segmentation.
 
-## Pourquoi ne puis-je pas voir un segment que j’ai créé dans le Gestionnaire de segments ?  {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Pourquoi ne puis-je pas voir un segment que j’ai créé dans le Gestionnaire de segments ? {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 Raisons possibles :
 
@@ -40,7 +40,7 @@ Raisons possibles :
 * Le segment n’a pas été enregistré.
 * L’adresse IP est peut-être bloquée du côté de l’utilisateur.
 
-## Pourquoi les données de page affichées après avoir appliqué un segment semblent-elles incorrectes ?  {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Pourquoi les données de page affichées après avoir appliqué un segment semblent-elles incorrectes ? {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 Raisons possibles :
 
