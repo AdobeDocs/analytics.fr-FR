@@ -1,11 +1,11 @@
 ---
 title: Guide des composants d’Analytics
-description: Découvrez les différents composants que Adobe Analytics offre.
-translation-type: tm+mt
+description: Découvrez les différents composants proposés par Adobe Analytics.
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
