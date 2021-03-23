@@ -1,11 +1,11 @@
 ---
 title: Intégration d’Analytics
-description: Découvrez comment intégrer des données d’autres emplacements à Adobe Analytics.
-translation-type: tm+mt
+description: Découvrez comment intégrer des données issues d’autres emplacements dans Adobe Analytics.
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Configurez des intégrations avec d’autres solutions Adobe Experience Cloud,
 
 * **Audience Analytics :** Intégrez Adobe Audience Manager à Adobe Analytics.
 * **Advertising Analytics :** Consultez les données de recherche payante juxtaposées aux données Adobe Analytics.
-* **Analytics pour Target :** A4T intègre Adobe Analytics et Adobe Target ensemble.
+* **Analytics for Target :** A4T intègre Adobe Analytics et Adobe Target ensemble.
 * **Rapports Adobe Campaign :** Intégrez Adobe Analytics à Adobe Campaign.
 * **Création de rapports AEM Assets :** Permet la collecte d’impressions et de clics sur les ressources diffusées à partir d’Adobe Experience Manager.
 
