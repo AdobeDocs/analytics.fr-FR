@@ -3,11 +3,11 @@ description: Questions fréquentes sur la segmentation.
 title: Questions fréquentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2078'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -336,7 +336,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 | longueur du signet du périphérique mobile | compatible java | recherche payante |
 | longueur de l’URL du périphérique mobile | langage |  |
 
-## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Les dimensions basées sur des entiers (la largeur du navigateur par exemple) avec un jeu connu de valeurs ont été fractionnées en plages énumérées afin que vous puissiez définir rapidement les segments pour une plage spécifique. « - Regroupement » est ajouté à ces listes énumérées après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées en utilisant les interfaces du Créateur de segments antérieure et nouvelle :
 
