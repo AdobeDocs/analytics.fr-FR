@@ -1,12 +1,12 @@
 ---
-description: Résoudre les problèmes liés à Advertising Analytics et y remédier.
+description: Dépannage et correction des problèmes liés à Advertising Analytics.
 title: Résolution des problèmes d’Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
