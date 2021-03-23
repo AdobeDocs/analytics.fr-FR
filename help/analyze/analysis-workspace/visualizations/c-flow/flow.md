@@ -1,12 +1,12 @@
 ---
-description: Utilisez la visualisation de flux dans un projet Workspace.
+description: Utilisation de la visualisation de flux dans un projet Workspace.
 title: Flux - Aperçu
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Elle vous offre les possibilités suivantes :
 
 >[!NOTE]
 >
->Pour plus d’informations sur la manière dont les résultats de l’application de segments au flux peuvent différer entre Analysis Workspace et les rapports et analyses, voir [Segmentation en tant que fondement du flux et des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Pour en savoir plus sur les différences de résultats de l’application des segments au flux entre Analysis Workspace et Reports &amp; Analytics, consultez [Segmentation comme base des flux et des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Didacticiel](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=fr-FR) vidéo sur la visualisation de flux (4:56)
+[Tutoriel vidéo sur la visualisation des flux](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## Flux interdimensionnels {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
