@@ -1,14 +1,14 @@
 ---
-description: Implémentez Adobe Analytics à l’aide de la gestion dynamique des balises.
+description: Implémentation d’Adobe Analytics à l’aide de la gestion dynamique des balises.
 keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm
 title: Mise en œuvre de DTM - Aperçu
 topic: Développeur et mise en œuvre
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
