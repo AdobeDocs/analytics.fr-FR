@@ -1,18 +1,18 @@
 ---
 title: Durée par visiteur (secondes)
 description: La mesure « Durée par visiteur (secondes) » indique la durée moyenne d’interaction des visiteurs avec un élément de dimension donné au cours de l’ensemble de la durée de vie d’un visiteur.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Durée par visiteur (secondes)
 
-La mesure [!UICONTROL Durée par visiteur (secondes)] indique la durée moyenne d’interaction des visiteurs avec un élément de dimension donné pendant toute la durée de vie d’un visiteur.
+La mesure [!UICONTROL Durée par visiteur (secondes)] indique la durée moyenne d’interaction des visiteurs avec un élément de dimension donné au cours de l’ensemble de la durée de vie d’un visiteur.
 
 Cette mesure n’est pas disponible dans Data Warehouse en raison de sa différence d’architecture de traitement.
 
