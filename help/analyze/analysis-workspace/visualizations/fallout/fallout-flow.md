@@ -1,12 +1,12 @@
 ---
-description: Utilisez la visualisation des abandons dans un projet Workspace.
+description: Utilisation de la visualisation des abandons dans un projet Workspace.
 title: Abandon - Aperçu
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Une visualisation des abandons s’avère utile pour l’analyse des éléments 
 * Flux de trafic général de portée plus large : parmi les personnes qui ont consulté la page d’accueil, ce flux montre combien d’entre elles ont réalisé une recherche et combien d’entre elles ont consulté un article en particulier.
 * Corrélations entre les événements de votre site. Les corrélations indiquent quel pourcentage de personnes ayant consulté votre politique de confidentialité ont continué leur visite jusqu’à l’achat d’un produit.
 
-[Tutoriel vidéo sur la visualisation des abandons](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=fr-FR) (4:15)
+[Tutoriel vidéo sur la visualisation des abandons](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## Segmentation comme base des flux et des abandons {#section_654F37A398C24DDDB1552A543EE29AA9}
 
