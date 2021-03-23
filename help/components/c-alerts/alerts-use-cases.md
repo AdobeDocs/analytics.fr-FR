@@ -1,12 +1,12 @@
 ---
-description: Cas d’utilisation pour la création et la gestion d’alertes intelligentes.
+description: Cas d’utilisation relatifs à la création et à la gestion d’alertes intelligentes.
 title: Alertes intelligentes - Exemples d’utilisation
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
